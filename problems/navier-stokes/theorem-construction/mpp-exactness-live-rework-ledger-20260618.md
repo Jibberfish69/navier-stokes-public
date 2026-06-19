@@ -15713,6 +15713,57 @@ to `problems/navier-stokes/submission-bundle` also reports
 `custom_volumes_TOC.tex` finds no remaining hits, and `git diff --check` passes
 for the edited TeX/template surfaces.
 
+## Final Verification And Build Pass
+
+Minimum authority surfaces checked:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+- `submission-bundle/navier-stokes-submission.tex`.
+- `live-theorem-edge.yaml`.
+- `source-frontier.yaml`.
+- `submission-bundle/source-frontier.yaml`.
+- `theorem-packet.yaml`.
+- `theorem-repair.yaml`.
+- `dependency-discharge.yaml`.
+- `submission-verdict.yaml`.
+- `submission-bundle/submission-verdict.yaml`.
+
+Direct marker scan over those surfaces leaves only intentionally preserved route
+or guard language: `Gold Standard` / `Silver Standard`, `standard basis`, and
+negative guard prose saying that a target is not guessed or not a guessed power
+law.  No remaining direct hit is being spent as proof force.
+
+Classifier verification:
+
+- broad profile over `problems/navier-stokes`, `md,yaml,tex`:
+  `proof_bearing_or_unclassified_hit_count: 0`;
+- confidence profile over `problems/navier-stokes`, `md,yaml,tex`:
+  `proof_bearing_or_unclassified_hit_count: 0`;
+- immediacy profile over `problems/navier-stokes`, `md,yaml,tex`:
+  `proof_bearing_or_unclassified_hit_count: 0`;
+- guesswork profile over `problems/navier-stokes`, `md,yaml,tex`:
+  `proof_bearing_or_unclassified_hit_count: 0`.
+
+TeX build verification:
+
+`navier-stokes-submission.tex` now loads `mathrsfs` for the existing
+`\mathscr A_{collar}` notation.  The malformed reader-appendix
+scale-barrier paragraph now restores the exact classical surface,
+`P=I-\nabla\Delta^{-1}\operatorname{div}`, the pressure recovery
+`\Delta p^{(n)}`, and the full low-high/high-low/high-high Bony split.  The
+submission compile passes with TeX Live:
+
+```text
+PDF: submission-bundle/navier-stokes-submission.pdf
+Exit code: 0
+```
+
+Completion truth:
+
+The live mathematical exactness repair is complete under the current classified
+proof-bearing scan.  Remaining broad marker hits are intentionally preserved
+support/residue classes, not live proof payments.
+
 ## CM Pack And Scale-Critical Promotion-Guard Repair
 
 Old claim being spent:
