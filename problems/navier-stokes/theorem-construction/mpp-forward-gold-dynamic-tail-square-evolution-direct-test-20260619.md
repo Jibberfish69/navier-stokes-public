@@ -4,30 +4,29 @@ Date: 2026-06-19
 
 ## Status
 
-Direct tail-evolution test complete.  The cumulative high-frequency tail does
-obey a heat-damped scalar inequality, but the forcing term is exactly the
-source/reserve creation wall.  Heat damping controls inherited tail.  It does
-not prevent first-time creation of a scale-critical tail square from a
-vanishing first-moment source on a heat window.
+Corrected direct test complete.  The earlier version of this note treated the
+high-frequency dissipation tail as though it obeyed its own native heat-damped
+state equation.  That is stronger than the installed Navier--Stokes shell
+identity.
 
-The attempted supplier is:
+The native identity gives heat damping for the shell energy.  The square reserve
+is a square of the dissipation tail.  Moving from the energy tail to a
+dissipation-tail square costs exactly the missing source-square / reverse-Holder
+/ no-waste theorem.
+
+So this branch does not prove `SourceSquareReserve.A`.  It also does not install
+a new theorem called "source-forcing reverse Holder" from the dynamic tail
+calculation.  It only identifies the exact currency in which such a theorem
+would have to be proved.
+
+## 1. The reserve variable
+
+Keep the current source-square notation:
 
 ```math
-\text{tail heat evolution}
-\quad\Longrightarrow\quad
-\text{SourceSquareReserve.A}.
-```
-
-This implication is not proved from current inputs.
-
-## 1. Tail variable
-
-Use the current source-square notation:
-
-```math
-D_\ell(t)=\nu\|\nabla u_\ell(t)\|_2^2,
+D_\ell(t):=\nu\|\nabla u_\ell(t)\|_2^2,
 \qquad
-T_k(t)=\sum_{\ell>k+4}D_\ell(t),
+T_k(t):=\sum_{\ell>k+4}D_\ell(t),
 \tag{DTE.1}
 ```
 
@@ -35,266 +34,290 @@ and
 
 ```math
 \mathcal R_N(W)
-=
-\int_W\sum_{k>N}2^kT_k(t)^2\,dt.
+:=
+\int_W\sum_{k>N}2^kT_k(t)^2\,dt .
 \tag{DTE.2}
 ```
 
-The hoped-for reserve theorem is
+The desired terminal reserve estimate is
 
 ```math
 \mathcal R_N(W)
 \le
-o_N(1)+Loss_{legal}(W)
+o_N(1)+Loss_{\rm legal}(W)
 \tag{DTE.3}
 ```
 
-on the selected terminal same-fluid heat windows.
+on the selected terminal heat windows.
 
-## 2. Shell inequality in tail form
+## 2. The native damped state is energy, not \(T_k\)
 
-For each shell, the localized shell energy balance has the form
+The shell identity is energy-level.  For each dyadic shell it has the form
 
 ```math
-{d\over dt}D_\ell(t)
-+c\nu2^{2\ell}D_\ell(t)
+{1\over2}{d\over dt}\|u_\ell(t)\|_2^2
++cD_\ell(t)
 \le
-B_\ell^+(t)+L_\ell(t),
+\Psi_\ell^+(t)+L_\ell(t),
 \tag{DTE.4}
 ```
 
-where \(B_\ell^+\) is the positive nonlinear/source contribution in the same
-units as \(D_\ell'\), and \(L_\ell\) denotes legal pressure, cutoff,
-commutator, and selected leakage terms.
+where \(\Psi_\ell^+\) is the positive nonlinear/source input in the same
+currency as the shell energy derivative, and \(L_\ell\) denotes legal pressure,
+cutoff, commutator, and leakage terms.
 
-Summing over \(\ell>k+4\) gives
+Define the high energy tail
 
 ```math
-{d\over dt}T_k(t)
-+c\nu2^{2k}T_k(t)
-\le
-B_{>k}^+(t)+L_{>k}(t),
+A_k(t):=\sum_{\ell>k+4}\|u_\ell(t)\|_2^2 .
 \tag{DTE.5}
+```
+
+Summing `(DTE.4)` gives
+
+```math
+{d\over dt}A_k(t)+cT_k(t)
+\le
+\Psi_{>k}^+(t)+L_{>k}(t),
+\tag{DTE.6}
 ```
 
 where
 
 ```math
-B_{>k}^+(t):=\sum_{\ell>k+4}B_\ell^+(t),
+\Psi_{>k}^+(t):=\sum_{\ell>k+4}\Psi_\ell^+(t),
 \qquad
 L_{>k}(t):=\sum_{\ell>k+4}L_\ell(t).
-\tag{DTE.6}
-```
-
-The heat damping in `(DTE.5)` is real.  It is the strongest direct advantage of
-evolving the tail instead of only using the first-moment ledger.
-
-## 3. Squaring the tail reintroduces the source wall
-
-Multiplying `(DTE.5)` by \(2^kT_k(t)\) gives
-
-```math
-{1\over2}{d\over dt}\left(2^kT_k(t)^2\right)
-+c\nu2^{3k}T_k(t)^2
-\le
-2^kT_k(t)B_{>k}^+(t)
-+2^kT_k(t)L_{>k}(t).
 \tag{DTE.7}
 ```
 
-The left side contains the desired square density \(2^kT_k^2\), with the
-extra heat factor \(\nu2^{2k}\).  On a heat window of length
-\(\simeq(\nu2^{2k})^{-1}\), this heat factor is exactly scale-matched to the
-window length.
-
-The obstruction is the first forcing term:
+Bernstein gives \(T_k(t)\gtrsim \nu2^{2k}A_k(t)\), so `(DTE.6)` does contain
+heat damping for the energy tail \(A_k\).  It does not give
 
 ```math
-2^kT_k(t)B_{>k}^+(t).
+T_k'(t)+c\nu2^{2k}T_k(t)
+\le
+B_{>k}^+(t)+L_{>k}(t)
 \tag{DTE.8}
 ```
 
-This is not controlled by the first moment \(\int T_k\).  Young's inequality
-only gives
+as an installed native identity.  `(DTE.8)` is a differentiated-dissipation
+statement.  It would require an additional theorem controlling the time
+derivative of the dissipation tail and its differentiated nonlinear forcing.
+
+That distinction matters because `(DTE.8)` would charge pulses in a stronger
+currency than the local energy ledger supplies.
+
+## 3. What the energy identity actually gives
+
+From `(DTE.6)` we get a first-moment estimate:
 
 ```math
-2^kT_kB_{>k}^+
+\int_I T_k(t)\,dt
 \le
-{\theta}\nu2^{3k}T_k^2
-+C_\theta\nu^{-1}2^{-k}\left(B_{>k}^+\right)^2.
+A_k(a)
++\int_I\Psi_{>k}^+(t)\,dt
++\int_I L_{>k}(t)\,dt
 \tag{DTE.9}
 ```
 
-The first term can be absorbed.  The second term is a square/source reserve for
-the forcing.  Current inputs do not control
+for \(I=[a,b]\).  This is useful, but it is an \(L^1_t\) statement for
+\(T_k\).  The target reserve asks for an \(L^2_t\)-type statement:
 
 ```math
-\int_W\sum_{k>N}2^{-k}\left(B_{>k}^+(t)\right)^2dt.
+\int_I2^kT_k(t)^2\,dt .
 \tag{DTE.10}
 ```
 
-by the first-moment dissipation tail.  Thus the tail evolution has not proved
-`SourceSquareReserve.A`; it has moved the same square-reserve demand from
-\(T_k\) to the positive source forcing \(B_{>k}^+\).
+To pass from `(DTE.9)` to `(DTE.10)`, one needs a true height, square,
+reverse-Holder, Carleson, or no-waste input on the same terminal packet.  The
+energy identity alone does not supply it.
 
-## 4. Mild form gives the same obstruction
+A sufficient forcing-level square theorem would be
 
-The scalar mild form of `(DTE.5)` is
+```math
+\int_W\sum_{k>N}2^k\left(\Psi_{>k}^+(t)\right)^2\,dt
+\le
+o_N(1)+Loss_{\rm legal}(W),
+\tag{DTE.11}
+```
+
+together with a same-packet no-waste comparison
 
 ```math
 T_k(t)
 \le
-e^{-c\nu2^{2k}(t-s)}T_k(s)
-+
-\int_s^t
-e^{-c\nu2^{2k}(t-\tau)}
-\bigl(B_{>k}^+(\tau)+L_{>k}(\tau)\bigr)\,d\tau.
-\tag{DTE.11}
-```
-
-The inherited part is damped on the heat clock.  The created part is a
-convolution over the same heat clock.  Squaring `(DTE.11)` gives
-
-```math
-\int_I2^kT_k(t)^2dt
-\lesssim
-{2^k\over\nu2^{2k}}T_k(s)^2
-+
-2^k
-\int_I
-\left(
-\int_s^t e^{-c\nu2^{2k}(t-\tau)}B_{>k}^+(\tau)d\tau
-\right)^2dt
-+Legal.
+C\Psi_{>k}^+(t)+Legal_k(t)
 \tag{DTE.12}
 ```
 
-The convolution maps \(L^2_t\) source forcing to \(L^2_t\) tail with heat-scale
-constants.  It does not map a merely finite \(L^1_t\) source forcing to the
-needed square reserve uniformly on terminal heat windows.
+on the selected source-balanced branch.  But `(DTE.11)` and `(DTE.12)` are
+exactly source-square / reverse-Holder / no-waste content.  They are not
+consequences of `(DTE.6)`.
 
-So the mild form proves:
+## 4. The heat-scale pulse in the correct currency
+
+The obstruction already appears in the scalar energy inequality
 
 ```math
-\text{inherited tail decays,}
+A'(t)+T(t)\le\Psi(t).
 \tag{DTE.13}
 ```
 
-and leaves:
-
-```math
-\text{new tail creation needs source-forcing square control.}
-\tag{DTE.14}
-```
-
-That is exactly `ReserveCreationCharge.A`.
-
-## 5. Heat-scale scalar model
-
-The failure occurs even in the heat-damped scalar model.  Let
+Let
 
 ```math
 h_m:=2^{-2m},
 \qquad
-a_m:=\nu2^{2m},
+I_m=(T-h_m,T],
 \qquad
-a_mh_m\simeq\nu,
-\tag{DTE.15}
+A_m:=2^{-3m/2},
+\tag{DTE.14}
 ```
 
 and set
 
 ```math
-T_m(t)=A_mh_m^{-1}\mathbf 1_{I_m}(t),
-\qquad
-I_m=(T-h_m,T],
-\qquad
-A_m=2^{-3m/2}.
-\tag{DTE.16}
+T_m(t):=A_mh_m^{-1}{\bf 1}_{I_m}(t).
+\tag{DTE.15}
 ```
 
 Then
 
 ```math
 \int_{I_m}T_m(t)\,dt=A_m\to0,
-\tag{DTE.17}
+\tag{DTE.16}
 ```
 
-while
+but
 
 ```math
-\int_{I_m}2^mT_m(t)^2dt
+\int_{I_m}2^mT_m(t)^2\,dt
 =
 2^mA_m^2h_m^{-1}
 =1.
+\tag{DTE.17}
+```
+
+The source-balanced choice
+
+```math
+\Psi_m(t):=T_m(t)
 \tag{DTE.18}
 ```
 
-To satisfy the scalar heat equation
+has the same small first moment:
 
 ```math
-T_m'(t)+a_mT_m(t)=B_m(t)
+\int_{I_m}\Psi_m(t)\,dt=A_m\to0.
 \tag{DTE.19}
 ```
 
-one needs forcing with first moment of order \(A_m+a_mA_mh_m\), hence still
-of order \(A_m\) on a heat window.  That tends to zero.  The forcing rate is
-large, but only for heat time, and the first moment remains small.
+Thus the native energy ledger permits a heat-scale terminal pulse with
+vanishing first moment and order-one square reserve unless a stronger
+source-square, height, residence, or no-waste theorem is added.
 
-Thus heat damping plus first-moment source control does not imply the square
-tail reserve.  The missing input is the square or reverse-Holder control of
-the forcing itself.
+This is the exact time-face problem: the source is not private, but its native
+first-moment cost can shrink with the heat window while the normalized square
+readout remains order one.
 
-## 6. Navier-Stokes reading
+## 5. Why the differentiated-tail equation is too strong
 
-In the Navier-Stokes packet, \(B_{>k}^+\) is not a free external force.  It is
-the same coupled native source produced by pressure, convection, viscosity,
-and neighboring scales.  That participation fact gives visibility:
+If one instead assumes a dissipation-state equation
 
 ```math
-B_{>k}^+
-\text{ is part of the same local energy/source ledger.}
+T_m'(t)+c2^{2m}T_m(t)\le B_m(t),
 \tag{DTE.20}
 ```
 
-It does not give the stronger inequality
+then sustaining `(DTE.15)` over \(I_m\) requires
 
 ```math
-\int_W\sum_{k>N}2^{-k}\left(B_{>k}^+\right)^2dt
-\le
-o_N(1)+Loss_{legal}(W).
+\int_{I_m}B_m(t)\,dt
+\gtrsim
+2^{2m}\int_{I_m}T_m(t)\,dt
+=
+2^{2m}A_m
+=
+2^{m/2}.
 \tag{DTE.21}
 ```
 
-That stronger inequality is just a source-square / no-waste / reverse-Holder
-theorem for the forcing channel.  It is not a consequence of `(DTE.5)`.
+That cost diverges.  A theorem giving `(DTE.20)` with \(B_m\) controlled by an
+installed finite ledger would kill the pulse.
 
-## Verdict
+The current Navier--Stokes inputs do not give that theorem.  The local energy
+identity gives `(DTE.6)`, not `(DTE.20)`.  Treating `(DTE.20)` as available
+smuggles in an extra derivative of control and overcharges the terminal pulse.
 
-Dynamic tail evolution is useful but not decisive.
+## 6. Navier-Stokes reading
+
+The participation fact remains important:
 
 ```math
-\boxed{
-\text{heat damping kills inherited tail; it does not kill first-time
-heat-scale tail creation from an }L^1_t\text{ source pulse.}
-}
+\Psi_{>k}^+
+\text{ is a native same-fluid source in the local energy ledger.}
 \tag{DTE.22}
 ```
 
-The exact remaining supplier is:
+It gives visibility and ancestry.  It does not give coercivity.
+
+The missing coercive statement is one of the following in the same selected
+packet currency:
 
 ```math
-\boxed{
-\text{SourceSquareReserve.A for }T_k
-\quad\text{or}\quad
-\text{source-forcing square/reverse-Holder control for }B_{>k}^+
-\quad\text{or}\quad
-\text{no-waste rigidity.}
-}
+\int_W\sum_{k>N}2^kT_k(t)^2\,dt
+\le
+o_N(1)+Loss_{\rm legal}(W),
 \tag{DTE.23}
 ```
 
-So the dynamic tail route does not solve the gold branch.  It sharpens
-`ReserveCreationCharge.A`: first-time creation is possible unless the positive
-source forcing has a square, reverse-Holder, or no-waste charge on the same
-terminal heat windows.
+or
+
+```math
+\int_W\sum_{k>N}2^k\left(\Psi_{>k}^+(t)\right)^2\,dt
+\le
+o_N(1)+Loss_{\rm legal}(W)
+\quad\text{plus}\quad
+T_k\lesssim\Psi_{>k}^++Legal,
+\tag{DTE.24}
+```
+
+or a strict pressure-corrected no-waste Lyapunov inequality strong enough to
+replace `(DTE.24)`.
+
+## Verdict
+
+The corrected dynamic-tail test closes as a failed supplier, not as a proof.
+
+```math
+\boxed{
+\text{native heat damping controls the energy tail;}
+\quad
+\text{it does not by itself control the dissipation-tail square.}
+}
+\tag{DTE.25}
+```
+
+The surviving heat-scale pulse is not an artifact of a free external force.  It
+is compatible with the native energy-level source ledger because the
+first-moment source cost can be \(A_m\to0\) while the normalized square reserve
+stays order one.
+
+The exact remaining supplier is still:
+
+```math
+\boxed{
+\text{SourceSquareReserve.A}
+\quad\text{or}\quad
+\text{energy-currency source-square / reverse-Holder plus no-waste comparison}
+\quad\text{or}\quad
+\text{strict no-waste rigidity.}
+}
+\tag{DTE.26}
+```
+
+So dynamic tail evolution does not solve the gold branch.  It clarifies the
+currency wall: differentiating the dissipation tail would solve too much, but
+that differentiated-tail control is not installed by the Navier--Stokes local
+energy balance.
