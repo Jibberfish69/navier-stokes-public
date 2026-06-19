@@ -74,7 +74,7 @@ The strongest current lane-local formal package built from those notes is:
 
 - `problems/navier-stokes/theorem-construction/ontic-projected-flow-exact-lift-package.md`
 
-In particular, the D.2 wall should now be read with the transport-law
+In particular, the D.2 wall is now read with the transport-law
 checkpoint in mind:
 
 - the projected nonlinearity must remain nontrivial after projection,
