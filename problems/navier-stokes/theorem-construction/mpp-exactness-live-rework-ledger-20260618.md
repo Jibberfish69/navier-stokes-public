@@ -11453,3 +11453,37 @@ The targeted scan finds no remaining `standard conductivity` or `standard
 pushforward` phrase on the edited convex \(V2\) path.  It finds the replacement
 phrases `determinant-normalized pushforward`, `(EVI.6)`, and `(EVI.8)`.  `git
 diff --check` passes on the edited note.
+
+## Zeno Critical Profile Downstream Liouville Rework
+
+Old claim being spent:
+
+The Zeno critical-profile attempt said that if
+`ZenoCriticalProfileProduction.A` were proved, the zero-force branch could
+"plausibly" be killed by a Landau/Sverak-classification Liouville theorem.
+
+Exact replacement:
+
+The note now states the exact conditional split.  If
+`ZenoCriticalProfileProduction.A` is proved, the zero-force branch reduces to
+the downstream theorem
+`ZeroFluxCriticalProfileLiouville.A`, whose displayed hypotheses are a
+stationary `(-1)`-homogeneous smooth-sphere profile and `Phi_0=0`, with
+conclusion `U=0`.
+
+Proof or downstream consequence:
+
+The contradiction is available only after both pieces are proved: production of
+the stationary homogeneous profile and the zero-flux Liouville theorem.  The
+Liouville theorem is a downstream consumer and does not produce the profile.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-zenocriticalprofileproductionattempt-a-zenocriticalprofileproduction-a-zerofluxcriticalprofileliouville-a-6024ef0bd0.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `plausib` hit in the edited note.  It
+finds the replacement phrases `would reduce to the following downstream
+Liouville theorem` and `only after both pieces are proved`.  `git diff --check`
+passes on the edited note.
