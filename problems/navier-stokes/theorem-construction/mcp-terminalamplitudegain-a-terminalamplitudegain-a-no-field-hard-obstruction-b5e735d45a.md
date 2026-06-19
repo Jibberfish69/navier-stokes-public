@@ -125,4 +125,9 @@ or a genuinely new rigid terminal-Zeno theorem.
 
 ## Stop condition
 
-The same blocker has now reappeared across the direct Carleson, square reserve, cubic normal form, coefficient, retained-face amplitude, and Zeno routes.  Continuing this loop without a new mechanism is expected to repeat the same obstruction.  The next productive step is invention of a genuinely new source-control principle, not another reformulation of the current reserve.
+The same blocker has now reappeared across the direct Carleson, square reserve,
+cubic normal form, coefficient, retained-face amplitude, and Zeno routes.  The
+installed inputs contain no mechanism that changes this obstruction.  A further
+reformulation of the same reserve is therefore not a proof step; the remaining
+mathematical burden is a genuinely new source-control principle or rigid
+terminal-Zeno theorem.
