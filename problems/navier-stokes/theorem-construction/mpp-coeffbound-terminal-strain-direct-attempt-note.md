@@ -128,6 +128,28 @@ or decorrelates the alignment.
 
 Verdict: energy/enstrophy plus Bernstein does not install `CoeffBound.A`.
 
+The heat-scale version of this failure is sharpened in
+`mpp-forward-gold-heat-scale-coefficient-throttle-direct-test-20260619.md`.
+There the integrated Bernstein/enstrophy estimate gives
+
+```math
+\int_{I_j}\|S_{<j}^{loc}(t)\|_\infty\,dt
+\lesssim
+2^{j/2}\nu^{-1}
+\left(\int_{I_j}\mathcal D(t)\,dt\right)^{1/2}
+```
+
+on a heat window \(|I_j|\simeq 2^{-2j}/\nu\).  Thus coefficient residence
+requires the sharper rate
+
+```math
+\int_{I_j}\mathcal D(t)\,dt\lesssim \nu^2 2^{-j},
+```
+
+not merely finite total dissipation.  This is exactly the scale of a critical
+heat-feed event, so it cannot be recovered from the \(L^1_t\) dissipation
+ledger alone.
+
 ## Attempt 3: Calderon-Zygmund / Pressure Recovery
 
 Calderon-Zygmund recovers strain from vorticity in finite-`p` spaces:
