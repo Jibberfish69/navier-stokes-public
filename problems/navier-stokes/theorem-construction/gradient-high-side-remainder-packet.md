@@ -252,7 +252,7 @@ the output. So any integrated proof has to start from that exact support
 description and show how the coefficient sum over `N+M<k<j-4` is converted into
 an admissible time-integrable factor.
 
-Second, the usual integrated shortcut becomes circular if it argues through the
+Second, the integrated proof becomes circular if it argues through the
 candidate reduced estimate
 
 ```math
