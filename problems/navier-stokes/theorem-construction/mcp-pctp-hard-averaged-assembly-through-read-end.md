@@ -197,7 +197,6 @@ terminal-tail implication
 
 Equivalently,
 
-```math
 On the endpoint side this means
 
 ```math
