@@ -234,7 +234,7 @@ Thus the direct quadratic identity gives only
 
 ```math
 -{d\over ds}L_A(s)
-\lefteqn{\phantom{\ge}}
+=
 \nu\langle\nabla v,A_s\nabla v\rangle
 -\text{unsigned critical flux}
 +\text{dilation/operator terms}.
