@@ -9649,3 +9649,83 @@ The targeted FCI scan for stale `common-object discharge is formal`,
 `the branch can move on to closure packaging` now returns only the repaired
 exact-handoff language and the explicit guard that the word `formal` carries no
 proof force.  `git diff --check` passes on both edited files.
+
+## PCTP.hard / TTU Conditional-Reduction Rework
+
+Old claim being spent:
+
+Two active `PCTP.hard` / `TTU.A` surfaces were spending more than they had
+proved.  One note presented the averaged terminal-tail uniformization route as a
+discharge of `PCTP.hard / TTU.A`; the companion assembly note compressed the
+conditional route toward
+
+\[
+OriginalSmoothData\Longrightarrow \text{uniform terminal-tail readout}
+\Longrightarrow T_\ast=\infty.
+\]
+
+Both forms hid the separate `Jump_avg` branch, reused the old pointwise endpoint
+package, and treated the final periodic relaunch as though the same-branch
+\(H^s\) continuation readout had already been supplied.
+
+Exact replacement:
+
+The live route is now only the conditional reduction
+
+\[
+AvgProd+Jump_{avg}\text{-handled}+AVG.END.Cert+READ.END+END.PartMargin
+\Longrightarrow End_{NS}.
+\tag{TTU.cond}
+\]
+
+Here `Jump_avg-handled` means the averaged jump branch is separately eliminated
+or consumed by a proved same-branch theorem; `READ.END` is the readout theorem
+that converts the averaged endpoint record back to the pointwise terminal
+record; and `END.PartMargin` is the repaired Part-side input excluding
+response-margin collapse by closed terminal Part predicates or retained strict
+Part response margins on the same tail.
+
+The final classical relaunch step is separate.  It requires a same-branch
+Sobolev readout
+
+\[
+M_s:=\sup_{t<T_\ast}\|u(t)\|_{H^s(\mathbb T^3)}<\infty,
+\qquad s>5/2,
+\]
+
+so that periodic local theory supplies a lifespan
+\(\tau=\tau(\nu,s,M_s)>0\).
+
+Proof or downstream consequence:
+
+The no-`Jump_avg` branch supplies the averaged transported-center endpoint
+record.  The readout chain may then recover the repaired pointwise endpoint
+only after the averaged branch has been handled and the pointwise Part-margin
+input is present.  `End_NS` now excludes
+
+\[
+Dead,\quad response\text{-}margin\text{-}collapse,\quad
+packing\text{-}detached,\quad tower\text{-}blown,\quad Jump,
+\]
+
+using the same-record endpoint eliminations.  This does not prove
+`OriginalSmoothData => End_NS`, does not discharge `PCTP.hard / TTU.A` from
+original smooth data, and does not justify periodic relaunch without the
+same-branch \(H^s\) readout.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-pctp-hard-discharge-via-averaged-terminal-tail-uniformization-avg-end-a-a92107787f.md`;
+- `theorem-construction/mcp-pctp-hard-averaged-assembly-through-read-end.md`;
+- `live-theorem-edge.yaml`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted stale scan for false-discharge language finds one intentional guard
+line: the repaired conditional-reduction note says it "does not discharge
+`PCTP.hard / TTU.A` from" the live edge.  The positive scan finds `TTU.cond`,
+`Jump_avg-handled`, `END.PartMargin`, the repaired pointwise endpoint package,
+and same-branch \(H^s\) relaunch requirements across the edited live surfaces.
+All live authority YAML files parse, and `git diff --check` passes on the
+repaired PCTP/TTU files, `live-theorem-edge.yaml`, and the appendix mirror.
