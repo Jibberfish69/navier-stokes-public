@@ -14592,3 +14592,43 @@ The targeted authority pass over `live-theorem-edge.yaml`, `source-frontier.yaml
 open rather than discharged by `Exit(Q_atlas)`.  The targeted residue search no
 longer finds `So the full readout-complete packet survives` or the old
 `intended bridge` wording on the patched surfaces.
+
+## Main Manuscript Field Predicate Model-Language Repair
+
+Old claim being spent:
+
+The main submission defined \(\Field_{N,r,Q}\) by saying that "one concrete
+model is the finite-difference bound."  In a live definition, `model` made the
+reader decide whether the displayed condition was an example, schematic proxy,
+or the predicate actually being spent later.
+
+Exact replacement:
+
+The definition now says that, in this manuscript, the concrete predicate is the
+displayed finite-difference bound
+
+```text
+sup_{x,x+h in Q_t, 0<|h|<=r}
+sum_{k=0}^N (|U_k(x+h,t)-U_k(x,t)|+|K_k(x+h,t)-K_k(x,t)|)/|h| < infinity.
+```
+
+The following sentence still states the downstream limitation: this finite-depth
+field law is not itself an \(\mathrm{SCF}_{\mathrm{base}}\)-good-radius theorem;
+any later use must prove or assume the same-tail small-scale modulus.
+
+Surfaces edited:
+
+- `submission-bundle/navier-stokes-submission.tex`.
+
+Downstream consequence:
+
+No authority rewrite was needed.  `live-theorem-edge.yaml` already names the
+matched Field finite-difference certification as the landing for the
+same-ledger dyadic extraction.  The manuscript definition now matches that exact
+predicate language and no longer introduces a model/proxy reading.
+
+Second downstream pass and validation:
+
+The targeted search no longer finds `One concrete model is the finite-difference
+bound` on live surfaces, and it finds the exact replacement in the main
+submission definition.
