@@ -71,9 +71,22 @@ an expanding eigenvector of `S`, and
 <S a,a> = 2 > 0.
 ```
 
-After the usual smooth cutoff and Leray correction, the leading selected
-source readout remains positive on the packet, while the correction is lower
-order for this pressure test.
+Choose a smooth cutoff `\chi` equal to one on the test core and apply the
+Leray projection to the high-frequency packet:
+
+```text
+u_{\lambda}:=P_{\mathrm{div}}\big(\chi\,a\,e^{i\lambda k\cdot x}\big).
+```
+
+Since `k . a=0`, the principal symbol is already solenoidal; the cutoff/Leray
+correction contributes only lower-order terms.  Equivalently, the selected
+source readout has the form
+
+```text
+<S a,a> + o_{\lambda}(1) = 2 + o_{\lambda}(1),
+```
+
+so it remains positive for `\lambda` sufficiently large.
 
 Now place this packet on terminal heat-scale time slabs with scalar density:
 
