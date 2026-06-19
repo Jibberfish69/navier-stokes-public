@@ -94,6 +94,12 @@ The route only becomes theorem-bearing if the right-hand side is bounded by an a
    Lipschitz coefficient \(K_NT_N\) or the squared coefficient
    \(\mathcal L_N^2T_N\), and both are too large for the retained
    \(2^{2N}\) tail damping under only the energy surface.
+   The proportional refinement in
+   `mpp-forward-gold-proportional-deep-low-split-20260619.md` closes the
+   genuinely deep-low subrange \(k\le(4/5)j-\Gamma\).  The remaining
+   shallow-low band is mesoscopic and should be merged into the lifted
+   stress-strain / middle-band packet rather than treated as a solved
+   strict-low coefficient estimate.
 5. Isolate the threshold-local spill collar by `scale-spill-reduction-lemma.md`.
 6. Reduce the genuine high-high packet itself to a near-diagonal cubic tail by `scale-high-high-near-diagonal-reduction-lemma.md`.
 7. Absorb that cubic tail into dissipation for all large cutoffs by `scale-cubic-tail-absorption-lemma.md`.
@@ -125,6 +131,10 @@ The strict-low obstruction is now sharpened by
 the desired packet estimate is
 \(\mathcal N_{N,\mathrm{strict}}\le C\mathcal L_NT_N+\varepsilon\nu Q_N\),
 while the checked direct routes give \(K_NT_N\) or \(\mathcal L_N^2T_N\).
+The proportional split note
+`mpp-forward-gold-proportional-deep-low-split-20260619.md` removes the
+genuinely deep-low part from this obstruction and identifies the remaining
+piece as a shallow mesoscopic threshold band.
 
 In particular, the older TeX sources describe the barrier only in informal
 spectral terms through quantities such as `E(k,t)`, `T(k,t)`, and `Pi(k,t)`,
