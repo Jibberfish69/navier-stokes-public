@@ -2,8 +2,12 @@
 
 Date: 2026-06-09
 
-Status: active-completion proof attempt. This note does not close public Clay
-finality.
+Status: support/Gold-supplier reentry with CM-boundary accounting. This note
+does not close public Clay finality. Under the Pack-first CM contrapositive
+audit, the terminal zero-thickness `B_ASAC` residue lands as `not Pack_Q`;
+the retained positive-scale reserve branch below is proof-force only after a
+same-ledger payment theorem is proved or after an admitted CM-test witness has
+a first Pack/Part/Field face failure.
 
 ## Parent target
 
@@ -45,8 +49,13 @@ Work on the minimal terminal window `W` after inherited, represented, finite,
 and legal pieces are removed. The selected positive reserve birth has four
 cases.
 
-1. A same-ledger signed partner is retained. The ASAC / pair-weight charge pays
-   the positive mismatch.
+1. A same-ledger signed partner is retained. This case is paid only under an
+   explicit same-witness signed-payment theorem, for example a proved
+   `ASAC.A` together with `PositivePairWeightDefectCharge.A` and the required
+   packet-residual, no-incoming, and backward-uniqueness hypotheses. The
+   installed CM-face reductions alone do not pay the positive mismatch; they
+   classify failed signed balance as Pack/Part/Field support for
+   `Exit(Q):=not Member(Q)`.
 2. The partner exits through a named boundary, projected, cutoff, pressure,
    collar, off-family, or heat-action ledger. This is legal loss.
 3. The partner is a finite or non-Zeno internal donor sink. `LocalDonorBalance.A`
@@ -54,8 +63,10 @@ cases.
 4. The branch is a terminal Zeno native source residue after all paid exits are
    removed.
 
-The first three cases are paid by installed ledgers. The fourth case is exactly
-the produced `B_ASAC` equality class:
+Cases 2 and 3 are paid by installed ledgers. Case 1 is paid only under the
+same-witness signed-payment hypotheses above. After those paid exits and any
+proved signed-payment alternative are removed, the remaining terminal Zeno
+branch is the produced `B_ASAC` equality class:
 
 ```text
 ASACDefectMeasure.A
@@ -82,14 +93,21 @@ and a nonzero terminal time-face atom.
 `RetainedPositiveScaleNativeReserveBirthCharge.A` is not proved from the
 installed inputs.
 
-The correct next forward supplier is:
+The forward supplier split is:
+
+```text
+ASAC.A + PositivePairWeightDefectCharge.A
+```
+
+with the packet-residual, no-incoming, and backward-uniqueness hypotheses needed
+to pay the retained signed-partner branch on the same witness, or
 
 ```text
 ZenoResidueLiouville_{B_ASAC}.A
 ```
 
-or any equivalent theorem that proves the produced `B_ASAC` terminal source
-residue has no terminal time-face atom:
+or any equivalent Gold-supplier theorem that proves the produced `B_ASAC`
+terminal source residue has no terminal time-face atom:
 
 ```text
 BASACTerminalSourceAntiConcentration.A,
@@ -101,11 +119,16 @@ or a no-incoming/backward-uniqueness theorem that also removes the terminal
 time face.
 ```
 
-Work on terminal anti-atom is now integrated as a child supplier for
-`OriginalSmoothDataPackSurvival.A`, not as the whole public-finality target.
+Work on terminal anti-atom is a child supplier for the forward-positive Gold
+route. It is not the whole public-finality target, and under the Pack-first
+CM contrapositive route the terminal zero-thickness `B_ASAC` residue is consumed
+as Pack-side non-survival rather than as a required deletion theorem.
 
 ## Nonfinality
 
-The PDFs remain nonfinal. A Clay-facing manuscript cannot claim
-`NoGenuineExitFromSmoothData.A` until the produced `B_ASAC` terminal atom is
-excluded or an equivalent Pack-survival theorem replaces this route.
+The PDFs remain nonfinal. This note cannot support a Clay-facing claim of
+`NoGenuineExitFromSmoothData.A` by spending ASAC/pair-weight language as an
+installed ledger. Any future use of this route must either prove the same-witness
+signed-payment hypotheses above, use the Pack-first CM face landing for an
+admitted terminal witness, or replace the supplier route by an exact
+Pack-survival theorem.
