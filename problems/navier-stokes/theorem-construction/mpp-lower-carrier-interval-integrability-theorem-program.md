@@ -256,7 +256,7 @@ through the transported-center coefficient split `LCI.B2c`--`LCI.B2d`.
 ### Proposition `LCI.B2a` (Nonlinear lower-order strain/cascade bound)
 
 The exact theorem-internal claim is the displayed packet estimate below. It is
-not a generic lower-order dismissal: every term is a finite Leibniz summand with
+not an unnamed lower-order dismissal: every term is a finite Leibniz summand with
 one factor placed in `\Gamma_{N,m,\rho,\psi}^{low}` and the remaining weighted
 `L^2` factor pair placed in `\mathcal G_{N,m,\rho,\psi}^{low,\delta}`.
 
@@ -2478,7 +2478,7 @@ for the rank-`q` tensor action of `G_j`, differentiating and using the center
 law `(TC.14)` removes the exact linear action of `A_j(t)` from the higher-rung
 equations. The remaining coefficient is no longer the full carrier
 `|A_j(t)|`, but only the failure of the true field to match its affine center
-model, namely `\mathfrak D_{1,j}^{aff}(t)`.
+component, namely `\mathfrak D_{1,j}^{aff}(t)`.
 
 So the desired handoff theorem is the replacement of `(LCI.3c3z19az1)` by
 
