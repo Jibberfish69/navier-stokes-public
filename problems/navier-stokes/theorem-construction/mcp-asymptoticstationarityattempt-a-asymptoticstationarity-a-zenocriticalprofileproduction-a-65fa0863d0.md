@@ -27,10 +27,10 @@ defect measures.
 
 ## Attempt
 
-The old loose step is the expectation that critical rescaling makes the profile
-approximately autonomous at the pole.  Approximate criticality does not by
-itself imply stationarity.  The exact theorem needed is a residual-vanishing
-statement.
+The old loose step was to treat critical rescaling as if it made the profile
+autonomous at the pole without controlling the residual terms.  Critical
+scaling alone does not imply stationarity.  The exact theorem needed is a
+residual-vanishing statement.
 For a renormalized Zeno sequence `U_n,P_n` on compact sets
 `K subset R^3\{0}` and finite renormalized time intervals `J`, write the
 renormalized equation in the form
