@@ -77,18 +77,31 @@ visibility statement is
 
 which is exactly why CKN sees the critical heat-scale packet.
 
-With viscosity restored and velocity scale \(|u|\sim\nu/r\), pressure scale
-\(|p|\sim\nu^2/r^2\), and heat time \(r^2/\nu\), the unnormalized cubic mass is
+With viscosity restored, the corresponding normalized packet hypothesis is the
+dimensionless bound
 
 ```math
-\int_{Q_r}|u|^3\,dxdt
+c_0
 \le
-C_\nu\nu^2r^2,
+{\nu^{-2}\over r^2}
+\int_{Q_r}
+\left(|u|^3+|p|^{3/2}\right)\,dxdt
+\le
+C_0.
 \tag{CKH.6}
 ```
 
-and the normalized CKN quantity is the corresponding dimensionless
-\(\nu^{-2}r^{-2}\)-scaled version.
+Equivalently,
+
+```math
+\int_{Q_r}
+\left(|u|^3+|p|^{3/2}\right)\,dxdt
+\le
+C_\nu\nu^2r^2,
+\tag{CKH.7}
+```
+
+with the matching lower bound when the packet is retained as CKN-visible.
 
 ## 2. Dyadic Zeno stack is still physically summable
 
@@ -117,7 +130,7 @@ The unnormalized cubic mass over the stack can still be finite:
 \le
 C_0\sum_j r_j^2
 <\infty.
-\tag{CKH.9a}
+\tag{CKH.10}
 ```
 
 Thus ordinary \(L^3_{t,x}\)/\(L^{3/2}_{t,x}\) physical integrability does not
