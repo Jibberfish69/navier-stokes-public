@@ -27,7 +27,10 @@ The shared classical carrier for the scale-barrier statement is:
 
 - `u^(n) in L^infty(0,T;L^2(R^3)) cap L^2(0,T;H^1(R^3))`;
 - `partial_t u^(n)` controlled on the same approximation surface strongly enough for the later compactness package;
-- pressure recovered by the standard Euclidean Leray projection on the same sequence.
+- pressure recovered on the same sequence by the Euclidean Leray projection
+  `P=I-\nabla\Delta^{-1}\operatorname{div}`, equivalently by
+  `-\Delta p^(n)=partial_i partial_j(u_i^(n)u_j^(n))` with the declared
+  whole-space decay/local normalization.
 
 The energy control required here is
 
