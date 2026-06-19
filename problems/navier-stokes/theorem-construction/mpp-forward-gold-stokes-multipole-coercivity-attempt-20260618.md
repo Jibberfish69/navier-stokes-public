@@ -230,13 +230,14 @@ by the constant `C_varphi(nu,E_*)` in `(SM.17)`, independent of the test scale
 `r`.  The gap
 
 ```math
-r^{-k}\gg1
+\lim_{r\downarrow0} r^{-k}=+\infty
 \qquad (k\ge1)
 \tag{SM.20}
 ```
 
-is the coercive contradiction.  Higher multipoles would require more singular
-local energy than the critical local-energy condition
+is the coercive contradiction against the scale-independent bound.  Higher
+multipoles would require more singular local energy than the critical
+local-energy condition
 `sup_{0<r<r_0} r^{-1}\int_{B_r}|U|^2 dx<\infty` allows.  Equivalently, the
 Stokeslet monopole is the only point-supported force compatible with that
 critical local-energy bound.
@@ -355,8 +356,7 @@ It says that once the no-waste problem has been reduced to point-supported
 projected spatial momentum defects, the only remaining physical defect is the
 already-known vector point force.
 
-Therefore, after `TerminalProjectedResiduePointSupport.A` and
-`CriticalLocalEnergyBoundForResidue.A`, the exact route fork is:
+Therefore the exact pre-lemma route fork is:
 
 ```math
 \text{terminal Zeno defect}
