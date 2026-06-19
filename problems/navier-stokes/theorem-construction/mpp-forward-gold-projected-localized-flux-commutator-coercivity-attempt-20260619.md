@@ -75,7 +75,7 @@ Since `P` is self-adjoint and `Pu=u`, the exact decomposition is:
 
 ```math
 \mathcal C_\chi(u)
-\ =
+=
 \frac12\int |u|^2u\cdot\nabla\chi
 +\mathcal R_\chi^P(u),
 \qquad
