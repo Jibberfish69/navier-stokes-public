@@ -84,7 +84,7 @@ tower\text{-}blown,
 Jump.
 ```
 
-`Dead` is the formal participation row and remains included in the exact facewise target.
+`Dead` is the participation-failure row and remains included in the exact facewise target.
 
 The first hard analytic face is `packing-detached`, because pack gauge control is needed to stabilize the same-fluid terminal cover. The corresponding target is
 
