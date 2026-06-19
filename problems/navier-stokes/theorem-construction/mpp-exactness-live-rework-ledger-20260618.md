@@ -9146,3 +9146,79 @@ Validation:
 The focused live route-intuition scan now returns only intentionally preserved
 warning/operator/rejection hits, and `git diff --check` passes on the edited
 files.
+
+## Analogy / Substitution Rework
+
+Old claim being spent:
+
+The live analogy scan looked for proof-force substitutions hidden in phrases
+such as `as if`, `as though`, `acts like`, `source shadow`, `treated as proof`,
+and `read as proof`.  The specific failure pattern is that a route can quietly
+replace the actual theorem object by an analogy: a point object for a moving
+positive-radius field, a downstream export condition for a branch root, a
+coefficient-bearing estimate for a coefficient-free theorem, or a geometric
+analogy for a coercive inequality.
+
+Exact replacement:
+
+The repaired live surfaces now state the mathematical object being used instead
+of the analogy:
+
+- forward-route prose names the exact ordering defect: branch analysis is not
+  proof-bearing until the branch is shown to be a lawful same-solution terminal
+  object;
+- the Zeno/cone material keeps the point-object separate from the moving
+  positive-radius oscillation field
+  \(\Delta_r u(t)=\sup_{x,y\in B_r(x_0)}|u(x,t)-u(y,t)|\), with
+  \(r=\rho(t)=\lambda\sqrt{T-t}\);
+- geometric-drain language was rewritten as the requirement of a same-surface
+  coercive derivative inequality; the positive Ricci term is the displayed
+  geometric drain in the projected metric route, not a free analogy;
+- pressure routes require a pressure-source tether, not a source-shadow reading;
+- coefficient-bearing same-scale estimates are recorded only as weighted-carrier
+  inclusions and not as the coefficient-free theorem (SS);
+- collar, donor-factor, Pack/Part/Field, and terminal-participation passages
+  remain exact guard statements because they explicitly prevent the wrong
+  substitution and name the missing theorem or lawful object.
+
+Downstream consequence:
+
+The affected live text can no longer use analogy as proof force.  The downstream
+branch either has an installed identity/inequality to spend, has a named exact
+theorem target, or is held as guard language that blocks the old substitution.
+In particular, the pulling-teeth cone path is paid by moving-ball oscillation
+and its gradient upper bound, not by assuming a linear velocity profile, and
+same-branch terminal arguments must prove same-witness status before carrying
+CM proof force.
+
+Surfaces edited:
+
+- `submission-bundle/navier-stokes-submission.tex`;
+- `submission-bundle/proof-attempt-failure-appendix.tex`;
+- `submission-bundle/sections/reader-facing-proof-program-front-pages.tex`.
+
+Intentionally preserved hits:
+
+- `proof-attempt-failure-appendix.tex`, `surface-derivation-appendix.tex`, and
+  the `source-field-reader-appendix.tex` mirrors preserve `as if/as though`
+  only where the sentence is an explicit anti-shortcut guard;
+- `mpp-collar-sobolev-packet-interval-propagation-theorem-program.md`,
+  `mpp-cycle-heat-action-proof-plan-after-think-again-20260505.md`,
+  `mpp-pack-part-field-ontological-collapse-question-20260517.md`,
+  `mpp-terminal-class-membership-six-burden-closure-note.md`,
+  `mpp-whole-cone-wall-volume-shrink-rate-forward-positive-work-order-20260611.md`,
+  and `mpp-forward-positive-cone-estimate-direct-audit-20260611.md` preserve
+  hits that already name the old illegal substitution and the exact replacement
+  theorem/object;
+- `mpp-rendered-referee-reread-clay-exclusion-bridge-reentry-20260609.md`,
+  `mpp-torus-global-material-atlas-terminal-capture-20260526.md`,
+  `tps-dynamic-source-fit-and-open-frontier.md`, and
+  `pd70z-cycle-exact-normal-covector-route.md` preserve hits that mark route
+  misuse or support-surface misuse rather than using the analogy as proof.
+
+Validation:
+
+The focused analogy/substitution scan now returns only intentionally preserved
+guard, old-substitution, or exact-replacement hits; no remaining `acts like`,
+`source shadow`, `treated as proof`, or `read as proof` hit is present in the
+live authority set.  `git diff --check` passes on the edited files.
