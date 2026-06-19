@@ -13529,3 +13529,136 @@ The targeted downstream scan finds no remaining `audit standard`, `supplier
 standard`, `positive-export standard`, `CM referee standard`, or `standard
 Euclidean divergence` wording outside ledger receipts.  `git diff --check`
 passed on all edited theorem-construction notes and this ledger.
+
+## Energy-Budget And Annular-Refill Exactness Rework
+
+Old claim being spent:
+
+Two downstream theorem notes still used broad proof-force language:
+`classical-spectral-leakage-absorption-proposition.md` assumed a `standard
+energy budget`, and the annular residual-decay audit said the high-frequency
+residual refill bound is `standard` once the Field/readout bridge supplies
+`H^s`.
+
+Exact replacement:
+
+The spectral leakage proposition now states the exact energy budget
+\[
+\sup_{0\le t<T}\|u^{(n)}(t)\|_{L^2_x}^2
++2\nu\int_0^T\|\nabla u^{(n)}(t)\|_{L^2_x}^2\,dt\le C_E
+\]
+uniformly in `n`.  The annular audit now says the residual refill bound follows
+from the displayed Littlewood--Paley decay, Sobolev product estimate, and
+Volterra heat-kernel integral already written in the note.
+
+Proof or downstream consequence:
+
+The spectral leakage route may spend only the displayed energy inequality and
+packet assumptions.  The annular contradiction may spend the residual-decay
+bound only after the same-solution `H^s`, `s>5/2`, bridge supplies a uniform
+bound and the displayed source/Volterra estimates are applied.
+
+Surfaces edited:
+
+- `theorem-construction/classical-spectral-leakage-absorption-proposition.md`.
+- `theorem-construction/chatgpt-annular-part-field-residual-decay-referee-audit-20260613.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `standard energy budget` or `refill bound
+is standard` wording outside ledger/provenance receipts.  `git diff --check`
+passed on the edited notes and this ledger.
+
+## Installed-Hypotheses Promotion-Gate Rework
+
+Old claim being spent:
+
+Two PCTP terminal-tail notes said `current exactness standard` as though a
+standard label itself licensed the promotion gate.
+
+Exact replacement:
+
+Both notes now say `under the installed exactness hypotheses` and state the
+extra input that must be present: the same-tail Field-admission input
+`SCFBaseLocalModulus_N` in addition to `SourcePulseExclusion.A`.
+
+Proof or downstream consequence:
+
+The terminal-tail production route no longer treats a named exactness standard
+as proof.  `PCTP.hard / TTU.A` may be promoted only under the displayed source
+control and same-tail Field-admission hypotheses.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-pctp-hard-unconditional-promotion-check-sourcepulse-dependency.md`.
+- `theorem-construction/mcp-pctp-hard-terminal-tail-production-conditional-sourcepulse-closure.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `current exactness standard` or
+`exactness standard` proof-gate wording outside ledger/provenance receipts.
+`git diff --check` passed on the edited notes and this ledger.
+
+## Source-Wall Stop-Condition Rework
+
+Old claim being spent:
+
+Two hard-obstruction notes said that continuing the same loop without a new
+mechanism is `expected to repeat` the same blocker.  The intended mathematical
+content was not a forecast; it was an absence of a mechanism in the installed
+inputs.
+
+Exact replacement:
+
+The notes now state that the installed inputs contain no mechanism that changes
+the blocker, so further reformulation of the same reserve is not a proof step.
+The remaining burden is explicitly a new source-control principle,
+active-square Carleson theorem, or rigid terminal-Zeno theorem.
+
+Proof or downstream consequence:
+
+The route cannot count another reformulation as progress toward the obstruction.
+It must supply a new theorem mechanism in one of the named forms.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-terminalamplitudegain-a-terminalamplitudegain-a-no-field-hard-obstruction-b5e735d45a.md`.
+- `theorem-construction/mcp-sourcewallhardobstruction-a-ttu-a-3e6b467cd2.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `expected to repeat` wording outside
+ledger/provenance receipts.  `git diff --check` passed on the edited notes and
+this ledger.
+
+## Profile-Decomposition Cross-Term Rework
+
+Old claim being spent:
+
+The profile-decomposition Pack notes referred to `standard profile
+decomposition` as the attempted route for removing cross terms.
+
+Exact replacement:
+
+The notes now name the actual tool as ordinary profile-decomposition
+orthogonality and state the exact missing object: uniform selected-positive
+cross-term control after terminal-window selection, localization,
+pressure/Leray projection, low-high splitting, scale normalization,
+positive-part extraction, and same-witness selection.
+
+Proof or downstream consequence:
+
+Pack functional stability and selected positive Part/Pack decoupling cannot be
+spent from profile-decomposition orthogonality alone.  They require the
+displayed selected-positive cross-term exclusion/localization theorem.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-packfunctionalstabilityreduction-a-packfunctionalstabilityunderprofiledecomposition-a-c3337570cc.md`.
+- `theorem-construction/mcp-selectedpackpositivepartdecouplinghardstop-a-selectedpackpositivepartdecoupling-a-crossprofileterminalsourceatomexclusion-a-oneprofilepackdefectlocalization-a-ea41c616df.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `standard profile decomposition` wording
+outside ledger/provenance receipts.  `git diff --check` passed on the edited
+notes and this ledger.
