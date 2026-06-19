@@ -10206,3 +10206,36 @@ Second downstream pass and validation:
 The targeted scan finds no remaining `This bridge is formal and closed once` or
 `source account splits pointwise as` text in the theorem notes or appendix copy.
 `git diff --check` passes on the edited appendix.
+
+## Cycle Heat Action Finite-Network Gate Rework
+
+Old claim being spent:
+
+The signed-current cycle heat-action attempt said Gates 1 and 2 are "formal
+finite-network bookkeeping."  The surrounding text correctly left Gate 3 as the
+hard theorem, but the gate statement still used proof-force shortcut language.
+
+Exact replacement:
+
+Gates 1 and 2 now state the exact hypotheses under which the bookkeeping is
+valid: a finite packet/time truncation and a choice of positive edge capacities.
+Under those finite data they are exact finite-network bookkeeping.  Gate 3 is
+separately identified as the unproved cycle-capacity / heat-loss lower bound.
+
+Proof or downstream consequence:
+
+The route may use finite graph-flow decomposition only after the finite
+truncation and edge-capacity data are fixed.  It may not infer the PDE heat-cost
+lower bound from packet balance alone.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-cycle-heat-action-direct-attempt-20260505.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `Gates 1 and 2 are formal finite-network
+bookkeeping` hit in the edited source note or appendix copy.  The positive scan
+finds the exact finite-network replacement, and `git diff --check` passes on
+both edited surfaces.
