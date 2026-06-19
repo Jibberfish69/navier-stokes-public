@@ -10369,3 +10369,41 @@ Second downstream pass and validation:
 The targeted scan finds no remaining `Source Wall Root.Two Path Formal
 Completion.Conditional` heading in the appendix.  The positive scan finds the
 conditional heading, and `git diff --check` passes on the edited appendix.
+
+## Signed-Partner And Saturated-Hull Rework
+
+Old claim being spent:
+
+Three signed-current/source-wall surfaces and their appendix copies referred to
+"formal" same-fluid signed partners, a "formal" signed hull, or "formal" paired
+edges.  The proof objects are finite same-fluid graph constructions, not
+profile-free formal placeholders.
+
+Exact replacement:
+
+The off-family counteredge note now uses the corresponding same-fluid signed
+partner in the full unlocalized graph.  The saturated-hull note now says the
+hull contains corresponding signed partners.  The weighted lifted defect note
+now uses a finite same-fluid saturated signed hull after truncation and paired
+edges touching the usable terminal ledger.
+
+Proof or downstream consequence:
+
+The source-wall route may spend only those exact finite graph objects.  It may
+not treat a generic formal signed partner or hull as a proof-grade cancellation
+device on the selected terminal record.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-off-family-counteredge-charge-direct-attempt-20260505.md`;
+- `theorem-construction/mpp-terminal-skew-localization-saturated-hull-attempt-20260505.md`;
+- `theorem-construction/mpp-weighted-lifted-defect-carleson-direct-attempt-20260505.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `formal same-fluid signed partner`,
+`formal signed partner`, `formal signed hull`, or `formal paired edge` hits in
+the edited source notes or appendix copy.  The positive scan finds the
+corresponding signed-partner and saturated-hull replacements, and `git diff
+--check` passes on all edited surfaces.
