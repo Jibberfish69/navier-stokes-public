@@ -10596,3 +10596,35 @@ The targeted scan finds no remaining `exact formal meaning` hit in the edited
 source note or appendix copy.  The positive scan finds `exact meaning of
 injecting class membership`, and `git diff --check` passes on both edited
 surfaces.
+
+## Typed-Presence Wording Rework
+
+Old claim being spent:
+
+Endpoint and source-height surfaces described Pack, Field, Part, and tower
+amplitude as "formally intact" in branches where the exact meaning was typed
+presence of those records.
+
+Exact replacement:
+
+The endpoint matrix now says `Dead` can occur while pack, field, and tower
+amplitude are still typed as present.  The active height-flux trichotomy now
+says the Zeno side can occur while Pack and Part are still typed as present.
+
+Proof or downstream consequence:
+
+These passages now spend exact face-status typing, not a loose formal-intact
+reading.  The route still has to test participation, Pack, Part, Field, source
+height, and tower-amplitude mechanisms separately.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-endpoint-matrix-minimality-theorem.md`;
+- `theorem-construction/mpp-active-height-flux-trichotomy-route-20260506.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `formally intact` hit in the edited source
+notes or appendix copy.  The positive scan finds `still typed as present`, and
+`git diff --check` passes on all edited surfaces.
