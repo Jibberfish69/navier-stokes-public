@@ -14208,3 +14208,39 @@ Second downstream pass and validation:
 The targeted generic-theorem/witness scan is clean on live files; old phrases
 remain only in ledger evidence.  `git diff --check` passed on the edited
 surfaces and this ledger.
+
+## Residual Generic/Model Witness Wording Rework
+
+Old claim being spent:
+
+The follow-up scan found additional broad wording in live theorem notes:
+`model terminal source density`, `model witness`, `principal model term`,
+`generic theorem`, `generic witness bundle`, `generic theorem search`, `generic
+bridge demand`, and `generic witness surrogates`.
+
+Exact replacement:
+
+Those surfaces now say witness terminal source density, explicit witness,
+principal term, unrowed theorem, unspecified witness bundle, broad theorem
+search, broad bridge demand, and unspecified witness surrogates.
+
+Proof or downstream consequence:
+
+The affected notes now spend concrete witnesses, principal displayed terms,
+row-by-row Pack/Part/Field mechanisms, and exact predicate packages instead of
+broad theorem/witness placeholders.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-scale-invariant-parent-charge-quantum-direct-attempt-20260517.md`.
+- `theorem-construction/mpp-prd-installed-input-nonderivability-witness-20260516.md`.
+- `theorem-construction/mpp-awg-deep-source-frontier-closure-note.md`.
+- `theorem-construction/mpp-generic-part-face-exclusion-work-order-demotion-20260607.md`.
+- `theorem-construction/mpp-shared-packing-exact-predicate-draft.md`.
+- `theorem-construction/post-monotone-cascade-carrier-object.md`.
+- `theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md`.
+- `theorem-construction/mpp-constitutive-first-survivor-ledger.md`.
+
+Second downstream pass and validation:
+
+Pending targeted residual generic/model scan and `git diff --check`.
