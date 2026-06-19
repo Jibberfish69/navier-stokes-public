@@ -15426,3 +15426,47 @@ A fixed-string residue search over the two edited notes and `source-frontier.yam
 finds no remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`,
 `roughly`, `same order`, `typical`, `immediate`, or `schematic` shortcut on this
 slice, and `git diff --check` passes for the edited notes.
+
+## Post-Affine B_ASAC Target And Source-Time Child Repair
+
+Old claim being spent:
+
+`mpp-post-affine-pack-survival-sharp-target-selection-20260609.md` said the
+active loop "should continue" at the B_ASAC time-face anti-atom / super-`L1`
+residence theorem and that the next proof pass "should attack" that target.
+`mpp-source-time-cost-native-trilinear-no-hidden-frontier-20260611.md` said
+source-time language "should no longer appear" as a separate child.
+
+Exact replacement:
+
+The post-affine target-selection note now states that the active loop continues
+at
+
+```text
+BASACTimeFaceAntiAtom.A / UniformTemporalSourceIntegrability_{p,B_ASAC}.A
+```
+
+or a genuinely new terminal source-residence mechanism implying it.  The
+source-time note now states that source-time language no longer appears as a
+separate child until a new source-weighted native carrier theorem is actually
+written.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-post-affine-pack-survival-sharp-target-selection-20260609.md`.
+- `theorem-construction/mpp-source-time-cost-native-trilinear-no-hidden-frontier-20260611.md`.
+
+Downstream consequence:
+
+Broad Pack deformation, terminal collar strain control, generic
+`ScaleNormalizedPulseReserveSpend.A`, and vague source-time child language cannot
+be spent as the next proof target.  The live proof obligation is the B_ASAC
+time-face anti-atom / super-`L1` source-residence target, or a named non-alias
+source-residence mechanism that implies it.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the two edited notes and `source-frontier.yaml`
+finds no remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`,
+`roughly`, `same order`, `typical`, `immediate`, or `schematic` shortcut on this
+slice, and `git diff --check` passes for the edited notes.
