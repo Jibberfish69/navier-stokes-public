@@ -395,7 +395,7 @@ P_F^\ast
 The present note uses only exact identities and exact inequalities through
 `(IC.16)`.
 
-Schematic estimates begin only later, when one tries to:
+Unproved estimates begin only later, when one tries to:
 
 1. reduce `\mathcal E^{ref}_{N,r,\psi}` to PDE-native Eulerian defect control;
 2. propagate `\mathcal M^{seg}_{N+1,r,\psi}`;
