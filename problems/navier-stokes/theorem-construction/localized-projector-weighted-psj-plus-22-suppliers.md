@@ -351,6 +351,8 @@ angular-forcing refinement in
 [localized-projector-angular-forcing-ledger-reduction.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/localized-projector-angular-forcing-ledger-reduction.md)
 then shows that even this linear `\beta_J` convolution is not the honest final
 forcing wall: on the simple-top cone it collapses to the already-installed
-pair-family forcing ledger `D.7ie1`, or to the adiabatic ledger `D.7ie3`, with
-weighted coverage/globalization carrying the local windows to the global
-synchronization channel.
+pair-family forcing ledger `D.7ie1`, or to the adiabatic ledger `D.7ie3`.  The
+remaining globalization is the explicit angular-forcing interface: after
+`AFR.G`, one maximal-envelope theorem for `q_\ell^{mat}` or `q_\ell^{aux}`,
+together with the installed pair-family forcing ledger, before the
+overlap-surrogate gluing split.
