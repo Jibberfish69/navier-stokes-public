@@ -143,6 +143,7 @@ D_tS-\nu\Delta S
 =
 -(S^2+\Omega^2)
 -\nabla^2p
++
 \text{trace correction}.
 \tag{SCC.10}
 ```
@@ -154,11 +155,11 @@ this becomes the same split already isolated in the no-freeze branch:
 D_tS^{near}
 =
 \nu\Delta S^{near}
-\+
++
 \mathcal N^{near}
-\+
++
 \mathcal P^{near}
-\+
++
 \mathcal C^{near}.
 \tag{SCC.11}
 ```
