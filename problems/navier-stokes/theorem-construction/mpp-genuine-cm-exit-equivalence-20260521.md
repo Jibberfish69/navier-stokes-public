@@ -217,8 +217,8 @@ A possible positive no-exit formulation is:
 \quad\text{for every finite }T_*.
 ```
 
-This formulation names the whole no-exit problem and should not be promoted as
-a local CM branch-law burden. Inside the corrected pass/fail engine, the local
+This formulation names the whole no-exit problem and is not promoted as a local
+CM branch-law burden. Inside the corrected pass/fail engine, the local
 work is instead obstruction-by-obstruction: prove CM-test entry, derive the
 first Pack/Part/Field face failure on the fail branch, and keep the pass branch
 as the in-class continuation branch. Equivalence makes CM the right terminal

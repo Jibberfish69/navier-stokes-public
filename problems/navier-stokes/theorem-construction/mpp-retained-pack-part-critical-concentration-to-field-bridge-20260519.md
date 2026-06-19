@@ -21,7 +21,7 @@ Public regularity theory often says:
 \text{critical norm concentration or critical-class exit}.
 ```
 
-The CM route should only import that after the carrier and same-PDE sides have
+The CM route imports that only after the carrier and same-PDE sides have
 survived. The useful bridge is therefore:
 
 ```math

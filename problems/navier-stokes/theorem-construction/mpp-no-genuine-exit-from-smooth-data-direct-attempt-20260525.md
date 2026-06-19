@@ -25,7 +25,7 @@ continuation-complete Pack/Part/Field class exit.
 
 This is not the local target left by the pass/fail obstruction engine or the
 no-third-branch class law. It is stronger than branch classification and names
-the whole no-exit problem in one line. The corrected CM work should not promote
+the whole no-exit problem in one line. The corrected CM work does not promote
 this slogan unless the proof program has explicitly switched into a positive
 no-exit attempt.
 

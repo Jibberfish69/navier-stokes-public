@@ -164,9 +164,9 @@ The terminal zero-radius branch is already an exit witness:
 terminal zero-radius donor ancestry => not Pack_Q.
 ```
 
-So the next Pack-side proof attempt should attack the retained positive-scale
-first-appearance charge directly, and should not spend the `L^3` translator
-unless a separate bridge first proves
+So the next Pack-side proof attempt attacks the retained positive-scale
+first-appearance charge directly, and does not spend the `L^3` translator unless
+a separate bridge first proves
 
 ```text
 FirstReservePulseToCriticalL3.A.

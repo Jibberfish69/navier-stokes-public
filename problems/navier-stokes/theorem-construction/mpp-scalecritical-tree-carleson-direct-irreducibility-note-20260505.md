@@ -20,8 +20,7 @@ ScaleCriticalPulseReserve.A
 ```
 
 may be used as a descriptive alias for the same scalar reserve, but it is not a
-separate theorem target and should not be tracked as an independent live
-obligation.
+separate theorem target and is not tracked as an independent live obligation.
 
 ## Installed Direct Reduction
 
@@ -141,5 +140,5 @@ ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
 }
 ```
 
-No live authority surface should track `ScaleCriticalPulseReserve.A` as a
+No live authority surface tracks `ScaleCriticalPulseReserve.A` as a
 separate theorem object from `ScaleCriticalTreeCarleson.A`.

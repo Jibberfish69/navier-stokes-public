@@ -13,9 +13,8 @@ target:
 \varepsilon_N\to0.
 ```
 
-The retained-face idea is correct in shape: amplitude gain should not be proved
-as a raw finite-energy theorem. It should be proved relative to retained CM
-faces.
+The retained-face idea is correct in shape: amplitude gain is not proved as a
+raw finite-energy theorem. Its proof is relative to retained CM faces.
 
 The proof is theorem-grade conditional on one extra retained-face input:
 
