@@ -40,7 +40,7 @@ classified Exit(Q;O_work) cannot be the actual finite Clay obstruction
 ```
 
 is not the active theorem target.  It replaces that demand with a finite
-obstruction inventory standard:
+obstruction inventory criterion:
 
 ```text
 every promoted finite terminal obstruction row
@@ -49,7 +49,7 @@ every promoted finite terminal obstruction row
 => Exit(Q):=not Member(Q).
 ```
 
-This is useful as a route-control standard.  It prevents old source-wall or
+This is useful as a route-control criterion.  It prevents old source-wall or
 supplier rows from being promoted unless they name a same-solution terminal row
 and a first face.
 
@@ -92,7 +92,7 @@ that class-exit event.
 ## Parent Judgment
 
 The loop must not treat the June 8 inventory reconciliation as CMI finality.
-It is an installed route-control and row-consumption standard.  It is not yet a
+It is an installed route-control and row-consumption criterion.  It is not yet a
 reader-facing Clay counterexample exclusion theorem unless the paper supplies a
 noncircular final bridge.
 
@@ -153,7 +153,7 @@ RetainedPositiveScaleNativeReserveBirthCharge.A
 
 Source-reserve Pack survival is therefore not automatically the primary target.
 It becomes primary only if the finite-obstruction bridge cannot be proved
-directly.  Under the June 8 inventory standard it remains demoted support
+directly.  Under the June 8 inventory criterion it remains demoted support
 unless a manuscript-used terminal row lacks same-solution CM entry or a derived
 first face.
 
