@@ -348,8 +348,8 @@ CriticalFluxAmplitudeSmall.A
 ScaleCriticalTreeCarleson.A.
 ```
 
-Therefore this note should be read as an abstract conditional skeleton, not as
-the current lowest proof-facing gate.  The live direct wall remains
+Therefore this note is an abstract conditional skeleton, not the current lowest
+proof-facing gate.  The live direct wall remains
 
 ```math
 \boxed{
