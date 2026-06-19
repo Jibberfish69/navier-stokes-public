@@ -56,14 +56,18 @@ The current extraction gives an ancient/local suitable source-residue limit or t
 
 ## Conditional downstream theorem
 
-If `ZenoCriticalProfileProduction.A` were proved, then the zero-force branch could plausibly be killed by a Landau/Sverak-classification Liouville theorem:
+If `ZenoCriticalProfileProduction.A` were proved, then the zero-force branch
+would reduce to the following downstream Liouville theorem:
 
 ```text
 ZeroFluxCriticalProfileLiouville.A:
 stationary (-1)-homogeneous smooth-sphere profile + Phi_0=0 => U=0.
 ```
 
-But that theorem is downstream. It does not produce the profile.
+The contradiction is available only after both pieces are proved: production of
+the stationary `(-1)`-homogeneous smooth-sphere profile and the displayed
+zero-flux Liouville theorem.  The Liouville theorem is downstream; it does not
+produce the profile.
 
 ## Verdict
 
