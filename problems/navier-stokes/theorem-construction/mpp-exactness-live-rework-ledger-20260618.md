@@ -12186,6 +12186,12 @@ Surfaces edited:
 
 - `theorem-construction/mpp-terminal-weighted-no-free-sink-independent-attempt-20260517.md`.
 
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `usual localization` phrase in the edited
+no-free-sink note.  It finds the replacement legal-exit loss estimate.  `git
+diff --check` passed on the edited note and this ledger.
+
 ## Pressure Lobe Source-Tether Legal-Ledger Rework
 
 Old claim being spent:
@@ -12216,6 +12222,13 @@ Surfaces edited:
 
 - `theorem-construction/mpp-pressure-lobe-source-tether-direct-attempt-20260517.md`.
 
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `standard pressure/cutoff` phrase in the
+edited pressure-lobe note.  It finds the replacement
+`TerminalPressureCollarLegal.A` condition and displayed legal-loss estimate.
+`git diff --check` passed on the edited note and this ledger.
+
 ## TPNI Finite-Slab Boundary-Term Rework
 
 Old claim being spent:
@@ -12242,6 +12255,12 @@ continuation may not be spent without the stated boundary controls.
 Surfaces edited:
 
 - `theorem-construction/mcp-tpni-noincoming-anisotropic-bu-solver-pass-20260505.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `usual boundary hypotheses` phrase in the
+edited TPNI note.  It finds the replacement finite-slab boundary-term statement.
+`git diff --check` passed on the edited note and this ledger.
 
 ## HWY Transport-Diffusion Gronwall Factor Rework
 
@@ -12271,3 +12290,11 @@ the cutoff commutator packet `F_{J,k}^{cut}`.
 Surfaces edited:
 
 - `theorem-construction/hwy-instability-attack-packet.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `usual transport-diffusion` phrase in the
+edited HWY packet.  It finds the replacement coefficient
+`a_k(t)=C_prod ||nabla v_J||_{L^\infty(U_k)}` and the integral bound producing
+the exponential in `(EP.10bg3)`.  `git diff --check` passed on the edited note
+and this ledger.
