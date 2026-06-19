@@ -433,4 +433,5 @@ pair-level two-supplier package:
 \tag{PSS.23}
 ```
 
-Everything downstream of those two suppliers is now formal assembly.
+Everything downstream of those two suppliers is conditional assembly from the
+two displayed supplier estimates.
