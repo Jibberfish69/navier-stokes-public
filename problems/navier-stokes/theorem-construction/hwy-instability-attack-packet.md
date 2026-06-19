@@ -5353,9 +5353,13 @@ the retained chart is the cutoff commutator packet `\mathcal C_{k,\omega}^{cut}`
 
 **Proof.**
 Insert `(EP.10bg1)` into `(EP.10be2)`. The term
-`\|\nabla v_J\|_{L^\infty}\|\chi_k\omega_J\|_{B^0_{\infty,1}}` is then absorbed
-into the usual transport-diffusion Gronwall factor, while the remaining source
-is exactly `F_{J,k}^{cut}`. This yields `(EP.10bg3)`. ∎
+`\|\nabla v_J\|_{L^\infty}\|\chi_k\omega_J\|_{B^0_{\infty,1}}` becomes the
+Gronwall coefficient
+`a_k(t)=C_{\mathrm{prod}}\|\nabla v_J(\cdot,t)\|_{L^\infty(U_k)}`.  The
+coefficient packet `(EP.10be1)` gives
+`\int_{I_k^{gap}}a_k(t)\,dt\le C\Lambda_k^v`, producing the exponential factor
+`e^{C_{\mathrm{td}}'\Lambda_k^v}` in `(EP.10bg3)`.  The remaining source is
+exactly `F_{J,k}^{cut}`. This yields `(EP.10bg3)`. ∎
 
 ### Corollary EP.10bh (the adiabatic chart-local wall reduces to anchor-time Besov, local Lipschitz coefficient, and cutoff source)
 
