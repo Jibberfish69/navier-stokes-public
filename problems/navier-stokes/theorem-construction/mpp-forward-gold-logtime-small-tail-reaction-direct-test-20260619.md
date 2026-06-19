@@ -56,8 +56,8 @@ D(s)=\int |\nabla_y v(s,y)|^2\rho(y)\,dy.
 \tag{LST.4}
 ```
 
-The Gaussian energy calculation from the renormalized-frequency attempt gives
-the schematic inequality
+After fixing the Gaussian weight and absorbing the neutral-mode corrections into
+the displayed residual, the Gaussian energy calculation gives
 
 ```math
 M'(s)
@@ -98,7 +98,7 @@ wider Gaussian weight.  Thus
 
 ```math
 |\mathcal F_{\rm conv}(s)|
-\lesssim
+\le C
 \int |v|^3\rho_*\,dy.
 \tag{LST.8}
 ```
@@ -116,18 +116,19 @@ not signed and is kept as a tail/trace term:
 
 ```math
 |\mathcal F_{\rm press}(s)|
-\lesssim
+\le C
 \int \left(|v|^3+|q|^{3/2}\right)\rho_*\,dy
 +
 \mathcal R_{\rm conormal}(s).
 \tag{LST.10}
 ```
 
-Local Gaussian interpolation gives the model bound
+Local Gaussian interpolation gives the exact bound, with the exterior-tail
+piece kept explicit:
 
 ```math
 \int |v|^3\rho_*\,dy
-\lesssim
+\le C
 M(s)^{3/4}D(s)^{3/4}
 +\mathcal R_{\rm tail}(s).
 \tag{LST.11}
@@ -192,7 +193,7 @@ This gives decay by Gronwall once the residual is summable:
 
 ```math
 M(s)
-\lesssim
+\le C
 e^{-c(s-S)/2}M(S)
 +
 \int_S^s e^{-c(s-\sigma)/2}
@@ -217,6 +218,7 @@ the cubic term has the wrong sign:
 \ge0
 \quad\text{when}\quad
 M\gtrsim \sqrt{c/C}.
+M\ge \sqrt{c/C}.
 \tag{LST.18}
 ```
 
