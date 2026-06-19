@@ -1037,9 +1037,11 @@ C_\rho
 \tag{PD.56}
 ```
 
-So the near-diagonal gain carries the expected `\rho^{3/2}` factor after
-explicit localization in the `x`-window. A global `\rho^{3/2}` statement on all
-of `\mathbb R^6` would be false without such localization.
+So the near-diagonal gain carries the displayed `\rho^{3/2}` factor only through
+the localized tube-volume bound
+`|(E\times\mathbb R^3)\cap D_\rho|\le C_{tube}|E|\rho^3`. A global
+`\rho^{3/2}` statement on all of `\mathbb R^6` would be false without such
+localization.
 
 **Proof.**
 The `L^\infty_{x,y}` semigroup bound `(PD.55)` and the Duhamel formula `(PD.34)`
