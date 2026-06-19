@@ -14247,6 +14247,31 @@ The targeted residual generic/model scan is clean on live files; old phrases
 remain only in ledger evidence.  `git diff --check` passed on the edited
 surfaces and this ledger.
 
+## ASAP Broad-Theorem-Creation Wording Rework
+
+Old claim being spent:
+
+The ASAP closure route note still said to stop `generic theorem creation`.
+
+Exact replacement:
+
+It now says to stop broad theorem creation on `source-wall-root-after-reconcile`.
+
+Proof or downstream consequence:
+
+The route note now names the failure as an over-broad route-generation problem,
+not a theorem category that can substitute for row-level proof work.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-asap-closure-better-ideas-20260506.md`.
+
+Second downstream pass and validation:
+
+The targeted ASAP wording scan is clean on the live file; the old phrase remains
+only in ledger evidence.  `git diff --check` passed on the edited route note and
+this ledger.
+
 ## Standard-To-Criterion Route Wording Rework
 
 Old claim being spent:
