@@ -91,17 +91,48 @@ The continuum route writes the far-corona piece with the two-scale density
 K(\ell,r)=\mathbf 1_{r\ge c_1\ell}{\ell\over r}.
 ```
 
-`middle-band-flux-gap-kernel-theorem.md` proves that the Schur step is formal
-once the density factors as:
+The exact Hardy/Schur input from
+`middle-band-flux-gap-kernel-theorem.md` is this conditional inequality.  If
 
 ```math
 \mathcal A_{\ell,r}(t)\le U(\ell,t)V(r,t)
+\qquad (r\ge c_1\ell),
+\tag{CTS.1}
 ```
 
-with square budgets for `U` and `V`.
+and
 
-The issue is not Schur summation.  The issue is that the natural `U` budget is
-the active stress square:
+```math
+\int_0^T\int_0^{\ell_N}U(\ell,t)^2\,{d\ell\over \ell}\,dt
+\le
+C_U\int_0^TD_N(t)\,dt,
+\tag{CTS.2}
+```
+
+while
+
+```math
+\int_0^T\int_{\ell\le r/c_1}V(r,t)^2\,{dr\over r}\,dt
+\le
+C_V\,2^{-2\delta N},
+\tag{CTS.3}
+```
+
+then Schur's test for
+\(K(\ell,r)=\mathbf 1_{r\ge c_1\ell}\ell/r\), followed by
+Cauchy-Schwarz and the chosen absorption constants, gives
+
+```math
+\int_0^T \Pi_N^{mid,far,L}(t)\,dt
+\le
+{\eta\nu\over16}\int_0^TD_N(t)\,dt
++
+C_*2^{-2\delta N}.
+\tag{CTS.4}
+```
+
+So the Schur summation is paid only under `(CTS.1)`--`(CTS.3)`.
+The issue is that the natural `U` budget is the active stress square:
 
 ```math
 \|\tau_\ell^{H^1}[u](t)\|_{L_x^2}^2
