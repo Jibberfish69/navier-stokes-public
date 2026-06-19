@@ -10014,3 +10014,42 @@ The targeted scan finds no remaining `simply substitutes`, `It is simply`, or
 or source-frontier.  The positive scan finds `parameter substitution`,
 `coefficient-integrability`, and `Receiver-Side Conditional Assembly`.
 `git diff --check` passes on all three edited notes.
+
+## LCI/OFP Micro-Exactness Rework
+
+Old claim being spent:
+
+Two live theorem-program surfaces still contained small shortcut phrases inside
+proof-facing text: the lower-carrier proof said an allowed
+`\varepsilon\mathcal D` term was "simply" zero, and the one-field program
+described a needed reference-increment defect control at scales "comparable" to
+`R_\delta^{osc}`.
+
+Exact replacement:
+
+The lower-carrier proof now states that `(LCI.3c3k0)` and `(LCI.3c5f)` follow
+with the admissible extra `\varepsilon\mathcal D` term set equal to `0`.  The
+one-field target now asks for packet-local reference-increment defect control on
+the explicit enlarged balls
+
+\[
+B(\Phi(a^j,t),2R_\delta^{osc}).
+\]
+
+Proof or downstream consequence:
+
+The proof may spend the zero choice only as the exact allowed bridge parameter,
+and the OFP target may spend only the named enlarged-ball scale, not an
+unspecified comparable-scale family.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md`;
+- `theorem-construction/mpp-one-field-forward-preservation-theorem-program.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `simply taken` or `scales comparable`
+phrases in those two notes, live edge, or source-frontier.  The positive scan
+finds the exact admissible-zero statement.  `git diff --check` passes on both
+edited notes.
