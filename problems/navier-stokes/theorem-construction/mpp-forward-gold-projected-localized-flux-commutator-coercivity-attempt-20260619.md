@@ -71,13 +71,16 @@ The interior `chi` term cancels by incompressibility:
 -\frac12\int |u|^2u\cdot\nabla\chi.
 ```
 
-So the surviving leading contribution is a localized energy flux:
+Since `P` is self-adjoint and `Pu=u`, the exact decomposition is:
 
 ```math
 \mathcal C_\chi(u)
-\sim
+\ =
 \frac12\int |u|^2u\cdot\nabla\chi
-+\text{projection commutator tail}.
++\mathcal R_\chi^P(u),
+\qquad
+\mathcal R_\chi^P(u)
+:=\int (u\otimes u):\nabla([P,\chi]u).
 ```
 
 This term has no sign.  It is inward or outward depending on the velocity
@@ -95,17 +98,31 @@ than viscous dissipation:
 +\text{legal}.
 ```
 
-This is false at critical scaling without an additional reserve.  The left side
-is controlled naturally by a local cubic quantity:
+This is false at critical scaling without an additional reserve.  The quantity
+being spent is explicitly the cutoff flux
 
 ```math
-\int_{\operatorname{collar}} |u|^3|\nabla\chi|.
+\mathsf{Flux}_\chi(u)
+:=
+\int_{\operatorname{supp}\nabla\chi} |u|^3|\nabla\chi|.
 ```
 
-At Navier-Stokes scaling, that cubic flux is critical.  It can stay order one
-on shrinking terminal annuli, exactly the regime of the terminal source pulse.
-Viscosity does not make it perturbative unless a separate smallness, reserve,
-or no-incoming condition is present.
+For `\chi_r(x)=\chi((x-x_0)/r)` and
+`u_r(x)=r^{-1}U((x-x_0)/r)`,
+
+```math
+\mathsf{Flux}_{\chi_r}(u_r)
+=
+r^{-1}\int_{\operatorname{supp}\nabla\chi}|U|^3|\nabla\chi|,
+\qquad
+\nu\int \chi_r|\nabla u_r|^2
+=
+\nu r^{-1}\int \chi|\nabla U|^2.
+```
+
+Shrinking the annulus gives no smallness advantage in the flux-to-dissipation
+ratio.  Viscosity does not make the flux perturbative unless a separate
+smallness, reserve, or no-incoming condition is present.
 
 A smooth divergence-free packet crossing the cutoff collar gives the elementary
 counter-shape.  Reversing the direction of the packet reverses the sign of the
@@ -121,20 +138,26 @@ The projection commutator has the form
 [P,\chi]\nabla\cdot(u\otimes u).
 ```
 
-Calderon-Zygmund / Coifman-Meyer estimates bound it by cutoff derivatives,
-near-field cubic terms, and nonlocal tails.  They do not make it positive.
-
-A typical bound has the schematic form
+Calderon-Zygmund / Coifman-Meyer estimates bound it by a critical cubic
+currency.  Precisely, for every `1<p<\infty` and smooth cutoff `\chi`, there is
+a finite constant `C_{p,\chi,P}` such that
 
 ```math
-|\langle [P,\chi]\nabla\cdot(u\otimes u),u\rangle|
-\lesssim
-\int_{\operatorname{collar}} |u|^3|\nabla\chi|
-+\text{tails}.
+\|[P,\chi]\nabla\cdot F\|_{L^p}
+\le
+C_{p,\chi,P}\|F\|_{L^p}.
 ```
 
-Again the natural currency is critical cubic flux or a legal tail.  There is
-no standalone coercivity.
+With `F=u\otimes u` and `p=3/2`, Holder gives the exact consequence
+
+```math
+\bigl|\langle [P,\chi]\nabla\cdot(u\otimes u),u\rangle\bigr|
+\le
+C_{\chi,P}\|u\|_{L^3}^3.
+```
+
+Local versions split this cubic currency into collar terms and nonlocal tails,
+but the estimate itself supplies neither sign nor coercivity.
 
 ## Material Gauge Test
 
