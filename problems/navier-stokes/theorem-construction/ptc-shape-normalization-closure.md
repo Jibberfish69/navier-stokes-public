@@ -910,7 +910,7 @@ This sharpest source-level selector wall is now isolated in
 That stronger selector-native sufficient route is now isolated separately in
 [terminal-sector-center-density-and-local-holder-oscillation.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/terminal-sector-center-density-and-local-holder-oscillation.md).
 
-On the standard selector-scale exact-potential branch, this note therefore
+On the declared selector-scale exact-potential branch, this note therefore
 plugs into the installed continuation chain as:
 
 ```math
