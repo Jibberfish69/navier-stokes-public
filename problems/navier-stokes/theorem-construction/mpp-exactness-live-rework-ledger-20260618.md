@@ -13796,3 +13796,57 @@ terminal-window`, `standard pushforward`, `standard shell/cap`, `standard smooth
 maximum`, or `standard limiting interpretation` wording outside
 ledger/provenance receipts.  `git diff --check` passed on the edited notes and
 this ledger.
+
+## Prelimit, Collar, And Row-Audit Wording Rework
+
+Old claim being spent:
+
+Several theorem notes still used broad labels in proof-facing prose:
+`approximate flows`, `usual finite j-collar`, `standard one-twist collar test
+map`, `standard lifted tame products`, `that standard`, `standard endpoint
+commutator machinery`, `standard spectral-series construction`, `standard
+selector-scale`, `standard parabolic cylinders`, `standard Navier-Stokes
+critical element`, and `standard class-as-uniform-budget reading`.
+
+Exact replacement:
+
+The affected notes now use the exact local objects: prelimit flows, fixed finite
+`j`-collar, declared one-twist collar test map, displayed lifted tame product
+estimates, installed row audit, endpoint commutator estimates listed in the
+schema, spectral-series construction from mutually orthogonal projections,
+declared selector-scale realization, ordinary parabolic cylinders, classical
+Navier-Stokes critical element, and class-as-uniform-budget reading.
+
+Proof or downstream consequence:
+
+The passages now spend named hypotheses, displayed constructions, or declared
+branches.  The reverse-four-body failure is a prelimit-to-fake-limit defect; the
+scale lifted-band reduction uses a fixed finite collar; the Dehn twist test
+spends its declared map and \(C_{tw}/L\) bound; Osgood promotion depends on the
+displayed tame product growth; row-audit completion is measured by installed row
+coverage; regularity upgrade requires a genuine critical replacement for the
+failed endpoint commutator; and the read-cover/selector/critical-element notes
+use declared objects rather than conventional labels.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-reverse-four-body-class-membership-audit.md`.
+- `theorem-construction/scale-kernelized-lifted-band-reduction-lemma.md`.
+- `theorem-construction/mpp-forward-gold-dehn-twist-topological-drift-attempt-20260618.md`.
+- `theorem-construction/osgood-branch-promotion-blocked-note.md`.
+- `theorem-construction/mpp-clay-counterexample-exclusion-target-correction-20260603.md`.
+- `theorem-construction/regularity-upgrade-schemas.md`.
+- `theorem-construction/holonomy-refinement-projector-spectral-realization-theorem.md`.
+- `theorem-construction/observable-projector-surrogate-construction.md`.
+- `theorem-construction/mpp-read-cover-full-end-bridge-note.md`.
+- `theorem-construction/mpp-produced-minimal-first-pack-bubble-rigidity-critical-element-attempt-20260609.md`.
+- `theorem-construction/mcp-limitofclassterminalartifact-a-4236c203ff.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `approximate flows`, `usual finite`,
+`standard one-twist`, `standard lifted tame`, `that standard`, `standard
+endpoint`, `standard spectral-series`, `standard selector-scale`, `standard
+parabolic cylinders`, `standard Navier-Stokes critical`, or `standard
+class-as-uniform-budget` wording outside ledger/provenance receipts.  `git diff
+--check` passed on the edited notes and this ledger.
