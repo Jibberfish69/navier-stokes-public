@@ -96,6 +96,37 @@ Thus `SourceSquareReserve.A`, `ScaleCriticalTreeCarleson.A`, and the
 unweighted terminal critical-action reserve are the same closure demand in
 different currencies.
 
+The exact time-face implication is recorded in
+`mpp-forward-gold-source-square-to-moving-trace-modulus-20260619.md`.  For a
+packet with \(r=2^{-k}\), the normalized density
+
+```math
+G(s)=r^{1/2}T_k(T+r^2s),
+\qquad
+T_k(t)=\sum_{\ell>k+4}D_\ell(t),
+```
+
+satisfies
+
+```math
+\int_{-1}^{0}G(s)^2\,ds
+=
+\int_{T-r^2}^{T}2^kT_k(t)^2\,dt.
+```
+
+Thus, after the selected positive source carrier is identified with this
+square density up to legal residue, Cauchy--Schwarz gives the moving-packet
+terminal strip modulus
+
+```math
+\int_{-\varepsilon}^{0}a(s)\,ds
+\le
+C\varepsilon^{1/2}+o_{\rm legal}(\varepsilon).
+```
+
+So the reserve is not only a recurrence-counting device.  It is exactly the
+square-integrability theorem that forbids the last-instant source atom.
+
 ## 3. First moment does not imply the square reserve at heat scale
 
 Take one active frequency tail at level \(m+5\) on a terminal window \(I_m\)
