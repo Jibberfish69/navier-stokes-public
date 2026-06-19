@@ -83,11 +83,11 @@ Then
 The scaling is
 
 ```math
-\|\varphi_\epsilon\|_{L^2}\lesssim |\ell|\epsilon^{3/2},
+\|\varphi_\epsilon\|_{L^2}\le C_\chi |\ell|\epsilon^{3/2},
 \qquad
-\|\nabla\varphi_\epsilon\|_{L^2}\lesssim |\ell|\epsilon^{1/2},
+\|\nabla\varphi_\epsilon\|_{L^2}\le C_\chi |\ell|\epsilon^{1/2},
 \qquad
-\|\nabla\varphi_\epsilon\|_{L^{3/2}}\lesssim |\ell|\epsilon.
+\|\nabla\varphi_\epsilon\|_{L^{3/2}}\le C_\chi |\ell|\epsilon.
 \tag{PF.8}
 ```
 
@@ -120,7 +120,7 @@ The viscous term vanishes:
 ```
 
 because `nabla U in L^2_{\rm loc}` and
-`\|\nabla\varphi_\epsilon\|_{L^2}\lesssim\epsilon^{1/2}`.
+`\|\nabla\varphi_\epsilon\|_{L^2}\le C_\chi |\ell|\epsilon^{1/2}`.
 
 The nonlinear term also vanishes.  From `U in H^1_{\rm loc}(B)` in three
 dimensions, `U in L^6_{\rm loc}` and `U\otimes U in L^3_{\rm loc}`.  Hence
