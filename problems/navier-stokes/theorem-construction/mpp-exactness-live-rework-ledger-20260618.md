@@ -14343,6 +14343,41 @@ No unresolved item is being reported in this classification.  These are
 preserved because their local role was checked as exact terminology or
 anti-shortcut prose.
 
+## Preserved Residue Classification
+
+Command classifying residue files:
+
+```text
+rg -l "U/r|grad u ~ U/r|nabla u ~|∇u|linear profile|same order|typical|standard|immediate|routine|obvious|generic|schematic|scale estimate|model" \
+  problems/navier-stokes/source-forensics \
+  problems/navier-stokes/submission-bundle/authoring/lab/transcripts \
+  problems/navier-stokes/submission-bundle/paper-arc-production-runs \
+  problems/navier-stokes/submission-bundle/source-spine-production-runs \
+  problems/navier-stokes/theorem-construction/mpp-exactness-provenance-audit-20260616.md \
+  problems/navier-stokes/theorem-construction/mpp-exactness-completion-audit-20260617.md
+```
+
+Residue counts:
+
+- `source-forensics`: 9 files, intentionally preserved source corpus and
+  forensic history.
+- `submission-bundle/authoring/lab/transcripts`: 14 files, intentionally
+  preserved transcripts/audits, including the original pulling-teeth material.
+- `submission-bundle/paper-arc-production-runs`: 496 files, intentionally
+  preserved generated paper-arc packet snapshots.
+- `submission-bundle/source-spine-production-runs`: 24 files, intentionally
+  preserved generated source-spine packet snapshots.
+- `theorem-construction/mpp-exactness-provenance-audit-20260616.md` and
+  `theorem-construction/mpp-exactness-completion-audit-20260617.md`: 2 files,
+  intentionally preserved exactness audit/provenance records.
+
+Classification:
+
+Every marker hit under those path prefixes is intentionally preserved residue.
+Those hits are not counted as live theorem/proof-surface completion, and no
+archive/transcript/generated-run cleanup is being used as a substitute for the
+live mathematical rework above.
+
 ## Standard-To-Criterion Route Wording Rework
 
 Old claim being spent:
