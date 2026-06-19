@@ -325,8 +325,8 @@ package.
 
 ## Non-Circular Graph Reading
 
-The finite-parameter Gronwall theorem is honest as `(ULCI.24)`, but it should
-not be used to pretend that base `EOC.A` has been proved from itself. For graph
+The finite-parameter Gronwall theorem is honest as `(ULCI.24)`, but it is not
+used to pretend that base `EOC.A` has been proved from itself. For graph
 assembly, separate the pre-`EOC.A` receiver parameters from the base readback.
 
 Define
@@ -422,8 +422,7 @@ EOC.A_{N,m,\delta}.
 \tag{ULCI.29}
 ```
 
-Only after `(ULCI.29)` is available should the base transported-center return be
-spent:
+Only after `(ULCI.29)` is available is the base transported-center return spent:
 
 ```math
 EOC.A_{N,m,\delta}
