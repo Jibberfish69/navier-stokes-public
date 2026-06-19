@@ -14867,3 +14867,57 @@ a loose `O(1)` summary.  A fixed-string residue search over the repaired Stokes
 note and `source-frontier.yaml` finds no remaining `route should`, `should not be
 read`, `O(1)`, `should`, or `\gg` shortcuts on that slice, and `git diff --check
 -- problems/navier-stokes` passes.
+
+## Carrier/Residual Bridge Constant And Conditional-Reduction Repair
+
+Old claim being spent:
+
+`mpp-forward-gold-carrier-residual-bridge-direct-attempt-20260618.md` wrote the
+desired carrier realization as a `\lesssim` estimate and used
+`\mathbf M(\partial T_m^{car}) <= D_legal + O(1)` inside the conditional
+no-ghost theorem.  It also said minimal donor-chain reduction removes retained
+partners, pair-weight defects, and finite donor trees without carrying the
+conditional ASAC/positive-pair-weight finite-graph package.
+
+Exact replacement:
+
+The carrier realization target is now the explicit uniform estimate
+
+```text
+|Z|_Z <= C_car(
+  M(T_sel)+M(partial T_sel)+mu_src^{+,sel}+|Phi_sel|+D_legal
+)
+```
+
+where `C_car` is independent of the terminal scale and the selected carrier is
+the same native source/stress carrier used by the terminal branch.  The boundary
+mass hypothesis now uses a named constant
+
+```text
+M(partial T_m^{car}) <= D_legal + C_partial,
+```
+
+with `C_partial` fixed by the annular normalization and independent of terminal
+scale.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-carrier-residual-bridge-direct-attempt-20260618.md`.
+- `source-frontier.yaml`.
+
+Downstream consequence:
+
+`ResidualPreCauchyReadoutRouting.A` is equivalent to
+`MinimalChainProjectedResidueIdentity.A` only after the conditional minimal
+donor-chain reduction, including the ASAC/positive-pair-weight finite-graph
+package.  Minimality alone does not remove retained signed partners or
+pair-weight defects.
+
+Second downstream pass and validation:
+
+`source-frontier.yaml` now records the same conditional reduction under the
+ASAC/positive-pair-weight package.  A fixed-string residue search over the
+carrier/residual note and `source-frontier.yaml` finds no remaining `\lesssim`,
+`O(1)`, old `after minimal donor-chain reduction`, or `removes retained
+partners` shortcut on that slice.  `source-frontier.yaml` parses with Ruby YAML,
+and `git diff --check -- problems/navier-stokes` passes.
