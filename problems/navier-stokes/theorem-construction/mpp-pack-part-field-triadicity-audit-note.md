@@ -94,8 +94,8 @@ Thus:
 ```
 
 This is not pairwise independence and not a fourth primitive. It is the custody
-rule preventing the weak formal reading of `Part` from being mistaken for
-terminal pressure-viscosity participation.
+rule preventing the weak carrier-law-only reading of `Part` from being mistaken
+for terminal pressure-viscosity participation.
 
 The endpoint words keep the same status:
 
