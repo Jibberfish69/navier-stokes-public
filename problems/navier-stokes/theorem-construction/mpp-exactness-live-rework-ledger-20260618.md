@@ -11014,3 +11014,48 @@ The targeted scan finds no remaining `Lemma 6 and the contradiction theorem are
 formal once` hit in the edited source note or appendix copy.  The positive
 source read shows `conditional consequences once`, and `git diff --check`
 passes on the edited Lagrangian surface.
+
+## Cycle-Exact Observability Conditional Chain Rework
+
+Old claim being spent:
+
+The cycle-exact notes used several unearned shortcut phrases: `SG.4B`
+extraction was called "formal"; the normal-covector overlap subtask was said to
+"follow formally"; the angular packet said the branch "closes formally"; and
+the projective packet said the projector-comparison step was "formal once" a
+surrogate is supplied and that the projective-surrogate side "closes formally."
+
+Exact replacement:
+
+The obstruction note now says `SG.4B` extraction is downstream bookkeeping only
+after the directional observability ledger `PD.70z` has been supplied.  The
+normal-covector route now cites the displayed `(CN.13h13)`-`(CN.13h14)`
+counting bound.  The angular packet now closes conditionally through the
+current packet stack under `EWI.A`, `TCJ`, and `TEA`.  The projective packet now
+states the projector-comparison step as a conditional `PPCJ'` consequence once
+an observable symmetric surrogate is supplied.
+
+Proof or downstream consequence:
+
+The cycle-exact branch may spend downstream `PD.70`, `PD.70aa`, and `SG.4B`
+only after the relevant directional observability, transported overlap, or
+projective-surrogate hypotheses have been paid.  The remaining open theorem is
+not hidden by the word "formal": it is still the polarity/alignment or
+projective synchronization input that recovers directional information from
+the signless packet.
+
+Surfaces edited:
+
+- `theorem-construction/pd70z-cycle-exact-closure-obstruction-note.md`;
+- `theorem-construction/pd70z-cycle-exact-normal-covector-route.md`;
+- `theorem-construction/cycle-exact-angular-observability-packet.md`;
+- `theorem-construction/cycle-exact-projective-synchronization-packet.md`.
+
+Second downstream pass and validation:
+
+The targeted cycle scan finds the replacement phrases `conditional
+downstream`, `downstream bookkeeping once`, `displayed
+(CN.13h13)-(CN.13h14) counting bound`, `closes conditionally`, and
+`conditional PPCJ' consequence`.  It finds no remaining `follows formally`,
+`closes formally`, `formal once`, or `formal assembly` hit in the edited cycle
+cluster.  `git diff --check` passes on the edited cycle notes and this ledger.
