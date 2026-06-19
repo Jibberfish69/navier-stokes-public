@@ -88,7 +88,7 @@ is absent.  The current equality-class production yields finite local `L^1_s` ma
 
 ## All-doors-closed obstruction
 
-The formal complement is the class `B_{ASAC}^{closed}`: same-fluid terminal carrier, zero ASAC defect, legal exits routed away, finite donor trees telescoped, no fixed preterminal entrance leaf, positive inherited terminal native source residue, and no production of temporal thickness, source Carleson, active reserve, transported no-incoming, or rigid anti-atom subclass.
+The logical complement is the class `B_{ASAC}^{closed}`: same-fluid terminal carrier, zero ASAC defect, legal exits routed away, finite donor trees telescoped, no fixed preterminal entrance leaf, positive inherited terminal native source residue, and no production of temporal thickness, source Carleson, active reserve, transported no-incoming, or rigid anti-atom subclass.
 
 At current route resolution, this class is consistent with the installed source-wall bookkeeping.  It is an obstruction class, not a contradiction theorem.
 
