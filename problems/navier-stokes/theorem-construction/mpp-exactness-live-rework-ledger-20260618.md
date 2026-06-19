@@ -14744,3 +14744,67 @@ supplied.  No authority rewrite was needed.  A targeted scan over the patched
 note and live authority surfaces finds no remaining `should`, `demotes`, `older
 junk`, or `lesssim` wording from this failure class, and `git diff --check --
 problems/navier-stokes` passes.
+
+## Door 1 ASAC Pair-Weight Payment Conditionality Repair
+
+Old claim being spent:
+
+The active Door 1 donor-chain surfaces treated finite signed-current accounting
+as already paid.  In particular,
+`mpp-forward-gold-door1-no-free-terminal-zeno-donor-chain-20260618.md` said
+that retained signed partners, legal exits, finite donor trees, and the ASAC
+pair-weight charge pay every finite branch, and
+`mpp-forward-gold-door1-minimal-zeno-donor-chain-trace-dichotomy-attempt-20260618.md`
+started from "the finite donor graph has already been paid".  `source-frontier.yaml`
+repeated the same shortcut by saying `PositivePairWeightDefectCharge.A` is paid
+by ASAC and by listing retained partners / ASAC pair-weight defects among paid
+finite cases.
+
+Exact replacement:
+
+The finite Door 1 graph is now conditional.  Legal exits, finite donor trees,
+and preterminal entrance branches remain paid by their legal/telescoping ledgers,
+but retained signed partners are paid only after the same-witness package
+
+```text
+ASAC.A
++ PositivePairWeightDefectCharge.A
++ ProjectedCutoffLedger.A
++ LegalBoundaryLedger.A
++ LocalDonorBalance.A
++ EntranceLeafDecay.A
+=> TerminalDonorGraphDecomposition.A
+```
+
+with the packet-residual, no-incoming, and backward-uniqueness inputs required
+for ASAC.  Without those inputs, the retained signed-partner branch remains an
+active Door 1 signed-payment gate.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-door1-no-free-terminal-zeno-donor-chain-20260618.md`.
+- `theorem-construction/mpp-forward-gold-door1-minimal-zeno-donor-chain-trace-dichotomy-attempt-20260618.md`.
+- `source-frontier.yaml`.
+
+Downstream consequence:
+
+`NoFreeTerminalZenoDonorChain.A` is the remaining Door 1 blocker only after the
+conditional finite-graph package has been supplied.  The minimal-chain
+trace-dichotomy note now starts from the infinite same-fluid internal donor chain
+only under that package.  Its defect-visibility target is also exact: failure of
+terminal trace compactness must produce a renormalized residue functional
+`mathfrak R` and stress-flux number `Phi_*` on the same selected terminal trace;
+the nonzero-flux branch returns to Door 1 only after
+`MinimalChainProjectedResidueIdentity.A` identifies the native carrier.
+
+Second downstream pass and validation:
+
+`source-frontier.yaml` now matches the corrected proof notes: the Door 1 minimal
+trace attempt is downstream of the conditional finite-graph package, and the
+signed-partner branch stays active until ASAC/positive-pair-weight payment is
+actually supplied.  A targeted scan over the repaired Door 1 notes plus
+`source-frontier.yaml` and `live-theorem-edge.yaml` finds no remaining old
+shortcuts such as `PositivePairWeightDefectCharge.A is paid by ASAC`,
+`finite donor graph has already been paid`, `after ASAC pair-weight charge`,
+or the `should` defect-visibility statements.  `source-frontier.yaml` parses
+with Ruby YAML, and `git diff --check -- problems/navier-stokes` passes.
