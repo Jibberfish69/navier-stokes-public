@@ -10,18 +10,26 @@ positive-radius case has been separated from the shrinking heat-scale case.
 The fixed-radius atom is not the live obstruction.  If the packet has radius
 bounded below by \(R_0>0\) and the same-fluid participation rate is bounded by
 the local throttle, then a terminal window of length \(\tau\) can receive at
-most \(O(\tau)\) normalized feed.  That goes to zero as \(\tau\downarrow0\).
+most \(C(R_0)\tau\) normalized feed, plus legal-tail terms.  That goes to zero
+as \(\tau\downarrow0\) after legal tails are removed.
 
 The only surviving case is the heat-scale terminal packet:
 
 ```math
 r_m\downarrow0,
 \qquad
-|I_m|\sim {r_m^2\over\nu},
+\alpha_t {r_m^2\over\nu}\le |I_m|\le A_t {r_m^2\over\nu},
 \qquad
-\lambda_m^+\sim {\nu\over r_m^2}.
+\alpha_\lambda{\nu\over r_m^2}
+\le
+\lambda_m^+
+\le
+A_\lambda{\nu\over r_m^2}.
 \tag{HCT.1}
 ```
+
+The constants in `(HCT.1)` are fixed along the selected terminal sequence.  This
+is a heat-scale comparability hypothesis, not a linear profile assumption.
 
 This note tests whether that surviving branch automatically produces the
 minimal ancient/no-waste critical element needed by the current forward-gold
@@ -61,31 +69,36 @@ plus a shrinking time window gives no jump.
 
 ## 2. The heat-scale curve removes the uniform throttle
 
-The rate limit is scale dependent.  At radius \(r\), the natural viscous clock
-is
+The rate limit is scale dependent.  At radius \(r\), a heat window means
 
 ```math
-\tau_r\sim {r^2\over\nu},
+\alpha_t {r^2\over\nu}
+\le
+\tau_r
+\le
+A_t {r^2\over\nu},
 \tag{HCT.4}
 ```
 
 and the selected strain coefficient required to feed the packet is
 
 ```math
+\alpha_\lambda{\nu\over r^2}
+\le
 \lambda_r^+
-\sim
-{\nu\over r^2}.
+\le
+A_\lambda{\nu\over r^2}.
 \tag{HCT.5}
 ```
 
 On one heat window,
 
 ```math
+\alpha_t\alpha_\lambda
+\le
 \int_{T-\tau_r}^{T}\lambda_r^+(t)\,dt
-\sim
-{\nu\over r^2}{r^2\over\nu}
-\sim
-1.
+\le
+A_tA_\lambda.
 \tag{HCT.6}
 ```
 
@@ -102,9 +115,13 @@ r(t)^2\sim \nu(T-t),
 then the scale-dependent maximum rate behaves like
 
 ```math
+{1\over C_h}\,{1\over T-t}
+\le
 {\nu\over r(t)^2}
-\sim
-{1\over T-t}.
+\le
+{1\over c_h}\,{1\over T-t}
+\quad
+\text{if }c_h\nu(T-t)\le r(t)^2\le C_h\nu(T-t).
 \tag{HCT.8}
 ```
 
@@ -133,22 +150,20 @@ The selected positive trilinear source is the local feed meter:
 For a critical velocity packet,
 
 ```math
-|w_m|\sim{\nu\over r_m},
-\qquad
-E_m\sim\int_{B_{r_m}}|w_m|^2dx\sim\nu^2r_m.
+c_E\nu^2r_m
+\le
+E_m:=\int_{B_{r_m}}|w_m|^2dx
+\le
+C_E\nu^2r_m.
 \tag{HCT.10}
 ```
 
-Thus the physical amount of source fed over one heat window is
+Thus the physical amount of source fed over one heat window is at most
 
 ```math
 \mathcal T_m^+
-\sim
-\left({\nu\over r_m^2}\right)
-(\nu^2r_m)
-\left({r_m^2\over\nu}\right)
-=
-\nu^2r_m.
+\le
+A_\lambda A_t C_E\,\nu^2r_m.
 \tag{HCT.11}
 ```
 
@@ -156,8 +171,8 @@ The physical energy amount goes to zero.  The normalized packet feed does not:
 
 ```math
 {1\over \nu^2r_m}\mathcal T_m^+
-\sim
-1.
+\ge c_T
+\quad\text{on a retained source-balanced feed event.}
 \tag{HCT.12}
 ```
 
@@ -214,9 +229,17 @@ not supplied.  The feed coefficient can match the viscous drain on the same
 clock:
 
 ```math
-\lambda_m^+(t)\sim c{\nu\over r_m^2}
+\alpha_\lambda{\nu\over r_m^2}
+\le
+\lambda_m^+(t)
+\le
+A_\lambda{\nu\over r_m^2}
 \quad\text{on}\quad
-|I_m|\sim {r_m^2\over\nu}.
+\alpha_t {r_m^2\over\nu}
+\le
+|I_m|
+\le
+A_t {r_m^2\over\nu}.
 \tag{HCT.17}
 ```
 
@@ -299,13 +322,14 @@ The necessary stability statement would be
 
 ```math
 \mu_{terminal}^{src,+}(u_m)
-\sim
+\doteq
 \sum_j
 \mu_{terminal}^{src,+}(U^j)
 \tag{HCT.24}
 ```
 
-under profile decomposition.  Current orthogonality gives energy decoupling,
+where `\doteq` denotes the missing stability identity required under profile
+decomposition.  Current orthogonality gives energy decoupling,
 not selected positive source decoupling.  Cross-profile cancellation can remove
 the signed partner while leaving the selected positive lobe in the terminal
 record.
