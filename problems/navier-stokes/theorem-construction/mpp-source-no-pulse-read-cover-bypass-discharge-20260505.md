@@ -430,8 +430,8 @@ The closed and open targets are:
 
 ## Terminal next target
 
-The next theorem work should not target finite extraction again.  It should
-target the post-extraction terminal primitive:
+The next theorem work does not target finite extraction again.  It targets the
+post-extraction terminal primitive:
 
 ```math
 \boxed{
