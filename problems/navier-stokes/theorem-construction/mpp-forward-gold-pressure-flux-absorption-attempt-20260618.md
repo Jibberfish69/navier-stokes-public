@@ -3,9 +3,10 @@
 Date: 2026-06-18
 
 Status: direct pressure-flux attempt; not closed.  The pressure/convection flux
-can be estimated in the usual local-energy currencies, but it has no sign and
-cannot be absorbed coercively without smallness, a pressure-trace theorem, or a
-new material-pressure cancellation principle.
+is bounded by the Holder/CZ pressure estimate and local-cylinder interpolation,
+but it has no sign and leaves the explicit `tau E_I^3` reserve after Young
+absorption.  It cannot be absorbed coercively without smallness, a
+pressure-trace theorem, or a new material-pressure cancellation principle.
 
 ## Target
 
