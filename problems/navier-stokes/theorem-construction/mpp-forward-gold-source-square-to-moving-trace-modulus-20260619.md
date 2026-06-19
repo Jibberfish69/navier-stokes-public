@@ -168,6 +168,25 @@ Here `SelectedSourceSquareCarrierDomination.A` means `(SSM.3)` on the actual
 selected native positive source carrier, with only legal residues satisfying
 `(SSM.4)`.
 
+The direct test
+`mpp-forward-gold-selected-source-square-carrier-domination-test-20260619.md`
+shows what this domination requires for the native carrier
+
+\[
+\left[
+\langle S_{<j}^{loc}w_j,w_j\rangle
+\right]_+
+=
+|w_j|^2
+\left[
+e_j\cdot S_{<j}^{loc}e_j
+\right]_+.
+\]
+
+It is supplied by a same-packet coefficient throttle, a source-weighted product
+estimate, or the signed-saturation/no-free-donor-chain theorem.  It is not
+supplied by source-square tail control alone.
+
 So source-square is not merely morally related to the time-face anti-atom.  It
 gives a quantitative modulus:
 
