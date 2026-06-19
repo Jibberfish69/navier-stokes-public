@@ -312,6 +312,108 @@ Door 2 becomes:
 So the route unifies Door 1 and Door 2 only after the strong critical element
 and no-waste theorems are produced.
 
+## Conditional contradiction machine
+
+The point of the route is not that the local energy ledger automatically solves
+the terminal problem.  It solves the terminal problem exactly if the three
+native theorems are proved:
+
+```math
+\boxed{
+\text{CriticalTerminalElementExtraction.A}
+}
+\tag{CE.24}
+```
+
+```math
+\boxed{
+\text{NoWasteLocalEnergyFlux.A}
+}
+\tag{CE.25}
+```
+
+```math
+\boxed{
+\text{CompactAncientRigidity.A}.
+}
+\tag{CE.26}
+```
+
+Assume finite-time breakdown at `T`.  The extraction theorem chooses the
+smallest terminal obstruction by parabolic rescaling and produces a nonzero
+minimal ancient element:
+
+```math
+\text{finite-time breakdown}
+\Longrightarrow
+U\ne0.
+\tag{CE.27}
+```
+
+No-waste local energy flux then forces the minimal element into one of two
+native alternatives:
+
+```math
+U\ne0
+\Longrightarrow
+\begin{cases}
+\text{visible flux/source/dissipation/pressure defect},\\
+\text{zero-defect compact ancient profile}.
+\end{cases}
+\tag{CE.28}
+```
+
+The first alternative absorbs Door 1 and all hidden-source variants:
+
+```math
+\text{visible defect}
+\Longrightarrow
+\text{paid contradiction, visible CM face, or no hidden terminal surplus}.
+\tag{CE.29}
+```
+
+The second alternative absorbs Door 2 and all zero-flux profile variants:
+
+```math
+\text{zero-defect compact ancient profile}
+\Longrightarrow
+U=0
+\tag{CE.30}
+```
+
+by `CompactAncientRigidity.A`.
+
+This contradicts `(CE.27)`.  Thus the three native theorems form a single
+contradiction machine:
+
+```math
+\boxed{
+\text{CriticalTerminalElementExtraction.A}
++\text{NoWasteLocalEnergyFlux.A}
++\text{CompactAncientRigidity.A}
+\Longrightarrow
+\text{no finite-time breakdown}.
+}
+\tag{CE.31}
+```
+
+All older branches become failure modes of this machine:
+
+```text
+profile switching,
+annular drift,
+hidden donor chain,
+orientation cancellation,
+Dehn twist,
+stress-current defect,
+source atom,
+terminal time-face mass,
+zero-flux Zeno profile.
+```
+
+They matter only as tools or countertests for `(CE.24)`, `(CE.25)`, or
+`(CE.26)`.
+
 ## Result
 
 The route is better as the central forward-gold architecture:
@@ -324,14 +426,14 @@ The route is better as the central forward-gold architecture:
 \Longrightarrow
 \text{terminal source anti-atom / no finite-time breakdown in this route}.
 }
-\tag{CE.24}
+\tag{CE.32}
 ```
 
 But current inputs supply only the soft extraction
 
 ```math
 \text{ZenoCompactnessExtraction.A}
-\tag{CE.25}
+\tag{CE.33}
 ```
 
 and the weak produced class `B_min`.  The direct attempt halts at:
@@ -340,7 +442,7 @@ and the weak produced class `B_min`.  The direct attempt halts at:
 \boxed{
 \text{CriticalElementStability / compact-orbit production}
 }
-\tag{CE.26}
+\tag{CE.34}
 ```
 
 and
@@ -350,10 +452,9 @@ and
 \text{LocalEnergyFluxNativeResidueIdentity.A}
 +\text{TerminalLocalEnergyFluxTightness.A}.
 }
-\tag{CE.27}
+\tag{CE.35}
 ```
 
 Thus the route should replace the annular/topological branches as the main
 organizing architecture, while those branches remain subordinate diagnostic
 tests for failures of compactness or no-waste visibility.
-
