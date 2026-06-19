@@ -90,28 +90,38 @@ S\in L^{5/2}_{t,x}.
 \tag{SCC.6}
 ```
 
-The heat-scale countermodel is exactly calibrated to this gap.  On
+The heat-scale counterexample shape is represented by the exact packet
+normalization
 
 ```math
 Q_j=B_{r_j}\times I_j,
 \qquad
-|I_j|\sim r_j^2/\nu,
+\alpha_t{r_j^2\over\nu}\le |I_j|\le A_t{r_j^2\over\nu},
 \qquad
-|S|\sim\nu r_j^{-2},
+\alpha_S{\nu\over r_j^2}\le |S|\le A_S{\nu\over r_j^2}
+\quad\text{on the selected active subset,}
 \tag{SCC.7}
 ```
 
 one has
 
 ```math
-\int_{Q_j}|S|^2\,dxdt\sim\nu r_j,
+c_2\nu r_j
+\le
+\int_{Q_j}|S|^2\,dxdt
+\le
+C_2\nu r_j,
 \tag{SCC.8}
 ```
 
 but
 
 ```math
-\int_{Q_j}|S|^{5/2}\,dxdt\sim\nu^{3/2}.
+c_{5/2}\nu^{3/2}
+\le
+\int_{Q_j}|S|^{5/2}\,dxdt
+\le
+C_{5/2}\nu^{3/2}.
 \tag{SCC.9}
 ```
 
@@ -125,14 +135,15 @@ It does not upgrade the selected strain exponent by the missing half-power.
 ## 3. Strain equation test
 
 Let \(S=(\nabla u+\nabla u^T)/2\) and let \(\Omega\) be the antisymmetric part
-of \(\nabla u\).  Schematically, along the material flow the strain equation is
+of \(\nabla u\).  Along the material flow, the unlocalized strain equation can
+be written in the decomposed form
 
 ```math
 D_tS-\nu\Delta S
 =
 -(S^2+\Omega^2)
 -\nabla^2p
-\text{trace correction / localization terms}.
+\text{trace correction}.
 \tag{SCC.10}
 ```
 
@@ -143,8 +154,11 @@ this becomes the same split already isolated in the no-freeze branch:
 D_tS^{near}
 =
 \nu\Delta S^{near}
+\+
 \mathcal N^{near}
+\+
 \mathcal P^{near}
+\+
 \mathcal C^{near}.
 \tag{SCC.11}
 ```
@@ -154,8 +168,8 @@ parabolic-rate complement it is precisely the critical feed event:
 
 ```math
 \|S^{near}\|_\infty
-\gtrsim
-\nu r_j^{-2}.
+\ge
+c_S\nu r_j^{-2}.
 \tag{SCC.12}
 ```
 
@@ -254,8 +268,8 @@ can satisfy
 ```math
 \sum_j
 \int_{Q_j}|S|^2\,dxdt
-\sim
-\sum_j \nu2^{-j}
+\le
+C_2\sum_j \nu2^{-j}
 <\infty,
 \tag{SCC.19}
 ```
@@ -265,8 +279,8 @@ while the critical strain cost satisfies
 ```math
 \sum_j
 \int_{Q_j}|S|^{5/2}\,dxdt
-\sim
-\sum_j\nu^{3/2}
+\ge
+c_{5/2}\sum_j\nu^{3/2}
 =\infty.
 \tag{SCC.20}
 ```
