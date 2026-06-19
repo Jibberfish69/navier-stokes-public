@@ -7,6 +7,7 @@ Active theorem-facing upstream debt note.
 Role: isolate the exact synchronized threshold theorem that upgrades the
 qualitative selector-good `DiffExc` packet to the stronger frozen
 measurable-derivative geometric wall on the standard selector-scale branch.
+measurable-derivative geometric wall on the declared selector-scale branch.
 
 ## Purpose
 
@@ -26,7 +27,7 @@ qualitative `TPS.4u => DiffExc` route.
 
 ## Exact Setup
 
-Keep the standard selector-scale realization from
+Keep the declared selector-scale realization from
 [ptc-linearization-closure.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/ptc-linearization-closure.md)
 and the active-pair scale packet `(PTCL.3aj)`. Write the frozen thresholded
 differentiability exceptional set at time `\tau` as
@@ -68,7 +69,7 @@ d\mu_{J,\varepsilon}^{pair}(a,\tau;b).
 
 ### Theorem FTLS.A (threshold-vs-linearization synchronization implies the quadratic synchronized modulus)
 
-Assume the standard selector-scale realization `(PTCL.3ai)` together with the
+Assume the declared selector-scale realization `(PTCL.3ai)` together with the
 active-pair scale packet `(PTCL.3aj)`. Then there exists a selector-scale
 lower constant `c_{\mathrm{sel}}>0` such that
 
@@ -152,7 +153,7 @@ This note isolates the precise point where the frozen measurable-derivative
 route becomes genuinely stronger than the qualitative branch-local
 `DiffExc` theorem.
 
-The qualitative standard-selector route remains:
+The qualitative declared-selector route remains:
 
 ```math
 \texttt{TPS.4u}
