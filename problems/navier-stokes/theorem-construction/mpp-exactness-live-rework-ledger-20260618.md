@@ -10828,3 +10828,32 @@ The targeted scan finds no remaining `sharpest formal composition` hit in D.5
 or the appendix copy.  The appendix already states the same-chain conditional
 availability of D.1--D.4 and exact lift.  `git diff --check` passes on the
 edited D.5 surface.
+
+## D.1 Ontic Package Reference Rework
+
+Old claim being spent:
+
+The D.1 projected NC-flow well-posedness note still said the "formal package
+file" sharpens the D.1 reading.
+
+Exact replacement:
+
+D.1 now says the conditional ontic package sharpens that reading: D.1 is the
+ontic theorem entry point fixing the projected domain, carrier decomposition,
+and closed-graph evolution problem consumed by later lift and continuation
+statements.
+
+Proof or downstream consequence:
+
+D.1 is a named conditional theorem entry point in the ontic package.  The
+reference no longer treats the package as a generic formal file.
+
+Surfaces edited:
+
+- `theorem-construction/d1-projected-nc-flow-well-posedness.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `formal package file sharpens` hit in D.1
+or the appendix copy.  The positive scan finds `conditional ontic package`, and
+`git diff --check` passes on the edited D.1 surface.
