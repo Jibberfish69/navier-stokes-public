@@ -315,7 +315,7 @@ source, pressure, viscosity, or no-incoming ledger?}
 ```
 
 If the answer is no, then terminal radius collapse cannot support a time-face
-atom.  That would feed directly into `TerminalTimeFaceAntiAtom.A`.
+atom.  This implication feeds directly into `TerminalTimeFaceAntiAtom.A`.
 
 ## Working verdict
 
