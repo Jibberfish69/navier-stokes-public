@@ -98,32 +98,32 @@ critical flux currency, not a positive term with a sign.
 
 ## Young absorption only works with smallness
 
-The usual interpolation gives, schematically on a cylinder,
+On a local cylinder `I x B`, set
+`E_I:=sup_{t in I}\|u(t)\|_{L^2(B)}^2`, `D_I:=\int_I\|\nabla u(t)\|_{L^2(B)}^2dt`,
+and `tau:=|I|`.  Sobolev interpolation and Holder in time give
 
 ```math
-\|u\|_{L^3}^3
-\lesssim
-E^{3/4}D^{3/4}
-\quad
-\text{up to scale factors}.
+\int_I\|u(t)\|_{L^3(B)}^3dt
+\le
+C_S^{3/2}\tau^{1/4}E_I^{3/4}D_I^{3/4}.
 \tag{PFA.9}
 ```
 
 Young's inequality can produce
 
 ```math
-\|u\|_{L^3}^3
+\int_I\|u(t)\|_{L^3(B)}^3dt
 \le
-\epsilon D
+\epsilon D_I
 +
-C_\epsilon E^3,
+C_\epsilon \tau E_I^3,
 \tag{PFA.10}
 ```
 
-or a comparable scale-normalized version.  This absorbs pressure flux only when
-the remaining energy/cubic currency is already controlled in the terminal
-schedule.  Current inputs do not supply that control.  The terminal Zeno branch
-is precisely a scale-critical concentration branch.
+This absorbs pressure flux only when the remaining `\tau E_I^3` currency is
+already controlled in the terminal schedule.  Current inputs do not supply that
+control.  The terminal Zeno branch is precisely a scale-critical concentration
+branch.
 
 So `(PFA.10)` is not a no-waste theorem.  It moves the problem to a
 scale-critical energy/cubic reserve:
