@@ -404,7 +404,7 @@ another input to the same trichotomy.
 ## 6. Zeno side
 
 If selective sampling occurs on shorter and shorter subwindows while Pack and
-Part remain formally intact, the limiting object is a terminal time atom of
+Part are still typed as present, the limiting object is a terminal time atom of
 the native positive source-residue measure:
 
 ```math
