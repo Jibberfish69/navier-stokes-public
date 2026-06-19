@@ -368,6 +368,66 @@ The first line is a compactness/tightness failure that must be charged by the
 critical-element or local-energy no-waste machinery.  The second line is the
 two-door stress-flux branch already under study.
 
+## Visibility dichotomy
+
+The preceding hypotheses should not be read as passive assumptions.  Their
+failure is itself a readout.
+
+Let `mathfrak R` be the projected spatial residual seen by divergence-free
+tests near the terminal point.
+
+First, if `mathfrak R` is not supported at `{0}`, then by the definition of
+distributional support there is a fixed test `varphi` supported away from the
+origin such that
+
+```math
+\langle\mathfrak R,\varphi\rangle\ne0.
+\tag{SM.30}
+```
+
+That is not a hidden terminal point multipole.  It is an off-point annular or
+bulk residual and must be routed as a visible local-energy/stress readout.
+
+Second, if the critical local energy bound fails, then
+
+```math
+\sup_{0<r<r_0} r^{-1}\int_{B_r}|U|^2\,dx
+=\infty.
+\tag{SM.31}
+```
+
+This is also not hidden.  It is a visible scale-critical energy concentration.
+It belongs to the no-waste ledger as a scale-energy defect rather than to the
+point-multipole branch.
+
+Third, if both failures are absent, the coercive lemma applies and the residual
+is forced into the monopole class:
+
+```math
+\mathfrak R
+=
+\Phi_0\delta_0
+\quad
+\text{modulo pressure gauges.}
+\tag{SM.32}
+```
+
+So the useful fork is:
+
+```math
+\boxed{
+\text{off-point residual}
+\quad\text{or}\quad
+\text{scale-critical energy blowup}
+\quad\text{or}\quad
+\Phi_0\delta_0.
+}
+\tag{SM.33}
+```
+
+The first two are visible-defect branches.  The third is the Door 1 / Door 2
+monopole branch.
+
 ## Result
 
 The Stokes-multipole route is useful and genuinely coercive, but it is not the
@@ -381,16 +441,18 @@ whole theorem.  It proves the following conditional discharge:
 \Longrightarrow
 \text{no hidden higher projected point multipoles.}
 }
-\tag{SM.30}
+\tag{SM.34}
 ```
 
 The live remaining work after this attempt is:
 
 ```math
 \boxed{
-\text{TerminalProjectedResiduePointSupport.A}
+\text{OffPointResidualToLedger.A}
+\quad\text{and}\quad
+\text{ScaleCriticalEnergyDefectToLedger.A}
 }
-\tag{SM.31}
+\tag{SM.35}
 ```
 
 plus the existing monopole bridge:
@@ -401,10 +463,11 @@ plus the existing monopole bridge:
 \text{ / }
 \text{ProjectedLocalPreCauchyResidueIdentity.A}.
 }
-\tag{SM.32}
+\tag{SM.36}
 ```
 
 This is still progress.  It removes an entire false middle class: there is no
 critical Navier-Stokes terminal residue branch made from hidden dipoles or
-higher Stokes multipoles.  The terminal point-residue branch is forced back to
-the original Door 1 monopole or to zero.
+higher Stokes multipoles.  A residual that refuses the point/critical hypotheses
+is already visible as off-point support or scale-critical energy concentration.
+The only point-residue branch left is the original Door 1 monopole or zero.
