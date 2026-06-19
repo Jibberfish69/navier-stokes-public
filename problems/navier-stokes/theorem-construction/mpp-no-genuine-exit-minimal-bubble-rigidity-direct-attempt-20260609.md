@@ -71,7 +71,10 @@ Choose a minimal scale-time packet where the scale-critical tree Carleson
 quantity first fails after all already routed legal, ASAC, pressure, donor,
 finite-refill, support-only, and same-witness exits are removed.
 
-The normalized sequence has the expected compactness output:
+Under the local energy/local pressure compactness package, same-solution
+terminal packet custody, and the removal of the named legal/ASAC/pressure/donor
+exits above, the normalized sequence yields only the following conditional
+compactness-extraction output:
 
 ```text
 local suitable ancient-or-terminal profile
