@@ -7,7 +7,7 @@ Installed theorem-facing endpoint certificate theorem.
 Role: close the exact endpoint-exclusion block used after `CFI.A`.
 
 This note keeps the endpoint matrix inside the repo witness-certificate
-vocabulary. It does not replace the analytic tower supplier with a generic
+vocabulary. It does not replace the analytic tower supplier with an unspecified
 blowup classification: `END.TowerAmp` is supplied by the installed
 `DTC-to-TowerBound` theorem, while `END.Exh`, `END.Cross`, `END.Pack`,
 `END.PartMargin`, `END.Field`, and `END.TowerBound` are theorem-grade
