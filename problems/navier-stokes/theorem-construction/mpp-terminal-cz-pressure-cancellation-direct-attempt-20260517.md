@@ -243,4 +243,7 @@ The direct saturation attempt is recorded in
 `mpp-terminal-pressure-partner-saturation-direct-attempt-20260517.md`.  It
 reduces the pressure-specific survivor to `PressureLobeSourceTether.A`: an
 interior missing pressure lobe must be converted into a native same-fluid
-source/donor edge before the usual no-free-sink machinery can apply.
+source/donor edge before the named donor/no-free-sink inputs can apply,
+namely `PressureDonorNoFreeSink.A` or an equivalent
+`TerminalWeightedNoFreeSink` same-fluid donor ledger, together with the
+pressure/collar legal-loss input.
