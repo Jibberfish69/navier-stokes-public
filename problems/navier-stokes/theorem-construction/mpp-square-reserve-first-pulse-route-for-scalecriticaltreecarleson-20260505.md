@@ -350,9 +350,11 @@ This route kills:
 That is exactly the quantity left after `ParentSquareEmbed.A`.  So the
 first-pulse primitive is now aligned with the actual unresolved theorem object.
 
-## Expected Closure
+## Conditional Downstream Chain
 
-If the four gates above are discharged, then:
+Only the following conditional implication is available from this route.  If
+Gate 1 through Gate 4 are proved, including the square parent-or-charge
+inequality in Gate 2 for the donor reserve measure `\mathcal R_N`, then:
 
 ```math
 SquareFirstPulse.A
@@ -364,6 +366,8 @@ LocalPositiveSourceCarleson.A
 SOURCE.NO\text{-}PULSE.A.
 ```
 
-Then the normalized-adjoint source-drain package can be promoted from
-conditional support to the source-wall closure needed by the downstream
+The downstream promotion is exactly conditional on that chain.  Since the
+installed inputs do not currently prove Gate 2 for `\mathcal R_N`, this note
+does not promote the normalized-adjoint source-drain package from conditional
+support to the source-wall closure needed by the downstream
 `AWG.A / Jump_{avg}\Rightarrow\bot / PCTP.hard` route.
