@@ -13080,6 +13080,33 @@ triadicity note or submission appendix.  It finds the replacement witness-axis
 overlap rule.  `git diff --check` passed on the edited note, appendix, and this
 ledger.
 
+## Live-Theorem-Edge Conditional-Hypothesis Wording Rework
+
+Old claim being spent:
+
+The live authority edge described the R3 branch as supported by the current
+"exactness standard" and described `(TC.31a)` as not an "expected consequence"
+of `(TC.20)`.
+
+Exact replacement:
+
+The authority surface now says the R3 whole-space branch is conditional under
+the installed exactness hypotheses.  It also states that `(TC.31)` plus
+`(TC.31a)` is an explicit remaining theorem, not a consequence of `(TC.20)`.
+
+Proof or downstream consequence:
+
+The live edge no longer lets "standard" or "expected consequence" read as a
+proof step.  It records installed hypotheses versus remaining theorem status.
+
+Surfaces edited:
+
+- `live-theorem-edge.yaml`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
 ## TPNI Finite-Slab Boundary-Term Rework
 
 Old claim being spent:
