@@ -10565,3 +10565,34 @@ Second downstream pass and validation:
 The targeted scan finds no remaining `formally valid reduction` hit in the
 appendix.  The positive scan finds `algebraically valid reduction`, and `git
 diff --check` passes on the edited appendix.
+
+## Constitutive-First Branch-Start Wording Rework
+
+Old claim being spent:
+
+The constitutive-first rederivation note and appendix copy described the branch
+start repair as the "exact formal meaning" of injecting class membership into
+the start of the branches.
+
+Exact replacement:
+
+Both surfaces now say this is the exact meaning of the branch-start repair:
+move the branch start upstream until the CM doctrine has already constrained
+the admissible hypotheses.
+
+Proof or downstream consequence:
+
+The sentence no longer suggests a separate formal proof step; it records the
+exact branch-start constraint already stated in the preceding text.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-constitutive-first-rederivation-note.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `exact formal meaning` hit in the edited
+source note or appendix copy.  The positive scan finds `exact meaning of
+injecting class membership`, and `git diff --check` passes on both edited
+surfaces.
