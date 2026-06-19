@@ -11557,3 +11557,36 @@ Second downstream pass and validation:
 The targeted scan finds no remaining `expected rho` / `expected \rho` hit in
 the edited TPS note.  It finds the replacement `displayed` and `tube-volume
 bound` sentences, and `git diff --check` passes on the edited note.
+
+## No-Genuine-Exit Minimal-Bubble Compactness Rework
+
+Old claim being spent:
+
+The minimal-bubble rigidity direct attempt said the normalized sequence has the
+"expected compactness output" before listing the terminal profile data.
+
+Exact replacement:
+
+The note now states the exact conditional extraction: under the local
+energy/local pressure compactness package, same-solution terminal packet
+custody, and removal of the named legal/ASAC/pressure/donor exits, the
+normalized sequence yields only the listed compactness-extraction output.
+
+Proof or downstream consequence:
+
+The compactness step produces a local suitable ancient-or-terminal profile,
+nonzero terminal Pack defect/source residue, no fixed earlier selected source
+slice, and paid named exits removed.  It does not prove a contradiction or a
+Liouville class.  The remaining burden stays
+`ProducedMinimalFirstPackBubbleRigidity.A` or an equivalent rigidity theorem.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-no-genuine-exit-minimal-bubble-rigidity-direct-attempt-20260609.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `expected compactness` phrase in the
+edited note.  It finds the replacement local-energy/local-pressure compactness
+hypothesis and the remaining `ProducedMinimalFirstPackBubbleRigidity.A` burden.
+`git diff --check` passes on the edited note.
