@@ -62,7 +62,8 @@ where \(\rho_R^*\) is the slightly enlarged weight needed for the pressure and
 boundary terms.  The precise choice of equivalent local heat-scale weight is
 not important for this test.
 
-The local rescaled energy calculation has the schematic form
+After the pressure-conormal, cutoff, tail, and legal leakage terms are placed in
+\(\mathcal B_R\), the local rescaled energy calculation has the form
 
 ```math
 M_R'(s)
@@ -82,7 +83,8 @@ packet that keeps coming back.
 
 ## 2. A rise costs critical action
 
-Suppose on an interval \(I=[a,b]\) the packet rises from small to order one:
+Suppose on an interval \(I=[a,b]\) the packet rises from below \(\eta/2\) to at
+least \(\eta\):
 
 ```math
 M_R(a)\le {\eta\over2},
@@ -117,8 +119,8 @@ action or legal/tail bill.
 
 ## 3. Residence also costs critical action
 
-Now suppose the packet does not repeatedly rise because it stays order one.  On
-an interval \(I=[a,b]\) with
+Now suppose the packet does not repeatedly rise because it stays bounded below.
+On an interval \(I=[a,b]\) with
 
 ```math
 M_R(s)\ge {\eta\over2}
@@ -146,7 +148,7 @@ unit intervals.  Hence persistent residence also forces
 \int_I\mathcal A_R(s)\,ds
 +
 \int_I\mathcal B_R^+(s)\,ds
-\gtrsim_\eta 1
+\ge c_\eta
 \tag{LRQ.11}
 ```
 
@@ -324,7 +326,8 @@ or
 ```
 
 So the packet is not ontologically mysterious anymore.  It is a recurrent
-order-one log-time object.  The exact unsolved forward-gold question is whether
+log-time object with a fixed positive lower bound.  The exact unsolved
+forward-gold question is whether
 Navier-Stokes supplies a finite unweighted critical-action budget, or whether
 that recurrent object must instead be consumed as a Pack/Part/Field exit
 readout.
