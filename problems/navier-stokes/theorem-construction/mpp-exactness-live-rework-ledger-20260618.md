@@ -10659,3 +10659,33 @@ Second downstream pass and validation:
 The targeted scan finds no remaining `formal carrier-law` or `weak formal
 reading` hit in the edited source notes or appendix copy.  The positive scan
 finds `carrier-law-only`, and `git diff --check` passes on all edited surfaces.
+
+## Public Critical-Exit Bridge Wording Rework
+
+Old claim being spent:
+
+The public class-exit analogue audit and appendix copy referred to the
+public-critical-exit-to-CM-face bridge as the "formal missing bridge."
+
+Exact replacement:
+
+Both surfaces now call it the unproved required bridge.  The appendix states the
+requirement directly: a public critical obstruction must be admitted to the
+same-solution CM test and then landed in Pack, Part, or Field before it has CM
+proof force.
+
+Proof or downstream consequence:
+
+Public critical-regularity results remain supplier/readout support until that
+bridge is proved.  They do not acquire CM proof force by analogy alone.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-public-class-exit-analogue-audit-20260518.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `formal missing bridge` hit in the edited
+source note or appendix copy.  The positive scan finds `unproved required
+bridge`, and `git diff --check` passes on both edited surfaces.
