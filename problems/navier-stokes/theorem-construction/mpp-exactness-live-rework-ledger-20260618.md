@@ -9960,3 +9960,57 @@ Second downstream pass and validation:
 The targeted scan no longer finds `formally` in the edited ladder.  The positive
 scan finds `conditional implication` and `exact burden` wording, and
 `git diff --check` passes on the edited note.
+
+## LCI Receiver Shortcut-Wording Rework
+
+Old claim being spent:
+
+Three live receiver-side notes still used shortcut wording around exact
+reductions: the widened receiver return "simply substitutes" larger parameters,
+the enlarged-ball oscillation note said the remaining question "is simply" a
+coefficient question, and the direct transported-center package had a
+`Receiver-Side Formal Assembly` heading.
+
+Exact replacement:
+
+The widened receiver return now states the exact parameter substitution
+
+\[
+N\mapsto N+4,\qquad
+m\mapsto N+4,\qquad
+\delta\mapsto\delta+5\Lambda_{\delta,\rho}^{halo}.
+\]
+
+The enlarged-ball oscillation note now names the remaining target as the
+enlarged-ball coefficient-integrability question.  The direct transported-center
+package now calls the downstream block a conditional assembly after `DTC.A`,
+matching the displayed chain
+
+\[
+DTC.A_{\mathfrak p}\ \forall\mathfrak p\in\mathscr P_{\rm req}
+\Longrightarrow
+EOC.A_{\mathfrak p}+AFD.A_{\mathfrak p}+AFD.B_{\mathfrak p}+RCF.A_{\mathfrak p}
+\Longrightarrow ULCI(\mathscr P_{\rm req})
+\]
+
+and the later displayed receiver readbacks.
+
+Proof or downstream consequence:
+
+No new theorem is added.  The downstream surfaces may spend only the displayed
+parameter substitution or the displayed conditional assembly chain; the old
+shortcut words no longer supply proof force.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-lci-a-widened-receiver-return-note.md`;
+- `theorem-construction/mpp-lci-a-enlarged-ball-oscillation-closure-note.md`;
+- `theorem-construction/mpp-lci-a-direct-transported-center-package-note.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `simply substitutes`, `It is simply`, or
+`Receiver-Side Formal Assembly` wording in the edited receiver notes, live edge,
+or source-frontier.  The positive scan finds `parameter substitution`,
+`coefficient-integrability`, and `Receiver-Side Conditional Assembly`.
+`git diff --check` passes on all three edited notes.
