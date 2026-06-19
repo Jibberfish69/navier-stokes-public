@@ -6,8 +6,8 @@ This note records the exact implication ladders from the current local
 reductions to a full Clay discharge.
 
 It does **not** claim any ladder is complete.
-It records what still has to be proved, and what would formally follow if that
-remaining theorem step were discharged.
+It records what still has to be proved, and which conditional implication would
+be available after the named remaining theorem step is proved.
 
 ## Clay target
 
@@ -181,7 +181,7 @@ So the exact remaining theorem on this branch is more precisely:
 \tag{A1}
 ```
 
-The datum-side component `(A1a)` is now isolated formally in
+The datum-side component `(A1a)` is now isolated as an exact burden in
 [a1a-full-data-euclidean-lift-coverage.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/a1a-full-data-euclidean-lift-coverage.md).
 
 on the actual whole-space / Euclidean readout surface needed for the Clay
@@ -264,7 +264,7 @@ So the exact remaining theorem on this branch is:
 \tag{B1}
 ```
 
-This weaker-route burden is now isolated formally in
+This weaker-route burden is now isolated as an exact burden in
 [route-b-b1-integrable-shadow-error-continuation-coupling.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/route-b-b1-integrable-shadow-error-continuation-coupling.md).
 
 If `(B1)` is proved, then:
