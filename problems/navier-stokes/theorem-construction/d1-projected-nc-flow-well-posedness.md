@@ -460,8 +460,8 @@ the theorem-facing version of the persistent carrier story, and the residual
 tail is the lower-order complement that D.1 must keep closed under the graph
 domain.
 
-The formal package file sharpens that reading further: D.1 is the ontic theorem
-entry point. It fixes the projected domain, the carrier decomposition
+The conditional ontic package sharpens that reading further: D.1 is the ontic
+theorem entry point. It fixes the projected domain, the carrier decomposition
 `K_D \oplus K_D^\perp`, and the closed-graph evolution problem that all later
 lift and continuation statements consume.
 
