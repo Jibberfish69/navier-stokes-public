@@ -15558,6 +15558,48 @@ architecture note, and `source-frontier.yaml` finds no remaining `should`,
 `same order`, `typical`, `immediate`, or `schematic` shortcut on this slice, and
 `git diff --check` passes for the edited note.
 
+## Cycle-Heat Signed-Current Interface Repair
+
+Old claim being spent:
+
+The cycle-heat route cluster used advisory proof language:
+`mpp-cycle-heat-action-abstract-flow-reduction-20260505.md` said the note
+"should be read" as a conditional skeleton, `mpp-cycle-heat-action-proof-plan-after-think-again-20260505.md`
+said the algebraic step "should be proved by" a list of ingredients, and
+`mpp-cycleheataction-direct-attempt-no-free-sink-obstruction-20260505.md` said
+the signed parabolic-current route "should be restated" as a corrected theorem
+interface.
+
+Exact replacement:
+
+The abstract-flow note now states that it is an abstract conditional skeleton,
+not the current lowest proof-facing gate.  The proof-plan note states that the
+algebraic step requires dyadic triadic energy antisymmetry, incompressibility and
+Leray projection, packet-local assignment, and the listed legal-loss treatment.
+The no-free-sink note now states the corrected interface as the signed
+parabolic-current route.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-cycle-heat-action-abstract-flow-reduction-20260505.md`.
+- `theorem-construction/mpp-cycle-heat-action-proof-plan-after-think-again-20260505.md`.
+- `theorem-construction/mpp-cycleheataction-direct-attempt-no-free-sink-obstruction-20260505.md`.
+
+Downstream consequence:
+
+The cycle-heat branch cannot be spent as the current lowest gate merely by
+reading preference.  Its surviving role is a conditional skeleton whose direct
+wall remains `ScaleCriticalTreeCarleson.A`, with a corrected signed-current
+interface requiring the named algebraic inputs and no-free-sink ingredient.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the three edited notes and
+`current-route-dependency-graph.yaml` finds no remaining `should`, `O(1)`,
+`\lesssim`, `\gtrsim`, `approximately`, `roughly`, `same order`, `typical`,
+`immediate`, or `schematic` shortcut on this slice, and `git diff --check`
+passes for the edited notes.
+
 ## Post-Affine B_ASAC Target And Source-Time Child Repair
 
 Old claim being spent:
