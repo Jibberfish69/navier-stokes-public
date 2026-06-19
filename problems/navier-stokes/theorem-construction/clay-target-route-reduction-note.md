@@ -351,7 +351,7 @@ So parity is used only to sort:
 - which terms are transfer terms,
 - where viscosity acts,
 - where transfer feeds back into state,
-- where cancellation should be searched.
+- which cancellation identities must be tested.
 
 It is **not** itself a closure theorem.
 
