@@ -169,7 +169,7 @@ because
 ```math
 \int_{B_r}|U|^2\,dx\le E_* r,
 \qquad
-\|\Delta\varphi_r\|_{L^2}\sim r^{-1/2}\|\Delta\varphi\|_{L^2}.
+\|\Delta\varphi_r\|_{L^2}= r^{-1/2}\|\Delta\varphi\|_{L^2}.
 \tag{SM.15}
 ```
 
@@ -216,11 +216,12 @@ This is the desired Stokes-multipole coercivity.
 ## Why this is coercivity
 
 A derivative point defect of order `k` is detected at scale `r` with size
-`r^{-k}`:
+`r^{-k}` by the exact test-scaling identity:
 
 ```math
 \langle\partial^\alpha\delta_0,\varphi_r\rangle
-\sim r^{-|\alpha|}.
+=
+(-1)^{|\alpha|}r^{-|\alpha|}\partial^\alpha\varphi(0).
 \tag{SM.19}
 ```
 
@@ -234,9 +235,10 @@ r^{-k}\gg1
 ```
 
 is the coercive contradiction.  Higher multipoles would require more singular
-local energy than the critical `u\sim r^{-1}` class allows.  Equivalently, the
-Stokeslet monopole is the only point-supported force compatible with the
-critical local energy scaling.
+local energy than the critical local-energy condition
+`sup_{0<r<r_0} r^{-1}\int_{B_r}|U|^2 dx<\infty` allows.  Equivalently, the
+Stokeslet monopole is the only point-supported force compatible with that
+critical local-energy bound.
 
 ## Relation to the two doors
 
