@@ -15670,6 +15670,49 @@ A fixed-string marker scan over `submission-bundle/navier-stokes-submission.tex`
 `typical`, `immediate`, `schematic`, or `comparable` hits.  `git diff --check`
 passes for the edited TeX surfaces.
 
+## Broad Live-Vs-Residue Classification Pass
+
+Old claim being spent:
+
+After the main theorem and appendix repairs, the remaining repo-wide marker set
+still contained broad hits from transcripts, archived production packets,
+forensic/audit files, behavior rules, quarantine notes, exploratory support, and
+TeX typography.  Treating those hits as live proof debt would recreate the prior
+failure mode: moving or relabeling residue instead of repairing the mathematical
+surface that spends the claim.
+
+Exact replacement:
+
+The classified broad audit now separates live proof-bearing surfaces from
+preserved residues.  The only proof-bearing/unclassified submission-bundle hits
+were TeX nonbreaking spaces in
+`submission-bundle/authoring/templates/custom_volumes_TOC.tex`; these were
+rewritten from `Volume~...` to explicit `Volume\nobreakspace{}...` typography.
+
+Surfaces edited:
+
+- `submission-bundle/authoring/templates/custom_volumes_TOC.tex`.
+
+Downstream consequence:
+
+Remaining broad marker hits are not proof payments.  They are classified as
+sample evidence, historical/verbatim support, forensic/audit support, archived
+production support, thread/behavior support, quarantine/ingest support,
+exploratory math support, exact approximation terminology, or path/citation
+support.  Live theorem/proof/manuscript surfaces remain the authority for
+mathematical completion.
+
+Second downstream pass and validation:
+
+`ruby problems/navier-stokes/tools/audit_theorem_exactness_markers.rb --scope
+problems/navier-stokes --marker-profile broad --extensions md,yaml,tex
+--report-classification proof-bearing-or-unclassified --limit 120 --allow-open`
+reports `proof_bearing_or_unclassified_hit_count: 0`.  The same command scoped
+to `problems/navier-stokes/submission-bundle` also reports
+`proof_bearing_or_unclassified_hit_count: 0`.  A direct `~` scan of
+`custom_volumes_TOC.tex` finds no remaining hits, and `git diff --check` passes
+for the edited TeX/template surfaces.
+
 ## CM Pack And Scale-Critical Promotion-Guard Repair
 
 Old claim being spent:
