@@ -380,7 +380,7 @@ kept as a dichotomy rather than a new branch.
 
 ## ASAP Closure Contract
 
-To close the repo fastest, stop generic theorem creation on
+To close the repo fastest, stop broad theorem creation on
 `source-wall-root-after-reconcile`.  Force the next theorem attempts to this
 order:
 
