@@ -14272,6 +14272,77 @@ The targeted ASAP wording scan is clean on the live file; the old phrase remains
 only in ledger evidence.  `git diff --check` passed on the edited route note and
 this ledger.
 
+## Remaining Narrow Proof-Force Hit Classification
+
+After the current repairs, the narrowed live theorem-construction scan for
+`U/r`, `linear profile`, `scale estimate`, `same order`, `typical`,
+proof-spending `standard`, `generic theorem/bridge/witness`, `schematic`,
+proof-spending `model`, and `same-scale` shortcut language leaves only the
+following intentionally preserved classes.
+
+Intentionally preserved exact same-scale family:
+
+- The `same-scale` hits in `same-scale-family-lift-lemma.md`,
+  `same-scale-multiplier-stability-program.md`,
+  `same-scale-edge-family-and-model-estimate-note.md`,
+  `same-scale-coefficient-kill-into-weighted-carrier-note.md`,
+  `readout-preserving-normalization-obstruction.md`,
+  `lifted-packet-signed-continuous-scale-translation.md`,
+  `ss-and-lpas-cts-blocker-demonstration-note.md`,
+  `global-signed-lp-balance-reduction-note.md`,
+  `upper-boundary-frozen-edge-family-reduction-note.md`,
+  `mpp-msc-badac-same-scale-import-audit-note.md`,
+  `lifted-packet-three-piece-closure-program.md`,
+  `middle-band-flux-gap-kernel-theorem.md`,
+  `lifted-band-collar-class-reduction-lemma.md`,
+  `signed-continuous-scale-closure-program.md`,
+  `ss-first-direct-cts-lpas-fallback-execution-order-note.md`,
+  `ss-first-direct-cts-execution-order-note.md`,
+  `one-model-packet-ss-proof-program-note.md`,
+  `mpp-branch-native-jumpavg-noescape-direct-work-20260601.md`,
+  `scale-high-side-remainder-packet.md`,
+  `lifted-band-upper-boundary-packet.md`, and
+  `lagrangian-six-lemma-mainline.md` refer to the installed finite-window /
+  selected-scale packet family.  The exact meaning is now stated at
+  `same-scale-edge-family-and-model-estimate-note.md`: `same-scale` means
+  `|m-N|\le C_{ss}` and does not assert comparable amplitudes, a linear profile,
+  or a scale estimate.
+
+Intentionally preserved named scale estimates:
+
+- `persistent-support-coherent-bound-threshold-result.md`,
+  `mpp-retained-lifted-band-flux-transfer-direct-attempt-20260609.md`,
+  `closure-package.md`, `all-scale-frequency-transfer-inefficiency-theorem.md`,
+  `frozen-cap-pair-bilinear-form-lemma.md`, and
+  `scale-high-side-remainder-packet.md` use displayed viscosity-scale,
+  barrier-scale, dangerous-scale, all-scale, or shell-scale estimates as named
+  theorem inequalities with hypotheses.  These are not `U/r`-style scale
+  guesses.
+
+Intentionally preserved anti-shortcut lines:
+
+- `activeheightfluxtrichotomy-a-theorem-creation-20260525.md`,
+  `mcp-uniform-local-hs-bootstrap-from-whole-space-shell-tail-control-f79eac12d9.md`,
+  `mcp-affinematerialreadouttofixedhsreduction-a-affinematerialreadouttofixedhs-a-d77299e234.md`,
+  `mpp-open-dead-patch-rigidity-theorem.md`,
+  `mpp-awg-deep-source-frontier-closure-note.md`,
+  `mpp-hhalf-oscillation-field-exit-reduction-20260528.md`, and
+  `mpp-terminal-skew-localization-ledger-direct-attempt-20260505.md` explicitly
+  reject same-scale intuition, standalone scale estimates, profile assumptions,
+  or schematic proof as proof authority.
+
+Intentionally preserved profile-interaction terms:
+
+- `mpp-pack-critical-element-stability-profile-orthogonality-attempt-20260609.md`
+  and
+  `mpp-produced-minimal-first-pack-bubble-rigidity-critical-element-attempt-20260609.md`
+  use `profile interaction` in the profile-decomposition sense.  They do not use
+  a local linear velocity profile, typical gradient, or `U/r` slope law.
+
+No unresolved item is being reported in this classification.  These are
+preserved because their local role was checked as exact terminology or
+anti-shortcut prose.
+
 ## Standard-To-Criterion Route Wording Rework
 
 Old claim being spent:
