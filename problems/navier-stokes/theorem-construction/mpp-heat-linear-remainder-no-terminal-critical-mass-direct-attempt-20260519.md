@@ -58,7 +58,7 @@ with constants `A_h,a_h>0` depending only on `c_h,C_h,\nu`. Splitting the
 kernel into this same-ledger parent and its complement gives two alternatives.
 
 If the parent contribution dominates, local `L^3` contraction and the parabolic
-maximal inequality force an earlier slice `s_m<t_m-c\ell_m^2` with
+maximal inequality force an earlier slice `s_m<=t_m-c_h\ell_m^2` with
 
 ```math
 \int_{B_{C_{par}\ell_m}(x_m)}|u_m(s_m)|^3\,dx
