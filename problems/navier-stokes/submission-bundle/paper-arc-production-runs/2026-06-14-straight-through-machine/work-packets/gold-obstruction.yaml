@@ -1202,7 +1202,7 @@ support_refs:
   excerpt: |-
     - problems/navier-stokes/theorem-repair.yaml
       - problems/navier-stokes/dependency-discharge.yaml
-      installed_root_group_id: terminal-time-face-new-production-gold-obstruction
+      installed_root_group_id: release-exactness-and-manuscript-refresh
       object_law_remains_governing: true
     authority_split_resolution:
 - path: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260612-iteration-2.yaml
@@ -1286,7 +1286,7 @@ support_refs:
   excerpt: |-
     live_theorem_edge: &1
       status: active
-      current_route_name: terminal-time-face-new-production-gold-obstruction
+      current_route_name: release-exactness-and-manuscript-refresh
       exact_cut_summary: 'The active frontier is the gold terminal time-face/new-production
         child after the specific annular residual case has been accounted. The silver
 - path: problems/navier-stokes/theorem-construction/mpp-basac-target-local-exhaustion-and-cm-field-closure-20260517.md
@@ -1371,7 +1371,7 @@ context_domain_refs:
     excerpt: |-
       - problems/navier-stokes/theorem-repair.yaml
         - problems/navier-stokes/dependency-discharge.yaml
-        installed_root_group_id: terminal-time-face-new-production-gold-obstruction
+        installed_root_group_id: release-exactness-and-manuscript-refresh
         object_law_remains_governing: true
       authority_split_resolution:
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260612-iteration-2.yaml
@@ -1598,7 +1598,7 @@ context_domain_refs:
     excerpt: |-
       child or a replacement noncircular finite-breakdown exclusion.
       top_blockers:
-      - terminal-time-face-new-production-gold-obstruction
+      - release-exactness-and-manuscript-refresh
       current_manuscript_surface:
         authoring_surface: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   - path: problems/navier-stokes/paper-quality-verdict.yaml
