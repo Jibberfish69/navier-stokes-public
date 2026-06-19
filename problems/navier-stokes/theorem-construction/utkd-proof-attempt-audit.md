@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This note derives every formally valid reduction of the upper-tail kernelized
+This note derives every algebraically valid reduction of the upper-tail kernelized
 dissipation theorem `(UTKD)` from the current Body `1` surface and isolates the
 first genuinely new estimate required for the theorem.
 
@@ -59,7 +59,7 @@ C_*2^{-2\delta j}
 The scale-side lifted packet also already carries a genuine gap kernel
 `2^{-(j-k)}`, but that support-level fact enters only upstream of `(UTKD)`.
 
-## Formal Reduction 1: Direct Expansion Gives A Bilinear Tail Target
+## Algebraic Reduction 1: Direct Expansion Gives A Bilinear Tail Target
 
 Expand the square:
 
@@ -141,7 +141,7 @@ C_*2^{-2\delta N}.
 
 This is the first sharp reduction, and it is already enough to imply `(UTKD)`.
 
-## Formal Reduction 1A: NE Reduces Further To A Cleaner Square Theorem
+## Algebraic Reduction 1A: NE Reduces Further To A Cleaner Square Theorem
 
 Because the `\ell=j` term is present in `\mathcal T_j^\sigma(t)`, one has
 
@@ -230,14 +230,14 @@ estimate
 C_*2^{-2\delta N}.
 ```
 
-So there are now three formally valid downstream routes from the current
+So there are now three algebraically valid downstream routes from the current
 reduction stack:
 
 - the cleaner one-sided square route `(SDS) \Rightarrow (NE) \Rightarrow (UTKD)`,
 - the sharp direct reduction `(NE) \Rightarrow (UTKD)`,
 - the cleaner stronger square route `(WDS) \Rightarrow (UTKD)`.
 
-## Formal Reduction 3: WDS Is A Weighted Quartic Tail Theorem
+## Algebraic Reduction 3: WDS Is A Weighted Quartic Tail Theorem
 
 Expanding `D_j`,
 
