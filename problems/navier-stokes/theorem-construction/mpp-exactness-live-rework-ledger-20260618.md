@@ -15427,6 +15427,56 @@ finds no remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`,
 `roughly`, `same order`, `typical`, `immediate`, or `schematic` shortcut on this
 slice, and `git diff --check` passes for the edited notes.
 
+## Fixed-Nu Comparison Route Target Repair
+
+Old claim being spent:
+
+The fixed-`nu` Euler-to-NS comparison notes used `should` language at the
+route-thesis boundary: viscosity "should not" downgrade smoothness, viscosity
+"should not" create a singularity under a smooth Euler carrier, and the next
+burden "should" be named only heuristically.  That language made an unproved
+fixed-positive-viscosity transfer sound like a theorem already paid by
+interpretation.
+
+Exact replacement:
+
+The edited notes now state the fixed-`nu` comparison as a route target and
+theorem-facing burden, not as a completed proof.  The target is:
+
+```math
+EulerSmooth(u_0,[0,T])
+\Longrightarrow
+NSSmooth_\nu(u_0,[0,T])
+\qquad(\nu>0\text{ fixed}),
+```
+
+and the remaining proof work is the missing fixed-`nu` relative bound or one of
+the named equivalent reductions.  The Euler control-case note names
+`ViscousSlipExclusion.A` directly as the theorem-facing burden.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-direct-fixed-nu-euler-smooth-ns-smooth-hierarchy-20260509.md`.
+- `theorem-construction/mpp-euler-control-case-to-ns-attack-map-20260517.md`.
+- `theorem-construction/mpp-euler-smooth-ns-smooth-contrapositive-route-note-20260506.md`.
+
+Downstream consequence:
+
+Fixed-`nu` Euler comparison cannot be spent as live Navier--Stokes authority or
+as CM-exit closure by interpretation.  It remains a separate transfer target
+unless a later bridge proves that failure of the transfer lands in `Pack`,
+`Part`, or `Field`; the live downstream burden is the fixed-`nu` relative bound,
+direct NS tower bound, first-failure contradiction, or the named viscous-slip
+exclusion theorem.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the three edited notes plus
+`source-frontier.yaml` finds no remaining `should`, `O(1)`, `\lesssim`,
+`\gtrsim`, `approximately`, `roughly`, `same order`, `typical`, `immediate`, or
+`schematic` shortcut on this slice, and `git diff --check` passes for the edited
+notes.
+
 ## CM Pack And Scale-Critical Promotion-Guard Repair
 
 Old claim being spent:
