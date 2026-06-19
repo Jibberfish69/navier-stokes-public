@@ -12975,13 +12975,15 @@ Leray-projected nonlinearity vanishes.
 Surfaces edited:
 
 - `theorem-construction/mpp-ancient-nopulse-rigidity-audit-note.md`.
+- `submission-bundle/source-field-reader-appendix.tex`.
 
 Second downstream pass and validation:
 
 The targeted scan finds no remaining `standard geometric example` phrase in
-the edited ancient no-pulse audit.  It finds the replacement concrete
-eigenmode example and the retained source-balanced distinction.  `git diff
---check` passed on the edited note and this ledger.
+the edited ancient no-pulse audit or submission appendix.  It finds the
+replacement concrete eigenmode example and the retained source-balanced
+distinction.  `git diff --check` passed on the edited note, appendix, and this
+ledger.
 
 ## Conditional Pack Positive-Radius Typed-Chain Rework
 
@@ -13035,13 +13037,15 @@ Surfaces edited:
 
 - `theorem-construction/scale-barrier-package.md`.
 - `theorem-construction/scale-barrier-transport-defect-lemma.md`.
+- `submission-bundle/source-field-reader-appendix.tex`.
 
 Second downstream pass and validation:
 
 The targeted scan finds no remaining `standard Euclidean Leray projection`
-phrase in the edited scale-barrier package or transport-defect lemma.  It finds
-the replacement operator `P=I-nabla Delta^{-1}div` and pressure Poisson
-recovery.  `git diff --check` passed on the edited notes and this ledger.
+phrase in the edited scale-barrier package, transport-defect lemma, or
+submission appendix.  It finds the replacement operator
+`P=I-nabla Delta^{-1}div` and pressure Poisson recovery.  `git diff --check`
+passed on the edited notes, appendix, and this ledger.
 
 ## TPNI Finite-Slab Boundary-Term Rework
 
