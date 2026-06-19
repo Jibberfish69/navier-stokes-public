@@ -35,8 +35,8 @@ It is the identity on both boundary components because `2pi k` is a full
 circle rotation, but it changes the way transverse arcs cross the annulus.
 This is exactly the kind of drift a boundary-only annular readout can miss.
 
-Thus the complete annular readout in `MinimalZenoTraceNoEscape.A` should
-include a topological component
+Thus the complete annular readout in `MinimalZenoTraceNoEscape.A` has proof
+force against this channel only after it includes a topological component
 
 ```math
 \operatorname{Tw}_{ann}(\mathcal Z)\in\mathbb Z
@@ -71,23 +71,29 @@ has twist derivative
 \tag{DT.6}
 ```
 
-Hence the connection/twist action satisfies the displayed lower bound
+Hence the connection/twist action satisfies the fixed-collar bounds
 
 ```math
+c_{tw}{k^2\over L}
+\le
 \mathcal A_{tw}
-\gtrsim
-{k^2\over L}.
+\le
+C_{tw}{k^2\over L}.
 \tag{DT.7}
 ```
+
+Here `c_tw,C_tw>0` depend only on the fixed collar normalization.
 
 Equivalently, in annulus language,
 
 ```math
 |\operatorname{Tw}_{ann}(\mathcal Z)|^2
-\lesssim
-\operatorname{Mod}(A)\,\mathcal A_{tw}(\mathcal Z).
+\le
+C_{tw}'\,\operatorname{Mod}(A)\,\mathcal A_{tw}(\mathcal Z).
 \tag{DT.8}
 ```
+
+The constant `C_tw'` is fixed by the annular marking and connection norm.
 
 For bounded modulus, a nonzero Dehn twist has a definite cost.  Therefore a
 fixed-collar no-escape theorem may safely add:
@@ -186,7 +192,7 @@ Dehn twist drift can act on the edge label `e_m` by monodromy around the
 annular core.  Then the source carrier may remain on the same annulus while
 the donor/counter-edge pairing is transported through a nontrivial twist.
 
-Thus the Door 1 paired-trace package should include:
+Thus the Door 1 paired-trace package has the additional exact child:
 
 ```text
 DonorEdgeMonodromyReadout.A:
