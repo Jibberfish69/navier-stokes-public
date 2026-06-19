@@ -11673,3 +11673,37 @@ sentence-final `weighted coverage/globalization.` hit.  It finds the replacement
 --check` passes on the edited angular-forcing and HWY surfaces; the earlier
 localized-projector edits were checkpointed before this ledger entry and were
 verified by source scans.
+
+## HeightFluxControl Required-Interface Rework
+
+Old claim being spent:
+
+The HeightFluxControl synthesis note listed "Expected proof components" for the
+historical `HeightFluxControl.A` attempt.  That list named ingredients such as
+dyadic shell balance, parent/child packet ancestry, finite-overlap terminal
+selection, pressure/cutoff ledger, and active strain decorrelation without
+stating what mathematical interface each item must supply before the displayed
+height-flux estimate can be spent.
+
+Exact replacement:
+
+The note now states the required proof interfaces: an exact identity for the
+positive weighted shell-flux integrand; a one-sided positive strain
+decomposition of
+\(|w_\ell|^2[e_\ell\cdot S_{<\ell}e_\ell]_+\); same-fluid ancestry or a
+Pack/Part face failure for uncharged first-created donor height; finite-overlap
+selection with a stated overlap constant and no bounded-selector loss against
+diffuse parent clouds; a legal pressure/cutoff ledger that bounds only recorded
+`L_P` terms; and active-strain decorrelation, depletion, or terminal tangent
+rigidity producing the same-ledger charge `Charge_N^{height}(W)`.
+
+Proof or downstream consequence:
+
+`HeightFluxControl.A` remains a historical/support-level supplier template
+unless those exact interfaces are proved and the retained positive-scale source
+branch is promoted through same-witness anti-concentration, source-Carleson,
+rigid anti-atom, non-source Pack-survival, or an equivalent same-ledger payment.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md`.
