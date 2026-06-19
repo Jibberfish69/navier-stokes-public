@@ -11619,3 +11619,10 @@ support to source-wall closure for the downstream
 Surfaces edited:
 
 - `theorem-construction/mpp-square-reserve-first-pulse-route-for-scalecriticaltreecarleson-20260505.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `Expected Closure` heading in the edited
+live note.  It finds the replacement `Conditional Downstream Chain` heading and
+the explicit `does not promote` downstream consequence.  `git diff --check`
+passes on the edited note and this ledger.
