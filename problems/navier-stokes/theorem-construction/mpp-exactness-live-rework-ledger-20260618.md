@@ -14165,4 +14165,8 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending targeted same-scale scan and `git diff --check`.
+The targeted same-scale scan confirms the coefficient note now states the finite
+window/no-profile/no-scale-estimate meaning.  The remaining `same-scale
+intuition` hit is an active-height audit sentence rejecting that intuition as
+authority.  `git diff --check` passed on the edited same-scale note and this
+ledger.
