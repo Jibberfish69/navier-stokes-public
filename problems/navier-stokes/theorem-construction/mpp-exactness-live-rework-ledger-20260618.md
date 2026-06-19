@@ -10441,3 +10441,31 @@ The targeted scan finds no remaining `formal complement` or `formal
 participation row` hit in the edited source notes or appendix copy.  The
 positive scan finds `logical complement` and `participation-failure row`, and
 `git diff --check` passes on all edited surfaces.
+
+## CAVG.J Averaged Endpoint Lemma Heading Rework
+
+Old claim being spent:
+
+The averaged endpoint lemma was titled as a "Formal Averaged Endpoint Lemma" in
+the source note and appendix copy.
+
+Exact replacement:
+
+Both surfaces now title it `CAVG.J Averaged Endpoint Lemma`.  The displayed
+content remains the exact equivalence defining the averaged jump endpoint.
+
+Proof or downstream consequence:
+
+The lemma is cited by its displayed averaged endpoint equivalence, not by a
+generic formal label.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-cavg-j-formal-averaged-endpoint-lemma-read-cover-4384444d0a.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `Formal Averaged Endpoint Lemma` hit in
+the edited source note or appendix copy.  The positive scan finds `Averaged
+Endpoint Lemma`, and `git diff --check` passes on both edited surfaces.
