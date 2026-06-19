@@ -160,7 +160,16 @@ still has to show that the object it contributes is either:
 ## Referee Boundary
 
 The proof is non-circular because it does not assume smooth continuation.  It
-uses only the standard implication:
+uses only the conditional `H^s` relaunch theorem already invoked in Step 1:
+for `s>5/2`, if the same solution satisfies
+
+```text
+sup_{t<T_*} ||u(t)||_{H^s(T^3)} <= M,
+```
+
+then local well-posedness gives a lifespan `delta=delta(s,nu,M)>0`; choosing
+times `t_j\uparrow T_*` and using uniqueness on overlaps extends the same
+classical solution past `T_*`.
 
 ```text
 continuation-complete Pack/Part/Field packet + H^s readout

@@ -1284,9 +1284,26 @@ commutator-plus-gap estimate.
 ## Honest Status
 
 The energy functional and absorption strategy are explicit. On the realized
-classical carrier, the global coercive estimate is discharged by the standard
+classical carrier, the global coercive estimate is discharged by the exact
 Stokes/Leray identities recorded in
 [carrier-realization-classical-identification.md](carrier-realization-classical-identification.md).
+Those identities are:
+
+```text
+A=-P\Delta,\qquad <AX,X>_{L^2}=||\nabla X||_2^2,
+```
+
+```text
+<P((X\cdot\nabla)X),X>_{L^2}=0,
+```
+
+and the realized commutator identity
+
+```text
+[\nabla,A]X=0
+```
+
+on the declared divergence-free carrier and integration-by-parts domain.
 The remaining non-diffusive wall language is archival route text, not an open
 mathematical obstacle on the realized NS model.
 

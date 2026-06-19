@@ -27,17 +27,22 @@ those windows if a singularity is assumed.
 
 ### Route 1. Analytic-To-Ontic Bridge
 
-Prove a separate standard-to-MPP bridge:
+Prove a separate analytic-control-to-CM bridge.  The bridge must output the
+actual CM services on the same still-live window: positive same-fluid carrier
+and deformation comparability for `Pack_Q`, differentiated pressure-viscosity
+tower survival through depth `N` for `Part_{N,Q}`, and a positive-scale field
+readout for `Field_{N,r,Q}`.
 
 ```math
-\mathcal A^{\mathrm{std}}_{N,r,Q}
+\mathcal A^{\mathrm{ctrl}}_{N,r,Q}
 \Longrightarrow
 \mathrm{CM}_{N,r,Q}(u,p,\Phi).
 \tag{OPRC.1}
 ```
 
-Then use whatever standard analytic control package supplies
-`\mathcal A^{\mathrm{std}}_{N,r,Q}` on approaching still-live windows.
+An analytic package can be spent here only after it proves those three CM
+outputs on the approaching still-live windows, with same-fluid custody and the
+declared pressure gauges.
 
 ### Route 2. Direct Singularity-To-Class-Exit Theorem
 

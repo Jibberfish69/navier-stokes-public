@@ -41,8 +41,10 @@ A^-\to P
 \tag{PLST.2}
 ```
 
-If this holds, the pressure partner saturation route can use the usual
-no-free-sink/donor machinery.
+If this holds, the pressure partner saturation route can use the named
+same-fluid donor interface: `PressureDonorNoFreeSink.A`, or an equivalent
+`TerminalWeightedNoFreeSink` donor ledger, together with the
+`TerminalPressureCollarLegal.A` pressure/cutoff/collar legal-loss estimate.
 
 ## 1. Poisson tether is only elliptic
 

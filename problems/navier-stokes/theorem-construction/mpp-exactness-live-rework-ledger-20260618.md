@@ -12309,6 +12309,122 @@ edited ESNS note.  It finds the replacement conditional Gronwall theorem with
 `Y(t)`, `C_E`, Euler `H^{s+2}` forcing integrability, and the explicit bootstrap
 bound.  `git diff --check` passed on the edited note and this ledger.
 
+## Pressure Lobe Donor Interface Tightening
+
+Old claim being spent:
+
+The pressure-lobe tether note still said that proving `PressureLobeSourceTether.A`
+would let the pressure partner route use the "usual no-free-sink/donor
+machinery."
+
+Exact replacement:
+
+The note now names the allowed interface:
+`PressureDonorNoFreeSink.A`, or an equivalent `TerminalWeightedNoFreeSink`
+same-fluid donor ledger, together with the `TerminalPressureCollarLegal.A`
+pressure/cutoff/collar legal-loss estimate.
+
+Proof or downstream consequence:
+
+Even after a pressure lobe is tethered to a native same-fluid edge, the route
+may spend it only through the named donor/no-free-sink and legal-loss theorems.
+The pressure-lobe note no longer licenses a generic donor argument.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-pressure-lobe-source-tether-direct-attempt-20260517.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## OP.R Analytic-Control-To-CM Bridge Rework
+
+Old claim being spent:
+
+The OP.R route-options note proposed a "standard-to-MPP bridge" and said to use
+whatever analytic control package supplies the standard hypothesis.
+
+Exact replacement:
+
+The route now requires an analytic-control-to-CM bridge whose output is the
+actual CM service tuple on the same still-live window: `Pack_Q` carrier and
+deformation comparability, `Part_{N,Q}` differentiated pressure-viscosity tower
+survival, and `Field_{N,r,Q}` positive-scale readout, with same-fluid custody
+and pressure gauges.
+
+Proof or downstream consequence:
+
+No analytic package can be spent on OP.R merely because it is familiar or
+strong-looking.  It must prove the exact CM services required by
+`CM_{N,r,Q}` on the approaching still-live windows.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-opr-completion-route-options-note.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## D2 Carrier Coercivity Identity Rework
+
+Old claim being spent:
+
+The D2 global coercive energy estimate said the realized classical carrier is
+discharged by "standard Stokes/Leray identities."
+
+Exact replacement:
+
+The note now lists the exact identities supplied by the carrier realization:
+`A=-P Delta`, `<AX,X>_{L^2}=||nabla X||_2^2`,
+`<P((X dot nabla)X),X>_{L^2}=0`, and `[\nabla,A]X=0` on the declared
+divergence-free carrier and integration-by-parts domain.
+
+Proof or downstream consequence:
+
+D2 now spends the realized coercive quadratic form, nonlinear cancellation, and
+zero commutator identity.  The non-diffusive wall language is still classified
+there as archival route text, but the proof-force closure no longer rests on
+an unnamed standard package.
+
+Surfaces edited:
+
+- `theorem-construction/d2-global-coercive-energy-estimate.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## Continuation-Complete Hs Relaunch Boundary Rework
+
+Old claim being spent:
+
+The terminal face exhaustion working pass said the proof uses only the
+"standard implication" from a continuation-complete Pack/Part/Field packet plus
+`H^s` readout to classical continuation.
+
+Exact replacement:
+
+The referee-boundary paragraph now states the exact conditional relaunch
+theorem: for `s>5/2`, a bound
+`sup_{t<T_*}||u(t)||_{H^s(T^3)}<=M` gives a lifespan
+`delta=delta(s,nu,M)>0`; choosing times `t_j -> T_*` and using uniqueness on
+overlaps extends the same classical solution past `T_*`.
+
+Proof or downstream consequence:
+
+The contrapositive face-exhaustion step spends the same-solution `H^s` readout
+plus local relaunch/uniqueness, not an unstated continuation convention.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-continuation-complete-terminal-face-exhaustion-working-pass-20260526.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
 ## TPNI Finite-Slab Boundary-Term Rework
 
 Old claim being spent:
