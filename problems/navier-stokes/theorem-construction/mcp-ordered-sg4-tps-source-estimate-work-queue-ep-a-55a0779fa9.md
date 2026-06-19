@@ -24,7 +24,7 @@ where
  d\nu_J:=M_J^2d\mu_J.
 ```
 
-## Formal implication chain
+## Ordered conditional implication chain
 
 ```text
 Err_cmp^frame/gamma_J -> 0
@@ -54,6 +54,10 @@ BridgeA + DG-Line^sharp + BootSquare
 => RPC.3
 => SG.4B
 ```
+
+This queue does not prove the seven source estimates above.  It records the
+ordered downstream implication that becomes available only after those estimates
+are supplied.
 
 ## Next target
 
