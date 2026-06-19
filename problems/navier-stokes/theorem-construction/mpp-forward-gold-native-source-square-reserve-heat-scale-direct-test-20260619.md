@@ -184,26 +184,41 @@ H_N(W)
 \tag{NSS.15}
 ```
 
-After summing the geometric multiplicity in \(k\), this becomes a valid
-conditional estimate
+The sum over \(k\) is not a harmless constant multiplicity.  It gives the
+logarithmic high-tail moment
+
+```math
+\widetilde{\mathcal F}_N(W)
+:=
+\int_W
+\sum_{\ell>N+4}
+(\ell-N-4)D_\ell(t)\,dt.
+\tag{NSS.16}
+```
+
+So the correct conditional estimate is
 
 ```math
 \mathcal R_N(W)
 \le
-C\,H_N(W)\,\mathcal F_N(W).
-\tag{NSS.16}
+H_N(W)\,\widetilde{\mathcal F}_N(W).
+\tag{NSS.17}
 ```
 
-Thus a uniform active-height theorem
+Thus a uniform active-height theorem together with logarithmic tail control
 
 ```math
-H_N(W)\le C_{legal}
-\tag{NSS.17}
+H_N(W)\le C_{legal},
+\qquad
+\widetilde{\mathcal F}_N(W)\to0
+\tag{NSS.18}
 ```
 
 would convert first-moment tail control into the square reserve.
 
-Current inputs do not prove `(NSS.17)`.  In the heat-scale model above,
+Current inputs prove neither the pointwise height bound nor the logarithmic
+tail upgrade in the selected terminal window setting.  In the heat-scale model
+above,
 
 ```math
 H_N(I_m)
@@ -213,7 +228,7 @@ H_N(I_m)
 2^m\,2^{-3m/2}\,2^{2m}
 =
 2^{3m/2},
-\tag{NSS.18}
+\tag{NSS.19}
 ```
 
 so the missing theorem is exactly a height/amplitude throttle.
@@ -227,7 +242,7 @@ Navier-Stokes relation:
 D_tu=-\nabla p+\nu\Delta u,
 \qquad
 \nabla\cdot u=0.
-\tag{NSS.19}
+\tag{NSS.20}
 ```
 
 At frequency \(2^m\), viscous drain has rate \(2^{2m}\).  On a heat-scale
@@ -253,7 +268,7 @@ The noncircular dynamic theorem would be:
 \le
 \operatorname{Charge}_N(W)+o_N(1)
 }
-\tag{NSS.20}
+\tag{NSS.21}
 ```
 
 with
@@ -262,16 +277,16 @@ with
 \sum_W\operatorname{Charge}_N(W)
 \le
 C\mathcal F_N([0,T_\ast])+o_N(1).
-\tag{NSS.21}
+\tag{NSS.22}
 ```
 
-Differentiating \(\mathcal R_N\) does not prove `(NSS.20)`.  It produces the
+Differentiating \(\mathcal R_N\) does not prove `(NSS.21)`.  It produces the
 term
 
 ```math
 2\sum_{k>N}2^kT_k(t)
 \sum_{\ell>k+4}\operatorname{source}_\ell(t),
-\tag{NSS.22}
+\tag{NSS.23}
 ```
 
 which is the same positive native trilinear source after localization and
@@ -284,11 +299,11 @@ Thus the dynamic route reduces to the same missing theorem:
 \boxed{
 \text{ReserveCreationCharge.A}
 }
-\tag{NSS.23}
+\tag{NSS.24}
 ```
 
-or equivalently the height throttle `(NSS.17)`, an inverse donor-adjoint trace,
-or a retained Pack-gain/amplitude theorem.
+or equivalently the height/log-tail throttle `(NSS.18)`, an inverse
+donor-adjoint trace, or a retained Pack-gain/amplitude theorem.
 
 ## 7. Exact reduced supplier
 
@@ -300,7 +315,7 @@ The direct source-square test therefore leaves:
 \Longleftrightarrow_{\rm route}
 \text{UnweightedTerminalCriticalActionReserve.A}
 }
-\tag{NSS.24}
+\tag{NSS.25}
 ```
 
 but current inputs prove only
@@ -311,7 +326,7 @@ but current inputs prove only
 \quad
 \mathcal F_N([0,T_\ast])\to0.
 }
-\tag{NSS.25}
+\tag{NSS.26}
 ```
 
 The exact missing bridge is
@@ -322,7 +337,7 @@ The exact missing bridge is
 \quad\Longrightarrow\quad
 \mathcal R_N\text{ square reserve}
 }
-\tag{NSS.26}
+\tag{NSS.27}
 ```
 
 on selected same-fluid terminal heat windows.  Algebraically, this is false
@@ -343,7 +358,7 @@ The heat-scale obstruction is exact:
 \mathcal R_N(W)\to0
 \text{ on terminal heat windows.}
 }
-\tag{NSS.27}
+\tag{NSS.28}
 ```
 
 New forward-gold progress must prove `ReserveCreationCharge.A`,
