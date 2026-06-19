@@ -32,14 +32,19 @@ terminal native source/stress carrier:
 
 ```math
 |\mathcal Z|_Z
-\lesssim
+\le
+C_{\rm car}\Big(
 \mathbf M(T_{\rm sel})
 +\mathbf M(\partial T_{\rm sel})
 +\mu_{src}^{+,sel}
 +|\Phi_{\rm sel}|
-+\mathcal D_{\rm legal},
++\mathcal D_{\rm legal}
+\Big),
 \tag{CR.2}
 ```
+
+where `C_car` is independent of the terminal scale and the selected carrier is
+the same native source/stress carrier used in the terminal branch.
 
 with no separate ghost geometry.
 
@@ -127,7 +132,7 @@ The exact conditional theorem available from this formulation is:
 ```math
 \begin{aligned}
 &T_m^{car}\text{ is a normal/integral selected carrier current,}\\
-&\mathbf M(\partial T_m^{car})\le \mathcal D_{\rm legal}+O(1),\\
+&\mathbf M(\partial T_m^{car})\le \mathcal D_{\rm legal}+C_{\partial},\\
 &|\xi_m|\lambda_m=\lambda_m
 \quad\text{on the selected terminal carrier},\\
 &\left\|
@@ -147,9 +152,11 @@ q_m\,d\mu_m-\ell\cdot\Sigma_m\xi_m\,d\mu_m
 \tag{CR.7a}
 ```
 
-This proves a true no-ghost carrier theorem under source-resolved current,
-source-weighted polar saturation, and selected-shadow stress/source identity.
-It does not prove those hypotheses from installed Navier-Stokes inputs.
+Here `C_{\partial}` is fixed by the annular normalization and is independent of
+the terminal scale.  This proves a true no-ghost carrier theorem under
+source-resolved current, source-weighted polar saturation, boundary control, and
+selected-shadow stress/source identity.  It does not prove those hypotheses from
+installed Navier-Stokes inputs.
 
 Thus the no-ghost route does not close the gold obstruction, but it identifies
 the right object: a source-resolved carrier current, not a free annular
@@ -230,10 +237,11 @@ residue identity:
 \tag{CR.13}
 ```
 
-Minimal donor-chain reduction helps.  It removes retained partners, legal
-exits, pair-weight defects, and finite donor trees.  It does not identify the
-signed conormal stress with the localized signed pre-Cauchy density after
-weighting, lifting, projection, positive-part extraction, and selector choice.
+Minimal donor-chain reduction helps only after the conditional finite-graph
+package has paid retained partners, legal exits, pair-weight defects, and finite
+donor trees.  It still does not identify the signed conormal stress with the
+localized signed pre-Cauchy density after weighting, lifting, projection,
+positive-part extraction, and selector choice.
 
 ### Countermodel to absorption without paired identity
 
@@ -292,7 +300,7 @@ Here
 \tag{CR.16}
 ```
 
-after minimal donor-chain reduction.
+after the conditional minimal donor-chain reduction.
 
 Therefore the two-bridge attack does not close the forward-gold terminal atom.
 It replaces the broad carrier/residual words by two exact missing production
