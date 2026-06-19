@@ -94,7 +94,7 @@ branch.
 It does not prove the stronger gold theorem that residual annular refill cannot
 beat participation on every shrinking schedule. It also does not replace the
 whole-space `R^3` exterior-source branch; whole-space terminal escape is handled
-by the separate installed `R3.WholeSpaceCMCompletion.A` surface. A private
-generic annular diagnostic remains support-only until some branch theorem admits
-it as a selected same-solution terminal object with a positive-radius carrier
-and readout data visible.
+by the separate installed `R3.WholeSpaceCMCompletion.A` surface. An unadmitted
+private annular diagnostic remains support-only until some branch theorem
+admits it as a selected same-solution terminal object with a positive-radius
+carrier and readout data visible.
