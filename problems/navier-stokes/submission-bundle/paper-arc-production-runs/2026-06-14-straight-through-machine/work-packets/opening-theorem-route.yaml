@@ -1125,7 +1125,7 @@ support_refs:
   excerpt: |-
     - problems/navier-stokes/theorem-repair.yaml
       - problems/navier-stokes/dependency-discharge.yaml
-      installed_root_group_id: terminal-time-face-new-production-gold-obstruction
+      installed_root_group_id: release-exactness-and-manuscript-refresh
       object_law_remains_governing: true
     authority_split_resolution:
 - path: problems/navier-stokes/submission-bundle/ground-up-target-reference.md
@@ -1185,7 +1185,7 @@ support_refs:
   excerpt: |-
     live_theorem_edge: &1
       status: active
-      current_route_name: terminal-time-face-new-production-gold-obstruction
+      current_route_name: release-exactness-and-manuscript-refresh
       exact_cut_summary: 'The active frontier is the gold terminal time-face/new-production
         child after the specific annular residual case has been accounted. The silver
 - path: problems/navier-stokes/theorem-construction/mpp-annular-gold-continuation-frontier-20260614.md
@@ -1353,7 +1353,7 @@ context_domain_refs:
     excerpt: |-
       - problems/navier-stokes/theorem-repair.yaml
         - problems/navier-stokes/dependency-discharge.yaml
-        installed_root_group_id: terminal-time-face-new-production-gold-obstruction
+        installed_root_group_id: release-exactness-and-manuscript-refresh
         object_law_remains_governing: true
       authority_split_resolution:
   - path: problems/navier-stokes/ns-completion-executor.yaml
@@ -1443,7 +1443,7 @@ context_domain_refs:
     excerpt: |-
       theorem work
       open_root_group:
-        group_id: terminal-time-face-new-production-gold-obstruction
+        group_id: release-exactness-and-manuscript-refresh
         group_label: Terminal time-face new-production frontier after the annular residual
           specific case exhaustion.
   - path: problems/navier-stokes/proof-assembly.yaml
@@ -1453,7 +1453,7 @@ context_domain_refs:
     excerpt: |-
       theorem work
         open_root_group: &5
-          group_id: terminal-time-face-new-production-gold-obstruction
+          group_id: release-exactness-and-manuscript-refresh
           group_label: Terminal time-face new-production frontier after the annular residual
             specific case exhaustion.
   - path: problems/navier-stokes/theorem-construction/mpp-annular-gold-continuation-frontier-20260614.md
@@ -1538,7 +1538,7 @@ context_domain_refs:
     excerpt: |-
       child or a replacement noncircular finite-breakdown exclusion.
       top_blockers:
-      - terminal-time-face-new-production-gold-obstruction
+      - release-exactness-and-manuscript-refresh
       current_manuscript_surface:
         authoring_surface: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   - path: problems/navier-stokes/submission-bundle/submission-export-status.yaml

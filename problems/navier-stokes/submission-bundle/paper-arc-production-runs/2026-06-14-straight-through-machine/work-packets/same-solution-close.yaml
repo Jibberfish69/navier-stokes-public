@@ -1730,7 +1730,7 @@ context_domain_refs:
     excerpt: |-
       full_claim_lane:
         blocked: true
-        block_level: terminal-time-face-new-production-open
+        block_level: release-exactness-and-manuscript-refresh-open
         block_summary: The specific annular residual case is accounted, but public Clay
           finality remains blocked by the terminal time-face anti-atom / BASAC new-production
   - path: problems/navier-stokes/pipeline-state.yaml
