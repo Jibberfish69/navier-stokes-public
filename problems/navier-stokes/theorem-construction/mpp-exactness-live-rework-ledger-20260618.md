@@ -15375,3 +15375,54 @@ A fixed-string residue search over these two notes plus the root route table and
 `\gtrsim`, `approximately`, `roughly`, `same order`, `typical`, `immediate`, or
 `schematic` shortcut on this slice, and `git diff --check` passes for the edited
 authority notes.
+
+## Active-Square And B_ASAC Trace Assertion Repair
+
+Old claim being spent:
+
+`mpp-active-square-amplitude-thickness-branch-consolidation-20260611.md` said
+the active-square branch "should" be routed through the remaining mechanisms and
+that the loop "should not" spend another pass on exhausted first-moment routes.
+`mpp-basac-positive-source-trace-ac-direct-attempt-20260609.md` said the
+localized one-sided source-balance trace for produced `B_ASAC` "should" have no
+positive terminal jump.
+
+Exact replacement:
+
+The active-square branch is now routed only through the listed mechanisms:
+`SquareSourceEstimate.A` as a conditional bridge, non-alias
+`SignedTrilinearCancellation.A`, `ActiveEigendirectionDecorrel.A`,
+`SourceTimeConcentrationCost.A`, `ResidualSourceBalancedLPAS.A`, and
+`ResidualDirectCTSOrFCTS.A`.  The loop does not spend another pass on active-shell
+amplitude normalization from energy, selector-amplitude normalization, bare
+damping, or terminal thickness from finite `L1` mass.
+
+The B_ASAC trace note now states the theorem as an assertion:
+`PositiveSourceTraceAC_{B_ASAC}.A` requires every compact-cutoff one-sided native
+positive source-balance trace for the produced `B_ASAC` class to have no positive
+terminal jump, for example by the terminal strip modulus
+
+```text
+mu_m^{src,+}(B_R x [-epsilon,0]) <= omega_R(epsilon)+o_m(1),
+omega_R(epsilon) downarrow 0.
+```
+
+Surfaces edited:
+
+- `theorem-construction/mpp-active-square-amplitude-thickness-branch-consolidation-20260611.md`.
+- `theorem-construction/mpp-basac-positive-source-trace-ac-direct-attempt-20260609.md`.
+
+Downstream consequence:
+
+The active-square branch no longer acts as a loose source of repeated attempts;
+only the named non-alias or conditional bridge mechanisms remain proof-relevant.
+The B_ASAC trace route no longer spends a hoped-for trace property; it is a
+precise sufficient theorem for `BASACTimeFaceAntiAtom.A` and remains failed until
+that terminal strip modulus or equivalent source-residence theorem is produced.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the two edited notes and `source-frontier.yaml`
+finds no remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`,
+`roughly`, `same order`, `typical`, `immediate`, or `schematic` shortcut on this
+slice, and `git diff --check` passes for the edited notes.
