@@ -3150,8 +3150,8 @@ Multiply the transported-center readout `(LCI.3c3o)` by
 `\mathcal G_{N,m,\rho,\psi}^{low,\delta}(t)` to obtain `(LCI.3c5i)`. Under
 `(LCI.3c5k)` and `(LCI.3c5k0)`, the coefficient
 `B_{\rho,\psi,\delta,I}^{ctr,osc}` lies in `L^1(I)`, so both `(LCI.3c3k0)` and
-`(LCI.3c5f)` follow. The extra `\varepsilon\mathcal D` term allowed in those
-two bridges is simply taken to be `0`. ∎
+`(LCI.3c5f)` follow with the admissible extra
+`\varepsilon\mathcal D` term set equal to `0`. ∎
 
 ### Corollary `LCI.B3a1` (The Apr 19 transported-center package already installs both scalar bridges)
 
