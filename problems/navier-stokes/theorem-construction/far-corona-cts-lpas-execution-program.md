@@ -171,6 +171,21 @@ C_*2^{-2\delta N}.
 So there is a direct coupled-density sufficient route that is stronger than
 `(CTS)` / `(LPAS)` but still fully native to the exact far-corona geometry.
 
+The direct \(L^p\)-factorization test in
+`mpp-forward-gold-far-corona-lp-factorization-test-20260619.md` shows that this
+route cannot be supplied merely by choosing a better spatial Hölder split.
+For every \(L^p\times L^{p'}\) factorization, the lower edge of the far-corona
+leaves the finite-band endpoint factor
+
+```math
+2^{-j/2}E_k(t)^{1/2}D_j(t),
+\qquad k=j-O(1).
+```
+
+So `(F2S)` remains possible only as a genuinely coupled two-scale theorem.  The
+naive factorized route collapses to the same endpoint / finite-band survivor
+isolated below.
+
 ## Sharper operator-level contraction
 
 There is one honest contraction beyond the raw `LPAS` statement. The
