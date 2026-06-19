@@ -191,9 +191,10 @@ escape pays a non-summable terminal cost.}
 \tag{MRP.14}
 ```
 
-This is where the gold route should use viscosity, pressure, and the annular
-source ledger together.  A terminal atom may try to hide by moving to smaller
-and smaller scales.  In the rescaled variables that hiding becomes either:
+The exact gold obligation here is to use viscosity, pressure, and the annular
+source ledger together to rule out unpaid noncompact renormalized motion.  A
+terminal atom may try to hide by moving to smaller and smaller scales.  In the
+rescaled variables that hiding becomes one of:
 
 ```math
 \text{precompact flow, scale escape, center escape, or radiation escape.}
@@ -241,9 +242,21 @@ branch.
 
 This is the error theorem.  Without it, the branch only proves that the main
 rescaled field has been normalized, while the residue still hides the terminal
-source.
-The right estimate should charge `\varepsilon` either to dissipation, source
-residence, high-tower radius spend, or annular no-incoming flux.
+source.  Any use of the modulated branch must prove one of the exact error
+payments
+
+```math
+\varepsilon\text{-terminal atom}
+\Longrightarrow
+\text{dissipation charge}
+\quad\text{or}\quad
+\text{source-residence charge}
+\quad\text{or}\quad
+\text{high-tower radius spend}
+\quad\text{or}\quad
+\text{annular no-incoming flux charge}.
+\tag{MRP.18a}
+```
 
 ## Relation to the earlier branch notes
 
@@ -276,8 +289,8 @@ R_{\mathrm{fact}}(t)\downarrow0
 \tag{MRP.21}
 ```
 
-So the Laurent note should be treated as an intermediate rung.  The stronger
-gold object is `(MRP.21)`.
+Thus the Laurent note is only an intermediate rung.  The stronger gold object is
+`(MRP.21)`.
 
 ## What this pushes further
 
@@ -309,7 +322,7 @@ atom.  That would feed directly into `TerminalTimeFaceAntiAtom.A`.
 The transseries / modulated rescaled-field idea is stronger than the Laurent idea for
 this lane.
 
-Laurent is useful as a rigid comparison object.  The live gold route should
-try to prove controlled modulation and then exclude nonzero renormalized
-terminal orbits.  That is the branch capable of seeing a Zeno cascade rather
-than only a fixed pole.
+Laurent is useful as a rigid comparison object.  The live gold target is
+controlled modulation plus exclusion of nonzero renormalized terminal orbits.
+That is the branch capable of seeing a Zeno cascade rather than only a fixed
+pole.
