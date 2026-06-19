@@ -4,9 +4,9 @@ current Clay-facing submission surface. Current authority is the CM terminal
 witness consumption manuscript
 \texttt{submission-bundle/navier-stokes-submission.tex}.
 
-\section{Periodic Navier--Stokes Global Smoothness}
+\section{Conditional Periodic Continuation From the Terminal Endpoint Package}
 
-\begin{theorem}[Periodic global smoothness]
+\begin{theorem}[Conditional periodic continuation]
 Let $\nu>0$ and let
 \[
   u_0\in C^\infty(\mathbb T^3;\mathbb R^3),
@@ -19,31 +19,47 @@ Then the unforced incompressible Navier--Stokes system
   \qquad \nabla\cdot u=0,
   \qquad u(0)=u_0,
 \]
-on $\mathbb T^3$ has a unique global smooth solution
+on $\mathbb T^3$, and let $(u,p)$ be its maximal classical solution on
+$[0,T_*)$.  Assume that the following three inputs hold on this same periodic
+solution branch whenever $T_*<\infty$:
 \[
-  u\in C^\infty([0,\infty)\times\mathbb T^3).
+\begin{array}{ll}
+\mathrm{TTU}:&
+\text{terminal-tail uniformization gives a finite retained terminal readout
+cover, pointwise field coherence, and a finite-depth transported-center
+tower;}\\[0.4em]
+\mathrm{END}:&
+\text{the endpoint matrix is exhaustive and its four rows}
+\\
+& Dead,\ packing\text{-}detached,\ tower\text{-}blown,\ Jump
+\text{ are removed by participation persistence, pack control,}\\
+&\text{terminal tower readout, and field coherence, with cross entries
+reduced to those rows;}\\[0.4em]
+\mathrm{PATCH}:&
+\text{for some }s>5/2\text{ and }N>s+2,\text{ the finite terminal cover and
+depth-}N\text{ tower give }
+\sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty.
+\end{array}
 \]
+Then $T_*=\infty$, and the periodic solution is smooth for all positive time.
 \end{theorem}
 
 \begin{proof}
-Let $(u,p)$ be the maximal smooth solution on $[0,T_*)$ supplied by the classical local theory. Suppose $T_*<\infty$.
-
-The terminal-tail uniformization theorem applies to the original periodic solution. It gives a finite retained terminal readout cover, pointwise field coherence, and a finite-depth transported-center tower on the terminal approach tail. This theorem is proved in the appendices from the scale-critical good-cylinder decomposition, local epsilon regularity, the averaged ACT estimate, the averaged endpoint package, and the terminal pointwise readout layer.
-
-The pointwise endpoint matrix is exhaustive: a first finite endpoint must enter one of the four endpoint faces
+Suppose $T_*<\infty$.  Input \(\mathrm{PATCH}\) gives
 \[
-  Dead,\qquad packing\text{-}detached,\qquad tower\text{-}blown,\qquad Jump.
+  M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty
+  \qquad (s>5/2).
 \]
-The endpoint package removes all four rows. Participation persistence removes the dead row, pack control removes the packing-detached row, the terminal tower readout removes the tower-blown row, and field coherence removes the jump row. Cross entries reduce to those rows. Hence a first finite endpoint has no admissible endpoint face.
-
-Equivalently, the terminal tower remains bounded to finite depth $N$ on the terminal cover. Choose $s>5/2$ and $N>s+2$. Finite-cover Sobolev patching gives
-\[
-  \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty.
-\]
-Periodic Navier--Stokes local theory at this fixed $H^s$ level gives a lifespan depending only on $\nu$, $s$, and the displayed bound. Restarting the same solution at times $t_j\uparrow T_*$ therefore extends the smooth solution beyond $T_*$, contradicting maximality.
-
-Therefore $T_*=\infty$. Smoothness on all of $[0,\infty)$ follows from the smooth local theory and bootstrapping.
+Classical periodic Navier--Stokes local theory at this fixed \(H^s\) level gives
+a continuation time \(\tau=\tau(\nu,s,M_s)>0\) from any time slice with
+\(\|u(t)\|_{H^s}\le M_s\).  Choose \(t_j\uparrow T_*\) with
+\(T_*-t_j<\tau/2\).  Restarting the same classical branch at \(t_j\) extends it
+past \(T_*\), contradicting maximality.  Thus \(T_*=\infty\).  Smoothness on
+all of \([0,\infty)\) follows from the smooth local theory and bootstrapping.
 \end{proof}
 
 \paragraph{Appendix map.}
-The proof depends on four auxiliary packets: the terminal-tail uniformization theorem, the elliptic pressure readout, the frozen-family source theorem, and the endpoint matrix theorem. These are recorded in the appendix bundle and release manifest.
+This retained legacy file no longer asserts that the endpoint package has been
+discharged unconditionally.  Its proof role is the conditional reduction above:
+once \(\mathrm{TTU}\), \(\mathrm{END}\), and \(\mathrm{PATCH}\) are supplied on
+the same periodic solution branch, the continuation step is classical.
