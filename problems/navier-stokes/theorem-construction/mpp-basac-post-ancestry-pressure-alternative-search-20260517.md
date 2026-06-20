@@ -82,7 +82,7 @@ At current route resolution, the testing pass is complete.
 The branch has:
 
 ```text
-stable diagnostic placement: B_ASAC^closed,min is zero-radius `not Pack_Q` source-residue support;
+stable diagnostic placement: B_ASAC^closed,min is zero-radius source-residue support typed by Pack-before-Part source-residue support;
 exhausted source-side doors;
 exhausted ancestry quantization doors;
 exhausted pressure/Leray endpoint doors;

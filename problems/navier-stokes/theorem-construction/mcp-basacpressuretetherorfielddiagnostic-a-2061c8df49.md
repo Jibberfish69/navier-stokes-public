@@ -2,7 +2,7 @@
 
 ## Status
 
-Conditional pressure route and completed diagnostic placement.  The pressure/Leray tether is a candidate production mechanism only after a retained-carrier bridge proves the required pressure/source absolute-continuity estimate. The all-doors-closed survivor is demoted to Pack-first `not Pack_Q` support unless that positive-scale retained-carrier bridge licenses later Field readout.
+Conditional pressure route and completed diagnostic placement.  The pressure/Leray tether is a candidate production mechanism only after a retained-carrier bridge proves the required pressure/source absolute-continuity estimate. The all-doors-closed survivor is demoted to Pack-before-Part typed support unless that positive-scale retained-carrier bridge licenses later Field readout.
 
 ## Pressure/source absolute-continuity route
 
@@ -90,7 +90,7 @@ The time-face CM route is completed diagnostically:
 
 ```math
 BASACClosedAtomCMPackExitSupport.A:
-B_{ASAC}^{closed}\Rightarrow \neg Pack_Q\text{ zero-radius selected terminal source-residue support.}
+B_{ASAC}^{closed}\Rightarrow \text{zero-radius source-residue support: Part-first when the same original-NS record remains, true }\neg Pack_Q\text{ only when that record is absent.}
 ```
 
 Forward source-wall theorem closure still requires a new production theorem.  The diagnostic completion records the survivor cleanly for CM-exit discipline.

@@ -119,6 +119,6 @@ B_ASAC^{closed}
 is consistent with all installed source-wall bookkeeping and keeps the terminal atom alive. The next meaningful route is no longer another conditional door inside the same list. It is either:
 
 ```text
-1. land B_ASAC^{closed} as zero-radius `not Pack_Q` source-residue support under CM-exit discipline;
+1. land B_ASAC^{closed} as zero-radius source-residue support typed by Pack-before-Part source-residue support under CM-exit discipline;
 2. introduce a genuinely new production mechanism that forces one of the six doors.
 ```

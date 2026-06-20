@@ -102,4 +102,4 @@ So `Pack_Q` is not the device that excludes the singularity. It is the ordinary 
 
 This completes the corrected route-custody work at theorem-construction level.
 
-It does not claim Clay-level closure or a new PDE estimate. It installs the proof order and the exact remaining responsibility: any future use of `Pack_Q` as a base CM test must cite the Part/Field-first singularity exclusion plus carrier-scale exhaustion, not a raw zero-radius `not Pack_Q` exclusion.
+It does not claim Clay-level closure or a new PDE estimate. It installs the proof order and the exact remaining responsibility: any future use of `Pack_Q` as a base CM test must cite the Part/Field-first singularity exclusion plus carrier-scale exhaustion, not a raw zero-radius source-residue support typed by Pack-before-Part exclusion.

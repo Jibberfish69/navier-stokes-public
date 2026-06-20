@@ -2,7 +2,7 @@
 
 ## Status
 
-Failed to discharge the remaining production gates from installed inputs. The run is completed at hard obstruction placement: `B_ASAC^closed` remains the canonical zero-radius `not Pack_Q` selected terminal source-residue obstruction unless a positive-scale retained-carrier bridge licenses later Field readout.
+Failed to discharge the remaining production gates from installed inputs. The run is completed at hard obstruction placement: `B_ASAC^closed` remains the canonical zero-radius source-residue support typed by Pack-before-Part selected terminal source-residue obstruction unless a positive-scale retained-carrier bridge licenses later Field readout.
 
 ## Gate 1: super-L1 temporal residence
 
@@ -120,7 +120,7 @@ The localized Leray identity recombines convection and pressure before terminal 
 All named remaining gates require new theorem content.  The installed surfaces complete the branch only diagnostically:
 
 ```math
-B_ASAC^{closed}\leadsto \neg Pack_Q\text{ zero-radius selected terminal source-residue support.}
+B_ASAC^{closed}\leadsto \text{zero-radius source-residue support: Part-first when the same original-NS record remains, true }\neg Pack_Q\text{ only when that record is absent.}
 ```
 
 This is the current completed state of the route.  Further progress requires one genuinely new production theorem from the gates above.
