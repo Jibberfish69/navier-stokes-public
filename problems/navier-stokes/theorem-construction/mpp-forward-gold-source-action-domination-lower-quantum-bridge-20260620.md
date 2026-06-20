@@ -43,17 +43,28 @@ The retained branch has a fixed positive source mass:
 Let \(A_m(s)\ge0\) be the chosen normalized same-carrier action density.  It may
 be the source-square density, a critical-strain density, a normalized CKN
 density, or a strict no-waste action density.  The proof only uses
-nonnegativity and same-carrier domination.
+nonnegativity and same-carrier domination by \(A_m\) or by \(A_m^{1/2}\).
 
 ## 2. Same-carrier domination
 
-The needed domination is
+There are two exact domination forms.
+
+Linear action domination:
 
 ```math
 a_m(s)
 \le
 C_{sa}A_m(s)+\ell_m(s),
 \tag{SAQ.4}
+```
+
+Square-root action domination:
+
+```math
+a_m(s)
+\le
+C_{sa}A_m(s)^{1/2}+\ell_m(s).
+\tag{SAQ.4a}
 ```
 
 where the legal residue has vanishing retained total mass on this branch:
@@ -69,7 +80,7 @@ mass form is the exact needed input.
 
 ## 3. Lower action quantum
 
-Integrating `(SAQ.4)` and using `(SAQ.3)` gives
+Under linear domination, integrating `(SAQ.4)` and using `(SAQ.3)` gives
 
 ```math
 c_0
@@ -91,13 +102,46 @@ Thus, along the retained branch,
 
 for all sufficiently large \(m\).  This is the lower action quantum.
 
+Under square-root domination, `(SAQ.4a)` gives
+
+```math
+c_0
+\le
+C_{sa}\int_{-1}^{0}A_m(s)^{1/2}\,ds
++
+o_m(1).
+\tag{SAQ.7a}
+```
+
+Since the normalized interval has length one, Cauchy--Schwarz gives
+
+```math
+\left(
+\int_{-1}^{0}A_m(s)^{1/2}\,ds
+\right)^2
+\le
+\int_{-1}^{0}A_m(s)\,ds.
+\tag{SAQ.7b}
+```
+
+Thus, along the retained branch,
+
+```math
+\int_{-1}^{0}A_m(s)\,ds
+\ge
+{c_0^2\over 4C_{sa}^2}
+\tag{SAQ.7c}
+```
+
+for all sufficiently large \(m\).
+
 Therefore
 
 ```math
 \boxed{
 \text{retained selected source mass}
 +
-\text{same-carrier source/action domination}
+\text{linear or square-root same-carrier source/action domination}
 \Longrightarrow
 \text{lower action quantum}.
 }
@@ -128,7 +172,7 @@ Hence
 \boxed{
 \text{UnweightedTerminalCriticalActionReserve.A}
 +
-\text{same-carrier source/action domination}
+\text{linear or square-root same-carrier source/action domination}
 \Longrightarrow
 \text{NoFreeTerminalZenoDonorChain.A}.
 }
@@ -188,10 +232,11 @@ a_m(s)\le C_{\rm car}G_m(s)+\ell_m(s),
 ```
 
 and Cauchy--Schwarz gives endpoint UI.  The lower-quantum bridge here uses the
-weaker integrated consequence against \(A_m=G_m\) or \(A_m=G_m^2\), depending
-on the chosen action normalization.  In both versions, the unpaid clause is the
-same: the selected native positive source must be identified with the square or
-action density on the same carrier.
+integrated square-root form `(SAQ.4a)` with \(A_m=G_m^2\).  Indeed,
+`(SAQ.14)` gives a lower bound for \(\int G_m\), and `(SAQ.7b)` converts that
+into a lower bound for \(\int G_m^2\).  The unpaid clause is still the same:
+the selected native positive source must be identified with the square/action
+density on the same carrier.
 
 Thus the reduced fork is:
 
