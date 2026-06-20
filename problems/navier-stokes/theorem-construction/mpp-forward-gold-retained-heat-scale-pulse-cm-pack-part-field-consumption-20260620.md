@@ -36,6 +36,8 @@ this note only consumes this branch inside the Pack/Part/Field witness tree.
 - `mpp-any-finite-failure-witness-cm-exit-20260521.md`.
 - `mpp-clay-terminal-witness-invalidation-20260523.md`.
 - `mpp-clay-admissible-breakdown-cm-lawfulness-test-20260524.md`.
+- `mpp-silver-cm-face-failure-finality-correction-20260619.md`.
+- `mpp-finite-obstruction-inventory-finality-attempt-20260609.md`.
 
 ## 1. Object propagated from the failed forward-gold attempt
 
@@ -308,12 +310,16 @@ ScaleCriticalTreeCarleson.A.
 \tag{RHP.23}
 ```
 
-It also does not claim public Clay-level proof promotion.  The current
-`theorem_work_brief` still reports a CM referee blocker at the finite-breakdown
-exclusion / Clay-closing audit layer.  This note only says that the retained
-heat-scale pulse is not a fourth branch once it is admitted as the same terminal
-witness.  It is either the gold pass branch `(RHP.3)` or a Pack/Part/Field face
-failure by `(RHP.20)`.
+It also does not claim release readiness, manuscript exactness, or a
+forward-positive proof.  The June 19 Silver correction rejects the stale generic
+burden that every concrete Pack/Part/Field face failure must be separately
+deleted by a no-exit theorem.  The rowwise test is narrower: a promoted finite
+terminal row must enter the CM test and then either continue/read out or land in
+a concrete Pack/Part/Field face failure.
+
+This note performs that rowwise test for the retained heat-scale pulse.  Once
+the pulse is admitted as the same terminal witness, it is either the gold pass
+branch `(RHP.3)` or a Pack/Part/Field face failure by `(RHP.20)`.
 
 ## Verdict
 
@@ -331,4 +337,4 @@ pass-or-exit level:
 
 The exact work done here is the CM routing of the failed forward-gold endpoint
 branch.  The exact work not done here is the forward-gold anti-atom theorem and
-the global Clay-closing referee promotion.
+the separate release/manuscript exactness certification.
