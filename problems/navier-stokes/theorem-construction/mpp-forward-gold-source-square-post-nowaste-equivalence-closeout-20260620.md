@@ -283,7 +283,7 @@ same selected-family unweighted reserve:
 \text{same-carrier reverse Holder / Gehring seed},\\
 \text{SelectedCriticalStrainCarleson.A plus endpoint carrier UI},\\
 \text{NormalizedCKNCarleson.A},\\
-\text{ActiveWindowHeight.A plus the needed tail moment},\\
+\text{global ActiveWindowHeight.A, or selected/local height plus log-tail},\\
 \text{StrictRescaledNoWasteLyapunov.A},\\
 \text{ProjectedLocalizedFluxCommutatorCoercivity.A},\\
 \text{SelectedPositivePolarSaturation.A / NoFreeTerminalZenoDonorChain.A}.

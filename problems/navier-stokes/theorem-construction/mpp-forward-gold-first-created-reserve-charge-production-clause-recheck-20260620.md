@@ -226,7 +226,7 @@ same-witness CM consumption branch.  The noncircular options are:
 
 ```math
 \boxed{
-\text{ActiveWindowHeight.A with selected height plus log-tail control,}
+\text{global ActiveWindowHeight.A, or selected/local height plus log-tail control,}
 }
 \tag{FCR.18}
 ```

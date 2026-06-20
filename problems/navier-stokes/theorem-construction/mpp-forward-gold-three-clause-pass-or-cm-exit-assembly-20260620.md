@@ -397,7 +397,7 @@ DonorReserveAdjointTrace.A,}
 ```
 
 ```math
-\text{ActiveWindowHeight.A with selected height plus log-tail control,}
+\text{global ActiveWindowHeight.A, or selected/local height plus log-tail control,}
 \tag{TCE.32}
 ```
 
