@@ -579,7 +579,7 @@ context_domain_refs:
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
         role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
-          face split, receiver/source/readout/endpoint layers, Pack-first source-wall gate
+          face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
     matched_keywords:
@@ -595,7 +595,7 @@ context_domain_refs:
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
         role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
-          face split, receiver/source/readout/endpoint layers, Pack-first source-wall gate
+          face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
     matched_keywords:
@@ -611,7 +611,7 @@ context_domain_refs:
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
         role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
-          face split, receiver/source/readout/endpoint layers, Pack-first source-wall gate
+          face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260608.yaml
     matched_keywords:
@@ -627,7 +627,7 @@ context_domain_refs:
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
         role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
-          face split, receiver/source/readout/endpoint layers, Pack-first source-wall gate
+          face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260609-iteration-2.yaml
     matched_keywords:
@@ -643,7 +643,7 @@ context_domain_refs:
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
         role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
-          face split, receiver/source/readout/endpoint layers, Pack-first source-wall gate
+          face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260609.yaml
     matched_keywords:
@@ -659,7 +659,7 @@ context_domain_refs:
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
         role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
-          face split, receiver/source/readout/endpoint layers, Pack-first source-wall gate
+          face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   ref_count: 6
 - domain_id: theorem_notes
