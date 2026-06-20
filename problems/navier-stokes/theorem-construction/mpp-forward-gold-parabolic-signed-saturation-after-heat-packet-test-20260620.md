@@ -192,9 +192,9 @@ It also rules out the claim that heat smoothing alone proves no-free-sink.  The
 heat packet has
 
 ```math
-\int D_m\to0,
+\int_{I_m}D_m(t)\,dt\to0,
 \qquad
-\int \lambda_mD_m^2\simeq1,
+\int_{I_m}\lambda_mD_m(t)^2\,dt=1,
 ```
 
 so a square-reserve birth can be invisible to the first-moment heat ledger.
