@@ -107,11 +107,13 @@ or strip-modulus bound for that multiplier.
 The exact obstruction is co-location:
 
 ```math
-a_m(s)=m\,1_{(-1/m,0]}(s)
+a_m(s)=m\,1_{(-1/m,0]}(s),
+\qquad
+\int_{-1/m}^{0}a_m(s)\,ds=1.
 ```
 
 with high-packet occupancy selected in the same terminal strip. The product
-keeps order-one selected mass while the strip thickness tends to zero.
+keeps fixed unit selected mass while the strip thickness tends to zero.
 
 ## Decorrelation And No-Freeze Tests
 
