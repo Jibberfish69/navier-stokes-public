@@ -8,7 +8,8 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-square-first-pulse-no-parent-recheck-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-donor-reserve-adjoint-trace-reentry-20260609.md
   - problems/navier-stokes/theorem-construction/mcp-squarereserveevolution-a-squarereserveevolution-a-direct-dynamic-reserve-attempt-a41ab75850.md
-downstream_consequence: "SquareParentOrChargeForReserve.A reduces to a square-height/thickness law for principal-flow gain, or to charging principal gain itself in the square ledger. Boundary child mass, linear parent-or-charge, and first square-window selection do not pay the integrated square reserve."
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-principal-gain-square-height-thickness-direct-test-20260620.md
+downstream_consequence: "SquareParentOrChargeForReserve.A reduces to same-unit square reserve evolution, active-height control, selected height plus log-tail control, or charging principal gain itself in the square ledger. Boundary child mass, linear parent-or-charge, heat-window thickness, linear participation mass, and first square-window selection do not pay the integrated square reserve."
 ---
 
 # MPP Forward-Gold Square Parent-Or-Charge For Reserve Direct Test
@@ -193,7 +194,7 @@ Charge_T^{gain}+Legal_T+o(1).
 
 This is the selected participation square budget in another notation.
 
-Second, prove a square-height/thickness law preventing short high-gain windows:
+Second, prove a square-height law preventing high-gain windows:
 
 ```math
 \lambda_T\int_{I_T}
@@ -203,8 +204,10 @@ C\,\Theta_T^{sq}(I_T)
 \tag{SPC.14}
 ```
 
-where \(\Theta_T^{sq}\) is a genuine square-strength residence, height, or
-critical-action ledger, not a linear mass ledger.
+where \(\Theta_T^{sq}\) is a genuine square-strength height or critical-action
+ledger, not a linear mass ledger.  The direct height/thickness test shows that
+heat-window thickness and vanishing linear participation mass do not provide
+this control without a pointwise active-height theorem.
 
 Third, prove a square parent trace theorem:
 
@@ -245,6 +248,8 @@ SquareReserveEvolution.A
 DonorReserveAdjointTrace.A
 \quad/\quad
 ActiveWindowHeight.A
+\quad/\quad
+\text{selected height plus log-tail control}
 \quad/\quad
 UnweightedTerminalCriticalActionReserve.A.
 }
