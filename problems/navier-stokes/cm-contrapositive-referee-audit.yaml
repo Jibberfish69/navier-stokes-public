@@ -55,12 +55,12 @@ status:
     superseded_source: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
     correction: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-target-correction-20260603.md
     resolution: 'The old generic demand to prove Exit(Q) inadmissible was the wrong
-      local target. The finite-obstruction inventory gate is locally passed only
-      in this sense: each proof-bearing terminal obstruction must enter the CM test
-      and land in Pack, Part, or Field, while non-proof rows are recorded as support
-      with no proof force. This local inventory pass is not release readiness after
-      the pulling-teeth exactness reread; exactness rework and Clay finality remain
-      separate decision-bearing blockers.'
+      local target. The finite-obstruction inventory gate is locally passed only in
+      this sense: each proof-bearing terminal obstruction must enter the CM test and
+      land in Pack, Part, or Field, while non-proof rows are recorded as support with
+      no proof force. This local inventory pass is not release readiness after the
+      pulling-teeth exactness reread; exactness rework and Clay finality remain separate
+      decision-bearing blockers.'
 audit_law:
   governing_program: Exit(Q):=not Member(Q) through Pack/Part/Field witness faces.
   positive_to_cm_ultimatum: Any unfinished positive proof surface must either convert
@@ -272,13 +272,12 @@ blockers:
 - navier-stokes-exactness-rework-active
 blocking_findings: []
 open_logical_burdens:
-- The finite-obstruction inventory pass is the accepted Silver CM consumption
-  route when every promoted finite terminal row has CM-test entry plus
-  admissibility failure, continuation/readout recovery, or concrete Pack/Part/Field
-  face failure. It is not blocked by a generic demand to prove that face failure
-  cannot itself be finite breakdown.
-- The pulling-teeth exactness reread remains active until every decision-bearing
-  live proof surface is reworked or stripped of proof force.
+- The finite-obstruction inventory pass is the accepted Silver CM consumption route
+  when every promoted finite terminal row has CM-test entry plus admissibility failure,
+  continuation/readout recovery, or concrete Pack/Part/Field face failure. It is not
+  blocked by a generic demand to prove that face failure cannot itself be finite breakdown.
+- The pulling-teeth exactness reread remains active until every decision-bearing live
+  proof surface is reworked or stripped of proof force.
 passed: true
 reconciled_by: problems/navier-stokes/theorem-construction/mcp-cmcontrapositiverefereeinventorypatchattempt-a-cmcontrapositiverefereeinventorypatch-a-exhaustivecontrapositivefinitebreakdownexclusion-a-0cd1ff03d3.md
 accepted_replacement:
@@ -324,9 +323,9 @@ superseded_readiness_candidates:
 - candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
   kind: superseded_wrong_silver_target
   surface: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
-  evidence: The old generic bridge demand treated a concrete CM face failure as
-    a leftover finite-breakdown branch. The 2026-06-19 correction rejects that
-    as the Silver target.
-  required_action: Only reopen Silver when a concrete promoted finite-breakdown
-    row enters the CM test and still neither continues nor lands in a real Pack/Part/Field
+  evidence: The old generic bridge demand treated a concrete CM face failure as a
+    leftover finite-breakdown branch. The 2026-06-19 correction rejects that as the
+    Silver target.
+  required_action: Only reopen Silver when a concrete promoted finite-breakdown row
+    enters the CM test and still neither continues nor lands in a real Pack/Part/Field
     face failure.
