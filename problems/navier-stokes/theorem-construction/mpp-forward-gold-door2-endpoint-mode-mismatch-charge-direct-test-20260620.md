@@ -104,7 +104,7 @@ but
 \tag{EMM.8}
 ```
 
-Thus finite selected source mass alone leaves an order-size endpoint mismatch.
+Thus finite selected source mass alone leaves endpoint mismatch equal to `2A`.
 
 ## 4. Two-donor lower-frame obstruction
 
@@ -272,4 +272,3 @@ or the stronger native suppliers
 \text{StrictRescaledNoWasteLyapunov.A}.
 \tag{EMM.23}
 ```
-
