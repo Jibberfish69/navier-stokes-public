@@ -297,6 +297,57 @@ consumers.
 
 Result: this remains the clean organizing architecture, not a proved theorem.
 
+### 9b. Minimal Zeno endpoint trace compactness
+
+The direct endpoint trace compactness test checks whether soft Zeno compactness
+can be strengthened to
+
+```math
+u^{(m)}(\cdot,0)\to u_\ast(\cdot,0)
+\quad\text{strongly in }L^2_{\rm loc}
+```
+
+on the normalized terminal packet.
+
+Current compactness gives strong convergence only on strictly preterminal
+strips:
+
+```math
+B_R\times[-R^2,-a],
+\qquad
+a>0.
+```
+
+The endpoint layer
+
+```math
+a_m(s)=\tau_m^{-1}\mathbf 1_{(-\tau_m,0]},
+\qquad
+\tau_m\downarrow0,
+```
+
+vanishes on every such fixed preterminal strip and still converges to a
+terminal atom at \(s=0\).  Fixed physical energy trace continuity does not
+repair this, because an order-one normalized endpoint packet has only
+order-\(r_m\) physical \(L^2\) mass on a radius-\(r_m\) packet.
+
+Even velocity trace compactness would not finish the source-carrier problem by
+itself.  The retained source is selected after localization, projection,
+weights/lifts, packet choice, and positive-part extraction, so one still needs
+same-ledger carrier continuity:
+
+```math
+LocalEnergyFluxNativeResidueIdentity.A
+\quad\text{or}\quad
+SelectedPositivePolarSaturation.A
+\quad\text{or}\quad
+NoFreeTerminalZenoDonorChain.A.
+```
+
+Result: `MinimalZenoTerminalTraceCompactness.A` is not an independent supplier.
+It reduces to the moving-packet strip modulus, trace AC, reverse Holder,
+source-square, or no-waste theorem plus selected-carrier continuity.
+
 ### 10. No-incoming localized energy flux
 
 The direct no-incoming localized flux test separates lateral boundary flux from
