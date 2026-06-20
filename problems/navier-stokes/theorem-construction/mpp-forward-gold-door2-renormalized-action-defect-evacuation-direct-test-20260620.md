@@ -80,7 +80,8 @@ times \(S_j\to\infty\) such that
 \tag{RA.5}
 ```
 
-after the usual diagonal selection in \(n,j,K\).  Shift time by \(S_j\):
+after passing to a subsequence \(n_j\) and diagonalizing over a fixed compact
+annulus exhaustion.  Shift time by \(S_j\):
 
 ```math
 \widetilde U_j(s,y)=U_{n_j}(S_j+s,y),
@@ -157,15 +158,18 @@ Thus physical finite energy gives
 
 not the unweighted estimate needed to force `(RA.3)`.
 
-A terminal recurrent branch with
+A terminal recurrent branch may have disjoint unit intervals
+\(I_j=[S_j,S_j+1]\), \(S_j\to\infty\), on which
 
 ```math
-\mathcal A_R(s)\sim1
+0<c_0\le \mathcal A_R(s)\le C_0
+\qquad(s\in I_j),
 \tag{RA.13}
 ```
 
-on infinitely many unit log-time slabs remains compatible with `(RA.12)`.
-This is the same heat-scale pulse obstruction in stationarity language.
+and may vanish off those intervals.  This is compatible with `(RA.12)` because
+\(\sum_j e^{-S_j/2}<\infty\), while it violates the unweighted finite-action
+bound.  This is the same heat-scale pulse obstruction in stationarity language.
 
 ## 4. Why defect evacuation is not installed
 
