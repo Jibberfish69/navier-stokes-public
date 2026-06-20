@@ -162,8 +162,17 @@ while
 \tag{PLC.3}
 ```
 
-After replacing \(U\) by \(-U\) if needed, the positive collar flux grows like
-\(\lambda^3\) while the viscous term grows like \(\lambda^2\).  Hence an
+After replacing \(U\) by \(-U\) if needed, \(c_U>0\), and the exact ratio of
+positive collar flux to viscous dissipation is
+
+```math
+{\lambda^3r^{-1}c_U\over \nu\lambda^2r^{-1}d_U}
+=
+{\lambda c_U\over \nu d_U}.
+\tag{PLC.3a}
+```
+
+This ratio is unbounded as \(\lambda\to\infty\).  Hence an
 estimate of the form
 
 ```math
