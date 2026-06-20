@@ -204,3 +204,10 @@ SquareReserveEvolution.A.
 
 This is the same dynamic square-reserve gate already exposed by the
 ScaleCriticalTreeCarleson square-first-pulse audits.
+
+The follow-up direct parent-or-charge test shows the exact normal-form
+obstruction: principal-flow gain can create fixed positive integrated square
+reserve inside the first square window while the weighted residual charge is
+zero and the boundary child mass tends to zero.  Thus the dynamic gate must be
+a square-height/thickness law, a same-unit square parent trace, or a charge of
+principal gain itself in the square ledger.
