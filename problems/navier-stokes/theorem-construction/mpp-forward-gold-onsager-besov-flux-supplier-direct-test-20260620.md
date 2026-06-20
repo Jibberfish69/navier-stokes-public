@@ -74,8 +74,13 @@ with normalized profiles
 ```math
 u_m(t,x)
 =
-a_m r_m^{-1}
-V_m\!\left({t-t_m\over r_m^2},{x-x_m\over r_m}\right).
+r_m^{-1}
+v_m\!\left({t-t_m\over r_m^2},{x-x_m\over r_m}\right),
+\qquad
+p_m(t,x)
+=
+r_m^{-2}
+q_m\!\left({t-t_m\over r_m^2},{x-x_m\over r_m}\right).
 \tag{OBF.5}
 ```
 
@@ -95,7 +100,7 @@ selected carrier:
 A_m
 =
 \int_{-1}^{0}\int_{B_R}
-\left(|V_m|^3+|Q_m|^{3/2}+|S(V_m)|^{5/2}\right)\,dy\,ds
+\left(|v_m|^3+|q_m|^{3/2}+|S(v_m)|^{5/2}\right)\,dy\,ds
 \tag{OBF.7}
 ```
 
@@ -162,8 +167,9 @@ The current inputs do not prove `(OBF.12)`.
 
 ## 3. Heat-scale scaling check
 
-For the packet `(OBF.5)`, the physical collar or LP flux across the selected
-scale has one-radius cost.  At one time,
+For the special subcase \(v_m=a_mV\), with a fixed smooth normalized profile
+\(V\), the physical collar or LP flux across the selected scale has one-radius
+cost.  At one time,
 
 ```math
 \int |u_m|^3|\nabla\chi_{r_m}|\,dx
