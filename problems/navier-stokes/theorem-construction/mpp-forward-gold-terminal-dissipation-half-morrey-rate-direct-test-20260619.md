@@ -46,6 +46,7 @@ The coefficient throttle note gives
 
 ```math
 \int_{I_j}\|S_{<j}^{loc}(t)\|_\infty\,dt
+\le
 C_DA_t^{1/2}
 2^{j/2}\nu^{-1}
 \left(\int_{I_j}\mathcal D(t)\,dt\right)^{1/2}.
