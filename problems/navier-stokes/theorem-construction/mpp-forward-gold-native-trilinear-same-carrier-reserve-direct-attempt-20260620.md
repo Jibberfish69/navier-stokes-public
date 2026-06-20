@@ -11,7 +11,8 @@ do not convert it into an unweighted same-carrier source-square reserve.
 The attempted proof fails for a precise reason: the trace-free low strain can
 run at the heat-clock rate on a shrinking packet, the selected high packet can
 align with its expanding eigendirection, and the physical cost remains
-radius-weighted while the normalized square source remains order one.
+radius-weighted while `(NTSR.13)` gives the normalized square source as the
+fixed positive value \(\left(M_{\sigma,\psi}K_\psi^{-1}\right)^2\).
 
 This is not asserted as an exact Navier-Stokes solution.  It is the normal-form
 test for any proposed estimate that tries to derive the unweighted reserve from
