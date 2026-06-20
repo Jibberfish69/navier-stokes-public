@@ -51,46 +51,97 @@ This is not used as a Navier--Stokes solution construction.  It is the scaling
 normal form every estimate in this branch must survive.
 
 At one heat scale, the physical kinetic energy and gradient dissipation carry
-the small factor \(r_j\):
+the small factor \(r_j\).  With
+
+```math
+s={t-t_j\over r_j^2},
+\qquad
+E_2(s;V):=\int_{B_1}|V(s,y)|^2\,dy,
+\qquad
+D_2(V):=\int_{-1}^{0}\int_{B_1}|\nabla_yV(s,y)|^2\,dyds,
+\tag{CRCI.4a}
+```
+
+one has the exact identities
 
 ```math
 \|u_j(t)\|_{L^2(B_{r_j})}^2
-\simeq
-a_j^2 r_j,
-\qquad
+=
+a_j^2 r_j E_2(s;V),
+\tag{CRCI.4b}
+```
+
+and
+
+```math
 \int_{Q_j}|\nabla u_j|^2\,dxdt
-\simeq
-a_j^2 r_j.
-\tag{CRCI.4}
+=
+a_j^2r_jD_2(V).
+\tag{CRCI.4c}
 ```
 
 The critical currencies do not carry that factor:
 
 ```math
-\|u_j(t)\|_{L^3(B_{r_j})}^3
-\simeq
-a_j^3,
-\tag{CRCI.5}
+C_3(s;V):=\int_{B_1}|V(s,y)|^3\,dy.
+\tag{CRCI.5a}
 ```
+
+```math
+\|u_j(t)\|_{L^3(B_{r_j})}^3
+=
+a_j^3C_3(s;V).
+\tag{CRCI.5b}
+```
+
+Let
+
+```math
+P_V=R_iR_j(V_iV_j).
+\tag{CRCI.6a}
+```
+
+The pressure associated to the rescaled packet has the form
+
+```math
+p_j(t,x)=a_j^2r_j^{-2}P_V(s,y),
+\qquad
+y={x-x_j\over r_j},
+\tag{CRCI.6b}
+```
+
+up to the harmless local harmonic pressure gauge already routed to pressure
+ledgers.  Therefore
 
 ```math
 {1\over r_j^2}
 \int_{Q_j}
 \left(|u_j|^3+|p_j|^{3/2}\right)\,dxdt
-\simeq
-a_j^3,
-\tag{CRCI.6}
+=
+a_j^3
+\int_{-1}^{0}\int_{B_1}
+\left(|V|^3+|P_V|^{3/2}\right)\,dyds.
+\tag{CRCI.6c}
 ```
+
+Finally,
 
 ```math
 \int_{Q_j}|u_j|^5\,dxdt
-\simeq
-a_j^5,
-\qquad
+=
+a_j^5
+\int_{-1}^{0}\int_{B_1}|V|^5\,dyds,
+\tag{CRCI.7a}
+```
+
+and
+
+```math
 \int_{Q_j}|\nabla u_j|^{5/2}\,dxdt
-\simeq
-a_j^{5/2}.
-\tag{CRCI.7}
+=
+a_j^{5/2}
+\int_{-1}^{0}\int_{B_1}|\nabla_yV|^{5/2}\,dyds.
+\tag{CRCI.7b}
 ```
 
 Thus the critical criteria see the amplitude \(a_j\), while the energy ledger
