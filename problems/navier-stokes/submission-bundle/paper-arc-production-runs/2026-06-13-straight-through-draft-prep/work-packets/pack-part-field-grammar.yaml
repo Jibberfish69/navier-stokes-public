@@ -162,7 +162,7 @@ source_sections:
     \[
       \Pack_Q,\qquad \Part_{N_s,Q},\qquad \Field_{N_s,r,Q}
     \]
-    at a depth \(N_s\) high enough for the installed \(H^s\), \(s>5/2\), readout, then the standard continuation criterion would extend the classical solution past \(T_*\).  A genuine finite terminal obstruction must lose the first available face in Pack-first order:
+    at a depth \(N_s\) high enough for the installed \(H^s\), \(s>5/2\), readout, then the standard continuation criterion would extend the classical solution past \(T_*\).  A genuine finite terminal obstruction must lose the first available face in Pack-before-Part audited order:
     \[
       \neg\Pack_Q,
       \qquad

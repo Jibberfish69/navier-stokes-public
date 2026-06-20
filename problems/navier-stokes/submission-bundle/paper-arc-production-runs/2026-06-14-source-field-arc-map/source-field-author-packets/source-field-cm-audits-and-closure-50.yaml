@@ -52,7 +52,7 @@ chunk:
 
       The source residue is not the next object to delete. In the CM contrapositive route, the source residue is the bad object that proves class exit.
 
-      So the residue is carried into the Pack-first CM decision tree. It is not first converted into a positive smoothness estimate.
+      So the residue is carried into the Pack-before-Part audited CM decision tree. It is not first converted into a positive smoothness estimate.
 
       \[
       \mu_*^{src,+}(\mathcal F_N)>0.
@@ -416,7 +416,7 @@ chunk:
   context_excerpt: "\\subsection{Clay problem Terminal Source Residue CM Exit}\n\nThe
     source residue is not the next object to delete. In the CM contrapositive route,
     the source residue is the bad object that proves class exit.\n\nSo the residue
-    is carried into the Pack-first CM decision tree. It is not first converted into
+    is carried into the Pack-before-Part audited CM decision tree. It is not first converted into
     a positive smoothness estimate.\n\n\\[\n\\mu_*^{src,+}(\\mathcal F_N)>0.\n\\]\n\n\\[\n\\mu_*^{sing}\\perp\\rho_*^{inst},\n\\qquad\n\\mu_*^{sing}\\ne0.\n\\]\n\nThe
     point is not to prove * sing =0. The point is to prove that, if this residue exists
     as part of a finite-failure scenario, it cannot be a legal CM survivor.\n\nThis

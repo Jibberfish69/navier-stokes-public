@@ -282,7 +282,7 @@ chunk:
       \qquad s>5/2,
       \]
 
-      So an alleged finite-time failure witness cannot retain all three slots on the same terminal packet. We now sort the failed slot in Pack-first order.
+      So an alleged finite-time failure witness cannot retain all three slots on the same terminal packet. We now sort the failed slot in Pack-before-Part audited order.
 
       This is the correct landing face for zero-scale packets and unpaid donor-refill ancestry. The installed Pack-side notes give
 
@@ -658,7 +658,7 @@ chunk:
     \qquad s>5/2,
     \]
 
-    So an alleged finite-time failure witness cannot retain all three slots on the same terminal packet. We now sort the failed slot in Pack-first order.
+    So an alleged finite-time failure witness cannot retain all three slots on the same terminal packet. We now sort the failed slot in Pack-before-Part audited order.
 
     This is the correct landing face for zero-scale packets and unpaid donor-refill ancestry. The installed Pack-side notes give
 

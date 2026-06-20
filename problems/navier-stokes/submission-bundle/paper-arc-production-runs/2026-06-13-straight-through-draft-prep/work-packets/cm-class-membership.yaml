@@ -117,7 +117,7 @@ source_sections:
     \]
     The pass line means that the selected record keeps the original datum, the fixed viscosity, the Navier--Stokes pressure law, incompressibility, the transported carrier, the participation tower, and a positive-scale field readout strong enough for the continuation criterion in force.  The fail line means that the same selected record loses one of those requirements.  The proof names the first lost requirement.
 
-    The first lost requirement is read in Pack-first order:
+    The first lost requirement is read in Pack-before-Part audited order:
     \[
       \begin{aligned}
       \text{lost same-fluid carrier} &\longmapsto \neg\Pack_Q,\\

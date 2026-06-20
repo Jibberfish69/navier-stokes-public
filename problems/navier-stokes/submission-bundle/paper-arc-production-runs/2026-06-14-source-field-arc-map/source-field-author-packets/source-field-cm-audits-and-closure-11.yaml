@@ -333,7 +333,7 @@ chunk:
     source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32250
     start_anchor: "\\subsection{Clay problem BASAC Branch-Entropy Reserve / Two-Tower
       Donor-Depletion Direct Attempt}\n"
-    end_anchor: "\\subsection{Clay problem B ASAC closed CM Pack-first exit diagnostic}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC closed CM Pack-before-Part typed exit diagnostic}\n"
     include_end_anchor: false
     group_id: cm-audits-and-closure
     text: |+
@@ -848,7 +848,7 @@ source_rewrites:
   line_end: 32286
   start_anchor: "\\subsection{Clay problem BASAC Branch-Entropy Reserve / Two-Tower
     Donor-Depletion Direct Attempt}\n"
-  end_anchor: "\\subsection{Clay problem B ASAC closed CM Pack-first exit diagnostic}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC closed CM Pack-before-Part typed exit diagnostic}\n"
   include_start_anchor: true
   include_end_anchor: false
   author_replacement_required: true
