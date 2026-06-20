@@ -73,14 +73,14 @@ The heat-scale viscous clock is
 Thus a pointwise same-packet throttle would be
 
 ```math
-\lambda_j^+\le C\nu 2^{2j}.
+\lambda_j^+\le C_\lambda\nu 2^{2j}.
 \tag{HCB.4}
 ```
 
 The integrated version needed for scalar packet residence is
 
 ```math
-\int_{I_j}\lambda_j^+(t)\,dt\le C,
+\int_{I_j}\lambda_j^+(t)\,dt\le C_T,
 \tag{HCB.5}
 ```
 
@@ -90,7 +90,7 @@ control
 ```math
 \int |w_j|^2\lambda_j^+\,dx
 \le
-C\,T_j(t)+Legal_j(t)
+C_S\,T_j(t)+Legal_j(t)
 \tag{HCB.6}
 ```
 
@@ -98,33 +98,43 @@ on the same selected packet.
 
 ## 2. Bernstein plus energy is too large pointwise
 
-Bernstein gives, up to the fixed Littlewood--Paley constants,
+Bernstein gives, with a fixed Littlewood--Paley constant \(C_B\),
 
 ```math
 \|S_{<j}^{loc}(t)\|_\infty
-\lesssim
+\le
+C_B
 \sum_{k<j}2^{5k/2}\|\Delta_k u(t)\|_2.
 \tag{HCB.7}
 ```
 
 The energy bound gives \(\|\Delta_k u(t)\|_2\le \|u(t)\|_2\le E_0^{1/2}\).
-Therefore
+For the fixed constant
+
+```math
+C_{B,E}
+:=
+C_B\sum_{m\ge1}2^{-5m/2},
+\tag{HCB.8a}
+```
+
+this gives
 
 ```math
 \|S_{<j}^{loc}(t)\|_\infty
-\lesssim
-E_0^{1/2}2^{5j/2}.
+\le
+C_{B,E}E_0^{1/2}2^{5j/2}.
 \tag{HCB.8}
 ```
 
 To imply `(HCB.4)`, one would need
 
 ```math
-E_0^{1/2}2^{5j/2}
-\lesssim
-\nu 2^{2j},
+C_{B,E}E_0^{1/2}2^{5j/2}
+\le
+C_\lambda\nu 2^{2j},
 \qquad\text{equivalently}\qquad
-E_0^{1/2}2^{j/2}\lesssim\nu.
+E_0^{1/2}2^{j/2}\le {C_\lambda\over C_{B,E}}\nu.
 \tag{HCB.9}
 ```
 
@@ -147,30 +157,36 @@ Using Cauchy--Schwarz in `(HCB.7)`,
 ```math
 \begin{aligned}
 \|S_{<j}^{loc}(t)\|_\infty
-&\lesssim
+&\le
+C_B
 \sum_{k<j}2^{3k/2}\bigl(2^k\|\Delta_k u(t)\|_2\bigr) \\
 &\le
+C_B
 \left(\sum_{k<j}2^{3k}\right)^{1/2}
 \left(\sum_{k<j}2^{2k}\|\Delta_k u(t)\|_2^2\right)^{1/2} \\
-&\lesssim
-2^{3j/2}\left({\mathcal D(t)\over\nu}\right)^{1/2}.
+&\le
+C_D
+2^{3j/2}\left({\mathcal D(t)\over\nu}\right)^{1/2},
 \end{aligned}
 \tag{HCB.11}
 ```
 
+where \(C_D=C_B(\sum_{m\ge1}2^{-3m})^{1/2}\).
+
 To force the heat-scale throttle `(HCB.4)`, `(HCB.11)` requires
 
 ```math
-2^{3j/2}\left({\mathcal D(t)\over\nu}\right)^{1/2}
-\lesssim
-\nu2^{2j},
+C_D2^{3j/2}\left({\mathcal D(t)\over\nu}\right)^{1/2}
+\le
+C_\lambda\nu2^{2j},
 \tag{HCB.12}
 ```
 
 or
 
 ```math
-\mathcal D(t)\lesssim \nu^3 2^j.
+\mathcal D(t)\le
+\left({C_\lambda\over C_D}\right)^2\nu^3 2^j.
 \tag{HCB.13}
 ```
 
@@ -189,29 +205,32 @@ Integrating `(HCB.11)` over \(I_j\) gives
 
 ```math
 \int_{I_j}\|S_{<j}^{loc}(t)\|_\infty\,dt
-\lesssim
+C_D
 2^{3j/2}\nu^{-1/2}|I_j|^{1/2}
 \left(\int_{I_j}\mathcal D(t)\,dt\right)^{1/2}.
 \tag{HCB.15}
 ```
 
-Since \(|I_j|\simeq 2^{-2j}/\nu\),
+Since `(HCB.1)` gives \(|I_j|\le A_t2^{-2j}/\nu\),
 
 ```math
 \int_{I_j}\|S_{<j}^{loc}(t)\|_\infty\,dt
-\lesssim
+C_DA_t^{1/2}
 2^{j/2}\nu^{-1}
 \left(\int_{I_j}\mathcal D(t)\,dt\right)^{1/2}.
 \tag{HCB.16}
 ```
 
-Thus an \(O(1)\) coefficient residence bound on a heat window would follow from
+Thus the coefficient residence bound
+\(\int_{I_j}\|S_{<j}^{loc}(t)\|_\infty\,dt\le C_R\) would follow from
 
 ```math
 \int_{I_j}\mathcal D(t)\,dt
-\lesssim
+\le
+\left({C_R\over C_DA_t^{1/2}}\right)^2
 \nu^2 2^{-j}
 =
+\left({C_R\over C_DA_t^{1/2}}\right)^2
 \nu^2 r_j.
 \tag{HCB.17}
 ```
@@ -245,40 +264,83 @@ Navier--Stokes solution; it records the exact weakness of the installed
 
 ## 5. Critical heat feed is compatible with finite dissipation
 
-The source-balanced heat-scale coefficient has
+For a source-balanced heat-scale coefficient model, assume fixed constants
+\(0<\alpha_\lambda\le A_\lambda<\infty\) such that
 
 ```math
-\lambda_j^+\simeq\nu r_j^{-2}
+\alpha_\lambda\nu r_j^{-2}
+\le
+\lambda_j^+(t)
+\le
+A_\lambda\nu r_j^{-2}
 \quad\text{on}\quad
-|I_j|\simeq {r_j^2\over\nu}.
+I_j.
 \tag{HCB.20}
 ```
 
-Then
+Together with `(HCB.1)`, this gives the exact residence bounds
 
 ```math
-\int_{I_j}\lambda_j^+(t)\,dt\simeq1.
+\alpha_\lambda\alpha_t
+\le
+\int_{I_j}\lambda_j^+(t)\,dt
+\le
+A_\lambda A_t.
 \tag{HCB.21}
 ```
 
-If the event occupies a parabolic packet of volume
+If the event occupies a spatial packet \(B_j\) with
 
 ```math
-|Q_j|\simeq {r_j^5\over\nu},
+c_xr_j^3
+\le
+|B_j|
+\le
+C_xr_j^3,
 \tag{HCB.22}
 ```
 
-then the \(L^2\) strain bill is
+then its spacetime packet \(Q_j=I_j\times B_j\) satisfies
 
 ```math
-\int_{Q_j}|S|^2\,dxdt\simeq \nu r_j,
+c_x\alpha_t{r_j^5\over\nu}
+\le
+|Q_j|
+\le
+C_xA_t{r_j^5\over\nu}.
+\tag{HCB.22a}
+```
+
+If, on that packet, the strain has the matching fixed-amplitude bounds
+
+```math
+c_S\nu r_j^{-2}
+\le
+|S(t,x)|
+\le
+C_S\nu r_j^{-2},
+\tag{HCB.22b}
+```
+
+then the \(L^2\) strain bill obeys
+
+```math
+c_S^2c_x\alpha_t\,\nu r_j
+\le
+\int_{Q_j}|S|^2\,dxdt
+\le
+C_S^2C_xA_t\,\nu r_j,
 \tag{HCB.23}
 ```
 
 and the viscous energy bill is
 
 ```math
-\nu\int_{Q_j}|S|^2\,dxdt\simeq\nu^2 r_j.
+c_S^2c_x\alpha_t\,\nu^2 r_j
+\le
+\nu\int_{Q_j}|S|^2\,dxdt
+\le
+C_S^2C_xA_t\,\nu^2 r_j.
 \tag{HCB.24}
 ```
 
@@ -297,7 +359,9 @@ The missing statement is one of the following genuinely stronger inputs:
 ```math
 \boxed{
 \text{a selected heat-window dissipation rate }
-\int_{I_j}\mathcal D(t)\,dt\lesssim\nu^2r_j
+\int_{I_j}\mathcal D(t)\,dt
+\le
+C_R'\nu^2r_j
 }
 \tag{HCB.25}
 ```
