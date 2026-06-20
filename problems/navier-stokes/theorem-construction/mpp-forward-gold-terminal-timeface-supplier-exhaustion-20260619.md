@@ -125,6 +125,52 @@ is inserted in the last \(\tau_m\) of the heat window.
 
 Result: `PressureSourceParabolicMemory.A` is not proved.
 
+### 4b. Pressure-conormal trace absorption
+
+The direct pressure-conormal test checks the local-energy sink
+
+```math
+\frac1{r_m}
+\int p\,u\cdot\nabla\phi_m
+```
+
+on a selected heat-scale packet.  Under Navier-Stokes scaling
+
+```math
+u\sim r_m^{-1},
+\qquad
+p\sim r_m^{-2},
+\qquad
+|\nabla\phi_m|\sim r_m^{-1},
+\qquad
+dxdt\sim r_m^5,
+```
+
+the physical pressure flux is size \(r_m\), so the normalized pressure-conormal
+quantity is order one.
+
+The nonlinear pressure part is controlled only by the normalized critical
+cubic/pressure reserve:
+
+```math
+\frac1{r_m}
+\left|
+\int p_{nl}u\cdot\nabla\phi_m
+\right|
+\lesssim
+\frac1{r_m^2}
+\int
+\left(|u|^3+|p_{nl}|^{3/2}\right).
+```
+
+The harmonic/conormal pressure part has no sign, and pressure recovery is
+elliptic at each time slice, so it supplies no terminal time-spreading modulus.
+
+Result: `PressureConormalTraceAbsorption.A` is not an independent supplier. It
+reduces to critical strip tightness, pressure-source parabolic memory,
+pressure-lobe/source tether plus residence or source-square gain, or CM-facing
+conversion of the retained pressure pulse.
+
 ### 5. Terminal source residence
 
 A \(p>1\) residence theorem would solve the atom by Holder:
@@ -250,6 +296,38 @@ no-waste, and do not give the hypotheses needed by known ancient rigidity
 consumers.
 
 Result: this remains the clean organizing architecture, not a proved theorem.
+
+### 10. No-incoming localized energy flux
+
+The direct no-incoming localized flux test separates lateral boundary flux from
+terminal-face concentration.
+
+A lateral no-incoming condition can hold while a compact terminal pulse remains
+strictly inside the selected packet:
+
+```math
+g_m(t,x)=\rho(x)\tau_m^{-1}\mathbf 1_{(T-\tau_m,T]}(t),
+\qquad
+\operatorname{supp}\rho\Subset B_{r_m}.
+```
+
+Then no lateral incoming flux is needed, but
+
+```math
+g_m(t,x)\,dxdt
+\rightharpoonup
+\rho(x)\,dx\otimes\delta_{t=T^*}.
+```
+
+If "no incoming" is strengthened to include the terminal face, it detects the
+atom, but that is just the missing terminal strip modulus in different words.
+At heat scale, the window length \(r_m^2\) and normalized rate \(r_m^{-2}\)
+balance, so lateral no-incoming does not create a smallness factor.
+
+Result: `NoIncomingLocalizedEnergyFlux.A` is either lateral visibility, not
+exclusion, or a restatement of `TerminalMovingPacketTraceModulus.A`.  It still
+needs residence, trace AC, source-square, critical reserve, no-free-Zeno,
+no-waste rigidity, or CM-facing conversion.
 
 ## Exact current alternative
 
