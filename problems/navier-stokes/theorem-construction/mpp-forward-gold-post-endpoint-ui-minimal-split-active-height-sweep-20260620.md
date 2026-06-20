@@ -306,11 +306,11 @@ on the actual selected positive carrier.}
 \tag{PEMAS.21}
 ```
 
-Equivalent acceptable productions are:
+The branch productions are role-separated as follows:
 
 ```math
 \begin{gathered}
-\text{SelectedCarrierEndpointUI.A},\\
+\text{SelectedCarrierEndpointUI.A removes the terminal atom branch,}\\
 \text{SourceSquareReserve.A plus SelectedSourceSquareCarrierDomination.A},\\
 \text{SelectedCriticalStrainCarrierUI.A / NormalizedCKNCarleson.A},\\
 \text{ActiveWindowHeight.A or selected height plus log-tail},\\
@@ -321,7 +321,8 @@ Equivalent acceptable productions are:
 \tag{PEMAS.22}
 ```
 
-Every item in `(PEMAS.22)` is a real theorem only if it produces the unweighted
+Endpoint UI is not a square-payment theorem.  Every square-strength item in
+`(PEMAS.22)` is a real forward-gold theorem only if it produces the unweighted
 same-selected-family reserve.  Otherwise it is visibility, diagnostic readout,
 or CM witness-face routing after same-witness admission plus service
 certification.
