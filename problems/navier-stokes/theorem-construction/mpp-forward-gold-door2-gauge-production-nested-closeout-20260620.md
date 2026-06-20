@@ -205,5 +205,5 @@ or
 \tag{DGN.14}
 ```
 
-So this branch should not be carried as a third gold route.  It is a coordinate
-and mode-readout refinement of the Door 1/Door 2 split already on the frontier.
+So this branch is not a third gold route.  It is a coordinate and mode-readout
+refinement of the Door 1/Door 2 split already on the frontier.
