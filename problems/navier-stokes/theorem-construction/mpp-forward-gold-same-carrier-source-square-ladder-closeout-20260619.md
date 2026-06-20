@@ -137,8 +137,8 @@ dx
 C\,T_k(t)+Legal_j(t),
 \]
 
-with \(j=k+C_0\) and fixed \(C_0\ge5\), so \(D_j\le T_k\) up to fixed
-Littlewood--Paley constants.
+with \(j=k+C_0\) and fixed \(C_0\ge5\), so \(j>k+4\) and \(D_j\) is one of the
+summands in \(T_k\).
 
 Trace-free strain and incompressibility do not give this.  They give signed
 redistribution:
@@ -155,11 +155,12 @@ signed partner is outside the retained selected positive ledger.
 The direct heat-scale coefficient test shows the scale of the problem.  Energy
 and Bernstein give a coefficient bound that is half a dyadic power too large.
 Enstrophy plus Bernstein gives, on a heat window \(I_j\) of length
-\(2^{-2j}/\nu\),
+\(|I_j|\le A_t2^{-2j}/\nu\),
 
 \[
 \int_{I_j}\|S_{<j}^{loc}(t)\|_\infty\,dt
-C_B
+\le
+C_BA_t^{1/2}
 2^{j/2}\nu^{-1}
 \left(\int_{I_j}\mathcal D(t)\,dt\right)^{1/2}.
 \]
@@ -170,7 +171,7 @@ terminal rate
 \[
 \int_{I_j}\mathcal D(t)\,dt
 \le
-\left({C_0\over C_B}\right)^2\nu^2 2^{-j}.
+\left({C_0\over C_BA_t^{1/2}}\right)^2\nu^2 2^{-j}.
 \]
 
 Finite \(L_t^1\) dissipation gives absolute continuity of the dissipation

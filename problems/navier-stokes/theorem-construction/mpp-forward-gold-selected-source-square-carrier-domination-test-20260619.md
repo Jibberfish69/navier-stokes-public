@@ -51,8 +51,8 @@ D_j(t)=\nu r^{-2}\|w_j(t)\|_2^2
 \tag{SSC.2}
 \]
 
-with \(r=2^{-j}\), up to the fixed Littlewood--Paley constants used in the
-route.  The square trace bridge uses the parent-tail density
+with \(r=2^{-j}\) in the packet normalization used in this route.  The square
+trace bridge uses the parent-tail density
 
 \[
 T_k(t)=\sum_{\ell>k+4}D_\ell(t).
@@ -226,7 +226,8 @@ Bernstein give a constant \(C_B<\infty\) such that
 
 \[
 \int_{I_j}\|S_{<j}^{loc}(t)\|_\infty\,dt
-C_B
+\le
+C_BA_t^{1/2}
 2^{j/2}\nu^{-1}
 \left(\int_{I_j}\mathcal D(t)\,dt\right)^{1/2},
 \tag{SSC.12a}
@@ -238,7 +239,7 @@ stronger heat-window rate
 \[
 \int_{I_j}\mathcal D(t)\,dt
 \le
-\left({C_0\over C_B}\right)^2\nu^2 2^{-j}.
+\left({C_0\over C_BA_t^{1/2}}\right)^2\nu^2 2^{-j}.
 \tag{SSC.12b}
 \]
 
