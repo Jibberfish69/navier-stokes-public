@@ -9,8 +9,8 @@ Post-critical-currency closeout of the strict no-waste/Lyapunov branch.
 The no-waste route remains a valid possible architecture only in a genuinely
 strong form: a lower-bounded object must control unweighted heat-scale critical
 action on the selected carrier.  The available local-energy, pressure-corrected,
-commutator, pressure-memory, and packet-local nonlinear-corrector mechanisms do
-not produce that object from current inputs.
+commutator, pressure-memory, Volterra-memory, and packet-local
+nonlinear-corrector mechanisms do not produce that object from current inputs.
 
 This note records the exact reason, so the branch is not reopened as "pressure
 correction," "commutator coercivity," "cubic flux," "pressure memory," or
@@ -299,6 +299,7 @@ The no-waste route is exhausted in all local or currently installed forms:
 \text{quadratic pressure-corrected local energy},\\
 \text{energy-bounded functionals},\\
 \text{packet-local cubic/nonlinear correctors},\\
+\text{causal or future-tail Volterra memory},\\
 \text{unrestricted commutator coercivity},\\
 \text{reserved commutator normal form},\\
 \text{pressure parabolic memory},\\
