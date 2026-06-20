@@ -13067,7 +13067,7 @@ The note now states the typed CM order: first `Pack_Q`, then `Part_{N,Q}`, then
 
 Proof or downstream consequence:
 
-The certification spends the Pack-first CM witness grammar after singular
+The certification spends the Pack-before-Part audited CM witness grammar after singular
 cases are exhausted through Part/Field first; it does not rely on a generic
 chain convention.
 
