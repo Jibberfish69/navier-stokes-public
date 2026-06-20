@@ -91,7 +91,10 @@ FORBIDDEN = {
   "old prose zero-radius not-Pack wording" => /zero-radius .*not Pack Q/,
   "old prose terminal Zeno Pack-side exit" => /terminal zero-radius Zeno atom remains a Pack-side CM exit/,
   "old Pack-first zero-radius diagnostic" => /Pack-first zero-radius diagnostic placement/,
-  "old terminal Zeno Pack-before-Part correction prose" => /terminal Zeno Pack-before-Part correction gives not Pack Q/
+  "old terminal Zeno Pack-before-Part correction prose" => /terminal Zeno Pack-before-Part correction gives not Pack Q/,
+  "old pre-Pack indexed Part resurfacing" => /resurfac(?:e|ed|ing) under `?Part_\{N,Q\}`? first/,
+  "old pre-Pack indexed Part before Pack" => /(?:analyze|test) Part_\{N,Q\} before Pack\(Q\)/,
+  "old pre-Pack Part_NQ meaningful question" => /was Part_\{N,Q\} meaningful under the pointwise original Navier-Stokes participation law/
 }.freeze
 
 BROAD_TERMINAL_FORBIDDEN = FORBIDDEN.select do |label, _|
@@ -114,6 +117,7 @@ REQUIRED_MARKERS = [
   "pre-Pack Part",
   "pre-Pack not-Pack",
   "pre-Pack pointwise",
+  "Part()",
   "Part-first resurfacing",
   "pointwise original-NS participation",
   "Silver Pack_Q",
