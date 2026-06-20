@@ -29,7 +29,8 @@ donor-chain saturation.
 
 Without one of those unweighted currencies, the retained heat-scale pulse is
 visible but not forward-positive excluded.  It must be consumed by the CM
-Pack/Part/Field witness-face route rather than called a gold anti-atom proof.
+Pack/Part/Field witness-face route only after same-witness admission and
+uniform service certification, rather than called a gold anti-atom proof.
 
 ## 1. The exact enemy
 
@@ -357,7 +358,8 @@ has fixed mass and converges to a terminal atom.
 
 Thus `NoFreeTerminalZenoDonorChain.A` is equivalent at this resolution to the
 moving-packet trace modulus/source-square/no-waste problem on the forward-gold
-side.  The separate pass-or-exit source-curve note now records the branch
+side.  The separate pass-or-exit source-curve note records the branch only after
+same-witness admission and uniform service certification:
 consequence: failure of the endpoint modulus extracts a terminal atom, and the
 installed `TerminalAtomPartFieldFirstExit.A` package routes that atom to
 `Part_{N,Q}` or `Field_{N,r,Q}` failure on the same-solution branch.
