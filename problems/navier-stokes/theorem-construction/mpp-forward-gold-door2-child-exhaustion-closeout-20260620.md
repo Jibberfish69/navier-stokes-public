@@ -6,7 +6,10 @@ Status: branch-closeout for the Door 2 child labels, not a proof of
 `ZenoCriticalProfileProduction.A`.  The loose production labels have been
 tested down to their actual mathematical suppliers.  Door 2 now reduces to
 three non-aliased burdens: canonical gauge uniqueness, same-shadow native
-source readout, and unweighted terminal action/no-waste control.
+source readout, and unweighted terminal action/no-waste control.  Inside the
+canonical gauge burden, the finite-frame spectral-gap step is already relative
+paid; the live content is the production of a compact/free/legal selected
+profile class plus selector stability and single-bubble separation.
 
 ## 1. Parent target
 
@@ -172,13 +175,23 @@ following package:
 ```
 
 ```math
-\text{GaugeFunctionalSpectralGap.A}
+\big(
+\text{CompactSelectedProfileClass.A}
++
+\text{UniformQuotientFreeModulationAction.A}
++
+\text{PointwiseLegalTangentSeparation.A}
+\big)
 +
 \text{SelectorStability.A}
 +
-\text{SingleBubbleSeparation.A};
+\text{SingleBubbleSeparation.A}.
 \tag{DC.14}
 ```
+
+This is the expanded form of `GaugeFunctionalSpectralGap.A` after the compact
+finite-frame proof; stabilizer-neutral directions are governed by
+`StabilizerReadoutCompatibility.A`.
 
 ```math
 \boxed{
@@ -239,7 +252,7 @@ The exact current reduced frontier is
 
 ```math
 \boxed{
-\text{GaugeFunctionalSpectralGap.A}
+\text{compact/free/legal selected gauge production}
 +
 \text{SelectorStability.A}
 +
@@ -247,6 +260,10 @@ The exact current reduced frontier is
 }
 \tag{DC.20}
 ```
+
+where the first phrase abbreviates
+`CompactSelectedProfileClass.A + UniformQuotientFreeModulationAction.A +
+PointwiseLegalTangentSeparation.A`, with stabilizer compatibility included.
 
 plus
 
