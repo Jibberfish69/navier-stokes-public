@@ -345,6 +345,54 @@ Result: `CriticalElementStability.A` is not an independent Pack/profile
 supplier.  It reduces to the terminal source-residence/no-waste supplier family
 or to a new `TwoProfilePackMoleculeRigidity.A` theorem.
 
+### 9a.1. Two-profile low-high Pack molecule
+
+The direct two-profile molecule test pays the profile-geometry cases.
+Separated profile pairs vanish on the selected packet, and duplicate
+same-parameter profiles merge into one profile frame.
+
+The surviving object is not a generic two-profile geometry.  It is the
+scale-nested low-high same-window molecule:
+
+```text
+one frame supplies selected low strain;
+one frame supplies the high packet;
+the positive source is selected after the low-high product is formed.
+```
+
+The paraproduct package captures this as native source / CM source-wall support.
+That identifies the obstruction; it does not exclude it in the forward-gold
+chain.
+
+The low-high Carleson route reduces to the same-window multiplier
+
+```math
+a_P
+=
+\operatorname*{ess\,sup}_{Q_P^{sel}}
+\lambda_{\max}^+(S_{<j}^{low}),
+```
+
+and current inputs do not force this multiplier to spread over terminal time or
+decorrelate from high-packet occupancy.  The frozen aligned model
+
+```math
+S=\operatorname{diag}(2,-1,-1),
+\qquad n=e_1
+```
+
+still permits selected positive strain on a shrinking terminal strip.  The
+dynamic no-freeze, pressure no-sustain, and source-current legality branches
+all return to terminal source residence, pure pressure residue, no-incoming,
+or terminal Zeno source-refill.
+
+Result: `TwoProfilePackMoleculeRigidity.A` is not an independent supplier.  The
+surviving molecule is the terminal heat-scale positive source pulse with
+low-high profile labels attached.  Its remaining children are low-high
+terminal source-time anti-atom, uniform source integrability, positive active
+Carleson/source-square reserve, terminal strip modulus, scale-nested Liouville,
+or a genuinely non-source Pack-survival theorem.
+
 ### 9b. Minimal Zeno endpoint trace compactness
 
 The direct endpoint trace compactness test checks whether soft Zeno compactness
