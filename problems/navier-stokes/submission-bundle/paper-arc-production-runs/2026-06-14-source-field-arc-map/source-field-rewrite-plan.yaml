@@ -4109,7 +4109,7 @@ chunks:
 
     The native source object is the localized positive active source packet after same-fluid localization, terminal active-window selection, cutoffs, shell weights, and positive-part extraction.
 
-    Global unweighted dyadic exchange cancels before these operations. After localization and positive-part extraction, the live object is a one-sided weighted lifted remainder. The remainin
+    Global unweighted dyadic exchange cancels before these operations. After localization and positive-part extraction, the live terminal record is a one-sided weighted lifted remainder. The remainin
     % ... source excerpt truncated for packet size ...
   context_truncated: true
   author_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-critical-norm-and-field-06.yaml
@@ -10063,7 +10063,7 @@ chunks:
     \langle \Delta_\ell(a_k\cdot\nabla\Delta_j u),\Delta_\ell u\rangle=0.
     \]
 
-    After shell weights, cutoffs, projectors, and lifted packets are inserted, the live object becomes a weighted lifted remainder. A theorem strong enough for source control would have the form
+    After shell weights, cutoffs, projectors, and lifted packets are inserted, the live terminal record becomes a weighted lifted remainder. A theorem strong enough for source control would have the form
 
     The available algebra
     % ... source excerpt truncated for packet size ...

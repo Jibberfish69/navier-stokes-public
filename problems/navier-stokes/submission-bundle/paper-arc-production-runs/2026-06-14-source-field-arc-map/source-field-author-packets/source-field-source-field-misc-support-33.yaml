@@ -64,7 +64,7 @@ chunk:
       \langle \Delta_\ell(a_k\cdot\nabla\Delta_j u),\Delta_\ell u\rangle=0.
       \]
 
-      After shell weights, cutoffs, projectors, and lifted packets are inserted, the live object becomes a weighted lifted remainder. A theorem strong enough for source control would have the form
+      After shell weights, cutoffs, projectors, and lifted packets are inserted, the live terminal record becomes a weighted lifted remainder. A theorem strong enough for source control would have the form
 
       The available algebra gives the reduction, while it supplies no sign law for the true weighted object. The principal lifted remainder can align with expanding strain directions. One-sided shell weights preserve a positive active- burden after absolute values are taken.
 
@@ -337,7 +337,7 @@ chunk:
     \langle \Delta_\ell(a_k\cdot\nabla\Delta_j u),\Delta_\ell u\rangle=0.
     \]
 
-    After shell weights, cutoffs, projectors, and lifted packets are inserted, the live object becomes a weighted lifted remainder. A theorem strong enough for source control would have the form
+    After shell weights, cutoffs, projectors, and lifted packets are inserted, the live terminal record becomes a weighted lifted remainder. A theorem strong enough for source control would have the form
 
     The available algebra gives the reduction, while it supplies no sign law for the true weighted object. The principal lifted remainder can align with expanding strain directions. One-sided shell weights preserve a positive active- burden after absolute values are taken.
 
