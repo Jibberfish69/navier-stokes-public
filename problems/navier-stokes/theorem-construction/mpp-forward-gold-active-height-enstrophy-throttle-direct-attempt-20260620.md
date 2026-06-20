@@ -203,7 +203,7 @@ Writing \(Y(t)=\|\nabla u(t)\|_2^2\), this gives the Riccati-type inequality
 
 ```math
 Y'(t)
-\+
++
 \nu\|\nabla^2u(t)\|_2^2
 \le
 C\nu^{-3}Y(t)^3.
