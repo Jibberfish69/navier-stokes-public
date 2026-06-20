@@ -63,6 +63,7 @@ FORBIDDEN = {
   "old Pack-first continuation packet tree" => /Pack-first continuation-packet tree/,
   "old Pack-first CM exit tree" => /Pack-first CM exit tree/,
   "old Pack-first witness tree" => /Pack-first witness tree/,
+  "old Pack-first face exhaustion" => /Pack-first face exhaustion/,
   "old CM landing objects key" => /cm_landing_objects/,
   "old face notation as landing objects" => /landing_objects/,
   "old theorem-result must-land promotion gate" => /Every theorem result must land in Silver Pack_Q, Part_\{N,Q\}, or Field/,
