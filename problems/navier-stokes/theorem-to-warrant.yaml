@@ -210,7 +210,7 @@ theorem_warrants:
       licensing_note: problems/navier-stokes/theorem-construction/mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md
       rule: Preserve Silver Pack/Part/Field after a legitimate Pack window, carrier,
         readout, or jump-comparison structure is admitted. When a pre-Pack or singular
-        branch was disposed as not Pack_Q before the original Navier-Stokes participation law was applied to the live same-solution terminal object, first ask
+        branch was disposed as not Pack_Q before the original Navier-Stokes participation law was applied to the live same-solution terminal record, first ask
         whether the original Navier-Stokes viscosity, pressure, and incompressibility
         law still gives pointwise participation status. If yes, resurface the branch
         under Part_{N,Q}; if no, keep not Pack_Q as a true carrier/window/readout
