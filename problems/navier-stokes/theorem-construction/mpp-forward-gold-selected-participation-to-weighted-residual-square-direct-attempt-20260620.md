@@ -8,6 +8,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-source-square-carrier-domination-test-20260619.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-source-square-ladder-closeout-20260619.md
   - problems/navier-stokes/theorem-construction/mpp-normalized-adjoint-amplitude-four-certificate-discharge-20260504.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-linear-source-pulse-identity-direct-test-20260620.md
 downstream_consequence: "WeightedAdjRes.A would close the selected square budget only after a new same-carrier bridge installs square polar saturation/sign coherence and square-carrier adjoint localization. Without those inputs, the bridge returns to SelectedPositivePolarSaturation.A / TerminalSignedSaturation.A / NoFreeTerminalZenoDonorChain.A or to a square-currency parent-drain theorem."
 ---
 
@@ -207,8 +208,9 @@ selected participation packet can be inherited from an earlier parent rather
 than created by \(R_{j,k}\).  The source-drain route removes that parent branch
 only for the linear source-pulse selector.
 
-For the square-only heat-scale pulse, the relevant no-parent statement would
-be:
+For selected participation pulses that are not already source-pulse residues,
+the relevant no-parent statement must be stated in participation currency.  In
+the square-only heat-scale branch this becomes:
 
 ```math
 \boxed{
