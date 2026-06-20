@@ -25,8 +25,10 @@ The first branch is exactly the terminal moving-packet trace-modulus problem.
 The later source-curve pass-or-exit note consumes that first branch at the
 CM-readout level: failure of the trace modulus gives a terminal atom, hence
 `Part_{N,Q}` or `Field_{N,r,Q}` failure on the same-solution branch.  The second
-branch is exactly `ReserveCreationCharge.A`.  Current inputs do not prove the
-forward-gold production theorem for either branch.
+branch is the interior first-created reserve branch.  The later first-created
+reserve source-square energy test proves that same-carrier source-square pays
+this branch after inherited past, boundary drop, and legal spill are separated.
+Current inputs still do not produce that same-carrier source-square estimate.
 
 ## 1. Target and negation
 
@@ -180,6 +182,33 @@ To turn this into a contradiction one needs a charge estimate
 with summable or terminal-tail-depleting charge.  This is precisely
 `ReserveCreationCharge.A`.
 
+The later first-created reserve source-square energy test identifies the
+available exact charge form on this branch.  For the same selected carrier, with
+shell balance
+
+```math
+E'(t)+c_0\nu D(t)\le F(t)+L(t),
+\tag{MCUR.12a}
+```
+
+it proves
+
+```math
+R_I
+\le
+C_\nu S_I
++C_\nu B_I^-
++C_\nu L_I^E,
+\qquad
+S_I=\int_I \lambda F(t)^2\,dt .
+\tag{MCUR.12b}
+```
+
+Thus `ReserveCreationCharge.A` is not an independent obstruction once
+`SourceSquareReserve.A` holds on the actual selected positive carrier and the
+past, boundary, and legal terms are charged on the same family.  The remaining
+production wall in Case B is exactly the same-carrier source-square estimate.
+
 The first-moment charge is not enough.  On a heat-scale first-appearance window
 
 ```math
@@ -232,7 +261,7 @@ missing reserve in one of two forms:
 \text{or}
 \qquad
 \boxed{
-\text{first-created reserve charge}.
+\text{same-carrier source-square for first-created reserve}.
 }
 \tag{MCUR.16}
 ```
@@ -245,9 +274,9 @@ The minimal-counterexample route proves the conditional implication
 \boxed{
 \text{TerminalMovingPacketTraceModulus.A}
 +
-\text{ReserveCreationCharge.A}
+\text{SourceSquareReserve.A on the actual selected carrier}
 +
-\text{compact/no-waste rigidity for the interior branch}
+\text{past/boundary/legal compatibility for the interior branch}
 \Longrightarrow
 \text{UnweightedTerminalCriticalActionReserve.A}.
 }
@@ -255,13 +284,14 @@ The minimal-counterexample route proves the conditional implication
 ```
 
 At current route resolution, the forward-gold inputs are not independent of the
-reserve.  `ReserveCreationCharge.A` needs active height, source-square, critical
-action, donor lower-frame trace, source residence, or strict no-waste.  Compact
-rigidity needs a no-waste compact ancient element, and production of that object
-again needs terminal trace tightness or same-carrier reserve control.  The
-endpoint-failure side is different: it is no longer an independent in-class
-minimal counterexample branch, because it is routed through the terminal atom
-Part/Field readout.
+reserve.  The first-created reserve source-square energy test removes
+`ReserveCreationCharge.A` as a separate mystery, because the energy multiplier
+pays first-created reserve from same-carrier source-square plus the declared
+past, boundary, and legal terms.  Compact rigidity needs a no-waste compact
+ancient element, and production of that object again needs terminal trace
+tightness or same-carrier reserve control.  The endpoint-failure side is
+different: it is no longer an independent in-class minimal counterexample
+branch, because it is routed through the terminal atom Part/Field readout.
 
 ## Verdict
 
@@ -269,7 +299,8 @@ The minimal-counterexample pivot is useful but not a closure theorem:
 
 ```math
 \boxed{
-\text{minimality localizes the unpaid reserve; it does not pay it.}
+\text{minimality localizes the unpaid reserve; the energy test shows exactly
+which same-carrier source-square payment would pay it.}
 }
 \tag{MCUR.18}
 ```
@@ -278,10 +309,9 @@ The remaining forward-gold object is still the same non-alias theorem:
 
 ```math
 \boxed{
-\textbf{UnweightedTerminalCriticalActionReserve.A}
+\textbf{same-carrier SourceSquareReserve.A / UnweightedTerminalCriticalActionReserve.A}
 }
 \tag{MCUR.19}
 ```
 
-or a genuinely smaller theorem that creates that unweighted reserve on the
-actual selected positive carrier.
+on the actual selected positive carrier.
