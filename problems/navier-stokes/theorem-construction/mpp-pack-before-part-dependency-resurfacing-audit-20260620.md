@@ -11,7 +11,7 @@ Proof mode: Navier-Stokes CM contrapositive class exit.
 This note audits the dependency shape:
 
 ```text
-not Pack_Q before Part_{N,Q} is tested.
+not Pack_Q before Part() is applied to the live NS object.
 ```
 
 The Silver Pack/Part/Field route is still valid after a legitimate Pack window,
@@ -42,9 +42,13 @@ incompressibility,
 and a terminal point or limit record tied to that same law.
 ```
 
-If that status is present, the object is resurfaced under `Part_{N,Q}` first.
-The dead/blown question is then read from the pointwise participation/tower
-mechanism before any Pack-window conclusion is spent.
+If that status is present, the object is resurfaced under `Part()` first.
+Here `Part()` means the participation predicate with its argument intentionally
+left open until the live same-solution NS object is supplied. The dead/blown
+question is then read from the pointwise participation/tower mechanism before
+any Pack-window conclusion is spent. A later local Silver readout may express
+that failure as `not Part_{N,Q}` only after a local tested record has been
+named; the pre-Pack test itself is not indexed by an admitted `Q`.
 
 If that status is absent, `not Pack_Q` remains a true carrier/window failure.
 In that case Pack has not been asked to supply participation; it has only marked
@@ -64,11 +68,14 @@ from:
 problems/navier-stokes/theorem-construction/mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md
 ```
 
-That note states that `Part_{N,Q}` and `Field_{N,r,Q}` have primitive service
-content and may be tested before ordinary positive-radius `Pack_Q` on a
-same-solution terminal witness. This audit narrows the operational consequence:
-every pre-Pack `not Pack_Q` branch must be checked for pointwise original-NS
-participation before it is allowed to remain a Pack-only exit.
+That note states that the participation and field-readout tests have primitive
+service content and may be tested before ordinary positive-radius `Pack_Q` on a
+same-solution terminal witness. This audit retypes the participation side more
+strictly: the pre-Pack question is `Part()` applied to the live same-solution
+NS object; `Part_{N,Q}` is the later localized Silver expression after a local
+tested record is named. Every pre-Pack `not Pack_Q` branch must be checked for
+pointwise original-NS participation before it is allowed to remain a Pack-only
+exit.
 
 ## Classification table
 
@@ -76,10 +83,10 @@ participation before it is allowed to remain a Pack-only exit.
 | --- | --- |
 | Pack has already been admitted as a legitimate window/carrier/readout/jump setting | Keep the Silver Pack/Part/Field order. |
 | Selected unpaid infinite donor-refill ancestry has no finite packet ancestry window and no same-solution terminal pointwise participation record | Keep `not Pack_Q` / `(Pack, packing-detached)` as a true ancestry/window/carrier failure. |
-| Raw native source residue or terminal source residue is still tied to the original NS pressure-viscosity-source participation law at a point or limiting record | Resurface under `Part_{N,Q}` first; the first failure is `not Part_{N,Q}` / `(Part, Dead)`, not Pack-only. |
-| Terminal zero-radius Zeno or `B_ASAC` atom has the same original-NS terminal source/pressure-viscosity participation record | Resurface under `Part_{N,Q}` first as zero heat-time participation / lawful source-participation failure. |
+| Raw native source residue or terminal source residue is still tied to the original NS pressure-viscosity-source participation law at a point or limiting record | Resurface under `Part()` first; after the local tested record is named, the first Silver failure is `not Part_{N,Q}` / `(Part, Dead)`, not Pack-only. |
+| Terminal zero-radius Zeno or `B_ASAC` atom has the same original-NS terminal source/pressure-viscosity participation record | Resurface under `Part()` first as zero heat-time participation / lawful source-participation failure; local Silver notation may then record the failure as `not Part_{N,Q}`. |
 | Terminal zero-radius Zeno or source residue has no meaningful same-solution pointwise participation record and only lacks a usable carrier/window/readout | Keep `not Pack_Q` as a true carrier/window failure. |
-| R3 exterior source survivor has a same-solution exterior source-participation record | Resurface under `Part_{N,Q}` first. |
+| R3 exterior source survivor has a same-solution exterior source-participation record | Resurface under `Part()` first, then localize to `Part_{N,Q}` only after the tested record exists. |
 | R3 exterior source survivor has no exterior readout/carrier and no pointwise participation record that can be named | Keep true `not Pack_Q`. |
 | A branch compares two surviving traces, readouts, or neighboring tower records | Keep Pack/window structure for the jump/readout comparison. |
 
@@ -110,7 +117,9 @@ For each resurfaced pre-Pack branch, the exact bridge is:
 ```text
 pointwise original-NS participation diagnosis
 => zero participation moment / failure of the pressure-viscosity-source participation ledger
-=> not Part_{N,Q} / (Part, Dead), or true no-participation failure
+=> Part() failure on the live same-solution NS object
+=> localized not Part_{N,Q} / (Part, Dead) when a local tested record is named,
+   or true no-participation failure
 => typed support for Exit(Q):=not Member(Q).
 ```
 
