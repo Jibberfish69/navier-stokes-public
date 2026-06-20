@@ -6,7 +6,7 @@ ns_viewer:
   logical_landing_node: cm_pack_face_attempts
   edge_effect: "Tests the generic Pack-face exclusion theorem and records why same-solution terminal ancestry does not prove positive carrier scale plus finite deformation comparability."
   upstream_origin: "June 7 generic Pack-face exclusion work order."
-  downstream_consequence: "Demote generic Pack-face exclusion as a global blocker; named terminal obstruction rows still certify Pack or land first at not Pack_Q."
+downstream_consequence: "Demote generic Pack-face exclusion as a global blocker; named terminal obstruction rows must be typed by the Pack-before-Part audit before Pack is spent."
 ---
 
 # MPP Clay Pack-Face Exclusion Working Pass
@@ -81,8 +81,9 @@ Installed conclusions used:
    readout, not mere preterminal material identity.
 4. `mpp-terminal-zeno-pack-failure-correction-20260521.md` says finite Zeno
    ancestry packets may be legal positive-radius CM packets, while the terminal
-   zero-radius limit is `not Pack_Q` before any retained Field face can be
-   spent.
+   zero-radius limit is Part-first when the same original-NS pointwise
+   participation record remains and true `not Pack_Q` only when that record is
+   absent, before any retained Field face can be spent.
 5. `mpp-clay-counterexample-exclusion-bridge-direct-work-20260601.md` already
    rejects the shortcut
 

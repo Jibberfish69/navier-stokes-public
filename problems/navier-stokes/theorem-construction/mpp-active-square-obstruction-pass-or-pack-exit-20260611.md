@@ -232,11 +232,13 @@ More explicitly:
    selects a terminal source-balanced active pulse.
 3. Positive-radius retained ancestry is impossible without payment, incoming
    flux, legal exit, or a finite CM face exit.
-4. The terminal zero-radius residue lands first at `not Pack_Q`.
+4. The terminal zero-radius residue is typed before Pack is spent: it is
+   Part-first when the same original-NS pointwise participation record remains,
+   and true `not Pack_Q` only when that record/carrier/readout is absent.
 
 Thus the residual active-square obstruction is not an in-class hidden
 continuation branch.  It either pays the corrected forward estimate, or it
-supplies the Pack-side CM exit witness.
+   supplies the typed CM exit witness.
 
 ## 6. Boundary
 
