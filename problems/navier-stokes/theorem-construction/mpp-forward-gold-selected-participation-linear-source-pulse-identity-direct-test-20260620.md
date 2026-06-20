@@ -9,7 +9,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-square-carrier-adjoint-localization-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-source-drain-definition-alignment-and-discharge-20260504.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-linear-participation-parent-or-charge-direct-test-20260620.md
-downstream_consequence: "The product-throttle trichotomy must keep branch 2 in two subcases: actual nonzero source-pulse residue, which parent-drain/source-drain pays, and nonzero selected participation residence not identified with source-pulse residue, which returns to same-carrier participation parent/gain accounting. The square-only branch remains the separate height-blowup obstruction."
+downstream_consequence: "The product-throttle trichotomy must keep branch 2 in two subcases: actual nonzero source-pulse residue, which parent-drain/source-drain pays, and nonzero selected participation residence not identified with source-pulse residue, which becomes normalized endpoint-energy transport in the principal-gain normal form. The square-only branch remains the separate height-blowup obstruction."
 ---
 
 # MPP Forward-Gold Selected Participation Linear Source-Pulse Identity Direct Test
@@ -215,7 +215,7 @@ source-pulse residue:
 ```
 
 That branch is not paid by the linear source-drain theorem.  It requires
-same-carrier participation parent/gain accounting:
+normalized endpoint-energy trace accounting:
 
 ```math
 \boxed{
