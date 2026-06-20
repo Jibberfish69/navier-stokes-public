@@ -66,7 +66,11 @@ FORBIDDEN = {
   "old exact-claim bridge gate" => /lands an exact claim in Pack_Q, Part_\{N,Q\}, or Field/,
   "old sidecar landing gate" => /support only until it lands in Pack_Q, Part_\{N,Q\}, or Field/,
   "old mandatory promotion rule" => /must land in Pack_Q, Part_\{N,Q\}, or Field_\{N,r,Q\}/,
-  "old bare witness-face landing" => /(?<!Silver )witness-face landing in Pack_Q, Part_\{N,Q\}, or Field/
+  "old bare witness-face landing" => /(?<!Silver )witness-face landing in Pack_Q, Part_\{N,Q\}, or Field/,
+  "old terminal Zeno Pack-only landing" => /terminal zero-radius residue .*lands (?:first )?as `?not Pack_Q`?/,
+  "old zero-heat-time Pack-only landing" => /terminal zero-heat-time source residue is not Pack_Q/,
+  "old BASAC Pack-side non-survival" => /terminal Zeno\/B_ASAC zero-thickness endpoint.*Pack-side non-survival/,
+  "old zero-radius not-Pack closure" => /zero-radius residue lands as not Pack_Q/
 }.freeze
 
 REQUIRED_MARKERS = [
