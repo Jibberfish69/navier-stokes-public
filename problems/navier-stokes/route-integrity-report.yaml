@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: route-integrity-report-navier-stokes
-  generated_at: '2026-06-20T17:44:14Z'
+  generated_at: '2026-06-20T17:45:35Z'
   generator: tools/ns_pipeline_hardener.rb
 route_lock:
   path: problems/navier-stokes/route-lock.yaml
