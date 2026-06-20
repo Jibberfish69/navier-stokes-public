@@ -433,7 +433,7 @@ Hard packet lobes:
 +\text{HardLobeDonorEdgeCharge.A}
 +\text{NoFreeTerminalZenoDonorChain.A}.
 }
-\tag{LSM.28}
+\tag{LSM.30}
 ```
 
 Soft packet lobes:
@@ -441,23 +441,23 @@ Soft packet lobes:
 ```math
 \boxed{
 \text{TestEnrichedMinimalChainResidueIdentity.A for soft lobe tests}
-+\text{ModeDonorEdgeCoherence.A}
++\text{FiniteDonorBoundaryCoherence.A}(\Phi_{soft}^{\kappa})
 +\text{NoFreeTerminalZenoDonorChain.A}.
 }
-\tag{LSM.29}
+\tag{LSM.31}
 ```
 
 The soft version is the sharper route, because it removes the artificial
-packet-threshold crossing charge.  It does not remove the real finite-edge
-mode-variation charge, and it does not remove the infinite terminal Zeno
-donor-chain charge.
+packet-threshold crossing charge and uses endpoint boundary coherence for
+finite donor paths.  It does not remove retained endpoint mismatch, selected
+polar-saturation failure, or the infinite terminal Zeno donor-chain charge.
 
 By the finite-mode rank test, the test-enriched same-shadow identity itself
 still needs either
 
 ```math
 \text{TotalVariationSameShadowResidueEvacuation.A}
-\tag{LSM.30}
+\tag{LSM.32}
 ```
 
 or
@@ -465,7 +465,7 @@ or
 ```math
 \text{FiniteDimensionalResidualAnsatz.A}
 +\text{ModeResidualGramLowerBound.A}.
-\tag{LSM.31}
+\tag{LSM.33}
 ```
 
 The first is Door 1 terminal signed saturation in total variation.  The second
@@ -481,13 +481,14 @@ removes that artificial charge and leaves the real obstruction:
 ```math
 \boxed{
 \text{same-shadow test-enriched residue identity}
-+\text{source-weighted mode-travel/action charge}
++\text{finite retained-endpoint coherence in the soft test class}
 +\text{no-free terminal Zeno donor chain}.
 }
-\tag{LSM.32}
+\tag{LSM.34}
 ```
 
 Thus the lobe-shadow branch does not create a new independent endpoint.  It
 collapses back to the same native currencies already isolated by the heat-scale
-pulse and critical-element route: same-shadow source-square/no-waste action, or
-exact Zeno profile production with no residual defect measure.
+pulse and critical-element route: same-shadow source-square/no-waste action,
+selected endpoint polar saturation, or exact Zeno profile production with no
+residual defect measure.
