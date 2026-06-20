@@ -192,20 +192,25 @@ itself.
 The installed route for proving `(WC)` remains:
 
 ```math
-\text{tail-square / LPAS / CTS / SourceSquareReserve / strict no-waste}
+\text{tail-square / residual-LPAS / CTS / SourceSquareReserve / strict no-waste}
 \Longrightarrow
 \text{weighted-carrier closure}.
 ```
 
+Here `residual-LPAS` means the source-balanced residual theorem from the
+residual refill ledger, not the raw active-square LPAS theorem.  The raw LPAS
+bill is already false for exact heat-decaying shear solutions with zero
+nonlinear source.
+
 Thus weighted-carrier control is not a new independent gold route.  It is
-another expression of the same active-square/source-square wall exposed by the
-far-corona and terminal heat-scale branches.
+another expression of the same residual active-square/source-square wall exposed
+by the far-corona and terminal heat-scale branches.
 
 ## Boundary
 
 This note proves a negative direct-test result: finite low modes are paid, but
 the terminal low-tail and collar products are not controlled by the current
 first-moment Navier-Stokes ledger.  The weighted-carrier term can be safely
-spent only after an active-square/source-square/no-waste reserve is installed,
-or after the selected reserve failure is admitted into the CM Pack/Part/Field
-face readout.
+spent only after a residual active-square/source-square/no-waste reserve is
+installed, or after the selected reserve failure is admitted into the CM
+Pack/Part/Field face readout.
