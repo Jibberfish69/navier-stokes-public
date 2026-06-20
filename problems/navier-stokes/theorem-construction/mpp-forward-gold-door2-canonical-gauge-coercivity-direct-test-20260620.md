@@ -134,10 +134,11 @@ The gauge wants \(A(\lambda;U)=a_0\).  Coercivity needs
 \tag{CG.9}
 ```
 
-The installed inputs do not exclude a terminal profile class where
+The installed inputs do not exclude a terminal profile sequence
+\((U_m,\lambda_m)\) where
 
 ```math
-\partial_{\log\lambda}A(\lambda;U)\approx0
+\partial_{\log\lambda}A(\lambda_m;U_m)\to0
 \tag{CG.10}
 ```
 
@@ -253,24 +254,23 @@ The first item is the local implicit-function / spectral-gap part.  The second
 and third items are compactness/rigidity parts.  They are not consequences of
 zero flux.
 
-This also sharpens the earlier `SingleBubbleCanonicalGauge.A` target:
+This also gives a precise sufficient route for the earlier
+`SingleBubbleCanonicalGauge.A` target:
 
 ```math
 \boxed{
-\text{SingleBubbleCanonicalGauge.A}
-\approx
 \text{SelectorStability.A}
 +
 \text{SingleBubbleSeparation.A}
 +
-\text{GaugeFunctionalSpectralGap.A}.
+\text{GaugeFunctionalSpectralGap.A}
+\Longrightarrow
+\text{SingleBubbleCanonicalGauge.A}.
 }
 \tag{CG.19}
 ```
 
-The approximation in `(CG.19)` is conceptual, not a proved equivalence: the
-right-hand package is a precise sufficient route to the single-bubble gauge
-claim.
+The reverse implication is not asserted here.
 
 ## Verdict
 
