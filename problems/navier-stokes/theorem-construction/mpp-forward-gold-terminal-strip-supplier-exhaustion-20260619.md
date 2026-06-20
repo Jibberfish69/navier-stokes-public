@@ -176,14 +176,14 @@ At this branch, the clean conversion target was:
 RetainedTerminalPulseToCMFaceExit.A.
 ```
 
-The likely face is Field when Pack and Part remain but no positive-scale
-coherent field readout survives through the terminal pulse.  It is Pack when
-the residue has no positive-radius same-fluid carrier.  It is Part when the
-source pulse cannot be represented inside the same pressure-viscosity
-participation law.
+The face is determined by the first failed service.  It is Field when Pack and
+Part remain but no positive-scale coherent field readout survives through the
+terminal pulse.  It is Pack when the residue has no positive-radius same-fluid
+carrier.  It is Part when the source pulse cannot be represented inside the same
+pressure-viscosity participation law.
 
-This can close the broader CM program, but it is not a gold-standard
-forward-positive no-jump theorem.
+This is CM-program support, not a gold-standard forward-positive no-jump
+theorem.
 
 ## 2026-06-20 source-curve update
 
