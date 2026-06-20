@@ -43,7 +43,9 @@ it satisfies the five same-solution CM test-admissibility checks from
    still-live preterminal window. A terminal witness extracted from the finite
    breakdown branch is a terminal subsequence or residue of that preterminal
    family, so it uses the same transported carrier/flow family until a first
-   Pack failure is declared.
+   CM service failure is typed. Pack-only failure is declared only when no
+   positive carrier and no meaningful same-solution pointwise participation
+   record remain.
 
 4. Same terminal role.
 
@@ -55,9 +57,9 @@ it satisfies the five same-solution CM test-admissibility checks from
 
 5. Same witness grammar.
 
-   `CanonicalTerminalPacketCapture.A` and `AnyFiniteFailureWitnessCMExit.A`
-   prove that every same-solution terminal obstruction has only the Pack-first
-   continuation services:
+   `CanonicalTerminalPacketCapture.A`, `AnyFiniteFailureWitnessCMExit.A`, and
+   the Pack-before-Part resurfacing audit prove that every same-solution
+   terminal obstruction has only the primitive continuation services:
 
    ```text
    Pack_Q,
@@ -66,7 +68,10 @@ it satisfies the five same-solution CM test-admissibility checks from
    ```
 
    The first failed service is therefore `not Pack_Q`, `not Part_{N,Q}`, or
-   `forall r>0 not Field_{N,r,Q}`.
+   `forall r>0 not Field_{N,r,Q}`. For singular or zero-radius same-solution
+   branches, `not Pack_Q` is the first service only after the pointwise
+   pressure-viscosity-source participation record is absent. If that record
+   remains, the branch is surfaced under `Part_{N,Q}` or `Field_{N,r,Q}` first.
 
 ## Theorem Extracted By The Test
 
@@ -129,6 +134,10 @@ is not promoted.
   capture for same-solution terminal obstructions.
 - `mpp-any-finite-failure-witness-cm-exit-20260521.md`: installs the universal
   Pack-first landing theorem for alleged finite-time failure witnesses.
+- `mpp-pack-before-part-dependency-resurfacing-audit-20260620.md` and
+  `mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md`:
+  license Part/Field testing before ordinary Pack-only disposal for singular
+  same-solution terminal witnesses with a pointwise participation record.
 - `mpp-clay-solution-cm-exit-inadmissibility-20260523.md`: proves the smooth-solution
   inadmissibility bridge and marks the breakdown-counterexample bridge as
   separate.
