@@ -210,7 +210,7 @@ the fixed \(r_0\) or \(r_0^2\).  This is the exact fixed-radius participation
 throttle.
 
 The live branch has \(r_j\downarrow0\).  A dyadic heat-scale cascade can carry
-order-one normalized action on every scale while the physical bill remains
+fixed positive normalized action on every scale while the physical bill remains
 summable:
 
 ```math
@@ -309,7 +309,7 @@ the remaining obstruction:
 ```math
 \boxed{
 \text{current Navier-Stokes balances see the terminal heat-scale pulse, but do
-not forbid one order-one normalized positive carrier per shrinking heat scale.}
+not forbid one fixed positive normalized carrier per shrinking heat scale.}
 }
 \tag{PEMAS.23}
 ```
