@@ -90,9 +90,11 @@ Endpoint uniform integrability would say
 \tag{UTR.6}
 ```
 
-At this resolution, `(UTR.4)` and `(UTR.6)` are the same forward-gold need in
-two currencies: unweighted normalized critical action, or endpoint UI on the
-actual selected positive carrier.
+The two currencies are related but not interchangeable.  A source-square or
+unweighted critical-action reserve can imply endpoint UI by Cauchy--Schwarz on
+terminal strips.  Endpoint UI alone only removes a terminal atom; it does not
+pay every retained thin square-reserve pulse.  A forward-gold proof has to state
+which currency it actually produces.
 
 ## 2. Physical ledgers give only weighted action
 
