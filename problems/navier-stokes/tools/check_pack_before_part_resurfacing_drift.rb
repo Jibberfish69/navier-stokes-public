@@ -70,7 +70,9 @@ FORBIDDEN = {
   "old terminal Zeno Pack-only landing" => /terminal zero-radius residue .*lands (?:first )?as `?not Pack_Q`?/,
   "old zero-heat-time Pack-only landing" => /terminal zero-heat-time source residue is not Pack_Q/,
   "old BASAC Pack-side non-survival" => /terminal Zeno\/B_ASAC zero-thickness endpoint.*Pack-side non-survival/,
-  "old zero-radius not-Pack closure" => /zero-radius residue lands as not Pack_Q/
+  "old zero-radius not-Pack closure" => /zero-radius residue lands as not Pack_Q/,
+  "old terminal limit Pack-only landing" => /terminal limit `r_m -> 0` is `not Pack_Q`/,
+  "old zero-heat-time terminal Pack failure" => /ZeroHeatTimeSourceResidue\.A.*terminal Pack failure/
 }.freeze
 
 REQUIRED_MARKERS = [
