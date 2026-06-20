@@ -84,6 +84,20 @@ FORBIDDEN = {
   "old terminal Zeno Pack correction prose" => /terminal Zeno Pack correction gives not Pack Q/
 }.freeze
 
+BROAD_TERMINAL_FORBIDDEN = FORBIDDEN.select do |label, _|
+  label.include?("terminal") ||
+    label.include?("zero-radius") ||
+    label.include?("zero-heat-time") ||
+    label.include?("BASAC") ||
+    label.include?("r-star")
+end.freeze
+
+BROAD_SCAN_ROOTS = %w[
+  problems/navier-stokes
+  system/runner/lib
+  system/runner/test
+].freeze
+
 REQUIRED_MARKERS = [
   "PackBeforePartDependencyResurfacing",
   "Pack-before-Part",
@@ -124,6 +138,32 @@ ACTIVE_PATHS.each do |relative_path|
   end
 rescue ArgumentError
   next
+end
+
+BROAD_SCAN_ROOTS.each do |relative_root|
+  root = ROOT.join(relative_root)
+  next unless root.directory?
+
+  root.find do |path|
+    next unless path.file?
+
+    relative_path = relative(path)
+    next if relative_path == "problems/navier-stokes/tools/check_pack_before_part_resurfacing_drift.rb"
+
+    text = path.read
+    next if text.include?("\x00")
+
+    text.each_line.with_index(1) do |line, line_no|
+      BROAD_TERMINAL_FORBIDDEN.each do |label, pattern|
+        next unless line.match?(pattern)
+
+        preview = line.gsub(/\s+/, " ").strip
+        violations << "#{relative_path}:#{line_no}: #{label}: #{preview}"
+      end
+    end
+  rescue ArgumentError
+    next
+  end
 end
 
 if violations.empty?
