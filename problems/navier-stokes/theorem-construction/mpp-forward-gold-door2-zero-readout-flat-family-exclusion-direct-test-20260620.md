@@ -37,7 +37,7 @@ This statement is not a formal consequence of the displayed hypotheses.
 
 ## 2. The zero-readout set is too large
 
-Define the zero-readout set schematically by
+For this test, define the zero-readout set by
 
 ```math
 \mathcal M_0
