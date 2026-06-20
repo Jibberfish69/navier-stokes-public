@@ -85,8 +85,9 @@ cases.
 
 First, the action concentrates in every terminal strip \((-\theta,0]\).  This is
 exactly the endpoint atom branch `(PEMAS.6)`.  The terminal source-curve
-pass-or-exit package consumes that branch at the CM readout level by routing the
-same-solution atom to the first `Part` or `Field` face failure.  It does not
+pass-or-exit package consumes that branch at the CM readout level only after
+same-witness admission and uniform service-topology certification.  Then the
+same-solution atom fails the `Part` or `Field` service budget.  This does not
 prove a forward-gold anti-atom from original inputs.
 
 Second, a fixed fraction of the action lives away from \(s=0\).  Minimality then
@@ -294,7 +295,8 @@ Equivalent acceptable productions are:
 
 Every item in `(PEMAS.22)` is a real theorem only if it produces the unweighted
 same-selected-family reserve.  Otherwise it is visibility, diagnostic readout,
-or CM witness-face routing.
+or CM witness-face routing after same-witness admission plus service
+certification.
 
 ## Verdict
 
@@ -314,5 +316,5 @@ not forbid one order-one normalized positive carrier per shrinking heat scale.}
 
 New forward-gold progress must supply an unweighted same-carrier reserve or a
 rigidity theorem that produces the same reserve.  Without that, the retained
-pulse must be carried through the CM Pack/Part/Field witness-face machinery
-rather than renamed as a solved forward estimate.
+pulse is CM-facing only as an admitted same-witness object tested against the
+uniform `Part` or `Field` service budget, rather than a solved forward estimate.
