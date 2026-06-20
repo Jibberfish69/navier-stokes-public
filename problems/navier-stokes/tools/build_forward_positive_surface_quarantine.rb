@@ -244,7 +244,7 @@ def quarantine_entry(path)
     "legacy_demotion_classes" => support_classes,
     "cm_authority" => "no-proof-authority",
     "proof_force" => "none_without_exact_cm_bridge",
-    "promotion_allowed_only_by" => "explicit bridge-license landing in Pack_Q, Part_{N,Q}, or Field_{N,r,Q} after target-lock selects the CM contrapositive program",
+    "promotion_allowed_only_by" => "explicit bridge-license landing in Silver Pack_Q, Part_{N,Q}, or Field_{N,r,Q} after Pack admission, or the pre-Pack Part-first resurfacing audit, after target-lock selects the CM contrapositive program",
     "forbidden_as_cm_substitute" => true
   }
 end
@@ -282,16 +282,16 @@ payload = {
   "summary_by_class" => summary_by_class,
   "summary_by_scope" => summary_by_scope,
   "support_classification_law" => {
-    "governing_cm_program" => "Exit(Q):=not Member(Q) through Pack_Q / Part_{N,Q} / Field_{N,r,Q}",
-    "rule" => "Every indexed forward-positive, positive-supplier, continuation, transfer, receiver/readout, export, or already-classified positive surface has no CM proof authority unless an exact bridge lands the same witness in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.",
+    "governing_cm_program" => "Exit(Q):=not Member(Q) through Silver Pack_Q / Part_{N,Q} / Field_{N,r,Q} after Pack admission, plus pre-Pack Part-first resurfacing where needed",
+    "rule" => "Every indexed forward-positive, positive-supplier, continuation, transfer, receiver/readout, export, or already-classified positive surface has no CM proof authority unless an exact bridge lands the same witness in Silver Pack_Q, Part_{N,Q}, or Field_{N,r,Q}, or proves the pre-Pack Part-first resurfacing needed before not Pack_Q can be spent.",
     "cannot_do" => [
       "set the live CM frontier",
       "close TerminalCMNoExit.A / NoGenuineCMExit.A",
-      "replace the Pack-first witness tree",
+      "replace the Silver witness tree or the pre-Pack Part-first audit",
       "count as publication or release readiness",
       "turn a bad source/residue object into a deletion burden when it is already a lawful class-exit witness"
     ],
-    "promotion_gate" => "Only a named bridge-license theorem that lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q} can promote an indexed surface for CM use.",
+    "promotion_gate" => "Only a named bridge-license theorem that lands the exact result in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack Part-first resurfacing audit can promote an indexed surface for CM use.",
     "positive_program_boundary" => "When the user explicitly switches to a positive smoothness, positive supplier, fixed-nu transfer, or Euler comparison program, these surfaces may be read inside that separate program only."
   },
   "entries" => entries
