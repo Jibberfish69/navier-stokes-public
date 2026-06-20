@@ -71,10 +71,12 @@ REQUIRED_MARKERS = [
   "PackBeforePartDependencyResurfacing",
   "Pack-before-Part",
   "pre-Pack Part",
+  "pre-Pack not-Pack",
   "pre-Pack pointwise",
   "Part-first resurfacing",
   "pointwise original-NS participation",
-  "Silver Pack_Q"
+  "Silver Pack_Q",
+  "Silver CM exit tree"
 ].freeze
 
 def relative(path)

@@ -27,8 +27,9 @@ authority_sync_gate:
     authority gate.'
 central_gate:
   gate_id: cm-witness-face-bridge
-  target: Every theorem result must land in Pack_Q, Part_{N,Q}, or Field_{N,r,Q},
-    or remain branch-support only.
+  target: Every theorem result must land in Silver Pack_Q, Part_{N,Q}, or Field_{N,r,Q}
+    after Pack admission, pass the pre-Pack Part-first resurfacing audit before
+    not Pack_Q is spent, or remain branch-support only.
   governing_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
   witness_form: 'finite same-surface terminal CM witness: CM-test entry followed by
     not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, which supports Exit(Q):=not
