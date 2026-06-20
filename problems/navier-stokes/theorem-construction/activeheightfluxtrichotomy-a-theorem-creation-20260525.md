@@ -96,7 +96,7 @@ source charge may enter Field only through the installed Field-face theorem.
 13. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Partition selected terminal source-current edges into retained signed partners, legal exits, finite donor sinks, and terminal Zeno refill.
 14. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Pay retained partners by ASAC pair-weight charge, legal exits by declared ledgers, and finite donor sinks by LocalDonorBalance.A plus EntranceLeafDecay.A.
 15. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Route the only unpaid terminal Zeno refill to the produced B_ASAC terminal residue class.
-16. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Apply the terminal Zeno Pack-failure correction: a zero-radius terminal source residue is not Pack_Q.
+16. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Apply the terminal Zeno Pack-before-Part correction: a zero-radius terminal source residue is Part-first when same-solution pointwise participation remains and true not Pack_Q only when that record is absent.
 17. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Use BASACTerminalAtomCMFaceLabeling.A to record any incoming flux, CM envelope blowout, or paid exit as Pack/Part/Field witness-face exit.
 18. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 

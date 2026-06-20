@@ -199,7 +199,7 @@ chunk:
     text: |+
       \subsection{Clay problem B ASAC Terminal Atom CM Pack-First Exit Diagnostic}
 
-      Outcome: the surviving B ASAC terminal source atom is consumable only as Pack-first CM exit support: a zero-radius source residue is not Pack Q unless a positive-scale retained-carrier bridge licenses later Field readout. This is a diagnostic continuation, not a forward positive-supplier discharge.
+      Outcome: the surviving B ASAC terminal source atom is consumable only as Pack-before-Part CM exit support: a zero-radius source residue is first audited for Part-side participation and becomes true Pack failure only when no pointwise participation record survives. This is a diagnostic continuation, not a forward positive-supplier discharge.
 
       The terminal source atom with no fixed earlier selected source slice is exactly Zero Heat Time Source Residue.A. so every retained B ASAC terminal atom is Pack-first exit support until a positive-scale retained-carrier bridge is supplied.
 
@@ -236,7 +236,7 @@ chunk:
       surplus.\n\nA finite or non-Zeno donor tree fails to telescope. This is failure
       of the donor/entrance Pack record, hence a Pack-face defect, not a retained
       Pack counterexample. The first-created branch collapses to terminal zero-radius
-      Zeno ancestry. The terminal Zeno Pack correction gives not Pack Q. A retained
+      Zeno ancestry. The terminal Zeno Pack-before-Part correction sends that branch first to Part when the same original-NS pointwise participation record remains, and to true Pack failure only when that record is absent. A retained
       positive-scale first-created contribution remains uncharged. This is precisely
       not Terminal Reserve First Appearance Charge.A, equivalently the localized Positive
       Remainder Depletion.A supplier atom.\n\nso a retained Pack counterexample to
@@ -482,7 +482,7 @@ chunk:
 
     \subsection{Clay problem B ASAC Terminal Atom CM Pack-First Exit Diagnostic}
 
-    Outcome: the surviving B ASAC terminal source atom is consumable only as Pack-first CM exit support: a zero-radius source residue is not Pack Q unless a positive-scale retained-carrier bridge licenses later Field readout. This is a diagnostic continuation, not a forward positive-supplier discharge.
+    Outcome: the surviving B ASAC terminal source atom is consumable only as Pack-before-Part CM exit support: a zero-radius source residue is first audited for Part-side participation and becomes true Pack failure only when no pointwise participation record survives. This is a diagnostic continuation, not a forward positive-supplier discharge.
 
     The terminal source atom with no fixed earlier selected source slice is exactly Zero Heat Time Source Residue.A. so every retained B ASAC terminal atom is Pack-first exit support until a positive-scale retained-carrier bridge is supplied.
 
@@ -504,7 +504,7 @@ chunk:
 
     If Terminal Reserve First Appearance Charge.A is available, that first-created reserve is charged. A charged first appearance is paid inside the same window record, so it cannot produce the selected surplus.
 
-    A finite or non-Zeno donor tree fails to telescope. This is failure of the donor/entrance Pack record, hence a Pack-face defect, not a retained Pack counterexample. The first-created branch collapses to terminal zero-radius Zeno ancestry. The terminal Zeno Pack correction gives not Pack Q. A retained positive-scale first-created contribution remains uncharged. This is precisely not Terminal Reserve First Appearance Charge.A, equivalently the localized Positive Remainder Depletion.A supplier atom.
+    A finite or non-Zeno donor tree fails to telescope. This is failure of the donor/entrance Pack record, hence a Pack-face defect, not a retained Pack counterexample. The first-created branch collapses to terminal zero-radius Zeno ancestry. The terminal Zeno Pack-before-Part correction sends that branch first to Part when the same original-NS pointwise participation record remains, and to true Pack failure only when that record is absent. A retained positive-scale first-created contribution remains uncharged. This is precisely not Terminal Reserve First Appearance Charge.A, equivalently the localized Positive Remainder Depletion.A supplier atom.
 
     so a retained Pack counterexample to Scale Critical Tree Carleson.A cannot survive once Terminal Reserve First Appearance Charge.A is proved. Without that charge theorem, the Pack no-exit proof remains open at the first unpaid positive-scale donor-reserve birth.
 
