@@ -14,7 +14,7 @@ route_nodes:
   label: cm_convergence_atlas
   status: support-audit-cm-resolved
   role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
-    face split, receiver/source/readout/endpoint layers, Pack-first source-wall gate
+    face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
     with later licensed Field readout, alias-collapse table, and theorem-crank method.
     It does not discharge the source wall and is not a theorem-grade promotion surface;
     it points audit-open analytic effort to DonorHeightCreation.A / ReserveCreationCharge.A
