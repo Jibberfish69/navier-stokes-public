@@ -6,7 +6,7 @@ Continuation from `ActiveShellSourceNormalize.A`.  The branch reduces to a two-p
 
 ## Weighted commutator side
 
-The bare separated commutator vanishes in the declared frequency geometry.  The live terminal record is the true lifted weighted remainder after shell weights, cutoffs, projections, and lifted summation:
+The bare separated commutator vanishes in the declared frequency geometry.  The live object is the true lifted weighted remainder after shell weights, cutoffs, projections, and lifted summation:
 
 ```math
 G_N^{lift,\sigma}=\sum W_{j,\ell}^{\sigma}R_{j,k,\ell}^{lift}.

@@ -3,7 +3,7 @@
 ## Target
 Prove strain-sign cancellation for the true weighted lifted remainder in the shell-flux route.
 
-The live terminal record is not the bare separated commutator, which vanishes by Fourier support. The live terminal record is the weighted lifted remainder after one-sided shell weights and projector/cutoff reductions:
+The live object is not the bare separated commutator, which vanishes by Fourier support. The live object is the weighted lifted remainder after one-sided shell weights and projector/cutoff reductions:
 
 `G_N^{lift,sigma} = sum W_{j,l}^{sigma} R_{j,k,l}^{lift}`.
 

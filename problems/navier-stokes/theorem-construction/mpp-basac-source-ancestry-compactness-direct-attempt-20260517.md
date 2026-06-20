@@ -136,7 +136,7 @@ The installed homogeneous parent-drain identity `TPNI.A` applies when the tangen
 \int \Phi_T\,d\mu_*^{src}.
 ```
 
-That terminal term is the live terminal record. The available first-pulse license removes selected parents and leaves the terminal source charge as the remaining term in the identity. A source-charge theorem is still required.
+That terminal term is the live object. The available first-pulse license removes selected parents and leaves the terminal source charge as the remaining term in the identity. A source-charge theorem is still required.
 
 ## Direct attempt 5: transported-cylinder no-flux
 

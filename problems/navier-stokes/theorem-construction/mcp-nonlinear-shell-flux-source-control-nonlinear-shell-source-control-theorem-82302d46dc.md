@@ -27,7 +27,7 @@ This cancellation is useful before weights and lifted reductions enter.
 ## Attempt
 
 After shell weights, cutoffs, projectors, and lifted packets are inserted, the
-live terminal record becomes a weighted lifted remainder. A source-control theorem must
+live object becomes a weighted lifted remainder. A source-control theorem must
 control that weighted lifted remainder directly, for example through
 
 ```math

@@ -6,7 +6,7 @@ Prove the combined source-control theorem:
 `signed weighted lifted-remainder cancellation + residual-tail control -> active-square Carleson source control`.
 
 ## Signed cancellation component
-The bare separated commutator vanishes by Fourier support, so the live terminal record is the true weighted lifted remainder after shell weights, projector/cutoff reductions, and lifted summation:
+The bare separated commutator vanishes by Fourier support, so the live object is the true weighted lifted remainder after shell weights, projector/cutoff reductions, and lifted summation:
 
 `G_N^{lift,sigma} = sum W_{j,l}^{sigma} R_{j,k,l}^{lift}`.
 
