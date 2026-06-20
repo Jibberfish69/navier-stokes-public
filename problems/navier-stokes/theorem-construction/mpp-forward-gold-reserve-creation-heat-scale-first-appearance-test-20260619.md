@@ -10,9 +10,10 @@ the terminal window has the natural heat-scale length.
 
 This sharpens the older `SquareReserveEvolution.A` obstruction.  The older
 scalar obstruction used a window shorter than heat time.  The present test uses
+the exact heat window
 
 \[
-|I_m|\sim2^{-2m},
+|I_m|=2^{-2m},
 \]
 
 so the failure is not caused by a super-heat temporal compression.  It is caused
@@ -123,7 +124,7 @@ Since \(h_m^{-1}=2^{2m}\),
 \tag{RCH.9}
 \]
 
-So the reserve first appears with order-one size while the first-moment charge
+So the reserve first appears with value \(1\) while the first-moment charge
 vanishes.
 
 For a genuine first-appearance window with
@@ -135,7 +136,7 @@ For a genuine first-appearance window with
 \tag{RCH.10}
 \]
 
-the left side of `(RCH.1)` is order one, while the first-moment charge in
+the left side of `(RCH.1)` is at least \(1\), while the first-moment charge in
 `(RCH.4)` tends to zero.
 
 ## 3. Height reading
