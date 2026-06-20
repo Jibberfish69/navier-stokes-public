@@ -290,7 +290,7 @@ The unresolved payment is still the same native terminal time-face problem:
 ```math
 \boxed{
 \text{a selected heat-scale positive trilinear feed can have vanishing first
-moment while carrying order-one unweighted reserve.}
+moment while carrying unit unweighted reserve in the normalized model.}
 }
 \tag{FCH.26}
 ```
