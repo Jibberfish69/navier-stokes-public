@@ -10,6 +10,8 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-law-square-coercion-direct-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-super-l1-source-residence-sharpness-after-zeno-child-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-height-source-residence-production-boundary-20260620.md
+  downstream_refinement:
+    - problems/navier-stokes/theorem-construction/mpp-forward-gold-product-throttle-failure-trichotomy-20260620.md
   downstream_consequence: "Product throttle is not an installed lower theorem. It is a precise sufficient route from linear same-carrier participation residence to the unweighted selected square reserve. The remaining forward-gold burden is still square-strength same-carrier control, not mere endpoint no-atom visibility."
 ---
 
@@ -287,3 +289,8 @@ whereas
 
 The forward-gold square wall therefore remains square-strength same-carrier
 control on the actual selected positive participation carrier.
+
+The failure normal form is recorded separately in
+`mpp-forward-gold-product-throttle-failure-trichotomy-20260620.md`: after
+endpoint atoms and nonzero linear residence are separated, the pure remaining
+product-throttle failure is a square-only height blowup.
