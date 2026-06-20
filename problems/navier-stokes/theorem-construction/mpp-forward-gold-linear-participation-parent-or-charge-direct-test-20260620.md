@@ -6,6 +6,7 @@ edge_effect: "Tests the non-source-residue linear participation branch left afte
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-linear-source-pulse-identity-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-linear-positive-energy-trace-saturation-direct-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-linear-energy-trace-polar-saturation-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-terminal-normalized-energy-trace-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-principal-flow-adjoint-parent-or-charge-note-20260504.md
   - problems/navier-stokes/theorem-construction/mpp-normalized-child-mass-source-drain-assembly-note-20260504.md
@@ -319,6 +320,13 @@ NoFreeTerminalNormalizedEnergyTrace.A.
 ```
 
 The second direct test
+`mpp-forward-gold-linear-energy-trace-polar-saturation-direct-test-20260620.md`
+shows that the polar-saturation clause is not paid by trace-free
+incompressibility.  A selected packet can align with the expanding eigendirection
+of \(S=\operatorname{diag}(2,-1,-1)\), while the contracting eigendirections
+remain outside the selected endpoint-energy ledger.
+
+The terminal-trace direct test
 `mpp-forward-gold-no-free-terminal-normalized-energy-trace-direct-test-20260620.md`
 shows that the terminal normalized-energy trace clause is not paid by finite
 physical energy.  A Zeno chain can carry order-one normalized endpoint-energy
