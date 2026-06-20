@@ -4,7 +4,7 @@ ns_viewer:
   status: pressure-source-branch-reattached-to-heat-scale-reserve
   proof_role: forward_gold_same_carrier_unweighted_action_production_boundary
   logical_landing_node: terminal_heat_scale_pulse_unweighted_selected_carrier_reserve
-  edge_effect: "Reattaches the pressure-Hessian/source-current child left by the strict heat-clock eigenframe test to the June 20 heat-scale reserve frontier. The older pressure no-sustain and one-sided near-band source-current attempts show that pressure structure gives only a source-current or pure-pressure dichotomy; the source-current branch reduces to terminal Zeno source-time concentration, while the pure-pressure branch is not a source-square or no-waste producer. Thus pressure no-sustain is not a fresh forward-gold supplier unless it proves the same selected-carrier terminal strip modulus, super-L1/source-Carleson residence, strict no-waste, or pure-pressure legal/Liouville theorem."
+  edge_effect: "Reattaches the pressure-Hessian/source-current child left by the strict heat-clock eigenframe test to the June 20 heat-scale reserve frontier. The older pressure no-sustain and one-sided near-band source-current attempts show that pressure structure gives only a source-current or pure-pressure dichotomy; the source-current branch reduces to terminal Zeno source-time concentration, while the pure-pressure branch has already failed as an existing-ledger legal classification or direct Liouville theorem. Thus pressure no-sustain is not a fresh forward-gold supplier unless it proves the same selected-carrier terminal strip modulus, super-L1/source-Carleson residence, strict no-waste, pressure trace saturation, pressure rigid-class production, or a new pure-pressure legal theorem."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-strict-heat-clock-gap-eigenframe-direct-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-terminal-pressure-hessian-no-sustain-lowhigh-direct-attempt-20260610.md
@@ -12,7 +12,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-low-high-terminal-signed-saturation-forward-no-free-sink-direct-attempt-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-lowhigh-terminal-source-time-antiatom-cost-dichotomy-refresh-20260619.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-current-frontier-after-rigid-participation-exhaustion-20260620.md
-  downstream_consequence: "Do not reopen TerminalPressureHessianNoSustain.A, OneSidedNearBandMaterialSourceCurrentLegal.A, low-high signed saturation, or low-high source-time anti-atom as independent forward-gold suppliers. Their source branch is the same endpoint UI / unweighted reserve wall; their non-source branch requires pure-pressure legal/Liouville or CM Pack/Part/Field consumption after same-witness admission."
+  downstream_consequence: "Do not reopen TerminalPressureHessianNoSustain.A, OneSidedNearBandMaterialSourceCurrentLegal.A, low-high signed saturation, low-high source-time anti-atom, TerminalPressurePureStrainLegal.A, or PurePressureSustainResidueLiouville.A as independent forward-gold suppliers. Their source branch is the same endpoint UI / unweighted reserve wall; their pressure branch is only pressure trace saturation, pressure rigid-class production plus Liouville, a new terminal pure-pressure legal class, or CM Pack/Part/Field consumption after same-witness admission."
 ---
 
 # MPP Forward-Gold Pressure/Source Branch Reattachment To Heat-Scale Reserve
@@ -148,22 +148,37 @@ residue is singular to the native positive source-current carrier. That branch
 does not produce endpoint UI, source-square, critical strain Carleson, or strict
 no-waste for the selected positive source carrier.
 
-It has only two possible uses at this resolution:
+The direct legal-classification attempts already show that the named pressure
+legal ledgers cover only collar/boundary pressure work, harmonic tails,
+cutoff/projector commutators, off-family pressure tails, and pressure packets
+outside the retained family.  The pure-pressure residue here is defined after
+those channels are removed; it is an interior retained principal-local
+pressure-Hessian lobe.  Thus an existing legal ledger does not contain it.
+
+The direct Liouville attempts also do not close it.  They leave three genuine
+pressure endpoints:
 
 ```math
-\text{pure-pressure legal/Liouville theorem}
+\text{DirectionalPressureTraceSaturation.A}
++\text{TerminalPressureCollarLegal.A},
 \tag{PSR.9}
 ```
 
-or
-
 ```math
-\text{same-witness CM Pack/Part/Field consumption after admission}.
+\text{PressureRigidClassProduction.A}
++\text{PressureAncientLiouville}[\mathcal P]\text{.A},
 \tag{PSR.10}
 ```
 
-Without `(PSR.9)`, it is a visible pressure residue, not a proof of the
-same-carrier unweighted reserve.
+```math
+\text{PurePressureSustainResidueLegal.A}
+\quad\text{with a new terminal summability estimate}.
+\tag{PSR.11}
+```
+
+Without one of these produced pressure endpoints, the pure-pressure residue is a
+visible retained pressure obstruction.  It is not a proof of same-carrier
+endpoint UI, source-square, critical-strain Carleson, or strict no-waste.
 
 ## 5. Reattached frontier
 
@@ -175,11 +190,11 @@ Combining the heat-clock test with the pressure/source attempts gives:
 \Longrightarrow
 \begin{cases}
 \text{same-carrier endpoint UI/source-residence/source-square/no-waste},\\
-\text{pure-pressure legal/Liouville theorem},\\
+\text{pressure trace saturation / pressure rigid class / pure-pressure legal theorem},\\
 \text{or CM Pack/Part/Field consumption after same-witness admission.}
 \end{cases}
 }
-\tag{PSR.11}
+\tag{PSR.12}
 ```
 
 In particular,
@@ -189,7 +204,7 @@ In particular,
 \text{TerminalPressureHessianNoSustain.A is not an independent installed
 forward-gold supplier.}
 }
-\tag{PSR.12}
+\tag{PSR.13}
 ```
 
 The source branch returns to
@@ -198,11 +213,11 @@ The source branch returns to
 \text{SelectedCarrierEndpointUI.A}
 \quad\text{or}\quad
 \text{UnweightedTerminalCriticalActionReserve.A},
-\tag{PSR.13}
+\tag{PSR.14}
 ```
 
-and the pure-pressure branch requires its own legal/Liouville theorem before it
-can help the forward-positive route.
+and the pure-pressure branch requires a pressure-specific endpoint before it can
+help the forward-positive route.
 
 ## Verdict
 
@@ -215,10 +230,12 @@ heat-scale wall. It reattaches to the same selected endpoint pulse:
 \not\Longrightarrow
 \text{same-carrier endpoint UI or unweighted square reserve}.
 }
-\tag{PSR.14}
+\tag{PSR.15}
 ```
 
-New progress must therefore prove a genuine pressure legal/Liouville theorem or
-one of the already isolated same-carrier unweighted payment forms. Otherwise the
-retained pulse remains only CM Pack/Part/Field material after same-witness
-admission.
+New progress must therefore prove a pressure-specific endpoint, such as
+directional pressure trace saturation, pressure rigid-class production plus
+Liouville, or a new terminal pure-pressure legal class, or prove one of the
+already isolated same-carrier unweighted payment forms. Otherwise the retained
+pressure/source branch remains only CM Pack/Part/Field material after
+same-witness admission.
