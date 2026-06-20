@@ -109,7 +109,7 @@ zero-thickness terminal residue.
 ## 3. Exact heat observability requirement
 
 Heat observability from a measurable time set is never free from the set's
-quantitative thickness.  In normalized form it has the shape
+quantitative thickness.  In normalized full-spatial form it has the shape
 
 ```math
 \|f(0)\|_{L^2(B_1)}^2
@@ -119,17 +119,18 @@ C(E)
 \tag{SCHO.8}
 ```
 
-where the constant depends on the observation set.  For intervals with length
-`\tau`, the cost has at least heat-scale exponential deterioration:
+where the constant depends on the observation set.  Even in the best full-ball
+case, for an interval with length `\tau`, the constant cannot stay bounded.
+Testing on the spatial constant mode gives
 
 ```math
-C((-\tau,0])\ge c\exp(c'/\tau)
+C((-\tau,0])\ge {1\over\tau}.
 \tag{SCHO.9}
 ```
 
-for some positive constants in the normalized model class.  The precise sharp
-constant is not needed.  What matters is that no uniform observability constant
-survives as the observation time measure tends to zero.
+The precise sharp constant for smaller spatial observation sets is not needed.
+What matters is that no uniform observability constant survives as the
+observation time measure tends to zero.
 
 Therefore, to use observability as a Pack-survival theorem, the selected carrier
 must supply a uniform thickness condition such as `(SCHO.7)`.  Observability
