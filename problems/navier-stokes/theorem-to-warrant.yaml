@@ -690,19 +690,19 @@ theorem_warrants:
     index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
     generator: problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb
     scan_scope: problems/navier-stokes/** text surfaces
-    entry_count: 3043
+    entry_count: 3304
     summary_by_class:
-      already-classified-positive-support-language: 190
-      downstream-export-or-legacy-engine-support: 928
-      quarantined-forward-positive-supplier-support: 1377
-      receiver-readout-endpoint-support: 1965
-      separate-positive-smoothness-support: 840
-      separate-transfer-or-euler-comparison-support: 250
+      already-classified-positive-support-language: 206
+      downstream-export-or-legacy-engine-support: 940
+      quarantined-forward-positive-supplier-support: 1554
+      receiver-readout-endpoint-support: 2140
+      separate-positive-smoothness-support: 857
+      separate-transfer-or-euler-comparison-support: 263
     index_path: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
     index_status: active-no-proof-authority-index
     summary_by_scope:
-      repo-surface: 1005
-      theorem-construction: 2038
+      repo-surface: 1025
+      theorem-construction: 2279
 bridge_obligations:
 - bridge_id: scale-barrier
   verdict: discharged
