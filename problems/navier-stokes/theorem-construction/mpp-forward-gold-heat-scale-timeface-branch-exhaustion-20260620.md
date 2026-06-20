@@ -72,7 +72,7 @@ Thus a geometric Zeno schedule can satisfy
 \tag{HTE.5}
 ```
 
-while still carrying infinitely many order-one normalized heat-scale events.
+while still carrying infinitely many fixed positive normalized heat-scale events.
 This is the precise time-face obstruction.  It is not a hidden spatial
 multipole, and it is not a fixed-radius participation failure.
 
@@ -231,7 +231,9 @@ The right coercive exponent for a heat-scale feed event is selected
 \(L^{5/2}\) strain:
 
 ```math
-\int_{Q_j}|S|^{5/2}\,dxdt\simeq \nu^{3/2}.
+\int_{Q_j}|S|^{5/2}\,dxdt=c_{S,5/2}\nu^{3/2},
+\qquad
+c_{S,5/2}>0
 \tag{HTE.18}
 ```
 
