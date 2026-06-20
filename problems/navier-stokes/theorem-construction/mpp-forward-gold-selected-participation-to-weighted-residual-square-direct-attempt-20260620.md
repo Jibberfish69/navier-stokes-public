@@ -276,6 +276,14 @@ SelectedParticipationToWeightedResidualSquare.A.
 
 Then `(PWR.2)` would close the selected square budget.
 
+The follow-up direct localization test shows that the first subtheorem is not
+a formal consequence of the installed source-drain package.  The selected
+participation square counts principal positive strain work, while
+`WeightedAdjRes.A` controls the residual after that principal strain has been
+moved into the propagator.  Thus the carrier-localization subpiece itself
+reduces to a square parent-or-charge law for the principal-flow gain, or to
+replacing the selected carrier by a residual-only square current.
+
 ## Verdict
 
 `SelectedParticipationToWeightedResidualSquare.A` is not installed and is not a
