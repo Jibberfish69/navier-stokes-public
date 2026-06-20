@@ -89,7 +89,7 @@ terms are critical and sign-indefinite.
 
 ## 2. The radius-time-amplitude calculation is exact
 
-For a normalized heat-scale packet
+For a normalized heat-scale packet with a fixed profile \(V\)
 
 \[
 u_j(t,x)
@@ -98,28 +98,49 @@ a_jr_j^{-1}
 V\!\left(\frac{t-t_j}{r_j^2},\frac{x-x_j}{r_j}\right),
 \]
 
-physical energy and dissipation carry the radius weight:
+define the fixed profile constants
 
 \[
-E_j+D_j
-\simeq
-a_j^2r_j.
+C_E(V):=\int |V|^2\,dy,
+\qquad
+C_D(V):=\int |\nabla_yV|^2\,dyds.
 \]
 
-The critical interface currencies do not carry that weight:
+Then physical energy and dissipation carry the exact radius weights:
+
+\[
+\int |u_j|^2\,dx
+=
+a_j^2r_jC_E(V),
+\qquad
+\int_{Q_j}|\nabla_xu_j|^2\,dxdt
+=
+a_j^2r_jC_D(V).
+\]
+
+The critical interface currencies do not carry that radius weight.  With
+\(p_j=a_j^2r_j^{-2}P\), set
+
+\[
+C_C(V,P):=\int\left(|V|^3+|P|^{3/2}\right)\,dyds,
+\qquad
+C_5(V):=\int |V|^5\,dyds.
+\]
+
+Then
 
 \[
 \frac{1}{r_j^2}\int_{Q_j}\left(|u_j|^3+|p_j|^{3/2}\right)\,dxdt
-\simeq
-a_j^3,
+=
+a_j^3C_C(V,P),
 \]
 
 and
 
 \[
 \int_{Q_j}|u_j|^5\,dxdt
-\simeq
-a_j^5.
+=
+a_j^5C_5(V).
 \]
 
 So physical participation gives at most a weighted budget such as
@@ -143,7 +164,7 @@ as
 This is the exact mathematical form of the time-face underpayment.  At fixed
 positive radius the terminal strip is killed by the ordinary participation
 throttle.  At heat scale the radius weight makes the physical payment summable
-while the normalized critical bill remains order one.
+while the normalized critical bill can stay fixed positive.
 
 ## 3. Active height and first appearance are the same wall
 
@@ -250,7 +271,11 @@ projection/cutoff commutators remain:
 
 \[
 |\text{commutator}|
-\lesssim
+C_A^{-1}\,0
++
+|\text{commutator}|
+\le
+C_A
 \int_{\operatorname{collar}(A_s)}
 \left(|v|^3+|q|^{3/2}+|S(v)|^{5/2}\right)\,dy.
 \]
@@ -365,4 +390,3 @@ Equivalent concrete forms are:
 Absent one of those, the heat-scale pulse is not killed by the gold route.  It
 must be admitted as a retained terminal pulse and consumed by the CM
 Pack/Part/Field witness-face machinery.
-
