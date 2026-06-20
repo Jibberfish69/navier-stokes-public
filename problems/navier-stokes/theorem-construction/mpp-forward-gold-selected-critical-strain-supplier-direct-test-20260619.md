@@ -196,8 +196,8 @@ The enstrophy identity gives
 \tag{SCS.15}
 ```
 
-The right side is the same vortex-stretching source.  The standard estimate
-produces
+The right side is the same vortex-stretching source.  The same
+Calderon--Zygmund, Sobolev, and interpolation estimate produces
 
 ```math
 {d\over dt}\|\nabla u\|_2^2
