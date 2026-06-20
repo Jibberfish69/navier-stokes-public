@@ -5,6 +5,7 @@ logical_landing_node: linear_positive_energy_trace_saturation
 edge_effect: "Tests the positive-part step left by the normalized endpoint-energy parent calculation. The signed local energy trace sees the algebraic sum of strain work, while the selected carrier keeps the positive expanding channel after packet selection. A two-channel trace-free strain model has zero signed trace and positive selected trace, so the bridge is not a formal consequence of the energy identity. The remaining theorem is normalized-energy polar saturation plus no-free terminal normalized-energy trace."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-linear-participation-parent-or-charge-direct-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-terminal-normalized-energy-trace-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-weighted-skew-to-terminal-signed-saturation-20260618.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-linear-source-pulse-identity-direct-test-20260620.md
 downstream_consequence: "LinearParticipationParentOrCharge.A remains unproved at the full Navier-Stokes selected-carrier level. Finite same-normalization signed partners and legal exits are the paid cases; the live residue is LinearEnergyTracePolarSaturation.A plus NoFreeTerminalNormalizedEnergyTrace.A, or a stronger strict no-waste/source-square/unweighted-action theorem."
@@ -223,7 +224,11 @@ a donor edge.
 `NoFreeTerminalNormalizedEnergyTrace.A` is the terminal-chain statement.  It says
 an infinite chain of normalized endpoint-energy parents cannot feed terminal
 positive participation forever while physical endpoint energy vanishes and every
-legal ledger remains finite.
+legal ledger remains finite.  The direct test
+`mpp-forward-gold-no-free-terminal-normalized-energy-trace-direct-test-20260620.md`
+shows that this is not supplied by finite physical energy: a Zeno chain can keep
+order-one normalized endpoint-energy trace while each physical contribution
+carries a summable shrinking-scale factor.
 
 ## Verdict
 
