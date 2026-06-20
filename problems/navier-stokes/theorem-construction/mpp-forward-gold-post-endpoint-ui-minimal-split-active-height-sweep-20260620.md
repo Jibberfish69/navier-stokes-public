@@ -265,8 +265,9 @@ The enstrophy identity is
 \tag{PEMAS.18}
 ```
 
-The right side is the same vortex-stretching / native trilinear feed.  The
-standard estimate gives the Riccati wall
+The right side is the same vortex-stretching / native trilinear feed.
+Calderon--Zygmund, Sobolev, interpolation, and Young's inequality give the
+Riccati wall
 
 ```math
 Y'(t)\le C\nu^{-3}Y(t)^3,
@@ -287,7 +288,7 @@ The checked branches are now role-separated:
 \begin{array}{ll}
 \text{Endpoint UI} & \text{is the terminal anti-atom modulus.}\\
 \text{Minimal descent} & \text{localizes the failure into endpoint or interior form.}\\
-\text{Interior reserve} & \text{requires ReserveCreationCharge.A.}\\
+\text{Interior reserve} & \text{is paid by same-carrier source-square.}\\
 \text{Active height} & \text{is a visibility/readout unless throttled.}\\
 \text{Enstrophy} & \text{identifies vortex stretching as the feed.}\\
 \text{Participation} & \text{gives same-fluid accounting with radius discount.}
