@@ -164,9 +164,16 @@ selected positive cross-profile Pack source
 
 The diffuse parent cloud still defeats this bridge. A child can be fed by many
 small legal predecessors; each predecessor has small raw square cost while the
-selected normalized child source keeps order-one mass. This is the same
-terminal heat-scale source pulse seen in the donor-chain and local-energy
-no-waste branches.
+selected normalized child source keeps fixed unit mass in the model
+
+```math
+g_m(s)=m\,{\bf 1}_{(-1/m,0]}(s),
+\qquad
+\int_{-1/m}^{0}g_m(s)\,ds=1.
+```
+
+This is the same terminal heat-scale source pulse seen in the donor-chain and
+local-energy no-waste branches.
 
 ## Rigid-Profile Test
 
