@@ -220,14 +220,17 @@ but the \(k=m\) reserve contribution is
 \tag{AWH.18}
 ```
 
-The logarithmic tail also tends to zero for this one-shell model:
+The logarithmic tail also tends to zero for this one-shell model.  When
+\(m\ge N\), the only active shell in `(AWH.11)` is \(\ell=m+5\), so
 
 ```math
 \widetilde{\mathcal F}_N(I_m)
-\sim
-(m-N)A_m
+=
+(m+1-N)A_m
+=
+(m+1-N)2^{-3m/2}
 \to0
-\qquad (m\to\infty,\;N\text{ fixed or }N\le m).
+\qquad (m\to\infty,\;N\text{ fixed}).
 \tag{AWH.19}
 ```
 
