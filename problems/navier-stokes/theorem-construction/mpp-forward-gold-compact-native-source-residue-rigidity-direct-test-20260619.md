@@ -84,10 +84,10 @@ or an endpoint version
 This is visibility.  It is not yet rigidity.
 
 The equation satisfied by the limit is not necessarily source-free
-Navier--Stokes.  Schematically it is
+Navier--Stokes.  The distributional form under test is
 
 ```math
-\partial_s U-\Delta U+(U\cdot\nabla)U+\nabla\Pi
+\partial_s U-\nu\Delta U+(U\cdot\nabla)U+\nabla\Pi
 =
 \mathfrak R,
 \qquad
