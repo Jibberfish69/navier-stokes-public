@@ -10,6 +10,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-square-budget-direct-attempt-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-square-spreading-branch-closeout-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-element-minimality-discount-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-first-created-reserve-source-square-energy-test-20260620.md
 ---
 
 # MPP Forward-Gold Terminal Heat-Scale Pulse Master Normal Form
@@ -358,6 +359,8 @@ status:
 \text{neutral heat-scale balance remains}\\
 \text{square parent-or-charge} &
 \text{child mass law only; square reserve evolution absent}\\
+\text{first-created reserve charge} &
+\text{paid by same-carrier source-square after past/boundary/legal separation}\\
 \text{signed donor saturation} &
 \text{linear mass paid; square spreading survives}\\
 \text{strict no-waste} &
@@ -391,6 +394,7 @@ Concrete equivalent forms include:
 \begin{gathered}
 \text{SameCarrierTailUI.A},\\
 \text{same-carrier source-square / selected participation square budget},\\
+\text{first-created reserve charge through the source-square energy test},\\
 \text{selected critical-strain or normalized CKN endpoint Carleson reserve},\\
 \text{strict rescaled no-waste Lyapunov with critical-action-size drop},\\
 \text{square reserve evolution / donor adjoint trace in square units},\\
