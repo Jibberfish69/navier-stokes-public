@@ -11,8 +11,8 @@ Part/Field.  It does not remove the interior first-created square-reserve
 branch.
 
 The reason is exact: the first-created reserve can have vanishing \(L^1_s\)
-source mass and no endpoint atom, while its unweighted square reserve remains
-order one on a normalized heat-time subwindow away from \(s=0\).
+source mass and no endpoint atom, while its unweighted square reserve equals
+\(1\) on a normalized heat-time subwindow away from \(s=0\).
 
 ## 1. Source-curve endpoint branch already sorted
 
@@ -78,7 +78,7 @@ but the first moment is small:
 ```
 
 So an \(L^1_s\) source-curve theorem cannot see this reserve pulse.  The square
-reserve remains order one precisely because it is measuring the missing
+reserve remains equal to \(1\) precisely because it is measuring the missing
 super-\(L^1\) exponent.
 
 ## 3. No endpoint atom is produced
