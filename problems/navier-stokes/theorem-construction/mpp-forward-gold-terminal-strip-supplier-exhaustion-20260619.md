@@ -182,8 +182,7 @@ terminal pulse.  It is Pack when the residue has no positive-radius same-fluid
 carrier.  It is Part when the source pulse cannot be represented inside the same
 pressure-viscosity participation law.
 
-This is CM-program support, not a gold-standard forward-positive no-jump
-theorem.
+This is CM-program support, not a forward-positive no-jump theorem.
 
 ## 2026-06-20 source-curve update
 
