@@ -188,7 +188,7 @@ same-solution terminal obstruction with no positive legal carrier
 It does not return:
 
 ```text
-not Pack_Q => no actual same-solution terminal obstruction.
+Pack failure rules out the same-solution terminal obstruction.
 ```
 
 Using the capture theorem that way would reverse its role and erase the Pack
