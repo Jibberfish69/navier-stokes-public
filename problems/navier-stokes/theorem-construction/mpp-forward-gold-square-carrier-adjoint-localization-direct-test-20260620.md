@@ -148,34 +148,44 @@ R_\lambda=0.
 \tag{SCA.9}
 ```
 
-Choose the packet size so that
+Choose the initial packet size
 
 ```math
-w(t)^2\simeq \lambda^{-3/2}
-\quad\text{on }I_\lambda.
+w(0)=\lambda^{-3/4}.
 \tag{SCA.10}
 ```
 
-The selected positive participation current is then
+Then
+
+```math
+w(t)=\lambda^{-3/4}e^{\lambda^2t},
+\qquad
+w(t)^2=\lambda^{-3/2}e^{2\lambda^2t}.
+\tag{SCA.11}
+```
+
+The selected positive participation current is
 
 ```math
 \Pi_\lambda^{part,+}(t)
 =
 a_\lambda w(t)^2
-\simeq
-\lambda^{1/2}.
-\tag{SCA.11}
+=
+\lambda^{1/2}e^{2\lambda^2t}.
+\tag{SCA.12}
 ```
 
-The selected square reserve is order one:
+The selected square reserve is exactly scale-independent:
 
 ```math
 \lambda\int_{I_\lambda}
 \bigl(\Pi_\lambda^{part,+}(t)\bigr)^2dt
-\simeq
-\lambda\lambda\lambda^{-2}
-=1.
-\tag{SCA.12}
+=
+\lambda\int_0^{\lambda^{-2}}
+\lambda e^{4\lambda^2t}\,dt
+=
+{e^4-1\over4}.
+\tag{SCA.13}
 ```
 
 But the weighted adjoint residual charge is zero:
@@ -186,7 +196,7 @@ But the weighted adjoint residual charge is zero:
 g(t)^{-1}\langle R_\lambda,\psi(t)\rangle\,dt
 \right|^2
 =0.
-\tag{SCA.13}
+\tag{SCA.14}
 ```
 
 So the implication
@@ -195,7 +205,7 @@ So the implication
 \text{selected participation square}
 \Longrightarrow
 \text{weighted residual square}
-\tag{SCA.14}
+\tag{SCA.15}
 ```
 
 is false before parent/gain accounting is added.
@@ -212,7 +222,7 @@ face:
 
 ```math
 w(\lambda^{-2})=e\,w(0).
-\tag{SCA.15}
+\tag{SCA.16}
 ```
 
 The normalized adjoint package correctly records this as parent mass, not
@@ -227,14 +237,14 @@ Charge_T^{sq}
 +Parent_T^{sq}
 +Legal_T+o(1).
 }
-\tag{SCA.16}
+\tag{SCA.17}
 ```
 
 The installed source-drain parent-or-charge law is for normalized child mass
 
 ```math
 M(T)=|\langle w_j(t_+),\chi_T(t_+)\rangle|^2,
-\tag{SCA.17}
+\tag{SCA.18}
 ```
 
 not for the integrated square participation reserve
@@ -245,7 +255,7 @@ not for the integrated square participation reserve
 \lambda_T
 \int_{I_T}
 \bigl(\Pi_T^{part,+}(t)\bigr)^2dt.
-\tag{SCA.18}
+\tag{SCA.19}
 ```
 
 This is why `SquareFirstPulseNoParent.A` was sharpened to
@@ -264,7 +274,7 @@ amplification:
 \Pi_T^{res,+}
 =
 \text{positive part of the residual creation current only}.
-\tag{SCA.19}
+\tag{SCA.20}
 ```
 
 Then adjoint residual localization is plausible, but it is no longer the
@@ -276,7 +286,7 @@ Second, prove the square dynamic parent-or-charge theorem:
 \boxed{
 SquareParentOrChargeForReserve.A
 }
-\tag{SCA.20}
+\tag{SCA.21}
 ```
 
 or equivalently
@@ -287,7 +297,7 @@ SquareReserveEvolution.A
 \quad\text{or}\quad
 DonorReserveAdjointTrace.A.
 }
-\tag{SCA.21}
+\tag{SCA.22}
 ```
 
 That theorem must convert principal-flow gain of the selected square reserve
@@ -307,7 +317,7 @@ The exact reason is:
 the adjoint residual square counts only residual creation after that gain is
 moved into the propagator.}
 }
-\tag{SCA.22}
+\tag{SCA.23}
 ```
 
 The branch reduces to:
@@ -320,7 +330,7 @@ SquareReserveEvolution.A
 \quad/\quad
 DonorReserveAdjointTrace.A
 }
-\tag{SCA.23}
+\tag{SCA.24}
 ```
 
 or to changing the selected carrier to a residual-only square current, which
