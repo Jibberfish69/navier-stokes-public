@@ -126,8 +126,9 @@ same preterminal Navier--Stokes solution, the same pressure/velocity pair, and
 the same transported carrier family after legal losses and readout-only
 artifacts are removed.
 
-Once `(RHP.9)` is available, the terminal object has only the Pack-first service
-questions:
+Once `(RHP.9)` is available, the terminal object has only the CM service
+questions, with the Pack-before-Part resurfacing audit applied to singular or
+pre-Pack objects:
 
 ```math
 Pack_Q,
@@ -138,21 +139,23 @@ Field_{N,r,Q}.
 \tag{RHP.10}
 ```
 
-The pulse must therefore be consumed by the first service it breaks.
+The pulse must therefore be consumed by the first licensed service it breaks.
 
 ## 3. Pack face: no retained positive same-fluid carrier
 
-If the retained heat-scale pulse has no positive same-fluid terminal carrier,
-then the first failure is the carrier face:
+If the retained heat-scale pulse has no positive same-fluid terminal carrier
+and no meaningful same-solution pointwise participation record remains, then
+the first failure is the carrier face:
 
 ```math
-\text{retained pulse with no positive same-fluid carrier}
+\text{retained pulse with no positive same-fluid carrier and no pointwise
+participation record}
 \Longrightarrow
 \neg Pack_Q.
 \tag{RHP.11}
 ```
 
-This includes the terminal zero-radius Zeno endpoint described by
+The terminal zero-radius Zeno endpoint described by
 
 ```math
 r_m\downarrow0,
@@ -161,16 +164,22 @@ r_m\downarrow0,
 \tag{RHP.12}
 ```
 
-Finite ancestry packets may have legal positive radii, but their terminal limit
-is not itself a retained positive-radius CM packet.  The terminal endpoint is
-therefore a Pack failure before any Field readout can be spent.
+has to be typed before `(RHP.11)` is spent.  When that endpoint is still tied to
+the same original Navier--Stokes pressure-viscosity-source participation law, it
+is resurfaced under `Part_{N,Q}` first.  When no such same-solution pointwise
+participation record remains and the object only lacks a usable carrier/window
+or readout, `(RHP.11)` is the true Pack failure.
 
-## 4. Part face: retained carrier but unpaid source participation
+## 4. Part face: retained carrier or resurfaced source participation
 
-Assume now that the carrier survives:
+Assume now that the carrier survives, or that the Pack-before-Part resurfacing
+audit has licensed a direct Part test for a singular same-solution terminal
+source record:
 
 ```math
-Pack_Q.
+Pack_Q
+\quad\text{or}\quad
+\text{same-solution pointwise participation record}.
 \tag{RHP.13}
 ```
 
@@ -184,10 +193,15 @@ source-residue polarity correction applies:
 \tag{RHP.14}
 ```
 
-Under `(RHP.13)`, this reduces to
+Under `(RHP.13)`, this gives
 
 ```math
-Pack_Q+\mathcal R_{src}
+\left(
+Pack_Q
+\quad\text{or}\quad
+\text{same-solution pointwise participation record}
+\right)
++\mathcal R_{src}
 \Longrightarrow
 \neg Part_{N,Q}.
 \tag{RHP.15}
@@ -206,8 +220,10 @@ K_k=-\nabla^{k+1}p+\nu\Delta U_k,
 ```
 
 A raw unpaid source residue is not a lawful retained source inside that tower
-after legal losses and paid ledgers have been removed.  It is the failure of
-participation, not a later one-field coherence failure.
+after legal losses and paid ledgers have been removed.  When the original
+pressure-viscosity-source participation record is still meaningful, this is a
+Part failure before it is a Pack-only disposal or a later one-field coherence
+failure.
 
 ## 5. Part/Field service contradiction for the terminal atom
 
@@ -256,7 +272,9 @@ readout incompatibility.
 
 ## 6. Pack/Part/Field consumption theorem
 
-Combining the three face tests gives the local branch theorem:
+Combining the three face tests, with the Pack-before-Part resurfacing audit
+inserted before any singular `not Pack_Q` disposal, gives the local branch
+theorem:
 
 ```math
 \boxed{
@@ -278,7 +296,10 @@ Equivalently, Pack-first:
 \text{retained pulse}
 \Longrightarrow
 \begin{cases}
-\neg Pack_Q,\\
+\neg Pack_Q
+\quad\text{only when no pointwise participation record remains},\\
+\neg Part_{N,Q}
+\quad\text{when the source-participation record remains},\\
 Pack_Q\wedge\neg Part_{N,Q},\\
 Pack_Q\wedge Part_{N,Q}\wedge\forall r>0\,\neg Field_{N,r,Q}.
 \end{cases}
