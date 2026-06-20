@@ -67,7 +67,7 @@ The oscillation defect measure records a positive rank-one fiber:
 
 ```math
 \mu_{osc}
-\sim
+=
 {1\over2}\psi(y)^2\,e_1\otimes e_1
 \otimes\delta_{\xi=e_2}.
 \tag{MDR.5}
