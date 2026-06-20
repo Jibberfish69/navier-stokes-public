@@ -125,10 +125,13 @@ carrier.
 Ordinary energy/profile orthogonality does not imply
 
 ```math
+\left|
 \mu^{src,+}_{terminal}(u_m)
-\sim
-\sum_j
+-
+\sum_{j\in J_m}
 \mu^{src,+}_{terminal}(U^j)
+\right|
+\to0
 \tag{CEA.11}
 ```
 
@@ -209,21 +212,32 @@ u=r_j^{-1}v_j,
 \tag{CEA.16a}
 ```
 
-physical local-energy defect, dissipation, and flux masses carry one radius of
-weight:
+define the renormalized local-energy defect on normalized sets \(A\subset Q_1^-\) by
+
+```math
+\mu_{LE,j}^{ren}(A)
+:=
+r_j^{-1}\,
+\mu_{LE}^{phys}
+\bigl((x_j+r_jA_x)\times(T_j+r_j^2A_t)\bigr).
+\tag{CEA.16b}
+```
+
+Then physical local-energy defect, dissipation, and flux masses carry one
+radius of weight:
 
 ```math
 \mu_{LE}^{phys}(Q_j)
-\simeq
-r_j\,\mu_{LE}^{ren}(Q_1^-).
-\tag{CEA.16b}
+=
+r_j\,\mu_{LE,j}^{ren}(Q_1^-).
+\tag{CEA.16c}
 ```
 
 Thus finite physical local-energy measure can control
 
 ```math
-\sum_j r_j\mu_{LE}^{ren}(Q_1^-),
-\tag{CEA.16c}
+\sum_j r_j\mu_{LE,j}^{ren}(Q_1^-),
+\tag{CEA.16d}
 ```
 
 while the no-waste terminal strip modulus needs unweighted control of
@@ -233,7 +247,7 @@ while the no-waste terminal strip modulus needs unweighted control of
 a_j(s)=\theta_j^{-1}\mathbf 1_{(-\theta_j,0]},
 \qquad
 \theta_j\downarrow0,
-\tag{CEA.16d}
+\tag{CEA.16e}
 ```
 
 has order-one terminal mass in renormalized variables and only order \(r_j\)
