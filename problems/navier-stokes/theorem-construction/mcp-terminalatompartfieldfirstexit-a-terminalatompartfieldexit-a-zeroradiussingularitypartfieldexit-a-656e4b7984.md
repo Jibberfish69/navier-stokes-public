@@ -128,7 +128,7 @@ This proves `TerminalAtomPartFieldFirstExit.A` as a Part/Field-first route theor
 The proof never says:
 
 ```text
-terminal atom has no positive radius, therefore not Pack_Q, therefore class exit.
+terminal atom has no positive radius, so Pack alone proves class exit.
 ```
 
 Instead it says:

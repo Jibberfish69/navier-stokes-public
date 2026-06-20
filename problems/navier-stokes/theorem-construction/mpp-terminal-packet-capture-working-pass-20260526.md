@@ -232,8 +232,9 @@ The possible escape modes are:
 - the obstruction fragments over infinitely many terminal packets;
 - the selected packet carries only a diagnostic subbranch and not the
   continuation obstruction;
-- terminal scale degenerates in a way that should be counted as `not Pack_Q`
-  but is not tied to a named selected `Q_*`;
+- terminal scale degenerates in a way that must be typed first under pointwise
+  original-NS participation, giving true `not Pack_Q` only when the
+  record/carrier/readout is absent and otherwise landing in Part;
 - on noncompact variants, terminal mass may escape unless the torus-first
   setting or a tightness hypothesis is explicitly fixed.
 
