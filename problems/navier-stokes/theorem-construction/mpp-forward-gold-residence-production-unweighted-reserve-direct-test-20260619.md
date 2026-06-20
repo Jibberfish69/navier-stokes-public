@@ -87,13 +87,28 @@ a_j(s)\le C\,G_j(s)+\ell_j(s),
 \tag{RPU.7}
 \]
 
-and \(\ell_j\) has its own terminal strip modulus, then Cauchy--Schwarz gives
+and \(\ell_j\) has its own terminal strip modulus, while the square density is
+uniformly bounded,
 
 \[
+\sup_j\int_{-1}^{0}G_j(s)^2\,ds\le C_\square ,
+\tag{RPU.7a}
+\]
+
+then Cauchy--Schwarz gives
+
+\[
+\begin{aligned}
 \int_{-\varepsilon}^{0}a_j(s)\,ds
-\le
-C\varepsilon^{1/2}
-\int_{-\varepsilon}^{0}\ell_j(s)\,ds.
+&\le
+C\int_{-\varepsilon}^{0}G_j(s)\,ds
++
+\int_{-\varepsilon}^{0}\ell_j(s)\,ds \\
+&\le
+C C_\square^{1/2}\varepsilon^{1/2}
++
+\int_{-\varepsilon}^{0}\ell_j(s)\,ds .
+\end{aligned}
 \tag{RPU.8}
 \]
 
