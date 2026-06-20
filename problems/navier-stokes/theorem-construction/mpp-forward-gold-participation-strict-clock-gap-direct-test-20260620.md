@@ -133,18 +133,34 @@ Set \(r_j=2^{-j}\) and \(|I_j|=r_j^2\).  The physical version of the normalized
 neutral balance has
 
 ```math
-\int_{I_j}D_j^{phys}(t)\,dt\simeq r_j,
+c_Dr_j
+\le
+\int_{I_j}D_j^{phys}(t)\,dt
+\le
+C_Dr_j,
 \qquad
-\int_{I_j}F_j^{phys}(t)\,dt\simeq r_j,
+c_Fr_j
+\le
+\int_{I_j}F_j^{phys}(t)\,dt
+\le
+C_Fr_j,
 \tag{PSG.10}
 ```
 
 while the normalized packet action is order one:
 
 ```math
-r_j^{-1}\int_{I_j}D_j^{phys}(t)\,dt\simeq1,
+c_D
+\le
+r_j^{-1}\int_{I_j}D_j^{phys}(t)\,dt
+\le
+C_D,
 \qquad
-r_j^{-1}\int_{I_j}F_j^{phys}(t)\,dt\simeq1.
+c_F
+\le
+r_j^{-1}\int_{I_j}F_j^{phys}(t)\,dt
+\le
+C_F.
 \tag{PSG.11}
 ```
 
@@ -152,8 +168,8 @@ Thus a dyadic terminal stack satisfies
 
 ```math
 \sum_j\int_{I_j}D_j^{phys}(t)\,dt
-\simeq
-\sum_j r_j
+\le
+C_D\sum_j r_j
 <\infty,
 \tag{PSG.12}
 ```
