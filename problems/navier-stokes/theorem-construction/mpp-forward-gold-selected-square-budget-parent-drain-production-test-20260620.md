@@ -8,6 +8,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-square-reserve-signed-balance-merge-closeout-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-normalized-adjoint-amplitude-four-certificate-discharge-20260504.md
   - problems/navier-stokes/theorem-construction/mpp-source-drain-definition-alignment-and-discharge-20260504.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-linear-source-pulse-identity-direct-test-20260620.md
 downstream_consequence: "The parent-drain machinery remains a real supplier for the linear source-pulse/no-Jump_avg route, but it is not a proof of SelectedParticipationSquareBudget.A. It can pay selected square budget only after a new same-carrier bridge identifies the selected square participation current with weighted adjoint residual squares, or after a square-version parent-drain/no-free-Zeno theorem is proved."
 ---
 
@@ -196,6 +197,13 @@ object also contains a nonzero linear source-pulse residue.  In that case,
 first-pulse selection supplies no earlier source-pulse parent, and `(PDP.5)`
 pays any new creation by the residual square.
 
+The follow-up linear identity test shows that this should not be silently
+upgraded to all nonzero selected participation residence.  A selected
+participation packet can have nonzero linear residence because of principal
+flow gain already moved into the propagator while the source-drain residual
+creation is zero.  Thus the harvested branch is precisely the source-pulse
+subbranch, not every linear selected-participation subbranch.
+
 Thus the source-drain package gives a real conditional fork:
 
 ```math
@@ -220,7 +228,10 @@ r_j^{-1}\int_{I_j}\Pi_j^{part,+}\,dt\to0.
 ```
 
 That branch is exactly the retained heat-scale participation reserve already
-isolated by the coherent-participation test.
+isolated by the coherent-participation test.  The non-source-residue linear
+participation branch is adjacent to it: both require participation
+parent/gain accounting rather than the existing source-pulse parent-drain
+theorem alone.
 
 ## 4. Exact bridge that would make parent-drain close the square budget
 
