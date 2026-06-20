@@ -100,10 +100,10 @@ dE_m^{fin}
 =
 \sum_\alpha
 a_\alpha(\delta_{R_{\alpha,0}}-\delta_{D_{\alpha,L_\alpha}})
-dE_m^{legal}
-o_m(1),
++dE_m^{legal}
++o_m(1),
 \qquad
-a_e>0.
+a_\alpha>0.
 \tag{STC.8}
 ```
 
@@ -127,16 +127,16 @@ Thus
 &\le
 \sum_\alpha
 a_\alpha|\zeta(R_{\alpha,0})-\zeta(D_{\alpha,L_\alpha})|
-\operatorname{Legal}_{m,\zeta}
-o_m(1)
++\operatorname{Legal}_{m,\zeta}
++o_m(1)
 \\
 &\le
 C_\kappa
 \sum_\alpha
 a_\alpha
 |\psi(R_{\alpha,0})-\psi(D_{\alpha,L_\alpha})|_{\ell^\infty}
-\operatorname{Legal}_{m,\zeta}
-o_m(1).
++\operatorname{Legal}_{m,\zeta}
++o_m(1).
 \end{aligned}
 \tag{STC.10}
 ```
