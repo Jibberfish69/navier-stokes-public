@@ -44,7 +44,7 @@ UniformTerminalFieldNoJumpModulus.A
 FieldTerminalClosednessFromSmoothData.A
 FixedTargetReadoutContinuity.A
 OneFieldRepresentativeCompactness.A
-CrossProfileBoundaryFieldExit.A plus one-profile reduction/continuation for the remaining branch.
+Cross-profile Field exit theorem plus one-profile reduction/continuation for the remaining branch.
 ```
 
 ## Conditional theorem
