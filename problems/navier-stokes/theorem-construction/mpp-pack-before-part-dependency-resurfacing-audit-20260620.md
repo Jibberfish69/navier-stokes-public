@@ -42,13 +42,13 @@ incompressibility,
 and a terminal point or limit record tied to that same law.
 ```
 
-If that status is present, the object is resurfaced under the original Navier-Stokes participation law first.
-Here `Part()` means the participation predicate with its argument intentionally
-left open until the live same-solution object is supplied. The dead/blown
-question is then read from the pointwise participation/tower mechanism before
-any Pack-window conclusion is spent. A later local Silver readout may express
-that failure as `not Part_{N,Q}` only after a local tested record has been
-named; the pre-Pack test itself is not indexed by an admitted `Q`.
+If that status is present, the object is resurfaced under the original
+Navier-Stokes participation law first. The dead/blown question is read from the
+pointwise participation/tower mechanism before any Pack-window conclusion is
+spent. A later local Silver readout may express that failure as
+`not Part_{N,Q}` only after a local tested record has been named; the pre-Pack
+test itself is not indexed by an admitted `Q` and does not use an
+empty-parenthesis predicate placeholder.
 
 If that status is absent, `not Pack_Q` remains a true carrier/window failure.
 In that case Pack has not been asked to supply participation; it has only marked
