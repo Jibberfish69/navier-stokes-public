@@ -44,14 +44,20 @@ saturation equivalent.
 
 ## 1. Energy-sized functionals cannot pay the pulse
 
-Let \(I_\lambda=[0,\lambda^{-2}]\), and take the sharp heat-scale source profile
+Let \(I_\lambda=[0,\lambda^{-2}]\).  Fix
+\(\varphi\in L^\infty(0,1)\cap L^2(0,1)\) with
+
+```math
+\int_0^1\varphi(\sigma)^2\,d\sigma=1,
+\tag{NWCB.2a}
+```
+
+and take the heat-scale source profile
 
 ```math
 F_\lambda(t)
 =
-\lambda^{1/2}\varphi(\lambda^2t),
-\qquad
-\int_0^1\varphi(\sigma)^2\,d\sigma=1.
+\lambda^{1/2}\varphi(\lambda^2t).
 \tag{NWCB.2}
 ```
 
@@ -59,7 +65,12 @@ Then
 
 ```math
 \int_{I_\lambda}F_\lambda(t)\,dt
-=O(\lambda^{-3/2}),
+=
+\lambda^{-3/2}\int_0^1\varphi(\sigma)\,d\sigma,
+\qquad
+\left|\int_{I_\lambda}F_\lambda(t)\,dt\right|
+\le
+\lambda^{-3/2}\|\varphi\|_{L^1(0,1)},
 \tag{NWCB.3}
 ```
 
@@ -71,12 +82,19 @@ while
 \tag{NWCB.4}
 ```
 
-For a shell-energy scale \(E_\lambda(t)\sim\lambda^{-2}F_\lambda(t)\), the
-available size is
+Define the corresponding shell-energy scale by
 
 ```math
-\sup_{I_\lambda}E_\lambda(t)
-=O(\lambda^{-3/2}).
+E_\lambda(t):=\lambda^{-2}|F_\lambda(t)|.
+\tag{NWCB.5a}
+```
+
+Then its available size is exactly bounded by
+
+```math
+\sup_{t\in I_\lambda}E_\lambda(t)
+=
+\lambda^{-3/2}\|\varphi\|_{L^\infty(0,1)}.
 \tag{NWCB.5}
 ```
 
