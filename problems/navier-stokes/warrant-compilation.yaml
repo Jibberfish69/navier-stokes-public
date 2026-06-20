@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: warrant-compilation-navier-stokes
-  generated_at: '2026-06-20T17:21:45Z'
+  generated_at: '2026-06-20T17:23:16Z'
   generator: tools/ns_pipeline_hardener.rb
 primary_track:
   route_id: source-grounded-four-bridge
