@@ -4,7 +4,7 @@ ns_viewer:
   status: conditional-cm-face-consumption-proved-forward-supplier-not-proved
   proof_role: cm_consumption_of_selected_square_budget_failure
   logical_landing_node: selected_square_budget_failure_to_pack_part_field
-  edge_effect: "Proves the CM-side consumption of the exact selected participation square-budget failure. Once the failure is admitted as the same terminal witness, Pack failure, Part failure, or retained Pack+Part with Field incompatibility exhausts it. Field incompatibility is by the installed H^s readout: a positive Field certificate gives dyadic decay strong enough to force the selected square current to zero, contradicting an order-one square-budget failure."
+  edge_effect: "Proves the CM-side consumption of the exact selected participation square-budget failure. Once the failure is admitted as the same terminal witness, Pack failure, Part failure, or retained Pack+Part with Field incompatibility exhausts it. Field incompatibility is by the installed H^s readout: a positive Field certificate gives dyadic decay strong enough to force the selected square current to zero, contradicting a fixed positive square-budget failure."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-square-budget-direct-attempt-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
@@ -223,4 +223,3 @@ After admission, it is consumed by the CM Pack/Part/Field tree:
 \text{Pack/Part/Field face failure.}
 }
 ```
-
