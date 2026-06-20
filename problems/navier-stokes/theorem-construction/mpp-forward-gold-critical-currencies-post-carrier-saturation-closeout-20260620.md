@@ -176,7 +176,10 @@ has positive rank-one polarization \(e_1\otimes e_1\) at \(\xi=e_2\), and
 
 Thus H-measure or Young-measure compactness sees the selected positive defect
 as a positive measure; it does not make that measure endpoint-uniformly
-integrable, square-summable, polar-saturated, or impossible.
+integrable, square-summable, polar-saturated, or impossible.  The follow-up
+rigidity-consumer test shows that this positive defect measure also is not yet
+an ancient solution, a Landau-class stationary profile, or a rigid
+time-face-anti-atom subclass object.
 
 ## 4. CKN is visibility, not summability
 
@@ -293,7 +296,7 @@ The remaining noncircular suppliers are exactly:
 \text{strict exponent slack or same-layer terminal tail depletion},\\
 \text{selected positive polar saturation with retained signed partners},\\
 \text{strict pressure-corrected no-waste Lyapunov control},\\
-\text{or critical-element rigidity that evacuates the terminal carrier.}
+\text{or rigidity after exact defect-to-profile / no-waste production.}
 \end{gathered}
 \tag{CCO.22}
 ```
