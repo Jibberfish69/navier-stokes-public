@@ -213,7 +213,7 @@ The exact implication that remains open is
 \boxed{
 NoNullSourceParentCloud.A
 +
-SelectedPolarSaturation.A
+SelectedPositivePolarSaturation.A
 \Longrightarrow
 DonorReserveAdjointTrace.A.
 }

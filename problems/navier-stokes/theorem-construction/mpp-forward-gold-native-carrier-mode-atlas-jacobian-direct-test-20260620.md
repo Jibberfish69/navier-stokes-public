@@ -170,7 +170,7 @@ positive carrier still needs
 ```math
 \text{ModeSignCoherentShadowLocalization.A}
 +
-\text{SelectedPolarSaturation.A}
+\text{SelectedPositivePolarSaturation.A}
 \tag{NCM.13}
 ```
 
@@ -195,7 +195,7 @@ and
 ```
 
 The first is `NativeCarrierTangentObservability.A`.  The second is the existing
-`SourceResolvedNativeModeReadout.A + SelectedPolarSaturation.A` wall.
+`SourceResolvedNativeModeReadout.A + SelectedPositivePolarSaturation.A` wall.
 
 ## 5. Exact reduction
 

@@ -233,7 +233,7 @@ The branch therefore returns to the same currencies as the endpoint mismatch:
 \quad
 \text{NoNullSourceParentCloud.A}
 +
-\text{SelectedPolarSaturation.A},
+\text{SelectedPositivePolarSaturation.A},
 \quad
 \text{SourceSquareReserve.A},
 \quad

@@ -258,7 +258,7 @@ So this branch returns to the already-live currencies:
 ```math
 \text{NoNullSourceParentCloud.A}
 +
-\text{SelectedPolarSaturation.A},
+\text{SelectedPositivePolarSaturation.A},
 \tag{EMM.22}
 ```
 

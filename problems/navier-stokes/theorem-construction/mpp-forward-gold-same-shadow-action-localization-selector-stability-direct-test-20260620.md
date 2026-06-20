@@ -164,7 +164,7 @@ Equivalently, the route can be supplied by
 \boxed{
 \text{SourceResolvedNativeModeReadout.A}
 +
-\text{SelectedPolarSaturation.A}
+\text{SelectedPositivePolarSaturation.A}
 +
 \text{StrictRescaledNoWasteLyapunov.A}.
 }

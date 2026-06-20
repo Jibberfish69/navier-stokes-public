@@ -184,7 +184,7 @@ still needs the selected positive carrier bridge:
 \boxed{
 \text{SourceResolvedNativeModeReadout.A}
 +
-\text{SelectedPolarSaturation.A}.
+\text{SelectedPositivePolarSaturation.A}.
 }
 \tag{ERF.13}
 ```
@@ -281,7 +281,7 @@ on the gauge branch,
 \boxed{
 \text{SourceResolvedNativeModeReadout.A}
 +
-\text{SelectedPolarSaturation.A}
+\text{SelectedPositivePolarSaturation.A}
 }
 \tag{ERF.21}
 ```

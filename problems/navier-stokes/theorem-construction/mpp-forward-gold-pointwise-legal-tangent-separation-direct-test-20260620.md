@@ -168,7 +168,7 @@ is weaker than
 
 So proving `(PLT.2)` would help the gauge spectral-gap branch, but it would not
 by itself prove `SourceResolvedNativeModeReadout.A` or
-`SelectedPolarSaturation.A`.  Those are the additional positive-carrier
+`SelectedPositivePolarSaturation.A`.  Those are the additional positive-carrier
 bridges after the signed legal test exists.
 
 ## 5. Exact reduction

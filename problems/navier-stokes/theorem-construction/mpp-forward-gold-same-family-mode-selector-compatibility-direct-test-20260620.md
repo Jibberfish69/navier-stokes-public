@@ -303,5 +303,5 @@ selector stability taken one selector at a time.
 After this bridge is installed, the same-family obstruction is removed from
 `ModeTestCompatibility.A` and `SameGaugeSourceActionCompatibility.A`.  The live
 source-side burden then remains `SourceResolvedNativeModeReadout.A` plus
-`SelectedPolarSaturation.A`, or the stronger source-square / strict no-waste
+`SelectedPositivePolarSaturation.A`, or the stronger source-square / strict no-waste
 supplier that pays both.

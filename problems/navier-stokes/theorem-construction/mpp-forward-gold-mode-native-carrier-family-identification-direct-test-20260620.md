@@ -228,7 +228,7 @@ The score-comparison input is itself supplied only by one of two routes:
 +
 \text{ModeSignCoherentShadowLocalization.A}
 +
-\text{SelectedPolarSaturation.A}.
+\text{SelectedPositivePolarSaturation.A}.
 }
 \tag{MNFI.15}
 ```

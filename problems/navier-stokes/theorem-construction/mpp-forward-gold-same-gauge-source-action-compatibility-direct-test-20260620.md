@@ -114,7 +114,7 @@ At current input strength,
 +
 \text{SourceResolvedNativeModeReadout.A}
 +
-\text{SelectedPolarSaturation.A}.
+\text{SelectedPositivePolarSaturation.A}.
 }
 \tag{SGSA.8}
 ```
