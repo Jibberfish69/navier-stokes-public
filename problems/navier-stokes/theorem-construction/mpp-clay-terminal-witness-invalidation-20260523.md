@@ -3,7 +3,7 @@
 Date: 2026-05-23
 
 Status: corrected CM-contrapositive theorem note; proof thickened at the
-Pack/Part/Field case split.
+Pack/Part/Field case split and updated for Pack-before-Part resurfacing.
 
 Theorem labels:
 
@@ -44,7 +44,7 @@ has lost.
 3. `GenuineCMExit.Equiv.A`: finite terminal non-continuation is equivalent to
    genuine continuation-complete CM exit.
 4. `CanonicalTerminalPacketCapture.A`: every same-solution terminal obstruction
-   is captured by the Pack-first CM witness tree.
+   is captured by the CM witness tree.
 5. `AnyFiniteFailureWitnessCMExit.A`: every genuine finite-time failure witness
    lands in
 
@@ -58,7 +58,12 @@ has lost.
 
 6. `TerminalSourceResidueCMExit.A`: terminal source residue is a Pack/Part
    witness, not a fourth residue and not a deletion burden.
-7. The governing primitive:
+7. `PartFieldBeforePackLicensing.A` and the June 20 Pack-before-Part
+   resurfacing audit: a singular or pre-Pack same-solution terminal object with
+   a meaningful original Navier-Stokes participation record must be tested at
+   `Part_{N,Q}` / `Field_{N,r,Q}` before it is allowed to remain a Pack-only
+   exit.
+8. The governing primitive:
 
 ```math
 Exit(Q;\mathfrak O_{NS}^{work})
@@ -85,7 +90,11 @@ This means:
    branches, readout-only artifacts, and paid finite ledger terms are removed,
    `W_*` is still claiming to be the finite terminal obstruction;
 5. same witness grammar: the only primitive terminal services available to that
-   obstruction are `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`.
+   obstruction are `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`. Ordinary
+   positive-carrier branches use the usual Pack/Part/Field order. Singular or
+   pre-Pack branches that still carry a same-solution pointwise participation
+   record are surfaced under `Part_{N,Q}` / `Field_{N,r,Q}` before a Pack-only
+   conclusion is spent.
 
 This definition does not assume that `W_*` is a class-member. Class exit is the
 conclusion produced only after a Pack/Part/Field face failure is derived.
@@ -137,12 +146,12 @@ does positive-scale one-field coherence survive?
 ```
 
 These are exactly the Pack, Part, and Field services. Therefore `W_*` enters the
-Pack-first terminal CM tree:
+same-fluid terminal CM tree:
 
 ```text
-Pack first;
-if Pack survives, Part second;
-if Pack and Part survive, Field third.
+ordinary positive-carrier branches: Pack first, then Part, then Field;
+singular/pre-Pack same-solution branches: test the participation and readout
+record before using Pack-only disposal.
 ```
 
 So `W_*` enters `TerminalCMTree(W_*)`.
