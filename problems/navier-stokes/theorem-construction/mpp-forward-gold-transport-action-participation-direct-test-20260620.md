@@ -84,13 +84,19 @@ pure Wasserstein cost.
 
 ## 3. The heat-scale cost is still discounted
 
-Let a terminal packet have radius \(r\), heat time \(\tau\simeq r^2\), and
-normalized velocity size \(u\simeq r^{-1}\) on volume \(r^3\).
+For a fixed nonzero normalized profile \(V\), let a terminal packet have radius
+\(r\), heat time \(\tau=r^2\), and velocity
+
+\[
+u_r(x)=r^{-1}V(x/r).
+\]
 
 Its physical kinetic energy is
 
 \[
-E_r\simeq r^3 r^{-2}=r.
+E_r=C_E(V)r,
+\qquad
+C_E(V)={1\over2}\int |V(y)|^2\,dy.
 \]
 
 Moving that physical energy a distance \(r\) over time \(r^2\) gives the
@@ -98,10 +104,8 @@ transport-action scale
 
 \[
 E_r\,{r^2\over r^2}
-\simeq
-E_r
-\simeq
-r.
+=
+C_E(V)r.
 \]
 
 So one normalized heat-scale packet pays only order \(r\) in the physical
