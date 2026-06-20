@@ -70,6 +70,18 @@ Then
 \tag{SGT.5}
 ```
 
+Young's inequality converts this to the additive ledger form:
+
+```math
+\int_{J_m}|Q_m(s)|\,v_m(s)\,ds
+\le
+{1\over2}\operatorname{Legal}^{src2}_m
++
+{1\over2}\operatorname{Legal}^{mod}_m
++o_m(1).
+\tag{SGT.5a}
+```
+
 Equivalently, a strict no-waste Lyapunov theorem would prove `(SGT.1)` if its
 action density directly dominates the product:
 
@@ -228,4 +240,3 @@ source mass, scalar donor balance, bounded overlap, co-transport, or discounted
 physical modulation action.  It needs a real same-shadow product control:
 source-square plus unweighted modulation action, strict no-waste with product
 domination, or lower-frame/no-null source visibility on the selected carrier.
-
