@@ -159,17 +159,18 @@ Enstrophy plus Bernstein gives, on a heat window \(I_j\) of length
 
 \[
 \int_{I_j}\|S_{<j}^{loc}(t)\|_\infty\,dt
-\lesssim
+C_B
 2^{j/2}\nu^{-1}
 \left(\int_{I_j}\mathcal D(t)\,dt\right)^{1/2}.
 \]
 
-An \(O(1)\) coefficient-residence bound needs the sharper terminal rate
+A coefficient-residence bound by a fixed constant \(C_0\) needs the sharper
+terminal rate
 
 \[
 \int_{I_j}\mathcal D(t)\,dt
-\lesssim
-\nu^2 2^{-j}.
+\le
+\left({C_0\over C_B}\right)^2\nu^2 2^{-j}.
 \]
 
 Finite \(L_t^1\) dissipation gives absolute continuity of the dissipation
@@ -275,4 +276,3 @@ unweighted terminal critical reserve on the actual selected positive carrier,
 or a strict no-waste theorem that produces that reserve.  Failure of that
 content leaves a retained terminal heat-scale pulse for the CM Pack/Part/Field
 witness-face route.
-
