@@ -167,6 +167,22 @@ nonzero selected participation residence but vanishing source-pulse residue
 returns to normalized endpoint-energy trace accounting rather than to
 product-throttle analysis.
 
+The next direct test
+`mpp-forward-gold-linear-positive-energy-trace-saturation-direct-test-20260620.md`
+checks the positive-trace step inside that accounting.  It is also not installed:
+the signed endpoint-energy trace can cancel across expanding and contracting
+channels while the selected positive carrier retains the expanding channel.
+Thus the non-source-residue linear subbranch now reduces to
+
+```math
+\boxed{
+\text{LinearEnergyTracePolarSaturation.A}
++
+\text{NoFreeTerminalNormalizedEnergyTrace.A}.
+}
+\tag{PTT.12a}
+```
+
 ## 4. Square-only height blowup branch
 
 The pure square branch is the remaining case:
@@ -241,7 +257,7 @@ Equivalently, a complete same-carrier square proof has the structure:
 \begin{gathered}
 \text{EndpointUI.A removes branch 1,}\\
 \text{SourceDrain/parent-drain removes the source-pulse subbranch of branch 2,}\\
-\text{linear positive energy-trace saturation plus no-free terminal normalized trace removes the rest of branch 2,}\\
+ \text{linear energy-trace polar saturation plus no-free terminal normalized trace removes the rest of branch 2,}\\
 \text{ActiveWindowHeight.A or SourceSquareReserve.A or StrictNoWaste.A removes branch 3.}
 \end{gathered}
 \tag{PTT.19}
@@ -260,8 +276,8 @@ Terminal atoms belong to endpoint UI.  Nonzero linear source-pulse residue
 belongs to the linear source-drain/parent-drain branch.  Nonzero linear
 participation residence that is not source-pulse residue belongs to the
 normalized endpoint-energy trace branch.  That branch is paid only after
-positive energy-trace saturation and a no-free terminal normalized-energy trace
-theorem.  After both linear subbranches are paid, what remains is the
+linear energy-trace polar saturation and a no-free terminal normalized-energy
+trace theorem.  After both linear subbranches are paid, what remains is the
 square-only heat-scale branch:
 
 ```math
