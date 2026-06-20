@@ -9,6 +9,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-post-endpoint-ui-minimal-split-active-height-sweep-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-three-clause-pass-or-cm-exit-assembly-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-linear-source-pulse-identity-direct-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-linear-participation-parent-or-charge-direct-test-20260620.md
 downstream_consequence: "The forward-gold square wall is localized to the square-only branch only after terminal atoms and nonzero linear participation residence are separately paid. Source-drain pays the actual source-pulse subbranch; the non-source-residue participation subbranch still needs same-carrier linear parent/gain accounting. The remaining square production theorem must either bound the selected active height, prove same-carrier source-square/product throttle directly, or route the admitted retained height blowup through CM Pack/Part/Field."
 ---
 
@@ -240,7 +241,7 @@ Equivalently, a complete same-carrier square proof has the structure:
 \begin{gathered}
 \text{EndpointUI.A removes branch 1,}\\
 \text{SourceDrain/parent-drain removes the source-pulse subbranch of branch 2,}\\
-\text{same-carrier participation parent/gain accounting removes the rest of branch 2,}\\
+\text{linear positive energy-trace saturation plus no-free terminal normalized trace removes the rest of branch 2,}\\
 \text{ActiveWindowHeight.A or SourceSquareReserve.A or StrictNoWaste.A removes branch 3.}
 \end{gathered}
 \tag{PTT.19}
@@ -248,7 +249,8 @@ Equivalently, a complete same-carrier square proof has the structure:
 
 Current inputs do not prove the last line of `(PTT.19)`.  They also do not
 prove the same-carrier source-pulse identity `(PTT.12)` in linear
-participation currency.
+participation currency, or the normalized endpoint-energy trace theorem needed
+for the non-source-residue linear subbranch.
 
 ## Verdict
 
@@ -257,8 +259,10 @@ The product-throttle wall is now smaller and more exact.
 Terminal atoms belong to endpoint UI.  Nonzero linear source-pulse residue
 belongs to the linear source-drain/parent-drain branch.  Nonzero linear
 participation residence that is not source-pulse residue belongs to the
-same-carrier participation parent/gain branch.  After both linear subbranches
-are paid, what remains is the square-only heat-scale branch:
+normalized endpoint-energy trace branch.  That branch is paid only after
+positive energy-trace saturation and a no-free terminal normalized-energy trace
+theorem.  After both linear subbranches are paid, what remains is the
+square-only heat-scale branch:
 
 ```math
 \boxed{
