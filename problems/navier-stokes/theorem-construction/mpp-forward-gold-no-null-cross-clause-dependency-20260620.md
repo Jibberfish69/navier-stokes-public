@@ -147,7 +147,7 @@ Thus the valid dependency is
 \boxed{
 \text{same-carrier no-null/saturation theorem on the actual selected ledger}
 \Longrightarrow
-\text{Clause B trace route and Clause C readout route become payed.}
+\text{Clause B trace route and Clause C readout route become paid.}
 }
 \tag{NCC.11}
 ```
