@@ -130,8 +130,8 @@ Then the positive-part inequality gives visibility on the native carrier:
 \sum_{P\in\mathcal F_m^{sel}}
 \int_{Q(P)}
 \bigl[\mathcal N^{loc}_{preCauchy}(u;P)\bigr]_+
-\gtrsim
-|b|
+\ge
+c_1|b|
 -\operatorname{Legal}_m
 -o_m(1).
 \tag{MF.9}
