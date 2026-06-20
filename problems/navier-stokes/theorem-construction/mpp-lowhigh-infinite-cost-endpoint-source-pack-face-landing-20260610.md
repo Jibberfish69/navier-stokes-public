@@ -41,8 +41,10 @@ The live theorem edge records the terminal Zeno correction:
 
 ```text
 finite Zeno ancestry packets may be legal positive-radius CM packets,
-but the terminal limit r_m -> 0 is not Pack_Q
-before any retained Field_{N,r,Q} face can be spent.
+but the terminal limit r_m -> 0 is typed before Pack is spent: Part-first when
+the same original-NS pointwise participation record remains, and true not Pack_Q
+only when that record/carrier/readout is absent before any retained
+Field_{N,r,Q} face can be spent.
 ```
 
 It also records the source-residue polarity correction:
