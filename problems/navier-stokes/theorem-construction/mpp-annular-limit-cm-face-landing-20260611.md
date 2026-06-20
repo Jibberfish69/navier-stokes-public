@@ -36,7 +36,7 @@ the bare endpoint point.
 So the silver route may not argue:
 
 ```text
-r_* = 0 => not Pack_Q => terminal-radius problem solved.
+bare r_* = 0 gives no Pack-only terminal-radius closure.
 ```
 
 It has to follow the annular witness first.
