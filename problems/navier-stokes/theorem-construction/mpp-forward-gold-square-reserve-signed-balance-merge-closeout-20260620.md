@@ -4,10 +4,10 @@ Date: 2026-06-20
 
 ## Status
 
-Direct merge closeout complete.  This note does not solve the forward-gold
-terminal heat-scale obstruction.  It records that the square-reserve /
-birth-charge route no longer provides an independent supplier branch at the
-current resolution.
+Direct merge closeout complete, with the later square-spreading correction
+installed.  This note does not solve the forward-gold terminal heat-scale
+obstruction.  It records that the square-reserve / birth-charge route no longer
+provides an independent supplier branch at the current resolution.
 
 After the BKM, critical-norm, critical-strain, normalized CKN, source-square,
 and no-waste tests, the remaining heat-scale object is still the same:
@@ -20,7 +20,8 @@ on the actual selected positive terminal carrier.  The square-reserve attempt
 tries to produce that reserve dynamically by charging the first creation of the
 high-frequency donor square.
 
-The direct work shows that this route merges into:
+The direct work first shows that this route reaches the signed-positive
+balance surface:
 
 ```math
 \boxed{
@@ -35,6 +36,14 @@ or, in the Door 1 language,
 \text{TerminalSignedSaturation.A}.
 }
 ```
+
+That identification is linear.  The later square-saturation and square
+donor-no-spreading tests show that this is not yet a square-reserve theorem:
+the selected receiver can be short and tall while its signed donor partner is
+longer and lower.  Equal signed mass does not control the normalized square
+cost.  Thus the square-reserve route needs either square-synchronous signed
+saturation / square no-spreading, or an equivalent same-carrier endpoint UI,
+source-square, Orlicz, strict no-waste, or rigid Zeno production theorem.
 
 ## 1. Square-charge route
 
@@ -126,7 +135,7 @@ The projected cutoff pieces are legal.  Bare skew exchange cancels only before
 one-sided terminal weights, lifted localization, selected terminal windows, and
 positive-part extraction are applied.
 
-Therefore the source-structure route gives:
+Therefore the source-structure route gives the following conditional shape:
 
 ```math
 \text{TerminalWeightCoherence.A}
@@ -134,13 +143,17 @@ Therefore the source-structure route gives:
 \text{ActiveStrainAlignmentCost.A}
 +
 \text{TerminalSignedSaturation.A}
++
+\text{SquareDonorNoSpreading.A}
 \Longrightarrow
 \text{DonorTailAmplitudeGain.A}.
 \tag{SRB.9}
 ```
 
-Those inputs are not lower installed theorems.  They are the signed-positive
-balance problem in different coordinates.
+Those inputs are not lower installed theorems.  The terminal signed-saturation
+term pays the linear selected carrier.  The square no-spreading term is the
+extra height/thickness assertion needed to upgrade that linear payment to the
+square reserve.
 
 ## 3. Zeno square-pulse route
 
@@ -176,7 +189,10 @@ gates:
 \tag{SRB.12}
 ```
 
-So the Zeno square-pulse route also merges into signed positive balance.
+So the Zeno square-pulse route also reaches signed positive balance, and then
+meets the same square-upgrade obstruction: after the signed partner is located,
+one still has to prevent the partner from paying the receiver's mass over a
+longer, lower time window.
 
 ## 4. Active strain-alignment core
 
@@ -272,7 +288,7 @@ the terminal signed-partner / no-free-sink side.
 
 ## 5. Current exact merge
 
-The square-reserve / birth-charge path has this route shape:
+The square-reserve / birth-charge path has this corrected route shape:
 
 ```math
 \begin{aligned}
@@ -284,7 +300,9 @@ The square-reserve / birth-charge path has this route shape:
 +
 \text{ActiveStrainAlignmentCost.A}
 +
-\text{TerminalSignedSaturation.A}.
+\text{TerminalSignedSaturation.A}
++
+\text{SquareDonorNoSpreading.A}.
 \end{aligned}
 \tag{SRB.17}
 ```
@@ -303,24 +321,33 @@ Failure of the same amplitude gain gives:
 and the missing class-production term again reduces to terminal weight
 coherence plus active strain-alignment cost.
 
-Therefore, after the ASAC and one-sided pair-weight updates, at the present
-route resolution:
+Therefore, after the ASAC, one-sided pair-weight, and square-spreading updates,
+at the present route resolution:
 
 ```math
 \boxed{
 \text{Square-reserve birth charge}
-\equiv_{\rm route}
+\Longrightarrow_{\rm route}
 \text{SignedPositiveBalance.A}
-\equiv_{\rm route}
+\Longrightarrow_{\rm route}
 \text{TerminalSignedSaturation.A}
-\equiv_{\rm route}
-\text{TerminalWeightedNoFreeSink.A}.
++
+\text{SquareDonorNoSpreading.A}.
 }
 \tag{SRB.19}
 ```
 
-Finite donor trees are paid by local donor balance and entrance-leaf decay.
-The infinite terminal donor branch is exactly the Zeno source-residue branch:
+The first arrow is a reduction, not an equivalence.  Terminal signed saturation
+is a linear carrier statement.  The square donor-no-spreading clause is not
+supplied by local donor balance, entrance-leaf decay, finite donor telescoping,
+or the neutral participation identity.  The scalar spreading model in the later
+square no-spreading note has exact linear balance, vanishing storage, and
+order-one normalized receiver square cost while the donor square cost vanishes.
+
+Finite donor trees are paid linearly by local donor balance and entrance-leaf
+decay.  They are square-paid only when each transfer preserves comparable
+height/thickness or charges the spreading defect to a square ledger.  The
+infinite terminal donor branch is exactly the Zeno source-residue branch:
 
 ```math
 \text{ZenoCompactnessExtraction.A}
@@ -335,8 +362,8 @@ The infinite terminal donor branch is exactly the Zeno source-residue branch:
 
 Thus the remaining non-circular forward-gold supplier is endpoint uniform
 integrability / temporal non-atomicity of the selected native positive source
-carrier, or an equivalent same-carrier source-square, Orlicz, strict no-waste,
-or rigid Zeno residue Liouville theorem.
+carrier, or an equivalent same-carrier source-square, Orlicz, square
+no-spreading, strict no-waste, or rigid Zeno residue Liouville theorem.
 
 ## Verdict
 
@@ -345,14 +372,17 @@ target:
 
 ```math
 \boxed{
-\text{prove terminal signed saturation / no-free terminal Zeno donor chain.}
+\text{prove terminal signed saturation plus square no-spreading,}
+\quad
+\text{or prove endpoint UI / source-square / strict no-waste directly.}
 }
 \tag{SRB.21}
 ```
 
-Without terminal signed saturation, endpoint uniform integrability of the
-selected source carrier, same-carrier source-square control, strict no-waste,
-or a rigid Zeno source-residue Liouville theorem, the square-reserve route does
-not close the forward-gold heat-scale terminal pulse.  It becomes either a
-CM-facing Pack/Part/Field face readout, or it remains the same unsolved
-gold-standard source-wall primitive.
+Terminal signed saturation alone is not enough for the square-reserve route.
+Without square no-spreading, endpoint uniform integrability of the selected
+source carrier, same-carrier source-square control, strict no-waste, or a rigid
+Zeno source-residue Liouville theorem, the square-reserve route does not close
+the forward-gold heat-scale terminal pulse.  It becomes either a CM-facing
+Pack/Part/Field face readout, or it remains the same unsolved gold-standard
+source-wall primitive.
