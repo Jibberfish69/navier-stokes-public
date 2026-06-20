@@ -248,9 +248,15 @@ a_j(s)=\theta_j^{-1}\mathbf 1_{(-\theta_j,0]},
 \theta_j\downarrow0,
 \]
 
-has order-one renormalized terminal mass and only order \(r_j\) physical
-local-energy mass.  So the finite physical ledger is compatible with infinitely
-many normalized endpoint atoms.
+has
+
+\[
+\int_{-\theta_j}^{0}a_j(s)\,ds=1,
+\]
+
+and therefore has physical local-energy mass \(r_j\) under the scaling above.
+So the finite physical ledger is compatible with infinitely many normalized
+endpoint atoms.
 
 ## 6. Rigidity remains a consumer
 
