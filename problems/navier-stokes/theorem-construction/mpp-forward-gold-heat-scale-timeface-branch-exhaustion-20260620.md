@@ -483,7 +483,7 @@ consumer, visibility theorem, or CM-facing fallback.
 The terminal source-curve fallback is now explicit: finite selected \(L^1_s\)
 mass gives endpoint uniform integrability or a terminal atom, and the terminal
 atom is already consumed by the Part/Field-first theorem.  This does not install
-the unweighted reserve `(HTE.33)`; it prevents the failed endpoint modulus from
+the unweighted reserve `(HTE.35)`; it prevents the failed endpoint modulus from
 remaining as an independent in-class terminal branch.
 
 ## 5. Consequence for the proof program
