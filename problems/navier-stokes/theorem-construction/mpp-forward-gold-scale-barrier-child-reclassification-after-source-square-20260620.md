@@ -200,10 +200,16 @@ routes reduce it to one of:
 \qquad
 \text{CTS},
 \qquad
-\text{LPAS},
+\text{ResidualSourceBalancedLPAS.A},
 \qquad
 \text{SourceSquareReserve.A}.
 ```
+
+The raw unrenormalized LPAS theorem is not a valid supplier: the exact smooth
+shear counterexample shows that heat-decaying modes with zero nonlinear source
+can violate the raw active-square bill.  The live dyadic fallback is the
+residual/source-balanced LPAS object after exact heat decay, through-flow,
+legal losses, and paid dissipation have been removed.
 
 The fixed-band endpoint survivor is not independent after the source-square
 dominance and pass-or-CM-exit notes.  It is a source-square pass branch or a CM
@@ -232,7 +238,7 @@ where:
 \mathcal R_N^{far}=0
 ```
 
-after a genuine far-corona/CTS/LPAS/source-square reserve is proved, and
+after a genuine far-corona/CTS/residual-LPAS/source-square reserve is proved, and
 otherwise the selected endpoint failure must be routed through the installed
 CM Pack/Part/Field face machinery rather than kept as an unclassified
 scale-barrier child.
