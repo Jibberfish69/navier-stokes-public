@@ -449,8 +449,8 @@ Soft packet lobes:
 
 The soft version is the sharper route, because it removes the artificial
 packet-threshold crossing charge and uses endpoint boundary coherence for
-finite donor paths.  It does not remove retained endpoint mismatch, selected
-polar-saturation failure, or the infinite terminal Zeno donor-chain charge.
+finite donor paths.  It does not remove retained endpoint mismatch, positive
+carrier-saturation failure, or the infinite terminal Zeno donor-chain charge.
 
 By the finite-mode rank test, the test-enriched same-shadow identity itself
 still needs either
@@ -490,5 +490,5 @@ removes that artificial charge and leaves the real obstruction:
 Thus the lobe-shadow branch does not create a new independent endpoint.  It
 collapses back to the same native currencies already isolated by the heat-scale
 pulse and critical-element route: same-shadow source-square/no-waste action,
-selected endpoint polar saturation, or exact Zeno profile production with no
-residual defect measure.
+endpoint readout coherence plus positive carrier saturation, or exact Zeno
+profile production with no residual defect measure.
