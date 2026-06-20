@@ -170,27 +170,28 @@ Result: descent pays finite donor chains, not Zeno donor chains.
 
 ## Attempt 2: energy/dissipation budget
 
-Try to charge each donor transfer to finite energy or finite dissipation.
-The obstruction is scaling.
-
-A heat-scale terminal pulse with radius \(r_m\) and critical amplitude
+Try to charge each donor transfer to finite energy or finite dissipation.  The
+obstruction is scaling.  For a fixed profile \(U\in L^2(B_1)\), put
 
 ```math
-|u_m|\sim r_m^{-1}
+u_m(x)=r_m^{-1}U\left({x-x_m\over r_m}\right)
+\quad\text{on }B_{r_m}(x_m).
 \tag{NZH.15}
 ```
 
-has physical energy in the ball of size
+Then the physical energy in the ball is exactly
 
 ```math
-\int_{B_{r_m}} |u_m|^2\,dx
-\sim r_m.
+\int_{B_{r_m}(x_m)} |u_m|^2\,dx
+=
+r_m
+\int_{B_1}|U(y)|^2\,dy.
 \tag{NZH.16}
 ```
 
 That physical energy tends to zero while the normalized critical packet remains
-order one.  Thus global finite energy can lose the packet without paying an
-order-one physical cost at each scale.
+fixed by the chosen profile normalization.  Thus global finite energy can lose
+the packet without paying a fixed positive physical cost at each scale.
 
 Finite dissipation has the same terminal-time weakness.  A bounded \(L^1_s\)
 measure can converge to an endpoint atom:
@@ -239,8 +240,7 @@ E_j^{phys}=r_jE_j^{ren}.
 \tag{NZH.17b}
 ```
 
-Thus a Zeno chain with \(r_j=2^{-j}\) and order-one normalized stress/action
-quanta has
+Thus a Zeno chain with \(r_j=2^{-j}\) and \(W_j^{ren}=1\) for every \(j\) has
 
 ```math
 \sum_j r_j W_j^{ren}<\infty
@@ -295,7 +295,7 @@ a\min\left(1,\frac{\theta}{\tau_m}\right).
 
 For each fixed \(m\), the curve rises from \(0\) to \(a\), so there is a
 large slope somewhere.  The problem is that the large slope occurs at
-\(\theta\sim\tau_m\), and \(\tau_m\to0\).  Thus every fixed positive terminal
+\(\theta=\tau_m\), and \(\tau_m\to0\).  Thus every fixed positive terminal
 strip can miss the crossing scale in the limit.
 
 The annular debt intuition gives a correct diagnostic: a persistent
