@@ -244,7 +244,8 @@ Those reduce further to one of:
 }
 \]
 
-or to the signed-chain endpoint
+or to the signed-chain endpoint, after the linear/square distinction is kept
+separate,
 
 \[
 \boxed{
@@ -257,6 +258,14 @@ The direct shared-hinge test shows that
 material stress telescoping, energy/dissipation budget, terminal debt curves,
 or soft compactness.  It requires the same kind of terminal time-thickness,
 source-square, super-\(L^1\), or no-waste input.
+
+The later square-spreading test adds the missing warning: linear signed-chain
+control is not by itself same-carrier \(L_s^2\) control.  The donor partner may
+spread the same mass over a longer time window and lose the square cost.  Thus
+the signed-chain endpoint helps the source-square ladder only when paired with
+square-synchronous signed saturation / square donor no-spreading, or when it is
+replaced by endpoint UI, source-square, Orlicz, or strict no-waste control on
+the actual selected carrier.
 
 ## 6. Closeout
 
