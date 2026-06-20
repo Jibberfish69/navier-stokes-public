@@ -77,7 +77,11 @@ FORBIDDEN = {
   "old zero-heat-time terminal Pack failure" => /ZeroHeatTimeSourceResidue\.A.*terminal Pack failure/,
   "old zero-radius lands-first Pack wording" => /zero-radius .*lands first at not Pack_Q/,
   "old zero-radius is-not-Pack wording" => /zero-radius .*is not Pack_Q/,
-  "old r-star point not-Pack rule" => /r_\*=0 => not Pack_Q/
+  "old r-star point not-Pack rule" => /r_\*=0 => not Pack_Q/,
+  "old prose zero-radius not-Pack wording" => /zero-radius .*not Pack Q/,
+  "old prose terminal Zeno Pack-side exit" => /terminal zero-radius Zeno atom remains a Pack-side CM exit/,
+  "old Pack-first zero-radius diagnostic" => /Pack-first zero-radius diagnostic placement/,
+  "old terminal Zeno Pack correction prose" => /terminal Zeno Pack correction gives not Pack Q/
 }.freeze
 
 REQUIRED_MARKERS = [
