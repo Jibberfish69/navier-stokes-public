@@ -306,7 +306,7 @@ lobe route, with the common nodal threshold changed from `kappa` to `2kappa`.
 
 ## 7. Soft-lobe residue identity
 
-The soft lobe-weighted finite edge defect is
+The edgewise soft lobe defect along a finite donor chain is
 
 ```math
 \sum_{e=(D,R)\in G_m^{fin}}
@@ -318,7 +318,7 @@ a_e
 \tag{LSM.23}
 ```
 
-Using `(LSM.18)`, this is bounded by
+Using `(LSM.18)`, it is bounded by
 
 ```math
 C_\kappa
@@ -328,8 +328,62 @@ a_e
 \tag{LSM.24}
 ```
 
-Therefore the soft lobe version needs no separate lobe-boundary charge.  It
-closes from `ModeDonorEdgeCoherence.A` in the same mode:
+This edgewise estimate is sufficient, but it is not the sharp finite-chain
+target.  After the donor graph is decomposed into finite retained paths
+`\gamma_\alpha`, the interior terms telescope.  If `D_\alpha` and `R_\alpha`
+are the two boundary endpoints of `\gamma_\alpha` and `a_\alpha` is the
+transported signed amount, then
+
+```math
+\sum_{e=(D,R)\in\gamma_\alpha}
+a_\alpha
+\left(
+\zeta_{i,\sigma}^{\kappa}(R)
+-\zeta_{i,\sigma}^{\kappa}(D)
+\right)
+=
+a_\alpha
+\left(
+\zeta_{i,\sigma}^{\kappa}(R_\alpha)
+-\zeta_{i,\sigma}^{\kappa}(D_\alpha)
+\right).
+\tag{LSM.25}
+```
+
+Thus the finite soft-lobe burden is
+
+```math
+\sum_{\alpha}
+a_\alpha
+\left|
+\zeta_{i,\sigma}^{\kappa}(R_\alpha)
+-\zeta_{i,\sigma}^{\kappa}(D_\alpha)
+\right|
+\le
+\operatorname{Legal}_{m,i,\sigma}^{softbdry}
++o_m(1).
+\tag{LSM.26}
+```
+
+By `(LSM.18)`, this boundary condition follows from the endpoint mode
+coherence estimate
+
+```math
+\sum_{\alpha}
+a_\alpha
+\max_j
+\left|
+\psi_j(R_\alpha)-\psi_j(D_\alpha)
+\right|
+\le
+\operatorname{Legal}_{m}^{bdry}
++o_m(1).
+\tag{LSM.27}
+```
+
+This is the finite donor boundary theorem
+`FiniteDonorBoundaryCoherence.A(Phi_soft^kappa)`.  The exact soft lobe
+identity is therefore
 
 ```math
 \boxed{
@@ -337,39 +391,35 @@ closes from `ModeDonorEdgeCoherence.A` in the same mode:
 \text{ModeTestCompatibility.A}
 +\text{TestEnrichedMinimalChainResidueIdentity.A for the soft lobe tests}
 \\
-+\text{ModeDonorEdgeCoherence.A}
++\text{FiniteDonorBoundaryCoherence.A}(\Phi_{soft}^{\kappa})
 +\text{NoFreeTerminalZenoDonorChain.A on the soft lobe shadow}
 \\
 \Longrightarrow
 \text{soft-lobe ModeProjectedMinimalChainResidueIdentity.A.}
 \end{gathered}
 }
-\tag{LSM.25}
+\tag{LSM.28}
 ```
 
-By the previous direct tests,
+The previous edgewise route remains a sufficient but overstrong supplier:
 
 ```math
+\begin{gathered}
 \text{ModeDonorEdgeCoherence.A}
 \Leftarrow
 \text{SameShadowSourceWeightedGaugeTravelCharge.A},
-\tag{LSM.26}
-```
-
-after the mode Lipschitz atlas is fixed, and
-
-```math
+\\
 \text{SameShadowSourceWeightedGaugeTravelCharge.A}
 \Leftarrow
 \text{SameShadowSourceSquareReserve.A}
-+\text{SameShadowUnweightedModulationAction.A}
-\tag{LSM.27}
++\text{SameShadowUnweightedModulationAction.A}.
+\end{gathered}
+\tag{LSM.29}
 ```
 
-by Cauchy-Schwarz on the same selected donor edges.
-
 It also follows from a strict no-waste Lyapunov theorem whose action density
-dominates the same product term.
+dominates the same edgewise product term.  Those currencies are alternate
+sufficient routes for the boundary coherence condition.
 
 ## 8. What remains
 
