@@ -2,13 +2,14 @@
 theorem_id: forward-gold-product-throttle-failure-trichotomy-20260620
 status: direct-trichotomy-installed-forward-gold-not-proved
 logical_landing_node: selected_participation_product_throttle_failure_trichotomy
-edge_effect: "Separates failure of the product throttle into three exact cases: terminal atom, nonzero linear residence, and square-only height blowup. This prevents endpoint UI from being mistaken for square payment and isolates the pure heat-scale square obstruction."
+edge_effect: "Separates failure of the product throttle into three exact cases: terminal atom, nonzero linear residence, and square-only height blowup. This prevents endpoint UI from being mistaken for square payment and isolates the pure heat-scale square obstruction after the nonzero linear branch is typed as source-pulse residue or participation parent/gain."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-product-throttle-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-square-budget-parent-drain-production-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-post-endpoint-ui-minimal-split-active-height-sweep-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-three-clause-pass-or-cm-exit-assembly-20260620.md
-downstream_consequence: "The forward-gold square wall is now localized to the square-only branch after terminal atom and linear-residence branches are removed. The remaining production theorem must either bound the selected active height, prove same-carrier source-square/product throttle directly, or route the admitted retained height blowup through CM Pack/Part/Field."
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-linear-source-pulse-identity-direct-test-20260620.md
+downstream_consequence: "The forward-gold square wall is localized to the square-only branch only after terminal atoms and nonzero linear participation residence are separately paid. Source-drain pays the actual source-pulse subbranch; the non-source-residue participation subbranch still needs same-carrier linear parent/gain accounting. The remaining square production theorem must either bound the selected active height, prove same-carrier source-square/product throttle directly, or route the admitted retained height blowup through CM Pack/Part/Field."
 ---
 
 # MPP Forward-Gold Product-Throttle Failure Trichotomy
@@ -144,8 +145,8 @@ is an interior interval \(J\Subset[-1,0)\) with
 
 This is a nonzero linear residence branch.  It is not the square-only branch.
 It is the branch that the normalized-adjoint parent-drain/source-drain package
-can harvest only when the selected positive participation carrier is identified
-with the linear source-pulse selector on the same tiles.
+can harvest only after the selected positive participation carrier is
+identified with the linear source-pulse selector on the same tiles.
 
 The installed parent-drain package proves a real statement for that linear
 object.  It does not prove the square budget.  The carrier bridge remains:
@@ -157,9 +158,13 @@ object.  It does not prove the square budget.  The carrier bridge remains:
 \tag{PTT.12}
 ```
 
-If `(PTT.12)` is paid, the nonzero linear branch is removed by source-drain.
-If `(PTT.12)` is not paid, the branch returns to the already named
-same-carrier identity problem rather than to product-throttle analysis.
+The follow-up direct test
+`mpp-forward-gold-selected-participation-linear-source-pulse-identity-direct-test-20260620.md`
+checks exactly `(PTT.12)`.  It is not installed.  Source-drain removes the
+subbranch with actual nonzero source-pulse residue.  The subbranch with
+nonzero selected participation residence but vanishing source-pulse residue
+returns to same-carrier participation parent/gain accounting rather than to
+product-throttle analysis.
 
 ## 4. Square-only height blowup branch
 
@@ -234,22 +239,26 @@ Equivalently, a complete same-carrier square proof has the structure:
 ```math
 \begin{gathered}
 \text{EndpointUI.A removes branch 1,}\\
-\text{SourceDrain/parent-drain plus same-carrier identity removes branch 2,}\\
+\text{SourceDrain/parent-drain removes the source-pulse subbranch of branch 2,}\\
+\text{same-carrier participation parent/gain accounting removes the rest of branch 2,}\\
 \text{ActiveWindowHeight.A or SourceSquareReserve.A or StrictNoWaste.A removes branch 3.}
 \end{gathered}
 \tag{PTT.19}
 ```
 
 Current inputs do not prove the last line of `(PTT.19)`.  They also do not
-prove the same-carrier source-pulse identity `(PTT.12)` in square currency.
+prove the same-carrier source-pulse identity `(PTT.12)` in linear
+participation currency.
 
 ## Verdict
 
 The product-throttle wall is now smaller and more exact.
 
-Terminal atoms belong to endpoint UI.  Nonzero linear residence belongs to the
-linear source-drain/parent-drain branch after same-carrier identification.
-What remains is the square-only heat-scale branch:
+Terminal atoms belong to endpoint UI.  Nonzero linear source-pulse residue
+belongs to the linear source-drain/parent-drain branch.  Nonzero linear
+participation residence that is not source-pulse residue belongs to the
+same-carrier participation parent/gain branch.  After both linear subbranches
+are paid, what remains is the square-only heat-scale branch:
 
 ```math
 \boxed{
