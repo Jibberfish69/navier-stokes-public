@@ -9,8 +9,9 @@ smoothness problem.
 
 It records the exact state after the selected-carrier endpoint uniform
 integrability test, the minimal-counterexample split, the interior
-first-created reserve test, the active-height/enstrophy throttle test, and the
-native trilinear same-carrier reserve attempt are put on one proof surface.
+first-created reserve test, the first-created reserve source-square energy
+test, the active-height/enstrophy throttle test, and the native trilinear
+same-carrier reserve attempt are put on one proof surface.
 
 The result is sharp:
 
@@ -136,6 +137,32 @@ and no terminal endpoint atom.  The weak limit is an interior normalized-time
 square-reserve atom.
 
 So minimality localizes the unpaid reserve; it does not pay it.
+
+The first-created reserve source-square energy test identifies the exact
+payment for this interior branch.  On the same selected carrier, the shell
+balance
+
+```math
+E'(t)+c_0\nu D(t)\le F(t)+L(t)
+\tag{PEMAS.10a}
+```
+
+gives
+
+```math
+R_I
+\le
+C_\nu S_I
++C_\nu B_I^-
++C_\nu L_I^E,
+\qquad
+S_I=\int_I\lambda F(t)^2\,dt.
+\tag{PEMAS.10b}
+```
+
+Thus the interior first-created reserve is paid once same-carrier
+`SourceSquareReserve.A` holds and inherited past, boundary drop, and legal spill
+are separated.  The production wall is the source-square estimate itself.
 
 ## 3. Active height is a readout unless a throttle is proved
 
