@@ -9,6 +9,8 @@ ACTIVE_PATHS = %w[
   problems/navier-stokes/agent-contract.yaml
   problems/navier-stokes/live-theorem-edge.yaml
   problems/navier-stokes/target-operating-contract.yaml
+  problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
+  problems/navier-stokes/derivation-run.yaml
   problems/navier-stokes/review-verdict.yaml
   problems/navier-stokes/source-frontier.yaml
   problems/navier-stokes/ns-proof-program-route-table.yaml
