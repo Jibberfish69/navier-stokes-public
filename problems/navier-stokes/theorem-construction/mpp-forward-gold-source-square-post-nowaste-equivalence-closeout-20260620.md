@@ -220,7 +220,7 @@ different currency for the same unweighted terminal demand.
 
 Energy-bounded pressure-corrected functionals cannot supply `(SSNW.16)` because
 the heat-scale pulse has only \(o(1)\) physical energy drop while `(SSNW.12)` is
-order one.  Quadratic pressure correction exposes the critical collar flux; it
+equal to \(1\).  Quadratic pressure correction exposes the critical collar flux; it
 does not make that flux sign-definite.  Cubic instantaneous correctors lose a
 lower bound unless capped, and capping loses the needed cancellation.
 
@@ -250,22 +250,23 @@ rate grows like \(r_m^{-2}\), the window shrinks like \(r_m^2\), and the physica
 ledger keeps a residual radius discount.  That is why participation gives
 visibility and correct timing but does not by itself remove the terminal atom.
 
-The native aligned normal form is
+The native aligned model is
 
 ```math
-\lambda_j\simeq \nu r_j^{-2},
+\lambda_j:=\nu r_j^{-2},
 \qquad
-D_j(t)\simeq \Phi_j^+(t)\simeq r_j^{-1/2}
-\quad\text{on } |I_j|\simeq r_j^2.
+D_j(t):=\Phi_j^+(t):=r_j^{-1/2}{\bf 1}_{I_j}(t),
+\qquad
+|I_j|:=r_j^2.
 \tag{SSNW.19}
 ```
 
 Then
 
 ```math
-\int_{I_j}\Phi_j^+(t)\,dt\simeq r_j^{3/2}\to0,
+\int_{I_j}\Phi_j^+(t)\,dt=r_j^{3/2}\to0,
 \qquad
-\int_{I_j}r_j^{-1}\Phi_j^+(t)^2\,dt\simeq1.
+\int_{I_j}r_j^{-1}\Phi_j^+(t)^2\,dt=1.
 \tag{SSNW.20}
 ```
 
