@@ -2,7 +2,7 @@
 theorem_id: forward-gold-selected-square-budget-parent-drain-production-test-20260620
 status: direct-production-test-complete-not-proved
 logical_landing_node: selected_square_budget_parent_drain_production
-edge_effect: "Tests whether the normalized-adjoint parent-drain/source-drain package produces the selected participation square budget. It does not: the discharged source-drain package controls the linear normalized positive source-pulse functional on separated same-fluid source-residue tiles, while the live forward-gold object is the square-strength selected participation current. The heat-scale square pulse can have order-one selected square reserve while its linear source-pulse measure vanishes. The exact remaining bridge is a same-carrier square residual identification or square parent-drain theorem."
+edge_effect: "Tests whether the normalized-adjoint parent-drain/source-drain package produces the selected participation square budget. It does not: the discharged source-drain package controls the linear normalized positive source-pulse functional on separated same-fluid source-residue tiles, while the live forward-gold object is the square-strength selected participation current. The heat-scale square pulse Pi_j^{part,+}=lambda_j^{1/2} on |I_j|=lambda_j^{-2} has selected square reserve equal to 1 while its linear source-pulse measure tends to 0. The exact remaining bridge is a same-carrier square residual identification or square parent-drain theorem."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-square-budget-direct-attempt-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-square-reserve-signed-balance-merge-closeout-20260620.md
