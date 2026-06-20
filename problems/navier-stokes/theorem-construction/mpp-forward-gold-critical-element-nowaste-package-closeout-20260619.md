@@ -206,23 +206,34 @@ t=T_j+r_j^2s,
 u(t,x)=r_j^{-1}v_j(s,y),
 \]
 
-the physical local-energy defect, dissipation, and flux masses carry one
-radius of weight:
+define the renormalized local-energy defect on normalized sets \(A\subset Q_1^-\)
+by
+
+\[
+\mu_{LE,j}^{ren}(A)
+:=
+r_j^{-1}\,
+\mu_{LE}^{phys}
+\bigl((x_j+r_jA_x)\times(T_j+r_j^2A_t)\bigr).
+\]
+
+Then the physical local-energy defect, dissipation, and flux masses carry one
+radius of weight exactly:
 
 \[
 \mu_{LE}^{phys}(Q_j)
-\simeq
-r_j\,\mu_{LE}^{ren}(Q_1^-).
+=
+r_j\,\mu_{LE,j}^{ren}(Q_1^-).
 \]
 
 Thus finite physical local-energy measure can control
 
 \[
-\sum_j r_j\,\mu_{LE}^{ren}(Q_1^-),
+\sum_j r_j\,\mu_{LE,j}^{ren}(Q_1^-),
 \]
 
 but the no-waste terminal theorem needs unweighted control of
-\(\mu_{LE}^{ren}\), or at least the uniform endpoint modulus
+\(\mu_{LE,j}^{ren}\), or at least the uniform endpoint modulus
 
 \[
 \lim_{\varepsilon\downarrow0}\limsup_j
@@ -320,4 +331,3 @@ Absent one of those, the critical-element package does not exclude the
 heat-scale terminal atom.  It repackages the same atom as an endpoint defect of
 the extracted local-energy package, which must then be consumed by the CM
 Pack/Part/Field route rather than killed by forward gold.
-
