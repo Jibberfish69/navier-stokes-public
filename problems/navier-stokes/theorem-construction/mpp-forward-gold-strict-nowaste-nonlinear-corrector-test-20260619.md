@@ -180,15 +180,16 @@ Thus a capped corrector returns to
 ## 5. Higher-order correctors do not lower the burden
 
 A quartic or higher correction can be bounded below, but differentiating it
-through Navier-Stokes introduces higher-order local terms.  Schematically,
+through Navier-Stokes introduces higher-order local terms.  For example,
 
 \[
 \frac{d}{ds}\int \chi |v|^4
 \]
 
-contains convection/collar terms of size
+contains a convection/collar term controlled by
 
 \[
+\|\nabla\chi\|_\infty
 \int_{\operatorname{collar}\chi}|v|^5,
 \]
 
