@@ -175,7 +175,7 @@ cost.  At one time,
 \int |u_m|^3|\nabla\chi_{r_m}|\,dx
 =
 a_m^3r_m^{-1}
-\int |V_m|^3|\nabla\chi|\,dy.
+\int |V|^3|\nabla\chi|\,dy.
 \tag{OBF.13}
 ```
 
@@ -186,7 +186,7 @@ On a heat window of length \(r_m^2\),
 \int |u_m|^3|\nabla\chi_{r_m}|\,dx\,dt
 =
 a_m^3r_m
-\int_{-1}^{0}\int |V_m|^3|\nabla\chi|\,dy\,ds.
+\int_{-1}^{0}\int |V|^3|\nabla\chi|\,dy\,ds.
 \tag{OBF.14}
 ```
 
@@ -196,8 +196,10 @@ The normalized flux/action is obtained by dividing out the radius:
 r_m^{-1}
 \int_{t_m-r_m^2}^{t_m}
 \int |u_m|^3|\nabla\chi_{r_m}|\,dx\,dt
-\simeq
-a_m^3.
+=
+a_m^3C_V,
+\qquad
+C_V:=\int_{-1}^{0}\int |V|^3|\nabla\chi|\,dy\,ds.
 \tag{OBF.15}
 ```
 
@@ -207,8 +209,8 @@ Thus a dyadic stack with \(r_m=2^{-m}\) and \(a_m=1\) has
 \sum_m
 \int_{t_m-r_m^2}^{t_m}
 \int |u_m|^3|\nabla\chi_{r_m}|\,dx\,dt
-\simeq
-\sum_m r_m
+=
+C_V\sum_m r_m
 <\infty,
 \tag{OBF.16}
 ```
@@ -220,6 +222,8 @@ while
 r_m^{-1}
 \int_{t_m-r_m^2}^{t_m}
 \int |u_m|^3|\nabla\chi_{r_m}|\,dx\,dt
+=
+C_V\sum_m1
 =\infty.
 \tag{OBF.17}
 ```
