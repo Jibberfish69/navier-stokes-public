@@ -131,7 +131,9 @@ dissipation, incoming flux, legal/boundary exit, or finite CM-face exit.
 ```
 
 Therefore every retained no-pay survivor is forced into the Zeno case, and the
-Zeno endpoint is `not Pack_Q`.
+Zeno endpoint is typed before Pack is spent: it is Part-first when the same
+original-NS pointwise participation record remains, and true `not Pack_Q` only
+when that record/carrier/readout is absent.
 
 The stronger forward supplier theorem `PositiveRemainderDepletion.A` remains a
 separate source-production problem. It is not needed for this CM-legality
