@@ -87,8 +87,7 @@ u\in L^\infty_tL^2_x,
 \tag{SCS.6}
 ```
 
-Sobolev interpolation gives the standard energy-class spacetime velocity
-bound
+Sobolev interpolation gives the energy-class spacetime velocity bound
 
 ```math
 u\in L^{10/3}_{t,x},
