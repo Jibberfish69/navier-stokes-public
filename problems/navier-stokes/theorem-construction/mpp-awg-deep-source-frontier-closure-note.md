@@ -58,7 +58,7 @@ current first-moment dissipation reserve.
 ## Target 2: Signed Weighted Lifted-Remainder Cancellation
 
 The bare separated commutator estimate is vacuous in the declared Fourier
-geometry. The live object is the weighted lifted remainder
+geometry. The live terminal record is the weighted lifted remainder
 
 ```math
 \mathfrak G_N^{lift,\sigma}

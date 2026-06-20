@@ -18,7 +18,7 @@ and
 
 Thus the bare commutator vanishes in the declared separated geometry. The displayed estimate is true but vacuous. It does not control the nonlinear shell-flux source.
 
-## True live object
+## True live terminal record
 The actual object is the weighted signed lifted remainder created after the one-sided shell weights, projector/cutoff reductions, and lifted summation:
 
 `G_N^{lift,sigma} = sum_{j,k,l} W_{j,l}^{sigma} R_{j,k,l}^{lift}`.

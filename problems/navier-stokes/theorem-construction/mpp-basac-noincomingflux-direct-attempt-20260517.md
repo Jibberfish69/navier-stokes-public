@@ -41,7 +41,7 @@ A nonselected packet family, a diffuse legal source cloud, or incoming far-field
 
 ## Attempt 2: use B_ASAC exit removal
 
-The `B_ASAC` clauses remove paid exits and ASAC-paid defect. They leave the retained native source residue as the live object. The clauses classify a terminal Zeno survivor; they supply no transported-boundary tightness or weighted ancient decay.
+The `B_ASAC` clauses remove paid exits and ASAC-paid defect. They leave the retained native source residue as the live terminal record. The clauses classify a terminal Zeno survivor; they supply no transported-boundary tightness or weighted ancient decay.
 
 Therefore exit removal does not yield no-incoming flux.
 

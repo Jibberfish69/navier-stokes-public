@@ -129,7 +129,7 @@ source term:
 \int \Phi_T\,d\mu_*^{src}.
 ```
 
-That term is the live object, not an error. The identity becomes a
+That term is the live terminal record, not an error. The identity becomes a
 source-parent-or-charge identity. First-pulse no-parent removes selected
 parents, but it does not remove the terminal charge itself.
 
