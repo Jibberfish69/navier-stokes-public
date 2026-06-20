@@ -143,13 +143,28 @@ unweighted same-selected-family reserve, especially in the interior
 first-created form:
 
 ```math
-\text{ReserveCreationCharge.A}
-\quad\text{or equivalently}\quad
+\text{same-carrier SourceSquareReserve.A}
+\quad\text{producing}\quad
 \text{UnweightedTerminalCriticalActionReserve.A}
 \tag{SSA.8}
 ```
 
 on the actual selected positive carrier.
+
+The first-created reserve source-square energy test now pays the
+`ReserveCreationCharge.A` consumer once inherited past, boundary drop, and legal
+spill are separated:
+
+```math
+R_I
+\le
+C_\nu S_I
++C_\nu B_I^-
++C_\nu L_I^E,
+\qquad
+S_I=\int_I\lambda F(t)^2\,dt.
+\tag{SSA.8a}
+```
 
 The exact unresolved branch is an interior first-created normalized reserve
 pulse: it has no terminal \(L_s^1\) endpoint atom for the source-curve theorem
@@ -170,11 +185,11 @@ same-carrier reserve.}
 ```
 
 The next actual forward-gold theorem target is therefore the interior
-first-created reserve:
+source-square production theorem for the interior first-created reserve:
 
 ```math
 \boxed{
-\text{ReserveCreationCharge.A / UnweightedTerminalCriticalActionReserve.A
+\text{same-carrier SourceSquareReserve.A / UnweightedTerminalCriticalActionReserve.A
 on the selected positive carrier.}
 }
 \tag{SSA.10}
