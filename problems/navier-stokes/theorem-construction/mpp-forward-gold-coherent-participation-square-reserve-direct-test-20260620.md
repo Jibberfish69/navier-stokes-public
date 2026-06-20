@@ -268,13 +268,18 @@ Its exact forward-gold consequence is:
 \tag{CPS.15}
 ```
 
-The missing theorem is:
+The missing theorem is not the false generic implication that linear residence
+controls square density.  The missing theorem is a square-strength budget on
+the same selected current:
 
 ```math
 \boxed{
-\text{linear same-window participation}
-\Longrightarrow
-\text{unweighted square participation reserve.}
+\int_{I_j}\lambda_j
+\bigl(\Pi_j^{part,+}(t)\bigr)^2\,dt
+\le
+Legal_j+o_j(1)
+\quad
+\text{on the selected carrier.}
 }
 \tag{CPS.16}
 ```
@@ -287,4 +292,3 @@ wall.  It is the coherent-participation form of
 ```
 
 on the selected positive carrier.
-
