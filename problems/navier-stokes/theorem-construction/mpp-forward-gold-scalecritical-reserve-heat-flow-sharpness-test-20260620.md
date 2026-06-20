@@ -90,7 +90,7 @@ Its first moment on one heat window is
 \simeq
 b_m^2
 =
-\lambda_m^{-3/2}	o0.
+\lambda_m^{-3/2}\to0.
 \tag{HF.5}
 ```
 
