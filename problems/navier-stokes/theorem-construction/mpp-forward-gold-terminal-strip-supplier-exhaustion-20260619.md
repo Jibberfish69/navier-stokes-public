@@ -170,7 +170,7 @@ This is not a forward-gold deletion of the atom.  It is a class-exit conversion.
 The conversion is valid only after the terminal pulse is admitted as a
 same-solution CM test object and one concrete face failure is derived.
 
-At this branch, the clean conversion target is:
+At this branch, the clean conversion target was:
 
 ```math
 RetainedTerminalPulseToCMFaceExit.A.
@@ -185,6 +185,49 @@ participation law.
 This can close the broader CM program, but it is not a gold-standard
 forward-positive no-jump theorem.
 
+## 2026-06-20 source-curve update
+
+The later terminal source-curve note installs the exact endpoint split for the
+selected positive source marginal.  For
+
+```math
+\mu_m(ds)=a_m(s)\,ds,
+\qquad
+\sup_m\mu_m([-1,0])<\infty,
+\tag{TSE.1}
+```
+
+failure of the endpoint modulus gives a subsequential terminal atom:
+
+```math
+\neg\left[
+\lim_{\theta\downarrow0}\limsup_m
+\int_{-\theta}^{0}a_m(s)\,ds=0
+\right]
+\Longrightarrow
+\mu_m\stackrel{*}{\rightharpoonup}\mu,
+\qquad
+\mu(\{0\})>0.
+\tag{TSE.2}
+```
+
+After same-witness admission and uniform service-topology certification, that
+atom has a concrete CM readout:
+
+```math
+\mu(\{0\})>0
+\Longrightarrow
+\neg Part_{N,Q}
+\quad\text{or}\quad
+\forall r>0\,\neg Field_{N,r,Q}.
+\tag{TSE.3}
+```
+
+This update does not prove `TerminalMovingPacketTraceModulus.A`.  It removes
+only the stale ambiguity in the negative branch: endpoint-modulus failure is a
+Part/Field witness-face readout after the same-solution CM admission, not an
+unclassified fourth terminal source-curve branch.
+
 ## Exhaustion conclusion
 
 The pure terminal time-face atom survives exactly because every easy supplier
@@ -196,7 +239,7 @@ capacity                  -> detects boundary trace, does not remove it;
 pressure ellipticity      -> spatial smoothing, no time spreading;
 raw cubic flux bounds     -> physical integrability, not normalized terminal tightness;
 no-incoming flux          -> lateral boundary, not terminal face residence;
-CM conversion             -> class-exit route, not forward-gold deletion.
+CM conversion             -> source-curve Part/Field readout, not forward-gold deletion.
 ```
 
 The exact remaining gold theorem is therefore:
