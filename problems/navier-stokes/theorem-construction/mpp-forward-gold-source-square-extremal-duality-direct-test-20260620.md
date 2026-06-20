@@ -252,9 +252,10 @@ The extremal/duality pivot is exhausted:
 
 ```math
 \boxed{
-\text{optimization localizes the square pulse; it does not create the
-square-strength carrier control.}
+\begin{gathered}
+\text{optimization localizes the square pulse;}\\
+\text{it does not create the square-strength carrier control.}
+\end{gathered}
 }
 \tag{SSED.20}
 ```
-
