@@ -917,7 +917,7 @@ context_domain_refs:
     - Exit
     - Member
     excerpt: |-
-      - Treat "plaque" as a hard behavior-change signal. Do not answer by recognizing what Thomas wants in cleaner words; change the behavior, patch the durable surface, or continue the live object in his frame.
+      - Treat "plaque" as a hard behavior-change signal. Do not answer by recognizing what Thomas wants in cleaner words; change the behavior, patch the durable surface, or continue the live terminal record in his frame.
       - Treat "you mirrored me / didn't reach deeper / didn't contribute / didn't check whether it mattered" as conduct criticism. Repair that behavior before retrying the object-level answer.
       - Treat "violation: Codex reframing" and close variants as an ownership failure. The next response must continue from Thomas's exact words and sequence before any assistant synthesis; a cleaner compact paraphrase, label, or "the move is" version is still the same violation until the user wording has been preserved.
       - Treat assistant-invented titles, slogans, or compact names over Thomas's exact sequence as reframing. If Codex introduced the bad title or frame, the repair burden stays with Codex; do not tell Thomas to delete, ignore, or clean up Codex's frame.
