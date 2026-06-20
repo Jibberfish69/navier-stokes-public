@@ -75,8 +75,12 @@ participation before it is allowed to remain a Pack-only exit.
 | Branch condition | Classification |
 | --- | --- |
 | Pack has already been admitted as a legitimate window/carrier/readout/jump setting | Keep the Silver Pack/Part/Field order. |
-| No Pack window exists, but the terminal object is still tied to the original NS participation law at a point or limiting record | Resurface under `Part_{N,Q}` first. |
-| No Pack window exists and no meaningful same-solution original-NS participation record survives | Keep `not Pack_Q` as a true carrier/window failure. |
+| Selected unpaid infinite donor-refill ancestry has no finite packet ancestry window and no same-solution terminal pointwise participation record | Keep `not Pack_Q` / `(Pack, packing-detached)` as a true ancestry/window/carrier failure. |
+| Raw native source residue or terminal source residue is still tied to the original NS pressure-viscosity-source participation law at a point or limiting record | Resurface under `Part_{N,Q}` first; the first failure is `not Part_{N,Q}` / `(Part, Dead)`, not Pack-only. |
+| Terminal zero-radius Zeno or `B_ASAC` atom has the same original-NS terminal source/pressure-viscosity participation record | Resurface under `Part_{N,Q}` first as zero heat-time participation / lawful source-participation failure. |
+| Terminal zero-radius Zeno or source residue has no meaningful same-solution pointwise participation record and only lacks a usable carrier/window/readout | Keep `not Pack_Q` as a true carrier/window failure. |
+| R3 exterior source survivor has a same-solution exterior source-participation record | Resurface under `Part_{N,Q}` first. |
+| R3 exterior source survivor has no exterior readout/carrier and no pointwise participation record that can be named | Keep true `not Pack_Q`. |
 | A branch compares two surviving traces, readouts, or neighboring tower records | Keep Pack/window structure for the jump/readout comparison. |
 
 ## Downstream consequence
@@ -105,7 +109,8 @@ For each resurfaced pre-Pack branch, the exact bridge is:
 
 ```text
 pointwise original-NS participation diagnosis
-=> Part-side dead/blown classification or true no-participation failure
+=> zero participation moment / failure of the pressure-viscosity-source participation ledger
+=> not Part_{N,Q} / (Part, Dead), or true no-participation failure
 => typed support for Exit(Q):=not Member(Q).
 ```
 
