@@ -36,7 +36,7 @@ a square ledger.  In normalized terminal variables, the desired form is
 \le
 C\lambda
 \int_{I_-}q_-(t)^2\,dt
-Legal^{sq}+o(1).
++Legal^{sq}+o(1).
 }
 \tag{SDN.1}
 ```
