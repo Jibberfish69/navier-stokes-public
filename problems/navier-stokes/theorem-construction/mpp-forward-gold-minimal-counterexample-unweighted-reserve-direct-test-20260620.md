@@ -22,8 +22,11 @@ The method gives a useful dichotomy:
 ```
 
 The first branch is exactly the terminal moving-packet trace-modulus problem.
-The second branch is exactly `ReserveCreationCharge.A`.  Current inputs do not
-close either branch.
+The later source-curve pass-or-exit note consumes that first branch at the
+CM-readout level: failure of the trace modulus gives a terminal atom, hence
+`Part_{N,Q}` or `Field_{N,r,Q}` failure on the same-solution branch.  The second
+branch is exactly `ReserveCreationCharge.A`.  Current inputs do not prove the
+forward-gold production theorem for either branch.
 
 ## 1. Target and negation
 
@@ -130,7 +133,11 @@ object.  The missing theorem is exactly
 ```
 
 or an equivalent same-carrier source-square, reverse-Holder, positive trace AC,
-or strict no-waste theorem.
+or strict no-waste theorem.  That is the forward-gold reading.  The CM reading
+is now supplied by the terminal source-curve pass-or-exit note: failure of
+`(MCUR.9)` produces the terminal atom, and the installed
+`TerminalAtomPartFieldFirstExit.A` theorem routes that atom to Part or Field
+failure.
 
 ### Case B: interior residence / first appearance
 
@@ -247,11 +254,14 @@ The minimal-counterexample route proves the conditional implication
 \tag{MCUR.17}
 ```
 
-At current route resolution, the last two inputs are not independent of the
+At current route resolution, the forward-gold inputs are not independent of the
 reserve.  `ReserveCreationCharge.A` needs active height, source-square, critical
 action, donor lower-frame trace, source residence, or strict no-waste.  Compact
 rigidity needs a no-waste compact ancient element, and production of that object
-again needs terminal trace tightness or same-carrier reserve control.
+again needs terminal trace tightness or same-carrier reserve control.  The
+endpoint-failure side is different: it is no longer an independent in-class
+minimal counterexample branch, because it is routed through the terminal atom
+Part/Field readout.
 
 ## Verdict
 
