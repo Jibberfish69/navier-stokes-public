@@ -339,3 +339,175 @@ With those two gates separated, the current branch is exhausted as a hidden
 terminal-pulse search.  New progress must either prove the same-carrier
 production theorem or use the admitted same-witness object in the CM
 Pack/Part/Field route.
+
+## Six-Audit Closeout
+
+The six independent rechecks after `(TCE.24)` found no extra branch inside this
+fork.
+
+First, Clause A has no smaller endpoint bridge.  The endpoint theorem is exactly
+same-carrier tail uniform integrability for `(TCE.2)`, or one of its concrete
+same-carrier suppliers:
+
+```math
+\text{same-carrier }L^p\ (p>1)\text{ / Orlicz control,}
+\tag{TCE.25}
+```
+
+```math
+\text{source-square plus selected-carrier domination,}
+\tag{TCE.26}
+```
+
+```math
+\text{selected critical-strain / normalized CKN strip tightness,}
+\tag{TCE.27}
+```
+
+```math
+\text{strict no-waste on unweighted action,}
+\tag{TCE.28}
+```
+
+or
+
+```math
+\text{terminal signed saturation plus no-free terminal Zeno donor chain.}
+\tag{TCE.29}
+```
+
+Finite normalized \(L_s^1\) visibility, BV/Helly curve compactness, Weierstrass
+approximation of individual curves, finite local-energy measure, pressure
+ellipticity, fixed-test trace continuity, heat-scale physical participation, and
+finite signed donor cancellation do not prove `(TCE.4)`.
+
+Second, Clause B has no first-created shortcut.  Firstness selects an earliest
+square window, but it does not pay square reserve born inside that window.  The
+remaining payment is exactly square-currency production:
+
+```math
+\text{SourceSquareReserve.A / SelectedParticipationSquareBudget.A,}
+\tag{TCE.30}
+```
+
+```math
+\text{SquareReserveEvolution.A / SquareParentOrChargeForReserve.A /
+DonorReserveAdjointTrace.A,}
+\tag{TCE.31}
+```
+
+```math
+\text{ActiveWindowHeight.A with selected height plus log-tail control,}
+\tag{TCE.32}
+```
+
+or
+
+```math
+\text{StrictRescaledNoWasteLyapunov.A for unweighted critical action.}
+\tag{TCE.33}
+```
+
+Earliest-window selection, normalized-adjoint child-mass parent-or-charge,
+boundary packet mass, heat-window thickness, linear donor balance, and
+first-moment source mass do not prove `(TCE.5)`.
+
+Third, Clause C has no lower-frame shortcut.  The compact same-shadow positive
+cone can contain a nonzero positive carrier in the kernel of every signed readout
+unless one proves one of the no-null suppliers:
+
+```math
+\text{NoNullSourceParentCloud.A + SameLedgerPositiveCarrierFidelity.A,}
+\tag{TCE.34}
+```
+
+```math
+\text{retained signed-partner saturation,}
+\tag{TCE.35}
+```
+
+```math
+\text{carrier-first mode atlas with ModeJacobianOnNativeCarrier.A,}
+\tag{TCE.36}
+```
+
+or
+
+```math
+\text{same-carrier source-square / no-waste domination.}
+\tag{TCE.37}
+```
+
+Response lower frames, Bessel bounds, signed visibility, stress-current
+visibility, mode separation, finite source mass, endpoint compactness, and
+tangent observability do not prove `(TCE.6)`.
+
+Fourth, `SameCarrierIdentity.A` has no fourth identity bridge.  It decomposes
+exactly into the three carrier-typing gates:
+
+```math
+\text{SelectedSourceSquareCarrierDomination.A,}
+\tag{TCE.38}
+```
+
+```math
+\text{LocalEnergyFluxNativeResidueIdentity.A /
+ProjectedLocalPreCauchyResidueIdentity.A,}
+\tag{TCE.39}
+```
+
+and
+
+```math
+\text{ModeNativeCarrierFamilyIdentification.A.}
+\tag{TCE.40}
+```
+
+Square-adjoint localization and same-ledger fidelity are not fourth identity
+bridges; they belong to the Clause B square-reserve branch or the Clause C
+no-null/saturation branch.
+
+Fifth, strict no-waste has no smaller local form left.  The audited local-energy,
+pressure-corrected, commutator, pressure-memory, Volterra-memory, and
+packet-local nonlinear-corrector mechanisms all return to
+
+```math
+\text{UnweightedTerminalCriticalActionReserve.A}
+\tag{TCE.41}
+```
+
+or to a genuinely new compact recurrent-profile rigidity theorem that first
+carries the same unweighted action.
+
+Sixth, the CM consumer is available only with its admission hypotheses.  The
+retained heat-scale pulse can be consumed by Pack/Part/Field after same-witness
+admission and service certification; before those hypotheses it is support or
+readout evidence, not a CM face failure.
+
+Thus the exact closeout of this branch is:
+
+```math
+\boxed{
+\begin{gathered}
+\text{prove same-carrier unweighted action production}\\
+\text{on the actual selected native carrier `(TCE.2)`,}
+\end{gathered}
+}
+\tag{TCE.42}
+```
+
+or
+
+```math
+\boxed{
+\begin{gathered}
+\text{admit the retained object as the same terminal CM witness}\\
+\text{and consume the failed clause through Pack/Part/Field.}
+\end{gathered}
+}
+\tag{TCE.43}
+```
+
+No endpoint atom, interior first-created square pulse, compact positive-cone
+kernel, carrier-identity mismatch, or strict no-waste variant remains as a
+separate unworked proof route inside this branch.
