@@ -91,19 +91,19 @@ Thus shell underpayment relative to the current inner ball average is exactly
 the statement that \(A(r,t)\) increases as \(r\downarrow0\).  It is not a
 contradiction.
 
-For the critical heat-scale profile
+For the model critical radial mass profile
 
 ```math
-M(r,t)\simeq Cr,
+M(r,t)=Cr,
 \tag{PLS.7}
 ```
 
 one has
 
 ```math
-A(r,t)\simeq\frac{3C}{4\pi r^2},
+A(r,t)=\frac{3C}{4\pi r^2},
 \qquad
-S(r,t)\simeq\frac{C}{4\pi r^2}
+S(r,t)=\frac{C}{4\pi r^2}
 =\frac13 A(r,t).
 \tag{PLS.8}
 ```
