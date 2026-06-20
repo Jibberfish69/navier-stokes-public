@@ -297,6 +297,54 @@ consumers.
 
 Result: this remains the clean organizing architecture, not a proved theorem.
 
+### 9a. Critical element Pack/profile stability
+
+The direct Pack/profile stability test checks whether ordinary profile
+decomposition can supply `CriticalElementStability.A`.
+
+It cannot from current inputs.  Profile orthogonality and bilinear estimates
+control signed or separated terms before terminal selection.  The Pack source
+which survives in the critical-element route is selected after moving heat
+windows, localization, pressure/Leray projection, scale normalization, packet
+choice, and positive-part extraction.
+
+The selected cross-profile measure is of the form
+
+```math
+d\mu_{\alpha\beta,j}^{+}
+=
+\chi_j^{sel}
+\left[
+\left\langle S_{<j}^{loc}U_{\alpha,<j},U_{\beta,j}\right\rangle
+\right]_+dxdt.
+```
+
+The installed support estimate is two-frame domination:
+
+```math
+d\mu_{\alpha\beta,j}^{+}
+\le
+{1\over2}\chi_j^{sel}|S_{<j}^{loc}|\,|U_{\alpha,<j}|^2dxdt
++
+{1\over2}\chi_j^{sel}|S_{<j}^{loc}|\,|U_{\beta,j}|^2dxdt.
+```
+
+That proves the cross-profile atom is not invisible.  It does not assign the
+atom to one profile.  A near-resonant two-frame molecule can still survive:
+one profile supplies the selected low carrier, another supplies the high
+packet, and their product carries the terminal positive Pack source while
+neither profile alone carries the selected defect.
+
+Uniform cross-term integrability, cross-profile reverse Holder, and the
+scale-normalized cross-profile square reserve were already tested.  They all
+require the same missing terminal source residence, source-square/Carleson
+reserve, terminal Morrey decay, or no-waste input.  One-profile rigid capture
+was also tested and reduces instead to a genuine two-frame molecule theorem.
+
+Result: `CriticalElementStability.A` is not an independent Pack/profile
+supplier.  It reduces to the terminal source-residence/no-waste supplier family
+or to a new `TwoProfilePackMoleculeRigidity.A` theorem.
+
 ### 9b. Minimal Zeno endpoint trace compactness
 
 The direct endpoint trace compactness test checks whether soft Zeno compactness
