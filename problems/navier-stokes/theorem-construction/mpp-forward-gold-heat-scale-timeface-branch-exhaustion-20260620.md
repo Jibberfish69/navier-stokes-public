@@ -41,25 +41,27 @@ source-balanced packet:
 ```math
 r_j\downarrow0,
 \qquad
-|I_j|\simeq {r_j^2\over\nu},
+|I_j|= {r_j^2\over\nu},
 \qquad
-\lambda_j^+\simeq {\nu\over r_j^2}.
+\lambda_j^+= {\nu\over r_j^2}.
 \tag{HTE.2}
 ```
 
 The feed rate and the heat window cancel:
 
 ```math
-\int_{I_j}\lambda_j^+\,dt\simeq 1.
+\int_{I_j}\lambda_j^+\,dt=1.
 \tag{HTE.3}
 ```
 
-At the physical energy level, the same event costs only a shrinking amount:
+At the physical energy level, the normalized model has shrinking costs:
 
 ```math
-\int_{Q_j}|S|^2\,dxdt\simeq \nu r_j,
+\int_{Q_j}|S|^2\,dxdt=c_S\nu r_j,
 \qquad
-\int_{I_j}D_j(t)\,dt\simeq r_j.
+\int_{I_j}D_j(t)\,dt=c_D r_j,
+\qquad
+c_S,c_D>0.
 \tag{HTE.4}
 ```
 
