@@ -8,7 +8,6 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-square-first-pulse-no-parent-recheck-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-donor-reserve-adjoint-trace-reentry-20260609.md
   - problems/navier-stokes/theorem-construction/mcp-squarereserveevolution-a-squarereserveevolution-a-direct-dynamic-reserve-attempt-a41ab75850.md
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-principal-gain-square-height-thickness-direct-test-20260620.md
 downstream_consequence: "SquareParentOrChargeForReserve.A reduces to same-unit square reserve evolution, active-height control, selected height plus log-tail control, or charging principal gain itself in the square ledger. Boundary child mass, linear parent-or-charge, heat-window thickness, linear participation mass, and first square-window selection do not pay the integrated square reserve."
 ---
 
