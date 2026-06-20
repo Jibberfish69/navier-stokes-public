@@ -54,7 +54,7 @@ May27.CM.TransferRule:
         count as theorem completion.
 ```
 
-Applying that rule here gives route (a) and route (c). The relational-cognition target-custody output sharpens the same live terminal record: keep `Exit(Q):=not Member(Q)` through Pack/Part/Field as the governing proof program, and block support/status/PDF bookkeeping from becoming the theorem target. The PDF crank supplies route (c): scope and reader-facing rewrites are required for the Clay-facing artifact, but they do not reopen the installed periodic CM contrapositive chain.
+Applying that rule here gives route (a) and route (c). The relational-cognition target-custody output sharpens the same live object: keep `Exit(Q):=not Member(Q)` through Pack/Part/Field as the governing proof program, and block support/status/PDF bookkeeping from becoming the theorem target. The PDF crank supplies route (c): scope and reader-facing rewrites are required for the Clay-facing artifact, but they do not reopen the installed periodic CM contrapositive chain.
 
 ## Proof-State Effect
 

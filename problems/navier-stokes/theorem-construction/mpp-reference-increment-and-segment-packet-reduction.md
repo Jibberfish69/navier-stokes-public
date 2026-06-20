@@ -220,7 +220,7 @@ factor outside the `a`-integral and use `(IS.8)`:
 
 This is exactly `(RS.12)`. ∎
 
-So the rigid envelope is no longer the live terminal record. It is now a stronger
+So the rigid envelope is no longer the live object. It is now a stronger
 comparison bound for a genuine packet quantity.
 
 ## 3. Fully Packetized Increment-Stability Bridge

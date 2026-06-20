@@ -16,7 +16,7 @@ StrainSignCancellationForWeightedLiftedRemainder.A.
 It would show that the true weighted lifted shell-flux remainder cancels before
 the proof falls back to a positive active-square carrier.
 
-The live terminal record is:
+The live object is:
 
 ```text
 G_N^{lift,sigma}
