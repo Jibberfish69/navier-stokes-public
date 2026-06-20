@@ -6,6 +6,7 @@ edge_effect: "Tests the non-source-residue linear participation branch left afte
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-linear-source-pulse-identity-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-linear-positive-energy-trace-saturation-direct-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-terminal-normalized-energy-trace-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-principal-flow-adjoint-parent-or-charge-note-20260504.md
   - problems/navier-stokes/theorem-construction/mpp-normalized-child-mass-source-drain-assembly-note-20260504.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-square-reserve-evolution-current-resolution-recheck-20260620.md
@@ -317,6 +318,13 @@ NoFreeTerminalNormalizedEnergyTrace.A.
 \tag{LPC.22}
 ```
 
-After those are supplied, the non-source-residue linear branch is paid.  Without
-them, it remains a terminal normalized-energy parent/gain branch, not a
-source-drain discharge.
+The second direct test
+`mpp-forward-gold-no-free-terminal-normalized-energy-trace-direct-test-20260620.md`
+shows that the terminal normalized-energy trace clause is not paid by finite
+physical energy.  A Zeno chain can carry order-one normalized endpoint-energy
+trace on each heat packet while the physical contributions remain summable
+because of the shrinking scale factor.
+
+After `(LPC.22)` is supplied, the non-source-residue linear branch is paid.
+Without it, the branch remains a terminal normalized-energy parent/gain branch,
+not a source-drain discharge.
