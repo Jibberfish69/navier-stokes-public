@@ -528,22 +528,48 @@ state:
 requires one genuinely new supplier:
 
 ```math
+\boxed{
+\text{UnweightedTerminalCriticalActionReserve.A}
+}
+```
+
+in the actual selected-carrier form needed by the terminal packet.  The
+following are now different readouts of that same reserve, not separate solved
+routes:
+
+```math
 \begin{gathered}
-TerminalMovingPacketTraceModulus.A,\\
-ScaleCriticalCubicFluxReserve.A,\\
-SourceSquareReserve.A\text{ / global ActiveWindowHeight.A},\\
-PressureSourceParabolicMemory.A,\\
-TerminalSourceResidence.A,\\
-PositiveSourceTraceAC.A,\\
-ResidualSourceBalancedLPAS.A,\\
-\text{or }
-CriticalTerminalElementExtraction.A
-+NoWasteLocalEnergyFlux.A
-+CompactAncientRigidity.A.
+SourceSquareReserve.A
++SelectedSourceSquareCarrierDomination.A,\\
+SelectedCriticalStrainCarleson.A,\\
+NormalizedCKNCarleson.A,\\
+UnweightedMaterialStressWorkCarleson.A,\\
+StrictRescaledNoWasteLyapunov.A,\\
+\text{or a compact critical-element no-waste theorem producing the same
+unweighted action control.}
 \end{gathered}
 ```
 
-None is proved from current inputs.
+The conditional anti-atom mechanism is paid.  A same-carrier square or
+super-\(L^1\) bound gives a moving-packet strip modulus by Cauchy--Schwarz.
+The production of that same-carrier unweighted bound from current
+Navier-Stokes inputs is not paid.
+
+The obstruction is exact.  A heat-scale source-balanced pulse can have
+
+```math
+\int_I\Phi_j^+(t)\,dt\to0
+```
+
+while
+
+```math
+\int_I2^{-j}\left(\Phi_j^+(t)\right)^2dt=1.
+```
+
+Thus finite \(L^1_t\) source/refill mass, fixed-radius participation, local
+energy, finite material telescoping, and discounted physical stress-work do not
+produce the unweighted reserve.
 
 The failure branch is not invisible.  After legal and finite-donor removals,
 the surviving object is a retained terminal heat-scale pulse.  Positive-radius
@@ -561,7 +587,7 @@ So the branch is exhausted as:
 
 ```math
 \boxed{
-\text{gold supplier still open}
+\text{same-carrier unweighted reserve still open}
 \quad\text{or}\quad
 \text{terminal pulse becomes CM Pack/Part/Field exit}.
 }
