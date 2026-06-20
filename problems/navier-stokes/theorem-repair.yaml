@@ -28,7 +28,7 @@ authority_sync_gate:
 central_gate:
   gate_id: cm-witness-face-bridge
   target: Every theorem result must first type the live same-solution object through
-    original-NS Part(); only packet/local-admitted failures may then be expressed
+    the original Navier-Stokes participation law; only packet/local-admitted failures may then be expressed
     as Silver Pack_Q, Part_{N,Q}, or Field_{N,r,Q}; otherwise the result remains
     branch-support only.
   governing_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
@@ -166,7 +166,7 @@ central_gate:
       licensing_note: problems/navier-stokes/theorem-construction/mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md
       rule: Preserve Silver Pack/Part/Field after a legitimate Pack window, carrier,
         readout, or jump-comparison structure is admitted. When a pre-Pack or singular
-        branch was disposed as not Pack_Q before primitive Part() was applied to the live same-solution NS object, first ask
+        branch was disposed as not Pack_Q before the original Navier-Stokes participation law was applied to the live same-solution terminal object, first ask
         whether the original Navier-Stokes viscosity, pressure, and incompressibility
         law still gives pointwise participation status. If yes, resurface the branch
         under Part_{N,Q}; if no, keep not Pack_Q as a true carrier/window/readout
@@ -445,7 +445,7 @@ central_gate:
         the terminal zero-radius residue is not automatically a Pack-only endpoint
         after PackBeforePartDependencyResurfacing.A. When the zero-radius atom is
         still the same original-NS terminal source/pressure-viscosity participation
-        record, it is tested by Part() first as zero heat-time participation
+        record, it is tested first by the original Navier-Stokes participation law as zero heat-time participation
         / Part-side participation failure. It remains true `not Pack_Q` only when
         no same-solution pointwise participation record survives and the defect is
         solely absence of a usable carrier/window/readout. NoPersistentUnpaidPositiveRadiusAncestry.A
