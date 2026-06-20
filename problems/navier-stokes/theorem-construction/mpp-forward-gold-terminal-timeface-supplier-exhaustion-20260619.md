@@ -393,6 +393,44 @@ terminal source-time anti-atom, uniform source integrability, positive active
 Carleson/source-square reserve, terminal strip modulus, scale-nested Liouville,
 or a genuinely non-source Pack-survival theorem.
 
+### 9a.2. Low-high terminal source-time cost split
+
+The low-high terminal source-time branch has a proved cost dichotomy.
+
+Uniform super-\(L^1\) residence kills the atom:
+
+```math
+\int_{I_m}g_m(s)^p\,ds\le C,\quad p>1
+\quad\Longrightarrow\quad
+\int_{I_m}g_m(s)\,ds
+\le C^{1/p}|I_m|^{1-1/p}\to0.
+```
+
+A surviving positive terminal atom has infinite every-super-\(L^1\) residence
+cost:
+
+```math
+\int_{I_m}g_m(s)^p\,ds
+\ge M_0^p |I_m|^{1-p}\to\infty.
+```
+
+The no-residence branch is classified as a terminal boundary measure:
+
+```math
+g_m(s)\,ds\rightharpoonup M\delta_{T^*}.
+```
+
+With no positive-scale retained-carrier bridge, the installed low-high
+endpoint-source theorem lands this branch as `not Pack_Q`.  That is CM
+face support, not a forward no-free-sink payment.
+
+Result: the raw label `LowHighTerminalSourceTimeAntiAtom.A` is no longer the
+next independent target.  The remaining forward burden is production of the
+same-witness super-\(L^1\)/Orlicz/Morrey/source-Carleson/strip-modulus budget
+from original smooth data, or a participation/donor-drain theorem,
+positive-scale retained-carrier bridge, scale-nested Liouville theorem, or
+genuinely non-source Pack-survival theorem.
+
 ### 9b. Minimal Zeno endpoint trace compactness
 
 The direct endpoint trace compactness test checks whether soft Zeno compactness
