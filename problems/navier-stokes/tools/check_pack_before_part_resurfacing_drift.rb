@@ -101,7 +101,7 @@ FORBIDDEN = {
   "old pre-Pack indexed Part before Pack" => /(?:analyze|test) Part_\{N,Q\} before Pack\(Q\)/,
   "old pre-Pack Part_NQ meaningful question" => /was Part_\{N,Q\} meaningful under the pointwise original Navier-Stokes participation law/,
   "old target-as-face-landing grammar" => /State the target as a Pack\/Part\/Field landing attempt/,
-  "old promotion skips open Part slot" => /Does this result enter Silver Pack_Q, Part_\{N,Q\}, or Field_\{N,r,Q\}/
+  "old promotion skips original-NS participation" => /Does this result enter Silver Pack_Q, Part_\{N,Q\}, or Field_\{N,r,Q\}/
 }.freeze
 
 BROAD_TERMINAL_FORBIDDEN = FORBIDDEN.select do |label, _|
@@ -126,7 +126,6 @@ REQUIRED_MARKERS = [
   "pre-Pack pointwise",
   "original Navier-Stokes participation law",
   "original-NS participation",
-  "Part-first resurfacing",
   "pointwise original-NS participation",
   "Silver Pack_Q",
   "Silver CM exit tree"
