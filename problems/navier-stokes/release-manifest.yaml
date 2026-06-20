@@ -571,20 +571,28 @@ open_root_group:
       proof is required for that CM branch split.
     terminal_zeno_pack_legality_boundary: 'The May 21 terminal Zeno correction is
       the governing CM boundary: finite Zeno ancestry packets may be legal, but the
-      terminal zero-radius residue is not a retained positive-radius packet and lands
-      first as `not Pack_Q`. NoPersistentUnpaidPositiveRadiusAncestry.A closes the
-      positive-radius retained tail by the shared-participation strip balance. BASACTerminalAtomCMFaceLabeling.A,
-      RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
-      are finite-ancestry accounting and post-exit readout support. PRD, LPSC, SquareSourceEstimate.A,
-      ActiveShellAmplitudeGain.A, TerminalSourceReverseHolder.A, UniformTemporalSourceIntegrability_p.A,
-      rigid-class production, and OriginalSmoothData=>SourcePulseExclusion.A are retained
-      as historical downstream no-pulse/source-control support with no CM proof force;
-      they are not required terminal Zeno CM burdens and may not respawn as the next
-      CM target unless the proof program is explicitly switched.'
-    cm_pack_legality_consequence: The terminal Zeno/B_ASAC zero-thickness endpoint
-      is settled for the CM contrapositive as Pack-side non-survival. H1-H6, ACT.KX,
-      endpoint readout, and positive source-control material remain quarantined support
-      rather than upstream proof inputs.
+      terminal zero-radius residue is not automatically a Pack-only endpoint after
+      PackBeforePartDependencyResurfacing.A. When the zero-radius atom is still the
+      same original-NS terminal source/pressure-viscosity participation record, it
+      is resurfaced under Part_{N,Q} first as zero heat-time participation / Part-side
+      participation failure. It remains true `not Pack_Q` only when no same-solution
+      pointwise participation record survives and the defect is solely absence of
+      a usable carrier/window/readout. NoPersistentUnpaidPositiveRadiusAncestry.A
+      closes the positive-radius retained tail by the shared-participation strip balance.
+      BASACTerminalAtomCMFaceLabeling.A, RetainedPackFieldNoIncomingParticipationFlux.A,
+      and BASACLiouvilleCMParticipationBridge.A are finite-ancestry accounting and
+      post-exit readout support. PRD, LPSC, SquareSourceEstimate.A, ActiveShellAmplitudeGain.A,
+      TerminalSourceReverseHolder.A, UniformTemporalSourceIntegrability_p.A, rigid-class
+      production, and OriginalSmoothData=>SourcePulseExclusion.A are retained as historical
+      downstream no-pulse/source-control support with no CM proof force; they are
+      not required terminal Zeno CM burdens and may not respawn as the next CM target
+      unless the proof program is explicitly switched.'
+    cm_pack_legality_consequence: 'The terminal Zeno/B_ASAC zero-thickness endpoint
+      is settled only after the Pack-before-Part audit: same original-NS terminal
+      atoms land in Part-side dead/participation failure, while Pack-side non-survival
+      is reserved for cases with no surviving pointwise participation record. H1-H6,
+      ACT.KX, endpoint readout, and positive source-control material remain quarantined
+      support rather than upstream proof inputs.'
   continuation_packet_methodology:
     rule: Start from the sufficient packet for classical continuation, then negate
       that packet to obtain the admissible CM-exit failure calculus. Do not promote
@@ -631,15 +639,18 @@ open_root_group:
     proof_mode: zeno_rigidity_alternate
     role: diagnostic source-residue presentation; selected finite Zeno ancestry is
       sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A, while
-      terminal zero-heat-time source residue is not Pack_Q. Field/Jump language is
-      post-exit readout unless a positive-scale retained carrier is separately proved;
-      non-Carleson TemporalNonAtomicSource.A remains separate
+      terminal zero-heat-time source residue is first audited for pointwise original-NS
+      participation. If the same-solution participation record remains, it lands in
+      Part first; if that record is absent, it lands as true not Pack_Q. Field/Jump
+      language is post-exit readout unless a positive-scale retained carrier is separately
+      proved; non-Carleson TemporalNonAtomicSource.A remains separate
   - target_id: terminal-zeno-pack-legality-boundary
-    label: Terminal zero-radius Zeno Pack failure
+    label: Terminal zero-radius Zeno Part-first boundary
     proof_mode: terminal_zeno_pack_legality_boundary
     role: CM-facing boundary after finite Zeno ancestry accounting; the terminal zero-radius
-      residue is not Pack_Q, while LPSC/PRD/Zeno rigid-class language is downstream
-      no-pulse/source-control support outside this CM endpoint.
+      residue is Part-first when it keeps the same original-NS pointwise participation
+      record, and true not Pack_Q only when that record is absent; LPSC/PRD/Zeno rigid-class
+      language is downstream no-pulse/source-control support outside this CM endpoint.
   - target_id: sourcepulse-terminal-zeno-operational-collapse
     label: LocalPositiveSourceCarleson.A
     proof_mode: operational_positive_source_carleson_attack
