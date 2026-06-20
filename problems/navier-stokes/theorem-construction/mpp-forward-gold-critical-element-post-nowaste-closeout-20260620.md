@@ -89,9 +89,12 @@ Ordinary profile decomposition supplies energy orthogonality, not stability of
 the selected terminal positive source carrier:
 
 ```math
+\left|
 \mu_{terminal}^{src,+}(u_m)
-\sim
-\sum_j\mu_{terminal}^{src,+}(U^j)
+-
+\sum_{j\in J_m}\mu_{terminal}^{src,+}(U^j)
+\right|
+\to0
 \tag{CEP.7}
 ```
 
