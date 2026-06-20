@@ -62,7 +62,7 @@ The first two items prevent pressure/Leray mass from drifting to an unrelated si
 
 ## Boundary
 
-Pack-first zero-radius diagnostic placement is already done. It gives `not Pack_Q` support, while it leaves the production problem open.
+Pack-before-Part zero-radius diagnostic placement is already done. It gives Part-side support when the same original-NS pointwise participation record remains and true Pack support only when that record is absent, while it leaves the production problem open.
 
 Broad `PressureSourceAC.A` is too coarse. A proof of mere absolute continuity between pressure residue and source residue can still allow both residues to sit on the same terminal time face. The new burden needs a spread estimate.
 
