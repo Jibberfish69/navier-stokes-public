@@ -260,7 +260,8 @@ removed by proof rather than assumption:
 \text{a produced same-carrier source-square reserve,}\\
 \text{a produced selected critical-strain or normalized CKN Carleson reserve,}\\
 \text{a terminal moving-packet trace modulus `(SCPF.14)`,}\\
-\text{or rigid Zeno source-residue evacuation that eliminates `(SCPF.12)`.}
+\text{or the full rigid-Zeno profile-production stack after endpoint/no-waste
+evacuation.}
 \end{gathered}
 }
 \tag{SCPF.18}
@@ -268,7 +269,9 @@ removed by proof rather than assumption:
 
 Each item in `(SCPF.18)` must be produced from Navier--Stokes inputs on the same
 selected carrier.  Assuming any one of them is only assuming the missing
-unweighted reserve in another currency.
+unweighted reserve in another currency.  The final rigid-Zeno source-residue
+check shows that compactness or source-residue visibility alone is not such a
+coercive object.
 
 ## 5. Non-gold consequence
 
