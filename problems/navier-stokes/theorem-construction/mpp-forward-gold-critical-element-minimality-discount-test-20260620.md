@@ -135,31 +135,34 @@ V\!\left({t-t_j\over r_j^2},{x-x_j\over r_j}\right),
 \tag{CMD.11}
 ```
 
-the physical cost scales as
+there are fixed profile-dependent constants \(0<c_{phys}(V)\le C_{phys}(V)<\infty\)
+such that
 
 ```math
+c_{phys}(V)a_j^2r_j
+\le
 E_j+D_j+\mu_{LE}^{phys}(Q_j)
-\simeq
-a_j^2r_j,
+\le
+C_{phys}(V)a_j^2r_j,
 \tag{CMD.12}
 ```
 
-while the normalized critical currencies scale like
+while the normalized critical currencies have fixed-profile homogeneous powers
 
 ```math
-L^3/CKN\sim a_j^3,
+\mathcal C_{L^3/CKN}(u_j)=C_3(V)a_j^3,
 \qquad
-L^5\sim a_j^5,
+\mathcal C_{L^5}(u_j)=C_5(V)a_j^5,
 \qquad
-\text{selected source-square}\sim a_j^2
+\mathcal C_{src^2}(u_j)=C_{src^2}(V)a_j^2
 \quad\text{or higher.}
 \tag{CMD.13}
 ```
 
-For fixed normalized size \(a_j\simeq1\), the physical cost tends to zero as
-\(r_j\downarrow0\).  Thus physical-cost minimality does not select a rigid
-critical object; it drives the selected packet toward the terminal scale where
-the physical ledger is cheapest.
+For any fixed normalized size interval \(0<a_-\le a_j\le a_+<\infty\), the
+physical cost tends to zero as \(r_j\downarrow0\).  Thus physical-cost
+minimality does not select a rigid critical object; it drives the selected
+packet toward the terminal scale where the physical ledger is cheapest.
 
 ## 4. Soft compactness loses the count
 
@@ -225,11 +228,13 @@ One could prove lower semicontinuity and decoupling for the actual selected
 positive carrier:
 
 ```math
+\left|
 \mu_{terminal}^{src,+}(u_m)
-\simeq
-\sum_\alpha
+-
+\sum_{\alpha\in A_m}
 \mu_{terminal}^{src,+}(U^\alpha)
-+o_m(1),
+\right|
+\to0,
 \tag{CMD.17}
 ```
 
