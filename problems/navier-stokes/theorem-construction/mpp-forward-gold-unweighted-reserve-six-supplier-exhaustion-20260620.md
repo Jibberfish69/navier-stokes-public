@@ -39,7 +39,8 @@ u(t,x)=r_j^{-1}v_j(s,y),
 p(t,x)=r_j^{-2}q_j(s,y).
 ```
 
-The recurrent terminal branch carries order-one normalized critical action:
+The recurrent terminal branch carries a fixed positive normalized critical
+action:
 
 ```math
 A_j
@@ -67,7 +68,8 @@ The physical ledgers supply radius-weighted versions:
 \sum_j r_j^2 C_j<\infty.
 ```
 
-With \(r_j=2^{-j}\) and \(A_j\simeq1\), the physical sums may be finite while
+For the model sequence \(r_j=2^{-j}\) and \(A_j=1\), the physical sums may be
+finite while
 
 ```math
 \sum_j A_j=\infty.
@@ -242,10 +244,11 @@ are comparable:
 Thus fixed-radius terminal source atoms are killed by the participation
 throttle.
 
-At heat scale \(r_j\downarrow0\), the admissible feed rate grows like the heat
-clock and the physical time window shrinks like the heat clock.  Their product
-can remain order-one after normalization, while the physical cost is discounted
-by \(r_j\) or \(r_j^2\).  Participation proves shared accounting; it does not
+At heat scale \(r_j\downarrow0\), the normalized admissible feed rate is allowed
+to grow by the inverse heat time while the physical time window shrinks by the
+heat time.  In the model family \(|I_j|=r_j^2\) and feed rate \(r_j^{-2}\), the
+normalized product equals \(1\), while the physical cost is discounted by
+\(r_j\) or \(r_j^2\).  Participation proves shared accounting; it does not
 remove the radius discount.
 
 The principal-gain height/thickness test is the scalar form of this same
