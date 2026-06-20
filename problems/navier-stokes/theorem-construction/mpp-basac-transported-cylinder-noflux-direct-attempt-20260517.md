@@ -49,7 +49,7 @@ Thus graph ancestry exclusion gives no transported boundary identity.
 
 ## Attempt 2: derive transported no-flux from B_ASAC exit removal
 
-The `B_ASAC` clauses remove paid exits and ASAC-paid defect leakage. They retain the native positive source-residue measure as the live terminal record. These clauses give equality organization and no transported-boundary flux estimate.
+The `B_ASAC` clauses remove paid exits and ASAC-paid defect leakage. They retain the native positive source-residue measure as the live object. These clauses give equality organization and no transported-boundary flux estimate.
 
 Thus the produced class supplies no new lateral tightness beyond the older global no-incoming attempt.
 

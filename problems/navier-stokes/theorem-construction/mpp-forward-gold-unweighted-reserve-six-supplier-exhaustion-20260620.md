@@ -14,10 +14,10 @@ mathematical demand:
 
 The checked routes do not provide that reserve from the current Navier-Stokes
 inputs.  They provide visibility, conditional consumers, or weighted physical
-control.  The retained terminal heat-scale pulse remains the live terminal record unless
+control.  The retained terminal heat-scale pulse remains the live object unless
 one genuinely unweighted same-selected-family reserve is proved.
 
-## 1. Exact live terminal record
+## 1. Exact live object
 
 For selected terminal heat-scale packets
 

@@ -9,7 +9,7 @@ records the exact theorem path that remains after the dynamic square-reserve,
 active-height, post-ASAC signed-balance, and terminal Zeno donor-chain files are
 read together.
 
-The current live terminal record is:
+The current live object is:
 
 ```math
 \boxed{

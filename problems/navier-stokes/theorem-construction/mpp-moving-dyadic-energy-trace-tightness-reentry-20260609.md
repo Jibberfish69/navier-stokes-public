@@ -54,7 +54,7 @@ For every fixed shell `j` and every preterminal interval, the shell energy
 identity is absolutely continuous. This prevents an unexplained jump in that
 fixed shell before `T_*`.
 
-This is not the live terminal record. The `B_ASAC` survivor is selected along moving
+This is not the live object. The `B_ASAC` survivor is selected along moving
 terminal shells and shrinking heat-scale windows:
 
 ```math
