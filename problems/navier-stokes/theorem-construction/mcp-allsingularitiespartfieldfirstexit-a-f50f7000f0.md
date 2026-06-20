@@ -17,7 +17,7 @@ Every zero-radius / singular terminal witness extracted from the Navier-Stokes b
 This theorem is not allowed to say:
 
 ```text
-singular object has no positive radius, therefore not Pack_Q, therefore class exit.
+singular object has no positive radius, so Pack alone proves class exit.
 ```
 
 It must classify each singular object by participation failure or one-field/readout failure first.
