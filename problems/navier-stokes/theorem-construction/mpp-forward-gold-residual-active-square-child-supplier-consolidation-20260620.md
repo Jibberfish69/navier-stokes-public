@@ -152,7 +152,7 @@ or a rigid Zeno no-source residue theorem.
 Raw LPAS is no longer the live theorem. The smooth heat-decaying shear
 counterexample removes the universal raw active-square target.
 
-The live object is the residual/source-balanced square after heat descendants,
+The live terminal record is the residual/source-balanced square after heat descendants,
 through-flow, legal losses, and paid dissipation have been removed. In dyadic
 form this asks for a square bound on the residual load, for example
 

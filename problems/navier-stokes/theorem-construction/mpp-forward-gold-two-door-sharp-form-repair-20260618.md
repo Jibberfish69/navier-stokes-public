@@ -321,7 +321,7 @@ So Door 2 is:
 
 ## Final repaired frontier
 
-The generic forward-gold routes are no longer the sharp live object.  Their
+The generic forward-gold routes are no longer the sharp live terminal record.  Their
 failure identifies why finite `L^1_t` mass, weak tethering, rigid-class
 postulates, source-square/Carleson postulates, and local collar costs do not
 close the terminal atom.

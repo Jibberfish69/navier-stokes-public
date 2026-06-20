@@ -93,7 +93,7 @@ contains the source term:
 \int \Phi_T\,d\mu_*^{src}.
 ```
 
-This term is the live object, not an error term. The homogeneous TPNI identity
+This term is the live terminal record, not an error term. The homogeneous TPNI identity
 does not kill it.
 
 First-pulse no-parent removes fixed selected earlier parents. It does not rule

@@ -5,7 +5,7 @@ Date: 2026-06-17
 Status: new gold investigation branch; not proved.
 
 Role: sharpen the factorial-radius and Laurent-annular line into a
-Navier-Stokes-native terminal-radius normal form.  The live object is no longer
+Navier-Stokes-native terminal-radius normal form.  The live terminal record is no longer
 a fixed Laurent principal part.  It is a moving scale, moving center,
 slowly-drifting rescaled field, and renormalization-flow trajectory.
 

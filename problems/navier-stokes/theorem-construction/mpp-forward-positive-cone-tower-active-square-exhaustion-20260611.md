@@ -27,7 +27,7 @@ needed scale-critical control?
 
 ## 0. Preserved Problem
 
-The live object is a shrinking receiver inside the same unforced
+The live terminal record is a shrinking receiver inside the same unforced
 incompressible Navier-Stokes fluid.
 
 The receiver is not private.  It can gain load only through its moving
