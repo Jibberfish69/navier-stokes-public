@@ -303,7 +303,7 @@ proof_program_topology:
       readout, or jump-comparison structure is admitted. When a pre-Pack or singular
       branch was disposed as not Pack_Q before primitive Part() was applied to the live same-solution NS object, first ask whether
       the original Navier-Stokes viscosity, pressure, and incompressibility law still
-      gives pointwise participation status. If yes, resurface the branch under Part_{N,Q};
+      gives pointwise participation status. If yes, apply Part() to the live same-solution NS object and localize to Part_{N,Q} only after the tested record exists;
       if no, keep not Pack_Q as a true carrier/window/readout failure.
   obstruction_pass_exit_rule: Follow the ordinary positive proof program until it
     reaches a real obstruction, then split the obstruction into a pass branch and
