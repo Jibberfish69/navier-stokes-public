@@ -13,9 +13,9 @@ bound:
 
 ```math
 \int_{T-h}^{T}\mathcal D(t)\,dt
-\lesssim
-h^{1/2}
-\text{legal},
+\le
+C_H\nu^{5/2}h^{1/2}
+L_{\rm legal}(h),
 \qquad h\downarrow0.
 \tag{DHM.1}
 ```
@@ -24,9 +24,9 @@ With \(h=r_j^2/\nu\), `(DHM.1)` is exactly the packet rate
 
 ```math
 \int_{I_j}\mathcal D(t)\,dt
-\lesssim
-\nu^2 r_j
-\text{legal}
+\le
+C_H\nu^2 r_j
+L_{\rm legal}(r_j^2/\nu)
 \tag{DHM.2}
 ```
 
@@ -46,7 +46,7 @@ The coefficient throttle note gives
 
 ```math
 \int_{I_j}\|S_{<j}^{loc}(t)\|_\infty\,dt
-\lesssim
+C_DA_t^{1/2}
 2^{j/2}\nu^{-1}
 \left(\int_{I_j}\mathcal D(t)\,dt\right)^{1/2}.
 \tag{DHM.4}
@@ -56,17 +56,21 @@ For \(r_j=2^{-j}\), an \(O(1)\) coefficient residence bound follows from
 
 ```math
 \int_{I_j}\mathcal D(t)\,dt
-\lesssim
-\nu^2 2^{-j}
+\le
+C_R\nu^2 2^{-j}
 =
-\nu^2 r_j.
+C_R\nu^2 r_j.
 \tag{DHM.5}
 ```
 
-Since the heat-window length is
+Since the heat-window length has fixed heat-scale bounds
 
 ```math
-|I_j|\simeq {r_j^2\over\nu},
+\alpha_t{r_j^2\over\nu}
+\le
+|I_j|
+\le
+A_t{r_j^2\over\nu},
 \tag{DHM.6}
 ```
 
@@ -112,7 +116,8 @@ The implication
 ```math
 \mu_D(I)\to0
 \quad\Longrightarrow\quad
-\mu_D((T-h,T])\lesssim h^{1/2}
+\exists C<\infty\ \forall h<h_0:\ 
+\mu_D((T-h,T])\le C h^{1/2}
 \tag{DHM.11}
 ```
 
@@ -138,9 +143,9 @@ but
 
 ```math
 \int_0^h g(s)\,ds
-\simeq
+=
 {1\over \log(1/h)}
-\qquad(h\downarrow0).
+\qquad(0<h<e^{-2}).
 \tag{DHM.14}
 ```
 
@@ -148,8 +153,8 @@ For dyadic heat windows \(h_j=2^{-2j}\),
 
 ```math
 \int_0^{h_j}g(s)\,ds
-\simeq
-{1\over j},
+=
+{1\over 2j\log2},
 \tag{DHM.15}
 ```
 
@@ -164,8 +169,8 @@ Thus
 
 ```math
 { \int_0^{h_j}g(s)\,ds \over h_j^{1/2}}
-\simeq
-{2^j\over j}
+=
+{2^j\over 2j\log2}
 \to\infty.
 \tag{DHM.17}
 ```
@@ -191,7 +196,7 @@ B_j
 The coefficient route would need
 
 ```math
-B_j\lesssim 2^{-j}
+B_j\le C_B2^{-j}
 \tag{DHM.19}
 ```
 
@@ -264,7 +269,8 @@ The coefficient-side absolute-continuity shortcut is exhausted:
 \boxed{
 \mathcal D\in L^1_t
 \not\Longrightarrow
-\mu_D((T-h,T])\lesssim h^{1/2}.
+\exists C<\infty\ \forall h<h_0:\
+\mu_D((T-h,T])\le C h^{1/2}.
 }
 \tag{DHM.25}
 ```
@@ -291,4 +297,3 @@ SourceSquareReserve.A / StrictRescaledNoWasteLyapunov.A.}
 Without that half-Morrey rate or a stronger same-carrier theorem, shrinking the
 time window alone does not force the coefficient payment needed to exclude the
 terminal heat-scale pulse.
-
