@@ -28,20 +28,40 @@ all live on the same \(r^2/\nu\) clock.
 For a selected packet at radius \(r\), the relevant clocks are:
 
 ```math
-\tau_{\rm heat}(r)\simeq {r^2\over\nu},
+\alpha_t{r^2\over\nu}
+\le
+\tau_{\rm heat}(r)
+\le
+A_t{r^2\over\nu},
 \qquad
-\lambda_{\rm feed}(r)\simeq {\nu\over r^2},
+\alpha_f{\nu\over r^2}
+\le
+\lambda_{\rm feed}(r)
+\le
+A_f{\nu\over r^2},
 \qquad
-\lambda_{\rm drain}(r)\simeq {\nu\over r^2}.
+\alpha_d{\nu\over r^2}
+\le
+\lambda_{\rm drain}(r)
+\le
+A_d{\nu\over r^2}.
 \tag{PTG.2}
 ```
 
 Thus on one heat window
 
 ```math
-\tau_{\rm heat}(r)\lambda_{\rm feed}(r)\simeq1,
+\alpha_t\alpha_f
+\le
+\tau_{\rm heat}(r)\lambda_{\rm feed}(r)
+\le
+A_tA_f,
 \qquad
-\tau_{\rm heat}(r)\lambda_{\rm drain}(r)\simeq1.
+\alpha_t\alpha_d
+\le
+\tau_{\rm heat}(r)\lambda_{\rm drain}(r)
+\le
+A_tA_d.
 \tag{PTG.3}
 ```
 
@@ -170,9 +190,9 @@ on terminal recurrent slabs, after legal terms.  The participation law supplies
 only that both rates are on the same heat clock:
 
 ```math
-c_{\rm f}(s)\simeq1,
+c_f^-\le c_{\rm f}(s)\le c_f^+,
 \qquad
-c_{\rm d}\simeq1.
+c_d^-\le c_{\rm d}\le c_d^+.
 \tag{PTG.13}
 ```
 
@@ -198,9 +218,9 @@ heat-scale balance:
 ```math
 r_{j+1}\ll r_j,
 \qquad
-\tau_j\simeq r_j^2/\nu,
+\alpha_t r_j^2/\nu\le\tau_j\le A_t r_j^2/\nu,
 \qquad
-c_{{\rm f},j}\simeq c_{{\rm d},j}.
+c_{{\rm f},j}=c_{{\rm d},j}.
 \tag{PTG.15}
 ```
 
