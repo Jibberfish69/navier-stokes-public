@@ -101,9 +101,9 @@ One can reverse the sign by allowing a negative kernel.  That creates the same
 lower-bound failure as the cubic corrector.
 
 Assume \(K\in L^1(0,\infty)\) and that \(K<0\) on a set of positive measure.
-Choose a nonnegative smooth pulse \(\phi\) supported in a short interval where
+Choose a nonnegative smooth pulse \(\phi\) supported in an interval where
 the negative part is detected.  Place \(N\) copies far enough apart that the
-cross-contributions are smaller than \(1/N\) in total \(L^1\)-kernel error.
+cross-contributions are bounded by \(1/N\) in total \(L^1\)-kernel error.
 Then for
 
 ```math
@@ -113,7 +113,7 @@ A_N(s)=\sum_{n=1}^{N}\phi(s-s_n)
 
 there are times \(\sigma_n\) for which each selected pulse contributes a fixed
 negative amount to \(L_K(\sigma_n)\), while the other pulse contributions are
-arbitrarily small by spacing.  Hence
+bounded by the chosen \(1/N\) spacing error.  Hence
 
 ```math
 \inf_s L_K(s)\le -c_1N+c_2
