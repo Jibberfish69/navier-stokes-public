@@ -292,8 +292,7 @@ and this content remains downstream of profile production, source-readout
 evacuation, and unweighted terminal action/no-waste control.
 
 With `GaugeFunctionalSpectralGap.A` now discharged as a relative compact-frame
-theorem, the first term in `(GCT.20)` should be read through its production
-inputs:
+theorem, the first term in `(GCT.20)` expands to its production inputs:
 
 ```math
 \text{CompactSelectedProfileClass.A}
