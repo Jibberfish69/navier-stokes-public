@@ -21,6 +21,9 @@ memory, or compact recurrence.}
 
 This note consolidates the tested no-waste forms after the active-height/enstrophy
 branch separated fixed-radius throttling from the heat-scale terminal pulse.
+It also incorporates the Volterra-memory test: causal history memory stores a
+first-created heat-scale pulse as an increase, while future-tail memory gives a
+strict drop only by already encoding the unweighted action tail.
 
 ## 1. The target inequality
 
@@ -287,6 +290,27 @@ Precompactness modulo scale, center, rotation, frame, and selector gauge can
 remove profile switching and make an omega-limit set meaningful. It does not
 remove the \(e^{-s/2}\) discount.  A LaSalle argument still needs the strict
 unweighted drop `(SNWPA.2)`.
+
+Volterra memory has the same obstruction in memory-functional form.  A causal
+history functional
+
+```math
+L_K(s)=\int_0^\infty K(\tau)A(s-\tau)\,d\tau,
+\qquad K\ge0,
+\tag{SNWPA.26a}
+```
+
+obeys, on a first-created pulse \(A_h=A_0{\bf 1}_{[0,h]}\),
+
+```math
+{d\over ds}L_K(s)=A_0K(s)\ge0
+\qquad(0<s<h).
+\tag{SNWPA.26b}
+```
+
+Thus it has the wrong sign for a no-waste drop at birth.  Future-tail memory is
+either flat on recurrent action or proves \(\int A<\infty\) only after assuming
+a bounded-below strict drop, which is the unweighted reserve itself.
 
 ## 7. Exact remaining form of strict no-waste
 
