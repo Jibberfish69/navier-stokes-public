@@ -231,8 +231,9 @@ That branch is exactly the retained heat-scale participation reserve already
 isolated by the coherent-participation test.  The non-source-residue linear
 participation branch is adjacent to it, but weaker: the direct linear
 parent/gain test identifies it as normalized endpoint-energy transport.  It
-requires positive energy-trace saturation and no-free terminal normalized-energy
-trace, not the existing source-pulse parent-drain theorem alone.
+requires linear energy-trace polar saturation and endpoint UI on the normalized
+endpoint-energy carrier, not the existing source-pulse parent-drain theorem
+alone.
 
 ## 4. Exact bridge that would make parent-drain close the square budget
 
