@@ -284,20 +284,34 @@ H_N(W)\,\widetilde{\mathcal F}_N(W).
 \tag{NSS.17}
 ```
 
-Thus a uniform active-height theorem together with logarithmic tail control
+Thus there are two distinct sufficient height routes.  The global tail-height
+version is stronger:
 
 ```math
-H_N(W)\le C_{legal},
-\qquad
-\widetilde{\mathcal F}_N(W)\to0
+\sup_N H_N(W_N)\le C_{legal}
 \tag{NSS.18}
 ```
 
-would convert first-moment tail control into the square reserve.
+on terminal windows of uniformly bounded physical time length.  Since
+`(AWH.4)` gives \(T_k(t)\le H_N(W)2^{-k}\), it yields
 
-Current inputs prove neither the pointwise height bound nor the logarithmic
-tail upgrade in the selected terminal window setting.  In the heat-scale model
-above,
+```math
+\mathcal R_N(W)
+\le
+C|W|H_N(W)^2 2^{-N}
+\to0.
+\tag{NSS.18a}
+```
+
+No separate logarithmic tail hypothesis is needed for this global-height
+interpretation of `ActiveWindowHeight.A`.  The logarithmic high-tail moment is
+needed only for weaker selected-edge or packet-local height controls, where the
+unused cumulative tail is still summed through
+\(\widetilde{\mathcal F}_N(W)\).
+
+Current inputs prove neither the global pointwise height bound nor the weaker
+selected-height plus log-tail package in the terminal window setting.  In the
+heat-scale model above,
 
 ```math
 H_N(I_m)
@@ -381,7 +395,8 @@ Thus the dynamic route reduces to the same missing theorem:
 \tag{NSS.24}
 ```
 
-or equivalently the height/log-tail throttle `(NSS.18)`, an inverse
+or equivalently global active height `(NSS.18)`, selected-height plus the
+log-tail throttle `(NSS.17)`, an inverse
 donor-adjoint trace, or a retained Pack-gain/amplitude theorem.
 
 The heat-scale first-appearance test in
