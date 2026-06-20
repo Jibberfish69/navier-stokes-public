@@ -4,7 +4,7 @@ ns_viewer:
   status: direct-test-complete-equivalent-square-strength-isolated
   proof_role: forward_gold_same_ledger_payment_test
   logical_landing_node: retained_positive_scale_reserve_same_ledger_payment
-  edge_effect: "Tests Thomas's participation-law objection in the strongest native form: pressure, convection, viscosity, cutoffs, and selector effects are treated as one same-fluid participation current before any source split. The exact shell balance gives only linear participation residence from current inputs. The retained heat-scale pulse has vanishing linear residence and order-one square reserve. Thus coherent participation does not close forward gold unless it is upgraded to an unweighted square/Carleson theorem on the selected current."
+  edge_effect: "Tests Thomas's participation-law objection in the strongest native form: pressure, convection, viscosity, cutoffs, and selector effects are treated as one same-fluid participation current before any source split. The exact shell balance gives only linear participation residence from current inputs. The retained heat-scale pulse has vanishing linear residence and unit normalized square reserve in the displayed model. Thus coherent participation does not close forward gold unless it is upgraded to an unweighted square/Carleson theorem on the selected current."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-interior-reserve-promotion-recheck-after-supplier-audit-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-transport-action-participation-direct-test-20260620.md
@@ -88,7 +88,7 @@ packet therefore requires same-window participation residence:
 
 ```math
 \int_{I_j}\Pi_j^{part,+}(t)\,dt
-\gtrsim
+c_0^{-1}
 \int_{I_j}D_j(t)\,dt
 \quad
 \text{modulo legal and endpoint terms.}
@@ -115,11 +115,10 @@ Let \(I_j\) have heat length
 |I_j|=\lambda_j^{-2}.
 ```
 
-Choose a pulse with
+Choose the exact pulse
 
 ```math
-D_j(t)\simeq\lambda_j^{1/2}
-\quad\text{on }I_j.
+D_j(t)=\lambda_j^{1/2}{\bf 1}_{I_j}(t).
 \tag{CPS.5}
 ```
 
@@ -127,7 +126,7 @@ Then the linear participation residence is small:
 
 ```math
 \int_{I_j}D_j(t)\,dt
-\simeq
+=
 \lambda_j^{1/2}\lambda_j^{-2}
 =
 \lambda_j^{-3/2}
@@ -135,11 +134,11 @@ Then the linear participation residence is small:
 \tag{CPS.6}
 ```
 
-The square reserve is order one:
+The square reserve is exactly one:
 
 ```math
 \int_{I_j}\lambda_jD_j(t)^2\,dt
-\simeq
+=
 \lambda_j\lambda_j\lambda_j^{-2}
 =1.
 \tag{CPS.7}
@@ -148,7 +147,7 @@ The square reserve is order one:
 If the source balances viscous damping on the same window, then
 
 ```math
-\Pi_j^{part,+}(t)\simeq D_j(t).
+\Pi_j^{part,+}(t)=D_j(t).
 \tag{CPS.8}
 ```
 
@@ -157,7 +156,7 @@ The same conclusions hold:
 ```math
 \int_{I_j}\Pi_j^{part,+}(t)\,dt\to0,
 \qquad
-\int_{I_j}\lambda_j\bigl(\Pi_j^{part,+}(t)\bigr)^2\,dt\simeq1.
+\int_{I_j}\lambda_j\bigl(\Pi_j^{part,+}(t)\bigr)^2\,dt=1.
 \tag{CPS.9}
 ```
 
@@ -171,20 +170,20 @@ In the shell energy equation the native trilinear feed has the form
 
 ```math
 \Pi_j(t)
-\sim
+=
 \int S_{<j}^{loc}(t,x)\,|w_j(t,x)|^2\,dx
 ```
 
 on the selected packet.  To balance heat damping one needs
 
 ```math
-\Pi_j(t)\simeq \lambda_j^2E_j(t),
+\Pi_j(t)=\lambda_j^2E_j(t),
 ```
 
 which is realized at the scale level by
 
 ```math
-|S_{<j}^{loc}|\simeq\lambda_j^2.
+|S_{<j}^{loc}|=\lambda_j^2.
 \tag{CPS.10}
 ```
 
@@ -193,7 +192,7 @@ unweighted local strain cost is
 
 ```math
 \int_{I_j}\int_{Q_j}|S_{<j}^{loc}|^2\,dxdt
-\simeq
+=
 \lambda_j^4\lambda_j^{-3}\lambda_j^{-2}
 =
 \lambda_j^{-1}.
@@ -206,7 +205,7 @@ version would be
 ```math
 \lambda_j
 \int_{I_j}\int_{Q_j}|S_{<j}^{loc}|^2\,dxdt
-\simeq1.
+=1.
 \tag{CPS.12}
 ```
 
@@ -245,8 +244,8 @@ ledgers.
 ## 6. Relation to the trilinear
 
 The trilinear term is not decoration.  It is the mechanism by which a heat-scale
-packet can be refilled at the same rate viscosity drains it.  In normalized
-time this refill is order one per scale.  In physical time its linear residence
+packet can be refilled at the same rate viscosity drains it.  In the displayed
+normalized model this refill equals one.  In physical time its linear residence
 is discounted by the heat-scale radius.
 
 Thus the trilinear must be controlled in a square or Carleson currency.  A
