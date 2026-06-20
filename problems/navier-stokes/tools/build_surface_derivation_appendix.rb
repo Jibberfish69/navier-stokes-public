@@ -149,7 +149,7 @@ def cm_claim_and_proof(label, role)
   when :pack
     [
       "#{branch} gives \\(\\neg\\Pack_Q\\), hence \\(\\Exit(Q;\\Owork)\\).",
-      "A member branch must first carry \\(Q\\) by a positive same-fluid packet. The selected terminal branch loses that carrier requirement before any participation or field readout can be asked of it. The Pack-first order therefore gives \\(\\neg\\Pack_Q\\), and the class-exit embedding gives \\(\\Exit(Q;\\Owork)\\).",
+      "A member branch must first carry \\(Q\\) by a positive same-fluid packet. The selected terminal branch loses that carrier requirement before any participation or field readout can be asked of it. The Pack-before-Part audited order therefore gives \\(\\neg\\Pack_Q\\), and the class-exit embedding gives \\(\\Exit(Q;\\Owork)\\).",
       "On the page, this tells the reader that the branch never reaches the later questions. The proof is not claiming a new smooth solution; it is recording that the alleged terminal branch cannot even supply the packet that would let membership be tested. That is why the branch belongs on the fail side of the pass-or-exit split."
     ]
   when :part
@@ -167,7 +167,7 @@ def cm_claim_and_proof(label, role)
   when :finite_disjunction
     [
       "#{branch} gives a finite disjunction of Pack, Part, and Field losses, hence \\(\\Exit(Q;\\Owork)\\).",
-      "The terminal branch presents finitely many same-solution alternatives. Each alternative is tested in Pack-first order. A finite disjunction of Pack, Part, and Field losses is still exhausted by the CM witness tree, so every alternative gives the same class-exit conclusion.",
+      "The terminal branch presents finitely many same-solution alternatives. Each alternative is tested in Pack-before-Part audited order. A finite disjunction of Pack, Part, and Field losses is still exhausted by the CM witness tree, so every alternative gives the same class-exit conclusion.",
       "This keeps the reader from seeing the alternatives as an open cloud of cases. There are only finitely many branch options here, and each option pays one of the same three witness-face costs. Once the finite list is exhausted, there is no remaining terminal branch outside the pass-or-exit law."
     ]
   when :inherited

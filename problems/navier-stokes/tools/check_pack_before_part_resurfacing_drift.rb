@@ -86,7 +86,7 @@ FORBIDDEN = {
   "old prose zero-radius not-Pack wording" => /zero-radius .*not Pack Q/,
   "old prose terminal Zeno Pack-side exit" => /terminal zero-radius Zeno atom remains a Pack-side CM exit/,
   "old Pack-first zero-radius diagnostic" => /Pack-first zero-radius diagnostic placement/,
-  "old terminal Zeno Pack correction prose" => /terminal Zeno Pack correction gives not Pack Q/
+  "old terminal Zeno Pack-before-Part correction prose" => /terminal Zeno Pack-before-Part correction gives not Pack Q/
 }.freeze
 
 BROAD_TERMINAL_FORBIDDEN = FORBIDDEN.select do |label, _|
