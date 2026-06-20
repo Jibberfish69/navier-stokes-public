@@ -5,8 +5,8 @@ Date: 2026-06-20
 ## Status
 
 Post-check closeout after the selected critical-strain, normalized CKN,
-trace-free cancellation, and first-created-height routes were tested against the
-actual selected terminal positive carrier.
+trace-free cancellation, microlocal defect, and first-created-height routes
+were tested against the actual selected terminal positive carrier.
 
 The conclusion is exact: these currencies all identify the right heat-scale
 obstruction, but none supplies the missing endpoint no-jump theorem from current
@@ -157,6 +157,27 @@ compensation, trace-free structure, and div-curl language become useful only
 after a theorem proves retained signed partners or selected polar saturation.
 They do not independently give `(CCO.2)`.
 
+The microlocal refinement keeps the oscillation instead of averaging it away,
+but it does not change the payment problem.  Take wave direction \(\xi=e_2\)
+and high-frequency polarization \(p=e_1\).  Then
+
+```math
+\xi\cdot p=0,
+\tag{CCO.12a}
+```
+
+so the principal packet is divergence-free.  The associated oscillation defect
+has positive rank-one polarization \(e_1\otimes e_1\) at \(\xi=e_2\), and
+
+```math
+\operatorname{tr}(S_0\,e_1\otimes e_1)=2.
+\tag{CCO.12b}
+```
+
+Thus H-measure or Young-measure compactness sees the selected positive defect
+as a positive measure; it does not make that measure endpoint-uniformly
+integrable, square-summable, polar-saturated, or impossible.
+
 ## 4. CKN is visibility, not summability
 
 For a heat-scale cylinder
@@ -252,6 +273,8 @@ The checked routes now have the same mathematical residue:
 \sim
 \text{normalized CKN}
 \sim
+\text{microlocal positive defect visibility}
+\sim
 \text{native source-square}
 \sim
 \text{unweighted terminal critical action reserve}
@@ -279,9 +302,10 @@ The remaining noncircular suppliers are exactly:
 
 This branch is exhausted as an independent shortcut.  Critical strain and CKN
 are the correct heat-scale currencies; trace-free cancellation explains where
-the signed partner lives; first-created height localizes the unpaid reserve.
-None of those facts by itself gives the endpoint no-jump/source-residence
-theorem for the selected positive carrier.
+the signed partner lives; microlocal compactness preserves the positive defect
+as a visible measure; first-created height localizes the unpaid reserve.  None
+of those facts by itself gives the endpoint no-jump/source-residence theorem
+for the selected positive carrier.
 
 The live forward-gold wall remains:
 
