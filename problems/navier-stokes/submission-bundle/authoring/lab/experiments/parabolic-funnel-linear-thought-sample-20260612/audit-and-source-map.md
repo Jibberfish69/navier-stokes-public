@@ -21,7 +21,7 @@ All three PDFs are readable and unencrypted.
 
 1. The fixed-cylinder objection is not cosmetic.
 
-   The transcript shows the user pushing against a real target error: a fixed-radius cylinder is built from constant slices, while the live object has time-dependent slices. The dialectical PDF says this, but it does not carry the force of why the correction mattered: without the moving reference frame, the argument keeps bouncing between positive radius and radius collapse.
+   The transcript shows the user pushing against a real target error: a fixed-radius cylinder is built from constant slices, while the live terminal record has time-dependent slices. The dialectical PDF says this, but it does not carry the force of why the correction mattered: without the moving reference frame, the argument keeps bouncing between positive radius and radius collapse.
 
 2. The moving-boundary term is only the first symptom.
 
