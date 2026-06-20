@@ -11,9 +11,12 @@ carrier by a bounded finite family of oriented lobe-refined carriers.
 
 Update: the packet-level finite expansion itself is discharged in
 `mpp-forward-gold-finite-mode-lobe-carrier-expansion-proof-20260620.md`.  The
-remaining live pieces are oriented lobe test compatibility, lobe-refined readout
-summability, refined mode Jacobian, refined commutator legality, and nodal-zone
-source evacuation.
+packet-level oriented lobe compatibility is discharged relative to
+`ModeTestCompatibility.A` in
+`mpp-forward-gold-oriented-lobe-mode-test-compatibility-proof-20260620.md`.
+The remaining live pieces for the packet-label route are the original
+`ModeTestCompatibility.A` inputs, lobe-refined readout summability, refined mode
+Jacobian, and nodal-zone source evacuation.
 
 This route avoids the false demand that the original positive source carrier
 live in one sign lobe.  It instead splits the carrier into two sign lobes and
@@ -155,8 +158,9 @@ There is no infinite selector explosion at this algebraic level.
 ## 4. Required theorem package
 
 The algebra `(FML.7)` becomes a legal proof route only after the following
-inputs are installed.  The first input is now discharged at packet level by the
-separate proof note; the remaining inputs below are still live.
+inputs are installed.  The first input is discharged at packet level by the
+finite-expansion proof note.  The second input is discharged relative to
+`ModeTestCompatibility.A` by the oriented-lobe proof note.
 
 ```math
 \boxed{
@@ -199,6 +203,10 @@ the selected-family identity.
 
 The lobe cutoffs used to form `(FML.11)` produce only legal lift/projection,
 cutoff, and gauge-time commutators.
+
+For the packet-label route, no new lobe cutoff is inserted inside packets, so
+this input is already covered by `ModeTestCompatibility.A`.  It remains live
+only for a spatial-cutoff version of the lobe refinement.
 
 ```math
 \boxed{
@@ -255,11 +263,9 @@ After the packet-level finite expansion proof, `(FML.17)` reduces to
 ```math
 \boxed{
 \begin{aligned}
-&\text{OrientedLobeModeTestCompatibility.A}
+\text{ModeTestCompatibility.A}
 +\text{LobeRefinedModeReadoutSummability.A}
-+\text{RefinedCarrierModeJacobian.A}\\
-&\quad
-+\text{RefinedCarrierCommutatorLegal.A}
++\text{RefinedCarrierModeJacobian.A}
 +\text{NodalZoneSourceEvacuation.A}
 \\
 &\Longrightarrow
@@ -288,8 +294,9 @@ The single-lobe route is too strong for the sign-split countermodel.  The finite
 mode-lobe expansion gives a sharper alternative: split the positive source
 carrier by the sign of the mode and orient the mode separately on each lobe.
 
-The algebraic inequality `(FML.7)` is proved in this note, and the packet-level
-finite expansion is discharged separately.  The remaining work is not
-source-sign concentration.  It is oriented lobe-test legality, refined
-commutators, retained modulation rank, nodal-source payment, and same-shadow
-readout on every refined lobe.
+The algebraic inequality `(FML.7)` is proved in this note, the packet-level
+finite expansion is discharged separately, and oriented lobe compatibility is
+inherited from `ModeTestCompatibility.A`.  The remaining work is not source-sign
+concentration.  It is the original mode-test compatibility package, retained
+modulation rank, nodal-source payment, and same-shadow readout on every refined
+lobe.
