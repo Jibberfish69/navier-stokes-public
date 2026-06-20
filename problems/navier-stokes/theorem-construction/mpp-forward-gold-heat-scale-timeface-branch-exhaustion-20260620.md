@@ -8,8 +8,9 @@ Direct branch exhaustion installed for the current heat-scale time-face route.
 
 This does not solve the Navier--Stokes MPP.  It closes the current positive
 supplier search around participation, reserve creation, selected critical
-strain, normalized CKN packing, strict no-waste, no-free terminal donor chains,
-compact source-residue rigidity, and Door 2 stationarity production.
+strain, normalized CKN packing, strict scale descent, strict no-waste, no-free
+terminal donor chains, compact source-residue rigidity, and Door 2 stationarity
+production.
 
 All of those routes reduce to the same non-aliased object:
 
@@ -22,8 +23,9 @@ All of those routes reduce to the same non-aliased object:
 
 or to a genuinely equivalent same-carrier theorem: moving-packet terminal trace
 modulus, source-square/Carleson reserve, selected critical-strain endpoint
-uniform integrability, normalized CKN terminal strip tightness, strict rescaled
-no-waste Lyapunov, or no-free terminal Zeno donor-chain saturation.
+uniform integrability, normalized CKN terminal strip tightness, strict
+cross-scale descent, strict rescaled no-waste Lyapunov, or no-free terminal Zeno
+donor-chain saturation.
 
 Without one of those unweighted currencies, the retained heat-scale pulse is
 visible but not forward-positive excluded.  It must be consumed by the CM
@@ -402,6 +404,39 @@ not the unweighted action bound needed for stationarity.
 So compact rigidity does not supply a shortcut.  It returns to the same
 unweighted terminal action/source reserve or source-defect evacuation theorem.
 
+### 3.9 Strict scale descent
+
+The descent shortcut would require a same-carrier inequality of the form
+
+```math
+A_{j+1}
+\le
+\theta A_j+\mathrm{Legal}_j,
+\qquad
+0<\theta<1,
+\qquad
+\sum_j\mathrm{Legal}_j<\infty.
+\tag{HTE.32}
+```
+
+Together with \(A_j\ge c_0>0\), this would kill an infinite retained Zeno
+chain.  The current identities do not produce the strict factor.  Parabolic
+scaling preserves the normalized equation and the normalized critical action,
+so a least retained packet may repeat at every smaller heat scale.
+
+The same-fluid identity gives \(M_R'+D_R=F_R\), not
+
+```math
+F_R\le (1-\gamma)D_R+R_{\rm legal}.
+\tag{HTE.33}
+```
+
+The neutral case \(F_R=D_R\), \(M_R'=0\) remains admissible at the level of the
+installed estimates.  Thus `StrictScaleDescent.A` is not an independent supplier.
+It requires the same missing strict asymmetry as the source-square,
+critical-strain, normalized CKN, no-waste, polar-saturation, or compact-profile
+routes.
+
 ## 4. Closed branch statement
 
 The direct work proves this branch-level statement:
@@ -414,7 +449,7 @@ The direct work proves this branch-level statement:
 \text{terminal heat-scale pulse, but none of them removes the radius discount.}
 \end{gathered}
 }
-\tag{HTE.32}
+\tag{HTE.34}
 ```
 
 The only non-aliased forward-gold continuation is:
@@ -423,7 +458,7 @@ The only non-aliased forward-gold continuation is:
 \boxed{
 \text{prove an unweighted same-carrier terminal reserve}
 }
-\tag{HTE.33}
+\tag{HTE.35}
 ```
 
 in one of the equivalent forms:
@@ -434,11 +469,12 @@ in one of the equivalent forms:
 \text{SourceSquareReserve.A / PositiveActiveCarlesonReserve.A},\\
 \text{SelectedCriticalStrainCarleson.A plus endpoint carrier UI},\\
 \text{NormalizedCKNCarleson.A / scale-critical cubic strip tightness},\\
+\text{StrictScaleDescent.A with a real cross-scale factor},\\
 \text{StrictRescaledNoWasteLyapunov.A},\\
 \text{NoFreeTerminalZenoDonorChain.A / selected polar saturation},\\
 \text{or CompactAncientRigidity.A after no-waste compact-element production.}
 \end{gathered}
-\tag{HTE.34}
+\tag{HTE.36}
 ```
 
 Every other named route in this heat-scale branch is currently an alias,
@@ -458,7 +494,7 @@ Forward-gold status:
 \boxed{
 \text{not closed at current inputs.}
 }
-\tag{HTE.35}
+\tag{HTE.37}
 ```
 
 Exact remaining gold burden:
@@ -468,7 +504,7 @@ Exact remaining gold burden:
 \text{remove the heat-scale radius discount by a same-carrier unweighted
 critical reserve.}
 }
-\tag{HTE.36}
+\tag{HTE.38}
 ```
 
 Fallback consequence:
@@ -479,7 +515,7 @@ Fallback consequence:
 \quad
 \text{it is CM Pack/Part/Field witness-face evidence.}
 }
-\tag{HTE.37}
+\tag{HTE.39}
 ```
 
 This closes the current heat-scale time-face branch as an exhausted positive
