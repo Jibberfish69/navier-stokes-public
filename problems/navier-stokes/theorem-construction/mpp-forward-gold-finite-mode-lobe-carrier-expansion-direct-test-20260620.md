@@ -9,6 +9,12 @@ than `SingleLobeSourceCarrier.A`.  The full theorem is not installed because the
 current proof architecture has not yet legalized replacing one selected mode
 carrier by a bounded finite family of oriented lobe-refined carriers.
 
+Update: the packet-level finite expansion itself is discharged in
+`mpp-forward-gold-finite-mode-lobe-carrier-expansion-proof-20260620.md`.  The
+remaining live pieces are oriented lobe test compatibility, lobe-refined readout
+summability, refined mode Jacobian, refined commutator legality, and nodal-zone
+source evacuation.
+
 This route avoids the false demand that the original positive source carrier
 live in one sign lobe.  It instead splits the carrier into two sign lobes and
 uses the two oriented tests \(\psi_m\) and \(-\psi_m\).
@@ -149,7 +155,8 @@ There is no infinite selector explosion at this algebraic level.
 ## 4. Required theorem package
 
 The algebra `(FML.7)` becomes a legal proof route only after the following
-inputs are installed:
+inputs are installed.  The first input is now discharged at packet level by the
+separate proof note; the remaining inputs below are still live.
 
 ```math
 \boxed{
@@ -243,6 +250,26 @@ The direct lobe-expansion route is:
 \tag{FML.17}
 ```
 
+After the packet-level finite expansion proof, `(FML.17)` reduces to
+
+```math
+\boxed{
+\begin{aligned}
+&\text{OrientedLobeModeTestCompatibility.A}
++\text{LobeRefinedModeReadoutSummability.A}
++\text{RefinedCarrierModeJacobian.A}\\
+&\quad
++\text{RefinedCarrierCommutatorLegal.A}
++\text{NodalZoneSourceEvacuation.A}
+\\
+&\Longrightarrow
+\text{SourceModeScoreComparison.A}
+\text{ on the lobe-refined carrier family}.
+\end{aligned}
+}
+\tag{FML.17a}
+```
+
 This bypasses the original-carrier implication
 
 ```math
@@ -261,7 +288,8 @@ The single-lobe route is too strong for the sign-split countermodel.  The finite
 mode-lobe expansion gives a sharper alternative: split the positive source
 carrier by the sign of the mode and orient the mode separately on each lobe.
 
-The algebraic inequality `(FML.7)` is proved in this note.  The remaining work
-is not source-sign concentration.  It is whether the gold route permits this
-bounded lobe-refined carrier expansion with legal commutators, retained
-modulation rank, and same-shadow readout on every refined lobe.
+The algebraic inequality `(FML.7)` is proved in this note, and the packet-level
+finite expansion is discharged separately.  The remaining work is not
+source-sign concentration.  It is oriented lobe-test legality, refined
+commutators, retained modulation rank, nodal-source payment, and same-shadow
+readout on every refined lobe.
