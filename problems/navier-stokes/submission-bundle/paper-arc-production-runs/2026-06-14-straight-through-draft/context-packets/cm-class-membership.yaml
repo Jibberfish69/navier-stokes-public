@@ -77,7 +77,7 @@ source_sections:
     \]
     The pass line means that the selected record keeps the original datum, the fixed viscosity, the Navier--Stokes pressure law, incompressibility, the transported carrier, the participation tower, and a positive-scale field readout strong enough for the continuation criterion in force.  The fail line means that the same selected record loses one of those requirements.  The proof names the first lost requirement.
 
-    The first lost requirement is read in Pack-first order:
+    The first lost requirement is read in Pack-before-Part audited order:
     \[
       \begin{aligned}
       \text{lost same-fluid carrier} &\longmapsto \neg\Pack_Q,\\
@@ -854,7 +854,7 @@ context_domain_refs:
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
         role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
-          face split, receiver/source/readout/endpoint layers, Pack-first source-wall gate
+          face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260612.yaml
     matched_keywords:
@@ -867,7 +867,7 @@ context_domain_refs:
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
         role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
-          face split, receiver/source/readout/endpoint layers, Pack-first source-wall gate
+          face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260613-iteration-2.yaml
     matched_keywords:
@@ -880,7 +880,7 @@ context_domain_refs:
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
         role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
-          face split, receiver/source/readout/endpoint layers, Pack-first source-wall gate
+          face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260613.yaml
     matched_keywords:
@@ -893,7 +893,7 @@ context_domain_refs:
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
         role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
-          face split, receiver/source/readout/endpoint layers, Pack-first source-wall gate
+          face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-executor.yaml
     matched_keywords:

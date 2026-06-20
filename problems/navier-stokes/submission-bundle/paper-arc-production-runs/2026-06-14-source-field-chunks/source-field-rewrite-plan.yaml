@@ -698,7 +698,7 @@ chunks:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39409
   subsection_titles:
   - Monotone-To-Cascade Carrier
-  - Clay problem B ASAC closed CM Pack-first exit diagnostic
+  - Clay problem B ASAC closed CM Pack-before-Part typed exit diagnostic
   - Clay problem BASACDiffuse Parent Flux Localization.A Direct Attempt
   - Clay problem B ASAC Target-Local Exhaustion and CM Pack-First Exit Support
   - Clay problem Duhamel Inverse Native Source Localization Proof Split
@@ -7488,7 +7488,7 @@ chunks:
 
     The source residue is not the next object to delete. In the CM contrapositive route, the source residue is the bad object that proves class exit.
 
-    So the residue is carried into the Pack-first CM decision tree. It is not first converted into a positive smoothness estimate.
+    So the residue is carried into the Pack-before-Part audited CM decision tree. It is not first converted into a positive smoothness estimate.
 
     \[
     \mu_*^{src,+}(\mathcal F_N)>0.
