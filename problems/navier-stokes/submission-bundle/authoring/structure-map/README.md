@@ -23,3 +23,8 @@ The generated `repo-section-map.yaml` records each extracted repo handle, its
 reader-facing title, and its proposed PDF location. Edit
 `repo-section-map-rules.yaml` when a placement rule or title override should
 change.
+
+This folder answers placement and naming questions only. It does not decide
+whether a transcript passage is mathematically valid, whether an explanation
+style should be preserved, or whether an experiment is good enough for the
+manuscript.
