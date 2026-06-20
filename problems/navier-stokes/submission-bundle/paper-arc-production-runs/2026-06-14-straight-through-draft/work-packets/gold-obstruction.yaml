@@ -1570,7 +1570,7 @@ context_domain_refs:
     - refill
     excerpt: |-
       kind: theorem_packet
-      summary: SourceReserveBirthCharge.A is support under the Pack-first CM pass-or-exit
+      summary: SourceReserveBirthCharge.A is support under the Pack-before-Part CM pass-or-exit
         reading; zero-radius or selected unpaid infinite donor-refill lands first at not
         Pack_Q, while retained positive-scale first-created native donor-square reserve
         remains supplier-quarantined until same-ledger payment or CM-test admission plus
