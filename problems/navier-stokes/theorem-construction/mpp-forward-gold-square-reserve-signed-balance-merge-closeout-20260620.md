@@ -248,9 +248,8 @@ The repo also records a parent-drain route:
 ```
 
 This proves the frozen rigidity in the parent-graph sense used by the ASAC
-route, provided the tangent parent graph, terminal source tether, and limit pass
-are pinned.  Thus the current active-alignment burden is not only frozen
-rigidity.  It is the ASAC completion package:
+route.  The ASAC parent-drain assembly then records the terminal first-pulse
+package:
 
 ```math
 \text{PacketNormalForm.A}
@@ -265,10 +264,11 @@ rigidity.  It is the ASAC completion package:
 \tag{SRB.16b}
 ```
 
-The global no-incoming / anisotropic Carleman route remains a reserve route.
-The parent-drain route is the sharper active route, but it still needs the
-packet normal form, source tether, and limit-pass licenses before it can pay the
-positive pair-weight/active-alignment defects in Door 1.
+In the post-ASAC ledger, active alignment and the one-sided positive
+pair-weight defect are no longer the live primitive.  `ASAC.A` pays the
+positive receiver-side pair-weight defect through
+`PositivePairWeightDefectCharge.A`.  The remaining source-current primitive is
+the terminal signed-partner / no-free-sink side.
 
 ## 5. Current exact merge
 
@@ -303,7 +303,8 @@ Failure of the same amplitude gain gives:
 and the missing class-production term again reduces to terminal weight
 coherence plus active strain-alignment cost.
 
-Therefore, at the present route resolution:
+Therefore, after the ASAC and one-sided pair-weight updates, at the present
+route resolution:
 
 ```math
 \boxed{
@@ -313,10 +314,29 @@ Therefore, at the present route resolution:
 \equiv_{\rm route}
 \text{TerminalSignedSaturation.A}
 \equiv_{\rm route}
-\text{ASAC completion / TPNI parent drain / active-alignment no-free terminal pulse}.
+\text{TerminalWeightedNoFreeSink.A}.
 }
 \tag{SRB.19}
 ```
+
+Finite donor trees are paid by local donor balance and entrance-leaf decay.
+The infinite terminal donor branch is exactly the Zeno source-residue branch:
+
+```math
+\text{ZenoCompactnessExtraction.A}
++
+\text{NoEarlierSelectedSourceSlice.A}
++
+\text{TemporalNonAtomicSource.A}
+\Longrightarrow
+\text{ZenoSourceResidueRigidity.A}.
+\tag{SRB.20}
+```
+
+Thus the remaining non-circular forward-gold supplier is endpoint uniform
+integrability / temporal non-atomicity of the selected native positive source
+carrier, or an equivalent same-carrier source-square, Orlicz, strict no-waste,
+or rigid Zeno residue Liouville theorem.
 
 ## Verdict
 
@@ -325,13 +345,14 @@ target:
 
 ```math
 \boxed{
-\text{finish the ASAC completion package around parent-form TPNI, or prove
-terminal signed saturation directly.}
+\text{prove terminal signed saturation / no-free terminal Zeno donor chain.}
 }
-\tag{SRB.20}
+\tag{SRB.21}
 ```
 
-Without one of those new signed/ASAC/no-incoming theorems, the square-reserve
-route does not close the forward-gold heat-scale terminal pulse.  It becomes
-either a CM-facing Pack/Part/Field face readout, or it remains the same unsolved
+Without terminal signed saturation, endpoint uniform integrability of the
+selected source carrier, same-carrier source-square control, strict no-waste,
+or a rigid Zeno source-residue Liouville theorem, the square-reserve route does
+not close the forward-gold heat-scale terminal pulse.  It becomes either a
+CM-facing Pack/Part/Field face readout, or it remains the same unsolved
 gold-standard source-wall primitive.
