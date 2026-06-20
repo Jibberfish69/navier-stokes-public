@@ -9,8 +9,10 @@ Direct test of the supplier exposed by
 
 The critical feed calculation shows that energy-level \(L^2_{t,x}\) strain is
 summable over a Zeno heat-scale cascade, while \(L^{5/2}_{t,x}\) strain would
-charge each critical feed event at order one.  This note checks whether the
-Navier--Stokes energy/local-energy package supplies that selected
+charge each critical feed event by a fixed positive amount in the normalized
+packet currency; in the notation below, `(SCS.14)` gives the lower bound
+\(c_{5/2}\nu^{3/2}\) for every retained heat-scale packet.  This note checks
+whether the Navier--Stokes energy/local-energy package supplies that selected
 \(L^{5/2}\) strain currency.
 
 It does not.  The energy package supplies the velocity side of the critical
