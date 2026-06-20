@@ -33,6 +33,8 @@ this note only consumes this branch inside the Pack/Part/Field witness tree.
 - `mpp-forward-gold-selected-carrier-cm-service-certification-recheck-20260620.md`.
 - `mpp-terminal-source-residue-cm-exit-20260522.md`.
 - `mpp-terminal-zeno-pack-failure-correction-20260521.md`.
+- `mpp-pack-before-part-dependency-resurfacing-audit-20260620.md`.
+- `mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md`.
 - `mpp-any-finite-failure-witness-cm-exit-20260521.md`.
 - `mpp-clay-terminal-witness-invalidation-20260523.md`.
 - `mpp-clay-admissible-breakdown-cm-lawfulness-test-20260524.md`.
