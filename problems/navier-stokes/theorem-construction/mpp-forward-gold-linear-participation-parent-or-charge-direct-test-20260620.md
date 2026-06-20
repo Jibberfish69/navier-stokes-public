@@ -2,13 +2,14 @@
 theorem_id: forward-gold-linear-participation-parent-or-charge-direct-test-20260620
 status: direct-linear-parent-or-charge-test-complete-not-proved
 logical_landing_node: linear_participation_parent_or_charge
-edge_effect: "Tests the non-source-residue linear participation branch left after the selected participation source-pulse identity test. The scalar principal-gain calculation gives an exact normalized endpoint-energy parent identity, but the full Navier-Stokes selected positive carrier still needs positive-part/sign saturation and a no-free terminal normalized-energy parent trace. Thus the branch is visible as inherited principal-flow gain, but it is not discharged by the existing source-drain theorem."
+edge_effect: "Tests the non-source-residue linear participation branch left after the selected participation source-pulse identity test. The scalar principal-gain calculation gives an exact normalized endpoint-energy parent identity. The follow-up positive-trace direct test shows that signed endpoint-energy accounting does not by itself dominate the selected positive trace; the remaining bridge is LinearEnergyTracePolarSaturation.A plus NoFreeTerminalNormalizedEnergyTrace.A. Thus the branch is visible as inherited principal-flow gain, but it is not discharged by the existing source-drain theorem or signed energy identity alone."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-linear-source-pulse-identity-direct-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-linear-positive-energy-trace-saturation-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-principal-flow-adjoint-parent-or-charge-note-20260504.md
   - problems/navier-stokes/theorem-construction/mpp-normalized-child-mass-source-drain-assembly-note-20260504.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-square-reserve-evolution-current-resolution-recheck-20260620.md
-downstream_consequence: "The non-source-residue linear branch does not stay invisible. It becomes a normalized endpoint-energy parent/gain trace. Finite preterminal chains telescope, but an infinite terminal Zeno chain of normalized endpoint-energy traces still requires no-free terminal trace, positive saturation, strict no-waste, or CM Pack/Part/Field admission. The square-only branch remains a stronger same-carrier square problem."
+downstream_consequence: "The non-source-residue linear branch does not stay invisible. It becomes a normalized endpoint-energy parent/gain trace. Finite preterminal chains telescope only after same-normalization signed partners or legal exits are retained. The exact remaining linear bridge is LinearEnergyTracePolarSaturation.A plus NoFreeTerminalNormalizedEnergyTrace.A, or a stronger strict no-waste/source-square/unweighted-action theorem. The square-only branch remains a stronger same-carrier square problem."
 ---
 
 # MPP Forward-Gold Linear Participation Parent-Or-Charge Direct Test
@@ -202,6 +203,22 @@ meaning the positive selected strain work is either represented by the signed
 energy trace, retains its signed partner, or pays legal/cutoff/projection/source
 cost.
 
+The follow-up direct test
+`mpp-forward-gold-linear-positive-energy-trace-saturation-direct-test-20260620.md`
+shows that `(LPC.15)` is not a formal consequence of the signed local energy
+identity.  A trace-free two-channel model has zero signed strain trace while a
+selector keeps the expanding channel's positive trace.  Therefore the exact
+remaining positive-trace bridge is
+
+```math
+\boxed{
+\text{LinearEnergyTracePolarSaturation.A}
++
+\text{NoFreeTerminalNormalizedEnergyTrace.A}.
+}
+\tag{LPC.15a}
+```
+
 ## 4. The terminal Zeno parent trace
 
 Assume `(LPC.15)` is supplied.  A finite parent chain then telescopes:
@@ -293,7 +310,7 @@ The missing full Navier-Stokes bridge is:
 
 ```math
 \boxed{
-LinearPositiveEnergyTraceSaturation.A
+LinearEnergyTracePolarSaturation.A
 +
 NoFreeTerminalNormalizedEnergyTrace.A.
 }
