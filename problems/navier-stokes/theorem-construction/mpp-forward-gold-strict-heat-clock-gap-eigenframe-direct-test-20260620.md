@@ -97,7 +97,7 @@ On a packet core \(B_r(x_\lambda)\), take a trace-free low strain of the form
 S_\lambda(t,x)
 =
 a\nu\lambda^2\chi(\lambda(x-x_\lambda))
-\operatorname{diag}(2,-1,-1),
+\,\operatorname{diag}(2,-1,-1),
 \qquad t\in I_\lambda,
 \tag{SHG.7}
 ```
