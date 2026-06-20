@@ -171,7 +171,7 @@ The exact scalar obstruction has three variables, not one:
 
 ```math
 \text{radius }r_j,\qquad
-\text{heat time }\tau_j\simeq r_j^2,\qquad
+\alpha_t r_j^2\le \tau_j\le A_t r_j^2,\qquad
 \text{amplitude }a_j.
 \tag{SPH.10}
 ```
@@ -186,29 +186,30 @@ V\!\left({t-t_j\over r_j^2},{x-x_j\over r_j}\right),
 \tag{SPH.11}
 ```
 
-the physical energy and dissipation costs scale like
+there are fixed profile-dependent constants \(0<c_{ED}(V)\le C_{ED}(V)<\infty\)
+such that
 
 ```math
+c_{ED}(V)a_j^2r_j
+\le
 E_j+D_j
-\simeq
-a_j^2r_j.
+\le
+C_{ED}(V)a_j^2r_j.
 \tag{SPH.12}
 ```
 
-The critical interface currencies scale instead like
+The critical interface currencies have fixed-profile homogeneous powers:
 
 ```math
 \|u_j(t)\|_{L^3(B_{r_j})}^3
-\simeq
-a_j^3,
+=C_3(V)a_j^3,
 \tag{SPH.13}
 ```
 
 ```math
 {1\over r_j^2}
 \int_{Q_j}\left(|u_j|^3+|p_j|^{3/2}\right)\,dx\,dt
-\simeq
-a_j^3,
+=C_{CKN}(V,p_V)a_j^3,
 \tag{SPH.14}
 ```
 
@@ -216,8 +217,7 @@ and, for the Serrin \(L^5\) action,
 
 ```math
 \int_{Q_j}|u_j|^5\,dx\,dt
-\simeq
-a_j^5.
+=C_5(V)a_j^5.
 \tag{SPH.15}
 ```
 
