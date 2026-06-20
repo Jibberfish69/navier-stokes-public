@@ -179,26 +179,54 @@ For \(A=P\chi P\), the leading projected localized nonlinear term decomposes as
 ```
 
 Replacing \(u\) by \(-u\) reverses the leading flux and leaves the viscous
-quadratic term unchanged.  With
+quadratic term unchanged.  Choose a smooth divergence-free collar profile \(U\)
+with
+
+```math
+c_U:=
+{1\over2}\int |U|^2U\cdot\nabla\chi\,dy
+\ne0,
+\qquad
+d_U:=\int\chi|\nabla U|^2\,dy<\infty.
+\tag{NWC.13a}
+```
+
+With
 
 ```math
 u_{\lambda,r}(x)=\lambda r^{-1}U((x-x_0)/r),
 \tag{NWC.14}
 ```
 
-the positive collar flux grows like
+the collar flux and viscous term are
 
 ```math
-\lambda^3 r^{-1},
+{1\over2}\int |u_{\lambda,r}|^2u_{\lambda,r}\cdot\nabla\chi_r\,dx
+=
+\lambda^3r^{-1}c_U,
 \tag{NWC.15}
 ```
 
-while the viscous term grows like
+and
 
 ```math
-\nu\lambda^2r^{-1}.
+\nu\int\chi_r|\nabla u_{\lambda,r}|^2\,dx
+=
+\nu\lambda^2r^{-1}d_U.
 \tag{NWC.16}
 ```
+
+After replacing \(U\) by \(-U\) if needed, \(c_U>0\).  The ratio of positive
+collar flux to viscous dissipation is then
+
+```math
+{\lambda^3r^{-1}c_U\over \nu\lambda^2r^{-1}d_U}
+=
+{\lambda c_U\over \nu d_U},
+\tag{NWC.16a}
+```
+
+which is unbounded as \(\lambda\to\infty\).
 
 So an unrestricted absorption of positive localized flux into viscosity is false
 uniformly.  The reserved version is valid only as a normal form:
