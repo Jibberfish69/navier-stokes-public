@@ -40,7 +40,7 @@ after passing to a terminal subsequence and removing:
 - readout-only artifacts;
 - paid finite ledger terms.
 
-Then `\mathcal R_*` is captured by the Pack-first CM tree:
+Then `\mathcal R_*` is captured by the Pack-before-Part audited CM tree:
 
 ```math
 \boxed{

@@ -45,7 +45,7 @@ SelectedPacketReadoutCompleteness.A
 PackDefinitionUnification.A
 ```
 
-3. Its theorem gives the Pack-first terminal face trichotomy:
+3. Its theorem gives the Pack-before-Part terminal face trichotomy:
 
 ```text
 finite terminal non-continuation on T^3

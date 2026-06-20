@@ -27,7 +27,7 @@ data. Assume `W_*` passes the CM test-admissibility clauses from
 `mpp-clay-admissible-breakdown-cm-lawfulness-test-20260524.md`.
 
 Then the canonical terminal obstruction extracted from `W_*` is exhausted by
-the Pack-first CM witness tree:
+the Pack-before-Part audited CM witness tree:
 
 ```math
 ClayAdmissibleFiniteBreakdown(W_*)

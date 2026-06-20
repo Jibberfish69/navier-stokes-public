@@ -28,7 +28,7 @@ Proposed statement:
 
 ```text
 For an original smooth-data terminal packet whose first live obstruction is a
-Pack-side zero-thickness terminal layer, the TPS coarse-field bundle coercivity
+Pack-before-Part typed zero-thickness terminal layer, the TPS coarse-field bundle coercivity
 and actual/coarse deviation packets force the same Pack witness to lie in a
 selector-good active-pair family with positive active-time thickness.
 ```

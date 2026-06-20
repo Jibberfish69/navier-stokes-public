@@ -114,7 +114,7 @@ None is installed by the current route inputs.
 
 Do not advertise `BASACSourceTreeCarleson.A` as the active next lower bookkeeping atom by itself. It is one expression of the missing new-production theorem, alongside temporal anti-concentration, pressure time-face spread, transported time-face anti-atom, and rigid subclass production.
 
-The target-local `B_ASAC` descent is complete at obstruction plus Pack-first CM exit support. The forward supplier route remains open only at the external new-production theorem level.
+The target-local `B_ASAC` descent is complete at obstruction plus Pack-before-Part typed CM exit support. The forward supplier route remains open only at the external new-production theorem level.
 
 ## Non-claims
 

@@ -106,7 +106,7 @@ relaunch from `u(t_j)` exists past `T_*` and is the original solution on the
 overlap by uniqueness.
 
 Therefore an alleged finite-time failure witness cannot retain all three slots
-on the same terminal packet. We now sort the failed slot in Pack-first order.
+on the same terminal packet. We now sort the failed slot in Pack-before-Part audited order.
 
 ### Step 1. Carrier gate
 

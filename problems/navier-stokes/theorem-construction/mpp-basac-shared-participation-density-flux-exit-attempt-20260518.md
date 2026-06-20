@@ -54,7 +54,7 @@ SharedParticipationDensityClass^{fail}.
 4. A terminal atom means order-one participation mass appears in terminal layers of vanishing time thickness.
 5. Uniform participation density plus preserved volume forbids that accumulation without boundary flux.
 6. Pressure-responsive or velocity-responsive density variation exits the incompressible same-fluid class.
-7. Therefore the atom cannot remain a legal `B_ASAC` member; it lands as Pack-first CM exit support unless a separate positive-scale retained-carrier bridge is proved.
+7. Therefore the atom cannot remain a legal `B_ASAC` member; it lands as Pack-before-Part typed CM exit support unless a separate positive-scale retained-carrier bridge is proved.
 
 ## Required bridge lemmas
 
