@@ -215,36 +215,85 @@ the moving terminal trace failure already isolated as
 or as an equivalent source-square, strict no-waste, or exact Zeno profile
 production theorem.
 
-## 6. Exact reduction
+## 6. Compactness side equals endpoint UI
+
+In the selected terminal heat-scale variables, `SelectedPositiveConeCompactness.A`
+has the concrete endpoint form already tested as
+`SelectedCarrierEndpointUI.A`.
+
+For the normalized selected nonlegal carrier `a_m(s)>=0`, this is
+
+```math
+\lim_{\theta\downarrow0}\limsup_m
+\int_{-\theta}^{0}a_m(s)\,ds
+=0.
+\tag{SPK.18}
+```
+
+This is the shortest strict statement that kills the terminal time-face pulse
+on the actual selected positive carrier.  The weaker finite-mass statement
+
+```math
+\sup_m\int_{-1}^{0}a_m(s)\,ds<\infty
+\tag{SPK.19}
+```
+
+allows the endpoint layer
+
+```math
+a_m(s)=\tau_m^{-1}\mathbf 1_{(-\tau_m,0]}(s),
+\qquad
+\tau_m\downarrow0.
+\tag{SPK.20}
+```
+
+because
+
+```math
+\int_{-1}^{0}a_m(s)\,ds=1,
+\qquad
+\lim_{\theta\downarrow0}\limsup_m
+\int_{-\theta}^{0}a_m(s)\,ds
+=1.
+\tag{SPK.21}
+```
+
+Thus the compactness half of positive-cone saturation is not ordinary weak
+compactness or finite measure mass.  It is endpoint uniform integrability of
+the actual selected carrier, equivalently the moving-packet terminal strip
+modulus after carrier identification.  Source-square, critical strain,
+normalized CKN, and strict no-waste are production mechanisms for this same
+endpoint modulus.
+
+## 7. Exact reduction
 
 The positive saturation theorem splits into a compact no-null theorem and a
 terminal compactness theorem:
 
 ```math
 \boxed{
-\text{SelectedPositiveConeCompactness.A}
+\text{SelectedCarrierEndpointUI.A}
 +
 \text{SelectedPositiveConeNoNullReadout.A}
 \Longrightarrow
 \text{SelectedPositivePolarSaturation.A}.
 }
-\tag{SPK.18}
+\tag{SPK.22}
 ```
 
-Here `SelectedPositiveConeCompactness.A` means every normalized same-shadow
-selected positive carrier sequence has a compact terminal ledger limit after
-legal exits and finite donor telescoping are removed.
+Here `SelectedCarrierEndpointUI.A` is the concrete compactness/no-terminal-atom
+form of `SelectedPositiveConeCompactness.A` for the actual selected carrier.
 
 If compactness fails, the failure is the terminal Zeno/time-face branch:
 
 ```math
 \boxed{
-\neg\text{SelectedPositiveConeCompactness.A}
+\neg\text{SelectedCarrierEndpointUI.A}
 \Rightarrow
 \text{NoFreeTerminalZenoDonorChain.A / strict no-waste / exact Zeno profile
 production}.
 }
-\tag{SPK.19}
+\tag{SPK.23}
 ```
 
 If compactness holds but no-null readout fails, the failure is a genuine
@@ -257,7 +306,7 @@ same-shadow cancellation kernel:
 \exists q\ne0:
 M^+(q)>0,\ Lq=0.
 }
-\tag{SPK.20}
+\tag{SPK.24}
 ```
 
 That kernel must be removed by retained signed-partner saturation,
@@ -272,9 +321,9 @@ At the current forward-gold resolution it is exactly:
 
 ```math
 \boxed{
-\text{compactness of the normalized selected positive cone}
+\text{endpoint uniform integrability of the actual selected positive carrier}
 }
-\tag{SPK.21}
+\tag{SPK.25}
 ```
 
 plus
@@ -284,10 +333,11 @@ plus
 \text{no nonzero selected positive cone element in the same-shadow signed
 readout kernel}.
 }
-\tag{SPK.22}
+\tag{SPK.26}
 ```
 
-The first clause is the terminal Zeno/no-waste/time-face problem.  The second
-clause is the true same-shadow no-hidden-cancellation problem.  Keeping these
-separate prevents signed visibility, endpoint readout polarization, or formal
-mode separation from being misreported as positive native carrier saturation.
+The first clause is the terminal Zeno/no-waste/time-face problem in its shortest
+carrier form.  The second clause is the true same-shadow no-hidden-cancellation
+problem.  Keeping these separate prevents signed visibility, endpoint readout
+polarization, or formal mode separation from being misreported as positive
+native carrier saturation.
