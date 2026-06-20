@@ -4,13 +4,13 @@ ns_viewer:
   status: corrected-live-goal-run-primer-open
   proof_role: gold-forward-positive-and-silver-cm-annular-limit-reopen
   logical_landing_node: terminal_cone_annular_limit_witness
-  edge_effect: "Reopens the overclaimed terminal-radius closure for the resumed goal-run. The installed statement r_*=0 => not Pack_Q handles the point-object, but Thomas's objection is that the singularity is witnessed by the surrounding positive-radius fields as they approach the tip. The next run must either prove forward-positive annular/cone control in residual scale-critical currency, or admit the annular limiting behavior as the same-solution terminal witness and classify the admitted nonsmooth branch by Part or Field. A bare zero-radius Pack landing does not settle the positive-radius annular witness, and Pack is not the CM argument after annular admission."
+  edge_effect: "Reopens the overclaimed terminal-radius closure for the resumed goal-run. The zero-scale point-object is Part-first when it still carries the same original-NS pointwise participation record, and true not Pack_Q only when that record is absent; Thomas's objection is that the singularity is witnessed by the surrounding positive-radius fields as they approach the tip. The next run must either prove forward-positive annular/cone control in residual scale-critical currency, or admit the annular limiting behavior as the same-solution terminal witness and classify the admitted nonsmooth branch by Part or Field. A bare zero-radius Pack landing does not settle the positive-radius annular witness, and Pack is not the CM argument after annular admission."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-residual-refill-ledger-and-spine-consolidation-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-active-square-obstruction-pass-or-pack-exit-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-terminal-zeno-pack-failure-correction-20260521.md
     - problems/navier-stokes/theorem-construction/mpp-any-finite-failure-witness-cm-exit-20260521.md
-  downstream_consequence: "The resumed PDF/math goal-run must not claim the terminal-radius problem is solved merely by naming the endpoint not Pack_Q. It must follow the approaching annular fields and either close them by the gold forward-positive route or, after annular admission, land the finite nonsmooth branch at Part or Field by the silver route."
+  downstream_consequence: "The resumed PDF/math goal-run must not claim the terminal-radius problem is solved merely by naming the endpoint not Pack_Q. The zero-scale endpoint itself must pass the Pack-before-Part audit, and the run must follow the approaching annular fields and either close them by the gold forward-positive route or, after annular admission, land the finite nonsmooth branch at Part or Field by the silver route."
 ---
 
 # MPP Annular Limit Witness Gap Goal-Run Primer
@@ -24,13 +24,15 @@ proof/PDF burden, not a completed theorem note.
 
 The earlier audit overclaimed the terminal-radius closure.
 
-The installed CM grammar says
+The corrected Pack-before-Part grammar says
 
 ```math
-r_*=0 \Longrightarrow \neg Pack_Q.
+r_*=0
+\quad\hbox{is Part-first when the same original-NS pointwise participation record remains,}
 ```
 
-That handles the terminal point-object.  It does not by itself handle Thomas's
+and becomes true `not Pack_Q` only when that pointwise participation record is
+absent. That point-object split still does not by itself handle Thomas's
 objection:
 
 ```text
@@ -45,7 +47,7 @@ tip.
 So the resumed run must not stop at:
 
 ```text
-zero radius => not Pack_Q.
+zero radius => terminal closure.
 ```
 
 It must pay the surrounding annular witness.
@@ -76,15 +78,14 @@ object:
 terminal residual source-balanced active pulse.
 ```
 
-The active-square pass-or-Pack note then says that the zero-radius endpoint of
-that pulse lands at
+The active-square pass-or-Pack note now reads the zero-radius endpoint of that
+pulse through the Pack-before-Part audit:
 
-```math
-\neg Pack_Q.
-```
+same original-NS pointwise participation first, true `not Pack_Q` only when
+that record is absent.
 
-That is correct for the endpoint.  The missing payment is the limiting
-positive-radius annular field that witnesses the approach to the endpoint.
+That sorts the endpoint. The missing payment is the limiting positive-radius
+annular field that witnesses the approach to the endpoint.
 
 ## 3. The Live Gap
 
