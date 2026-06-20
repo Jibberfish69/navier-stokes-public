@@ -61,7 +61,7 @@ many slabs \(J_k\) with
 Then `(SNWPA.1)`--`(SNWPA.2)` would forbid infinite recurrence by finite total
 drop.
 
-## 2. Energy-bounded functionals are too small
+## 2. Energy-bounded functionals are insufficient
 
 The heat-scale pulse can be represented at shell \(j\) by
 
@@ -88,10 +88,10 @@ while
 \tag{SNWPA.6}
 ```
 
-The ordinary shell energy is
+For this scalar shell model, take the ordinary shell energy scale to be
 
 ```math
-E_j(t)\simeq2^{-2j}D_j(t)\simeq2^{-j/2}
+E_j(t):=2^{-2j}D_j(t)=2^{-j/2}
 \quad\text{on }I_j.
 \tag{SNWPA.7}
 ```
