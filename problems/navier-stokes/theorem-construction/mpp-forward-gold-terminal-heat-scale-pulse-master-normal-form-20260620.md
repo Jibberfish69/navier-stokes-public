@@ -8,6 +8,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-strain-carrier-ui-holder-saturation-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coherent-participation-square-reserve-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-square-budget-direct-attempt-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-product-throttle-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-square-spreading-branch-closeout-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-element-minimality-discount-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-first-created-reserve-source-square-energy-test-20260620.md
@@ -110,6 +111,11 @@ Thus endpoint UI, Orlicz, \(p>1\), same-carrier source-square, selected
 critical-strain carrier UI, and no-waste all have to produce a strict
 same-carrier tail improvement beyond finite \(L_s^1\).
 
+Endpoint UI is the no-terminal-atom currency.  It is not, by itself, the
+selected square-reserve currency.  A thinner low-mass pulse can satisfy endpoint
+UI while keeping square size order one; the square branch needs product
+throttle, source-square, or another square-strength coercive input.
+
 ## 2. Same pulse in square participation currency
 
 The coherent same-fluid participation current is the assembled interface
@@ -145,10 +151,11 @@ has vanishing linear residence but fixed square reserve:
 \tag{THP.10}
 ```
 
-This is the same obstruction as `(THP.6)` in the square participation currency.
+This is the square-reserve sibling of `(THP.6)`, not a logically identical
+statement.  Endpoint UI removes the terminal atom in `(THP.6)`.  The square
+participation branch also has to pay the second quantity in `(THP.10)`.
 Linear participation, finite donor balance, finite physical energy, and finite
-physical dissipation see only the first quantity in `(THP.10)`.  The
-forward-gold no-jump proof needs the second quantity to be paid or exhausted.
+physical dissipation see only the first quantity in `(THP.10)`.
 
 ## 3. Same pulse in critical Holder currency
 
