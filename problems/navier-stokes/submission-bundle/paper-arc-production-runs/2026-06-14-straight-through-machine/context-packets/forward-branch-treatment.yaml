@@ -1761,7 +1761,7 @@ support_refs:
   excerpt: |-
     proof_role: exact_basac_obstruction_and_cm_pack_support
       logical_landing_node: terminal_zero_thickness_native_source_atom
-      edge_effect: "Records that the installed B_ASAC doors exhaust to a zero-thickness terminal source atom. This is not a forward positive-supplier discharge and not a Field readout; it is Pack-first CM support unless a separate positive-scale retained-carrier bridge is installed. Further gold progress requires an external new-production theorem."
+      edge_effect: "Records that the installed B_ASAC doors exhaust to a zero-thickness terminal source atom. This is not a forward positive-supplier discharge and not a Field readout; it is Pack-before-Part typed CM support: Part-first when the same original-NS pointwise record remains and true Pack only when that record/carrier/readout is absent; a separate positive-scale retained-carrier bridge is needed for Field/readout use. Further gold progress requires an external new-production theorem."
     ---
 - path: problems/navier-stokes/theorem-construction/mpp-forward-positive-cone-tower-active-square-exhaustion-20260611.md
   matched_keywords:
