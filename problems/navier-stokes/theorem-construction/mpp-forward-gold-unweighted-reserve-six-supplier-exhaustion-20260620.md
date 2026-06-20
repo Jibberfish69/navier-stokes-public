@@ -248,6 +248,44 @@ can remain order-one after normalization, while the physical cost is discounted
 by \(r_j\) or \(r_j^2\).  Participation proves shared accounting; it does not
 remove the radius discount.
 
+The principal-gain height/thickness test is the scalar form of this same
+failure.  On
+
+```math
+I_\lambda=[0,\lambda^{-2}],
+\qquad
+w'(t)-\lambda^2w(t)=0,
+\qquad
+w(0)=\lambda^{-3/4},
+```
+
+the selected current
+
+```math
+\Pi_\lambda(t)=\lambda^2w(t)^2
+=\lambda^{1/2}e^{2\lambda^2t}
+```
+
+has heat thickness \(\lambda^{-2}\), linear mass
+
+```math
+\int_{I_\lambda}\Pi_\lambda(t)\,dt
+=
+{e^2-1\over2}\lambda^{-3/2},
+```
+
+and square reserve
+
+```math
+\lambda\int_{I_\lambda}\Pi_\lambda(t)^2dt
+=
+{e^4-1\over4}.
+```
+
+So heat thickness and linear participation mass do not pay the unweighted
+reserve; the missing factor is the pointwise active height
+\(e^2\lambda^{1/2}\), or the square reserve itself.
+
 ## 4. Exact conclusion
 
 The six routes all reduce to the same non-alias theorem:
@@ -268,7 +306,8 @@ in one of these equivalent selected-family forms:
 \text{NormalizedCKNCarleson.A},\\
 \text{UnweightedMaterialStressWorkCarleson.A},\\
 \text{ProjectedLocalizedFluxCommutatorCoercivity.A},\\
-\text{NoFreeInfiniteMaterialZenoStressChain.A}.
+\text{NoFreeInfiniteMaterialZenoStressChain.A},\\
+\text{PrincipalGainSquareHeightThickness.A only after active-height control}.
 \end{gathered}
 ```
 
