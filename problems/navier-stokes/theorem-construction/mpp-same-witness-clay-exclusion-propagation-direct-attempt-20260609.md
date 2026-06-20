@@ -42,7 +42,7 @@ It is not a remaining finite-breakdown branch that must be separately deleted by
 The theorem atoms named below remain meaningful only in the Gold/positive
 supplier context, or in manuscript support, unless a future surface names a
 concrete promoted finite-breakdown row that enters the CM test and still neither
-continues/read outs nor lands in a real Pack/Part/Field face failure.
+continues, reads out, nor lands in a real Pack/Part/Field face failure.
 
 ## Target
 
@@ -129,12 +129,6 @@ supplier context, one sufficient theorem remains:
 
 ```text
 NoGenuineExitFromSmoothData.A
-```
-
-or the concrete first-face theorem:
-
-```text
-OriginalSmoothDataPackSurvival.A.
 ```
 
 or the concrete first-face theorem:
