@@ -48,7 +48,7 @@ legal exits paid;
 finite donor trees telescoped;
 local Radon source measure;
 terminal Zeno support;
-zero-radius `not Pack_Q` diagnostic placement.
+zero-radius source-residue support typed by Pack-before-Part diagnostic placement.
 ```
 
 ## Attempt 1: spatial transported no-flux removes the atom

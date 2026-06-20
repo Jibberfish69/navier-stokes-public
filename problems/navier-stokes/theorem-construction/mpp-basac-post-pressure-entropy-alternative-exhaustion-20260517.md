@@ -91,7 +91,7 @@ This is bookkeeping placement in the Field face. Supplier discharge still requir
 The continuation now has three completed records:
 
 ```text
-1. B_ASAC^closed is placed as zero-radius `not Pack_Q` selected terminal source-residue support.
+1. B_ASAC^closed is placed as zero-radius source-residue support, Part-first when the same original-NS pointwise record remains and true `not Pack_Q` only when that record is absent.
 2. Pressure/Leray and pressure-singular alternatives are exhausted to explicit pressure endpoint theorems.
 3. Refined ancestry quantization is exhausted to QuantizedParentCharge.A / MinimalBadAncestryCompactness.A.
 ```

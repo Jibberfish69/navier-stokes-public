@@ -4,7 +4,7 @@ Date: 2026-06-09
 
 Status: support/Gold-supplier reentry with CM-boundary accounting. This note
 does not close public Clay finality. Under the Pack-first CM contrapositive
-audit, the terminal zero-thickness `B_ASAC` residue lands as `not Pack_Q`;
+audit, the terminal zero-thickness `B_ASAC` residue is Part-first when the same original-NS pointwise record remains and true `not Pack_Q` only when that record is absent;
 the retained positive-scale reserve branch below is proof-force only after a
 same-ledger payment theorem is proved or after an admitted CM-test witness has
 a first Pack/Part/Field face failure.

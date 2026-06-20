@@ -83,7 +83,7 @@ LowHighInfiniteCostEndpointSource.A
   => not Pack_Q.
 ```
 
-It is Pack-first support for:
+It is Pack-before-Part typed support for:
 
 ```text
 Exit(Q):=not Member(Q)

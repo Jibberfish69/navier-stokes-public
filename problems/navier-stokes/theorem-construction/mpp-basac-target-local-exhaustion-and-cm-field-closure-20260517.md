@@ -4,7 +4,7 @@ ns_viewer:
   status: target-local-exhaustion-pack-first-support-gold-new-production-open
   proof_role: exact_basac_obstruction_and_cm_pack_support
   logical_landing_node: terminal_zero_thickness_native_source_atom
-  edge_effect: "Records that the installed B_ASAC doors exhaust to a zero-thickness terminal source atom. This is not a forward positive-supplier discharge and not a Field readout; it is Pack-first CM support unless a separate positive-scale retained-carrier bridge is installed. Further gold progress requires an external new-production theorem."
+  edge_effect: "Records that the installed B_ASAC doors exhaust to a zero-thickness terminal source atom. This is not a forward positive-supplier discharge and not a Field readout; it is Pack-before-Part typed CM support: Part-first when the same original-NS pointwise record remains and true Pack only when that record/carrier/readout is absent; a separate positive-scale retained-carrier bridge is needed for Field/readout use. Further gold progress requires an external new-production theorem."
 ---
 
 # MPP B_ASAC Target-Local Exhaustion and CM Pack-First Exit Support
@@ -21,7 +21,7 @@ The forward theorem
 ZenoResidueLiouville_{B_{ASAC}}.A
 ```
 
-is not proved from installed inputs. The local search is nevertheless closed at the current resolution: every installed `B_ASAC` continuation returns to the same terminal zero-thickness native source atom, and the surviving all-doors-closed atom has Pack-first `not Pack_Q` support, with Field readout requiring a separate positive-scale retained-carrier bridge.
+is not proved from installed inputs. The local search is nevertheless closed at the current resolution: every installed `B_ASAC` continuation returns to the same terminal zero-thickness native source atom, and the surviving all-doors-closed atom has Pack-before-Part typed support: Part-first when the same original-NS pointwise record remains and true `not Pack_Q` only when that record is absent, with Field readout requiring a separate positive-scale retained-carrier bridge.
 
 ## Starting point
 
@@ -83,7 +83,7 @@ It is not a forward positive-supplier discharge. It is a selected terminal Zeno 
 BASACClosedAtomCMPackExitSupport.A:
 B_{ASAC}^{closed}
 \Rightarrow
-\neg Pack_Q\text{ zero-radius selected terminal source-residue support.}
+\text{zero-radius source-residue support: Part-first when the same original-NS record remains, true }\neg Pack_Q\text{ only when that record is absent.}
 ```
 
 This is the correct local closure state for the current branch.
@@ -123,5 +123,5 @@ This note does not prove `ZenoResidueLiouville_{B_{ASAC}}.A`.
 It does not provide a positive-scale Field readout.
 
 It does not promote the zero-thickness terminal atom to the admitted annular
-witness.  Its current CM value is Pack-first support, while any forward gold
+witness.  Its current CM value is Pack-before-Part typed support, while any forward gold
 closure still needs a new-production theorem.

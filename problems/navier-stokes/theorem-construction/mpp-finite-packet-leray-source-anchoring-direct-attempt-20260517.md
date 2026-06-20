@@ -55,4 +55,4 @@ EllipticTimeSmearing.A: false at model level for time support;
 FinitePacketLeraySourceAnchoring.A: returns to signed no-free-sink / PRD.
 ```
 
-Therefore the sharpened pressure/Leray route does not close `B_ASAC^closed`. The canonical obstruction remains a zero-radius `not Pack_Q` terminal Zeno source atom pending a genuinely new production theorem.
+Therefore the sharpened pressure/Leray route does not close `B_ASAC^closed`. The canonical obstruction remains a zero-radius terminal Zeno source atom, Part-first when the same original-NS pointwise record remains and true `not Pack_Q` only when that record is absent pending a genuinely new production theorem.

@@ -139,7 +139,7 @@ The existing CM diagnostic surfaces already give the face discipline:
 
 ```text
 B_ASAC^closed terminal Zeno source atom
-  -> zero-radius selected terminal source-residue support for not Pack_Q,
+  -> zero-radius source-residue support: Part-first when the same original-NS pointwise record remains and true `not Pack_Q` only when that record is absent,
 unless a separate positive-scale retained-carrier bridge is supplied.
 ```
 
