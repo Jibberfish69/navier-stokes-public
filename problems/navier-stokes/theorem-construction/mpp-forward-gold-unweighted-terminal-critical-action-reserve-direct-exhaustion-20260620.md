@@ -262,7 +262,8 @@ The installed energy estimate supplies \(L^2_{t,x}\) strain with the radius
 weight `(UTR.8)`, not `(UTR.21)`.
 
 The checked saturation model keeps the temporal critical factors bounded while
-retaining the endpoint carrier.  On \((-\tau_m,0]\),
+retaining the endpoint carrier.  For fixed positive constants \(\sigma,\psi\),
+set on \((-\tau_m,0]\)
 
 ```math
 \Sigma_m=\tau_m^{-2/5}\sigma,
@@ -271,17 +272,41 @@ W_m=\tau_m^{-3/10}\psi,
 \tag{UTR.22}
 ```
 
-gives
+and set them to zero outside \((-\tau_m,0]\).  Then the critical temporal
+norms are exactly
 
 ```math
-|\Sigma_m|\,|W_m|^2
+\int_{-1}^0|\Sigma_m(s)|^{5/2}\,ds
 =
-c_{\sigma,\psi}\tau_m^{-1}\mathbf 1_{(-\tau_m,0]},
+|\sigma|^{5/2},
+\qquad
+\int_{-1}^0|W_m(s)|^{10/3}\,ds
+=
+|\psi|^{10/3}.
 \tag{UTR.23}
 ```
 
-with bounded \(L_s^{5/2}\) and \(L_s^{10/3}\) factors.  The endpoint atom is
-not removed by critical Holder bookkeeping alone.
+But the selected product carrier is
+
+```math
+|\Sigma_m(s)|\,|W_m(s)|^2
+=
+|\sigma|\,|\psi|^2\,\tau_m^{-1}\mathbf 1_{(-\tau_m,0]}(s),
+\tag{UTR.23a}
+```
+
+so, after normalizing \(|\sigma|\,|\psi|^2=1\),
+
+```math
+\int_{-\theta}^0|\Sigma_m(s)|\,|W_m(s)|^2\,ds
+=1
+\quad
+\text{for every fixed }\theta>0\text{ and all }m\text{ with }\tau_m<\theta.
+\tag{UTR.23b}
+```
+
+The endpoint atom is therefore not removed by critical Holder bookkeeping
+alone.
 
 ### 4.3 Normalized CKN
 
