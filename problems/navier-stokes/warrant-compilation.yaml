@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: warrant-compilation-navier-stokes
-  generated_at: '2026-06-20T17:42:02Z'
+  generated_at: '2026-06-20T17:44:14Z'
   generator: tools/ns_pipeline_hardener.rb
 primary_track:
   route_id: source-grounded-four-bridge
@@ -143,9 +143,10 @@ active_frontier:
         donor-refill ancestry is not Pack_Q / (Pack, packing-detached)'
       - 'ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A as diagnostic/source-residue
         language: finite Zeno ancestry is sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A,
-        while the terminal zero-radius residue is not Pack_Q and endpoint readout
-        language is post-exit support unless a positive-scale retained carrier is
-        separately proved'
+        while terminal zero-radius residue is Part-first when a same-solution pointwise
+        original-NS participation record remains and true not Pack_Q only when that
+        record is absent; endpoint readout language is post-exit support unless a
+        positive-scale retained carrier is separately proved'
       - RetainedFaceAmplitudeGain.A as a PackGainLedger/PartEnvelopeAmplitudeConservation
         boundary, not a new face
       - ActiveHeightFluxTrichotomy.A as Pack/Part/legal-Field/Zeno face routing
@@ -569,7 +570,8 @@ active_frontier:
         temporal anti-concentration, and rigid-class production may describe a separate
         positive supplier program, but they are support-only with no proof force for
         the CM contrapositive terminal Zeno endpoint. They do not create a terminal
-        CM burden after the zero-radius residue has landed as not Pack_Q.
+        CM burden after the zero-radius residue has been sorted by the Pack-before-Part
+        audit as Part-first participation failure or true not-Pack carrier failure.
     - target_id: retained-face-amplitude-gain
       label: RetainedFaceAmplitudeGain.A
       proof_mode: retained_amplitude_face_boundary
