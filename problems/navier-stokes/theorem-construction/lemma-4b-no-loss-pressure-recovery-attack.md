@@ -780,7 +780,7 @@ It shows the precise fork:
 
 ## Direct attack on the viscous-pressure bilinear term
 
-The live terminal record is now
+The live object is now
 
 ```math
 \mathcal I_\alpha^{vp}
