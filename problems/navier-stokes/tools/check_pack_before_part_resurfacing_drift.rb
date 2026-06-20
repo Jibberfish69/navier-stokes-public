@@ -86,6 +86,8 @@ FORBIDDEN = {
   "old zero-scale terminal residue Pack exit" => /zero-scale terminal residue case is already Pack exit/,
   "old terminal zero-radius donor ancestry Pack landing" => /terminal zero-radius donor ancestry\s*=>\s*not Pack_Q/,
   "old already Pack exits residue shortcut" => /zero-scale or no-carrier alternatives are\s+already Pack exits/,
+  "old BASAC survivor terminal not-Pack shortcut" => /records the survivor as terminal `not Pack_Q`/,
+  "old BASAC source-residue not-Pack shortcut" => /B_ASAC\^closed source-residue obstruction counted as not Pack_Q/,
   "old prose zero-radius not-Pack wording" => /zero-radius .*not Pack Q/,
   "old prose terminal Zeno Pack-side exit" => /terminal zero-radius Zeno atom remains a Pack-side CM exit/,
   "old Pack-first zero-radius diagnostic" => /Pack-first zero-radius diagnostic placement/,
