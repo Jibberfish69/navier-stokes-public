@@ -1063,7 +1063,7 @@ source_sections:
     \[
       \Pack_Q,\qquad \Part_{N_s,Q},\qquad \Field_{N_s,r,Q}
     \]
-    at a depth \(N_s\) high enough for the \(H^s\), \(s>5/2\), readout, the local \(H^s\) theory restarts the classical solution past \(T_*\).  A genuine finite terminal obstruction must lose the first available face in Pack-first order:
+    at a depth \(N_s\) high enough for the \(H^s\), \(s>5/2\), readout, the local \(H^s\) theory restarts the classical solution past \(T_*\).  A genuine finite terminal obstruction must lose the first available face in Pack-before-Part audited order:
     \[
       \neg\Pack_Q,
       \qquad
@@ -1134,7 +1134,7 @@ source_sections:
     \end{proof}
 
     \begin{theorem}[Finite witness face classification]
-    Let \(\mathcal F\) be an admitted finite terminal obstruction from the same smooth initial datum, and let \(Q\) be the selected terminal record.  At the continuation depth \(N_s\), the obstruction must lose one of the packet faces in Pack-first order:
+    Let \(\mathcal F\) be an admitted finite terminal obstruction from the same smooth initial datum, and let \(Q\) be the selected terminal record.  At the continuation depth \(N_s\), the obstruction must lose one of the packet faces in Pack-before-Part audited order:
     \[
       \mathcal F
       \Longrightarrow
