@@ -5,6 +5,7 @@ logical_landing_node: linear_positive_energy_trace_saturation
 edge_effect: "Tests the positive-part step left by the normalized endpoint-energy parent calculation. The signed local energy trace sees the algebraic sum of strain work, while the selected carrier keeps the positive expanding channel after packet selection. A two-channel trace-free strain model has zero signed trace and positive selected trace, so the bridge is not a formal consequence of the energy identity. The remaining theorem is normalized-energy polar saturation plus no-free terminal normalized-energy trace."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-linear-participation-parent-or-charge-direct-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-linear-energy-trace-polar-saturation-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-terminal-normalized-energy-trace-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-weighted-skew-to-terminal-signed-saturation-20260618.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-linear-source-pulse-identity-direct-test-20260620.md
@@ -219,7 +220,12 @@ The direct test reduces the bridge to two named statements:
 Here `LinearEnergyTracePolarSaturation.A` is the same-normalization signed-partner
 statement for the positive selected energy trace.  It says the selected
 expanding trace cannot be kept without its contracting partner, a legal exit, or
-a donor edge.
+a donor edge.  The direct test
+`mpp-forward-gold-linear-energy-trace-polar-saturation-direct-test-20260620.md`
+shows that this statement is not supplied by trace-free strain or
+incompressibility: the identity \(2-1-1=0\) balances the strain spectrum, but it
+does not force the selected packet energy tensor to contain the two contracting
+directions.
 
 `NoFreeTerminalNormalizedEnergyTrace.A` is the terminal-chain statement.  It says
 an infinite chain of normalized endpoint-energy parents cannot feed terminal
