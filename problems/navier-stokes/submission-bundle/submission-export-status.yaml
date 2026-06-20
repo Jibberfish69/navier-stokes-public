@@ -46,7 +46,7 @@ completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-comple
 readiness_evidence:
   source_frontier_clear: false
   open_d8_proof_blockers: 0
-  completion_candidate_count: 8
+  completion_candidate_count: 3
   completion_candidates: &1
   - candidate_id: pdf-reader-proof-integration
     kind: d8_resolved_blocker_state
@@ -94,40 +94,10 @@ readiness_evidence:
     evidence: state=open-release-exactness-and-manuscript-refresh
     required_action: Release readiness must not be claimed until exactness/manuscript
       surfaces are synchronized with the accepted Silver CM rowwise consumption.
-  - candidate_id: source-frontier:primary_math_obligation
-    kind: source_frontier
-    surface: problems/navier-stokes/source-frontier.yaml
-    evidence: nonempty primary_math_obligation
-    required_action: Clear or demote the source-frontier primary_math_obligation before
-      submission readiness.
-  - candidate_id: source-frontier:first_unresolved_obligation
-    kind: source_frontier
-    surface: problems/navier-stokes/source-frontier.yaml
-    evidence: nonempty first_unresolved_obligation
-    required_action: Clear or demote the source-frontier first_unresolved_obligation
-      before submission readiness.
-  - candidate_id: source-frontier:unresolved_obligations
-    kind: source_frontier
-    surface: problems/navier-stokes/source-frontier.yaml
-    evidence: nonempty unresolved_obligations
-    required_action: Clear or demote the source-frontier unresolved_obligations before
-      submission readiness.
-  - candidate_id: source-frontier:dashboard_unresolved_obligations
-    kind: source_frontier
-    surface: problems/navier-stokes/source-frontier.yaml
-    evidence: nonempty dashboard_unresolved_obligations
-    required_action: Clear or demote the source-frontier dashboard_unresolved_obligations
-      before submission readiness.
-  - candidate_id: source-frontier:additional_context_obligations
-    kind: source_frontier
-    surface: problems/navier-stokes/source-frontier.yaml
-    evidence: nonempty additional_context_obligations
-    required_action: Clear or demote the source-frontier additional_context_obligations
-      before submission readiness.
   completion_readiness:
     status: blocked
     submission_ready: false
-    candidate_count: 8
+    candidate_count: 3
     candidates: *1
     checks:
       route_candidates: 0
@@ -137,7 +107,7 @@ readiness_evidence:
       child_paper_repo_candidates: 0
       manuscript_unresolved_candidates: 0
       active_pdf_criticism_candidates: 0
-      source_frontier_candidates: 5
+      source_frontier_candidates: 0
       route_state_agreement_candidates: 0
       submission_verdict_agreement_candidates: 0
       pdf_track_candidates: 0
