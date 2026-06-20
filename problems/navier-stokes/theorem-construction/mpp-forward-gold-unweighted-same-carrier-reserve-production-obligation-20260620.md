@@ -34,8 +34,8 @@ independent production clauses on the same selected carrier:
 ```
 
 Only when these clauses are tied to the actual selected positive native carrier
-does the forward-gold route produce an unweighted terminal critical-action
-reserve.
+and the square branch is paid in square currency does the forward-gold route
+produce an unweighted terminal critical-action reserve.
 
 ## 1. Actual selected carrier
 
@@ -226,6 +226,11 @@ legal loss are removed, `(UOP.9)` and `(UOP.10)` pay it.
 If compact same-shadow residue remains but the signed readout vanishes,
 `(UOP.14)` excludes it.
 
+There is one important currency separation.  Clause A is a no-terminal-atom
+theorem.  It does not pay a thin square-only pulse with vanishing total mass.
+That case is part of Clause B and must be paid by source-square, active height,
+strict no-waste, or another square-strength same-carrier charge.
+
 These three alternatives exhaust the selected carrier after legal exits,
 retained finite signed partners, and finite donor telescoping are removed.
 
@@ -275,4 +280,3 @@ supplier search:
 
 or use the retained pulse and compact no-null carrier only in the CM
 Pack/Part/Field route after same-witness admission.
-
