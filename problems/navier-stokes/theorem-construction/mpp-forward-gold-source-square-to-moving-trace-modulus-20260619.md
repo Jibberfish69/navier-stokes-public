@@ -50,8 +50,12 @@ T_{k_m}(t)
 
 If the selected carrier is indexed at a child shell \(j_m=k_m+C_0\), with
 fixed \(C_0\ge5\), then \(D_{j_m}\le T_{k_m}\) and
-\(2^{-j_m/2}\simeq2^{-k_m/2}\).  This fixed dyadic shift is absorbed into the
-constants below.
+
+\[
+2^{-j_m/2}=2^{-C_0/2}2^{-k_m/2}.
+\]
+
+This fixed dyadic factor is absorbed into the constants below.
 
 The packet-normalized square density is
 
