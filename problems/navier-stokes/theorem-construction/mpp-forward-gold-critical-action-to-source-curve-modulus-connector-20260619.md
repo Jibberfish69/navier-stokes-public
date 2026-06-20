@@ -246,3 +246,60 @@ production side:
 The missing forward-gold theorem is therefore not another compactness theorem.
 It is a production theorem for one of the normalized critical currencies on the
 actual selected positive source carrier.
+
+## 6. Pass-or-exit addendum
+
+The later note
+`mpp-terminal-source-curve-pass-or-partfield-exit-20260620.md` does not prove
+the missing production input above.  It proves the complementary branch
+accounting.
+
+For finite selected \(L^1_s\) terminal source curves, either `(CAM.1)` holds or,
+after subselection,
+
+```math
+\mu_m=a_m(s)\,ds \stackrel{*}{\rightharpoonup}\mu,
+\qquad
+\mu(\{0\})>0.
+\tag{CAM.21}
+```
+
+On the same-solution terminal branch, the installed
+`TerminalAtomPartFieldFirstExit.A` package consumes `(CAM.21)` as
+
+```math
+\mu(\{0\})>0
+\Longrightarrow
+\neg Part_{N,Q}
+\quad\text{or}\quad
+\forall r>0\,\neg Field_{N,r,Q}.
+\tag{CAM.22}
+```
+
+Thus the connector has two different proof roles:
+
+```math
+\boxed{
+\text{source-square/cubic/strain production}
+\Longrightarrow
+\text{gold endpoint modulus;}
+}
+\tag{CAM.23}
+```
+
+and
+
+```math
+\boxed{
+\text{failure of the endpoint modulus}
+\Longrightarrow
+\text{terminal atom}
+\Longrightarrow
+\text{Part/Field face failure.}
+}
+\tag{CAM.24}
+```
+
+So the failed source-curve modulus is no longer a fourth in-class terminal
+branch.  It remains an unproved forward-gold anti-atom theorem, but its failure
+is now routed as a CM Part/Field readout.
