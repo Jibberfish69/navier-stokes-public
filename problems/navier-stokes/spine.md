@@ -9,8 +9,8 @@ modern overlays, sidecars, and stale generated surfaces, see
 
 ## Route Summary
 
-- Working target: the manuscript opens from the CM contrapositive class-exit proof program: finite Clay terminal witness entry, Pack/Part/Field finite-failure exhaustion, and `Exit(Q):=not Member(Q)`.
-- Honest current status: recent submission surfaces and live theorem authority make the CM terminal-witness chain the proof-bearing opening; older periodic, `Q(t)`, source-wall, and positive-supplier material is support unless it lands in a typed witness face.
+- Working target: the manuscript opens from the CM contrapositive class-exit proof program: finite Clay terminal witness entry, Silver Pack/Part/Field finite-failure exhaustion after Pack admission, pre-Pack Part-first resurfacing where needed, and `Exit(Q):=not Member(Q)`.
+- Honest current status: recent submission surfaces and live theorem authority make the CM terminal-witness chain the proof-bearing opening; older periodic, `Q(t)`, source-wall, and positive-supplier material is support unless it lands in a typed witness face or the pre-Pack Part-first audit.
 - Decisive frontier: preserve `ClayTerminalWitnessCMEntry.A`, `ClayFiniteFailureTypeCMExhaustion.A`, and `ClayCMContrapositiveEmbedding.A` as the manuscript spine and prevent stale torus-first prose from retaking the opening.
 - Frozen architecture note: periodic and Euclidean route history is preserved only as provenance or downstream support, while the live manuscript surface starts from CM class exit.
 
@@ -23,7 +23,10 @@ modern overlays, sidecars, and stale generated surfaces, see
    The witness is CM-test-admissible; it is not assumed to be `Member(Q)`.
 
 3. Exhaust the finite failure type.
-   The terminal object lands as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}.
+   After Pack admission, the terminal object lands as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}.
+
+3a. Resurface pre-Pack not-Pack candidates.
+   Before Pack failure is spent on a singular branch, test pointwise original-NS participation through viscosity, pressure, and incompressibility.
 
 4. Embed the face failure.
    The derived face failure supports `Exit(Q):=not Member(Q)`.
@@ -32,14 +35,15 @@ modern overlays, sidecars, and stale generated surfaces, see
    The pass branch remains lawful smooth continuation; the fail branch has no legal in-class nonsmooth continuation status.
 
 6. Quarantine old openings.
-   Periodic, `Q(t)`, source-wall, and positive-supplier material may support the proof only after a checked bridge lands the exact claim in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
+   Periodic, `Q(t)`, source-wall, and positive-supplier material may support the proof only after a checked bridge lands the exact claim in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack Part-first resurfacing audit.
 
 ## Completion Condition
 
 - A serious manuscript opening exists only when:
   - the finite Clay terminal witness is named first,
   - CM-test admissibility is separated from `Member(Q)`,
-  - Pack_Q, Part_{N,Q}, and Field_{N,r,Q} are the witness faces,
+  - Pack_Q, Part_{N,Q}, and Field_{N,r,Q} are the Silver witness faces after Pack admission,
+  - pre-Pack not-Pack candidates have been tested for pointwise original-NS participation,
   - `Exit(Q):=not Member(Q)` is the class-exit conclusion,
   - no periodic, `Q(t)`, source-wall, positive-supplier, or export surface is doing hidden opening work.
 
