@@ -161,11 +161,22 @@ H_N(I_m)
 \tag{AHET.14}
 ```
 
-This is the mathematical form of the time-face enemy. At a fixed positive radius,
-physical weighted ledgers and normalized unweighted ledgers are comparable. Along
-the heat scale \(h_m=r_m^2/\nu\) after fixing the heat constant, the allowed rate
-grows as the window shrinks, so the normalized source-square bill can remain
-fixed positive while the physical first moment tends to zero.
+This is the mathematical form of the time-face enemy. At a fixed positive
+radius \(r_0>0\), the rescaling factors are fixed constants; for example
+
+```math
+\int_{Q_{r_0}}\left(|u|^3+|p|^{3/2}\right)\,dx\,dt
+=
+r_0^2
+\int_{-1}^{0}\int_{B_1}\left(|v|^3+|q|^{3/2}\right)\,dy\,ds.
+\tag{AHET.14a}
+```
+
+Thus fixed-radius physical control and normalized control differ only by
+fixed constants.  Along the shrinking heat scale \(h_m=r_m^2/\nu\), the
+conversion factor tends to zero and the allowed rate grows as the window
+shrinks, so the normalized source-square bill can remain fixed positive while
+the physical first moment tends to zero.
 
 ## 3. Enstrophy exposes the source, but does not bound it
 
