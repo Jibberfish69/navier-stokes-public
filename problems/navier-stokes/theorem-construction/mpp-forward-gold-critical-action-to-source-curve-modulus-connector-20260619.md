@@ -69,7 +69,7 @@ a_m(s)
 C_{\rm car}
 \int_{B_1}
 |\Sigma_m^{loc}(s,y)|\,|W_m(s,y)|^2\,dy
-\+
++
 \ell_m(s),
 \tag{CAM.5}
 ```
@@ -141,7 +141,7 @@ a_m(s)
 C_{\rm cub}
 \int_{B_1}
 \left(|U_m(s,y)|^3+|Q_m(s,y)-Q_{m,h}(s,y)|^{3/2}\right)dy
-\+
++
 \ell_m(s),
 \tag{CAM.11}
 ```
