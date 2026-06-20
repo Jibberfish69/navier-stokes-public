@@ -264,9 +264,11 @@ records:
       minimal terminal same-fluid window after inherited past reserve, child
       residual, and legal losses are removed.
     cm_test_admission_status: >-
-      Not yet fully certified. The zero-scale or no-carrier alternatives are
-      already Pack exits, and raw residue alternatives are Pack/Part exits, but
-      the retained positive-scale surplus still needs same-ledger payment or a
+      Not yet fully certified. The no-carrier alternatives remain true Pack
+      exits; zero-scale and raw residue alternatives must be typed first under
+      the pointwise original-NS participation record, landing in Part when that
+      record remains and in Pack only when the record/carrier/readout is absent.
+      The retained positive-scale surplus still needs same-ledger payment or a
       first-face derivation.
     first_face: unresolved
     face_failure: unresolved_between_same_ledger_payment_and_Pack_Part_Field_exit

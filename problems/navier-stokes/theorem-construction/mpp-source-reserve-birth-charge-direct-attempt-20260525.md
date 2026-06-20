@@ -118,10 +118,15 @@ Pack_Q
 => ScaleCriticalTreeCarleson.A.
 ```
 
-The zero-scale terminal residue case is already Pack exit:
+The zero-scale terminal residue case is no longer a Pack-only exit.  It must be
+typed before `not Pack_Q` is spent:
 
 ```text
-terminal zero-radius donor ancestry => not Pack_Q.
+terminal zero-radius donor ancestry with a pointwise original-NS record
+=> not Part_{N,Q} / (Part, Dead);
+
+terminal zero-radius donor ancestry with no pointwise participation record
+=> true not Pack_Q.
 ```
 
 So the only surviving Pack no-exit subcase is retained positive-scale native

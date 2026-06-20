@@ -158,10 +158,15 @@ or, on the source-carrier presentation,
 PositiveRemainderDepletion.A.
 ```
 
-The terminal zero-radius branch is already an exit witness:
+The terminal zero-radius branch is not automatically a Pack-only exit witness.
+It is typed first:
 
 ```text
-terminal zero-radius donor ancestry => not Pack_Q.
+terminal zero-radius donor ancestry with a pointwise original-NS record
+=> not Part_{N,Q} / (Part, Dead);
+
+terminal zero-radius donor ancestry with no pointwise participation record
+=> true not Pack_Q.
 ```
 
 So the next Pack-side proof attempt attacks the retained positive-scale

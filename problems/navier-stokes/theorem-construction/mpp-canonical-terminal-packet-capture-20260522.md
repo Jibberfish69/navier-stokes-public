@@ -225,8 +225,11 @@ CM face.
 
 In particular:
 
-- zero-scale terminal residues land in Pack;
-- unpaid donor-refill ancestry lands in Pack;
+- zero-scale terminal residues are typed before Pack: a same-solution
+  pointwise original-NS participation record resurfaces them under Part first,
+  while absence of that record leaves true Pack/window failure;
+- unpaid donor-refill ancestry lands in Pack when it lacks a same-solution
+  pointwise participation record;
 - tower participation loss lands in Part after Pack is retained;
 - raw source residue lands in Part once Pack is retained;
 - retained coherence/readout residue can land in Field only after Pack and Part
