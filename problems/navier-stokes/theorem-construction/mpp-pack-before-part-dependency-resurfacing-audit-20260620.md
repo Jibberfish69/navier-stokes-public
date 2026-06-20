@@ -47,8 +47,8 @@ Navier-Stokes participation law first. The dead/blown question is read from the
 pointwise participation/tower mechanism before any Pack-window conclusion is
 spent. A later local Silver readout may express that failure as
 `not Part_{N,Q}` only after a local tested record has been named; the pre-Pack
-test itself is not indexed by an admitted `Q` and does not use an
-empty-parenthesis predicate placeholder.
+test itself is not indexed by an admitted `Q` and must be stated with the live
+object and original NS law named.
 
 If that status is absent, `not Pack_Q` remains a true carrier/window failure.
 In that case Pack has not been asked to supply participation; it has only marked
