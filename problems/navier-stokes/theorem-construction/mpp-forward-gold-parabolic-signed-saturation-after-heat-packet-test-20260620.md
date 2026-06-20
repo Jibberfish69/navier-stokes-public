@@ -141,11 +141,11 @@ The proved reduction is:
 ```math
 \boxed{
 \begin{aligned}
-&\text{retained signed partners}\
-&+\text{legal exits}\
-&+\text{LocalDonorBalance.A}\
-&+\text{EntranceLeafDecay.A}\
-&+\text{NoFreeTerminalZenoDonorChain.A}\
+&\text{retained signed partners}\\
+&+\text{legal exits}\\
+&+\text{LocalDonorBalance.A}\\
+&+\text{EntranceLeafDecay.A}\\
+&+\text{NoFreeTerminalZenoDonorChain.A}\\
 &\Longrightarrow
 \text{TerminalParabolicSignedSaturation.A.}
 \end{aligned}
