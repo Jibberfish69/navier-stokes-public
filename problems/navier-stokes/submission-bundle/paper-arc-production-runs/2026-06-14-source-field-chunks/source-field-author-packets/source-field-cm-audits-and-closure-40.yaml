@@ -87,7 +87,7 @@ chunk:
 
       This is not a new closure theorem. It is the exact analytic restatement of what the shared packing law means on this route.
 
-      This predicate is a good first formalization step because it stays close to the live terminal record.
+      This predicate is a good first formalization step because it stays close to the live object.
 
       It uses the common motion map directly. It uses incompressibility directly through D =1. It names collapse/blowout as failure of the deformation class itself. It does not require a generic witness bundle. It does not yet collapse the route into the classical continuation wall.
 
@@ -469,7 +469,7 @@ chunk:
 
     This is not a new closure theorem. It is the exact analytic restatement of what the shared packing law means on this route.
 
-    This predicate is a good first formalization step because it stays close to the live terminal record.
+    This predicate is a good first formalization step because it stays close to the live object.
 
     It uses the common motion map directly. It uses incompressibility directly through D =1. It names collapse/blowout as failure of the deformation class itself. It does not require a generic witness bundle. It does not yet collapse the route into the classical continuation wall.
 
