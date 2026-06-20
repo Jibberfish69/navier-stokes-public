@@ -212,6 +212,47 @@ The active-height, zero-moment, signed-pair, and first-created reserve notes
 are therefore not independent remaining face-derivation theorems.  They are
 support until admission; after admission they give the Field/face readout above.
 
+## 5. Same-witness admission status
+
+For an actual CM-test-admissible Clay terminal object, admission is already the
+content of `ClayTerminalWitnessCMEntry.A`:
+
+```math
+ClayWitness_{CM}(W_*)
+\Longrightarrow
+TerminalCMTree(W_*).
+\tag{RPC.17}
+```
+
+Therefore the retained positive-scale reserve has two different roles.
+
+If it is merely a positive supplier surface, it remains support and cannot be
+promoted.  If it is offered as the same-solution finite terminal obstruction,
+then it is part of the admitted witness \(W_*\), enters the terminal CM tree,
+and `(RPC.12)` supplies the first-face failure.
+
+So the actual same-witness branch reads:
+
+```math
+\boxed{
+ClayWitness_{CM}(W_*)
++
+\text{retained positive-scale first-created reserve on }W_*
+\Longrightarrow
+\text{Pack/Part/Field face failure.}
+}
+\tag{RPC.18}
+```
+
+Then `ClayCMContrapositiveEmbedding.A` reads that face failure as
+
+```math
+Exit(Q;\mathfrak O_{NS}^{work})
+=
+\neg Member(Q;\mathfrak O_{NS}^{work}).
+\tag{RPC.19}
+```
+
 ## Verdict
 
 The retained positive-scale reserve branch is not a forward-gold proof.
@@ -224,14 +265,18 @@ It is now closed as a first-face derivation after admission:
 \Rightarrow
 \text{Pack/Part/Field face failure}.
 }
-\tag{RPC.17}
+\tag{RPC.20}
 ```
 
 What remains open is exactly:
 
 ```math
 \boxed{
-\text{same-ledger payment or same-witness CM admission.}
+\text{same-ledger payment for forward gold, or same-witness status for CM use.}
 }
-\tag{RPC.18}
+\tag{RPC.21}
 ```
+
+For the actual Clay terminal witness, same-witness CM entry is installed.  For
+support-only supplier calculations, same-witness status is not automatic and
+the branch stays quarantined.
