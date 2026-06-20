@@ -8,6 +8,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-square-budget-parent-drain-production-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-square-carrier-adjoint-localization-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-source-drain-definition-alignment-and-discharge-20260504.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-linear-participation-parent-or-charge-direct-test-20260620.md
 downstream_consequence: "The product-throttle trichotomy must keep branch 2 in two subcases: actual nonzero source-pulse residue, which parent-drain/source-drain pays, and nonzero selected participation residence not identified with source-pulse residue, which returns to same-carrier participation parent/gain accounting. The square-only branch remains the separate height-blowup obstruction."
 ---
 
@@ -224,6 +225,14 @@ LinearParticipationParentOrCharge.A.
 }
 \tag{LSP.16}
 ```
+
+The direct parent/gain test
+`mpp-forward-gold-linear-participation-parent-or-charge-direct-test-20260620.md`
+sharpens this point.  In the pure principal-gain normal form, non-source-residue
+linear participation is exactly normalized endpoint-energy transport.  The
+installed source-drain theorem does not discharge it unless the selected
+positive energy trace is saturated and the terminal normalized-energy parent
+chain is proved non-free.
 
 The square-strength descendants are the already isolated square objects
 
