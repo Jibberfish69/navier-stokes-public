@@ -172,11 +172,12 @@ satisfies
 \tag{CCPC.16}
 ```
 
-Cutting this field off inside a packet produces boundary and commutator terms,
-but those terms are precisely legal/collar terms in the existing route.  They
-do not alter the local algebraic point: incompressibility balances expansion by
-compression in the full signed tensor, while the selected carrier can keep the
-expanding direction and discard the compressing directions.
+Cutting this field off inside a packet produces boundary and commutator terms.
+Those terms belong to the separate cutoff/collar ledgers, not to the algebraic
+cancellation mechanism being tested here.  They do not alter the local point:
+incompressibility balances expansion by compression in the full signed tensor,
+while the selected carrier can keep the expanding direction and discard the
+compressing directions.
 
 This note is not asserting that `(CCPC.7)`--`(CCPC.8)` is a Navier--Stokes
 solution.  It is a normal-form countermodel to the proposed estimate that would
