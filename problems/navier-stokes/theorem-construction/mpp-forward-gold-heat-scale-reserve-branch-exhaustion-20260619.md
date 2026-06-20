@@ -271,9 +271,6 @@ projection/cutoff commutators remain:
 
 \[
 |\text{commutator}|
-C_A^{-1}\,0
-+
-|\text{commutator}|
 \le
 C_A
 \int_{\operatorname{collar}(A_s)}
