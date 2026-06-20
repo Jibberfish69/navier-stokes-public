@@ -2671,8 +2671,10 @@ support_refs:
   - obstruction
   - open
   excerpt: |-
-    B_ASAC^closed source-residue obstruction counted as not Pack_Q unless a
-          positive-scale retained-carrier bridge licenses later Field readout, and
+    B_ASAC^closed source-residue obstruction typed by the Pack-before-Part split:
+          Part-first when the same original-NS pointwise record remains and true
+          not Pack_Q only when that record is absent; later Field readout needs a
+          positive-scale retained-carrier bridge, and
           forward progress requires an external new-production theorem.
       downstream_no_jump_readout:
         status: downstream-consumer-gated-by-demoted-sourcewall
@@ -3091,8 +3093,10 @@ context_domain_refs:
     - obstruction
     - open
     excerpt: |-
-      B_ASAC^closed source-residue obstruction counted as not Pack_Q unless a
-            positive-scale retained-carrier bridge licenses later Field readout, and
+      B_ASAC^closed source-residue obstruction typed by the Pack-before-Part split:
+            Part-first when the same original-NS pointwise record remains and true
+            not Pack_Q only when that record is absent; later Field readout needs a
+            positive-scale retained-carrier bridge, and
             forward progress requires an external new-production theorem.
         downstream_no_jump_readout:
           status: downstream-consumer-gated-by-demoted-sourcewall
