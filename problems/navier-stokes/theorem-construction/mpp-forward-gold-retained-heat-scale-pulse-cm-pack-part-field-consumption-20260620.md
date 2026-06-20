@@ -97,8 +97,8 @@ Equivalently,
 \tag{RHP.7}
 ```
 
-Thus the retained pulse is not a vague endpoint defect.  It is a nonzero
-terminal atom in the selected source curve.
+Thus the retained pulse is not an unidentified endpoint defect.  It is a
+nonzero terminal atom in the selected source curve.
 
 ## 2. CM admission boundary
 
