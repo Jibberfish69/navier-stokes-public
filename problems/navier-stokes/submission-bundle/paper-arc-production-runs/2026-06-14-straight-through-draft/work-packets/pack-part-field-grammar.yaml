@@ -1551,7 +1551,7 @@ support_refs:
   excerpt: |-
     - target obligation: BASACReverseHolderProduction.A
     - target label: produce a reverse-Holder B_ASAC^RH(p) subclass from the current B_ASAC equality-class clauses
-    - route role: The B_ASAC reverse-holder production statement asks for B_ASAC => B_ASAC^RH(p) for some p>1. The local source corpus proves the conditional Liouville theorem once this subclass is produced, and also shows the current B_ASAC clauses do not produce it: finite L^1_t terminal source mass allows shrinking terminal-layer concentration. This is quarantined downstream no-pulse/source-control support, not a terminal Zeno CM burden after the zero-radius residue lands as not Pack_Q.
+    - route role: The B_ASAC reverse-holder production statement asks for B_ASAC => B_ASAC^RH(p) for some p>1. The local source corpus proves the conditional Liouville theorem once this subclass is produced, and also shows the current B_ASAC clauses do not produce it: finite L^1_t terminal source mass allows shrinking terminal-layer concentration. This is quarantined downstream no-pulse/source-control support, not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-before-Part audit.
     - theorem family: generic-bridge-theorem
 context_packer_contract:
   arc_id: pack-part-field-grammar
