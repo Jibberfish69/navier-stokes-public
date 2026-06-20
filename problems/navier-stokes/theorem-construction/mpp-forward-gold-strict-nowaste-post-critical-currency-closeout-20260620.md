@@ -40,7 +40,7 @@ selected \(L^{5/2}\) strain, native source-square density, or projected
 critical flux.
 
 The point is not to see the terminal pulse.  The point is to force a finite-drop
-contradiction from infinitely many order-one heat-scale action quanta.
+contradiction from infinitely many fixed positive heat-scale action quanta.
 
 ## 2. Quadratic pressure correction gives visibility, not drop
 
@@ -85,7 +85,7 @@ This is sign-indefinite and scale-critical.  Thus quadratic pressure correction
 does not produce `(NWC.1)` without already controlling the unsigned critical
 flux.
 
-## 3. Energy-bounded functionals are too small
+## 3. Energy-bounded functionals are insufficient
 
 On a source-balanced shell pulse with heat window
 
@@ -103,17 +103,17 @@ one has vanishing first-moment/source mass,
 \tag{NWC.6}
 ```
 
-but order-one normalized source-square action,
+but unit normalized source-square action,
 
 ```math
 \int_{I_j}2^{-j}D_j(t)^2\,dt=1.
 \tag{NWC.7}
 ```
 
-The ordinary shell energy is only
+For this scalar shell model, take the ordinary shell energy scale to be
 
 ```math
-E_j(t)\simeq 2^{-2j}D_j(t)=2^{-j/2}
+E_j(t):=2^{-2j}D_j(t)=2^{-j/2}
 \quad\text{on }I_j.
 \tag{NWC.8}
 ```
@@ -126,7 +126,7 @@ Therefore any candidate functional satisfying
 ```
 
 has only \(o(1)\) available drop on \(I_j\) after legal losses are removed.  It
-cannot pay the order-one quantity in `(NWC.7)`.  A successful no-waste
+cannot pay the unit quantity in `(NWC.7)`.  A successful no-waste
 functional must carry unweighted critical-action size itself or produce it by a
 real coercive identity.
 
@@ -163,7 +163,7 @@ Capping or regularizing \(B\) restores lower boundedness but removes uniform
 cubic cancellation.  Quartic and higher instantaneous corrections introduce
 stronger uninstalled terms such as local \(L^5\), pressure-gradient products, and
 viscous commutators.  Thus packet-local nonlinear correctors do not create a
-smaller no-waste supplier.
+strictly weaker no-waste supplier.
 
 ## 5. Commutator coercivity is false without a reserve
 
