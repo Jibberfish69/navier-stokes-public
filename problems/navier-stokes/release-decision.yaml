@@ -211,9 +211,9 @@ proof_program_topology:
     licensing_note: problems/navier-stokes/theorem-construction/mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md
     rule: Preserve Silver Pack/Part/Field after a legitimate Pack window, carrier,
       readout, or jump-comparison structure is admitted. When a pre-Pack or singular
-      branch was disposed as not Pack_Q before primitive Part() was applied to the live same-solution NS object, first ask whether
+      branch was disposed as not Pack_Q before the original Navier-Stokes participation law was applied to the live same-solution terminal object, first ask whether
       the original Navier-Stokes viscosity, pressure, and incompressibility law still
-      gives pointwise participation status. If yes, apply Part() to the live same-solution NS object and localize to Part_{N,Q} only after the tested record exists;
+      gives pointwise participation status. If yes, apply the original Navier-Stokes participation law to the live same-solution terminal object and localize to Part_{N,Q} only after the tested record exists;
       if no, keep not Pack_Q as a true carrier/window/readout failure.
   obstruction_pass_exit_rule: Follow the ordinary positive proof program until it
     reaches a real obstruction, then split the obstruction into a pass branch and
@@ -455,7 +455,7 @@ open_root_group:
       terminal zero-radius residue is not automatically a Pack-only endpoint after
       PackBeforePartDependencyResurfacing.A. When the zero-radius atom is still the
       same original-NS terminal source/pressure-viscosity participation record, it
-      is tested by Part() first as zero heat-time participation / Part-side
+      is tested first by the original Navier-Stokes participation law as zero heat-time participation / Part-side
       participation failure. It remains true `not Pack_Q` only when no same-solution
       pointwise participation record survives and the defect is solely absence of
       a usable carrier/window/readout. NoPersistentUnpaidPositiveRadiusAncestry.A
