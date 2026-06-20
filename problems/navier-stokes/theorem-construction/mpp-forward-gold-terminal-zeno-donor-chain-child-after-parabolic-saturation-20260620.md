@@ -155,17 +155,31 @@ So
 ## 5. Why the heat-packet test matters here
 
 The heat-packet calculation prevents a false proof of `(ZDC.11)`.  On a dyadic
-heat window with frequency `lambda_m`, one can have
+heat window with frequency `lambda_m`, set
 
 ```math
-\int D_m\to0,
+I_m=[0,\lambda_m^{-2}],
 \qquad
-\int \lambda_mD_m^2\simeq1.
+D_m(t)=\lambda_m^{1/2}\mathbf 1_{I_m}(t).
 \tag{ZDC.14}
 ```
 
+Then
+
+```math
+\int_{I_m}D_m(t)\,dt
+=
+\lambda_m^{-3/2}
+\to0,
+\qquad
+\int_{I_m}\lambda_mD_m(t)^2\,dt
+=
+1.
+\tag{ZDC.15}
+```
+
 So first-moment heat/dissipation accounting can vanish while the square reserve
-remains order one.  Any proof of `(ZDC.11)` must use the actual native selected
+remains equal to \(1\).  Any proof of `(ZDC.11)` must use the actual native selected
 source carrier and must contain source-square, reverse-Holder, no-waste, or
 rigid-class structure.  It is not a consequence of fixed viscosity or local
 heat smoothing alone.
