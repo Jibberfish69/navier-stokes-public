@@ -28,10 +28,14 @@ The hoped-for profile route is:
 The needed decoupling statement is:
 
 ```math
+\left\|
 \mu_{m}^{src,+}
-\sim
+-
 \sum_\alpha \mu^{src,+}(U^\alpha)
-+o_m(1),
+\right\|_{\mathcal M(K)}
+\to0
+\qquad
+\text{for every compact selected packet set }K,
 \tag{SPD.2}
 ```
 
