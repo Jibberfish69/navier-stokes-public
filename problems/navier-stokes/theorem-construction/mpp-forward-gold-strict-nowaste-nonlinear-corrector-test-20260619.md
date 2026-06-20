@@ -85,12 +85,12 @@ and
 c\,\mathcal A_R(s)-\mathcal R_{\rm legal}(s),
 \]
 
-where \(\mathcal A_R\) is the unweighted normalized critical action on the
-retained packet, for example
+where one admissible choice of \(\mathcal A_R\) is the unweighted normalized
+critical action on the retained packet:
 
 \[
 \mathcal A_R(s)
-\sim
+=
 \int_{B_R}\left(|v|^3+|q|^{3/2}+|S(v)|^{5/2}\right)\,dy .
 \]
 
@@ -146,21 +146,21 @@ More concretely, a bounded-below correction must obey along at least one large
 sign branch
 
 \[
-B(\lambda V)\gtrsim -C(1+\lambda^2)
+B(\lambda V)\ge -C(1+\lambda^2)
 \]
 
 or some other subcubic lower control.  Its time derivative can no longer
 dominate an arbitrary critical cubic flux of size
 
 \[
-|\mathcal C_\chi(\lambda V)|\sim \lambda^3.
+|\mathcal C_\chi(\lambda V)|=\lambda^3|\mathcal C_\chi(V)|.
 \]
 
 The uncancelled remainder is again controlled only by a critical action bound:
 
 \[
 |\mathcal C_A(v)|+|\operatorname{Comm}_A(v)|
-\lesssim
+\le C_A
 \int_{\operatorname{collar}(A)}
 \left(|v|^3+|q|^{3/2}+|S(v)|^{5/2}\right)dy.
 \]
