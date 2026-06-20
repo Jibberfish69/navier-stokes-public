@@ -11,6 +11,14 @@ forward-gold proof from current installed Navier-Stokes inputs.
 This note merges those six checks into one exact closeout.  It does not solve
 the Navier-Stokes MPP smoothness problem.
 
+Live recheck addendum.  A later six-agent recheck tested strict no-waste,
+critical strain/CKN, source-square carrier domination, signed saturation /
+no-free donor chains, rigid Zeno production, and the CM consumption fork.  The
+five forward-gold supplier checks all returned to the same radius-discount
+obstruction.  The CM check confirmed only the alternative Pack/Part/Field
+landing after same-witness admission and uniform service certification.  It did
+not convert the retained pulse into a forward-gold anti-atom theorem.
+
 The shared conclusion is:
 
 ```math
@@ -328,6 +336,62 @@ Y'(t)\le C\nu^{-3}Y(t)^3.
 
 It identifies vortex stretching as the feed channel.  It does not throttle the
 feed.
+
+## 7. Live six-agent recheck
+
+The live recheck did not find a new non-alias supplier.
+
+The strict no-waste check found that pressure-corrected functionals expose the
+critical interface but do not make it sign-definite.  Any functional bounded by
+ordinary shell energy has only \(o(1)\) available drop on the heat-scale pulse,
+while the required unweighted square bill remains order one.
+
+The critical strain / CKN check found the correct scale but not endpoint
+uniform integrability.  Critical Holder factors can concentrate on the same
+terminal layer, and normalized CKN packing still controls physical
+radius-weighted sums rather than the unweighted terminal count.
+
+The source-square check confirmed the consumer direction
+
+```math
+\text{SourceSquareReserve.A}
++
+\text{SelectedSourceSquareCarrierDomination.A}
+\Longrightarrow
+\text{TerminalMovingPacketTraceModulus.A}.
+\tag{SDM.29}
+```
+
+The production direction remains unpaid.  Trace-free strain and incompressible
+signed cancellation do not dominate the selected expanding eigendirection after
+localization, projection, lifting, packet selection, and positive-part
+extraction.
+
+The signed saturation / donor-chain check found the square-spreading defect:
+linear donor balance can match \(L^1\) mass while losing square cost by spreading
+the donor over a longer time interval.  Finite donor trees are paid; the
+unpaid branch is still the infinite terminal Zeno donor chain in unweighted
+square/action units.
+
+The rigid Zeno check found compactness without production.  The limit may carry
+a terminal source measure or a defect-bearing local suitable package on the
+terminal face.  It is not a Landau/Sverak input until endpoint evacuation,
+unweighted action, no drift, stationarity, homogeneity, annular defect
+evacuation, and sphere smoothness are produced.
+
+The CM fork check confirmed the exact alternative:
+
+```math
+\text{retained heat-scale pulse}
++
+\text{same-witness CM admission}
+\Longrightarrow
+\neg Pack_Q\vee\neg Part_{N,Q}\vee\forall r>0\,\neg Field_{N,r,Q}.
+\tag{SDM.30}
+```
+
+That is a Pack/Part/Field witness-face landing.  It is not a proof of
+`UnweightedTerminalCriticalActionReserve.A`.
 
 ## Final Merge
 
