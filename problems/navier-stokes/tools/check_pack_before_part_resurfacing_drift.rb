@@ -53,6 +53,8 @@ ACTIVE_PATHS = %w[
   system/runner/test/codex_conversation_guard_test.rb
   system/runner/test/research_os_behaviour_support_test.rb
   system/runner/test/theorem_invention_support_test.rb
+  system/runner/test/dependency_discharge_builder_test.rb
+  system/runner/test/dependency_discharge_worker_test.rb
 ].freeze
 
 FORBIDDEN = {
