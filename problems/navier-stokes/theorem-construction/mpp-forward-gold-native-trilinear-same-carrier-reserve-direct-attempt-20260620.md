@@ -99,6 +99,16 @@ b_j\,\psi\!\left({x-x_j\over r}\right)e_1.
 \tag{NTSR.8}
 ```
 
+Choose \(\sigma,\psi\in C_c^\infty(B_1)\), with \(\sigma\ge0\), \(\psi\ge0\),
+and define the fixed positive constants
+
+```math
+K_\psi:=\int_{B_1}\psi(y)^2\,dy,
+\qquad
+M_{\sigma,\psi}:=2\int_{B_1}\sigma(y)\psi(y)^2\,dy.
+\tag{NTSR.8a}
+```
+
 Choose \(b_j\) so that
 
 ```math
@@ -116,16 +126,21 @@ Equivalently,
 \tag{NTSR.10}
 ```
 
+This is obtained by taking
+
+```math
+b_j^2=\nu^{-1}K_\psi^{-1}r^{-3/2}.
+\tag{NTSR.10a}
+```
+
 Then the positive trilinear feed is source-balanced:
 
 ```math
 \Phi_j^+(t)
-\simeq
-\lambda_j\|w_j(t)\|_2^2
 =
-D_j(t)
+M_{\sigma,\psi}K_\psi^{-1}r^{-1/2}
 =
-r^{-1/2}.
+M_{\sigma,\psi}K_\psi^{-1}D_j(t).
 \tag{NTSR.11}
 ```
 
@@ -133,10 +148,9 @@ The first moment on the heat window vanishes:
 
 ```math
 \int_{I_j}\Phi_j^+(t)\,dt
-\simeq
-r^{-1/2}r^2
 =
-r^{3/2}\to0.
+M_{\sigma,\psi}K_\psi^{-1}r^{3/2}
+\to0.
 \tag{NTSR.12}
 ```
 
@@ -144,10 +158,8 @@ But the normalized source-square contribution is order one:
 
 ```math
 \int_{I_j}r^{-1}\left(\Phi_j^+(t)\right)^2\,dt
-\simeq
-\int_{I_j}r^{-1}r^{-1}\,dt
 =
-1.
+\left(M_{\sigma,\psi}K_\psi^{-1}\right)^2.
 \tag{NTSR.13}
 ```
 
@@ -161,10 +173,10 @@ The low strain has \(L^2\)-scale physical cost
 ```math
 \int_{I_j}\int_{B_r}
 |S_j^{model}|^2\,dxdt
-\simeq
-(\nu^2r^{-4})\,r^3\,r^2
 =
-\nu^2r.
+C_\sigma\nu^2r,
+\qquad
+C_\sigma:=6\int_{B_1}\sigma(y)^2\,dy.
 \tag{NTSR.14}
 ```
 
@@ -174,7 +186,7 @@ The selected high packet energy is small:
 
 ```math
 \|w_j(t)\|_2^2
-\simeq
+=
 \nu^{-1}r^{3/2}\to0,
 \tag{NTSR.15}
 ```
@@ -183,7 +195,7 @@ and its heat-window residence is smaller:
 
 ```math
 \int_{I_j}\|w_j(t)\|_2^2\,dt
-\simeq
+=
 \nu^{-1}r^{7/2}\to0.
 \tag{NTSR.16}
 ```
@@ -193,10 +205,11 @@ The critical strain currency is order one:
 ```math
 \int_{I_j}\int_{B_r}
 |S_j^{model}|^{5/2}\,dxdt
-\simeq
-(\nu r^{-2})^{5/2}r^3r^2
 =
-\nu^{5/2}.
+C_{\sigma,5/2}\nu^{5/2},
+\qquad
+C_{\sigma,5/2}:=
+\left(2^{5/2}+2\right)\int_{B_1}\sigma(y)^{5/2}\,dy.
 \tag{NTSR.17}
 ```
 
@@ -233,8 +246,8 @@ positive carrier keeps the \(e_1\) expanding direction:
 \left[
 \langle S_j^{model}w_j,w_j\rangle
 \right]_+
-\simeq
-\lambda_j|w_j|^2.
+=
+2\lambda_j\sigma\!\left({x-x_j\over r}\right)|w_j|^2.
 \tag{NTSR.20}
 ```
 
@@ -259,9 +272,11 @@ on selected heat-scale packets.
 The normal form gives the opposite:
 
 ```math
-\int_{I_j}\Phi_j^+(t)\,dt\simeq r^{3/2}\to0,
+\int_{I_j}\Phi_j^+(t)\,dt
+=M_{\sigma,\psi}K_\psi^{-1}r^{3/2}\to0,
 \qquad
-\int_{I_j}r^{-1}\left(\Phi_j^+(t)\right)^2\,dt\simeq1.
+\int_{I_j}r^{-1}\left(\Phi_j^+(t)\right)^2\,dt
+=\left(M_{\sigma,\psi}K_\psi^{-1}\right)^2.
 \tag{NTSR.22}
 ```
 
