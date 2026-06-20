@@ -95,9 +95,13 @@ so same-fluid participation gives visibility and timing, not the missing
 square reserve.
 
 The minimal-counterexample/descent test localizes a failure to either a
-terminal endpoint atom or a first-created reserve charge.  Those are exactly
-`TerminalMovingPacketTraceModulus.A` and `ReserveCreationCharge.A`, and neither
-is installed from current inputs.
+terminal endpoint atom or a first-created reserve charge.  The endpoint side is
+now accounted for by `mpp-terminal-source-curve-pass-or-partfield-exit-20260620.md`:
+failure of `TerminalMovingPacketTraceModulus.A` extracts a terminal atom, and
+the installed `TerminalAtomPartFieldFirstExit.A` package routes that atom to
+Part or Field failure on the same-solution branch.  The forward-gold residue is
+therefore the interior branch: `ReserveCreationCharge.A` for first-created
+unweighted reserve.
 
 The strict no-waste tests show that pressure-corrected energy, local cubic
 correctors, commutator coercivity, pressure memory, and fixed trace continuity
@@ -118,7 +122,7 @@ Thus the weighted-carrier reentry lands on an already known non-alias wall:
 }
 ```
 
-Current inputs do not prove that wall.
+Current inputs do not prove that wall on the interior first-created branch.
 
 The only honest continuations are:
 
@@ -129,7 +133,7 @@ The only honest continuations are:
 or
 
 ```math
-\text{admit the surviving residual pulse into the CM Pack/Part/Field readout.}
+\text{route the surviving residual pulse into the CM Pack/Part/Field readout.}
 ```
 
 This note adds no new theorem debt.  It prevents the weighted-carrier route
