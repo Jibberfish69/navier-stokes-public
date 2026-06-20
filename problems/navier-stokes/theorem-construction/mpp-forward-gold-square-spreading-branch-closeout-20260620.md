@@ -10,6 +10,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-three-clock-strict-gap-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-source-square-ladder-closeout-20260619.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-window-height-logtail-direct-test-20260619.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-principal-gain-square-height-thickness-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-strict-nowaste-post-critical-currency-closeout-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-profile-decoupling-direct-test-20260620.md
 downstream_consequence: "The square-spreading branch has no remaining lower-level shortcut at current input strength. Forward-gold closure requires a new unweighted same-carrier critical-action theorem; otherwise the retained positive-scale reserve is available only as a CM Pack/Part/Field readout after same-witness CM entry."
@@ -102,7 +103,9 @@ reserve at this resolution.
 \text{candidate} & \text{checked result}\\
 \hline
 \text{active height} &
-\text{would close source-square, but is continuation-strength and unproved}\\
+\text{would close source-square; heat thickness and linear mass alone fail}\\
+\text{principal-gain height/thickness} &
+\text{reduces to active height, square reserve evolution, or square budget}\\
 \text{participation strict gap} &
 \text{packet balance is exact but heat-scale neutral}\\
 \text{source-square} &
