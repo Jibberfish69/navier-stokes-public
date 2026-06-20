@@ -169,7 +169,7 @@ scale-nested low-high Pack molecule
 
 Current profile-decomposition orthogonality does not provide that. In this
 branch it is either the overlap limit `(SEP)` or the same-parameter merge, not
-an estimate for the selected positive terminal measure. The live object is
+an estimate for the selected positive terminal measure. The live terminal record is
 weighted, scale-normalized, one-sided, and chosen on the bad terminal heat
 window.
 

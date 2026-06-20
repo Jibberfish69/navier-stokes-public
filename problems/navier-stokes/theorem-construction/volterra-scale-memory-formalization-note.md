@@ -64,7 +64,7 @@ a(r,t)\,\|(\mathcal V Z)_r(t)\|_{L_x^2}^2\,
 \tag{3}
 ```
 
-So the live object is already exactly a weighted one-sided Volterra square.
+So the live terminal record is already exactly a weighted one-sided Volterra square.
 
 ## Where the current route loses structure
 

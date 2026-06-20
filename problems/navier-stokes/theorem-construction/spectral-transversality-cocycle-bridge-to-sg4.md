@@ -43,7 +43,7 @@ The remaining theorem target is:
 
 ## 1. Upstream geometric input: deformation/YM-heat supplies a coarse spectral floor
 
-The deformation-side route already says the live object is the deformation
+The deformation-side route already says the live terminal record is the deformation
 metric `G=A A^\top`, driven by the strain:
 
 ```math

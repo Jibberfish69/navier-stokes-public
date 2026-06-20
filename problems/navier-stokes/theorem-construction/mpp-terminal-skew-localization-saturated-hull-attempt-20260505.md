@@ -117,7 +117,7 @@ surface actually consumed by the source-wall route, after:
 
 The saturated hull repairs only the easiest defect: a missing algebraic
 counter-edge endpoint caused by restricting the packet family too early.  It
-does not repair the two defects that survive on the live object.
+does not repair the two defects that survive on the live terminal record.
 
 ### 1. Weighted/Lifted Exchange Is Not Antisymmetric On The Hull
 
