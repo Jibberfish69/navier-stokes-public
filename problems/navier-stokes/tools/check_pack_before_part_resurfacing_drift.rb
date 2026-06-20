@@ -62,6 +62,10 @@ ACTIVE_PATHS = %w[
 FORBIDDEN = {
   "old Pack-first continuation packet tree" => /Pack-first continuation-packet tree/,
   "old Pack-first CM exit tree" => /Pack-first CM exit tree/,
+  "old Pack-first witness tree" => /Pack-first witness tree/,
+  "old CM landing objects key" => /cm_landing_objects/,
+  "old face notation as landing objects" => /landing_objects/,
+  "old theorem-result must-land promotion gate" => /Every theorem result must land in Silver Pack_Q, Part_\{N,Q\}, or Field/,
   "old retained-Pack participation ordering" => /if Pack survives|once Pack is retained/,
   "old YAML promotion gate" => /promotion_gate:\s*Pack_Q, Part_\{N,Q\}, or Field/,
   "old exact bridge gate" => /bridge lands the exact result in Pack_Q, Part_\{N,Q\}, or Field/,
@@ -94,7 +98,9 @@ FORBIDDEN = {
   "old terminal Zeno Pack-before-Part correction prose" => /terminal Zeno Pack-before-Part correction gives not Pack Q/,
   "old pre-Pack indexed Part resurfacing" => /resurfac(?:e|ed|ing) under `?Part_\{N,Q\}`? first/,
   "old pre-Pack indexed Part before Pack" => /(?:analyze|test) Part_\{N,Q\} before Pack\(Q\)/,
-  "old pre-Pack Part_NQ meaningful question" => /was Part_\{N,Q\} meaningful under the pointwise original Navier-Stokes participation law/
+  "old pre-Pack Part_NQ meaningful question" => /was Part_\{N,Q\} meaningful under the pointwise original Navier-Stokes participation law/,
+  "old target-as-face-landing grammar" => /State the target as a Pack\/Part\/Field landing attempt/,
+  "old promotion skips open Part slot" => /Does this result enter Silver Pack_Q, Part_\{N,Q\}, or Field_\{N,r,Q\}/
 }.freeze
 
 BROAD_TERMINAL_FORBIDDEN = FORBIDDEN.select do |label, _|
@@ -118,6 +124,7 @@ REQUIRED_MARKERS = [
   "pre-Pack not-Pack",
   "pre-Pack pointwise",
   "Part()",
+  "open participation slot",
   "Part-first resurfacing",
   "pointwise original-NS participation",
   "Silver Pack_Q",
