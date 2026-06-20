@@ -235,7 +235,10 @@ positive energy trace is polar-saturated and the terminal normalized-energy
 parent chain is proved non-free.  The direct test
 `mpp-forward-gold-linear-positive-energy-trace-saturation-direct-test-20260620.md`
 shows that signed endpoint-energy accounting alone does not give that
-polar-saturation step.
+polar-saturation step.  The follow-up
+`mpp-forward-gold-no-free-terminal-normalized-energy-trace-direct-test-20260620.md`
+shows that finite physical energy also does not give the no-free terminal
+normalized-energy trace step.
 
 The square-strength descendants are the already isolated square objects
 
