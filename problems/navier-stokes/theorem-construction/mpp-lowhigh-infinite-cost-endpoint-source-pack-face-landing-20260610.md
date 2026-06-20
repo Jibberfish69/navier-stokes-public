@@ -112,8 +112,9 @@ and no preterminal `L1_s` density representing the terminal object.
 
 This is exactly the zero-radius terminal source-residue shape described by the
 installed Zeno correction in `live-theorem-edge.yaml`. The correction says the
-terminal limit `r_m -> 0` is `not Pack_Q` before any retained Field face can be
-spent.
+terminal limit `r_m -> 0` is first audited for pointwise Part status before
+any retained Field face can be spent; it becomes true `not Pack_Q` only when no
+same-solution participation record survives.
 
 The fifth assumption excludes the only bridge that could move the branch away
 from Pack-first landing: a positive-scale retained-carrier theorem. With that

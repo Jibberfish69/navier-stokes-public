@@ -206,7 +206,7 @@ chunk:
     text: |
       \subsection{Clay problem B ASAC New Alternative Mechanism Exhaustion}
 
-      Bounded alternative search after the B ASAC closed branch was corrected to zero-radius not Pack Q source-residue support and after the pressure/Leray tether route stayed open.
+      Bounded alternative search after the B ASAC closed branch was corrected to Pack-before-Part source-residue support and after the pressure/Leray tether route stayed open.
 
       Outcome: no additional installed production mechanism found. The search surfaces candidate mechanisms, each returning to an already isolated atom.
 
@@ -423,7 +423,7 @@ chunk:
 
     \subsection{Clay problem B ASAC New Alternative Mechanism Exhaustion}
 
-    Bounded alternative search after the B ASAC closed branch was corrected to zero-radius not Pack Q source-residue support and after the pressure/Leray tether route stayed open.
+    Bounded alternative search after the B ASAC closed branch was corrected to Pack-before-Part source-residue support and after the pressure/Leray tether route stayed open.
 
     Outcome: no additional installed production mechanism found. The search surfaces candidate mechanisms, each returning to an already isolated atom.
 
