@@ -88,7 +88,8 @@ packet therefore requires same-window participation residence:
 
 ```math
 \int_{I_j}\Pi_j^{part,+}(t)\,dt
-c_0^{-1}
+\ge
+c_0
 \int_{I_j}D_j(t)\,dt
 \quad
 \text{modulo legal and endpoint terms.}
