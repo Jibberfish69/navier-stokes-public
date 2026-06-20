@@ -349,7 +349,7 @@ It is:
 
 ```math
 \boxed{
-\text{move to the intrinsic, coordinate-free differential-form package wherever the live object is antisymmetric or exactness-sensitive.}
+\text{move to the intrinsic, coordinate-free differential-form package wherever the live terminal record is antisymmetric or exactness-sensitive.}
 }
 ```
 
