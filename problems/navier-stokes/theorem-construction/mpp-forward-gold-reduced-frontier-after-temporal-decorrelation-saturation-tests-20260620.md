@@ -4,7 +4,7 @@ ns_viewer:
   status: reduced-to-unweighted-same-carrier-reserve-or-cm-face-consumption
   proof_role: forward_gold_reduced_frontier_consolidation
   logical_landing_node: unweighted_same_carrier_terminal_reserve
-  edge_effect: "Consolidates the checked June 20 temporal-regularity, selected-decorrelation, strict no-waste, source-square, parabolic signed-saturation, no-free Zeno donor-chain, participation-clock, entropy/log coercivity, and Door 2 production tests. The independent forward-gold supplier labels all reduce to one object: an unweighted terminal critical-action reserve on the actual selected positive carrier, or a rigid Zeno production theorem that proves temporal non-atomicity/source-residue Liouville. Absent that, the retained pulse is not excluded by forward gold and must be carried by the CM Pack/Part/Field face route."
+  edge_effect: "Consolidates the checked June 20 temporal-regularity, selected-decorrelation, strict no-waste, source-square, parabolic signed-saturation, no-free Zeno donor-chain, participation-clock, entropy/log coercivity, CM service-certification, and Door 2 production tests. The independent forward-gold supplier labels all reduce to one object: an unweighted terminal critical-action reserve on the actual selected positive carrier, or a rigid Zeno production theorem that proves temporal non-atomicity/source-residue Liouville. Absent that, the retained pulse is not excluded by forward gold and must be carried by the CM Pack/Part/Field face route after same-witness admission plus uniform service certification."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-time-concentration-cost-temporal-regularity-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-eigendirection-decorrelation-after-temporal-regularity-test-20260620.md
@@ -15,8 +15,9 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-strict-clock-gap-direct-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-three-clock-strict-gap-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-entropy-log-coercivity-exhaustion-20260620.md
+    - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-cm-service-certification-recheck-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-door2-child-exhaustion-closeout-20260620.md
-  downstream_consequence: "Do not respawn the terminal heat-scale pulse under temporal compactness, angular decorrelation, pressure correction, source-square, strict no-waste, participation-clock, signed-saturation, entropy/log, or Door 2 gauge/stationarity labels unless the new theorem proves the selected same-carrier endpoint UI/unweighted reserve, a retained signed/source-shadow saturation with no-free Zeno, or a produced rigid Zeno source-residue Liouville class."
+  downstream_consequence: "Do not respawn the terminal heat-scale pulse under temporal compactness, angular decorrelation, pressure correction, source-square, strict no-waste, participation-clock, signed-saturation, entropy/log, CM service-certification, or Door 2 gauge/stationarity labels unless the new theorem proves the selected same-carrier endpoint UI/unweighted reserve, a retained signed/source-shadow saturation with no-free Zeno, a produced rigid Zeno source-residue Liouville class, or a same-witness admitted CM face failure through uniform service topology."
 ---
 
 # MPP Forward Gold Reduced Frontier After Temporal, Decorrelation, And Saturation Tests
@@ -209,23 +210,25 @@ the same selected carrier, before positive/signed/source shadows are lost.
 ## 4. Exact CM-facing alternative
 
 If `(RF.4)` and `(RF.11)` are not proved, the retained heat-scale pulse is not
-excluded by forward gold.  It is then not a solved smoothness contradiction; it
-is the terminal source-pulse witness carried by the CM-facing
-Pack/Part/Field route.
+excluded by forward gold.  It becomes CM-facing only after the same terminal
+witness is admitted and the `Part` or `Field` service is tested in its uniform
+service topology.
 
 In this branch the mathematical statement is:
 
 ```math
 \boxed{
-\text{failure of the unweighted same-carrier reserve must be consumed as a
-CM witness-face object, not renamed as a forward-gold estimate.}
+\text{failure of the unweighted same-carrier reserve is either a support
+calculation or, after same-witness admission, a certified CM witness-face
+object.}
 }
 \tag{RF.13}
 ```
 
 That is why the source-curve pass-or-exit, terminal atom Part/Field route, and
 Pack/Part/Field grammar matter.  They are not forward-gold proof of the reserve;
-they are the alternative landing when the reserve is false or uninstalled.
+they are the alternative landing when the admitted terminal witness fails the
+uniform service budget required by `Part` or `Field`.
 
 ## Verdict
 
