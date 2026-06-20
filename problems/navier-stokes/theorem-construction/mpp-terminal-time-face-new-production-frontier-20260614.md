@@ -212,7 +212,7 @@ These are exact reductions.  They are not separate current CM blockers unless a
 branch theorem admits a surviving object as a same-solution CM witness and
 derives its first face failure.
 
-The all-reduced `B_ASAC` route is Pack-first at the zero-radius terminal atom:
+The all-reduced `B_ASAC` route is Pack-before-Part typed at the zero-radius terminal atom:
 the survivor is `\neg Pack_Q` support unless a separate positive-scale
 retained-carrier bridge is installed.  It is not a Field readout by itself.
 
