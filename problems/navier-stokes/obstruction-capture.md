@@ -11,34 +11,35 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 
 ## One-Sentence Thesis
 
-- The current manuscript opens from the CM contrapositive class-exit program: an alleged finite-time Clay terminal witness from the same original smooth datum enters the same-fluid CM terminal packet tree, its finite failure type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and the derived face failure supports `Exit(Q):=not Member(Q)`.
+- The current manuscript opens from the CM contrapositive class-exit program: an alleged finite-time Clay terminal witness from the same original smooth datum enters the same-fluid CM terminal packet tree. After Pack admission, Silver exhausts its finite failure type as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; before Pack admission, a not-Pack candidate first tests pointwise original-NS participation. The derived typed failure supports `Exit(Q):=not Member(Q)`.
 
 ## The Real Obstruction
 
 - The live obstruction is an alleged finite Clay terminal witness from the original smooth Navier-Stokes datum.
 - The pressure point is whether that terminal witness can remain a lawful in-class nonsmooth continuation branch.
-- The CM answer is to admit the witness to the same-fluid terminal packet tree and sort its first Pack/Part/Field face failure.
+- The CM answer is to admit Pack-carried witness material to the same-fluid terminal packet tree and sort its first Pack/Part/Field face failure, while pre-Pack singular material is first checked for pointwise original-NS participation.
 
 ## Why Prior Attempts Fail
 
 - Positive supplier, source-wall, periodic, and regularization branches fail as manuscript openings because they try to delete or reroute the bad terminal object before the CM test has used it.
 - The current proof uses the fail branch as the class-exit witness rather than treating it as a positive no-exit burden.
-- Periodic and `Q(t)` material is support only after a checked bridge lands an exact claim in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
+- Periodic and `Q(t)` material is support only after a checked bridge lands an exact claim in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack Part-first resurfacing audit.
 
 ## The Crossing Move
 
 - Start with the alleged finite-time Clay terminal witness from the same original smooth datum.
 - Enter that witness into the canonical same-fluid CM terminal packet tree.
-- Exhaust the finite failure type as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}.
+- Exhaust Pack-admitted finite failure type as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; for any pre-Pack not-Pack candidate, first test pointwise original-NS participation.
 - Embed the derived face failure as `Exit(Q):=not Member(Q)` while preserving the pass branch as the lawful smooth continuation branch.
 
 ## Core Mechanism
 
 - The theorem-bearing engine is the CM terminal witness chain:
   1. terminal witness entry,
-  2. finite Pack/Part/Field failure-type exhaustion,
-  3. contrapositive embedding as `Exit(Q):=not Member(Q)`,
-  4. no legal in-class nonsmooth third branch between pass and fail.
+  2. finite Silver Pack/Part/Field failure-type exhaustion after Pack admission,
+  3. pre-Pack Part-first resurfacing where a not-Pack branch still has pointwise original-NS participation status,
+  4. contrapositive embedding as `Exit(Q):=not Member(Q)`,
+  5. no legal in-class nonsmooth third branch between pass and fail.
 
 - The live manuscript burden is to keep that chain as the opening authority.
 - The live support burden is to quarantine periodic, `Q(t)`, source-wall, and positive-supplier surfaces unless they land in a typed witness face.
@@ -48,7 +49,7 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 1. Start with a same-datum finite Clay terminal witness.
 2. Treat it as CM-test-admissible, not as already `Member(Q)`.
 3. Run terminal witness entry into the same-fluid CM packet tree.
-4. Exhaust the failure through Pack_Q, Part_{N,Q}, and Field_{N,r,Q}.
+4. Exhaust the Pack-admitted failure through Pack_Q, Part_{N,Q}, and Field_{N,r,Q}, and resurface any pre-Pack not-Pack candidate under pointwise Part first.
 5. Read the derived face failure as `Exit(Q):=not Member(Q)`.
 6. Keep the pass branch as smooth continuation and the fail branch as outside-class.
 7. Reject any opening that begins with torus-first, `Q(t)`, or periodic route history before the CM witness object has landed.
@@ -69,7 +70,8 @@ Reason it is archived:
 
 - finite Clay terminal witness
 - same-fluid CM terminal packet entry
-- Pack/Part/Field finite failure-type exhaustion
+- Silver Pack/Part/Field finite failure-type exhaustion after Pack admission
+- Pre-Pack Part-first resurfacing where needed
 - `Exit(Q):=not Member(Q)` contrapositive embedding
 
 Reason it stays primary:
@@ -89,7 +91,7 @@ Reason it is quarantined:
 - Export surfaces must stay on the exact Clay statement and must not silently replace the periodic internal branch by whole-space language.
 - Historical conditional checkpoints must remain archived rather than reintroduced as the primary theorem surface.
 - The CM witness entry cannot be replaced by periodic route history.
-- The Pack/Part/Field exhaustion cannot be replaced by source-wall supplier diagnostics.
+- The Silver Pack/Part/Field exhaustion and pre-Pack Part-first audit cannot be replaced by source-wall supplier diagnostics.
 - Cross-lane notes must not be treated as theorem-primary unless explicitly promoted into a witness face.
 
 ## Existing Material
@@ -101,12 +103,12 @@ Reason it is quarantined:
 ## Output Target
 
 - For this phase, the output is a CM contrapositive class-exit manuscript surface.
-- The runner must open from terminal witness entry, Pack/Part/Field exhaustion, and `Exit(Q):=not Member(Q)`.
+- The runner must open from terminal witness entry, Silver Pack/Part/Field exhaustion after Pack admission, pre-Pack Part-first resurfacing where needed, and `Exit(Q):=not Member(Q)`.
 
 ## Instructions to Codex
 
 - Keep the regularized branch archived as a diagnostic failure branch.
-- Keep `Q(t)` and periodic material quarantined as support unless a checked bridge lands it in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
+- Keep `Q(t)` and periodic material quarantined as support unless a checked bridge lands it in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack Part-first resurfacing audit.
 - Preserve the CM contrapositive class-exit architecture as the manuscript opening.
 - Keep export and source-history material explicitly downstream.
 - Do not promote archived provenance above theorem authority.
