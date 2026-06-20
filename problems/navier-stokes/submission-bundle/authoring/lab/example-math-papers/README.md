@@ -4,6 +4,19 @@ This folder is a local reading shelf for external model papers. These are not NS
 
 The downloaded third-party PDFs are intentionally ignored by git. Keep the index tracked; keep the article files local unless there is an explicit reason to vendor external PDFs into the repository.
 
+## Shelf Roles
+
+- Root PDFs: compact or mid-length model papers for proof route, exposition,
+  and concept-first explanation.
+- `over-100-pages/`: long mathematical works and notes used to study scale,
+  navigation, pacing, and reader endurance.
+- `over-100-pages-proof-papers/`: long proof-heavy papers used to study how a
+  major proof pays its obligations across many sections.
+
+The root shelf is the curated index. The long-paper shelves are local reading
+material unless a specific lesson is extracted into `../../writing-samples/` or
+`../../templates/`.
+
 ## Downloaded PDFs
 
 | File | Paper | Local source | Why it is here |
@@ -17,6 +30,12 @@ The downloaded third-party PDFs are intentionally ignored by git. Keep the index
 | `2020-piccirillo-conway-knot-not-slice.pdf` | Lisa Piccirillo, "The Conway knot is not slice" | Annals: https://annals.math.princeton.edu/2020/191-2/p05 | Short, direct, theorem-targeted proof paper. |
 | `2022-hom-getting-a-handle-on-the-conway-knot.pdf` | Jennifer Hom, "Getting a handle on the Conway knot" | arXiv: https://arxiv.org/abs/2107.09171 | Model for explaining a famous proof route and its obstacles cleanly. |
 | `2023-park-threshold-phenomena-random-discrete-structures.pdf` | Jinyoung Park, "Threshold phenomena for random discrete structures" | arXiv: https://arxiv.org/abs/2306.13823 | Gentle onboarding through examples before abstraction. |
+
+## Additional Local Long-Paper Shelves
+
+The two long-paper subfolders hold local PDFs that are ignored by git. They are
+part of the working reading shelf, but they are not individually indexed here
+unless a specific paper becomes a live model for the Navier-Stokes manuscript.
 
 ## Source-Linked, Not Yet Downloaded
 
