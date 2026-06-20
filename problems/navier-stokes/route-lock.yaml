@@ -187,6 +187,8 @@ target_lock_schema:
     examples:
     - Exit(Q):=not Member(Q)
     - Pack_Q / Part_{N,Q} / Field_{N,r,Q}
+    - 'PackBeforePartDependencyResurfacing.A: pre-Pack or singular not-Pack branches
+      must test pointwise original-NS participation before not Pack_Q is spent'
     - 'Pack/Part/Field as overlapping witness axes: Pack has fixed-box flux and finite-window
       material-coordinate readings; Part is same pressure-viscosity carrier law; Field
       is neighboring tower coherence'
@@ -242,16 +244,28 @@ proof_program_topology:
   governing_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
   propagated_object: same-fluid Pack/Part/Field witness-face envelope; Member(Q) is
     the forward membership predicate
-  promotion_gate: Pack_Q, Part_{N,Q}, or Field_{N,r,Q} witness-face landing
+  promotion_gate: Silver Pack_Q, Part_{N,Q}, or Field_{N,r,Q} witness-face landing
+    after Pack admission, plus Part-first resurfacing before any pre-Pack not-Pack
+    disposal
   current_role: governing proof grammar for CM-bearing promotion
   governing_engine_note: problems/navier-stokes/theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
+  pack_before_part_dependency_audit:
+    note: problems/navier-stokes/theorem-construction/mpp-pack-before-part-dependency-resurfacing-audit-20260620.md
+    licensing_note: problems/navier-stokes/theorem-construction/mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md
+    rule: Preserve Silver Pack/Part/Field after a legitimate Pack window, carrier,
+      readout, or jump-comparison structure is admitted. When a pre-Pack or singular
+      branch was disposed as not Pack_Q before Part_{N,Q} was tested, first ask whether
+      the original Navier-Stokes viscosity, pressure, and incompressibility law still
+      gives pointwise participation status. If yes, resurface the branch under Part_{N,Q};
+      if no, keep not Pack_Q as a true carrier/window/readout failure.
   obstruction_pass_exit_rule: Follow the ordinary positive proof program until it
     reaches a real obstruction, then split the obstruction into a pass branch and
     a fail branch. The pass branch is the in-class `Member(Q)` branch and may be supplied
     by any lawful continuation mechanism. The fail branch is lawful CM contrapositive
     work only when the failure is capable of nonsmoothness and lands as a Pack, Part,
-    or Field face failure supporting `Exit(Q):=not Member(Q)`. Do not replace this
-    engine with a demand to prove one particular positive estimate directly.
+    or Field face failure, or as a Part-first resurfacing of a pre-Pack branch, supporting
+    `Exit(Q):=not Member(Q)`. Do not replace this engine with a demand to prove one
+    particular positive estimate directly.
   no_third_branch_rule: The installed no-third-branch audit proves that no terminal
     branch is both an in-class `Member(Q)` continuation branch and a finite nonsmoothness
     branch once the obstruction has been admitted to the CM test and a concrete Pack/Part/Field
@@ -263,6 +277,15 @@ proof_program_topology:
     Under the current pass-or-exit engine, a pass branch may be supplied by any lawful
     continuation mechanism, and a fail branch is useful exactly when it lands in Pack,
     Part, or Field; that concrete face failure supports `Exit(Q):=not Member(Q)`.
+  silver_face_failure_finality_correction_20260619: Do not state or preserve as a
+    Silver burden that a concrete Pack/Part/Field face failure must then be proved
+    not to be the finite-time breakdown of the original smooth solution. That imports
+    a forward no-exit theorem into the contrapositive. For Silver, after same-solution
+    CM-test admission, the row is consumed by admissibility failure, continuation/readout
+    recovery, or concrete face failure. `NoGenuineExitFromSmoothData.A`, first-Pack
+    survival, terminal anti-atom, and PCTP/TTU are positive supplier or manuscript
+    support unless a concrete promoted row is shown to enter the CM test and still
+    neither continue nor land in a real face failure.
   positive_existence_translation_veto: Do not restate the live CM burden as proving
     that at least one solution remains in the class, producing a smooth/class-member
     solution, or showing smooth data stays in CM. That is a positive-existence/class-preservation
@@ -368,32 +391,31 @@ open_root_group:
     burden_id: release-exactness-and-manuscript-refresh
     proof_mode: single_referee_gate_with_gold_silver_paths
     target_object: CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A
-    theorem_grade_statement: 'The original acceptance gate had smuggled in Gold-path
-      forward-positive proof as the only acceptance mode. The corrected single gate
-      preserves gold as the forward-positive path and accepts Silver as the CM contrapositive
-      discharge: once the alleged terminal witness is admitted to the CM test, the
-      exhaustive branch table consumes every admissible branch by admissibility failure,
-      continuation/readout recovery, or a concrete Pack/Part/Field face failure supporting
-      Exit(Q):=not Member(Q).'
+    theorem_grade_statement: 'The original acceptance gate had treated Gold forward-positive
+      proof as the only acceptance mode. The corrected single gate accepts Silver
+      as the CM contrapositive discharge: once the alleged terminal witness is admitted
+      to the CM test, the exhaustive branch table consumes every admissible branch
+      by admissibility failure, continuation/readout recovery, or a concrete Pack/Part/Field
+      face failure supporting Exit(Q):=not Member(Q).'
     active_container: release-exactness-and-manuscript-refresh
     respawn_cell:
     respawn_stage:
     allowed_input_boundary: Gold and Silver are acceptance paths inside one gate.
-      Gold records the tried forward-positive supplier path to TerminalTimeFaceAntiAtom.A
+      Gold names the tried forward-positive supplier path to TerminalTimeFaceAntiAtom.A
       / TerminalNewProductionTheorem_{B_ASAC}.A; Silver names the accepted exhaustive
       CM contrapositive branch-table resolution.
-    nearest_wrong_substitution: Treating the gate as cleared only by Gold-path forward-positive
+    nearest_wrong_substitution: Treating the gate as cleared only by Gold forward-positive
       proof, or splitting Gold and Silver into separate gates instead of one gate
-      with ordered provenance.
+      with Gold/Silver paths.
     accepted_replacement:
       patch: CMContrapositiveRefereeInventoryPatch.A
       theorem: ExhaustiveContrapositiveFiniteBreakdownExclusion.A
       single_gate_paths:
-        gate_model: one referee gate; Gold and Silver are acceptance paths inside
-          the same gate, not separate gates
+        gate_model: one referee gate with Gold and Silver acceptance paths
+        accepted_path: Silver
         anti_smuggling_rule: The gate accepts either Gold proof or the Silver exhaustive
-          CM contrapositive replacement, and records which provenance path discharged
-          it.
+          CM contrapositive replacement. It records accepted_path only; Gold is not
+          the only acceptance mode.
   cm_exit_discipline: A theorem surface is live for the CM program only when it is
     generated by negating the installed continuation packet, or when a checked bridge
     lands it in a typed Pack, Part, or Field obligation. The H^s readout bridge is
@@ -617,8 +639,9 @@ open_root_group:
 non_merge_rules:
 - rule_id: positive-vs-cm
   statement: Positive smoothness control and every surface indexed in the forward-positive
-    quarantine ledger are not the CM contrapositive unless a named bridge proves membership
-    or witness-face landing in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
+    quarantine ledger are not the CM contrapositive unless a named bridge proves membership,
+    a Silver witness-face landing in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}, or the
+    pre-Pack Part-first resurfacing needed before not Pack_Q can be spent.
 - rule_id: fixed-nu-transfer-vs-ns-smoothness
   statement: Fixed-nu Euler-to-NS transfer compares two equations on the same datum
     and interval; it does not prove Euler smoothness or stand-alone NS smoothness.
