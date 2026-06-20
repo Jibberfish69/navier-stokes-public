@@ -85,7 +85,7 @@ source normalization.
 
 Unweighted dyadic exchange cancels paired shell transfer. The active-window
 route is one-sided and weighted. After weights, cutoffs, projectors, and lifted
-remainders are inserted, the surviving live object is a strain interaction with
+remainders are inserted, the surviving live terminal record is a strain interaction with
 variable sign:
 
 ```math

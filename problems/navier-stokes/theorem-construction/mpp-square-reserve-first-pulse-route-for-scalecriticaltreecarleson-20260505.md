@@ -82,7 +82,7 @@ LocalPositiveSourceCarleson.A
 SOURCE.NO\text{-}PULSE.A.
 ```
 
-`ParentSquareEmbed.A` is already installed.  The remaining live object is the
+`ParentSquareEmbed.A` is already installed.  The remaining live terminal record is the
 scale-critical donor square.
 
 ## Why The Old First-Pulse Kill Failed

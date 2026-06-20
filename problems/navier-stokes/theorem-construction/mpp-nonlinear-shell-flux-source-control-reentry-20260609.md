@@ -67,7 +67,7 @@ geometry. For `j+M<k<\ell-4`, Fourier support gives:
 So the bare commutator vanishes. It does not control the nonlinear shell-flux
 source.
 
-## True live object
+## True live terminal record
 
 The true source object is the weighted signed lifted remainder:
 

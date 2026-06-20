@@ -162,7 +162,7 @@ the shared packing law means on this route.
 ## Why This Predicate Is The Right First Move
 
 This predicate is a good first formalization step because it stays close to the
-live object.
+live terminal record.
 
 1. It uses the common motion map directly.
 2. It uses incompressibility directly through `\det D\Phi=1`.

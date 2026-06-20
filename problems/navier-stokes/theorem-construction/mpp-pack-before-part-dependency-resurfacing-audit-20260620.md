@@ -44,7 +44,7 @@ and a terminal point or limit record tied to that same law.
 
 If that status is present, the object is resurfaced under the original Navier-Stokes participation law first.
 Here `Part()` means the participation predicate with its argument intentionally
-left open until the live same-solution NS object is supplied. The dead/blown
+left open until the live same-solution terminal record is supplied. The dead/blown
 question is then read from the pointwise participation/tower mechanism before
 any Pack-window conclusion is spent. A later local Silver readout may express
 that failure as `not Part_{N,Q}` only after a local tested record has been
@@ -117,7 +117,7 @@ For each resurfaced pre-Pack branch, the exact bridge is:
 ```text
 pointwise original-NS participation diagnosis
 => zero participation moment / failure of the pressure-viscosity-source participation ledger
-=> failure of the original Navier-Stokes participation law on the live same-solution terminal object
+=> failure of the original Navier-Stokes participation law on the live same-solution terminal record
 => localized not Part_{N,Q} / (Part, Dead) when a local tested record is named,
    or true no-participation failure
 => typed support for Exit(Q):=not Member(Q).

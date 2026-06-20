@@ -72,7 +72,7 @@ E_j'(t)\le C_L L_j(t).
 
 The positive source can replenish exactly the amount viscosity dissipates. The
 identity does not force a positive terminal jump of `E_j`; it only says that
-if source dominance fails, the nonlinear source remains the live object.
+if source dominance fails, the nonlinear source remains the live terminal record.
 
 A high-frequency energy-tail failure would be useful only if it were proved to
 be impossible from original smooth data in the same terminal topology. Current

@@ -125,7 +125,7 @@ Thus the false lemma is:
 
 That statement is wrong.  The mismatch is order-size in the raw shell algebra.
 
-The bare separated exchange is also not the live object.  In the separated
+The bare separated exchange is also not the live terminal record.  In the separated
 geometry the bare term vanishes by Fourier support.  The surviving object is the
 true commutatorized lifted remainder
 

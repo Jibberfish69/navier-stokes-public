@@ -82,7 +82,7 @@ consumes the localized active source carrier:
 \tag{EP.2}
 ```
 
-Equivalently, in the signed lifted language, the live object is the true
+Equivalently, in the signed lifted language, the live terminal record is the true
 weighted lifted remainder:
 
 ```math
