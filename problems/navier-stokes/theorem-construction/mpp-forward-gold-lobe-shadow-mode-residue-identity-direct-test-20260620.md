@@ -14,9 +14,11 @@ after restriction.
 
 The useful refinement is exact: hard packet lobes introduce a lobe-boundary
 crossing charge, while soft packet lobe weights remove that boundary jump and
-reduce the finite-chain part to the existing source-weighted mode-travel /
-strict-no-waste currencies.  The infinite part remains the no-free terminal
-Zeno donor-chain wall.
+reduce the finite-chain part to boundary endpoint coherence in the soft lobe
+test class.  The older source-weighted mode-travel / strict-no-waste currencies
+remain sufficient edgewise routes, but they are stronger than the finite-chain
+burden after donor paths telescope.  The infinite part remains the no-free
+terminal Zeno donor-chain wall.
 
 ## 1. Hard lobe-shadow target
 
