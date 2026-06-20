@@ -242,12 +242,15 @@ CM admission by the selected-carrier service-certification theorem: the endpoint
 atom violates the uniform `Part` or `Field` service modulus.
 
 Failure of `SelectedPositiveConeNoNullReadout.A` is not the same object.  It is
-a nonzero selected positive carrier with zero same-shadow signed readout.  To
-consume that branch in CM, one must prove that a same-witness service survivor
-cannot carry a positive selected source while every legal same-shadow signed
-readout vanishes.  Equivalently, one needs service-level readout completeness on
-the selected positive carrier, or else the branch must land as a `Part` source
-participation failure or a `Field` one-readout coherence failure.
+a nonzero selected positive carrier with zero same-shadow signed readout.  The
+later CM-face test
+`mpp-forward-gold-selected-positive-null-carrier-cm-face-direct-test-20260620.md`
+consumes this branch after same-witness CM admission: absent same-solution
+carrier gives a `Pack` failure; failed placement in the pressure, viscosity,
+incompressibility, donor, and readout tower gives a `Part` failure; and, if
+`Pack` and `Part` survive, any positive high-regularity `Field` certificate
+forces the normalized high-frequency selected carrier to zero, contradicting
+the retained positive carrier.
 
 Thus the exact gold/CM boundary is:
 
@@ -256,8 +259,8 @@ Thus the exact gold/CM boundary is:
 \begin{aligned}
 &\text{forward gold: prove } \text{SelectedCarrierEndpointUI.A}
 \text{ and } \text{SelectedPositiveConeNoNullReadout.A};\\
-&\text{CM fallback: endpoint atom is consumed; compact no-null carrier still
-needs same-witness readout-completeness consumption.}
+&\text{CM fallback: endpoint atom and compact no-null carrier are both
+consumed after same-witness admission.}
 \end{aligned}
 }
 \tag{SPA.19}
