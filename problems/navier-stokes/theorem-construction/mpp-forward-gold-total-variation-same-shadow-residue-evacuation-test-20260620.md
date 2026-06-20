@@ -238,20 +238,27 @@ unmatched same-shadow total variation.
 
 ## 6. Relation to the finite-mode route
 
-For Door 2 finite mode tests, `(TVR.16)` is exactly the finite-mode donor-edge
-coherence problem:
+For Door 2 finite mode tests, `(TVR.16)` is an edgewise sufficient condition.
+After finite donor-chain boundary telescoping, the exact finite-forest target
+is the endpoint condition
 
 ```math
-\sum_e a_e|\psi_i(R)-\psi_i(D)|
+\sup_i
+\left|
+\sum_\alpha a_\alpha
+\bigl(
+\psi_i(R_{\alpha,0})-\psi_i(D_{\alpha,L_\alpha})
+\bigr)
+\right|
 \le
-\operatorname{Legal}_{m,i}^{edge}+o_m(1).
+\operatorname{Legal}_{m}^{bdry}+o_m(1).
 \tag{TVR.19}
 ```
 
 So the finite-mode route does not need total variation.  It needs the smaller
-test-class theorem for the chosen mode family.  Current notes already identify
-that smaller theorem as `ModeDonorEdgeCoherence.A` plus the no-free terminal
-Zeno remainder in the same mode norm.
+test-class theorem for the chosen mode family.  The finite-chain part is
+`FiniteDonorBoundaryCoherence.A(Phi_mode)`, while the infinite terminal branch
+is the no-free terminal Zeno remainder in the same mode norm.
 
 ## 7. Updated exact reduction
 
@@ -303,7 +310,7 @@ signed saturation.  Signed saturation keeps or pays the partner; it does not
 make the paired residual invisible to nonconstant tests.
 
 The sharpened target is test-class same-shadow evacuation.  For Door 2 modes,
-that is finite-mode donor-edge coherence plus no-free terminal Zeno remainder.
+that is finite-mode boundary coherence plus no-free terminal Zeno remainder.
 For full total variation, it is packet-indicator coherent polar saturation or
 an independent source-square/no-waste theorem on the selected same-shadow
 carrier.
