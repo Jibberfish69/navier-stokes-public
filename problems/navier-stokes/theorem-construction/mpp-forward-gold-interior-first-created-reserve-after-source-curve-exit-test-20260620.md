@@ -192,6 +192,41 @@ inputs:
 \tag{IFR.15}
 ```
 
+The no-free-sink and two-tower labels are not blank boxes.  Existing notes
+already reduce them as follows:
+
+```math
+\text{retained signed partners}
++\text{legal exits}
++\text{finite/non-Zeno donor trees}
+\quad\text{are paid,}
+\tag{IFR.16}
+```
+
+using the signed partner ledger, named legal exits, `LocalDonorBalance.A`, and
+`EntranceLeafDecay.A`.  The surviving child is the terminal Zeno refill branch
+identified in `mpp-sourcepulse-two-tower-zeno-refinement-20260515.md`:
+
+```math
+\boxed{
+\text{terminal Zeno source-refill with inherited positive pre-Cauchy source.}
+}
+\tag{IFR.17}
+```
+
+That branch is closed only by a same-carrier positive source Carleson theorem or
+by production of a rigid Zeno class plus a residue Liouville theorem:
+
+```math
+\boxed{
+\text{LocalPositiveSourceCarleson.A}
+\quad\text{or}\quad
+\text{ZenoBoundedClass}_{B}\text{.A}
++\text{ZenoResidueLiouville}_{B}\text{.A}.
+}
+\tag{IFR.18}
+```
+
 This note does not prove those inputs.  It prevents the endpoint
 source-curve closure from being over-promoted into a closure of the interior
 first-created square-reserve branch.
