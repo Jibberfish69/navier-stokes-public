@@ -141,7 +141,7 @@ Then the first moment tends to zero:
 \tag{AHET.12}
 ```
 
-But the \(k=m\) source-square reserve is order one:
+But the \(k=m\) source-square reserve is exactly \(1\):
 
 ```math
 \int_{I_m}2^mT_m(t)^2\,dt
@@ -163,9 +163,9 @@ H_N(I_m)
 
 This is the mathematical form of the time-face enemy. At a fixed positive radius,
 physical weighted ledgers and normalized unweighted ledgers are comparable. Along
-the heat scale \(h_m\sim r_m^2/\nu\), the allowed rate grows as the window
-shrinks, so the normalized source-square bill can remain order one while the
-physical first moment tends to zero.
+the heat scale \(h_m=r_m^2/\nu\) after fixing the heat constant, the allowed rate
+grows as the window shrinks, so the normalized source-square bill can remain
+fixed positive while the physical first moment tends to zero.
 
 ## 3. Enstrophy exposes the source, but does not bound it
 
@@ -267,27 +267,33 @@ S\in L^{5/2}_{t,x}
 \tag{AHET.24}
 ```
 
-On a heat-scale critical packet with radius \(r_j\), strain size
-\(\nu r_j^{-2}\), and time length \(r_j^2/\nu\),
+On a heat-scale critical packet with radius \(r_j\), set
+\(S=\nu r_j^{-2}\Sigma\) on \(Q_j\), where
+\(|Q_j|=r_j^3(r_j^2/\nu)\).  Define
 
 ```math
-\int_{Q_j}|S|^2\,dxdt
-\simeq
-\nu r_j,
+C_2(\Sigma):=\int_{Q_1}|\Sigma|^2\,dyds,
+\qquad
+C_{5/2}(\Sigma):=\int_{Q_1}|\Sigma|^{5/2}\,dyds.
 \tag{AHET.25}
 ```
 
-while
+Then
 
 ```math
+\int_{Q_j}|S|^2\,dxdt
+=
+\nu r_jC_2(\Sigma),
+\qquad
 \int_{Q_j}|S|^{5/2}\,dxdt
-\simeq
-\nu^{3/2}.
+=
+\nu^{3/2}C_{5/2}(\Sigma).
 \tag{AHET.26}
 ```
 
 So energy-level strain can sum over a Zeno cascade, while critical strain would
-charge each retained heat-scale feed at order one.
+charge each retained heat-scale feed by the fixed positive amount
+\(\nu^{3/2}C_{5/2}(\Sigma)\).
 
 ## 5. Direct result of this branch
 
