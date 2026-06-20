@@ -128,7 +128,7 @@ e_1\cdot \Sigma_m e_1
 
 and the time marginal of the selected carrier converges to a terminal atom.
 
-At the same time the critical temporal Hölder norms stay bounded:
+At the same time the critical temporal Holder norms stay bounded:
 
 ```math
 \|\Sigma_m\|_{L_s^{5/2}}
@@ -213,7 +213,7 @@ The available soft inputs do not supply either conclusion:
 \quad
 \nabla\cdot W=0,
 \quad
-\text{critical Hölder bounds},
+\text{critical Holder bounds},
 \quad
 \text{same-fluid custody},
 \quad
