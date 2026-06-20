@@ -54,7 +54,7 @@ chunk:
 
       The native source object is the localized positive active source packet after same-fluid localization, terminal active-window selection, cutoffs, shell weights, and positive-part extraction.
 
-      Global unweighted dyadic exchange cancels before these operations. After localization and positive-part extraction, the live object is a one-sided weighted lifted remainder. The remaining positive source can align with expanding strain directions, so incompressibility and trace-free strain do not give Eigen Decorrel.A.
+      Global unweighted dyadic exchange cancels before these operations. After localization and positive-part extraction, the live terminal record is a one-sided weighted lifted remainder. The remaining positive source can align with expanding strain directions, so incompressibility and trace-free strain do not give Eigen Decorrel.A.
 
       Reverse-Holder parent concentration also remains open. A diffuse legal parent measure can distribute mass over unboundedly many legal predecessors so that every bounded parent subfamily carries vanishing mass. Same-fluid ancestry preserves legal parentage once chosen; it does not select a concentrated parent or price parent entropy.
 
@@ -348,7 +348,7 @@ chunk:
 
     The native source object is the localized positive active source packet after same-fluid localization, terminal active-window selection, cutoffs, shell weights, and positive-part extraction.
 
-    Global unweighted dyadic exchange cancels before these operations. After localization and positive-part extraction, the live object is a one-sided weighted lifted remainder. The remaining positive source can align with expanding strain directions, so incompressibility and trace-free strain do not give Eigen Decorrel.A.
+    Global unweighted dyadic exchange cancels before these operations. After localization and positive-part extraction, the live terminal record is a one-sided weighted lifted remainder. The remaining positive source can align with expanding strain directions, so incompressibility and trace-free strain do not give Eigen Decorrel.A.
 
     Reverse-Holder parent concentration also remains open. A diffuse legal parent measure can distribute mass over unboundedly many legal predecessors so that every bounded parent subfamily carries vanishing mass. Same-fluid ancestry preserves legal parentage once chosen; it does not select a concentrated parent or price parent entropy.
 

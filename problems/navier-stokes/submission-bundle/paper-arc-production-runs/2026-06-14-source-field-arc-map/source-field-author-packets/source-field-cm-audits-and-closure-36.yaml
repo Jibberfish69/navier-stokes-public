@@ -430,7 +430,7 @@ chunk:
 
       This is an honest packet quantity: the geometry and the next-rung segment price stay inside the same integral.
 
-      So the rigid envelope is no longer the live object. It is now a stronger comparison bound for a genuine packet quantity.
+      So the rigid envelope is no longer the live terminal record. It is now a stronger comparison bound for a genuine packet quantity.
 
       So the live bridge is now entirely packetized at its leading level, with the pointwise supremum retained only as a downstream stronger estimate.
 
@@ -768,7 +768,7 @@ chunk:
 
     This is an honest packet quantity: the geometry and the next-rung segment price stay inside the same integral.
 
-    So the rigid envelope is no longer the live object. It is now a stronger comparison bound for a genuine packet quantity.
+    So the rigid envelope is no longer the live terminal record. It is now a stronger comparison bound for a genuine packet quantity.
 
     So the live bridge is now entirely packetized at its leading level, with the pointwise supremum retained only as a downstream stronger estimate.
 

@@ -605,7 +605,7 @@ chunk:
     \int \Phi_T\,d\mu_*^{src}.
     \]
 
-    That term is the live object, not an error. The identity becomes a source-parent-or-charge identity. First-pulse no-parent removes selected parents, but it does not remove the terminal charge itself.
+    That term is the live terminal record, not an error. The identity becomes a source-parent-or-charge identity. First-pulse no-parent removes selected parents, but it does not remove the terminal charge itself.
 
     With that compactness theorem, BASACNo Incoming Source Drain.A follows immediately. Since B ASAC excludes the resulting alternatives, this would prove Zeno Residue Liouville B ASAC .A.
 
