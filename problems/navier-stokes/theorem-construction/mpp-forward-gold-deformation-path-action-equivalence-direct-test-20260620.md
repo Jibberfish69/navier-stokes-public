@@ -220,7 +220,7 @@ w_{j_m}
 ```
 
 A full deformation action bound on the same carrier would dominate it after the
-usual packet Hölder/localization estimates:
+usual packet Holder/localization estimates:
 
 ```math
 \text{same-carrier deformation action}
