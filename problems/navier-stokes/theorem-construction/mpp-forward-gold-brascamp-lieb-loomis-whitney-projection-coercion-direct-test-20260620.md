@@ -9,7 +9,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-mode-lobe-carrier-expansion-direct-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-legal-mode-norming-family-compact-separation-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-post-nowaste-equivalence-closeout-20260620.md
-    - problems/navier-stokes/theorem-construction/mpp-forward-gold-common-mode-nodal-source-evacuation-proof-20260620.md
+    - problems/navier-stokes/theorem-construction/mpp-forward-gold-common-mode-nodal-source-evacuation-reduction-20260620.md
   downstream_consequence: "Do not respawn Brascamp-Lieb, Loomis-Whitney, finite projection volume, or nodal-collar transversality as independent gold suppliers. They can support finite-mode/nodal geometry only after the actual selected positive carrier has a same-carrier integrability reserve or after the projected same-shadow residue identity is proved."
 ---
 
