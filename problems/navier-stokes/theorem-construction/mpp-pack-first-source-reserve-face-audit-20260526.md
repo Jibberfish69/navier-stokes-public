@@ -54,7 +54,7 @@ can be promoted:
    CM terminal packet test. This is admission only; it is not yet a face
    failure.
 3. `Pack/Part/Field face failure`: the admitted fail branch has a first failed
-   witness face, in Pack-first order.
+   witness face, in Pack-before-Part audited order.
 4. `supplier quarantine`: the object is positive source-control, visibility,
    no-free-sink, or readout support without both CM-test admission and a derived
    first face.

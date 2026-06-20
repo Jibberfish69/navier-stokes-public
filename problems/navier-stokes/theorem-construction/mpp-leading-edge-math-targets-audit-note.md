@@ -235,7 +235,7 @@ Audit reading:
 
 ### A4. `ScaleCriticalTreeCarleson.A`
 
-Current classification after the Pack-first CM correction:
+Current classification after the Pack-before-Part CM correction:
 
 ```math
 \textbf{historical source-control support, not the live CM root.}

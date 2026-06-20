@@ -9,7 +9,7 @@ Claimed status: failed.
 Exactness rework correction, 2026-06-18: the two failed facts below remain
 valid. The downstream conclusion "next actual theorem = SquareReserveEvolution
 or Zeno residue Liouville" is historical. Current live surfaces read these as
-support-level source-control roots after the Pack-first CM correction. A
+support-level source-control roots after the Pack-before-Part CM correction. A
 retained square-reserve / Zeno branch becomes proof material only through
 same-ledger payment or CM-test admission plus a first Pack/Part/Field face
 failure; otherwise it remains supplier or readout support.

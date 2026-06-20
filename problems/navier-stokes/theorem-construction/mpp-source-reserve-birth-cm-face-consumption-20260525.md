@@ -93,7 +93,7 @@ The cases are:
    or legal finite-donor ledgers.
 4. The only uncharged terminal branch is a terminal signed-saturation failure.
    `TerminalSignedSaturationCMFaceReduction.A` routes it to Pack/Part/Field
-   witness-face support, using the terminal Zeno Pack correction and the
+   witness-face support, using the terminal Zeno Pack-before-Part correction and the
    terminal atom face-labeling surface.
 
 Thus the scalar-pulse countermodel blocks the wrong positive theorem, but it

@@ -105,7 +105,7 @@ fails for every `r>0`.
 
 ### Step 3. Pack-first exhaustion
 
-Read the failed conjunction in the required Pack-first order.
+Read the failed conjunction in the required Pack-before-Part audited order.
 
 1. If no positive same-fluid terminal carrier exists, then `not Pack_Q`.
    This is the Pack face.  It covers terminal zero-radius, detached carrier, and

@@ -40,7 +40,7 @@ no-exit attempt.
 - `AnyFiniteFailureWitnessCMExit.A`: every finite failure witness lands at the
   first failed Pack/Part/Field face.
 - `TerminalCMNoExit.FaceReduction.A`: the no-genuine-exit burden reduces to
-  the Pack-first CM tree, with the Pack branch led by
+  the Pack-before-Part audited CM tree, with the Pack branch led by
   `ScaleCriticalTreeCarleson.A`.
 - `PositiveObstructionNoThirdBranchClassLaw.A`: no branch is both an in-class
   continuation branch and a mechanism-derived finite nonsmoothness witness.

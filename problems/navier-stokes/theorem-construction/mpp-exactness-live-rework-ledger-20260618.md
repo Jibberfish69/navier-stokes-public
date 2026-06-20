@@ -2790,7 +2790,7 @@ first-moment charge.
 Downstream consequence: the square-reserve/Zeno final attempt, the leading-edge
 audit note, `live-theorem-edge.yaml`, and `current-route-dependency-graph.yaml`
 now classify the SquareReserveEvolution / Zeno / ScaleCriticalTreeCarleson
-family as historical source-control support after the Pack-first CM correction.
+family as historical source-control support after the Pack-before-Part CM correction.
 Those branches enter the current proof only by same-ledger payment or CM-test
 admission plus first Pack/Part/Field face failure, feeding the same-witness
 terminal anti-concentration / source-Carleson / rigid-anti-atom /
@@ -2871,7 +2871,7 @@ TerminalSignedSaturation.A,
 or same-ledger payment / CM-test admission plus the first Pack/Part/Field face
 failure on the same witness. The absolute fallback to
 `ScaleCriticalTreeCarleson.A` is now historical supplier support under the
-Pack-first CM correction, not a current target-setting conclusion.
+Pack-before-Part CM correction, not a current target-setting conclusion.
 
 Downstream consequence: the signed-current branch no longer gets to convert
 symbolic exchange pairing into a scalar source-wall target by language alone.

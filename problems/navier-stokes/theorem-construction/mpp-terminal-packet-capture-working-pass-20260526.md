@@ -101,7 +101,7 @@ admissibility clauses:
 
    together with the installed `H^s`, `s>5/2`, readout bridge.
 
-Then the terminal packet is exhausted by the Pack-first face split:
+Then the terminal packet is exhausted by the Pack-before-Part audited face split:
 
 ```text
 not Pack_Q
@@ -174,7 +174,7 @@ The natural construction is:
    terminal obstruction;
 2. choose packet records `Q_j` from the same transported preterminal family;
 3. pass to a terminal tail `Q_*`;
-4. declare the first failed terminal service in the Pack-first order.
+4. declare the first failed terminal service in the Pack-before-Part audited order.
 
 This construction is valid as a proof scheme, but the inspected sources do not
 yet supply the referee theorem that makes step 3 canonical and complete.

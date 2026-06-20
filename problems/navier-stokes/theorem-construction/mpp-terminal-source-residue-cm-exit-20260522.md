@@ -27,7 +27,7 @@ The theorem is:
 }
 ```
 
-So the residue is carried into the Pack-first CM decision tree. It is not first
+So the residue is carried into the Pack-before-Part audited CM decision tree. It is not first
 converted into a positive smoothness estimate.
 
 ## Setup
