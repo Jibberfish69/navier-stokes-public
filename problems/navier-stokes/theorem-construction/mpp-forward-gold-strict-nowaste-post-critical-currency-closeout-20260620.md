@@ -280,9 +280,9 @@ Fixed local-energy continuity does not imply `(NWC.22)` because the tests move:
 ```math
 \phi_m(x)=\phi\left({x-x_m\over r_m}\right),
 \qquad
-|\nabla\phi_m|\sim r_m^{-1},
+|\nabla\phi_m|\le \|\nabla\phi\|_\infty r_m^{-1},
 \qquad
-|\Delta\phi_m|\sim r_m^{-2}.
+|\Delta\phi_m|\le \|\Delta\phi\|_\infty r_m^{-2}.
 \tag{NWC.23}
 ```
 
