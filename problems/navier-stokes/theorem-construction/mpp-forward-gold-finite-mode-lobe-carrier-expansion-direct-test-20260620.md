@@ -16,7 +16,9 @@ packet-level oriented lobe compatibility is discharged relative to
 `mpp-forward-gold-oriented-lobe-mode-test-compatibility-proof-20260620.md`.
 The remaining live pieces for the packet-label route are the original
 `ModeTestCompatibility.A` inputs, the mode-projected same-shadow residue identity
-on the lobe shadows, refined mode Jacobian, and nodal-zone source evacuation.
+on the lobe shadows, the original nondegenerate modulation Jacobian, and
+nodal-zone source evacuation.  The refined mode Jacobian is inherited from the
+original one when the nodal child is retained in the refined mode family.
 
 This route avoids the false demand that the original positive source carrier
 live in one sign lobe.  It instead splits the carrier into two sign lobes and
@@ -265,7 +267,7 @@ After the packet-level finite expansion proof, `(FML.17)` reduces to
 \begin{aligned}
 \text{ModeTestCompatibility.A}
 +\text{ModeProjectedMinimalChainResidueIdentity.A on the lobe shadows}
-+\text{RefinedCarrierModeJacobian.A}
++\text{NondegenerateModulationJacobian.A}
 +\text{NodalZoneSourceEvacuation.A}
 \\
 &\Longrightarrow
