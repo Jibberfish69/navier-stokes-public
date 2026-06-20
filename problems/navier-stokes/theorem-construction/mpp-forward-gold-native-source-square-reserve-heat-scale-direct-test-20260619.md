@@ -11,8 +11,8 @@ branch.  Current Navier-Stokes inputs do not prove it.
 
 The failure is not only an arbitrary thin-time pulse.  It remains at heat
 scale.  First-moment dissipation tail control is still one half-power too weak
-to control the scale-critical square density on windows of length
-\(h_j\sim 2^{-2j}\).
+to control the scale-critical square density on heat windows
+\(h_j=2^{-2j}\).
 
 ## 1. Native square reserve
 
@@ -187,17 +187,17 @@ A_m\to0,
 ```
 
 So even at heat scale, first-moment tail mass can vanish while the
-scale-critical square reserve remains order one.
+scale-critical square reserve remains equal to \(1\).
 
 This is a scale-bookkeeping countermodel to deriving `(NSS.5)` from
 `(NSS.4)`.  It is not asserted as a Navier-Stokes solution.
 
 The same model also shows why this is compatible with the participation picture.
-The pulse does not need a fixed positive shell energy.  On a dyadic shell,
-write schematically
+The pulse does not need a fixed positive shell energy.  In the dyadic shell
+model set
 
 ```math
-D_{m+5}(t)\simeq \nu\,2^{2m}E_{m+5}(t).
+D_{m+5}(t)=\nu\,2^{2m}E_{m+5}(t).
 \tag{NSS.13a}
 ```
 
@@ -205,7 +205,7 @@ For the heat-scale pulse `(NSS.9)`--`(NSS.12)`,
 
 ```math
 E_{m+5}(t)
-\simeq
+=
 \nu^{-1}2^{-2m}A_mh_m^{-1}\mathbf 1_{I_m}(t)
 =
 \nu^{-1}A_m\mathbf 1_{I_m}(t)
@@ -218,7 +218,7 @@ Its shell-energy residence is even smaller:
 
 ```math
 \int_{I_m}E_{m+5}(t)\,dt
-\simeq
+=
 \nu^{-1}A_mh_m
 =
 \nu^{-1}2^{-7m/2}
@@ -324,8 +324,8 @@ D_tu=-\nabla p+\nu\Delta u,
 \tag{NSS.20}
 ```
 
-At frequency \(2^m\), viscous drain has rate \(2^{2m}\).  On a heat-scale
-window \(h_m\sim2^{-2m}\), this permits an order-one normalized response from a
+At frequency \(2^m\), viscous drain has rate \(2^{2m}\).  On the heat window
+\(h_m=2^{-2m}\), this permits a fixed positive normalized response from a
 source of comparable heat-scale rate.  It gives the correct timing, but not a
 pointwise amplitude cap for \(H_N(W)\).
 
