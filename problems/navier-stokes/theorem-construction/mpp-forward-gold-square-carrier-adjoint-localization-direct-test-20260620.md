@@ -2,7 +2,7 @@
 theorem_id: forward-gold-square-carrier-adjoint-localization-direct-test-20260620
 status: direct-localization-test-complete-not-proved
 logical_landing_node: square_carrier_adjoint_localization
-edge_effect: "Tests the unworked same-carrier localization subpiece in the selected-participation-to-weighted-residual-square bridge. The bridge is not a consequence of the installed normalized-adjoint source-drain package. The selected participation square counts principal positive strain work, while the source-drain residual R_{j,k} is defined after that principal strain has been moved into the propagator. A pure principal-strain amplification model has zero weighted adjoint residual but order-one selected participation square reserve."
+edge_effect: "Tests the unworked same-carrier localization subpiece in the selected-participation-to-weighted-residual-square bridge. The bridge is not a consequence of the installed normalized-adjoint source-drain package. The selected participation square counts principal positive strain work, while the source-drain residual R_{j,k} is defined after that principal strain has been moved into the propagator. A pure principal-strain amplification model has zero weighted adjoint residual but scale-independent selected participation square reserve."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-to-weighted-residual-square-direct-attempt-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-square-budget-parent-drain-production-test-20260620.md
@@ -100,17 +100,16 @@ principal strain amplification have been placed in the propagator.
 
 ## 3. The selected participation square counts a different object
 
-The selected participation current includes the positive work seen by the
-packet:
+The selected participation current contains the positive principal-strain work
+seen by the packet.  Write this contribution as
 
 ```math
-\Pi_T^{part,+}(t)
-\simeq
+\Pi_{T,prin}^{+}(t)
+=
 \int_{Q_T}
 \left[
 \langle A_k(t,x)w_j(t,x),w_j(t,x)\rangle
 \right]_+dx
-+\text{lower and legal terms}.
 \tag{SCA.6}
 ```
 
