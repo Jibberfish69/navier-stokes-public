@@ -233,7 +233,7 @@ while
 ```
 
 So first-appearance descent removes inherited past mass, but it does not create
-the missing unweighted payment.
+the missing same-carrier source-square payment.
 
 ## 3. Compactness reading
 
