@@ -141,22 +141,29 @@ D_j(t)=r^{-1/2}.
 \tag{SCI.8}
 ```
 
-Then
+Then for a fixed constant \(C_{\sigma,\psi}>0\) determined by the chosen
+low-strain and high-packet profiles,
 
 ```math
 \Phi_j^+(t)
-\simeq
-D_j(t)
-=r^{-1/2},
+=
+C_{\sigma,\psi}D_j(t)
+=
+C_{\sigma,\psi}r^{-1/2},
 \tag{SCI.9}
 ```
 
 and
 
 ```math
-\int_{I_j}\Phi_j^+(t)\,dt\simeq r^{3/2}\to0,
+\int_{I_j}\Phi_j^+(t)\,dt
+=
+C_{\sigma,\psi}r^{3/2}
+\to0,
 \qquad
-\int_{I_j}r^{-1}\left(\Phi_j^+(t)\right)^2dt\simeq1.
+\int_{I_j}r^{-1}\left(\Phi_j^+(t)\right)^2dt
+=
+C_{\sigma,\psi}^2.
 \tag{SCI.10}
 ```
 
