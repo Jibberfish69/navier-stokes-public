@@ -132,8 +132,9 @@ is not promoted.
   a surviving in-class counterexample object.
 - `mpp-canonical-terminal-packet-capture-20260522.md`: proves the no-fourth-residue
   capture for same-solution terminal obstructions.
-- `mpp-any-finite-failure-witness-cm-exit-20260521.md`: installs the universal
-  Pack-first landing theorem for alleged finite-time failure witnesses.
+- `mpp-any-finite-failure-witness-cm-exit-20260521.md`: installs the finite-failure
+  landing theorem for alleged finite-time failure witnesses, now read with the
+  Pack-before-Part resurfacing qualification for singular same-solution records.
 - `mpp-pack-before-part-dependency-resurfacing-audit-20260620.md` and
   `mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md`:
   license Part/Field testing before ordinary Pack-only disposal for singular
