@@ -172,6 +172,11 @@ The next direct test
 checks the positive-trace step inside that accounting.  It is also not installed:
 the signed endpoint-energy trace can cancel across expanding and contracting
 channels while the selected positive carrier retains the expanding channel.
+The polar-saturation direct test
+`mpp-forward-gold-linear-energy-trace-polar-saturation-direct-test-20260620.md`
+shows that trace-free incompressibility does not repair this: the contracting
+eigendirections exist in the strain spectrum but need not be present in the
+selected endpoint-energy carrier.
 The no-free terminal normalized-energy trace test
 `mpp-forward-gold-no-free-terminal-normalized-energy-trace-direct-test-20260620.md`
 then checks the endpoint-chain side and finds that finite physical energy does
