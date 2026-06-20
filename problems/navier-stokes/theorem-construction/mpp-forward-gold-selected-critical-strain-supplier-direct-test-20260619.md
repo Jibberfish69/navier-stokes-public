@@ -291,11 +291,14 @@ The sharpened forward-gold branch is:
 
 ```math
 \boxed{
-\text{prove SelectedCriticalStrainCarleson.A}
+\text{prove SelectedCriticalStrainCarleson.A with terminal tail depletion,}
 }
 \tag{SCS.22}
 ```
 
-or prove the equivalent native source-square / CKN \(L^5\) reserve.  Energy
-alone gives \(u\in L^{10/3}_{t,x}\) and \(S\in L^2_{t,x}\), which is exactly
-one critical half-power short.
+or prove the equivalent selected-carrier UI form, native source-square reserve,
+or normalized CKN \(L^5\) reserve.  The later Holder-saturation test shows why
+the tail/selected-carrier clause is necessary: critical conjugate factor bounds
+alone give \(L_s^1\) control of the product, not endpoint uniform integrability
+of the actual positive carrier.  Energy alone gives \(u\in L^{10/3}_{t,x}\)
+and \(S\in L^2_{t,x}\), which is exactly one critical half-power short.
