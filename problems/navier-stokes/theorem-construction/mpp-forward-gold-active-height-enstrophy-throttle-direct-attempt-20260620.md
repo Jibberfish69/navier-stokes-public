@@ -180,7 +180,7 @@ The enstrophy identity is
 ```
 
 The right side is the same vortex-stretching source that appears in the native
-trilinear carrier. The standard estimate gives
+trilinear carrier.  Calderon--Zygmund, Sobolev, and interpolation give
 
 ```math
 \left|\int(S\omega)\cdot\omega\,dx\right|
@@ -203,6 +203,7 @@ Writing \(Y(t)=\|\nabla u(t)\|_2^2\), this gives the Riccati-type inequality
 
 ```math
 Y'(t)
+\+
 \nu\|\nabla^2u(t)\|_2^2
 \le
 C\nu^{-3}Y(t)^3.
