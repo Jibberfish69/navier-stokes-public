@@ -571,6 +571,11 @@ Thus finite \(L^1_t\) source/refill mass, fixed-radius participation, local
 energy, finite material telescoping, and discounted physical stress-work do not
 produce the unweighted reserve.
 
+The later heat-scale reserve branch exhaustion note verifies that the same
+wall remains after testing shared participation, active height, heat-scale
+first appearance, quadratic pressure-corrected Lyapunov, packet-local nonlinear
+correctors, and ordinary compact recurrence.
+
 The failure branch is not invisible.  After legal and finite-donor removals,
 the surviving object is a retained terminal heat-scale pulse.  Positive-radius
 ancestry is paid or exits.  Zero-radius ancestry lands first at
