@@ -64,7 +64,13 @@ branch.  It is paid by `(SCF.2)` once source-square is available.
 Let \(I_\lambda\) be a selected terminal heat window with
 
 ```math
-|I_\lambda|\simeq \lambda^{-2}.
+c_t\lambda^{-2}
+\le
+|I_\lambda|
+\le
+C_t\lambda^{-2},
+\qquad
+0<c_t\le C_t<\infty.
 \tag{SCF.4}
 ```
 
@@ -195,8 +201,24 @@ D_j(t)=r^{-1/2}
 gives
 
 ```math
+\Phi_j^+(t)
+=
+C_{\sigma,\psi}r^{-1/2},
+\qquad
+C_{\sigma,\psi}:=
+2\left(\int_{B_1}\sigma(y)\psi(y)^2\,dy\right)
+\left(\int_{B_1}\psi(y)^2\,dy\right)^{-1}
+>0.
+\tag{SCF.15a}
+```
+
+Therefore the first moment is exactly
+
+```math
 \int_{T-r^2}^{T}\Phi_j^+(t)\,dt
-\simeq r^{3/2}\to0,
+=
+C_{\sigma,\psi}r^{3/2}
+\to0,
 \tag{SCF.16}
 ```
 
@@ -204,7 +226,8 @@ while
 
 ```math
 \int_{T-r^2}^{T}r^{-1}\Phi_j^+(t)^2\,dt
-\simeq1.
+=
+C_{\sigma,\psi}^2.
 \tag{SCF.17}
 ```
 
@@ -219,7 +242,11 @@ The same normal form has energy-level strain cost
 
 ```math
 \int_{Q_r}|S^{model}|^2\,dxdt
-\simeq r,
+=
+C_{\sigma,2}\nu^2 r,
+\qquad
+C_{\sigma,2}:=
+6\int_{B_1}\sigma(y)^2\,dy,
 \tag{SCF.18}
 ```
 
@@ -227,7 +254,11 @@ and critical strain cost
 
 ```math
 \int_{Q_r}|S^{model}|^{5/2}\,dxdt
-\simeq1.
+=
+C_{\sigma,5/2}\nu^{5/2},
+\qquad
+C_{\sigma,5/2}:=
+6^{5/4}\int_{B_1}\sigma(y)^{5/2}\,dy.
 \tag{SCF.19}
 ```
 
