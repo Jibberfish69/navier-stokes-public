@@ -139,15 +139,24 @@ But the combined packet \(W=W^{(1)}+W^{(2)}\) has a positive selected carrier:
 \tag{SPD.11}
 ```
 
-After multiplying by the endpoint time factor
+After choosing \(\psi\) so that \(2\int_{B_R}\psi(y)^2\,dy=1\) and multiplying
+by the endpoint time factor
 
 ```math
 \tau_m^{-1}{\bf 1}_{(-\tau_m,0]}(s),
 \tag{SPD.12}
 ```
 
-the combined selected positive carrier carries an order-one terminal atom,
-while the two diagonal individual carrier readings carry none.
+the combined selected positive carrier has terminal mass
+
+```math
+\int_{-\tau_m}^{0}
+\int_{B_R}2\psi(y)^2\tau_m^{-1}\,dy\,ds
+=1,
+\tag{SPD.12a}
+```
+
+while the two diagonal individual carrier readings carry zero mass.
 
 This does not claim that `(SPD.8)`--`(SPD.12)` are exact Navier-Stokes profiles.
 It is the local normal-form obstruction to deriving `(SPD.2)` from signed/raw
