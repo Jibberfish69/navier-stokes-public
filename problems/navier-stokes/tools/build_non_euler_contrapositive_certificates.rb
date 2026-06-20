@@ -23,7 +23,7 @@ EXIT_RULES = {
   "typed_subset_landing" => {
     "contrapositive_status" => "proved_cm_exit",
     "proof_rule" => "finite_face_disjunction",
-    "statement_template" => "The surface's selected failure lies in its declared finite subset of Pack/Part/Field/Zeno channels; Zeno collapses to Field, so the failure implies not Pack or not Part or not Field."
+    "statement_template" => "The surface's selected failure lies in its declared finite subset of Pack/Part/Field/Zeno channels. After the Pack-before-Part audit, any Zeno or zero-heat-time source-residue branch is Part-first when the same original-NS pointwise participation record remains, true not Pack_Q only when that record/carrier/readout is absent, and Field only after a retained positive-window readout is separately licensed."
   },
   "support_quarantine" => {
     "contrapositive_status" => "proved_unlicensed_for_cm_contrapositive",
@@ -66,7 +66,11 @@ def certificate_for(entry)
     "selected_failure_type" => diagnostic.fetch("selected_failure_type"),
     "cm_face_breaks" => breaks,
     "proof_statement" => statement,
-    "proof_explanation" => rule.fetch("statement_template")
+    "proof_explanation" => if status == "face_landing" && breaks.include?("Pack_Q")
+      "SelectedFailure(surface) negates Pack_Q only through the row's selected Pack mechanism: #{diagnostic.fetch("selected_failure_type")}. This is a carrier/window/readout/admission failure, not a pre-Pack disposal of pointwise original-NS participation; any singular or source-residue branch with a same-solution pointwise record must be audited under Part first."
+    else
+      rule.fetch("statement_template")
+    end
   }
 end
 
@@ -95,6 +99,7 @@ output = {
     "cm_packet" => "CM_{N,r,Q}=Pack_Q + Part_{N,Q} + Field_{N,r,Q}",
     "no_global_pack_part_retention" => map.fetch("method").fetch("no_global_pack_part_retention"),
     "zeno_rule" => map.fetch("method").fetch("zeno_rule"),
+    "pack_before_part_certificate_rule" => "A certificate row may state not Pack_Q only when its selected_failure_type names a Pack mechanism such as carrier, cover, packing, retained packet admission, Pack bridge, same-fluid carrier, donor-refill, detached ancestry, no-carrier, or unbounded distortion. Zero-radius, Zeno, BASAC, or source-residue rows with same original-NS pointwise participation must be typed under Part first.",
     "does_not_prove" => "This certificate ledger does not prove OriginalSmoothData=>any positive supplier theorem, Euler regularity claim, or fixed-nu Euler-to-NS transfer claim."
   },
   "claim_boundary" => map.fetch("claim_boundary"),
