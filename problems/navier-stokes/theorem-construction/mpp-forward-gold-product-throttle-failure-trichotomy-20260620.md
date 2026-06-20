@@ -172,6 +172,10 @@ The next direct test
 checks the positive-trace step inside that accounting.  It is also not installed:
 the signed endpoint-energy trace can cancel across expanding and contracting
 channels while the selected positive carrier retains the expanding channel.
+The no-free terminal normalized-energy trace test
+`mpp-forward-gold-no-free-terminal-normalized-energy-trace-direct-test-20260620.md`
+then checks the endpoint-chain side and finds that finite physical energy does
+not exclude an infinite chain of order-one normalized endpoint-energy parents.
 Thus the non-source-residue linear subbranch now reduces to
 
 ```math
