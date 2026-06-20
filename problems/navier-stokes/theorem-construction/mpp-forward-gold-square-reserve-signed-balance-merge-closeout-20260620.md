@@ -214,7 +214,9 @@ PDE core is:
 meaning that a terminal tangent packet with lawful no-incoming source/energy
 condition cannot carry nonzero normalized active mass.
 
-The currently sharp route is:
+There are two TPNI presentations in the existing files.
+
+The direct ancient uniqueness route is:
 
 ```math
 \text{NoIncomingLicense}_{global}\text{.A}
@@ -227,12 +229,46 @@ The currently sharp route is:
 \tag{SRB.16}
 ```
 
-This is still unproved.  Local compact decay alone is too weak because the
+That route is still unproved.  Local compact decay alone is too weak because the
 frozen strain flow can move mass into a fixed terminal core from spatial
 infinity along contracting directions.  The no-incoming hypothesis has to be a
 real backward parabolic boundary condition, scale-localized high-frequency tail
 vanishing statement, or equivalent weighted global condition inherited from the
 first terminal pulse selection.
+
+The repo also records a parent-drain route:
+
+```math
+\text{TerminalTangentParentDrain.A}
++
+\text{TerminalTangentNoParent.A}
+\Longrightarrow
+\text{TPNI.A}.
+\tag{SRB.16a}
+```
+
+This proves the frozen rigidity in the parent-graph sense used by the ASAC
+route, provided the tangent parent graph, terminal source tether, and limit pass
+are pinned.  Thus the current active-alignment burden is not only frozen
+rigidity.  It is the ASAC completion package:
+
+```math
+\text{PacketNormalForm.A}
++
+\text{SourceTether.A}
++
+\text{LimitPass.A}
++
+\text{TPNI.A}
+\Longrightarrow
+\text{ASAC.A}.
+\tag{SRB.16b}
+```
+
+The global no-incoming / anisotropic Carleman route remains a reserve route.
+The parent-drain route is the sharper active route, but it still needs the
+packet normal form, source tether, and limit-pass licenses before it can pay the
+positive pair-weight/active-alignment defects in Door 1.
 
 ## 5. Current exact merge
 
@@ -277,7 +313,7 @@ Therefore, at the present route resolution:
 \equiv_{\rm route}
 \text{TerminalSignedSaturation.A}
 \equiv_{\rm route}
-\text{TPNI/active-alignment no-free terminal pulse}.
+\text{ASAC completion / TPNI parent drain / active-alignment no-free terminal pulse}.
 }
 \tag{SRB.19}
 ```
@@ -289,13 +325,13 @@ target:
 
 ```math
 \boxed{
-\text{prove the no-incoming terminal tangent rigidity needed for active
-strain-alignment depletion, or prove terminal signed saturation directly.}
+\text{finish the ASAC completion package around parent-form TPNI, or prove
+terminal signed saturation directly.}
 }
 \tag{SRB.20}
 ```
 
-Without one of those new signed/no-incoming theorems, the square-reserve route
-does not close the forward-gold heat-scale terminal pulse.  It becomes either
-a CM-facing Pack/Part/Field face readout, or it remains the same unsolved
+Without one of those new signed/ASAC/no-incoming theorems, the square-reserve
+route does not close the forward-gold heat-scale terminal pulse.  It becomes
+either a CM-facing Pack/Part/Field face readout, or it remains the same unsolved
 gold-standard source-wall primitive.
