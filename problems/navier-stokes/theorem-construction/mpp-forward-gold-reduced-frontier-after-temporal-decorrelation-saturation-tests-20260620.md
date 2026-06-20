@@ -4,7 +4,7 @@ ns_viewer:
   status: reduced-to-unweighted-same-carrier-reserve-or-cm-face-consumption
   proof_role: forward_gold_reduced_frontier_consolidation
   logical_landing_node: unweighted_same_carrier_terminal_reserve
-  edge_effect: "Consolidates the checked June 20 temporal-regularity, selected-decorrelation, strict no-waste, source-square, parabolic signed-saturation, no-free Zeno donor-chain, participation-clock, and Door 2 production tests. The independent forward-gold supplier labels all reduce to one object: an unweighted terminal critical-action reserve on the actual selected positive carrier, or a rigid Zeno production theorem that proves temporal non-atomicity/source-residue Liouville. Absent that, the retained pulse is not excluded by forward gold and must be carried by the CM Pack/Part/Field face route."
+  edge_effect: "Consolidates the checked June 20 temporal-regularity, selected-decorrelation, strict no-waste, source-square, parabolic signed-saturation, no-free Zeno donor-chain, participation-clock, entropy/log coercivity, and Door 2 production tests. The independent forward-gold supplier labels all reduce to one object: an unweighted terminal critical-action reserve on the actual selected positive carrier, or a rigid Zeno production theorem that proves temporal non-atomicity/source-residue Liouville. Absent that, the retained pulse is not excluded by forward gold and must be carried by the CM Pack/Part/Field face route."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-time-concentration-cost-temporal-regularity-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-eigendirection-decorrelation-after-temporal-regularity-test-20260620.md
@@ -14,8 +14,9 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-zeno-donor-chain-child-after-parabolic-saturation-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-strict-clock-gap-direct-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-three-clock-strict-gap-test-20260620.md
+    - problems/navier-stokes/theorem-construction/mpp-forward-gold-entropy-log-coercivity-exhaustion-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-door2-child-exhaustion-closeout-20260620.md
-  downstream_consequence: "Do not respawn the terminal heat-scale pulse under temporal compactness, angular decorrelation, pressure correction, source-square, strict no-waste, participation-clock, signed-saturation, or Door 2 gauge/stationarity labels unless the new theorem proves the selected same-carrier endpoint UI/unweighted reserve, a retained signed/source-shadow saturation with no-free Zeno, or a produced rigid Zeno source-residue Liouville class."
+  downstream_consequence: "Do not respawn the terminal heat-scale pulse under temporal compactness, angular decorrelation, pressure correction, source-square, strict no-waste, participation-clock, signed-saturation, entropy/log, or Door 2 gauge/stationarity labels unless the new theorem proves the selected same-carrier endpoint UI/unweighted reserve, a retained signed/source-shadow saturation with no-free Zeno, or a produced rigid Zeno source-residue Liouville class."
 ---
 
 # MPP Forward Gold Reduced Frontier After Temporal, Decorrelation, And Saturation Tests
@@ -31,7 +32,7 @@ route after the checked direct tests.
 The surviving enemy is one object:
 
 ```math
-\text{a selected positive terminal heat-scale carrier with order-one
+\text{a selected positive terminal heat-scale carrier with fixed positive
 normalized mass and no unweighted terminal reserve.}
 \tag{RF.1}
 ```
@@ -60,11 +61,11 @@ e_m(s,y)\cdot S_m(s,y)e_m(s,y)
 The endpoint atom model is
 
 ```math
-a_m(s)\simeq \tau_m^{-1}{\bf 1}_{(-\tau_m,0]}(s),
+a_m(s)= \tau_m^{-1}{\bf 1}_{(-\tau_m,0]}(s),
 \qquad
 \tau_m\downarrow0,
 \qquad
-\int_{-1}^{0}a_m(s)\,ds\simeq1.
+\int_{-1}^{0}a_m(s)\,ds=1.
 \tag{RF.3}
 ```
 
@@ -89,11 +90,12 @@ Temporal regularity does not supply `(RF.4)`.  The heat-scale packet
 ```math
 u_m(t,x)=r_m^{-1}b_m(s)V(y),
 \qquad
-|b_m|\simeq\tau_m^{-1/3},
+b_m(s)=\tau_m^{-1/3}\chi(s/\tau_m),
 \tag{RF.5}
 ```
 
-has an order-one normalized cubic/source carrier while physical energy,
+with fixed nonzero smooth \(\chi\) supported in \((-1,0]\), has fixed positive
+normalized cubic/source carrier while physical energy,
 dissipation, and the natural negative-Sobolev time-derivative cost can all tend
 to zero after choosing \(\tau_m=r_m^\alpha\) in the admissible range.
 
@@ -112,8 +114,9 @@ turnover, bounded temporal critical norms, and
 
 ```math
 |W_m|^2[e_1\cdot\Sigma_m e_1]_+
-\simeq
-\tau_m^{-1}{\bf 1}_{(-\tau_m,0]}.
+=
+c_{\sigma,\psi}\tau_m^{-1}{\bf 1}_{(-\tau_m,0]}
+\quad\text{on the active core, with }c_{\sigma,\psi}>0.
 \tag{RF.7}
 ```
 
