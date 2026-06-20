@@ -257,8 +257,11 @@ NativeTrilinearDefectDomination.A
 \tag{SSC.13}
 \]
 
-or by a no-free signed-carrier theorem that routes all positive selected mass
-to a retained signed partner, legal cost, or finite donor depletion:
+or by a no-free signed-carrier theorem only after it is upgraded to a
+same-window, square-compatible carrier domination statement.  A theorem that
+routes only the total positive selected mass to a retained signed partner, legal
+cost, or finite donor depletion gives linear control, not the \(L_s^2\) control
+needed here:
 
 \[
 \boxed{
@@ -271,9 +274,12 @@ NoFreeTerminalZenoDonorChain.A.
 \tag{SSC.14}
 \]
 
-The finite signed-partner and finite donor cases are paid by the existing
-donor-graph reductions.  The surviving unproved case is the infinite terminal
-Zeno donor chain.
+The finite signed-partner and finite donor cases are paid linearly by the
+existing donor-graph reductions.  They are square-paid only if the retained
+partner remains on the same heat window with comparable height, or if the
+spreading defect is charged to a square/source-Carleson/no-waste ledger.  The
+surviving unproved linear case is the infinite terminal Zeno donor chain; the
+surviving square upgrade is the square donor no-spreading problem.
 
 ## 4. Consequence for the source-square route
 
