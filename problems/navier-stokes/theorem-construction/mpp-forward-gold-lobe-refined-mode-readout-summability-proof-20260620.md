@@ -143,7 +143,7 @@ mode-residue notes:
 or its lobe-restricted version.  The summability proof only says that finitely
 many such identities may be added without changing the proof currency.
 
-This proof also does not supply `RefinedCarrierModeJacian.A` or
+This proof also does not supply `RefinedCarrierModeJacobian.A` or
 `NodalZoneSourceEvacuation.A`.  It is independent of retained modulation rank
 and independent of payment of the nodal lobe.
 
