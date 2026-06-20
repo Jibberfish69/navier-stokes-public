@@ -16,8 +16,8 @@ subsequential terminal atom, hence Part/Field exit on the same-solution branch.
 ```
 
 It uses the terminal source-curve compactness test and the installed
-`TerminalAtomPartFieldFirstExit.A` theorem.  It does not try another positive
-estimate for the endpoint modulus.
+`TerminalAtomPartFieldFirstExit.A` / uniform service-topology certification
+package.  It does not try another positive estimate for the endpoint modulus.
 
 ## 1. Measure lemma
 
@@ -135,8 +135,12 @@ The second branch produces a terminal atom:
 \tag{PSC.12}
 ```
 
-On the same-solution terminal branch, this is the object already covered by
-`TerminalAtomPartFieldFirstExit.A`.  That theorem gives
+On the same-solution terminal branch, this is the object covered by the
+`TerminalAtomPartFieldFirstExit.A` package in its service-certification
+reading.  Namely, after same-witness admission, a valid `Part` or `Field`
+survivor must carry the uniform service budget for that service, not merely a
+weak terminal measure.  The terminal atom has no endpoint window modulus, so
+the certified service test gives
 
 ```math
 \text{terminal atom}
@@ -151,6 +155,9 @@ The atom is therefore not a new positive-forward target and not a fourth
 terminal branch.  It is a Part or Field face failure before `Pack_Q` is used as
 an exclusion test.
 
+This is a CM-facing service-topology conclusion.  It is not a proof of a new
+Navier--Stokes terminal anti-atom estimate.
+
 ## 3. No-third-branch statement
 
 For the terminal source-curve obstruction, a finite nonsmooth terminal branch
@@ -163,10 +170,10 @@ and Member(Q).
 ```
 
 Indeed, failure of endpoint uniform integrability gives a nonzero terminal atom
-by the measure lemma.  The same-solution atom fails `Part_{N,Q}` or
-`Field_{N,r,Q}` by `TerminalAtomPartFieldFirstExit.A`.  Since `Member(Q)`
-requires the relevant Pack/Part/Field services, that branch cannot remain
-`Member(Q)`.
+by the measure lemma.  After same-witness admission, the same-solution atom
+fails the uniform service topology required by `Part_{N,Q}` or
+`Field_{N,r,Q}`.  Since `Member(Q)` requires the relevant Pack/Part/Field
+services, that branch cannot remain `Member(Q)`.
 
 Thus the source-curve obstruction has the required pass-or-exit form:
 
