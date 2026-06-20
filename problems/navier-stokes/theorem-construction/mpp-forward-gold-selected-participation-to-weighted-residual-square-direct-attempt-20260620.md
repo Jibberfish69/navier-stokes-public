@@ -161,7 +161,7 @@ A=\lambda_j^{1/2}.
 \tag{PWR.11}
 ```
 
-Then the selected square reserve is order one:
+Then the selected square reserve is exactly one half:
 
 ```math
 \lambda_j\int_I f_+(t)^2\,dt
