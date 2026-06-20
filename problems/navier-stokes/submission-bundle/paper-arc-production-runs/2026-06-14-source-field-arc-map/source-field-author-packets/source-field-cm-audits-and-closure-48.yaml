@@ -185,7 +185,7 @@ chunk:
       -\langle \Delta_j(u_{>j+4}\cdot\nabla u),u_j\rangle.
       \]
 
-      The bare separated exchange is also not the live terminal record. In the separated geometry the bare term vanishes by Fourier support. The surviving object is the true commutatorized lifted remainder
+      The bare separated exchange is also not the live object. In the separated geometry the bare term vanishes by Fourier support. The surviving object is the true commutatorized lifted remainder
 
       The signed theorem so cannot be a theorem about the raw shell weights or the vacuous separated pairwise flux. It must be a theorem about the localized lifted commutator after active-window rescaling, packet normalization, cutoffs, projectors, and transported-window coefficients have been included.
 
@@ -511,7 +511,7 @@ chunk:
     -\langle \Delta_j(u_{>j+4}\cdot\nabla u),u_j\rangle.
     \]
 
-    The bare separated exchange is also not the live terminal record. In the separated geometry the bare term vanishes by Fourier support. The surviving object is the true commutatorized lifted remainder
+    The bare separated exchange is also not the live object. In the separated geometry the bare term vanishes by Fourier support. The surviving object is the true commutatorized lifted remainder
 
     The signed theorem so cannot be a theorem about the raw shell weights or the vacuous separated pairwise flux. It must be a theorem about the localized lifted commutator after active-window rescaling, packet normalization, cutoffs, projectors, and transported-window coefficients have been included.
 

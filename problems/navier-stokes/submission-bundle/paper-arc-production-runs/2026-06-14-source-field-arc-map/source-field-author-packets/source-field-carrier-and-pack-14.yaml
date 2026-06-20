@@ -393,7 +393,7 @@ chunk:
       J(P\to P')=-J(P'\to P),
       \]
 
-      The saturated hull repairs only the easiest defect: a missing formal counter-edge caused by restricting the packet family too early. It does not repair the two defects that survive on the live terminal record.
+      The saturated hull repairs only the easiest defect: a missing formal counter-edge caused by restricting the packet family too early. It does not repair the two defects that survive on the live object.
 
       \[
       W(P,P')I(P\to P')+W(P',P)I(P'\to P),
@@ -750,7 +750,7 @@ chunk:
     J(P\to P')=-J(P'\to P),
     \]
 
-    The saturated hull repairs only the easiest defect: a missing formal counter-edge caused by restricting the packet family too early. It does not repair the two defects that survive on the live terminal record.
+    The saturated hull repairs only the easiest defect: a missing formal counter-edge caused by restricting the packet family too early. It does not repair the two defects that survive on the live object.
 
     \[
     W(P,P')I(P\to P')+W(P',P)I(P'\to P),

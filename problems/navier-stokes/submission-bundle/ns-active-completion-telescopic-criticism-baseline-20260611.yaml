@@ -4496,7 +4496,7 @@ active_batches:
       - >-
         The early handoff now states the selected-record requirement and current
         certification boundary, but root CMI finality remains open until every
-        live terminal record has a rendered gold-or-silver payment.
+        live object has a rendered gold-or-silver payment.
       - >-
         This batch does not claim full CMI finality and does not run the full
         PDF finality gate.
