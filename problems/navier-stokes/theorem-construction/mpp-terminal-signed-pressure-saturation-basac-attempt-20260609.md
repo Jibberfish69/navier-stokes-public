@@ -30,7 +30,7 @@ projected/cutoff/boundary/collar losses,
 finite non-Zeno donor trees by LocalDonorBalance.A + EntranceLeafDecay.A.
 ```
 
-Thus the live terminal record is not a generic graph-flow sink. The generic graph
+Thus the live object is not a generic graph-flow sink. The generic graph
 obstruction has already been sharpened.
 
 ## Pressure Partner Branch

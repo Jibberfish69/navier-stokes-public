@@ -62,7 +62,7 @@ in the declared separated geometry. The displayed estimate holds trivially.
 
 ## Meaning
 
-This proves that the bare separated commutator is the wrong live terminal record. The support audit in the weighted signed shell-exchange surface already identifies this: the bare pairwise exchange vanishes once the shell geometry is truly separated.
+This proves that the bare separated commutator is the wrong live object. The support audit in the weighted signed shell-exchange surface already identifies this: the bare pairwise exchange vanishes once the shell geometry is truly separated.
 
 The live theorem must instead concern the true commutatorized lifted remainder created after the weighted tail summation and projector/cutoff reductions.
 

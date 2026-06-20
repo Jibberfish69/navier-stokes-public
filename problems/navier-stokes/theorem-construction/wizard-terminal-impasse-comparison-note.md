@@ -124,7 +124,7 @@ B_j(t):=\frac{A_j(t)}{\nu 2^{2j}},
 A_j(t):=\sum_{k\le j}2^{5k/2}\|\Delta_k\omega(t)\|_{L^2_x}.
 ```
 
-Equivalently, on a fixed low shell `j_0`, the live terminal record is
+Equivalently, on a fixed low shell `j_0`, the live object is
 
 ```math
 A_{j_0-1}(t)\le C_A\nu 2^{2j_0}.

@@ -78,7 +78,7 @@ The source normalization route can use Navier-Stokes exchange structure.  Bare d
 J(P\to P')+J(P'\to P)=0.
 ```
 
-After terminal weights, cutoffs, projectors, and lifted packets are inserted, the live terminal record is the true weighted lifted remainder.  A useful exact theorem is
+After terminal weights, cutoffs, projectors, and lifted packets are inserted, the live object is the true weighted lifted remainder.  A useful exact theorem is
 
 ```math
 \int_0^T G_N^{lift,\sigma}(t)dt

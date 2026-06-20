@@ -81,7 +81,7 @@ The gradient lifted packet used by this route is the fixed-collar sum
 \mathcal R_{j,k,\ell}^{lift}(t).
 ```
 
-This is the live terminal record for the signed weighted route.
+This is the live object for the signed weighted route.
 
 ## Signed weighted object
 
