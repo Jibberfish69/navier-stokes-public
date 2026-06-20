@@ -55,15 +55,16 @@ while
 \tag{EBL.5}
 ```
 
-The corresponding shell energy level is
+Since the model definitions give \(E_j(t)=2^{-2j}D_j(t)\), the corresponding
+shell energy level is
 
 ```math
-E_j(t)\simeq2^{-2j}D_j(t)=2^{-j/2}
+E_j(t)=2^{-2j}D_j(t)=2^{-j/2}
 \quad\text{on }I_j.
 \tag{EBL.6}
 ```
 
-So the packet has vanishing ordinary shell energy and order-one normalized
+So the packet has vanishing ordinary shell energy and unit normalized
 square bill.
 
 ## 2. Energy-bounded Lyapunov class
@@ -168,9 +169,9 @@ The energy-bounded no-waste shortcut is exhausted:
 
 ```math
 \boxed{
-|L_j|\lesssim E_j+Legal
+\left(|L_j|\le C E_j+Legal\right)
 \quad\not\Rightarrow\quad
--L_j'\gtrsim 2^{-j}D_j^2-Legal.
+\left(-L_j'\ge c\,2^{-j}D_j^2-Legal\right).
 }
 \tag{EBL.13}
 ```
