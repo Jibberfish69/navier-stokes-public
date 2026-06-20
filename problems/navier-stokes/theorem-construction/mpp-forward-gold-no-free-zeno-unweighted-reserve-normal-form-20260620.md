@@ -282,4 +282,6 @@ of endpoint UI after finite donor/legal alternatives are removed.
 
 The forward-gold proof has no remaining smaller donor-graph target at this
 resolution.  New gold progress must prove an endpoint modulus, a same-carrier
-source-square or no-waste reserve, or rigid Zeno source-residue evacuation.
+source-square or no-waste reserve, or the full rigid-Zeno profile-production
+stack after endpoint/no-waste evacuation.  Rigid-Zeno compactness or
+source-residue visibility alone is not a coercive supplier.
