@@ -172,31 +172,46 @@ u_r(t,x)=r^{-1}U\left({t\over r^2},{x\over r}\right),
 \tag{CAM.13}
 ```
 
-the physical energy and dissipation costs scale as
+set
 
 ```math
-\int_{B_r}|u_r|^2dx\sim r,
+C_E(U):=\int_{B_1}|U(0,y)|^2\,dy,
 \qquad
-\int_{Q_r}|\nabla u_r|^2dxdt\sim r.
+C_D(U):=\int_{Q_1}|\nabla_yU|^2\,dyds.
 \tag{CAM.14}
 ```
 
-But the normalized critical currencies are order one:
+Then the physical energy and dissipation costs are exactly
 
 ```math
-{1\over r^2}\int_{Q_r}|u_r|^3dxdt\sim1,
+\int_{B_r}|u_r|^2dx=rC_E(U),
+\qquad
+\int_{Q_r}|\nabla_xu_r|^2dxdt=rC_D(U).
+\tag{CAM.14a}
+```
+
+For the critical currencies, set
+
+```math
+C_3(U):=\int_{Q_1}|U|^3\,dyds,
+\qquad
+C_{5/2}(U):=\int_{Q_1}|\nabla_yU|^{5/2}\,dyds.
 \tag{CAM.15}
 ```
 
+Then
+
 ```math
-\int_{Q_r}|\nabla u_r|^{5/2}dxdt\sim1,
+\frac1{r^2}\int_{Q_r}|u_r|^3dxdt=C_3(U),
+\qquad
+\int_{Q_r}|\nabla_xu_r|^{5/2}dxdt=C_{5/2}(U).
 \tag{CAM.16}
 ```
 
 and the source-square pulse can be normalized so that
 
 ```math
-\int_{-1}^{0}G_r(s)^2ds\sim1.
+\int_{-1}^{0}G_r(s)^2ds=1.
 \tag{CAM.17}
 ```
 
