@@ -46,8 +46,10 @@ The native selected positive trilinear carrier is
 \tag{SCEUI.3}
 ```
 
-Since \(S\sim r_m^{-2}\), \(w\sim r_m^{-1}\), and
-\(dxdt\sim r_m^5\), the scale-invariant normalized source density is
+In a heat-scale packet write
+\(S_{<j_m}^{loc}=r_m^{-2}\Sigma_m\),
+\(w_{j_m}=r_m^{-1}W_m\), \(dx=r_m^3dy\), and \(dt=r_m^2ds\).
+With that normalization, the scale-invariant source density is
 
 ```math
 a_m(s)
@@ -226,19 +228,28 @@ u_m(t,x)=r_m^{-1}U\!\left({t-T\over r_m^2},{x-x_m\over r_m}\right),
 \tag{SCEUI.19}
 ```
 
-the physical energy and \(L^2\) dissipation costs are subcritical:
+set the fixed profile constants
 
 ```math
-\int_{B_{r_m}}|u_m|^2dx\sim r_m,
+C_E(U):=\int_{B_1}|U(0,y)|^2\,dy,
 \qquad
-\int_{Q_m}|\nabla u_m|^2dxdt\sim r_m.
+C_D(U):=\int_{Q_1}|\nabla_yU|^2\,dyds.
 \tag{SCEUI.20}
 ```
 
-The normalized positive carrier can still be order one:
+Then the physical energy and \(L^2\) dissipation costs are subcritical:
 
 ```math
-{1\over r_m}\mathcal T_m^+\sim1.
+\int_{B_{r_m}}|u_m|^2dx=r_mC_E(U),
+\qquad
+\int_{Q_m}|\nabla_xu_m|^2dxdt=r_mC_D(U).
+\tag{SCEUI.20a}
+```
+
+The normalized positive carrier can still be fixed positive:
+
+```math
+{1\over r_m}\mathcal T_m^+=c_T>0.
 \tag{SCEUI.21}
 ```
 
@@ -414,4 +425,3 @@ or
 
 or the equivalent critical-element package that proves `(SCEUI.31)` for the
 minimal terminal object.
-
