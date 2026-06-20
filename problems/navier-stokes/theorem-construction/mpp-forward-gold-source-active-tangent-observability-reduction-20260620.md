@@ -267,7 +267,7 @@ is visible on the selected source carrier.  It needs:
 +
 \text{UniformSourceTraceRank.A}
 +
-\text{SelectedPolarSaturation.A}
+\text{SelectedPositivePolarSaturation.A}
 }
 \tag{SAT.21}
 ```

@@ -226,7 +226,7 @@ A response-frame route would need
 \boxed{
 \text{LowerFrameNoNullAdjointModeReadout.A}
 +
-\text{SelectedPolarSaturation.A}.
+\text{SelectedPositivePolarSaturation.A}.
 }
 \tag{SGT.17}
 ```

@@ -91,7 +91,7 @@ the selected packet/mode/carrier map.  Thus the obstruction is exactly one of:
 or, on the source side,
 
 ```math
-\text{SourceResolvedNativeModeReadout.A / SelectedPolarSaturation.A failure}.
+\text{SourceResolvedNativeModeReadout.A / SelectedPositivePolarSaturation.A failure}.
 \tag{SRD.7}
 ```
 

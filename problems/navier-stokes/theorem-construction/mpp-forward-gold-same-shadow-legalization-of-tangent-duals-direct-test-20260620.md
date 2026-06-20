@@ -260,7 +260,7 @@ yet give the native positive source carrier.  The next bridge is still
 ```math
 \text{SourceResolvedNativeModeReadout.A}
 +
-\text{SelectedPolarSaturation.A}.
+\text{SelectedPositivePolarSaturation.A}.
 \tag{SSL.20}
 ```
 

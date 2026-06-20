@@ -152,7 +152,7 @@ positive-carrier bridge:
 ```math
 \text{SourceResolvedNativeModeReadout.A}
 +
-\text{SelectedPolarSaturation.A}
+\text{SelectedPositivePolarSaturation.A}
 \tag{ZES.14}
 ```
 
@@ -276,7 +276,7 @@ To turn `(ZES.25)` into `NoFreeTerminalZenoDonorChain.A`, one still needs
 ```math
 \text{SourceResolvedNativeModeReadout.A}
 +
-\text{SelectedPolarSaturation.A}
+\text{SelectedPositivePolarSaturation.A}
 \tag{ZES.26}
 ```
 

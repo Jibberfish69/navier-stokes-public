@@ -237,7 +237,7 @@ nonzero observation.
 
 ## 5. Relation to selected polar saturation
 
-`SelectedPolarSaturation.A` and `SourceWeightedPolarSaturation.A` control
+`SelectedPositivePolarSaturation.A` and `SourceWeightedPolarSaturation.A` control
 whether a selected one-sided carrier disappears from a signed vector/current
 record by cancellation.  That is a polar equality problem for the carrier
 current.
@@ -258,7 +258,7 @@ particular sign-changing mode test still has a large deficit on that carrier.
 Therefore
 
 ```math
-\text{SelectedPolarSaturation.A}
+\text{SelectedPositivePolarSaturation.A}
 \nRightarrow
 \text{SourceWeightedModeDeficit.A}
 \tag{SWMD.22}
