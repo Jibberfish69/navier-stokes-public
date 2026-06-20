@@ -154,7 +154,7 @@ M_{\sigma,\psi}K_\psi^{-1}r^{3/2}
 \tag{NTSR.12}
 ```
 
-But the normalized source-square contribution is order one:
+But the normalized source-square contribution is a fixed positive constant:
 
 ```math
 \int_{I_j}r^{-1}\left(\Phi_j^+(t)\right)^2\,dt
@@ -200,7 +200,7 @@ and its heat-window residence is smaller:
 \tag{NTSR.16}
 ```
 
-The critical strain currency is order one:
+The critical strain currency is a fixed positive constant:
 
 ```math
 \int_{I_j}\int_{B_r}
@@ -209,7 +209,7 @@ The critical strain currency is order one:
 C_{\sigma,5/2}\nu^{5/2},
 \qquad
 C_{\sigma,5/2}:=
-\left(2^{5/2}+2\right)\int_{B_1}\sigma(y)^{5/2}\,dy.
+6^{5/4}\int_{B_1}\sigma(y)^{5/2}\,dy.
 \tag{NTSR.17}
 ```
 
