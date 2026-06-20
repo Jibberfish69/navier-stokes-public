@@ -11,8 +11,9 @@ signed partners, finite selected source mass, or lower-frame/Bessel readout.
 The finite donor-chain problem is smaller than edgewise donor travel, but it is
 not empty.  After internal donor cancellation, the only finite-chain residue is
 a boundary endpoint term.  That endpoint term is paid only by endpoint
-coherence, selected polar saturation, legal endpoint charge, or a source-square
-/ strict no-waste supplier.
+coherence, endpoint readout polarization, legal endpoint charge, or a
+source-square / strict no-waste supplier.  Positive carrier polarization is a
+separate same-ledger theorem and is not supplied by boundary coherence.
 
 ## 1. Target under test
 
@@ -189,9 +190,9 @@ a_\alpha
 then `(FDB.3)` follows immediately.  This is the endpoint version of the
 source-weighted gauge/action charge.
 
-### 3.3 Selected polar saturation
+### 3.3 Endpoint readout polarization
 
-If the retained endpoint pairs are saturated in the selected test class,
+If the retained endpoint pairs are polarized in the signed endpoint test class,
 
 ```math
 \sum_\alpha
@@ -207,8 +208,13 @@ a_\alpha
 ```
 
 for each mode test, then `(FDB.3)` follows after summing over the finite mode
-family.  This is selected polar saturation restricted to the finite mode
+family.  This is endpoint readout polarization restricted to the finite mode
 boundary endpoints.
+
+This is not the positive selected carrier theorem.  A nonnegative packet test
+can have zero signed endpoint readout while its selected positive receiver
+carrier remains positive.  The carrier version is the separate
+`SelectedPositivePolarSaturation.A` / `TerminalSignedSaturation.A` problem.
 
 ## 4. Existing inputs do not supply these charges
 
@@ -279,7 +285,7 @@ with finite mode uniform continuity and bounded endpoint mass understood, or
 \boxed{
 \text{FiniteDonorBoundaryCoherence.A}(\Phi_{mode})
 \Leftarrow
-\text{SelectedEndpointPolarSaturation.A}(\Phi_{mode})
+\text{EndpointReadoutPolarization.A}(\Phi_{mode})
 }
 \tag{FDB.17}
 ```
@@ -308,7 +314,7 @@ So the finite-chain side is now exhausted to this exact fork:
 
 ```math
 \boxed{
-\text{same endpoint normalization / selected endpoint polar saturation /
+\text{same endpoint normalization / endpoint readout polarization /
 source-weighted endpoint charge}
 }
 \tag{FDB.19}
