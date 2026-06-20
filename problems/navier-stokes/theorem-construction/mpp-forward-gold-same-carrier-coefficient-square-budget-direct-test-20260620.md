@@ -64,40 +64,55 @@ and, after localization to the selected carrier,
 The heat-clock equality case has
 
 ```math
-\alpha_+(t,x)\simeq \nu\lambda^2
+c_\alpha\nu\lambda^2
+\le
+\alpha_+(t,x)
+\le
+C_\alpha\nu\lambda^2
 \quad\text{on }I_\lambda\times B_r,
+\qquad
+0<c_\alpha\le C_\alpha<\infty,
 \tag{SCB.5}
 ```
 
 and
 
 ```math
-E(t)\simeq\lambda^{-3/2},
+c_E\lambda^{-3/2}
+\le
+E(t)
+\le
+C_E\lambda^{-3/2},
 \qquad
-\Pi^+(t)\simeq\nu\lambda^{1/2}.
+c_\Pi\nu\lambda^{1/2}
+\le
+\Pi^+(t)
+\le
+C_\Pi\nu\lambda^{1/2},
 \tag{SCB.6}
 ```
 
 Therefore the selected carrier has vanishing linear residence,
 
 ```math
+c_\Pi\nu\lambda^{-3/2}
+\le
 \int_{I_\lambda}\Pi^+(t)\,dt
-\simeq
-\nu\lambda^{1/2}\lambda^{-2}
-=
-\nu\lambda^{-3/2}
+\le
+C_\Pi\nu\lambda^{-3/2}
 \to0,
 \tag{SCB.7}
 ```
 
-while its unweighted square reserve remains order one:
+while its unweighted square reserve remains bounded above and below by fixed
+positive constants:
 
 ```math
+c_\Pi^2\nu^2
+\le
 \int_{I_\lambda}\lambda\bigl(\Pi^+(t)\bigr)^2\,dt
-\simeq
-\lambda\cdot\nu^2\lambda\cdot\lambda^{-2}
-=
-\nu^2.
+\le
+C_\Pi^2\nu^2.
 \tag{SCB.8}
 ```
 
@@ -115,20 +130,20 @@ coefficient bill
 \tag{SCB.9}
 ```
 
-Using `(SCB.5)` and \(|B_r|\simeq\lambda^{-3}\),
+Using `(SCB.5)` and \(|B_r|=C_B\lambda^{-3}\),
 
 ```math
+c_\alpha^2 C_B\nu^2\lambda^{-1}
+\le
 \mathcal C_{bare}(\lambda)
-\simeq
-\nu^2\lambda^4\cdot\lambda^{-3}\cdot\lambda^{-2}
-=
-\nu^2\lambda^{-1}.
+\le
+C_\alpha^2 C_B\nu^2\lambda^{-1}.
 \tag{SCB.10}
 ```
 
 Along a dyadic Zeno chain \(\sum_k\lambda_k^{-1}<\infty\).  Thus the bare
 coefficient-square bill can be finite even while every generation carries the
-order-one selected square reserve `(SCB.8)`.
+fixed positive selected square reserve `(SCB.8)`.
 
 So the bare square budget does not imply endpoint uniform integrability, source
 residence, or unweighted selected action reserve.
@@ -148,13 +163,17 @@ The second possible meaning is the scale-critical coefficient bill
 For the heat-clock equality packet,
 
 ```math
-\mathcal C_{crit}(\lambda)\simeq\nu^2.
+c_\alpha^2 C_B\nu^2
+\le
+\mathcal C_{crit}(\lambda)
+\le
+C_\alpha^2 C_B\nu^2.
 \tag{SCB.12}
 ```
 
 This would charge each terminal heat-clock pulse by a fixed amount.  If one had
 a finite Carleson bound for the selected scale-critical coefficient square over
-all terminal selected packets, then an infinite order-one Zeno recurrence would
+all terminal selected packets, then an infinite fixed-positive Zeno recurrence would
 be impossible.
 
 But `(SCB.11)` is exactly the selected critical-strain / normalized CKN type
