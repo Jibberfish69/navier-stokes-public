@@ -164,7 +164,7 @@ The follow-up direct test
 checks exactly `(PTT.12)`.  It is not installed.  Source-drain removes the
 subbranch with actual nonzero source-pulse residue.  The subbranch with
 nonzero selected participation residence but vanishing source-pulse residue
-returns to same-carrier participation parent/gain accounting rather than to
+returns to normalized endpoint-energy trace accounting rather than to
 product-throttle analysis.
 
 ## 4. Square-only height blowup branch
