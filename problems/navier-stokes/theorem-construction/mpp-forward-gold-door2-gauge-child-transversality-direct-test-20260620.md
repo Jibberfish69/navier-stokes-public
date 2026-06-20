@@ -7,6 +7,12 @@ Date: 2026-06-20
 Direct child test complete.  The gauge child package is useful, but it is not
 produced by the current zero-flux Zeno inputs.
 
+Update after the compact-frame proof: the finite-dimensional spectral-gap step
+is paid relative to a compact selected profile class, quotient-free modulation
+action, and legal tangent separation.  The remaining Navier--Stokes production
+content is not the open-cover argument; it is producing that compact/free/legal
+profile class together with selector stability and single-bubble separation.
+
 The exact result is conditional:
 
 ```math
@@ -22,10 +28,9 @@ The exact result is conditional:
 \tag{GCT.1}
 ```
 
-The current inputs supply none of the three nondegeneracy clauses after
-compactness.  Zero point-force flux, measurable gauge selection, and ordinary
-profile compactness still allow isotropy, flat scale plateaus, selector ties,
-and two-bubble switching.
+Zero point-force flux, measurable gauge selection, and ordinary profile
+compactness still allow isotropy, flat scale plateaus, selector ties, and
+two-bubble switching.
 
 ## 1. Gauge object
 
@@ -285,3 +290,21 @@ The live Door 2-specific unresolved content is exactly
 
 and this content remains downstream of profile production, source-readout
 evacuation, and unweighted terminal action/no-waste control.
+
+With `GaugeFunctionalSpectralGap.A` now discharged as a relative compact-frame
+theorem, the first term in `(GCT.20)` should be read through its production
+inputs:
+
+```math
+\text{CompactSelectedProfileClass.A}
++
+\text{UniformQuotientFreeModulationAction.A}
++
+\text{PointwiseLegalTangentSeparation.A},
+\tag{GCT.21}
+```
+
+with stabilizer-neutral directions handled by stabilizer readout compatibility.
+The unresolved native content is therefore selector stability, single-bubble
+separation, compact/free selected profile production, and same-shadow legal
+tangent readout.
