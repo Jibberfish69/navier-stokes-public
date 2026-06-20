@@ -129,11 +129,11 @@ as supplier/readout support.
 The forward-gold object is not the linear source-pulse functional `(PDP.6)`.
 It is the square-strength selected participation current `(PDP.1)`.
 
-Even under the most favorable identification
+Even under the most favorable identification, namely the model equality
 
 ```math
 F^{src}_{>1/r_j}
-\approx
+=
 \Pi_j^{part,+},
 \tag{PDP.8}
 ```
@@ -151,7 +151,7 @@ the two measurements separate on the heat-scale pulse.  Let
 \tag{PDP.9}
 ```
 
-Then the selected square reserve is order one:
+Then the selected square reserve is exactly one:
 
 ```math
 \int_{I_j}\lambda_j
