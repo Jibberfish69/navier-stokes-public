@@ -384,7 +384,7 @@ source_rewrites:
       \Part_{N,Q},\qquad
       \Field_{N,r,Q}
     \]
-    to the continuation readout.  A failed record is exhausted in Pack-first order:
+    to the continuation readout.  A failed record is exhausted in Pack-before-Part audited order:
     \[
       \neg\Pack_Q,\qquad
       \Pack_Q\wedge\neg\Part_{N,Q},\qquad
