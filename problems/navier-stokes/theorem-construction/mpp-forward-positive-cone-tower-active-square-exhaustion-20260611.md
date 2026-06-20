@@ -507,7 +507,7 @@ impassable obstruction from current exact ledgers:
 silver CM-exit test:
   only a surviving residual source-balanced terminal pulse, after exact heat
   decay, through-flow, legal losses, and paid dissipation are removed, may be
-  sent to the Pack-first CM witness grammar.
+  sent to the Pack-before-Part audited CM witness grammar.
 ```
 
 So this note closes the cone/tower/drain case through the requested sequence:
