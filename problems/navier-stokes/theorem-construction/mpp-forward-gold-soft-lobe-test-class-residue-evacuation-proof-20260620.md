@@ -7,15 +7,15 @@ Date: 2026-06-20
 Relative proof complete.  The bounded packet-test route opened by the soft-lobe
 compatibility note adds no new obstruction beyond the finite mode test class.
 
-For the finite soft-lobe test class, retained finite donor-pair residues are
-controlled by `ModeDonorEdgeCoherence.A`, and infinite donor-chain endpoint
-residues are controlled by `ZenoTestEndpointCoherence.A` for the original
-finite mode tests.  Both implications use only the fixed Lipschitz constant of
-the soft lobe functions.
+For the finite soft-lobe test class, finite donor-forest residues are controlled
+by `FiniteDonorBoundaryCoherence.A(Phi_mode)`, and infinite donor-chain
+endpoint residues are controlled by `ZenoTestEndpointCoherence.A` for the
+original finite mode tests.  Both implications use only the fixed Lipschitz
+constant of the soft lobe functions.
 
 The proof is relative to the existing donor-graph decomposition and endpoint
 mass bound.  It does not prove those donor-chain hypotheses, and it does not
-prove the mode coherence or endpoint-coherence inputs.
+prove the boundary coherence or endpoint-coherence inputs.
 
 ## 1. Soft-lobe test class
 
@@ -91,15 +91,17 @@ been reduced to the selected donor graph.  The bounded packet-function target is
 
 This is `TestClassSameShadowResidueEvacuation.A(Phi_soft^kappa)`.
 
-## 3. Finite donor pairs
+## 3. Finite donor forest
 
-Use the donor-graph decomposition
+Use the finite donor-forest boundary telescoping identity
 
 ```math
 dE_m^{fin}
 =
-\sum_{e=(D,R)\in G_m^{fin}}
-a_e(\delta_R-\delta_D),
+\sum_\alpha
+a_\alpha(\delta_{R_{\alpha,0}}-\delta_{D_{\alpha,L_\alpha}})
+dE_m^{legal}
+o_m(1),
 \qquad
 a_e>0.
 \tag{STC.8}
@@ -108,11 +110,12 @@ a_e>0.
 For any soft-lobe test `zeta=f(psi)`,
 
 ```math
-|\zeta(R)-\zeta(D)|
+|\zeta(R_{\alpha,0})-\zeta(D_{\alpha,L_\alpha})|
 =
-|f(\psi(R))-f(\psi(D))|
+|f(\psi(R_{\alpha,0}))-f(\psi(D_{\alpha,L_\alpha}))|
 \le
-C_\kappa|\psi(R)-\psi(D)|_{\ell^\infty}.
+C_\kappa
+|\psi(R_{\alpha,0})-\psi(D_{\alpha,L_\alpha})|_{\ell^\infty}.
 \tag{STC.9}
 ```
 
@@ -122,13 +125,18 @@ Thus
 \begin{aligned}
 |\langle dE_m^{fin},\zeta\rangle|
 &\le
-\sum_{e=(D,R)\in G_m^{fin}}
-a_e|\zeta(R)-\zeta(D)|
+\sum_\alpha
+a_\alpha|\zeta(R_{\alpha,0})-\zeta(D_{\alpha,L_\alpha})|
+\operatorname{Legal}_{m,\zeta}
+o_m(1)
 \\
 &\le
 C_\kappa
-\sum_{e=(D,R)\in G_m^{fin}}
-a_e|\psi(R)-\psi(D)|_{\ell^\infty}.
+\sum_\alpha
+a_\alpha
+|\psi(R_{\alpha,0})-\psi(D_{\alpha,L_\alpha})|_{\ell^\infty}
+\operatorname{Legal}_{m,\zeta}
+o_m(1).
 \end{aligned}
 \tag{STC.10}
 ```
@@ -136,23 +144,25 @@ a_e|\psi(R)-\psi(D)|_{\ell^\infty}.
 Since the mode family is finite,
 
 ```math
-|\psi(R)-\psi(D)|_{\ell^\infty}
+|\psi(R_{\alpha,0})-\psi(D_{\alpha,L_\alpha})|_{\ell^\infty}
 \le
-\sum_{i=1}^{N_{mode}}|\psi_i(R)-\psi_i(D)|.
+\sum_{i=1}^{N_{mode}}
+|\psi_i(R_{\alpha,0})-\psi_i(D_{\alpha,L_\alpha})|.
 \tag{STC.11}
 ```
 
-Therefore `ModeDonorEdgeCoherence.A` for the finite mode family gives
+Therefore `FiniteDonorBoundaryCoherence.A(Phi_mode)` gives
 
 ```math
 \sup_{\zeta\in\Phi_{\rm soft}^{\kappa}}
 |\langle dE_m^{fin},\zeta\rangle|
 \le
-C_{\kappa,mode}\operatorname{Legal}_m^{edge}+o_m(1).
+C_{\kappa,mode}\operatorname{Legal}_m^{bdry}+o_m(1).
 \tag{STC.12}
 ```
 
-So the soft-lobe finite-pair residue has no separate donor-edge theorem.
+So the soft-lobe finite-forest residue has no separate boundary-coherence
+theorem.
 
 ## 4. Infinite Zeno donor chains
 
@@ -233,7 +243,7 @@ Combining the finite-pair and endpoint calculations gives:
 \text{UniformZenoChainMassBound.A}
 \\
 +
-\text{ModeDonorEdgeCoherence.A}
+\text{FiniteDonorBoundaryCoherence.A}(\Phi_{mode})
 +
 \text{ZenoTestEndpointCoherence.A}(\Phi_{mode})
 \\
@@ -245,9 +255,9 @@ Combining the finite-pair and endpoint calculations gives:
 \tag{STC.19}
 ```
 
-Equivalently, the bounded soft-lobe packet-function residue identity is supplied
-by the original finite-mode donor-edge and endpoint-coherence controls, with
-fixed constants depending on `kappa` and `N_mode`.
+Equivalently, the bounded soft-lobe packet-function residue identity is
+supplied by the original finite-mode boundary and endpoint-coherence controls,
+with fixed constants depending on `kappa` and `N_mode`.
 
 ## 6. Remaining unpaid inputs
 
@@ -256,7 +266,7 @@ The theorem above does not install the following inputs:
 ```math
 \text{TerminalDonorGraphDecomposition.A},
 \qquad
-\text{ModeDonorEdgeCoherence.A},
+\text{FiniteDonorBoundaryCoherence.A}(\Phi_{mode}),
 \qquad
 \text{ZenoTestEndpointCoherence.A}(\Phi_{mode}).
 \tag{STC.20}
@@ -266,10 +276,10 @@ The first is the conditional donor-graph reduction after legal exits, retained
 partners, ASAC pair-weight defects, finite donor trees, and entrance leaves are
 paid.
 
-The second reduces to same-shadow source-weighted mode travel, hence to
-same-shadow source-square plus unweighted modulation action, strict no-waste
-product domination, or lower-frame/no-null source visibility plus selected
-polar saturation.
+The second reduces to retained endpoint coherence or selected polar saturation
+in the finite mode test class, hence to same endpoint normalization, a direct
+source-weighted endpoint charge, strict no-waste product domination, or
+lower-frame/no-null source visibility plus selected polar saturation.
 
 The third reduces to fixed-gauge same endpoint tangent: no drift, selector
 stability, and same endpoint normalization; failure routes to the source-active
@@ -277,9 +287,9 @@ or source-null endpoint split.
 
 ## Verdict
 
-The bounded packet-function route for soft lobes is now discharged as a
+The bounded packet-function route for soft lobes is discharged as a
 relative theorem.  Soft lobe tests are Lipschitz functions of the finite mode
-values, so they inherit finite-edge and Zeno-endpoint control from the original
+values, so they inherit finite-boundary and Zeno-endpoint control from the original
 finite mode test class.
 
 This removes `BoundedPacketFunctionTestEnrichedResidueIdentity.A` as an
@@ -287,7 +297,7 @@ independent lobe-specific wall.  The live walls remain:
 
 ```math
 \boxed{
-\text{ModeDonorEdgeCoherence.A}
+\text{FiniteDonorBoundaryCoherence.A}(\Phi_{mode})
 +\text{ZenoTestEndpointCoherence.A}(\Phi_{mode})
 +\text{TerminalDonorGraphDecomposition.A}.
 }
