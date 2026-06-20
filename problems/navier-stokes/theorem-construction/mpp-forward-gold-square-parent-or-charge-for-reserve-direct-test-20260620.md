@@ -2,7 +2,7 @@
 theorem_id: forward-gold-square-parent-or-charge-for-reserve-direct-test-20260620
 status: direct-parent-or-charge-test-complete-not-proved
 logical_landing_node: square_parent_or_charge_for_reserve
-edge_effect: "Tests the dynamic parent-or-charge law exposed after square-carrier adjoint localization failed. The law is not produced by the installed normalized-adjoint package. Principal-flow gain can create an order-one integrated selected square reserve inside the first square window from boundary packet mass that tends to zero, with zero residual charge and no earlier order-one square window."
+edge_effect: "Tests the dynamic parent-or-charge law exposed after square-carrier adjoint localization failed. The law is not produced by the installed normalized-adjoint package. Principal-flow gain can create a fixed positive integrated selected square reserve inside the first square window from boundary packet mass that tends to zero, with zero residual charge and no earlier threshold-crossing square window."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-square-carrier-adjoint-localization-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-square-first-pulse-no-parent-recheck-20260620.md
@@ -71,8 +71,8 @@ with
 \tag{SPC.4}
 ```
 
-and no earlier admissible dyadic same-fluid window carrying order-one square
-reserve.  That removes earlier order-one square windows.
+and no earlier admissible dyadic same-fluid window with square reserve at the
+same fixed threshold.  That removes earlier threshold-crossing square windows.
 
 It does not remove square reserve created inside \(I_T\) by principal-flow
 gain.  To remove that branch, `(SPC.2)` must prove that such gain has a paid
@@ -131,7 +131,7 @@ Charge_\lambda^{sq}=0.
 \tag{SPC.9}
 ```
 
-The boundary packet masses are small:
+The boundary packet masses tend to zero:
 
 ```math
 w(0)^2=\lambda^{-3/2},
