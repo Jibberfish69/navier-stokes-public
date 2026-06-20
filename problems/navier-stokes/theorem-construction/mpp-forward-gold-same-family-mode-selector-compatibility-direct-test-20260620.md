@@ -139,7 +139,7 @@ two selectors built from different scores choose the same packet.
 
 `SingleBubbleSeparation.A` controls the second largest bubble for a chosen
 weight.  It does not say that the mode weight and the native source weight rank
-packets in the same order.
+packets identically.
 
 `ModeTestCompatibility.A` legalizes a local multiplier on its selected family.
 It does not identify that family with the family used after native source
