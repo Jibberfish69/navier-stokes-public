@@ -231,8 +231,11 @@ The direct parent/gain test
 sharpens this point.  In the pure principal-gain normal form, non-source-residue
 linear participation is exactly normalized endpoint-energy transport.  The
 installed source-drain theorem does not discharge it unless the selected
-positive energy trace is saturated and the terminal normalized-energy parent
-chain is proved non-free.
+positive energy trace is polar-saturated and the terminal normalized-energy
+parent chain is proved non-free.  The direct test
+`mpp-forward-gold-linear-positive-energy-trace-saturation-direct-test-20260620.md`
+shows that signed endpoint-energy accounting alone does not give that
+polar-saturation step.
 
 The square-strength descendants are the already isolated square objects
 
