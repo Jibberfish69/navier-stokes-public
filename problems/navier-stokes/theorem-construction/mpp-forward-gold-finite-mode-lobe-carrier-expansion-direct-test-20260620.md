@@ -15,8 +15,8 @@ packet-level oriented lobe compatibility is discharged relative to
 `ModeTestCompatibility.A` in
 `mpp-forward-gold-oriented-lobe-mode-test-compatibility-proof-20260620.md`.
 The remaining live pieces for the packet-label route are the original
-`ModeTestCompatibility.A` inputs, lobe-refined readout summability, refined mode
-Jacobian, and nodal-zone source evacuation.
+`ModeTestCompatibility.A` inputs, the mode-projected same-shadow residue identity
+on the lobe shadows, refined mode Jacobian, and nodal-zone source evacuation.
 
 This route avoids the false demand that the original positive source carrier
 live in one sign lobe.  It instead splits the carrier into two sign lobes and
@@ -264,7 +264,7 @@ After the packet-level finite expansion proof, `(FML.17)` reduces to
 \boxed{
 \begin{aligned}
 \text{ModeTestCompatibility.A}
-+\text{LobeRefinedModeReadoutSummability.A}
++\text{ModeProjectedMinimalChainResidueIdentity.A on the lobe shadows}
 +\text{RefinedCarrierModeJacobian.A}
 +\text{NodalZoneSourceEvacuation.A}
 \\
@@ -296,7 +296,8 @@ carrier by the sign of the mode and orient the mode separately on each lobe.
 
 The algebraic inequality `(FML.7)` is proved in this note, the packet-level
 finite expansion is discharged separately, and oriented lobe compatibility is
-inherited from `ModeTestCompatibility.A`.  The remaining work is not source-sign
-concentration.  It is the original mode-test compatibility package, retained
-modulation rank, nodal-source payment, and same-shadow readout on every refined
-lobe.
+inherited from `ModeTestCompatibility.A`; finite lobe-readout summability is
+only finite additivity.  The remaining work is not source-sign concentration.
+It is the original mode-test compatibility package, retained modulation rank,
+nodal-source payment, and the mode-projected same-shadow residue identity on the
+lobe shadows.
