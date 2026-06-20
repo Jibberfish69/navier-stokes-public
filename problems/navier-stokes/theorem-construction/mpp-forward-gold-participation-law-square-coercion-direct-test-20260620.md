@@ -145,16 +145,32 @@ The linear participation ledger can control only
 \tag{PLS.11}
 ```
 
-To promote `(PLS.11)` into `(PLS.10)` by time Cauchy one needs the coefficient
-throttle
+The exact linear-to-square conversion is
 
 ```math
-\|\Pi_j^{part,+}\|_{L^\infty(I_j)}
-\le C\lambda_j^{-1}.
+\int_{I_j}\lambda_j
+\bigl(\Pi_j^{part,+}(t)\bigr)^2dt
+\le
+\lambda_j\|\Pi_j^{part,+}\|_{L^\infty(I_j)}
+\int_{I_j}\Pi_j^{part,+}(t)\,dt .
 \tag{PLS.12}
 ```
 
-The current installed inputs do not prove `(PLS.12)`.
+Thus a linear residence ledger implies the square theorem only under the
+product throttle
+
+```math
+\lambda_j\|\Pi_j^{part,+}\|_{L^\infty(I_j)}
+\int_{I_j}\Pi_j^{part,+}(t)\,dt
+\to0,
+\tag{PLS.12a}
+```
+
+or under a stronger square/Carleson estimate.  A pointwise bound such as
+\(\|\Pi_j^{part,+}\|_{L^\infty(I_j)}\le C\lambda_j^{-1}\) is sufficient when
+the linear residence tends to zero, but it is not the exact theorem.  The
+current installed inputs prove neither `(PLS.12a)` nor the stronger square
+budget.
 
 ## 4. Heat-scale neutral model
 
