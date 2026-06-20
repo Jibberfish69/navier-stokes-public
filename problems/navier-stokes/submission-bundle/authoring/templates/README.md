@@ -2,13 +2,24 @@
 
 This is the Navier--Stokes human-PDF template folder.
 
-Reusable writing forms for the final Clay-facing human PDF live here after they
-have been deliberately extracted from the lab, sample, or manuscript work.
+Reusable forms for the final human PDF live here after they have been
+deliberately extracted from transcript work, experiments, writing samples, or
+manuscript work.
 
-This folder is for reader-facing proof-writing templates: abstract shape,
-introduction shape, Gold/Silver route explanation, class-membership witness
-sections, theorem/proof section forms, branch/leaf integration forms, and
-Pack/Part/Field exit prose patterns.
+The current tracked inventory is structural:
+
+- `custom_volumes_TOC.tex` and `custom_volumes_TOC.pdf`
+- `standard_sections_TOC.tex` and `standard_sections_TOC.pdf`
+- `formal-environments.sty`
+
+Those files give TOC shape, section hierarchy, formal environment spacing,
+numbering, and cross-reference behavior. They are not proof-prose templates.
+
+Future prose templates belong here only after a real explanation pattern has
+been abstracted. Examples of possible future templates include an educational
+definition-to-pressure excerpt, a transcript-to-proof extraction form, or a
+reader-facing route explanation form. Do not add one by copying a weak
+experiment.
 
 Formal cross-reference boundary:
 
@@ -40,4 +51,5 @@ Current TOC templates:
   `\subsubsection`.
 
 This folder is not for system pipeline forms, runtime handoff forms, raw
-transcripts, lab experiments, or sample PDFs. Those belong outside this folder.
+transcripts, lab experiments, writing samples, or one-off proof examples. Those
+belong outside this folder until a reusable form has been extracted.
