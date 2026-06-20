@@ -37,7 +37,14 @@ k=j-C_0,
 \tag{SSC.1a}
 \]
 
-so \(2^{-k}\simeq2^{-j}\) with only a fixed dyadic constant.  Write
+so
+
+\[
+2^{-k}=2^{C_0}2^{-j}.
+\tag{SSC.1b}
+\]
+
+Write
 
 \[
 D_j(t)=\nu r^{-2}\|w_j(t)\|_2^2
@@ -64,16 +71,17 @@ The normalized source-square density is therefore, after the fixed shift,
 \[
 G(s)=2^{-k/2}T_k(T+2^{-2k}s),
 \qquad
-2^{-k/2}\simeq r^{1/2}.
+2^{-k/2}=2^{C_0/2}r^{1/2}.
 \tag{SSC.3b}
 \]
 
-The selected source density has the schematic normalized form
+The selected source density has, after the fixed normalization constants used
+for this packet, the form
 
 \[
 a(s)
-\sim
-r^{1/2}
+=
+C_{LP}\,r^{1/2}
 \int
 |w_j|^2
 \left[
@@ -214,21 +222,23 @@ packet.
 The heat-scale coefficient supplement
 `mpp-forward-gold-heat-scale-coefficient-throttle-direct-test-20260619.md`
 tests the most literal coefficient route.  It shows that energy, enstrophy, and
-Bernstein give at best
+Bernstein give a constant \(C_B<\infty\) such that
 
 \[
 \int_{I_j}\|S_{<j}^{loc}(t)\|_\infty\,dt
-\lesssim
+C_B
 2^{j/2}\nu^{-1}
 \left(\int_{I_j}\mathcal D(t)\,dt\right)^{1/2},
 \tag{SSC.12a}
 \]
 
-so an \(O(1)\) coefficient residence bound requires the stronger heat-window
-rate
+so a coefficient residence bound by a fixed constant \(C_0\) requires the
+stronger heat-window rate
 
 \[
-\int_{I_j}\mathcal D(t)\,dt\lesssim \nu^2 2^{-j}.
+\int_{I_j}\mathcal D(t)\,dt
+\le
+\left({C_0\over C_B}\right)^2\nu^2 2^{-j}.
 \tag{SSC.12b}
 \]
 
