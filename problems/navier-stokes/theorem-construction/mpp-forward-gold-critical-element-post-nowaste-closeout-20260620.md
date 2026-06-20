@@ -203,24 +203,36 @@ positive pre-Cauchy carrier after moving localization, projection, lifting,
 packet selection, and positive-part extraction.
 
 Under the heat-scale normalization \(x=x_j+r_jy\), \(t=T_j+r_j^2s\),
-\(u=r_j^{-1}v_j\), physical local-energy defect carries one radius:
+\(u=r_j^{-1}v_j\), define the renormalized local-energy defect on normalized
+sets \(A\subset Q_1^-\) by
+
+```math
+\mu_{LE,j}^{ren}(A)
+:=
+r_j^{-1}\,
+\mu_{LE}^{phys}
+\bigl((x_j+r_jA_x)\times(T_j+r_j^2A_t)\bigr).
+\tag{CEP.16}
+```
+
+Then physical local-energy defect carries one radius exactly:
 
 ```math
 \mu_{LE}^{phys}(Q_j)
-\simeq
-r_j\,\mu_{LE}^{ren}(Q_1^-).
-\tag{CEP.16}
+=
+r_j\,\mu_{LE,j}^{ren}(Q_1^-).
+\tag{CEP.16a}
 ```
 
 Finite physical local-energy measure can therefore control
 
 ```math
-\sum_j r_j\mu_{LE}^{ren}(Q_1^-),
+\sum_j r_j\mu_{LE,j}^{ren}(Q_1^-),
 \tag{CEP.17}
 ```
 
 but the compact no-waste element needs unweighted terminal tightness of
-\(\mu_{LE}^{ren}\), or source-carrier evacuation.
+\(\mu_{LE,j}^{ren}\), or source-carrier evacuation.
 
 ## 7. Final production state
 
