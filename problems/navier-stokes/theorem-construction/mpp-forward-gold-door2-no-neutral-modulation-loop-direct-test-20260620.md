@@ -129,14 +129,17 @@ e^{-s/2}\mathcal A_{mod}(s)\,ds<\infty,
 \tag{NL.10}
 ```
 
-not `(NL.6)`.  A recurrent loop with
+not `(NL.6)`.  A recurrent loop may have disjoint unit intervals
+\(I_j=[S_j,S_j+1]\), \(S_j\to\infty\), on which
 
 ```math
-\mathcal A_{mod}(s)\sim1
+0<c_0\le \mathcal A_{mod}(s)\le C_0
+\qquad(s\in I_j),
 \tag{NL.11}
 ```
 
-on infinitely many unit \(s\)-slabs is compatible with `(NL.10)`.
+and may vanish off those intervals.  This is compatible with `(NL.10)` because
+\(\sum_j e^{-S_j/2}<\infty\).
 
 So ordinary energy monotonicity sees the loop only with the wrong terminal
 weight.  It does not prove no neutral recurrence.
