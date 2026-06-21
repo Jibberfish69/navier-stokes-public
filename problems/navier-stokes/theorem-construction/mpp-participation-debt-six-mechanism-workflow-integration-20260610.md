@@ -149,8 +149,7 @@ ClayCMContrapositiveEmbedding.A
 The fail branch is exhausted as:
 
 ```text
-not Pack_Q,
-or not Part_{N,Q},
+not Part_{N,Q},
 or Part_{N,Q} + forall r>0 not Field_{N,r,Q},
 then Exit(Q):=not Member(Q).
 ```

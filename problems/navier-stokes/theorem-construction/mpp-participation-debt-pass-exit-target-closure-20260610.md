@@ -89,7 +89,7 @@ exhausted by:
 ```text
 not Pack_Q,
 or Pack_Q + not Part_{N_s,Q},
-or Pack_Q + Part_{N_s,Q} + forall r>0 not Field_{N_s,r,Q}.
+or Part_{N_s,Q} plus Field-window evidence + forall r>0 not Field_{N_s,r,Q}.
 ```
 
 ## Theorem
@@ -116,9 +116,7 @@ O_PD_pass
 
 O_PD_fail
   => CM-test-admissible finite terminal obstruction
-  => not Pack_Q
-     or not Part_{N_s,Q}
-     or forall r>0 not Field_{N_s,r,Q}
+  => not Part_{N_s,Q} or forall r>0 not Field_{N_s,r,Q}
   => Exit(Q):=not Member(Q).
 ```
 
@@ -162,7 +160,7 @@ positive-scale coherent field readout at the depth needed for the `H^s`,
 That is exactly the retained CM witness record:
 
 ```text
-Pack_Q + Part_{N_s,Q} + Field_{N_s,r,Q}.
+Part_{N_s,Q} plus Field-window evidence + Field_{N_s,r,Q}.
 ```
 
 By the installed membership readout, this is a `Member(Q)` branch and gives
@@ -181,7 +179,7 @@ Then `ClayFiniteFailureTypeCMExhaustion.A` gives the first failed face:
 ```text
 not Pack_Q,
 or Pack_Q + not Part_{N_s,Q},
-or Pack_Q + Part_{N_s,Q} + forall r>0 not Field_{N_s,r,Q}.
+or Part_{N_s,Q} plus Field-window evidence + forall r>0 not Field_{N_s,r,Q}.
 ```
 
 By `ClayCMContrapositiveEmbedding.A`, the derived Part/Field failure supports:
@@ -227,7 +225,7 @@ If Pack and Part survive but the retained pressure/field readout has no
 positive coherent scale, the branch lands at:
 
 ```text
-Pack_Q + Part_{N_s,Q} + forall r>0 not Field_{N_s,r,Q}.
+Part_{N_s,Q} plus Field-window evidence + forall r>0 not Field_{N_s,r,Q}.
 ```
 
 There is no separate pressure/flux blocker outside the Part/Field tree.
@@ -302,7 +300,7 @@ vorticity, pressure, source-current, or finite-difference readout on every
 positive terminal scale, it lands at:
 
 ```text
-Pack_Q + Part_{N_s,Q} + forall r>0 not Field_{N_s,r,Q}.
+Part_{N_s,Q} plus Field-window evidence + forall r>0 not Field_{N_s,r,Q}.
 ```
 
 So the return-rate budget has been closed as a CM blocker. A sharp positive
@@ -345,9 +343,7 @@ Combining the four target checks gives:
 
 ```text
 ParticipationDebtFail(O_PD)
-=> not Pack_Q
-   or not Part_{N_s,Q}
-   or forall r>0 not Field_{N_s,r,Q}.
+=> not Part_{N_s,Q} or forall r>0 not Field_{N_s,r,Q}.
 ```
 
 Then:

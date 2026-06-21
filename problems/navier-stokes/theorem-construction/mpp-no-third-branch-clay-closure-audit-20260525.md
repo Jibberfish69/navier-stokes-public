@@ -107,7 +107,7 @@ be derived by a Field-certification exhaustion theorem such as
 ```text
 not Pack_Q,
 or Pack_Q + not Part_{N_s,Q},
-or Pack_Q + Part_{N_s,Q} + forall r>0 not Field_{N_s,r,Q}.
+or Part_{N_s,Q} plus Field-window evidence + forall r>0 not Field_{N_s,r,Q}.
 ```
 
 Only after that Part/Field failure is derived may `ClayCMContrapositiveEmbedding.A`

@@ -204,7 +204,7 @@ holds.
 The critical vorticity bound `(CV)` implies
 
 ```math
-Pack_Q+Part_{N,Q}+Field_{N,r,Q}+\mathfrak A_{N,Q}\in L^\infty(0,T)
+Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}+\mathfrak A_{N,Q}\in L^\infty(0,T)
 ```
 
 on every retained approach family. This proves items 1-5 under `(CV)`.

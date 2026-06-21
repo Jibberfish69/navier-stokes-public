@@ -210,7 +210,7 @@ by definition. That projection is forbidden by the tower-face audit.
 The licensed statement is the retained-branch contradiction:
 
 ```text
-Pack_Q + Part_{N+2,Q} + Field_{N+2,r,Q}
+Part_{N+2,Q} plus Field-window evidence + Field_{N+2,r,Q}
 => not tower-blown.
 ```
 
@@ -219,7 +219,7 @@ family, cannot coexist with retained CM rows at depth `N+2`. It forces failure
 of the retained CM witness package:
 
 ```text
-not Pack_Q or not Part_{N+2,Q} or not Field_{N+2,r,Q}.
+not Part_{N+2,Q} or not Field_{N+2,r,Q}.
 ```
 
 This is a valid `Exit(Q):=not Member(Q)` landing through the Part/Field

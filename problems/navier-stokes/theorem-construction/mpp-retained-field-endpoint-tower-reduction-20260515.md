@@ -97,7 +97,7 @@ On the retained branch `(RFET.1)`,
 Equivalently,
 
 ```math
-Pack_Q+Part_{N,Q}+\Gamma_{\mathrm{pack},Q}\in L^\infty
+Part_{N,Q} plus Field-window evidence+\Gamma_{\mathrm{pack},Q}\in L^\infty
 +\neg Field
 \Longrightarrow
 tower\text{-}blown.

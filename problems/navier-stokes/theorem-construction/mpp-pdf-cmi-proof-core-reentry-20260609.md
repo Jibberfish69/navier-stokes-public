@@ -43,9 +43,8 @@ proves the ordered packet-exhaustion statement after a continuation-complete
 same-solution terminal packet is the object under test:
 
 ```text
-not Pack_Q
-or Pack_Q and not Part_{N_s,Q}
-or Pack_Q and Part_{N_s,Q} and forall r>0 not Field_{N_s,r,Q}.
+not Part_{N_s,Q}
+or Part_{N_s,Q} plus Field-window evidence and forall r>0 not Field_{N_s,r,Q}.
 ```
 
 This is a classification of the failed continuation-complete packet. It is not
@@ -105,7 +104,7 @@ three first-exit faces from original smooth data:
    => Part_{N_s,Q}
    terminal no-drop on the retained same carrier;
 
-3. OriginalSmoothData + Pack_Q + Part_{N_s,Q}
+3. OriginalSmoothData + Part_{N_s,Q} plus Field-window evidence
    => exists r>0 Field_{N_s,r,Q}
    terminal coherence at continuation depth.
 ```

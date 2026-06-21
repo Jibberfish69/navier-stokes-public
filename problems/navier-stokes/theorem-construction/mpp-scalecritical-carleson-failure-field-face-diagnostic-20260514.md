@@ -23,7 +23,7 @@ The installed CM-facing conclusion is:
 On the retained same-fluid branch this reduces to:
 
 ```math
-Pack_Q+Part_{N,Q}+\neg ScaleCriticalTreeCarleson.A
+Part_{N,Q} plus Field-window evidence+\neg ScaleCriticalTreeCarleson.A
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
 ```
@@ -42,7 +42,7 @@ The endpoint refinement is now sharper.  By
 terminal tail with bounded pack gauge,
 
 ```math
-Pack_Q+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 +\forall r>0\,\neg Field_{N,r,Q}
 \Longrightarrow
 tower\text{-}blown,
@@ -157,7 +157,7 @@ Equivalently:
 Thus the retained branch conclusion is:
 
 ```math
-Pack_Q+Part_{N,Q}+\neg ScaleCriticalTreeCarleson.A
+Part_{N,Q} plus Field-window evidence+\neg ScaleCriticalTreeCarleson.A
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
 ```
@@ -201,7 +201,7 @@ This is the actual theorem move inside the pivot:
 \boxed{
 RetainedSCTCFailureFieldExit.A:
 \quad
-Pack_Q+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 +\text{retained terminal }\neg ScaleCriticalTreeCarleson.A
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
@@ -416,7 +416,7 @@ After localization, `RetainedSCTCFailureFieldExit.A` is already supplied by
 
 ```math
 \text{terminal retained positive source-reserve tree}
-+Pack_Q+Part_{N,Q}
++Part_{N,Q} plus Field-window evidence
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
 ```

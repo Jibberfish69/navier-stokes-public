@@ -25,7 +25,7 @@ second one is the still-open noncircular production burden.
 The endpoint/tower reduction proves:
 
 ```math
-Pack_Q+Part_{N,Q}+\Gamma_{\mathrm{pack},Q}\in L^\infty
+Part_{N,Q} plus Field-window evidence+\Gamma_{\mathrm{pack},Q}\in L^\infty
 +\neg Field_{N,r,Q}
 \Longrightarrow
 \neg DTC.TowerPkg_{N+1,Q}.
