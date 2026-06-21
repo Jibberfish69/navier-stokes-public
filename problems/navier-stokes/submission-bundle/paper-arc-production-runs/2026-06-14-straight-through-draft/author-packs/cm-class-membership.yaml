@@ -54,7 +54,7 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-class-membership-constitutive-import-map.md
   repo_sources_excluded:
   - path: problems/navier-stokes/auto-audit.yaml
-    reason: Audit mirror; the section uses the direct CM primitive and Pack/Part/Field
+    reason: Audit mirror; the section uses the direct CM primitive and Part/Field
       law sources instead.
   - path: problems/navier-stokes/campaign-status.yaml
     reason: Campaign status surface; it does not add a new class-membership definition
@@ -109,7 +109,7 @@ source_rewrites:
       class-membership definition.
   - path: problems/navier-stokes/theorem-construction/heat-governed-carrier-synthesis-for-tower-and-shadow-route.md
     reason: Auxiliary carrier/shadow support; membership remains the direct same-fluid
-      Pack/Part/Field certificate.
+      Part/Field certificate.
   - path: problems/navier-stokes/theorem-construction/mcp-averaged-consumer-chain-avg-end-a-6ee93788bd.md
     reason: Averaged downstream consumer chain; this section states the pointwise
       selected-record membership object.
@@ -123,7 +123,7 @@ source_rewrites:
     reason: Terminal-tail readout support; downstream of the membership definition
       written here.
   - path: problems/navier-stokes/theorem-construction/mcp-pointwise-class-readout-to-h-s-continuation-norm-ecq-a-08ac0ba729.md
-    reason: H^s continuation readout bridge; downstream of the Pack/Part/Field membership
+    reason: H^s continuation readout bridge; downstream of the Part/Field membership
       certificate.
   - path: problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md
     reason: Conditional receiver/source completion packet; it belongs to later Field

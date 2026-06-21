@@ -1,8 +1,8 @@
 ---
 version: 1
 kind: ns-paper-arc-author-pack
-arc_id: pack-part-field-grammar
-batch_id: pack-part-field-grammar-current-source-certification-20260614T081705Z
+arc_id: part-field-grammar
+batch_id: part-field-grammar-current-source-certification-20260614T081705Z
 ready_to_apply: true
 source_rewrites:
 - op: certify_existing_section
@@ -21,7 +21,7 @@ source_rewrites:
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
-      role assigned to pack-part-field-grammar.
+      role assigned to part-field-grammar.
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside The Packet Witness without
       requiring an external status report.
@@ -44,7 +44,7 @@ source_rewrites:
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
-      role assigned to pack-part-field-grammar.
+      role assigned to part-field-grammar.
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Packet Failure without
       requiring an external status report.
@@ -67,7 +67,7 @@ source_rewrites:
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
-      role assigned to pack-part-field-grammar.
+      role assigned to part-field-grammar.
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Velocity Failure Mechanisms
       without requiring an external status report.
@@ -104,7 +104,7 @@ source_rewrites:
     reason: Campaign status surface; it does not add proof content beyond the direct
       witness grammar and route-law sources.
   - path: problems/navier-stokes/chat24-status.yaml
-    reason: Chat status note; not manuscript proof authority for Pack/Part/Field
+    reason: Chat status note; not manuscript proof authority for Part/Field
       grammar.
   - path: problems/navier-stokes/current-route-dependency-graph.yaml
     reason: Generated dependency graph; direct route-law and branch-certificate
@@ -131,7 +131,7 @@ source_rewrites:
   - path: problems/navier-stokes/ns-visual-branch-depth-audit-20260531.yaml
     reason: Visual/audit surface; not a direct proof-law source for this text.
   - path: problems/navier-stokes/paper-quality-verdict.yaml
-    reason: Paper-quality verdict; verification surface rather than Pack/Part/Field
+    reason: Paper-quality verdict; verification surface rather than Part/Field
       proof authority.
   - path: problems/navier-stokes/pipeline-state.yaml
     reason: Runtime pipeline state; not manuscript proof authority.
@@ -152,14 +152,14 @@ source_rewrites:
   - path: problems/navier-stokes/submission-bundle/ns-pdf-proof-unit-completion-strategy-20260612.yaml
     reason: Completion strategy surface; batching guidance, not proof content.
   - path: problems/navier-stokes/submission-bundle/pdf-rebuild-branch-section-workplan-20260530.md
-    reason: Workplan; represented by the concrete Pack/Part/Field witness-table
+    reason: Workplan; represented by the concrete Part/Field witness-table
       prose.
   - path: problems/navier-stokes/submission-bundle/source-frontier.yaml
     reason: Frontier index; direct sources are used where they govern this arc.
   - path: problems/navier-stokes/submission-bundle/submission-export-status.yaml
     reason: Export status mirror; not direct manuscript proof authority.
   - path: problems/navier-stokes/submission-bundle/submission-verdict.yaml
-    reason: Submission verdict surface; not direct Pack/Part/Field proof authority.
+    reason: Submission verdict surface; not direct Part/Field proof authority.
   - path: problems/navier-stokes/submission-bundle/theorem-packet.yaml
     reason: Packet index; direct theorem and route-law sources are used instead.
   endpoint_status: silver CM face landing
@@ -167,7 +167,7 @@ source_rewrites:
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
-      role assigned to pack-part-field-grammar.
+      role assigned to part-field-grammar.
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Reading the Witness Table
       without requiring an external status report.
@@ -178,7 +178,7 @@ source_rewrites:
     unresolved_failures: []
     critic_generated_at: '2026-06-14T08:17:05Z'
 author_contract:
-  arc_id: pack-part-field-grammar
+  arc_id: part-field-grammar
   must_write:
   - finished TeX prose, not a report
   - reader-facing explanation before compressed notation

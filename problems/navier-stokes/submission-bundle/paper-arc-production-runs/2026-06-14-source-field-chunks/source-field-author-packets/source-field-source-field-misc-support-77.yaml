@@ -245,7 +245,7 @@ chunk:
 
       Let Forward Wall R3 listed ( W) hold. By definition, the terminal wall belongs to one listed forward-positive route.
 
-      If it is a critical H 1/2 wall, apply R3HHalf Wall ToCMFace.A. This theorem now uses same-witness extraction and the matched Field finite-difference readout, so the frequency-critical branch lands in the same Pack/Part/Field grammar.
+      If it is a critical H 1/2 wall, apply R3HHalf Wall ToCMFace.A. This theorem now uses same-witness extraction and the matched Field finite-difference readout, so the frequency-critical branch lands in the same Part/Field grammar.
 
       If it is an admissible Besov/Lorentz wall, apply R3Besov Lorentz Wall ToCMFace.A. The Besov dyadic branch reduces by Bernstein to the repaired H 1/2 route, while the Lorentz amplitude branch reduces to the installed local L 3 route.
 
@@ -263,7 +263,7 @@ chunk:
 
       The cases exhaust Forward Wall R3 listed by the definition of the listed route family. Hence the umbrella implication holds.
 
-      Thus the umbrella theorem supplies a classified CM face witness on the same witness. It preserves the route discipline that Member(Q) is downstream of the full Pack/Part/Field packet certificate.
+      Thus the umbrella theorem supplies a classified CM face witness on the same witness. It preserves the route discipline that Member(Q) is downstream of the full Part/Field packet certificate.
 
 
     truncated: false
@@ -464,7 +464,7 @@ chunk:
 
     Let Forward Wall R3 listed ( W) hold. By definition, the terminal wall belongs to one listed forward-positive route.
 
-    If it is a critical H 1/2 wall, apply R3HHalf Wall ToCMFace.A. This theorem now uses same-witness extraction and the matched Field finite-difference readout, so the frequency-critical branch lands in the same Pack/Part/Field grammar.
+    If it is a critical H 1/2 wall, apply R3HHalf Wall ToCMFace.A. This theorem now uses same-witness extraction and the matched Field finite-difference readout, so the frequency-critical branch lands in the same Part/Field grammar.
 
     If it is an admissible Besov/Lorentz wall, apply R3Besov Lorentz Wall ToCMFace.A. The Besov dyadic branch reduces by Bernstein to the repaired H 1/2 route, while the Lorentz amplitude branch reduces to the installed local L 3 route.
 
@@ -482,7 +482,7 @@ chunk:
 
     The cases exhaust Forward Wall R3 listed by the definition of the listed route family. Hence the umbrella implication holds.
 
-    Thus the umbrella theorem supplies a classified CM face witness on the same witness. It preserves the route discipline that Member(Q) is downstream of the full Pack/Part/Field packet certificate.
+    Thus the umbrella theorem supplies a classified CM face witness on the same witness. It preserves the route discipline that Member(Q) is downstream of the full Part/Field packet certificate.
 
 
 
@@ -518,7 +518,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
