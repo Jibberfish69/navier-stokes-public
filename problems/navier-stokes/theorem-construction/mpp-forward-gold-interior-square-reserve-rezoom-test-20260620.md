@@ -181,7 +181,7 @@ spatial scale, or
 
 The first branch still needs strict scale descent, source-square, no-free Zeno,
 or compact-profile rigidity to stop infinite repetition.  The second branch is
-a CM-facing Field/height readout only after Pack/Part admission, or a
+a CM-facing Field/height readout only after Part/Field admission, or a
 forward-gold payment only after an active-height cap or strong source-norm
 theorem is proved.
 

@@ -132,7 +132,7 @@ amplitude \(a_j\) costs \(a_j^2r_j\) in physical energy/dissipation while BKM
 sees \(a_j\) and critical norms see powers of \(a_j\).
 
 Therefore these criteria supply either continuation once their hypotheses are
-proved, or CM-facing critical-height/Field readouts after Pack+Part admission.
+proved, or CM-facing critical-height/Field readouts after Part plus Field-window evidence admission.
 They do not supply the same-ledger payment `(IRP.4)`.
 
 ## 5. Promotion table

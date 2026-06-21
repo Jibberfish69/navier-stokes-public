@@ -217,7 +217,7 @@ concentration branch:
 \tag{L3E.17}
 ```
 
-After same-ledger localization and retained Pack/Part, this is exactly the
+After same-ledger localization and retained Part/Field, this is exactly the
 CM-facing critical \(L^3\) / Field-exit readout already recorded in the local
 translator surfaces.  It is not a forward-gold contradiction.
 

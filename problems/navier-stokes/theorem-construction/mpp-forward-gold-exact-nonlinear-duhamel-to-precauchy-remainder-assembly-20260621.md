@@ -10,7 +10,7 @@ ns_viewer:
     Leray-projected nonlinearity N=-P div(v tensor v). Terminal heat smoothing
     does not supply a radius because the terminal sublayer has vanishing heat
     time. Projected-source atoms and any finite-order selected-carrier atoms are
-    already finite-rung Field-facing after same-witness Pack/Part admission. The
+    already finite-rung Field-facing after same-witness Part/Field admission. The
     full native localized positive pre-Cauchy carrier is broader: its main
     trilinear/stretching carrier is consumed, but the selected one-sided
     weighted/lifted/localized remainder survives as the terminal Zeno donor-chain

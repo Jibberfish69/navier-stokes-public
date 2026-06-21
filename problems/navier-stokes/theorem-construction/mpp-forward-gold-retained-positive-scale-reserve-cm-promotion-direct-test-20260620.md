@@ -4,7 +4,7 @@ ns_viewer:
   status: conditional-cm-promotion-proved-forward-payment-not-proved
   proof_role: pack_first_promotion_test_after_unweighted_reserve_failure
   logical_landing_node: retained_positive_scale_reserve_cm_part_field_question_after_admission
-  edge_effect: "Checks the exact Field-certification promotion condition left by the source-reserve audit. Same-ledger payment is not proved. However, once the retained positive-scale first-created reserve is admitted as the same terminal CM witness, the first-Part/Field derivation is automatic: Pack fails, Part fails, or retained Pack+Part plus unbounded active height gives forall r>0 not Field_{N,r,Q}. Thus the remaining non-aliased gold object is still same-ledger payment; the remaining CM-side object is admission, not another active-height theorem."
+  edge_effect: "Checks the exact Field-certification promotion condition left by the source-reserve audit. Same-ledger payment is not proved. However, once the retained positive-scale first-created reserve is admitted as the same terminal CM witness, the first-Part/Field derivation is automatic: Pack fails, Part fails, or retained Part plus Field-window evidence plus unbounded active height gives forall r>0 not Field_{N,r,Q}. Thus the remaining non-aliased gold object is still same-ledger payment; the remaining CM-side object is admission, not another active-height theorem."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-pack-first-source-reserve-face-audit-20260526.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-height-cm-readout-firewall-20260620.md

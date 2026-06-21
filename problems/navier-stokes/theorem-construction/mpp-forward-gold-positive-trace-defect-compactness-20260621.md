@@ -223,7 +223,7 @@ four-body loop:
 \text{terminal trace atom}
 \Longrightarrow
 \text{legal four-body loss, geometry/tower rigidity contradiction, or
-CM Pack/Part/Field face failure.}
+CM Part/Field/Field face failure.}
 }
 \tag{PTD.17}
 ```

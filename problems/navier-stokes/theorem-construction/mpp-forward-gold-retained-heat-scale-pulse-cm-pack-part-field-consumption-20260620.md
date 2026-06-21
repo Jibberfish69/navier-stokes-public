@@ -33,7 +33,7 @@ this note only consumes this branch inside the Part/Field witness tree.
 - `mpp-forward-gold-selected-carrier-cm-service-certification-recheck-20260620.md`.
 - `mpp-terminal-source-residue-cm-exit-20260522.md`.
 - `mpp-terminal-zeno-pack-failure-correction-20260521.md`.
-- `mpp-pack-before-part-dependency-resurfacing-audit-20260620.md`.
+- `mpp-pack-out-of-cm-boundary-resurfacing-audit-20260620.md`.
 - `mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md`.
 - `mpp-any-finite-failure-witness-cm-exit-20260521.md`.
 - `mpp-clay-terminal-witness-invalidation-20260523.md`.
@@ -129,7 +129,7 @@ the same transported carrier family after legal losses and readout-only
 artifacts are removed.
 
 Once `(RHP.9)` is available, the terminal object has only the CM service
-questions, with the Pack-out-of-CM resurfacing audit applied to singular or
+questions, with the Pack-out-of-CM boundary correction audit applied to singular or
 outside-CM packet/window objects:
 
 ```math
@@ -172,7 +172,7 @@ or readout, `(RHP.11)` is the true Pack failure.
 
 ## 4. Part face: retained carrier or resurfaced source participation
 
-Assume now that the carrier survives, or that the Pack-out-of-CM resurfacing
+Assume now that the carrier survives, or that the Pack-out-of-CM boundary correction
 audit has licensed a direct Part test for a singular same-solution terminal
 source record:
 
@@ -272,7 +272,7 @@ readout incompatibility.
 
 ## 6. Part/Field consumption theorem
 
-Combining the three face tests, with the Pack-out-of-CM resurfacing audit
+Combining the three face tests, with the Pack-out-of-CM boundary correction audit
 inserted before any singular `not Pack_Q` disposal, gives the local branch
 theorem:
 
