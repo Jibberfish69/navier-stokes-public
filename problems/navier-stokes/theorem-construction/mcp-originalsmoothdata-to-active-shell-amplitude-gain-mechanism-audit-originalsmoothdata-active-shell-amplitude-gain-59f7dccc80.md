@@ -36,7 +36,7 @@ No available sufficient mechanism proves active-shell amplitude gain from `Origi
 ## Conditional chain preserved
 The downstream chain remains valid as a conditional theorem program:
 
-`active-shell amplitude gain -> scale-normalized nu_SCF Carleson -> Jump_avg eliminated -> PCTP.hard -> terminal Pack/Part/Field/tower readout`.
+`active-shell amplitude gain -> scale-normalized nu_SCF Carleson -> Jump_avg eliminated -> PCTP.hard -> terminal Part/Field/tower readout`.
 
 ## Exact frontier
 The active mathematical target is one source theorem strong enough to rule out active-shell amplitude concentration:

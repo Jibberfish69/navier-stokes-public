@@ -16,7 +16,7 @@ That statement records which continuation service fails. It does not eliminate t
 
 ## Exact inference failure
 
-The surface `mpp-clay-terminal-witness-invalidation-20260523.md` proves that every CM-test-admissible Clay terminal object enters the Pack-before-Part audited CM tree and produces a classified Pack/Part/Field class exit.
+The surface `mpp-clay-terminal-witness-invalidation-20260523.md` proves that every CM-test-admissible Clay terminal object enters the Pack-out-of-CM audited CM tree and produces a classified Part/Field class exit.
 
 Its corollary then treats the absence of an unclassified CM-route counterexample as exclusion of finite-time Clay counterexamples inside the CM route.
 
@@ -54,7 +54,7 @@ The available class-exit theorem supplies E from F. It does not supply contradic
 
 ## Zeno audit
 
-Zeno is not a fourth CM witness face. A Zeno mechanism has proof relevance only through carrier failure, participation failure, or one-field coherence failure. The triad remains Pack, Part, Field.
+Zeno is not a fourth CM witness. A Zeno mechanism has proof relevance only through carrier failure, participation failure, or one-field coherence failure. The triad remains Part and Field.
 
 ## Final determination
 

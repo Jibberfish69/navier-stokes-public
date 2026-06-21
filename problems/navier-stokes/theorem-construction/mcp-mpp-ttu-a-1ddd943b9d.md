@@ -8,7 +8,7 @@ Can the Navier-Stokes MPP proof be certified as complete from the contrapositive
 
 The tested claim fails.
 
-The contrapositive surfaces complete a local CM failure-routing interface. They identify how finite terminal non-continuation or selected analytic surface failure must land in Pack, Part, Field, or a licensed subcase. They leave separate positive supplier and release obligations open.
+The contrapositive surfaces complete a local CM failure-routing interface. They identify how finite terminal non-continuation or selected analytic surPart/Field failure must land in Part and Field, or a licensed subcase. They leave separate positive supplier and release obligations open.
 
 ## Logical reason
 
@@ -18,7 +18,7 @@ finite terminal non-continuation => failure of a continuation-packet slot
 
 or
 
-selected surface failure => Pack exit or Part exit or Field exit
+selected surPart/Field failure => Pack exit or Part exit or Field exit
 
 only supplies a necessary obstruction form. A completed MPP proof additionally needs the impossibility or exclusion of every surviving obstruction under the original smooth-data hypotheses.
 
@@ -31,7 +31,7 @@ The MCP surfaces record those additional needs as separate obligations:
 
 ## Minimal formal separation
 
-Let F mean finite terminal non-continuation. Let B mean the disjunction of all Pack, Part, Field, readout, source-wall, scheduler, high-side, and Zeno failures that the contrapositive surfaces expose.
+Let F mean finite terminal non-continuation. Let B mean the disjunction of all Part and Field, readout, source-wall, scheduler, high-side, and Zeno failures that the contrapositive surfaces expose.
 
 The contrapositive-only record proves at most:
 

@@ -2,13 +2,13 @@
 
 ## Status
 
-Conditional theorem-facing completion of the Pack witness row.
+Conditional theorem-facing completion of the Field-window support row.
 
 The finite-selector retained tail route closes. The continuum active-label case remains governed by the separate uniform selector / uniform strain-tail target.
 
 ## Target
 
-Prove the CM Pack witness row:
+Prove the CM Field-window support row:
 
 ```math
 Pack.TTU \Longrightarrow Pack_Q.
@@ -75,7 +75,7 @@ End_{NS}+StrainTail.TTU+|A_Q|<\infty
 
 ## Continuum-label boundary
 
-For a continuum active-label family, labelwise strain-tail integrability gives pointwise-in-label information. The Pack witness needs the uniform pack gauge
+For a continuum active-label family, labelwise strain-tail integrability gives pointwise-in-label information. The Field-window support needs the uniform pack gauge
 
 ```math
 \int_{t_0}^{T_*}\sup_{a\in A_Q}\|\operatorname{sym}\nabla u(\Phi(a,t),t)\|_{op}\,dt<\infty.

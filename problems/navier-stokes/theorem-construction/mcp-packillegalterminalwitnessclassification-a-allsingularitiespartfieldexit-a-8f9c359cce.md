@@ -193,7 +193,7 @@ Once those bottlenecks close, strict Pack_Q can be recertified as the initial or
 
 ```text
 Pack-illegal terminal objects have already been handled by `Part_{N,Q}` / `Field_{N,r,Q}` or continuation.
-Pack-surviving objects proceed through the ordinary Pack/Part/Field chain.
+Pack-surviving objects proceed through the ordinary Part/Field chain.
 ```
 
 This preserves the user's pivot exactly: Pack_Q becomes safe only after the Pack-blind singular singular cases are tested through `Part_{N,Q}` / `Field_{N,r,Q}`.

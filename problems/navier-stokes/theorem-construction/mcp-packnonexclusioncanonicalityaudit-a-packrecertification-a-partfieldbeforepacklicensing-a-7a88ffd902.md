@@ -1,8 +1,8 @@
-# Audit of Pack Non-Exclusion Route Against Pack/Part/Field Canonicality
+# Audit of Pack Non-Exclusion Route Against Part/Field Canonicality
 
 ## Surfaces audited
 
-This audit uses the current Pack/Part/Field structural surfaces already read in the repo sweep:
+This audit uses the current Part/Field structural surfaces already read in the repo sweep:
 
 ```text
 mpp-pack-part-field-canonicality-reduction-note.md
@@ -68,7 +68,7 @@ The Part/Field-before-Pack route treats this as a structural warning: Pack nonco
 
 ## Audit verdict
 
-The route is compatible with current Pack/Part/Field canonicality and primitive minimality as a conditional refinement.
+The route is compatible with current Part/Field canonicality and primitive minimality as a conditional refinement.
 
 It is licensed only under these boundaries:
 

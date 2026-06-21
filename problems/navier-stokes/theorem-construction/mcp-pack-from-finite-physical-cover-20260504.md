@@ -115,7 +115,7 @@ Since the pack strain integral is finite, both `F` and `F^{-1}` remain bounded o
 \Gamma_{pack,Q}\in L^\infty([t_0,T_*)).
 ```
 
-This is the Pack witness:
+This is the Field-window support:
 
 ```math
 Pack_Q.
