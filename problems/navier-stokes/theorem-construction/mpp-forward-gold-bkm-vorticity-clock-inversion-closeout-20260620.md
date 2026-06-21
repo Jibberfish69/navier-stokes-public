@@ -169,7 +169,7 @@ Thus BKM has the same role as the active-height firewall:
 \boxed{
 \text{unbounded vorticity/strain clock}
 \Longrightarrow
-\text{continuation-clock failure / CM Field readout after Pack+Part}.
+\text{continuation-clock failure / CM Field readout after Part plus Field-window evidence}.
 }
 \tag{BVC.12}
 ```
@@ -186,7 +186,7 @@ It is not the forward-gold source-square theorem:
 ```
 
 The R3 BKM/strain CM note remains the right readout surface after same-ledger
-Pack/Part admission and the exact Field-to-BKM bridge.  This closeout records
+Part/Field admission and the exact Field-to-BKM bridge.  This closeout records
 the forward-gold role: BKM is not an independent anti-atom supplier.
 
 ## Verdict
@@ -208,7 +208,7 @@ or
 
 ```math
 \boxed{
-\text{BKM clock diverges on retained Pack+Part branch}
+\text{BKM clock diverges on retained Part plus Field-window evidence branch}
 \Longrightarrow
 \text{CM Field-facing critical-height readout}.
 }

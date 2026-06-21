@@ -59,7 +59,7 @@ Combining `(FFD.1)` with the already proved Littlewood-Paley finite-difference e
 C\,\mathfrak C_{N(J),r_J,Q}(\mathcal W).
 ```
 
-Hence persistent terminal critical `H^{1/2}` shell energy on retained Pack+Part forces failure of `Field_{N(J),r_J,Q}` at the matched depth and scale.
+Hence persistent terminal critical `H^{1/2}` shell energy on retained Part plus Field-window evidence forces failure of `Field_{N(J),r_J,Q}` at the matched depth and scale.
 
 ## Consequence
 

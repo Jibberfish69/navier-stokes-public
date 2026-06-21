@@ -60,7 +60,7 @@ CriticalFluxAmplitudeSmall.A\text{ failure}.
 
 ## Classification Theorem `FieldSourceResidueJump.A`
 
-Under the retained Pack/Part carrier assumptions, a nonzero terminal native
+Under the retained Part/Field carrier assumptions, a nonzero terminal native
 source/readout residue on the Field face lands in the endpoint cell:
 
 ```math

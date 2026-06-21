@@ -132,7 +132,7 @@ dissipation, incoming flux, legal/boundary exit, or finite CM-face exit.
 
 Therefore every retained no-pay survivor is forced into the Zeno case, and the
 Zeno endpoint is typed before Pack is spent: it lands Part-side when the same
-original-NS original participation record remains, and true `not Pack_Q` only
+original-NS original participation record remains, and true packet/window evidence only
 when that record/carrier/readout is absent.
 
 The stronger forward supplier theorem `PositiveRemainderDepletion.A` remains a

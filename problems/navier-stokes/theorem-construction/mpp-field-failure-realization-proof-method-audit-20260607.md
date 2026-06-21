@@ -43,7 +43,7 @@ Pack_Q
 
 Proof program: Navier-Stokes CM contrapositive class exit.
 
-Target role: Field-face exclusion / retained Pack+Part endpoint bridge.
+Target role: Field-face exclusion / retained Part plus Field-window evidence endpoint bridge.
 
 Logical skeleton: contradiction by terminal same-fluid ontology, or direct
 positive-scale compactness.

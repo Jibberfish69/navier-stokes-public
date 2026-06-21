@@ -79,19 +79,19 @@ terminal L3 Duhamel response mass
 ```
 
 With `ParaproductNativeSourceCapture.A`, the retained nonlinear source work is
-native source residue, selected Pack-side source-wall failure, or paid
-Pack/Part/legal exit.
+native source residue, selected Field-window support source-wall failure, or paid
+Part/legal exit.
 
 The first-Part/Field derivation is therefore:
 
 ```text
-selected Pack-side source-wall failure
+selected Field-window support source-wall failure
 => not Pack_Q,
 
 unpaid terminal native source residue on a retained carrier
 => not Part_{N,Q},
 
-paid Pack/Part/legal terms
+paid Part/legal terms
 => no terminal obstruction row remains.
 ```
 
@@ -128,8 +128,8 @@ finite-obstruction inventory row. That row is now seated:
 
 ```text
 terminal L3 Duhamel mass
-=> Pack/Part/legal Part/Field landing,
-and under retained Pack+Part
+=> Part/legal Part/Field landing,
+and under retained Part plus Field-window evidence
 => Field Part/Field landing.
 ```
 

@@ -220,7 +220,7 @@ regularity criteria:
 
 It does not give the forward-gold contradiction.  It gives a visible
 critical-concentration branch.  In the CM-facing grammar, after same-solution
-localization and retained Pack/Part are secured, that branch is a Field-type
+localization and retained Part/Field are secured, that branch is a Field-type
 readout rather than a proof that the heat-scale pulse cannot occur.
 
 ## 4. Why CKN and Serrin do not remove the radius discount
