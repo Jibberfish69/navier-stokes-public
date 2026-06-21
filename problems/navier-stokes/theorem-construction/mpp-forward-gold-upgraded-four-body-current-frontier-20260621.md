@@ -10,6 +10,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-deformation-gradient-return-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-packet-selector-polar-retention-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-four-body-terminal-atom-accounting-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -214,6 +215,34 @@ dK_C^+\text{ is a charged no-loss defect.}
 }
 \tag{4BF.14}
 ```
+
+The selected-carrier tightness defect is now part of this same Body-III
+failure.  If \(\mu_n^A\) is the nonnegative selected carrier measure, define
+
+```math
+K_{\rm tight}^A
+:=
+\lim_{j\to\infty}\limsup_{n\to\infty}
+\mu_n^A(C\setminus C_j).
+\tag{4BF.14a}
+```
+
+Then the compactness estimate reads
+
+```math
+\limsup_{n\to\infty}A_{\rm sel}(X_n)
+\le
+A_{\rm ret}(X)
++
+K_C^+
++
+\limsup_n(K_{{\rm sel},n}+R_{{\rm legal},n}),
+\tag{4BF.14b}
+```
+
+with \(K_{\rm tight}^A\) included in \(K_C^+\).  Hence non-tight selected
+carrier mass is lost positive carrier for Body III, and a lossless cycle with
+\(K_C^+=0\) forces tightness.
 
 ## 4. Body IV gives the geometry return arrow, not the unweighted clock
 
@@ -459,13 +488,13 @@ the existing selector/compactness/legal defects \(K_{\rm sel}\), \(K_C^+\), or
 
 The measure-level way to produce `(4BF.31a)` is also exact.  In the finite
 selected tower packet, the nonnegative selected carrier measure is the measure
-with density \([h_P]_+\) on the extended carrier.  Body III still must prove
-tightness of those measures on the normalized same-carrier carrier and identify
-their weak limit with the canonical selected carrier of the limiting
-Navier-Stokes profile up to \(K_C^+\).  The tightness clause is now decomposed
-into domain escape, label/selector escape, and tower-rung escape, with
-small-set UI as the consumer for moving gauge or collar defects.  Signed-current
-compactness alone is not enough, because it can cancel the positive carrier.
+with density \([h_P]_+\) on the extended carrier.  Body III must identify the
+interior weak limit with the canonical selected carrier of the limiting
+Navier-Stokes profile up to \(K_C^+\).  Tightness is no longer an uncharged
+side assumption: failure of tightness is included in \(K_C^+\), and the
+tightness decomposition says this failure is domain escape, label/selector
+escape, or tower-rung escape.  Signed-current compactness alone is not enough,
+because it can cancel the positive carrier.
 
 ## 8. Current conclusion
 
