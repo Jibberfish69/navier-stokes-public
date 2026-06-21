@@ -157,7 +157,7 @@ packet.  It must be forced into one of the following outcomes:
 2. legal, projected, cutoff, pressure, donor, or earlier-slice payment already
    accounted for in the ledger;
 3. a terminal dissipation/CKN modulus strong enough to kill the packet;
-4. a Pack/Part/Field face failure;
+4. a Part/Field Part/Field failure;
 5. direct `(LPAS)`.
 
 The current theorem stack has not installed that dichotomy.  Without it,
@@ -178,7 +178,7 @@ It must prove that a retained coherent positive `H^1` Volterra stress packet on
 terminal heat-scale windows either produces a same-window native positive
 source/residue event, is paid by an installed legal or earlier-slice ledger, is
 killed by a terminal CKN/dissipation modulus, lands in a concrete
-Pack/Part/Field face failure, or proves `(LPAS)` directly.
+Part/Field Part/Field failure, or proves `(LPAS)` directly.
 
 ## Closure impact
 

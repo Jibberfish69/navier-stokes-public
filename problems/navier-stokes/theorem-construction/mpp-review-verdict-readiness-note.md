@@ -30,11 +30,11 @@ Expanded:
 1. `cm-direction-alignment`: active theorem edges must be typed against
    `Exit(Q):=not Member(Q)`.  The installed CM theorem is the one-way certificate
    `CM=>Member`, while first class-exit is witnessed by first failure of
-   Pack/Part/Field.  The blunt converse `not CM=>not Member` is not installed.
+   Part/Field.  The blunt converse `not CM=>not Member` is not installed.
 2. `OriginalSmoothData=>SourcePulseExclusion.A`: the active branch-native
    source-pulse primitive, equivalently elimination of the singular native
    positive active source measure, but only as branch support until bridged into
-   the Pack / Part / Field witness faces.
+   the Pack / Part / Field witnesss.
 3. `NativeTrilinearDefectDomination.A / mu_*^sing=0`: the current narrow
    measure/PDE form of the same obstruction.
 4. `terminal-tail bridge composition`: the route formula

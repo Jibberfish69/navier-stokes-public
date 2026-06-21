@@ -7,7 +7,7 @@ theorem stack.
 
 This pass tests whether the coherent positive Volterra stress worst case can be
 tethered to a same-solution terminal packet that either pays dissipation on the
-same windows or enters an installed Pack/Part/Field face bridge.
+same windows or enters an installed Part/Field face bridge.
 
 ## Target
 
@@ -24,7 +24,7 @@ produce one of the following certified landings:
 1. same-window source/dissipation tether plus uniform terminal anti-atom
    modulus;
 2. `B_ASAC` / zero-heat-time source-residue / strain-alignment hypotheses
-   sufficient for the installed CM face bridge;
+   sufficient for the installed CM Part/Field bridge;
 3. direct strain-stress alignment exclusion;
 4. direct `(LPAS)`.
 
@@ -52,7 +52,7 @@ or paid-exit bookkeeping.
 ```
 
 Those missing fields are exactly the difference between "large positive stress"
-and "a same-solution terminal obstruction that can be consumed by the CM face
+and "a same-solution terminal obstruction that can be consumed by the CM Part/Field
 tree."
 
 ## Same-window source/dissipation tether test
@@ -77,7 +77,7 @@ Carleson, coefficient, or source-visibility theorem.
 
 So the same-window source/dissipation tether is not installed.
 
-## CM face-entry test
+## CM Part/Field-entry test
 
 The installed terminal strain-alignment face bridge consumes a very specific
 object:
@@ -94,7 +94,7 @@ The coherent Volterra stress packet is not yet proved to be that object. It is
 not yet tied to a `B_ASAC` source residue, and the zero-heat-time source-residue
 hypothesis is not a consequence of stress co-location alone.
 
-So CM face-entry is conditional on a new source-visibility and packet-entry
+So CM Part/Field-entry is conditional on a new source-visibility and packet-entry
 theorem.
 
 ## Strain-stress alignment exclusion test

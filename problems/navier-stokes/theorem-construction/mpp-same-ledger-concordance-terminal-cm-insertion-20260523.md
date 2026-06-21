@@ -2,8 +2,8 @@
 
 Date: 2026-05-23
 
-Status: theorem-facing bridge insertion for the terminal CM packet. This closes
-the generated-surface gap where Pack, Part, and Field were listed as separate
+Status: theorem-facing bridge insertion for the terminal CM participation-field record. This closes
+the generated-surface gap where Part and Field were listed as separate
 receipts without first putting them on one retained witness ledger. It does not
 prove `TerminalCMNoExit.A / NoGenuineCMExit.A`.
 
@@ -23,13 +23,13 @@ Pack_Q(\mathcal W)\wedge Part_{N,Q}(\mathcal W)\wedge Field_{N,r,Q}(\mathcal W).
 ```
 
 The missing upstream step is not another supplier theorem. It is the compactness
-and restriction step that puts localized Pack, Part, and Field support onto the
+and restriction step that puts localized Part and Field support onto the
 same retained packet, same carrier, same terminal subwindow, and same positive
 scale lineage.
 
 ## Statement
 
-Fix `Q` and `N`. Suppose the three CM faces have localized certificates on
+Fix `Q` and `N`. Suppose the three CM Part/Fields have localized certificates on
 compatible same-fluid ledgers over the same solution and carrier family:
 
 ```math
@@ -41,7 +41,7 @@ Assume:
 1. the ledgers share the same carrier class, same `Q`, same depth `N`, and
    compatible same-fluid terminal-window lineage;
 2. the three terminal windows have a common still-live terminal subwindow;
-3. `FaceRestrictionHeredity.A` holds for Pack, Part, and Field;
+3. `FaceRestrictionHeredity.A` holds for Part and Field;
 4. Field retains a positive synchronization scale:
 
 ```math
@@ -87,10 +87,10 @@ same-ledger consumer `CM.CrossFaceSynthesis.A` applies.
 This insertion repairs the bridge order:
 
 ```text
-localized Pack/Part/Field rows
+localized Part/Field rows
 => SameLedgerConcordance.A
 => CM.CrossFaceSynthesis.A
-=> CM packet / Member downstream
+=> CM participation-field record / Member downstream
 ```
 
 The insertion does not erase the remaining no-exit burden. `FaceRestrictionHeredity.A`
@@ -116,7 +116,7 @@ or an equivalent positive-scale carrier / zero-scale ancestry exclusion theorem.
 ## Verdict
 
 `SameLedgerConcordance.A` is the missing upstream bridge for generated surfaces
-that list Pack, Part, and Field separately. It is installed as a conditional
+that list Part and Field separately. It is installed as a conditional
 same-ledger insertion:
 
 ```math
@@ -127,5 +127,5 @@ SameLedgerConcordance.A.
 ```
 
 It keeps supplier and readout objects quarantined until a named theorem lands
-them in Pack, Part, or Field. `Member(Q)` remains downstream of the CM witness
+them in Part or Field. `Member(Q)` remains downstream of the CM witness
 certificate.

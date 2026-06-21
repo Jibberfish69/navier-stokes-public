@@ -10,7 +10,7 @@ claim_boundary:
   edge_effect: "Tests whether finite Clay breakdown entry, same-solution terminal-record custody, and smooth preterminal Pack service alone exclude a proof-bearing first Pack face. They do not: smooth service on every t<T_* does not supply a uniform terminal Pack modulus at T_*."
   downstream_consequence: "The active loop remains open below OriginalSmoothDataPackSurvival.A. Future progress must supply an actual terminal uniformity theorem for Pack service, a new first-Pack survival mechanism, or a theorem proving that terminal loss of Pack occurs early enough to contradict preterminal smoothness. pdfs_final remains false."
 evidence_refs:
-  - problems/navier-stokes/theorem-construction/mpp-no-proof-bearing-first-face-failure-target-audit-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-no-proof-bearing-first-Part/Field-failure-target-audit-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-clay-cm-counterexample-exclusion-direct-bridge-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-clay-breakdown-preterminal-reflection-proof-attempt-20260524.md
   - problems/navier-stokes/theorem-construction/mpp-first-exit-pack-survival-mechanism-search-20260609.md
@@ -42,7 +42,7 @@ finite Clay breakdown
 => same original datum
 => same classical branch on [0,T_*)
 => same-solution terminal record Q
-=> Pack/Part/Field face classification.
+=> Part/Field face classification.
 ```
 
 On each compact preterminal interval, the classical solution supplies the
@@ -79,8 +79,8 @@ terminal limit.
 The older preterminal-reflection attempt already isolates the failure:
 
 ```text
-terminal face failure
-=> earlier still-live face failure
+terminal Part/Field failure
+=> earlier still-live Part/Field failure
 ```
 
 is not available without the same missing terminal compactness theorem. A

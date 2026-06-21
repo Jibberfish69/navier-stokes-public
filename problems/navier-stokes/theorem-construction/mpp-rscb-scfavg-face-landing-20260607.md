@@ -3,7 +3,7 @@ ns_viewer:
   theorem_id: rscb-scfavg-face-landing
   proof_role: cm_class_exit
   logical_landing_node: rscb_nkf
-  edge_effect: after the June 6 route cut, retained point-center failure and averaged cover failure must be typed as pass route or first CM face, not revived as finite-energy NKF.Native.
+  edge_effect: after the June 6 route cut, retained point-center failure and averaged cover failure must be typed as pass route or first CM Part/Field, not revived as finite-energy NKF.Native.
   upstream_origin: finite-energy point-pressure derivative obstruction, retained RSCB.NKF route, and averaged SCF_avg route.
   downstream_consequence: Use this as the branch-law intake for terminal retained/averaged receiver failures before claiming Exit(Q):=not Member(Q); averaged Jump_avg lands in the Field face by AveragedFieldFaceAdmission.A only after the same-tail SCF_base local modulus is supplied or derived.
   status: conditional-on-scfbase-local-modulus
@@ -62,7 +62,7 @@ That implication is false.
 
 ## Face Landing
 
-Let a terminal same-fluid receiver object be admitted to the CM packet test
+Let a terminal same-fluid receiver object be admitted to the CM participation-field test
 after the retained/averaged split. The branch-law is:
 
 1. If the retained smooth center-ball hypotheses are present, the branch is a
@@ -98,10 +98,10 @@ after the retained/averaged split. The branch-law is:
    \neg Field_{N,r,Q}\text{ at that }r.
    ```
 
-   The all-radii Field-face landing follows only after every retained positive
+   The all-radii Field-Part/Field landing follows only after every retained positive
    Field scale supplies that modulus.
 
-Only after one of those face failures is derived can this branch support:
+Only after one of those Part/Field failures is derived can this branch support:
 
 ```math
 Exit(Q):=\neg Member(Q).
@@ -115,4 +115,4 @@ The averaged cover failure no longer points first to the stronger unresolved
 Field-face route still needs the same-tail `SCF_base` modulus in
 `AveragedFieldFaceAdmission.A`. The Clay-facing object still uses the canonical
 terminal witness entry and finite failure-type exhaustion chain before the
-derived face failure supports `Exit(Q):=\neg Member(Q)`.
+derived Part/Field failure supports `Exit(Q):=\neg Member(Q)`.

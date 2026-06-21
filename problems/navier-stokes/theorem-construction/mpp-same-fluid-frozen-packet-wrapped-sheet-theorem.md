@@ -218,7 +218,7 @@ So the whole-volume frozen mode is stationary in the zero-mean torus branch.
 A proper finite-thickness wrapped sheet can still be advected by the common
 fluid field, but that translation is not an independent solid-wall motion. It
 must be the trace of the same `u,p,\Phi` and must pass through the same collar,
-Pack, Part, and Field tests as the surrounding fluid.
+Part and Field tests as the surrounding fluid.
 
 ## Corollary `FSW.B` (The wrapped sheet is constrained, not automatically dead)
 
@@ -269,7 +269,7 @@ readout.
 
 If the sheet nevertheless claims a dead endpoint, an autonomous wall, or any
 other nonparticipating geometry, then the exact witness cannot remain installed.
-By `CMW.A` and `OP.R`, the failure lands in Pack, Part, or Field. `\square`
+By `CMW.A` and `OP.R`, the failure lands in Part or Field. `\square`
 
 ## Proposition `FSW.C` (No autonomous frozen-wall fourth branch)
 
@@ -280,7 +280,7 @@ frozen-feeling sheet has exactly two legal statuses:
 \boxed{
 \text{same-fluid constrained participation}
 \quad\text{or}\quad
-\text{Pack/Part/Field face failure.}
+\text{Part/Field Part/Field failure.}
 }
 \tag{FSW.10}
 ```
@@ -293,7 +293,7 @@ solution.
 The torus global material atlas surface says that the terminal object on `T^3`
 is the whole transported same-fluid atlas. Its services are carrier/readout
 packing, pressure-viscosity participation, and positive-scale one-field
-coherence. Those are exactly Pack, Part, and Field.
+coherence. Those are exactly Part and Field.
 
 A wrapped frozen-feeling sheet compatible with this atlas is a constrained
 same-fluid packet. By `FSW.B`, it remains a class-member readout while the CM
@@ -302,7 +302,7 @@ witness holds.
 An autonomous wall is different: it asserts motion, rigidity, or separation not
 coming from the same restricted `u,p,\Phi`. That contradicts the induced-object
 clause of `CMW.A` and the no-autonomous-local-sharpening conclusion of `OP.R`.
-Hence it must be read as failure of at least one CM face, not as a fourth
+Hence it must be read as failure of at least one CM Part/Field, not as a fourth
 solution type. `\square`
 
 ## Whole-Space `R^3` Branch
@@ -382,7 +382,7 @@ In `R^3`, the ice-sheet question splits into exactly these legal cases:
 \boxed{
 \text{claimed autonomous moving wall}
 \Rightarrow
-\text{whole-space admissibility failure or Pack/Part/Field face failure.}
+\text{whole-space admissibility failure or Part/Field Part/Field failure.}
 }
 \tag{FSW.16}
 ```
@@ -446,7 +446,7 @@ wall:
 
 This is the analytic version of the thought experiment: the ice cube is
 permitted, the wrapped sheet is permitted only as a constrained same-fluid packet,
-and autonomous solid-wall behavior is forced back into Pack/that face failure.
+and autonomous solid-wall behavior is forced back into Pack/that Part/Field failure.
 
 ## What This Surface Does And Does Not Prove
 

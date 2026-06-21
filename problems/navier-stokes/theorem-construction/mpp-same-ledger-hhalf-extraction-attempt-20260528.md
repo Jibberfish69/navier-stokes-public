@@ -2,7 +2,7 @@
 
 ## Status
 
-Installed extraction theorem for the `H^{1/2}` CM face route.
+Installed extraction theorem for the `H^{1/2}` CM Part/Field route.
 
 ## Target
 

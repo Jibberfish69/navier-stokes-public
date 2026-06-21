@@ -26,7 +26,7 @@ heat-scale windows, prove one of:
 2. payment by an installed legal, projected, cutoff, pressure, donor, or
    earlier-slice ledger;
 3. terminal CKN/dissipation modulus killing the packet;
-4. concrete Pack/Part/Field face failure;
+4. concrete Part/Field Part/Field failure;
 5. direct `(LPAS)`.
 
 ## Weak Duhamel split
@@ -138,7 +138,7 @@ for the one-sided selected source current.
 
 So legal payment is conditional, not installed.
 
-## CM face branch
+## CM Part/Field branch
 
 A terminal source-balanced refill event can be typed inside the CM witness tree
 once it has been admitted as a same-solution terminal source/residue object.
@@ -148,10 +148,10 @@ That gives support for
 Exit(Q):=not Member(Q)
 ```
 
-through Pack/Part/Field.  It does not by itself prove the public first-exit
+through Part/Field.  It does not by itself prove the public first-exit
 survival theorem from original smooth data.  The bridge still needs either a
 reserve spend that prevents the first exit, a no-genuine-exit theorem, or a
-checked explanation that the face landing itself excludes the finite Clay
+checked explanation that the Part/Field landing itself excludes the finite Clay
 counterexample rather than merely classifying it.
 
 ## Verdict

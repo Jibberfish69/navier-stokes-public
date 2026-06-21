@@ -4,14 +4,14 @@ ns_viewer:
   status: superseded-wrong-silver-target-positive-supplier-context
   proof_role: positive_supplier_bridge_attempt
   logical_landing_node: gold_positive_first_pack_survival_context
-  edge_effect: "Tests whether the Pack/tower branch split and retained CM tower-bound bridge prove ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A. They do not. The tower-bound bridge consumes tower-blown only on the retained Pack+Part+Field branch. A first Pack failure is not retained, so the retained tower bridge does not exclude it. The 2026-06-19 Silver correction supersedes the public-finality reading: after same-solution CM-test entry, a concrete Pack/Part/Field face failure is the Silver contrapositive witness, not a branch that must be deleted by NoGenuineExitFromSmoothData.A. OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A remains Gold/positive supplier or manuscript support unless a fresh surface names a concrete unconsumed Silver row."
+  edge_effect: "Tests whether the Pack/tower branch split and retained CM tower-bound bridge prove ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A. They do not. The tower-bound bridge consumes tower-blown only on the retained Pack+Part+Field branch. A first Pack failure is not retained, so the retained tower bridge does not exclude it. The 2026-06-19 Silver correction supersedes the public-finality reading: after same-solution CM-test entry, a concrete Part/Field Part/Field failure is the Silver contrapositive witness, not a branch that must be deleted by NoGenuineExitFromSmoothData.A. OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A remains Gold/positive supplier or manuscript support unless a fresh surface names a concrete unconsumed Silver row."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-retained-cm-towerbound-bridge-proof-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-pack-ttu-supremal-strain-tower-dichotomy-proof-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-first-exit-pack-survival-mechanism-search-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-original-smooth-data-pack-survival-scalecritical-reentry-20260609.md
-  downstream_consequence: "Do not use this note to reopen the accepted Silver CM face-failure route. In Gold/positive supplier context, the remaining first-Pack-survival atom is OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A, with child RetainedPositiveScaleNativeReserveBirthCharge.A or an equivalent non-alias first-Pack-survival mechanism."
+  downstream_consequence: "Do not use this note to reopen the accepted Silver CM Part/Field-failure route. In Gold/positive supplier context, the remaining first-Pack-survival atom is OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A, with child RetainedPositiveScaleNativeReserveBirthCharge.A or an equivalent non-alias first-Pack-survival mechanism."
 ---
 
 # MPP Same-Witness Clay Exclusion Propagation Direct Attempt
@@ -21,7 +21,7 @@ Date: 2026-06-09
 Status: superseded as a Silver/public-finality burden; retained only as
 Gold/positive supplier context. This note corrects the attempted propagation
 after the Pack/tower branch work and is now read through the 2026-06-19 Silver
-CM face-failure correction.
+CM Part/Field-failure correction.
 
 ## 2026-06-20 route correction
 
@@ -29,7 +29,7 @@ The original version of this note stated that public Clay finality still needed
 `NoGenuineExitFromSmoothData.A` or `OriginalSmoothDataPackSurvival.A`. That is
 stale for the accepted Silver route.
 
-After same-solution terminal CM-test entry, a concrete Pack/Part/Field face
+After same-solution terminal CM-test entry, a concrete Part/Field face
 failure is already the Silver contrapositive witness supporting
 
 ```text
@@ -42,7 +42,7 @@ It is not a remaining finite-breakdown branch that must be separately deleted by
 The theorem atoms named below remain meaningful only in the Gold/positive
 supplier context, or in manuscript support, unless a future surface names a
 concrete promoted finite-breakdown row that enters the CM test and still neither
-continues, reads out, nor lands in a real Pack/Part/Field face failure.
+continues, reads out, nor lands in a real Part/Field Part/Field failure.
 
 ## Target
 
@@ -77,7 +77,7 @@ Pack_Q + Part_{N,Q} + Field_{N,r,Q}
 ```
 
 The retained tower bridge strengthens this pass branch. It says that once
-Pack, Part, and Field are retained at one higher endpoint depth, the tower face
+Part and Field are retained at one higher endpoint depth, the tower face
 cannot survive as a fourth endpoint residue.
 
 That is useful. It prevents this invalid move:
@@ -119,7 +119,7 @@ no tower-blown => Pack_Q.
 Equivalently, if Pack fails, the failure must be accompanied by tower escape or
 some loss that prevents the no-tower branch. That is classification. It is not
 a contradiction with a finite Clay breakdown, because a finite Clay breakdown
-may present exactly as a Pack face failure unless a further theorem forbids
+may present exactly as a Pack Part/Field failure unless a further theorem forbids
 original smooth data from realizing that face.
 
 ## Correct Positive-Supplier Wall
@@ -169,7 +169,7 @@ proved by the Pack/tower branch results.
 
 It is also not a Silver blocker after the 2026-06-19 correction. For Silver, a
 same-solution terminal object that enters the CM test and lands in a concrete
-Pack/Part/Field face failure has been consumed as the contrapositive witness.
+Part/Field Part/Field failure has been consumed as the contrapositive witness.
 
 The new branch results remain real progress:
 
@@ -194,10 +194,10 @@ or an equivalent non-alias first-Pack-survival mechanism.
 ## New Live Criticism
 
 `NS-LIVE-20260609-163`: the same-witness Clay exclusion propagation is not
-proved. The retained tower-bound bridge applies only after Pack, Part, and Field
+proved. The retained tower-bound bridge applies only after Part and Field
 are retained; it cannot exclude a first Pack failure, because that branch has
 `not Pack_Q` at the root. The later Silver correction supersedes this as a
-public-finality blocker: the first Pack failure is a CM face failure once the
+public-finality blocker: the first Pack failure is a CM Part/Field failure once the
 same-solution terminal object has entered the CM test. In Gold/positive supplier
 context, the remaining atom is
 `OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A`, with the next
