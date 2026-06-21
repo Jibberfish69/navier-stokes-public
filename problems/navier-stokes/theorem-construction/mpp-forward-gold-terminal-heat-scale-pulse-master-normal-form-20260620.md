@@ -26,6 +26,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-element-minimality-discount-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-first-created-reserve-source-square-energy-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-atom-forces-finite-order-readout-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-order-selected-carrier-atom-to-cm-field-face-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-readout-quantum-global-budget-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-readout-to-critical-budget-identification-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-combined-holder-density-budget-direct-test-20260621.md
@@ -500,6 +501,8 @@ status:
 \text{after same-witness Pack+Part, finite-rung Sobolev Field coherence implies an }L^5\text{ upper bill and is contradicted}\\
 \text{projected-source atom finite-rung Field face} &
 \text{after same-witness Pack+Part, finite-rung Sobolev Field coherence bounds }N=-\mathbb P\nabla\cdot(v\otimes v)\text{ in }L^\infty\text{ and forbids a projected-source atom}\\
+\text{finite-order selected carrier Field face} &
+\text{after same-witness Pack+Part, any carrier bounded by a fixed finite-order readout is forbidden by finite-rung Field coherence}\\
 \text{same-carrier }p>1\text{ / Orlicz} &
 \text{consumer of tail UI; production absent}\\
 \text{source-square / Carleson} &
