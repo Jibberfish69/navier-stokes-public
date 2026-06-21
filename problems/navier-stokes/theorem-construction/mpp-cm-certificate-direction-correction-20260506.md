@@ -4,6 +4,21 @@
 
 This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
 
+## 2026-06-20 Part Ontology Correction
+
+`Part` is not created by the CM certificate.  The original incompressible
+Navier--Stokes law is the participation ontology of the candidate solution:
+the same velocity-pressure pair satisfies the pressure-viscosity equation and
+incompressibility under the fixed viscosity and the same initial datum.
+
+The indexed symbol `Part_{N,Q}` is only the finite-depth, packet-local Silver
+record of that already-governing law on the selected record `Q`.  It is not a
+second participation source, and it is not supplied by `Pack_Q`.
+
+Thus the certificate notation below is route-relative witness notation.  It is
+allowed to certify membership only for an already original-NS participating
+candidate; it does not define what it means to be an NS participant.
+
 ## Status
 
 Direction audit for the class-membership witness surfaces.
@@ -51,8 +66,10 @@ Exit(Q;\mathfrak O_{NS}^{work})
 :=
 \neg Member(Q;\mathfrak O_{NS}^{work}).
 ```
-`Pack`, `Part`, and `Field` are the canonical route-relative primitive services
-on `(u,p,\Phi,F)`.  They form the witness envelope used to certify membership.
+`Pack`, indexed `Part`, and `Field` are the canonical route-relative witness
+records on `(u,p,\Phi,F)`.  They form the Silver witness envelope used to
+certify membership after the original Navier--Stokes participation law has
+already supplied the object under test.
 
 The installed first-exit statement is only the route-relative endpoint
 decomposition:
@@ -132,8 +149,11 @@ membership or a necessary characterization of membership on the route.
 
 ## Safe Claim
 
-NS-MPP has installed `CM` as an exact analytic certificate for membership and
-has installed `Pack/Part/Field` as the canonical route-relative witness envelope.
+NS-MPP has installed `CM` as an exact analytic certificate for membership for
+an original-NS participating candidate, and has installed `Pack/Part/Field` as
+the canonical route-relative witness envelope.  The certificate does not make
+`Pack` the source of participation and does not make indexed `Part_{N,Q}` the
+ontology of the solution.
 It has not installed the blunt converse witness theorem
 
 ```math
