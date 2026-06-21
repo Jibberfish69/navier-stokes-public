@@ -7,7 +7,7 @@ forward-positive program is followed until it reaches a genuine same-solution
 obstruction. At that obstruction the proof separates the pass branch from the
 fail branch. The pass branch gives a lawful `Member(Q)` continuation and reads
 out to the usual smooth continuation bound. The fail branch is admitted to the
-same-fluid CM terminal packet tree, exhausted as a Pack, Part, or Field finite
+same-fluid CM terminal participation-field tree, exhausted as a Part or Field finite
 failure type, and embedded as `Exit(Q):=not Member(Q)`.
 
 The Clay-facing chain is:
@@ -15,7 +15,7 @@ The Clay-facing chain is:
 ```text
 finite Clay breakdown witness
   -> CM-test entry
-  -> Pack/Part/Field finite failure type
+  -> Part/Field finite failure type
   -> Exit(Q):=not Member(Q).
 ```
 
@@ -40,10 +40,10 @@ divergence-free data.
 ## External-review checklist
 
 1. Verify that the manuscript states the governing primitive as `Exit(Q):=not Member(Q)`.
-2. Verify that `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}` are witness faces, while `Member(Q)` is the downstream class-membership predicate.
-3. Verify finite Clay witness entry into the same-fluid CM terminal packet tree.
-4. Verify finite failure type exhaustion by Pack, Part, and Field.
-5. Verify that the derived face failure embeds as `Exit(Q):=not Member(Q)`.
+2. Verify that `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}` are witnesss, while `Member(Q)` is the downstream class-membership predicate.
+3. Verify finite Clay witness entry into the same-fluid CM terminal participation-field tree.
+4. Verify finite failure type exhaustion by Part and Field.
+5. Verify that the derived Part/Field failure embeds as `Exit(Q):=not Member(Q)`.
 6. Verify pass-side non-vacuity by a lawful smooth / `Member(Q)` witness for each obstruction split.
 7. Verify the no-third-branch law: no branch is both an in-class continuation and the terminal nonsmooth failure witness.
 8. Verify that positive no-exit, source-reserve, no-free-sink, and no-pulse surfaces are treated as support unless they satisfy one reopening test.

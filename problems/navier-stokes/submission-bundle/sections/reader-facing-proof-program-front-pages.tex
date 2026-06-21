@@ -53,7 +53,7 @@ The reader-facing route is:
   &\longrightarrow
   \hbox{Class Membership}\\
   &\longrightarrow
-  \hbox{Pack/Part/Field witness faces}\\
+  \hbox{Part/Field witnesss}\\
   &\longrightarrow
   \Exit(Q):=\neg\Member(Q).
 \end{aligned}
@@ -80,7 +80,7 @@ labels, and leaf abbreviations are authoring coordinates.  They do not become
 formal cross-reference environments by themselves.  A repo surface enters the
 paper only when the manuscript says what mathematical object it controls, where
 it belongs in the proof route, and whether it pays a continuation readout,
-selects a same-solution terminal object, proves a Pack/Part/Field face failure,
+selects a same-solution terminal object, proves a Part/Field Part/Field failure,
 or remains support.
 
 \section{Proof program ((demonstrated and explained with example)(full top-level reasoning and train-of-thought)(reader facing walkthrough))}
@@ -198,13 +198,13 @@ terminal object.
 The non-smooth side is handled by class membership exit.  Once \(Q\) is
 admitted as the same-solution terminal object under test, the proof asks
 whether \(Q\) can remain a member of the working Navier--Stokes class.  If the
-first failed face is Pack, Part, or Field, then
+first failed face is Part or Field, then
 \[
   \Exit(Q):=\neg\Member(Q).
 \]
 That is the exhaustive contrapositive: every admitted non-smooth terminal
 scenario must either pass as the continuation/member side or exit through the
-first failed witness face.
+first failed witness.
 
 \subsubsection{Class Membership}
 
@@ -250,14 +250,14 @@ and the differentiated law
 This tower is the original Navier--Stokes law read at higher derivative depth.
 
 \item[\textbf{Failure types (reclassified from 5.1.4): Dead, Jump, Blown, Euler by comparison.}]
-The failure types are reclassified only after the Pack/Part/Field test is in
+The failure types are reclassified only after the Part/Field test is in
 place.  Dead is the Part-side loss of same-object dynamics.  Jump is the
-Field-side loss of one coherent field.  Blown is routed by the first face it
+Field-side loss of one coherent field.  Blown is routed by the first Part/Field it
 destroys: carrier loss is Pack, same-law tower loss is Part, and retained
 positive-window unbounded field after Pack and Part survive is Field.  Euler
 by comparison is a boundary reading against the fixed-viscosity
 Navier--Stokes class; it helps only after a fixed-\(\nu\) transfer or a
-same-solution face landing has been written.
+same-solution Part/Field landing has been written.
 
 \item[\textbf{Insights (viscosity reimagined as a tether, think honey pulling itself out of a container).}]
 Viscosity is reimagined as a tether.  Think of honey pulling itself out of a
@@ -296,7 +296,7 @@ export from compact-core control become part of the object language.
 \subsubsection{Smoothness Certification Window and Witnesses}
 
 The smoothness certification window is where the alleged terminal object is
-tested.  The witnesses are Pack, Part, and Field.
+tested.  The witnesses are Part and Field.
 
 \paragraph{Pack  (explained by smoothness requirements).}
 Pack asks whether the alleged terminal object is packaged as something the
@@ -315,13 +315,13 @@ proof asks whether the readings still form one coherent positive-scale velocity
 field.
 
 \paragraph{Assembly.}
-The assembly step ties the witness faces to class exit.  Pack/Part/Field
+The assembly step ties the witnesss to class exit.  Part/Field
 Failure Gives
 \[
   \Exit(Q):=\neg\Member(Q).
 \]
 The logic table reductions say that every admitted terminal object is either
-on the pass side or on the first-failed-face side.  A retained Pack/Part/Field
+on the pass side or on the first-failed-face side.  A retained Part/Field
 packet belongs to the member continuation side.  A first failed face belongs
 to exit.
 
@@ -340,12 +340,12 @@ activity is produced or transported.  Readout is the continuation-facing
 regularity information needed to restart the solution.  Handling a
 source/readout candidate through Part and Field can certify Pack only when it
 ties the candidate back to the same fluid.  Witness completeness says that
-every admitted non-smooth terminal object is covered by Pack, Part, or Field.
+every admitted non-smooth terminal object is covered by Part or Field.
 
-\subsubsection{Silver-standard CM completeness (No Hidden Third Terminal Alternative: (proves the classification is exhaustive: after the pass case and the Pack/Part/Field failures, there is no extra terminal object that escapes the argument.))}
+\subsubsection{Silver-standard CM completeness (No Hidden Third Terminal Alternative: (proves the classification is exhaustive: after the pass case and the Part/Field failures, there is no extra terminal object that escapes the argument.))}
 
 Silver-standard CM completeness proves that the classification is exhaustive.
-After the pass case and the Pack/Part/Field failures, there is no extra
+After the pass case and the Part/Field failures, there is no extra
 terminal object that escapes the argument.  A claimed third alternative has to
 say what the same-solution terminal object is, which class-membership data it
 keeps, and which class-membership data it loses.  Once it answers those
@@ -365,7 +365,7 @@ when it is not itself a main-branch proof payment.
 The main theorem states the result upfront.  A finite-time breakdown claim for
 the same Navier--Stokes solution must pass through the class-membership test.
 The pass side is the smooth/member continuation side.  The non-smooth side
-exits through Pack, Part, or Field after the same-solution terminal object has
+exits through Part or Field after the same-solution terminal object has
 been admitted to the test.
 
 \begin{theorem}[Class-membership contrapositive structure]
@@ -374,7 +374,7 @@ Navier--Stokes solution generated by \(u_0\) on its maximal interval
 \([0,T_*)\).  Suppose a finite-time breakdown claim selects a terminal record
 \(Q\) for that same solution at \(T_*<\infty\).  Then the proof program has
 the following alternatives.  Either \(Q\) retains the membership data needed
-for the continuation side, or the first failed witness face gives
+for the continuation side, or the first failed witness gives
 \[
   \neg\Pack_Q,\qquad
   \Pack_Q\wedge\neg\Part_{N,Q},\qquad
@@ -410,9 +410,9 @@ Gold-side torus material is placed here when it supplies a continuation
 readout or exposes the exact obstruction that later enters the Silver test.
 \item[\textbf{Same-solution terminal-record leaves.}]
 Leaves that identify the terminal object of the periodic branch are placed
-before the witness-face conclusion they support.
+before the witness conclusion they support.
 \item[\textbf{Witness-face leaves.}]
-Pack, Part, and Field leaves are placed at the point where the first failed
+Part and Field leaves are placed at the point where the first failed
 face is derived on the selected periodic record.
 \end{description}
 
@@ -435,7 +435,7 @@ when it acts on the original whole-space branch.
 Whole-space survivors enter the main proof only after the paper identifies the
 same-solution record that carries them.
 \item[\textbf{Witness-face leaves.}]
-The final whole-space placement is the same Pack/Part/Field test, with the
+The final whole-space placement is the same Part/Field test, with the
 domain language changed by decay, exterior tails, and far-field bookkeeping.
 \end{description}
 

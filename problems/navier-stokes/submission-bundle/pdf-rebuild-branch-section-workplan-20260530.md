@@ -27,7 +27,7 @@ Required section pattern:
 6. Terminal stops along the path.
 7. Surviving defect, tail, residue, or witness object.
 8. Reason positive-forward closure stalls.
-9. CM-exit classification: Pack, Part, Field, continuation readout, scope boundary, or unresolved support.
+9. CM-exit classification: Part and Field, continuation readout, scope boundary, or unresolved support.
 10. Branch conclusion inside the global CM-exit program.
 
 ## Proposed Top-Level PDF Shape
@@ -117,7 +117,7 @@ Sections:
 
 ### Work item 1: Reframe the abstract
 
-The abstract should remain formal, but it should avoid making Pack/Part/Field feel unmotivated. It should announce the proof polarity and the terminal-witness idea, then name Pack/Part/Field as the classification grammar after one explanatory sentence.
+The abstract should remain formal, but it should avoid making Part/Field feel unmotivated. It should announce the proof polarity and the terminal-witness idea, then name Part/Field as the classification grammar after one explanatory sentence.
 
 ### Work item 2: Replace the current first body sequence
 
@@ -158,7 +158,7 @@ The staging file should contain:
 3. The four-body diagnostic circuit.
 4. The failure mode: circular payment/debt among the four bodies.
 5. The survivor/residue produced by the diagnostic exercise.
-6. The handoff sentence to CM-exit, without fully introducing Pack/Part/Field yet.
+6. The handoff sentence to CM-exit, without fully introducing Part/Field yet.
 
 ## Worklog
 
