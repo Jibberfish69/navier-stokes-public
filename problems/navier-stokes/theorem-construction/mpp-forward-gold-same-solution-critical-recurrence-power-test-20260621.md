@@ -4,7 +4,7 @@ ns_viewer:
   status: direct-power-test-complete-critical-quantities-recur-exactly
   proof_role: forward_gold_stage1_same_solution_power_test
   logical_landing_node: same_solution_critical_recurrence_power_test
-  edge_effect: "Computes the exact powers forced by the same-solution nested rescaling identity. The identity does not dissipate the normalized bad packet; it says the child's unit-scale critical quantities are exactly the parent's smaller-scale critical quantities. Thus same-solution compatibility is real, but it is not coercive by itself. Stage 1 still needs a theorem that prevents infinite critical recurrence: no scale-skipping/unique tangent, a strict log-scale decrease, unweighted critical action, or rigid profile production."
+  edge_effect: "Computes the exact powers forced by the same-solution nested rescaling identity. The identity does not dissipate the normalized bad packet; it says the child's unit-scale critical quantities are exactly the parent's smaller-scale critical quantities. Thus same-solution compatibility is real, but it does not by itself force decay. Stage 1 still needs a theorem that prevents infinite critical recurrence: no scale-skipping/unique tangent, a strict log-scale decrease, unweighted critical action, or rigid profile production."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-rescaled-annular-feed-two-stage-split-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-rescaled-same-solution-feed-compatibility-direct-test-20260621.md
