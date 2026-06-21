@@ -1100,7 +1100,7 @@ internal production stack.
 
 Thus the remaining supplement list is narrower.  Amplitude/Field is paid under
 a same-carrier bounded coefficient or becomes Field-facing after same-witness
-admission.  Source-square/no-waste, critical-density/CKN, and signed-polar
+admission.  Source-square/no-waste, critical-density/CKN, signed-polar
 saturation, and rigid source-residue production are exact criteria.  The
 still-unproduced gold work is one of:
 
