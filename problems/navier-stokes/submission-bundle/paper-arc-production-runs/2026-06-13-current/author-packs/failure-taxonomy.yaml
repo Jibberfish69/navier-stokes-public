@@ -76,11 +76,11 @@ source_rewrites:
 
     Thus the terminal alternatives have the form
     \[
-      \neg\Pack_Q,
+      Field-window evidence outside CM,
       \qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},
+      \neg\Part_{N,Q},
       \qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     This is not a naming convention.  It is the proof discipline for the rest of the paper.  A branch may describe a pulse, reserve, jump, weak limit, shear sheet, or Zeno source.  Before it can prove class exit, the paper must say which same-solution terminal record is under test and which one of the three displayed alternatives is the first failure.
 
@@ -126,7 +126,7 @@ source_rewrites:
 
     Dead is the clean Part mechanism.  A carrier is still being named, but the same pressure-viscosity-incompressibility law no longer acts on it through the tower being tested.  The word does not mean zero velocity.  It means loss of same-object dynamics.  In symbols, the first face is
     \[
-      \Pack_Q\wedge\neg\Part_{N,Q}.
+      \neg\Part_{N,Q}.
     \]
     Once Part fails, neighboring field readings usually fail as a consequence, but the proof records Part as the first lost requirement.
 
@@ -134,7 +134,7 @@ source_rewrites:
 
     Jump is the clean Field mechanism.  The carrier survives and the local law remains readable far enough to compare neighboring readings, but those readings do not assemble into one velocity field on any positive scale allowed by the record.  The first face is
     \[
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     A jump is not an infinite value.  It is a coherence failure: finite local readings cannot be the readings of one smooth field.
 

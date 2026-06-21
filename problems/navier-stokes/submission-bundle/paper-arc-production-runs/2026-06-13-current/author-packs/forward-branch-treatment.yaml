@@ -21,12 +21,12 @@ source_rewrites:
     \[
     \begin{array}{ll}
     \text{member readout} &
-      \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}
+      \Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}
       \text{ plus the continuation norm,}\\[1mm]
-    \text{Pack failure} & \neg\Pack_Q,\\[1mm]
-    \text{Part failure} & \Pack_Q\wedge\neg\Part_{N,Q},\\[1mm]
+    \text{Pack failure} & Field-window evidence outside CM,\\[1mm]
+    \text{Part failure} & \neg\Part_{N,Q},\\[1mm]
     \text{Field failure} &
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},\\[1mm]
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},\\[1mm]
     \text{support} &
       \text{a real estimate whose selected record or face landing is still unwritten.}
     \end{array}
@@ -110,7 +110,7 @@ source_rewrites:
 
     Receiver and endpoint support reads what remains after the object and law have survived.  On the pass side it supplies a continuation norm, such as the \(H^s\), \(s>5/2\), readout used in the main body.  On the fail side it supplies the Field alternative:
     \[
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     This is why endpoint work belongs after the carrier and participation checks.  A good endpoint readout certifies the member branch.  A failed endpoint readout, after the same carrier and same participation law are still present, identifies the Field face.
 - op: replace_section
@@ -131,13 +131,13 @@ source_rewrites:
     Once \(Q\) is named, the proof route is fixed:
     \begin{description}[leftmargin=0.30\linewidth,style=nextline]
     \item[No positive same-fluid packet.]
-    This is \(\neg\Pack_Q\).
+    This is \(Field-window evidence outside CM\).
     \item[Same packet, broken pressure-viscosity tower.]
-    This is \(\Pack_Q\wedge\neg\Part_{N,Q}\).
+    This is \(\neg\Part_{N,Q}\).
     \item[Same packet and same tower, no positive readout scale.]
     This is
     \[
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     \end{description}
     The source material is closed when one of these lines is written for the selected residue.  It stays open when it only says that some source pressure may survive.

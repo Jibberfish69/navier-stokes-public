@@ -28,10 +28,10 @@ source_rewrites:
     The first lost requirement is read in Pack-before-Part audited order:
     \[
       \begin{aligned}
-      \text{lost same-fluid carrier} &\longmapsto \neg\Pack_Q,\\
-      \text{lost pressure-viscosity-incompressibility participation} &\longmapsto \Pack_Q\wedge\neg\Part_{N,Q},\\
+      \text{lost same-fluid carrier} &\longmapsto Field-window evidence outside CM,\\
+      \text{lost pressure-viscosity-incompressibility participation} &\longmapsto \neg\Part_{N,Q},\\
       \text{lost positive-scale coherent field readout} &\longmapsto
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
       \end{aligned}
     \]
     These are membership failures, not three independent proof programs.  Pack asks whether the selected record is carried by the same fluid body.  Part asks whether the same Navier--Stokes law acts on that body through the finite derivative tower being tested.  Field asks whether the resulting readings still live on one positive scale.
@@ -180,9 +180,9 @@ source_rewrites:
     \]
     The derivation of this negation is the work of the witness faces:
     \[
-      \neg\Pack_Q,\qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      Field-window evidence outside CM,\qquad
+      \neg\Part_{N,Q},\qquad
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
 
     \paragraph{Pack.}
@@ -318,7 +318,7 @@ source_rewrites:
 
     The CM statement is
     \[
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
       \quad\Longrightarrow\quad
       \Exit(Q;\Owork).
     \]
@@ -330,9 +330,9 @@ source_rewrites:
 
     Some branch surfaces produce a finite list of same-solution alternatives rather than a single named face.  The proof then runs the Part/Field test on each alternative.  Every alternative lands in one of the three displayed losses:
     \[
-      \neg\Pack_Q,\qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      Field-window evidence outside CM,\qquad
+      \neg\Part_{N,Q},\qquad
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     A finite disjunction of these losses is still exhausted by the same witness tree.  Once the alternatives are exhausted, no extra terminal branch remains outside the pass-or-exit law.
 
@@ -348,7 +348,7 @@ source_rewrites:
 
     Field-window evidence obligations are the branches whose selected terminal object loses the same-fluid carrier first.  The mechanisms include carrier loss, cover loss, packing failure, failed retained-packet admission, and Pack bridge failure.  Their closing statement is
     \[
-      \neg\Pack_Q\quad\Longrightarrow\quad\Exit(Q;\Owork).
+      Field-window evidence outside CM\quad\Longrightarrow\quad\Exit(Q;\Owork).
     \]
     A member record has to be carried by a positive same-fluid packet before participation and field readout can even be asked.  When that carrier is absent, the branch exits at Pack.
 
@@ -358,7 +358,7 @@ source_rewrites:
 
     Part-face obligations keep enough carrier structure to pass Pack for the case split, then lose the same Navier--Stokes participation law.  The mechanisms include loss of the pressure-viscosity tether, failure of the participation envelope, dropped same-PDE law, and no-drop defects.  The closing statement is
     \[
-      \Pack_Q\wedge\neg\Part_{N,Q}
+      \neg\Part_{N,Q}
       \quad\Longrightarrow\quad
       \Exit(Q;\Owork).
     \]
@@ -382,9 +382,9 @@ source_rewrites:
     The main paper uses these six families as a reader guide for the branch material.  A branch is closed only after it has one of the following forms:
     \[
       \Member(Q;\Owork),\qquad
-      \neg\Pack_Q,\qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      Field-window evidence outside CM,\qquad
+      \neg\Part_{N,Q},\qquad
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     Everything else is support, inherited authority, obsolete material, or an open endpoint.  The appendix keeps the many branch names from overwhelming the proof spine by making every live branch pay the same class-membership question.
 author_contract:

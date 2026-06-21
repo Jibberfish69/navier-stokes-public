@@ -173,11 +173,11 @@ Let \(u_0\) be smooth and divergence-free, and let \((u,p)\) be the maximal clas
 \]
 or the first failed witness gives
 \[
-  \neg\Pack_Q,
+  Field-window evidence outside CM,
   \qquad
-  \Pack_Q\wedge\neg\Part_{N,Q},
+  \neg\Part_{N,Q},
   \qquad
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+  \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
 In the second case the first failed face yields
 \[
@@ -501,11 +501,11 @@ The reframing keeps the original datum, velocity-pressure branch, viscosity, pre
 
 The pass side is conservative.  If Part and Field survive on one selected record, that record remains on the member-continuation side and must be paired with the continuation readout named by the proof.  The fail side is equally concrete.  The argument marks the first failed face:
 \[
-  \neg\Pack_Q,
+  Field-window evidence outside CM,
   \qquad
-  \Pack_Q\wedge\neg\Part_{N,Q},
+  \neg\Part_{N,Q},
   \qquad
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+  \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
 That first Part/Field failure yields
 \[
@@ -583,11 +583,11 @@ Here \(\Pack_Q\) says that \(Q\) has a positive same-fluid carrier.  The stateme
 
 The order matters.  A missing body is the first failure and is recorded before any equation or field question is asked.  A retained body with broken same-law participation has lost the equation needed for the derivative tower to be a Navier--Stokes tower.  A retained body with retained participation reaches the field question, where it can still lose every positive scale of coherent velocity readout.  The terminal alternatives are
 \[
-  \neg\Pack_Q,
+  Field-window evidence outside CM,
   \qquad
-  \Pack_Q\wedge\neg\Part_{N,Q},
+  \neg\Part_{N,Q},
   \qquad
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+  \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
 These alternatives are the proof discipline for the rest of the paper.  A branch may describe a pulse, reserve, jump, weak limit, shear sheet, or Zeno source.  The manuscript counts it as a class-exit contribution only after it names the same-solution record under test and derives one displayed alternative as the first failure.
 
@@ -608,10 +608,10 @@ The pass line means that the selected record keeps the original datum, the fixed
 The first lost requirement is read in Pack-out-of-CM audited order:
 \[
   \begin{aligned}
-  \text{lost same-fluid carrier} &\longmapsto \neg\Pack_Q,\\
-  \text{lost pressure-viscosity-incompressibility participation} &\longmapsto \Pack_Q\wedge\neg\Part_{N,Q},\\
+  \text{lost same-fluid carrier} &\longmapsto Field-window evidence outside CM,\\
+  \text{lost pressure-viscosity-incompressibility participation} &\longmapsto \neg\Part_{N,Q},\\
   \text{lost positive-scale coherent field readout} &\longmapsto
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+  \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
   \end{aligned}
 \]
 The three lines are witness readings of one membership question.  Pack asks whether the selected record is carried by the same fluid body.  Part asks whether the same Navier--Stokes law acts on that body through the finite derivative tower being tested.  Field asks whether the resulting readings still live on one positive scale.
@@ -683,7 +683,7 @@ At finite depth \(N\) and positive scale \(r\), the manuscript uses the analytic
 \[
   \CM_{N,r,Q}
   :=
-  \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
+  \Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}.
 \]
 This witness is the local certificate for membership.  Pack supplies the same-fluid carrier.  Part supplies the same pressure-viscosity-incompressibility tower on that carrier.  Field supplies one positive scale on which neighboring velocity, pressure, and tower readings remain readings of one field.
 
@@ -693,9 +693,9 @@ The membership direction is
   \quad\Longrightarrow\quad
   \Member(Q;\Owork),
 \]
-with the branch readout attached at the continuation depth selected later in the proof.  The fail side is read by the Field-certification loss of this same certificate.  A loss of carrier is \(\neg\Pack_Q\).  A retained carrier with lost participation is \(\Pack_Q\wedge\neg\Part_{N,Q}\).  A retained carrier and retained participation with no positive coherent field scale is
+with the branch readout attached at the continuation depth selected later in the proof.  The fail side is read by the Field-certification loss of this same certificate.  A loss of carrier is \(Field-window evidence outside CM\).  A retained carrier with lost participation is \(\neg\Part_{N,Q}\).  A retained carrier and retained participation with no positive coherent field scale is
 \[
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+  \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
 The witness certificate is the bridge between the readable class statement \(\Member(Q;\Owork)\) and the three concrete tests the proof can inspect.
 
@@ -783,7 +783,7 @@ The periodic branch pays Pack by selecting the whole transported material atlas 
 
 A terminal source, pressure pulse, donor history, or zero-radius residue becomes a Pack landing only after it supplies this positive carrier.  A record with that carrier moves to Part.  A record with no such carrier has first failure
 \[
-  \neg\Pack_Q.
+  Field-window evidence outside CM.
 \]
 \section{Packet Failure}
 
@@ -801,7 +801,7 @@ The common Pack failures have the same shape:
 \]
 In each case the terminal story points at information without a same-fluid body carrying it.  The information may be relevant, and it may explain why the branch was considered.  It still has not become the selected terminal Navier--Stokes object.  The argument marks the first lost face as
 \[
-  \neg\Pack_Q.
+  Field-window evidence outside CM.
 \]
 After this face fails, the terminal record stops at Pack.  The Part and Field questions require a carrier on which the law and field can be read.
 
@@ -814,12 +814,12 @@ The words dead, jump, and blown name mechanisms after the first failed face has 
 
 Dead names the clean Part mechanism.  A carrier is still present, and the proof can point to the same terminal body.  The failure is that the same pressure-viscosity-incompressibility law no longer acts on that body through the tower being tested.  The word does not mean zero velocity.  It means loss of same-object dynamics.  In symbols, the first Part/Field is
 \[
-  \Pack_Q\wedge\neg\Part_{N,Q}.
+  \neg\Part_{N,Q}.
 \]
 Once \(\neg\Part_{N,Q}\) is proved while \(\Pack_Q\) is still the retained
 carrier face, the ordered certificate has already failed:
 \[
-  \Pack_Q\wedge\neg\Part_{N,Q}
+  \neg\Part_{N,Q}
   \quad\Longrightarrow\quad
   \neg\CM_{N,r,Q}\qquad\text{for every }r>0.
 \]
@@ -830,7 +830,7 @@ that point no separate claim about neighboring Field readings is being spent.
 
 Jump names the clean Field mechanism.  The carrier survives and the local law remains readable on the overlapping neighborhoods required to compare neighboring readings.  The readings fail to assemble into one velocity field on any positive scale allowed by the record.  The first Part/Field is
 \[
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+  \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
 A jump is a coherence failure: finite local readings fail to be the readings of one smooth field.
 
@@ -847,7 +847,7 @@ The analytic certificate is
 \[
   \CM_{N,r,Q}
   :=
-  \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
+  \Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}.
 \]
 The three factors have different jobs.  Pack supplies the positive transported carrier.  Part supplies the same pressure-viscosity-incompressibility law on that carrier through depth \(N\).  Field supplies one positive scale on which the tower readings form one velocity-pressure field.
 
@@ -869,11 +869,11 @@ at a depth \(N_s\) chosen so that the tower controls a finite \(H^s\), \(s>5/2\)
 \]
 then the local \(H^s\) theorem supplies a lifespan \(\tau(\nu,s,M_s)>0\).  Launching from any \(t_j<T_*\) with \(T_*-t_j<\tau/2\) gives a classical solution beyond \(T_*\), and uniqueness on the overlap identifies that relaunch with the original branch.  A genuine finite terminal obstruction must lose the first available face in Pack-out-of-CM audited order:
 \[
-  \neg\Pack_Q,
+  Field-window evidence outside CM,
   \qquad
-  \Pack_Q\wedge\neg\Part_{N_s,Q},
+  \neg\Part_{N_s,Q},
   \qquad
-  \Pack_Q\wedge\Part_{N_s,Q}\wedge\forall r>0\,\neg\Field_{N_s,r,Q}.
+  \Part plus Field-window evidence_{N_s,Q}\wedge\forall r>0\,\neg\Field_{N_s,r,Q}.
 \]
 That first Part/Field failure is the class-exit witness,
 \[
@@ -887,16 +887,16 @@ The converse used here is typed.  A bad-looking packet has no proof role until i
 
 \section{Reading the Witness Table}
 
-The formal conjunction \(\Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}\) has many Boolean rows.  The proof reads them through the order in which a Navier--Stokes record needs the data.  First ask for the carrier, then the same law, then the one-field readout.
+The formal conjunction \(\Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}\) has many Boolean rows.  The proof reads them through the order in which a Navier--Stokes record needs the data.  First ask for the carrier, then the same law, then the one-field readout.
 \[
 \begin{array}{ll}
-\Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}
+\Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}
   & \text{member-side certificate},\\[1mm]
-\neg\Pack_Q
+Field-window evidence outside CM
   & \text{Field-certification failure},\\[1mm]
-\Pack_Q\wedge\neg\Part_{N,Q}
+\neg\Part_{N,Q}
   & \text{Part-first failure},\\[1mm]
-\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
+\Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
   & \text{Field-first failure.}
 \end{array}
 \]
@@ -915,7 +915,7 @@ The witness grammar becomes a proof when it is tied to the local continuation th
 \begin{definition}[Continuation-complete packet]
 Fix \(s>5/2\), and let \(N_s\) be a tower depth chosen so that the tower controls the classical \(H^s\) readout.  A continuation-complete packet for \(Q\) is a packet satisfying
 \[
-  \Pack_Q\wedge\Part_{N_s,Q}\wedge\Field_{N_s,r,Q}
+  \Part plus Field-window evidence_{N_s,Q}\wedge\Field_{N_s,r,Q}
 \]
 for some \(r>0\), together with the branch readout
 \[
@@ -926,11 +926,11 @@ for some \(r>0\), together with the branch readout
 \begin{definition}[Terminal Part/Field-failure witness]
 A terminal Part/Field-failure witness is an admitted same-solution terminal record \(Q\) whose finite obstruction is charged to the first failed face:
 \[
-  \neg\Pack_Q,
+  Field-window evidence outside CM,
   \qquad
-  \Pack_Q\wedge\neg\Part_{N,Q},
+  \neg\Part_{N,Q},
   \qquad
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+  \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
 It is the fail-side witness for \(\Exit(Q;\Owork)\).
 \end{definition}
@@ -958,26 +958,26 @@ Let \(\mathcal F\) be an admitted finite terminal obstruction from the same smoo
   \mathcal F
   \Longrightarrow
   \begin{cases}
-    \neg\Pack_Q,\\
-    \Pack_Q\wedge\neg\Part_{N_s,Q},\\
-    \Pack_Q\wedge\Part_{N_s,Q}\wedge\forall r>0\,\neg\Field_{N_s,r,Q}.
+    Field-window evidence outside CM,\\
+    \neg\Part_{N_s,Q},\\
+    \Part plus Field-window evidence_{N_s,Q}\wedge\forall r>0\,\neg\Field_{N_s,r,Q}.
   \end{cases}
 \]
 Each displayed branch supplies \(\Exit(Q;\Owork)\).
 \end{theorem}
 
 \begin{proof}
-Begin with the selected record \(Q\).  The first gate is Pack.  Either the positive same-fluid carrier exists or it fails.  Carrier failure gives \(\neg\Pack_Q\), and the proof stops at Pack.
+Begin with the selected record \(Q\).  The first gate is Pack.  Either the positive same-fluid carrier exists or it fails.  Carrier failure gives \(Field-window evidence outside CM\), and the proof stops at Pack.
 
 Assume Field-window evidence is present.  The second gate is Part.  Either the same pressure-viscosity-incompressibility tower acts through depth \(N_s\) on the carrier, or it fails.  Participation failure gives
 \[
-  \Pack_Q\wedge\neg\Part_{N_s,Q},
+  \neg\Part_{N_s,Q},
 \]
 and the proof stops at Part.
 
 Assume Pack and Part both survive.  The final gate is Field.  A positive scale \(r>0\) with \(\Field_{N_s,r,Q}\), together with the attached continuation readout, gives the retained packet
 \[
-  \Pack_Q\wedge\Part_{N_s,Q}\wedge\Field_{N_s,r,Q}
+  \Part plus Field-window evidence_{N_s,Q}\wedge\Field_{N_s,r,Q}
 \]
 and a finite \(H^s\), \(s>5/2\), readout
 \[
@@ -985,7 +985,7 @@ and a finite \(H^s\), \(s>5/2\), readout
 \]
 The local \(H^s\) theorem gives a lifespan \(\tau(\nu,s,M_s)>0\).  Choosing \(t_j\uparrow T_*\) with \(T_*-t_j<\tau/2\), the solution relaunched from \(u(t_j)\) exists beyond \(T_*\), and uniqueness identifies it with the original branch on the overlap.  That contradicts the assumption that \(\mathcal F\) is the finite terminal obstruction for the same branch.  Every positive Field scale with that readout fails:
 \[
-  \Pack_Q\wedge\Part_{N_s,Q}\wedge\forall r>0\,\neg\Field_{N_s,r,Q}.
+  \Part plus Field-window evidence_{N_s,Q}\wedge\forall r>0\,\neg\Field_{N_s,r,Q}.
 \]
 
 In all three cases the selected record loses a required membership face.  The loss is read as \(\Exit(Q;\Owork)=\neg\Member(Q;\Owork)\).
@@ -1123,9 +1123,9 @@ The record has entered the CM test, and the first lost requirement is read as a 
 A finite Clay terminal witness is resolved by the CM proof when the witness has entered the same-solution packet test and the ordered test produces one of the following outcomes:
 \begin{enumerate}[leftmargin=*]
 \item \(\Member(Q;\Owork)\): all three faces survive and the member-side readout continues the same branch.
-\item \(\neg\Pack_Q\): the selected object has no same-fluid packet carrier.
-\item \(\Pack_Q\wedge\neg\Part_{N,Q}\): a carrier survives without the same pressure-viscosity participation.
-\item \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\): carrier and participation survive without positive-scale coherent field readout.
+\item \(Field-window evidence outside CM\): the selected object has no same-fluid packet carrier.
+\item \(\neg\Part_{N,Q}\): a carrier survives without the same pressure-viscosity participation.
+\item \(\Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\): carrier and participation survive without positive-scale coherent field readout.
 \end{enumerate}
 In the three failed cases the derived Part/Field failure is embedded as
 \[
@@ -1144,9 +1144,9 @@ Then the CM test has exactly two proof outcomes for \(Q\):
 The member outcome is the same-solution continuation branch.
 The exit outcome is supported by a first failed witness:
 \[
-  \neg\Pack_Q,\qquad
-  \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+  Field-window evidence outside CM,\qquad
+  \neg\Part_{N,Q},\qquad
+  \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
 \end{theorem}
 
@@ -1261,9 +1261,9 @@ A source-reserve branch is a selected terminal branch for which a positive sourc
 Every selected source-reserve branch is routed through the first Part/Field it can answer:
 \[
 \begin{array}{rcl}
-\neg\Pack_Q &:& \text{no same-fluid carrier},\\
-\Pack_Q\wedge\neg\Part_{N,Q} &:& \text{carrier without same participation},\\
-\Pack_Q\wedge\Part_{N,Q} &:& \text{remaining Field or continuation-readout question.}
+Field-window evidence outside CM &:& \text{no same-fluid carrier},\\
+\neg\Part_{N,Q} &:& \text{carrier without same participation},\\
+\Part plus Field-window evidence_{N,Q} &:& \text{remaining Field or continuation-readout question.}
 \end{array}
 \]
 \end{proposition}
@@ -1382,9 +1382,9 @@ The family analysis must answer one question for each branch.  Which same-soluti
 Every non-Euler Navier--Stokes branch family used by the working class-membership program has one of the following entry roles:
 \[
 \begin{array}{l}
-\neg\Pack_Q,\\
-\Pack_Q\wedge\neg\Part_{N,Q},\\
-\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},\\
+Field-window evidence outside CM,\\
+\neg\Part_{N,Q},\\
+\Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},\\
 \text{member-side continuation readout},\\
 \text{finite typed disjunction},\\
 \text{comparison or obstruction context awaiting a named face theorem.}
@@ -1593,7 +1593,7 @@ The energy class gives \(u\in L^4_tL^3_x\) on \([0,T_*)\).  The exterior factor 
 \begin{proposition}[Exterior survivor lands in the CM Part/Fields]
 Assume the exterior nonlinear source survives in \(H^s\).  Then the selected terminal exterior survivor lands in the CM matrix:
 \[
-  \neg\Pack_Q\;\vee\;\neg\Part_{M,Q}\;\vee\;
+  Field-window evidence outside CM\;\vee\;\neg\Part_{M,Q}\;\vee\;
   \forall \rho>0\,\neg\Field_{M,\rho,Q}.
 \]
 \end{proposition}
@@ -1628,9 +1628,9 @@ The branch sections have one job for the reader.  They show how the accumulated 
 \begin{proposition}[Branch obligations enter by first lost requirement]
 Let \(B\) be a non-Euler same-solution branch from source reserve, donor refill, zero-radius refinement, retained amplitude, low strain, height flux, signed current, square reserve, endpoint readout, no-pulse, local critical translation, or comparison.  The branch is proof-bearing exactly when it identifies the same terminal witness record and proves one of the following outcomes:
 \[
-  \neg\Pack_Q,\qquad
-  \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},
+  Field-window evidence outside CM,\qquad
+  \neg\Part_{N,Q},\qquad
+  \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},
 \]
 or when it supplies the member-side continuation readout for that same record.  A branch still awaiting that witness record remains diagnostic pressure, readout pressure, or comparison pressure.
 \end{proposition}
@@ -1731,9 +1731,9 @@ Inside the CM test, \(Q\) has exactly two readings:
 The member reading gives the same-solution readout chain required by the selected continuation criterion.
 The exit reading is certified by the first failed witness:
 \[
-  \neg\Pack_Q,\qquad
-  \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+  Field-window evidence outside CM,\qquad
+  \neg\Part_{N,Q},\qquad
+  \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
 \end{theorem}
 
@@ -1749,11 +1749,11 @@ In the remaining case, the finite terminal claim supplies the terminal record \(
 Membership in \(\Owork\) requires a positive same-fluid carrier, same-equation pressure-viscosity participation, and positive-scale field readout on that same record.
 When those requirements survive at the continuation depth, the member-side readout chain feeds the continuation criterion selected for that branch.
 When the record loses a requirement, the ordered test stops at the first lost face.
-Loss of the carrier gives \(\neg\Pack_Q\).
-Carrier without same-equation participation gives \(\Pack_Q\wedge\neg\Part_{N,Q}\).
+Loss of the carrier gives \(Field-window evidence outside CM\).
+Carrier without same-equation participation gives \(\neg\Part_{N,Q}\).
 Carrier and participation without any positive-scale coherent field readout gives
 \[
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+  \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
 Each first Part/Field failure gives \(\Exit(Q;\Owork)\).
 The same admitted terminal record has no third CM reading.
@@ -1804,9 +1804,9 @@ An auxiliary estimate enters the proof after it names the selected terminal reco
   \text{CM-test entry}\\
   &\Longrightarrow
   \begin{cases}
-  \neg\Pack_Q,\\
-  \Pack_Q\wedge\neg\Part_{N,Q},\\
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+  Field-window evidence outside CM,\\
+  \neg\Part_{N,Q},\\
+  \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
   \end{cases}
 \end{aligned}
 \]
@@ -1853,7 +1853,7 @@ A terminal branch with zero terminal radius, detached ancestry, first-created un
 \begin{proof}
 Each listed mechanism removes the positive transported packet needed to carry \(Q\) as the same fluid branch.
 The carrier requirement is exactly the existence of such a positive transported packet.
-The first lost requirement is \(\neg\Pack_Q\).
+The first lost requirement is \(Field-window evidence outside CM\).
 \end{proof}
 
 \begin{lemma}[Participation pattern]
@@ -1863,7 +1863,7 @@ A terminal branch with a surviving carrier and broken pressure participation, br
 \begin{proof}
 After a carrier survives, the continuation branch must solve the same differentiated Navier--Stokes equation on that carrier.
 The listed mechanisms break that same-equation participation while leaving the carrier question already passed.
-The first lost surviving requirement is \(\Pack_Q\wedge\neg\Part_{N,Q}\).
+The first lost surviving requirement is \(\neg\Part_{N,Q}\).
 \end{proof}
 
 \begin{lemma}[Field pattern]
@@ -1873,7 +1873,7 @@ A terminal branch with surviving carrier and participation plus retained positiv
 \begin{proof}
 After carrier and participation survive, membership readout needs one positive scale where the coherent \(N\)-level field remains finite.
 Each listed mechanism removes that positive-scale readout while preserving the earlier requirements for the purpose of the case split.
-The first lost remaining requirement is \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\).
+The first lost remaining requirement is \(\Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\).
 \end{proof}
 
 \begin{proposition}[The branch patterns exhaust selected cases]

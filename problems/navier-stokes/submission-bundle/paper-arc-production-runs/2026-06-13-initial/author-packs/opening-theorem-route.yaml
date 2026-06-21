@@ -53,11 +53,11 @@ source_rewrites:
     \]
     or the first failed witness face gives
     \[
-      \neg\Pack_Q,
+      Field-window evidence outside CM,
       \qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},
+      \neg\Part_{N,Q},
       \qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     In the second case \(Q\) supports
     \[
@@ -267,11 +267,11 @@ source_rewrites:
 
     The pass side is conservative.  If Part and Field survive on one selected record, that record remains on the member-continuation side and must be paired with the continuation readout named by the proof.  The fail side is equally concrete.  The proof records the first failed face:
     \[
-      \neg\Pack_Q,
+      Field-window evidence outside CM,
       \qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},
+      \neg\Part_{N,Q},
       \qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     That first face failure supports
     \[
@@ -297,11 +297,11 @@ source_rewrites:
     \]
     or the first failed CM witness face gives
     \[
-      \neg\Pack_Q,
+      Field-window evidence outside CM,
       \qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},
+      \neg\Part_{N,Q},
       \qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     In the failed-face cases,
     \[
@@ -386,9 +386,9 @@ source_rewrites:
     \]
     to the continuation readout.  A failed record is exhausted in Pack-before-Part audited order:
     \[
-      \neg\Pack_Q,\qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      Field-window evidence outside CM,\qquad
+      \neg\Part_{N,Q},\qquad
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     The first failed face supports \(\Exit(Q;\Owork):=\neg\Member(Q;\Owork)\).
 

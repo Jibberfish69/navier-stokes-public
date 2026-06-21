@@ -581,9 +581,9 @@ source_sections:
     This proof role accounts for 244 branch obligations with one mathematical CM job. The proof rules represented here are direct face failure (244). The tested requirements are Pack Q (244). The terminal mechanisms represented here are carrier, cover, packing, retained packet admission, or Pack bridge failure (164); carrier, cover, or Field-window evidence routed by the row's Field sort rule (71); one field coherence or Field readout failure routed by the row's face sort rule (7); participation, no drop, or Part envelope failure routed by the row's face sort rule (2).
 
     \paragraph{Family proof role.}
-    \emph{Claim.} CM proof role 4 gives \(\neg\Pack_Q\), hence \(\Exit(Q;\Owork)\).
+    \emph{Claim.} CM proof role 4 gives \(Field-window evidence outside CM\), hence \(\Exit(Q;\Owork)\).
 
-    \emph{Proof.} A member branch must first carry \(Q\) by a positive same-fluid packet. The selected terminal branch loses that carrier requirement before any participation or field readout can be asked of it. The Pack-before-Part audited order therefore gives \(\neg\Pack_Q\), and the class-exit embedding gives \(\Exit(Q;\Owork)\).
+    \emph{Proof.} A member branch must first carry \(Q\) by a positive same-fluid packet. The selected terminal branch loses that carrier requirement before any participation or field readout can be asked of it. The Pack-before-Part audited order therefore gives \(Field-window evidence outside CM\), and the class-exit embedding gives \(\Exit(Q;\Owork)\).
 
     \emph{Reader-facing role.} On the page, this tells the reader that the branch never reaches the later questions. The proof is not claiming a new smooth solution; it is recording that the alleged terminal branch cannot even supply the packet that would let membership be tested. That is why the branch belongs on the fail side of the pass-or-exit split.
 

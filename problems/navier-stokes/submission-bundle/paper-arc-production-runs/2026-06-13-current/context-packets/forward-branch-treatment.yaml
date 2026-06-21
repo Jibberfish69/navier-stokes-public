@@ -163,9 +163,9 @@ source_sections:
     Every selected source-reserve branch is routed through the first face it can answer:
     \[
     \begin{array}{rcl}
-    \neg\Pack_Q &:& \text{no same-fluid carrier},\\
-    \Pack_Q\wedge\neg\Part_{N,Q} &:& \text{carrier without same participation},\\
-    \Pack_Q\wedge\Part_{N,Q} &:& \text{Field/readout pressure remains.}
+    Field-window evidence outside CM &:& \text{no same-fluid carrier},\\
+    \neg\Part_{N,Q} &:& \text{carrier without same participation},\\
+    \Part plus Field-window evidence_{N,Q} &:& \text{Field/readout pressure remains.}
     \end{array}
     \]
     \end{proposition}
@@ -218,9 +218,9 @@ source_sections:
     Every non-Euler Navier--Stokes branch family used by the working class-membership program has one of the following support roles:
     \[
     \begin{array}{l}
-    \neg\Pack_Q,\\
-    \Pack_Q\wedge\neg\Part_{N,Q},\\
-    \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},\\
+    Field-window evidence outside CM,\\
+    \neg\Part_{N,Q},\\
+    \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},\\
     \text{member-side continuation readout},\\
     \text{finite typed disjunction},\\
     \text{support awaiting a named face theorem.}
@@ -317,9 +317,9 @@ source_sections:
     \begin{proposition}[Branch obligations enter by first lost requirement]
     Let \(B\) be a non-Euler same-solution branch from source reserve, donor refill, zero-radius refinement, retained amplitude, low strain, height flux, signed current, square reserve, endpoint readout, no-pulse, local critical translation, or comparison.  The branch is proof-bearing exactly when it identifies the same terminal witness record and proves one of the following outcomes:
     \[
-      \neg\Pack_Q,\qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},
+      Field-window evidence outside CM,\qquad
+      \neg\Part_{N,Q},\qquad
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},
     \]
     or when it supplies the member-side continuation readout for that same record.  A branch still awaiting that witness record remains support, diagnostic pressure, readout pressure, or comparison pressure.
     \end{proposition}
@@ -351,7 +351,7 @@ source_sections:
       \Longrightarrow
       \text{CM-test entry}
       \Longrightarrow
-      \neg\Pack_Q
+      Field-window evidence outside CM
       \vee
       \neg\Part_{N,Q}
       \vee
@@ -402,7 +402,7 @@ source_sections:
     \begin{proof}
     Each listed mechanism removes the positive transported packet needed to carry \(Q\) as the same fluid branch.
     The carrier requirement is exactly the existence of such a positive transported packet.
-    The first lost requirement is \(\neg\Pack_Q\).
+    The first lost requirement is \(Field-window evidence outside CM\).
     \end{proof}
 
     \begin{lemma}[Participation pattern]
@@ -412,7 +412,7 @@ source_sections:
     \begin{proof}
     After a carrier survives, the continuation branch still has to solve the same differentiated Navier--Stokes equation on that carrier.
     The listed mechanisms break that same-equation participation while leaving the carrier question already passed.
-    The first lost surviving requirement is \(\Pack_Q\wedge\neg\Part_{N,Q}\).
+    The first lost surviving requirement is \(\neg\Part_{N,Q}\).
     \end{proof}
 
     \begin{lemma}[Field pattern]
@@ -422,7 +422,7 @@ source_sections:
     \begin{proof}
     After carrier and participation survive, membership readout needs one positive scale where the coherent \(N\)-level field remains finite.
     Each listed mechanism removes that positive-scale readout while preserving the earlier requirements for the purpose of the case split.
-    The first lost remaining requirement is \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\).
+    The first lost remaining requirement is \(\Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\).
     \end{proof}
 
     \begin{proposition}[The branch patterns exhaust selected cases]
@@ -464,12 +464,12 @@ source_sections:
     \[
     \begin{array}{ll}
     \text{member readout} &
-      \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}
+      \Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}
       \text{ plus the continuation norm,}\\[1mm]
-    \text{Pack failure} & \neg\Pack_Q,\\[1mm]
-    \text{Part failure} & \Pack_Q\wedge\neg\Part_{N,Q},\\[1mm]
+    \text{Pack failure} & Field-window evidence outside CM,\\[1mm]
+    \text{Part failure} & \neg\Part_{N,Q},\\[1mm]
     \text{Field failure} &
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},\\[1mm]
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},\\[1mm]
     \text{support} &
       \text{a real estimate whose selected record or face landing is still unwritten.}
     \end{array}
@@ -1250,7 +1250,7 @@ source_sections:
 
     Receiver and endpoint support reads what remains after the object and law have survived.  On the pass side it supplies a continuation norm, such as the \(H^s\), \(s>5/2\), readout used in the main body.  On the fail side it supplies the Field alternative:
     \[
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     This is why endpoint work belongs after the carrier and participation checks.  A good endpoint readout certifies the member branch.  A failed endpoint readout, after the same carrier and same participation law are still present, identifies the Field face.
   truncated: false
@@ -1272,13 +1272,13 @@ source_sections:
     Once \(Q\) is named, the proof route is fixed:
     \begin{description}[leftmargin=0.30\linewidth,style=nextline]
     \item[No positive same-fluid packet.]
-    This is \(\neg\Pack_Q\).
+    This is \(Field-window evidence outside CM\).
     \item[Same packet, broken pressure-viscosity tower.]
-    This is \(\Pack_Q\wedge\neg\Part_{N,Q}\).
+    This is \(\neg\Part_{N,Q}\).
     \item[Same packet and same tower, no positive readout scale.]
     This is
     \[
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     \end{description}
     The source material is closed when one of these lines is written for the selected residue.  It stays open when it only says that some source pressure may survive.
