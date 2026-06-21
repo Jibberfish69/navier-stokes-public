@@ -364,7 +364,7 @@ source_rewrites:
     unpaid, no-incoming, retained in finite CM, and source-positive at the
     terminal strip.  It must be paid, receive incoming participation, leave
     through a legal/projected/cutoff/boundary channel, or expose a finite
-    Pack/Part/Field face failure.  The terminal zero-radius case has the first
+    Part/Field face failure.  The terminal zero-radius case has the first
     failed face
     \[
       \neg Pack_Q.
@@ -388,7 +388,7 @@ source_rewrites:
       \begin{gathered}
       \text{residual lower-prefix/upper-tail theorem}\\
       \vee\\
-      \text{Pack/Part/Field face failure}
+      \text{Part/Field face failure}
       \end{gathered}}
     \]
 support_refs:
@@ -408,7 +408,7 @@ author_contract:
   - reader-facing explanation before compressed notation
   - raw LPAS counterexample and residual correction shown on the page
   - Volterra quotient/readout structure explained without claiming closure
-  - CM Pack/Part/Field counterpart for the selected residual pulse
+  - CM Part/Field counterpart for the selected residual pulse
   must_not_write:
   - raw active-square size as the bad object
   - free-running proof target proliferation

@@ -17,7 +17,7 @@ source_rewrites:
 
     The forward work produces many named surfaces, but the terminal proof does not ask the reader to carry all of those names.  At the point where a finite-time breakdown is alleged, the paper asks a smaller question.  What object is being offered as the terminal record for the original Navier--Stokes branch, what has already been paid for that object, and which first requirement can fail?
 
-    This section is the map from the forward attempts into that terminal question.  Each entry below has the same form.  The first sentence names what the direct route tried to prove.  The second sentence names the survivor left behind when the route does not close.  The last sentence says how that survivor can enter the Pack/Part/Field test.  A branch that has not selected a same-solution terminal object remains support; it is not yet a CM proof step.
+    This section is the map from the forward attempts into that terminal question.  Each entry below has the same form.  The first sentence names what the direct route tried to prove.  The second sentence names the survivor left behind when the route does not close.  The last sentence says how that survivor can enter the Part/Field test.  A branch that has not selected a same-solution terminal object remains support; it is not yet a CM proof step.
 
     \begin{enumerate}[leftmargin=2em]
     \item \textbf{Energy and enstrophy.}
@@ -120,7 +120,7 @@ source_rewrites:
   replacement: |
     \section{Part And Field Failure Mechanisms}
 
-    The old words dead, jump, and blown are useful only after the first failed face has been located.  They are mechanism descriptions, not extra terminal classes.  The proof first fixes the selected record \(Q\), checks Pack, checks Part, and then checks Field.  Only after that order is clear may the mechanism be named.
+    The old words dead, jump, and blown are useful only after the first failed face has been located.  They are mechanism descriptions, not extra terminal classes.  The proof first fixes the selected record \(Q\), checks Part, then checks Field; Pack is only Field-window evidence.  Only after that order is clear may the mechanism be named.
 
     \subsection{Dead}
 
