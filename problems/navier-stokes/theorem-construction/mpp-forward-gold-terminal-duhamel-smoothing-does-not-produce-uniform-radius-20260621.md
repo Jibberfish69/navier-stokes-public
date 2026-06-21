@@ -4,12 +4,12 @@ ns_viewer:
   status: supplier-boundary-test-complete-heat-smoothing-alone-does-not-supply-radius
   proof_role: forward_gold_heat_smoothing_supplier_boundary_test
   logical_landing_node: heat_smoothing_supplier_boundary
-  edge_effect: "Mechanism test only. This is not a Navier-Stokes reduction, not a linearization of Navier-Stokes, and not a replacement for the nonlinear pressure-transport-viscosity system. It tests only the narrower supplier claim that heat semigroup smoothing by itself supplies a uniform coupled tower radius for terminal-layer input. In the forced heat test, terminal-layer forcing has smoothing time tending to zero, so the Duhamel average converges to the unsmoothed input. Any Navier-Stokes use still has to estimate the actual nonlinear Duhamel contribution on the selected carrier."
+  edge_effect: "Mechanism test only. This is not a Navier-Stokes reduction, not a linearization of Navier-Stokes, and not a replacement for the nonlinear pressure-transport-viscosity system. The forcing in this note is an external heat-equation test input, not a proxy for -P div(v tensor v). It tests only the narrower supplier claim that heat semigroup smoothing by itself supplies a uniform coupled tower radius for terminal-layer input. In the forced heat test, terminal-layer forcing has smoothing time tending to zero, so the Duhamel average converges to the unsmoothed input. Any Navier-Stokes use still has to start from the exact Leray-Duhamel identity and estimate the actual nonlinear Duhamel contribution on the selected carrier."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-tower-radius-survival-implies-endpoint-ui-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-rung-tail-to-selected-carrier-direct-test-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-summable-coupled-radius-spend-direct-test-20260621.md
-  downstream_consequence: "Do not claim that viscosity/parabolic smoothing alone supplies uniform coupled radius survival on terminal heat windows. This note supplies no linear approximation to Navier-Stokes. A successful route must control the actual terminal nonlinear/pressure contribution itself through endpoint UI, unweighted action, strict no-waste, source-square domination, or profile production."
+  downstream_consequence: "Do not claim that viscosity/parabolic smoothing alone supplies uniform coupled radius survival on terminal heat windows. This note supplies no linear approximation to Navier-Stokes, and any citation that identifies the external heat forcing with the Navier-Stokes nonlinearity is invalid unless the exact nonlinear Duhamel split is used. A successful route must control the actual terminal nonlinear/pressure contribution itself through endpoint UI, unweighted action, strict no-waste, source-square domination, or profile production."
 ---
 
 # MPP Forward-Gold Terminal Duhamel Smoothing Does Not Produce Uniform Radius
@@ -21,6 +21,12 @@ Date: 2026-06-21
 This note is a supplier-boundary test. It does not replace the Navier-Stokes
 nonlinear Duhamel term by a linear forcing, and it does not approximate the
 pressure-transport-viscosity system.
+
+The exactness boundary is strict: the forcing \(f_m\) below is an external
+heat-equation test input. It is not a linear approximation to
+\(-\mathbb P\nabla\cdot(v\otimes v)\), and it cannot be cited as a
+Navier-Stokes model unless the separate exact Leray-Duhamel identity supplies
+that actual nonlinear term.
 
 The exact Navier-Stokes Duhamel identity is recorded separately in
 `mpp-forward-gold-exact-nonlinear-duhamel-terminal-split-20260621.md`. Any
@@ -47,7 +53,9 @@ radius supplier.
 ## 1. Forced heat test
 
 The forcing below is an external test input. It is not asserted to equal,
-approximate, or model the Navier-Stokes nonlinear/pressure contribution.
+approximate, or model the Navier-Stokes nonlinear/pressure contribution. It
+only tests whether the heat semigroup itself supplies the missing uniform
+radius when source mass is born in the terminal layer.
 
 Consider
 
