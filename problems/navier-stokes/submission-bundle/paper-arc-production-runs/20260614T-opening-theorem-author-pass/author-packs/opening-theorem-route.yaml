@@ -22,7 +22,7 @@ source_rewrites:
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: "The section must define the Clay problem and the two certification layers without turning the opening into a machinery report.  The rendered source now keeps the original branch fixed and introduces gold and silver by their mathematical jobs."
-    reader_thread_attack: "A reader needed to know the equation, the alleged terminal branch, and the annular witness before seeing Pack, Part, and Field.  The section now introduces those objects in that order."
+    reader_thread_attack: "A reader needed to know the equation, the alleged terminal branch, and the annular witness before seeing Part and Field.  The section now introduces those objects in that order."
     open_derivation_attack: "No proof derivation is claimed in this section; it states the object and route.  The derivations begin in the following gold-obstruction arc."
     repair_decision: passes after repair
     unresolved_failures: []
@@ -65,7 +65,7 @@ source_rewrites:
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: "The section must preserve the difference between direct continuation estimates and CM class-exit testing.  It now states those as different questions about the same branch."
-    reader_thread_attack: "The section explains Pack, Part, and Field in ordinary questions before using the face formulas."
+    reader_thread_attack: "The section explains Part and Field in ordinary questions before using the face formulas."
     open_derivation_attack: "The section is expository route-setting and does not claim an unpaid proof step."
     repair_decision: passes after repair
     unresolved_failures: []
@@ -105,7 +105,7 @@ source_rewrites:
   - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
-    claim_truth_attack: "The notation file must keep Member, Exit, Pack, Part, and Field separated by role.  It defines each object without merging face failure with class exit."
+    claim_truth_attack: "The notation file must keep Member, Exit, Part and Field separated by role.  It defines each object without merging face failure with class exit."
     reader_thread_attack: "The description list gives each name one proof job and prevents project names from floating as unexplained labels."
     open_derivation_attack: "No derivation is claimed here; this is notation support for later proof sections."
     repair_decision: passes after repair
@@ -147,7 +147,7 @@ source_rewrites:
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: "The roadmap must keep the current annular boundary visible and avoid declaring final Clay closure.  It identifies the exact gold and silver route obligations still controlling the route."
-    reader_thread_attack: "The roadmap gives the reader the order of objects: same branch, gold source obstruction, silver Pack/Part/Field test, then branch roles."
+    reader_thread_attack: "The roadmap gives the reader the order of objects: same branch, gold source obstruction, silver Part/Field test, then branch roles."
     open_derivation_attack: "The roadmap points to the derivations and proof sections instead of replacing them."
     repair_decision: passes after repair
     unresolved_failures: []
