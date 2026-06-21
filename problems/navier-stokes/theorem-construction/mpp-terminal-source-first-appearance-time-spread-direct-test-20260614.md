@@ -11,7 +11,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/terminalreservefirstappearancecharge-a-theorem-creation-20260525.md
     - problems/navier-stokes/theorem-construction/mpp-source-reserve-birth-charge-direct-attempt-20260525.md
     - problems/navier-stokes/theorem-construction/mpp-terminal-time-face-new-production-frontier-20260614.md
-  edge_effect: "Tests TerminalSourceFirstAppearanceTimeSpread.A directly. First-appearance language is not a terminal time-thickness estimate until the new source packet injects into a finite time-priced ledger, satisfies a source integrability theorem, is produced inside a rigid time-face anti-atom subclass, or is admitted into the CM test with a concrete Part/Field Part/Field failure."
+  edge_effect: "Tests TerminalSourceFirstAppearanceTimeSpread.A directly. First-appearance language is not a terminal time-thickness estimate until the new source packet injects into a finite time-priced ledger, satisfies a source integrability theorem, is produced inside a rigid time-face anti-atom subclass, or is admitted into the CM test with a concrete Part/Field failure."
 ---
 
 # MPP Terminal Source First-Appearance Time-Spread Direct Test
@@ -40,7 +40,7 @@ outcomes:
 4. the extraction produces a rigid time-face anti-atom subclass and a residue
    Liouville theorem applies;
 5. the packet is admitted to the same-solution CM test and the first concrete
-   Part/Field Part/Field failure is derived.
+   Part/Field failure is derived.
 
 The gold statement is the first four outcomes.  The fifth outcome is the silver
 CM boundary after same-solution admission, positive-radius carrier, and readout
@@ -157,7 +157,7 @@ retained Part plus retained positive Field readout
   => Member(Q);
 
 finite nonsmooth admitted witness
-  => first concrete Part/Field Part/Field failure
+  => first concrete Part/Field failure
   => Exit(Q):=not Member(Q).
 ```
 

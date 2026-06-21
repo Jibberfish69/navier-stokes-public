@@ -127,7 +127,7 @@ For each obstruction type, the local job is therefore:
 ```text
 1. give the simplest lawful same-obstruction pass witness;
 2. prove fail-branch CM-test admission;
-3. derive the first Part/Field Part/Field failure;
+3. derive the first Part/Field failure;
 4. verify no third in-class nonsmooth branch survives.
 ```
 
@@ -150,7 +150,7 @@ individual obstruction row contributes to the final proof:
 
 ```text
 same-obstruction pass witness
-+ fail-branch Part/Field Part/Field failure
++ fail-branch Part/Field failure
 => no legal in-class nonsmooth branch for that obstruction.
 ```
 

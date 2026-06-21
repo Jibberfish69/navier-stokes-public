@@ -81,7 +81,7 @@ is not proved from installed inputs.
 
 ## CM Face-Bridge Test
 
-The object becomes useful only after it is typed by the witnesss.
+The object becomes useful only after it is typed by the witnesses.
 
 Case 1: the terminal strain-aligned atom has zero heat-time support and no
 positive-scale retained carrier. Then the installed `B_ASAC` terminal atom

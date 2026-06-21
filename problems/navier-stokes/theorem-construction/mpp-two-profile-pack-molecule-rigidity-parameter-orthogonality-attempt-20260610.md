@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-positive-pack-defect-orthogonality-bilinear-decoupling-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-uniform-pack-cross-term-integrability-direct-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-scale-normalized-cross-profile-square-reserve-direct-attempt-20260609.md
-  downstream_consequence: "TwoProfilePackMoleculeRigidity.A is not proved. The live child is now ScaleNestedLowHighPackMoleculeRigidity.A / SelectedLowHighPackParaproductAntiAtom.A: one must prove vanishing, a terminal anti-atom modulus, one-profile-frame absolute continuity, or a Part/Field Part/Field failure for the exact selected low-high positive measure."
+  downstream_consequence: "TwoProfilePackMoleculeRigidity.A is not proved. The live child is now ScaleNestedLowHighPackMoleculeRigidity.A / SelectedLowHighPackParaproductAntiAtom.A: one must prove vanishing, a terminal anti-atom modulus, one-profile-frame absolute continuity, or a Part/Field failure for the exact selected low-high positive measure."
 ---
 
 # MPP TwoProfilePackMoleculeRigidity Parameter-Orthogonality Attempt

@@ -24,7 +24,7 @@ TerminalPositiveSourceAtomEscape.A:
 \text{parent-diffuse, zero-thickness in time, and pressure/eigenframe-sustained}
 ```
 
-without producing same-ledger source payment or a Part/Field Part/Field failure.
+without producing same-ledger source payment or a Part/Field failure.
 
 Equivalently, it should imply:
 

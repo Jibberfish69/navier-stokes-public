@@ -229,7 +229,7 @@ retained Part plus retained positive Field readout
   => Member(Q);
 
 finite nonsmooth admitted witness
-  => first concrete Part/Field Part/Field failure
+  => first concrete Part/Field failure
   => Exit(Q):=not Member(Q).
 ```
 

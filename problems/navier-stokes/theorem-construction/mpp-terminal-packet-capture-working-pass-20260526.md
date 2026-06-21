@@ -34,7 +34,7 @@ Field_{N,r,Q}.
 
 It does not replace the target by a positive theorem saying that smooth data
 never exits CM, and it does not count a bad terminal branch as `Exit(Q)` before
-a Part/Field Part/Field failure is derived.
+a Part/Field failure is derived.
 
 ## Sources Inspected
 

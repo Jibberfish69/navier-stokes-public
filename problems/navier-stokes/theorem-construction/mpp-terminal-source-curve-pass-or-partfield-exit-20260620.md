@@ -181,7 +181,7 @@ Thus the source-curve obstruction has the required pass-or-exit form:
 \boxed{
 \text{endpoint modulus}
 \quad\text{or}\quad
-\text{Part/Field Part/Field failure supporting } Exit(Q):=\neg Member(Q).
+\text{Part/Field failure supporting } Exit(Q):=\neg Member(Q).
 }
 \tag{PSC.14}
 ```
