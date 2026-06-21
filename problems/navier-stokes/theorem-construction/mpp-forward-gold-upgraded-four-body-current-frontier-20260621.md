@@ -40,6 +40,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lp-full-balance-payment-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-tuple-channel-coercivity-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-density-ckn-fourbody-supplement-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-ckn-full-tuple-recheck-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-polar-saturation-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-rigid-source-residue-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-precauchy-remainder-fourbody-reduction-criterion-20260621.md
