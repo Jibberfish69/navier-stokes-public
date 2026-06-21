@@ -29,6 +29,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transported-full-hodgestokes-selector-payment-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-return-terminal-ac-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-return-recurrence-defect-decomposition-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-recurrence-to-signed-saturation-bridge-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lossless-full-hodgestokes-packet-rigidity-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-packet-compactness-noloss-attempt-20260621.md
@@ -1303,6 +1304,46 @@ same production fork:
 }
 \tag{4BF.45k14}
 ```
+
+The signed branch of `(4BF.45k13)` has now been tied back to the existing
+full-cycle signed-saturation surfaces.  On a retained material line,
+
+```math
+h_k(s)=\langle S(s)e_k(s),e_k(s)\rangle,
+\qquad
+dA_k=[h_k]_+\,ds,\quad dN_k=[h_k]_-\,ds,\quad dJ_k=h_k\,ds,
+\tag{4BF.45k15}
+```
+
+so
+
+```math
+dJ_k=dA_k-dN_k.
+\tag{4BF.45k16}
+```
+
+If the Body-IV carrier, eigenframe/direction label, cutoff, and gauge are
+retained, the negative recurrence partner is the same signed-polar negative
+partner \(dN_k\).  If they are not retained, the failure is geometry,
+selector/frame, collar, or legal drift.  Therefore endpoint-bounded Body-IV
+recurrence obeys the existing residual map:
+
+```math
+\boxed{
+\text{endpoint-bounded Body-IV positive recurrence}
+\Rightarrow
+\mathcal R_{\rm legal}
+\cup
+\mathcal R_{\rm sel}
+\cup
+\mathcal R_{\rm sat}.
+}
+\tag{4BF.45k17}
+```
+
+Here \(\mathcal R_{\rm sat}\) is the infinite terminal Zeno donor chain
+inherited from \(dN_{\rm miss}\).  Thus Body-IV recurrence creates no fifth
+residual outside the already isolated full-packet core.
 
 The shell-level version of the same route is now recorded as
 `LPFullBalancePayment.A` / `DyadicParticipationNoFreeSource.A`.  It keeps the
