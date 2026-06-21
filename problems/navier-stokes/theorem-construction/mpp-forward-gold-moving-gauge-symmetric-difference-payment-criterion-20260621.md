@@ -7,7 +7,8 @@ ns_viewer:
   edge_effect: >-
     Gives the exact payment criterion for the moving-gauge defect exposed by the
     moving-gauge cross-cylinder compatibility split. The defect is the same-carrier
-    mass of Delta_j^gauge=(B_lambda_j(b_j) triangle B_lambda_j(0)) x [-lambda_j^2,0].
+    mass of the controlled part of Delta_j^gauge=(B_lambda_j(b_j) triangle
+    B_lambda_j(0)) x [-lambda_j^2,0].
     If the selected carrier has a same-carrier L^p spacetime density, p>1, then
     Holder pays the defect by |Delta_j^gauge|^(1-1/p), and the geometric bound
     |Delta_j^gauge| <= C lambda_j^4 min(|b_j|,lambda_j) gives an exact summability
@@ -52,10 +53,10 @@ B_{\lambda_j}(b_j)\triangle B_{\lambda_j}(0)
 \]
 
 For a selected same-carrier measure \(\mu_j\), the fixed-chain replacement is
-paid exactly when the controlled part of
+paid exactly when the mass of the controlled part of the defect,
 
 \[
-\mu_j(\Delta_j^{gauge})
+\mu_j(\Delta_j^{gauge}\cap\Omega_j),
 \tag{MGD.2}
 \]
 
@@ -213,7 +214,7 @@ This is the exact same-carrier spatial/spacetime UI payment.
 Assume only
 
 \[
-\sup_j\mu_j(Q_1)\le M.
+\sup_j\mu_j(\Omega_j)\le M.
 \tag{MGD.15}
 \]
 
@@ -227,10 +228,10 @@ d\mu_j
 \tag{MGD.16}
 \]
 
-whenever \(E_j^{gauge}\subset Q_1\) and \(|E_j^{gauge}|>0\). Then
+whenever \(|E_j^{gauge}|>0\). Then
 
 \[
-\mu_j(Q_1)=a_0,
+\mu_j(\Omega_j)=a_0,
 \qquad
 \mu_j(E_j^{gauge})=a_0.
 \tag{MGD.17}
@@ -263,9 +264,12 @@ The moving-gauge defect is a spacetime symmetric-difference statement, localized
 to the controlled carrier region:
 
 \[
-\mu_j\left(\Omega_j\cap
+\mu_j\left(
+\Omega_j\cap
+\left[
 \left(B_{\lambda_j}(b_j)\triangle B_{\lambda_j}(0)\right)
 \times[-\lambda_j^2,0]
+\right]
 \right).
 \tag{MGD.20}
 \]
