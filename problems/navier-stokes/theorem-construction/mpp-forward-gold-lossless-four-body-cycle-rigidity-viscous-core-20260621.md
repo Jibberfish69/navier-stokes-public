@@ -106,7 +106,7 @@ V_n-\bar V_n(s)\to0
 \tag{LCR.6}
 ```
 
-Thus the velocity packet collapses in the local Galilean quotient to a
+Thus the velocity packet collapses in the local spatial-gradient quotient to a
 spatially constant profile:
 
 ```math
@@ -115,7 +115,11 @@ V_\infty(s,y)=c(s).
 ```
 
 No spatial strain, vorticity, projected nonlinear source, positive
-strain-carrier, or positive derivative-tower carrier remains in this quotient.
+strain-carrier, or positive spatial-derivative carrier remains in this
+quotient.  A time-dependent spatial constant \(c(s)\) is paired with affine
+pressure gauge in the next step; it is not singular participation activity
+unless the selected carrier charges that gauge, in which case the charge is a
+pressure/gauge defect rather than rigidity.
 
 ## 3. Pressure becomes gauge-only
 
