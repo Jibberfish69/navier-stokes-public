@@ -156,43 +156,31 @@ H^1\text{ selector control}.
 
 ## 3. Smoothing the selector needs a nodal-margin estimate
 
-Let \(\rho_\delta\) be a standard spatial mollifier at scale \(\delta\), and
-set
+Use heat smoothing at spatial scale \(\delta\), and set
 
 \[
-\chi_{\lambda,\delta}:=\rho_\delta*\chi_\lambda.
+\chi_{\lambda,\delta}:=e^{\delta^2\Delta}\chi_\lambda.
 \tag{FBS.12}
 \]
 
-The BV estimate gives the standard smoothing bound
-
-\[
-\|\nabla\chi_{\lambda,\delta}\|_{L^1}
-\le
-|D\chi_\lambda|(\mathbb T^3)
-\le
-6L(2\pi)^2.
-\tag{FBS.13}
-\]
-
-But the duality fork needs an \(L^2\) gradient bound. Mollification gives only
+The BV heat-smoothing estimate gives a universal constant \(C_H\) such that
 
 \[
 \|\nabla\chi_{\lambda,\delta}\|_{L^2}^2
-\lesssim
-\delta^{-1}|D\chi_\lambda|(\mathbb T^3),
-\tag{FBS.14}
+\le
+C_H\delta^{-1}|D\chi_\lambda|(\mathbb T^3).
+\tag{FBS.13}
 \]
 
-so, using `(FBS.4)`,
+Using `(FBS.4)`, this gives
 
 \[
 \boxed{
 \|\nabla\chi_{\lambda,\delta}\|_{L^2}
-\lesssim
+(6C_H)^{1/2}(2\pi)
 \left({L\over\delta}\right)^{1/2}.
 }
-\tag{FBS.15}
+\tag{FBS.14}
 \]
 
 To replace the sharp positive selector by \(\chi_{\lambda,\delta}\), one must
@@ -202,7 +190,7 @@ show that the source-carrier mass lost in the transition layer is small:
 \int_{\{|f-\lambda|\le \operatorname{osc}_\delta f\}}
 |f|\,dx
 \quad\text{must be small.}
-\tag{FBS.16}
+\tag{FBS.15}
 \]
 
 That is a margin or nondegeneracy estimate near the selected nodal set. Finite
