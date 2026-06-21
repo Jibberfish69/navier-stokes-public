@@ -22,6 +22,11 @@ This note records the exact Duhamel identity that belongs to Navier-Stokes.
 It does not replace the nonlinear equation by a linear forced equation or by a
 normal form.
 
+No nonlinear term is discarded. The source in the Duhamel integral is the
+actual Leray-projected Navier-Stokes nonlinearity
+\(-\mathbb P\nabla\cdot(v_j\otimes v_j)\). Pressure is not ignored; it is
+encoded by the exact incompressible Leray projection.
+
 Exactness scope. The identities below are identities for the smooth
 preterminal rescaled Navier-Stokes sequence \(v_j\). Passing any term to a
 terminal weak or profile limit is a separate compactness/convergence theorem;
