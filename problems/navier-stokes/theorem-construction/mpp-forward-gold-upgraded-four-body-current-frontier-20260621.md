@@ -1245,6 +1245,132 @@ Thus the no-residue branch now has the exact form
 \tag{4BF.45k0f}
 ```
 
+The branch attacks after `(4BF.45k0f)` give the sharper production map.
+
+First, selected full-packet identification is order-sensitive.  If the native
+pre-Cauchy scalar and the full Hodge-Stokes scalar agree before the positive
+part, then the positive carriers agree by the \(L^1\) Lipschitz property of
+\([\,\cdot\,]_+\).  The stronger statement is false:
+
+```math
+[n+p]_+=0
+\quad\text{while}\quad
+[n]_+=1
+\tag{4BF.45k0g}
+```
+
+for \(n=1\), \(p=-1\) on a packet core.  The same cancellation occurs in the
+smooth local incompressible stationary core
+
+```math
+u=(x,-y,0),
+\qquad
+p=-{1\over2}(x^2+y^2),
+\tag{4BF.45k0h}
+```
+
+where convection and pressure cancel in the full equation while the selected
+convection channel is positive on a lobe.  Therefore the no-residue branch
+needs
+
+```math
+\boxed{
+\texttt{FullPacketPreCauchyScalarizationIdentity.A}
++
+\texttt{PositivePartOrderLock.A}
+\quad\text{or}\quad
+\texttt{SignedPartnerRetention.A.}
+}
+\tag{4BF.45k0i}
+```
+
+Second, endpoint no-jump is a consumer theorem, not a producer.  From the
+full-packet local energy identity,
+
+```math
+\left[M_m(0)-M_m(-\theta)\right]_+
+\le
+\int_{-\theta}^{0}[H_m(s)]_+\,ds
++L_m^+(-\theta,0).
+\tag{4BF.45k0j}
+```
+
+So terminal strip AC of the selected positive full-packet trace and legal
+residue kills the endpoint storage atom.  Current inputs do not produce that
+AC.  Smooth preterminal densities
+
+```math
+h_m(s)=a\theta_m^{-1}\rho(s/\theta_m),
+\qquad
+\theta_m\downarrow0,
+\tag{4BF.45k0k}
+```
+
+remain absolutely continuous before the endpoint but converge to
+\(a\delta_0\).  The full packet sees this terminal heat-scale pulse; it does
+not force its positive time marginal to be uniformly absolutely continuous.
+
+Third, the actual-tuple selector admissibility attack sharpens the transport
+wall.  On the exact affine local Navier-Stokes model
+
+```math
+u(x)=Sx,
+\qquad
+S=\operatorname{diag}(a,-a,0),
+\tag{4BF.45k0l}
+```
+
+the scalar heat-scale selector obeys
+
+```math
+D_s^cg_\sigma
+=
+\gamma'(\log|\xi|-\sigma)
+\left(-\hat\xi\cdot S\hat\xi-\sigma_s\right),
+\tag{4BF.45k0m}
+```
+
+and no single scalar \(\sigma_s\) cancels both \(e_1\) and \(e_2\) directions.
+An anisotropic material selector fixes the transport commutator but then
+requires heat-scale return, viscous metric-commutator admissibility, harmonic
+pressure trace admissibility, and signed/selector no-loss in unweighted
+\(\sigma\)-time.
+
+Fourth, finite or compact selector/collar motion is no longer a hidden
+residual once its variation is inserted into the legal packet:
+
+```math
+\boxed{
+\text{finite/compact selector graph + visible collar variation}
+\Rightarrow
+\text{same-carrier stabilization or legal/collar payment.}
+}
+\tag{4BF.45k0n}
+```
+
+Thus the selector residual is only unbounded selector complexity or unpaid
+carrier/collar drift.
+
+Fifth, the terminal Zeno donor chain is no longer invisible after the full
+Hodge-Stokes tuple and coupled mixed tower are imposed.  Uniform coupled tower
+radius survival gives endpoint uniform integrability and kills the pulse.  If
+radius survival fails, then a retained atom forces finite-rung/high-factor,
+height/source-square, endpoint jump, legal/collar loss, or profile-facing
+readout:
+
+```math
+\boxed{
+\text{terminal Zeno donor-chain atom}
+\Rightarrow
+\text{finite-rung/high-factor/source-square/no-waste/profile-facing readout.}
+}
+\tag{4BF.45k0o}
+```
+
+The remaining unsolved point is now narrower: visibility is installed, while
+unweighted same-carrier payment of the visible high-factor/source-square or
+finite-rung readout is still not produced.
+
 The direct attempt at `(4BF.45k)` has now been run.  The transport identity is
 real, but the scalar heat-scale selector cannot itself be the transported
 object.  For
