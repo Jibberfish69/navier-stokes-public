@@ -417,8 +417,8 @@ The exact surviving bridge is:
 
 After the amplitude, source-square/no-waste, critical-density/CKN,
 signed-polar saturation, and rigid source-residue supplement notes, the
-unresolved gold-production
-suppliers inside `(NQB.23)` are same-carrier square/no-waste budget,
+unresolved gold-production suppliers inside `(NQB.23)` are same-carrier
+square/no-waste budget,
 same-carrier critical-density/CKN budget, production of `(NQB.18a)`, rigid
 profile production through `MinimalZenoProfileProduction.A`, or full
 pre-Cauchy remainder reduction.  The
@@ -429,11 +429,10 @@ same-carrier critical-density identity, missing unweighted selected
 \(L^{5/2}\)-strain or normalized CKN budget, and same-layer overrun tail
 depletion.  The signed-polar route is still open exactly at same-carrier
 negative-part retention or legal/charged production for \(dN_{\rm miss}\).  The
-rigid source-residue route is still open exactly at endpoint residue evacuation
-or controlled force, nontriviality retention, no-drift/unique tangent,
-renormalized stationarity, homogeneity, defect evacuation, and sphere
-smoothness.  The
-four-body program still stays intact: tower drain pays
+rigid source-residue route is still open exactly at endpoint residue
+evacuation or controlled force, nontriviality retention, no-drift/unique
+tangent, renormalized stationarity, homogeneity, defect evacuation, and sphere
+smoothness.  The four-body program still stays intact: tower drain pays
 quadratic gauge-quotient activity; participation supplies the signed source;
 compactness must retain the same positive/negative carrier; geometry must
 return the same packet; and the native cubic source selector needs one of the
