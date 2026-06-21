@@ -77,13 +77,13 @@ Insert the weighted carrier closure into the repaired dyadic cascade inequality.
 By the established production theorem,
 
 ```math
-HFG\Rightarrow Pack+Part+Field+\mathfrak A_{N,Q}.
+HFG\Rightarrow Part+Field+\mathfrak A_{N,Q}.
 ```
 
 Then
 
 ```math
-Pack+Part+Field+\mathfrak A_{N,Q}
+Part+Field+\mathfrak A_{N,Q}
 \Rightarrow H1+H2+H6+ORIGIN.Retain.
 ```
 

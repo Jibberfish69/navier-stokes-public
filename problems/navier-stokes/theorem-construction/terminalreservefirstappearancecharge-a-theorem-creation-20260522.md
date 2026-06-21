@@ -32,12 +32,12 @@ TerminalReserveFirstAppearanceCharge.A. On every admissible terminal heat window
 
 ### Retrieved Ingredients
 
-- problems/navier-stokes/agent-contract.yaml:55 -- Pack/Part bridge support
+- problems/navier-stokes/agent-contract.yaml:55 -- Part/Field bridge support
 - problems/navier-stokes/agent-contract.yaml:53 -- source ingredient
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
 - problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
 - problems/navier-stokes/agent-contract.yaml:58 -- source ingredient
-- problems/navier-stokes/agent-contract.yaml:172 -- Pack/Part bridge support
+- problems/navier-stokes/agent-contract.yaml:172 -- Part/Field bridge support
 
 ### Recursive Solver Chain
 
@@ -80,14 +80,14 @@ TerminalReserveFirstAppearanceCharge.A. On every admissible terminal heat window
 2. Split the reserve birth into inherited parent mass and genuinely new child residual.
 3. Map genuinely new residual birth into Charge_N(W) using the weighted adjoint residual control.
 4. Prove that uncharged birth would create a forbidden zero-cost packet creation event.
-5. Use problems/navier-stokes/agent-contract.yaml:55 as source support for Pack/Part bridge support.
+5. Use problems/navier-stokes/agent-contract.yaml:55 as source support for Part/Field bridge support.
 6. Use problems/navier-stokes/agent-contract.yaml:53 as source support for source ingredient.
 7. Recursive solver step for ChargeLedgerInjection.A: Assume a genuinely new terminal reserve birth has no Charge_N ledger injection.
 8. Recursive solver step for ChargeLedgerInjection.A: Use first-birth minimality to remove inherited Past(W) mass.
 9. Recursive solver step for ChargeLedgerInjection.A: Pair the remaining child residual with WeightedAdjRes.A.
 10. Recursive solver step for ChargeLedgerInjection.A: Contradict the existence of positive reserve birth outside Charge_N plus declared loss.
-11. Recursive solver step for ChargeLedgerInjection.A: Use problems/navier-stokes/agent-contract.yaml:55 as source support for Pack/Part bridge support.
-12. Recursive solver step for ChargeLedgerInjection.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
+11. Recursive solver step for ChargeLedgerInjection.A: Use problems/navier-stokes/agent-contract.yaml:55 as source support for Part/Field bridge support.
+12. Recursive solver step for ChargeLedgerInjection.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Part/Field bridge support.
 
 ## Circularity Audit
 

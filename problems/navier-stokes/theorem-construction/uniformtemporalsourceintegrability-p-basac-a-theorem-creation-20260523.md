@@ -32,7 +32,7 @@ UniformTemporalSourceIntegrability_p_BASAC.A. This is the super-L^1 temporal thi
 - problems/navier-stokes/theorem-packet.yaml -- source ingredient
 - problems/navier-stokes/theorem-packet.yaml -- residual control
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
 
 ### Recursive Solver Chain
 
@@ -46,7 +46,7 @@ UniformTemporalSourceIntegrability_p_BASAC.A. This is the super-L^1 temporal thi
 - ZenoResidueLiouville_{B_ASAC^RH(p)}.A
 - B_ASAC reverse-holder rigid-subclass Liouville note
 - terminal Holder shrinking-window estimate
-- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-out-of-CM audit.
+- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Part/Field witness support by the Pack-out-of-CM audit.
 - ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing controlled by weighted adjoint residual mass. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.

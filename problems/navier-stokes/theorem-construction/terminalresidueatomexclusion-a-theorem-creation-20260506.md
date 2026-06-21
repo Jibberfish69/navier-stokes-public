@@ -31,12 +31,12 @@ TerminalResidueAtomExclusion.A. A positive terminal source-residue atom cannot s
 
 ### Retrieved Ingredients
 
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:60 -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:55 -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:116 -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:60 -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:55 -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:116 -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
 
 ### Recursive Solver Chain
 
@@ -79,13 +79,13 @@ TerminalResidueAtomExclusion.A. A positive terminal source-residue atom cannot s
 2. Test the source measure on shrinking terminal intervals.
 3. Use uniform temporal source integrability to force the mass to disperse before the terminal slice.
 4. Contradict persistence of an atom.
-5. Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
+5. Use problems/navier-stokes/theorem-packet.yaml as source support for Part/Field bridge support.
 6. Recursive solver step for ShrinkingWindowEvacuation.A: Assume a positive terminal source-residue atom.
 7. Recursive solver step for ShrinkingWindowEvacuation.A: Choose shrinking terminal intervals capturing a fixed fraction of the atom.
 8. Recursive solver step for ShrinkingWindowEvacuation.A: Apply the uniform temporal source-integrability packet on those intervals.
 9. Recursive solver step for ShrinkingWindowEvacuation.A: Let the window length shrink and contradict fixed atomic mass.
-10. Recursive solver step for ShrinkingWindowEvacuation.A: Use problems/navier-stokes/agent-contract.yaml:60 as source support for Pack/Part bridge support.
-11. Recursive solver step for ShrinkingWindowEvacuation.A: Use problems/navier-stokes/agent-contract.yaml:55 as source support for Pack/Part bridge support.
+10. Recursive solver step for ShrinkingWindowEvacuation.A: Use problems/navier-stokes/agent-contract.yaml:60 as source support for Part/Field bridge support.
+11. Recursive solver step for ShrinkingWindowEvacuation.A: Use problems/navier-stokes/agent-contract.yaml:55 as source support for Part/Field bridge support.
 
 ## Circularity Audit
 

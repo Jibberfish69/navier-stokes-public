@@ -30,9 +30,9 @@ UniformTemporalSourceIntegrability_p_BASAC.A. This is a quarantined downstream n
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/agent-contract.yaml:175 -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:115 -- Pack/Part bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:115 -- Part/Field bridge support
 
 ### Recursive Solver Chain
 
@@ -47,7 +47,7 @@ UniformTemporalSourceIntegrability_p_BASAC.A. This is a quarantined downstream n
 - B_ASAC reverse-holder rigid-subclass Liouville note
 - terminal Holder shrinking-window estimate
 - HeightFluxControl.A. Turn the remaining positive source-reserve birth charge into the first proof-facing sampling theorem: a first large retained height-flux event must create Pack gain, Part/dwell failure, legal Field source charge, or a Zeno terminal residue atom. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive HeightFluxControl.A exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
-- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for original participation law status, giving not Part_{N,Q} when same-solution participation remains and true not Pack_Q only when the participation record is absent. This is a CM Part/Field-reduction theorem, not a forward no-free-sink supplier discharge.
+- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for original participation law status, giving not Part_{N,Q} when same-solution participation remains and packet/window evidence only when the participation record is absent. This is a CM Part/Field-reduction theorem, not a forward no-free-sink supplier discharge.
 - theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
 - Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A

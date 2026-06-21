@@ -87,7 +87,7 @@ TerminalPackStrainIntegrabilityNoExit.A. Original smooth data supplies a positiv
 - verdict: new_subprimitive
 - certification_level: theorem-creation:new-subprimitive
 - rationale: The theorem has been reduced to a smaller noncircular primitive that is not currently installed.
-- next subprimitive: OriginalSmoothDataScaleCriticalTreeCarleson.A -- original smooth data produces the Pack-side scale-critical donor-refill Carleson / positive-scale carrier theorem
+- next subprimitive: OriginalSmoothDataScaleCriticalTreeCarleson.A -- original smooth data produces the Field-window support scale-critical donor-refill Carleson / positive-scale carrier theorem
 
 ## Promotion Plan
 
