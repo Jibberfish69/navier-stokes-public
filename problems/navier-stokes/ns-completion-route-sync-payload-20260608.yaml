@@ -479,7 +479,7 @@ integration_chain:
   job: Viewer can inspect the D8 route map, Research OS route state, branch rows,
     proof/PDF scaffold state, sync verdicts, and open blockers beside route graph,
     source frontier, live edge, and proof leaves.
-  current_gap: The viewer route truth must show Pack/Part as witnesss for named
+  current_gap: The viewer route truth must show Pack/Part as witnesses for named
     rows, not as generic global no-exit blockers.
 - step_id: repo_proof_authority
   surface_class: NS repo theorem closure
@@ -777,7 +777,7 @@ branch_rows:
   row_kind: d8_integration_step
   label: NS app/viewer
   state: route-state-exported-with-inventory-gate
-  next_burden: The viewer route truth must show Pack/Part as witnesss for named
+  next_burden: The viewer route truth must show Pack/Part as witnesses for named
     rows, not as generic global no-exit blockers.
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
