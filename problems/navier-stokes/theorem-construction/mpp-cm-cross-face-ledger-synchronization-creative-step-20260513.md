@@ -7,7 +7,7 @@ Bounded creative-theorem-search execution for the selected bridge branch in
 
 This note does not reopen or reprove the already installed definitional bridge
 `CM.CrossFaceSynthesis.A`.  It isolates the only nontrivial bridge-side residue:
-localized Pack, Part, and Field supports must be synchronized onto one witness
+localized Part and Field supports must be synchronized onto one witness
 ledger before they can be conjoined into `CM_{N,r,Q}`.
 
 It also does not discharge the live post-reconcile source wall:
@@ -147,7 +147,7 @@ Choose the three localized ledgers:
 \mathcal W_P,\quad \mathcal W_R,\quad \mathcal W_F
 ```
 
-for the Pack, Part, and Field faces.  By hypothesis they live over the same
+for the Part and Field faces.  By hypothesis they live over the same
 carrier `O_NS^{work}`, the same `Q`, the same depth `N`, and compatible
 same-fluid families.
 
@@ -196,7 +196,7 @@ than the source-wall root.
 Current audit:
 
 - Hypotheses 1 and 4 are bookkeeping or finite-window compatibility claims.
-- Hypotheses 2 and 3 are definition-audit claims about Pack, Part, and Field
+- Hypotheses 2 and 3 are definition-audit claims about Part and Field
   heredity under same-fluid restriction.
 - Hypothesis 5 is the dangerous analytic point.  If positive Field scale
   collapses during synchronization, the burden falls back to the Field-face
@@ -228,7 +228,7 @@ ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
 
 The creative theorem-search step should not keep targeting a generic
 "aggregate CM bridge."  The installed bridge already says that a same-ledger
-Pack/Part/Field triple gives `CM_{N,r,Q}`.
+Part/Field triple gives `CM_{N,r,Q}`.
 
 The only nontrivial bridge-side residue is now:
 

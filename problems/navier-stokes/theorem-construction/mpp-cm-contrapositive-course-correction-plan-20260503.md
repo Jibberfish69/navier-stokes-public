@@ -12,12 +12,12 @@ The primary theorem program is:
 
 ```text
 GenuineNonSmoothOccurrence => not CM_{N,r,Q}
-CM_{N,r,Q} = Pack_Q + Part_{N,Q} + Field_{N,r,Q}
+CM_{N,r,Q}:=Part_{N,Q}+Field_{N,r,Q}
 ```
 
 Smoothness is then read by contraposition. A positive estimate may help, but it
 is only a supplier/readout theorem until it explicitly bridges into failure or
-persistence of Pack, Part, or Field.
+persistence of Part or Field.
 
 ## Current Reseat
 
@@ -26,7 +26,7 @@ The source-pulse branch should be read as:
 ```text
 SourcePulseCMExit.A:
 terminal source-pulse used as a genuine non-smooth occurrence
-=> not Pack_Q or not Part_{N,Q} or not Field_{N,r,Q}.
+=> not Part_{N,Q} or not Field_{N,r,Q}.
 ```
 
 The older displayed target
@@ -46,7 +46,7 @@ primitive unless a surface explicitly proves it as a bridge into
    - supplier/readout theorem,
    - bridge theorem from supplier/readout to CM exit,
    - stale generated wording.
-2. Any positive program must answer: which Pack/Part/Field witness does this
+2. Any positive program must answer: which Part/Field witness does this
    install, preserve, or contradict?
 3. Any terminal refill/source-pulse theorem must answer: does the source-pulse
    force `not Pack`, `not Part`, or `not Field` on the same-fluid shrinking
@@ -69,7 +69,7 @@ primitive unless a surface explicitly proves it as a bridge into
    three exits, not as an absolute no-pulse proof by default.
 5. Resume theorem work on the narrowest surviving branch:
    prove the terminal nonlinear refill/source-pulse cannot be a genuine
-   non-smooth occurrence while Pack, Part, and Field all remain valid.
+   non-smooth occurrence while Part and Field all remain valid.
 
 ## Stop Condition
 

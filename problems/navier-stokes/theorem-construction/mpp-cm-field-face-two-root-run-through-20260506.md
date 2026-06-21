@@ -2,7 +2,7 @@
 
 ## Status
 
-This note runs the contrapositive CM witness-face proof shape through both live
+This note runs the contrapositive CM witness proof shape through both live
 source-wall options:
 
 ```math
@@ -23,7 +23,7 @@ Verdict:
 }
 ```
 
-The CM witness-face framing is correct and remains the framing.  It does not by
+The CM witness framing is correct and remains the framing.  It does not by
 itself solve the Field-face residual wall.
 
 ## Periodic Navier--Stokes Target
@@ -153,7 +153,7 @@ Pack_Q\wedge Part_{N,Q}\wedge \forall r>0\,\neg Field_{N,r,Q}.
 
 This is the Field-face residual wall.
 
-The Field-face failure is translated into a native terminal positive source
+The Field-Part/Field failure is translated into a native terminal positive source
 reserve / source-pulse event:
 
 ```math

@@ -2,7 +2,7 @@
 
 ## Authority Cap - Historical Route Audit
 
-This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
+This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
 
 ## Status
 
@@ -22,13 +22,7 @@ leading edge for faithfulness to the governing class-membership program:
 with
 
 ```math
-CM_{N,r,Q}
-=
-Pack_Q
-\wedge
-Part_{N,Q}
-\wedge
-Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 The corrected route is not:
@@ -42,7 +36,7 @@ The corrected route is:
 ```math
 \boxed{
 \text{prove every genuine non-smooth occurrence leaves }
-Pack/Part/Field.
+Part/Field.
 }
 ```
 
@@ -102,7 +96,7 @@ being used as the non-smooth occurrence.
 | Pressure-vortex / Beltrami / vorticity-direction / CKN / compactness / Duhamel / no-hop audits | Negative mechanism audits | Faithful as non-independent-collapse records. Misaligned if reopened as independent proof exits or claimed as installed no-pulse theorems. |
 | SG.4 / TPS selector wall | Downstream context | Faithful only as downstream one-field readout/support. Misaligned if promoted back to lane-wide route authority or prerequisite for `CFI.A`, `OFP.A`, or `LCI.A`. |
 | Exact-potential / Hodge / normal-covector readouts | Downstream branch-specific support | Faithful only through an explicit readout-to-`Field` bridge. Misaligned if treated as the propagated `CM` object. |
-| Mixed-jet positive controls | Support / continuation machinery | Faithful as tower or `Field` support after a bridge. Misaligned if read as direct `Pack/Part/Field` persistence. |
+| Mixed-jet positive controls | Support / continuation machinery | Faithful as tower or `Field` support after a bridge. Misaligned if read as direct `Part/Field` persistence. |
 | Lagrangian deformation route | Support / possible pack-receiver supplier | Faithful if bridged into `Pack` or `LCI.A` on the same carrier. Misaligned if treated as `CM` closure by itself. |
 | Euclidean strict-shadow / whole-space export | Downstream export branch | Faithful only after internal torus-first CM closure. Misaligned if it replaces the internal route. |
 | Release / manuscript proof packages that claim final smoothness | Stale unless marked conditional | Misaligned if they consume the old no-`Jump_avg` endpoint packet as a finished proof while source-pulse/class-exit classification is open. Current review and release YAMLs correctly block release. |
@@ -200,7 +194,7 @@ logically seated in the wrong place unless rewritten through `SourcePulseCMExit.
 
 3. `mu_*^sing=0`.
    Correct seat: a nonzero singular native positive source component should be
-   tested for `Pack/Part/Field` legality. If it is illegal, it closes by class
+   tested for `Part/Field` legality. If it is illegal, it closes by class
    exit; if it is legal, source-control estimates may try to propagate or charge
    it.
 

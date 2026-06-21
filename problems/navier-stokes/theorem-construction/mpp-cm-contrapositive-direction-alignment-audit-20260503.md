@@ -16,9 +16,7 @@ Exit(Q;\mathfrak O_{\mathrm{NS}}^{work})
 At witness level:
 
 ```math
-CM_{N,r,Q}
-=
-Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 ## Direction Classes

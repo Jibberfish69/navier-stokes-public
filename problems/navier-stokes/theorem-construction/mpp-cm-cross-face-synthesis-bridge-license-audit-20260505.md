@@ -3,7 +3,7 @@
 ## Status
 
 Theorem-facing bridge-license note for the aggregate class-membership witness
-after Pack, Part, and Field supports have been localized on the same witness
+after Part and Field supports have been localized on the same witness
 ledger. Member is reached only by the installed membership implication after
 that triadic witness exists.
 
@@ -30,7 +30,7 @@ CM.CrossFaceSynthesis.A
 }
 ```
 
-If the Pack, Part, and Field faces are all certified on the same carrier,
+If the Part and Field faces are all certified on the same carrier,
 window, scale, and same-fluid family, then the triadic witness is certified:
 
 ```math
@@ -118,13 +118,7 @@ Member(Q)
 By definition, the class-membership witness is triadic:
 
 ```math
-CM_{N,r,Q}
-=
-Pack_Q
-\wedge
-Part_{N,Q}
-\wedge
-Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 If all three predicates are certified on the same witness ledger
@@ -242,7 +236,7 @@ CM.CrossFaceSynthesis.A\text{ is installed as a bridge-license theorem.}
 }
 ```
 
-The aggregate CM bridge may close only when Pack, Part, and Field are certified
+The aggregate CM bridge may close only when Part and Field are certified
 on the same witness ledger.  The remaining mathematical frontier is still:
 
 ```math

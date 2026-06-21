@@ -32,7 +32,7 @@ witnessed analytically by:
 }
 ```
 
-Thus the source wall may enter only after the CM witness-face split has selected
+Thus the source wall may enter only after the CM witness split has selected
 the `Field` row, or after a theorem proves that the other faces reduce to that
 row on the same witness carrier.
 
@@ -231,7 +231,7 @@ are route presentations of:
 NativePositiveSourceControl.A
 ```
 
-inside the `Field` face.  They are not direct Pack, Part, or Field witness face, class-membership direction, or
+inside the `Field` face.  They are not direct Part or Field witness, class-membership direction, or
 Smooth theorems.
 
 The legal source-wall branch is therefore:
@@ -282,5 +282,5 @@ NativePositiveSourceControl.A.
 ```
 
 No source-wall estimate may be promoted unless it is explicitly consumed through
-`FieldFaceResidueReduction.A` or through an equally explicit Pack/Part/Field
-witness-face bridge.
+`FieldFaceResidueReduction.A` or through an equally explicit Part/Field
+witness bridge.
