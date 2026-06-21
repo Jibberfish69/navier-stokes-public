@@ -39,8 +39,8 @@ smoothing strength when the input is born at the endpoint.
 The exactness boundary is strict: the forcing \(f_m\) below is an external
 heat-equation test input. It is not a linear approximation to
 \(-\mathbb P\nabla\cdot(v\otimes v)\), and it cannot be cited as a
-Navier-Stokes model unless the separate exact Leray-Duhamel identity supplies
-that actual nonlinear term.
+Navier-Stokes normal form or model unless the separate exact Leray-Duhamel
+identity supplies that actual nonlinear term.
 
 The exact Navier-Stokes Duhamel identity is recorded separately in
 `mpp-forward-gold-exact-nonlinear-duhamel-terminal-split-20260621.md`. Any
