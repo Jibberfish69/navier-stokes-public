@@ -252,6 +252,64 @@ Making the beta weight grow with the terminal scale would no longer be the
 fixed shifted-gamma tower tested in the Stirling/binomial thread; it would be a
 new scale-dependent reserve assumption.
 
+The pulse also measures the exact size of the missing weight.  Suppose a
+first-moment replacement sees the active shell through a positive scale weight
+\(w_m\):
+
+```math
+\mathcal F_m^{(w)}(I_m)
+=
+w_mA_m.
+\tag{SGP.20}
+```
+
+To keep this quantity bounded below on the pulse, one needs
+
+```math
+w_mA_m\gtrsim1.
+\tag{SGP.21}
+```
+
+Since \(A_m=2^{-3m/2}\), this requires
+
+```math
+w_m\gtrsim2^{3m/2}.
+\tag{SGP.22}
+```
+
+Thus every subcritical exponential weight fails, and every subexponential
+weight fails in particular:
+
+```math
+w_m=\exp(o(m))
+\quad\Longrightarrow\quad
+w_mA_m\to0.
+\tag{SGP.23}
+```
+
+Under the favorable polynomial-multiplier model \(w_m=m^{\beta_m-1}\), paying
+the pulse would require
+
+```math
+(\beta_m-1)\log m
+\ge
+{3\over2}m\log2+O(1),
+\tag{SGP.24}
+```
+
+or equivalently
+
+```math
+\beta_m
+\ge
+1+{(3/2)m\log2+O(1)\over\log m}.
+\tag{SGP.25}
+```
+
+So any beta rule with \(\beta_m=o(m/\log m)\) still misses the heat-scale
+square reserve.  This is far outside the fixed-beta shifted-gamma correction
+that the Stirling/binomial thread made available.
+
 ## 4. Consequence for the four-thread attack
 
 The Stirling/shifted-gamma work remains useful for locating balanced high-rung
@@ -272,7 +330,7 @@ actual anti-remote-tail mechanisms:
 \text{active-height throttle, source-square/CKN reserve, strict no-waste,
 polar saturation, profile production,}
 }
-\tag{SGP.20}
+\tag{SGP.26}
 ```
 
 or it has to consume the retained pulse after same-witness CM-test admission:
@@ -281,7 +339,7 @@ or it has to consume the retained pulse after same-witness CM-test admission:
 \boxed{
 \text{CM Pack/Part/Field face failure supporting } Exit(Q):=\neg Member(Q).
 }
-\tag{SGP.21}
+\tag{SGP.27}
 ```
 
 ## Verdict
@@ -293,7 +351,7 @@ The actual math result is:
 \text{fixed shifted-gamma polynomial moments do not imply the
 source-square / unweighted terminal critical-action reserve.}
 }
-\tag{SGP.22}
+\tag{SGP.28}
 ```
 
 So the four-thread synthesis should not attack the NS MPP by trying to tune
