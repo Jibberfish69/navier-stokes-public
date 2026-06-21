@@ -56,7 +56,7 @@ The desired retained-face amplitude theorem is:
 \boxed{
 RetainedFaceAmplitudeGain.A:
 \quad
-Pack_Q+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 \Longrightarrow
 \sup_{P\in\mathcal F_N}a_P(t)\to0
 \quad(N\to\infty).
@@ -270,7 +270,7 @@ This is the exact hidden gap in the proposed retained-face amplitude proof.
 
 ## Corrected Witness-Face Statement
 
-The theorem is valid if the Pack face is explicitly strengthened to include the
+The theorem is valid if the Field-window evidence is explicitly strengthened to include the
 low-strain gain ledger:
 
 ```math
@@ -350,5 +350,5 @@ route is a CM witness route rather than an unconditional energy theorem:
 ```math
 \text{failure of amplitude gain}
 \Rightarrow
-\text{failure of the retained Pack-gain or Part envelope face.}
+\text{failure of the retained Field-window evidence-gain or Part envelope face.}
 ```

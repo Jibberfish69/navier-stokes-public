@@ -2,7 +2,7 @@
 
 Date: 2026-06-09
 
-Status: active-completion proof attempt; not proved from retained Pack plus existing
+Status: active-completion proof attempt; not proved from retained Field-window evidence plus existing
 compactness support.
 
 ## Target
@@ -23,7 +23,7 @@ ClayAdmissibleFiniteBreakdown(W_*)
 => Part_{N,Q}.
 ```
 
-Equivalently, a retained Pack carrier from the original smooth solution would
+Equivalently, a retained Field-window evidence carrier from the original smooth solution would
 have no unpaid terminal stress, pressure, viscosity, commutator, or source-ledger
 defect through depth `N`.
 
@@ -63,10 +63,10 @@ same-ledger source payment on the retained carrier.
 
 `mpp-retained-pressure-package-cm-face-placement-20260605.md` places pressure
 package failure as `not Part_{N,Q}`.  It does not prove pressure projection
-stability under retained Pack.
+stability under retained Field-window evidence.
 
 `mpp-terminal-source-residue-cm-exit-20260522.md` places terminal source residue
-as `not Pack_Q` or, under retained Pack, `not Part_{N,Q}`.  It does not pay the
+as Field-window evidence outside CM or, under retained participation, `not Part_{N,Q}`.  It does not pay the
 residue away.
 
 ## Direct attempt
@@ -113,7 +113,7 @@ pressure tails, and pressure-normalization choices.
 
 The existing pressure-package note classifies these possibilities.  It does not
 prove that every pressure projection term remains on the same terminal ledger
-under retained Pack alone.
+under retained Field-window evidence alone.
 
 Thus a pressure defect can inherit `R_*` or a moving-chart commutator residue
 and land at:
@@ -174,7 +174,7 @@ SameLedgerTerminalSourcePayment.A.
 
 `NS-LIVE-20260609-107`: `RetainedCarrierNoDefectParticipation.A` is not proved.
 The fixed classical compactness package closes nonlinear tensor passage only
-after a scale-barrier tail input on the same scheme; retained Pack does not by
+after a scale-barrier tail input on the same scheme; retained Field-window evidence does not by
 itself supply retained-carrier high-frequency tail control, pressure projection
 stability on moving terminal charts, or same-ledger terminal source/commutator
 payment through depth `N`.  The active loop must attack

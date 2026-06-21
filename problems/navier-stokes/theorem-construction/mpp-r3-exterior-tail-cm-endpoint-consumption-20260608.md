@@ -48,8 +48,8 @@ The installed R3 notes provide the following chain.
    ```
 
 3. `mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md` proves
-   that this dyadic survivor cannot coexist with retained Pack, retained Part,
-   and a positive fixed Field scale. Under retained Pack and Part, the survivor
+   that this dyadic survivor cannot coexist with retained Field-window evidence, retained Part,
+   and a positive fixed Field scale. Under retained Field-window evidence and Part, the survivor
    forces
 
    ```text
@@ -69,7 +69,7 @@ Exterior nonlinear-source Hs tail vanishes
   => Tail.Hs_R3 is supplied for the export branch;
 
 Exterior nonlinear-source Hs tail survives
-  => not Pack_Q or not Part_{M,Q} or forall rho>0 not Field_{M,rho,Q}.
+  => not Part_{M,Q} or forall rho>0 not Field_{M,rho,Q}.
 ```
 
 Thus the R3 exterior high-order tail face is consumed by the CM endpoint matrix.
@@ -98,7 +98,7 @@ N_j -> infinity.
 
 Let \(Q\) be the terminal CM test object selected by this survivor. If the
 packet has no retained material address in the same terminal object, then the
-Pack face fails: `not Pack_Q`. If the packet is detached from the same
+Field-window evidence fails: `not Pack_Q`. If the packet is detached from the same
 Navier-Stokes equation, pressure, viscosity, and source ancestry, then the Part
 face fails: `not Part_{M,Q}`.
 

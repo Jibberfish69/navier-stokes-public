@@ -65,7 +65,7 @@ lost `Pack_Q`.
 Thus receiver escape is not a new analytic species.  It is carrier loss or
 finite-depth tower loss along the receiver packet.
 
-## Lemma `REE.A` (Receiver escape under retained Pack is tower escape)
+## Lemma `REE.A` (Receiver escape under retained Field-window evidence is tower escape)
 
 Assume `Pack_Q` holds on the retained terminal packet, with bounded deformation
 gauge on the label halo generating `(REE.1)`, and assume the receiver supports

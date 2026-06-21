@@ -4,7 +4,7 @@ ns_viewer:
   status: failed-amplitude-smallness-not-produced
   proof_role: retained_far_corona_finite_collar_amplitude_attempt
   logical_landing_node: retained-tail-input-far-corona-endpoint
-  edge_effect: "Continues the active-completion loop from DirectFiniteBandBilinear8j11.A. RetainedFiniteBandAmplitudeSmallness.A is not proved: raw energy controls only L2 mass, retained Pack keeps a carrier alive, raw CKN/source finiteness does not force a retained H^{1/2}-scale collar amplitude bound, and the upgraded shell-pair packet is coefficient-bearing rather than coefficient-small."
+  edge_effect: "Continues the active-completion loop from DirectFiniteBandBilinear8j11.A. RetainedFiniteBandAmplitudeSmallness.A is not proved: raw energy controls only L2 mass, retained Field-window evidence keeps a carrier alive, raw CKN/source finiteness does not force a retained H^{1/2}-scale collar amplitude bound, and the upgraded shell-pair packet is coefficient-bearing rather than coefficient-small."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-direct-finite-band-bilinear-8j11-direct-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/far-corona-carleson-direct-attack.md
@@ -149,7 +149,7 @@ TerminalNuNWindowSeedSynchronization.A.
 `NS-LIVE-20260609-188`: `RetainedFiniteBandAmplitudeSmallness.A` is not
 proved. The needed coefficient smallness is the finite-collar `H^{1/2}` scale
 quantity `2^{-j}E_m=2^{2m-j}\|\Delta_m u\|_2^2`, with fixed-collar comparison
-to `2^N\|\Delta_m u\|_2^2`; raw energy, retained Pack,
+to `2^N\|\Delta_m u\|_2^2`; raw energy, retained Field-window evidence,
 CKN/source finiteness, and the coefficient-bearing shell-pair packet do not
 force it small on the retained terminal interval. The next pass must prove
 `TerminalFiniteCollarSeedToIntervalControl.A`, an independent retained collar

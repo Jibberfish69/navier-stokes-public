@@ -55,7 +55,7 @@ pressure can inherit a terminal defect.
 
 The source and commutator ledgers are tested after the stress and pressure
 objects have been placed on the same terminal carrier.  Unpaid source residue is
-already known to land at `not Pack_Q` or, under retained Pack, `not Part_{N,Q}`.
+already known to land at Field-window evidence outside CM or, under retained participation, `not Part_{N,Q}`.
 It is not paid away by naming the ledger.
 
 ## Direct attempt

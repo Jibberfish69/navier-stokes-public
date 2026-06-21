@@ -37,7 +37,7 @@ OriginalSmoothData\Longrightarrow \mu_{\ast}^{sing}=0
 as direct positive supplier work, and
 
 ```math
-Pack_Q+Part_{N,Q}+\mu_{\ast}^{sing}\ne 0
+Part_{N,Q} plus Field-window evidence+\mu_{\ast}^{sing}\ne 0
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}
 ```
@@ -116,7 +116,7 @@ Then the older retained-Field diagnostic target was
 \boxed{
 RetainedNativeSourceResidueFieldExit.A:
 \quad
-Pack_Q+Part_{N,Q}+\mu_{\ast}^{sing}(\mathcal F_N)>0
+Part_{N,Q} plus Field-window evidence+\mu_{\ast}^{sing}(\mathcal F_N)>0
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
 }
@@ -129,7 +129,7 @@ source term as lawful participation.
 
 ## How To Read The Pack And Part Hypothesis
 
-`Pack_Q` is the retained same-fluid carrier condition. If the selected residue cannot stay on a bounded same-fluid terminal carrier, the branch has already selected the Pack face.
+`Pack_Q` is the retained same-fluid carrier condition. If the selected residue cannot stay on a bounded same-fluid terminal carrier, the branch has already selected the Field-window evidence.
 
 `Part_{N,Q}` is the shared pressure-viscosity participation law
 
@@ -167,7 +167,7 @@ Thus the bridge needs the following lower-bound theorem.
 
 ### Sublemma `NativeResidueResponseLowerBound.A`
 
-On a retained same-fluid terminal active family satisfying `Pack_Q+Part_{N,Q}`, if
+On a retained same-fluid terminal active family satisfying `Part_{N,Q} plus Field-window evidence`, if
 
 ```math
 \mu_{\ast}^{sing}(\mathcal F_N)>0,
@@ -191,7 +191,7 @@ Assume `NativeResidueResponseLowerBound.A`.
 
 1. The selected retained residue is localized to terminal same-fluid packet windows by the construction of `\mu_{\ast}^{sing}` after route ledgers and non-selected alternatives are removed.
 
-2. `Pack_Q` keeps the windows on one bounded same-fluid carrier, so failure to localize has already selected the Pack face.
+2. `Pack_Q` keeps the windows on one bounded same-fluid carrier, so failure to localize has already selected the Field-window evidence.
 
 3. `Part_{N,Q}` keeps the source in the same differentiated pressure-viscosity tower, so failure of same-law participation has already selected the Part face.
 
@@ -204,7 +204,7 @@ Assume `NativeResidueResponseLowerBound.A`.
 This proves
 
 ```math
-Pack_Q+Part_{N,Q}+\mu_{\ast}^{sing}>0
+Part_{N,Q} plus Field-window evidence+\mu_{\ast}^{sing}>0
 +NativeResidueResponseLowerBound.A
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
@@ -215,7 +215,7 @@ Pack_Q+Part_{N,Q}+\mu_{\ast}^{sing}>0
 The installed scale-critical diagnostic already proves the same Part/Field landing for selected failure of `ScaleCriticalTreeCarleson.A`:
 
 ```math
-Pack_Q+Part_{N,Q}+\neg_{sel}ScaleCriticalTreeCarleson.A
+Part_{N,Q} plus Field-window evidence+\neg_{sel}ScaleCriticalTreeCarleson.A
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
 ```

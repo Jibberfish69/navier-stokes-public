@@ -122,7 +122,7 @@ dissipation separately. It does not prove the active-pair absorption needed by
 
 Using only bounded energy leaves a superlinear active-dissipation demand or a
 coefficient smallness requirement on the same terminal windows. That
-coefficient smallness is not supplied by retained Pack, raw energy, raw CKN
+coefficient smallness is not supplied by retained Field-window evidence, raw energy, raw CKN
 finiteness, or `(SP)`.
 
 ### 3. `\mu_N` Carleson / `\nu_N` Window Route
@@ -170,7 +170,7 @@ mass and an installed carrier.
 proved. The absorbed shell-pair commutator estimate `(SP)` lands on the
 upgraded interface measure but does not dominate the nonnegative endpoint mass
 `M_0`; the direct `(8j11)` bilinear theorem is not installed from energy,
-retained Pack, raw CKN finiteness, or `(SP)`; and the `\mu_N/\nu_N` measure
+retained Field-window evidence, raw CKN finiteness, or `(SP)`; and the `\mu_N/\nu_N` measure
 routes need a Carleson theorem or synchronized terminal-window seed theorem
 before `(EP)`. The next pass must attack one of those four endpoint-threading
 components and keep `pdfs_final: false`.

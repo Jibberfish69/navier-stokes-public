@@ -135,7 +135,7 @@ physical radius collapses along the terminal approach.
 The dyadic survivor has two possible CM readings.
 
 1. It has no positive same-fluid material carrier in the original variables.
-   Then the Pack face fails:
+   Then the Field-window evidence fails:
 
 ```text
 not Pack_Q.

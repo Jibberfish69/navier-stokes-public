@@ -85,7 +85,7 @@ The whole-space exterior-source branch now has the CM dichotomy:
 &\text{exterior nonlinear source vanishes in }H^s
 &&\Rightarrow \text{whole-space tail input is supplied},\\
 &\text{exterior nonlinear source survives}
-&&\Rightarrow \neg\Pack_Q\vee\neg\Part_{M,Q}\vee
+&&\Rightarrow Field-window evidence outside CM\vee\neg\Part_{M,Q}\vee
 \forall\rho>0\,\neg\Field_{M,\rho,Q}.
 \end{aligned}
 \]
@@ -94,4 +94,4 @@ This closes the previous gap where the dyadic survivor was only described as a p
 
 ## Noncircularity Boundary
 
-This argument does not use global \(H^s\), a BKM integral, or a continuation-grade Lipschitz bound. It uses only the installed exterior \(L^2\) tightness, the prior dyadic-survivor reduction, the local meaning of retained Pack and Part, and the finite-depth derivative control supplied by the assumed Field face. The Field assumption is used only to reject the Field branch; it is not used to prove positive smoothness.
+This argument does not use global \(H^s\), a BKM integral, or a continuation-grade Lipschitz bound. It uses only the installed exterior \(L^2\) tightness, the prior dyadic-survivor reduction, the local meaning of retained Field-window evidence and Part, and the finite-depth derivative control supplied by the assumed Field face. The Field assumption is used only to reject the Field branch; it is not used to prove positive smoothness.
