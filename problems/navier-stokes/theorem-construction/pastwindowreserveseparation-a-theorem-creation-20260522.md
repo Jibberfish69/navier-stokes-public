@@ -43,8 +43,8 @@ remains `NativeSourceAC.A` / `mu_*^sing=0`, equivalently
 ### Retrieved Ingredients
 
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:55 -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
+- problems/navier-stokes/agent-contract.yaml:55 -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
 - problems/navier-stokes/agent-contract.yaml:53 -- source ingredient
 - problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
 - problems/navier-stokes/agent-contract.yaml:99 -- retained-face amplitude support
@@ -90,13 +90,13 @@ remains `NativeSourceAC.A` / `mu_*^sing=0`, equivalently
 2. Compare terminal packets to their past parent cloud.
 3. Show the unmatched terminal cloud is exactly the charge-bearing piece.
 4. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
-5. Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
+5. Use problems/navier-stokes/theorem-packet.yaml as source support for Part/Field bridge support.
 6. Recursive solver step for PastWindowShadowCompleteness.A: Assume an uncharged terminal reserve packet has no Past(W) shadow.
 7. Recursive solver step for PastWindowShadowCompleteness.A: Choose the first uncovered scale-time ancestor in the terminal tree.
 8. Recursive solver step for PastWindowShadowCompleteness.A: Apply ChargeLedgerInjection.A to that first uncovered birth.
 9. Recursive solver step for PastWindowShadowCompleteness.A: Contradict the packet being both uncharged and outside the declared loss ledger.
 10. Recursive solver step for PastWindowShadowCompleteness.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
-11. Recursive solver step for PastWindowShadowCompleteness.A: Use problems/navier-stokes/agent-contract.yaml:55 as source support for Pack/Part bridge support.
+11. Recursive solver step for PastWindowShadowCompleteness.A: Use problems/navier-stokes/agent-contract.yaml:55 as source support for Part/Field bridge support.
 
 ## Circularity Audit
 

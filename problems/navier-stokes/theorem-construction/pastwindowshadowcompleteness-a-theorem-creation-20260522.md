@@ -42,11 +42,11 @@ remains `NativeSourceAC.A` / `mu_*^sing=0`, equivalently
 ### Retrieved Ingredients
 
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:60 -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:55 -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:172 -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:165 -- Pack/Part bridge support
+- problems/navier-stokes/agent-contract.yaml:60 -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:55 -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:172 -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:165 -- Part/Field bridge support
 
 ### Recursive Solver Chain
 
@@ -89,7 +89,7 @@ remains `NativeSourceAC.A` / `mu_*^sing=0`, equivalently
 3. Apply ChargeLedgerInjection.A to that first uncovered birth.
 4. Contradict the packet being both uncharged and outside the declared loss ledger.
 5. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
-6. Use problems/navier-stokes/agent-contract.yaml:60 as source support for Pack/Part bridge support.
+6. Use problems/navier-stokes/agent-contract.yaml:60 as source support for Part/Field bridge support.
 
 ## Circularity Audit
 

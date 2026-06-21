@@ -47,7 +47,7 @@ If the localized shell cannot participate in the same fixed-viscosity pressure l
 \neg Part_{N,Q}(\mathcal W).
 ```
 
-It remains to treat the retained Pack+Part branch. In that branch the selected shell is a same-ledger dyadic packet
+It remains to treat the retained Part plus Field-window evidence branch. In that branch the selected shell is a same-ledger dyadic packet
 
 ```math
 v_m=\chi_{a_m}^{\mathcal W}(t_m)u(t_m),
@@ -57,7 +57,7 @@ v_m=\chi_{a_m}^{\mathcal W}(t_m)u(t_m),
 
 Split the critical `H^{1/2}` signal into amplitude and pure oscillatory alternatives.
 
-In the amplitude alternative, the critical shell carries local critical size visible through the installed local `L^3` translator. By `R3CriticalL3WallToCMFace.A`, retained Pack+Part sends that terminal concentration to the Field face.
+In the amplitude alternative, the critical shell carries local critical size visible through the installed local `L^3` translator. By `R3CriticalL3WallToCMFace.A`, retained Part plus Field-window evidence sends that terminal concentration to the Field face.
 
 In the pure oscillatory alternative, coarse amplitude remains controlled while the selected half-derivative shell persists. Suppose some positive Field face survives at the matched scale. By `FieldFiniteDifferenceReadoutHHalf.A`, `Field_{N(J_m),r_m,Q}` supplies
 
@@ -75,7 +75,7 @@ By `FieldCoherenceControlsCriticalShell.A`, this gives
 C\mathfrak C_{N(J_m),r_m,Q}(\mathcal W).
 ```
 
-Thus a retained positive Field face controls the same shell quantity selected by the terminal `H^{1/2}` defect. Persistent terminal shell energy beyond the Field budget contradicts retained Field. Hence, on retained Pack+Part,
+Thus a retained positive Field face controls the same shell quantity selected by the terminal `H^{1/2}` defect. Persistent terminal shell energy beyond the Field budget contradicts retained Field. Hence, on retained Part plus Field-window evidence,
 
 ```math
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).

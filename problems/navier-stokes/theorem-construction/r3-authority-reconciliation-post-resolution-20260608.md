@@ -75,7 +75,7 @@ The three inputs named by the June 8 endpoint-consumption note do exist:
   for referee promotion is the bounded-frequency step, which depends on the
   installed exterior `L^2` tightness and low-frequency Duhamel response.
 - `mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md` proves
-  the retained Pack+Part branch cannot also retain a fixed positive Field scale
+  the retained Part plus Field-window evidence branch cannot also retain a fixed positive Field scale
   against the dyadic survivor. This is the strongest theorem-grade link in the
   chain.
 

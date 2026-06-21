@@ -69,11 +69,11 @@ Thus every selected admissible Besov dyadic shell is controlled by the matched `
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W)
 ```
 
-on retained Pack+Part.
+on retained Part plus Field-window evidence.
 
 ### Lorentz amplitude branch
 
-A Lorentz terminal amplitude exit is distribution-function concentration. Same-ledger superlevel/cylinder selection either fails Pack, fails Part, or produces local critical amplitude concentration on the retained carrier. On retained Pack+Part this is a local `L^3` critical concentration branch. By `R3CriticalL3WallToCMFace.A`, it lands in the Field face.
+A Lorentz terminal amplitude exit is distribution-function concentration. Same-ledger superlevel/cylinder selection either fails Pack, fails Part, or produces local critical amplitude concentration on the retained carrier. On retained Part plus Field-window evidence this is a local `L^3` critical concentration branch. By `R3CriticalL3WallToCMFace.A`, it lands in the Field face.
 
 ## Conclusion
 

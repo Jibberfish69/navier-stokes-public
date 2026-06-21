@@ -42,7 +42,7 @@ Assume Pack_Q survives. The extracted critical element must solve the same R3 Na
 
 Assume Pack_Q and Part_{N,Q} survive. If some Field_{N,rho,Q} survives, the terminal element carries positive-scale coherent control through the required readout depth on the same ledger. This gives the compact critical element enough coherence for the rigidity mechanism or for the continuation criterion consumed by the route.
 
-The retained packet therefore cannot remain a terminal compactness-rigidity wall. The only surviving retained Pack+Part alternative is loss of positive-scale field coherence:
+The retained packet therefore cannot remain a terminal compactness-rigidity wall. The only surviving retained Part plus Field-window evidence alternative is loss of positive-scale field coherence:
 
 ```math
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
