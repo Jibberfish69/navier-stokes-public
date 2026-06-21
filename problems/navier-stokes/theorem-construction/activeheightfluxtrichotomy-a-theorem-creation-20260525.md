@@ -3,13 +3,13 @@
 ## Target
 
 - target obligation: ActiveHeightFluxTrichotomy.A
-- target label: Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting positive square-reserve surplus into active height flux or Pack/Part/Field exit.
+- target label: Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting positive square-reserve surplus into active height flux or Pack/that face failure.
 - route role: A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, produces a Pack, Part, or licensed Field face through the named same-ledger failure mechanism, or reduces to TerminalSignedSaturation.A, whose failure is already CM face-reduction support.
 - theorem family: reserve-creation-charge
 
 ## Created Theorem
 
-ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, produces a Pack, Part, or licensed Field face through the named same-ledger failure mechanism, or reduces to TerminalSignedSaturation.A, whose failure is already CM face-reduction support. This supplies the exact noncircular bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting positive square-reserve surplus into active height flux or Pack/Part/Field exit..
+ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, produces a Pack, Part, or licensed Field face through the named same-ledger failure mechanism, or reduces to TerminalSignedSaturation.A, whose failure is already CM face-reduction support. This supplies the exact noncircular bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting positive square-reserve surplus into active height flux or Pack/that face failure..
 
 ## Inventive Search
 
@@ -71,7 +71,7 @@ source charge may enter Field only through the installed Field-face theorem.
 ## Forbidden Imports
 
 - ActiveHeightFluxTrichotomy.A
-- Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting positive square-reserve surplus into active height flux or Pack/Part/Field exit.
+- Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting positive square-reserve surplus into active height flux or Pack/that face failure.
 - full-MPP closure
 - submission readiness
 - global smoothness

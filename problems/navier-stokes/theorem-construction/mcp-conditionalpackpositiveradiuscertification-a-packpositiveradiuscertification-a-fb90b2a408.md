@@ -1,4 +1,4 @@
-# Conditional PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A From Part/Field-First Exclusion
+# Conditional PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A From Original-Participation Audit
 
 ## Target
 
@@ -34,7 +34,7 @@ These establish the following conditional structure:
 
 ```text
 1. Pack_Q has a positive-radius / finite-comparability blind spot.
-2. Zero-radius singular terminal objects must be tested by original-participation audit before Pack_Q is used.
+2. Zero-radius singular terminal objects must be given an original-participation audit before Pack-local disposal.
 3. Endpoint-strip objects with finite L1 endpoint mass and infinite every-super-L1 cost are weak terminal limits, not valid uniform service-budget survivors.
 4. All singular families that reduce to the endpoint strip still need original-participation-before-Pack exit, with LimitOfClassTerminalArtifact.A supplying the measure classification.
 ```
@@ -47,7 +47,7 @@ The strongest honest theorem available now is conditional:
 ConditionalPackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A:
 Assume every zero-radius singular terminal family is either:
   (a) reduced to the endpoint-strip profile and classified by LimitOfClassTerminalArtifact.A;
-  (b) rejected by original-participation-before-Pack certification without using Pack_Q;
+  (b) rejected by original-participation-before-Pack original-participation audit without using Pack_Q;
   (c) converted into continuation/readout recovery;
   (d) rejected by same-solution admissibility.
 Assume also that every remaining terminal witness has the ordinary positive-carrier and comparability data required to enter Pack_Q.
@@ -62,11 +62,11 @@ Split into two cases.
 
 ### Case 1: `Q` is zero-radius / singular
 
-Then by the hypothesis of conditional certification, `Q` is already handled before ordinary Pack testing:
+Then by the conditional theorem, `Q` is already handled before ordinary Pack testing:
 
 ```text
 endpoint-strip original-participation-before-Pack class exit,
-`Part_{N,Q}` / `Field_{N,r,Q}` exit without using Pack_Q,
+original-participation diagnosis before Pack-local disposal,
 continuation/readout recovery,
 or same-solution admissibility rejection.
 ```
@@ -122,9 +122,9 @@ Full `PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A` remains cond
 The Pack non-exclusion route has produced a real structural improvement:
 
 ```text
-Pack_Q is no longer used blindly against terminal singular witnesses.
+Pack_Q is no longer spent blindly against terminal singular witnesses.
 Endpoint-strip witnesses are classified as terminal artifacts requiring original-participation-before-Pack exit.
-Pack_Q's positive-radius requirement can be certified for the ordinary branch once the non-strip singular families are closed through Part/Field or continuation/readout recovery.
+Pack_Q's positive-radius requirement can be licensed for the ordinary branch once the non-strip singular families are closed through original-participation audit or continuation/readout recovery.
 ```
 
 The next live mathematical targets are:

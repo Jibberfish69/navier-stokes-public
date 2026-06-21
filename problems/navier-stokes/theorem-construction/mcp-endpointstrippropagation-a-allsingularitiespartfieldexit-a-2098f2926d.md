@@ -153,4 +153,4 @@ PositivePackDefectOrthogonality.A.
 
 ## Route consequence
 
-The endpoint-strip branch is classified as a terminal artifact, not excluded by Pack_Q. The route can certify Pack_Q's positive-radius requirement for the ordinary branch only after the three non-strip families above are either reduced to endpoint strip and discharged through the original-participation audit, sent to `Part_{N,Q}` / `Field_{N,r,Q}` exit without using Pack_Q, or turned into continuation/readout recovery.
+The endpoint-strip branch is classified as a terminal artifact, not excluded by Pack_Q. The route can certify Pack_Q's positive-radius requirement for the ordinary branch only after the three non-strip families above are either reduced to endpoint strip and discharged through the original-participation audit, sent to original-participation diagnosis before Pack-local disposal, or turned into continuation/readout recovery.

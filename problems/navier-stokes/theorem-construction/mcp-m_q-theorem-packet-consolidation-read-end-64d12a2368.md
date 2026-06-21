@@ -20,7 +20,7 @@ CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
 
 `Pack_Q` supplies the retained material packing and chart-deformation control.
 
-`Part_{N,Q}` supplies transported participation through depth `N`, including the tower and forcing rungs.
+`Part_{N,Q}` records transported participation through depth `N`, including the tower and forcing rungs.
 
 `Field_{N,r,Q}` supplies one-field coherence across the retained cover.
 

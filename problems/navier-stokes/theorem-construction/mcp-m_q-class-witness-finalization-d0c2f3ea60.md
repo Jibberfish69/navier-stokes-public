@@ -36,7 +36,7 @@ for a route depth `N` chosen above some `s>5/2`.
 
 `Pack_Q` supplies the shared material packing law on `Q`: the same flow map `Phi` carries the local material region with finite deformation gauge.
 
-`Part_{N,Q}` supplies shared participation through depth `N`: the rungs
+`Part_{N,Q}` records shared participation through depth `N`: the rungs
 
 ```math
 U_k=\nabla^k u,

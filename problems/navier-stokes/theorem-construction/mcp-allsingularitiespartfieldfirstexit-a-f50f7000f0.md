@@ -26,6 +26,6 @@ The corrected case split is:
 4. Coherence, jump, or one-field failures are Field-side only after the
    relevant readout/window or whole-field record has been named.
 
-This surface does not certify Pack as the source of participation and does not
+This surface does not say Pack supplies participation and does not
 license a pre-Pack `Field_{N,r,Q}` predicate.  It is a guard against using
 zero radius as a shortcut for class exit.

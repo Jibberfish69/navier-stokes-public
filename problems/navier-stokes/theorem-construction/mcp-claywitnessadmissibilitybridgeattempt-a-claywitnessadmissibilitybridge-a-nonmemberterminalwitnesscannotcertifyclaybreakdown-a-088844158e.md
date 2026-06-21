@@ -1,4 +1,4 @@
-# ClayWitnessAdmissibilityBridge.A Attempt After Part/Field-First Closure
+# ClayWitnessAdmissibilityBridge.A Attempt After Original-Participation Audit
 
 ## Target
 
@@ -70,7 +70,7 @@ same-solution terminal singular witness
 and it proves the corrected order:
 
 ```text
-the original NS participation law audits singular objects before Pack_Q is spent.
+the original NS participation law audits singular objects before Pack-local disposal.
 ```
 
 This closes the local CM face-classification problem.
@@ -82,13 +82,13 @@ But it does not, by itself, prove that a Clay counterexample is impossible.
 The witness-admissibility bridge only proves:
 
 ```text
-if a terminal object is meant to witness smooth continuation, then Part/Field exit invalidates it as a smooth-solution witness.
+if a terminal object is meant to witness smooth continuation, then that face failure invalidates it as a smooth-solution witness.
 ```
 
 It does not prove:
 
 ```text
-if a terminal object is meant to witness breakdown, then Part/Field exit invalidates it as a breakdown witness.
+if a terminal object is meant to witness breakdown, then that face failure invalidates it as a breakdown witness.
 ```
 
 So `ClayWitnessAdmissibilityBridge.A` is not a full Clay-closing bridge.
