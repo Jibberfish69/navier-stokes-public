@@ -109,6 +109,16 @@ FORBIDDEN = {
   "old primitive services ontology wording" => /`Pack`, `Part`, and `Field` are the canonical route-relative primitive services/,
   "old witness envelope certification wording" => /Pack\/Part\/Field as the canonical route-relative witness envelope used to certify membership/,
   "old Pack Part Field certification shorthand" => /Pack\/Part\/Field certification/
+  ,
+  "old Part Field before Pack wording" => /Part\/Field before Pack/,
+  "old Part Field first wording" => /Part\/Field-first/,
+  "old PartFieldBeforePack theorem label" => /PartFieldBeforePack/,
+  "old PartFieldFirst theorem label" => /PartFieldFirst/,
+  "old PackPositiveRadiusCertification theorem label" => /PackPositiveRadiusCertification/,
+  "old before Pack_Q used wording" => /before Pack_Q is used/,
+  "old before Pack_Q tested wording" => /before Pack_Q is tested/,
+  "old before Pack_Q spent wording" => /before Pack_Q is spent/,
+  "old Pack source of participation wording" => /Pack.*source of participation/
 }.freeze
 
 BROAD_TERMINAL_FORBIDDEN = FORBIDDEN.select do |label, _|
@@ -116,7 +126,12 @@ BROAD_TERMINAL_FORBIDDEN = FORBIDDEN.select do |label, _|
     label.include?("zero-radius") ||
     label.include?("zero-heat-time") ||
     label.include?("BASAC") ||
-    label.include?("r-star")
+    label.include?("r-star") ||
+    label.include?("Part Field") ||
+    label.include?("PartField") ||
+    label.include?("PackPositiveRadiusCertification") ||
+    label.include?("before Pack_Q") ||
+    label.include?("source of participation")
 end.freeze
 
 BROAD_SCAN_ROOTS = %w[
