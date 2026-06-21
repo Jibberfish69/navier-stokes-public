@@ -255,7 +255,7 @@ Jump.
 If `packing-detached` occurs, the pack-native endpoint row gives `\neg Pack`.
 
 If `Jump` occurs and either `Pack` or `Part` has already failed, the conclusion
-follows from that prior face failure.  If `Jump` occurs while `Pack+Part` are retained, the installed
+follows from that prior Part/Field failure.  If `Jump` occurs while `Pack+Part` are retained, the installed
 field-face theorem gives `\neg Field`.
 
 It remains only to handle the mixed `tower-blown` alternative.  On the branch

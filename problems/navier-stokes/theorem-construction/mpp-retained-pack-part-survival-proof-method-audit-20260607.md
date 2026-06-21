@@ -6,7 +6,7 @@ ns_viewer:
   logical_landing_node: cm_source_pack_discharge_attempts
   edge_effect: "Shows RetainedPackOriginalAncestryPartSurvival.A is a terminal no-defect compactness theorem, not a small Part bookkeeping lemma."
   upstream_origin: "June 7 Part-face working pass and retained-Pack/source-participation audit."
-  downstream_consequence: "Keep retained-Pack native pressure/source residue rows out of proof burden unless a named row obtains same-witness CM entry and first Pack/Part/Field face witness record."
+  downstream_consequence: "Keep retained-Pack native pressure/source residue rows out of proof burden unless a named row obtains same-witness CM entry and first Part/Field face witness record."
 ---
 
 # MPP Retained-Pack Part Survival Proof-Method Audit
@@ -76,7 +76,7 @@ u_j \otimes u_j  ⇀  u_* \otimes u_* + R_*
 and the pressure can inherit that defect through the Leray projection. Such a
 defect is not foreign forcing by definition. It can be produced by the same
 preterminal Navier-Stokes evolution. In the CM grammar, that is exactly why a
-retained-Pack branch may land at `not Part_{N,Q}`.
+retained-Field-window branch may land at `not Part_{N,Q}`.
 
 ## Why The Current Lemma Is Not Small
 
@@ -114,7 +114,7 @@ same original preterminal solution
 => not Part_{N,Q}.
 ```
 
-That branch is a lawful CM face failure until a no-defect or target-fidelity
+That branch is a lawful CM Part/Field failure until a no-defect or target-fidelity
 bridge removes it.
 
 ## Corrected Part Work Order

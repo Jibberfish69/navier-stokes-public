@@ -10,7 +10,7 @@ CM-facing bridge note; strengthened by the 2026-05-22 polarity correction
 The retained native source residue is not a request to prove
 `\mu_*^{sing}=0` inside the CM route. It is the witness of class exit.
 
-`TerminalSourceResidueCMExit.A` installs the Pack-first version for the raw
+`TerminalSourceResidueCMExit.A` installs the Field-certification version for the raw
 terminal source residue:
 
 ```math
@@ -91,7 +91,7 @@ Failure of direct domination leaves a singular positive source measure
 The CM grammar reads selected retained failures through
 
 ```math
-CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}+Field_{N,r,Q}.
 ```
 
 ## Theorem Target `RetainedNativeSourceResidueFieldExit.A`
@@ -212,7 +212,7 @@ Pack_Q+Part_{N,Q}+\mu_{\ast}^{sing}>0
 
 ## Relation To Existing Installed Diagnostics
 
-The installed scale-critical diagnostic already proves the same face landing for selected failure of `ScaleCriticalTreeCarleson.A`:
+The installed scale-critical diagnostic already proves the same Part/Field landing for selected failure of `ScaleCriticalTreeCarleson.A`:
 
 ```math
 Pack_Q+Part_{N,Q}+\neg_{sel}ScaleCriticalTreeCarleson.A
@@ -240,9 +240,9 @@ The CM use is different:
 
 with the retained branch supplied by `RetainedNativeSourceResidueFieldExit.A`.
 
-This converts the native positive source residue from an unpaid smoothness estimate into a legal CM witness-face object.
+This converts the native positive source residue from an unpaid smoothness estimate into a legal CM witness object.
 
-It does not convert `PositiveRemainderDepletion.A` itself into a witness-face
+It does not convert `PositiveRemainderDepletion.A` itself into a witness
 object. PRD is the estimate that would remove the residue; this note starts
 only after a retained residue remains.
 

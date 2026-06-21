@@ -28,7 +28,7 @@ B_{ASAC}^{closed}+CM_{N,r,Q}
 ```
 
 Equivalently, a positive terminal source atom in `B_ASAC^closed` is already a
-CM face witness:
+CM Part/Field witness:
 
 ```math
 \mu_*^{src}(Q_R\times\{0\})>0
@@ -121,7 +121,7 @@ B_{ASAC}\Longrightarrow NoIncomingParticipationFlux.A
 
 or the bare positive-source depletion theorem. Those still require a genuinely
 new production theorem excluding terminal zero-thickness native source
-concentration without spending a CM face exit.
+concentration without spending a CM Part/Field exit.
 
 The bridge to the retained-branch Liouville consequence is recorded in
 `mpp-basac-liouville-cm-participation-bridge-20260519.md`.

@@ -3,11 +3,11 @@
 Date: 2026-06-09
 
 Status: support/Gold-supplier reentry with CM-boundary accounting. This note
-does not close public Clay finality. Under the Pack-first CM contrapositive
+does not close public Clay finality. Under the Field-certification CM contrapositive
 audit, the terminal zero-thickness `B_ASAC` residue lands Part-side when the same original-NS record remains and true `not Pack_Q` only when that record is absent;
 the retained positive-scale reserve branch below is proof-force only after a
 same-ledger payment theorem is proved or after an admitted CM-test witness has
-a first Pack/Part/Field face failure.
+a first Part/Field Part/Field failure.
 
 ## Parent target
 
@@ -35,8 +35,8 @@ positive first-created source carrier.
 
 `ActiveHeightFluxTrichotomy.A`, `SignedPairReserveVisibility.A`, and
 `TerminalSignedSaturationCMFaceReduction.A` are valid only in the CM
-witness-face direction. They say that a failed same-ledger signed balance lands
-in Pack/Part/Field support for `Exit(Q):=not Member(Q)`. They do not prove
+witness direction. They say that a failed same-ledger signed balance lands
+in Part/Field support for `Exit(Q):=not Member(Q)`. They do not prove
 that original smooth data cannot produce the first Pack exit.
 
 Thus face-consumption is not enough for the public-finality theorem. The parent
@@ -54,7 +54,7 @@ cases.
    `ASAC.A` together with `PositivePairWeightDefectCharge.A` and the required
    packet-residual, no-incoming, and backward-uniqueness hypotheses. The
    installed CM-face reductions alone do not pay the positive mismatch; they
-   classify failed signed balance as Pack/Part/Field support for
+   classify failed signed balance as Part/Field support for
    `Exit(Q):=not Member(Q)`.
 2. The partner exits through a named boundary, projected, cutoff, pressure,
    collar, off-family, or heat-action ledger. This is legal loss.
@@ -120,7 +120,7 @@ time face.
 ```
 
 Work on terminal anti-atom is a child supplier for the forward-positive Gold
-route. It is not the whole public-finality target, and under the Pack-first
+route. It is not the whole public-finality target, and under the Field-certification
 CM contrapositive route the terminal zero-thickness `B_ASAC` residue is consumed
 as Pack-side non-survival rather than as a required deletion theorem.
 
@@ -129,6 +129,6 @@ as Pack-side non-survival rather than as a required deletion theorem.
 The PDFs remain nonfinal. This note cannot support a Clay-facing claim of
 `NoGenuineExitFromSmoothData.A` by spending ASAC/pair-weight language as an
 installed ledger. Any future use of this route must either prove the same-witness
-signed-payment hypotheses above, use the Pack-first CM face landing for an
+signed-payment hypotheses above, use the Field-certification CM Part/Field landing for an
 admitted terminal witness, or replace the supplier route by an exact
 Pack-survival theorem.

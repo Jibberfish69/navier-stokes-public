@@ -200,7 +200,7 @@ reduces to finite-depth tower escape on the receiver packet, and under retained
 `mpp-retained-field-endpoint-tower-reduction-20260515.md` sharpens the endpoint
 side further: under retained `Pack+Part` and bounded pack gauge, a retained
 Field exit forces the mixed `tower-blown` face, equivalently failure of the
-same-family DTC/tower analytic package.  Thus `(RFE.12)` is not a fourth CM face.
+same-family DTC/tower analytic package.  Thus `(RFE.12)` is not a fourth CM Part/Field.
 It is the endpoint manifestation of the Field row unless the carrier or
 participation hypotheses have already failed.
 

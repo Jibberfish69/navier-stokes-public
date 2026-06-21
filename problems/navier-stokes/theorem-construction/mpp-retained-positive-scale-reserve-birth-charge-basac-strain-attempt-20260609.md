@@ -94,7 +94,7 @@ or a class-specific no-incoming/backward-uniqueness theorem for the rigid
 strain-aligned terminal source residue.
 ```
 
-The CM face bridge remains installed, but public finality still needs this
+The CM Part/Field bridge remains installed, but public finality still needs this
 forward supplier, or another theorem that prevents the terminal Pack strain
 integral from diverging on the first-exit branch.
 

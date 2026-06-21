@@ -26,7 +26,7 @@ tree:
 ```text
 finite terminal witness
 => same-fluid CM terminal packet
-=> first failed Pack/Part/Field face
+=> first failed Part/Field face
 => Exit(Q):=not Member(Q).
 ```
 
@@ -68,7 +68,7 @@ forall r>0 not Field_{N_s,r,Q}.
 
 Let `W_*` be a CM-test-admissible finite terminal object on the active
 same-fluid terminal packet `Q`. By `ClayTerminalWitnessCMEntry.A`, the object
-enters the Pack-first terminal CM tree. By the torus global material atlas note,
+enters the Field-certification terminal CM tree. By the torus global material atlas note,
 the terminal packet has only three services: carrier/readout-compatible Pack,
 same pressure-viscosity participation Part, and positive-scale one-field
 coherence Field.
@@ -117,7 +117,7 @@ forall r>0 not Field_{N_s,r,Q}.
 ```
 
 These three placements exhaust the pressure package because CM has no fourth
-service after Pack, Part, and Field.
+service after Part and Field.
 
 ## Consequence For The June 5 Graph Repair
 
@@ -139,4 +139,4 @@ failure, retained receiver support, or Field failure after retained Pack+Part.
 This note does not prove `ClayCounterexampleExclusionBridge.A`, whole-space
 `R^3` export, or submission readiness. It narrows the next CM pressure test to
 the remaining finite terminal witness rows that have not yet been admitted to
-the same terminal packet and placed into Pack, Part, or Field.
+the same terminal packet and placed into Part or Field.

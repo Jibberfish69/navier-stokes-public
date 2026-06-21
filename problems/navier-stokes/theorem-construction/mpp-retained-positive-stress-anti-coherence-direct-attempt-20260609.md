@@ -8,7 +8,7 @@ theorem stack.
 This pass tests the remaining non-generic route after Volterra stress
 decorrelation failed: a genuine Navier-Stokes mechanism that prevents coherent
 positive stress packets from realizing the sharp Hardy worst case, or turns
-that coherence into a paid dissipation event or a Pack/Part/Field face failure.
+that coherence into a paid dissipation event or a Part/Field Part/Field failure.
 
 ## Target
 
@@ -56,13 +56,13 @@ terminal modulus and does not dominate the selected positive part.
 So local dissipation payment is not installed unless one proves a same-window
 source/dissipation tether plus a terminal anti-atom modulus.
 
-## Attempt 2: consume coherence as a CM face failure
+## Attempt 2: consume coherence as a CM Part/Field failure
 
 The CM engine gives the right branch law:
 
 ```text
 pass branch => retained service => Member(Q);
-fail branch => same-solution terminal obstruction => first Pack/Part/Field face failure.
+fail branch => same-solution terminal obstruction => first Part/Field Part/Field failure.
 ```
 
 But the fail branch must actually enter the CM terminal test.
@@ -75,9 +75,9 @@ support, paid legal exits removed, and the zero-heat-time source-residue
 hypothesis. The current Volterra stress coherence record has not yet been
 proved to satisfy those entry hypotheses.
 
-Thus "coherence implies face failure" is not installed. What is installed is
+Thus "coherence implies Part/Field failure" is not installed. What is installed is
 conditional: once the coherent positive stress packet is tethered to the right
-same-solution terminal source/residue object, the existing CM face machinery can
+same-solution terminal source/residue object, the existing CM Part/Field machinery can
 type it.
 
 ## Attempt 3: exclude sustained strain-stress alignment
@@ -110,7 +110,7 @@ bad terminal case. To become useful in the CM proof program it must be tethered
 to a same-solution terminal packet that either:
 
 1. pays a scale-critical dissipation/Carleson cost on the same selected windows;
-2. satisfies the entry hypotheses of an installed Pack/Part/Field face bridge;
+2. satisfies the entry hypotheses of an installed Part/Field face bridge;
 3. supplies a direct strain-stress alignment exclusion before Cauchy;
 4. or proves `(LPAS)` directly.
 
@@ -126,7 +126,7 @@ landings:
 
 1. same-window source/dissipation tether plus uniform terminal anti-atom modulus;
 2. `B_ASAC` / zero-heat-time source-residue / strain-alignment hypotheses
-   sufficient for the installed CM face bridge;
+   sufficient for the installed CM Part/Field bridge;
 3. direct strain-stress alignment exclusion;
 4. direct `(LPAS)`.
 
