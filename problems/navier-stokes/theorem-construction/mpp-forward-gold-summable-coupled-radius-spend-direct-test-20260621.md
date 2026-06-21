@@ -39,7 +39,6 @@ Q_{m,\alpha}:=\partial_s^m\partial_y^\alpha q,
 \tag{SCR.2}
 \]
 
-and let \(\eta(y)\) be a fixed cutoff. The mixed tower has the form
 and let \(\eta(y)\) be a fixed cutoff. The mixed tower equation is
 
 \[
