@@ -116,7 +116,7 @@ commutator form
 ```math
 \partial_t W_{m,\alpha}
 +
-\partial_t^m\partial_a^\alpha(A^\top\nabla_aq)
+A^\top\nabla_aQ_{m,\alpha}
 =
 \nu\,\operatorname{div}_a(G\nabla_a W_{m,\alpha})
 +
