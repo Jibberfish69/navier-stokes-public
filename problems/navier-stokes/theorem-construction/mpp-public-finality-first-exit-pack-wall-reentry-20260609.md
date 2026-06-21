@@ -13,8 +13,8 @@ NoGenuineExitFromSmoothData.A
 ```
 
 or an equivalent theorem proving that the canonical same-solution terminal
-object from original smooth data cannot realize a finite Pack, Part, or Field
-face failure.
+object from original smooth data cannot realize a finite Part or Field
+Part/Field failure.
 
 The terminal source anti-atom branch is a child route inside that burden. It is
 not the whole public-finality target.

@@ -167,4 +167,4 @@ CritConc_{L^3}(\mathcal W)
 
 Once that conversion is proved under retained `Pack` and `Part`, the installed
 Field diagnostics give `RetainedPackPartCriticalL3FieldExit.A`, hence the
-`L^3` public-critical bridge into the CM witness-face grammar.
+`L^3` public-critical bridge into the CM witness grammar.

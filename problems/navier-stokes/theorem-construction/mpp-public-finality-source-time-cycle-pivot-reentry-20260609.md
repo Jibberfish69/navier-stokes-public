@@ -75,7 +75,7 @@ installed chain is:
 ```text
 ClayAdmissibleFiniteBreakdown(W_*)
 => CMTestAdmissibleTerminalObject(W_*)
-=> first Pack/Part/Field face failure
+=> first Part/Field Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
@@ -125,7 +125,7 @@ It must produce one of the following, with proof:
    theorem that does not assume continuation;
 3. a direct theorem that the produced B_ASAC source atom cannot be the first Pack
    exit from original smooth data;
-4. a genuinely new Pack/Part/Field witness theorem strong enough to feed
+4. a genuinely new Part/Field witness theorem strong enough to feed
    OriginalSmoothDataPackSurvival.A.
 ```
 

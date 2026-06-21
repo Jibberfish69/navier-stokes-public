@@ -32,9 +32,9 @@ selected native positive source mass in terminal slabs
 ```
 
 The proof program remains the CM contrapositive class-exit program:
-`Exit(Q):=not Member(Q)` through Pack/Part/Field. This pass tests whether the
+`Exit(Q):=not Member(Q)` through Part/Field. This pass tests whether the
 new source-time theorem can feed `OriginalSmoothDataPackSurvival.A` /
-`NoGenuineExitFromSmoothData.A`; it does not treat Pack/Part/Field
+`NoGenuineExitFromSmoothData.A`; it does not treat Part/Field
 classification as public finality.
 
 ## Necessary split

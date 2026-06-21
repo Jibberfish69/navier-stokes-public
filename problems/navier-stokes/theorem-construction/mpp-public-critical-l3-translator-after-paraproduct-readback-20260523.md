@@ -69,5 +69,5 @@ native-extraction theorem.
 
 Euler-mirror material, supplier/readout material, and terminal `B_ASAC` residue
 material remain quarantined support. The public translator is still a CM-facing
-witness-face bridge, not a public regularity discharge and not a replacement for
+witness bridge, not a public regularity discharge and not a replacement for
 `TerminalCMNoExit.A / NoGenuineCMExit.A`.

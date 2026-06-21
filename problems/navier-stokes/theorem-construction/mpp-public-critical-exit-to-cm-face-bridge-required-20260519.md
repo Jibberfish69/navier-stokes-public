@@ -15,7 +15,7 @@ analogue bridge is narrower:
 ```math
 \text{public critical-class exit}
 \Longrightarrow
-\text{CM witness-face exit}.
+\text{CM witness exit}.
 ```
 
 Public critical-class exit means exit or concentration in a public class such
@@ -30,7 +30,7 @@ L^{3,q},
 
 or a dynamically restricted local critical norm.
 
-CM witness-face exit means failure of one of the repo's three route-relative
+CM witness exit means failure of one of the repo's three route-relative
 faces on the same terminal object:
 
 ```math
@@ -64,9 +64,9 @@ Let `CritExit_X(\mathcal W)` mean:
 sequence selected by }\mathcal W.
 ```
 
-This symbol is not a new CM face and `\mathcal W` is not a new theorem object.
+This symbol is not a new CM Part/Field and `\mathcal W` is not a new theorem object.
 It is only the already-installed bookkeeping demand that the public readout and
-the CM faces refer to the same `Q,N,r,\Phi,\mathcal T` witness ledger.
+the CM Part/Fields refer to the same `Q,N,r,\Phi,\mathcal T` witness ledger.
 
 ## Missing theorem
 
@@ -107,7 +107,7 @@ Field_{N,r,Q}(\mathcal W)
 Since
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q},
 ```
 
 `(PCE-CM.B)` gives `(PCE-CM.A)` by contrapositive.
@@ -128,11 +128,11 @@ CritExit_X(\mathcal W).
 
 It is not enough to know that some global norm blows up. The blow-up sequence
 has to be placed on the same `Q,N,r,\Phi,\mathcal T` object used by the CM
-witness faces.
+witnesss.
 
 ### 2. CM-to-public-control
 
-Retaining all three CM faces must control the public critical readout:
+Retaining all three CM Part/Fields must control the public critical readout:
 
 ```math
 Pack_Q(\mathcal W)
@@ -149,7 +149,7 @@ element, a Lorentz/Besov endpoint bound, or a local concentration exclusion.
 
 ### 3. Face landing
 
-If the public readout exits anyway, the proof must say which CM face failed:
+If the public readout exits anyway, the proof must say which CM Part/Field failed:
 
 ```math
 CritExit_X(\mathcal W)
@@ -181,7 +181,7 @@ on the retained `Pack` and `Part` branch.
 This sorting rule applies to the public readout or to a surviving retained
 residue. It does not classify positive supplier theorems. In particular,
 `PositiveRemainderDepletion.A` remains a source-control supplier burden; only
-the residue left after such a supplier fails can be routed through a CM face.
+the residue left after such a supplier fails can be routed through a CM Part/Field.
 
 The narrow theorem target for that useful version is
 [mpp-retained-pack-part-critical-concentration-to-field-bridge-20260519.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-retained-pack-part-critical-concentration-to-field-bridge-20260519.md).

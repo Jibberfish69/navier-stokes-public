@@ -5,7 +5,7 @@ Date: 2026-05-18
 ## Status
 
 Support/import note. This is not a proof-bearing authority surface and it does
-not promote any public critical-norm theorem into a CM witness-face bridge.
+not promote any public critical-norm theorem into a CM witness bridge.
 
 ## Audit verdict
 
@@ -21,7 +21,7 @@ has the form:
 ```
 
 The public class is usually a critical norm or compactness class. The repo's
-class is sharper: `CM_{N,r,Q}=Pack_Q + Part_{N,Q} + Field_{N,r,Q}`, with
+class is sharper: `CM_{N,r,Q}:=Part_{N,Q}+Field_{N,r,Q}`, with
 `Member(Q;O_NS^work)` as the class-membership landing predicate.
 
 ## Checked analogue stack
@@ -57,7 +57,7 @@ criterion extracted from the analogues is the following exact bridge shape:
 1. a named public class `X`;
 2. a terminal sequence or window family `\mathcal W` and a precise readout
    `CritExit_X(\mathcal W)`;
-3. a proved repo-local implication from that readout to a first CM witness-face
+3. a proved repo-local implication from that readout to a first CM witness
    failure:
    `\neg Pack_Q(\mathcal W)`, `\neg Part_{N,Q}(\mathcal W)`, or
    `\neg Field_{N,r,Q}(\mathcal W)`.
@@ -76,7 +76,7 @@ CMClassUnavoidability.A:
 T_*<\infty
 \Longrightarrow
 \exists Q,N,r
-\text{ with a first }Pack/Part/Field\text{ witness-face failure}.
+\text{ with a first }Part/Field\text{ witness failure}.
 ```
 
 Current status: route proposal / audit burden only.
@@ -85,7 +85,7 @@ Promotion requirement: a candidate only enters the CM route when it gives a
 typed landing in `Pack_Q`, `Part_{N,Q}`, or `Field_{N,r,Q}`. Critical
 `L^3`, Besov, Lorentz, `H^{1/2}`, Type-I, local concentration, or dynamically
 restricted norm exit remains supplier/readout support until a repo-local bridge
-proves that the public class exit forces a CM witness-face exit.
+proves that the public class exit forces a CM witness exit.
 
 ## Practical use
 
@@ -94,7 +94,7 @@ When a new public or internal theorem is offered as progress, test it this way:
 1. What exact class is claimed to persist or exit?
 2. What terminal carrier is extracted when membership persists?
 3. What rigidity or continuation theorem kills that carrier?
-4. Which CM face receives the failure: `Pack`, `Part`, or `Field`?
+4. Which CM Part/Field receives the failure: `Pack`, `Part`, or `Field`?
 5. If the answer is only a critical norm, pressure concentration, or local
    quantitative regularity statement, keep it as supplier/readout support.
 

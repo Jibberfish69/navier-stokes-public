@@ -10,7 +10,7 @@ The remaining R3 paper gap had this form:
 
 ```text
 Either prove a direct noncircular R3 Hs tail theorem or strengthen dyadic
-survivor face landing into an accepted whole-space endpoint exclusion.
+survivor Part/Field landing into an accepted whole-space endpoint exclusion.
 ```
 
 The direct theorem is
@@ -21,7 +21,7 @@ Tail.Hs_R3:
 ```
 
 The CM route does not need to prove this stronger positive theorem when the
-only surviving alternative is already forced into Pack, Part, or Field failure
+only surviving alternative is already forced into Part or Field failure
 on the same terminal object. The object to consume is the surviving exterior
 high-order Duhamel source after the initial tail and compact-core source have
 already been removed.
@@ -134,8 +134,8 @@ Therefore no fixed positive Field scale survives on retained Pack+Part:
 forall rho > 0, not Field_{M,rho,Q}.
 ```
 
-The surviving exterior high-order source is therefore a Pack, Part, or Field
-face failure. The direct positive theorem `Tail.Hs_R3` remains useful as a
+The surviving exterior high-order source is therefore a Part or Field
+Part/Field failure. The direct positive theorem `Tail.Hs_R3` remains useful as a
 stronger export theorem, but it is not required for the CM-facing whole-space R3
 branch.
 
@@ -144,11 +144,11 @@ branch.
 The R3 gap is discharged by the second route named in the gap itself:
 
 ```text
-strengthen dyadic survivor face landing into an accepted whole-space endpoint
+strengthen dyadic survivor Part/Field landing into an accepted whole-space endpoint
 exclusion.
 ```
 
 No active generic Clay-closing bridge remains after the finite-obstruction
 inventory reconciliation. A future R3 reopening has to name a concrete
 whole-space terminal obstruction row that lacks same-solution CM entry or a
-derived Pack, Part, or Field face.
+derived Part or Field face.

@@ -12,7 +12,7 @@ The current public Clay finality target is still:
 NoGenuineExitFromSmoothData.A
 ```
 
-for the original smooth Navier-Stokes datum.  The installed CM packet tree
+for the original smooth Navier-Stokes datum.  The installed CM participation-field tree
 classifies every finite same-solution terminal obstruction into Pack, Part, or
 Field faces.  That classification is not yet the public Clay contradiction.
 The missing theorem is the original-data no-exit bridge.

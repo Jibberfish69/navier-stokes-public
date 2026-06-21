@@ -4,13 +4,13 @@ ns_viewer:
   status: failed-selector-readout-to-field-bridge-missing
   proof_role: cm_bridge_license_test
   logical_landing_node: selector-readout-to-field-bridge
-  edge_effect: "Tests QSPAngularFailureFieldNecessityBridge.A. The route table classifies TPS/QSP selector-defect work as downstream one-field readout support and explicitly requires a class-membership bridge into Pack/Part/Field before it can count as CM closure or CM failure. Therefore failure of the QSP angular packet is not yet necessary Field failure. The next atom is SelectorReadoutToFieldBridge.A: license the selected finite-frame/QSP readout as the actual Field_{N,r,Q} certificate for the same terminal packet, or demote the QSP branch to support-only."
+  edge_effect: "Tests QSPAngularFailureFieldNecessityBridge.A. The route table classifies TPS/QSP selector-defect work as downstream one-field readout support and explicitly requires a class-membership bridge into Part/Field before it can count as CM closure or CM failure. Therefore failure of the QSP angular packet is not yet necessary Field failure. The next atom is SelectorReadoutToFieldBridge.A: license the selected finite-frame/QSP readout as the actual Field_{N,r,Q} certificate for the same terminal packet, or demote the QSP branch to support-only."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-angular-concentration-field-face-entry-direct-attempt-20260609.md
     - problems/navier-stokes/ns-proof-program-route-table.yaml
     - problems/navier-stokes/live-theorem-edge.yaml
     - problems/navier-stokes/theorem-construction/selector-quadratic-sign-separation-packet.md
-  downstream_consequence: "The next theorem atom is SelectorReadoutToFieldBridge.A: prove that the selected finite-frame/QSP readout is a licensed Field_{N,r,Q} certificate for the same terminal CM packet, with stated necessity or a declared alternate Field certificate."
+  downstream_consequence: "The next theorem atom is SelectorReadoutToFieldBridge.A: prove that the selected finite-frame/QSP readout is a licensed Field_{N,r,Q} certificate for the same terminal CM participation-field record, with stated necessity or a declared alternate Field certificate."
 ---
 
 # MPP QSP Angular-Failure Field-Necessity Bridge Direct Attempt
@@ -39,7 +39,7 @@ Proof program: Navier-Stokes CM contrapositive class exit.
 
 Target object: bridge license from QSP selector readout to the CM Field face.
 
-Object role: CM face-necessity bridge.
+Object role: CM Part/Field-necessity bridge.
 
 Logical skeleton: test the route table authority, then separate support route
 failure from Field failure.
@@ -100,12 +100,12 @@ The next theorem atom is:
 ```text
 SelectorReadoutToFieldBridge.A:
 prove that the selected finite-frame/QSP readout is a licensed
-Field_{N,r,Q} certificate for the same terminal CM packet, with stated
+Field_{N,r,Q} certificate for the same terminal CM participation-field record, with stated
 necessity or a declared alternate Field certificate.
 ```
 
 If that bridge cannot be proved, the QSP branch must stay support-only and the
-loop must choose a different Field certificate or a different Pack/Part/Field
+loop must choose a different Field certificate or a different Part/Field
 face route.
 
 ## New Live Criticism
@@ -115,4 +115,4 @@ proved. The route table treats TPS/QSP selector work as downstream one-field
 readout support requiring a class-membership bridge. The proof still lacks
 `SelectorReadoutToFieldBridge.A`: a theorem licensing the selected
 finite-frame/QSP readout as the actual `Field_{N,r,Q}` certificate for the
-same terminal CM packet, with necessity or an alternate Field certificate.
+same terminal CM participation-field record, with necessity or an alternate Field certificate.
