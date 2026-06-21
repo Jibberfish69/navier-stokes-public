@@ -1,8 +1,8 @@
 ---
 version: 1
 kind: ns-paper-arc-author-pack
-arc_id: pack-part-field-grammar
-batch_id: pack-part-field-grammar-author-pack-20260614T051258Z
+arc_id: part-field-grammar
+batch_id: part-field-grammar-author-pack-20260614T051258Z
 ready_to_apply: false
 source_rewrites:
 - op: replace_section
@@ -11,7 +11,7 @@ source_rewrites:
   spine_id: packet-witness-law
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:637
   author_replacement_required: true
-  replacement: 'AUTHOR REPLACEMENT REQUIRED: write finished TeX prose for pack-part-field-grammar
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: write finished TeX prose for part-field-grammar
     / packet-witness-law.
 
 '
@@ -31,7 +31,7 @@ source_rewrites:
   spine_id: simplifying-the-witness-logic-table
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:758
   author_replacement_required: true
-  replacement: 'AUTHOR REPLACEMENT REQUIRED: write finished TeX prose for pack-part-field-grammar
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: write finished TeX prose for part-field-grammar
     / simplifying-the-witness-logic-table.
 
 '
@@ -46,7 +46,7 @@ source_rewrites:
     repair_decision: unset
     unresolved_failures: []
 author_contract:
-  arc_id: pack-part-field-grammar
+  arc_id: part-field-grammar
   must_write:
   - finished TeX prose, not a report
   - reader-facing explanation before compressed notation

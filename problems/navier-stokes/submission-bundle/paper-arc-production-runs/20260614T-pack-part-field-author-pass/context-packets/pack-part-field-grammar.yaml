@@ -3,8 +3,8 @@ version: 1
 kind: ns-paper-arc-context-packet
 generated_at: '2026-06-14T05:12:58Z'
 arc:
-  arc_id: pack-part-field-grammar
-  title: Pack/Part/Field witness grammar
+  arc_id: part-field-grammar
+  title: Part/Field witness grammar
   priority: 5
   status: ready_for_author_packet
   production_role: write the three witness faces as distinct mathematical objects
@@ -82,7 +82,7 @@ source_sections:
 
     A terminal source, pressure pulse, donor history, or zero-radius residue becomes a Pack payment only after it supplies this positive carrier.  A record with that carrier moves to Part.  A record with no such carrier has first failure
     \[
-      \neg\Pack_Q.
+      Field-window evidence outside CM.
     \]
   truncated: false
 - spine_id: simplifying-the-witness-logic-table
@@ -94,22 +94,22 @@ source_sections:
   text: |+
     \section{Simplifying The Witness Logic Table}
 
-    The formal conjunction \(\Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}\) has many Boolean rows.  The proof reads them through the order in which a Navier--Stokes record needs the data.  First ask for the carrier, then the same law, then the one-field readout.
+    The formal conjunction \(\Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}\) has many Boolean rows.  The proof reads them through the order in which a Navier--Stokes record needs the data.  First ask for the carrier, then the same law, then the one-field readout.
     \[
     \begin{array}{ll}
-    \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}
+    \Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}
       & \text{member-side certificate},\\[1mm]
-    \neg\Pack_Q
-      & \text{Pack-first failure},\\[1mm]
-    \Pack_Q\wedge\neg\Part_{N,Q}
+    Field-window evidence outside CM
+      & \text{Part/Field failure},\\[1mm]
+    \neg\Part_{N,Q}
       & \text{Part-first failure},\\[1mm]
-    \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
+    \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
       & \text{Field-first failure.}
     \end{array}
     \]
     The member row also needs the branch readout.  The Pack row says there is no positive same-fluid carrier.  The Part row says the carrier is present and the same law has been lost.  The Field row says the carrier and law are present, while every positive one-field scale fails.
 
-    The other Boolean rows collapse to the first failed face.  A field-looking trace without a carrier has already failed Pack.  A formal participation reading without a same carrier also fails Pack first.  A carrier whose law and field both fail is recorded at Part, because the equation law is lost before the field question can do useful work.
+    The other Boolean rows collapse to the first failed face.  A field-looking trace without a carrier has already failed Pack.  A formal participation reading without a same carrier also fails Part/Field first.  A carrier whose law and field both fail is recorded at Part, because the equation law is lost before the field question can do useful work.
 
     Field remains a real terminal face.  Some terminal pictures first appear as jumps, incompatible neighboring traces, or unbounded tower readings.  After Pack and Part have survived on the selected record, those pictures ask whether one positive scale still carries a coherent field.  If every such scale fails, the record lands in Field.
 
@@ -144,7 +144,7 @@ support_refs:
   excerpt: |-
     - math-cognition-application-ledger.yaml#math-apply-cm-polarity-before-positive-smoothness
     - repair_id: topology-before-taxonomy-defense
-      failure_class: pack-part-field-topology-blur
+      failure_class: part-field-topology-blur
       behavior_rule: Resolve decomposition coupling or separation before defending route
         labels.
 - path: brain/relational-cognition/user/cognition/current.yaml
@@ -177,7 +177,7 @@ support_refs:
     | --- | --- | --- | --- | --- |
     | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
     | 2 | The witness enters the canonical same-fluid CM terminal packet tree rather than being assumed to be a class member | `live-theorem-edge.yaml`, `theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md` | installed via `ClayTerminalWitnessCMEntry.A` | makes CM-test admissibility the first proof move |
-    | 3 | The finite failure type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q} | `live-theorem-edge.yaml`, `theorem-repair.yaml`, `submission-bundle/submission-synopsis.md` | installed via `ClayFiniteFailureTypeCMExhaustion.A` | sorts the terminal witness through the three typed witness faces |
+    | 3 | The finite failure type is exhausted as not not Part_{N,Q} or forall r>0 not Field_{N,r,Q} | `live-theorem-edge.yaml`, `theorem-repair.yaml`, `submission-bundle/submission-synopsis.md` | installed via `ClayFiniteFailureTypeCMExhaustion.A` | sorts the terminal witness through the three typed witness faces |
     | 4 | The derived face failure embeds as `Exit(Q):=not Member(Q)` inside the CM contrapositive program | `live-theorem-edge.yaml`, `target-operating-contract.yaml`, `submission-bundle/submission-synopsis.md` | installed via `ClayCMContrapositiveEmbedding.A` | lands the class-exit conclusion while preserving `Member(Q)` as downstream |
 - path: problems/navier-stokes/current-route-dependency-graph.yaml
   matched_keywords:
@@ -240,7 +240,7 @@ support_refs:
   excerpt: |-
     source-wall machinery; finally it was reinterpreted as a class-membership
     contrapositive engine where a finite terminal obstruction either stays on the
-    `Member(Q)` pass side or lands as a Pack/Part/Field face failure supporting
+    `Member(Q)` pass side or lands as a Part/Field face failure supporting
     `Exit(Q):=not Member(Q)`.
 - path: problems/navier-stokes/spine.md
   matched_keywords:
@@ -255,7 +255,7 @@ support_refs:
   excerpt: |-
     ## Route Summary
 
-    - Working target: the manuscript opens from the CM contrapositive class-exit proof program: finite Clay terminal witness entry, Pack/Part/Field finite-failure exhaustion, and `Exit(Q):=not Member(Q)`.
+    - Working target: the manuscript opens from the CM contrapositive class-exit proof program: finite Clay terminal witness entry, Part/Field finite-failure exhaustion, and `Exit(Q):=not Member(Q)`.
     - Honest current status: recent submission surfaces and live theorem authority make the CM terminal-witness chain the proof-bearing opening; older periodic, `Q(t)`, source-wall, and positive-supplier material is support unless it lands in a typed witness face.
     - Decisive frontier: preserve `ClayTerminalWitnessCMEntry.A`, `ClayFiniteFailureTypeCMExhaustion.A`, and `ClayCMContrapositiveEmbedding.A` as the manuscript spine and prevent stale torus-first prose from retaking the opening.
 - path: problems/navier-stokes/submission-bundle/authorial-structure-pass-20260526.md
@@ -272,7 +272,7 @@ support_refs:
     finite Clay terminal witness
     -> same original smooth Navier-Stokes object
     -> same-fluid CM terminal packet tree
-    -> first failed Pack/Part/Field service
+    -> first failed Part/Field service
     -> Exit(Q):=not Member(Q).
 - path: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
   matched_keywords:
@@ -333,7 +333,7 @@ support_refs:
   - Member
   excerpt: |-
     forward-positive work as supplier/certification support and silver CM
-        Pack/Part/Field contrapositive as an acceptable closure route when fully
+        Part/Field contrapositive as an acceptable closure route when fully
         written and readable.
       active_pdf:
 - path: problems/navier-stokes/submission-bundle/pdf-rebuild-branch-section-workplan-20260530.md
@@ -349,7 +349,7 @@ support_refs:
   excerpt: |-
     7. Surviving defect, tail, residue, or witness object.
     8. Reason positive-forward closure stalls.
-    9. CM-exit classification: Pack, Part, Field, continuation readout, scope boundary, or unresolved support.
+    9. CM-exit classification: Part, Field, continuation readout, scope boundary, or unresolved support.
     10. Branch conclusion inside the global CM-exit program.
 - path: problems/navier-stokes/submission-bundle/reader-facing-abstract-intro-checklist.md
   matched_keywords:
@@ -379,7 +379,7 @@ support_refs:
   excerpt: |-
     -> the terminal branch left by failure
       -> working class object
-      -> Pack/Part/Field witness faces
+      -> Part/Field witness faces
       -> terminal packet capture
       -> class exit
 - path: problems/navier-stokes/submission-bundle/source-frontier.yaml
@@ -430,7 +430,7 @@ support_refs:
     finite terminal witness is exhausted as loss of Pack, loss of Part, or loss of
     every positive Field scale.
 context_packer_contract:
-  arc_id: pack-part-field-grammar
+  arc_id: part-field-grammar
   context_unit: one whole proof arc
   required_domains:
   - domain_id: tex_source
@@ -495,7 +495,7 @@ context_domain_refs:
     excerpt: |-
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
-        role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
+        role: Audit-open atlas that connects the primitive Member/CM witness graph, Part/Field
           face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
@@ -511,7 +511,7 @@ context_domain_refs:
     excerpt: |-
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
-        role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
+        role: Audit-open atlas that connects the primitive Member/CM witness graph, Part/Field
           face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
@@ -527,7 +527,7 @@ context_domain_refs:
     excerpt: |-
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
-        role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
+        role: Audit-open atlas that connects the primitive Member/CM witness graph, Part/Field
           face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260608.yaml
@@ -543,7 +543,7 @@ context_domain_refs:
     excerpt: |-
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
-        role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
+        role: Audit-open atlas that connects the primitive Member/CM witness graph, Part/Field
           face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260609-iteration-2.yaml
@@ -559,7 +559,7 @@ context_domain_refs:
     excerpt: |-
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
-        role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
+        role: Audit-open atlas that connects the primitive Member/CM witness graph, Part/Field
           face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260609.yaml
@@ -575,7 +575,7 @@ context_domain_refs:
     excerpt: |-
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
-        role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
+        role: Audit-open atlas that connects the primitive Member/CM witness graph, Part/Field
           face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   ref_count: 6
@@ -677,7 +677,7 @@ context_domain_refs:
       route_shape:
             - Original smooth periodic data
             - PCTP.hard / TTU terminal-tail readout package
-            - Pack/Part/Field/tower retained readout
+            - Part/Field/tower retained readout
             - uniform H^s(T^3), s>5/2 bound
   ref_count: 6
 - domain_id: brain_app_node_material
@@ -714,7 +714,7 @@ context_domain_refs:
     excerpt: |-
       - math-cognition-application-ledger.yaml#math-apply-cm-polarity-before-positive-smoothness
       - repair_id: topology-before-taxonomy-defense
-        failure_class: pack-part-field-topology-blur
+        failure_class: part-field-topology-blur
         behavior_rule: Resolve decomposition coupling or separation before defending route
           labels.
   - path: brain/relational-cognition/user/cognition/current.yaml
@@ -866,7 +866,7 @@ context_domain_refs:
       conversation_label: chat24
       updated_at: '2026-05-06T20:52:17Z'
       note: 'Positive-viscosity extreme terminal separation packet: fixed-nu stress hunt
-        under CM/Pack/Part/Field discipline'
+        under CM/Part/Field discipline'
   ref_count: 6
 - domain_id: writing_rules
   name: reader and manuscript writing rules
@@ -902,7 +902,7 @@ context_domain_refs:
       finite Clay terminal witness
       -> same original smooth Navier-Stokes object
       -> same-fluid CM terminal packet tree
-      -> first failed Pack/Part/Field service
+      -> first failed Part/Field service
       -> Exit(Q):=not Member(Q).
   - path: problems/navier-stokes/submission-bundle/human-author-chronological-cm-exit-manuscript-architecture-20260530.md
     matched_keywords:
@@ -948,7 +948,7 @@ context_domain_refs:
     excerpt: |-
       7. Surviving defect, tail, residue, or witness object.
       8. Reason positive-forward closure stalls.
-      9. CM-exit classification: Pack, Part, Field, continuation readout, scope boundary, or unresolved support.
+      9. CM-exit classification: Part, Field, continuation readout, scope boundary, or unresolved support.
       10. Branch conclusion inside the global CM-exit program.
   - path: problems/navier-stokes/submission-bundle/reader-facing-abstract-intro-checklist.md
     matched_keywords:
@@ -967,7 +967,7 @@ context_domain_refs:
       failure type, and embedded as `Exit(Q):=not Member(Q)`.
   ref_count: 6
 author_contract:
-  arc_id: pack-part-field-grammar
+  arc_id: part-field-grammar
   must_write:
   - finished TeX prose, not a report
   - reader-facing explanation before compressed notation
