@@ -3,7 +3,7 @@
 ## Target
 
 - target obligation: OFP.A
-- target label: Create the sharp CM branch theorem OFP.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Pack, Part, or Field.
+- target label: Create the sharp CM branch theorem OFP.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Part or Field.
 - route role: Use CSP.A on the retained same-fluid collar, with the post-LCI source ledger kept explicit, to propagate the one-field package OFP.A without importing CFI.A, endpoint readout, or Field; Member is downstream of the CM witness certificate.
 - theorem family: generic-bridge-theorem
 
@@ -63,7 +63,7 @@ OFP.A. The collar source-pressure package CSP.A propagates the retained one-fiel
 ## Forbidden Imports
 
 - OFP.A
-- Create the sharp CM branch theorem OFP.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Pack, Part, or Field.
+- Create the sharp CM branch theorem OFP.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Part or Field.
 - full-MPP closure
 - submission readiness
 - global smoothness

@@ -51,10 +51,10 @@ ParabolicEdgeResistance.A. After signed-current localization and boundary pricin
 - TerminalSkewLocalizationLedger.A
 - CycleHeatAction.A
 - OffSaturationBoundaryPricing.A
-- Member-direction audit for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Pack/Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
-- Pack landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Pack/Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
-- Field landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Pack/Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
-- Part landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Pack/Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
+- Member-direction audit for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
+- Pack landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
+- Field landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
+- Part landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
 - - problems/navier-stokes/live-theorem-edge.yaml
 - mcp_response_rule: Every Navier-Stokes MCP frontier, leading-edge, or theorem-target
 - current_next_cell_type: source-wall-root-theorem

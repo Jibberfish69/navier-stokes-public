@@ -69,7 +69,7 @@ tower-blown_avg
 Jump_avg
 ```
 
-using Pack, Part, Field_avg, OFP.A_avg, DTC.A_avg, and the averaged endpoint certificate.
+using Part and Field_avg, OFP.A_avg, DTC.A_avg, and the averaged endpoint certificate.
 
 The legal order is explicit:
 
