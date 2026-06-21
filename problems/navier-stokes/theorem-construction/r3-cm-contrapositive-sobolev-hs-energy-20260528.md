@@ -2,7 +2,7 @@
 
 Date: 2026-05-28
 
-Status: discharged as a route-local CM face-classification theorem.
+Status: discharged as a route-local CM Part/Field-classification theorem.
 
 ## Target
 
@@ -58,7 +58,7 @@ assumed terminal Sobolev wall. Therefore retained Pack and retained Part force
 \forall \rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
 ```
 
-The three alternatives exhaust the Sobolev route: the wall is either loss of the same-fluid carrier, loss of the differentiated same-law tower, or loss of positive-scale coherent field readout. Hence the Sobolev/H^s terminal wall lands in Pack, Part, or Field.
+The three alternatives exhaust the Sobolev route: the wall is either loss of the same-fluid carrier, loss of the differentiated same-law tower, or loss of positive-scale coherent field readout. Hence the Sobolev/H^s terminal wall lands in Part or Field.
 
 ## CM consequence
 

@@ -2,7 +2,7 @@
 
 Date: 2026-05-28
 
-Status: discharged as a route-local CM face-classification theorem.
+Status: discharged as a route-local CM Part/Field-classification theorem.
 
 ## Target
 
@@ -57,7 +57,7 @@ Therefore retained Pack and retained Part force
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
 ```
 
-The Prodi-Serrin wall is exhausted by Pack, Part, or Field.
+The Prodi-Serrin wall is exhausted by Part or Field.
 
 ## CM consequence
 

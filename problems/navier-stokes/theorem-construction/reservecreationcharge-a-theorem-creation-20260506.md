@@ -54,10 +54,10 @@ ReserveCreationCharge.A. For every admissible terminal heat window W and scale N
 - terminal heat-window decomposition
 - Define or prove: Added three theorem-facing reductions on the Navier-Stokes lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2, red
 - central_gate: Every promoted theorem result must land in Pack_Q, Part_{N,Q}, Field_{N,r,Q},
-- Member-direction audit for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Pack/Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
-- Part landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Pack/Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
-- Field landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Pack/Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
-- Pack landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Pack/Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
+- Member-direction audit for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
+- Part landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
+- Field landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
+- Pack landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
 - Define or prove: Completed the Hopf/shuffle line as a theorem-program refinement. The correct algebraic fit for the time tower is the divided-power Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
 - normalized child packet mass
 - Define or prove: Reduced the live Navier-Stokes route stack against the Clay whole-space target into exact source-backed ingredients already present on the lane. On the classical side, isolated the mixed-jet system, the exact rung-level can

@@ -2,7 +2,7 @@
 
 Date: 2026-05-28
 
-Status: route-local CM face-classification theorem conditional on the exact
+Status: route-local CM Part/Field-classification theorem conditional on the exact
 BKM/strain readout bridge stated below.
 
 ## Target
@@ -87,11 +87,11 @@ Therefore, on the retained Pack+Part branch,
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
 ```
 
-The wall is exhausted by carrier loss, same-law participation loss, or coherent field loss. Hence the vorticity/BKM/strain terminal wall lands in a CM face.
+The wall is exhausted by carrier loss, same-law participation loss, or coherent field loss. Hence the vorticity/BKM/strain terminal wall lands in a CM Part/Field.
 
 ## CM consequence
 
-The face failure gives
+The Part/Field failure gives
 
 ```math
 Exit(Q):=\neg Member(Q).

@@ -2,7 +2,7 @@
 
 Date: 2026-05-28
 
-Status: discharged as a route-local CM face-classification theorem.
+Status: discharged as a route-local CM Part/Field-classification theorem.
 
 ## Target
 
@@ -48,11 +48,11 @@ Assume Pack_Q and Part_{N,Q} survive. The remaining deformation wall is failure 
 
 If some Field_{N,rho,Q} survives, the route has coherent deformation/readout control on the retained carrier under the same PDE law. The Lagrangian/deformation continuation mechanism therefore survives past the terminal wall.
 
-Thus every Lagrangian/deformation terminal wall lands in Pack, Part, or Field.
+Thus every Lagrangian/deformation terminal wall lands in Part or Field.
 
 ## CM consequence
 
-The face failure gives
+The Part/Field failure gives
 
 ```math
 Exit(Q):=\neg Member(Q).

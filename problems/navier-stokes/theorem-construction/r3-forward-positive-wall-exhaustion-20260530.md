@@ -93,7 +93,7 @@ If it is a Prodi-Serrin wall, apply `R3ProdiSerrinWallToCMFace.A`.
 
 If it is a local `L^3` critical wall, apply `R3CriticalL3WallToCMFace.A`.
 
-If it is a critical `H^{1/2}` wall, apply `R3HHalfWallToCMFace.A`. This theorem now uses same-ledger extraction and the matched Field finite-difference readout, so the frequency-critical branch lands in the same Pack/Part/Field grammar.
+If it is a critical `H^{1/2}` wall, apply `R3HHalfWallToCMFace.A`. This theorem now uses same-ledger extraction and the matched Field finite-difference readout, so the frequency-critical branch lands in the same Part/Field grammar.
 
 If it is an admissible Besov/Lorentz wall, apply `R3BesovLorentzWallToCMFace.A`. The Besov dyadic branch reduces by Bernstein to the repaired `H^{1/2}` route, while the Lorentz amplitude branch reduces to the installed local `L^3` route.
 
@@ -123,10 +123,10 @@ The cases exhaust `ForwardWall_{R3}^{listed}` by the definition of the listed ro
 
 ## CM embedding discipline
 
-The resulting face failure is passed through
+The resulting Part/Field failure is passed through
 
 ```math
 ClayCMContrapositiveEmbedding.A.
 ```
 
-Thus the umbrella theorem supplies a classified CM face witness on the same ledger. It preserves the route discipline that `Member(Q)` is downstream of the full Pack/Part/Field witness-face record.
+Thus the umbrella theorem supplies a classified CM Part/Field witness on the same ledger. It preserves the route discipline that `Member(Q)` is downstream of the full Part/Field witness record.

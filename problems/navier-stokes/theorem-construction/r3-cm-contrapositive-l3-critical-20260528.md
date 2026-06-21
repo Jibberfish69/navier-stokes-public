@@ -2,7 +2,7 @@
 
 Date: 2026-05-28
 
-Status: discharged as a route-local CM face-classification theorem.
+Status: discharged as a route-local CM Part/Field-classification theorem.
 
 ## Target
 
@@ -56,11 +56,11 @@ Thus same-ledger terminal L3 concentration on the retained Pack+Part branch prod
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
 ```
 
-The critical L3 wall is therefore exhausted by Pack, Part, or Field.
+The critical L3 wall is therefore exhausted by Part or Field.
 
 ## CM consequence
 
-The face failure gives
+The Part/Field failure gives
 
 ```math
 Exit(Q):=\neg Member(Q).
