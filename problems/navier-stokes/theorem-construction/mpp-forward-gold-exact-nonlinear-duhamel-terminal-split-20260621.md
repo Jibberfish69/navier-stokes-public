@@ -239,6 +239,37 @@ The commutator is
 Thus a selected-carrier Duhamel proof must also pay cutoff/collar terms. The
 global identity cannot be silently localized without these terms.
 
+There is also a projected-source localization cost. If
+
+\[
+L F:=\mathbb P\nabla\cdot F,
+\qquad
+F=v_j\otimes v_j,
+\tag{NDS.17}
+\]
+
+then
+
+\[
+\eta N_j
+=
+-L(\eta F)-[\eta,L]F,
+\tag{NDS.18}
+\]
+
+where
+
+\[
+[\eta,L]F
+:=
+\eta L F-L(\eta F).
+\tag{NDS.19}
+\]
+
+So the local selected source is not merely the global nonlinear source
+multiplied by \(\eta\). It carries a Leray/cutoff commutator that must be paid
+or retained on the same ledger.
+
 ## Verdict
 
 The exact Navier-Stokes Duhamel fact is:
@@ -253,7 +284,7 @@ e^{\nu\Delta}v_j(-1)
 e^{\nu(-\sigma)\Delta}
 \big[-\mathbb P\nabla\cdot(v_j\otimes v_j)\big](\sigma)\,d\sigma.
 }
-\tag{NDS.17}
+\tag{NDS.20}
 \]
 
 Splitting the integral gives old material with positive smoothing time and a
@@ -265,7 +296,7 @@ terminal nonlinear layer with vanishing smoothing time:
 e^{\nu(-\sigma)\Delta}
 \big[-\mathbb P\nabla\cdot(v_j\otimes v_j)\big](\sigma)\,d\sigma.
 }
-\tag{NDS.18}
+\tag{NDS.21}
 \]
 
 So the remaining gold theorem cannot be "viscosity smooths it." It must be a
@@ -276,6 +307,5 @@ same-carrier theorem controlling the actual nonlinear/pressure contribution:
 \text{endpoint UI, unweighted action, strict no-waste, source-square domination,
 or profile production.}
 }
-\tag{NDS.19}
+\tag{NDS.22}
 \]
-
