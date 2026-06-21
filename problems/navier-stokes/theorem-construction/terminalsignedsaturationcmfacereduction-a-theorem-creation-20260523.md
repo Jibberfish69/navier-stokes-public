@@ -4,12 +4,12 @@
 
 - target obligation: TerminalSignedSaturation.A
 - target label: terminal signed positive-source saturation / no-free-sink gate
-- route role: Use the signed-current and terminal Zeno audits in the CM contrapositive direction: retained partners, legal exits, ASAC pair-weight defects, finite donor trees, and non-Zeno entrance leaves are already paid; the only surviving terminal no-free-sink branch is a zero-radius source-residue atom, which is first audited for pointwise Part status and becomes true not Pack_Q only when no same-solution participation record survives. This closes the signed-saturation surface as Exit(Q) witness support, not as a forward source-control supplier theorem.
+- route role: Use the signed-current and terminal Zeno audits in the CM contrapositive direction: retained partners, legal exits, ASAC pair-weight defects, finite donor trees, and non-Zeno entrance leaves are already paid; the only surviving terminal no-free-sink branch is a zero-radius source-residue atom, which is first audited for original participation law status and becomes true not Pack_Q only when no same-solution participation record survives. This closes the signed-saturation surface as Exit(Q) witness support, not as a forward source-control supplier theorem.
 - theorem family: generic-bridge-theorem
 
 ## Created Theorem
 
-TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for pointwise Part status, giving not Part_{N,Q} when same-solution participation remains and true not Pack_Q only when the participation record is absent. This is a CM face-reduction theorem, not a forward no-free-sink supplier discharge.
+TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for original participation law status, giving not Part_{N,Q} when same-solution participation remains and true not Pack_Q only when the participation record is absent. This is a CM face-reduction theorem, not a forward no-free-sink supplier discharge.
 
 ## Inventive Search
 
@@ -19,7 +19,7 @@ TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with E
 - selected_mechanism: terminal_signed_saturation_cm_face_reduction
 - candidate_count: 1
 - solver_chain_verdict: closed
-- selection_reason: This theorem is the right next move because it changes the proof economy: Use the signed-current and terminal Zeno audits in the CM contrapositive direction: retained partners, legal exits, ASAC pair-weight defects, finite donor trees, and non-Zeno entrance leaves are already paid; the only surviving terminal no-free-sink branch is a zero-radius source-residue atom, which is first audited for pointwise Part status and becomes true not Pack_Q only when no same-solution participation record survives. This closes the signed-saturation surface as Exit(Q) witness support, not as a forward source-control supplier theorem. It is source-backed by 8 local ingredient(s). The internal solver reached a terminal CM face-reduction record: the surface is closed as Exit(Q) witness support and remains separate from forward supplier closure.
+- selection_reason: This theorem is the right next move because it changes the proof economy: Use the signed-current and terminal Zeno audits in the CM contrapositive direction: retained partners, legal exits, ASAC pair-weight defects, finite donor trees, and non-Zeno entrance leaves are already paid; the only surviving terminal no-free-sink branch is a zero-radius source-residue atom, which is first audited for original participation law status and becomes true not Pack_Q only when no same-solution participation record survives. This closes the signed-saturation surface as Exit(Q) witness support, not as a forward source-control supplier theorem. It is source-backed by 8 local ingredient(s). The internal solver reached a terminal CM face-reduction record: the surface is closed as Exit(Q) witness support and remains separate from forward supplier closure.
 
 ### Candidate Theorems
 
@@ -50,7 +50,7 @@ TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with E
 - Pack_Q
 - Part_{N,Q}
 - Field_{N,r,Q}
-- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for pointwise Part status, giving not Part_{N,Q} when same-solution participation remains and true not Pack_Q only when the participation record is absent. This is a CM face-reduction theorem, not a forward no-free-sink supplier discharge.
+- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for original participation law status, giving not Part_{N,Q} when same-solution participation remains and true not Pack_Q only when the participation record is absent. This is a CM face-reduction theorem, not a forward no-free-sink supplier discharge.
 - ScaleCriticalTreeCarleson.A. The reserve, charge, adjoint-tail, and windowwise leakage ledgers would sum to the Pack_Q scale-critical donor-refill Carleson bound only after the noncircular Pack-side residual primitive is proved; until then an unpaid infinite donor-refill tree remains a Pack-face exit witness, not a closed no-exit theorem.
 - Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
@@ -71,7 +71,7 @@ TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with E
 1. Partition selected terminal source-current edges into retained signed partners, legal exits, finite donor sinks, and terminal Zeno refill.
 2. Pay retained partners by ASAC pair-weight charge, legal exits by declared ledgers, and finite donor sinks by LocalDonorBalance.A plus EntranceLeafDecay.A.
 3. Route the only unpaid terminal Zeno refill to the produced B_ASAC terminal residue class.
-4. Apply the terminal Zeno Pack-before-Part correction: a zero-radius terminal source residue is Part-first when same-solution pointwise participation remains and true not Pack_Q only when that record is absent.
+4. Apply the terminal Zeno Pack-before-Part correction: a zero-radius terminal source residue lands Part-side when same-solution original participation remains and true not Pack_Q only when that record is absent.
 5. Use BASACTerminalAtomCMFaceLabeling.A to record any incoming flux, CM envelope blowout, or paid exit as Pack/Part/Field witness-face exit.
 6. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
