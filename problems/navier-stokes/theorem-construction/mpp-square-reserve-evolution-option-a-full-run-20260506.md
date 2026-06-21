@@ -76,7 +76,7 @@ Part_{N,Q}(u,p)
 Field_{N,r,Q}(u,p).
 ```
 
-The installed certificate direction is:
+The installed witness-to-member direction is:
 
 ```math
 \forall N\ \exists r_N:\quad

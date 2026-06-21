@@ -6,7 +6,7 @@ Execution ledger for the May 5 source-wall root after
 `SourceWall.Reconcile.A`.
 
 The live source wall is not a CM-witness problem.  The installed CM bridge is
-the one-way certificate direction:
+the one-way witness-to-member direction:
 
 ```math
 CMCert.A:

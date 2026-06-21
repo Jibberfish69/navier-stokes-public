@@ -29,7 +29,7 @@ Exit(Q;\mathfrak O_{NS}^{work})
 \tag{VECM.0a}
 ```
 
-The installed theorem-grade certificate direction remains one-way:
+The installed theorem-grade witness-to-member direction remains one-way:
 
 ```math
 \forall N\ \exists r_N>0:\quad

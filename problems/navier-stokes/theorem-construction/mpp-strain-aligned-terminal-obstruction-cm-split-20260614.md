@@ -107,7 +107,7 @@ in-class third branch.  It leaves the class object
 
 ## 4. Proof
 
-The installed member bridge gives the certificate direction:
+The installed member bridge gives the witness-to-member direction:
 
 ```math
 CM_{N_s,r,Q_B}
