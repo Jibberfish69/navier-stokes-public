@@ -48,7 +48,7 @@ So the event remains globally constrained and locally disqualified.
 
 ## Consequence for the route
 
-Any route that admits such an event inside the same alleged member object must classify it as a Part/Field Part/Field failure. A singularity in the gap is therefore evidence for the CM contrapositive branch, not a harmless forward-gold survivor.
+Any route that admits such an event inside the same alleged member object must classify it as a Part/Field failure. A singularity in the gap is therefore evidence for the CM contrapositive branch, not a harmless forward-gold survivor.
 
 The required bridge theorem is:
 

@@ -13,7 +13,7 @@ Consume every terminal branch by one of:
   - admissibility failure,
   - not Part_{N,Q},
   - forall r>0 not Field_{N,r,Q},
-  - ordinary Part/Field Part/Field failure,
+  - ordinary Part/Field failure,
   - continuation/readout recovery.
 ```
 
@@ -38,7 +38,7 @@ with the review formulation:
 
 ```text
 Prove TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A,
-or replace it with a noncircular finite-breakdown exclusion that lands every admitted surviving terminal residual object through Member(Q) or a concrete Part/Field Part/Field failure.
+or replace it with a noncircular finite-breakdown exclusion that lands every admitted surviving terminal residual object through Member(Q) or a concrete Part/Field failure.
 ```
 
 ## Local replacement supplied

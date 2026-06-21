@@ -16,7 +16,7 @@ The class-exit primitive is
 
 `Exit(Q) := ¬Member(Q; O_NS^work)`.
 
-Source-wall-root-after-reconcile therefore has a narrow admissible role. A residual source-wall presentation can enter the live class-membership route only through a synchronized landing in one of the witnesss `Pack_Q`, `Part_{N,Q}`, or `Field_{N,r,Q}`, with the same `Q`, `N`, `r`, same-fluid carrier, and still-live window. A presentation outside that landing remains supplier/readout support.
+Source-wall-root-after-reconcile therefore has a narrow admissible role. A residual source-wall presentation can enter the live class-membership route only through a synchronized landing in one of the witnesses `Pack_Q`, `Part_{N,Q}`, or `Field_{N,r,Q}`, with the same `Q`, `N`, `r`, same-fluid carrier, and still-live window. A presentation outside that landing remains supplier/readout support.
 
 ## Recentered handoff theorem
 For any source-wall residual presentation `S` arising after `SourceWall.Reconcile.A`, the live-route license is:

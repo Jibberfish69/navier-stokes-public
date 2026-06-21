@@ -104,7 +104,7 @@ The remaining blocker is no longer Pack ordering, endpoint strip classification,
 The blocker is:
 
 ```text
-prove that a same-solution terminal Part/Field Part/Field failure cannot genuinely arise from smooth initial data on a maximal classical Navier-Stokes branch.
+prove that a same-solution terminal Part/Field failure cannot genuinely arise from smooth initial data on a maximal classical Navier-Stokes branch.
 ```
 
 That is the actual `NoGenuineExitFromSmoothData.A` content.

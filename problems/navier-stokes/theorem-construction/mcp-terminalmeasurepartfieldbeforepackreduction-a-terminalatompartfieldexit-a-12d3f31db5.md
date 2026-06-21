@@ -7,7 +7,7 @@ Test whether the terminal measure concentration produced by the shrinking endpoi
 The intended statement is:
 
 ```text
-A same-solution terminal measure concentration cannot remain a valid `Part_{N,Q}` / `Field_{N,r,Q}` survivor once the tests used as original-participation audit records before Pack-local notation include their quantitative certification content.
+A same-solution terminal measure concentration cannot remain a valid `Part_{N,Q}` / `Field_{N,r,Q}` survivor once the tests used as original-participation audit records before field-local notation include their quantitative certification content.
 ```
 
 ## Installed cost fact

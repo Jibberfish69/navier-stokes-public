@@ -9,7 +9,7 @@ exclusion.  The corrected statement is narrower:
 After singular or zero-radius terminal witnesses have been audited under the
 original Navier-Stokes participation law, `Pack_Q` may be used only as the
 ordinary carrier/window/readout admission test for branches that still present
-a meaningful packet-local record.
+a meaningful field-local record.
 ```
 
 This does not say that Pack supplies participation.  It says the opposite:
