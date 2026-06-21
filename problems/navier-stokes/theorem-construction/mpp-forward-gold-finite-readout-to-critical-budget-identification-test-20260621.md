@@ -11,9 +11,15 @@ ns_viewer:
     X_m that dominates the selected carrier. A critical budget C_m can consume
     that atom only after a same-carrier identification in the correct direction,
     either a_m <= C C_m + legal or X_m^p <= C C_m + legal on the selected
-    terminal strips. Without that bridge, a two-channel logical separation keeps
-    a_m and X_m order one while C_m is zero. This is not a Navier-Stokes
-    counterexample; it is the exact implication boundary.
+    terminal strips. For the native trilinear carrier, Young's inequality gives
+    an exact domination by the combined critical Holder density
+    |Sigma|^(5/2)+|W|^(10/3), but current inputs still do not supply an
+    unweighted terminal-family budget for that combined density. For a proposed
+    pure strain, pure CKN, or source-square budget, the same-carrier
+    identification remains a separate bridge. Without such a bridge, a
+    two-channel logical separation keeps a_m and X_m order one while C_m is
+    zero. This is not a Navier-Stokes counterexample; it is the exact
+    implication boundary.
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-atom-forces-finite-order-readout-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-readout-quantum-global-budget-direct-test-20260621.md
@@ -22,11 +28,13 @@ ns_viewer:
   downstream_consequence: >-
     Do not treat finite-order selected readout growth as selected
     critical-strain, normalized CKN, or source-square growth unless the
-    same-carrier domination bridge is proved. The sharpened remaining bridge is
-    SelectedFiniteReadoutToCriticalBudgetIdentification.A, equivalently a direct
-    SelectedCarrierToCriticalBudgetDomination.A for the actual selected positive
-    carrier after localization, projection, positive-part extraction, and legal
-    exits.
+    same-carrier domination bridge is proved. For the trilinear carrier, the
+    combined critical Holder domination is exact but only moves the burden to an
+    unweighted combined critical-factor budget. The sharpened remaining bridge
+    is SelectedFiniteReadoutToCriticalBudgetIdentification.A, equivalently a
+    direct SelectedCarrierToCriticalBudgetDomination.A for the actual selected
+    positive carrier after localization, projection, positive-part extraction,
+    and legal exits.
 ---
 
 # MPP Forward-Gold Finite Readout to Critical Budget Identification Test
@@ -39,8 +47,11 @@ The selected endpoint atom criterion gives a real finite-readout quantum.  This
 note tests whether that quantum automatically becomes a selected
 critical-strain, normalized CKN, or source-square quantum.
 
-It does not.  The missing step is an identification theorem on the same
-selected carrier.
+It does not.  The exact trilinear carrier does admit a combined critical-factor
+domination by Young's inequality, but that is not yet a global budget.  For any
+particular critical budget, the proof must identify the selected carrier with
+that budget in the correct direction and then prove an unweighted terminal-family
+bound for it.
 
 ## 1. What the finite-readout atom theorem gives
 
@@ -189,7 +200,94 @@ viscosity, or incompressibility law.  It is only the exact logical boundary:
 finite-readout visibility and critical-budget visibility are different
 statements until the same-carrier domination estimate is proved.
 
-## 4. Relation to selected critical strain and normalized CKN
+## 4. The trilinear carrier has an exact combined critical domination
+
+For the native trilinear carrier
+
+\[
+a_m(s)
+=
+\int_{B_1}
+\left[
+\left\langle
+\Sigma_m^{loc}(s,y)W_m(s,y),W_m(s,y)
+\right\rangle
+\right]_+dy,
+\tag{FBI.15}
+\]
+
+one has the pointwise estimate
+
+\[
+a_m(s)
+\le
+\int_{B_1}
+|\Sigma_m^{loc}(s,y)|\,|W_m(s,y)|^2\,dy.
+\tag{FBI.16}
+\]
+
+Young's inequality with exponents \(5/2\) and \(5/3\) gives
+
+\[
+|\Sigma|\,|W|^2
+\le
+{2\over5}|\Sigma|^{5/2}
++
+{3\over5}|W|^{10/3}.
+\tag{FBI.17}
+\]
+
+Therefore
+
+\[
+a_m(s)
+\le
+{2\over5}
+\int_{B_1}|\Sigma_m^{loc}(s,y)|^{5/2}\,dy
++
+{3\over5}
+\int_{B_1}|W_m(s,y)|^{10/3}\,dy.
+\tag{FBI.18}
+\]
+
+So for this carrier the same-carrier identification is exact if the proposed
+critical density is the combined Holder density
+
+\[
+C_m^{Hold}(s)
+:=
+\int_{B_1}|\Sigma_m^{loc}|^{5/2}\,dy
++
+\int_{B_1}|W_m|^{10/3}\,dy.
+\tag{FBI.19}
+\]
+
+Then a retained atom forces
+
+\[
+\int_{I_m}C_m^{Hold}(s)\,ds
+\ge
+c(a_0)>0.
+\tag{FBI.20}
+\]
+
+This is still not a forward-gold closure.  Closure would require the unweighted
+terminal-family budget
+
+\[
+\sum_m\int_{I_m}C_m^{Hold}(s)\,ds<\infty
+\tag{FBI.21}
+\]
+
+or terminal-tail depletion of the same combined density.  Current energy inputs
+do not supply `(FBI.21)`: the \(L^{10/3}\) velocity term is physically
+radius-discounted on heat-scale packets, and the \(L^{5/2}\) strain term is the
+continuation-strength selected critical-strain budget already isolated as open.
+
+Thus the trilinear carrier does not fail at the algebraic identification stage.
+It fails at the global unweighted critical-factor budget stage.
+
+## 5. Relation to selected critical strain and normalized CKN
 
 The earlier selected critical-strain attempt proves that \(L^{5/2}\) strain is
 the correct scale-critical bill for heat-scale feed events, but current inputs
@@ -197,7 +295,7 @@ do not produce the Carleson bound
 
 \[
 \sum_m\int_{I_m}C_m^{strain}(s)\,ds<\infty
-\tag{FBI.15}
+\tag{FBI.22}
 \]
 
 on the selected terminal family.
@@ -220,7 +318,7 @@ The exact bridge exposed here is
 \boxed{
 \textbf{SelectedFiniteReadoutToCriticalBudgetIdentification.A}
 }
-\tag{FBI.16}
+\tag{FBI.23}
 \]
 
 or, directly,
@@ -232,10 +330,16 @@ a_m(s)
 C_c C_m(s)+\ell_m(s)
 \quad\text{on the retained selected terminal strips.}
 }
-\tag{FBI.17}
+\tag{FBI.24}
 \]
 
-Without `(FBI.17)`, the implication
+For the trilinear critical Holder density `(FBI.19)`, `(FBI.24)` is supplied by
+Young's inequality.  The remaining burden is the unweighted budget `(FBI.21)`.
+For pure selected critical strain, normalized CKN, source-square, or projected
+local pre-Cauchy carriers after additional selector operations, `(FBI.24)`
+remains a separate same-carrier bridge.
+
+Without `(FBI.24)`, the implication
 
 \[
 \boxed{
@@ -243,7 +347,7 @@ Without `(FBI.17)`, the implication
 \Longrightarrow
 \text{selected critical-strain or normalized CKN quantum}
 }
-\tag{FBI.18}
+\tag{FBI.25}
 \]
 
 is not valid.
@@ -257,5 +361,5 @@ is proved:
 \text{selected critical-budget identification, source-square domination,
 strict no-waste, profile production, or CM Pack/Part/Field consumption.}
 }
-\tag{FBI.19}
+\tag{FBI.26}
 \]
