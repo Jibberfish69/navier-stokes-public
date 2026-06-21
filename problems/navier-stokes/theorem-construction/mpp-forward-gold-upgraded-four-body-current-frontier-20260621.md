@@ -2,7 +2,7 @@
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
 status: consolidated-frontier-installed-strict-cycle-payment-or-rigidity-open-supplement-criteria-updated
 logical_landing_node: upgraded_four_body_current_frontier
-edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, the critical-density/CKN supplement criterion, the signed-polar saturation supplement criterion, the rigid source-residue supplement criterion, and the full pre-Cauchy remainder reduction criterion. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste, critical-density/CKN, signed-polar saturation, rigid source-residue production, and full pre-Cauchy remainder reduction are proved criteria, not produced Navier-Stokes estimates. The remaining gold theorem is a same-carrier production theorem: produce an unweighted square/no-waste or critical-density/CKN reserve, produce dN_miss=0 or a legal/charged polar defect, produce MinimalZenoProfileProduction.A, or prove NoFreeTerminalZenoDonorChain.A."
+edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, the critical-density/CKN supplement criterion, the signed-polar saturation supplement criterion, the rigid source-residue supplement criterion, the full pre-Cauchy remainder reduction criterion, and the direct no-free terminal Zeno four-body attempt. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste, critical-density/CKN, signed-polar saturation, rigid source-residue production, and full pre-Cauchy remainder reduction are proved criteria, not produced Navier-Stokes estimates. The direct four-body attack reduces NoFreeTerminalZenoDonorChain.A to FourBodyTerminalTraceAC.A or strict no-waste/unweighted reserve. The remaining gold theorem is a same-carrier production theorem: prove terminal trace AC/no-waste, produce dN_miss=0 or a legal/charged polar defect, or produce MinimalZenoProfileProduction.A."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-factorial-tower-radius-spend-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-participation-exchange-normal-form-20260621.md
@@ -26,6 +26,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-polar-saturation-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-rigid-source-residue-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-precauchy-remainder-fourbody-reduction-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-terminal-zeno-fourbody-direct-attempt-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -1175,6 +1176,53 @@ In the full-remainder language, these are the available ways to prove
 }
 \tag{4BF.65}
 ```
+
+The direct four-body attack on `(4BF.65)` has now been run.  Once the closed
+same-carrier loop has measure form
+
+```math
+dL_{4B,m}
++
+dD_{4B,m}
++
+c\,dA_m
+\le
+dR_m,
+\qquad
+dD_{4B,m}\ge0,
+\tag{4BF.66}
+```
+
+integration on a terminal strip gives
+
+```math
+cA_m((-\theta,0])
+\le
+R_m((-\theta,0])
++
+L_{4B,m}(-\theta)-L_{4B,m}(0).
+\tag{4BF.67}
+```
+
+Therefore the exact direct four-body supplier is
+
+```math
+\boxed{
+\lim_{\theta\downarrow0}
+\limsup_m
+\left(
+R_m((-\theta,0])
++
+\left[L_{4B,m}(-\theta)-L_{4B,m}(0)\right]_+
+\right)
+=0.
+}
+\tag{4BF.68}
+```
+
+This is `FourBodyTerminalTraceAC.A`.  A strict no-waste Lyapunov drop implies
+it, but current inputs do not.  Finite storage variation permits a terminal
+downward jump, which is exactly the last-instant source-pulse normal form.
 
 This is the current unflattened frontier: the four-body loop pays quotient
 tower activity exactly, and the native cubic source selector must be converted
