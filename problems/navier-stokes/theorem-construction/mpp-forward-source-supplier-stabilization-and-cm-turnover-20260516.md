@@ -51,7 +51,7 @@ This atom would prove temporal non-atomicity and force the Zeno branch to vanish
 
 ### CM turnover task
 
-The CM task is different.  It does not require proving the positive supplier.  It requires typing selected retained failures into Pack/Part/Field.
+The CM task is different.  It does not require proving the positive supplier.  It requires typing selected retained failures into Part/Field.
 
 For the native singular residue branch:
 

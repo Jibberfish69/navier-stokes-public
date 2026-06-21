@@ -365,4 +365,4 @@ The forward-gold heat-scale branch has been reduced to one exact reserve:
 
 The remaining mathematical work is not to rename the supplier.  It is to prove
 one unweighted terminal critical reserve, or to route the retained pulse through
-the CM Pack/Part/Field witness-face machinery.
+the CM Part/Field witness machinery.

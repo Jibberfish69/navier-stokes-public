@@ -4,9 +4,9 @@ ns_viewer:
   status: installed-target-repair
   proof_role: target_repair
   logical_landing_node: cm_class_membership_program_attempts
-  edge_effect: "Replaces generic Pack/Part no-face-exclusion with row-level same-witness CM entry and Pack/Part/Field witness-face record as the current proof gate."
+  edge_effect: "Replaces generic Pack/Part no-face-exclusion with row-level same-witness CM entry and Part/Field witness record as the current proof gate."
   upstream_origin: "June 3 counterexample-exclusion target correction plus June 7 Pack/Part working passes."
-  downstream_consequence: "The current route remains on row-level same-witness CM entry and Pack/Part/Field witness-face record, with no generic Pack/Part global blocker open."
+  downstream_consequence: "The current route remains on row-level same-witness CM entry and Part/Field witness record, with no generic Pack/Part global blocker open."
 ---
 
 # MPP Generic Pack/Part Face-Exclusion Blocker Target Repair
@@ -24,7 +24,7 @@ The wrong question is:
 
 ```text
 Original smooth data
-=> no Pack face failure and no Part face failure can occur.
+=> no Pack Part/Field failure and no Part Part/Field failure can occur.
 ```
 
 That is the generic no-exit bridge that the repo already rejected. It tries to
@@ -36,7 +36,7 @@ The correct question is row-level:
 ```text
 For each proof-bearing finite terminal obstruction O:
   O enters the same-solution CM terminal test,
-  O lands in the first Pack/Part/Field face it actually breaks,
+  O lands in the first Part/Field face it actually breaks,
   and non-proof rows are classified as support instead of carried as theorem
   burdens.
 ```
@@ -77,7 +77,7 @@ rows.
 
 The current referee audit checks the corrected target. It says the branch
 ledger has no open proof-bearing rows on the promoted surfaces. The installed
-local `L^3` Duhamel-mass row has same-witness CM entry and first-face landing.
+local `L^3` Duhamel-mass row has same-witness CM entry and first-Part/Field landing.
 Generic public-critical material remains support-only until a named class is
 promoted with same-atlas localization and Field incompatibility.
 
@@ -97,7 +97,7 @@ keep the finite-obstruction inventory current.
 ```
 
 When a new proof-bearing terminal obstruction row is promoted, it must pass
-the same test: same-witness CM entry, then first Pack/Part/Field face landing.
+the same test: same-witness CM entry, then first Part/Field Part/Field landing.
 Until a named row is promoted, generic Pack and Part face-exclusion are not
 open Clay blockers.
 
@@ -118,5 +118,5 @@ any possible public-critical, source-wall, readout, transfer, or comparison row
 is closed by default.
 
 It says the opposite: a row only becomes proof-bearing after it is named on the
-same terminal witness record and then certified through Pack, Part, or Field.
+same terminal witness record and then certified through Part or Field.
 Generic support rows stay out of the proof burden.

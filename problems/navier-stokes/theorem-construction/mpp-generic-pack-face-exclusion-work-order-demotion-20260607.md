@@ -4,7 +4,7 @@ ns_viewer:
   status: target-repair-stale-generic-blocker
   proof_role: target_repair
   logical_landing_node: cm_pack_face_attempts
-  edge_effect: "Replaces generic Pack-face exclusion with row-level CM-test entry and first-face witness record while preserving not-Pack_Q as a lawful first-face landing for named rows."
+  edge_effect: "Replaces generic Pack-face exclusion with row-level CM-test entry and first-face witness record while preserving failed packet-window_Q as a lawful first-Part/Field landing for named rows."
   upstream_origin: "June 7 Pack-face exclusion working pass and current CM referee audit."
   downstream_consequence: "Future carrier rows require same-witness Pack certification or land as Pack failures instead of staying generic Clay blockers."
 ---
@@ -15,7 +15,7 @@ Date: 2026-06-07
 
 Status: target-repair note. The generic Pack face-exclusion work order is stale
 as a current proof-bearing blocker. Named promoted obstruction rows still
-require CM-test entry plus Pack/Part/Field face witness record before they can
+require CM-test entry plus Part/Field face witness record before they can
 carry proof mass.
 
 ## Governing Program
@@ -26,7 +26,7 @@ The governing CM program remains
 Exit(Q):=not Member(Q)
 ```
 
-through the Pack-first witness tree
+through the Field-certification witness tree
 
 ```text
 Pack_Q, then Part_{N,Q}, then Field_{N,r,Q}.
@@ -38,7 +38,7 @@ The typed roles are:
   test;
 - CM-test entry means the object is admitted into the same terminal packet
   grammar;
-- `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}` are witness faces;
+- `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}` are witnesss;
 - a failed face supports `Exit(Q):=not Member(Q)`;
 - a failed face is not itself a contradiction with being a finite breakdown
   witness.
@@ -72,7 +72,7 @@ The live local job is:
 ```text
 for each concrete finite terminal obstruction O:
   O enters the CM terminal test,
-  O derives a first failed Pack/Part/Field face,
+  O derives a first failed Part/Field face,
   the pass branch remains the in-class continuation branch.
 ```
 
@@ -80,7 +80,7 @@ The June 7 CM referee audit applies that corrected target. It reports that the
 current finite-obstruction inventory gate passed, that the branch ledger has no
 open proof-bearing rows, and that no CM-referee blocker remains on currently
 promoted surfaces. It also states the future rule: a new proof-bearing branch
-must pass CM-test entry plus Pack/Part/Field face witness record before
+must pass CM-test entry plus Part/Field face witness record before
 promotion.
 
 ## Why The Generic Pack Target Is Wrong
@@ -145,7 +145,7 @@ classified as support, supplier, readout, generic translator, or comparison rows
 until a same-atlas proof promotes them. The retained positive-scale native
 reserve birth row is the key example: it remains optional positive Pack-support
 work, not a current CM proof-bearing row, unless same-ledger payment or concrete
-CM-test admission plus first-face derivation is proved on the global atlas.
+CM-test admission plus first-Part/Field derivation is proved on the global atlas.
 
 ## Result
 
@@ -156,7 +156,7 @@ The current mathematical status is:
 
 ```text
 No named promoted Pack row remains uncovered in the current CM referee audit.
-Pack remains a lawful first face for named terminal obstructions.
+Pack remains a lawful first Part/Field for named terminal obstructions.
 Future Pack work is row-triggered only.
 ```
 

@@ -440,5 +440,5 @@ currency, or fails on the endpoint heat-scale model `(UTR.14)`.
 
 The forward-gold branch therefore has no remaining independent supplier at the
 current resolution.  The next noncircular act is the other fork: route the
-retained heat-scale pulse through the CM Pack/Part/Field witness-face program,
+retained heat-scale pulse through the CM Part/Field witness program,
 without presenting that route as a forward-positive anti-atom theorem.

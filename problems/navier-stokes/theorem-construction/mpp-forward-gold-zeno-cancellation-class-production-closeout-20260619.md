@@ -274,5 +274,5 @@ MinimalZenoProfileProduction.A,
 \tag{ZCP.25}
 ```
 
-or to CM Pack/Part/Field consumption of the visible terminal source-residue
+or to CM Part/Field consumption of the visible terminal source-residue
 pulse.

@@ -330,7 +330,7 @@ The forward-gold heat-scale branch is now exhausted at this resolution:
 
 The branch can move only by proving a genuinely new same-selected-family
 unweighted reserve, or by admitting the retained terminal heat-scale pulse into
-the CM Pack/Part/Field witness-face machinery.
+the CM Part/Field witness machinery.
 
 This note does not solve the Navier-Stokes MPP.  It prevents the same
 heat-scale branch from being respawned under six different supplier names.

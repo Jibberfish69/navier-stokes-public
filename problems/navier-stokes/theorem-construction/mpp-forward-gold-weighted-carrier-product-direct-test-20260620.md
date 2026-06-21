@@ -213,4 +213,4 @@ the terminal low-tail and collar products are not controlled by the current
 first-moment Navier-Stokes ledger.  The weighted-carrier term can be safely
 spent only after a residual active-square/source-square/no-waste reserve is
 installed, or after the selected reserve failure is admitted into the CM
-Pack/Part/Field face readout.
+Part/Field face readout.

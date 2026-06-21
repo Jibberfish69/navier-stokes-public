@@ -192,7 +192,7 @@ M^+(q_1,q_2)=1.
 This is not an endpoint time atom.  It is a compact positive-cone kernel.  It
 is excluded only by retained signed-partner saturation, a source-resolved
 same-shadow readout theorem, same-carrier source-square/no-waste domination, or
-CM face consumption after same-witness admission.
+CM Part/Field consumption after same-witness admission.
 
 ## 5. Minimal production theorem
 
@@ -259,7 +259,7 @@ and, after same-witness CM admission,
 ```math
 \text{retained endpoint atom or compact no-null positive carrier}
 \Longrightarrow
-\text{Pack/Part/Field face failure}.
+\text{Part/Field Part/Field failure}.
 \tag{UOP.19}
 ```
 
@@ -279,4 +279,4 @@ supplier search:
 ```
 
 or use the retained pulse and compact no-null carrier only in the CM
-Pack/Part/Field route after same-witness admission.
+Part/Field route after same-witness admission.
