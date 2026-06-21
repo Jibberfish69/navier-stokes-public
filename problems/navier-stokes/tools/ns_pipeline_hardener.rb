@@ -78,8 +78,8 @@ CURRENT_SOURCE_WALL_ROOT_SUMMARY = [
   OPEN_ROOT_GROUP.fetch("cm_exit_discipline", nil),
   "Older positive no-exit / packet-survival language is support only and may not respawn as current CM authority unless a fresh CM-necessity audit proves a genuine in-class nonsmooth third branch.",
   "Generated, manuscript, source-history, runtime, export, and positive-supplier surfaces are support when they conflict with live-theorem-edge.yaml or target-operating-contract.yaml.",
-  "The Pack-before-Part dependency audit keeps pre-Pack not-Pack disposal from becoming terminal until pointwise original-NS participation has been tested.",
-  "The forward-positive quarantine index keeps #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} scanned surfaces out of CM authority unless a named bridge lands the exact result in Silver Pack_Q, Part_{N,Q}, or Field_{N,r,Q}, or proves the pre-Pack Part-first resurfacing needed before not Pack_Q can be spent."
+  "The Pack-before-Part dependency audit keeps pre-Pack not-Pack disposal from becoming terminal until the original NS participation law has been tested.",
+  "The forward-positive quarantine index keeps #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} scanned surfaces out of CM authority unless a named bridge lands the exact result in Silver Pack_Q, Part_{N,Q}, or Field_{N,r,Q}, or proves the pre-Pack original-participation audit needed before not Pack_Q can be spent."
 ].compact.join(" ").freeze
 CURRENT_THEOREM_STATUS = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status").freeze
 CURRENT_PACKAGE_STATUS = "cm-referee-gate-passed-with-gold-silver-paths"

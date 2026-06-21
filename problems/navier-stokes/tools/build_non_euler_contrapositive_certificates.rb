@@ -67,7 +67,7 @@ def certificate_for(entry)
     "cm_face_breaks" => breaks,
     "proof_statement" => statement,
     "proof_explanation" => if status == "face_landing" && breaks.include?("Pack_Q")
-      "SelectedFailure(surface) negates Pack_Q only through the row's selected Pack mechanism: #{diagnostic.fetch("selected_failure_type")}. This is a carrier/window/readout/admission failure, not a pre-Pack disposal of pointwise original-NS participation; any singular or source-residue branch with a same-solution pointwise record must be audited under Part first."
+      "SelectedFailure(surface) negates Pack_Q only through the row's selected Pack mechanism: #{diagnostic.fetch("selected_failure_type")}. This is a carrier/window/readout/admission failure, not a pre-Pack disposal of the original NS participation law; any singular or source-residue branch with a same-solution pointwise record must be audited under Part first."
     else
       rule.fetch("statement_template")
     end
