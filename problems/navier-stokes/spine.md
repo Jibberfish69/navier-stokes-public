@@ -35,7 +35,7 @@ modern overlays, sidecars, and stale generated surfaces, see
    The pass branch remains lawful smooth continuation; the fail branch has no legal in-class nonsmooth continuation status.
 
 6. Quarantine old openings.
-   Periodic, `Q(t)`, source-wall, and positive-supplier material may support the proof only after a checked bridge lands the exact claim in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit audit.
+   Periodic, `Q(t)`, source-wall, and positive-supplier material may support the proof only after a checked bridge lands the exact claim in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit.
 
 ## Completion Condition
 

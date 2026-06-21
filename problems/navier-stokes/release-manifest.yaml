@@ -247,7 +247,7 @@ target_lock_schema:
       donor-refill ancestry is not Pack_Q / (Pack, packing-detached)'
     - 'ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A as diagnostic/source-residue
       language: finite Zeno ancestry is sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A,
-      while terminal zero-radius residue is Part-first when a same-solution pointwise
+      while terminal zero-radius residue lands Part-side when a same-solution pointwise
       original-NS participation record remains and true not Pack_Q only when that
       record is absent; endpoint readout language is post-exit support unless a positive-scale
       retained carrier is separately proved'
@@ -303,7 +303,7 @@ proof_program_topology:
       readout, or jump-comparison structure is admitted. When a pre-Pack or singular
       branch was disposed as not Pack_Q before the original Navier-Stokes participation law was applied to the live same-solution object, first ask whether
       the original Navier-Stokes viscosity, pressure, and incompressibility law still
-      gives pointwise participation status. If yes, apply the original Navier-Stokes participation law to the live same-solution object and localize to Part_{N,Q} only after the tested record exists;
+      gives original participation status. If yes, apply the original Navier-Stokes participation law to the live same-solution object and localize to Part_{N,Q} only after the tested record exists;
       if no, keep not Pack_Q as a true carrier/window/readout failure.
   obstruction_pass_exit_rule: Follow the ordinary positive proof program until it
     reaches a real obstruction, then split the obstruction into a pass branch and
@@ -347,7 +347,7 @@ proof_program_topology:
     / RetainedPositiveScaleNativeReserveBirthCharge.A` is support-only after the Pack-first
     source-reserve face audit. The exact classification is: paid same-ledger service
     is pass-side nonvacuity; an admitted finite terminal obstruction is CM-test admission
-    only; selected unpaid infinite donor-refill lands first at `not Pack_Q`, while zero-radius terminal residue is Part-first when the same-solution pointwise participation record remains and true `not Pack_Q` only when that record is absent; retained positive-scale first-created native donor-square
+    only; selected unpaid infinite donor-refill lands first at `not Pack_Q`, while zero-radius terminal residue is Part-side when the same-solution original participation record remains and true `not Pack_Q` only when that record is absent; retained positive-scale first-created native donor-square
     reserve surplus remains supplier quarantine. Its honest next burden is `RetainedPositiveScaleNativeReserveBirthCharge.A
     / TerminalReserveFirstAppearanceCharge.A` as supplier-quarantined positive Pack
     support, promotable only by same-ledger payment or CM-test admission plus first
@@ -590,7 +590,7 @@ open_root_group:
     cm_pack_legality_consequence: 'The terminal Zeno/B_ASAC zero-thickness endpoint
       is settled only after the Pack-before-Part audit: same original-NS terminal
       atoms land in Part-side dead/participation failure, while Pack-side non-survival
-      is reserved for cases with no surviving pointwise participation record. H1-H6,
+      is reserved for cases with no surviving original participation record. H1-H6,
       ACT.KX, endpoint readout, and positive source-control material remain quarantined
       support rather than upstream proof inputs.'
   continuation_packet_methodology:
@@ -648,7 +648,7 @@ open_root_group:
     label: Terminal zero-radius Zeno Part-first boundary
     proof_mode: terminal_zeno_pack_legality_boundary
     role: CM-facing boundary after finite Zeno ancestry accounting; the terminal zero-radius
-      residue is Part-first when it keeps the same original-NS pointwise participation
+      residue lands Part-side when it keeps the same original-NS pointwise participation
       record, and true not Pack_Q only when that record is absent; LPSC/PRD/Zeno rigid-class
       language is downstream no-pulse/source-control support outside this CM endpoint.
   - target_id: sourcepulse-terminal-zeno-operational-collapse
