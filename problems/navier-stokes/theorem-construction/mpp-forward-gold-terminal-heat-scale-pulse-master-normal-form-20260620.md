@@ -49,6 +49,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-atom-not-high-rung-only-after-threshold-split-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tensor-action-branch-square-reserve-readout-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tensor-square-to-critical-l5-readout-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-tensor-l5-branch-to-retained-field-subcase-20260621.md
 ---
 
 # MPP Forward-Gold Terminal Heat-Scale Pulse Master Normal Form
@@ -488,6 +489,8 @@ status:
 \text{nonzero }L_s^1L_x^2\text{ tensor action forces }\theta^{-1}\text{ tensor-square/}L^4\text{ readout}\\
 \text{tensor-square to critical }L^5 &
 \text{finite-measure Holder promotes tensor-square readout to scale-invariant Serrin-critical }L^5\text{ bill}\\
+\text{tensor }L^5\text{ retained Field subcase} &
+\text{after same-witness Pack+Part, finite same-packet }L^5\text{ Field coherence is contradicted}\\
 \text{same-carrier }p>1\text{ / Orlicz} &
 \text{consumer of tail UI; production absent}\\
 \text{source-square / Carleson} &
