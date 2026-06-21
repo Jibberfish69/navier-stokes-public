@@ -366,7 +366,7 @@ chunk:
 
       The endpoint alternatives name the four ways the retained terminal tail can
       fail.  `Dead' is participation failure.  `Packing-detached' is loss of the
-      retained Pack carrier.  `Tower-blown' is loss of the finite tower bound.
+      retained Field-window evidence carrier.  `Tower-blown' is loss of the finite tower bound.
       `Jump' is incompatible surviving trace data.  The source files supply the
       grammar and the persistence theorem under finite records.  The direct PDE
       propagation theorem from original smooth data to the terminal endpoint remains
@@ -764,7 +764,7 @@ chunk:
 
     The endpoint alternatives name the four ways the retained terminal tail can
     fail.  `Dead' is participation failure.  `Packing-detached' is loss of the
-    retained Pack carrier.  `Tower-blown' is loss of the finite tower bound.
+    retained Field-window evidence carrier.  `Tower-blown' is loss of the finite tower bound.
     `Jump' is incompatible surviving trace data.  The source files supply the
     grammar and the persistence theorem under finite records.  The direct PDE
     propagation theorem from original smooth data to the terminal endpoint remains
@@ -856,7 +856,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
