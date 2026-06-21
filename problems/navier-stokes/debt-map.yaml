@@ -54,7 +54,7 @@ debt_items:
   recommended_stage: none-current
   rationale: 'Resolved by finite-obstruction inventory reconciliation: the old generic
     demand to prove Exit(Q) inadmissible is not the live target; current closure uses
-    CM-test entry plus first Part/Field Part/Field failure for each promoted finite
+    CM-test entry plus first Part/Field failure for each promoted finite
     terminal obstruction row, with pass branch landing in Member(Q).'
   priority_rank: 2
 - debt_id: debt-theorem-upgrade-2-codex-gap-attack-log-contract-readiness-after-manuscript-expansion-after-the-bridge-is-proved-or-the-conclusion-is-otherwise-closed-rerun-the-contract-check-and-update-provenance-with-the-contract-result
@@ -69,7 +69,7 @@ debt_items:
   recommended_stage: none-current
   rationale: 'Resolved by finite-obstruction inventory reconciliation: the old generic
     demand to prove Exit(Q) inadmissible is not the live target; current closure uses
-    CM-test entry plus first Part/Field Part/Field failure for each promoted finite
+    CM-test entry plus first Part/Field failure for each promoted finite
     terminal obstruction row, with pass branch landing in Member(Q).'
   priority_rank: 3
 - debt_id: debt-theorem-upgrade-3-codex-pdf-provenance-clay-readiness-not-claimed-replace-the-conditional-provenance-with-a-proved-clay-closing-bridge-before-submission-readiness
@@ -84,7 +84,7 @@ debt_items:
   recommended_stage: none-current
   rationale: 'Resolved by finite-obstruction inventory reconciliation: the old generic
     demand to prove Exit(Q) inadmissible is not the live target; current closure uses
-    CM-test entry plus first Part/Field Part/Field failure for each promoted finite
+    CM-test entry plus first Part/Field failure for each promoted finite
     terminal obstruction row, with pass branch landing in Member(Q).'
   priority_rank: 4
 - debt_id: debt-theorem-upgrade-4-clay-counterexample-gap-audit-finite-breakdown-exclusion-open-prove-the-clay-closing-bridge-or-replace-the-closing-argument-with-a-noncircular-finite-breakdown-exclusion
@@ -99,7 +99,7 @@ debt_items:
   recommended_stage: none-current
   rationale: 'Resolved by finite-obstruction inventory reconciliation: the old generic
     demand to prove Exit(Q) inadmissible is not the live target; current closure uses
-    CM-test entry plus first Part/Field Part/Field failure for each promoted finite
+    CM-test entry plus first Part/Field failure for each promoted finite
     terminal obstruction row, with pass branch landing in Member(Q).'
   priority_rank: 5
 summary:

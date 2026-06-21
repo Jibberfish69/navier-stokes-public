@@ -27,7 +27,7 @@ scope:
   certificate_direction: For an already original-NS participating same-fluid candidate,
     CM_{N,r,Q}:=Part_{N,Q}+Field_{N,r,Q} certifies Member(Q);
     Part itself is the original participation ontology, and Part_{N,Q} is only
-    the finite packet-local Silver record.
+    the finite field-local Silver record.
 surface_audit:
   - path: problems/navier-stokes/route-lock.yaml
     role: governance

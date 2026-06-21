@@ -102,7 +102,7 @@ switch_verdicts:
     Five branch families are certified Part/Field failures. Remaining branch-family
     rows are support, diagnostics, transfer/comparison, or optional positive
     supplier work unless they prove same-atlas CM-test admission plus first
-    Part/Field Part/Field failure.
+    Part/Field failure.
 - id: source_reserve_active_height_signed_pair_family
   classification: support_or_optional_positive_work
   evidence:
