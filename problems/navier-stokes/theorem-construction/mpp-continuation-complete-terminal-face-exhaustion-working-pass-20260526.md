@@ -128,7 +128,7 @@ Pack_Q and Part_{N_s,Q} and for all r>0 not Field_{N_s,r,Q}.
 This is the Field face.
 
 These three cases exhaust the continuation-complete packet because Pack, Part,
-and Field are the three primitive services in the installed CM witness grammar.
+and Field are the three witness-face records in the installed CM witness grammar.
 Readout is the bridge from the complete packet to classical continuation, not a
 fourth face.
 

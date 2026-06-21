@@ -32,7 +32,7 @@ The May 26 PDF crank raises three authorial gaps:
 
 1. scope boundary between the active periodic `T^3` statement and a separate whole-space `R^3` export theorem;
 2. front-loading the CM mechanism for the reader;
-3. signposting support/quarantine material as non-authority unless it has same-atlas Pack/Part/Field certification.
+3. signposting support/quarantine material as non-authority unless it has same-atlas Pack/Part/Field witness-face record.
 
 None of those gaps is a new positive-smoothness target. None supplies a legal in-class nonsmooth third branch. None defeats terminal CM entry, finite-failure exhaustion, or CM contrapositive embedding. They are manuscript and scope-custody obligations around an installed torus-first CM proof chain.
 

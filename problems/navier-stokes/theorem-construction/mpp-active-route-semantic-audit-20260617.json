@@ -121,7 +121,7 @@
     {
       "path": "problems/navier-stokes/theorem-construction/mpp-generic-pack-part-face-exclusion-blocker-demotion-20260607.md",
       "issue": "legacy blocker-demotion wording could make generic Pack/Part no-face-exclusion look like completion by downgrade",
-      "replacement": "the note now states installed target repair: the proof gate is row-level same-witness CM entry and Pack/Part/Field certification, with non-proof rows classified as support",
+      "replacement": "the note now states installed target repair: the proof gate is row-level same-witness CM entry and Pack/Part/Field witness-face record, with non-proof rows classified as support",
       "downstream_consequence": "the current CM theorem state remains governed by finite-obstruction inventory coverage, not by generic Pack/Part face-exclusion"
     },
     {
@@ -266,12 +266,12 @@
       "path": "problems/navier-stokes/ns-completion-route-sync-payload-*.yaml",
       "issue": "dated top-level route-sync payloads are imported by viewer, executor, and submission sync paths but still encoded resolution by support downgrading, source-wall downgrade wording, generic Pack/Part downgrade wording, and H^s shorthand",
       "replacement": "payloads now use no-proof-authority classification, wrong-target/no-proof-force language for generic Pack/Part face-exclusion, source-frontier classification with no proof authority, and the classical H^s local well-posedness relaunch criterion with lifespan depending only on the H^s bound",
-      "downstream_consequence": "route-sync consumers cannot read demotion or standard-continuation shorthand as proof payment; imported route status requires same-witness CM admission plus Pack/Part/Field certification or a proved local relaunch input"
+      "downstream_consequence": "route-sync consumers cannot read demotion or standard-continuation shorthand as proof payment; imported route status requires same-witness CM admission plus Pack/Part/Field witness-face record or a proved local relaunch input"
     },
     {
       "path": "problems/navier-stokes/assumption-audit.yaml; problems/navier-stokes/dependency-audit.yaml; problems/navier-stokes/consistency-audit.yaml; problems/navier-stokes/circularity-audit.yaml; problems/navier-stokes/gap-audit.yaml; problems/navier-stokes/cm-contrapositive-referee-audit.yaml; problems/navier-stokes/d8-completion-route-map.yaml; problems/navier-stokes/live-theorem-edge.yaml; problems/navier-stokes/source-frontier.yaml; problems/navier-stokes/submission-bundle/source-frontier.yaml; problems/navier-stokes/submission-bundle/current-material-coverage.yaml; problems/navier-stokes/spine.md; problems/navier-stokes/promotion-blocker-burndown.md",
       "issue": "active audit/frontier/support summaries still let demotion, generated overlay suppression, or standard-entry language sound like mathematical repair",
-      "replacement": "summaries now use non-authoritative/no-proof-force/support-only language tied to same-witness CM admission and Pack/Part/Field certification; source-gap demoted schema rows carry proof_force: none where retained for compatibility",
+      "replacement": "summaries now use non-authoritative/no-proof-force/support-only language tied to same-witness CM admission and Pack/Part/Field witness-face record; source-gap demoted schema rows carry proof_force: none where retained for compatibility",
       "downstream_consequence": "decision surfaces separate active proof force from support classification and preserved schema/source-ID residue"
     },
     {

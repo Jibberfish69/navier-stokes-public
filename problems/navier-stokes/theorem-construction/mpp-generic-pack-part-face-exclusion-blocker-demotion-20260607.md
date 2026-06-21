@@ -4,9 +4,9 @@ ns_viewer:
   status: installed-target-repair
   proof_role: target_repair
   logical_landing_node: cm_class_membership_program_attempts
-  edge_effect: "Replaces generic Pack/Part no-face-exclusion with row-level same-witness CM entry and Pack/Part/Field certification as the current proof gate."
+  edge_effect: "Replaces generic Pack/Part no-face-exclusion with row-level same-witness CM entry and Pack/Part/Field witness-face record as the current proof gate."
   upstream_origin: "June 3 counterexample-exclusion target correction plus June 7 Pack/Part working passes."
-  downstream_consequence: "The current route remains on row-level same-witness CM entry and Pack/Part/Field certification, with no generic Pack/Part global blocker open."
+  downstream_consequence: "The current route remains on row-level same-witness CM entry and Pack/Part/Field witness-face record, with no generic Pack/Part global blocker open."
 ---
 
 # MPP Generic Pack/Part Face-Exclusion Blocker Target Repair
