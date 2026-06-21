@@ -4,7 +4,7 @@ ns_viewer:
   status: superseded-wrong-silver-target-positive-supplier-context
   proof_role: positive_supplier_bridge_attempt
   logical_landing_node: gold_positive_first_pack_survival_context
-  edge_effect: "Tests whether the Pack/tower branch split and retained CM tower-bound bridge prove ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A. They do not. The tower-bound bridge consumes tower-blown only on the retained Pack+Part+Field branch. A first Pack failure is not retained, so the retained tower bridge does not exclude it. The 2026-06-19 Silver correction supersedes the public-finality reading: after same-solution CM-test entry, a concrete Part/Field Part/Field failure is the Silver contrapositive witness, not a branch that must be deleted by NoGenuineExitFromSmoothData.A. OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A remains Gold/positive supplier or manuscript support unless a fresh surface names a concrete unconsumed Silver row."
+  edge_effect: "Tests whether the Pack/tower branch split and retained CM tower-bound bridge prove ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A. They do not. The tower-bound bridge consumes tower-blown only on the retained Pack+Part+Field branch. A first Pack failure is not retained, so the retained tower bridge does not exclude it. The 2026-06-19 Silver correction supersedes the public-finality reading: after same-solution CM-test entry, a concrete Part/Field failure is the Silver contrapositive witness, not a branch that must be deleted by NoGenuineExitFromSmoothData.A. OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A remains Gold/positive supplier or manuscript support unless a fresh surface names a concrete unconsumed Silver row."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-retained-cm-towerbound-bridge-proof-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-pack-ttu-supremal-strain-tower-dichotomy-proof-20260609.md
@@ -42,7 +42,7 @@ It is not a remaining finite-breakdown branch that must be separately deleted by
 The theorem atoms named below remain meaningful only in the Gold/positive
 supplier context, or in manuscript support, unless a future surface names a
 concrete promoted finite-breakdown row that enters the CM test and still neither
-continues, reads out, nor lands in a real Part/Field Part/Field failure.
+continues, reads out, nor lands in a real Part/Field failure.
 
 ## Target
 
@@ -169,7 +169,7 @@ proved by the Pack/tower branch results.
 
 It is also not a Silver blocker after the 2026-06-19 correction. For Silver, a
 same-solution terminal object that enters the CM test and lands in a concrete
-Part/Field Part/Field failure has been consumed as the contrapositive witness.
+Part/Field failure has been consumed as the contrapositive witness.
 
 The new branch results remain real progress:
 

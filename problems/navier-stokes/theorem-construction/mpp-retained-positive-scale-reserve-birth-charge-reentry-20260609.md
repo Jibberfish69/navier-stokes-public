@@ -7,7 +7,7 @@ does not close public Clay finality. Under the Field-certification CM contraposi
 audit, the terminal zero-thickness `B_ASAC` residue lands Part-side when the same original-NS record remains and true `not Pack_Q` only when that record is absent;
 the retained positive-scale reserve branch below is proof-force only after a
 same-ledger payment theorem is proved or after an admitted CM-test witness has
-a first Part/Field Part/Field failure.
+a first Part/Field failure.
 
 ## Parent target
 

@@ -8,7 +8,7 @@ theorem stack.
 This pass tests the remaining non-generic route after Volterra stress
 decorrelation failed: a genuine Navier-Stokes mechanism that prevents coherent
 positive stress packets from realizing the sharp Hardy worst case, or turns
-that coherence into a paid dissipation event or a Part/Field Part/Field failure.
+that coherence into a paid dissipation event or a Part/Field failure.
 
 ## Target
 
@@ -62,7 +62,7 @@ The CM engine gives the right branch law:
 
 ```text
 pass branch => retained service => Member(Q);
-fail branch => same-solution terminal obstruction => first Part/Field Part/Field failure.
+fail branch => same-solution terminal obstruction => first Part/Field failure.
 ```
 
 But the fail branch must actually enter the CM terminal test.

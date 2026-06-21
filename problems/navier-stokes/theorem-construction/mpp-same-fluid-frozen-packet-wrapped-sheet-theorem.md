@@ -280,7 +280,7 @@ frozen-feeling sheet has exactly two legal statuses:
 \boxed{
 \text{same-fluid constrained participation}
 \quad\text{or}\quad
-\text{Part/Field Part/Field failure.}
+\text{Part/Field failure.}
 }
 \tag{FSW.10}
 ```
@@ -382,7 +382,7 @@ In `R^3`, the ice-sheet question splits into exactly these legal cases:
 \boxed{
 \text{claimed autonomous moving wall}
 \Rightarrow
-\text{whole-space admissibility failure or Part/Field Part/Field failure.}
+\text{whole-space admissibility failure or Part/Field failure.}
 }
 \tag{FSW.16}
 ```

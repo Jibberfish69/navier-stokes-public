@@ -176,7 +176,7 @@ stress worst case, for example:
 1. coherent co-located positive stress packets across the Volterra range force
    a local dissipation payment at barrier scale;
 2. the same coherence forces a source/drain imbalance that lands in a concrete
-   Part/Field Part/Field failure;
+   Part/Field failure;
 3. the active strain direction prevents sustained alignment of
    `\widetilde\Sigma_r` with the accumulated stress envelope before Cauchy;
 4. or the mechanism proves `(LPAS)` directly.

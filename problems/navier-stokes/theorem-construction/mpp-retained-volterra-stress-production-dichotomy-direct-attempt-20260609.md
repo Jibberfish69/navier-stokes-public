@@ -26,7 +26,7 @@ heat-scale windows, prove one of:
 2. payment by an installed legal, projected, cutoff, pressure, donor, or
    earlier-slice ledger;
 3. terminal CKN/dissipation modulus killing the packet;
-4. concrete Part/Field Part/Field failure;
+4. concrete Part/Field failure;
 5. direct `(LPAS)`.
 
 ## Weak Duhamel split

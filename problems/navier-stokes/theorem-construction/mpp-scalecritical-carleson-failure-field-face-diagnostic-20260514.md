@@ -6,7 +6,7 @@ Installed as a selection-aware CM failure-face theorem.
 
 This note proves the sharper use of `ScaleCriticalTreeCarleson.A`: on the
 selected CM source-wall branch, its failure is not first treated as a missing
-positive estimate. It is sorted through the witnesss.
+positive estimate. It is sorted through the witnesses.
 
 The installed CM-facing conclusion is:
 

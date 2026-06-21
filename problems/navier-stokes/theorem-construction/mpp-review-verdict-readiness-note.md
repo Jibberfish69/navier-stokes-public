@@ -34,7 +34,7 @@ Expanded:
 2. `OriginalSmoothData=>SourcePulseExclusion.A`: the active branch-native
    source-pulse primitive, equivalently elimination of the singular native
    positive active source measure, but only as branch support until bridged into
-   the Pack / Part / Field witnesss.
+   the Pack / Part / Field witnesses.
 3. `NativeTrilinearDefectDomination.A / mu_*^sing=0`: the current narrow
    measure/PDE form of the same obstruction.
 4. `terminal-tail bridge composition`: the route formula

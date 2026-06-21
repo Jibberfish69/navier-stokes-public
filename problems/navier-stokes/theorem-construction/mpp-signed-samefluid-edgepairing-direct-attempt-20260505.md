@@ -24,7 +24,7 @@ Exactness rework correction, 2026-06-18: this failed attempt is a signed
 same-fluid obstruction calculation.  It may not be used to reset the current
 live target to the old scalar source wall.  Current proof use requires
 same-ledger payment, terminal signed saturation, or CM-test admission plus first
-Part/Field Part/Field failure on the same witness.
+Part/Field failure on the same witness.
 
 ## Intended Theorem
 
