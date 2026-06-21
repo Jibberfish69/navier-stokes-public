@@ -4,13 +4,13 @@ ns_viewer:
   status: two-stage-split-installed-language-repaired-first-stage-kept-primary
   proof_role: forward_gold_participation_split_direct_test
   logical_landing_node: rescaled_annular_feed_two_stage_split
-  edge_effect: "Separates Thomas's direct participation objection from the later visibility question. Stage 1 asks whether a normalized bad interior pulse can keep being fed through shrinking heat-scale annuli by the same rescaled pressure-viscosity-incompressibility law forever. Stage 2 is only the fallback: if such feeding is dynamically possible, some annular term in the same local balance must stay nonzero at the right scale. Current installed inputs do not prove Stage 1; they require an additional theorem saying the repeated rescaled feed must stop, freeze into a forbidden profile, or lose the same-law structure. Stage 2 returns to the known square/Carleson/no-waste visibility wall."
+  edge_effect: "Separates Thomas's direct participation objection from the later annular-term question. Stage 1 asks whether a normalized bad interior pulse can keep being fed through shrinking heat-scale annuli by the same rescaled pressure-viscosity-incompressibility law forever. Stage 2 is only the fallback: if such feeding is dynamically possible, some annular term in the same local balance must stay nonzero at the right scale. Current installed inputs do not prove Stage 1; they require an additional theorem saying the repeated rescaled feed must stop, freeze into a forbidden profile, or lose the same-law structure. Stage 2 asks for same-scale nonvanishing of one annular balance term, not for a separate readout object."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-shared-participation-heat-scale-direct-test-20260619.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-coherent-participation-square-reserve-direct-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-pressure-flux-throttle-direct-test-20260620.md
     - problems/navier-stokes/source-frontier.yaml
-  downstream_consequence: "Do not fold the direct no-infinite-feed question into underpayment language. The direct theorem is RescaledSameLawNoInfiniteFeed.A. Only after that theorem fails should the fallback ask whether some annular term in the same local balance must stay nonzero at the right scale."
+  downstream_consequence: "Do not fold the direct no-infinite-feed question into underpayment or readout language. The direct theorem is RescaledSameLawNoInfiniteFeed.A. Only after that theorem fails should the fallback ask whether some annular term in the same local balance must stay nonzero at the right scale."
 ---
 
 # MPP Forward-Gold Rescaled Annular Feed Two-Stage Split
@@ -29,7 +29,7 @@ This note records and tests the sharper split:
    right scale.
 
 The second item is not part of the first theorem's premise. It is a fallback
-visibility question after the direct coupled-law obstruction has been tested.
+annular-term question after the direct coupled-law obstruction has been tested.
 
 ## 1. Heat-scale rescaled law
 
@@ -138,7 +138,7 @@ interior pulse, and is refilled through the fixed annular interface forever.}
 
 This is the strongest version of the participation-law idea. It says the
 coupled law itself prevents the infinite rescaled feed before any later
-visibility question is invoked.
+annular-term question is invoked.
 
 ## 4. Direct test of Stage 1
 
@@ -219,50 +219,35 @@ the right scale.}
 \tag{RAF.12}
 \]
 
-This is where "underpaying" belongs, if that language is used at all. It is not
-the premise of Stage 1. It is only the forbidden invisibility claim for Stage 2:
+This is not a new object. It is just the local balance again. If every annular
+term goes to zero at the normalized scale, then there is no feed left to keep
+the interior pulse alive.
 
 \[
 \text{persistent rescaled annular feed}
 \quad\text{and}\quad
-\text{all selected annular balance terms vanish at the normalized scale}
+\text{all annular balance terms vanish at the normalized scale}
 \tag{RAF.13}
 \]
 
 should be impossible.
 
-The technical version is a common-kernel statement. Let \(\Gamma\) denote the
-combined same-gauge map containing selected source trace, pressure conormal
-trace, cutoff/collar flux, viscous shell exchange, dissipation trace, stress
-flux, endpoint mismatch, and legal-spill trace. The fallback theorem asks for
+In terms of `(RAF.5)`, the fallback asks for a scale-independent lower bound on
+at least one of the actual annular terms:
 
 \[
-\ker \Gamma=\{0\}
+\frac12\int |v_j|^2v_j\cdot\nabla\rho\,dy,
+\qquad
+\int q_jv_j\cdot\nabla\rho\,dy,
+\qquad
+\frac{\nu}{2}\int |v_j|^2\Delta\rho\,dy,
 \tag{RAF.14}
 \]
 
-on the quotient tangent space of the selected terminal packet, with a uniform
-lower bound
+or on the corresponding dilation terms in the logarithmic heat-scale form.
 
-\[
-\|\Gamma a\|_{\mathcal Y}\ge c\|a\|_{\mathcal X}.
-\tag{RAF.15}
-\]
-
-That is the technical form of "some annular term must stay nonzero." It needs
-the square/Carleson/no-waste strength already isolated elsewhere:
-
-\[
-\text{SomeAnnularTermStaysNonzeroIfInfiniteFeed.A}
-\Leftarrow
-\text{CompleteAnnularNoEscapeReadout.A}
-+
-\text{StrictRescaledNoWasteLyapunov.A}
-\tag{RAF.16}
-\]
-
-or an equivalent selected source-square / critical-strain / normalized CKN
-Carleson theorem on the same carrier.
+That is the whole second claim. It should not be introduced as a separate
+readout theory at this stage.
 
 ## 6. Relation to the previous heat-scale notes
 
@@ -275,13 +260,13 @@ This note adds one missing ordering distinction:
 \[
 \text{direct no-infinite-feed}
 \quad\text{comes before}\quad
-\text{fallback visibility contradiction}.
-\tag{RAF.17}
+\text{fallback annular-term nonvanishing}.
+\tag{RAF.15}
 \]
 
-So the live proof object is not "find an overpaying ledger." The first question
-is whether the same rescaled pressure-viscosity-incompressibility law can
-support the infinite feed at all.
+So the live proof object is not "find a readout." The first question is whether
+the same rescaled pressure-viscosity-incompressibility law can support the
+infinite feed at all.
 
 ## Verdict
 
@@ -291,7 +276,7 @@ Stage 1 is the stronger direct target:
 
 \[
 \boxed{\text{RescaledSameLawNoInfiniteFeed.A}.}
-\tag{RAF.18}
+\tag{RAF.16}
 \]
 
 It is not proved by the installed local-energy or shared-participation
@@ -302,9 +287,9 @@ Stage 2 is the fallback:
 
 \[
 \boxed{\text{SomeAnnularTermStaysNonzeroIfInfiniteFeed.A}.}
-\tag{RAF.19}
+\tag{RAF.17}
 \]
 
-It is the place where underpayment or readout language belongs, after the direct
-question has failed. It reduces to complete annular no-escape readout plus a
-square/Carleson/no-waste budget on the same selected carrier.
+It is the place where later proof machinery may measure the annular terms, after
+the direct question has failed. The claim itself is only that the terms in the
+same local balance cannot all vanish while they keep feeding the pulse.
