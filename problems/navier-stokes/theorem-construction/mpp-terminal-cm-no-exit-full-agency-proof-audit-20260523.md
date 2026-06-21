@@ -8,7 +8,7 @@ This file is retained as a positive no-exit / packet-survival proof attempt. Cur
 
 `TerminalCMNoExit.A / NoGenuineCMExit.A` asks for original smooth Navier-Stokes data to leave at least one continuation-complete Part/Field packet on every alleged finite terminal tail.
 
-The governing proof program is CM contrapositive class exit. `TerminalSourceResidueCMExit.A` already sorts raw terminal source residue as Pack/Part witness; it is not a forward anti-atom deletion burden.
+The governing proof program is CM contrapositive class exit. `TerminalSourceResidueCMExit.A` already sorts raw terminal source residue as Part/Field witness; it is not a forward anti-atom deletion burden.
 
 ## Method pass
 
@@ -24,7 +24,7 @@ The following inputs are accepted for the CM-facing reduction:
 
 1. `GenuineCMExit.Equiv.A`: finite terminal non-continuation is equivalent to loss of every continuation-complete Part/Field packet.
 2. `CanonicalTerminalPacketCapture.A` and `AnyFiniteFailureWitnessCMExit.A`: terminal failure witnesses are captured by the Field-certification packet tree.
-3. `TerminalSourceResidueCMExit.A`: raw terminal source residue lands in Pack/Part, not in a fourth residue face.
+3. `TerminalSourceResidueCMExit.A`: raw terminal source residue lands in Part/Field, not in a fourth residue face.
 4. `TerminalCMNoExit.FaceReduction.A`: reduces genuine no-exit to the Field-certification face tree, with Pack first, then Part, then licensed Field if Pack and Part survive.
 
 These reductions do not prove `TerminalCMNoExit.A`. They identify the exact places where a proof must prevent total packet loss.
@@ -97,6 +97,6 @@ The obstruction is mathematical, not clerical: installed energy and compactness 
 
 - `TerminalCMNoExit.A / NoGenuineCMExit.A` remains the exact Clay-facing CM target.
 - `TerminalCMNoExit.FaceReduction.A` is a conditional face-reduction support theorem, not closure.
-- `ScaleCriticalTreeCarleson.A` remains the Pack-side CM-facing primitive.
+- `ScaleCriticalTreeCarleson.A` remains the Field-window support CM-facing primitive.
 - `NativeSourceAC.A`, `HeightFluxControl.A`, and `BASACTerminalSourceAntiConcentration.A` remain positive supplier branches unless a separate theorem promotes them through Part/Field.
 - Euler-mirror, readout, endpoint, and public-export material remains quarantined support for this target.

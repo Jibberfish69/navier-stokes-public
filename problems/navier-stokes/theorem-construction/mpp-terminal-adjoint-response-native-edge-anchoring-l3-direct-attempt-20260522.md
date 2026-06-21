@@ -94,9 +94,9 @@ Installed heat/Leray duality supplies the first arrow only as a response-work
 pairing. It does not supply the remaining native-edge anchoring after terminal
 one-sided selection.
 
-If the projected adjoint packet leaves the retained family, that is Pack/Part
+If the projected adjoint packet leaves the retained family, that is Part/Field
 or legal exit. If the lower bound is carried by high-high/donor-square work,
-that is selected Pack-side/source-wall failure. The surviving retained branch
+that is selected Field-window/source-wall failure. The surviving retained branch
 still needs the anchoring theorem below.
 
 ## Sharpened Primitive
@@ -111,7 +111,7 @@ TerminalAdjointResponseNativeEdgeAnchoring_{L3}.A:
 \vee
 \neg_{sel}ScaleCriticalTreeCarleson.A
 \vee
-\text{paid Pack/Part/legal exit.}
+\text{paid Part/legal exit.}
 }
 ```
 
@@ -152,4 +152,4 @@ The first live gate is
 
 It asks for a theorem that the backward heat-Leray response covector is anchored
 to the same retained native high-low source edge, unless the work has already
-left through Pack/Part/legal or selected Pack-side/source-wall failure.
+left through Part/legal or selected Field-window/source-wall failure.

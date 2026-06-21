@@ -10,7 +10,7 @@ Verdict:
 ```math
 \boxed{
 SquareReserveEvolution.A
-\text{ is not proved from the currently installed Pack/Part/source-wall
+\text{ is not proved from the currently installed Part/Field/source-wall
 inputs.}
 }
 ```
@@ -264,7 +264,7 @@ SquareReserveEvolution.A
 LocalPositiveSourceCarleson.A.
 ```
 
-Inside the CM witness program, this would close the retained Pack/Part
+Inside the CM witness program, this would close the retained Part/Field
 Field-face branch:
 
 ```math
@@ -434,7 +434,7 @@ keep the deformation gauge bounded while making
 \int\lambda_{\max}^+S_{\le j-C}(X_P(t),t)dt
 ```
 
-large. Thus retained Pack/Part do not by themselves imply the amplitude cap
+large. Thus retained Part/Field do not by themselves imply the amplitude cap
 needed to reduce cubic source transfer to heat.
 
 The valid conditional retained-face route is:

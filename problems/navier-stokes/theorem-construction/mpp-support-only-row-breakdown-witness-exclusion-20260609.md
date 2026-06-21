@@ -108,14 +108,14 @@ The next honest target is:
 NoProofBearingFirstFaceFailureFromOriginalSmoothData.A
 ```
 
-with the Pack-side child:
+with the Field-window support child:
 
 ```text
 OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A.
 ```
 
 The `B_ASAC` strain-aligned temporal anti-atom remains a conditional child of
-that Pack-side route, not the parent finality theorem.
+that Field-window support route, not the parent finality theorem.
 
 ## New Live Criticism
 

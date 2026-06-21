@@ -149,7 +149,7 @@ The installed terminal strain-alignment face bridge supplies the same
 conclusion for the strain-aligned atom itself: once it is the same terminal
 source-residue event under the CM test, it cannot remain an untyped fourth
 object.  It is either a carrier failure, a participation failure, or a retained
-Pack+Part object with no positive Field scale.
+Part plus Field-window evidence object with no positive Field scale.
 
 ## 5. Consequence
 

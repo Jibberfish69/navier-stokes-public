@@ -159,7 +159,7 @@ Thus a direct Pack proof asks for
 
 or a route-native substitute whose conclusion keeps the carrier scale positive.
 Original smooth data plus the classical energy inequality do not give this. The
-installed Pack-side work instead identifies selected unpaid donor-refill
+installed Field-window support work instead identifies selected unpaid donor-refill
 ancestry as the Pack obstruction:
 
 ```math

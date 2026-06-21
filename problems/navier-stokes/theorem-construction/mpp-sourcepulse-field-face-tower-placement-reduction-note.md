@@ -123,7 +123,7 @@ Therefore the only remaining endpoint manifestation on this retained branch is
 `Jump`.  The installed field-face bridge then gives
 
 ```math
-Pack+Part+\text{Jump}
+Part plus Field-window evidence+\text{Jump}
 \Longrightarrow
 \neg Field.
 ```
@@ -142,7 +142,7 @@ same-family placement theorem:
 SourcePulseTowerPlacement.A:
 \quad
 \text{every terminal source-pulse genuine non-smooth witness which retains }
-Pack+Part
+Part plus Field-window evidence
 \text{ activates } END.TowerAmp \text{ on that same family.}
 }
 \tag{SFTP.4}
@@ -161,7 +161,7 @@ SourcePulseFieldExit.A.
 
 #### Proof
 
-Apply Proposition `SFTP.A` to each retained `Pack+Part` source-pulse family. ∎
+Apply Proposition `SFTP.A` to each retained `Part plus Field-window evidence` source-pulse family. ∎
 
 ## Transported-Center Placement Reduction
 
@@ -181,7 +181,7 @@ END.TowerAmp.
 SourcePulseDTCPlacement.A:
 \quad
 \text{every terminal source-pulse genuine non-smooth witness which retains }
-Pack+Part
+Part plus Field-window evidence
 \text{ admits a finite same-family transported-center cover carrying }
 DTC.A
 \text{ through depth }N+2.
@@ -203,7 +203,7 @@ This bundle has a source-side half and an analytic half.
 SourcePulseDTCCover.A:
 \quad
 \text{every terminal source-pulse genuine non-smooth witness which retains }
-Pack+Part
+Part plus Field-window evidence
 \text{ admits a finite same-family transported-center cover at the radii
 required by }DTC.A.
 }
@@ -272,7 +272,7 @@ OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 The no-pulse theorem removes the whole source-pulse packet absolutely once
 proved. The placement theorem has a narrower conditional consequence: if a
 terminal source-pulse packet is the alleged genuine non-smooth witness and still
-keeps `Pack+Part`, then the mixed `tower-blown` escape must already be owned by
+keeps `Part plus Field-window evidence`, then the mixed `tower-blown` escape must already be owned by
 the same-family transported-center / tower route, so the witness is forced into
 `Jump`, hence `not Field`.
 
@@ -326,7 +326,7 @@ give a shorter closure:
 
 ```math
 \boxed{
-Pack+Part+Field
+Part+Field
 \Longrightarrow
 \neg tower\text{-}blown
 }

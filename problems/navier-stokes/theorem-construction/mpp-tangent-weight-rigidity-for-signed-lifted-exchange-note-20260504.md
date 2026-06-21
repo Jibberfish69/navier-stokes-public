@@ -29,7 +29,7 @@ PCTP.hard/TTU.A.
 ```
 
 The contrapositive proof program still requires the terminal class-exit grammar
-on `Pack+Part+Field`; this note attacks the downstream source-normalization
+on `Part+Field`; this note attacks the downstream source-normalization
 slot used by the averaged `Jump_avg` route.
 
 ## Target Estimate

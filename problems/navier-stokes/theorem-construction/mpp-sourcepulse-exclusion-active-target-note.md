@@ -99,7 +99,7 @@ SourcePulseFieldExit.A.
 
 This is a narrower route-faithful target than the stronger absolute theorem
 `OriginalSmoothData=>SourcePulseExclusion.A`: it only asks that a genuine
-source-pulse witness retaining `Pack+Part` already activate the same-family
+source-pulse witness retaining `Part plus Field-window evidence` already activate the same-family
 transported-center/tower package, which removes the mixed `tower-blown`
 alternative and forces the `Jump` / `not Field` exit.
 
@@ -116,7 +116,7 @@ SourcePulseFieldExit.A.
 ```
 
 So the current faithful same-family source-level burden is transported-center
-placement of the retained `Pack+Part` source-pulse family into the installed
+placement of the retained `Part plus Field-window evidence` source-pulse family into the installed
 `DTC.A => END.TowerAmp` spine.  That placement target is itself split into the
 source-side cover theorem
 
@@ -138,7 +138,7 @@ tower-readout shortcut recorded in
 [mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md):
 
 ```math
-Pack+Part+Field
+Part+Field
 \Longrightarrow
 \neg tower\text{-}blown.
 ```
