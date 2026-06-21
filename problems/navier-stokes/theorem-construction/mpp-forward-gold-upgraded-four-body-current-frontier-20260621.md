@@ -17,6 +17,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-bodyiii-retained-participation-packet-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-bodyiv-canonical-geometry-packet-interface-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-bodyi-geometry-tower-recertification-interface-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-lossless-four-body-cycle-rigidity-viscous-core-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -732,3 +733,12 @@ tower only through a uniformly elliptic variable-coefficient material tower
 whose coefficient commutator packet is retained, absorbed, or charged.  Geometry
 does not recertify scale by name; it recertifies scale by producing the next
 same-carrier Body-I tower packet.
+
+The lossless rigidity branch has also been sharpened.  Once the same-carrier
+normalized viscous/parabolic drain is genuinely included in the full-cycle loss,
+zero loss forces the normalized packet into a spatially constant
+Galilean/affine-pressure gauge class.  Since the selected activity is supposed
+to measure singular participation rather than raw drift, it vanishes on that
+class.  Therefore a nonzero lossless cycle can survive only by failing the
+same-carrier drain-production step or by producing one of the named selector,
+compactness, pressure/gauge, geometry, commutator, transport, or legal defects.
