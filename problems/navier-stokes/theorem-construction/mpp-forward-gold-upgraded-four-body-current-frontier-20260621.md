@@ -1537,8 +1537,7 @@ critical-density reserve;}
 
 ```math
 \boxed{
-\text{production of }dN_{\rm miss}=0
-\text{ or a legal/charged polar defect;}
+\text{charge or exclusion of the terminal Zeno donor chain inherited from }dN_{\rm miss};
 }
 \tag{4BF.63}
 ```
