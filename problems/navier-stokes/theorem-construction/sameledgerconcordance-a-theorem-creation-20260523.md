@@ -4,12 +4,12 @@
 
 - target obligation: terminalcmnoexit-a-nogenuinecmexit-a
 - target label: TerminalCMNoExit.A / NoGenuineCMExit.A
-- route role: Put localized Pack, Part, and Field certificates onto one retained same-fluid terminal witness ledger before CM.CrossFaceSynthesis.A consumes them.
+- route role: Put localized Part and Field certificates onto one retained same-fluid terminal witness ledger before CM.CrossFaceSynthesis.A consumes them.
 - theorem family: same-ledger-cm-bridge
 
 ## Created Theorem
 
-SameLedgerConcordance.A. If localized Pack, Part, and Field support share the same carrier class, Q, depth, compatible terminal-window lineage, FaceRestrictionHeredity.A, and a positive Field synchronization scale, then they restrict to one retained same-fluid witness ledger on which Pack_Q, Part_{N,Q}, and Field_{N,r,Q} hold together.
+SameLedgerConcordance.A. If localized Part and Field support share the same carrier class, Q, depth, compatible terminal-window lineage, FaceRestrictionHeredity.A, and a positive Field synchronization scale, then they restrict to one retained same-fluid witness ledger on which Part_{N,Q} and Field_{N,r,Q}; Pack_Q only as Field window evidence hold together.
 
 ## Inventive Search
 
@@ -19,7 +19,7 @@ SameLedgerConcordance.A. If localized Pack, Part, and Field support share the sa
 - selected_mechanism: same_ledger_restriction_and_positive_scale_synchronization
 - candidate_count: 1
 - solver_chain_verdict: closed
-- selection_reason: This theorem repairs the generated-surface gap where Pack, Part, and Field were listed as separate localized supports before being synchronized onto one retained CM witness ledger. It is a conditional bridge into CM.CrossFaceSynthesis.A, not a proof of TerminalCMNoExit.A / NoGenuineCMExit.A.
+- selection_reason: This theorem repairs the generated-surface gap where Part and Field were listed as separate localized supports before being synchronized onto one retained CM witness ledger. It is a conditional bridge into CM.CrossFaceSynthesis.A, not a proof of TerminalCMNoExit.A / NoGenuineCMExit.A.
 
 ### Candidate Theorems
 
@@ -57,16 +57,16 @@ SameLedgerConcordance.A. If localized Pack, Part, and Field support share the sa
 - full-MPP closure
 - submission readiness
 - global smoothness
-- supplier-only source-wall aliases as Pack/Part/Field landings
+- supplier-only source-wall aliases as Part/Field landings
 
 ## Proof Attempt
 
-1. Start with localized Pack, Part, and Field certificates on compatible same-fluid terminal ledgers for the same solution, Q, and depth N.
+1. Start with localized Part and Field certificates on compatible same-fluid terminal ledgers for the same solution, Q, and depth N.
 2. Choose a common still-live terminal subwindow in the overlap of the three terminal windows.
 3. Apply FaceRestrictionHeredity.A to restrict Pack and Part to that common subwindow.
 4. Restrict the Field row to the same subwindow and use PositiveFieldScaleUnderSynchronization.A to retain a positive scale r > 0.
 5. Form the common retained witness ledger from the restricted carrier family, common subwindow, Q, N, and r.
-6. Read the restricted certificates as Pack_Q, Part_{N,Q}, and Field_{N,r,Q} on that one ledger.
+6. Read the restricted certificates as Part_{N,Q} and Field_{N,r,Q}; Pack_Q only as Field window evidence on that one ledger.
 7. Hand the synchronized triple to CM.CrossFaceSynthesis.A.
 
 ## Circularity Audit

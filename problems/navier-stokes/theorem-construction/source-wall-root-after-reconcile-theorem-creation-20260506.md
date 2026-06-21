@@ -21,10 +21,10 @@ source.wall.root.after.reconcile. Under the installed hypotheses recorded in the
 - Define or prove: Completed the Hopf/shuffle line as a theorem-program refinement. The correct algebraic fit for the time tower is the divided-power Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
 - Define or prove: Formalized the refined direct Lagrangian route as a six-lemma mainline: differentiated Lagrangian decomposition, deformation-adapted energy, ellipticity window, coefficient-commutator absorption, no-loss pressure recovery, 
 - Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md with a geometry-testing ladder for the elliptic test field W_test = A^T grad Phi solving -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1) ene
-- Pack landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Pack/Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
-- Part landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Pack/Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
-- Field landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Pack/Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
-- Member-direction audit for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Pack/Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
+- Pack landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
+- Part landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
+- Field landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
+- Member-direction audit for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
 
 ## Forbidden Imports
 

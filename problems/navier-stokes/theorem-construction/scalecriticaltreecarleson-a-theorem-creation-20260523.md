@@ -44,7 +44,7 @@ ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail, and wi
 - depth 3: LowStrainBVCharge.A via low_strain_bv_to_near_band_and_frame_bv -> NearBandBVToBurstOrSource.A+FrameBVCharge.A
 - depth 4: NearBandBVToBurstOrSource.A+FrameBVCharge.A via near_band_bv_to_material_source_plus_frame -> NearBandMaterialSourceCharge.A+FrameBVCharge.A
 - depth 5: NearBandMaterialSourceCharge.A+FrameBVCharge.A via near_band_material_frame_to_terminal_signed_saturation -> TerminalSignedSaturation.A
-- depth 6: TerminalSignedSaturationCMFaceReduction.A via terminal_signed_saturation_cm_face_reduction -> closed
+- depth 6: TerminalSignedSaturationCMFaceReduction.A via terminal_signed_saturation_cm_part_field_question_reduction -> closed
 
 ## Allowed Inputs
 
@@ -55,9 +55,9 @@ ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail, and wi
 - AdjointReserveNoFreeCreation.A
 - WindowwiseReserveCarleson.A
 - HeightFluxControl.A. Turn the remaining positive source-reserve birth charge into the first proof-facing sampling theorem: a first large retained height-flux event must create Pack gain, Part/dwell failure, legal Field source charge, or a Zeno terminal residue atom. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive HeightFluxControl.A exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
-- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for original participation law status, giving not Part_{N,Q} when same-solution participation remains and true not Pack_Q only when the participation record is absent. This is a CM face-reduction theorem, not a forward no-free-sink supplier discharge.
+- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for original participation law status, giving not Part_{N,Q} when same-solution participation remains and true not Pack_Q only when the participation record is absent. This is a CM Part/Field-reduction theorem, not a forward no-free-sink supplier discharge.
 - Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-before-Part audit.
+- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-out-of-CM audit.
 - ParentSquareEmbed.A
 - WeightedAdjRes.A
 - terminal heat-window decomposition
@@ -80,7 +80,7 @@ ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail, and wi
 3. Use ChargeLedgerInjection.A, PastWindowReserveSeparation.A, and AdjointReserveNoFreeCreation.A to price inherited and ledger-visible contributions.
 4. Reduce the remaining positive source-reserve birth/height-flux contribution to a sharpened core subprimitive before any Pack_Q Carleson landing is promoted.
 5. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
-6. Recursive solver step for HeightFluxControl.A: Work inside the retained CM witness-face packet and keep the claim supplier-quarantined until Pack/Part/Field landing is separately certified.
+6. Recursive solver step for HeightFluxControl.A: Work inside the retained CM witness packet and keep the claim supplier-quarantined until Part/Field landing is separately certified.
 7. Recursive solver step for HeightFluxControl.A: Localize the first positive height-flux pulse to a heat-dwell window on the same terminal ledger.
 8. Recursive solver step for HeightFluxControl.A: Split the sampled pulse into Pack gain, Part/dwell failure, legal Field source charge, or Zeno terminal residue atom.
 9. Recursive solver step for HeightFluxControl.A: Reduce non-tautological HeightFluxControl.A to the heat-dwell sampling theorem instead of spending scalar damping or generic reserve bookkeeping.
@@ -101,15 +101,15 @@ ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail, and wi
 24. Recursive solver step for NearBandBVToBurstOrSource.A+FrameBVCharge.A: Reduce the unabsorbed source/frame remainder to NearBandMaterialSourceCharge.A plus FrameBVCharge.A.
 25. Recursive solver step for NearBandBVToBurstOrSource.A+FrameBVCharge.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 26. Recursive solver step for NearBandMaterialSourceCharge.A+FrameBVCharge.A: Keep the near-band source term and frame rotation on the same retained packet.
-27. Recursive solver step for NearBandMaterialSourceCharge.A+FrameBVCharge.A: Use the installed parent-drain/ASAC support only as support, not as a CM face promotion.
+27. Recursive solver step for NearBandMaterialSourceCharge.A+FrameBVCharge.A: Use the installed parent-drain/ASAC support only as support, not as a CM Part/Field promotion.
 28. Recursive solver step for NearBandMaterialSourceCharge.A+FrameBVCharge.A: Route the common signed positive-source balance to TerminalSignedSaturation.A.
 29. Recursive solver step for NearBandMaterialSourceCharge.A+FrameBVCharge.A: Do not reopen generic pressure/material-source bounds; the source audit marks those circular.
 30. Recursive solver step for NearBandMaterialSourceCharge.A+FrameBVCharge.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 31. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Partition selected terminal source-current edges into retained signed partners, legal exits, finite donor sinks, and terminal Zeno refill.
 32. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Pay retained partners by ASAC pair-weight charge, legal exits by declared ledgers, and finite donor sinks by LocalDonorBalance.A plus EntranceLeafDecay.A.
 33. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Route the only unpaid terminal Zeno refill to the produced B_ASAC terminal residue class.
-34. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Apply the terminal Zeno Pack-before-Part correction: a zero-radius terminal source residue lands Part-side when same-solution original participation remains and true not Pack_Q only when that record is absent.
-35. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Use BASACTerminalAtomCMFaceLabeling.A to record any incoming flux, CM envelope blowout, or paid exit as Pack/Part/Field witness-face exit.
+34. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Apply the terminal Zeno Pack-out-of-CM correction: a zero-radius terminal source residue lands Part-side when same-solution original participation remains and true not Pack_Q only when that record is absent.
+35. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Use BASACTerminalAtomCMFaceLabeling.A to record any incoming flux, CM envelope blowout, or paid exit as Part/Field witness exit.
 36. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
 ## Circularity Audit
