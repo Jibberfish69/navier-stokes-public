@@ -261,7 +261,7 @@ and, distributionally,
 ```math
 (\partial_s+V\cdot\nabla-\nu\Delta)\nabla V
 +(\nabla V)^2+
-abla^2Q=0.
+\nabla^2Q=0.
 ```
 
 Moreover the Body-IV readouts have no hidden compactness loss:
@@ -292,7 +292,7 @@ Apply a spatial derivative to the limit equation. The gradient equation follows 
 ```math
 (\partial_s+V\cdot\nabla-\nu\Delta)\nabla V
 +(\nabla V)^2+
-abla^2Q=0.
+\nabla^2Q=0.
 ```
 
 The Body-IV readouts are algebraic or first-order functions of `\nabla V`. Strong `L^2` convergence of gradients gives convergence of strain, vorticity, and selected frame/gradient stores. Any missing strong-gradient convergence is exactly the viscous defect already charged in Body II.
