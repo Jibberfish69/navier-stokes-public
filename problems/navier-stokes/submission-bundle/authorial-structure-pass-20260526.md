@@ -19,7 +19,7 @@ Authority anchors:
 - `target-operating-contract.yaml`: primary goal is to finish Navier-Stokes MPP, while keeping proof modes separate.
 - `live-theorem-edge.yaml`: active theorem-grade object is `ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A`, with `Exit(Q):=not Member(Q)` through `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`.
 - `cm-contrapositive-referee-audit.yaml`: historical torus-first referee checkpoint; the current paper authority is the rendered dual-track submission-candidate package, with the human/app-aligned manuscript in `problems/**` and the separate Codex paper in `papers/**`.
-- `review-verdict.yaml`: release only the CM contrapositive claim certified by Part/Field witnesss; supplier diagnostics stay quarantined; `Member(Q)` is downstream of the witness certificate.
+- `review-verdict.yaml`: release only the CM contrapositive claim certified by Part/Field witnesses; supplier diagnostics stay quarantined; `Member(Q)` is downstream of the witness certificate.
 
 ## Scope Honesty
 
@@ -58,7 +58,7 @@ or is it evidence that the alleged terminal object has left the class?
 The paper's explanation must preserve both corrections:
 
 - Do not demand one positive estimate erase every bad object.
-- Do not call any bad object `Exit(Q)` before deriving CM-test entry plus a concrete Part/Field Part/Field failure.
+- Do not call any bad object `Exit(Q)` before deriving CM-test entry plus a concrete Part/Field failure.
 
 ## Dependency-Forward Manuscript Architecture
 
@@ -230,7 +230,7 @@ Blocked full-submission claim:
 ## Immediate TeX Repair Targets
 
 1. Rewrite title/abstract/opening so the first signal is the MPP CM contrapositive proof program, with periodic scope stated inside it.
-2. Replace the opening's branch/readout feel with proof-behavior explanation: positive pass/fail split, terminal witness entry, Part/Field Part/Field failure.
+2. Replace the opening's branch/readout feel with proof-behavior explanation: positive pass/fail split, terminal witness entry, Part/Field failure.
 3. Move the source-wall example later as a teaching example, or make the current placement explicitly subordinate.
 4. Fix the duplicate proof ending after the no-fourth-service corollary.
 5. Add a visible "Scope and export boundary" theorem/remark near the beginning.
