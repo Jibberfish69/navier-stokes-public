@@ -9,7 +9,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-minimum-singularity-cost-functional-lowhigh-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-participation-debt-mechanism-reentry-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-low-high-terminal-signed-saturation-forward-no-free-sink-direct-attempt-20260610.md
-  downstream_consequence: "Proves UniformTemporalSourceIntegrability_{p,lowhigh}.A => LowHighTerminalSourceTimeAntiAtom.A for the terminal strip branch, and identifies the surviving no-uniform-p branch as infinite-cost limit-of-class / Pack-face support rather than forward payment."
+  downstream_consequence: "Proves UniformTemporalSourceIntegrability_{p,lowhigh}.A => LowHighTerminalSourceTimeAntiAtom.A for the terminal strip branch, and identifies the surviving no-uniform-p branch as infinite-cost limit-of-class / Field-window evidence support rather than forward payment."
 ---
 
 # MPP LowHighTerminalSourceCostDichotomy.A
@@ -144,7 +144,7 @@ finite L1_s endpoint mass
 ```
 
 That is not a hidden smooth source history. It is a terminal boundary artifact
-or Pack-face support, depending on the installed Pack requirement for the
+or Field-window evidence support, depending on the installed Pack requirement for the
 selected witness. It may support `Exit(Q):=not Member(Q)` through the CM
 face grammar; it cannot pay `LowHighTerminalSignedSaturationForwardNoFreeSink.A`
 as a forward no-free-sink theorem.

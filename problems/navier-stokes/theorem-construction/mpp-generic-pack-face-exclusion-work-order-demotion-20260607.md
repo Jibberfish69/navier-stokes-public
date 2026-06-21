@@ -4,8 +4,8 @@ ns_viewer:
   status: target-repair-stale-generic-blocker
   proof_role: target_repair
   logical_landing_node: cm_pack_face_attempts
-  edge_effect: "Replaces generic Pack-face exclusion with row-level CM-test entry and first-face witness record while preserving failed packet-window_Q as a lawful first-Part/Field landing for named rows."
-  upstream_origin: "June 7 Pack-face exclusion working pass and current CM referee audit."
+  edge_effect: "Replaces generic Field-window evidence exclusion with row-level CM-test entry and first-face witness record while preserving failed packet-window_Q as a lawful first-Part/Field landing for named rows."
+  upstream_origin: "June 7 Field-window evidence exclusion working pass and current CM referee audit."
   downstream_consequence: "Future carrier rows require same-witness Pack certification or land as Pack failures instead of staying generic Clay blockers."
 ---
 
@@ -13,7 +13,7 @@ ns_viewer:
 
 Date: 2026-06-07
 
-Status: target-repair note. The generic Pack face-exclusion work order is stale
+Status: target-repair note. The generic Field-window evidence-exclusion work order is stale
 as a current proof-bearing blocker. Named promoted obstruction rows still
 require CM-test entry plus Part/Field face witness record before they can
 carry proof mass.
@@ -91,7 +91,7 @@ The generic implication
 actual same-solution terminal obstruction => Pack_Q
 ```
 
-is not a smaller remaining theorem in the CM program. It reverses the Pack face.
+is not a smaller remaining theorem in the CM program. It reverses the Field-window evidence.
 
 In the installed witness grammar, an actual same-solution terminal obstruction
 is first asked whether a positive readout-compatible same-fluid carrier survives.
@@ -101,14 +101,14 @@ When that carrier does not survive, the correct conclusion is
 not Pack_Q.
 ```
 
-That conclusion is the Pack face of the CM exit witness. Treating it as proof
+That conclusion is the Field-window evidence of the CM exit witness. Treating it as proof
 that the obstruction was not actual would delete one of the lawful failure faces
 after the proof has already used the face tree. That is the same drift rejected
 by the June 3 target correction: the fail branch is supposed to be classified,
 not made illegal merely because it is a fail branch.
 
 So `SameSolutionTerminalPackRetention.A` is not a live global blocker unless a
-named promoted obstruction row specifically requires retained Pack on the pass
+named promoted obstruction row specifically requires retained Field-window evidence on the pass
 side and lacks a certified Pack-failure landing on the fail side.
 
 ## Row-Level Check
@@ -127,16 +127,15 @@ unpaid donor-refill or detached ancestry with no positive same-fluid carrier
 
 raw terminal source residue
 => not Pack_Q
-   or, after Pack survives, not Part_{N,Q}.
+   or, after Field-window evidence is present, not Part_{N,Q}.
 ```
 
 The installed local `L^3` Duhamel-mass row is also seated:
 
 ```text
 terminal L3 Duhamel response mass
-=> not Pack_Q,
-   or Pack_Q and not Part_{N,Q},
-   or, under retained Pack_Q and Part_{N,Q},
+=> not Part_{N,Q},
+   or, under retained Part_{N,Q} plus Field-window evidence,
       forall r>0 not Field_{N,r,Q}.
 ```
 
@@ -149,7 +148,7 @@ CM-test admission plus first-Part/Field derivation is proved on the global atlas
 
 ## Result
 
-The generic Pack face-exclusion work order is reclassified as a stale generic
+The generic Field-window evidence-exclusion work order is reclassified as a stale generic
 blocker, not a live theorem burden.
 
 The current mathematical status is:

@@ -78,7 +78,7 @@ Assume the selected low-high terminal source branch satisfies:
 5. no separate positive-scale retained-carrier bridge has been proved.
 ```
 
-Then the branch lands in the Pack face:
+Then the branch lands in the Field-window evidence:
 
 ```text
 LowHighInfiniteCostEndpointSource.A

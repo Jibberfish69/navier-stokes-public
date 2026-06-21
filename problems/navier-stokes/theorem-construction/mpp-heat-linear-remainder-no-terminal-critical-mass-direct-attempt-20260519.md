@@ -70,7 +70,7 @@ This is an earlier selected critical slice on the same carrier.
 If the off-parent contribution dominates, the terminal mass entered through
 heat-kernel tails from outside the selected same-fluid parent. That is not a
 new retained heat atom; it is loss of the retained carrier localization and
-therefore selects the Pack face.
+therefore selects the Field-window evidence.
 
 ## Missing Quantitative Lemma
 

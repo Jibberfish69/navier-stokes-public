@@ -86,7 +86,7 @@ fresh first-Pack survival progress.
 
 `ActiveHeightFluxTrichotomy.A` and `SourceReserveBirthCharge.A` were generated as
 support theorem-search surfaces. They do not currently prove a same-solution
-first Pack face exclusion from original smooth data. They also do not supply the
+first Field-window evidence exclusion from original smooth data. They also do not supply the
 missing same-atlas Part/Field derivation required by the CM referee override.
 
 Result: support-only, not a live fresh mechanism.

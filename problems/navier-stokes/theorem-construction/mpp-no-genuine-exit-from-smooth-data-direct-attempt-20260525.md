@@ -68,7 +68,7 @@ one of:
 Pack failure:
   not Pack_Q.
 
-Part failure after Pack survives:
+Part failure after Field-window evidence is present:
   not Part_{N,Q}.
 
 Field failure after Pack and Part survive:
@@ -106,7 +106,7 @@ So the Field-window branch remains a real mathematical wall, not a naming proble
 
 ### 2. Part branch
 
-If Pack survives and Part fails, the missing theorem is a same-carrier
+If Field-window evidence is present and Part fails, the missing theorem is a same-carrier
 participation no-drop statement:
 
 ```text
@@ -127,7 +127,7 @@ If Pack and Part survive and Field fails, the missing theorem is a retained
 same-fluid source/readout coherence theorem:
 
 ```text
-OriginalSmoothData + Pack_Q + Part_{N,Q}
+OriginalSmoothData + Part_{N,Q} plus Field-window evidence
 => exists r>0 Field_{N,r,Q}.
 ```
 
@@ -150,7 +150,7 @@ first-exit faces from original smooth data:
 1. OriginalSmoothData => Pack_Q terminal survival
    through ScaleCriticalTreeCarleson.A;
 2. OriginalSmoothData + Pack_Q => Part_{N,Q} terminal no-drop;
-3. OriginalSmoothData + Pack_Q + Part_{N,Q}
+3. OriginalSmoothData + Part_{N,Q} plus Field-window evidence
    => exists r>0 Field_{N,r,Q} terminal coherence.
 ```
 

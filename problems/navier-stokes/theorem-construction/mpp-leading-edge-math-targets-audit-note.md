@@ -595,7 +595,7 @@ mixed-clause residual still open.}
 
 Evidence:
 
-- `mpp-pack-part-field-triadicity-audit-note.md`
+- `mpp-part-field-triadicity-audit-note.md`
 
 Installed ceiling:
 

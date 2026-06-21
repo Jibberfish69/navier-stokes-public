@@ -50,7 +50,7 @@ ledgers have been removed.
 `Part_{N,Q}` is a Part/Field failure:
 
 ```text
-Pack_Q and not Part_{N,Q}.
+not Part_{N,Q}.
 ```
 
 That Part/Field failure supports the downstream conclusion:
@@ -75,17 +75,17 @@ ClayAdmissibleFiniteBreakdown(W_*)
 => Part_{N,Q}.
 ```
 
-That statement asks for terminal no-defect participation on every retained Pack
+That statement asks for terminal no-defect participation on every retained Field-window evidence
 carrier. The June 7 working pass correctly found that this is not proved by
 same preterminal equation ancestry. A native terminal pressure/source defect
 can still come from the same maximal Navier-Stokes evolution and land as:
 
 ```text
-Pack_Q and not Part_{N,Q}.
+not Part_{N,Q}.
 ```
 
 The newer June 3 correction and the June 7 referee audit change the local
-target. The proof does not need an unrowed theorem saying every retained Pack
+target. The proof does not need an unrowed theorem saying every retained Field-window evidence
 terminal packet must satisfy `Part_{N,Q}`. That would delete a lawful fail
 branch. The required proof work is row-by-row:
 
@@ -114,7 +114,7 @@ the same differentiated Navier-Stokes pressure-viscosity tower, dwell law, or
 compatible local source participation through depth `N`. Its first Part/Field is:
 
 ```text
-Pack_Q and not Part_{N,Q}.
+not Part_{N,Q}.
 ```
 
 That is a certified Part/Field failure for that selected row. The raw terminal source
@@ -154,7 +154,7 @@ O + Pack_Q
 => Part_{N,Q}
 ```
 
-with the next face then tested under retained Pack and Part. The row must name
+with the next face then tested under retained Field-window evidence and Part. The row must name
 the selected terminal object, prove CM-test entry for that object, and show why
 the first failed face is Part or Field.
 

@@ -98,7 +98,7 @@ for `r_J=2^{-J}` and a depth `N(J)` high enough to read the selected shell.
 The first implication is the Field finite-difference readout; the second is the
 annular Littlewood-Paley finite-difference estimate above.
 
-Once this theorem is installed, the branch closes: retained Pack keeps the shell on the material packet, retained Part keeps the pressure-viscosity law active, and the remaining pure oscillatory terminal defect exceeds the matched Field coherence bound. The exit face is therefore Field.
+Once this theorem is installed, the branch closes: retained Field-window evidence keeps the shell on the material packet, retained Part keeps the pressure-viscosity law active, and the remaining pure oscillatory terminal defect exceeds the matched Field coherence bound. The exit face is therefore Field.
 
 ## Physical / ontological explanation
 
