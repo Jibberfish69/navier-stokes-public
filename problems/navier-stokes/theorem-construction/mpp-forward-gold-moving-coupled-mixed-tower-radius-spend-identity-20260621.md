@@ -115,20 +115,35 @@ This is the exact radius-spend term.
 
 ## 3. Moving-radius energy identity
 
-Use the repaired rung-level \(H^s\) inequality: after the fractional
-commutator is kept, the fixed-weight estimate has the form
+Use the repaired rung-level \(H^s\) inequality. For each rung, define the exact
+post-commutator residual \(\mathcal N_{m,\alpha}\) by
+
+\[
+\mathcal N_{m,\alpha}
+:=
+-\left\langle
+\Lambda^s\widetilde T_{m,\alpha},
+\Lambda^sJ_{m,\alpha}
+\right\rangle
+-\left\langle
+[\Lambda^s,u\cdot\nabla]J_{m,\alpha},
+\Lambda^sJ_{m,\alpha}
+\right\rangle,
+\tag{MRS.9}
+\]
+
+where \(\widetilde T_{m,\alpha}\) is the off-diagonal Leibniz transport sum.
+Then the exact rung identity after pressure cancellation and base-transport
+commutator separation is
 
 \[
 {1\over2}{d\over dt}\|J_{m,\alpha}\|_{H^s}^2
 +
-c\nu\|\nabla J_{m,\alpha}\|_{H^s}^2
-\le
-\mathcal N_{m,\alpha},
-\tag{MRS.9}
+\nu\|\nabla J_{m,\alpha}\|_{H^s}^2
+=
+\mathcal N_{m,\alpha}.
+\tag{MRS.10}
 \]
-
-where \(\mathcal N_{m,\alpha}\) includes the off-diagonal tower convolution and
-the \(H^s\) base-transport commutator.
 
 Multiplying by \(w_{m,\alpha}(t)^2\), summing over \((m,\alpha)\), and using
 `(MRS.8)` gives
@@ -137,19 +152,25 @@ Multiplying by \(w_{m,\alpha}(t)^2\), summing over \((m,\alpha)\), and using
 \boxed{
 {1\over2}{d\over dt}\mathfrak E_s
 +
-c\nu\mathfrak D_s
+\nu\mathfrak D_s
 -
 {\tau'\over\tau}\mathfrak M_t
 -
 {\rho'\over\rho}\mathfrak M_x
-\le
+=
 \mathfrak N_s.
 }
-\tag{MRS.10}
+\tag{MRS.11}
 \]
 
-Here \(\mathfrak N_s\) is the weighted sum of the repaired nonlinear and
-commutator terms.
+Here
+
+\[
+\mathfrak N_s
+:=
+\sum_{m,\alpha}w_{m,\alpha}(t)^2\mathcal N_{m,\alpha}.
+\tag{MRS.12}
+\]
 
 When the radii are decreasing,
 
@@ -157,7 +178,7 @@ When the radii are decreasing,
 \tau'(t)\le0,
 \qquad
 \rho'(t)\le0,
-\tag{MRS.11}
+\tag{MRS.13}
 \]
 
 the two radius terms on the left are nonnegative:
@@ -166,7 +187,7 @@ the two radius terms on the left are nonnegative:
 -{\tau'\over\tau}\mathfrak M_t\ge0,
 \qquad
 -{\rho'\over\rho}\mathfrak M_x\ge0.
-\tag{MRS.12}
+\tag{MRS.14}
 \]
 
 This is the precise way analytic radius pays for the tower.
