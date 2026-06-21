@@ -165,7 +165,7 @@ Pack:
 
 - positive same-fluid carrier;
 - finite transported cover / material-atlas service;
-- zero-radius, detached donor ancestry, unpaid infinite donor refill as Pack-side failures when proved on the selected packet.
+- zero-radius, detached donor ancestry, unpaid infinite donor refill as Field-window support failures when proved on the selected packet.
 
 Part:
 

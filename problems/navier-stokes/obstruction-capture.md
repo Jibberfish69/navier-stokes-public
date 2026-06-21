@@ -29,7 +29,7 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 
 - Start with the alleged finite-time Clay terminal witness from the same original smooth datum.
 - Enter that witness into the canonical same-fluid CM terminal participation-field tree.
-- Exhaust Pack-admitted finite failure type as not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; for any outside-CM packet/window failure candidate, first test the original NS participation law.
+- Exhaust field-local finite failure type as not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; for any outside-CM packet/window failure candidate, first test the original NS participation law.
 - Embed the derived Part/Field failure as `Exit(Q):=not Member(Q)` while preserving the pass branch as the lawful smooth continuation branch.
 
 ## Core Mechanism
@@ -49,7 +49,7 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 1. Start with a same-datum finite Clay terminal witness.
 2. Treat it as CM-test-admissible, not as already `Member(Q)`.
 3. Run terminal witness entry into the same-fluid CM participation-field tree.
-4. Exhaust the Pack-admitted failure through Part_{N,Q} and Field_{N,r,Q}; Pack_Q only as Field window evidence, and resurface any outside-CM packet/window failure candidate under the original participation law first.
+4. Exhaust the field-local failure through Part_{N,Q} and Field_{N,r,Q}; Pack_Q only as Field window evidence, and resurface any outside-CM packet/window failure candidate under the original participation law first.
 5. Read the derived Part/Field failure as `Exit(Q):=not Member(Q)`.
 6. Keep the pass branch as smooth continuation and the fail branch as outside-class.
 7. Reject any opening that begins with torus-first, `Q(t)`, or periodic route history before the CM witness object has landed.
