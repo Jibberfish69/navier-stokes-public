@@ -2,7 +2,7 @@
 theorem_id: forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621
 status: algebraic-skew-reduction-proved-full-hodge-stokes-production-open
 logical_landing_node: pressure_adapted_no_residue_skew_coercivity
-edge_effect: "Develops the no-residue route for deleting the current square-source residual after repairing the projection-only mistake. The selected object is not A_sigma=S_sigma P alone. Leray projection is only one compatibility channel inside a participation-preserving Hodge-Stokes balance packet carrying convection, pressure, viscosity, time, divergence, cutoff/collar, scale, and signed-saturation records on the same carrier. The transport-channel interaction still has the exact skew/commutator identity with G_sigma=(A_sigma^tr)^*A_sigma^tr, namely <A_sigma^tr(u.grad u),A_sigma^tr u>=-1/2<[u.grad,G_sigma]u,u>. The production theorem is now full-cycle: the selected positive sum of transport, pressure, viscous, time, divergence, cutoff, scale, and signed channels must be paid by epsilon-viscosity, sigma-capacity drop, and L1 tail, with no C_epsilon Theta_sigma^2 E_sigma remainder. The note proves the algebraic transport-channel reduction and the criterion implication; it does not prove the full Hodge-Stokes packet production theorem."
+edge_effect: "Develops the no-residue route for deleting the current square-source residual after repairing the projection-only mistake. The selected object is not A_sigma=S_sigma P alone. Leray projection is only one compatibility channel inside a participation-preserving Hodge-Stokes balance packet carrying convection, pressure, viscosity, time, divergence, cutoff/collar, scale, and signed-saturation records on the same carrier. The transport-channel interaction still has the exact skew/commutator identity with G_sigma=(A_sigma^tr)^*A_sigma^tr, namely <A_sigma^tr(u.grad u),A_sigma^tr u>=-1/2<[u.grad,G_sigma]u,u>. The production theorem is now full-cycle: the selected positive sum of transport, pressure, viscous, time, divergence, cutoff, scale, and signed channels must be paid by epsilon-viscosity, sigma-capacity drop, and L1 tail, with no C_epsilon Theta_sigma^2 E_sigma remainder. The note proves the algebraic transport-channel reduction and the criterion implication; it now points to the exact compactness/no-loss criterion for the full packet, but it does not prove the full Hodge-Stokes packet production theorem."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-precauchy-to-gauge-quotient-tower-bridge-test-20260621.md
@@ -13,6 +13,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-upgraded-four-body-current-frontier-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lossless-full-hodgestokes-packet-rigidity-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-packet-compactness-noloss-attempt-20260621.md
 ---
 
 # Pressure-Adapted No-Residue Skew Coercivity Criterion
@@ -507,16 +508,25 @@ A_{\rm sel}(P_\ast)\ge a_0,
 
 contradiction.
 
-Thus the compactness form needs the same two production clauses:
+Thus the compactness form needs one production clause and one rigidity clause.
+The no-loss clause is now exact as a criterion: strong same-carrier convergence
+of the full Hodge-Stokes packet gives total-variation convergence of the
+selected positive carrier, because the positive-part map is \(1\)-Lipschitz in
+\(L^1\).  Standard suitable compactness is not enough; the remaining failures
+are precisely transport product loss, pressure trace loss, viscous measure
+loss, selector graph loss, signed saturation loss, terminal trace atom, or
+legal-routing loss.
+
+So the remaining production input is:
 
 ```math
 \boxed{
-\text{same-carrier no-loss compactness for the full Hodge-Stokes packet}
+\text{strong same-carrier full-packet convergence or charged packet defect}
 }
 \tag{PAN.30}
 ```
 
-and
+and the already separated rigidity input is:
 
 ```math
 \boxed{
