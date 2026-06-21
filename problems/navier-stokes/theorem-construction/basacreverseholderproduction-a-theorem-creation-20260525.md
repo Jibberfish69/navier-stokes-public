@@ -4,12 +4,12 @@
 
 - target obligation: BASACReverseHolderProduction.A
 - target label: produce a reverse-Holder B_ASAC^RH(p) subclass from the current B_ASAC equality-class clauses
-- route role: The B_ASAC reverse-holder production statement asks for B_ASAC => B_ASAC^RH(p) for some p>1. The local source corpus proves the conditional Liouville theorem once this subclass is produced, and also shows the current B_ASAC clauses do not produce it: finite L^1_t terminal source mass allows shrinking terminal-layer concentration. This is quarantined downstream no-pulse/source-control support, not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-out-of-CM audit.
+- route role: The B_ASAC reverse-holder production statement asks for B_ASAC => B_ASAC^RH(p) for some p>1. The local source corpus proves the conditional Liouville theorem once this subclass is produced, and also shows the current B_ASAC clauses do not produce it: finite L^1_t terminal source mass allows shrinking terminal-layer concentration. This is quarantined downstream no-pulse/source-control support, not a terminal Zeno CM burden after the zero-radius residue is sorted as Part/Field witness support by the Pack-out-of-CM audit.
 - theorem family: generic-bridge-theorem
 
 ## Created Theorem
 
-BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-out-of-CM audit.
+BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Part/Field witness support by the Pack-out-of-CM audit.
 
 ## Inventive Search
 
@@ -19,7 +19,7 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 - selected_mechanism: basac_reverse_holder_production_hard_obstruction
 - candidate_count: 1
 - solver_chain_verdict: closed
-- selection_reason: This theorem is the right next move because it changes the proof economy: The B_ASAC reverse-holder production statement asks for B_ASAC => B_ASAC^RH(p) for some p>1. The local source corpus proves the conditional Liouville theorem once this subclass is produced, and also shows the current B_ASAC clauses do not produce it: finite L^1_t terminal source mass allows shrinking terminal-layer concentration. This is quarantined downstream no-pulse/source-control support, not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-out-of-CM audit. The internal solver reached a terminal hard-obstruction record with no promotable residual primitive.
+- selection_reason: This theorem is the right next move because it changes the proof economy: The B_ASAC reverse-holder production statement asks for B_ASAC => B_ASAC^RH(p) for some p>1. The local source corpus proves the conditional Liouville theorem once this subclass is produced, and also shows the current B_ASAC clauses do not produce it: finite L^1_t terminal source mass allows shrinking terminal-layer concentration. This is quarantined downstream no-pulse/source-control support, not a terminal Zeno CM burden after the zero-radius residue is sorted as Part/Field witness support by the Pack-out-of-CM audit. The internal solver reached a terminal hard-obstruction record with no promotable residual primitive.
 
 ### Candidate Theorems
 
@@ -29,8 +29,8 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
 - problems/navier-stokes/agent-contract.yaml:175 -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 

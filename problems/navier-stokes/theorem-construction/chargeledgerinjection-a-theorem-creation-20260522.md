@@ -32,12 +32,12 @@ ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a g
 
 ### Retrieved Ingredients
 
-- problems/navier-stokes/agent-contract.yaml:55 -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
+- problems/navier-stokes/agent-contract.yaml:55 -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
 - problems/navier-stokes/agent-contract.yaml:53 -- source ingredient
 - problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
 - problems/navier-stokes/agent-contract.yaml:99 -- retained-face amplitude support
-- problems/navier-stokes/agent-contract.yaml:172 -- Pack/Part bridge support
+- problems/navier-stokes/agent-contract.yaml:172 -- Part/Field bridge support
 
 ### Recursive Solver Chain
 
@@ -79,8 +79,8 @@ ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a g
 2. Use first-birth minimality to remove inherited Past(W) mass.
 3. Pair the remaining child residual with WeightedAdjRes.A.
 4. Contradict the existence of positive reserve birth outside Charge_N plus declared loss.
-5. Use problems/navier-stokes/agent-contract.yaml:55 as source support for Pack/Part bridge support.
-6. Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
+5. Use problems/navier-stokes/agent-contract.yaml:55 as source support for Part/Field bridge support.
+6. Use problems/navier-stokes/theorem-packet.yaml as source support for Part/Field bridge support.
 
 ## Circularity Audit
 

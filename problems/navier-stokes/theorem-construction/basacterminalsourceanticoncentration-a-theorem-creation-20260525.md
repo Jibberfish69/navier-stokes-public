@@ -4,7 +4,7 @@
 
 - target obligation: BASACTerminalSourceAntiConcentration.A
 - target label: forward positive-supplier theorem excluding terminal zero-thickness native source concentration in the produced B_ASAC equality class
-- route role: The B_ASAC direct attempts show that local L^1_t source mass, zero ASAC defect, no-earlier selected slices, and paid donor/legal exits do not themselves exclude terminal strip concentration. The source-backed next theorem is UniformTemporalSourceIntegrability_{p,B_ASAC}.A, or an equivalent TerminalSourceReverseHolder_{B_ASAC}.A. In the CM contrapositive route this remains forward positive-supplier support; the surviving zero-radius B_ASAC residue is quarantined as Pack/Part witness support unless a separate bridge license lands it in Part or Field.
+- route role: The B_ASAC direct attempts show that local L^1_t source mass, zero ASAC defect, no-earlier selected slices, and paid donor/legal exits do not themselves exclude terminal strip concentration. The source-backed next theorem is UniformTemporalSourceIntegrability_{p,B_ASAC}.A, or an equivalent TerminalSourceReverseHolder_{B_ASAC}.A. In the CM contrapositive route this remains forward positive-supplier support; the surviving zero-radius B_ASAC residue is quarantined as Part/Field witness support unless a separate bridge license lands it in Part or Field.
 - theorem family: generic-bridge-theorem
 
 ## Created Theorem
@@ -19,7 +19,7 @@ BASACTerminalSourceAntiConcentration.A. The produced B_ASAC class still admits t
 - selected_mechanism: basac_terminal_anticoncentration_to_uniform_temporal_integrability
 - candidate_count: 1
 - solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: The B_ASAC direct attempts show that local L^1_t source mass, zero ASAC defect, no-earlier selected slices, and paid donor/legal exits do not themselves exclude terminal strip concentration. The source-backed next theorem is UniformTemporalSourceIntegrability_{p,B_ASAC}.A, or an equivalent TerminalSourceReverseHolder_{B_ASAC}.A. In the CM contrapositive route this remains forward positive-supplier support; the surviving zero-radius B_ASAC residue is quarantined as Pack/Part witness support unless a separate bridge license lands it in Part or Field. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to UniformTemporalSourceIntegrability_p_BASAC.A rather than pretending the frontier is closed.
+- selection_reason: This theorem is the right next move because it changes the proof economy: The B_ASAC direct attempts show that local L^1_t source mass, zero ASAC defect, no-earlier selected slices, and paid donor/legal exits do not themselves exclude terminal strip concentration. The source-backed next theorem is UniformTemporalSourceIntegrability_{p,B_ASAC}.A, or an equivalent TerminalSourceReverseHolder_{B_ASAC}.A. In the CM contrapositive route this remains forward positive-supplier support; the surviving zero-radius B_ASAC residue is quarantined as Part/Field witness support unless a separate bridge license lands it in Part or Field. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to UniformTemporalSourceIntegrability_p_BASAC.A rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
@@ -29,8 +29,8 @@ BASACTerminalSourceAntiConcentration.A. The produced B_ASAC class still admits t
 
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
 - problems/navier-stokes/agent-contract.yaml:175 -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- retained-face amplitude support
 
@@ -47,7 +47,7 @@ BASACTerminalSourceAntiConcentration.A. The produced B_ASAC class still admits t
 - BASACTerminalSourceAntiConcentration.A direct attempt
 - UniformTemporalSourceIntegrability_{p,B_ASAC}.A
 - TerminalSourceReverseHolder_{B_ASAC}.A
-- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for original participation law status, giving not Part_{N,Q} when same-solution participation remains and true not Pack_Q only when the participation record is absent. This is a CM Part/Field-reduction theorem, not a forward no-free-sink supplier discharge.
+- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for original participation law status, giving not Part_{N,Q} when same-solution participation remains and packet/window evidence only when the participation record is absent. This is a CM Part/Field-reduction theorem, not a forward no-free-sink supplier discharge.
 - HeightFluxControl.A. Turn the remaining positive source-reserve birth charge into the first proof-facing sampling theorem: a first large retained height-flux event must create Pack gain, Part/dwell failure, legal Field source charge, or a Zeno terminal residue atom. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive HeightFluxControl.A exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
 - Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
