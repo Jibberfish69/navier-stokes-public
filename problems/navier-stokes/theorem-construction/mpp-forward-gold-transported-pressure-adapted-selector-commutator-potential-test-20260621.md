@@ -1,13 +1,14 @@
 ---
 theorem_id: forward-gold-transported-pressure-adapted-selector-commutator-potential-test-20260621
-status: transport-commutator-potential-identity-proved-transported-selector-production-open
+status: transport-commutator-potential-identity-proved-full-hodge-stokes-selector-production-open
 logical_landing_node: transported_pressure_adapted_selector_commutator_potential
-edge_effect: "Pushes the pressure-adapted no-residue route one layer deeper. For a self-adjoint pressure-adapted selector metric G_sigma=A_sigma^*A_sigma and incompressible transport L=u.grad, the mixed interaction satisfies the exact operator identity <A_sigma L u,A_sigma u>=-1/2 <[L,G_sigma]u,u>. Thus the selected source is the transport commutator / cotangent material variation of the selector metric. A fixed dyadic selector turns this into a strain commutator and hence the usual square-source residue. A selector transported by the incompressible cotangent/material flow can make the principal commutator vanish or become sigma-capacity/geometry motion, leaving only viscosity, lower-order pressure/Leray/cutoff remainders, and tail leakage. This identifies the concrete production route for PressureAdaptedNoResidueCommutator.A: construct a same-carrier transported pressure-adapted selector with symbol/gauge control, pressure projection compatibility, tail summability, and Body-IV geometry recertification. The production theorem remains open."
+edge_effect: "Pushes the no-residue route one layer deeper after the full Hodge-Stokes packet repair. For a self-adjoint transport-channel selector metric G_sigma^tr=(A_sigma^tr)^*A_sigma^tr and incompressible transport L=u.grad, the mixed interaction satisfies the exact operator identity <A_sigma^tr L u,A_sigma^tr u>=-1/2 <[L,G_sigma^tr]u,u>. Thus the transport component of the selected source is the transport commutator / cotangent material variation of the selector metric. A fixed dyadic selector turns this into a strain commutator and hence the usual square-source residue. A selector transported by the incompressible cotangent/material flow can make the principal transport commutator vanish or become sigma-capacity/geometry motion, but the pressure, viscous, divergence, cutoff, signed, and tail channels must remain explicit in the full Hodge-Stokes packet. This identifies one component of the concrete production route for ParticipationPreservingNoResidueFullCycle.A: construct and retain a same-carrier transported full Hodge-Stokes selector package. The production theorem remains open."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-deformation-gradient-return-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-bodyiv-canonical-geometry-packet-interface-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-upgraded-four-body-current-frontier-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md
 ---
 
 # Transported Pressure-Adapted Selector Commutator Potential Test
@@ -16,32 +17,35 @@ Date: 2026-06-21
 
 ## 0. Aim
 
-The pressure-adapted no-residue criterion isolates the commutator
+The participation-preserving no-residue criterion isolates the transport
+commutator inside the full Hodge-Stokes packet:
 
 ```math
-\mathcal C_\sigma
+\mathcal C_\sigma^{tr}
 =
-\langle[A_\sigma,u\cdot\nabla]u,A_\sigma u\rangle.
+\langle[A_\sigma^{tr},u\cdot\nabla]u,A_\sigma^{tr}u\rangle.
 \tag{TPC.1}
 ```
 
 This note asks how that commutator could become a capacity drop instead of a
 source-square residue.
 
-The answer is: choose the selector as a pressure-adapted material/cotangent
-object.  Then the commutator is the transport commutator, equivalently the
-cotangent material variation, of the selector metric.  Fixed selectors create a
-strain commutator.  Transported selectors move that strain into geometry/scale
-motion.
+The answer for this component is: choose the transport selector as a
+material/cotangent object.  Then the commutator is the transport commutator,
+equivalently the cotangent material variation, of the selector metric.  Fixed
+selectors create a strain commutator.  Transported selectors move that strain
+into geometry/scale motion.  The pressure, viscosity, incompressibility,
+cutoff, signed-saturation, and tail channels remain in the full packet; they
+are not collapsed into this transport identity.
 
 ## 1. Exact metric identity
 
 Let
 
 ```math
-A_\sigma=S_\sigma P,
+A_\sigma^{tr}=S_\sigma^{tr},
 \qquad
-G_\sigma=A_\sigma^\ast A_\sigma.
+G_\sigma^{tr}=(A_\sigma^{tr})^\ast A_\sigma^{tr}.
 \tag{TPC.2}
 ```
 
@@ -58,9 +62,9 @@ The mixed interaction is
 ```math
 \mathcal M_\sigma
 =
-\langle A_\sigma L u,A_\sigma u\rangle
+\langle A_\sigma^{tr} L u,A_\sigma^{tr} u\rangle
 =
-\langle L u,G_\sigma u\rangle.
+\langle L u,G_\sigma^{tr} u\rangle.
 \tag{TPC.4}
 ```
 
