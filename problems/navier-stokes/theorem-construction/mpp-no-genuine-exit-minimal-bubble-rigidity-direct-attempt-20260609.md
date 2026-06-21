@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-public-finality-first-exit-pack-wall-reentry-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-same-witness-clay-exclusion-propagation-direct-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-terminal-positive-source-atom-frontier-reentry-20260609.md
-  downstream_consequence: "The public finality route needs a produced minimal-bubble Liouville class or an equivalent theorem excluding the first Pack face from original smooth data; pdfs_final remains false."
+  downstream_consequence: "The public finality route needs a produced minimal-bubble Liouville class or an equivalent theorem excluding the first Field-window evidence from original smooth data; pdfs_final remains false."
 ---
 
 # MPP NoGenuineExit Minimal-Bubble Rigidity Direct Attempt
@@ -37,10 +37,10 @@ OriginalSmoothData => ScaleCriticalTreeCarleson.A.
 
 The checked source-time, pressure/eigenframe, retained-tail, Volterra,
 finite-inventory, and same-witness routes all return to the same unpaid
-terminal object: a proof-bearing first Pack face for the canonical
+terminal object: a proof-bearing first Field-window evidence for the canonical
 same-solution terminal packet.
 
-This pass changes proof method.  It asks whether the first Pack face can be
+This pass changes proof method.  It asks whether the first Field-window evidence can be
 excluded by a minimal-counterexample / compactness-bubble argument rather than
 by another source-time supplier label.
 
@@ -55,7 +55,7 @@ and Liouville rigidity.
 
 Mechanism tested: extract a minimal first-Pack terminal bubble from original
 smooth data, prove the extracted bubble lies in a rigid class, and use the
-rigidity theorem to rule out the first Pack face.
+rigidity theorem to rule out the first Field-window evidence.
 
 ## Minimal first-exit setup
 

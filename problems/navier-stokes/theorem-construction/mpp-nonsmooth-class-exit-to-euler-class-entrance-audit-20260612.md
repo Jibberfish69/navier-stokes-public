@@ -56,8 +56,8 @@ above base `Member_E`.
 
    ```text
    not Pack_Q,
-   or Pack_Q and not Part,
-   or Pack_Q and Part and for every r>0 not Field.
+   or not Part,
+   or Part plus Field-window evidence and Part and for every r>0 not Field.
    ```
 
    Source:
@@ -218,7 +218,7 @@ This table follows every record in
 | `unpaid_donor_refill_or_detached_ancestry_pack_exit` | `not Pack_Q` | detached donor ancestry or no positive same-fluid carrier | NS Pack exit is installed. Euler entrance only exists after retyping as an Euler flux-volume/momentum object; the current row is no-carrier NS exit. |
 | `raw_terminal_source_residue_pack_or_part_exit` | `not Pack_Q` or `Pack_Q + not Part` | raw source or pressure-source residue | This is not clean Euler entrance while the residue remains. It enters the Euler boundary only after no-residue compactness or a named defect-boundary/Liouville cleanup. |
 | `pressure_viscosity_or_dwell_part_exit` | `not Part_{N,Q}` | carrier survives, same pressure-viscosity tower/dwell/source participation fails | Direct crossing candidate. When the same transport-pressure object satisfies `EVol+EMom`, this is exactly NS class-exit by loss of viscous participation and Euler class-entrance. |
-| `retained_positive_window_blowup_field_exit` | `Pack_Q + Part_{N,Q} + forall r>0 not Field` | Pack and Part survive; every positive scale loses coherent field/readout | Direct Field crossing. Euler reads the same event as `Member_E` plus failure of optional `EReg/EField`, provided `EVol+EMom` is preserved. |
+| `retained_positive_window_blowup_field_exit` | `Part_{N,Q} plus Field-window evidence + forall r>0 not Field` | Pack and Part survive; every positive scale loses coherent field/readout | Direct Field crossing. Euler reads the same event as `Member_E` plus failure of optional `EReg/EField`, provided `EVol+EMom` is preserved. |
 | `retained_native_source_residue_field_diagnostic` | conditional Field diagnostic | native residue already converted into lawful participating source/readout object | Conditional crossing only after participation license. Raw residue remains Part/Field, not Euler entrance. |
 | `retained_positive_scale_native_reserve_birth` | unresolved/support | positive-scale reserve surplus | No independent crossing yet. It must be paid on the same ledger or derived into Part/Field. |
 | `active_height_low_strain_typed_disjunction` | finite typed disjunction | carrier failures, dwell/participation failures, licensed Field/Zeno subcases | Crossing applies only in the certified Part and Field subcases. Hidden signed-pair support is not class entrance. |
@@ -433,7 +433,7 @@ Euler Member_E entrance with optional EReg/EField failure.
 
 ### GoodScale Failure
 
-The GoodScale theorem says retained `Pack_Q + Part_{N,Q}` plus
+The GoodScale theorem says retained `Part_{N,Q} plus Field-window evidence` plus
 `not GoodScale.TTU` implies `forall r>0 not Field_{N,r,Q}`. Its physical reading
 is: material address and pressure-viscosity law remain, while no positive
 neighborhood supports coherent same-fluid field readout.
@@ -453,7 +453,7 @@ Euler class entrance only after the same event is represented as EVol+EMom.
 The repaired averaged face note installs only the conditional implication:
 
 ```text
-Pack_Q + Part_{N,Q} + Jump_avg(T)
+Part_{N,Q} plus Field-window evidence + Jump_avg(T)
   + SCFBaseLocalModulus_N(T,r)
   => not Field_{N,r,Q} at that r.
 ```
@@ -535,7 +535,7 @@ than the CM route needs. A surviving exterior nonlinear-source tail is consumed
 as:
 
 ```text
-not Pack_Q or not Part_{M,Q} or forall rho>0 not Field_{M,rho,Q}.
+not Part_{M,Q} or forall rho>0 not Field_{M,rho,Q}.
 ```
 
 Source:

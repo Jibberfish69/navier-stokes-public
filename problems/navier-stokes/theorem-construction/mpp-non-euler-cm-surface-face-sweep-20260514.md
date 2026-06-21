@@ -399,7 +399,7 @@ participation/envelope failure. The third reading is not an amplitude face; it
 returns to the source-wall diagnostics already sorted by Carleson/Zeno.
 
 Thus `RetainedFaceAmplitudeGain.A` is closed as a face-boundary object, but the
-plain implication `Pack_Q + Part_{N,Q} => RetainedFaceAmplitudeGain.A` is not
+plain implication `Part_{N,Q} plus Field-window evidence => RetainedFaceAmplitudeGain.A` is not
 promoted by this sweep.
 
 ### `ActiveHeightFluxFaceRouting.A`

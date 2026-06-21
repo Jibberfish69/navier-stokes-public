@@ -40,7 +40,7 @@ The installed repo already distinguishes two readings.
 | Terminal ontology | A real finite endpoint may activate several witness axes at once; the endpoint labels are not disjoint physical doors. |
 
 Resolution for the retained-Field notes: a theorem of the form
-`Pack_Q + Part_{N,Q} + receiver escape => not Field_{N,r,Q}` is conditional
+`Part_{N,Q} plus Field-window evidence + receiver escape => not Field_{N,r,Q}` is conditional
 face bookkeeping.  It says Pack and Part have been retained as licenses, so the
 first unspent CM Part/Field is Field.  It does not make `Pack, Part, not-Field` a
 surviving terminal row; terminal same-fluid ontology collapses that realized

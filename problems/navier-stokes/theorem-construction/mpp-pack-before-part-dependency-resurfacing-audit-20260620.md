@@ -27,7 +27,7 @@ Exit(Q) := not Member(Q).
 
 ## Rule
 
-For an outside-CM packet/window, no-window, or singular terminal object, do not use `not Pack_Q`
+For an outside-CM participation-field/window, no-window, or singular terminal object, do not use `not Pack_Q`
 as terminal disposal until the object has been typed.
 
 First ask whether the object still has a meaningful pointwise original
@@ -46,7 +46,7 @@ If that status is present, the object is resurfaced under the original
 Navier-Stokes participation law first. The dead/blown question is read from the
 pointwise participation/tower mechanism before any Pack-window conclusion is
 spent. A later local Silver readout may express that failure as
-`not Part_{N,Q}` only after a local tested record has been named; the outside-CM packet/window
+`not Part_{N,Q}` only after a local tested record has been named; the outside-CM participation-field/window
 test itself is not indexed by an admitted `Q` and must be stated with the live
 object and original NS law named.
 
@@ -71,9 +71,9 @@ problems/navier-stokes/theorem-construction/mcp-partfieldbeforepacklicensing-a-p
 That note states that the participation and field-readout tests have primitive
 service content and may be tested before ordinary positive-radius `Pack_Q` on a
 same-solution terminal witness. This audit retypes the participation side more
-strictly: the outside-CM packet/window question is the original Navier-Stokes participation law applied to the live same-solution
+strictly: the outside-CM participation-field/window question is the original Navier-Stokes participation law applied to the live same-solution
 terminal object; `Part_{N,Q}` is the later localized Silver expression after a local
-tested record is named. Every outside-CM packet/window packet/window branch must be checked for
+tested record is named. Every outside-CM participation-field/window packet/window branch must be checked for
 the original NS participation law before it is allowed to remain a Pack-only
 exit.
 
@@ -112,7 +112,7 @@ then Part and Field are tested inside that admitted structure.
 
 ## Bridge still owed
 
-For each resurfaced outside-CM packet/window branch, the exact bridge is:
+For each resurfaced outside-CM participation-field/window branch, the exact bridge is:
 
 ```text
 the original NS participation law diagnosis

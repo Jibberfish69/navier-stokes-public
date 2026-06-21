@@ -19,7 +19,7 @@ gauge alone.}
 }
 ```
 
-The implication may still be made true by strengthening the Pack face, or by
+The implication may still be made true by strengthening the Field-window evidence, or by
 proving a separate Navier--Stokes-specific retained pack-gain theorem. It is
 not currently installed by the existing pack gauge.
 
@@ -156,7 +156,7 @@ to the logical shortcut:
 So the retained-face amplitude proof cannot say:
 
 ```math
-Pack_Q+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 \Longrightarrow
 RetainedFaceAmplitudeGain.A
 ```
@@ -166,7 +166,7 @@ finite deformation gauge.
 
 ## Corrected Options
 
-Option 1: strengthen the Pack face:
+Option 1: strengthen the Field-window evidence:
 
 ```math
 Pack_Q^{gain}
@@ -187,7 +187,7 @@ Option 2: prove a separate PDE theorem:
 ```math
 \boxed{
 RetainedPackGainProduction.A:
-Pack_Q+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 \Longrightarrow
 PackGainLedger.A.
 }

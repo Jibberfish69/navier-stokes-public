@@ -88,7 +88,7 @@ requires:
 
 1. OriginalSmoothData => Pack_Q terminal survival,
 2. OriginalSmoothData + Pack_Q => Part_{N,Q} terminal no-drop,
-3. OriginalSmoothData + Pack_Q + Part_{N,Q}
+3. OriginalSmoothData + Part_{N,Q} plus Field-window evidence
    => exists r>0 Field_{N,r,Q}.
 ```
 
@@ -122,7 +122,7 @@ OriginalSmoothData => ScaleCriticalTreeCarleson.A
 ```
 
 or a non-alias replacement proving that original smooth data cannot realize the
-first terminal Pack face.
+first terminal Field-window evidence.
 
 ## New live criticism
 

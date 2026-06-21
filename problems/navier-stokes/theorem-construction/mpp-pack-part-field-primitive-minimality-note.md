@@ -49,8 +49,8 @@ model-theoretic pairwise independence.
 
 Use only the currently installed class-membership surfaces.
 
-1. [mpp-pack-part-field-triadicity-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-pack-part-field-triadicity-audit-note.md)
-2. [mpp-pack-part-field-route-noncollapse-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-pack-part-field-route-noncollapse-note.md)
+1. [mpp-part-field-triadicity-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-part-field-triadicity-audit-note.md)
+2. [mpp-part-field-route-noncollapse-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-part-field-route-noncollapse-note.md)
 3. [mpp-exact-class-membership-witness-theorem.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-exact-class-membership-witness-theorem.md)
 4. [mpp-class-membership-endpoint-exclusion-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-class-membership-endpoint-exclusion-note.md)
 5. [mpp-law2-survivor-reduction-to-one-field-frontier.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-law2-survivor-reduction-to-one-field-frontier.md)
@@ -120,7 +120,7 @@ Therefore:
 ### Proof
 
 This is exactly the route-noncollapse package
-[mpp-pack-part-field-route-noncollapse-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-pack-part-field-route-noncollapse-note.md)
+[mpp-part-field-route-noncollapse-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-part-field-route-noncollapse-note.md)
 read together with the survivor split from `L2F.A` and `L13.A`.
 
 Before `NDT.A`, omitting `Part` leaves the dead channel open. After `NDT.A`,

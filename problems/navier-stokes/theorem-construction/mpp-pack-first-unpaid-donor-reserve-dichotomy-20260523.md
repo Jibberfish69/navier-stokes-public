@@ -128,7 +128,7 @@ ledger, so it cannot produce the selected surplus.
 The remaining alternatives are exactly the first-face exits:
 
 1. A finite or non-Zeno donor tree fails to telescope.  This is failure of the
-   donor/entrance Pack ledger, hence a Pack-face defect, not a retained Pack
+   donor/entrance Pack ledger, hence a Field-window evidence defect, not a retained Field-window evidence
    counterexample.
 2. The first-created branch collapses to terminal zero-radius Zeno ancestry.
    The terminal Zeno Pack-out-of-CM correction gives Part-side when original participation remains and true packet/window evidence only when that record is absent.
@@ -136,7 +136,7 @@ The remaining alternatives are exactly the first-face exits:
    This is precisely `not TerminalReserveFirstAppearanceCharge.A`, equivalently
    the localized `PositiveRemainderDepletion.A` supplier atom.
 
-Therefore a retained Pack counterexample to `ScaleCriticalTreeCarleson.A` cannot
+Therefore a retained Field-window evidence counterexample to `ScaleCriticalTreeCarleson.A` cannot
 survive once `TerminalReserveFirstAppearanceCharge.A` is proved.  Without that
 charge theorem, the Pack no-exit proof remains open at the first unpaid
 positive-scale donor-reserve birth.
