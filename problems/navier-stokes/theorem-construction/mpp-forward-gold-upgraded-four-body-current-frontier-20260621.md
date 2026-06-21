@@ -3013,3 +3013,63 @@ C A_{4B}+R_{\rm legal}.
 The CM-facing version sends those pieces to terminal trace/storage or infinite
 donor-chain exit after same-witness admission.  This is the exact current
 meaning of the final native-to-four-body bridge.
+
+The terminal Hardy/no-waste estimate is the sharpest current no-jump form.
+Define the genuine endpoint payment measure by
+
+```math
+d\mu_m=dR_m+d(-L_{4B,m})_+ .
+\tag{4BF.122}
+```
+
+Then
+
+```math
+\sup_m\int_{-1}^{0}(-s)^{-\alpha}\,d\mu_m(s)<\infty
+\tag{4BF.123}
+```
+
+for any \(\alpha\in(0,1)\) implies
+
+```math
+\lim_{\theta\downarrow0}\limsup_m\mu_m((-\theta,0])=0,
+\tag{4BF.124}
+```
+
+and hence the endpoint no-jump theorem.  The model pulse
+
+```math
+a_m(s)=a\,\tau_m^{-1}{\bf 1}_{(-\tau_m,0]}(s)
+\tag{4BF.125}
+```
+
+violates `(4BF.123)` by a factor \(\tau_m^{-\alpha}\), so the Hardy estimate
+kills exactly the remaining last-instant atom.
+
+The direct PDE production test gives a concrete conditional route.  If the
+retained normalized packets have a uniform local energy-pressure bound
+
+```math
+\sup_m
+\left(
+\|V_m\|_{L_s^\infty L_y^2}^2
++\|\nabla V_m\|_{L_{s,y}^2}^2
++\|Q_m\|_{L_{s,y}^{5/3}}^{5/3}
+\right)<\infty,
+\tag{4BF.126}
+```
+
+then the smooth full-packet trace density is in \(L_s^{10/9}\), and Hardy holds
+for every \(\alpha<1/10\), modulo the same weighted endpoint control for legal,
+terminal, signed, selector, and geometry measures.  Current installed inputs
+give radius-discounted physical control, not `(4BF.126)` on the retained
+terminal heat-scale family.  Thus the new frontier is:
+
+```math
+\boxed{
+\texttt{TerminalHardyNoWaste.A}
+\quad\text{or}\quad
+\text{CM endpoint-face consumption of Hardy failure.}
+}
+\tag{4BF.127}
+```
