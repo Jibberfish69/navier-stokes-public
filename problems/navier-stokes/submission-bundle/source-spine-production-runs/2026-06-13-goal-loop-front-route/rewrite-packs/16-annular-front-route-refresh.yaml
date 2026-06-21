@@ -17,7 +17,7 @@ source_rewrites:
   patch_intent: >-
     Refresh the build-driving front source so the reader sees the same-solution
     object, annular endpoint witness, gold forward-positive payment, and silver
-    CM first-face landing before support material can proliferate into theorem
+    CM first-Part/Field landing before support material can proliferate into theorem
     churn.
 - op: sync_support_copy
   path: problems/navier-stokes/submission-bundle/sections/main-result.tex
@@ -46,7 +46,7 @@ criticism_targets:
     - NS-THOMAS-RULE-FALSE-FINALITY-20260611
 route_constraints:
   gold_meaning: forward-positive certification route, paid only by page-written control
-  silver_meaning: CM-exit contrapositive route through selected Pack/Part/Field first-face landing
+  silver_meaning: CM-exit contrapositive route through selected Part/Field first-Part/Field landing
   containment: >-
     This batch does not open independent theorem work. It writes the current
     repo boundary into the PDF source and leaves the annular payment open.

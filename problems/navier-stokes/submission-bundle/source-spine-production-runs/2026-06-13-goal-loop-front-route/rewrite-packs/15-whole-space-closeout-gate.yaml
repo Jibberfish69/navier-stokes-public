@@ -12,7 +12,7 @@ source_rewrites:
   replacement: |
     \section{Whole-Space \texorpdfstring{\(\mathbb R^3\)}{R3} CM Exterior-Source Branch}
 
-    The periodic branch and the whole-space branch use the same class test.  Their entry costs differ.  On \(\mathbb T^3\), the transported atlas lives on a compact spatial domain.  On \(\mathbb R^3\), a terminal claim can try to hide high derivatives in the far field.  The paper handles that risk before it imports the Pack, Part, and Field decision.
+    The periodic branch and the whole-space branch use the same class test.  Their entry costs differ.  On \(\mathbb T^3\), the transported atlas lives on a compact spatial domain.  On \(\mathbb R^3\), a terminal claim can try to hide high derivatives in the far field.  The paper handles that risk before it imports the Part and Field decision.
 
     Fix \(s>5/2\).  Let \(u\) be the smooth Navier--Stokes branch on \([0,T_*)\times\mathbb R^3\) from smooth rapidly decaying divergence-free data, and let \(\eta_R\) be an exterior cutoff.  The strong positive export theorem would prove
     \[
@@ -70,7 +70,7 @@ source_rewrites:
     The energy class gives \(u\in L^4_tL^3_x\) on \([0,T_*)\).  The exterior factor tends to zero as \(R\to\infty\), and the second factor is square integrable in time on the same finite interval.  Thus \(F_R\to0\) in \(L^1_tL^{3/2}_x\), and the fixed-band \(H^s\) response vanishes.
     \end{proof}
 
-    \begin{proposition}[Exterior survivor lands in the CM faces]
+    \begin{proposition}[Exterior survivor lands in the CM Part/Fields]
     Assume the exterior nonlinear source survives in \(H^s\).  Then the selected terminal exterior survivor lands in the CM matrix:
     \[
       \neg\Pack_Q\;\vee\;\neg\Part_{M,Q}\;\vee\;
@@ -93,14 +93,14 @@ source_rewrites:
     \end{proof}
 
     \begin{theorem}[Whole-space CM classification state]
-    For smooth rapidly decaying divergence-free data on \(\mathbb R^3\), the whole-space exterior branch has the same pass-or-exit form as the periodic branch, with its own noncompact payment.  The exterior Duhamel split selects the relevant terminal object.  A vanishing exterior nonlinear source gives the member-side exterior \(H^s\) readout.  A surviving exterior nonlinear source lands in Pack, Part, or Field failure and supports \(\Exit(Q;\Owork)\).
+    For smooth rapidly decaying divergence-free data on \(\mathbb R^3\), the whole-space exterior branch has the same pass-or-exit form as the periodic branch, with its own noncompact payment.  The exterior Duhamel split selects the relevant terminal object.  A vanishing exterior nonlinear source gives the member-side exterior \(H^s\) readout.  A surviving exterior nonlinear source lands in Part or Field failure and supports \(\Exit(Q;\Owork)\).
     \end{theorem}
 
     \begin{proof}
     The Duhamel split removes the initial heat tail and the fixed compact-core far-field source.  The remaining exterior nonlinear source either vanishes in \(H^s\) or survives.  In the vanishing case, the whole-space branch has the continuation tail needed by the member-side readout.  In the surviving case, bounded exterior frequencies vanish, so the survivor is a dyadic high-frequency escape.  The preceding proposition reads that escape as Pack failure, Part failure, or Field failure on the same terminal record.  The CM embedding consumes the first failed face as \(\Exit(Q;\Owork)\).  The direct positive exterior \(H^s\) theorem remains a stronger gold/export theorem.
     \end{proof}
 
-    This is the whole-space branch result used later in the paper.  It keeps the periodic atlas and the noncompact exterior-source branch separate.  It also keeps the direct \(H^s\) tail theorem in its proper role: a stronger forward-positive route, valuable when proved, while the silver whole-space branch uses the CM face landing written above.
+    This is the whole-space branch result used later in the paper.  It keeps the periodic atlas and the noncompact exterior-source branch separate.  It also keeps the direct \(H^s\) tail theorem in its proper role: a stronger forward-positive route, valuable when proved, while the silver whole-space branch uses the CM Part/Field landing written above.
 
 - op: replace_section
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -124,7 +124,7 @@ source_rewrites:
     \end{proposition}
 
     \begin{proof}
-    The class object has three witness requirements and one member-side readout consequence.  A branch family can explain which requirement a familiar mechanism attacks.  It enters the proof only through a same-witness Pack, Part, or Field face, or through a same-witness continuation readout after the requirements survive.  Source-reserve, signed-current, no-pulse, endpoint, local-critical, whole-space, and comparison material all enter through that rule.
+    The class object has three witness requirements and one member-side readout consequence.  A branch family can explain which requirement a familiar mechanism attacks.  It enters the proof only through a same-witness Part or Field face, or through a same-witness continuation readout after the requirements survive.  Source-reserve, signed-current, no-pulse, endpoint, local-critical, whole-space, and comparison material all enter through that rule.
     \end{proof}
 
     \begin{corollary}[Coverage is a face ledger]
@@ -132,7 +132,7 @@ source_rewrites:
     \end{corollary}
 
     \begin{proof}
-    The preceding proposition exhausts the branch roles used by the manuscript.  A row with a selected record and a first face is proof material.  A row with a selected record and continuation readout is pass-side proof material.  A row awaiting both payments remains support.
+    The preceding proposition exhausts the branch roles used by the manuscript.  A row with a selected record and a first Part/Field is proof material.  A row with a selected record and continuation readout is pass-side proof material.  A row awaiting both payments remains support.
     \end{proof}
 
 - op: replace_section
@@ -148,9 +148,9 @@ source_rewrites:
 
     The first hinge is terminal record entry.  A finite Clay negation concerns one maximal classical branch from one datum.  At the alleged terminal time, that branch either has the \(H^s\), \(s>5/2\), endpoint readout that restarts it, or it has to name same-branch terminal data that prevents the restart.  That named data is the terminal record \(Q\).
 
-    The second hinge is member-side readout.  When Pack, Part, and Field survive on the same record, the record stays readable through the continuation consumer selected by the proof.  For the classical Sobolev consumer, this produces the \(H^s\), \(s>5/2\), restart branch for the original solution.
+    The second hinge is member-side readout.  When Part and Field survive on the same record, the record stays readable through the continuation consumer selected by the proof.  For the classical Sobolev consumer, this produces the \(H^s\), \(s>5/2\), restart branch for the original solution.
 
-    The third hinge is class exit.  The first failed Pack, Part, or Field face gives
+    The third hinge is class exit.  The first failed Part or Field face gives
     \[
       \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
     \]
@@ -165,7 +165,7 @@ source_rewrites:
   replacement: |
     \section{The Same-Solution CM Proof}
 
-    The proof now turns the preceding branch analysis into one same-solution argument.  The order is terminal entry, Pack, Part, Field, member-side readout, and class exit.  The alleged counterexample stays attached to the original solution at every step.  Once an admitted terminal alternative has landed in a first failed face, it is part of the pass-or-exit dichotomy.
+    The proof now turns the preceding branch analysis into one same-solution argument.  The order is terminal entry, Part and Field, member-side readout, and class exit.  The alleged counterexample stays attached to the original solution at every step.  Once an admitted terminal alternative has landed in a first failed face, it is part of the pass-or-exit dichotomy.
 
     \begin{proposition}[Terminal record entry from the finite Clay negation]
     Fix \(s>5/2\), a smooth divergence-free datum \(u_0\), viscosity \(\nu>0\), and the maximal classical branch
@@ -179,7 +179,7 @@ source_rewrites:
     The Clay claim concerns the solution generated by \(u_0\).  For each \(T<T_*\), that solution is smooth, solves the original Navier--Stokes system, and carries its material history from the same datum.  An \(H^s\), \(s>5/2\), endpoint readout at \(T_*\) triggers the local continuation theorem and restarts the branch.  In the remaining case, the terminal claim has to say what prevents the restart while staying attached to the same branch.  The record \(Q\) is that endpoint data: the selected material packet or its failure, the same-equation participation information or its failure, and the field readout information or its failure.
     \end{proof}
 
-    The proof has five steps.  First, the finite Clay negation is reduced to the same-branch alternative above: restart readout, or terminal record \(Q\).  Second, \(Q\) is admitted to the CM packet tree, or the proposed obstruction is rejected as the wrong object for the original solution.  Third, the admitted record is read in the order
+    The proof has five steps.  First, the finite Clay negation is reduced to the same-branch alternative above: restart readout, or terminal record \(Q\).  Second, \(Q\) is admitted to the CM participation-field tree, or the proposed obstruction is rejected as the wrong object for the original solution.  Third, the admitted record is read in the order
     \[
       \Pack_Q,\qquad \Part_{N,Q},\qquad \Field_{N,r,Q}.
     \]
@@ -195,7 +195,7 @@ source_rewrites:
       \quad\hbox{or}\quad
       \Exit(Q;\Owork).
     \]
-    The member outcome gives the same-solution readout chain up to the selected continuation consumer.  The exit outcome is supported by a first failed witness face:
+    The member outcome gives the same-solution readout chain up to the selected continuation consumer.  The exit outcome is supported by a first failed witness:
     \[
       \neg\Pack_Q,\qquad
       \Pack_Q\wedge\neg\Part_{N,Q},\qquad
@@ -204,10 +204,10 @@ source_rewrites:
     \end{theorem}
 
     \begin{proof}
-    The terminal record entry proposition gives the same-branch reduction.  The restart-readout case continues the same solution.  In the remaining case, the finite Clay claim supplies the terminal record \(Q\) from the original branch.  Membership in \(\Owork\) is the conjunction of material custody, same-equation participation, and positive-scale field readout on that same record.  When those requirements survive at the finite continuation levels, the member-side readout chain feeds the continuation criterion selected for that branch.  For the classical Sobolev endpoint, the local \(H^s\) theorem restarts the same solution beyond \(T_*\).  When the record loses one requirement, the first lost requirement is a Pack, Part, or Field face failure and gives \(\Exit(Q;\Owork)\).  These two outcomes exhaust the same-solution terminal class.
+    The terminal record entry proposition gives the same-branch reduction.  The restart-readout case continues the same solution.  In the remaining case, the finite Clay claim supplies the terminal record \(Q\) from the original branch.  Membership in \(\Owork\) is the conjunction of material custody, same-equation participation, and positive-scale field readout on that same record.  When those requirements survive at the finite continuation levels, the member-side readout chain feeds the continuation criterion selected for that branch.  For the classical Sobolev endpoint, the local \(H^s\) theorem restarts the same solution beyond \(T_*\).  When the record loses one requirement, the first lost requirement is a Part or Field Part/Field failure and gives \(\Exit(Q;\Owork)\).  These two outcomes exhaust the same-solution terminal class.
     \end{proof}
 
-    This theorem is the class-consumption theorem.  Surface landings still do the work that makes a terminal record legitimate.  The periodic branch selects the transported whole-torus atlas and reads non-continuation through that atlas.  The whole-space branch selects the exterior Duhamel survivor after the initial heat tail and fixed compact-core far-field source are removed.  The annular endpoint branch remains the live boundary: the surrounding positive-radius fields must be controlled by the gold annular supplier or followed by the silver branch to a selected same-solution Pack, Part, or Field face before the paper can claim CMI finality.
+    This theorem is the class-consumption theorem.  SurPart/Field landings still do the work that makes a terminal record legitimate.  The periodic branch selects the transported whole-torus atlas and reads non-continuation through that atlas.  The whole-space branch selects the exterior Duhamel survivor after the initial heat tail and fixed compact-core far-field source are removed.  The annular endpoint branch remains the live boundary: the surrounding positive-radius fields must be controlled by the gold annular supplier or followed by the silver branch to a selected same-solution Part or Field face before the paper can claim CMI finality.
 
 - op: replace_section
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -232,7 +232,7 @@ source_rewrites:
     \]
     or after it supplies the member-side readout chain up to the continuation consumer selected for that same record.  Support material can explain why a branch was considered.  It becomes proof material when it selects the record and pays the face or readout.
 
-    This rule is the paper's protection against proof-attempt churn.  A failed direct estimate stays in the appendix as support, obstruction, or scope boundary.  It moves into the main proof only when the manuscript can say which same-solution object it selects and which Pack, Part, Field, or readout payment it supplies.
+    This rule is the paper's protection against proof-attempt churn.  A failed direct estimate stays in the appendix as support, obstruction, or scope boundary.  It moves into the main proof only when the manuscript can say which same-solution object it selects and which Part and Field, or readout payment it supplies.
 
     \appendix
 
@@ -245,11 +245,11 @@ source_rewrites:
   replacement: |
     \section{Supplementary Branch Checks}
 
-    The appendices collect supporting calculations, failed direct estimates, and branch-local reductions.  They show why proposed terminal scenarios are read as Pack, Part, Field, member-side readout, support, or scope boundary.
+    The appendices collect supporting calculations, failed direct estimates, and branch-local reductions.  They show why proposed terminal scenarios are read as Part and Field, member-side readout, support, or scope boundary.
 
-    Those calculations are evidence for the theorem above.  When an appendix calculation says that a source-control theorem, no-pulse route, critical-norm route, or direct exterior \(H^s\) estimate failed to close, it records the failure of that direct estimate.  The calculation becomes an input to the proof only when the main body cites it as a selected-record face landing or readout payment.
+    Those calculations are evidence for the theorem above.  When an appendix calculation says that a source-control theorem, no-pulse route, critical-norm route, or direct exterior \(H^s\) estimate failed to close, it records the failure of that direct estimate.  The calculation becomes an input to the proof only when the main body cites it as a selected-record Part/Field landing or readout payment.
 
-    The main-body theorem is the same-solution CM dichotomy together with the named surface landings.  A member branch gives continuation through its selected readout.  A failed branch gives class exit through the first failed Pack, Part, or Field face on the selected record.  The appendix keeps every unfinished or obsolete direct route visible and keeps that material from replacing the proof spine.
+    The main-body theorem is the same-solution CM dichotomy together with the named surPart/Field landings.  A member branch gives continuation through its selected readout.  A failed branch gives class exit through the first failed Part or Field face on the selected record.  The appendix keeps every unfinished or obsolete direct route visible and keeps that material from replacing the proof spine.
 
     \begingroup
     \sloppy

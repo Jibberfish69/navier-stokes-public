@@ -14,5 +14,5 @@ source_rewrites:
     Rewrote the reserve, active-square, upper-tail Carleson, affine-quotient,
     and affine-survivor support slice so the appendix states what each
     calculation buys, where the current theorem stack runs out, and how the
-    surviving object can enter CM only through Pack, Part, Field, or readout.
+    surviving object can enter CM only through Part and Field, or readout.
 verification_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/2026-06-13-goal-loop-front-route/appendix-distillation-ledger.yaml

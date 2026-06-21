@@ -29,7 +29,7 @@ source_authoring_summary: >-
   support instead of recovered proof-attempt notes.  It explains which
   frequency-transfer and lifted-band objects remain open gold supplier targets,
   which reductions are already installed, and where a silver CM use would begin:
-  only after a selected same-solution residue is carried to Pack, Part, Field,
+  only after a selected same-solution residue is carried to Part and Field,
   or readout.  The canonical-center and cap-null material now names its exact
   missing payments rather than letting reserve structures read as closure.
 proof_role:
@@ -39,8 +39,8 @@ proof_role:
     gold proof attempt and does not certify the forward-positive route.
   silver_layer: >-
     The edited slice states the CM counterpart for each relevant residue:
-    same-solution selection first, then Pack, Part, Field, or readout.  It does
-    not claim a silver first-face landing for the annular endpoint witness.
+    same-solution selection first, then Part and Field, or readout.  It does
+    not claim a silver first-Part/Field landing for the annular endpoint witness.
 verification:
   build_command: >-
     latexmk -pdf -interaction=nonstopmode -halt-on-error
@@ -80,4 +80,4 @@ remaining_open_after_batch:
   - >-
     The annular endpoint witness remains open until gold residual-load control
     is proved or the silver branch lands the selected same-solution Pack, Part,
-    or Field first face on the page.
+    or Field first Part/Field on the page.

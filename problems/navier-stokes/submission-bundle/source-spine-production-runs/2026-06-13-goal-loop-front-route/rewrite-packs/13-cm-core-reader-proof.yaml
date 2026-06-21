@@ -84,7 +84,7 @@ source_rewrites:
     \[
       \WitnessRecord=(u_0,\nu,u,p,Q,N,r,\Phi,T_*).
     \]
-    The entries have a simple job.  \(Q\) is the selected terminal object.  \(N\) is the finite derivative depth being tested.  \(r>0\) is the field scale on which neighboring readings must still agree.  \(\Phi\) is the transported carrier, and \(T_*\) is the alleged finite terminal time.  Pack, Part, and Field are all read on this same record.  Changing the record between faces would change the branch under test.
+    The entries have a simple job.  \(Q\) is the selected terminal object.  \(N\) is the finite derivative depth being tested.  \(r>0\) is the field scale on which neighboring readings must still agree.  \(\Phi\) is the transported carrier, and \(T_*\) is the alleged finite terminal time.  Part and Field are all read on this same record.  Changing the record between faces would change the branch under test.
 
     \begin{definition}[Witness record]
     A witness record is one terminal data record
@@ -168,13 +168,13 @@ source_rewrites:
   replacement: |
     \section{Velocity Failure Types}
 
-    The words dead, jump, and blown are mechanism labels.  They are not extra classes beyond Pack, Part, and Field.  The proof first places the selected terminal record in the witness tree, then names the mechanism.
+    The words dead, jump, and blown are mechanism labels.  They are not extra classes beyond Part and Field.  The proof first places the selected terminal record in the witness tree, then names the mechanism.
 
     \subsection{Dead}
 
     Dead is a Part-side mechanism.  The carrier is still being named, but the same pressure-viscosity-incompressibility law no longer acts on it through the tower being tested.  The word does not mean zero velocity.  It means loss of same-object dynamics.
 
-    Once Part fails, Field usually fails as a consequence because neighboring readings cannot form one same-law field without the law that relates them.  The first face is Part when the carrier is retained and participation is the first lost requirement.
+    Once Part fails, Field usually fails as a consequence because neighboring readings cannot form one same-law field without the law that relates them.  The first Part/Field is Part when the carrier is retained and participation is the first lost requirement.
 
     \subsection{Jump}
 
@@ -186,7 +186,7 @@ source_rewrites:
 
     Blown is the unbounded-tower mechanism.  A positive carrier remains visible, and a velocity derivative, pressure term, viscous term, or continuation readout becomes unbounded at the finite depth under test.  The usual blowup picture belongs here only after the selected same-solution record has been fixed.
 
-    The first face still has to be located.  If the deformation or atlas degenerates so severely that no positive same-fluid carrier remains, the first face is Pack.  If the carrier remains but the pressure-viscosity tower cannot be read as the same finite tower, the first face is Part.  If Pack and Part are retained while no positive-scale coherent field can include the unbounded reading, the first face is Field.  The same physical episode can be seen from neighboring packets in different ways, but the proof records the first failed face on the selected record.
+    The first Part/Field still has to be located.  If the deformation or atlas degenerates so severely that no positive same-fluid carrier remains, the first Part/Field is Pack.  If the carrier remains but the pressure-viscosity tower cannot be read as the same finite tower, the first Part/Field is Part.  If Pack and Part are retained while no positive-scale coherent field can include the unbounded reading, the first Part/Field is Field.  The same physical episode can be seen from neighboring packets in different ways, but the proof records the first failed face on the selected record.
 - op: replace_section
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   section_title: The Contrapositive Logic
@@ -218,7 +218,7 @@ source_rewrites:
       \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
     \]
 
-    The split has two sides.  On the pass side, the selected same-solution record retains Pack, Part, and Field and carries the branch readout named by the proof:
+    The split has two sides.  On the pass side, the selected same-solution record retains Part and Field and carries the branch readout named by the proof:
     \[
       \CM_{N_*,r,Q}
       \ \text{on the selected record}
@@ -235,7 +235,7 @@ source_rewrites:
       \quad\text{or}\quad
       \Pack_Q\wedge\Part_{N_*,Q}\wedge\forall r>0\,\neg\Field_{N_*,r,Q}.
     \]
-    That first face failure supports \(\Exit(Q;\Owork)\).  The CM route is this pass-or-exit split on the same record.  It is not a shortcut around selecting the terminal object, and it is not a replacement for the forward-positive gold route.
+    That first Part/Field failure supports \(\Exit(Q;\Owork)\).  The CM route is this pass-or-exit split on the same record.  It is not a shortcut around selecting the terminal object, and it is not a replacement for the forward-positive gold route.
 - op: replace_section
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   section_title: Simplifying The Witness Logic Table
@@ -252,7 +252,7 @@ source_rewrites:
     \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}
       & \text{member-side candidate, with readout still required}\\
     \neg\Pack_Q
-      & \text{Pack-first failure}\\
+      & \text{Field-certification failure}\\
     \Pack_Q\wedge\neg\Part_{N,Q}
       & \text{Part-first failure}\\
     \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
@@ -261,7 +261,7 @@ source_rewrites:
     \]
     The discarded formal rows are not ignored.  They are read through the same first-face rule.  A field reading without a same carrier has already lost Pack.  A participation reading without a same carrier has already lost Pack.  A carrier whose law and field both fail is recorded at the first lost face.
 
-    Some failures are easiest to see from Field first.  A slip sheet is the clean example: the visible problem is neighboring-field jump, and the Part defect may be isolated only after the neighboring fields are placed on one record.  Field stays in the table for that reason.  It catches terminal pictures that Part alone does not expose on its own, while the final class-exit reading remains tied to the same Pack/Part/Field record.
+    Some failures are easiest to see from Field first.  A slip sheet is the clean example: the visible problem is neighboring-field jump, and the Part defect may be isolated only after the neighboring fields are placed on one record.  Field stays in the table for that reason.  It catches terminal pictures that Part alone does not expose on its own, while the final class-exit reading remains tied to the same Part/Field record.
 - op: replace_section
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   section_title: The Class-Law Proof
@@ -271,10 +271,10 @@ source_rewrites:
   replacement: |
     \section{The Class-Law Proof}
 
-    Classification supplies the exit witness.  The proof has to show that one selected terminal branch cannot be both a member-continuation branch and the nonsmoothness-capable face-failure witness.
+    Classification supplies the exit witness.  The proof has to show that one selected terminal branch cannot be both a member-continuation branch and the nonsmoothness-capable Part/Field-failure witness.
 
-    \begin{definition}[Terminal face-failure witness]
-    A terminal face-failure witness is a same-solution terminal record \(Q\) that is admitted to the CM test and satisfies \(\Exit(Q;\Owork)\) by a derived Pack, Part, or Field face failure.  It belongs to the fail side of the obstruction split and carries no legal member-continuation status.
+    \begin{definition}[Terminal Part/Field-failure witness]
+    A terminal Part/Field-failure witness is a same-solution terminal record \(Q\) that is admitted to the CM test and satisfies \(\Exit(Q;\Owork)\) by a derived Part or Field Part/Field failure.  It belongs to the fail side of the obstruction split and carries no legal member-continuation status.
     \end{definition}
 
     \begin{proposition}[Legal branch law]
@@ -299,7 +299,7 @@ source_rewrites:
     \end{theorem}
 
     \begin{proof}
-    Membership gives Pack, Part, and Field on one witness record, and the pass side also carries the continuation/readout supplier for that branch.  By that readout, the same selected branch is on the smooth continuation side of the split.  That contradicts the claim that the same branch blocks smooth continuation at \(T_*\).
+    Membership gives Part and Field on one witness record, and the pass side also carries the continuation/readout supplier for that branch.  By that readout, the same selected branch is on the smooth continuation side of the split.  That contradicts the claim that the same branch blocks smooth continuation at \(T_*\).
     \end{proof}
 
     \begin{theorem}[CM branch target]
@@ -322,7 +322,7 @@ source_rewrites:
     \begin{proof}
     The pass branch retains the carrier, participation, and field requirements on one witness record and carries the branch readout named by the proof.  It is a member-continuation branch by that attached readout.
 
-    The fail branch is offered as a finite same-solution terminal obstruction.  The classification theorem admits that obstruction to the CM test, or rejects it by scope, and then exhausts any admitted terminal object by the first face it loses: Pack, Part, or Field.  The derived face failure is the finite-failure witness read as \(\Exit(Q;\Owork)\).
+    The fail branch is offered as a finite same-solution terminal obstruction.  The classification theorem admits that obstruction to the CM test, or rejects it by scope, and then exhausts any admitted terminal object by the first Part/Field it loses: Part or Field.  The derived Part/Field failure is the finite-failure witness read as \(\Exit(Q;\Owork)\).
     \end{proof}
 
     \begin{theorem}[CM terminal witness classification target, with annular boundary]
@@ -437,12 +437,12 @@ source_rewrites:
     \]
     The admission boundary is explicit.  Selection means the paper follows the annular tail actually produced by the alleged finite-time breakdown of the original solution.  Readout completeness means that the selected tail still carries enough same-solution information to test the claimed breakdown: the carrier, the pressure-viscosity-incompressibility participation law, the derivative tower depth being used, and a positive-scale field record.  Without that payment, the silver route remains a conditional counterpart rather than a final proof claim.
 
-    For the periodic branch, selection and readout are paid by the transported whole-torus atlas \(Q_{\mathrm{atlas}}\).  This is a branch-specific payment, not a proof that the open terminal Zeno source-refill theorem has been supplied in general.  The whole-space branch is separate.  For rapidly decaying data on \(\mathbb R^3\), the exterior Duhamel split removes the initial heat tail and the far-field effect of any fixed compact-core source.  A vanishing exterior nonlinear source supplies the usual whole-space continuation readout.  A surviving exterior source enters the same CM packet test as Pack, Part, or Field pressure.  The direct exterior \(H^s\) tail theorem remains a stronger gold/export theorem, not a hidden premise of the silver whole-space CM branch.
+    For the periodic branch, selection and readout are paid by the transported whole-torus atlas \(Q_{\mathrm{atlas}}\).  This is a branch-specific payment, not a proof that the open terminal Zeno source-refill theorem has been supplied in general.  The whole-space branch is separate.  For rapidly decaying data on \(\mathbb R^3\), the exterior Duhamel split removes the initial heat tail and the far-field effect of any fixed compact-core source.  A vanishing exterior nonlinear source supplies the usual whole-space continuation readout.  A surviving exterior source enters the same CM participation-field test as Part or Field pressure.  The direct exterior \(H^s\) tail theorem remains a stronger gold/export theorem, not a hidden premise of the silver whole-space CM branch.
 
     \begin{proof}
     Assume that the maximal smooth solution from \(u_0\) is alleged to stop at a finite time \(T_*\), and let \(Q\) be the terminal object offered by that breakdown claim.  The CM test admits only same-solution terminal objects.  A surrogate equation, comparison object, or support packet is rejected before it can count as the terminal object for this claim.
 
-    For an admitted object, membership in the working CM class is the conjunction of positive Pack carrier, same pressure-viscosity Part action, and positive-scale Field record, with the branch readout attached on the pass side.  If all survive, the selected branch is on the \(\Member(Q;\Owork)\) side.  If the alleged finite terminal object is not on that side, the first failed requirement is \(\neg\Pack_Q\), or \(\Pack_Q\wedge\neg\Part_{N,Q}\), or \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\).  That first face failure is embedded as \(\Exit(Q;\Owork)\).
+    For an admitted object, membership in the working CM class is the conjunction of positive Pack carrier, same pressure-viscosity Part action, and positive-scale Field record, with the branch readout attached on the pass side.  If all survive, the selected branch is on the \(\Member(Q;\Owork)\) side.  If the alleged finite terminal object is not on that side, the first failed requirement is \(\neg\Pack_Q\), or \(\Pack_Q\wedge\neg\Part_{N,Q}\), or \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\).  That first Part/Field failure is embedded as \(\Exit(Q;\Owork)\).
 
     In the annular-limit case, the point \(r_*=0\) can fail Pack as a point-object, while the surrounding positive-radius fields remain the live witness that must be controlled or classified.  That is why this theorem is a classification target with an annular boundary, not a final Clay closure by itself.
     \end{proof}
@@ -460,11 +460,11 @@ source_rewrites:
     \begin{aligned}
     &\text{finite Clay breakdown witness}\\
     &\Longrightarrow \text{legitimate CM terminal object or scope rejection}\\
-    &\Longrightarrow \text{first Pack/Part/Field face failure}\\
+    &\Longrightarrow \text{first Part/Field Part/Field failure}\\
     &\Longrightarrow \Exit(Q;\Owork).
     \end{aligned}
     \]
-    The pass side supplies a lawful \(\Member(Q;\Owork)\) branch and reads out to smooth continuation when the pass branch is the same original solution branch.  The fail side first enters the CM terminal test and then loses one required feature.  There is no fourth same-solution terminal failure outside Pack, Part, and Field.
+    The pass side supplies a lawful \(\Member(Q;\Owork)\) branch and reads out to smooth continuation when the pass branch is the same original solution branch.  The fail side first enters the CM terminal test and then loses one required feature.  There is no fourth same-solution terminal failure outside Part and Field.
 
     The present paper keeps the annular-limit witness as the live place where this chain is not yet a final Clay closure.  The surrounding positive-radius terminal witness still has to be paid by gold control or, after annular admission, by a completed silver Part/Field landing.
 
@@ -477,7 +477,7 @@ source_rewrites:
       \qquad
       \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},
     \]
-    with the derived face failure embedded as
+    with the derived Part/Field failure embedded as
     \[
       \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
     \]
@@ -497,11 +497,11 @@ source_rewrites:
     \end{proposition}
 
     \begin{proof}
-    The torus material-atlas theorem supplies the terminal object.  \(Q_{\mathrm{atlas}}\) is the whole transported finite atlas, not a selected diagnostic packet.  It also fixes the readout-compatible Pack predicate, so failure of atlas selection is \(\neg\Pack_{Q_{\mathrm{atlas}}}\), not a fourth terminal requirement.  Once the proposed object is the same-solution terminal atlas object, the first failed membership requirement must be Pack, Part, or Field.
+    The torus material-atlas theorem supplies the terminal object.  \(Q_{\mathrm{atlas}}\) is the whole transported finite atlas, not a selected diagnostic packet.  It also fixes the readout-compatible Pack predicate, so failure of atlas selection is \(\neg\Pack_{Q_{\mathrm{atlas}}}\), not a fourth terminal requirement.  Once the proposed object is the same-solution terminal atlas object, the first failed membership requirement must be Part or Field.
     \end{proof}
 
     \begin{theorem}[Periodic CM classification state]
-    For smooth divergence-free zero-mean data on \(\mathbb T^3\), the same-solution CM route classifies any admitted finite terminal witness.  Every legitimate finite terminal witness is admitted to the transported atlas \(Q_{\mathrm{atlas}}\), exhausted by its first failed Pack, Part, or Field face, and embedded as
+    For smooth divergence-free zero-mean data on \(\mathbb T^3\), the same-solution CM route classifies any admitted finite terminal witness.  Every legitimate finite terminal witness is admitted to the transported atlas \(Q_{\mathrm{atlas}}\), exhausted by its first failed Part or Field face, and embedded as
     \[
       \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
     \]
@@ -509,5 +509,5 @@ source_rewrites:
     \end{theorem}
 
     \begin{proof}
-    Assume \(T_*<\infty\).  The whole-torus terminal atlas is readout-complete.  The finite endpoint either retains Pack, Part, and Field on the same transported atlas, or it has a first Pack, Part, or Field face failure.  An annular residue surrounding the endpoint is tested through this same atlas rather than as a private diagnostic packet.  The face-failure branch is consumed by the terminal witness theorem and embedded as class exit for the same working Navier--Stokes object.  The retained branch gives the \(H^s\), \(s>5/2\), continuation norm for the same original solution.  The failed branch is outside \(\Member(Q;\Owork)\), so it cannot serve as an in-class finite Clay continuation branch.
+    Assume \(T_*<\infty\).  The whole-torus terminal atlas is readout-complete.  The finite endpoint either retains Part and Field on the same transported atlas, or it has a first Part or Field Part/Field failure.  An annular residue surrounding the endpoint is tested through this same atlas rather than as a private diagnostic packet.  The Part/Field-failure branch is consumed by the terminal witness theorem and embedded as class exit for the same working Navier--Stokes object.  The retained branch gives the \(H^s\), \(s>5/2\), continuation norm for the same original solution.  The failed branch is outside \(\Member(Q;\Owork)\), so it cannot serve as an in-class finite Clay continuation branch.
     \end{proof}

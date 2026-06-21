@@ -17,13 +17,13 @@ source_rewrites:
     \begin{array}{l}
     \text{it selects the same-solution terminal record,}\\
     \text{it supplies the member-side continuation readout for that record,}\\
-    \text{it proves the first failed Pack, Part, or Field face,}\\
+    \text{it proves the first failed Part or Field face,}\\
     \text{or it remains support until one of those jobs is paid.}
     \end{array}
     \]
     This rule keeps the forward-positive material useful while preserving CM proof priority.  A branch note may explain a real obstruction, a real estimate, or a real route failure.  The manuscript spends that note only after it identifies the terminal record and the face or readout the note pays.
 
-    The main records are already visible.  On the periodic surface, the selected terminal record is the transported whole-torus atlas \(Q_{\mathrm{atlas}}\).  On the whole-space surface, the selected record comes from the exterior Duhamel split and the dyadic survivor test.  At the annular endpoint, the selected record is the limiting same-solution behavior on shrinking positive-radius annuli.  Those annuli are live terminal witnesses until gold controls the residual load or silver lands the surviving residual obstruction in Pack, Part, or Field.
+    The main records are already visible.  On the periodic surface, the selected terminal record is the transported whole-torus atlas \(Q_{\mathrm{atlas}}\).  On the whole-space surface, the selected record comes from the exterior Duhamel split and the dyadic survivor test.  At the annular endpoint, the selected record is the limiting same-solution behavior on shrinking positive-radius annuli.  Those annuli are live terminal witnesses until gold controls the residual load or silver lands the surviving residual obstruction in Part or Field.
 
     A forward estimate is proof material when it says something precise about that selected record: which carrier survives, which participation law is retained or lost, which positive-scale field readout is available, or which continuation readout follows.  It is support while that record or face is still unnamed.
 
@@ -36,7 +36,7 @@ source_rewrites:
     \end{definition}
 
     \begin{proposition}[Source-reserve routing]
-    Every selected source-reserve branch is routed through the first face it can answer:
+    Every selected source-reserve branch is routed through the first Part/Field it can answer:
     \[
     \begin{array}{rcl}
     \neg\Pack_Q &:& \text{no same-fluid carrier},\\
@@ -54,7 +54,7 @@ source_rewrites:
     \[
       \text{can positive terminal source reserve be born for free on the original branch?}
     \]
-    For the manuscript, those notes are support until they attach to the selected same-solution record.  Once the reserve is inherited, charged, depleted, or landed in a Pack, Part, or Field face, it becomes proof material for that record.
+    For the manuscript, those notes are support until they attach to the selected same-solution record.  Once the reserve is inherited, charged, depleted, or landed in a Part or Field face, it becomes proof material for that record.
 
     \subsection{BASAC, Pressure, And Rigid Residue}
 
@@ -79,7 +79,7 @@ source_rewrites:
     Zeno arguments describe terminal objects that appear only through infinite refinement toward \(T_*\).  They are tempting because a zero-radius object can look like the dangerous part of the singularity.  For the point-object alone, zero radius is decisive.  For the singularity claim, the proof still has to test the shrinking positive-radius fields around that point.
 
     \begin{proposition}[Zeno routing]
-    A Zeno terminal branch with no positive terminal carrier is Pack-side.  A retained positive-scale Zeno branch is a finite typed subcase in the ordinary Pack/Part/Field tree.  A Zeno or annular-limit branch witnessed by positive-radius fields remains live until those fields are controlled or, after admission, land in Part or Field.
+    A Zeno terminal branch with no positive terminal carrier is Pack-side.  A retained positive-scale Zeno branch is a finite typed subcase in the ordinary Part/Field tree.  A Zeno or annular-limit branch witnessed by positive-radius fields remains live until those fields are controlled or, after admission, land in Part or Field.
     \end{proposition}
 
     \begin{proof}
@@ -116,21 +116,21 @@ source_rewrites:
     Signed current measures how the source economy moves.  The class object asks whether the selected terminal packet retains the carrier, the participation tower, and coherent field data.  Current information can prove or support one of those requirement statements.  It supplies information for one of the requirements in \(\CM_{N,r,Q}\).
     \end{proof}
 
-    The terminal signed-saturation reduction is valuable because it makes this routing explicit.  Failed saturation is paid by retained partners, legal exits, pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue.  Those alternatives are Pack, Part, Field, or support outcomes inside the same terminal world.
+    The terminal signed-saturation reduction is valuable because it makes this routing explicit.  Failed saturation is paid by retained partners, legal exits, pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue.  Those alternatives are Part and Field, or support outcomes inside the same terminal world.
 
     \subsection{Endpoint, No-Pulse, And Good-Scale Readout}
 
     Endpoint arguments are closest to classical continuation.  They ask for a good scale, a read cover, pulse exclusion, terminal-tail control, and coherent field output.  They are essential on the pass side.  They become misleading when they are treated as the primitive class test.
 
     \begin{proposition}[Readout role]
-    Endpoint readout proves smooth continuation from a member packet.  It certifies membership only after the Pack, Part, and Field requirements hold on one witness record.
+    Endpoint readout proves smooth continuation from a member packet.  It certifies membership only after the Part and Field requirements hold on one witness record.
     \end{proposition}
 
     \begin{proof}
     The smooth continuation readout reads a packet that already has enough coherent field control.  That packet must be carried by the same fluid, governed by the same Navier--Stokes law through the velocity tower, and coherent on a positive scale.  Those are the three requirements.  Readout is the consequence of the requirements, and the requirements remain the class test.
     \end{proof}
 
-    This is where the silver-standard proof separates from a brute-force positive proof.  The pass branch can use any endpoint mechanism strong enough to read a member packet.  The fail branch is handled by class exit.  The selected terminal record supplies the packet, so endpoint estimates become pass-side support while the proof spine remains the Pack/Part/Field test.
+    This is where the silver-standard proof separates from a brute-force positive proof.  The pass branch can use any endpoint mechanism strong enough to read a member packet.  The fail branch is handled by class exit.  The selected terminal record supplies the packet, so endpoint estimates become pass-side support while the proof spine remains the Part/Field test.
 
     \input{sections/rebuilt-branch-status-ledger.tex}
     \input{sections/rebuilt-positive-forward-and-four-body-diagnostic.tex}
@@ -170,17 +170,17 @@ source_rewrites:
     \begin{proof}
     Read the families by their selected terminal object.  Source-control and donor-refill branches select terminal source ancestry or reserve.  Detached or unpaid ancestry without a positive same-fluid carrier is Pack-side.  Retained source residue with carrier and broken pressure-viscosity participation is Part-side.  Retained source residue that has passed Pack and Part becomes a Field or readout diagnostic.
 
-    Zero-radius and terminal-atom branches select a point-object with no positive terminal carrier unless a retained positive-scale packet has first been supplied.  The point-object branch is a Pack face failure.  Retained Zeno and annular alternatives are finite typed subcases inside the same witness tree.
+    Zero-radius and terminal-atom branches select a point-object with no positive terminal carrier unless a retained positive-scale packet has first been supplied.  The point-object branch is a Pack Part/Field failure.  Retained Zeno and annular alternatives are finite typed subcases inside the same witness tree.
 
     Retained-amplitude, height-flux, low-strain, signed-current, and square-reserve branches select failures of gain, dwell, participation, source balance, or retained coherence.  Each such failure either breaks the carrier, breaks the same pressure-viscosity participation tower after the carrier survives, breaks positive-scale coherence after Pack and Part survive, or remains a positive supplier theorem outside the class primitive.
 
-    Good-scale, endpoint-readout, no-pulse, averaged, and terminal-tail branches read a packet that has already retained enough structure to be read.  They support Field and the continuation consequence.  They become proof material only when the exact packet has already entered Pack, Part, or Field.
+    Good-scale, endpoint-readout, no-pulse, averaged, and terminal-tail branches read a packet that has already retained enough structure to be read.  They support Field and the continuation consequence.  They become proof material only when the exact packet has already entered Part or Field.
 
-    Local critical translators place local \(L^3\) or Duhamel mass back on the same witness record.  Their role is branch-local: native source work or Pack/Part/Field exit.
+    Local critical translators place local \(L^3\) or Duhamel mass back on the same witness record.  Their role is branch-local: native source work or Part/Field exit.
 
     Broad fixed-viscosity transfer and broad Euler mirror branches are comparison programs.  The Euler material admitted into this manuscript is narrower.  The same selected Navier--Stokes packet has retained the shared flux-momentum reading, has lost fixed-viscosity Part or Field participation, and is thereby readable as the base Euler boundary object.  Everything else remains support outside the proof body.
 
-    These alternatives exhaust the branch families because every branch either supplies a selected same-solution terminal object or supplies context for such an object.  Selected terminal objects are exhausted by the same Pack/Part/Field terminal-capture theorem.  Context without a selected face remains support outside the proof spine.
+    These alternatives exhaust the branch families because every branch either supplies a selected same-solution terminal object or supplies context for such an object.  Selected terminal objects are exhausted by the same Part/Field terminal-capture theorem.  Context without a selected face remains support outside the proof spine.
     \end{proof}
 
     \begin{center}
@@ -190,10 +190,10 @@ source_rewrites:
     \hline
     Source reserve and donor refill & terminal source ancestry or residual refill & Pack first; Part after carrier survives; Field after Pack and Part\\
     Zeno, terminal atoms, and annular limit & point-object or shrinking annular witness & point-object Pack failure; admitted annular witness returns to Part or Field landing\\
-    Retained amplitude and low strain & terminal amplitude, dwell, or height-flux branch & finite routing through Pack, Part, Field, or Zeno\\
+    Retained amplitude and low strain & terminal amplitude, dwell, or height-flux branch & finite routing through Part and Field, or Zeno\\
     Signed current and no-free-sink & source-current or donor-balance record & support until it proves a same-record face or readout\\
     Square reserve and native trilinear control & selected square-source reserve & auxiliary until the reserve lands in first-face order\\
-    Endpoint readout and no-pulse & good-scale or read-cover packet & member-side readout after Pack, Part, and Field survive\\
+    Endpoint readout and no-pulse & good-scale or read-cover packet & member-side readout after Part and Field survive\\
     Local \(L^3\) translators & localized public-critical terminal mass & witness-record recovery before face testing\\
     Euler boundary comparison & same selected packet after fixed-viscosity loss & boundary reading after the Navier--Stokes face is typed\\
     \end{tabular}
@@ -258,7 +258,7 @@ source_rewrites:
     C &\Longrightarrow
     \text{a selected packet }Q\\
       &\Longrightarrow
-    \text{a Pack, Part, or Field decision for }Q .
+    \text{a Part or Field decision for }Q .
     \end{aligned}
     \]
     In the clean loss-of-viscosity case, the same theorem also reads the escaped packet as
