@@ -13,7 +13,7 @@ OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 
 This target is the branch killer needed for the averaged
 `ACT.KX/DTC.A_avg` endpoint-production route. It is not the CM primitive and is
-not a fourth witness face. It is source/readout support until a checked bridge
+not a fourth witness. It is source/readout support until a checked bridge
 lands the downstream consequence in `Pack`, `Part`, or `Field`.
 
 ## Attempt 1: local source / active-square route

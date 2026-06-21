@@ -164,4 +164,4 @@ Equivalently, prove a non-Carleson temporal anti-concentration theorem such as
 prove a class-specific no-incoming/backward-uniqueness theorem for `B_ASAC`.
 Without that Liouville input, the equality-rigidity route does not close
 `SourceWeightedTerminalAngularDepletion.A`; the surviving residue is only
-CM-usable through the installed Pack/Part/Field sorting diagnostics.
+CM-usable through the installed Part/Field sorting diagnostics.

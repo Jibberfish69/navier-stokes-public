@@ -3,7 +3,7 @@
 ## Status
 
 Rehydration after the averaged endpoint / `Jump_avg` branch and the
-CM witness-face bridge-license repair.
+CM witness bridge-license repair.
 
 The old active targets are no longer the live obstruction:
 
@@ -18,7 +18,7 @@ CM.CrossFaceSynthesis.A
 ```
 
 is installed as the aggregate bridge-license theorem for synchronized
-Pack/Part/Field face certificates on the same `Q,N,r`, same-fluid carrier, and
+Part/Field face certificates on the same `Q,N,r`, same-fluid carrier, and
 still-live window.  It does not discharge the source wall.
 
 The live source-wall root remains:
@@ -203,7 +203,7 @@ OriginalSmoothData\Longrightarrow NativePositiveSourceControl.A.
 ```
 
 That formulation is only a possible sufficient positive-continuation theorem.
-The CM proof program uses it lawfully only after the witness-face split has
+The CM proof program uses it lawfully only after the witness split has
 selected the `Field` row.
 
 The active Field-face problem is therefore:

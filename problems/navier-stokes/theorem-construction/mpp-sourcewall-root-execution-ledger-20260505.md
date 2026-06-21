@@ -15,7 +15,7 @@ CMCert.A:
 \Longrightarrow Member(Q;\mathfrak O_{NS}^{work}),
 ```
 
-and first class-exit is detected by first failure of Pack, Part, or Field.  The
+and first class-exit is detected by first failure of Part or Field.  The
 blunt converse `not CM=>not Member` is not installed.
 The remaining source-wall problem is the source/readout supplier needed to
 prevent the source-pulse / `Jump_avg` branch from surviving as a downstream

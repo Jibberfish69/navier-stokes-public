@@ -11,7 +11,7 @@ This note corrects the overstrong reading
 CM bridge installed => only release/review bureaucracy remains.
 ```
 
-That reading is false.  The installed CM bridge closes the witness-face logic,
+That reading is false.  The installed CM bridge closes the witness logic,
 but the Field/readout side still depends on accepting the normalized-adjoint
 source-drain route as theorem-grade.
 
@@ -319,7 +319,7 @@ Before the resolution note, the honest theorem state was:
 
 ```math
 \boxed{
-CM\text{ witness-face bridge installed;}
+CM\text{ witness bridge installed;}
 \quad
 SourceWall.Reconcile.A\text{ still live.}
 }

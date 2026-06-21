@@ -101,7 +101,7 @@ Equivalently, an admissible repair may prove a finite pricing theorem for diffus
 
 ## Consequence
 
-The CM witness-face bridge remains installed. The normalized-adjoint source-drain package remains conditional support. The final source-wall theorem remains open at:
+The CM witness bridge remains installed. The normalized-adjoint source-drain package remains conditional support. The final source-wall theorem remains open at:
 
 ```math
 ScaleCriticalTreeCarleson.A

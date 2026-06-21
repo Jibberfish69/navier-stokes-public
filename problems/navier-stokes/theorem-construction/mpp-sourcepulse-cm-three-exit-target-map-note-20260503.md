@@ -146,8 +146,8 @@ The governing CM primitive is now separate:
 Exit(Q;O_{NS}^{work}) := \neg Member(Q;O_{NS}^{work}),
 ```
 
-with the installed witness-face bridge recorded in
-`mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md`.
+with the installed witness bridge recorded in
+`mpp-member-smooth-contrapositive-witness-bridge-20260504.md`.
 
 ## Where The Current Repo Actually Sits
 

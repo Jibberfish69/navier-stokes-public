@@ -142,5 +142,5 @@ ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
 ```
 
 Both remain supplier-side work for `SourcePulseExclusion.A`; neither is a new
-Pack, Part, or Field face unless its failure is separately sorted by the
+Part or Field face unless its failure is separately sorted by the
 installed CM diagnostics.

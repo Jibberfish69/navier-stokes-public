@@ -168,7 +168,7 @@ to `\neg Pack`, `\neg Part`, or `\neg Field`.
 
 ## Execution Verdict
 
-The three CM faces now reduce to:
+The three CM Part/Fields now reduce to:
 
 ```math
 \boxed{

@@ -36,10 +36,10 @@ install the charge theorem.
 
 ## What Is Already Sorted
 
-The Pack-first source-reserve audit gives a typed classification for the
+The Field-certification source-reserve audit gives a typed classification for the
 source-reserve branch.
 
-Already sorted as Pack-first face failure:
+Already sorted as Field-certification Part/Field failure:
 
 ```math
 \text{terminal zero-radius source residue}
@@ -81,14 +81,14 @@ The promotion condition is precise:
 \boxed{
 \text{the retained positive-scale first-created native donor-square reserve
 surplus is either paid on the same ledger, or it is admitted to the CM terminal
-test and routed to a first Pack/Part/Field face failure.}
+test and routed to a first Part/Field Part/Field failure.}
 }
 ```
 
 Generated theorem-creation surfaces for `ReserveCreationCharge.A`,
 `TerminalReserveFirstAppearanceCharge.A`, and `ActiveHeightFluxTrichotomy.A`
 cannot be used as proof.  Their own promotion plans are conditional or
-support-only, and the Pack-first audit keeps the retained positive-scale
+support-only, and the Field-certification audit keeps the retained positive-scale
 surplus in supplier quarantine until the promotion condition above is proved.
 
 ## Direct Proof Attempt
