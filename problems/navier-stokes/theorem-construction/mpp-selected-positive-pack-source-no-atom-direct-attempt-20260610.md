@@ -8,7 +8,7 @@ claim_boundary:
   logical_landing_node: SelectedPositivePackSourceNoAtom.A / OriginalSmoothDataPackSurvival.A
   claim_status: not_proved
   edge_effect: "Tests whether the selected positive Pack source has no terminal atom. It is not proved from current inputs: the same shrinking terminal strip model survives finite mass, same-solution custody, first-exit minimality, and conditional no-incoming/BU support."
-  downstream_consequence: "The current first-Pack branch has cycled through source residence, reflection, compactness, tightness, active-time thickness, selector stability, and no-atom attempts without proving terminal Pack survival. Future progress needs a genuinely new selected-source input or a proved critical-element/rigid-profile theorem; pdfs_final remains false."
+  downstream_consequence: "The current first-Field-window branch has cycled through source residence, reflection, compactness, tightness, active-time thickness, selector stability, and no-atom attempts without proving terminal Pack survival. Future progress needs a genuinely new selected-source input or a proved critical-element/rigid-profile theorem; pdfs_final remains false."
 evidence_refs:
   - problems/navier-stokes/theorem-construction/mpp-pack-profile-selector-stability-direct-attempt-20260610.md
   - problems/navier-stokes/theorem-construction/mpp-terminal-positive-pack-active-time-thickness-direct-attempt-20260610.md
@@ -29,7 +29,7 @@ wall.
 # Direct Attempt
 
 The known data say the source has finite terminal mass and belongs to the
-same-solution Pack witness. A no-atom theorem needs more than finite mass:
+same-solution Field-window support. A no-atom theorem needs more than finite mass:
 
 ```text
 absolute continuity in time,

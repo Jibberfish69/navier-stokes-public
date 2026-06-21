@@ -37,7 +37,7 @@ window, this gives the terminal anti-atom modulus.
 The exact class-membership witness gives
 
 ```math
-CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}+Field_{N,r,Q}.
 ```
 
 The participation predicate is the common pressure-viscosity carrier law
@@ -109,7 +109,7 @@ exclude
 \qquad t_m\uparrow T.
 ```
 
-Such blowup is already a CM witness-face failure, but it is not a forward
+Such blowup is already a CM witness failure, but it is not a forward
 source-wall anti-atom theorem.
 
 ## 4. Conditional theorem that is valid
@@ -142,7 +142,7 @@ SourceCurrentAsTransportedParticipationDensity.A^{fail}.
 }
 ```
 
-The first failure is a Pack/Part/Field envelope exit. The second is a
+The first failure is a Part/Field envelope exit. The second is a
 transported flux/participation exit. The third says the source-current readout
 was not licensed as a transported participation density.
 

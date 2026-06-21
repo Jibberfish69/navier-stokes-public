@@ -32,7 +32,7 @@ SelectorReadoutToFieldBridge.A.
 ```
 
 It must prove that the selected finite-frame/QSP readout is a licensed
-`Field_{N,r,Q}` certificate for the same terminal CM packet, or name the actual
+`Field_{N,r,Q}` certificate for the same terminal CM participation-field record, or name the actual
 alternate Field certificate and keep QSP as support.
 
 ## Method Pass

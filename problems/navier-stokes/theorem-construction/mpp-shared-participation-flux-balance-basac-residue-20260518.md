@@ -11,7 +11,7 @@ Conditional theorem installed at the route-relative source-current participation
 Assume a retained `B_ASAC` terminal window with
 
 ```math
-CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}
+CM_{N,r,Q}:=Part_{N,Q}+Field_{N,r,Q}
 ```
 
 and assume `SourceMeasureParticipationDensityBridge.A`, so that the native positive source residue is the selected terminal source-current trace of the shared participation/tower field.

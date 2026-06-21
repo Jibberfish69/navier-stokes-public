@@ -30,7 +30,7 @@ The CM primitive remains:
 Exit(Q):=not Member(Q)
 ```
 
-through the Pack/Part/Field witness tree.  This pass tests whether the split is
+through the Part/Field witness tree.  This pass tests whether the split is
 a genuine new source-time theorem or another route back to consumed supplier
 walls.
 
@@ -120,12 +120,12 @@ the retained-branch result:
 ```text
 B_ASAC^closed + CM_{N,r,Q}
 => terminal source atom becomes incoming participation flux,
-   CM envelope blowout, paid exit, or Pack/Part/Field face witness.
+   CM envelope blowout, paid exit, or Part/Field face witness.
 ```
 
-So a retained terminal source atom can be consumed as a CM witness-face failure.
+So a retained terminal source atom can be consumed as a CM witness failure.
 That is classification progress, not public Clay finality.  The Clay-facing
-proof still needs to show that the resulting face failure cannot be the finite
+proof still needs to show that the resulting Part/Field failure cannot be the finite
 breakdown of the original smooth solution.
 
 ## Result
@@ -165,7 +165,7 @@ prove that an unpaid native pressure/source tower defect cannot be the finite
 Clay breakdown witness.
 
 The first subpass should attack `PartFailureTargetFidelityBridge.A`,
-because the recent loop has repeatedly treated CM face classification as if it
+because the recent loop has repeatedly treated CM Part/Field classification as if it
 were public Clay exclusion.  If target fidelity alone fails, the loop must
 return to the concrete no-defect compactness/payment targets rather than
 continue the source-residence alias cycle.

@@ -29,7 +29,7 @@ Let \(Q\) be the selected same-solution terminal packet for the fixed
 positive-viscosity Navier-Stokes object. The CM test uses
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 `Pack_Q` is the positive same-fluid carrier/cover. `Part_{N,Q}` is the same
@@ -88,7 +88,7 @@ Member_E(Q).
 ### Proof
 
 The Navier-Stokes exit is the installed CM conclusion: after Pack has survived,
-failure of `Part_{N,Q}` is the first failed service in the Pack-first tree.
+failure of `Part_{N,Q}` is the first failed service in the Field-certification tree.
 `Part_{N,Q}` is exactly the same pressure-viscosity participation tower through
 depth \(N\), including the fixed positive-viscosity term \(\nu\Delta U_k\).
 Losing that tower means the selected packet no longer belongs to the
@@ -145,17 +145,17 @@ certificate ledger.
 | --- | --- | --- | --- |
 | `zero_radius_terminal_packet_part_first_or_true_pack_exit` | `not Part_{N,Q}` or true `not Pack_Q` | clean Part subcase only | a zero-radius terminal packet with a same original-NS participation record lands Part-side; true Pack failure applies only when the selected positive packet/carrier/readout record needed for the clean Euler boundary is absent. |
 | `unpaid_donor_refill_or_detached_ancestry_pack_exit` | `not Pack_Q` | does not apply | detached ancestry/no positive same-fluid carrier is Pack loss, not loss of viscous participation or one-field tether. |
-| `raw_terminal_source_residue_pack_or_part_exit` | `not Pack_Q` or `Pack_Q + not Part_{N,Q}` | clean subcase only | raw source or pressure-source residue blocks Euler entrance until the residue is removed or typed as lawful inviscid momentum with no extra source measure. |
-| `pressure_viscosity_or_dwell_part_exit` | `Pack_Q + not Part_{N,Q}` | applies to clean Part subcase | the NS face is exactly lost participation; Theorem 1 applies once the same selected packet has \(EVol+EMom\) and no residue leak. |
-| `retained_positive_window_blowup_field_exit` | `Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}` | applies to clean Field subcase | Pack and Part survive and one-field coherence fails; Theorem 2 applies when the inviscid \(EVol+EMom\) law remains readable. |
+| `raw_terminal_source_residue_pack_or_part_exit` | `not Pack_Q` or `not Part_{N,Q}` | clean subcase only | raw source or pressure-source residue blocks Euler entrance until the residue is removed or typed as lawful inviscid momentum with no extra source measure. |
+| `pressure_viscosity_or_dwell_part_exit` | `not Part_{N,Q}` | applies to clean Part subcase | the NS face is exactly lost participation; Theorem 1 applies once the same selected packet has \(EVol+EMom\) and no residue leak. |
+| `retained_positive_window_blowup_field_exit` | `Part_{N,Q} + forall r>0 not Field_{N,r,Q}` | applies to clean Field subcase | Pack and Part survive and one-field coherence fails; Theorem 2 applies when the inviscid \(EVol+EMom\) law remains readable. |
 | `retained_native_source_residue_field_diagnostic` | retained Field diagnostic | underdeveloped potential / mostly excluded | raw residue is seated at Pack/Part first; the Field wording becomes clean only after a same-atlas participation license removes source-measure residue. |
-| `retained_positive_scale_native_reserve_birth` | unresolved/support | does not apply | supplier support has not landed a selected Pack/Part/Field face and does not identify an Euler member. |
-| `active_height_low_strain_typed_disjunction` | finite Pack/Part/Field/Zeno split | clean subcases only | only its certified Part or retained-Field subcases can use Theorems 1 or 2; hidden signed-pair or support alternatives cannot. |
-| `signed_current_no_free_sink_family` | no independent face | does not apply | signed-current support is not a CM face and not an Euler class-entrance theorem. |
+| `retained_positive_scale_native_reserve_birth` | unresolved/support | does not apply | supplier support has not landed a selected Part/Field face and does not identify an Euler member. |
+| `active_height_low_strain_typed_disjunction` | finite Part/Field/Zeno split | clean subcases only | only its certified Part or retained-Field subcases can use Theorems 1 or 2; hidden signed-pair or support alternatives cannot. |
+| `signed_current_no_free_sink_family` | no independent face | does not apply | signed-current support is not a CM Part/Field and not an Euler class-entrance theorem. |
 | `endpoint_good_scale_no_pulse_readout` | support or Field after Pack+Part | underdeveloped potential | readout becomes clean only after it is restated on the same selected packet as retained Pack+Part plus Field failure. |
-| `terminal_l3_duhamel_mass_same_witness_cm_face` | Pack/Part, or Field after retained Pack+Part | clean retained-Field subcase only | Pack/Part/source alternatives are not Euler entrance; the retained Pack+Part Field-incompatibility subcase can use Theorem 2 after no-residue typing. |
+| `terminal_l3_duhamel_mass_same_witness_cm_part_field_question` | Pack/Part, or Field after retained Pack+Part | clean retained-Field subcase only | Pack/Part/source alternatives are not Euler entrance; the retained Pack+Part Field-incompatibility subcase can use Theorem 2 after no-residue typing. |
 | `local_critical_translator_same_witness` | no independent face until same-atlas localization | underdeveloped potential | generic critical translators need same-atlas localization and a Field incompatibility theorem before they can enter the Euler boundary. |
-| `transfer_and_mirror_comparison` | no independent face | stale/excess for NS proof | broad comparison remains outside the NS proof unless it produces the same selected NS packet with a Pack/Part/Field decision. |
+| `transfer_and_mirror_comparison` | no independent face | stale/excess for NS proof | broad comparison remains outside the NS proof unless it produces the same selected NS packet with a Part/Field decision. |
 
 This is the exhaustive endpoint table for the current branch ledger. The table
 does not promote any raw Pack, source, residue, support, readout, or comparison
@@ -170,9 +170,9 @@ material by another name.
 
 | endpoint surface | installed face behavior | Euler-boundary classification |
 | --- | --- | --- |
-| grounded CM core in `source-frontier.yaml` | all terminal obstructions enter the same-fluid tree and fail Pack, Part, or Field first | framework only; Euler applies only after a clean Part/Field row is typed |
+| grounded CM core in `source-frontier.yaml` | all terminal obstructions enter the same-fluid tree and fail Part or Field first | framework only; Euler applies only after a clean Part/Field row is typed |
 | live edge chain / torus material atlas | lost atlas carrier, lost pressure-viscosity tower, or retained Pack+Part with no coherent scale | framework only; clean Part/Field subcases use Theorems 1 and 2 |
-| `R3.WholeSpaceCMCompletion.A` | exterior source vanishes or surviving exterior source lands in Pack/Part/Field | mostly excluded; retained Pack+Part dyadic Field subcase is potential only after no-residue Euler readability |
+| `R3.WholeSpaceCMCompletion.A` | exterior source vanishes or surviving exterior source lands in Part/Field | mostly excluded; retained Pack+Part dyadic Field subcase is potential only after no-residue Euler readability |
 | endpoint matrix / endpoint taxonomy | Pack = packing-detached, Part = Dead, Field = Jump, tower-blown/readout rows reduce back to native faces | taxonomy only; no Euler entrance without same selected packet and \(EVol+EMom\) |
 | `TerminalSourceResidueCMExit.A` | no positive carrier gives Pack; unpaid retained source/forcing gives Part | excluded while raw residue remains; clean Part subcase requires source-measure removal |
 | `TerminalL3DuhamelMassCMFace.A` | source-wall failure gives Pack; unpaid native residue gives Part; retained Pack+Part critical L3 concentration gives Field | clean retained-Field subcase only after same-ledger no-residue typing |
@@ -181,14 +181,14 @@ material by another name.
 | `REE.C` receiver escape | missing Pack or Part lands earlier; retained Pack+Part receiver escape lands in Field | clean Field subcase only when receiver escape is one-field tether loss without source residue |
 | `LowHighInfiniteCostEndpointSource.A` | endpoint source atom with no positive retained carrier lands as Pack | does not apply |
 | `ActiveSquareObstructionPassOrPackExit` | pass branch or terminal zero-radius active-square ancestry lands as Pack | does not apply |
-| `AnnularLimitCMFaceLanding.A` | selected annular tail is followed to first Pack, Part, or Field face | clean subcases only; bare radius-zero Pack branch does not apply |
-| CKN / epsilon wall | synchronized bad-cylinder family fails Pack, Part, or Field | underdeveloped potential; retained Pack+Part bad-cylinder Field subcase can use Theorem 2 only after \(EVol+EMom\) readability |
+| `AnnularLimitCMFaceLanding.A` | selected annular tail is followed to first Part or Field face | clean subcases only; bare radius-zero Field-window branch does not apply |
+| CKN / epsilon wall | synchronized bad-cylinder family fails Part or Field | underdeveloped potential; retained Pack+Part bad-cylinder Field subcase can use Theorem 2 only after \(EVol+EMom\) readability |
 | GoodScale / \(H^{1/2}\) Field route | retained Pack+Part plus no SCF-good cylinder lands in Field | clean Field subcase after synchronized same-witness extraction and no oscillation/defect residue |
 | R3 exterior dyadic survivor | retained Pack+Part high-frequency exterior survivor forces no fixed positive Field scale | underdeveloped potential; exterior source residue must not remain an extra source measure |
 
 This cross-check keeps the endpoint vocabulary typed. `Dead`, `Jump`,
 `tower-blown`, `receiver escape`, `GoodScale failure`, `CKN wall`, and
-`annular witness` are not additional Euler doors. Each is either a Pack/Part/Field
+`annular witness` are not additional Euler doors. Each is either a Part/Field
 landing, a clean Part/Field subcase covered by the theorems above, or an
 excluded support/residue row.
 
@@ -221,7 +221,7 @@ content unless a later theorem retypes it through the selected-packet test above
 - raw source-residue or pressure-source rows;
 - Reynolds-stress or defect-measure limits;
 - Pack exits with no retained same selected packet;
-- support/readout rows before same-packet Pack/Part/Field landing.
+- support/readout rows before same-packet Part/Field landing.
 
 The manuscript may mention those surfaces only as excluded support, historical
 motivation, or proof-boundary warnings.

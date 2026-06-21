@@ -43,7 +43,7 @@ integrable. The terminal atom is exactly the object the theorem must remove.
 
 # Why The Selected Pack Label Does Not Add The Missing Estimate
 
-The source is not arbitrary; it is selected by the Pack witness. That helps
+The source is not arbitrary; it is selected by the Field-window support. That helps
 custody, but it also means the selector can choose the terminal layer where the
 positive part concentrates.
 

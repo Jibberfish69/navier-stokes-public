@@ -32,7 +32,7 @@ Exit(Q; O_NS^work) := not Member(Q; O_NS^work).
 The route certificate is:
 
 ```text
-CM_{N,r,Q}=Pack_Q and Part_{N,Q} and Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q} and Field_{N,r,Q}.
 ```
 
 The installed theorem-grade direction is:
@@ -45,13 +45,13 @@ The installed contrapositive use is first-exit / nonsmooth witness extraction:
 
 ```text
 NonSmooth(Q) or first class exit
-=> not Pack_Q or not Part_{N,Q} or not Field_{N,r,Q}.
+=> not Part_{N,Q} or not Field_{N,r,Q}.
 ```
 
 The repo is therefore read as a class-exit atlas.  Every theorem note,
 branch, source-wall packet, receiver estimate, endpoint row, compactness
-argument, or signed-current idea must identify which of the three CM faces it
-serves and what licensed bridge moves it into Pack, Part, or Field witness face, class-membership direction, or an
+argument, or signed-current idea must identify which of the three CM Part/Fields it
+serves and what licensed bridge moves it into Part or Field witness, class-membership direction, or an
 endpoint row.
 
 If a branch does not do that, it is not proof spine.  It may be source recovery,
@@ -446,7 +446,7 @@ The contrapositive grammar is:
 ```text
 finite nonsmooth endpoint
 => first failure of Member(Q;O_NS^work)
-=> first witness-face failure
+=> first witness failure
 => not Pack or not Part or not Field.
 ```
 
@@ -475,7 +475,7 @@ That is the nonsmoothness-as-class-exit architecture.
 Ask:
 
 ```text
-Does this theorem prove Pack, Part, or Field witness face, class-membership direction, or a first-exit face split?
+Does this theorem prove Part or Field witness, class-membership direction, or a first-exit face split?
 ```
 
 If not, it is not CM core.
@@ -527,7 +527,7 @@ Where did a generated surface advertise closure while the source wall stayed ope
 Ask:
 
 ```text
-Does an older note already prove a bridge into Pack, Part, or Field witness face, class-membership direction, or endpoint?
+Does an older note already prove a bridge into Part or Field witness, class-membership direction, or endpoint?
 ```
 
 If not, recover it as context, not proof.

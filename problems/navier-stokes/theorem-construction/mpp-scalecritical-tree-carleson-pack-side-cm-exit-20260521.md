@@ -32,9 +32,7 @@ Pack_Q
 Equivalently, since
 
 ```math
-CM_{N,r,Q}
-=
-Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q},
 ```
 
 the CM-facing formulation is
@@ -80,12 +78,10 @@ or, in the sharper route language,
 The exact CM witness decomposes as
 
 ```math
-CM_{N,r,Q}
-=
-Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
-Thus any retained CM packet carrier supplies `Pack_Q` before `Part_{N,Q}` or `Field_{N,r,Q}` can be used.  The donor-refill tree is a packet-ancestry object: it consists of parent/child packet edges, legal packet descendants, and the reserve used to keep descendants funded across scales.  Packet ancestry is therefore licensed by the Pack face.
+Thus any retained CM participation-field record carrier supplies `Pack_Q` before `Part_{N,Q}` or `Field_{N,r,Q}` can be used.  The donor-refill tree is a packet-ancestry object: it consists of parent/child packet edges, legal packet descendants, and the reserve used to keep descendants funded across scales.  Packet ancestry is therefore licensed by the Pack face.
 
 Inside Pack, a legal donor-refill ancestry cannot be an unpaid infinite packet tree.  The Pack-side carrier contract is precisely that the donor-refill ancestry is Carleson-paid:
 
@@ -121,7 +117,7 @@ Because the failed contract is the packet-ancestry carrier contract, the failure
 \neg Pack_Q.
 ```
 
-Therefore failure of `ScaleCriticalTreeCarleson.A` is a Pack-side CM exit.
+Therefore failure of `ScaleCriticalTreeCarleson.A` is a Field smoothness-certification support.
 
 ## Zeno consequence
 
@@ -138,7 +134,7 @@ A legal packet carrier requires positive packet scale.  Hence the zero-scale ter
 r_*=0\Longrightarrow\neg Pack_Q.
 ```
 
-So a zero-scale Zeno residue cannot be carried onward into Part or Field as a retained CM packet.  Field/Jump classification belongs only to the separate retained-carrier branch where `Pack_Q` and `Part_{N,Q}` are already assumed.
+So a zero-scale Zeno residue cannot be carried onward into Part or Field as a retained CM participation-field record.  Field/Jump classification belongs only to the separate retained-carrier branch where `Pack_Q` and `Part_{N,Q}` are already assumed.
 
 ## Boundary
 

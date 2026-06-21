@@ -4,7 +4,7 @@ ns_viewer:
   status: reopened-as-possible-scfbase-modulus-supplier
   proof_role: support_route_classification_and_cm_target_reselection
   logical_landing_node: h-f-pack-restoration
-  edge_effect: "Reopens SCFBaseGoodCoverFromExactPotentialReadout.A as a possible supplier for the same-tail SCF_base modulus now required by AveragedFieldFaceAdmission.A. Field_avg remains the endpoint object, but Jump_avg no longer gives an unconditional Field-face failure from depth alone."
+  edge_effect: "Reopens SCFBaseGoodCoverFromExactPotentialReadout.A as a possible supplier for the same-tail SCF_base modulus now required by AveragedFieldFaceAdmission.A. Field_avg remains the endpoint object, but Jump_avg no longer gives an unconditional Field-Part/Field failure from depth alone."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-exact-potential-readout-to-fieldavg-bridge-direct-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mcp-field-avg-equivalence-terminal-good-cover.md
@@ -78,7 +78,7 @@ Jump_avg(T)
         and SCFBaseLocalModulus_N(T,r)).
 ```
 
-That is a conditional CM Field-face failure. It still requires the same-tail
+That is a conditional CM Field-Part/Field failure. It still requires the same-tail
 `SCF_base` modulus to be part of the Field row or proved from it. The
 exact-potential/QSP support route is therefore not merely optional if it is the
 available way to supply that modulus.
@@ -102,7 +102,7 @@ other theorem supplies the same-tail modulus. The repaired Field-side split is:
 
 ```text
 Field_avg(T)  => pass side / positive Field cover,
-Jump_avg(T)   => Field face failure under retained Pack+Part
+Jump_avg(T)   => Field Part/Field failure under retained Pack+Part
                  after SCFBaseLocalModulus_N(T,r) is supplied.
 ```
 
