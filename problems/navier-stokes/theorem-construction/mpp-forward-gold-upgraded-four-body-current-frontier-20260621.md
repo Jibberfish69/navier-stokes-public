@@ -1161,12 +1161,12 @@ reduction are exact criteria.  The still-unproduced gold work is one of:
 
 ```math
 \boxed{
-\text{production of MinimalZenoProfileProduction.A;}
+\text{production of MinimalZenoProfileProduction.A.}
 }
 \tag{4BF.64}
 ```
 
-or equivalently
+In the full-remainder language, these are the available ways to prove
 
 ```math
 \boxed{
