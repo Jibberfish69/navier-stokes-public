@@ -95,7 +95,7 @@ This is a diagnostic theorem, not a depletion theorem.
 It closes the bookkeeping question for the exhausted pressure branch. The source-wall root remains open. The next useful tests are:
 
 ```math
-\text{whether any pressure endpoint now supplies a true Pack/Part/Field witness,}
+\text{whether any pressure endpoint now supplies a true Part/Field witness,}
 ```
 
 and

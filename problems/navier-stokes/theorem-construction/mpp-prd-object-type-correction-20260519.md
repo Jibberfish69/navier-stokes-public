@@ -9,7 +9,7 @@ Theorem-facing correction note.
 ## Correction
 
 `PositiveRemainderDepletion.A` is a positive supplier estimate. It is not a
-Pack/Part/Field witness and it has no Dead/Blown/Jump endpoint type.
+Part/Field witness and it has no Dead/Blown/Jump endpoint type.
 
 Its role is to prove that the native positive remainder is paid or depleted
 from original smooth data:

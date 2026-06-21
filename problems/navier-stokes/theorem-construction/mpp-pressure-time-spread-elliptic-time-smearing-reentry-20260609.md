@@ -134,7 +134,7 @@ NewTerminalSourceTimeProductionMechanism.A.
 It must produce one genuinely new theorem that forces terminal source
 time-thickness, a source-Carleson / reserve charge, a rigid anti-atom class, a
 transported no-incoming time-face control, an independent pressure/Leray
-source tether, or a new Pack/Part/Field witness strong enough to feed
+source tether, or a new Part/Field witness strong enough to feed
 `OriginalSmoothDataPackSurvival.A`.
 
 Until such a theorem is proved and propagated:

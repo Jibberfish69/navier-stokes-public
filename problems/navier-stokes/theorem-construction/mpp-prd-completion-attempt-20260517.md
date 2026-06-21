@@ -23,8 +23,8 @@ positive active carrier
 ```
 
 This is supplier-side source-wall work. It does not change the CM boundary:
-`Pack`, `Part`, and `Field` are the witness faces, and `Member` is the forward
-membership predicate, not a witness face.
+`Pack`, `Part`, and `Field` are the witnesss, and `Member` is the forward
+membership predicate, not a witness.
 
 ## Live Authority Read
 

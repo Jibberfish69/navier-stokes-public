@@ -89,8 +89,8 @@ The CM target stays:
 Exit(Q):=\neg Member(Q)
 ```
 
-through the Pack/Part/Field witness tree. The obstruction here is not itself a
-Pack, Part, or Field face failure. It is a route-authority cut: point-center
+through the Part/Field witness tree. The obstruction here is not itself a
+Part or Field Part/Field failure. It is a route-authority cut: point-center
 native forcing belongs to the retained smooth branch, while finite-energy
 receiver work must pass through averaged packets.
 
@@ -102,5 +102,5 @@ The open theorem work is now cleaner:
    that licenses `NKF.Native`.
 2. Averaged branch: continue the `SCF_avg^m => AACT.KX => AVG.RCV.A` receiver
    route without importing point-center pressure derivatives.
-3. CM closure: consume the terminal witness through Pack/Part/Field and only
+3. CM closure: consume the terminal witness through Part/Field and only
    then support `Exit(Q):=not Member(Q)`.

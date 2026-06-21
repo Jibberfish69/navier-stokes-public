@@ -120,7 +120,7 @@ defect at the terminal face.
 
 No such theorem is installed. The existing local L3 translator is narrower: it
 localizes terminal L3 Duhamel response mass to the same witness ledger and can
-land that named branch in Pack/Part/Field. It is not a generic stability theory
+land that named branch in Part/Field. It is not a generic stability theory
 for the first-Pack source/tree-Carleson functional.
 
 The first-Pack defect is positive-selected and terminal. Orthogonality of
