@@ -2,7 +2,7 @@
 theorem_id: forward-gold-native-precauchy-to-gauge-quotient-tower-bridge-test-20260621
 status: direct-bridge-fails-exact-supplement-criteria-installed-no-residue-skew-added
 logical_landing_node: native_precauchy_to_gauge_quotient_tower_bridge_test
-edge_effect: "Tests the newly exposed bridge from the native positive pre-Cauchy/source selector to the gauge-quotient finite tower carrier. The direct bridge fails: the main native carrier is trilinear, of the form chi |W|^2 [e.Sigma.e]_+, while the quotient tower/parabolic drain is quadratic. A scaling countertest gives source/drain ratio proportional to amplitude, so no amplitude-free domination by D_Q^w can hold. The bridge closes only with an additional same-carrier supplement. The finite-order amplitude/Field supplement is proved. The source-square/no-waste, pressure-adapted no-residue skew, critical-density/CKN, signed-polar saturation, rigid source-residue, and full pre-Cauchy remainder reduction supplements are assembled as exact criteria. Production remains open at same-carrier identity, coefficient overrun/tail depletion, missing unweighted square/no-waste budget, missing no-residue pressure-adapted commutator payment, missing unweighted critical-density/CKN budget, production of dN_miss=0 or a legal/charged polar defect, MinimalZenoProfileProduction.A, or NoFreeTerminalZenoDonorChain.A."
+edge_effect: "Tests the newly exposed bridge from the native positive pre-Cauchy/source selector to the gauge-quotient finite tower carrier. The direct bridge fails: the main native carrier is trilinear, of the form chi |W|^2 [e.Sigma.e]_+, while the quotient tower/parabolic drain is quadratic. A scaling countertest gives source/drain ratio proportional to amplitude, so no amplitude-free domination by D_Q^w can hold. The bridge closes only with an additional same-carrier supplement. The finite-order amplitude/Field supplement is proved. The source-square/no-waste, participation-preserving no-residue full-cycle, critical-density/CKN, signed-polar saturation, rigid source-residue, and full pre-Cauchy remainder reduction supplements are assembled as exact criteria. Production remains open at same-carrier identity, coefficient overrun/tail depletion, missing unweighted square/no-waste budget, missing no-residue full Hodge-Stokes packet payment, missing unweighted critical-density/CKN budget, production of dN_miss=0 or a legal/charged polar defect, MinimalZenoProfileProduction.A, or NoFreeTerminalZenoDonorChain.A."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-gauge-quotient-tower-carrier-drain-production-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-precauchy-main-carrier-consumer-boundary-20260621.md
@@ -12,6 +12,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-field-amplitude-to-quotient-tower-supplement-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-density-ckn-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-polar-saturation-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-rigid-source-residue-fourbody-supplement-criterion-20260621.md
@@ -284,36 +285,44 @@ This supplement is now assembled in
 The unproved production inputs are exactly same-carrier identity, selected
 coefficient-overrun payment, and the unweighted square/no-waste budget.
 
-### 3.4. Pressure-adapted no-residue skew control
+### 3.4. Participation-preserving no-residue full-cycle control
 
 The source-square residual is created when the localized commutator is
-estimated by size.  A sharper same-carrier supplement is to choose a
-pressure-adapted incompressible selector
+estimated by size.  A sharper same-carrier supplement is to keep the whole
+Hodge-Stokes packet through terminal selection.  The one-channel selector
 
 ```math
-A_\sigma=S_\sigma P,
-\qquad
-W_\sigma=A_\sigma u,
+A_\sigma=S_\sigma P
 \tag{NQB.17a}
 ```
 
-and write the selected nonlinear interaction as
+is only a compatibility component.  The retained packet is
 
 ```math
-\mathcal M_\sigma
+\mathcal K_{\sigma,P}
 =
-\langle A_\sigma((u\cdot\nabla)u),W_\sigma\rangle.
+\Big(
+S_\sigma^{tr}((u\cdot\nabla)u),\;
+S_\sigma^p\nabla p,\;
+\nu S_\sigma^\nu\Delta u,\;
+S_\sigma^t\partial_su,\;
+S_\sigma^{div}\nabla\cdot u,\;
+S_\sigma^P[\chi_P,\mathbb P_{\rm Leray}](u\cdot\nabla u),\;
+\mathcal B_{\sigma,P}^{cut},\;
+\mathcal S_{\sigma,P}^{sgn}
+\Big).
 \tag{NQB.17b}
 ```
 
-The exact skew decomposition is
+The transport component still has the exact skew decomposition.  With
+\(A_\sigma^{tr}=S_\sigma^{tr}\) and \(W_\sigma=A_\sigma^{tr}u\),
 
 ```math
-\mathcal M_\sigma
+\mathcal M_\sigma^{tr}
 =
 \langle u\cdot\nabla W_\sigma,W_\sigma\rangle
 +
-\langle[A_\sigma,u\cdot\nabla]u,W_\sigma\rangle.
+\langle[A_\sigma^{tr},u\cdot\nabla]u,W_\sigma\rangle.
 \tag{NQB.17c}
 ```
 
@@ -323,19 +332,29 @@ Thus
 ```math
 \mathcal M_\sigma
 =
-\mathcal C_\sigma,
+\mathcal C_\sigma^{tr},
 \qquad
-\mathcal C_\sigma
+\mathcal C_\sigma^{tr}
 =
-\langle[A_\sigma,u\cdot\nabla]u,W_\sigma\rangle.
+\langle[A_\sigma^{tr},u\cdot\nabla]u,W_\sigma\rangle.
 \tag{NQB.17d}
 ```
 
-The no-residue supplement asserts
+The corrected no-residue supplement asserts
 
 ```math
 \boxed{
-[\mathcal C_\sigma]_{\mathcal S,+}
+\left[
+\mathcal C_\sigma^{tr}
++\mathcal C_\sigma^p
++\mathcal C_\sigma^\nu
++\mathcal C_\sigma^{time}
++\mathcal C_\sigma^{div}
++\mathcal C_\sigma^{cut}
++\mathcal C_\sigma^{scale}
++\mathcal C_\sigma^{sgn}
++\mathcal C_\sigma^{tail}
+\right]_{\mathcal S,+}
 \le
 \varepsilon\nu D_\sigma
 -\partial_\sigma\Phi_\sigma
@@ -350,15 +369,17 @@ R_{\rm legal}(\sigma),
 with \(T_\sigma,R_{\rm legal}\in L^1_\sigma\), \(\Phi_\sigma\) bounded below,
 and no \(C_\varepsilon\Theta_\sigma^2E_\sigma\) term.
 
-If the native positive carrier is identified with
-\([\mathcal C_\sigma]_{\mathcal S,+}\), `(NQB.17e)` gives the unweighted
-reserve after absorbing \(\varepsilon\nu D_\sigma\) and adding \(\Phi_\sigma\)
-to the four-body storage.
+If the native positive carrier is identified with the selected positive
+full-packet carrier in `(NQB.17e)`, it gives the unweighted reserve after
+absorbing \(\varepsilon\nu D_\sigma\) and adding \(\Phi_\sigma\) to the
+four-body storage.
 
 This supplement is now assembled in
 `mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md`.
-The unproved production inputs are exact same-carrier pressure-adapted selector
-custody, selected commutator identification, and no-residue commutator payment.
+The Hodge-Stokes packet replacement is recorded in
+`mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md`.
+The unproved production inputs are exact same-carrier full-packet custody,
+selected full-packet identification, and no-residue full-cycle payment.
 
 ### 3.5. Signed polar saturation
 
