@@ -1,8 +1,8 @@
 ---
 theorem_id: forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621
-status: algebraic-skew-reduction-proved-transport-commutator-selector-production-open
+status: algebraic-skew-reduction-proved-full-hodge-stokes-production-open
 logical_landing_node: pressure_adapted_no_residue_skew_coercivity
-edge_effect: "Develops the pressure-adapted no-residue route for deleting the current square-source residual. With a same-carrier pressure-adapted incompressible selector A_sigma=S_sigma P and W_sigma=A_sigma u, the mixed interaction decomposes exactly into the incompressible skew term plus the selector/Leray/pressure/cutoff/scale commutator. The skew term vanishes in the closed localized inner product, so the square-source residual is created only when the commutator is estimated crudely by size. The proposed upgrade is the no-residue commutator theorem: the selected positive commutator is paid by epsilon-viscosity, a sigma-capacity drop, and an L1 tail, with no C_epsilon Theta_sigma^2 E_sigma remainder. The transported-selector test adds the concrete mechanism: for G_sigma=A_sigma^*A_sigma, the commutator is -1/2 <[u.grad,G_sigma]u,u>, so a material/cotangent transported selector can turn it into scale-capacity/geometry motion through partial_s G_sigma+[u.grad,G_sigma]=partial_sigma K_sigma+R_sigma. This would give a same-carrier unweighted reserve and close the source-square/no-waste supplement through full-cycle skew coercivity. The note proves the algebraic reduction and the criterion implication; it does not prove the transported pressure-adapted selector production theorem."
+edge_effect: "Develops the no-residue route for deleting the current square-source residual after repairing the projection-only mistake. The selected object is not A_sigma=S_sigma P alone. Leray projection is only one compatibility channel inside a participation-preserving Hodge-Stokes balance packet carrying convection, pressure, viscosity, time, divergence, cutoff/collar, scale, and signed-saturation records on the same carrier. The transport-channel interaction still has the exact skew/commutator identity with G_sigma=(A_sigma^tr)^*A_sigma^tr, namely <A_sigma^tr(u.grad u),A_sigma^tr u>=-1/2<[u.grad,G_sigma]u,u>. The production theorem is now full-cycle: the selected positive sum of transport, pressure, viscous, time, divergence, cutoff, scale, and signed channels must be paid by epsilon-viscosity, sigma-capacity drop, and L1 tail, with no C_epsilon Theta_sigma^2 E_sigma remainder. The note proves the algebraic transport-channel reduction and the criterion implication; it does not prove the full Hodge-Stokes packet production theorem."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-precauchy-to-gauge-quotient-tower-bridge-test-20260621.md
@@ -11,6 +11,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-localized-skew-current-theorem-grade-audit-20260505.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transported-pressure-adapted-selector-commutator-potential-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-upgraded-four-body-current-frontier-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md
 ---
 
 # Pressure-Adapted No-Residue Skew Coercivity Criterion
