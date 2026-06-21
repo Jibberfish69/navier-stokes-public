@@ -2,7 +2,7 @@
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
 status: consolidated-frontier-installed-strict-cycle-payment-or-rigidity-open
 logical_landing_node: upgraded_four_body_current_frontier
-edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, and the finite-order amplitude/Field supplement. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is now a proved supplement: it lowers the trilinear main carrier to a quadratic quotient-tower carrier; failure of such control on retained shrinking windows is Field-facing after same-witness admission. The remaining gold theorem is therefore one of the other precise same-carrier supplements: critical-density budget, source-square/no-waste control, signed polar saturation, rigid source-residue production, or legal/charged pre-Cauchy remainder reduction."
+edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, and the source-square/no-waste supplement criterion. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste is now a proved criterion: it closes only after same-carrier domination and an unweighted square/no-waste budget are produced. The remaining gold theorem is therefore one of the other precise same-carrier production directions: critical-density budget, signed polar saturation, rigid source-residue production, or legal/charged pre-Cauchy remainder reduction, with source-square/no-waste still open exactly at identity, coefficient-overrun, or missing unweighted-budget production."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-factorial-tower-radius-spend-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-participation-exchange-normal-form-20260621.md
@@ -21,6 +21,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-gauge-quotient-tower-carrier-drain-production-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-precauchy-to-gauge-quotient-tower-bridge-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-field-amplitude-to-quotient-tower-supplement-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -862,15 +863,51 @@ So amplitude/Field is no longer an undigested supplement: it is either a paid
 four-body branch under same-carrier bounded amplitude, or a finite-rung
 Field-facing readout branch after same-witness admission.
 
+The source-square/no-waste supplement has also been assembled as an exact
+criterion.  If the actual selected carrier is dominated on the same carrier by
+a square-controlled density plus legal residue,
+
+```math
+a_j\le C_{\rm car}G_j+\ell_j,
+\qquad
+\sup_j\int_{\Omega_j}G_j^2\le C_\square,
+\tag{4BF.43}
+```
+
+then Cauchy-Schwarz gives same-carrier spacetime uniform integrability and in
+particular no terminal time-face atom.  In strict no-waste form, a bounded-below
+functional with
+
+```math
+-{d\over d\sigma}L(\sigma)
+\ge
+c\,\mathcal A_{\rm sel}(\sigma)-\mathcal R_{\rm legal}(\sigma)
+\tag{4BF.44}
+```
+
+gives the same unweighted reserve after integration.
+
+This source-square/no-waste criterion is still not a produced Navier-Stokes
+estimate.  Its exact remaining production locations are:
+
+```math
+\boxed{
+\text{same-carrier identity failure;}
+\quad
+\text{selected coefficient overrun;}
+\quad
+\text{missing unweighted square/no-waste budget.}
+}
+\tag{4BF.45}
+```
+
 The exact remaining same-carrier supplement is one of:
 
 ```math
 \boxed{
 \text{critical-density budget;}
-\quad
-\text{source-square/no-waste control;}
 }
-\tag{4BF.41}
+\tag{4BF.46}
 ```
 
 ```math
@@ -881,7 +918,7 @@ The exact remaining same-carrier supplement is one of:
 \quad
 \text{or legal/charged pre-Cauchy remainder reduction.}
 }
-\tag{4BF.42}
+\tag{4BF.47}
 ```
 
 This is the current unflattened frontier: the four-body loop pays quotient
