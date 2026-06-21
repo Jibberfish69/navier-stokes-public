@@ -12,6 +12,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-four-body-terminal-atom-accounting-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-canonical-selected-carrier-identification-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-four-body-same-carrier-orientation-defect-decomposition-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -416,9 +417,54 @@ The exact failure terms that must vanish or be charged are:
 \boxed{
 dK_{4B}
 \quad
-\text{carrier mismatch between body exchange currents;}
+\text{carrier/orientation mismatch between body exchange currents;}
 }
 \tag{4BF.26}
+```
+
+This term is now decomposed pairwise:
+
+```math
+dK_{4B}^+
+\le
+dK_{S\to Q}^+
++dK_{Q\to C}^+
++dK_{C\to G}^+
++dK_{G\to S}^+.
+\tag{4BF.26a}
+```
+
+The four interfaces are:
+
+```math
+\boxed{
+S\to Q:\text{ factorial tower exchange equals participation current;}
+}
+\tag{4BF.26b}
+```
+
+```math
+\boxed{
+Q\to C:\text{ signed participation and selected positive carrier are retained
+in the compact packet;}
+}
+\tag{4BF.26c}
+```
+
+```math
+\boxed{
+C\to G:\text{ the compact limit is canonical in the geometry variables;}
+}
+\tag{4BF.26d}
+```
+
+and
+
+```math
+\boxed{
+G\to S:\text{ deformation geometry recertifies the next Body-I tower packet.}
+}
+\tag{4BF.26e}
 ```
 
 ```math
@@ -539,5 +585,9 @@ coupled theorem:
 \tag{4BF.32}
 ```
 
-The next proof work should attack `(4BF.25)` or `(4BF.31)` directly, without
-respawning the four bodies as isolated routes.
+The same-carrier orientation decomposition makes that coupled theorem more
+concrete.  The next proof work is to prove the four pairwise interface
+identifications `(4BF.26b)` through `(4BF.26e)`, or to charge their positive
+mismatches in \(K_{4B}^+\), \(K_{\rm sel}\), \(K_C^+\), or \(K_G^+\), while
+keeping the tower, participation, compactness, and deformation bodies on the
+same selected carrier.
