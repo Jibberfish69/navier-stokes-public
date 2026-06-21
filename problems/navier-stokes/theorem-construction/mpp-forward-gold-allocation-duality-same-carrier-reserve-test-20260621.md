@@ -1,17 +1,17 @@
 ---
 ns_viewer:
   theorem_id: forward-gold-allocation-duality-same-carrier-reserve-test-20260621
-  status: direct-allocation-duality-import-test-complete-reserve-not-produced
+  status: direct-allocation-duality-import-test-complete-shadow-price-solved-only-for-combined-holder-reserve-not-produced
   proof_role: forward_gold_same_carrier_reserve_import_test
   logical_landing_node: allocation_duality_same_carrier_shadow_price_test
-  edge_effect: "Tests the open-minded import of apportionment, voting-geometry, KKT, and no-waste allocation ideas into the remaining forward-gold supplier. The import does not directly prove the unweighted normalized same-carrier reserve. It sharpens the exact missing clause: the selected positive source must have positive shadow price in a source-square, critical-strain/CKN, strict no-waste, polar-saturation, or profile-production currency on the same selected carrier."
+  edge_effect: "Tests the open-minded import of apportionment, voting-geometry, KKT, and no-waste allocation ideas into the remaining forward-gold supplier. The import does not directly prove the unweighted normalized same-carrier reserve. After the combined Holder density test, the positive-shadow-price clause is solved for the native trilinear carrier in the combined currency |Sigma|^(5/2)+|W|^(10/3) by Young's inequality. The missing clause is now the unweighted terminal-family reserve for that combined currency, or a stronger same-carrier domination into pure source-square, selected critical-strain, normalized CKN, strict no-waste, polar-saturation, or profile-production currency."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/five-family-binomial-pipeline-note.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-factorial-radius-branch-20260617.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-extremal-duality-direct-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-action-domination-lower-quantum-bridge-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-zeno-unweighted-reserve-normal-form-20260620.md
-  downstream_consequence: "Do not treat social-choice or apportionment language as a new supplier. The useful output is SameCarrierAllocationShadowPrice.A: a cellwise dual certificate proving that the retained selected source marginal is dominated by same-carrier action currency, modulo legal residue. Without that certificate, a two-cell/two-channel allocation model separates selected source from action reserve and defeats KKT/no-waste conclusions."
+  downstream_consequence: "Do not treat social-choice or apportionment language as a new supplier. For the native trilinear carrier, SameCarrierAllocationShadowPrice.A is available in the combined Holder currency by Young's inequality; this only gives a per-atom combined-density quantum. A forward-gold closure still needs an unweighted terminal-family reserve for that currency or a stronger same-carrier action currency. Without such a reserve, KKT/no-waste allocation language has no contradiction."
 ---
 
 # MPP Forward-Gold Allocation-Duality Same-Carrier Reserve Test
@@ -23,6 +23,13 @@ Date: 2026-06-21
 Direct import test complete.  The social-choice/apportionment geometry does not
 solve the remaining forward-gold supplier by itself.
 
+After the combined Holder density test, one subclause is now sharper: the native
+trilinear carrier does have a positive shadow price in the combined critical
+Holder currency.  The remaining missing object is the unweighted terminal-family
+reserve for that currency, or a stronger same-carrier domination into a pure
+source-square, selected critical-strain, normalized CKN, strict no-waste,
+polar-saturation, or profile-production currency.
+
 Its useful mathematical content is this:
 
 ```math
@@ -33,9 +40,10 @@ Its useful mathematical content is this:
 \tag{ADR.0}
 ```
 
-At the current resolution, that positive-shadow-price statement is the same
-missing same-carrier domination clause already isolated by the source-action
-lower-quantum bridge.
+At the current resolution, the positive-shadow-price statement is solved only
+for the combined Holder currency of the native trilinear carrier.  It remains
+open for the stronger pure currencies unless their own same-carrier domination
+theorems are proved.
 
 ## 1. Translation of the analogy
 
@@ -198,6 +206,70 @@ This is the allocation version of the existing two-channel obstruction in the
 source-action bridge and the two-sheet obstruction in the polar-saturation
 attempt.
 
+## 3a. What the combined Holder test changes
+
+For the native selected trilinear carrier,
+
+```math
+a_i(s)
+=
+\int
+\left[
+\left\langle
+\Sigma_i^{loc}(s)W_i(s),W_i(s)
+\right\rangle
+\right]_+dy,
+\tag{ADR.13a}
+```
+
+Young's inequality gives
+
+```math
+a_i(s)
+\le
+{2\over5}\int|\Sigma_i^{loc}(s)|^{5/2}dy
++
+{3\over5}\int|W_i(s)|^{10/3}dy.
+\tag{ADR.13b}
+```
+
+Thus `(ADR.5)` is true with the combined Holder action density
+
+```math
+A_i^{Hold}(s)
+:=
+\int|\Sigma_i^{loc}(s)|^{5/2}dy
++
+\int|W_i(s)|^{10/3}dy.
+\tag{ADR.13c}
+```
+
+This proves the same-carrier positive shadow price for the native trilinear
+carrier in that combined currency.
+
+It does not prove the reserve
+
+```math
+\sum_i\int_{-1}^{0}A_i^{Hold}(s)\,ds<\infty
+\tag{ADR.13d}
+```
+
+or terminal-tail depletion of the same sum.  The velocity side is controlled
+by energy only with the heat-scale factor \(r_i^{5/3}\), and the strain side is
+the unweighted \(L^{5/2}\) selected critical-strain reserve already isolated as
+continuation-strength.
+
+So the allocation-duality state is:
+
+```math
+\boxed{
+\text{positive shadow price in combined Holder currency is paid;}
+\quad
+\text{unweighted combined reserve is not paid.}
+}
+\tag{ADR.13e}
+```
+
 ## 4. How the named social-choice terms translate back
 
 No-waste monotonicity becomes useful only as a strict PDE Lyapunov/no-waste
@@ -218,9 +290,11 @@ C A_j+\operatorname{Legal}_j
 on the same selected packet.  That is the already-isolated same-carrier
 domination problem.
 
-CKN or strain tail depletion helps only after the selected source has positive
-price in that tail currency.  Tail depletion of a different action channel does
-not remove the selected source atom.
+CKN or pure strain tail depletion helps only after the selected source has
+positive price in that tail currency.  The combined Holder currency gives an
+available price for the native trilinear carrier, but a pure CKN or pure
+selected-strain route still needs its own domination or an unweighted budget
+strong enough to consume the combined density.
 
 Polar saturation helps only if the signed current saturates the selected
 positive carrier on the same terminal ledger.  The two-sheet cancellation model
@@ -259,8 +333,9 @@ on the same wall:
 
 ## 6. Useful output
 
-The import does not directly solve the remaining supplier.  It does give a
-better pressure target:
+The import does not directly solve the remaining supplier.  It gives a better
+pressure target, now split into a paid combined-currency clause and unpaid pure
+currency clauses:
 
 ```math
 \boxed{
@@ -280,7 +355,9 @@ residue.}
 \tag{ADR.17}
 ```
 
-At present this target is equivalent to one of the already-known forward-gold
+For the native trilinear carrier, this target is paid by `(ADR.13b)` if the
+action currency is the combined Holder density.  At present the remaining
+unpaid production is equivalent to one of the already-known forward-gold
 suppliers:
 
 ```math
@@ -298,13 +375,32 @@ suppliers:
 
 The allocation language is valuable as a veto: any proposed apportionment,
 KKT, majorization, voting-geometry, or no-waste route must exhibit the
-cellwise positive shadow price `(ADR.5)` or `(ADR.8)`.  Without that certificate,
-the two-cell model `(ADR.12)`--`(ADR.13)` separates source from reserve and the
-terminal atom survives.
+cellwise positive shadow price `(ADR.5)` or `(ADR.8)` and an unweighted reserve
+for the priced currency.  The combined Holder route has the first piece and
+lacks the second.  Without both pieces, the terminal atom survives.
 
 ## Verdict
 
-Open-minded import checked.  It does not turn the tide by itself.  It narrows
-the remaining gold supplier to a single allocation-duality formulation:
-prove positive shadow price for the selected source on the actual same carrier,
-or the imported geometry has no grip on the NS terminal atom.
+Open-minded import checked.  It does not turn the tide by itself.  The paid
+part is now exact:
+
+```math
+\boxed{
+\text{native trilinear source}
+\le
+\text{combined Holder critical density.}
+}
+\tag{ADR.19}
+```
+
+The unpaid part is also exact:
+
+```math
+\boxed{
+\text{prove an unweighted terminal-family reserve for that density,}
+}
+\tag{ADR.20}
+```
+
+or replace it by a stronger same-carrier source-square, pure CKN/strain,
+strict no-waste, polar-saturation, or profile-production reserve.
