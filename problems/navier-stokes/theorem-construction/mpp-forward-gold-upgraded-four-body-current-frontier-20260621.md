@@ -49,8 +49,14 @@ latest_update: >-
   cancellation can make the full-packet positive part vanish while the
   channel-first native positive source remains positive.  Thus the channel-first
   transfer now needs either order-locking or a polar-pair four-body payment that
-  counts the retained deficit \([-b_\sigma]_+\) itself; typed exits apply only
-  to partners that leave the retained carrier.
+  counts the retained deficit \([-b_\sigma]_+\) itself.  The polar-pair direct
+  attempt then pays the pressure partner for pressure-compatible finite tower
+  tests, pays the viscous partner by normalized viscous/tower loss, routes finite
+  signed-saturation plus selector/legal/geometry partners, and leaves exactly
+  the time/storage/terminal-Zeno producer already isolated as
+  FourBodyTerminalTraceAC.A / StrictFourBodyNoWasteLyapunov.A / no-free Zeno /
+  profile production. Typed exits apply only to partners that leave the retained
+  carrier.
 parents:
   - problems/navier-stokes/theorem-construction/carrier-axiom-sheet.md
   - problems/navier-stokes/theorem-construction/carrier-realization-classical-identification.md
@@ -118,6 +124,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-four-body-selected-full-packet-production-step-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-native-selected-activity-identification-route-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-partner-deficit-retention-or-exit-direct-attempt-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-four-body-partner-polar-payment-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-visible-readout-payment-final-attempt-20260621.md
 ---
 
