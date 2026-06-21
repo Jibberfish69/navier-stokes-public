@@ -186,13 +186,13 @@ chunk:
       \]
 
       \[
-      Pack_Q+Part_{N,Q}
+      Part_{N,Q} plus Field-window evidence
       +\text{vanishing-ledger positive-source packet}
       \Longrightarrow
       \forall r>0\,\neg Field_{N,r,Q}.
       \]
 
-      First remove the alternatives that are not part of the retained CM branch: declared legal losses, endpoint/readout escapes, and non-selected source-wall branches. If the remaining positive source packet cannot be kept on one bounded same-fluid carrier, the bounded carrier row has failed; this is not Pack Q.
+      First remove the alternatives that are not part of the retained CM branch: declared legal losses, endpoint/readout escapes, and non-selected source-wall branches. If the remaining positive source packet cannot be kept on one bounded same-fluid carrier, the bounded carrier row has failed; this is Field-window evidence outside CM.
 
       If the packet can be kept on one carrier but the positive source is not a source/readout term of the same differentiated pressure-viscosity Navier-Stokes tower, the participation row has failed; this is not Part N,Q .
 
@@ -262,7 +262,7 @@ chunk:
       survives after no-earlier selected source has been imposed.\n\nThis is a diagnostic
       theorem. It does not prove the positive temporal anti-atom theorem, and it does
       not install the broad direct supplier Zeno Bounded Class B.A + Zeno Residue
-      Liouville B.A. It says which CM face the selected Zeno failure breaks.\n\n\\[\nPack_Q+Part_{N,Q}\n+\\forall
+      Liouville B.A. It says which CM face the selected Zeno failure breaks.\n\n\\[\nPart_{N,Q} plus Field-window evidence\n+\\forall
       r>0\\,\\neg Field_{N,r,Q}\n\\Longrightarrow\ntower\\text{-}blown,\n\\]\n\nThat
       is the Zeno analogue of the retained Carleson failure tree: a selected source-wall
       defect has survived all non-selected, legal-loss, and earlier-source alternatives.\n\nOn
@@ -558,13 +558,13 @@ chunk:
     \]
 
     \[
-    Pack_Q+Part_{N,Q}
+    Part_{N,Q} plus Field-window evidence
     +\text{vanishing-ledger positive-source packet}
     \Longrightarrow
     \forall r>0\,\neg Field_{N,r,Q}.
     \]
 
-    First remove the alternatives that are not part of the retained CM branch: declared legal losses, endpoint/readout escapes, and non-selected source-wall branches. If the remaining positive source packet cannot be kept on one bounded same-fluid carrier, the bounded carrier row has failed; this is not Pack Q.
+    First remove the alternatives that are not part of the retained CM branch: declared legal losses, endpoint/readout escapes, and non-selected source-wall branches. If the remaining positive source packet cannot be kept on one bounded same-fluid carrier, the bounded carrier row has failed; this is Field-window evidence outside CM.
 
     If the packet can be kept on one carrier but the positive source is not a source/readout term of the same differentiated pressure-viscosity Navier-Stokes tower, the participation row has failed; this is not Part N,Q .
 
@@ -572,7 +572,7 @@ chunk:
 
     If the residue persists along an infinite retained source-reserve tree, the installed theorem Class Internal Source Tree Exclusion.A applies. Under Pack Q and Part N,Q , the local Duhamel response of the positive source reserve forces an order-one retained neighboring-field defect at arbitrarily small scales. This contradicts the tail vanishing required by Field N,r,Q .
 
-    If the residue is terminal Zeno/atomic, the installed theorem Retained Zeno Atom Field Exit.A applies. Under retained Pack and Part, a nonzero zero-heat-time source residue is an internal source/readout term on the same carrier, so it is a Field/source-residue exit rather than a new face.
+    If the residue is terminal Zeno/atomic, the installed theorem Retained Zeno Atom Field Exit.A applies. Under retained Field-window evidence and Part, a nonzero zero-heat-time source residue is an internal source/readout term on the same carrier, so it is a Field/source-residue exit rather than a new face.
 
     This proves only the contrapositive sorting use. It does not prove the positive supplier theorem
 
@@ -624,7 +624,7 @@ chunk:
     This is a diagnostic theorem. It does not prove the positive temporal anti-atom theorem, and it does not install the broad direct supplier Zeno Bounded Class B.A + Zeno Residue Liouville B.A. It says which CM face the selected Zeno failure breaks.
 
     \[
-    Pack_Q+Part_{N,Q}
+    Part_{N,Q} plus Field-window evidence
     +\forall r>0\,\neg Field_{N,r,Q}
     \Longrightarrow
     tower\text{-}blown,
@@ -666,7 +666,7 @@ chunk:
 
     For the CM witness-face split, that endpoint cell is the analytic witness for not Field, not an additional face. so the retained Zeno atom forces
 
-    If the terminal residue cannot be kept on one retained same-fluid carrier, the bounded carrier row has failed, so the branch is not Pack Q.
+    If the terminal residue cannot be kept on one retained same-fluid carrier, the bounded carrier row has failed, so the branch is Field-window evidence outside CM.
 
 
 
@@ -785,7 +785,7 @@ chunk:
     % ... source excerpt truncated for packet size ...
   context_truncated: true
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
