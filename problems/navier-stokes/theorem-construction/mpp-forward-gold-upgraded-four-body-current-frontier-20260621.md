@@ -15,6 +15,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-four-body-same-carrier-orientation-defect-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-bodyii-interface-reorientation-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-bodyiii-retained-participation-packet-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-bodyiv-canonical-geometry-packet-interface-criterion-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -496,6 +497,38 @@ C\to G:\text{ the compact limit is canonical in the geometry variables;}
 \tag{4BF.26d}
 ```
 
+This interface now has the canonical geometry-packet criterion.  With
+\(\Xi(a,t)=(X(a,t),t)\) and \(\det D_aX=1\),
+
+```math
+\boxed{
+\mathcal P_G[v,q,A,G]
+=
+\Xi^\sharp\mathcal P_E[U,\Pi].
+}
+\tag{4BF.26d1}
+```
+
+If this holds after Body-III no-loss identification, then \(dK_{C\to G}=0\).
+Failure is charged by
+
+```math
+\boxed{
+K_{C\to G}^+
+\le
+K_C^+
++
+K_{\rm geom,map}^+
++
+K_{\rm geom,gauge}^+
++
+K_{\rm geom,coef}^+
++
+R_{\rm legal}.
+}
+\tag{4BF.26d2}
+```
+
 and
 
 ```math
@@ -648,3 +681,9 @@ through compactness only as the retained participation packet
 \((\mu^A,\mu^N,\mu^J)\).  Compactness may keep the positive carrier only if it
 also retains the signed current and negative partner, or else charges the loss
 to \(K_{\rm sel}\), \(K_C^+\), or legal residual.
+
+The third interface has now been sharpened too: \(C\to G\) passes from
+compactness to geometry only as the same canonical packet pulled back by the
+volume-preserving material map.  A compact Eulerian packet that cannot be
+realized as the Body-IV material/deformation packet is not silently usable; it
+is charged to \(K_C^+\), \(K_G^+\), or legal residual.
