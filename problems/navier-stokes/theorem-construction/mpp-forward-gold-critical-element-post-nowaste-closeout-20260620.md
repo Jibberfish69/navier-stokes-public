@@ -283,4 +283,4 @@ tightness,}
 ```
 
 or a proof that the retained terminal pulse must be consumed by the CM
-Pack/Part/Field route instead of by forward gold.
+Part/Field route instead of by forward gold.

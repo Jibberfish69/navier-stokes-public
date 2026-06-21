@@ -264,5 +264,5 @@ The exact reduction is:
 
 The remaining gold work is to prove that annular share by a same-carrier
 source-square/no-waste/CKN/saturation theorem, or to send the no-share recurrent
-branch into rigid profile production or the admitted CM Pack/Part/Field
+branch into rigid profile production or the admitted CM Part/Field
 consumer.

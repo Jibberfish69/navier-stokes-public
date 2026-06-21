@@ -301,7 +301,7 @@ Door 1 becomes:
 \Longrightarrow
 \text{visible in }(\mathcal E,\mathcal F,\mathcal D)
 \Longrightarrow
-\text{paid contradiction or CM face landing}.
+\text{paid contradiction or CM Part/Field landing}.
 \tag{CE.22}
 ```
 
@@ -375,7 +375,7 @@ The first alternative absorbs Door 1 and all hidden-source variants:
 ```math
 \text{visible defect}
 \Longrightarrow
-\text{paid contradiction, visible CM face, or no hidden terminal surplus}.
+\text{paid contradiction, visible CM Part/Field, or no hidden terminal surplus}.
 \tag{CE.29}
 ```
 

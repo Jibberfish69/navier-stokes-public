@@ -199,6 +199,6 @@ The forward-gold branch is exhausted to one exact wall:
 ```
 
 or the retained terminal heat-scale pulse remains visible but not
-forward-excluded.  In that case it must be consumed by the CM Pack/Part/Field
-witness-face program rather than presented as a solved forward-positive
+forward-excluded.  In that case it must be consumed by the CM Part/Field
+witness program rather than presented as a solved forward-positive
 anti-atom theorem.

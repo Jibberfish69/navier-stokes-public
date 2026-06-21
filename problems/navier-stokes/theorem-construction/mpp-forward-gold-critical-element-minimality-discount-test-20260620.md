@@ -339,4 +339,4 @@ Thus the forward-gold frontier remains the same but sharper:
 
 not by compactness language alone.  Without that strict mechanism, the retained
 terminal heat-scale pulse remains visible but not excluded by forward gold, and
-must be routed as a CM Pack/Part/Field witness-face object.
+must be routed as a CM Part/Field witness object.

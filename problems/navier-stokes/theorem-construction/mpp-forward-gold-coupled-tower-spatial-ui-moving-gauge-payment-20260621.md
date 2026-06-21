@@ -262,7 +262,7 @@ or for an explicit collar/legal/readout charge when that fails.
 ## 5. Relation to Field/readout
 
 The same tower regularity is continuation-strength when it is promoted to the
-CM Field readout.  In the installed CM packet grammar, a retained
+CM Field readout.  In the installed CM participation-field record grammar, a retained
 \(H^s\)-readout with
 
 \[

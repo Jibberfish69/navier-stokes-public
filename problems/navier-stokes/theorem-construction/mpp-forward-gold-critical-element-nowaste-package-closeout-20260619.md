@@ -336,4 +336,4 @@ or
 Absent one of those, the critical-element package does not exclude the
 heat-scale terminal atom.  It repackages the same atom as an endpoint defect of
 the extracted local-energy package, which must then be consumed by the CM
-Pack/Part/Field route rather than killed by forward gold.
+Part/Field route rather than killed by forward gold.

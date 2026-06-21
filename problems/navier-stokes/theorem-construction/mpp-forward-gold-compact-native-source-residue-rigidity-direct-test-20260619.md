@@ -159,7 +159,7 @@ SourceResidueEvacuation.A:
 \quad
 \mathfrak R\neq0
 \Longrightarrow
-\text{legal cost, source-square reserve, or CM face failure.}
+\text{legal cost, source-square reserve, or CM Part/Field failure.}
 }
 \tag{CNSR.12}
 ```
@@ -316,4 +316,4 @@ StrictRescaledNoWasteLyapunov.A,
 \tag{CNSR.23}
 ```
 
-or to CM Pack/Part/Field consumption of the retained terminal source pulse.
+or to CM Part/Field consumption of the retained terminal source pulse.

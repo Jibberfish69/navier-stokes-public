@@ -189,7 +189,7 @@ every minimal near-resonant two-frame Pack molecule either
   produces a one-profile selected Pack defect,
   has a terminal anti-atom modulus,
   lands in a rigid two-frame Liouville class,
-  or creates a concrete Pack/Part/Field face failure strong enough for the
+  or creates a concrete Part/Field Part/Field failure strong enough for the
   intended downstream use.
 ```
 
