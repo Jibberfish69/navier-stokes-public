@@ -13,6 +13,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-bodyii-interface-reorientation-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-bodyiii-retained-participation-packet-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-bodyiv-canonical-geometry-packet-interface-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-bodyi-geometry-tower-recertification-interface-criterion-20260621.md
 ---
 
 # Four-Body Same-Carrier Orientation Defect Decomposition
@@ -467,21 +468,68 @@ mismatch, and missing coefficient-geometry or commutator control for \(A\) and
 The \(G\to S\) interface requires the Body-IV deformation geometry to recertify
 the next Body-I tower carrier.
 
-The exact condition is:
+The interface now has an exact variable-coefficient tower criterion.  In
+material variables,
 
 ```math
-\boxed{
-\Gamma_{A_0}(t_0,t_1)<\infty
-+
-\text{finite coefficient-geometry control of }G
-\Longrightarrow
-\mathcal T_N[v,G]\text{ is the next Body-I tower packet.}
-}
+\partial_t v+A^\top\nabla_aq
+=
+\nu\,\operatorname{div}_a(G\nabla_av),
+\qquad
+\nabla_a\cdot(Av)=0.
 \tag{SOD.35}
 ```
 
-Failure is \(K_{G\to S}^+\), included in the Body-IV geometry defect \(K_G^+\)
-or in the four-body orientation defect.
+The finite material tower has coefficient commutators
+
+```math
+\mathcal C_{m,\alpha}^G
+:=
+\nu[\partial_t^m\partial_a^\alpha,\operatorname{div}_a(G\nabla_a)]v
+-
+[\partial_t^m\partial_a^\alpha,A^\top\nabla_a]q.
+\tag{SOD.36}
+```
+
+If the material metric is uniformly elliptic, the finite coefficient-commutator
+packet is retained or absorbed, and the material tower transports back to the
+next selected Body-I carrier,
+
+```math
+\boxed{
+\Theta_{G\to S}\mathcal T_N[v,G]
+=
+\mathcal T_N^{\rm next}[u,p]
+\Longrightarrow
+dK_{G\to S}=0.
+}
+\tag{SOD.37}
+```
+
+Failure is charged by
+
+```math
+\boxed{
+K_{G\to S}^+
+\le
+K_{\rm ell}^+
++
+K_{\rm coef}^+
++
+K_{\rm comm}^+
++
+K_{\rm transport}^+
++
+K_G^+
++
+R_{\rm legal}.
+}
+\tag{SOD.38}
+```
+
+Thus the return interface closes only when ellipticity, coefficient geometry,
+commutator absorption, and same-carrier tower transport are all retained or
+charged.
 
 ## 6. Lossless-cycle consequence
 
@@ -495,7 +543,7 @@ K_{\rm sel}=0,
 K_C^+=0,
 \qquad
 K_G^+=0.
-\tag{SOD.36}
+\tag{SOD.39}
 ```
 
 Then the four body exchange currents cancel exactly, and the atom/accounting
@@ -509,7 +557,7 @@ L_{4B}(\sigma_0)-\inf L_{4B}
 +
 R_{4B}((\sigma_0,\infty)).
 }
-\tag{SOD.37}
+\tag{SOD.40}
 ```
 
 If the residual vanishes on the terminal tail, nonzero selected activity must
@@ -525,7 +573,7 @@ This note proves the same-carrier orientation decomposition:
 \text{unweighted four-body reserve}
 \quad\text{with extra residual }K_{\rm orient}^+.
 }
-\tag{SOD.38}
+\tag{SOD.41}
 ```
 
 The \(S\to Q\) interface has now been reoriented exactly by `(SOD.24)`, provided
@@ -542,9 +590,16 @@ packet criterion `(SOD.34)`: Body III must give Body IV the same packet through
 the volume-preserving material map, or the failure is charged in \(K_C^+\),
 \(K_G^+\), or \(R_{\rm legal}\).
 
-It does not prove the remaining Navier-Stokes geometry production and return
-identification `(SOD.35)`, nor does it prove that selector changes inside
-\(S\to Q\), \(Q\to C\), or \(C\to G\) have zero defect.
+The \(G\to S\) interface has now been reduced to the variable-coefficient tower
+recertification criterion `(SOD.38)`: Body IV must return a uniformly elliptic,
+coefficient-controlled, commutator-absorbed material tower to the next Body-I
+selected carrier, or the failure is charged in \(K_G^+\), \(K_{G\to S}^+\), or
+\(R_{\rm legal}\).
+
+It does not prove the remaining Navier-Stokes production theorem that makes
+these geometry and commutator defects vanish, nor does it prove that selector
+changes inside \(S\to Q\), \(Q\to C\), \(C\to G\), or \(G\to S\) have zero
+defect.
 
 The remaining proof work is now sharper:
 
@@ -553,7 +608,7 @@ The remaining proof work is now sharper:
 \text{prove the four pairwise same-carrier identifications, or charge their
 positive mismatches in the existing four-body defect terms.}
 }
-\tag{SOD.39}
+\tag{SOD.42}
 ```
 
 That is the exact current form of "the four bodies must balance."  Balance
