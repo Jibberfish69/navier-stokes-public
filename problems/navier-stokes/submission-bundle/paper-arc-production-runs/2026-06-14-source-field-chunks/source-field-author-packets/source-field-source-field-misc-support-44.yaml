@@ -198,7 +198,7 @@ chunk:
 
       The Zeno path currently has compactness extraction, yielding a candidate source-residue limit. It lacks a produced rigid class B from the installed Original Smooth Data and Zeno ancestry inputs. Audited candidates fail to be produced: finite global ancient energy, Type I control, critical smallness, bounded ancient vorticity, self-similarity, two-dimensionality, axisymmetry, and source-cancellation class. The class B and its residue Liouville theorem remain the open objects.
 
-      Thus the source-wall residue does source-side work only after it is synchronized with the Pack/Part/Field witness envelope on the same still-live carrier.
+      Thus the source-wall residue does source-side work only after it is synchronized with the Part/Field witness envelope on the same still-live carrier.
 
 
     truncated: false
@@ -497,7 +497,7 @@ chunk:
 
     The Zeno path currently has compactness extraction, yielding a candidate source-residue limit. It lacks a produced rigid class B from the installed Original Smooth Data and Zeno ancestry inputs. Audited candidates fail to be produced: finite global ancient energy, Type I control, critical smallness, bounded ancient vorticity, self-similarity, two-dimensionality, axisymmetry, and source-cancellation class. The class B and its residue Liouville theorem remain the open objects.
 
-    Thus the source-wall residue does source-side work only after it is synchronized with the Pack/Part/Field witness envelope on the same still-live carrier.
+    Thus the source-wall residue does source-side work only after it is synchronized with the Part/Field witness envelope on the same still-live carrier.
 
 
 
@@ -630,7 +630,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
