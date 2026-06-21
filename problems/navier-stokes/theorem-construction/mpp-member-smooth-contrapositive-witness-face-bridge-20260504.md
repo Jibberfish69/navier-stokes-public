@@ -5,7 +5,7 @@
 Direction-corrected CM witness note.
 
 The theorem-grade installed direction retained from this surface is the
-certificate direction:
+witness-to-member direction:
 
 ```math
 \forall N\ \exists r_N>0:

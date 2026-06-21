@@ -23,7 +23,7 @@ candidate; it does not define what it means to be an NS participant.
 
 Direction audit for the class-membership witness surfaces.
 
-The theorem-grade installed direction is the certificate direction:
+The theorem-grade installed direction is the witness-to-member direction:
 
 ```math
 \boxed{
@@ -149,9 +149,9 @@ membership or a necessary characterization of membership on the route.
 
 ## Safe Claim
 
-NS-MPP has installed `CM` as an exact analytic certificate for membership for
+NS-MPP has installed `CM` as an exact analytic witness-to-member record for
 an original-NS participating candidate, and has installed `Pack/Part/Field` as
-the canonical route-relative witness envelope.  The certificate does not make
+the canonical route-relative witness-face record.  The certificate does not make
 `Pack` the source of participation and does not make indexed `Part_{N,Q}` the
 ontology of the solution.
 It has not installed the blunt converse witness theorem

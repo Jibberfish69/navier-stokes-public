@@ -26,7 +26,7 @@ The governing primitive remains:
 Exit(Q;O_NS^{work}) := \neg Member(Q;O_NS^{work}).
 ```
 
-The installed certificate direction remains one-way:
+The installed witness-to-member direction remains one-way:
 
 ```math
 \forall N\ \exists r_N>0:\ CM_{N,r_N,Q}

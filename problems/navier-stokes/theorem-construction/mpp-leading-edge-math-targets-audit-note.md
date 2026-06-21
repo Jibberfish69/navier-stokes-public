@@ -1011,7 +1011,7 @@ LemmaB.SourceDrain.
 ```
 
 But if one reads the current direct-live edge cluster literally, the CM
-certificate direction is already installed, `SourceWall.Reconcile.A` has resolved
+witness-to-member direction is already installed, `SourceWall.Reconcile.A` has resolved
 by demoting normalized-adjoint source-drain to conditional support, and one
 explicit theorem-facing root remains:
 

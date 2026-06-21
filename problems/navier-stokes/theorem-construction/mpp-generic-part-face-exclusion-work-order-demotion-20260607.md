@@ -172,7 +172,7 @@ standing CM-referee blocker.
 
 `RetainedPackOriginalAncestryPartSurvival.A` remains a failed generic
 no-defect theorem, not the current local proof target. The current Part
-requirement is row-level certification: named promoted obstruction rows must
+requirement is row-level witness record: named promoted obstruction rows must
 either land at `not Part_{N,Q}` after `Pack_Q`, pass through `Part_{N,Q}` and
 continue to the next face, or be classified as non-proof support. Under the
 newer referee audit, no current promoted surface leaves a generic Part

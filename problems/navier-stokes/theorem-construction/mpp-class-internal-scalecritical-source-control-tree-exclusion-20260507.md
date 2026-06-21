@@ -168,7 +168,7 @@ tails to vanish as the dyadic scale tends to infinity:
 The infinitely many lower bounds `(T.4)` contradict `(T.5)`. Therefore the
 assumed infinite concentrating positive source-reserve tree cannot coexist
 with `Field_{N,r,Q}`. Since `CM_{N,r,Q}` includes `Field_{N,r,Q}`, it cannot
-coexist with `CM_{N,r,Q}`; and along the installed certificate direction
+coexist with `CM_{N,r,Q}`; and along the installed witness-to-member direction
 `CM=>Member`, it cannot be present inside a CM-witnessed NS-class member packet.
 
 This proves `ClassInternalSourceTreeExclusion.A`.

@@ -4,7 +4,7 @@ ns_viewer:
   status: target-repair-stale-generic-blocker
   proof_role: target_repair
   logical_landing_node: cm_pack_face_attempts
-  edge_effect: "Replaces generic Pack-face exclusion with row-level CM-test entry and first-face certification while preserving not-Pack_Q as a lawful first-face landing for named rows."
+  edge_effect: "Replaces generic Pack-face exclusion with row-level CM-test entry and first-face witness record while preserving not-Pack_Q as a lawful first-face landing for named rows."
   upstream_origin: "June 7 Pack-face exclusion working pass and current CM referee audit."
   downstream_consequence: "Future carrier rows require same-witness Pack certification or land as Pack failures instead of staying generic Clay blockers."
 ---
@@ -15,7 +15,7 @@ Date: 2026-06-07
 
 Status: target-repair note. The generic Pack face-exclusion work order is stale
 as a current proof-bearing blocker. Named promoted obstruction rows still
-require CM-test entry plus Pack/Part/Field face certification before they can
+require CM-test entry plus Pack/Part/Field face witness record before they can
 carry proof mass.
 
 ## Governing Program
@@ -80,7 +80,7 @@ The June 7 CM referee audit applies that corrected target. It reports that the
 current finite-obstruction inventory gate passed, that the branch ledger has no
 open proof-bearing rows, and that no CM-referee blocker remains on currently
 promoted surfaces. It also states the future rule: a new proof-bearing branch
-must pass CM-test entry plus Pack/Part/Field face certification before
+must pass CM-test entry plus Pack/Part/Field face witness record before
 promotion.
 
 ## Why The Generic Pack Target Is Wrong

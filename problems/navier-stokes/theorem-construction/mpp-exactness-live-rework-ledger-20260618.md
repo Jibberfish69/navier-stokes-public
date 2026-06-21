@@ -12252,7 +12252,7 @@ The page no longer lets a vague standard-label substitute for a theorem,
 criterion, gate, or requirement.  The affected passages remain attached to the
 same exact mathematical burdens: Pack.TTU two-sided material supremum control,
 periodic-to-R3 export hypotheses, anisotropic Stokes divergence structure, and
-promoted-row CM face certification.
+promoted-row CM face witness record.
 
 Surfaces edited:
 
@@ -13057,7 +13057,7 @@ ledger.
 
 Old claim being spent:
 
-The conditional Pack positive-radius certification said the remaining branch
+The conditional Pack positive-radius admission after original participation audit said the remaining branch
 may be tested by the "standard Pack/Part/Field chain."
 
 Exact replacement:
@@ -13068,7 +13068,7 @@ The note now states the typed CM order: first `Pack_Q`, then `Part_{N,Q}`, then
 Proof or downstream consequence:
 
 The certification spends the Pack-before-Part audited CM witness grammar after singular
-cases are exhausted through Part/Field first; it does not rely on a generic
+cases are exhausted through the original-participation audit; it does not rely on a generic
 chain convention.
 
 Surfaces edited:
@@ -13726,7 +13726,7 @@ transforms directly, while the divergence constraint is
 Proof or downstream consequence:
 
 The route no longer spends expectation or conventional route names.  Zero-radius
-singular terminal objects must be tested by Part/Field before Pack recertifies
+singular terminal objects must be audited under the original NS participation law before Pack admission is spent
 the positive-radius branch; Liouville rigidity requires one of the displayed
 rigid classes; and TPNI/backward uniqueness remains an anisotropic Stokes
 problem with the displayed divergence constraint.

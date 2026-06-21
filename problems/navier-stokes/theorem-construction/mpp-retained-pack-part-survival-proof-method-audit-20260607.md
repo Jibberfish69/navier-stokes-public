@@ -6,7 +6,7 @@ ns_viewer:
   logical_landing_node: cm_source_pack_discharge_attempts
   edge_effect: "Shows RetainedPackOriginalAncestryPartSurvival.A is a terminal no-defect compactness theorem, not a small Part bookkeeping lemma."
   upstream_origin: "June 7 Part-face working pass and retained-Pack/source-participation audit."
-  downstream_consequence: "Keep retained-Pack native pressure/source residue rows out of proof burden unless a named row obtains same-witness CM entry and first Pack/Part/Field face certification."
+  downstream_consequence: "Keep retained-Pack native pressure/source residue rows out of proof burden unless a named row obtains same-witness CM entry and first Pack/Part/Field face witness record."
 ---
 
 # MPP Retained-Pack Part Survival Proof-Method Audit
