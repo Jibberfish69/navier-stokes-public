@@ -13,8 +13,10 @@ primary_objective:
   theorem_program: Prove the CM contrapositive primitive `Exit(Q;O_NS^work):=not Member(Q;O_NS^work)`
     through a first class-exit witness-face failure of Pack, Part, or Field; arbitrary
     `not CM=>not Member` is not installed.
-  cm_witness: CM_{N,r,Q} means Pack_Q plus Part_{N,Q} plus Field_{N,r,Q} on the same-fluid
-    family.
+  cm_witness: CM_{N,r,Q} means Pack_Q plus Part_{N,Q} plus Field_{N,r,Q}
+    on the same-fluid family after original NS participation is already the governing
+    ontology. Part_{N,Q} is the finite packet-local Silver record, not the source
+    of participation.
   sourcepulse_frontier_reading: SourcePulseCMExit.A is a source-pulse manifestation
     / branch theorem under the CM-exit grammar. SOURCE.NO-PULSE.A and AWG.A are branch-support
     suppliers for no-Jump_avg/source-pulse exclusion only; they are not the governing

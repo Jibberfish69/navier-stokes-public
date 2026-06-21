@@ -24,7 +24,10 @@ scope:
   readout_boundary: H^s readout bridge is proof-licensing from CM to continuation,
     not a CM-exit failure face
   cm_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
-  certificate_direction: CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q} certifies Member(Q)
+  certificate_direction: For an already original-NS participating same-fluid candidate,
+    CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q} certifies Member(Q);
+    Part itself is the original participation ontology, and Part_{N,Q} is only
+    the finite packet-local Silver record.
 surface_audit:
   - path: problems/navier-stokes/route-lock.yaml
     role: governance
