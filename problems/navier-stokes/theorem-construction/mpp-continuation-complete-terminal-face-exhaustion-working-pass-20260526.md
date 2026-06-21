@@ -47,7 +47,7 @@ terminal packet at continuation depth.
 
 If `T_*` is a finite terminal non-continuation time for the same original
 Navier-Stokes solution, then the failure is exhausted by a Field-certification
-Part/Field Part/Field failure:
+Part/Field failure:
 
 ```text
 finite terminal non-continuation at T_*

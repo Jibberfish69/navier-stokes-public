@@ -35,7 +35,7 @@ The live edge already quarantines the broader bridge:
 ClayBreakdownPreterminalReflection.A / CMFaceNoFirstTerminalLoss.A
 ```
 
-It is not a live CM burden. The terminal Part/Field Part/Field failure is the
+It is not a live CM burden. The terminal Part/Field failure is the
 CM contrapositive witness supporting `Exit(Q):=not Member(Q)`. It is not
 an earlier still-live failure without a backward-reflection theorem.
 

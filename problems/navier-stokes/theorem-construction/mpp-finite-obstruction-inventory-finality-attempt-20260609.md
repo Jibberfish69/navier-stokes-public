@@ -4,7 +4,7 @@ ns_viewer:
   status: superseded-wrong-silver-target
   proof_role: bridge_attempt
   logical_landing_node: clay_counterexample_exclusion_bridge
-  edge_effect: "Superseded by the Silver CM Part/Field-failure correction: a concrete Part/Field Part/Field failure is the Silver contrapositive witness, not a leftover branch requiring NoGenuineExitFromSmoothData.A."
+  edge_effect: "Superseded by the Silver CM Part/Field-failure correction: a concrete Part/Field failure is the Silver contrapositive witness, not a leftover branch requiring NoGenuineExitFromSmoothData.A."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
     - problems/navier-stokes/theorem-construction/mpp-clay-admissible-breakdown-cm-lawfulness-test-20260524.md
@@ -26,7 +26,7 @@ This note tested the wrong burden for the accepted Silver route. It asked for a
 separate theorem turning
 
 ```text
-first Part/Field Part/Field failure
+first Part/Field failure
 ```
 
 into a contradiction. That imports a forward no-exit theorem after the
@@ -34,7 +34,7 @@ contrapositive witness has already been derived.
 
 For Silver, the fail branch is not a residual finite-breakdown branch waiting for
 `NoGenuineExitFromSmoothData.A`. Once the same-solution terminal object has
-entered the CM test, a concrete Part/Field Part/Field failure is the
+entered the CM test, a concrete Part/Field failure is the
 contrapositive witness supporting
 
 ```text
@@ -43,7 +43,7 @@ Exit(Q):=not Member(Q).
 
 The active Silver audit target is narrower and rowwise: name a promoted finite
 terminal obstruction row that enters the CM test and still neither continues nor
-lands in a real Part/Field Part/Field failure. No such row is identified in this
+lands in a real Part/Field failure. No such row is identified in this
 note.
 
 ## Target
@@ -68,7 +68,7 @@ The following chain is installed as a CM classification theorem:
 ClayAdmissibleFiniteBreakdown(W_*)
 => CMTestAdmissibleTerminalObject(W_*)
 => SameSolutionTerminalObstruction(W_*)
-=> first Part/Field Part/Field failure
+=> first Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
@@ -116,20 +116,20 @@ Pack + Part + Field
 The fail branch is classification-bearing:
 
 ```text
-first Part/Field Part/Field failure
+first Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
 The old sentence above was the wrong proof program. The fail branch is useful
 exactly when it is same-solution, CM-test-admitted, and lands in a concrete
-Part/Field Part/Field failure. It is the contrapositive witness, not a surviving
+Part/Field failure. It is the contrapositive witness, not a surviving
 in-class breakdown branch.
 
 ## Attempt result
 
 Finite-obstruction inventory coverage is the accepted Silver route when every
 promoted finite terminal row has CM-test entry plus admissibility failure,
-continuation/readout recovery, or concrete Part/Field Part/Field failure.
+continuation/readout recovery, or concrete Part/Field failure.
 
 The following objects are demoted to Gold/positive/manuscript support unless a
 fresh surface proves they are needed for a concrete unconsumed Silver row:

@@ -30,7 +30,7 @@ CrossProfileTerminalPositiveSourceAtomEscape.A.
 
 Plainly, this asks whether a terminal native positive source atom can be
 diffuse in parents, zero-thickness in time, pressure/eigenframe sustained, and
-free of same-ledger Part/Field Part/Field failure.
+free of same-ledger Part/Field failure.
 
 That is a useful supplier question only when it feeds the first-exit Pack wall.
 It is not the public Clay finality parent.
@@ -69,7 +69,7 @@ The installed classification chain is:
 ClayAdmissibleFiniteBreakdown(W_*)
 => CMTestAdmissibleTerminalObject(W_*)
 => SameSolutionTerminalObstruction(W_*)
-=> first Part/Field Part/Field failure
+=> first Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 

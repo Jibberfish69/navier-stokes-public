@@ -12,7 +12,7 @@ requirement: for each obstruction being split, the pass side must be shown by
 the simplest lawful smooth / `Member(Q)` witness for that same obstruction.
 This is not the full forward bootstrap-estimate program. The CM work then acts
 on the fail branch: admit the obstruction to the CM terminal packet test and
-derive a concrete Part/Field Part/Field failure supporting
+derive a concrete Part/Field failure supporting
 
 ```text
 Exit(Q) := not Member(Q).
@@ -22,7 +22,7 @@ Exit(Q) := not Member(Q).
 
 - Alleged finite Clay terminal breakdown: counterexample object under test.
 - CM terminal packet admission: grammar-admissible test entry for that object.
-- `Pack_Q`, `Part_{N,Q}`, `Field_{N,r,Q}`: witnesss.
+- `Pack_Q`, `Part_{N,Q}`, `Field_{N,r,Q}`: witnesses.
 - Face failure: the actual mathematical landing, one of `not Pack_Q`,
   `not Part_{N,Q}`, or `Part_{N,Q} + forall r>0 not Field_{N,r,Q}`.
 - `Exit(Q):=not Member(Q)`: downstream class-exit conclusion supported by the
@@ -91,7 +91,7 @@ Reject any next theorem target that says or implies:
 - prove smooth data stays in CM as the branch-law burden;
 - treat `CM-lawful` as `Member(Q)`;
 - label a bad or nonsmooth-capable branch as `Exit(Q)` before deriving the
-  Part/Field Part/Field failure;
+  Part/Field failure;
 - make a generated surface, direct attempt, or public-closure comparison
   override the direct-live CM invariant.
 

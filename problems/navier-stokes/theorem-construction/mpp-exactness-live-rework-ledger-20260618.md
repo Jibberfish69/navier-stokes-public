@@ -2080,7 +2080,7 @@ The note now states the exact pass-or-exit split:
 ```text
 pass branch: supplies the in-class Member(Q) continuation packet;
 fail branch: becomes Exit(Q):=not Member(Q) only after CM-test entry and a
-concrete Part/Field Part/Field failure.
+concrete Part/Field failure.
 ```
 
 For finite QSP angular nonconcentration, the remaining alternative is now
@@ -2715,7 +2715,7 @@ enters CM proof material only through one of the exact interfaces
 ```text
 same-ledger payment
 or
-CM-test admission + first Part/Field Part/Field failure.
+CM-test admission + first Part/Field failure.
 ```
 
 The exact Part/Field landing is displayed as
@@ -2736,7 +2736,7 @@ non-source Pack-survival theorem, or an equivalent same-ledger payment.
 Downstream consequence: `live-theorem-edge.yaml` now classifies the note as
 historical audit-open support and states that old HeightFlux/Zeno/signed-current
 targets are support-level unless promoted by same-ledger payment or CM-test
-admission plus a first Part/Field Part/Field failure. The live edge no longer
+admission plus a first Part/Field failure. The live edge no longer
 preserves the old schematic proof graph as a current target.
 
 Second-pass downstream consequence: the live-edge neighboring HeightFlux notes
@@ -2792,7 +2792,7 @@ audit note, `live-theorem-edge.yaml`, and `current-route-dependency-graph.yaml`
 now classify the SquareReserveEvolution / Zeno / ScaleCriticalTreeCarleson
 family as historical source-control support after the Pack-out-of-CM CM correction.
 Those branches enter the current proof only by same-ledger payment or CM-test
-admission plus first Part/Field Part/Field failure, feeding the same-witness
+admission plus first Part/Field failure, feeding the same-witness
 terminal anti-concentration / source-Carleson / rigid-anti-atom /
 non-source Pack-survival frontier.
 
@@ -8815,7 +8815,7 @@ identity readout:
 
 CM exit:
   a useful bad object becomes an exit witness only after same-witness admission
-  and a first Part/Field Part/Field failure;
+  and a first Part/Field failure;
 
 Clay contradiction:
   a classified Exit(Q) contradicts a finite Clay breakdown witness only after
@@ -13726,7 +13726,7 @@ transforms directly, while the divergence constraint is
 Proof or downstream consequence:
 
 The route no longer spends expectation or conventional route names.  Zero-radius
-singular terminal objects must be audited under the original NS participation law before Pack admission is spent
+singular terminal objects must be audited under the original NS participation law before the Field smoothness-certification question is live is spent
 the positive-radius branch; Liouville rigidity requires one of the displayed
 rigid classes; and TPNI/backward uniqueness remains an anisotropic Stokes
 problem with the displayed divergence constraint.
@@ -14542,7 +14542,7 @@ Old claim being spent:
 The reader appendix moved from the torus-atlas trichotomy
 
 ```text
-full Pack+Part+Field readout, or first Part/Field Part/Field failure
+full Pack+Part+Field readout, or first Part/Field failure
 ```
 
 to "So the full readout-complete packet survives" without stating the
