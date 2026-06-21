@@ -205,7 +205,7 @@ C_{k,\nu}
 r^{-\gamma_k}
 \|f\|_{W^{-1,5/3}},
 \qquad
-\gamma_k={3\over10}+{k+1\over2}.
+\gamma_k={3\over20}+{k+1\over2}.
 \tag{NSU.15}
 \]
 
@@ -215,21 +215,23 @@ The exponent comes from the \(L^{5/3}\to L^2\) heat gain and the additional
 For the base derivative \(k=0\),
 
 \[
-\gamma_0={4\over5}.
+\gamma_0={13\over20}.
 \tag{NSU.16}
 \]
 
-The factor \(r^{-4/5}\) is integrable against an
-\(L_s^{5/3}W_y^{-1,5/3}\) source on a fixed terminal slab, because the conjugate
-exponent is \(5/2\) and
+The factor \(r^{-13/20}\) is not controlled by Hölder against an
+\(L_s^{5/3}W_y^{-1,5/3}\) source on a terminal slab. The conjugate exponent is
+\(5/2\), and
 
 \[
-\int_0^\theta r^{-2}\,dr=\infty
+\int_0^\theta r^{-(13/20)(5/2)}\,dr
+=
+\int_0^\theta r^{-13/8}\,dr
+=\infty .
 \tag{NSU.17}
 \]
 
-would be required for the endpoint \(k=0\) Hölder bound. The actual Hölder
-calculation gives
+The endpoint \(k=0\) Hölder calculation therefore gives no finite bound:
 
 \[
 \int_0^\theta r^{-4/5}\|N(-r)\|_{W^{-1,5/3}}\,dr
@@ -296,4 +298,3 @@ domination,\quad SelectedCriticalStrainCarleson.A / NormalizedCKNCarleson.A,
 }
 \tag{NSU.22}
 \]
-
