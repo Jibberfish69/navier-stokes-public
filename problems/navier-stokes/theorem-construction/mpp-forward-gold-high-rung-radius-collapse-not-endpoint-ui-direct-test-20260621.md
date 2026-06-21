@@ -43,20 +43,20 @@ Choose a nonzero compactly supported smooth scalar function
 \tag{HRC.2}
 \]
 
-which is not real analytic. For example, take a standard bump with flat
-boundary:
+which is not real analytic across an interior surface. For example, let
+\(\chi_0\in C_c^\infty(B_1)\) satisfy \(\chi_0\equiv1\) near \(0\), and set
 
 \[
 \phi(y)=
 \begin{cases}
-\exp\!\left(-{1\over 1-|y|^2}\right),& |y|<1,\\
-0,& |y|\ge1.
+\chi_0(y)\exp\!\left(-{1\over y_1^2}\right),& y_1>0,\\
+0,& y_1\le0.
 \end{cases}
 \tag{HRC.3}
 \]
 
 Let \(V\in C_c^\infty(B_1;\mathbb R^3)\) be a nonzero divergence-free vector
-field built from such a bump, for instance
+field built from this \(\phi\), for instance
 
 \[
 V=\nabla\times(0,0,\phi).
@@ -113,8 +113,8 @@ If there were \(\rho_*>0\) and \(E_*<\infty\) such that
 \]
 
 then the standard Sobolev embedding and Cauchy-Hadamard criterion would give a
-positive real-analytic radius for \(V\) on \(B_1\). This contradicts the
-choice of \(V\).
+positive local real-analytic radius for \(V\) across the plane \(y_1=0\) near
+the origin. This contradicts the choice of \(V\).
 
 Hence, for every \(\rho_*>0\),
 
