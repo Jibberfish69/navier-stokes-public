@@ -919,7 +919,7 @@ child_criticisms:
     location_or_scope:
       - navier-stokes-submission.tex#zeno-and-terminal-atoms
     problem: >-
-      The Zeno support subsection said that the point-object alone is Pack-side,
+      The Zeno support subsection said that the point-object alone is Field-window support,
       but did not reconnect that statement to the specific terminal Zeno
       source-refill obstruction named in the gold ledger.
     why_it_blocks_clay_ready_submission: >-

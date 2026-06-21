@@ -71,5 +71,5 @@ Authoring gates:
 4. Every support estimate must attach to a hinge rather than float as background.
 5. Every live blocker must be stated as a theorem obligation with its witness and closing hinge.
 6. Dependency order is mandatory: definitions and operational need precede branch-family compression.
-7. There is no current concrete CM blocker after terminal witness consumption. The Pack-side/source support chain is retained as mathematical support and may enter the proof spine only through the terminal CM entry, Part/Field finite-failure exhaustion, or contrapositive embedding gates.
+7. There is no current concrete CM blocker after terminal witness consumption. The Field-window support/source support chain is retained as mathematical support and may enter the proof spine only through the terminal CM entry, Part/Field finite-failure exhaustion, or contrapositive embedding gates.
 8. The surface appendix must be long when the source field is long and the mathematical roles are genuinely distinct. Compression is allowed only by proof role, never by removing relevant mathematical obligations from the manuscript. Repeating a proof-role template across row numbers is forbidden and must fail the PDF hygiene check.
