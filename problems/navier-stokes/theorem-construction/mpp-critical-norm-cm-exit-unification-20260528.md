@@ -68,7 +68,7 @@ FieldCoherenceControlsCriticalShell.A
 R3HHalfWallToCMFace.A
 ```
 
-The extraction theorem sends failed material localization to `\neg Pack_Q`, failed pressure-viscosity ancestry to `\neg Part_{N,Q}`, and the retained Pack+Part branch to a same-ledger dyadic packet. The matched Field finite-difference readout then controls the selected shell. Persistent terminal shell energy therefore lands in the Field face.
+The extraction theorem sends failed material localization to `\neg Pack_Q`, failed pressure-viscosity ancestry to `\neg Part_{N,Q}`, and the retained Part plus Field-window evidence branch to a same-ledger dyadic packet. The matched Field finite-difference readout then controls the selected shell. Persistent terminal shell energy therefore lands in the Field face.
 
 ## Admissible Besov/Lorentz extension
 

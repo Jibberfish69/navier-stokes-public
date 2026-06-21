@@ -251,7 +251,7 @@ Visc^{fix}_{\nu},
 \qquad
 \partial_{\nu=0}\mathfrak O^{work}_{NS},
 \qquad
-CM^\nu=Pack+Part^\nu+Field^\nu,
+CM^\nu=Part plus Field-window evidence^\nu+Field^\nu,
 \qquad
 \mathrm{Member}_E=EVol+EMom.
 \tag{ESNS.9}

@@ -2089,7 +2089,7 @@ explicit:
 ```text
 either prove finite QSP angular nonconcentration for the pass branch,
 or prove QSPAngularFailureFieldNecessityBridge.A:
-under retained Pack+Part and on the same terminal packet, failure of finite
+under retained Part plus Field-window evidence and on the same terminal packet, failure of finite
 QSP angular nonconcentration is failure of the Field coherence/readout
 requirement itself, not merely failure of one sufficient supplier route.
 ```
@@ -2790,7 +2790,7 @@ first-moment charge.
 Downstream consequence: the square-reserve/Zeno final attempt, the leading-edge
 audit note, `live-theorem-edge.yaml`, and `current-route-dependency-graph.yaml`
 now classify the SquareReserveEvolution / Zeno / ScaleCriticalTreeCarleson
-family as historical source-control support after the Pack-out-of-CM CM correction.
+family as historical source-control support after the Pack-out-of-CM correction.
 Those branches enter the current proof only by same-ledger payment or CM-test
 admission plus first Part/Field failure, feeding the same-witness
 terminal anti-concentration / source-Carleson / rigid-anti-atom /
@@ -2871,7 +2871,7 @@ TerminalSignedSaturation.A,
 or same-ledger payment / CM-test admission plus the first Part/Field face
 failure on the same witness. The absolute fallback to
 `ScaleCriticalTreeCarleson.A` is now historical supplier support under the
-Pack-out-of-CM CM correction, not a current target-setting conclusion.
+Pack-out-of-CM correction, not a current target-setting conclusion.
 
 Downstream consequence: the signed-current branch no longer gets to convert
 symbolic exchange pairing into a scalar source-wall target by language alone.
@@ -4899,12 +4899,12 @@ For \(k\ge1\), the replacement spends the finite-order anchoring inequality
 using \(U_q=\nabla^q u\) on the same retained field window. Force rungs are not
 obtained from velocity oscillation; retained Part records the
 pressure-viscosity carrier envelope, and escape of that envelope is a Part-face
-failure rather than a retained Pack+Part+Field branch.
+failure rather than a retained Part+Field branch.
 
 Downstream consequence:
 
 `SourcePulseCMExit.A` may still be read as locally discharged on the retained
-Pack+Part+Field source-pulse branch, but the discharge now spends the exact
+Part+Field source-pulse branch, but the discharge now spends the exact
 oscillation/local-energy/finite-order anchoring package above plus the retained
 Part envelope. It no longer spends an implicit linear-profile or generic
 "Field coherence" shortcut.
@@ -11692,7 +11692,7 @@ The note now states the required proof interfaces: an exact identity for the
 positive weighted shell-flux integrand; a one-sided positive strain
 decomposition of
 \(|w_\ell|^2[e_\ell\cdot S_{<\ell}e_\ell]_+\); same-fluid ancestry or a
-Pack/Part Part/Field failure for uncharged first-created donor height; finite-overlap
+Part/Field Part/Field failure for uncharged first-created donor height; finite-overlap
 selection with a stated overlap constant and no bounded-selector loss against
 diffuse parent clouds; a legal pressure/cutoff ledger that bounds only recorded
 `L_P` terms; and active-strain decorrelation, depletion, or terminal tangent
@@ -14181,7 +14181,7 @@ theorem family`, `generic bridge packet`, and `generic witness bundle`.
 
 Exact replacement:
 
-The row audit now says unlocalized support.  The Pack/Part demotion support note
+The row audit now says unlocalized support.  The Part/Field demotion support note
 now says unrowed theorem.  The theorem-creation testdrive now says broad theorem
 family and broad bridge packet.  The shared-participation and primitive class-law
 notes now say unspecified witness bundle.  The Liouville external audit now says
@@ -14191,7 +14191,7 @@ Proof or downstream consequence:
 
 The affected notes now distinguish concrete row mechanisms, licensed theorem
 imports, and route-faithful primitive laws from broad witness-bundle or generic
-theorem substitutes.  The Pack/Part demotion support note remains support
+theorem substitutes.  The Part/Field demotion support note remains support
 evidence; it is not counted as live proof repair by itself.
 
 Surfaces edited:
@@ -14542,7 +14542,7 @@ Old claim being spent:
 The reader appendix moved from the torus-atlas trichotomy
 
 ```text
-full Pack+Part+Field readout, or first Part/Field failure
+full Part+Field readout, or first Part/Field failure
 ```
 
 to "So the full readout-complete packet survives" without stating the
@@ -14670,13 +14670,13 @@ with the same-witness residual/no-incoming/backward-uniqueness hypotheses for
 the retained signed-partner branch, or a Gold-supplier theorem excluding the
 produced `B_ASAC` terminal time-face atom.  Under the Field-certification CM
 contrapositive route, the terminal zero-thickness `B_ASAC` residue is consumed
-as Pack-side non-survival rather than as a required deletion theorem.
+as Field-window support non-survival rather than as a required deletion theorem.
 
 Second downstream pass and validation:
 
 The live authority already records `ASAC.A` as a hard PDE gate, records
 `PositivePairWeightDefectCharge.A` as conditional on proved ASAC, and records
-the terminal `B_ASAC` zero-thickness residue as Pack-side non-survival in the
+the terminal `B_ASAC` zero-thickness residue as Field-window support non-survival in the
 CM route.  No authority rewrite was needed.  The targeted residue search no
 longer finds the old "ASAC / pair-weight charge pays", "first three cases are
 paid", or "correct next forward supplier" shortcuts; the remaining "paid by
@@ -15304,7 +15304,7 @@ The note now states the route as installed logic: the shrinking-radius problem i
 not treated as disconnected fixed-cylinder tests; it is treated as the parabolic
 funnel with `rho(t)=lambda sqrt(T-t)`.  A CM class-exit inspection occurs only
 after a forward attempt produces a precise obstruction, and the note still does
-not spend that obstruction as `not Pack_Q`, `not Part_{N,Q}`, or
+not spend that obstruction as `not Part_{N,Q}` or
 `forall r>0 not Field_{N,r,Q}`.
 
 Surfaces edited:
@@ -15772,7 +15772,7 @@ Several active CM/Pack/scale-critical notes used `should` wording at proof
 promotion boundaries:
 
 - whole no-exit formulations "should not" be promoted as local branch burdens;
-- Pack-side work "should" attack retained positive-scale first appearance and
+- Field-window support work "should" attack retained positive-scale first appearance and
   "should not" spend the `L^3` translator without a bridge;
 - retained-face amplitude gain "should not" be a raw finite-energy theorem and
   "should" be relative to retained CM Part/Fields;
@@ -15785,7 +15785,7 @@ Exact replacement:
 
 The edited notes now state these as direct promotion rules: whole no-exit slogans
 are not promoted as local branch-law burdens unless the proof program switches
-to a positive no-exit attempt; the Pack-side target is the retained
+to a positive no-exit attempt; the Field-window support target is the retained
 positive-scale first-appearance charge; the `L^3` translator is not spent without
 `FirstReservePulseToCriticalL3.A`; retained-face amplitude gain is a
 retained-CM-face proof, not a raw finite-energy theorem; CM imports critical

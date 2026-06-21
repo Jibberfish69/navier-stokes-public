@@ -83,7 +83,7 @@ So the first theorem-facing move is:
 ```math
 \boxed{
 \text{prove that a smooth fixed-}\nu\text{ NS terminal tail cannot approach a
-tangential slip sheet while retaining }Pack+Part+Field.
+tangential slip sheet while retaining }Part+Field.
 }
 \tag{ECA.6}
 ```
@@ -91,7 +91,7 @@ tangential slip sheet while retaining }Pack+Part+Field.
 Equivalently:
 
 ```math
-Pack+Part+\text{viscous receiver/readout controls}
+Part plus Field-window evidence+\text{viscous receiver/readout controls}
 \Longrightarrow
 \text{positive one-field coherence scale across the would-be slip interface.}
 \tag{ECA.7}
@@ -133,7 +133,7 @@ tower\text{-}blown.
 \tag{ECA.9}
 ```
 
-The Pack side is finite same-fluid cover / deformation control. The tower side
+The Field-window support is finite same-fluid cover / deformation control. The tower side
 is finite-depth amplitude and pressure-viscous readout. Neither is discharged by
 pressure incompressibility alone.
 
@@ -167,7 +167,7 @@ with statement:
 \boxed{
 \begin{gathered}
 \text{On a smooth fixed-}\nu>0\text{ Navier-Stokes terminal tail, assume the
-retained }Pack+Part\text{ envelope and the receiver controls feeding }Field.\\
+retained }Part plus Field-window evidence\text{ envelope and the receiver controls feeding }Field.\\
 \text{Then no terminal subtail can converge, on the same positive-scale
 same-fluid cover, to an Euler-type tangential slip sheet.}
 \end{gathered}

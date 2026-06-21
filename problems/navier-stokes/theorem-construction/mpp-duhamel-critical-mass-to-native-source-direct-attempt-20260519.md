@@ -109,7 +109,7 @@ DuhamelInverseNativeSourceLocalization.A:
 \vee
 \neg_{sel}ScaleCriticalTreeCarleson.A
 \vee
-\text{paid legal/Pack/Part exit.}
+\text{paid legal/Part/Field exit.}
 }
 ```
 

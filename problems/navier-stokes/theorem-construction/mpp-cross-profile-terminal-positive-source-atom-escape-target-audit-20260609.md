@@ -103,7 +103,7 @@ atom escape
 ```
 
 Without that integration, atom escape is another source-time alias. It tries to
-delete a residue that the CM route can already use as a Pack/Part witness.
+delete a residue that the CM route can already use as a Part/Field witness.
 
 The active parent target must be:
 
@@ -124,7 +124,7 @@ smooth data.
 
 `NS-LIVE-20260609-179`: `CrossProfileTerminalPositiveSourceAtomEscape.A` is the
 wrong parent target. The terminal native source residue is already classified by
-`TerminalSourceResidueCMExit.A` as Pack/Part Part/Field failure once admitted to the
+`TerminalSourceResidueCMExit.A` as Part/Field Part/Field failure once admitted to the
 CM tree. Public Clay finality remains open because classification is not yet a
 contradiction for original smooth data. The loop must reset to
 `FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A`,

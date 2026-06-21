@@ -223,7 +223,7 @@ tower\text{-}blown,
 ```
 
 ```math
-Pack+Part+Jump
+Part plus Field-window evidence+Jump
 \Longrightarrow
 Field\text{-coherence fracture},
 \tag{EST.A7}

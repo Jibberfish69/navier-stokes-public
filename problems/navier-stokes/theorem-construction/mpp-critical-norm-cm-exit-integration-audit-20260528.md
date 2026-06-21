@@ -49,7 +49,7 @@ FieldCoherenceControlsCriticalShell.A
 R3HHalfWallToCMFace.A
 ```
 
-The extraction theorem places the shell on Pack/Part or produces a same-ledger dyadic packet. The Field finite-difference readout supplies the exact matched modulus used by the shell estimate. The repaired top-level theorem lands persistent terminal `H^{1/2}` shell energy in Part or Field.
+The extraction theorem places the shell on Part/Field or produces a same-ledger dyadic packet. The Field finite-difference readout supplies the exact matched modulus used by the shell estimate. The repaired top-level theorem lands persistent terminal `H^{1/2}` shell energy in Part or Field.
 
 ## Integration rule
 

@@ -21,7 +21,7 @@ DuhamelInverseNativeSourceLocalization.A:
 \vee
 \neg_{sel}ScaleCriticalTreeCarleson.A
 \vee
-\text{paid Pack/Part/legal exit.}
+\text{paid Part/legal exit.}
 ```
 
 Here
@@ -133,7 +133,7 @@ ParaproductNativeSourceCapture.A:
 \vee
 \neg_{sel}ScaleCriticalTreeCarleson.A
 \vee
-\text{paid Pack/Part/legal exit.}
+\text{paid Part/legal exit.}
 ```
 
 The installed source notes already show why this is not automatic:
@@ -179,5 +179,5 @@ DuhamelInverseNativeSourceLocalization.A.
 The first sublemma is adjoint heat/Leray localization. The second sublemma is
 the true remaining nonlinear burden: after one-sided terminal selection, prove
 that localized Duhamel source work is either the native positive source packet,
-selected scale-critical reserve failure, or an already paid Pack/Part/legal
+selected scale-critical reserve failure, or an already paid Part/legal
 exit.
