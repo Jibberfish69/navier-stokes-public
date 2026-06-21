@@ -21,7 +21,7 @@ lane_results: &5
     allowed_outputs:
     - theorem note
     - failed attempt with exact blocker
-    - Pack/Part/Field face landing
+    - Part/Field Part/Field landing
     done_condition: complete when the theorem node changes proof state or is exactly
       blocked by a named mathematical obstruction
     handoff_back: Handoff back with a changed-state ref, exact blocker, and next work-node
@@ -29,14 +29,14 @@ lane_results: &5
     forbidden_outputs:
     - status-only completion
     - support-only success
-    - theorem closure claim without Pack/Part/Field mechanism
+    - theorem closure claim without Part/Field mechanism
     - PDF/submission promotion without proof-state movement
   consumed_work_node_ids: *1
   input_refs: []
   output_refs:
   - problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260608.md
   state_delta: changed proof lane by applying theorem legitimacy first and preserving
-    Pack/Part/Field face landing before proof execution
+    Part/Field Part/Field landing before proof execution
   handoff_back: 'handoff back to parent reentry with changed refs: problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260608.md'
 - lane_id: graph_app_mcp_lane
   status: executed
@@ -61,7 +61,7 @@ lane_results: &5
     forbidden_outputs:
     - status-only completion
     - support-only success
-    - theorem closure claim without Pack/Part/Field mechanism
+    - theorem closure claim without Part/Field mechanism
     - PDF/submission promotion without proof-state movement
   consumed_work_node_ids: *2
   input_refs: []
@@ -95,7 +95,7 @@ lane_results: &5
     forbidden_outputs:
     - status-only completion
     - support-only success
-    - theorem closure claim without Pack/Part/Field mechanism
+    - theorem closure claim without Part/Field mechanism
     - PDF/submission promotion without proof-state movement
   consumed_work_node_ids: *3
   input_refs: []
@@ -126,7 +126,7 @@ lane_results: &5
     forbidden_outputs:
     - status-only completion
     - support-only success
-    - theorem closure claim without Pack/Part/Field mechanism
+    - theorem closure claim without Part/Field mechanism
     - PDF/submission promotion without proof-state movement
   consumed_work_node_ids: *4
   input_refs: []
@@ -260,7 +260,7 @@ depth_progression:
       blockers with evidence
 terminal_state: &11
   status: active_not_final
-  stop_reason: 'release exactness and manuscript refresh remain open after accepted Silver CM rowwise consumption; OriginalSmoothDataPackSurvival.A is positive supplier support: the direct ClayCMCounterexampleExclusion.A bridge is demoted as a wrong Silver target when it asks to delete a concrete face failure after using it as the contrapositive witness. A face-derived Exit(Q):=not Member(Q) is the Silver CM witness; OriginalSmoothDataPackSurvival.A and related Pack survival work remain positive supplier/manuscript support unless tied to a concrete unconsumed promoted row.
+  stop_reason: 'release exactness and manuscript refresh remain open after accepted Silver CM rowwise consumption; OriginalSmoothDataPackSurvival.A is positive supplier support: the direct ClayCMCounterexampleExclusion.A bridge is demoted as a wrong Silver target when it asks to delete a concrete Part/Field failure after using it as the contrapositive witness. A face-derived Exit(Q):=not Member(Q) is the Silver CM witness; OriginalSmoothDataPackSurvival.A and related Pack survival work remain positive supplier/manuscript support unless tied to a concrete unconsumed promoted row.
     The endpoint exactness branch has been audited as consumed at current resolution:
     retained affine second-order, mu_N endpoint threading, terminal `nu_N` synchronization,
     endpoint mass/commutator, signed-to-positive transfer, endpoint observability,
@@ -342,7 +342,7 @@ terminal_state: &11
     dichotomy. OneSidedNearBandMaterialSourceCurrentLegal.A has now been tested and
     reduced to the forward no-free-sink or pure-pressure branch: post-ASAC source-current
     support is conditional on forward no-free-sink or Zeno source-residue rigidity,
-    and TerminalSignedSaturationCMFaceReduction.A is CM witness-face support only.
+    and TerminalSignedSaturationCMFaceReduction.A is CM witness support only.
     LowHighTerminalSignedSaturationForwardNoFreeSink.A has now been tested and reduced
     to the terminal source-time anti-atom branch: retained partners, legal exits,
     ASAC pair-weight defects, and finite donor trees are paid, but the shrinking

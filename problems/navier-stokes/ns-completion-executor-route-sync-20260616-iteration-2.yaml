@@ -21,10 +21,10 @@ input_refs:
 route_sync:
   proof_frontier_ref: problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260616-iteration-2.md
   graph_target: clay-cm-contrapositive-witness-consumption
-  viewer_mcp_target: Expose the CM contrapositive proof frontier and the next Pack/Part/Field
+  viewer_mcp_target: Expose the CM contrapositive proof frontier and the next Part/Field
     face decision.
   state_delta: re-entered proof blocker into route/app/MCP sync; route remains open
-    until the named CM face changes
+    until the named CM Part/Field changes
 reentry_refs:
 - problems/navier-stokes/current-route-dependency-graph.yaml
 - system/gui/navier-stokes-repo-viewer/src/nsAnalysis.ts
