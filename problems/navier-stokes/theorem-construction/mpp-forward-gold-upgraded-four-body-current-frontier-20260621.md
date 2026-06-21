@@ -13,6 +13,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-canonical-selected-carrier-identification-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-four-body-same-carrier-orientation-defect-decomposition-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-bodyii-interface-reorientation-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -438,7 +439,8 @@ The four interfaces are:
 
 ```math
 \boxed{
-S\to Q:\text{ factorial tower exchange equals participation current;}
+S\to Q:\text{ factorial tower storage plus weighted viscous/tower loss equals
+the weighted participation current;}
 }
 \tag{4BF.26b}
 ```
@@ -591,3 +593,16 @@ identifications `(4BF.26b)` through `(4BF.26e)`, or to charge their positive
 mismatches in \(K_{4B}^+\), \(K_{\rm sel}\), \(K_C^+\), or \(K_G^+\), while
 keeping the tower, participation, compactness, and deformation bodies on the
 same selected carrier.
+
+The first interface has now been corrected: when the Body-I tower storage is
+the Body-II local rung storage \(M_{m,\alpha,\eta}\),
+
+```math
+dL_S+dD_S^{\rm rad}+dD_Q^w=dJ_{SQ}^{\rm flux}.
+\tag{4BF.33}
+```
+
+So \(S\to Q\) does not create an unpaid orientation defect once the weighted
+viscous/tower loss \(D_Q^w\) is counted exactly once.  The selected-positive
+activity payment remains open; the correction only makes the exchange-current
+orientation exact.
