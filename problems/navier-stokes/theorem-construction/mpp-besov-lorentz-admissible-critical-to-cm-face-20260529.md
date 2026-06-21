@@ -72,7 +72,7 @@ A Lorentz terminal exit is distribution-function concentration. If its superleve
 \neg Pack_Q(\mathcal W).
 ```
 
-Assume Pack survives. If the selected superlevel cylinder or amplitude packet loses the same pressure-viscosity participation law, the Part service fails:
+Assume Pack survives. If the selected superlevel cylinder or amplitude packet loses the same pressure-viscosity participation law, the Part face fails:
 
 ```math
 \neg Part_{N,Q}(\mathcal W).

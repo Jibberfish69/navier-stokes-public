@@ -13,7 +13,7 @@ The current MPP package state is governed by:
 - `mpp-source-drain-definition-alignment-and-discharge-20260504.md`
 - `mpp-cm-certificate-direction-correction-20260506.md`
 
-These surfaces install the one-way CM certificate direction `CM=>Member`, demote
+These surfaces install the one-way CM witness-to-member direction `CM=>Member`, demote
 the blunt `not CM=>not Member` converse, demote normalized-adjoint source-drain
 to conditional support, install
 `ParentSquareEmbed.A` for the diffuse parent cloud, and reopen the source-wall

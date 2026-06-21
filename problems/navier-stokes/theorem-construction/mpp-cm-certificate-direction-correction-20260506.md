@@ -1,4 +1,4 @@
-# CM certificate direction correction
+# CM witness-to-member direction correction
 
 ## Authority Cap - Historical Route Audit
 
@@ -6,7 +6,7 @@ This older audit predates the May 25 pass/fail CM completion audits. Its open-mi
 
 ## 2026-06-20 Part Ontology Correction
 
-`Part` is not created by the CM certificate.  The original incompressible
+`Part` is not created by the CM witness record.  The original incompressible
 Navier--Stokes law is the participation ontology of the candidate solution:
 the same velocity-pressure pair satisfies the pressure-viscosity equation and
 incompressibility under the fixed viscosity and the same initial datum.

@@ -1,4 +1,4 @@
-# UniformServiceTopologyCertification.A Wired Into PartFieldBeforePackStrength.A
+# UniformServiceTopologyCertification.A Wired Into OriginalParticipationBeforePackStrength.A
 
 ## Target
 
@@ -35,11 +35,11 @@ For any same-solution terminal witness Q, certification as a valid survivor thro
 Part/Field certification before Pack form:
 
 ```text
-PartFieldBeforePackStrength.A, certification clause:
+OriginalParticipationBeforePackStrength.A, certification clause:
 `Part_{N,Q}` / `Field_{N,r,Q}` certification uses the same uniform-service principle. `Part_{N,Q}` requires a finite participation/residence budget or equivalent donor-readout compatibility. `Field_{N,r,Q}` requires a one-field readout continuity budget or equivalent same-solution scale-indexed compatibility. A object tested before Pack lacking these budgets fails the corresponding service tested before Pack.
 ```
 
-Circularity caveat: the Field budget here is a same-solution terminal readout budget used before Pack, not ordinary `Pack_Q` positive-radius admission. It does not assume positive terminal Pack carrier scale, finite Pack cover, finite Pack deformation/readout comparability, or Pack noncollapse.
+Circularity caveat: the Field budget here is a same-solution terminal readout budget used as original-participation audit records before Pack-local notation, not ordinary `Pack_Q` positive-radius admission. It does not assume positive terminal Pack carrier scale, finite Pack cover, finite Pack deformation/readout comparability, or Pack noncollapse.
 
 ## Proof
 
@@ -71,7 +71,7 @@ or a finite super-L1 / Orlicz / Morrey / Carleson residence budget implying such
 
 The endpoint strip has positive mass on vanishing windows and infinite every-super-L1 residence cost. Hence it is not a survivor in the uniform service topology.
 
-Therefore `UniformServiceTopologyCertification.A` supplies the class-topology clause needed by `PartFieldBeforePackStrength.A`. It does not by itself prove a new PDE estimate; it fixes what must count as survival through a service tested before Pack.
+Therefore `UniformServiceTopologyCertification.A` supplies the class-topology clause needed by `OriginalParticipationBeforePackStrength.A`. It does not by itself prove a new PDE estimate; it fixes what must count as survival through a service tested before Pack.
 
 ## Consequence
 

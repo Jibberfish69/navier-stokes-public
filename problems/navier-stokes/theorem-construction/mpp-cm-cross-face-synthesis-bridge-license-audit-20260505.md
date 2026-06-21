@@ -43,7 +43,7 @@ Field_{N,r,Q}
 CM_{N,r,Q}.
 ```
 
-Together with the installed CM certificate direction,
+Together with the installed CM witness-to-member direction,
 
 ```math
 \forall N\ \exists r_N>0:\ CM_{N,r_N,Q}
@@ -107,7 +107,7 @@ CM_{N,r_N,Q}(\mathcal W_N),
 ```
 
 with the same `Q`, same still-live carrier, and compatible same-fluid windows,
-then the installed CM certificate direction gives
+then the installed CM witness-to-member direction gives
 
 ```math
 Member(Q)

@@ -58,7 +58,7 @@ has lost.
 
 6. `TerminalSourceResidueCMExit.A`: terminal source residue is a Pack/Part
    witness, not a fourth residue and not a deletion burden.
-7. `PartFieldBeforePackLicensing.A` and the June 20 Pack-before-Part
+7. `OriginalParticipationBeforePackLicensing.A` and the June 20 Pack-before-Part
    resurfacing audit: a singular or pre-Pack same-solution terminal object with
    a meaningful original Navier-Stokes participation record must be tested at
    `Part_{N,Q}` / `Field_{N,r,Q}` before it is allowed to remain a Pack-only

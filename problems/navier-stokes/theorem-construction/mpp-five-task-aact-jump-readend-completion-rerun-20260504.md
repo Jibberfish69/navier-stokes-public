@@ -166,7 +166,7 @@ The CM witness bridge remains the governing route object:
 CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
-The installed CM certificate direction gives
+The installed CM witness-to-member direction gives
 
 ```math
 [\forall N\ \exists r_N>0:\ CM_{N,r_N,Q}]

@@ -73,7 +73,7 @@ The face disjunction is used through
 ClayCMContrapositiveEmbedding.A.
 ```
 
-This preserves the packet discipline: `Member(Q)` remains downstream of the full Pack/Part/Field packet certificate, and the face failure supplies the classified CM class-exit witness.
+This preserves the packet discipline: `Member(Q)` remains downstream of the full Pack/Part/Field witness-face record, and the face failure supplies the classified CM class-exit witness.
 
 ## Coverage classification
 

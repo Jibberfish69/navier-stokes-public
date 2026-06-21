@@ -106,4 +106,4 @@ The face disjunction is passed through
 ClayCMContrapositiveEmbedding.A.
 ```
 
-Thus `Member(Q)` remains downstream of the full Pack/Part/Field packet certificate, and the critical-norm bridge supplies a classified CM face witness on the same ledger.
+Thus `Member(Q)` remains downstream of the full Pack/Part/Field witness-face record, and the critical-norm bridge supplies a classified CM face witness on the same ledger.

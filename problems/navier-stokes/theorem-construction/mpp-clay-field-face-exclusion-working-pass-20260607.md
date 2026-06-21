@@ -212,7 +212,7 @@ Field_{N,r_F,Q}.
 
 The missing step is the production of that positive lower cover on the same
 terminal tail.  Pack supplies the retained carrier and readout-compatible
-material atlas.  Part supplies the pressure-viscosity tower participation.
+material atlas.  Part records the pressure-viscosity tower participation.
 Neither installed predicate supplies a uniform positive one-field coherence
 scale.
 
