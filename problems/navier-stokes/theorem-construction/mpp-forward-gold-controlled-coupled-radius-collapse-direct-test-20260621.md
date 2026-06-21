@@ -73,19 +73,7 @@ radius determined by the tower.
 
 ## 2. Canonical admissible-radius set
 
-Fix a cutoff \(\eta\) and an energy threshold \(E_*>0\). For each rescaled
-terminal cylinder \(j\), define the admissible coupled-radius set
-
-\[
-\mathcal R_j(E_*)
-:=
-\left\{
-(\tau,\rho):\ \mathcal E_{j,\eta}(\tau,\rho)\le E_*
-\right\},
-\tag{CCR.6}
-\]
-
-where
+Fix a cutoff \(\eta\). For each rescaled terminal cylinder \(j\), define
 
 \[
 \mathcal E_{j,\eta}(\tau,\rho)
@@ -94,6 +82,17 @@ where
 \sum_{m,\alpha}
 {\tau^{2m}\rho^{2|\alpha|}\over(m!)^2(\alpha!)^2}
 \int\eta^2|W_{j,m,\alpha}|^2.
+\tag{CCR.6}
+\]
+
+For a threshold \(E_*>0\), the admissible-radius set is
+
+\[
+\mathcal R_j(E_*)
+:=
+\left\{
+(\tau,\rho):\ \mathcal E_{j,\eta}(\tau,\rho)\le E_*
+\right\}.
 \tag{CCR.7}
 \]
 
@@ -105,25 +104,35 @@ This set is downward closed: if \((\tau,\rho)\in\mathcal R_j(E_*)\) and
 \tag{CCR.8}
 \]
 
-Canonical coupled radius collapse means
+Uniform canonical radius survival means that some positive pair stays bounded
+along the terminal chain:
 
 \[
-\forall \tau_*>0,\ \forall \rho_*>0,\quad
-(\tau_*,\rho_*)\notin\mathcal R_j(E_*)
-\quad\text{for all sufficiently terminal }j.
+\exists \tau_*>0,\ \exists\rho_*>0,\ \exists E_*<\infty,\ \exists J
+\quad\text{such that}\quad
+\mathcal E_{j,\eta}(\tau_*,\rho_*)\le E_*
+\quad\text{for all }j\ge J.
 \tag{CCR.9}
+\]
+
+Canonical coupled radius collapse is the negation:
+
+\[
+\forall \tau_*>0,\ \forall\rho_*>0,\quad
+\limsup_{j\to\infty}\mathcal E_{j,\eta}(\tau_*,\rho_*)=\infty.
+\tag{CCR.10}
 \]
 
 This is a tower statement, not a free choice of gauge.
 
 ## 3. Finite-rung branch
 
-If `(CCR.9)` happens because a fixed finite rung fails, then there are
+If `(CCR.10)` happens because a fixed finite rung fails, then there are
 \((m,\alpha)\) and a subsequence \(j_k\) such that
 
 \[
 \int\eta^2|W_{j_k,m,\alpha}|^2\to\infty.
-\tag{CCR.10}
+\tag{CCR.11}
 \]
 
 That is a visible finite-rung failure. After the same terminal object has been
@@ -141,10 +150,10 @@ The harder branch is
 \sup_j\int\eta^2|W_{j,m,\alpha}|^2<\infty
 \quad
 \text{for every fixed }(m,\alpha),
-\tag{CCR.11}
+\tag{CCR.12}
 \]
 
-while `(CCR.9)` still holds.
+while `(CCR.10)` still holds.
 
 Then no fixed finite derivative rung detects the collapse. The failure lives in
 the high-rung/factorial tail:
@@ -156,7 +165,7 @@ the high-rung/factorial tail:
 {\tau_*^{2m}\rho_*^{2|\alpha|}\over(m!)^2(\alpha!)^2}
 \int\eta^2|W_{j,m,\alpha}|^2
 =\infty.
-\tag{CCR.12}
+\tag{CCR.13}
 \]
 
 This is exactly the endpoint high-tower / terminal time-face branch. It can be
@@ -172,21 +181,21 @@ same-carrier endpoint controls:
 \boxed{
 \text{SelectedCarrierEndpointUI.A}
 }
-\tag{CCR.13}
+\tag{CCR.14}
 \]
 
 \[
 \boxed{
 \text{UnweightedTerminalCriticalActionReserve.A}
 }
-\tag{CCR.14}
+\tag{CCR.15}
 \]
 
 \[
 \boxed{
 \text{StrictRescaledNoWasteLyapunov.A}
 }
-\tag{CCR.15}
+\tag{CCR.16}
 \]
 
 or
@@ -195,7 +204,7 @@ or
 \boxed{
 \text{MinimalZenoProfileProduction.A}
 }
-\tag{CCR.16}
+\tag{CCR.17}
 \]
 
 with the no-waste/source-residue hypotheses needed by the known rigidity
@@ -216,7 +225,7 @@ The controlled-collapse route has a valid corrected form:
 \quad\text{or}\quad
 \text{high-rung endpoint branch.}
 }
-\tag{CCR.17}
+\tag{CCR.18}
 \]
 
 The first branch is visible after CM admission. The second branch is the same
@@ -230,7 +239,7 @@ So
 \text{ControlledCoupledTowerRadiusCollapse.A is not proved as a forward-gold
 contradiction from current inputs.}
 }
-\tag{CCR.18}
+\tag{CCR.19}
 \]
 
 It reduces to the same missing object:
@@ -240,5 +249,5 @@ It reduces to the same missing object:
 \text{same-carrier unweighted action / endpoint UI / strict no-waste / profile
 production.}
 }
-\tag{CCR.19}
+\tag{CCR.20}
 \]
