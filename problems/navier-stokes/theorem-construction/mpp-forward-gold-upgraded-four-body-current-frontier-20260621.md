@@ -2962,3 +2962,41 @@ through their existing channels.  The surviving unproduced term is the
 time/storage terminal trace or infinite Zeno child.  Typed exits apply to
 partners that leave the carrier; they do not pay a retained smooth interior
 cancellation.
+
+The discarded-partner rework restates this in the exact channel-first bridge
+language.  The comparison is:
+
+```math
+A_{\rm native}
+\le
+C A_{4B}
++R_{\rm legal}
++[-\partial_\sigma M_\sigma]_+
++\mathcal Z_{\rm donor}
++T_\sigma .
+\tag{4BF.119}
+```
+
+Thus the bridge from channel-first native source activity to the closed
+four-body route is paid except for the two already identified endpoint pieces:
+
+```math
+[-\partial_\sigma M_\sigma]_+
+\quad\text{and}\quad
+\mathcal Z_{\rm donor}.
+\tag{4BF.120}
+```
+
+The forward-gold version still needs:
+
+```math
+[-\partial_\sigma M_\sigma]_+
++\mathcal Z_{\rm donor}
+\le
+C A_{4B}+R_{\rm legal}.
+\tag{4BF.121}
+```
+
+The CM-facing version sends those pieces to terminal trace/storage or infinite
+donor-chain exit after same-witness admission.  This is the exact current
+meaning of the final native-to-four-body bridge.
