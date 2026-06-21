@@ -7,7 +7,6 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-activity-persistence-replacement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-no-loss-relay-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-packet-selector-polar-retention-criterion-20260621.md
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-tower-carrier-representation-20260621.md
 ---
 
 # Selected Carrier Measure Persistence Production Criterion
@@ -353,6 +352,7 @@ The remaining Navier-Stokes statement is the conjunction:
 \boxed{
 \text{tightness of the retained nonnegative measures }\mu_n^A
 \text{ on the normalized same-carrier packet space;}
+}
 \tag{SCM.26}
 ```
 
@@ -363,7 +363,7 @@ and
 \text{identification of their weak limit with the canonical selected carrier
 of the limiting Navier-Stokes profile up to }K_C^+.
 }
-\tag{SCM.26}
+\tag{SCM.27}
 ```
 
 When these two compactness clauses hold, selected positive activity persistence is
