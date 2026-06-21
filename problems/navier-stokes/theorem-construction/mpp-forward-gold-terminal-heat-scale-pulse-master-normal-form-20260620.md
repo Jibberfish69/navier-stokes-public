@@ -46,6 +46,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-controlled-coupled-radius-collapse-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-rung-radius-collapse-not-endpoint-ui-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-rung-tail-to-selected-carrier-direct-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-atom-not-high-rung-only-after-threshold-split-20260621.md
 ---
 
 # MPP Forward-Gold Terminal Heat-Scale Pulse Master Normal Form
@@ -479,6 +480,8 @@ status:
 \text{factorial/binomial exact; summable spend absent}\\
 \text{high-rung analytic tail} &
 \text{does not dominate finite-order selected carrier}\\
+\text{selected atom vs high-rung-only tail} &
+\text{after threshold split, tensor-small and height-controlled atom forces finite Sobolev rung}\\
 \text{same-carrier }p>1\text{ / Orlicz} &
 \text{consumer of tail UI; production absent}\\
 \text{source-square / Carleson} &
