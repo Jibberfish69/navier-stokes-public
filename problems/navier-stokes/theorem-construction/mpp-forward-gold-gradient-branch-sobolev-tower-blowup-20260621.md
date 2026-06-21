@@ -270,8 +270,8 @@ C\theta_m^{-1/2}
 \tag{GST.21}
 \]
 
-with fixed \(C<\infty\) is incompatible with the gradient branch only if it is
-strengthened to
+with fixed \(C<\infty\) is incompatible with the gradient branch, because it is
+equivalent to
 
 \[
 \theta_m S_{m,\gamma}^2=O(1).
