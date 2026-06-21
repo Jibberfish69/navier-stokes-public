@@ -95,7 +95,7 @@ global_gates:
     cm_test_admission_status: certified_for_torus_first_global_material_atlas
     first_face: finite_disjunction
     first_face_formula: >-
-      not Pack_Q, or Pack_Q and not Part_{N_s,Q}, or Pack_Q and Part_{N_s,Q}
+      not Part_{N_s,Q}, or Part plus Field-window evidence and Part_{N_s,Q}
       and for every r>0 not Field_{N_s,r,Q}.
     proof_evidence_path:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:351
