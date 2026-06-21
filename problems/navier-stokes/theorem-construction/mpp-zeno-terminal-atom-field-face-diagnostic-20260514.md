@@ -30,7 +30,7 @@ The CM-facing conclusion is:
 Equivalently, on the retained same-fluid branch:
 
 ```math
-Pack_Q+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 +\neg_{sel} TemporalNonAtomicSource.A(Q)
 +NoEarlierSelectedSourceSlice.A
 \Longrightarrow
@@ -50,7 +50,7 @@ retained Zeno Field exit as well.  On a first retained terminal tail with bounde
 pack gauge,
 
 ```math
-Pack_Q+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 +\forall r>0\,\neg Field_{N,r,Q}
 \Longrightarrow
 tower\text{-}blown,
@@ -180,7 +180,7 @@ The retained theorem is:
 \boxed{
 RetainedZenoAtomFieldExit.A:
 \quad
-Pack_Q+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 +ZeroHeatTimeSourceResidue.A
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.

@@ -96,7 +96,7 @@ admissibility clauses:
    packet
 
    ```text
-   Pack_Q + Part_{N_s,Q} + Field_{N_s,r,Q}
+   Part_{N_s,Q} plus Field-window evidence + Field_{N_s,r,Q}
    ```
 
    together with the installed `H^s`, `s>5/2`, readout bridge.
@@ -108,7 +108,7 @@ not Pack_Q
 or
 Pack_Q + not Part_{N_s,Q}
 or
-Pack_Q + Part_{N_s,Q} + forall r>0 not Field_{N_s,r,Q}.
+Part_{N_s,Q} plus Field-window evidence + forall r>0 not Field_{N_s,r,Q}.
 ```
 
 ### Proof
@@ -136,7 +136,7 @@ positive scale `r>0` also satisfies `Field_{N_s,r,Q}`. Then the selected
 terminal record carries the full continuation-complete CM witness
 
 ```text
-Pack_Q + Part_{N_s,Q} + Field_{N_s,r,Q}.
+Part_{N_s,Q} plus Field-window evidence + Field_{N_s,r,Q}.
 ```
 
 By the installed continuation readout, this gives a finite `H^s`, `s>5/2`,
@@ -147,7 +147,7 @@ role of the Clay breakdown witness.
 Therefore no positive field scale survives:
 
 ```text
-Pack_Q + Part_{N_s,Q} + forall r>0 not Field_{N_s,r,Q}.
+Part_{N_s,Q} plus Field-window evidence + forall r>0 not Field_{N_s,r,Q}.
 ```
 
 The three cases are ordered by the first surviving question in the same
@@ -247,7 +247,7 @@ scale fragmentation or readout incompleteness.
 The Field case proves contradiction only when
 
 ```text
-Pack_Q + Part_{N_s,Q} + Field_{N_s,r,Q}
+Part_{N_s,Q} plus Field-window evidence + Field_{N_s,r,Q}
 ```
 
 controls the continuation criterion for the same original solution. The

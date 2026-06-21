@@ -52,8 +52,7 @@ proof-bearing terminal obstruction row must enter the same CM participation-fiel
 derive its first failed face:
 
 ```text
-not Pack_Q,
-or not Part_{N,Q},
+not Part_{N,Q},
 or Part_{N,Q} + forall r>0 not Field_{N,r,Q}.
 ```
 

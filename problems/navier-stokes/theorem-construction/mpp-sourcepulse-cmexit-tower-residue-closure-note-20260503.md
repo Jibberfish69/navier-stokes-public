@@ -128,7 +128,7 @@ the desired disjunction is already realized. If jump manifests while `Pack_Q` an
 reduction give
 
 ```math
-Pack_Q+Part_{N,Q}+Jump
+Part_{N,Q} plus Field-window evidence+Jump
 \Longrightarrow
 \neg Field_{N,r,Q}.
 ```

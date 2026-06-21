@@ -12,7 +12,7 @@ The previous bridge proved the CM-facing routing
 \neg_{sel}ScaleCriticalTreeCarleson.A
 ```
 
-on the retained source family covered by the localized pre-Cauchy source decomposition and `ParentSquareEmbed.A`. The installed Carleson diagnostic then sends the retained branch to `Field` under `Pack_Q+Part_{N,Q}`.
+on the retained source family covered by the localized pre-Cauchy source decomposition and `ParentSquareEmbed.A`. The installed Carleson diagnostic then sends the retained branch to `Field` under `Part_{N,Q} plus Field-window evidence`.
 
 This note continues the direct positive source-control branch and identifies the exact next theorem primitive.
 
