@@ -59,9 +59,9 @@ C_\varepsilon\Theta_\sigma^2E_\sigma.
 \tag{PAN.3}
 ```
 
-The intended mechanism is not a new source-square estimate.  It is to choose
-the selector so that the incompressible transport part is skew, and only the
-selector/Leray/pressure/cutoff/scale commutator remains.
+The intended mechanism is not a new source-square estimate.  It is to keep the
+incompressible transport part skew while the selected carrier still carries the
+full pressure-viscosity-incompressibility packet.
 
 ## 1. Participation-preserving Hodge-Stokes packet
 
@@ -481,15 +481,16 @@ while the full-cycle pressure-viscosity-incompressibility payment vanishes:
 ```
 
 After same-carrier compactness and no-loss identification, the limit packet
-\(P_\ast\) is an exact pressure-balanced incompressible lossless packet.  The
-skew identity gives no interior nonlinear production, and vanishing viscous
-loss removes the non-gauge tower activity.
+\(P_\ast\) is an exact full Hodge-Stokes lossless packet.  The transport skew
+identity gives no interior nonlinear production, the pressure/divergence
+channels remain compatible, and vanishing viscous loss removes the non-gauge
+tower activity.
 
 The required rigidity conclusion is
 
 ```math
 \boxed{
-\text{lossless pressure-adapted packet}
+\text{lossless full Hodge-Stokes packet}
 \Longrightarrow
 A_{\rm sel}(P_\ast)=0.
 }
@@ -509,7 +510,7 @@ Thus the compactness form needs the same two production clauses:
 
 ```math
 \boxed{
-\text{same-carrier no-loss compactness for the commutator packet}
+\text{same-carrier no-loss compactness for the full Hodge-Stokes packet}
 }
 \tag{PAN.30}
 ```
@@ -518,7 +519,7 @@ and
 
 ```math
 \boxed{
-\text{rigidity of lossless pressure-adapted packets.}
+\text{rigidity of lossless full Hodge-Stokes packets.}
 }
 \tag{PAN.31}
 ```
@@ -538,10 +539,12 @@ C_\varepsilon\Theta_\sigma^2E_\sigma.
 
 That route is honest but leaves the unweighted source-square budget open.
 
-The pressure-adapted no-residue route replaces `(PAN.32)` by `(PAN.16)`.  The
-square-source term is not paid.  It is avoided by preserving the skew structure
-until the commutator has been converted into scale-capacity drop and
-summable tail leakage.
+The participation-preserving no-residue route replaces `(PAN.32)` by
+`(PAN.16)`.  The square-source term is not paid.  It is avoided by preserving
+the skew structure while the pressure, viscosity, incompressibility, cutoff,
+scale, and signed-saturation channels remain visible until the full packet has
+been converted into scale-capacity drop, viscous payment, and summable tail
+leakage.
 
 This is why the route belongs inside the upgraded four-body loop:
 
@@ -559,21 +562,21 @@ This is why the route belongs inside the upgraded four-body loop:
 The idea is mathematically well-aimed.  It attacks the exact point where the
 square-source residual enters.
 
-What is proved here is the algebraic skew reduction and the no-residue
-criterion:
+What is proved here is the algebraic transport-channel skew reduction and the
+full-cycle no-residue criterion:
 
 ```math
 \boxed{
-\text{PressureAdaptedNoResidueCommutator.A}
+\text{ParticipationPreservingNoResidueFullCycle.A}
 +
-\text{same-carrier selected-commutator identification}
+\text{same-carrier selected full-packet identification}
 \Longrightarrow
 \text{unweighted four-body reserve.}
 }
 \tag{PAN.34}
 ```
 
-What remains unproved is the production theorem `(PAN.16)`: the terminal
-selector/Leray/pressure/cutoff/scale commutator must be paid by viscosity,
-capacity drop, and \(L^1\) tail with no
+What remains unproved is the production theorem `(PAN.16)`: the terminal full
+Hodge-Stokes packet must be paid by viscosity, capacity drop, and \(L^1\) tail
+with no
 \(C_\varepsilon\Theta_\sigma^2E_\sigma\) residue.
