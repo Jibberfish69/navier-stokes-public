@@ -4,7 +4,7 @@ Date: 2026-05-19
 
 ## Status
 
-Conditional diagnostic theorem. This note assigns the exits forced by a `B_ASAC^closed` terminal atom to the `Pack`, `Part`, and `Field` witnesss.
+Conditional diagnostic theorem. This note assigns the exits forced by a `B_ASAC^closed` terminal atom to the `Pack`, `Part`, and `Field` witnesses.
 
 ## Input
 

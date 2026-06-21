@@ -15,7 +15,7 @@ ClayBreakdownClassExitInadmissibility.A
 The attempted closing claim was:
 
 ```text
-derived Part/Field Part/Field failure supporting Exit(Q):=not Member(Q)
+derived Part/Field failure supporting Exit(Q):=not Member(Q)
 cannot be a valid Clay breakdown counterexample witness.
 ```
 
@@ -38,7 +38,7 @@ ClayAdmissibleFiniteBreakdown(W_*)
 
 ```text
 CMTestAdmissibleTerminalObject(W_*)
-=> derived Part/Field Part/Field failure
+=> derived Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
@@ -109,7 +109,7 @@ What is proved remains:
 ```text
 ClayAdmissibleFiniteBreakdown(W_*)
 => CMTestAdmissibleTerminalObject(W_*)
-=> derived Part/Field Part/Field failure
+=> derived Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
@@ -126,7 +126,7 @@ The valid terminal result is narrower:
 ```text
 ClayAdmissibleFiniteBreakdown(W_*)
 => canonical same-solution terminal obstruction
-=> Part/Field Part/Field failure
+=> Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 

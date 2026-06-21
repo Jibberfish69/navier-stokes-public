@@ -34,7 +34,7 @@ and classified face-derived Exit(Q)
 ```
 
 The desired bridge must prove more than terminal obstruction classification. It
-must show that the first Part/Field Part/Field failure invalidates the alleged
+must show that the first Part/Field failure invalidates the alleged
 finite Clay counterexample itself.
 
 ## Method Pass
@@ -132,7 +132,7 @@ Part/Field face.
 
 Together they block support-only rows and hidden untyped terminal objects. They
 do not prove that the proof-bearing same-solution terminal record cannot be the
-first Part/Field Part/Field failure.
+first Part/Field failure.
 
 ## Result
 

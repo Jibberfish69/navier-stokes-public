@@ -76,7 +76,7 @@ June 1 bridge as the next burden. It must use this corrected target:
    inventory surface;
 2. select one concrete uncovered or weakly covered terminal obstruction type;
 3. prove or audit its CM-test entry;
-4. derive its first Part/Field Part/Field failure;
+4. derive its first Part/Field failure;
 5. check that the pass branch remains the in-class continuation branch without
    demanding one named positive bootstrap estimate.
 

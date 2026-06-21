@@ -200,7 +200,7 @@ Then no finite periodic Clay counterexample exists.
 
 Assume `T_*<infty`. By `TorusGlobalMaterialAtlasTerminalCapture.A`, the alleged
 finite endpoint either has the full readout-complete `Pack+Part+Field` packet on
-`Q_atlas`, or it has a first Part/Field Part/Field failure.
+`Q_atlas`, or it has a first Part/Field failure.
 
 The face-exclusion theorem eliminates the second alternative.
 

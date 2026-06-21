@@ -84,7 +84,7 @@ Composing with the installed Clay-facing CM theorem family gives:
 
 ```text
 ClayAdmissibleFiniteBreakdown(W_*)
-=> derived Part/Field Part/Field failure
+=> derived Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
@@ -110,7 +110,7 @@ The next target-fidelity test was:
 
 ```text
 ClayBreakdownClassExitInadmissibility.A:
-derived Part/Field Part/Field failure supporting Exit(Q)
+derived Part/Field failure supporting Exit(Q)
 cannot be a valid Clay breakdown counterexample witness.
 ```
 

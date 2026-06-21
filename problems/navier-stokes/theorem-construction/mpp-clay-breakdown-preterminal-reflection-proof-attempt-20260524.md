@@ -19,7 +19,7 @@ The role-typed input is already fixed:
 ```text
 alleged finite Clay breakdown object W_*
 => CM-test-admissible terminal object
-=> derived Part/Field Part/Field failure
+=> derived Part/Field failure
 => Exit(Q_*):=not Member(Q_*).
 ```
 
@@ -183,6 +183,6 @@ ClayAdmissibleFiniteBreakdown.A
 + ClayTerminalWitnessCMEntry.A
 + ClayFiniteFailureTypeCMExhaustion.A
 + ClayCMContrapositiveEmbedding.A
-=> derived Part/Field Part/Field failure
+=> derived Part/Field failure
 => Exit(Q_*):=not Member(Q_*).
 ```

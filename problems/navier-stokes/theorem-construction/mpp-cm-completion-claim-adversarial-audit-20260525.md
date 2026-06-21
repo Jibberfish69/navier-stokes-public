@@ -31,7 +31,7 @@ follow the positive proof program to an obstruction;
 split the obstruction into pass and fail;
 pass stays inside Member(Q) and gives smooth continuation;
 fail enters the CM terminal test and is classified outside the class only after
-a Part/Field Part/Field failure is derived.
+a Part/Field failure is derived.
 ```
 
 That is the proof engine. The CM route does not need to know which particular
@@ -47,7 +47,7 @@ ClayAdmissibleFiniteBreakdown.A
 + ClayTerminalWitnessCMEntry.A
 + ClayFiniteFailureTypeCMExhaustion.A
 + ClayCMContrapositiveEmbedding.A
-=> derived Part/Field Part/Field failure
+=> derived Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 

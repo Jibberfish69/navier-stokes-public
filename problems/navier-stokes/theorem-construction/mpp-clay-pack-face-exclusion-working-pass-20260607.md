@@ -227,7 +227,7 @@ The checked sources prove the following weaker and already installed statement:
 ```text
 finite same-surface Clay breakdown
 => canonical same-solution terminal obstruction
-=> first Part/Field Part/Field failure.
+=> first Part/Field failure.
 ```
 
 They do not prove:
