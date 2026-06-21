@@ -130,7 +130,7 @@ $$
 The class witness is
 
 $$
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 $$
 
 `Field` supplies a positive pointwise coherence scale and finite tower control through route depth \(N\). `Pack` supplies one bounded same-fluid transported carrier and bounded cover distortion. `Part` supplies the shared participation law needed to read the tower on the same retained fluid object.

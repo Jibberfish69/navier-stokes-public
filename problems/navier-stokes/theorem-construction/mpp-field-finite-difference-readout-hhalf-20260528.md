@@ -2,7 +2,7 @@
 
 Date: 2026-05-28
 
-Status: installed bridge for the H^{1/2} CM face route.
+Status: installed bridge for the H^{1/2} CM Part/Field route.
 
 ## Target
 
@@ -39,7 +39,7 @@ C\,\mathfrak C_{N(J),r_J,Q}(\mathcal W).
 
 ## Proof
 
-`Field_{N,r,Q}` is the CM face that says the retained packet has one coherent field representative through depth N at positive scale r. On a retained Pack packet, the translated samples `x` and `x+h`, with `c_A r\le |h|\le C_A r` and both points inside the localized chart, are neighboring representatives of the same material packet. On a retained Part packet, the two representatives are compared through the same Navier-Stokes pressure-viscosity law.
+`Field_{N,r,Q}` is the CM Part/Field that says the retained packet has one coherent field representative through depth N at positive scale r. On a retained Pack packet, the translated samples `x` and `x+h`, with `c_A r\le |h|\le C_A r` and both points inside the localized chart, are neighboring representatives of the same material packet. On a retained Part packet, the two representatives are compared through the same Navier-Stokes pressure-viscosity law.
 
 Thus the only quantitative content left in the Field face is the finite-difference/tower-coherence modulus: neighboring representatives at scale r must agree in L^2 up to the Field budget
 

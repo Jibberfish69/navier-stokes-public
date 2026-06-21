@@ -29,7 +29,7 @@ The CM primitive remains:
 Exit(Q) := not Member(Q)
 ```
 
-through the Pack/Part/Field witness tree. This pass does not replace that
+through the Part/Field witness tree. This pass does not replace that
 primitive with a positive smoothness route.
 
 ## Checked reduction from the current first-exit target
@@ -191,12 +191,12 @@ Desired effect:
 ```text
 nonzero B_ASAC terminal native positive source atom
 => high-frequency energy jump, active-square source-time cost,
-   or Pack/Part/Field witness-face failure on the same ledger.
+   or Part/Field witness failure on the same ledger.
 ```
 
 For public finality this split is useful only if one branch supplies an
 installed finite contradiction or a noncircular proof that original smooth data
-cannot realize the first Pack exit. A bare Pack/Part/Field classification is
+cannot realize the first Pack exit. A bare Part/Field classification is
 not enough.
 
 The first proof test should use the shell energy identity for the selected
@@ -207,7 +207,7 @@ can exist without producing one of:
 UniformTerminalHighFrequencyTailTightnessFailure.A,
 ActiveSquareSourceTimeCost.A,
 legal/ASAC/pressure-source payment,
-or a proof-bearing Pack/Part/Field first-exit witness strong enough to feed
+or a proof-bearing Part/Field first-exit witness strong enough to feed
 OriginalSmoothDataPackSurvival.A.
 ```
 

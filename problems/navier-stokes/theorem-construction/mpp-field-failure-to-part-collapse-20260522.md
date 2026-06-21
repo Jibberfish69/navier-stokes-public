@@ -23,14 +23,14 @@ then read the realized terminal endpoint and collapse it back to Part.
 ```
 
 This note does not say that `Pack + Part + not-Field` is a real terminal row.
-It says that row is a proof-facing way to spend the last unspent CM face after
+It says that row is a proof-facing way to spend the last unspent CM Part/Field after
 Pack and Part have been retained as licenses. Once the endpoint is read as a
 real same-fluid terminal scenario, the `Jump` that broke Field also breaks
 terminal Part.
 
 ## Two Part Readings
 
-This distinction is only a bookkeeping distinction. It is not a new CM face.
+This distinction is only a bookkeeping distinction. It is not a new CM Part/Field.
 
 ```text
 Part^{lic}_{N,Q}
@@ -140,7 +140,7 @@ That contradicts `Part^{term}_{N,Q}`. Hence
 ```
 
 This is the `P and not-F => not-A` half of the terminal ontology rule from the
-Pack/Part/Field collapse audit, applied after the Field face has first been
+Part/Field collapse audit, applied after the Field face has first been
 hit in the branch-local proof.
 
 ## Theorem 3: `RetainedFieldToPartCollapse.A`

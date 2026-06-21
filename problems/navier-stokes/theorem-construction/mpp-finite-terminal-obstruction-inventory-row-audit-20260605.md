@@ -9,14 +9,14 @@ inventory burden without claiming Clay closure.
 
 The June 3 continuation asks whether `ClayFiniteFailureTypeCMExhaustion.A`
 really covers the concrete finite terminal obstruction types, rather than only
-stating the abstract Pack/Part/Field trichotomy.
+stating the abstract Part/Field trichotomy.
 
 The checked target is:
 
 ```text
 finite terminal obstruction O
 => CM-test entry for O
-=> first failed Pack/Part/Field face
+=> first failed Part/Field face
 => Exit(Q):=not Member(Q).
 ```
 
@@ -82,7 +82,7 @@ With `ParaproductNativeSourceCapture.A`, the retained nonlinear source work is
 native source residue, selected Pack-side source-wall failure, or paid
 Pack/Part/legal exit.
 
-The first-face derivation is therefore:
+The first-Part/Field derivation is therefore:
 
 ```text
 selected Pack-side source-wall failure
@@ -104,7 +104,7 @@ Pack_Q + Part_{N,Q} + terminal L3 critical concentration on the same ledger
 ```
 
 Thus the installed local `L^3` Duhamel-mass branch has both CM-test entry and a
-first Pack/Part/Field face derivation.
+first Part/Field Part/Field derivation.
 
 ## Rows Still Support-Only
 
@@ -128,9 +128,9 @@ finite-obstruction inventory row. That row is now seated:
 
 ```text
 terminal L3 Duhamel mass
-=> Pack/Part/legal face landing,
+=> Pack/Part/legal Part/Field landing,
 and under retained Pack+Part
-=> Field face landing.
+=> Field Part/Field landing.
 ```
 
 The smaller remaining row-level obstruction is only generic public-critical

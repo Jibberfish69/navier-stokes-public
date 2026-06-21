@@ -37,7 +37,7 @@ OriginalSmoothData => ScaleCriticalTreeCarleson.A
 ```
 
 or a noncircular replacement proving that the same-solution terminal packet from
-original smooth data cannot realize the first Pack face failure.
+original smooth data cannot realize the first Pack Part/Field failure.
 
 ## Method Pass
 
@@ -105,10 +105,10 @@ proof-bearing first Pack face impossible.
 
 ### Direct Clay Bridge
 
-The direct bridge from classified CM face exit to Clay counterexample exclusion
+The direct bridge from classified CM Part/Field exit to Clay counterexample exclusion
 is not installed. Face-derived `Exit(Q):=not Member(Q)` classifies the alleged
 finite terminal breakdown unless `NoGenuineExitFromSmoothData.A` rules out a
-genuine first Pack/that face failure from original smooth data.
+genuine first Pack/that Part/Field failure from original smooth data.
 
 ## Frontier Judgment
 

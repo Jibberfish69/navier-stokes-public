@@ -15,7 +15,7 @@ r_m>0,\qquad t_m<T_*.
 ```
 
 Assume the branch does not pay reserve, dissipate, receive incoming flux, hit a
-legal/boundary exit, or hit a finite-scale CM face before the terminal time.
+legal/boundary exit, or hit a finite-scale CM Part/Field before the terminal time.
 
 Then the branch must be Zeno:
 
@@ -23,7 +23,7 @@ Then the branch must be Zeno:
 r_m\downarrow 0,\qquad t_m\uparrow T_*.
 ```
 
-Consequently the endpoint is not a retained CM packet. It is a terminal
+Consequently the endpoint is not a retained CM participation-field record. It is a terminal
 zero-radius source residue and gives
 
 ```math
@@ -51,10 +51,10 @@ The proof here is the retained finite-carrier participation contradiction from
 
 The positive lower radius gives an ordinary terminal carrier. If `Pack_Q`,
 `Part_{N,Q}`, or `Field_{N,r,Q}` fails on that carrier, the branch has already
-hit a finite CM face. On the retained subcase,
+hit a finite CM Part/Field. On the retained subcase,
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q},
 ```
 
 the source-current participation balance gives

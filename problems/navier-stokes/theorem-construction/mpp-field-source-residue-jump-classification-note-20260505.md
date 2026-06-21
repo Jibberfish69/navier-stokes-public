@@ -27,7 +27,7 @@ been supplied.
 
 ## Setup
 
-Work under the CM witness-face split:
+Work under the CM witness split:
 
 ```math
 \neg CM_{N,r,Q}
@@ -41,7 +41,7 @@ Assume the branch has been localized to the Field face:
 Pack_Q,\qquad Part_{N,Q},\qquad \neg Field_{N,r,Q}.
 ```
 
-Assume further that the Field-face failure is witnessed by a native positive
+Assume further that the Field-Part/Field failure is witnessed by a native positive
 source/readout residue:
 
 ```math
