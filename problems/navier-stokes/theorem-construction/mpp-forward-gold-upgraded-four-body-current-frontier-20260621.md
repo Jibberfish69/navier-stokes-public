@@ -2198,6 +2198,98 @@ the terminal atom contradicts the service topology required by `Part` or
 \tag{4BF.87}
 ```
 
+The remaining signed/Zeno child has now been tested directly against the
+profile-or-no-waste fork.  Let
+
+```math
+\mu_m(ds)=a_m(s)\,ds,
+\qquad
+a_m\ge0,
+\qquad
+s\in[-1,0],
+\tag{4BF.88}
+```
+
+be the normalized selected source time marginal on the infinite terminal donor
+chain.  The no-free endpoint theorem is
+
+```math
+\boxed{
+\lim_{\theta\downarrow0}\limsup_m\mu_m((-\theta,0])=0.
+}
+\tag{4BF.89}
+```
+
+If `(4BF.89)` fails, then after subsequence extraction
+
+```math
+\mu_m\stackrel{*}{\rightharpoonup}\mu,
+\qquad
+\mu(\{0\})>0.
+\tag{4BF.90}
+```
+
+This endpoint atom is not consumed by profile production.  The model pulse
+
+```math
+a_m(s)=a\,\tau_m^{-1}{\bf 1}_{(-\tau_m,0]}(s),
+\qquad
+\tau_m\downarrow0,
+\tag{4BF.91}
+```
+
+has nonzero terminal mass but satisfies
+
+```math
+\int_{-1}^{-b}a_m(s)\,ds\to0
+\qquad
+\text{for every }b>0.
+\tag{4BF.92}
+```
+
+Thus on every compact negative-time strip the source atom can disappear while
+remaining at the missing endpoint \(s=0\).  Consequently
+
+```math
+\boxed{
+\text{positive endpoint source atom}
+\not\Longrightarrow
+\text{nontrivial Landau-class profile}.
+}
+\tag{4BF.93}
+```
+
+The profile branch begins only after endpoint residue is evacuated or charged
+and nontrivial same-carrier mass survives in the negative-time Zeno orbit:
+
+```math
+\boxed{
+\text{endpoint trace/no-waste or charged endpoint routing}
+\quad\Longrightarrow\quad
+\text{the profile-production stack in }(4BF.84)\text{ may be invoked.}
+}
+\tag{4BF.94}
+```
+
+Therefore the infinite terminal donor chain has the exact forcing fork
+
+```math
+\boxed{
+\begin{array}{c}
+\texttt{FourBodyTerminalTraceAC.A}
+\ \vee\
+\texttt{StrictFourBodyNoWasteLyapunov.A}
+\ \vee\
+\text{same-carrier critical reserve}\\[1mm]
+\vee\
+\text{charged endpoint residual / certified CM consumption}\\[1mm]
+\vee\
+\texttt{MinimalZenoProfileProduction.A after endpoint evacuation or charge.}
+\end{array}
+}
+\tag{4BF.95}
+```
+
 This is the current unflattened frontier: the four-body loop pays quotient
 tower activity exactly, and the native cubic source selector must be converted
 to that paid currency by one of the precise same-carrier production theorems
