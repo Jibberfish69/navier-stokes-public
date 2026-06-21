@@ -474,7 +474,7 @@ integration_chain:
   job: Every branch node has an evidence source, state, and next burden.
   current_gap: The generic Pack/Part face-exclusion work order is classified as the
     wrong target with no proof force. The graph must show finite-obstruction inventory
-    coverage and keep future named rows under same-witness Pack/Part/Field certification.
+    coverage and keep future named rows under same-witness Pack/Part/Field witness-face record.
 - step_id: app_worker_surface
   surface_class: NS app/viewer
   current_state: route-state-exported-with-inventory-gate
@@ -812,7 +812,7 @@ branch_rows:
   state: finite-obstruction-inventory-synced
   next_burden: The generic Pack/Part face-exclusion work order is classified as the
     wrong target with no proof force. The graph must show finite-obstruction inventory
-    coverage and keep future named rows under same-witness Pack/Part/Field certification.
+    coverage and keep future named rows under same-witness Pack/Part/Field witness-face record.
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mirror_of_completion_candidate: false
