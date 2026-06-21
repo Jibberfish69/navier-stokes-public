@@ -4,7 +4,7 @@ ns_viewer:
   status: direct-countertest-complete-fixed-shifted-gamma-polynomial-moments-do-not-produce-source-square-reserve
   proof_role: forward_gold_shifted_gamma_polynomial_moment_countertest
   logical_landing_node: shifted_gamma_moment_to_source_square_reserve
-  edge_effect: "Tests whether the finite-beta shifted-gamma multiplier can upgrade first-moment high-frequency tail control into the same-carrier source-square / unweighted critical-action reserve. It cannot do this by moment weighting alone. For every fixed polynomial weight, the heat-scale pulse with A_m=2^(-3m/2) has polynomially weighted first-moment tail tending to zero while the source-square reserve stays equal to one. Thus shifted-gamma beta tuning supplies at most a polynomial high-rung moment charge; the missing theorem is still an active-height, source-square, CKN, strict no-waste, profile-production, or CM Pack/Part/Field consumption mechanism on the same selected carrier."
+  edge_effect: "Tests whether the finite-beta shifted-gamma multiplier can upgrade first-moment high-frequency tail control into the same-carrier source-square / unweighted critical-action reserve. It cannot do this by moment weighting alone. For every fixed polynomial weight, the heat-scale pulse with A_m=2^(-3m/2) has polynomially weighted first-moment tail tending to zero while the source-square reserve stays equal to one. Thus shifted-gamma beta tuning supplies at most a polynomial high-rung moment charge; the missing theorem is still an active-height, source-square, CKN, strict no-waste, profile-production, or CM Part/Field consumption mechanism on the same selected carrier."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-shifted-gamma-saddle-radius-spend-test-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-source-square-reserve-heat-scale-direct-test-20260619.md
@@ -337,7 +337,7 @@ or it has to consume the retained pulse after same-witness CM-test admission:
 
 ```math
 \boxed{
-\text{CM Pack/Part/Field face failure supporting } Exit(Q):=\neg Member(Q).
+\text{CM Part/Field Part/Field failure supporting } Exit(Q):=\neg Member(Q).
 }
 \tag{SGP.27}
 ```
@@ -357,5 +357,5 @@ source-square / unweighted terminal critical-action reserve.}
 So the four-thread synthesis should not attack the NS MPP by trying to tune
 beta until the first-moment tail becomes square-strength.  The next live
 mathematical wall is the active-height/no-waste/source-square mechanism on the
-same selected carrier, or the CM face consumption of the retained heat-scale
+same selected carrier, or the CM Part/Field consumption of the retained heat-scale
 pulse after admission.

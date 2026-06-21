@@ -7,7 +7,7 @@ Date: 2026-06-19
 Direct test complete.  `SourceResidueEvacuation.A` is not an independent
 theorem from current inputs.  It is exactly the missing step that turns a
 compact source-residue limit into either vanishing residue, a paid source-square
-/ no-waste cost, or a CM witness-face exit.
+/ no-waste cost, or a CM witness exit.
 
 The current inputs prove visibility of the residue and compactness of a
 defect-bearing limit.  They do not prove evacuation of the positive native
@@ -24,7 +24,7 @@ SourceResidueEvacuation.A:
 \quad
 \mathfrak R\neq0
 \Longrightarrow
-\text{legal cost, source-square reserve, no-waste drop, or CM face failure.}
+\text{legal cost, source-square reserve, no-waste drop, or CM Part/Field failure.}
 }
 \tag{SRE.1}
 ```
@@ -304,8 +304,8 @@ source-square / Carleson / strict Lyapunov reserve.
 ## 7. CM consumption is not forward evacuation
 
 If no evacuation theorem is proved, the residue is still not hidden.  The
-retained terminal source pulse is a CM-facing witness-face object.  After
-Pack-first sorting:
+retained terminal source pulse is a CM-facing witness object.  After
+Field-certification sorting:
 
 ```math
 \text{zero-radius residue}
@@ -349,7 +349,7 @@ ZenoCancellationClassProduction.A.
 \tag{SRE.27}
 ```
 
-Current inputs provide compactness, residue visibility, and CM witness-face
+Current inputs provide compactness, residue visibility, and CM witness
 conversion.  They do not provide forward evacuation of the selected positive
 native source residue.
 

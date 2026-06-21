@@ -12,7 +12,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-residual-lpas-reentry-after-weighted-carrier-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-residual-active-square-child-supplier-consolidation-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-timeface-supplier-exhaustion-20260619.md
-  downstream_consequence: "The live forward-gold burden is not three separate suppliers. It is SelectedCarrierEndpointUI.A / SourceSquareReserve.A / UnweightedTerminalCriticalActionReserve.A / strict no-waste, or else same-witness admission of the surviving terminal pulse to CM Pack/Part/Field."
+  downstream_consequence: "The live forward-gold burden is not three separate suppliers. It is SelectedCarrierEndpointUI.A / SourceSquareReserve.A / UnweightedTerminalCriticalActionReserve.A / strict no-waste, or else same-witness admission of the surviving terminal pulse to CM Part/Field."
 ---
 
 # MPP Forward-Gold Source Residence / Trace AC / Residual LPAS Consolidation
@@ -149,7 +149,7 @@ heat-scale time interval.
 Without such a mechanism, the surviving object is not hidden.  It is the
 terminal heat-scale pulse already identified by the terminal source-curve and
 residual active-square notes.  That pulse must either be admitted to the
-same-witness CM Pack/Part/Field readout, or be killed by a genuinely new
+same-witness CM Part/Field readout, or be killed by a genuinely new
 endpoint-uniform-integrability/source-square/no-waste theorem.
 
 ## Verdict

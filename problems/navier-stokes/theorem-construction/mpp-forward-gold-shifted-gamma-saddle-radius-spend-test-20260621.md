@@ -52,7 +52,7 @@ or for the controlled-collapse branch
 \boxed{
 \text{divergent coupled tower-radius spend}
 \Longrightarrow
-\text{terminal time-face atom/profile or same-witness CM face failure.}
+\text{terminal time-face atom/profile or same-witness CM Part/Field failure.}
 }
 \tag{SGS.3}
 ```

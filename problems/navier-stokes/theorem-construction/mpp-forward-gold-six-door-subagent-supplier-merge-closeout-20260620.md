@@ -15,7 +15,7 @@ Live recheck addendum.  A later six-agent recheck tested strict no-waste,
 critical strain/CKN, source-square carrier domination, signed saturation /
 no-free donor chains, rigid Zeno production, and the CM consumption fork.  The
 five forward-gold supplier checks all returned to the same radius-discount
-obstruction.  The CM check confirmed only the alternative Pack/Part/Field
+obstruction.  The CM check confirmed only the alternative Part/Field
 landing after same-witness admission and uniform service certification.  It did
 not convert the retained pulse into a forward-gold anti-atom theorem.
 
@@ -390,7 +390,7 @@ The CM fork check confirmed the exact alternative:
 \tag{SDM.30}
 ```
 
-That is a Pack/Part/Field witness-face landing.  It is not a proof of
+That is a Part/Field witness landing.  It is not a proof of
 `UnweightedTerminalCriticalActionReserve.A`.
 
 ## Final Merge
@@ -413,5 +413,5 @@ The six doors do not close the forward-gold theorem from installed inputs:
 
 The branch is exhausted at this route resolution.  New forward-gold progress
 must prove `(SDM.2)` directly or produce it through one of the named languages.
-Without that, the retained terminal heat-scale pulse is CM Pack/Part/Field
-witness-face material, not a solved forward-positive smoothness contradiction.
+Without that, the retained terminal heat-scale pulse is CM Part/Field
+witness material, not a solved forward-positive smoothness contradiction.

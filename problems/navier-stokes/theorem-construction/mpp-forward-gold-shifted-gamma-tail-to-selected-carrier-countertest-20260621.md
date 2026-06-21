@@ -4,7 +4,7 @@ ns_viewer:
   status: direct-countertest-complete-shifted-gamma-tail-still-does-not-dominate-selected-carrier
   proof_role: forward_gold_shifted_gamma_same_carrier_extraction_countertest
   logical_landing_node: shifted_gamma_tail_to_selected_endpoint_carrier
-  edge_effect: "Extends the high-rung tail countermodel to shifted-gamma weights. For every fixed beta_x>0 and every positive spatial generating radius, a compact divergence-free high-frequency packet with amplitude exp(-sqrt N) makes every fixed finite derivative rung, the native finite-order selected carrier, and the combined Holder carrier tend to zero, while one shifted-gamma high spatial rung diverges exponentially. Thus SelectedEndpointCoefficientExtractionBridge.A cannot be a pure coefficient-extraction or shifted-gamma tail theorem. The missing bridge must use genuine Navier-Stokes dynamics on the same carrier: strict no-waste, source-square/CKN reserve, polar saturation, profile production, or CM Pack/Part/Field consumption after same-witness admission."
+  edge_effect: "Extends the high-rung tail countermodel to shifted-gamma weights. For every fixed beta_x>0 and every positive spatial generating radius, a compact divergence-free high-frequency packet with amplitude exp(-sqrt N) makes every fixed finite derivative rung, the native finite-order selected carrier, and the combined Holder carrier tend to zero, while one shifted-gamma high spatial rung diverges exponentially. Thus SelectedEndpointCoefficientExtractionBridge.A cannot be a pure coefficient-extraction or shifted-gamma tail theorem. The missing bridge must use genuine Navier-Stokes dynamics on the same carrier: strict no-waste, source-square/CKN reserve, polar saturation, profile production, or CM Part/Field consumption after same-witness admission."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-rung-tail-to-selected-carrier-direct-test-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-shifted-gamma-saddle-radius-spend-test-20260621.md
@@ -266,4 +266,4 @@ The surviving proof target is narrower:
 
 Candidate anti-remote-tail mechanisms are strict no-waste, source-square or
 selected critical-strain/CKN reserve, polar saturation, minimal Zeno profile
-production, or CM Pack/Part/Field consumption after same-witness admission.
+production, or CM Part/Field consumption after same-witness admission.

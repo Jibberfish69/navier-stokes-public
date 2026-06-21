@@ -29,7 +29,7 @@ ns_viewer:
     selector has bounded derivative complexity and the high-factor tensor strip
     action vanishes, endpoint UI follows. A surviving atom therefore forces
     selector-complexity blowup or nonvanishing high-factor action. Future progress
-    must convert one of those alternatives into a legal Pack/Part/Field exit or
+    must convert one of those alternatives into a legal Part/Field exit or
     a same-carrier reserve/no-waste/profile contradiction.
 ---
 
@@ -367,4 +367,4 @@ B_m
 
 A successful gold closure must now kill one side by source-square /
 critical-strain / normalized CKN / no-waste / profile production, or consume
-the other side as selector-complexity blowup in the CM Pack/Part/Field grammar.
+the other side as selector-complexity blowup in the CM Part/Field grammar.

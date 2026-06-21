@@ -331,4 +331,4 @@ The remaining non-alias forward-gold theorem is therefore
 on the actual selected positive carrier, or a strict no-waste/coercive identity
 that produces that reserve.  Without that theorem, the retained heat-scale pulse
 is not excluded by the forward-gold route; it must be carried as the terminal
-Pack/Part/Field witness-face object in the CM-facing route.
+Part/Field witness object in the CM-facing route.

@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-dynamic-tail-square-evolution-direct-test-20260619.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-source-square-ladder-closeout-20260619.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-first-created-reserve-source-square-energy-test-20260620.md
-  downstream_consequence: "Do not pursue source-square production by a bare extremal or Bellman endpoint argument. The live supplier remains same-carrier square control, active-height/residence, selected critical strain/CKN, strict no-waste, or CM Pack/Part/Field consumption of the retained pulse after same-witness admission."
+  downstream_consequence: "Do not pursue source-square production by a bare extremal or Bellman endpoint argument. The live supplier remains same-carrier square control, active-height/residence, selected critical strain/CKN, strict no-waste, or CM Part/Field consumption of the retained pulse after same-witness admission."
 ---
 
 # MPP Forward-Gold Source-Square Extremal Duality Direct Test
@@ -243,7 +243,7 @@ or
 
 Without one of these, the retained heat-scale square pulse remains visible but
 unpaid in the forward-gold route.  After same-witness admission, that retained
-pulse is a CM Pack/Part/Field readout object, not a solved forward-gold
+pulse is a CM Part/Field readout object, not a solved forward-gold
 source-square theorem.
 
 ## Verdict

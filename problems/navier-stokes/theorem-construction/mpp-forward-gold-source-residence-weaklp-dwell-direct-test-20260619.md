@@ -227,5 +227,5 @@ So this route returns to the already isolated forward-gold alternatives:
 \]
 
 Absent one of those, the retained heat-scale terminal pulse is not deleted by
-the forward-gold route.  It must be admitted as the CM-facing Pack/Part/Field
+the forward-gold route.  It must be admitted as the CM-facing Part/Field
 exit witness rather than hidden behind a nonexistent weak-residence estimate.
