@@ -37,6 +37,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-curl-source-vorticity-parabolic-residual-boundary-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-curl-source-collar-endpoint-ui-enstrophy-gradient-readout-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transport-term-endpoint-ui-enstrophy-dissipation-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-stretching-atom-to-finite-rung-field-face-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-allocation-duality-same-carrier-reserve-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-mixed-derivative-tower-participation-law-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-cross-cylinder-time-tower-coupling-test-20260621.md
@@ -479,6 +480,8 @@ status:
 \text{fixed-collar }L_s^2\text{ enstrophy-gradient gives UI; atom forces }\theta^{-1}\text{ collar action}\\
 \text{transport endpoint UI / enstrophy dissipation} &
 \text{exact consumer; bounded height plus }\int Z^2\text{ gives UI; atom forces }\theta^{-1/3}\text{ action}\\
+\text{native stretching atom finite-rung Field face} &
+\text{after same-witness Pack+Part, local }H^2\text{ Field coherence bounds }[\omega\cdot S\omega]_+\text{ and forbids a native stretching atom}\\
 \text{allocation / KKT shadow price} &
 \text{combined Holder price paid; unweighted priced reserve absent}\\
 \text{coupled mixed-tower radius} &
