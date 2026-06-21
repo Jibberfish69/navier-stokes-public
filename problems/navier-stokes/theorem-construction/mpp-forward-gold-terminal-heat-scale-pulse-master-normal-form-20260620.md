@@ -35,6 +35,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-carrier-curl-source-transport-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-curl-source-endpoint-ui-finite-rung-readout-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-curl-source-vorticity-parabolic-residual-boundary-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-curl-source-collar-endpoint-ui-enstrophy-gradient-readout-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transport-term-endpoint-ui-enstrophy-dissipation-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-allocation-duality-same-carrier-reserve-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-mixed-derivative-tower-participation-law-20260621.md
@@ -468,6 +469,8 @@ status:
 \text{exact consumer; bounded }\omega\text{ plus }\int|\nabla\times N|^2\text{ gives UI; atom forces }\theta^{-1}\text{ curl-source action}\\
 \text{curl-source vorticity residual boundary} &
 \text{exact identity }\nabla\times N=(\partial_s-\nu\Delta)\omega\text{; localized version needs residual square plus collar payment}\\
+\text{curl-source collar / enstrophy-gradient readout} &
+\text{fixed-collar }L_s^2\text{ enstrophy-gradient gives UI; atom forces }\theta^{-1}\text{ collar action}\\
 \text{transport endpoint UI / enstrophy dissipation} &
 \text{exact consumer; bounded height plus }\int Z^2\text{ gives UI; atom forces }\theta^{-1/3}\text{ action}\\
 \text{allocation / KKT shadow price} &
