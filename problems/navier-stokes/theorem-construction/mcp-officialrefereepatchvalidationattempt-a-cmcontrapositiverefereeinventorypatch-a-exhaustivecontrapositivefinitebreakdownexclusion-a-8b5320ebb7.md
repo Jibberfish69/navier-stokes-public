@@ -22,7 +22,7 @@ with the active review burden:
 
 ```text
 Prove TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A,
-or replace it with a noncircular finite-breakdown exclusion that lands every admitted surviving terminal residual object through Member(Q) or a concrete Part/Field Part/Field failure.
+or replace it with a noncircular finite-breakdown exclusion that lands every admitted surviving terminal residual object through Member(Q) or a concrete Part/Field failure.
 ```
 
 This means the official layer has not yet accepted the local exhaustive contrapositive patch as the replacement.

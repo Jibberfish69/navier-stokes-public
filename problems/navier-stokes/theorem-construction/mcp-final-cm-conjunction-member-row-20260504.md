@@ -2,7 +2,7 @@
 
 ## Status
 
-Theorem-grade conjunction row. This note combines the three separately typed CM witnesss after the source-pulse supplier route has been spent through the Field row.
+Theorem-grade conjunction row. This note combines the three separately typed CM witnesses after the source-pulse supplier route has been spent through the Field row.
 
 ## Target
 

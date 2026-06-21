@@ -27,5 +27,5 @@ The corrected case split is:
    relevant readout/window or whole-field record has been named.
 
 This surface does not say Pack supplies participation and does not
-license a outside-CM participation-field record-window `Field_{N,r,Q}` predicate.  It is a guard against using
+license an outside-CM packet/window `Field_{N,r,Q}` predicate.  It is a guard against using
 zero radius as a shortcut for class exit.

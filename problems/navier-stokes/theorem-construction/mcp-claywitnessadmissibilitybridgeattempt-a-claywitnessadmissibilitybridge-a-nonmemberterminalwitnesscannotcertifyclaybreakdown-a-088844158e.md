@@ -31,7 +31,7 @@ mpp-clay-breakdown-class-exit-inadmissibility-proof-attempt-20260524.md
 That surface tested essentially the same target:
 
 ```text
-derived Part/Field Part/Field failure supporting Exit(Q):=not Member(Q)
+derived Part/Field failure supporting Exit(Q):=not Member(Q)
 cannot be a valid Clay breakdown counterexample witness.
 ```
 

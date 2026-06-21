@@ -21,7 +21,7 @@ The live referee/review blocker remains:
 ```text
 release-exactness-and-manuscript-refresh:
 Prove TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A,
-or replace it with a noncircular finite-breakdown exclusion that lands every admitted surviving terminal residual object through Member(Q) or a concrete Part/Field Part/Field failure.
+or replace it with a noncircular finite-breakdown exclusion that lands every admitted surviving terminal residual object through Member(Q) or a concrete Part/Field failure.
 ```
 
 The intended replacement is the original-participation-before-Pack exhaustive contrapositive.
@@ -37,7 +37,7 @@ Every admissible terminal residual object produced by an alleged finite-time Cla
 1. admissibility failure: not same original datum / same maximal branch / same pressure-viscosity law;
 2. concrete Part Part/Field failure: not Part_{N,Q};
 3. concrete Field Part/Field failure: forall r>0 not Field_{N,r,Q};
-4. concrete ordinary Part/Field Part/Field failure on a positive-radius candidate;
+4. concrete ordinary Part/Field failure on a positive-radius candidate;
 5. continuation/readout recovery through the ordinary Member(Q)-eligible branch.
 
 The singular zero-radius objects are given an original-participation audit before Pack_Q. Therefore Pack_Q is not used to exclude the singularity. Pack_Q is certified only after singular witnesses have been handled by the original-participation audit, as the positive-radius admission predicate for the remaining Member(Q)-eligible branch.
