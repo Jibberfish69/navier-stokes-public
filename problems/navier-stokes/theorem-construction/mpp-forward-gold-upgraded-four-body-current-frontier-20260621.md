@@ -3083,3 +3083,68 @@ terminal heat-scale family.  Thus the new frontier is:
 }
 \tag{4BF.127}
 ```
+
+The endpoint/donor branch solution now consumes the two remaining terms from
+`(4BF.119)` in the pass-or-exit sense.  The endpoint term obeys
+
+```math
+[-\partial_\sigma M_\sigma]_+
+\le
+C A_{4B}+R_{\rm legal}
+\tag{4BF.128}
+```
+
+unless the endpoint defect has no realizable positive-thickness parabolic
+daughter and therefore lands in
+
+```math
+Pack_Q+Part_{N,Q}+\forall r>0\,\neg Field_{N,r,Q}.
+\tag{4BF.129}
+```
+
+The donor term obeys
+
+```math
+\mathcal Z_{\rm donor}
+\le
+C A_{4B}+R_{\rm legal}
+\tag{4BF.130}
+```
+
+unless the stabilized donor quotient has a zero-descent cycle, which lands in
+
+```math
+Pack_Q+\neg Part_{N,Q}.
+\tag{4BF.131}
+```
+
+Therefore, outside these two typed CM exits,
+
+```math
+\boxed{
+A_{\rm native}
+\le
+C A_{4B}+R_{\rm legal}+T_\sigma .
+}
+\tag{4BF.132}
+```
+
+Since the four-body cycle gives
+
+```math
+\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma<\infty,
+\tag{4BF.133}
+```
+
+the no-exit branch gives
+
+```math
+\boxed{
+\int_{\sigma_0}^{\infty}A_{\rm native}(\sigma)\,d\sigma<\infty .
+}
+\tag{4BF.134}
+```
+
+This closes the native selected activity bridge as a four-body payment or CM
+exit theorem.  It does not prove that the two CM exits are impossible from
+original smooth data.
