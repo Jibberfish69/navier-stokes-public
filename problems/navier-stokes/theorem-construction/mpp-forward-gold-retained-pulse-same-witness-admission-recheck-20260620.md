@@ -2,7 +2,7 @@
 theorem_id: forward-gold-retained-pulse-same-witness-admission-recheck-20260620
 status: same-witness-admission-recheck-complete
 logical_landing_node: retained_pulse_same_witness_cm_admission
-edge_effect: "Checks the conditional same-witness hypothesis in the retained heat-scale pulse CM consumer. For a Clay-admissible finite breakdown branch, same-witness CM admission is already supplied by ClayTerminalWitnessCMEntry.A, ClayAdmissibleFiniteBreakdownCMTestAdmissibility, CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, and the Pack-before-Part resurfacing audit. The condition remains unavailable for support-only forward-gold supplier calculations, so this does not prove the forward-gold endpoint anti-atom."
+edge_effect: "Checks the conditional same-witness hypothesis in the retained heat-scale pulse CM consumer. For a Clay-admissible finite breakdown branch, same-witness CM admission is already supplied by ClayTerminalWitnessCMEntry.A, ClayAdmissibleFiniteBreakdownCMTestAdmissibility, CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, and the Pack-out-of-CM resurfacing audit. The condition remains unavailable for support-only forward-gold supplier calculations, so this does not prove the forward-gold endpoint anti-atom."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-heat-scale-pulse-cm-pack-part-field-consumption-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
@@ -10,7 +10,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-any-finite-failure-witness-cm-exit-20260521.md
   - problems/navier-stokes/theorem-construction/mpp-pack-before-part-dependency-resurfacing-audit-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-terminal-source-curve-pass-or-partfield-exit-20260620.md
-downstream_consequence: "The retained heat-scale pulse has no separate same-witness-admission blocker once it is promoted as the terminal obstruction of a Clay-admissible finite breakdown. The branch is then consumed by the installed CM Pack/Part/Field service tree. This is a CM pass-or-exit result, not a forward-gold proof of SelectedCarrierEndpointUI.A or UnweightedTerminalCriticalActionReserve.A."
+downstream_consequence: "The retained heat-scale pulse has no separate same-witness-admission blocker once it is promoted as the terminal obstruction of a Clay-admissible finite breakdown. The branch is then consumed by the installed CM Part/Field service tree. This is a CM pass-or-exit result, not a forward-gold proof of SelectedCarrierEndpointUI.A or UnweightedTerminalCriticalActionReserve.A."
 ---
 
 # MPP Forward-Gold Retained Pulse Same-Witness Admission Recheck
@@ -125,7 +125,7 @@ Thus:
 
 ## 3. Consumption after admission
 
-Once admitted, the pulse enters the Pack-before-Part audited service tree.
+Once admitted, the pulse enters the Pack-out-of-CM audited service tree.
 
 If no positive same-fluid carrier and no meaningful same-solution original participation record remain, the first failure is:
 
@@ -211,7 +211,7 @@ The exact pass-or-exit statement is:
 \boxed{
 \text{endpoint UI}
 \quad\text{or}\quad
-\text{same-witness Pack/Part/Field face failure}.
+\text{same-witness Part/Field Part/Field failure}.
 }
 \tag{SWA.16}
 ```

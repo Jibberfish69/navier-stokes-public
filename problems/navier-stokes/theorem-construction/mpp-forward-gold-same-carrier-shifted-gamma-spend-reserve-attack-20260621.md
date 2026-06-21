@@ -12,7 +12,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-shifted-gamma-saddle-radius-spend-test-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-allocation-duality-same-carrier-reserve-test-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-rung-tail-to-selected-carrier-direct-test-20260621.md
-  downstream_consequence: "The best current attack is not raw Stirling, not arbitrary high-rung collapse, and not allocation language by itself. It is SameCarrierShiftedGammaSpendReserve.A: prove that the shifted-gamma saddle-band spend is produced by the same selected endpoint carrier and has an unweighted terminal-family reserve, or route canonical radius collapse to finite-rung readout, minimal Zeno profile production, strict no-waste, source-square/CKN reserve, or CM Pack/Part/Field consumption."
+  downstream_consequence: "The best current attack is not raw Stirling, not arbitrary high-rung collapse, and not allocation language by itself. It is SameCarrierShiftedGammaSpendReserve.A: prove that the shifted-gamma saddle-band spend is produced by the same selected endpoint carrier and has an unweighted terminal-family reserve, or route canonical radius collapse to finite-rung readout, minimal Zeno profile production, strict no-waste, source-square/CKN reserve, or CM Part/Field consumption."
 ---
 
 # MPP Forward-Gold Same-Carrier Shifted-Gamma Spend Reserve Attack
@@ -52,7 +52,7 @@ terminal carrier,}\\
 
 If `(SGR.2)` is proved, the terminal selected time-face atom is forbidden in
 the forward-gold branch. Without `(SGR.2)`, the current notes still route the
-surviving retained pulse to the CM Pack/Part/Field consumption branch after
+surviving retained pulse to the CM Part/Field consumption branch after
 same-witness admission.
 
 ## 1. Paid inputs
@@ -402,7 +402,7 @@ Third, if canonical coupled radius spend diverges, classify the failure:
 \text{divergent coupled radius spend}
 \Longrightarrow
 \text{finite-rung readout, minimal Zeno profile, strict no-waste failure,}
-\text{or CM Pack/Part/Field-facing retained pulse.}
+\text{or CM Part/Field-facing retained pulse.}
 }
 \tag{SGR.30}
 \]
@@ -410,7 +410,7 @@ Third, if canonical coupled radius spend diverges, classify the failure:
 This keeps the forward-gold branch and the CM contrapositive branch separate.
 The forward-gold branch needs an unweighted same-carrier reserve. The CM branch
 can consume a retained pulse only after same-witness admission and a concrete
-Pack/Part/Field face failure.
+Part/Field Part/Field failure.
 
 ## Verdict
 

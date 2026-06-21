@@ -11,7 +11,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-trilinear-same-carrier-reserve-direct-attempt-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-local-energy-flux-native-residue-identity-attempt-20260619.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-mode-native-carrier-family-identification-direct-test-20260620.md
-downstream_consequence: "SameCarrierIdentity.A is a carrier-typing gate. A supplier theorem counts for the forward-gold production theorem only after it controls the actual selected positive native carrier, or after the retained mismatch is admitted to the same-witness CM Pack/Part/Field route."
+downstream_consequence: "SameCarrierIdentity.A is a carrier-typing gate. A supplier theorem counts for the forward-gold production theorem only after it controls the actual selected positive native carrier, or after the retained mismatch is admitted to the same-witness CM Part/Field route."
 ---
 
 # MPP Forward-Gold Same-Carrier Identity Production Clause Recheck
@@ -315,4 +315,4 @@ it were the selected positive native source carrier.}
 The forward-gold route may use source-square, local energy, stress-current, or
 mode/gauge suppliers only after the relevant same-carrier gate `(SCI.17)`--
 `(SCI.19)` is paid.  Otherwise the surviving retained carrier is only available
-as a CM Pack/Part/Field readout after same-witness admission.
+as a CM Part/Field readout after same-witness admission.

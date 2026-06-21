@@ -1,4 +1,4 @@
-# MPP Forward-Gold Retained Heat-Scale Pulse CM Pack/Part/Field Consumption
+# MPP Forward-Gold Retained Heat-Scale Pulse CM Part/Field Consumption
 
 Date: 2026-06-20
 
@@ -24,7 +24,7 @@ The conclusion is local to the CM grammar:
 ```
 
 The Clay-level referee gate remains whatever the current CM referee audit says;
-this note only consumes this branch inside the Pack/Part/Field witness tree.
+this note only consumes this branch inside the Part/Field witness tree.
 
 ## Source refs
 
@@ -38,7 +38,7 @@ this note only consumes this branch inside the Pack/Part/Field witness tree.
 - `mpp-any-finite-failure-witness-cm-exit-20260521.md`.
 - `mpp-clay-terminal-witness-invalidation-20260523.md`.
 - `mpp-clay-admissible-breakdown-cm-lawfulness-test-20260524.md`.
-- `mpp-silver-cm-face-failure-finality-correction-20260619.md`.
+- `mpp-silver-cm-Part/Field-failure-finality-correction-20260619.md`.
 - `mpp-finite-obstruction-inventory-finality-attempt-20260609.md`.
 
 ## 1. Object propagated from the failed forward-gold attempt
@@ -129,8 +129,8 @@ the same transported carrier family after legal losses and readout-only
 artifacts are removed.
 
 Once `(RHP.9)` is available, the terminal object has only the CM service
-questions, with the Pack-before-Part resurfacing audit applied to singular or
-pre-Pack objects:
+questions, with the Pack-out-of-CM resurfacing audit applied to singular or
+outside-CM participation-field record-window objects:
 
 ```math
 Pack_Q,
@@ -172,7 +172,7 @@ or readout, `(RHP.11)` is the true Pack failure.
 
 ## 4. Part face: retained carrier or resurfaced source participation
 
-Assume now that the carrier survives, or that the Pack-before-Part resurfacing
+Assume now that the carrier survives, or that the Pack-out-of-CM resurfacing
 audit has licensed a direct Part test for a singular same-solution terminal
 source record:
 
@@ -270,9 +270,9 @@ retained.  A Field landing is used only after Pack and Part have already been
 licensed and the remaining obstruction is a one-field terminal coherence or
 readout incompatibility.
 
-## 6. Pack/Part/Field consumption theorem
+## 6. Part/Field consumption theorem
 
-Combining the three face tests, with the Pack-before-Part resurfacing audit
+Combining the three face tests, with the Pack-out-of-CM resurfacing audit
 inserted before any singular `not Pack_Q` disposal, gives the local branch
 theorem:
 
@@ -289,7 +289,7 @@ theorem:
 \tag{RHP.20}
 ```
 
-Equivalently, Pack-first:
+Equivalently, Field-certification:
 
 ```math
 \boxed{
@@ -307,7 +307,7 @@ Pack_Q\wedge Part_{N,Q}\wedge\forall r>0\,\neg Field_{N,r,Q}.
 \tag{RHP.21}
 ```
 
-By the installed CM embedding theorem, a derived face failure supports
+By the installed CM embedding theorem, a derived Part/Field failure supports
 
 ```math
 Exit(Q):=\neg Member(Q)
@@ -333,14 +333,14 @@ ScaleCriticalTreeCarleson.A.
 
 It also does not claim release readiness, manuscript exactness, or a
 forward-positive proof.  The June 19 Silver correction rejects the stale generic
-burden that every concrete Pack/Part/Field face failure must be separately
+burden that every concrete Part/Field Part/Field failure must be separately
 deleted by a no-exit theorem.  The rowwise test is narrower: a promoted finite
 terminal row must enter the CM test and then either continue/read out or land in
-a concrete Pack/Part/Field face failure.
+a concrete Part/Field Part/Field failure.
 
 This note performs that rowwise test for the retained heat-scale pulse.  Once
 the pulse is admitted as the same terminal witness, it is either the gold pass
-branch `(RHP.3)` or a Pack/Part/Field face failure by `(RHP.20)`.
+branch `(RHP.3)` or a Part/Field Part/Field failure by `(RHP.20)`.
 
 ## Verdict
 
@@ -351,7 +351,7 @@ pass-or-exit level:
 \boxed{
 \text{endpoint UI}
 \quad\text{or}\quad
-\text{same-witness Pack/Part/Field face failure}.
+\text{same-witness Part/Field Part/Field failure}.
 }
 \tag{RHP.24}
 ```

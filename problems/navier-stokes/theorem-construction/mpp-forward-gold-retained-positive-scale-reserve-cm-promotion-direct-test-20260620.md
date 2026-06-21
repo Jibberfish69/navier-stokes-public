@@ -3,14 +3,14 @@ ns_viewer:
   theorem_id: forward-gold-retained-positive-scale-reserve-cm-promotion-direct-test-20260620
   status: conditional-cm-promotion-proved-forward-payment-not-proved
   proof_role: pack_first_promotion_test_after_unweighted_reserve_failure
-  logical_landing_node: retained_positive_scale_reserve_cm_face_after_admission
-  edge_effect: "Checks the exact Pack-first promotion condition left by the source-reserve audit. Same-ledger payment is not proved. However, once the retained positive-scale first-created reserve is admitted as the same terminal CM witness, the first-face derivation is automatic: Pack fails, Part fails, or retained Pack+Part plus unbounded active height gives forall r>0 not Field_{N,r,Q}. Thus the remaining non-aliased gold object is still same-ledger payment; the remaining CM-side object is admission, not another active-height theorem."
+  logical_landing_node: retained_positive_scale_reserve_cm_part_field_question_after_admission
+  edge_effect: "Checks the exact Field-certification promotion condition left by the source-reserve audit. Same-ledger payment is not proved. However, once the retained positive-scale first-created reserve is admitted as the same terminal CM witness, the first-Part/Field derivation is automatic: Pack fails, Part fails, or retained Pack+Part plus unbounded active height gives forall r>0 not Field_{N,r,Q}. Thus the remaining non-aliased gold object is still same-ledger payment; the remaining CM-side object is admission, not another active-height theorem."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-pack-first-source-reserve-face-audit-20260526.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-height-cm-readout-firewall-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-interior-reserve-promotion-recheck-after-supplier-audit-20260620.md
     - problems/navier-stokes/live-theorem-edge.yaml
-  downstream_consequence: "Do not respawn ZeroMomentReserveVisibility.A, ActiveHeightFluxTrichotomy.A, or retained active-height readout as a missing first-face theorem after CM-test admission. Before admission they remain support; after admission the face split is Pack, Part, or Field."
+  downstream_consequence: "Do not respawn ZeroMomentReserveVisibility.A, ActiveHeightFluxTrichotomy.A, or retained active-height readout as a missing first-face theorem after CM-test admission. Before admission they remain support; after admission the face split is Part or Field."
 ---
 
 # MPP Forward-Gold Retained Positive-Scale Reserve CM Promotion Direct Test
@@ -22,12 +22,12 @@ Date: 2026-06-20
 Direct promotion test complete.
 
 This note does not prove the forward-gold reserve payment.  It proves the
-narrower Pack-first statement left open by the source-reserve audit:
+narrower Field-certification statement left open by the source-reserve audit:
 
 ```math
 \boxed{
 \text{once the retained positive-scale first-created reserve is admitted as the
-same terminal CM witness, the first-face derivation is paid.}
+same terminal CM witness, the first-Part/Field derivation is paid.}
 }
 \tag{RPC.1}
 ```
@@ -38,7 +38,7 @@ same terminal witness, not another active-height or zero-moment theorem.
 
 ## 1. The promotion condition being tested
 
-The Pack-first source-reserve audit leaves the retained branch in supplier
+The Field-certification source-reserve audit leaves the retained branch in supplier
 quarantine until one of two things is proved:
 
 ```math
@@ -51,7 +51,7 @@ or
 ```math
 \text{CM-test admission}
 +
-\text{first Pack/Part/Field face failure}.
+\text{first Part/Field Part/Field failure}.
 \tag{RPC.3}
 ```
 
@@ -108,11 +108,11 @@ That is a readout, not a payment.
 ## 2. Conditional CM theorem
 
 Assume the retained positive-scale first-created reserve branch has been
-admitted as the same terminal CM witness \(Q\).  Then the Pack-first split
-gives a face failure.
+admitted as the same terminal CM witness \(Q\).  Then the Field-certification split
+gives a Part/Field failure.
 
 First, if the retained positive-scale same-fluid carrier is absent, then the
-first face fails:
+first Part/Field fails:
 
 ```math
 \neg Pack_Q.
@@ -157,7 +157,7 @@ Combining the three alternatives:
 \tag{RPC.12}
 ```
 
-This is exactly a Pack/Part/Field face failure supporting the CM
+This is exactly a Part/Field Part/Field failure supporting the CM
 contrapositive conclusion.
 
 ## 3. What this does not prove
@@ -173,14 +173,14 @@ o_N(1)+Loss_{legal}(W).
 
 It also does not allow a support-only reserve calculation to be promoted before
 CM-test admission.  Without admission, the reserve is still a supplier object,
-not a witness face.
+not a witness.
 
 The lawful state is now:
 
 ```math
 \begin{array}{lll}
 \text{same-ledger payment} &\Rightarrow& \text{forward-gold reserve closes},\\[1mm]
-\text{CM admission of the retained reserve} &\Rightarrow& \text{Pack/Part/Field face failure},\\[1mm]
+\text{CM admission of the retained reserve} &\Rightarrow& \text{Part/Field Part/Field failure},\\[1mm]
 \text{neither payment nor admission} &\Rightarrow& \text{supplier quarantine}.
 \end{array}
 \tag{RPC.14}
@@ -229,7 +229,7 @@ Therefore the retained positive-scale reserve has two different roles.
 If it is merely a positive supplier surface, it remains support and cannot be
 promoted.  If it is offered as the same-solution finite terminal obstruction,
 then it is part of the admitted witness \(W_*\), enters the terminal CM tree,
-and `(RPC.12)` supplies the first-face failure.
+and `(RPC.12)` supplies the first-Part/Field failure.
 
 So the actual same-witness branch reads:
 
@@ -239,12 +239,12 @@ ClayWitness_{CM}(W_*)
 +
 \text{retained positive-scale first-created reserve on }W_*
 \Longrightarrow
-\text{Pack/Part/Field face failure.}
+\text{Part/Field Part/Field failure.}
 }
 \tag{RPC.18}
 ```
 
-Then `ClayCMContrapositiveEmbedding.A` reads that face failure as
+Then `ClayCMContrapositiveEmbedding.A` reads that Part/Field failure as
 
 ```math
 Exit(Q;\mathfrak O_{NS}^{work})
@@ -257,13 +257,13 @@ Exit(Q;\mathfrak O_{NS}^{work})
 
 The retained positive-scale reserve branch is not a forward-gold proof.
 
-It is now closed as a first-face derivation after admission:
+It is now closed as a first-Part/Field derivation after admission:
 
 ```math
 \boxed{
 \text{admission + first-created reserve}
 \Rightarrow
-\text{Pack/Part/Field face failure}.
+\text{Part/Field Part/Field failure}.
 }
 \tag{RPC.20}
 ```

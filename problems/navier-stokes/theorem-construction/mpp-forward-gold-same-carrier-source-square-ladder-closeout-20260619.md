@@ -284,5 +284,5 @@ same-carrier \(L_s^2\) control or the carrier-domination/saturation theorem.
 After all reductions, the only non-alias forward-gold content is still an
 unweighted terminal critical reserve on the actual selected positive carrier,
 or a strict no-waste theorem that produces that reserve.  Failure of that
-content leaves a retained terminal heat-scale pulse for the CM Pack/Part/Field
-witness-face route.
+content leaves a retained terminal heat-scale pulse for the CM Part/Field
+witness route.

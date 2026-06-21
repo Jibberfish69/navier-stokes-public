@@ -4,7 +4,7 @@ ns_viewer:
   status: child-supplier-consolidation-complete-forward-gold-not-solved
   proof_role: forward_positive_residual_active_square_child_supplier_consolidation
   logical_landing_node: residual_active_square_endpoint_wall
-  edge_effect: "Consolidates the old active-square child list after the residual-LPAS reentry. SignedTrilinearCancellation.A, ActiveEigendirectionDecorrel.A, SourceTimeConcentrationCost.A, ResidualSourceBalancedLPAS.A, and ResidualDirectCTSOrFCTS.A no longer function as separate untested forward-gold supplier names at current input strength. The tested residue is the same-carrier unweighted critical-action reserve / source-square / endpoint-UI / strict no-waste / signed-saturation plus no-free-Zeno / rigid Zeno no-source wall, with terminal endpoint failure routed to CM Pack/Part/Field after same-witness admission."
+  edge_effect: "Consolidates the old active-square child list after the residual-LPAS reentry. SignedTrilinearCancellation.A, ActiveEigendirectionDecorrel.A, SourceTimeConcentrationCost.A, ResidualSourceBalancedLPAS.A, and ResidualDirectCTSOrFCTS.A no longer function as separate untested forward-gold supplier names at current input strength. The tested residue is the same-carrier unweighted critical-action reserve / source-square / endpoint-UI / strict no-waste / signed-saturation plus no-free-Zeno / rigid Zeno no-source wall, with terminal endpoint failure routed to CM Part/Field after same-witness admission."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-active-square-amplitude-thickness-branch-consolidation-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-signed-decorrelation-branch-collapse-to-time-cost-or-active-square-20260611.md
@@ -12,7 +12,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-eigendirection-decorrelation-after-temporal-regularity-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-direct-lpas-cts-hardy-volterra-test-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-residual-lpas-reentry-after-weighted-carrier-20260620.md
-  downstream_consequence: "Do not reopen the 20260611 active-square child list as fresh forward-gold suppliers. A renewed note has proof force only after it proves one of the nonduplicated mechanisms named here, or after the surviving residual pulse is admitted to the CM Pack/Part/Field readout."
+  downstream_consequence: "Do not reopen the 20260611 active-square child list as fresh forward-gold suppliers. A renewed note has proof force only after it proves one of the nonduplicated mechanisms named here, or after the surviving residual pulse is admitted to the CM Part/Field readout."
 ---
 
 # MPP Forward-Gold Residual Active-Square Child Supplier Consolidation
@@ -35,7 +35,7 @@ ResidualDirectCTSOrFCTS.A
 ```
 
 The later direct tests now identify their common residue. Each child either
-returns to the same-carrier unweighted reserve wall, or to CM Pack/Part/Field
+returns to the same-carrier unweighted reserve wall, or to CM Part/Field
 after the surviving terminal pulse is admitted as a same-witness readout.
 
 ## 1. Source-Time Cost
@@ -203,7 +203,7 @@ SelectedCarrierEndpointUI.A
 StrictRescaledNoWasteLyapunov.A
 ```
 
-or CM Pack/Part/Field after the selected residual pulse is admitted.
+or CM Part/Field after the selected residual pulse is admitted.
 
 ## 4. Nonduplicated Wall
 

@@ -10,7 +10,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-extremal-duality-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-square-budget-direct-attempt-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-trilinear-same-carrier-reserve-direct-attempt-20260620.md
-downstream_consequence: "The exact noncircular forward-gold producer must be a square-strength theorem on the actual selected positive carrier: same-carrier SourceSquareReserve.A plus carrier domination, active-height/residence control, selected critical-strain or normalized CKN Carleson with terminal-tail depletion, strict no-waste with critical-action size, or square-synchronous signed saturation/no-free Zeno production. Otherwise the retained pulse is CM Pack/Part/Field material only after same-witness admission."
+downstream_consequence: "The exact noncircular forward-gold producer must be a square-strength theorem on the actual selected positive carrier: same-carrier SourceSquareReserve.A plus carrier domination, active-height/residence control, selected critical-strain or normalized CKN Carleson with terminal-tail depletion, strict no-waste with critical-action size, or square-synchronous signed saturation/no-free Zeno production. Otherwise the retained pulse is CM Part/Field material only after same-witness admission."
 ---
 
 # MPP Forward-Gold Same-Carrier Source-Square Production Finality
@@ -336,5 +336,5 @@ source-square shortcut.
 
 The exact live producer is square-strength control on the actual selected
 positive carrier.  Without that producer, the retained heat-scale pulse can only
-be used as CM Pack/Part/Field material after same-witness admission; it is not a
+be used as CM Part/Field material after same-witness admission; it is not a
 forward-positive smoothness proof.

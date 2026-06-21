@@ -4,14 +4,14 @@ ns_viewer:
   status: method-finality-pass-complete-not-forward-gold-proof
   proof_role: forward_gold_same_carrier_unweighted_action_production_boundary
   logical_landing_node: terminal_heat_scale_pulse_unweighted_selected_carrier_reserve
-  edge_effect: "Audits the same-carrier unweighted action production target after the six-supplier and three-clause closeouts. Direct estimates, minimal-counterexample descent, compact recurrent/critical-element arguments, signed-current donor graphs, and critical-norm consumers all return to the same missing unweighted reserve on the actual selected positive carrier. Without a new coercive object that removes the heat-scale radius discount, the retained heat-scale pulse must be carried to same-witness CM Pack/Part/Field consumption rather than presented as forward-gold closure."
+  edge_effect: "Audits the same-carrier unweighted action production target after the six-supplier and three-clause closeouts. Direct estimates, minimal-counterexample descent, compact recurrent/critical-element arguments, signed-current donor graphs, and critical-norm consumers all return to the same missing unweighted reserve on the actual selected positive carrier. Without a new coercive object that removes the heat-scale radius discount, the retained heat-scale pulse must be carried to same-witness CM Part/Field consumption rather than presented as forward-gold closure."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-three-clause-pass-or-cm-exit-assembly-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-unweighted-terminal-critical-action-reserve-direct-exhaustion-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-minimal-counterexample-unweighted-reserve-direct-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-unweighted-reserve-six-supplier-exhaustion-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-heat-scale-pulse-cm-pack-part-field-consumption-20260620.md
-  downstream_consequence: "Do not respawn endpoint atom, first-created reserve, source-square, strict no-waste, critical-element, BKM/critical-norm, Onsager/Besov, signed-current, or donor-chain variants as independent forward-gold suppliers unless they introduce a genuinely new same-selected-carrier unweighted coercive object. The non-gold continuation is same-witness CM Pack/Part/Field consumption of the retained pulse."
+  downstream_consequence: "Do not respawn endpoint atom, first-created reserve, source-square, strict no-waste, critical-element, BKM/critical-norm, Onsager/Besov, signed-current, or donor-chain variants as independent forward-gold suppliers unless they introduce a genuinely new same-selected-carrier unweighted coercive object. The non-gold continuation is same-witness CM Part/Field consumption of the retained pulse."
 ---
 
 # MPP Forward-Gold Same-Carrier Production Method Finality
@@ -277,7 +277,7 @@ coercive object.
 
 Absent a new object of type `(SCPF.18)`, the retained pulse has a different
 proof role.  After same-witness CM admission, it is consumed by the
-Pack/Part/Field witness-face route:
+Part/Field witness route:
 
 ```math
 \boxed{
@@ -322,7 +322,7 @@ or
 
 ```math
 \boxed{
-\text{carry the retained pulse through same-witness CM Pack/Part/Field
+\text{carry the retained pulse through same-witness CM Part/Field
 consumption `(SCPF.19)`.}
 }
 \tag{SCPF.22}

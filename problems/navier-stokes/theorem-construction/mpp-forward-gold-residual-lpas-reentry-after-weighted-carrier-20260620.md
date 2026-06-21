@@ -133,7 +133,7 @@ The only honest continuations are:
 or
 
 ```math
-\text{route the surviving residual pulse into the CM Pack/Part/Field readout.}
+\text{route the surviving residual pulse into the CM Part/Field readout.}
 ```
 
 This note adds no new theorem debt.  It prevents the weighted-carrier route
