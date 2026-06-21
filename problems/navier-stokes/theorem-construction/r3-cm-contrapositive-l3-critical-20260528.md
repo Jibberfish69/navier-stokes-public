@@ -38,7 +38,7 @@ Assume Pack_Q survives. The terminal L3 mass must be represented through the sam
 \neg Part_{N,Q}(\mathcal W).
 ```
 
-Assume Pack_Q and Part_{N,Q} survive. The installed local L3 translator applies on the same ledger. The translator chain is
+Assume Part_{N,Q} plus Field-window evidence survive. The installed local L3 translator applies on the same ledger. The translator chain is
 
 ```math
 L3DuhamelResponseWorkLocalization.A

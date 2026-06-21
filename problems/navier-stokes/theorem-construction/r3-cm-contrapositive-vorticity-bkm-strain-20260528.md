@@ -47,7 +47,7 @@ Assume Pack_Q survives. Test same-law participation. The vorticity and strain eq
 \neg Part_{N,Q}(\mathcal W).
 ```
 
-Assume Pack_Q and Part_{N,Q} survive. If there exists rho>0 with
+Assume Part_{N,Q} plus Field-window evidence survive. If there exists rho>0 with
 Field_{N,rho,Q}, the proof still needs the exact readout bridge
 
 ```math

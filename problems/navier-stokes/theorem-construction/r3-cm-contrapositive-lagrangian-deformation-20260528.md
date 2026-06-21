@@ -40,7 +40,7 @@ Assume Pack_Q survives. The pulled-back system must remain the same Navier-Stoke
 \neg Part_{N,Q}(\mathcal W).
 ```
 
-Assume Pack_Q and Part_{N,Q} survive. The remaining deformation wall is failure of positive-scale coherent comparison between transported local quantities, deformation gauges, and fixed readout quantities. Since the carrier and pulled-back law survive, this is exactly Field failure:
+Assume Part_{N,Q} plus Field-window evidence survive. The remaining deformation wall is failure of positive-scale coherent comparison between transported local quantities, deformation gauges, and fixed readout quantities. Since the carrier and pulled-back law survive, this is exactly Field failure:
 
 ```math
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).

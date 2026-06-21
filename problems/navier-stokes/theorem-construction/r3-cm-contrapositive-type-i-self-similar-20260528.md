@@ -40,7 +40,7 @@ Assume Pack_Q survives. The extracted profile must inherit the same Navier-Stoke
 \neg Part_{N,Q}(\mathcal W).
 ```
 
-Assume Pack_Q and Part_{N,Q} survive. If some Field_{N,rho,Q} survives, the profile has positive-scale coherent readout through the required depth on the same ledger. The Type-I/self-similar route then obtains the profile rigidity, backward uniqueness, or continuation mechanism consumed by the route. The terminal Type-I wall is eliminated.
+Assume Part_{N,Q} plus Field-window evidence survive. If some Field_{N,rho,Q} survives, the profile has positive-scale coherent readout through the required depth on the same ledger. The Type-I/self-similar route then obtains the profile rigidity, backward uniqueness, or continuation mechanism consumed by the route. The terminal Type-I wall is eliminated.
 
 Therefore a retained Part plus Field-window evidence Type-I wall forces loss of positive-scale field coherence:
 

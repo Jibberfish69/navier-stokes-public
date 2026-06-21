@@ -38,7 +38,7 @@ Assume Pack_Q survives. The local energy inequality, pressure decomposition, vel
 \neg Part_{N,Q}(\mathcal W).
 ```
 
-Assume Pack_Q and Part_{N,Q} survive. A persistent CKN wall says that every terminal positive-scale cylinder remains bad for the epsilon criterion. The retained carrier and same-law local energy ledger leave only one possible failure: the positive-scale field service never survives. Hence
+Assume Part_{N,Q} plus Field-window evidence survive. A persistent CKN wall says that every terminal positive-scale cylinder remains bad for the epsilon criterion. The retained carrier and same-law local energy ledger leave only one possible failure: the positive-scale field service never survives. Hence
 
 ```math
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).

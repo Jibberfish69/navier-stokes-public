@@ -40,7 +40,7 @@ Assume Pack_Q survives. The Prodi-Serrin quantity must remain attached to the sa
 \neg Part_{N,Q}(\mathcal W).
 ```
 
-Assume Pack_Q and Part_{N,Q} survive. If some positive Field_{N,rho,Q} survives, the terminal packet supplies positive-scale local velocity coherence through the readout depth. The finite-overlap carrier and Field readout give the Prodi-Serrin spacetime bound on the terminal interval.
+Assume Part_{N,Q} plus Field-window evidence survive. If some positive Field_{N,rho,Q} survives, the terminal packet supplies positive-scale local velocity coherence through the readout depth. The finite-overlap carrier and Field readout give the Prodi-Serrin spacetime bound on the terminal interval.
 
 The readout must give an exact Prodi-Serrin bound for the same solution on a
 terminal interval:
@@ -51,7 +51,7 @@ maximal smooth solution has a continuation past `T_*`, and uniqueness
 identifies the continued solution with the original one on the overlap. This
 contradicts the assumed Prodi-Serrin terminal wall.
 
-Therefore retained Pack and retained Part force
+Therefore retained Field-window evidence and retained Part force
 
 ```math
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).

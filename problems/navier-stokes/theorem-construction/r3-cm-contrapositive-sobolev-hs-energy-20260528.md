@@ -42,7 +42,7 @@ Assume Pack_Q survives. Test the law. The Sobolev hierarchy differentiates the s
 \neg Part_{N,Q}(\mathcal W).
 ```
 
-Assume Pack_Q and Part_{N,Q} survive. If there exists rho>0 with Field_{N,rho,Q}, then the terminal ledger contains a positive-scale coherent derivative tower through depth N on a readout-compatible localized R^3 packet. By the Sobolev readout for N above s+2, the local tower gives
+Assume Part_{N,Q} plus Field-window evidence survive. If there exists rho>0 with Field_{N,rho,Q}, then the terminal ledger contains a positive-scale coherent derivative tower through depth N on a readout-compatible localized R^3 packet. By the Sobolev readout for N above s+2, the local tower gives
 
 ```math
 \sup_{t<T_*}\|u(t)\|_{H^s(R^3)}<\infty.
@@ -52,7 +52,7 @@ Set `M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(R^3)}`. Classical `H^s` local theory for
 `s>5/2` gives `\tau=\tau(\nu,s,M_s)>0`; for `t_j\uparrow T_*` with
 `T_*-t_j<\tau/2`, the relaunch from `u(t_j)` exists beyond `T_*` and agrees
 with the original solution on the overlap by uniqueness. This contradicts the
-assumed terminal Sobolev wall. Therefore retained Pack and retained Part force
+assumed terminal Sobolev wall. Therefore retained Field-window evidence and retained Part force
 
 ```math
 \forall \rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).

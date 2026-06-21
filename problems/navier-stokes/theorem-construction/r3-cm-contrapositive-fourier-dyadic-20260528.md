@@ -40,7 +40,7 @@ Assume Pack_Q survives. The dyadic packet must evolve under the same Navier-Stok
 \neg Part_{N,Q}(\mathcal W).
 ```
 
-Assume Pack_Q and Part_{N,Q} survive. The remaining Fourier/dyadic terminal wall is persistent shell cascade, neighboring-shell incoherence, or unresolved high-frequency transfer on the retained same-law packet. Since carrier and participation both survive, this is exactly loss of positive-scale field coherence:
+Assume Part_{N,Q} plus Field-window evidence survive. The remaining Fourier/dyadic terminal wall is persistent shell cascade, neighboring-shell incoherence, or unresolved high-frequency transfer on the retained same-law packet. Since carrier and participation both survive, this is exactly loss of positive-scale field coherence:
 
 ```math
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).

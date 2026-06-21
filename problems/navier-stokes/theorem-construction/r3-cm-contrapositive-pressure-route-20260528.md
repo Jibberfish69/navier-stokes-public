@@ -40,7 +40,7 @@ Assume Pack_Q survives. The pressure must remain the pressure of the same Navier
 \neg Part_{N,Q}(\mathcal W).
 ```
 
-Assume Pack_Q and Part_{N,Q} survive. The remaining pressure wall is a failure of pressure-source readout at positive scale. Since the carrier and the same pressure law both survive, this failure is exactly loss of positive-scale coherent field control:
+Assume Part_{N,Q} plus Field-window evidence survive. The remaining pressure wall is a failure of pressure-source readout at positive scale. Since the carrier and the same pressure law both survive, this failure is exactly loss of positive-scale coherent field control:
 
 ```math
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
