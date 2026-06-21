@@ -60,7 +60,7 @@ would beg the question. It would redefine a breakdown witness as a surviving in-
 
 ## What remains valid
 
-The Part/Field-first closure still matters. It proves a classification:
+The original-participation-before-Pack closure still matters. It proves a classification:
 
 ```text
 same-solution terminal singular witness
@@ -70,7 +70,7 @@ same-solution terminal singular witness
 and it proves the corrected order:
 
 ```text
-Part/Field exclude singular objects before Pack_Q is used.
+the original NS participation law audits singular objects before Pack_Q is spent.
 ```
 
 This closes the local CM face-classification problem.
@@ -144,7 +144,7 @@ This theorem must explain why the CM-class-exit classification of every terminal
 Closed locally:
 
 ```text
-Part/Field-first singularity classification;
+original-participation-before-Pack singularity classification;
 Pack positive-radius certification;
 local CM face classification.
 ```

@@ -165,7 +165,7 @@ UniformServiceTopologyCertification.A
 or folded into:
 
 ```text
-PartFieldBeforePackStrength.A.
+OriginalParticipationBeforePackStrength.A.
 ```
 
 ## Consequence for the route

@@ -4,14 +4,14 @@ ns_viewer:
   status: endpoint-strip-classification-supports-partfield-first-exit-proof
   proof_role: pack_nonexclusion_trunk_measure_classification
   logical_landing_node: pack_nonexclusion_limit_of_class_terminal_artifact
-  edge_effect: "Generalizes the existing low-high endpoint-strip measure proof into the corrected Part/Field-first route: a collapsing positive terminal measure is a terminal endpoint atom, not a hidden preterminal source history. This supports TerminalAtomPartFieldExit.A without using Pack_Q as the exclusion test."
+  edge_effect: "Generalizes the existing low-high endpoint-strip measure proof into the corrected original-participation-before-Pack route: a collapsing positive terminal measure is a terminal endpoint atom, not a hidden preterminal source history. This supports TerminalAtomPartFieldExit.A without using Pack_Q as the exclusion test."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-lowhigh-limit-of-class-terminal-artifact-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-lowhigh-infinite-cost-endpoint-source-pack-face-landing-20260610.md
     - problems/navier-stokes/theorem-construction/mcp-packnonexclusionrecertificationroute-limitofclassterminalartifact-a-partfieldbeforepacklicensing-a-terminalatompartfieldexit-a-838838293c.md
     - problems/navier-stokes/theorem-construction/mcp-terminalmeasurepartfieldbeforepackreduction-a-terminalatompartfieldexit-a-12d3f31db5.md
     - problems/navier-stokes/theorem-construction/mcp-partfieldbeforepackstrengthattempt-a-partfieldbeforepackstrength-a-241943042e.md
-  downstream_consequence: "The low-high endpoint-strip branch does not need a fresh LimitOfClass proof. The remaining theorem is Part/Field-first exit: prove the endpoint artifact fails participation or one-field coherence without assuming Pack_Q. UniformServiceTopologyCertification.A supplies the class-topology bridge; service-specific analytic budgets remain family-by-family."
+  downstream_consequence: "The low-high endpoint-strip branch does not need a fresh LimitOfClass proof. The remaining theorem is original-participation-before-Pack exit: prove the endpoint artifact fails participation or one-field coherence without assuming Pack_Q. UniformServiceTopologyCertification.A supplies the class-topology bridge; service-specific analytic budgets remain family-by-family."
 ---
 
 # MCP LimitOfClassTerminalArtifact Trunk Recertification
@@ -29,7 +29,7 @@ LimitOfClassTerminalArtifact.A
 inside the corrected:
 
 ```text
-PartFieldFirstSingularityExclusion.A / PackPositiveRadiusCertification.A
+OriginalParticipationAuditSingularityExclusion.A / PackPositiveRadiusCertification.A
 ```
 
 without turning the measure classification into a stronger `Part_{N,Q}` / `Field_{N,r,Q}`
@@ -59,7 +59,7 @@ or temporal absolute continuity / same-solution terminal readout continuity
 The before-Pack strength attempt recorded the remaining analytic gap:
 
 ```text
-PartFieldBeforePackStrength.A was not proved as a quantitative theorem from the
+OriginalParticipationBeforePackStrength.A was not proved as a quantitative theorem from the
 then-current installed inputs.
 ```
 
@@ -148,7 +148,7 @@ consequences being spent here are the displayed weak-* convergence and its
 direct corollaries: mass `M` is retained at `T*`, and every continuous test
 function reads the limit as `M phi(T*)`.
 
-## CM reading after the Part/Field-first correction
+## CM reading after the original-participation-before-Pack correction
 
 Inside the corrected route, this object has a precise role:
 
@@ -189,7 +189,7 @@ LowHighTerminalSourceCostDichotomy.A
 
 So the main route should not spend more work reproving the low-high
 `LimitOfClassTerminalArtifact.A` measure classification. The next proof work
-belongs at Part/Field-first singularity exit:
+belongs at original-participation-before-Pack singularity exit:
 
 ```text
 TerminalAtomPartFieldExit.A
@@ -209,7 +209,7 @@ or retained same-solution terminal readout retyping.
 ## Boundary of this result
 
 This note proves the measure classification under endpoint-strip hypotheses.
-It does not prove global `AllSingularitiesPartFieldFirstExit.A`, and it does not
+It does not prove global `AllSingularitiesOriginalParticipationAuditExit.A`, and it does not
 classify selector drift, cross-profile Pack molecules, affine/material readout
 failure, or detached surrogate packets. Those remain support or alternate
 branches exactly as recorded in the Pack-illegal terminal witness

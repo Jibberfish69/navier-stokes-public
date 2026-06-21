@@ -24,7 +24,7 @@ Prove TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A,
 or replace it with a noncircular finite-breakdown exclusion that lands every admitted surviving terminal residual object through Member(Q) or a concrete Pack/Part/Field face failure.
 ```
 
-The intended replacement is the Part/Field-first exhaustive contrapositive.
+The intended replacement is the original-participation-before-Pack exhaustive contrapositive.
 
 ## Proposed referee patch content
 

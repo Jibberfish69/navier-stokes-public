@@ -64,7 +64,7 @@ classification under endpoint-strip hypotheses.
 
 `UniformServiceTopologyCertification.A` is usable as the certification bridge.
 
-`PartFieldBeforePackStrength.A` is only closed in its certification sense. The
+`OriginalParticipationBeforePackStrength.A` is only closed in its certification sense. The
 analytic family-by-family work remains:
 
 ```text

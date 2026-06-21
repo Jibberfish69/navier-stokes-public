@@ -1,17 +1,17 @@
-# AllSingularitiesPartFieldFirstExit.A
+# AllSingularitiesOriginalParticipationAuditExit.A
 
 ## Target
 
 Prove the corrected global singularity theorem as a route-level classification over the audited singular families:
 
 ```text
-AllSingularitiesPartFieldFirstExit.A
+AllSingularitiesOriginalParticipationAuditExit.A
 ```
 
 Statement:
 
 ```text
-Every zero-radius / singular terminal witness extracted from the Navier-Stokes breakdown candidate exits through Part or Field before Pack_Q is used as an exclusion test.
+Every zero-radius / singular terminal witness extracted from the Navier-Stokes breakdown candidate must be audited under the original NS participation law before `not Pack_Q` is used as terminal disposal.
 ```
 
 This theorem is not allowed to say:
@@ -48,7 +48,7 @@ The scale language in `Field_{N,r,Q}` refers to same-solution terminal readout s
 Handled by:
 
 ```text
-TerminalAtomPartFieldFirstExit.A
+TerminalAtomOriginalParticipationAuditExit.A
 ```
 
 If finite participation service is absent, `Part_{N,Q}` fails.
@@ -130,7 +130,7 @@ detached/surrogate terminal packet => `Part_{N,Q}` fails.
 
 If the object is already retained as an internal same-solution event and creates a terminal readout jump, it fails Field directly.
 
-This is the retained Zeno diagnostic in Part/Field-first language.
+This is the retained Zeno diagnostic in original-participation-before-Pack language.
 
 ## Theorem
 
@@ -146,7 +146,7 @@ or reduction to a previous singular family already classified by Part/Field.
 Thus:
 
 ```text
-AllSingularitiesPartFieldFirstExit.A:
+AllSingularitiesOriginalParticipationAuditExit.A:
 zero-radius / singular terminal witness
 => fails `Part_{N,Q}` or `Field_{N,r,Q}` or continuation/readout recovery.
 ```
@@ -171,7 +171,7 @@ PositivePackDefectOrthogonality.A,
 SelectedPackPositivePartDecoupling.A.
 ```
 
-It proves the Part/Field-first landing once the concrete witness is placed in the relevant branch:
+It proves the original-participation-before-Pack landing once the concrete witness is placed in the relevant branch:
 
 ```text
 nontransferable affine/material readout => Field failure,

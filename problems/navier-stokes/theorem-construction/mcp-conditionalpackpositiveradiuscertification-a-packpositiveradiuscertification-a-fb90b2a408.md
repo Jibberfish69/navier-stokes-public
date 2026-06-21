@@ -2,7 +2,7 @@
 
 ## Target
 
-Use the Part/Field-first classifications to prove:
+Use the original-participation-before-Pack classifications to prove:
 
 ```text
 PackPositiveRadiusCertification.A
@@ -11,18 +11,18 @@ PackPositiveRadiusCertification.A
 Intended role:
 
 ```text
-After zero-radius singular terminal witnesses are handled by Part/Field-first exit or continuation/readout recovery, the positive-radius requirement in Pack_Q becomes a legitimate ordinary admission requirement for the remaining Member(Q)-eligible branch.
+After zero-radius singular terminal witnesses are handled by original-participation-before-Pack exit or continuation/readout recovery, the positive-radius requirement in Pack_Q becomes a legitimate ordinary admission requirement for the remaining Member(Q)-eligible branch.
 ```
 
-Circularity caveat: the Part/Field-first exit used here must be proved with `Part_{N,Q}` / `Field_{N,r,Q}` tests. It may not assume ordinary Pack_Q, positive terminal Pack carrier radius, finite Pack cover, Pack deformation/readout comparability, Pack noncollapse, or ordinary Pack-dependent Part/Field tests.
+Circularity caveat: the original-participation-before-Pack exit used here must be proved with `Part_{N,Q}` / `Field_{N,r,Q}` tests. It may not assume ordinary Pack_Q, positive terminal Pack carrier radius, finite Pack cover, Pack deformation/readout comparability, Pack noncollapse, or ordinary Pack-dependent Part/Field tests.
 
 ## Inputs now installed in this route
 
 The current Pack non-exclusion route has added:
 
 ```text
-PartFieldBeforePackLicensing.A
-TerminalMeasurePartFieldBeforePackReduction.A
+OriginalParticipationBeforePackLicensing.A
+TerminalMeasureOriginalParticipationBeforePackReduction.A
 PackIllegalTerminalWitnessClassification.A
 PackNonExclusionCanonicalityAudit.A
 LimitOfClassTerminalArtifact.A
@@ -36,7 +36,7 @@ These establish the following conditional structure:
 1. Pack_Q has a positive-radius / finite-comparability blind spot.
 2. Zero-radius singular terminal objects must be tested by Part/Field before Pack_Q is used.
 3. Endpoint-strip objects with finite L1 endpoint mass and infinite every-super-L1 cost are weak terminal limits, not valid uniform service-budget survivors.
-4. All singular families that reduce to the endpoint strip still need Part/Field-first exit, with LimitOfClassTerminalArtifact.A supplying the measure classification.
+4. All singular families that reduce to the endpoint strip still need original-participation-before-Pack exit, with LimitOfClassTerminalArtifact.A supplying the measure classification.
 ```
 
 ## Certification theorem
@@ -47,7 +47,7 @@ The strongest honest theorem available now is conditional:
 ConditionalPackPositiveRadiusCertification.A:
 Assume every zero-radius singular terminal family is either:
   (a) reduced to the endpoint-strip profile and classified by LimitOfClassTerminalArtifact.A;
-  (b) rejected by Part/Field-first certification without using Pack_Q;
+  (b) rejected by original-participation-before-Pack certification without using Pack_Q;
   (c) converted into continuation/readout recovery;
   (d) rejected by same-solution admissibility.
 Assume also that every remaining terminal witness has the ordinary positive-carrier and comparability data required to enter Pack_Q.
@@ -65,7 +65,7 @@ Split into two cases.
 Then by the hypothesis of conditional certification, `Q` is already handled before ordinary Pack testing:
 
 ```text
-endpoint-strip Part/Field-first class exit,
+endpoint-strip original-participation-before-Pack class exit,
 `Part_{N,Q}` / `Field_{N,r,Q}` exit without using Pack_Q,
 continuation/readout recovery,
 or same-solution admissibility rejection.
@@ -123,7 +123,7 @@ The Pack non-exclusion route has produced a real structural improvement:
 
 ```text
 Pack_Q is no longer used blindly against terminal singular witnesses.
-Endpoint-strip witnesses are classified as terminal artifacts requiring Part/Field-first exit.
+Endpoint-strip witnesses are classified as terminal artifacts requiring original-participation-before-Pack exit.
 Pack_Q's positive-radius requirement can be certified for the ordinary branch once the non-strip singular families are closed through Part/Field or continuation/readout recovery.
 ```
 
