@@ -57,7 +57,7 @@ The face-classification side is also installed:
 
 ```text
 same-solution terminal record
-=> first Pack/Part/Field face failure
+=> first Part/Field Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
@@ -81,7 +81,7 @@ from the unified-survivor note and its conditional packet audit.
 
 ## Direct Attempt
 
-Assume original smooth data produce a first proof-bearing terminal face failure
+Assume original smooth data produce a first proof-bearing terminal Part/Field failure
 on the canonical same-solution record.
 
 On every preterminal smooth window, the material flow has both finite separation

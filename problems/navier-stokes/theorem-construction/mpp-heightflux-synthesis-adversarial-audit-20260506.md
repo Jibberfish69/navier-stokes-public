@@ -14,7 +14,7 @@ Exactness rework correction, 2026-06-18: "points back to
 surfaces no longer allow old ActiveHeightFlux / SourceReserve / SignedPair /
 no-free-sink labels to count as fresh progress or CM proof force.  Any use of
 this stack must now supply either same-ledger payment or CM-test admission plus
-a first Pack/Part/Field face failure; otherwise it remains support-level.
+a first Part/Field Part/Field failure; otherwise it remains support-level.
 
 Purpose: record the mathematical audit of the new CM / HeightFluxControl
 synthesis before any promotion-grade use.
@@ -168,5 +168,5 @@ They may guide theorem attempts and automation routing.
 They must not be used as theorem-grade discharges or release/promotion
 evidence.  The exact promotion boundary is now sharper than "prove
 HeightFluxControl": prove the same-ledger payment or CM-test admission plus the
-first Pack/Part/Field face failure for the retained same-witness terminal
+first Part/Field Part/Field failure for the retained same-witness terminal
 branch.

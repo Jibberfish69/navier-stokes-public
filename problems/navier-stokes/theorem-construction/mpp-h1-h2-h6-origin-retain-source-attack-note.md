@@ -20,7 +20,7 @@ H1+H2+H6+ORIGIN.Retain.
 ```
 
 Here `RawData.Production` is read in the endpoint-exclusion route sense: on any
-same-fluid endpoint approach tail, either finite `Pack/Part/Field/tower` data
+same-fluid endpoint approach tail, either finite `Part/Field/tower` data
 are produced, or the failure is typed into the endpoint matrix. Since `End_NS`
 removes the endpoint faces, endpoint-free approach tails carry the finite data.
 
@@ -90,7 +90,7 @@ tails.
 The exact witness is
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 `EndpointFace.Type` proves the certificate grammar directly from this witness:

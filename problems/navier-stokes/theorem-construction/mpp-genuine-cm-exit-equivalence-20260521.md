@@ -38,13 +38,13 @@ Equivalently,
 This note uses the existing installed surfaces:
 
 1. `mpp-exact-class-membership-witness-theorem.md`, which fixes
-   `CM_{N,r,Q}=Pack_Q \wedge Part_{N,Q}\wedge Field_{N,r,Q}`.
+   `CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}`.
 2. `mpp-still-live-smooth-window-implies-class-membership-theorem.md`, which
    proves that every classical still-live window supplies a positive scale
    `r_Q` with `CM_{N,r_Q,Q}` for every finite `N`.
-3. `mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md`, which
+3. `mpp-member-smooth-contrapositive-witness-bridge-20260504.md`, which
    proves the all-depth CM witness gives smoothness and yields the
-   Pack/Part/Field witness-face split for nonsmoothness.
+   Part/Field witness split for nonsmoothness.
 4. `mpp-continuation-packet-generated-cm-contrapositive-20260514.md`, which
    fixes the continuation packet:
    carrier/cover = Pack, participation/forcing = Part, one-field coherence =
@@ -91,7 +91,7 @@ certificate.
 same-fluid terminal cover, every legal positive scale choice, and every
 depth high enough for the classical readout.
 
-Equivalently, there is no surviving continuation-complete Pack/Part/Field
+Equivalently, there is no surviving continuation-complete Part/Field
 witness packet on the same solution near `T_*`.
 
 ## Theorem `GenuineCMExit.Equiv.A`
@@ -120,7 +120,7 @@ ContCM(T_*).
 
 ### 1. `ContCM(T_*) =>` classical continuation
 
-By definition, `ContCM(T_*)` supplies a retained terminal Pack/Part/Field packet
+By definition, `ContCM(T_*)` supplies a retained terminal Part/Field packet
 through a depth `N_s` high enough for the classical readout, together with the
 installed `H^s`, `s>5/2`, readout bridge.
 
@@ -135,7 +135,7 @@ depending only on the displayed bound. Thus the lifespans from times
 `t_j\uparrow T_*` have a common positive lower bound, and relaunching the
 classical solution from those times extends `(u,p)` past `T_*`.
 
-So a continuation-complete CM packet rules out finite terminal
+So a continuation-complete CM participation-field record rules out finite terminal
 non-continuation.
 
 ### 2. Classical continuation `=> ContCM(T_*)`
@@ -155,7 +155,7 @@ In particular this holds at the continuation depth `N_s`.
 
 Since the solution is classical on a collar beyond `T_*`, the corresponding
 `H^s` norm is finite on that collar.  The installed readout bridge is therefore
-available, and the Pack/Part/Field witness packet is continuation-complete.
+available, and the Part/Field witness packet is continuation-complete.
 
 Thus `ContCM(T_*)` holds.
 
@@ -185,7 +185,7 @@ The correct CM claim is:
 ```math
 \text{nonsmooth terminal behavior}
 \Longleftrightarrow
-\text{failure of the continuation-complete CM packet}.
+\text{failure of the continuation-complete CM participation-field record}.
 ```
 
 This is strong enough to base a contrapositive smoothness argument on, because
@@ -200,7 +200,7 @@ The unsafe claim remains forbidden:
 ```
 
 A single failed selected witness can be an artifact.  A genuine CM exit must
-mean that no admissible same-fluid terminal Pack/Part/Field packet, with the
+mean that no admissible same-fluid terminal Part/Field packet, with the
 installed `H^s` readout, survives.
 
 ## Repo Consequence
@@ -220,6 +220,6 @@ A possible positive no-exit formulation is:
 This formulation names the whole no-exit problem and is not promoted as a local
 CM branch-law burden. Inside the corrected pass/fail engine, the local
 work is instead obstruction-by-obstruction: prove CM-test entry, derive the
-first Pack/Part/Field face failure on the fail branch, and keep the pass branch
+first Part/Field Part/Field failure on the fail branch, and keep the pass branch
 as the in-class continuation branch. Equivalence makes CM the right terminal
 criterion; it does not by itself prove that original data never exits it.

@@ -174,12 +174,12 @@ first principles in the audited packet.
 corresponding witness data have been produced:
 
 ```math
-Pack, Part, Field, A_{N,Q} in L^\infty.
+Part and Field, A_{N,Q} in L^\infty.
 ```
 
 They are not themselves analytic production theorems from original periodic
 Navier-Stokes dynamics. The current route still needs a noncircular production
-of the terminal-tail Pack/Part/Field/tower data.
+of the terminal-tail Part/Field/tower data.
 
 ## Exact Remaining Mathematical Target
 
@@ -187,7 +187,7 @@ The remaining target is not bureaucratic. It is the analytic theorem
 
 ```math
 OriginalSmoothData
-=> uniform terminal-tail retained Pack/Part/Field/tower readout.
+=> uniform terminal-tail retained Part/Field/tower readout.
 ```
 
 Equivalently, prove at a first finite endpoint

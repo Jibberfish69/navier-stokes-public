@@ -48,7 +48,7 @@ Part_{N,Q}(\mathcal W_*)
 
 The Field row requires a positive local same-fluid coherence scale. In the GoodScale / Field.TTU surfaces this positive scale is exactly the SCF-good cylinder that supports `READ.COVER`, `ATD_m^\varepsilon`, and then pointwise `Field` readout.
 
-The GoodScale failure gives an active terminal material point with no positive SCF-good cylinder at any radius. Hence no positive local Field scale exists at that point. With Pack and Part retained, the remaining failed CM face is Field coherence.
+The GoodScale failure gives an active terminal material point with no positive SCF-good cylinder at any radius. Hence no positive local Field scale exists at that point. With Pack and Part retained, the remaining failed CM Part/Field is Field coherence.
 
 Thus the branch lands in the Field face. In the averaged endpoint grammar, the same obstruction appears as `Jump_avg`.
 

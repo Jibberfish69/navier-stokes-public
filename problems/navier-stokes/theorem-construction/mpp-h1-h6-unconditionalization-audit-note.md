@@ -125,7 +125,7 @@ on endpoint-free approach tails.
 The exact class witness is
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 `EndpointFace.Type` proves from this witness:

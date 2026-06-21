@@ -34,7 +34,7 @@ Exit(Q; O_NS^work) := not Member(Q; O_NS^work).
 The route-relative certificate is:
 
 ```text
-CM_{N,r,Q} = Pack_Q and Part_{N,Q} and Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q} and Field_{N,r,Q}.
 ```
 
 Installed direction:
@@ -47,8 +47,8 @@ Installed contrapositive witness use:
 
 ```text
 first finite class exit / NonSmooth(Q)
-=> first witness-face failure
-=> not Pack_Q or not Part_{N,Q} or not Field_{N,r,Q}.
+=> first witness failure
+=> not Part_{N,Q} or not Field_{N,r,Q}.
 ```
 
 Not installed:
@@ -60,8 +60,8 @@ arbitrary not CM_{N,r,Q} => not Member(Q; O_NS^work).
 So every branch must answer one of two questions:
 
 ```text
-Which CM face does this branch serve?
-Which licensed bridge moves it into Pack, Part, or Field witness face, class-membership direction, or endpoint?
+Which CM Part/Field does this branch serve?
+Which licensed bridge moves it into Part or Field witness, class-membership direction, or endpoint?
 ```
 
 If it answers neither, it is context, not proof spine.
@@ -119,7 +119,7 @@ Any imported theorem must declare:
 
 ```text
 source object
-target CM face or endpoint row
+target CM Part/Field or endpoint row
 carrier transfer
 scale transfer
 proof direction
@@ -365,7 +365,7 @@ For future wide passes, use five bounded roles:
 CM Core Agent
 ```
 
-Audits Member/CM/Pack/Part/Field direction and catches false converses.
+Audits Member/CM/Part/Field direction and catches false converses.
 
 ```text
 Source Wall Agent
@@ -387,7 +387,7 @@ Corpus Recovery Agent
 ```
 
 Searches original corpus/imported notes for already-existing proof atoms, but
-must attach each recovery to a CM face or support role.
+must attach each recovery to a CM Part/Field or support role.
 
 ```text
 Skeptic Agent
@@ -403,7 +403,7 @@ regularity proofs.
 
 ```text
 The survivor is Member/CM.
-The faces are Pack, Part, Field.
+The faces are Part and Field.
 The source wall is a Field-face residual theorem.
 The receiver chain is a Field-preservation supplier.
 The endpoint matrix is a terminal consumer.

@@ -4,7 +4,7 @@ ns_viewer:
   status: target-repair-stale-generic-blocker
   proof_role: target_repair
   logical_landing_node: cm_part_face_attempts
-  edge_effect: "Replaces generic Part-face exclusion with row-level terminal participation certification while preserving Part as a lawful first-face landing for named rows."
+  edge_effect: "Replaces generic Part-face exclusion with row-level terminal participation certification while preserving Part as a lawful first-Part/Field landing for named rows."
   upstream_origin: "June 7 Part-face exclusion working pass and current CM referee audit."
   downstream_consequence: "Future retained-Pack participation rows require same-witness terminal participation proof or they land as Part failures instead of staying global blockers."
 ---
@@ -46,14 +46,14 @@ entry means that `O` has been put into the same-solution terminal packet tree
 after legal losses, readout artifacts, non-selected branches, and paid finite
 ledgers have been removed.
 
-`Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}` are witness faces. A failure of
-`Part_{N,Q}` is a face failure:
+`Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}` are witnesss. A failure of
+`Part_{N,Q}` is a Part/Field failure:
 
 ```text
 Pack_Q and not Part_{N,Q}.
 ```
 
-That face failure supports the downstream conclusion:
+That Part/Field failure supports the downstream conclusion:
 
 ```text
 Exit(Q):=not Member(Q).
@@ -61,7 +61,7 @@ Exit(Q):=not Member(Q).
 
 It is not itself a contradiction with the finite-breakdown branch. In the CM
 pass/fail engine, the fail branch is supposed to become a typed exit branch
-once a concrete Pack/Part/Field face failure has been derived.
+once a concrete Part/Field Part/Field failure has been derived.
 
 ## Why The Generic Part Target Is Stale
 
@@ -92,7 +92,7 @@ branch. The required proof work is row-by-row:
 ```text
 for each named promoted terminal obstruction O:
   O enters the CM terminal test,
-  O lands in the first failed Pack/Part/Field face,
+  O lands in the first failed Part/Field face,
   the pass branch remains the in-class continuation branch.
 ```
 
@@ -111,13 +111,13 @@ pressure_viscosity_or_dwell_part_exit
 
 Its selected terminal object is a Pack-retained carrier that no longer supports
 the same differentiated Navier-Stokes pressure-viscosity tower, dwell law, or
-compatible local source participation through depth `N`. Its first face is:
+compatible local source participation through depth `N`. Its first Part/Field is:
 
 ```text
 Pack_Q and not Part_{N,Q}.
 ```
 
-That is a certified face failure for that selected row. The raw terminal source
+That is a certified Part/Field failure for that selected row. The raw terminal source
 residue row is also certified at Pack/Part: when the carrier survives, an unpaid
 native residue is a participation defect, hence a Part face. The retained
 pressure package note gives the same placement rule: a pressure package is
@@ -131,7 +131,7 @@ Pack and Part.
 
 So, on the currently promoted finite-obstruction inventory, there is no generic
 uncovered Part theorem row. There are named rows, and the named rows that carry
-proof mass have either been certified at Pack/Part/Field or classified as
+proof mass have either been certified at Part/Field or classified as
 non-proof-bearing support.
 
 ## What Still Becomes Live If A New Row Is Promoted
@@ -156,7 +156,7 @@ O + Pack_Q
 
 with the next face then tested under retained Pack and Part. The row must name
 the selected terminal object, prove CM-test entry for that object, and show why
-the first failed face is Pack, Part, or Field.
+the first failed face is Part or Field.
 
 The stale question is:
 
