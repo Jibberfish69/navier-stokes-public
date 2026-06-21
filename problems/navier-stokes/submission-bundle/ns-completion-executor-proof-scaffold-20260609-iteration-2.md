@@ -14,7 +14,7 @@ This pass re-entered changed refs from the first executor pass:
 
 Stop state: exact blocker, not reader-facing proof prose.
 
-The manuscript cannot honestly promote this as a Clay-facing proof paragraph. The earned reader-facing sentence is only this: the current obstruction still needs a proof pass that either lands the failure in Pack, Part, or Field, or rejects the object as illegitimate for the CM test. Until that theorem pass exists, the PDF remains a scaffold target rather than a submission-ready proof.
+The manuscript cannot honestly promote this as a Clay-facing proof paragraph. The earned reader-facing sentence is only this: the current obstruction still needs a proof pass that either lands the failure in Part or Field, or rejects the object as illegitimate for the CM test. Until that theorem pass exists, the PDF remains a scaffold target rather than a submission-ready proof.
 
 Next executable writing tasks:
 - Keep the proof paragraph out of final prose until the proof lane supplies a narrowed or closed face.
