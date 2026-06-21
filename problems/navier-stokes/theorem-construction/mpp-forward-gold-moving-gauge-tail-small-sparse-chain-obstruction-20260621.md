@@ -24,10 +24,11 @@ ns_viewer:
     Do not claim that V_j -> 0 alone gives a summably paid sparse fixed-chain
     telescope. It gives only adjacent tail-smallness. A usable sparse fixed-chain
     route must prove composite sparse-gauge summability and same-witness
-    preservation. If it does, the branch enters the installed fixed-chain
-    annular-share/nested-core/Part-Field consumer. If it does not, the remaining
-    live target is selector/scale-skipping/no-drift/unique-tangent/profile
-    production.
+    preservation. The follow-up scale-skipping note proves that W_k itself can
+    be made summable by choosing the retained scales far enough apart. The
+    remaining live target is therefore sparse same-witness carrier custody,
+    controlled-domain/exterior-spill bookkeeping, selector stability, and
+    no-drift/unique-tangent/profile production.
 ---
 
 # MPP Forward-Gold Moving-Gauge Tail-Small Sparse-Chain Obstruction
@@ -130,7 +131,7 @@ From \(V_j\to0\), one can choose \(j_k\) so that
 But `(MSS.8)` controls only the adjacent defect from \(j_k\) to \(j_k+1\).  It
 does not control the composite defect from \(j_k\) to \(j_{k+1}\).
 
-The missing condition is
+The missing condition at this point is
 
 \[
 \sum_k W_k<\infty.
@@ -145,6 +146,12 @@ fixed chain.
 
 This is the exact point where a fake subsequence proof would smuggle in
 unique-tangent control.
+
+The follow-up scale-skipping note proves that `(MSS.9)` can always be achieved
+at the level of unlocalized geometry by taking the retained scales sufficiently
+far apart.  Thus the obstruction exposed here is not ultimately \(W_k\)
+summability itself; it is preserving the same terminal witness, selected
+carrier, and controlled parent-domain relation on such a sparse chain.
 
 ## 3. Conditional sparse-chain pass
 
@@ -265,11 +272,11 @@ V_j\to0,\quad \sum_jV_j=\infty
 means only that adjacent gauge errors are individually small but not globally
 summable.  It does not by itself prove a usable sparse fixed-chain telescope.
 
-The usable sparse route is:
+The usable sparse route, after the scale-skipping geometry note, is:
 
 \[
 \boxed{
-\sum_k W_k<\infty
+\text{sparse scale choice with }\sum_k W_k<\infty
 +
 \text{same-witness sparse recurrence preservation}
 \Longrightarrow
