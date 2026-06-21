@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-lp-full-balance-payment-20260621
-status: dyadic-full-balance-payment-target-installed-production-open
+status: dyadic-full-balance-payment-target-installed-direct-attempt-reduced-to-channel-coercivity
 logical_landing_node: lp_full_balance_payment
 edge_effect: "Installs the Littlewood-Paley shell-level version of the participation-preserving no-residue route. Existing dyadic scale notes compare nonlinear transport against viscous shell damping and leave source-square or weighted tail residues. This note keeps the LP shell packet but changes the payment carrier: a selected positive transport/source packet must first be expressed through the full local Navier-Stokes balance of time, pressure, viscosity, incompressibility, and legal cutoff/collar leakage. Cauchy/Young remains available only after that full-balance split for already legal errors. The theorem target is LPFullBalancePayment.A / DyadicParticipationNoFreeSource.A; it is a production target and algebraic criterion, not a proof of the unweighted reserve."
 parents:
