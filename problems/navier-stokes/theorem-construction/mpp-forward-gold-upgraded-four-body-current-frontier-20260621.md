@@ -2,7 +2,7 @@
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
 status: consolidated-frontier-installed-strict-cycle-payment-or-rigidity-open-full-hodge-stokes-selector-upgrade-added
 logical_landing_node: upgraded_four_body_current_frontier
-edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, the corrected participation-preserving no-residue full-cycle criterion, the transported transport-channel selector commutator-potential test, the full Hodge-Stokes packet replacement, the lossless full Hodge-Stokes packet rigidity sublemma, the critical-density/CKN supplement criterion, the signed-polar saturation supplement criterion, the rigid source-residue supplement criterion, the full pre-Cauchy remainder reduction criterion, the direct no-free terminal Zeno four-body attempt, the component test for FourBodyTerminalTraceAC.A, and the base participation nested-shell test. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste, participation-preserving no-residue full-cycle, transported-selector commutator potential, critical-density/CKN, signed-polar saturation, rigid source-residue production, and full pre-Cauchy remainder reduction are proved criteria/tests, not produced Navier-Stokes estimates. The no-residue route sharpens the source-square wall by keeping Leray projection as one compatibility channel inside a full Hodge-Stokes packet, using the exact transport-channel identity <A_sigma^tr(u.grad u),A_sigma^tr u>=-1/2<[u.grad,G_sigma^tr]u,u>, and requiring the full pressure-viscosity-incompressibility packet to be paid by viscosity, capacity drop, and L1 tail without a C_epsilon Theta_sigma^2 E_sigma residual. Its zero-loss rigidity core is now proved conditionally: zero full Hodge-Stokes loss leaves only Galilean/affine-pressure gauge, so gauge-invariant selected singular participation vanishes. The direct four-body attack reduces NoFreeTerminalZenoDonorChain.A to FourBodyTerminalTraceAC.A or strict no-waste/unweighted reserve; the component test reduces FourBodyTerminalTraceAC.A to simultaneous terminal AC of the tower, participation, compactness/no-loss, geometry, and legal records; and the base participation nested-shell test proves physical material accounting is radius-discounted at heat scale. The remaining gold theorem is a same-carrier production theorem: prove those terminal moduli/no-waste, prove participation-preserving full-cycle no-residue payment, produce dN_miss=0 or a legal/charged polar defect, or produce MinimalZenoProfileProduction.A."
+edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, the corrected participation-preserving no-residue full-cycle criterion, the transported transport-channel selector commutator-potential test, the full Hodge-Stokes packet replacement, the lossless full Hodge-Stokes packet rigidity sublemma, the full Hodge-Stokes packet compactness/no-loss criterion and defect split, the critical-density/CKN supplement criterion, the signed-polar saturation supplement criterion, the rigid source-residue supplement criterion, the full pre-Cauchy remainder reduction criterion, the direct no-free terminal Zeno four-body attempt, the component test for FourBodyTerminalTraceAC.A, and the base participation nested-shell test. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste, participation-preserving no-residue full-cycle, transported-selector commutator potential, full Hodge-Stokes compactness/no-loss, critical-density/CKN, signed-polar saturation, rigid source-residue production, and full pre-Cauchy remainder reduction are proved criteria/tests, not produced Navier-Stokes estimates. The no-residue route sharpens the source-square wall by keeping Leray projection as one compatibility channel inside a full Hodge-Stokes packet, using the exact transport-channel identity <A_sigma^tr(u.grad u),A_sigma^tr u>=-1/2<[u.grad,G_sigma^tr]u,u>, and requiring the full pressure-viscosity-incompressibility packet to be paid by viscosity, capacity drop, and L1 tail without a C_epsilon Theta_sigma^2 E_sigma residual. Its zero-loss rigidity core is now proved conditionally: zero full Hodge-Stokes loss leaves only Galilean/affine-pressure gauge, so gauge-invariant selected singular participation vanishes. Its compactness/no-loss side is now exact as a criterion: strong same-carrier full-packet convergence gives total-variation no-loss for the selected positive carrier, while standard suitable compactness leaves transport, pressure trace, viscous, selector graph, signed saturation, terminal trace, or legal-routing defects. The direct four-body attack reduces NoFreeTerminalZenoDonorChain.A to FourBodyTerminalTraceAC.A or strict no-waste/unweighted reserve; the component test reduces FourBodyTerminalTraceAC.A to simultaneous terminal AC of the tower, participation, compactness/no-loss, geometry, and legal records; and the base participation nested-shell test proves physical material accounting is radius-discounted at heat scale. The remaining gold theorem is a same-carrier production theorem: prove those terminal moduli/no-waste, prove participation-preserving full-cycle no-residue payment, produce dN_miss=0 or a legal/charged polar defect, or produce MinimalZenoProfileProduction.A."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-factorial-tower-radius-spend-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-participation-exchange-normal-form-20260621.md
@@ -26,6 +26,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transported-pressure-adapted-selector-commutator-potential-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lossless-full-hodgestokes-packet-rigidity-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-packet-compactness-noloss-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lp-full-balance-payment-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-density-ckn-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-polar-saturation-fourbody-supplement-criterion-20260621.md
@@ -1151,6 +1152,34 @@ A_{\rm sel}=0.
 }
 \tag{4BF.45p}
 ```
+
+The compactness/no-loss side is now separated from rigidity.  Strong
+same-carrier convergence of \(V_n\) in \(L^3\), \(Q_n\) in \(L^{3/2}\),
+\(\nabla V_n\) in \(L^2\), stable cutoffs/selectors, and legal residual
+tightness gives full-packet convergence.  The selected scalar density then has
+
+```math
+h_n\to h
+\quad\text{in }L^1,
+\qquad
+[h_n]_+\to[h]_+
+\quad\text{in }L^1,
+\tag{4BF.45q}
+```
+
+because \(a\mapsto[a]_+\) is \(1\)-Lipschitz.  Therefore the selected positive
+carrier has total-variation no-loss on the retained same carrier:
+
+```math
+\mu_{sel,n}^+\to\mu_{sel}^+.
+\tag{4BF.45r}
+```
+
+Standard suitable compactness does not give `(4BF.45r)`.  Its exact possible
+failures are transport product defect, pressure trace defect, viscous measure,
+selector graph loss, signed saturation loss, terminal trace atom, or legal
+routing defect.  Each of those must be charged before the no-residue theorem
+can use the rigidity core.
 
 So the full-cycle branch is now split exactly: rigidity is paid after
 same-carrier compactness, while production is still open at full-packet
