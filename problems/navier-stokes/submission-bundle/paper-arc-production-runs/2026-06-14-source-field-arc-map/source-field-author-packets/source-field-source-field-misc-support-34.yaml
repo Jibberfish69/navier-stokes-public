@@ -379,7 +379,7 @@ chunk:
       \[
       \hbox{Original Smooth Data}
       \Longrightarrow
-      \hbox{uniform terminal-tail retained Pack/Part/Field/tower readout}.
+      \hbox{uniform terminal-tail retained Part/Field/tower readout}.
       \]
 
       The candidate route covers the strict averaged-good branch.  The complementary
@@ -708,7 +708,7 @@ chunk:
     \[
     \hbox{Original Smooth Data}
     \Longrightarrow
-    \hbox{uniform terminal-tail retained Pack/Part/Field/tower readout}.
+    \hbox{uniform terminal-tail retained Part/Field/tower readout}.
     \]
 
     The candidate route covers the strict averaged-good branch.  The complementary
@@ -752,7 +752,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
