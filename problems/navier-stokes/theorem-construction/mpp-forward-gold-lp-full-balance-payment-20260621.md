@@ -518,3 +518,26 @@ This note does not prove the production theorem `(LPFB.18)` from installed
 Navier-Stokes estimates.  It installs the correct dyadic theorem surface and
 prevents the scalar source-square residue from being treated as the native
 payment carrier.
+
+## 8. Direct-attempt update
+
+The direct attempt has now been run in
+`mpp-forward-gold-lp-full-balance-payment-direct-attempt-20260621.md`.
+
+The result is:
+
+```math
+\boxed{
+\texttt{LPFullBalancePayment.A}
+\Leftarrow
+\texttt{FullTupleChannelCoercivity.A}
++
+\text{same-carrier compactness/no-loss for the full packet.}
+}
+\tag{LPFB.38}
+```
+
+The LP identity preserves the tuple and blocks the old scalar source-square
+pricing, but it does not itself create the unweighted reserve.  The remaining
+missing theorem is same-carrier coercivity for the coupled time-pressure-
+viscosity-incompressibility packet.
