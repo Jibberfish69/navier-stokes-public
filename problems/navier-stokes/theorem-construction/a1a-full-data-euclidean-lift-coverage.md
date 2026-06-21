@@ -81,7 +81,7 @@ bound `(A1c)`.
 Statement `(A1a.5)` quantifies only over the Euclidean readout `\mathcal C` and
 the admissible datum class `\mathcal K_{\mathrm{Euc}}` that the earlier splice
 has already fixed. It does not assert that this Euclidean surface is the
-correct export of the CM packet, nor does it assert any evolution, exact
+correct export of the CM participation-field record, nor does it assert any evolution, exact
 projected nonlinear identity, or global carrier norm bound. Those belong,
 respectively, to the earlier splice and to `(A1b)`--`(A1c)`. ∎
 

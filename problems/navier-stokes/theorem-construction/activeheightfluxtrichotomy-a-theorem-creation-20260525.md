@@ -3,13 +3,13 @@
 ## Target
 
 - target obligation: ActiveHeightFluxTrichotomy.A
-- target label: Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting positive square-reserve surplus into active height flux or Pack/that face failure.
-- route role: A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, produces a Pack, Part, or licensed Field face through the named same-ledger failure mechanism, or reduces to TerminalSignedSaturation.A, whose failure is already CM face-reduction support.
+- target label: Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting positive square-reserve surplus into active height flux or Pack/that Part/Field failure.
+- route role: A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, produces a Pack, Part, or licensed Field face through the named same-ledger failure mechanism, or reduces to TerminalSignedSaturation.A, whose failure is already CM Part/Field-reduction support.
 - theorem family: reserve-creation-charge
 
 ## Created Theorem
 
-ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, produces a Pack, Part, or licensed Field face through the named same-ledger failure mechanism, or reduces to TerminalSignedSaturation.A, whose failure is already CM face-reduction support. This supplies the exact noncircular bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting positive square-reserve surplus into active height flux or Pack/that face failure..
+ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, produces a Pack, Part, or licensed Field face through the named same-ledger failure mechanism, or reduces to TerminalSignedSaturation.A, whose failure is already CM Part/Field-reduction support. This supplies the exact noncircular bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting positive square-reserve surplus into active height flux or Pack/that Part/Field failure..
 
 ## Inventive Search
 
@@ -19,11 +19,11 @@ ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve surplus wi
 - selected_mechanism: zero_moment_signed_pair_visibility
 - candidate_count: 2
 - solver_chain_verdict: closed
-- selection_reason: This theorem is the right next move because it changes the proof economy: A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, produces a Pack, Part, or licensed Field face through the named same-ledger failure mechanism, or reduces to TerminalSignedSaturation.A, whose failure is already CM face-reduction support. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to SignedPairReserveVisibility.A rather than pretending the frontier is closed. The internal solver also discharged the residual chain through ActiveHeightFluxTrichotomy.A -> SignedPairReserveVisibility.A -> TerminalSignedSaturationCMFaceReduction.A.
+- selection_reason: This theorem is the right next move because it changes the proof economy: A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, produces a Pack, Part, or licensed Field face through the named same-ledger failure mechanism, or reduces to TerminalSignedSaturation.A, whose failure is already CM Part/Field-reduction support. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to SignedPairReserveVisibility.A rather than pretending the frontier is closed. The internal solver also discharged the residual chain through ActiveHeightFluxTrichotomy.A -> SignedPairReserveVisibility.A -> TerminalSignedSaturationCMFaceReduction.A.
 
 ## Exactness Audit
 
-No Pack/Part/Field conclusion in this note is licensed by event ordering,
+No Part/Field conclusion in this note is licensed by event ordering,
 same-scale intuition, or size-language.  The exact downstream burden is the
 named face mechanism: a missing same-ledger partner gives carrier failure, an
 incompatible partner gives participation or dwell failure, and a retained legal
@@ -49,7 +49,7 @@ source charge may enter Field only through the installed Field-face theorem.
 - reason: The recursive theorem solver reached a terminal mechanism with no remaining residual primitive.
 - depth 0: ActiveHeightFluxTrichotomy.A via zero_moment_signed_pair_visibility -> SignedPairReserveVisibility.A
 - depth 1: SignedPairReserveVisibility.A via signed_pair_reserve_visibility_cm_exit -> TerminalSignedSaturation.A
-- depth 2: TerminalSignedSaturationCMFaceReduction.A via terminal_signed_saturation_cm_face_reduction -> closed
+- depth 2: TerminalSignedSaturationCMFaceReduction.A via terminal_signed_saturation_cm_part_field_question_reduction -> closed
 
 ## Allowed Inputs
 
@@ -71,7 +71,7 @@ source charge may enter Field only through the installed Field-face theorem.
 ## Forbidden Imports
 
 - ActiveHeightFluxTrichotomy.A
-- Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting positive square-reserve surplus into active height flux or Pack/that face failure.
+- Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting positive square-reserve surplus into active height flux or Pack/that Part/Field failure.
 - full-MPP closure
 - submission readiness
 - global smoothness
@@ -85,19 +85,19 @@ source charge may enter Field only through the installed Field-face theorem.
 2. Decompose the zero-moment carrier into same-scale positive and negative terminal source packets J_+ and J_- with square reserve bounded below by `c_0>0`.
 3. Route missing or incompatible partners to active height flux, Pack carrier loss, Part dwell failure, or legal Field source charge.
 4. Reduce the only retained positive-scale hidden branch to SignedPairReserveVisibility.A.
-5. Use the signed-pair theorem only as CM witness-face support through TerminalSignedSaturationCMFaceReduction.A, not as a forward smoothness estimate.
+5. Use the signed-pair theorem only as CM witness support through TerminalSignedSaturationCMFaceReduction.A, not as a forward smoothness estimate.
 6. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 7. Recursive solver step for SignedPairReserveVisibility.A: Work in the first minimal terminal window selected below ZeroMomentReserveVisibility.A.
 8. Recursive solver step for SignedPairReserveVisibility.A: Keep the positive and negative packets on the same retained ledger; missing or incompatible partners produce Pack, Part, or licensed Field only through the declared carrier-loss, dwell-failure, incompatibility, or source-charge face mechanism.
 9. Recursive solver step for SignedPairReserveVisibility.A: Pay retained partners by ASAC.A / PositivePairWeightDefectCharge.A and legal exits by the declared boundary, projection, pressure, collar, and heat-action ledgers.
-10. Recursive solver step for SignedPairReserveVisibility.A: Route the only uncharged same-ledger donor-sink branch to TerminalSignedSaturation.A, then use its CM face-reduction theorem rather than a forward smoothness estimate.
-11. Recursive solver step for SignedPairReserveVisibility.A: Record the conclusion as Pack/Part/Field witness support for Exit(Q):=not Member(Q), not as a proof that the bad branch was positively erased.
+10. Recursive solver step for SignedPairReserveVisibility.A: Route the only uncharged same-ledger donor-sink branch to TerminalSignedSaturation.A, then use its CM Part/Field-reduction theorem rather than a forward smoothness estimate.
+11. Recursive solver step for SignedPairReserveVisibility.A: Record the conclusion as Part/Field witness support for Exit(Q):=not Member(Q), not as a proof that the bad branch was positively erased.
 12. Recursive solver step for SignedPairReserveVisibility.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 13. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Partition selected terminal source-current edges into retained signed partners, legal exits, finite donor sinks, and terminal Zeno refill.
 14. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Pay retained partners by ASAC pair-weight charge, legal exits by declared ledgers, and finite donor sinks by LocalDonorBalance.A plus EntranceLeafDecay.A.
 15. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Route the only unpaid terminal Zeno refill to the produced B_ASAC terminal residue class.
-16. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Apply the terminal Zeno Pack-before-Part correction: a zero-radius terminal source residue lands Part-side when same-solution original participation remains and true not Pack_Q only when that record is absent.
-17. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Use BASACTerminalAtomCMFaceLabeling.A to record any incoming flux, CM envelope blowout, or paid exit as Pack/Part/Field witness-face exit.
+16. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Apply the terminal Zeno Pack-out-of-CM correction: a zero-radius terminal source residue lands Part-side when same-solution original participation remains and true not Pack_Q only when that record is absent.
+17. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Use BASACTerminalAtomCMFaceLabeling.A to record any incoming flux, CM envelope blowout, or paid exit as Part/Field witness exit.
 18. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
 ## Circularity Audit
