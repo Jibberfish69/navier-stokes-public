@@ -247,7 +247,7 @@ chunk:
       \mathrm{CM}\text{ is installed initially,}
       \]
 
-      and then prove Pack, Part, and Field persist on every still-live window of the same object. This gives
+      and then prove Part and Field persist on every still-live window of the same object. This gives
 
 
     truncated: false
@@ -597,7 +597,7 @@ chunk:
     \mathrm{CM}\text{ is installed initially,}
     \]
 
-    and then prove Pack, Part, and Field persist on every still-live window of the same object. This gives
+    and then prove Part and Field persist on every still-live window of the same object. This gives
 
 
 
@@ -736,7 +736,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

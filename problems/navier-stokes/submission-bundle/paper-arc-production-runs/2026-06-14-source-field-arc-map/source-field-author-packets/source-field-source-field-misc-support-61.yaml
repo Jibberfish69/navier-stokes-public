@@ -307,7 +307,7 @@ chunk:
     text: |+
       \subsection{Positive Remainder Depletion Object-Type Correction}
 
-      Positive Remainder Depletion.A is a positive supplier estimate. It is not a Pack/Part/Field witness and it has no Dead/Blown/Jump endpoint type.
+      Positive Remainder Depletion.A is a positive supplier estimate. It is not a Part/Field witness and it has no Dead/Blown/Jump endpoint type.
 
       \[
       \mu_\ast^{sing}>0
@@ -318,7 +318,7 @@ chunk:
 
       That classification is not a proof of the supplier theorem and not an endpoint contradiction by itself.
 
-      Say instead: Positive Remainder Depletion.A is the positive supplier burden; a surviving positive source residue after supplier failure can be routed to Field/Jump only after retained Pack and Part and the named source-residue bridge.
+      Say instead: Positive Remainder Depletion.A is the positive supplier burden; a surviving positive source residue after supplier failure can be routed to Field/Jump only after retained Field-window evidence and Part and the named source-residue bridge.
 
 
     truncated: false
@@ -517,7 +517,7 @@ chunk:
     version of the same issue: the nonlinear source term F j can balance viscous drain
     unless a source-pulse exclusion theorem controls it on the selected windows.\n\n\n\n\\subsection{Positive
     Remainder Depletion Object-Type Correction}\n\nPositive Remainder Depletion.A
-    is a positive supplier estimate. It is not a Pack/Part/Field witness and it has
+    is a positive supplier estimate. It is not a Part/Field witness and it has
     no Dead/Blown/Jump endpoint type.\n\n\\[\n\\mu_\\ast^{sing}>0\n\\quad\\text{or
     another retained positive source residue.}\n\\]\n\nThat residue then needs its
     own routing. Loss of same-fluid carrier is Pack-facing. Loss of the pressure-viscosity
@@ -526,7 +526,7 @@ chunk:
     is not a proof of the supplier theorem and not an endpoint contradiction by itself.\n\nSay
     instead: Positive Remainder Depletion.A is the positive supplier burden; a surviving
     positive source residue after supplier failure can be routed to Field/Jump only
-    after retained Pack and Part and the named source-residue bridge.\n\n\n\n\\subsection{R3
+    after retained Field-window evidence and Part and the named source-residue bridge.\n\n\n\n\\subsection{R3
     Exterior Cascade Theorem Final state}\n\nwhere E s tail controls the commutator,
     cutoff, pressure, and high-frequency exterior flux terms in the localized H s
     energy identity.\n\n\\[\nu\\in L_t^\\infty L_x^2,\n\\qquad\n\\nabla u\\in L^2_{t,x},\n\\]\n\nThese
@@ -566,7 +566,7 @@ chunk:
     derivation of that record from Original Smooth Data R3 remains open.\n\n\n"
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

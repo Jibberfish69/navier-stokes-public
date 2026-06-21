@@ -87,7 +87,7 @@ chunk:
 
       The earlier attack version is superseded here. Its three primitive burdens are discharged by the endpoint-exclusion reading of Raw Data.Production, the retained smooth center-ball theorem, and the CM witness identity below.
 
-      Here Raw Data.Production is read in the endpoint-exclusion route sense: on any same-fluid endpoint approach tail, either finite Pack/Part/Field/tower data are produced, or the failure is typed into the endpoint matrix. Since End NS removes the endpoint faces, endpoint-free approach tails carry the finite data.
+      Here Raw Data.Production is read in the endpoint-exclusion route sense: on any same-fluid endpoint approach tail, either finite Part/Field/tower data are produced, or the failure is typed into the endpoint matrix. Since End NS removes the endpoint faces, endpoint-free approach tails carry the finite data.
 
       On compact classical intervals, smoothness of the maximal solution supplies retained center balls and finite local u,p norms. The retained smooth center-ball theorem gives
 
@@ -241,7 +241,7 @@ chunk:
 
       The source-side assembly is coherent as a conditional or strengthened-source route if the named pressure, strain/cascade, and cutoff source suppliers are granted.
 
-      The endpoint matrix is coherent as a certificate grammar once the analytic inputs Pack, Part, Field, and tower control have already been produced.
+      The endpoint matrix is coherent as a certificate grammar once the analytic inputs Part, Field, and tower control have already been produced.
 
       These verified items do not establish the unconditional periodic Navier-Stokes theorem.
 
@@ -444,7 +444,7 @@ chunk:
 
     The earlier attack version is superseded here. Its three primitive burdens are discharged by the endpoint-exclusion reading of Raw Data.Production, the retained smooth center-ball theorem, and the CM witness identity below.
 
-    Here Raw Data.Production is read in the endpoint-exclusion route sense: on any same-fluid endpoint approach tail, either finite Pack/Part/Field/tower data are produced, or the failure is typed into the endpoint matrix. Since End NS removes the endpoint faces, endpoint-free approach tails carry the finite data.
+    Here Raw Data.Production is read in the endpoint-exclusion route sense: on any same-fluid endpoint approach tail, either finite Part/Field/tower data are produced, or the failure is typed into the endpoint matrix. Since End NS removes the endpoint faces, endpoint-free approach tails carry the finite data.
 
     On compact classical intervals, smoothness of the maximal solution supplies retained center balls and finite local u,p norms. The retained smooth center-ball theorem gives
 
@@ -567,7 +567,7 @@ chunk:
 
     The source-side assembly is coherent as a conditional or strengthened-source route if the named pressure, strain/cascade, and cutoff source suppliers are granted.
 
-    The endpoint matrix is coherent as a certificate grammar once the analytic inputs Pack, Part, Field, and tower control have already been produced.
+    The endpoint matrix is coherent as a certificate grammar once the analytic inputs Part, Field, and tower control have already been produced.
 
     These verified items do not establish the unconditional periodic Navier-Stokes theorem.
 
@@ -710,7 +710,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
