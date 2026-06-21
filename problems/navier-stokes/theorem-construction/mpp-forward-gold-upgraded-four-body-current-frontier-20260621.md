@@ -33,7 +33,12 @@ latest_update: >-
   participation payment gives same-carrier full-packet compactness, exact local
   Navier-Stokes object production, and Body-IV geometry readouts; failures are
   typed as viscous, pressure-memory collar, selector/collar, terminal-trace,
-  donor/saturation, or geometry/Field branches.
+  donor/saturation, or geometry/Field branches. The remaining-arrows closure
+  note then fills G_4B -> S_4B and S_4B -> Q_4B as same-carrier relay arrows,
+  giving the cyclic unweighted reserve for the full four-body carried activity.
+  The final strict gold boundary is now the identification of the native
+  selected-positive activity with that full-tuple carried activity, or routing
+  the mismatch to a typed CM-facing defect branch.
 parents:
   - problems/navier-stokes/theorem-construction/carrier-axiom-sheet.md
   - problems/navier-stokes/theorem-construction/carrier-realization-classical-identification.md
@@ -97,6 +102,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-terminal-zeno-donor-chain-full-hodgestokes-tower-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-compactness-collar-stabilization-solution-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-bodyii-bodyiii-arrow-fill-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-four-body-remaining-arrows-and-cycle-closure-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-visible-readout-payment-final-attempt-20260621.md
 ---
 
@@ -2643,3 +2649,127 @@ This fills the Body II/III relay.  It does not yet produce the whole four-body
 cycle payment.  The still-live production burden is the same-carrier unweighted
 full-cycle theorem that supplies the positive payment before this relay is
 invoked.
+
+## 32. Remaining arrows and cycle closure status
+
+The remaining-arrows note works the unfinished loop in the requested order:
+
+```math
+G_{4B}\longrightarrow S_{4B}\longrightarrow Q_{4B}.
+\tag{4BF.100}
+```
+
+The Body IV to Body I return is now closed as a same-carrier relay by splitting
+scale/tower recertification into high-frequency scale return and pulled-back
+material-tower recertification:
+
+```math
+\|P_{\ge J}V\|_2^2
+\le
+2^{-2J}\|\nabla V\|_2^2,
+\tag{4BF.101}
+```
+
+and
+
+```math
+\partial_t W_{m,\alpha}
++A^\top\nabla_aQ_{m,\alpha}
+=
+\nu\,\operatorname{div}_a(G\nabla_aW_{m,\alpha})
++\mathcal C_{m,\alpha}^{G}.
+\tag{4BF.102}
+```
+
+Thus
+
+```math
+\boxed{
+A_S
+\le
+C\,D_G
+-\partial_\sigma X_{GS}
++R_G,
+\qquad
+R_G\in L^1_\sigma,
+}
+\tag{4BF.103}
+```
+
+where \(D_G\) includes normalized gradient/strain payment plus the typed
+ellipticity, coefficient, commutator, transport, and geometry defects.
+
+The Body I to Body II feed is now closed as the exact weighted same-rung
+participation identity:
+
+```math
+\boxed{
+dL_S+dD_S^{\rm rad}+dD_Q^w
+=
+dJ_{SQ}^{\rm flux}.
+}
+\tag{4BF.104}
+```
+
+This gives
+
+```math
+\boxed{
+A_Q
+\le
+C\,D_S
+-\partial_\sigma X_{SQ}
++R_S,
+\qquad
+R_S\in L^1_\sigma,
+}
+\tag{4BF.105}
+```
+
+for the participation-feed activity actually realized by the same finite tower
+packet and full Body-II channel tuple.
+
+With \(Q_{4B}\to C_{4B}\to G_{4B}\) already filled, the four inequalities now
+sum to
+
+```math
+\boxed{
+\partial_\sigma L_{4B}
++D_{4B}
++cA_{4B}
+\le
+R_{4B}.
+}
+\tag{4BF.106}
+```
+
+Consequently,
+
+```math
+\boxed{
+\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma<\infty
+}
+\tag{4BF.107}
+```
+
+for the same-carrier activity carried by the complete four-body loop.
+
+The remaining strict-gold boundary is now exactly:
+
+```math
+\boxed{
+A_{\rm selected\ native}
+\le
+C\,A_{4B}
++R_{\rm legal}
+\quad\text{on the same retained carrier.}
+}
+\tag{4BF.108}
+```
+
+If `(4BF.108)` is installed, the four-body cycle pays the original selected
+positive terminal activity.  Without `(4BF.108)`, the full four-body loop is
+closed for its carried activity, while mismatch with the native selected
+positive source carrier must route to terminal trace, missing signed
+partner/donor chain, selector/collar drift, pressure-memory collar, or
+geometry/Field loss.
