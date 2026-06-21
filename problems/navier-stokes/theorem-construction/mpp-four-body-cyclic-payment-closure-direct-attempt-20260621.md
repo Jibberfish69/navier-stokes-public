@@ -462,6 +462,80 @@ forever without strict scale-critical loss.}
 \tag{FCP.32}
 ```
 
+### 8A. Zero-loss rigidity once normalized viscous loss is included
+
+The lossless branch is not equally hard in every formulation.
+
+If the full-cycle loss contains the normalized viscous/strain term
+
+```math
+D_Q^{vis}(\sigma)
+=
+\int_{-1}^{0}\int_{B_1}|\nabla_y V_\sigma|^2\,dy\,ds,
+\tag{FCP.32a}
+```
+
+then the zero-loss branch is essentially rigid.
+
+Assume, after compactness and Galilean centering, that
+
+```math
+D_Q^{vis}(\sigma_j)\to0.
+\tag{FCP.32b}
+```
+
+Then Poincare on the normalized cylinder gives
+
+```math
+V_{\sigma_j}-\overline V_{\sigma_j}(s)\to0
+\quad\text{in }L_s^2L_y^2,
+\tag{FCP.32c}
+```
+
+and the Galilean gauge removes the spatial mean.  The pressure equation
+
+```math
+-\Delta_y Q_{\sigma_j}
+=
+\partial_i(V_{\sigma_j})_k\,\partial_k(V_{\sigma_j})_i
+\tag{FCP.32d}
+```
+
+then gives vanishing normalized pressure after fixing the pressure mean.
+
+Consequently the strain, projected nonlinear source, and selected
+strain-carrier activity vanish in the limit:
+
+```math
+S(V_{\sigma_j})\to0,
+\qquad
+-\mathbb P\nabla\cdot(V_{\sigma_j}\otimes V_{\sigma_j})\to0,
+\qquad
+A_{4B}(\sigma_j)\to0,
+\tag{FCP.32e}
+```
+
+provided \(A_{4B}\) is the selected Galilean-invariant participation activity
+from `(FCP.3)`, not raw cubic velocity mass.
+
+Thus:
+
+```math
+\boxed{
+\text{zero full-cycle loss plus normalized viscous loss}
+\Longrightarrow
+\text{removable profile}
+\Longrightarrow
+A_{4B}=0.
+}
+\tag{FCP.32f}
+```
+
+This means the hard part is not a broad ancient-profile Liouville theorem once
+the full-cycle inequality includes \(D_Q^{vis}\).  The hard part is producing
+the cyclic inequality that forces every nonzero selected participation packet
+to register positive unweighted full-cycle loss.
+
 ## 9. What this accomplishes
 
 The redevelopment removes the vague "missing payment" language.
@@ -519,4 +593,3 @@ no-free-full-cycle theorem.}
 }
 \tag{FCP.35}
 ```
-
