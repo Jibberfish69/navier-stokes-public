@@ -135,7 +135,7 @@ chunk:
     text: |+
       \subsection{Clay problem B ASAC Post-Diagnostic Forward Supplier Stop}
 
-      On a retained Pack+Part branch it lands in Field by Retained Zeno Atom Field Exit.A.
+      On a retained Field-window evidence+Part branch it lands in Field by Retained Zeno Atom Field Exit.A.
 
       \[
       g_m(s)=m\,1_{(-1/m,0]}(s)
@@ -453,7 +453,7 @@ chunk:
 
     \subsection{Clay problem B ASAC Post-Diagnostic Forward Supplier Stop}
 
-    On a retained Pack+Part branch it lands in Field by Retained Zeno Atom Field Exit.A.
+    On a retained Field-window evidence+Part branch it lands in Field by Retained Zeno Atom Field Exit.A.
 
     \[
     g_m(s)=m\,1_{(-1/m,0]}(s)
@@ -646,7 +646,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
