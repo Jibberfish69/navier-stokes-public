@@ -27,7 +27,13 @@ latest_update: >-
   frontier: height is square/tail UI failure, critical density is a consumer
   without an installed unweighted budget, finite source-gradient rungs are
   CM-consumable after same-witness admission, and pure high-rung analytic tail
-  returns to tail-to-carrier/no-waste/profile production.
+  returns to tail-to-carrier/no-waste/profile production. The Body II/III
+  arrow-fill note then closes the conditional relay
+  Q_4B -> C_4B -> G_4B at the current proof level: zero unpaid full
+  participation payment gives same-carrier full-packet compactness, exact local
+  Navier-Stokes object production, and Body-IV geometry readouts; failures are
+  typed as viscous, pressure-memory collar, selector/collar, terminal-trace,
+  donor/saturation, or geometry/Field branches.
 parents:
   - problems/navier-stokes/theorem-construction/carrier-axiom-sheet.md
   - problems/navier-stokes/theorem-construction/carrier-realization-classical-identification.md
@@ -90,6 +96,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-actual-tuple-selector-admissibility-attack-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-terminal-zeno-donor-chain-full-hodgestokes-tower-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-compactness-collar-stabilization-solution-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-four-body-bodyii-bodyiii-arrow-fill-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-visible-readout-payment-final-attempt-20260621.md
 ---
 
@@ -2579,3 +2586,60 @@ This is the current unflattened frontier: the four-body loop pays quotient
 tower activity exactly, and the native cubic source selector must be converted
 to that paid currency by one of the precise same-carrier production theorems
 above.
+
+## 31. Body II/III arrow fill status
+
+The Body II/III arrow-fill note now connects the full participation packet to
+same-carrier compactness and then to Body-IV geometry:
+
+```math
+\boxed{
+Q_{4B}
+\xrightarrow{\text{full participation payment}}
+C_{4B}
+\xrightarrow{\text{same-carrier exact object}}
+G_{4B}.
+}
+\tag{4BF.96}
+```
+
+On the unpaid branch, the full Body-II measure gives strong same-carrier
+compactness of the Hodge-Stokes packet.  The selected density then converges in
+\(L^1\), so the selected positive carrier is retained in total variation:
+
+```math
+[h_n]_+\to[h]_+,
+\qquad
+\mu^+_{{\rm sel},n}\to\mu^+_{{\rm sel},*}.
+\tag{4BF.97}
+```
+
+The limit packet is an exact local Navier-Stokes object, so it carries the
+Body-IV gradient law:
+
+```math
+(\partial_s+V\cdot\nabla-\nu\Delta)\nabla V
++(\nabla V)^2+\nabla^2Q=0.
+\tag{4BF.98}
+```
+
+Consequently a lossless Body II/III passage with zero normalized viscous loss
+is removable after Galilean and affine-pressure gauge quotienting:
+
+```math
+\int_{Q_1}|\nabla V_n|^2\to0
+\quad\Longrightarrow\quad
+A_{\rm sel}(P_n)\to0.
+\tag{4BF.99}
+```
+
+Thus persistent selected participation cannot pass through
+\(Q_{4B}\to C_{4B}\to G_{4B}\) without either positive full-cycle loss or one
+of the typed branches: viscous payment, pressure-memory collar payment,
+selector/collar legal payment or Pack failure, terminal trace/storage, missing
+signed partner donor-chain/saturation, or Body-IV geometry/Field failure.
+
+This fills the Body II/III relay.  It does not yet produce the whole four-body
+cycle payment.  The still-live production burden is the same-carrier unweighted
+full-cycle theorem that supplies the positive payment before this relay is
+invoked.
