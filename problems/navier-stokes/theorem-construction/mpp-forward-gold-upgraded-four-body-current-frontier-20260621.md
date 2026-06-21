@@ -45,6 +45,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-precauchy-remainder-fourbody-reduction-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-terminal-zeno-fourbody-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-terminal-trace-ac-component-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-strict-nowaste-full-tuple-recheck-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-base-participation-storage-nested-shell-test-20260621.md
 ---
 
