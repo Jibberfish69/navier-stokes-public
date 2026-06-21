@@ -10,6 +10,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-participation-exchange-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-canonical-selected-carrier-identification-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-deformation-gradient-return-normal-form-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-bodyii-interface-reorientation-20260621.md
 ---
 
 # Four-Body Same-Carrier Orientation Defect Decomposition
@@ -286,38 +287,65 @@ become four concrete same-carrier identification problems.
 
 ### 5.1. Scale/tower to participation
 
-The \(S\to Q\) interface requires the Body-I tower exchange current
+The \(S\to Q\) interface has a corrected exact form.  Body I must use the same
+rung storage as Body II:
 
 ```math
-dJ_{SQ}^{S}
-=
-\sum_{(m,\alpha)}
-w_{m,\alpha}\,dE_{m,\alpha}
+E_{m,\alpha}=M_{m,\alpha,\eta}.
 \tag{SOD.22}
 ```
 
-to be the same signed measure as the incoming Body-II participation current
-computed from the same weighted tower rungs and the same cutoff:
+Then Body II gives
 
 ```math
-dJ_{SQ}^{Q}
-=
-\sum_{(m,\alpha)}
-w_{m,\alpha}\,dJ_{m,\alpha,\eta}.
+dM_{m,\alpha,\eta}+dD_{m,\alpha,\eta}=dJ_{m,\alpha,\eta}.
 \tag{SOD.23}
 ```
 
-This requires:
+Therefore the weighted tower storage derivative differs from the weighted
+participation flux by exactly the weighted viscous/tower loss.  The oriented
+interface identity is:
 
 ```math
 \boxed{
-\text{same rung energy, same factorial weight, same cutoff, same normalized
-cylinder, and same parabolic tower transport.}
+dL_S+dD_S^{\rm rad}+dD_Q^w=dJ_{SQ}^{\rm flux},
 }
 \tag{SOD.24}
 ```
 
-Any mismatch is \(K_{S\to Q}^+\).
+where
+
+```math
+dD_Q^w
+:=
+\sum_{(m,\alpha)}
+w_{m,\alpha}\,dD_{m,\alpha,\eta},
+\qquad
+dJ_{SQ}^{\rm flux}
+:=
+\sum_{(m,\alpha)}
+w_{m,\alpha}\,dJ_{m,\alpha,\eta}.
+\tag{SOD.25}
+```
+
+Thus the old mismatch
+
+```math
+\boxed{
+dJ_{SQ}^{\rm flux}
+-
+\sum_{(m,\alpha)}
+w_{m,\alpha}\,dM_{m,\alpha,\eta}
+=
+dD_Q^w
+}
+\tag{SOD.26}
+```
+
+is a true nonnegative loss, not a hidden carrier defect.  The remaining
+same-carrier requirements are the same rung storage, same factorial weight,
+same cutoff, same normalized cylinder, and same parabolic tower transport.
+Any additional mismatch is \(K_{S\to Q}^+\) or \(K_{\rm sel}\).
 
 ### 5.2. Participation to compactness/no-loss
 
@@ -327,7 +355,7 @@ inside the compact Body-III packet:
 
 ```math
 d\mu_n^J=d\mu_n^A-d\mu_n^N.
-\tag{SOD.25}
+\tag{SOD.27}
 ```
 
 The selected carrier representation, tightness-defect, and canonical
@@ -335,7 +363,7 @@ identification notes have now made this exact:
 
 ```math
 d\mu_n^A=[h_{n,P}]_+\,dy\,ds\,\delta_P,
-\tag{SOD.26}
+\tag{SOD.28}
 ```
 
 escaped mass is \(K_{\rm tight}^A\), and interior density mismatch is
@@ -347,7 +375,7 @@ Thus the \(Q\to C\) interface closes only when
 \boxed{
 K_{\rm sel}=0,\qquad K_{\rm tight}^A=0,\qquad K_{C,A}^{\rm int,+}=0,
 }
-\tag{SOD.27}
+\tag{SOD.29}
 ```
 
 or those terms are charged in \(K_{\rm sel}+K_C^+\).
@@ -366,7 +394,7 @@ In formula form, the no-loss requirement is
 \quad
 \text{after the same material/gauge identification used by Body IV.}
 }
-\tag{SOD.28}
+\tag{SOD.30}
 ```
 
 Failure is part of the Body-III relay defect \(K_C^+\) or a Body-IV carrier
@@ -388,7 +416,7 @@ The exact condition is:
 \Longrightarrow
 \mathcal T_N[v,G]\text{ is the next Body-I tower packet.}
 }
-\tag{SOD.29}
+\tag{SOD.31}
 ```
 
 Failure is \(K_{G\to S}^+\), included in the Body-IV geometry defect \(K_G^+\)
@@ -406,7 +434,7 @@ K_{\rm sel}=0,
 K_C^+=0,
 \qquad
 K_G^+=0.
-\tag{SOD.30}
+\tag{SOD.32}
 ```
 
 Then the four body exchange currents cancel exactly, and the atom/accounting
@@ -420,7 +448,7 @@ L_{4B}(\sigma_0)-\inf L_{4B}
 +
 R_{4B}((\sigma_0,\infty)).
 }
-\tag{SOD.31}
+\tag{SOD.33}
 ```
 
 If the residual vanishes on the terminal tail, nonzero selected activity must
@@ -436,11 +464,11 @@ This note proves the same-carrier orientation decomposition:
 \text{unweighted four-body reserve}
 \quad\text{with extra residual }K_{\rm orient}^+.
 }
-\tag{SOD.32}
+\tag{SOD.34}
 ```
 
 It does not prove the Navier-Stokes pairwise identifications `(SOD.24)`,
-`(SOD.27)`, `(SOD.28)`, and `(SOD.29)`.
+`(SOD.29)`, `(SOD.30)`, and `(SOD.31)`.
 
 The remaining proof work is now sharper:
 
@@ -449,7 +477,7 @@ The remaining proof work is now sharper:
 \text{prove the four pairwise same-carrier identifications, or charge their
 positive mismatches in the existing four-body defect terms.}
 }
-\tag{SOD.33}
+\tag{SOD.35}
 ```
 
 That is the exact current form of "the four bodies must balance."  Balance
