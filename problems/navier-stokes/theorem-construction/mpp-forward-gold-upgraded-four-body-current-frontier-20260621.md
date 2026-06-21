@@ -14,6 +14,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-canonical-selected-carrier-identification-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-four-body-same-carrier-orientation-defect-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-bodyii-interface-reorientation-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-bodyiii-retained-participation-packet-criterion-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -453,6 +454,41 @@ in the compact packet;}
 \tag{4BF.26c}
 ```
 
+This interface now has the retained-packet criterion:
+
+```math
+\boxed{
+\mathcal Q_n^{\rm ret}
+=
+(\mu_n^A,\mu_n^N,\mu_n^J),
+\qquad
+d\mu_n^J=d\mu_n^A-d\mu_n^N.
+}
+\tag{4BF.26c1}
+```
+
+If Body III retains this packet, then
+
+```math
+d\mu_*^J=d\mu_*^A-d\mu_*^N.
+\tag{4BF.26c2}
+```
+
+Failure is charged by
+
+```math
+\boxed{
+K_{Q\to C}^+
+\le
+K_{\rm sel}
++K_{C,A}^+
++K_{C,N}^+
++K_{C,J}^+
++R_{\rm legal}.
+}
+\tag{4BF.26c3}
+```
+
 ```math
 \boxed{
 C\to G:\text{ the compact limit is canonical in the geometry variables;}
@@ -606,3 +642,9 @@ So \(S\to Q\) does not create an unpaid orientation defect once the weighted
 viscous/tower loss \(D_Q^w\) is counted exactly once.  The selected-positive
 activity payment remains open; the correction only makes the exchange-current
 orientation exact.
+
+The second interface has now been sharpened the same way: \(Q\to C\) passes
+through compactness only as the retained participation packet
+\((\mu^A,\mu^N,\mu^J)\).  Compactness may keep the positive carrier only if it
+also retains the signed current and negative partner, or else charges the loss
+to \(K_{\rm sel}\), \(K_C^+\), or legal residual.
