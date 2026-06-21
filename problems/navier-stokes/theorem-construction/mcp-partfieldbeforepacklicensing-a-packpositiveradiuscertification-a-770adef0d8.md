@@ -2,7 +2,7 @@
 
 Status: replaces the generated `OriginalParticipationBeforePackLicensing.A` wording.
 
-The licensed pre-Pack object is the original Navier-Stokes participation law,
+The licensed outside-CM participation-field record-window object is the original Navier-Stokes participation law,
 not the indexed Silver predicates.  The corrected licensing claim is:
 
 ```text
@@ -16,11 +16,11 @@ evolution, fixed viscosity, pressure coupling, and incompressibility.  It is
 global for the candidate solution and can be read at a point or along a terminal
 approach record.
 
-`Part_{N,Q}` is not a separate pre-Pack predicate.  It is the packet-local,
+`Part_{N,Q}` is not a separate outside-CM participation-field record-window predicate.  It is the packet-local,
 finite-depth Silver record of that already-governing law once a packet has been
 selected.  `Field_{N,r,Q}` is likewise a packet/readout coherence record, not a
-free pre-Pack replacement for the whole-field or pointwise participation audit.
+free outside-CM participation-field record-window replacement for the whole-field or pointwise participation audit.
 
-Scope: this note licenses the pre-Pack original-participation audit and blocks
+Scope: this note licenses the outside-CM participation-field record-window original-participation audit and blocks
 the stale inference that Pack supplies participation.  It does not prove a new
 positive-radius Pack theorem.

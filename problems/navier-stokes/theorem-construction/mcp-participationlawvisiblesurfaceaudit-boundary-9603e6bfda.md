@@ -4,7 +4,7 @@ Status: failed audit boundary / conditional support retained.
 
 ## Audit target
 
-Check whether the `PartStarToPartFieldFaceBridge.Attempt` can be promoted from semantic bridge to source-backed Pack/Part/Field witness-face record by direct visible-surface audit of the participation-law notes.
+Check whether the `PartStarToPartFieldFaceBridge.Attempt` can be promoted from semantic bridge to source-backed Part/Field witness record by direct visible-surface audit of the participation-law notes.
 
 ## Surfaces located during this loop
 
@@ -21,7 +21,7 @@ The MCP search and theorem-work brief exposed the following relevant surfaces:
 
 ## Audit result
 
-The live theorem-work brief confirms the active CM target remains `clay-cm-contrapositive-witness-consumption`, with promotion controlled by Pack/Part/Field landing. It also reports an installed bridge-license theorem for synchronized Pack/Part/Field face certificates on the same `Q,N,r`, same-fluid carrier, and still-live window.
+The live theorem-work brief confirms the active CM target remains `clay-cm-contrapositive-witness-consumption`, with promotion controlled by Part/Field landing. It also reports an installed bridge-license theorem for synchronized Part/Field face certificates on the same `Q,N,r`, same-fluid carrier, and still-live window.
 
 That supports the bridge shape:
 

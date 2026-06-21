@@ -3,7 +3,7 @@
 ## Target
 Discharge `PCTP.hard terminal-tail production`:
 
-`OriginalSmoothData -> uniform terminal-tail retained Pack/Part/Field/tower readout`.
+`OriginalSmoothData -> uniform terminal-tail retained Part/Field/tower readout`.
 
 ## Surfaces checked
 - `mpp-pctp-hard-quantitative-closure-package.md`

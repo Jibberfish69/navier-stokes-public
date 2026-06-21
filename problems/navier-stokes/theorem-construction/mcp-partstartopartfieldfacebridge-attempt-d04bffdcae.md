@@ -4,7 +4,7 @@ Status: conditional bridge attempt.
 
 ## Target
 
-Convert the `Part(*)` participation-exit assessment into a Pack/Part/Field-facing CM witness record.
+Convert the `Part(*)` participation-exit assessment into a Part/Field-facing CM witness record.
 
 The desired bridge is:
 
@@ -16,7 +16,7 @@ The desired bridge is:
 }
 ```
 
-This would make the event a licensed face failure for the CM contrapositive route.
+This would make the event a licensed Part/Field failure for the CM contrapositive route.
 
 ## Definitions used in this attempt
 
@@ -34,7 +34,7 @@ Let `z=(T_*,x_*)` be a genuine terminal singular event in a same-fluid candidate
 
 Then `z` cannot supply finite local pressure--viscosity--incompressibility service on any terminal `Part(*)` window carrying the claimed smooth member structure.
 
-Hence the terminal candidate lands in one of the licensed CM faces:
+Hence the terminal candidate lands in one of the licensed CM Part/Fields:
 
 ```math
 z\in Q_{terminal},\quad z\text{ genuine singular}
@@ -86,7 +86,7 @@ The CM landing is:
 :=\neg Member(Q;O_{NS}^{work})
 ```
 
-through a concrete `Part_{N,Q}` or `Field_{N,r,Q}` face failure.
+through a concrete `Part_{N,Q}` or `Field_{N,r,Q}` Part/Field failure.
 
 ## Status of the bridge
 

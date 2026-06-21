@@ -26,7 +26,7 @@ Thus the ontology is:
 
 `Part(*)` is a local service predicate, not mere set-theoretic presence inside the spatial domain. A lawful part must admit a finite local pressure relation, viscous diffusion relation, and incompressible transport relation on the same-fluid carrier. A singular point has a collapsed local scale, unbounded derivative/field data, or a terminal defect measure. That data can enter the weak equation only through a measure, trace, or defect carrier.
 
-Consequently the point is no longer a regular participant in the Part/Field service topology. It is a terminal witness for a concrete face failure:
+Consequently the point is no longer a regular participant in the Part/Field service topology. It is a terminal witness for a concrete Part/Field failure:
 
 ```math
 \mathrm{Exit}(Q;O_{NS}^{work}) := \operatorname{Member}(Q;O_{NS}^{work})^{c}
@@ -48,7 +48,7 @@ So the event remains globally constrained and locally disqualified.
 
 ## Consequence for the route
 
-Any route that admits such an event inside the same alleged member object must classify it as a Part/Field face failure. A singularity in the gap is therefore evidence for the CM contrapositive branch, not a harmless forward-gold survivor.
+Any route that admits such an event inside the same alleged member object must classify it as a Part/Field Part/Field failure. A singularity in the gap is therefore evidence for the CM contrapositive branch, not a harmless forward-gold survivor.
 
 The required bridge theorem is:
 
@@ -58,7 +58,7 @@ The required bridge theorem is:
 \Longrightarrow
 \text{loss of Part(*) finite local participation}
 \Longrightarrow
-\text{licensed } Part_{N,Q}\text{ or }Field_{N,r,Q}\text{ face failure}.
+\text{licensed } Part_{N,Q}\text{ or }Field_{N,r,Q}\text{ Part/Field failure}.
 }
 ```
 

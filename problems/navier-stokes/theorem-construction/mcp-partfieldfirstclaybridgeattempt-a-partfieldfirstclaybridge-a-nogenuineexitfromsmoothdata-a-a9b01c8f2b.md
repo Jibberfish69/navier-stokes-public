@@ -57,7 +57,7 @@ So `Q` is not a `Member(Q)` survivor.
 
 By `PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A`, `Q` is eligible for the ordinary positive-radius `Pack_Q` test and then the ordinary `Part_{N,Q}` / `Field_{N,r,Q}` chain.
 
-If all three services survive, this is the continuation/readout branch and not a finite-time singular counterexample. If one service fails, it is a concrete CM face failure.
+If all three services survive, this is the continuation/readout branch and not a finite-time singular counterexample. If one service fails, it is a concrete CM Part/Field failure.
 
 ## Failure point
 
@@ -66,7 +66,7 @@ This does not yet prove the full Clay bridge by itself.
 It proves:
 
 ```text
-any alleged finite-time breakdown is classified as a Part/Field/Pack face failure or continuation/readout recovery.
+any alleged finite-time breakdown is classified as a Part/Field/Pack Part/Field failure or continuation/readout recovery.
 ```
 
 But the official Clay bridge needs one more noncircular theorem:
@@ -80,7 +80,7 @@ Equivalently:
 
 ```text
 ClassExitFromSmoothDataContradiction.A:
-A terminal CM face failure produced by the same smooth branch is not merely a label for breakdown; it is incompatible with the installed forward-invariance / terminal-closedness package.
+A terminal CM Part/Field failure produced by the same smooth branch is not merely a label for breakdown; it is incompatible with the installed forward-invariance / terminal-closedness package.
 ```
 
 Without that theorem, the proof has classified the counterexample but has not contradicted it.
@@ -104,7 +104,7 @@ The remaining blocker is no longer Pack ordering, endpoint strip classification,
 The blocker is:
 
 ```text
-prove that a same-solution terminal Part/Field face failure cannot genuinely arise from smooth initial data on a maximal classical Navier-Stokes branch.
+prove that a same-solution terminal Part/Field Part/Field failure cannot genuinely arise from smooth initial data on a maximal classical Navier-Stokes branch.
 ```
 
 That is the actual `NoGenuineExitFromSmoothData.A` content.

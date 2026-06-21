@@ -16,11 +16,11 @@ The `Part_{N,Q}` / `Field_{N,r,Q}` tests used for class witness record include e
 
 ## Attempt
 
-The Pack/Part/Field canonicality note licenses `Part_{N,Q}` and `Field_{N,r,Q}` as refinements of the existing witness-face records. It does not supply a quantitative estimate.
+The Part/Field canonicality note licenses `Part_{N,Q}` and `Field_{N,r,Q}` as refinements of the existing witness records. It does not supply a quantitative estimate.
 
 Circularity caveat: same-solution terminal readout continuity means continuity in the same-solution approach-tower readout or a scale-indexed terminal limiting regime. It does not mean ordinary Pack_Q positive-radius admission, and it cannot assume positive terminal Pack carrier scale, finite Pack cover, Pack deformation/readout comparability, or Pack noncollapse.
 
-The primitive-minimality note says each witness face carries its own irreducible endpoint-exclusion burden. That supports independent Part/Field testing, yet it also means the needed strength cannot be obtained by bookkeeping alone.
+The primitive-minimality note says each witness carries its own irreducible endpoint-exclusion burden. That supports independent Part/Field testing, yet it also means the needed strength cannot be obtained by bookkeeping alone.
 
 The installed cost dichotomy gives the exact analytic threshold:
 
