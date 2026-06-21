@@ -97,7 +97,7 @@ bridges:
 ```
 
 Neither bridge is installed by `(SP)`, the direct `(8j11)` branch, fixed-`N`
-terminal-window integrability, or retained Pack.
+terminal-window integrability, or retained Field-window evidence.
 
 ## Result
 

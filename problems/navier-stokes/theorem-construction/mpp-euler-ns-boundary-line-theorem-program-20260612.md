@@ -37,7 +37,7 @@ The Navier-Stokes side adds the fixed positive-viscosity term
 \nu\Delta u,\qquad \nu>0.
 ```
 
-Inside the CM witness tree, that difference is read at the two non-Pack faces:
+Inside the CM witness tree, that difference is read at the two non-Field-window evidences:
 
 ```math
 Part_{N,Q}:\quad
@@ -208,7 +208,7 @@ The clean theorem is:
 
 ```text
 same selected NS packet
-+ Pack survives
++ Field-window evidence is present
 + same transport-pressure-incompressible core survives
 + loss is exactly viscous participation or the viscous one-field tether
 + no Reynolds stress, source measure, pressure-source residue, or defect measure
@@ -300,7 +300,7 @@ For each Euler-related surface, prove or reject the following packet:
 
 ```text
 same selected NS packet
-+ Pack survives
++ Field-window evidence is present
 + same transport-pressure-incompressible core survives
 + the only broken mechanism is viscous participation or one-field viscous tether
 + no defect measure/source residue/Reynolds stress is introduced

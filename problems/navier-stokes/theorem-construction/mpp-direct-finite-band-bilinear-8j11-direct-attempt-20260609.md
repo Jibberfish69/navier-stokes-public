@@ -4,7 +4,7 @@ ns_viewer:
   status: failed-reduced-to-finite-collar-amplitude-control
   proof_role: retained_far_corona_direct_bilinear_attempt
   logical_landing_node: retained-tail-input-far-corona-endpoint
-  edge_effect: "Continues the active-completion loop inside the retained endpoint-threading split. DirectFiniteBandBilinear8j11.A is not proved from current inputs: the finite-collar bilinear term can be Young-split against active dissipation only after a smallness theorem for the collar coefficient 2^{-j}E_m on the retained terminal interval. Raw energy, retained Pack, raw CKN finiteness, and the absorbed shell-pair packet do not provide that coefficient smallness."
+  edge_effect: "Continues the active-completion loop inside the retained endpoint-threading split. DirectFiniteBandBilinear8j11.A is not proved from current inputs: the finite-collar bilinear term can be Young-split against active dissipation only after a smallness theorem for the collar coefficient 2^{-j}E_m on the retained terminal interval. Raw energy, retained Field-window evidence, raw CKN finiteness, and the absorbed shell-pair packet do not provide that coefficient smallness."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-retained-endpoint-mass-shell-pair-threading-direct-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/far-corona-cts-lpas-execution-program.md
@@ -184,7 +184,7 @@ TerminalNuNWindowSeedSynchronization.A.
 `NS-LIVE-20260609-187`: `DirectFiniteBandBilinear8j11.A` is not proved. The
 finite-band term can be absorbed only after controlling the finite-collar
 coefficient `2^{-j}E_m` on the retained terminal interval. Current inputs
-provide raw energy, retained Pack, CKN/source finiteness, and the absorbed
+provide raw energy, retained Field-window evidence, CKN/source finiteness, and the absorbed
 shell-pair packet; none of these supplies retained finite-collar amplitude
 smallness or seed-to-interval propagation. The next pass must prove
 `RetainedFiniteBandAmplitudeSmallness.A`,

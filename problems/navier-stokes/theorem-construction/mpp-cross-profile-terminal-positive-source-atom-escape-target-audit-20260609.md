@@ -41,7 +41,7 @@ It is not the public Clay finality parent.
 
 ```text
 terminal source residue from a finite-failure scenario
-=> not Pack_Q or not Part_{N,Q}.
+=> not Part_{N,Q}.
 ```
 
 The source residue is not first deleted. It is a witness. If no positive

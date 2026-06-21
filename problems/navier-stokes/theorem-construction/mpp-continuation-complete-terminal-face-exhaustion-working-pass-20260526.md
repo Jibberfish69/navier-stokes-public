@@ -53,7 +53,7 @@ Part/Field failure:
 finite terminal non-continuation at T_*
 =>
 not Pack_Q
-or (Pack_Q and not Part_{N_s,Q})
+or (not Part_{N_s,Q})
 or (Pack_Q and Part_{N_s,Q} and for all r>0 not Field_{N_s,r,Q})
 ```
 
@@ -108,12 +108,12 @@ fails for every `r>0`.
 Read the failed conjunction in the required Pack-out-of-CM audited order.
 
 1. If no positive same-fluid terminal carrier exists, then `not Pack_Q`.
-   This is the Pack face.  It covers terminal zero-radius, detached carrier, and
+   This is the Field-window evidence.  It covers terminal zero-radius, detached carrier, and
    unpaid ancestry cases.
 
 2. If `Pack_Q` survives for a selected same-fluid carrier but the
    differentiated Navier-Stokes pressure-viscosity tower does not survive
-   through depth `N_s` on that carrier, then `Pack_Q and not Part_{N_s,Q}`.
+   through depth `N_s` on that carrier, then `not Part_{N_s,Q}`.
    This is the Part face.
 
 3. If both `Pack_Q` and `Part_{N_s,Q}` survive, the failed `ContCM` conjunction

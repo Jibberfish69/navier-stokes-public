@@ -36,7 +36,7 @@ located on the same terminal witness ledger
 Assume the retained branch:
 
 ```math
-Pack_Q + Part_{N,Q} + CritConc_{L^3}(\mathcal W).
+Part_{N,Q} plus Field-window evidence + CritConc_{L^3}(\mathcal W).
 ```
 
 Choose terminal cylinders `Q_m` on the same ledger and scale `\ell_m -> 0`
@@ -80,8 +80,7 @@ The argument above uses a lemma that is not installed:
 TerminalCriticalDuhamelSourceExtraction.A:
 \quad
 CritConc_{L^3}(\mathcal W)
-+ Pack_Q
-+ Part_{N,Q}
++ Part_{N,Q} plus Field-window evidence
 + NoEarlierSelectedCriticalSlice.A
 \Longrightarrow
 \mu_*^{sing}>0
@@ -106,7 +105,7 @@ HeatLinearRemainderNoTerminalCriticalMass.A:
 The needed theorem is not installed. The May 19 heat-remainder attempt reduces
 the branch to `SameLedgerHeatAncestorLocalization.A`: terminal local `L^3` mass
 of a heat evolution must either have a same-ledger earlier critical slice or
-select the Pack face.
+select the Field-window evidence.
 
 ### 2. Duhamel Source Conversion
 
@@ -144,7 +143,7 @@ CriticalL3ConcentrationToNativeSourceResidue.A.
 Once that package is proved, the prior Field landing applies:
 
 ```math
-Pack_Q + Part_{N,Q} + CritConc_{L^3}(\mathcal W)
+Part_{N,Q} plus Field-window evidence + CritConc_{L^3}(\mathcal W)
 \Longrightarrow
 \neg Field_{N,r,Q}.
 ```

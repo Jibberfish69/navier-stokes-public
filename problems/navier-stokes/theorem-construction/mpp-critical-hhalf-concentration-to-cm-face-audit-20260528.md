@@ -60,7 +60,7 @@ The oscillatory reading is different: the flow carries increasingly fine same-sc
 
 1. **SameLedgerHHalfExtraction.A**: a selected terminal `H^{1/2}` defect either fails Part/Field before localization or produces a same-ledger dyadic packet on the retained carrier.
 
-2. **HHalfOscillationFieldExit.A**: retained `Pack_Q + Part_{N,Q}` plus a same-ledger pure high-frequency `H^{1/2}` defect forces `\neg Field_{N,r,Q}` at the selected depth/scale.
+2. **HHalfOscillationFieldExit.A**: retained `Part_{N,Q} plus Field-window evidence` plus a same-ledger pure high-frequency `H^{1/2}` defect forces `\neg Field_{N,r,Q}` at the selected depth/scale.
 
 3. **HHalfAmplitudeToL3Translator.A**: the amplitude branch of the `H^{1/2}` signal feeds the already installed local `L^3` translator without losing the witness ledger.
 

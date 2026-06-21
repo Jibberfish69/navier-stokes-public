@@ -65,7 +65,7 @@ branch history, and status surfaces that do not land in one of those two roles.
 | `problems/navier-stokes/theorem-construction/mpp-retained-carrier-no-defect-participation-direct-attempt-20260609.md:149` | incomplete | Strong-compactness and same-ledger payment package missing. |
 | `problems/navier-stokes/theorem-construction/mpp-viscosity-class-separation-edge-theorem-program.md:278` | conditional | Viscosity-class separation still has named bridge obligations. |
 | `problems/navier-stokes/theorem-construction/mpp-viscosity-class-separation-unconditional-closure-attempt.md:264` | failed unconditional attempt | Zero effective viscous budget does not automatically produce an Euler member. |
-| `problems/navier-stokes/theorem-construction/mpp-pressure-endpoint-pack-part-field-witness-test-20260517.md:51` | failed diagnostic | Pressure endpoint route remains a failed diagnostic, not a retained PDF proof role. |
+| `problems/navier-stokes/theorem-construction/mpp-pressure-endpoint-part-field-witness-test-20260517.md:51` | failed diagnostic | Pressure endpoint route remains a failed diagnostic, not a retained PDF proof role. |
 
 The packet-level nonsmooth-side work still needs:
 
