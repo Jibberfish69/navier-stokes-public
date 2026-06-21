@@ -84,7 +84,7 @@ chunk:
       absorbable-plus-summable high-shell estimate is the missing forward-positive
       payment.  In the silver layer, a failure of this estimate becomes proof material
       only after the manuscript selects the same terminal record and lands the
-      resulting residue at Pack, Part, Field, or readout.
+      resulting residue at Part, Field, or readout.
 
 
     truncated: false
@@ -510,7 +510,7 @@ chunk:
     absorbable-plus-summable high-shell estimate is the missing forward-positive
     payment.  In the silver layer, a failure of this estimate becomes proof material
     only after the manuscript selects the same terminal record and lands the
-    resulting residue at Pack, Part, Field, or readout.
+    resulting residue at Part, Field, or readout.
 
 
 
@@ -848,7 +848,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
