@@ -73,18 +73,18 @@ Merged page defects:
   construction, continuation readout, or whole-space handling.
 - Page 6, reframing: the paper shifts from smoothness to class membership
   before the reader feels why the finite-breakdown claim forces that shift.
-- Page 8, Silver Standard Approach: Pack/Part/Field exhaustion is asserted
+- Page 8, Silver Standard Approach: Part/Field exhaustion is asserted
   before it feels mathematically forced.
 - Page 9, class membership: notation starts carrying thought that prose has not
   earned.
-- Page 16, terminal-consumption theorem: Pack/Part/Field necessity is true
+- Page 16, terminal-consumption theorem: Part/Field necessity is true
   inside the grammar, while the reader still needs the bridge from Clay
   breakdown to that grammar.
 
 Actionable repair target:
 - Objective: add a clean equivalence block in ordinary mathematical language:
   an alleged finite-time breakdown must offer a same-solution terminal object;
-  a same-solution terminal object is tested by Pack, Part, Field; all three
+  a same-solution terminal object is tested by Part and Field; all three
   retained requirements give the standard continuation readout; a first failed
   requirement gives class exit for that same object.
 - Filenames:
@@ -138,7 +138,7 @@ Actionable repair target:
 - Source regions:
   - Main-body "No third in-class terminal branch" theorem.
   - Main-body "Periodic CM classification state" theorem.
-  - Source-field appendix sections near retained Pack/Part/Field and terminal
+  - Source-field appendix sections near retained Part/Field and terminal
     record entry.
 - Required result: the no-third-branch theorem is no longer a definition wearing
   a theorem label. It points to the exact analytic continuation consumer and the
@@ -154,7 +154,7 @@ terminal witness.
 
 Criticism:
 A finite-time breakdown claim does not automatically hand the reader a clean
-same-solution terminal packet with Pack, Part, and Field faces. The manuscript
+same-solution terminal packet with Part and Field faces. The manuscript
 has to show how the original solution, the alleged terminal time, the domain,
 and the selected terminal object are tied together before the witness test is
 allowed to start.
@@ -173,7 +173,7 @@ Actionable repair target:
 - Objective: install a terminal-object construction subsection before the first
   heavy use of `Q`: what data are fixed, what terminal sequence is selected,
   what makes the object same-solution, what is rejected as surrogate or
-  diagnostic only, and where Pack/Part/Field begin.
+  diagnostic only, and where Part/Field begin.
 - Filenames:
   - `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`
   - `problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md`
@@ -200,7 +200,7 @@ stop. That list does not by itself prove that every possible finite-time
 Navier-Stokes breakdown mechanism is one of those historical branches. A
 submission-grade proof needs a theorem that turns "these are the routes we
 found" into "every admissible finite terminal object enters this same
-Pack/Part/Field test."
+Part/Field test."
 
 Merged page defects:
 - Page 6, failure list entrance: "support stack" sounds like repo history rather
@@ -217,7 +217,7 @@ Merged page defects:
 
 Actionable repair target:
 - Objective: write an exhaustiveness theorem for admitted terminal witnesses:
-  after same-solution entry, the first lost requirement is Pack, Part, Field, or
+  after same-solution entry, the first lost requirement is Part and Field, or
   the material is support awaiting terminal selection. Historical branches then
   become examples of this theorem, not the theorem itself.
 - Filenames:
@@ -232,7 +232,7 @@ Actionable repair target:
   - Appendix "Expanded CM Branch Obligations".
 - Required result: the proof no longer depends on the reader trusting a catalog
   of past attempts. The catalog becomes evidence under a theorem that names the
-  admissible alternatives and their face landings.
+  admissible alternatives and their Part/Field landings.
 - Safe repair mode: keep the history as mathematical provenance, but make the
   proof theorem independent of the history count.
 
@@ -283,7 +283,7 @@ Actionable repair target:
 ## 7. Many Theorems Are Conceptual One-Paragraph Proofs Without Analytic Payment
 
 Original criticism restored: Many propositions and theorems are conceptual
-one-paragraph proofs naming Pack, Part, Field, membership, readout, or class
+one-paragraph proofs naming Part and Field, membership, readout, or class
 exit without estimates, compactness, traces, pressure recovery, or continuation
 criteria.
 
@@ -356,7 +356,7 @@ Merged page defects:
 
 Actionable repair target:
 - Objective: expand Appendix D into explicit proof-payment blocks. Each block
-  must say the selected terminal object, the Pack/Part/Field face or membership
+  must say the selected terminal object, the Part/Field face or membership
   readout it pays, the theorem or estimate used, and how it returns to the main
   proof. Historical material should be marked as historical only when it is not
   being used for current proof payment.
@@ -386,7 +386,7 @@ The final pages count hundreds of obligations and sort them into proof roles.
 This may help the app or coverage machinery, but it is not enough for a Clay
 submission. A count like 541 support-boundary obligations or 1067 support
 obligations tells the reader the system sorted a lot of material. It does not
-show the local theorem, estimate, witness entry, face failure, or readout.
+show the local theorem, estimate, witness entry, Part/Field failure, or readout.
 
 Merged page defects:
 - Page 1075, expanded CM obligations: counts are used to introduce proof roles.
@@ -402,7 +402,7 @@ Merged page defects:
 Actionable repair target:
 - Objective: replace count-first rollups with theorem-first branch payments.
   For each material family retained in the PDF, write the local mathematical
-  object, exact witness face or pass-side readout, proof mechanism, and result.
+  object, exact witness or pass-side readout, proof mechanism, and result.
   Counts may remain as provenance after the theorem has been paid, never as the
   proof itself.
 - Filenames:
@@ -462,7 +462,7 @@ must be enforced while repairing the nine mathematical criticisms above.
    `problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex`
    and `problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex`.
    Result required: open/conditional/history language is separated from current
-   proof payment, and every retained block states the exact Pack/Part/Field or
+   proof payment, and every retained block states the exact Part/Field or
    membership readout it serves.
 
 3. Generated rollup repair:
