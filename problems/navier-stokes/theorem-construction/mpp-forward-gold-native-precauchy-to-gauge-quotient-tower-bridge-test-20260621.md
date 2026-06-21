@@ -2,7 +2,7 @@
 theorem_id: forward-gold-native-precauchy-to-gauge-quotient-tower-bridge-test-20260621
 status: direct-bridge-fails-exact-supplement-criteria-installed-production-open
 logical_landing_node: native_precauchy_to_gauge_quotient_tower_bridge_test
-edge_effect: "Tests the newly exposed bridge from the native positive pre-Cauchy/source selector to the gauge-quotient finite tower carrier. The direct bridge fails: the main native carrier is trilinear, of the form chi |W|^2 [e.Sigma.e]_+, while the quotient tower/parabolic drain is quadratic. A scaling countertest gives source/drain ratio proportional to amplitude, so no amplitude-free domination by D_Q^w can hold. The bridge closes only with an additional same-carrier supplement. The finite-order amplitude/Field supplement is proved. The source-square/no-waste, critical-density/CKN, and signed-polar saturation supplements are assembled as exact criteria. Production remains open at same-carrier identity, coefficient overrun/tail depletion, missing unweighted square/no-waste budget, missing unweighted critical-density/CKN budget, production of dN_miss=0 or a legal/charged polar defect, rigid source-residue production, or legal/charged full pre-Cauchy remainder reduction."
+edge_effect: "Tests the newly exposed bridge from the native positive pre-Cauchy/source selector to the gauge-quotient finite tower carrier. The direct bridge fails: the main native carrier is trilinear, of the form chi |W|^2 [e.Sigma.e]_+, while the quotient tower/parabolic drain is quadratic. A scaling countertest gives source/drain ratio proportional to amplitude, so no amplitude-free domination by D_Q^w can hold. The bridge closes only with an additional same-carrier supplement. The finite-order amplitude/Field supplement is proved. The source-square/no-waste, critical-density/CKN, signed-polar saturation, and rigid source-residue supplements are assembled as exact criteria. Production remains open at same-carrier identity, coefficient overrun/tail depletion, missing unweighted square/no-waste budget, missing unweighted critical-density/CKN budget, production of dN_miss=0 or a legal/charged polar defect, MinimalZenoProfileProduction.A, or legal/charged full pre-Cauchy remainder reduction."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-gauge-quotient-tower-carrier-drain-production-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-precauchy-main-carrier-consumer-boundary-20260621.md
@@ -13,6 +13,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-density-ckn-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-polar-saturation-fourbody-supplement-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-rigid-source-residue-fourbody-supplement-criterion-20260621.md
 ---
 
 # Native Pre-Cauchy to Gauge-Quotient Tower Bridge Test
@@ -326,6 +327,14 @@ through profile production rather than through local drain domination.
 
 This is the rigidity fork of the same four-body loop.
 
+This supplement is now assembled in
+`mpp-forward-gold-rigid-source-residue-fourbody-supplement-criterion-20260621.md`.
+The downstream zero-force Landau/Sverak consumer is conditional.  The unproved
+production input is exactly `MinimalZenoProfileProduction.A`, including
+endpoint residue evacuation or controlled force, nontriviality retention,
+no-drift/unique tangent, renormalized stationarity, homogeneity extraction,
+defect evacuation, and sphere smoothness.
+
 ## 4. Remainder clause
 
 Even if the main carrier is handled, the full localized pre-Cauchy carrier
@@ -406,11 +415,13 @@ The exact surviving bridge is:
 \tag{NQB.23}
 ```
 
-After the amplitude, source-square/no-waste, critical-density/CKN, and
-signed-polar saturation supplement notes, the unresolved gold-production
+After the amplitude, source-square/no-waste, critical-density/CKN,
+signed-polar saturation, and rigid source-residue supplement notes, the
+unresolved gold-production
 suppliers inside `(NQB.23)` are same-carrier square/no-waste budget,
 same-carrier critical-density/CKN budget, production of `(NQB.18a)`, rigid
-profile production, or full pre-Cauchy remainder reduction.  The
+profile production through `MinimalZenoProfileProduction.A`, or full
+pre-Cauchy remainder reduction.  The
 source-square/no-waste route is still open exactly at
 same-carrier identity, coefficient-overrun, or missing unweighted-budget
 production.  The critical-density/CKN route is still open exactly at
@@ -418,6 +429,10 @@ same-carrier critical-density identity, missing unweighted selected
 \(L^{5/2}\)-strain or normalized CKN budget, and same-layer overrun tail
 depletion.  The signed-polar route is still open exactly at same-carrier
 negative-part retention or legal/charged production for \(dN_{\rm miss}\).  The
+rigid source-residue route is still open exactly at endpoint residue evacuation
+or controlled force, nontriviality retention, no-drift/unique tangent,
+renormalized stationarity, homogeneity, defect evacuation, and sphere
+smoothness.  The
 four-body program still stays intact: tower drain pays
 quadratic gauge-quotient activity; participation supplies the signed source;
 compactness must retain the same positive/negative carrier; geometry must
