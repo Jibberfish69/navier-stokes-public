@@ -148,12 +148,12 @@ certificate ledger.
 | `raw_terminal_source_residue_pack_or_part_exit` | `not Pack_Q` or `not Part_{N,Q}` | clean subcase only | raw source or pressure-source residue blocks Euler entrance until the residue is removed or typed as lawful inviscid momentum with no extra source measure. |
 | `pressure_viscosity_or_dwell_part_exit` | `not Part_{N,Q}` | applies to clean Part subcase | the NS face is exactly lost participation; Theorem 1 applies once the same selected packet has \(EVol+EMom\) and no residue leak. |
 | `retained_positive_window_blowup_field_exit` | `Part_{N,Q} + forall r>0 not Field_{N,r,Q}` | applies to clean Field subcase | Pack and Part survive and one-field coherence fails; Theorem 2 applies when the inviscid \(EVol+EMom\) law remains readable. |
-| `retained_native_source_residue_field_diagnostic` | retained Field diagnostic | underdeveloped potential / mostly excluded | raw residue is seated at Pack/Part first; the Field wording becomes clean only after a same-atlas participation license removes source-measure residue. |
+| `retained_native_source_residue_field_diagnostic` | retained Field diagnostic | underdeveloped potential / mostly excluded | raw residue is seated at Part/Field first; the Field wording becomes clean only after a same-atlas participation license removes source-measure residue. |
 | `retained_positive_scale_native_reserve_birth` | unresolved/support | does not apply | supplier support has not landed a selected Part/Field face and does not identify an Euler member. |
 | `active_height_low_strain_typed_disjunction` | finite Part/Field/Zeno split | clean subcases only | only its certified Part or retained-Field subcases can use Theorems 1 or 2; hidden signed-pair or support alternatives cannot. |
 | `signed_current_no_free_sink_family` | no independent face | does not apply | signed-current support is not a CM Part/Field and not an Euler class-entrance theorem. |
-| `endpoint_good_scale_no_pulse_readout` | support or Field after Pack+Part | underdeveloped potential | readout becomes clean only after it is restated on the same selected packet as retained Pack+Part plus Field failure. |
-| `terminal_l3_duhamel_mass_same_witness_cm_part_field_question` | Pack/Part, or Field after retained Pack+Part | clean retained-Field subcase only | Pack/Part/source alternatives are not Euler entrance; the retained Pack+Part Field-incompatibility subcase can use Theorem 2 after no-residue typing. |
+| `endpoint_good_scale_no_pulse_readout` | support or Field after Part plus Field-window evidence | underdeveloped potential | readout becomes clean only after it is restated on the same selected packet as retained Part plus Field-window evidence plus Field failure. |
+| `terminal_l3_duhamel_mass_same_witness_cm_part_field_question` | Part/Field, or Field after retained Part plus Field-window evidence | clean retained-Field subcase only | Part/Field/source alternatives are not Euler entrance; the retained Part plus Field-window evidence Field-incompatibility subcase can use Theorem 2 after no-residue typing. |
 | `local_critical_translator_same_witness` | no independent face until same-atlas localization | underdeveloped potential | generic critical translators need same-atlas localization and a Field incompatibility theorem before they can enter the Euler boundary. |
 | `transfer_and_mirror_comparison` | no independent face | stale/excess for NS proof | broad comparison remains outside the NS proof unless it produces the same selected NS packet with a Part/Field decision. |
 
@@ -171,20 +171,20 @@ material by another name.
 | endpoint surface | installed face behavior | Euler-boundary classification |
 | --- | --- | --- |
 | grounded CM core in `source-frontier.yaml` | all terminal obstructions enter the same-fluid tree and fail Part or Field first | framework only; Euler applies only after a clean Part/Field row is typed |
-| live edge chain / torus material atlas | lost atlas carrier, lost pressure-viscosity tower, or retained Pack+Part with no coherent scale | framework only; clean Part/Field subcases use Theorems 1 and 2 |
-| `R3.WholeSpaceCMCompletion.A` | exterior source vanishes or surviving exterior source lands in Part/Field | mostly excluded; retained Pack+Part dyadic Field subcase is potential only after no-residue Euler readability |
+| live edge chain / torus material atlas | lost atlas carrier, lost pressure-viscosity tower, or retained Part plus Field-window evidence with no coherent scale | framework only; clean Part/Field subcases use Theorems 1 and 2 |
+| `R3.WholeSpaceCMCompletion.A` | exterior source vanishes or surviving exterior source lands in Part/Field | mostly excluded; retained Part plus Field-window evidence dyadic Field subcase is potential only after no-residue Euler readability |
 | endpoint matrix / endpoint taxonomy | Pack = packing-detached, Part = Dead, Field = Jump, tower-blown/readout rows reduce back to native faces | taxonomy only; no Euler entrance without same selected packet and \(EVol+EMom\) |
 | `TerminalSourceResidueCMExit.A` | no positive carrier gives Pack; unpaid retained source/forcing gives Part | excluded while raw residue remains; clean Part subcase requires source-measure removal |
-| `TerminalL3DuhamelMassCMFace.A` | source-wall failure gives Pack; unpaid native residue gives Part; retained Pack+Part critical L3 concentration gives Field | clean retained-Field subcase only after same-ledger no-residue typing |
-| `AveragedFieldFaceAdmission.A` / `Jump_avg` | retained Pack+Part plus `Jump_avg` rules out positive Field scale only after the same-tail `SCF_base` modulus is supplied or derived | conditional Field subcase after same admitted averaged packet, no defect leak, and the repaired modulus input |
-| `RetainedPressurePackageCMFacePlacement.A` | pressure package is Part failure, pass-side support, or Field failure after retained Pack+Part | clean Part or Field subcases only |
-| `REE.C` receiver escape | missing Pack or Part lands earlier; retained Pack+Part receiver escape lands in Field | clean Field subcase only when receiver escape is one-field tether loss without source residue |
+| `TerminalL3DuhamelMassCMFace.A` | source-wall failure gives Pack; unpaid native residue gives Part; retained Part plus Field-window evidence critical L3 concentration gives Field | clean retained-Field subcase only after same-ledger no-residue typing |
+| `AveragedFieldFaceAdmission.A` / `Jump_avg` | retained Part plus Field-window evidence plus `Jump_avg` rules out positive Field scale only after the same-tail `SCF_base` modulus is supplied or derived | conditional Field subcase after same admitted averaged packet, no defect leak, and the repaired modulus input |
+| `RetainedPressurePackageCMFacePlacement.A` | pressure package is Part failure, pass-side support, or Field failure after retained Part plus Field-window evidence | clean Part or Field subcases only |
+| `REE.C` receiver escape | missing Pack or Part lands earlier; retained Part plus Field-window evidence receiver escape lands in Field | clean Field subcase only when receiver escape is one-field tether loss without source residue |
 | `LowHighInfiniteCostEndpointSource.A` | endpoint source atom with no positive retained carrier lands as Pack | does not apply |
 | `ActiveSquareObstructionPassOrPackExit` | pass branch or terminal zero-radius active-square ancestry lands as Pack | does not apply |
 | `AnnularLimitCMFaceLanding.A` | selected annular tail is followed to first Part or Field face | clean subcases only; bare radius-zero Field-window branch does not apply |
-| CKN / epsilon wall | synchronized bad-cylinder family fails Part or Field | underdeveloped potential; retained Pack+Part bad-cylinder Field subcase can use Theorem 2 only after \(EVol+EMom\) readability |
-| GoodScale / \(H^{1/2}\) Field route | retained Pack+Part plus no SCF-good cylinder lands in Field | clean Field subcase after synchronized same-witness extraction and no oscillation/defect residue |
-| R3 exterior dyadic survivor | retained Pack+Part high-frequency exterior survivor forces no fixed positive Field scale | underdeveloped potential; exterior source residue must not remain an extra source measure |
+| CKN / epsilon wall | synchronized bad-cylinder family fails Part or Field | underdeveloped potential; retained Part plus Field-window evidence bad-cylinder Field subcase can use Theorem 2 only after \(EVol+EMom\) readability |
+| GoodScale / \(H^{1/2}\) Field route | retained Part plus Field-window evidence plus no SCF-good cylinder lands in Field | clean Field subcase after synchronized same-witness extraction and no oscillation/defect residue |
+| R3 exterior dyadic survivor | retained Part plus Field-window evidence high-frequency exterior survivor forces no fixed positive Field scale | underdeveloped potential; exterior source residue must not remain an extra source measure |
 
 This cross-check keeps the endpoint vocabulary typed. `Dead`, `Jump`,
 `tower-blown`, `receiver escape`, `GoodScale failure`, `CKN wall`, and

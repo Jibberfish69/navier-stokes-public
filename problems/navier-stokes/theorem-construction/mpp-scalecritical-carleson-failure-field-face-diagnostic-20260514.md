@@ -344,14 +344,14 @@ This also refines the older `SourcePulseFieldExit.A` posture. That older face
 said:
 
 ```math
-\text{terminal source-pulse}+Pack+Part\Longrightarrow \neg Field.
+\text{terminal source-pulse}+Part plus Field-window evidence\Longrightarrow \neg Field.
 ```
 
 The current note is the scale-critical source-reserve specialization:
 
 ```math
 \text{terminal } \neg ScaleCriticalTreeCarleson.A
-+Pack+Part
++Part plus Field-window evidence
 \Longrightarrow
 \neg Field.
 ```

@@ -45,7 +45,7 @@ Object role: support-route classification or Field certificate selection.
 Logical skeleton: compare the required `Field_avg` dichotomy with the proposed
 exact-potential positive support route.
 
-Mechanism: `Field_avg` / `Jump_avg`, retained Pack+Part Field face, and
+Mechanism: `Field_avg` / `Jump_avg`, retained Part plus Field-window evidence Field face, and
 first-face order.
 
 ## Checked Field Dichotomy
@@ -102,7 +102,7 @@ other theorem supplies the same-tail modulus. The repaired Field-side split is:
 
 ```text
 Field_avg(T)  => pass side / positive Field cover,
-Jump_avg(T)   => Field Part/Field failure under retained Pack+Part
+Jump_avg(T)   => Field Part/Field failure under retained Part plus Field-window evidence
                  after SCFBaseLocalModulus_N(T,r) is supplied.
 ```
 
@@ -111,14 +111,14 @@ be dismissed as optional until the same-tail modulus has been paid elsewhere.
 
 ## Active Burden After Target Reselection
 
-One unresolved public-finality burden remains the Pack side from original smooth
+One unresolved public-finality burden remains the Field-window support from original smooth
 data:
 
 ```text
 OriginalSmoothDataPackSurvival.A.
 ```
 
-The strongest non-alias child already isolated on disk for that Pack side is:
+The strongest non-alias child already isolated on disk for that Field-window support is:
 
 ```text
 HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A.
@@ -132,7 +132,7 @@ first Pack exit
    or missing licensed schedule/collar theorem.
 ```
 
-It did not prove the contradiction. The Pack-side theorem must pay one of:
+It did not prove the contradiction. The Field-window support theorem must pay one of:
 
 ```text
 terminal h/F defect mass vanishes on every licensed same-fluid Pack scale window;
@@ -146,8 +146,8 @@ USCP.A2-Pack restoration plus a terminal budget closes Pack_Q directly.
 `NS-LIVE-20260609-157`: the exact-potential/QSP branch is classified as
 support-only for CM finality only after the same-tail modulus has been paid by
 another theorem. The active proof cannot spend the installed `Field_avg` /
-`Jump_avg` dichotomy as a Field pass/fail split under retained Pack+Part unless
+`Jump_avg` dichotomy as a Field pass/fail split under retained Part plus Field-window evidence unless
 `SCFBaseLocalModulus_N(T,r)` is supplied. Public Clay finality therefore has two
-visible burdens here: the Pack-side `OriginalSmoothDataPackSurvival.A` family,
+visible burdens here: the Field-window support `OriginalSmoothDataPackSurvival.A` family,
 and the repaired Field-admission modulus needed before `Jump_avg` can be spent
 as `forall r>0 not Field_{N,r,Q}`.

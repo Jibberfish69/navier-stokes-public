@@ -192,7 +192,7 @@ The fixed low part is controlled by energy with an `N`-dependent constant.  So
 terminal `H^s` blow-up cannot be a purely fixed-low-mode obstruction; it must
 force selected high-frequency tail failure for every sufficiently useful
 threshold choice.  In the CM route this is a Field-face/source-wall
-manifestation only after Pack/Part alternatives and readout/legal-loss
+manifestation only after Part/Field alternatives and readout/legal-loss
 alternatives have been routed.
 
 Thus Row 1 is closed as a continuation theorem and as a contrapositive

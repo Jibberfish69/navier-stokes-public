@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/live-theorem-edge.yaml
     - problems/navier-stokes/theorem-construction/selector-quadratic-sign-separation-packet.md
     - problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
-  downstream_consequence: "The next theorem atom is AngularConcentrationFieldFaceEntry.A: prove that a same-terminal-packet failure of finite QSP cap/shell bump nonconcentration lands as a Part/Field failure, specifically Field under retained Pack+Part, instead of remaining an endless positive equidistribution supplier demand."
+  downstream_consequence: "The next theorem atom is AngularConcentrationFieldFaceEntry.A: prove that a same-terminal-packet failure of finite QSP cap/shell bump nonconcentration lands as a Part/Field failure, specifically Field under retained Part plus Field-window evidence, instead of remaining an endless positive equidistribution supplier demand."
 ---
 
 # MPP Source-Native Selector Angular Equidistribution Direct Attempt
@@ -88,7 +88,7 @@ is:
 ```text
 either prove finite QSP angular nonconcentration for the pass branch,
 or prove QSPAngularFailureFieldNecessityBridge.A:
-under retained Pack+Part and on the same terminal packet, failure of finite
+under retained Part plus Field-window evidence and on the same terminal packet, failure of finite
 QSP angular nonconcentration is failure of the Field coherence/readout
 requirement itself, not merely failure of one sufficient supplier route.
 ```
@@ -107,7 +107,7 @@ The next theorem atom is:
 AngularConcentrationFieldFaceEntry.A:
 prove that a same-terminal-packet failure of finite QSP cap/shell bump
 nonconcentration lands as a Part/Field failure, specifically Field
-under retained Pack+Part, instead of remaining an endless positive
+under retained Part plus Field-window evidence, instead of remaining an endless positive
 equidistribution supplier demand.
 ```
 
@@ -122,4 +122,4 @@ proved as a positive source theorem. The route must either prove the angular
 nonconcentration packet or prove `AngularConcentrationFieldFaceEntry.A`: a
 same-terminal-packet CM Part/Field-entry theorem sending failure of finite QSP
 cap/shell bump nonconcentration to the Part/Field tree, Field under
-retained Pack+Part.
+retained Part plus Field-window evidence.

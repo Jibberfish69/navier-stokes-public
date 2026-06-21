@@ -6,12 +6,12 @@ This direct attempt is retained as positive visibility / source-reserve proof-se
 
 Date: 2026-05-25
 
-Status: Pack-side direct proof attempt; sharpens the first unproved atom and
+Status: Field-window support direct proof attempt; sharpens the first unproved atom and
 does not certify Clay closure.
 
 ## Target
 
-The Pack-side theorem needed for the Clay-closing route is:
+The Field-window support theorem needed for the Clay-closing route is:
 
 ```text
 OriginalSmoothData => ScaleCriticalTreeCarleson.A.
@@ -51,7 +51,7 @@ of:
 1. Pack gain / legal packing payment;
 2. Part participation failure;
 3. licensed Field source charge;
-4. terminal Zeno residue already sorted as Pack/Part exit.
+4. terminal Zeno residue already sorted as Part/Field exit.
 
 The charge cannot be a free new positive source budget.  It must either be
 paid by installed same-ledger structure or become a Pack/that Part/Field failure

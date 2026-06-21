@@ -316,5 +316,5 @@ with the caveat that `TerminalSignedSaturation.A` is not a separate lower
 installed theorem; it is a signed formulation of the same source-control wall
 unless a new strain-sign / terminal-saturation argument is supplied.  Any
 absolute fallback to `ScaleCriticalTreeCarleson.A` remains historical supplier
-support under the Pack-out-of-CM CM correction, not a current target-setting
+support under the Pack-out-of-CM correction, not a current target-setting
 conclusion.

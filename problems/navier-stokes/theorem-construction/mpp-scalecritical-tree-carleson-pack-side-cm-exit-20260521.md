@@ -2,7 +2,7 @@
 
 Date: 2026-05-21
 
-Status: CM-exit theorem note / Pack-side carrier correction.
+Status: CM-exit theorem note / Field-window support carrier correction.
 
 ## Statement
 
@@ -20,7 +20,7 @@ Define the scale-critical donor-refill reserve by
 \,dt.
 ```
 
-`ScaleCriticalTreeCarleson.A` is read here as the Pack-side CM carrier theorem:
+`ScaleCriticalTreeCarleson.A` is read here as the Field-window support CM carrier theorem:
 
 ```math
 Pack_Q
@@ -83,7 +83,7 @@ CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 
 Thus any retained CM participation-field record carrier supplies `Pack_Q` before `Part_{N,Q}` or `Field_{N,r,Q}` can be used.  The donor-refill tree is a packet-ancestry object: it consists of parent/child packet edges, legal packet descendants, and the reserve used to keep descendants funded across scales.  Packet ancestry is therefore licensed by the Pack face.
 
-Inside Pack, a legal donor-refill ancestry cannot be an unpaid infinite packet tree.  The Pack-side carrier contract is precisely that the donor-refill ancestry is Carleson-paid:
+Inside Pack, a legal donor-refill ancestry cannot be an unpaid infinite packet tree.  The Field-window support carrier contract is precisely that the donor-refill ancestry is Carleson-paid:
 
 ```math
 Pack_Q

@@ -49,7 +49,7 @@ Installed row and cover surfaces used here:
 | `mcp-dtc-read-full-endpoint-depth-to-towerbound.md` | `DTC.A_avg+READ.COVER+ATD_m^\varepsilon=>\mathfrak A_{N+1,Q}\in L^\infty` |
 | `mcp-pack-from-finite-physical-cover-20260504.md` | `READ.COVER+ATD_m^\varepsilon=>Pack_Q` |
 | `mcp-part-terminal-closedness-field-tower-theorem-20260504.md` | terminal `Part_{N,Q}` from Field, tower, and preterminal Part |
-| `mcp-final-cm-conjunction-member-row-20260504.md` | `Pack+Part+Field=>CM=>Member` |
+| `mcp-final-cm-conjunction-member-row-20260504.md` | `Part+Field=>CM=>Member` |
 | `mpp-member-smooth-contrapositive-witness-bridge-20260504.md` | all-depth CM membership gives `Smooth(Q)` |
 | `mpp-terminal-bad-scale-extraction-compactness-20260505.md` | `TerminalBadScaleExtraction.A` under retained suitable-compactness normalization |
 | `mpp-terminal-defect-persistence-measure-split-20260505.md` | measure-valued defect persistence under interior tightness |

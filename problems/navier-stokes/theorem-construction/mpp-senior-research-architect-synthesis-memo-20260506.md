@@ -578,7 +578,7 @@ PackGainLedger.A or RetainedPackGainProduction.A
 ```
 
 If the amplitude route is revived, prove accumulated positive low-strain gain
-is charged by Pack/Part, not merely bounded by finite net deformation.
+is charged by Part/Field, not merely bounded by finite net deformation.
 
 ## 11. Ranked Theorem Atoms
 
