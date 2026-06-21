@@ -1308,14 +1308,15 @@ certification.
 
 Thus the remaining supplement list is narrower.  Amplitude/Field is paid under
 a same-carrier bounded coefficient or becomes Field-facing after same-witness
-admission.  Source-square/no-waste, pressure-adapted no-residue skew,
+admission.  Source-square/no-waste, participation-preserving no-residue
+full-cycle,
 critical-density/CKN, signed-polar saturation, rigid source-residue production,
 and full pre-Cauchy remainder reduction are exact criteria.  The
 still-unproduced gold work is one of:
 
 ```math
 \boxed{
-\text{unweighted same-carrier square/no-waste, no-residue skew, or
+\text{unweighted same-carrier square/no-waste, full-cycle no-residue, or
 critical-density reserve;}
 }
 \tag{4BF.62}
