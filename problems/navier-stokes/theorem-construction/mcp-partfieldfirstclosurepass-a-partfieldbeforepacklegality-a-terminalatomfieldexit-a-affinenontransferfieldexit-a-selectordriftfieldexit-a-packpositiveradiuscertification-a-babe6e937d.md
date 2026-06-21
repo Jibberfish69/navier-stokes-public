@@ -3,8 +3,8 @@
 Status: supersedes the generated closure pass.
 
 This file previously tried to repair the zero-radius ordering problem by
-testing indexed `Part_{N,Q}` and `Field_{N,r,Q}` before Pack.  That is no
-longer current authority.
+putting packet-local Silver notation on the pre-Pack side.  That is no longer
+current authority.
 
 The corrected route is:
 
