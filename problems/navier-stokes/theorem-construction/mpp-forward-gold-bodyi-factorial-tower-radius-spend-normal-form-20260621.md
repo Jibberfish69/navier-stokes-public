@@ -111,20 +111,6 @@ w_{m,\alpha}(\tau,\rho)
 Then the mixed binomial coefficient cancels exactly:
 
 ```math
-w_{m,\alpha}
-{m\choose a}{\alpha\choose\beta}
-=
-w_{a,\beta}\,
-w_{m-a,\alpha-\beta}
-\left({m!\,\alpha!\over
-a!\,\beta!\,(m-a)!\,(\alpha-\beta)!}\right)^{-1}
-{m\choose a}{\alpha\choose\beta}
-\tag{BIR.9}
-```
-
-and therefore, after simplifying,
-
-```math
 \boxed{
 { \tau^m\rho^{|\alpha|}\over m!\,\alpha!}
 {m\choose a}{\alpha\choose\beta}
