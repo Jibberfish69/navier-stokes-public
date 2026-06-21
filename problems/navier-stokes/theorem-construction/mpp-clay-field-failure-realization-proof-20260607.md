@@ -5,7 +5,7 @@ ns_viewer:
   proof_role: cm_landing_theorem
   logical_landing_node: cm_field_jump_rows
   edge_effect: "Installs ClayFieldFailureRealization.A for the retained-Pack/terminal-Part Field row by realizing all-scales Field failure as a same-fluid terminal Jump."
-  upstream_origin: "June 7 Field-face working pass after retained Pack and terminal Part."
+  upstream_origin: "June 7 Field-face working pass after retained Field-window evidence and terminal Part."
   downstream_consequence: "Together with TerminalFieldJumpPartCollapse.A, collapses the retained-Pack/terminal-Part all-scales Field failure into the Part face and removes Field as an independent open blocker."
 ---
 
@@ -116,5 +116,5 @@ Pack + terminal Part + all-scales Field failure is a realized Jump, and the
 installed collapse theorem sends that endpoint back to `not Part^{term}_{N,Q}`.
 
 So the remaining Clay obstruction is not a separate Field row. It is the Part
-row: prove terminal no-defect participation on the retained Pack carrier, or
+row: prove terminal no-defect participation on the retained Field-window evidence carrier, or
 prove that the Part failure is not a valid finite Clay breakdown witness.

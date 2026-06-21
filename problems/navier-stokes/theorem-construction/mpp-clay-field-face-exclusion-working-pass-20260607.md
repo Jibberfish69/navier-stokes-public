@@ -21,7 +21,7 @@ Date: 2026-06-07
 Failed proof attempt with exact reduction.
 
 This note does not install `ClayFieldFaceExclusion.A`.  The installed sources
-prove that a finite same-solution terminal witness with retained Pack and Part
+prove that a finite same-solution terminal witness with retained Field-window evidence and Part
 has no positive Field scale unless the same solution continues. They do not
 prove that the all-scales Field failure is impossible as a Clay terminal
 obstruction.
@@ -192,8 +192,7 @@ The argument therefore produces:
 
 ```math
 finite\ terminal\ witness
-+ Pack_Q
-+ Part_{N_s,Q}
++ Part_{N_s,Q} plus Field-window evidence
 \Longrightarrow
 \forall r>0\,\neg Field_{N_s,r,Q},
 ```
@@ -302,8 +301,7 @@ The current proof state is:
 
 ```math
 finite\ Clay\ terminal\ witness
-+ Pack_Q
-+ Part_{N_s,Q}
++ Part_{N_s,Q} plus Field-window evidence
 \Longrightarrow
 \forall r>0\,\neg Field_{N_s,r,Q}
 ```

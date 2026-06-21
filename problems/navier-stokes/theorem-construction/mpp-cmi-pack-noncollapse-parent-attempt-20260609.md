@@ -43,7 +43,7 @@ finite terminal non-continuation on T^3
 ```
 
 It does not prove `Pack_{Q_atlas}`.  It deliberately treats loss of the
-readout-compatible material atlas as the Pack face.
+readout-compatible material atlas as the Field-window evidence.
 
 `ClayPackFaceExclusion.A` was already attempted and failed.  The failure is
 precise: same-fluid ancestry and incompressible volume do not imply positive
@@ -171,8 +171,8 @@ same-solution terminal obstruction with no positive readout-compatible carrier
 A detached or surrogate packet is rejected by CM-test admissibility.  A
 same-solution zero-radius terminal tail or unbounded material deformation
 collapse is different: it is admitted to the terminal test and lands at the
-Pack face.  Calling that object invalid because it fails Pack would delete the
-Pack face after the proof uses it.
+Field-window evidence.  Calling that object invalid because it fails Pack would delete the
+Field-window evidence after the proof uses it.
 
 So target fidelity does not close the bridge unless one adds a new premise that
 a valid finite Clay counterexample must retain a positive readout-compatible

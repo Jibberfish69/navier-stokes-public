@@ -134,7 +134,7 @@ false converse `\neg CM=>\neg Member`.
 
 ## Face Discharge Reduction
 
-The current route treats retained Pack and Part exits as already routed inside
+The current route treats retained Field-window evidence and Part exits as already routed inside
 the terminal class-membership packet:
 
 ```math
@@ -635,4 +635,4 @@ requires:
 RetainedPackGainProduction.A
 ```
 
-or explicit promotion of `PackGainLedger.A` into the Pack face.
+or explicit promotion of `PackGainLedger.A` into the Field-window evidence.

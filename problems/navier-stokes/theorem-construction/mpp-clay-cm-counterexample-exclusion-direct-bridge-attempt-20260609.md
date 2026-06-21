@@ -85,7 +85,7 @@ finite breakdown appears at the terminal edge.
 The pass branch is contradiction-bearing:
 
 ```text
-Pack_Q + Part_{N,Q} + Field_{N,r,Q}
+Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}
 => Member(Q)
 => H^s readout
 => same-solution continuation.
@@ -94,9 +94,8 @@ Pack_Q + Part_{N,Q} + Field_{N,r,Q}
 The fail branch is classification-bearing:
 
 ```text
-not Pack_Q
-or Pack_Q and not Part_{N,Q}
-or Pack_Q and Part_{N,Q} and forall r>0 not Field_{N,r,Q}
+not Part_{N,Q}
+or Part_{N,Q} plus Field-window evidence and forall r>0 not Field_{N,r,Q}
 => Exit(Q).
 ```
 

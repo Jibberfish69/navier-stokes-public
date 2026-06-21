@@ -4,9 +4,9 @@ ns_viewer:
   status: failed-proof-demoted-from-current-blocker
   proof_role: pack_face_exclusion_attempt
   logical_landing_node: cm_pack_face_attempts
-  edge_effect: "Tests the generic Pack-face exclusion theorem and records why same-solution terminal ancestry does not prove positive carrier scale plus finite deformation comparability."
-  upstream_origin: "June 7 generic Pack-face exclusion work order."
-downstream_consequence: "Demote generic Pack-face exclusion as a global blocker; named terminal obstruction rows must be typed by the Pack-out-of-CM audit before Pack is spent."
+  edge_effect: "Tests the generic Field-window evidence exclusion theorem and records why same-solution terminal ancestry does not prove positive carrier scale plus finite deformation comparability."
+  upstream_origin: "June 7 generic Field-window evidence exclusion work order."
+downstream_consequence: "Demote generic Field-window evidence exclusion as a global blocker; named terminal obstruction rows must be typed by the Pack-out-of-CM audit before Pack is spent."
 ---
 
 # MPP Clay Pack-Face Exclusion Working Pass
@@ -40,7 +40,7 @@ Typed CM reading:
   deformation comparability needed by the readout-compatible packet;
 - `not Pack_Q`: first Part/Field failure of that carrier / cover service;
 - `Exit(Q):=not Member(Q)`: downstream class-exit readback, not identical to
-  the Pack face itself.
+  the Field-window evidence itself.
 
 ## Installed Inputs Read
 
@@ -70,9 +70,8 @@ Installed conclusions used:
    obstruction into the Field-certification tree:
 
    ```text
-   not Pack_Q
-   or Pack_Q and not Part_{N_s,Q}
-   or Pack_Q and Part_{N_s,Q} and forall r>0 not Field_{N_s,r,Q}.
+   not Part_{N_s,Q}
+   or Part_{N_s,Q} plus Field-window evidence and forall r>0 not Field_{N_s,r,Q}.
    ```
 
 3. `TorusGlobalMaterialAtlasTerminalCapture.A` makes the active `T^3` object
@@ -216,7 +215,7 @@ forward deletion burden inside the terminal CM Pack-legality program. It is
 already illegal as a retained positive-radius packet.
 
 Thus a same-solution Zeno terminal tail is not excluded by the installed
-ontology. It is one of the Pack-face outputs of the ontology.
+ontology. It is one of the Field-window evidence outputs of the ontology.
 
 ## Result
 
@@ -248,10 +247,10 @@ or a terminal material-atlas deformation collapse.
 So the honest proof judgment is:
 
 ```text
-Pack-face misidentification exclusion: installed for surrogate/detached packets
+Field-window evidence misidentification exclusion: installed for surrogate/detached packets
   by CM-test admissibility.
 
-Pack-face exclusion for actual same-solution terminal obstructions: open.
+Field-window evidence exclusion for actual same-solution terminal obstructions: open.
 ```
 
 ## Exact Missing Lemma

@@ -100,7 +100,6 @@ the local row:
 ```text
 terminal L3 Duhamel response mass
 => same-ledger nonlinear source work
-   or not Pack_Q
    or not Part_{N,Q}
    or Legal,
 ```
@@ -108,9 +107,8 @@ terminal L3 Duhamel response mass
 and with the source-residue and retained critical translator notes this yields:
 
 ```text
-not Pack_Q,
-or Pack_Q and not Part_{N,Q},
-or, under retained Pack_Q and Part_{N,Q},
+not Part_{N,Q},
+or, under retained Part_{N,Q} plus Field-window evidence,
    forall r>0 not Field_{N,r,Q}.
 ```
 

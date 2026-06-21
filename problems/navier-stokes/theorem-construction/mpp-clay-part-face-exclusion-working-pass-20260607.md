@@ -40,7 +40,7 @@ ClayAdmissibleFiniteBreakdown(W_*)
 => Part_{N,Q}.
 ```
 
-That is the exact positive statement needed to exclude a retained-Pack first
+That is the exact positive statement needed to exclude a retained-Part/Field first
 Part face.
 
 ## Installed Inputs Read
@@ -58,13 +58,13 @@ Part face.
   theorem. A derived `Exit(Q)` is not by itself a contradiction with the finite
   Clay breakdown assumption.
 - `mpp-any-finite-failure-witness-cm-exit-20260521.md`:
-  after Pack survives, failure of shared participation, pressure-viscosity
-  participation, or tower residence lands as `Pack_Q and not Part_{N,Q}`.
+  after Field-window evidence is present, failure of shared participation, pressure-viscosity
+  participation, or tower residence lands as `not Part_{N,Q}`.
 - `mpp-terminal-source-residue-cm-exit-20260522.md`:
   the requested `20260521` source-residue filename is not present in the repo;
   the live source-residue note is the `20260522` file. It says a terminal source
   residue from the same maximal Navier-Stokes evolution lands in Pack or Part;
-  under retained Pack, an unpaid raw source residue is already `not Part_{N,Q}`.
+  under retained Field-window evidence, an unpaid raw source residue is already `not Part_{N,Q}`.
 - `live-theorem-edge.yaml`:
   the live Clay-facing route is terminal witness entry, finite failure type
   exhaustion, and CM contrapositive embedding. The live edge also records that
@@ -147,10 +147,10 @@ Its Field-certification conclusion is:
 
 ```text
 terminal source residue
-=> not Pack_Q or Pack_Q and not Part_{N,Q}.
+=> not Part_{N,Q}.
 ```
 
-So under retained Pack, the installed grammar permits:
+So under retained Field-window evidence, the installed grammar permits:
 
 ```text
 same original preterminal solution

@@ -59,7 +59,7 @@ has lost.
 6. `TerminalSourceResidueCMExit.A`: terminal source residue is a Part/Field
    witness, not a fourth residue and not a deletion burden.
 7. `OriginalParticipationBeforePackLicensing.A` and the June 20 Pack-out-of-CM
-   resurfacing audit: a singular or outside-CM packet/window same-solution terminal object with
+   resurfacing audit: a singular or outside-CM participation-field/window same-solution terminal object with
    a meaningful original Navier-Stokes participation record must be tested at
    `Part_{N,Q}` / `Field_{N,r,Q}` before it is allowed to remain a Pack-only
    exit.
@@ -92,7 +92,7 @@ This means:
 5. same witness grammar: the only primitive terminal services available to that
    obstruction are `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`. Ordinary
    positive-carrier branches use the usual Part/Field order. Singular or
-   outside-CM packet/window branches that still carry a same-solution original participation
+   outside-CM participation-field/window branches that still carry a same-solution original participation
    record are surfaced under `Part_{N,Q}` / `Field_{N,r,Q}` before a Pack-only
    conclusion is spent.
 
@@ -149,8 +149,8 @@ These are exactly the Part and Field services. Therefore `W_*` enters the
 same-fluid terminal CM tree:
 
 ```text
-ordinary positive-carrier branches: Pack first, then Part, then Field;
-singular/outside-CM packet/window same-solution branches: test the participation and readout
+ordinary positive-carrier branches: Part/Field first, then Part, then Field;
+singular/outside-CM participation-field/window same-solution branches: test the participation and readout
 record before using Pack-only disposal.
 ```
 
@@ -187,7 +187,7 @@ Fix a terminal window `Q` on the same terminal tail and fix the continuation
 depth `N_s` high enough for the installed `H^s`, `s>5/2`, readout.
 
 First apply the Pack-out-of-CM boundary correction audit. If the terminal extraction is
-singular, outside-CM packet/window, or zero-radius but still has a meaningful pointwise record
+singular, outside-CM participation-field/window, or zero-radius but still has a meaningful pointwise record
 tied to the same original Navier-Stokes datum, pressure, viscosity, and source
 law, it is not disposed as Pack-only yet. It is tested under the participation
 and readout services below. If no such pointwise same-solution participation
@@ -213,9 +213,9 @@ terminal zero-radius object is covered here only in that no-record sense. When
 the zero-radius object still carries the same pressure-viscosity-source
 participation record, it is surfaced under Case 2 or Case 3 instead.
 
-In the no-record branch, the witness has been exhausted at the Pack face.
+In the no-record branch, the witness has been exhausted at the Field-window evidence.
 
-### Case 2: Pack survives and Part fails
+### Case 2: Field-window evidence is present and Part fails
 
 Assume now that `Pack_Q` survives. Then the selected terminal object still has
 a legal carrier, so the next question is whether the same differentiated

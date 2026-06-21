@@ -141,7 +141,7 @@ same-solution terminal obstruction class eligible for
 `CanonicalTerminalPacketCapture.A`. Then `AnyFiniteFailureWitnessCMExit.A`
 supplies the Field-certification split.
 
-### Pack face
+### Field-window evidence
 
 `not Pack_Q` means the terminal object has no legal positive same-fluid carrier.
 Every compact preterminal window has a Field-window support by still-live smoothness,
