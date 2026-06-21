@@ -243,3 +243,24 @@ The value of LP in this corrected route is still real: it chooses the scale
 without breaking the participation tuple.  The missing part is not LP algebra.
 The missing part is same-carrier coercivity for the coupled time-pressure-
 viscosity-incompressibility packet.
+
+## 6. Channel-coercivity attempt update
+
+The direct attempt on `FullTupleChannelCoercivity.A` has now been run in
+`mpp-forward-gold-full-tuple-channel-coercivity-direct-attempt-20260621.md`.
+
+It reduces that theorem to terminal trace/no-waste plus same-carrier production:
+
+```math
+\boxed{
+\texttt{FullTupleChannelCoercivity.A}
+\Leftarrow
+\texttt{FourBodyTerminalTraceAC.A}
+\quad\text{or}\quad
+\texttt{StrictFourBodyNoWasteLyapunov.A},
+}
+\tag{LPFA.19}
+```
+
+together with same-carrier full-packet compactness/no-loss and selected
+full-packet identification.
