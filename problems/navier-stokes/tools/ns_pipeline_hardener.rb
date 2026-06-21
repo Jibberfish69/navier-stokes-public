@@ -96,6 +96,25 @@ CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE = {
   "next_stage" => "submission-and-pdf-readiness-refresh",
   "next_action" => "Refresh downstream review/submission mirrors from the accepted single-gate CM referee resolution; do not respawn TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A as the active blocker."
 }.freeze
+FORWARD_GOLD_ACTIVE_OBLIGATION = {
+  "obligation_id" => "unweighted-terminal-critical-action-reserve",
+  "kind" => "forward-gold-live-wall",
+  "label" => "UnweightedTerminalCriticalActionReserve.A",
+  "status" => "open-forward-gold-not-proved",
+  "source_anchor" => "problems/navier-stokes/theorem-construction/mpp-forward-gold-unweighted-reserve-six-supplier-exhaustion-20260620.md",
+  "proof_mode" => "gold_forward_positive",
+  "meaning" => "Prove an unweighted same-selected-family terminal critical-action reserve on the actual selected positive heat-scale carrier. Current checked inputs give radius-weighted physical participation and visibility, not the unweighted terminal reserve.",
+  "equivalent_forms" => [
+    "StrictRescaledNoWasteLyapunov.A",
+    "SourceSquareReserve.A with selected carrier domination",
+    "SelectedCriticalStrainCarleson.A plus endpoint nonconcentration",
+    "NormalizedCKNCarleson.A",
+    "UnweightedMaterialStressWorkCarleson.A",
+    "ProjectedLocalizedFluxCommutatorCoercivity.A",
+    "NoFreeInfiniteMaterialZenoStressChain.A",
+    "PrincipalGainSquareHeightThickness.A after active-height control"
+  ]
+}.freeze
 OPEN_ASSEMBLY_OBLIGATIONS = [].freeze
 OPEN_ASSEMBLY_OBLIGATION_IDS = OPEN_ASSEMBLY_OBLIGATIONS.map { |entry| entry.fetch("obligation_id") }.freeze
 ROUTE_SLOT_OBLIGATIONS = [].freeze
@@ -814,6 +833,9 @@ def sanitize_source_frontier(source_frontier)
   source_frontier["frontier"]["unresolved_obligations"] = root_obligations
   source_frontier["frontier"]["dashboard_unresolved_obligations"] = root_obligations
   source_frontier["frontier"]["additional_context_obligations"] = root_obligations
+  source_frontier["frontier"]["forward_gold_primary_obligation"] = FORWARD_GOLD_ACTIVE_OBLIGATION
+  source_frontier["frontier"]["forward_gold_first_unresolved_obligation"] = FORWARD_GOLD_ACTIVE_OBLIGATION
+  source_frontier["frontier"]["forward_gold_unresolved_obligations"] = [FORWARD_GOLD_ACTIVE_OBLIGATION]
   source_frontier["frontier"]["readiness_boundary"] = "Direct CM authority is cleared against the current live surface field: #{CURRENT_SOURCE_WALL_ROOT_SUMMARY}"
   source_frontier["frontier"]["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   source_frontier["frontier"]["release_or_respawn_consequence"] = current_release_or_respawn_consequence
@@ -840,6 +862,8 @@ def sanitize_source_frontier(source_frontier)
     summary["unresolved_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
     summary["dashboard_unresolved_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
     summary["additional_context_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
+    summary["forward_gold_unresolved_count"] = 1
+    summary["forward_gold_primary_obligation_id"] = FORWARD_GOLD_ACTIVE_OBLIGATION.fetch("obligation_id")
     summary["live_theorem_edge_blocked_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
     summary["proof_program_topology_count"] = NS_PROOF_PROGRAM_TOPOLOGY.length
     summary["open_root_diagnostic_presentation_count"] = OPEN_ROOT_PRESENTATIONS.length
