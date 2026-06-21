@@ -53,7 +53,7 @@ rho_m M_m -> 0.
 An equivalent norm version must prove `M_m <= C N_m(D_aF)` and
 `rho_m N_m(D_aF) -> 0` with constants independent of `m`.  A shrink-freedom
 version must also prove that the shrunken schedule remains a licensed finite
-same-fluid Pack witness.
+same-fluid Field-window support.
 
 ## Method Pass
 
@@ -175,7 +175,7 @@ control into the supremal Pack.TTU ledger.
 `PackLicensedScaleHessianBudget.A` is not proved.  It remains an open stronger
 route: prove `rho_m M_m -> 0`, prove the dominated norm version
 `M_m <= C N_m(D_aF)` and `rho_m N_m(D_aF) -> 0`, or prove admissible shrink
-freedom plus preservation of the finite same-fluid Pack witness.
+freedom plus preservation of the finite same-fluid Field-window support.
 
 The current primary Pack leaf is lower than that Hessian route.  The checked
 Pack.TTU authority has already isolated the live Pack obstruction at:
@@ -201,7 +201,7 @@ which feeds `OriginalSmoothDataPackSurvival.A`,
 `NS-LIVE-20260609-160`: `PackLicensedScaleHessianBudget.A` is not proved. The
 material-Hessian scale route would need `rho_m M_m -> 0`, the corresponding
 dominated norm estimate, or admissible shrink freedom preserving the finite
-same-fluid Pack witness. The checked Pack row already closes the finite
+same-fluid Field-window support. The checked Pack row already closes the finite
 active-label case and leaves the general continuum active-label case at
 `UniformStrainTail.TTU / EndpointSelector.TTU`, equivalently finite-complexity
 or integrable terminal label-modulus control. CMI finality remains blocked

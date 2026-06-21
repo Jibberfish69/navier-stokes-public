@@ -1,4 +1,4 @@
-# MPP Pack-Part-Field Primitive Minimality Note
+# MPP Part-Field Primitive Minimality Note
 
 ## Status
 

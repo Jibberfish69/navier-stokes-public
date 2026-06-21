@@ -1,4 +1,4 @@
-# MPP Pack-Part-Field Triadicity Audit Note
+# MPP Part-Field Triadicity Audit Note
 
 ## Status
 

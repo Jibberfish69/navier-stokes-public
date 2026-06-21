@@ -4,7 +4,7 @@ ns_viewer:
   status: proved-branch-dichotomy-reduced-to-towerbound-upstream
   proof_role: pack_ttu_uniformity_branch_closure
   logical_landing_node: towerbound-upstream
-  edge_effect: "Proves the branch theorem behind the continuum active-label Pack.TTU uniformity leaf. If tower-blown is absent at endpoint depth N>=1, the supremal Pack strain ledger is bounded on the finite terminal interval, hence integrable, and the installed strain-ledger conditional gives Pack.TTU and Pack_Q. If the supremal strain ledger fails by unbounded terminal strain, the branch is tower-blown and must be consumed by END.TowerBound / TowerBound.Upstream rather than projected directly to Pack, Part, or Field."
+  edge_effect: "Proves the branch theorem behind the continuum active-label Pack.TTU uniformity leaf. If tower-blown is absent at endpoint depth N>=1, the supremal Pack strain ledger is bounded on the finite terminal interval, hence integrable, and the installed strain-ledger conditional gives Pack.TTU and Pack_Q. If the supremal strain ledger fails by unbounded terminal strain, the branch is tower-blown and must be consumed by END.TowerBound / TowerBound.Upstream rather than projected directly to Part or Field."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-pack-licensed-scale-hessian-budget-direct-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mcp-pack-ttu-strain-ledger-conditional-control.md

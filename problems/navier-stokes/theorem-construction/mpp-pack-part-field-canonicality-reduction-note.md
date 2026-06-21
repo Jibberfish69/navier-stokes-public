@@ -1,4 +1,4 @@
-# MPP Pack-Part-Field Canonicality Reduction Note
+# MPP Part-Field Canonicality Reduction Note
 
 ## Status
 
@@ -274,7 +274,7 @@ For such a clause, define its **triad support**
 \tag{TCR.11b}
 ```
 
-to be the smallest subset of witness faces whose readouts occur in `L_j`.
+to be the smallest subset of witnesss whose readouts occur in `L_j`.
 
 ## Theorem `TCR.A` (Stable-carrier canonicality reduction to triad-generated form)
 

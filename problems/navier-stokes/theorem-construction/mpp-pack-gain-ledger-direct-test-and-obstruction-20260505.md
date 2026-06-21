@@ -195,7 +195,7 @@ PackGainLedger.A.
 
 This theorem requires either a rule excluding rapid positive/negative strain
 oscillation along retained packet paths, or a charge of that oscillation to a CM
-witness-face exit.
+witness exit.
 
 ## Updated Frontier
 

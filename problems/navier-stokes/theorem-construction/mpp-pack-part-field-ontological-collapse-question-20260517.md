@@ -1,4 +1,4 @@
-# MPP Pack-Part-Field Ontological Collapse Question
+# MPP Part-Field Ontological Collapse Question
 
 ## Status
 
@@ -21,7 +21,7 @@ Pack / Part / Field true-or-false as independent Boolean rows.
 The live question is:
 
 ```text
-Can a real terminal class-exit scenario break one of Pack, Part, or Field
+Can a real terminal class-exit scenario break one of Part or Field
 without also breaking the others, once the predicates are read in their terminal
 same-fluid sense rather than their weak formal sense?
 ```
@@ -42,7 +42,7 @@ The installed repo already distinguishes two readings.
 Resolution for the retained-Field notes: a theorem of the form
 `Pack_Q + Part_{N,Q} + receiver escape => not Field_{N,r,Q}` is conditional
 face bookkeeping.  It says Pack and Part have been retained as licenses, so the
-first unspent CM face is Field.  It does not make `Pack, Part, not-Field` a
+first unspent CM Part/Field is Field.  It does not make `Pack, Part, not-Field` a
 surviving terminal row; terminal same-fluid ontology collapses that realized
 coherence break to `Pack, not-Part, not-Field`.
 
@@ -113,7 +113,7 @@ must still test whether a weak/common-mode bookkeeping exception survives.
 The Pack conjecture is different:
 
 ```text
-finite Blown => not-Pack, and likely also terminal not-Part and not-Field.
+finite Blown => failed packet-window, and likely also terminal not-Part and not-Field.
 ```
 
 This is a stronger burden. It requires proving that finite material
@@ -157,22 +157,22 @@ The forensic table is:
 
 | Candidate row | Failure story required | Ontological verdict |
 | --- | --- | --- |
-| `Pack, Part, Field` | no failure | Valid: this is the intact witness. |
-| `not-Pack, Part, Field` | Pack failed, so the story must be `Blown` | Invalid: a blown carrier is not still a terminal same-fluid participant with coherent field readout. Collapses to `not-Pack, not-Part, not-Field`. |
+| `Part and Field` | no failure | Valid: this is the intact witness. |
+| `not-Part and Field` | Pack failed, so the story must be `Blown` | Invalid: a blown carrier is not still a terminal same-fluid participant with coherent field readout. Collapses to `failed packet-window, not-Part, not-Field`. |
 | `Pack, not-Part, Field` | Part failed, so the story is `Dead` | Invalid: if participation is dead at a point/packet, neighboring field coherence is broken there. Collapses to `Pack, not-Part, not-Field`. |
 | `Pack, Part, not-Field` | Field failed, so the story is `Jump` | Invalid: if the field no longer coheres between neighbors, at least one participation relation has failed. Collapses to `Pack, not-Part, not-Field`. |
-| `not-Pack, not-Part, Field` | Pack failed by `Blown`, Part failed by `Dead` | Invalid: `Dead` already destroys local field coherence; `Blown` also removes the terminal carrier. Collapses to `not-Pack, not-Part, not-Field`. |
-| `not-Pack, Part, not-Field` | Pack failed by `Blown`, Field failed by `Jump` | Invalid: `Jump` already means participation failure, and `Blown` already breaks terminal carrier participation. Collapses to `not-Pack, not-Part, not-Field`. |
+| `failed packet-window, not-Part, Field` | Pack failed by `Blown`, Part failed by `Dead` | Invalid: `Dead` already destroys local field coherence; `Blown` also removes the terminal carrier. Collapses to `failed packet-window, not-Part, not-Field`. |
+| `failed packet-window, Part, not-Field` | Pack failed by `Blown`, Field failed by `Jump` | Invalid: `Jump` already means participation failure, and `Blown` already breaks terminal carrier participation. Collapses to `failed packet-window, not-Part, not-Field`. |
 | `Pack, not-Part, not-Field` | `Dead` and `Jump` together while carrier geometry remains usable | Valid candidate: the packet can remain geometrically trackable while same-law participation and one-field coherence fail. |
-| `not-Pack, not-Part, not-Field` | `Blown`, or `Blown` plus `Dead/Jump` | Valid total-failure row: carrier, participation, and field all fail together. |
+| `failed packet-window, not-Part, not-Field` | `Blown`, or `Blown` plus `Dead/Jump` | Valid total-failure row: carrier, participation, and field all fail together. |
 
 So the eight truth-table rows collapse ontologically to three meaningful rows:
 
 | Surviving row | Meaning |
 | --- | --- |
-| `Pack, Part, Field` | no class-exit witness |
+| `Part and Field` | no class-exit witness |
 | `Pack, not-Part, not-Field` | coherent carrier remains, but participation/field law breaks |
-| `not-Pack, not-Part, not-Field` | blown terminal failure; the carrier itself is no longer a valid same-fluid witness |
+| `failed packet-window, not-Part, not-Field` | blown terminal failure; the carrier itself is no longer a valid same-fluid witness |
 
 The important forensic point is that `Pack-only`, `Part-only`, and `Field-only`
 are not honest endpoint stories. They are truth-table rows. The story that would
@@ -248,8 +248,8 @@ Any counterexample must reject at least one of those rules:
 
 | Counterexample type | What it changes |
 | --- | --- |
-| `not-Pack` with `Part` | makes Part a law written somewhere, not participation of the same carrier |
-| `not-Pack` with `Field` | makes Field an ambient weak field, not coherence of the same carrier |
+| `failed packet-window` with `Part` | makes Part a law written somewhere, not participation of the same carrier |
+| `failed packet-window` with `Field` | makes Field an ambient weak field, not coherence of the same carrier |
 | `Part` without `Field` | makes Part one-point/formal law only, not shared-law participation |
 | `Field` without `Part` | makes Field smooth-looking compatibility only, not same-law coherence |
 
@@ -296,7 +296,7 @@ When this question is live, do not answer from the old eight-row table.
 Use this order instead:
 
 1. name whether the statement is truth-table/certificate bookkeeping or terminal/ontological;
-2. test the actual implication pressure among Pack, Part, and Field;
+2. test the actual implication pressure among Part and Field;
 3. identify any common-mode or neighboring-coherence exception;
 4. only then mention repo route labels or endpoint cells.
 
@@ -308,7 +308,7 @@ collapse audit:
 ```text
 Classify whether finite carrier blowout can ever preserve terminal
 same-fluid Part and Field, or whether every realized Blown endpoint collapses
-to not-Pack, not-Part, not-Field.
+to failed packet-window, not-Part, not-Field.
 ```
 
 This is not a source-wall supplier theorem and not a positive smoothness proof.
