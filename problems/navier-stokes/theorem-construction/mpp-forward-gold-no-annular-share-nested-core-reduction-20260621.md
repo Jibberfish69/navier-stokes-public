@@ -4,7 +4,7 @@ ns_viewer:
   status: reduction-installed-forward-gold-not-proved
   proof_role: forward_gold_no_share_branch_reduction
   logical_landing_node: no_annular_share_nested_core_atom
-  edge_effect: "Reduces the no-annular-share side of the strict-descent fork. For a compatible same-carrier scale chain, child unit carrier equals parent inner-subcylinder carrier. The lost annular shares telescope over disjoint parent annuli. Therefore repeated no-annular-share means the carrier remains in nested cores Q_{R_N}; by continuity from above, a positive nested-core limit is exactly a point/time-face atom in the limiting same-carrier measure. This proves only a reduction: no-share recurrence is terminal atom/profile/CM-consumption territory. It does not prove endpoint UI or exclude the atom without an additional same-carrier source-square/no-waste/CKN/saturation/profile theorem."
+  edge_effect: "Reduces the no-annular-share side of the strict-descent fork after the same terminal center, gauge, and same-carrier scale chain have been fixed. For such a compatible chain, child unit carrier equals parent inner-subcylinder carrier. The lost annular shares telescope over disjoint parent annuli. Therefore repeated no-annular-share means the carrier remains in nested cores Q_{R_N}; by continuity from above, a positive nested-core limit is exactly a point/time-face atom in the limiting same-carrier measure. Center/frame drift is outside this lemma and belongs to the no-drift/profile-production branch. This proves only a reduction: no-share recurrence is terminal atom/profile/CM-consumption territory. It does not prove endpoint UI or exclude the atom without an additional same-carrier source-square/no-waste/CKN/saturation/profile theorem."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-cross-scale-strict-descent-annular-share-equivalence-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-solution-critical-recurrence-power-test-20260621.md
@@ -37,6 +37,12 @@ inside nested child cores.  In the limit, that is a terminal point/time-face
 atom unless a profile-production theorem takes over before the atom forms.
 
 ## 1. Compatible same-carrier scale chain
+
+This reduction assumes that the terminal center and gauge have already been
+fixed, so all \(Q_R\) are nested in one parent coordinate system.  If the
+centers, frames, rotations, or selected carrier charts drift instead, the
+branch has left this telescoping lemma and belongs to the no-drift/profile
+production side.
 
 Let
 
