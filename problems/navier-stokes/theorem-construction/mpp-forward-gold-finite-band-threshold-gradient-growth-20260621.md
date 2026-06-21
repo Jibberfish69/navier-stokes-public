@@ -43,7 +43,8 @@ The output is not endpoint UI. It is an exact frequency-growth consequence:
 \[
 \boxed{
 \text{terminal selected source atom}
-+\text{ small tensor action}
+\quad\text{and}\quad
+\text{small tensor action}
 \Longrightarrow
 \text{fast finite-band growth.}
 }
@@ -312,7 +313,8 @@ The selected-carrier branch now has an exact finite-band consequence:
 \[
 \boxed{
 \text{terminal selected atom}
-+\text{ vanishing tensor action}
+\quad\text{and}\quad
+\text{vanishing tensor action}
 \Longrightarrow
 K_m^3(4K_m+1)^{9/2}\theta_m^2\to\infty.
 }
