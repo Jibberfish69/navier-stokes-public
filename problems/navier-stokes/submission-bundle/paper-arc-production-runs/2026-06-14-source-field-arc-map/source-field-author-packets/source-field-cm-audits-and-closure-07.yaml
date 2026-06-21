@@ -52,7 +52,7 @@ chunk:
       The retained CM route has a usable closure through Source PulseCMExit.A. The stronger forward source-payment route still needs Scale Critical Tree Carleson.A, Source Pulse Exclusion.A, or a non-Carleson proof of Temporal Non Atomic Source.A.
 
       \[
-      CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+      CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
       \]
 
       \[
@@ -90,7 +90,7 @@ chunk:
       Conditional retained-branch bridge theorem. The source-wall dichotomy is assembled into the CM route.
 
       \[
-      CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+      CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
       \]
 
       \[
@@ -349,7 +349,7 @@ chunk:
   context_excerpt: "\\subsection{Source Wall Closure Search.CMRetained Route}\n\nThe
     retained CM route has a usable closure through Source PulseCMExit.A. The stronger
     forward source-payment route still needs Scale Critical Tree Carleson.A, Source
-    Pulse Exclusion.A, or a non-Carleson proof of Temporal Non Atomic Source.A.\n\n\\[\nCM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.\n\\]\n\n\\[\n\\mu_*^{sing}.\n\\]\n\n\\[\nPack_Q\\wedge
+    Pulse Exclusion.A, or a non-Carleson proof of Temporal Non Atomic Source.A.\n\n\\[\nCM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.\n\\]\n\n\\[\n\\mu_*^{sing}.\n\\]\n\n\\[\nPack_Q\\wedge
     Part_{N,Q}\\wedge Field_{N,r,Q}\n\\Longrightarrow\n\\text{no retained }\\mathrm{Jump}_{\\mathrm{avg}}\\text{
     source-pulse escape.}\n\\]\n\nThus the residue branch can be closed in the CM-retained
     program by typing the residue as Field-side exit rather than proving literal source
@@ -361,7 +361,7 @@ chunk:
     and should be tracked as a supplier upgrade rather than as the blocker for the
     retained CM branch.\n\n\n\n\\subsection{Source Wall Dichotomy ToCMRetained Closure.A}\n\nConditional
     retained-branch bridge theorem. The source-wall dichotomy is assembled into the
-    CM route.\n\n\\[\nCM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.\n\\]\n\n\\[\n\\mu_*^{src}=0\n\\quad\\vee\\quad\n\\mu_*^{src}>0.\n\\]\n\nThe
+    CM route.\n\n\\[\nCM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.\n\\]\n\n\\[\n\\mu_*^{src}=0\n\\quad\\vee\\quad\n\\mu_*^{src}>0.\n\\]\n\nThe
     retained CM branch cannot keep \\(Pack_Q\\), \\(Part_{N,Q}\\), and\n\\(Field_{N,r,Q}\\)
     while also using \\(\\mu_*^{src}>0\\) as a terminal source-pulse\noccurrence.
     \ That combination is the contradiction recorded here as\n\\(\\bot_{CM-retained}\\).\n\n\\[\n\\mu_*^{src}=0.\n\\]\n\nThe
