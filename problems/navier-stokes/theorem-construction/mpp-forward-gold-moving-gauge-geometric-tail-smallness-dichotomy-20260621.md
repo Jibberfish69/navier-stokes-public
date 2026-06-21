@@ -109,8 +109,8 @@ scale to \(\lambda=1\).  The function
 \]
 
 is continuous, satisfies \(\phi(t)\ge c_0t\) for \(0\le t\le1\) by the slab
-between the two shifted spherical boundaries, and satisfies
-\(\phi(t)\ge\phi(1)>0\) for \(t\ge1\).  Scaling back gives
+between the two shifted spherical boundaries, has a positive minimum on
+\([1,2]\), and equals \(2|B_1|\) for \(t\ge2\).  Scaling back gives
 
 \[
 |B_\lambda(b)\triangle B_\lambda(0)|
