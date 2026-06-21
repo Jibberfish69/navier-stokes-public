@@ -26,7 +26,7 @@ ns_viewer:
     readout quantum on each atom strip. The remaining gold work is to prove a
     global budget for those quanta, upgrade them into same-carrier source-square
     or no-waste/profile production, or consume the finite-rung readout through
-    CM Pack/Part/Field.
+    CM Part/Field.
 ---
 
 # MPP Forward-Gold Selected Carrier Atom Forces Finite-Order Readout
@@ -206,4 +206,4 @@ tail collapse alone. It must appear in a finite-order readout:
 
 The next production burden is to turn that finite-order heat-window readout
 quantum into a globally budgeted contradiction, same-carrier square reserve,
-no-waste/profile production, or a CM Pack/Part/Field face.
+no-waste/profile production, or a CM Part/Field face.

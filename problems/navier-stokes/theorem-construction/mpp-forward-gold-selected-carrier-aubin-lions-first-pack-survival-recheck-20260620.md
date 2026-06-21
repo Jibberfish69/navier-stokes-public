@@ -213,4 +213,4 @@ A successful compactness route must add one of the missing same-carrier endpoint
 \tag{ALP.18}
 ```
 
-Without one of these, compactness remains visibility support only.  It does not prove forward-gold first-Pack survival.  The retained endpoint pulse is still consumed only by the same-witness CM Pack/Part/Field branch after CM admission, not by this compactness theorem itself.
+Without one of these, compactness remains visibility support only.  It does not prove forward-gold first-Pack survival.  The retained endpoint pulse is still consumed only by the same-witness CM Part/Field branch after CM admission, not by this compactness theorem itself.

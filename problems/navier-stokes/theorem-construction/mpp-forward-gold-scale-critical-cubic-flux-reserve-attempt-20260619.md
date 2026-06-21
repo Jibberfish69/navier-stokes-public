@@ -238,7 +238,7 @@ model.
 
 Second, as a CM-facing route, the same concentration is a witness candidate.
 The installed critical \(L^3\) machinery already routes same-ledger retained
-critical \(L^3\) concentration through the Pack/Part/Field grammar:
+critical \(L^3\) concentration through the Part/Field grammar:
 
 ```math
 R3CriticalL3WallToCMFace.A,
@@ -254,7 +254,7 @@ So the failed cubic reserve has a pass-or-exit interpretation:
 \boxed{
 ScaleCriticalCubicFluxReserve.A
 \quad\text{or}\quad
-\text{retained critical cubic concentration becomes Pack/that face failure.}
+\text{retained critical cubic concentration becomes Pack/that Part/Field failure.}
 }
 ```
 
@@ -298,5 +298,5 @@ CompactAncientRigidity.A.
 ```
 
 The surviving failed reserve is not a hidden fourth branch.  It is either the
-unproved gold supplier itself or, after CM admission, a Pack/that face failure
+unproved gold supplier itself or, after CM admission, a Pack/that Part/Field failure
 witness.

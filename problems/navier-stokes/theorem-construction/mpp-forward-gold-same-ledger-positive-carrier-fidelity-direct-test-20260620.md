@@ -98,7 +98,7 @@ the proof states which of `(SLF.2)`, `(SLF.3)`, and `(SLF.4)` it includes.
 
 ## 2. What existing same-ledger theorems pay
 
-`SameLedgerConcordance.A` synchronizes CM Pack, Part, and Field certificates
+`SameLedgerConcordance.A` synchronizes CM Part and Field certificates
 onto one retained witness ledger.  It does not identify \(F_m^{src}\),
 \(F_m^{don}\), and \(F_m^{rd}\), and it does not prove `(SLF.3)` or `(SLF.4)`.
 

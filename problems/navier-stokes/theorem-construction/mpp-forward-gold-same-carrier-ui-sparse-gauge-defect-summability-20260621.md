@@ -26,7 +26,7 @@ ns_viewer:
     assumed. It is exactly paid by adaptive sparse scale selection. The remaining
     production burden is to prove same-carrier spacetime UI/source-square/CKN/
     strict no-waste/profile control for the actual selected native carrier, or
-    to consume failure as moving-selector, exterior-spill, or CM Pack/Part/Field
+    to consume failure as moving-selector, exterior-spill, or CM Part/Field
     output after same-witness admission.
 ---
 
@@ -208,7 +208,7 @@ Combining this with the finite-menu selected-carrier heredity reduction gives:
 The remaining mathematical burden is not the sparse geometry. It is the
 production of same-carrier UI for the actual selected native carrier, or the
 classification of failure as moving selector, exterior spill, profile/no-drift,
-or CM Pack/Part/Field output after same-witness admission.
+or CM Part/Field output after same-witness admission.
 
 ## Verdict
 

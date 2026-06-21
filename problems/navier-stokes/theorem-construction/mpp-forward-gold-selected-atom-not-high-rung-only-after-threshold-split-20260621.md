@@ -4,7 +4,7 @@ ns_viewer:
   status: exact-branch-pruning-installed-not-production
   proof_role: forward_gold_selected_atom_high_rung_branch_pruning
   logical_landing_node: selected_atom_not_high_rung_only_after_threshold_split
-  edge_effect: "Combines the threshold-margin selector fork with the finite Sobolev gradient bound. If a terminal selected projected-source atom survives, the projected tensor action tends to zero, and the peak selected-source height branch is bounded, then the selected-source gradient branch forces theta_m sup_I ||v_m||_{H^(gamma+1)}^2 -> infinity for every gamma>5/2. Hence the surviving atom cannot be carried by a pure high-rung-only analytic tail while every fixed finite Sobolev rung remains bounded. High-rung-only analytic collapse remains a tower-radius failure, but not the carrier of this selected source atom after the threshold split. The remaining branches are tensor action, height/source-square or tail UI, finite-rung Sobolev/CM face consumption, strict no-waste, or profile production."
+  edge_effect: "Combines the threshold-margin selector fork with the finite Sobolev gradient bound. If a terminal selected projected-source atom survives, the projected tensor action tends to zero, and the peak selected-source height branch is bounded, then the selected-source gradient branch forces theta_m sup_I ||v_m||_{H^(gamma+1)}^2 -> infinity for every gamma>5/2. Hence the surviving atom cannot be carried by a pure high-rung-only analytic tail while every fixed finite Sobolev rung remains bounded. High-rung-only analytic collapse remains a tower-radius failure, but not the carrier of this selected source atom after the threshold split. The remaining branches are tensor action, height/source-square or tail UI, finite-rung Sobolev/CM Part/Field consumption, strict no-waste, or profile production."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-threshold-margin-selector-capture-fork-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-atom-height-gradient-split-20260621.md
@@ -255,7 +255,7 @@ atom cannot be carried by a pure high-rung-only analytic tail:
 \tag{SAH.23}
 \]
 
-## 5. Relation to CM face consumption
+## 5. Relation to CM Part/Field consumption
 
 The existing finite-rung consumer applies to `(SAH.20)`.  After the same
 terminal object is admitted to the CM witness test, the branch lands as

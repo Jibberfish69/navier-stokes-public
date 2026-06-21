@@ -213,7 +213,7 @@ legal losses, and paid dissipation have been removed.
 
 The fixed-band endpoint survivor is not independent after the source-square
 dominance and pass-or-CM-exit notes.  It is a source-square pass branch or a CM
-Pack/Part/Field face exit after the selected branch is admitted to the CM
+Part/Field face exit after the selected branch is admitted to the CM
 readout.
 
 ## 6. Sharp current scale-barrier statement
@@ -240,7 +240,7 @@ where:
 
 after a genuine far-corona/CTS/residual-LPAS/source-square reserve is proved, and
 otherwise the selected endpoint failure must be routed through the installed
-CM Pack/Part/Field face machinery rather than kept as an unclassified
+CM Part/Field face machinery rather than kept as an unclassified
 scale-barrier child.
 
 Thus the parent frontier should no longer list four equal live children.  The
@@ -254,7 +254,7 @@ exact remaining alternatives are:
 }
 ```
 
-or the admitted failure branch becomes a CM face readout.
+or the admitted failure branch becomes a CM Part/Field readout.
 
 ## Boundary
 

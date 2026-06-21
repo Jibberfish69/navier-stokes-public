@@ -129,7 +129,7 @@ After same-witness CM admission, the certified implication is
 \tag{SCSR.9}
 ```
 
-Then the usual CM embedding reads the face failure as
+Then the usual CM embedding reads the Part/Field failure as
 
 ```math
 Exit(Q):=\neg Member(Q).
@@ -165,7 +165,7 @@ The selected-carrier endpoint branch has the exact pass-or-exit shape:
 \boxed{
 \text{SelectedCarrierEndpointUI.A}
 \quad\text{or}\quad
-\text{same-witness CM admission plus certified Part/Field face failure.}
+\text{same-witness CM admission plus certified Part/Field Part/Field failure.}
 }
 \tag{SCSR.12}
 ```

@@ -90,7 +90,7 @@ E_{m,\lambda}
 ```
 
 A usable Pack-survival theorem would need constants `\lambda>0`, `\eta>0`, and
-`\theta_0>0` such that, along any retained first-Pack witness,
+`\theta_0>0` such that, along any retained first-Field-window support,
 
 ```math
 |E_{m,\lambda}\cap[-\theta,0]|
@@ -184,7 +184,7 @@ pulse destroys.
 
 ## 5. Why spatial Pack positivity does not repair time thickness
 
-A first-Pack witness may still have positive spatial carrier at every finite
+A first-Field-window support may still have positive spatial carrier at every finite
 stage:
 
 ```math
@@ -276,4 +276,4 @@ NoWasteLocalEnergyFlux.A,
 \tag{SCHO.21}
 ```
 
-or to CM Pack/Part/Field consumption after same-witness admission.
+or to CM Part/Field consumption after same-witness admission.

@@ -4,13 +4,13 @@ ns_viewer:
   status: direct-test-complete-scale-dependent-beta-collapses-to-radius-spend
   proof_role: forward_gold_shifted_gamma_scale_dependent_beta_countertest
   logical_landing_node: scale_dependent_shifted_gamma_beta_radius_spend
-  edge_effect: "Tests the escape hatch left by the fixed-beta polynomial countertest: make beta depend on the terminal scale so the shifted-gamma multiplier becomes exponential. Stirling on the balanced saddle gives log R_beta(n,n/2)=(beta_n-1)(log n-2 log 2)+o(n) for beta_n=o(n). Paying the heat-scale source-square pulse requires beta_n approximately (3/2)n log 2 / log n, and this is equivalent to replacing the factorial radius rho by rho*2^(-3/2) at exponential order. Thus scale-dependent beta is not a new reserve producer; it is a disguised fixed positive logarithmic radius spend. Repeated terminal heat-scale pulses therefore return to the moving-radius collapse branch, which still needs a same-carrier tail-to-carrier, unweighted action, no-waste, source-square/CKN, profile-production, or CM Pack/Part/Field consumption mechanism."
+  edge_effect: "Tests the escape hatch left by the fixed-beta polynomial countertest: make beta depend on the terminal scale so the shifted-gamma multiplier becomes exponential. Stirling on the balanced saddle gives log R_beta(n,n/2)=(beta_n-1)(log n-2 log 2)+o(n) for beta_n=o(n). Paying the heat-scale source-square pulse requires beta_n approximately (3/2)n log 2 / log n, and this is equivalent to replacing the factorial radius rho by rho*2^(-3/2) at exponential order. Thus scale-dependent beta is not a new reserve producer; it is a disguised fixed positive logarithmic radius spend. Repeated terminal heat-scale pulses therefore return to the moving-radius collapse branch, which still needs a same-carrier tail-to-carrier, unweighted action, no-waste, source-square/CKN, profile-production, or CM Part/Field consumption mechanism."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-shifted-gamma-saddle-radius-spend-test-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-shifted-gamma-polynomial-moment-not-square-reserve-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-moving-coupled-mixed-tower-radius-spend-identity-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-controlled-coupled-radius-collapse-direct-test-20260621.md
-  downstream_consequence: "Do not reopen beta tuning as an independent attack after the fixed-beta failure. Fixed beta gives only polynomial charge; scale-dependent beta large enough to see the heat-scale reserve is exponential and is exactly radius spend. The surviving route is still same-carrier reserve/no-waste/profile production or CM face consumption after admission."
+  downstream_consequence: "Do not reopen beta tuning as an independent attack after the fixed-beta failure. Fixed beta gives only polynomial charge; scale-dependent beta large enough to see the heat-scale reserve is exponential and is exactly radius spend. The surviving route is still same-carrier reserve/no-waste/profile production or CM Part/Field consumption after admission."
 ---
 
 # MPP Forward-Gold Scale-Dependent Beta Is Radius Spend
@@ -230,7 +230,7 @@ the language from beta to radius:
 \boxed{
 \text{same-carrier reserve/no-waste/profile theorem}
 \quad\text{or}\quad
-\text{CM Pack/Part/Field consumption after admission.}
+\text{CM Part/Field consumption after admission.}
 }
 \tag{SDB.18}
 ```
@@ -251,5 +251,5 @@ The actual math result is:
 So the Stirling/binomial attack should not spend more effort tuning gamma
 parameters.  Fixed beta is too weak, and strong beta is just controlled radius
 collapse.  The remaining attack is the same selected-carrier mechanism:
-source-square/CKN, active-height/no-waste, profile production, or CM face
+source-square/CKN, active-height/no-waste, profile production, or CM Part/Field
 consumption of the retained heat-scale pulse.
