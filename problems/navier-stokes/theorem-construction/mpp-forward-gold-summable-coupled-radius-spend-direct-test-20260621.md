@@ -40,6 +40,7 @@ Q_{m,\alpha}:=\partial_s^m\partial_y^\alpha q,
 \]
 
 and let \(\eta(y)\) be a fixed cutoff. The mixed tower has the form
+and let \(\eta(y)\) be a fixed cutoff. The mixed tower equation is
 
 \[
 \left(\partial_s+v\cdot\nabla-\nu\Delta\right)W_{m,\alpha}
