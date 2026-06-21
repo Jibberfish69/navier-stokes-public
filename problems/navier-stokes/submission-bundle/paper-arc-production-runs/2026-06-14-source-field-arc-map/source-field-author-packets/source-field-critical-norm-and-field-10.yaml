@@ -270,7 +270,7 @@ chunk:
 
       Indeed, if an earlier threshold source-pulse survived in the limit, regularity of Radon measures and dyadic density selection would produce earlier threshold-crossing tiles for n large, contradicting earliest selection.
 
-      Boundary: this discharges the source-drain supplier route. It does not by itself install the CM certificate direction into Pack, Part, Field, or Member, and it does not install the blunt converse not CM=>not Member.
+      Boundary: this discharges the source-drain supplier route. It does not by itself install the CM certificate direction into Part, Field, or Member, and it does not install the blunt converse not CM=>not Member.
 
 
     truncated: false
@@ -660,7 +660,7 @@ chunk:
 
     Indeed, if an earlier threshold source-pulse survived in the limit, regularity of Radon measures and dyadic density selection would produce earlier threshold-crossing tiles for n large, contradicting earliest selection.
 
-    Boundary: this discharges the source-drain supplier route. It does not by itself install the CM certificate direction into Pack, Part, Field, or Member, and it does not install the blunt converse not CM=>not Member.
+    Boundary: this discharges the source-drain supplier route. It does not by itself install the CM certificate direction into Part, Field, or Member, and it does not install the blunt converse not CM=>not Member.
 
 
 
@@ -822,7 +822,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

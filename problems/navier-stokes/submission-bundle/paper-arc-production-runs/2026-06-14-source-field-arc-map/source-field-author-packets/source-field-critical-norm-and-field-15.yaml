@@ -129,7 +129,7 @@ chunk:
 
       The standard local Navier-Stokes continuation theorem at s>5/2 gives a lifespan depending only on that bound. Starting from times t j increasing to T *, the solution extends classically past T *. This contradicts terminal non-continuation.
 
-      If no positive same-fluid terminal carrier exists, then not Pack Q. This is the Pack face. It covers terminal zero-radius, detached carrier, and unpaid ancestry cases.
+      If no positive same-fluid terminal carrier exists, then Field-window evidence outside CM. This is the Field-window evidence. It covers terminal zero-radius, detached carrier, and unpaid ancestry cases.
 
       If Pack Q survives for a selected same-fluid carrier but the differentiated Navier-Stokes pressure-viscosity tower does not survive through depth N s on that carrier, then Pack Q and not Part N s,Q . This is the Part face.
 
@@ -159,7 +159,7 @@ chunk:
       \sum_{|j-J_m|\le C}2^j\|P_j u(t_m)\|_{L^2(Q_m)}^2
       \]
 
-      Pack-first branch. If the selected critical shell energy cannot be placed on the transported material packet Q with the retained cover and coordinate record, the witness lands at Pack Q.
+      Part/Field branch. If the selected critical shell energy cannot be placed on the transported material packet Q with the retained cover and coordinate record, the witness stays outside CM as Field-window evidence.
 
       Part branch. If the selected critical shell energy is located on Q but cannot be evolved through the same fixed-viscosity pressure/participation law, the witness lands at Part N,Q .
 
@@ -173,7 +173,7 @@ chunk:
 
       L 3 sees critical size. H 1/2 sees critical size together with frequency placement. A terminal H 1/2 defect has two possible physical readings.
 
-      The oscillatory reading is different: the flow carries increasingly fine same-scale alternation while preserving coarse amplitude. Physically this is unresolved vortex/strain texture rather than mere large velocity. In the CM ontology, retained Pack says the material packet still exists, retained Part says the same press
+      The oscillatory reading is different: the flow carries increasingly fine same-scale alternation while preserving coarse amplitude. Physically this is unresolved vortex/strain texture rather than mere large velocity. In the CM ontology, retained Field-window evidence says the material packet still exists, retained Part says the same press
       % ... source excerpt truncated for packet size ...
     truncated: true
   - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
@@ -214,7 +214,7 @@ chunk:
 
       So the pure H 1/2 oscillatory branch is a neighboring-scale coherence signal. It is exactly the kind of object that Field is supposed to control.
 
-      Once this theorem is installed, the branch closes: retained Pack keeps the shell on the material packet, retained Part keeps the pressure-viscosity law active, and the remaining pure oscillatory terminal defect exceeds the matched Field coherence bound. The exit face is Field.
+      Once this theorem is installed, the branch closes: retained Field-window evidence keeps the shell on the material packet, retained Part keeps the pressure-viscosity law active, and the remaining pure oscillatory terminal defect exceeds the matched Field coherence bound. The exit face is Field.
 
       A fixed low-depth Field face does not see arbitrary high-frequency escape. The Field witness must be matched to the selected dyadic depth/scale, or the all-depth Field package must be used. This is the exact condition that turns the H 1/2 oscillation argument from suggestive into proof-bearing CM work.
 
@@ -252,7 +252,7 @@ chunk:
       \int_{|h|\sfcomp{65661} r_J}|e^{ih\cdot\xi}-1|^2\,dh\ge c_0>0.
       \]
 
-      Assume retained Pack Q and retained Part N,Q . Then the same-witness extraction theorem places the critical H 1/2 shell on the material packet and under the same pressure-viscosity law.
+      Assume retained Field-window evidence Q and retained Part N,Q . Then the same-witness extraction theorem places the critical H 1/2 shell on the material packet and under the same pressure-viscosity law.
 
       Thus the pure oscillatory branch of CriticalHHalf ToCMFace.A lands in the Field face once the matched Field finite-difference bound is certified as part of Field N,r,Q .
 
@@ -341,7 +341,7 @@ chunk:
       \mathfrak C_{N,r,Q}(\mathcal W).
       \]
 
-      Hence persistent terminal critical H 1/2 shell energy on retained Pack+Part forces failure of Field N(J),r J,Q at the matched depth and scale.
+      Hence persistent terminal critical H 1/2 shell energy on retained Field-window evidence+Part forces failure of Field N(J),r J,Q at the matched depth and scale.
 
       The exact remaining Field-readout check is closed. The pure oscillatory H 1/2 branch lands in the Field face.
 
@@ -408,7 +408,7 @@ chunk:
 
     The standard local Navier-Stokes continuation theorem at s>5/2 gives a lifespan depending only on that bound. Starting from times t j increasing to T *, the solution extends classically past T *. This contradicts terminal non-continuation.
 
-    If no positive same-fluid terminal carrier exists, then not Pack Q. This is the Pack face. It covers terminal zero-radius, detached carrier, and unpaid ancestry cases.
+    If no positive same-fluid terminal carrier exists, then Field-window evidence outside CM. This is the Field-window evidence. It covers terminal zero-radius, detached carrier, and unpaid ancestry cases.
 
     If Pack Q survives for a selected same-fluid carrier but the differentiated Navier-Stokes pressure-viscosity tower does not survive through depth N s on that carrier, then Pack Q and not Part N s,Q . This is the Part face.
 
@@ -426,7 +426,7 @@ chunk:
     \sum_{|j-J_m|\le C}2^j\|P_j u(t_m)\|_{L^2(Q_m)}^2
     \]
 
-    Pack-first branch. If the selected critical shell energy cannot be placed on the transported material packet Q with the retained cover and coordinate record, the witness lands at Pack Q.
+    Part/Field branch. If the selected critical shell energy cannot be placed on the transported material packet Q with the retained cover and coordinate record, the witness stays outside CM as Field-window evidence.
 
     Part branch. If the selected critical shell energy is located on Q but cannot be evolved through the same fixed-viscosity pressure/participation law, the witness lands at Part N,Q .
 
@@ -440,11 +440,11 @@ chunk:
 
     L 3 sees critical size. H 1/2 sees critical size together with frequency placement. A terminal H 1/2 defect has two possible physical readings.
 
-    The oscillatory reading is different: the flow carries increasingly fine same-scale alternation while preserving coarse amplitude. Physically this is unresolved vortex/strain texture rather than mere large velocity. In the CM ontology, retained Pack says the material packet still exists, retained Part says the same pressure-viscosity law still participates, and the oscillatory terminal defect says neighboring towers no longer agree coherently. That is the Field face.
+    The oscillatory reading is different: the flow carries increasingly fine same-scale alternation while preserving coarse amplitude. Physically this is unresolved vortex/strain texture rather than mere large velocity. In the CM ontology, retained Field-window evidence says the material packet still exists, retained Part says the same pressure-viscosity law still participates, and the oscillatory terminal defect says neighboring towers no longer agree coherently. That is the Field face.
 
     Same LedgerHHalf Extraction.A: a selected terminal H 1/2 defect either fails Pack/Part before localization or produces a same-witness dyadic packet on the retained carrier.
 
-    HHalf Oscillation Field Exit.A: retained Pack Q + Part N,Q plus a same-witness pure high-frequency H 1/2 defect forces Field N,r,Q at the selected depth/scale.
+    HHalf Oscillation Field Exit.A: retained Field-window evidence Q + Part N,Q plus a same-witness pure high-frequency H 1/2 defect forces Field N,r,Q at the selected depth/scale.
 
     HHalf Amplitude ToL3Translator.A: the amplitude branch of the H 1/2 signal feeds the already installed local L 3 translator without losing the witness record.
 
@@ -478,7 +478,7 @@ chunk:
 
     So the pure H 1/2 oscillatory branch is a neighboring-scale coherence signal. It is exactly the kind of object that Field is supposed to control.
 
-    Once this theorem is installed, the branch closes: retained Pack keeps the shell on the material packet, retained Part keeps the pressure-viscosity law active, and the remaining pure oscillatory terminal defect exceeds the matched Field coherence bound. The exit face is Field.
+    Once this theorem is installed, the branch closes: retained Field-window evidence keeps the shell on the material packet, retained Part keeps the pressure-viscosity law active, and the remaining pure oscillatory terminal defect exceeds the matched Field coherence bound. The exit face is Field.
 
     A fixed low-depth Field face does not see arbitrary high-frequency escape. The Field witness must be matched to the selected dyadic depth/scale, or the all-depth Field package must be used. This is the exact condition that turns the H 1/2 oscillation argument from suggestive into proof-bearing CM work.
 
@@ -504,7 +504,7 @@ chunk:
     \int_{|h|\sfcomp{65661} r_J}|e^{ih\cdot\xi}-1|^2\,dh\ge c_0>0.
     \]
 
-    Assume retained Pack Q and retained Part N,Q . Then the same-witness extraction theorem places the critical H 1/2 shell on the material packet and under the same pressure-viscosity law.
+    Assume retained Field-window evidence Q and retained Part N,Q . Then the same-witness extraction theorem places the critical H 1/2 shell on the material packet and under the same pressure-viscosity law.
 
     Thus the pure oscillatory branch of CriticalHHalf ToCMFace.A lands in the Field face once the matched Field finite-difference bound is certified as part of Field N,r,Q .
 
@@ -572,14 +572,14 @@ chunk:
     \mathfrak C_{N,r,Q}(\mathcal W).
     \]
 
-    Hence persistent terminal critical H 1/2 shell energy on retained Pack+Part forces failure of Field N(J),r J,Q at the matched depth and scale.
+    Hence persistent terminal critical H 1/2 shell energy on retained Field-window evidence+Part forces failure of Field N(J),r J,Q at the matched depth and scale.
 
     The exact remaining Field-readout check is closed. The pure oscillatory H 1/2 branch lands in the Field face.
 
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

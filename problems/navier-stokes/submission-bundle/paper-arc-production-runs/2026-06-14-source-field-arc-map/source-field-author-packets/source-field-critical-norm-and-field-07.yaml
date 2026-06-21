@@ -137,7 +137,7 @@ chunk:
       \]
 
       \[
-      CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+      CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
       \]
 
       The diagnostic contradiction is the same retained-branch test: the three faces
@@ -371,7 +371,7 @@ chunk:
 
       This is a contrapositive Field-face reduction. It does not prove Native Positive Source Control.A from Original Smooth Data; it says exactly where that theorem is allowed to be spent inside the CM program.
 
-      No source-wall estimate may be promoted unless it is explicitly consumed through Field Face Residue Reduction.A or through an equally explicit Pack/Part/Field witness-face bridge.
+      No source-wall estimate may be promoted unless it is explicitly consumed through Field Face Residue Reduction.A or through an equally explicit Part/Field witness-face bridge.
 
 
     truncated: false
@@ -508,7 +508,7 @@ chunk:
     \]
 
     \[
-    CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+    CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
     \]
 
     The diagnostic contradiction is the same retained-branch test: the three faces
@@ -714,7 +714,7 @@ chunk:
 
     This is a contrapositive Field-face reduction. It does not prove Native Positive Source Control.A from Original Smooth Data; it says exactly where that theorem is allowed to be spent inside the CM program.
 
-    No source-wall estimate may be promoted unless it is explicitly consumed through Field Face Residue Reduction.A or through an equally explicit Pack/Part/Field witness-face bridge.
+    No source-wall estimate may be promoted unless it is explicitly consumed through Field Face Residue Reduction.A or through an equally explicit Part/Field witness-face bridge.
 
 
 
@@ -774,7 +774,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

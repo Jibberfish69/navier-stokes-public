@@ -296,7 +296,7 @@ chunk:
 
       Bounded direct attempt on the heat-remainder half of Terminal Critical Duhamel Source Extraction.A.
 
-      This does not close the public-critical bridge by itself. It shows that the linear heat remainder is not an independent source wall: it reduces to a same-witness heat-ancestor localization lemma already aligned with the retained Pack / no-earlier-slice bookkeeping.
+      This does not close the public-critical bridge by itself. It shows that the linear heat remainder is not an independent source wall: it reduces to a same-witness heat-ancestor localization lemma already aligned with the retained Field-window evidence / no-earlier-slice bookkeeping.
 
       \[
       u_m = v_m+w_m,
@@ -321,11 +321,11 @@ chunk:
       \ge c_1>0.
       \]
 
-      If the off-parent contribution dominates, the terminal mass entered through heat-kernel tails from outside the selected same-fluid parent. That is not a new retained heat atom; it is loss of the retained carrier localization and so selects the Pack face.
+      If the off-parent contribution dominates, the terminal mass entered through heat-kernel tails from outside the selected same-fluid parent. That is not a new retained heat atom; it is loss of the retained carrier localization and so selects the Field-window evidence.
 
       This is a heat-kernel localization lemma, not a nonlinear Navier-Stokes source estimate. Its constants must be written against the selected terminal cover and the Pack carrier radius so that the off-parent heat tail is charged to Pack failure rather than hidden as a public readout.
 
-      Under retained Pack Q and No Earlier Selected Critical Slice.A, same witness Heat Ancestor Localization.A gives
+      Under retained Field-window evidence Q and No Earlier Selected Critical Slice.A, same witness Heat Ancestor Localization.A gives
 
       The heat part is a record/ancestor localization check. The nonlinear Duhamel part is the actual source-production burden.
 
@@ -641,7 +641,7 @@ chunk:
 
     Bounded direct attempt on the heat-remainder half of Terminal Critical Duhamel Source Extraction.A.
 
-    This does not close the public-critical bridge by itself. It shows that the linear heat remainder is not an independent source wall: it reduces to a same-witness heat-ancestor localization lemma already aligned with the retained Pack / no-earlier-slice bookkeeping.
+    This does not close the public-critical bridge by itself. It shows that the linear heat remainder is not an independent source wall: it reduces to a same-witness heat-ancestor localization lemma already aligned with the retained Field-window evidence / no-earlier-slice bookkeeping.
 
     \[
     u_m = v_m+w_m,
@@ -666,11 +666,11 @@ chunk:
     \ge c_1>0.
     \]
 
-    If the off-parent contribution dominates, the terminal mass entered through heat-kernel tails from outside the selected same-fluid parent. That is not a new retained heat atom; it is loss of the retained carrier localization and so selects the Pack face.
+    If the off-parent contribution dominates, the terminal mass entered through heat-kernel tails from outside the selected same-fluid parent. That is not a new retained heat atom; it is loss of the retained carrier localization and so selects the Field-window evidence.
 
     This is a heat-kernel localization lemma, not a nonlinear Navier-Stokes source estimate. Its constants must be written against the selected terminal cover and the Pack carrier radius so that the off-parent heat tail is charged to Pack failure rather than hidden as a public readout.
 
-    Under retained Pack Q and No Earlier Selected Critical Slice.A, same witness Heat Ancestor Localization.A gives
+    Under retained Field-window evidence Q and No Earlier Selected Critical Slice.A, same witness Heat Ancestor Localization.A gives
 
     The heat part is a record/ancestor localization check. The nonlinear Duhamel part is the actual source-production burden.
 
@@ -773,7 +773,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

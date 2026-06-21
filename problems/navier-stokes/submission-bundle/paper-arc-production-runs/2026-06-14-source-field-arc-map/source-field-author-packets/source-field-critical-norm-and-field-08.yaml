@@ -109,7 +109,7 @@ chunk:
       \subsection{Clay problem Critical L3 Concentration To Native Source Residue Direct Attempt}
 
       \[
-      Pack_Q + Part_{N,Q} + CritConc_{L^3}(\mathcal W).
+      Part_{N,Q} plus Field-window evidence + CritConc_{L^3}(\mathcal W).
       \]
 
       \[
@@ -139,7 +139,7 @@ chunk:
       This is the serious step. It must prove that the critical Duhamel mass cannot hide as a harmless oscillatory cancellation once Pack and Part are retained.
 
       \[
-      Pack_Q + Part_{N,Q} + CritConc_{L^3}(\mathcal W)
+      Part_{N,Q} plus Field-window evidence + CritConc_{L^3}(\mathcal W)
       \Longrightarrow
       \neg Field_{N,r,Q}.
       \]
@@ -203,7 +203,7 @@ chunk:
 
       The first lemma is adjoint heat/Leray localization. The second is the true nonlinear source-geometry burden after one-sided terminal selection.
 
-      Native Singular Residue ToSCTCFailure.A and the retained Field diagnostics already spend either * sing >0 or selected Scale Critical Tree Carleson.A as a Field exit under retained Pack and Part.
+      Native Singular Residue ToSCTCFailure.A and the retained Field diagnostics already spend either * sing >0 or selected Scale Critical Tree Carleson.A as a Field exit under retained Field-window evidence and Part.
 
       So the gap is upstream of those consumers. It is the inverse localization from critical Duhamel response mass to the native positive source packet, with projection/pressure/cancellation accounted for on the same witness record.
 
@@ -447,7 +447,7 @@ chunk:
     \subsection{Clay problem Critical L3 Concentration To Native Source Residue Direct Attempt}
 
     \[
-    Pack_Q + Part_{N,Q} + CritConc_{L^3}(\mathcal W).
+    Part_{N,Q} plus Field-window evidence + CritConc_{L^3}(\mathcal W).
     \]
 
     \[
@@ -477,7 +477,7 @@ chunk:
     This is the serious step. It must prove that the critical Duhamel mass cannot hide as a harmless oscillatory cancellation once Pack and Part are retained.
 
     \[
-    Pack_Q + Part_{N,Q} + CritConc_{L^3}(\mathcal W)
+    Part_{N,Q} plus Field-window evidence + CritConc_{L^3}(\mathcal W)
     \Longrightarrow
     \neg Field_{N,r,Q}.
     \]
@@ -529,7 +529,7 @@ chunk:
 
     The first lemma is adjoint heat/Leray localization. The second is the true nonlinear source-geometry burden after one-sided terminal selection.
 
-    Native Singular Residue ToSCTCFailure.A and the retained Field diagnostics already spend either * sing >0 or selected Scale Critical Tree Carleson.A as a Field exit under retained Pack and Part.
+    Native Singular Residue ToSCTCFailure.A and the retained Field diagnostics already spend either * sing >0 or selected Scale Critical Tree Carleson.A as a Field exit under retained Field-window evidence and Part.
 
     So the gap is upstream of those consumers. It is the inverse localization from critical Duhamel response mass to the native positive source packet, with projection/pressure/cancellation accounted for on the same witness record.
 
@@ -723,7 +723,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

@@ -118,7 +118,7 @@ chunk:
       The previous Field-row wording below is retained only as historical/sharper diagnostic language for a residue that has already been converted into a lawful participating tower object. A raw unpaid source residue cannot break Field without breaking Part first. For the live CM target, it lands at Pack if no carrier survives, and otherwise at Part.
 
       \[
-      Pack_Q+Part_{N,Q}+\mu_{\ast}^{sing}\ne 0
+      Part_{N,Q} plus Field-window evidence+\mu_{\ast}^{sing}\ne 0
       \Longrightarrow
       \forall r>0\,\neg Field_{N,r,Q}
       \]
@@ -138,7 +138,7 @@ chunk:
       \]
 
       \[
-      CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+      CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
       \]
 
       This is no longer the live landing for raw native source residue. A raw unpaid source residue breaks Part before Field. The statement is usable only for a coherence/readout residue after a separate theorem has already licensed the source term as lawful particip
@@ -540,7 +540,7 @@ chunk:
     The previous Field-row wording below is retained only as historical/sharper diagnostic language for a residue that has already been converted into a lawful participating tower object. A raw unpaid source residue cannot break Field without breaking Part first. For the live CM target, it lands at Pack if no carrier survives, and otherwise at Part.
 
     \[
-    Pack_Q+Part_{N,Q}+\mu_{\ast}^{sing}\ne 0
+    Part_{N,Q} plus Field-window evidence+\mu_{\ast}^{sing}\ne 0
     \Longrightarrow
     \forall r>0\,\neg Field_{N,r,Q}
     \]
@@ -560,12 +560,12 @@ chunk:
     \]
 
     \[
-    CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+    CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
     \]
 
     This is no longer the live landing for raw native source residue. A raw unpaid source residue breaks Part before Field. The statement is usable only for a coherence/readout residue after a separate theorem has already licensed the source term as lawful participation.
 
-    Pack Q is the retained same-fluid carrier condition. If the selected residue cannot stay on a bounded same-fluid terminal carrier, the branch has already selected the Pack face.
+    Pack Q is the retained same-fluid carrier condition. If the selected residue cannot stay on a bounded same-fluid terminal carrier, the branch has already selected the Field-window evidence.
 
     For the live CM route this hypothesis is not automatic for native source residue. A raw unpaid source residue is exactly a failure of lawful participation, so it exits through Part once Pack is retained.
 
@@ -849,7 +849,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
