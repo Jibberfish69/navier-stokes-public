@@ -3,7 +3,7 @@
 ## Target
 Prove a source theorem ruling out active-shell amplitude concentration from `OriginalSmoothData`, then propagate the result through:
 
-`active-shell amplitude gain -> scale-normalized nu_SCF Carleson -> Jump_avg eliminated -> PCTP.hard -> terminal Pack/Part/Field/tower readout`.
+`active-shell amplitude gain -> scale-normalized nu_SCF Carleson -> Jump_avg eliminated -> PCTP.hard -> terminal Part/Field/tower readout`.
 
 ## Mechanism scan
 The relevant surfaces show the following status.
@@ -30,7 +30,7 @@ The amplitude-speed gate theorem works after one of its supplier branches is ins
 ## Result
 The downstream theorem chain is conditionally solved:
 
-`active-shell amplitude gain -> scale-normalized nu_SCF Carleson -> Jump_avg eliminated -> PCTP.hard -> terminal Pack/Part/Field/tower readout`.
+`active-shell amplitude gain -> scale-normalized nu_SCF Carleson -> Jump_avg eliminated -> PCTP.hard -> terminal Part/Field/tower readout`.
 
 The source theorem
 

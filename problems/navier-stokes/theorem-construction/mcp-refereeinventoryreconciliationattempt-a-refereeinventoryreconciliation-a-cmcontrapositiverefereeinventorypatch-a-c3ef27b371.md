@@ -13,7 +13,7 @@ Consume every terminal branch by one of:
   - admissibility failure,
   - not Part_{N,Q},
   - forall r>0 not Field_{N,r,Q},
-  - ordinary Pack/Part/Field face failure,
+  - ordinary Part/Field Part/Field failure,
   - continuation/readout recovery.
 ```
 
@@ -38,7 +38,7 @@ with the review formulation:
 
 ```text
 Prove TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A,
-or replace it with a noncircular finite-breakdown exclusion that lands every admitted surviving terminal residual object through Member(Q) or a concrete Pack/Part/Field face failure.
+or replace it with a noncircular finite-breakdown exclusion that lands every admitted surviving terminal residual object through Member(Q) or a concrete Part/Field Part/Field failure.
 ```
 
 ## Local replacement supplied
@@ -57,7 +57,7 @@ affine/material nontransfer -> not Field;
 selector drift -> not Field unless stable, then reduce;
 cross-profile positive defect -> not Field unless one-profile localized, then reduce;
 detached packet -> not Part;
-positive-radius nonsingular branch -> ordinary Pack/Part/Field chain or continuation/readout recovery.
+positive-radius nonsingular branch -> ordinary Part/Field chain or continuation/readout recovery.
 ```
 
 This is exactly the intended noncircular replacement at the local note level.
@@ -108,9 +108,9 @@ and verifying that every admitted surviving terminal residual object is consumed
 
 ```text
 Member(Q) / continuation-readout recovery,
-concrete Pack face failure,
-concrete Part face failure,
-concrete Field face failure,
+concrete Pack Part/Field failure,
+concrete Part Part/Field failure,
+concrete Field Part/Field failure,
 or admissibility failure.
 ```
 

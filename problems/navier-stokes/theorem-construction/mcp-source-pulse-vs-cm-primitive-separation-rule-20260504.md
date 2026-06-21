@@ -4,7 +4,7 @@
 
 Governance / typing rule installed as a theorem-construction guardrail.
 
-This note records the separation required after the source-pulse supplier route and the explicit CM witness-face bridge.
+This note records the separation required after the source-pulse supplier route and the explicit CM witness bridge.
 
 ## Governing CM primitive
 
@@ -48,7 +48,7 @@ This route is a supplier for the Field / no-jump terminal-tail branch. It is not
 
 ## Forbidden promotions
 
-The following promotions are invalid unless a separate witness-face bridge is cited:
+The following promotions are invalid unless a separate witness bridge is cited:
 
 ```math
 SOURCE.NO\text{-}PULSE.A\Longrightarrow Member(Q),
@@ -83,7 +83,7 @@ PCTP.hard/TTU.A\equiv CM_{N,r,Q}.
 
 ## Valid spending rule
 
-The source-pulse route may be spent only through the typed witness-face bridge:
+The source-pulse route may be spent only through the typed witness bridge:
 
 ```math
 LemmaB.SourceDrain
@@ -129,10 +129,10 @@ Any proof-assembly or review surface should classify the objects as follows:
 | `AWG.A` | averaged no-jump supplier | feeds `Jump_avg` exclusion |
 | `Jump_avg => bot` | branch exclusion | removes averaged jump face |
 | `PCTP.hard / TTU.A` | downstream terminal-tail consumer/readout | requires readout bridge before CM use |
-| `Field.Read` | witness-face bridge | lands in `Field_{N,r,Q}` |
-| `Pack.TTU` | witness-face bridge | lands in `Pack_Q` |
-| `Part.NoDrop` | witness-face bridge | lands in `Part_{N,Q}` |
-| `CM_{N,r,Q}` | class-membership witness | conjunction of Pack, Part, Field |
+| `Field.Read` | witness bridge | lands in `Field_{N,r,Q}` |
+| `Pack.TTU` | witness bridge | lands in `Pack_Q` |
+| `Part.NoDrop` | witness bridge | lands in `Part_{N,Q}` |
+| `CM_{N,r,Q}` | class-membership witness | conjunction of Part and Field |
 | `Member(Q)` | governing membership conclusion | follows from `CM` |
 
 ## Consequence
@@ -152,7 +152,7 @@ and
 
 ```math
 \boxed{
-CM\text{ primitive closure: conditional on explicit Pack, Part, Field witness rows.}
+CM\text{ primitive closure: conditional on explicit Part and Field witness rows.}
 }
 ```
 

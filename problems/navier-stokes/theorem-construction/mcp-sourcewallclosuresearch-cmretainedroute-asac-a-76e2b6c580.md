@@ -21,7 +21,7 @@ The retained CM route has a usable closure through `SourcePulseCMExit.A`.  The s
 The CM witness envelope is
 
 ```math
-CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}+Field_{N,r,Q}.
 ```
 
 The source-wall residue is

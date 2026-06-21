@@ -21,7 +21,7 @@ The first fact is installed by CM-exit discipline.  The second fact is the stron
 Assume a terminal same-fluid branch is retained in the CM witness envelope:
 
 ```math
-CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}+Field_{N,r,Q}.
 ```
 
 Assume a nonzero native positive source residue survives on that same terminal carrier:
@@ -54,7 +54,7 @@ By `FieldSourceResidueJump.A`, a nonzero Field-side source residue on the retain
 (Field,Jump).
 ```
 
-By `SourcePulseCMExit.A`, a terminal source-pulse used as a genuine nonsmooth occurrence forces failure of at least one CM face:
+By `SourcePulseCMExit.A`, a terminal source-pulse used as a genuine nonsmooth occurrence forces failure of at least one CM Part/Field:
 
 ```math
 \text{source-pulse terminal occurrence}

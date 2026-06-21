@@ -55,7 +55,7 @@ C_{k,r}
 Thus every finite velocity rung through the retained depth is bounded from the
 same Field oscillation moduli and the same energy bound. For force rungs, Part
 supplies the shared pressure-viscosity carrier envelope; escape of that envelope
-is a Part-face failure rather than a retained Pack+Part+Field branch. On the
+is a Part-Part/Field failure rather than a retained Pack+Part+Field branch. On the
 retained branch, the finite `K_k` envelope is bounded on the same cover
 elements. Summing finitely many `U_k` and `K_k` terms gives
 `A_{N,Q_n} in L^infty(I_n)`, so tower-blown cannot occur on retained

@@ -209,4 +209,4 @@ subject to the source-pulse and terminal-tail route licenses recorded in the rep
 
 ## Boundary of the result
 
-This assembly consumes the conditional theorem notes written for `AHP.A`, `WAB.A`, `WAR.A`, and `FPK.A`. It inherits their explicit licenses: affine packet-space error control, pressure-normalized or projected residual control, summable cutoff/off-packet ledgers, gain-stop/parent-kernel contraction, and first-pulse source-parent compactness. The live repo frontier for terminal promotion remains the CM witness-face bridge recorded in the proof-obligation matrix.
+This assembly consumes the conditional theorem notes written for `AHP.A`, `WAB.A`, `WAR.A`, and `FPK.A`. It inherits their explicit licenses: affine packet-space error control, pressure-normalized or projected residual control, summable cutoff/off-packet ledgers, gain-stop/parent-kernel contraction, and first-pulse source-parent compactness. The live repo frontier for terminal promotion remains the CM witness bridge recorded in the proof-obligation matrix.

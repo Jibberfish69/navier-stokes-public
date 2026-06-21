@@ -2,7 +2,7 @@
 
 ## Status
 
-Supplier-route assembly. The principal-flow adjoint drain route now gives the source-pulse / no-`Jump_avg` supplier chain at the definition-aligned route level. This closes the branch-supplier stack through `PCTP.hard / TTU.A` and exposes the remaining CM witness-face boundary.
+Supplier-route assembly. The principal-flow adjoint drain route now gives the source-pulse / no-`Jump_avg` supplier chain at the definition-aligned route level. This closes the branch-supplier stack through `PCTP.hard / TTU.A` and exposes the remaining CM witness boundary.
 
 This is not a Clay-level proof promotion and not a full CM contrapositive closure. It is the no-jump/source-pulse supplier discharge feeding the downstream terminal-tail consumer.
 
@@ -112,15 +112,15 @@ The route therefore supplies terminal-tail control for the averaged no-jump bran
 Exit(Q):=\neg Member(Q;O_{NS}^{work}).
 ```
 
-The remaining integration target is the witness-face bridge:
+The remaining integration target is the witness bridge:
 
 ```math
 PCTP.hard/TTU.A
 \Longrightarrow
-\text{licensed Pack/Part/Field witness-face landing.}
+\text{licensed Part/Field witness landing.}
 ```
 
-Equivalently, the source-pulse branch is now ready to be consumed by the CM witness grammar, but the bridge into a licensed `Pack/Part/Field` face still has to be written explicitly.
+Equivalently, the source-pulse branch is now ready to be consumed by the CM witness grammar, but the bridge into a licensed `Part/Field` face still has to be written explicitly.
 
 ## Next target after this assembly
 
