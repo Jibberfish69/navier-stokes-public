@@ -337,7 +337,7 @@ or it has to consume the retained pulse after same-witness CM-test admission:
 
 ```math
 \boxed{
-\text{CM Part/Field Part/Field failure supporting } Exit(Q):=\neg Member(Q).
+\text{CM Part/Field failure supporting } Exit(Q):=\neg Member(Q).
 }
 \tag{SGP.27}
 ```

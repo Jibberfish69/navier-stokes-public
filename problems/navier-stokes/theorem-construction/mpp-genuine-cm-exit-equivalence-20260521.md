@@ -220,6 +220,6 @@ A possible positive no-exit formulation is:
 This formulation names the whole no-exit problem and is not promoted as a local
 CM branch-law burden. Inside the corrected pass/fail engine, the local
 work is instead obstruction-by-obstruction: prove CM-test entry, derive the
-first Part/Field Part/Field failure on the fail branch, and keep the pass branch
+first Part/Field failure on the fail branch, and keep the pass branch
 as the in-class continuation branch. Equivalence makes CM the right terminal
 criterion; it does not by itself prove that original data never exits it.

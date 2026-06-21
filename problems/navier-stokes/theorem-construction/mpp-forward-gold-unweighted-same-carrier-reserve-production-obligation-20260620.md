@@ -259,7 +259,7 @@ and, after same-witness CM admission,
 ```math
 \text{retained endpoint atom or compact no-null positive carrier}
 \Longrightarrow
-\text{Part/Field Part/Field failure}.
+\text{Part/Field failure}.
 \tag{UOP.19}
 ```
 

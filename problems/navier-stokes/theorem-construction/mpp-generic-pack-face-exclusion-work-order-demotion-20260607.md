@@ -38,7 +38,7 @@ The typed roles are:
   test;
 - CM-test entry means the object is admitted into the same terminal packet
   grammar;
-- `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}` are witnesss;
+- `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}` are witnesses;
 - a failed face supports `Exit(Q):=not Member(Q)`;
 - a failed face is not itself a contradiction with being a finite breakdown
   witness.

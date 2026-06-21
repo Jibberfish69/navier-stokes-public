@@ -2,7 +2,7 @@
 theorem_id: forward-gold-three-clause-pass-or-cm-exit-assembly-20260620
 status: assembly-installed-forward-gold-not-proved
 logical_landing_node: unweighted_same_carrier_reserve_or_cm_part_field_question_exit
-edge_effect: "Assembles the three same-carrier forward-gold production clauses with their already installed CM consumers. The forward-gold clauses remain unproved. After same-witness CM admission, failure of any clause is not a surviving in-class branch: endpoint UI failure gives a terminal source atom, first-created reserve failure gives retained active-height/square-reserve blowup, and no-null readout failure gives a compact positive carrier in the signed-readout kernel. Each is consumed by Part/Field Part/Field failure under the cited admission and service/readout packages."
+edge_effect: "Assembles the three same-carrier forward-gold production clauses with their already installed CM consumers. The forward-gold clauses remain unproved. After same-witness CM admission, failure of any clause is not a surviving in-class branch: endpoint UI failure gives a terminal source atom, first-created reserve failure gives retained active-height/square-reserve blowup, and no-null readout failure gives a compact positive carrier in the signed-readout kernel. Each is consumed by Part/Field failure under the cited admission and service/readout packages."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-unweighted-same-carrier-reserve-production-obligation-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-ui-production-clause-recheck-20260620.md

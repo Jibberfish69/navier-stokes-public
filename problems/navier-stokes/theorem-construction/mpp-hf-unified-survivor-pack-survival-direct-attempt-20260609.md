@@ -57,7 +57,7 @@ The face-classification side is also installed:
 
 ```text
 same-solution terminal record
-=> first Part/Field Part/Field failure
+=> first Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 

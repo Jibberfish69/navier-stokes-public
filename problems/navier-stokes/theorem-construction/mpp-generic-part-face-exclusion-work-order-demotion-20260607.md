@@ -46,7 +46,7 @@ entry means that `O` has been put into the same-solution terminal packet tree
 after legal losses, readout artifacts, non-selected branches, and paid finite
 ledgers have been removed.
 
-`Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}` are witnesss. A failure of
+`Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}` are witnesses. A failure of
 `Part_{N,Q}` is a Part/Field failure:
 
 ```text
@@ -61,7 +61,7 @@ Exit(Q):=not Member(Q).
 
 It is not itself a contradiction with the finite-breakdown branch. In the CM
 pass/fail engine, the fail branch is supposed to become a typed exit branch
-once a concrete Part/Field Part/Field failure has been derived.
+once a concrete Part/Field failure has been derived.
 
 ## Why The Generic Part Target Is Stale
 

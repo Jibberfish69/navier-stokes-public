@@ -275,7 +275,7 @@ Audit reading:
 - the current proof use is narrower: this family can support the same-witness
   terminal anti-concentration / source-Carleson / rigid-anti-atom /
   non-source Pack-survival frontier only after same-ledger payment or CM-test
-  admission plus first Part/Field Part/Field failure.
+  admission plus first Part/Field failure.
 
 ### A4B. `ParabolicSourceCurrent.A` / `CycleHeatAction.A`
 

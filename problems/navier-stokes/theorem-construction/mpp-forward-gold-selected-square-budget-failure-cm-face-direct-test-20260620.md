@@ -30,7 +30,7 @@ The result is:
 \boxed{
 \text{same-witness selected square-budget failure}
 \Longrightarrow
-\text{Part/Field Part/Field failure.}
+\text{Part/Field failure.}
 }
 \tag{SBC.1}
 ```
@@ -220,6 +220,6 @@ After admission, it is consumed by the CM Part/Field tree:
 \boxed{
 \text{selected square-budget failure}
 \Rightarrow
-\text{Part/Field Part/Field failure.}
+\text{Part/Field failure.}
 }
 ```
