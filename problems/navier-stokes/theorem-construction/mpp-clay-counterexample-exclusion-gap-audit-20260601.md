@@ -13,11 +13,11 @@ What is currently installed is:
 ```text
 ClayAdmissibleFiniteBreakdown(W_*)
 => CM-test entry
-=> Pack/Part/Field first-face failure
+=> Part/Field first-Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
-That is valuable CM contrapositive structure. It says an alleged terminal breakdown object, once admitted to the same-fluid terminal packet test, is classified as a Pack, Part, or Field class exit.
+That is valuable CM contrapositive structure. It says an alleged terminal breakdown object, once admitted to the same-fluid terminal packet test, is classified as a Part or Field class exit.
 
 The missing Clay-closing bridge is:
 
@@ -67,7 +67,7 @@ The submission manuscript must stop presenting the classified class exit as a co
 The repaired manuscript should say:
 
 ```text
-The CM chain classifies every admitted finite terminal breakdown object as Pack/that face failure.
+The CM chain classifies every admitted finite terminal breakdown object as Pack/that Part/Field failure.
 The remaining Clay-closing burden is to prove that such a classified exit cannot be the actual finite breakdown counterexample for the original smooth-data solution.
 ```
 

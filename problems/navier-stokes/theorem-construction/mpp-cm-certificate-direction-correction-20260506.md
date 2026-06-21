@@ -2,7 +2,7 @@
 
 ## Authority Cap - Historical Route Audit
 
-This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
+This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
 
 ## 2026-06-20 Part Ontology Correction
 
@@ -38,9 +38,7 @@ Member(Q;\mathfrak O_{NS}^{work}).
 with
 
 ```math
-CM_{N,r,Q}
-:=
-Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 The blunt converse is not installed:
@@ -88,7 +86,7 @@ This is weaker than the pointwise logical converse
 Since
 
 ```math
-CM_{N,r,Q}:=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}
 ```
 
 the statement
@@ -97,7 +95,7 @@ the statement
 \neg Pack_Q\vee\neg Part_{N,Q}\vee\neg Field_{N,r,Q}
 ```
 
-is exactly `\neg CM_{N,r,Q}`.  Therefore the reverse face-failure implication
+is exactly `\neg CM_{N,r,Q}`.  Therefore the reverse Part/Field-failure implication
 and the blunt aggregate converse are not two different missing claims.  They
 are the same logical burden after unpacking the definition of `CM`.
 
@@ -143,15 +141,15 @@ Equivalently:
 Installing either displayed implication installs the other, because
 `Exit(Q;\mathfrak O_{NS}^{work}) := \neg Member(Q;\mathfrak O_{NS}^{work})`
 and `CM` is the conjunction of the three face predicates.  So the real
-logical hinge is not a distinction between "face failure" and "not CM"; it is
-whether the `Pack/Part/Field` envelope is merely a sufficient certificate for
+logical hinge is not a distinction between "Part/Field failure" and "not CM"; it is
+whether the `Part/Field` envelope is merely a sufficient certificate for
 membership or a necessary characterization of membership on the route.
 
 ## Safe Claim
 
 NS-MPP has installed `CM` as an exact analytic witness-to-member record for
-an original-NS participating candidate, and has installed `Pack/Part/Field` as
-the canonical route-relative witness-face record.  The record does not make
+an original-NS participating candidate, and has installed `Part/Field` as
+the canonical route-relative witness record.  The record does not make
 `Pack` the supplier of participation and does not make indexed `Part_{N,Q}` the
 ontology of the solution.
 It has not installed the blunt converse witness theorem

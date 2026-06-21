@@ -2,7 +2,7 @@
 
 ## Authority Cap - Historical Route Audit
 
-This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
+This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
 
 Date: 2026-05-23
 
@@ -20,14 +20,14 @@ This note proves the independent statement that is actually available from the
 Clay problem statement:
 
 ```text
-a Pack/Part/Field CM class-exit witness is inadmissible as a Clay smooth
+a Part/Field CM class-exit witness is inadmissible as a Clay smooth
 solution witness.
 ```
 
 It does not prove the stronger statement:
 
 ```text
-a Pack/Part/Field CM class-exit witness is inadmissible as a Clay breakdown
+a Part/Field CM class-exit witness is inadmissible as a Clay breakdown
 counterexample witness.
 ```
 
@@ -59,7 +59,7 @@ the velocity and pressure on every finite spacetime window.
 This note uses:
 
 1. `SLC.A`: every classical still-live smooth window installs the exact
-   Pack/Part/Field CM witness:
+   Part/Field CM witness:
 
 ```math
 \text{classical still-live }Q
@@ -67,7 +67,7 @@ This note uses:
 \exists r_Q>0\ \forall N\ge0:\ CM_{N,r_Q,Q}.
 ```
 
-2. `CMW.A`: the all-depth Pack/Part/Field witness certifies local membership:
+2. `CMW.A`: the all-depth Part/Field witness certifies local membership:
 
 ```math
 \forall N\ \exists r_N>0:\ CM_{N,r_N,Q}
@@ -100,7 +100,7 @@ ClaySmoothSolution(u,p)
 }
 ```
 
-Therefore any Pack/Part/Field class-exit witness is inadmissible as a witness of
+Therefore any Part/Field class-exit witness is inadmissible as a witness of
 a Clay smooth solution.
 
 ## Proof
@@ -139,7 +139,7 @@ Exit(Q;\mathfrak O_{NS}^{work})
 so `Exit(Q;\mathfrak O_{NS}^{work})` is false.
 
 Since `Q` was arbitrary, no still-live finite window of a Clay smooth solution
-can carry a Pack/Part/Field CM class-exit witness.
+can carry a Part/Field CM class-exit witness.
 
 ## Boundary
 

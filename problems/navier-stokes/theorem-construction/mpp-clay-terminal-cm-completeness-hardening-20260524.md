@@ -12,7 +12,7 @@ Harden the exact terminal step needed by the CM contrapositive program:
 ```text
 finite Clay breakdown object
 => canonical same-solution terminal obstruction
-=> first failed Pack/Part/Field service
+=> first failed Part/Field service
 => Exit(Q):=not Member(Q).
 ```
 
@@ -27,7 +27,7 @@ data. Assume `W_*` passes the CM test-admissibility clauses from
 `mpp-clay-admissible-breakdown-cm-lawfulness-test-20260524.md`.
 
 Then the canonical terminal obstruction extracted from `W_*` is exhausted by
-the Pack-before-Part audited CM witness tree:
+the Pack-out-of-CM audited CM witness tree:
 
 ```math
 ClayAdmissibleFiniteBreakdown(W_*)
@@ -39,7 +39,7 @@ ClayAdmissibleFiniteBreakdown(W_*)
 \forall r>0\,\neg Field_{N_s,r,Q}.
 ```
 
-Consequently the derived face failure supports
+Consequently the derived Part/Field failure supports
 
 ```math
 Exit(Q;\mathfrak O_{NS}^{work})
@@ -86,13 +86,13 @@ The proof should run as a normal-form/minimal-counterexample argument.
    Pack_Q\wedge Part_{N_s,Q}\wedge Field_{N_s,r,Q}
    ```
 
-   is the continuation-complete CM packet at depth `N_s`. The installed readout
+   is the continuation-complete CM participation-field record at depth `N_s`. The installed readout
    gives an `H^s`, `s>5/2`, continuation bound, so the same classical solution
    extends past `T_*`. That contradicts the role of `W_*` as the finite terminal
    breakdown object.
 
 Therefore the canonical terminal obstruction extracted from `W_*` must break
-one of Pack, Part, or Field. That face failure is the CM contrapositive witness.
+one of Part or Field. That Part/Field failure is the CM contrapositive witness.
 
 ## What Remains To Check
 
@@ -116,7 +116,7 @@ ClayBreakdownCanonicalTerminalObstruction.A
 in `mpp-clay-breakdown-canonical-terminal-obstruction-20260524.md`.
 
 Once that extraction is certified, `AnyFiniteFailureWitnessCMExit.A` supplies the
-Pack-first landing, and `ClayCMContrapositiveEmbedding.A` supplies the readback
+Field-certification landing, and `ClayCMContrapositiveEmbedding.A` supplies the readback
 to `Exit(Q):=not Member(Q)`.
 
 ## Boundary
@@ -126,4 +126,4 @@ It does not use a shrinking-window argument. It does not require terminal exit
 to reflect to a still-live preterminal packet.
 
 Its job is narrower: make the alleged terminal Clay breakdown object canonical
-enough that its failure is forced to appear as a typed CM face failure.
+enough that its failure is forced to appear as a typed CM Part/Field failure.

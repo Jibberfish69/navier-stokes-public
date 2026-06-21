@@ -6,7 +6,7 @@ ns_viewer:
   logical_landing_node: cm_pack_face_attempts
   edge_effect: "Tests the generic Pack-face exclusion theorem and records why same-solution terminal ancestry does not prove positive carrier scale plus finite deformation comparability."
   upstream_origin: "June 7 generic Pack-face exclusion work order."
-downstream_consequence: "Demote generic Pack-face exclusion as a global blocker; named terminal obstruction rows must be typed by the Pack-before-Part audit before Pack is spent."
+downstream_consequence: "Demote generic Pack-face exclusion as a global blocker; named terminal obstruction rows must be typed by the Pack-out-of-CM audit before Pack is spent."
 ---
 
 # MPP Clay Pack-Face Exclusion Working Pass
@@ -26,7 +26,7 @@ Target statement under attack:
 
 ```text
 For a finite Clay breakdown from smooth original data, the canonical terminal
-obstruction cannot have first face not Pack_Q unless the alleged counterexample
+obstruction cannot have first Part/Field not Pack_Q unless the alleged counterexample
 has failed to identify an actual same-solution terminal obstruction.
 ```
 
@@ -38,7 +38,7 @@ Typed CM reading:
   removed;
 - `Pack_Q`: positive legal same-fluid carrier / cover plus the terminal
   deformation comparability needed by the readout-compatible packet;
-- `not Pack_Q`: first face failure of that carrier / cover service;
+- `not Pack_Q`: first Part/Field failure of that carrier / cover service;
 - `Exit(Q):=not Member(Q)`: downstream class-exit readback, not identical to
   the Pack face itself.
 
@@ -67,7 +67,7 @@ Installed conclusions used:
    Clay breakdown object into a same-solution terminal obstruction eligible for
    `CanonicalTerminalPacketCapture.A`.
 2. `CanonicalTerminalPacketCapture.A` sorts every same-solution terminal
-   obstruction into the Pack-first tree:
+   obstruction into the Field-certification tree:
 
    ```text
    not Pack_Q
@@ -80,7 +80,7 @@ Installed conclusions used:
    positive terminal carrier scale and finite deformation comparability for
    readout, not mere preterminal material identity.
 4. `mpp-terminal-zeno-pack-failure-correction-20260521.md` says finite Zeno
-   ancestry packets may be legal positive-radius CM packets, while the terminal
+   ancestry packets may be legal positive-radius CM participation-field records, while the terminal
    zero-radius limit lands Part-side when the same original-NS participation record remains and true `not Pack_Q` only when that record is
    absent, before any retained Field face can be spent.
 5. `mpp-clay-counterexample-exclusion-bridge-direct-work-20260601.md` already
@@ -110,7 +110,7 @@ actual same-solution canonical terminal obstruction
 ```
 
 The checked sources do not prove that implication. They prove entry into the
-Pack-first terminal tree.
+Field-certification terminal tree.
 
 ### Attempt 1: Incompressible Material Volume
 
@@ -160,9 +160,9 @@ preterminal maximal solution, then it fails the CM-test-admissibility clauses
 and is not an actual same-solution terminal obstruction. That subcase is
 already handled by the admissibility/canonical-extraction notes.
 
-The Pack branch under attack is different: the selected object is drawn from
+The Field-window branch under attack is different: the selected object is drawn from
 the same preterminal solution, but no positive legal terminal carrier survives.
-The installed tree reads that as the first face
+The installed tree reads that as the first Part/Field
 
 ```text
 not Pack_Q.
@@ -175,7 +175,7 @@ exclude Pack failure of that object.
 
 `CanonicalTerminalPacketCapture.A` is a classifier, not a Pack-retention
 theorem. It says every same-solution terminal obstruction has no fourth
-primitive service beyond Pack, Part, and Field.
+primitive service beyond Part and Field.
 
 In particular, when the first service fails, the theorem returns:
 
@@ -227,7 +227,7 @@ The checked sources prove the following weaker and already installed statement:
 ```text
 finite same-surface Clay breakdown
 => canonical same-solution terminal obstruction
-=> first Pack/Part/Field face failure.
+=> first Part/Field Part/Field failure.
 ```
 
 They do not prove:

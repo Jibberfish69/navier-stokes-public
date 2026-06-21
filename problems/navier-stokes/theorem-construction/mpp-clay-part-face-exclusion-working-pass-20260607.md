@@ -6,7 +6,7 @@ ns_viewer:
   logical_landing_node: cm_part_face_attempts
   edge_effect: "Tests the generic retained-Pack Part-face exclusion theorem and records why same preterminal ancestry does not prove terminal Part participation."
   upstream_origin: "June 7 generic Part-face exclusion work order."
-  downstream_consequence: "Demote generic Part-face exclusion as a global blocker; future named terminal obstruction rows must certify same-witness CM entry plus first-face landing."
+  downstream_consequence: "Demote generic Part-face exclusion as a global blocker; future named terminal obstruction rows must certify same-witness CM entry plus first-Part/Field landing."
 ---
 
 # MPP Clay Part-Face Exclusion Working Pass
@@ -48,7 +48,7 @@ Part face.
 - `mpp-clay-breakdown-canonical-terminal-obstruction-20260524.md`:
   a finite same-surface Clay breakdown is attached to the same datum, solves the
   same equation on every preterminal interval, uses the same fluid family until
-  terminal failure, and enters the Pack-first witness grammar.
+  terminal failure, and enters the Field-certification witness grammar.
 - `mpp-clay-terminal-cm-completeness-hardening-20260524.md`:
   once canonical, the terminal obstruction is exhausted by Pack, Part, and
   Field. The Part row is explicitly the retained-carrier row where the
@@ -143,7 +143,7 @@ shortcut. It starts with a terminal source residue from the same maximal
 Navier-Stokes evolution. It does not say that this residue came from a
 regularized equation, a surrogate pressure, or an external forcing law.
 
-Its Pack-first conclusion is:
+Its Field-certification conclusion is:
 
 ```text
 terminal source residue
@@ -202,7 +202,7 @@ residue to land first at `not Part_{N,Q}` while still coming from the same
 maximal preterminal Navier-Stokes evolution.
 
 Therefore a first Part face is not presently disqualified as target-fidelity
-failure. It is a lawful CM face failure unless an additional terminal tower
+failure. It is a lawful CM Part/Field failure unless an additional terminal tower
 closedness theorem removes the native Part-defect branch.
 
 ## Smallest Exact Missing Lemma

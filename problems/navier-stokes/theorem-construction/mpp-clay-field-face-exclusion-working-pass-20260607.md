@@ -5,7 +5,7 @@ ns_viewer:
   proof_role: clay_field_face_exclusion_attempt
   target_blocker: ClayFieldFaceExclusion.A
   logical_landing_node: cm_field_face_attempts
-  cm_face_landing: Field
+  cm_part_field_question_landing: Field
   edge_effect: "Tests whether retained Pack+Part excludes the all-scales Field failure for a finite Clay terminal obstruction; result: not proved from installed inputs."
   upstream_origin: "June 7 retained-Pack/terminal-Part Field-face working pass."
   downstream_consequence: "Route the missing Field realization lemma to the Field/Jump row rather than leaving a generic Clay bridge blocker."
@@ -70,7 +70,7 @@ SameSolutionTerminalObstruction(W_*).
 ```
 
 After legal losses, non-selected branches, readout artifacts, and paid finite
-ledger terms are stripped, the object enters the Pack-first terminal CM packet:
+ledger terms are stripped, the object enters the Field-certification terminal CM participation-field record:
 
 ```text
 Pack_Q,
@@ -120,7 +120,7 @@ unconditional Clay bridge to an original-data face-exclusion input:
 
 ```text
 OriginalSmoothData_T3
-=> no Pack/Part/Field first face failure on Q_atlas.
+=> no Part/Field first Part/Field failure on Q_atlas.
 ```
 
 The note explicitly says the current inputs prove the bridge only conditional on
@@ -156,7 +156,7 @@ Member(Q;\mathfrak O_{NS}^{work}).
 
 The live edge records the direction correction: arbitrary failure of a CM row is
 not by itself the theorem-grade converse to membership.  In the Clay terminal
-chain, a face failure supports `Exit(Q):=not Member(Q)` only after terminal
+chain, a Part/Field failure supports `Exit(Q):=not Member(Q)` only after terminal
 entry and finite-failure exhaustion.
 
 ### Live edge

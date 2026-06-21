@@ -21,7 +21,7 @@ classified as `Exit(Q)`. Under Thomas's CM pass/fail engine, that is not the
 local proof job. The fail branch is supposed to be the classified exit branch.
 The proof job is to show that each concrete terminal obstruction offered as a
 finite nonsmooth event enters the CM terminal test and derives a first failed
-Pack/Part/Field face.
+Part/Field face.
 
 The correct local target is:
 
@@ -29,7 +29,7 @@ The correct local target is:
 For each concrete finite terminal obstruction O:
   O_fail offered as the finite nonsmooth event
   => CM-test entry for O
-  => first failed Pack/Part/Field face
+  => first failed Part/Field face
   => Exit(Q):=not Member(Q),
 
   while
@@ -59,7 +59,7 @@ The live target is:
 
 ```text
 complete the finite terminal obstruction inventory so every actual fail branch
-has CM-test entry and a derived Pack/Part/Field face, with the pass branch kept
+has CM-test entry and a derived Part/Field face, with the pass branch kept
 as the only in-class continuation branch.
 ```
 
@@ -76,7 +76,7 @@ June 1 bridge as the next burden. It must use this corrected target:
    inventory surface;
 2. select one concrete uncovered or weakly covered terminal obstruction type;
 3. prove or audit its CM-test entry;
-4. derive its first Pack/Part/Field face failure;
+4. derive its first Part/Field Part/Field failure;
 5. check that the pass branch remains the in-class continuation branch without
    demanding one named positive bootstrap estimate.
 
@@ -115,7 +115,7 @@ or, under retained Pack_Q and Part_{N,Q},
 ```
 
 Thus the installed local `L^3` Duhamel-mass branch now has CM-test entry and a
-first Pack/Part/Field face derivation in the finite-obstruction inventory.
+first Part/Field Part/Field derivation in the finite-obstruction inventory.
 
 Generic public-critical translators remain support-only until a named class `X`
 has same-atlas localization and Field incompatibility proved on the same
@@ -128,5 +128,5 @@ finite-failure inventory.
 This note does not prove the Navier-Stokes MPP. It corrects the live target so
 the proof work does not drift into a false local bridge. Clay readiness still
 requires either a verified finite-obstruction inventory showing CM entry plus
-Pack/Part/Field face derivation for every actual terminal failure type, or an
+Part/Field Part/Field derivation for every actual terminal failure type, or an
 exact named obstruction type that remains uncovered.

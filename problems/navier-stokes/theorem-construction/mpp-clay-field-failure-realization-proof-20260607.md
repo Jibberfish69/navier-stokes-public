@@ -50,7 +50,7 @@ The object is not carrier loss, because `Pack_Q` is retained.
 The object is not dropped pressure-viscosity participation, because
 `Part^{term}_{N,Q}` is retained.
 
-The only remaining witness face in the CM packet is the Field face:
+The only remaining witness in the CM participation-field record is the Field face:
 
 ```text
 Field_{N,r,Q}.

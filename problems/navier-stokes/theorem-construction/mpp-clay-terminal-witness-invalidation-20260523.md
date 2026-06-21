@@ -3,7 +3,7 @@
 Date: 2026-05-23
 
 Status: corrected CM-contrapositive theorem note; proof thickened at the
-Pack/Part/Field case split and updated for Pack-before-Part resurfacing.
+Part/Field case split and updated for Pack-out-of-CM resurfacing.
 
 Theorem labels:
 
@@ -25,8 +25,8 @@ The CM-contrapositive proof starts with the alleged Clay witness itself:
 ```text
 Clay terminal witness
 => same original smooth Navier-Stokes object
-=> same-fluid CM terminal packet tree
-=> first failed Pack/Part/Field service
+=> same-fluid CM terminal participation-field tree
+=> first failed Part/Field service
 => finite failure type is exhausted as CM class exit.
 ```
 
@@ -38,8 +38,8 @@ has lost.
 ## Installed Inputs
 
 1. `SLC.A`: every preterminal classical smooth window gives the same-fluid
-   Pack/Part/Field packet.
-2. `CMW.A`: an all-depth Pack/Part/Field packet is the analytic certificate for
+   Part/Field packet.
+2. `CMW.A`: an all-depth Part/Field packet is the analytic certificate for
    `Member(Q;\mathfrak O_{NS}^{work})`.
 3. `GenuineCMExit.Equiv.A`: finite terminal non-continuation is equivalent to
    genuine continuation-complete CM exit.
@@ -58,8 +58,8 @@ has lost.
 
 6. `TerminalSourceResidueCMExit.A`: terminal source residue is a Pack/Part
    witness, not a fourth residue and not a deletion burden.
-7. `OriginalParticipationBeforePackLicensing.A` and the June 20 Pack-before-Part
-   resurfacing audit: a singular or pre-Pack same-solution terminal object with
+7. `OriginalParticipationBeforePackLicensing.A` and the June 20 Pack-out-of-CM
+   resurfacing audit: a singular or outside-CM participation-field record-window same-solution terminal object with
    a meaningful original Navier-Stokes participation record must be tested at
    `Part_{N,Q}` / `Field_{N,r,Q}` before it is allowed to remain a Pack-only
    exit.
@@ -91,13 +91,13 @@ This means:
    `W_*` is still claiming to be the finite terminal obstruction;
 5. same witness grammar: the only primitive terminal services available to that
    obstruction are `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`. Ordinary
-   positive-carrier branches use the usual Pack/Part/Field order. Singular or
-   pre-Pack branches that still carry a same-solution original participation
+   positive-carrier branches use the usual Part/Field order. Singular or
+   outside-CM participation-field record-window branches that still carry a same-solution original participation
    record are surfaced under `Part_{N,Q}` / `Field_{N,r,Q}` before a Pack-only
    conclusion is spent.
 
 This definition does not assume that `W_*` is a class-member. Class exit is the
-conclusion produced only after a Pack/Part/Field face failure is derived.
+conclusion produced only after a Part/Field Part/Field failure is derived.
 
 ## Theorem `ClayTerminalWitnessCMEntry.A`
 
@@ -125,7 +125,7 @@ the same-fluid data:
 (\Omega,[0,T_*-\epsilon],\nu,u_0,u,p,\Phi;\mathscr L_{NS}).
 ```
 
-By `SLC.A`, each such preterminal window carries Pack, Part, and Field at every
+By `SLC.A`, each such preterminal window carries Part and Field at every
 finite depth after choosing a positive local scale. By `CMW.A`, those predicates
 are not decorative estimates; they are the analytic witness family for being
 inside the same local Navier-Stokes object.
@@ -145,12 +145,12 @@ does the same pressure-viscosity/tower participation survive?
 does positive-scale one-field coherence survive?
 ```
 
-These are exactly the Pack, Part, and Field services. Therefore `W_*` enters the
+These are exactly the Part and Field services. Therefore `W_*` enters the
 same-fluid terminal CM tree:
 
 ```text
 ordinary positive-carrier branches: Pack first, then Part, then Field;
-singular/pre-Pack same-solution branches: test the participation and readout
+singular/outside-CM participation-field record-window same-solution branches: test the participation and readout
 record before using Pack-only disposal.
 ```
 
@@ -159,7 +159,7 @@ So `W_*` enters `TerminalCMTree(W_*)`.
 ## Theorem `ClayFiniteFailureTypeCMExhaustion.A`
 
 Every CM-test-admissible finite Clay failure type is exhausted by a first failed
-CM witness face:
+CM witness:
 
 ```math
 \boxed{
@@ -186,12 +186,12 @@ We prove the face exhaustion directly.
 Fix a terminal window `Q` on the same terminal tail and fix the continuation
 depth `N_s` high enough for the installed `H^s`, `s>5/2`, readout.
 
-First apply the Pack-before-Part resurfacing audit. If the terminal extraction is
-singular, pre-Pack, or zero-radius but still has a meaningful pointwise record
+First apply the Pack-out-of-CM resurfacing audit. If the terminal extraction is
+singular, outside-CM participation-field record-window, or zero-radius but still has a meaningful pointwise record
 tied to the same original Navier-Stokes datum, pressure, viscosity, and source
 law, it is not disposed as Pack-only yet. It is tested under the participation
 and readout services below. If no such pointwise same-solution participation
-record remains, then Pack is the correct first face.
+record remains, then Pack is the correct first Part/Field.
 
 ### Case 1: Pack fails
 
@@ -290,7 +290,7 @@ nor one-field coherence loss. But after legal losses, readout artifacts,
 non-selected branches, and paid finite ledger terms are removed, the installed
 terminal packet has only those three services.
 
-Hence every CM-test-admissible finite Clay object produces one face failure:
+Hence every CM-test-admissible finite Clay object produces one Part/Field failure:
 
 ```math
 \neg Pack_Q
@@ -300,7 +300,7 @@ Hence every CM-test-admissible finite Clay object produces one face failure:
 \forall r>0\,\neg Field_{N_s,r,Q}.
 ```
 
-This is the desired Pack/Part/Field exhaustion.
+This is the desired Part/Field exhaustion.
 
 ### Row Addendum: Terminal L3 Duhamel Mass
 
@@ -314,7 +314,7 @@ same-ledger nonlinear source work, `not Pack_Q`, `not Part_{N_s,Q}`, or legal
 exit.
 
 With `ParaproductNativeSourceCapture.A` and `TerminalSourceResidueCMExit.A`,
-the first-face landing is:
+the first-Part/Field landing is:
 
 ```text
 selected Pack-side source-wall failure
@@ -338,7 +338,7 @@ Pack_Q\wedge Part_{N_s,Q}\wedge L^3\text{-}CritConc(W_*)
 ```
 
 So the installed terminal `L^3` Duhamel-mass branch is exhausted by the same
-terminal CM tree, with the Pack-before-Part resurfacing audit applied whenever a
+terminal CM tree, with the Pack-out-of-CM resurfacing audit applied whenever a
 singular retained source record is still tied to the original Navier-Stokes
 participation law. Generic public-critical classes remain support until their
 own same-atlas localization and Field incompatibility are proved.
@@ -353,14 +353,14 @@ contrapositive program.
 ClayWitness_{CM}(W_*)
 \Longrightarrow
 Exit(Q;\mathfrak O_{NS}^{work})
-\text{ through Pack, Part, or Field.}
+\text{ through Part or Field.}
 }
 ```
 
 ### Proof
 
 By `ClayFiniteFailureTypeCMExhaustion.A`, the alleged Clay witness forces one
-of the three face failures:
+of the three Part/Field failures:
 
 ```math
 \neg Pack_Q
@@ -391,7 +391,7 @@ same-solution participation record is tested at Part or Field.
 
 By `GenuineCMExit.Equiv.A`, loss of the continuation-complete same-fluid packet
 at the terminal tail is precisely genuine CM exit. The alleged finite terminal
-object is therefore not a free-standing Clay object; the derived face failure is
+object is therefore not a free-standing Clay object; the derived Part/Field failure is
 a certified `Exit(Q)` witness for the same working Navier-Stokes object.
 
 Since
@@ -402,19 +402,19 @@ Exit(Q;\mathfrak O_{NS}^{work})
 \neg Member(Q;\mathfrak O_{NS}^{work}),
 ```
 
-the derived face failure has been converted into the exact class-exit primitive
+the derived Part/Field failure has been converted into the exact class-exit primitive
 used by the CM route.
 
 ## Theorem `ClayTerminalWitnessInvalidation.A`
 
-There is no CM-test-admissible finite Clay terminal object whose face failure
+There is no CM-test-admissible finite Clay terminal object whose Part/Field failure
 remains unclassified by the CM contrapositive program.
 
 ```math
 \boxed{
 ClayWitness_{CM}(W_*)
 \Longrightarrow
-\text{classified Pack/Part/Field class exit.}
+\text{classified Part/Field class exit.}
 }
 ```
 
@@ -422,7 +422,7 @@ ClayWitness_{CM}(W_*)
 
 Let `W_*` be a CM-test-admissible finite Clay terminal object. By
 `ClayTerminalWitnessCMEntry.A`, it enters the same-fluid CM tree. By the
-Pack/Part/Field case split in `ClayFiniteFailureTypeCMExhaustion.A`, its finite
+Part/Field case split in `ClayFiniteFailureTypeCMExhaustion.A`, its finite
 failure type is classified by exactly one first failed service:
 
 ```text
@@ -432,25 +432,25 @@ or the same-solution participation record remains and Part fails,
 or the participation/readout record reaches Field and Field fails.
 ```
 
-By `ClayCMContrapositiveEmbedding.A`, each derived face failure supports
+By `ClayCMContrapositiveEmbedding.A`, each derived Part/Field failure supports
 `Exit(Q)`. Therefore no CM-test-admissible finite Clay object remains
 unclassified by the contrapositive program.
 
 The invalidation is exactly contrapositive: the alleged object produces a
-face-failure route to class exit instead of producing a surviving in-class
+Part/Field-failure route to class exit instead of producing a surviving in-class
 counterexample object.
 
 ## Corollary `ClayCMCounterexampleExclusion.A`
 
 Inside the CM route, no finite-time Clay counterexample remains after
-Pack/Part/Field witness-face exhaustion.
+Part/Field witness exhaustion.
 
 ### Proof
 
 A CM-route Clay counterexample must supply a CM-test-admissible finite terminal
 object whose failure is not already exhausted by the class-membership witness
 grammar. But `ClayTerminalWitnessInvalidation.A` proves that every such object
-has a derived Pack, Part, or Field face failure. Therefore no unexhausted
+has a derived Part or Field Part/Field failure. Therefore no unexhausted
 CM-route finite-time Clay counterexample remains.
 
 ## Readback
@@ -460,7 +460,7 @@ The corrected theorem is part of the CM contrapositive program:
 ```text
 start with the alleged finite failure;
 force it into the same-fluid CM witness tree;
-classify its first failed service, applying Pack-before-Part resurfacing to
+classify its first failed service, applying Pack-out-of-CM resurfacing to
 singular same-solution terminal objects;
 read that service failure as Exit(Q):=not Member(Q).
 ```
