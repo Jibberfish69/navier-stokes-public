@@ -343,3 +343,4 @@ would produce `(CHB.25)` or bypass it:
 \quad source-square domination,\quad strict no-waste,\quad profile production.}
 }
 \tag{CHB.26}
+\]
