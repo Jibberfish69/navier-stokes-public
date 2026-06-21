@@ -258,7 +258,7 @@ K_G^+
 ```
 
 If the same-carrier compactness theorem supplies a compact packet space
-\(\mathcal K\), if \(A_{\rm sel}\) is continuous on that space, if
+\(\mathcal K\), if selected activity persists under compactness, if
 \(\mathcal L\) is lower semicontinuous, and if lossless-cycle rigidity holds:
 
 ```math
@@ -375,10 +375,29 @@ harmless symmetries;}
 
 ```math
 \boxed{
-\text{continuity of }A_{\rm sel}\text{ on that compact packet space;}
+\text{selected positive activity persistence on that compact packet space;}
 }
 \tag{CRC.35}
 ```
+
+Continuity of \(A_{\rm sel}\) is one sufficient way to get `(CRC.35)`, but it
+is not the exact theorem.  The sharpened condition is the same-carrier
+persistence criterion:
+
+```math
+X_n\to X,
+\qquad
+A_{\rm sel}(X_n)\ge\eta,
+\qquad
+K_{{\rm sel},n}+K_{C,n}^+ +R_{{\rm legal},n}\to0
+\Longrightarrow
+A_{\rm ret}(X)\ge\eta_*(\eta)>0.
+\tag{CRC.35a}
+```
+
+Equivalently, the selected nonnegative carrier measure must be retained in the
+compact packet, or its loss must be charged to \(K_{\rm sel}\), \(K_C^+\), or
+\(R_{\rm legal}\).
 
 ```math
 \boxed{
