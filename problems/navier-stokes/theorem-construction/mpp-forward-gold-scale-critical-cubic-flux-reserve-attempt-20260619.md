@@ -254,7 +254,7 @@ So the failed cubic reserve has a pass-or-exit interpretation:
 \boxed{
 ScaleCriticalCubicFluxReserve.A
 \quad\text{or}\quad
-\text{retained critical cubic concentration becomes Pack/Part/Field exit.}
+\text{retained critical cubic concentration becomes Pack/that face failure.}
 }
 ```
 
@@ -298,5 +298,5 @@ CompactAncientRigidity.A.
 ```
 
 The surviving failed reserve is not a hidden fourth branch.  It is either the
-unproved gold supplier itself or, after CM admission, a Pack/Part/Field exit
+unproved gold supplier itself or, after CM admission, a Pack/that face failure
 witness.

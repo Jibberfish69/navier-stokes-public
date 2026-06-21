@@ -120,7 +120,7 @@ B_{ASAC}^{closed}
 This is CM witness-face support for the source-wall obstruction. It is not a
 proof that a finite Clay counterexample cannot realize the terminal source atom.
 The public Clay finality bridge still needs a noncircular theorem excluding or
-charging the first terminal Pack/Part/Field exit from original smooth data.
+charging the first terminal Pack/that face failure from original smooth data.
 
 ## Verdict
 

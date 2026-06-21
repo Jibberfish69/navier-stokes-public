@@ -240,5 +240,5 @@ This is the current non-aliased positive-supplier form of
 `LocalPositiveSourceCarleson.A`.  It must not be mistaken for the CM
 contrapositive target itself.  For the contrapositive program, a surviving
 native positive source residue is useful only after it is carried into a typed
-Pack/Part/Field exit witness; at the current source-wall resolution, that is a
+Pack/that face failure witness; at the current source-wall resolution, that is a
 retained Field/source-residue landing.

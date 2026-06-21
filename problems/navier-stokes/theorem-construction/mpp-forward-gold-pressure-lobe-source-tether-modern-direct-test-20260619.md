@@ -241,5 +241,5 @@ source-square, no-free-Zeno-chain, or strict no-waste/critical-element wall.
 
 In CM-facing language, failure of the stronger theorem is not hidden.  It is a
 retained terminal heat-scale pressure/source pulse that must be sorted through
-the Pack/Part/Field exit machinery rather than counted as a forward-gold
+the Pack/that face failure machinery rather than counted as a forward-gold
 no-jump proof.

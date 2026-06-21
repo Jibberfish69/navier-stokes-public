@@ -594,7 +594,7 @@ So the branch is exhausted as:
 \boxed{
 \text{same-carrier unweighted reserve still open}
 \quad\text{or}\quad
-\text{terminal pulse becomes CM Pack/Part/Field exit}.
+\text{terminal pulse becomes CM Pack/that face failure}.
 }
 ```
 

@@ -162,4 +162,4 @@ The sharp state is:
 
 So this branch gives no new forward-gold closure.  It either needs
 `NoFreeTerminalZenoDonorChain.A` as a real theorem, or the surviving unsaturated
-terminal carrier must be consumed as a CM Pack/Part/Field exit witness.
+terminal carrier must be consumed as a CM Pack/that face failure witness.

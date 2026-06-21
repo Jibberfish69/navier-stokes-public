@@ -131,7 +131,7 @@ Result: consumed route inventory, not a fresh mechanism.
 
 Finite-obstruction classification and `Exit(Q):=not Member(Q)` record the CM
 face result. They do not by themselves prove that original smooth data cannot
-generate a genuine first Pack/Part/Field exit. That missing step is exactly
+generate a genuine first Pack/that face failure. That missing step is exactly
 `NoGenuineExitFromSmoothData.A`.
 
 Result: classification support, not CMI finality.

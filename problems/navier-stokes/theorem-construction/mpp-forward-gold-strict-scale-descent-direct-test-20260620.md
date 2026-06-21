@@ -247,7 +247,7 @@ terminal heat-scale pulse therefore remains in the same position:
 \boxed{
 \text{prove an unweighted terminal critical-action reserve}
 \quad\text{or}\quad
-\text{send the retained pulse to CM Pack/Part/Field exit.}
+\text{send the retained pulse to CM Pack/that face failure.}
 }
 \tag{SSD.19}
 ```

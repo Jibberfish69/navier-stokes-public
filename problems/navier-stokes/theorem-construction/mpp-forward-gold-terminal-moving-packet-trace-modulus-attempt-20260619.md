@@ -240,7 +240,7 @@ The attempt proves the sharp alternative:
 \boxed{
 TerminalMovingPacketTraceModulus.A
 \quad\text{or}\quad
-\text{retained terminal pulse becomes Pack/Part/Field exit.}
+\text{retained terminal pulse becomes Pack/that face failure.}
 }
 ```
 
