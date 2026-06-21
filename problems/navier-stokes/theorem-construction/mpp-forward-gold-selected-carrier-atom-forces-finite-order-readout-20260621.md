@@ -9,11 +9,12 @@ ns_viewer:
     If the selected positive carrier a_m is controlled on the normalized terminal
     windows by a fixed finite-order readout X_m through a_m(s)<=C_op X_m(s)^p,
     and if the endpoint atom has mass at least a on a strip of length theta_m,
-    then theta_m sup_{I_m} X_m^p >= a/C_op. Thus an endpoint atom cannot be
-    carried by a purely high-rung analytic-tail collapse while all finite-order
-    selected readouts remain uniformly bounded. This is a consumer/visibility
-    criterion only; it does not produce source-square, unweighted action, or
-    no-waste control.
+    then int_{I_m} X_m(s)^p ds >= a/C_op and theta_m sup_{I_m} X_m^p >= a/C_op.
+    Thus an endpoint atom cannot be carried by a purely high-rung analytic-tail
+    collapse while all finite-order selected readouts remain uniformly bounded.
+    This is a consumer/visibility criterion only; it does not produce a global
+    summable budget for those unweighted readout quanta, source-square control,
+    or no-waste control.
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-endpoint-uniform-integrability-direct-test-20260619.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-rung-radius-collapse-not-endpoint-ui-direct-test-20260621.md
@@ -21,10 +22,11 @@ ns_viewer:
   downstream_consequence: >-
     High-rung-only analytic tail collapse is not the mechanism of a selected
     finite-order carrier endpoint atom. Any retained atom must show finite-order
-    selected readout growth at least at heat-window scale, or else endpoint UI
-    holds. The remaining gold work is to upgrade that finite-order growth into
-    same-carrier source-square/unweighted action/no-waste/profile production, or
-    consume the finite-rung readout through CM Pack/Part/Field.
+    selected readout growth at least at heat-window scale, and an unweighted
+    readout quantum on each atom strip. The remaining gold work is to prove a
+    global budget for those quanta, upgrade them into same-carrier source-square
+    or no-waste/profile production, or consume the finite-rung readout through
+    CM Pack/Part/Field.
 ---
 
 # MPP Forward-Gold Selected Carrier Atom Forces Finite-Order Readout
@@ -99,7 +101,18 @@ C_{\mathrm{op}}\theta_m(X_m^*)^p.
 \tag{FCR.5}
 \]
 
-Therefore
+Therefore first
+
+\[
+\boxed{
+\int_{I_m}X_m(s)^p\,ds
+\ge
+{a\over C_{\mathrm{op}}}.
+}
+\tag{FCR.6}
+\]
+
+Also,
 
 \[
 \boxed{
@@ -107,7 +120,7 @@ Therefore
 \ge
 {a\over C_{\mathrm{op}}}.
 }
-\tag{FCR.6}
+\tag{FCR.7}
 \]
 
 In particular, if \(X_m^*\) is uniformly bounded, then
@@ -117,7 +130,7 @@ In particular, if \(X_m^*\) is uniformly bounded, then
 \le
 C_{\mathrm{op}}\theta_m\sup_m(X_m^*)^p
 \to0,
-\tag{FCR.7}
+\tag{FCR.8}
 \]
 
 which contradicts `(FCR.3)`.
@@ -129,7 +142,7 @@ can diverge while every fixed finite readout remains bounded. If the selected
 carrier satisfies the finite-order bound `(FCR.2)`, then such a branch cannot
 carry the endpoint atom `(FCR.3)`.
 
-The reason is exactly `(FCR.7)`: bounded finite selected readout implies
+The reason is exactly `(FCR.8)`: bounded finite selected readout implies
 endpoint UI for the carrier.
 
 Thus
@@ -138,9 +151,9 @@ Thus
 \boxed{
 \text{selected endpoint atom}
 \Longrightarrow
-\text{finite-order selected readout grows at least at heat-window scale.}
+\text{finite-order selected readout has an unweighted strip quantum.}
 }
-\tag{FCR.8}
+\tag{FCR.9}
 \]
 
 and
@@ -151,25 +164,26 @@ and
 \not\Longrightarrow
 \text{selected finite-order carrier atom.}
 }
-\tag{FCR.9}
+\tag{FCR.10}
 \]
 
 ## 4. Boundary of the criterion
 
-This note gives a necessary finite-order visibility condition. It does not
-upgrade `(FCR.6)` into any of the stronger gold currencies:
+This note gives a necessary finite-order visibility condition. It gives the
+unweighted lower quantum `(FCR.6)` for the finite readout \(X_m^p\). It does
+not give a global budget that sums those quanta over a terminal Zeno chain, and
+it does not upgrade the readout quantum into the stronger same-carrier
+currencies:
 
 \[
 \boxed{
 \int_{I_m}a_m(s)^2\,ds,
 \qquad
-\int_{I_m}X_m(s)^p\,ds\text{ with an unweighted lower quantum},
-\qquad
 \text{strict no-waste},
 \qquad
 \text{profile production.}
 }
-\tag{FCR.10}
+\tag{FCR.11}
 \]
 
 Those remain separate production theorems.
@@ -183,11 +197,13 @@ tail collapse alone. It must appear in a finite-order readout:
 \boxed{
 \int_{I_m}a_m(s)\,ds\ge a
 \quad\Longrightarrow\quad
+\int_{I_m}X_m(s)^p\,ds\ge {a\over C_{\mathrm{op}}}
+\quad\text{and}\quad
 \theta_m(X_m^*)^p\ge {a\over C_{\mathrm{op}}}.
 }
-\tag{FCR.11}
+\tag{FCR.12}
 \]
 
 The next production burden is to turn that finite-order heat-window readout
-into same-carrier square reserve, unweighted action/no-waste, profile
-production, or a CM Pack/Part/Field face.
+quantum into a globally budgeted contradiction, same-carrier square reserve,
+no-waste/profile production, or a CM Pack/Part/Field face.
