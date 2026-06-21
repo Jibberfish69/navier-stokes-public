@@ -93,7 +93,7 @@ cause.
 
 ### Conditional Endpoint Matrix
 
-For the terminal route theorem, the Pack/Part/Field endpoint matrix is the
+For the terminal route theorem, the Part/Field endpoint matrix is the
 finite bookkeeping object
 
 ```math
@@ -126,7 +126,7 @@ exactly:
 ```math
 DTC\text{-}to\text{-}TowerBound
 +END.Exh+END.Cross
-+Pack/Part/Field\text{ endpoint matrix}
++Part/Field\text{ endpoint matrix}
 +END.PartMargin
 \Longrightarrow
 End\_NS.

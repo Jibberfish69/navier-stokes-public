@@ -27,7 +27,7 @@ classified Exit(Q_atlas)
 ```
 
 The proof attempt below rejects that shortcut.  The exact bridge has to exclude
-the first-face failure side for the original smooth datum, or equivalently
+the first-Part/Field failure side for the original smooth datum, or equivalently
 produce the same-solution continuation packet; target fidelity alone does not
 turn `Exit(Q_atlas)` into a Clay contradiction.
 
@@ -45,7 +45,7 @@ SelectedPacketReadoutCompleteness.A
 PackDefinitionUnification.A
 ```
 
-3. Its theorem gives the Pack-before-Part terminal face trichotomy:
+3. Its theorem gives the Pack-out-of-CM terminal face trichotomy:
 
 ```text
 finite terminal non-continuation on T^3
@@ -55,7 +55,7 @@ finite terminal non-continuation on T^3
       and for all r>0 not Field_{N_s,r,Q_atlas}.
 ```
 
-4. `ClayCMContrapositiveEmbedding.A` reads any derived first face failure as
+4. `ClayCMContrapositiveEmbedding.A` reads any derived first Part/Field failure as
 
 ```text
 Exit(Q_atlas; O_NS^work):=not Member(Q_atlas; O_NS^work).
@@ -107,7 +107,7 @@ So the pass outcome closes.
 ### Fail Outcome
 
 If the endpoint is genuinely finite, the torus-atlas theorem forces one first
-face failure:
+Part/Field failure:
 
 ```text
 not Pack_{Q_atlas},
@@ -191,7 +191,7 @@ ClayCounterexampleExclusionBridge.A:
 Assume the periodic original-data face-exclusion theorem:
 
   OriginalSmoothData_T3
-  => no Pack/Part/Field first face failure on Q_atlas.
+  => no Part/Field first Part/Field failure on Q_atlas.
 
 Then no finite periodic Clay counterexample exists.
 ```
@@ -200,7 +200,7 @@ Then no finite periodic Clay counterexample exists.
 
 Assume `T_*<infty`. By `TorusGlobalMaterialAtlasTerminalCapture.A`, the alleged
 finite endpoint either has the full readout-complete `Pack+Part+Field` packet on
-`Q_atlas`, or it has a first Pack/Part/Field face failure.
+`Q_atlas`, or it has a first Part/Field Part/Field failure.
 
 The face-exclusion theorem eliminates the second alternative.
 
@@ -232,5 +232,5 @@ direct theorem:
 
 ```text
 OriginalSmoothData_T3
-=> no Pack/Part/Field first face failure on Q_atlas.
+=> no Part/Field first Part/Field failure on Q_atlas.
 ```

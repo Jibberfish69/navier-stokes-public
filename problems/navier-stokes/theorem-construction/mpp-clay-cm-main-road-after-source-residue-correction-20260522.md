@@ -48,7 +48,7 @@ The installed pieces are:
 - `TerminalSourceResidueCMExit.A`: the native source residue subcase is Pack or
   Part exit, not an object to erase.
 - `AnyFiniteFailureWitnessCMExit.A`: any alleged finite-time failure witness
-  enters the Pack-first witness-face tree.
+  enters the Field-certification witness tree.
 - `SLC.A` / `CMW.A`: every still-live smooth window carries the CM witness and
   hence is a member of the working class.
 
@@ -101,6 +101,6 @@ NoGenuineCMExit.A:
 }
 ```
 
-This must be attacked by exhausting the continuation-complete Pack/Part/Field
+This must be attacked by exhausting the continuation-complete Part/Field
 faces. The source-residue subcase is already sorted by
 `TerminalSourceResidueCMExit.A`, so it is not the remaining anti-atom burden.

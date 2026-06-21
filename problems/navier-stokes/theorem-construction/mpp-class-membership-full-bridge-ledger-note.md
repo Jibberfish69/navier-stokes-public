@@ -367,7 +367,7 @@ CFI.A.
 ### 11.0 Endpoint/Tower-Bound Conditional Packet
 
 The endpoint and tower-bound part of the repaired endpoint-matrix conditional
-theorem is the finite Pack/Part/Field endpoint matrix plus the tower-amplitude
+theorem is the finite Part/Field endpoint matrix plus the tower-amplitude
 bridge:
 
 ```math

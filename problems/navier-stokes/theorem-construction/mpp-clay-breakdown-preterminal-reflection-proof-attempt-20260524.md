@@ -19,7 +19,7 @@ The role-typed input is already fixed:
 ```text
 alleged finite Clay breakdown object W_*
 => CM-test-admissible terminal object
-=> derived Pack/Part/Field face failure
+=> derived Part/Field Part/Field failure
 => Exit(Q_*):=not Member(Q_*).
 ```
 
@@ -33,8 +33,8 @@ recorded as an invalid bridge attempt.
    breakdown object inside the CM test grammar.
 
 2. `ClayFiniteFailureTypeCMExhaustion.A` and
-   `ClayCMContrapositiveEmbedding.A` derive a terminal face failure and read
-   that face failure as `Exit(Q_*):=not Member(Q_*)`.
+   `ClayCMContrapositiveEmbedding.A` derive a terminal Part/Field failure and read
+   that Part/Field failure as `Exit(Q_*):=not Member(Q_*)`.
 
 3. `SLC.A / CMW.A` prove that every still-live classical preterminal window
    is a class member:
@@ -57,11 +57,11 @@ recorded as an invalid bridge attempt.
 Use a contradiction/minimal-first-loss skeleton. Assume a finite Clay breakdown
 object produces terminal `Exit(Q_*)`, and assume every same-fluid still-live
 preterminal window remains class-member by `SLC.A / CMW.A`. Then the terminal
-face failure must first appear only at `T_*`.
+Part/Field failure must first appear only at `T_*`.
 
 This reasoning is the invalid step. It treats terminal class-exit as something
 that must be reflected backward before it can serve the CM contrapositive. That
-changes the proof program. In the CM contrapositive, the terminal face failure
+changes the proof program. In the CM contrapositive, the terminal Part/Field failure
 is the witness of `Exit(Q_*):=not Member(Q_*)`; it becomes an earlier still-live
 member-window defect only after a backward-reflection theorem.
 
@@ -73,7 +73,7 @@ Terminal Pack failure means:
 not Pack_Q_*
 ```
 
-Every compact preterminal window has a Pack witness by `SLC.A`, but the scale
+Every compact preterminal window has a Field-window support by `SLC.A`, but the scale
 and carrier data may depend on the chosen preterminal window. Reflection would
 need a theorem saying that the same-fluid carrier service cannot keep appearing
 on all compact preterminal windows and then lose Pack only in the terminal
@@ -84,11 +84,11 @@ is a zero-radius or terminal-carrier collapse: the Pack predicate may hold on
 each fixed preterminal window while the available Pack radius or deformation
 ledger degenerates along the terminal approach.
 
-The proposed Pack branch was:
+The proposed Field-window branch was:
 
 ```text
 PackNoFirstTerminalLoss.A:
-preterminal same-fluid Pack witnesses on a canonical terminal tail
+preterminal same-fluid Field-window supportes on a canonical terminal tail
 => terminal-only not Pack_Q is impossible.
 ```
 
@@ -148,7 +148,7 @@ or else a preterminal Field-face exit is already present.
 ```
 
 This is not promoted. Existing cover-degeneration notes classify terminal
-positive-scale loss as a Field/Jump face; they do not force that face failure to
+positive-scale loss as a Field/Jump face; they do not force that Part/Field failure to
 occur on a still-live preterminal member window.
 
 ## Result
@@ -160,13 +160,13 @@ It also does not prove a valid reduction to `CMFaceNoFirstTerminalLoss.A`.
 The failed inference is:
 
 ```text
-terminal derived face failure
-=> earlier still-live face failure.
+terminal derived Part/Field failure
+=> earlier still-live Part/Field failure.
 ```
 
 That inference would contradict `SLC.A / CMW.A`, but it is not part of the
 installed CM contrapositive. The installed CM
-contrapositive uses the terminal face failure itself as the witness of
+contrapositive uses the terminal Part/Field failure itself as the witness of
 `Exit(Q_*):=not Member(Q_*)`.
 
 ## Boundary
@@ -183,6 +183,6 @@ ClayAdmissibleFiniteBreakdown.A
 + ClayTerminalWitnessCMEntry.A
 + ClayFiniteFailureTypeCMExhaustion.A
 + ClayCMContrapositiveEmbedding.A
-=> derived Pack/Part/Field face failure
+=> derived Part/Field Part/Field failure
 => Exit(Q_*):=not Member(Q_*).
 ```

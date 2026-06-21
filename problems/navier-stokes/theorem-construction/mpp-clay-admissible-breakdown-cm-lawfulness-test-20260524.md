@@ -39,7 +39,7 @@ it satisfies the five same-solution CM test-admissibility checks from
 
 3. Same fluid.
 
-   `SLC.A` supplies the same-fluid Pack/Part/Field packet on every classical
+   `SLC.A` supplies the same-fluid Part/Field packet on every classical
    still-live preterminal window. A terminal witness extracted from the finite
    breakdown branch is a terminal subsequence or residue of that preterminal
    family, so it uses the same transported carrier/flow family until a first
@@ -58,7 +58,7 @@ it satisfies the five same-solution CM test-admissibility checks from
 5. Same witness grammar.
 
    `CanonicalTerminalPacketCapture.A`, `AnyFiniteFailureWitnessCMExit.A`, and
-   the Pack-before-Part resurfacing audit prove that every same-solution
+   the Pack-out-of-CM resurfacing audit prove that every same-solution
    terminal obstruction has only the primitive continuation services:
 
    ```text
@@ -84,7 +84,7 @@ Composing with the installed Clay-facing CM theorem family gives:
 
 ```text
 ClayAdmissibleFiniteBreakdown(W_*)
-=> derived Pack/Part/Field face failure
+=> derived Part/Field Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
@@ -110,7 +110,7 @@ The next target-fidelity test was:
 
 ```text
 ClayBreakdownClassExitInadmissibility.A:
-derived Pack/Part/Field face failure supporting Exit(Q)
+derived Part/Field Part/Field failure supporting Exit(Q)
 cannot be a valid Clay breakdown counterexample witness.
 ```
 
@@ -119,22 +119,22 @@ That test is recorded in
 The target-fidelity-only proof fails: terminal class-exit contradicts a Clay
 smooth-solution witness, but a breakdown counterexample witness is allowed to be
 the allegation that no global smooth solution exists. The corrected burden is
-terminal CM completeness for the same Pack/Part/Field face classification: make
+terminal CM completeness for the same Part/Field face classification: make
 the canonical terminal object precise enough that the failure has no fourth
-primitive service outside Pack, Part, and Field. The preterminal-reflection route
+primitive service outside Part and Field. The preterminal-reflection route
 is not promoted.
 
 ## Source Checks
 
 - `mpp-clay-terminal-witness-invalidation-20260523.md`: defines
-  CM test-admissibility, proves the Pack/Part/Field
-  exhaustion, and says the derived face failure supports class exit rather than
+  CM test-admissibility, proves the Part/Field
+  exhaustion, and says the derived Part/Field failure supports class exit rather than
   a surviving in-class counterexample object.
 - `mpp-canonical-terminal-packet-capture-20260522.md`: proves the no-fourth-residue
   capture for same-solution terminal obstructions.
 - `mpp-any-finite-failure-witness-cm-exit-20260521.md`: installs the finite-failure
   landing theorem for alleged finite-time failure witnesses, now read with the
-  Pack-before-Part resurfacing qualification for singular same-solution records.
+  Pack-out-of-CM resurfacing qualification for singular same-solution records.
 - `mpp-pack-before-part-dependency-resurfacing-audit-20260620.md` and
   `mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md`:
   license Part/Field testing before ordinary Pack-only disposal for singular

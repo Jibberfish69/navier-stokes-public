@@ -4,12 +4,12 @@ ns_viewer:
   status: failed-reduced-to-no-genuine-exit
   proof_role: public_clay_finality_bridge_attempt
   logical_landing_node: no_genuine_exit_from_smooth_data
-  edge_effect: "Tests the direct bridge from classified CM face exit to Clay counterexample exclusion. The bridge is not proved: a finite Clay counterexample is not required to remain a class member at the terminal time, so face-derived Exit(Q) is classification unless a no-genuine-exit theorem rules out the first face from original smooth data."
+  edge_effect: "Tests the direct bridge from classified CM Part/Field exit to Clay counterexample exclusion. The bridge is not proved: a finite Clay counterexample is not required to remain a class member at the terminal time, so face-derived Exit(Q) is classification unless a no-genuine-exit theorem rules out the first Part/Field from original smooth data."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-pdf-cmi-bridge-arbitration-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-pdf-cmi-proof-core-reentry-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
-    - problems/navier-stokes/theorem-construction/mpp-no-proof-bearing-first-face-failure-target-audit-20260609.md
+    - problems/navier-stokes/theorem-construction/mpp-no-proof-bearing-first-Part/Field-failure-target-audit-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-public-finality-first-exit-pack-wall-reentry-20260609.md
   downstream_consequence: "The direct CMI bridge is unavailable from installed inputs. The active theorem target remains NoGenuineExitFromSmoothData.A, first at OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A; both PDFs remain nonfinal."
 ---
@@ -34,20 +34,20 @@ and classified face-derived Exit(Q)
 ```
 
 The desired bridge must prove more than terminal obstruction classification. It
-must show that the first Pack/Part/Field face failure invalidates the alleged
+must show that the first Part/Field Part/Field failure invalidates the alleged
 finite Clay counterexample itself.
 
 ## Method Pass
 
 Proof program: CM contrapositive public-finality bridge.
 
-Target role: direct Clay counterexample exclusion after CM face classification.
+Target role: direct Clay counterexample exclusion after CM Part/Field classification.
 
 Logical skeleton: contradiction from finite Clay negation plus classified
 terminal face exit.
 
 Mechanism tested: use the official finite-breakdown object, the same-solution
-terminal record, the Pack/Part/Field exhaustion, and the no-third-branch law to
+terminal record, the Part/Field exhaustion, and the no-third-branch law to
 derive a contradiction without proving a separate no-genuine-exit theorem.
 
 ## What The Installed Classification Proves
@@ -59,7 +59,7 @@ finite maximal classical breakdown
 => same original datum and same original branch
 => continuation-readout failure at finite terminal time
 => CM-test-admissible terminal record Q
-=> first failed Pack/Part/Field face
+=> first failed Part/Field face
 => Exit(Q):=not Member(Q).
 ```
 
@@ -76,7 +76,7 @@ class.
 So the implication
 
 ```text
-first face failure => Exit(Q)
+first Part/Field failure => Exit(Q)
 ```
 
 does not contradict the negation by itself. It describes how the alleged
@@ -106,7 +106,7 @@ that original smooth data cannot realize that first terminal face.
 ## Circular Shortcut Rejected
 
 One could try to define a valid finite Clay counterexample as an object that
-must retain Pack, Part, and Field at the terminal edge. That would make the
+must retain Part and Field at the terminal edge. That would make the
 bridge automatic, but it would bake the desired continuation conclusion into
 the definition of counterexample.
 
@@ -127,12 +127,12 @@ The finite-obstruction inventory is useful:
 
 ```text
 every promoted terminal obstruction row must enter the CM test and name a first
-Pack/Part/Field face.
+Part/Field face.
 ```
 
 Together they block support-only rows and hidden untyped terminal objects. They
 do not prove that the proof-bearing same-solution terminal record cannot be the
-first Pack/Part/Field face failure.
+first Part/Field Part/Field failure.
 
 ## Result
 
@@ -166,11 +166,11 @@ Until one of those lands and both rendered PDFs pass fresh final rereads,
 
 ## New Live Criticism
 
-`NS-LIVE-20260609-180`: the direct bridge from classified CM face exit to public
+`NS-LIVE-20260609-180`: the direct bridge from classified CM Part/Field exit to public
 Clay counterexample exclusion is not proved. A finite Clay counterexample is not
 required to remain a class member at the terminal time, so a face-derived
 `Exit(Q):=not Member(Q)` can be exactly the alleged terminal breakdown unless a
-separate theorem rules out genuine first Pack/that face failure from original
+separate theorem rules out genuine first Pack/that Part/Field failure from original
 smooth data. The active loop must keep working on
 `NoGenuineExitFromSmoothData.A`, first through
 `OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A`, or install an

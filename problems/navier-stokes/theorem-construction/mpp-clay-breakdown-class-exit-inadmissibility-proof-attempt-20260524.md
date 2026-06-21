@@ -15,7 +15,7 @@ ClayBreakdownClassExitInadmissibility.A
 The attempted closing claim was:
 
 ```text
-derived Pack/Part/Field face failure supporting Exit(Q):=not Member(Q)
+derived Part/Field Part/Field failure supporting Exit(Q):=not Member(Q)
 cannot be a valid Clay breakdown counterexample witness.
 ```
 
@@ -38,7 +38,7 @@ ClayAdmissibleFiniteBreakdown(W_*)
 
 ```text
 CMTestAdmissibleTerminalObject(W_*)
-=> derived Pack/Part/Field face failure
+=> derived Part/Field Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
@@ -64,13 +64,13 @@ data.
 
 By `ClayAdmissibleFiniteBreakdown.A`, `W_*` is CM-test-admissible in the
 note's narrow `CM-lawful` sense. By the installed
-Pack-first exhaustion and embedding, the CM test applied to `W_*` forces
+Field-certification exhaustion and embedding, the CM test applied to `W_*` forces
 
 ```text
 Exit(Q):=not Member(Q)
 ```
 
-through a derived face failure: `not Pack_Q`, `not Part_{N_s,Q}`, or
+through a derived Part/Field failure: `not Pack_Q`, `not Part_{N_s,Q}`, or
 `forall r>0 not Field_{N_s,r,Q}`.
 
 To prove `ClayBreakdownClassExitInadmissibility.A` by target fidelity alone, one
@@ -109,7 +109,7 @@ What is proved remains:
 ```text
 ClayAdmissibleFiniteBreakdown(W_*)
 => CMTestAdmissibleTerminalObject(W_*)
-=> derived Pack/Part/Field face failure
+=> derived Part/Field Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
@@ -126,7 +126,7 @@ The valid terminal result is narrower:
 ```text
 ClayAdmissibleFiniteBreakdown(W_*)
 => canonical same-solution terminal obstruction
-=> Pack/Part/Field face failure
+=> Part/Field Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 

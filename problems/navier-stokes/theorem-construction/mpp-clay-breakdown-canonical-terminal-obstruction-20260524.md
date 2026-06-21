@@ -74,7 +74,7 @@ Field_{N_s,r,Q}.
 ```
 
 There is no fourth primitive terminal service for a same-solution obstruction.
-Therefore the object is eligible for the Pack-first terminal CM classifier.
+Therefore the object is eligible for the Field-certification terminal CM classifier.
 
 ## Consequence
 
@@ -91,7 +91,7 @@ ClayAdmissibleFiniteBreakdown(W_*)
 \forall r>0\,\neg Field_{N_s,r,Q}.
 ```
 
-Then `ClayCMContrapositiveEmbedding.A` reads the derived face failure as:
+Then `ClayCMContrapositiveEmbedding.A` reads the derived Part/Field failure as:
 
 ```math
 Exit(Q;\mathfrak O_{NS}^{work})
@@ -103,4 +103,4 @@ Exit(Q;\mathfrak O_{NS}^{work})
 
 This theorem does not rule out the terminal exit. It proves that the alleged
 finite Clay breakdown cannot remain outside the CM contrapositive grammar. The
-terminal face failure is the contrapositive witness.
+terminal Part/Field failure is the contrapositive witness.
