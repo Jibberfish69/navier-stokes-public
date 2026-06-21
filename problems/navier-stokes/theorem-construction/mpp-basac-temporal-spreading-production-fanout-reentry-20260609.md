@@ -13,7 +13,7 @@ The parent Clay-facing proof program is still the CM contrapositive:
 Exit(Q):=not Member(Q)
 ```
 
-through the Pack/Part/Field witness tree and the public-finality chain
+through the Part/Field witness tree and the public-finality chain
 
 ```text
 OriginalSmoothDataPackSurvival.A
@@ -141,7 +141,7 @@ TerminalSourceFirstAppearanceTimeSpread.A.
 For every minimal retained terminal source packet, a fixed positive source mass
 born in a terminal window of length `\tau_m` must either be inherited from an
 earlier same-ledger parent, inject into a finite charge ledger with a modulus
-depending on `\tau_m`, or land as a Pack/Part/Field witness-face failure.
+depending on `\tau_m`, or land as a Part/Field witness failure.
 
 This is sharper than the old `TerminalReserveFirstAppearanceCharge.A` label:
 it must price time concentration itself, not only represented reserve birth.

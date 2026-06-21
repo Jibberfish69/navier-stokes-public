@@ -61,9 +61,9 @@ Zeno ancestry compactness -> QuantizedParentCharge.A / MinimalBadAncestryCompact
 
 No separate installed theorem outside these shapes appears in the current surface set.
 
-## Pack/Part/Field witness check
+## Part/Field witness check
 
-The pressure endpoint Pack/Part/Field witness test also stayed open. Pressure endpoints supply a Field-face diagnostic when uncharged pressure residue remains. They supply no noncircular witness theorem unless one of the named pressure endpoints is proved:
+The pressure endpoint Part/Field witness test also stayed open. Pressure endpoints supply a Field-face diagnostic when uncharged pressure residue remains. They supply no noncircular witness theorem unless one of the named pressure endpoints is proved:
 
 ```math
 PressureSourceAC.A / LocalizedLeraySourceTether.A_{ind},
@@ -82,7 +82,7 @@ At current route resolution, the testing pass is complete.
 The branch has:
 
 ```text
-stable diagnostic placement: B_ASAC^closed,min is zero-radius source-residue support typed by Pack-before-Part source-residue support;
+stable diagnostic placement: B_ASAC^closed,min is zero-radius source-residue support typed by Pack-out-of-CM source-residue support;
 exhausted source-side doors;
 exhausted ancestry quantization doors;
 exhausted pressure/Leray endpoint doors;

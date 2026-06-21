@@ -40,7 +40,7 @@ Assume a retained `B_ASAC^closed` terminal source residue and retained
 class-membership witness
 
 ```math
-CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}+Field_{N,r,Q}.
 ```
 
 Then the May 19 bridge gives
@@ -142,7 +142,7 @@ B_{ASAC}\Longrightarrow ZenoResidueLiouville_{B_{ASAC}}.A
 ```
 
 would require all `B_ASAC` survivors to remain in the retained finite-CM,
-no-incoming branch rather than exiting through Pack, Part, Field, or paid
+no-incoming branch rather than exiting through Part and Field, or paid
 ledgers.
 
 The current repo has that statement for the retained `CM` branch. It does not

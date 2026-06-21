@@ -31,7 +31,7 @@ M_{CM}(N,r,Q)\varepsilon
 
 where `SourceMeasureParticipationDensityBridge.A` reads the native positive
 source residue as a shared-participation source-current trace, and
-`M_CM(N,r,Q)<infty` is the retained `Pack/Part/Field` source-current envelope.
+`M_CM(N,r,Q)<infty` is the retained `Part/Field` source-current envelope.
 
 If this balance were installed together with no incoming participation flux, it
 would give
@@ -42,14 +42,14 @@ B_{ASAC}+CM_{N,r,Q}+NoIncomingParticipationFlux.A
 BASACTimeFaceAntiAtom.A
 ```
 
-or else force a licensed CM face failure.
+or else force a licensed CM Part/Field failure.
 
 ## Installed Useful Inputs
 
 The current route has:
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q},
 ```
 
 with `Part_{N,Q}` giving the tower law
@@ -142,7 +142,7 @@ one of:
 ```text
 incoming participation flux;
 terminal signed no-free-sink failure;
-CM source-current envelope blowout / Field-face failure.
+CM source-current envelope blowout / Field-Part/Field failure.
 ```
 
 This is a CM diagnostic use. It does not close the forward supplier theorem

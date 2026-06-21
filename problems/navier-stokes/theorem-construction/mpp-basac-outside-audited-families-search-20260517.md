@@ -110,7 +110,7 @@ PurePressureSustainResidueLiouville.A,
 ProductionIntoRigidBASACTimeFaceSubclass.A.
 ```
 
-The target is completed at current installed-surface resolution as a canonical `B_ASAC^closed` zero-radius source-residue support typed by Pack-before-Part obstruction.## Continuation audit: ChatGPT 2026-05-18
+The target is completed at current installed-surface resolution as a canonical `B_ASAC^closed` zero-radius source-residue support typed by Pack-out-of-CM obstruction.## Continuation audit: ChatGPT 2026-05-18
 
 This pass rechecked `BASACOutsideAuditedFamiliesSearch.A` after transported-boundary and time-face components stayed open.
 

@@ -53,8 +53,8 @@ same missing independent theorem about the native positive source marginal.
 
 ## Top-level finality check
 
-The local `B_ASAC` branch is already classified at the CM witness-face level:
-the all-doors-closed terminal source atom is zero-radius Pack-first / terminal
+The local `B_ASAC` branch is already classified at the CM witness level:
+the all-doors-closed terminal source atom is zero-radius Field-certification / terminal
 source-residue exit support.  That classification is useful, but it is not the
 public Clay finality theorem by itself.
 
@@ -67,7 +67,7 @@ ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A.
 The checked failed shortcut is:
 
 ```text
-derived Pack/Part/Field face failure
+derived Part/Field Part/Field failure
 => finite Clay breakdown impossible.
 ```
 
@@ -77,7 +77,7 @@ solution witness, but it does not by itself disqualify a finite-breakdown
 witness.  The bridge must either prove a no-finite-class-exit theorem for
 original smooth data or prove an equivalent inventory theorem strong enough to
 show that no proof-bearing terminal obstruction remains outside the selected
-Pack/Part/Field record.
+Part/Field record.
 
 ## Manuscript consequence
 
@@ -100,7 +100,7 @@ of the two actual finality doors:
 NoGenuineExitFromSmoothData.A
 ```
 
-by a noncircular first-exit Pack/Part/Field no-exit theorem, or
+by a noncircular first-exit Part/Field no-exit theorem, or
 
 ```text
 FiniteTerminalObstructionInventoryFinality.A

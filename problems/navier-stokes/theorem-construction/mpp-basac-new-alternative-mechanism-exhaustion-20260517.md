@@ -4,7 +4,7 @@ Date: 2026-05-17
 
 ## Status
 
-Bounded alternative search after the `B_ASAC^closed` branch was corrected to zero-radius source-residue support typed by Pack-before-Part source-residue support and after the pressure/Leray tether route stayed open.
+Bounded alternative search after the `B_ASAC^closed` branch was corrected to zero-radius source-residue support typed by Pack-out-of-CM source-residue support and after the pressure/Leray tether route stayed open.
 
 Outcome: no additional installed production mechanism found. The search surfaces candidate mechanisms, each returning to an already isolated atom.
 

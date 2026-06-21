@@ -16,7 +16,7 @@ The remaining search found two adjacent mechanism families:
 
 ```text
 scale-normalized branch entropy / Zeno ancestry quantization,
-pressure subfork closure / pressure Field-face landing.
+pressure subfork closure / pressure Field-Part/Field landing.
 ```
 
 Both families preserve the same terminal time-face obstruction at current route strength.
@@ -114,4 +114,4 @@ No item on this list is installed by the current route surfaces.
 
 ## Verdict
 
-This loop is completed as an obstruction-placement and alternative-exhaustion pass. The branch has a stable CM Field-face landing and a reduced future theorem list. No live authority surface is changed by this note.
+This loop is completed as an obstruction-placement and alternative-exhaustion pass. The branch has a stable CM Field-Part/Field landing and a reduced future theorem list. No live authority surface is changed by this note.
