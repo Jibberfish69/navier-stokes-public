@@ -65,7 +65,7 @@ source_rewrites:
     \end{definition}
 
     \begin{lemma}[Rigid residue requirement test]
-    A rigid pressure-source residue has no independent class face.  It is Pack-side when it lacks a positive carrier, Part-side when it loses pressure participation after a carrier survives, and Field-side only after the same carrier and same participation tower both survive.
+    A rigid pressure-source residue has no independent class face.  It is Field-window support when it lacks a positive carrier, Part-side when it loses pressure participation after a carrier survives, and Field-side only after the same carrier and same participation tower both survive.
     \end{lemma}
 
     \begin{proof}
@@ -79,7 +79,7 @@ source_rewrites:
     Zeno arguments describe terminal objects that appear only through infinite refinement toward \(T_*\).  They are tempting because a zero-radius object can look like the dangerous part of the singularity.  For the point-object alone, zero radius is decisive.  For the singularity claim, the proof still has to test the shrinking positive-radius fields around that point.
 
     \begin{proposition}[Zeno routing]
-    A Zeno terminal branch with no positive terminal carrier is Pack-side.  A retained positive-scale Zeno branch is a finite typed subcase in the ordinary Part/Field tree.  A Zeno or annular-limit branch witnessed by positive-radius fields remains live until those fields are controlled or, after admission, land in Part or Field.
+    A Zeno terminal branch with no positive terminal carrier is Field-window support.  A retained positive-scale Zeno branch is a finite typed subcase in the ordinary Part/Field tree.  A Zeno or annular-limit branch witnessed by positive-radius fields remains live until those fields are controlled or, after admission, land in Part or Field.
     \end{proposition}
 
     \begin{proof}
@@ -168,7 +168,7 @@ source_rewrites:
     \end{proposition}
 
     \begin{proof}
-    Read the families by their selected terminal object.  Source-control and donor-refill branches select terminal source ancestry or reserve.  Detached or unpaid ancestry without a positive same-fluid carrier is Pack-side.  Retained source residue with carrier and broken pressure-viscosity participation is Part-side.  Retained source residue that has passed Pack and Part becomes a Field or readout diagnostic.
+    Read the families by their selected terminal object.  Source-control and donor-refill branches select terminal source ancestry or reserve.  Detached or unpaid ancestry without a positive same-fluid carrier is Field-window support.  Retained source residue with carrier and broken pressure-viscosity participation is Part-side.  Retained source residue that has passed Pack and Part becomes a Field or readout diagnostic.
 
     Zero-radius and terminal-atom branches select a point-object with no positive terminal carrier unless a retained positive-scale packet has first been supplied.  The point-object branch is a Pack Part/Field failure.  Retained Zeno and annular alternatives are finite typed subcases inside the same witness tree.
 

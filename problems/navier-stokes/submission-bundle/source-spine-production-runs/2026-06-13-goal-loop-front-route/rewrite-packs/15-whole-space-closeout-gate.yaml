@@ -85,11 +85,11 @@ source_rewrites:
     \]
     Let \(Q\) be the same-solution terminal record selected by that survivor.  A survivor lacking a retained material address in the original branch fails Pack.  A survivor detached from the same Navier--Stokes equation, pressure law, viscosity, or source ancestry fails Part.
 
-    It remains to read the retained Pack+Part branch.  A fixed positive Field scale \(\rho>0\) through depth \(M>s\) gives a finite derivative tower on the selected record.  Littlewood--Paley decay on that fixed record gives
+    It remains to read the retained Part plus Field-window evidence branch.  A fixed positive Field scale \(\rho>0\) through depth \(M>s\) gives a finite derivative tower on the selected record.  Littlewood--Paley decay on that fixed record gives
     \[
       N^s\|P_N f\|_{L^2}\le C_{\rho,M,Q}N^{s-M}\to0 .
     \]
-    That decay contradicts the surviving sequence above.  Every fixed positive Field scale fails on the retained Pack+Part branch.
+    That decay contradicts the surviving sequence above.  Every fixed positive Field scale fails on the retained Part plus Field-window evidence branch.
     \end{proof}
 
     \begin{theorem}[Whole-space CM classification state]
