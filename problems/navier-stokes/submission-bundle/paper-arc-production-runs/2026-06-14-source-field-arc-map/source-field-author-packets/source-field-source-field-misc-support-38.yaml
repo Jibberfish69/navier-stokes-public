@@ -277,7 +277,7 @@ chunk:
       The first fact is installed by CM-exit discipline. The second fact is the stronger supplier theorem and remains pending.
 
       \[
-      CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+      CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
       \]
 
       \[
@@ -325,7 +325,7 @@ chunk:
       j-C}(X_P(s),s))\\,ds\\right),\n\\]\n\n\\[\n\\widetilde a_P(t)=G_P(t)^{-1}a_P(t).\n\\]\n\nSince
       the deformation solves F=( u)(X(a,t),t)F, this gives a finite bound on accumulated
       positive strain along retained same-fluid paths. Thus the linear gain is controlled
-      by the Pack face.\n\nThis is enough to keep pressure/viscous participation terms
+      by the Field-window evidence.\n\nThis is enough to keep pressure/viscous participation terms
       in the legal record at that finite depth. It does not by itself impose a high-frequency
       modulus on u or on all dyadic packet amplitudes beyond the threshold.\n\nThe
       damping term comes from heat. The finite linear gain is controlled by Pack Q.
@@ -562,7 +562,7 @@ chunk:
     The first fact is installed by CM-exit discipline. The second fact is the stronger supplier theorem and remains pending.
 
     \[
-    CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+    CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
     \]
 
     \[
@@ -615,7 +615,7 @@ chunk:
     \widetilde a_P(t)=G_P(t)^{-1}a_P(t).
     \]
 
-    Since the deformation solves F=( u)(X(a,t),t)F, this gives a finite bound on accumulated positive strain along retained same-fluid paths. Thus the linear gain is controlled by the Pack face.
+    Since the deformation solves F=( u)(X(a,t),t)F, this gives a finite bound on accumulated positive strain along retained same-fluid paths. Thus the linear gain is controlled by the Field-window evidence.
 
     This is enough to keep pressure/viscous participation terms in the legal record at that finite depth. It does not by itself impose a high-frequency modulus on u or on all dyadic packet amplitudes beyond the threshold.
 
@@ -659,7 +659,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

@@ -56,7 +56,7 @@ chunk:
       The remaining dependence is exactly terminal cover production, not the local scheduler mechanism.
 
       Tower amplitude is a readout/control object feeding endpoint exclusion.  The CM
-      route consumes only Pack, Part, and Field.  TPS, exact-potential, Hodge, and
+      route consumes only Part and Field.  TPS, exact-potential, Hodge, and
       Euclidean strict-shadow branches remain downstream/context branches unless they
       declare one of the three displayed bridges.
 
@@ -539,7 +539,7 @@ chunk:
     The remaining dependence is exactly terminal cover production, not the local scheduler mechanism.
 
     Tower amplitude is a readout/control object feeding endpoint exclusion.  The CM
-    route consumes only Pack, Part, and Field.  TPS, exact-potential, Hodge, and
+    route consumes only Part and Field.  TPS, exact-potential, Hodge, and
     Euclidean strict-shadow branches remain downstream/context branches unless they
     declare one of the three displayed bridges.
 
@@ -969,7 +969,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

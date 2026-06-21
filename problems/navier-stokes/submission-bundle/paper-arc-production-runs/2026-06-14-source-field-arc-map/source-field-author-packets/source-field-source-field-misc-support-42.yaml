@@ -273,7 +273,7 @@ chunk:
 
       The route so supplies terminal-tail control for the averaged no-jump branch. It does not by itself prove the governing CM primitive
 
-      Equivalently, the source-pulse branch is now ready to be consumed by the CM witness grammar, but the bridge into a licensed Pack/Part/Field face still has to be written explicitly.
+      Equivalently, the source-pulse branch is now ready to be consumed by the CM witness grammar, but the bridge into a licensed Part/Field face still has to be written explicitly.
 
       This is the correct next CM-level target. Further work on source-pulse internals should stop unless a recheck finds a definition-lock inconsistency.
 
@@ -470,7 +470,7 @@ chunk:
 
     The route so supplies terminal-tail control for the averaged no-jump branch. It does not by itself prove the governing CM primitive
 
-    Equivalently, the source-pulse branch is now ready to be consumed by the CM witness grammar, but the bridge into a licensed Pack/Part/Field face still has to be written explicitly.
+    Equivalently, the source-pulse branch is now ready to be consumed by the CM witness grammar, but the bridge into a licensed Part/Field face still has to be written explicitly.
 
     This is the correct next CM-level target. Further work on source-pulse internals should stop unless a recheck finds a definition-lock inconsistency.
 
@@ -491,7 +491,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
