@@ -5,7 +5,7 @@ ns_viewer:
   proof_role: proof_method_audit
   logical_landing_node: cm_pack_face_attempts
   edge_effect: "Shows TerminalCollarStrainIntegrability.A is continuation-strength and cannot honestly close Pack retention as a smaller bookkeeping lemma."
-  upstream_origin: "June 7 Pack-face exclusion working pass."
+  upstream_origin: "June 7 Field-window evidence exclusion working pass."
   downstream_consequence: "Keep Pack retention as row-level CM certification unless a strictly weaker carrier mechanism is supplied."
 ---
 
@@ -18,7 +18,7 @@ continuation-strength theorem.
 
 ## Target Under Audit
 
-The Pack-face working pass isolated the following analytic sufficient input:
+The Field-window evidence working pass isolated the following analytic sufficient input:
 
 ```text
 TerminalCollarStrainIntegrability.A:
@@ -104,7 +104,7 @@ Pack-retention route:
   find a noncircular mechanism that gives finite terminal deformation
   comparability on the canonical atlas collar without assuming H^s continuation.
 
-Pack-face-validity route:
+Field-window evidence-validity route:
   decide whether a same-solution zero-radius or unbounded-deformation terminal
   atlas is a valid Clay breakdown witness, rather than trying to exclude it by
   the same estimates that would prove smooth continuation.
@@ -114,7 +114,7 @@ The current installed sources support the second route as classification:
 unbounded terminal atlas collapse remains a Pack/carrier failure, while a
 zero-radius terminal atlas lands Part-side when the same original-NS participation record remains and true packet/window evidence only when that record is
 absent.
-They do not yet turn that Pack face into a contradiction with the Clay
+They do not yet turn that Field-window evidence into a contradiction with the Clay
 counterexample assumption.
 
 ## Direct Consequence For The Proof Blocker
@@ -130,6 +130,6 @@ continuation, or prove a target-fidelity bridge saying that the Pack-failure
 terminal atlas is not a valid finite Clay breakdown witness.
 ```
 
-This note does not close the Pack face. It prevents the proof from hiding the
+This note does not close the Field-window evidence. It prevents the proof from hiding the
 whole continuation theorem inside the words "terminal collar strain
 integrability."

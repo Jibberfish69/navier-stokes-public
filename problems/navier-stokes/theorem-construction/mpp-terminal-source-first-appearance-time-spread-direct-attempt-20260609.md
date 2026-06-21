@@ -101,7 +101,7 @@ OriginalSmoothDataPackSurvival.A.
 ```
 
 The public-finality route needs to show original smooth data cannot realize the
-first Pack face, or else prove the direct finite-Clay exclusion bridge. Merely
+first Field-window evidence, or else prove the direct finite-Clay exclusion bridge. Merely
 classifying the terminal atom as class exit repeats the underpaid public bridge.
 
 ## Result

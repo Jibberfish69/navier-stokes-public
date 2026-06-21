@@ -105,7 +105,7 @@ TerminalStrainAlignmentFaceBridge_{B_ASAC}.A:
   (a) has zero terminal heat-time support / no retained carrier, hence not Pack_Q;
   or
   (b) has a retained positive carrier whose aligned source lower bound forces
-      forall r>0 not Field_{N,r,Q} under retained Pack_Q and Part_{N,Q}.
+      forall r>0 not Field_{N,r,Q} under retained Part_{N,Q} plus Field-window evidence.
 ```
 
 This is smaller than bare exclusion. It does not ask the atom to disappear; it

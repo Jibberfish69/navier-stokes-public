@@ -93,7 +93,7 @@ To use this for first Pack survival, the loop needs a same-object bridge:
 same original-data terminal Field-window support
 => belongs to the TPS good active-pair packet
 => TPS expansion controls its zero-thickness terminal source layer
-=> positive active-time thickness or Pack-face survival.
+=> positive active-time thickness or Field-window evidence survival.
 ```
 
 The installed TPS files do not prove this bridge. They work at the selector /

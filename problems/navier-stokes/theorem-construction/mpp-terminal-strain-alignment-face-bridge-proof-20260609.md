@@ -28,8 +28,7 @@ Then the atom cannot remain as an untyped in-class third branch. It lands in
 the CM witness tree:
 
 ```text
-not Pack_Q
-or not Part_{N,Q}
+not Part_{N,Q}
 or Part_{N,Q} + forall r>0 not Field_{N,r,Q}.
 ```
 
@@ -87,7 +86,7 @@ installed retained theorem is:
 
 ```text
 RetainedZenoAtomFieldExit.A:
-Pack_Q + Part_{N,Q} + ZeroHeatTimeSourceResidue.A
+Part_{N,Q} plus Field-window evidence + ZeroHeatTimeSourceResidue.A
 => forall r>0 not Field_{N,r,Q}.
 ```
 
@@ -95,7 +94,7 @@ The strain-aligned `B_ASAC` atom satisfies `ZeroHeatTimeSourceResidue.A` on
 this retained branch. Therefore:
 
 ```text
-Pack_Q + Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 + terminal strain-aligned B_ASAC atom
 => forall r>0 not Field_{N,r,Q}.
 ```

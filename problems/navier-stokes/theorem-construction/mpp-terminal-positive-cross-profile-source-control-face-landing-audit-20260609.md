@@ -64,7 +64,7 @@ NoGenuineExitFromSmoothData.A.
 
 The public Clay-facing theorem must rule out the finite Clay counterexample as
 a genuine same-solution terminal object. Merely saying that the terminal
-cross-profile atom is a Pack face repeats the current obstruction:
+cross-profile atom is a Field-window evidence repeats the current obstruction:
 
 ```text
 first Pack failure from original smooth data.
@@ -85,7 +85,7 @@ The public finality problem asks for more:
 
 ```text
 no finite Clay terminal object from original smooth data can remain a genuine
-counterexample by presenting that first Pack face.
+counterexample by presenting that first Field-window evidence.
 ```
 
 So the face clause does not discharge the current proof wall. It only names
@@ -138,7 +138,7 @@ remain non-final.
 ## New Live Criticism
 
 `NS-LIVE-20260609-168`: Part/Field landing of a terminal positive cross-profile Pack
-atom is not enough for CMI finality. It certifies the current Pack-face
+atom is not enough for CMI finality. It certifies the current Field-window evidence
 classification but does not rule out the first Pack failure from original smooth
 data. The active loop must prove `UniformPackCrossTermIntegrability.A`,
 `SelectedPositivePackCrossTermNoAtom.A`,

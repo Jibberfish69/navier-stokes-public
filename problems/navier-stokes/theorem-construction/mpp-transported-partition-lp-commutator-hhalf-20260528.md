@@ -2,11 +2,11 @@
 
 ## Status
 
-Conditional supplier lemma for `SameLedgerHHalfExtraction.A`. The analytic commutator estimate is the fixed-time kernel bound proved below from `(TPC.4)`--`(TPC.7)`. The CM use depends on retained Pack-scale compatibility of the transported cutoff through `(TPC.3)`.
+Conditional supplier lemma for `SameLedgerHHalfExtraction.A`. The analytic commutator estimate is the fixed-time kernel bound proved below from `(TPC.4)`--`(TPC.7)`. The CM use depends on retained Field-window evidence-scale compatibility of the transported cutoff through `(TPC.3)`.
 
 ## Statement
 
-Let `P_J` be a smooth periodic Littlewood--Paley projector on `\mathbb T^3`, with annular kernel `K_J`. Let `\chi=\chi_a(t)` be one transported cutoff from the retained Pack atlas at a fixed time `t`. Then
+Let `P_J` be a smooth periodic Littlewood--Paley projector on `\mathbb T^3`, with annular kernel `K_J`. Let `\chi=\chi_a(t)` be one transported cutoff from the retained Field-window evidence atlas at a fixed time `t`. Then
 
 ```math
 \|[P_J,\chi]u\|_{L^2(\mathbb T^3)}
@@ -24,7 +24,7 @@ C\,2^{-J}\|\nabla\chi\|_\infty\|u\|_2.
 \tag{TPC.2}
 ```
 
-If the retained Pack atlas supplies
+If the retained Field-window evidence atlas supplies
 
 ```math
 2^{-J}\|\nabla\chi_a(t)\|_{L^\infty}\le c_{pack},
@@ -91,7 +91,7 @@ The estimate says that a retained material cutoff can localize a selected `H^{1/
 
 If the transported cutoff lacks the scale compatibility `(TPC.3)`, the shell cannot be assigned to the retained material packet at that dyadic resolution. That is a Field-window support failure for the extraction argument.
 
-With retained Pack, the commutator is controlled, so the finite-atlas pigeonhole step can select a localized same-ledger shell packet for the next Part/Field analysis.
+With retained Field-window evidence, the commutator is controlled, so the finite-atlas pigeonhole step can select a localized same-ledger shell packet for the next Part/Field analysis.
 
 ## Boundary
 

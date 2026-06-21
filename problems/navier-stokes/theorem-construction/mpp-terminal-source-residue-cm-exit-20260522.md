@@ -101,7 +101,7 @@ outside Pack:
 ```
 
 This covers the zero-radius terminal source atom and unpaid donor-refill
-ancestry. The proof stops at the Pack face.
+ancestry. The proof stops at the Field-window evidence.
 
 ### 2. Participation gate
 

@@ -38,7 +38,7 @@ Authority anchors:
 - `problems/navier-stokes/theorem-construction/mpp-terminal-zeno-pack-failure-correction-20260521.md`
 - `problems/navier-stokes/theorem-construction/mpp-finite-zeno-ancestry-dichotomy-to-pack-exit-20260521.md`
 - `problems/navier-stokes/theorem-construction/mpp-any-finite-failure-witness-cm-exit-20260521.md`
-- `problems/navier-stokes/theorem-construction/mpp-pack-part-field-ontological-collapse-question-20260517.md`
+- `problems/navier-stokes/theorem-construction/mpp-part-field-ontological-collapse-question-20260517.md`
 - `problems/navier-stokes/theorem-construction/mpp-formal-ontic-object-package.md`
 - `problems/navier-stokes/theorem-construction/mpp-primitive-class-laws-note.md`
 
@@ -296,7 +296,7 @@ is a classical NS field-limit object.
 
 | Idea from the conversation | Classification | Home / treatment |
 | --- | --- | --- |
-| `Pack(Q)` is a good carrier gate but not closure | already consistent with CM route | keep with `mpp-primitive-class-laws-note.md` and `mpp-pack-part-field-canonicality-reduction-note.md` |
+| `Pack(Q)` is a good carrier gate but not closure | already consistent with CM route | keep with `mpp-primitive-class-laws-note.md` and `mpp-part-field-canonicality-reduction-note.md` |
 | Pack must not smuggle Field readout into carrier language | guardrail | use when editing Pack definitions; Pack is carrier, positive scale, finite overlap, geometric comparability |
 | continuation-complete terminal window is stronger than "there exists Q" | active CM quantifier discipline | keep with torus global atlas / finite failure witness notes |
 | R3 needs tightness/localization beyond torus atlas | whole-space export boundary | keep out of T^3 proof closure; route to R3 export surfaces only |

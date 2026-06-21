@@ -76,7 +76,7 @@ Legal.
 }
 ```
 
-Under retained `Pack_Q + Part_{N,Q}`, this also yields the retained public
+Under retained `Part_{N,Q} plus Field-window evidence`, this also yields the retained public
 translator readout: the terminal `L^3` critical branch cannot coexist with a
 continuation-complete CM participation-field record, hence it feeds
 `RetainedPackPartCriticalL3FieldExit.A` through the installed local `L^3`
