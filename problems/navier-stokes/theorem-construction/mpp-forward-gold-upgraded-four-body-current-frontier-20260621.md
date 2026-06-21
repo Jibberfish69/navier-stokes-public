@@ -1377,6 +1377,37 @@ The remaining unsolved point is now narrower: visibility is installed, while
 unweighted same-carrier payment of the visible high-factor/source-square or
 finite-rung readout is still not produced.
 
+The final visible-readout payment attempt exhausts that last visible branch at
+the current frontier:
+
+```math
+\boxed{
+\begin{array}{rcl}
+\text{height atom} &\Rightarrow& \text{square/tail UI failure},\\[1mm]
+\text{critical density} &\Rightarrow& \text{consumer after unweighted budget},\\[1mm]
+\text{finite source-gradient rung} &\Rightarrow& \text{CM Pack/Part/Field face
+after same-witness admission},\\[1mm]
+\text{pure high-rung tail} &\Rightarrow& \text{tail-to-carrier/no-waste/profile
+branch}.
+\end{array}
+}
+\tag{4BF.45k0p}
+```
+
+Thus the last visible branch is not an invisible Hodge-Stokes defect.  It is
+one of:
+
+```math
+\boxed{
+\text{same-carrier square/tail/no-waste production}
+\quad\text{or}\quad
+\text{CM finite-rung consumption}
+\quad\text{or}\quad
+\text{endpoint/profile production.}
+}
+\tag{4BF.45k0q}
+```
+
 The direct attempt at `(4BF.45k)` has now been run.  The transport identity is
 real, but the scalar heat-scale selector cannot itself be the transported
 object.  For
