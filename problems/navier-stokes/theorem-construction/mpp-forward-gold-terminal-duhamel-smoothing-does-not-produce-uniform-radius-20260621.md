@@ -22,6 +22,19 @@ This note is a supplier-boundary test. It does not replace the Navier-Stokes
 nonlinear Duhamel term by a linear forcing, it is not a Navier-Stokes normal
 form, and it does not approximate the pressure-transport-viscosity system.
 
+Terminology correction. This note should not be described as a "linear
+forced-heat normal form." It is only an external forced-heat counterexample to
+one proposed supplier claim:
+
+\[
+\text{bare heat smoothing of terminal-layer input}
+\quad\Longrightarrow\quad
+\text{uniform endpoint tower radius}.
+\]
+
+That supplier implication is false. The Navier-Stokes-facing object remains the
+exact nonlinear Leray-Duhamel identity recorded in the companion note.
+
 The calculation is an external forced-heat supplier-boundary test. It is only a
 counterexample to the narrower claim that heat semigroup smoothing, by itself,
 forces a uniform positive tower radius at the terminal face.
