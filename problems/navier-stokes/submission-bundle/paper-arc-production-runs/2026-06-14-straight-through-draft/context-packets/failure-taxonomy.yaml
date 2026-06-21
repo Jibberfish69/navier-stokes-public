@@ -52,7 +52,7 @@ source_sections:
 
     The forward work produces many named surfaces.  The terminal proof uses them only after they have been reduced to one object: a same-solution record offered as the terminal record of the original Navier--Stokes branch.  That record is the object under examination.  It carries the initial datum, viscosity, velocity-pressure law, pressure response, incompressibility condition, material carrier, and terminal role inherited from the branch whose breakdown is being alleged.
 
-    The reduction has a fixed order.  A forward branch either pays a continuation readout, leaves a selected terminal record for the CM test, or remains support.  Once a record \(Q\) has been selected, the proof asks three questions in the order in which a Navier--Stokes record needs them.  Does \(Q\) have a positive same-fluid carrier?  Does the same pressure-viscosity-incompressibility law still participate on that carrier?  Do the retained readings form one positive-scale velocity field?  The answers are read as Pack, Part, and Field.
+    The reduction has a fixed order.  A forward branch either pays a continuation readout, leaves a selected terminal record for the CM test, or remains support.  Once a record \(Q\) has been selected, the proof asks three questions in the order in which a Navier--Stokes record needs them.  Does \(Q\) have a positive same-fluid carrier?  Does the same pressure-viscosity-incompressibility law still participate on that carrier?  Do the retained readings form one positive-scale velocity field?  The answers are read as Part and Field.
 
     The older endpoint words are only shorthand for those three mechanisms.  A Pack failure is the packing-facing, or blown, endpoint: no positive same-fluid body survives for the selected record.  A Part failure is the participation-facing, or dead, endpoint: a body remains, but it no longer carries the same Navier--Stokes pressure, viscosity, incompressibility, and differentiated tower.  A Field failure is the one-field-facing, or jump, endpoint: carrier and participation remain, but no positive scale contains one coherent velocity readout.  The label carries proof value only after the first lost face has been derived.
 
@@ -121,11 +121,11 @@ source_sections:
 
     The order matters.  A missing body is the first failure and is recorded before any equation or field question is asked.  A retained body with broken same-law participation has lost the equation that would make the derivative tower a Navier--Stokes tower.  A retained body with retained participation reaches the field question, where it can still lose every positive scale of coherent velocity readout.  The terminal alternatives are
     \[
-      \neg\Pack_Q,
+      Field-window evidence outside CM,
       \qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},
+      \neg\Part_{N,Q},
       \qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     These alternatives are the proof discipline for the rest of the paper.  A branch may describe a pulse, reserve, jump, weak limit, shear sheet, or Zeno source.  The manuscript counts it as a class-exit payment only after it names the same-solution record under test and derives one displayed alternative as the first failure.
 
@@ -161,7 +161,7 @@ support_refs:
   excerpt: |-
     ## Authority Cap - Historical Route Audit
 
-    This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
+    This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
 
     ## Status
 - path: brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.lci-lower-carrier-interval-integrability.yaml
@@ -207,7 +207,7 @@ support_refs:
     theorem_statement: 'Navier-Stokes global regularity is proved by CM contrapositive
         class exit: an alleged finite-time Clay terminal witness from the same original
         smooth datum enters the same-fluid CM terminal packet tree, its finite failure
-        type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q},
+        type is exhausted as not not Part_{N,Q} or forall r>0 not Field_{N,r,Q},
         and the derived face failure embeds as `Exit(Q):=not Member(Q)` while the pass
 - path: problems/navier-stokes/submission-bundle/submission-verdict.yaml
   matched_keywords:
@@ -235,7 +235,7 @@ support_refs:
   - obstruction
   excerpt: |-
     the pass branch as the in-class Member(Q) continuation branch, and read the fail
-        branch as Exit(Q):=not Member(Q) only after CM-test entry plus a concrete Pack/Part/Field
+        branch as Exit(Q):=not Member(Q) only after CM-test entry plus a concrete Part/Field
         face failure. ClayTerminalWitnessCMEntry.A, ClayFiniteFailureTypeCMExhaustion.A,
         and ClayCMContrapositiveEmbedding.A are the governing theorem family. Older positive
         packet-survival/no-exit, source-reserve, signed-pair, no-free-sink, source-wall,
@@ -394,8 +394,8 @@ support_refs:
   excerpt: |-
     | repo case | CM face | why clean Euler comparison applies | anchors |
     |---|---|---|---|
-    | `pressure_viscosity_or_dwell_part_exit` | `Pack_Q + not Part_{N,Q}` | This is the selected-carrier case where Pack survives and the same differentiated NS pressure-viscosity tower, dwell law, or same-law participation fails. Euler keeps pressure/incompressibility but lacks the fixed-viscosity participation law. | `cm-branch-family-certificate-ledger-20260526.yaml:196-217`; `mpp-any-finite-failure-witness-cm-exit-20260521.md:154-190`; `mpp-retained-pressure-package-cm-face-placement-20260605.md:49-55` |
-    | `retained_positive_window_blowup_field_exit` | `Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}` | Pack and Part survive; every positive scale loses coherent N-level field/readout. This is exactly the viscous one-field tether loss. | `cm-branch-family-certificate-ledger-20260526.yaml:218-238`; `mpp-any-finite-failure-witness-cm-exit-20260521.md:192-230`; `mpp-retained-pressure-package-cm-face-placement-20260605.md:60-117` |
+    | `pressure_viscosity_or_dwell_part_exit` | `not Part_{N,Q}` | This is the selected-carrier case where Field-window evidence is present and the same differentiated NS pressure-viscosity tower, dwell law, or same-law participation fails. Euler keeps pressure/incompressibility but lacks the fixed-viscosity participation law. | `cm-branch-family-certificate-ledger-20260526.yaml:196-217`; `mpp-any-finite-failure-witness-cm-exit-20260521.md:154-190`; `mpp-retained-pressure-package-cm-face-placement-20260605.md:49-55` |
+    | `retained_positive_window_blowup_field_exit` | `Part_{N,Q} plus Field-window evidence + forall r>0 not Field_{N,r,Q}` | Pack and Part survive; every positive scale loses coherent N-level field/readout. This is exactly the viscous one-field tether loss. | `cm-branch-family-certificate-ledger-20260526.yaml:218-238`; `mpp-any-finite-failure-witness-cm-exit-20260521.md:192-230`; `mpp-retained-pressure-package-cm-face-placement-20260605.md:60-117` |
     | `Jump_base` / tangential slip sheet | `Field / Jump`, possible `Dead_x` cross-entry | Normal flux and pressure compatibility survive, while tangential slip kills one-field coherence. This is the installed Euler model for the clean Field case; it becomes `Dead_x` only when the same slip is used as participation-failure evidence. | `mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md:63-121`; `mpp-euler-pressure-nonparticipation-vortex-sheet-witness-20260517.md:95-128`; `mpp-euler-control-case-to-ns-attack-map-20260517.md:45-121` |
 - path: problems/navier-stokes/theorem-construction/mpp-euler-control-case-to-ns-attack-map-20260517.md
   matched_keywords:
@@ -425,7 +425,7 @@ support_refs:
     ```text
     first finite class exit / NonSmooth(Q)
     => first witness-face failure
-    => not Pack_Q or not Part_{N,Q} or not Field_{N,r,Q}.
+    => not Part_{N,Q} or not Field_{N,r,Q}.
     ```
 context_packer_contract:
   arc_id: failure-taxonomy
@@ -516,7 +516,7 @@ context_domain_refs:
     - obstruction
     excerpt: |-
       role: 'Direct Clay-facing classification route: a finite terminal witness enters
-          the same-fluid CM packet tree, the first failing Pack/Part/Field face is recorded,
+          the same-fluid CM participation-field tree, the first failing Part/Field face is recorded,
           and that face failure supports Exit(Q):=not Member(Q). The current referee audit
           checks finite-obstruction inventory coverage rather than generic no-face exclusion.
           The promoted proof-bearing rows have CM entry and first-face landing, while generic
@@ -529,7 +529,7 @@ context_domain_refs:
     - obstruction
     excerpt: |-
       role: 'Direct Clay-facing classification route: a finite terminal witness enters
-          the same-fluid CM packet tree, the first failing Pack/Part/Field face is recorded,
+          the same-fluid CM participation-field tree, the first failing Part/Field face is recorded,
           and that face failure supports Exit(Q):=not Member(Q). The current referee audit
           checks finite-obstruction inventory coverage rather than generic no-face exclusion.
           The promoted proof-bearing rows have CM entry and first-face landing, while generic
@@ -542,7 +542,7 @@ context_domain_refs:
     - obstruction
     excerpt: |-
       role: 'Direct Clay-facing classification route: a finite terminal witness enters
-          the same-fluid CM packet tree, the first failing Pack/Part/Field face is recorded,
+          the same-fluid CM participation-field tree, the first failing Part/Field face is recorded,
           and that face failure supports Exit(Q):=not Member(Q). The current referee audit
           checks finite-obstruction inventory coverage rather than generic no-face exclusion.
           The promoted proof-bearing rows have CM entry and first-face landing, while generic
@@ -555,7 +555,7 @@ context_domain_refs:
     - obstruction
     excerpt: |-
       role: 'Direct Clay-facing classification route: a finite terminal witness enters
-          the same-fluid CM packet tree, the first failing Pack/Part/Field face is recorded,
+          the same-fluid CM participation-field tree, the first failing Part/Field face is recorded,
           and that face failure supports Exit(Q):=not Member(Q). The current referee audit
           checks finite-obstruction inventory coverage rather than generic no-face exclusion.
           The promoted proof-bearing rows have CM entry and first-face landing, while generic
@@ -610,7 +610,7 @@ context_domain_refs:
     excerpt: |-
       ## Authority Cap - Historical Route Audit
 
-      This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
+      This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
 
       ## Status
   - path: problems/navier-stokes/auto-audit.yaml
@@ -626,7 +626,7 @@ context_domain_refs:
       theorem_statement: 'Navier-Stokes global regularity is proved by CM contrapositive
             class exit: an alleged finite-time Clay terminal witness from the same original
             smooth datum enters the same-fluid CM terminal packet tree, its finite failure
-            type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q},
+            type is exhausted as not not Part_{N,Q} or forall r>0 not Field_{N,r,Q},
             and the derived face failure embeds as `Exit(Q):=not Member(Q)` while the pass
   - path: problems/navier-stokes/proof-assembly.yaml
     matched_keywords:
@@ -705,7 +705,7 @@ context_domain_refs:
     excerpt: |-
       source-wall machinery; finally it was reinterpreted as a class-membership
       contrapositive engine where a finite terminal obstruction either stays on the
-      `Member(Q)` pass side or lands as a Pack/Part/Field face failure supporting
+      `Member(Q)` pass side or lands as a Part/Field face failure supporting
       `Exit(Q):=not Member(Q)`.
   - path: problems/navier-stokes/current-route-dependency-graph.yaml
     matched_keywords:
@@ -729,7 +729,7 @@ context_domain_refs:
     excerpt: |-
       The official Clay target is the incompressible 3D problem on R^3 or T^3,
             and the currently locked theorem-primary branch is the CM terminal-witness
-            chain: finite Clay witness entry, Pack/Part/Field finite-failure
+            chain: finite Clay witness entry, Part/Field finite-failure
             exhaustion, and `Exit(Q):=not Member(Q)`. Periodic, source-wall,
             positive-supplier, and export surfaces are support unless they land a
   - path: problems/navier-stokes/theorem-construction/ns-layered-route-graph.md
@@ -802,7 +802,7 @@ context_domain_refs:
       conversation_label: chat24
       updated_at: '2026-05-06T20:52:17Z'
       note: 'Positive-viscosity extreme terminal separation packet: fixed-nu stress hunt
-        under CM/Pack/Part/Field discipline'
+        under CM/Part/Field discipline'
   - path: problems/navier-stokes/chat29-status.yaml
     matched_keywords:
     - endpoint
@@ -864,7 +864,7 @@ context_domain_refs:
       - `target-operating-contract.yaml`: primary goal is to finish Navier-Stokes MPP, while keeping proof modes separate.
       - `live-theorem-edge.yaml`: active theorem-grade object is `ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A`, with `Exit(Q):=not Member(Q)` through `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`.
       - `cm-contrapositive-referee-audit.yaml`: historical torus-first referee checkpoint; the current paper authority is the rendered dual-track submission-candidate package, with the human/app-aligned manuscript in `problems/**` and the separate Codex paper in `papers/**`.
-      - `review-verdict.yaml`: release only the CM contrapositive claim certified by Pack/Part/Field witness faces; supplier diagnostics stay quarantined; `Member(Q)` is downstream of the witness certificate.
+      - `review-verdict.yaml`: release only the CM contrapositive claim certified by Part/Field witness faces; supplier diagnostics stay quarantined; `Member(Q)` is downstream of the witness certificate.
   - path: problems/navier-stokes/submission-bundle/human-author-chronological-cm-exit-manuscript-architecture-20260530.md
     matched_keywords:
     - failure

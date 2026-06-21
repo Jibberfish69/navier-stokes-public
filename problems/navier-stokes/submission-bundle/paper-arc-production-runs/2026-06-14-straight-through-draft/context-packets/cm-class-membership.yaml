@@ -80,10 +80,10 @@ source_sections:
     The first lost requirement is read in Pack-before-Part audited order:
     \[
       \begin{aligned}
-      \text{lost same-fluid carrier} &\longmapsto \neg\Pack_Q,\\
-      \text{lost pressure-viscosity-incompressibility participation} &\longmapsto \Pack_Q\wedge\neg\Part_{N,Q},\\
+      \text{lost same-fluid carrier} &\longmapsto Field-window evidence outside CM,\\
+      \text{lost pressure-viscosity-incompressibility participation} &\longmapsto \neg\Part_{N,Q},\\
       \text{lost positive-scale coherent field readout} &\longmapsto
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
       \end{aligned}
     \]
     The three lines are witness-face readings of one membership question.  Pack asks whether the selected record is carried by the same fluid body.  Part asks whether the same Navier--Stokes law acts on that body through the finite derivative tower being tested.  Field asks whether the resulting readings still live on one positive scale.
@@ -133,7 +133,7 @@ source_sections:
 
     A proposed record that changes one of these data has left the class being tested.  A regularized equation, inviscid comparison branch, detached source model, private packet, or generated geometry can still be useful.  It becomes part of the membership proof only when the page reattaches it to \(\Owork\) and identifies it with the selected record \(Q\).  Before that reattachment, it is support material or a boundary picture.
 
-    Three common support families enter after this definition is fixed.  A forward-invariance route belongs to the pass side: after membership has been installed on a same-fluid family, it records how that membership is carried by the same field.  A collar-to-jump converse belongs to the Field side: on a fixed transported cover, it helps turn retained-cover oscillation into a one-field failure or a one-field payment.  A frozen-family source ledger belongs to the supplier side: it can pay pressure and source pieces feeding one-field preservation.  In all three cases the membership statement remains the same Pack, Part, and Field certificate on the selected record \(Q\).
+    Three common support families enter after this definition is fixed.  A forward-invariance route belongs to the pass side: after membership has been installed on a same-fluid family, it records how that membership is carried by the same field.  A collar-to-jump converse belongs to the Field side: on a fixed transported cover, it helps turn retained-cover oscillation into a one-field failure or a one-field payment.  A frozen-family source ledger belongs to the supplier side: it can pay pressure and source pieces feeding one-field preservation.  In all three cases the membership statement remains the same Part and Field certificate on the selected record \(Q\).
 
     \subsection{Participation as one law}
 
@@ -163,7 +163,7 @@ source_sections:
     \[
       \CM_{N,r,Q}
       :=
-      \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}.
     \]
     This witness is the local certificate for membership.  Pack supplies the same-fluid carrier.  Part supplies the same pressure-viscosity-incompressibility tower on that carrier.  Field supplies one positive scale on which neighboring velocity, pressure, and tower readings remain readings of one field.
 
@@ -173,9 +173,9 @@ source_sections:
       \quad\Longrightarrow\quad
       \Member(Q;\Owork),
     \]
-    with the branch readout attached at the continuation depth selected later in the proof.  The fail side is read by the Pack-first loss of this same certificate.  A loss of carrier is \(\neg\Pack_Q\).  A retained carrier with lost participation is \(\Pack_Q\wedge\neg\Part_{N,Q}\).  A retained carrier and retained participation with no positive coherent field scale is
+    with the branch readout attached at the continuation depth selected later in the proof.  The fail side is read by the Part/Field loss of this same certificate.  A loss of carrier is \(Field-window evidence outside CM\).  A retained carrier with lost participation is \(\neg\Part_{N,Q}\).  A retained carrier and retained participation with no positive coherent field scale is
     \[
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     The witness certificate is the bridge between the readable class statement \(\Member(Q;\Owork)\) and the three concrete tests the proof can inspect.
 
@@ -198,7 +198,7 @@ source_sections:
     \[
       \WitnessRecord=(u_0,\nu,u,p,Q,N,r,\Phi,T_*).
     \]
-    The entries say what the proof is allowed to hold fixed.  The datum \(u_0\), viscosity \(\nu\), and velocity-pressure pair \((u,p)\) identify the original branch.  The object \(Q\) is the selected terminal record.  The integer \(N\) is the derivative depth used by the test.  The scale \(r>0\) is the positive field scale.  The carrier \(\Phi\) is transported by the same velocity field, and \(T_*\) is the alleged finite terminal time.  Pack, Part, and Field are all read on this record.
+    The entries say what the proof is allowed to hold fixed.  The datum \(u_0\), viscosity \(\nu\), and velocity-pressure pair \((u,p)\) identify the original branch.  The object \(Q\) is the selected terminal record.  The integer \(N\) is the derivative depth used by the test.  The scale \(r>0\) is the positive field scale.  The carrier \(\Phi\) is transported by the same velocity field, and \(T_*\) is the alleged finite terminal time.  Part and Field are all read on this record.
 
     \begin{definition}[Witness record]
     A witness record is one terminal data record
@@ -255,14 +255,14 @@ source_sections:
     \]
     The derivation of this negation is the work of the witness faces:
     \[
-      \neg\Pack_Q,\qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      Field-window evidence outside CM,\qquad
+      \neg\Part_{N,Q},\qquad
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
 
     At depth \(N\) and scale \(r\), the certificate being tested is
     \[
-      \CM_{N,r,Q}:=\Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
+      \CM_{N,r,Q}:=\Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}.
     \]
     The certificate direction used in the paper is
     \[
@@ -270,7 +270,7 @@ source_sections:
       \Longrightarrow
       \Member(Q;\Owork),
     \]
-    with the branch readout attached at the continuation depth in force.  The fail side is the Pack-first loss of that certificate on the same selected record.
+    with the branch readout attached at the continuation depth in force.  The fail side is the Part/Field loss of that certificate on the same selected record.
 
     \paragraph{Pack.}
     Pack is the carrier face.  The selected terminal record has to be carried by a positive same-fluid packet or material body.  A bare point, a detached donor ancestry, or a source atom with no transported body fails before the proof can ask whether the same equation participates on it.
@@ -374,9 +374,9 @@ source_sections:
 
     The periodic branch pays selection by using the whole transported material atlas.  The terminal object is \(Q_{\mathrm{atlas}}\).  The atlas fixes the packet before local branch examples are read, so the proof cannot switch to a private diagnostic packet after seeing the obstruction.  Loss of atlas selection or material comparability is Pack failure for \(Q_{\mathrm{atlas}}\).  Once an annular residue has already been admitted through the atlas, carrier and selection have been paid for that residue; the remaining nonsmooth branch is decided by Part or Field.
 
-    The whole-space branch pays selection differently.  For rapidly decaying data on \(\mathbb R^3\), the exterior Duhamel split removes the initial heat tail and the far-field effect of a fixed compact-core source.  The remaining object is the nonlinear source already living far out in space.  Vanishing in exterior \(H^s\) supplies the continuation readout.  A surviving exterior source enters the same CM packet test: Pack when no same-fluid material address remains, Part when the source has detached from the same equation and participation law, and Field when retained Pack plus Part still has no fixed positive field scale.
+    The whole-space branch pays selection differently.  For rapidly decaying data on \(\mathbb R^3\), the exterior Duhamel split removes the initial heat tail and the far-field effect of a fixed compact-core source.  The remaining object is the nonlinear source already living far out in space.  Vanishing in exterior \(H^s\) supplies the continuation readout.  A surviving exterior source enters the same CM participation-field test: Field-window evidence when a smoothness-certification window is requested, Part when the source has detached from the same equation and participation law, and Field when retained Field-window evidence plus Part still has no fixed positive field scale.
 
-    These two payments show how support work enters the class proof.  A forward estimate, comparison calculation, or source decomposition can select the record or strengthen the pass branch.  The CM conclusion begins only when the selected same-solution record is tested by Pack, Part, and Field.
+    These two payments show how support work enters the class proof.  A forward estimate, comparison calculation, or source decomposition can select the record or strengthen the pass branch.  The CM conclusion begins only when the selected same-solution record is tested by Part and Field.
 
     \subsection{The pass-or-exit conclusion}
 
@@ -410,7 +410,7 @@ source_sections:
 
     The retained-Pack-and-Part Field statement is
     \[
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
       \quad\Longrightarrow\quad
       \Exit(Q;\Owork).
     \]
@@ -418,13 +418,13 @@ source_sections:
 
     This is the family used by retained pulses and annular source residues after selection.  The page should read these branches as failed positive-scale readability.  The proof force comes from the lost coherent field scale, not from the mere presence of a large quantity.
 
-    \subsection{Finite Pack/Part/Field disjunction obligations}
+    \subsection{Finite Part/Field disjunction obligations}
 
-    Some branch surfaces produce a finite list of same-solution alternatives rather than a single named face.  The proof then runs the Pack-first test on each alternative.  Every alternative lands in one of the three displayed losses:
+    Some branch surfaces produce a finite list of same-solution alternatives rather than a single named face.  The proof then runs the Part/Field test on each alternative.  Every alternative lands in one of the three displayed losses:
     \[
-      \neg\Pack_Q,\qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      Field-window evidence outside CM,\qquad
+      \neg\Part_{N,Q},\qquad
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     A finite disjunction of these losses is still exhausted by the same witness tree.  Once the alternatives are exhausted, no extra terminal branch remains outside the pass-or-exit law.
 
@@ -436,11 +436,11 @@ source_sections:
 
     Their mathematical role is restraint.  An inherited-authority entry contributes through the theorem or face sweep it inherits from.  It supplies no fourth membership requirement and no new continuation branch.  The manuscript keeps these entries visible so the reader can see why already-paid material is not being counted again as an independent terminal alternative.
 
-    \subsection{Pack-face terminal obligations}
+    \subsection{Field-window evidence terminal obligations}
 
-    Pack-face obligations are the branches whose selected terminal object loses the same-fluid carrier first.  The mechanisms include carrier loss, cover loss, packing failure, failed retained-packet admission, and Pack bridge failure.  Their closing statement is
+    Field-window evidence obligations are the branches whose selected terminal object loses the same-fluid carrier first.  The mechanisms include carrier loss, cover loss, packing failure, failed retained-packet admission, and Pack bridge failure.  Their closing statement is
     \[
-      \neg\Pack_Q\quad\Longrightarrow\quad\Exit(Q;\Owork).
+      Field-window evidence outside CM\quad\Longrightarrow\quad\Exit(Q;\Owork).
     \]
     A member record has to be carried by a positive same-fluid packet before participation and field readout can even be asked.  When that carrier is absent, the branch exits at Pack.
 
@@ -450,7 +450,7 @@ source_sections:
 
     Part-face obligations keep enough carrier structure to pass Pack for the case split, then lose the same Navier--Stokes participation law.  The mechanisms include loss of the pressure-viscosity tether, failure of the participation envelope, dropped same-PDE law, and no-drop defects.  The closing statement is
     \[
-      \Pack_Q\wedge\neg\Part_{N,Q}
+      \neg\Part_{N,Q}
       \quad\Longrightarrow\quad
       \Exit(Q;\Owork).
     \]
@@ -463,7 +463,7 @@ source_sections:
     Support-boundary entries have no CM conclusion until they select a same-fluid terminal record or pay a named hinge.  They include history surfaces, audits, context material, downstream exports, readout consumers, source recovery, manuscript presentation surfaces, supplier notes, and comparison material.  Their role is
     \[
       \text{support}\quad\longrightarrow\quad
-      \text{later Pack, Part, Field, membership-readout, or no-third-branch hinge}.
+      \text{later Part, Field, membership-readout, or no-third-branch hinge}.
     \]
     They can strengthen the pass branch, sharpen the obstruction, explain why a witness matters, or prepare a later selection.  They remain support until the page identifies the selected same-solution record and proves either \(\Member(Q;\Owork)\) or \(\Exit(Q;\Owork)\).
 
@@ -474,9 +474,9 @@ source_sections:
     The main paper uses these six families as a reader guide for the branch material.  A branch is closed only after it has one of the following forms:
     \[
       \Member(Q;\Owork),\qquad
-      \neg\Pack_Q,\qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      Field-window evidence outside CM,\qquad
+      \neg\Part_{N,Q},\qquad
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     Every other entry is support, inherited authority, obsolete material, or an open endpoint.  The appendix keeps the many branch names from overwhelming the proof spine by making every live branch pay the same class-membership question.
   truncated: false
@@ -491,7 +491,7 @@ support_refs:
   - CM
   excerpt: |-
     same-fluid CM terminal packet test, its finite failure type is exhausted as not
-      Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and that derived witness-face
+      not Part_{N,Q} or forall r>0 not Field_{N,r,Q}, and that derived witness-face
       failure supports `Exit(Q):=not Member(Q)`. The two current reopeners are only a
       legal in-class nonsmooth third branch, or failure of Clay terminal CM entry / finite-failure
       exhaustion / CM contrapositive embedding. Older direct-live endpoint, TerminalCMNoExit,
@@ -507,7 +507,7 @@ support_refs:
     and the uniform two-sided obstruction lemma. The Clay-facing proof uses the
           pass-or-exit obstruction engine: the pass side supplies local non-vacuity by
           the simplest lawful smooth/Member(Q) witness, while the fail side closes only
-          after CM-test entry and a concrete Pack/Part/Field face failure. The 2026-05-28
+          after CM-test entry and a concrete Part/Field face failure. The 2026-05-28
           critical H^{1/2} route notes are represented here as conditional CM class-exit/Field
 - path: problems/navier-stokes/submission-bundle/ns-pdf-proof-unit-completion-strategy-20260612.yaml
   matched_keywords:
@@ -839,7 +839,7 @@ context_domain_refs:
     - CM
     excerpt: |-
       same-fluid CM terminal packet test, its finite failure type is exhausted as not
-        Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and that derived witness-face
+        not Part_{N,Q} or forall r>0 not Field_{N,r,Q}, and that derived witness-face
         failure supports `Exit(Q):=not Member(Q)`. The two current reopeners are only a
         legal in-class nonsmooth third branch, or failure of Clay terminal CM entry / finite-failure
         exhaustion / CM contrapositive embedding. Older direct-live endpoint, TerminalCMNoExit,
@@ -853,7 +853,7 @@ context_domain_refs:
     excerpt: |-
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
-        role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
+        role: Audit-open atlas that connects the primitive Member/CM witness graph, Part/Field
           face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260612.yaml
@@ -866,7 +866,7 @@ context_domain_refs:
     excerpt: |-
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
-        role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
+        role: Audit-open atlas that connects the primitive Member/CM witness graph, Part/Field
           face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260613-iteration-2.yaml
@@ -879,7 +879,7 @@ context_domain_refs:
     excerpt: |-
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
-        role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
+        role: Audit-open atlas that connects the primitive Member/CM witness graph, Part/Field
           face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260613.yaml
@@ -892,7 +892,7 @@ context_domain_refs:
     excerpt: |-
       label: cm_convergence_atlas
         status: support-audit-cm-resolved
-        role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
+        role: Audit-open atlas that connects the primitive Member/CM witness graph, Part/Field
           face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
           with later licensed Field readout, alias-collapse table, and theorem-crank method.
   - path: problems/navier-stokes/ns-completion-executor.yaml
@@ -919,7 +919,7 @@ context_domain_refs:
     - CM
     excerpt: |-
       smooth datum enters the same-fluid CM terminal packet tree, its finite failure
-            type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q},
+            type is exhausted as not not Part_{N,Q} or forall r>0 not Field_{N,r,Q},
             and the derived face failure embeds as `Exit(Q):=not Member(Q)` while the pass
             branch remains the lawful smooth continuation branch.'
           route_chain:
@@ -964,7 +964,7 @@ context_domain_refs:
             examples:
             - Exit(Q):=not Member(Q)
             - Pack_Q / Part_{N,Q} / Field_{N,r,Q}
-            - 'Pack/Part/Field as overlapping witness axes: Pack has fixed-box flux and
+            - 'Part/Field as overlapping witness axes: Pack has fixed-box flux and
   - path: problems/navier-stokes/theorem-construction/chatgpt-terminal-zeno-vortex-ontology-verbatim-note-20260528.md
     matched_keywords:
     - Member
@@ -1023,7 +1023,7 @@ context_domain_refs:
       branches through morphic regularization, anisotropy, torus/shadow/YM-heat, and
       source-wall machinery; finally it was reinterpreted as a class-membership
       contrapositive engine where a finite terminal obstruction either stays on the
-      `Member(Q)` pass side or lands as a Pack/Part/Field face failure supporting
+      `Member(Q)` pass side or lands as a Part/Field face failure supporting
   - path: problems/navier-stokes/current-route-dependency-graph.yaml
     matched_keywords:
     - Member
@@ -1032,10 +1032,10 @@ context_domain_refs:
     - CM
     excerpt: |-
       The installed chain classifies an alleged finite Clay terminal witness by
-          entering the canonical same-fluid CM packet tree, exhausting the first
-          failing Pack/Part/Field face, and deriving Exit(Q):=not Member(Q). Public
+          entering the canonical same-fluid CM participation-field tree, exhausting the first
+          failing Part/Field face, and deriving Exit(Q):=not Member(Q). Public
           Clay finality remains open because classification alone does not prove that
-          original smooth data cannot produce a first terminal Pack/Part/Field exit.
+          original smooth data cannot produce a first terminal Part/Field exit.
   - path: brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.cfi-forward-invariance-route.yaml
     matched_keywords:
     - Member
@@ -1157,7 +1157,7 @@ context_domain_refs:
     excerpt: |-
       - Conditional wording is allowed only when the theorem statement is itself conditional, the source search has ended in a clear unlocated/stale state, or the remaining issue is a genuine mathematical alternative that cannot be resolved from the repo.
       - Repo-surface ownership rule: when Codex brings a theorem target, burden, route, proof idea, or status from repo surfaces to Thomas, Codex owns the judgment. Before presenting it, classify the surface as proof, failed attempt, support, generated status, stale/conflicted overlay, or broken machinery; repair, demote, or state contradictions before using the surface. Do not make Thomas audit an idea Codex chose to introduce.
-      - Surface-triggered target-switching rule: do not let the latest repo surface, contradiction, export verdict, direct-attempt note, or correction seize the theorem target. Hold the governing proof invariant first. For Navier-Stokes CM, the invariant is `Exit(Q):=not Member(Q)` through Pack/Part/Field; a surface-derived burden becomes live only after Codex proves why it is necessary inside that invariant, such as by showing a genuine in-class nonsmooth third branch.
+      - Surface-triggered target-switching rule: do not let the latest repo surface, contradiction, export verdict, direct-attempt note, or correction seize the theorem target. Hold the governing proof invariant first. For Navier-Stokes CM, the invariant is `Exit(Q):=not Member(Q)` through Part/Field; a surface-derived burden becomes live only after Codex proves why it is necessary inside that invariant, such as by showing a genuine in-class nonsmooth third branch.
       - In theorem-route selection, do not promote fallback diagnostics into primary targets. Before naming a live theorem target, classify candidate surfaces as primary preemption route, fallback diagnostic, downstream readout, support accounting, or stale overlay. If an upstream estimate or budget theorem would make a fallback endpoint moot, keep the upstream theorem as the live target and leave the fallback only as audit/classification support.
       - In theorem work, classify the proof program, proof role, logical skeleton, and proof mechanism before choosing the next attack. Use the broader repertoire of contrapositive, contradiction, cases, induction, invariants, monovariants, extremal principles, minimal counterexamples, descent, diagonalization, counting, bijection, generating functions, probabilistic method, compactness, topology, algebraic encoding, analytic estimates, and finite/computer-assisted exhaustion. If stuck, pivot proof method before pressing the same positive-forward estimate harder. For Navier-Stokes, CM contrapositive class exit remains the primary program; the proof-method library supports subproblems without replacing CM exit or deleting lawful exit witnesses.
   - path: problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
@@ -1180,7 +1180,7 @@ context_domain_refs:
     - CM
     excerpt: |-
       -> same-fluid CM terminal packet tree
-      -> first failed Pack/Part/Field service
+      -> first failed Part/Field service
       -> Exit(Q):=not Member(Q).
       ```
   - path: problems/navier-stokes/submission-bundle/ground-up-target-reference.md
@@ -1204,7 +1204,7 @@ context_domain_refs:
     excerpt: |-
       If the four-body positive-forward method cannot delete every persistent survivor, then the proof must ask what that survivor is.
 
-      The CM-exit insight is that a persistent terminal bad object may be evidence that the alleged terminal witness has lost the services required for same-solution membership. The goal then shifts from deleting every bad object to testing whether the terminal object still has the required Pack, Part, and Field services.
+      The CM-exit insight is that a persistent terminal bad object may be evidence that the alleged terminal witness has lost the services required for same-solution membership. The goal then shifts from deleting every bad object to testing whether the terminal object still has the required Part and Field services.
 
       This transition should be one of the main narrative and mathematical pivots of the paper.
   - path: problems/navier-stokes/submission-bundle/pdf-rebuild-branch-inventory-20260530.md

@@ -646,7 +646,7 @@ context_domain_refs:
     - obstruction
     excerpt: |-
       - EulerSmooth(u_0,[0,T]) => NSSmooth_nu(u_0,[0,T]) for fixed nu>0
-          - 'ScaleCriticalTreeCarleson.A as Pack-side CM exit theorem target: Pack_Q implies
+          - 'ScaleCriticalTreeCarleson.A as Field smoothness-certification support target: Pack_Q implies
             the scale-critical donor-refill Carleson bound, and selected unpaid infinite
             donor-refill ancestry is not Pack_Q / (Pack, packing-detached)'
           - 'ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A as diagnostic/source-residue
@@ -654,7 +654,7 @@ context_domain_refs:
     matched_keywords:
     - obstruction
     excerpt: |-
-      - Pack/Part/Field face landing
+      - Part/Field face landing
           done_condition: complete when the theorem node changes proof state or is exactly
             blocked by a named mathematical obstruction
           handoff_back: Handoff back with a changed-state ref, exact blocker, and next work-node
@@ -901,7 +901,7 @@ context_domain_refs:
     matched_keywords:
     - obstruction
     excerpt: |-
-      - In theorem conversation, type every loaded phrase before chaining it into a sentence. For Navier-Stokes CM work, keep these roles separate: finite breakdown or counterexample assumption, grammar-admissible test object, class-member predicate, witness face, face failure, support/readout, and class-exit conclusion. `CM-lawful` may only mean admissible for the CM test, never `Member(Q)`; a face failure lands in Pack/Part/Field, not the whole witness; `Exit(Q):=not Member(Q)` is the class-exit conclusion supported by the face failure, not a synonym for Pack/Part/Field.
+      - In theorem conversation, type every loaded phrase before chaining it into a sentence. For Navier-Stokes CM work, keep these roles separate: finite breakdown or counterexample assumption, grammar-admissible test object, class-member predicate, witness face, face failure, support/readout, and class-exit conclusion. `CM-lawful` may only mean admissible for the CM test, never `Member(Q)`; a face failure lands in Part/Field, not the whole witness; `Exit(Q):=not Member(Q)` is the class-exit conclusion supported by the face failure, not a synonym for Part/Field.
       - In theorem work, failure labels such as `dead`, `blown`, and `jump` are outputs of a mechanism test, not a starting taxonomy. Before naming one, derive it from the proof program: `Dead` means Part-side participation failure or same-object dynamic carrier failure; raw no-positive-radius carrier is Pack-side unless participation failure is also derived; retained positive-window unbounded field means blown; incompatible surviving traces mean jump. A fluent label list without that derivation is a conduct failure.
       - Capability-growth rule: when Thomas asks for solved-MPP-level progress or criticizes proof progress as machinery-only, do not answer only by narrowing the next task or tightening success language. Identify the missing capability and build or route a concrete upgrade in tools, proof methods, source recovery, formal checking, research intake, subagent orchestration, local compute, repo surfaces, lane runtime, or cognition skills, then apply it to a named theorem obstruction.
       - Introspection rule: when Thomas asks why a day, thread, or interaction went badly, do not answer from a plausible behavioral story. Treat the task as introspection: evidence-backed self-observation that inspects the relevant conversation evidence, finds missed common sense, insight, and awareness, and replay-tests whether the repair would have prevented the original bad reply. If evidence has not been checked, explicitly mark the answer as unchecked inference.
