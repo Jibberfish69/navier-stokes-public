@@ -99,7 +99,7 @@ branch_families:
       - theorem-construction/mpp-genuine-cm-exit-equivalence-20260521.md
     visual_note: >-
       This is not a source-wall supplier route. It is the CM exit route from a
-      same-solution terminal witness to a first Part/Field Part/Field failure.
+      same-solution terminal witness to a first Part/Field failure.
   - family_id: t3_source_control_wall
     split_id: t3_periodic
     label: Source-control / source-pulse supplier family

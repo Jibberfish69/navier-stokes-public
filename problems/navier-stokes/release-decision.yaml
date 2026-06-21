@@ -143,8 +143,8 @@ target_lock_schema:
     examples:
     - Exit(Q):=not Member(Q)
     - Pack_Q / Part_{N,Q} / Field_{N,r,Q}
-    - 'PackOutOfCMSmoothnessCertification.A: outside-CM participation-field record-window or singular failed packet-window branches
-      must test the original NS participation law before not Pack_Q is spent'
+    - 'PackOutOfCMSmoothnessCertification.A: outside-CM packet/window or singular failed packet-window branches
+      must test the original NS participation law without spending not Pack_Q as CM exit'
     - 'Part/Field as overlapping witness axes: Pack has fixed-box flux and finite-window
       material-coordinate readings; Part is same pressure-viscosity carrier law; Field
       is neighboring tower coherence'
@@ -201,8 +201,8 @@ proof_program_topology:
   governing_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
   propagated_object: same-fluid Part/Field witness envelope; Member(Q) is
     the forward membership predicate
-  promotion_gate: Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence witness landing
-    after Pack admission, plus original-participation audit before any outside-CM participation-field record-window failure
+  promotion_gate: Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence landing
+    after live-object participation is typed, plus original-participation audit before any outside-CM packet/window failure
     disposal
   current_role: governing proof grammar for CM-bearing promotion
   governing_engine_note: problems/navier-stokes/theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
@@ -210,7 +210,7 @@ proof_program_topology:
     note: problems/navier-stokes/theorem-construction/mpp-pack-before-part-dependency-resurfacing-audit-20260620.md
     licensing_note: problems/navier-stokes/theorem-construction/mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md
     rule: Preserve Silver Part/Field after a legitimate Pack window, carrier,
-      readout, or jump-comparison structure is admitted. When a outside-CM participation-field record-window or singular
+      readout, or jump-comparison structure is admitted. When an outside-CM packet/window or singular
       branch was disposed as not Pack_Q before the original Navier-Stokes participation law was applied to the live same-solution object, first ask whether
       the original Navier-Stokes viscosity, pressure, and incompressibility law still
       gives original participation status. If yes, apply the original Navier-Stokes participation law to the live same-solution object and localize to Part_{N,Q} only after the tested record exists;
@@ -220,7 +220,7 @@ proof_program_topology:
     a fail branch. The pass branch is the in-class `Member(Q)` branch and may be supplied
     by any lawful continuation mechanism. The fail branch is lawful CM contrapositive
     work only when the failure is capable of nonsmoothness and lands as a Pack, Part,
-    or Field Part/Field failure, or as an original-participation audit of a outside-CM participation-field record-window branch, supporting
+    or Field Part/Field failure, or as an original-participation audit of an outside-CM packet/window branch, supporting
     `Exit(Q):=not Member(Q)`. Do not replace this engine with a demand to prove one
     particular positive estimate directly.
   no_third_branch_rule: The installed no-third-branch audit proves that no terminal
@@ -235,7 +235,7 @@ proof_program_topology:
     continuation mechanism, and a fail branch is useful exactly when it lands in Pack,
     Part, or Field; that concrete Part/Field failure supports `Exit(Q):=not Member(Q)`.
   silver_face_failure_finality_correction_20260619: Do not state or preserve as a
-    Silver burden that a concrete Part/Field Part/Field failure must then be proved
+    Silver burden that a concrete Part/Field failure must then be proved
     not to be the finite-time breakdown of the original smooth solution. That imports
     a forward no-exit theorem into the contrapositive. For Silver, after same-solution
     CM-test admission, the row is consumed by admissibility failure, continuation/readout
@@ -248,7 +248,7 @@ proof_program_topology:
     solution, or showing smooth data stays in CM. That is a positive-existence/class-preservation
     reading. The pass side is already the smooth/Member(Q) side under whatever lawful
     continuation mechanism supplies it; the proof work is admitting each obstruction
-    to the CM test and deriving the fail side as a concrete Part/Field Part/Field failure
+    to the CM test and deriving the fail side as a concrete Part/Field failure
     supporting Exit(Q):=not Member(Q).
   source_reserve_birth_rule: 'The May 25 source-reserve burst is support, not live
     frontier: `ReserveCreationCharge.A` remains a positive supplier / charge-ledger
@@ -261,7 +261,7 @@ proof_program_topology:
     reserve surplus remains supplier quarantine. Its honest next burden is `RetainedPositiveScaleNativeReserveBirthCharge.A
     / TerminalReserveFirstAppearanceCharge.A` as supplier-quarantined positive Pack
     support, promotable only by same-ledger payment or CM-test admission plus first
-    Part/Field Part/Field failure.'
+    Part/Field failure.'
 - program_id: positive-smoothness
   proof_mode: positive_smoothness
   governing_primitive: direct a priori regularity or continuation control for the
@@ -297,7 +297,7 @@ proof_program_topology:
   proof_mode: forward_positive_support_and_endpoint_readout
   governing_primitive: retained/averaged receiver, source ledger, endpoint readout
   propagated_object: receiver/source/read-cover/end-point packets
-  promotion_gate: typed bridge into Part/Field witnesss, or explicit downstream
+  promotion_gate: typed bridge into Part/Field witnesses, or explicit downstream
     readout after the CM witness certificate
   current_role: support program, not interchangeable with the CM primitive
 - program_id: export-readout-branches
@@ -386,7 +386,7 @@ open_root_group:
     status: receiver-escape-bridge-installed-three-notes-quarantined-as-conditional-support
     bridge_effect: REE.C is the only promoted May 15 bridge; on retained Pack+Part
       it sends receiver escape to not Field as branch-local retained-hypothesis bookkeeping,
-      while missing Pack or Part hypotheses land earlier in those witnesss.
+      while missing Pack or Part hypotheses land earlier in those witnesses.
     note_classification:
     - path: problems/navier-stokes/theorem-construction/mpp-receiver-escape-endpoint-reduction-20260515.md
       class: licensed narrow CM witness bridge into Field
@@ -599,7 +599,7 @@ non_merge_rules:
   statement: Positive smoothness control and every surface indexed in the forward-positive
     quarantine ledger are not the CM contrapositive unless a named bridge proves membership,
     a Silver witness landing in Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence, or the
-    outside-CM participation-field record-window original-participation audit needed before not Pack_Q can be spent.
+    outside-CM packet/window original-participation audit needed before not Pack_Q can be spent.
 - rule_id: fixed-nu-transfer-vs-ns-smoothness
   statement: Fixed-nu Euler-to-NS transfer compares two equations on the same datum
     and interval; it does not prove Euler smoothness or stand-alone NS smoothness.
