@@ -301,7 +301,7 @@ route_nodes:
     H^s tail. The direct positive export estimate R3.ExteriorNonlinearSourceHsLedger.A
     remains a stronger optional export, while a surviving exterior source is no longer
     an unspecified branch: bounded frequencies vanish by exterior L^2 tightness, high-frequency
-    survivors escape to dyadic scale, and retained Pack+Part is incompatible with
+    survivors escape to dyadic scale, and retained Part plus Field-window evidence is incompatible with
     any fixed positive Field scale by R3.ExteriorDyadicSurvivorFieldIncompatibility.A.
     Thus the CM-facing dichotomy lands the survivor in Part or Field. This
     branch is upstream-separated from the periodic T^3 endpoint.'
@@ -472,7 +472,7 @@ integration_chain:
   surface_class: theorem graph
   current_state: finite-obstruction-inventory-synced
   job: Every branch node has an evidence source, state, and next burden.
-  current_gap: The generic Pack/Part face-exclusion work order is classified as the
+  current_gap: The generic Part/Field face-exclusion work order is classified as the
     wrong target with no proof force. The graph must show finite-obstruction inventory
     coverage and keep future named rows under same-witness Part/Field witness record.
 - step_id: app_worker_surface
@@ -481,7 +481,7 @@ integration_chain:
   job: Viewer can inspect the D8 route map, Research OS route state, branch rows,
     proof/PDF scaffold state, sync verdicts, and open blockers beside route graph,
     source frontier, live edge, and proof leaves.
-  current_gap: The viewer route truth must show Pack/Part as witnesses for named
+  current_gap: The viewer route truth must show Part/Field as witnesses for named
     rows, not as generic global no-exit blockers.
 - step_id: repo_proof_authority
   surface_class: NS repo theorem closure
@@ -772,7 +772,7 @@ branch_rows:
     exterior H^s tail. The direct positive export estimate R3.ExteriorNonlinearSourceHsLedger.A
     remains a stronger optional export, while a surviving exterior source is no longer
     an unspecified branch: bounded frequencies vanish by exterior L^2 tightness, high-frequency
-    survivors escape to dyadic scale, and retained Pack+Part is incompatible with
+    survivors escape to dyadic scale, and retained Part plus Field-window evidence is incompatible with
     any fixed positive Field scale by R3.ExteriorDyadicSurvivorFieldIncompatibility.A.
     Thus the CM-facing dichotomy lands the survivor in Part or Field. This
     branch is upstream-separated from the periodic T^3 endpoint.'
@@ -810,7 +810,7 @@ branch_rows:
   row_kind: d8_integration_step
   label: theorem graph
   state: finite-obstruction-inventory-synced
-  next_burden: The generic Pack/Part face-exclusion work order is classified as the
+  next_burden: The generic Part/Field face-exclusion work order is classified as the
     wrong target with no proof force. The graph must show finite-obstruction inventory
     coverage and keep future named rows under same-witness Part/Field witness record.
   evidence_refs:
@@ -821,7 +821,7 @@ branch_rows:
   row_kind: d8_integration_step
   label: NS app/viewer
   state: route-state-exported-with-inventory-gate
-  next_burden: The viewer route truth must show Pack/Part as witnesses for named
+  next_burden: The viewer route truth must show Part/Field as witnesses for named
     rows, not as generic global no-exit blockers.
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
