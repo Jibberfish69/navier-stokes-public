@@ -15,4 +15,4 @@ This pass re-entered changed refs from the first executor pass:
 
 Stop state: source-writing batch remains the first active PDF object.
 
-The human problems/** PDF must be updated in large source batches before another finality sweep. The next honest work is to read the current TeX source, choose the highest-risk page criticisms, write the existing repo math in textbook-grade prose, and run a targeted changed-section PDF check. Math suppliers may run in parallel, but they return here only as a named PDF payment, a Pack/Part/Field face landing, or quarantined support.
+The human problems/** PDF must be updated in large source batches before another finality sweep. The next honest work is to read the current TeX source, choose the highest-risk page criticisms, write the existing repo math in textbook-grade prose, and run a targeted changed-section PDF check. Math suppliers may run in parallel, but they return here only as a named PDF payment, a Part/Field Part/Field landing, or quarantined support.
