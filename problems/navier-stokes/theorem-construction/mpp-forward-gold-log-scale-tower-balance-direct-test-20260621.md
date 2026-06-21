@@ -335,7 +335,7 @@ or
 
 ```math
 \boxed{
-\text{the retained terminal pulse is admitted to the CM Pack/Part/Field
+\text{the retained terminal pulse is admitted to the CM Part/Field
 consumer.}
 }
 \tag{LST.30}
@@ -352,4 +352,4 @@ route cannot by itself exclude the last-instant time-face atom.
 The next exact gold theorem is therefore not "derive the log-scale identity";
 that identity is now derived.  The remaining producer must remove or charge the
 terminal factor \(-s\) by source residence, terminal trace no-waste, or the
-already typed CM face consumption branch.
+already typed CM Part/Field consumption branch.

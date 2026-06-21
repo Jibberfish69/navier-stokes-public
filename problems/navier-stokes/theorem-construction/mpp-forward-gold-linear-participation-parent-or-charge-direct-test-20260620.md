@@ -269,7 +269,7 @@ ActiveWindowHeight.A
 \quad/\quad
 SelectedParticipationSquareBudget.A
 \quad/\quad
-\text{CM Pack/Part/Field admission}.
+\text{CM Part/Field admission}.
 }
 \tag{LPC.19}
 ```

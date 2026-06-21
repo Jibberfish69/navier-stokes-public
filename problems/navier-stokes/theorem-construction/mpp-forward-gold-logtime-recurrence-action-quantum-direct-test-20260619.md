@@ -329,5 +329,5 @@ So the packet is not ontologically mysterious anymore.  It is a recurrent
 log-time object with a fixed positive lower bound.  The exact unsolved
 forward-gold question is whether
 Navier-Stokes supplies a finite unweighted critical-action budget, or whether
-that recurrent object must instead be consumed as a Pack/that face failure
+that recurrent object must instead be consumed as a Pack/that Part/Field failure
 readout.

@@ -8,7 +8,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-compact-native-source-residue-rigidity-direct-test-20260619.md
   - problems/navier-stokes/theorem-construction/mcp-minimalzenoancientresidue_b-a-minimalzenoancientresidue_b-class-production-and-liouville-attempt-e18617ee04.md
   - problems/navier-stokes/theorem-construction/mpp-rigid-basac-timeface-antiatom-subclass-liouville-20260517.md
-downstream_consequence: "A future rigidity consumer is useful only after an exact defect-to-profile or defect-to-rigid-class production theorem. Until then, microlocal visibility returns to UnweightedTerminalCriticalActionReserve.A, NoWasteLocalEnergyFlux.A, MinimalZenoProfileProduction.A, ProductionIntoRigidBASACTimeFaceSubclass.A, or CM Pack/Part/Field consumption of the retained pulse."
+downstream_consequence: "A future rigidity consumer is useful only after an exact defect-to-profile or defect-to-rigid-class production theorem. Until then, microlocal visibility returns to UnweightedTerminalCriticalActionReserve.A, NoWasteLocalEnergyFlux.A, MinimalZenoProfileProduction.A, ProductionIntoRigidBASACTimeFaceSubclass.A, or CM Part/Field consumption of the retained pulse."
 ---
 
 # MPP Forward-Gold Microlocal Defect Rigidity Consumer Direct Test
@@ -270,5 +270,5 @@ suppliers:
 ```
 
 Absent one of those, the microlocal defect remains a visible terminal pulse,
-not a rigidity contradiction.  It must be carried as a CM Pack/Part/Field
-witness-face object or paid by a genuine no-waste/source-residence theorem.
+not a rigidity contradiction.  It must be carried as a CM Part/Field
+witness object or paid by a genuine no-waste/source-residence theorem.

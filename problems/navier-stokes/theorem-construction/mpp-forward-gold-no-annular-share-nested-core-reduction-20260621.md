@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-solution-critical-recurrence-power-test-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-source-step-primitive-square-wave-normal-form-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-shell-density-debt-curve-direct-test-20260620.md
-  downstream_consequence: "A no-annular-share branch should not be respawned as an independent forward-gold supplier. It is a precise terminal nested-core atom/profile branch. To close it forward-gold one must prove endpoint UI, source-square/no-waste/CKN/critical-strain/saturation, or profile production on the actual selected carrier; otherwise the retained same-witness atom belongs to the CM Pack/Part/Field consumer after admission."
+  downstream_consequence: "A no-annular-share branch should not be respawned as an independent forward-gold supplier. It is a precise terminal nested-core atom/profile branch. To close it forward-gold one must prove endpoint UI, source-square/no-waste/CKN/critical-strain/saturation, or profile production on the actual selected carrier; otherwise the retained same-witness atom belongs to the CM Part/Field consumer after admission."
 ---
 
 # MPP Forward-Gold No-Annular-Share Nested-Core Reduction

@@ -320,5 +320,5 @@ Therefore the local-energy no-waste branch is exhausted as a current supplier
 from finite measure, BV trace, fixed-radius participation, or ordinary local
 energy alone.  New forward-gold progress must supply one of the unweighted
 terminal reserves above.  Without that, the surviving heat-scale pulse is
-visible only as CM Pack/Part/Field witness-face evidence, not as a proved
+visible only as CM Part/Field witness evidence, not as a proved
 forward no-jump theorem.

@@ -489,4 +489,4 @@ New forward-gold progress must prove `ReserveCreationCharge.A`,
 `ActiveWindowHeight.A`, `DonorReserveAdjointTrace.A`, source-residence /
 reverse-Holder, or compact no-waste rigidity.  Otherwise the retained
 source-square failure is a visible terminal pulse to be consumed by the
-CM Pack/Part/Field route, not a closed forward-positive smoothness proof.
+CM Part/Field route, not a closed forward-positive smoothness proof.

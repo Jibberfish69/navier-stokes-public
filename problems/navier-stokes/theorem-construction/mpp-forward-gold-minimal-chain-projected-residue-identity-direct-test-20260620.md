@@ -301,5 +301,5 @@ the selected positive terminal source layer must keep its projected conormal
 stress partner in the same minimal shadow.
 
 Current inputs do not prove that.  The failure is exactly the infinite terminal
-Zeno donor chain, or else it must be consumed as a CM Pack/Part/Field
-witness-face branch rather than as a forward-gold no-jump proof.
+Zeno donor chain, or else it must be consumed as a CM Part/Field
+witness branch rather than as a forward-gold no-jump proof.
