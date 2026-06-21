@@ -4,13 +4,13 @@ ns_viewer:
   status: two-stage-split-installed-language-repaired-first-stage-kept-primary
   proof_role: forward_gold_participation_split_direct_test
   logical_landing_node: rescaled_annular_feed_two_stage_split
-  edge_effect: "Separates Thomas's direct participation objection from the later annular-term question. Stage 1 asks whether a normalized bad interior pulse can keep being fed through shrinking heat-scale annuli by the same rescaled pressure-viscosity-incompressibility law forever. Stage 2 is only the fallback: if such feeding is dynamically possible, some annular term in the same local balance must stay nonzero at the right scale. Current installed inputs do not prove Stage 1; they require an additional theorem saying the repeated rescaled feed must stop, freeze into a forbidden profile, or lose the same-law structure. Stage 2 asks for same-scale nonvanishing of one annular balance term, not for a separate readout object."
+  edge_effect: "Separates Thomas's direct participation objection from the later annular-term question. Stage 1 asks whether a normalized bad interior pulse can keep being fed through shrinking heat-scale annuli by the same rescaled pressure-viscosity-incompressibility law forever. Stage 2 is only the fallback: if such feeding is dynamically possible, some annular term in the same local balance must stay nonzero at the right scale. Current installed inputs do not prove Stage 1; they require an additional theorem saying the repeated rescaled feed must stop, freeze into a forbidden profile, or lose the same-law structure. Stage 2 asks for same-scale nonvanishing of one annular balance term."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-shared-participation-heat-scale-direct-test-20260619.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-coherent-participation-square-reserve-direct-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-pressure-flux-throttle-direct-test-20260620.md
     - problems/navier-stokes/source-frontier.yaml
-  downstream_consequence: "Do not fold the direct no-infinite-feed question into underpayment or readout language. The direct theorem is RescaledSameLawNoInfiniteFeed.A. Only after that theorem fails should the fallback ask whether some annular term in the same local balance must stay nonzero at the right scale."
+  downstream_consequence: "Do not fold the direct no-infinite-feed question into accounting language. The direct theorem is RescaledSameLawNoInfiniteFeed.A. Only after that theorem fails should the fallback ask whether some annular term in the same local balance must stay nonzero at the right scale."
 ---
 
 # MPP Forward-Gold Rescaled Annular Feed Two-Stage Split
@@ -118,8 +118,7 @@ with the interior mass not vanishing:
 \tag{RAF.7}
 \]
 
-The direct target is therefore not a statement about underpaying. It is the
-following direct exclusion.
+The direct target is therefore the following direct exclusion.
 
 ## 3. Stage 1 target
 
@@ -186,8 +185,8 @@ or
 \]
 
 These are the direct descendants of the first-stage theorem. They do not assume
-that a shell underpays. They try to prove that the infinite rescaled feed itself
-cannot exist.
+any extra accounting premise. They try to prove that the infinite rescaled feed
+itself cannot exist.
 
 At current input strength the direct route therefore reduces to:
 
@@ -246,8 +245,7 @@ at least one of the actual annular terms:
 
 or on the corresponding dilation terms in the logarithmic heat-scale form.
 
-That is the whole second claim. It should not be introduced as a separate
-readout theory at this stage.
+That is the whole second claim.
 
 ## 6. Relation to the previous heat-scale notes
 
@@ -264,9 +262,8 @@ This note adds one missing ordering distinction:
 \tag{RAF.15}
 \]
 
-So the live proof object is not "find a readout." The first question is whether
-the same rescaled pressure-viscosity-incompressibility law can support the
-infinite feed at all.
+So the first question is whether the same rescaled
+pressure-viscosity-incompressibility law can support the infinite feed at all.
 
 ## Verdict
 
