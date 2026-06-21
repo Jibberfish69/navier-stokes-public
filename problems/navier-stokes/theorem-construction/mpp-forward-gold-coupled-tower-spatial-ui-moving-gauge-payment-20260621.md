@@ -12,7 +12,7 @@ ns_viewer:
     an L_infty spacetime density bound. Consequently the moving-gauge defect
     is paid by C times |E_j^gauge|. This closes only the density side; it still
     requires geometric smallness or summability of |E_j^gauge|. Without that
-    geometric no-drift input, tower regularity gives bounded density but not
+    geometric tail-smallness input, tower regularity gives bounded density but not
     small moving-gauge mass. If the same tower survives as a CM Field readout,
     it is continuation-strength H^s, s>5/2, not an independent source-square
     producer.
@@ -79,8 +79,8 @@ For the native strain/vorticity carrier, this density has the model form
 =
 \left[
 \left\langle
-\Sigma_j^{loc}(s,y)\Omega_j^{sel}(s,y),
-\Omega_j^{sel}(s,y)
+\Sigma_j^{loc}(s,y)\omega_j^{sel}(s,y),
+\omega_j^{sel}(s,y)
 \right\rangle
 \right]_+ .
 \tag{TSU.4}
@@ -247,12 +247,13 @@ after adjusting \(c_0\) to the dimensional constants.  In that case `(TSU.13)`
 only gives boundedness of the defect mass.  It does not give smallness or
 summability.
 
-Thus tower/radius survival does not replace the moving-gauge no-drift problem.
+Thus tower/radius survival does not replace the moving-gauge geometry problem.
 It pays the density side of the defect, while the geometry still asks for
 
 \[
-b_j\to0
-\quad\text{fast enough relative to }\lambda_j,
+\lambda_j^4\min\{|b_j|,\lambda_j\}\to0
+\quad\text{or}\quad
+\sum_j\lambda_j^4\min\{|b_j|,\lambda_j\}<\infty,
 \tag{TSU.18}
 \]
 
@@ -277,9 +278,9 @@ So the tower has two exact uses:
 
 \[
 \boxed{
-\text{positive tower radius below Field strength}
+\text{positive tower radius with the finite-order carrier bound}
 \Longrightarrow
-\text{same-carrier spatial/time UI, modulo geometric no-drift,}
+\text{same-carrier spatial/time UI, modulo geometric tail-smallness,}
 }
 \tag{TSU.20}
 \]
