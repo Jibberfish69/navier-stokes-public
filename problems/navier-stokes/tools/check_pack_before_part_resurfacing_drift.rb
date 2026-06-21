@@ -66,9 +66,9 @@ FORBIDDEN = {
   "not-Pack promoted to CM exit" => /^(?!.*(?:Do not|do not|cannot|forbidden|without spending|used as|Before using)).*not Pack_Q.*(?:not CM|CM exit|Exit\(Q|class-exit|class exit)/,
   "Pack promoted to CM exit" => /Pack[- ]side CM exit/,
   "Pack-first CM route" => /Pack-first (?:CM|witness|face|continuation|route|tree|classification|promotion|proof|audit|gate|test)/,
-  "Pack/Part/Field as CM witness grammar" => /Pack\/Part\/Field (?:witness|face|exit|exhaustion|terminal|classification|proof|grammar|tree|route)/,
+  "Part/Field as CM witness grammar" => /Pack\/Part\/Field (?:witness|face|exit|exhaustion|terminal|classification|proof|grammar|tree|route)/,
   "Pack_Q before Field smoothness certification" => /Pack_Q.*(?:not Part_\{N,Q\}|Part_\{N,Q\}.*not Field_\{N,r,Q\})/,
-  "CM packet object language" => /(?<!outside-)\bCM packet\b/,
+  "CM packet object language" => /\bCM packet\b/,
   "old Pack-first continuation packet tree" => /Pack-first continuation-packet tree/,
   "old Pack-first CM exit tree" => /Pack-first CM exit tree/,
   "old Pack-first witness tree" => /Pack-first witness tree/,
@@ -125,7 +125,7 @@ FORBIDDEN = {
   "old before Pack_Q used wording" => /before Pack_Q is used/,
   "old before Pack_Q tested wording" => /before Pack_Q is tested/,
   "old before Pack_Q spent wording" => /before Pack_Q is spent/,
-  "old Pack source of participation wording" => /Pack(?:_Q|\(Q\)|\b).{0,80}(?:is|as|becomes|supplies|provides|served as|serves as).{0,40}source of participation/
+  "old Pack source of participation wording" => /^(?!.*not the source of participation).*Pack(?:_Q|\(Q\)|\b).{0,80}(?:is|as|becomes|supplies|provides|served as|serves as).{0,40}source of participation/
 }.freeze
 
 BROAD_TERMINAL_FORBIDDEN = FORBIDDEN.select do |label, _|
@@ -146,7 +146,7 @@ BROAD_CM_OBJECT_FORBIDDEN = FORBIDDEN.select do |label, _|
     label.include?("CM exit") ||
     label.include?("Pack-first CM") ||
     label.include?("CM witness grammar") ||
-    label.include?("CM packet") ||
+    label.include?("CM participation-field") ||
     label.include?("CM witness list") ||
     label.include?("Pack_Q before Field")
 end.freeze

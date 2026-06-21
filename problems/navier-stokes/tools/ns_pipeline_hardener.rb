@@ -78,8 +78,8 @@ CURRENT_SOURCE_WALL_ROOT_SUMMARY = [
   OPEN_ROOT_GROUP.fetch("cm_exit_discipline", nil),
   "Older positive no-exit / packet-survival language is support only and may not respawn as current CM authority unless a fresh CM-necessity audit proves a genuine in-class nonsmooth third branch.",
   "Generated, manuscript, source-history, runtime, export, and positive-supplier surfaces are support when they conflict with live-theorem-edge.yaml or target-operating-contract.yaml.",
-  "The Pack-out-of-CM boundary audit keeps outside-CM packet/window failure disposal from becoming terminal until the original NS participation law has been tested.",
-  "The forward-positive quarantine index keeps #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} scanned surfaces out of CM authority unless a named bridge lands the exact result in Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence, or proves the outside-CM packet/window original-participation audit needed before not Pack_Q can be spent."
+  "The Pack-out-of-CM boundary audit keeps outside-CM participation-field/window failure disposal from becoming terminal until the original NS participation law has been tested.",
+  "The forward-positive quarantine index keeps #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} scanned surfaces out of CM authority unless a named bridge lands the exact result in Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence, or proves the outside-CM participation-field/window original-participation audit needed before not Pack_Q can be spent."
 ].compact.join(" ").freeze
 CURRENT_THEOREM_STATUS = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status").freeze
 CURRENT_PACKAGE_STATUS = "cm-referee-gate-passed-with-gold-silver-paths"
@@ -622,7 +622,7 @@ def artifact_program_id(path)
   value = path.to_s.downcase
   return "fixed-nu-euler-to-ns-transfer" if value.include?("fixed-nu") || value.include?("euler-smooth-ns-smooth") || value.include?("euler-smooth-to-ns")
   return "euler-mirror" if value.include?("euler-mirror/")
-  return "cm-member-class-exit" if value.include?("cm-") || value.include?("member") || value.include?("pack-part-field")
+  return "cm-member-class-exit" if value.include?("cm-") || value.include?("member") || value.include?("part-field")
   return "source-wall-residual-root-group" if value.include?("source-wall") || value.include?("scalecritical") || value.include?("zeno") || value.include?("positiveremainder") || value.include?("positive-remainder") || value.include?("terminalangular") || value.include?("alignmentdecorrel") || value.include?("uniformtemporal") || value.include?("onesidedselectedwindow") || value.include?("active-square") || value.include?("localpositive") || value.include?("native-source")
   return "export-readout-branches" if value.include?("sg4") || value.include?("strict-shadow") || value.include?("exact-potential") || value.include?("hodge")
 
