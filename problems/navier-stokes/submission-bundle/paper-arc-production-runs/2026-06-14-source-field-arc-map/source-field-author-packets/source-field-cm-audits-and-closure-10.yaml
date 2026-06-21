@@ -717,7 +717,7 @@ chunk:
 
     Equivalently, prove a non-Carleson temporal anti-concentration or class-specific no-incoming rigidity theorem strong enough to rule out the B ASAC terminal source-residue atom.
 
-    If this Liouville theorem is not supplied, the retained nonzero residue remains CM-usable only through the installed Pack/Part/Field sorting diagnostics; it is not a forward positive supplier discharge.
+    If this Liouville theorem is not supplied, the retained nonzero residue remains CM-usable only through the installed Part/Field sorting diagnostics; it is not a forward positive supplier discharge.
 
 
 
@@ -820,7 +820,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

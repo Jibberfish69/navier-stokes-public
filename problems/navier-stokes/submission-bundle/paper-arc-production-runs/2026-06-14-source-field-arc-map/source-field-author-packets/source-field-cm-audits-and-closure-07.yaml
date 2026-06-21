@@ -177,7 +177,7 @@ chunk:
     text: |+
       \subsection{Unconditional Row Closure Via Nojump Readcover}
 
-      Theorem-facing row closure. The argument below closes the remaining Pack/Part/Field row-input gaps without using End NS avg as an upstream input.
+      Theorem-facing row closure. The argument below closes the remaining Part/Field row-input gaps without using End NS avg as an upstream input.
 
       \[
       \mathcal B_{\varepsilon_m/2}^{\Phi}=\varnothing.
@@ -380,7 +380,7 @@ chunk:
     fixed lower radius after choosing a finite route-required parameter set and applying
     compactness to the retained material tail.\n\n\n\n\\subsection{Unconditional Row
     Closure Via Nojump Readcover}\n\nTheorem-facing row closure. The argument below
-    closes the remaining Pack/Part/Field row-input gaps without using End NS avg as
+    closes the remaining Part/Field row-input gaps without using End NS avg as
     an upstream input.\n\n\\[\n\\mathcal B_{\\varepsilon_m/2}^{\\Phi}=\\varnothing.\n\\]\n\n\\[\nQ^\\Phi(I,A_\\sharp)\n\\subset\n\\bigcup_{i=1}^{M}Q_{r_i}^{\\Phi}(a_i,t_i),\n\\qquad\nr_*:=\\min_i
     r_i>0,\n\\]\n\nHere r may be taken as a fixed positive fraction of r * after the
     local shrink in ATD m .\n\n\\[\n\\sup_{Q_{r_i/2}^{\\Phi}}\\|\\operatorname{sym}\\nabla
@@ -443,7 +443,7 @@ chunk:
     Original Smooth Data/Zeno ancestry inputs.\n\n\n"
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
