@@ -229,8 +229,8 @@ arcs:
   context_cost: 383
   completion_test: finished TeX prose for every spine_ref, verified mechanically,
     then integrated into TeX source
-- arc_id: pack-part-field-grammar
-  title: Pack/Part/Field witness grammar
+- arc_id: part-field-grammar
+  title: Part/Field witness grammar
   priority: 5
   status: ready_for_author_packet
   production_role: write the three witness faces as distinct mathematical objects

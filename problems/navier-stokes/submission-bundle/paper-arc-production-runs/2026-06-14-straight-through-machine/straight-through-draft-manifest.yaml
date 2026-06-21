@@ -69,8 +69,8 @@ arc_sequence:
     every witness role separated
   completion_test: finished TeX prose for every spine_ref, verified mechanically,
     then integrated into TeX source
-- arc_id: pack-part-field-grammar
-  title: Pack/Part/Field witness grammar
+- arc_id: part-field-grammar
+  title: Part/Field witness grammar
   priority: 5
   author_job: write the witness-face grammar and the contrapositive class-exit proof
     without role conflation
@@ -130,7 +130,7 @@ context_packet_refs:
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/gold-obstruction.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/failure-taxonomy.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/cm-class-membership.yaml
-- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/pack-part-field-grammar.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/part-field-grammar.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/contrapositive-proof.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/same-solution-close.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/clay-facing-cm-completion.yaml
@@ -143,7 +143,7 @@ work_packet_refs:
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/gold-obstruction.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/failure-taxonomy.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/cm-class-membership.yaml
-- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/pack-part-field-grammar.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/part-field-grammar.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/contrapositive-proof.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/same-solution-close.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/clay-facing-cm-completion.yaml
@@ -156,7 +156,7 @@ author_pass_refs:
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/gold-obstruction.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/failure-taxonomy.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/cm-class-membership.yaml
-- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/pack-part-field-grammar.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/part-field-grammar.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/contrapositive-proof.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/same-solution-close.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/clay-facing-cm-completion.yaml
@@ -169,7 +169,7 @@ author_pack_refs:
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/gold-obstruction.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/failure-taxonomy.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/cm-class-membership.yaml
-- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/pack-part-field-grammar.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/part-field-grammar.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/contrapositive-proof.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/same-solution-close.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/clay-facing-cm-completion.yaml
