@@ -30,6 +30,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-readout-to-critical-budget-identification-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-combined-holder-density-budget-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-projected-source-l2-criterion-endpoint-ui-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-projected-source-l2-sobolev-readout-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-allocation-duality-same-carrier-reserve-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-mixed-derivative-tower-participation-law-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-cross-cylinder-time-tower-coupling-test-20260621.md
@@ -453,7 +454,7 @@ status:
 \text{combined Holder density} &
 \text{algebraic trilinear consumer; unweighted budget absent}\\
 \text{projected source }L^2\text{ criterion} &
-\text{endpoint atom consumer; }L^2\text{ source-square absent}\\
+\text{endpoint atom consumer; }H^2\text{ readout if domination holds; source-square absent}\\
 \text{allocation / KKT shadow price} &
 \text{combined Holder price paid; unweighted priced reserve absent}\\
 \text{coupled mixed-tower radius} &
