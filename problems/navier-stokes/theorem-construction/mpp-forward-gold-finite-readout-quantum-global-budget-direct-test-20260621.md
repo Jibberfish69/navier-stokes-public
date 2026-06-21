@@ -14,14 +14,14 @@ ns_viewer:
     exactly this heat-scale discount for the base energy/dissipation readouts.
     Therefore the new finite-readout quantum is real, but a forward-gold
     contradiction still needs an unweighted budget, source-square/no-waste,
-    profile production, or CM Pack/Part/Field consumption.
+    profile production, or CM Part/Field consumption.
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-atom-forces-finite-order-readout-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-pressure-flux-throttle-direct-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-summable-coupled-radius-spend-direct-test-20260621.md
   downstream_consequence: >-
     Per-atom finite-readout quanta do not close the gold route unless they are
-    controlled in an unweighted same-carrier budget or routed to CM face failure.
+    controlled in an unweighted same-carrier budget or routed to CM Part/Field failure.
     The live forward-positive suppliers remain source-square domination, strict
     no-waste/unweighted critical action, selected critical-strain/CKN Carleson,
     or profile production.
@@ -193,7 +193,7 @@ So the branch has two exact exits:
 \boxed{
 \text{unweighted forward budget}
 \quad\text{or}\quad
-\text{CM Pack/Part/Field face consumption.}
+\text{CM Part/Field face consumption.}
 }
 \tag{FRB.15}
 \]

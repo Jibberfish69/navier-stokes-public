@@ -56,7 +56,7 @@ Those notes already separate three facts:
 3. the terminal Zeno source-refill branch is not paid by finite `L^1_s` source
    mass or by `TerminalSignedSaturationCMFaceReduction.A`.
 
-The CM face-reduction theorem is support for an admitted CM witness face.  It is
+The CM Part/Field-reduction theorem is support for an admitted CM witness.  It is
 not a forward Door 1 no-free-sink payment.
 
 ## Target inequality

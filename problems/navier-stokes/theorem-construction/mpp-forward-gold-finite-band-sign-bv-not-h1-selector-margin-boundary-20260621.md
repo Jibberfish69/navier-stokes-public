@@ -25,7 +25,7 @@ ns_viewer:
     but the gold duality fork requires controlled L2 gradient of a capturing
     selector. The missing bridge is now exact: either prove a nodal-margin theorem
     that lets BV selectors be smoothed with controlled H1 cost on the same carrier,
-    or consume the resulting selector-complexity blowup as a CM Pack/Part/Field
+    or consume the resulting selector-complexity blowup as a CM Part/Field
     face, or return to same-carrier source-square/no-waste/profile production.
 ---
 

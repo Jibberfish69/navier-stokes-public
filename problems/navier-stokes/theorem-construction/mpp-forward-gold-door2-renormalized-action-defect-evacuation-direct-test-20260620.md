@@ -196,7 +196,7 @@ theorem:
 ```math
 \text{defect on annulus}
 \Longrightarrow
-\text{legal cost, source-square reserve, no-waste drop, or CM face failure}.
+\text{legal cost, source-square reserve, no-waste drop, or CM Part/Field failure}.
 \tag{RA.15}
 ```
 

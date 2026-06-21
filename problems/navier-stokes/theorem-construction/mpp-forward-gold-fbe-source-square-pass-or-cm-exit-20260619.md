@@ -15,7 +15,7 @@ The exact reading is:
 \Longrightarrow
 \text{SourceSquareReserve pass}
 \quad\text{or}\quad
-\text{CM Pack/Part/Field face exit}.
+\text{CM Part/Field face exit}.
 }
 \]
 
@@ -107,7 +107,7 @@ Pack_Q+Part_{N,Q}
 \tag{FSC.7}
 \]
 
-The meaning is Pack-first.  A raw terminal source-square failure is not called
+The meaning is Field-certification.  A raw terminal source-square failure is not called
 Field by name.  It is sorted in order:
 
 1. no retained bounded same-fluid carrier gives \(\neg Pack_Q\);
@@ -140,7 +140,7 @@ r_*=0\Longrightarrow \neg Pack_Q.
 \tag{FSC.9}
 \]
 
-Thus the zero-radius endpoint is already a Pack-face failure.  It should not be
+Thus the zero-radius endpoint is already a Pack-Part/Field failure.  It should not be
 reintroduced as an endpoint theorem debt unless the branch has first supplied a
 positive-radius retained carrier and the participation row.
 
@@ -198,7 +198,7 @@ The remaining true suppliers are the already isolated source-square currencies:
 \]
 
 If none of those supplies the reserve, the selected failure is a CM
-Pack/that face failure, not an unclassified endpoint obstruction.
+Pack/that Part/Field failure, not an unclassified endpoint obstruction.
 
 ## Boundary
 

@@ -244,7 +244,7 @@ selected carrier `(EUI.1)`.
 
 Failure of `(EUI.2)` gives a nonzero terminal atom in the selected source
 curve.  After same-witness CM admission and uniform service certification, that
-atom is consumed by the Pack/Part/Field route: the service faces require a
+atom is consumed by the Part/Field route: the service faces require a
 uniform participation/readout/field modulus that the atom violates.
 
 Before same-witness admission, the endpoint atom is not a forward-gold

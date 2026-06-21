@@ -293,7 +293,7 @@ second branch is a terminal time-face atom.  Finite \(L^1_s\) mass and terminal
 heat smoothing do not exclude `(DNA.21)`.
 
 After same-witness admission and service certification, `(DNA.21)` is a
-Part/Field face failure:
+Part/Field Part/Field failure:
 
 \[
 \boxed{
@@ -315,7 +315,7 @@ The exact terminal nonlinear Duhamel branch is now assembled as:
 \boxed{
 \text{projected-source or fixed finite-order atom}
 \Rightarrow
-\text{CM Pack/Part/Field face after same-witness admission.}
+\text{CM Part/Field face after same-witness admission.}
 }
 \tag{DNA.23}
 \]

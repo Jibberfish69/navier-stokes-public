@@ -325,4 +325,4 @@ This does not kill the heat-scale pulse. It says the surviving pulse must move
 into explicit high-frequency / high-tower growth unless it pays tensor action.
 The next closure must control that tower growth by source-square,
 critical-strain/CKN action, strict no-waste, profile production, or a CM
-Pack/Part/Field face.
+Part/Field face.

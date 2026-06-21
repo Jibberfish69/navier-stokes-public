@@ -97,7 +97,7 @@ written for the same solution on those windows, then
 \tag{FOC.5}
 \]
 
-These are not extra assumptions. They are the first two CM witness-face
+These are not extra assumptions. They are the first two CM witness
 alternatives for the same terminal object.
 
 ## 3. Retained Pack and Part force Field failure
@@ -236,4 +236,4 @@ X_m\text{ finite-rung Field-controlled}
 \]
 
 which is a contradiction. Therefore a terminal atom of any fixed finite-order
-selected carrier lands in the CM face split `(FOC.9)`.
+selected carrier lands in the CM Part/Field split `(FOC.9)`.
