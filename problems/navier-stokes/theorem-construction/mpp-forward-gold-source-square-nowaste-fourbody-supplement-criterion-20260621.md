@@ -443,9 +443,9 @@ overrun `(SSN.21)` may remain unpaid.
 Third, a proposed no-waste functional or square density may lack an unweighted
 tail budget on the same carrier.
 
-Fourth, the pressure-adapted no-residue route may fail because the selected
-Leray/pressure/cutoff/scale commutator cannot be written as viscosity plus
-capacity drop plus \(L^1\) tail without the square-source residual.
+Fourth, the participation-preserving no-residue route may fail because the
+selected full Hodge-Stokes packet cannot be written as viscosity plus capacity
+drop plus \(L^1\) tail without the square-source residual.
 
 Thus the exact production burden is:
 
@@ -457,7 +457,7 @@ Thus the exact production burden is:
 +
 \text{unweighted square/no-waste budget}
 \quad\text{or}\quad
-\text{pressure-adapted no-residue commutator payment.}
+\text{participation-preserving no-residue full-cycle payment.}
 }
 \tag{SSN.23}
 ```
@@ -487,7 +487,7 @@ It also sharpens the remaining branch:
 \ \vee\
 \text{missing unweighted budget}
 \ \vee\
-\text{failed no-residue pressure-adapted commutator payment.}
+\text{failed no-residue full Hodge-Stokes packet payment.}
 }
 \tag{SSN.25}
 ```
