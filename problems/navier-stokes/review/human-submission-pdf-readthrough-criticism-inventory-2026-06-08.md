@@ -127,7 +127,7 @@ Merged page defects:
 
 Actionable repair target:
 - Objective: make the no-third-branch theorem depend on a stated continuation
-  criterion: retained Pack plus retained Part plus one positive Field scale at
+  criterion: retained Field-window evidence plus retained Part plus one positive Field scale at
   depth above `s > 5/2` gives the same-solution `H^s` control needed to continue
   the classical solution past the alleged terminal time.
 - Filenames:
