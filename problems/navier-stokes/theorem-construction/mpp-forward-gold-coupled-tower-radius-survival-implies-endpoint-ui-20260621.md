@@ -205,10 +205,10 @@ So a true terminal selected-carrier time-face atom must break the coupled tower
 radius somewhere. It cannot coexist with a uniformly surviving positive
 mixed-tower radius.
 
-## 5. Normal-family consequence
+## 5. Jet-family consequence
 
-Uniform radius survival also gives the exact local compactness supplied by the
-tower. Define the local generating function
+Uniform radius survival also gives an exact bounded jet-generating family.
+Define
 
 \[
 \mathcal G_j(\zeta,z;s)
@@ -240,8 +240,8 @@ Cauchy--Schwarz and `(RSE.6)` give
 \tag{RSE.17}
 \]
 
-Thus the generated local translates are uniformly bounded on every smaller
-complex polydisc. By the compact embedding
+Thus the formal localized jet-generating family is uniformly bounded on every
+smaller complex polydisc. By the compact embedding
 
 \[
 H^\sigma_{\mathrm{loc}}\hookrightarrow H^{\sigma'}_{\mathrm{loc}},
@@ -250,11 +250,12 @@ H^\sigma_{\mathrm{loc}}\hookrightarrow H^{\sigma'}_{\mathrm{loc}},
 \tag{RSE.18}
 \]
 
-subsequences are compact in \(H^{\sigma'}_{\mathrm{loc}}\) on smaller spatial
-balls.
+subsequences of the generated \(H^\sigma\)-valued jets are compact in
+\(H^{\sigma'}_{\mathrm{loc}}\) on smaller spatial balls.
 
 This is the exact compactness supplied by tower-radius survival. It gives a
-local analytic normal-family compactness statement. It does not by itself give
+bounded local jet compactness statement. It does not by itself identify those
+jets with a single translated analytic profile, and it does not give
 stationarity, no-drift, source-residue evacuation, or a Landau-class profile.
 
 ## Verdict
