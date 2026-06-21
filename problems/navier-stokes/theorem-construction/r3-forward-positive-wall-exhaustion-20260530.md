@@ -129,4 +129,4 @@ The resulting face failure is passed through
 ClayCMContrapositiveEmbedding.A.
 ```
 
-Thus the umbrella theorem supplies a classified CM face witness on the same ledger. It preserves the route discipline that `Member(Q)` is downstream of the full Pack/Part/Field packet certificate.
+Thus the umbrella theorem supplies a classified CM face witness on the same ledger. It preserves the route discipline that `Member(Q)` is downstream of the full Pack/Part/Field witness-face record.

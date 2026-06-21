@@ -75,7 +75,7 @@ They do **not** mean upstream of the governing CM primitive
 | `OriginalSmoothData=>SourcePulseExclusion.A`, `AWG.A`, `SOURCE.NO-PULSE.A`, `MSC.Spill.NoPulse`, `QDrain.A`, `mu_*^{sing}=0` | Stronger source-side supplier presentations | Historically these sat under the source-pulse `Field` face. They are not the governing CM primitive and are not direct Pack/Part/Field face bridge or class-membership-direction bridges. |
 | `PCTP.5.C` in the averaged route | Downstream consumer of source-side control | The live use of `AWG.A / SOURCE.NO-PULSE.A` is as a downstream branch-native input eliminating `Jump_avg` on the averaged terminal-tail route. |
 | `TGC.A`, `AACT.Global.noJump`, `AVG.END.A`, `READ.COVER`, `Field.Read`, `DTC.Read`, `READ.END`, `PCTP.hard / TTU.A` | Strict downstream of the source-pulse branch theorem | These do not classify `Pack`, `Part`, or `Field`. They consume averaged terminal-tail production after source-pulse typing. |
-| `CMCert.A` plus first-exit witness envelope | Governing CM certificate direction, not part of this branch audit | The theorem-grade direction is `CM=>Member`; first class-exit has a Pack/Part/Field failure witness. The blunt converse `not CM=>not Member` is not installed. |
+| `CMCert.A` plus first-exit witness envelope | Governing CM witness-to-member direction, not part of this branch audit | The theorem-grade direction is `CM=>Member`; first class-exit has a Pack/Part/Field failure witness. The blunt converse `not CM=>not Member` is not installed. |
 
 ## Exact Consequences
 
@@ -123,7 +123,7 @@ The lane now has the following audited split:
 
 ```math
 \boxed{
-\text{Governing CM certificate: }CMCert.A\text{ installed; no blunt }not\text{-}CM\Rightarrow not\text{-}Member\text{ converse.}
+\text{Governing CM witness record: }CMCert.A\text{ installed; no blunt }not\text{-}CM\Rightarrow not\text{-}Member\text{ converse.}
 }
 ```
 

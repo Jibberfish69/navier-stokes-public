@@ -32,7 +32,7 @@ Critical L3 terminal concentration must first be synchronized to the same-fluid 
 \neg Pack_Q(\mathcal W).
 ```
 
-Assume Pack_Q survives. The terminal L3 mass must be represented through the same Duhamel, pressure, heat-ancestor, and nonlinear source ledger. If the selected L3 response cannot remain inside that same Navier-Stokes participation law, the Part service fails:
+Assume Pack_Q survives. The terminal L3 mass must be represented through the same Duhamel, pressure, heat-ancestor, and nonlinear source ledger. If the selected L3 response cannot remain inside that same Navier-Stokes participation law, the Part face fails:
 
 ```math
 \neg Part_{N,Q}(\mathcal W).

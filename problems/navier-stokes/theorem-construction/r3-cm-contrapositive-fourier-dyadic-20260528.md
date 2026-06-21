@@ -34,7 +34,7 @@ If the terminal dyadic packet cannot be localized on the selected same-fluid R3 
 \neg Pack_Q(\mathcal W).
 ```
 
-Assume Pack_Q survives. The dyadic packet must evolve under the same Navier-Stokes law. The nonlinear paraproduct, pressure term, commutator ledger, and viscous term must all refer to the same velocity-pressure solution. If this participation ledger detaches, the Part service fails:
+Assume Pack_Q survives. The dyadic packet must evolve under the same Navier-Stokes law. The nonlinear paraproduct, pressure term, commutator ledger, and viscous term must all refer to the same velocity-pressure solution. If this participation ledger detaches, the Part face fails:
 
 ```math
 \neg Part_{N,Q}(\mathcal W).
