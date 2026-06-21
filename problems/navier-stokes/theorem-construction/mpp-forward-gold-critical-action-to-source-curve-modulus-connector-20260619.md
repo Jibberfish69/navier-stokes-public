@@ -310,7 +310,7 @@ and
 \Longrightarrow
 \text{terminal atom}
 \Longrightarrow
-\text{Part/Field Part/Field failure.}
+\text{Part/Field failure.}
 }
 \tag{CAM.24}
 ```

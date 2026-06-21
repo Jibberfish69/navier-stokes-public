@@ -187,7 +187,7 @@ tree:
 \boxed{
 \text{retained active-height blowup}
 \Longrightarrow
-\text{Part/Field Part/Field failure}.
+\text{Part/Field failure}.
 }
 \tag{AHF.16}
 ```

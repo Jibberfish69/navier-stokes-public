@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-annular-share-nested-core-reduction-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-terminal-source-curve-pass-or-partfield-exit-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-pulse-same-witness-admission-recheck-20260620.md
-  downstream_consequence: "The fixed-chain no-annular-share branch should not be respawned as a separate gold supplier. It is either closed forward-gold by a same-carrier annular-share/no-waste/source-square/CKN/saturation/profile theorem, or consumed CM-facing as a Part/Field Part/Field failure after same-witness admission. Center/frame/gauge drift remains outside this assembly and belongs to no-drift/profile production."
+  downstream_consequence: "The fixed-chain no-annular-share branch should not be respawned as a separate gold supplier. It is either closed forward-gold by a same-carrier annular-share/no-waste/source-square/CKN/saturation/profile theorem, or consumed CM-facing as a Part/Field failure after same-witness admission. Center/frame/gauge drift remains outside this assembly and belongs to no-drift/profile production."
 ---
 
 # MPP Forward-Gold Annular Share Pass Or Part/Field Assembly
@@ -298,7 +298,7 @@ after same-witness admission.
 
 This prevents the no-share branch from being recycled as a separate forward-gold
 supplier.  It is either closed by a real same-carrier annular-share/no-waste
-theorem, or it is a CM-facing Part/Field Part/Field failure on the same admitted
+theorem, or it is a CM-facing Part/Field failure on the same admitted
 witness.
 
 ## Boundary

@@ -63,7 +63,7 @@ or
 ```math
 \text{CM-test admission}
 +
-\text{first Part/Field Part/Field failure}.
+\text{first Part/Field failure}.
 \tag{IRP.5}
 ```
 

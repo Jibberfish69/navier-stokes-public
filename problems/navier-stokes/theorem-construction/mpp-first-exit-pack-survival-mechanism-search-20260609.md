@@ -101,7 +101,7 @@ from original smooth data.
 `SupportOnlyRowsCannotServeAsFiniteBreakdownWitness.A` excludes support-only
 rows from secretly being the finite breakdown witness. It does not exclude the
 proof-bearing same-solution terminal record from realizing a first
-Part/Field Part/Field failure. The proof-bearing face still needs a theorem
+Part/Field failure. The proof-bearing face still needs a theorem
 that feeds `NoGenuineExitFromSmoothData.A`.
 
 ## Search result

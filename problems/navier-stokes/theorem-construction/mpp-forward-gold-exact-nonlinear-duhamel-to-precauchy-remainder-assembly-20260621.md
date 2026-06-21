@@ -293,7 +293,7 @@ second branch is a terminal time-face atom.  Finite \(L^1_s\) mass and terminal
 heat smoothing do not exclude `(DNA.21)`.
 
 After same-witness admission and service certification, `(DNA.21)` is a
-Part/Field Part/Field failure:
+Part/Field failure:
 
 \[
 \boxed{

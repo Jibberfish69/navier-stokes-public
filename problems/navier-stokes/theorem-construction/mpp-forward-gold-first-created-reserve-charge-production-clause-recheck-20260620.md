@@ -242,7 +242,7 @@ or, after the retained pulse is admitted as the same terminal witness,
 
 ```math
 \boxed{
-\text{Part/Field Part/Field failure.}
+\text{Part/Field failure.}
 }
 \tag{FCR.20}
 ```

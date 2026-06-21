@@ -8,7 +8,7 @@ Exactness rework correction, 2026-06-18: the negative result below remains
 valid, but the old "correct direct stack" toward `HeightFluxControl.A` is
 historical supplier architecture.  Current live surfaces require a retained
 source/height branch to be paid in the same ledger or admitted to the CM test
-with a first Part/Field Part/Field failure before it has proof force.
+with a first Part/Field failure before it has proof force.
 
 Purpose: pursue `FirstHeightCreationDichotomy.A` to the end and decide whether
 it is a real theorem atom below `HeightFluxControl.A`, or only a repackaging of

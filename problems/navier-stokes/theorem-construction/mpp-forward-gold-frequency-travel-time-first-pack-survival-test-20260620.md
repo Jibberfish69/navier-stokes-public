@@ -214,5 +214,5 @@ live edge says it is:
 \[
 \text{same-ledger payment}
 \quad\text{or}\quad
-\text{CM-test admission plus first Part/Field Part/Field failure}.
+\text{CM-test admission plus first Part/Field failure}.
 \]
