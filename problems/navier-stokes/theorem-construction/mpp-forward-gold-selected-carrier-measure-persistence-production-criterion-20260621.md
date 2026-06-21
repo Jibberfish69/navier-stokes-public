@@ -356,13 +356,13 @@ The remaining Navier-Stokes statement is the conjunction:
 \tag{SCM.26}
 ```
 
-This tightness clause is now decomposed exactly: it is paid by controlled
+The tightness clause is now decomposed exactly: it is paid by controlled
 domain or paid exterior/gauge spill, finite or compact label custody or paid
 moving-selector escape, finite or summable tower-rung tail, and same-carrier UI
 for small moving/collar defects.  If tightness fails, one of those escape
 channels carries positive selected mass.
 
-and
+The second remaining clause is:
 
 ```math
 \boxed{
