@@ -2,7 +2,7 @@
 theorem_id: forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621
 status: supplement-criterion-proved-source-square-nowaste-and-no-residue-skew-production-open
 logical_landing_node: source_square_nowaste_fourbody_supplement_criterion
-edge_effect: "Assembles the source-square / strict-no-waste supplement in the upgraded four-body loop. If the actual native selected positive carrier is dominated on the same carrier by a square-controlled density plus legal residue, and that square density has an unweighted terminal budget, then the selected carrier has same-carrier spacetime UI and no terminal atom. Equivalently, a strict no-waste Lyapunov drop with the selected critical action gives the same unweighted reserve. The pressure-adapted no-residue skew criterion is now attached as the sharper route: use a Leray/pressure-adapted incompressible selector to reduce the nonlinear term to a selector/pressure commutator, then pay that commutator by viscosity, scale-capacity drop, and L1 tail with no C_epsilon Theta_sigma^2 E_sigma residue. This proves supplement/criterion implications, not the Navier-Stokes production theorem."
+edge_effect: "Assembles the source-square / strict-no-waste supplement in the upgraded four-body loop. If the actual native selected positive carrier is dominated on the same carrier by a square-controlled density plus legal residue, and that square density has an unweighted terminal budget, then the selected carrier has same-carrier spacetime UI and no terminal atom. Equivalently, a strict no-waste Lyapunov drop with the selected critical action gives the same unweighted reserve. The no-residue skew criterion is now attached in corrected form: Leray projection is only one compatibility channel, while the selected object is a full Hodge-Stokes balance packet carrying transport, pressure, viscosity, time, divergence, cutoff/collar, scale, and signed-saturation channels. The transport channel has an exact skew commutator identity; the production theorem must pay the whole packet by viscosity, scale-capacity drop, and L1 tail with no C_epsilon Theta_sigma^2 E_sigma residue. This proves supplement/criterion implications, not the Navier-Stokes production theorem."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-precauchy-to-gauge-quotient-tower-bridge-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-source-square-carrier-domination-failure-split-20260621.md
@@ -11,6 +11,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-source-square-reserve-heat-scale-direct-test-20260619.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-upgraded-four-body-current-frontier-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md
 ---
 
 # Source-Square / No-Waste Four-Body Supplement Criterion
