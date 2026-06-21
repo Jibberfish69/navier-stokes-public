@@ -2,7 +2,7 @@
 theorem_id: forward-gold-native-precauchy-to-gauge-quotient-tower-bridge-test-20260621
 status: direct-bridge-fails-exact-supplement-list-installed
 logical_landing_node: native_precauchy_to_gauge_quotient_tower_bridge_test
-edge_effect: "Tests the newly exposed bridge from the native positive pre-Cauchy/source selector to the gauge-quotient finite tower carrier. The direct bridge fails: the main native carrier is trilinear, of the form chi |W|^2 [e.Sigma.e]_+, while the quotient tower/parabolic drain is quadratic. A scaling countertest gives source/drain ratio proportional to amplitude, so no amplitude-free domination by D_Q^w can hold. The bridge closes only with an additional same-carrier supplement. The finite-order amplitude/Field supplement is now separately proved: bounded same-carrier amplitude lowers the trilinear carrier to paid quotient-tower drain, while unbounded retained finite-rung amplitude is Field-facing after same-witness admission. The remaining unresolved supplements are critical-density control, source-square/no-waste control, signed polar saturation, rigid source-residue production, or legal/charged full pre-Cauchy remainder reduction."
+edge_effect: "Tests the newly exposed bridge from the native positive pre-Cauchy/source selector to the gauge-quotient finite tower carrier. The direct bridge fails: the main native carrier is trilinear, of the form chi |W|^2 [e.Sigma.e]_+, while the quotient tower/parabolic drain is quadratic. A scaling countertest gives source/drain ratio proportional to amplitude, so no amplitude-free domination by D_Q^w can hold. The bridge closes only with an additional same-carrier supplement. The finite-order amplitude/Field supplement is separately proved. The source-square/no-waste supplement is also assembled as an exact criterion: same-carrier domination plus unweighted square/no-waste budget gives UI/no terminal atom, while production remains open at identity failure, coefficient overrun, or missing unweighted budget. The remaining unresolved supplements are critical-density control, signed polar saturation, rigid source-residue production, or legal/charged full pre-Cauchy remainder reduction."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-gauge-quotient-tower-carrier-drain-production-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-precauchy-main-carrier-consumer-boundary-20260621.md
@@ -10,6 +10,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-current-positive-activity-domination-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-local-positive-selection-signed-current-gap-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-field-amplitude-to-quotient-tower-supplement-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md
 ---
 
 # Native Pre-Cauchy to Gauge-Quotient Tower Bridge Test
@@ -267,6 +268,11 @@ Loss_{\rm legal},
 and that reserve has an unweighted log-scale budget, the bridge closes through
 that reserve rather than through pure quadratic drain.
 
+This supplement is now assembled in
+`mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md`.
+The unproved production inputs are exactly same-carrier identity, selected
+coefficient-overrun payment, and the unweighted square/no-waste budget.
+
 ### 3.4. Signed polar saturation
 
 If the selected positive carrier keeps its signed negative partner, then the
@@ -379,10 +385,12 @@ The exact surviving bridge is:
 \tag{NQB.23}
 ```
 
-After the amplitude supplement note, the unresolved gold-production suppliers
-inside `(NQB.23)` are critical-density budget, source-square/no-waste control,
-signed saturation, rigid profile production, or full pre-Cauchy remainder
-reduction.  The four-body program still stays intact: tower drain pays
+After the amplitude and source-square/no-waste supplement notes, the unresolved
+gold-production suppliers inside `(NQB.23)` are critical-density budget, signed
+saturation, rigid profile production, or full pre-Cauchy remainder reduction,
+with the source-square/no-waste route still open exactly at same-carrier
+identity, coefficient-overrun, or missing unweighted-budget production.  The
+four-body program still stays intact: tower drain pays
 quadratic gauge-quotient activity; participation supplies the signed source;
 compactness must retain the same positive/negative carrier; geometry must
 return the same packet; and the native cubic source selector needs one of the
