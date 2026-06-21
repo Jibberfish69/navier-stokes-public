@@ -1,14 +1,15 @@
 ---
 theorem_id: forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621
-status: algebraic-skew-reduction-proved-no-residue-commutator-production-open
+status: algebraic-skew-reduction-proved-transported-selector-production-open
 logical_landing_node: pressure_adapted_no_residue_skew_coercivity
-edge_effect: "Develops the pressure-adapted no-residue route for deleting the current square-source residual. With a same-carrier pressure-adapted incompressible selector A_sigma=S_sigma P and W_sigma=A_sigma u, the mixed interaction decomposes exactly into the incompressible skew term plus the selector/Leray/pressure/cutoff/scale commutator. The skew term vanishes in the closed localized inner product, so the square-source residual is created only when the commutator is estimated crudely by size. The proposed upgrade is the no-residue commutator theorem: the selected positive commutator is paid by epsilon-viscosity, a sigma-capacity drop, and an L1 tail, with no C_epsilon Theta_sigma^2 E_sigma remainder. This would give a same-carrier unweighted reserve and close the source-square/no-waste supplement through full-cycle skew coercivity. The note proves the algebraic reduction and the criterion implication; it does not prove the no-residue commutator production theorem."
+edge_effect: "Develops the pressure-adapted no-residue route for deleting the current square-source residual. With a same-carrier pressure-adapted incompressible selector A_sigma=S_sigma P and W_sigma=A_sigma u, the mixed interaction decomposes exactly into the incompressible skew term plus the selector/Leray/pressure/cutoff/scale commutator. The skew term vanishes in the closed localized inner product, so the square-source residual is created only when the commutator is estimated crudely by size. The proposed upgrade is the no-residue commutator theorem: the selected positive commutator is paid by epsilon-viscosity, a sigma-capacity drop, and an L1 tail, with no C_epsilon Theta_sigma^2 E_sigma remainder. The transported-selector test adds the concrete mechanism: for G_sigma=A_sigma^*A_sigma, the commutator is -1/2 <(u.grad G_sigma)u,u>, so a material/cotangent transported selector can turn it into scale-capacity/geometry motion. This would give a same-carrier unweighted reserve and close the source-square/no-waste supplement through full-cycle skew coercivity. The note proves the algebraic reduction and the criterion implication; it does not prove the transported pressure-adapted selector production theorem."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-precauchy-to-gauge-quotient-tower-bridge-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-local-positive-precauchy-source-carleson-direct-attempt-note.md
   - problems/navier-stokes/theorem-construction/mpp-terminal-skew-localization-ledger-direct-attempt-20260505.md
   - problems/navier-stokes/theorem-construction/mpp-localized-skew-current-theorem-grade-audit-20260505.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-transported-pressure-adapted-selector-commutator-potential-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-upgraded-four-body-current-frontier-20260621.md
 ---
 
@@ -261,6 +262,49 @@ corrector:
 The selected positive part \([\mathcal C_\sigma]_{\mathcal S,+}\) is essential.
 The theorem has to apply after the actual terminal selector is chosen, not only
 to the global signed sum.
+
+The transported-selector test identifies a concrete way `(PAN.16)` could be
+proved.  With
+
+```math
+G_\sigma=A_\sigma^\ast A_\sigma,
+\qquad
+L=u\cdot\nabla,
+\tag{PAN.18a}
+```
+
+the exact metric identity is
+
+```math
+\boxed{
+\langle A_\sigma L u,A_\sigma u\rangle
+=
+-{1\over2}\langle (LG_\sigma)u,u\rangle.
+}
+\tag{PAN.18b}
+```
+
+Thus the commutator is the material derivative of the selector metric.  A
+fixed dyadic selector turns \(LG_\sigma\) into the active strain/source-square
+residue.  A transported pressure-adapted selector would instead satisfy
+
+```math
+LG_\sigma=\partial_\sigma K_\sigma+R_\sigma,
+\tag{PAN.18c}
+```
+
+where the \(\partial_\sigma K_\sigma\) term gives the capacity drop
+\(-\partial_\sigma\Phi_\sigma\), and \(R_\sigma\) is viscous-absorbable or
+\(L^1_\sigma\).
+
+So the concrete production target behind `(PAN.16)` is now
+
+```math
+\boxed{
+\text{TransportedPressureAdaptedSelector.A.}
+}
+\tag{PAN.18d}
+```
 
 With `(PAN.16)`, the native selected positive activity is paid if it is
 identified with this commutator carrier:
