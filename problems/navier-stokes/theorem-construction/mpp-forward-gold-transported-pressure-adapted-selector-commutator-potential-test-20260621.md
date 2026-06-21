@@ -225,7 +225,7 @@ shape
 This is the geometric meaning of the transport-channel part of no-residue
 absorption.
 
-## 4. Viscosity and pressure placement
+## 4. Full Hodge-Stokes channel placement
 
 The normalized Navier-Stokes equation is
 
@@ -234,25 +234,27 @@ The normalized Navier-Stokes equation is
 \tag{TPC.17}
 ```
 
-After applying \(A_\sigma\), the pressure term is not simply zero unless the
-selector is globally Leray-compatible.  The pressure-adapted route requires
+After selecting the packet, the pressure term is not discarded.  It is carried
+as its own channel
 
 ```math
-\langle A_\sigma\nabla p,A_\sigma u\rangle
+\langle S_\sigma^p\nabla p,A_\sigma^{tr}u\rangle
 \tag{TPC.18}
 ```
 
-to be either zero by Leray compatibility, part of the pressure-gauge/cutoff
-legal ledger, or included in \(R_\sigma\) with \(L^1_\sigma\) tail control.
+together with its conormal, gauge, cutoff, and elliptic compatibility records.
+Leray compatibility may cancel part of `(TPC.18)`, but the cancellation must
+be recorded inside the full packet rather than used to delete the pressure
+channel before terminal selection.
 
 The viscosity term gives the absorbable positive payment:
 
 ```math
-\nu\langle A_\sigma\Delta u,A_\sigma u\rangle
+\nu\langle S_\sigma^\nu\Delta u,A_\sigma^{tr}u\rangle
 =
--\nu\|\nabla A_\sigma u\|_2^2
+-\nu D_\sigma^{sel}
 +
-\text{selector/commutator remainder}.
+\text{viscous selector/cutoff remainder}.
 \tag{TPC.19}
 ```
 
@@ -272,11 +274,11 @@ T_\sigma\in L^1_\sigma.
 
 Again, no \(C_\varepsilon\Theta_\sigma^2E_\sigma\) term is allowed.
 
-There is one more exact bookkeeping point.  If \(G_\sigma\) also depends on
-renormalized time \(s\), then the selected energy
+There is one more exact bookkeeping point.  If \(G_\sigma^{tr}\) also depends
+on renormalized time \(s\), then the selected transport energy
 
 ```math
-E_\sigma(s)={1\over2}\langle G_\sigma(s)u(s),u(s)\rangle
+E_\sigma^{tr}(s)={1\over2}\langle G_\sigma^{tr}(s)u(s),u(s)\rangle
 \tag{TPC.20a}
 ```
 
@@ -284,16 +286,21 @@ contains the full Heisenberg combination
 
 ```math
 \boxed{
-\partial_sG_\sigma+[L,G_\sigma].
+\partial_sG_\sigma^{tr}+[L,G_\sigma^{tr}].
 }
 \tag{TPC.20b}
 ```
 
-Thus the production theorem may use the stronger transported metric equation
+Thus the production theorem may use the stronger transported full-channel
+equation
 
 ```math
 \boxed{
-\partial_sG_\sigma+[L,G_\sigma]
+\partial_sG_\sigma^{tr}+[L,G_\sigma^{tr}]
++\mathcal P_\sigma
++\mathcal V_\sigma
++\mathcal I_\sigma
++\mathcal B_\sigma
 =
 \partial_\sigma K_\sigma+R_\sigma.
 }
@@ -302,7 +309,9 @@ Thus the production theorem may use the stronger transported metric equation
 
 For a time-independent frozen selector, this reduces to `(TPC.13)`.  For a
 materially transported selector, `(TPC.20c)` is the exact equation that moves
-the principal strain commutator into scale-capacity/geometry motion.
+the principal strain commutator into scale-capacity/geometry motion while
+keeping pressure, viscosity, incompressibility, and boundary/cutoff channels
+visible.
 
 ## 5. Relation to Body IV
 
@@ -337,7 +346,7 @@ The exact production theorem behind `(TPC.16)` is:
 
 ```math
 \boxed{
-\text{TransportedPressureAdaptedSelector.A}
+\text{TransportedFullHodgeStokesSelector.A}
 }
 \tag{TPC.23}
 ```
@@ -346,21 +355,24 @@ It requires all of the following on the retained terminal same-carrier family:
 
 ```math
 \boxed{
-\text{self-adjoint positive selector metric }G_\sigma=A_\sigma^\ast A_\sigma;
+\text{self-adjoint positive transport metric }
+G_\sigma^{tr}=(A_\sigma^{tr})^\ast A_\sigma^{tr};
 }
 \tag{TPC.24}
 ```
 
 ```math
 \boxed{
-\text{Leray/pressure compatibility after localization and gauge choice;}
+\text{full Hodge-Stokes packet compatibility after localization and gauge choice;}
 }
 \tag{TPC.25}
 ```
 
 ```math
 \boxed{
-\partial_sG_\sigma+[L,G_\sigma]=\partial_\sigma K_\sigma+R_\sigma
+\partial_sG_\sigma^{tr}+[L,G_\sigma^{tr}]
++\mathcal P_\sigma+\mathcal V_\sigma+\mathcal I_\sigma+\mathcal B_\sigma
+=\partial_\sigma K_\sigma+R_\sigma
 \text{ with }R_\sigma\text{ viscous-absorbable or }L^1_\sigma;
 }
 \tag{TPC.26}
