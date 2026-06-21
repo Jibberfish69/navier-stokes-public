@@ -41,9 +41,7 @@ same-witness implication:
 
 \[
 \boxed{
-Pack_Q
-+
-Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 +
 CritConc_{L^5}^{tensor}
 +

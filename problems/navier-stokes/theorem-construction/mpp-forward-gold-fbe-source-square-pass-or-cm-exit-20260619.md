@@ -100,7 +100,7 @@ The scale-critical face diagnostic already proves
 The retained branch is the sharper last case:
 
 \[
-Pack_Q+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 +\neg_{\mathrm{sel}}\text{ScaleCriticalTreeCarleson.A}
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.

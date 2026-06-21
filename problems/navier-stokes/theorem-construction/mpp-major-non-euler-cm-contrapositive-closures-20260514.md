@@ -69,7 +69,7 @@ Therefore:
 On the retained branch:
 
 ```math
-Pack_Q+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 +\neg_{sel} ScaleCriticalTreeCarleson.A(Q)
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
@@ -113,7 +113,7 @@ Therefore:
 On the retained branch:
 
 ```math
-Pack_Q+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 +ZeroHeatTimeSourceResidue.A
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
@@ -164,7 +164,7 @@ This closes retained amplitude as a major CM boundary surface.  It does not
 install the stronger implication:
 
 ```math
-Pack_Q+Part_{N,Q}\Longrightarrow RetainedFaceAmplitudeGain.A.
+Part_{N,Q} plus Field-window evidence\Longrightarrow RetainedFaceAmplitudeGain.A.
 ```
 
 The missing piece there is whether the current `Pack_Q` already includes the
@@ -334,7 +334,7 @@ If the failed square reserve is selected and retained, it is exactly the
 Carleson source-reserve failure already sorted:
 
 ```math
-Pack_Q+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 +\neg_{sel} ScaleCriticalTreeCarleson.A
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.

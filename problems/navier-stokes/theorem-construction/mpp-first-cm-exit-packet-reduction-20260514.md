@@ -24,7 +24,7 @@ CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 The installed continuation packet says:
 
 ```math
-Pack_Q+Part_{N,Q}+Field_{N,r,Q}
+Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}
 \Longrightarrow
 \sup_{t<T_*}\|u(t)\|_{H^s}<\infty
 \Longrightarrow

@@ -89,7 +89,7 @@ This readout is supplied by the installed endpoint-to-readout chain:
 $$
 CM_{N,r,Q}
 \Rightarrow
-Field_{N,r,Q}+Pack_Q+Part_{N,Q}
+Field_{N,r,Q}+Part_{N,Q} plus Field-window evidence
 \Rightarrow
 \text{finite pointwise tower/coherence readout on the retained cover},
 $$

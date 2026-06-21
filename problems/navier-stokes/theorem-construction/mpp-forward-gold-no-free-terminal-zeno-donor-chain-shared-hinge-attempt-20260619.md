@@ -440,8 +440,7 @@ The installed Zeno atom diagnostic says
 On a retained same-fluid branch, the sharper Field statement is
 
 ```math
-Pack_Q
-+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 +\text{ZeroHeatTimeSourceResidue.A}
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.

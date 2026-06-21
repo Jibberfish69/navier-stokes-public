@@ -15,7 +15,7 @@ This note tests the cleaner route from a surviving native singular source residu
 Combined with the installed retained diagnostic,
 
 ```math
-Pack_Q+Part_{N,Q}+\neg_{sel}ScaleCriticalTreeCarleson.A
+Part_{N,Q} plus Field-window evidence+\neg_{sel}ScaleCriticalTreeCarleson.A
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q},
 ```
@@ -130,7 +130,7 @@ Combining the bridge with the installed retained diagnostic gives
 
 ```math
 \boxed{
-Pack_Q+Part_{N,Q}+\mu_{\ast}^{sing}>0
+Part_{N,Q} plus Field-window evidence+\mu_{\ast}^{sing}>0
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
 }
@@ -147,7 +147,7 @@ Indeed,
 and the installed diagnostic gives
 
 ```math
-Pack_Q+Part_{N,Q}+\neg_{sel}ScaleCriticalTreeCarleson.A
+Part_{N,Q} plus Field-window evidence+\neg_{sel}ScaleCriticalTreeCarleson.A
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
 ```

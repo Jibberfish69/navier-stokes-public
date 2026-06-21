@@ -161,7 +161,7 @@ or
 ```math
 EulerSmoothToNSCM.A:
 \quad
-EulerSmooth\Longrightarrow Pack_Q+Part_{N,Q}+Field_{N,r,Q}\text{ for }NS_\nu,
+EulerSmooth\Longrightarrow Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}\text{ for }NS_\nu,
 ```
 
 or

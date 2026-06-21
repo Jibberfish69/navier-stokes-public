@@ -64,7 +64,7 @@ For the native singular residue branch:
 The installed diagnostic gives
 
 ```math
-Pack_Q+Part_{N,Q}+\neg_{sel}ScaleCriticalTreeCarleson.A
+Part_{N,Q} plus Field-window evidence+\neg_{sel}ScaleCriticalTreeCarleson.A
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
 ```
@@ -81,7 +81,7 @@ ZeroHeatTimeSourceResidue.A.
 The installed diagnostic gives
 
 ```math
-Pack_Q+Part_{N,Q}+ZeroHeatTimeSourceResidue.A
+Part_{N,Q} plus Field-window evidence+ZeroHeatTimeSourceResidue.A
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
 ```
@@ -163,7 +163,7 @@ The honest CM turnover is already licensed:
 
 ```math
 \boxed{
-\text{selected retained source-wall failure}+Pack_Q+Part_{N,Q}
+\text{selected retained source-wall failure}+Part_{N,Q} plus Field-window evidence
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
 }

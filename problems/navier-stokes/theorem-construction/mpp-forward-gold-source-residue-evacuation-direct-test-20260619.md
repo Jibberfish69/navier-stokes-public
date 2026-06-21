@@ -319,7 +319,7 @@ unless a positive-radius retained carrier is supplied.  Under retained
 failure:
 
 ```math
-Pack_Q+Part_{N,Q}+\text{ZeroHeatTimeSourceResidue.A}
+Part_{N,Q} plus Field-window evidence+\text{ZeroHeatTimeSourceResidue.A}
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
 \tag{SRE.26}
