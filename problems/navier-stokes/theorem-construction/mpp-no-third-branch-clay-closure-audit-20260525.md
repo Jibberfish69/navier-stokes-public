@@ -20,13 +20,13 @@ The CM contrapositive move is role-typed:
 ```text
 O_fail
 => CM-test-admissible terminal obstruction
-=> derived first Part/Field Part/Field failure
+=> derived first Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
 The phrase "capable of nonsmoothness" is not itself a proof of `Exit(Q)`. It is
-only the reason the failure branch must be tested against the CM witnesss.
-The exit conclusion is earned only after the Part/Field Part/Field failure has
+only the reason the failure branch must be tested against the CM witnesses.
+The exit conclusion is earned only after the Part/Field failure has
 actually been derived.
 
 The complementary branch is:
@@ -144,7 +144,7 @@ NoThirdInClassBranch.A
 There is no branch which both:
 
 1. remains a legal same-solution continuation branch; and
-2. carries the derived Part/Field Part/Field failure used as the finite
+2. carries the derived Part/Field failure used as the finite
    nonsmoothness witness.
 
 ### Proof
@@ -171,7 +171,7 @@ This proves that a referee cannot demand a third object of the following form:
 
 ```text
 a terminal same-solution branch that remains inside Member(Q)
-but also carries the Part/Field Part/Field failure used to block continuation.
+but also carries the Part/Field failure used to block continuation.
 ```
 
 Such an object is ruled out by the membership readout on the pass side and by

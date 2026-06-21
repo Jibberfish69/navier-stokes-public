@@ -190,7 +190,7 @@ R_N(W)
 Charge_N^{native}(W)+o_N(1),
 ```
 
-where the native charge must land in one of the CM witnesss:
+where the native charge must land in one of the CM witnesses:
 
 ```text
 Pack-gain / packing detachment,

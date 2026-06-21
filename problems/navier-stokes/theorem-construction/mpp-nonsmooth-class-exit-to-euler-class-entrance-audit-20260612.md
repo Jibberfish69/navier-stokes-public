@@ -70,7 +70,7 @@ above base `Member_E`.
    `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/non-euler-surface-face-sweep-index-20260514.yaml:1`.
 
 4. The diagnostic map states the same boundary at row level: only Pack, Part,
-   and Field are CM witnesss; source-wall and readout notes are support
+   and Field are CM witnesses; source-wall and readout notes are support
    until a selected retained branch lands in one of those faces. It reports
    `Field_{N,r,Q}: 865`, `Pack_Q: 340`, `Part_{N,Q}: 346`, and
    `no_independent_face: 585` face-break readings.

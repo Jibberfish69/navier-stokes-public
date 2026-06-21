@@ -19,7 +19,7 @@ The proof program is the CM contrapositive:
 ```text
 finite Clay breakdown object
 => canonical same-solution terminal obstruction
-=> Part/Field Part/Field failure
+=> Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
@@ -95,6 +95,6 @@ entry, not as a fresh frontier, missing theorem, or new proof obligation.
 
 The remaining work is Clay-ready proof assembly and acceptance-level exposition
 of the installed terminal CM classification. The write-up must make clear that
-terminal Part/Field Part/Field failure is the CM contrapositive witness
+terminal Part/Field failure is the CM contrapositive witness
 supporting `Exit(Q):=not Member(Q)`, without inventing a positive smoothness
 deletion target, a preterminal-reflection target, or a new obstruction label.

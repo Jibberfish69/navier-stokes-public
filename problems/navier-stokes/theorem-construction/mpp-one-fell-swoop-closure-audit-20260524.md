@@ -28,7 +28,7 @@ the CM class:
 ```text
 failed obstruction capable of non-smoothness
 => canonical same-solution terminal obstruction
-=> Part/Field Part/Field failure
+=> Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 

@@ -14,7 +14,7 @@ NoProofBearingFirstFaceFailureFromOriginalSmoothData.A.
 ```
 
 Plain meaning: the same-solution terminal record extracted from original smooth
-data cannot be a proof-bearing first Part/Field Part/Field failure.
+data cannot be a proof-bearing first Part/Field failure.
 
 This is the right public question. It is not yet a usable next theorem unless it
 is reduced to a smaller proof burden.

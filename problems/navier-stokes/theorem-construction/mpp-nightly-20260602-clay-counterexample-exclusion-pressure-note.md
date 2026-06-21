@@ -35,12 +35,12 @@ SourcePulseExclusion.A, NativeSourceAC.A, or any positive no-pulse supplier.
 3. `mpp-positive-obstruction-pass-exit-cm-engine-20260525.md` installs the
    pass/fail engine: the pass side is the `Member(Q)` continuation side, and
    the fail side earns `Exit(Q)` only through CM-test entry plus a concrete
-   Part/Field Part/Field failure.
+   Part/Field failure.
 4. `mpp-no-third-branch-clay-closure-audit-20260525.md` rules out an in-class
    branch that both keeps `Member(Q)` and carries the derived Part/Field failure.
 5. `mpp-clay-terminal-witness-invalidation-20260523.md` proves that a
    CM-test-admissible Clay terminal object enters the same-fluid CM terminal
-   packet tree and is exhausted by a first Part/Field Part/Field failure.
+   packet tree and is exhausted by a first Part/Field failure.
 
 ## Pressure Test
 
@@ -128,7 +128,7 @@ directly, with three clauses:
 1. Clay target-fidelity clause: the witness is a same-solution finite terminal
    obstruction, not an external bad object.
 2. CM exhaustion clause: the witness enters the same-fluid terminal tree and
-   declares its first Part/Field Part/Field failure.
+   declares its first Part/Field failure.
 3. Alternative-exhaustion clause: after Part/Field failure, the object is not a
    legal `Member(Q)` continuation branch; the pass branch is the only in-class
    continuation branch.

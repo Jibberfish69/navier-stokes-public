@@ -53,7 +53,7 @@ can be promoted:
 2. `CM-test admission`: a finite terminal obstruction has entered the same-fluid
    CM terminal packet test. This is admission only; it is not yet a face
    failure.
-3. `Part/Field Part/Field failure`: the admitted fail branch has a first failed
+3. `Part/Field failure`: the admitted fail branch has a first failed
    witness, in Pack-out-of-CM audited order.
 4. `supplier quarantine`: the object is positive source-control, visibility,
    no-free-sink, or readout support without both CM-test admission and a derived
@@ -65,9 +65,9 @@ can be promoted:
 | --- | --- | --- |
 | Paid same-ledger reserve service, visible active-height service, or any lawful retained service that keeps the same obstruction on the continuation side | pass-side nonvacuity | This is the `O_pass` side of the pass/exit engine. It may yield `Member(Q)` through the installed retained services, but it is not a fail-branch face theorem. |
 | A finite terminal source-reserve obstruction after Clay terminal witness entry and canonical terminal packet capture | CM-test admission | The admitted object is testable by the CM participation-field record grammar. Admission still requires a first-Part/Field derivation before it supports `Exit(Q)`. |
-| Terminal zero-radius source residue, zero-scale donor ancestry, or selected unpaid infinite donor-refill tree | Part/Field Part/Field failure: first Part/Field is `not Pack_Q` | The Field-certification theorem and donor-refill notes place zero-radius and unpaid infinite donor ancestry at the carrier gate. Field/Jump language is downstream readout after Pack has already failed. |
+| Terminal zero-radius source residue, zero-scale donor ancestry, or selected unpaid infinite donor-refill tree | Part/Field failure: first Part/Field is `not Pack_Q` | The Field-certification theorem and donor-refill notes place zero-radius and unpaid infinite donor ancestry at the carrier gate. Field/Jump language is downstream readout after Pack has already failed. |
 | Retained positive-scale first-created native donor-square reserve surplus | supplier quarantine | The May 25 direct attempt isolates this as the unproved charge object. Current notes do not prove same-ledger payment, CM-test admission plus first Part/Field, or a genuine in-class nonsmooth third branch. |
-| `ZeroMomentReserveVisibility.A`, `SignedPairReserveVisibility.A`, and forward no-free-sink / active-height visibility demands | supplier quarantine | These block the positive-forward visibility theorem. They become CM-live only after the branch is admitted as a finite terminal obstruction and a first Part/Field Part/Field failure is derived. |
+| `ZeroMomentReserveVisibility.A`, `SignedPairReserveVisibility.A`, and forward no-free-sink / active-height visibility demands | supplier quarantine | These block the positive-forward visibility theorem. They become CM-live only after the branch is admitted as a finite terminal obstruction and a first Part/Field failure is derived. |
 
 ## Exact Burden
 
