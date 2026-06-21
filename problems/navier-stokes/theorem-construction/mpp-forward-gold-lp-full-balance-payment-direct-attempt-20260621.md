@@ -1,8 +1,8 @@
 ---
 theorem_id: forward-gold-lp-full-balance-payment-direct-attempt-20260621
-status: direct-attempt-reduces-to-full-tuple-channel-coercivity
+status: direct-attempt-reduces-to-channel-coercivity-then-trace-ac-or-strict-nowaste
 logical_landing_node: lp_full_balance_payment_direct_attempt
-edge_effect: "Tests whether LPFullBalancePayment.A is produced by the dyadic full-balance identity itself. The answer is no. The identity preserves the full participation tuple and prevents scalar source-square pricing, but it only reallocates selected positive transport activity into the time, pressure, viscosity, incompressibility, and legal channels. To become an unweighted reserve, those channel readings need a same-carrier coercive budget. Without that additional theorem, the terminal Zeno donor chain can remain as time-face jump, pressure conormal memory, noncoercive viscous pairing, orientation/saturation defect, or legal tail. The exact surviving target is FullTupleChannelCoercivity.A, or equivalently strict payment for every nonzero selected full-tuple packet."
+edge_effect: "Tests whether LPFullBalancePayment.A is produced by the dyadic full-balance identity itself. The answer is no. The identity preserves the full participation tuple and prevents scalar source-square pricing, but it only reallocates selected positive transport activity into the time, pressure, viscosity, incompressibility, and legal channels. To become an unweighted reserve, those channel readings need a same-carrier coercive budget. The follow-up direct attempt on FullTupleChannelCoercivity.A also does not close from the identity alone; it reduces to FourBodyTerminalTraceAC.A or StrictFourBodyNoWasteLyapunov.A, together with same-carrier full-packet compactness/no-loss and selected full-packet identification."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lp-full-balance-payment-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-participation-tuple-coupling-breaker-live-edge-audit-20260621.md
