@@ -282,7 +282,7 @@ chunk:
       All other major surfaces are kept as supplier, route, or readout support. They may be useful, but they are not promoted to a fourth CM face.
 
       \[
-      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
       This is the Carleson turnover. The failed scale-critical source reserve is not an outside estimate anymore. If the carrier and PDE participation still survive, the only place the retained failure can go is one-field coherence.
@@ -597,7 +597,7 @@ chunk:
     All other major surfaces are kept as supplier, route, or readout support. They may be useful, but they are not promoted to a fourth CM face.
 
     \[
-    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     This is the Carleson turnover. The failed scale-critical source reserve is not an outside estimate anymore. If the carrier and PDE participation still survive, the only place the retained failure can go is one-field coherence.

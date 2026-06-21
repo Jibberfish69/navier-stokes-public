@@ -204,8 +204,7 @@ chunk:
       Let (u,p) be a maximal smooth incompressible Navier--Stokes solution on [0,T *), with T * 5/2.
 
       \[
-      CM_{N,r,Q}:=
-      Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
       \[
@@ -530,8 +529,7 @@ chunk:
     Let (u,p) be a maximal smooth incompressible Navier--Stokes solution on [0,T *), with T * 5/2.
 
     \[
-    CM_{N,r,Q}:=
-    Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     \[

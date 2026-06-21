@@ -264,14 +264,13 @@ chunk:
       Theorem-facing conditional consumption note for the current contrapositive proof program.
 
       \[
-      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q},
       \]
 
       Assume T *< and suppose the terminal endpoint is a genuine PDE non-smooth occurrence on an approaching same-fluid family Q *.
 
       \[
-      CM_{N,r,Q}
-      =Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}
       \]
 
       \[
@@ -665,14 +664,13 @@ chunk:
     Theorem-facing conditional consumption note for the current contrapositive proof program.
 
     \[
-    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q},
     \]
 
     Assume T *< and suppose the terminal endpoint is a genuine PDE non-smooth occurrence on an approaching same-fluid family Q *.
 
     \[
-    CM_{N,r,Q}
-    =Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}
     \]
 
     \[

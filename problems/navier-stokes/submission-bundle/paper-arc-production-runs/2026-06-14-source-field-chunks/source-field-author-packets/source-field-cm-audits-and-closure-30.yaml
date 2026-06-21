@@ -149,7 +149,7 @@ chunk:
       Pass to a subsequence with r m>=r 0. The transported packet geometry has a positive terminal carrier, so the branch is no longer a zero-radius Zeno endpoint. If Pack Q, Part N,Q , or Field N,r,Q fails on this finite carrier, the desired finite CM face exit has already occurred.
 
       \[
-      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
       On this same retained branch, Source Measure Participation Density Bridge.A reads the selected terminal source residue as the source-current trace of the shared participation/tower field. The B ASAC closed shared-participation balance gives the terminal strip inequality
@@ -534,7 +534,7 @@ chunk:
     Pass to a subsequence with r m>=r 0. The transported packet geometry has a positive terminal carrier, so the branch is no longer a zero-radius Zeno endpoint. If Pack Q, Part N,Q , or Field N,r,Q fails on this finite carrier, the desired finite CM face exit has already occurred.
 
     \[
-    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     On this same retained branch, Source Measure Participation Density Bridge.A reads the selected terminal source residue as the source-current trace of the shared participation/tower field. The B ASAC closed shared-participation balance gives the terminal strip inequality

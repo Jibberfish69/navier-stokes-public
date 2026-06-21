@@ -320,13 +320,7 @@ chunk:
       \]
 
       \[
-      CM_{N,r,Q}
-      =
-      Pack_Q
-      \wedge
-      Part_{N,Q}
-      \wedge
-      Field_{N,r,Q}.
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
       \[
@@ -451,13 +445,7 @@ chunk:
       \]
 
       \[
-      CM_{N,r,Q}
-      =
-      Pack_Q
-      \wedge
-      Part_{N,Q}
-      \wedge
-      Field_{N,r,Q}.
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
       If all three predicates are certified on the same witness record W, then the conjunction is exactly CM N,r,Q ( W). There is no additional analytic estimate in this step; the content of the bridge-license theorem is the synchronization rule that forbids mixing faces from different carriers, windows, scales, or branches.
@@ -721,13 +709,7 @@ chunk:
     \]
 
     \[
-    CM_{N,r,Q}
-    =
-    Pack_Q
-    \wedge
-    Part_{N,Q}
-    \wedge
-    Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     \[
@@ -828,13 +810,7 @@ chunk:
     \]
 
     \[
-    CM_{N,r,Q}
-    =
-    Pack_Q
-    \wedge
-    Part_{N,Q}
-    \wedge
-    Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     If all three predicates are certified on the same witness record W, then the conjunction is exactly CM N,r,Q ( W). There is no additional analytic estimate in this step; the content of the bridge-license theorem is the synchronization rule that forbids mixing faces from different carriers, windows, scales, or branches.
