@@ -23,7 +23,7 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 
 - Positive supplier, source-wall, periodic, and regularization branches fail as manuscript openings because they try to delete or reroute the bad terminal object before the CM test has used it.
 - The current proof uses the fail branch as the class-exit witness rather than treating it as a positive no-exit burden.
-- Periodic and `Q(t)` material is support only after a checked bridge lands an exact claim in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit audit.
+- Periodic and `Q(t)` material is support only after a checked bridge lands an exact claim in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit.
 
 ## The Crossing Move
 
@@ -49,7 +49,7 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 1. Start with a same-datum finite Clay terminal witness.
 2. Treat it as CM-test-admissible, not as already `Member(Q)`.
 3. Run terminal witness entry into the same-fluid CM packet tree.
-4. Exhaust the Pack-admitted failure through Pack_Q, Part_{N,Q}, and Field_{N,r,Q}, and resurface any pre-Pack not-Pack candidate under pointwise Part first.
+4. Exhaust the Pack-admitted failure through Pack_Q, Part_{N,Q}, and Field_{N,r,Q}, and resurface any pre-Pack not-Pack candidate under the original participation law first.
 5. Read the derived face failure as `Exit(Q):=not Member(Q)`.
 6. Keep the pass branch as smooth continuation and the fail branch as outside-class.
 7. Reject any opening that begins with torus-first, `Q(t)`, or periodic route history before the CM witness object has landed.
@@ -108,7 +108,7 @@ Reason it is quarantined:
 ## Instructions to Codex
 
 - Keep the regularized branch archived as a diagnostic failure branch.
-- Keep `Q(t)` and periodic material quarantined as support unless a checked bridge lands it in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit audit.
+- Keep `Q(t)` and periodic material quarantined as support unless a checked bridge lands it in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit.
 - Preserve the CM contrapositive class-exit architecture as the manuscript opening.
 - Keep export and source-history material explicitly downstream.
 - Do not promote archived provenance above theorem authority.

@@ -3,7 +3,7 @@
 - `span:` whole document
 - `mode:` Authorial Draft
 - `user_intent:` Turn the grounded Navier-Stokes Global Regularity workboard into honest prose that explains the live route without claiming theorem settlement that the package does not yet earn.
-- `fixed_constraints:` Open from the CM contrapositive class-exit proof program, not from the older torus-first periodic bridge story. | Keep `Member(Q)` as the downstream class-membership predicate and `Exit(Q):=not Member(Q)` as the class-exit conclusion supported by typed face failure or original-participation audit. | Treat periodic, `Q(t)`, scale-barrier, heat-continuation, source-wall, and positive-supplier language as support or history unless a checked bridge lands it in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit audit. | The pass branch is the lawful smooth continuation branch; the fail branch is admitted to the CM terminal packet tree and exhausted as a witness-face failure after any pre-Pack not-Pack branch has passed the original-participation check.
+- `fixed_constraints:` Open from the CM contrapositive class-exit proof program, not from the older torus-first periodic bridge story. | Keep `Member(Q)` as the downstream class-membership predicate and `Exit(Q):=not Member(Q)` as the class-exit conclusion supported by typed face failure or original-participation audit. | Treat periodic, `Q(t)`, scale-barrier, heat-continuation, source-wall, and positive-supplier language as support or history unless a checked bridge lands it in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit. | The pass branch is the lawful smooth continuation branch; the fail branch is admitted to the CM terminal packet tree and exhausted as a witness-face failure after any pre-Pack not-Pack branch has passed the original-participation check.
 
 ## Section Job
 - `job_statement:` Open the Navier-Stokes manuscript from the CM contrapositive class-exit proof: finite Clay terminal witness, CM packet entry, Silver Pack/Part/Field exhaustion after Pack admission, pre-Pack original-participation audit where needed, and `Exit(Q):=not Member(Q)`.
@@ -34,7 +34,7 @@
   `must_keep:` ClayTerminalWitnessCMEntry.A | canonical CM terminal packet tree | same-fluid witness
   `avoid:` blunt not-CM converse | class-member assumption for the bad witness
 - `role:` exhaustion
-  `core_move:` Exhaust the finite failure type through Silver Pack_Q, Part_{N,Q}, and Field_{N,r,Q} after Pack admission, while resurfacing pre-Pack not-Pack candidates under pointwise Part first.
+  `core_move:` Exhaust the finite failure type through Silver Pack_Q, Part_{N,Q}, and Field_{N,r,Q} after Pack admission, while resurfacing pre-Pack not-Pack candidates under the original participation law first.
   `must_keep:` not Pack_Q after Pack/carrier failure | not Part_{N,Q} | forall r>0 not Field_{N,r,Q} | pre-Pack original-participation audit
   `avoid:` fourth residue face | source-wall supplier promotion
 - `role:` embedding
@@ -44,7 +44,7 @@
 
 ## Lexicon Lock
 - `must_use:` CM contrapositive class-exit | finite Clay terminal witness | same-fluid CM terminal packet tree | Silver Pack_Q | Part_{N,Q} | Field_{N,r,Q} | pre-Pack original-participation audit | `Exit(Q):=not Member(Q)` | pass branch | fail branch
-- `must_not_substitute:` torus-first periodic route for CM class-exit proof | `Q(t)` bridge opening for terminal witness entry | positive smoothness supplier for Silver Pack/Part/Field exhaustion | source-wall diagnostics for the governing CM primitive | Pack-created participation for the the original NS participation law law
+- `must_not_substitute:` torus-first periodic route for CM class-exit proof | `Q(t)` bridge opening for terminal witness entry | positive smoothness supplier for Silver Pack/Part/Field exhaustion | source-wall diagnostics for the governing CM primitive | Pack-created participation for the original NS participation law
 - `deferred_terms:` torus-first opening | `Q(t)` bridge opening | periodic story as manuscript entry
 - `tone_keys:` direct | technical | scope-honest | reader-forward | non-triumphal | object-specific
 
@@ -64,7 +64,7 @@
 - `risk:` The bad terminal object is accidentally called `Member(Q)` or treated as a smooth branch.
   `countermove:` Say it is CM-test-admissible and then sort its first face failure.
 - `risk:` Source-wall, positive-supplier, periodic, or `Q(t)` material respawns as authority.
-  `countermove:` Keep it quarantined unless the sentence names a checked Silver Pack/Part/Field landing or the pre-Pack original-participation audit audit.
+  `countermove:` Keep it quarantined unless the sentence names a checked Silver Pack/Part/Field landing or the pre-Pack original-participation audit.
 
 ## Draft Acceptance Test
 - `pass_if:` the packet and draft open from the CM contrapositive class-exit program, name Silver Pack/Part/Field witness-face exhaustion after Pack admission, resurface pre-Pack not-Pack candidates under pointwise Part, and treat periodic / `Q(t)` material only as non-opening support

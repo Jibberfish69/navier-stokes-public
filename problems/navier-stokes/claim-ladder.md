@@ -11,7 +11,7 @@
 ## Lowest Safe Claim
 
 - Navier-Stokes global regularity is presented through the CM contrapositive class-exit chain: terminal witness entry, Silver Pack/Part/Field finite-failure exhaustion after Pack admission, pre-Pack original-participation audit where needed, and `Exit(Q):=not Member(Q)`.
-- Periodic, `Q(t)`, source-wall, positive-supplier, and export surfaces are support unless a checked bridge lands their exact claim in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit audit.
+- Periodic, `Q(t)`, source-wall, positive-supplier, and export surfaces are support unless a checked bridge lands their exact claim in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit.
 
 ## Mechanism Option
 
@@ -29,7 +29,7 @@
 
 ## Dynamic Sidecar Track
 
-- Sidecar route material is support only until it lands in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit audit.
+- Sidecar route material is support only until it lands in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit.
 - The projected-flow and periodic packages do not set the manuscript opening.
 - The live paper surface starts from the CM terminal witness and class-exit embedding.
 
