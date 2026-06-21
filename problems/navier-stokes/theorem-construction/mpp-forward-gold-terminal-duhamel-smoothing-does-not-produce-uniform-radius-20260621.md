@@ -23,7 +23,8 @@ nonlinear Duhamel term by a linear forcing, and it does not approximate the
 pressure-transport-viscosity system.
 
 The correct name for the calculation is an external forced-heat
-supplier-boundary test. The calculation is only a counterexample to the
+supplier-boundary test. It should not be described, even informally, as a
+linear forced-heat normal form. The calculation is only a counterexample to the
 narrower claim that heat semigroup smoothing, by itself, forces a uniform
 positive tower radius at the terminal face.
 
