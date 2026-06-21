@@ -153,7 +153,7 @@ chunk:
 
       The three immediate exits have been executed against the installed route inputs. None is currently discharged.
 
-      The present theorem stack does not contain that positive supplier proof. The CM use of a surviving measure still has to route the survivor through a Pack/Part/Field class-exit witness rather than treating absolute vanishing as the contrapositive primitive.
+      The present theorem stack does not contain that positive supplier proof. The CM use of a surviving measure still has to route the survivor through a Part/Field class-exit witness rather than treating absolute vanishing as the contrapositive primitive.
 
 
     truncated: false
@@ -496,7 +496,7 @@ chunk:
 
     The three immediate exits have been executed against the installed route inputs. None is currently discharged.
 
-    The present theorem stack does not contain that positive supplier proof. The CM use of a surviving measure still has to route the survivor through a Pack/Part/Field class-exit witness rather than treating absolute vanishing as the contrapositive primitive.
+    The present theorem stack does not contain that positive supplier proof. The CM use of a surviving measure still has to route the survivor through a Part/Field class-exit witness rather than treating absolute vanishing as the contrapositive primitive.
 
 
 
@@ -712,7 +712,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
