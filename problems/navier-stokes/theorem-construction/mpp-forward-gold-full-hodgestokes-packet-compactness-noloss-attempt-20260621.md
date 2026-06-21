@@ -2,7 +2,7 @@
 theorem_id: forward-gold-full-hodgestokes-packet-compactness-noloss-attempt-20260621
 status: criterion-proved-transport-pressure-viscous-finite-selector-and-trace-defects-routed-remaining-defect-split-installed
 logical_landing_node: full_hodgestokes_packet_compactness_noloss
-edge_effect: "Tests the same-carrier compactness/no-loss input needed by ParticipationPreservingNoResidueFullCycle.A. The exact criterion is proved: strong same-carrier convergence of velocity in L^3, pressure in L^(3/2), gradient in L^2, stable cutoffs/selectors, and legal residual tightness imply full Hodge-Stokes packet convergence and hence positive selected-carrier no-loss by the L1 Lipschitz property of the positive part. Standard suitable-solution compactness is shown to be insufficient for this full no-loss result because it gives distributional equation passage and lower semicontinuity, not total-variation convergence of the selected positive packet. The transport product defect is evacuated on stabilized carriers by standard local energy compactness and strong L^3 velocity convergence. The local same-carrier pressure trace is evacuated by Calderon-Zygmund after transport product convergence; harmonic pressure memory is routed to collar/legal trace, terminal atom, or selector/collar drift. The viscous measure defect is paid loss or strong gradient convergence. Finite or compact selector graphs close by subsequence/compactness; the remaining selector obstruction is unbounded positive-part selector complexity or carrier/collar drift. Terminal trace atoms route to signed saturation, visible loss, or endpoint storage jump. The remaining hidden production split is unbounded selector complexity/carrier drift, signed saturation defect, endpoint no-jump/storage-jump, or legal routing."
+edge_effect: "Tests the same-carrier compactness/no-loss input needed by ParticipationPreservingNoResidueFullCycle.A. The exact criterion is proved: strong same-carrier convergence of velocity in L^3, pressure in L^(3/2), gradient in L^2, stable cutoffs/selectors, and legal residual tightness imply full Hodge-Stokes packet convergence and hence positive selected-carrier no-loss by the L1 Lipschitz property of the positive part. Standard suitable-solution compactness is shown to be insufficient for this full no-loss result because it gives distributional equation passage and lower semicontinuity, not total-variation convergence of the selected positive packet. The transport product defect is evacuated on stabilized carriers by standard local energy compactness and strong L^3 velocity convergence. The local same-carrier pressure trace is evacuated by Calderon-Zygmund after transport product convergence; harmonic pressure memory is routed to collar/legal trace, terminal atom, or selector/collar drift. The viscous measure defect is paid loss or strong gradient convergence. Finite or compact selector graphs close by subsequence/compactness; the remaining selector obstruction is unbounded positive-part selector complexity or carrier/collar drift. Terminal trace atoms route to signed saturation, visible loss, or endpoint storage jump. The finite signed-saturation branch is paid by retained partners, legal exits, LocalDonorBalance.A, and EntranceLeafDecay.A; the remaining hidden production split is unbounded selector complexity/carrier drift, terminal Zeno donor chain inherited from dN_miss, endpoint no-jump/storage-jump, or legal routing."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lossless-full-hodgestokes-packet-rigidity-20260621.md
@@ -15,6 +15,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-viscous-defect-dichotomy-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-selector-graph-defect-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-terminal-trace-atom-routing-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-signed-saturation-residual-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-participation-tuple-coupling-breaker-live-edge-audit-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-upgraded-four-body-current-frontier-20260621.md
 ---
@@ -479,6 +480,23 @@ Signed saturation defect:
 \tag{FHC.31}
 ```
 
+This defect is no longer a raw residual after the full tuple is retained.  The
+polar identity produces the missing negative partner \(dN_{\rm miss}\), and the
+finite donor graph is paid by retained partners, legal exits, local donor
+balance, and entrance-leaf decay.  Thus
+
+```math
+dN_{\rm miss}\ne0
+\Rightarrow
+\text{legal/collar payment}
+\quad\text{or}\quad
+\text{terminal Zeno donor chain}.
+\tag{FHC.31a}
+```
+
+The remaining signed-saturation production branch is the terminal Zeno donor
+chain, not the finite same-carrier donor graph.
+
 Terminal trace defect:
 
 ```math
@@ -524,7 +542,7 @@ Thus the compactness/no-loss production target is exactly:
 
 ```math
 \boxed{
-\text{rule out or charge }(FHC.30a),(FHC.31),(FHC.32a),\text{ and }(FHC.33),
+\text{rule out or charge }(FHC.30a),(FHC.31a),(FHC.32a),\text{ and }(FHC.33),
 \text{ after transport, pressure, viscosity, finite selectors, and trace atoms are routed.}
 }
 \tag{FHC.34}
