@@ -462,8 +462,10 @@ selected tower packet, the nonnegative selected carrier measure is the measure
 with density \([h_P]_+\) on the extended carrier.  Body III still must prove
 tightness of those measures on the normalized same-carrier carrier and identify
 their weak limit with the canonical selected carrier of the limiting
-Navier-Stokes profile up to \(K_C^+\).  Signed-current compactness alone is not
-enough, because it can cancel the positive carrier.
+Navier-Stokes profile up to \(K_C^+\).  The tightness clause is now decomposed
+into domain escape, label/selector escape, and tower-rung escape, with
+small-set UI as the consumer for moving gauge or collar defects.  Signed-current
+compactness alone is not enough, because it can cancel the positive carrier.
 
 ## 8. Current conclusion
 
