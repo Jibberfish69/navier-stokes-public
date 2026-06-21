@@ -201,7 +201,7 @@ Since \(\omega_n=\nabla\times u_n=e^{-\nu n^2t}nB_n\), this gives
 \omega_n\cdot S_{u_n}\omega_n
 =
 e^{-3\nu n^2t}n^2
-B_n\cdot S_{B_n}B_n
+\,B_n\cdot S_{B_n}B_n
 =
 e^{-3\nu n^2t}n^3
 \left({1\over2}+{3\sqrt2\over2}\right)>0
