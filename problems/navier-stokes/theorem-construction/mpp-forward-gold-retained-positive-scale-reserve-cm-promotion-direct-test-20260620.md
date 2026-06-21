@@ -51,7 +51,7 @@ or
 ```math
 \text{CM-test admission}
 +
-\text{first Part/Field Part/Field failure}.
+\text{first Part/Field failure}.
 \tag{RPC.3}
 ```
 
@@ -157,7 +157,7 @@ Combining the three alternatives:
 \tag{RPC.12}
 ```
 
-This is exactly a Part/Field Part/Field failure supporting the CM
+This is exactly a Part/Field failure supporting the CM
 contrapositive conclusion.
 
 ## 3. What this does not prove
@@ -180,7 +180,7 @@ The lawful state is now:
 ```math
 \begin{array}{lll}
 \text{same-ledger payment} &\Rightarrow& \text{forward-gold reserve closes},\\[1mm]
-\text{CM admission of the retained reserve} &\Rightarrow& \text{Part/Field Part/Field failure},\\[1mm]
+\text{CM admission of the retained reserve} &\Rightarrow& \text{Part/Field failure},\\[1mm]
 \text{neither payment nor admission} &\Rightarrow& \text{supplier quarantine}.
 \end{array}
 \tag{RPC.14}
@@ -239,7 +239,7 @@ ClayWitness_{CM}(W_*)
 +
 \text{retained positive-scale first-created reserve on }W_*
 \Longrightarrow
-\text{Part/Field Part/Field failure.}
+\text{Part/Field failure.}
 }
 \tag{RPC.18}
 ```
@@ -263,7 +263,7 @@ It is now closed as a first-Part/Field derivation after admission:
 \boxed{
 \text{admission + first-created reserve}
 \Rightarrow
-\text{Part/Field Part/Field failure}.
+\text{Part/Field failure}.
 }
 \tag{RPC.20}
 ```

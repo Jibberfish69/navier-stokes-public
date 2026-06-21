@@ -224,7 +224,7 @@ level:
 \boxed{
 \text{SelectedPositiveConeNoNullReadout.A}
 \quad\text{or}\quad
-\text{same-witness Part/Field Part/Field failure.}
+\text{same-witness Part/Field failure.}
 }
 \tag{SPC.19}
 ```

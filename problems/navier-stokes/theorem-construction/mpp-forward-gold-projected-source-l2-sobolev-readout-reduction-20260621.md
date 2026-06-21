@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-exact-nonlinear-duhamel-terminal-split-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-atom-forces-finite-order-readout-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-gradient-sobolev-branch-to-cm-face-20260621.md
-  downstream_consequence: "Do not treat projected-source L2 control as an independent production theorem. If the L2-source domination hypothesis holds and an endpoint atom remains, the atom is visible as finite-rung Sobolev growth; after same-witness CM admission it lands in Part/Field Part/Field failure unless a separate global budget, source-square/no-waste theorem, or profile-production route consumes it."
+  downstream_consequence: "Do not treat projected-source L2 control as an independent production theorem. If the L2-source domination hypothesis holds and an endpoint atom remains, the atom is visible as finite-rung Sobolev growth; after same-witness CM admission it lands in Part/Field failure unless a separate global budget, source-square/no-waste theorem, or profile-production route consumes it."
 ---
 
 # MPP Forward-Gold Projected Source L2 Sobolev Readout Reduction

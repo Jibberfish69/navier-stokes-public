@@ -268,7 +268,7 @@ or
 
 \[
 \boxed{
-\text{terminal atom, hence Part/Field Part/Field failure after same-witness
+\text{terminal atom, hence Part/Field failure after same-witness
 admission and service certification.}
 }
 \tag{PZC.17}

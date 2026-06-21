@@ -211,7 +211,7 @@ The exact pass-or-exit statement is:
 \boxed{
 \text{endpoint UI}
 \quad\text{or}\quad
-\text{same-witness Part/Field Part/Field failure}.
+\text{same-witness Part/Field failure}.
 }
 \tag{SWA.16}
 ```

@@ -240,7 +240,7 @@ After same-witness admission, the retained branch is consumed by
 
 ```math
 \boxed{
-\text{Part/Field Part/Field failure.}
+\text{Part/Field failure.}
 }
 \tag{NSS.20}
 ```

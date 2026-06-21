@@ -165,7 +165,7 @@ The selected-carrier endpoint branch has the exact pass-or-exit shape:
 \boxed{
 \text{SelectedCarrierEndpointUI.A}
 \quad\text{or}\quad
-\text{same-witness CM admission plus certified Part/Field Part/Field failure.}
+\text{same-witness CM admission plus certified Part/Field failure.}
 }
 \tag{SCSR.12}
 ```

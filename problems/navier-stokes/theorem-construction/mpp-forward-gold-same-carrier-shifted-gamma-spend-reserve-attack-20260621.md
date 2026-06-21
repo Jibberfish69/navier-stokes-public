@@ -410,7 +410,7 @@ Third, if canonical coupled radius spend diverges, classify the failure:
 This keeps the forward-gold branch and the CM contrapositive branch separate.
 The forward-gold branch needs an unweighted same-carrier reserve. The CM branch
 can consume a retained pulse only after same-witness admission and a concrete
-Part/Field Part/Field failure.
+Part/Field failure.
 
 ## Verdict
 

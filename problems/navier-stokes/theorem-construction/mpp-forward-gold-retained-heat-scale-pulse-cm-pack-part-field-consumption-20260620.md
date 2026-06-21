@@ -130,7 +130,7 @@ artifacts are removed.
 
 Once `(RHP.9)` is available, the terminal object has only the CM service
 questions, with the Pack-out-of-CM resurfacing audit applied to singular or
-outside-CM participation-field record-window objects:
+outside-CM packet/window objects:
 
 ```math
 Pack_Q,
@@ -333,14 +333,14 @@ ScaleCriticalTreeCarleson.A.
 
 It also does not claim release readiness, manuscript exactness, or a
 forward-positive proof.  The June 19 Silver correction rejects the stale generic
-burden that every concrete Part/Field Part/Field failure must be separately
+burden that every concrete Part/Field failure must be separately
 deleted by a no-exit theorem.  The rowwise test is narrower: a promoted finite
 terminal row must enter the CM test and then either continue/read out or land in
-a concrete Part/Field Part/Field failure.
+a concrete Part/Field failure.
 
 This note performs that rowwise test for the retained heat-scale pulse.  Once
 the pulse is admitted as the same terminal witness, it is either the gold pass
-branch `(RHP.3)` or a Part/Field Part/Field failure by `(RHP.20)`.
+branch `(RHP.3)` or a Part/Field failure by `(RHP.20)`.
 
 ## Verdict
 
@@ -351,7 +351,7 @@ pass-or-exit level:
 \boxed{
 \text{endpoint UI}
 \quad\text{or}\quad
-\text{same-witness Part/Field Part/Field failure}.
+\text{same-witness Part/Field failure}.
 }
 \tag{RHP.24}
 ```
