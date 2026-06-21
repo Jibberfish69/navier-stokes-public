@@ -2849,3 +2849,70 @@ The direct identification of that older object with the full-packet carrier is
 false without order-locking or signed-saturation; any use of it must route the
 mismatch to the same typed terminal trace, missing signed partner/donor chain,
 selector/collar drift, pressure-memory collar, or geometry/Field branches.
+
+The partner-deficit route makes this sharper.  With
+
+```math
+n_\sigma=\langle N_\sigma,\varphi_\sigma\rangle,
+\qquad
+b_\sigma=\langle P_\sigma+V_\sigma+T_\sigma+I_\sigma+L_\sigma+S_\sigma,
+\varphi_\sigma\rangle,
+\qquad
+h_\sigma=n_\sigma+b_\sigma,
+\tag{4BF.112}
+```
+
+one has the exact scalar inequality
+
+```math
+[n_\sigma]_+
+\le
+[h_\sigma]_+
++[-b_\sigma]_+.
+\tag{4BF.113}
+```
+
+The direct theorem
+
+```math
+\int[-b_\sigma]_+
+\le
+C A_{4B}+R_{\rm legal}
+\tag{4BF.114}
+```
+
+is false if "retained partner" is treated as payment.  The scalar packet
+\(n=1_X\), \(b=-1_X\) has \(A_{\rm native}=|X|\), \(A_{\rm full}=0\), and a
+perfectly retained cancelling partner.  The smooth affine incompressible core
+\(u=(x,-y,0)\), \(p=-(x^2+y^2)/2\) realizes the same convection/pressure
+cancellation.
+
+Therefore the channel-first native transfer now has the exact replacement:
+
+```math
+\boxed{
+A_{\rm native}
+\le
+A_{\rm pair},
+\qquad
+A_{\rm pair}
+:=
+\int[h_\sigma]_+
++
+\int[-b_\sigma]_+.
+}
+\tag{4BF.115}
+```
+
+The remaining positive theorem is:
+
+```math
+\boxed{
+\texttt{PartnerPolarFourBodyPayment.A}
+}
+\tag{4BF.116}
+```
+
+or the pressure-compatible selector theorem that makes the local retained
+pressure deficit a paid four-body channel.  Typed exits apply to partners that
+leave the carrier; they do not pay a retained smooth interior cancellation.
