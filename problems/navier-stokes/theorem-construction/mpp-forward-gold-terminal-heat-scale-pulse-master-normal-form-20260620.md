@@ -33,6 +33,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-projected-source-l2-sobolev-readout-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-projected-source-native-carrier-domination-nogo-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-carrier-curl-source-transport-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-transport-term-endpoint-ui-enstrophy-dissipation-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-allocation-duality-same-carrier-reserve-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-mixed-derivative-tower-participation-law-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-cross-cylinder-time-tower-coupling-test-20260621.md
@@ -461,6 +462,8 @@ status:
 \text{false directly; Beltrami packets have }N=0\text{ and positive local stretching}\\
 \text{native carrier curl-source / transport criterion} &
 \text{exact consumer; endpoint UI requires }\omega,\nabla\times N\text{ plus transport UI; }H^2\text{ cubic readout}\\
+\text{transport endpoint UI / enstrophy dissipation} &
+\text{exact consumer; bounded height plus }\int Z^2\text{ gives UI; atom forces }\theta^{-1/3}\text{ action}\\
 \text{allocation / KKT shadow price} &
 \text{combined Holder price paid; unweighted priced reserve absent}\\
 \text{coupled mixed-tower radius} &
