@@ -42,7 +42,7 @@ pdf_render_status:
 boundary_reason: 'executor reentry reached an exact blocked state: proof closure and
   reader-facing manuscript proof are still open'
 may_advance_when:
-- the proof lane lands the CM obstruction in Pack, Part, or Field or closes it by
+- the proof lane lands the CM obstruction in Part or Field or closes it by
   legitimate scope rejection
 - the manuscript lane converts earned proof movement into human-facing proof prose
 - the route graph, app, and MCP readout agree with the proof and manuscript state
