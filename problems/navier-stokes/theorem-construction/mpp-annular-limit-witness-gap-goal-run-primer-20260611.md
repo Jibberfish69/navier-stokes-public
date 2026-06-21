@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-active-square-obstruction-pass-or-pack-exit-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-terminal-zeno-pack-failure-correction-20260521.md
     - problems/navier-stokes/theorem-construction/mpp-any-finite-failure-witness-cm-exit-20260521.md
-  downstream_consequence: "The resumed PDF/math goal-run must not claim the terminal-radius problem is solved merely by naming the endpoint not Pack_Q. The zero-scale endpoint itself must pass the Pack-before-Part audit, and the run must follow the approaching annular fields and either close them by the gold forward-positive route or, after annular admission, land the finite nonsmooth branch at Part or Field by the silver route."
+  downstream_consequence: "The resumed PDF/math goal-run must not claim the terminal-radius problem is solved merely by naming the endpoint not Pack_Q. The zero-scale endpoint itself must pass the Pack-out-of-CM audit, and the run must follow the approaching annular fields and either close them by the gold forward-positive route or, after annular admission, land the finite nonsmooth branch at Part or Field by the silver route."
 ---
 
 # MPP Annular Limit Witness Gap Goal-Run Primer
@@ -24,7 +24,7 @@ proof/PDF burden, not a completed theorem note.
 
 The earlier audit overclaimed the terminal-radius closure.
 
-The corrected Pack-before-Part grammar says
+The corrected Pack-out-of-CM grammar says
 
 ```math
 r_*=0
@@ -79,7 +79,7 @@ terminal residual source-balanced active pulse.
 ```
 
 The active-square pass-or-Pack note now reads the zero-radius endpoint of that
-pulse through the Pack-before-Part audit:
+pulse through the Pack-out-of-CM audit:
 
 same original-NS participation first, true `not Pack_Q` only when
 that record is absent.
@@ -289,7 +289,7 @@ Every theorem attempt belongs to one of these roles:
 
 ```text
 gold forward annular control,
-silver annular CM face landing,
+silver annular CM Part/Field landing,
 PDF explanation of the proved branch,
 or support/quarantine.
 ```

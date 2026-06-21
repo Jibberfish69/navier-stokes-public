@@ -19,7 +19,7 @@ removed.
 
 Fix a terminal window `Q` and a continuation depth `N` high enough for the
 installed `H^s`, `s>5/2`, continuation readout. Then every such witness lands in
-the CM witness-face envelope:
+the CM witness envelope:
 
 ```math
 \boxed{
@@ -34,7 +34,7 @@ the CM witness-face envelope:
 \tag{AFF.CMExit}
 ```
 
-Equivalently, the Pack-first decision tree is
+Equivalently, the Field-certification decision tree is
 
 ```math
 \boxed{
@@ -51,7 +51,7 @@ Pack_Q\wedge Part_{N,Q}\wedge\forall r>0\,\neg Field_{N,r,Q}.
 Since
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q},
 ```
 
 the consequence is
@@ -75,7 +75,7 @@ lacks shared participation, or lacks one-field coherence.
 This note uses the installed CM grammar and readout surfaces:
 
 - `mpp-exact-class-membership-witness-theorem.md`;
-- `mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md`;
+- `mpp-member-smooth-contrapositive-witness-bridge-20260504.md`;
 - `mpp-continuation-packet-generated-cm-contrapositive-20260514.md`;
 - `mpp-genuine-cm-exit-equivalence-20260521.md`;
 - `mpp-scalecritical-tree-carleson-pack-side-cm-exit-20260521.md`;
@@ -106,7 +106,7 @@ relaunch from `u(t_j)` exists past `T_*` and is the original solution on the
 overlap by uniqueness.
 
 Therefore an alleged finite-time failure witness cannot retain all three slots
-on the same terminal packet. We now sort the failed slot in Pack-before-Part audited order.
+on the same terminal packet. We now sort the failed slot in Pack-out-of-CM audited order.
 
 ### Step 1. Carrier gate
 
@@ -253,7 +253,7 @@ where Field/Jump is used only after Pack and Part have already been licensed.
 
 ## Source-Wall Placement Rule
 
-Source-wall objects enter the tree at the first face they break.
+Source-wall objects enter the tree at the first Part/Field they break.
 
 1. A zero-scale terminal object has no legal positive packet carrier:
 
@@ -338,7 +338,7 @@ Therefore
 
 This replaces the mode-by-mode sprawl with one abstract landing theorem: every
 real terminal failure witness must break the first missing service in the
-Pack/Part/Field continuation packet.
+Part/Field continuation packet.
 
 ## Boundary
 

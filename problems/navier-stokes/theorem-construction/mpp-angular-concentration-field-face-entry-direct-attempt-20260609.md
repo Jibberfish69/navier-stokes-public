@@ -2,7 +2,7 @@
 ns_viewer:
   theorem_id: angular-concentration-field-face-entry-direct-attempt-20260609
   status: failed-necessity-bridge-missing
-  proof_role: cm_face_entry_pivot_test
+  proof_role: cm_part_field_question_entry_pivot_test
   logical_landing_node: qsp-angular-failure-field-necessity-bridge
   edge_effect: "Tests AngularConcentrationFieldFaceEntry.A. The pass-or-exit pivot is structurally correct, but the installed QSP surfaces prove a sufficient finite-frame route: finite cap/shell bump nonconcentration implies QSP sign separation and balanced-frame support. They do not yet prove the converse necessity that failure of this finite QSP route is failure of every Field/readout certificate for the same terminal packet. The next atom is QSPAngularFailureFieldNecessityBridge.A."
   upstream_origin:
@@ -30,7 +30,7 @@ AngularConcentrationFieldFaceEntry.A.
 ```
 
 It must prove that a same-terminal-packet failure of finite QSP cap/shell bump
-nonconcentration lands as a Pack/Part/Field face failure, specifically Field
+nonconcentration lands as a Part/Field Part/Field failure, specifically Field
 under retained Pack+Part, instead of remaining an endless positive
 equidistribution supplier demand.
 
@@ -38,7 +38,7 @@ equidistribution supplier demand.
 
 Proof program: Navier-Stokes CM contrapositive class exit.
 
-Target object: CM face-entry bridge for the angular-concentration branch.
+Target object: CM Part/Field-entry bridge for the angular-concentration branch.
 
 Object role: possible fail-branch bridge, not a positive supplier theorem.
 
@@ -76,7 +76,7 @@ no Field coherence/readout certificate exists for the same terminal packet.
 
 The live authority edge explicitly forbids treating every failed positive
 supplier as automatic `Exit(Q)`. The fail branch must derive a concrete
-Pack/Part/Field face failure after CM-test entry.
+Part/Field Part/Field failure after CM-test entry.
 
 Therefore `AngularConcentrationFieldFaceEntry.A` needs an additional necessity
 bridge:
@@ -88,7 +88,7 @@ not merely sufficient for one chosen Field supplier route.
 ```
 
 Without that bridge, angular concentration is an obstruction to the current
-finite-frame proof route, but it is not yet a proved Field face failure.
+finite-frame proof route, but it is not yet a proved Field Part/Field failure.
 
 ## Result
 
@@ -105,7 +105,7 @@ support-only and choose another Field certificate.
 ```
 
 This is the exact hinge between a failed positive supplier route and a lawful
-CM face failure.
+CM Part/Field failure.
 
 ## New Live Criticism
 

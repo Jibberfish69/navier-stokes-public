@@ -120,7 +120,7 @@ retained Pack/Part on the first Pack-survival branch
 + zero ASAC defect and no legal/donor payment
 => a same-ledger angular, pressure, participation, or temporal-residence cost
    strong enough to prevent terminal heat-time source concentration,
-   or an earlier concrete Pack/Part/Field face failure.
+   or an earlier concrete Part/Field Part/Field failure.
 ```
 
 This is narrower than the broad anti-atom label.  It says exactly what a new
@@ -157,6 +157,6 @@ This note records the sharpened frontier after the annular correction:
 ```text
 active silver branch paid;
 generic private annular diagnostics support-only;
-strain-aligned admitted nonsmooth obstruction split through CM faces;
+strain-aligned admitted nonsmooth obstruction split through CM Part/Fields;
 gold terminal source atom narrowed to the dynamic strain-aligned no-freeze theorem.
 ```

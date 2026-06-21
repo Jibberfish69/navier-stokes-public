@@ -2,11 +2,11 @@
 ns_viewer:
   theorem_id: averaged-jumpavg-field-face-reduction-20260607
   status: conditional-on-scfbase-local-modulus
-  proof_role: cm_face_landing
+  proof_role: cm_part_field_question_landing
   target_blocker: averaged-jumpavg-branch-native-discharge
   logical_landing_node: cm_field_face_attempts
-  edge_effect: "Records the averaged Jump_avg reduction after exactness repair: the Field-face landing is conditional on the same-tail SCF_base local modulus needed by AveragedFieldFaceAdmission.A."
-  cm_face_landing: Field
+  edge_effect: "Records the averaged Jump_avg reduction after exactness repair: the Field-Part/Field landing is conditional on the same-tail SCF_base local modulus needed by AveragedFieldFaceAdmission.A."
+  cm_part_field_question_landing: Field
   upstream_origin:
     - problems/navier-stokes/d8-completion-route-map.yaml
     - problems/navier-stokes/live-theorem-edge.yaml
@@ -25,11 +25,11 @@ same-tail `SCF_base` local modulus now required by
 `mpp-averaged-field-face-admission-20260607.md`.
 
 It is not a proof of the full Clay theorem by itself. It is the precise
-Field-face landing for the retained Pack/Part averaged `Jump_avg` branch.
+Field-Part/Field landing for the retained Pack/Part averaged `Jump_avg` branch.
 
 Target blocker: `averaged-jumpavg-branch-native-discharge`.
 
-CM program target: prove `Exit(Q):=not Member(Q)` by landing the first failed witness face among `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`. This note attacks the retained averaged `Jump_avg` branch only after the averaged object is admitted to the same CM test and the Pack/Part faces have not already failed.
+CM program target: prove `Exit(Q):=not Member(Q)` by landing the first failed witness among `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`. This note attacks the retained averaged `Jump_avg` branch only after the averaged object is admitted to the same CM test and the Pack/Part faces have not already failed.
 
 ## Exact Statement Tried
 
@@ -81,7 +81,7 @@ Field_{N,r,Q} for some r > 0
   => not Jump_avg(T),
 ```
 
-so `Jump_avg(T)` rules out a positive `Field_{N,r,Q}` scale that also carries the same-tail modulus. With Pack and Part retained, this becomes the first available CM face failure only when that modulus is part of the retained Field row or has been separately derived from it.
+so `Jump_avg(T)` rules out a positive `Field_{N,r,Q}` scale that also carries the same-tail modulus. With Pack and Part retained, this becomes the first available CM Part/Field failure only when that modulus is part of the retained Field row or has been separately derived from it.
 
 ## Installed Landing
 
@@ -115,11 +115,11 @@ The current source surfaces now install `AveragedFieldFaceAdmission.A` only with
 
 The averaged route also quarantines pointwise readout surfaces until after the averaged endpoint. Therefore this note cannot import `READ.COVER`, `DTC.Read`, `Field.Read`, `READ.END`, or pointwise terminal readout upstream to identify `Field_avg` with `Field_{N,r,Q}`.
 
-The h/F survivor-measure forcing route remains unproved: the existing failed attempts do not show that persistent `Jump_avg` forces nonzero terminal h/F survivor measure or separated positive scale-window mass. That stronger no-escape theorem is not required for this CM face landing after the same-tail `SCF_base` modulus is supplied.
+The h/F survivor-measure forcing route remains unproved: the existing failed attempts do not show that persistent `Jump_avg` forces nonzero terminal h/F survivor measure or separated positive scale-window mass. That stronger no-escape theorem is not required for this CM Part/Field landing after the same-tail `SCF_base` modulus is supplied.
 
 ## Mathematical Delta
 
-The averaged CM face landing is narrower than "prove branch-native h/F defect charge" for CM exit purposes.
+The averaged CM Part/Field landing is narrower than "prove branch-native h/F defect charge" for CM exit purposes.
 
 For the CM contrapositive route, it is enough to prove the one-way field-face admission theorem with its exact modulus hypothesis:
 
@@ -127,13 +127,13 @@ For the CM contrapositive route, it is enough to prove the one-way field-face ad
 Field_{N,r,Q} + SCFBaseLocalModulus_N(T,r) => Field_avg(T)
 ```
 
-for the admitted averaged terminal object. Then `Jump_avg := not Field_avg` consumes any positive Field branch carrying that modulus. The all-radii Field-face landing follows only when every retained positive Field branch supplies the modulus.
+for the admitted averaged terminal object. Then `Jump_avg := not Field_avg` consumes any positive Field branch carrying that modulus. The all-radii Field-Part/Field landing follows only when every retained positive Field branch supplies the modulus.
 
 This separates two different burdens:
 
 1. Strong positive no-escape burden:
    `Jump_avg` forces nonzero h/F survivor measure with separated positive scale mass.
-2. Minimal CM face burden:
+2. Minimal CM Part/Field burden:
    `Jump_avg` is admissible as failure of the `Field_{N,r,Q}` face through `Field_avg`, conditional on the same-tail `SCF_base` local modulus.
 
 The second burden is smaller than the h/F route, but it is not depth-only; it is installed by `AveragedFieldFaceAdmission.A` with the modulus hypothesis.
@@ -157,4 +157,4 @@ subtail.
 If a future route weakens the CM depth below the finite depth controlling the
 `SCF_base` components, this landing must be rechecked at that weaker depth. If a
 future route omits the same-tail modulus, this note does not give an
-unconditional Field-face landing.
+unconditional Field-Part/Field landing.

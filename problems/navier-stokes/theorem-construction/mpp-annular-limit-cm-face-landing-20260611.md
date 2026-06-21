@@ -18,7 +18,7 @@ ns_viewer:
 
 Date: 2026-06-11
 
-Status: corrected conditional silver CM face landing for the surviving annular
+Status: corrected conditional silver CM Part/Field landing for the surviving annular
 residual obstruction. This is not the gold forward-positive theorem, not a proof
 of the general annular readout bridge, and not a full CMI-finality claim. After
 readout-complete annular admission, Pack is no longer the CM argument; the
@@ -126,7 +126,7 @@ admitted object under this theorem.
 
 The annular witness has entered the same-fluid CM terminal tree by the admission
 premise. That premise has already paid the carrier/selection side for this
-annular object. The live CM faces on the admitted tail are:
+annular object. The live CM Part/Fields on the admitted tail are:
 
 ```math
 Part_{N_s,Q_{ann}},\qquad
@@ -249,7 +249,7 @@ surviving residual annular obstruction
 + annular CM-test admission
 + same-solution positive-radius carrier
 + readout completeness
-=> smooth readout-complete Member branch or finite nonsmooth readout-complete that face failure branch.
+=> smooth readout-complete Member branch or finite nonsmooth readout-complete that Part/Field failure branch.
 ```
 
 This is the CM answer to the annular objection. It does not erase the gold

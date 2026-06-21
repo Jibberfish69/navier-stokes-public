@@ -122,7 +122,7 @@ trajectories pointwise.  It says:
 
 ### Why this helps the repo
 
-A positive-`\nu` fold would have to show up inside the CM witness faces:
+A positive-`\nu` fold would have to show up inside the CM witnesss:
 
 ```text
 Pack failure, Part failure, or Field failure.
@@ -187,7 +187,7 @@ map must either:
 
 1. make the response field `z^\nu` blow before the NS field blows;
 2. create donor height through the forcing `\Delta u^\nu`;
-3. or pass through an already-classified CM face exit.
+3. or pass through an already-classified CM Part/Field exit.
 
 The proposed theorem is:
 

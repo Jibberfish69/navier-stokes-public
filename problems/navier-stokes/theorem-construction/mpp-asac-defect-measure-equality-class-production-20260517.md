@@ -195,5 +195,5 @@ class-specific no-incoming rigidity theorem strong enough to rule out the
 `B_ASAC` terminal source-residue atom.
 
 If this Liouville theorem is not supplied, the retained nonzero residue remains
-CM-usable only through the installed Pack/Part/Field sorting diagnostics; it is
+CM-usable only through the installed Part/Field sorting diagnostics; it is
 not a forward positive supplier discharge.

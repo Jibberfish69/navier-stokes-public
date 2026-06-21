@@ -6,7 +6,7 @@ ns_viewer:
   target_blocker: averaged-jumpavg-branch-native-discharge
   logical_landing_node: cm_field_direct_rows
   edge_effect: "Replaces the loose Field-face admission by the exact conditional bridge: Field_{N,r,Q} plus a same-tail SCF_base local modulus on the admitted averaged terminal tail implies Field_avg(T)."
-  cm_face_landing: Field
+  cm_part_field_question_landing: Field
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-averaged-jumpavg-field-face-reduction-20260607.md
     - problems/navier-stokes/theorem-construction/mcp-field-avg-equivalence-terminal-good-cover.md
@@ -38,7 +38,7 @@ Pack_Q + Part_{N,Q} + Jump_avg(T)
   => not Field_{N,r,Q} at that r.
 ```
 
-The unconditional Field-face landing returns only after `Field_{N,r,Q}` is strengthened to include this modulus, or after a separate theorem proves that `Field_{N,r,Q}` supplies it on the retained terminal subtail.
+The unconditional Field-Part/Field landing returns only after `Field_{N,r,Q}` is strengthened to include this modulus, or after a separate theorem proves that `Field_{N,r,Q}` supplies it on the retained terminal subtail.
 
 ## Setup
 
@@ -121,19 +121,19 @@ Jump_avg(T)
           and SCFBaseLocalModulus_N(T,r)).
 ```
 
-With `Pack_Q` and `Part_{N,Q}` retained, the old Field-face landing follows only under the additional bridge:
+With `Pack_Q` and `Part_{N,Q}` retained, the old Field-Part/Field landing follows only under the additional bridge:
 
 ```text
 Field_{N,r,Q} => SCFBaseLocalModulus_N(T,r)
 ```
 
-or under a strengthened definition of the Field face that includes the modulus.  Without one of those inputs, the remaining proof-force burden is exactly the missing `SCF_base` local modulus, not an already discharged Field face.  With that input supplied, the first remaining CM face failure is:
+or under a strengthened definition of the Field face that includes the modulus.  Without one of those inputs, the remaining proof-force burden is exactly the missing `SCF_base` local modulus, not an already discharged Field face.  With that input supplied, the first remaining CM Part/Field failure is:
 
 ```text
 Pack_Q + Part_{N,Q} + forall r > 0, not Field_{N,r,Q}.
 ```
 
-That face failure supports the class-exit conclusion:
+That Part/Field failure supports the class-exit conclusion:
 
 ```text
 Exit(Q):=not Member(Q).
@@ -154,6 +154,6 @@ It uses only:
 
 ## Boundary
 
-This note replaces the stronger `h/F` survivor-measure lower-bound demand for this CM face landing only after the same-tail `SCF_base` modulus is supplied. The h/F route may remain useful as a source-control or no-escape proof, but it is not required to consume `Jump_avg` once the same admitted averaged tail has the conditional `Field_{N,r,Q} + SCFBaseLocalModulus_N(T,r) => Field_avg` admission bridge.
+This note replaces the stronger `h/F` survivor-measure lower-bound demand for this CM Part/Field landing only after the same-tail `SCF_base` modulus is supplied. The h/F route may remain useful as a source-control or no-escape proof, but it is not required to consume `Jump_avg` once the same admitted averaged tail has the conditional `Field_{N,r,Q} + SCFBaseLocalModulus_N(T,r) => Field_avg` admission bridge.
 
 The remaining caveat is sharper than depth alone: the CM witness depth must be selected high enough to read the local `SCF_base` components, and the same-tail small-scale modulus must be supplied or proved from `Field_{N,r,Q}`. If a future route tries to spend this admission without that modulus, the note does not apply.

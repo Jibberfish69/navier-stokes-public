@@ -131,7 +131,7 @@ it is not the annular witness consumed by silver.
 On the periodic branch, failure of the whole transported torus atlas selection,
 carrier, or material comparability is a Pack failure of \(Q_{\mathrm{atlas}}\).
 On the whole-space branch, the exterior Duhamel survivor has its own
-Pack/Part/Field consumption.  A private diagnostic annular packet with no
+Part/Field consumption.  A private diagnostic annular packet with no
 admission is support only.  It is not an open fourth branch.
 
 ### Branch C: admitted annular witness
@@ -243,4 +243,4 @@ It does not prove the stronger scale-uniform annular supplier.
 
 It does prove that the specific hand-waved annular residual case has no
 remaining untyped route: it is gold pass, exact gold obstruction, no-admission
-support/Pack boundary, admitted Member branch, or admitted that face failure.
+support/Pack boundary, admitted Member branch, or admitted that Part/Field failure.
