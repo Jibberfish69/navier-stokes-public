@@ -1,8 +1,8 @@
 ---
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
-status: consolidated-frontier-installed-strict-cycle-payment-or-rigidity-open-base-participation-and-no-residue-skew-tested
+status: consolidated-frontier-installed-strict-cycle-payment-or-rigidity-open-transported-selector-upgrade-added
 logical_landing_node: upgraded_four_body_current_frontier
-edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, the pressure-adapted no-residue skew criterion, the critical-density/CKN supplement criterion, the signed-polar saturation supplement criterion, the rigid source-residue supplement criterion, the full pre-Cauchy remainder reduction criterion, the direct no-free terminal Zeno four-body attempt, the component test for FourBodyTerminalTraceAC.A, and the base participation nested-shell test. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste, pressure-adapted no-residue skew, critical-density/CKN, signed-polar saturation, rigid source-residue production, and full pre-Cauchy remainder reduction are proved criteria, not produced Navier-Stokes estimates. The no-residue skew route sharpens the source-square wall by trying to convert the selector/Leray/pressure commutator into viscosity, capacity drop, and L1 tail without a C_epsilon Theta_sigma^2 E_sigma residual. The direct four-body attack reduces NoFreeTerminalZenoDonorChain.A to FourBodyTerminalTraceAC.A or strict no-waste/unweighted reserve; the component test reduces FourBodyTerminalTraceAC.A to simultaneous terminal AC of the tower, participation, compactness/no-loss, geometry, and legal records; and the base participation nested-shell test proves physical material accounting is radius-discounted at heat scale. The remaining gold theorem is a same-carrier production theorem: prove those terminal moduli/no-waste, prove no-residue commutator payment, produce dN_miss=0 or a legal/charged polar defect, or produce MinimalZenoProfileProduction.A."
+edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, the pressure-adapted no-residue skew criterion, the transported pressure-adapted selector commutator-potential test, the critical-density/CKN supplement criterion, the signed-polar saturation supplement criterion, the rigid source-residue supplement criterion, the full pre-Cauchy remainder reduction criterion, the direct no-free terminal Zeno four-body attempt, the component test for FourBodyTerminalTraceAC.A, and the base participation nested-shell test. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste, pressure-adapted no-residue skew, transported-selector commutator potential, critical-density/CKN, signed-polar saturation, rigid source-residue production, and full pre-Cauchy remainder reduction are proved criteria/tests, not produced Navier-Stokes estimates. The no-residue skew route sharpens the source-square wall by trying to convert the selector/Leray/pressure commutator into viscosity, capacity drop, and L1 tail without a C_epsilon Theta_sigma^2 E_sigma residual; the transported-selector test identifies the mechanism LG_sigma=partial_sigma K_sigma+R_sigma needed to make that true. The direct four-body attack reduces NoFreeTerminalZenoDonorChain.A to FourBodyTerminalTraceAC.A or strict no-waste/unweighted reserve; the component test reduces FourBodyTerminalTraceAC.A to simultaneous terminal AC of the tower, participation, compactness/no-loss, geometry, and legal records; and the base participation nested-shell test proves physical material accounting is radius-discounted at heat scale. The remaining gold theorem is a same-carrier production theorem: prove those terminal moduli/no-waste, prove transported pressure-adapted no-residue commutator payment, produce dN_miss=0 or a legal/charged polar defect, or produce MinimalZenoProfileProduction.A."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-factorial-tower-radius-spend-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-participation-exchange-normal-form-20260621.md
@@ -23,6 +23,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-field-amplitude-to-quotient-tower-supplement-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-transported-pressure-adapted-selector-commutator-potential-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-density-ckn-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-polar-saturation-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-rigid-source-residue-fourbody-supplement-criterion-20260621.md
@@ -989,6 +990,50 @@ This route is open exactly at:
 \text{no-residue commutator payment.}
 }
 \tag{4BF.45g}
+```
+
+The transported-selector test makes the first and third clauses in `(4BF.45g)`
+more concrete.  If
+
+```math
+G_\sigma=A_\sigma^\ast A_\sigma,
+\qquad
+L=u\cdot\nabla,
+\tag{4BF.45h}
+```
+
+then incompressibility gives the exact metric identity
+
+```math
+\boxed{
+\langle A_\sigma L u,A_\sigma u\rangle
+=
+-{1\over2}\langle (LG_\sigma)u,u\rangle.
+}
+\tag{4BF.45i}
+```
+
+Thus the commutator is the material derivative of the selector metric.  The
+production target is to construct a pressure-adapted transported selector with
+
+```math
+\boxed{
+LG_\sigma=\partial_\sigma K_\sigma+R_\sigma,
+}
+\tag{4BF.45j}
+```
+
+where \(K_\sigma\) gives the bounded-below capacity \(\Phi_\sigma\), and
+\(R_\sigma\) is viscous-absorbable, summable tail, or charged geometry/legal
+defect.
+
+This identifies the concrete theorem behind the no-residue route:
+
+```math
+\boxed{
+\text{TransportedPressureAdaptedSelector.A.}
+}
+\tag{4BF.45k}
 ```
 
 The critical-density/CKN supplement has now been assembled in the same exact
