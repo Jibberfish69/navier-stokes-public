@@ -252,7 +252,7 @@ It is not a producer theorem:
 \[
 \boxed{
 \text{Duhamel/viscosity/local energy}
-\centernot\Longrightarrow
+\not\Longrightarrow
 \text{same-carrier source-square control}.
 }
 \tag{DLT.20}
