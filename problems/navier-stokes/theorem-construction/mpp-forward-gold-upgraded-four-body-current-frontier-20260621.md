@@ -28,6 +28,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transported-pressure-adapted-selector-commutator-potential-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transported-full-hodgestokes-selector-payment-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-return-terminal-ac-direct-attempt-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-return-recurrence-defect-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lossless-full-hodgestokes-packet-rigidity-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-packet-compactness-noloss-attempt-20260621.md
@@ -1234,6 +1235,73 @@ return subpiece lands exactly in
 \quad\text{or charged Body-IV geometry defect.}
 }
 \tag{4BF.45k9}
+```
+
+The Body-IV recurrence/descent test has now been run against that return
+subpiece.  For a deformation gradient
+
+```math
+\dot F=(\nabla u)(X,t)F,
+\qquad
+C=F^TF,
+\qquad
+\det C=1,
+\tag{4BF.45k10}
+```
+
+a retained material line obeys
+
+```math
+{d\over dt}\log|F(t)\xi|
+=
+\langle S e(t),e(t)\rangle,
+\qquad
+e(t)={F(t)\xi\over|F(t)\xi|}.
+\tag{4BF.45k11}
+```
+
+Therefore positive deformation return on a retained line satisfies
+
+```math
+A_+(I,e)
+\le
+\left[\log|F(t_1)\xi|-\log|F(t_0)\xi|\right]_+
++A_-(I,e).
+\tag{4BF.45k12}
+```
+
+Summed over a terminal recurrence chain, repeated positive return has the exact
+alternative
+
+```math
+\boxed{
+\sum_k A_+(I_k,e_k)=\infty
+\Longrightarrow
+\text{endpoint metric growth}
+\ \vee\
+\text{infinite signed negative partner}
+\ \vee\
+\text{infinite selector/frame/collar switching.}
+}
+\tag{4BF.45k13}
+```
+
+So Body-IV recurrence supplies defect routing, not a reserve producer.  The
+three branches are respectively charged geometry/carrier defect,
+signed-saturation/no-free-Zeno, and selector/frame drift.  This returns to the
+same production fork:
+
+```math
+\boxed{
+\text{TerminalFullCycleSaturation.A}
+\quad\text{or}\quad
+\text{NoFreeTerminalZenoDonorChain.A}
+\quad\text{or}\quad
+\text{StrictFourBodyNoWasteLyapunov.A}
+\quad\text{or}\quad
+\text{MinimalZenoProfileProduction.A.}
+}
+\tag{4BF.45k14}
 ```
 
 The shell-level version of the same route is now recorded as
