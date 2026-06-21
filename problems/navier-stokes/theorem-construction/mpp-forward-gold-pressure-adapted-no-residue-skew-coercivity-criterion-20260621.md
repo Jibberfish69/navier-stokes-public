@@ -2,8 +2,10 @@
 theorem_id: forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621
 status: algebraic-skew-reduction-proved-full-hodge-stokes-production-open
 logical_landing_node: pressure_adapted_no_residue_skew_coercivity
-edge_effect: "Develops the no-residue route for deleting the current square-source residual after repairing the projection-only mistake. The selected object is not A_sigma=S_sigma P alone. Leray projection is only one compatibility channel inside a participation-preserving Hodge-Stokes balance packet carrying convection, pressure, viscosity, time, divergence, cutoff/collar, scale, and signed-saturation records on the same carrier. The transport-channel interaction still has the exact skew/commutator identity with G_sigma=(A_sigma^tr)^*A_sigma^tr, namely <A_sigma^tr(u.grad u),A_sigma^tr u>=-1/2<[u.grad,G_sigma]u,u>. The production theorem is now full-cycle: the selected positive sum of transport, pressure, viscous, time, divergence, cutoff, scale, and signed channels must be paid by epsilon-viscosity, sigma-capacity drop, and L1 tail, with no C_epsilon Theta_sigma^2 E_sigma remainder. The note proves the algebraic transport-channel reduction and the criterion implication; it now points to the exact compactness/no-loss criterion for the full packet, but it does not prove the full Hodge-Stokes packet production theorem."
+edge_effect: "Develops the no-residue route for deleting the current square-source residual after repairing the projection-only mistake. The selected object is not A_sigma=S_sigma P alone. Leray projection is only one compatibility channel inside a participation-preserving packet carrying convection, pressure complement, viscosity, time, divergence, cutoff/collar, scale, and signed-saturation records on the same carrier. The phrase Hodge-Stokes packet is used only as a working upgrade label over the installed Carrier Leray-Hodge projector and Stokes/Laplacian generator. The transport-channel interaction still has the exact skew/commutator identity with G_sigma=(A_sigma^tr)^*A_sigma^tr, namely <A_sigma^tr(u.grad u),A_sigma^tr u>=-1/2<[u.grad,G_sigma]u,u>. The production theorem is now full-cycle: the selected positive sum of transport, pressure, viscous, time, divergence, cutoff, scale, and signed channels must be paid by epsilon-viscosity, sigma-capacity drop, and L1 tail, with no C_epsilon Theta_sigma^2 E_sigma remainder. The note proves the algebraic transport-channel reduction and the criterion implication; it now points to the exact compactness/no-loss criterion for the full packet, but it does not prove the upgraded full-packet production theorem."
 parents:
+  - problems/navier-stokes/theorem-construction/carrier-axiom-sheet.md
+  - problems/navier-stokes/theorem-construction/carrier-realization-classical-identification.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-precauchy-to-gauge-quotient-tower-bridge-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-local-positive-precauchy-source-carleson-direct-attempt-note.md
@@ -73,6 +75,27 @@ incompressible transport part skew while the selected carrier still carries the
 full pressure-viscosity-incompressibility packet.
 
 ## 1. Participation-preserving Hodge-Stokes packet
+
+The packet name is a working label.  The installed repo structure is the
+projected carrier
+
+```math
+\partial_tX+\mathbb P_DN_D(X)=A_DX,
+\tag{PAN.3a}
+```
+
+realized classically as
+
+```math
+\partial_tu+\mathbb P(u\cdot\nabla u)=\nu\mathbb P\Delta u,
+\qquad
+\nabla p=(I-\mathbb P)(u\cdot\nabla u)
+\tag{PAN.3b}
+```
+
+with the Stokes operator \(A=-\mathbb P\Delta\).  The upgrade here is to keep
+the projected channel, pressure complement, Stokes/viscous channel, time
+channel, and divergence constraint together during terminal selection.
 
 The earlier one-channel formulation
 
