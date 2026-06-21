@@ -24,6 +24,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transported-pressure-adapted-selector-commutator-potential-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-transported-full-hodgestokes-selector-payment-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lossless-full-hodgestokes-packet-rigidity-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-packet-compactness-noloss-attempt-20260621.md
@@ -1091,6 +1092,74 @@ This identifies the concrete theorem behind the no-residue route:
 }
 \tag{4BF.45k}
 ```
+
+The direct attempt at `(4BF.45k)` has now been run.  The transport identity is
+real, but the scalar heat-scale selector cannot itself be the transported
+object.  For
+
+```math
+g_\sigma(s,x,\xi)=\gamma(\log|\xi|-\sigma),
+\tag{4BF.45k1}
+```
+
+the cotangent material derivative gives
+
+```math
+D_s^c\log|\xi|
+=
+-\hat\xi\cdot S\hat\xi,
+\qquad
+S={1\over2}(\nabla u+\nabla u^T).
+\tag{4BF.45k2}
+```
+
+Thus
+
+```math
+D_s^c g_\sigma
+=
+\gamma'(\log|\xi|-\sigma)
+\big(-\hat\xi\cdot S\hat\xi-\sigma_s\big).
+\tag{4BF.45k3}
+```
+
+A single scalar scale speed \(\sigma_s\) cannot match the direction-dependent
+quantity \(-\hat\xi\cdot S\hat\xi\) on a genuine selected packet.  A fixed
+scalar selector therefore recreates the active strain/source-square residue,
+while a transported selector must become anisotropic and material.
+
+So `(4BF.45k)` reduces to a same-carrier return theorem:
+
+```math
+\boxed{
+\text{anisotropic transported full Hodge-Stokes selector}
+\quad\Longrightarrow\quad
+\text{paid return to heat-scale packet.}
+}
+\tag{4BF.45k4}
+```
+
+That return must also carry the pressure trace, viscous selector commutator,
+incompressibility/sign record, cutoff/collar record, tail record, and
+bounded-below capacity on the same carrier.  With current inputs, this is not a
+smaller producer than the frontier already isolated:
+
+```math
+\boxed{
+\text{TransportedFullHodgeStokesSelector.A}
+\Leftarrow
+\text{FourBodyTerminalTraceAC.A}
+\quad\text{or}\quad
+\text{StrictFourBodyNoWasteLyapunov.A}
+}
+\tag{4BF.45k5}
+```
+
+together with same-carrier full-packet compactness/no-loss and selected
+full-packet identification.  The transported-selector branch is therefore
+exhausted at the direct-selector level: it explains the square-source residue
+as unreturned cotangent metric motion, but it does not independently produce
+the unweighted terminal reserve.
 
 The shell-level version of the same route is now recorded as
 `LPFullBalancePayment.A` / `DyadicParticipationNoFreeSource.A`.  It keeps the
