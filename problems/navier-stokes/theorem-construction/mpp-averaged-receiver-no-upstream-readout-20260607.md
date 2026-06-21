@@ -16,7 +16,7 @@ ns_viewer:
 
 Installed route-separation note for the averaged finite-energy receiver branch.
 It does not prove `End_NS_avg`, `End_NS`, the Clay theorem, or the final
-Pack/Part/Field terminal witness consumption.
+Part/Field terminal witness consumption.
 
 ## Result
 
@@ -121,12 +121,12 @@ This uses neither pointwise pressure recovery nor terminal readout upstream.
 This note keeps the averaged route inside the CM contrapositive discipline. It
 does not label the averaged cover problem as `Exit(Q)` by itself. The checked
 fail branch enters the CM test and, with `Pack_Q` and `Part_{N,Q}` retained,
-derives the concrete Field-face failure only after the same-tail modulus is part
+derives the concrete Field-Part/Field failure only after the same-tail modulus is part
 of the Field row or has been proved from it:
 
 ```math
 \forall r>0\,\neg Field_{N,r,Q}.
 ```
 
-That face failure supports `Exit(Q):=\neg Member(Q)` once the modulus input has
+That Part/Field failure supports `Exit(Q):=\neg Member(Q)` once the modulus input has
 been supplied.

@@ -104,7 +104,7 @@ from the `B_ASAC` clauses alone. That stronger theorem would say:
 
 ```text
 every B_ASAC terminal source residue vanishes, without first requiring
-finite CM participation, no incoming participation flux, or a CM face-exit
+finite CM participation, no incoming participation flux, or a CM Part/Field-exit
 classification.
 ```
 

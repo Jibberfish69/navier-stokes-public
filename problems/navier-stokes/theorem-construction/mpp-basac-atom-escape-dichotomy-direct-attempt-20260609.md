@@ -133,7 +133,7 @@ Thus the temporal residence door is a genuine theorem, not installed.
 
 If the atom has no fixed incoming source-drain and no temporal residence, the
 remaining hope is that the pressure/eigenframe channel must sustain the native
-positive source in a way that becomes a legal charge or witness-face failure:
+positive source in a way that becomes a legal charge or witness failure:
 
 ```math
 PressureEigenframeSustain.A.
@@ -160,7 +160,7 @@ TerminalPressureHessianNoSustain.A
 ```
 
 or a direct theorem classifying the pressure/eigenframe sustain as Pack, Part,
-or licensed Field face failure on the same retained ledger.
+or licensed Field Part/Field failure on the same retained ledger.
 
 None of these is installed.
 
@@ -202,14 +202,14 @@ TerminalPositiveSourceAtomEscape.A:
 \quad
 \text{a terminal native positive source atom in }B_{ASAC}
 \text{ cannot be simultaneously diffuse in parents, zero-thickness in time,
-and pressure/eigenframe-sustained without a same-ledger Pack/Part/Field face
+and pressure/eigenframe-sustained without a same-ledger Part/Field face
 failure.}
 }
 ```
 
 This atom is smaller than `SourcePulseExclusion.A` and smaller than broad
 `PositiveRemainderDepletion.A`.  It is the exact place where the current proof
-needs new content after ASAC, donor balance, entrance decay, and Pack-first
+needs new content after ASAC, donor balance, entrance decay, and Field-certification
 zero-radius sorting have been spent.
 
 ## Verdict

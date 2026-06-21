@@ -4,7 +4,7 @@ ns_viewer:
   status: conditional-on-scfbase-local-modulus
   proof_role: route_reentry
   logical_landing_node: averaged_terminal_route
-  edge_effect: "Splits the averaged terminal cover/scheduler problem into the no-Jump_avg pass route and the Jump_avg branch; the Jump_avg Field-face landing is conditional on the same-tail SCF_base local modulus required by AveragedFieldFaceAdmission.A."
+  edge_effect: "Splits the averaged terminal cover/scheduler problem into the no-Jump_avg pass route and the Jump_avg branch; the Jump_avg Field-Part/Field landing is conditional on the same-tail SCF_base local modulus required by AveragedFieldFaceAdmission.A."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-aact-global-finite-cover-scheduler-attempt.md
     - problems/navier-stokes/theorem-construction/mpp-tgc-a-cover-positive-scale-terminal-cover-note.md
@@ -121,7 +121,7 @@ Field_{N,r,Q}+SCFBaseLocalModulus_N(T,r)\Longrightarrow Field_{avg}(T)
 ```
 
 on the same admitted averaged tail. Its contrapositive consumes `Jump_avg` as
-the first remaining CM face failure under retained `Pack_Q` and `Part_{N,Q}`
+the first remaining CM Part/Field failure under retained `Pack_Q` and `Part_{N,Q}`
 only after the modulus is part of the Field row or has been separately proved.
 The positive all-branches cover theorem from `OriginalSmoothData` still fails as
 a standalone cover theorem; the CM branch split is now conditional at the exact
@@ -150,6 +150,6 @@ Exit(Q):=\neg Member(Q).
 Do not spend readout objects upstream. `READ.COVER`, `DTC.Read`, `Field.Read`,
 `READ.END`, and `End_NS` remain downstream of `End_NS_avg`. The unresolved
 `h/F` lower/nontriviality theorem may still be useful as a stronger source or
-no-escape theorem, but the CM face primitive for this averaged branch is exactly
+no-escape theorem, but the CM Part/Field primitive for this averaged branch is exactly
 one of the following: the same-tail `SCF_base` modulus, or a theorem proving that
 `Field_{N,r,Q}` supplies that same-tail modulus.

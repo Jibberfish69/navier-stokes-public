@@ -26,7 +26,7 @@ good averaged branch and then reads the averaged endpoint back to the old
 pointwise endpoint. The live split is:
 
 1. CM source-pulse branch: `SourcePulseCMExit.A` already consumes the retained
-   source-pulse survivor as a Pack/that face failure.
+   source-pulse survivor as a Pack/that Part/Field failure.
 2. Positive `PCTP.hard` terminal-tail production: the route requires literal
    no-`Jump_avg`, so the branch-killer is the sharper no-pulse/source-control
    supplier `OriginalSmoothData=>SourcePulseExclusion.A` or its equivalent
