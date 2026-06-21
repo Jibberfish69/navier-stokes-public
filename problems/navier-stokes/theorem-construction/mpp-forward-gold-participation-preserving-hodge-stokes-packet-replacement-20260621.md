@@ -155,9 +155,11 @@ where
 ```math
 \nabla p_X
 =
-(I-\mathbb P)\big((X\cdot\nabla)X\big).
+-(I-\mathbb P)\big((X\cdot\nabla)X\big)
 \tag{HSP.8}
 ```
+
+under the sign convention in `(HSP.5)`.
 
 Thus the projected equation may still be used, but the pressure channel is not
 deleted from the carrier.
