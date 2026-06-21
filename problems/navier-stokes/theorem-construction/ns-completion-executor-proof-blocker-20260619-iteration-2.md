@@ -15,9 +15,9 @@ This pass re-entered changed refs from the first executor pass:
 
 Stop state: exact blocker, not theorem closure.
 
-ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A remains open at navier-stokes-exactness-rework-active; the CM obstruction has not yet been landed in Pack/Part/Field (Pack_Q, Part_{N,Q}, Field_{N,r,Q}) or closed by legitimacy rejection.
+ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A remains open at navier-stokes-exactness-rework-active; the CM obstruction has not yet been landed in Part/Field (Pack_Q, Part_{N,Q}, Field_{N,r,Q}) or closed by legitimacy rejection.
 
 Next executable proof tasks:
-- name the first open CM face from source-frontier.yaml and live-theorem-edge.yaml
+- name the first open CM Part/Field from source-frontier.yaml and live-theorem-edge.yaml
 - run theorem-legitimacy and pass-side nonvacuity before estimates
 - write a proof or failed-attempt note with the exact face mechanism
