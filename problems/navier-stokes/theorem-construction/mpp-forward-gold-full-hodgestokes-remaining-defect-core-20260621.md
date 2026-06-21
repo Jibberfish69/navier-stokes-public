@@ -1,8 +1,8 @@
 ---
 theorem_id: forward-gold-full-hodgestokes-remaining-defect-core-20260621
-status: conditional-closure-theorem-proved-residual-core-exact
+status: conditional-closure-theorem-proved-residual-core-exact-saturation-reduced-to-legal-or-zeno
 logical_landing_node: full_hodgestokes_remaining_defect_core
-edge_effect: "Consolidates the full Hodge-Stokes compactness/no-loss branch after the transport, local pressure, harmonic pressure, viscous, finite-selector, and terminal-trace reductions. Once the selected packet first carries the full participation tuple (R,N,P,V,I), same-carrier no-loss follows unless one of four residuals occurs: unbounded positive-part selector complexity or carrier drift, missing negative signed partner dN_miss, positive endpoint storage jump, or non-summable/non-terminal-AC legal residual. This is a conditional closure theorem for the branch, not the production of the four residual exclusions."
+edge_effect: "Consolidates the full Hodge-Stokes compactness/no-loss branch after the transport, local pressure, harmonic pressure, viscous, finite-selector, terminal-trace, and signed-saturation reductions. Once the selected packet first carries the full participation tuple (R,N,P,V,I), same-carrier no-loss follows unless one of four residuals occurs: unbounded positive-part selector complexity or carrier drift, terminal Zeno donor chain inherited from the missing negative partner, positive endpoint storage jump, or non-summable/non-terminal-AC legal residual. The finite signed-saturation branch is paid by retained partners, legal exits, LocalDonorBalance.A, and EntranceLeafDecay.A. This is a conditional closure theorem for the branch, not the production of the four residual exclusions."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-packet-compactness-noloss-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-transport-product-defect-evacuation-20260621.md
@@ -11,6 +11,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-viscous-defect-dichotomy-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-selector-graph-defect-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-terminal-trace-atom-routing-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-signed-saturation-residual-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-polar-saturation-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-participation-tuple-coupling-breaker-live-edge-audit-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-upgraded-four-body-current-frontier-20260621.md
@@ -65,7 +66,7 @@ where the four residuals are:
 ```math
 \mathcal R_{\rm sat}
 =
-\text{missing negative signed partner }dN_{\rm miss},
+\text{terminal Zeno donor chain produced by }dN_{\rm miss},
 \tag{RDC.4}
 ```
 
@@ -155,6 +156,23 @@ Terminal trace atoms route through the signed atom balance:
 The loss term is visible payment, the negative terminal countertrace is signed
 saturation, and the storage term is \(\mathcal R_{\rm jump}\).
 
+The signed-saturation residual has also been reduced.  The polar identity gives
+the missing negative partner \(dN_{\rm miss}\), but finite donor graphs are paid
+by retained partners, legal exits, local donor balance, and entrance-leaf decay.
+Thus
+
+```math
+dN_{\rm miss}\ne0
+\Rightarrow
+\mathcal R_{\rm legal}
+\cup
+\text{TerminalZenoDonorChain}.
+\tag{RDC.12a}
+```
+
+In the residual core, \(\mathcal R_{\rm sat}\) denotes that infinite terminal
+Zeno child, not a finite signed mismatch.
+
 ## 2. Proof of residual core
 
 Assume full-packet no-loss fails after `(RDC.1)` has been retained.
@@ -187,7 +205,7 @@ or route them into named channels:
 ```math
 \text{terminal trace atom}
 \Rightarrow
-\mathcal R_{\rm sat}\cup\mathcal R_{\rm jump}
+\mathcal R_{\rm legal}\cup\mathcal R_{\rm sat}\cup\mathcal R_{\rm jump}
 \quad\text{or visible loss.}
 \tag{RDC.16}
 ```
@@ -204,7 +222,9 @@ dN_{\mathcal S}=dN_{\rm ret}+dN_{\rm legal}+dN_{\rm miss}.
 ```
 
 If \(dN_{\rm miss}\ne0\), this is \(\mathcal R_{\rm sat}\).  If
-\(dN_{\rm miss}=0\) or is legally charged, and if \(\mathcal R_{\rm sel}\),
+the finite donor path is retained or legally charged, it is not an independent
+residual; if the path is infinite it is \(\mathcal R_{\rm sat}\).  If
+\(\mathcal R_{\rm sel}\), \(\mathcal R_{\rm sat}\),
 \(\mathcal R_{\rm jump}\), and \(\mathcal R_{\rm legal}\) are absent, then the
 positive selected carrier converges in total variation by the \(L^1\)
 Lipschitz property of \(a\mapsto[a]_+\):
