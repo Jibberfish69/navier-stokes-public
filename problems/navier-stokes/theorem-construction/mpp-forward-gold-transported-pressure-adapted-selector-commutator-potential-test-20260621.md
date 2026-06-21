@@ -1,8 +1,8 @@
 ---
 theorem_id: forward-gold-transported-pressure-adapted-selector-commutator-potential-test-20260621
-status: commutator-potential-identity-proved-transported-selector-production-open
+status: transport-commutator-potential-identity-proved-transported-selector-production-open
 logical_landing_node: transported_pressure_adapted_selector_commutator_potential
-edge_effect: "Pushes the pressure-adapted no-residue route one layer deeper. For a self-adjoint pressure-adapted selector metric G_sigma=A_sigma^*A_sigma and incompressible transport L=u.grad, the mixed interaction satisfies the exact identity <A_sigma L u,A_sigma u>=-1/2 <(L G_sigma)u,u>. Thus the selected source is the material variation of the selector metric. A fixed dyadic selector turns this into a strain commutator and hence the usual square-source residue. A selector transported by the incompressible cotangent/material flow can make the principal commutator vanish or become sigma-capacity/geometry motion, leaving only viscosity, lower-order pressure/Leray/cutoff remainders, and tail leakage. This identifies the concrete production route for PressureAdaptedNoResidueCommutator.A: construct a same-carrier transported pressure-adapted selector with symbol/gauge control, pressure projection compatibility, tail summability, and Body-IV geometry recertification. The production theorem remains open."
+edge_effect: "Pushes the pressure-adapted no-residue route one layer deeper. For a self-adjoint pressure-adapted selector metric G_sigma=A_sigma^*A_sigma and incompressible transport L=u.grad, the mixed interaction satisfies the exact operator identity <A_sigma L u,A_sigma u>=-1/2 <[L,G_sigma]u,u>. Thus the selected source is the transport commutator / cotangent material variation of the selector metric. A fixed dyadic selector turns this into a strain commutator and hence the usual square-source residue. A selector transported by the incompressible cotangent/material flow can make the principal commutator vanish or become sigma-capacity/geometry motion, leaving only viscosity, lower-order pressure/Leray/cutoff remainders, and tail leakage. This identifies the concrete production route for PressureAdaptedNoResidueCommutator.A: construct a same-carrier transported pressure-adapted selector with symbol/gauge control, pressure projection compatibility, tail summability, and Body-IV geometry recertification. The production theorem remains open."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-deformation-gradient-return-normal-form-20260621.md
@@ -29,9 +29,10 @@ This note asks how that commutator could become a capacity drop instead of a
 source-square residue.
 
 The answer is: choose the selector as a pressure-adapted material/cotangent
-object.  Then the commutator is the material derivative of the selector metric.
-Fixed selectors create a strain commutator.  Transported selectors move that
-strain into geometry/scale motion.
+object.  Then the commutator is the transport commutator, equivalently the
+cotangent material variation, of the selector metric.  Fixed selectors create a
+strain commutator.  Transported selectors move that strain into geometry/scale
+motion.
 
 ## 1. Exact metric identity
 
@@ -70,7 +71,7 @@ Use skew-adjointness:
 =
 -\langle u,L(G_\sigma u)\rangle
 =
--\langle u,(LG_\sigma)u\rangle
+-\langle u,[L,G_\sigma]u\rangle
 -\langle u,G_\sigma L u\rangle.
 \tag{TPC.5}
 ```
@@ -90,7 +91,7 @@ Therefore
 \boxed{
 \mathcal M_\sigma
 =
--{1\over2}\langle (LG_\sigma)u,u\rangle.
+-{1\over2}\langle [L,G_\sigma]u,u\rangle.
 }
 \tag{TPC.7}
 ```
@@ -101,19 +102,20 @@ Equivalently,
 \boxed{
 \langle[A_\sigma,L]u,A_\sigma u\rangle
 =
--{1\over2}\langle (LG_\sigma)u,u\rangle.
+-{1\over2}\langle [L,G_\sigma]u,u\rangle.
 }
 \tag{TPC.8}
 ```
 
 This is the key structural point.  The selected nonlinear source is not an
 arbitrary cubic term after the pressure-adapted skew part is removed.  It is
-the material variation of the selector metric \(G_\sigma\).
+the transport commutator of the selector metric \(G_\sigma\).  At the symbol
+level this is the cotangent material derivative.
 
 ## 2. Why a fixed selector gives the square-source residue
 
 For a fixed dyadic or packet selector, the metric \(G_\sigma\) does not move
-with the fluid deformation.  Then \(LG_\sigma\) is the commutator between
+with the fluid deformation.  Then \([L,G_\sigma]\) is the commutator between
 transport and the fixed scale/frequency cutoff.
 
 At principal-symbol level, if \(g_\sigma(x,\xi)\) is the symbol of
@@ -168,11 +170,12 @@ Here \(\partial_\sigma k_\sigma\) is the scale-capacity motion that will become
 \(-\partial_\sigma\Phi_\sigma\), and \(r_\sigma\) is a lower-order/tail
 remainder.
 
-At operator level, `(TPC.12)` is the desired metric-transport identity:
+At operator level, `(TPC.12)` is the desired metric-transport identity for
+the commutator:
 
 ```math
 \boxed{
-LG_\sigma
+[L,G_\sigma]
 =
 \partial_\sigma K_\sigma
 +
@@ -262,6 +265,38 @@ T_\sigma\in L^1_\sigma.
 
 Again, no \(C_\varepsilon\Theta_\sigma^2E_\sigma\) term is allowed.
 
+There is one more exact bookkeeping point.  If \(G_\sigma\) also depends on
+renormalized time \(s\), then the selected energy
+
+```math
+E_\sigma(s)={1\over2}\langle G_\sigma(s)u(s),u(s)\rangle
+\tag{TPC.20a}
+```
+
+contains the full Heisenberg combination
+
+```math
+\boxed{
+\partial_sG_\sigma+[L,G_\sigma].
+}
+\tag{TPC.20b}
+```
+
+Thus the production theorem may use the stronger transported metric equation
+
+```math
+\boxed{
+\partial_sG_\sigma+[L,G_\sigma]
+=
+\partial_\sigma K_\sigma+R_\sigma.
+}
+\tag{TPC.20c}
+```
+
+For a time-independent frozen selector, this reduces to `(TPC.13)`.  For a
+materially transported selector, `(TPC.20c)` is the exact equation that moves
+the principal strain commutator into scale-capacity/geometry motion.
+
 ## 5. Relation to Body IV
 
 The transported selector condition `(TPC.12)` is not an isolated Fourier trick.
@@ -318,7 +353,7 @@ It requires all of the following on the retained terminal same-carrier family:
 
 ```math
 \boxed{
-LG_\sigma=\partial_\sigma K_\sigma+R_\sigma
+\partial_sG_\sigma+[L,G_\sigma]=\partial_\sigma K_\sigma+R_\sigma
 \text{ with }R_\sigma\text{ viscous-absorbable or }L^1_\sigma;
 }
 \tag{TPC.26}
@@ -404,7 +439,8 @@ The no-residue idea has a sharper internal mechanism:
 
 ```math
 \boxed{
-\text{the bad commutator is the material derivative of the selector metric.}
+\text{the bad commutator is the transport/cotangent material derivative of the
+selector metric.}
 }
 \tag{TPC.34}
 ```
