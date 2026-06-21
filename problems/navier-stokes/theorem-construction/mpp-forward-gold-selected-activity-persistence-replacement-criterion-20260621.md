@@ -424,6 +424,13 @@ This note proves the abstract replacement criterion.
 
 It does not prove the Navier-Stokes production theorem `(SAP.32)`.
 
+The next measure-level production criterion is now explicit.  It is enough to
+prove that the retained four-body packet carries nonnegative selected carrier
+measures \(\mu_n^A\), that these measures are tight on the normalized
+same-carrier packet space, and that their weak limit is identified with the
+canonical selected carrier of the limiting Navier-Stokes profile up to
+\(K_C^+\).  Under those three conditions, `(SAP.32)` follows.
+
 The current four-body frontier is sharpened as follows:
 
 ```math
