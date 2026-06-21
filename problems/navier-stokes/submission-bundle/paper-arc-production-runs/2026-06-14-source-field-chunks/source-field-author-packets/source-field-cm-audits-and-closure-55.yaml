@@ -79,7 +79,7 @@ chunk:
 
       Zeno Residue Liouville B ASAC .A is not proved unconditionally from installed inputs.
 
-      Without one of these, the retained terminal atom remains a valid source-wall obstruction and can only be consumed by the installed CM Pack/Part/Field sorting diagnostics, not by the forward positive supplie
+      Without one of these, the retained terminal atom remains a valid source-wall obstruction and can only be consumed by the installed CM Part/Field sorting diagnostics, not by the forward positive supplie
       % ... source excerpt truncated for packet size ...
     truncated: true
   - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
@@ -402,7 +402,7 @@ chunk:
 
     Zeno Residue Liouville B ASAC .A is not proved unconditionally from installed inputs.
 
-    Without one of these, the retained terminal atom remains a valid source-wall obstruction and can only be consumed by the installed CM Pack/Part/Field sorting diagnostics, not by the forward positive supplier route.
+    Without one of these, the retained terminal atom remains a valid source-wall obstruction and can only be consumed by the installed CM Part/Field sorting diagnostics, not by the forward positive supplier route.
 
 
 
@@ -633,7 +633,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
