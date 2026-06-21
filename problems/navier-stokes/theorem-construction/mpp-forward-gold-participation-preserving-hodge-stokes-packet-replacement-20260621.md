@@ -2,8 +2,10 @@
 theorem_id: forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621
 status: channel-replacement-installed-production-open
 logical_landing_node: participation_preserving_hodge_stokes_packet_replacement
-edge_effect: "Installs the correction that Leray projection may appear only as one component of the terminal-selection packet, never as the packet itself. The selected object is upgraded to a participation-preserving Hodge-Stokes balance packet carrying convection, pressure, viscosity, time, divergence, cutoff/collar, Leray-commutator, and signed-saturation channels on the same carrier. The transported-selector commutator identity remains valid for the transport metric channel, but the no-residue production theorem must now pay the full pressure-viscosity-incompressibility packet rather than a projected force alone. This is a route repair and criterion, not a proof of the production theorem."
+edge_effect: "Installs the correction that Leray projection may appear only as one component of the terminal-selection packet, never as the packet itself. The phrase Hodge-Stokes packet is a working upgrade label, not an installed canonical repo label: the installed repo surfaces are the Carrier Leray-Hodge projector, carrier Laplacian/Stokes generator, and their classical Leray/Stokes realization. The selected object is upgraded from that projected carrier to a participation-preserving packet carrying convection, pressure complement, viscosity, time, divergence, cutoff/collar, Leray-commutator, and signed-saturation channels on the same carrier. The transported-selector commutator identity remains valid for the transport metric channel, but the no-residue production theorem must now pay the full pressure-viscosity-incompressibility packet rather than a projected force alone. This is a route repair and criterion, not a proof of the production theorem."
 parents:
+  - problems/navier-stokes/theorem-construction/carrier-axiom-sheet.md
+  - problems/navier-stokes/theorem-construction/carrier-realization-classical-identification.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transported-pressure-adapted-selector-commutator-potential-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md
@@ -18,6 +20,27 @@ Date: 2026-06-21
 ## 0. Correction
 
 The one-channel Leray replacement is too small for terminal selection.
+
+The name used here needs a repo-authority caveat.  "Hodge-Stokes packet" is a
+working name for the upgraded terminal-selection object.  The installed repo
+surfaces are the Carrier Leray-Hodge projector and carrier Stokes/Laplacian
+generator in `carrier-axiom-sheet.md`, realized classically in
+`carrier-realization-classical-identification.md` as
+
+```math
+\mathbb P_D=\mathbb P_{\rm Leray},
+\qquad
+\Delta_{D,\omega}=-\Delta,
+\qquad
+A=-\mathbb P\Delta,
+\qquad
+N_D(X)=\mathbb P((X\cdot\nabla)X).
+\tag{HSP.0}
+```
+
+So the installed model is the projected carrier.  The upgrade in this note is
+to keep the projected channel and its pressure complement together during
+terminal selection.
 
 The rule is:
 
