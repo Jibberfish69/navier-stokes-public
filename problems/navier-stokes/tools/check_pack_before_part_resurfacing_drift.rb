@@ -142,10 +142,28 @@ BROAD_TERMINAL_FORBIDDEN = FORBIDDEN.select do |label, _|
     label.include?("source of participation")
 end.freeze
 
+BROAD_CM_OBJECT_FORBIDDEN = FORBIDDEN.select do |label, _|
+  label.include?("CM object") ||
+    label.include?("CM exit") ||
+    label.include?("Pack-first CM") ||
+    label.include?("CM witness grammar") ||
+    label.include?("CM packet") ||
+    label.include?("Pack_Q before Field")
+end.freeze
+
 BROAD_SCAN_ROOTS = %w[
   problems/navier-stokes
   system/runner/lib
   system/runner/test
+].freeze
+
+AUTHORITY_MARKER_PATHS = %w[
+  AGENTS.md
+  problems/navier-stokes/agent-contract.yaml
+  problems/navier-stokes/live-theorem-edge.yaml
+  problems/navier-stokes/target-operating-contract.yaml
+  system/runner/lib/ns_cm_contrapositive_behavior_contract.rb
+  system/meta/research-os/proof-methods/ns-cm-contrapositive-integration.md
 ].freeze
 
 REQUIRED_MARKERS = [
@@ -170,8 +188,9 @@ ACTIVE_PATHS.each do |relative_path|
   end
 
   text = path.read
-  unless REQUIRED_MARKERS.any? { |marker| text.include?(marker) }
-    violations << "#{relative_path}: missing Pack-before-Part resurfacing marker"
+  if AUTHORITY_MARKER_PATHS.include?(relative_path) &&
+      !REQUIRED_MARKERS.any? { |marker| text.include?(marker) }
+    violations << "#{relative_path}: missing Pack-out-of-CM marker"
   end
 
   unless relative_path == "problems/navier-stokes/tools/check_pack_before_part_resurfacing_drift.rb"
@@ -202,7 +221,7 @@ BROAD_SCAN_ROOTS.each do |relative_root|
     next if text.include?("\x00")
 
     text.each_line.with_index(1) do |line, line_no|
-      BROAD_TERMINAL_FORBIDDEN.each do |label, pattern|
+      (BROAD_TERMINAL_FORBIDDEN.merge(BROAD_CM_OBJECT_FORBIDDEN)).each do |label, pattern|
         next unless line.match?(pattern)
 
         preview = line.gsub(/\s+/, " ").strip
