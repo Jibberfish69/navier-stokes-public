@@ -49,7 +49,7 @@ chunk:
     text: |+
       \subsection{Clay problem Same-Witness Atlas Selection For H 1/2}
 
-      Conditional supplier lemma for Same LedgerHHalf Extraction.A. The selection step is internal once the retained Pack atlas belongs to the witness record.
+      Conditional supplier lemma for Same LedgerHHalf Extraction.A. The selection step is internal once the retained Field-window evidence atlas belongs to the witness record.
 
       \[
       \mathcal A(\mathcal W)=\{a_1,\dots,a_M\},
@@ -67,7 +67,7 @@ chunk:
 
       Moreover, if the atlas has bounded overlap and Transported PartitionLPCommutator.A is available at the selected shell scale, then
 
-      The atlas A( W) is part of the retained Pack data of the same witness. The functions a W (t) are fixed before the terminal dyadic shell is selected.
+      The atlas A( W) is part of the retained Field-window evidence data of the same witness. The functions a W (t) are fixed before the terminal dyadic shell is selected.
 
       \[
       E_{a_m}(m)
@@ -80,7 +80,7 @@ chunk:
 
       This lemma prevents a public critical shell from floating outside the CM witness. The chart is selected from the material atlas already carried by Pack Q. Once the commutator supplier controls localization, the shell has a material address inside W.
 
-      The next question is participation and tower coherence. Participation is handled by Part; persistent high-frequency loss on retained Pack+Part moves to the Field analysis.
+      The next question is participation and tower coherence. Participation is handled by Part; persistent high-frequency loss on retained Field-window evidence+Part moves to the Field analysis.
 
       This lemma supplies the same-witness selection step only. It does not prove the downstream HHalf Oscillation Field Exit.A theorem.
 
@@ -126,7 +126,7 @@ chunk:
       \sup_{t<T_*}\|u(t)\|_{H^s(R^3)}<\infty.
       \]
 
-      Classical H s local theory for s>5/2 extends the same smooth solution beyond T *. This contradicts the assumed terminal Sobolev wall. So retained Pack and retained Part force
+      Classical H s local theory for s>5/2 extends the same smooth solution beyond T *. This contradicts the assumed terminal Sobolev wall. So retained Field-window evidence and retained Part force
 
       \[
       \forall \rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
@@ -335,7 +335,7 @@ chunk:
       \neg Pack_Q(\mathcal W).
       \]
 
-      Assume Pack Q survives. The retained Pack atlas supplies finitely many transported cutoffs
+      Assume Pack Q survives. The retained Field-window evidence atlas supplies finitely many transported cutoffs
 
       \[
       \{\chi_a^{\mathcal W}(t)\}_{a\in\mathcal A(\mathcal W)}
@@ -359,14 +359,14 @@ chunk:
 
       Assume Part survives. The selected localized dyadic shell belongs to the same material carrier and to the same pressure-viscosity law. This is exactly
 
-      The extracted packet feeds Field Finite Difference ReadoutHHalf.A and Field Coherence Controls Critical Shell.A. On retained Pack+Part, persistent terminal H 1/2 shell energy lands in the Field face.
+      The extracted packet feeds Field Finite Difference ReadoutHHalf.A and Field Coherence Controls Critical Shell.A. On retained Field-window evidence+Part, persistent terminal H 1/2 shell energy lands in the Field face.
 
 
     truncated: false
   context_excerpt: |+
     \subsection{Clay problem Same-Witness Atlas Selection For H 1/2}
 
-    Conditional supplier lemma for Same LedgerHHalf Extraction.A. The selection step is internal once the retained Pack atlas belongs to the witness record.
+    Conditional supplier lemma for Same LedgerHHalf Extraction.A. The selection step is internal once the retained Field-window evidence atlas belongs to the witness record.
 
     \[
     \mathcal A(\mathcal W)=\{a_1,\dots,a_M\},
@@ -384,7 +384,7 @@ chunk:
 
     Moreover, if the atlas has bounded overlap and Transported PartitionLPCommutator.A is available at the selected shell scale, then
 
-    The atlas A( W) is part of the retained Pack data of the same witness. The functions a W (t) are fixed before the terminal dyadic shell is selected.
+    The atlas A( W) is part of the retained Field-window evidence data of the same witness. The functions a W (t) are fixed before the terminal dyadic shell is selected.
 
     \[
     E_{a_m}(m)
@@ -397,7 +397,7 @@ chunk:
 
     This lemma prevents a public critical shell from floating outside the CM witness. The chart is selected from the material atlas already carried by Pack Q. Once the commutator supplier controls localization, the shell has a material address inside W.
 
-    The next question is participation and tower coherence. Participation is handled by Part; persistent high-frequency loss on retained Pack+Part moves to the Field analysis.
+    The next question is participation and tower coherence. Participation is handled by Part; persistent high-frequency loss on retained Field-window evidence+Part moves to the Field analysis.
 
     This lemma supplies the same-witness selection step only. It does not prove the downstream HHalf Oscillation Field Exit.A theorem.
 
@@ -433,7 +433,7 @@ chunk:
     \sup_{t<T_*}\|u(t)\|_{H^s(R^3)}<\infty.
     \]
 
-    Classical H s local theory for s>5/2 extends the same smooth solution beyond T *. This contradicts the assumed terminal Sobolev wall. So retained Pack and retained Part force
+    Classical H s local theory for s>5/2 extends the same smooth solution beyond T *. This contradicts the assumed terminal Sobolev wall. So retained Field-window evidence and retained Part force
 
     \[
     \forall \rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
@@ -579,7 +579,7 @@ chunk:
     \neg Pack_Q(\mathcal W).
     \]
 
-    Assume Pack Q survives. The retained Pack atlas supplies finitely many transported cutoffs
+    Assume Pack Q survives. The retained Field-window evidence atlas supplies finitely many transported cutoffs
 
     \[
     \{\chi_a^{\mathcal W}(t)\}_{a\in\mathcal A(\mathcal W)}
@@ -603,12 +603,12 @@ chunk:
 
     Assume Part survives. The selected localized dyadic shell belongs to the same material carrier and to the same pressure-viscosity law. This is exactly
 
-    The extracted packet feeds Field Finite Difference ReadoutHHalf.A and Field Coherence Controls Critical Shell.A. On retained Pack+Part, persistent terminal H 1/2 shell energy lands in the Field face.
+    The extracted packet feeds Field Finite Difference ReadoutHHalf.A and Field Coherence Controls Critical Shell.A. On retained Field-window evidence+Part, persistent terminal H 1/2 shell energy lands in the Field face.
 
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
