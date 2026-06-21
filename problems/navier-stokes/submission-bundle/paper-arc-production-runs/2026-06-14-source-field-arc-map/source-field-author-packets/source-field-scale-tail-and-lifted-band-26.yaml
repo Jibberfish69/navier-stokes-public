@@ -395,7 +395,7 @@ chunk:
 
       On the failure branch, there is an active terminal material point with no positive SCF-good cylinder. The Good Scale test surface identifies this as the bad material set and records it in the averaged endpoint grammar as Jump avg. Pointwise, this is loss of every positive local coherence scale, hence a Field-side exit.
 
-      This theorem should formalize that an active terminal material point with no positive SCF-good cylinder is exactly a Field/Jump exit in the Pack/Part/Field grammar.
+      This theorem should formalize that an active terminal material point with no positive SCF-good cylinder is exactly a Field/Jump exit in the Part/Field grammar.
 
 
     truncated: false
@@ -719,7 +719,7 @@ chunk:
 
     On the failure branch, there is an active terminal material point with no positive SCF-good cylinder. The Good Scale test surface identifies this as the bad material set and records it in the averaged endpoint grammar as Jump avg. Pointwise, this is loss of every positive local coherence scale, hence a Field-side exit.
 
-    This theorem should formalize that an active terminal material point with no positive SCF-good cylinder is exactly a Field/Jump exit in the Pack/Part/Field grammar.
+    This theorem should formalize that an active terminal material point with no positive SCF-good cylinder is exactly a Field/Jump exit in the Part/Field grammar.
 
 
 
@@ -748,7 +748,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
