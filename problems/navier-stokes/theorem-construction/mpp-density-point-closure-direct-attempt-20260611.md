@@ -112,4 +112,4 @@ or, in the cone frame,
 ParabolicFunnelScaleCriticalBudget.A.
 ```
 
-No CM Pack/Part/Field closure is claimed in this note.
+No CM Part/Field closure is claimed in this note.

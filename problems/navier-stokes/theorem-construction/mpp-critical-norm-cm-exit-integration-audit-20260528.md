@@ -36,7 +36,7 @@ The `L^3` branch is the amplitude-critical translator. Under retained `Pack_Q` a
 R3CriticalL3WallToCMFace.A.
 ```
 
-It lands in the CM face grammar.
+It lands in the CM Part/Field grammar.
 
 ### Hhalf branch
 
@@ -49,7 +49,7 @@ FieldCoherenceControlsCriticalShell.A
 R3HHalfWallToCMFace.A
 ```
 
-The extraction theorem places the shell on Pack/Part or produces a same-ledger dyadic packet. The Field finite-difference readout supplies the exact matched modulus used by the shell estimate. The repaired top-level theorem lands persistent terminal `H^{1/2}` shell energy in Pack, Part, or Field.
+The extraction theorem places the shell on Pack/Part or produces a same-ledger dyadic packet. The Field finite-difference readout supplies the exact matched modulus used by the shell estimate. The repaired top-level theorem lands persistent terminal `H^{1/2}` shell energy in Part or Field.
 
 ## Integration rule
 
@@ -63,7 +63,7 @@ L^3: \text{amplitude-critical concentration},
 H^{1/2}: \text{frequency-critical dyadic organization}.
 ```
 
-Both mechanisms terminate in the same CM face disjunction.
+Both mechanisms terminate in the same CM Part/Field disjunction.
 
 ## Embedding discipline
 
@@ -73,7 +73,7 @@ The face disjunction is used through
 ClayCMContrapositiveEmbedding.A.
 ```
 
-This preserves the packet discipline: `Member(Q)` remains downstream of the full Pack/Part/Field witness-face record, and the face failure supplies the classified CM class-exit witness.
+This preserves the packet discipline: `Member(Q)` remains downstream of the full Part/Field witness record, and the Part/Field failure supplies the classified CM class-exit witness.
 
 ## Coverage classification
 

@@ -176,7 +176,7 @@ every minimal near-resonant two-frame Pack molecule either
   produces a one profile-decomposition-frame selected Pack defect,
   has a uniform terminal anti-atom modulus,
   lands in a rigid two-frame Liouville class,
-  or creates a concrete Pack/Part/Field face failure strong enough to feed
+  or creates a concrete Part/Field Part/Field failure strong enough to feed
   NoGenuineExitFromSmoothData.A.
 ```
 

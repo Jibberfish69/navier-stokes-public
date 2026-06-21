@@ -13,7 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-basac-atom-escape-dichotomy-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-new-terminal-source-residence-mechanism-reentry-20260609.md
 new_live_criticism: NS-LIVE-20260609-178
-downstream_consequence: "CrossProfilePressureSourceTimeFaceSpread.A is not proved from installed inputs. The next atom is CrossProfileTerminalPositiveSourceAtomEscape.A: forbid a native positive source atom from being simultaneously diffuse in parents, zero-thickness in time, and pressure/eigenframe sustained without a same-ledger Pack/Part/Field face failure."
+downstream_consequence: "CrossProfilePressureSourceTimeFaceSpread.A is not proved from installed inputs. The next atom is CrossProfileTerminalPositiveSourceAtomEscape.A: forbid a native positive source atom from being simultaneously diffuse in parents, zero-thickness in time, and pressure/eigenframe sustained without a same-ledger Part/Field Part/Field failure."
 ---
 
 # Cross-profile pressure source time-face spread direct attempt
@@ -171,7 +171,7 @@ minimal bad cross-profile ancestry object cannot be simultaneously:
 diffuse in parents,
 zero-thickness in time,
 pressure/eigenframe sustained,
-and free of same-ledger Pack/Part/Field face failure.
+and free of same-ledger Part/Field Part/Field failure.
 ```
 
 This target is smaller than broad pressure/source tether and smaller than the

@@ -10,7 +10,7 @@ or the exact-potential selector branch.  It consumes the installed
 class-membership route:
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q},
 ```
 
 the retained terminal-tail production `PCTP.hard / TTU.A`, the manifestation
@@ -35,7 +35,7 @@ Use the following installed theorem surfaces.
    averaged order, consumed by
    [mpp-pctp-hard-governance-consumption-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md).
 4. `PCTP.5.E`: the bridge license that keeps the retained terminal-tail readout
-   inside the exact triadic `Pack/Part/Field` class-membership object, from
+   inside the exact triadic `Part/Field` class-membership object, from
    [mpp-pctp-hard-bridge-license-into-cm-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-pctp-hard-bridge-license-into-cm-audit-note.md).
 5. `MBR.E`: genuine PDE non-smoothness forces a blown or jump manifestation,
    equivalently a packing-detached, tower-blown, or jump manifestation, from
@@ -82,8 +82,7 @@ By `PCTP.hard / TTU.A`, the terminal tail has a retained readout family.  By
 object: it is exactly the triadic class-membership witness
 
 ```math
-CM_{N,r,Q}
-=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}
 ```
 
 on the same terminal family.

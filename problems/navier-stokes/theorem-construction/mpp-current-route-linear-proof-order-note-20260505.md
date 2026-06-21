@@ -19,7 +19,7 @@ The CM witness bridge is installed:
 Smooth(Q),
 ```
 
-and its contrapositive witness face is installed:
+and its contrapositive witness is installed:
 
 ```math
 NonSmooth(Q)

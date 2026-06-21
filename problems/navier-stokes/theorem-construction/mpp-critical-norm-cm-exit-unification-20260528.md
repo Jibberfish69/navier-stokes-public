@@ -44,7 +44,7 @@ The `L^3` branch reads terminal amplitude concentration. Under retained `Pack_Q`
 R3CriticalL3WallToCMFace.A.
 ```
 
-Hence the `L^3` branch lands in the Pack/Part/Field face grammar.
+Hence the `L^3` branch lands in the Part/Field face grammar.
 
 ## Branch II: Hhalf frequency-critical route
 
@@ -92,7 +92,7 @@ L^3: \text{amplitude-critical concentration},
 H^{1/2}: \text{frequency-critical dyadic organization}.
 ```
 
-Both mechanisms enter the same CM face grammar:
+Both mechanisms enter the same CM Part/Field grammar:
 
 ```math
 \neg Pack_Q\vee\neg Part_{N,Q}\vee\forall\rho>0\,\neg Field_{N,\rho,Q}.
@@ -106,4 +106,4 @@ The face disjunction is passed through
 ClayCMContrapositiveEmbedding.A.
 ```
 
-Thus `Member(Q)` remains downstream of the full Pack/Part/Field witness-face record, and the critical-norm bridge supplies a classified CM face witness on the same ledger.
+Thus `Member(Q)` remains downstream of the full Part/Field witness record, and the critical-norm bridge supplies a classified CM Part/Field witness on the same ledger.

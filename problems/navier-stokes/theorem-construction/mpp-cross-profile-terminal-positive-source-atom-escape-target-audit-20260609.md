@@ -11,7 +11,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-source-measure-participation-density-bridge-verification-20260518.md
   - problems/navier-stokes/theorem-construction/mpp-rendered-referee-reread-clay-exclusion-bridge-reentry-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
-  - problems/navier-stokes/theorem-construction/mpp-no-proof-bearing-first-face-failure-target-audit-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-no-proof-bearing-first-Part/Field-failure-target-audit-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-public-finality-first-exit-pack-wall-reentry-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-first-exit-pack-survival-mechanism-search-20260609.md
 new_live_criticism: NS-LIVE-20260609-179
@@ -30,7 +30,7 @@ CrossProfileTerminalPositiveSourceAtomEscape.A.
 
 Plainly, this asks whether a terminal native positive source atom can be
 diffuse in parents, zero-thickness in time, pressure/eigenframe sustained, and
-free of same-ledger Pack/Part/Field face failure.
+free of same-ledger Part/Field Part/Field failure.
 
 That is a useful supplier question only when it feeds the first-exit Pack wall.
 It is not the public Clay finality parent.
@@ -51,7 +51,7 @@ pressure-viscosity/source participation ledger fails, it lands at Part.
 `SourceMeasureParticipationDensityBridge.A` adds the participation-density
 shape: once the terminal atom is read as a shared source-current trace, a finite
 CM envelope plus no incoming participation flux would force residence. Failure
-of that envelope or flux condition is a CM face route, not an automatic positive
+of that envelope or flux condition is a CM Part/Field route, not an automatic positive
 deletion theorem.
 
 ## Checked public-finality authority
@@ -69,12 +69,12 @@ The installed classification chain is:
 ClayAdmissibleFiniteBreakdown(W_*)
 => CMTestAdmissibleTerminalObject(W_*)
 => SameSolutionTerminalObstruction(W_*)
-=> first Pack/Part/Field face failure
+=> first Part/Field Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
 This closes the outside-CM loophole. It does not prove that original smooth
-data cannot realize the first face failure.
+data cannot realize the first Part/Field failure.
 
 The public theorem still needs:
 
@@ -124,7 +124,7 @@ smooth data.
 
 `NS-LIVE-20260609-179`: `CrossProfileTerminalPositiveSourceAtomEscape.A` is the
 wrong parent target. The terminal native source residue is already classified by
-`TerminalSourceResidueCMExit.A` as Pack/Part face failure once admitted to the
+`TerminalSourceResidueCMExit.A` as Pack/Part Part/Field failure once admitted to the
 CM tree. Public Clay finality remains open because classification is not yet a
 contradiction for original smooth data. The loop must reset to
 `FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A`,
@@ -146,7 +146,7 @@ same-ledger payment for retained positive-scale reserve birth;
 terminal Pack survival from material-collar or fixed-coordinate readout;
 a direct theorem that the produced source atom cannot be the first Pack exit
   from original smooth data;
-a new Pack/Part/Field witness theorem strong enough to feed
+a new Part/Field witness theorem strong enough to feed
   NoGenuineExitFromSmoothData.A.
 ```
 

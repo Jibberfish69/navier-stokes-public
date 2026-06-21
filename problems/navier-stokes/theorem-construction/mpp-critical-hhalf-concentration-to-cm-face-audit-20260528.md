@@ -36,13 +36,13 @@ has a positive terminal lower bound or diverges after the route normalization.
 
 ## Proof spine
 
-1. **Pack-first branch.** If the selected critical shell energy cannot be placed on the transported material packet `Q` with the retained cover and coordinate ledger, the witness lands at `\neg Pack_Q`.
+1. **Field-certification branch.** If the selected critical shell energy cannot be placed on the transported material packet `Q` with the retained cover and coordinate ledger, the witness lands at `\neg Pack_Q`.
 
 2. **Part branch.** If the selected critical shell energy is located on `Q` but cannot be evolved through the same fixed-viscosity pressure/participation law, the witness lands at `\neg Part_{N,Q}`.
 
 3. **Retained Pack+Part branch.** Assume `Pack_Q` and `Part_{N,Q}`. The critical `H^{1/2}` signal is then attached to one same-fluid pressure-viscosity carrier.
 
-4. **Amplitude-concentration branch.** When the critical Sobolev signal contains local amplitude concentration visible in `L^3`, the existing local `L^3` translator supplies the route: local critical concentration becomes same-ledger native source residue or selected scale-critical source-wall failure, and the installed diagnostics land that object in the CM witness-face grammar.
+4. **Amplitude-concentration branch.** When the critical Sobolev signal contains local amplitude concentration visible in `L^3`, the existing local `L^3` translator supplies the route: local critical concentration becomes same-ledger native source residue or selected scale-critical source-wall failure, and the installed diagnostics land that object in the CM witness grammar.
 
 5. **Pure oscillatory branch.** When the `L^3` readout stays bounded while the selected `H^{1/2}` defect persists, the defect is high-frequency organization. Retained `Pack` preserves the material coordinate ledger. Retained `Part` preserves the pressure-viscosity participation law. The remaining terminal failure is loss of neighboring tower coherence at the selected depth/scale, hence `\neg Field_{N,r,Q}`.
 
@@ -66,4 +66,4 @@ The oscillatory reading is different: the flow carries increasingly fine same-sc
 
 ## Boundary
 
-This note records a candidate class-exit route on `H^{1/2}`. It does not install the theorem. The live CM promotion gate remains Pack/Part/Field landing through the direct-live surfaces.
+This note records a candidate class-exit route on `H^{1/2}`. It does not install the theorem. The live CM promotion gate remains Part/Field landing through the direct-live surfaces.

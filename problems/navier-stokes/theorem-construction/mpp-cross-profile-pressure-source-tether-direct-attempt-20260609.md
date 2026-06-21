@@ -30,7 +30,7 @@ In the canonical minimal bad cross-profile terminal ancestry object, the desired
 payment is stronger than pressure adjacency. The pressure/Leray structure must
 either bind to the native positive terminal source residue with a terminal
 time-spread estimate, or force a same-ledger pressure branch into a legal,
-rigid, or witness-face failure.
+rigid, or witness failure.
 
 The branch under test is still the Navier-Stokes CM contrapositive branch:
 
@@ -38,7 +38,7 @@ The branch under test is still the Navier-Stokes CM contrapositive branch:
 Exit(Q):=not Member(Q)
 ```
 
-through the Pack/Part/Field witness tree. A pressure support statement is not a
+through the Part/Field witness tree. A pressure support statement is not a
 Clay finality statement unless it removes the terminal Pack-survival obstruction
 for the same alleged counterexample object.
 
