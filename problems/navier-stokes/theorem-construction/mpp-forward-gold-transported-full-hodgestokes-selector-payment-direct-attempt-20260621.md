@@ -2,8 +2,10 @@
 theorem_id: forward-gold-transported-full-hodgestokes-selector-payment-direct-attempt-20260621
 status: direct-attempt-open-reduces-to-fourbody-trace-ac-or-strict-nowaste
 logical_landing_node: transported_full_hodgestokes_selector_payment
-edge_effect: "Directly tests TransportedFullHodgeStokesSelector.A under the participation-tuple audit. The transport metric identity is exact, and a material/cotangent selector can remove the principal fixed-selector strain commutator. The direct proof still does not close: a scalar heat-scale selector cannot be transported by direction-dependent strain, while an anisotropic transported selector must pay its return to the heat-scale packet through Body-IV deformation geometry. Pressure, viscosity, incompressibility, cutoff, signed, and tail channels also have to be transported and returned on the same carrier. The attempt therefore reduces the producer to full-tuple transported metric compatibility, heat-scale return AC, pressure trace AC, viscous metric-commutator absorption, signed saturation, bounded-below capacity, and same-carrier selected full-packet identification. Under current installed inputs this is FourBodyTerminalTraceAC.A or StrictFourBodyNoWasteLyapunov.A plus same-carrier compactness/no-loss, not a smaller proof."
+edge_effect: "Directly tests TransportedFullHodgeStokesSelector.A under the participation-tuple audit, with Hodge-Stokes understood as a working shorthand for the upgraded packet built over the installed Carrier Leray-Hodge projector and Stokes/Laplacian generator. The transport metric identity is exact, and a material/cotangent selector can remove the principal fixed-selector strain commutator. The direct proof still does not close: a scalar heat-scale selector cannot be transported by direction-dependent strain, while an anisotropic transported selector must pay its return to the heat-scale packet through Body-IV deformation geometry. Pressure, viscosity, incompressibility, cutoff, signed, and tail channels also have to be transported and returned on the same carrier. The attempt therefore reduces the producer to full-tuple transported metric compatibility, heat-scale return AC, pressure trace AC, viscous metric-commutator absorption, signed saturation, bounded-below capacity, and same-carrier selected full-packet identification. Under current installed inputs this is FourBodyTerminalTraceAC.A or StrictFourBodyNoWasteLyapunov.A plus same-carrier compactness/no-loss, not a smaller proof."
 parents:
+  - problems/navier-stokes/theorem-construction/carrier-axiom-sheet.md
+  - problems/navier-stokes/theorem-construction/carrier-realization-classical-identification.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transported-pressure-adapted-selector-commutator-potential-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md
@@ -29,6 +31,12 @@ The open producer behind the no-residue route is
 }
 \tag{TFH.1}
 ```
+
+Here "Hodge-Stokes" is a working shorthand.  The installed repo labels are the
+Carrier Leray-Hodge projector and the carrier Stokes/Laplacian generator,
+classically realized as Leray projection plus Stokes viscosity.  This note tests
+the upgraded selected packet that keeps the projected force, pressure
+complement, viscosity, time, divergence, and selection records together.
 
 It is meant to prove the full-cycle payment
 
