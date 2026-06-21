@@ -685,3 +685,41 @@ unweighted log-scale control that no isolated supplier produced?}
 That is the frontier created by bringing the old four-body idea forward in the
 current language.
 
+## 12. Direct cyclic-payment continuation
+
+The direct payment attempt is recorded in
+[mpp-four-body-cyclic-payment-closure-direct-attempt-20260621.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-four-body-cyclic-payment-closure-direct-attempt-20260621.md).
+
+Its exact output is:
+
+```math
+\boxed{
+\text{oriented same-carrier four-body exchange inequalities}
+\Longrightarrow
+\text{unweighted log-scale reserve.}
+}
+\tag{4B.47}
+```
+
+The remaining full-loop theorem is:
+
+```math
+\boxed{
+\text{every complete four-body cycle with nonzero selected participation
+activity has positive scale-critical loss,}
+}
+\tag{4B.48}
+```
+
+or equivalently:
+
+```math
+\boxed{
+\text{the only zero-loss four-body cycle is removable and has zero selected
+participation activity.}
+}
+\tag{4B.49}
+```
+
+This keeps the four-body resurrection centered on balance closure rather than
+on a terminal defect funnel.
