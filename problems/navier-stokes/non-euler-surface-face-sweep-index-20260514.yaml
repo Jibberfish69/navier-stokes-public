@@ -5919,19 +5919,19 @@ entries:
   category: theorem_construction_surface
   face_sort: typed_subset_Pack_Part_Field_Zeno
   role: theorem-construction surface classified by local theorem vocabulary
-- path: theorem-construction/mpp-pack-part-field-canonicality-reduction-note.md
+- path: theorem-construction/mpp-part-field-canonicality-reduction-note.md
   category: theorem_construction_surface
   face_sort: Pack_or_Pack_bridge
   role: theorem-construction surface classified by local theorem vocabulary
-- path: theorem-construction/mpp-pack-part-field-primitive-minimality-note.md
+- path: theorem-construction/mpp-part-field-primitive-minimality-note.md
   category: theorem_construction_surface
   face_sort: Part_or_Part_bridge
   role: theorem-construction surface classified by local theorem vocabulary
-- path: theorem-construction/mpp-pack-part-field-route-noncollapse-note.md
+- path: theorem-construction/mpp-part-field-route-noncollapse-note.md
   category: theorem_construction_surface
   face_sort: Pack_or_Pack_bridge
   role: theorem-construction surface classified by local theorem vocabulary
-- path: theorem-construction/mpp-pack-part-field-triadicity-audit-note.md
+- path: theorem-construction/mpp-part-field-triadicity-audit-note.md
   category: theorem_construction_surface
   face_sort: Part_or_Part_bridge
   role: theorem-construction surface classified by local theorem vocabulary

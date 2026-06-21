@@ -1185,10 +1185,10 @@ published_files:
 - theorem-construction/mpp-opr-completion-route-options-note.md
 - theorem-construction/mpp-original-data-to-awg-attempt-note.md
 - theorem-construction/mpp-original-smooth-data-production-proof-attempt-and-hfg-reduction.md
-- theorem-construction/mpp-pack-part-field-canonicality-reduction-note.md
-- theorem-construction/mpp-pack-part-field-primitive-minimality-note.md
-- theorem-construction/mpp-pack-part-field-route-noncollapse-note.md
-- theorem-construction/mpp-pack-part-field-triadicity-audit-note.md
+- theorem-construction/mpp-part-field-canonicality-reduction-note.md
+- theorem-construction/mpp-part-field-primitive-minimality-note.md
+- theorem-construction/mpp-part-field-route-noncollapse-note.md
+- theorem-construction/mpp-part-field-triadicity-audit-note.md
 - theorem-construction/mpp-pack-side-forward-preservation-reduction-note.md
 - theorem-construction/mpp-pack-ttu-fallback-closure-note.md
 - theorem-construction/mpp-pack-ttu-selector-uniformity-closure-note.md

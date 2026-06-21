@@ -17505,7 +17505,7 @@ certificates:
   proof_explanation: The surface's selected failure lies in its declared finite subset
     of Part/Field/Zeno channels; Zeno collapses to Field, so the failure implies
     not Pack or not Part or not Field.
-- path: theorem-construction/mpp-pack-part-field-canonicality-reduction-note.md
+- path: theorem-construction/mpp-part-field-canonicality-reduction-note.md
   face_sort: Pack_or_Pack_bridge
   diagnostic_status: face_landing
   contrapositive_status: proved_cm_exit
@@ -17513,11 +17513,11 @@ certificates:
   selected_failure_type: one-field coherence or Field readout failure routed by the
     row's face-sort rule
   cm_part_field_question_breaks: *13
-  proof_statement: SelectedFailure(theorem-construction/mpp-pack-part-field-canonicality-reduction-note.md)
+  proof_statement: SelectedFailure(theorem-construction/mpp-part-field-canonicality-reduction-note.md)
     => not Pack_Q.
   proof_explanation: SelectedFailure(surface) implies the negation of the listed CM
     face; since CM is Part+Field, that selected failure is a CM exit witness.
-- path: theorem-construction/mpp-pack-part-field-primitive-minimality-note.md
+- path: theorem-construction/mpp-part-field-primitive-minimality-note.md
   face_sort: Part_or_Part_bridge
   diagnostic_status: face_landing
   contrapositive_status: proved_cm_exit
@@ -17525,11 +17525,11 @@ certificates:
   selected_failure_type: one-field coherence or Field readout failure routed by the
     row's face-sort rule
   cm_part_field_question_breaks: *10
-  proof_statement: SelectedFailure(theorem-construction/mpp-pack-part-field-primitive-minimality-note.md)
+  proof_statement: SelectedFailure(theorem-construction/mpp-part-field-primitive-minimality-note.md)
     => not Part_{N,Q}.
   proof_explanation: SelectedFailure(surface) implies the negation of the listed CM
     face; since CM is Part+Field, that selected failure is a CM exit witness.
-- path: theorem-construction/mpp-pack-part-field-route-noncollapse-note.md
+- path: theorem-construction/mpp-part-field-route-noncollapse-note.md
   face_sort: Pack_or_Pack_bridge
   diagnostic_status: face_landing
   contrapositive_status: proved_cm_exit
@@ -17537,11 +17537,11 @@ certificates:
   selected_failure_type: one-field coherence or Field readout failure routed by the
     row's face-sort rule
   cm_part_field_question_breaks: *13
-  proof_statement: SelectedFailure(theorem-construction/mpp-pack-part-field-route-noncollapse-note.md)
+  proof_statement: SelectedFailure(theorem-construction/mpp-part-field-route-noncollapse-note.md)
     => not Pack_Q.
   proof_explanation: SelectedFailure(surface) implies the negation of the listed CM
     face; since CM is Part+Field, that selected failure is a CM exit witness.
-- path: theorem-construction/mpp-pack-part-field-triadicity-audit-note.md
+- path: theorem-construction/mpp-part-field-triadicity-audit-note.md
   face_sort: Part_or_Part_bridge
   diagnostic_status: face_landing
   contrapositive_status: proved_cm_exit
@@ -17549,7 +17549,7 @@ certificates:
   selected_failure_type: one-field coherence or Field readout failure routed by the
     row's face-sort rule
   cm_part_field_question_breaks: *10
-  proof_statement: SelectedFailure(theorem-construction/mpp-pack-part-field-triadicity-audit-note.md)
+  proof_statement: SelectedFailure(theorem-construction/mpp-part-field-triadicity-audit-note.md)
     => not Part_{N,Q}.
   proof_explanation: SelectedFailure(surface) implies the negation of the listed CM
     face; since CM is Part+Field, that selected failure is a CM exit witness.
