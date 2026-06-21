@@ -31,7 +31,7 @@ source_authoring_summary: >-
   language in the edited neighborhood, and made the proof role explicit:
   reserve and active-square material remain support until a named supplier
   theorem pays the active-window branch; affine quotient material remains
-  support until a selected same-solution packet and first Pack, Part, or Field
+  support until a selected same-solution packet and first Part or Field
   face are written on the page.
 proof_role:
   gold_layer: >-
@@ -39,7 +39,7 @@ proof_role:
     support and supplier targets.  It does not start a new gold proof attempt.
   silver_layer: >-
     The edited slice states how each surviving object may later enter the CM
-    exit route through Pack, Part, Field, or readout, while keeping unselected
+    exit route through Part and Field, or readout, while keeping unselected
     support outside any class-exit claim.
 verification:
   build_command: >-
@@ -77,4 +77,4 @@ remaining_open_after_batch:
   - >-
     The annular endpoint witness remains open until gold residual-load control
     is proved or the silver branch lands the selected same-solution Pack, Part,
-    or Field first face on the page.
+    or Field first Part/Field on the page.

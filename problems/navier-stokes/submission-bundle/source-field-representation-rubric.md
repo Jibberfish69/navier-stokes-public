@@ -22,7 +22,7 @@ Clay target
   -> one concrete positive attempt
   -> the terminal branch left by failure
   -> working class object
-  -> Pack/Part/Field witness faces
+  -> Part/Field witnesss
   -> terminal packet capture
   -> class exit
   -> branch-family exhaustion
@@ -35,14 +35,14 @@ Each branch-family section must move through this sequence:
 positive-forward burden
   -> exact pressure or failure branch
   -> selected terminal object
-  -> first class witness face tested
+  -> first class witness tested
   -> pass-side readout or fail-side class exit.
 ```
 
 The rendered PDF carries mathematical arguments only.
 Every relevant surface that enters the proof program must be expanded into a mathematical branch obligation, support obligation, or family obligation, with its claim and proof role stated inside the manuscript.
 Internal paths, filenames, generated-surface labels, coverage ledgers, build records, status surfaces, audit rows, and provenance inventories stay outside the PDF.
-The PDF may mention a branch family only by its mathematical mechanism, witness face, and proof role.
+The PDF may mention a branch family only by its mathematical mechanism, witness, and proof role.
 The PDF may not satisfy scale by repeating the same claim, proof, or reader-facing role with only an obligation number changed. That is padding, not representation. When many source rows collapse to one mathematical proof role, the reader-facing PDF must state the proof role once for that family and keep the row-level inventory outside the manuscript until there is real mathematical content to expand.
 
 Required verification:
@@ -57,7 +57,7 @@ ruby problems/navier-stokes/tools/check_pdf_argument_hygiene.rb
 | Terminal witness classifications | First-face theorem or proof paragraph | The selected terminal packet is tested in order through `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`. | Reject branch language with no declared first failed service. |
 | Forward-positive obstruction families | Branch-family compression paragraph or table row | The obstruction has a selected terminal object and a pass/fail split: pass supports membership, fail enters class exit. | Reject thematic summaries that do not say what terminal object is being tested. |
 | Auxiliary estimates and readouts | Support for a named hinge | The estimate names one hinge it supports: terminal packet capture, membership readout, or no genuine finite class exit. | Reject support material that strengthens intuition without moving a hinge. |
-| Transfer, mirror, and comparison material | Comparison pressure-test or exclusion | The exact Navier-Stokes object must be landed inside the same Pack/Part/Field witness tree before it can enter the proof spine. | Reject comparison evidence as proof evidence until the landing theorem exists. |
+| Transfer, mirror, and comparison material | Comparison pressure-test or exclusion | The exact Navier-Stokes object must be landed inside the same Part/Field witness tree before it can enter the proof spine. | Reject comparison evidence as proof evidence until the landing theorem exists. |
 | Failed attempts and adversarial audits | Live burden or pressure test | A failed attempt enters the manuscript only by attacking one of the three referee hinges. | Reject audit text as proof text when it does not change a hinge. |
 | Theorem-creation candidate notes | Live candidate support, active blocker, or pressure test | A candidate note must name the service face or referee hinge it affects before it is allowed into the manuscript. | Reject candidate output as theorem evidence until downstream audit lands it. |
 | Build, provenance, and automation records | Outside the mathematical manuscript | These records protect reproducibility and bundle integrity outside the proof. | Reject internal process language from the main proof. |
@@ -67,9 +67,9 @@ Authoring gates:
 
 1. The main manuscript must be free of internal filenames and path strings.
 2. Every included branch must name its mathematical job.
-3. Every branch-family paragraph must preserve the Pack-first witness order.
+3. Every branch-family paragraph must preserve the Field-certification witness order.
 4. Every support estimate must attach to a hinge rather than float as background.
-5. Every live blocker must be stated as a theorem obligation with its witness face and closing hinge.
+5. Every live blocker must be stated as a theorem obligation with its witness and closing hinge.
 6. Dependency order is mandatory: definitions and operational need precede branch-family compression.
-7. There is no current concrete CM blocker after terminal witness consumption. The Pack-side/source support chain is retained as mathematical support and may enter the proof spine only through the terminal CM entry, Pack/Part/Field finite-failure exhaustion, or contrapositive embedding gates.
+7. There is no current concrete CM blocker after terminal witness consumption. The Pack-side/source support chain is retained as mathematical support and may enter the proof spine only through the terminal CM entry, Part/Field finite-failure exhaustion, or contrapositive embedding gates.
 8. The surface appendix must be long when the source field is long and the mathematical roles are genuinely distinct. Compression is allowed only by proof role, never by removing relevant mathematical obligations from the manuscript. Repeating a proof-role template across row numbers is forbidden and must fail the PDF hygiene check.
