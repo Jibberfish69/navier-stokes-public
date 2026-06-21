@@ -58,7 +58,7 @@ resolved_blockers:
 - h1-h2-h6-endpoint-upgrade
 remaining_release_gates: []
 sourcepulse_may2_reduction:
-  exact_surviving_burden: CM witness-face bridge installed by `MemberSmooth.A / WitnessFace.A`;
+  exact_surviving_burden: CM witness bridge installed by `MemberSmooth.A / WitnessFace.A`;
     SourceWall.Reconcile.A demotes normalized-adjoint source-drain to conditional
     support, leaving `ScaleCriticalTreeCarleson.A` or `ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A`
   real_frontier_evidence:

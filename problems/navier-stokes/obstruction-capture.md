@@ -11,46 +11,46 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 
 ## One-Sentence Thesis
 
-- The current manuscript opens from the CM contrapositive class-exit program: an alleged finite-time Clay terminal witness from the same original smooth datum enters the same-fluid CM terminal packet tree. After Pack admission, Silver exhausts its finite failure type as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; before Pack admission, a not-Pack candidate first tests the original NS participation law. The derived typed failure supports `Exit(Q):=not Member(Q)`.
+- The current manuscript opens from the CM contrapositive class-exit program: an alleged finite-time Clay terminal witness from the same original smooth datum enters the same-fluid CM terminal participation-field tree. After Pack admission, Silver exhausts its finite failure type as not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; before Pack admission, a failed packet-window candidate first tests the original NS participation law. The derived typed failure supports `Exit(Q):=not Member(Q)`.
 
 ## The Real Obstruction
 
 - The live obstruction is an alleged finite Clay terminal witness from the original smooth Navier-Stokes datum.
 - The pressure point is whether that terminal witness can remain a lawful in-class nonsmooth continuation branch.
-- The CM answer is to admit Pack-carried witness material to the same-fluid terminal packet tree and sort its first Pack/Part/Field face failure, while pre-Pack singular material is first checked for the original NS participation law.
+- The CM answer is to admit Pack-carried witness material to the same-fluid terminal packet tree and sort its first Part/Field Part/Field failure, while outside-CM participation-field record-window singular material is first checked for the original NS participation law.
 
 ## Why Prior Attempts Fail
 
 - Positive supplier, source-wall, periodic, and regularization branches fail as manuscript openings because they try to delete or reroute the bad terminal object before the CM test has used it.
 - The current proof uses the fail branch as the class-exit witness rather than treating it as a positive no-exit burden.
-- Periodic and `Q(t)` material is support only after a checked bridge lands an exact claim in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit.
+- Periodic and `Q(t)` material is support only after a checked bridge lands an exact claim in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the outside-CM participation-field record-window original-participation audit.
 
 ## The Crossing Move
 
 - Start with the alleged finite-time Clay terminal witness from the same original smooth datum.
-- Enter that witness into the canonical same-fluid CM terminal packet tree.
-- Exhaust Pack-admitted finite failure type as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; for any pre-Pack not-Pack candidate, first test the original NS participation law.
-- Embed the derived face failure as `Exit(Q):=not Member(Q)` while preserving the pass branch as the lawful smooth continuation branch.
+- Enter that witness into the canonical same-fluid CM terminal participation-field tree.
+- Exhaust Pack-admitted finite failure type as not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; for any outside-CM participation-field record-window failure candidate, first test the original NS participation law.
+- Embed the derived Part/Field failure as `Exit(Q):=not Member(Q)` while preserving the pass branch as the lawful smooth continuation branch.
 
 ## Core Mechanism
 
 - The theorem-bearing engine is the CM terminal witness chain:
   1. terminal witness entry,
-  2. finite Silver Pack/Part/Field failure-type exhaustion after Pack admission,
-  3. pre-Pack original-participation audit where a not-Pack branch still has original NS participation status,
+  2. finite Silver Part/Field failure-type exhaustion after Pack admission,
+  3. outside-CM participation-field record-window original-participation audit where a failed packet-window branch still has original NS participation status,
   4. contrapositive embedding as `Exit(Q):=not Member(Q)`,
   5. no legal in-class nonsmooth third branch between pass and fail.
 
 - The live manuscript burden is to keep that chain as the opening authority.
-- The live support burden is to quarantine periodic, `Q(t)`, source-wall, and positive-supplier surfaces unless they land in a typed witness face.
+- The live support burden is to quarantine periodic, `Q(t)`, source-wall, and positive-supplier surfaces unless they land in a typed witness.
 
 ## Plain Path
 
 1. Start with a same-datum finite Clay terminal witness.
 2. Treat it as CM-test-admissible, not as already `Member(Q)`.
-3. Run terminal witness entry into the same-fluid CM packet tree.
-4. Exhaust the Pack-admitted failure through Pack_Q, Part_{N,Q}, and Field_{N,r,Q}, and resurface any pre-Pack not-Pack candidate under the original participation law first.
-5. Read the derived face failure as `Exit(Q):=not Member(Q)`.
+3. Run terminal witness entry into the same-fluid CM participation-field tree.
+4. Exhaust the Pack-admitted failure through Part_{N,Q} and Field_{N,r,Q}; Pack_Q only as Field window evidence, and resurface any outside-CM participation-field record-window failure candidate under the original participation law first.
+5. Read the derived Part/Field failure as `Exit(Q):=not Member(Q)`.
 6. Keep the pass branch as smooth continuation and the fail branch as outside-class.
 7. Reject any opening that begins with torus-first, `Q(t)`, or periodic route history before the CM witness object has landed.
 
@@ -70,7 +70,7 @@ Reason it is archived:
 
 - finite Clay terminal witness
 - same-fluid CM terminal packet entry
-- Silver Pack/Part/Field finite failure-type exhaustion after Pack admission
+- Silver Part/Field finite failure-type exhaustion after Pack admission
 - Pre-Pack original-participation audit where needed
 - `Exit(Q):=not Member(Q)` contrapositive embedding
 
@@ -91,8 +91,8 @@ Reason it is quarantined:
 - Export surfaces must stay on the exact Clay statement and must not silently replace the periodic internal branch by whole-space language.
 - Historical conditional checkpoints must remain archived rather than reintroduced as the primary theorem surface.
 - The CM witness entry cannot be replaced by periodic route history.
-- The Silver Pack/Part/Field exhaustion and pre-Pack original-participation audit cannot be replaced by source-wall supplier diagnostics.
-- Cross-lane notes must not be treated as theorem-primary unless explicitly promoted into a witness face.
+- The Silver Part/Field exhaustion and outside-CM participation-field record-window original-participation audit cannot be replaced by source-wall supplier diagnostics.
+- Cross-lane notes must not be treated as theorem-primary unless explicitly promoted into a witness.
 
 ## Existing Material
 
@@ -103,12 +103,12 @@ Reason it is quarantined:
 ## Output Target
 
 - For this phase, the output is a CM contrapositive class-exit manuscript surface.
-- The runner must open from terminal witness entry, Silver Pack/Part/Field exhaustion after Pack admission, pre-Pack original-participation audit where needed, and `Exit(Q):=not Member(Q)`.
+- The runner must open from terminal witness entry, Silver Part/Field exhaustion after Pack admission, outside-CM participation-field record-window original-participation audit where needed, and `Exit(Q):=not Member(Q)`.
 
 ## Instructions to Codex
 
 - Keep the regularized branch archived as a diagnostic failure branch.
-- Keep `Q(t)` and periodic material quarantined as support unless a checked bridge lands it in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit.
+- Keep `Q(t)` and periodic material quarantined as support unless a checked bridge lands it in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the outside-CM participation-field record-window original-participation audit.
 - Preserve the CM contrapositive class-exit architecture as the manuscript opening.
 - Keep export and source-history material explicitly downstream.
 - Do not promote archived provenance above theorem authority.

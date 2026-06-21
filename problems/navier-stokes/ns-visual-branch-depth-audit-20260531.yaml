@@ -54,7 +54,7 @@ branch_families:
     route_shape:
       - Original smooth periodic data
       - PCTP.hard / TTU terminal-tail readout package
-      - Pack/Part/Field/tower retained readout
+      - Part/Field/tower retained readout
       - uniform H^s(T^3), s>5/2 bound
       - standard periodic H^s continuation
     endpoint_verdict:
@@ -85,7 +85,7 @@ branch_families:
     route_shape:
       - alleged finite terminal non-continuation
       - transported whole-torus material atlas Q_atlas
-      - first failed Pack/Part/Field service
+      - first failed Part/Field service
       - Exit(Q):=not Member(Q)
     endpoint_verdict:
       repo_declared: closed
@@ -99,7 +99,7 @@ branch_families:
       - theorem-construction/mpp-genuine-cm-exit-equivalence-20260521.md
     visual_note: >-
       This is not a source-wall supplier route. It is the CM exit route from a
-      same-solution terminal witness to a first Pack/Part/Field face failure.
+      same-solution terminal witness to a first Part/Field Part/Field failure.
   - family_id: t3_source_control_wall
     split_id: t3_periodic
     label: Source-control / source-pulse supplier family
@@ -141,11 +141,11 @@ branch_families:
         - L^n / Prodi-Serrin / BKM continuation criteria
     route_shape:
       - classical criteria consume a terminal critical estimate
-      - local L^3 Duhamel response can be translated to same-ledger source work or CM face alternatives
+      - local L^3 Duhamel response can be translated to same-ledger source work or CM Part/Field alternatives
       - generic all-critical-class bridge remains support unless same-atlas localization and Field incompatibility are proved
     endpoint_verdict:
       repo_declared: local_l3_translator_installed_generic_critical_bridge_not_installed
-      closure_kind: support_or_cm_face_bridge
+      closure_kind: support_or_cm_part_field_question_bridge
       mathematical_pressure_visible: true
     key_surfaces:
       - theorem-construction/mpp-sourcepulse-classical-criteria-bkm-serrin-audit-note.md

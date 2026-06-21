@@ -13,13 +13,13 @@ The active torus-first CM proof state is:
 ```text
 finite Clay breakdown witness
   -> torus global material-atlas terminal capture
-  -> first failed Pack/Part/Field service
+  -> first failed Part/Field service
   -> Exit(Q):=not Member(Q)
 ```
 
 The active working sweep installed the torus global material-atlas capture
 proof and reclassified unresolved branch-family rows as support with no
-proof-bearing status unless a same-atlas Pack/Part/Field face derivation is
+proof-bearing status unless a same-atlas Part/Field Part/Field derivation is
 proved.
 Two submission-level blockers remain: the manuscript proof spine must be
 rewritten around the global atlas object, and any full `R^3` Clay claim needs a

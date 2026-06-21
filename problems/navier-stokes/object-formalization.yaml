@@ -20,8 +20,8 @@ formalization_packet:
   theorem_role: 'The active CM route is the pass-or-exit proof engine: follow the
     ordinary positive proof program until a real obstruction is reached, read the
     pass branch as the in-class Member(Q) continuation branch, and read the fail branch
-    as Exit(Q):=not Member(Q) only after CM-test entry plus a concrete Pack/Part/Field
-    face failure. ClayTerminalWitnessCMEntry.A, ClayFiniteFailureTypeCMExhaustion.A,
+    as Exit(Q):=not Member(Q) only after CM-test entry plus a concrete Part/Field
+    Part/Field failure. ClayTerminalWitnessCMEntry.A, ClayFiniteFailureTypeCMExhaustion.A,
     and ClayCMContrapositiveEmbedding.A are the governing theorem family. Older positive
     packet-survival/no-exit, source-reserve, signed-pair, no-free-sink, source-wall,
     and positive-supplier presentations are support or historical diagnostics until
