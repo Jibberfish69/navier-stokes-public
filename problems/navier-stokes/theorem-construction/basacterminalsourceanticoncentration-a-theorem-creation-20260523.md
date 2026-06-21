@@ -4,7 +4,7 @@
 
 - target obligation: BASACTerminalSourceAntiConcentration.A
 - target label: quarantined downstream no-pulse/source-control support theorem for terminal zero-thickness native source concentration in the produced B_ASAC equality class
-- route role: The B_ASAC direct attempts show that local L^1_t source mass, zero ASAC defect, no-earlier selected slices, and paid donor/legal exits do not themselves exclude terminal strip concentration. The source-backed next theorem is UniformTemporalSourceIntegrability_{p,B_ASAC}.A, or an equivalent TerminalSourceReverseHolder_{B_ASAC}.A. In the CM contrapositive route this remains forward positive-supplier support; the surviving zero-radius B_ASAC residue is quarantined as Pack/Part witness support unless a separate bridge license lands it in Pack, Part, or Field.
+- route role: The B_ASAC direct attempts show that local L^1_t source mass, zero ASAC defect, no-earlier selected slices, and paid donor/legal exits do not themselves exclude terminal strip concentration. The source-backed next theorem is UniformTemporalSourceIntegrability_{p,B_ASAC}.A, or an equivalent TerminalSourceReverseHolder_{B_ASAC}.A. In the CM contrapositive route this remains forward positive-supplier support; the surviving zero-radius B_ASAC residue is quarantined as Pack/Part witness support unless a separate bridge license lands it in Part or Field.
 - theorem family: generic-bridge-theorem
 
 ## Created Theorem
@@ -19,7 +19,7 @@ BASACTerminalSourceAntiConcentration.A. The produced B_ASAC class still admits t
 - selected_mechanism: basac_terminal_anticoncentration_to_uniform_temporal_integrability
 - candidate_count: 1
 - solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: The B_ASAC direct attempts show that local L^1_t source mass, zero ASAC defect, no-earlier selected slices, and paid donor/legal exits do not themselves exclude terminal strip concentration. The source-backed next theorem is UniformTemporalSourceIntegrability_{p,B_ASAC}.A, or an equivalent TerminalSourceReverseHolder_{B_ASAC}.A. In the CM contrapositive route this remains forward positive-supplier support; the surviving zero-radius B_ASAC residue is quarantined as Pack/Part witness support unless a separate bridge license lands it in Pack, Part, or Field. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to UniformTemporalSourceIntegrability_p_BASAC.A rather than pretending the frontier is closed.
+- selection_reason: This theorem is the right next move because it changes the proof economy: The B_ASAC direct attempts show that local L^1_t source mass, zero ASAC defect, no-earlier selected slices, and paid donor/legal exits do not themselves exclude terminal strip concentration. The source-backed next theorem is UniformTemporalSourceIntegrability_{p,B_ASAC}.A, or an equivalent TerminalSourceReverseHolder_{B_ASAC}.A. In the CM contrapositive route this remains forward positive-supplier support; the surviving zero-radius B_ASAC residue is quarantined as Pack/Part witness support unless a separate bridge license lands it in Part or Field. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to UniformTemporalSourceIntegrability_p_BASAC.A rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
@@ -47,7 +47,7 @@ BASACTerminalSourceAntiConcentration.A. The produced B_ASAC class still admits t
 - BASACTerminalSourceAntiConcentration.A direct attempt
 - UniformTemporalSourceIntegrability_{p,B_ASAC}.A
 - TerminalSourceReverseHolder_{B_ASAC}.A
-- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-before-Part audit.
+- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-out-of-CM audit.
 - ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - PastWindowReserveSeparation.A. Force every uncharged reserve contribution to have already existed in Past(W), leaving only charge-priced first appearances. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.

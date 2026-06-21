@@ -502,7 +502,7 @@ non-selected alternatives have been removed,
 \forall r>0\,\neg Field_{N,r,Q}.
 ```
 
-In particular, a terminal zero-radius endpoint is Pack-first by the Zeno
+In particular, a terminal zero-radius endpoint is Field-certification by the Zeno
 correction:
 
 ```math

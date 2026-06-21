@@ -3,7 +3,7 @@
 ## Target
 
 - target obligation: CSP.A
-- target label: Create the sharp CM branch theorem CSP.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Pack, Part, or Field.
+- target label: Create the sharp CM branch theorem CSP.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Part or Field.
 - route role: Use the installed post-LCI source ledger FCI.5f together with LCI.A on the retained same-fluid collar to obtain the collar source-pressure package CSP.A; keep OFP.A, CFI.A, endpoint readout, and Field downstream, with Member following only after the CM witness certificate.
 - theorem family: generic-bridge-theorem
 
@@ -63,7 +63,7 @@ CSP.A. On the retained same-fluid collar, LCI.A together with the installed post
 ## Forbidden Imports
 
 - CSP.A
-- Create the sharp CM branch theorem CSP.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Pack, Part, or Field.
+- Create the sharp CM branch theorem CSP.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Part or Field.
 - full-MPP closure
 - submission readiness
 - global smoothness

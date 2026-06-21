@@ -4,12 +4,12 @@
 
 - target obligation: BASACReverseHolderProduction.A
 - target label: produce a reverse-Holder B_ASAC^RH(p) subclass from the current B_ASAC equality-class clauses
-- route role: The B_ASAC reverse-holder production burden asks for B_ASAC => B_ASAC^RH(p) for some p>1. The local source corpus proves the conditional Liouville theorem once this subclass is produced, and also shows the current B_ASAC clauses do not produce it: finite L^1_t terminal source mass allows shrinking terminal-layer concentration. This is an honest forward positive-supplier obstruction, not a CM Pack/Part/Field promotion.
+- route role: The B_ASAC reverse-holder production burden asks for B_ASAC => B_ASAC^RH(p) for some p>1. The local source corpus proves the conditional Liouville theorem once this subclass is produced, and also shows the current B_ASAC clauses do not produce it: finite L^1_t terminal source mass allows shrinking terminal-layer concentration. This is an honest forward positive-supplier obstruction, not a CM Part/Field promotion.
 - theorem family: generic-bridge-theorem
 
 ## Created Theorem
 
-BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-before-Part audit.
+BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-out-of-CM audit.
 
 ## Inventive Search
 
@@ -19,7 +19,7 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 - selected_mechanism: basac_reverse_holder_production_hard_obstruction
 - candidate_count: 1
 - solver_chain_verdict: hard_obstruction
-- selection_reason: This theorem is the right next move because it changes the proof economy: The B_ASAC reverse-holder production burden asks for B_ASAC => B_ASAC^RH(p) for some p>1. The local source corpus proves the conditional Liouville theorem once this subclass is produced, and also shows the current B_ASAC clauses do not produce it: finite L^1_t terminal source mass allows shrinking terminal-layer concentration. This is an honest forward positive-supplier obstruction, not a CM Pack/Part/Field promotion. The internal solver reached a terminal hard-obstruction record with no promotable residual primitive; that record is supplier-quarantined and open, not theorem closure.
+- selection_reason: This theorem is the right next move because it changes the proof economy: The B_ASAC reverse-holder production burden asks for B_ASAC => B_ASAC^RH(p) for some p>1. The local source corpus proves the conditional Liouville theorem once this subclass is produced, and also shows the current B_ASAC clauses do not produce it: finite L^1_t terminal source mass allows shrinking terminal-layer concentration. This is an honest forward positive-supplier obstruction, not a CM Part/Field promotion. The internal solver reached a terminal hard-obstruction record with no promotable residual primitive; that record is supplier-quarantined and open, not theorem closure.
 
 ### Candidate Theorems
 
@@ -49,7 +49,7 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 - Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-before-Part audit.
+- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-out-of-CM audit.
 - CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional field-integrability package, while End_NS, Field readout, and Member remain downstream consequences.
 - TemporalNonAtomicSource.A. Every terminal source-residue measure produced by the accepted Zeno compactness extraction is non-atomic at the terminal time slice.
 - OFP.A. The collar source-pressure package CSP.A propagates the retained one-field package on the same-fluid interval, with CFI.A, endpoint readout, and Field kept downstream, with Member following only after the CM witness certificate.
@@ -70,7 +70,7 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 1. Use the rigid-subclass Liouville note to keep the conditional closure separate from the production theorem.
 2. Use the scalar terminal layer model g_m(s)=m 1_{(-1/m,0]}(s) to record why finite L^1_t control does not imply any p>1 reverse-Holder bound.
 3. Mark BASACReverseHolderProduction.A as a new production theorem outside the installed B_ASAC equality-class clauses.
-4. Keep the obstruction supplier-quarantined in the CM route; it does not land in Pack, Part, or Field. Member is downstream only.
+4. Keep the obstruction supplier-quarantined in the CM route; it does not land in Part or Field. Member is downstream only.
 
 ## Circularity Audit
 
@@ -81,7 +81,7 @@ BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass
 
 - verdict: supplier_quarantined
 - certification_level: theorem-creation:hard-obstruction-supplier-quarantined
-- rationale: The proof attempt records a real forward supplier obstruction; it is not discharged and cannot be promoted into the CM Pack/Part/Field route.
+- rationale: The proof attempt records a real forward supplier obstruction; it is not discharged and cannot be promoted into the CM Part/Field route.
 
 ## Promotion Plan
 

@@ -3,7 +3,7 @@
 ## Target
 
 - target obligation: CFI.A
-- target label: Create the sharp CM branch theorem CFI.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Pack, Part, or Field.
+- target label: Create the sharp CM branch theorem CFI.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Part or Field.
 - route role: If direct estimates do not close, invent the theorem that classifies the residual defect and proves it cannot survive.
 - theorem family: generic-bridge-theorem
 
@@ -62,7 +62,7 @@ CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional fie
 ## Forbidden Imports
 
 - CFI.A
-- Create the sharp CM branch theorem CFI.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Pack, Part, or Field.
+- Create the sharp CM branch theorem CFI.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Part or Field.
 - full-MPP closure
 - submission readiness
 - global smoothness
@@ -85,7 +85,7 @@ CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional fie
 - verdict: new_subprimitive
 - certification_level: theorem-creation:generated-subprimitive-needs-sharpening
 - rationale: The theorem has been reduced to a smaller noncircular primitive that is not currently installed.
-- next subprimitive: CFI.A.CoreSubprimitive -- core noncircular subprimitive for Create the sharp CM branch theorem CFI.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Pack, Part, or Field.
+- next subprimitive: CFI.A.CoreSubprimitive -- core noncircular subprimitive for Create the sharp CM branch theorem CFI.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Part or Field.
 
 ## Promotion Plan
 
