@@ -9,6 +9,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-canonical-selected-carrier-identification-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-no-loss-relay-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-trace-defect-compactness-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-transport-product-defect-evacuation-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-upgraded-four-body-current-frontier-20260621.md
 ---
 
@@ -327,6 +328,22 @@ V\otimes V
 \tag{FHC.27}
 ```
 
+This first defect is now evacuated on any stabilized same-carrier packet by
+the transport-product note: local energy compactness gives
+
+```math
+V_n\to V
+\quad\text{strongly in }L^3,
+\qquad
+V_n\otimes V_n\to V\otimes V
+\quad\text{strongly in }L^{3/2}.
+\tag{FHC.27a}
+```
+
+So `(FHC.27)` remains in the list only as a misclassification detector: if it
+appears, the actual defect is carrier/cutoff/selector drift or missing local
+compactness, not nonlinear product loss on a fixed carrier.
+
 Pressure trace defect:
 
 ```math
@@ -399,7 +416,8 @@ Thus the compactness/no-loss production target is exactly:
 
 ```math
 \boxed{
-\text{rule out or charge }(FHC.27)\text{--}(FHC.33).
+\text{rule out or charge }(FHC.28)\text{--}(FHC.33),
+\text{ after }(FHC.27)\text{ is evacuated on fixed carriers.}
 }
 \tag{FHC.34}
 ```
@@ -430,5 +448,5 @@ The corrected full-cycle branch is therefore narrowed to:
 \tag{FHC.36}
 ```
 
-or charge one of the exact defects `(FHC.27)`--`(FHC.33)` into the existing
+or charge one of the exact defects `(FHC.28)`--`(FHC.33)` into the existing
 four-body legal, saturation, trace, or rigidity ledgers.
