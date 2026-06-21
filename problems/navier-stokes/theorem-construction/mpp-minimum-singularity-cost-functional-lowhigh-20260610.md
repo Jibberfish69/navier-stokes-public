@@ -192,4 +192,4 @@ terminal source mass in a window of thickness `tau` costs at least
 `L1_s` still allows it. The next theorem cannot ask generally for "better
 source control"; it must either prove that participation supplies a finite
 super-`L1` cost budget for the same witness, or route the infinite-cost endpoint
-strip as a limit-of-class / Pack-face failure.
+strip as a limit-of-class / Pack-Part/Field failure.

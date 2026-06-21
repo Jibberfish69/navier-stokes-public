@@ -17,7 +17,7 @@ M_Q(u,p):=Pack_Q\wedge Part_Q\wedge Field_Q.
 The indexed class witness is the depth/scale-decorated version
 
 ```math
-CM_{N,r,Q}:=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 Here `N` is the route depth and `r>0` is the pointwise coherence scale. Thus `M_Q` is the notation-clean local membership face, while `CM_{N,r,Q}` is the theorem-route certificate carrying the depth and scale parameters.

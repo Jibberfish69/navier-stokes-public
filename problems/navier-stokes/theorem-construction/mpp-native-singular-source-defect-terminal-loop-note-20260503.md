@@ -255,5 +255,5 @@ one of the three jobs above:
 
 The present theorem stack does not contain that positive supplier proof.  The
 CM use of a surviving measure still has to route the survivor through a
-Pack/Part/Field class-exit witness rather than treating absolute vanishing as
+Part/Field class-exit witness rather than treating absolute vanishing as
 the contrapositive primitive.

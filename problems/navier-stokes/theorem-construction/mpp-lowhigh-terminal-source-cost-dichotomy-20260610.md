@@ -123,7 +123,7 @@ atom; a surviving positive atom has infinite super-`L1` cost.
 
 ## CM Reading
 
-This theorem does not spend CM face support as a forward theorem.
+This theorem does not spend CM Part/Field support as a forward theorem.
 
 It says the forward public first-Pack survival chain now has one exact
 mathematical burden:

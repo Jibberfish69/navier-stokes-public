@@ -82,7 +82,7 @@ This proves `(MFD.1)`. The shell estimate `(MFD.2)` follows from `FieldCoherence
 
 ## CM consequence
 
-A same-ledger pure `H^{1/2}` oscillation branch under retained Pack and Part has one remaining CM face condition: Field coherence at the matched scale. If `Field` is instantiated through `READ.COVER+ATD_m^\varepsilon`, the matched finite-difference bound controls the selected dyadic shell. Persistent terminal shell escape therefore selects `\neg Field_{N,r,Q}`.
+A same-ledger pure `H^{1/2}` oscillation branch under retained Pack and Part has one remaining CM Part/Field condition: Field coherence at the matched scale. If `Field` is instantiated through `READ.COVER+ATD_m^\varepsilon`, the matched finite-difference bound controls the selected dyadic shell. Persistent terminal shell escape therefore selects `\neg Field_{N,r,Q}`.
 
 ## Boundary
 

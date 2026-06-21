@@ -12,12 +12,12 @@ reserve, or readout cover structure.
 The rule is:
 
 ```text
-a surface is CM-live only when its selected failure lands in Pack, Part, Field,
+a surface is CM-live only when its selected failure lands in Part and Field,
 or a typed subcase already sorted to those faces.
 ```
 
 All other major surfaces are kept as supplier, route, or readout support.  They
-may be useful, but they are not promoted to a fourth CM face.
+may be useful, but they are not promoted to a fourth CM Part/Field.
 
 ## 1. Governing CM Primitive
 
@@ -30,14 +30,14 @@ Exit(Q):=\neg Member(Q;O_{NS}^{work}).
 The witness envelope is:
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 So the contrapositive program does not ask every major estimate to be proved as
 a positive theorem from `OriginalSmoothData`.  It asks:
 
 ```text
-if this surface fails in the selected terminal branch, which CM face breaks?
+if this surface fails in the selected terminal branch, which CM Part/Field breaks?
 ```
 
 The answer is recorded below.
@@ -152,7 +152,7 @@ Thus:
 \text{residual source-wall term}.
 ```
 
-Interpretation against the CM faces:
+Interpretation against the CM Part/Fields:
 
 ```text
 not PackGainLedger.A   -> Pack-side extension failure;
@@ -278,7 +278,7 @@ OffFamilyCounteredgeCharge.A      -> TerminalSignedSaturation.A;
 ParabolicNoFreeSink.A             -> TerminalSignedSaturation.A.
 ```
 
-Thus the signed-current family has no independent CM face.  Its selected
+Thus the signed-current family has no independent CM Part/Field.  Its selected
 failures are sorted as:
 
 ```text
@@ -439,7 +439,7 @@ failure has one of the following lawful outcomes:
 1. Pack exit;
 2. Part exit;
 3. Field exit;
-4. typed Pack/Part/Field/Zeno subcase, with Zeno retained atoms sorted to Field;
+4. typed Part/Field/Zeno subcase, with Zeno retained atoms sorted to Field;
 5. supplier/readout quarantine with no independent CM primitive.
 ```
 
@@ -449,7 +449,7 @@ In particular:
 Carleson selected source-reserve failure -> Field after Pack and Part survive.
 Zeno selected terminal atom              -> Field after Pack and Part survive.
 Retained amplitude failure               -> Pack/Part, or returns to source-wall Field.
-Height/low-strain failure                -> Pack/Part/Field/Zeno typed subcase.
+Height/low-strain failure                -> Part/Field/Zeno typed subcase.
 Signed-current failure                   -> no new face; returns to Pack/Part or source-wall Field.
 Square-reserve failure                   -> no new face; retained failure is Carleson Field.
 Good-scale/readout failure               -> downstream Field/readout support.

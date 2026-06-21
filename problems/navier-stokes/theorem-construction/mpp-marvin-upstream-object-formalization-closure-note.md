@@ -82,7 +82,7 @@ J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u,
 ```
 
 4. The route-local conditional class-membership packet `(MUP.0)`, which is a
-retained-window `Pack/Part/Field` closure surface and not a mixed-jet theorem.
+retained-window `Part/Field` closure surface and not a mixed-jet theorem.
 
 5. The strict-shadow / Euclidean export sidecar, which is downstream context
 unless its own splice, full-data lift, strict-shadow, and carrier-control
@@ -296,7 +296,7 @@ E_{\mathrm{sh}}(X)\equiv 0.
 ```
 
 This is a downstream corollary of exact strict shadow. It does not supply the
-retained `Pack/Part/Field` class-membership packet and it does not replace
+retained `Part/Field` class-membership packet and it does not replace
 `(MUP.0)`.
 
 Thus the strict-shadow material is localized as:

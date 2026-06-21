@@ -117,10 +117,10 @@ B_{ASAC}^{closed}
 \quad\text{zero-radius selected terminal source-residue support.}
 ```
 
-This is CM witness-face support for the source-wall obstruction. It is not a
+This is CM witness support for the source-wall obstruction. It is not a
 proof that a finite Clay counterexample cannot realize the terminal source atom.
 The public Clay finality bridge still needs a noncircular theorem excluding or
-charging the first terminal Pack/that face failure from original smooth data.
+charging the first terminal Pack/that Part/Field failure from original smooth data.
 
 ## Verdict
 

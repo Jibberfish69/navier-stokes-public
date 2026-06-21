@@ -125,4 +125,4 @@ same source-control burden in positive form.
 
 The loop must continue at the weighted lifted remainder. It may not treat
 native-source temporal thickness as closed from original smooth data, local
-energy, Pack-first minimality, or soft velocity integrability.
+energy, Field-certification minimality, or soft velocity integrability.

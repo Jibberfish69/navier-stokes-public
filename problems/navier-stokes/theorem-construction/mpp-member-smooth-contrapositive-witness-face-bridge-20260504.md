@@ -368,7 +368,7 @@ NonSmooth(Q)
 
 - `mpp-cm-contrapositive-primitive-seat-repair-note-20260503.md` defines the
   governing primitive as `Exit(Q):=\neg Member(Q)` and
-  `CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}`.
+  `CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}`.
 - `mpp-live-status-sourcelock-clay-final-verification-note.md` records
   `CM.Readout`, namely `CM_{N,r,Q}` gives the classical `H^s`, `s>5/2`,
   continuation norm.
@@ -411,7 +411,7 @@ NonSmooth(Q)
 The previous status
 
 ```text
-cm-witness-face-bridge-required
+cm-witness-bridge-required
 ```
 
 is discharged at the theorem-bridge level.
