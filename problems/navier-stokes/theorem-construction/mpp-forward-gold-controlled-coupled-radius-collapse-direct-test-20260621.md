@@ -73,10 +73,11 @@ radius determined by the tower.
 
 ## 2. Canonical admissible-radius set
 
-Fix a cutoff \(\eta\). For each rescaled terminal cylinder \(j\), define
+Fix a cutoff \(\eta\). For each rescaled terminal cylinder \(j\), define the
+time-dependent tower energy
 
 \[
-\mathcal E_{j,\eta}(\tau,\rho)
+\mathcal E_{j,\eta}(\tau,\rho;s)
 :=
 {1\over2}
 \sum_{m,\alpha}
@@ -91,7 +92,8 @@ For a threshold \(E_*>0\), the admissible-radius set is
 \mathcal R_j(E_*)
 :=
 \left\{
-(\tau,\rho):\ \mathcal E_{j,\eta}(\tau,\rho)\le E_*
+(\tau,\rho):\ \sup_{-1\le s\le0}
+\mathcal E_{j,\eta}(\tau,\rho;s)\le E_*
 \right\}.
 \tag{CCR.7}
 \]
@@ -110,7 +112,7 @@ along the terminal chain:
 \[
 \exists \tau_*>0,\ \exists\rho_*>0,\ \exists E_*<\infty,\ \exists J
 \quad\text{such that}\quad
-\mathcal E_{j,\eta}(\tau_*,\rho_*)\le E_*
+\sup_{-1\le s\le0}\mathcal E_{j,\eta}(\tau_*,\rho_*;s)\le E_*
 \quad\text{for all }j\ge J.
 \tag{CCR.9}
 \]
@@ -119,7 +121,8 @@ Canonical coupled radius collapse is the negation:
 
 \[
 \forall \tau_*>0,\ \forall\rho_*>0,\quad
-\limsup_{j\to\infty}\mathcal E_{j,\eta}(\tau_*,\rho_*)=\infty.
+\limsup_{j\to\infty}
+\sup_{-1\le s\le0}\mathcal E_{j,\eta}(\tau_*,\rho_*;s)=\infty.
 \tag{CCR.10}
 \]
 
