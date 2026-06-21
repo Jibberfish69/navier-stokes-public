@@ -234,12 +234,12 @@ chunk:
       Charge.A is available, that first-created reserve is charged. A charged first
       appearance is paid inside the same window record, so it cannot produce the selected
       surplus.\n\nA finite or non-Zeno donor tree fails to telescope. This is failure
-      of the donor/entrance Pack record, hence a Pack-face defect, not a retained
+      of the donor/entrance Pack record, hence a Field-window evidence defect, not a retained
       Pack counterexample. The first-created branch collapses to terminal zero-radius
       Zeno ancestry. The terminal Zeno Pack-before-Part correction sends that branch first to Part when the same original-NS pointwise participation record remains, and to true Pack failure only when that record is absent. A retained
       positive-scale first-created contribution remains uncharged. This is precisely
       not Terminal Reserve First Appearance Charge.A, equivalently the localized Positive
-      Remainder Depletion.A supplier atom.\n\nso a retained Pack counterexample to
+      Remainder Depletion.A supplier atom.\n\nso a retained Field-window evidence counterexample to
       Scale Critical Tree Carleson.A cannot survive once Terminal Reserve First Appearance
       Charge.A is proved. Without that charge theorem, the Pack no-exit proof remains
       open at the first \n% ... source excerpt truncated for packet size ...\n"
@@ -256,7 +256,7 @@ chunk:
     text: |+
       \subsection{Clay problem Terminal Zeno Pack Failure Correction}
 
-      Finite Zeno ancestry packets may be legal CM packets. For every finite stage m, the selected packet P m has positive radius r m>0 and can still sit inside the ordinary retained packet grammar.
+      Finite Zeno ancestry packets may be legal CM participation-fields. For every finite stage m, the selected packet P m has positive radius r m>0 and can still sit inside the ordinary retained packet grammar.
 
       \[
       r_m\downarrow 0,\qquad t_m\uparrow T_*,
@@ -268,11 +268,11 @@ chunk:
 
       That endpoint is a zero-radius, terminal-time residue. In the CM witness hierarchy the first endpoint failure is Pack collapse: the carrier/cover legality has collapsed before one can spend a retained Field N,r,Q face.
 
-      Endpoint source or jump language is allowed only as downstream readout after CM exit, or under an additional positive-scale retained-carrier theorem. It must not be used to treat the terminal residue itself as a legal retained CM packet.
+      Endpoint source or jump language is allowed only as downstream readout after CM exit, or under an additional positive-scale retained-carrier theorem. It must not be used to treat the terminal residue itself as a legal retained CM participation-field.
 
       The positive-radius retained tail is handled by No Persistent Unpaid Positive Radius Ancestry.A: a positive terminal carrier must pay, receive flux, leave through a legal record, or hit a finite CM face.
 
-      The terminal zero-radius object is already illegal inside CM packet legality. It does not carry a further forward PRD, no-pulse, or source-control deletion burden. Those positive supplier presentations are downstream readout/support for a different program unless a later target explicitly switches away from terminal CM Pack-legality.
+      The terminal zero-radius object is already illegal inside CM participation-field legality. It does not carry a further forward PRD, no-pulse, or source-control deletion burden. Those positive supplier presentations are downstream readout/support for a different program unless a later target explicitly switches away from terminal CM Pack-legality.
 
 
     truncated: false
@@ -336,9 +336,9 @@ chunk:
 
       The first-pulse/minimal-window proof skeleton is sound after Source Reserve Birth Charge.A: choose the first window where R N(W)>=eta, iterate the contraction backward, and use vanishing high-tail native charge to
 
-      That audit keeps TerminalCMNo Exit.Face Reduction.A as a valid face reduction and keeps Pack, Part, and Field no-exit open from original smooth data. Its
+      That audit keeps TerminalCMNo Exit.Face Reduction.A as a valid face reduction and keeps Part and Field no-exit open from original smooth data. Its
 
-      The coordinated live target is the source-reserve birth theorem above, or a genuinely equivalent structural theorem that prices first creation of the scale-critical donor reserve inside Pack/Part/Field/Zeno class-exit grammar.
+      The coordinated live target is the source-reserve birth theorem above, or a genuinely equivalent structural theorem that prices first creation of the scale-critical donor reserve inside Part/Field/Zeno class-exit grammar.
 
 
     truncated: false
@@ -356,7 +356,7 @@ chunk:
 
       Until that condition is proved, the retained positive-scale source-reserve branch is supplier quarantine. It may guide proof search for Positive Remainder Depletion.A, Source Weighted Terminal Angular Depletion.A, a positive active-Carleson reserve, or a rigid Zeno residue class, but it is not a live CM frontier and it does not replace the Clay-facing terminal witness entry / finite failure type / contrapositive embedding family.
 
-      The source-reserve / donor-refill branch is support-only after this Pack-first audit.
+      The source-reserve / donor-refill branch is support-only after this Part/Field audit.
 
 
     truncated: false
@@ -504,9 +504,9 @@ chunk:
 
     If Terminal Reserve First Appearance Charge.A is available, that first-created reserve is charged. A charged first appearance is paid inside the same window record, so it cannot produce the selected surplus.
 
-    A finite or non-Zeno donor tree fails to telescope. This is failure of the donor/entrance Pack record, hence a Pack-face defect, not a retained Pack counterexample. The first-created branch collapses to terminal zero-radius Zeno ancestry. The terminal Zeno Pack-before-Part correction sends that branch first to Part when the same original-NS pointwise participation record remains, and to true Pack failure only when that record is absent. A retained positive-scale first-created contribution remains uncharged. This is precisely not Terminal Reserve First Appearance Charge.A, equivalently the localized Positive Remainder Depletion.A supplier atom.
+    A finite or non-Zeno donor tree fails to telescope. This is failure of the donor/entrance Pack record, hence a Field-window evidence defect, not a retained Field-window evidence counterexample. The first-created branch collapses to terminal zero-radius Zeno ancestry. The terminal Zeno Pack-before-Part correction sends that branch first to Part when the same original-NS pointwise participation record remains, and to true Pack failure only when that record is absent. A retained positive-scale first-created contribution remains uncharged. This is precisely not Terminal Reserve First Appearance Charge.A, equivalently the localized Positive Remainder Depletion.A supplier atom.
 
-    so a retained Pack counterexample to Scale Critical Tree Carleson.A cannot survive once Terminal Reserve First Appearance Charge.A is proved. Without that charge theorem, the Pack no-exit proof remains open at the first unpaid positive-scale donor-reserve birth.
+    so a retained Field-window evidence counterexample to Scale Critical Tree Carleson.A cannot survive once Terminal Reserve First Appearance Charge.A is proved. Without that charge theorem, the Pack no-exit proof remains open at the first unpaid positive-scale donor-reserve birth.
 
     TerminalCMNo Exit.A, Scale Critical Tree Carleson.A, and global smoothness are not proved here.
 
@@ -516,7 +516,7 @@ chunk:
 
     \subsection{Clay problem Terminal Zeno Pack Failure Correction}
 
-    Finite Zeno ancestry packets may be legal CM packets. For every finite stage m, the selected packet P m has positive radius r m>0 and can still sit inside the ordinary retained packet grammar.
+    Finite Zeno ancestry packets may be legal CM participation-fields. For every finite stage m, the selected packet P m has positive radius r m>0 and can still sit inside the ordinary retained packet grammar.
 
     \[
     r_m\downarrow 0,\qquad t_m\uparrow T_*,
@@ -528,11 +528,11 @@ chunk:
 
     That endpoint is a zero-radius, terminal-time residue. In the CM witness hierarchy the first endpoint failure is Pack collapse: the carrier/cover legality has collapsed before one can spend a retained Field N,r,Q face.
 
-    Endpoint source or jump language is allowed only as downstream readout after CM exit, or under an additional positive-scale retained-carrier theorem. It must not be used to treat the terminal residue itself as a legal retained CM packet.
+    Endpoint source or jump language is allowed only as downstream readout after CM exit, or under an additional positive-scale retained-carrier theorem. It must not be used to treat the terminal residue itself as a legal retained CM participation-field.
 
     The positive-radius retained tail is handled by No Persistent Unpaid Positive Radius Ancestry.A: a positive terminal carrier must pay, receive flux, leave through a legal record, or hit a finite CM face.
 
-    The terminal zero-radius object is already illegal inside CM packet legality. It does not carry a further forward PRD, no-pulse, or source-control deletion burden. Those positive supplier presentations are downstream readout/support for a different program unless a later target explicitly switches away from terminal CM Pack-legality.
+    The terminal zero-radius object is already illegal inside CM participation-field legality. It does not carry a further forward PRD, no-pulse, or source-control deletion burden. Those positive supplier presentations are downstream readout/support for a different program unless a later target explicitly switches away from terminal CM Pack-legality.
 
 
 
@@ -584,9 +584,9 @@ chunk:
 
     The first-pulse/minimal-window proof skeleton is sound after Source Reserve Birth Charge.A: choose the first window where R N(W)>=eta, iterate the contraction backward, and use vanishing high-tail native charge to
 
-    That audit keeps TerminalCMNo Exit.Face Reduction.A as a valid face reduction and keeps Pack, Part, and Field no-exit open from original smooth data. Its
+    That audit keeps TerminalCMNo Exit.Face Reduction.A as a valid face reduction and keeps Part and Field no-exit open from original smooth data. Its
 
-    The coordinated live target is the source-reserve birth theorem above, or a genuinely equivalent structural theorem that prices first creation of the scale-critical donor reserve inside Pack/Part/Field/Zeno class-exit grammar.
+    The coordinated live target is the source-reserve birth theorem above, or a genuinely equivalent structural theorem that prices first creation of the scale-critical donor reserve inside Part/Field/Zeno class-exit grammar.
 
 
 
@@ -594,12 +594,12 @@ chunk:
 
     Until that condition is proved, the retained positive-scale source-reserve branch is supplier quarantine. It may guide proof search for Positive Remainder Depletion.A, Source Weighted Terminal Angular Depletion.A, a positive active-Carleson reserve, or a rigid Zeno residue class, but it is not a live CM frontier and it does not replace the Clay-facing terminal witness entry / finite failure type / contrapositive embedding family.
 
-    The source-reserve / donor-refill branch is support-only after this Pack-first audit.
+    The source-reserve / donor-refill branch is support-only after this Part/Field audit.
 
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
