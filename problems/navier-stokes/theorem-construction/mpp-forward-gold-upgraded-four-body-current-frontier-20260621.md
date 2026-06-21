@@ -2,7 +2,7 @@
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
 status: consolidated-frontier-installed-strict-cycle-payment-or-rigidity-open-supplement-criteria-updated
 logical_landing_node: upgraded_four_body_current_frontier
-edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, and the critical-density/CKN supplement criterion. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste and critical-density/CKN are proved supplement criteria, not produced Navier-Stokes estimates. The remaining gold theorem is a same-carrier production theorem: produce an unweighted square/no-waste or critical-density/CKN reserve, signed polar saturation, rigid source-residue production, or legal/charged pre-Cauchy remainder reduction."
+edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, the critical-density/CKN supplement criterion, and the signed-polar saturation supplement criterion. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste, critical-density/CKN, and signed-polar saturation are proved supplement criteria, not produced Navier-Stokes estimates. The remaining gold theorem is a same-carrier production theorem: produce an unweighted square/no-waste or critical-density/CKN reserve, produce dN_miss=0 or a legal/charged polar defect, produce rigid source-residue production, or reduce the full pre-Cauchy carrier to legal/charged terms."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-factorial-tower-radius-spend-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-participation-exchange-normal-form-20260621.md
@@ -23,6 +23,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-field-amplitude-to-quotient-tower-supplement-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-density-ckn-fourbody-supplement-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-polar-saturation-fourbody-supplement-criterion-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -990,33 +991,101 @@ exact open production sites:
 \tag{4BF.53}
 ```
 
-Thus the remaining supplement list is narrower.  Amplitude/Field is paid under
-a same-carrier bounded coefficient or becomes Field-facing after same-witness
-admission.  Source-square/no-waste and critical-density/CKN are exact
-criteria.  The still-unproduced gold work is the same-carrier unweighted
-reserve, signed polar saturation, rigid source-residue production, or
-legal/charged full pre-Cauchy remainder reduction.
-
-The exact remaining same-carrier supplement is one of:
+The signed-polar saturation supplement has now also been assembled as an exact
+criterion.  If \(h_P\) is the signed local participation density on a selected
+packet, then
 
 ```math
 \boxed{
-\text{critical-density budget;}
+dJ_{\mathcal S}=dA_{\mathcal S}-dN_{\mathcal S}.
 }
-\tag{4BF.46}
+\tag{4BF.54}
+```
+
+Writing
+
+```math
+\boxed{
+dN_{\mathcal S}
+=
+dN_{\rm ret}
++
+dN_{\rm legal}
++
+dN_{\rm miss},
+\qquad
+dN_{\rm legal}\le dR_{\rm legal},
+}
+\tag{4BF.55}
+```
+
+Body-II participation gives
+
+```math
+\boxed{
+dA_{\mathcal S}
+\le
+dJ_{\mathcal S}^-
++
+dD_{\mathcal S}
++
+(dM_{\mathcal S})^+
++
+dN_{\rm ret}
++
+dR_{\rm legal}
++
+dN_{\rm miss}.
+}
+\tag{4BF.56}
+```
+
+Thus signed-polar saturation closes exactly when
+
+```math
+\boxed{
+dN_{\rm miss}=0
+\quad\text{or}\quad
+dN_{\rm miss}\le dR_{\rm legal}+dK_{\rm charged}.
+}
+\tag{4BF.57}
+```
+
+This criterion is not produced by the installed Navier-Stokes inputs.  Its
+remaining production theorem is `SourceWeightedPolarSaturation.A`: the rescaled
+localized velocity-pressure-viscosity-incompressibility tower must retain the
+negative local partner or route it into a declared legal/charged defect.
+
+Thus the remaining supplement list is narrower.  Amplitude/Field is paid under
+a same-carrier bounded coefficient or becomes Field-facing after same-witness
+admission.  Source-square/no-waste, critical-density/CKN, and signed-polar
+saturation are exact criteria.  The still-unproduced gold work is one of:
+
+```math
+\boxed{
+\text{unweighted same-carrier square/no-waste or critical-density reserve;}
+}
+\tag{4BF.58}
 ```
 
 ```math
 \boxed{
-\text{signed polar saturation;}
-\quad
+\text{production of }dN_{\rm miss}=0
+\text{ or a legal/charged polar defect;}
+}
+\tag{4BF.59}
+```
+
+```math
+\boxed{
 \text{rigid source-residue production;}
 \quad
-\text{or legal/charged pre-Cauchy remainder reduction.}
+\text{or legal/charged full pre-Cauchy remainder reduction.}
 }
-\tag{4BF.47}
+\tag{4BF.60}
 ```
 
 This is the current unflattened frontier: the four-body loop pays quotient
 tower activity exactly, and the native cubic source selector must be converted
-to that paid currency by one of the precise same-carrier supplements above.
+to that paid currency by one of the precise same-carrier production theorems
+above.
