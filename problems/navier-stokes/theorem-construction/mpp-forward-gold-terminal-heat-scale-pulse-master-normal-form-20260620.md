@@ -51,6 +51,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tensor-square-to-critical-l5-readout-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tensor-l5-branch-to-retained-field-subcase-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tensor-l5-branch-to-finite-rung-field-face-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-projected-source-atom-to-finite-rung-field-face-20260621.md
 ---
 
 # MPP Forward-Gold Terminal Heat-Scale Pulse Master Normal Form
@@ -494,6 +495,8 @@ status:
 \text{after same-witness Pack+Part, finite same-packet }L^5\text{ Field coherence is contradicted}\\
 \text{tensor }L^5\text{ finite-rung Field face} &
 \text{after same-witness Pack+Part, finite-rung Sobolev Field coherence implies an }L^5\text{ upper bill and is contradicted}\\
+\text{projected-source atom finite-rung Field face} &
+\text{after same-witness Pack+Part, finite-rung Sobolev Field coherence bounds }N=-\mathbb P\nabla\cdot(v\otimes v)\text{ in }L^\infty\text{ and forbids a projected-source atom}\\
 \text{same-carrier }p>1\text{ / Orlicz} &
 \text{consumer of tail UI; production absent}\\
 \text{source-square / Carleson} &
