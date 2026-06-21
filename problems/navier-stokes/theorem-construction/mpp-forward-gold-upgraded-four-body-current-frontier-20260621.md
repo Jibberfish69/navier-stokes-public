@@ -2,7 +2,7 @@
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
 status: consolidated-frontier-installed-strict-cycle-payment-or-rigidity-open-supplement-criteria-updated
 logical_landing_node: upgraded_four_body_current_frontier
-edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, the critical-density/CKN supplement criterion, and the signed-polar saturation supplement criterion. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste, critical-density/CKN, and signed-polar saturation are proved supplement criteria, not produced Navier-Stokes estimates. The remaining gold theorem is a same-carrier production theorem: produce an unweighted square/no-waste or critical-density/CKN reserve, produce dN_miss=0 or a legal/charged polar defect, produce rigid source-residue production, or reduce the full pre-Cauchy carrier to legal/charged terms."
+edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, the critical-density/CKN supplement criterion, the signed-polar saturation supplement criterion, and the rigid source-residue supplement criterion. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste, critical-density/CKN, signed-polar saturation, and rigid source-residue production are proved supplement criteria, not produced Navier-Stokes estimates. The remaining gold theorem is a same-carrier production theorem: produce an unweighted square/no-waste or critical-density/CKN reserve, produce dN_miss=0 or a legal/charged polar defect, produce MinimalZenoProfileProduction.A, or reduce the full pre-Cauchy carrier to legal/charged terms."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-factorial-tower-radius-spend-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-participation-exchange-normal-form-20260621.md
@@ -24,6 +24,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-density-ckn-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-polar-saturation-fourbody-supplement-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-rigid-source-residue-fourbody-supplement-criterion-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -1056,16 +1057,58 @@ remaining production theorem is `SourceWeightedPolarSaturation.A`: the rescaled
 localized velocity-pressure-viscosity-incompressibility tower must retain the
 negative local partner or route it into a declared legal/charged defect.
 
+The rigid source-residue supplement is now also assembled as an exact criterion.
+It kills a terminal Zeno source-residue chain only after the same selected
+carrier produces a rigidity-consumable profile:
+
+```math
+\boxed{
+\begin{gathered}
+\text{endpoint residue evacuation or controlled point force}
++\text{ nontriviality retention}
++\text{ no drift}\\
++\text{ stationarity}
++\text{ homogeneity}
++\text{ defect evacuation}
++\text{ sphere smoothness.}
+\end{gathered}
+}
+\tag{4BF.58}
+```
+
+Those hypotheses produce a stationary \((-1)\)-homogeneous profile with
+controlled point force,
+
+```math
+-\nu\Delta U+\nabla\cdot(U\otimes U)+\nabla P=\Phi_0\delta_0,
+\qquad
+\nabla\cdot U=0.
+\tag{4BF.59}
+```
+
+In the zero-force branch, \(\Phi_0=0\), the Landau/Sverak consumer gives
+\(U=0\).  That contradicts the Zeno branch only when the nontrivial selected
+carrier has actually been retained in the produced profile.  Without that
+retention, an endpoint atom can survive at \(s=0\) while the negative-time
+profile is source-free or trivial.
+
+So the rigid route is still open exactly at
+`MinimalZenoProfileProduction.A`, with endpoint evacuation/controlled force,
+nontriviality retention, no-drift/unique tangent, renormalized stationarity,
+homogeneity extraction, defect evacuation, and sphere smoothness as its
+internal production stack.
+
 Thus the remaining supplement list is narrower.  Amplitude/Field is paid under
 a same-carrier bounded coefficient or becomes Field-facing after same-witness
 admission.  Source-square/no-waste, critical-density/CKN, and signed-polar
-saturation are exact criteria.  The still-unproduced gold work is one of:
+saturation, and rigid source-residue production are exact criteria.  The
+still-unproduced gold work is one of:
 
 ```math
 \boxed{
 \text{unweighted same-carrier square/no-waste or critical-density reserve;}
 }
-\tag{4BF.58}
+\tag{4BF.60}
 ```
 
 ```math
@@ -1073,16 +1116,16 @@ saturation are exact criteria.  The still-unproduced gold work is one of:
 \text{production of }dN_{\rm miss}=0
 \text{ or a legal/charged polar defect;}
 }
-\tag{4BF.59}
+\tag{4BF.61}
 ```
 
 ```math
 \boxed{
-\text{rigid source-residue production;}
+\text{production of MinimalZenoProfileProduction.A;}
 \quad
 \text{or legal/charged full pre-Cauchy remainder reduction.}
 }
-\tag{4BF.60}
+\tag{4BF.62}
 ```
 
 This is the current unflattened frontier: the four-body loop pays quotient
