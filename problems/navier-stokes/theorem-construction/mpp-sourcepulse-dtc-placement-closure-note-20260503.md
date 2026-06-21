@@ -10,7 +10,7 @@ This note proves:
 ```math
 SourcePulseTowerReadout.A:
 \quad
-\text{every terminal source-pulse genuine non-smooth witness retaining }Pack+Part
+\text{every terminal source-pulse genuine non-smooth witness retaining }Part plus Field-window evidence
 \text{ and not already failing }Field
 ```
 

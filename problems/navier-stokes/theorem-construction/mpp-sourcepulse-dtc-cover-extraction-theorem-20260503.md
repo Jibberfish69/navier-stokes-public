@@ -35,7 +35,7 @@ Recall the cover-extraction target from
 SourcePulseDTCCover.A:
 \quad
 \text{every terminal source-pulse genuine non-smooth witness which retains }
-Pack+Part
+Part plus Field-window evidence
 \text{ admits a finite same-family transported-center cover at the radii
 required by }DTC.A.
 }

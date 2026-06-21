@@ -23,7 +23,7 @@ Let
 ```
 
 be a terminal same-fluid source-pulse family used as a genuine non-smooth
-occurrence.  Work on the retained `Pack+Part` branch:
+occurrence.  Work on the retained `Part plus Field-window evidence` branch:
 
 ```math
 Pack_{Q_n}(u,\Phi),
@@ -48,7 +48,7 @@ radius on the corresponding source-pulse scale.
 
 ## Theorem `SourcePulseDTCCover.A`
 
-For every retained `Pack+Part` terminal source-pulse family and every required
+For every retained `Part plus Field-window evidence` terminal source-pulse family and every required
 endpoint-depth transported-center radius, there is a finite same-family
 transported-center cover
 

@@ -12,7 +12,7 @@ admission plus a first Part/Field failure is proved.
 
 ## Target
 
-The live Pack-side source-reserve root was:
+The live Field-window support source-reserve root was:
 
 ```text
 SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A

@@ -10,7 +10,7 @@ Purpose: audit the same-family `END.TowerAmp` license used by the
 The tower-residue closure is valid as a conditional implication through the
 transported-center tower route, but that route is no longer the governing local
 CM-exit burden.  The follow-up retained-field closure proves the route-governing
-primitive directly on the branch where `Pack+Part+Field` are retained.
+primitive directly on the branch where `Part+Field` are retained.
 
 The transported-center theorem remains a stronger optional tower supplier:
 
@@ -18,7 +18,7 @@ The transported-center theorem remains a stronger optional tower supplier:
 \boxed{
 SourcePulseDTCPlacement.A:
 \quad
-\text{every terminal source-pulse genuine non-smooth witness retaining }Pack+Part
+\text{every terminal source-pulse genuine non-smooth witness retaining }Part plus Field-window evidence
 \text{ admits a finite same-family transported-center cover carrying }DTC.A
 \text{ through depth }N+2.
 }
@@ -75,7 +75,7 @@ SourcePulseDTCCover.A
 }
 ```
 
-the source-side cover extraction from the retained same-fluid `Pack+Part`
+the source-side cover extraction from the retained same-fluid `Part plus Field-window evidence`
 source-pulse family, and
 
 ```math

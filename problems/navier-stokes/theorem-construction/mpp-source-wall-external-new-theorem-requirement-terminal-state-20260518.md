@@ -25,7 +25,7 @@ B_{ASAC}\text{ terminal atom}
 \neg Pack_Q\vee\neg Part_{N,Q}\vee\forall r>0\,\neg Field_{N,r,Q}.
 ```
 
-On retained `Pack+Part`, the atom lands in `Field`.
+On retained `Part plus Field-window evidence`, the atom lands in `Field`.
 
 The pressure/eigenframe alternative is completed as a hard branch split:
 

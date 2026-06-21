@@ -18,7 +18,7 @@ B_{ASAC}\text{ terminal atom}
 \neg Pack_Q\vee\neg Part_{N,Q}\vee\forall r>0\,\neg Field_{N,r,Q}.
 ```
 
-On retained `Pack+Part`, the atom is a `Field` failure.
+On retained `Part plus Field-window evidence`, the atom is a `Field` failure.
 
 Thus the surviving terminal source atom is typed for the CM ledger.
 

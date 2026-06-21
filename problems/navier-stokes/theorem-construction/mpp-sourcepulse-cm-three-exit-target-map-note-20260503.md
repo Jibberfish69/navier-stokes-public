@@ -118,7 +118,7 @@ The route-governing manifestation form is now closed by
 
 The closure uses the installed non-smoothness bridge plus retained-field tower
 anchoring to remove the mixed `tower-blown` residue on the branch where
-`Pack+Part+Field` are all retained.
+`Part+Field` are all retained.
 
 The stronger direct source-control theorem remains open:
 
@@ -237,7 +237,7 @@ SourcePulseFieldExit.A,
    recorded in
    [mpp-sourcepulse-field-face-tower-placement-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-sourcepulse-field-face-tower-placement-reduction-note.md).
    This is narrower than the older absolute no-pulse supplier theorem: it asks
-   only that a genuine source-pulse witness retaining `Pack+Part` already lies
+   only that a genuine source-pulse witness retaining `Part plus Field-window evidence` already lies
    on the same-family transported-center/tower route, which removes the mixed
    `tower-blown` alternative and forces the `Jump` / `not Field` exit.
 
@@ -274,7 +274,7 @@ SourcePulseDTCPlacement.A.
    Moreover, for the route-governing manifestation form, the retained-field
    tower-readout closure
    [mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md)
-   removes the mixed `tower-blown` branch on retained `Pack+Part+Field`.
+   removes the mixed `tower-blown` branch on retained `Part+Field`.
    Therefore the manifestation-level `SourcePulseCMExit.A` route is closed;
    the analytic `DTC.A` route remains only a stronger endpoint/tower supplier
    route.

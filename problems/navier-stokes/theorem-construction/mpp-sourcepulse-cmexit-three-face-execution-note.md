@@ -106,7 +106,7 @@ then `mpp-field-coherence-remainder-note.md` gives:
 
 ```math
 \boxed{
-Pack+Part+\text{jump manifestation}
+Part plus Field-window evidence+\text{jump manifestation}
 \Longrightarrow
 \text{shrinking-scale neighboring coherence fracture}
 \Longrightarrow
@@ -177,7 +177,7 @@ The three CM Part/Fields now reduce to:
 \hline
 Pack & \text{closed only on the packing-detached manifestation alternative} \\
 Part & \text{not a direct source-pulse exit under current inputs} \\
-Field & \text{closed on the jump manifestation alternative under retained Pack+Part}
+Field & \text{closed on the jump manifestation alternative under retained Part plus Field-window evidence}
 \end{array}
 }
 ```
@@ -194,7 +194,7 @@ At this reduction stage the exact remaining source-pulse CM-exit burden is:
 
 ```math
 \boxed{
-\text{(i) enters jump manifestation under retained Pack+Part,}
+\text{(i) enters jump manifestation under retained Part plus Field-window evidence,}
 \quad
 \text{or}
 \quad
@@ -219,7 +219,7 @@ failure.}
 
 This is sharper than the older direct no-pulse target.  It does not require
 absolute `SourcePulseExclusion.A`; it requires only that the source-pulse
-genuine non-smooth witness cannot survive as a lawful Pack+Part+Field packet
+genuine non-smooth witness cannot survive as a lawful Part+Field packet
 with an unowned mixed tower-amplitude escape.
 
 The companion reduction note
@@ -243,7 +243,7 @@ more sharply as the same-family tower-placement theorem
 ```math
 \boxed{
 \text{every terminal source-pulse genuine non-smooth witness which retains }
-Pack+Part
+Part plus Field-window evidence
 \text{ activates }END.TowerAmp\text{ on that same family.}
 }
 \tag{SPCM.10}
@@ -269,7 +269,7 @@ SourcePulseFieldExit.A.
 ```
 
 So the exact current residue below `SPCM.TowerOrField.A` is transported-center
-placement of the retained `Pack+Part` source-pulse family into the installed
+placement of the retained `Part plus Field-window evidence` source-pulse family into the installed
 `DTC.A` / tower-amplitude spine.  The companion reduction note now splits that
 one more step into the source-side cover theorem
 
@@ -289,11 +289,11 @@ The cover half is now installed in
 The follow-up retained-field tower-readout closure
 [mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md)
 removes the mixed `tower-blown` branch directly on the retained
-`Pack+Part+Field` branch:
+`Part+Field` branch:
 
 ```math
 \boxed{
-Pack+Part+Field
+Part+Field
 \Longrightarrow
 \neg tower\text{-}blown.
 }
