@@ -259,7 +259,7 @@ chunk:
       time is impossible once the uniform \(H^s\) bound is available.
 
       The warrant converts an already supplied \(H^s\) bound into continuation.  The
-      analytic route still has to supply that bound from the Pack/Part/Field or
+      analytic route still has to supply that bound from the Part/Field or
       classical dyadic packages.  The branch remains the periodic zero-force branch:
       whole-space data and nonzero forcing require their own export warrants.
 
@@ -649,7 +649,7 @@ chunk:
     time is impossible once the uniform \(H^s\) bound is available.
 
     The warrant converts an already supplied \(H^s\) bound into continuation.  The
-    analytic route still has to supply that bound from the Pack/Part/Field or
+    analytic route still has to supply that bound from the Part/Field or
     classical dyadic packages.  The branch remains the periodic zero-force branch:
     whole-space data and nonzero forcing require their own export warrants.
 
@@ -819,7 +819,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

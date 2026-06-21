@@ -288,7 +288,7 @@ chunk:
       theorem from the persistent carrier to the classical low-mode band.  Until that
       export theorem is paid, the carrier route remains support for the gold side and
       supplies CM material only after a selected same-solution residue is tested at
-      Pack, Part, Field, or readout.  In the present manuscript this row is an open
+      Part, Field, or readout.  In the present manuscript this row is an open
       support debt, not a completed low-mode closure theorem.
 
 
@@ -679,7 +679,7 @@ chunk:
     theorem from the persistent carrier to the classical low-mode band.  Until that
     export theorem is paid, the carrier route remains support for the gold side and
     supplies CM material only after a selected same-solution residue is tested at
-    Pack, Part, Field, or readout.  In the present manuscript this row is an open
+    Part, Field, or readout.  In the present manuscript this row is an open
     support debt, not a completed low-mode closure theorem.
 
 
@@ -819,7 +819,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

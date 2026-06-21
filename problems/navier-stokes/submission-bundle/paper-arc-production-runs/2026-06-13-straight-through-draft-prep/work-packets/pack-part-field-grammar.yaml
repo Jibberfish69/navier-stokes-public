@@ -2,13 +2,13 @@
 version: 1
 kind: ns-paper-arc-author-work-packet
 generated_at: '2026-06-14T00:23:21Z'
-arc_id: pack-part-field-grammar
+arc_id: part-field-grammar
 work_unit: write finished TeX prose for this proof arc
 paper_goal: make the manuscript read as one human mathematical proof, with repo status
   visible only through the argument on the page
 arc:
-  arc_id: pack-part-field-grammar
-  title: Pack/Part/Field witness grammar
+  arc_id: part-field-grammar
+  title: Part/Field witness grammar
   priority: 4
   status: ready_for_author_packet
   author_job: write the witness-face grammar and the contrapositive class-exit proof
@@ -158,7 +158,7 @@ source_sections:
     \]
     with the continuation readout for the branch attached at the depth being used.  This is the pass side.  It says that the selected record remains inside the working Navier--Stokes class.
 
-    The fail side is supplied by finite-witness classification.  A finite terminal obstruction \(\mathcal F\) that has been admitted as the same selected record cannot keep a continuation-complete Pack/Part/Field packet.  If it kept
+    The fail side is supplied by finite-witness classification.  A finite terminal obstruction \(\mathcal F\) that has been admitted as the same selected record cannot keep a continuation-complete Part/Field packet.  If it kept
     \[
       \Pack_Q,\qquad \Part_{N_s,Q},\qquad \Field_{N_s,r,Q}
     \]
@@ -203,7 +203,7 @@ source_sections:
     \]
     The member row also needs the branch readout.  The Pack row says there is no positive same-fluid carrier.  The Part row says the carrier is present and the same law has been lost.  The Field row says the carrier and law are present, while every positive one-field scale fails.
 
-    The other Boolean rows collapse to the first failed face.  A field-looking trace without a carrier has already failed Pack.  A formal participation reading without a same carrier also fails Pack first.  A carrier whose law and field both fail is recorded at Part, because the equation law is lost before the field question can do useful work.
+    The other Boolean rows collapse to the first failed face.  A field-looking trace without a carrier has already failed Pack.  A formal participation reading without a same carrier also fails Part/Field first.  A carrier whose law and field both fail is recorded at Part, because the equation law is lost before the field question can do useful work.
 
     Field remains a real terminal face.  Some terminal pictures first appear as jumps, incompatible neighboring traces, or unbounded tower readings.  After Pack and Part have survived on the selected record, those pictures ask whether one positive scale still carries a coherent field.  If every such scale fails, the record lands in Field.
 
@@ -217,7 +217,7 @@ source_sections:
   text: |
     \section{The Class-Law Proof}
 
-    The class law turns the witness grammar into a proof.  It has two inputs.  The first input is the exact certificate theorem: retained Pack, Part, and Field certify membership.  The second input is the finite-failure theorem: an admitted finite terminal obstruction cannot retain a continuation-complete packet.
+    The class law turns the witness grammar into a proof.  It has two inputs.  The first input is the exact certificate theorem: retained Part and Field certify membership.  The second input is the finite-failure theorem: an admitted finite terminal obstruction cannot retain a continuation-complete packet.
 
     \begin{definition}[Continuation-complete packet]
     Fix \(s>5/2\), and let \(N_s\) be a tower depth high enough for the classical \(H^s\) readout.  A continuation-complete packet for \(Q\) is a packet satisfying
@@ -276,7 +276,7 @@ source_sections:
     \begin{proof}
     Begin with the selected record \(Q\).  The first gate is Pack.  Either the positive same-fluid carrier exists or it fails.  Carrier failure gives \(\neg\Pack_Q\), and the proof stops at Pack.
 
-    Assume Pack survives.  The second gate is Part.  Either the same pressure-viscosity-incompressibility tower acts through depth \(N_s\) on the carrier, or it fails.  Participation failure gives
+    Assume Field-window evidence is present.  The second gate is Part.  Either the same pressure-viscosity-incompressibility tower acts through depth \(N_s\) on the carrier, or it fails.  Participation failure gives
     \[
       \Pack_Q\wedge\neg\Part_{N_s,Q},
     \]
@@ -299,7 +299,7 @@ source_sections:
     \end{theorem}
 
     \begin{proof}
-    A continuation-complete member record supplies Pack, Part, Field, and the \(H^s\), \(s>5/2\), readout at the required depth.  The standard local theory relaunches the same classical solution from times \(t_j\uparrow T_*\) and extends it past \(T_*\).  The same record then cannot be the finite terminal obstruction blocking that continuation.
+    A continuation-complete member record supplies Part, Field, and the \(H^s\), \(s>5/2\), readout at the required depth.  The standard local theory relaunches the same classical solution from times \(t_j\uparrow T_*\) and extends it past \(T_*\).  The same record then cannot be the finite terminal obstruction blocking that continuation.
     \end{proof}
 
     \subsection{Annular residual specialization}
@@ -400,7 +400,7 @@ support_refs:
     | --- | --- | --- | --- | --- |
     | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
     | 2 | The witness enters the canonical same-fluid CM terminal packet tree rather than being assumed to be a class member | `live-theorem-edge.yaml`, `theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md` | installed via `ClayTerminalWitnessCMEntry.A` | makes CM-test admissibility the first proof move |
-    | 3 | The finite failure type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q} | `live-theorem-edge.yaml`, `theorem-repair.yaml`, `submission-bundle/submission-synopsis.md` | installed via `ClayFiniteFailureTypeCMExhaustion.A` | sorts the terminal witness through the three typed witness faces |
+    | 3 | The finite failure type is exhausted as not not Part_{N,Q} or forall r>0 not Field_{N,r,Q} | `live-theorem-edge.yaml`, `theorem-repair.yaml`, `submission-bundle/submission-synopsis.md` | installed via `ClayFiniteFailureTypeCMExhaustion.A` | sorts the terminal witness through the three typed witness faces |
     | 4 | The derived face failure embeds as `Exit(Q):=not Member(Q)` inside the CM contrapositive program | `live-theorem-edge.yaml`, `target-operating-contract.yaml`, `submission-bundle/submission-synopsis.md` | installed via `ClayCMContrapositiveEmbedding.A` | lands the class-exit conclusion while preserving `Member(Q)` as downstream |
 - path: problems/navier-stokes/route-lock.yaml
   matched_keywords:
@@ -431,7 +431,7 @@ support_refs:
   excerpt: |-
     ## Route Summary
 
-    - Working target: the manuscript opens from the CM contrapositive class-exit proof program: finite Clay terminal witness entry, Pack/Part/Field finite-failure exhaustion, and `Exit(Q):=not Member(Q)`.
+    - Working target: the manuscript opens from the CM contrapositive class-exit proof program: finite Clay terminal witness entry, Part/Field finite-failure exhaustion, and `Exit(Q):=not Member(Q)`.
     - Honest current status: recent submission surfaces and live theorem authority make the CM terminal-witness chain the proof-bearing opening; older periodic, `Q(t)`, source-wall, and positive-supplier material is support unless it lands in a typed witness face.
     - Decisive frontier: preserve `ClayTerminalWitnessCMEntry.A`, `ClayFiniteFailureTypeCMExhaustion.A`, and `ClayCMContrapositiveEmbedding.A` as the manuscript spine and prevent stale torus-first prose from retaking the opening.
 - path: problems/navier-stokes/submission-bundle/authorial-structure-pass-20260526.md
@@ -448,7 +448,7 @@ support_refs:
     finite Clay terminal witness
     -> same original smooth Navier-Stokes object
     -> same-fluid CM terminal packet tree
-    -> first failed Pack/Part/Field service
+    -> first failed Part/Field service
     -> Exit(Q):=not Member(Q).
 - path: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
   matched_keywords:
@@ -509,7 +509,7 @@ support_refs:
   - Member
   excerpt: |-
     forward-positive work as supplier/certification support and silver CM
-        Pack/Part/Field contrapositive as an acceptable closure route when fully
+        Part/Field contrapositive as an acceptable closure route when fully
         written and readable.
       active_pdf:
 - path: problems/navier-stokes/submission-bundle/pdf-rebuild-branch-section-workplan-20260530.md
@@ -525,7 +525,7 @@ support_refs:
   excerpt: |-
     7. Surviving defect, tail, residue, or witness object.
     8. Reason positive-forward closure stalls.
-    9. CM-exit classification: Pack, Part, Field, continuation readout, scope boundary, or unresolved support.
+    9. CM-exit classification: Part, Field, continuation readout, scope boundary, or unresolved support.
     10. Branch conclusion inside the global CM-exit program.
 - path: problems/navier-stokes/submission-bundle/reader-facing-abstract-intro-checklist.md
   matched_keywords:
@@ -555,7 +555,7 @@ support_refs:
   excerpt: |-
     -> the terminal branch left by failure
       -> working class object
-      -> Pack/Part/Field witness faces
+      -> Part/Field witness faces
       -> terminal packet capture
       -> class exit
 - path: problems/navier-stokes/submission-bundle/source-frontier.yaml
@@ -697,7 +697,7 @@ support_refs:
       downstream_consequence: "Viewer placement keeps this note as historical support, not as an active route or fallback theorem target."
     ---
 author_contract:
-  arc_id: pack-part-field-grammar
+  arc_id: part-field-grammar
   must_write:
   - finished TeX prose, not a report
   - reader-facing explanation before compressed notation
@@ -744,7 +744,7 @@ math_dependency_policy:
   arc_author_job: write the witness-face grammar and the contrapositive class-exit
     proof without role conflation
 math_reader_critic_contract:
-  arc_id: pack-part-field-grammar
+  arc_id: part-field-grammar
   critic_scope: criticize only this authored arc and return repairable failures tied
     to the replacement text
   must_answer:
@@ -770,6 +770,6 @@ verification_plan:
     claim
   arc_completion_test: finished TeX prose for every spine_ref, verified mechanically,
     then integrated into TeX source
-author_pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/pack-part-field-grammar.yaml
+author_pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/part-field-grammar.yaml
 output_rule: fill the referenced author pack with final TeX replacements, verify it,
   integrate it, then build and reread only the changed sections

@@ -180,14 +180,14 @@ source_sections:
     \begin{tabular}{L{0.30\linewidth}L{0.30\linewidth}L{0.30\linewidth}}
     \textbf{Terminal surface} & \textbf{Navier--Stokes role} & \textbf{Euler role}\\
     \hline
-    Clean Part face after Pack survives & \(\Pack_Q\wedge\neg\Part_{N,Q}\) &
+    Clean Part face after Field-window evidence is present & \(\Pack_Q\wedge\neg\Part_{N,Q}\) &
     base boundary reading \(\Member_E(Q)\)\\
     Clean Field face after Pack and Part survive &
     \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\) &
     base boundary reading \(\Member_E(Q)\)\\
     Pack failure, detached ancestry, raw source residue, pressure-source residue,
     Reynolds-stress limit, or oscillation defect & first repair is still native
-    Pack/Part/Field landing & native CM role until the same packet is cleanly typed\\
+    Part/Field landing & native CM role until the same packet is cleanly typed\\
     Smooth-side comparison & support for intuition or boundary comparison &
     smooth-side support for comparison\\
     \end{tabular}
@@ -249,7 +249,7 @@ source_sections:
   text: |
     \section{Whole-Space \texorpdfstring{\(\mathbb R^3\)}{R3} CM Exterior-Source Branch}
 
-    The periodic branch and the whole-space branch use the same class test.  Their entry costs differ.  On \(\mathbb T^3\), the transported atlas lives on a compact spatial domain.  On \(\mathbb R^3\), a terminal claim can try to hide high derivatives in the far field.  The paper handles that risk before it imports the Pack, Part, and Field decision.
+    The periodic branch and the whole-space branch use the same class test.  Their entry costs differ.  On \(\mathbb T^3\), the transported atlas lives on a compact spatial domain.  On \(\mathbb R^3\), a terminal claim can try to hide high derivatives in the far field.  The paper handles that risk before it imports the Part and Field decision.
 
     Fix \(s>5/2\).  Let \(u\) be the smooth Navier--Stokes branch on \([0,T_*)\times\mathbb R^3\) from smooth rapidly decaying divergence-free data, and let \(\eta_R\) be an exterior cutoff.  The strong positive export theorem would prove
     \[
@@ -322,11 +322,11 @@ source_sections:
     \]
     Let \(Q\) be the same-solution terminal record selected by that survivor.  A survivor lacking a retained material address in the original branch fails Pack.  A survivor detached from the same Navier--Stokes equation, pressure law, viscosity, or source ancestry fails Part.
 
-    It remains to read the retained Pack+Part branch.  A fixed positive Field scale \(\rho>0\) through depth \(M>s\) gives a finite derivative tower on the selected record.  Littlewood--Paley decay on that fixed record gives
+    It remains to read the retained Field-window evidence+Part branch.  A fixed positive Field scale \(\rho>0\) through depth \(M>s\) gives a finite derivative tower on the selected record.  Littlewood--Paley decay on that fixed record gives
     \[
       N^s\|P_N f\|_{L^2}\le C_{\rho,M,Q}N^{s-M}\to0 .
     \]
-    That decay contradicts the surviving sequence above.  Every fixed positive Field scale fails on the retained Pack+Part branch.
+    That decay contradicts the surviving sequence above.  Every fixed positive Field scale fails on the retained Field-window evidence+Part branch.
     \end{proof}
 
     \begin{theorem}[Whole-space CM classification state]
@@ -409,7 +409,7 @@ support_refs:
 
     ## Authority Cap - Historical Route Audit
 
-    This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
+    This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
 - path: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
   matched_keywords:
   - Euler
@@ -431,7 +431,7 @@ support_refs:
   - transfer
   - whole-space
   excerpt: |-
-    The batch rewrote the branch-support gate in `navier-stokes-submission.tex`: `Forward Families As Support Examples`, `Branch-Family Support Exhaustion`, `The Support Boundary`, and `Comparison And Transfer Boundary`.  The new source tells the reader how current repo branch material is allowed into the manuscript.  A branch must select the same-solution terminal record, supply member-side readout, prove a first Pack/Part/Field face, or remain support awaiting a named face theorem.  The Zeno subsection now keeps the point-object Pack failure separate from the surrounding positive-radius annular witness, and the comparison section keeps Euler material as a typed boundary reading after the Navier-Stokes packet and face are selected.
+    The batch rewrote the branch-support gate in `navier-stokes-submission.tex`: `Forward Families As Support Examples`, `Branch-Family Support Exhaustion`, `The Support Boundary`, and `Comparison And Transfer Boundary`.  The new source tells the reader how current repo branch material is allowed into the manuscript.  A branch must select the same-solution terminal record, supply member-side readout, prove a first Part/Field face, or remain support awaiting a named face theorem.  The Zeno subsection now keeps the point-object Pack failure separate from the surrounding positive-radius annular witness, and the comparison section keeps Euler material as a typed boundary reading after the Navier-Stokes packet and face are selected.
 
     Targeted verification:
 - path: problems/navier-stokes/submission-bundle/submission-verdict.yaml
