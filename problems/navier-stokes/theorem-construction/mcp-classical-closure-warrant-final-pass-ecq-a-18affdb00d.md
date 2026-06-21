@@ -37,7 +37,7 @@ Let `(u,p)` be the maximal classical solution on `[0,T_*)`.
 `PCTP.hard` supplies the uniform terminal-tail retained class-membership readout. The retained witness is
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 For route depth `N` above a classical continuation index `s>5/2`, the readout gives

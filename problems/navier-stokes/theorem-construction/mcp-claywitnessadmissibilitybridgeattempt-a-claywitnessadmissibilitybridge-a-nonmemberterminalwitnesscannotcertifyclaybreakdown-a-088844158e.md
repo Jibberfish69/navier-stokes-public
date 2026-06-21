@@ -31,7 +31,7 @@ mpp-clay-breakdown-class-exit-inadmissibility-proof-attempt-20260524.md
 That surface tested essentially the same target:
 
 ```text
-derived Pack/Part/Field face failure supporting Exit(Q):=not Member(Q)
+derived Part/Field Part/Field failure supporting Exit(Q):=not Member(Q)
 cannot be a valid Clay breakdown counterexample witness.
 ```
 
@@ -73,7 +73,7 @@ and it proves the corrected order:
 the original NS participation law audits singular objects before Pack-local disposal.
 ```
 
-This closes the local CM face-classification problem.
+This closes the local CM Part/Field-classification problem.
 
 But it does not, by itself, prove that a Clay counterexample is impossible.
 
@@ -82,13 +82,13 @@ But it does not, by itself, prove that a Clay counterexample is impossible.
 The witness-admissibility bridge only proves:
 
 ```text
-if a terminal object is meant to witness smooth continuation, then that face failure invalidates it as a smooth-solution witness.
+if a terminal object is meant to witness smooth continuation, then that Part/Field failure invalidates it as a smooth-solution witness.
 ```
 
 It does not prove:
 
 ```text
-if a terminal object is meant to witness breakdown, then that face failure invalidates it as a breakdown witness.
+if a terminal object is meant to witness breakdown, then that Part/Field failure invalidates it as a breakdown witness.
 ```
 
 So `ClayWitnessAdmissibilityBridge.A` is not a full Clay-closing bridge.
@@ -146,7 +146,7 @@ Closed locally:
 ```text
 original-participation-before-Pack singularity classification;
 Pack positive-radius admission after original participation audit;
-local CM face classification.
+local CM Part/Field classification.
 ```
 
 Still open globally:

@@ -21,7 +21,7 @@ The live referee/review blocker remains:
 ```text
 release-exactness-and-manuscript-refresh:
 Prove TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A,
-or replace it with a noncircular finite-breakdown exclusion that lands every admitted surviving terminal residual object through Member(Q) or a concrete Pack/Part/Field face failure.
+or replace it with a noncircular finite-breakdown exclusion that lands every admitted surviving terminal residual object through Member(Q) or a concrete Part/Field Part/Field failure.
 ```
 
 The intended replacement is the original-participation-before-Pack exhaustive contrapositive.
@@ -35,9 +35,9 @@ ExhaustiveContrapositiveFiniteBreakdownExclusion.A:
 Every admissible terminal residual object produced by an alleged finite-time Clay breakdown is consumed by one of the following mutually exhaustive outcomes:
 
 1. admissibility failure: not same original datum / same maximal branch / same pressure-viscosity law;
-2. concrete Part face failure: not Part_{N,Q};
-3. concrete Field face failure: forall r>0 not Field_{N,r,Q};
-4. concrete ordinary Pack/Part/Field face failure on a positive-radius candidate;
+2. concrete Part Part/Field failure: not Part_{N,Q};
+3. concrete Field Part/Field failure: forall r>0 not Field_{N,r,Q};
+4. concrete ordinary Part/Field Part/Field failure on a positive-radius candidate;
 5. continuation/readout recovery through the ordinary Member(Q)-eligible branch.
 
 The singular zero-radius objects are given an original-participation audit before Pack_Q. Therefore Pack_Q is not used to exclude the singularity. Pack_Q is certified only after singular witnesses have been handled by the original-participation audit, as the positive-radius admission predicate for the remaining Member(Q)-eligible branch.
@@ -79,7 +79,7 @@ cross-profile positive defect
 
 ```text
 non-singular positive-radius candidate
-=> ordinary Pack_Q / Part_{N,Q} / Field_{N,r,Q} chain; either concrete face failure or continuation/readout recovery
+=> ordinary Pack_Q / Part_{N,Q} / Field_{N,r,Q} chain; either concrete Part/Field failure or continuation/readout recovery
 ```
 
 ## Status of the patch

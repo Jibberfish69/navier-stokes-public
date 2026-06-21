@@ -15,7 +15,7 @@ problems/navier-stokes/theorem-construction/mcp-pctp-hard-readend-ecqa-loop-clos
 `PCTP.hard` supplies the uniform terminal-tail retained class-membership readout
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 Choose depth `N` above a classical continuation index `s>5/2`. The retained Pack / Part / Field readout supplies

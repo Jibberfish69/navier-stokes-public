@@ -49,7 +49,7 @@ T_*=\infty.
 The class witness is
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 At route depth `N` dominating some `s>5/2`, the installed class readout supplies

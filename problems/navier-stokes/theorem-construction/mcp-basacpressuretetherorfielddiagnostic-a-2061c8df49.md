@@ -2,7 +2,7 @@
 
 ## Status
 
-Conditional pressure route and completed diagnostic placement.  The pressure/Leray tether is a candidate production mechanism only after a retained-carrier bridge proves the required pressure/source absolute-continuity estimate. The all-doors-closed survivor is demoted to Pack-before-Part typed support unless that positive-scale retained-carrier bridge licenses later Field readout.
+Conditional pressure route and completed diagnostic placement.  The pressure/Leray tether is a candidate production mechanism only after a retained-carrier bridge proves the required pressure/source absolute-continuity estimate. The all-doors-closed survivor is demoted to Pack-out-of-CM typed support unless that positive-scale retained-carrier bridge licenses later Field readout.
 
 ## Pressure/source absolute-continuity route
 
@@ -47,7 +47,7 @@ AnisotropicPressurePartnerCharge.A
 PressureSourceAC.A.
 ```
 
-## CM Pack-first diagnostic route
+## CM Field-certification diagnostic route
 
 The all-doors-closed survivor is
 
@@ -57,12 +57,12 @@ B_{ASAC}^{closed}.
 
 It consists of a retained same-fluid terminal native source residue after ASAC defect, legal exits, finite donor trees, temporal anti-concentration, active reserve, transported no-incoming, pressure/Leray tether, and rigid-subclass production have been audited.
 
-This survivor is a selected terminal Zeno source atom. It is Pack-first zero-radius residue support in the current source-wall bookkeeping; it is not a retained source-wall Field defect without an added positive-scale retained-carrier bridge.
+This survivor is a selected terminal Zeno source atom. It is Field-certification zero-radius residue support in the current source-wall bookkeeping; it is not a retained source-wall Field defect without an added positive-scale retained-carrier bridge.
 
 The CM witness envelope is
 
 ```math
-CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}+Field_{N,r,Q}.
 ```
 
 The installed Zeno landing discipline gives
