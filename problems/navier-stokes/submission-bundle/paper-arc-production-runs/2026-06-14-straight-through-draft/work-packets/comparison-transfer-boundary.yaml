@@ -1009,7 +1009,7 @@ source_sections:
     Assume \(Q\) is in the clean Euler boundary case and the first
     Navier--Stokes face lost after Pack is
     \[
-      \Pack_Q\wedge\neg\Part_{N,Q}.
+      \neg\Part_{N,Q}.
     \]
     Then the selected packet supports the Navier--Stokes class-exit conclusion
     \[
@@ -1041,7 +1041,7 @@ source_sections:
     \(\Part_{N,Q}\) survive for the branch split, and the first remaining
     Navier--Stokes face lost is
     \[
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     Then the selected packet supports \(\Exit(Q;\Owork)\) through the Field face,
     and the same packet has the base Euler reading \(\Member_E(Q)\).
@@ -1067,14 +1067,14 @@ source_sections:
     \begin{tabular}{L{0.30\linewidth}L{0.30\linewidth}L{0.30\linewidth}}
     \textbf{Terminal surface} & \textbf{Navier--Stokes role} & \textbf{Euler role}\\
     \hline
-    Clean Part face after Pack survives & \(\Pack_Q\wedge\neg\Part_{N,Q}\) &
+    Clean Part face after Field-window evidence is present & \(\neg\Part_{N,Q}\) &
     base boundary reading \(\Member_E(Q)\)\\
     Clean Field face after Pack and Part survive &
-    \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\) &
+    \(\Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\) &
     base boundary reading \(\Member_E(Q)\)\\
     Pack failure, detached ancestry, raw source residue, pressure-source residue,
     Reynolds-stress limit, or oscillation defect & first repair is still native
-    Pack/Part/Field landing & native CM role until the same packet is cleanly typed\\
+    Part/Field landing & native CM role until the same packet is cleanly typed\\
     Smooth-side comparison & support for intuition or boundary comparison &
     smooth-side support for comparison\\
     \end{tabular}
@@ -1141,7 +1141,7 @@ source_sections:
       \sup_{0\le t<T}\|u^\nu(t)-u^E(t)\|_{H^s}<\infty.
     \]
     In this manuscript that bridge is smooth-side support.
-    It explains a comparison boundary, while the fixed-viscosity terminal Navier--Stokes record is still decided by Pack, Part, and Field.
+    It explains a comparison boundary, while the fixed-viscosity terminal Navier--Stokes record is still decided by Part and Field.
   truncated: false
 - spine_id: the-whole-space-mathbb-r-3-r3-exterior-source-branch
   section_title: The Whole-Space \texorpdfstring{\(\mathbb R^3\)}{R3} Exterior-Source
@@ -1153,7 +1153,7 @@ source_sections:
   text: |
     \section{The Whole-Space \texorpdfstring{\(\mathbb R^3\)}{R3} Exterior-Source Branch}
 
-    The periodic branch and the whole-space branch use the same class test.  Their entry costs differ.  On \(\mathbb T^3\), the transported atlas lives on a compact spatial domain.  On \(\mathbb R^3\), a terminal claim can try to hide high derivatives in the far field.  The paper handles that risk before it imports the Pack, Part, and Field decision.
+    The periodic branch and the whole-space branch use the same class test.  Their entry costs differ.  On \(\mathbb T^3\), the transported atlas lives on a compact spatial domain.  On \(\mathbb R^3\), a terminal claim can try to hide high derivatives in the far field.  The paper handles that risk before it imports the Part and Field decision.
 
     Fix \(s>5/2\).  Let \(u\) be the smooth Navier--Stokes branch on \([0,T_*)\times\mathbb R^3\) from smooth rapidly decaying divergence-free data, and let \(\eta_R\) be an exterior cutoff.  The strong positive export theorem would prove
     \[
@@ -1214,7 +1214,7 @@ source_sections:
     \begin{proposition}[Exterior survivor lands in the CM faces]
     Assume the exterior nonlinear source survives in \(H^s\).  Then the selected terminal exterior survivor lands in the CM matrix:
     \[
-      \neg\Pack_Q\;\vee\;\neg\Part_{M,Q}\;\vee\;
+      Field-window evidence outside CM\;\vee\;\neg\Part_{M,Q}\;\vee\;
       \forall \rho>0\,\neg\Field_{M,\rho,Q}.
     \]
     \end{proposition}
@@ -1226,11 +1226,11 @@ source_sections:
     \]
     Let \(Q\) be the same-solution terminal record selected by that survivor.  A survivor lacking a retained material address in the original branch fails Pack.  A survivor detached from the same Navier--Stokes equation, pressure law, viscosity, or source ancestry fails Part.
 
-    It remains to read the retained Pack+Part branch.  A fixed positive Field scale \(\rho>0\) through depth \(M>s\) gives a finite derivative tower on the selected record.  Littlewood--Paley decay on that fixed record gives
+    It remains to read the retained Field-window evidence+Part branch.  A fixed positive Field scale \(\rho>0\) through depth \(M>s\) gives a finite derivative tower on the selected record.  Littlewood--Paley decay on that fixed record gives
     \[
       N^s\|P_N f\|_{L^2}\le C_{\rho,M,Q}N^{s-M}\to0
     \]
-    That decay contradicts the surviving sequence above.  Every fixed positive Field scale fails on the retained Pack+Part branch.
+    That decay contradicts the surviving sequence above.  Every fixed positive Field scale fails on the retained Field-window evidence+Part branch.
     \end{proof}
 
     \begin{theorem}[Whole-space CM classification state]
@@ -1341,7 +1341,7 @@ support_refs:
 
     ## Authority Cap - Historical Route Audit
 
-    This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
+    This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
 - path: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
   matched_keywords:
   - Euler
@@ -1363,7 +1363,7 @@ support_refs:
   - transfer
   - whole-space
   excerpt: |-
-    The batch rewrote the branch-support gate in `navier-stokes-submission.tex`: `Forward Families As Support Examples`, `Branch-Family Support Exhaustion`, `The Support Boundary`, and `Comparison And Transfer Boundary`.  The new source tells the reader how current repo branch material is allowed into the manuscript.  A branch must select the same-solution terminal record, supply member-side readout, prove a first Pack/Part/Field face, or remain support awaiting a named face theorem.  The Zeno subsection now keeps the point-object Pack failure separate from the surrounding positive-radius annular witness, and the comparison section keeps Euler material as a typed boundary reading after the Navier-Stokes packet and face are selected.
+    The batch rewrote the branch-support gate in `navier-stokes-submission.tex`: `Forward Families As Support Examples`, `Branch-Family Support Exhaustion`, `The Support Boundary`, and `Comparison And Transfer Boundary`.  The new source tells the reader how current repo branch material is allowed into the manuscript.  A branch must select the same-solution terminal record, supply member-side readout, prove a first Part/Field face, or remain support awaiting a named face theorem.  The Zeno subsection now keeps the point-object Pack failure separate from the surrounding positive-radius annular witness, and the comparison section keeps Euler material as a typed boundary reading after the Navier-Stokes packet and face are selected.
 
     Targeted verification:
 - path: problems/navier-stokes/submission-bundle/submission-verdict.yaml
@@ -1724,7 +1724,7 @@ context_domain_refs:
 
       ## Authority Cap - Historical Route Audit
 
-      This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
+      This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
   - path: problems/navier-stokes/auto-audit.yaml
     matched_keywords:
     - Euler
@@ -1899,9 +1899,9 @@ context_domain_refs:
     - transfer
     - smoothness
     excerpt: |-
-      - Navier-Stokes CM positive-existence translation veto: do not convert the pass-or-exit engine into "prove at least one solution remains in the class", "produce a smooth/class-member solution", or "show smooth data stays in CM." The pass branch is already the smooth/`Member(Q)` side under whatever lawful continuation mechanism supplies it; the CM work is to admit the obstruction to the CM test and derive the fail branch as a Pack/Part/Field face failure supporting `Exit(Q):=not Member(Q)`.
-      - Navier-Stokes CM typed-language rule: before any CM-facing sentence is sent or written, assign each phrase one role from assumption/counterexample object, grammar-admissible test object, class-member predicate, witness face, face failure, support/readout, or class-exit conclusion. Do not chain those roles as though they were the same object. A finite Clay breakdown is an alleged counterexample object under test; it is not a class-member. A Pack/Part/Field landing is a face-failure classification; it is not the whole terminal witness and not identical to `Exit(Q)`.
-      - Navier-Stokes CM pre-answer veto: when Thomas names the CM contrapositive, an answer may not begin from positive smoothness, positive deletion, source-wall supplier closure, fixed-`nu` transfer, Euler mirror comparison, or generated-frontier status unless Thomas explicitly switches programs or a named bridge license is active. First classify the bad object as a Pack-first witness candidate, a bridge-license candidate, or supplier-only quarantine.
+      - Navier-Stokes CM positive-existence translation veto: do not convert the pass-or-exit engine into "prove at least one solution remains in the class", "produce a smooth/class-member solution", or "show smooth data stays in CM." The pass branch is already the smooth/`Member(Q)` side under whatever lawful continuation mechanism supplies it; the CM work is to admit the obstruction to the CM test and derive the fail branch as a Part/Field face failure supporting `Exit(Q):=not Member(Q)`.
+      - Navier-Stokes CM typed-language rule: before any CM-facing sentence is sent or written, assign each phrase one role from assumption/counterexample object, grammar-admissible test object, class-member predicate, witness face, face failure, support/readout, or class-exit conclusion. Do not chain those roles as though they were the same object. A finite Clay breakdown is an alleged counterexample object under test; it is not a class-member. A Part/Field landing is a face-failure classification; it is not the whole terminal witness and not identical to `Exit(Q)`.
+      - Navier-Stokes CM pre-answer veto: when Thomas names the CM contrapositive, an answer may not begin from positive smoothness, positive deletion, source-wall supplier closure, fixed-`nu` transfer, Euler mirror comparison, or generated-frontier status unless Thomas explicitly switches programs or a named bridge license is active. First classify the bad object as a Part/Field witness candidate, a bridge-license candidate, or supplier-only quarantine.
       - Navier-Stokes non-merge rule: positive smoothness proof, CM contrapositive class-exit proof, same-datum same-interval fixed-`nu` Euler-to-NS transfer, Euler-mirror comparison, source-wall supplier work, and downstream export/readout branches are separate targets unless a named bridge theorem explicitly connects them. Do not translate one of those programs into another to get a cleaner answer.
   - path: problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
     matched_keywords:
@@ -1911,7 +1911,7 @@ context_domain_refs:
     - transfer
     - whole-space
     excerpt: |-
-      The batch rewrote the branch-support gate in `navier-stokes-submission.tex`: `Forward Families As Support Examples`, `Branch-Family Support Exhaustion`, `The Support Boundary`, and `Comparison And Transfer Boundary`.  The new source tells the reader how current repo branch material is allowed into the manuscript.  A branch must select the same-solution terminal record, supply member-side readout, prove a first Pack/Part/Field face, or remain support awaiting a named face theorem.  The Zeno subsection now keeps the point-object Pack failure separate from the surrounding positive-radius annular witness, and the comparison section keeps Euler material as a typed boundary reading after the Navier-Stokes packet and face are selected.
+      The batch rewrote the branch-support gate in `navier-stokes-submission.tex`: `Forward Families As Support Examples`, `Branch-Family Support Exhaustion`, `The Support Boundary`, and `Comparison And Transfer Boundary`.  The new source tells the reader how current repo branch material is allowed into the manuscript.  A branch must select the same-solution terminal record, supply member-side readout, prove a first Part/Field face, or remain support awaiting a named face theorem.  The Zeno subsection now keeps the point-object Pack failure separate from the surrounding positive-radius annular witness, and the comparison section keeps Euler material as a typed boundary reading after the Navier-Stokes packet and face are selected.
 
       Targeted verification:
   - path: problems/navier-stokes/submission-bundle/authorial-structure-pass-20260526.md
@@ -1935,7 +1935,7 @@ context_domain_refs:
     excerpt: |-
       7. Surviving defect, tail, residue, or witness object.
       8. Reason positive-forward closure stalls.
-      9. CM-exit classification: Pack, Part, Field, continuation readout, scope boundary, or unresolved support.
+      9. CM-exit classification: Part, Field, continuation readout, scope boundary, or unresolved support.
       10. Branch conclusion inside the global CM-exit program.
   - path: problems/navier-stokes/submission-bundle/human-author-chronological-cm-exit-manuscript-architecture-20260530.md
     matched_keywords:
@@ -1954,7 +1954,7 @@ context_domain_refs:
     - transfer
     - whole-space
     excerpt: |-
-      | 13 | No-pulse / source-wall | Rule out terminal source pulse or wall survival | Source-wall survivor / pulse residue | Support until Pack/Part/Field landing | Supplier support unless landed |
+      | 13 | No-pulse / source-wall | Rule out terminal source pulse or wall survival | Source-wall survivor / pulse residue | Support until Part/Field landing | Supplier support unless landed |
       | 14 | Local-critical / endpoint | Convert local or endpoint control into continuation | Endpoint remnant / local criterion gap | Continuation readout or Field obstruction | Branch-local |
       | 15 | Torus branch | Complete periodic zero-force branch | Periodic packet/export boundary | Active branch surface | Periodic scope |
       | 16 | Whole-space export | Move from periodic/local branch to Clay whole-space | Tightness/localization export debt | Scope boundary and separate branch | Clay-facing boundary |
