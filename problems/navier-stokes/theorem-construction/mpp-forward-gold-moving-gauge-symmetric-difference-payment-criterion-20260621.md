@@ -127,8 +127,16 @@ C\lambda_j^4\min\{|b_j|,\lambda_j\}.
 
 ## 2. Same-carrier \(L^p\) payment
 
-Suppose the selected carrier is absolutely continuous on the parent normalized
-cylinder:
+Let \(\Omega_j\) be the controlled spacetime region on which the selected carrier
+is measured, and write
+\[
+E_j^{gauge}:=\Delta_j^{gauge}\cap\Omega_j .
+\]
+Any part of \(\Delta_j^{gauge}\setminus\Omega_j\) is a separate boundary,
+collar, or legal-spill issue. The payment in this section concerns
+\(E_j^{gauge}\).
+
+Suppose the selected carrier is absolutely continuous on \(\Omega_j\):
 
 \[
 d\mu_j=f_j(s,y)\,dy\,ds,
@@ -138,7 +146,7 @@ d\mu_j=f_j(s,y)\,dy\,ds,
 with
 
 \[
-\|f_j\|_{L^p(Q_1)}\le C_p,
+\|f_j\|_{L^p(\Omega_j)}\le C_p,
 \qquad
 p>1.
 \tag{MGD.9}
@@ -147,20 +155,20 @@ p>1.
 Then Hölder gives
 
 \[
-\mu_j(\Delta_j^{gauge})
+\mu_j(E_j^{gauge})
 =
-\int_{\Delta_j^{gauge}} f_j
+\int_{E_j^{gauge}} f_j
 \le
-\|f_j\|_{L^p(Q_1)}
-|\Delta_j^{gauge}|^{1-1/p}.
+\|f_j\|_{L^p(\Omega_j)}
+|E_j^{gauge}|^{1-1/p}.
 \tag{MGD.10}
 \]
 
-Using `(MGD.7)`,
+Since \(|E_j^{gauge}|\le|\Delta_j^{gauge}|\), `(MGD.7)` gives
 
 \[
 \boxed{
-\mu_j(\Delta_j^{gauge})
+\mu_j(E_j^{gauge})
 \le
 C_p C^{1-1/p}
 \left(
@@ -170,7 +178,7 @@ C_p C^{1-1/p}
 \tag{MGD.11}
 \]
 
-Therefore the moving-gauge defect is summably paid if
+Therefore the controlled moving-gauge defect is summably paid if
 
 \[
 \sum_j
@@ -194,7 +202,7 @@ for every \(\varepsilon>0\), choose \(\delta>0\) such that
 Then \(|\Delta_j^{gauge}|\to0\) implies
 
 \[
-\mu_j(\Delta_j^{gauge})\to0.
+\mu_j(E_j^{gauge})\to0.
 \tag{MGD.14}
 \]
 
@@ -209,22 +217,22 @@ Assume only
 \tag{MGD.15}
 \]
 
-This gives no smallness on \(\Delta_j^{gauge}\). For any \(a_0\le M\), define
+This gives no smallness on \(E_j^{gauge}\). For any \(a_0\le M\), define
 
 \[
 d\mu_j
 =
-{a_0\over|\Delta_j^{gauge}|}
-\mathbf 1_{\Delta_j^{gauge}}\,dy\,ds
+{a_0\over|E_j^{gauge}|}
+\mathbf 1_{E_j^{gauge}}\,dy\,ds
 \tag{MGD.16}
 \]
 
-whenever \(|\Delta_j^{gauge}|>0\). Then
+whenever \(E_j^{gauge}\subset Q_1\) and \(|E_j^{gauge}|>0\). Then
 
 \[
 \mu_j(Q_1)=a_0,
 \qquad
-\mu_j(\Delta_j^{gauge})=a_0.
+\mu_j(E_j^{gauge})=a_0.
 \tag{MGD.17}
 \]
 
