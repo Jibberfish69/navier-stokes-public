@@ -2,7 +2,7 @@
 theorem_id: forward-gold-combinatorial-hodge-source-flow-reserve-test-20260621
 status: direct-test-complete-hodge-flow-useful-decomposition-not-reserve-supplier
 logical_landing_node: hodge_source_flow_reserve_boundary
-edge_effect: "Tests the social-choice/HodgeRank analogy as a possible unweighted same-carrier reserve supplier. The combinatorial Hodge decomposition of an antisymmetric channel current is exact and useful: it splits selected source transfer into exact sink-source paths, local cycle circulation, and harmonic global circulation. But the selected positive terminal carrier depends on positive divergence, and a pure two-node sink-source edge has positive divergence with zero curl and zero harmonic component. Therefore curl/harmonic residue cannot dominate the bad pulse without an additional theorem charging the exact component by Lyapunov drop, terminal signed saturation, no-free-sink, source-square/no-waste, profile production, or CM Pack/Part/Field consumption after same-witness admission."
+edge_effect: "Tests the social-choice/HodgeRank analogy as a possible unweighted same-carrier reserve supplier. The combinatorial Hodge decomposition of an antisymmetric channel current is exact and useful: it splits selected source transfer into exact sink-source paths, local cycle circulation, and harmonic global circulation. But the selected positive terminal carrier depends on positive divergence, and a pure two-node sink-source edge has positive divergence with zero curl and zero harmonic component. Therefore curl/harmonic residue cannot dominate the bad pulse without an additional theorem charging the exact component by Lyapunov drop, terminal signed saturation, no-free-sink, source-square/no-waste, profile production, or CM Part/Field consumption after same-witness admission."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-post-june21-heat-scale-branch-integration-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-rescaled-annular-feed-two-stage-split-20260621.md
@@ -250,7 +250,7 @@ But the exact branch needs a separate theorem:
 \boxed{
 \text{Exact sink-source paths feeding the terminal positive carrier are paid
 by terminal signed saturation, Lyapunov drop, source-square/no-waste, profile
-production, or CM face consumption.}
+production, or CM Part/Field consumption.}
 }
 \tag{HFR.18}
 ```

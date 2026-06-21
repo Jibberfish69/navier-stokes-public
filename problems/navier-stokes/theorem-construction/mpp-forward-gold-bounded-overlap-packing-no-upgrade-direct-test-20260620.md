@@ -291,4 +291,4 @@ The bounded-overlap/packing route closes as a no-upgrade result:
 This does not solve the Navier-Stokes MPP.  It removes one more possible
 shortcut and leaves the live gold obstruction unchanged but cleaner: the proof
 must produce a genuinely unweighted terminal reserve, or route the retained
-heat-scale pulse into the CM Pack/Part/Field witness-face machinery.
+heat-scale pulse into the CM Part/Field witness machinery.

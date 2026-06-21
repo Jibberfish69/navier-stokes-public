@@ -8,7 +8,7 @@ Direct role-separation test complete.
 
 The first-created reserve and active-height calculations have two different
 uses.  They do not prove the forward-gold reserve.  They do supply a CM-facing
-readout once the retained pulse is admitted to the Pack-first witness tree.
+readout once the retained pulse is admitted to the Field-certification witness tree.
 
 The firewall is:
 
@@ -21,7 +21,7 @@ payment by itself.}
 ```
 
 Forward gold needs an estimate that forbids or pays the pulse.  CM uses the
-retained pulse as evidence of a Pack, Part, or Field face failure.
+retained pulse as evidence of a Part or Field Part/Field failure.
 
 ## 1. What first-created reserve proves
 
@@ -157,7 +157,7 @@ Pack_Q\wedge Part_{N_s,Q}\wedge H_N(W_m)\to\infty
 \tag{AHF.14}
 ```
 
-This is a CM face readout.  It is not a proof that the heat-scale pulse was
+This is a CM Part/Field readout.  It is not a proof that the heat-scale pulse was
 positively erased.
 
 ## 4. Exact role separation
@@ -187,7 +187,7 @@ tree:
 \boxed{
 \text{retained active-height blowup}
 \Longrightarrow
-\text{Pack/Part/Field face failure}.
+\text{Part/Field Part/Field failure}.
 }
 \tag{AHF.16}
 ```
@@ -225,5 +225,5 @@ It does not prove:
 The surviving object is now typed cleanly.  For forward gold it is still
 `UnweightedTerminalCriticalActionReserve.A` or one of its same-carrier
 equivalents.  For CM it is a retained critical-height/source-reserve readout
-that must land through Pack, Part, or Field, with the existing source-reserve
-CM face-consumption notes as authority.
+that must land through Part or Field, with the existing source-reserve
+CM Part/Field-consumption notes as authority.

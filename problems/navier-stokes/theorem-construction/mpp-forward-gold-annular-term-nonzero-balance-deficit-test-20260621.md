@@ -9,7 +9,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-rescaled-annular-feed-two-stage-split-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-moving-heat-scale-cutoff-nojump-direct-test-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-shared-participation-heat-scale-direct-test-20260619.md
-  downstream_consequence: "Do not use SomeAnnularTermStaysNonzeroIfInfiniteFeed.A from persistent badness alone. The exact implication is balance-deficit to annular nonzero. If no such deficit is present, the branch is not annular feeding; it is nested-core terminal atom, endpoint source defect, no-waste/profile production, or CM Pack/Part/Field consumption after same-witness admission."
+  downstream_consequence: "Do not use SomeAnnularTermStaysNonzeroIfInfiniteFeed.A from persistent badness alone. The exact implication is balance-deficit to annular nonzero. If no such deficit is present, the branch is not annular feeding; it is nested-core terminal atom, endpoint source defect, no-waste/profile production, or CM Part/Field consumption after same-witness admission."
 ---
 
 # MPP Forward-Gold Annular Term Nonzero Balance-Deficit Test
@@ -307,5 +307,5 @@ The latter statement confuses a retained interior/core pulse with annular feed.
 
 The missing gold theorem is the production of the balance deficit itself, or a
 direct consumption of the no-deficit core pulse as endpoint source, no-waste
-failure, rigid profile, or CM Pack/Part/Field face after same-witness
+failure, rigid profile, or CM Part/Field face after same-witness
 admission.

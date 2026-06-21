@@ -276,5 +276,5 @@ terminal source residence, no-waste local-energy flux tightness, or compact
 critical-element production.
 
 Failure of `(CKH.20)` leaves a visible retained critical packet, which is useful
-for CM Pack/Part/Field readout, but it is not a forward-positive smoothness
+for CM Part/Field readout, but it is not a forward-positive smoothness
 proof.

@@ -331,4 +331,4 @@ native carrier.}
 ```
 
 After same-witness CM admission, a retained circulation-visible pulse may be a
-Pack/Part/Field readout.  It is not a forward-positive no-jump proof.
+Part/Field readout.  It is not a forward-positive no-jump proof.
