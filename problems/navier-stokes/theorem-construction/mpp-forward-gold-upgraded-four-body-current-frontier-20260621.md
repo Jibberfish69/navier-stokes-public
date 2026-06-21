@@ -2,7 +2,7 @@
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
 status: consolidated-frontier-installed-strict-cycle-payment-or-rigidity-open
 logical_landing_node: upgraded_four_body_current_frontier
-edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, and same-carrier terminal atom accounting. The four bodies now have exact normal forms, but none alone supplies the unweighted selected terminal reserve. The remaining gold theorem is the coupled one: strict same-carrier four-body cycle payment, or rigidity of every lossless four-body cycle."
+edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, and the gauge-quotient tower carrier drain-production criterion. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The remaining gold theorem is the native identification bridge: the positive pre-Cauchy/source selector must become that quotient tower carrier, or one of the named four-body defects must be charged."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-factorial-tower-radius-spend-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-participation-exchange-normal-form-20260621.md
@@ -18,6 +18,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-bodyiv-canonical-geometry-packet-interface-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-bodyi-geometry-tower-recertification-interface-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lossless-four-body-cycle-rigidity-viscous-core-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-gauge-quotient-tower-carrier-drain-production-criterion-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -742,3 +743,48 @@ to measure singular participation rather than raw drift, it vanishes on that
 class.  Therefore a nonzero lossless cycle can survive only by failing the
 same-carrier drain-production step or by producing one of the named selector,
 compactness, pressure/gauge, geometry, commutator, transport, or legal defects.
+
+The drain-production step has now been sharpened into a local coercive
+criterion.  If the selected activity is realized on the same carrier as a
+Galilean/affine-pressure-gauge quotient of a finite mixed velocity tower, then
+the weighted parabolic tower drain pays it:
+
+```math
+dA_{\rm sel}
+\le
+C\,dD_Q^w
++
+C\,dK_{\rm cut}
++
+C\,dK_{\rm gauge}^+
++
+C\,dK_{\rm sel}
++
+C\,dK_C^+
++
+C\,dK_G^+
++
+C\,dR_{\rm legal}.
+\tag{4BF.34}
+```
+
+The proof is exact: pure time rungs are controlled modulo spatially constant
+Galilean/affine-pressure gauge by Poincare, while spatial derivative rungs are
+controlled by lower-rung parabolic drain using the factorial-weight ratio
+\(w_{m,\alpha}/w_{m,\alpha-e_i}=\rho/\alpha_i\).  Thus the same-carrier
+payment is proved for quotient finite tower carriers.
+
+The remaining native bridge is now narrower:
+
+```math
+\boxed{
+\text{native positive pre-Cauchy/source selector}
+\Longrightarrow
+\text{gauge-quotient finite tower carrier,}
+}
+\tag{4BF.35}
+```
+
+up to the already named cutoff, pressure/gauge, selector, compactness, geometry,
+transport, commutator, or legal defects.  This is the current production edge
+inside the full four-body loop.
