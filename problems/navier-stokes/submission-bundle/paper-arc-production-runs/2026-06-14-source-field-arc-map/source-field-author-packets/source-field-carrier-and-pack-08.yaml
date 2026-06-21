@@ -170,7 +170,7 @@ chunk:
       pay the Pack.TTU row.  This records a Pack-side obstruction for the
       forward-positive route.  Its CM counterpart is precise: unless a later theorem converts
       directional depletion into the displayed two-sided active-label operator-norm
-      bound, this route cannot certify the Pack face.
+      bound, this route cannot certify the Field-window evidence.
 
 
     truncated: false
@@ -638,7 +638,7 @@ chunk:
     pay the Pack.TTU row.  This records a Pack-side obstruction for the
     forward-positive route.  Its CM counterpart is precise: unless a later theorem converts
     directional depletion into the displayed two-sided active-label operator-norm
-    bound, this route cannot certify the Pack face.
+    bound, this route cannot certify the Field-window evidence.
 
 
 
@@ -938,7 +938,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

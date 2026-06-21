@@ -75,7 +75,7 @@ chunk:
       Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
-      Thus any retained CM packet carrier supplies Pack Q before Part N,Q or Field N,r,Q can be used. The donor-refill tree is a packet-ancestry object: it consists of parent/child packet edges, legal packet descendants, and the reserve used to keep descendants funded across scales. Packet ancestry is licensed by the Pack face.
+      Thus any retained CM participation-field carrier supplies Pack Q before Part N,Q or Field N,r,Q can be used. The donor-refill tree is a packet-ancestry object: it consists of parent/child packet edges, legal packet descendants, and the reserve used to keep descendants funded across scales. Packet ancestry is licensed by the Field-window evidence.
 
       \[
       r_m\downarrow0,
@@ -86,7 +86,7 @@ chunk:
       r_*=0\Longrightarrow\neg Pack_Q.
       \]
 
-      So a zero-scale Zeno residue cannot be carried onward into Part or Field as a retained CM packet. Field/Jump classification belongs only to the separate retained-carrier branch where Pack Q and Part N,Q are already assumed.
+      So a zero-scale Zeno residue cannot be carried onward into Part or Field as a retained CM participation-field. Field/Jump classification belongs only to the separate retained-carrier branch where Pack Q and Part N,Q are already assumed.
 
       That supplier remains a separate -reserve estimate. The CM classification here is direct: unpaid scale-critical donor-refill ancestry is Pack exit, not a Field/Jump event and not a legal retained terminal packet.
 
@@ -480,7 +480,7 @@ chunk:
     Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
-    Thus any retained CM packet carrier supplies Pack Q before Part N,Q or Field N,r,Q can be used. The donor-refill tree is a packet-ancestry object: it consists of parent/child packet edges, legal packet descendants, and the reserve used to keep descendants funded across scales. Packet ancestry is licensed by the Pack face.
+    Thus any retained CM participation-field carrier supplies Pack Q before Part N,Q or Field N,r,Q can be used. The donor-refill tree is a packet-ancestry object: it consists of parent/child packet edges, legal packet descendants, and the reserve used to keep descendants funded across scales. Packet ancestry is licensed by the Field-window evidence.
 
     \[
     r_m\downarrow0,
@@ -491,7 +491,7 @@ chunk:
     r_*=0\Longrightarrow\neg Pack_Q.
     \]
 
-    So a zero-scale Zeno residue cannot be carried onward into Part or Field as a retained CM packet. Field/Jump classification belongs only to the separate retained-carrier branch where Pack Q and Part N,Q are already assumed.
+    So a zero-scale Zeno residue cannot be carried onward into Part or Field as a retained CM participation-field. Field/Jump classification belongs only to the separate retained-carrier branch where Pack Q and Part N,Q are already assumed.
 
     That supplier remains a separate -reserve estimate. The CM classification here is direct: unpaid scale-critical donor-refill ancestry is Pack exit, not a Field/Jump event and not a legal retained terminal packet.
 
@@ -812,7 +812,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
