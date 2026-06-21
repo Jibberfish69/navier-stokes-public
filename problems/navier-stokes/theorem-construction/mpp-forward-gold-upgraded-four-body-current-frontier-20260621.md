@@ -2,7 +2,7 @@
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
 status: consolidated-frontier-installed-strict-cycle-payment-or-rigidity-open
 logical_landing_node: upgraded_four_body_current_frontier
-edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, and the native pre-Cauchy-to-quotient-tower bridge test. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. The remaining gold theorem is therefore a precise same-carrier supplement: finite-order amplitude/Field control, critical-density budget, source-square/no-waste control, signed polar saturation, rigid source-residue production, or legal/charged pre-Cauchy remainder reduction."
+edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, and the finite-order amplitude/Field supplement. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is now a proved supplement: it lowers the trilinear main carrier to a quadratic quotient-tower carrier; failure of such control on retained shrinking windows is Field-facing after same-witness admission. The remaining gold theorem is therefore one of the other precise same-carrier supplements: critical-density budget, source-square/no-waste control, signed polar saturation, rigid source-residue production, or legal/charged pre-Cauchy remainder reduction."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-factorial-tower-radius-spend-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-participation-exchange-normal-form-20260621.md
@@ -20,6 +20,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lossless-four-body-cycle-rigidity-viscous-core-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-gauge-quotient-tower-carrier-drain-production-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-precauchy-to-gauge-quotient-tower-bridge-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-field-amplitude-to-quotient-tower-supplement-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -815,17 +816,61 @@ C\,D_Q^w
 
 from the quadratic drain alone.
 
-Thus the exact remaining same-carrier supplement is one of:
+The finite-order amplitude/Field supplement has now been proved as a criterion.
+If the expanding coefficient is bounded on the same selected carrier,
+
+```math
+\left[e_P\cdot S_{<j_P}^{loc}e_P\right]_+
+\le B_*,
+\tag{4BF.38}
+```
+
+then the trilinear main carrier is lowered to a quadratic quotient-tower
+carrier and paid by the weighted parabolic drain:
+
+```math
+dA_{\rm preCauchy}^{main}
+\le
+C\,B_*\,dD_Q^w
++
+C\,B_*\left(dK_{\rm cut}+dK_{\rm gauge}^+\right)
++
+dK_{\rm sel}
++
+dK_C^+
++
+dK_G^+
++
+dR_{\rm legal}.
+\tag{4BF.39}
+```
+
+When the retained terminal atom is instead controlled only by an unbounded
+finite-rung readout on shrinking windows, the already installed finite-order
+consumer gives the same-witness branch
+
+```math
+\neg Pack_Q
+\vee
+\neg Part_{N,Q}
+\vee
+\forall\rho>0\,\neg Field_{N,\rho,Q}.
+\tag{4BF.40}
+```
+
+So amplitude/Field is no longer an undigested supplement: it is either a paid
+four-body branch under same-carrier bounded amplitude, or a finite-rung
+Field-facing readout branch after same-witness admission.
+
+The exact remaining same-carrier supplement is one of:
 
 ```math
 \boxed{
-\text{finite-order amplitude/Field control;}
-\quad
 \text{critical-density budget;}
 \quad
 \text{source-square/no-waste control;}
 }
-\tag{4BF.38}
+\tag{4BF.41}
 ```
 
 ```math
@@ -836,7 +881,7 @@ Thus the exact remaining same-carrier supplement is one of:
 \quad
 \text{or legal/charged pre-Cauchy remainder reduction.}
 }
-\tag{4BF.39}
+\tag{4BF.42}
 ```
 
 This is the current unflattened frontier: the four-body loop pays quotient
