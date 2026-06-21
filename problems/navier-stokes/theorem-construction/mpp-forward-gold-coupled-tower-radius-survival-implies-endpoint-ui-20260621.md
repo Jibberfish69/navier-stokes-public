@@ -205,6 +205,58 @@ So a true terminal selected-carrier time-face atom must break the coupled tower
 radius somewhere. It cannot coexist with a uniformly surviving positive
 mixed-tower radius.
 
+## 5. Normal-family consequence
+
+Uniform radius survival also gives the exact local compactness supplied by the
+tower. Define the local generating function
+
+\[
+\mathcal G_j(\zeta,z;s)
+:=
+\sum_{m,\alpha}
+{\zeta^m z^\alpha\over m!\,\alpha!}
+\chi\,\partial_s^m\partial_y^\alpha v_j(s).
+\tag{RSE.15}
+\]
+
+For
+
+\[
+|\zeta|<\tau_*,
+\qquad
+|z_i|<\rho_*,
+\tag{RSE.16}
+\]
+
+Cauchy--Schwarz and `(RSE.6)` give
+
+\[
+\|\mathcal G_j(\zeta,z;s)\|_{H^\sigma_y}
+\le
+(2E_*)^{1/2}
+\left(1-{|\zeta|^2\over\tau_*^2}\right)^{-1/2}
+\prod_{i=1}^3
+\left(1-{|z_i|^2\over\rho_*^2}\right)^{-1/2}.
+\tag{RSE.17}
+\]
+
+Thus the generated local translates are uniformly bounded on every smaller
+complex polydisc. By the compact embedding
+
+\[
+H^\sigma_{\mathrm{loc}}\hookrightarrow H^{\sigma'}_{\mathrm{loc}},
+\qquad
+\sigma'<\sigma,
+\tag{RSE.18}
+\]
+
+subsequences are compact in \(H^{\sigma'}_{\mathrm{loc}}\) on smaller spatial
+balls.
+
+This is the exact compactness supplied by tower-radius survival. It gives a
+local analytic normal-family compactness statement. It does not by itself give
+stationarity, no-drift, source-residue evacuation, or a Landau-class profile.
+
 ## Verdict
 
 The coupled tower gives a real pass-side theorem:
@@ -215,7 +267,7 @@ The coupled tower gives a real pass-side theorem:
 \Longrightarrow
 \text{no selected terminal time-face atom.}
 }
-\tag{RSE.15}
+\tag{RSE.19}
 \]
 
 The remaining unsolved part is production/classification of the radius itself:
@@ -227,5 +279,5 @@ The remaining unsolved part is production/classification of the radius itself:
 \text{classify canonical radius failure as finite-rung readout or high-rung
 endpoint collapse.}
 }
-\tag{RSE.16}
+\tag{RSE.20}
 \]
