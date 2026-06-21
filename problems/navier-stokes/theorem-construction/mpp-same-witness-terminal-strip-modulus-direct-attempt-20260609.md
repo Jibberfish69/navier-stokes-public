@@ -7,7 +7,7 @@ governing_program: "Exit(Q):=not Member(Q) through Pack_Q / Part_{N,Q} / Field_{
 claim_boundary:
   logical_landing_node: SameWitnessTerminalStripModulusForFirstPackExit.A
   claim_status: not_proved
-  edge_effect: "Tests the theorem atom exposed by NS-LIVE-20260609-200. The installed B_ASAC/source-time and first-exit surfaces do not supply a terminal strip modulus for the original-data first Pack witness: finite local L1_s source mass, local-energy BV traces, weak trace compactness, zero ASAC, paid exits, and no fixed earlier selected source slice all remain compatible with the shrinking terminal layer g_m(s)=m 1_{(-1/m,0]}(s)."
+  edge_effect: "Tests the theorem atom exposed by NS-LIVE-20260609-200. The installed B_ASAC/source-time and first-exit surfaces do not supply a terminal strip modulus for the original-data first Field-window support: finite local L1_s source mass, local-energy BV traces, weak trace compactness, zero ASAC, paid exits, and no fixed earlier selected source slice all remain compatible with the shrinking terminal layer g_m(s)=m 1_{(-1/m,0]}(s)."
   downstream_consequence: "The active loop remains open below OriginalSmoothDataPackSurvival.A. Future progress must add a real non-alias source-time strengthening or a non-source Pack-survival mechanism: super-L1/Orlicz/Morrey/Carleson residence, trace no-positive-jump with stronger regularity, terminal time-face capacity exclusion, rigid anti-atom/Liouville class, or another theorem that directly defeats the same terminal strip model. pdfs_final remains false."
 evidence_refs:
   - problems/navier-stokes/theorem-construction/mpp-same-witness-tps-capture-first-pack-exit-direct-attempt-20260609.md
@@ -26,7 +26,7 @@ SameWitnessTerminalStripModulusForFirstPackExit.A
 Proposed statement:
 
 ```text
-For the original-data first Pack witness W_*, terminal source/scale mass cannot
+For the original-data first Field-window support W_*, terminal source/scale mass cannot
 concentrate into vanishing preterminal time strips. Equivalently, there is a
 same-ledger modulus that forces positive active-time thickness for W_*.
 ```
@@ -35,7 +35,7 @@ Once proved, this feeds either TPS capture or a direct Pack-survival route:
 
 ```text
 terminal strip modulus for W_*
-=> positive active-time thickness for the same first Pack witness
+=> positive active-time thickness for the same first Field-window support
 => OriginalSmoothDataPackSurvival.A
 => NoGenuineExitFromSmoothData.A.
 ```
@@ -98,7 +98,7 @@ terminal layer.
 installed inputs.
 
 The proof has reached the same hard quantitative payment in a more exact form:
-defeat the terminal strip model for the same original-data first Pack witness.
+defeat the terminal strip model for the same original-data first Field-window support.
 The next theorem must be one of:
 
 ```text
@@ -116,7 +116,7 @@ the PDFs can be final.
 # New Live Criticism
 
 `NS-LIVE-20260609-201`: the same-witness terminal strip modulus for the original
-first Pack witness is not installed. Current inputs still allow
+first Field-window support is not installed. Current inputs still allow
 `g_m(s)=m 1_{(-1/m,0]}`: bounded local source mass, BV trace primitives, weak
 linear trace compactness, zero ASAC, paid exits, and no fixed earlier selected
 slice do not rule out order-one terminal mass in vanishing time thickness. The

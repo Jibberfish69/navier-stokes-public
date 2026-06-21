@@ -8,7 +8,7 @@ claim_boundary:
   logical_landing_node: SameWitnessRigidAntiAtomLiouvilleProduction.A
   claim_status: not_proved
   edge_effect: "Tests the rigid anti-atom alternative left after terminal capacity, trace no-positive-jump, and source-residence routes failed. The rigid subclass Liouville theorem is valid once a terminal time-face anti-atom clause is granted, but same-witness custody does not produce that clause."
-  downstream_consequence: "The active loop remains open below OriginalSmoothDataPackSurvival.A. Future progress must come from a genuinely non-source Pack-survival theorem or from a new theorem that actually produces terminal anti-atom structure for the same first-Pack witness. pdfs_final remains false."
+  downstream_consequence: "The active loop remains open below OriginalSmoothDataPackSurvival.A. Future progress must come from a genuinely non-source Pack-survival theorem or from a new theorem that actually produces terminal anti-atom structure for the same first-Field-window support. pdfs_final remains false."
 evidence_refs:
   - problems/navier-stokes/theorem-construction/mpp-rigid-basac-timeface-antiatom-subclass-liouville-20260517.md
   - problems/navier-stokes/theorem-construction/mpp-basac-timeface-antiatom-rigid-subclass-production-reentry-20260609.md
@@ -25,7 +25,7 @@ SameWitnessRigidAntiAtomLiouvilleProduction.A
 The route would need:
 
 ```text
-same original-data first Pack witness
+same original-data first Field-window support
 + production into a rigid terminal anti-atom subclass
 + the already proved subclass Liouville theorem
 => OriginalSmoothDataPackSurvival.A.
@@ -60,7 +60,7 @@ ProductionIntoRigidBASACTimeFaceSubclass.A:
 B_ASAC => B_ASAC^TA
 ```
 
-on the same original-data first Pack witness.
+on the same original-data first Field-window support.
 
 The current same-witness data give target custody, finite local `L^1_s` native
 positive source mass, local-energy/BV balance primitives, weak linear traces,
@@ -82,11 +82,11 @@ terminal time-face atom.
 
 # Same-Witness Check
 
-Same-witness custody prevents changing the Pack witness. It does not add time
+Same-witness custody prevents changing the Field-window support. It does not add time
 thickness, an Orlicz modulus, a source-Carleson reserve, a no-positive-jump
 trace theorem, or an intrinsic anti-atom property.
 
-Thus the proof cannot pass from "this is the same first-Pack witness" to "this
+Thus the proof cannot pass from "this is the same first-Field-window support" to "this
 witness belongs to the terminal anti-atom subclass." That step is exactly the
 missing production theorem.
 

@@ -7,8 +7,8 @@ governing_program: "Exit(Q):=not Member(Q) through Pack_Q / Part_{N,Q} / Field_{
 claim_boundary:
   logical_landing_node: SameWitnessTPSCaptureForFirstPackExit.A
   claim_status: not_proved
-  edge_effect: "Tests the theorem atom exposed by NS-LIVE-20260609-199. The installed TPS and SG.4 surfaces work after a selector-good active-pair family and strip have already been chosen. They do not prove that the original smooth-data first Pack witness belongs to that family, and using positive active-pair thickness as the capture premise would assume the Pack-survival conclusion."
-  downstream_consequence: "The TPS route cannot serve as the parent first-Pack-survival mechanism unless a separate same-witness terminal strip modulus is proved. The next theorem atom is SameWitnessTerminalStripModulusForFirstPackExit.A, or an equivalent non-alias theorem that prevents the original-data first Pack witness from being a zero-thickness terminal residue outside all selector-good active families. pdfs_final remains false."
+  edge_effect: "Tests the theorem atom exposed by NS-LIVE-20260609-199. The installed TPS and SG.4 surfaces work after a selector-good active-pair family and strip have already been chosen. They do not prove that the original smooth-data first Field-window support belongs to that family, and using positive active-pair thickness as the capture premise would assume the Pack-survival conclusion."
+  downstream_consequence: "The TPS route cannot serve as the parent first-Pack-survival mechanism unless a separate same-witness terminal strip modulus is proved. The next theorem atom is SameWitnessTerminalStripModulusForFirstPackExit.A, or an equivalent non-alias theorem that prevents the original-data first Field-window support from being a zero-thickness terminal residue outside all selector-good active families. pdfs_final remains false."
 evidence_refs:
   - problems/navier-stokes/theorem-construction/mpp-cfbundle-coercive-first-pack-survival-bridge-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-first-exit-nonalias-frontier-after-basac-density-failure-20260609.md
@@ -35,7 +35,7 @@ active-pair family to which SG.4 production applies.
 If proved, the propagation would be:
 
 ```text
-same first Pack witness W_*
+same first Field-window support W_*
 => W_* is captured by selector-good TPS active pairs
 => SG.4 / CF-bundle lower envelope applies to W_*
 => positive active-time thickness for W_*
@@ -62,7 +62,7 @@ The public Clay first Pack wall has a different starting object:
 OriginalSmoothData => terminal Pack survival
 ```
 
-or, equivalently, a theorem ruling out the first Pack face failure for the
+or, equivalently, a theorem ruling out the first Pack Part/Field failure for the
 same-solution terminal witness. The non-alias inventory says endpoint,
 B_ASAC source residence, h/F, material/fixed readout, Pack.TTU,
 minimal-bubble/cross-profile, and direct Clay bridge families have already
@@ -89,7 +89,7 @@ selector-good active-pair family with positive active-time thickness.
 
 The TPS good-set machinery begins after selection. It can refine, expand, and
 exclude shadowing for selected good pairs. It does not construct the original
-CM Pack witness as one of those pairs. If the capture proof assumes a positive
+CM Field-window support as one of those pairs. If the capture proof assumes a positive
 active-pair strip, it has already assumed the Pack-survival fact it was meant
 to prove.
 
@@ -103,7 +103,7 @@ g_m(s)=m\,1_{(-1/m,0]}(s).
 
 This model can carry finite local `L^1_s` mass while occupying vanishing
 preterminal time thickness. A selector-good family can have strong expansion
-away from that strip, and the first Pack witness can still be the unselected
+away from that strip, and the first Field-window support can still be the unselected
 terminal residue. The problem is not the quality of `SG.4` after selection; it
 is the absence of a same-witness terminal strip modulus before selection.
 
@@ -132,4 +132,4 @@ chosen, while the first Pack obstruction from original smooth data may be a
 zero-thickness terminal residue outside all such selected families. The next
 direct theorem target is `SameWitnessTerminalStripModulusForFirstPackExit.A`,
 or an equivalent non-alias theorem forcing positive active-time thickness for
-the original-data first Pack witness. Keep `pdfs_final` false.
+the original-data first Field-window support. Keep `pdfs_final` false.

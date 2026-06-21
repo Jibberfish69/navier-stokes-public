@@ -38,7 +38,7 @@ or:
 \qquad \omega_R(\varepsilon)\downarrow0,
 ```
 
-or a scale-critical source-Carleson reserve on the same terminal Pack witness.
+or a scale-critical source-Carleson reserve on the same terminal Field-window support.
 
 Any one of these would remove order-one source mass in vanishing terminal strips
 and feed `OriginalSmoothDataPackSurvival.A`.
@@ -48,7 +48,7 @@ and feed `OriginalSmoothDataPackSurvival.A`.
 The current installed data give:
 
 ```text
-same original-data first Pack witness W_*,
+same original-data first Field-window support W_*,
 finite local L1_s native positive source mass,
 local-energy/BV balance primitives,
 weak linear traces,

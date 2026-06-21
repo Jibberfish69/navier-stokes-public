@@ -23,7 +23,7 @@ every source-balanced active pulse on selected terminal heat-scale windows
 spends a same-ledger finite reserve.
 ```
 
-This theorem must feed first-exit Pack survival. It cannot be a CM face label
+This theorem must feed first-exit Pack survival. It cannot be a CM Part/Field label
 or a renamed source-pulse exclusion theorem.
 
 ## Checked Normal Form

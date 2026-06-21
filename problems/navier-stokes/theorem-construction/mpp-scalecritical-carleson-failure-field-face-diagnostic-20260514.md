@@ -6,7 +6,7 @@ Installed as a selection-aware CM failure-face theorem.
 
 This note proves the sharper use of `ScaleCriticalTreeCarleson.A`: on the
 selected CM source-wall branch, its failure is not first treated as a missing
-positive estimate. It is sorted through the witness faces.
+positive estimate. It is sorted through the witnesss.
 
 The installed CM-facing conclusion is:
 
@@ -83,7 +83,7 @@ Exit(Q):=\neg Member(Q)
 with witness rows
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 Therefore a real terminal smoothness failure must leave `CM`. A terminal
@@ -337,7 +337,7 @@ is the stronger direct supplier theorem and remains open.
 \neg Field
 ```
 
-is the CM face diagnostic. It uses the already installed class-internal theorem
+is the CM Part/Field diagnostic. It uses the already installed class-internal theorem
 and is the first CM-facing use of the Carleson concept.
 
 This also refines the older `SourcePulseFieldExit.A` posture. That older face
@@ -441,11 +441,11 @@ OriginalSmoothData\Longrightarrow SourcePulseExclusion.A,
 ```
 
 which removes `Jump_avg` without spending endpoint closure upstream.  The
-alternate Zeno rigid-class presentation has its own Pack/Part/Field landing in
+alternate Zeno rigid-class presentation has its own Part/Field landing in
 `mpp-zeno-terminal-atom-field-face-diagnostic-20260514.md`.  Those are not gaps
 in `SCTCFailureToFaceWitness.A`; they are separate source-wall routes.
 
 The cross-ledger warning `PositiveFieldScaleUnderSynchronization.A` is also
 separate. This note diagnoses a selected SCTC failure on one active CM ledger; it
-does not claim that independent Pack, Part, and Field witnesses from different
+does not claim that independent Part and Field witnesses from different
 ledgers synchronize without a same-ledger synchronization theorem.

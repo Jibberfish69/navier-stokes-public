@@ -26,7 +26,7 @@ SameWitnessTraceNoPositiveJumpWithStrongerRegularity.A
 Proposed statement:
 
 ```text
-For the original-data first Pack witness W_*, the localized same-witness native
+For the original-data first Field-window support W_*, the localized same-witness native
 source-balance primitive has no positive terminal jump after all named paid exits
 are removed.
 ```
@@ -95,7 +95,7 @@ must forbid.
 The same-witness restriction matters for target fidelity: it prevents moving the
 source atom to a different packet, selector family, or surrogate equation. But it
 does not add a time-regularity estimate. It says the trace belongs to the original
-first Pack witness; it does not say the selected positive source marginal is
+first Field-window support; it does not say the selected positive source marginal is
 uniformly integrable in time.
 
 Weak linear velocity traces also do not close the route. They control linear

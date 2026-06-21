@@ -25,7 +25,7 @@ SameWitnessTerminalTimeFaceCapacityZeroForFirstPackExit.A
 Proposed statement:
 
 ```text
-For the original-data first Pack witness W_*, a positive terminal native source
+For the original-data first Field-window support W_*, a positive terminal native source
 atom cannot live on the terminal time face because that face has zero effective
 capacity for the same-witness source class.
 ```
@@ -41,7 +41,7 @@ terminal time-face capacity zero for W_*
 
 # Installed Inputs Checked
 
-The current same-witness first Pack branch supplies the same data already tested
+The current same-witness first Field-window branch supplies the same data already tested
 in the terminal strip pass:
 
 ```text
@@ -51,7 +51,7 @@ weak linear terminal traces,
 zero ASAC,
 paid named exits,
 no fixed earlier selected source slice,
-and the same original-data terminal Pack witness W_*.
+and the same original-data terminal Field-window support W_*.
 ```
 
 Those inputs are enough to define the terminal measure. They are not enough to
@@ -96,7 +96,7 @@ the boundary measure.
 # Same-Witness Check
 
 The same-witness restriction does not change the capacity conclusion. It keeps
-custody of the original-data first Pack witness, which is necessary, but it does
+custody of the original-data first Field-window support, which is necessary, but it does
 not add a new estimate on the time marginal. The obstruction is still:
 
 ```text

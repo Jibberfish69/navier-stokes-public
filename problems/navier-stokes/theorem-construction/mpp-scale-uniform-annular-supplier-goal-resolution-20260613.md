@@ -4,7 +4,7 @@ ns_viewer:
   status: gold-hard-obstruction-branch-paid-annular-silver-readout
   proof_role: goal_run_resolution_for_annular_supplier_boundary
   logical_landing_node: terminal_cone_annular_limit_witness
-  edge_effect: "Checks the scale-uniform annular supplier boundary through the requested order: gold forward-positive control first, then silver CM pass-or-exit for the surviving residual annular obstruction. Gold is not proved from the installed inputs. For an annular witness admitted with the continuation-readout bridge paid, Pack is not the CM argument: selection and the same-solution positive-radius carrier have already been granted. Smooth/readout-complete branches are Member(Q); nonsmooth readout-complete finite terminal branches must leave Member(Q) through Part or Field. Without that readout bridge this is a conditional CM face-audit lemma, not a general annular closure."
+  edge_effect: "Checks the scale-uniform annular supplier boundary through the requested order: gold forward-positive control first, then silver CM pass-or-exit for the surviving residual annular obstruction. Gold is not proved from the installed inputs. For an annular witness admitted with the continuation-readout bridge paid, Pack is not the CM argument: selection and the same-solution positive-radius carrier have already been granted. Smooth/readout-complete branches are Member(Q); nonsmooth readout-complete finite terminal branches must leave Member(Q) through Part or Field. Without that readout bridge this is a conditional CM Part/Field-audit lemma, not a general annular closure."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-cone-payment-closure-package-20260611.md
@@ -30,7 +30,7 @@ by silver only after it is admitted as the same-solution annular witness under
 test with the continuation-readout bridge paid.  For that readout-complete
 admitted annular witness, Pack is already paid by selection and carrier; the
 remaining CM argument is Part or Field.  Without that readout bridge, the
-residual-decay calculation is only a CM face-audit lemma.
+residual-decay calculation is only a CM Part/Field-audit lemma.
 
 ## 1. Live Boundary
 

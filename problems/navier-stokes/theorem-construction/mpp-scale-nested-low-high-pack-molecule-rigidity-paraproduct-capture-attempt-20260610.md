@@ -59,7 +59,7 @@ L3DuhamelResponseWorkLocalization.A
 + ParaproductNativeSourceCapture.A
 + TerminalSourceResidueCMExit.A
 + RetainedPackPartCriticalL3FieldExit.A
-=> terminal L3 Duhamel mass lands in Pack/Part/legal CM face.
+=> terminal L3 Duhamel mass lands in Pack/Part/legal CM Part/Field.
 ```
 
 The proof of `ParaproductNativeSourceCapture.A` captures same-ledger nonlinear
