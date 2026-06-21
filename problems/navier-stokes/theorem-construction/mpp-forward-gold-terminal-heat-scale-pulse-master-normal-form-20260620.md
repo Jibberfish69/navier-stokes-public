@@ -460,7 +460,7 @@ status:
 \text{projected source/native carrier domination} &
 \text{false directly; Beltrami packets have }N=0\text{ and positive local stretching}\\
 \text{native carrier curl-source / transport criterion} &
-\text{exact consumer; endpoint UI requires }\nabla\times N\text{ plus transport UI; }H^2\text{ cubic readout}\\
+\text{exact consumer; endpoint UI requires }\omega,\nabla\times N\text{ plus transport UI; }H^2\text{ cubic readout}\\
 \text{allocation / KKT shadow price} &
 \text{combined Holder price paid; unweighted priced reserve absent}\\
 \text{coupled mixed-tower radius} &
