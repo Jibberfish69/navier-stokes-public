@@ -351,7 +351,7 @@ Field_{N,r_{N,\sigma},Q_s}^{\le C_{N,\sigma}}
 \tag{BL.24}
 ```
 
-### 10. `OFP+Pack+Part-to-CFI`
+### 10. `OFP+Part plus Field-window evidence-to-CFI`
 
 Class-membership forward invariance is:
 
@@ -572,7 +572,7 @@ tower\text{-}blown.
 ```
 
 Jump cross-entries reduce through the installed coherence reduction
-`Pack+Part+Jump => Field`-coherence fracture, and dead cross-entries reduce to
+`Part plus Field-window evidence+Jump => Field`-coherence fracture, and dead cross-entries reduce to
 the installed `(Part,Dead)` row. Therefore:
 
 ```math
@@ -643,7 +643,7 @@ LCI+FCI\text{-}to\text{-}CSP
 \Longrightarrow
 CSP+FixedFamily\text{-}to\text{-}OFP
 \Longrightarrow
-OFP+Pack+Part\text{-}to\text{-}CFI.
+OFP+Part plus Field-window evidence\text{-}to\text{-}CFI.
 \tag{BL.40}
 ```
 

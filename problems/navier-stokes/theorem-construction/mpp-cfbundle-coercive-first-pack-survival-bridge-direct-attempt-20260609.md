@@ -55,7 +55,7 @@ selector-local lower bound feeding the active graph / coarea route.
 Those packets are strong inside the TPS good-set world. They do not state that
 the original smooth-data first Field-window support is selected by that world. The CM
 side still starts with the same terminal witness and asks whether the first
-face is `not Pack_Q`, `not Part_{N,Q}`, or
+face is `not Part_{N,Q}` or
 `Part_{N,Q} + forall r>0 not Field_{N,r,Q}`. The current public-Clay
 gap is the first item:
 

@@ -58,7 +58,7 @@ it satisfies the five same-solution CM test-admissibility checks from
 5. Same witness grammar.
 
    `CanonicalTerminalPacketCapture.A`, `AnyFiniteFailureWitnessCMExit.A`, and
-   the Pack-out-of-CM resurfacing audit prove that every same-solution
+   the Pack-out-of-CM boundary correction audit prove that every same-solution
    terminal obstruction has only the primitive continuation services:
 
    ```text
@@ -67,7 +67,7 @@ it satisfies the five same-solution CM test-admissibility checks from
    Field_{N,r,Q}.
    ```
 
-   The first failed service is therefore `not Pack_Q`, `not Part_{N,Q}`, or
+   The first failed service is therefore `not Part_{N,Q}` or
    `forall r>0 not Field_{N,r,Q}`. For singular or zero-radius same-solution
    branches, `not Pack_Q` is the first service only after the pointwise
    pressure-viscosity-source participation record is absent. If that record
@@ -134,8 +134,8 @@ is not promoted.
   capture for same-solution terminal obstructions.
 - `mpp-any-finite-failure-witness-cm-exit-20260521.md`: installs the finite-failure
   landing theorem for alleged finite-time failure witnesses, now read with the
-  Pack-out-of-CM resurfacing qualification for singular same-solution records.
-- `mpp-pack-before-part-dependency-resurfacing-audit-20260620.md` and
+  Pack-out-of-CM boundary correction qualification for singular same-solution records.
+- `mpp-pack-out-of-cm-boundary-resurfacing-audit-20260620.md` and
   `mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md`:
   license Part/Field testing before ordinary Pack-only disposal for singular
   same-solution terminal witnesses with a original participation record.

@@ -436,7 +436,7 @@ tower\text{-}blown.
 ```
 
 For jump cross-entries, the installed field-coherence reduction routes
-`Pack+Part+Jump` to a coherence fracture, hence to the `Field` row once `Pack`
+`Part plus Field-window evidence+Jump` to a coherence fracture, hence to the `Field` row once `Pack`
 and `Part` are retained. For dead cross-entries, the route-native dead entry is
 the installed `(Part,Dead)` row.
 

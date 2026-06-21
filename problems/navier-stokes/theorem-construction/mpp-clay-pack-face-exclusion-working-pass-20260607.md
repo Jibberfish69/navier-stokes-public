@@ -81,7 +81,7 @@ Installed conclusions used:
    readout, not mere preterminal material identity.
 4. `mpp-terminal-zeno-pack-failure-correction-20260521.md` says finite Zeno
    ancestry packets may be legal positive-radius CM participation-field records, while the terminal
-   zero-radius limit lands Part-side when the same original-NS participation record remains and true `not Pack_Q` only when that record is
+   zero-radius limit lands Part-side when the same original-NS participation record remains and true packet/window evidence only when that record is
    absent, before any retained Field face can be spent.
 5. `mpp-clay-counterexample-exclusion-bridge-direct-work-20260601.md` already
    rejects the shortcut
@@ -145,7 +145,7 @@ max(|F_m|, |F_m^{-1}|) -> infinity.
 ```
 
 So a material volume can be preserved while the readout-compatible terminal
-carrier degenerates. This is exactly the Pack-side distinction recorded in the
+carrier degenerates. This is exactly the Field-window support distinction recorded in the
 primitive laws: the material-packet reading identifies the same fluid parcel,
 while Pack requires usable common packing coordinates at the finite terminal
 edge.

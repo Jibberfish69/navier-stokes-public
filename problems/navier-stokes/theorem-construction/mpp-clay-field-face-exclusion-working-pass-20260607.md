@@ -6,7 +6,7 @@ ns_viewer:
   target_blocker: ClayFieldFaceExclusion.A
   logical_landing_node: cm_field_face_attempts
   cm_part_field_question_landing: Field
-  edge_effect: "Tests whether retained Pack+Part excludes the all-scales Field failure for a finite Clay terminal obstruction; result: not proved from installed inputs."
+  edge_effect: "Tests whether retained Part plus Field-window evidence excludes the all-scales Field failure for a finite Clay terminal obstruction; result: not proved from installed inputs."
   upstream_origin: "June 7 retained-Pack/terminal-Part Field-face working pass."
   downstream_consequence: "Route the missing Field realization lemma to the Field/Jump row rather than leaving a generic Clay bridge blocker."
   missing_lemma: ClayFieldFailureRealization.A
@@ -186,8 +186,8 @@ criterion gives a lifespan
 `\tau=\tau(s,\sup_{t<T_*}\|u(t)\|_{H^s})>0` from any preterminal time;
 uniqueness on overlaps extends the same classical solution past `T_*`.
 
-This proves that the full Pack+Part+Field packet is incompatible with a finite
-terminal breakdown.  It does not prove that retained Pack+Part force Field.
+This proves that the full Part+Field packet is incompatible with a finite
+terminal breakdown.  It does not prove that retained Part plus Field-window evidence force Field.
 The argument therefore produces:
 
 ```math
@@ -258,7 +258,7 @@ inf_j r_j > 0
 
 on a same-fluid terminal subtail, with uniform finite overlap and the same
 packet ledger.  That is again the `GoodScaleNonCollapse / UniformReadCover`
-interface, not an installed consequence of Pack+Part.
+interface, not an installed consequence of Part plus Field-window evidence.
 
 ### 5. Endpoint compatibility
 

@@ -60,7 +60,7 @@ Squaring `(BES.1)` shows that the critical Besov shell is controlled by the matc
 C2^J\|P_Jv\|_{L^2}^2.
 ```
 
-By `R3HHalfWallToCMFace.A`, persistent same-ledger `H^{1/2}` shell exit lands in the Field face on retained Pack+Part. Therefore the admissible dyadic Besov terminal branch lands in Part or Field.
+By `R3HHalfWallToCMFace.A`, persistent same-ledger `H^{1/2}` shell exit lands in the Field face on retained Part plus Field-window evidence. Therefore the admissible dyadic Besov terminal branch lands in Part or Field.
 
 For Besov summation with finite `q`, apply the same shell inequality on each selected terminal shell. Any terminal exit has a shell or finite block carrying a positive fraction of the normalized exit; that selected shell/block lands by the preceding argument.
 
@@ -78,7 +78,7 @@ Assume Pack survives. If the selected superlevel cylinder or amplitude packet lo
 \neg Part_{N,Q}(\mathcal W).
 ```
 
-On retained Pack+Part, the Lorentz amplitude branch gives local critical amplitude concentration. Selecting a same-ledger superlevel/cylinder packet yields a local `L^3` critical concentration branch. By `R3CriticalL3WallToCMFace.A`, that branch lands in the Field face.
+On retained Part plus Field-window evidence, the Lorentz amplitude branch gives local critical amplitude concentration. Selecting a same-ledger superlevel/cylinder packet yields a local `L^3` critical concentration branch. By `R3CriticalL3WallToCMFace.A`, that branch lands in the Field face.
 
 ## Conclusion
 

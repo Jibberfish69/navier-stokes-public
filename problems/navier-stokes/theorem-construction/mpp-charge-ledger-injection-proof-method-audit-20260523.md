@@ -2,7 +2,7 @@
 
 Date: 2026-05-23
 
-Status: non-promotion audit; sharpens the open Pack-side supplier atom.
+Status: non-promotion audit; sharpens the open Field-window support supplier atom.
 
 ## Target lock
 
@@ -129,6 +129,6 @@ and first-created reserve charge reduces to PositiveRemainderDepletion.A
 on the minimal retained positive-scale source carrier.
 ```
 
-Terminal zero-radius residue remains a Pack/Part witness in the CM
+Terminal zero-radius residue remains a Part/Field witness in the CM
 contrapositive route.  The retained positive-scale branch is the only branch
 that still asks for a forward supplier theorem.

@@ -66,7 +66,7 @@ with parabolic windows written as
 Q_rho(z_*)=B_rho(x_*) x (T_*-rho^2,T_*).
 ```
 
-A point probe is **Pack-admitted** when its germ contains a terminal neighbourhood with a positive same-fluid carrier scale and finite Pack gauge:
+A point probe is **field-local** when its germ contains a terminal neighbourhood with a positive same-fluid carrier scale and finite Pack gauge:
 
 ```math
 exists rho_0>0 such that Pack_{Q_{rho_0}(z_*)} holds
@@ -108,7 +108,7 @@ quad Longrightarrow quad
 not Pack_Q.
 ```
 
-If the germ has a positive-radius Pack member, then the object is Pack-admitted and the CM test proceeds to `Part_{N,Q}` and `Field_{N,r,Q}`.
+If the germ has a positive-radius Pack member, then the object is field-local and the CM test proceeds to `Part_{N,Q}` and `Field_{N,r,Q}`.
 
 ## Proof
 
