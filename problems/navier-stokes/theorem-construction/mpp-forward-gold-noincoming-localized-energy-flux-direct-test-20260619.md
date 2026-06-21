@@ -201,4 +201,4 @@ NoFreeTerminalZenoDonorChain.A,
 ```
 
 or to CM-facing conversion of the retained terminal pulse into a Pack, Part, or
-Field face failure.
+Field Part/Field failure.

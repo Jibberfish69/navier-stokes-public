@@ -27,7 +27,7 @@ This note records the direct consolidation.  It does not prove
 
 ## 1. Same-witness modulus needed
 
-Let the same first Pack witness carry a selected positive terminal marginal
+Let the same first Field-window support carry a selected positive terminal marginal
 
 ```math
 d\mu_m(s)=a_m(s)\,ds
@@ -171,7 +171,7 @@ degenerates exactly as the endpoint pulse concentrates.
 
 The TPS good-set and CF-bundle mechanisms give selected-pair or good-family
 structure only after a positive active-time fact has been produced for the same
-first Pack witness.  They do not capture the zero-thickness original witness
+first Field-window support.  They do not capture the zero-thickness original witness
 without `(NSP.1)`.
 
 Aubin-Lions and weak compactness have the same limitation: they compactify the

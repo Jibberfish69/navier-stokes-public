@@ -241,12 +241,12 @@ For the Navier-Stokes critical Besov scale
 ```
 
 the installed CM bridges already route admissible Besov/Lorentz terminal exits
-to Pack/Part/Field faces.  That is a readout:
+to Part/Field faces.  That is a readout:
 
 ```math
 \text{critical Besov/Lorentz exit}
 \Longrightarrow
-\text{CM face failure}.
+\text{CM Part/Field failure}.
 \tag{OBF.19}
 ```
 
@@ -272,7 +272,7 @@ The contrapositive is useful but has the wrong proof role for forward gold:
 \tag{OBF.21}
 ```
 
-After same-witness CM-test admission, `(OBF.21)` is Pack/Part/Field readout
+After same-witness CM-test admission, `(OBF.21)` is Part/Field readout
 support.  It is not a forward-positive anti-atom theorem.
 
 ## 5. Sign and positive selection
@@ -313,7 +313,7 @@ Its exact proof role is:
 
 ```math
 \boxed{
-\text{consumer/readout: critical flux or Besov exit lands in CM faces;}
+\text{consumer/readout: critical flux or Besov exit lands in CM Part/Fields;}
 }
 \tag{OBF.24}
 ```

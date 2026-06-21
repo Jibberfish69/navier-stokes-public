@@ -279,4 +279,4 @@ The Orlicz endpoint branch is exhausted as a production shortcut.
 New forward-gold progress must prove an actual same-carrier source-time payment.
 Without that payment, the terminal layer `(OEUI.10)` remains visible but not
 excluded by forward gold, and the failure of `(OEUI.3)` must be handled by the
-CM Pack/Part/Field readout rather than renamed as an Orlicz theorem.
+CM Part/Field readout rather than renamed as an Orlicz theorem.

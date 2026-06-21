@@ -7,7 +7,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-linear-positive-energy-trace-saturation-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-zeno-unweighted-reserve-normal-form-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-terminal-trace-sink-attempt-20260619.md
-downstream_consequence: "The normalized endpoint-energy parent chain is not paid by finite physical energy, finite physical dissipation, or BV terminal trace visibility. It is the endpoint-uniform-integrability/no-free-Zeno problem in normalized energy-trace currency. The linear non-source-residue branch therefore closes only under endpoint UI on that exact carrier, strict no-waste/unweighted action, source-square domination, or CM Pack/Part/Field admission after same-witness testing."
+downstream_consequence: "The normalized endpoint-energy parent chain is not paid by finite physical energy, finite physical dissipation, or BV terminal trace visibility. It is the endpoint-uniform-integrability/no-free-Zeno problem in normalized energy-trace currency. The linear non-source-residue branch therefore closes only under endpoint UI on that exact carrier, strict no-waste/unweighted action, source-square domination, or CM Part/Field admission after same-witness testing."
 ---
 
 # MPP Forward-Gold No-Free Terminal Normalized Energy Trace Direct Test

@@ -2,7 +2,7 @@
 theorem_id: forward-gold-nonnull-same-shadow-readout-production-clause-recheck-20260620
 status: direct-clause-c-recheck-complete-not-proved
 logical_landing_node: nonnull_same_shadow_readout_production_clause
-edge_effect: "Rechecks Clause C of the unweighted same-carrier reserve production obligation. The no-null same-shadow readout clause is not proved by response lower frames, Bessel bounds, signed visibility, mode separation, finite source mass, endpoint compactness, stress-current visibility, or tangent observability. Existing notes prove the algebraic normal form and the CM face consumer after same-witness admission, not the forward-gold no-null production theorem."
+edge_effect: "Rechecks Clause C of the unweighted same-carrier reserve production obligation. The no-null same-shadow readout clause is not proved by response lower frames, Bessel bounds, signed visibility, mode separation, finite source mass, endpoint compactness, stress-current visibility, or tangent observability. Existing notes prove the algebraic normal form and the CM Part/Field consumer after same-witness admission, not the forward-gold no-null production theorem."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-unweighted-same-carrier-reserve-production-obligation-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-positive-cone-nonull-readout-direct-test-20260620.md
@@ -91,8 +91,8 @@ This is a normal-form theorem, not a Navier--Stokes supplier.
 
 The CM consumer is paid after same-witness admission.  If the retained positive
 carrier is admitted as the same terminal Clay witness, then absence of the
-selected carrier gives a Pack face failure, failure of same-solution
-participation gives a Part face failure, and retained Pack plus Part with a
+selected carrier gives a Pack Part/Field failure, failure of same-solution
+participation gives a Part Part/Field failure, and retained Pack plus Part with a
 positive high-frequency carrier contradicts any positive high-regularity Field
 certificate.
 
@@ -240,7 +240,7 @@ After same-witness admission, the retained branch is consumed by
 
 ```math
 \boxed{
-\text{Pack/Part/Field face failure.}
+\text{Part/Field Part/Field failure.}
 }
 \tag{NSS.20}
 ```
@@ -265,4 +265,4 @@ Current lower frames, Bessel estimates, signed visibility, stress-current
 visibility, finite source mass, endpoint compactness, mode separation, and
 tangent observability do not exclude that kernel.  They become useful only
 after a same-ledger no-null/saturation theorem is supplied, or after the branch
-is admitted to the CM Pack/Part/Field witness tree.
+is admitted to the CM Part/Field witness tree.

@@ -27,7 +27,7 @@ terminal reserve from installed inputs.}
 \]
 
 Each route either aliases to the same reserve, becomes a consumer after that
-reserve is supplied, or becomes CM Pack/Part/Field witness-face material when
+reserve is supplied, or becomes CM Part/Field witness material when
 the reserve is not supplied.
 
 ## 1. Frequency travel-time
@@ -107,7 +107,7 @@ Thus pressure aliases to:
 \text{SourceSquareReserve.A, residual-LPAS, strict no-waste,}
 \]
 
-or to CM Pack/Part/Field consumption after same-solution admission.
+or to CM Part/Field consumption after same-solution admission.
 
 ## 4. Critical-space and compact-critical-element routes
 
@@ -218,5 +218,5 @@ Equivalent usable forms are:
 \]
 
 If none of those is proved, the retained heat-scale pulse is not hidden.  It
-belongs to the CM Pack/Part/Field witness-face route after same-solution
+belongs to the CM Part/Field witness route after same-solution
 admission; it is not a forward-gold anti-atom proof.

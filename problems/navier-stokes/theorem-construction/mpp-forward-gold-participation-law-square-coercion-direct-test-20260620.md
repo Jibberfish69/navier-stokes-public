@@ -262,7 +262,7 @@ Once `(PLS.10)` is proved, the propagation is:
 \tag{PLS.21}
 ```
 
-Without `(PLS.10)` or CM-test admission plus a first Pack/Part/Field face
+Without `(PLS.10)` or CM-test admission plus a first Part/Field face
 failure, the retained positive-scale reserve remains supplier quarantine.
 
 ## Verdict

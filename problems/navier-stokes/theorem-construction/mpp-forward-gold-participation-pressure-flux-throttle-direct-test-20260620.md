@@ -367,5 +367,5 @@ It reduces to the existing non-aliased forward-gold wall:
 
 The CM role remains available through
 `ParticipationDebtPassExitTargetClosure.A`: failures of the throttle are
-classifiable as Pack/Part/Field witness-face evidence after same-witness
+classifiable as Part/Field witness evidence after same-witness
 admission.  That is a fallback readout, not a forward-positive smoothness proof.

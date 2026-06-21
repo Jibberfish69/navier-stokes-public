@@ -6,7 +6,7 @@ Status: direct shared-hinge attempt complete; theorem not closed from current
 installed inputs.  The attempt identifies exactly why the infinite terminal
 donor chain is the same object as the pure terminal time-face atom, and why all
 noncircular closures require a stronger time-thickness/source-square/no-waste
-input or CM witness-face consumption.
+input or CM witness consumption.
 
 ## Target
 
@@ -364,7 +364,7 @@ Positive-radius ancestry pays or exits; zero-radius ancestry lands first at
 ```
 
 Result: source-square control would close the gold branch.  Its failure is not
-an in-class hidden continuation; it is CM witness-face evidence.
+an in-class hidden continuation; it is CM witness evidence.
 
 ## Attempt 5: compactness and rigidity
 
@@ -449,10 +449,10 @@ Pack_Q
 ```
 
 Thus the zero-radius donor-chain survivor is not a fourth CM object.  It is a
-Pack-first failure unless another admission theorem retains the carrier, and
+Field-certification failure unless another admission theorem retains the carrier, and
 then it becomes Part or Field failure.
 
-Result: CM consumes the failure branch as witness-face evidence.  That is not a
+Result: CM consumes the failure branch as witness evidence.  That is not a
 forward-gold anti-atom proof; it is the fallback consequence of failing to prove
 the anti-atom theorem.
 
@@ -485,13 +485,13 @@ The exact noncircular alternatives are:
 
 If none of those suppliers is proved, the retained infinite terminal donor
 chain is not hidden.  It is the zero-heat-time terminal source atom and is
-consumed by the CM Pack/Part/Field witness-face route:
+consumed by the CM Part/Field witness route:
 
 ```math
 \boxed{
 \text{No gold no-jump supplier}
 \Longrightarrow
-\text{terminal Zeno pulse becomes CM Pack/that face failure evidence.}
+\text{terminal Zeno pulse becomes CM Pack/that Part/Field failure evidence.}
 }
 \tag{NZH.33}
 ```
