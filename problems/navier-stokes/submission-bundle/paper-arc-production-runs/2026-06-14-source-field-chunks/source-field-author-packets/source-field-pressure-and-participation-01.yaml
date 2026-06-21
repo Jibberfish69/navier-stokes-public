@@ -519,7 +519,7 @@ chunk:
       retained-carrier bridge.
 
       \[
-      CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+      CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
       \]
 
       The pressure/source tether route stays conditional at Pressure Time Face
@@ -933,7 +933,7 @@ chunk:
     retained-carrier bridge.
 
     \[
-    CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+    CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
     \]
 
     The pressure/source tether route stays conditional at Pressure Time Face
@@ -944,7 +944,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

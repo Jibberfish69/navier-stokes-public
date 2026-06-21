@@ -380,10 +380,10 @@ chunk:
       The installed bridge is Retained Pack Field NoIncoming Participation Flux.A. The stronger forward supplier version from B ASAC alone still needs a new production theorem.
 
       \[
-      CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+      CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
       \]
 
-      Retained Pack Field NoIncoming Participation Flux.A says that retained Pack Q and retained Field N,r,Q remove the incoming participation-flux alternative. Incoming flux through failed transported packet geometry is a Pack exit, and incoming flux through retained geometry as source-current mismatch is a Field exit.
+      Retained Pack Field NoIncoming Participation Flux.A says that retained Field-window evidence Q and retained Field N,r,Q remove the incoming participation-flux alternative. Incoming flux through failed transported packet geometry is a Pack exit, and incoming flux through retained geometry as source-current mismatch is a Field exit.
 
       \[
       \mu_*^{src}(Q_R\times\{0\})=0.
@@ -706,10 +706,10 @@ chunk:
     The installed bridge is Retained Pack Field NoIncoming Participation Flux.A. The stronger forward supplier version from B ASAC alone still needs a new production theorem.
 
     \[
-    CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+    CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
     \]
 
-    Retained Pack Field NoIncoming Participation Flux.A says that retained Pack Q and retained Field N,r,Q remove the incoming participation-flux alternative. Incoming flux through failed transported packet geometry is a Pack exit, and incoming flux through retained geometry as source-current mismatch is a Field exit.
+    Retained Pack Field NoIncoming Participation Flux.A says that retained Field-window evidence Q and retained Field N,r,Q remove the incoming participation-flux alternative. Incoming flux through failed transported packet geometry is a Pack exit, and incoming flux through retained geometry as source-current mismatch is a Field exit.
 
     \[
     \mu_*^{src}(Q_R\times\{0\})=0.
@@ -720,7 +720,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
