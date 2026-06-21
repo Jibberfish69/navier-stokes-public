@@ -89,7 +89,7 @@ OriginalSmoothData_{R^3}\Longrightarrow Tail.Hs_{R^3}
 is a stronger direct export theorem. The current proof no longer needs that
 positive estimate to prevent an R3 counterexample branch: exterior `L^2`
 tightness plus the Duhamel source split show that any surviving high-order
-exterior source is dyadic scale escape, and retained Pack+Part is incompatible
+exterior source is dyadic scale escape, and retained Part plus Field-window evidence is incompatible
 with a fixed positive Field scale.
 
 ## Promotion rule
