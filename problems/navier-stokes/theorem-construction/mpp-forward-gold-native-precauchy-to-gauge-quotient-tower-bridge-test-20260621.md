@@ -2,7 +2,7 @@
 theorem_id: forward-gold-native-precauchy-to-gauge-quotient-tower-bridge-test-20260621
 status: direct-bridge-fails-exact-supplement-criteria-installed-production-open
 logical_landing_node: native_precauchy_to_gauge_quotient_tower_bridge_test
-edge_effect: "Tests the newly exposed bridge from the native positive pre-Cauchy/source selector to the gauge-quotient finite tower carrier. The direct bridge fails: the main native carrier is trilinear, of the form chi |W|^2 [e.Sigma.e]_+, while the quotient tower/parabolic drain is quadratic. A scaling countertest gives source/drain ratio proportional to amplitude, so no amplitude-free domination by D_Q^w can hold. The bridge closes only with an additional same-carrier supplement. The finite-order amplitude/Field supplement is proved. The source-square/no-waste, critical-density/CKN, signed-polar saturation, and rigid source-residue supplements are assembled as exact criteria. Production remains open at same-carrier identity, coefficient overrun/tail depletion, missing unweighted square/no-waste budget, missing unweighted critical-density/CKN budget, production of dN_miss=0 or a legal/charged polar defect, MinimalZenoProfileProduction.A, or legal/charged full pre-Cauchy remainder reduction."
+edge_effect: "Tests the newly exposed bridge from the native positive pre-Cauchy/source selector to the gauge-quotient finite tower carrier. The direct bridge fails: the main native carrier is trilinear, of the form chi |W|^2 [e.Sigma.e]_+, while the quotient tower/parabolic drain is quadratic. A scaling countertest gives source/drain ratio proportional to amplitude, so no amplitude-free domination by D_Q^w can hold. The bridge closes only with an additional same-carrier supplement. The finite-order amplitude/Field supplement is proved. The source-square/no-waste, critical-density/CKN, signed-polar saturation, rigid source-residue, and full pre-Cauchy remainder reduction supplements are assembled as exact criteria. Production remains open at same-carrier identity, coefficient overrun/tail depletion, missing unweighted square/no-waste budget, missing unweighted critical-density/CKN budget, production of dN_miss=0 or a legal/charged polar defect, MinimalZenoProfileProduction.A, or NoFreeTerminalZenoDonorChain.A."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-gauge-quotient-tower-carrier-drain-production-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-precauchy-main-carrier-consumer-boundary-20260621.md
@@ -14,6 +14,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-density-ckn-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-polar-saturation-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-rigid-source-residue-fourbody-supplement-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-precauchy-remainder-fourbody-reduction-criterion-20260621.md
 ---
 
 # Native Pre-Cauchy to Gauge-Quotient Tower Bridge Test
@@ -355,9 +356,13 @@ C\left[
 \tag{NQB.19}
 ```
 
-The pre-Cauchy boundary note records that `(NQB.19)` is not installed.  The
-unpaid piece is the weighted/lifted/skew positive-part remainder created by
-localization, projection, terminal selection, and positive-part extraction.
+The full pre-Cauchy remainder reduction is now assembled in
+`mpp-forward-gold-full-precauchy-remainder-fourbody-reduction-criterion-20260621.md`.
+It proves that the finite projection/cutoff/legal, positive pair-weight,
+finite donor, and entrance-leaf pieces reduce to named ledgers.  The remaining
+unpaid piece is the infinite terminal Zeno donor-chain remainder, i.e.
+`NoFreeTerminalZenoDonorChain.A` or one of its same-carrier reserve/polar/rigid
+suppliers.
 
 So the native bridge has two independent gates:
 
@@ -372,8 +377,8 @@ and
 
 ```math
 \boxed{
-\text{full pre-Cauchy carrier must be reduced to main plus legal/charged
-remainder.}
+\text{the terminal Zeno donor-chain remainder must be paid, rigidified,
+or routed to CM Part/Field after same-witness admission.}
 }
 \tag{NQB.21}
 ```
@@ -416,12 +421,13 @@ The exact surviving bridge is:
 ```
 
 After the amplitude, source-square/no-waste, critical-density/CKN,
-signed-polar saturation, and rigid source-residue supplement notes, the
+signed-polar saturation, rigid source-residue, and full pre-Cauchy remainder
+reduction supplement notes, the
 unresolved gold-production suppliers inside `(NQB.23)` are same-carrier
 square/no-waste budget,
 same-carrier critical-density/CKN budget, production of `(NQB.18a)`, rigid
 profile production through `MinimalZenoProfileProduction.A`, or full
-pre-Cauchy remainder reduction.  The
+pre-Cauchy terminal Zeno payment through `NoFreeTerminalZenoDonorChain.A`.  The
 source-square/no-waste route is still open exactly at
 same-carrier identity, coefficient-overrun, or missing unweighted-budget
 production.  The critical-density/CKN route is still open exactly at
@@ -432,7 +438,9 @@ negative-part retention or legal/charged production for \(dN_{\rm miss}\).  The
 rigid source-residue route is still open exactly at endpoint residue
 evacuation or controlled force, nontriviality retention, no-drift/unique
 tangent, renormalized stationarity, homogeneity, defect evacuation, and sphere
-smoothness.  The four-body program still stays intact: tower drain pays
+smoothness.  The full pre-Cauchy remainder route is still open exactly at the
+infinite terminal Zeno donor chain after the finite remainder ledgers are paid.
+The four-body program still stays intact: tower drain pays
 quadratic gauge-quotient activity; participation supplies the signed source;
 compactness must retain the same positive/negative carrier; geometry must
 return the same packet; and the native cubic source selector needs one of the
