@@ -404,8 +404,9 @@ charged defects.}
 \tag{TPC.29}
 ```
 
-When these hold, `PressureAdaptedNoResidueCommutator.A` follows, and the
-source-square residual is deleted.
+When these hold together with the full Hodge-Stokes packet compatibility,
+`ParticipationPreservingNoResidueFullCycle.A` follows, and the source-square
+residual is deleted.
 
 ## 7. Obstruction after this test
 
@@ -414,8 +415,8 @@ has moved from "estimate the commutator by size" to:
 
 ```math
 \boxed{
-\text{construct and retain a transported pressure-adapted selector with
-controlled material/cotangent geometry.}
+\text{construct and retain a transported full Hodge-Stokes selector package
+with controlled material/cotangent geometry.}
 }
 \tag{TPC.30}
 ```
@@ -426,7 +427,7 @@ The expected failure modes are exact:
 \boxed{
 \text{selector loses self-adjoint positivity;}
 \quad
-\text{pressure projection creates a non-summable local trace;}
+\text{pressure, viscous, or divergence channel creates a non-summable local trace;}
 }
 \tag{TPC.31}
 ```
@@ -449,7 +450,7 @@ The expected failure modes are exact:
 \tag{TPC.33}
 ```
 
-These are now the concrete pressure-geometric production sites for the
+These are now the concrete full-cycle Hodge-Stokes production sites for the
 no-residue route.
 
 ## Verdict
@@ -465,8 +466,9 @@ selector metric.}
 ```
 
 A fixed selector turns that derivative into strain/source-square residue.  A
-transported pressure-adapted selector would turn it into scale-capacity drop,
-viscous payment, and summable tail.
+transported full Hodge-Stokes selector package would turn it into
+scale-capacity drop, viscous payment, and summable tail while keeping pressure,
+divergence, cutoff, and signed-saturation channels visible.
 
 So the next exact production target inside this branch is
-`TransportedPressureAdaptedSelector.A`, not another crude commutator estimate.
+`TransportedFullHodgeStokesSelector.A`, not another crude commutator estimate.
