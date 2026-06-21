@@ -296,7 +296,7 @@ chunk:
 
       Smoothness is then read by contraposition. A positive estimate may help, but it is only a supplier/readout theorem until it explicitly bridges into failure or persistence of Pack, Part, or Field.
 
-      Quarantine stale generated surfaces that still name Original Smooth Data=>Source Pulse Exclusion.A as the primary blocker. Rewrite the active source-pulse burden as a three-exit proof search: Pack-exit, Part-exit, Field-exit. Re-audit each existing source-pulse attempt as evidence for one of those three exits, not as an absolute no-pulse proof by default. Resume theorem work on the narrowest surviving branch: prove the terminal nonlinear refill/source-pulse cannot be a genuine non-smooth occurrence while Pack, Part, and Field all remain valid.
+      Quarantine stale generated surfaces that still name Original Smooth Data=>Source Pulse Exclusion.A as the primary blocker. Rewrite the active source-pulse burden as a three-exit proof search: Pack-exit, Part-exit, Field-exit. Re-audit each existing source-pulse attempt as evidence for one of those three exits, not as an absolute no-pulse proof by default. Resume theorem work on the narrowest surviving branch: prove the terminal nonlinear refill/source-pulse cannot be a genuine non-smooth occurrence while Part and Field all remain valid.
 
 
     truncated: false
@@ -395,15 +395,15 @@ chunk:
       CM_{N,r_*,Q}(\mathcal W_*).
       \]
 
-      for the Pack, Part, and Field faces. By hypothesis they live over the same carrier O NS work , the same Q, the same depth N, and compatible same-fluid families.
+      for the Part and Field faces. By hypothesis they live over the same carrier O NS work , the same Q, the same depth N, and compatible same-fluid families.
 
       where r F is a positive scale from the Field certificate and r 0>0 is any scale allowed by the synchronized window convention. Assumption 5 ensures r *>0. By Field scale heredity, the Field certificate remains valid at r * on T *.
 
       This is a useful bridge-side refinement only if the five hypotheses are lower than the source-wall root.
 
-      Hypotheses 1 and 4 are bookkeeping or finite-window compatibility claims. Hypotheses 2 and 3 are definition-audit claims about Pack, Part, and Field heredity under same-fluid restriction. Hypothesis 5 is the dangerous analytic point. If positive Field scale collapses during synchronization, the burden falls back to the Field-face source wall, not to a new CM bridge theorem.
+      Hypotheses 1 and 4 are bookkeeping or finite-window compatibility claims. Hypotheses 2 and 3 are definition-audit claims about Part and Field heredity under same-fluid restriction. Hypothesis 5 is the dangerous analytic point. If positive Field scale collapses during synchronization, the burden falls back to the Field-face source wall, not to a new CM bridge theorem.
 
-      The creative theorem-search step should not keep targeting a generic "aggregate CM bridge." The installed bridge already says that a same-witness Pack/Part/Field triple gives CM N,r,Q .
+      The creative theorem-search step should not keep targeting a generic "aggregate CM bridge." The installed bridge already says that a same-witness Part/Field triple gives CM N,r,Q .
 
 
     truncated: false
@@ -421,7 +421,7 @@ chunk:
     text: |+
       \subsection{Clay problem CM Cross-Face Synthesis Bridge-License Audit}
 
-      Theorem-facing bridge-license note for the aggregate class-membership witness after Pack, Part, and Field supports have been localized on the same witness record. Member is reached only by the installed membership implication after that triadic witness exists.
+      Theorem-facing bridge-license note for the aggregate class-membership witness after Part and Field supports have been localized on the same witness record. Member is reached only by the installed membership implication after that triadic witness exists.
 
       \[
       Pack_Q
@@ -708,7 +708,7 @@ chunk:
 
     Smoothness is then read by contraposition. A positive estimate may help, but it is only a supplier/readout theorem until it explicitly bridges into failure or persistence of Pack, Part, or Field.
 
-    Quarantine stale generated surfaces that still name Original Smooth Data=>Source Pulse Exclusion.A as the primary blocker. Rewrite the active source-pulse burden as a three-exit proof search: Pack-exit, Part-exit, Field-exit. Re-audit each existing source-pulse attempt as evidence for one of those three exits, not as an absolute no-pulse proof by default. Resume theorem work on the narrowest surviving branch: prove the terminal nonlinear refill/source-pulse cannot be a genuine non-smooth occurrence while Pack, Part, and Field all remain valid.
+    Quarantine stale generated surfaces that still name Original Smooth Data=>Source Pulse Exclusion.A as the primary blocker. Rewrite the active source-pulse burden as a three-exit proof search: Pack-exit, Part-exit, Field-exit. Re-audit each existing source-pulse attempt as evidence for one of those three exits, not as an absolute no-pulse proof by default. Resume theorem work on the narrowest surviving branch: prove the terminal nonlinear refill/source-pulse cannot be a genuine non-smooth occurrence while Part and Field all remain valid.
 
 
 
@@ -784,21 +784,21 @@ chunk:
     CM_{N,r_*,Q}(\mathcal W_*).
     \]
 
-    for the Pack, Part, and Field faces. By hypothesis they live over the same carrier O NS work , the same Q, the same depth N, and compatible same-fluid families.
+    for the Part and Field faces. By hypothesis they live over the same carrier O NS work , the same Q, the same depth N, and compatible same-fluid families.
 
     where r F is a positive scale from the Field certificate and r 0>0 is any scale allowed by the synchronized window convention. Assumption 5 ensures r *>0. By Field scale heredity, the Field certificate remains valid at r * on T *.
 
     This is a useful bridge-side refinement only if the five hypotheses are lower than the source-wall root.
 
-    Hypotheses 1 and 4 are bookkeeping or finite-window compatibility claims. Hypotheses 2 and 3 are definition-audit claims about Pack, Part, and Field heredity under same-fluid restriction. Hypothesis 5 is the dangerous analytic point. If positive Field scale collapses during synchronization, the burden falls back to the Field-face source wall, not to a new CM bridge theorem.
+    Hypotheses 1 and 4 are bookkeeping or finite-window compatibility claims. Hypotheses 2 and 3 are definition-audit claims about Part and Field heredity under same-fluid restriction. Hypothesis 5 is the dangerous analytic point. If positive Field scale collapses during synchronization, the burden falls back to the Field-face source wall, not to a new CM bridge theorem.
 
-    The creative theorem-search step should not keep targeting a generic "aggregate CM bridge." The installed bridge already says that a same-witness Pack/Part/Field triple gives CM N,r,Q .
+    The creative theorem-search step should not keep targeting a generic "aggregate CM bridge." The installed bridge already says that a same-witness Part/Field triple gives CM N,r,Q .
 
 
 
     \subsection{Clay problem CM Cross-Face Synthesis Bridge-License Audit}
 
-    Theorem-facing bridge-license note for the aggregate class-membership witness after Pack, Part, and Field supports have been localized on the same witness record. Member is reached only by the installed membership implication after that triadic witness exists.
+    Theorem-facing bridge-license note for the aggregate class-membership witness after Part and Field supports have been localized on the same witness record. Member is reached only by the installed membership implication after that triadic witness exists.
 
     \[
     Pack_Q
@@ -848,7 +848,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

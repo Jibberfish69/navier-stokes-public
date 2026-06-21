@@ -209,7 +209,7 @@ chunk:
       \]
 
       \[
-      Pack_Q+Part_{N,Q}+Field_{N,r,Q}
+      Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}
       \Longrightarrow
       \sup_{t<T_*}\|u(t)\|_{H^s}<\infty
       \Longrightarrow
@@ -535,7 +535,7 @@ chunk:
     \]
 
     \[
-    Pack_Q+Part_{N,Q}+Field_{N,r,Q}
+    Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}
     \Longrightarrow
     \sup_{t<T_*}\|u(t)\|_{H^s}<\infty
     \Longrightarrow
@@ -571,7 +571,7 @@ chunk:
 
     Pack is a deformation/strain-integrability problem. Part is a terminal closedness problem conditional on Field and next-rung amplitude. Field is the one-field coherence/source-wall problem where Carleson and Zeno selected failures land.
 
-    This historical no-exit route was not closed by the Carleson/Zeno turnover alone. In the present paper it is read as evidence for where retained selected source failures land inside the Pack/Part/Field terminal classification.
+    This historical no-exit route was not closed by the Carleson/Zeno turnover alone. In the present paper it is read as evidence for where retained selected source failures land inside the Part/Field terminal classification.
 
     Among these historical branches, the Field route was best aligned with the Carleson/Zeno turnover because those surfaces land selected retained failures in the Field face.
 
@@ -720,7 +720,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
