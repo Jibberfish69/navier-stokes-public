@@ -101,7 +101,7 @@ It is not a legal error and it is not small on a critical moving packet.
 
 Result: `ScaleCriticalCubicFluxReserve.A` is not proved; failure is retained
 critical \(L^3\)/pressure concentration, usable only through CM-facing
-Pack/Part/Field translators unless a new reserve is supplied.
+Part/Field translators unless a new reserve is supplied.
 
 ### 4. Pressure/source parabolic memory
 
@@ -585,7 +585,7 @@ ancestry is paid or exits.  Zero-radius ancestry lands first at
 ```
 
 unless an alternate admission theorem moves it to `Part` or `Field`.  Retained
-critical \(L^3\) concentration has existing CM-facing Pack/Part/Field
+critical \(L^3\) concentration has existing CM-facing Part/Field
 translators.
 
 So the branch is exhausted as:
@@ -594,7 +594,7 @@ So the branch is exhausted as:
 \boxed{
 \text{same-carrier unweighted reserve still open}
 \quad\text{or}\quad
-\text{terminal pulse becomes CM Pack/that face failure}.
+\text{terminal pulse becomes CM Pack/that Part/Field failure}.
 }
 ```
 

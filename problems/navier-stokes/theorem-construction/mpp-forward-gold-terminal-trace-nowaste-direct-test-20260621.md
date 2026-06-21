@@ -2,7 +2,7 @@
 theorem_id: forward-gold-terminal-trace-nowaste-direct-test-20260621
 status: direct-test-complete-not-gold-closure
 logical_landing_node: terminal_trace_seen_not_forbidden
-edge_effect: "Tests the terminal-face trace mechanism suggested by the exact log-scale tower balance. Integrating the local energy/tower identity up to s=0 shows that a last-instant pulse is visible as a boundary trace, but visibility is not exclusion. The exact identity closes only with an additional terminal trace no-jump/no-waste theorem identifying the boundary trace with legal flux, dissipation, pressure trace, or CM face failure."
+edge_effect: "Tests the terminal-face trace mechanism suggested by the exact log-scale tower balance. Integrating the local energy/tower identity up to s=0 shows that a last-instant pulse is visible as a boundary trace, but visibility is not exclusion. The exact identity closes only with an additional terminal trace no-jump/no-waste theorem identifying the boundary trace with legal flux, dissipation, pressure trace, or CM Part/Field failure."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-log-scale-tower-balance-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-mixed-derivative-tower-participation-law-20260621.md
@@ -26,7 +26,7 @@ The answer is sharp.
 The terminal trace identity sees the last-instant pulse, but it does not forbid
 it.  The pulse can appear as a terminal boundary trace unless an additional
 no-jump/no-waste theorem identifies that trace with legal flux, dissipation,
-pressure trace, or CM face failure.
+pressure trace, or CM Part/Field failure.
 
 ## 1. Base terminal trace identity
 
@@ -257,7 +257,7 @@ or
 ```math
 \boxed{
 \text{it is a retained terminal same-witness discontinuity consumed by
-Pack/Part/Field.}
+Part/Field.}
 }
 \tag{TTN.20}
 ```

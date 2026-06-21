@@ -183,4 +183,4 @@ rigidity theorem.
 Failure of source residence is therefore the pure terminal time-face atom
 itself.  In the forward-gold route this remains open.  In the CM route, the
 surviving zero-radius retained atom must be admitted and landed through
-Pack/Part/Field rather than deleted by a nonexistent residence estimate.
+Part/Field rather than deleted by a nonexistent residence estimate.

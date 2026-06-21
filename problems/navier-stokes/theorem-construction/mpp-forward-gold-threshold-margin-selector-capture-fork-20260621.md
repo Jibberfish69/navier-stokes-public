@@ -541,4 +541,4 @@ whenever \(N=-\mathbb P\nabla\cdot F\), \(g=\sigma\cdot N\), and
 The remaining gold work is to control or consume the blowup of
 \(G_*A_*|I|^2\) by the coupled Navier-Stokes tower, source-square, normalized
 CKN/critical-strain action, strict no-waste, polar saturation/no-free terminal
-Zeno chain, profile production, or a CM Pack/Part/Field face.
+Zeno chain, profile production, or a CM Part/Field face.

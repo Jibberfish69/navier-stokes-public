@@ -6,7 +6,7 @@ governing_program: forward-positive gold route
 claim_boundary:
   logical_landing_node: TwoProfilePackMoleculeRigidity.A
   claim_status: not_proved
-  edge_effect: "Tests the two-frame molecule left by the Pack/profile stability pass. Separated profile pairs vanish, duplicate parameters merge, and paraproduct capture gives CM face support. The surviving scale-nested low-high same-window molecule is not excluded; it reduces to low-high terminal source-time anti-atom, source residence, source-Carleson/active-square reserve, or scale-nested Liouville."
+  edge_effect: "Tests the two-frame molecule left by the Pack/profile stability pass. Separated profile pairs vanish, duplicate parameters merge, and paraproduct capture gives CM Part/Field support. The surviving scale-nested low-high same-window molecule is not excluded; it reduces to low-high terminal source-time anti-atom, source residence, source-Carleson/active-square reserve, or scale-nested Liouville."
   downstream_consequence: "The two-frame molecule is not an independent rigidity supplier for CriticalElementStability.A. It is another form of the terminal heat-scale positive source pulse unless a new low-high anti-atom/reserve/rigidity theorem is proved."
 evidence_refs:
   - problems/navier-stokes/theorem-construction/mpp-two-profile-pack-molecule-rigidity-parameter-orthogonality-attempt-20260610.md
@@ -64,7 +64,7 @@ This is the scale-nested low-high Pack molecule.
 ## Paraproduct Capture
 
 The installed paraproduct package captures the low-high work as a native source
-or a CM witness-face/source-wall object. That proves:
+or a CM witness/source-wall object. That proves:
 
 ```text
 ScaleNestedLowHighPackMoleculeCMFaceCapture.A.
@@ -160,7 +160,7 @@ g_m(s)=m\,1_{(-1/m,0]}(s),
 g_m(s)\,ds\rightharpoonup\delta_0.
 ```
 
-CM face classification can use this residue as witness-face support after
+CM Part/Field classification can use this residue as witness support after
 admission. It does not give the forward-gold exclusion of the first terminal
 Pack failure.
 

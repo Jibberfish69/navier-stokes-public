@@ -4,13 +4,13 @@ ns_viewer:
   status: normal-form-installed-forward-gold-not-solved
   proof_role: forward_gold_terminal_source_step_primitive_square_wave_normal_form
   logical_landing_node: terminal_source_step_primitive_no_waste_profile_route
-  edge_effect: "Develops Thomas's square-wave approximation idea into the exact terminal-source normal form. If a bad unweighted selected pulse survives with positive mass and vanishing terminal first moment, its cumulative source primitive converges to a Heaviside step at the terminal time face. Fourier approximation of that step has coefficients of size 1/k and derivative square energy growing linearly with the cutoff; this is the toy Fourier form of the same source-square/unweighted critical-action bill. The note does not prove the no-waste contradiction. It identifies the proof target: after rescaling the first minimal retained pulse, show that Navier-Stokes cannot carry this positive terminal step primitive with zero first-moment input unless source-square/no-waste action is paid or the same witness exits through Pack/Part/Field."
+  edge_effect: "Develops Thomas's square-wave approximation idea into the exact terminal-source normal form. If a bad unweighted selected pulse survives with positive mass and vanishing terminal first moment, its cumulative source primitive converges to a Heaviside step at the terminal time face. Fourier approximation of that step has coefficients of size 1/k and derivative square energy growing linearly with the cutoff; this is the toy Fourier form of the same source-square/unweighted critical-action bill. The note does not prove the no-waste contradiction. It identifies the proof target: after rescaling the first minimal retained pulse, show that Navier-Stokes cannot carry this positive terminal step primitive with zero first-moment input unless source-square/no-waste action is paid or the same witness exits through Part/Field."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-cumulative-source-curve-compactness-test-20260619.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-residence-trace-ac-residual-lpas-consolidation-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-post-stirling-apportionment-attack-reduction-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-basac-local-energy-trace-no-positive-jump-reentry-20260609.md
-  downstream_consequence: "The Fourier square-wave approximation is useful as the compact-profile/no-waste normal form, not as a direct coefficient estimate. It converts the surviving heat-scale pulse into a terminal step primitive whose derivative carries unavoidable square energy. The remaining theorem is a PDE no-positive-step result on the same selected carrier, or CM Pack/Part/Field consumption after same-witness admission."
+  downstream_consequence: "The Fourier square-wave approximation is useful as the compact-profile/no-waste normal form, not as a direct coefficient estimate. It converts the surviving heat-scale pulse into a terminal step primitive whose derivative carries unavoidable square energy. The remaining theorem is a PDE no-positive-step result on the same selected carrier, or CM Part/Field consumption after same-witness admission."
 ---
 
 # MPP Forward-Gold Terminal Source Step Primitive Square-Wave Normal Form
@@ -286,7 +286,7 @@ The surviving pulse should be handled by a minimal-step argument:
 \Longrightarrow
 \text{terminal Heaviside source primitive}
 \Longrightarrow
-\text{no-positive-step/no-waste theorem or CM face exit.}
+\text{no-positive-step/no-waste theorem or CM Part/Field exit.}
 }
 \tag{SWN.24}
 ```
@@ -308,4 +308,4 @@ The square-wave approximation is useful in exactly this role:
 It does not fix the unweighted problem by adding a weight.  It tells the proof
 what the unweighted problem is: forbid a positive terminal step on the actual
 selected Navier-Stokes carrier, or charge its edge by source-square/no-waste
-action, or consume the admitted same witness through Pack/Part/Field.
+action, or consume the admitted same witness through Part/Field.

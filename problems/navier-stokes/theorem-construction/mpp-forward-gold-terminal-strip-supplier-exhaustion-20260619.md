@@ -157,7 +157,7 @@ Without the residence input, no-incoming is visibility, not exclusion.
 ## Supplier 5: CM-facing exit conversion
 
 The contrapositive route can consume a retained terminal pulse if the pulse
-lawfully fails a witness face:
+lawfully fails a witness:
 
 ```text
 Pack_Q,
@@ -168,7 +168,7 @@ Field_{N,r,Q}.
 
 This is not a forward-gold deletion of the atom.  It is a class-exit conversion.
 The conversion is valid only after the terminal pulse is admitted as a
-same-solution CM test object and one concrete face failure is derived.
+same-solution CM test object and one concrete Part/Field failure is derived.
 
 At this branch, the clean conversion target was:
 
@@ -224,7 +224,7 @@ atom has a concrete CM readout:
 
 This update does not prove `TerminalMovingPacketTraceModulus.A`.  It removes
 only the stale ambiguity in the negative branch: endpoint-modulus failure is a
-Part/Field witness-face readout after the same-solution CM admission, not an
+Part/Field witness readout after the same-solution CM admission, not an
 unclassified fourth terminal source-curve branch.
 
 ## Exhaustion conclusion

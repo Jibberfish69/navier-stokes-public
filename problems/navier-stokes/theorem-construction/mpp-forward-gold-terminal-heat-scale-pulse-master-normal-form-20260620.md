@@ -2,7 +2,7 @@
 theorem_id: forward-gold-terminal-heat-scale-pulse-master-normal-form-20260620
 status: master-normal-form-complete-forward-gold-not-solved
 logical_landing_node: terminal_heat_scale_pulse_unweighted_selected_carrier_reserve
-edge_effect: "Consolidates the endpoint UI, finite-readout visibility, projected source L2 criterion, combined Holder critical density, allocation/shadow-price, coupled mixed-tower radius, same-carrier tail UI, source-square, critical-strain, normalized CKN, coherent participation square, square parent-or-charge, signed donor, diffuse parent-cloud/no-null, finite-effective-branching/depth-entropy, same-shadow gauge/action, mode-lobe expansion, strict no-waste, and compact-profile branches into one exact normal form. The only forward-gold theorem left by these tests is an unweighted critical-action reserve on the actual selected positive carrier. Without that reserve, the retained pulse is a CM Pack/Part/Field readout only after same-witness CM-test admission."
+edge_effect: "Consolidates the endpoint UI, finite-readout visibility, projected source L2 criterion, combined Holder critical density, allocation/shadow-price, coupled mixed-tower radius, same-carrier tail UI, source-square, critical-strain, normalized CKN, coherent participation square, square parent-or-charge, signed donor, diffuse parent-cloud/no-null, finite-effective-branching/depth-entropy, same-shadow gauge/action, mode-lobe expansion, strict no-waste, and compact-profile branches into one exact normal form. The only forward-gold theorem left by these tests is an unweighted critical-action reserve on the actual selected positive carrier. Without that reserve, the retained pulse is a CM Part/Field readout only after same-witness CM-test admission."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-tail-ui-production-normal-form-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-strain-carrier-ui-holder-saturation-test-20260620.md
@@ -81,7 +81,7 @@ positive carrier.}
 ```
 
 Every checked route below either proves a consumer of `(THP.1)`, restates
-`(THP.1)` in another currency, or becomes a CM Pack/Part/Field readout only
+`(THP.1)` in another currency, or becomes a CM Part/Field readout only
 after same-witness CM-test admission.
 
 ## 1. Actual selected carrier
@@ -575,7 +575,7 @@ identity},\\
 
 If `(THP.27)` is proved, the terminal time-face pulse is killed by forward
 gold.  If `(THP.27)` is not proved and the retained pulse is admitted as the
-same terminal CM witness, it is not a fourth type: it is Pack/Part/Field
+same terminal CM witness, it is not a fourth type: it is Part/Field
 readout material by the existing same-witness CM admission surfaces.
 
 ## Verdict
@@ -584,4 +584,4 @@ The branch is exhausted as a family of lower-level shortcuts.  The remaining
 gold work is not to rename the pulse into another diagnostic language.  It is
 to prove a genuinely unweighted same-carrier critical-action reserve on the
 actual selected positive carrier, or to use the retained pulse only as a CM
-Pack/Part/Field face witness after same-witness admission.
+Part/Field face witness after same-witness admission.

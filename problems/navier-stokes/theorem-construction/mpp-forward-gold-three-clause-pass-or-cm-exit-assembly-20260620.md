@@ -1,8 +1,8 @@
 ---
 theorem_id: forward-gold-three-clause-pass-or-cm-exit-assembly-20260620
 status: assembly-installed-forward-gold-not-proved
-logical_landing_node: unweighted_same_carrier_reserve_or_cm_face_exit
-edge_effect: "Assembles the three same-carrier forward-gold production clauses with their already installed CM consumers. The forward-gold clauses remain unproved. After same-witness CM admission, failure of any clause is not a surviving in-class branch: endpoint UI failure gives a terminal source atom, first-created reserve failure gives retained active-height/square-reserve blowup, and no-null readout failure gives a compact positive carrier in the signed-readout kernel. Each is consumed by Pack/Part/Field face failure under the cited admission and service/readout packages."
+logical_landing_node: unweighted_same_carrier_reserve_or_cm_part_field_question_exit
+edge_effect: "Assembles the three same-carrier forward-gold production clauses with their already installed CM consumers. The forward-gold clauses remain unproved. After same-witness CM admission, failure of any clause is not a surviving in-class branch: endpoint UI failure gives a terminal source atom, first-created reserve failure gives retained active-height/square-reserve blowup, and no-null readout failure gives a compact positive carrier in the signed-readout kernel. Each is consumed by Part/Field Part/Field failure under the cited admission and service/readout packages."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-unweighted-same-carrier-reserve-production-obligation-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-ui-production-clause-recheck-20260620.md
@@ -12,7 +12,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-nonnull-same-shadow-readout-production-clause-recheck-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-positive-null-carrier-cm-face-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-identity-production-clause-recheck-20260620.md
-downstream_consequence: "The branch now has a precise two-route meaning. For forward gold, prove the same-carrier production clauses. For the CM contrapositive route, admit the retained same terminal witness and consume each failed clause by Pack/Part/Field. Do not respawn endpoint atoms, interior square pulses, or compact positive-cone kernels as independent in-class terminal branches."
+downstream_consequence: "The branch now has a precise two-route meaning. For forward gold, prove the same-carrier production clauses. For the CM contrapositive route, admit the retained same terminal witness and consume each failed clause by Part/Field. Do not respawn endpoint atoms, interior square pulses, or compact positive-cone kernels as independent in-class terminal branches."
 ---
 
 # MPP Forward-Gold Three-Clause Pass-Or-CM-Exit Assembly
@@ -31,7 +31,7 @@ and same-carrier identity rechecks:
 \boxed{
 \text{same-carrier forward-gold payment}
 \quad\text{or}\quad
-\text{same-witness CM Pack/Part/Field consumption.}
+\text{same-witness CM Part/Field consumption.}
 }
 \tag{TCE.1}
 ```
@@ -188,7 +188,7 @@ H_N(W_m)\to\infty.
 \tag{TCE.13}
 ```
 
-After same-witness CM admission, the Pack-first split consumes this branch:
+After same-witness CM admission, the Field-certification split consumes this branch:
 
 ```math
 \boxed{
@@ -312,12 +312,12 @@ Thus the route now has no extra leftover terminal branch among:
 ```
 
 They are either paid by the forward-gold production clauses or consumed by the
-CM Pack/Part/Field route after same-witness admission.
+CM Part/Field route after same-witness admission.
 
 ## Boundary
 
 This assembly does not prove the forward-gold clauses.  It also does not allow
-support-only supplier calculations to be promoted to CM face failures.
+support-only supplier calculations to be promoted to CM Part/Field failures.
 
 The lawful reading is:
 
@@ -338,7 +338,7 @@ The lawful reading is:
 With those two gates separated, the current branch is exhausted as a hidden
 terminal-pulse search.  New progress must either prove the same-carrier
 production theorem or use the admitted same-witness object in the CM
-Pack/Part/Field route.
+Part/Field route.
 
 ## Six-Audit Closeout
 
@@ -480,9 +480,9 @@ or to a genuinely new compact recurrent-profile rigidity theorem that first
 carries the same unweighted action.
 
 Sixth, the CM consumer is available only with its admission hypotheses.  The
-retained heat-scale pulse can be consumed by Pack/Part/Field after same-witness
+retained heat-scale pulse can be consumed by Part/Field after same-witness
 admission and service certification; before those hypotheses it is support or
-readout evidence, not a CM face failure.
+readout evidence, not a CM Part/Field failure.
 
 Thus the exact closeout of this branch is:
 
@@ -502,7 +502,7 @@ or
 \boxed{
 \begin{gathered}
 \text{admit the retained object as the same terminal CM witness}\\
-\text{and consume the failed clause through Pack/Part/Field.}
+\text{and consume the failed clause through Part/Field.}
 \end{gathered}
 }
 \tag{TCE.43}

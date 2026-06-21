@@ -3,7 +3,7 @@
 Date: 2026-06-19
 
 Status: direct attempt complete; forward-gold theorem not closed.  The attempt
-reduces the theorem to a scale-critical packet reserve or to CM Pack/Part/Field
+reduces the theorem to a scale-critical packet reserve or to CM Part/Field
 exit conversion of the surviving pulse.
 
 ## Target
@@ -201,7 +201,7 @@ First, a positive-radius same-fluid ancestry survives:
 
 Then the earlier positive-radius ancestry theorem applies: the pulse must pay
 through reserve, dissipation, incoming source/participation flux, legal exit, or
-a finite CM face failure.  It is not a hidden terminal atom.
+a finite CM Part/Field failure.  It is not a hidden terminal atom.
 
 Second,
 
@@ -210,7 +210,7 @@ r_m\downarrow0.
 ```
 
 Then the surviving residue has no positive-radius retained packet at the
-terminal endpoint.  In the CM witness grammar this is first a Pack-face failure:
+terminal endpoint.  In the CM witness grammar this is first a Pack-Part/Field failure:
 
 ```math
 \neg Pack_Q.
@@ -240,7 +240,7 @@ The attempt proves the sharp alternative:
 \boxed{
 TerminalMovingPacketTraceModulus.A
 \quad\text{or}\quad
-\text{retained terminal pulse becomes Pack/that face failure.}
+\text{retained terminal pulse becomes Pack/that Part/Field failure.}
 }
 ```
 
