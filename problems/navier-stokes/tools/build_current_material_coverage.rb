@@ -35,7 +35,7 @@ COVERAGE_SELF_SURFACES = %w[
 FAMILIES = [
   {
     "id" => "basac_pressure_zeno_source_residue_family",
-    "paper_representation" => "Represented by the source-wall, Zeno, signed-current/no-free-sink, retained amplitude, pressure/source-residue, and Pack-first terminal atom discussions. These notes are supplier, diagnostic, Pack-zero-radius, Part/source-residue, or retained Field/readout support according to first-face order; they do not add a fourth primitive face.",
+    "paper_representation" => "Represented by the source-wall, Zeno, signed-current/no-free-sink, retained amplitude, pressure/source-residue, and Field-certification terminal atom discussions. These notes are supplier, diagnostic, Pack-zero-radius, Part/source-residue, or retained Field/readout support according to first-face order; they do not add a fourth primitive face.",
     "files" => %w[
       theorem-construction/mpp-basac-uniform-integrability-rigid-subclass-attempt-20260517.md
       theorem-construction/mpp-pure-pressure-sustain-residue-liouville-required-20260517.md
@@ -91,7 +91,7 @@ FAMILIES = [
   },
   {
     "id" => "late_cm_direction_or_same_ledger_notes",
-    "paper_representation" => "Represented by the same-ledger rule, Clay witness entry, terminal Pack/Part/Field exhaustion, and the statement that preterminal reflection is an invalid bridge with no proof force.",
+    "paper_representation" => "Represented by the same-ledger rule, Clay witness entry, terminal Part/Field exhaustion, and the statement that preterminal reflection is an invalid bridge with no proof force.",
     "files" => %w[
       theorem-construction/mpp-clay-solution-cm-exit-inadmissibility-20260523.md
       theorem-construction/mpp-clay-admissible-breakdown-cm-lawfulness-test-20260524.md
@@ -107,7 +107,7 @@ FAMILIES = [
   },
   {
     "id" => "cm_class_law_completion_and_adversarial_audits",
-    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, source-reserve root CM face-consumption, surface-field completion audit, and the uniform two-sided obstruction lemma. The Clay-facing proof uses the pass-or-exit obstruction engine: the pass side supplies local non-vacuity by the simplest lawful smooth/Member(Q) witness, while the fail side closes only after CM-test entry and a concrete Pack/Part/Field face failure. The 2026-05-28 critical H^{1/2} route notes are represented here as conditional CM class-exit/Field landing support; they do not by themselves certify a new export theorem. Stale positive-bootstrap, positive no-exit, and forward no-free-sink objections do not become CM-merited objections unless they attack terminal CM entry, Pack/Part/Field exhaustion, or exhibit a genuine in-class nonsmooth third branch.",
+    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, source-reserve root CM Part/Field-consumption, surface-field completion audit, and the uniform two-sided obstruction lemma. The Clay-facing proof uses the pass-or-exit obstruction engine: the pass side supplies local non-vacuity by the simplest lawful smooth/Member(Q) witness, while the fail side closes only after CM-test entry and a concrete Part/Field failure. The 2026-05-28 critical H^{1/2} route notes are represented here as conditional CM class-exit/Field landing support; they do not by themselves certify a new export theorem. Stale positive-bootstrap, positive no-exit, and forward no-free-sink objections do not become CM-merited objections unless they attack terminal CM entry, Part/Field exhaustion, or exhibit a genuine in-class nonsmooth third branch.",
     "files" => %w[
       theorem-construction/mcp-mpp-ttu-a-1ddd943b9d.md
       theorem-construction/mpp-nightly-terminal-cm-witness-red-team-20260524.md
@@ -147,7 +147,7 @@ FAMILIES = [
   },
   {
     "id" => "local_energy_elliptic_formalization_support",
-    "paper_representation" => "Represented as support/diagnostic machinery under source-wall, Zeno, and surface-classification support. These files do not supply independent Pack/Part/Field authority.",
+    "paper_representation" => "Represented as support/diagnostic machinery under source-wall, Zeno, and surface-classification support. These files do not supply independent Part/Field authority.",
     "files" => %w[
       theorem-construction/mpp-elliptic-time-smearing-direct-attempt-20260517.md
       theorem-construction/mpp-local-energy-trace-anti-atom-direct-attempt-20260517.md
@@ -156,7 +156,7 @@ FAMILIES = [
   },
   {
     "id" => "r3_export_critical_wall_notes",
-    "paper_representation" => "Represented as whole-space export and critical-wall support. These notes classify R3 continuation criteria through the same Pack/Part/Field grammar, while the reader-facing periodic proof spine remains governed by the T3 terminal witness. A future R3 localization and tightness theorem is the required export bridge.",
+    "paper_representation" => "Represented as whole-space export and critical-wall support. These notes classify R3 continuation criteria through the same Part/Field grammar, while the reader-facing periodic proof spine remains governed by the T3 terminal witness. A future R3 localization and tightness theorem is the required export bridge.",
     "files" => %w[
       theorem-construction/r3-cm-contrapositive-sobolev-hs-energy-20260528.md
       theorem-construction/r3-cm-contrapositive-vorticity-bkm-strain-20260528.md
@@ -227,7 +227,7 @@ FAMILIES = [
   },
   {
     "id" => "june_2026_active_cm_completion_notes",
-    "paper_representation" => "June 2026 theorem notes are represented as the current CM inventory-gate record. They sharpen Clay counterexample exclusion, Pack_Q reader certification, retained pressure/finite-energy obstruction placement, averaged Jump_avg and receiver readout issues, RSCB/SCF_avg face landing, Field-to-Part collapse, and the no-proof-force classification of generic Pack/Part no-exit blockers. Current proof-facing use is the finite-obstruction inventory criterion: named promoted rows need same-witness CM entry plus Pack/Part/Field face certification, while generic support rows stay support-only.",
+    "paper_representation" => "June 2026 theorem notes are represented as the current CM inventory-gate record. They sharpen Clay counterexample exclusion, Pack_Q reader certification, retained pressure/finite-energy obstruction placement, averaged Jump_avg and receiver readout issues, RSCB/SCF_avg Part/Field landing, Field-to-Part collapse, and the no-proof-force classification of generic Pack/Part no-exit blockers. Current proof-facing use is the finite-obstruction inventory criterion: named promoted rows need same-witness CM entry plus Part/Field face certification, while generic support rows stay support-only.",
     "files" => %w[
       theorem-construction/mpp-nightly-20260602-clay-counterexample-exclusion-pressure-note.md
       theorem-construction/mpp-clay-counterexample-exclusion-target-correction-20260603.md
@@ -391,7 +391,7 @@ add_dynamic_family.call(
 
 add_dynamic_family.call(
   "current_executor_route_app_graph_pdf_sync_surfaces",
-  "Current executor route-sync and proof-lane files are represented as app, graph, MCP, and theorem-frontier coordination material. They may name the next CM face to attack, but theorem authority remains in the cited proof notes, direct live edge, source frontier, and Pack/Part/Field referee audit.",
+  "Current executor route-sync and proof-lane files are represented as app, graph, MCP, and theorem-frontier coordination material. They may name the next CM Part/Field to attack, but theorem authority remains in the cited proof notes, direct live edge, source frontier, and Part/Field referee audit.",
   %r{\A(?:(?:ns-completion-executor-route-sync|ns-completion-route-sync-payload)-\d{8}(?:-iteration-\d+)?\.yaml|theorem-construction/ns-completion-executor-proof-(?:blocker|frontier)-\d{8}(?:-iteration-\d+)?\.md)\z}
 )
 
@@ -415,7 +415,7 @@ add_dynamic_family.call(
 
 add_dynamic_family.call(
   "current_paper_arc_production_support",
-  "Paper-arc production runs, author packs, prompts, critic reports, verifier files, certified/integrated snapshots, and next-author targets are generated authoring support. They are intentionally classified as support residue with no independent proof authority; proof force must appear in the direct manuscript, theorem notes, source frontier, or Pack/Part/Field audit.",
+  "Paper-arc production runs, author packs, prompts, critic reports, verifier files, certified/integrated snapshots, and next-author targets are generated authoring support. They are intentionally classified as support residue with no independent proof authority; proof force must appear in the direct manuscript, theorem notes, source frontier, or Part/Field audit.",
   %r{\Asubmission-bundle/paper-arc-production-runs/}
 )
 
@@ -427,7 +427,7 @@ add_dynamic_family.call(
 
 add_dynamic_family.call(
   "current_theorem_construction_remainder",
-  "Current theorem-construction files outside the direct live authority, source-artifact set, non-Euler sweep, and forward-positive quarantine are theorem-attempt or audit remainder. They are preserved as active research support with no downstream proof force until an exact statement with hypotheses is promoted into the direct live surfaces or certified by the Pack/Part/Field referee audit.",
+  "Current theorem-construction files outside the direct live authority, source-artifact set, non-Euler sweep, and forward-positive quarantine are theorem-attempt or audit remainder. They are preserved as active research support with no downstream proof force until an exact statement with hypotheses is promoted into the direct live surfaces or certified by the Part/Field referee audit.",
   %r{\Atheorem-construction/}
 )
 

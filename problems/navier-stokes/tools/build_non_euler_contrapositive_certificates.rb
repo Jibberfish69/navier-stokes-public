@@ -13,7 +13,7 @@ EXIT_RULES = {
   "face_landing" => {
     "contrapositive_status" => "proved_cm_exit",
     "proof_rule" => "direct_face_failure",
-    "statement_template" => "SelectedFailure(surface) implies the negation of the listed CM face; since CM is Pack+Part+Field, that selected failure is a CM exit witness."
+    "statement_template" => "SelectedFailure(surface) implies the negation of the listed CM Part/Field; since CM is Pack+Part+Field, that selected failure is a CM exit witness."
   },
   "selected_failure_field_landing" => {
     "contrapositive_status" => "proved_cm_exit",
@@ -23,12 +23,12 @@ EXIT_RULES = {
   "typed_subset_landing" => {
     "contrapositive_status" => "proved_cm_exit",
     "proof_rule" => "finite_face_disjunction",
-    "statement_template" => "The surface's selected failure lies in its declared finite subset of Pack/Part/Field/Zeno channels. After the Pack-before-Part audit, any Zeno or zero-heat-time source-residue branch is Part-side when the same original-NS participation record remains, true not Pack_Q only when that record/carrier/readout is absent, and Field only after a retained positive-window readout is separately licensed."
+    "statement_template" => "The surface's selected failure lies in its declared finite subset of Part/Field/Zeno channels. After the Pack-out-of-CM audit, any Zeno or zero-heat-time source-residue branch is Part-side when the same original-NS participation record remains, true not Pack_Q only when that record/carrier/readout is absent, and Field only after a retained positive-window readout is separately licensed."
   },
   "support_quarantine" => {
     "contrapositive_status" => "proved_unlicensed_for_cm_contrapositive",
     "proof_rule" => "no_selected_cm_failure_without_bridge",
-    "statement_template" => "This surface has no licensed selected CM failure. It cannot be used in the contrapositive proof until a named theorem promotes its content into Pack, Part, or Field; Member is reached only after the triadic CM witness."
+    "statement_template" => "This surface has no licensed selected CM failure. It cannot be used in the contrapositive proof until a named theorem promotes its content into Part or Field; Member is reached only after the triadic CM witness."
   },
   "authority_carrier" => {
     "contrapositive_status" => "proved_inherited_no_new_face",
@@ -41,7 +41,7 @@ def certificate_for(entry)
   diagnostic = entry.fetch("failure_face_diagnostic")
   status = diagnostic.fetch("diagnostic_status")
   rule = EXIT_RULES.fetch(status)
-  breaks = diagnostic.fetch("cm_face_breaks")
+  breaks = diagnostic.fetch("cm_part_field_question_breaks")
 
   statement =
     case status
@@ -50,9 +50,9 @@ def certificate_for(entry)
     when "selected_failure_field_landing"
       "SelectedRetainedFailure(#{entry.fetch("path")}) => not Field_{N,r,Q}."
     when "typed_subset_landing"
-      "SelectedFailure(#{entry.fetch("path")}) => (not Pack_Q or not Part_{N,Q} or not Field_{N,r,Q})."
+      "SelectedFailure(#{entry.fetch("path")}) => (not Part_{N,Q} or not Field_{N,r,Q})."
     when "support_quarantine"
-      "NoLicensedCMFailure(#{entry.fetch("path")}) until promoted by a named Pack/Part/Field bridge."
+      "NoLicensedCMFailure(#{entry.fetch("path")}) until promoted by a named Part/Field bridge."
     when "authority_carrier"
       "NoNewFailure(#{entry.fetch("path")}); theorem content is inherited from cited authority."
     end
@@ -64,10 +64,10 @@ def certificate_for(entry)
     "contrapositive_status" => rule.fetch("contrapositive_status"),
     "proof_rule" => rule.fetch("proof_rule"),
     "selected_failure_type" => diagnostic.fetch("selected_failure_type"),
-    "cm_face_breaks" => breaks,
+    "cm_part_field_question_breaks" => breaks,
     "proof_statement" => statement,
     "proof_explanation" => if status == "face_landing" && breaks.include?("Pack_Q")
-      "SelectedFailure(surface) negates Pack_Q only through the row's selected Pack mechanism: #{diagnostic.fetch("selected_failure_type")}. This is a carrier/window/readout/admission failure, not a pre-Pack disposal of the original NS participation law; any singular or source-residue branch with a same-solution pointwise record must be audited under Part first."
+      "SelectedFailure(surface) negates Pack_Q only through the row's selected Pack mechanism: #{diagnostic.fetch("selected_failure_type")}. This is a carrier/window/readout/admission failure, not an outside-CM packet/window disposal of the original NS participation law; any singular or source-residue branch with a same-solution pointwise record must be audited under Part first."
     else
       rule.fetch("statement_template")
     end
@@ -95,8 +95,8 @@ output = {
   "theorem" => "AllNonEulerCMContrapositiveClosure.A",
   "scope" => map.fetch("scope"),
   "claim" => {
-    "statement" => "Every indexed non-Euler Navier-Stokes row is certificate-classified for the CM contrapositive program: its selected failure proves a Pack/Part/Field exit, or the row is barred as a CM theorem source until promoted by a named bridge.",
-    "cm_packet" => "CM_{N,r,Q}=Pack_Q + Part_{N,Q} + Field_{N,r,Q}",
+    "statement" => "Every indexed non-Euler Navier-Stokes row is certificate-classified for the CM contrapositive program: its selected failure proves a Part/Field exit, or the row is barred as a CM theorem source until promoted by a named bridge.",
+    "cm_packet" => "CM_{N,r,Q}:=Part_{N,Q}+Field_{N,r,Q}",
     "no_global_pack_part_retention" => map.fetch("method").fetch("no_global_pack_part_retention"),
     "zeno_rule" => map.fetch("method").fetch("zeno_rule"),
     "pack_before_part_certificate_rule" => "A certificate row may state not Pack_Q only when its selected_failure_type names a Pack mechanism such as carrier, cover, packing, retained packet admission, Pack bridge, same-fluid carrier, donor-refill, detached ancestry, no-carrier, or unbounded distortion. Zero-radius, Zeno, BASAC, or source-residue rows with same original-NS participation must be typed under Part first.",

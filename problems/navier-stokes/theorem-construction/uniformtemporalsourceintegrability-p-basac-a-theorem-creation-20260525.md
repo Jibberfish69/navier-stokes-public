@@ -47,11 +47,11 @@ UniformTemporalSourceIntegrability_p_BASAC.A. This is a quarantined downstream n
 - B_ASAC reverse-holder rigid-subclass Liouville note
 - terminal Holder shrinking-window estimate
 - HeightFluxControl.A. Turn the remaining positive source-reserve birth charge into the first proof-facing sampling theorem: a first large retained height-flux event must create Pack gain, Part/dwell failure, legal Field source charge, or a Zeno terminal residue atom. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive HeightFluxControl.A exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
-- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for original participation law status, giving not Part_{N,Q} when same-solution participation remains and true not Pack_Q only when the participation record is absent. This is a CM face-reduction theorem, not a forward no-free-sink supplier discharge.
+- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for original participation law status, giving not Part_{N,Q} when same-solution participation remains and true not Pack_Q only when the participation record is absent. This is a CM Part/Field-reduction theorem, not a forward no-free-sink supplier discharge.
 - theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
 - Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-- - Before any answer to a CM contrapositive request, classify the bad object as Pack-first
+- - Before any answer to a CM contrapositive request, classify the bad object as Field-certification
 - Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - CFI.A. OFP.A together with CFI.B1 and CFI.B2 yields the retained conditional field-integrability package, while End_NS, Field readout, and Member remain downstream consequences.
 - TemporalNonAtomicSource.A. Every terminal source-residue measure produced by the accepted Zeno compactness extraction is non-atomic at the terminal time slice.
@@ -70,7 +70,7 @@ UniformTemporalSourceIntegrability_p_BASAC.A. This is a quarantined downstream n
 1. Reject temporal non-atomicity as the target: it is downstream of the super-L^1 estimate, not a proof of it.
 2. Use the B_ASAC reverse-holder rigid-subclass Liouville note to isolate the valid conditional closure.
 3. Record B_ASAC^RH(p) production as quarantined downstream support, not as a terminal Zeno CM obligation.
-4. Keep the whole branch supplier-quarantined for the CM route unless a Pack/Part/Field bridge license is separately proved.
+4. Keep the whole branch supplier-quarantined for the CM route unless a Part/Field bridge license is separately proved.
 5. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
 ## Circularity Audit

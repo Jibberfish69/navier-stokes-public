@@ -46,7 +46,7 @@ UniformTemporalSourceIntegrability_p_BASAC.A. This is the super-L^1 temporal thi
 - ZenoResidueLiouville_{B_ASAC^RH(p)}.A
 - B_ASAC reverse-holder rigid-subclass Liouville note
 - terminal Holder shrinking-window estimate
-- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-before-Part audit.
+- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-out-of-CM audit.
 - ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing controlled by weighted adjoint residual mass. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
@@ -70,7 +70,7 @@ UniformTemporalSourceIntegrability_p_BASAC.A. This is the super-L^1 temporal thi
 1. Reject temporal non-atomicity as the target: it is downstream of the super-L^1 estimate, not a proof of it.
 2. Use the B_ASAC reverse-holder rigid-subclass Liouville note to isolate the valid conditional closure.
 3. Record the remaining burden as production of B_ASAC^RH(p) from the installed B_ASAC clauses.
-4. Keep the whole branch supplier-quarantined for the CM route unless a Pack/Part/Field bridge license is separately proved.
+4. Keep the whole branch supplier-quarantined for the CM route unless a Part/Field bridge license is separately proved.
 5. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
 ## Circularity Audit
