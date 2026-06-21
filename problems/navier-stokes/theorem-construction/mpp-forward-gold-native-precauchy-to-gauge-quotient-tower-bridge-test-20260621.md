@@ -1,8 +1,8 @@
 ---
 theorem_id: forward-gold-native-precauchy-to-gauge-quotient-tower-bridge-test-20260621
-status: direct-bridge-fails-exact-supplement-criteria-installed-production-open
+status: direct-bridge-fails-exact-supplement-criteria-installed-no-residue-skew-added
 logical_landing_node: native_precauchy_to_gauge_quotient_tower_bridge_test
-edge_effect: "Tests the newly exposed bridge from the native positive pre-Cauchy/source selector to the gauge-quotient finite tower carrier. The direct bridge fails: the main native carrier is trilinear, of the form chi |W|^2 [e.Sigma.e]_+, while the quotient tower/parabolic drain is quadratic. A scaling countertest gives source/drain ratio proportional to amplitude, so no amplitude-free domination by D_Q^w can hold. The bridge closes only with an additional same-carrier supplement. The finite-order amplitude/Field supplement is proved. The source-square/no-waste, critical-density/CKN, signed-polar saturation, rigid source-residue, and full pre-Cauchy remainder reduction supplements are assembled as exact criteria. Production remains open at same-carrier identity, coefficient overrun/tail depletion, missing unweighted square/no-waste budget, missing unweighted critical-density/CKN budget, production of dN_miss=0 or a legal/charged polar defect, MinimalZenoProfileProduction.A, or NoFreeTerminalZenoDonorChain.A."
+edge_effect: "Tests the newly exposed bridge from the native positive pre-Cauchy/source selector to the gauge-quotient finite tower carrier. The direct bridge fails: the main native carrier is trilinear, of the form chi |W|^2 [e.Sigma.e]_+, while the quotient tower/parabolic drain is quadratic. A scaling countertest gives source/drain ratio proportional to amplitude, so no amplitude-free domination by D_Q^w can hold. The bridge closes only with an additional same-carrier supplement. The finite-order amplitude/Field supplement is proved. The source-square/no-waste, pressure-adapted no-residue skew, critical-density/CKN, signed-polar saturation, rigid source-residue, and full pre-Cauchy remainder reduction supplements are assembled as exact criteria. Production remains open at same-carrier identity, coefficient overrun/tail depletion, missing unweighted square/no-waste budget, missing no-residue pressure-adapted commutator payment, missing unweighted critical-density/CKN budget, production of dN_miss=0 or a legal/charged polar defect, MinimalZenoProfileProduction.A, or NoFreeTerminalZenoDonorChain.A."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-gauge-quotient-tower-carrier-drain-production-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-precauchy-main-carrier-consumer-boundary-20260621.md
@@ -11,6 +11,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-local-positive-selection-signed-current-gap-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-field-amplitude-to-quotient-tower-supplement-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-density-ckn-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-polar-saturation-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-rigid-source-residue-fourbody-supplement-criterion-20260621.md
@@ -283,7 +284,83 @@ This supplement is now assembled in
 The unproved production inputs are exactly same-carrier identity, selected
 coefficient-overrun payment, and the unweighted square/no-waste budget.
 
-### 3.4. Signed polar saturation
+### 3.4. Pressure-adapted no-residue skew control
+
+The source-square residual is created when the localized commutator is
+estimated by size.  A sharper same-carrier supplement is to choose a
+pressure-adapted incompressible selector
+
+```math
+A_\sigma=S_\sigma P,
+\qquad
+W_\sigma=A_\sigma u,
+\tag{NQB.17a}
+```
+
+and write the selected nonlinear interaction as
+
+```math
+\mathcal M_\sigma
+=
+\langle A_\sigma((u\cdot\nabla)u),W_\sigma\rangle.
+\tag{NQB.17b}
+```
+
+The exact skew decomposition is
+
+```math
+\mathcal M_\sigma
+=
+\langle u\cdot\nabla W_\sigma,W_\sigma\rangle
++
+\langle[A_\sigma,u\cdot\nabla]u,W_\sigma\rangle.
+\tag{NQB.17c}
+```
+
+The first term vanishes by incompressibility in the closed selected pairing.
+Thus
+
+```math
+\mathcal M_\sigma
+=
+\mathcal C_\sigma,
+\qquad
+\mathcal C_\sigma
+=
+\langle[A_\sigma,u\cdot\nabla]u,W_\sigma\rangle.
+\tag{NQB.17d}
+```
+
+The no-residue supplement asserts
+
+```math
+\boxed{
+[\mathcal C_\sigma]_{\mathcal S,+}
+\le
+\varepsilon\nu D_\sigma
+-\partial_\sigma\Phi_\sigma
++
+T_\sigma
++
+R_{\rm legal}(\sigma),
+}
+\tag{NQB.17e}
+```
+
+with \(T_\sigma,R_{\rm legal}\in L^1_\sigma\), \(\Phi_\sigma\) bounded below,
+and no \(C_\varepsilon\Theta_\sigma^2E_\sigma\) term.
+
+If the native positive carrier is identified with
+\([\mathcal C_\sigma]_{\mathcal S,+}\), `(NQB.17e)` gives the unweighted
+reserve after absorbing \(\varepsilon\nu D_\sigma\) and adding \(\Phi_\sigma\)
+to the four-body storage.
+
+This supplement is now assembled in
+`mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md`.
+The unproved production inputs are exact same-carrier pressure-adapted selector
+custody, selected commutator identification, and no-residue commutator payment.
+
+### 3.5. Signed polar saturation
 
 If the selected positive carrier keeps its signed negative partner, then the
 positive part is paid by the signed Body-II current, true loss, positive
@@ -320,7 +397,7 @@ dN_{\rm miss}\le dR_{\rm legal}+dK_{\rm charged},
 
 for the actual localized rescaled Navier-Stokes tower after packet selection.
 
-### 3.5. Rigid source-residue production
+### 3.6. Rigid source-residue production
 
 If an infinite terminal source-residue chain produces a rigid Zeno profile
 whose Liouville theorem kills the native positive residue, the bridge closes
@@ -413,6 +490,7 @@ The exact surviving bridge is:
 \text{bounded same-carrier amplitude/Field supplement}
 \ \text{or critical density}
 \ \text{or source-square/no-waste}
+\ \text{or pressure-adapted no-residue skew}
 \ \text{or signed saturation}
 \ \text{or rigid profile production}.
 \end{aligned}
@@ -421,16 +499,19 @@ The exact surviving bridge is:
 ```
 
 After the amplitude, source-square/no-waste, critical-density/CKN,
-signed-polar saturation, rigid source-residue, and full pre-Cauchy remainder
-reduction supplement notes, the
+pressure-adapted no-residue skew, signed-polar saturation, rigid source-residue,
+and full pre-Cauchy remainder reduction supplement notes, the
 unresolved gold-production suppliers inside `(NQB.23)` are same-carrier
 square/no-waste budget,
+same-carrier pressure-adapted no-residue commutator payment,
 same-carrier critical-density/CKN budget, production of `(NQB.18a)`, rigid
 profile production through `MinimalZenoProfileProduction.A`, or full
 pre-Cauchy terminal Zeno payment through `NoFreeTerminalZenoDonorChain.A`.  The
 source-square/no-waste route is still open exactly at
 same-carrier identity, coefficient-overrun, or missing unweighted-budget
-production.  The critical-density/CKN route is still open exactly at
+production; the no-residue skew route is still open exactly at pressure-adapted
+selector custody, selected commutator identification, and no-residue
+commutator payment.  The critical-density/CKN route is still open exactly at
 same-carrier critical-density identity, missing unweighted selected
 \(L^{5/2}\)-strain or normalized CKN budget, and same-layer overrun tail
 depletion.  The signed-polar route is still open exactly at same-carrier
