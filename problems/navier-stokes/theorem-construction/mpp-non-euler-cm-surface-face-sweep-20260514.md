@@ -301,7 +301,7 @@ with fixed-nu Euler transfer entries removed. It is a theorem-packet subcase of
 | 9 | `tps-coarse-flow-pair-gap-theorem-candidate.md` | downstream candidate; not CM |
 | 10 | `mpp-terminal-class-membership-six-burden-closure-note.md` | CM participation-field record: `LCI.A/FCI.5f/OFP.A/CFI.A/End_NS`; closes through Part/Field endpoint package under named hypotheses |
 | 11 | `mpp-class-membership-contradiction-frontier-packet.md` | route context; first failure language only |
-| 12 | `mpp-class-membership-forward-invariance-theorem-program.md` | membership bridge; consumes Pack+Part+Field to `Member`, not a separate face |
+| 12 | `mpp-class-membership-forward-invariance-theorem-program.md` | membership bridge; consumes Part+Field to `Member`, not a separate face |
 | 13 | `mpp-one-field-forward-preservation-theorem-program.md` | `Field` support; failure is one-field coherence failure |
 | 14 | `mpp-lower-carrier-interval-integrability-theorem-program.md` | receiver/collar support into `Field` |
 | 15 | `mpp-lci-a-enlarged-ball-oscillation-closure-note.md` | LCI supplier; subordinate to `Field` receiver chain |
@@ -326,7 +326,7 @@ with fixed-nu Euler transfer entries removed. It is a theorem-packet subcase of
 | 34 | `mpp-independent-math-verification-audit.md` | audit only |
 | 35 | `mpp-pctp-hard-governance-consumption-audit-note.md` | supplier/readout only |
 | 36 | `mcp-canonical-pctp-hard-bridge-from-averaged-terminal-tail-route-cfi-a-1500f83b37.md` | downstream readout: averaged Field/readout to endpoint |
-| 37 | `mpp-pctp-hard-matrix-readable-discharge.md` | downstream readout: `CM_avg=Pack+Part+Field_avg`, then readout to `Field` |
+| 37 | `mpp-pctp-hard-matrix-readable-discharge.md` | downstream readout: `CM_avg=Part+Field_avg`, then readout to `Field` |
 | 38 | `mpp-pctp-hard-terminal-tail-uniformization-assembly.md` | downstream readout: averaged-to-pointwise Field/readout |
 | 39 | `mcp-pctp-hard-discharge-via-averaged-terminal-tail-uniformization-avg-end-a-a92107787f.md` | downstream readout; not CM primitive |
 | 40 | `mcp-pctp-hard-averaged-assembly-through-read-end.md` | downstream `READ.END`; not CM primitive |

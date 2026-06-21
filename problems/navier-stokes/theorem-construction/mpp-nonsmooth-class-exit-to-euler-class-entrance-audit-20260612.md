@@ -219,12 +219,12 @@ This table follows every record in
 | `raw_terminal_source_residue_pack_or_part_exit` | `not Pack_Q` or `Pack_Q + not Part` | raw source or pressure-source residue | This is not clean Euler entrance while the residue remains. It enters the Euler boundary only after no-residue compactness or a named defect-boundary/Liouville cleanup. |
 | `pressure_viscosity_or_dwell_part_exit` | `not Part_{N,Q}` | carrier survives, same pressure-viscosity tower/dwell/source participation fails | Direct crossing candidate. When the same transport-pressure object satisfies `EVol+EMom`, this is exactly NS class-exit by loss of viscous participation and Euler class-entrance. |
 | `retained_positive_window_blowup_field_exit` | `Pack_Q + Part_{N,Q} + forall r>0 not Field` | Pack and Part survive; every positive scale loses coherent field/readout | Direct Field crossing. Euler reads the same event as `Member_E` plus failure of optional `EReg/EField`, provided `EVol+EMom` is preserved. |
-| `retained_native_source_residue_field_diagnostic` | conditional Field diagnostic | native residue already converted into lawful participating source/readout object | Conditional crossing only after participation license. Raw residue remains Pack/Part, not Euler entrance. |
+| `retained_native_source_residue_field_diagnostic` | conditional Field diagnostic | native residue already converted into lawful participating source/readout object | Conditional crossing only after participation license. Raw residue remains Part/Field, not Euler entrance. |
 | `retained_positive_scale_native_reserve_birth` | unresolved/support | positive-scale reserve surplus | No independent crossing yet. It must be paid on the same ledger or derived into Part/Field. |
 | `active_height_low_strain_typed_disjunction` | finite typed disjunction | carrier failures, dwell/participation failures, licensed Field/Zeno subcases | Crossing applies only in the certified Part and Field subcases. Hidden signed-pair support is not class entrance. |
 | `signed_current_no_free_sink_family` | no independent face | signed-current/no-free-sink support | No direct crossing. It can feed a crossing only after a named theorem routes it to Part/Field. |
-| `endpoint_good_scale_no_pulse_readout` | support or Field after Pack+Part | downstream readout/good-scale/no-pulse branch | GoodScale failure becomes a Field crossing after retained Pack+Part. Before that, the row is support. |
-| `terminal_l3_duhamel_mass_same_witness_cm_part_field_question` | Pack/Part, or Field under retained Pack+Part | same-witness terminal L3 Duhamel mass | Installed CM Part/Field. Its retained Pack+Part critical branch is a Field crossing candidate after same-ledger/no-residue conditions; generic public-critical translators remain support. |
+| `endpoint_good_scale_no_pulse_readout` | support or Field after Part plus Field-window evidence | downstream readout/good-scale/no-pulse branch | GoodScale failure becomes a Field crossing after retained Part plus Field-window evidence. Before that, the row is support. |
+| `terminal_l3_duhamel_mass_same_witness_cm_part_field_question` | Part/Field, or Field under retained Part plus Field-window evidence | same-witness terminal L3 Duhamel mass | Installed CM Part/Field. Its retained Part plus Field-window evidence critical branch is a Field crossing candidate after same-ledger/no-residue conditions; generic public-critical translators remain support. |
 | `local_critical_translator_same_witness` | no independent face until same-atlas localization | generic public critical concentration | Not yet crossing. It becomes a Field crossing only after same-atlas localization and Field incompatibility are proved. |
 | `transfer_and_mirror_comparison` | no independent face | comparison branch | No direct NS CM Part/Field. It requires exact transfer to a selected NS packet with Part/Field decision. |
 
@@ -484,7 +484,7 @@ terminal source-pulse used as genuine nonsmooth occurrence
 
 It finds Pack on the packing-detached alternative, says direct Part is not
 installed from source mass alone, and says Field closes on jump manifestation
-under retained Pack+Part.
+under retained Part plus Field-window evidence.
 
 Source:
 `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-sourcepulse-cmexit-three-face-execution-note.md:1`.
@@ -515,7 +515,7 @@ terminal L3 Duhamel response mass
   => not Pack or not Part or Legal.
 ```
 
-Under retained Pack+Part, it feeds the retained public translator Field exit.
+Under retained Part plus Field-window evidence, it feeds the retained public translator Field exit.
 
 Source:
 `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-terminal-l3-duhamel-mass-cm-face-correction-20260523.md:21`.

@@ -188,7 +188,7 @@ The bridge only proves the CM-facing implication:
 \neg_{sel}ScaleCriticalTreeCarleson.A
 \Longrightarrow
 \neg Field
-\quad\text{under retained }Pack+Part.
+\quad\text{under retained }Part plus Field-window evidence.
 ```
 
 Thus the architecture is repaired: a surviving native residue is routed as a typed Field witness through the installed scale-critical Carleson failure diagnostic.

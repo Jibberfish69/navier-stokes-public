@@ -84,7 +84,7 @@ scale. Using it here would assume the missing continuation theorem.
 
 ### 4. Reserve-birth charge
 
-The Pack-side source-wall reduction already identified the missing payment:
+The Field-window support source-wall reduction already identified the missing payment:
 
 ```text
 RetainedPositiveScaleNativeReserveBirthCharge.A
@@ -109,7 +109,7 @@ The next concrete theorem is:
 RetainedPositiveScaleNativeReserveBirthCharge_{B_ASAC-strain}.A
 ```
 
-or the equivalent Pack-side statement:
+or the equivalent Field-window support statement:
 
 ```text
 TerminalReserveFirstAppearanceCharge.A

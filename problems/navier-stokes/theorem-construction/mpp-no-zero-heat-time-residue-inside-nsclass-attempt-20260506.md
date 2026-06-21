@@ -136,7 +136,7 @@ spread of an `L^1_t` source concentration at the terminal slice.
 The post-ASAC route has already spent:
 
 ```text
-Pack/Part participation for response-side drains,
+Part/Field participation for response-side drains,
 ASAC.A for active alignment,
 PositivePairWeightDefectCharge.A for one-sided pair-weight mismatch,
 LocalDonorBalance.A + EntranceLeafDecay.A for non-Zeno donor trees.

@@ -83,7 +83,7 @@ terminal behavior of a hypothetical Clay counterexample.
 
 ### 1. Field-window branch
 
-If the first genuine exit is Pack-side, the installed Pack placement is:
+If the first genuine exit is Field-window support, the installed Pack placement is:
 
 ```text
 not ScaleCriticalTreeCarleson.A => not Pack_Q.

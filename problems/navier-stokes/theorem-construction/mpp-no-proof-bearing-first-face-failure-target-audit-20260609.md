@@ -115,7 +115,7 @@ as the parent public question, but the executable theorem target must be:
 FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A.
 ```
 
-The current Pack-side child is still:
+The current Field-window support child is still:
 
 ```text
 OriginalSmoothData => ScaleCriticalTreeCarleson.A

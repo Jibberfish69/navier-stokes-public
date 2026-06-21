@@ -24,7 +24,7 @@ NoGenuineCMExit.A
 \text{ is not discharged by the current reserve notes.}
 ```
 
-The attempted parallel tail-square closure does not prove the Pack-side source
+The attempted parallel tail-square closure does not prove the Field-window support source
 reserve required by `ScaleCriticalTreeCarleson.A`.
 
 ## Governing target
@@ -52,7 +52,7 @@ NoGenuineCMExit.A
 => ScaleCriticalTreeCarleson.A or an equivalent source-reserve birth charge.
 ```
 
-Raw terminal native source residue is already sorted as a Pack/Part witness by
+Raw terminal native source residue is already sorted as a Part/Field witness by
 `TerminalSourceResidueCMExit.A`; it is not a Field anti-atom deletion burden.
 
 ## Parallel route audited
@@ -196,7 +196,7 @@ where the native charge must land in one of the CM witnesses:
 Pack-gain / packing detachment,
 Part participation failure,
 licensed Field source charge,
-or a terminal Zeno residue already sorted as Pack/Part exit.
+or a terminal Zeno residue already sorted as Part/Field exit.
 ```
 
 This is the same hard atom previously named through
@@ -232,7 +232,7 @@ mpp-terminal-cm-no-exit-full-agency-proof-audit-20260523.md
 
 That audit keeps `TerminalCMNoExit.FaceReduction.A` as a valid face reduction
 and keeps Part and Field no-exit open from original smooth data.  Its
-fresh `ScaleCriticalTreeCarleson.A` creation readback also keeps the Pack-side
+fresh `ScaleCriticalTreeCarleson.A` creation readback also keeps the Field-window support
 reserve route open at:
 
 ```text
@@ -248,5 +248,5 @@ Until that bridge is proved, the correct status is:
 
 ```math
 TerminalCMNoExit.A / NoGenuineCMExit.A
-\text{ remains open exactly at the Pack-side source-reserve birth charge.}
+\text{ remains open exactly at the Field-window support source-reserve birth charge.}
 ```

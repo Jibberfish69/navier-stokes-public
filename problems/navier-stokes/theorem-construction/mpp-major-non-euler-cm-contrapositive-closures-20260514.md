@@ -155,7 +155,7 @@ Thus:
 Interpretation against the CM Part/Fields:
 
 ```text
-not PackGainLedger.A   -> Pack-side extension failure;
+not PackGainLedger.A   -> Field-window support extension failure;
 not PartEnvelope.A     -> Part participation/envelope failure;
 residual source wall   -> Carleson/Zeno Field diagnostic.
 ```
@@ -448,9 +448,9 @@ In particular:
 ```text
 Carleson selected source-reserve failure -> Field after Pack and Part survive.
 Zeno selected terminal atom              -> Field after Pack and Part survive.
-Retained amplitude failure               -> Pack/Part, or returns to source-wall Field.
+Retained amplitude failure               -> Part/Field, or returns to source-wall Field.
 Height/low-strain failure                -> Part/Field/Zeno typed subcase.
-Signed-current failure                   -> no new face; returns to Pack/Part or source-wall Field.
+Signed-current failure                   -> no new face; returns to Part/Field or source-wall Field.
 Square-reserve failure                   -> no new face; retained failure is Carleson Field.
 Good-scale/readout failure               -> downstream Field/readout support.
 PCTP/source/no-jump family               -> supplier/readout quarantine.

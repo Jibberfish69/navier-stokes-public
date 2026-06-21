@@ -26,7 +26,7 @@ The action is deliberately narrow. It checks whether the current authorial/PDF g
 
 ## Pressure Test
 
-The live authority edge states that the Clay-facing CM chain is installed on the active torus-first surface: a finite Clay breakdown witness enters the same-fluid terminal CM participation-field tree, its finite failure type is exhausted as `not Pack_Q`, `not Part_{N,Q}`, or `forall r>0 not Field_{N,r,Q}`, and that derived Part/Field failure supports `Exit(Q):=not Member(Q)`.
+The live authority edge states that the Clay-facing CM chain is installed on the active torus-first surface: a finite Clay breakdown witness enters the same-fluid terminal CM participation-field tree, its finite failure type is exhausted as `not Part_{N,Q}` or `forall r>0 not Field_{N,r,Q}`, and that derived Part/Field failure supports `Exit(Q):=not Member(Q)`.
 
 The May 26 PDF crank raises three authorial gaps:
 
