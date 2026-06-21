@@ -243,7 +243,7 @@ chunk:
       +R^{legal}.
       \]
 
-      G N is the native low-strain/high-packet contraction; R hh/src is the high-high or donor- reserve channel, hence selected Pack-side/source-wall failure if it carries the lower bound without payment; R legal is cutoff, collar, projection, pressure, or off-family leakage, hence a paid Pack/Part/legal exit if it carries the lower bound; R orth L3 is the remaining response-visible but native-orthogonal component: the projected heat-Leray covector sees source work not yet identified with the same-time native high-low energy edge.
+      G N is the native low-strain/high-packet contraction; R hh/src is the high-high or donor- reserve channel, hence selected Pack-side/source-wall failure if it carries the lower bound without payment; R legal is cutoff, collar, projection, pressure, or off-family leakage, hence a paid Part/legal exit if it carries the lower bound; R orth L3 is the remaining response-visible but native-orthogonal component: the projected heat-Leray covector sees source work not yet identified with the same-time native high-low energy edge.
 
       Thus anchoring is equivalent to proving that R orth L3 cannot carry the retained lower bound.
 
@@ -263,7 +263,7 @@ chunk:
 
       This is not a sign failure. The sign lemma is already closed after G N>=c. It is not the closed B ASAC terminal target. It is the missing theorem that prevents a free heat-Leray terminal response covector from carrying source work off the same-time native energy edge.
 
-      Proof. If W >=c 0, decompose it as G N+R orth L3 +R hh/src +R legal . If R legal carries fixed mass, the branch has paid Pack/Part/legal exit. If R hh/src carries fixed mass, the branch has selected Pack-side/source-wall failure. If R orth L3 carries fixed mass, L3Adjoint Native Orthogonal NoCarry.A sends it to the same exit alternatives. On the retained branch with those alternatives removed, the only remaining carrier is G N,
+      Proof. If W >=c 0, decompose it as G N+R orth L3 +R hh/src +R legal . If R legal carries fixed mass, the branch has paid Part/legal exit. If R hh/src carries fixed mass, the branch has selected Pack-side/source-wall failure. If R orth L3 carries fixed mass, L3Adjoint Native Orthogonal NoCarry.A sends it to the same exit alternatives. On the retained branch with those alternatives removed, the only remaining carrier is G N,
       % ... source excerpt truncated for packet size ...
     truncated: true
   - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
@@ -278,7 +278,7 @@ chunk:
     include_end_anchor: false
     group_id: cm-audits-and-closure
     text: "\\subsection{Clay problem L3Adjoint Native Orthogonal NoCarry.A Proof}\n\nEquivalently,
-      after selected Pack-side/source-wall work and paid Pack/Part/legal leakage are
+      after selected Pack-side/source-wall work and paid Part/legal leakage are
       removed, the response-visible native-orthogonal component cannot carry a fixed
       lower bound. Hence the same-witness response work anchors to the native high-low
       source edge.\n\nThe terminal L 3 dual test m = |w m|w m 1 Q m selected by the
@@ -292,7 +292,7 @@ chunk:
       a_P\\ge 0.\n\\]\n\nHere w P is the selected high packet on the same witness.
       If err P carries a fixed part of the response work, then the terminal test has
       left the retained packet frame: this is either cutoff/collar/projection leakage,
-      hence paid Pack/Part/legal exit, or high-high/off-family refill, hence selected
+      hence paid Part/legal exit, or high-high/off-family refill, hence selected
       Pack-side/source-wall failure. On the retained branch with those alternatives
       removed, the terminal covector is pinned to the native high packet frame.\n\n\\[\n\\Phi(s)=e^{(t_+-s)\\nu\\Delta}P\\psi.\n\\]\n\nOn
       each retained divergence-free shell packet, the heat factor is scalar and the
@@ -334,7 +334,7 @@ chunk:
       0,\n\\]\n\nThe high-high/source term and the legal term are already classified.
       The orthogonal term is exactly the pairing of the low-high source with P native,
       w j j. By L3Forward Backward Native Frame Pinning.A, that term cannot carry
-      fixed retained lower bound except by selected source-wall failure or paid Pack/Part/legal
+      fixed retained lower bound except by selected source-wall failure or paid Part/legal
       exit. So, on the retained branch, only G N remains to carry the lower bound.
       This proves L3Adjoint Native Orthogonal NoCarry.A.\n\nIt asks for a source-time
       frame pinning theorem between the backward free heat-Leray adjoint packet and
@@ -356,7 +356,7 @@ chunk:
     text: |
       \subsection{Clay problem L3Terminal Signed Partner NoFree Defect.A Proof}
 
-      where j is the retained same-family signed partner defect left after one-sided terminal selection, except as selected Pack-side/source-wall failure or paid Pack/Part/legal exit.
+      where j is the retained same-family signed partner defect left after one-sided terminal selection, except as selected Pack-side/source-wall failure or paid Part/legal exit.
 
       \[
       -\int (w_j\otimes\delta_j):\nabla S^{loc}_{<j}u=o(1).
@@ -375,11 +375,11 @@ chunk:
       =-\int (w_j\otimes\delta_j):\nabla S^{loc}_{<j}u.
       \]
 
-      The direct saturation attempt already sorts every non-same-family defect: cutoff, projection, pressure, collar, boundary, and off-family pieces are paid Pack/Part/legal exits; high-high or donor- refill is selected Pack-side/source-wall failure. Thus a free defect must be same-family and must represent exactly the one-sided signed-partner loss from the terminal signed saturation notes.
+      The direct saturation attempt already sorts every non-same-family defect: cutoff, projection, pressure, collar, boundary, and off-family pieces are paid Part/legal exits; high-high or donor- refill is selected Pack-side/source-wall failure. Thus a free defect must be same-family and must represent exactly the one-sided signed-partner loss from the terminal signed saturation notes.
 
       Projected-cutoff, boundary, collar, and ordinary legal terms are already supplied. Finite donor and non-Zeno entrance trees telescope through the installed donor records. An unpaid infinite scale-critical donor-refill tree is
 
-      So every non-terminal-Zeno way for j to carry fixed work is already an allowed Pack/Part/legal or selected Pack-side/source-wall exit.
+      So every non-terminal-Zeno way for j to carry fixed work is already an allowed Part/legal or selected Pack-side/source-wall exit.
 
       The only remaining branch in the post-ASAC comparison is the no-free-sink terminal Zeno source-refill atom: a same-fluid donor sink feeds the selected terminal receiver without an earlier retained negative partner. But the May 21 terminal Zeno correction says that this endpoint has
 
@@ -610,7 +610,7 @@ chunk:
     +R^{legal}.
     \]
 
-    G N is the native low-strain/high-packet contraction; R hh/src is the high-high or donor- reserve channel, hence selected Pack-side/source-wall failure if it carries the lower bound without payment; R legal is cutoff, collar, projection, pressure, or off-family leakage, hence a paid Pack/Part/legal exit if it carries the lower bound; R orth L3 is the remaining response-visible but native-orthogonal component: the projected heat-Leray covector sees source work not yet identified with the same-time native high-low energy edge.
+    G N is the native low-strain/high-packet contraction; R hh/src is the high-high or donor- reserve channel, hence selected Pack-side/source-wall failure if it carries the lower bound without payment; R legal is cutoff, collar, projection, pressure, or off-family leakage, hence a paid Part/legal exit if it carries the lower bound; R orth L3 is the remaining response-visible but native-orthogonal component: the projected heat-Leray covector sees source work not yet identified with the same-time native high-low energy edge.
 
     Thus anchoring is equivalent to proving that R orth L3 cannot carry the retained lower bound.
 
@@ -630,17 +630,17 @@ chunk:
 
     This is not a sign failure. The sign lemma is already closed after G N>=c. It is not the closed B ASAC terminal target. It is the missing theorem that prevents a free heat-Leray terminal response covector from carrying source work off the same-time native energy edge.
 
-    Proof. If W >=c 0, decompose it as G N+R orth L3 +R hh/src +R legal . If R legal carries fixed mass, the branch has paid Pack/Part/legal exit. If R hh/src carries fixed mass, the branch has selected Pack-side/source-wall failure. If R orth L3 carries fixed mass, L3Adjoint Native Orthogonal NoCarry.A sends it to the same exit alternatives. On the retained branch with those alternatives removed, the only remaining carrier is G N, hence G N>=c 1 after the finite splitting loss. This is exactly Terminal Adjoint Response Native Edge Anchoring L3.A.
+    Proof. If W >=c 0, decompose it as G N+R orth L3 +R hh/src +R legal . If R legal carries fixed mass, the branch has paid Part/legal exit. If R hh/src carries fixed mass, the branch has selected Pack-side/source-wall failure. If R orth L3 carries fixed mass, L3Adjoint Native Orthogonal NoCarry.A sends it to the same exit alternatives. On the retained branch with those alternatives removed, the only remaining carrier is G N, hence G N>=c 1 after the finite splitting loss. This is exactly Terminal Adjoint Response Native Edge Anchoring L3.A.
 
     The requested anchoring proof cannot be completed from the current heat-Leray translator notes alone. The exact remaining theorem-facing gap is
 
-    It is narrower than the previous anchoring phrase: only the response-visible native-orthogonal component remains unclassified. All other pieces are already native source, selected Pack-side/source-wall failure, or paid Pack/Part/legal exit.
+    It is narrower than the previous anchoring phrase: only the response-visible native-orthogonal component remains unclassified. All other pieces are already native source, selected Pack-side/source-wall failure, or paid Part/legal exit.
 
 
 
     \subsection{Clay problem L3Adjoint Native Orthogonal NoCarry.A Proof}
 
-    Equivalently, after selected Pack-side/source-wall work and paid Pack/Part/legal leakage are removed, the response-visible native-orthogonal component cannot carry a fixed lower bound. Hence the same-witness response work anchors to the native high-low source edge.
+    Equivalently, after selected Pack-side/source-wall work and paid Part/legal leakage are removed, the response-visible native-orthogonal component cannot carry a fixed lower bound. Hence the same-witness response work anchors to the native high-low source edge.
 
     The terminal L 3 dual test m = |w m|w m 1 Q m selected by the response packet. Retained Pack Q and Part N,Q on the same terminal record. Existing pressure/cutoff/collar/projection legal records. The Pack-side reading of selected source-wall reserve failure from
 
@@ -670,7 +670,7 @@ chunk:
     \qquad a_P\ge 0.
     \]
 
-    Here w P is the selected high packet on the same witness. If err P carries a fixed part of the response work, then the terminal test has left the retained packet frame: this is either cutoff/collar/projection leakage, hence paid Pack/Part/legal exit, or high-high/off-family refill, hence selected Pack-side/source-wall failure. On the retained branch with those alternatives removed, the terminal covector is pinned to the native high packet frame.
+    Here w P is the selected high packet on the same witness. If err P carries a fixed part of the response work, then the terminal test has left the retained packet frame: this is either cutoff/collar/projection leakage, hence paid Part/legal exit, or high-high/off-family refill, hence selected Pack-side/source-wall failure. On the retained branch with those alternatives removed, the terminal covector is pinned to the native high packet frame.
 
     \[
     \Phi(s)=e^{(t_+-s)\nu\Delta}P\psi.
@@ -680,7 +680,7 @@ chunk:
 
     So the free heat-Leray adjoint cannot create a retained component orthogonal to the same native high packet frame. A fixed lower bound in R orth L3 must come from one of the errors just listed.
 
-    If it is carried by cutoff, collar, projection, pressure redistribution, or off-family leakage, the branch has paid Pack/Part/legal exit.
+    If it is carried by cutoff, collar, projection, pressure redistribution, or off-family leakage, the branch has paid Part/legal exit.
 
     The closed B ASAC closed terminal zero-thickness CM target stays closed, and Euler-mirror material remains quarantined.
 
@@ -730,7 +730,7 @@ chunk:
     a_P(s)\ge 0,
     \]
 
-    The high-high/source term and the legal term are already classified. The orthogonal term is exactly the pairing of the low-high source with P native, w j j. By L3Forward Backward Native Frame Pinning.A, that term cannot carry fixed retained lower bound except by selected source-wall failure or paid Pack/Part/legal exit. So, on the retained branch, only G N remains to carry the lower bound. This proves L3Adjoint Native Orthogonal NoCarry.A.
+    The high-high/source term and the legal term are already classified. The orthogonal term is exactly the pairing of the low-high source with P native, w j j. By L3Forward Backward Native Frame Pinning.A, that term cannot carry fixed retained lower bound except by selected source-wall failure or paid Part/legal exit. So, on the retained branch, only G N remains to carry the lower bound. This proves L3Adjoint Native Orthogonal NoCarry.A.
 
     It asks for a source-time frame pinning theorem between the backward free heat-Leray adjoint packet and the forward nonlinear Duhamel packet. The installed response-source tether proves terminal-slice detection for response variables; it does not supply this source-time forward/backward alignment for the public L 3 translator.
 
@@ -738,7 +738,7 @@ chunk:
 
     \subsection{Clay problem L3Terminal Signed Partner NoFree Defect.A Proof}
 
-    where j is the retained same-family signed partner defect left after one-sided terminal selection, except as selected Pack-side/source-wall failure or paid Pack/Part/legal exit.
+    where j is the retained same-family signed partner defect left after one-sided terminal selection, except as selected Pack-side/source-wall failure or paid Part/legal exit.
 
     \[
     -\int (w_j\otimes\delta_j):\nabla S^{loc}_{<j}u=o(1).
@@ -757,11 +757,11 @@ chunk:
     =-\int (w_j\otimes\delta_j):\nabla S^{loc}_{<j}u.
     \]
 
-    The direct saturation attempt already sorts every non-same-family defect: cutoff, projection, pressure, collar, boundary, and off-family pieces are paid Pack/Part/legal exits; high-high or donor- refill is selected Pack-side/source-wall failure. Thus a free defect must be same-family and must represent exactly the one-sided signed-partner loss from the terminal signed saturation notes.
+    The direct saturation attempt already sorts every non-same-family defect: cutoff, projection, pressure, collar, boundary, and off-family pieces are paid Part/legal exits; high-high or donor- refill is selected Pack-side/source-wall failure. Thus a free defect must be same-family and must represent exactly the one-sided signed-partner loss from the terminal signed saturation notes.
 
     Projected-cutoff, boundary, collar, and ordinary legal terms are already supplied. Finite donor and non-Zeno entrance trees telescope through the installed donor records. An unpaid infinite scale-critical donor-refill tree is
 
-    So every non-terminal-Zeno way for j to carry fixed work is already an allowed Pack/Part/legal or selected Pack-side/source-wall exit.
+    So every non-terminal-Zeno way for j to carry fixed work is already an allowed Part/legal or selected Pack-side/source-wall exit.
 
     The only remaining branch in the post-ASAC comparison is the no-free-sink terminal Zeno source-refill atom: a same-fluid donor sink feeds the selected terminal receiver without an earlier retained negative partner. But the May 21 terminal Zeno correction says that this endpoint has
 
@@ -820,7 +820,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

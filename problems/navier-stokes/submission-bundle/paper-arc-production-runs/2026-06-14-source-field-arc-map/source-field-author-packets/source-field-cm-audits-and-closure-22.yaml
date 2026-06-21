@@ -278,7 +278,7 @@ chunk:
     text: |+
       \subsection{Clay problem Source-Wall Positive-Supplier Audit After CM Closure}
 
-      This identifies same-witness nonlinear Duhamel work as native positive source work, or routes it to selected Pack-side/source-wall failure or paid Pack/Part/legal exit.
+      This identifies same-witness nonlinear Duhamel work as native positive source work, or routes it to selected Pack-side/source-wall failure or paid Part/legal exit.
 
       The new paraproduct closure tells us what a terminal source contribution is once it appears. In the CM route that is enough because the contribution lands as Pack/Part exit. It does not by itself prove the stronger positive statement that a zero-thickness terminal native source concentration cannot be produced.
 
@@ -675,7 +675,7 @@ chunk:
 
     \subsection{Clay problem Source-Wall Positive-Supplier Audit After CM Closure}
 
-    This identifies same-witness nonlinear Duhamel work as native positive source work, or routes it to selected Pack-side/source-wall failure or paid Pack/Part/legal exit.
+    This identifies same-witness nonlinear Duhamel work as native positive source work, or routes it to selected Pack-side/source-wall failure or paid Part/legal exit.
 
     The new paraproduct closure tells us what a terminal source contribution is once it appears. In the CM route that is enough because the contribution lands as Pack/Part exit. It does not by itself prove the stronger positive statement that a zero-thickness terminal native source concentration cannot be produced.
 
@@ -853,7 +853,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
