@@ -1,16 +1,16 @@
 ---
 ns_viewer:
   theorem_id: forward-gold-rescaled-annular-feed-two-stage-split-20260621
-  status: two-stage-split-installed-first-stage-reduced-second-stage-fallback-routed
+  status: two-stage-split-installed-language-repaired-first-stage-kept-primary
   proof_role: forward_gold_participation_split_direct_test
   logical_landing_node: rescaled_annular_feed_two_stage_split
-  edge_effect: "Separates Thomas's direct participation objection from the later underpaying-ledger diagnostic. Stage 1 asks whether a normalized bad interior pulse can keep being fed through shrinking heat-scale annuli by the same rescaled pressure-viscosity-incompressibility law forever. Stage 2 is only the fallback: if such infinite rescaled feeding is dynamically possible, prove it cannot remain invisible to every observable shell/readout ledger. Current installed inputs do not prove Stage 1; they reduce it to a no-recurrent-ancient-feed / strict rescaled Lyapunov / compact ancient rigidity theorem. Stage 2 returns to the known square/Carleson/no-waste readout wall."
+  edge_effect: "Separates Thomas's direct participation objection from the later visibility question. Stage 1 asks whether a normalized bad interior pulse can keep being fed through shrinking heat-scale annuli by the same rescaled pressure-viscosity-incompressibility law forever. Stage 2 is only the fallback: if such feeding is dynamically possible, some annular term in the same local balance must stay nonzero at the right scale. Current installed inputs do not prove Stage 1; they require an additional theorem saying the repeated rescaled feed must stop, freeze into a forbidden profile, or lose the same-law structure. Stage 2 returns to the known square/Carleson/no-waste visibility wall."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-shared-participation-heat-scale-direct-test-20260619.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-coherent-participation-square-reserve-direct-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-pressure-flux-throttle-direct-test-20260620.md
     - problems/navier-stokes/source-frontier.yaml
-  downstream_consequence: "Do not fold the direct no-infinite-feed question into shell-underpayment language. The direct theorem is RescaledSameLawNoInfiniteFeed.A. The fallback theorem is ObservableShellReadoutIfInfiniteFeed.A, which requires complete annular readout plus square/Carleson/no-waste strength on the same selected carrier."
+  downstream_consequence: "Do not fold the direct no-infinite-feed question into underpayment language. The direct theorem is RescaledSameLawNoInfiniteFeed.A. Only after that theorem fails should the fallback ask whether some annular term in the same local balance must stay nonzero at the right scale."
 ---
 
 # MPP Forward-Gold Rescaled Annular Feed Two-Stage Split
@@ -25,10 +25,11 @@ This note records and tests the sharper split:
    keep being fed through shrinking heat-scale shells by the same
    pressure-viscosity-incompressibility law forever, after rescaling each shell;
 2. only if that direct statement fails, prove that such persistent feeding
-   cannot remain invisible to every observable shell/readout ledger.
+   forces some annular term in the same local balance to stay nonzero at the
+   right scale.
 
-The second item is not part of the first theorem's premise. It is the fallback
-diagnostic after the direct coupled-law obstruction has been tested.
+The second item is not part of the first theorem's premise. It is a fallback
+visibility question after the direct coupled-law obstruction has been tested.
 
 ## 1. Heat-scale rescaled law
 
@@ -117,8 +118,8 @@ with the interior mass not vanishing:
 \tag{RAF.7}
 \]
 
-The direct target is therefore not a statement about underpaying ledgers. It is
-the following recurrence exclusion.
+The direct target is therefore not a statement about underpaying. It is the
+following direct exclusion.
 
 ## 3. Stage 1 target
 
@@ -136,8 +137,8 @@ interior pulse, and is refilled through the fixed annular interface forever.}
 \]
 
 This is the strongest version of the participation-law idea. It says the
-coupled law itself prevents infinite heat-scale recurrence before any shell
-ledger diagnostic is invoked.
+coupled law itself prevents the infinite rescaled feed before any later
+visibility question is invoked.
 
 ## 4. Direct test of Stage 1
 
@@ -164,30 +165,29 @@ nontrivial fixed annular interface:
 
 or, in logarithmic heat variables, the corresponding drifted equation `(RAF.3)`.
 
-To turn this into a contradiction, one needs one of the following non-installed
-inputs:
+To turn this into a contradiction, one needs an additional theorem saying one
+of three plain things:
 
 \[
-\text{a strict rescaled Lyapunov functional that drops by the annular action,}
+\text{there is a quantity that must strictly decrease each time the feed repeats,}
 \tag{RAF.10a}
 \]
 
 \[
-\text{a compact ancient rigidity theorem excluding nonzero recurrent
-same-law annular feed,}
+\text{the limiting repeated-feed object is impossible,}
 \tag{RAF.10b}
 \]
 
 or
 
 \[
-\text{exact Zeno profile production followed by a Liouville theorem.}
+\text{or the repeated feed freezes into a rigid profile that is already forbidden.}
 \tag{RAF.10c}
 \]
 
 These are the direct descendants of the first-stage theorem. They do not assume
-that a shell ledger underpays. They try to prove that the infinite rescaled feed
-itself cannot exist.
+that a shell underpays. They try to prove that the infinite rescaled feed itself
+cannot exist.
 
 At current input strength the direct route therefore reduces to:
 
@@ -206,36 +206,35 @@ At current input strength the direct route therefore reduces to:
 
 If Stage 1 is not proved, the fallback is a different theorem:
 
-`ObservableShellReadoutIfInfiniteFeed.A`:
+`SomeAnnularTermStaysNonzeroIfInfiniteFeed.A`:
 
 \[
 \boxed{
 \begin{gathered}
 \text{If a normalized bad interior pulse can keep being fed through shrinking
 heat-scale shells,}\\
-\text{then the full pressure-transport-viscosity package must become visible in
-some observable shell/readout ledger.}
+\text{then at least one annular term in the same local balance stays nonzero at
+the right scale.}
 \end{gathered}}
 \tag{RAF.12}
 \]
 
-This is where "underpaying" belongs. It is not the premise of Stage 1. It is the
-forbidden invisibility claim for Stage 2:
+This is where "underpaying" belongs, if that language is used at all. It is not
+the premise of Stage 1. It is only the forbidden invisibility claim for Stage 2:
 
 \[
 \text{persistent rescaled annular feed}
 \quad\text{and}\quad
-\text{all selected observable shell/readouts vanish}
+\text{all selected annular balance terms vanish at the normalized scale}
 \tag{RAF.13}
 \]
 
 should be impossible.
 
-The exact operator version is a common-kernel statement. Let \(\Gamma\) denote
-the combined same-gauge readout map containing selected source trace, pressure
-conormal trace, cutoff/collar flux, viscous shell exchange, dissipation trace,
-stress flux, endpoint mismatch, and legal-spill trace. The fallback theorem
-asks for
+The technical version is a common-kernel statement. Let \(\Gamma\) denote the
+combined same-gauge map containing selected source trace, pressure conormal
+trace, cutoff/collar flux, viscous shell exchange, dissipation trace, stress
+flux, endpoint mismatch, and legal-spill trace. The fallback theorem asks for
 
 \[
 \ker \Gamma=\{0\}
@@ -250,11 +249,11 @@ lower bound
 \tag{RAF.15}
 \]
 
-That is exactly the complete-annular-readout/coercive-observability form. It
-needs the square/Carleson/no-waste strength already isolated elsewhere:
+That is the technical form of "some annular term must stay nonzero." It needs
+the square/Carleson/no-waste strength already isolated elsewhere:
 
 \[
-\text{ObservableShellReadoutIfInfiniteFeed.A}
+\text{SomeAnnularTermStaysNonzeroIfInfiniteFeed.A}
 \Leftarrow
 \text{CompleteAnnularNoEscapeReadout.A}
 +
@@ -276,13 +275,13 @@ This note adds one missing ordering distinction:
 \[
 \text{direct no-infinite-feed}
 \quad\text{comes before}\quad
-\text{observable underpayment/readout contradiction}.
+\text{fallback visibility contradiction}.
 \tag{RAF.17}
 \]
 
-So the live proof object is not just "find a ledger that overpays." The first
-question is whether the same rescaled pressure-viscosity-incompressibility law
-can support the infinite feed at all.
+So the live proof object is not "find an overpaying ledger." The first question
+is whether the same rescaled pressure-viscosity-incompressibility law can
+support the infinite feed at all.
 
 ## Verdict
 
@@ -302,11 +301,10 @@ minimal Zeno profile production.
 Stage 2 is the fallback:
 
 \[
-\boxed{\text{ObservableShellReadoutIfInfiniteFeed.A}.}
+\boxed{\text{SomeAnnularTermStaysNonzeroIfInfiniteFeed.A}.}
 \tag{RAF.19}
 \]
 
-It is the place where underpayment/readout language belongs. It reduces to
-complete annular no-escape readout plus a square/Carleson/no-waste budget on the
-same selected carrier.
-
+It is the place where underpayment or readout language belongs, after the direct
+question has failed. It reduces to complete annular no-escape readout plus a
+square/Carleson/no-waste budget on the same selected carrier.
