@@ -146,12 +146,11 @@ The pulse must therefore be consumed by the first licensed service it breaks.
 ## 3. Pack face: no retained positive same-fluid carrier
 
 If the retained heat-scale pulse has no positive same-fluid terminal carrier
-and no meaningful same-solution pointwise participation record remains, then
+and no meaningful same-solution original participation record remains, then
 the first failure is the carrier face:
 
 ```math
-\text{retained pulse with no positive same-fluid carrier and no pointwise
-participation record}
+\text{retained pulse with no positive same-fluid carrier and no original participation record}
 \Longrightarrow
 \neg Pack_Q.
 \tag{RHP.11}
@@ -168,8 +167,7 @@ r_m\downarrow0,
 
 has to be typed before `(RHP.11)` is spent.  When that endpoint is still tied to
 the same original Navier--Stokes pressure-viscosity-source participation law, it
-is resurfaced under `Part_{N,Q}` first.  When no such same-solution pointwise
-participation record remains and the object only lacks a usable carrier/window
+is resurfaced under `Part_{N,Q}` first.  When no such same-solution original participation record remains and the object only lacks a usable carrier/window
 or readout, `(RHP.11)` is the true Pack failure.
 
 ## 4. Part face: retained carrier or resurfaced source participation
@@ -181,7 +179,7 @@ source record:
 ```math
 Pack_Q
 \quad\text{or}\quad
-\text{same-solution pointwise participation record}.
+\text{same-solution original participation record}.
 \tag{RHP.13}
 ```
 
@@ -201,7 +199,7 @@ Under `(RHP.13)`, this gives
 \left(
 Pack_Q
 \quad\text{or}\quad
-\text{same-solution pointwise participation record}
+\text{same-solution original participation record}
 \right)
 +\mathcal R_{src}
 \Longrightarrow
@@ -299,7 +297,7 @@ Equivalently, Pack-first:
 \Longrightarrow
 \begin{cases}
 \neg Pack_Q
-\quad\text{only when no pointwise participation record remains},\\
+\quad\text{only when no original participation record remains},\\
 \neg Part_{N,Q}
 \quad\text{when the source-participation record remains},\\
 Pack_Q\wedge\neg Part_{N,Q},\\

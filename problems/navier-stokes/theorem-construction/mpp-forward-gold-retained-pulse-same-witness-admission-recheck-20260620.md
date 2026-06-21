@@ -127,8 +127,7 @@ Thus:
 
 Once admitted, the pulse enters the Pack-before-Part audited service tree.
 
-If no positive same-fluid carrier and no meaningful same-solution pointwise
-participation record remain, the first failure is:
+If no positive same-fluid carrier and no meaningful same-solution original participation record remain, the first failure is:
 
 ```math
 \neg Pack_Q.

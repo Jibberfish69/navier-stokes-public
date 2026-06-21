@@ -102,7 +102,7 @@ What is already face-sorted:
 
 ```text
 selected unpaid infinite donor-refill => not Pack_Q;
-zero-radius terminal residue => Part-first when the same-solution pointwise participation record remains, and true not Pack_Q only when that record is absent.
+zero-radius terminal residue => Part-side when the same-solution original participation record remains, and true not Pack_Q only when that record is absent.
 ```
 
 What remains supplier-quarantined:

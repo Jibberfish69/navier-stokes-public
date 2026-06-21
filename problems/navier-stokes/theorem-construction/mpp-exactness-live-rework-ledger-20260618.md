@@ -9700,7 +9700,7 @@ Proof or downstream consequence:
 
 The no-`Jump_avg` branch supplies the averaged transported-center endpoint
 record.  The readout chain may then recover the repaired pointwise endpoint
-only after the averaged branch has been handled and the pointwise Part-margin
+only after the averaged branch has been handled and the original participation law-margin
 input is present.  `End_NS` now excludes
 
 \[

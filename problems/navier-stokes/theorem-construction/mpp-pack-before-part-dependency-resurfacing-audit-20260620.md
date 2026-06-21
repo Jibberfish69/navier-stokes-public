@@ -74,7 +74,7 @@ same-solution terminal witness. This audit retypes the participation side more
 strictly: the pre-Pack question is the original Navier-Stokes participation law applied to the live same-solution
 terminal object; `Part_{N,Q}` is the later localized Silver expression after a local
 tested record is named. Every pre-Pack `not Pack_Q` branch must be checked for
-pointwise original-NS participation before it is allowed to remain a Pack-only
+the original NS participation law before it is allowed to remain a Pack-only
 exit.
 
 ## Classification table
@@ -82,12 +82,12 @@ exit.
 | Branch condition | Classification |
 | --- | --- |
 | Pack has already been admitted as a legitimate window/carrier/readout/jump setting | Keep the Silver Pack/Part/Field order. |
-| Selected unpaid infinite donor-refill ancestry has no finite packet ancestry window and no same-solution terminal pointwise participation record | Keep `not Pack_Q` / `(Pack, packing-detached)` as a true ancestry/window/carrier failure. |
+| Selected unpaid infinite donor-refill ancestry has no finite packet ancestry window and no same-solution terminal original participation record | Keep `not Pack_Q` / `(Pack, packing-detached)` as a true ancestry/window/carrier failure. |
 | Raw native source residue or terminal source residue is still tied to the original NS pressure-viscosity-source participation law at a point or limiting record | Test the original Navier-Stokes participation law first; after the local tested record is named, the first Silver failure is `not Part_{N,Q}` / `(Part, Dead)`, not Pack-only. |
 | Terminal zero-radius Zeno or `B_ASAC` atom has the same original-NS terminal source/pressure-viscosity participation record | Test the original Navier-Stokes participation law first as zero heat-time participation / lawful source-participation failure; local Silver notation may then record the failure as `not Part_{N,Q}`. |
-| Terminal zero-radius Zeno or source residue has no meaningful same-solution pointwise participation record and only lacks a usable carrier/window/readout | Keep `not Pack_Q` as a true carrier/window failure. |
+| Terminal zero-radius Zeno or source residue has no meaningful same-solution original participation record and only lacks a usable carrier/window/readout | Keep `not Pack_Q` as a true carrier/window failure. |
 | R3 exterior source survivor has a same-solution exterior source-participation record | Test the original Navier-Stokes participation law first, then localize to `Part_{N,Q}` only after the tested record exists. |
-| R3 exterior source survivor has no exterior readout/carrier and no pointwise participation record that can be named | Keep true `not Pack_Q`. |
+| R3 exterior source survivor has no exterior readout/carrier and no original participation record that can be named | Keep true `not Pack_Q`. |
 | A branch compares two surviving traces, readouts, or neighboring tower records | Keep Pack/window structure for the jump/readout comparison. |
 
 ## Downstream consequence
@@ -115,7 +115,7 @@ then Part and Field are tested inside that admitted structure.
 For each resurfaced pre-Pack branch, the exact bridge is:
 
 ```text
-pointwise original-NS participation diagnosis
+the original NS participation law diagnosis
 => zero participation moment / failure of the pressure-viscosity-source participation ledger
 => failure of the original Navier-Stokes participation law on the live same-solution object
 => localized not Part_{N,Q} / (Part, Dead) when a local tested record is named,

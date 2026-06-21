@@ -41,8 +41,8 @@ The live theorem edge records the terminal Zeno correction:
 
 ```text
 finite Zeno ancestry packets may be legal positive-radius CM packets,
-but the terminal limit r_m -> 0 is typed before Pack is spent: Part-first when
-the same original-NS pointwise participation record remains, and true not Pack_Q
+but the terminal limit r_m -> 0 is typed before Pack is spent: Part-side when
+the same original-NS participation record remains, and true not Pack_Q
 only when that record/carrier/readout is absent before any retained
 Field_{N,r,Q} face can be spent.
 ```
@@ -114,7 +114,7 @@ and no preterminal `L1_s` density representing the terminal object.
 
 This is exactly the zero-radius terminal source-residue shape described by the
 installed Zeno correction in `live-theorem-edge.yaml`. The correction says the
-terminal limit `r_m -> 0` is first audited for pointwise Part status before
+terminal limit `r_m -> 0` is first audited for original participation law status before
 any retained Field face can be spent; it becomes true `not Pack_Q` only when no
 same-solution participation record survives.
 
