@@ -12,7 +12,7 @@ Let
 \mathcal W=(O_{NS}^{work},Q,N,r,\Phi,\mathcal T)
 ```
 
-be a synchronized same-fluid witness ledger with retained Pack and Part. Let
+be a synchronized same-fluid witness ledger with retained Field-window evidence and Part. Let
 
 ```math
 v=\chi_a^{\mathcal W}(t)u(t)
@@ -39,7 +39,7 @@ C\,\mathfrak C_{N(J),r_J,Q}(\mathcal W).
 
 ## Proof
 
-`Field_{N,r,Q}` is the CM Part/Field that says the retained packet has one coherent field representative through depth N at positive scale r. On a retained Pack packet, the translated samples `x` and `x+h`, with `c_A r\le |h|\le C_A r` and both points inside the localized chart, are neighboring representatives of the same material packet. On a retained Part packet, the two representatives are compared through the same Navier-Stokes pressure-viscosity law.
+`Field_{N,r,Q}` is the CM Part/Field that says the retained packet has one coherent field representative through depth N at positive scale r. On a retained Field-window evidence packet, the translated samples `x` and `x+h`, with `c_A r\le |h|\le C_A r` and both points inside the localized chart, are neighboring representatives of the same material packet. On a retained Part packet, the two representatives are compared through the same Navier-Stokes pressure-viscosity law.
 
 Thus the only quantitative content left in the Field face is the finite-difference/tower-coherence modulus: neighboring representatives at scale r must agree in L^2 up to the Field budget
 

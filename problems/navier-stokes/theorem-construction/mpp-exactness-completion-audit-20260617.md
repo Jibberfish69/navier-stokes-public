@@ -132,15 +132,15 @@ current generated count is 3043.
 - `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/clay-facing-cm-completion.yaml`: line 124
 - `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/forward-branch-treatment.yaml`: line 1401
 - `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/opening-theorem-route.yaml`: line 39
-- `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/pack-part-field-grammar.yaml`: line 348
+- `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/part-field-grammar.yaml`: line 348
 - `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/clay-facing-cm-completion.yaml`: line 167
 - `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/forward-branch-treatment.yaml`: lines 1065, 1148
 - `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/opening-theorem-route.yaml`: line 102
-- `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/pack-part-field-grammar.yaml`: lines 129, 266
+- `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/part-field-grammar.yaml`: lines 129, 266
 - `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/clay-facing-cm-completion.yaml`: line 203
 - `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/forward-branch-treatment.yaml`: lines 1179, 1262
 - `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/opening-theorem-route.yaml`: line 168
-- `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/pack-part-field-grammar.yaml`: lines 165, 302
+- `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/part-field-grammar.yaml`: lines 165, 302
 - `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-carrier-and-pack-03.yaml`: lines 548, 1042
 - `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-carrier-and-pack-08.yaml`: lines 275, 723
 - `problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-critical-norm-and-field-08.yaml`: lines 350, 685

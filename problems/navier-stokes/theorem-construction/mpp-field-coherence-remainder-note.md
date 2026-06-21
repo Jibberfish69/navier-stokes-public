@@ -56,8 +56,8 @@ Use only the already-installed one-field and class-membership surfaces.
 1. [mpp-primitive-class-laws-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-primitive-class-laws-note.md)
 2. [mpp-shared-participation-and-tower-coherence-law.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-shared-participation-and-tower-coherence-law.md)
 3. [mpp-exact-class-membership-witness-theorem.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-exact-class-membership-witness-theorem.md)
-4. [mpp-pack-part-field-route-noncollapse-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-pack-part-field-route-noncollapse-note.md)
-5. [mpp-pack-part-field-triadicity-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-pack-part-field-triadicity-audit-note.md)
+4. [mpp-part-field-route-noncollapse-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-part-field-route-noncollapse-note.md)
+5. [mpp-part-field-triadicity-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-part-field-triadicity-audit-note.md)
 
 ## Installed Bundled Definition Of `Field`
 

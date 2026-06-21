@@ -73,7 +73,7 @@ OriginalSmoothData
 ```
 
 That is a powerful positive theorem. A positive `Field` scale at depth
-`N_s`, together with retained Pack and Part, feeds the `H^s`, `s>5/2`,
+`N_s`, together with retained Field-window evidence and Part, feeds the `H^s`, `s>5/2`,
 continuation readout. Proving this directly from original data would be
 continuation-strength unless the proof supplies a new compactness mechanism
 that is strictly weaker than the final readout.
@@ -124,7 +124,7 @@ This theorem must rule out three weaker explanations:
 3. downstream endpoint-cover machinery missing before the terminal object has
    been realized.
 
-The proof should use the retained Pack carrier and retained Part tower to force
+The proof should use the retained Field-window evidence carrier and retained Part tower to force
 the all-scales Field failure to be an actual incompatibility of neighboring
 terminal traces on one participating field record.
 

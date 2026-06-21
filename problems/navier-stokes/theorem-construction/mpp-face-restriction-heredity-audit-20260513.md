@@ -49,7 +49,7 @@ Field_{N,r,Q}(\mathcal W)\Longrightarrow Field_{N,r',Q}(\mathcal W').
 
 ## Proof
 
-### Pack face
+### Field-window evidence
 
 The installed witness note defines `Pack_Q` as a retained same-fluid
 carrier with volume preservation, finite pack gauge, retained localization, and

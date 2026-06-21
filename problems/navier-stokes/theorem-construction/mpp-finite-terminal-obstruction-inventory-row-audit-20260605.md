@@ -23,7 +23,7 @@ finite terminal obstruction O
 The pass branch remains the in-class continuation branch:
 
 ```text
-retained Pack + Part + Field
+retained Field-window evidence + Part + Field
 => Member(Q)
 => H^s continuation.
 ```
@@ -73,7 +73,6 @@ The same-ledger localization theorem gives:
 ```text
 terminal L3 Duhamel response mass
 => same-ledger nonlinear source work
-   or not Pack_Q
    or not Part_{N,Q}
    or Legal.
 ```
@@ -95,11 +94,11 @@ paid Part/legal terms
 => no terminal obstruction row remains.
 ```
 
-Under retained Pack and Part, the local public-critical translator becomes the
+Under retained Field-window evidence and Part, the local public-critical translator becomes the
 Field row:
 
 ```text
-Pack_Q + Part_{N,Q} + terminal L3 critical concentration on the same ledger
+Part_{N,Q} plus Field-window evidence + terminal L3 critical concentration on the same ledger
 => forall r>0 not Field_{N,r,Q}.
 ```
 

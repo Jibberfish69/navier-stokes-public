@@ -4997,12 +4997,12 @@ Edited live surfaces:
 Old loose step:
 
 - `submission-bundle/source-field-reader-appendix.tex` and
-  `mpp-pack-part-field-ontological-collapse-question-20260517.md` still called
+  `mpp-part-field-ontological-collapse-question-20260517.md` still called
   Pack-only / Part-only / Field-only alternatives "formal rows" or "formal
   table bookkeeping." That wording left the generated truth table sounding like
   a proof object.
 - The retained-Field collapse paragraph called
-  `Pack_Q + Part_{N,Q} + receiver escape => not Field_{N,r,Q}` "weak/formal
+  `Part_{N,Q} plus Field-window evidence + receiver escape => not Field_{N,r,Q}` "weak/formal
   branch bookkeeping," instead of naming the exact branch-local role it plays.
 
 Exact replacement:
@@ -5029,7 +5029,7 @@ has proof force.
 Edited live surfaces:
 
 - `submission-bundle/source-field-reader-appendix.tex`;
-- `theorem-construction/mpp-pack-part-field-ontological-collapse-question-20260517.md`.
+- `theorem-construction/mpp-part-field-ontological-collapse-question-20260517.md`.
 
 ## Live Manuscript Standard-Step Repair
 
@@ -9204,7 +9204,7 @@ Intentionally preserved hits:
   only where the sentence is an explicit anti-shortcut guard;
 - `mpp-collar-sobolev-packet-interval-propagation-theorem-program.md`,
   `mpp-cycle-heat-action-proof-plan-after-think-again-20260505.md`,
-  `mpp-pack-part-field-ontological-collapse-question-20260517.md`,
+  `mpp-part-field-ontological-collapse-question-20260517.md`,
   `mpp-terminal-class-membership-six-burden-closure-note.md`,
   `mpp-whole-cone-wall-volume-shrink-rate-forward-positive-work-order-20260611.md`,
   and `mpp-forward-positive-cone-estimate-direct-audit-20260611.md` preserve
@@ -10667,7 +10667,7 @@ cannot be spent as the terminal participation face.
 
 Surfaces edited:
 
-- `theorem-construction/mpp-pack-part-field-triadicity-audit-note.md`;
+- `theorem-construction/mpp-part-field-triadicity-audit-note.md`;
 - `theorem-construction/mpp-shared-participation-and-tower-coherence-law.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
@@ -13138,7 +13138,7 @@ not as a heuristic expectation or a fourth primitive failure family.
 
 Surfaces edited:
 
-- `theorem-construction/mpp-pack-part-field-triadicity-audit-note.md`.
+- `theorem-construction/mpp-part-field-triadicity-audit-note.md`.
 - `submission-bundle/source-field-reader-appendix.tex`.
 
 Second downstream pass and validation:
@@ -14481,7 +14481,7 @@ Old claim being spent:
 The appendix copy of the Clay bridge contained two proof-surface breaks.  The
 Clay counterexample-exclusion bridge left a dangling sentence after "So the
 rule", and the Clay Field Failure Realization section stated "Assume" without
-displaying the retained Pack, retained terminal Part, and all-scale not-Field
+displaying the retained Field-window evidence, retained terminal Part, and all-scale not-Field
 hypotheses.  The same Field note also used "service" for a CM witness.
 
 Exact replacement:
@@ -14519,7 +14519,7 @@ Surfaces edited:
 Downstream consequence:
 
 The reader-facing appendix no longer spends an empty assumption or an implicit
-Field-to-Part step.  It states that retained Pack plus terminal Part and
+Field-to-Part step.  It states that retained Field-window evidence plus terminal Part and
 all-scale Field failure realizes a same-fluid terminal jump, and the installed
 `TerminalFieldJumpPartCollapse.A` sends that endpoint back to
 `not Part^{term}_{N,Q}`.  The authority YAMLs already record the same

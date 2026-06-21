@@ -101,7 +101,7 @@ The minimal-bubble/profile route gives local suitable terminal residue and
 cross-profile positive Pack source atoms, but the branch reduces to the same
 terminal source-residence wall, pressure/source time-face spread, or a source
 atom escape target that is only a supplier child. It does not prove the
-proof-bearing first Pack face impossible.
+proof-bearing first Field-window evidence impossible.
 
 ### Direct Clay Bridge
 
