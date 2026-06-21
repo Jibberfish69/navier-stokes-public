@@ -21,6 +21,11 @@ Date: 2026-06-21
 This note records the exact Duhamel identity that belongs to Navier-Stokes.
 It does not replace the nonlinear equation by a linear forced equation.
 
+Exactness scope. The identities below are identities for the smooth
+preterminal rescaled Navier-Stokes sequence \(v_j\). Passing any term to a
+terminal weak or profile limit is a separate compactness/convergence theorem;
+it is not supplied by this Duhamel identity itself.
+
 The point is narrow:
 
 \[
