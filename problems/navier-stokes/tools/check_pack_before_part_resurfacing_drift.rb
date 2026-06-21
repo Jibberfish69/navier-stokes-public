@@ -63,7 +63,7 @@ FORBIDDEN = {
   "Pack in CM object definition" => /CM_\{N,r,Q\}\s*:?=\s*Pack_Q/,
   "Pack in prose CM object definition" => /\bCM\s+is\s+Pack\+Part\+Field\b/,
   "Pack in causal CM exit definition" => /\bsince CM is Pack\+Part\+Field\b/,
-  "not-Pack promoted to CM exit" => /^(?!.*(?:Do not|do not|cannot|forbidden|without spending)).*not Pack_Q.*(?:not CM|CM exit|Exit\(Q|class-exit|class exit)/,
+  "not-Pack promoted to CM exit" => /^(?!.*(?:Do not|do not|cannot|forbidden|without spending|used as|Before using)).*not Pack_Q.*(?:not CM|CM exit|Exit\(Q|class-exit|class exit)/,
   "Pack promoted to CM exit" => /Pack[- ]side CM exit/,
   "Pack-first CM route" => /Pack-first (?:CM|witness|face|continuation|route|tree|classification|promotion|proof|audit|gate|test)/,
   "Pack/Part/Field as CM witness grammar" => /Pack\/Part\/Field (?:witness|face|exit|exhaustion|terminal|classification|proof|grammar|tree|route)/,
