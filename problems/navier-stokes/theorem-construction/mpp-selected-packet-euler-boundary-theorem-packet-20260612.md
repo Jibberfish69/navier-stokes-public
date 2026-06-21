@@ -143,7 +143,7 @@ certificate ledger.
 
 | CM ledger record | installed NS face | Euler-boundary classification | reason |
 | --- | --- | --- | --- |
-| `zero_radius_terminal_packet_part_first_or_true_pack_exit` | `not Part_{N,Q}` or true `not Pack_Q` | clean Part subcase only | a zero-radius terminal packet with a same original-NS pointwise participation record is Part-first; true Pack failure applies only when the selected positive packet/carrier/readout record needed for the clean Euler boundary is absent. |
+| `zero_radius_terminal_packet_part_first_or_true_pack_exit` | `not Part_{N,Q}` or true `not Pack_Q` | clean Part subcase only | a zero-radius terminal packet with a same original-NS participation record is Part-first; true Pack failure applies only when the selected positive packet/carrier/readout record needed for the clean Euler boundary is absent. |
 | `unpaid_donor_refill_or_detached_ancestry_pack_exit` | `not Pack_Q` | does not apply | detached ancestry/no positive same-fluid carrier is Pack loss, not loss of viscous participation or one-field tether. |
 | `raw_terminal_source_residue_pack_or_part_exit` | `not Pack_Q` or `Pack_Q + not Part_{N,Q}` | clean subcase only | raw source or pressure-source residue blocks Euler entrance until the residue is removed or typed as lawful inviscid momentum with no extra source measure. |
 | `pressure_viscosity_or_dwell_part_exit` | `Pack_Q + not Part_{N,Q}` | applies to clean Part subcase | the NS face is exactly lost participation; Theorem 1 applies once the same selected packet has \(EVol+EMom\) and no residue leak. |

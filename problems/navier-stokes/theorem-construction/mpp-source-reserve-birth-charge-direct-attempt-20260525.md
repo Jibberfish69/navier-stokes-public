@@ -125,7 +125,7 @@ typed before `not Pack_Q` is spent:
 terminal zero-radius donor ancestry with a pointwise original-NS record
 => not Part_{N,Q} / (Part, Dead);
 
-terminal zero-radius donor ancestry with no pointwise participation record
+terminal zero-radius donor ancestry with no original participation record
 => true not Pack_Q.
 ```
 

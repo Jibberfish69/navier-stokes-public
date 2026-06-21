@@ -161,7 +161,7 @@ CriticalL3ConcentrationToNativeSourceResidue.A.
 ## Boundary
 
 This leaves the closed `B_ASAC^closed` terminal zero-thickness CM target closed.
-The terminal zero-radius Zeno residue is Part-first when the same original-NS
-pointwise participation record remains and true `not Pack_Q` only when that
+The terminal zero-radius Zeno residue lands Part-side when the same original-NS
+original participation record remains and true `not Pack_Q` only when that
 record is absent. The live work is only the retained L3 translator's
 Leray/coefficient identification on the same CM witness ledger.

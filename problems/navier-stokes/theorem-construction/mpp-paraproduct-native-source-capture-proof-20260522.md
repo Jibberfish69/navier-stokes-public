@@ -55,8 +55,8 @@ is the repo-native positive source measure on the same witness ledger.
   `mpp-l3-terminal-signed-partner-no-free-defect-proof-20260522.md`.
 - The May 21 CM correction that selected
   `ScaleCriticalTreeCarleson.A` failure is Pack-side/source-wall exit and
-  zero-radius terminal Zeno residue is Part-first when the same original-NS
-  pointwise participation record remains and true `not Pack_Q` only when that
+  zero-radius terminal Zeno residue lands Part-side when the same original-NS
+  original participation record remains and true `not Pack_Q` only when that
   record is absent, not retained Field/jump.
 
 ## Proof

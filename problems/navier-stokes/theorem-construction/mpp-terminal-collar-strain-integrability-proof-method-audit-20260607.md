@@ -112,8 +112,7 @@ Pack-face-validity route:
 
 The current installed sources support the second route as classification:
 unbounded terminal atlas collapse remains a Pack/carrier failure, while a
-zero-radius terminal atlas is Part-first when the same original-NS pointwise
-participation record remains and true `not Pack_Q` only when that record is
+zero-radius terminal atlas lands Part-side when the same original-NS participation record remains and true `not Pack_Q` only when that record is
 absent.
 They do not yet turn that Pack face into a contradiction with the Clay
 counterexample assumption.

@@ -23,7 +23,7 @@ Pack/Part/legal exit. It is not a forward source-deletion theorem.
 
 The closed `B_ASAC` terminal zero-thickness CM target stays closed. The
 terminal zero-radius Zeno atom is now sorted by the Pack-before-Part audit:
-Part-side when the same original-NS pointwise participation record remains, and
+Part-side when the same original-NS participation record remains, and
 true Pack-side only when that record is absent. It is not a retained Field/jump
 target.
 

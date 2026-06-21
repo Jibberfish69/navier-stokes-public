@@ -29,7 +29,7 @@ The current direct-live CM boundary already says:
 
 - finite positive-radius Zeno ancestry can still be a legal CM packet;
 - the terminal zero-radius endpoint is not a retained positive-radius packet;
-- the first CM failure for that endpoint is Part-first when same-solution pointwise participation remains and true `not Pack_Q` only when that record is absent;
+- the first CM failure for that endpoint lands Part-side when same-solution original participation remains and true `not Pack_Q` only when that record is absent;
 - Field/jump/source language is downstream readout unless a separate
   positive-scale retained carrier is proved.
 
@@ -103,7 +103,7 @@ every such window collapses to zero scale.
 Home:
 
 - The positive branch enters the ordinary `Pack/Part/Field` tree.
-- The zero-scale branch is Part-first when same-solution pointwise participation remains and true `not Pack_Q` only when that record is absent.
+- The zero-scale branch lands Part-side when same-solution original participation remains and true `not Pack_Q` only when that record is absent.
 - This belongs with the terminal Zeno Pack correction, not with retained Field
   language.
 
@@ -117,7 +117,7 @@ itself prove a positive anti-Zeno theorem.
 
 Home:
 
-- For the CM contrapositive, zero-radius terminal Zeno is Part-first when same-solution pointwise participation remains and true Pack only when that record is absent.
+- For the CM contrapositive, zero-radius terminal Zeno lands Part-side when same-solution original participation remains and true Pack only when that record is absent.
 - For a separate positive-deletion program, one may still ask for an anti-Zeno
   theorem such as no persistent zero-radius cascade.
 - Those two jobs must stay separated.
