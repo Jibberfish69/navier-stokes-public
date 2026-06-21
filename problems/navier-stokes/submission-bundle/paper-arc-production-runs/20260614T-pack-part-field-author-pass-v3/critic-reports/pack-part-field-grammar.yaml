@@ -2,8 +2,8 @@
 version: 1
 kind: ns-paper-arc-math-reader-critic-report
 generated_at: '2026-06-14T05:17:39Z'
-arc_id: pack-part-field-grammar
-title: Pack/Part/Field witness grammar
+arc_id: part-field-grammar
+title: Part/Field witness grammar
 status: passed
 critic_scope: attack current TeX source for this proof arc; do not invent a new theorem
   target
@@ -50,7 +50,7 @@ source_sections:
   issue_limit_reached: false
   issues: []
 repair_packet:
-  arc_id: pack-part-field-grammar
+  arc_id: part-field-grammar
   issue_count: 0
   detected_issue_count: 0
   issue_limit_reached: false

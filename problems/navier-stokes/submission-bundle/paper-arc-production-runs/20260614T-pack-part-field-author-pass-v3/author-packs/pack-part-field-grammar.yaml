@@ -1,8 +1,8 @@
 ---
 version: 1
 kind: ns-paper-arc-author-pack
-arc_id: pack-part-field-grammar
-batch_id: pack-part-field-grammar-author-pack-20260614T051526Z
+arc_id: part-field-grammar
+batch_id: part-field-grammar-author-pack-20260614T051526Z
 ready_to_apply: true
 source_rewrites:
 - op: certify_existing_section
@@ -90,7 +90,7 @@ source_rewrites:
     repair_decision: passes after repair
     unresolved_failures: []
 author_contract:
-  arc_id: pack-part-field-grammar
+  arc_id: part-field-grammar
   must_write:
   - finished TeX prose, not a report
   - reader-facing explanation before compressed notation
