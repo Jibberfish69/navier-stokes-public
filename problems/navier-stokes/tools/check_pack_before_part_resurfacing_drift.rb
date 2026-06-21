@@ -67,7 +67,7 @@ FORBIDDEN = {
   "Pack promoted to CM exit" => /Pack[- ]side CM exit/,
   "Pack-first CM route" => /Pack-first (?:CM|witness|face|continuation|route|tree|classification|promotion|proof|audit|gate|test)/,
   "Pack/Part/Field as CM witness grammar" => /Pack\/Part\/Field (?:witness|face|exit|exhaustion|terminal|classification|proof|grammar|tree|route)/,
-  "Pack_Q before Field smoothness certification" => /Pack_Q.*(?:not Part_\{N,Q\}|Part_\{N,Q\}.*not Field_\{N,r,Q\})/,
+  "Pack_Q before Field smoothness certification" => /Pack_Q.*(?:not Part_\{N,Q\}|Part_\{N,Q\}.*not Field_\{N,r,Q\}|Part\/Field)/,
   "CM packet object language" => /\bCM packet\b/,
   "old Pack-first continuation packet tree" => /Pack-first continuation-packet tree/,
   "old Pack-first CM exit tree" => /Pack-first CM exit tree/,
@@ -82,7 +82,7 @@ FORBIDDEN = {
   "old exact-claim bridge gate" => /lands an exact claim in Pack_Q, Part_\{N,Q\}, or Field/,
   "old sidecar landing gate" => /support only until it lands in Pack_Q, Part_\{N,Q\}, or Field/,
   "old mandatory promotion rule" => /must land in Pack_Q, Part_\{N,Q\}, or Field_\{N,r,Q\}/,
-  "old bare witness-face landing" => /(?<!Silver )witness-face landing in Pack_Q, Part_\{N,Q\}, or Field/,
+  "old bare witness landing" => /(?<!Silver )witness landing in Pack_Q, Part_\{N,Q\}, or Field/,
   "old terminal Zeno Pack-only landing" => /terminal zero-radius residue .*lands (?:first )?as `?not Pack_Q`?/,
   "old zero-heat-time Pack-only landing" => /terminal zero-heat-time source residue is not Pack_Q/,
   "old BASAC Pack-side non-survival" => /terminal Zeno\/B_ASAC zero-thickness endpoint.*Pack-side non-survival/,
@@ -126,7 +126,7 @@ FORBIDDEN = {
   "old before Pack_Q used wording" => /before Pack_Q is used/,
   "old before Pack_Q tested wording" => /before Pack_Q is tested/,
   "old before Pack_Q spent wording" => /before Pack_Q is spent/,
-  "old Pack source of participation wording" => /Pack.*source of participation/
+  "old Pack source of participation wording" => /Pack(?:_Q|\(Q\)|\b).{0,80}(?:is|as|becomes|supplies|provides|served as|serves as).{0,40}source of participation/
 }.freeze
 
 BROAD_TERMINAL_FORBIDDEN = FORBIDDEN.select do |label, _|
@@ -148,6 +148,7 @@ BROAD_CM_OBJECT_FORBIDDEN = FORBIDDEN.select do |label, _|
     label.include?("Pack-first CM") ||
     label.include?("CM witness grammar") ||
     label.include?("CM packet") ||
+    label.include?("CM witness list") ||
     label.include?("Pack_Q before Field")
 end.freeze
 
@@ -194,6 +195,14 @@ ACTIVE_PATHS.each do |relative_path|
   end
 
   unless relative_path == "problems/navier-stokes/tools/check_pack_before_part_resurfacing_drift.rb"
+    text.to_enum(:scan, /cm_(?:witness_face_notation|part_field_questions|faces|witnesses):(?:\n\s+- .*)+/).each do
+      block = Regexp.last_match[0].to_s
+      next unless block.match?(/^\s*-\s*Pack_Q\b/)
+
+      line_no = text[0, Regexp.last_match.begin(0)].count("\n") + 1
+      violations << "#{relative(path)}:#{line_no}: Pack_Q in CM witness list"
+    end
+
     text.each_line.with_index(1) do |line, line_no|
       FORBIDDEN.each do |label, pattern|
         next unless line.match?(pattern)

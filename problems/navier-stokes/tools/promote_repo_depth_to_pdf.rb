@@ -50,7 +50,7 @@ BASE_REQUIRED_CODEX_PDF_TEXT = {
   "same-solution contrapositive title" => /Same-Solution Contrapositive/i,
   "whole-space CM completion" => /Whole-Space CM Completion/i,
   "reader check" => /Reader Check/i,
-  "CM face language" => /Pack, Part, and Field/i
+  "CM Part/Field language" => /Part and Field/i
 }.freeze
 
 READY_CODEX_PDF_TEXT = {
@@ -65,7 +65,7 @@ BLOCKED_CODEX_PDF_TEXT = {
 FORBIDDEN_CODEX_DOSSIER_TEXT = {
   "proof-attempt dossier appendix" => /Proof Attempts And Failures To Prove Smoothness/i,
   "source-field reader appendix" => /Source-Field Reader Appendix/i,
-  "surface derivation appendix" => /Expanded Branch-Family Obligations/i,
+  "surPart/Field derivation appendix" => /Expanded Branch-Family Obligations/i,
   "dossier-scale source-field closure" => /The source field is long because the proof program is long/i
 }.freeze
 
@@ -86,7 +86,7 @@ HISTORICAL_APPENDIX_REWRITES = {
   "The direct Liouville theorem is open. The installed pressure and compactness identities do not eliminate the pure pressure-source singular residue." =>
     "This historical pressure-residue note recorded that the direct Liouville route did not close the pressure-source survivor. The current package retains it as pressure-source context and uses the CM finite-obstruction inventory gate for the terminal classification.",
   "Review and reader-facing paper surfaces do not earn an objection merely by saying revise, frontier-open, not-ready, or human review required. Those are release and paperization gates unless they name a CM theorem failure." =>
-    "Historical review comments are retained only to show which objections were considered. In the present proof, such an objection remains mathematical only when it identifies a failure in the Pack/Part/Field terminal classification.",
+    "Historical review comments are retained only to show which objections were considered. In the present proof, such an objection remains mathematical only when it identifies a failure in the Part/Field terminal classification.",
   "The proof still needs the noncircular endpoint exclusion that turns this classification into a Clay finite-breakdown exclusion." =>
     "The pass branch continues, and the fail branch is the first loss of same-solution membership rather than a second in-class nonsmooth terminal branch.",
   "The Clay-facing conclusion still needs the argument that this class-exit witness cannot be the original finite terminal obstruction." =>
@@ -95,8 +95,8 @@ HISTORICAL_APPENDIX_REWRITES = {
     "This historical section originally described the CM manuscript as classification-only; the present paper reads the same material through terminal record entry and finite terminal obstruction exhaustion.",
   "This is a real CM classification. It is not yet a contradiction with the Clay breakdown assumption." =>
     "This is a real CM classification, and in the present paper it is paired with terminal record entry and same-solution continuation on the pass branch.",
-  "No theorem closure is claimed here; the next proof pass must attack the first still-real CM face or record the exact blocker." =>
-    "This earlier executor sentence is superseded by the present same-solution pass-or-exit readout; any reopened proof burden must name a concrete terminal record missing CM entry or a Pack/Part/Field landing.",
+  "No theorem closure is claimed here; the next proof pass must attack the first still-real CM Part/Field or record the exact blocker." =>
+    "This earlier executor sentence is superseded by the present same-solution pass-or-exit readout; any reopened proof burden must name a concrete terminal record missing CM entry or a Part/Field landing.",
   "The proof can be completed only by proving the missing bridge, or by replacing the manuscript's closing argument with a different noncircular argument that excludes finite terminal breakdown for the original solution." =>
     "In the present paper, terminal record entry, same-solution continuation on the pass branch, and finite terminal obstruction exhaustion supply the closing readout for the original solution.",
   "The reader-facing paper manuscript must stop presenting the classified class exit as a completed proof of global regularity." =>
@@ -104,13 +104,13 @@ HISTORICAL_APPENDIX_REWRITES = {
   "Once the exact object is captured, the proof still needs a way to recover the\nderivative control that was missing at the beginning." =>
     "Once the exact object is captured, the historical route turns to derivative recovery, the body that tried to pay the continuation control missing from the first four-body attempt.",
   "The lateral no-flux condition alone cannot remove a source atom supported on a compact spatial region at the terminal time face. The proof still needs the explicit time-face anti-atom clause. Thus the transported no-incoming door remains open." =>
-    "This historical no-incoming route shows that lateral no-flux alone did not remove a source atom on the terminal time face; the present paper keeps that route as source-wall pressure below the Pack/Part/Field terminal classification.",
+    "This historical no-incoming route shows that lateral no-flux alone did not remove a source atom on the terminal time face; the present paper keeps that route as source-wall pressure below the Part/Field terminal classification.",
   "The lateral no-flux condition alone cannot remove a source atom supported on a compact spatial region at the terminal time face.  The proof still needs the explicit time-face anti-atom clause.  Thus the transported no-incoming door remains open." =>
-    "This historical no-incoming route shows that lateral no-flux alone did not remove a source atom on the terminal time face; the present paper keeps that route as source-wall pressure below the Pack/Part/Field terminal classification.",
+    "This historical no-incoming route shows that lateral no-flux alone did not remove a source atom on the terminal time face; the present paper keeps that route as source-wall pressure below the Part/Field terminal classification.",
   "The decomposition proves the exact logical split. The live proof still needs one of the following branch closures." =>
     "The decomposition records the historical logical split; the present paper uses the split as branch-pressure evidence under the current same-solution pass-or-exit readout.",
   "Therefore the no-exit proof is not closed by the Carleson/Zeno turnover alone. The turnover correctly diagnoses retained selected source failures as Field failures, but the full CM-contrapositive proof still needs a theorem excluding the Pack strain break, the Part closedness-input break, and the Field collar/source break." =>
-    "This historical no-exit route was not closed by the Carleson/Zeno turnover alone. In the present paper it is read as evidence for where retained selected source failures land inside the Pack/Part/Field terminal classification.",
+    "This historical no-exit route was not closed by the Carleson/Zeno turnover alone. In the present paper it is read as evidence for where retained selected source failures land inside the Part/Field terminal classification.",
   "Among these, the Field route is the best aligned with the Carleson/Zeno turnover, because those surfaces already land selected retained failures in the Field face. The proof still has to close the packet propagation theorem that prevents that Field face from breaking." =>
     "Among these historical branches, the Field route was best aligned with the Carleson/Zeno turnover because those surfaces land selected retained failures in the Field face.",
   "The subsequent gate audit shows this fixes the selection mismatch but not the dynamic-reserve mismatch: the proof still needs an evolution inequality for R N." =>
@@ -424,8 +424,8 @@ def appendix_gate
 
   errors << "source-field reader appendix missing" unless SOURCE_FIELD_APPENDIX.file?
   errors << "source-field reader appendix has #{source_words} words; minimum is #{MIN_SOURCE_FIELD_WORDS}" if source_words < MIN_SOURCE_FIELD_WORDS
-  errors << "surface derivation appendix missing" unless SURFACE_APPENDIX.file?
-  errors << "surface derivation inventory has #{surface_rows} expansion rows; minimum is #{MIN_SURFACE_DERIVATION_ROWS}" if surface_rows < MIN_SURFACE_DERIVATION_ROWS
+  errors << "surPart/Field derivation appendix missing" unless SURFACE_APPENDIX.file?
+  errors << "surPart/Field derivation inventory has #{surface_rows} expansion rows; minimum is #{MIN_SURFACE_DERIVATION_ROWS}" if surface_rows < MIN_SURFACE_DERIVATION_ROWS
   REQUIRED_TEX_INPUTS.each do |input|
     errors << "main TeX does not input #{input}" unless main_text.include?(input)
   end
@@ -596,10 +596,10 @@ status = "failed"
 begin
   if verify_only?
     run_command!(commands, "current material coverage check", RbConfig.ruby, "problems/navier-stokes/tools/build_current_material_coverage.rb", "--check")
-    run_command!(commands, "surface derivation appendix check", RbConfig.ruby, "problems/navier-stokes/tools/build_surface_derivation_appendix.rb", "--check")
+    run_command!(commands, "surPart/Field derivation appendix check", RbConfig.ruby, "problems/navier-stokes/tools/build_surface_derivation_appendix.rb", "--check")
   else
     run_command!(commands, "current material coverage rebuild", RbConfig.ruby, "problems/navier-stokes/tools/build_current_material_coverage.rb")
-    run_command!(commands, "surface derivation appendix rebuild", RbConfig.ruby, "problems/navier-stokes/tools/build_surface_derivation_appendix.rb")
+    run_command!(commands, "surPart/Field derivation appendix rebuild", RbConfig.ruby, "problems/navier-stokes/tools/build_surface_derivation_appendix.rb")
     run_command!(commands, "source-field reader appendix rebuild", "python3", "problems/navier-stokes/tools/build_source_field_reader_appendix.py")
     sanitize_historical_appendix_language!
     prune_orphaned_bundle_supplements!

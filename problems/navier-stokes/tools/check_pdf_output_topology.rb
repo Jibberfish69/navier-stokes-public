@@ -40,7 +40,7 @@ BASE_REQUIRED_CODEX_RENDERED_TEXT = {
   "same-solution contrapositive title" => /Same-Solution Contrapositive/i,
   "whole-space CM completion" => /Whole-Space CM Completion/i,
   "reader check" => /Reader Check/i,
-  "CM witness faces" => /Pack, Part, and Field/i
+  "CM witnesses" => /Part and Field/i
 }.freeze
 
 READY_CODEX_RENDERED_TEXT = {
@@ -55,7 +55,7 @@ BLOCKED_CODEX_RENDERED_TEXT = {
 FORBIDDEN_CODEX_DOSSIER_TEXT = {
   "proof-attempt dossier appendix" => /Proof Attempts And Failures To Prove Smoothness/i,
   "source-field reader appendix" => /Source-Field Reader Appendix/i,
-  "surface derivation appendix" => /Expanded Branch-Family Obligations/i,
+  "surPart/Field derivation appendix" => /Expanded Branch-Family Obligations/i,
   "dossier-scale source-field closure" => /The source field is long because the proof program is long/i
 }.freeze
 

@@ -62,7 +62,7 @@ end
 
 def faces_tex(faces)
   listed = Array(faces).map(&:to_s).reject(&:empty?)
-  return "no independent Pack/Part/Field face" if listed.empty?
+  return "no independent Part/Field face" if listed.empty?
 
   listed.map { |face| face_tex(face) }.uniq.join(", ")
 end
@@ -72,7 +72,7 @@ def cm_role_phrase(role)
     pack: "Pack-face terminal obligations",
     part: "Part-face terminal obligations",
     field: "Field-face terminal obligations",
-    finite_disjunction: "finite Pack/Part/Field disjunction obligations",
+    finite_disjunction: "finite Part/Field disjunction obligations",
     inherited: "inherited-authority obligations",
     support_boundary: "support-boundary obligations"
   }.fetch(role, "CM obligations")
@@ -80,7 +80,7 @@ end
 
 def cm_rule_phrase(rule)
   {
-    "direct_face_failure" => "direct face failure",
+    "direct_face_failure" => "direct Part/Field failure",
     "finite_face_disjunction" => "finite face disjunction",
     "selected_retained_field_failure" => "retained field failure after the other faces have been removed",
     "authority_inheritance_no_independent_failure" => "authority inheritance with no new terminal face",
@@ -129,7 +129,7 @@ def sorted_hash(hash)
 end
 
 def face_role(entry)
-  face_breaks = Array(entry["cm_face_breaks"]).map(&:to_s)
+  face_breaks = Array(entry["cm_part_field_question_breaks"]).map(&:to_s)
   rule = entry["proof_rule"].to_s
 
   return :finite_disjunction if rule == "finite_face_disjunction"
@@ -149,13 +149,13 @@ def cm_claim_and_proof(label, role)
   when :pack
     [
       "#{branch} gives \\(\\neg\\Pack_Q\\), hence \\(\\Exit(Q;\\Owork)\\).",
-      "A member branch must first carry \\(Q\\) by a positive same-fluid packet. The selected terminal branch loses that carrier requirement before any participation or field readout can be asked of it. The Pack-before-Part audited order therefore gives \\(\\neg\\Pack_Q\\), and the class-exit embedding gives \\(\\Exit(Q;\\Owork)\\).",
+      "A member branch must first carry \\(Q\\) by a positive same-fluid packet. The selected terminal branch loses that carrier requirement before any participation or field readout can be asked of it. The Pack-out-of-CM audited order therefore gives \\(\\neg\\Pack_Q\\), and the class-exit embedding gives \\(\\Exit(Q;\\Owork)\\).",
       "On the page, this tells the reader that the branch never reaches the later questions. The proof is not claiming a new smooth solution; it is recording that the alleged terminal branch cannot even supply the packet that would let membership be tested. That is why the branch belongs on the fail side of the pass-or-exit split."
     ]
   when :part
     [
       "#{branch} keeps the carrier but gives \\(\\neg\\Part_{N,Q}\\), hence \\(\\Exit(Q;\\Owork)\\).",
-      "Here the carrier question has already passed for the purpose of the split. The branch still has to participate in the same pressure-viscosity tower as the original Navier--Stokes solution. The selected failure breaks that tower, so the first surviving lost requirement is \\(\\Part_{N,Q}\\). The face failure embeds as class exit.",
+      "Here the carrier question has already passed for the purpose of the split. The branch still has to participate in the same pressure-viscosity tower as the original Navier--Stokes solution. The selected failure breaks that tower, so the first surviving lost requirement is \\(\\Part_{N,Q}\\). The Part/Field failure embeds as class exit.",
       "The reader-facing point is that this is a same-solution participation test. The same-fluid carrier is still present. The branch no longer participates in the Navier--Stokes pressure-viscosity tower that the member branch needs. The obligation therefore closes by loss of participation."
     ]
   when :field
@@ -166,20 +166,20 @@ def cm_claim_and_proof(label, role)
     ]
   when :finite_disjunction
     [
-      "#{branch} gives a finite disjunction of Pack, Part, and Field losses, hence \\(\\Exit(Q;\\Owork)\\).",
-      "The terminal branch presents finitely many same-solution alternatives. Each alternative is tested in Pack-before-Part audited order. A finite disjunction of Pack, Part, and Field losses is still exhausted by the CM witness tree, so every alternative gives the same class-exit conclusion.",
-      "This keeps the reader from seeing the alternatives as an open cloud of cases. There are only finitely many branch options here, and each option pays one of the same three witness-face costs. Once the finite list is exhausted, there is no remaining terminal branch outside the pass-or-exit law."
+      "#{branch} gives a finite disjunction of Part and Field losses, hence \\(\\Exit(Q;\\Owork)\\).",
+      "The terminal branch presents finitely many same-solution alternatives. Each alternative is tested in Pack-out-of-CM audited order. A finite disjunction of Part and Field losses is still exhausted by the CM witness tree, so every alternative gives the same class-exit conclusion.",
+      "This keeps the reader from seeing the alternatives as an open cloud of cases. There are only finitely many branch options here, and each option pays one of the same three witness costs. Once the finite list is exhausted, there is no remaining terminal branch outside the pass-or-exit law."
     ]
   when :inherited
     [
-      "#{branch} introduces no independent terminal alternative outside the installed Pack/Part/Field exhaustion.",
+      "#{branch} introduces no independent terminal alternative outside the installed Part/Field exhaustion.",
       "The branch carries already established CM content. Its mathematical force is inherited from the terminal packet capture and face-exhaustion theorems. Since it supplies no new selected nonsmooth packet, it contributes no extra continuation requirement and no fourth branch.",
       "For the reader, the point is restraint. This entry explains why already-paid proof work is not being reread as a new terminal branch. It belongs in the manuscript because it preserves the closed branch count and prevents a hidden fourth alternative from being smuggled back into the argument."
     ]
   else
     [
       "#{branch} has no CM conclusion until it selects a same-fluid terminal packet.",
-      "A support branch can strengthen the positive pass side, sharpen a pressure test, or prepare a later terminal witness. It cannot assert \\(\\Member(Q;\\Owork)\\) or \\(\\Exit(Q;\\Owork)\\) by itself. Its proof role is to feed a later Pack, Part, Field, membership-readout, or no-third-branch hinge.",
+      "A support branch can strengthen the positive pass side, sharpen a pressure test, or prepare a later terminal witness. It cannot assert \\(\\Member(Q;\\Owork)\\) or \\(\\Exit(Q;\\Owork)\\) by itself. Its proof role is to feed a later Part and Field, membership-readout, or no-third-branch hinge.",
       "This is included so the reader can see the boundary of the proof claim. The material may be useful, but it has not yet selected the same-fluid terminal packet that the CM test consumes. Until that selection is made, the branch remains support for the argument rather than an independent class conclusion."
     ]
   end
@@ -201,8 +201,8 @@ def support_claim_and_proof(label, role)
   when :comparison
     [
       "#{support} enters the Navier--Stokes class proof only after it selects an exact same-fluid Navier--Stokes packet.",
-      "Comparison information may locate an analogous obstruction or exclude a misleading branch shape. The CM proof still acts on the Navier--Stokes packet itself. Once that packet is selected, the same Pack, Part, and Field decision tree applies; before selection, the comparison statement remains hinge support.",
-      "The reader-facing role is to keep comparison from becoming authority by accident. The comparison can show why a branch is worth testing, but the Clay-facing proof is charged to the Navier--Stokes packet and its own witness faces. This paragraph therefore marks the exact point where comparison stops and same-fluid proof begins."
+      "Comparison information may locate an analogous obstruction or exclude a misleading branch shape. The CM proof still acts on the Navier--Stokes packet itself. Once that packet is selected, the same Part and Field decision tree applies; before selection, the comparison statement remains hinge support.",
+      "The reader-facing role is to keep comparison from becoming authority by accident. The comparison can show why a branch is worth testing, but the Clay-facing proof is charged to the Navier--Stokes packet and its own witnesses. This paragraph therefore marks the exact point where comparison stops and same-fluid proof begins."
     ]
   when :readout
     [
@@ -213,7 +213,7 @@ def support_claim_and_proof(label, role)
   when :positive_supplier
     [
       "#{support} strengthens the pass branch or selects the fail branch that the CM test later consumes.",
-      "A positive supplier estimate can pay a source term, preserve a packet, or narrow the terminal pressure. The CM proof uses that work at the hinge where the branch becomes a selected same-solution packet. After selection, failure is decided by Pack, Part, or Field.",
+      "A positive supplier estimate can pay a source term, preserve a packet, or narrow the terminal pressure. The CM proof uses that work at the hinge where the branch becomes a selected same-solution packet. After selection, failure is decided by Part or Field.",
       "The reader-facing role is to show why forward estimates are present without letting them replace the contrapositive proof. They can pay costs on the pass side or select the branch that the fail side tests. Once the selected packet is on the page, the CM witness tree carries the final burden."
     ]
   when :downstream
@@ -224,8 +224,8 @@ def support_claim_and_proof(label, role)
     ]
   else
     [
-      "#{support} is admissible as support only after it names the witness face it affects.",
-      "The working class object has exactly three requirements before membership readout: carrier, participation, and field. A support statement that names none of them supplies no terminal class conclusion. Once it names one, the corresponding Pack/Part/Field proof pattern decides its role.",
+      "#{support} is admissible as support only after it names the witness it affects.",
+      "The working class object has exactly three requirements before membership readout: carrier, participation, and field. A support statement that names none of them supplies no terminal class conclusion. Once it names one, the corresponding Part/Field proof pattern decides its role.",
       "The reader-facing role is to keep support material honest. The manuscript can use the material only after it says whether it affects the packet, the participation tower, or the field readout. That named face is what connects the material to the pass-or-exit proof rather than to a vague promise of progress."
     ]
   end
@@ -245,17 +245,17 @@ FAMILY_EXPANSIONS = {
   "late_cm_direction_or_same_ledger_notes" => [
     "Same-ledger family",
     "This family asks whether the terminal branch is still charged to the same witness record.",
-    "A terminal item on the same ledger enters the Pack-first test. A preterminal reflection or unpaid imported branch has no member conclusion until it supplies the same witness record, the same carrier, and the same participation tower."
+    "A terminal item on the same ledger enters the Field-certification test. A preterminal reflection or unpaid imported branch has no member conclusion until it supplies the same witness record, the same carrier, and the same participation tower."
   ],
   "cm_class_law_completion_and_adversarial_audits" => [
     "Class-law family",
     "This family tests the pass-or-exit law against possible reopening branches.",
-    "A reopening branch must either be an in-class nonsmooth third branch or break terminal CM entry, finite Pack/Part/Field exhaustion, or class-exit embedding. Every other challenge is absorbed by the installed pass branch, fail branch, or no-third-branch law."
+    "A reopening branch must either be an in-class nonsmooth third branch or break terminal CM entry, finite Part/Field exhaustion, or class-exit embedding. Every other challenge is absorbed by the installed pass branch, fail branch, or no-third-branch law."
   ],
   "local_energy_elliptic_formalization_support" => [
     "Local energy and elliptic family",
     "This family supplies analytic support for source-wall and classification tests.",
-    "Local energy and elliptic control matter when they select the terminal packet, verify pressure participation, or read out a positive field scale. The support is then consumed by Pack, Part, Field, or membership readout."
+    "Local energy and elliptic control matter when they select the terminal packet, verify pressure participation, or read out a positive field scale. The support is then consumed by Part and Field, or membership readout."
   ],
   "euler_mirror_current_exclusions" => [
     "Comparison-boundary family",
@@ -265,7 +265,7 @@ FAMILY_EXPANSIONS = {
   "current_theorem_creation_candidate_notes" => [
     "Candidate-branch family",
     "This family contains candidate pressure tests and route probes.",
-    "A candidate becomes proof material only when it names a terminal packet and a witness face. The face then routes through Pack, Part, Field, membership readout, terminal capture, or no-third-branch exclusion."
+    "A candidate becomes proof material only when it names a terminal packet and a witness. The face then routes through Part and Field, membership readout, terminal capture, or no-third-branch exclusion."
   ]
 }.freeze
 
@@ -297,10 +297,10 @@ end
 
 def face_summary(entries)
   labels = entries.map do |entry|
-    faces = Array(entry["cm_face_breaks"]).map(&:to_s).reject(&:empty?)
-    faces.empty? ? "no independent Pack/Part/Field face" : faces.sort.join(" and ")
+    faces = Array(entry["cm_part_field_question_breaks"]).map(&:to_s).reject(&:empty?)
+    faces.empty? ? "no independent Part/Field face" : faces.sort.join(" and ")
   end
-  count_summary(labels, empty: "no independent Pack/Part/Field face")
+  count_summary(labels, empty: "no independent Part/Field face")
 end
 
 now = Time.now.utc.iso8601
@@ -344,7 +344,7 @@ inventory = {
       "diagnostic_status" => entry["diagnostic_status"],
       "face_sort" => entry["face_sort"],
       "selected_failure_type" => entry["selected_failure_type"],
-      "cm_face_breaks" => Array(entry["cm_face_breaks"]),
+      "cm_part_field_question_breaks" => Array(entry["cm_part_field_question_breaks"]),
       "proof_statement" => entry["proof_statement"],
       "proof_explanation" => entry["proof_explanation"]
     }
@@ -409,7 +409,7 @@ support_groups = quarantine_entries.group_by { |entry| support_role(entry) }
 support_groups.sort_by { |role, rows| [role.to_s, -rows.length] }.each_with_index do |(role, rows), group_index|
   classes = rows.flat_map { |entry| Array(entry["support_classes"] || entry["demotion_classes"]).map(&:to_s) }.uniq.sort
   tex << "\\subsection{Support proof role #{group_index + 1}: #{latex_escape(support_class_heading(classes))}}"
-  tex << "This proof role accounts for #{rows.length} support obligation#{rows.length == 1 ? '' : 's'} with one mathematical support job. The support classes represented here are #{count_summary(rows.map { |entry| support_class_phrase(entry["support_classes"] || entry["demotion_classes"]) })}. The support may enter a CM hinge only through a Pack-first admission, a receiver/readout bridge, or a same-branch transfer license."
+  tex << "This proof role accounts for #{rows.length} support obligation#{rows.length == 1 ? '' : 's'} with one mathematical support job. The support classes represented here are #{count_summary(rows.map { |entry| support_class_phrase(entry["support_classes"] || entry["demotion_classes"]) })}. The support may enter a CM hinge only through a Field-certification admission, a receiver/readout bridge, or a same-branch transfer license."
   tex << ""
   claim, proof, reader_role = support_claim_and_proof("Support proof role #{group_index + 1}", role)
   tex << "\\paragraph{Family proof role.}"

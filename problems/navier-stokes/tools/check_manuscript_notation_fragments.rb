@@ -17,7 +17,7 @@ PATTERNS = {
   "plain terminal-star notation" => /\b(?:T|r|a)\s+\*/,
   "plain indexed lowercase variable" => /\b(?:t|r|a|rho|epsilon|eta|nu)\s+[mnk]\b/,
   "plain indexed shell variable" => /\b(?:D|E|F|H|A|B|K|M|N|Q|R|S|U|V|W|X)\s+(?:[jklmnqJKNQR]|\d+)(?=\b|[(),.;=])/,
-  "plain CM face notation" => /\b(?:Pack|Part|Field)\s+[A-Z](?:,?[a-zA-Z])?(?:,?[A-Z])?\b/,
+  "plain CM Part/Field notation" => /\b(?:Pack|Part|Field)\s+[A-Z](?:,?[a-zA-Z])?(?:,?[A-Z])?\b/,
   "plain Greek/operator token" => /(?<!\\)\b(?:Phi|Omega|Gamma|Delta|nabla|partial|mathcal|operatorname)\s+[A-Za-z]\b/,
   "raw ascii proof arrow" => /(?:->|=>)/,
   "raw TeX command typo" => /(?<!\\)\bqquad\b/

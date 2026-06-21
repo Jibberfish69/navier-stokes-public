@@ -7,7 +7,7 @@ Whole-space `R^3` matrix with the CM-facing branch now closed by dichotomy.
 The direct positive export theorem `OriginalSmoothData_R3 => Tail.Hs_R3`
 remains a stronger optional theorem. It is no longer the only way to close the
 R3 branch for the CM contrapositive program, because a surviving exterior
-source is now forced into Pack, Part, or Field.
+source is now forced into Part or Field.
 
 ## Closed branch boundary
 
@@ -59,7 +59,7 @@ OriginalSmoothData_{R^3}
 
 Thus the whole-space branch has no remaining in-class nonsmooth third branch:
 positive exterior tail vanishing supplies the usual export input, and exterior
-tail survival is a CM face failure supporting `Exit(Q):=not Member(Q)`.
+tail survival is a CM Part/Field failure supporting `Exit(Q):=not Member(Q)`.
 
 ## Required R3 matrix nodes
 
@@ -69,12 +69,12 @@ tail survival is a CM face failure supporting `Exit(Q):=not Member(Q)`.
 | `Pressure.R3` | conditional/local | Riesz pressure with local/far split |
 | `Tail.L2_R3` | discharged | exterior finite-energy mass tightness |
 | `Tail.Hs_R3` | optional-stronger-positive-export | exterior high-order tail tightness |
-| `TailFace_R3^Hs` | closed-by-cm-dichotomy | high-frequency derivative escape at infinity lands in Pack/Part/Field |
+| `TailFace_R3^Hs` | closed-by-cm-dichotomy | high-frequency derivative escape at infinity lands in Part/Field |
 | `READ.COVER_R3` | conditional | compact core plus tail exclusion |
 | `DTC.Read_R3` | conditional | pointwise readout using Riesz pressure split |
 | `TTU.A_R3` | conditional | whole-space terminal-tail uniformization |
 | `Tower.Cont_R3` | conditional | compact-core tower plus exterior `H^s` tail implies continuation |
-| `R3.Main` | closed-by-cm-contrapositive | whole-space terminal witness either exports by `Tail.Hs_R3` or exits by Pack/Part/Field |
+| `R3.Main` | closed-by-cm-contrapositive | whole-space terminal witness either exports by `Tail.Hs_R3` or exits by Part/Field |
 
 ## Live blocker
 

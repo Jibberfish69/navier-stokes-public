@@ -78,8 +78,8 @@ CURRENT_SOURCE_WALL_ROOT_SUMMARY = [
   OPEN_ROOT_GROUP.fetch("cm_exit_discipline", nil),
   "Older positive no-exit / packet-survival language is support only and may not respawn as current CM authority unless a fresh CM-necessity audit proves a genuine in-class nonsmooth third branch.",
   "Generated, manuscript, source-history, runtime, export, and positive-supplier surfaces are support when they conflict with live-theorem-edge.yaml or target-operating-contract.yaml.",
-  "The Pack-before-Part dependency audit keeps pre-Pack not-Pack disposal from becoming terminal until the original NS participation law has been tested.",
-  "The forward-positive quarantine index keeps #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} scanned surfaces out of CM authority unless a named bridge lands the exact result in Silver Pack_Q, Part_{N,Q}, or Field_{N,r,Q}, or proves the pre-Pack original-participation audit needed before not Pack_Q can be spent."
+  "The Pack-out-of-CM dependency audit keeps outside-CM packet/window failure disposal from becoming terminal until the original NS participation law has been tested.",
+  "The forward-positive quarantine index keeps #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} scanned surfaces out of CM authority unless a named bridge lands the exact result in Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence, or proves the outside-CM packet/window original-participation audit needed before not Pack_Q can be spent."
 ].compact.join(" ").freeze
 CURRENT_THEOREM_STATUS = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status").freeze
 CURRENT_PACKAGE_STATUS = "cm-referee-gate-passed-with-gold-silver-paths"
@@ -89,7 +89,7 @@ CURRENT_ROUTE_SUMMARY = [
   "Gold names the tried forward-positive supplier path to TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A.",
   "Silver is the accepted exhaustive CM contrapositive branch-table resolution through CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A."
 ].join(" ").freeze
-CURRENT_WITNESS_FORM = "finite same-surface terminal CM witness: CM-test entry followed by not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, which supports Exit(Q):=not Member(Q)"
+CURRENT_WITNESS_FORM = "finite same-surface terminal CM witness: CM-test entry followed by not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, which supports Exit(Q):=not Member(Q)"
 CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE = {
   "disposition" => "gate-cleared-review-refresh-required",
   "next_cell_type" => "review-refresh",
@@ -646,7 +646,7 @@ def support_chain_boundary
 end
 
 def warrant_demotion_prefix
-  "Direct-live repair: historical four-bridge, positive-support, packet-survival, source-wall, and no-free-sink warrants remain support context only. Current authority stays with the CM pass-or-exit branch law, `Exit(Q):=not Member(Q)`, and the Pack/Part/Field witness-face route."
+  "Direct-live repair: historical four-bridge, positive-support, packet-survival, source-wall, and no-free-sink warrants remain support context only. Current authority stays with the CM pass-or-exit branch law, `Exit(Q):=not Member(Q)`, and the Part/Field witness route."
 end
 
 def with_single_warrant_demotion_prefix(note)
@@ -1086,7 +1086,7 @@ def sanitize_route_table(route_table)
 
   objective = route_table["primary_objective"]
   if objective.is_a?(Hash)
-    objective["theorem_program"] = "Prove the CM contrapositive primitive `Exit(Q;O_NS^work):=not Member(Q;O_NS^work)` through a first class-exit witness-face failure of Pack, Part, or Field; arbitrary `not CM=>not Member` is not installed."
+    objective["theorem_program"] = "Prove the CM contrapositive primitive `Exit(Q;O_NS^work):=not Member(Q;O_NS^work)` through a first class-exit witness failure of Part or Field; arbitrary `not CM=>not Member` is not installed."
   end
 
   direction = route_table.dig("course_correction_protocol", "direction_alignment")
@@ -1360,13 +1360,13 @@ def sanitize_dependency_discharge(discharge)
   return discharge unless target.is_a?(Hash)
 
   target_id = target.fetch("obligation_id", "").to_s
-  stale_cm_bridge = target_id.include?("cm-witness-face-bridge") ||
+  stale_cm_bridge = target_id.include?("cm-witness-bridge") ||
     target_id == CURRENT_SOURCE_WALL_ROOT_ID ||
     %w[no-target source-wall-root-active].include?(discharge.fetch("mode", "").to_s)
   return discharge unless starts_with_marvin_upstream?(target_id) || stale_cm_bridge
 
   discharge["mode"] = "direct-live-authority-cleared"
-  discharge["message"] = "Separate raw diagnostic labels from named face diagnostics; use Carleson, Zeno, retained-amplitude, height-flux, and signed-current diagnostics only at their stated Pack/Part/Field/Zeno landing boundary."
+  discharge["message"] = "Separate raw diagnostic labels from named face diagnostics; use Carleson, Zeno, retained-amplitude, height-flux, and signed-current diagnostics only at their stated Part/Field/Zeno landing boundary."
   target["obligation_id"] = CURRENT_SOURCE_WALL_ROOT_ID
   target["kind"] = "direct-live-authority"
   target["label"] = CURRENT_SOURCE_WALL_ROOT_LABEL
@@ -1389,9 +1389,9 @@ def sanitize_dependency_discharge(discharge)
 
   bridge_packet = discharge["bridge_packet"]
   if bridge_packet.is_a?(Hash)
-    bridge_packet["bridge_statement"] = "Bridge-license support is recorded as support context; the active discharge work is to preserve the named face-sorted diagnostics and keep separate supplier theorems out of the CM primitive."
+    bridge_packet["bridge_statement"] = "Bridge-license support is recorded as support context; the active discharge work is to preserve the named Part/Field-sorted diagnostics and keep separate supplier theorems out of the CM primitive."
     bridge_packet["mediating_object"] = "source_wall_root_accountability"
-    bridge_packet["discharge_basis"] = "Promotion occurs only at the stated Pack, Part, Field, or Zeno-sorted landing boundary; raw source-control labels do not promote themselves."
+    bridge_packet["discharge_basis"] = "Promotion occurs only at the stated Part and Field, or Zeno-sorted landing boundary; raw source-control labels do not promote themselves."
   end
 
   summary = discharge["summary"]

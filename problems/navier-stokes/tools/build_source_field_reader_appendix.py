@@ -572,7 +572,7 @@ def build() -> None:
         latex_escape(
             "This appendix reconstructs recovered Navier-Stokes source work as reader-facing mathematical material. "
             "It keeps the parts that explain a definition, reduction, estimate, obstruction, failed attempt that "
-            "changes the proof burden, or CM witness logic for Pack, Part, Field, and readout."
+            "changes the proof burden, or CM witness logic for Part and Field, and readout."
         )
         + "\n",
     ]
@@ -594,7 +594,7 @@ def build() -> None:
             "The source field is long because the proof program is long. Its length does not prove regularity. "
             "The proof force comes only when a recovered object is placed on the same witness record and then read "
             "through carrier, participation, and field coherence. Source material becomes proof material only through "
-            "a selected terminal packet, a pass-side membership readout, a first Pack, Part, or Field face failure, "
+            "a selected terminal packet, a pass-side membership readout, a first Part or Field Part/Field failure, "
             "or a clearly quarantined support role."
         )
         + "\n"
