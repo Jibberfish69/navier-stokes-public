@@ -328,12 +328,12 @@ The remaining unpaid parts are exact:
 
 \[
 \boxed{
-\text{produce the tower radius, and produce geometric no-drift/tail-smallness
+\text{produce the tower radius, and produce geometric tail-smallness
 of }E_j^{gauge}.
 }
 \tag{TSU.24}
 \]
 
 Failure of the tower radius returns to the terminal radius-collapse branch; failure
-of geometric no-drift remains a visible moving-gauge/collar/readout defect or the
-MinimalZenoProfileProduction.A problem.
+of geometric tail-smallness remains a visible moving-gauge/collar/readout defect
+or the MinimalZenoProfileProduction.A problem.
