@@ -147,7 +147,7 @@ M_{CM}(N,r,Q)\varepsilon
 +o_m(1),
 ```
 
-then spends retained `B_ASAC^closed`, retained Pack/Field no-incoming, and
+then spends retained `B_ASAC^closed`, retained Field-window evidence/Field no-incoming, and
 finite CM envelope to get
 
 ```math

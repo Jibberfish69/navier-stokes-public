@@ -95,7 +95,7 @@ The authority chain now has this shape:
    exterior frequencies by the fixed-band `L^1_tL^{3/2}_x -> L^2_x` Duhamel
    estimate and forces any survivor to dyadic scale.
 3. `mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md` proves
-   that a dyadic survivor with retained Pack and Part cannot retain a fixed
+   that a dyadic survivor with retained Field-window evidence and Part cannot retain a fixed
    positive Field scale.
 4. `mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md` consumes the
    resulting branch into Part or Field and leaves direct `Tail.Hs_R3`

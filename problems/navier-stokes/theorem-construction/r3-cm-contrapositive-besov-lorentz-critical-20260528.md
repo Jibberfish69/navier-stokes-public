@@ -43,7 +43,7 @@ If the selected critical signal has a carrier while its velocity, pressure, nonl
 \neg Part_{N,Q}(\mathcal W).
 ```
 
-Assume retained Pack and retained Part.
+Assume retained Field-window evidence and retained Part.
 
 ### Besov dyadic branch
 

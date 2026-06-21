@@ -51,7 +51,7 @@ forces
 Equivalently, on the retained branch:
 
 ```math
-Pack_Q+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 +\text{vanishing-ledger positive-source packet}
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}.
@@ -85,7 +85,7 @@ arbitrarily small scales. This contradicts the tail vanishing required by
 `Field_{N,r,Q}`.
 
 2. If the residue is terminal Zeno/atomic, the installed theorem
-`RetainedZenoAtomFieldExit.A` applies. Under retained Pack and Part, a nonzero
+`RetainedZenoAtomFieldExit.A` applies. Under retained Field-window evidence and Part, a nonzero
 zero-heat-time source residue is an internal source/readout term on the same
 carrier, so it is a Field/source-residue exit rather than a new face.
 
