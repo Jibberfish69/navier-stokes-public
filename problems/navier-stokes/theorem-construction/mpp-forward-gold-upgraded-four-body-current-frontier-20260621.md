@@ -1,8 +1,8 @@
 ---
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
-status: consolidated-frontier-installed-strict-cycle-payment-or-rigidity-open
+status: consolidated-frontier-installed-strict-cycle-payment-or-rigidity-open-supplement-criteria-updated
 logical_landing_node: upgraded_four_body_current_frontier
-edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, and the source-square/no-waste supplement criterion. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste is now a proved criterion: it closes only after same-carrier domination and an unweighted square/no-waste budget are produced. The remaining gold theorem is therefore one of the other precise same-carrier production directions: critical-density budget, signed polar saturation, rigid source-residue production, or legal/charged pre-Cauchy remainder reduction, with source-square/no-waste still open exactly at identity, coefficient-overrun, or missing unweighted-budget production."
+edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, and the critical-density/CKN supplement criterion. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste and critical-density/CKN are proved supplement criteria, not produced Navier-Stokes estimates. The remaining gold theorem is a same-carrier production theorem: produce an unweighted square/no-waste or critical-density/CKN reserve, signed polar saturation, rigid source-residue production, or legal/charged pre-Cauchy remainder reduction."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-factorial-tower-radius-spend-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-participation-exchange-normal-form-20260621.md
@@ -22,6 +22,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-precauchy-to-gauge-quotient-tower-bridge-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-field-amplitude-to-quotient-tower-supplement-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-density-ckn-fourbody-supplement-criterion-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -900,6 +901,101 @@ estimate.  Its exact remaining production locations are:
 }
 \tag{4BF.45}
 ```
+
+The critical-density/CKN supplement has now been assembled in the same exact
+form.  The native main trilinear carrier obeys the sharp Holder domination
+
+```math
+\left[
+\left\langle\Sigma W,W\right\rangle
+\right]_+
+\le
+{2\over5}|\Sigma|^{5/2}
++
+{3\over5}|W|^{10/3}.
+\tag{4BF.46}
+```
+
+Hence a same-carrier unweighted budget for
+
+```math
+H_{\Sigma,W}=|\Sigma|^{5/2}+|W|^{10/3}
+\tag{4BF.47}
+```
+
+would give
+
+```math
+\int_{\sigma_0}^{\infty}dA_{\rm sel}<\infty
+\tag{4BF.48}
+```
+
+after legal and charged remainders are included.  The terminal-tail version
+likewise forbids a time-face atom if \(H_{\Sigma,W}\) depletes on the same
+selected terminal strips.
+
+This critical-density criterion is not produced by the installed energy or
+CKN-packing inputs.  Energy gives only the discounted velocity and strain
+budgets
+
+```math
+\int_{Q_r}|u|^{10/3}
+=
+r^{5/3}\int_{Q_1}|U|^{10/3},
+\qquad
+\int_{Q_r}|S_xu|^2
+=
+r\int_{Q_1}|S_yU|^2,
+\tag{4BF.49}
+```
+
+while physical CKN mass gives only
+
+```math
+\sum_j r_j^2\,\mathcal C(Q_{r_j})<\infty,
+\tag{4BF.50}
+```
+
+not the unweighted normalized sum
+
+```math
+\sum_j\mathcal C(Q_{r_j})<\infty.
+\tag{4BF.51}
+```
+
+The \(L^{5/2}\) strain component is genuinely scale-critical,
+
+```math
+\int_{Q_r}|S_xu|^{5/2}
+=
+\int_{Q_1}|S_yU|^{5/2},
+\tag{4BF.52}
+```
+
+but it is not supplied by energy-level dissipation.
+
+So the critical-density/CKN route is now a proved supplement criterion with
+exact open production sites:
+
+```math
+\boxed{
+\text{same-carrier critical-density identity;}
+\quad
+\text{unweighted selected }L^{5/2}\text{ strain or normalized CKN budget;}
+\quad
+\text{same-layer overrun tail depletion;}
+\quad
+\text{full pre-Cauchy remainder reduction.}
+}
+\tag{4BF.53}
+```
+
+Thus the remaining supplement list is narrower.  Amplitude/Field is paid under
+a same-carrier bounded coefficient or becomes Field-facing after same-witness
+admission.  Source-square/no-waste and critical-density/CKN are exact
+criteria.  The still-unproduced gold work is the same-carrier unweighted
+reserve, signed polar saturation, rigid source-residue production, or
+legal/charged full pre-Cauchy remainder reduction.
 
 The exact remaining same-carrier supplement is one of:
 
