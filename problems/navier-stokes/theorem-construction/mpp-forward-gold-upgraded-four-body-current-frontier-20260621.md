@@ -10,6 +10,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-deformation-gradient-return-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-packet-selector-polar-retention-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-four-body-terminal-atom-accounting-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-activity-persistence-replacement-criterion-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -382,7 +383,8 @@ dK_{\rm sel}
 \boxed{
 dK_C^+
 \quad
-\text{Body-III compactness/no-loss relay failure;}
+\text{Body-III compactness/no-loss relay failure, including selected positive
+activity disappearing in the compact limit;}
 }
 \tag{4BF.28}
 ```
@@ -436,6 +438,25 @@ payment.
 It says that a nonzero terminal selected pulse cannot circulate forever through
 tower, participation, compactness, and deformation geometry while every body
 records zero loss and zero mismatch.
+
+The compactness part of this statement is now sharpened.  The loop does not
+need a vague continuity assumption for \(A_{\rm sel}\).  It needs selected
+positive activity persistence:
+
+```math
+X_n\to X,
+\qquad
+A_{\rm sel}(X_n)\ge\eta,
+\qquad
+K_{{\rm sel},n}+K_{C,n}^+ +R_{{\rm legal},n}\to0
+\Longrightarrow
+A_{\rm ret}(X)\ge\eta_*(\eta)>0.
+\tag{4BF.31a}
+```
+
+If `(4BF.31a)` fails, the failure is not a new fifth body.  It is charged to
+the existing selector/compactness/legal defects \(K_{\rm sel}\), \(K_C^+\), or
+\(R_{\rm legal}\).
 
 ## 8. Current conclusion
 
