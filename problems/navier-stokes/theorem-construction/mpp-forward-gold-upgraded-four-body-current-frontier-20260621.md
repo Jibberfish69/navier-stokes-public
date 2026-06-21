@@ -1128,6 +1128,35 @@ scale-channel evidence.  They do not by themselves pay the selected packet
 until their transport estimates are placed inside this full time-pressure-
 viscosity-incompressibility-localization balance.
 
+The lossless side of this full-cycle route has now been proved under the
+same-carrier compactness and gauge-invariant activity hypotheses.  If every
+full Hodge-Stokes payment in `(4BF.45m)` vanishes, then the limiting packet has
+
+```math
+V(s,y)=m(s),
+\qquad
+P(s,y)=-m'(s)\cdot y+c(s),
+\tag{4BF.45o}
+```
+
+modulo vanishing terms.  This is only Galilean velocity plus affine-pressure
+gauge.  Therefore any selected singular participation activity that annihilates
+that gauge is zero:
+
+```math
+\boxed{
+\text{lossless full Hodge-Stokes packet}
+\Longrightarrow
+A_{\rm sel}=0.
+}
+\tag{4BF.45p}
+```
+
+So the full-cycle branch is now split exactly: rigidity is paid after
+same-carrier compactness, while production is still open at full-packet
+custody, selected full-packet identification, and terminal trace/no-waste for
+the full-cycle payments.
+
 The critical-density/CKN supplement has now been assembled in the same exact
 form.  The native main trilinear carrier obeys the sharp Holder domination
 
