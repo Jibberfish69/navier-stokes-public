@@ -101,7 +101,19 @@ FORBIDDEN = {
   "old pre-Pack indexed Part before Pack" => /(?:analyze|test) Part_\{N,Q\} before Pack\(Q\)/,
   "old pre-Pack Part_NQ meaningful question" => /was Part_\{N,Q\} meaningful under the pointwise original Navier-Stokes participation law/,
   "old target-as-face-landing grammar" => /State the target as a Pack\/Part\/Field landing attempt/,
-  "old promotion skips original-NS participation" => /Does this result enter Silver Pack_Q, Part_\{N,Q\}, or Field_\{N,r,Q\}/
+  "old promotion skips original-NS participation" => /Does this result enter Silver Pack_Q, Part_\{N,Q\}, or Field_\{N,r,Q\}/,
+  "old pointwise original-NS participation marker" => /pointwise original-NS participation/,
+  "old pointwise original-NS Part shorthand" => /pointwise original-NS Part/,
+  "old pointwise Part shorthand" => /\bpointwise Part\b/,
+  "old Part-first resurfacing wording" => /Part-first resurfacing/,
+  "old Part-resurfacing wording" => /Part-resurfacing/,
+  "old Part-first audit wording" => /Part-first audit/,
+  "old pre-Pack Part resurfacing wording" => /pre-Pack Part resurfacing/,
+  "old Part-first terminal branch wording" => /\b(?:is|was|remains|becomes)\s+Part-first\b/,
+  "old Part-first when wording" => /Part-first when/,
+  "old primitive services ontology wording" => /`Pack`, `Part`, and `Field` are the canonical route-relative primitive services/,
+  "old witness envelope certification wording" => /Pack\/Part\/Field as the canonical route-relative witness envelope used to certify membership/,
+  "old Pack Part Field certification shorthand" => /Pack\/Part\/Field certification/
 }.freeze
 
 BROAD_TERMINAL_FORBIDDEN = FORBIDDEN.select do |label, _|
@@ -121,12 +133,15 @@ BROAD_SCAN_ROOTS = %w[
 REQUIRED_MARKERS = [
   "PackBeforePartDependencyResurfacing",
   "Pack-before-Part",
-  "pre-Pack Part",
   "pre-Pack not-Pack",
-  "pre-Pack pointwise",
+  "pre-Pack original-participation audit",
+  "Part is the original",
+  "original NS participation ontology",
   "original Navier-Stokes participation law",
+  "original NS participation law",
   "original-NS participation",
-  "pointwise original-NS participation",
+  "localized finite-depth Silver record",
+  "finite packet-local Silver record",
   "Silver Pack_Q",
   "Silver CM exit tree"
 ].freeze
@@ -149,12 +164,14 @@ ACTIVE_PATHS.each do |relative_path|
     violations << "#{relative_path}: missing Pack-before-Part resurfacing marker"
   end
 
-  text.each_line.with_index(1) do |line, line_no|
-    FORBIDDEN.each do |label, pattern|
-      next unless line.match?(pattern)
+  unless relative_path == "problems/navier-stokes/tools/check_pack_before_part_resurfacing_drift.rb"
+    text.each_line.with_index(1) do |line, line_no|
+      FORBIDDEN.each do |label, pattern|
+        next unless line.match?(pattern)
 
-      preview = line.gsub(/\s+/, " ").strip
-      violations << "#{relative(path)}:#{line_no}: #{label}: #{preview}"
+        preview = line.gsub(/\s+/, " ").strip
+        violations << "#{relative(path)}:#{line_no}: #{label}: #{preview}"
+      end
     end
   end
 rescue ArgumentError
