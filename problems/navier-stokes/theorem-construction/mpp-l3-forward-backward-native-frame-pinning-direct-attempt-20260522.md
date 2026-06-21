@@ -123,7 +123,7 @@ unless that source work is already:
 ```math
 \neg_{sel}ScaleCriticalTreeCarleson.A
 \quad\text{or}\quad
-\text{paid Pack/Part/legal exit.}
+\text{paid Part/legal exit.}
 ```
 
 Equivalently, on retained source tiles after legal and high-high/source-wall
@@ -161,7 +161,7 @@ The high-high/source term and the legal term are already classified. The
 orthogonal term is exactly the pairing of the low-high source with
 `P^{native,\perp}_{w_j}\Phi_j`. By
 `L3ForwardBackwardNativeFramePinning.A`, that term cannot carry fixed retained
-lower bound except by selected source-wall failure or paid Pack/Part/legal
+lower bound except by selected source-wall failure or paid Part/legal
 exit. Therefore, on the retained branch, only `G_N` remains to carry the
 lower bound. This proves `L3AdjointNativeOrthogonalNoCarry.A`. `\square`
 

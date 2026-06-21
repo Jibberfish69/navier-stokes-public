@@ -19,8 +19,8 @@ L3TerminalSignedPartnerNoFreeDefect.A:
 ```
 
 where `\delta_j` is the retained same-family signed partner defect left after
-one-sided terminal selection, except as selected Pack-side/source-wall failure
-or paid Pack/Part/legal exit.
+one-sided terminal selection, except as selected Field-window/source-wall failure
+or paid Part/legal exit.
 
 Equivalently, after the allowed exits are removed,
 
@@ -45,7 +45,7 @@ Equivalently, after the allowed exits are removed,
 - `mpp-terminal-zeno-pack-failure-correction-20260521.md` and
   `mpp-scalecritical-tree-carleson-pack-side-cm-exit-20260521.md`, which put
   terminal zero-radius Zeno residue and unpaid scale-critical donor-refill
-  ancestry on the Pack-side CM-exit face.
+  ancestry on the Field-window support face.
 
 ## Proof
 
@@ -66,8 +66,8 @@ R_\delta
 
 The direct saturation attempt already sorts every non-same-family defect:
 cutoff, projection, pressure, collar, boundary, and off-family pieces are paid
-Pack/Part/legal exits; high-high or donor-square refill is selected
-Pack-side/source-wall failure. Thus a free defect must be same-family and must
+Part/legal exits; high-high or donor-square refill is selected
+Field-window/source-wall failure. Thus a free defect must be same-family and must
 represent exactly the one-sided signed-partner loss from the terminal signed
 saturation notes.
 
@@ -86,14 +86,14 @@ ledgers. An unpaid infinite scale-critical donor-refill tree is
 \neg ScaleCriticalTreeCarleson.A,
 ```
 
-and the May 21 Pack-side correction gives
+and the May 21 Field-window support correction gives
 
 ```math
 \neg ScaleCriticalTreeCarleson.A\Longrightarrow \neg Pack_Q.
 ```
 
 So every non-terminal-Zeno way for `\delta_j` to carry fixed work is already an
-allowed Pack/Part/legal or selected Pack-side/source-wall exit.
+allowed Part/legal or selected Field-window/source-wall exit.
 
 The only remaining branch in the post-ASAC comparison is the no-free-sink
 terminal Zeno source-refill atom: a same-fluid donor sink feeds the selected
@@ -112,7 +112,7 @@ failure is therefore
 ```
 
 Thus the last possible same-family signed-partner defect is also an allowed
-selected Pack-side/source-wall failure.
+selected Field-window/source-wall failure.
 
 Consequently, once the allowed exits are removed, no retained same-family
 `\delta_j` can carry a fixed lower bound:

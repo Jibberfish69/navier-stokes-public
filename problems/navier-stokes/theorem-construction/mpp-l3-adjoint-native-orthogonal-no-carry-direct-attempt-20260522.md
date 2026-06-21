@@ -49,7 +49,7 @@ W_\Phi\ge c_0
 \Longrightarrow
 G_N\ge c_1
 \vee \neg_{sel}ScaleCriticalTreeCarleson.A
-\vee \text{paid Pack/Part/legal exit}.
+\vee \text{paid Part/legal exit}.
 ```
 
 ## Decomposition
@@ -69,9 +69,9 @@ Here:
 
 - `G_N` is the native low-strain/high-packet contraction;
 - `R^{hh/src}` is the high-high or donor-square reserve channel, hence selected
-  Pack-side/source-wall failure if it carries the lower bound without payment;
+  Field-window/source-wall failure if it carries the lower bound without payment;
 - `R^{legal}` is cutoff, collar, projection, pressure, or off-family leakage,
-  hence a paid Pack/Part/legal exit if it carries the lower bound;
+  hence a paid Part/legal exit if it carries the lower bound;
 - `R^{orth}_{L3}` is the remaining response-visible but native-orthogonal
   component: the projected heat-Leray covector sees source work not yet
   identified with the same-time native high-low energy edge.
@@ -122,7 +122,7 @@ L3AdjointNativeOrthogonalNoCarry.A:
 \quad
 R^{orth}_{L3}
 \text{ cannot carry a fixed same-ledger lower bound}
-\text{ under retained Pack/Part and no legal exit.}
+\text{ under retained Part/Field and no legal exit.}
 }
 ```
 
@@ -133,7 +133,7 @@ R^{orth}_{L3}\ge c
 \Longrightarrow
 \neg_{sel}ScaleCriticalTreeCarleson.A
 \vee
-\text{paid Pack/Part/legal exit}.
+\text{paid Part/legal exit}.
 ```
 
 ## Conditional Closure
@@ -150,8 +150,8 @@ TerminalAdjointResponseNativeEdgeAnchoring_L3.A.
 
 Proof. If `W_\Phi>=c_0`, decompose it as
 `G_N+R^{orth}_{L3}+R^{hh/src}+R^{legal}`. If `R^{legal}` carries fixed mass, the
-branch has paid Pack/Part/legal exit. If `R^{hh/src}` carries fixed mass, the
-branch has selected Pack-side/source-wall failure. If `R^{orth}_{L3}` carries
+branch has paid Part/legal exit. If `R^{hh/src}` carries fixed mass, the
+branch has selected Field-window/source-wall failure. If `R^{orth}_{L3}` carries
 fixed mass, `L3AdjointNativeOrthogonalNoCarry.A` sends it to the same exit
 alternatives. On the retained branch with those alternatives removed, the only
 remaining carrier is `G_N`, hence `G_N>=c_1` after the finite splitting loss.
@@ -180,5 +180,5 @@ translator notes alone. The exact remaining theorem-facing gap is
 
 It is narrower than the previous anchoring phrase: only the response-visible
 native-orthogonal component remains unclassified. All other pieces are already
-native source, selected Pack-side/source-wall failure, or paid Pack/Part/legal
+native source, selected Field-window/source-wall failure, or paid Part/legal
 exit.

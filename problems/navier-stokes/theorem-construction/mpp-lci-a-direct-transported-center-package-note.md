@@ -4692,7 +4692,7 @@ For `END.Cross`, use the blown gauge split
 ```
 
 so blown reduces to packing-detached or tower-blown; jump cross-entries reduce
-by `Pack+Part+Jump => Field`-coherence fracture; and dead cross-entries reduce
+by `Part plus Field-window evidence+Jump => Field`-coherence fracture; and dead cross-entries reduce
 to the installed `(Part,Dead)` row. Hence
 
 ```math

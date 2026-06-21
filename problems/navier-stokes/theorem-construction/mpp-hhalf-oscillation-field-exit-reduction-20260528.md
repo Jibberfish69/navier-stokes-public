@@ -120,6 +120,6 @@ A fixed low-depth Field face does not see arbitrary high-frequency escape. The F
 `FieldCoherenceControlsCriticalShell.A` is no longer the open estimate in this
 chain.  The remaining condition is that `SameLedgerHHalfExtraction.A` actually
 produces the same-witness localized packet with the selected terminal dyadic
-shell on the retained Pack+Part record.  Once that packet is present, the
+shell on the retained Part plus Field-window evidence record.  Once that packet is present, the
 installed matched Field finite-difference readout gives the displayed shell
 bound and a persistent terminal shell excess selects `\neg Field_{N(J),r_J,Q}`.

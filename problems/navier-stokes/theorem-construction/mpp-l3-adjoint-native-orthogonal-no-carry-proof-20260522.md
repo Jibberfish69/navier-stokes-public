@@ -17,12 +17,12 @@ R^{orth}_{L3}\ge c
 \Longrightarrow
 \neg_{sel}ScaleCriticalTreeCarleson.A
 \vee
-\text{paid Pack/Part/legal exit.}
+\text{paid Part/legal exit.}
 }
 ```
 
-Equivalently, after selected Pack-side/source-wall work and paid
-Pack/Part/legal leakage are removed, the response-visible native-orthogonal
+Equivalently, after selected Field-window/source-wall work and paid
+Part/legal leakage are removed, the response-visible native-orthogonal
 component cannot carry a fixed lower bound. Hence the same-ledger response work
 anchors to the native high-low source edge.
 
@@ -34,7 +34,7 @@ anchors to the native high-low source edge.
   `\psi_m = |w_m|w_m 1_{Q_m}` selected by the response packet.
 - Retained `Pack_Q` and `Part_{N,Q}` on the same terminal ledger.
 - Existing pressure/cutoff/collar/projection legal ledgers.
-- The Pack-side reading of selected source-wall reserve failure from
+- The Field-window support reading of selected source-wall reserve failure from
   `mpp-scalecritical-tree-carleson-pack-side-cm-exit-20260521.md`.
 
 ## Proof
@@ -72,7 +72,7 @@ and
 ```math
 R^{legal}\text{ carries fixed mass}
 \Longrightarrow
-\text{paid Pack/Part/legal exit.}
+\text{paid Part/legal exit.}
 ```
 
 It remains to rule out a retained fixed lower bound in `R^{orth}_{L3}`.
@@ -97,8 +97,8 @@ each selected terminal packet `P` has
 Here `w_P` is the selected high packet on the same ledger. If `err_P` carries a
 fixed part of the response work, then the terminal test has left the retained
 packet frame: this is either cutoff/collar/projection leakage, hence paid
-Pack/Part/legal exit, or high-high/off-family refill, hence selected
-Pack-side/source-wall failure. On the retained branch with those alternatives
+Part/legal exit, or high-high/off-family refill, hence selected
+Field-window/source-wall failure. On the retained branch with those alternatives
 removed, the terminal covector is therefore pinned to the native high packet
 frame.
 
@@ -124,7 +124,7 @@ b_P(s)w_P(s)+err^{heat/width}_P(s)+err^{proj/cut}_P(s),
 
 with `b_P(s)\ge0` on the heat-matched packet interval. The heat-width error is
 finite-band legal. The projection/cutoff error is exactly the pressure/cutoff
-ledger. Any part that exits the selected retained family is a paid Pack/Part
+ledger. Any part that exits the selected retained family is a paid Part/Field
 or legal exit.
 
 Therefore the free heat-Leray adjoint cannot create a retained component
@@ -143,7 +143,7 @@ R^{orth}_{L3}\ge c
 ```
 
 If it is carried by cutoff, collar, projection, pressure redistribution, or
-off-family leakage, the branch has paid Pack/Part/legal exit.
+off-family leakage, the branch has paid Part/legal exit.
 
 With those alternatives removed, no fixed `R^{orth}_{L3}` lower bound remains.
 Thus

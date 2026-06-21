@@ -166,7 +166,7 @@ or rho_m N_m(D_aF) -> 0 for a Pack-window Hessian-control norm N_m dominating M_
 
 Equivalently, prove an observability/source estimate that forces the h/F
 terminal survivor measure to vanish. Without that budget, a nonzero h/F
-terminal survivor remains a genuine Pack-side obstruction.
+terminal survivor remains a genuine Field-window support obstruction.
 
 ## New Live Criticism
 
