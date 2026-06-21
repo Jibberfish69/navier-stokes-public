@@ -133,7 +133,7 @@ tower-blown.
 ```
 
 The checked tower-face authority is explicit: `tower-blown` must not be
-projected directly to `not Pack_Q`, `not Part_{N,Q}`, or
+projected directly to `not Part_{N,Q}` or
 `not Field_{N,r,Q}` under the current predicate grammar. It remains an endpoint
 face removed by:
 

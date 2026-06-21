@@ -446,7 +446,7 @@ or a direct moving-funnel epsilon-regularity theorem.
 
 Only after one of those forward attempts hits a precise obstruction is the
 obstruction inspected as a CM class-exit witness. The current note does not
-spend the obstruction as `not Pack_Q`, `not Part_{N,Q}`, or
+spend the obstruction as `not Part_{N,Q}` or
 `forall r>0 not Field_{N,r,Q}`.
 
 ## 10. Exact Problem-Solving Flow For This Case

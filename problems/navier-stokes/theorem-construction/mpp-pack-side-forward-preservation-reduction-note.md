@@ -164,7 +164,7 @@ By `CFI.C1` and `CFI.C1a`, assumption `(PFP.8)` implies
 
 Then `PFP.A` yields `(PFP.9)`. `\square`
 
-## Theorem `PFP.C` (Pack-side forward preservation under collar strain integrability)
+## Theorem `PFP.C` (Field-window support forward preservation under collar strain integrability)
 
 Assume:
 

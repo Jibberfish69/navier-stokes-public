@@ -27,7 +27,7 @@ R_N(W)
 = int_W sum_{k>N} 2^k (sum_{ell>k+4} D_ell(t))^2 dt.
 ```
 
-The Pack-side first-birth method gives:
+The Field-window support first-birth method gives:
 
 ```text
 Pack_Q
@@ -106,7 +106,7 @@ first moment -> 0
 while the scale-critical square reserve is fixed by normalization.
 ```
 
-The zero-radius terminal residue branch is already a Pack/Part face witness in
+The zero-radius terminal residue branch is already a Part/Field face witness in
 the CM contrapositive route. It is not a proof of positive Pack survival.
 
 ## Result

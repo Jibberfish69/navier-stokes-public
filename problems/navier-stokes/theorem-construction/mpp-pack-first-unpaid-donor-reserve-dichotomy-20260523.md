@@ -44,7 +44,7 @@ face hypotheses, and write the scale-critical donor-refill reserve as
 R_N(I) = int_I sum_{k>N} 2^k (sum_{ell>k+4} D_ell(t))^2 dt.
 ```
 
-Assume the installed parent/residual/legal ledgers available to the Pack-side
+Assume the installed parent/residual/legal ledgers available to the Field-window support
 route:
 
 - `ParentSquareEmbed.A`;
@@ -54,7 +54,7 @@ route:
 - bounded overlap for the selected same-fluid terminal family;
 - declared legal-loss ledgers.
 
-Then the following reduction is the sharp Pack-side method statement:
+Then the following reduction is the sharp Field-window support method statement:
 
 ```text
 Pack_Q
@@ -131,7 +131,7 @@ The remaining alternatives are exactly the first-face exits:
    donor/entrance Pack ledger, hence a Pack-face defect, not a retained Pack
    counterexample.
 2. The first-created branch collapses to terminal zero-radius Zeno ancestry.
-   The terminal Zeno Pack-out-of-CM correction gives Part-side when original participation remains and true `not Pack_Q` only when that record is absent.
+   The terminal Zeno Pack-out-of-CM correction gives Part-side when original participation remains and true packet/window evidence only when that record is absent.
 3. A retained positive-scale first-created contribution remains uncharged.
    This is precisely `not TerminalReserveFirstAppearanceCharge.A`, equivalently
    the localized `PositiveRemainderDepletion.A` supplier atom.
@@ -169,7 +169,7 @@ terminal zero-radius donor ancestry with no original participation record
 => true not Pack_Q.
 ```
 
-So the next Pack-side proof attempt attacks the retained positive-scale
+So the next Field-window support proof attempt attacks the retained positive-scale
 first-appearance charge directly, and does not spend the `L^3` translator unless
 a separate bridge first proves
 

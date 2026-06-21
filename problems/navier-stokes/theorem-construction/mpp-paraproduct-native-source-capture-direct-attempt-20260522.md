@@ -18,13 +18,13 @@ TerminalLerayParaproductCoefficientIdentification.A.
 
 This note is inside the CM contrapositive program. Its job is witness capture:
 place the public `L^3` Duhamel response on the same CM witness ledger as a
-native source witness, a selected Pack-side/source-wall exit, or a paid
-Pack/Part/legal exit. It is not a forward source-deletion theorem.
+native source witness, a selected Field-window/source-wall exit, or a paid
+Part/legal exit. It is not a forward source-deletion theorem.
 
 The closed `B_ASAC` terminal zero-thickness CM target stays closed. The
 terminal zero-radius Zeno atom is now sorted by the Pack-out-of-CM audit:
 Part-side when the same original-NS participation record remains, and
-true Pack-side only when that record is absent. It is not a retained Field/jump
+true Field-window support only when that record is absent. It is not a retained Field/jump
 target.
 
 ## Target
@@ -52,8 +52,8 @@ source witness measure
 \ge c_1,
 ```
 
-or else into selected `ScaleCriticalTreeCarleson.A` failure, which is Pack-side
-source-wall exit language in the current CM grammar, or a paid Pack/Part/legal
+or else into selected `ScaleCriticalTreeCarleson.A` failure, which is Field-window support
+source-wall exit language in the current CM grammar, or a paid Part/legal
 exit.
 
 ## Direct Attempt
@@ -75,7 +75,7 @@ coefficient or part of the admissible coefficient ledger.
 
 The collar, cutoff, projection, and off-family pieces are legal only if they are
 charged to the installed pressure/cutoff/localization ledgers. If they are not
-chargeable, the branch has already left the retained Pack/Part/legal channel.
+chargeable, the branch has already left the retained Part/legal channel.
 
 High-high and donor-square refill is exactly the selected scale-critical
 source-wall channel. If this reserve cannot be retained on the same selected
@@ -112,7 +112,7 @@ Leray-adjoint response statement, while the native measure keeps only
 A signed lower bound for the response work can still be carried by oscillatory
 Leray recombination, pressure redistribution, or coefficient orientation that
 does not force the selected native source witness. Those alternatives are not
-new theorem branches: they are exactly legal/Part exits, selected Pack-side
+new theorem branches: they are exactly legal/Part exits, selected Field-window support
 source-wall failure, or failure of the retained Leray/coefficient
 identification.
 
@@ -132,7 +132,7 @@ G_N:=\sum_P\int_{Q(P)}
 \vee
 \neg_{sel}ScaleCriticalTreeCarleson.A
 \vee
-\text{paid Pack/Part/legal exit.}
+\text{paid Part/legal exit.}
 }
 ```
 

@@ -24,7 +24,7 @@ holds in the CM contrapositive sense:
 \vee
 \neg_{sel}ScaleCriticalTreeCarleson.A
 \vee
-\text{paid Pack/Part/legal exit.}
+\text{paid Part/legal exit.}
 ```
 
 Here
@@ -54,9 +54,9 @@ is the repo-native positive source measure on the same witness ledger.
 - `L3TerminalSignedPartnerNoFreeDefect.A`, proved in
   `mpp-l3-terminal-signed-partner-no-free-defect-proof-20260522.md`.
 - The May 21 CM correction that selected
-  `ScaleCriticalTreeCarleson.A` failure is Pack-side/source-wall exit and
+  `ScaleCriticalTreeCarleson.A` failure is Field-window/source-wall exit and
   zero-radius terminal Zeno residue lands Part-side when the same original-NS
-  original participation record remains and true `not Pack_Q` only when that
+  original participation record remains and true packet/window evidence only when that
   record is absent, not retained Field/jump.
 
 ## Proof
@@ -72,8 +72,8 @@ Apply the selected Bony/Leray expansion on the terminal packet family
 `\mathcal F_N`.
 
 The off-family, cutoff, collar, pressure, and projection terms are exactly the
-legal Pack/Part/localization ledgers. If any of them carries a fixed part of
-the lower bound without payment, the branch has paid Pack/Part/legal exit.
+legal Part/Field/localization ledgers. If any of them carries a fixed part of
+the lower bound without payment, the branch has paid Part/legal exit.
 
 The high-high and donor-square refill terms are the selected scale-critical
 source-wall channel. If they carry the lower bound, the branch has
@@ -110,7 +110,7 @@ TerminalLeraySaturation_{L3}.A,
 
 so the signed partner left after one-sided terminal selection is either the
 same retained edge after nonnegative packet-amplitude recentering, selected
-source-wall failure, or paid Pack/Part/legal exit.
+source-wall failure, or paid Part/legal exit.
 
 Thus the retained source work reduces to the native high-low square
 

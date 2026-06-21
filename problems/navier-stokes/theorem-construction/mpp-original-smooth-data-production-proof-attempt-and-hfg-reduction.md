@@ -9,7 +9,7 @@ The resulting theorem is:
 ```math
 OriginalSmoothData + HFG
 \Longrightarrow
-Pack+Part+Field+\mathfrak A_{N,Q}
+Part+Field+\mathfrak A_{N,Q}
 \Longrightarrow
 H1+H2+H6+ORIGIN.Retain
 \Longrightarrow
@@ -259,7 +259,7 @@ This proves item 6.
 
 ## 4. H3, H4, H5, END.Exh, END.Cross, ORIGIN.Retain, and six-burden replay
 
-With `Pack+Part+Field+\mathfrak A_{N,Q}` produced by `HFG`, the prior solution note gives
+With `Part+Field+\mathfrak A_{N,Q}` produced by `HFG`, the prior solution note gives
 
 ```math
 H1+H2+H6+ORIGIN.Retain.

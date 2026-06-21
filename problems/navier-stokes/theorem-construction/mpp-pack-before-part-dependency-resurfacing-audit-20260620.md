@@ -73,7 +73,7 @@ service content and may be tested before ordinary positive-radius `Pack_Q` on a
 same-solution terminal witness. This audit retypes the participation side more
 strictly: the outside-CM packet/window question is the original Navier-Stokes participation law applied to the live same-solution
 terminal object; `Part_{N,Q}` is the later localized Silver expression after a local
-tested record is named. Every outside-CM packet/window `not Pack_Q` branch must be checked for
+tested record is named. Every outside-CM packet/window packet/window branch must be checked for
 the original NS participation law before it is allowed to remain a Pack-only
 exit.
 
