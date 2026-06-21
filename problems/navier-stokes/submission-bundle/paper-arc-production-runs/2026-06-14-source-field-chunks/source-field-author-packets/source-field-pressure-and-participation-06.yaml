@@ -175,7 +175,7 @@ chunk:
 
       The only non-redundant fork left after the terminal time-thickness attempts treats the B ASAC terminal source atom as a shared-participation source-current trace and tries to force it through a transported flux balance.
 
-      where Source Measure Participation Density Bridge.A reads the native positive source residue as a shared-participation source-current trace, and M CM(N,r,Q)<infty is the retained Pack/Part/Field source-current envelope.
+      where Source Measure Participation Density Bridge.A reads the native positive source residue as a shared-participation source-current trace, and M CM(N,r,Q)<infty is the retained Part/Field source-current envelope.
 
       \[
       CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
@@ -254,7 +254,7 @@ chunk:
 
       and the sharper B ASAC flux-balance attempt keep this theorem conditional. The exact CM witness gives slice finiteness of the participation carrier; the terminal anti-atom estimate additionally needs a uniform terminal CM envelope, a transported participation-density balance, and signed saturation before terminal positive selection.
 
-      If the terminal object remains inside CM N,r,Q , then its participation density and flux are governed by the same incompressible field, the same pressure-viscosity carrier, and the same Pack/Part/Field envelope.
+      If the terminal object remains inside CM N,r,Q , then its participation density and flux are governed by the same incompressible field, the same pressure-viscosity carrier, and the same Part/Field envelope.
 
       Assume a retained B ASAC terminal window with CM N,r,Q membership, shared participation, no incoming participation flux, and no responsive density degree of freedom. Then for every terminal strip of length ,
 
@@ -297,7 +297,7 @@ chunk:
 
       Role: install the exact Law 2 hinge theorem linking the class-membership object law to the continuation / rigidity / closure stack.
 
-      The final quantitative realization is not claimed as fully discharged. The exact theorem front below is the theorem front that the distributed CM packet stack is already trying to prove.
+      The final quantitative realization is not claimed as fully discharged. The exact theorem front below is the theorem front that the distributed CM participation-field stack is already trying to prove.
 
       \[
       F:=\nabla_a\Phi.
@@ -504,7 +504,7 @@ chunk:
 
     The only non-redundant fork left after the terminal time-thickness attempts treats the B ASAC terminal source atom as a shared-participation source-current trace and tries to force it through a transported flux balance.
 
-    where Source Measure Participation Density Bridge.A reads the native positive source residue as a shared-participation source-current trace, and M CM(N,r,Q)<infty is the retained Pack/Part/Field source-current envelope.
+    where Source Measure Participation Density Bridge.A reads the native positive source residue as a shared-participation source-current trace, and M CM(N,r,Q)<infty is the retained Part/Field source-current envelope.
 
     \[
     CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
@@ -560,7 +560,7 @@ chunk:
 
     and the sharper B ASAC flux-balance attempt keep this theorem conditional. The exact CM witness gives slice finiteness of the participation carrier; the terminal anti-atom estimate additionally needs a uniform terminal CM envelope, a transported participation-density balance, and signed saturation before terminal positive selection.
 
-    If the terminal object remains inside CM N,r,Q , then its participation density and flux are governed by the same incompressible field, the same pressure-viscosity carrier, and the same Pack/Part/Field envelope.
+    If the terminal object remains inside CM N,r,Q , then its participation density and flux are governed by the same incompressible field, the same pressure-viscosity carrier, and the same Part/Field envelope.
 
     Assume a retained B ASAC terminal window with CM N,r,Q membership, shared participation, no incoming participation flux, and no responsive density degree of freedom. Then for every terminal strip of length ,
 
@@ -592,7 +592,7 @@ chunk:
 
     Role: install the exact Law 2 hinge theorem linking the class-membership object law to the continuation / rigidity / closure stack.
 
-    The final quantitative realization is not claimed as fully discharged. The exact theorem front below is the theorem front that the distributed CM packet stack is already trying to prove.
+    The final quantitative realization is not claimed as fully discharged. The exact theorem front below is the theorem front that the distributed CM participation-field stack is already trying to prove.
 
     \[
     F:=\nabla_a\Phi.
@@ -692,7 +692,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

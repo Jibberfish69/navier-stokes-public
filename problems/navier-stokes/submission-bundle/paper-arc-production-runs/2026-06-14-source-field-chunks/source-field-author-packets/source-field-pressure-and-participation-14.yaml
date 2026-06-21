@@ -129,7 +129,7 @@ chunk:
       \neg Part_{N,Q}(\mathcal W).
       \]
 
-      Thus retained Pack, retained Part, and retained Field imply the standard BKM continuation condition. The same smooth solution extends beyond T *. This contradicts the assumed vorticity/strain terminal wall.
+      Thus retained Field-window evidence, retained Part, and retained Field imply the standard BKM continuation condition. The same smooth solution extends beyond T *. This contradicts the assumed vorticity/strain terminal wall.
 
       \[
       \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
@@ -190,7 +190,7 @@ chunk:
 
       Clay Terminal WitnessCMEntry.A / Clay Finite Failure TypeCMExhaustion.A / ClayCMContrapositive Embedding.A.
 
-      CM-test-admissible Clay terminal object enters the same-fluid CM terminal packet tree and is exhausted by a first Pack/Part/Field face failure.
+      CM-test-admissible Clay terminal object enters the same-fluid CM terminal packet tree and is exhausted by a first Part/Field face failure.
 
       Let W * be offered as the finite-time Clay breakdown witness for the same original smooth Navier-Stokes datum on the active periodic surface.
 
@@ -200,7 +200,7 @@ chunk:
 
       This is not a proof of Clay Counterexample Exclusion Bridge.A. It is the exact noncircular local burden left by the installed CM surfaces.
 
-      Clay target-fidelity clause: the witness is a same-solution finite terminal obstruction, not an external bad object. CM exhaustion clause: the witness enters the same-fluid terminal tree and declares its first Pack/Part/Field face failure. Alternative-exhaustion clause: after face failure, the object is not a legal Member(Q) continuation branch; the pass branch is the only in-class continuation branch.
+      Clay target-fidelity clause: the witness is a same-solution finite terminal obstruction, not an external bad object. CM exhaustion clause: the witness enters the same-fluid terminal tree and declares its first Part/Field face failure. Alternative-exhaustion clause: after face failure, the object is not a legal Member(Q) continuation branch; the pass branch is the only in-class continuation branch.
 
       Any proof attempt that replaces clause 3 with a theorem-sized positive no-exit statement repeats the drift this rule blocks.
 
@@ -218,11 +218,11 @@ chunk:
     text: |+
       \subsection{Clay problem Retained Pressure Package CM Face Placement}
 
-      Let W * be a CM-test-admissible finite terminal object on the active same-fluid terminal packet Q. By Clay Terminal WitnessCMEntry.A, the object enters the Pack-first terminal CM tree. By the torus global material atlas note,
+      Let W * be a CM-test-admissible finite terminal object on the active same-fluid terminal packet Q. By Clay Terminal WitnessCMEntry.A, the object enters the Part/Field terminal CM test. By the torus global material atlas note,
 
       This is not a terminal failure. It is pass-side receiver support for a retained Field/readout branch.
 
-      The proof consequence is this: a terminal pressure-package problem is no longer allowed to float as an unresolved graph sibling. It must be typed as Part failure, retained receiver support, or Field failure after retained Pack+Part.
+      The proof consequence is this: a terminal pressure-package problem is no longer allowed to float as an unresolved graph sibling. It must be typed as Part failure, retained receiver support, or Field failure after retained Field-window evidence+Part.
 
 
     truncated: false
@@ -311,7 +311,7 @@ chunk:
     group_id: pressure-and-participation
     text: "\\subsection{Clay problem Clay Part-Face Exclusion Working Pass}\n\nIn
       this historical working pass, the target was the exact positive statement needed
-      to exclude a retained-Pack first Part face.\n\nAssume a finite Clay breakdown
+      to exclude a retained-Part/Field first Part face.\n\nAssume a finite Clay breakdown
       from smooth original data. Let (u,p) be the maximal classical Navier-Stokes
       solution on [0,T *), and let Q be the canonical terminal packet after legal
       losses, non-selected branches, readout artifacts, and paid finite records have
@@ -410,7 +410,7 @@ chunk:
     \neg Part_{N,Q}(\mathcal W).
     \]
 
-    Thus retained Pack, retained Part, and retained Field imply the standard BKM continuation condition. The same smooth solution extends beyond T *. This contradicts the assumed vorticity/strain terminal wall.
+    Thus retained Field-window evidence, retained Part, and retained Field imply the standard BKM continuation condition. The same smooth solution extends beyond T *. This contradicts the assumed vorticity/strain terminal wall.
 
     \[
     \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
@@ -448,7 +448,7 @@ chunk:
 
     Clay Terminal WitnessCMEntry.A / Clay Finite Failure TypeCMExhaustion.A / ClayCMContrapositive Embedding.A.
 
-    CM-test-admissible Clay terminal object enters the same-fluid CM terminal packet tree and is exhausted by a first Pack/Part/Field face failure.
+    CM-test-admissible Clay terminal object enters the same-fluid CM terminal packet tree and is exhausted by a first Part/Field face failure.
 
     Let W * be offered as the finite-time Clay breakdown witness for the same original smooth Navier-Stokes datum on the active periodic surface.
 
@@ -458,7 +458,7 @@ chunk:
 
     This is not a proof of Clay Counterexample Exclusion Bridge.A. It is the exact noncircular local burden left by the installed CM surfaces.
 
-    Clay target-fidelity clause: the witness is a same-solution finite terminal obstruction, not an external bad object. CM exhaustion clause: the witness enters the same-fluid terminal tree and declares its first Pack/Part/Field face failure. Alternative-exhaustion clause: after face failure, the object is not a legal Member(Q) continuation branch; the pass branch is the only in-class continuation branch.
+    Clay target-fidelity clause: the witness is a same-solution finite terminal obstruction, not an external bad object. CM exhaustion clause: the witness enters the same-fluid terminal tree and declares its first Part/Field face failure. Alternative-exhaustion clause: after face failure, the object is not a legal Member(Q) continuation branch; the pass branch is the only in-class continuation branch.
 
     Any proof attempt that replaces clause 3 with a theorem-sized positive no-exit statement repeats the drift this rule blocks.
 
@@ -466,11 +466,11 @@ chunk:
 
     \subsection{Clay problem Retained Pressure Package CM Face Placement}
 
-    Let W * be a CM-test-admissible finite terminal object on the active same-fluid terminal packet Q. By Clay Terminal WitnessCMEntry.A, the object enters the Pack-first terminal CM tree. By the torus global material atlas note,
+    Let W * be a CM-test-admissible finite terminal object on the active same-fluid terminal packet Q. By Clay Terminal WitnessCMEntry.A, the object enters the Part/Field terminal CM test. By the torus global material atlas note,
 
     This is not a terminal failure. It is pass-side receiver support for a retained Field/readout branch.
 
-    The proof consequence is this: a terminal pressure-package problem is no longer allowed to float as an unresolved graph sibling. It must be typed as Part failure, retained receiver support, or Field failure after retained Pack+Part.
+    The proof consequence is this: a terminal pressure-package problem is no longer allowed to float as an unresolved graph sibling. It must be typed as Part failure, retained receiver support, or Field failure after retained Field-window evidence+Part.
 
 
 
@@ -529,7 +529,7 @@ chunk:
 
     \subsection{Clay problem Clay Part-Face Exclusion Working Pass}
 
-    In this historical working pass, the target was the exact positive statement needed to exclude a retained-Pack first Part face.
+    In this historical working pass, the target was the exact positive statement needed to exclude a retained-Part/Field first Part face.
 
     Assume a finite Clay breakdown from smooth original data. Let (u,p) be the maximal classical Navier-Stokes solution on [0,T *), and let Q be the canonical terminal packet after legal losses, non-selected branches, readout artifacts, and paid finite records have been removed.
 
@@ -556,7 +556,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

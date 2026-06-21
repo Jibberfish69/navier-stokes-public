@@ -53,7 +53,7 @@ chunk:
       Conditional bridge verified at the source-current readout level. The bridge concerns participation density/current, not physical fluid density.
 
       \[
-      CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+      CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
       \]
 
       Shared Participation And Tower Coherence gives the common incompressible flow map, common pressure-viscosity tower carrier, and common finite-difference field law.
@@ -436,7 +436,7 @@ chunk:
     Conditional bridge verified at the source-current readout level. The bridge concerns participation density/current, not physical fluid density.
 
     \[
-    CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+    CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
     \]
 
     Shared Participation And Tower Coherence gives the common incompressible flow map, common pressure-viscosity tower carrier, and common finite-difference field law.
@@ -737,7 +737,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

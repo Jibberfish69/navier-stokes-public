@@ -279,7 +279,7 @@ chunk:
       Conditional theorem installed at the route-relative source-current participation level.
 
       \[
-      CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}
+      CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}
       \]
 
       and assume Source Measure Participation Density Bridge.A, so that the native positive source residue is the selected terminal source-current trace of the shared participation/tower field.
@@ -318,7 +318,7 @@ chunk:
       If J in is absent and M CM (N,r,Q)< is uniform on the terminal window, this gives the terminal anti-atom modulus.
 
       \[
-      CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+      CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
       \]
 
       \[
@@ -347,7 +347,7 @@ chunk:
 
       Such blowup is already a CM witness-face failure, but it is not a forward source-wall anti-atom theorem.
 
-      The first failure is a Pack/Part/Field envelope exit. The second is a transported flux/participation exit. The third says the source-current readout was not licensed as a transported participation density.
+      The first failure is a Part/Field envelope exit. The second is a transported flux/participation exit. The third says the source-current readout was not licensed as a transported participation density.
 
       \[
       J(A\to B)=F>0,
@@ -599,7 +599,7 @@ chunk:
     Conditional theorem installed at the route-relative source-current participation level.
 
     \[
-    CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}
+    CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}
     \]
 
     and assume Source Measure Participation Density Bridge.A, so that the native positive source residue is the selected terminal source-current trace of the shared participation/tower field.
@@ -627,7 +627,7 @@ chunk:
     If J in is absent and M CM (N,r,Q)< is uniform on the terminal window, this gives the terminal anti-atom modulus.
 
     \[
-    CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+    CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
     \]
 
     \[
@@ -656,7 +656,7 @@ chunk:
 
     Such blowup is already a CM witness-face failure, but it is not a forward source-wall anti-atom theorem.
 
-    The first failure is a Pack/Part/Field envelope exit. The second is a transported flux/participation exit. The third says the source-current readout was not licensed as a transported participation density.
+    The first failure is a Part/Field envelope exit. The second is a transported flux/participation exit. The third says the source-current readout was not licensed as a transported participation density.
 
     \[
     J(A\to B)=F>0,
@@ -691,7 +691,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
