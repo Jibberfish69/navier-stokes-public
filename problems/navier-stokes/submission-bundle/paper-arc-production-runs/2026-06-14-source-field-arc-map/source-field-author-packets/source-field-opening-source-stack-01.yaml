@@ -34,7 +34,7 @@ chunk:
   - Canonical PCTP Hard Bridge From Averaged Terminal Tail Route
   - Measurable Selected Center Field Reduces Canonical Atlas Admissibility
   - Clay problem M Q Local Membership Canonical Surface
-  - Clay problem Pack-Part-Field Canonicality Reduction Note
+  - Clay problem Part-Field Canonicality Reduction Note
   - Pctp Hard Canonical V2 Failure Modes Export Release Note
   source_units:
   - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
@@ -354,17 +354,17 @@ chunk:
 
     truncated: false
   - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
-    subsection_title: Clay problem Pack-Part-Field Canonicality Reduction Note
+    subsection_title: Clay problem Part-Field Canonicality Reduction Note
     line_start: 43964
     line_end: 44014
     source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43964
-    start_anchor: "\\subsection{Clay problem Pack-Part-Field Canonicality Reduction
+    start_anchor: "\\subsection{Clay problem Part-Field Canonicality Reduction
       Note}\n"
-    end_anchor: "\\subsection{Clay problem Pack-Part-Field Ontological Collapse Question}\n"
+    end_anchor: "\\subsection{Clay problem Part-Field Ontological Collapse Question}\n"
     include_end_anchor: false
     group_id: opening-source-stack
     text: |
-      \subsection{Clay problem Pack-Part-Field Canonicality Reduction Note}
+      \subsection{Clay problem Part-Field Canonicality Reduction Note}
 
       No final theorem is claimed that the triad is the uniquely correct decomposition among all conceivable reformulations.
 
@@ -725,7 +725,7 @@ chunk:
 
 
 
-    \subsection{Clay problem Pack-Part-Field Canonicality Reduction Note}
+    \subsection{Clay problem Part-Field Canonicality Reduction Note}
 
     No final theorem is claimed that the triad is the uniquely correct decomposition among all conceivable reformulations.
 
@@ -826,7 +826,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
@@ -1005,17 +1005,17 @@ source_rewrites:
     open continuation
 - op: replace_between
   path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
-  subsection_title: Clay problem Pack-Part-Field Canonicality Reduction Note
+  subsection_title: Clay problem Part-Field Canonicality Reduction Note
   source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43964
   line_start: 43964
   line_end: 44014
-  start_anchor: "\\subsection{Clay problem Pack-Part-Field Canonicality Reduction
+  start_anchor: "\\subsection{Clay problem Part-Field Canonicality Reduction
     Note}\n"
-  end_anchor: "\\subsection{Clay problem Pack-Part-Field Ontological Collapse Question}\n"
+  end_anchor: "\\subsection{Clay problem Part-Field Ontological Collapse Question}\n"
   include_start_anchor: true
   include_end_anchor: false
   author_replacement_required: true
-  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pack-Part-Field
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Part-Field
     Canonicality Reduction Note as paper-ready TeX with proof/support/open status.
 
 '

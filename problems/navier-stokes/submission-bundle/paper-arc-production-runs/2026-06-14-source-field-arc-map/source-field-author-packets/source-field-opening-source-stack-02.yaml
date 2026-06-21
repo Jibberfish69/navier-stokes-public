@@ -112,7 +112,7 @@ chunk:
       Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
-      So before the terminal time, the canonical object is already the same same-fluid Pack/Part/Field packet. The only question is what survives as t T *.
+      So before the terminal time, the canonical object is already the same same-fluid Part/Field packet. The only question is what survives as t T *.
 
       Pass to a terminal subsequence of preterminal packets carrying the selected obstruction R *.
 
@@ -191,7 +191,7 @@ chunk:
     Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
-    So before the terminal time, the canonical object is already the same same-fluid Pack/Part/Field packet. The only question is what survives as t T *.
+    So before the terminal time, the canonical object is already the same same-fluid Part/Field packet. The only question is what survives as t T *.
 
     Pass to a terminal subsequence of preterminal packets carrying the selected obstruction R *.
 
@@ -204,7 +204,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

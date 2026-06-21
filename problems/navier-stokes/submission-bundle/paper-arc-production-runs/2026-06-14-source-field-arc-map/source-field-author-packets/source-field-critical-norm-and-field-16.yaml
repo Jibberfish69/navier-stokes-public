@@ -59,7 +59,7 @@ chunk:
       \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
       \]
 
-      Same LedgerHHalf Extraction.A: a terminal critical H 1/2 shell either lands at Pack Q, lands at Part N,Q , or becomes a same-witness localized dyadic packet.
+      Same LedgerHHalf Extraction.A: a terminal critical H 1/2 shell either stays outside CM as Field-window evidence, lands at Part N,Q , or becomes a same-witness localized dyadic packet.
 
       Field Coherence Controls Critical Shell.A: that matched modulus controls the critical shell quantity 2 J P Jv 2 2. R3CriticalL3Wall ToCMFace.A: the amplitude branch of critical concentration lands in the Field face through the local L 3 translator.
 
@@ -75,7 +75,7 @@ chunk:
       \neg Part_{N,Q}(\mathcal W).
       \]
 
-      It remains to treat the retained Pack+Part branch. In that branch the selected shell is a same-witness dyadic packet
+      It remains to treat the retained Field-window evidence+Part branch. In that branch the selected shell is a same-witness dyadic packet
 
       \[
       v_m=\chi_{a_m}^{\mathcal W}(t_m)u(t_m),
@@ -85,7 +85,7 @@ chunk:
 
       Split the critical H 1/2 signal into amplitude and pure oscillatory alternatives.
 
-      In the amplitude alternative, the critical shell carries local critical size visible through the installed local L 3 translator. By R3CriticalL3Wall ToCMFace.A, retained Pack+Part sends that terminal concentration to the Field face.
+      In the amplitude alternative, the critical shell carries local critical size visible through the installed local L 3 translator. By R3CriticalL3Wall ToCMFace.A, retained Field-window evidence+Part sends that terminal concentration to the Field face.
 
       \[
       r_m^{-1}\int_{|h|\sfcomp{65977} r_m}\|v_m(\cdot+h)-v_m(\cdot)\|_2^2\,dh
@@ -121,7 +121,7 @@ chunk:
       v=P_Q u=\chi_a^{\mathcal W}u
       \]
 
-      By R3HHalf Wall ToCMFace.A, persistent same-witness H 1/2 shell exit lands in the Field face on retained Pack+Part. So the admissible dyadic Besov terminal branch lands in Pack, Part, or Field.
+      By R3HHalf Wall ToCMFace.A, persistent same-witness H 1/2 shell exit lands in the Field face on retained Field-window evidence+Part. So the admissible dyadic Besov terminal branch lands in Pack, Part, or Field.
 
       For Besov summation with finite q, apply the same shell inequality on each selected terminal shell. Any terminal exit has a shell or finite block carrying a positive fraction of the normalized exit; that selected shell/block lands by the preceding argument.
 
@@ -133,7 +133,7 @@ chunk:
       \neg Part_{N,Q}(\mathcal W).
       \]
 
-      On retained Pack+Part, the Lorentz amplitude branch gives local critical amplitude concentration. Selecting a same-witness superlevel/cylinder packet yields a local L 3 critical concentration branch. By R3CriticalL3Wall ToCMFace.A, that branch lands in the Field face.
+      On retained Field-window evidence+Part, the Lorentz amplitude branch gives local critical amplitude concentration. Selecting a same-witness superlevel/cylinder packet yields a local L 3 critical concentration branch. By R3CriticalL3Wall ToCMFace.A, that branch lands in the Field face.
 
       Every admissible Besov/Lorentz terminal critical exit lands in Pack, Part, or Field. The bridge uses actual dyadic Bernstein control for the Besov branch and the installed local L 3 translator for the Lorentz amplitude branch.
 
@@ -177,7 +177,7 @@ chunk:
       \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W)
       \]
 
-      A Lorentz terminal amplitude exit is distribution-function concentration. same-witness superlevel/cylinder selection either fails Pack, fails Part, or produces local critical amplitude concentration on the retained carrier. On retained Pack+Part this is a local L 3 critical concentration branch. By R3CriticalL3Wall ToCMFace.A, it lands in the Field face.
+      A Lorentz terminal amplitude exit is distribution-function concentration. same-witness superlevel/cylinder selection either fails Pack, fails Part, or produces local critical amplitude concentration on the retained carrier. On retained Field-window evidence+Part this is a local L 3 critical concentration branch. By R3CriticalL3Wall ToCMFace.A, it lands in the Field face.
 
       Every admissible Besov/Lorentz terminal critical exit lands in Pack, Part, or Field. The resulting face failure is passed through ClayCMContrapositive Embedding.A; the theorem supplies a classified CM class-exit witness on the same witness.
 
@@ -207,7 +207,7 @@ chunk:
       H^{1/2}: \text{frequency-critical dyadic organization}.
       \]
 
-      This preserves the packet discipline: Member(Q) remains downstream of the full Pack/Part/Field packet certificate, and the face failure supplies the classified CM class-exit witness.
+      This preserves the packet discipline: Member(Q) remains downstream of the full Part/Field packet certificate, and the face failure supplies the classified CM class-exit witness.
 
       This bridge is installed support for the critical-norm CM-exit layer, subordinate to the live Clay terminal-witness chain.
 
@@ -225,9 +225,9 @@ chunk:
     text: |+
       \subsection{Clay problem Critical Norm CM Exit Unification}
 
-      The L 3 branch reads terminal amplitude concentration. Under retained Pack Q and Part N,Q , the installed local translator sends critical L 3 concentration to a same-witness native source residue or selected scale-critical source-wall failure. The installed route-local theorem is
+      The L 3 branch reads terminal amplitude concentration. Under retained Field-window evidence Q and Part N,Q , the installed local translator sends critical L 3 concentration to a same-witness native source residue or selected scale-critical source-wall failure. The installed route-local theorem is
 
-      The extraction theorem sends failed material localization to Pack Q, failed pressure-viscosity ancestry to Part N,Q , and the retained Pack+Part branch to a same-witness dyadic packet. The matched Field finite-difference readout then controls the selected shell. Persistent terminal shell energy so lands in the Field face.
+      The extraction theorem sends failed material localization to Pack Q, failed pressure-viscosity ancestry to Part N,Q , and the retained Field-window evidence+Part branch to a same-witness dyadic packet. The matched Field finite-difference readout then controls the selected shell. Persistent terminal shell energy so lands in the Field face.
 
       The Besov dyadic branch reduces by Bernstein to the repaired H 1/2 shell route. The Lorentz amplitude branch reduces by same-witness superlevel/cylinder selection to the installed local L 3 route.
 
@@ -243,7 +243,7 @@ chunk:
       \neg Pack_Q\vee\neg Part_{N,Q}\vee\forall\rho>0\,\neg Field_{N,\rho,Q}.
       \]
 
-      Thus Member(Q) remains downstream of the full Pack/Part/Field packet certificate, and the critical-norm bridge supplies a classified CM face witness on the same witness.
+      Thus Member(Q) remains downstream of the full Part/Field packet certificate, and the critical-norm bridge supplies a classified CM face witness on the same witness.
 
 
     truncated: false
@@ -267,9 +267,9 @@ chunk:
 
       The bounded-frequency lemma has already removed the fixed-band response, so the branch under consideration is the selected high-frequency packet. If a surviving piece is outside the retained material address, Q has failed. If it is detached from the same Navier--Stokes equation, pressure, viscosity, and source ancestry, M,Q has failed. On the branch currently under consideration, Pack and Part are retained, so the survivor must be seen inside the finite -scale Field windows.
 
-      This closes the previous gap where the dyadic survivor was only described as a possible Pack/Field reading. It is now a first-face CM landing: no material address gives Pack failure; no same-fluid participation gives Part failure; retained Pack+Part forces Field failure.
+      This closes the previous gap where the dyadic survivor was only described as a possible Pack/Field reading. It is now a first-face CM landing: no material address gives Pack failure; no same-fluid participation gives Part failure; retained Field-window evidence+Part forces Field failure.
 
-      This argument does not use global H s , a BKM integral, or a continuation-grade Lipschitz bound. It uses only the installed exterior L 2 tightness, the prior dyadic-survivor reduction, the local meaning of retained Pack and Part, and the finite-depth derivative control supplied by the assumed Field face. The Field assumption is used only to reject the Field branch; it is not used to prove positive smoothness.
+      This argument does not use global H s , a BKM integral, or a continuation-grade Lipschitz bound. It uses only the installed exterior L 2 tightness, the prior dyadic-survivor reduction, the local meaning of retained Field-window evidence and Part, and the finite-depth derivative control supplied by the assumed Field face. The Field assumption is used only to reject the Field branch; it is not used to prove positive smoothness.
 
 
     truncated: false
@@ -347,7 +347,7 @@ chunk:
     \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
     \]
 
-    Same LedgerHHalf Extraction.A: a terminal critical H 1/2 shell either lands at Pack Q, lands at Part N,Q , or becomes a same-witness localized dyadic packet.
+    Same LedgerHHalf Extraction.A: a terminal critical H 1/2 shell either stays outside CM as Field-window evidence, lands at Part N,Q , or becomes a same-witness localized dyadic packet.
 
     Field Coherence Controls Critical Shell.A: that matched modulus controls the critical shell quantity 2 J P Jv 2 2. R3CriticalL3Wall ToCMFace.A: the amplitude branch of critical concentration lands in the Field face through the local L 3 translator.
 
@@ -363,7 +363,7 @@ chunk:
     \neg Part_{N,Q}(\mathcal W).
     \]
 
-    It remains to treat the retained Pack+Part branch. In that branch the selected shell is a same-witness dyadic packet
+    It remains to treat the retained Field-window evidence+Part branch. In that branch the selected shell is a same-witness dyadic packet
 
     \[
     v_m=\chi_{a_m}^{\mathcal W}(t_m)u(t_m),
@@ -373,7 +373,7 @@ chunk:
 
     Split the critical H 1/2 signal into amplitude and pure oscillatory alternatives.
 
-    In the amplitude alternative, the critical shell carries local critical size visible through the installed local L 3 translator. By R3CriticalL3Wall ToCMFace.A, retained Pack+Part sends that terminal concentration to the Field face.
+    In the amplitude alternative, the critical shell carries local critical size visible through the installed local L 3 translator. By R3CriticalL3Wall ToCMFace.A, retained Field-window evidence+Part sends that terminal concentration to the Field face.
 
     \[
     r_m^{-1}\int_{|h|\sfcomp{65977} r_m}\|v_m(\cdot+h)-v_m(\cdot)\|_2^2\,dh
@@ -399,7 +399,7 @@ chunk:
     v=P_Q u=\chi_a^{\mathcal W}u
     \]
 
-    By R3HHalf Wall ToCMFace.A, persistent same-witness H 1/2 shell exit lands in the Field face on retained Pack+Part. So the admissible dyadic Besov terminal branch lands in Pack, Part, or Field.
+    By R3HHalf Wall ToCMFace.A, persistent same-witness H 1/2 shell exit lands in the Field face on retained Field-window evidence+Part. So the admissible dyadic Besov terminal branch lands in Pack, Part, or Field.
 
     For Besov summation with finite q, apply the same shell inequality on each selected terminal shell. Any terminal exit has a shell or finite block carrying a positive fraction of the normalized exit; that selected shell/block lands by the preceding argument.
 
@@ -411,7 +411,7 @@ chunk:
     \neg Part_{N,Q}(\mathcal W).
     \]
 
-    On retained Pack+Part, the Lorentz amplitude branch gives local critical amplitude concentration. Selecting a same-witness superlevel/cylinder packet yields a local L 3 critical concentration branch. By R3CriticalL3Wall ToCMFace.A, that branch lands in the Field face.
+    On retained Field-window evidence+Part, the Lorentz amplitude branch gives local critical amplitude concentration. Selecting a same-witness superlevel/cylinder packet yields a local L 3 critical concentration branch. By R3CriticalL3Wall ToCMFace.A, that branch lands in the Field face.
 
     Every admissible Besov/Lorentz terminal critical exit lands in Pack, Part, or Field. The bridge uses actual dyadic Bernstein control for the Besov branch and the installed local L 3 translator for the Lorentz amplitude branch.
 
@@ -445,7 +445,7 @@ chunk:
     \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W)
     \]
 
-    A Lorentz terminal amplitude exit is distribution-function concentration. same-witness superlevel/cylinder selection either fails Pack, fails Part, or produces local critical amplitude concentration on the retained carrier. On retained Pack+Part this is a local L 3 critical concentration branch. By R3CriticalL3Wall ToCMFace.A, it lands in the Field face.
+    A Lorentz terminal amplitude exit is distribution-function concentration. same-witness superlevel/cylinder selection either fails Pack, fails Part, or produces local critical amplitude concentration on the retained carrier. On retained Field-window evidence+Part this is a local L 3 critical concentration branch. By R3CriticalL3Wall ToCMFace.A, it lands in the Field face.
 
     Every admissible Besov/Lorentz terminal critical exit lands in Pack, Part, or Field. The resulting face failure is passed through ClayCMContrapositive Embedding.A; the theorem supplies a classified CM class-exit witness on the same witness.
 
@@ -465,7 +465,7 @@ chunk:
     H^{1/2}: \text{frequency-critical dyadic organization}.
     \]
 
-    This preserves the packet discipline: Member(Q) remains downstream of the full Pack/Part/Field packet certificate, and the face failure supplies the classified CM class-exit witness.
+    This preserves the packet discipline: Member(Q) remains downstream of the full Part/Field packet certificate, and the face failure supplies the classified CM class-exit witness.
 
     This bridge is installed support for the critical-norm CM-exit layer, subordinate to the live Clay terminal-witness chain.
 
@@ -473,9 +473,9 @@ chunk:
 
     \subsection{Clay problem Critical Norm CM Exit Unification}
 
-    The L 3 branch reads terminal amplitude concentration. Under retained Pack Q and Part N,Q , the installed local translator sends critical L 3 concentration to a same-witness native source residue or selected scale-critical source-wall failure. The installed route-local theorem is
+    The L 3 branch reads terminal amplitude concentration. Under retained Field-window evidence Q and Part N,Q , the installed local translator sends critical L 3 concentration to a same-witness native source residue or selected scale-critical source-wall failure. The installed route-local theorem is
 
-    The extraction theorem sends failed material localization to Pack Q, failed pressure-viscosity ancestry to Part N,Q , and the retained Pack+Part branch to a same-witness dyadic packet. The matched Field finite-difference readout then controls the selected shell. Persistent terminal shell energy so lands in the Field face.
+    The extraction theorem sends failed material localization to Pack Q, failed pressure-viscosity ancestry to Part N,Q , and the retained Field-window evidence+Part branch to a same-witness dyadic packet. The matched Field finite-difference readout then controls the selected shell. Persistent terminal shell energy so lands in the Field face.
 
     The Besov dyadic branch reduces by Bernstein to the repaired H 1/2 shell route. The Lorentz amplitude branch reduces by same-witness superlevel/cylinder selection to the installed local L 3 route.
 
@@ -491,7 +491,7 @@ chunk:
     \neg Pack_Q\vee\neg Part_{N,Q}\vee\forall\rho>0\,\neg Field_{N,\rho,Q}.
     \]
 
-    Thus Member(Q) remains downstream of the full Pack/Part/Field packet certificate, and the critical-norm bridge supplies a classified CM face witness on the same witness.
+    Thus Member(Q) remains downstream of the full Part/Field packet certificate, and the critical-norm bridge supplies a classified CM face witness on the same witness.
 
 
 
@@ -505,9 +505,9 @@ chunk:
 
     The bounded-frequency lemma has already removed the fixed-band response, so the branch under consideration is the selected high-frequency packet. If a surviving piece is outside the retained material address, Q has failed. If it is detached from the same Navier--Stokes equation, pressure, viscosity, and source ancestry, M,Q has failed. On the branch currently under consideration, Pack and Part are retained, so the survivor must be seen inside the finite -scale Field windows.
 
-    This closes the previous gap where the dyadic survivor was only described as a possible Pack/Field reading. It is now a first-face CM landing: no material address gives Pack failure; no same-fluid participation gives Part failure; retained Pack+Part forces Field failure.
+    This closes the previous gap where the dyadic survivor was only described as a possible Pack/Field reading. It is now a first-face CM landing: no material address gives Pack failure; no same-fluid participation gives Part failure; retained Field-window evidence+Part forces Field failure.
 
-    This argument does not use global H s , a BKM integral, or a continuation-grade Lipschitz bound. It uses only the installed exterior L 2 tightness, the prior dyadic-survivor reduction, the local meaning of retained Pack and Part, and the finite-depth derivative control supplied by the assumed Field face. The Field assumption is used only to reject the Field branch; it is not used to prove positive smoothness.
+    This argument does not use global H s , a BKM integral, or a continuation-grade Lipschitz bound. It uses only the installed exterior L 2 tightness, the prior dyadic-survivor reduction, the local meaning of retained Field-window evidence and Part, and the finite-depth derivative control supplied by the assumed Field face. The Field assumption is used only to reject the Field branch; it is not used to prove positive smoothness.
 
 
 
@@ -567,7 +567,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
