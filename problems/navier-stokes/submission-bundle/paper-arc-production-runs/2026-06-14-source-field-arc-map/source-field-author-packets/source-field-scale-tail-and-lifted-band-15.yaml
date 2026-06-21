@@ -94,7 +94,7 @@ chunk:
 
       Fix a retained terminal packet \(Q\) and a CM witness scale row
       \[
-      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
       A terminal positive source-reserve tree is a nested dyadic family T of same-fluid terminal packets with scales k(P) along every infinite branch and with nonnegative source densities D (t) on each packet. Its active tail at level k is
@@ -490,7 +490,7 @@ chunk:
 
     Fix a retained terminal packet \(Q\) and a CM witness scale row
     \[
-    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     A terminal positive source-reserve tree is a nested dyadic family T of same-fluid terminal packets with scales k(P) along every infinite branch and with nonnegative source densities D (t) on each packet. Its active tail at level k is

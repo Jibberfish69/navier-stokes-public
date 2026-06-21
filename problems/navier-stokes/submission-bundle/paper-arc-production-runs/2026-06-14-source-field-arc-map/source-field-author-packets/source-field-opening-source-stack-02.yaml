@@ -107,9 +107,7 @@ chunk:
       \]
 
       \[
-      CM_{N,r,Q}
-      =
-      Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
       So before the terminal time, the canonical object is already the same same-fluid Part/Field packet. The only question is what survives as t T *.
@@ -186,9 +184,7 @@ chunk:
     \]
 
     \[
-    CM_{N,r,Q}
-    =
-    Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     So before the terminal time, the canonical object is already the same same-fluid Part/Field packet. The only question is what survives as t T *.

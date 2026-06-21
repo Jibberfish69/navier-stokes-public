@@ -64,15 +64,11 @@ chunk:
       \]
 
       \[
-      CM_{N,r,Q}
-      =
-      Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q},
       \]
 
       \[
-      CM_{N,r,Q}
-      =
-      Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
       Thus any retained CM participation-field carrier supplies Pack Q before Part N,Q or Field N,r,Q can be used. The donor-refill tree is a packet-ancestry object: it consists of parent/child packet edges, legal packet descendants, and the reserve used to keep descendants funded across scales. Packet ancestry is so licensed by the Field-window evidence.
@@ -468,15 +464,11 @@ chunk:
     \]
 
     \[
-    CM_{N,r,Q}
-    =
-    Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q},
     \]
 
     \[
-    CM_{N,r,Q}
-    =
-    Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     Thus any retained CM participation-field carrier supplies Pack Q before Part N,Q or Field N,r,Q can be used. The donor-refill tree is a packet-ancestry object: it consists of parent/child packet edges, legal packet descendants, and the reserve used to keep descendants funded across scales. Packet ancestry is so licensed by the Field-window evidence.

@@ -110,7 +110,7 @@ chunk:
       Both faces are killed by the endpoint matrix once End NS is installed. Hence the pack gauge and finite same-fluid cover persist on endpoint-free approach tails.
 
       \[
-      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
       The face dictionary is local: \(\neg Part_{N,Q}\) gives \(Dead\);
@@ -151,7 +151,7 @@ chunk:
       Those are endpoint faces killed by End NS, so the bounded pack gauge persists on endpoint-free approach tails.
 
       \[
-      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
       H1, H2, and H6 are solved at the class-membership-local route level. H3-H5 then replay inside the existing packet, yielding
@@ -467,7 +467,7 @@ chunk:
     Both faces are killed by the endpoint matrix once End NS is installed. Hence the pack gauge and finite same-fluid cover persist on endpoint-free approach tails.
 
     \[
-    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     The face dictionary is local: \(\neg Part_{N,Q}\) gives \(Dead\);
@@ -497,7 +497,7 @@ chunk:
     Those are endpoint faces killed by End NS, so the bounded pack gauge persists on endpoint-free approach tails.
 
     \[
-    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     H1, H2, and H6 are solved at the class-membership-local route level. H3-H5 then replay inside the existing packet, yielding

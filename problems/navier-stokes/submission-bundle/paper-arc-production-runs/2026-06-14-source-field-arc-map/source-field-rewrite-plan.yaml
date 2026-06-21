@@ -921,15 +921,11 @@ chunks:
     \]
 
     \[
-    CM_{N,r,Q}
-    =
-    Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q},
     \]
 
     \[
-    CM_{N,r,Q}
-    =
-    Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     Thus any retained CM participation-field carrier supplies Pack Q before Part N,Q or Field N,r,Q can be used. The donor-refill tree is a packet-ancestry object: it consists of parent/child packet edges, legal packet descendants, and the reserve used to keep descendants funded across scales. Packet ancestry is lic
@@ -4149,9 +4145,7 @@ chunks:
     \subsection{Witnessfacebridge Pctp Hard Field Member Audit}
 
     \[
-    CM_{N,r,Q}
-    =
-    Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     The averaged terminal-tail route supplies a downstream terminal-tail consumer/readout. In its legal production order, the route is
