@@ -15,6 +15,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lossless-full-hodgestokes-packet-rigidity-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-packet-compactness-noloss-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-transport-product-defect-evacuation-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-pressure-trace-defect-reduction-20260621.md
 ---
 
 # Pressure-Adapted No-Residue Skew Coercivity Criterion
@@ -515,10 +516,11 @@ of the full Hodge-Stokes packet gives total-variation convergence of the
 selected positive carrier, because the positive-part map is \(1\)-Lipschitz in
 \(L^1\).  Standard suitable compactness also evacuates the transport product
 loss on a stabilized carrier, through strong \(L^3\) velocity convergence.
-Standard suitable compactness is still not enough for the full packet; the
-remaining failures are precisely pressure trace loss, viscous measure loss,
-selector graph loss, signed saturation loss, terminal trace atom, or
-legal-routing loss.
+The local same-carrier pressure trace passes after Calderon-Zygmund pressure
+decomposition.  Standard suitable compactness is still not enough for the full
+packet; the remaining failures are precisely harmonic pressure memory/collar
+loss, viscous measure loss, selector graph loss, signed saturation loss,
+terminal trace atom, or legal-routing loss.
 
 So the remaining production input is:
 
