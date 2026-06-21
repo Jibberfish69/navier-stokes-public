@@ -92,7 +92,7 @@ chunk:
 
       However, the native positive source measure sing does not itself force packing detachment. The source-pulse packet is built as a same-fluid terminal active packet; retaining the transported carrier is compatible with nonzero positive source mass.
 
-      Thus the Pack face is conditionally closed when the manifestation is packing-detached, but it is not a direct discharge of the source-pulse measure.
+      Thus the Field-window evidence is conditionally closed when the manifestation is packing-detached, but it is not a direct discharge of the source-pulse measure.
 
       A terminal positive nonlinear source pulse is an interior source carrier of that same differentiated Navier-Stokes law. Its presence does not by itself mean that the pressure-viscosity participation law has dropped. The installed matrix entry (Part,Dead) removes the dead participation face on still-live neighborhoods, but it does not convert a native active source pulse into Part.
 
@@ -425,7 +425,7 @@ chunk:
 
     However, the native positive source measure sing does not itself force packing detachment. The source-pulse packet is built as a same-fluid terminal active packet; retaining the transported carrier is compatible with nonzero positive source mass.
 
-    Thus the Pack face is conditionally closed when the manifestation is packing-detached, but it is not a direct discharge of the source-pulse measure.
+    Thus the Field-window evidence is conditionally closed when the manifestation is packing-detached, but it is not a direct discharge of the source-pulse measure.
 
     A terminal positive nonlinear source pulse is an interior source carrier of that same differentiated Navier-Stokes law. Its presence does not by itself mean that the pressure-viscosity participation law has dropped. The installed matrix entry (Part,Dead) removes the dead participation face on still-live neighborhoods, but it does not convert a native active source pulse into Part.
 
@@ -688,7 +688,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

@@ -750,12 +750,12 @@ chunk:
 
     The equality-rigidity route is different because it uses information available only after the post-ASAC reduction: failure of the source-weighted angular estimate must saturate the same signed/one-sided alignment machinery that ASAC already pays.
 
-    Equivalently, prove a non-Carleson temporal anti-concentration theorem such as Terminal Source Reverse Holder.A / Uniform Temporal Source Integrability p.A, or prove a class-specific no-incoming/backward-uniqueness theorem for B ASAC. Without that Liouville input, the equality-rigidity route does not close Source Weighted Terminal Angular Depletion.A; the surviving residue is only CM-usable through the installed Pack/Part/Field sorting diagnostics.
+    Equivalently, prove a non-Carleson temporal anti-concentration theorem such as Terminal Source Reverse Holder.A / Uniform Temporal Source Integrability p.A, or prove a class-specific no-incoming/backward-uniqueness theorem for B ASAC. Without that Liouville input, the equality-rigidity route does not close Source Weighted Terminal Angular Depletion.A; the surviving residue is only CM-usable through the installed Part/Field sorting diagnostics.
 
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
