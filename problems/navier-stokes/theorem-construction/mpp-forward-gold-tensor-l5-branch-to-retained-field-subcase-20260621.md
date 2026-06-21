@@ -12,9 +12,9 @@ ns_viewer:
     Part_N,Q are retained and the Field certificate includes a finite
     same-packet Serrin-critical L5 budget on those strips, the readout
     int |u|^5 >= V^(-1/4)b0^(5/2)theta_m^(-3/2) contradicts Field. Thus the
-    admissible L5-Field subcase is consumed. This does not prove that every
-    generic public-critical translator or every Field certificate contains this
-    L5 component.
+    admissible L5-Field subcase is consumed. Generic public-critical
+    translators and Field certificates without this explicit L5 component remain
+    outside the theorem proved here.
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-tensor-square-to-critical-l5-readout-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-retained-pack-part-critical-concentration-to-field-bridge-20260519.md
@@ -65,8 +65,8 @@ subcase.  The face landing is:
 
 Here \(Field^{L^5}_{N,\rho,Q}\) means only the Field certificate subcase whose
 one-field coherence includes a finite same-packet Serrin-critical \(L^5\)
-budget on the selected terminal packet family.  This note does not assert that
-every possible \(Field_{N,\rho,Q}\) certificate contains that component.
+budget on the selected terminal packet family.  Other possible
+\(Field_{N,\rho,Q}\) certificates require their own incompatibility theorem.
 
 ## 1. Same-ledger localization is supplied by the tensor branch
 
