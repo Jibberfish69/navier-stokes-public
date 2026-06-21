@@ -10,7 +10,7 @@ critical reserve on the actual selected source/residual-refill carrier.
 
 Current Navier-Stokes inputs do not prove that production.  They prove
 visibility, fixed-radius payment, finite-chain material accounting, conditional
-source-square-to-trace modulus, and CM face routing of the failure branch.
+source-square-to-trace modulus, and CM Part/Field routing of the failure branch.
 
 ## 1. The exact production target
 
@@ -279,7 +279,7 @@ So the forward-gold path has one remaining production wall:
 \tag{RPU.21}
 \]
 
-or the retained failure goes to the CM face machinery instead of becoming a
+or the retained failure goes to the CM Part/Field machinery instead of becoming a
 hidden forward-gold terminal atom.
 
 ## Verdict

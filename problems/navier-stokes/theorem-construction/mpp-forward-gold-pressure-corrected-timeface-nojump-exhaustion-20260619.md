@@ -40,7 +40,7 @@ identity is
 
 Thus a terminal atom can be excluded only after every terminal sink on the right
 has a vanishing terminal strip modulus, or after those sinks are routed into
-legal CM faces.
+legal CM Part/Fields.
 
 The needed modulus has the form
 
@@ -238,7 +238,7 @@ The branch closes under any one of the following non-alias inputs:
 
 5. CM-facing exit conversion:
    every retained terminal time-face pulse with nonvanishing pressure/convection
-   sink fails Pack, Part, or Field rather than remaining a hidden forward-gold
+   sink fails Part or Field rather than remaining a hidden forward-gold
    obstruction.
 ```
 

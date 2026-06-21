@@ -47,7 +47,7 @@ amplitude-critical concentration is routed by
 \tag{PCC.3}
 ```
 
-into the Pack/Part/Field face grammar, under the retained same-ledger CM
+into the Part/Field face grammar, under the retained same-ledger CM
 conditions.
 
 That is useful, but it is not the forward-positive reserve needed by the
@@ -81,7 +81,7 @@ The available installed use is fallback/readout:
 \boxed{
 \text{critical }L^3\text{ concentration}
 \Longrightarrow
-\text{CM Pack/Part/Field face route}.
+\text{CM Part/Field face route}.
 }
 \tag{PCC.6}
 ```

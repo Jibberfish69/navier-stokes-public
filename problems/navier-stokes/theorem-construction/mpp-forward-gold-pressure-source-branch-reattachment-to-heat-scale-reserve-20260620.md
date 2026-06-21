@@ -12,7 +12,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-low-high-terminal-signed-saturation-forward-no-free-sink-direct-attempt-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-lowhigh-terminal-source-time-antiatom-cost-dichotomy-refresh-20260619.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-current-frontier-after-rigid-participation-exhaustion-20260620.md
-  downstream_consequence: "Do not reopen TerminalPressureHessianNoSustain.A, OneSidedNearBandMaterialSourceCurrentLegal.A, low-high signed saturation, low-high source-time anti-atom, TerminalPressurePureStrainLegal.A, or PurePressureSustainResidueLiouville.A as independent forward-gold suppliers. Their source branch is the same endpoint UI / unweighted reserve wall; their pressure branch is only pressure trace saturation, pressure rigid-class production plus Liouville, a new terminal pure-pressure legal class, or CM Pack/Part/Field consumption after same-witness admission."
+  downstream_consequence: "Do not reopen TerminalPressureHessianNoSustain.A, OneSidedNearBandMaterialSourceCurrentLegal.A, low-high signed saturation, low-high source-time anti-atom, TerminalPressurePureStrainLegal.A, or PurePressureSustainResidueLiouville.A as independent forward-gold suppliers. Their source branch is the same endpoint UI / unweighted reserve wall; their pressure branch is only pressure trace saturation, pressure rigid-class production plus Liouville, a new terminal pure-pressure legal class, or CM Part/Field consumption after same-witness admission."
 ---
 
 # MPP Forward-Gold Pressure/Source Branch Reattachment To Heat-Scale Reserve
@@ -191,7 +191,7 @@ Combining the heat-clock test with the pressure/source attempts gives:
 \begin{cases}
 \text{same-carrier endpoint UI/source-residence/source-square/no-waste},\\
 \text{pressure trace saturation / pressure rigid class / pure-pressure legal theorem},\\
-\text{or CM Pack/Part/Field consumption after same-witness admission.}
+\text{or CM Part/Field consumption after same-witness admission.}
 \end{cases}
 }
 \tag{PSR.12}
@@ -237,5 +237,5 @@ New progress must therefore prove a pressure-specific endpoint, such as
 directional pressure trace saturation, pressure rigid-class production plus
 Liouville, or a new terminal pure-pressure legal class, or prove one of the
 already isolated same-carrier unweighted payment forms. Otherwise the retained
-pressure/source branch remains only CM Pack/Part/Field material after
+pressure/source branch remains only CM Part/Field material after
 same-witness admission.

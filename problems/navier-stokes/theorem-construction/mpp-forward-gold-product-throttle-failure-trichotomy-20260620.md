@@ -10,7 +10,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-three-clause-pass-or-cm-exit-assembly-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-linear-source-pulse-identity-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-linear-participation-parent-or-charge-direct-test-20260620.md
-downstream_consequence: "The forward-gold square wall is localized to the square-only branch only after terminal atoms and nonzero linear participation residence are separately paid. Source-drain pays the actual source-pulse subbranch; the non-source-residue participation subbranch still needs same-carrier linear parent/gain accounting. The remaining square production theorem must either bound the selected active height, prove same-carrier source-square/product throttle directly, or route the admitted retained height blowup through CM Pack/Part/Field."
+downstream_consequence: "The forward-gold square wall is localized to the square-only branch only after terminal atoms and nonzero linear participation residence are separately paid. Source-drain pays the actual source-pulse subbranch; the non-source-residue participation subbranch still needs same-carrier linear parent/gain accounting. The remaining square production theorem must either bound the selected active height, prove same-carrier source-square/product throttle directly, or route the admitted retained height blowup through CM Part/Field."
 ---
 
 # MPP Forward-Gold Product-Throttle Failure Trichotomy
@@ -302,5 +302,5 @@ H_m\to\infty.
 
 That branch is not hidden.  It is active-height blowup on the selected carrier.
 It is not paid by current forward-gold inputs unless a height cap, source-square
-reserve, strict no-waste theorem, or admitted CM Pack/Part/Field consumption is
+reserve, strict no-waste theorem, or admitted CM Part/Field consumption is
 supplied.

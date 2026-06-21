@@ -250,7 +250,7 @@ failed branch is a retained critical collar/cubic flux concentration:
 
 This is not invisible.  It is a terminal scale-critical \(L^3\)/pressure flux
 readout.  Existing CM-facing translators consume such retained critical
-concentration as Pack/Part/Field witness-face evidence after the same-solution
+concentration as Part/Field witness evidence after the same-solution
 admission and face mechanism are supplied.
 
 Result: CM conversion is a valid fallback, not a forward-gold reserve proof.
