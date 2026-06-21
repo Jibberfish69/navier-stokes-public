@@ -7,7 +7,7 @@ governing_program: "Exit(Q):=not Member(Q) through Pack_Q / Part_{N,Q} / Field_{
 claim_boundary:
   logical_landing_node: SameSolutionPreterminalPackPersistence.A / OriginalSmoothDataPackSurvival.A
   claim_status: not_proved
-  edge_effect: "Tests whether finite Clay breakdown entry, same-solution terminal-record custody, and smooth preterminal Pack service alone exclude a proof-bearing first Pack face. They do not: smooth service on every t<T_* does not supply a uniform terminal Pack modulus at T_*."
+  edge_effect: "Tests whether finite Clay breakdown entry, same-solution terminal-record custody, and smooth preterminal Pack service alone exclude a proof-bearing first Field-window evidence. They do not: smooth service on every t<T_* does not supply a uniform terminal Pack modulus at T_*."
   downstream_consequence: "The active loop remains open below OriginalSmoothDataPackSurvival.A. Future progress must supply an actual terminal uniformity theorem for Pack service, a new first-Pack survival mechanism, or a theorem proving that terminal loss of Pack occurs early enough to contradict preterminal smoothness. pdfs_final remains false."
 evidence_refs:
   - problems/navier-stokes/theorem-construction/mpp-no-proof-bearing-first-Part/Field-failure-target-audit-20260609.md

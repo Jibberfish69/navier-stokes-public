@@ -63,7 +63,7 @@ However, the native positive source measure
 source-pulse packet is built as a same-fluid terminal active packet; retaining
 the transported carrier is compatible with nonzero positive source mass.
 
-Thus the Pack face is conditionally closed when the manifestation is
+Thus the Field-window evidence is conditionally closed when the manifestation is
 packing-detached, but it is not a direct discharge of the source-pulse measure.
 
 ## Face 2: Part Exit

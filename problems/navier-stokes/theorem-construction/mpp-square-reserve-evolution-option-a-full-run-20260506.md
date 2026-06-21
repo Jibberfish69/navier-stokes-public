@@ -99,7 +99,7 @@ one of the three faces:
 ```
 
 In this run we assume the already routed endpoint alternatives put the terminal
-packet on retained Pack and Part faces. The surviving branch is therefore:
+packet on retained Field-window evidence and Part faces. The surviving branch is therefore:
 
 ```math
 Pack_Q
@@ -268,7 +268,7 @@ Inside the CM witness program, this would close the retained Part/Field
 Field-face branch:
 
 ```math
-Pack_Q+Part_{N,Q}+\neg Field_{N,r,Q}
+Part_{N,Q} plus Field-window evidence+\neg Field_{N,r,Q}
 \Longrightarrow
 \text{terminal positive source reserve}
 \Longrightarrow
@@ -403,7 +403,7 @@ Therefore the normalized-adjoint machinery does not prove
 The CM setting gives more structure than raw finite energy:
 
 ```math
-Pack_Q+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 ```
 
 is retained on the surviving Field-face branch.
@@ -550,7 +550,7 @@ or
 \boxed{
 RetainedPackGainProduction.A:
 \quad
-Pack_Q+Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 \Longrightarrow
 PackGainLedger.A,
 }
@@ -568,7 +568,7 @@ If `SquareReserveEvolution.A` were proved, the downstream CM Field-face
 contradiction would be:
 
 ```math
-Pack_Q+Part_{N,Q}+\neg Field_{N,r,Q}
+Part_{N,Q} plus Field-window evidence+\neg Field_{N,r,Q}
 \Longrightarrow
 \text{terminal positive source reserve}
 ```
@@ -585,7 +585,7 @@ This contradicts the terminal positive reserve forced by the Field-face
 failure. Therefore:
 
 ```math
-Pack_Q+Part_{N,Q}+\neg Field_{N,r,Q}
+Part_{N,Q} plus Field-window evidence+\neg Field_{N,r,Q}
 \Longrightarrow
 \bot.
 ```

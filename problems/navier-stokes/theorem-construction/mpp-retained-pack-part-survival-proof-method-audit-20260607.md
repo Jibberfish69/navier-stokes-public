@@ -122,7 +122,7 @@ bridge removes it.
 The Part blocker should be stated as:
 
 ```text
-Either prove terminal no-defect participation on the retained Pack carrier,
+Either prove terminal no-defect participation on the retained Field-window evidence carrier,
 or prove that an unpaid native pressure/source tower defect is not a valid
 finite Clay breakdown witness.
 ```

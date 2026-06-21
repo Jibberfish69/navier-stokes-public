@@ -42,7 +42,7 @@ First test Pack. If the selected shell scale is incompatible with the retained t
 \neg Pack_Q(\mathcal W).
 ```
 
-Assume Pack_Q survives. The retained Pack atlas supplies finitely many transported cutoffs
+Assume Pack_Q survives. The retained Field-window evidence atlas supplies finitely many transported cutoffs
 
 ```math
 \{\chi_a^{\mathcal W}(t)\}_{a\in\mathcal A(\mathcal W)}

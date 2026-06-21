@@ -2,7 +2,7 @@
 
 ## Status
 
-Conditional supplier lemma for `SameLedgerHHalfExtraction.A`. The selection step is internal once the retained Pack atlas belongs to the witness ledger.
+Conditional supplier lemma for `SameLedgerHHalfExtraction.A`. The selection step is internal once the retained Field-window evidence atlas belongs to the witness ledger.
 
 ## Statement
 
@@ -12,7 +12,7 @@ Let
 \mathcal W=(O_{NS}^{work},Q,N,r,\Phi,\mathcal T)
 ```
 
-be a synchronized CM witness ledger. Assume the retained Pack data of `\mathcal W` include a finite transported atlas
+be a synchronized CM witness ledger. Assume the retained Field-window evidence data of `\mathcal W` include a finite transported atlas
 
 ```math
 \mathcal A(\mathcal W)=\{a_1,\dots,a_M\},
@@ -45,7 +45,7 @@ where `Err_pack(m)` is the Pack-controlled commutator remainder.
 
 ## Proof
 
-The atlas `\mathcal A(\mathcal W)` is part of the retained Pack data of the same witness. The functions `\chi_a^{\mathcal W}(t)` are therefore fixed before the terminal dyadic shell is selected.
+The atlas `\mathcal A(\mathcal W)` is part of the retained Field-window evidence data of the same witness. The functions `\chi_a^{\mathcal W}(t)` are therefore fixed before the terminal dyadic shell is selected.
 
 For each `(t_m,J_m)`, finite overlap and the transported commutator estimate give
 

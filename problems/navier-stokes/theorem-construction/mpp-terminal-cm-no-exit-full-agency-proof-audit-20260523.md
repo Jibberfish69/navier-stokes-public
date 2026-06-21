@@ -25,7 +25,7 @@ The following inputs are accepted for the CM-facing reduction:
 1. `GenuineCMExit.Equiv.A`: finite terminal non-continuation is equivalent to loss of every continuation-complete Part/Field packet.
 2. `CanonicalTerminalPacketCapture.A` and `AnyFiniteFailureWitnessCMExit.A`: terminal failure witnesses are captured by the Field-certification packet tree.
 3. `TerminalSourceResidueCMExit.A`: raw terminal source residue lands in Part/Field, not in a fourth residue face.
-4. `TerminalCMNoExit.FaceReduction.A`: reduces genuine no-exit to the Field-certification face tree, with Pack first, then Part, then licensed Field if Pack and Part survive.
+4. `TerminalCMNoExit.FaceReduction.A`: reduces genuine no-exit to the Field-certification face tree, with Part/Field first, then Part, then licensed Field if Pack and Part survive.
 
 These reductions do not prove `TerminalCMNoExit.A`. They identify the exact places where a proof must prevent total packet loss.
 
@@ -63,7 +63,7 @@ Field_{N,r,Q} + A_{N+1,Q} in L^\infty + preterminal Part
 The missing Part primitive is a noncircular terminal tower/readout bound on the retained same-fluid carrier:
 
 ```text
-Pack survives + preterminal Part
+Field-window evidence is present + preterminal Part
 => uniform A_{N_s+1,Q} and K_k pressure-viscosity/source readout through T_*
 ```
 

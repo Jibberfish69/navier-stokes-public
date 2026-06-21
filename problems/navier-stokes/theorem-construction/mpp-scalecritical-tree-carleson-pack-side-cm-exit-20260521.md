@@ -81,7 +81,7 @@ The exact CM witness decomposes as
 CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
-Thus any retained CM participation-field record carrier supplies `Pack_Q` before `Part_{N,Q}` or `Field_{N,r,Q}` can be used.  The donor-refill tree is a packet-ancestry object: it consists of parent/child packet edges, legal packet descendants, and the reserve used to keep descendants funded across scales.  Packet ancestry is therefore licensed by the Pack face.
+Thus any retained CM participation-field record carrier supplies `Pack_Q` before `Part_{N,Q}` or `Field_{N,r,Q}` can be used.  The donor-refill tree is a packet-ancestry object: it consists of parent/child packet edges, legal packet descendants, and the reserve used to keep descendants funded across scales.  Packet ancestry is therefore licensed by the Field-window evidence.
 
 Inside Pack, a legal donor-refill ancestry cannot be an unpaid infinite packet tree.  The Field-window support carrier contract is precisely that the donor-refill ancestry is Carleson-paid:
 

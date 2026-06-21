@@ -61,7 +61,7 @@ no tower-blown => Pack.TTU => Pack_Q,
 and:
 
 ```text
-Pack_Q + Part_{N+2,Q} + Field_{N+2,r,Q}
+Part_{N+2,Q} plus Field-window evidence + Field_{N+2,r,Q}
 => not tower-blown.
 ```
 
@@ -70,7 +70,7 @@ Pack_Q + Part_{N+2,Q} + Field_{N+2,r,Q}
 The pass branch is contradiction-bearing:
 
 ```text
-Pack_Q + Part_{N,Q} + Field_{N,r,Q}
+Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}
 => Member(Q)
 => H^s continuation
 => no finite Clay breakdown.
@@ -100,7 +100,7 @@ So the retained CM hypothesis needed by the tower bridge is absent. The proof
 cannot use:
 
 ```text
-Pack_Q + Part_{N+2,Q} + Field_{N+2,r,Q}
+Part_{N+2,Q} plus Field-window evidence + Field_{N+2,r,Q}
 => not tower-blown
 ```
 

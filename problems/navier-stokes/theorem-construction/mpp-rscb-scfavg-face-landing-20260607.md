@@ -74,7 +74,7 @@ after the retained/averaged split. The branch-law is:
    finite-energy pressure recovery. It is a CM-test failure of the retained
    receiver admission and must be placed at the first broken face: loss of the
    common retained carrier gives `not Pack_Q`; loss of same-fluid
-   pressure-viscosity participation gives `not Part_{N,Q}`; retained Pack and
+   pressure-viscosity participation gives `not Part_{N,Q}`; retained Field-window evidence and
    Part with no positive coherent receiver/readout scale gives
    `forall r>0 not Field_{N,r,Q}`.
 4. If the averaged branch lacks a uniform positive SCF-good terminal cover with
