@@ -307,7 +307,7 @@ trace-free affine strain test keeps net deformation bounded while the
 accumulated positive strain action diverges.
 
 Thus the retained-face route can classify an amplitude failure against a
-strengthened Pack/Part boundary, but it does not supply the branch-native
+strengthened Part/Field boundary, but it does not supply the branch-native
 active-shell amplitude gain needed for source-pulse exclusion.
 
 Collapse of this attempt:

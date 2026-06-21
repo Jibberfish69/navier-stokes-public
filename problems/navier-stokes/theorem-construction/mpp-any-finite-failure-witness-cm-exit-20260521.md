@@ -136,7 +136,7 @@ then the proof stops:
 ```
 
 This is the correct landing face for zero-scale packets and unpaid donor-refill
-ancestry. The installed Pack-side notes give
+ancestry. The installed Field-window support notes give
 
 ```math
 r_*=0\Longrightarrow\neg Pack_Q,
@@ -261,7 +261,7 @@ Source-wall objects enter the tree at the first Part/Field they break.
 r_*=0\Longrightarrow\neg Pack_Q.
 ```
 
-2. An unpaid scale-critical donor-refill ancestry breaks the Pack-side carrier
+2. An unpaid scale-critical donor-refill ancestry breaks the Field-window support carrier
 contract:
 
 ```math

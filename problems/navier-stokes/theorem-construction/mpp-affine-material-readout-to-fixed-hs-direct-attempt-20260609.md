@@ -24,7 +24,7 @@ finality.
 
 ## Target
 
-The Pack-side parent attempt left a possible bypass:
+The Field-window support parent attempt left a possible bypass:
 
 ```text
 AffineMaterialReadoutToFixedHs.A:

@@ -244,7 +244,7 @@ packing\text{-}detached\vee tower\text{-}blown,
 ```
 
 ```math
-Pack+Part+Jump
+Part plus Field-window evidence+Jump
 \Longrightarrow
 Field\text{-coherence fracture},
 ```
@@ -1121,7 +1121,7 @@ tower\text{-}blown,
 the jump cross-entry
 
 ```math
-Pack+Part+Jump
+Part plus Field-window evidence+Jump
 \Longrightarrow
 Field\text{-coherence fracture},
 ```

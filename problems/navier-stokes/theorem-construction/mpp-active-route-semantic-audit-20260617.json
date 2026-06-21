@@ -120,9 +120,9 @@
     },
     {
       "path": "problems/navier-stokes/theorem-construction/mpp-generic-pack-part-face-exclusion-blocker-demotion-20260607.md",
-      "issue": "legacy blocker-demotion wording could make generic Pack/Part no-face-exclusion look like completion by downgrade",
+      "issue": "legacy blocker-demotion wording could make generic Part/Field no-face-exclusion look like completion by downgrade",
       "replacement": "the note now states installed target repair: the proof gate is row-level same-witness CM entry and Part/Field witness record, with non-proof rows classified as support",
-      "downstream_consequence": "the current CM theorem state remains governed by finite-obstruction inventory coverage, not by generic Pack/Part face-exclusion"
+      "downstream_consequence": "the current CM theorem state remains governed by finite-obstruction inventory coverage, not by generic Part/Field face-exclusion"
     },
     {
       "path": "problems/navier-stokes/theorem-construction/mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md",
@@ -133,7 +133,7 @@
     {
       "path": "problems/navier-stokes/theorem-construction/mpp-scfbase-good-cover-from-exact-potential-readout-direct-attempt-20260609.md",
       "issue": "SCFBaseGoodCoverFromExactPotentialReadout.A was correctly not required as the Field certificate, but the active surface described that target reselection as demotion",
-      "replacement": "the note now states support_route_classification_and_cm_target_reselection: Field_avg/Jump_avg is the installed Field pass/fail split under retained Pack+Part, while exact-potential/QSP remains optional continuation support",
+      "replacement": "the note now states support_route_classification_and_cm_target_reselection: Field_avg/Jump_avg is the installed Field pass/fail split under retained Part plus Field-window evidence, while exact-potential/QSP remains optional continuation support",
       "downstream_consequence": "the active public-finality burden stays on OriginalSmoothDataPackSurvival.A through HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A, not on a support-route good-cover theorem"
     },
     {
@@ -264,8 +264,8 @@
     },
     {
       "path": "problems/navier-stokes/ns-completion-route-sync-payload-*.yaml",
-      "issue": "dated top-level route-sync payloads are imported by viewer, executor, and submission sync paths but still encoded resolution by support downgrading, source-wall downgrade wording, generic Pack/Part downgrade wording, and H^s shorthand",
-      "replacement": "payloads now use no-proof-authority classification, wrong-target/no-proof-force language for generic Pack/Part face-exclusion, source-frontier classification with no proof authority, and the classical H^s local well-posedness relaunch criterion with lifespan depending only on the H^s bound",
+      "issue": "dated top-level route-sync payloads are imported by viewer, executor, and submission sync paths but still encoded resolution by support downgrading, source-wall downgrade wording, generic Part/Field downgrade wording, and H^s shorthand",
+      "replacement": "payloads now use no-proof-authority classification, wrong-target/no-proof-force language for generic Part/Field face-exclusion, source-frontier classification with no proof authority, and the classical H^s local well-posedness relaunch criterion with lifespan depending only on the H^s bound",
       "downstream_consequence": "route-sync consumers cannot read demotion or standard-continuation shorthand as proof payment; imported route status requires same-witness CM admission plus Part/Field witness record or a proved local relaunch input"
     },
     {

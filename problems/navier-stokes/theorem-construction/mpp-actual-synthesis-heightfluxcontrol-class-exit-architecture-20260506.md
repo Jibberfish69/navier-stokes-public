@@ -80,7 +80,7 @@ Part  = shared participation / still-live tower participation
 Field = one-field coherence / source-readout law
 ```
 
-The current live work has routed enough Pack/Part structure that the active
+The current live work has routed enough Part/Field structure that the active
 mathematical burden sits on the Field face:
 
 ```text
@@ -578,7 +578,7 @@ positive strain decomposition isolating the one-sided carrier
   |w_\ell|^2[e_\ell\cdot S_{<\ell}e_\ell]_+ without replacing it by an
   unsigned source-wall bound;
 parent/child packet ancestry showing every uncharged first-created donor
-  height has same-fluid ancestry or a Pack/Part Part/Field failure;
+  height has same-fluid ancestry or a Part/Field Part/Field failure;
 finite-overlap terminal packet selection with a stated overlap constant and
   no bounded-selector loss against diffuse parent clouds;
 legal pressure/cutoff ledger bounding only the recorded `L_P` terms, not the

@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/live-theorem-edge.yaml
     - problems/navier-stokes/theorem-construction/selector-quadratic-sign-separation-packet.md
     - problems/navier-stokes/theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
-  downstream_consequence: "The next theorem atom is QSPAngularFailureFieldNecessityBridge.A: prove that, for the same terminal packet and under retained Pack+Part, failure of the finite QSP cap/shell bump nonconcentration packet is not merely failure of one sufficient supplier route but failure of the Field coherence/readout requirement itself; otherwise route QSP failure as support-only and choose another Field certificate."
+  downstream_consequence: "The next theorem atom is QSPAngularFailureFieldNecessityBridge.A: prove that, for the same terminal packet and under retained Part plus Field-window evidence, failure of the finite QSP cap/shell bump nonconcentration packet is not merely failure of one sufficient supplier route but failure of the Field coherence/readout requirement itself; otherwise route QSP failure as support-only and choose another Field certificate."
 ---
 
 # MPP Angular Concentration Field-Face Entry Direct Attempt
@@ -31,7 +31,7 @@ AngularConcentrationFieldFaceEntry.A.
 
 It must prove that a same-terminal-packet failure of finite QSP cap/shell bump
 nonconcentration lands as a Part/Field failure, specifically Field
-under retained Pack+Part, instead of remaining an endless positive
+under retained Part plus Field-window evidence, instead of remaining an endless positive
 equidistribution supplier demand.
 
 ## Method Pass
@@ -82,7 +82,7 @@ Therefore `AngularConcentrationFieldFaceEntry.A` needs an additional necessity
 bridge:
 
 ```text
-for this terminal packet, under retained Pack+Part,
+for this terminal packet, under retained Part plus Field-window evidence,
 finite QSP angular nonconcentration is necessary for Field_{N,r,Q},
 not merely sufficient for one chosen Field supplier route.
 ```
@@ -98,7 +98,7 @@ The next theorem atom is:
 
 ```text
 QSPAngularFailureFieldNecessityBridge.A:
-prove that, for the same terminal packet and under retained Pack+Part, failure
+prove that, for the same terminal packet and under retained Part plus Field-window evidence, failure
 of the finite QSP cap/shell bump nonconcentration packet is failure of the
 Field coherence/readout requirement itself; otherwise route QSP failure as
 support-only and choose another Field certificate.
