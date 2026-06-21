@@ -39,7 +39,7 @@ while the complementary pass branch remains the only in-class continuation
 branch:
 
 ```text
-Pack_Q + Part_{N,Q} + Field_{N,r,Q}
+Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}
 => Member(Q)
 => a bounded H^s readout for some fixed s>5/2
 => same-solution classical continuation.
@@ -67,9 +67,8 @@ material atlas.  `ContinuationCompleteTerminalFaceExhaustion.A` then says that
 finite non-continuation has only the Field-certification alternatives:
 
 ```text
-not Pack_Q,
-or Pack_Q and not Part_{N,Q},
-or Pack_Q and Part_{N,Q} and forall r>0 not Field_{N,r,Q}.
+not Part_{N,Q},
+or Part_{N,Q} plus Field-window evidence and forall r>0 not Field_{N,r,Q}.
 ```
 
 `ClayCMContrapositiveEmbedding.A` reads that derived Part/Field failure as
@@ -108,7 +107,7 @@ The current direct-live route records the inventory gate as passed:
   local `L^3` Duhamel row and keeps generic public-critical translators
   support-only until a named same-atlas row is promoted.
 - `mpp-averaged-field-face-admission-20260607.md` consumes the averaged
-  `Jump_avg` row as a Field-Part/Field landing under retained Pack and Part.
+  `Jump_avg` row as a Field-Part/Field landing under retained Field-window evidence and Part.
 - `mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md` consumes the
   whole-space exterior survivor through Part or Field.
 - `live-theorem-edge.yaml` records

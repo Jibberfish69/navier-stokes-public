@@ -48,7 +48,7 @@ Assume:
 Conditional conclusion:
 
 ```text
-Jump_avg(T) + CM-test admission + retained Pack_Q + retained Part_{N,Q}
+Jump_avg(T) + CM-test admission + retained Field-window evidence_Q + retained Part_{N,Q}
   + SCFBaseLocalModulus_N(T,r)
   => not Field_{N,r,Q} at that r.
 ```
@@ -56,7 +56,7 @@ Jump_avg(T) + CM-test admission + retained Pack_Q + retained Part_{N,Q}
 The former unconditional conclusion
 
 ```text
-Jump_avg(T) + CM-test admission + retained Pack_Q + retained Part_{N,Q}
+Jump_avg(T) + CM-test admission + retained Field-window evidence_Q + retained Part_{N,Q}
   => forall r > 0, not Field_{N,r,Q}
   => Exit(Q):=not Member(Q).
 ```
@@ -89,7 +89,7 @@ The branch lands in the Field face conditionally:
 
 ```text
 CM-test-admitted averaged terminal tail
-  + retained Pack_Q
+  + retained Field-window evidence_Q
   + retained Part_{N,Q}
   + Jump_avg(T)
   + AveragedFieldFaceAdmission.A

@@ -100,7 +100,7 @@ Longleftrightarrow
 exists rho>0: Pack_{Q_rho(z_*)}.
 ```
 
-If the germ has no positive-radius Pack member at the terminal face, then the terminal object lands at the Pack face:
+If the germ has no positive-radius Pack member at the terminal face, then the terminal object lands at the Field-window evidence:
 
 ```math
 forall rho>0: not Pack_{Q_rho(z_*)}
@@ -233,4 +233,4 @@ So the result is as strong as the classical NS ontology itself. It is a scoped t
 
 ## Boundary
 
-This lemma proves carrier admissibility and Gate 1 routing. It does not prove a positive anti-Zeno estimate. A future anti-Zeno theorem would address whether smooth finite-energy NS can generate a terminal cascade before it reaches the Pack face. This lemma says how such a cascade is classified once presented to the CM gate.
+This lemma proves carrier admissibility and Gate 1 routing. It does not prove a positive anti-Zeno estimate. A future anti-Zeno theorem would address whether smooth finite-energy NS can generate a terminal cascade before it reaches the Field-window evidence. This lemma says how such a cascade is classified once presented to the CM gate.

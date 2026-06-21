@@ -43,7 +43,7 @@ Proof program: Navier-Stokes CM contrapositive class exit.
 Target object: a possible Pack/readout replacement for the torus global
 material atlas.
 
-Object role: public Clay finality bridge under the first Pack face.
+Object role: public Clay finality bridge under the first Field-window evidence.
 
 Logical skeleton: direct coordinate-change test plus obstruction model.
 

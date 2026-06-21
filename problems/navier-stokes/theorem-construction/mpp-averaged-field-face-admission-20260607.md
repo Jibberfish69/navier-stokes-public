@@ -33,7 +33,7 @@ Field_{N,r,Q} on the same admitted averaged tail
 Together with `Jump_avg(T):=not Field_avg(T)`, this rules out a positive CM Field scale only when that same scale also carries the modulus:
 
 ```text
-Pack_Q + Part_{N,Q} + Jump_avg(T)
+Part_{N,Q} plus Field-window evidence + Jump_avg(T)
   + SCFBaseLocalModulus_N(T,r)
   => not Field_{N,r,Q} at that r.
 ```
@@ -130,7 +130,7 @@ Field_{N,r,Q} => SCFBaseLocalModulus_N(T,r)
 or under a strengthened definition of the Field face that includes the modulus.  Without one of those inputs, the remaining proof-force burden is exactly the missing `SCF_base` local modulus, not an already discharged Field face.  With that input supplied, the first remaining CM Part/Field failure is:
 
 ```text
-Pack_Q + Part_{N,Q} + forall r > 0, not Field_{N,r,Q}.
+Part_{N,Q} plus Field-window evidence + forall r > 0, not Field_{N,r,Q}.
 ```
 
 That Part/Field failure supports the class-exit conclusion:
@@ -146,7 +146,7 @@ This proof does not use `READ.COVER`, `Field.Read`, `DTC.Read`, `READ.END`, `End
 It uses only:
 
 1. the same witness record;
-2. retained Pack geometry;
+2. retained Field-window evidence geometry;
 3. retained Part participation through the Navier-Stokes pressure-viscosity tower;
 4. the definition of `Field_{N,r,Q}`;
 5. the same-tail `SCF_base` local modulus;

@@ -47,7 +47,7 @@ approximation is outside the finite same-surface Clay breakdown branch.
 Before `T_*`, smoothness supplies the same transported fluid carrier on every
 still-live window. The terminal extraction is taken from that preterminal
 same-fluid family. If the positive carrier fails at the terminal endpoint, that
-is the Pack face:
+is the Field-window evidence:
 
 ```math
 \neg Pack_Q.

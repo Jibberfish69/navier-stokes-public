@@ -50,7 +50,7 @@ Object role: Pack/readout child under `Pack_{Q_atlas}` and
 Logical skeleton: direct matrix-evolution estimate plus obstruction model.
 
 Mechanism: singular-value evolution for the affine frame, terminal strain-tail
-integrability, and the Pack face.
+integrability, and the Field-window evidence.
 
 ## Matrix Evolution
 

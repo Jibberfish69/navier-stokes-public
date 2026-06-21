@@ -118,7 +118,7 @@ Part_{N_s,Q_{ann}}
 }
 ```
 
-The Pack face remains available only before admission: no selected
+The Field-window evidence remains available only before admission: no selected
 same-solution positive-radius carrier means the annular witness was not the
 admitted object under this theorem.
 

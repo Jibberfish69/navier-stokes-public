@@ -270,7 +270,7 @@ contract:
 \neg Pack_Q.
 ```
 
-3. A retained native source residue belongs to Field only under retained Pack
+3. A retained native source residue belongs to Field only under retained Field-window evidence
 and retained Part:
 
 ```math
@@ -323,7 +323,7 @@ Equivalently, in decision-tree form:
 \begin{cases}
 \neg Pack_Q,\\
 Pack_Q+\neg Part_{N,Q},\\
-Pack_Q+Part_{N,Q}+\forall r>0\,\neg Field_{N,r,Q}.
+Part_{N,Q} plus Field-window evidence+\forall r>0\,\neg Field_{N,r,Q}.
 \end{cases}
 }
 ```
