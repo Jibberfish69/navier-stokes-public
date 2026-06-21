@@ -146,7 +146,7 @@ HFG\Longrightarrow \int_0^T\|\omega(t)\|_{B^0_{\infty,1}}dt<\infty.
 The critical vorticity bound yields
 
 ```math
-Pack+Part+Field+\mathfrak A_{N,Q}
+Part+Field+\mathfrak A_{N,Q}
 ```
 
 on every retained approach family. Hence

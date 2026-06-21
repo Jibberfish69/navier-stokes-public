@@ -34,8 +34,8 @@ CSP.A. On the retained same-fluid collar, LCI.A together with the installed post
 - problems/navier-stokes/theorem-packet.yaml -- source ingredient
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:55 -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:60 -- Pack/Part bridge support
+- problems/navier-stokes/agent-contract.yaml:55 -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:60 -- Part/Field bridge support
 
 ### Recursive Solver Chain
 

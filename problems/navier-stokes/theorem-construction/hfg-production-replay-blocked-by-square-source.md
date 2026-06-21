@@ -6,7 +6,7 @@ The intended replay is
 
 ```math
 HFG
-\Rightarrow Pack+Part+Field+\mathfrak A_{N,Q}
+\Rightarrow Part+Field+\mathfrak A_{N,Q}
 \Rightarrow H1+H2+H6+ORIGIN.Retain
 \Rightarrow LCI.A+CJ.A_{low}.7+FCI.5f+OFP.A+CFI.A+End_{NS}.
 ```
