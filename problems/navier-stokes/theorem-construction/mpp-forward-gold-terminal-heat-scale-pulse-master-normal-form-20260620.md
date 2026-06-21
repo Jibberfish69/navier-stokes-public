@@ -2,7 +2,7 @@
 theorem_id: forward-gold-terminal-heat-scale-pulse-master-normal-form-20260620
 status: master-normal-form-complete-forward-gold-not-solved
 logical_landing_node: terminal_heat_scale_pulse_unweighted_selected_carrier_reserve
-edge_effect: "Consolidates the endpoint UI, finite-readout visibility, combined Holder critical density, allocation/shadow-price, coupled mixed-tower radius, same-carrier tail UI, source-square, critical-strain, normalized CKN, coherent participation square, square parent-or-charge, signed donor, diffuse parent-cloud/no-null, finite-effective-branching/depth-entropy, same-shadow gauge/action, mode-lobe expansion, strict no-waste, and compact-profile branches into one exact normal form. The only forward-gold theorem left by these tests is an unweighted critical-action reserve on the actual selected positive carrier. Without that reserve, the retained pulse is a CM Pack/Part/Field readout only after same-witness CM-test admission."
+edge_effect: "Consolidates the endpoint UI, finite-readout visibility, projected source L2 criterion, combined Holder critical density, allocation/shadow-price, coupled mixed-tower radius, same-carrier tail UI, source-square, critical-strain, normalized CKN, coherent participation square, square parent-or-charge, signed donor, diffuse parent-cloud/no-null, finite-effective-branching/depth-entropy, same-shadow gauge/action, mode-lobe expansion, strict no-waste, and compact-profile branches into one exact normal form. The only forward-gold theorem left by these tests is an unweighted critical-action reserve on the actual selected positive carrier. Without that reserve, the retained pulse is a CM Pack/Part/Field readout only after same-witness CM-test admission."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-tail-ui-production-normal-form-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-strain-carrier-ui-holder-saturation-test-20260620.md
@@ -29,6 +29,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-readout-quantum-global-budget-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-readout-to-critical-budget-identification-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-combined-holder-density-budget-direct-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-projected-source-l2-criterion-endpoint-ui-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-allocation-duality-same-carrier-reserve-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-mixed-derivative-tower-participation-law-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-cross-cylinder-time-tower-coupling-test-20260621.md
@@ -48,8 +49,8 @@ Date: 2026-06-20
 
 Master normal-form reduction complete.  This note does not solve the
 forward-gold theorem.  It records the exact nonduplicated theorem left after
-the endpoint, finite-readout, combined Holder, allocation/shadow-price,
-coupled mixed-tower, participation, square-reserve, donor,
+the endpoint, finite-readout, projected source \(L^2\) criterion, combined
+Holder, allocation/shadow-price, coupled mixed-tower, participation, square-reserve, donor,
 parent-cloud/no-null, finite-branch/depth-entropy, same-shadow gauge/action,
 mode-lobe expansion, no-waste, and compactness branches have been tested
 against the same heat-scale pulse.
@@ -451,6 +452,8 @@ status:
 \text{atom visibility; no global unweighted budget}\\
 \text{combined Holder density} &
 \text{algebraic trilinear consumer; unweighted budget absent}\\
+\text{projected source }L^2\text{ criterion} &
+\text{endpoint atom consumer; }L^2\text{ source-square absent}\\
 \text{allocation / KKT shadow price} &
 \text{combined Holder price paid; unweighted priced reserve absent}\\
 \text{coupled mixed-tower radius} &
