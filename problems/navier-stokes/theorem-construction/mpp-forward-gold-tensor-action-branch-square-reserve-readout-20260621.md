@@ -305,7 +305,7 @@ For the actual Navier-Stokes tensor \(F=v\otimes v\), this is exactly
 \text{nonzero tensor branch}
 \Longrightarrow
 \int_{I_m}\!\int |v_m|^4
-\gtrsim \theta_m^{-1}.
+\ge {b_0^2\over\theta_m}.
 }
 \tag{TAB.25}
 \]
