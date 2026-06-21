@@ -236,7 +236,7 @@ So the pressure route returns to:
 ```math
 \text{ScaleCriticalCubicFluxReserve.A}
 \quad\text{or}\quad
-\text{retained critical concentration as CM Pack/Part/Field readout}.
+\text{retained critical concentration as CM Part/Field readout}.
 \tag{SCC.17}
 ```
 

@@ -14,7 +14,7 @@ ns_viewer:
     moving-selector families. The remaining selector obstruction is exactly a
     moving/continuum carrier escape, or a theorem that pays it by finite
     complexity, an integrable label modulus, selector-action charge, one-profile
-    capture, or CM Pack/Part/Field consumption after same-witness admission.
+    capture, or CM Part/Field consumption after same-witness admission.
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-sparse-same-witness-carrier-custody-reduction-20260621.md
     - problems/navier-stokes/theorem-construction/mcp-finite-active-packet-reduction-test.md
@@ -188,7 +188,7 @@ following actual mechanisms:
 \[
 \boxed{
 \text{finite-complexity rule, integrable label modulus, selector-action charge,
-one-profile capture, profile production, or CM Pack/Part/Field consumption}.
+one-profile capture, profile production, or CM Part/Field consumption}.
 }
 \tag{SCH.13}
 \]

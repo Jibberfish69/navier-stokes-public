@@ -231,8 +231,8 @@ The no-null theorem would follow from any one of these exact inputs:
 3. a carrier-first mode atlas plus `ModeJacobianOnNativeCarrier.A` and the
    positive carrier bridge;
 4. same-carrier source-square or strict no-waste domination;
-5. a CM face consumption theorem proving that a surviving null positive carrier
-   is already a Pack, Part, or Field face failure.
+5. a CM Part/Field consumption theorem proving that a surviving null positive carrier
+   is already a Part or Field Part/Field failure.
 
 Each supplier excludes `(SPN.4)` by charging the missing signed partner,
 preventing the cancellation, or routing the surviving positive carrier into an

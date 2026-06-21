@@ -28,7 +28,7 @@ ns_viewer:
     source, or a prior failure to identify the native selected carrier with this
     local trilinear form. The overrun must be paid by a critical-strain/CKN,
     no-waste, square-synchronous saturation, no-free Zeno, or profile-production
-    theorem, or else consumed by the CM Pack/Part/Field route after same-witness
+    theorem, or else consumed by the CM Part/Field route after same-witness
     admission.
 ---
 

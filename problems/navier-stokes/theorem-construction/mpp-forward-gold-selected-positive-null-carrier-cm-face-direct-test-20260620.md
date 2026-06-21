@@ -63,7 +63,7 @@ The compact no-null branch has a fixed positive carrier:
 ```
 
 The extra condition \(\|L_mq_m\|_m\to0\) says that the signed same-shadow readout
-does not see this positive carrier.  For CM face consumption, the decisive
+does not see this positive carrier.  For CM Part/Field consumption, the decisive
 quantity is already `(SPC.5)`: a retained same-witness positive source carrier
 at arbitrarily high frequency.
 
@@ -72,7 +72,7 @@ at arbitrarily high frequency.
 Assume `(SPC.5)` is admitted as part of the same terminal Clay witness.
 
 If the selected terminal carrier does not survive as a same-solution carrier,
-the first face fails:
+the first Part/Field fails:
 
 ```math
 \neg Pack_Q.
@@ -108,7 +108,7 @@ Field_{N_s,r,Q}
 \tag{SPC.9}
 ```
 
-By the installed continuation readout used in the CM face tests, choose
+By the installed continuation readout used in the CM Part/Field tests, choose
 \(N_s\) above the local \(H^s\), \(s>5/2\), threshold.  Then `(SPC.9)` gives a
 same-solution local high-regularity bound on the selected packet region:
 
@@ -167,9 +167,9 @@ Pack_Q\wedge Part_{N_s,Q}\wedge (SPC.5)
 \tag{SPC.15}
 ```
 
-## 4. CM face consequence
+## 4. CM Part/Field consequence
 
-Combining the Pack, Part, and Field alternatives gives
+Combining the Part and Field alternatives gives
 
 ```math
 \boxed{
@@ -189,7 +189,7 @@ Combining the Pack, Part, and Field alternatives gives
 \tag{SPC.16}
 ```
 
-By the CM embedding theorem, the face failure supports
+By the CM embedding theorem, the Part/Field failure supports
 
 ```math
 Exit(Q):=\neg Member(Q)
@@ -211,20 +211,20 @@ Before same-witness CM admission, `(SPC.1)` remains a forward-gold obstruction:
 the signed same-shadow readout can cancel while the positive carrier survives.
 
 After same-witness CM admission, `(SPC.5)` is enough to trigger the
-Pack/Part/Field test.  A retained positive high-frequency source carrier is
+Part/Field test.  A retained positive high-frequency source carrier is
 incompatible with a positive high-regularity `Field` certificate, because
 `Field` forces the normalized carrier to zero by `(SPC.14)`.
 
 ## Verdict
 
-The compact no-null positive-carrier branch is now consumed at the CM face
+The compact no-null positive-carrier branch is now consumed at the CM Part/Field
 level:
 
 ```math
 \boxed{
 \text{SelectedPositiveConeNoNullReadout.A}
 \quad\text{or}\quad
-\text{same-witness Pack/Part/Field face failure.}
+\text{same-witness Part/Field Part/Field failure.}
 }
 \tag{SPC.19}
 ```

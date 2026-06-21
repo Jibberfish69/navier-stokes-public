@@ -232,7 +232,7 @@ selected positive carrier.
 
 The no-null clause needs retained signed-partner saturation, a same-ledger
 positive carrier fidelity theorem, same-carrier source-square/no-waste
-domination, or a CM face consumption theorem for a surviving null positive
+domination, or a CM Part/Field consumption theorem for a surviving null positive
 carrier.
 
 ## 6. CM-facing readout boundary

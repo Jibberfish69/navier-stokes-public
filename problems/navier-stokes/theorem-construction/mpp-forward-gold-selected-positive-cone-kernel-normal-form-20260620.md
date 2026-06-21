@@ -311,7 +311,7 @@ M^+(q)>0,\ Lq=0.
 
 That kernel must be removed by retained signed-partner saturation,
 source-resolved native mode readout, same-carrier source-square control, or by a
-CM face admission of the retained positive carrier.
+CM Part/Field admission of the retained positive carrier.
 
 ## Verdict
 

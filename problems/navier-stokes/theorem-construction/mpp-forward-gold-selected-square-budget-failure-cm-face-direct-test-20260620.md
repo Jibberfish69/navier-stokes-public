@@ -9,7 +9,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-participation-square-budget-direct-attempt-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
     - problems/navier-stokes/theorem-construction/mpp-retained-pack-part-critical-concentration-to-field-bridge-20260519.md
-  downstream_consequence: "The selected participation square-budget failure is not a fourth endpoint type after same-witness admission. It is forward-gold supplier failure before admission, and Pack/Part/Field face material after admission."
+  downstream_consequence: "The selected participation square-budget failure is not a fourth endpoint type after same-witness admission. It is forward-gold supplier failure before admission, and Part/Field face material after admission."
 ---
 
 # MPP Forward-Gold Selected Square-Budget Failure CM Face Direct Test
@@ -30,7 +30,7 @@ The result is:
 \boxed{
 \text{same-witness selected square-budget failure}
 \Longrightarrow
-\text{Pack/Part/Field face failure.}
+\text{Part/Field Part/Field failure.}
 }
 \tag{SBC.1}
 ```
@@ -64,13 +64,13 @@ Here \(\Pi_j^{part,+}\) is the already assembled same-fluid participation
 current: pressure, convection, viscosity, cutoffs, projectors, commutators, and
 selector effects are on the same ledger before the positive part is tested.
 
-## 2. Admission gives the Pack-first tree
+## 2. Admission gives the Field-certification tree
 
 Assume `(SBC.3)` is not merely a support calculation but is part of a
 CM-test-admissible terminal Clay witness \(W_*\).  By
 `ClayTerminalWitnessCMEntry.A`, \(W_*\) enters the same-fluid terminal CM tree.
 
-If the selected terminal carrier does not survive, then the first face fails:
+If the selected terminal carrier does not survive, then the first Part/Field fails:
 
 ```math
 \neg Pack_Q.
@@ -194,7 +194,7 @@ ClayWitness_{CM}(W_*)
 \tag{SBC.14}
 ```
 
-By `ClayCMContrapositiveEmbedding.A`, this face failure supports
+By `ClayCMContrapositiveEmbedding.A`, this Part/Field failure supports
 
 ```math
 Exit(Q;\mathfrak O_{NS}^{work})
@@ -214,12 +214,12 @@ Before admission, it remains the forward-gold supplier failure:
 \text{UnweightedTerminalCriticalActionReserve.A is not proved.}
 ```
 
-After admission, it is consumed by the CM Pack/Part/Field tree:
+After admission, it is consumed by the CM Part/Field tree:
 
 ```math
 \boxed{
 \text{selected square-budget failure}
 \Rightarrow
-\text{Pack/Part/Field face failure.}
+\text{Part/Field Part/Field failure.}
 }
 ```

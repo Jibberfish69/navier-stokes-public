@@ -311,7 +311,7 @@ It is either:
 or
 
 \[
-\text{admit the surviving unsaturated positive carrier as a CM Pack/Part/Field
+\text{admit the surviving unsaturated positive carrier as a CM Part/Field
 face witness.}
 \tag{SSC.17}
 \]
