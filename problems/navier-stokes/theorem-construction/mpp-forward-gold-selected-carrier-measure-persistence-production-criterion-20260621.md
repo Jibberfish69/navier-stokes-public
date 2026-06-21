@@ -7,6 +7,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-activity-persistence-replacement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-no-loss-relay-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-packet-selector-polar-retention-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
 ---
 
 # Selected Carrier Measure Persistence Production Criterion
@@ -34,6 +35,9 @@ R_{{\rm legal},n}
 ```
 
 This note proves a concrete measure-level criterion that gives `(SCM.1)`.
+The later tightness-defect note removes the need to treat failed tightness as
+an invisible hypothesis: escaped selected carrier mass is added to the
+Body-III positive no-loss defect \(K_C^+\).
 
 The core point is simple:
 
@@ -160,6 +164,19 @@ Letting \(R\to\infty\) yields `(SCM.7)` by monotone convergence.
 
 When \(C\) is compact, `(SCM.5)` is automatic and `(SCM.7)` is equality, because
 the constant test function \(1\) is admissible.
+
+If tightness fails, the tightness-defect theorem gives the replacement estimate
+
+```math
+\limsup_{n\to\infty}\mu_n^A(C)
+\le
+\mu_*^A(C)+K_{\rm tight}^A,
+\tag{SCM.7a}
+```
+
+and folds \(K_{\rm tight}^A\) into the Body-III positive relay defect.  Thus
+tightness is a lossless-branch consequence when \(K_C^+=0\), rather than an
+unrecorded assumption.
 
 ## 3. Body-III identification gives retained activity of the limit
 
@@ -351,7 +368,8 @@ The remaining Navier-Stokes statement is the conjunction:
 ```math
 \boxed{
 \text{tightness of the retained nonnegative measures }\mu_n^A
-\text{ on the normalized same-carrier packet space;}
+\text{ on the normalized same-carrier packet space, or escaped mass charged
+inside }K_C^+;
 }
 \tag{SCM.26}
 ```
@@ -360,7 +378,8 @@ The tightness clause is now decomposed exactly: it is paid by controlled
 domain or paid exterior/gauge spill, finite or compact label custody or paid
 moving-selector escape, finite or summable tower-rung tail, and same-carrier UI
 for small moving/collar defects.  If tightness fails, one of those escape
-channels carries positive selected mass.
+channels carries positive selected mass, and that escaped mass is a Body-III
+selected-carrier relay defect.
 
 The second remaining clause is:
 
