@@ -50,7 +50,7 @@ Assume `Pack_Q` and `Part_{N,Q}` are retained.
 
 `Pack_Q` keeps the critical concentration on the same transported/control-volume
 ledger. A failure to place the concentration on that ledger has already selected
-the Pack face.
+the Field-window evidence.
 
 `Part_{N,Q}` keeps the concentration inside the same fixed-viscosity
 pressure-participation law. A failure of this same-law carrier has already
@@ -59,7 +59,7 @@ selected the Part face.
 So the only retained branch is:
 
 ```math
-Pack_Q + Part_{N,Q} + CritConc_{L^3}(\mathcal W).
+Part_{N,Q} plus Field-window evidence + CritConc_{L^3}(\mathcal W).
 ```
 
 On this branch, a critical `L^3` concentration is scale invariant. The required
@@ -76,7 +76,7 @@ diagnostics:
 The repo already has the CM landing for those objects:
 
 ```math
-Pack_Q + Part_{N,Q} + \mu_*^{sing}>0
+Part_{N,Q} plus Field-window evidence + \mu_*^{sing}>0
 \Longrightarrow
 \forall r>0\,\neg Field_{N,r,Q}
 ```

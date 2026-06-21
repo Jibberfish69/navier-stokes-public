@@ -27,7 +27,7 @@ propagation, but the common collar proof loops back to the lower-carrier /
 receiver fixed point unless a retained still-live receiver collar is already
 available.
 
-Receiver escape is not a fourth branch.  Under retained Pack it becomes
+Receiver escape is not a fourth branch.  Under retained Field-window evidence it becomes
 finite-depth tower escape on the receiver packet; under retained Part it lands
 in the Field slot.  The retained Field row is conditionally closed only when
 the pre-endpoint same-family DTC/tower package is produced without spending

@@ -357,7 +357,7 @@ if one refuses all route-relative admissibility discipline.
 
 What **is** now available is the route-relative stable-carrier canonicality
 theorem in
-[mpp-pack-part-field-canonicality-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-pack-part-field-canonicality-reduction-note.md):
+[mpp-part-field-canonicality-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-part-field-canonicality-reduction-note.md):
 
 ```math
 \text{every lawful primitive local-law factorization built from the same stable carried structures }(u,p,\Phi,F)
@@ -396,7 +396,7 @@ primitive burden rather than a theorem consequence of the other two.
 
 What **is** now available is the stronger installed primitive-minimality
 synthesis in
-[mpp-pack-part-field-primitive-minimality-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-pack-part-field-primitive-minimality-note.md):
+[mpp-part-field-primitive-minimality-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-part-field-primitive-minimality-note.md):
 
 ```math
 \text{each of }

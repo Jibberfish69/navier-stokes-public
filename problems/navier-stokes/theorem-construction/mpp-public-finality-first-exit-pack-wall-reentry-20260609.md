@@ -57,7 +57,7 @@ NoGenuineExitFromSmoothData.A
 <=>
 1. OriginalSmoothData => Pack_Q terminal survival,
 2. OriginalSmoothData + Pack_Q => Part_{N,Q} terminal no-drop,
-3. OriginalSmoothData + Pack_Q + Part_{N,Q} => exists r>0 Field_{N,r,Q}.
+3. OriginalSmoothData + Part_{N,Q} plus Field-window evidence => exists r>0 Field_{N,r,Q}.
 ```
 
 The checked direct attempt identifies the first concrete wall as the Pack

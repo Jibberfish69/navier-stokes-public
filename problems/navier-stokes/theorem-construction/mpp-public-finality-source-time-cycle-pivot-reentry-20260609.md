@@ -29,7 +29,7 @@ OriginalSmoothData => ScaleCriticalTreeCarleson.A
 ```
 
 or an equivalent noncircular theorem proving that the canonical same-solution
-terminal packet from original smooth data cannot realize the first Pack face
+terminal packet from original smooth data cannot realize the first Field-window evidence
 failure.
 
 ## Checked Source-Time Cycle

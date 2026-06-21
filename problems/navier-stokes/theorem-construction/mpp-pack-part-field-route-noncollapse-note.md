@@ -60,7 +60,7 @@ Use only the already-installed class-membership surfaces.
 8. [mpp-one-field-forward-preservation-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md)
 9. [mpp-ontological-terminal-survivor-exhaustiveness.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-ontological-terminal-survivor-exhaustiveness.md)
 10. [mpp-object-law-corpus-refoundation.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-object-law-corpus-refoundation.md)
-11. [mpp-pack-part-field-triadicity-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-pack-part-field-triadicity-audit-note.md)
+11. [mpp-part-field-triadicity-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-part-field-triadicity-audit-note.md)
 
 ## Primitive Failure Reading
 
@@ -330,4 +330,4 @@ It is a theorem of route noncollapse:
 That is the exact honest completion of the route-noncollapse component of
 `TRI.E2`. The stronger admissibility-side primitive-minimality synthesis is
 promoted in
-[mpp-pack-part-field-primitive-minimality-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-pack-part-field-primitive-minimality-note.md).
+[mpp-part-field-primitive-minimality-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-part-field-primitive-minimality-note.md).

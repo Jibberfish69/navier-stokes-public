@@ -175,7 +175,7 @@ contraction lower bound, `TerminalParaproductSignLocalization.A` produces
 `\nu_N^{src}(E_N)\ge c`, the installed `RN.NativeDecision.A` spends it in the
 contrapositive direction: vanishing installed ledger gives the native singular
 source witness `\mu_*^{sing}>0`, and reserve-carried mass gives selected
-`ScaleCriticalTreeCarleson.A` failure. Under retained Pack and Part, those are
+`ScaleCriticalTreeCarleson.A` failure. Under retained Field-window evidence and Part, those are
 CM witness outputs inside the contrapositive route.
 
 ## Boundary

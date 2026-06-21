@@ -15,7 +15,7 @@ to build for the classical incompressible Navier--Stokes equations.
 For the exact theorem status of whether this `Pack / Part / Field` triad is
 merely the current route factorization or a canonically forced primitive
 decomposition, see
-[mpp-pack-part-field-triadicity-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-pack-part-field-triadicity-audit-note.md).
+[mpp-part-field-triadicity-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-part-field-triadicity-audit-note.md).
 
 ## Fixed Problem
 

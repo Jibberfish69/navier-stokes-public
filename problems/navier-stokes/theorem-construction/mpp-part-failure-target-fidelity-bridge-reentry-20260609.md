@@ -83,7 +83,7 @@ PartFailureTargetFidelityBridge.A
 `mpp-terminal-source-residue-cm-exit-20260522.md` and
 `mpp-retained-pressure-package-cm-face-placement-20260605.md` give the lawful CM
 placement.  A terminal source residue or pressure package problem is not a
-fourth face.  Under retained Pack, it lands at `not Part_{N,Q}` unless the
+fourth face.  Under retained Field-window evidence, it lands at `not Part_{N,Q}` unless the
 same pressure-viscosity/source tower participates on the same carrier.
 
 ## Proof attempt

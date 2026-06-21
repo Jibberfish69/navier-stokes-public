@@ -30,7 +30,7 @@ burden fails:
 
 That residue then needs its own routing. Loss of same-fluid carrier is
 Pack-facing. Loss of the pressure-viscosity participation law is Part-facing.
-Retained `Pack_Q + Part_{N,Q}` plus surviving native positive source residue is
+Retained `Part_{N,Q} plus Field-window evidence` plus surviving native positive source residue is
 the Field-side source-residue diagnostic.
 
 Endpoint language enters only after the separate classification theorem:
@@ -52,4 +52,4 @@ Do not say that `PositiveRemainderDepletion.A` is Field/Jump.
 
 Say instead: `PositiveRemainderDepletion.A` is the positive supplier burden; a
 surviving positive source residue after supplier failure can be routed to
-Field/Jump only after retained Pack and Part and the named source-residue bridge.
+Field/Jump only after retained Field-window evidence and Part and the named source-residue bridge.
