@@ -11,6 +11,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-packet-selector-polar-retention-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-four-body-terminal-atom-accounting-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-canonical-selected-carrier-identification-criterion-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -243,6 +244,28 @@ K_C^+
 with \(K_{\rm tight}^A\) included in \(K_C^+\).  Hence non-tight selected
 carrier mass is lost positive carrier for Body III, and a lossless cycle with
 \(K_C^+=0\) forces tightness.
+
+The interior selected-carrier identification is now equally explicit.  On a
+fixed retained selected carrier,
+
+```math
+\sum_{P\in\mathcal S}
+\|h_{n,P}-h_P[U,\Pi]\|_{L^1(K\times P)}
+\to0
+\tag{4BF.14c}
+```
+
+implies
+
+```math
+\|\mu_n^A-\mu^A[U,\Pi]\|_{\rm TV}\to0.
+\tag{4BF.14d}
+```
+
+If `(4BF.14c)` fails, the mismatch is the interior selected-carrier component
+of \(K_C^+\).  Thus Body III now has two exact selected-carrier clauses:
+escaped mass is \(K_{\rm tight}^A\), and compact interior density/product/
+pressure mismatch is \(K_{C,A}^{\rm int,+}\).
 
 ## 4. Body IV gives the geometry return arrow, not the unweighted clock
 
@@ -493,8 +516,12 @@ interior weak limit with the canonical selected carrier of the limiting
 Navier-Stokes profile up to \(K_C^+\).  Tightness is no longer an uncharged
 side assumption: failure of tightness is included in \(K_C^+\), and the
 tightness decomposition says this failure is domain escape, label/selector
-escape, or tower-rung escape.  Signed-current compactness alone is not enough,
-because it can cancel the positive carrier.
+escape, or tower-rung escape.  Interior identification is no longer a vague
+continuity demand either: it reduces to \(L^1\) convergence of the full
+same-carrier participation density \(h_{n,P}\), produced by strong convergence
+of the coupled velocity-pressure-incompressibility tower products, or else the
+mismatch is included in \(K_C^+\).  Signed-current compactness alone is not
+enough, because it can cancel the positive carrier.
 
 ## 8. Current conclusion
 
