@@ -445,9 +445,13 @@ The positive interface defect is charged by
 K_{C\to G}^+
 \le
 K_C^+
++
 K_{\rm geom,map}^+
++
 K_{\rm geom,gauge}^+
++
 K_{\rm geom,coef}^+
++
 R_{\rm legal}.
 }
 \tag{SOD.34}
