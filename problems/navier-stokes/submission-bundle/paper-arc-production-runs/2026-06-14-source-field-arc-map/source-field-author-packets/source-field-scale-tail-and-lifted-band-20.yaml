@@ -186,7 +186,7 @@ chunk:
       So if the selected scale-critical source reserve failure is the way smoothness breaks, and if the carrier geometry and pressure-viscosity participation have not already broken, then the failure is a Field failure.
 
       \[
-      Pack_Q+Part_{N,Q}
+      Part_{N,Q} plus Field-window evidence
       +\forall r>0\,\neg Field_{N,r,Q}
       \Longrightarrow
       tower\text{-}blown,
@@ -198,7 +198,7 @@ chunk:
       CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
-      So a real terminal smoothness failure must leave CM. A terminal Carleson/source-reserve failure is useful only after it is diagnosed against Pack, Part, and Field.
+      So a real terminal smoothness failure must leave CM. A terminal Carleson/source-reserve failure is useful only after it is diagnosed against Part and Field.
 
       On the direct source-wall branch, after Parent Square Embed.A has priced diffuse parentage, sel Scale Critical Tree Carleson.A(Q) means the scale-critical reserve still has positive tail mass after declared losses and non-selected exits are removed. Concretely, there is an eta>0 and scales k m->infty for which a selected same-fluid terminal window satisfies
 
@@ -515,7 +515,7 @@ chunk:
     So if the selected scale-critical source reserve failure is the way smoothness breaks, and if the carrier geometry and pressure-viscosity participation have not already broken, then the failure is a Field failure.
 
     \[
-    Pack_Q+Part_{N,Q}
+    Part_{N,Q} plus Field-window evidence
     +\forall r>0\,\neg Field_{N,r,Q}
     \Longrightarrow
     tower\text{-}blown,
@@ -527,7 +527,7 @@ chunk:
     CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
-    So a real terminal smoothness failure must leave CM. A terminal Carleson/source-reserve failure is useful only after it is diagnosed against Pack, Part, and Field.
+    So a real terminal smoothness failure must leave CM. A terminal Carleson/source-reserve failure is useful only after it is diagnosed against Part and Field.
 
     On the direct source-wall branch, after Parent Square Embed.A has priced diffuse parentage, sel Scale Critical Tree Carleson.A(Q) means the scale-critical reserve still has positive tail mass after declared losses and non-selected exits are removed. Concretely, there is an eta>0 and scales k m->infty for which a selected same-fluid terminal window satisfies
 
@@ -743,7 +743,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
