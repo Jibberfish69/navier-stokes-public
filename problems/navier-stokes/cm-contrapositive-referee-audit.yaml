@@ -130,7 +130,7 @@ working_pass_results:
   evidence:
   - problems/navier-stokes/theorem-construction/mpp-continuation-complete-terminal-face-exhaustion-working-pass-20260526.md
   result: Once the selected packet is readout-complete, terminal non-continuation
-    negates the continuation-complete CM participation-field record. Since that packet is exactly Pack+Part+Field
+    negates the continuation-complete CM participation-field record. Since that packet is exactly Part+Field
     plus the H^s readout, the negation yields a Field-certification first-Part/Field failure.
   remaining_boundary: The torus global material atlas note supplies the selected readout-complete
     packet for the active periodic surface.
@@ -153,7 +153,7 @@ working_pass_results:
   - problems/navier-stokes/cm-branch-family-certificate-ledger-20260526.yaml
   result: The installed terminal L3 Duhamel-mass branch is now separated from generic
     public-critical translator support. It has CM-test entry by same-ledger localization
-    and lands in Pack/Part/legal face alternatives, with retained Pack+Part feeding
+    and lands in Part/legal face alternatives, with retained Part plus Field-window evidence feeding
     the local L3 Field face. Generic public-critical classes remain support-only until
     same-atlas localization and Field incompatibility are proved for a named class.
   remaining_boundary: This narrows the finite-obstruction inventory audit only. The

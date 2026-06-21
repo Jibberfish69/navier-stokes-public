@@ -167,7 +167,7 @@ nodes:
     open_part: >-
       ScaleCriticalTreeCarleson.A remains the historical scalar reserve needed
       for the old LocalPositiveSourceCarleson.A direct branch, but that branch
-      is support-history after the Pack-out-of-CM CM correction. The tree-Bellman
+      is support-history after the Pack-out-of-CM correction. The tree-Bellman
       reserve attempt is circular unless an independent active-window Carleson
       reserve, active-shell amplitude gain, normalized square-source theorem,
       branch-reserve theorem, or Zeno rigidity theorem is installed. The direct
@@ -496,7 +496,7 @@ nodes:
       while a surviving exterior
       source is no longer an unspecified branch: bounded frequencies vanish by
       exterior L^2 tightness, high-frequency survivors escape to dyadic scale,
-      and retained Pack+Part is incompatible with any fixed positive Field scale
+      and retained Part plus Field-window evidence is incompatible with any fixed positive Field scale
       by R3.ExteriorDyadicSurvivorFieldIncompatibility.A. Thus the CM-facing
       dichotomy lands the survivor in Part or Field. This branch is
       upstream-separated from the periodic T^3 endpoint.

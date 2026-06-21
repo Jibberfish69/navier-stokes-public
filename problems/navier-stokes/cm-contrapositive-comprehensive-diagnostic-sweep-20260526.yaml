@@ -92,7 +92,7 @@ switch_verdicts:
     On the active T^3 zero-force surface, terminal non-continuation is tested on
     the transported whole-torus material atlas Q_atlas. Atlas/carrier/readout
     failure lands at not Pack_Q, pressure-viscosity tower failure lands at not
-    Part_{N,Q}, and retained Pack+Part with no positive coherent scale lands at
+    Part_{N,Q}, and retained Part plus Field-window evidence with no positive coherent scale lands at
     forall r>0 not Field_{N,r,Q}.
 - id: branch_family_census
   classification: certified_rows_plus_demoted_support
@@ -110,7 +110,7 @@ switch_verdicts:
   - problems/navier-stokes/theorem-construction/mpp-pack-first-source-reserve-face-audit-20260526.md
   - problems/navier-stokes/theorem-construction/mpp-zero-moment-reserve-visibility-direct-attempt-20260525.md
   verdict: >-
-    Zero-radius residue and selected unpaid infinite donor-refill are Pack-side
+    Zero-radius residue and selected unpaid infinite donor-refill are Field-window support
     fail landings. Retained positive-scale first-created native reserve and
     same-ledger signed-pair visibility remain supplier-quarantined positive
     support until same-ledger payment or a same-atlas first-Part/Field derivation is

@@ -56,7 +56,7 @@ sources_inspected:
   - path: problems/navier-stokes/theorem-construction/mpp-finite-zeno-ancestry-dichotomy-to-pack-exit-20260521.md
     role: Zeno endpoint Pack exit
   - path: problems/navier-stokes/theorem-construction/mpp-terminal-source-residue-cm-exit-20260522.md
-    role: raw terminal source residue Pack/Part exit
+    role: raw terminal source residue Part/Field exit
   - path: problems/navier-stokes/theorem-construction/mpp-retained-native-source-residue-field-exit-reduction-20260516.md
     role: historical retained-Field diagnostic and current response-lower-bound gap
   - path: problems/navier-stokes/theorem-construction/mpp-retained-pack-part-critical-concentration-to-field-bridge-20260519.md
@@ -242,7 +242,7 @@ records:
       Native source residue already converted into a lawful participating
       source/readout object on a retained Pack and Part witness record.
     cm_test_admission_status: >-
-      Conditional. Raw source residue is certified at Pack/Part first; this
+      Conditional. Raw source residue is certified at Part/Field first; this
       Field row becomes admissible only after a separate theorem licenses
       participation for the residue.
     first_face: Field_{N,r,Q}
@@ -256,7 +256,7 @@ records:
     exact_missing_step: >-
       None for CM proof inclusion. NativeResidueResponseLowerBound.A remains
       optional retained-Field support; raw source residue stays seated at
-      Pack/Part unless that bridge is proved on the same atlas.
+      Part/Field unless that bridge is proved on the same atlas.
   - record_id: retained_positive_scale_native_reserve_birth
     branch_family: square reserve, reserve creation, and native trilinear forms
     selected_terminal_object: >-

@@ -212,12 +212,12 @@ surface_audit:
   - path: problems/navier-stokes/theorem-construction/mpp-pctp-hard-matrix-readable-discharge.md
     role: PCTP discharge packet
     cm_status: downstream-readout
-    landing: CM_avg=Pack+Part+Field_avg, then Field_avg + READ.COVER + ATD_m^epsilon -> Field, then READ.END -> End_NS
+    landing: CM_avg=Part+Field_avg, then Field_avg + READ.COVER + ATD_m^epsilon -> Field, then READ.END -> End_NS
     action: keep downstream
   - path: problems/navier-stokes/theorem-construction/mpp-pctp-hard-terminal-tail-uniformization-assembly.md
     role: PCTP assembly
     cm_status: downstream-readout
-    landing: CM_avg=Pack+Part+Field_avg, then averaged-to-pointwise Field/readout, then READ.END -> End_NS
+    landing: CM_avg=Part+Field_avg, then averaged-to-pointwise Field/readout, then READ.END -> End_NS
     action: keep downstream
   - path: problems/navier-stokes/theorem-construction/mcp-pctp-hard-discharge-via-averaged-terminal-tail-uniformization-avg-end-a-a92107787f.md
     role: PCTP discharge
@@ -274,13 +274,13 @@ root_group_application:
     cm_status: diagnostic positive source-control presentation with selected CM landing installed
     action: selected failure is sorted by RawSCTCFailurePartition.A + SCTCFailureToFaceWitness.A; retained terminal failure lands in Field by RetainedSCTCFailureFieldExit.A
   ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A:
-    cm_status: diagnostic source-residue presentation with Pack-out-of-CM resurfacing correction
-    action: selected finite Zeno ancestry is sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A; terminal zero-heat-time source residue is first audited for the original NS participation law, landing in Part when the same-solution participation record remains and in true not Pack_Q only when that record is absent; Field/Jump language is post-exit readout unless a positive-scale retained carrier is separately proved
+    cm_status: diagnostic source-residue presentation with Pack-out-of-CM boundary correction correction
+    action: selected finite Zeno ancestry is sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A; terminal zero-heat-time source residue is first audited for the original NS participation law, landing in Part when the same-solution participation record remains and in packet/window evidence only when that record is absent; Field/Jump language is post-exit readout unless a positive-scale retained carrier is separately proved
   Terminal signed-current / weighted lifted defect support:
     cm_status: support presentation
     action: not an independent face; after ASAC pays active-alignment and positive pair-weight pieces, the remaining selected branch is ZenoSourceResidueRigidity.A and hence the installed Zeno Field diagnostic
   RetainedFaceAmplitudeGain.A:
-    cm_status: conditional Pack/Part boundary
+    cm_status: conditional Part/Field boundary
     action: selected failure is not PackGainLedger.A or not PartEnvelopeAmplitudeConservation.A unless those inputs are supplied and the remainder returns to the source-wall Field/Zeno diagnostics
   ActiveHeightFluxTrichotomy.A / LowStrainBVCharge.A:
     cm_status: typed face-routing subset
