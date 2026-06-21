@@ -138,13 +138,13 @@ chunk:
 
       Let a Clay negation supply one original smooth datum, one maximal classical solution, a finite terminal time, and a same-solution terminal record. The standard continuation theorem supplies the entry record: bounded continuation readout would restart the same solution past the terminal time.
 
-      This is the fail branch. It is not a second in-class continuation branch. The pass branch is exactly the branch where Pack, Part, and Field survive and so give the usual same-solution continuation readout.
+      This is the fail branch. It is not a second in-class continuation branch. The pass branch is exactly the branch where Part and Field survive and so give the usual same-solution continuation readout.
 
       So the proof does not need the stale generic statement "Exit itself is inadmissible." That statement tries to delete the fail branch after using it. The CM route instead proves that a finite terminal obstruction is either the pass branch, which continues, or the fail branch, which is a class-exit witness and not an in-class nonsmooth continuation branch.
 
-      No promoted proof-bearing terminal row remains outside the CM-test-entry plus Pack/Part/Field face standard.
+      No promoted proof-bearing terminal row remains outside the CM-test-entry plus Part/Field face standard.
 
-      It is superseded as a live blocker by the corrected inventory target. Current readiness should use the corrected inventory target. Future blockers must name a concrete promoted terminal obstruction row that lacks CM-test entry or a derived Pack/Part/Field face.
+      It is superseded as a live blocker by the corrected inventory target. Current readiness should use the corrected inventory target. Future blockers must name a concrete promoted terminal obstruction row that lacks CM-test entry or a derived Part/Field face.
 
 
     truncated: false
@@ -160,9 +160,9 @@ chunk:
     text: |+
       \subsection{NS completion executor proof route 2026-06-08}
 
-      The proof route starts with theorem legitimacy, not a blind estimate. The live CM program remains Exit(Q):=not Member(Q) through the Pack/Part/Field witness tree. A proposed obstruction first has to be a legitimate mathematical object in that program. If the object is a scope error or a definition failure, the route closes that local burden by scope. If the object is legitimate, the route must land the failure in Pack, Part, or Field with the exact face named.
+      The proof route starts with theorem legitimacy, not a blind estimate. The live CM program remains Exit(Q):=not Member(Q) through the Part/Field witness tree. A proposed obstruction first has to be a legitimate mathematical object in that program. If the object is a scope error or a definition failure, the route closes that local burden by scope. If the object is legitimate, the route must land the failure in Pack, Part, or Field with the exact face named.
 
-      Current executor result: changed proof frontier by materializing the legitimacy-first proof work order. This earlier executor sentence is superseded by the present same-solution pass-or-exit readout; any reopened proof burden must name a concrete terminal record missing CM entry or a Pack/Part/Field landing.
+      Current executor result: changed proof frontier by materializing the legitimacy-first proof work order. This earlier executor sentence is superseded by the present same-solution pass-or-exit readout; any reopened proof burden must name a concrete terminal record missing CM entry or a Part/Field landing.
 
 
     truncated: false
@@ -210,9 +210,9 @@ chunk:
     text: |+
       \subsection{NS completion executor proof route 2026-06-07}
 
-      The proof route starts with theorem legitimacy, not a blind estimate. The live CM program remains Exit(Q):=not Member(Q) through the Pack/Part/Field witness tree. A proposed obstruction first has to be a legitimate mathematical object in that program. If the object is a scope error or a definition failure, the route closes that local burden by scope. If the object is legitimate, the route must land the failure in Pack, Part, or Field with the exact face named.
+      The proof route starts with theorem legitimacy, not a blind estimate. The live CM program remains Exit(Q):=not Member(Q) through the Part/Field witness tree. A proposed obstruction first has to be a legitimate mathematical object in that program. If the object is a scope error or a definition failure, the route closes that local burden by scope. If the object is legitimate, the route must land the failure in Pack, Part, or Field with the exact face named.
 
-      Current executor result: changed proof frontier by materializing the legitimacy-first proof work order. This earlier executor sentence is superseded by the present same-solution pass-or-exit readout; any reopened proof burden must name a concrete terminal record missing CM entry or a Pack/Part/Field landing.
+      Current executor result: changed proof frontier by materializing the legitimacy-first proof work order. This earlier executor sentence is superseded by the present same-solution pass-or-exit readout; any reopened proof burden must name a concrete terminal record missing CM entry or a Part/Field landing.
 
 
     truncated: false
@@ -291,21 +291,21 @@ chunk:
 
     Let a Clay negation supply one original smooth datum, one maximal classical solution, a finite terminal time, and a same-solution terminal record. The standard continuation theorem supplies the entry record: bounded continuation readout would restart the same solution past the terminal time.
 
-    This is the fail branch. It is not a second in-class continuation branch. The pass branch is exactly the branch where Pack, Part, and Field survive and so give the usual same-solution continuation readout.
+    This is the fail branch. It is not a second in-class continuation branch. The pass branch is exactly the branch where Part and Field survive and so give the usual same-solution continuation readout.
 
     So the proof does not need the stale generic statement "Exit itself is inadmissible." That statement tries to delete the fail branch after using it. The CM route instead proves that a finite terminal obstruction is either the pass branch, which continues, or the fail branch, which is a class-exit witness and not an in-class nonsmooth continuation branch.
 
-    No promoted proof-bearing terminal row remains outside the CM-test-entry plus Pack/Part/Field face standard.
+    No promoted proof-bearing terminal row remains outside the CM-test-entry plus Part/Field face standard.
 
-    It is superseded as a live blocker by the corrected inventory target. Current readiness should use the corrected inventory target. Future blockers must name a concrete promoted terminal obstruction row that lacks CM-test entry or a derived Pack/Part/Field face.
+    It is superseded as a live blocker by the corrected inventory target. Current readiness should use the corrected inventory target. Future blockers must name a concrete promoted terminal obstruction row that lacks CM-test entry or a derived Part/Field face.
 
 
 
     \subsection{NS completion executor proof route 2026-06-08}
 
-    The proof route starts with theorem legitimacy, not a blind estimate. The live CM program remains Exit(Q):=not Member(Q) through the Pack/Part/Field witness tree. A proposed obstruction first has to be a legitimate mathematical object in that program. If the object is a scope error or a definition failure, the route closes that local burden by scope. If the object is legitimate, the route must land the failure in Pack, Part, or Field with the exact face named.
+    The proof route starts with theorem legitimacy, not a blind estimate. The live CM program remains Exit(Q):=not Member(Q) through the Part/Field witness tree. A proposed obstruction first has to be a legitimate mathematical object in that program. If the object is a scope error or a definition failure, the route closes that local burden by scope. If the object is legitimate, the route must land the failure in Pack, Part, or Field with the exact face named.
 
-    Current executor result: changed proof frontier by materializing the legitimacy-first proof work order. This earlier executor sentence is superseded by the present same-solution pass-or-exit readout; any reopened proof burden must name a concrete terminal record missing CM entry or a Pack/Part/Field landing.
+    Current executor result: changed proof frontier by materializing the legitimacy-first proof work order. This earlier executor sentence is superseded by the present same-solution pass-or-exit readout; any reopened proof burden must name a concrete terminal record missing CM entry or a Part/Field landing.
 
 
 
@@ -333,14 +333,14 @@ chunk:
 
     \subsection{NS completion executor proof route 2026-06-07}
 
-    The proof route starts with theorem legitimacy, not a blind estimate. The live CM program remains Exit(Q):=not Member(Q) through the Pack/Part/Field witness tree. A proposed obstruction first has to be a legitimate mathematical object in that program. If the object is a scope error or a definition failure, the route closes that local burden by scope. If the object is legitimate, the route must land the failure in Pack, Part, or Field with the exact face named.
+    The proof route starts with theorem legitimacy, not a blind estimate. The live CM program remains Exit(Q):=not Member(Q) through the Part/Field witness tree. A proposed obstruction first has to be a legitimate mathematical object in that program. If the object is a scope error or a definition failure, the route closes that local burden by scope. If the object is legitimate, the route must land the failure in Pack, Part, or Field with the exact face named.
 
-    Current executor result: changed proof frontier by materializing the legitimacy-first proof work order. This earlier executor sentence is superseded by the present same-solution pass-or-exit readout; any reopened proof burden must name a concrete terminal record missing CM entry or a Pack/Part/Field landing.
+    Current executor result: changed proof frontier by materializing the legitimacy-first proof work order. This earlier executor sentence is superseded by the present same-solution pass-or-exit readout; any reopened proof burden must name a concrete terminal record missing CM entry or a Part/Field landing.
 
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

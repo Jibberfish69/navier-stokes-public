@@ -110,7 +110,7 @@ chunk:
       \,dxdt.
       \]
 
-      This is supplier-side source-wall work. It does not change the CM boundary: Pack, Part, and Field are the witness faces, and Member is the forward membership predicate, not a witness face.
+      This is supplier-side source-wall work. It does not change the CM boundary: Part and Field are the witness faces, and Member is the forward membership predicate, not a witness face.
 
       The direct live surfaces say the separate positive-supplier support atom, quarantined outside CM, is Positive Remainder Depletion.A, with Local Positive Source Carleson.A, Square Source Estimate.A, Active Shell Amplitude Gain.A, or non-Carleson Zeno temporal anti-concentration as genuine supplier entrances.
 
@@ -289,7 +289,7 @@ chunk:
       terms. The remaining terminal obstruction is exactly the object still claiming
       to be the finite terminal obstruction.\n\nCanonical Terminal Packet Capture.A
       and Any Finite Failure WitnessCMExit.A prove that every same-solution terminal
-      obstruction has only the Pack-first Pack/Part/Field path available once it enters
+      obstruction has only the Part/Field Part/Field path available once it enters
       the terminal test.\n\nThis test does not add a donor-reserve, source-wall, no-pulse,
       or positive packet-survival proof.\n\nClay SolutionCMExit Inadmissibility.A
       proves class-exit inadmissible for a Clay smooth solution, and the older note
@@ -315,7 +315,7 @@ chunk:
 
       Use the five CM test-admissibility clauses: same datum, same equation, same fluid, same terminal role, and same witness grammar. This turns the Clay breakdown object into a same-solution terminal obstruction after legal losses, non-selected branches, readout artifacts, and paid finite record terms are stripped.
 
-      If the canonical object has no positive same-fluid carrier, it is not Pack Q. If the carrier survives but the pressure-viscosity participation tower does not, it is not Part N s,Q . If both survive and no positive one-field scale survives, it is forall r>0 not Field N s,r,Q .
+      If the canonical object has no positive same-fluid carrier, it is Field-window evidence outside CM. If the carrier survives but the pressure-viscosity participation tower does not, it is not Part N s,Q . If both survive and no positive one-field scale survives, it is forall r>0 not Field N s,r,Q .
 
       Suppose Pack and Part survive, and suppose some positive Field scale survives. Then
 
@@ -353,7 +353,7 @@ chunk:
 
       Assume W * is a finite same-surface Clay breakdown witness from original smooth data.
 
-      By Clay Admissible Finite Breakdown.A, W * is CM-test-admissible in the note's narrow CM-lawful sense. By the installed Pack-first exhaustion and embedding, the CM test applied to W * forces
+      By Clay Admissible Finite Breakdown.A, W * is CM-test-admissible in the note's narrow CM-lawful sense. By the installed Part/Field exhaustion and embedding, the CM test applied to W * forces
 
       That rule is not supplied by the Clay target. The Clay target requires a positive solution witness to be globally smooth. A breakdown counterexample witness is used to deny that such a global smooth solution exists. so terminal class-exit contradicts Clay smooth-solution admissibility, but it does not contradict Clay breakdown-counterexample admissibility by definition.
 
@@ -423,7 +423,7 @@ chunk:
     \,dxdt.
     \]
 
-    This is supplier-side source-wall work. It does not change the CM boundary: Pack, Part, and Field are the witness faces, and Member is the forward membership predicate, not a witness face.
+    This is supplier-side source-wall work. It does not change the CM boundary: Part and Field are the witness faces, and Member is the forward membership predicate, not a witness face.
 
     The direct live surfaces say the separate positive-supplier support atom, quarantined outside CM, is Positive Remainder Depletion.A, with Local Positive Source Carleson.A, Square Source Estimate.A, Active Shell Amplitude Gain.A, or non-Carleson Zeno temporal anti-concentration as genuine supplier entrances.
 
@@ -527,7 +527,7 @@ chunk:
 
     The machine index proves exhaustion of the current non-Euler text surface set. The face label is theorem-role data, not a raw keyword hit. When a surface mentions Pack or Part only as a hypothesis for a Field, support, export, or endpoint role, the role controls.
 
-    Generated authority YAML, review/release state, reader-facing paper manifests, and derived copies are carriers. Their theorem content inherits the Pack/Part/Field witness-face gate from the theorem notes they cite; they do not create independent faces, and Member is reached only after the triadic CM witness.
+    Generated authority YAML, review/release state, reader-facing paper manifests, and derived copies are carriers. Their theorem content inherits the Part/Field witness-face gate from the theorem notes they cite; they do not create independent faces, and Member is reached only after the triadic CM witness.
 
 
 
@@ -571,13 +571,13 @@ chunk:
 
     Canonical Terminal Packet Capture.A starts from a maximal classical solution on [0,T *) and strips legal boundary/cutoff/collar losses, non-selected branches, readout-only artifacts, and paid finite record terms. The remaining terminal obstruction is exactly the object still claiming to be the finite terminal obstruction.
 
-    Canonical Terminal Packet Capture.A and Any Finite Failure WitnessCMExit.A prove that every same-solution terminal obstruction has only the Pack-first Pack/Part/Field path available once it enters the terminal test.
+    Canonical Terminal Packet Capture.A and Any Finite Failure WitnessCMExit.A prove that every same-solution terminal obstruction has only the Part/Field Part/Field path available once it enters the terminal test.
 
     This test does not add a donor-reserve, source-wall, no-pulse, or positive packet-survival proof.
 
-    Clay SolutionCMExit Inadmissibility.A proves class-exit inadmissible for a Clay smooth solution, and the older note explicitly marked the breakdown-counterexample version as a separate bridge. The current manuscript authority is the terminal CM completeness route: terminal entry, Pack/Part/Field exhaustion, and class-exit reading for the derived face failure.
+    Clay SolutionCMExit Inadmissibility.A proves class-exit inadmissible for a Clay smooth solution, and the older note explicitly marked the breakdown-counterexample version as a separate bridge. The current manuscript authority is the terminal CM completeness route: terminal entry, Part/Field exhaustion, and class-exit reading for the derived face failure.
 
-    The target-fidelity-only proof fails: terminal class-exit contradicts a Clay smooth-solution witness, but a breakdown counterexample witness is allowed to be the allegation that no global smooth solution exists. The corrected burden is terminal CM completeness for the same Pack/Part/Field face classification: make the canonical terminal object precise enough, prove CM test-admissibility, prove Pack/Part/Field exhaustion, and read the derived face failure as class exit rather than a surviving in-class counterexample object.
+    The target-fidelity-only proof fails: terminal class-exit contradicts a Clay smooth-solution witness, but a breakdown counterexample witness is allowed to be the allegation that no global smooth solution exists. The corrected burden is terminal CM completeness for the same Part/Field face classification: make the canonical terminal object precise enough, prove CM test-admissibility, prove Part/Field exhaustion, and read the derived face failure as class exit rather than a surviving in-class counterexample object.
 
 
 
@@ -589,11 +589,11 @@ chunk:
 
     Use the five CM test-admissibility clauses: same datum, same equation, same fluid, same terminal role, and same witness grammar. This turns the Clay breakdown object into a same-solution terminal obstruction after legal losses, non-selected branches, readout artifacts, and paid finite record terms are stripped.
 
-    If the canonical object has no positive same-fluid carrier, it is not Pack Q. If the carrier survives but the pressure-viscosity participation tower does not, it is not Part N s,Q . If both survive and no positive one-field scale survives, it is forall r>0 not Field N s,r,
+    If the canonical object has no positive same-fluid carrier, it is Field-window evidence outside CM. If the carrier survives but the pressure-viscosity participation tower does not, it is not Part N s,Q . If both survive and no positive one-field scale survives, it is forall r>0 not Field N s,r,
     % ... source excerpt truncated for packet size ...
   context_truncated: true
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

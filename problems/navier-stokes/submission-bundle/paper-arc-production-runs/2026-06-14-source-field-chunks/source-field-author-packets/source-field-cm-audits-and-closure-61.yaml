@@ -59,7 +59,7 @@ chunk:
       \neg Part_{N,Q}.
       \]
 
-      That theorem is installed as Terminal Source ResidueCMExit.A. Use the present note for the separate question: whether original smooth data prevents loss of all continuation-complete Pack/Part/Field packets.
+      That theorem is installed as Terminal Source ResidueCMExit.A. Use the present note for the separate question: whether original smooth data prevents loss of all continuation-complete Part/Field packets.
 
       This is the precise meaning of "a finite-time maximal smooth solution cannot lose every continuation packet." The literal statement "no selected continuation packet can fail" is stronger than the route needs and is false as a criterion, because a bad selected cover, bad scale, or bad gauge can fail without preventing another lawful packet from surviving.
 
@@ -104,11 +104,11 @@ chunk:
     text: |
       \subsection{TerminalCMNo Exit.A full-agency proof audit}
 
-      TerminalCMNo Exit.A / No GenuineCMExit.A asks for original smooth Navier-Stokes data to leave at least one continuation-complete Pack/Part/Field packet on every alleged finite terminal tail.
+      TerminalCMNo Exit.A / No GenuineCMExit.A asks for original smooth Navier-Stokes data to leave at least one continuation-complete Part/Field packet on every alleged finite terminal tail.
 
       The governing proof program is CM contrapositive class exit. Terminal Source ResidueCMExit.A already sorts raw terminal source residue as Pack/Part witness; it is not a forward anti-atom deletion burden.
 
-      Proof program: CM contrapositive class exit. Target object: existential survival of at least one continuation-complete Pack/Part/Field packet. Logical skeleton tested: contradiction by first loss of all lawful continuation packets, then Pack/Part/Field case split. Pivot methods tested: minimal first-loss, compactness/Zeno extraction, energy-budget invariant, and supplier-chain pressure test. Result: the case split localizes the obstruction, but installed inputs do not exclude every face from original smooth data.
+      Proof program: CM contrapositive class exit. Target object: existential survival of at least one continuation-complete Part/Field packet. Logical skeleton tested: contradiction by first loss of all lawful continuation packets, then Part/Field case split. Pivot methods tested: minimal first-loss, compactness/Zeno extraction, energy-budget invariant, and supplier-chain pressure test. Result: the case split localizes the obstruction, but installed inputs do not exclude every face from original smooth data.
 
       These reductions do not prove TerminalCMNo Exit.A. They identify the exact places where a proof must prevent total packet loss.
 
@@ -136,7 +136,7 @@ chunk:
 
       The retained edge is simple. Part carries the differentiated Navier--Stokes pressure-viscosity tower. Field carries positive-scale one-field coherence for that tower. Euler base membership carries only the inviscid flux-volume and weak momentum-pressure law, written here as \(\mathrm{EVol}+\mathrm{EMom}\).
 
-      This gives the useful boundary object. When the same selected terminal packet still carries \(\mathrm{EVol}+\mathrm{EMom}\) but loses the fixed-positive-viscosity Part or Field requirement, the packet has left the Navier--Stokes class and can be read as a base Euler object. That is a class-exit/class-entrance reading, not a proof of Euler smoothness and not an import of the Navier--Stokes Pack/Part/Field row into Euler.
+      This gives the useful boundary object. When the same selected terminal packet still carries \(\mathrm{EVol}+\mathrm{EMom}\) but loses the fixed-positive-viscosity Part or Field requirement, the packet has left the Navier--Stokes class and can be read as a base Euler object. That is a class-exit/class-entrance reading, not a proof of Euler smoothness and not an import of the Navier--Stokes Part/Field row into Euler.
 
       The smooth bridge is separate. A smooth Euler scenario can support the smooth side of the comparison, but the nonsmooth class-exit side is carried by the selected packet and its first failed Navier--Stokes face.
 
@@ -189,7 +189,7 @@ chunk:
     text: |
       \subsection{Clay problem Terminal Packet Capture Working Pass}
 
-      It does not replace the target by a positive theorem saying that smooth data never exits CM, and it does not count a bad terminal branch as Exit(Q) before a Pack/Part/Field face failure is derived.
+      It does not replace the target by a positive theorem saying that smooth data never exits CM, and it does not count a bad terminal branch as Exit(Q) before a Part/Field face failure is derived.
 
       Let (u,p) be the maximal classical Navier-Stokes solution from the original smooth datum on [0,T *), with T *<infty assumed for contradiction.
 
@@ -205,7 +205,7 @@ chunk:
 
       By the installed continuation readout, this gives a finite H s, s>5/2, continuation norm for the same Navier-Stokes solution near T *. Classical local theory relaunches the solution past T *, contradicting the terminal role of the Clay breakdown witness.
 
-      The three cases are ordered by the first surviving question in the same record. This proves the conditional Pack-first exhaustion.
+      The three cases are ordered by the first surviving question in the same record. This proves the conditional Part/Field exhaustion.
 
       Lemma 1 proves the CM trichotomy once the terminal packet record is genuinely admitted. It is real math, because the Field case uses the classical continuation criterion to force contradiction.
 
@@ -235,7 +235,7 @@ chunk:
 
       The terminal packet Q atlas is the terminal tail of this whole transported atlas. It is not a selected local diagnostic packet. It covers the whole periodic solution.
 
-      Thus Pack is both the carrier/cover predicate and the readout-compatible material-atlas predicate. Failure of the material atlas lands first at not Pack Q; it is not a fourth loss.
+      Thus Pack is both the carrier/cover predicate and the readout-compatible material-atlas predicate. Failure of the material atlas lands first at Field-window evidence outside CM; it is not a fourth loss.
 
       This is the required Pack Definition Unification.A for the torus-first terminal-capture proof.
 
@@ -263,11 +263,11 @@ chunk:
 
       The action is deliberately narrow. It checks whether the current authorial/PDF gaps or relational target-custody deltas reopen a theorem burden, and then applies them to the live proof object rather than counting record repair as proof progress.
 
-      The live authority edge states that the Clay-facing CM chain is installed on the active torus-first surface: a finite Clay breakdown witness enters the same-fluid terminal CM packet tree, its finite failure type is exhausted as not Pack Q, not Part N,Q , or forall r>0 not Field N,r,Q , and that derived face failure supports Exit(Q):=not Member(Q).
+      The live authority edge states that the Clay-facing CM chain is installed on the active torus-first surface: a finite Clay breakdown witness enters the same-fluid terminal CM participation-field tree, its finite failure type is exhausted as Field-window evidence outside CM, not Part N,Q , or forall r>0 not Field N,r,Q , and that derived face failure supports Exit(Q):=not Member(Q).
 
       None of those gaps is a new positive-smoothness target. None supplies a legal in-class nonsmooth third branch. None defeats terminal CM entry, finite-failure exhaustion, or CM contrapositive embedding. They are manuscript and scope-custody obligations around an installed torus-first CM proof chain.
 
-      Applying that rule here gives route (a) and route (c). The relational-cognition target-custody output sharpens the same live object: keep Exit(Q):=not Member(Q) through Pack/Part/Field as the governing proof program, and block support/state/PDF bookkeeping from becoming the theorem target. The PDF crank supplies route (c): scope and reader-facing rewrites are required for the Clay-facing artifact, but they do not reopen the installed periodic CM contrapositive chain.
+      Applying that rule here gives route (a) and route (c). The relational-cognition target-custody output sharpens the same live object: keep Exit(Q):=not Member(Q) through Part/Field as the governing proof program, and block support/state/PDF bookkeeping from becoming the theorem target. The PDF crank supplies route (c): scope and reader-facing rewrites are required for the Clay-facing artifact, but they do not reopen the installed periodic CM contrapositive chain.
 
       This closes the May 27 seeded blocked-run defect at the theorem-action layer: the run now contains a checked Navier-Stokes completion-facing action on the live CM target, with support repair explicitly separated from proof progress.
 
@@ -289,9 +289,9 @@ chunk:
     text: |+
       \subsection{Clay problem Transported Partition Littlewood--Paley Commutator For H 1/2}
 
-      Conditional supplier lemma for Same LedgerHHalf Extraction.A. The analytic commutator estimate is standard. The CM use depends on retained Pack-scale compatibility of the transported cutoff.
+      Conditional supplier lemma for Same LedgerHHalf Extraction.A. The analytic commutator estimate is standard. The CM use depends on retained Field-window evidence-scale compatibility of the transported cutoff.
 
-      Let P J be a smooth periodic Littlewood--Paley projector on T 3, with annular kernel K J. Let = a(t) be one transported cutoff from the retained Pack atlas at a fixed time t. Then
+      Let P J be a smooth periodic Littlewood--Paley projector on T 3, with annular kernel K J. Let = a(t) be one transported cutoff from the retained Field-window evidence atlas at a fixed time t. Then
 
       \[
       \|[P_J,\chi]u\|_{L^2(\mathbb T^3)}
@@ -326,7 +326,7 @@ chunk:
 
       The estimate says that a retained material cutoff can localize a selected H 1/2 dyadic shell without creating an artificial public readout. The shell remains attached to the same material chart up to a Pack-controlled error.
 
-      With retained Pack, the commutator is controlled, so the finite-atlas pigeonhole step can select a localized same-witness shell packet for the next Part/Field analysis.
+      With retained Field-window evidence, the commutator is controlled, so the finite-atlas pigeonhole step can select a localized same-witness shell packet for the next Part/Field analysis.
 
       This lemma supplies only the commutator part of Same LedgerHHalf Extraction.A. It still leaves the same-witness chart selection and the downstream HHalf Oscillation Field Exit.A step.
 
@@ -345,7 +345,7 @@ chunk:
     \neg Part_{N,Q}.
     \]
 
-    That theorem is installed as Terminal Source ResidueCMExit.A. Use the present note for the separate question: whether original smooth data prevents loss of all continuation-complete Pack/Part/Field packets.
+    That theorem is installed as Terminal Source ResidueCMExit.A. Use the present note for the separate question: whether original smooth data prevents loss of all continuation-complete Part/Field packets.
 
     This is the precise meaning of "a finite-time maximal smooth solution cannot lose every continuation packet." The literal statement "no selected continuation packet can fail" is stronger than the route needs and is false as a criterion, because a bad selected cover, bad scale, or bad gauge can fail without preventing another lawful packet from surviving.
 
@@ -393,11 +393,11 @@ chunk:
 
     \subsection{TerminalCMNo Exit.A full-agency proof audit}
 
-    TerminalCMNo Exit.A / No GenuineCMExit.A asks for original smooth Navier-Stokes data to leave at least one continuation-complete Pack/Part/Field packet on every alleged finite terminal tail.
+    TerminalCMNo Exit.A / No GenuineCMExit.A asks for original smooth Navier-Stokes data to leave at least one continuation-complete Part/Field packet on every alleged finite terminal tail.
 
     The governing proof program is CM contrapositive class exit. Terminal Source ResidueCMExit.A already sorts raw terminal source residue as Pack/Part witness; it is not a forward anti-atom deletion burden.
 
-    Proof program: CM contrapositive class exit. Target object: existential survival of at least one continuation-complete Pack/Part/Field packet. Logical skeleton tested: contradiction by first loss of all lawful continuation packets, then Pack/Part/Field case split. Pivot methods tested: minimal first-loss, compactness/Zeno extraction, energy-budget invariant, and supplier-chain pressure test. Result: the case split localizes the obstruction, but installed inputs do not exclude every face from original smooth data.
+    Proof program: CM contrapositive class exit. Target object: existential survival of at least one continuation-complete Part/Field packet. Logical skeleton tested: contradiction by first loss of all lawful continuation packets, then Part/Field case split. Pivot methods tested: minimal first-loss, compactness/Zeno extraction, energy-budget invariant, and supplier-chain pressure test. Result: the case split localizes the obstruction, but installed inputs do not exclude every face from original smooth data.
 
     These reductions do not prove TerminalCMNo Exit.A. They identify the exact places where a proof must prevent total packet loss.
 
@@ -407,7 +407,7 @@ chunk:
 
     The missing Field primitive is the pre-endpoint same-family DTC/tower package through depth N+3, equivalently a noncircular Pre End.ACTKX Q with same-cover pressure readout, without using endpoint Field/readout closure upstream.
 
-    TerminalCMNo Exit.A / No GenuineCMExit.A remains the exact Clay-facing CM target. TerminalCMNo Exit.Face Reduction.A is a conditional face-reduction support theorem, not closure. Scale Critical Tree Carleson.A remains the Pack-side CM-facing primitive. Native SourceAC.A, Height Flux Control.A, and BASACTerminal Source Anti Concentration.A remain positive supplier branches unless a separate theorem promotes them through Pack/Part/Field. Euler-mirror, readout, endpoint, and public-export material remains quarantined support for this target.
+    TerminalCMNo Exit.A / No GenuineCMExit.A remains the exact Clay-facing CM target. TerminalCMNo Exit.Face Reduction.A is a conditional face-reduction support theorem, not closure. Scale Critical Tree Carleson.A remains the Pack-side CM-facing primitive. Native SourceAC.A, Height Flux Control.A, and BASACTerminal Source Anti Concentration.A remain positive supplier branches unless a separate theorem promotes them through Part/Field. Euler-mirror, readout, endpoint, and public-export material remains quarantined support for this target.
 
 
 
@@ -415,7 +415,7 @@ chunk:
 
     The retained edge is simple. Part carries the differentiated Navier--Stokes pressure-viscosity tower. Field carries positive-scale one-field coherence for that tower. Euler base membership carries only the inviscid flux-volume and weak momentum-pressure law, written here as \(\mathrm{EVol}+\mathrm{EMom}\).
 
-    This gives the useful boundary object. When the same selected terminal packet still carries \(\mathrm{EVol}+\mathrm{EMom}\) but loses the fixed-positive-viscosity Part or Field requirement, the packet has left the Navier--Stokes class and can be read as a base Euler object. That is a class-exit/class-entrance reading, not a proof of Euler smoothness and not an import of the Navier--Stokes Pack/Part/Field row into Euler.
+    This gives the useful boundary object. When the same selected terminal packet still carries \(\mathrm{EVol}+\mathrm{EMom}\) but loses the fixed-positive-viscosity Part or Field requirement, the packet has left the Navier--Stokes class and can be read as a base Euler object. That is a class-exit/class-entrance reading, not a proof of Euler smoothness and not an import of the Navier--Stokes Part/Field row into Euler.
 
     The smooth bridge is separate. A smooth Euler scenario can support the smooth side of the comparison, but the nonsmooth class-exit side is carried by the selected packet and its first failed Navier--Stokes face.
 
@@ -449,7 +449,7 @@ chunk:
 
     \subsection{Clay problem Terminal Packet Capture Working Pass}
 
-    It does not replace the target by a positive theorem saying that smooth data never exits CM, and it does not count a bad terminal branch as Exit(Q) before a Pack/Part/Field face failure is derived.
+    It does not replace the target by a positive theorem saying that smooth data never exits CM, and it does not count a bad terminal branch as Exit(Q) before a Part/Field face failure is derived.
 
     Let (u,p) be the maximal classical Navier-Stokes solution from the original smooth datum on [0,T *), with T *<infty assumed for contradiction.
 
@@ -465,13 +465,13 @@ chunk:
 
     By the installed continuation readout, this gives a finite H s, s>5/2, continuation norm for the same Navier-Stokes solution near T *. Classical local theory relaunches the solution past T *, contradicting the terminal role of the Clay breakdown witness.
 
-    The three cases are ordered by the first surviving question in the same record. This proves the conditional Pack-first exhaustion.
+    The three cases are ordered by the first surviving question in the same record. This proves the conditional Part/Field exhaustion.
 
     Lemma 1 proves the CM trichotomy once the terminal packet record is genuinely admitted. It is real math, because the Field case uses the classical continuation criterion to force contradiction.
 
     It also exposes the exact referee burden: the proof is only as strong as the admission of Q * and the readout completeness of the chosen packet.
 
-    Start with the finite Clay breakdown assumption. For every epsilon>0, the solution is classical on [0,T * - epsilon]. The still-live smooth-window surfaces give local Pack/Part/Field packets on each compact preterminal window.
+    Start with the finite Clay breakdown assumption. For every epsilon>0, the solution is classical on [0,T * - epsilon]. The still-live smooth-window surfaces give local Part/Field packets on each compact preterminal window.
 
 
 
@@ -485,7 +485,7 @@ chunk:
 
     The terminal packet Q atlas is the terminal tail of this whole transported atlas. It is not a selected local diagnostic packet. It covers the whole periodic solution.
 
-    Thus Pack is both the carrier/cover predicate and the readout-compatible material-atlas predicate. Failure of the material atlas lands first at not Pack Q; it is not a fourth loss.
+    Thus Pack is both the carrier/cover predicate and the readout-compatible material-atlas predicate. Failure of the material atlas lands first at Field-window evidence outside CM; it is not a fourth loss.
 
     This is the required Pack Definition Unification.A for the torus-first terminal-capture proof.
 
@@ -501,11 +501,11 @@ chunk:
 
     The action is deliberately narrow. It checks whether the current authorial/PDF gaps or relational target-custody deltas reopen a theorem burden, and then applies them to the live proof object rather than counting record repair as proof progress.
 
-    The live authority edge states that the Clay-facing CM chain is installed on the active torus-first surface: a finite Clay breakdown witness enters the same-fluid terminal CM packet tree, its finite failure type is exhausted as not Pack Q, not Part N,Q , or forall r>0 not Field N,r,Q , and that derived face failure supports Exit(Q):=not Member(Q).
+    The live authority edge states that the Clay-facing CM chain is installed on the active torus-first surface: a finite Clay breakdown witness enters the same-fluid terminal CM participation-field tree, its finite failure type is exhausted as Field-window evidence outside CM, not Part N,Q , or forall r>0 not Field N,r,Q , and that derived face failure supports Exit(Q):=not Member(Q).
 
     None of those gaps is a new positive-smoothness target. None supplies a legal in-class nonsmooth third branch. None defeats terminal CM entry, finite-failure exhaustion, or CM contrapositive embedding. They are manuscript and scope-custody obligations around an installed torus-first CM proof chain.
 
-    Applying that rule here gives route (a) and route (c). The relational-cognition target-custody output sharpens the same live object: keep Exit(Q):=not Member(Q) through Pack/Part/Field as the governing proof program, and block support/state/PDF bookkeeping from becoming the theorem target. The PDF crank supplies route (c): scope and reader-facing rewrites are required for the Clay-facing artifact, but they do not reopen the installed periodic CM contrapositive chain.
+    Applying that rule here gives route (a) and route (c). The relational-cognition target-custody output sharpens the same live object: keep Exit(Q):=not Member(Q) through Part/Field as the governing proof program, and block support/state/PDF bookkeeping from becoming the theorem target. The PDF crank supplies route (c): scope and reader-facing rewrites are required for the Clay-facing artifact, but they do not reopen the installed periodic CM contrapositive chain.
 
     This closes the May 27 seeded blocked-run defect at the theorem-action layer: the run now contains a checked Navier-Stokes completion-facing action on the live CM target, with support repair explicitly separated from proof progress.
 
@@ -515,9 +515,9 @@ chunk:
 
     \subsection{Clay problem Transported Partition Littlewood--Paley Commutator For H 1/2}
 
-    Conditional supplier lemma for Same LedgerHHalf Extraction.A. The analytic commutator estimate is standard. The CM use depends on retained Pack-scale compatibility of the transported cutoff.
+    Conditional supplier lemma for Same LedgerHHalf Extraction.A. The analytic commutator estimate is standard. The CM use depends on retained Field-window evidence-scale compatibility of the transported cutoff.
 
-    Let P J be a smooth periodic Littlewood--Paley projector on T 3, with annular kernel K J. Let = a(t) be one transported cutoff from the retained Pack atlas at a fixed time t. Then
+    Let P J be a smooth periodic Littlewood--Paley projector on T 3, with annular kernel K J. Let = a(t) be one transported cutoff from the retained Field-window evidence atlas at a fixed time t. Then
 
     \[
     \|[P_J,\chi]u\|_{L^2(\mathbb T^3)}
@@ -552,14 +552,14 @@ chunk:
 
     The estimate says that a retained material cutoff can localize a selected H 1/2 dyadic shell without creating an artificial public readout. The shell remains attached to the same material chart up to a Pack-controlled error.
 
-    With retained Pack, the commutator is controlled, so the finite-atlas pigeonhole step can select a localized same-witness shell packet for the next Part/Field analysis.
+    With retained Field-window evidence, the commutator is controlled, so the finite-atlas pigeonhole step can select a localized same-witness shell packet for the next Part/Field analysis.
 
     This lemma supplies only the commutator part of Same LedgerHHalf Extraction.A. It still leaves the same-witness chart selection and the downstream HHalf Oscillation Field Exit.A step.
 
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
