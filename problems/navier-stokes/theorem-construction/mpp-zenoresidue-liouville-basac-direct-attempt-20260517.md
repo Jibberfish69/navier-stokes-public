@@ -195,5 +195,5 @@ The smallest honest ways to prove it are:
 ```
 
 Without one of these, the retained terminal atom remains a valid source-wall
-obstruction and can only be consumed by the installed CM Pack/Part/Field
+obstruction and can only be consumed by the installed CM Part/Field
 sorting diagnostics, not by the forward positive supplier route.

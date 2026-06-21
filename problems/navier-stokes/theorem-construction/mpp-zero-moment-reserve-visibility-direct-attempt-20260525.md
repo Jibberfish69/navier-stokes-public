@@ -2,7 +2,7 @@
 
 ## Authority Cap - Superseded By CM Face Consumption
 
-This direct attempt is retained as positive visibility / source-reserve proof-search evidence. Current CM authority is `mpp-source-reserve-birth-cm-face-consumption-20260525.md`: the scalar-pulse or signed-pair fail branch is consumed as Pack/Part/Field witness-face support for `Exit(Q):=not Member(Q)`. The unproved no-free-sink or active-height language here blocks only the positive-forward route.
+This direct attempt is retained as positive visibility / source-reserve proof-search evidence. Current CM authority is `mpp-source-reserve-birth-cm-face-consumption-20260525.md`: the scalar-pulse or signed-pair fail branch is consumed as Part/Field witness support for `Exit(Q):=not Member(Q)`. The unproved no-free-sink or active-height language here blocks only the positive-forward route.
 
 Date: 2026-05-25
 
@@ -94,7 +94,7 @@ subwindows or zero-radius ancestry, the obstruction is a terminal Zeno source
 residue.  Under the installed Pack correction, terminal zero-radius donor
 ancestry is not `Pack_Q`.
 
-This case is also a witness-face exit, not an in-class continuation.
+This case is also a witness exit, not an in-class continuation.
 
 ### 4. Same-ledger positive-scale partner survives
 

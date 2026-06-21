@@ -39,7 +39,7 @@ Pack_Q+Part_{N,Q}
 
 This is a diagnostic theorem. It does not prove the positive temporal
 anti-atom theorem, and it does not install the broad direct supplier
-`ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A`. It says which CM face the
+`ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A`. It says which CM Part/Field the
 selected Zeno failure breaks.
 
 It breaks `Field`.
@@ -216,7 +216,7 @@ endpoint cell:
 (Field,Jump).
 ```
 
-For the CM witness-face split, that endpoint cell is the analytic witness for
+For the CM witness split, that endpoint cell is the analytic witness for
 `not Field`, not an additional face. Therefore the retained Zeno atom forces
 
 ```math
@@ -294,7 +294,7 @@ LegalLoss
 }
 ```
 
-Only the final selected branch is consumed by the CM face diagnostic. This is
+Only the final selected branch is consumed by the CM Part/Field diagnostic. This is
 the same custody rule as the Carleson turnover: raw failure is not automatically
 Field; selected retained failure is.
 

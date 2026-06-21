@@ -119,7 +119,7 @@ and do not imply a terminal strip modulus.
 
 The zero-thickness source residue is already useful in the CM contrapositive
 grammar: once admitted as a terminal source-residue occurrence, it can be read
-as a Pack/Part/Field face exit according to the installed first-face sorting.
+as a Part/Field face exit according to the installed first-face sorting.
 
 That CM diagnostic is not the public supplier theorem:
 

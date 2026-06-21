@@ -67,7 +67,7 @@ terminal row packages, so the surviving branch is:
 Pack_Q\wedge Part_{N,Q}\wedge\forall r>0\,\neg Field_{N,r,Q}.
 ```
 
-Field-face failure is converted into a terminal positive native source-reserve
+Field-Part/Field failure is converted into a terminal positive native source-reserve
 or source-pulse event.  If the direct square-reserve theorem fails to close it,
 Option B extracts a terminal Zeno source-residue limit and asks for:
 
@@ -477,7 +477,7 @@ Therefore the terminal Zeno Field-face source-residue branch is impossible.
 Combined with the direct non-Zeno entrance closure, this supplies:
 
 ```math
-Field\text{-face failure}
+Field\text{-Part/Field failure}
 \Longrightarrow
 \bot.
 ```
