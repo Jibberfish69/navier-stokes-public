@@ -460,7 +460,7 @@ source_rewrites:
     \begin{aligned}
     &\text{finite Clay breakdown witness}\\
     &\Longrightarrow \text{legitimate CM terminal object or scope rejection}\\
-    &\Longrightarrow \text{first Part/Field Part/Field failure}\\
+    &\Longrightarrow \text{first Part/Field failure}\\
     &\Longrightarrow \Exit(Q;\Owork).
     \end{aligned}
     \]

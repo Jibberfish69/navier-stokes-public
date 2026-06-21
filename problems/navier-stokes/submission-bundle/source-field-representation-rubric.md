@@ -22,7 +22,7 @@ Clay target
   -> one concrete positive attempt
   -> the terminal branch left by failure
   -> working class object
-  -> Part/Field witnesss
+  -> Part/Field witnesses
   -> terminal packet capture
   -> class exit
   -> branch-family exhaustion
