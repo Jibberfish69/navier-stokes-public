@@ -36,7 +36,7 @@ obstruction row with:
 ```text
 same-solution CM-test entry,
 same-atlas or same-packet localization,
-and a derived first Part/Field Part/Field failure.
+and a derived first Part/Field failure.
 ```
 
 ## Proof
@@ -97,7 +97,7 @@ OriginalSmoothDataPackSurvival.A.
 
 The reason is direct. The support-only-row problem is now separated from the
 proof-bearing terminal record. The proof-bearing record itself may still land
-in a first Part/Field Part/Field failure. Classification of that Part/Field failure is
+in a first Part/Field failure. Classification of that Part/Field failure is
 installed, but public Clay finality still needs a theorem proving that original
 smooth data cannot realize such a first terminal Part/Field failure, or an equivalent
 noncircular bridge from the selected Part/Field failure to contradiction.
@@ -121,7 +121,7 @@ that Pack-side route, not the parent finality theorem.
 
 `NS-LIVE-20260609-084`: support-only rows are now excluded as hidden finite
 breakdown witnesses, but the proof-bearing same-solution terminal record may
-still realize a first Part/Field Part/Field failure. CMI finality remains open
+still realize a first Part/Field failure. CMI finality remains open
 until `NoProofBearingFirstFaceFailureFromOriginalSmoothData.A` or an equivalent
 public Clay finality bridge is proved and written into both reader-facing PDF
 tracks.

@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/live-theorem-edge.yaml
     - problems/navier-stokes/theorem-construction/selector-quadratic-sign-separation-packet.md
     - problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
-  downstream_consequence: "The next theorem atom is AngularConcentrationFieldFaceEntry.A: prove that a same-terminal-packet failure of finite QSP cap/shell bump nonconcentration lands as a Part/Field Part/Field failure, specifically Field under retained Pack+Part, instead of remaining an endless positive equidistribution supplier demand."
+  downstream_consequence: "The next theorem atom is AngularConcentrationFieldFaceEntry.A: prove that a same-terminal-packet failure of finite QSP cap/shell bump nonconcentration lands as a Part/Field failure, specifically Field under retained Pack+Part, instead of remaining an endless positive equidistribution supplier demand."
 ---
 
 # MPP Source-Native Selector Angular Equidistribution Direct Attempt
@@ -72,7 +72,7 @@ The live authority edge gives the exact pass-or-exit split:
 ```text
 pass branch: supplies the in-class Member(Q) continuation packet;
 fail branch: becomes Exit(Q):=not Member(Q) only after CM-test entry and a
-concrete Part/Field Part/Field failure.
+concrete Part/Field failure.
 ```
 
 Finite QSP angular nonconcentration is exactly such an obstruction. If the
@@ -106,7 +106,7 @@ The next theorem atom is:
 ```text
 AngularConcentrationFieldFaceEntry.A:
 prove that a same-terminal-packet failure of finite QSP cap/shell bump
-nonconcentration lands as a Part/Field Part/Field failure, specifically Field
+nonconcentration lands as a Part/Field failure, specifically Field
 under retained Pack+Part, instead of remaining an endless positive
 equidistribution supplier demand.
 ```

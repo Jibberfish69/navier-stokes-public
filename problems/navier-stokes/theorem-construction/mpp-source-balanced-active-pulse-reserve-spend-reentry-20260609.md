@@ -33,7 +33,7 @@ source-balanced active pulse
 => active-square reserve
    or signed lifted-remainder cancellation
    or source-time concentration cost
-   or same-ledger Part/Field Part/Field failure.
+   or same-ledger Part/Field failure.
 ```
 
 To help public Clay finality, this cannot be a label switch. The spent reserve

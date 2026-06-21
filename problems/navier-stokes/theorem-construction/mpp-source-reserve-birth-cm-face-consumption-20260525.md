@@ -8,7 +8,7 @@ Authority cap: `mpp-pack-first-source-reserve-face-audit-20260526.md` is the
 current Field-certification classification. This note supplies CM-consumption support,
 but the retained positive-scale first-created native donor-square reserve
 surplus remains supplier-quarantined until same-ledger payment or CM-test
-admission plus a first Part/Field Part/Field failure is proved.
+admission plus a first Part/Field failure is proved.
 
 ## Target
 
@@ -74,7 +74,7 @@ forward visibility theorem.  The zero-thickness terminal layer is a real branch.
 ## Correct CM Reading
 
 The terminal-layer branch is not an in-class hidden continuation.  It is exactly
-the branch that must be routed through the CM witnesss.
+the branch that must be routed through the CM witnesses.
 
 The installed chain now used by the source-reserve root is:
 

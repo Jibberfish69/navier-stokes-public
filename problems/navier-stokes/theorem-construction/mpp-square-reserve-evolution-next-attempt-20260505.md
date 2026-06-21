@@ -28,7 +28,7 @@ Exactness rework correction, 2026-06-18: this note is a failed historical
 attempt. Its donor-square differentiation may be cited only as an obstruction
 calculation. It does not set the current proof target unless the resulting
 source branch is paid in the same ledger or admitted to the CM test with a
-first Part/Field Part/Field failure.
+first Part/Field failure.
 
 ## Historical Direct Target
 

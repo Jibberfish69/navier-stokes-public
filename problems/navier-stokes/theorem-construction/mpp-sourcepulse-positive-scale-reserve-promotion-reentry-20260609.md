@@ -81,7 +81,7 @@ The promotion condition is precise:
 \boxed{
 \text{the retained positive-scale first-created native donor-square reserve
 surplus is either paid on the same ledger, or it is admitted to the CM terminal
-test and routed to a first Part/Field Part/Field failure.}
+test and routed to a first Part/Field failure.}
 }
 ```
 

@@ -22,7 +22,7 @@ when it satisfies the installed branch law:
 CM-test entry
 => admissibility failure
    or continuation/readout recovery
-   or concrete Part/Field Part/Field failure
+   or concrete Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
@@ -48,7 +48,7 @@ A future Silver blocker must name a concrete promoted finite-breakdown row that:
 ```text
 enters the CM test
 and does not continue/read out
-and does not land in a real Part/Field Part/Field failure.
+and does not land in a real Part/Field failure.
 ```
 
 Generic demands to prove that `Exit(Q)` is inadmissible, or that Part/Field failure

@@ -119,7 +119,7 @@ Pack_Q
 ```
 
 The zero-scale terminal residue case is no longer a Pack-only exit.  It must be
-typed before `not Pack_Q` is spent:
+typed without spending `not Pack_Q` as CM exit:
 
 ```text
 terminal zero-radius donor ancestry with a pointwise original-NS record

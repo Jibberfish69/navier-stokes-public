@@ -253,4 +253,4 @@ This note is the convergence point for parallel work on the same shortcut:
   equivalently native height/source anti-concentration;
 - Euler-mirror, downstream readout, and positive no-pulse supplier material stay
   quarantined unless a named bridge explicitly imports them into the
-  Part/Field witnesss.
+  Part/Field witnesses.
