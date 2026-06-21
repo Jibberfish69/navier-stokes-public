@@ -197,9 +197,9 @@ Therefore, after fixing pressure constants,
 \tag{LCV.18}
 ```
 
-in every local negative Sobolev or Calderon-Zygmund target compatible with
-`(LCV.17)`, for example distributionally and in weak \(L^1\)-type local
-elliptic readouts.
+distributionally.  On the whole-space or torus normalized readout, the
+endpoint potential estimate also gives convergence to zero in the weak
+\(L^{3/2}\) pressure-gradient scale.
 
 The pressure source does not carry a nonzero lossless selected activity in this
 subcase.
