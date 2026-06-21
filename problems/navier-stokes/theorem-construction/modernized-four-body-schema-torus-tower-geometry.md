@@ -14,6 +14,13 @@ This note does **not** discard the classical four-body packet.
 It does **not** change the job of any body.
 It now does fix one branch choice explicitly:
 
+Balance-circuit correction, 2026-06-21:
+[mpp-four-body-balance-circuit-redevelopment-20260621.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-four-body-balance-circuit-redevelopment-20260621.md)
+should be read beside this note.  The four-body resurrection is centered on
+closed mutual balance of the four control bodies.  The live defect relay below
+is a stress-test/readout of failed balance, not the intended center of the old
+program.
+
 ```text
 the current live lane runs this schema on the periodic torus branch first,
 and treats Euclidean whole-space closure as a downstream export problem.
