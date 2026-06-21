@@ -12,7 +12,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-no-persistent-unpaid-positive-radius-ancestry-20260521.md
     - problems/navier-stokes/theorem-construction/mpp-terminal-zeno-pack-failure-correction-20260521.md
     - problems/navier-stokes/theorem-construction/mpp-any-finite-failure-witness-cm-exit-20260521.md
-  downstream_consequence: "Do not respawn the cone/tower/drain discussion as a demand to positively prove raw LPAS. Raw LPAS is false; residual/source-balanced LPAS/CTS is the forward pass branch, and the surviving residual source-balanced heat-scale pulse is a Pack-first CM exit witness."
+  downstream_consequence: "Do not respawn the cone/tower/drain discussion as a demand to positively prove raw LPAS. Raw LPAS is false; residual/source-balanced LPAS/CTS is the forward pass branch, and the surviving residual source-balanced heat-scale pulse is a Field-certification CM exit witness."
 ---
 
 # MPP Active-Square Obstruction Pass Or Pack Exit
@@ -158,11 +158,11 @@ reserve payment,
 dissipation payment,
 incoming participation/source flux,
 legal/projected/cutoff/boundary exit,
-finite CM face exit.
+finite CM Part/Field exit.
 ```
 
 The first four events remove the allegedly unpaid obstruction from the failed
-forward branch.  The last event is already a Pack/Part/Field witness-face exit.
+forward branch.  The last event is already a Part/Field witness exit.
 
 So a positive-radius retained ancestry cannot be the surviving hidden
 active-square obstruction.
@@ -209,7 +209,7 @@ and
 for selected unpaid scale-critical donor-refill ancestry.
 
 So the zero-radius active-square pulse is not a retained CM branch.  It is a
-Pack-face failure.
+Pack-Part/Field failure.
 
 ## 5. Local Closure Theorem
 
@@ -231,7 +231,7 @@ More explicitly:
 2. Failure of that residual theorem, after legal/payment ledgers are removed,
    selects a terminal source-balanced active pulse.
 3. Positive-radius retained ancestry is impossible without payment, incoming
-   flux, legal exit, or a finite CM face exit.
+   flux, legal exit, or a finite CM Part/Field exit.
 4. The terminal zero-radius residue is typed before Pack is spent: it is
    Part-side when the same original-NS participation record remains,
    and true `not Pack_Q` only when that record/carrier/readout is absent.

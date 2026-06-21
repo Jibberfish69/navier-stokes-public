@@ -54,7 +54,7 @@ e_\ell\cdot S^{loc}_{<\ell}e_\ell
 ```
 
 Scalar damping and absolute commutator estimates return to the same source
-wall.  The missing move is to spend the CM witness faces:
+wall.  The missing move is to spend the CM witnesss:
 
 ```text
 Pack,
@@ -479,7 +479,7 @@ vorticity-direction regularity by itself.  It is:
 
 ```text
 active high packet + positive low-strain sampling + heat dwell
-=> Pack/Part/Field/Zeno charge.
+=> Part/Field/Zeno charge.
 ```
 
 Primary references used as outside intuition, not as proof imports:
@@ -495,7 +495,7 @@ Primary references used as outside intuition, not as proof imports:
 ## 9. Current verdict
 
 `ActiveHeightFluxTrichotomy.A` is the strongest current architecture because it is
-the first target that can lawfully spend all three CM faces plus the Zeno
+the first target that can lawfully spend all three CM Part/Fields plus the Zeno
 alternate.  It does not pretend to prove a positive source estimate from scalar
 energy.  Its exact content is the inequality `(AHF.3)`: positive source creation
 is routed to Pack gain, Part/dwell failure, legal Field source charge, or a Zeno

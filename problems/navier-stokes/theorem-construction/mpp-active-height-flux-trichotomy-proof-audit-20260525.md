@@ -2,7 +2,7 @@
 
 ## Authority Cap - Superseded By CM Face Consumption
 
-This direct attempt is retained as positive visibility / source-reserve proof-search evidence. Current CM authority is `mpp-source-reserve-birth-cm-face-consumption-20260525.md`: the scalar-pulse or signed-pair fail branch is consumed as Pack/Part/Field witness-face support for `Exit(Q):=not Member(Q)`. The unproved no-free-sink or active-height language here blocks only the positive-forward route.
+This direct attempt is retained as positive visibility / source-reserve proof-search evidence. Current CM authority is `mpp-source-reserve-birth-cm-face-consumption-20260525.md`: the scalar-pulse or signed-pair fail branch is consumed as Part/Field witness support for `Exit(Q):=not Member(Q)`. The unproved no-free-sink or active-height language here blocks only the positive-forward route.
 
 Date: 2026-05-25
 
@@ -17,7 +17,7 @@ The active Navier-Stokes route is the CM contrapositive program:
 Exit(Q) := not Member(Q)
 ```
 
-through the Pack-first witness tree:
+through the Field-certification witness tree:
 
 ```text
 Pack_Q, Part_{N,Q}, Field_{N,r,Q}.
@@ -25,7 +25,7 @@ Pack_Q, Part_{N,Q}, Field_{N,r,Q}.
 
 `ActiveHeightFluxTrichotomy.A` is allowed to support this program only by
 showing that a first-created positive square-reserve surplus either produces a
-same-ledger active height-flux witness or already forces Pack/that face failure.
+same-ledger active height-flux witness or already forces Pack/that Part/Field failure.
 It is not allowed to become a positive smoothness estimate, a free source
 budget, or a shortcut to `Member(Q)`.
 
@@ -70,7 +70,7 @@ cancels or collapses at terminal scale.
 
 The current proof attempt uses dyadic layer-cake selection and then names the
 escape cases, but it does not prove that every zero-first-moment escape is
-forced into Pack, Part, Field, or Zeno on the same retained terminal ledger.
+forced into Part and Field, or Zeno on the same retained terminal ledger.
 That missing forcing statement is exactly the theorem, so using it to consume
 `SourceReserveBirthCharge.A` is circular.
 
@@ -83,8 +83,8 @@ only after a proof surface supplies all of the following:
 1. a signed-cancellation normal form for the first-created positive
    donor-square reserve surplus;
 2. a same-ledger extraction showing that a square reserve bounded below by `c_0>0` creates
-   either active height flux or a declared witness-face defect;
-3. a Pack/Part/Field/Zeno landing for every zero-first-moment scalar-pulse
+   either active height flux or a declared witness defect;
+3. a Part/Field/Zeno landing for every zero-first-moment scalar-pulse
    escape, without importing `ScaleCriticalTreeCarleson.A`,
    `HeightFluxControl.A`, full-MPP closure, submission readiness, or
    `Member(Q)`;
@@ -115,5 +115,5 @@ source charge, or terminal Zeno residue.
 
 This lemma is the honest missing bridge.  It must be attacked directly by
 normal-form decomposition of the signed terminal pulse, extremal first-window
-selection, and witness-face routing, not by declaring the trichotomy as already
+selection, and witness routing, not by declaring the trichotomy as already
 proved.

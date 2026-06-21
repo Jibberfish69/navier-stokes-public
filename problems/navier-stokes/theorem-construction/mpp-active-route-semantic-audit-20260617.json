@@ -79,7 +79,7 @@
     {
       "path": "problems/navier-stokes/theorem-construction/mpp-positive-pack-defect-orthogonality-bilinear-decoupling-attempt-20260609.md",
       "issue": "bilinear decoupling and positive-part language could let signed cross-term smallness stand in for control of the selected terminal positive Pack measure",
-      "replacement": "the note now defines dmu_{alpha beta,j}^{+,m}, displays the signed convergence statement that is insufficient, and states the exact alternatives needed: vanishing of that measure, uniform integrability/Carleson non-atomicity, one-profile absolute continuity with density control, or a Pack/Part/Field face failure",
+      "replacement": "the note now defines dmu_{alpha beta,j}^{+,m}, displays the signed convergence statement that is insufficient, and states the exact alternatives needed: vanishing of that measure, uniform integrability/Carleson non-atomicity, one-profile absolute continuity with density control, or a Part/Field Part/Field failure",
       "downstream_consequence": "PositivePackDefectOrthogonality.A remains unproved by bilinear/paraproduct orthogonality alone; it must pass through TerminalPositiveCrossProfileSourceControl.A / UniformPackCrossTermIntegrability.A / SelectedPositivePackCrossTermNoAtom.A or an equivalent exact measure-control theorem"
     },
     {
@@ -110,7 +110,7 @@
       "path": "problems/navier-stokes/theorem-construction/mpp-generic-pack-face-exclusion-work-order-demotion-20260607.md",
       "issue": "legacy demotion/blocker language could make generic Pack face-exclusion look like archive movement rather than the exact CM target repair",
       "replacement": "the note now states target_repair: the generic Pack-retention theorem is a stale generic blocker, while every promoted row must prove same-witness CM-test entry and either not Pack_Q or Pack_Q followed by Part/Field certification",
-      "downstream_consequence": "Pack failure remains a lawful first-face landing for named terminal obstructions; no global generic Pack-retention theorem is treated as an open Clay blocker without a promoted row"
+      "downstream_consequence": "Pack failure remains a lawful first-Part/Field landing for named terminal obstructions; no global generic Pack-retention theorem is treated as an open Clay blocker without a promoted row"
     },
     {
       "path": "problems/navier-stokes/theorem-construction/mpp-generic-part-face-exclusion-work-order-demotion-20260607.md",
@@ -121,14 +121,14 @@
     {
       "path": "problems/navier-stokes/theorem-construction/mpp-generic-pack-part-face-exclusion-blocker-demotion-20260607.md",
       "issue": "legacy blocker-demotion wording could make generic Pack/Part no-face-exclusion look like completion by downgrade",
-      "replacement": "the note now states installed target repair: the proof gate is row-level same-witness CM entry and Pack/Part/Field witness-face record, with non-proof rows classified as support",
+      "replacement": "the note now states installed target repair: the proof gate is row-level same-witness CM entry and Part/Field witness record, with non-proof rows classified as support",
       "downstream_consequence": "the current CM theorem state remains governed by finite-obstruction inventory coverage, not by generic Pack/Part face-exclusion"
     },
     {
       "path": "problems/navier-stokes/theorem-construction/mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md",
       "issue": "generic Clay bridge reconciliation still used blocker-demotion, standard continuation, usual readout, demotion, and should-language on a decision-bearing CM bridge surface",
       "replacement": "the note now uses target_repair, states the finite-obstruction inventory requirement, and displays the exact pass-branch continuation readout sup_{t<T_*} ||u(t)||_{H^s}<infinity for fixed s>5/2 with same-solution relaunch from t_j -> T_*",
-      "downstream_consequence": "future Clay blockers must be concrete promoted terminal obstruction rows missing CM-test entry or Pack/Part/Field face landing; the generic Exit-inadmissibility bridge is not respawned as a live blocker"
+      "downstream_consequence": "future Clay blockers must be concrete promoted terminal obstruction rows missing CM-test entry or Part/Field Part/Field landing; the generic Exit-inadmissibility bridge is not respawned as a live blocker"
     },
     {
       "path": "problems/navier-stokes/theorem-construction/mpp-scfbase-good-cover-from-exact-potential-readout-direct-attempt-20260609.md",
@@ -145,13 +145,13 @@
     {
       "path": "problems/navier-stokes/theorem-construction/mpp-licensed-hf-taylor-scale-budget-direct-attempt-20260609.md",
       "issue": "LicensedHFTaylorScaleBudget.A still used rho_window * ||D_a F||, native Pack norm, and adaptive shrinkage language without defining the exact segment quantity or the separate Pack-admissible shrink theorem",
-      "replacement": "the note now defines licensed windows W_m=(A_m,I_m,rho_m), the segment-control Hessian quantity M_m, and two exact alternatives: rho_m M_m -> 0 on actual windows, or a shrunken schedule rho'_m with rho'_m M'_m -> 0 plus preservation of the finite same-fluid Pack witness; equivalent norm statements require M_m <= C N_m(D_aF) and rho_m N_m(D_aF) -> 0 with constants independent of m",
+      "replacement": "the note now defines licensed windows W_m=(A_m,I_m,rho_m), the segment-control Hessian quantity M_m, and two exact alternatives: rho_m M_m -> 0 on actual windows, or a shrunken schedule rho'_m with rho'_m M'_m -> 0 plus preservation of the finite same-fluid Field-window support; equivalent norm statements require M_m <= C N_m(D_aF) and rho_m N_m(D_aF) -> 0 with constants independent of m",
       "downstream_consequence": "PackLicensedScaleHessianBudget.A is the next atom with exact obligations; adaptive shrinkage alone no longer closes Pack restoration, and h/F terminal survivor vanishing must occur on the same licensed windows"
     },
     {
       "path": "problems/navier-stokes/theorem-construction/mpp-pack-licensed-scale-hessian-budget-direct-attempt-20260609.md",
       "issue": "PackLicensedScaleHessianBudget.A inherited the rho_window * ||D_a F|| proxy and route-retargeting language that could make the stronger Hessian budget look removed rather than left open with exact obligations",
-      "replacement": "the note now defines the licensed-window segment-control quantity M_m, states the exact Hessian alternatives rho_m M_m -> 0, M_m <= C N_m(D_aF) with rho_m N_m(D_aF) -> 0, or admissible shrink freedom preserving the finite same-fluid Pack witness, and separately classifies UniformStrainTail.TTU / EndpointSelector.TTU as the current primary Pack.TTU route",
+      "replacement": "the note now defines the licensed-window segment-control quantity M_m, states the exact Hessian alternatives rho_m M_m -> 0, M_m <= C N_m(D_aF) with rho_m N_m(D_aF) -> 0, or admissible shrink freedom preserving the finite same-fluid Field-window support, and separately classifies UniformStrainTail.TTU / EndpointSelector.TTU as the current primary Pack.TTU route",
       "downstream_consequence": "PackLicensedScaleHessianBudget.A remains open as a stronger optional route; the active Pack-restoration leaf is the exact TTU uniformity problem converting labelwise strain tails into the supremal Pack.TTU strain ledger"
     },
     {
@@ -200,7 +200,7 @@
       "path": "problems/navier-stokes/theorem-construction/mpp-two-profile-pack-molecule-rigidity-parameter-orthogonality-attempt-20260610.md",
       "issue": "the surviving low-high same-window molecule was described with profile geometry and order-size language after positive selection",
       "replacement": "the note now defines the selected low-high positive measure dmu_{alpha beta,m}^+, states survival as the exact normalized nonvanishing condition (TPM), and states separated-pair vanishing through the explicit cutoff-overlap limit (SEP)",
-      "downstream_consequence": "TwoProfilePackMoleculeRigidity.A remains unproved; the live child must prove vanishing, a terminal anti-atom modulus, one-profile absolute continuity with density control, a source-Carleson reserve, a rigid two-profile Liouville class, or a Pack/Part/Field face failure for the selected measure"
+      "downstream_consequence": "TwoProfilePackMoleculeRigidity.A remains unproved; the live child must prove vanishing, a terminal anti-atom modulus, one-profile absolute continuity with density control, a source-Carleson reserve, a rigid two-profile Liouville class, or a Part/Field Part/Field failure for the selected measure"
     },
     {
       "path": "problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex",
@@ -241,8 +241,8 @@
     {
       "path": "problems/navier-stokes/live-theorem-edge.yaml; problems/navier-stokes/source-frontier.yaml; problems/navier-stokes/submission-bundle/source-frontier.yaml",
       "issue": "after the source/no-pulse alias repair, the live route maps still carried residual route-equivalent, collapse, demotion, therefore/Thus, and should-language that could let support classification or proof-order prose masquerade as mathematical payment",
-      "replacement": "the route maps now use explicit classified-as-support, requires-the-same-bound, same-selected-Zeno-burden, displayed-witness-face, and proof-order wording; targeted route-equivalent/collapse/demotion/connective shortcut strings were removed from the three active route maps",
-      "downstream_consequence": "route-map status can no longer close a proof step by alias, collapse, demotion, or connective force; downstream proof force requires a displayed Pack/Part/Field landing, a named exact bound, or a proved conversion theorem"
+      "replacement": "the route maps now use explicit classified-as-support, requires-the-same-bound, same-selected-Zeno-burden, displayed-witness, and proof-order wording; targeted route-equivalent/collapse/demotion/connective shortcut strings were removed from the three active route maps",
+      "downstream_consequence": "route-map status can no longer close a proof step by alias, collapse, demotion, or connective force; downstream proof force requires a displayed Part/Field landing, a named exact bound, or a proved conversion theorem"
     },
     {
       "path": "problems/navier-stokes/submission-bundle/navier-stokes-submission.tex; problems/navier-stokes/submission-bundle/sections/main-result.tex; problems/navier-stokes/submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex; problems/navier-stokes/submission-bundle/sections/rebuilt-lower-prefix-upper-tail-branch.tex; problems/navier-stokes/submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex; problems/navier-stokes/submission-bundle/sections/rebuilt-recovery-surface-fidelity-branch.tex; problems/navier-stokes/submission-bundle/sections/rebuilt-shell-gain-half-derivative-branch.tex",
@@ -254,24 +254,24 @@
       "path": "problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb; problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml; problems/navier-stokes/target-operating-contract.yaml",
       "issue": "forward-positive quarantine used demotion language as an active support-classification schema",
       "replacement": "generator now emits support_classes, cm_authority: no-proof-authority, proof_force: none_without_exact_cm_bridge, and support_classification_law; target contract and rebuilt index carry the 3043-entry current support count",
-      "downstream_consequence": "quarantined support surfaces have no CM proof authority unless an exact bridge lands the same witness in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}, or the named positive theorem is proved under stated hypotheses"
+      "downstream_consequence": "quarantined support surfaces have no CM proof authority unless an exact bridge lands the same witness in Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence, or the named positive theorem is proved under stated hypotheses"
     },
     {
       "path": "problems/navier-stokes/review-verdict.yaml; problems/navier-stokes/route-lock.yaml; problems/navier-stokes/release-decision.yaml; problems/navier-stokes/route-integrity-report.yaml; problems/navier-stokes/proof-assembly.yaml; problems/navier-stokes/theorem-to-warrant.yaml; problems/navier-stokes/warrant-compilation.yaml; problems/navier-stokes/theorem-repair.yaml; problems/navier-stokes/theorem-crank.yaml; problems/navier-stokes/theorem-packet.yaml; problems/navier-stokes/submission-verdict.yaml; problems/navier-stokes/submission-bundle/theorem-packet.yaml; problems/navier-stokes/submission-bundle/submission-verdict.yaml",
-      "issue": "generated verdict and packet mirrors used therefore/demoted wording around Pack/Part/Field support and source-control support rows",
-      "replacement": "mirrors now state that concrete Pack/Part/Field face failure supports Exit(Q), and source-control/positive supplier rows remain support-only with no proof force unless the exact bridge or theorem is proved",
+      "issue": "generated verdict and packet mirrors used therefore/demoted wording around Part/Field support and source-control support rows",
+      "replacement": "mirrors now state that concrete Part/Field Part/Field failure supports Exit(Q), and source-control/positive supplier rows remain support-only with no proof force unless the exact bridge or theorem is proved",
       "downstream_consequence": "route/verdict surfaces cannot close a proof step by connective force or support classification"
     },
     {
       "path": "problems/navier-stokes/ns-completion-route-sync-payload-*.yaml",
       "issue": "dated top-level route-sync payloads are imported by viewer, executor, and submission sync paths but still encoded resolution by support downgrading, source-wall downgrade wording, generic Pack/Part downgrade wording, and H^s shorthand",
       "replacement": "payloads now use no-proof-authority classification, wrong-target/no-proof-force language for generic Pack/Part face-exclusion, source-frontier classification with no proof authority, and the classical H^s local well-posedness relaunch criterion with lifespan depending only on the H^s bound",
-      "downstream_consequence": "route-sync consumers cannot read demotion or standard-continuation shorthand as proof payment; imported route status requires same-witness CM admission plus Pack/Part/Field witness-face record or a proved local relaunch input"
+      "downstream_consequence": "route-sync consumers cannot read demotion or standard-continuation shorthand as proof payment; imported route status requires same-witness CM admission plus Part/Field witness record or a proved local relaunch input"
     },
     {
       "path": "problems/navier-stokes/assumption-audit.yaml; problems/navier-stokes/dependency-audit.yaml; problems/navier-stokes/consistency-audit.yaml; problems/navier-stokes/circularity-audit.yaml; problems/navier-stokes/gap-audit.yaml; problems/navier-stokes/cm-contrapositive-referee-audit.yaml; problems/navier-stokes/d8-completion-route-map.yaml; problems/navier-stokes/live-theorem-edge.yaml; problems/navier-stokes/source-frontier.yaml; problems/navier-stokes/submission-bundle/source-frontier.yaml; problems/navier-stokes/submission-bundle/current-material-coverage.yaml; problems/navier-stokes/spine.md; problems/navier-stokes/promotion-blocker-burndown.md",
       "issue": "active audit/frontier/support summaries still let demotion, generated overlay suppression, or standard-entry language sound like mathematical repair",
-      "replacement": "summaries now use non-authoritative/no-proof-force/support-only language tied to same-witness CM admission and Pack/Part/Field witness-face record; source-gap demoted schema rows carry proof_force: none where retained for compatibility",
+      "replacement": "summaries now use non-authoritative/no-proof-force/support-only language tied to same-witness CM admission and Part/Field witness record; source-gap demoted schema rows carry proof_force: none where retained for compatibility",
       "downstream_consequence": "decision surfaces separate active proof force from support classification and preserved schema/source-ID residue"
     },
     {

@@ -31,7 +31,7 @@ The governing proof program remains:
 Exit(Q) := not Member(Q)
 ```
 
-through the Pack-first witness tree:
+through the Field-certification witness tree:
 
 ```text
 Pack_Q, Part_{N,Q}, Field_{N,r,Q}.

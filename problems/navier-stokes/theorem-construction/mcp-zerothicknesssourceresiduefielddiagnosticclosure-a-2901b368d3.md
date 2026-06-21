@@ -33,7 +33,7 @@ carried by
 Assume the CM carrier is synchronized:
 
 ```math
-CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}+Field_{N,r,Q}.
 ```
 
 ## Statement
@@ -61,7 +61,7 @@ Equivalently:
 
 By `FieldSourceResidueJump.A`, a nonzero Field-side source residue lands in the endpoint-visible Field/Jump cell.
 
-By `SourcePulseCMExit.A`, a terminal source-pulse used as a genuine nonsmooth occurrence forces failure of at least one CM face:
+By `SourcePulseCMExit.A`, a terminal source-pulse used as a genuine nonsmooth occurrence forces failure of at least one CM Part/Field:
 
 ```math
 \neg Pack_Q\vee\neg Part_{N,Q}\vee\neg Field_{N,r,Q}.

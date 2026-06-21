@@ -19,9 +19,7 @@ Field_{N,r,Q}\quad\text{or}\quad Member(Q).
 The class-membership object is
 
 ```math
-CM_{N,r,Q}
-=
-Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 Thus
@@ -30,7 +28,7 @@ Thus
 Member(Q)
 ```
 
-requires all three witness faces, not only terminal-tail or tower readout data.
+requires all three witnesss, not only terminal-tail or tower readout data.
 
 ## What `PCTP.hard / TTU.A` provides
 
@@ -57,7 +55,7 @@ End_{NS,avg}
 \Longrightarrow End_{NS}.
 ```
 
-The hardened readout theorem states the relevant witness-face bridge:
+The hardened readout theorem states the relevant witness bridge:
 
 ```math
 Field_{avg}+READ.COVER+ATD_m^\varepsilon

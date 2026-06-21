@@ -30,7 +30,7 @@ support-level until a theorem supplies one of the exact interfaces:
 ```text
 same-ledger payment
 or
-CM-test admission + first Pack/Part/Field face failure.
+CM-test admission + first Part/Field Part/Field failure.
 ```
 
 Zero-radius terminal residue or selected unpaid infinite donor-refill lands
@@ -68,11 +68,11 @@ Nonsmoothness is read contrapositive as class exit:
 ```text
 finite-time nonsmoothness
 => class exit
-=> first witness-face failure
+=> first witness failure
 => Pack failure or Part failure or Field failure.
 ```
 
-The witness faces are:
+The witnesss are:
 
 ```text
 Pack  = shared deformation / carrier geometry
@@ -140,9 +140,9 @@ face
 
 ```text
 not Pack_Q,
-Pack_Q + not Part_{N,Q},
+not Part_{N,Q},
 or
-Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}.
+Part_{N,Q} + forall r>0 not Field_{N,r,Q}.
 ```
 
 Otherwise it remains supplier quarantine or downstream readout support.
@@ -465,11 +465,11 @@ replacement is the pass/fail obstruction engine:
 ```text
 positive supplier branch reaches a real obstruction
 => pass branch: lawful in-class / Member(Q) continuation mechanism
-=> fail branch: CM-test admission + first Pack/Part/Field face failure
+=> fail branch: CM-test admission + first Part/Field Part/Field failure
 => Exit(Q):=not Member(Q) for that same witness.
 ```
 
-The branch proves CM-facing work only through that exact face landing.  A
+The branch proves CM-facing work only through that exact Part/Field landing.  A
 source-control theorem can still support the pass side, but a source alias,
 height-flux label, or endpoint readout label does not by itself restore Field,
 restore CM, restore Member, or contradict first exit.
@@ -483,7 +483,7 @@ Maintain:
 ```text
 CM = Pack + Part + Field
 CM => Member
-first-exit witness => face failure
+first-exit witness => Part/Field failure
 ```
 
 Audit every theorem for its landing face.
@@ -508,7 +508,7 @@ Every source theorem must reduce the positive weighted shell flux.
 
 Current exact requirement: a source theorem must either pay the same-witness
 branch in the installed ledger, or promote the admitted finite obstruction to a
-specific Pack/Part/Field face failure.  Reducing a positive weighted shell flux
+specific Part/Field Part/Field failure.  Reducing a positive weighted shell flux
 inside a supplier estimate is not enough unless that reduction supplies one of
 those interfaces.
 
@@ -578,7 +578,7 @@ positive strain decomposition isolating the one-sided carrier
   |w_\ell|^2[e_\ell\cdot S_{<\ell}e_\ell]_+ without replacing it by an
   unsigned source-wall bound;
 parent/child packet ancestry showing every uncharged first-created donor
-  height has same-fluid ancestry or a Pack/Part face failure;
+  height has same-fluid ancestry or a Pack/Part Part/Field failure;
 finite-overlap terminal packet selection with a stated overlap constant and
   no bounded-selector loss against diffuse parent clouds;
 legal pressure/cutoff ledger bounding only the recorded `L_P` terms, not the
@@ -632,7 +632,7 @@ class-exit route is the correct organizing principle.
 The proof remains open at the same-witness terminal source/Pack-survival
 frontier recorded by the live source-frontier surfaces.  The old
 Field-face-source-wall language is retained only as historical support unless a
-separate theorem places the branch in the current Pack/Part/Field witness tree.
+separate theorem places the branch in the current Part/Field witness tree.
 
 The most valuable consolidation is:
 

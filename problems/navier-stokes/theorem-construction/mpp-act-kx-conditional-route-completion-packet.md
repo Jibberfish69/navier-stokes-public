@@ -1083,7 +1083,7 @@ The accepted endpoint certificate maps prove `END.Exh` and `END.Cross`.
 **Proof.** Let
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 If `CM` fails, at least one of `Pack`, `Part`, or `Field` fails. The accepted
@@ -1175,7 +1175,7 @@ Navier-Stokes solution on `[0,T_*)`. Assume the installed class-membership
 witness
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}
 ```
 
 and the accepted endpoint certificate maps. Then every compact classical
@@ -1366,7 +1366,7 @@ typed failures:
 The first three are exactly the negation of
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 The fourth is the separate mixed tower face already carried by
