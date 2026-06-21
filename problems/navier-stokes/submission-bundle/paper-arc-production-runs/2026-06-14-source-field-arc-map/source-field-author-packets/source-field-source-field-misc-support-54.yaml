@@ -229,7 +229,7 @@ chunk:
 
       The high-frequency example from Target 1 has fixed positive viscous budget and unbounded higher derivatives. For each N, choosing k>N+2 gives fixed budget with arbitrarily large finite-depth tower quantities. Hence the budget fails to imply the tower bound needed by DTC-to-Tower Bound.
 
-      A valid theorem must supply synchronized Pack/Part/Field witness preservation plus tower readout.
+      A valid theorem must supply synchronized Part/Field witness preservation plus tower readout.
 
       Each individual attempt to derive one of those da
       % ... source excerpt truncated for packet size ...
@@ -549,7 +549,7 @@ chunk:
 
     The high-frequency example from Target 1 has fixed positive viscous budget and unbounded higher derivatives. For each N, choosing k>N+2 gives fixed budget with arbitrarily large finite-depth tower quantities. Hence the budget fails to imply the tower bound needed by DTC-to-Tower Bound.
 
-    A valid theorem must supply synchronized Pack/Part/Field witness preservation plus tower readout.
+    A valid theorem must supply synchronized Part/Field witness preservation plus tower readout.
 
     Each individual attempt to derive one of those data packages from positive scalar budget alone fails by the explicit models above.
 
@@ -698,7 +698,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
