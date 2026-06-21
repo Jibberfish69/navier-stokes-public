@@ -1190,6 +1190,49 @@ no-defect branch reduces to
 \tag{4BF.45k0c}
 ```
 
+The total no-residue production attempt has also been run.  It confirms the
+necessary distinction:
+
+```math
+\boxed{
+\text{Hodge-Stokes packet preserves participation}
+\not\Longrightarrow
+\text{one-sided no-residue production.}
+}
+\tag{4BF.45k0d}
+```
+
+Participation is preserved as the full local tuple
+
+```math
+R+N+P+V=L,
+\qquad
+I=0,
+\tag{4BF.45k0e}
+```
+
+but `(4BF.45e)` requires a positive selected payment after localization,
+weights, lifts, cutoff, terminal selection, and positive-part extraction.  Four
+shortcut closures fail exactly: selecting only after full summation changes the
+native selected positive pre-Cauchy carrier; absolute channel-size coercivity
+has no unweighted budget; defining \(\Phi_\sigma\) from the selected positive
+activity is circular because bounded-below \(\Phi_\sigma\) is equivalent to the
+desired reserve; and compactness-rigidity consumes only after selected
+full-packet identification plus terminal trace AC/no-waste.
+
+Thus the no-residue branch now has the exact form
+
+```math
+\boxed{
+\texttt{ParticipationPreservingNoResidueFullCycle.A}
+\Longleftrightarrow_{\rm current\ frontier}
+\text{selected full-packet identification}
++
+\text{real same-carrier unweighted full-tuple producer.}
+}
+\tag{4BF.45k0f}
+```
+
 The direct attempt at `(4BF.45k)` has now been run.  The transport identity is
 real, but the scalar heat-scale selector cannot itself be the transported
 object.  For
