@@ -4897,7 +4897,7 @@ For \(k\ge1\), the replacement spends the finite-order anchoring inequality
   \right),
 \]
 using \(U_q=\nabla^q u\) on the same retained field window. Force rungs are not
-obtained from velocity oscillation; retained Part supplies the
+obtained from velocity oscillation; retained Part records the
 pressure-viscosity carrier envelope, and escape of that envelope is a Part-face
 failure rather than a retained Pack+Part+Field branch.
 

@@ -151,8 +151,8 @@ membership or a necessary characterization of membership on the route.
 
 NS-MPP has installed `CM` as an exact analytic witness-to-member record for
 an original-NS participating candidate, and has installed `Pack/Part/Field` as
-the canonical route-relative witness-face record.  The certificate does not make
-`Pack` the source of participation and does not make indexed `Part_{N,Q}` the
+the canonical route-relative witness-face record.  The record does not make
+`Pack` the supplier of participation and does not make indexed `Part_{N,Q}` the
 ontology of the solution.
 It has not installed the blunt converse witness theorem
 

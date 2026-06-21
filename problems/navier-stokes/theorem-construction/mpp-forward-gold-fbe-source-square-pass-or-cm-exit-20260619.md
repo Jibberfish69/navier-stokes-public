@@ -198,7 +198,7 @@ The remaining true suppliers are the already isolated source-square currencies:
 \]
 
 If none of those supplies the reserve, the selected failure is a CM
-Pack/Part/Field exit, not an unclassified endpoint obstruction.
+Pack/that face failure, not an unclassified endpoint obstruction.
 
 ## Boundary
 

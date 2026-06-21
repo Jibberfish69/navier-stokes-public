@@ -67,7 +67,7 @@ The submission manuscript must stop presenting the classified class exit as a co
 The repaired manuscript should say:
 
 ```text
-The CM chain classifies every admitted finite terminal breakdown object as Pack/Part/Field exit.
+The CM chain classifies every admitted finite terminal breakdown object as Pack/that face failure.
 The remaining Clay-closing burden is to prove that such a classified exit cannot be the actual finite breakdown counterexample for the original smooth-data solution.
 ```
 

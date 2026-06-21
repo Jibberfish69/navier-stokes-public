@@ -491,7 +491,7 @@ consumed by the CM Pack/Part/Field witness-face route:
 \boxed{
 \text{No gold no-jump supplier}
 \Longrightarrow
-\text{terminal Zeno pulse becomes CM Pack/Part/Field exit evidence.}
+\text{terminal Zeno pulse becomes CM Pack/that face failure evidence.}
 }
 \tag{NZH.33}
 ```

@@ -108,7 +108,7 @@ proof-bearing first Pack face impossible.
 The direct bridge from classified CM face exit to Clay counterexample exclusion
 is not installed. Face-derived `Exit(Q):=not Member(Q)` classifies the alleged
 finite terminal breakdown unless `NoGenuineExitFromSmoothData.A` rules out a
-genuine first Pack/Part/Field exit from original smooth data.
+genuine first Pack/that face failure from original smooth data.
 
 ## Frontier Judgment
 

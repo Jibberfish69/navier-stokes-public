@@ -288,4 +288,4 @@ positive source-carrier identity.}
 
 New progress must prove selected polar saturation / no-free terminal Zeno
 donor-chain control, or else consume the surviving selected positive atom as a
-Pack/Part/Field exit witness.
+Pack/that face failure witness.

@@ -170,7 +170,7 @@ Until one of those lands and both rendered PDFs pass fresh final rereads,
 Clay counterexample exclusion is not proved. A finite Clay counterexample is not
 required to remain a class member at the terminal time, so a face-derived
 `Exit(Q):=not Member(Q)` can be exactly the alleged terminal breakdown unless a
-separate theorem rules out genuine first Pack/Part/Field exit from original
+separate theorem rules out genuine first Pack/that face failure from original
 smooth data. The active loop must keep working on
 `NoGenuineExitFromSmoothData.A`, first through
 `OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A`, or install an

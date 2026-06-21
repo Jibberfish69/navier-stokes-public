@@ -96,7 +96,7 @@ If `Pack_Q` fails, the shared packing predicate loses its common diffeomorphic, 
 \neg Pack_Q\Longrightarrow packing\text{-}detached\vee tower\text{-}blown.
 ```
 
-If `Field_{N,r,Q}` fails while `Part_{N,Q}` supplies the finite-difference tower law, the remaining failed clause is bounded neighboring coherence, namely escape of `\mathfrak C_{N,r,Q}` at every positive scale. This is the `Jump` face.
+If `Field_{N,r,Q}` fails while `Part_{N,Q}` records the finite-difference tower law, the remaining failed clause is bounded neighboring coherence, namely escape of `\mathfrak C_{N,r,Q}` at every positive scale. This is the `Jump` face.
 
 These cases exhaust the three factors of `CM_{N,r,Q}`, so the displayed implication follows. `\square`
 
