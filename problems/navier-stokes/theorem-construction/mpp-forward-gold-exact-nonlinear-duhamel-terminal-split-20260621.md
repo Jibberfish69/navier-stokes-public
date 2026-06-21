@@ -4,7 +4,7 @@ ns_viewer:
   status: exact-identity-installed-no-terminal-smoothing-closure
   proof_role: forward_gold_exact_nonlinear_duhamel_identity
   logical_landing_node: exact_nonlinear_duhamel_terminal_split
-  edge_effect: "Installs the exact Leray-Duhamel identity for the rescaled Navier-Stokes equation. This is not a linear approximation: the source is the actual Leray-projected nonlinearity -P div(v tensor v), with pressure removed only by the exact incompressible projection. The identity separates old heat-smoothed data from the terminal nonlinear contribution. Material born before a positive time gap has heat smoothing time; material supplied on the terminal sublayer has vanishing smoothing time. This proves only the supplier boundary: heat smoothing alone does not give endpoint UI or uniform coupled tower radius. The remaining burden is a same-carrier estimate on the actual nonlinear/pressure contribution."
+  edge_effect: "Installs the exact Leray-Duhamel identity for the rescaled Navier-Stokes equation. This is not a linear approximation or a normal form: the source is the actual Leray-projected nonlinearity -P div(v tensor v), with pressure removed only by the exact incompressible projection. The identity separates old heat-smoothed data from the terminal nonlinear contribution. Material born before a positive time gap has heat smoothing time; material supplied on the terminal sublayer has vanishing smoothing time. This proves only the supplier boundary: heat smoothing alone does not give endpoint UI or uniform coupled tower radius. The remaining burden is a same-carrier estimate on the actual nonlinear/pressure contribution."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-duhamel-smoothing-does-not-produce-uniform-radius-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-mixed-derivative-tower-participation-law-20260621.md
@@ -19,7 +19,8 @@ Date: 2026-06-21
 ## Status
 
 This note records the exact Duhamel identity that belongs to Navier-Stokes.
-It does not replace the nonlinear equation by a linear forced equation.
+It does not replace the nonlinear equation by a linear forced equation or by a
+normal form.
 
 Exactness scope. The identities below are identities for the smooth
 preterminal rescaled Navier-Stokes sequence \(v_j\). Passing any term to a
