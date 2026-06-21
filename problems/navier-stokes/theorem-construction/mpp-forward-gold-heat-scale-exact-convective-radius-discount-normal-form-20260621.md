@@ -246,6 +246,7 @@ Since
 \int_{\mathbb T^3}|V_m(s,y)|^2\,dy
 =
 (2\pi)^3
+ +
 {b_m(s)^2\over n_m^2}(2\pi)^2\pi,
 \tag{HCR.22}
 \]
