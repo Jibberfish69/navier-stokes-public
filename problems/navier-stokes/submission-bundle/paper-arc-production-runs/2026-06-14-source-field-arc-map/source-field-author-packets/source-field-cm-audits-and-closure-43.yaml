@@ -141,7 +141,7 @@ chunk:
       If jump manifests and either Pack Q or Part N,Q has already failed, then the desired disjunction is immediate. If jump manifests while Pack Q and Part N,Q are retained, the field endpoint row and coherence-fracture reduction give
 
       \[
-      Pack_Q+Part_{N,Q}+Jump
+      Part_{N,Q} plus Field-window evidence+Jump
       \Longrightarrow
       \neg Field_{N,r,Q}.
       \]
@@ -466,7 +466,7 @@ chunk:
     If jump manifests and either Pack Q or Part N,Q has already failed, then the desired disjunction is immediate. If jump manifests while Pack Q and Part N,Q are retained, the field endpoint row and coherence-fracture reduction give
 
     \[
-    Pack_Q+Part_{N,Q}+Jump
+    Part_{N,Q} plus Field-window evidence+Jump
     \Longrightarrow
     \neg Field_{N,r,Q}.
     \]

@@ -77,7 +77,7 @@ chunk:
       If Cont N(T *) persists on a retained terminal cover for some N dominating s>5/2, then T * is not a finite terminal non-continuation time.
 
       \[
-      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
       The readout slot is the bridge from that local witness package to a global H s continuation norm. Finite overlap and shared one-field coherence allow the local tower bounds to sum to
@@ -423,7 +423,7 @@ chunk:
     If Cont N(T *) persists on a retained terminal cover for some N dominating s>5/2, then T * is not a finite terminal non-continuation time.
 
     \[
-    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     The readout slot is the bridge from that local witness package to a global H s continuation norm. Finite overlap and shared one-field coherence allow the local tower bounds to sum to

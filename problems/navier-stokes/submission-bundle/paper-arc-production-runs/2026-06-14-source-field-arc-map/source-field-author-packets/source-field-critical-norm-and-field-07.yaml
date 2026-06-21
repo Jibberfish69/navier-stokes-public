@@ -50,9 +50,7 @@ chunk:
       \subsection{Witnessfacebridge Pctp Hard Field Member Audit}
 
       \[
-      CM_{N,r,Q}
-      =
-      Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
       The averaged terminal-tail route supplies a downstream terminal-tail consumer/readout. In its legal production order, the route is
@@ -444,9 +442,7 @@ chunk:
     \subsection{Witnessfacebridge Pctp Hard Field Member Audit}
 
     \[
-    CM_{N,r,Q}
-    =
-    Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     The averaged terminal-tail route supplies a downstream terminal-tail consumer/readout. In its legal production order, the route is
