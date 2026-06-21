@@ -13,8 +13,8 @@ route_nodes:
 - node_id: cm_convergence_atlas
   label: cm_convergence_atlas
   status: support-audit-cm-resolved
-  role: Audit-open atlas that connects the primitive Member/CM witness graph, Pack/Part/Field
-    face split, receiver/source/readout/endpoint layers, Pack-before-Part source-wall gate
+  role: Audit-open atlas that connects the primitive Member/CM witness graph, Part/Field
+    face split, receiver/source/readout/endpoint layers, Pack-out-of-CM source-wall gate
     with later licensed Field readout, alias-collapse table, and theorem-crank method.
     It does not discharge the source wall and is not a theorem-grade promotion surface;
     it points audit-open analytic effort to DonorHeightCreation.A / ReserveCreationCharge.A
@@ -27,17 +27,17 @@ route_nodes:
   label: cm_witness_face_bridge
   status: installed
   role: 'Governing CM bridge: all-depth CM witness membership implies Smooth(Q), and
-    NonSmooth(Q) forces a Pack/Part/Field witness-face exit.'
+    NonSmooth(Q) forces a Part/Field witness exit.'
   source_refs: &2
-  - theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
+  - theorem-construction/mpp-member-smooth-contrapositive-witness-bridge-20260504.md
 - node_id: clay_cm_contrapositive_witness_consumption
   label: clay_cm_contrapositive_witness_consumption
   status: current-cm-referee-inventory-gate-passed
   role: 'Direct Clay-facing classification route: a finite terminal witness enters
-    the same-fluid CM packet tree, the first failing Pack/Part/Field face is recorded,
-    and that face failure supports Exit(Q):=not Member(Q). The current referee audit
+    the same-fluid CM participation-field tree, the first failing Part/Field face is recorded,
+    and that Part/Field failure supports Exit(Q):=not Member(Q). The current referee audit
     checks finite-obstruction inventory coverage rather than generic no-face exclusion.
-    The promoted proof-bearing rows have CM entry and first-face landing, while generic
+    The promoted proof-bearing rows have CM entry and first-Part/Field landing, while generic
     support rows remain demoted.'
   source_refs: &3
   - live-theorem-edge.yaml
@@ -56,7 +56,7 @@ route_nodes:
   status: installed-branch-law
   role: 'Locks the June 6 retained/averaged receiver split: retained point-center
     failure and averaged cover failure either pass through an installed route or land
-    in the first CM face. The averaged `Jump_avg` branch now lands as `forall r>0
+    in the first CM Part/Field. The averaged `Jump_avg` branch now lands as `forall r>0
     not Field_{N,r,Q}` by `AveragedFieldFaceAdmission.A` under retained `Pack_Q` and
     `Part_{N,Q}`. These failures may not be revived as finite-energy NKF.Native or
     upstream pointwise readout.'
@@ -214,7 +214,7 @@ route_nodes:
 - node_id: typed_cm_rows
   label: typed_cm_rows
   status: classification-sync-not-endpoint-exclusion
-  role: Typed Pack/Part/Field row inputs into the CM witness. CM.CrossFaceSynthesis.A
+  role: Typed Part/Field row inputs into the CM witness. CM.CrossFaceSynthesis.A
     only synchronizes already-certified faces on the same witness ledger; it does
     not discharge the source-wall root. The Field source readout remains conditional
     on root source-wall closure, now typed by FieldFaceResidueReduction.A as a residual
@@ -222,15 +222,15 @@ route_nodes:
     are routed. FieldSourceResidueJump.A classifies a native Field-face source residue
     as `(Field,Jump)`, but classification alone is not endpoint exclusion.
   source_refs: &14
-  - theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
+  - theorem-construction/mpp-member-smooth-contrapositive-witness-bridge-20260504.md
   - theorem-construction/mpp-cm-cross-face-synthesis-bridge-license-audit-20260505.md
-  - theorem-construction/mcp-explicit-cm-witness-face-bridge-after-source-pulse-20260504.md
+  - theorem-construction/mcp-explicit-cm-witness-bridge-after-source-pulse-20260504.md
   - theorem-construction/mcp-part-row-nodrop-to-part-n-q-20260504.md
 - node_id: t3_periodic_hs_endpoint_layer
   label: t3_periodic_hs_endpoint_layer
   status: installed-repo-declared-endpoint
   role: Periodic T^3 positive-forward endpoint layer. The repo-declared route is smooth
-    periodic data -> terminal-tail / Pack-Part-Field-tower readout -> uniform H^s(T^3),
+    periodic data -> terminal-tail / Part-Field-tower readout -> uniform H^s(T^3),
     s>5/2 -> classical H^s local well-posedness relaunch criterion with lifespan depending
     only on the H^s bound. This node must stay scoped to T^3 and must not absorb R^3
     tail/export burdens.
@@ -303,7 +303,7 @@ route_nodes:
     an unspecified branch: bounded frequencies vanish by exterior L^2 tightness, high-frequency
     survivors escape to dyadic scale, and retained Pack+Part is incompatible with
     any fixed positive Field scale by R3.ExteriorDyadicSurvivorFieldIncompatibility.A.
-    Thus the CM-facing dichotomy lands the survivor in Pack, Part, or Field. This
+    Thus the CM-facing dichotomy lands the survivor in Part or Field. This
     branch is upstream-separated from the periodic T^3 endpoint.'
   source_refs: &21
   - whole-space-r3-matrix-branch.md
@@ -329,10 +329,10 @@ route_nodes:
   status: current-referee-gate-passed
   role: Current promoted CM surfaces pass the finite-obstruction inventory referee
     gate. Future public-critical, source-wall, readout, transfer, or comparison material
-    becomes proof-bearing only after same-witness CM entry and Pack/Part/Field face
+    becomes proof-bearing only after same-witness CM entry and Part/Field face
     certification.
   source_refs: &23
-  - theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
+  - theorem-construction/mpp-member-smooth-contrapositive-witness-bridge-20260504.md
   - live-theorem-edge.yaml
 - node_id: generated_surface_drift
   label: generated_surface_drift
@@ -474,19 +474,19 @@ integration_chain:
   job: Every branch node has an evidence source, state, and next burden.
   current_gap: The generic Pack/Part face-exclusion work order is classified as the
     wrong target with no proof force. The graph must show finite-obstruction inventory
-    coverage and keep future named rows under same-witness Pack/Part/Field witness-face record.
+    coverage and keep future named rows under same-witness Part/Field witness record.
 - step_id: app_worker_surface
   surface_class: NS app/viewer
   current_state: route-state-exported-with-inventory-gate
   job: Viewer can inspect the D8 route map, Research OS route state, branch rows,
     proof/PDF scaffold state, sync verdicts, and open blockers beside route graph,
     source frontier, live edge, and proof leaves.
-  current_gap: The viewer route truth must show Pack/Part as witness faces for named
+  current_gap: The viewer route truth must show Pack/Part as witnesss for named
     rows, not as generic global no-exit blockers.
 - step_id: repo_proof_authority
   surface_class: NS repo theorem closure
   current_state: clay-closing-bridge-open
-  job: Keep the governing proof program as Exit(Q):=not Member(Q) through Pack/Part/Field.
+  job: Keep the governing proof program as Exit(Q):=not Member(Q) through Part/Field.
   current_gap: 'Direct proof authority is blocked by active Clay-closing proof gaps:
     public-clay-finality-from-classification, pdf-reader-proof-integration, clay-closing-bridge-from-classified-class-exit-to-contradiction,
     contract-readiness-after-manuscript-expansion, clay-readiness-not-claimed, finite-breakdown-exclusion-open.'
@@ -552,7 +552,7 @@ branch_rows:
   label: cm_convergence_atlas
   state: support-audit-cm-resolved
   next_burden: Audit-open atlas that connects the primitive Member/CM witness graph,
-    Pack/Part/Field face split, receiver/source/readout/endpoint layers, Pack-first
+    Part/Field face split, receiver/source/readout/endpoint layers, Field-certification
     source-wall gate with later licensed Field readout, alias-collapse table, and
     theorem-crank method. It does not discharge the source wall and is not a theorem-grade
     promotion surface; it points audit-open analytic effort to DonorHeightCreation.A
@@ -565,7 +565,7 @@ branch_rows:
   label: cm_witness_face_bridge
   state: installed
   next_burden: 'Governing CM bridge: all-depth CM witness membership implies Smooth(Q),
-    and NonSmooth(Q) forces a Pack/Part/Field witness-face exit.'
+    and NonSmooth(Q) forces a Part/Field witness exit.'
   evidence_refs: *2
   mcp_visibility_status: visible-in-route-state
 - row_id: graph:clay_cm_contrapositive_witness_consumption
@@ -573,10 +573,10 @@ branch_rows:
   label: clay_cm_contrapositive_witness_consumption
   state: current-cm-referee-inventory-gate-passed
   next_burden: 'Direct Clay-facing classification route: a finite terminal witness
-    enters the same-fluid CM packet tree, the first failing Pack/Part/Field face is
-    recorded, and that face failure supports Exit(Q):=not Member(Q). The current referee
+    enters the same-fluid CM participation-field tree, the first failing Part/Field face is
+    recorded, and that Part/Field failure supports Exit(Q):=not Member(Q). The current referee
     audit checks finite-obstruction inventory coverage rather than generic no-face
-    exclusion. The promoted proof-bearing rows have CM entry and first-face landing,
+    exclusion. The promoted proof-bearing rows have CM entry and first-Part/Field landing,
     while generic support rows remain demoted.'
   evidence_refs: *3
   mcp_visibility_status: visible-in-route-state
@@ -595,7 +595,7 @@ branch_rows:
   state: installed-branch-law
   next_burden: 'Locks the June 6 retained/averaged receiver split: retained point-center
     failure and averaged cover failure either pass through an installed route or land
-    in the first CM face. The averaged `Jump_avg` branch now lands as `forall r>0
+    in the first CM Part/Field. The averaged `Jump_avg` branch now lands as `forall r>0
     not Field_{N,r,Q}` by `AveragedFieldFaceAdmission.A` under retained `Pack_Q` and
     `Part_{N,Q}`. These failures may not be revived as finite-energy NKF.Native or
     upstream pointwise readout.'
@@ -695,7 +695,7 @@ branch_rows:
   row_kind: route_node
   label: typed_cm_rows
   state: classification-sync-not-endpoint-exclusion
-  next_burden: Typed Pack/Part/Field row inputs into the CM witness. CM.CrossFaceSynthesis.A
+  next_burden: Typed Part/Field row inputs into the CM witness. CM.CrossFaceSynthesis.A
     only synchronizes already-certified faces on the same witness ledger; it does
     not discharge the source-wall root. The Field source readout remains conditional
     on root source-wall closure, now typed by FieldFaceResidueReduction.A as a residual
@@ -709,7 +709,7 @@ branch_rows:
   label: t3_periodic_hs_endpoint_layer
   state: installed-repo-declared-endpoint
   next_burden: Periodic T^3 positive-forward endpoint layer. The repo-declared route
-    is smooth periodic data -> terminal-tail / Pack-Part-Field-tower readout -> uniform
+    is smooth periodic data -> terminal-tail / Part-Field-tower readout -> uniform
     H^s(T^3), s>5/2 -> classical H^s local well-posedness relaunch criterion with
     lifespan depending only on the H^s bound. This node must stay scoped to T^3 and
     must not absorb R^3 tail/export burdens.
@@ -774,7 +774,7 @@ branch_rows:
     an unspecified branch: bounded frequencies vanish by exterior L^2 tightness, high-frequency
     survivors escape to dyadic scale, and retained Pack+Part is incompatible with
     any fixed positive Field scale by R3.ExteriorDyadicSurvivorFieldIncompatibility.A.
-    Thus the CM-facing dichotomy lands the survivor in Pack, Part, or Field. This
+    Thus the CM-facing dichotomy lands the survivor in Part or Field. This
     branch is upstream-separated from the periodic T^3 endpoint.'
   evidence_refs: *21
   mcp_visibility_status: visible-in-route-state
@@ -793,7 +793,7 @@ branch_rows:
   state: current-referee-gate-passed
   next_burden: Current promoted CM surfaces pass the finite-obstruction inventory
     referee gate. Future public-critical, source-wall, readout, transfer, or comparison
-    material becomes proof-bearing only after same-witness CM entry and Pack/Part/Field
+    material becomes proof-bearing only after same-witness CM entry and Part/Field
     face certification.
   evidence_refs: *23
   mcp_visibility_status: visible-in-route-state
@@ -812,7 +812,7 @@ branch_rows:
   state: finite-obstruction-inventory-synced
   next_burden: The generic Pack/Part face-exclusion work order is classified as the
     wrong target with no proof force. The graph must show finite-obstruction inventory
-    coverage and keep future named rows under same-witness Pack/Part/Field witness-face record.
+    coverage and keep future named rows under same-witness Part/Field witness record.
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mirror_of_completion_candidate: false
@@ -821,7 +821,7 @@ branch_rows:
   row_kind: d8_integration_step
   label: NS app/viewer
   state: route-state-exported-with-inventory-gate
-  next_burden: The viewer route truth must show Pack/Part as witness faces for named
+  next_burden: The viewer route truth must show Pack/Part as witnesss for named
     rows, not as generic global no-exit blockers.
   evidence_refs:
   - problems/navier-stokes/d8-completion-route-map.yaml
