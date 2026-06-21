@@ -60,6 +60,15 @@ ACTIVE_PATHS = %w[
 ].freeze
 
 FORBIDDEN = {
+  "Pack in CM object definition" => /CM_\{N,r,Q\}\s*:?=\s*Pack_Q/,
+  "Pack in prose CM object definition" => /\bCM\s+is\s+Pack\+Part\+Field\b/,
+  "Pack in causal CM exit definition" => /\bsince CM is Pack\+Part\+Field\b/,
+  "not-Pack promoted to CM exit" => /not Pack_Q.*(?:not CM|CM exit|Exit\(Q|class-exit|class exit)/,
+  "Pack promoted to CM exit" => /Pack[- ]side CM exit/,
+  "Pack-first CM route" => /Pack-first (?:CM|witness|face|continuation|route|tree|classification|promotion|proof|audit|gate|test)/,
+  "Pack/Part/Field as CM witness grammar" => /Pack\/Part\/Field (?:witness|face|exit|exhaustion|terminal|classification|proof|grammar|tree|route)/,
+  "Pack_Q before Field smoothness certification" => /Pack_Q.*(?:not Part_\{N,Q\}|Part_\{N,Q\}.*not Field_\{N,r,Q\})/,
+  "CM packet object language" => /\bCM packet\b/,
   "old Pack-first continuation packet tree" => /Pack-first continuation-packet tree/,
   "old Pack-first CM exit tree" => /Pack-first CM exit tree/,
   "old Pack-first witness tree" => /Pack-first witness tree/,
@@ -140,19 +149,11 @@ BROAD_SCAN_ROOTS = %w[
 ].freeze
 
 REQUIRED_MARKERS = [
-  "PackBeforePartDependencyResurfacing",
-  "Pack-before-Part",
-  "pre-Pack not-Pack",
-  "pre-Pack original-participation audit",
-  "Part is the original",
-  "original NS participation ontology",
-  "original Navier-Stokes participation law",
-  "original NS participation law",
-  "original-NS participation",
-  "localized finite-depth Silver record",
-  "finite packet-local Silver record",
-  "Silver Pack_Q",
-  "Silver CM exit tree"
+  "Pack(Q) is disqualified from the CM-object definition",
+  "Pack(Q) belongs only to field smoothness-certification",
+  "single point tells nothing about smoothness of a field object",
+  "CM object is the same-solution participation and field-readout object",
+  "packet/window machinery is outside CM"
 ].freeze
 
 def relative(path)
