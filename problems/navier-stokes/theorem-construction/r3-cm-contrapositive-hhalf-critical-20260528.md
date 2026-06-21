@@ -2,7 +2,7 @@
 
 Date: 2026-05-28
 
-Status: repaired and installed as a route-local CM face-classification theorem.
+Status: repaired and installed as a route-local CM Part/Field-classification theorem.
 
 ## Target
 
@@ -81,8 +81,8 @@ Thus a retained positive Field face controls the same shell quantity selected by
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
 ```
 
-The terminal `H^{1/2}` wall is exhausted by Pack, Part, or Field.
+The terminal `H^{1/2}` wall is exhausted by Part or Field.
 
 ## CM embedding
 
-The derived face failure is passed through `ClayCMContrapositiveEmbedding.A`, yielding the route conclusion as a classified CM class-exit witness for the same ledger.
+The derived Part/Field failure is passed through `ClayCMContrapositiveEmbedding.A`, yielding the route conclusion as a classified CM class-exit witness for the same ledger.

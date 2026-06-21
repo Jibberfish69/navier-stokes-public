@@ -55,7 +55,7 @@ PositiveRemainderDepletion.A. On each localized pre-Cauchy source packet, the po
 - Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-before-Part audit.
+- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-out-of-CM audit.
 
 ## Forbidden Imports
 
@@ -70,7 +70,7 @@ PositiveRemainderDepletion.A. On each localized pre-Cauchy source packet, the po
 1. Decompose the pre-Cauchy source into time derivative, drain, legal divergence/loss, and positive remainder.
 2. Use finite donor-balance telescoping for the derivative and legal losses.
 3. Reduce the positive remainder to source-weighted terminal angular depletion on the selected active packet.
-4. Keep this as positive Pack/source-supplier work; do not promote it directly into Pack, Part, or Field, and keep Member downstream of the CM witness certificate.
+4. Keep this as positive Pack/source-supplier work; do not promote it directly into Part or Field, and keep Member downstream of the CM witness certificate.
 5. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
 ## Circularity Audit

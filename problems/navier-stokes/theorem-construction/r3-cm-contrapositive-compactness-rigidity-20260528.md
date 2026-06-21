@@ -2,7 +2,7 @@
 
 Date: 2026-05-28
 
-Status: discharged as a route-local CM face-classification theorem.
+Status: discharged as a route-local CM Part/Field-classification theorem.
 
 ## Target
 
@@ -48,11 +48,11 @@ The retained packet therefore cannot remain a terminal compactness-rigidity wall
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
 ```
 
-Thus every compactness-rigidity terminal wall lands in Pack, Part, or Field.
+Thus every compactness-rigidity terminal wall lands in Part or Field.
 
 ## CM consequence
 
-The face failure gives
+The Part/Field failure gives
 
 ```math
 Exit(Q):=\neg Member(Q).

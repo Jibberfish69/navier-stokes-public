@@ -73,7 +73,7 @@ PositiveRemainderDepletion.A. On each localized pre-Cauchy source packet, the po
 1. Decompose the pre-Cauchy source into time derivative, drain, legal divergence/loss, and positive remainder.
 2. Use finite donor-balance telescoping for the derivative and legal losses.
 3. Reduce the positive remainder to source-weighted terminal angular depletion on the selected active packet.
-4. Keep this as positive Pack/source-supplier work; do not promote it directly into Pack, Part, or Field, and keep Member downstream of the CM witness certificate.
+4. Keep this as positive Pack/source-supplier work; do not promote it directly into Part or Field, and keep Member downstream of the CM witness certificate.
 5. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
 ## Circularity Audit

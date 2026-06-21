@@ -77,4 +77,4 @@ A Lorentz terminal amplitude exit is distribution-function concentration. Same-l
 
 ## Conclusion
 
-Every admissible Besov/Lorentz terminal critical exit lands in Pack, Part, or Field. The resulting face failure is passed through `ClayCMContrapositiveEmbedding.A`; the theorem supplies a classified CM class-exit witness on the same ledger.
+Every admissible Besov/Lorentz terminal critical exit lands in Part or Field. The resulting Part/Field failure is passed through `ClayCMContrapositiveEmbedding.A`; the theorem supplies a classified CM class-exit witness on the same ledger.

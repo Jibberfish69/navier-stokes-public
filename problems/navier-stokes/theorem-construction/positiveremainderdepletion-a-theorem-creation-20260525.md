@@ -47,7 +47,7 @@ PositiveRemainderDepletion.A. On each localized pre-Cauchy source packet, the po
 - drain
 - legal parent-edge loss
 - selected active packet
-- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for original participation law status, giving not Part_{N,Q} when same-solution participation remains and true not Pack_Q only when the participation record is absent. This is a CM face-reduction theorem, not a forward no-free-sink supplier discharge.
+- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for original participation law status, giving not Part_{N,Q} when same-solution participation remains and true not Pack_Q only when the participation record is absent. This is a CM Part/Field-reduction theorem, not a forward no-free-sink supplier discharge.
 - theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
 - ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail, and windowwise leakage ledgers sum to the Pack_Q scale-critical donor-refill Carleson bound; an unpaid infinite donor-refill tree is therefore a Pack-face exit witness.
 - - problems/navier-stokes/live-theorem-edge.yaml
@@ -74,7 +74,7 @@ PositiveRemainderDepletion.A. On each localized pre-Cauchy source packet, the po
 1. Decompose the pre-Cauchy source into time derivative, drain, legal divergence/loss, and positive remainder.
 2. Use finite donor-balance telescoping for the derivative and legal losses.
 3. Reduce the positive remainder to source-weighted terminal angular depletion on the selected active packet.
-4. Keep this as positive Pack/source-supplier work; do not promote it directly into Pack, Part, or Field, and keep Member downstream of the CM witness certificate.
+4. Keep this as positive Pack/source-supplier work; do not promote it directly into Part or Field, and keep Member downstream of the CM witness certificate.
 5. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 6. Use problems/navier-stokes/agent-contract.yaml:175 as source support for installed dynamic support.
 

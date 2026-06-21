@@ -14,7 +14,7 @@ notes still preserve two different authority stories:
 - older export-scope surfaces say the final theorem remains periodic unless a
   separate `R^3` export/localization theorem is installed;
 - the June 8 exterior-tail CM endpoint note says the surviving whole-space
-  exterior source is consumed by Pack, Part, or Field, so the direct positive
+  exterior source is consumed by Part or Field, so the direct positive
   `Tail.Hs_R3` theorem is not required for the CM branch.
 
 This is not a wording-only defect. A CMI referee needs one governing authority
@@ -98,7 +98,7 @@ The authority chain now has this shape:
    that a dyadic survivor with retained Pack and Part cannot retain a fixed
    positive Field scale.
 4. `mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md` consumes the
-   resulting branch into Pack, Part, or Field and leaves direct `Tail.Hs_R3`
+   resulting branch into Part or Field and leaves direct `Tail.Hs_R3`
    as a stronger optional positive theorem.
 
 The manuscript synchronization and fresh rendered reread for

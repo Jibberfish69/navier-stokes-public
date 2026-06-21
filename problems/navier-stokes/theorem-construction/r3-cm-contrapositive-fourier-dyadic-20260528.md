@@ -2,7 +2,7 @@
 
 Date: 2026-05-28
 
-Status: discharged as a route-local CM face-classification theorem.
+Status: discharged as a route-local CM Part/Field-classification theorem.
 
 ## Target
 
@@ -48,11 +48,11 @@ Assume Pack_Q and Part_{N,Q} survive. The remaining Fourier/dyadic terminal wall
 
 If some Field_{N,rho,Q} survives, the dyadic route has coherent neighboring-scale control and the terminal packet supplies the route readout. The alleged dyadic terminal wall disappears.
 
-Therefore every Fourier/dyadic terminal wall lands in Pack, Part, or Field.
+Therefore every Fourier/dyadic terminal wall lands in Part or Field.
 
 ## CM consequence
 
-The face failure gives
+The Part/Field failure gives
 
 ```math
 Exit(Q):=\neg Member(Q).

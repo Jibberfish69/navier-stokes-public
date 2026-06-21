@@ -2,7 +2,7 @@
 
 Date: 2026-05-28
 
-Status: discharged as a route-local CM face-classification theorem.
+Status: discharged as a route-local CM Part/Field-classification theorem.
 
 ## Target
 
@@ -46,11 +46,11 @@ Assume Pack_Q and Part_{N,Q} survive. A persistent CKN wall says that every term
 
 If some Field_{N,rho,Q} survives, it supplies a positive-scale coherent local cylinder with the required epsilon smallness/readout. The epsilon-regularity theorem gives local smoothness on the terminal cylinder, contradicting the bad-cylinder wall.
 
-Therefore the CKN/epsilon terminal wall lands in Pack, Part, or Field.
+Therefore the CKN/epsilon terminal wall lands in Part or Field.
 
 ## CM consequence
 
-The face failure gives
+The Part/Field failure gives
 
 ```math
 Exit(Q):=\neg Member(Q).
