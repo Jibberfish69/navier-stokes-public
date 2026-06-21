@@ -2,7 +2,7 @@
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
 status: consolidated-frontier-installed-strict-cycle-payment-or-rigidity-open
 logical_landing_node: upgraded_four_body_current_frontier
-edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, and the gauge-quotient tower carrier drain-production criterion. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The remaining gold theorem is the native identification bridge: the positive pre-Cauchy/source selector must become that quotient tower carrier, or one of the named four-body defects must be charged."
+edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, and the native pre-Cauchy-to-quotient-tower bridge test. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. The remaining gold theorem is therefore a precise same-carrier supplement: finite-order amplitude/Field control, critical-density budget, source-square/no-waste control, signed polar saturation, rigid source-residue production, or legal/charged pre-Cauchy remainder reduction."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-factorial-tower-radius-spend-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-participation-exchange-normal-form-20260621.md
@@ -19,6 +19,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-bodyi-geometry-tower-recertification-interface-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lossless-four-body-cycle-rigidity-viscous-core-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-gauge-quotient-tower-carrier-drain-production-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-precauchy-to-gauge-quotient-tower-bridge-test-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -788,3 +789,56 @@ The remaining native bridge is now narrower:
 up to the already named cutoff, pressure/gauge, selector, compactness, geometry,
 transport, commutator, or legal defects.  This is the current production edge
 inside the full four-body loop.
+
+The direct native bridge has also been tested.  The main native carrier is not
+quadratic.  It is the trilinear selected strain/source product
+
+```math
+\left[\mathcal R_P^{main}\right]_+
+=
+\chi_P |w_{j_P}|^2
+\left[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}\right]_+.
+\tag{4BF.36}
+```
+
+Under amplitude scaling \(w\mapsto Aw\), \(S\mapsto AS\), this source scales
+like \(A^3\), while the quadratic tower/parabolic drain scales like \(A^2\).
+Therefore there is no amplitude-free estimate
+
+```math
+\left[\mathcal R_P^{main}\right]_+
+\le
+C\,D_Q^w
++\text{legal}
+\tag{4BF.37}
+```
+
+from the quadratic drain alone.
+
+Thus the exact remaining same-carrier supplement is one of:
+
+```math
+\boxed{
+\text{finite-order amplitude/Field control;}
+\quad
+\text{critical-density budget;}
+\quad
+\text{source-square/no-waste control;}
+}
+\tag{4BF.38}
+```
+
+```math
+\boxed{
+\text{signed polar saturation;}
+\quad
+\text{rigid source-residue production;}
+\quad
+\text{or legal/charged pre-Cauchy remainder reduction.}
+}
+\tag{4BF.39}
+```
+
+This is the current unflattened frontier: the four-body loop pays quotient
+tower activity exactly, and the native cubic source selector must be converted
+to that paid currency by one of the precise same-carrier supplements above.
