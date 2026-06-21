@@ -66,7 +66,7 @@ chunk:
 
       The point is not to prove * sing =0. The point is to prove that, if this residue exists as part of a finite-failure scenario, it cannot be a legal CM survivor.
 
-      This covers the zero-radius terminal source atom and unpaid donor-refill ancestry. The proof stops at the Pack face.
+      This covers the zero-radius terminal source atom and unpaid donor-refill ancestry. The proof stops at the Field-window evidence.
 
       \[
       Pack_Q.
@@ -421,7 +421,7 @@ chunk:
     point is not to prove * sing =0. The point is to prove that, if this residue exists
     as part of a finite-failure scenario, it cannot be a legal CM survivor.\n\nThis
     covers the zero-radius terminal source atom and unpaid donor-refill ancestry.
-    The proof stops at the Pack face.\n\n\\[\nPack_Q.\n\\]\n\n\\[\nPack_Q\\wedge Part_{N,Q}.\n\\]\n\n\\[\n\\mu_*^{sing}\\perp\\rho_*^{inst},\n\\qquad\n\\mu_*^{sing}\\ne0.\n\\]\n\nThus
+    The proof stops at the Field-window evidence.\n\n\\[\nPack_Q.\n\\]\n\n\\[\nPack_Q\\wedge Part_{N,Q}.\n\\]\n\n\\[\n\\mu_*^{sing}\\perp\\rho_*^{inst},\n\\qquad\n\\mu_*^{sing}\\ne0.\n\\]\n\nThus
     it is not a lawful retained source/forcing term inside Part N,Q . It is the failure
     of participation, not a later failure of one-field coherence.\n\nSo Positive Remainder
     Depletion.A, Native SourceAC.A, Native Trilinear Defect Domination.A, and Source
@@ -588,7 +588,7 @@ chunk:
     proof must so supply terminal temporal anti-concentration by a genuinely new mechanism.\n\n\n"
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

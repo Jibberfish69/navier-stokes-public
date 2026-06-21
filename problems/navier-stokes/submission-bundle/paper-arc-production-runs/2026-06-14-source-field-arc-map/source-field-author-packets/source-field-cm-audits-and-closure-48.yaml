@@ -69,7 +69,7 @@ chunk:
 
       The nonparticipation surface projects class-membership failure onto the participation witness and rigid literal-deadness branches. It preserves the participation carrier \(P_N+\mathcal Q_N\), literal deadness, and material-tube transport semantics while leaving blown/jump branches and selector geometry to their own rows. It is a constitutive rigidity reduction, not a local zero-velocity theorem.
 
-      The interface surface connects the branch-blind CM packet to a branch-sensitive readout packet. The CM carrier enters through \(E_J^{cm}\) and exported error records, while the branch read
+      The interface surface connects the branch-blind CM participation-field to a branch-sensitive readout packet. The CM carrier enters through \(E_J^{cm}\) and exported error records, while the branch read
       % ... source excerpt truncated for packet size ...
     truncated: true
   - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
@@ -148,7 +148,7 @@ chunk:
       This is not an installed discharge. It records the sharp epsilon-rigidity route for the true localized lifted commutator before absolute values are introduced.
 
       The contrapositive proof program still requires terminal class-exit through
-      Pack, Part, and Field.  The argument below attacks the downstream
+      Part and Field.  The argument below attacks the downstream
       source-normalization slot used by the averaged Jump route.
 
       \[
@@ -399,7 +399,7 @@ chunk:
 
     The nonparticipation surface projects class-membership failure onto the participation witness and rigid literal-deadness branches. It preserves the participation carrier \(P_N+\mathcal Q_N\), literal deadness, and material-tube transport semantics while leaving blown/jump branches and selector geometry to their own rows. It is a constitutive rigidity reduction, not a local zero-velocity theorem.
 
-    The interface surface connects the branch-blind CM packet to a branch-sensitive readout packet. The CM carrier enters through \(E_J^{cm}\) and exported error records, while the branch readout remains separate until \(R_J^{branch}\) supplies the concrete branch geometry. Treating \(W_J+E_J^{cm}\) as already manufacturing the readout would smuggle geometry out of the wrong fluid.
+    The interface surface connects the branch-blind CM participation-field to a branch-sensitive readout packet. The CM carrier enters through \(E_J^{cm}\) and exported error records, while the branch readout remains separate until \(R_J^{branch}\) supplies the concrete branch geometry. Treating \(W_J+E_J^{cm}\) as already manufacturing the readout would smuggle geometry out of the wrong fluid.
 
     The exact-potential/projective surface is the branch-specific theorem that precipitates a projective readout from the CM carrier on a transported good family. Packing, coherence, and participation survive as CM-paid records into the projective branch, while direct whole-fluid semantics stop once the argument projects into branch projectors. Without this precipitating theorem, the projective branch would incorrectly look as if projector geometry were primitive.
 
@@ -474,7 +474,7 @@ chunk:
     This is not an installed discharge. It records the sharp epsilon-rigidity route for the true localized lifted commutator before absolute values are introduced.
 
     The contrapositive proof program still requires terminal class-exit through
-    Pack, Part, and Field.  The argument below attacks the downstream
+    Part and Field.  The argument below attacks the downstream
     source-normalization slot used by the averaged Jump route.
 
     \[
@@ -622,7 +622,7 @@ chunk:
 
     This is the first gate inside Terminal Leray Paraproduct Coefficient Identification.A.
 
-    It asks for a theorem that the backward heat-Leray response covector is anchored to the same retained native high-low source edge, unless the work has already left through Pack/Part/legal or selected Pack-side/source-wall failure.
+    It asks for a theorem that the backward heat-Leray response covector is anchored to the same retained native high-low source edge, unless the work has already left through Part/legal or selected Pack-side/source-wall failure.
 
 
 
@@ -671,7 +671,7 @@ chunk:
     % ... source excerpt truncated for packet size ...
   context_truncated: true
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

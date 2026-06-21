@@ -140,7 +140,7 @@ chunk:
 
       The one-sided terminal L 3 weight does not create a new commutator channel. After packet stopping it is a bounded nonnegative scalar on each selected packet, and its variation is another cutoff/collar derivative. Thus it is paid by the same legal record.
 
-      Consequently, if R comm L3 carries a fixed part of the lower bound beyond the legal budget, the branch has by definition paid Pack/Part/legal exit or selected Pack-side/source-wall failure. On the retained branch with those alternatives removed,
+      Consequently, if R comm L3 carries a fixed part of the lower bound beyond the legal budget, the branch has by definition paid Part/legal exit or selected Pack-side/source-wall failure. On the retained branch with those alternatives removed,
 
       \[
       R^{comm}_{L3}=o(1).
@@ -207,7 +207,7 @@ chunk:
       }
       \]
 
-      It asks that the signed high partner needed for the native high-low contraction remain on the retained same-witness packet after one-sided terminal selection, unless the work has already exited through selected Pack-side/source-wall failure or paid Pack/Part/legal leakage.
+      It asks that the signed high partner needed for the native high-low contraction remain on the retained same-witness packet after one-sided terminal selection, unless the work has already exited through selected Pack-side/source-wall failure or paid Part/legal leakage.
 
       \[
       -\int (w_j\otimes \widetilde w_j):\nabla S^{loc}_{<j}u.
@@ -231,7 +231,7 @@ chunk:
       -\int (w_j\otimes\delta_j):\nabla S^{loc}_{<j}u.
       \]
 
-      If j is off-family, cutoff-generated, pressure-generated, or projection-generated, it is paid Pack/Part/legal exit. If it is high-high or donor- refill, it is selected Pack-side/source-wall failure. The only unclassified possibility is a retained same-family signed partner defect that has no independent legal charge but still carries fixed lower bound.
+      If j is off-family, cutoff-generated, pressure-generated, or projection-generated, it is paid Part/legal exit. If it is high-high or donor- refill, it is selected Pack-side/source-wall failure. The only unclassified possibility is a retained same-family signed partner defect that has no independent legal charge but still carries fixed lower bound.
 
       Terminal Leray Saturation L3.A is not closed by the anchoring and commutator proofs alone. The exact remaining gate is
 
@@ -533,7 +533,7 @@ chunk:
 
     The one-sided terminal L 3 weight does not create a new commutator channel. After packet stopping it is a bounded nonnegative scalar on each selected packet, and its variation is another cutoff/collar derivative. Thus it is paid by the same legal record.
 
-    Consequently, if R comm L3 carries a fixed part of the lower bound beyond the legal budget, the branch has by definition paid Pack/Part/legal exit or selected Pack-side/source-wall failure. On the retained branch with those alternatives removed,
+    Consequently, if R comm L3 carries a fixed part of the lower bound beyond the legal budget, the branch has by definition paid Part/legal exit or selected Pack-side/source-wall failure. On the retained branch with those alternatives removed,
 
     \[
     R^{comm}_{L3}=o(1).
@@ -577,7 +577,7 @@ chunk:
     }
     \]
 
-    It asks that the signed high partner needed for the native high-low contraction remain on the retained same-witness packet after one-sided terminal selection, unless the work has already exited through selected Pack-side/source-wall failure or paid Pack/Part/legal leakage.
+    It asks that the signed high partner needed for the native high-low contraction remain on the retained same-witness packet after one-sided terminal selection, unless the work has already exited through selected Pack-side/source-wall failure or paid Part/legal leakage.
 
     \[
     -\int (w_j\otimes \widetilde w_j):\nabla S^{loc}_{<j}u.
@@ -601,7 +601,7 @@ chunk:
     -\int (w_j\otimes\delta_j):\nabla S^{loc}_{<j}u.
     \]
 
-    If j is off-family, cutoff-generated, pressure-generated, or projection-generated, it is paid Pack/Part/legal exit. If it is high-high or donor- refill, it is selected Pack-side/source-wall failure. The only unclassified possibility is a retained same-family signed partner defect that has no independent legal charge but still carries fixed lower bound.
+    If j is off-family, cutoff-generated, pressure-generated, or projection-generated, it is paid Part/legal exit. If it is high-high or donor- refill, it is selected Pack-side/source-wall failure. The only unclassified possibility is a retained same-family signed partner defect that has no independent legal charge but still carries fixed lower bound.
 
     Terminal Leray Saturation L3.A is not closed by the anchoring and commutator proofs alone. The exact remaining gate is
 
@@ -773,7 +773,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
