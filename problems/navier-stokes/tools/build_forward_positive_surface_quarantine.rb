@@ -244,7 +244,7 @@ def quarantine_entry(path)
     "legacy_demotion_classes" => support_classes,
     "cm_authority" => "no-proof-authority",
     "proof_force" => "none_without_exact_cm_bridge",
-    "promotion_allowed_only_by" => "explicit bridge-license landing in Silver Pack_Q, Part_{N,Q}, or Field_{N,r,Q} after Pack admission, or the pre-Pack original-participation audit audit, after target-lock selects the CM contrapositive program",
+    "promotion_allowed_only_by" => "explicit bridge-license landing in Silver Pack_Q, Part_{N,Q}, or Field_{N,r,Q} after Pack admission, or the pre-Pack original-participation audit, after target-lock selects the CM contrapositive program",
     "forbidden_as_cm_substitute" => true
   }
 end
@@ -291,7 +291,7 @@ payload = {
       "count as publication or release readiness",
       "turn a bad source/residue object into a deletion burden when it is already a lawful class-exit witness"
     ],
-    "promotion_gate" => "Only a named bridge-license theorem that lands the exact result in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit audit can promote an indexed surface for CM use.",
+    "promotion_gate" => "Only a named bridge-license theorem that lands the exact result in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the pre-Pack original-participation audit can promote an indexed surface for CM use.",
     "positive_program_boundary" => "When the user explicitly switches to a positive smoothness, positive supplier, fixed-nu transfer, or Euler comparison program, these surfaces may be read inside that separate program only."
   },
   "entries" => entries

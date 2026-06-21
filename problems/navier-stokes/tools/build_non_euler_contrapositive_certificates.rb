@@ -23,7 +23,7 @@ EXIT_RULES = {
   "typed_subset_landing" => {
     "contrapositive_status" => "proved_cm_exit",
     "proof_rule" => "finite_face_disjunction",
-    "statement_template" => "The surface's selected failure lies in its declared finite subset of Pack/Part/Field/Zeno channels. After the Pack-before-Part audit, any Zeno or zero-heat-time source-residue branch is Part-first when the same original-NS pointwise participation record remains, true not Pack_Q only when that record/carrier/readout is absent, and Field only after a retained positive-window readout is separately licensed."
+    "statement_template" => "The surface's selected failure lies in its declared finite subset of Pack/Part/Field/Zeno channels. After the Pack-before-Part audit, any Zeno or zero-heat-time source-residue branch is Part-side when the same original-NS participation record remains, true not Pack_Q only when that record/carrier/readout is absent, and Field only after a retained positive-window readout is separately licensed."
   },
   "support_quarantine" => {
     "contrapositive_status" => "proved_unlicensed_for_cm_contrapositive",
