@@ -8,6 +8,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-no-loss-relay-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-packet-selector-polar-retention-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-canonical-selected-carrier-identification-criterion-20260621.md
 ---
 
 # Selected Carrier Measure Persistence Production Criterion
@@ -38,6 +39,10 @@ This note proves a concrete measure-level criterion that gives `(SCM.1)`.
 The later tightness-defect note removes the need to treat failed tightness as
 an invisible hypothesis: escaped selected carrier mass is added to the
 Body-III positive no-loss defect \(K_C^+\).
+The canonical-identification note then proves the interior clause: on a fixed
+retained selected carrier, \(L^1\) convergence of the full participation
+density \(h_n\) to the canonical limiting density \(h[U,P]\) gives total
+variation convergence of the positive carrier measures.
 
 The core point is simple:
 
@@ -390,6 +395,23 @@ of the limiting Navier-Stokes profile up to }K_C^+.
 }
 \tag{SCM.27}
 ```
+
+That clause is now an exact density-identification criterion:
+
+```math
+\boxed{
+\sum_{P\in\mathcal S}
+\|h_{n,P}-h_P[U,\Pi]\|_{L^1(K\times P)}
+\to0
+\Longrightarrow
+\|\mu_n^A-\mu^A[U,\Pi]\|_{\rm TV}\to0.
+}
+\tag{SCM.28}
+```
+
+The still-open Navier-Stokes production content is the strong convergence of
+the coupled velocity-pressure-viscosity-incompressibility tower products that
+produce this \(L^1\) density convergence.
 
 When these two compactness clauses hold, selected positive activity persistence is
 installed, and the compactness-rigidity coercivity principle can use the
