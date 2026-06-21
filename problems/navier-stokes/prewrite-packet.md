@@ -19,7 +19,7 @@
   `handoff:` Entry makes Silver Pack/Part/Field plus the pre-Pack original-participation audit the next typed failure analysis.
 - `claim:` After Pack admission, the finite failure type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; before Pack admission, a not-Pack candidate first tests the original NS participation law.
   `warrant:` Live authority names `ClayFiniteFailureTypeCMExhaustion.A` together with `PackBeforePartDependencyResurfacing.A`.
-  `handoff:` The exhausted face failure or Part-first resurfaced failure supports the class-exit conclusion.
+  `handoff:` The exhausted face failure or original-participation-audited failure supports the class-exit conclusion.
 - `claim:` The derived typed failure embeds as `Exit(Q):=not Member(Q)` inside the CM contrapositive program.
   `warrant:` Live authority names `ClayCMContrapositiveEmbedding.A`; the submission surface states that the pass branch remains the lawful smooth continuation branch.
   `handoff:` This is the manuscript opening and the safe claim boundary.
@@ -67,7 +67,7 @@
   `countermove:` Keep it quarantined unless the sentence names a checked Silver Pack/Part/Field landing or the pre-Pack original-participation audit.
 
 ## Draft Acceptance Test
-- `pass_if:` the packet and draft open from the CM contrapositive class-exit program, name Silver Pack/Part/Field witness-face exhaustion after Pack admission, resurface pre-Pack not-Pack candidates under pointwise Part, and treat periodic / `Q(t)` material only as non-opening support
+- `pass_if:` the packet and draft open from the CM contrapositive class-exit program, name Silver Pack/Part/Field witness-face exhaustion after Pack admission, resurface pre-Pack not-Pack candidates under the original participation law, and treat periodic / `Q(t)` material only as non-opening support
 - `fail_if:` the draft opens with torus-first periodic scope, `Q(t)`, scale-barrier / compactness / heat-continuation bridge prose, or any wording that replaces `Exit(Q):=not Member(Q)` with the older periodic story
 
 <!-- generated_at: 2026-06-08T06:16:19Z -->
