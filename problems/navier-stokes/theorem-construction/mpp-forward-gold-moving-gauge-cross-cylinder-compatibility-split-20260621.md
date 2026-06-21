@@ -200,76 +200,99 @@ A_{j+1}(1)=\mu_j(\widetilde Q_j)
 
 not by \(\mu_j(Q_{\lambda_j})\) in general.
 
-## 4. Off-core drift is visible
+## 4. Moving-center drift creates a translation-collar defect
 
-Fix \(0<\varepsilon<1\). If
+The fixed-chain no-share lemma compares consecutive centered cores:
 
 \[
-|b_j|-\lambda_j\ge\varepsilon
+\widehat Q_j
+:=
+B_{\lambda_j}(0)\times[-\lambda_j^2,0].
 \tag{MGC.14}
 \]
 
-then the whole child spatial ball lies outside \(B_\varepsilon(0)\). Hence any
-positive selected child carrier becomes parent-frame mass in
+The moving-gauge child is instead
 
 \[
-(B_1\setminus B_\varepsilon)\times[-\lambda_j^2,0],
+\widetilde Q_j
+=
+B_{\lambda_j}(b_j)\times[-\lambda_j^2,0].
 \tag{MGC.15}
 \]
 
-provided the parent cutoff contains the child ball.
-
-If instead
+The exact defect between the moving-gauge child and the centered child is the
+symmetric difference
 
 \[
-|b_j|-\lambda_j<\varepsilon<|b_j|+\lambda_j,
+\Delta_j^{gauge}
+:=
+\widetilde Q_j\triangle\widehat Q_j.
 \tag{MGC.16}
 \]
 
-then the child ball crosses the fixed collar around \(\partial B_\varepsilon\).
-The mass is not hidden in the centered nested core; it is collar-visible.
-
-Thus an infinite moving-center branch that remains genuinely off the centered
-core cannot be classified as fixed-chain no-annular-share. It must be routed to
-an annular/collar/source/legal ledger, a CM consumer after same-witness
-admission, or a separate profile-switching theorem.
-
-## 5. Core-following drift is exactly the no-drift branch
-
-To stay invisible to every fixed parent annulus, the moving centers must satisfy
+For a same-carrier measure \(\mu_j\),
 
 \[
-|b_j|+\lambda_j\to0
+\left|
+\mu_j(\widetilde Q_j)-\mu_j(\widehat Q_j)
+\right|
+\le
+\mu_j(\Delta_j^{gauge}).
 \tag{MGC.17}
 \]
 
-in the parent frame along the hidden tail. This is the core-following regime.
-In that regime, the moving-gauge child cylinders do approach the terminal core
-in the parent coordinates.
+Thus moving-center drift is harmless for the fixed-chain telescope only after
+one proves
 
-But `(MGC.17)` does not imply a unique tangent. The normalized child coordinates
-can still carry nontrivial relative modulation through
+\[
+\sum_j\mu_j(\Delta_j^{gauge})<\infty
+\quad\text{or at least}\quad
+\mu_j(\Delta_j^{gauge})\to0
+\text{ on the retained tail.}
+\tag{MGC.18}
+\]
+
+Without such a payment, the drift has not disappeared. It is a visible
+translation-collar or gauge-motion defect: the selected child carrier is being
+measured in a different subcylinder from the centered one used by the annular
+telescope.
+
+For large shifts, this defect is parent-annular or collar mass. For small shifts,
+it is still a same-carrier gauge-transport defect unless the selected carrier is
+stable under the shift.
+
+## 5. Paid gauge drift returns to the no-drift branch
+
+If the gauge defect is paid, `(MGC.17)` lets the fixed-chain analysis replace
+\(\widetilde Q_j\) by \(\widehat Q_j\) modulo legal errors. Then the annular-share
+and nested-core reductions apply.
+
+If the gauge defect is not paid, the branch is not a hidden fixed-core
+recurrence. It is a selected-carrier drift defect.
+
+The remaining hidden moving-gauge branch is therefore the case where the defect
+is paid but the normalized gauges still fail to settle. The parameters are
 
 \[
 {b_j\over\lambda_j},
 \qquad
 A_j,
-\tag{MGC.18}
+\tag{MGC.19}
 \]
 
-or through changes of selected carrier chart. Bounded subsequences of these
-parameters may be extracted, but uniqueness, no profile switching, and
-renormalized stationarity are not consequences of compactness alone.
+along with the selected carrier chart. Bounded subsequences of these parameters
+may be extracted, but uniqueness, no profile switching, and renormalized
+stationarity are not consequences of the covariance identity alone.
 
 So the hidden moving-gauge branch has the precise remaining burden:
 
 \[
 \boxed{
-\text{core-following moving-gauge recurrence}
+\text{paid moving-gauge recurrence}
 \Longrightarrow
 \text{ZenoNoDriftUniqueTangent.A or MinimalZenoProfileProduction.A.}
 }
-\tag{MGC.19}
+\tag{MGC.20}
 \]
 
 ## 6. Corrected branch map
