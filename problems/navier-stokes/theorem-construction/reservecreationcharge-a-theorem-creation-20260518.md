@@ -32,9 +32,9 @@ ReserveCreationCharge.A. For every admissible terminal heat window W and scale N
 
 ### Retrieved Ingredients
 
-- problems/navier-stokes/agent-contract.yaml:55 -- Pack/Part bridge support
+- problems/navier-stokes/agent-contract.yaml:55 -- Part/Field bridge support
 - problems/navier-stokes/agent-contract.yaml:53 -- source ingredient
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
 - problems/navier-stokes/agent-contract.yaml:144 -- installed dynamic support
 - problems/navier-stokes/agent-contract.yaml:100 -- source ingredient
 - problems/navier-stokes/agent-contract.yaml:56 -- source ingredient
@@ -80,20 +80,20 @@ ReserveCreationCharge.A. For every admissible terminal heat window W and scale N
 1. Split W by first-appearance time.
 2. Separate inherited parent reserve from normalized child residual.
 3. Price the non-inherited part by a charge ledger.
-4. Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
-5. Use problems/navier-stokes/agent-contract.yaml:60 as source support for Pack/Part bridge support.
+4. Use problems/navier-stokes/theorem-packet.yaml as source support for Part/Field bridge support.
+5. Use problems/navier-stokes/agent-contract.yaml:60 as source support for Part/Field bridge support.
 6. Recursive solver step for TerminalReserveFirstAppearanceCharge.A: Define the first scale-time at which the square reserve becomes visible on W.
 7. Recursive solver step for TerminalReserveFirstAppearanceCharge.A: Split the reserve birth into inherited parent mass and genuinely new child residual.
 8. Recursive solver step for TerminalReserveFirstAppearanceCharge.A: Map genuinely new residual birth into Charge_N(W) using the weighted adjoint residual control.
 9. Recursive solver step for TerminalReserveFirstAppearanceCharge.A: Prove that uncharged birth would create a forbidden zero-cost packet creation event.
-10. Recursive solver step for TerminalReserveFirstAppearanceCharge.A: Use problems/navier-stokes/agent-contract.yaml:55 as source support for Pack/Part bridge support.
+10. Recursive solver step for TerminalReserveFirstAppearanceCharge.A: Use problems/navier-stokes/agent-contract.yaml:55 as source support for Part/Field bridge support.
 11. Recursive solver step for TerminalReserveFirstAppearanceCharge.A: Use problems/navier-stokes/agent-contract.yaml:53 as source support for source ingredient.
 12. Recursive solver step for ChargeLedgerInjection.A: Assume a genuinely new terminal reserve birth has no Charge_N ledger injection.
 13. Recursive solver step for ChargeLedgerInjection.A: Use first-birth minimality to remove inherited Past(W) mass.
 14. Recursive solver step for ChargeLedgerInjection.A: Pair the remaining child residual with WeightedAdjRes.A.
 15. Recursive solver step for ChargeLedgerInjection.A: Contradict the existence of positive reserve birth outside Charge_N plus declared loss.
-16. Recursive solver step for ChargeLedgerInjection.A: Use problems/navier-stokes/agent-contract.yaml:55 as source support for Pack/Part bridge support.
-17. Recursive solver step for ChargeLedgerInjection.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
+16. Recursive solver step for ChargeLedgerInjection.A: Use problems/navier-stokes/agent-contract.yaml:55 as source support for Part/Field bridge support.
+17. Recursive solver step for ChargeLedgerInjection.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Part/Field bridge support.
 
 ## Circularity Audit
 

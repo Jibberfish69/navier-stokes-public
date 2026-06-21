@@ -81,7 +81,7 @@ Without the readout bridge `(BKM.1)` or `(BKM.2)`, retained Field is only a
 candidate BKM-facing bridge and the Field-face conclusion below is not yet
 proved by this note.
 
-Therefore, on the retained Pack+Part branch,
+Therefore, on the retained Part plus Field-window evidence branch,
 
 ```math
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).

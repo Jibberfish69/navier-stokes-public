@@ -50,7 +50,7 @@ SameLedgerHeatAncestorLocalization.A
 RetainedPackPartCriticalL3FieldExit.A.
 ```
 
-Thus same-ledger terminal L3 concentration on the retained Pack+Part branch produces native source residue or source-wall failure that lands in the Field face:
+Thus same-ledger terminal L3 concentration on the retained Part plus Field-window evidence branch produces native source residue or source-wall failure that lands in the Field face:
 
 ```math
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).

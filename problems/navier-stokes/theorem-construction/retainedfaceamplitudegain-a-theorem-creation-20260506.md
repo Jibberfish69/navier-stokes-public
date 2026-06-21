@@ -4,7 +4,7 @@
 
 - target obligation: RetainedFaceAmplitudeGain.A
 - target label: RetainedFaceAmplitudeGain.A / TerminalAmplitudeGain.A scale-critical amplitude cap under retained Pack_Q and Part_{N,Q}
-- route role: Bridge retained field-face amplitude into the Pack/Part route by proving every retained face gain is recorded in a Pack_Q ledger before any Member(Q) conclusion is spent.
+- route role: Bridge retained field-face amplitude into the Part/Field route by proving every retained face gain is recorded in a Pack_Q ledger before any Member(Q) conclusion is spent.
 - theorem family: retained-face-amplitude-gain
 
 ## Created Theorem
@@ -19,7 +19,7 @@ RetainedFaceAmplitudeGain.A. Any retained field-face amplitude gain admissible f
 - selected_mechanism: retained_face_pack_gain_ledger
 - candidate_count: 6
 - solver_chain_verdict: closed
-- selection_reason: This theorem is the right next move because it changes the proof economy: Bridge retained field-face amplitude into the Pack/Part route by proving every retained face gain is recorded in a Pack_Q ledger before any Member(Q) conclusion is spent. It is source-backed by 7 local ingredient(s). It deliberately reduces the remaining work to PackGainLedger.A rather than pretending the frontier is closed. The internal solver also discharged the residual chain through RetainedFaceAmplitudeGain.A -> PackGainLedger.A -> PartEnvelopeAmplitudeConservation.A -> PartBoundaryLeakageCharge.A.
+- selection_reason: This theorem is the right next move because it changes the proof economy: Bridge retained field-face amplitude into the Part/Field route by proving every retained face gain is recorded in a Pack_Q ledger before any Member(Q) conclusion is spent. It is source-backed by 7 local ingredient(s). It deliberately reduces the remaining work to PackGainLedger.A rather than pretending the frontier is closed. The internal solver also discharged the residual chain through RetainedFaceAmplitudeGain.A -> PackGainLedger.A -> PartEnvelopeAmplitudeConservation.A -> PartBoundaryLeakageCharge.A.
 
 ### Candidate Theorems
 
@@ -32,12 +32,12 @@ RetainedFaceAmplitudeGain.A. Any retained field-face amplitude gain admissible f
 
 ### Retrieved Ingredients
 
-- problems/navier-stokes/agent-contract.yaml:60 -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:123 -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:94 -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:55 -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:116 -- Pack/Part bridge support
+- problems/navier-stokes/agent-contract.yaml:60 -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:123 -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:94 -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:55 -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:116 -- Part/Field bridge support
 
 ### Recursive Solver Chain
 
@@ -84,25 +84,25 @@ RetainedFaceAmplitudeGain.A. Any retained field-face amplitude gain admissible f
 2. Project the retained event through Part_{N,Q} using the part envelope.
 3. Show positive retained amplitude gain either enters PackGainLedger.A or creates a forbidden exit witness.
 4. Keep Member(Q) and Field_{N,r,Q} out of the proof inputs until bridge-license audit passes.
-5. Use problems/navier-stokes/agent-contract.yaml:60 as source support for Pack/Part bridge support.
-6. Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
+5. Use problems/navier-stokes/agent-contract.yaml:60 as source support for Part/Field bridge support.
+6. Use problems/navier-stokes/theorem-packet.yaml as source support for Part/Field bridge support.
 7. Recursive solver step for PackGainLedger.A: Index retained face gain events in Pack_Q.
 8. Recursive solver step for PackGainLedger.A: Push each indexed gain through the Part_{N,Q} envelope.
 9. Recursive solver step for PackGainLedger.A: Bound envelope leakage by the declared part boundary terms.
 10. Recursive solver step for PackGainLedger.A: Return a ledger entry strong enough for dependency-discharge.
-11. Recursive solver step for PackGainLedger.A: Use problems/navier-stokes/agent-contract.yaml:60 as source support for Pack/Part bridge support.
-12. Recursive solver step for PackGainLedger.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
+11. Recursive solver step for PackGainLedger.A: Use problems/navier-stokes/agent-contract.yaml:60 as source support for Part/Field bridge support.
+12. Recursive solver step for PackGainLedger.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Part/Field bridge support.
 13. Recursive solver step for PartEnvelopeAmplitudeConservation.A: Define the incoming and outgoing retained amplitude across the Part envelope.
 14. Recursive solver step for PartEnvelopeAmplitudeConservation.A: Separate internal conservation from boundary leakage.
 15. Recursive solver step for PartEnvelopeAmplitudeConservation.A: Charge all leakage to the envelope boundary ledger.
-16. Recursive solver step for PartEnvelopeAmplitudeConservation.A: Use problems/navier-stokes/agent-contract.yaml:60 as source support for Pack/Part bridge support.
-17. Recursive solver step for PartEnvelopeAmplitudeConservation.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
+16. Recursive solver step for PartEnvelopeAmplitudeConservation.A: Use problems/navier-stokes/agent-contract.yaml:60 as source support for Part/Field bridge support.
+17. Recursive solver step for PartEnvelopeAmplitudeConservation.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Part/Field bridge support.
 18. Recursive solver step for PartBoundaryLeakageCharge.A: Assume retained Pack gain leaks through the Part envelope without boundary charge.
 19. Recursive solver step for PartBoundaryLeakageCharge.A: Localize the leakage to the first envelope boundary crossing.
 20. Recursive solver step for PartBoundaryLeakageCharge.A: Use the Part_{N,Q} envelope definition to price that crossing.
 21. Recursive solver step for PartBoundaryLeakageCharge.A: Contradict uncharged loss of retained amplitude.
-22. Recursive solver step for PartBoundaryLeakageCharge.A: Use problems/navier-stokes/agent-contract.yaml:60 as source support for Pack/Part bridge support.
-23. Recursive solver step for PartBoundaryLeakageCharge.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
+22. Recursive solver step for PartBoundaryLeakageCharge.A: Use problems/navier-stokes/agent-contract.yaml:60 as source support for Part/Field bridge support.
+23. Recursive solver step for PartBoundaryLeakageCharge.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Part/Field bridge support.
 
 ## Circularity Audit
 
