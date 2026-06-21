@@ -73,7 +73,7 @@ objects:
 2. terminal divergence of the common-collar stretching ledger.
 ```
 
-The first object is already a Pack-face exit classification in the CM
+The first object is already a Field-window evidence exit classification in the CM
 contrapositive witness tree. It is not a public-finality closure by itself.
 
 The second object is the live positive-scale branch. The material-collar route

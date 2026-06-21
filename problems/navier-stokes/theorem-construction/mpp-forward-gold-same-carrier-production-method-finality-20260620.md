@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-unweighted-terminal-critical-action-reserve-direct-exhaustion-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-minimal-counterexample-unweighted-reserve-direct-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-unweighted-reserve-six-supplier-exhaustion-20260620.md
-    - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-heat-scale-pulse-cm-pack-part-field-consumption-20260620.md
+    - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-heat-scale-pulse-cm-part-field-consumption-20260620.md
   downstream_consequence: "Do not respawn endpoint atom, first-created reserve, source-square, strict no-waste, critical-element, BKM/critical-norm, Onsager/Besov, signed-current, or donor-chain variants as independent forward-gold suppliers unless they introduce a genuinely new same-selected-carrier unweighted coercive object. The non-gold continuation is same-witness CM Part/Field consumption of the retained pulse."
 ---
 

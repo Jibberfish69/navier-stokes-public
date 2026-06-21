@@ -7,7 +7,7 @@ claim_boundary:
   logical_landing_node: LowHighTerminalSourceTimeAntiAtom.A
   claim_status: conditional_only
   edge_effect: "Refreshes the low-high terminal source-time branch after the cost dichotomy, limit-of-class artifact theorem, and Pack-Part/Field landing theorem. Uniform super-L1 residence kills the atom. A surviving atom is an infinite-cost endpoint boundary artifact and can land as not Pack_Q when no positive-scale carrier bridge exists. Neither branch supplies a forward no-free-sink theorem from original smooth data."
-  downstream_consequence: "The low-high molecule branch no longer needs another raw terminal anti-atom relabel. It needs original-data production of the super-L1/source-Carleson residence budget, a participation/donor-drain theorem, a positive-scale retained-carrier bridge, or acceptance of the branch as CM Pack-face support rather than forward-gold closure."
+  downstream_consequence: "The low-high molecule branch no longer needs another raw terminal anti-atom relabel. It needs original-data production of the super-L1/source-Carleson residence budget, a participation/donor-drain theorem, a positive-scale retained-carrier bridge, or acceptance of the branch as CM Field-window evidence support rather than forward-gold closure."
 evidence_refs:
   - problems/navier-stokes/theorem-construction/mpp-lowhigh-terminal-source-cost-dichotomy-20260610.md
   - problems/navier-stokes/theorem-construction/mpp-lowhigh-limit-of-class-terminal-artifact-20260610.md

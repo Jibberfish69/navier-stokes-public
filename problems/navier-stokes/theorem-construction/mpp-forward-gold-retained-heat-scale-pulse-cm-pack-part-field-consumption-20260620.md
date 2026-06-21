@@ -130,7 +130,7 @@ artifacts are removed.
 
 Once `(RHP.9)` is available, the terminal object has only the CM service
 questions, with the Pack-out-of-CM boundary correction audit applied to singular or
-outside-CM packet/window objects:
+outside-CM participation-field/window objects:
 
 ```math
 Pack_Q,
@@ -143,7 +143,7 @@ Field_{N,r,Q}.
 
 The pulse must therefore be consumed by the first licensed service it breaks.
 
-## 3. Pack face: no retained positive same-fluid carrier
+## 3. Field-window evidence: no retained positive same-fluid carrier
 
 If the retained heat-scale pulse has no positive same-fluid terminal carrier
 and no meaningful same-solution original participation record remains, then

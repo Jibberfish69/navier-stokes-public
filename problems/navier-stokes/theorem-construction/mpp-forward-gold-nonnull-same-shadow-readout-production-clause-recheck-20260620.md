@@ -92,7 +92,7 @@ This is a normal-form theorem, not a Navier--Stokes supplier.
 The CM consumer is paid after same-witness admission.  If the retained positive
 carrier is admitted as the same terminal Clay witness, then absence of the
 selected carrier gives a Pack Part/Field failure, failure of same-solution
-participation gives a Part Part/Field failure, and retained Pack plus Part with a
+participation gives a Part Part/Field failure, and retained Field-window evidence plus Part with a
 positive high-frequency carrier contradicts any positive high-regularity Field
 certificate.
 

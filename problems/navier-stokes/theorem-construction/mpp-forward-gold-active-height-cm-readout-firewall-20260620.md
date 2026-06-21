@@ -129,14 +129,14 @@ It implies only that the retained obstruction has become visibly high-field.
 Once the terminal object is admitted to the same-solution CM tree, the logic is
 different.
 
-If Pack fails, the branch lands at the Pack face:
+If Pack fails, the branch lands at the Field-window evidence:
 
 ```math
 \neg Pack_Q.
 \tag{AHF.12}
 ```
 
-If Pack survives and Part fails, it lands at the participation face:
+If Field-window evidence is present and Part fails, it lands at the participation face:
 
 ```math
 Pack_Q\wedge\neg Part_{N,Q}.

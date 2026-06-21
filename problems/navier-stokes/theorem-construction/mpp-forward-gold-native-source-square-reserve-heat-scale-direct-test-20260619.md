@@ -397,7 +397,7 @@ Thus the dynamic route reduces to the same missing theorem:
 
 or equivalently global active height `(NSS.18)`, selected-height plus the
 log-tail throttle `(NSS.17)`, an inverse
-donor-adjoint trace, or a retained Pack-gain/amplitude theorem.
+donor-adjoint trace, or a retained Field-window evidence-gain/amplitude theorem.
 
 The heat-scale first-appearance test in
 `mpp-forward-gold-reserve-creation-heat-scale-first-appearance-test-20260619.md`

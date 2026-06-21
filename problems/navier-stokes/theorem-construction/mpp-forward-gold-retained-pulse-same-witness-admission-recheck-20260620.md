@@ -4,7 +4,7 @@ status: same-witness-admission-recheck-complete
 logical_landing_node: retained_pulse_same_witness_cm_admission
 edge_effect: "Checks the conditional same-witness hypothesis in the retained heat-scale pulse CM consumer. For a Clay-admissible finite breakdown branch, same-witness CM admission is already supplied by ClayTerminalWitnessCMEntry.A, ClayAdmissibleFiniteBreakdownCMTestAdmissibility, CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, and the Pack-out-of-CM boundary correction audit. The condition remains unavailable for support-only forward-gold supplier calculations, so this does not prove the forward-gold endpoint anti-atom."
 parents:
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-heat-scale-pulse-cm-pack-part-field-consumption-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-heat-scale-pulse-cm-part-field-consumption-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
   - problems/navier-stokes/theorem-construction/mpp-clay-admissible-breakdown-cm-lawfulness-test-20260524.md
   - problems/navier-stokes/theorem-construction/mpp-any-finite-failure-witness-cm-exit-20260521.md

@@ -42,9 +42,7 @@ The exact statement is:
 \boxed{
 \text{tensor }L^5\text{ branch}
 +
-Pack_Q
-+
-Part_{N,Q}
+Part_{N,Q} plus Field-window evidence
 +
 \text{finite same-packet }L^5\text{ Field certificate}
 \Longrightarrow
@@ -175,7 +173,7 @@ Field^{L^5}_{N,\rho,Q}(\mathcal W)
 
 Then `(TLF.10)` contradicts `(TLF.11)`.
 
-Therefore, under retained Pack and Part,
+Therefore, under retained Field-window evidence and Part,
 
 \[
 \boxed{
