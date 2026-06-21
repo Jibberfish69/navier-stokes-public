@@ -9,8 +9,8 @@ The paper's top-level mathematical target is the Navier-Stokes Millennium proble
 ```text
 finite Clay terminal witness
 -> same original smooth Navier-Stokes object
--> same-fluid CM terminal packet tree
--> first failed Pack/Part/Field service
+-> same-fluid CM terminal participation-field tree
+-> first failed Part/Field service
 -> Exit(Q):=not Member(Q).
 ```
 
@@ -19,7 +19,7 @@ Authority anchors:
 - `target-operating-contract.yaml`: primary goal is to finish Navier-Stokes MPP, while keeping proof modes separate.
 - `live-theorem-edge.yaml`: active theorem-grade object is `ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A`, with `Exit(Q):=not Member(Q)` through `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`.
 - `cm-contrapositive-referee-audit.yaml`: historical torus-first referee checkpoint; the current paper authority is the rendered dual-track submission-candidate package, with the human/app-aligned manuscript in `problems/**` and the separate Codex paper in `papers/**`.
-- `review-verdict.yaml`: release only the CM contrapositive claim certified by Pack/Part/Field witness faces; supplier diagnostics stay quarantined; `Member(Q)` is downstream of the witness certificate.
+- `review-verdict.yaml`: release only the CM contrapositive claim certified by Part/Field witnesss; supplier diagnostics stay quarantined; `Member(Q)` is downstream of the witness certificate.
 
 ## Scope Honesty
 
@@ -32,7 +32,7 @@ Correct role typing:
 - Periodic zero-force `T^3`: active proved/refereed branch surface for the current manuscript.
 - Whole-space `R^3`: full Clay-facing export boundary; either prove tightness/localization export or state the paper is periodic-scope.
 - `H^s, s>5/2`: classical continuation readout from the member packet, not the proof program and not the only analytic scenario.
-- Local `L^3`, endpoint, no-pulse, source-wall, receiver/readout, Euler comparison: support, translator, or downstream readout unless a named bridge lands the exact object in Pack, Part, or Field.
+- Local `L^3`, endpoint, no-pulse, source-wall, receiver/readout, Euler comparison: support, translator, or downstream readout unless a named bridge lands the exact object in Part or Field.
 
 ## Lived-History Teaching Spine
 
@@ -58,7 +58,7 @@ or is it evidence that the alleged terminal object has left the class?
 The paper's explanation must preserve both corrections:
 
 - Do not demand one positive estimate erase every bad object.
-- Do not call any bad object `Exit(Q)` before deriving CM-test entry plus a concrete Pack/Part/Field face failure.
+- Do not call any bad object `Exit(Q)` before deriving CM-test entry plus a concrete Part/Field Part/Field failure.
 
 ## Dependency-Forward Manuscript Architecture
 
@@ -86,7 +86,7 @@ Job: state the classical continuation criterion and demote it to readout.
 Reader takeaway:
 
 - `H^s, s>5/2` is the clean classical exit door once the packet survives.
-- Critical, endpoint, local, and comparison scenarios remain relevant only after they are tied to the same witness record and typed as Pack, Part, Field, or readout.
+- Critical, endpoint, local, and comparison scenarios remain relevant only after they are tied to the same witness record and typed as Part and Field, or readout.
 
 ### 3. Positive Attempt Before Contrapositive Use
 
@@ -106,7 +106,7 @@ Reader takeaway:
 
 - Absorbed source is the pass side.
 - Terminal unpaid reserve is not a theorem by itself; it must enter the CM test.
-- Source-reserve, donor refill, signed-pair, and no-free-sink material are support until landed in a same-witness face.
+- Source-reserve, donor refill, signed-pair, and no-free-sink material are support until landed in a same-witness.
 
 ### 5. The Working Class Object
 
@@ -119,12 +119,12 @@ Required objects:
 - `Exit(Q;O_NS^work):=not Member(Q;O_NS^work)`.
 - one witness record.
 - `Pack_Q`, `Part_{N,Q}`, `Field_{N,r,Q}`.
-- `CM_{N,r,Q}=Pack_Q and Part_{N,Q} and Field_{N,r,Q}`.
+- `CM_{N,r,Q}:=Part_{N,Q} and Field_{N,r,Q}`.
 
 Reader takeaway:
 
 - `CM-lawful` means admissible for the test; it does not mean `Member(Q)`.
-- Pack/Part/Field are witness services, not synonyms for `Exit(Q)`.
+- Part/Field are witness services, not synonyms for `Exit(Q)`.
 
 ### 6. Terminal Witness Entry
 
@@ -142,7 +142,7 @@ Job: prove the active selected packet is readout-complete.
 Current installed branch:
 
 - On the active periodic `T^3` surface, the transported whole-torus material atlas supplies the selected packet.
-- Terminal non-continuation forces first loss of Pack, Part, or Field on that selected same-atlas packet.
+- Terminal non-continuation forces first loss of Part or Field on that selected same-atlas packet.
 
 Required scope statement:
 
@@ -189,7 +189,7 @@ branch family
 positive aim
 terminal fail object
 CM admission status
-first face if proved
+first Part/Field if proved
 proof supplied in manuscript
 status: proved / support / stale / debt
 ```
@@ -203,8 +203,8 @@ Job: prove no third branch.
 Reader takeaway:
 
 - pass branch -> `Member(Q)` -> smooth continuation readout;
-- fail branch -> CM-test entry -> first Pack/Part/Field failure -> `Exit(Q)`;
-- no branch is both a legal member continuation and the same finite nonsmooth terminal witness after the face failure is derived.
+- fail branch -> CM-test entry -> first Part/Field failure -> `Exit(Q)`;
+- no branch is both a legal member continuation and the same finite nonsmooth terminal witness after the Part/Field failure is derived.
 
 ### 11. Clay-Facing Completion
 
@@ -222,15 +222,15 @@ Blocked full-submission claim:
 
 - The abstract must start from the Navier-Stokes MPP and proof behavior, not from `T^3`.
 - The first page must say the current manuscript is periodic-scope or prove/export whole-space before claiming full Clay scope.
-- `H^s, s>5/2` must appear as readout after the CM packet, never as the governing proof target.
-- Every time the manuscript names a forward-positive object, it must also name its role: pass-side support, fail-branch CM admission, face failure, readout, supplier quarantine, stale, or debt.
-- No section may imply that source-wall, no-pulse, Euler comparison, or endpoint readout is direct CM closure without a bridge into Pack/Part/Field.
+- `H^s, s>5/2` must appear as readout after the CM participation-field record, never as the governing proof target.
+- Every time the manuscript names a forward-positive object, it must also name its role: pass-side support, fail-branch CM admission, Part/Field failure, readout, supplier quarantine, stale, or debt.
+- No section may imply that source-wall, no-pulse, Euler comparison, or endpoint readout is direct CM closure without a bridge into Part/Field.
 - Any theorem not proved in the paper must be named as debt, support, or scope boundary.
 
 ## Immediate TeX Repair Targets
 
 1. Rewrite title/abstract/opening so the first signal is the MPP CM contrapositive proof program, with periodic scope stated inside it.
-2. Replace the opening's branch/readout feel with proof-behavior explanation: positive pass/fail split, terminal witness entry, Pack/Part/Field face failure.
+2. Replace the opening's branch/readout feel with proof-behavior explanation: positive pass/fail split, terminal witness entry, Part/Field Part/Field failure.
 3. Move the source-wall example later as a teaching example, or make the current placement explicitly subordinate.
 4. Fix the duplicate proof ending after the no-fourth-service corollary.
 5. Add a visible "Scope and export boundary" theorem/remark near the beginning.
