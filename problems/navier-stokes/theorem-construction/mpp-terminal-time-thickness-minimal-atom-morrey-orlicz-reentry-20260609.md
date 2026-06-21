@@ -123,7 +123,7 @@ terminal positive source mass in a slab of thickness tau_m
 and
 
 ```text
-C_m is paid by an installed finite ledger, legal loss, Pack/Part/Field face
+C_m is paid by an installed finite ledger, legal loss, Part/Field face
 failure, or a source-residence budget.
 ```
 

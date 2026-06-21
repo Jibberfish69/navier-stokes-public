@@ -12,7 +12,7 @@ This note proves the actual mathematical alternative:
 ```text
 endpoint uniform integrability
 or
-subsequential terminal atom, hence that face failure on the same-solution branch.
+subsequential terminal atom, hence that Part/Field failure on the same-solution branch.
 ```
 
 It uses the terminal source-curve compactness test and the installed
@@ -152,7 +152,7 @@ the certified service test gives
 ```
 
 The atom is therefore not a new positive-forward target and not a fourth
-terminal branch.  It is a Part or Field face failure before `Pack_Q` is used as
+terminal branch.  It is a Part or Field Part/Field failure before `Pack_Q` is used as
 an exclusion test.
 
 This is a CM-facing service-topology conclusion.  It is not a proof of a new
@@ -172,7 +172,7 @@ and Member(Q).
 Indeed, failure of endpoint uniform integrability gives a nonzero terminal atom
 by the measure lemma.  After same-witness admission, the same-solution atom
 fails the uniform service topology required by `Part_{N,Q}` or
-`Field_{N,r,Q}`.  Since `Member(Q)` requires the relevant Pack/Part/Field
+`Field_{N,r,Q}`.  Since `Member(Q)` requires the relevant Part/Field
 services, that branch cannot remain `Member(Q)`.
 
 Thus the source-curve obstruction has the required pass-or-exit form:
@@ -181,7 +181,7 @@ Thus the source-curve obstruction has the required pass-or-exit form:
 \boxed{
 \text{endpoint modulus}
 \quad\text{or}\quad
-\text{Part/Field face failure supporting } Exit(Q):=\neg Member(Q).
+\text{Part/Field Part/Field failure supporting } Exit(Q):=\neg Member(Q).
 }
 \tag{PSC.14}
 ```

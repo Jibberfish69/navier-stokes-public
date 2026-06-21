@@ -27,7 +27,7 @@ The theorem is:
 }
 ```
 
-So the residue is carried into the Pack-before-Part audited CM decision tree. It is not first
+So the residue is carried into the Pack-out-of-CM audited CM decision tree. It is not first
 converted into a positive smoothness estimate.
 
 ## Setup
@@ -76,7 +76,7 @@ Navier--Stokes evolution,
 \tag{TSR.CMExit}
 ```
 
-Equivalently, in Pack-first form:
+Equivalently, in Field-certification form:
 
 ```math
 \boxed{

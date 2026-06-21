@@ -153,7 +153,7 @@ retained Pack/Part on the first Pack-survival branch
 + zero ASAC defect and no legal/donor payment
 => a same-ledger angular/pressure/participation cost
    strong enough to prevent terminal source-time concentration,
-   or a strictly earlier face failure contradicting the selected first Pack
+   or a strictly earlier Part/Field failure contradicting the selected first Pack
    window.
 ```
 

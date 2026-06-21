@@ -2,7 +2,7 @@
 
 Date: 2026-06-09
 
-Status: installed CM face-bridge theorem. This note does not close public Clay
+Status: installed CM Part/Field-bridge theorem. This note does not close public Clay
 finality.
 
 ## Theorem
@@ -12,7 +12,7 @@ TerminalStrainAlignmentFaceBridge_{B_ASAC}.A
 ```
 
 Let `Q` be the canonical same-solution terminal packet extracted from the
-current first-exit Pack branch. Assume the produced `B_ASAC` terminal
+current first-exit Field-window branch. Assume the produced `B_ASAC` terminal
 source-residue class carries a selected terminal strain-alignment atom:
 
 ```text
@@ -29,8 +29,8 @@ the CM witness tree:
 
 ```text
 not Pack_Q
-or Pack_Q + not Part_{N,Q}
-or Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}.
+or not Part_{N,Q}
+or Part_{N,Q} + forall r>0 not Field_{N,r,Q}.
 ```
 
 ## Proof
@@ -46,7 +46,7 @@ paid legal and donor exits removed.
 ```
 
 The added alignment condition is extra structure on the same terminal source
-residue. It does not create a fourth CM face and it does not turn the residue
+residue. It does not create a fourth CM Part/Field and it does not turn the residue
 into `Member(Q)`.
 
 Apply `ZenoAtomFailureToFaceWitness.A` from the installed Zeno terminal atom
@@ -70,7 +70,7 @@ differentiated pressure-viscosity Navier-Stokes tower, then participation has
 failed:
 
 ```text
-Pack_Q + not Part_{N,Q}.
+not Part_{N,Q}.
 ```
 
 The strain alignment does not bypass this gate; it is still attached to the
@@ -105,7 +105,7 @@ This proves the face bridge.
 ## Consequence
 
 The terminal strain-aligned `B_ASAC` atom is no longer an untyped survivor for
-the CM contrapositive ledger. It is a Pack/Part/Field witness-face object.
+the CM contrapositive ledger. It is a Part/Field witness object.
 
 This proof does not prove:
 
@@ -124,6 +124,6 @@ The remaining public-finality burden is the stronger no-first-exit theorem:
 OriginalSmoothDataNoFirstPackExit_{B_ASAC-strain}.A
 ```
 
-or a checked manuscript-level bridge explaining why the CM face landing itself
+or a checked manuscript-level bridge explaining why the CM Part/Field landing itself
 excludes the finite Clay terminal obstruction rather than merely classifying
 it.

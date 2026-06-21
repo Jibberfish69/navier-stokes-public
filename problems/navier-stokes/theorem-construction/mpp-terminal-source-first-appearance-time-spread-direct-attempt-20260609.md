@@ -20,7 +20,7 @@ The desired theorem is:
 minimal retained terminal source mass
 => inherited earlier parent mass
    or charge-ledger injection with terminal time modulus
-   or Pack/Part/Field witness-face failure.
+   or Part/Field witness failure.
 ```
 
 The theorem must do more than the older first-birth bookkeeping. It must price
@@ -88,11 +88,11 @@ uniform modulus after normalization.
 So charge injection without scale-normalized time absolute continuity does not
 prove `TerminalSourceFirstAppearanceTimeSpread.A`.
 
-## Attempt 3: Pack/Part/Field face landing
+## Attempt 3: Part/Field Part/Field landing
 
 The third branch is valid as CM witness classification. A retained uncharged
 terminal source atom with no positive terminal time thickness can be routed as
-a proof-bearing face failure once it is admitted to the CM witness tree.
+a proof-bearing Part/Field failure once it is admitted to the CM witness tree.
 
 That does not prove the public supplier theorem:
 
@@ -133,7 +133,7 @@ stronger than ordinary unscaled time absolute continuity.
 scale-normalized terminal time absolute continuity for the receiving charge
 ledger. Minimal first appearance localizes the terminal source packet but does
 not spread it; charge injection helps only with a scale-normalized terminal
-time modulus; Pack/Part/Field face landing remains classification, not public
+time modulus; Part/Field Part/Field landing remains classification, not public
 Clay finality. The next pass must attack
 `ScaleNormalizedTerminalChargeTimeAC.A / FirstBirthChargeTimeModulus.A` or find
 an independent public-finality bridge before either PDF can be marked final.

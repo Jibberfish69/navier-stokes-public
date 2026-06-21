@@ -25,7 +25,7 @@ Exit(Q):=not Member(Q)
 ```
 
 through `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`. The alignment atom is not
-a class member. It is either a candidate Pack/Field face failure, or a positive
+a class member. It is either a candidate Pack/Field Part/Field failure, or a positive
 no-exit theorem must exclude it from original smooth data.
 
 ## Installed Inputs
@@ -81,7 +81,7 @@ is not proved from installed inputs.
 
 ## CM Face-Bridge Test
 
-The object becomes useful only after it is typed by the witness faces.
+The object becomes useful only after it is typed by the witnesss.
 
 Case 1: the terminal strain-aligned atom has zero heat-time support and no
 positive-scale retained carrier. Then the installed `B_ASAC` terminal atom
@@ -128,7 +128,7 @@ OriginalSmoothDataNoFirstPackExit_{B_ASAC-strain}.A.
 ```
 
 Current installed inputs prove neither. The first theorem is the better next
-object because it stays inside the CM Pack/Part/Field grammar and blocks the
+object because it stays inside the CM Part/Field grammar and blocks the
 bad substitution where a terminal strain-aligned atom is treated as a class
 member or as a finished Clay proof.
 
@@ -137,8 +137,8 @@ member or as a finished Clay proof.
 `NS-LIVE-20260609-080`: the loop must not chase bare
 `TerminalStrainAlignmentExclusion_{B_ASAC}.A` as though `B_ASAC` plus alignment
 already implies Liouville. The installed facts support only a zero-radius
-Pack-face landing unless a positive-scale retained-carrier bridge is proved.
+Pack-Part/Field landing unless a positive-scale retained-carrier bridge is proved.
 The next work unit is
 `TerminalStrainAlignmentFaceBridge_{B_ASAC}.A`, with the stronger
 `OriginalSmoothDataNoFirstPackExit_{B_ASAC-strain}.A` remaining open if public
-Clay finality requires exclusion rather than CM face landing.
+Clay finality requires exclusion rather than CM Part/Field landing.

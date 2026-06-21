@@ -28,7 +28,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-basac-all-reduced-routes-exhaustion-certificate-20260517.md
     - problems/navier-stokes/theorem-construction/mpp-annular-residual-specific-case-exhaustion-20260614.md
     - problems/navier-stokes/theorem-construction/mpp-terminal-source-first-appearance-time-spread-direct-test-20260614.md
-  edge_effect: "Sets the next proof-facing child after the specific pulling-teeth annular residual case: the remaining gold-side target is TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_B_ASAC.A or an equivalent terminal time-thickness, source-integrability, scale-critical charge, transported no-incoming-flux, or rigid-class production theorem. The note keeps silver CM use after same-solution admission and Pack/Part/Field face derivation."
+  edge_effect: "Sets the next proof-facing child after the specific pulling-teeth annular residual case: the remaining gold-side target is TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_B_ASAC.A or an equivalent terminal time-thickness, source-integrability, scale-critical charge, transported no-incoming-flux, or rigid-class production theorem. The note keeps silver CM use after same-solution admission and Part/Field Part/Field derivation."
 ---
 
 # MPP Terminal Time-Face New-Production Frontier
@@ -45,7 +45,7 @@ gold supplier pass;
 exact terminal time-face pulse obstruction;
 no-admission support or Pack boundary;
 admitted Member branch;
-admitted that face failure.
+admitted that Part/Field failure.
 ```
 
 The remaining gold-side theorem is the child that removes the exact pulse
@@ -198,7 +198,7 @@ TerminalSourceFirstAppearanceTimeSpread.A
   a/tau_m on (-tau_m,0] has fixed terminal mass and divergent super-L1
   temporal norm, so first birth must inject into a time-priced ledger, produce
   source integrability, produce a rigid no-atom subclass, or become an admitted
-  CM face failure.
+  CM Part/Field failure.
 
 ProductionIntoRigidBASACTimeFaceSubclass.A
   is not supplied by the rigid-subclass Liouville theorem.  The proved theorem
@@ -210,9 +210,9 @@ ProductionIntoRigidBASACTimeFaceSubclass.A
 
 These are exact reductions.  They are not separate current CM blockers unless a
 branch theorem admits a surviving object as a same-solution CM witness and
-derives its first face failure.
+derives its first Part/Field failure.
 
-The all-reduced `B_ASAC` route is Pack-before-Part typed at the zero-radius terminal atom:
+The all-reduced `B_ASAC` route is Pack-out-of-CM typed at the zero-radius terminal atom:
 the survivor is `\neg Pack_Q` support unless a separate positive-scale
 retained-carrier bridge is installed.  It is not a Field readout by itself.
 
@@ -229,7 +229,7 @@ retained Part plus retained positive Field readout
   => Member(Q);
 
 finite nonsmooth admitted witness
-  => first concrete Pack/Part/Field face failure
+  => first concrete Part/Field Part/Field failure
   => Exit(Q):=not Member(Q).
 ```
 
