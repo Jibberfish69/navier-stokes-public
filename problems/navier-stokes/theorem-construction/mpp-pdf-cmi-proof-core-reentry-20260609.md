@@ -58,7 +58,7 @@ boundary:
 
 ```text
 pass branch  => Member(Q) => same-solution continuation,
-fail branch  => first Part/Field Part/Field failure => Exit(Q):=not Member(Q).
+fail branch  => first Part/Field failure => Exit(Q):=not Member(Q).
 ```
 
 It rules out a third object that is both an in-class continuation branch and a

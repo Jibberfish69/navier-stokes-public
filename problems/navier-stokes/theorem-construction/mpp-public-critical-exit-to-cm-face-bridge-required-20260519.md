@@ -128,7 +128,7 @@ CritExit_X(\mathcal W).
 
 It is not enough to know that some global norm blows up. The blow-up sequence
 has to be placed on the same `Q,N,r,\Phi,\mathcal T` object used by the CM
-witnesss.
+witnesses.
 
 ### 2. CM-to-public-control
 

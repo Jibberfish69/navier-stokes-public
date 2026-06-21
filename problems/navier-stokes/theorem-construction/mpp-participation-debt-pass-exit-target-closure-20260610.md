@@ -74,7 +74,7 @@ The pass/exit engine says:
 
 ```text
 pass branch => Member(Q) => smooth continuation,
-fail branch => CM-test entry + first Part/Field Part/Field failure
+fail branch => CM-test entry + first Part/Field failure
              => Exit(Q):=not Member(Q).
 ```
 

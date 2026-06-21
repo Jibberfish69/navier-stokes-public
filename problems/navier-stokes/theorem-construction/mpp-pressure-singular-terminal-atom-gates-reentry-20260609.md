@@ -39,7 +39,7 @@ It carries the one-sided native positive source measure
 The pressure question is whether spatial pressure recovery, pressure-Hessian
 sustain, or localized Leray recombination forces this terminal atom to spread
 in time, enter the same source ledger, become legal loss, or land as a
-Part/Field Part/Field failure.
+Part/Field failure.
 
 ## Local energy trace is not enough
 

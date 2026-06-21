@@ -75,7 +75,7 @@ installed chain is:
 ```text
 ClayAdmissibleFiniteBreakdown(W_*)
 => CMTestAdmissibleTerminalObject(W_*)
-=> first Part/Field Part/Field failure
+=> first Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 

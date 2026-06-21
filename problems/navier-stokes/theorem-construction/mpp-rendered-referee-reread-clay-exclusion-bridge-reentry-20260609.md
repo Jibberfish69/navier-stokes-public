@@ -68,7 +68,7 @@ current theorem is:
 ```text
 admitted terminal record
 => pass-side continuation readout
-   or first Part/Field Part/Field failure supporting Exit(Q).
+   or first Part/Field failure supporting Exit(Q).
 ```
 
 That is terminal obstruction classification. It becomes Clay exclusion only

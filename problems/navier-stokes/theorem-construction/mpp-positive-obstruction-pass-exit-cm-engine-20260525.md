@@ -78,7 +78,7 @@ fail branch  => Exit(Q; O_NS^work)   => outside the in-class Clay branch.
 Equivalently, the CM route does not need to know which particular positive
 estimate ultimately supplies the pass-side control. It does need the fail side
 to do real work: the failure branch must enter the CM terminal test and its
-first Part/Field Part/Field failure must be derived. "Capable of nonsmoothness"
+first Part/Field failure must be derived. "Capable of nonsmoothness"
 is a trigger for that test, not the proof of `Exit(Q)`.
 
 ## Installed Inputs
@@ -161,7 +161,7 @@ control one favorite positive estimate. It is also not the theorem-sized slogan
 `OriginalSmoothData => not GenuineCMExit(T_*)` inserted as a local lemma.
 
 The noncircular continuation of this engine is obstruction-by-obstruction:
-prove CM-test entry, derive the first Part/Field Part/Field failure on the fail
+prove CM-test entry, derive the first Part/Field failure on the fail
 branch, and keep the pass branch as the only in-class continuation branch. That
 is the route that preserves Thomas's pass/fail idea without smuggling the whole
 MPP into a renamed "remaining burden."
