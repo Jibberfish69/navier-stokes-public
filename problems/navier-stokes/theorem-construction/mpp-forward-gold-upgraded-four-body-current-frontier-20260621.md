@@ -25,6 +25,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transported-pressure-adapted-selector-commutator-potential-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transported-full-hodgestokes-selector-payment-direct-attempt-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-return-terminal-ac-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lossless-full-hodgestokes-packet-rigidity-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-packet-compactness-noloss-attempt-20260621.md
@@ -1160,6 +1161,54 @@ full-packet identification.  The transported-selector branch is therefore
 exhausted at the direct-selector level: it explains the square-source residue
 as unreturned cotangent metric motion, but it does not independently produce
 the unweighted terminal reserve.
+
+The heat-scale return subpiece has also been tested directly.  Let
+
+```math
+F=D_aX,
+\qquad
+A=F^{-1},
+\qquad
+G=A A^T.
+\tag{4BF.45k6}
+```
+
+Then
+
+```math
+\partial_tG=-2A\,S(X(a,t),t)\,A^T.
+\tag{4BF.45k7}
+```
+
+The strain clock controls return of the anisotropic transported metric to a
+uniform heat-scale packet:
+
+```math
+e^{-2\Gamma}|\zeta|^2
+\le
+\zeta^TG(a,t)\zeta
+\le
+e^{2\Gamma}|\zeta|^2,
+\qquad
+\Gamma=\int\|S(X(\cdot,t),t)\|_{L^\infty(A_0)}\,dt.
+\tag{4BF.45k8}
+```
+
+So heat-scale return terminal AC follows from an unweighted same-carrier
+deformation/strain terminal modulus.  The heat-scale arithmetic shows why this
+is not supplied by energy: each normalized pulse may have order-one deformation
+clock while its physical dissipation is only radius-discounted.  Thus the
+return subpiece lands exactly in
+
+```math
+\boxed{
+\text{FourBodyTerminalTraceAC.A}
+\quad\text{or}\quad
+\text{StrictFourBodyNoWasteLyapunov.A}
+\quad\text{or charged Body-IV geometry defect.}
+}
+\tag{4BF.45k9}
+```
 
 The shell-level version of the same route is now recorded as
 `LPFullBalancePayment.A` / `DyadicParticipationNoFreeSource.A`.  It keeps the
