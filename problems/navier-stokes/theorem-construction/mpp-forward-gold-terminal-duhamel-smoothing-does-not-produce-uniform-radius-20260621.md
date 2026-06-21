@@ -23,8 +23,8 @@ nonlinear Duhamel term by a linear forcing, it is not a Navier-Stokes normal
 form, and it does not approximate the pressure-transport-viscosity system.
 
 Terminology correction. This note should not be described as a "linear
-forced-heat normal form." It is only an external forced-heat counterexample to
-one proposed supplier claim:
+forced-heat normal form." It is only an external forced-heat counterexample in
+a different equation to one proposed supplier claim:
 
 \[
 \text{bare heat smoothing of terminal-layer input}
@@ -38,6 +38,11 @@ exact nonlinear Leray-Duhamel identity recorded in the companion note.
 The calculation is an external forced-heat supplier-boundary test. It is only a
 counterexample to the narrower claim that heat semigroup smoothing, by itself,
 forces a uniform positive tower radius at the terminal face.
+
+No Navier-Stokes term is being dropped, frozen, linearized, or replaced here.
+The Navier-Stokes equation is simply not the equation being tested in Section
+1. The only Navier-Stokes-facing conclusion licensed by this note is negative:
+bare heat smoothing cannot be used as the missing terminal radius supplier.
 
 The Navier-Stokes-facing formula for this branch is the exact Leray-Duhamel
 identity with source
