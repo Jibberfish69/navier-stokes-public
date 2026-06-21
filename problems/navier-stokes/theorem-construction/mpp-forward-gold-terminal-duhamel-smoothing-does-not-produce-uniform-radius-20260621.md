@@ -68,8 +68,9 @@ v(-1)=0,
 \tag{TDS.2}
 \]
 
-Let \(F\in C_c^\infty(B_1)\) be smooth but nonanalytic across an interior
-surface, and set
+Choose \(F\in C_c^\infty(B_1)\) so that \(F\) is smooth but not real analytic
+on \(B_{1/4}\), for instance by making it flat across a smooth interior surface
+inside \(B_{1/4}\). Set
 
 \[
 f_m(s,y):=
@@ -126,19 +127,28 @@ for some \(\rho>0\) and \(E<\infty\),
 \tag{TDS.7}
 \]
 
-along a subsequence. Passing to the \(H^k_{\mathrm{loc}}\) limits in each fixed
-rung would give
+along a subsequence. For each fixed multiindex \(\alpha\), the convergence in
+`(TDS.6)` gives
+
+\[
+\partial_y^\alpha v_m(0)\to \partial_y^\alpha F
+\quad\text{in }L^2(B_{1/2}).
+\tag{TDS.8}
+\]
+
+Fatou's lemma applied to the nonnegative weighted derivative sum gives
 
 \[
 \sum_\alpha
 {\rho^{2|\alpha|}\over(\alpha!)^2}
 \|\partial_y^\alpha F\|_{L^2(B_{1/2})}^2
 \le E.
-\tag{TDS.8}
+\tag{TDS.9}
 \]
 
-By the Cauchy-Hadamard/Sobolev analytic criterion, \(F\) would be analytic on
-\(B_{1/2}\), contradicting the choice of \(F\).
+By the local \(L^2\) analytic-vector criterion, `(TDS.9)` implies that \(F\) is
+real analytic on every compact subball of \(B_{1/2}\), in particular on
+\(B_{1/4}\). This contradicts the choice of \(F\).
 
 Therefore heat smoothing acting alone on terminal-layer forcing does not supply
 a uniform positive analytic radius.
@@ -149,14 +159,14 @@ The normalized external source marginal of `(TDS.3)` is
 
 \[
 g_m(s):={1\over\tau_m}\mathbf 1_{(-\tau_m,0]}(s).
-\tag{TDS.9}
+\tag{TDS.10}
 \]
 
 It has fixed mass:
 
 \[
 \int_{-1}^{0}g_m(s)\,ds=1,
-\tag{TDS.10}
+\tag{TDS.11}
 \]
 
 but fails endpoint UI:
@@ -165,7 +175,7 @@ but fails endpoint UI:
 \lim_{\theta\downarrow0}\limsup_m
 \int_{-\theta}^{0}g_m(s)\,ds
 =1.
-\tag{TDS.11}
+\tag{TDS.12}
 \]
 
 The heat operator sees this external source only after it is born. At the
@@ -180,7 +190,7 @@ The supplier-boundary obstruction is:
 \text{heat smoothing alone has no time to regularize terminal-layer input
 before the endpoint is tested.}
 }
-\tag{TDS.12}
+\tag{TDS.13}
 \]
 
 For Navier-Stokes this gives only a negative license: do not use bare viscosity
@@ -195,5 +205,5 @@ contribution itself:
 \text{endpoint UI, unweighted action, strict no-waste, source-square domination,
 or profile production.}
 }
-\tag{TDS.13}
+\tag{TDS.14}
 \]
