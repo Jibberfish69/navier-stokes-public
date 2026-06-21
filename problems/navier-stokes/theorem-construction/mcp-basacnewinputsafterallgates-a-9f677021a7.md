@@ -2,7 +2,7 @@
 
 ## Status
 
-External new-input triage.  The current repo surfaces leave `B_ASAC^closed` as zero-radius source-residue support, Part-side when the same original-NS record remains and true `not Pack_Q` only when that record is absent.  New progress needs a theorem imported from, or inspired by, outside PDE literature.
+External new-input triage.  The current repo surfaces leave `B_ASAC^closed` as zero-radius source-residue support, Part-side when the same original-NS record remains and true packet/window evidence only when that record is absent.  New progress needs a theorem imported from, or inspired by, outside PDE literature.
 
 ## Best direct new input
 

@@ -114,7 +114,7 @@ Thus the lawful spending order is
 \Longrightarrow
 \text{Field row}
 \Longrightarrow
-\text{Pack+Part+Field CM row conjunction}
+\text{Part+Field CM row conjunction}
 \Longrightarrow
 Member(Q).
 ```

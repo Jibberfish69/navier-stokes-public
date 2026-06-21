@@ -13,7 +13,7 @@ The selected positive Pack functional is stable under terminal profile decomposi
 
 ## Pack functional issue
 
-The live Pack-side quantity is not a signed quadratic form alone. It is a selected positive, scale-normalized, terminal-window object.
+The live Field-window support quantity is not a signed quadratic form alone. It is a selected positive, scale-normalized, terminal-window object.
 
 Exact selected-positive form:
 

@@ -71,7 +71,7 @@ Choosing `N` above a Sobolev continuation index `s>5/2`, the finite tower and co
 Thus
 
 ```math
-Pack+Part+Field+DTC.Read
+Part+Field+DTC.Read
 \Longrightarrow
 M_Q(u,p)
 \Longrightarrow

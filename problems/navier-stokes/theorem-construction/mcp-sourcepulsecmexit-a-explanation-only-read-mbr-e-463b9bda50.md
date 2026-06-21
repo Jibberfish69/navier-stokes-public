@@ -55,12 +55,12 @@ C_{k,r}
 Thus every finite velocity rung through the retained depth is bounded from the
 same Field oscillation moduli and the same energy bound. For force rungs, Part
 supplies the shared pressure-viscosity carrier envelope; escape of that envelope
-is a Part-Part/Field failure rather than a retained Pack+Part+Field branch. On the
+is a Part-Part/Field failure rather than a retained Part+Field branch. On the
 retained branch, the finite `K_k` envelope is bounded on the same cover
 elements. Summing finitely many `U_k` and `K_k` terms gives
 `A_{N,Q_n} in L^infty(I_n)`, so tower-blown cannot occur on retained
-Pack+Part+Field.
+Part+Field.
 
-The MBR.E routing says genuine PDE nonsmoothness must manifest as packing-detached, tower-blown, or Jump. packing-detached routes to Pack failure. Jump with Pack and Part retained routes to Field failure. tower-blown is eliminated on retained Pack+Part+Field by the retained-field tower closure. Therefore a terminal source-pulse genuine nonsmooth witness implies not Pack or not Part or not Field.
+The MBR.E routing says genuine PDE nonsmoothness must manifest as packing-detached, tower-blown, or Jump. packing-detached routes to Pack failure. Jump with Pack and Part retained routes to Field failure. tower-blown is eliminated on retained Part+Field by the retained-field tower closure. Therefore a terminal source-pulse genuine nonsmooth witness implies not Pack or not Part or not Field.
 
 Boundary: this explanation concerns the manifestation-level SourcePulseCMExit.A closure. It does not prove absolute source-pulse exclusion from original smooth data, and it does not promote the full Navier-Stokes Millennium proof.

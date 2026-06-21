@@ -107,7 +107,7 @@ DTC.A_{avg}.
 
 The remaining dependence is exactly terminal cover production, not the local scheduler mechanism.
 
-### Bridge-license into `CM=Pack+Part+Field`
+### Bridge-license into `CM=Part+Field`
 
 For the selected route, the explicit bridge map is:
 

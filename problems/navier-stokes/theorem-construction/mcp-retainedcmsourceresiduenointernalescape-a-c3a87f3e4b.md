@@ -46,7 +46,7 @@ Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}
 
 ## Proof
 
-By `FieldSourceResidueJump.A`, a nonzero Field-side source residue on the retained Pack/Part carrier lands in the endpoint-visible Field/Jump cell:
+By `FieldSourceResidueJump.A`, a nonzero Field-side source residue on the retained Part/Field carrier lands in the endpoint-visible Field/Jump cell:
 
 ```math
 \mu_{field}^{src,+}\ne0

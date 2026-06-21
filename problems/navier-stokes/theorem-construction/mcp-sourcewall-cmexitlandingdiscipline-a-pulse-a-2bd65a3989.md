@@ -34,7 +34,7 @@ Step 2. `SourceWall.Reconcile.A` demotes normalized-adjoint source-drain to cond
 
 Step 3. A first-exit analysis can activate a failure surface only through a witness break. The accepted face channels are `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`.
 
-Step 4. The existing diagnostic ledger sorts major non-Euler source-wall surfaces into Part and Field, terminal-Zeno Pack-side/readout-quarantined subcases, or supplier/readout quarantine. This supplies classification discipline. It supplies row-level diagnostic coverage. Object-level positive supplier theorems remain separate burdens.
+Step 4. The existing diagnostic ledger sorts major non-Euler source-wall surfaces into Part and Field, terminal-Zeno Field-window support/readout-quarantined subcases, or supplier/readout quarantine. This supplies classification discipline. It supplies row-level diagnostic coverage. Object-level positive supplier theorems remain separate burdens.
 
 Step 5. The current positive source-control atom remains `PositiveRemainderDepletion.A`. The May 17 tests show that PRD needs `SourceWeightedTerminalAngularDepletion.A`; LPSC returns to PRD; SquareSourceEstimate.A and ActiveShellAmplitudeGain.A return to ActiveShellSourceNormalize.A / active-square reserve; the non-Carleson Zeno route needs TerminalSourceReverseHolder.A / UniformTemporalSourceIntegrability_p.A or a rigid residue class with Liouville.
 

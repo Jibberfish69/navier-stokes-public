@@ -24,7 +24,7 @@ Let a terminal sequence decompose into profiles:
 u_m = sum_alpha U_alpha^m + r_A^m.
 ```
 
-The Pack-side functional is a selected positive local object.  For each
+The Field-window support functional is a selected positive local object.  For each
 admissible terminal selector `sigma`, let `F_sigma(u)` be the signed local
 low-high / source / tree expression, and define
 

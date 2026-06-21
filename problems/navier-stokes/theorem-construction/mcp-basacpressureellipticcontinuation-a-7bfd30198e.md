@@ -14,7 +14,7 @@ B_{ASAC}^{closed},
 
 already identified as a selected zero-radius terminal Zeno residue, hence
 Part-side when the same original-NS participation record remains and
-true terminal `not Pack_Q` only when that record is absent, rather than a
+true terminal packet/window evidence only when that record is absent, rather than a
 retained `Field_{N,r,Q}` packet.
 
 The pressure fork seeks a production theorem of one of two kinds:
