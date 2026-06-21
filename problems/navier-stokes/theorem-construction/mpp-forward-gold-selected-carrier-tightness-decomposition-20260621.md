@@ -10,6 +10,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-heredity-finite-menu-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-controlled-parent-domain-or-exterior-spill-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-positive-carrier-selector-complexity-boundary-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
 ---
 
 # Selected Carrier Tightness Decomposition
@@ -32,7 +33,10 @@ The next compactness requirement is tightness of \(\mu_n^A\) on the normalized
 same-carrier space.
 
 This note proves the exact decomposition of that tightness requirement.  It
-does not prove the Navier-Stokes estimates that pay each escape channel.
+does not prove the Navier-Stokes estimates that pay each escape channel.  The
+tightness-defect note adds the Body-III consequence: any remaining escape mass
+is an explicit positive no-loss relay defect, not an invisible compactness
+loss.
 
 ## 1. Extended carrier and compact exhaustion
 
@@ -368,6 +372,22 @@ This note proves the tightness decomposition.
 It does not prove the Navier-Stokes production estimates that eliminate or pay
 the three escape channels.
 
+The tightness-defect theorem now proves that failure of this clause is charged
+inside Body III:
+
+```math
+K_{\rm tight}^A
+\le
+K_{\rm dom}+K_{\rm lab}+K_{\rm rung},
+\qquad
+K_{\rm tight}^A\le K_C^+.
+\tag{SCT.25a}
+```
+
+Thus a lossless cycle with \(K_C^+=0\) forces tightness.  The remaining work is
+not to assume tightness silently, but to prove that the corresponding
+Body-III defect is zero or paid by the four-body cycle.
+
 The current four-body frontier is now:
 
 ```math
@@ -379,7 +399,8 @@ The current four-body frontier is now:
 
 ```math
 \boxed{
-\text{tightness reduces to domain escape, label escape, and rung escape;}
+\text{tightness reduces to domain escape, label escape, and rung escape, and
+any failure is charged as Body-III lost selected carrier;}
 }
 \tag{SCT.27}
 ```
