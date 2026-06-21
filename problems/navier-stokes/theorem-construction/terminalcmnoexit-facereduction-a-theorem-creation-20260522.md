@@ -7,7 +7,7 @@ This generated theorem-creation file is provenance, not current CM proof authori
 ## Target
 
 - target obligation: TerminalCMNoExit.A
-- target label: Create the sharp CM branch theorem TerminalCMNoExit.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Pack, Part, or Field.
+- target label: Create the sharp CM branch theorem TerminalCMNoExit.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Part or Field.
 - route role: Use CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A to reduce NoGenuineCMExit to three positive survivor faces: Pack positive-scale/strain-integrability no-exit, Part tower/readout closedness no-exit, and licensed Field coherence no-exit after Part.
 - theorem family: generic-bridge-theorem
 
@@ -67,7 +67,7 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 ## Forbidden Imports
 
 - TerminalCMNoExit.FaceReduction.A
-- Create the sharp CM branch theorem TerminalCMNoExit.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Pack, Part, or Field.
+- Create the sharp CM branch theorem TerminalCMNoExit.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Part or Field.
 - TerminalCMNoExit.A
 - full-MPP closure
 - submission readiness
@@ -76,8 +76,8 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 ## Proof Attempt
 
 1. Start from original smooth data and an alleged finite terminal tail.
-2. Use CanonicalTerminalPacketCapture.A and AnyFiniteFailureWitnessCMExit.A to force any terminal obstruction into Pack, Part, or Field.
-3. Use GenuineCMExit.Equiv.A to read genuine terminal non-continuation as loss of every continuation-complete Pack/Part/Field packet.
+2. Use CanonicalTerminalPacketCapture.A and AnyFiniteFailureWitnessCMExit.A to force any terminal obstruction into Part or Field.
+3. Use GenuineCMExit.Equiv.A to read genuine terminal non-continuation as loss of every continuation-complete Part/Field packet.
 4. Use TerminalSourceResidueCMExit.A only as source-residue sorting into Pack/Part; do not treat anti-atom deletion or source absolute continuity as the Field face.
 5. Conclude that TerminalCMNoExit.A is exactly the conjunction of Pack no-exit, Part no-exit, and licensed Field no-exit; leave those analytic faces as the residual theorem.
 6. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
