@@ -4,7 +4,7 @@ ns_viewer:
   status: exact-residual-free-shear-subcase-terminal-atom-excluded
   proof_role: forward_gold_exact_residual_free_subcase_test
   logical_landing_node: exact_transported_shear_no_terminal_source_atom
-  edge_effect: "Tests the residual-free version of the heat-scale shear geometry. For V=e_1+w(s,y_1)e_2, the projected Navier-Stokes equation is exactly partial_s w+partial_1 w=nu partial_1^2 w. A single Fourier mode must be phase-transported, w=A(s)n^(-1)sin(n(y_1-s)), with A'=-nu n^2 A. Its projected nonlinear source is N=-partial_1 w e_2=-A(s)cos(n(y_1-s))e_2. If the entrance amplitude is bounded, A(0)=A(-1)e^{-nu n^2} and the terminal selected carrier on [-theta,0] is at most C theta A(0), hence vanishes; keeping an order-one terminal carrier requires exponentially large entrance amplitude. Thus the residual-free transported-shear subcase cannot create a terminal endpoint source atom from bounded old data. The remaining heat-scale obstruction must use genuine nonlinear same-carrier refill, pressure coupling, profile production, or become a paid source/Part/legal defect."
+  edge_effect: "Tests the residual-free version of the heat-scale shear geometry. For V=e_1+w(s,y_1)e_2, the projected Navier-Stokes equation is exactly partial_s w+partial_1 w=nu partial_1^2 w. A single Fourier mode must be phase-transported, w=A(s)n^(-1)sin(n(y_1-s)), with A'=-nu n^2 A. Its projected nonlinear source is N=-partial_1 w e_2=-A(s)cos(n(y_1-s))e_2. After choosing the selector sign, if the entrance amplitude is bounded then the selected terminal carrier on [-theta,0] is at most C theta A(-1)exp(-nu n^2(1-theta)), hence vanishes as n->infty for every fixed theta<1; keeping an order-one terminal carrier requires exponentially large entrance amplitude. Thus the residual-free transported-shear subcase cannot create a terminal endpoint source atom from bounded old data. The remaining heat-scale obstruction must use genuine nonlinear same-carrier refill, pressure coupling, profile production, or become a paid source/Part/legal defect."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-convective-normal-form-full-ns-residual-test-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-direct-lpas-raw-active-square-false-shear-counterexample-20260611.md
@@ -111,13 +111,20 @@ w_m(s,y_1)
 \tag{ETS.9}
 \]
 
+After applying the finite selector to the sign of this one-mode branch, assume
+
+\[
+A_m(-1)\ge0.
+\tag{ETS.10}
+\]
+
 Then
 
 \[
 \partial_sw_m+\partial_1w_m
 =
 {A_m'(s)\over n_m}\sin(n_m(y_1-s)),
-\tag{ETS.10}
+\tag{ETS.11}
 \]
 
 and
@@ -126,7 +133,7 @@ and
 \partial_1^2w_m
 =
 -n_mA_m(s)\sin(n_m(y_1-s)).
-\tag{ETS.11}
+\tag{ETS.12}
 \]
 
 Therefore `(ETS.8)` is equivalent to
@@ -135,7 +142,7 @@ Therefore `(ETS.8)` is equivalent to
 \boxed{
 A_m'(s)=-\nu n_m^2A_m(s).
 }
-\tag{ETS.12}
+\tag{ETS.13}
 \]
 
 Hence
@@ -144,7 +151,7 @@ Hence
 A_m(s)=A_m(-1)e^{-\nu n_m^2(s+1)}
 \qquad
 (-1\le s\le0).
-\tag{ETS.13}
+\tag{ETS.14}
 \]
 
 The exact projected nonlinear source is
@@ -153,7 +160,7 @@ The exact projected nonlinear source is
 N_m(s,y)
 =
 -A_m(s)\cos(n_m(y_1-s))e_2.
-\tag{ETS.14}
+\tag{ETS.15}
 \]
 
 ## 3. Selected carrier on terminal strips
@@ -164,7 +171,7 @@ For the selector \(e_2\mapsto -e_2\),
 [-N_m\cdot e_2]_+
 =
 A_m(s)[\cos(n_m(y_1-s))]_+
-\tag{ETS.15}
+\tag{ETS.16}
 \]
 
 when \(A_m(s)\ge0\). Therefore
@@ -173,10 +180,10 @@ when \(A_m(s)\ge0\). Therefore
 \int_{\mathbb T^3}[-N_m(s,y)\cdot e_2]_+\,dy
 =
 2(2\pi)^2A_m(s).
-\tag{ETS.16}
+\tag{ETS.17}
 \]
 
-Using `(ETS.13)`,
+Using `(ETS.14)`,
 
 \[
 \int_{-\theta}^{0}\int_{\mathbb T^3}
@@ -184,7 +191,7 @@ Using `(ETS.13)`,
 =
 2(2\pi)^2A_m(-1)
 \int_{-\theta}^{0}e^{-\nu n_m^2(s+1)}\,ds.
-\tag{ETS.17}
+\tag{ETS.18}
 \]
 
 Since \(s+1\ge1-\theta\) on \([-\theta,0]\),
@@ -194,14 +201,14 @@ Since \(s+1\ge1-\theta\) on \([-\theta,0]\),
 [-N_m\cdot e_2]_+\,dy\,ds
 \le
 2(2\pi)^2\theta A_m(-1)e^{-\nu n_m^2(1-\theta)}.
-\tag{ETS.18}
+\tag{ETS.19}
 \]
 
 Thus, if
 
 \[
 \sup_m A_m(-1)<\infty,
-\tag{ETS.19}
+\tag{ETS.20}
 \]
 
 then for every fixed \(\theta<1\),
@@ -211,7 +218,7 @@ then for every fixed \(\theta<1\),
 \int_{-\theta}^{0}\int_{\mathbb T^3}
 [-N_m\cdot e_2]_+\,dy\,ds
 =0.
-\tag{ETS.20}
+\tag{ETS.21}
 \]
 
 In particular the exact transported-shear branch cannot produce a nonzero
@@ -220,13 +227,13 @@ terminal endpoint atom from bounded entrance amplitude.
 ## 4. Order-one terminal carrier requires old-data blowup
 
 Conversely, suppose an order-one terminal carrier survives on a strip
-\([-\theta,0]\). Then `(ETS.18)` forces
+\([-\theta,0]\). Then `(ETS.19)` forces
 
 \[
 A_m(-1)
 \ge
 c_\theta e^{\nu n_m^2(1-\theta)}
-\tag{ETS.21}
+\tag{ETS.22}
 \]
 
 for some \(c_\theta>0\) along the selected subsequence.
@@ -237,7 +244,7 @@ The entrance energy of the oscillatory component is
 \int_{\mathbb T^3}|w_m(-1,y_1)e_2|^2\,dy
 =
 {A_m(-1)^2\over n_m^2}(2\pi)^2\pi.
-\tag{ETS.22}
+\tag{ETS.23}
 \]
 
 Therefore an order-one terminal carrier in this exact shear branch requires
@@ -246,7 +253,7 @@ Therefore an order-one terminal carrier in this exact shear branch requires
 \int_{\mathbb T^3}|w_m(-1,y_1)e_2|^2\,dy
 \ge
 C_\theta {e^{2\nu n_m^2(1-\theta)}\over n_m^2}.
-\tag{ETS.23}
+\tag{ETS.24}
 \]
 
 That is not hidden terminal refill. It is enormous old heat ancestry.
@@ -259,7 +266,7 @@ Under Navier-Stokes heat scaling,
 u_m(t,x)
 =
 r_m^{-1}V_m\!\left({t-T\over r_m^2},{x\over r_m}\right),
-\tag{ETS.24}
+\tag{ETS.25}
 \]
 
 the normalized statement above is unchanged. A residual-free transported shear
@@ -287,7 +294,7 @@ Thus the shear geometry is now split cleanly:
 unless old data blows up.}
 \end{gathered}
 }
-\tag{ETS.25}
+\tag{ETS.26}
 \]
 
 The remaining heat-scale obstruction must therefore use genuine same-carrier
