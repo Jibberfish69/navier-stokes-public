@@ -41,7 +41,7 @@ where the terminal source is the actual Leray-projected nonlinearity
 
 Citation rule. This note may be cited only as a negative supplier test:
 terminal heat time alone does not force a uniform analytic/tower radius. It may
-not be cited as a Navier-Stokes normal form, nonlinear approximation, source
+not be cited as a Navier-Stokes model, nonlinear approximation, source
 model, or selected-carrier identity.
 
 It tests only whether parabolic smoothing alone can produce the uniform coupled
