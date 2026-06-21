@@ -2,7 +2,7 @@
 theorem_id: forward-gold-terminal-heat-scale-pulse-master-normal-form-20260620
 status: master-normal-form-complete-forward-gold-not-solved
 logical_landing_node: terminal_heat_scale_pulse_unweighted_selected_carrier_reserve
-edge_effect: "Consolidates the endpoint UI, same-carrier tail UI, source-square, critical-strain, normalized CKN, coherent participation square, square parent-or-charge, signed donor, diffuse parent-cloud/no-null, finite-effective-branching/depth-entropy, same-shadow gauge/action, mode-lobe expansion, strict no-waste, and compact-profile branches into one exact normal form. The only forward-gold theorem left by these tests is an unweighted critical-action reserve on the actual selected positive carrier. Without that reserve, the retained pulse is a CM Pack/Part/Field readout only after same-witness CM-test admission."
+edge_effect: "Consolidates the endpoint UI, finite-readout visibility, combined Holder critical density, same-carrier tail UI, source-square, critical-strain, normalized CKN, coherent participation square, square parent-or-charge, signed donor, diffuse parent-cloud/no-null, finite-effective-branching/depth-entropy, same-shadow gauge/action, mode-lobe expansion, strict no-waste, and compact-profile branches into one exact normal form. The only forward-gold theorem left by these tests is an unweighted critical-action reserve on the actual selected positive carrier. Without that reserve, the retained pulse is a CM Pack/Part/Field readout only after same-witness CM-test admission."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-tail-ui-production-normal-form-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-strain-carrier-ui-holder-saturation-test-20260620.md
@@ -25,6 +25,10 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-common-nodal-supplier-exhaustion-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-element-minimality-discount-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-first-created-reserve-source-square-energy-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-atom-forces-finite-order-readout-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-readout-quantum-global-budget-direct-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-readout-to-critical-budget-identification-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-combined-holder-density-budget-direct-test-20260621.md
 ---
 
 # MPP Forward-Gold Terminal Heat-Scale Pulse Master Normal Form
@@ -35,10 +39,10 @@ Date: 2026-06-20
 
 Master normal-form reduction complete.  This note does not solve the
 forward-gold theorem.  It records the exact nonduplicated theorem left after
-the endpoint, participation, square-reserve, donor, parent-cloud/no-null,
-finite-branch/depth-entropy, same-shadow gauge/action, mode-lobe expansion,
-no-waste, and compactness branches have been tested against the same heat-scale
-pulse.
+the endpoint, finite-readout, combined Holder, participation, square-reserve,
+donor, parent-cloud/no-null, finite-branch/depth-entropy, same-shadow gauge/action,
+mode-lobe expansion, no-waste, and compactness branches have been tested against
+the same heat-scale pulse.
 
 The live forward-gold object is:
 
@@ -229,6 +233,70 @@ keeps incompressibility compatible with the selected positive branch.  The
 negative transverse partners help only after retained signed-partner or polar
 saturation is proved.
 
+There are two sharper bookkeeping facts after the finite-readout tests.
+
+First, a selected endpoint atom cannot be hidden entirely in high analytic
+rungs if the selected carrier is a fixed finite-order expression.  If
+
+```math
+a_m(s)\le C_X X_m(s)^p
+\tag{THP.15a}
+```
+
+and
+
+```math
+\int_{I_m}a_m(s)\,ds\ge a_0>0,
+\tag{THP.15b}
+```
+
+then
+
+```math
+\int_{I_m}X_m(s)^p\,ds\ge {a_0\over C_X}.
+\tag{THP.15c}
+```
+
+This is a genuine finite-readout quantum.  It is not a global budget.  Physical
+energy and dissipation still control only radius-discounted versions of many
+normalized finite readouts on a Zeno heat-scale stack.
+
+Second, for the native trilinear carrier the algebraic critical consumer is
+exact.  Young's inequality gives
+
+```math
+|\Sigma|\,|W|^2
+\le
+{2\over5}|\Sigma|^{5/2}
++
+{3\over5}|W|^{10/3},
+\tag{THP.15d}
+```
+
+so a retained trilinear carrier atom forces a positive quantum of the combined
+critical Holder density
+
+```math
+H_m(s)
+:=
+\int_{B_1}|\Sigma_m^{loc}|^{5/2}\,dy
++
+\int_{B_1}|W_m|^{10/3}\,dy.
+\tag{THP.15e}
+```
+
+The missing theorem is not this algebraic domination.  It is the unweighted
+terminal-family budget
+
+```math
+\sum_m\int_{I_m}H_m(s)\,ds<\infty
+\tag{THP.15f}
+```
+
+or terminal-tail depletion of the same quantity.  Current energy inputs supply
+the \(L^{10/3}\) velocity side only with a physical factor \(r_m^{5/3}\), and
+they supply \(L^2\) strain rather than the unweighted \(L^{5/2}\) strain count.
+
 ## 4. Same pulse in parent-or-charge currency
 
 The normalized-adjoint source-drain machinery pays residual creation after
@@ -369,6 +437,10 @@ status:
 \begin{array}{c|c}
 \text{candidate} & \text{status after direct tests}\\
 \hline
+\text{finite-order selected readout} &
+\text{atom visibility; no global unweighted budget}\\
+\text{combined Holder density} &
+\text{algebraic trilinear consumer; unweighted budget absent}\\
 \text{same-carrier }p>1\text{ / Orlicz} &
 \text{consumer of tail UI; production absent}\\
 \text{source-square / Carleson} &
