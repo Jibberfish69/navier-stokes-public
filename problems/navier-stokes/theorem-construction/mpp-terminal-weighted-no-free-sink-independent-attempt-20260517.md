@@ -286,7 +286,7 @@ and the May 19 shared-participation CM classification. The result is:
 ```text
 TerminalZenoRefillNoFreeSink.A_ind is not closed as a forward positive-supplier
 theorem from installed inputs. The surviving B_ASAC^closed terminal atom is
-now consumed on the CM side as incoming flux, paid exit, or a Pack/Part/Field
+now consumed on the CM side as incoming flux, paid exit, or a Part/Field
 face witness. Further forward PRD supplier progress requires an external
 new-production theorem forcing time thickness, no-incoming flux, active reserve,
 pressure time-face spread, or a rigid time-face anti-atom subclass.

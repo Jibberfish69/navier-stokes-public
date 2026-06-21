@@ -19,7 +19,7 @@ TGC.A+AACT.Global.noJump+AVG.END.A+READ.END\Longrightarrow PCTP.hard.
 Here `upstream` means upstream of `End_NS_avg` and `READ.END` inside the
 downstream `PCTP.hard` consumer route only. It does not mean upstream of the
 governing CM primitive `Exit(Q):=not Member(Q)`, and it does not upgrade this
-note into a witness-face bridge.
+note into a witness bridge.
 
 ## Source anchors
 

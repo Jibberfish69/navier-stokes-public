@@ -212,7 +212,7 @@ B_ASAC rigid subclass:
 
 CM branch:
   the B_ASAC^closed atom is consumed as incoming flux, paid exit, or a
-  Pack/Part/Field face witness;
+  Part/Field face witness;
 
 forward PRD supplier:
   still requires an external new-production theorem excluding terminal

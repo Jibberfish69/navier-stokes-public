@@ -398,7 +398,7 @@ reason: proof assembly exposes no dischargeable target
 next_cell_type: debt-extract
 ```
 
-The discharge target remained the older CM witness-face bridge item rather than
+The discharge target remained the older CM witness bridge item rather than
 the conditional theorem-creation output.
 
 Interpretation: recursive theorem creation now produces conditional source-wall

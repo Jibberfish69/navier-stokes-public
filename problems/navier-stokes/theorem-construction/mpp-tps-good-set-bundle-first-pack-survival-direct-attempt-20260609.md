@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/transported-phase-space-selector-theorem-candidate.md
     - problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md
     - problems/navier-stokes/theorem-construction/tps-shadow-time-budget-packet.md
-  downstream_consequence: "The loop remains active at NewFirstPackSurvivalMechanismInventionPacket.A. The next narrowed target is CFBundleCoerciveFirstPackSurvivalBridge.A or an equivalent theorem converting selector-local good-set bundle expansion / shadow-time decay into positive active-time thickness for the same original-data Pack witness, then into OriginalSmoothDataPackSurvival.A. pdfs_final remains false."
+  downstream_consequence: "The loop remains active at NewFirstPackSurvivalMechanismInventionPacket.A. The next narrowed target is CFBundleCoerciveFirstPackSurvivalBridge.A or an equivalent theorem converting selector-local good-set bundle expansion / shadow-time decay into positive active-time thickness for the same original-data Field-window support, then into OriginalSmoothDataPackSurvival.A. pdfs_final remains false."
 ---
 
 # MPP TPS Good-Set Bundle First-Pack Survival Direct Attempt
@@ -45,7 +45,7 @@ If proved, the propagation would be:
 
 ```text
 TPS good-set bundle expansion
-=> positive active-time thickness for the same Pack witness
+=> positive active-time thickness for the same Field-window support
 => no zero-thickness first Pack failure from original smooth data
 => OriginalSmoothDataPackSurvival.A
 => NoGenuineExitFromSmoothData.A.
@@ -90,7 +90,7 @@ Assume the installed TPS packet gives one of the two outputs:
 To use this for first Pack survival, the loop needs a same-object bridge:
 
 ```text
-same original-data terminal Pack witness
+same original-data terminal Field-window support
 => belongs to the TPS good active-pair packet
 => TPS expansion controls its zero-thickness terminal source layer
 => positive active-time thickness or Pack-face survival.
@@ -100,7 +100,7 @@ The installed TPS files do not prove this bridge. They work at the selector /
 pair-packet level. The strong route is still conditional on a transverse
 lower-bound theorem such as `CF-bundle-coercive`; the weak route controls
 time-averaged overlap, not the existence of a positive active-time interval for
-the particular first Pack witness.
+the particular first Field-window support.
 
 ## Falsification Model
 
@@ -124,7 +124,7 @@ CFBundleCoerciveFirstPackSurvivalBridge.A.
 ```
 
 That theorem must say that the selector-good bundle expansion applies to the
-same first Pack witness and prices zero-thickness terminal concentration by a
+same first Field-window support and prices zero-thickness terminal concentration by a
 positive active-time lower bound.
 
 ## Result
@@ -150,7 +150,7 @@ good-set bundle route, is not installed as a first-Pack-survival theorem. Curren
 TPS surfaces identify a candidate geometric/dynamic mechanism, but they stop at
 open `CF-bundle-coercive` / shadow-time-decay inputs and packet-overlap
 consequences. They do not yet prove the same-atlas bridge from the original-data
-first Pack witness to positive active-time thickness, `OriginalSmoothDataPackSurvival.A`,
+first Field-window support to positive active-time thickness, `OriginalSmoothDataPackSurvival.A`,
 or `NoGenuineExitFromSmoothData.A`. The next direct theorem target is
 `CFBundleCoerciveFirstPackSurvivalBridge.A` or an equivalent same-witness TPS to
 Pack-survival bridge. Keep `pdfs_final` false.

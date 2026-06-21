@@ -6,7 +6,7 @@ Status: authority wording correction.
 
 ## Correction
 
-Finite Zeno ancestry packets may be legal CM packets. For every finite stage
+Finite Zeno ancestry packets may be legal CM participation-field records. For every finite stage
 `m`, the selected packet `P_m` has positive radius `r_m>0` and can still sit
 inside the ordinary retained packet grammar.
 
@@ -29,7 +29,7 @@ spend a retained `Field_{N,r,Q}` face.
 
 Endpoint source or jump language is allowed only as downstream readout after
 CM exit, or under an additional positive-scale retained-carrier theorem. It must
-not be used to treat the terminal residue itself as a legal retained CM packet.
+not be used to treat the terminal residue itself as a legal retained CM participation-field record.
 
 ## CM Use
 
@@ -43,9 +43,9 @@ or hit CM exit before a terminal zero-radius residue appears.
 
 The positive-radius retained tail is handled by
 `NoPersistentUnpaidPositiveRadiusAncestry.A`: a positive terminal carrier must
-pay, receive flux, leave through a legal ledger, or hit a finite CM face.
+pay, receive flux, leave through a legal ledger, or hit a finite CM Part/Field.
 
-The terminal zero-radius object is already illegal inside CM packet legality.
+The terminal zero-radius object is already illegal inside CM participation-field record legality.
 It does not carry a further forward PRD, no-pulse, or source-control deletion
 burden. Those positive supplier presentations are downstream readout/support
 for a different program unless a later target explicitly switches away from

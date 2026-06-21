@@ -13,7 +13,7 @@ surface:
 ```text
 finite terminal non-continuation on T^3
 => one readout-complete same-fluid terminal atlas is tested
-=> first failed Pack/Part/Field service
+=> first failed Part/Field service
 => Exit(Q):=not Member(Q).
 ```
 
@@ -77,7 +77,7 @@ terminal-capture proof.
 ## Theorem `TorusGlobalMaterialAtlasTerminalCapture.A`
 
 On `T^3`, a finite terminal non-continuation time for the same original smooth
-Navier-Stokes solution forces a Pack-first face failure on the global material
+Navier-Stokes solution forces a Field-certification Part/Field failure on the global material
 atlas:
 
 ```text
@@ -160,7 +160,7 @@ material has one of three roles:
 1. it identifies the selected terminal atlas record and proves which Pack,
    Part, or Field face is lost for that same record;
 2. it supplies support for a service or readout theorem;
-3. it stays demoted until a same-atlas face derivation is proved.
+3. it stays demoted until a same-atlas Part/Field derivation is proved.
 
 Thus unresolved supplier rows such as retained native reserve birth, signed
 current, local critical translators, and no-pulse/readout machinery do not block

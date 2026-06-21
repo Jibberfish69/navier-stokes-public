@@ -19,15 +19,15 @@ preserves every turn; this note extracts the proof-bearing content, especially
 the fine user-side distinctions that were being flattened during the exchange.
 
 The result is a pre-CM ontology gate for terminal Zeno / vortex-center claims.
-It does not reopen terminal Zeno as a fourth CM face. It records why the
+It does not reopen terminal Zeno as a fourth CM Part/Field. It records why the
 point-spin loophole either leaves classical Navier-Stokes, or re-enters the
-existing `Pack/Part/Field` witness tree.
+existing `Part/Field` witness tree.
 
 ## Existing Authority Boundary
 
 The current direct-live CM boundary already says:
 
-- finite positive-radius Zeno ancestry can still be a legal CM packet;
+- finite positive-radius Zeno ancestry can still be a legal CM participation-field record;
 - the terminal zero-radius endpoint is not a retained positive-radius packet;
 - the first CM failure for that endpoint lands Part-side when same-solution original participation remains and true `not Pack_Q` only when that record is absent;
 - Field/jump/source language is downstream readout unless a separate
@@ -52,8 +52,8 @@ The conversation separates five objects that must not be conflated:
 | Object | NS/CM status | Home |
 | --- | --- | --- |
 | pointwise terminal probe | valid diagnostic, not a continuation certificate | nested-window / Pack test |
-| zero-radius terminal residue with no retained carrier | first face is `not Pack_Q` | terminal Zeno Pack correction |
-| true vortex structure | positive-radius object | `Pack/Part/Field` |
+| zero-radius terminal residue with no retained carrier | first Part/Field is `not Pack_Q` | terminal Zeno Pack correction |
+| true vortex structure | positive-radius object | `Part/Field` |
 | collapsed orbital spin from `omega=v/r` as `r -> 0` | NS field-limit object only through `u,p,nabla u`, vorticity, strain, circulation, pressure | `Field` only after carrier and law survive; `Pack` if no positive carrier survives |
 | intrinsic singleton spin | external to classical NS unless a spin variable is added | formal ontic package exclusion / new PDE |
 
@@ -63,7 +63,7 @@ So the refined conclusion is:
 terminal Zeno has no fourth ontology inside classical NS.
 ```
 
-It is zero-radius Pack-before-Part typed failure, retained-packet Part/Field failure, diagnostic
+It is zero-radius Pack-out-of-CM typed failure, retained-packet Part/Field failure, diagnostic
 point probing, or an external singleton-spin ontology outside the equation.
 
 ## Exceptional Fine Points Extracted
@@ -102,7 +102,7 @@ every such window collapses to zero scale.
 
 Home:
 
-- The positive branch enters the ordinary `Pack/Part/Field` tree.
+- The positive branch enters the ordinary `Part/Field` tree.
 - The zero-scale branch lands Part-side when same-solution original participation remains and true `not Pack_Q` only when that record is absent.
 - This belongs with the terminal Zeno Pack correction, not with retained Field
   language.
@@ -172,7 +172,7 @@ vortex structure => positive-radius object.
 Therefore:
 
 - a zero-radius "vortex" is incoherent as a vortex;
-- a true vortex enters `Pack/Part/Field`;
+- a true vortex enters `Part/Field`;
 - a zero-radius residue without a retained carrier is `not Pack_Q`.
 
 ### 6. Vortex center is not the vortex body
@@ -265,7 +265,7 @@ Therefore:
 - if `S(t)` is uncoupled from `u,p`, it is invisible to NS smoothness;
 - if `S(t)` couples to `u,p`, the model is no longer classical NS;
 - if `S(t)` is reconstructed from `omega=v/r`, it is a collapsed field-limit
-  quantity and enters `Pack/Part/Field`.
+  quantity and enters `Part/Field`.
 
 ### 11. The final force is staged elimination
 
@@ -288,7 +288,7 @@ Home:
 This is the local pre-gate:
 
 ```text
-Before assigning Pack/Part/Field, identify whether the alleged terminal object
+Before assigning Part/Field, identify whether the alleged terminal object
 is a classical NS field-limit object.
 ```
 
@@ -305,8 +305,8 @@ is a classical NS field-limit object.
 | annular-vortex exclusion | optional positive-radius Field/Part support | only relevant after a true positive-radius vortex packet survives Pack |
 | `PointSpinFieldExclusion.A` | premature as a theorem name | use only after the point-spin object is proved to be an NS field-limit object on a retained carrier |
 | intrinsic singleton spin | external ontology | formal ontic package exclusion; no classical NS counterexample unless the PDE is changed |
-| collapsed orbital spin | NS field-limit object | enters CM through `Pack/Part/Field`, with Field only after Pack and Part survive |
-| terminal Zeno as "mystery object" | false after the ontology split | demote; no fourth CM face |
+| collapsed orbital spin | NS field-limit object | enters CM through `Part/Field`, with Field only after Pack and Part survive |
+| terminal Zeno as "mystery object" | false after the ontology split | demote; no fourth CM Part/Field |
 
 ## Local Gate To Reuse
 
@@ -337,7 +337,7 @@ user's ontology question into a CM classification too early. The durable guard
 is:
 
 ```text
-Do not assign the vortex-center singleton to Pack, Part, or Field until the
+Do not assign the vortex-center singleton to Part or Field until the
 object has first been typed as diagnostic point, zero-radius residue,
 positive-radius vortex packet, collapsed NS field-limit, or external singleton
 spin.
