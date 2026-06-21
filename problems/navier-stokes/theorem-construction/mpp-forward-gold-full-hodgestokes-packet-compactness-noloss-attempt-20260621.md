@@ -1,8 +1,8 @@
 ---
 theorem_id: forward-gold-full-hodgestokes-packet-compactness-noloss-attempt-20260621
-status: criterion-proved-transport-and-local-pressure-defects-reduced-remaining-defect-split-installed
+status: criterion-proved-transport-local-pressure-and-viscous-defects-reduced-remaining-defect-split-installed
 logical_landing_node: full_hodgestokes_packet_compactness_noloss
-edge_effect: "Tests the same-carrier compactness/no-loss input needed by ParticipationPreservingNoResidueFullCycle.A. The exact criterion is proved: strong same-carrier convergence of velocity in L^3, pressure in L^(3/2), gradient in L^2, stable cutoffs/selectors, and legal residual tightness imply full Hodge-Stokes packet convergence and hence positive selected-carrier no-loss by the L1 Lipschitz property of the positive part. Standard suitable-solution compactness is shown to be insufficient for this full no-loss result because it gives distributional equation passage and lower semicontinuity, not total-variation convergence of the selected positive packet. The transport product defect is evacuated on stabilized carriers by standard local energy compactness and strong L^3 velocity convergence. The local same-carrier pressure trace is evacuated by Calderon-Zygmund after transport product convergence; the remaining pressure obstruction is harmonic pressure memory/collar/gauge trace. The remaining production split is pressure-memory/collar trace defect, viscous defect, selector graph defect, signed saturation defect, terminal trace defect, or legal routing."
+edge_effect: "Tests the same-carrier compactness/no-loss input needed by ParticipationPreservingNoResidueFullCycle.A. The exact criterion is proved: strong same-carrier convergence of velocity in L^3, pressure in L^(3/2), gradient in L^2, stable cutoffs/selectors, and legal residual tightness imply full Hodge-Stokes packet convergence and hence positive selected-carrier no-loss by the L1 Lipschitz property of the positive part. Standard suitable-solution compactness is shown to be insufficient for this full no-loss result because it gives distributional equation passage and lower semicontinuity, not total-variation convergence of the selected positive packet. The transport product defect is evacuated on stabilized carriers by standard local energy compactness and strong L^3 velocity convergence. The local same-carrier pressure trace is evacuated by Calderon-Zygmund after transport product convergence; the remaining pressure obstruction is harmonic pressure memory/collar/gauge trace. The viscous measure defect is paid loss or strong gradient convergence. The remaining hidden production split is selector graph defect, signed saturation defect, terminal trace defect, legal routing, or harmonic pressure-memory/collar trace."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lossless-full-hodgestokes-packet-rigidity-20260621.md
@@ -11,6 +11,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-trace-defect-compactness-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-transport-product-defect-evacuation-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-pressure-trace-defect-reduction-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-viscous-defect-dichotomy-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-upgraded-four-body-current-frontier-20260621.md
 ---
 
@@ -400,6 +401,25 @@ Viscous defect:
 \tag{FHC.29}
 ```
 
+This defect is now a paid-or-strong dichotomy:
+
+```math
+\boxed{
+\mu^\nu\ne0
+\Rightarrow
+\text{visible viscous payment;}
+\qquad
+\mu^\nu=0
+\Rightarrow
+\nabla V_n\to\nabla V\text{ strongly in }L^2.
+}
+\tag{FHC.29a}
+```
+
+Thus `(FHC.29)` cannot remain as a hidden positive carrier.  It either enters
+the full-cycle loss ledger, or it gives the strong viscous convergence needed
+for no-loss passage.
+
 Selector graph defect:
 
 ```math
@@ -447,8 +467,8 @@ Thus the compactness/no-loss production target is exactly:
 
 ```math
 \boxed{
-\text{rule out or charge }(FHC.28b)\text{ and }(FHC.29)\text{--}(FHC.33),
-\text{ after local transport/pressure parts pass.}
+\text{rule out or charge }(FHC.28b)\text{ and }(FHC.30)\text{--}(FHC.33),
+\text{ after transport, local pressure, and viscosity are reduced.}
 }
 \tag{FHC.34}
 ```
@@ -479,5 +499,5 @@ The corrected full-cycle branch is therefore narrowed to:
 \tag{FHC.36}
 ```
 
-or charge `(FHC.28b)` and one of the exact defects `(FHC.29)`--`(FHC.33)`
+or charge `(FHC.28b)` and one of the exact defects `(FHC.30)`--`(FHC.33)`
 into the existing four-body legal, saturation, trace, or rigidity ledgers.
