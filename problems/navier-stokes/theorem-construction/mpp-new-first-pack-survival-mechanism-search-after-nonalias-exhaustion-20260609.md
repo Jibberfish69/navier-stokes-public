@@ -4,7 +4,7 @@ ns_viewer:
   status: active-frontier-mechanism-invention-required
   proof_role: first_pack_survival_mechanism_invention_gate
   logical_landing_node: NewFirstPackSurvivalMechanismInventionPacket.A
-  edge_effect: "Continues the active completion loop after NS-LIVE-20260609-196. The repo-local theorem-invention surfaces were checked: creative-theorem-search.yaml is superseded-by-direct-live-clearance and theorem-creation.yaml is support-only under the CM referee override. ActiveHeightFluxTrichotomy.A, SourceReserveBirthCharge.A, SignedPairReserveVisibility.A, and no-free-sink language cannot be selected as fresh live CM proof targets without a same-atlas Pack/Part/Field face derivation. The next pass must invent a genuinely new first-Pack-survival mechanism, not reuse those surfaces or the consumed endpoint/source-density/material/h-F/minimal-bubble/direct-bridge families."
+  edge_effect: "Continues the active completion loop after NS-LIVE-20260609-196. The repo-local theorem-invention surfaces were checked: creative-theorem-search.yaml is superseded-by-direct-live-clearance and theorem-creation.yaml is support-only under the CM referee override. ActiveHeightFluxTrichotomy.A, SourceReserveBirthCharge.A, SignedPairReserveVisibility.A, and no-free-sink language cannot be selected as fresh live CM proof targets without a same-atlas Part/Field Part/Field derivation. The next pass must invent a genuinely new first-Pack-survival mechanism, not reuse those surfaces or the consumed endpoint/source-density/material/h-F/minimal-bubble/direct-bridge families."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-first-exit-nonalias-frontier-after-basac-density-failure-20260609.md
     - problems/navier-stokes/creative-theorem-search.yaml
@@ -74,7 +74,7 @@ cm_referee_override.status: active
 The override says that `ActiveHeightFluxTrichotomy.A`,
 `SourceReserveBirthCharge.A`, `SignedPairReserveVisibility.A`, and no-free-sink
 language must not become the live CM proof target unless a same-atlas
-Pack/Part/Field face derivation is proved.
+Part/Field Part/Field derivation is proved.
 
 That derivation is not installed in those surfaces. So the historical
 height-flux/source-reserve theorem-invention branch is support-only here, not
@@ -87,7 +87,7 @@ fresh first-Pack survival progress.
 `ActiveHeightFluxTrichotomy.A` and `SourceReserveBirthCharge.A` were generated as
 support theorem-search surfaces. They do not currently prove a same-solution
 first Pack face exclusion from original smooth data. They also do not supply the
-missing same-atlas Pack/Part/Field derivation required by the CM referee override.
+missing same-atlas Part/Field derivation required by the CM referee override.
 
 Result: support-only, not a live fresh mechanism.
 
@@ -131,7 +131,7 @@ Result: consumed route inventory, not a fresh mechanism.
 
 Finite-obstruction classification and `Exit(Q):=not Member(Q)` record the CM
 face result. They do not by themselves prove that original smooth data cannot
-generate a genuine first Pack/that face failure. That missing step is exactly
+generate a genuine first Pack/that Part/Field failure. That missing step is exactly
 `NoGenuineExitFromSmoothData.A`.
 
 Result: classification support, not CMI finality.

@@ -2,7 +2,7 @@
 
 ## Authority Cap - Positive No-Exit Attempt Only
 
-This file is retained as a positive no-exit / packet-survival proof attempt. Current CM proof-status authority is `mpp-cm-proof-completion-surface-field-audit-20260525.md` plus `mpp-completed-proof-surface-challenge-20260525.md`. The open Pack/Part/Field no-exit language here is not an active CM blocker. Reopening requires a proved legal in-class nonsmooth third branch or a proved failure of Clay terminal CM entry/exhaustion/embedding.
+This file is retained as a positive no-exit / packet-survival proof attempt. Current CM proof-status authority is `mpp-cm-proof-completion-surface-field-audit-20260525.md` plus `mpp-completed-proof-surface-challenge-20260525.md`. The open Part/Field no-exit language here is not an active CM blocker. Reopening requires a proved legal in-class nonsmooth third branch or a proved failure of Clay terminal CM entry/exhaustion/embedding.
 
 Date: 2026-05-23
 
@@ -47,8 +47,8 @@ The live face reduction is:
 
 ```text
 NoGenuineCMExit.A
-=> continuation-complete Pack/Part/Field packet survives
-=> Pack-first source reserve wall after source-residue sorting
+=> continuation-complete Part/Field packet survives
+=> Field-certification source reserve wall after source-residue sorting
 => ScaleCriticalTreeCarleson.A or an equivalent source-reserve birth charge.
 ```
 
@@ -190,7 +190,7 @@ R_N(W)
 Charge_N^{native}(W)+o_N(1),
 ```
 
-where the native charge must land in one of the CM witness faces:
+where the native charge must land in one of the CM witnesss:
 
 ```text
 Pack-gain / packing detachment,
@@ -231,7 +231,7 @@ mpp-terminal-cm-no-exit-full-agency-proof-audit-20260523.md
 ```
 
 That audit keeps `TerminalCMNoExit.FaceReduction.A` as a valid face reduction
-and keeps Pack, Part, and Field no-exit open from original smooth data.  Its
+and keeps Part and Field no-exit open from original smooth data.  Its
 fresh `ScaleCriticalTreeCarleson.A` creation readback also keeps the Pack-side
 reserve route open at:
 
@@ -242,7 +242,7 @@ ScaleCriticalTreeCarleson.A.CoreSubprimitive
 The coordinated live target is therefore not another tail-square absorption.
 It is the source-reserve birth theorem above, or a genuinely equivalent
 structural theorem that prices first creation of the scale-critical donor
-reserve inside Pack/Part/Field/Zeno class-exit grammar.
+reserve inside Part/Field/Zeno class-exit grammar.
 
 Until that bridge is proved, the correct status is:
 

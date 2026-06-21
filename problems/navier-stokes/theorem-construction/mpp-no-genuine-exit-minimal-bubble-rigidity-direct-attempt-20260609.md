@@ -122,8 +122,8 @@ reverse-Holder, Carleson, or Liouville input.
 
 ## Failed shortcut: terminal face means contradiction
 
-The CM classification theorem still says the bubble is a Pack/Part/Field face
-failure; that concrete face failure supports:
+The CM classification theorem still says the bubble is a Part/Field face
+failure; that concrete Part/Field failure supports:
 
 ```text
 Exit(Q):=not Member(Q).

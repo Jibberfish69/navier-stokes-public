@@ -44,7 +44,7 @@ Zeno class production.
   is useful support, but the checked records leave every displayed link as a
   new subprimitive until the signed-saturation end.
 - `TerminalSignedSaturationCMFaceReduction.A` is face-classification support:
-  it says failures of signed saturation route into Pack/Part/Field witness-face
+  it says failures of signed saturation route into Part/Field witness
   exit. It is not a forward no-free-sink theorem and does not by itself produce
   the source residence needed by `BASACTimeFaceAntiAtom.A`.
 
@@ -59,7 +59,7 @@ support.
 
 The signed-saturation chain must not be promoted to closure. It can help once a
 bad source packet has been admitted to the CM witness tree, because then its
-failure can land in Pack/Part/Field. It does not prove that the positive source
+failure can land in Part/Field. It does not prove that the positive source
 marginal has enough temporal residence to remove the terminal atom.
 
 The next honest theorem target is therefore
@@ -84,6 +84,6 @@ residence needed to close the public Clay-facing Pack-survival wall.
 Attack `TerminalReserveFirstAppearanceCharge.A / ChargeLedgerInjection.A` as the
 same-ledger first-birth charge theorem. The proof attempt must show that an
 uncharged genuinely new terminal source-reserve birth creates either inherited
-parent mass, charge-ledger injection, or a concrete Pack/Part/Field witness-face
+parent mass, charge-ledger injection, or a concrete Part/Field witness
 failure; it cannot spend `TerminalSignedSaturationCMFaceReduction.A` as a
 forward source-residence theorem.

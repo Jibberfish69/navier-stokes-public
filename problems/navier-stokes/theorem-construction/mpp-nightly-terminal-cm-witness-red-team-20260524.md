@@ -19,7 +19,7 @@ The proof program is the CM contrapositive:
 ```text
 finite Clay breakdown object
 => canonical same-solution terminal obstruction
-=> Pack/Part/Field face failure
+=> Part/Field Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
@@ -29,7 +29,7 @@ still-live contradiction.
 
 ## Red-Team Question
 
-Can a finite same-surface Clay breakdown witness avoid the Pack-first
+Can a finite same-surface Clay breakdown witness avoid the Field-certification
 `Pack_Q / Part_{N,Q} / Field_{N,r,Q}` terminal witness tree while still being a
 valid Navier-Stokes finite breakdown witness?
 
@@ -45,9 +45,9 @@ breakdown witness.
 
 ## Attack 2: Terminal-Only Face Loss
 
-The tempting objection is that Pack, Part, or Field can hold on every compact
+The tempting objection is that Part or Field can hold on every compact
 preterminal window and fail only at `T_*`. That does not break the CM
-contrapositive route. The terminal face failure is the witness of
+contrapositive route. The terminal Part/Field failure is the witness of
 `Exit(Q):=not Member(Q)`; it does not need to appear earlier as a contradiction
 with still-live membership.
 
@@ -61,7 +61,7 @@ that is neither carrier/packing, pressure-viscosity participation, nor
 neighboring one-field coherence. The current direct-live authority gives no such
 primitive. Source residue, public-critical response, endpoint readout, donor
 reserve, and no-pulse language are supplier/readout/support presentations until
-they land in Pack, Part, or Field.
+they land in Part or Field.
 
 Result: no installed fourth primitive service.
 
@@ -95,6 +95,6 @@ entry, not as a fresh frontier, missing theorem, or new proof obligation.
 
 The remaining work is Clay-ready proof assembly and acceptance-level exposition
 of the installed terminal CM classification. The write-up must make clear that
-terminal Pack/Part/Field face failure is the CM contrapositive witness
+terminal Part/Field Part/Field failure is the CM contrapositive witness
 supporting `Exit(Q):=not Member(Q)`, without inventing a positive smoothness
 deletion target, a preterminal-reflection target, or a new obstruction label.

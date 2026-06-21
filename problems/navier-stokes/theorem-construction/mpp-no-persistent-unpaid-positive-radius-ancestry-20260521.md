@@ -29,7 +29,7 @@ reserve payment,
 dissipation payment,
 incoming participation/source flux,
 legal/projected/cutoff/boundary exit,
-finite CM face exit.
+finite CM Part/Field exit.
 ```
 
 Equivalently, an all-internal unpaid retained ancestry has no positive-radius
@@ -40,12 +40,12 @@ terminal tail.
 Pass to a subsequence with `r_m>=r_0`. The transported packet geometry has a
 positive terminal carrier, so the branch is no longer a zero-radius Zeno
 endpoint. If `Pack_Q`, `Part_{N,Q}`, or `Field_{N,r,Q}` fails on this finite
-carrier, the desired finite CM face exit has already occurred.
+carrier, the desired finite CM Part/Field exit has already occurred.
 
 It remains to test the retained case
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 On this same retained branch, `SourceMeasureParticipationDensityBridge.A` reads
@@ -90,14 +90,14 @@ for every `\varepsilon>0`. Letting `\varepsilon\downarrow0` contradicts
 
 Thus a positive-radius terminal tail cannot be simultaneously selected,
 unpaid, no-incoming, and retained in finite `CM`. It must pay, receive flux,
-leave through a legal ledger, or hit a finite CM witness face.
+leave through a legal ledger, or hit a finite CM witness.
 
 ## Consequence For The Zeno Dichotomy
 
 For the CM contrapositive route, the finite ancestry alternatives are now:
 
 ```text
-positive-radius terminal tail -> finite accounting event or finite CM face exit;
+positive-radius terminal tail -> finite accounting event or finite CM Part/Field exit;
 no positive-radius terminal tail -> Zeno radius collapse.
 ```
 

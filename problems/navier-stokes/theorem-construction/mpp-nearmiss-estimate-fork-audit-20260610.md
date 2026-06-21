@@ -171,13 +171,13 @@ at least one of these:
 pressure / flux throttle at the selected packet scale,
 donor attenuation strong enough to beat the low-high terminal source cost,
 return-rate budget for terminal packet peaks,
-or a universal CM face landing for every surviving paid singulet/object.
+or a universal CM Part/Field landing for every surviving paid singulet/object.
 ```
 
 `ParticipationDebtPassExitTargetClosure.A` changes the status of that list in
-the CM program. The universal CM face landing has now landed for the
+the CM program. The universal CM Part/Field landing has now landed for the
 participation-debt target set: lawful payment/return/compatibility is pass, and
-failed payment/return/compatibility is Pack, Part, or Field. The pressure,
+failed payment/return/compatibility is Part or Field. The pressure,
 donor, and return estimates remain optional positive supplier programs only
 when the proof explicitly asks to delete the bad residue instead of using it as
 the finite terminal witness.
