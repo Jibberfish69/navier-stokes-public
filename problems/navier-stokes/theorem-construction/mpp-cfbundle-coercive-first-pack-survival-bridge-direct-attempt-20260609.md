@@ -7,7 +7,7 @@ governing_program: "Exit(Q):=not Member(Q) through Pack_Q / Part_{N,Q} / Field_{
 claim_boundary:
   logical_landing_node: CFBundleCoerciveFirstPackSurvivalBridge.A
   claim_status: not_proved
-  edge_effect: "Tests whether the TPS coarse-field bundle coercivity route pays the same-witness first Pack survival bridge exposed by NS-LIVE-20260609-198. The installed TPS packets give conditional good-pair expansion and identify CF-bundle-coercive / SG.4-production as the live selector-local burden. They do not capture the original-data first Pack witness inside the selector-good active-pair family, and they do not force a zero-thickness terminal Pack layer to carry positive active-time thickness on that same witness."
+  edge_effect: "Tests whether the TPS coarse-field bundle coercivity route pays the same-witness first Pack survival bridge exposed by NS-LIVE-20260609-198. The installed TPS packets give conditional good-pair expansion and identify CF-bundle-coercive / SG.4-production as the live selector-local burden. They do not capture the original-data first Field-window support inside the selector-good active-pair family, and they do not force a zero-thickness terminal Pack layer to carry positive active-time thickness on that same witness."
   downstream_consequence: "The active loop remains open below OriginalSmoothDataPackSurvival.A. The next narrowed theorem atom is SameWitnessTPSCaptureForFirstPackExit.A, coupled with SG4ProductionFirstPackWitness.A or an equivalent selector-good lower-envelope theorem for the captured witness. pdfs_final remains false."
 evidence_refs:
   - problems/navier-stokes/theorem-construction/mpp-tps-good-set-bundle-first-pack-survival-direct-attempt-20260609.md
@@ -28,8 +28,8 @@ Proposed statement:
 
 ```text
 For an original smooth-data terminal packet whose first live obstruction is a
-Pack-before-Part typed zero-thickness terminal layer, the TPS coarse-field bundle coercivity
-and actual/coarse deviation packets force the same Pack witness to lie in a
+Pack-out-of-CM typed zero-thickness terminal layer, the TPS coarse-field bundle coercivity
+and actual/coarse deviation packets force the same Field-window support to lie in a
 selector-good active-pair family with positive active-time thickness.
 ```
 
@@ -37,8 +37,8 @@ If proved, the propagation would be:
 
 ```text
 CF-bundle-coercive / restricted Cauchy-Green expansion
-=> selector-good lower-envelope on the same original-data first Pack witness
-=> positive active-time thickness for that Pack witness
+=> selector-good lower-envelope on the same original-data first Field-window support
+=> positive active-time thickness for that Field-window support
 => OriginalSmoothDataPackSurvival.A
 => NoGenuineExitFromSmoothData.A.
 ```
@@ -53,10 +53,10 @@ records `TPS-cg-gap`: restricted right Cauchy-Green coercivity implies the
 selector-local lower bound feeding the active graph / coarea route.
 
 Those packets are strong inside the TPS good-set world. They do not state that
-the original smooth-data first Pack witness is selected by that world. The CM
+the original smooth-data first Field-window support is selected by that world. The CM
 side still starts with the same terminal witness and asks whether the first
-face is `not Pack_Q`, `Pack_Q + not Part_{N,Q}`, or
-`Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}`. The current public-Clay
+face is `not Pack_Q`, `not Part_{N,Q}`, or
+`Part_{N,Q} + forall r>0 not Field_{N,r,Q}`. The current public-Clay
 gap is the first item:
 
 ```text
@@ -90,7 +90,7 @@ good pair
 The needed Pack conclusion is sharper:
 
 ```text
-the original-data first Pack witness W_*
+the original-data first Field-window support W_*
 => W_* is represented by a selector-good active pair or active-pair family
 => the TPS lower envelope prices W_*'s terminal zero-thickness layer
 => W_* has positive active-time thickness.
@@ -134,7 +134,7 @@ with a coupled production theorem:
 SG4ProductionFirstPackWitness.A
 ```
 
-or any equivalent statement proving that the first Pack witness from original
+or any equivalent statement proving that the first Field-window support from original
 smooth data is captured by the selector-good active family and satisfies the
 selector-local lower-envelope / positive active-time thickness packet.
 
@@ -143,7 +143,7 @@ selector-local lower-envelope / positive active-time thickness packet.
 `NS-LIVE-20260609-199`: the CF-bundle coercive TPS route has not been converted
 into same-witness first Pack survival. Current TPS surfaces can control
 selected good pairs under conditional coercivity and lower-envelope hypotheses,
-but they do not prove that the original-data first Pack witness is selected by
+but they do not prove that the original-data first Field-window support is selected by
 the good active-pair family, nor that a zero-thickness terminal Pack layer must
 carry positive active-time thickness. The next direct theorem target is
 `SameWitnessTPSCaptureForFirstPackExit.A` plus

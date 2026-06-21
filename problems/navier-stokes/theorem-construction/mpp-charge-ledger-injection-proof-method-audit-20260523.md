@@ -14,7 +14,7 @@ TerminalReserveFirstAppearanceCharge.A
 => closed.
 ```
 
-The audit is inside the Pack branch of
+The audit is inside the Field-window branch of
 `TerminalCMNoExit.A / NoGenuineCMExit.A`.  It does not change the governing CM
 program:
 
@@ -24,7 +24,7 @@ Exit(Q;O_NS^work) := not Member(Q;O_NS^work).
 
 ## Method pass
 
-- Proof program: CM contrapositive class exit, Pack branch.
+- Proof program: CM contrapositive class exit, Field-window branch.
 - Object role: supplier bridge for `ScaleCriticalTreeCarleson.A`, not the final
   CM target.
 - Logical skeleton: contradiction by minimal first reserve birth.
@@ -98,7 +98,7 @@ ChargeLedgerInjection.A
    or an equivalent same-ledger terminal anti-concentration theorem.
 ```
 
-Thus the Pack branch should read:
+Thus the Field-window branch should read:
 
 ```text
 Pack_Q

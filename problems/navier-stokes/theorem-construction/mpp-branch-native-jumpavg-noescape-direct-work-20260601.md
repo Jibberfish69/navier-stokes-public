@@ -12,7 +12,7 @@ to the branch-native theorem
 
 ```text
 OriginalSmoothData_T3
-=> no Pack/Part/Field first face failure on Q_atlas.
+=> no Part/Field first Part/Field failure on Q_atlas.
 ```
 
 At the current Field face this is the no-escape target

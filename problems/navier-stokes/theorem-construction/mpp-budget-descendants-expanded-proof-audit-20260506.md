@@ -299,7 +299,7 @@ Therefore scalar budget positivity cannot supply endpoint certificates.
 BudgetToEndpointCertificates.A\quad\text{fails as a scalar-budget theorem.}
 ```
 
-A valid theorem must supply synchronized Pack/Part/Field witness preservation plus tower readout.
+A valid theorem must supply synchronized Part/Field witness preservation plus tower readout.
 
 ## Consolidated theorem-state
 

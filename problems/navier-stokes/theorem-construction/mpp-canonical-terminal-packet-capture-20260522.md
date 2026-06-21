@@ -40,7 +40,7 @@ after passing to a terminal subsequence and removing:
 - readout-only artifacts;
 - paid finite ledger terms.
 
-Then `\mathcal R_*` is captured by the Pack-before-Part audited CM tree:
+Then `\mathcal R_*` is captured by the Pack-out-of-CM audited CM tree:
 
 ```math
 \boxed{
@@ -82,17 +82,15 @@ for every positive terminal coherence scale `r`.
 ### 1. Preterminal packets exist
 
 For every compact subinterval `[0,T_*-\epsilon]`, the solution is classical.
-The still-live smooth-window theorem supplies local CM packets on any
+The still-live smooth-window theorem supplies local CM participation-field records on any
 preterminal smooth window:
 
 ```math
-CM_{N,r,Q}
-=
-Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 So before the terminal time, the canonical object is already the same
-same-fluid Pack/Part/Field packet. The only question is what survives as
+same-fluid Part/Field packet. The only question is what survives as
 `t\uparrow T_*`.
 
 ### 2. Terminal extraction has only three services
@@ -221,7 +219,7 @@ Does it preserve positive-scale one-field coherence?
 ```
 
 The first negative answer is the landing face. There is no fourth primitive
-CM face.
+CM Part/Field.
 
 In particular:
 
@@ -243,7 +241,7 @@ This is exactly the capture statement needed by
 The section formerly named the remaining CM work as `TerminalCMNoExit.A`.
 That is now superseded for the CM contrapositive program.
 
-The live CM use of this note is the Pack-first terminal capture statement:
+The live CM use of this note is the Field-certification terminal capture statement:
 
 ```math
 \text{finite terminal obstruction}
@@ -272,6 +270,6 @@ The active torus-first terminal-capture proof is now
 `mpp-torus-global-material-atlas-terminal-capture-20260526.md`.  It selects the
 whole transported material atlas on `T^3`, makes the selected packet
 readout-complete, and treats failure of atlas selection as `not Pack_Q` rather
-than a fourth service.  Branch-family estimates may support Pack, Part, Field,
+than a fourth service.  Branch-family estimates may support Part and Field,
 or readout, but they are not proof-bearing unless they land a same-atlas face
 failure.

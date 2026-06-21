@@ -4,7 +4,7 @@ Date: 2026-05-30
 
 Status: scoped theorem-facing lemma for the CM contrapositive route.
 
-Route: `Exit(Q; O_NS^work) := not Member(Q; O_NS^work)` through the Pack/Part/Field witness family.
+Route: `Exit(Q; O_NS^work) := not Member(Q; O_NS^work)` through the Part/Field witness family.
 
 ## Purpose
 

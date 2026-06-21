@@ -40,7 +40,7 @@ input.
 ## Tree Object
 
 Fix a retained terminal packet `Q` and a CM witness scale row
-`CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}`.
+`CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}`.
 
 A terminal positive source-reserve tree is a nested dyadic family
 `\mathcal T` of same-fluid terminal packets with scales `k(P)\to\infty`

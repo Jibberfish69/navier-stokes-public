@@ -6,7 +6,7 @@ Date: 2026-05-17
 
 Bridge note after the four `B_ASAC` analytic closure attempts.
 
-Outcome: the surviving `B_ASAC` terminal source atom is consumable only as Pack-before-Part typed CM exit support: a zero-radius source residue is `not Pack_Q` unless a positive-scale retained-carrier bridge licenses later Field readout. This is a diagnostic continuation, not a forward positive-supplier discharge.
+Outcome: the surviving `B_ASAC` terminal source atom is consumable only as Pack-out-of-CM typed CM exit support: a zero-radius source residue is `not Pack_Q` unless a positive-scale retained-carrier bridge licenses later Field readout. This is a diagnostic continuation, not a forward positive-supplier discharge.
 
 ## Input State
 
@@ -102,7 +102,7 @@ ZeroHeatTimeSourceResidue.A
 \neg Pack_Q.
 ```
 
-The terminal source atom with no fixed earlier selected source slice is exactly `ZeroHeatTimeSourceResidue.A`. Therefore every retained `B_ASAC` terminal atom is Pack-before-Part typed exit support until a positive-scale retained-carrier bridge is supplied.
+The terminal source atom with no fixed earlier selected source slice is exactly `ZeroHeatTimeSourceResidue.A`. Therefore every retained `B_ASAC` terminal atom is Pack-out-of-CM typed exit support until a positive-scale retained-carrier bridge is supplied.
 
 `\square`
 
@@ -116,7 +116,7 @@ The equality route now has two separate roles:
    transported no-incoming flux, or production into a rigid anti-atom subclass.
 
 2. CM diagnostic role:
-   closed locally only as Pack-before-Part typed exit support; later Field readout requires a
+   closed locally only as Pack-out-of-CM typed exit support; later Field readout requires a
    positive-scale retained-carrier bridge.
 ```
 

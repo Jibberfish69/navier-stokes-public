@@ -4,7 +4,7 @@ Date: 2026-05-19
 
 ## Status
 
-Conditional diagnostic theorem. This note assigns the exits forced by a `B_ASAC^closed` terminal atom to the `Pack`, `Part`, and `Field` witness faces.
+Conditional diagnostic theorem. This note assigns the exits forced by a `B_ASAC^closed` terminal atom to the `Pack`, `Part`, and `Field` witnesss.
 
 ## Input
 
@@ -25,12 +25,12 @@ Here `J_in` is incoming participation flux, `M_CM` is the finite shared-particip
 The class-membership witness is
 
 ```math
-CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}+Field_{N,r,Q}.
 ```
 
 ## Face labels
 
-The primary geometric reading is Pack-first: a terminal atom is an attempted
+The primary geometric reading is Field-certification: a terminal atom is an attempted
 order-one source-current accumulation inside a volume-preserving transported
 packet. It lands on another face only when the compensation is explicitly carried
 by that face.
