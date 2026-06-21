@@ -134,7 +134,7 @@ D_t U_k = -nabla^{k+1}p + nu Delta U_k + B_k,
 with pressure, viscosity, nonlinear source, and commutators paid on the same
 retained terminal ledger.
 
-The source-residue note proves that an unpaid native residue is a CM face
+The source-residue note proves that an unpaid native residue is a CM Part/Field
 witness.  It does not prove that the residue is absent.  Retained Pack plus
 preterminal ancestry still allows an unpaid terminal native pressure/source
 residue from the same original evolution.

@@ -99,7 +99,7 @@ For the CM-facing branch, this direct-tail obstruction is consumed by the
 June 8 endpoint theorem: after the Duhamel split, fixed bounded frequencies are
 removed by the exterior source estimate
 `L^1_t L^{3/2}_x -> L^\infty_t L^2_x`; any surviving tail must be dyadic
-escape, and the dyadic survivor fails Pack, Part, or Field.
+escape, and the dyadic survivor fails Part or Field.
 
 Conditional elimination holds under `Tail.Hs_R3`:
 

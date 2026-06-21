@@ -324,14 +324,14 @@ same-fluid transport, and first-moment dissipation inputs.
 
 CM enters only after a genuine residual pulse survives the forward ledger.
 Then the source-pulse is not treated as a hidden smoothness route.  It is tested
-as a witness-face object.
+as a witness object.
 
 The existing generic no-carrier CM placement is:
 
 ```math
 \text{positive-radius retained ancestry}
 \Longrightarrow
-\text{payment / incoming flux / legal exit / finite CM face exit,}
+\text{payment / incoming flux / legal exit / finite CM Part/Field exit,}
 ```
 
 by `NoPersistentUnpaidPositiveRadiusAncestry.A`, and

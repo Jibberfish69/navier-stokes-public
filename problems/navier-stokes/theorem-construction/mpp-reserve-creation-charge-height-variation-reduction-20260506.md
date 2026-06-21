@@ -19,7 +19,7 @@ conclusion that the current theorem-crank target is simply
 ActiveHeightFlux / SourceReserve / SignedPair / no-free-sink labels as
 support-level.  This note may be used only as a historical supplier reduction:
 the retained positive-scale source branch must now be promoted by same-ledger
-payment or by CM-test admission plus a first Pack/Part/Field face failure.  The
+payment or by CM-test admission plus a first Part/Field Part/Field failure.  The
 live replacement burden is the same-witness terminal anti-concentration /
 source-Carleson / rigid-anti-atom / non-source Pack-survival family, or an
 equivalent same-ledger payment theorem.
@@ -346,7 +346,7 @@ This is more precise than the previous square-reserve statement.
 Current proof use: the displayed burden is a supplier-side reduction only.  It
 does not promote the retained source branch into CM proof material unless a
 same-ledger payment is proved or the branch is admitted to the CM test and
-lands at a first Pack/Part/Field face failure.
+lands at a first Part/Field Part/Field failure.
 
 It asks for a dynamic law for:
 
@@ -384,4 +384,4 @@ The old next theorem-crank attempt was the native shell-balance derivative of
 `H_k(t)` and the legal height charge.  The current live frontier has moved past
 that label: this note now feeds the same-witness terminal anti-concentration /
 source-Carleson / rigid-anti-atom / non-source Pack-survival burden only when it
-supplies the exact same-ledger payment or first-face landing described above.
+supplies the exact same-ledger payment or first-Part/Field landing described above.

@@ -101,7 +101,7 @@ data.  It cannot be imported into the first retained-Part tail input without
 assuming a downstream face.
 
 If the good radius collapses, the current grammar classifies that as an averaged
-Field failure.  That is a CM face classification, not a proof of the retained
+Field failure.  That is a CM Part/Field classification, not a proof of the retained
 tail input needed for Part.
 
 ## Result

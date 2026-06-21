@@ -4,13 +4,13 @@ ns_viewer:
   status: proved-retained-cm-tower-consumption
   proof_role: tower_blown_endpoint_consumption
   logical_landing_node: clay-counterexample-exclusion-bridge
-  edge_effect: "Proves the licensed tower-blown consumption needed after the Pack.TTU branch split. On the same retained terminal family, Pack_Q plus Part_{N+2,Q} plus Field_{N+2,r,Q}, with the energy bound and fixed positive Field scale, gives bounded endpoint tower amplitude through depth N. Hence a genuine tower-blown endpoint at depth N cannot coexist with the retained CM rows at depth N+2; it must land as failure of Pack, Part, or Field rather than as a fourth primitive row."
+  edge_effect: "Proves the licensed tower-blown consumption needed after the Pack.TTU branch split. On the same retained terminal family, Pack_Q plus Part_{N+2,Q} plus Field_{N+2,r,Q}, with the energy bound and fixed positive Field scale, gives bounded endpoint tower amplitude through depth N. Hence a genuine tower-blown endpoint at depth N cannot coexist with the retained CM rows at depth N+2; it must land as failure of Part or Field rather than as a fourth primitive row."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-pack-ttu-supremal-strain-tower-dichotomy-proof-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
     - problems/navier-stokes/theorem-construction/mpp-towerface-cm-row-projection-closure-note-20260503.md
     - problems/navier-stokes/theorem-construction/mcp-dtc-read-full-endpoint-depth-to-towerbound.md
-    - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
+    - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-bridge-20260504.md
   downstream_consequence: "TowerBound.Upstream / END.TowerAmp is consumed for the retained CM branch. The next theorem atom is ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A propagation: apply the Pack/tower branch split and retained tower consumption to the same finite Clay terminal witness without support-only aliases, then run final PDF rereads."
 ---
 
@@ -222,7 +222,7 @@ of the retained CM witness package:
 not Pack_Q or not Part_{N+2,Q} or not Field_{N+2,r,Q}.
 ```
 
-This is a valid `Exit(Q):=not Member(Q)` landing through the Pack/Part/Field
+This is a valid `Exit(Q):=not Member(Q)` landing through the Part/Field
 central gate, with the depth shift recorded.
 
 ## Result

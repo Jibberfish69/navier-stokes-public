@@ -68,7 +68,7 @@ current theorem is:
 ```text
 admitted terminal record
 => pass-side continuation readout
-   or first Pack/Part/Field face failure supporting Exit(Q).
+   or first Part/Field Part/Field failure supporting Exit(Q).
 ```
 
 That is terminal obstruction classification. It becomes Clay exclusion only
@@ -93,7 +93,7 @@ or the more concrete inventory form:
 ```text
 finite Clay terminal obstruction
 => CM-test entry
-=> first Pack/Part/Field face
+=> first Part/Field face
 => no support-only terminal row remains outside the inventory.
 ```
 

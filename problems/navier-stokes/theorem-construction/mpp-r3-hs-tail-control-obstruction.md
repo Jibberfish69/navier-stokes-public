@@ -10,7 +10,7 @@ The direct positive export route still needs uniform exterior Hs tail control.
 The CM-facing whole-space branch is no longer governed by this note alone: the
 June 8 endpoint-consumption theorem
 `mpp-r3-exterior-tail-cm-endpoint-consumption-20260608.md` treats a surviving
-exterior Hs source as a terminal Pack/Part/Field face after the Duhamel split,
+exterior Hs source as a terminal Part/Field face after the Duhamel split,
 bounded-frequency removal, and dyadic survivor landing. Thus this note remains
 authority for the stronger optional theorem `Tail.Hs_R3`; it is not a live
 blocker to the CM pass-or-exit branch.

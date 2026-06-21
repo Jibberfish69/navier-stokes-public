@@ -29,12 +29,12 @@ Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump
 \vee response\text{-}margin\text{-}collapse.
 ```
 
-Since `End_NS` excludes the endpoint faces, every endpoint-free approach tail carries finite `Pack/Part/Field/tower` data and the retained response margins needed by the repaired Part row. This is the exact route form of
+Since `End_NS` excludes the endpoint faces, every endpoint-free approach tail carries finite `Part/Field/tower` data and the retained response margins needed by the repaired Part row. This is the exact route form of
 
 ```math
 OriginalSmoothData
 \Rightarrow
-Pack/Part/Field/tower\text{ finite plus retained Part response margins on every endpoint approach tail}.
+Part/Field/tower\text{ finite plus retained Part response margins on every endpoint approach tail}.
 ```
 
 ### Proof
@@ -42,10 +42,10 @@ Pack/Part/Field/tower\text{ finite plus retained Part response margins on every 
 The exact class-membership witness is
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
-The solution is classical on every compact subinterval below `T_*`, so the local flow map, differentiated tower identities, finite-difference tower identities, and pressure Poisson relation are valid on every compact tail segment. If the Pack, Part, Field, tower, and response-margin ledgers stay finite on the terminal approach tail, production is complete.
+The solution is classical on every compact subinterval below `T_*`, so the local flow map, differentiated tower identities, finite-difference tower identities, and pressure Poisson relation are valid on every compact tail segment. If the Part and Field, tower, and response-margin ledgers stay finite on the terminal approach tail, production is complete.
 
 If a ledger fails, the solved primitive note applies:
 

@@ -2,7 +2,7 @@
 
 ## Status
 
-This note tests the proposed CM witness-face solution of the terminal amplitude
+This note tests the proposed CM witness solution of the terminal amplitude
 target:
 
 ```math
@@ -14,7 +14,7 @@ target:
 ```
 
 The retained-face idea is correct in shape: amplitude gain is not proved as a
-raw finite-energy theorem. Its proof is relative to retained CM faces.
+raw finite-energy theorem. Its proof is relative to retained CM Part/Fields.
 
 The proof is theorem-grade conditional on one extra retained-face input:
 
@@ -64,7 +64,7 @@ Pack_Q+Part_{N,Q}
 ```
 
 If true, failure of terminal amplitude gain under the selected packet family
-would already be a CM witness-face failure:
+would already be a CM witness failure:
 
 ```math
 \neg Pack_Q\vee\neg Part_{N,Q}.
@@ -345,7 +345,7 @@ LocalPositiveSourceCarleson.A.
 ```
 
 But if `RetainedFaceAmplitudeGain.A` is proved only from `Pack_Q^{gain}`, the
-route is a CM witness-face route rather than an unconditional energy theorem:
+route is a CM witness route rather than an unconditional energy theorem:
 
 ```math
 \text{failure of amplitude gain}
