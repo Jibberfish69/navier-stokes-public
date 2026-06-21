@@ -14,4 +14,4 @@ This pass re-entered changed refs from the first executor pass:
 
 Stop state: completed against the rebuilt two-PDF reader tracks.
 
-The manuscript lane now has both required reader artifacts rebuilt from the current theorem state: the problems/** human/app-aligned track and the papers/** Codex-structured track. Stale open-hinge language for installed CM witness consumption, Clay counterexample exclusion, and the R3 dyadic-survivor Pack/Part/Field landing has been removed from the promoted PDFs.
+The manuscript lane now has both required reader artifacts rebuilt from the current theorem state: the problems/** human/app-aligned track and the papers/** Codex-structured track. Stale open-hinge language for installed CM witness consumption, Clay counterexample exclusion, and the R3 dyadic-survivor Part/Field landing has been removed from the promoted PDFs.

@@ -346,13 +346,13 @@ criticism_inventory:
 '
   why_it_blocks_clay_ready_submission: 'The core idea is legitimate only when the
     reader understands that a Clay counterexample is a same-solution terminal object
-    claim, and that Pack, Part, or Field failure removes exactly that terminal-member
+    claim, and that Part or Field failure removes exactly that terminal-member
     status. The current opening makes the hinge easier to misunderstand than it should
     be.
 
 '
   required_change: 'Rewrite the first-page promise in Thomas''s actual sequence: finite
-    Clay negation, same-solution terminal record, Pack/Part/Field test, pass gives
+    Clay negation, same-solution terminal record, Part/Field test, pass gives
     continuation, fail is not an in-class nonsmooth terminal branch. Avoid any sentence
     that sounds like a definitional shortcut.
 
@@ -377,7 +377,7 @@ criticism_inventory:
   - 'visual check: /tmp/ns-pdf-reread/compact-page-47.png'
   resolved_at_local: '2026-06-08T22:08:30-06:00'
   resolution_summary: Resolved by rewriting the human-bundle abstract/page-one promise
-    around finite Clay negation, same-solution terminal record, Pack/Part/Field testing,
+    around finite Clay negation, same-solution terminal record, Part/Field testing,
     pass continuation, and fail-side nonmember status without definitional-shortcut
     wording.
 - criticism_id: NSPDF-20260608-003
@@ -677,13 +677,13 @@ criticism_inventory:
     conclusion
   problem: 'The compact paper is mathematically rich, but its decisive bridge is still
     underpaid: every finite-time Clay counterexample is required to supply a same-solution
-    terminal record eligible for the CM test, and failure of Pack/Part/Field is then
+    terminal record eligible for the CM test, and failure of Part/Field is then
     used to exclude the Clay counterexample.'
   why_it_blocks_clay_ready_submission: A referee can reject the final theorem if this
     terminal-record equivalence is treated as a definitional move rather than a hard
     mathematical reduction from the classical finite-time breakdown statement.
   required_change: 'Pay the terminal-record bridge as a theorem: derive the same-solution
-    terminal record and its Pack/Part/Field exhaustion from the classical maximal-solution
+    terminal record and its Part/Field exhaustion from the classical maximal-solution
     negation without changing the Clay problem or hiding the true breakdown alternative
     inside the class definition.'
   routed_surface: papers/navier-stokes/manuscript/generated/main.tex
@@ -715,7 +715,7 @@ criticism_inventory:
     same-solution CM section talks like a route dashboard rather than one proof led
     by one author.
   required_change: 'Rewrite the affected section as direct mathematical prose: state
-    terminal-record entry, Pack/Part/Field exhaustion, pass continuation, fail-side
+    terminal-record entry, Part/Field exhaustion, pass continuation, fail-side
     class exit, and the role of auxiliary estimates without route-state or graph/export
     language.'
   routed_surface: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -1054,7 +1054,7 @@ repair_graph:
     target_files:
     - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
     expected_result: First page says finite Clay negation, same-solution terminal
-      record, Pack/Part/Field, pass continuation, fail no in-class nonsmooth branch.
+      record, Part/Field, pass continuation, fail no in-class nonsmooth branch.
     repair_status: completed
     evidence_refs:
     - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf

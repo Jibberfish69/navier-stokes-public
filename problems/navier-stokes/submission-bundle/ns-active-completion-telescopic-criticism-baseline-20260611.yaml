@@ -32,7 +32,7 @@ submission_certification_layers:
     notes_handoff_status: pending-current-gold-notes
     cm_counterpart_policy: >-
       Every gold note or obstruction handed to the writer must include a CM
-      contrapositive counterpart: a Pack/Part/Field payment, an exact CM
+      contrapositive counterpart: a Part/Field payment, an exact CM
       obstruction, or a support quarantine explaining why it has no silver
       effect.
     cm_counterpart_handoff_status: pending-current-gold-cm-counterparts
@@ -40,24 +40,24 @@ submission_certification_layers:
     evidence_refs: []
   - layer_id: silver-cm-contrapositive
     layer_name: silver-standard CM contrapositive route
-    route_family: CM exit contrapositive through Pack/Part/Field
+    route_family: CM exit contrapositive through Part/Field
     authority_role: >-
       Submission-ready PDF certification layer when the writing is readable, all
       PDF roots and children are closed, and the CM exit proof is paid honestly.
     closure_rule: >-
       Silver may close the PDF loop when the rendered paper is readable and good,
-      all root/child criticism is resolved, CM Pack/Part/Field proof payments are
+      all root/child criticism is resolved, CM Part/Field proof payments are
       written, and gold has no unpassed current notes or obstructions without CM
       contrapositive counterparts.
     pdf_closure_allowed: true
     math_runner_policy: >-
       Use theorem work as supplier work that pays named PDF gaps, lands
-      Pack/Part/Field exit faces, or passes gold-route notes forward with CM
+      Part/Field exit faces, or passes gold-route notes forward with CM
       contrapositive counterparts.
     notes_handoff_status: pending-silver-proof-notes
     cm_counterpart_policy: >-
       Silver certification is the CM counterpart lane; any imported gold material
-      must arrive with its Pack/Part/Field, exact CM obstruction, or
+      must arrive with its Part/Field, exact CM obstruction, or
       support-quarantine counterpart.
     cm_counterpart_handoff_status: pending-silver-cm-proof-counterparts
     status: active-silver-layer
@@ -92,7 +92,7 @@ root_criticisms:
       conclusion.
     child_scope_policy: >-
       Children target missing derivations, proof gaps, claim-scope errors,
-      unstated theorem imports, or CM Pack/Part/Field payment failures.
+      unstated theorem imports, or CM Part/Field payment failures.
     batching_family: cmi-mathematical-payment
     closure_standard: >-
       Close only when every mathematical child is paid on the page or remains as
@@ -158,7 +158,7 @@ child_criticisms:
     why_it_blocks_clay_ready_submission: >-
       A Clay referee can accept a CM exit only after the surrounding
       positive-radius annular witness has either been controlled by the
-      forward-positive route or landed on a concrete Pack, Part, or Field face.
+      forward-positive route or landed on a concrete Part or Field face.
       A point-only Pack statement leaves the real blow-up witness unpaid.
     required_change: >-
       The PDF must state the annular-limit boundary plainly, distinguish the
@@ -202,7 +202,7 @@ child_criticisms:
     problem: >-
       The PDF does not yet teach the reader why the endpoint point and the
       shrinking positive-radius fields are different objects, or why the proof
-      has to follow the annuli before naming a Pack, Part, or Field face.
+      has to follow the annuli before naming a Part or Field face.
     why_it_blocks_clay_ready_submission: >-
       Without this explanation, the reader has to reconstruct the central
       referee objection from repo state instead of from the paper.
@@ -310,15 +310,15 @@ child_criticisms:
       still live.
     why_it_blocks_clay_ready_submission: >-
       A referee needs the first proof handoff to distinguish forward-positive
-      obstruction, same-solution record selection, first Pack/Part/Field face
+      obstruction, same-solution record selection, first Part/Field face
       landing, and current certification boundary. Otherwise silver reads as a
       false finality claim rather than a controlled contrapositive test.
     required_change: >-
       Rewrite the reframing and silver-standard sections so they state that
       forward-support pictures become silver material only after attaching to a
       selected same-solution terminal record, that first failed faces land at
-      Pack, Part, or Field, and that the annular endpoint witness remains open
-      until gold control or silver first-face landing is supplied.
+      Part or Field, and that the annular endpoint witness remains open
+      until gold control or silver first-Part/Field landing is supplied.
     routed_surface:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex#reframing-the-problem
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex#silver-standard-approach
@@ -350,18 +350,18 @@ child_criticisms:
       - navier-stokes-human-submission.pdf#pages-14-16
     problem: >-
       The formal pass branch was too compressed and could be read as one finite
-      CM face check proving membership by itself. The rendered class-law page
+      CM Part/Field check proving membership by itself. The rendered class-law page
       also needed the no-third-branch and CM-branch-target displays to carry the
       required branch readout without overflowing.
     why_it_blocks_clay_ready_submission: >-
-      A Clay-facing proof cannot let the reader confuse retained Pack/Part/Field
+      A Clay-facing proof cannot let the reader confuse retained Part/Field
       faces with a completed continuation result. The pass side has to include
       the selected same-solution record and the relevant continuation/readout
-      supplier, while the fail side remains the first face failure.
+      supplier, while the fail side remains the first Part/Field failure.
     required_change: >-
       Rewrite the pass/fail split, no-third-branch theorem, and CM branch target
       so the pass side explicitly requires the selected record plus branch
-      readout, and the fail side remains a Pack, Part, or Field face failure on
+      readout, and the fail side remains a Part or Field Part/Field failure on
       that same selected record.
     routed_surface:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex#the-contrapositive-logic
@@ -410,7 +410,7 @@ child_criticisms:
     required_change: >-
       Rewrite the support-section opening and branch-role table so branch
       families are explicitly filtered through selected same-solution records,
-      continuation/readout suppliers, and first Pack/Part/Field face failures,
+      continuation/readout suppliers, and first Part/Field Part/Field failures,
       with the periodic atlas, whole-space exterior-source split, and annular
       endpoint boundary kept visible.
     routed_surface:
@@ -450,7 +450,7 @@ child_criticisms:
       the closeout into a labeling move instead of a reader-facing proof route.
     why_it_blocks_clay_ready_submission: >-
       A referee has to see which terminal record is selected on each surface,
-      what readout is available on the member side, and which first face is lost
+      what readout is available on the member side, and which first Part/Field is lost
       on the exit side. Without that scope statement, branch support could again
       masquerade as proof.
     required_change: >-
@@ -511,7 +511,7 @@ child_criticisms:
     required_change: >-
       Remove stale page-number language and add an appendix admission rule:
       included routes must help identify a terminal object, member-side readout,
-      Pack/Part/Field face, or support theorem still waiting for one of those
+      Part/Field face, or support theorem still waiting for one of those
       jobs.
     routed_surface:
       - problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex
@@ -624,7 +624,7 @@ child_criticisms:
       CMI-facing writing cannot let a named CM route masquerade as completed
       proof payment while the annular premises remain open.
     required_change: >-
-      State the silver face landing as a route for the residual obstruction,
+      State the silver Part/Field landing as a route for the residual obstruction,
       display the theorem name without cramped prose, and say plainly that its
       selection/carrier/readout premises remain proof obligations rather than hidden
       finality.
@@ -1002,7 +1002,7 @@ child_criticisms:
     problem: >-
       The PDF had named the silver route but had not yet passed the exact CM
       counterpart into the paper: the annular witness must be followed before
-      any Pack/Part/Field face is named.
+      any Part/Field face is named.
     why_it_blocks_clay_ready_submission: >-
       Without the annular specialization, the reader can still suspect that the
       paper is using the bare endpoint radius-zero shortcut to hide the
@@ -1011,7 +1011,7 @@ child_criticisms:
       Write and integrate AnnularLimitCMFaceLanding.A as the silver counterpart:
       surviving residual annular obstruction plus CM-test admission,
       same-solution positive-radius carrier, and readout completeness lands at
-      first failed Pack, Part, or Field.
+      first failed Part or Field.
     routed_surface:
       - problems/navier-stokes/theorem-construction/mpp-annular-limit-cm-face-landing-20260611.md
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -1047,7 +1047,7 @@ child_criticisms:
     why_it_blocks_clay_ready_submission: >-
       The reader needs to see that same-solution selection, positive-radius
       carrier, and readout completeness remain real proof obligations for final
-      closure, even though the Pack/Part/Field landing is now specialized.
+      closure, even though the Part/Field landing is now specialized.
     required_change: >-
       State in the PDF that the remaining silver boundary is annular selection,
       positive-radius carrier, and readout completeness, not endpoint radius.
@@ -1099,7 +1099,7 @@ child_criticisms:
       whole transported atlas Q_atlas, selection is fixed before branch examples
       are read, the transported atlas supplies the same-solution positive-radius
       carrier, finite overlap plus readout-compatible Pack gives the global H^s
-      continuation readout when Pack, Part, and Field survive, and loss of atlas
+      continuation readout when Part and Field survive, and loss of atlas
       selection, carrier scale, or material comparability is Pack failure rather
       than a fourth terminal requirement.
     routed_surface:
@@ -1149,7 +1149,7 @@ child_criticisms:
       tail and fixed compact-core far-field source vanish, the only remaining
       source is the exterior nonlinear source, a vanishing exterior H^s tail
       gives the continuation readout, and a surviving source becomes dyadic
-      high-frequency escape landing in Pack, Part, or Field. Keep the direct
+      high-frequency escape landing in Part or Field. Keep the direct
       exterior H^s tail theorem as stronger gold/export work.
     routed_surface:
       - problems/navier-stokes/live-theorem-edge.yaml#r3-whole-space-cm-completion
@@ -2367,7 +2367,7 @@ child_criticisms:
       The appendix cannot responsibly use these support routes unless the reader
       sees that D.85 is conditional forward-positive support, not a closed
       regularity theorem, and that D.86 is a downstream exported Euclidean
-      criterion, not a Pack/Part/Field exit child.
+      criterion, not a Part/Field exit child.
     required_change: >-
       Rewrite D.85 as the exact implication under test: exact Euclidean limit
       object plus upgraded gradient-transfer inequality recertifies the dyadic
@@ -4241,7 +4241,7 @@ active_batches:
       - >-
         NS-CMI-ANNULAR-LIMIT-WITNESS-20260611 remains open as a math payment:
         the PDF now states the boundary and the gold/silver paths, but the
-        forward annular control theorem or silver annular CM face landing still
+        forward annular control theorem or silver annular CM Part/Field landing still
         has to be supplied before CMI finality can be claimed.
     status: completed-first-source-batch-open-math-payment
   - batch_id: ns-annular-payment-ledger-human-pdf-batch-20260611
@@ -4335,7 +4335,7 @@ active_batches:
       - problems/navier-stokes/submission-bundle/tmp-render-check/ns-human-silver-status-cm-0034.png
     remaining_open_after_batch:
       - >-
-        The silver annular face landing is installed conditionally, but final
+        The silver annular Part/Field landing is installed conditionally, but final
         CMI closure still needs annular selection/carrier/readout completeness and the
         remaining live criticism descendants resolved.
     status: completed-fourth-source-batch-open-selection-readout-boundary
@@ -4506,7 +4506,7 @@ active_batches:
     batch_goal: >-
       Repair the active proof-route handoff so the PDF distinguishes a
       forward-positive obstruction, selected same-solution terminal record,
-      first Pack/Part/Field face, and current silver certification boundary.
+      first Part/Field face, and current silver certification boundary.
     root_rollup:
       - NS-ROOT-READABILITY
       - NS-ROOT-CMI-MATH
@@ -4533,7 +4533,7 @@ active_batches:
         The rewritten handoff now says that forward-support pictures become
         silver material only after a same-solution terminal record is selected,
         but the annular witness still needs either gold control or a completed
-        silver first-face landing.
+        silver first-Part/Field landing.
       - >-
         This batch does not claim first-draft approval, gold certification,
         silver certification, or full CMI finality.
@@ -4541,7 +4541,7 @@ active_batches:
   - batch_id: ns-formal-pass-branch-readout-human-pdf-batch-20260611
     started_at_local: '2026-06-11T19:50:00-06:00'
     batch_goal: >-
-      Repair the formal class-law proof so retained CM faces are not confused
+      Repair the formal class-law proof so retained CM Part/Fields are not confused
       with a completed continuation result unless branch readout is attached.
     root_rollup:
       - NS-ROOT-CMI-MATH
@@ -4562,9 +4562,9 @@ active_batches:
       - problems/navier-stokes/submission-bundle/tmp-render-check/ns-human-formal-pass-branch-readout-final-0016.png
     remaining_open_after_batch:
       - >-
-        The formal pass branch now requires selected-record CM faces plus branch
+        The formal pass branch now requires selected-record CM Part/Fields plus branch
         readout. The root CMI criticism remains open because the live annular
-        endpoint witness still needs gold control or silver first-face landing.
+        endpoint witness still needs gold control or silver first-Part/Field landing.
       - >-
         This batch does not claim full CMI finality and does not run the full
         PDF finality gate.
@@ -4596,7 +4596,7 @@ active_batches:
       - >-
         Branch work now rolls up to selected-record proof jobs, but the root CMI
         criticism remains open until the live annular endpoint witness has gold
-        control or a silver first-face landing with rendered evidence.
+        control or a silver first-Part/Field landing with rendered evidence.
       - >-
         This batch does not claim full CMI finality and does not run the full
         PDF finality gate.
@@ -4627,7 +4627,7 @@ active_batches:
       - >-
         The closeout now names the surface-payment boundary, but the root CMI
         criticism remains open until the annular endpoint witness has gold
-        annular control or a silver first-face landing with rendered evidence.
+        annular control or a silver first-Part/Field landing with rendered evidence.
       - >-
         This batch does not claim full CMI finality and does not run the full
         PDF finality gate.
@@ -4726,7 +4726,7 @@ active_batches:
       - >-
         The residual refill currency is now formula-level on the rendered page.
         The root CMI criticism remains open because the scale-uniform gold
-        supplier or complete silver annular face landing has not been claimed.
+        supplier or complete silver annular Part/Field landing has not been claimed.
       - >-
         This batch does not claim full CMI finality and does not run the full
         PDF finality gate.
@@ -6375,7 +6375,7 @@ active_batches:
         commutator audit.
       - >-
         D.86 now states the downstream strict-shadow Euclidean consumer package
-        as A1a/A1b/A1c and keeps Pack/Part/Field exit work separate from the
+        as A1a/A1b/A1c and keeps Part/Field exit work separate from the
         exported branch.
       - >-
         D.87-D.88 begin exact dyadic interaction decomposition and
@@ -8094,7 +8094,7 @@ active_batches:
     started_at_local: '2026-06-13T11:18:37-06:00'
     batch_goal: >-
       Rewrite the active CM core as a reader-facing proof chapter so the PDF
-      explains the fixed working object, Pack/Part/Field membership faces,
+      explains the fixed working object, Part/Field membership faces,
       pass-or-exit split, annular boundary, and gold/silver ledgers without
       turning class grammar into a false finality claim.
     root_rollup:
@@ -8154,9 +8154,9 @@ active_batches:
       changed_span_warning_status: no-overfull-or-underfull-warnings-in-source-lines-521-960
     remaining_open_after_batch:
       - >-
-        The CM core now reads as a guided Pack/Part/Field proof chapter, but the
+        The CM core now reads as a guided Part/Field proof chapter, but the
         live annular endpoint witness remains open until the gold residual-load
-        control theorem is proved or the silver annular first-face landing is
+        control theorem is proved or the silver annular first-Part/Field landing is
         completed on the page.
       - >-
         This batch does not claim first-draft approval, gold certification,
@@ -8167,7 +8167,7 @@ active_batches:
     batch_goal: >-
       Rewrite the branch-family support gate so the PDF explains how current
       repo branch material enters the manuscript as selected-record payment,
-      member-side readout, Pack/Part/Field face payment, or support awaiting a
+      member-side readout, Part/Field face payment, or support awaiting a
       named face theorem.
     root_rollup:
       - NS-ROOT-READABILITY
@@ -8300,7 +8300,7 @@ active_batches:
       - >-
         The annular endpoint witness remains open until gold residual-load
         control is proved or the silver branch lands the selected same-solution
-        Pack, Part, or Field first face on the page.
+        Part or Field first Part/Field on the page.
       - >-
         This batch does not claim first-draft approval, gold certification,
         silver certification, full CMI finality, or a full-PDF finality gate.
@@ -8310,7 +8310,7 @@ active_batches:
     batch_goal: >-
       Distill a source-field appendix support slice so reserve, active-square,
       upper-tail Carleson, affine-quotient, and affine-survivor material reads
-      as proof support under the main Pack/Part/Field/readout spine rather than
+      as proof support under the main Part/Field/readout spine rather than
       as recovered theorem-attempt notes.
     root_rollup:
       - NS-ROOT-READABILITY
@@ -8374,7 +8374,7 @@ active_batches:
       - >-
         This appendix slice now tells the reader what the reserve,
         active-square, and affine-survivor calculations buy, where they stop,
-        and how they can feed Pack, Part, Field, or readout only after a
+        and how they can feed Part and Field, or readout only after a
         same-solution packet is selected.
       - >-
         The larger source-field appendix still needs continuing proof-unit
@@ -8390,7 +8390,7 @@ active_batches:
       Refresh the rendered front proof route so the reader sees the same
       original Navier-Stokes branch, the live positive-radius annular witness,
       the gold residual-load payment, and the silver selected-residue
-      Pack/Part/Field first-face landing before support material can proliferate
+      Part/Field first-Part/Field landing before support material can proliferate
       into theorem churn.
     root_rollup:
       - NS-ROOT-READABILITY
@@ -8457,7 +8457,7 @@ active_batches:
       - >-
         The annular endpoint witness remains open until the gold residual-load
         theorem is proved or the silver branch lands the selected same-solution
-        Pack, Part, or Field first face on the page.
+        Part or Field first Part/Field on the page.
       - >-
         This batch does not claim first-draft approval, gold certification,
         silver certification, full CMI finality, or a full-PDF finality gate.
@@ -8533,7 +8533,7 @@ active_batches:
       - >-
         D14-D23 now state which source-field reductions are installed, which
         supplier payments remain open, and how a residue could become CM
-        material only after same-solution selection and Pack, Part, Field, or
+        material only after same-solution selection and Part and Field, or
         readout testing.
       - >-
         The next source-field appendix unit begins at D24, with carrier axioms
@@ -8611,7 +8611,7 @@ active_batches:
       - >-
         D24-D34 now state which carrier/export facts are installed, which
         low-mode export payments remain open, and how a residue could become CM
-        material only after same-solution selection and Pack, Part, Field, or
+        material only after same-solution selection and Part and Field, or
         readout testing.
       - >-
         The next source-field appendix unit begins at D35, with scale-barrier,
@@ -8776,7 +8776,7 @@ batching_policy: >-
 closure_policy: >-
   A parent/root closes only when all live descendants are resolved with source,
   PDF, reread, and theorem/payment evidence, or when an exact mathematical
-  blocker remains after the required forward-positive and CM Pack/Part/Field
+  blocker remains after the required forward-positive and CM Part/Field
   pass-or-exit attempts.
 current_strategy_ref: problems/navier-stokes/submission-bundle/ns-pdf-proof-unit-completion-strategy-20260612.yaml
 current_strategy_note: >-

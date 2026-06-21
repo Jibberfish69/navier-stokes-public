@@ -88,7 +88,7 @@ The central transition is:
 
 If the four-body positive-forward method cannot delete every persistent survivor, then the proof must ask what that survivor is.
 
-The CM-exit insight is that a persistent terminal bad object may be evidence that the alleged terminal witness has lost the services required for same-solution membership. The goal then shifts from deleting every bad object to testing whether the terminal object still has the required Pack, Part, and Field services.
+The CM-exit insight is that a persistent terminal bad object may be evidence that the alleged terminal witness has lost the services required for same-solution membership. The goal then shifts from deleting every bad object to testing whether the terminal object still has the required Part and Field services.
 
 This transition should be one of the main narrative and mathematical pivots of the paper.
 
@@ -104,7 +104,7 @@ For each branch or method:
 4. Identify the stopping obstruction.
 5. Explain why the obstruction remained under the positive-forward route.
 6. Apply the CM-exit method to that obstruction.
-7. Classify the obstruction through Pack, Part, Field, or continuation readout.
+7. Classify the obstruction through Part and Field, or continuation readout.
 8. Record the branch outcome inside the global CM-exit ledger.
 
 The final manuscript should blend story, chronology, mathematical derivation, and proof architecture. The result should read like a deep mathematical paper that shows the full discovery path while still delivering formal theorem-level content.
@@ -119,7 +119,7 @@ The next writing pass should rebuild the PDF around this architecture:
 - identify Sherlock Holmes / Holmes chronology files;
 - build a branch-history ledger;
 - map every failed or stopped branch to a CM-exit test;
-- turn the existing Pack/Part/Field framework into the organizing endpoint of the historical development.
+- turn the existing Part/Field framework into the organizing endpoint of the historical development.
 
 The manuscript should ultimately feel like a human author guiding the reader through a long mathematical investigation that discovered the CM-exit method through repeated pressure from persistent Navier-Stokes obstructions.
 
@@ -146,7 +146,7 @@ The paper can stand without the four-body route as a central theorem route. Its 
 
 ### Corrected Placement Of Pack, Part, And Field
 
-Pack, Part, and Field should appear after the CM method has been motivated and explained. The reader should first see why positive-forward approaches leave terminal obstruction objects. The CM-exit grammar should then be introduced as the method that classifies those objects.
+Part and Field should appear after the CM method has been motivated and explained. The reader should first see why positive-forward approaches leave terminal obstruction objects. The CM-exit grammar should then be introduced as the method that classifies those objects.
 
 ### Corrected Organization Principle
 
