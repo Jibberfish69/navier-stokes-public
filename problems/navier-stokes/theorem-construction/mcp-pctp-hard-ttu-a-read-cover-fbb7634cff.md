@@ -5,7 +5,7 @@
 Prove
 
 ```math
-OriginalSmoothData \Longrightarrow \text{uniform terminal-tail retained Pack/Part/Field/tower readout}.
+OriginalSmoothData \Longrightarrow \text{uniform terminal-tail retained Part/Field/tower readout}.
 ```
 
 A concrete readout means that on a terminal same-fluid tail there are route depth `N`, a retained family `Q`, and a finite or summably controlled same-fluid cover with uniform bounds for

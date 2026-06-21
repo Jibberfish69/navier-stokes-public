@@ -9,7 +9,7 @@ Target:
 ```math
 OriginalSmoothData
 \Longrightarrow
-\text{uniform terminal-tail retained }Pack/Part/Field/\text{tower readout}.
+\text{uniform terminal-tail retained }Part/Field/\text{tower readout}.
 ```
 
 ## Maximal supported compression

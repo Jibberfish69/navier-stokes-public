@@ -46,7 +46,7 @@ Here:
   `DTC.A_avg`, `AVG.RCV.A`, `LCI.A_avg`, `CSP.A_avg`, `OFP.A_avg`, and
   `CFI.A_avg`;
 - `Jump_avg-handled` means the `Jump_avg` branch is separately eliminated or
-  consumed as a licensed CM face. It is not removed by the no-`Jump_avg`
+  consumed as a licensed CM Part/Field. It is not removed by the no-`Jump_avg`
   production chain itself;
 - `READ.END` is the terminal readout layer
   `End_NS_avg + READ.COVER + Field.Read + DTC.Read => End_NS`;

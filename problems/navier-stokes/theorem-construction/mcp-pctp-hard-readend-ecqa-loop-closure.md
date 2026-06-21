@@ -90,7 +90,7 @@ SCFBaseLocalModulus_N+TGC.A+AACT.Global.noJump+AVG.END.A+READ.END
 `PCTP.hard` supplies the uniform terminal-tail retained class-membership readout
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 Choose `N` above a classical continuation index `s>5/2`. The readout gives

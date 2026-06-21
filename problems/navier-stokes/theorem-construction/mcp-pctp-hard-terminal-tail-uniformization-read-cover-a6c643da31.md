@@ -35,7 +35,7 @@ The continuation-grade readout is a uniform terminal-tail bound strong enough to
 
 The exact theorem is:
 
-For smooth divergence-free zero-mean data on `T^3`, let `(u,p)` be the maximal classical zero-force solution on `[0,T_*)`. If `T_*<\infty`, every terminal same-fluid approach tail must admit uniform retained `Pack/Part/Field/tower` data strong enough for `CM.Readout` and `ECQ.A`. This yields a uniform `H^s`, `s>5/2`, readout; the periodic relaunch theorem then gives a common preterminal lifespan and uniqueness overlap, contradicting a finite endpoint.
+For smooth divergence-free zero-mean data on `T^3`, let `(u,p)` be the maximal classical zero-force solution on `[0,T_*)`. If `T_*<\infty`, every terminal same-fluid approach tail must admit uniform retained `Part/Field/tower` data strong enough for `CM.Readout` and `ECQ.A`. This yields a uniform `H^s`, `s>5/2`, readout; the periodic relaunch theorem then gives a common preterminal lifespan and uniqueness overlap, contradicting a finite endpoint.
 
 This formalization matches the repo frontier and the periodic promotion note.
 
@@ -127,7 +127,7 @@ The missing step is exactly the uniform terminal-tail readout from `OriginalSmoo
 The release posture remains conditional-class-membership packet. A terminal release requires one new noncircular theorem:
 
 ```math
-OriginalSmoothData\Rightarrow\text{uniform terminal-tail retained Pack/Part/Field/tower data}
+OriginalSmoothData\Rightarrow\text{uniform terminal-tail retained Part/Field/tower data}
 ```
 
 or a direct PDE theorem excluding `Dead`, `response-margin-collapse`,

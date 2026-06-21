@@ -109,7 +109,7 @@ or
 ```math
 OriginalSmoothData
 \Longrightarrow
-\text{uniform terminal-tail Pack/Part/Field/tower readout}.
+\text{uniform terminal-tail Part/Field/tower readout}.
 ```
 
 The hardest analytic pieces are:

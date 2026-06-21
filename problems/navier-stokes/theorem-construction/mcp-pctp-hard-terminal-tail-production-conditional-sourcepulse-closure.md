@@ -89,7 +89,7 @@ READ.END
 End_{NS}.
 ```
 
-This supplies the terminal-tail retained Pack/Part/Field/tower readout required by `PCTP.hard / TTU.A`.
+This supplies the terminal-tail retained Part/Field/tower readout required by `PCTP.hard / TTU.A`.
 
 ## Boundary
 

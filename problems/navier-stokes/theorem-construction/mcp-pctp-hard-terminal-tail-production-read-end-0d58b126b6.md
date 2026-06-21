@@ -1,7 +1,7 @@
 # PCTP.hard terminal-tail production — conditional reduction attempt
 
 ## Target
-Prove that `OriginalSmoothData` implies uniform terminal-tail retained `Pack/Part/Field/tower` readout.
+Prove that `OriginalSmoothData` implies uniform terminal-tail retained `Part/Field/tower` readout.
 
 ## Attempt
 Start with original smooth divergence-free zero-mean periodic data and a first finite classical endpoint candidate. On every compact retained classical subinterval before the endpoint, the existing route supplies the retained-window hypotheses and the accepted endpoint certificate maps. The terminal-tail production claim requires a uniform passage from those compact retained readouts to endpoint-adjacent retained `Pack`, retained `Part`, retained `Field`, and tower amplitude control.

@@ -209,7 +209,7 @@ TTU:
 \qquad
 OriginalSmoothData
 \Longrightarrow
-\text{uniform terminal-tail retained Pack/Part/Field/tower data}.
+\text{uniform terminal-tail retained Part/Field/tower data}.
 ```
 
 After `TTU`, the existing chain gives `PCTP.cond` and the continuation contradiction. Before `TTU`, the result remains a conditional solve-path progression rather than a terminal proof.
