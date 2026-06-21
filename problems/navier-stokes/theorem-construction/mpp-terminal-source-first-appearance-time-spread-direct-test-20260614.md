@@ -106,7 +106,7 @@ It does not prove terminal source-time thickness.
 It concerns square-reserve first appearance and `Charge_N(W)` injection.  It
 does not control the selected native source marginal on `(-\tau_m,0]`.
 
-`SourceReserveBirthCharge.A` gives the exact Pack-side reduction:
+`SourceReserveBirthCharge.A` gives the exact Field-window support reduction:
 
 ```text
 first-created positive-scale native source-reserve surplus

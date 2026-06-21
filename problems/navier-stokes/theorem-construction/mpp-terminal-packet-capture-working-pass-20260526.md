@@ -189,7 +189,7 @@ such that all obstruction-bearing terminal mass is either:
   (a) carried by Q_* and tested by Part/Field,
   (b) removed as legal loss, readout-only residue, non-selected branch, or paid
       finite term,
-  (c) or itself counted as the Pack-side failure of finite same-fluid packet
+  (c) or itself counted as the Field-window support failure of finite same-fluid packet
       selection.
 ```
 
@@ -233,7 +233,7 @@ The possible escape modes are:
 - the selected packet carries only a diagnostic subbranch and not the
   continuation obstruction;
 - terminal scale degenerates in a way that must be typed first under pointwise
-  original-NS participation, giving true `not Pack_Q` only when the
+  original-NS participation, giving true packet/window evidence only when the
   record/carrier/readout is absent and otherwise landing in Part;
 - on noncompact variants, terminal mass may escape unless the torus-first
   setting or a tightness hypothesis is explicitly fixed.
@@ -307,7 +307,7 @@ at referee threshold.
 The obstruction is inside the CM route, not a relapse into the positive
 smoothness program. The missing work is to make terminal packet capture honest:
 construct the terminal packet, prove it is readout-complete, and show every
-failure of that construction is itself Pack-side rather than a fourth
+failure of that construction is itself Field-window support rather than a fourth
 primitive service.
 
 So the next mathematical atom is:

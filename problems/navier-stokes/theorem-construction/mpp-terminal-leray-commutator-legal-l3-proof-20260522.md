@@ -18,7 +18,7 @@ R^{comm}_{L3}
 }
 ```
 
-unless the branch has already left through paid Pack/Part/legal exit.
+unless the branch has already left through paid Part/legal exit.
 
 Here `R^{comm}_{L3}` denotes the localized terminal-weight commutator terms
 left when passing from the Leray-adjoint source work to the unprojected native
@@ -84,7 +84,7 @@ On the stopped terminal family this derivative is supported in the collar of
 1. cutoff/collar leakage already assigned to the legal localization ledger;
 2. pressure/projection redistribution already assigned to the Part/legal
    pressure ledger;
-3. off-family or high-high leakage, which is selected Pack-side/source-wall
+3. off-family or high-high leakage, which is selected Field-window/source-wall
    failure if it carries fixed mass without payment.
 
 The one-sided terminal `L^3` weight does not create a new commutator channel.
@@ -93,8 +93,8 @@ packet, and its variation is another cutoff/collar derivative. Thus it is paid
 by the same legal ledger.
 
 Consequently, if `R^{comm}_{L3}` carries a fixed part of the lower bound beyond
-the legal budget, the branch has by definition paid Pack/Part/legal exit or
-selected Pack-side/source-wall failure. On the retained branch with those
+the legal budget, the branch has by definition paid Part/legal exit or
+selected Field-window/source-wall failure. On the retained branch with those
 alternatives removed,
 
 ```math

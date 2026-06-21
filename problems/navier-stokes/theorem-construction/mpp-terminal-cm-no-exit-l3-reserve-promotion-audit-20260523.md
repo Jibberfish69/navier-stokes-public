@@ -3,7 +3,7 @@
 Date: 2026-05-23
 
 Status: theorem-facing coordination audit. This closes the attempted shortcut
-from the installed local `L^3` public translator to the Pack-side reserve
+from the installed local `L^3` public translator to the Field-window support reserve
 chain. It does not prove `TerminalCMNoExit.A`.
 
 Supersession note: this audit is correct only for the reserve-pricing supplier
@@ -37,7 +37,7 @@ SquareReserveEvolution.A
 ScaleCriticalTreeCarleson.A
 ```
 
-and thereby close the Pack-side no-exit burden.
+and thereby close the Field-window support no-exit burden.
 
 ## Result
 
@@ -131,12 +131,12 @@ terminal\ same\text{-}ledger\ L^3\ critical\ response
 ```
 
 Even with that theorem, the result is a face-routing theorem. On retained
-`Pack+Part`, the installed local `L^3` translator sends the resulting critical
+`Part plus Field-window evidence`, the installed local `L^3` translator sends the resulting critical
 response to the local `Field` face. That classifies a failure; it does not by itself prove
 `NoGenuineCMExit.A`, because the no-exit theorem still has to rule out loss of
 all lawful continuation packets.
 
-Therefore the Pack-side positive no-exit route still needs a theorem that
+Therefore the Field-window support positive no-exit route still needs a theorem that
 prevents, charges, or rigidifies the short-pulse reserve birth itself.
 
 ## Exact Remaining Burden
@@ -149,7 +149,7 @@ TerminalPackStrainIntegrabilityNoExit.A
 }
 ```
 
-with its Pack-side realization
+with its Field-window support realization
 
 ```math
 OriginalSmoothData
@@ -162,7 +162,7 @@ theorem.
 
 At the narrowest current supplier level, the installed
 `OriginalSmoothDataScaleCriticalTreeCarleson.A` theorem-creation packet reduces
-this Pack-side realization to
+this Field-window support realization to
 
 ```math
 \boxed{

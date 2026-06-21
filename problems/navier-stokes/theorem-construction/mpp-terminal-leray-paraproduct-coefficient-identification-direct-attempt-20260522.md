@@ -30,7 +30,7 @@ G_N\ge c
 \vee
 \neg_{sel}ScaleCriticalTreeCarleson.A
 \vee
-\text{paid Pack/Part/legal exit,}
+\text{paid Part/legal exit,}
 }
 ```
 

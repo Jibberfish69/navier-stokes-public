@@ -42,7 +42,7 @@ Legal.
 
 With the installed `ParaproductNativeSourceCapture.A`, the retained nonlinear
 source work becomes the repo-native positive source packet, selected
-scale-critical Pack-side failure, or paid Pack/Part/legal exit:
+scale-critical Field-window support failure, or paid Part/legal exit:
 
 ```math
 same\text{-}ledger\ nonlinear\ source\ work
@@ -51,15 +51,15 @@ same\text{-}ledger\ nonlinear\ source\ work
 \vee
 \neg_{sel}ScaleCriticalTreeCarleson.A
 \vee
-paid\ Pack/Part/legal.
+paid\ Part/legal.
 ```
 
 The installed CM first-face rule then lands these alternatives:
 
 - `\neg_{sel}ScaleCriticalTreeCarleson.A` is Field smoothness-certification support;
-- an unpaid terminal native source residue is Pack/Part exit by
+- an unpaid terminal native source residue is Part/Field exit by
   `TerminalSourceResidueCMExit.A`;
-- paid Pack/Part/legal alternatives are already legal exits.
+- paid Part/legal alternatives are already legal exits.
 
 Therefore the branch-level corollary is installed:
 

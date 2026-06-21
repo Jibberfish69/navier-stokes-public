@@ -73,7 +73,7 @@ first Pack failure from original smooth data.
 ## Why The Clause Cannot Close Public Finality
 
 Suppose the cross-profile term survives as a terminal selected positive Pack
-source atom. The Part/Field landing says the atom is a Pack-side obstruction to
+source atom. The Part/Field landing says the atom is a Field-window support obstruction to
 membership. That gives classification:
 
 ```text

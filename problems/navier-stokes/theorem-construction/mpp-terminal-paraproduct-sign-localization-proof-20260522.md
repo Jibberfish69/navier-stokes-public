@@ -78,7 +78,7 @@ G_N\ge c
 \vee
 \neg_{sel}ScaleCriticalTreeCarleson.A
 \vee
-\text{paid Pack/Part/legal exit.}
+\text{paid Part/legal exit.}
 }
 ```
 
@@ -126,7 +126,7 @@ high-high / donor-square refill:
 
 These are not new terminal targets. The first three are the L3-translator
 version of the installed terminal Leray gate package, and the last is selected
-Pack-side/source-wall failure.
+Field-window/source-wall failure.
 
 ## Reduction
 
@@ -162,6 +162,6 @@ CriticalL3ConcentrationToNativeSourceResidue.A.
 
 This leaves the closed `B_ASAC^closed` terminal zero-thickness CM target closed.
 The terminal zero-radius Zeno residue lands Part-side when the same original-NS
-original participation record remains and true `not Pack_Q` only when that
+original participation record remains and true packet/window evidence only when that
 record is absent. The live work is only the retained L3 translator's
 Leray/coefficient identification on the same CM witness ledger.

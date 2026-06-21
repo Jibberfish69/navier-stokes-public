@@ -25,8 +25,8 @@ TerminalLeraySaturation_{L3}.A.
 
 It asks that the signed high partner needed for the native high-low contraction
 remain on the retained same-ledger packet after one-sided terminal selection,
-unless the work has already exited through selected Pack-side/source-wall
-failure or paid Pack/Part/legal leakage.
+unless the work has already exited through selected Field-window/source-wall
+failure or paid Part/legal leakage.
 
 ## Direct Attempt
 
@@ -47,7 +47,7 @@ The desired native edge is the saturated square
 
 The frame-pinning proof gives that the terminal response covector is a
 nonnegative scalar multiple of the selected response packet modulo legal or
-Pack-side exits. That almost proves saturation, but one remaining point is not
+Field-window support exits. That almost proves saturation, but one remaining point is not
 automatic: the one-sided terminal selection can discard the signed partner
 before the high-low bilinear form has been converted into the square.
 
@@ -66,8 +66,8 @@ The `\delta_j` contribution is
 ```
 
 If `\delta_j` is off-family, cutoff-generated, pressure-generated, or
-projection-generated, it is paid Pack/Part/legal exit. If it is high-high or
-donor-square refill, it is selected Pack-side/source-wall failure. The only
+projection-generated, it is paid Part/legal exit. If it is high-high or
+donor-square refill, it is selected Field-window/source-wall failure. The only
 unclassified possibility is a retained same-family signed partner defect that
 has no independent legal charge but still carries fixed lower bound.
 
@@ -84,7 +84,7 @@ L3TerminalSignedPartnerNoFreeDefect.A:
 }
 ```
 
-except as selected Pack-side/source-wall failure or paid Pack/Part/legal exit.
+except as selected Field-window/source-wall failure or paid Part/legal exit.
 
 Equivalently,
 
