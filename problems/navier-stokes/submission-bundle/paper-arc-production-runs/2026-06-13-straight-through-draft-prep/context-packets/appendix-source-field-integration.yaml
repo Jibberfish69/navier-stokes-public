@@ -44,7 +44,7 @@ source_sections:
   text: "\\section{Proof Attempts And Failures To Prove Smoothness}\n\nThis appendix
     is the support record behind the main class-membership proof.\nIt records positive
     proof attempts only where they help the reader see a\nsame-solution terminal object,
-    a member-side readout, a Pack/Part/Field face,\nor a support theorem still waiting
+    a member-side readout, a Part/Field face,\nor a support theorem still waiting
     for one of those jobs.\n\nThe order begins with the four-body attempt because
     that is where the\nsmoothness-control program first became a concrete circuit:\ncontrol
     the high scales, control energy and enstrophy, use those controls to\nproduce
@@ -54,14 +54,14 @@ source_sections:
     \ Then it shows the calculation that made the\nroute worth trying.  Then it names
     the mathematical stopping point.  Finally it\nstates what survived into the class-membership
     argument.\n\n\\subsection{The Failure-Record Contract}\n\nThe reader has already
-    seen the class test.  Pack, Part, and Field are the\nthree places where a terminal
+    seen the class test.  Part and Field are the\nthree places where a terminal
     witness can keep or lose membership.  The\nappendix now shows why the positive
     smoothness program leaves the objects\ntested by that grammar.\n\nFor that reason
     every route below has five obligations:\nthe attempted payment, the calculation
     that was supposed to carry the route, the exact\nmathematical stopping point, the surviving
     residue, and the later CM role.\nThose obligations are the admission rule for
     this appendix.  A route belongs\nhere when it helps the reader identify a terminal
-    object, a member-side readout,\na Pack/Part/Field face, or a support theorem that
+    object, a member-side readout,\na Part/Field face, or a support theorem that
     is still waiting for one of\nthose jobs.  The appendix serves the main proof by
     showing where each positive\nattempt stopped and what same-solution object or
     support burden it handed\nforward.\n\nThe order is part of the argument.\nThe
@@ -71,7 +71,7 @@ source_sections:
     source, pressure, Zeno, local-critical,\nand endpoint branches then appear in
     the order in which the unpaid object is\nsharpened.\nThe record closes after the
     branch table and the CM handoff explain how a\nfinite-time breakdown claim carries
-    one of these terminal objects into the\nPack/Part/Field test.\n\n\\begin{enumerate}[leftmargin=*,label=\\arabic*.]\n\\item
+    one of these terminal objects into the\nPart/Field test.\n\n\\begin{enumerate}[leftmargin=*,label=\\arabic*.]\n\\item
     \\textbf{Four-body circuit.}\nThe attempted payment is a loop:\ntail control gives
     \\(Q(t)\\) control, those controls give compactness, compactness\ngives an exact
     object, and derivative recovery returns to tail control.\nThe route uses four real mathematical tools:\nviscous high-frequency damping,
@@ -500,7 +500,7 @@ source_sections:
     is not native source.\nThe stopping point is that forward deletion keeps reaching
     one more terminal\nsource object rather than a global positive bound.\nThe CM
     route uses this by admitting the terminal source object to the witness\ntest.\nIt
-    asks whether the object still has Pack, Part, and Field, not whether the old\npositive
+    asks whether the object still has Part and Field, not whether the old\npositive
     deletion theorem has magically been proved.\n\n\\paragraph{BASAC and terminal
     atom.}\nBASAC tries to control source mass at the terminal layer.\nThe model density
     \\(g_m=m1_{(-1/m,0]}\\) explains the obstruction in one line:\nthe \\(L^1\\) mass
@@ -648,7 +648,7 @@ source_sections:
     the resulting field have a coherent positive-scale readout?\nThe branch table
     and closure must leave the reader with that exact handoff:\nthe failure history
     identifies what a finite-time breakdown claim would have to\ncarry; the main proof
-    tests that carried object through Pack, Part, and Field.\n\n\\subsection{How The
+    tests that carried object through Part and Field.\n\n\\subsection{How The
     Record Enters The Proof}\n\nThe failure record is not an appendix of anecdotes.\nIt
     is the back half of the reader's route through the proof.\nThe main text has already
     stated the three requirements that define the working\nclass: a positive material
@@ -674,7 +674,7 @@ source_sections:
   text: |
     \section{Source-Field Reader Appendix}
 
-    This appendix reconstructs recovered Navier-Stokes source work as reader-facing mathematical material. It keeps the parts that explain a definition, reduction, estimate, obstruction, failed attempt that changes the proof burden, or CM witness logic for Pack, Part, Field, and readout.
+    This appendix reconstructs recovered Navier-Stokes source work as reader-facing mathematical material. It keeps the parts that explain a definition, reduction, estimate, obstruction, failed attempt that changes the proof burden, or CM witness logic for Part, Field, and readout.
 
     \subsection*{Appendix Status Map}
 
@@ -684,14 +684,14 @@ source_sections:
     \begin{tabular}{L{0.24\textwidth} L{0.22\textwidth} L{0.42\textwidth}}
     \textbf{Material} & \textbf{Role in proof} & \textbf{Reader use} \\
     Original source stack and framework notes & support-only & Explain where the route came from; they do not replace the same-solution terminal test. \\
-    Direct Pack, Part, Field, and finite-disjunction rows & proof-bearing when tied to the same terminal record & Supply branch-level face landings for the pass-or-exit proof. \\
+    Direct Part, Field, and finite-disjunction rows & proof-bearing when tied to the same terminal record & Supply branch-level face landings for the pass-or-exit proof. \\
     Failed positive smoothness attempts & historical/support-only & Show why the forward estimate route did not pay the Clay burden and what residue entered the CM test. \\
     Earlier Clay-readiness and blocker checks & historical unless used by the main proof & Preserve the development history; they are not governing proof blockers by themselves. \\
     Reader/export notes & support-only & Explain presentation context without adding a fourth terminal branch. \\
     \end{tabular}
     \end{center}
 
-    When an older subsection says that a route did not prove the Clay problem, that sentence is read in its historical local context. The current governing question is the one in the main proof: the alleged same-solution terminal record either passes Pack, Part, and Field and continues, or it fails first at one of those faces and is not an in-class nonsmooth terminal member of the original solution.
+    When an older subsection says that a route did not prove the Clay problem, that sentence is read in its historical local context. The current governing question is the one in the main proof: the alleged same-solution terminal record either passes Part and Field and continues, or it fails first at one of those faces and is not an in-class nonsmooth terminal member of the original solution.
 
     \subsection{Canonical Source Stack And Original Framework}
 
@@ -751,7 +751,7 @@ source_sections:
     Proof. Statement (A1a.5) quantifies only over the Euclidean readout
     \(\mathcal C\) and the admissible datum class \(\mathcal K_{\mathrm{Euc}}\)
     fixed by the earlier splice. It does not assert that the Euclidean surface is
-    the correct export of the CM packet. It also does not assert evolution, an exact
+    the correct export of the CM participation-field. It also does not assert evolution, an exact
     projected nonlinear identity, or a global carrier norm bound. Those burdens
     belong to the earlier splice and to (A1b)--(A1c).
 
@@ -1400,7 +1400,7 @@ source_sections:
     all scales.  The manuscript should read this as an open gold supplier and a
     visible boundary theorem.  Its silver counterpart is simple: a frequency-transfer
     residue can enter the CM proof only after it is selected as a same-solution
-    terminal record and then read at Pack, Part, Field, or readout.
+    terminal record and then read at Part, Field, or readout.
 
 
     \subsection{Amplitude-Speed Gate Supplier Rollup Result}
@@ -1919,7 +1919,7 @@ source_sections:
     still requires the stated coercive barrier.
     Its PDF role is to name the exact barrier that would turn angular null gain into
     proof material.  The CM role begins only after a surviving cap-null residue is
-    attached to the original branch and tested at Pack, Part, Field, or readout.
+    attached to the original branch and tested at Part, Field, or readout.
 
 
     \subsection{Capwise Signed Defect Positivity Theorem Candidate}
@@ -2134,7 +2134,7 @@ source_sections:
     theorem from the persistent carrier to the classical low-mode band.  Until that
     export theorem is paid, the carrier route remains support for the gold side and
     supplies CM material only after a selected same-solution residue is tested at
-    Pack, Part, Field, or readout.
+    Part, Field, or readout.
 
 
     \subsection{Carrier Frequency-Aligned Readout Theorem}
@@ -2286,7 +2286,7 @@ support_refs:
   - support
   excerpt: |-
     6. Dependency order is mandatory: definitions and operational need precede branch-family compression.
-    7. There is no current concrete CM blocker after terminal witness consumption. The Pack-side/source support chain is retained as mathematical support and may enter the proof spine only through the terminal CM entry, Pack/Part/Field finite-failure exhaustion, or contrapositive embedding gates.
+    7. There is no current concrete CM blocker after terminal witness consumption. The Pack-side/source support chain is retained as mathematical support and may enter the proof spine only through the terminal CM entry, Part/Field finite-failure exhaustion, or contrapositive embedding gates.
     8. The surface appendix must be long when the source field is long and the mathematical roles are genuinely distinct. Compression is allowed only by proof role, never by removing relevant mathematical obligations from the manuscript. Repeating a proof-role template across row numbers is forbidden and must fail the PDF hygiene check.
 - path: problems/navier-stokes/theorem-construction/mpp-euler-ns-boundary-line-source-inventory-20260612.md
   matched_keywords:
@@ -2417,8 +2417,8 @@ support_refs:
     status: demoted-stale-work-order
       proof_role: blocker_demotion
       logical_landing_node: cm_pack_face_attempts
-      edge_effect: "Demotes generic Pack-face exclusion as a stale global no-exit target while preserving not-Pack_Q as a lawful first-face landing for named rows."
-      upstream_origin: "June 7 Pack-face exclusion working pass and current CM referee audit."
+      edge_effect: "Demotes generic Field-window evidence exclusion as a stale global no-exit target while preserving not-Pack_Q as a lawful first-face landing for named rows."
+      upstream_origin: "June 7 Field-window evidence exclusion working pass and current CM referee audit."
 - path: problems/navier-stokes/theorem-construction/mpp-new-first-pack-survival-mechanism-search-after-nonalias-exhaustion-20260609.md
   matched_keywords:
   - attempt

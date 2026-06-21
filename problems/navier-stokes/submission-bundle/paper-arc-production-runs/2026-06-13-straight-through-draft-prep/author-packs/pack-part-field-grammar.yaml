@@ -1,8 +1,8 @@
 ---
 version: 1
 kind: ns-paper-arc-author-pack
-arc_id: pack-part-field-grammar
-batch_id: pack-part-field-grammar-author-pack-20260614T000054Z
+arc_id: part-field-grammar
+batch_id: part-field-grammar-author-pack-20260614T000054Z
 ready_to_apply: true
 source_rewrites:
 - op: replace_section
@@ -119,7 +119,7 @@ source_rewrites:
   - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
-    claim_truth_attack: The strongest claim is that dead, jump, and blown are lawful mechanism names only after the first failed face is located. The source pays this by routing dead through Part and jump/blown through the Pack/Part/Field order.
+    claim_truth_attack: The strongest claim is that dead, jump, and blown are lawful mechanism names only after the first failed face is located. The source pays this by routing dead through Part and jump/blown through the Part/Field order.
     reader_thread_attack: "A reader could mistake the names for a loose taxonomy. The section now states the sequence explicitly: fix \\(Q\\), check Pack, check Part, then check Field."
     open_derivation_attack: The section pays the mechanism vocabulary. Concrete branch sections still have to derive the face for each selected terminal record before the name can count as exit evidence.
     repair_decision: passes after repair
@@ -151,7 +151,7 @@ source_rewrites:
     \]
     with the continuation readout for the branch attached at the depth being used.  This is the pass side.  It says that the selected record remains inside the working Navier--Stokes class.
 
-    The fail side is supplied by finite-witness classification.  A finite terminal obstruction \(\mathcal F\) that has been admitted as the same selected record cannot keep a continuation-complete Pack/Part/Field packet.  If it kept
+    The fail side is supplied by finite-witness classification.  A finite terminal obstruction \(\mathcal F\) that has been admitted as the same selected record cannot keep a continuation-complete Part/Field packet.  If it kept
     \[
       \Pack_Q,\qquad \Part_{N_s,Q},\qquad \Field_{N_s,r,Q}
     \]
@@ -193,7 +193,7 @@ source_rewrites:
       to Exit(Q;Owork).
     reader_thread_attack: A reader could lose why arbitrary bad scales are not exits.
       The replacement repairs this by requiring a selected same-solution record Q
-      and the Pack/Part/Field packet before any class-exit witness is named.
+      and the Part/Field packet before any class-exit witness is named.
     open_derivation_attack: The logic proof is paid as certificate direction plus
       finite-witness classification. The branch readout and terminal obstruction must
       still be supplied by the branch being tested.
@@ -223,7 +223,7 @@ source_rewrites:
     \]
     The member row also needs the branch readout.  The Pack row says there is no positive same-fluid carrier.  The Part row says the carrier is present and the same law has been lost.  The Field row says the carrier and law are present, while every positive one-field scale fails.
 
-    The other Boolean rows collapse to the first failed face.  A field-looking trace without a carrier has already failed Pack.  A formal participation reading without a same carrier also fails Pack first.  A carrier whose law and field both fail is recorded at Part, because the equation law is lost before the field question can do useful work.
+    The other Boolean rows collapse to the first failed face.  A field-looking trace without a carrier has already failed Pack.  A formal participation reading without a same carrier also fails Part/Field first.  A carrier whose law and field both fail is recorded at Part, because the equation law is lost before the field question can do useful work.
 
     Field remains a real terminal face.  Some terminal pictures first appear as jumps, incompatible neighboring traces, or unbounded tower readings.  After Pack and Part have survived on the selected record, those pictures ask whether one positive scale still carries a coherent field.  If every such scale fails, the record lands in Field.
 
@@ -263,7 +263,7 @@ source_rewrites:
   replacement: |
     \section{The Class-Law Proof}
 
-    The class law turns the witness grammar into a proof.  It has two inputs.  The first input is the exact certificate theorem: retained Pack, Part, and Field certify membership.  The second input is the finite-failure theorem: an admitted finite terminal obstruction cannot retain a continuation-complete packet.
+    The class law turns the witness grammar into a proof.  It has two inputs.  The first input is the exact certificate theorem: retained Part and Field certify membership.  The second input is the finite-failure theorem: an admitted finite terminal obstruction cannot retain a continuation-complete packet.
 
     \begin{definition}[Continuation-complete packet]
     Fix \(s>5/2\), and let \(N_s\) be a tower depth high enough for the classical \(H^s\) readout.  A continuation-complete packet for \(Q\) is a packet satisfying
@@ -322,7 +322,7 @@ source_rewrites:
     \begin{proof}
     Begin with the selected record \(Q\).  The first gate is Pack.  Either the positive same-fluid carrier exists or it fails.  Carrier failure gives \(\neg\Pack_Q\), and the proof stops at Pack.
 
-    Assume Pack survives.  The second gate is Part.  Either the same pressure-viscosity-incompressibility tower acts through depth \(N_s\) on the carrier, or it fails.  Participation failure gives
+    Assume Field-window evidence is present.  The second gate is Part.  Either the same pressure-viscosity-incompressibility tower acts through depth \(N_s\) on the carrier, or it fails.  Participation failure gives
     \[
       \Pack_Q\wedge\neg\Part_{N_s,Q},
     \]
@@ -345,7 +345,7 @@ source_rewrites:
     \end{theorem}
 
     \begin{proof}
-    A continuation-complete member record supplies Pack, Part, Field, and the \(H^s\), \(s>5/2\), readout at the required depth.  The standard local theory relaunches the same classical solution from times \(t_j\uparrow T_*\) and extends it past \(T_*\).  The same record then cannot be the finite terminal obstruction blocking that continuation.
+    A continuation-complete member record supplies Part, Field, and the \(H^s\), \(s>5/2\), readout at the required depth.  The standard local theory relaunches the same classical solution from times \(t_j\uparrow T_*\) and extends it past \(T_*\).  The same record then cannot be the finite terminal obstruction blocking that continuation.
     \end{proof}
 
     \subsection{Annular residual specialization}
@@ -461,7 +461,7 @@ source_rewrites:
     repair_decision: open endpoint written explicitly
     unresolved_failures: []
 author_contract:
-  arc_id: pack-part-field-grammar
+  arc_id: part-field-grammar
   must_write:
   - finished TeX prose, not a report
   - reader-facing explanation before compressed notation

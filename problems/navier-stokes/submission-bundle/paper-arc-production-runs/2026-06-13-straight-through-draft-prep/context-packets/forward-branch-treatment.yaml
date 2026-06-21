@@ -231,17 +231,17 @@ source_sections:
     \begin{proof}
     Read the families by their selected terminal object.  Source-control and donor-refill branches select terminal source ancestry or reserve.  Detached or unpaid ancestry without a positive same-fluid carrier is Pack-side.  Retained source residue with carrier and broken pressure-viscosity participation is Part-side.  Retained source residue that has passed Pack and Part becomes a Field or readout diagnostic.
 
-    Zero-radius and terminal-atom branches select a point-object with no positive terminal carrier unless a retained positive-scale packet has first been supplied.  The point-object branch is a Pack face failure.  Retained Zeno and annular alternatives are finite typed subcases inside the same witness tree.
+    Zero-radius and terminal-atom branches select a point-object with no positive terminal carrier unless a retained positive-scale packet has first been supplied.  The point-object branch is a Field-window evidence failure.  Retained Zeno and annular alternatives are finite typed subcases inside the same witness tree.
 
     Retained-amplitude, height-flux, low-strain, signed-current, and square-reserve branches select failures of gain, dwell, participation, source balance, or retained coherence.  Each such failure either breaks the carrier, breaks the same pressure-viscosity participation tower after the carrier survives, breaks positive-scale coherence after Pack and Part survive, or remains a positive supplier theorem outside the class primitive.
 
     Good-scale, endpoint-readout, no-pulse, averaged, and terminal-tail branches read a packet that has already retained enough structure to be read.  They support Field and the continuation consequence.  They become proof material only when the exact packet has already entered Pack, Part, or Field.
 
-    Local critical translators place local \(L^3\) or Duhamel mass back on the same witness record.  Their role is branch-local: native source work or Pack/Part/Field exit.
+    Local critical translators place local \(L^3\) or Duhamel mass back on the same witness record.  Their role is branch-local: native source work or Part/Field exit.
 
     Broad fixed-viscosity transfer and broad Euler mirror branches are comparison programs.  The Euler material admitted into this manuscript is narrower.  The same selected Navier--Stokes packet has retained the shared flux-momentum reading, has lost fixed-viscosity Part or Field participation, and is thereby readable as the base Euler boundary object.  Everything else remains support outside the proof body.
 
-    These alternatives exhaust the branch families because every branch either supplies a selected same-solution terminal object or supplies context for such an object.  Selected terminal objects are exhausted by the same Pack/Part/Field terminal-capture theorem.  Context without a selected face remains support outside the proof spine.
+    These alternatives exhaust the branch families because every branch either supplies a selected same-solution terminal object or supplies context for such an object.  Selected terminal objects are exhausted by the same Part/Field terminal-capture theorem.  Context without a selected face remains support outside the proof spine.
     \end{proof}
 
     \begin{center}
@@ -249,12 +249,12 @@ source_sections:
     \begin{tabular}{L{0.25\linewidth}L{0.31\linewidth}L{0.34\linewidth}}
     \textbf{Branch family} & \textbf{Object it can select} & \textbf{Proof role in this manuscript}\\
     \hline
-    Source reserve and donor refill & terminal source ancestry or residual refill & Pack first; Part after carrier survives; Field after Pack and Part\\
+    Source reserve and donor refill & terminal source ancestry or residual refill & Part/Field first; Part after carrier survives; Field after Pack and Part\\
     Zeno, terminal atoms, and annular limit & point-object or shrinking annular witness & point-object Pack failure; admitted annular witness returns to Part or Field landing\\
-    Retained amplitude and low strain & terminal amplitude, dwell, or height-flux branch & finite routing through Pack, Part, Field, or Zeno\\
+    Retained amplitude and low strain & terminal amplitude, dwell, or height-flux branch & finite routing through Part, Field, or Zeno\\
     Signed current and no-free-sink & source-current or donor-balance record & support until it proves a same-record face or readout\\
     Square reserve and native trilinear control & selected square-source reserve & auxiliary until the reserve lands in first-face order\\
-    Endpoint readout and no-pulse & good-scale or read-cover packet & member-side readout after Pack, Part, and Field survive\\
+    Endpoint readout and no-pulse & good-scale or read-cover packet & member-side readout after Part and Field survive\\
     Local \(L^3\) translators & localized public-critical terminal mass & witness-record recovery before face testing\\
     Euler boundary comparison & same selected packet after fixed-viscosity loss & boundary reading after the Navier--Stokes face is typed\\
     \end{tabular}
@@ -359,7 +359,7 @@ source_sections:
     \]
     or after it supplies the member-side readout chain up to the continuation consumer selected for that same record.  Support material can explain why a branch was considered.  It becomes proof material when it selects the record and pays the face or readout.
 
-    This rule is the paper's protection against proof-attempt churn.  A failed direct estimate stays in the appendix as support, obstruction, or scope boundary.  It moves into the main proof only when the manuscript can say which same-solution object it selects and which Pack, Part, Field, or readout payment it supplies.
+    This rule is the paper's protection against proof-attempt churn.  A failed direct estimate stays in the appendix as support, obstruction, or scope boundary.  It moves into the main proof only when the manuscript can say which same-solution object it selects and which Part, Field, or readout payment it supplies.
 
     \appendix
   truncated: false
@@ -372,7 +372,7 @@ source_sections:
   text: |
     \section{Supplementary Branch Checks}
 
-    The appendices collect supporting calculations, failed direct estimates, and branch-local reductions.  They show why proposed terminal scenarios are read as Pack, Part, Field, member-side readout, support, or scope boundary.
+    The appendices collect supporting calculations, failed direct estimates, and branch-local reductions.  They show why proposed terminal scenarios are read as Part, Field, member-side readout, support, or scope boundary.
 
     Those calculations are evidence for the theorem above.  When an appendix calculation says that a source-control theorem, no-pulse route, critical-norm route, or direct exterior \(H^s\) estimate failed to close, it records the failure of that direct estimate.  The calculation becomes an input to the proof only when the main body cites it as a selected-record face landing or readout payment.
 
@@ -431,7 +431,7 @@ source_sections:
 
     \begin{proof}
     A selected branch either lacks a positive transported packet, keeps such a packet and loses the same Navier--Stokes law through the velocity tower, keeps both and loses positive-scale coherent field readout, or still awaits the selected packet needed for the class test.
-    The first three alternatives are Pack, Part, and Field.
+    The first three alternatives are Part and Field.
     The last alternative is support for a later selected packet.
     The working class object has exactly these three continuation requirements.
     \end{proof}
@@ -784,7 +784,7 @@ source_sections:
 
     In the CM-exit program, the lifted-band residue is support until it is attached
     to a selected terminal object. If it enters as a lower-shell packet failure, it
-    presses the Pack face. If it survives through the same nonlinear participation
+    presses the Field-window evidence. If it survives through the same nonlinear participation
     law, it presses the Part face. If it appears only as loss of coherent positive
     scale readout, it presses the Field face. This section records the
     branch as a technical source of terminal witnesses, not as a closed positive
@@ -1580,7 +1580,7 @@ source_sections:
   text: |
     \section{Expanded Branch-Family Obligations}
 
-    The branch families are listed here so the reader can see how the current repo material is being carried by the paper.  The counts are coverage signals.  The proof role is the important part.  Each family either supplies a selected same-solution terminal record, pays one Pack/Part/Field face, pays the member-side readout, or remains an open support family.
+    The branch families are listed here so the reader can see how the current repo material is being carried by the paper.  The counts are coverage signals.  The proof role is the important part.  Each family either supplies a selected same-solution terminal record, pays one Part/Field face, pays the member-side readout, or remains an open support family.
 
     \subsection{Source-reserve family}
 
@@ -1602,7 +1602,7 @@ source_sections:
 
     \subsection{Local translator family}
 
-    Local translator material moves local \(L^3\), Duhamel, or public-critical mass onto a terminal packet.  Its job is not to prove smoothness by translation.  Its job is to preserve enough of the same solution record for the Pack/Part/Field test.  A translator that changes the pressure-viscosity law lands on the Part side.  A translator that preserves the law moves to Field and readout.
+    Local translator material moves local \(L^3\), Duhamel, or public-critical mass onto a terminal packet.  Its job is not to prove smoothness by translation.  Its job is to preserve enough of the same solution record for the Part/Field test.  A translator that changes the pressure-viscosity law lands on the Part side.  A translator that preserves the law moves to Field and readout.
 
     \subsection{Same-ledger family}
 
@@ -1610,7 +1610,7 @@ source_sections:
 
     \subsection{Class-law family}
 
-    Class-law material protects the pass-or-exit structure itself.  A reopening branch has to produce a genuine third possibility: an in-class nonsmooth terminal record that satisfies the membership data and still breaks continuation.  The current proof architecture sends such a challenge to one of three places: terminal CM entry, finite Pack/Part/Field exhaustion, or the no-third-branch closure.  A challenge that pays none of those places is support for a later audit, not a new branch of the proof.
+    Class-law material protects the pass-or-exit structure itself.  A reopening branch has to produce a genuine third possibility: an in-class nonsmooth terminal record that satisfies the membership data and still breaks continuation.  The current proof architecture sends such a challenge to one of three places: terminal CM entry, finite Part/Field exhaustion, or the no-third-branch closure.  A challenge that pays none of those places is support for a later audit, not a new branch of the proof.
 
     \subsection{Local energy and elliptic family}
 
@@ -1656,7 +1656,7 @@ support_refs:
   excerpt: |-
     Make the problems/** Navier-Stokes human PDF a continuously readable,
         forward-positive work as supplier/certification support and silver CM
-        Pack/Part/Field contrapositive as an acceptable closure route when fully
+        Part/Field contrapositive as an acceptable closure route when fully
         written and readable.
 - path: problems/navier-stokes/submission-bundle/pdf-rebuild-branch-section-workplan-20260530.md
   matched_keywords:
@@ -1721,7 +1721,7 @@ support_refs:
   - open
   excerpt: |-
     governing_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
-      propagated_object: same-fluid Pack/Part/Field witness-face envelope; Member(Q) is
+      propagated_object: same-fluid Part/Field witness envelope; Member(Q) is
         the forward membership predicate
       promotion_gate: Pack_Q, Part_{N,Q}, or Field_{N,r,Q} witness-face landing
       current_role: governing proof grammar for CM-bearing promotion
@@ -1733,7 +1733,7 @@ support_refs:
   - gold
   - open
   excerpt: |-
-    - Do not call any bad object `Exit(Q)` before deriving CM-test entry plus a concrete Pack/Part/Field face failure.
+    - Do not call any bad object `Exit(Q)` before deriving CM-test entry plus a concrete Part/Field face failure.
 
     ## Dependency-Forward Manuscript Architecture
 

@@ -65,7 +65,7 @@ source_sections:
     \begin{definition}[CM-test-admissible Clay terminal record]
     A Clay terminal record is CM-test-admissible when it is extracted from the same original Navier--Stokes branch and carries the same datum, equation, pressure law, viscosity, preterminal fluid ancestry, terminal time, and terminal role.
     This admissibility condition puts the alleged terminal object into the CM test.
-    It is a grammar and custody condition for the witness; membership in \(\Owork\) is decided only after the Pack, Part, and Field requirements are read.
+    It is a grammar and custody condition for the witness; membership in \(\Owork\) is decided only after the Part and Field requirements are read.
     \end{definition}
 
     For such a record the proof has the following chain:
@@ -74,13 +74,13 @@ source_sections:
     &\text{finite same-surface Clay terminal record}\\
     &\Longrightarrow \text{CM-test-admissible same-solution terminal object}\\
     &\Longrightarrow
-      \text{member-side readout or first Pack/Part/Field face failure}\\
+      \text{member-side readout or first Part/Field face failure}\\
     &\Longrightarrow
       \Member(Q;\Owork)\ \text{or}\ \Exit(Q;\Owork).
     \end{aligned}
     \]
     The pass side is the ordinary smooth side of the argument.
-    When the same record keeps Pack, Part, and Field, it remains readable by the continuation consumer selected for that branch.
+    When the same record keeps Part and Field, it remains readable by the continuation consumer selected for that branch.
     For the Sobolev consumer used here, that readout is the \(H^s\), \(s>5/2\), endpoint control that restarts the same classical solution.
     The fail side is the class-exit side of the argument.
     The record has entered the CM test, and the first lost requirement is read as a concrete witness face.
@@ -170,7 +170,7 @@ source_sections:
     \begin{proof}
     Assume \(T_*<\infty\).
     The whole-torus terminal atlas is readout-complete.
-    The finite endpoint either retains Pack, Part, and Field on the same transported atlas, or it has a first face failure.
+    The finite endpoint either retains Part and Field on the same transported atlas, or it has a first face failure.
     An annular residue surrounding the endpoint is tested through the same atlas.
     When that residue has already been admitted through the atlas, the annular test has retained carrier and selection, so the nonsmooth branch must fail Part or Field.
     The face-failure branch is consumed by the terminal witness theorem and embedded as class exit for the same working Navier--Stokes object.
@@ -199,7 +199,7 @@ source_sections:
     This is the point where compactness profiles, annular residues, exterior survivors, and atlas objects are forced to remain objects from the original Navier--Stokes solution.
 
     The third hinge is member-side readout.
-    When Pack, Part, and Field survive on the same record, the record stays readable through the continuation consumer selected by the proof.
+    When Part and Field survive on the same record, the record stays readable through the continuation consumer selected by the proof.
     For the classical Sobolev consumer, this produces the \(H^s\), \(s>5/2\), restart branch for the original solution.
 
     The fourth hinge is class exit.
@@ -220,7 +220,7 @@ source_sections:
     \section{The Same-Solution CM Proof}
 
     The proof now turns the preceding branch analysis into one same-solution argument.
-    The order is terminal entry, same-object admission, Pack, Part, Field, member-side readout, and class exit.
+    The order is terminal entry, same-object admission, Part, Field, member-side readout, and class exit.
     The alleged counterexample stays attached to the original solution at every step.
     Once an admitted terminal alternative has landed in a first failed face, it has entered the pass-or-exit dichotomy.
 
@@ -245,7 +245,7 @@ source_sections:
 
     The proof has five steps.
     First, the finite Clay negation is reduced to the same-branch alternative above: restart readout, or terminal record \(Q\).
-    Second, \(Q\) is admitted to the CM packet tree, or the proposed obstruction is rejected as the wrong object for the original solution.
+    Second, \(Q\) is admitted to the CM participation-field tree, or the proposed obstruction is rejected as the wrong object for the original solution.
     Third, the admitted record is read in the order
     \[
       \Pack_Q,\qquad \Part_{N,Q},\qquad \Field_{N,r,Q}.
@@ -480,9 +480,9 @@ support_refs:
   - Exit
   - Member
   excerpt: |-
-    The batch rewrote the active CM proof core in `navier-stokes-submission.tex`, from `Defining Class Membership` through `The Clay-Facing CM Completion`.  The rewritten source fixes one working object \(\mathcal O_{\mathrm{NS}}^{\mathrm{work}}\), defines membership and exit on that same object, teaches Pack/Part/Field as three membership faces, states the pass-or-exit split with branch readout on the pass side, and keeps the annular endpoint boundary visible instead of turning the CM grammar into a final proof claim.
+    The batch rewrote the active CM proof core in `navier-stokes-submission.tex`, from `Defining Class Membership` through `The Clay-Facing CM Completion`.  The rewritten source fixes one working object \(\mathcal O_{\mathrm{NS}}^{\mathrm{work}}\), defines membership and exit on that same object, teaches Part/Field as three membership faces, states the pass-or-exit split with branch readout on the pass side, and keeps the annular endpoint boundary visible instead of turning the CM grammar into a final proof claim.
 
-    The batch also puts the current gold/silver ledgers into reader-facing form.  Gold remains the forward-positive route and is narrowed to the residual annular refill problem, with terminal Zeno source-refill named as the surviving obstruction.  Silver remains the CM-exit contrapositive route and is stated as a first Pack/Part/Field face landing for any selected same-solution residual obstruction.  The periodic atlas result and whole-space exterior-source branch are written as branch-specific payments, not as hidden closure of the open annular endpoint.
+    The batch also puts the current gold/silver ledgers into reader-facing form.  Gold remains the forward-positive route and is narrowed to the residual annular refill problem, with terminal Zeno source-refill named as the surviving obstruction.  Silver remains the CM-exit contrapositive route and is stated as a first Part/Field face landing for any selected same-solution residual obstruction.  The periodic atlas result and whole-space exterior-source branch are written as branch-specific payments, not as hidden closure of the open annular endpoint.
 - path: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260612-iteration-2.yaml
   matched_keywords:
   - Clay
@@ -611,7 +611,7 @@ support_refs:
     ```text
     finite same-surface Clay breakdown witness
     => CM-test-admissible terminal object
-    => Pack/Part/Field first-face failure
+    => Part/Field first-face failure
 - path: problems/navier-stokes/theorem-construction/mpp-first-exit-nonalias-frontier-after-basac-density-failure-20260609.md
   matched_keywords:
   - Clay
@@ -675,7 +675,7 @@ support_refs:
         - problems/navier-stokes/theorem-construction/mpp-public-finality-first-exit-pack-wall-reentry-20260609.md
         - problems/navier-stokes/theorem-construction/mpp-same-witness-clay-exclusion-propagation-direct-attempt-20260609.md
         - problems/navier-stokes/theorem-construction/mpp-terminal-positive-source-atom-frontier-reentry-20260609.md
-      downstream_consequence: "The public finality route needs a produced minimal-bubble Liouville class or an equivalent theorem excluding the first Pack face from original smooth data; pdfs_final remains false."
+      downstream_consequence: "The public finality route needs a produced minimal-bubble Liouville class or an equivalent theorem excluding the first Field-window evidence from original smooth data; pdfs_final remains false."
 - path: problems/navier-stokes/theorem-construction/mpp-no-proof-bearing-first-face-failure-target-audit-20260609.md
   matched_keywords:
   - Clay
