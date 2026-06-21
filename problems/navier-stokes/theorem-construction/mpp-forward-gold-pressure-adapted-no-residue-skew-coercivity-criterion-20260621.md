@@ -255,11 +255,11 @@ viscous/capacity/tail/legal payment on the same carrier.
 
 ## 3. No-residue commutator theorem
 
-The exact new production theorem is:
+The exact corrected production theorem is:
 
 ```math
 \boxed{
-\text{PressureAdaptedNoResidueCommutator.A}
+\text{ParticipationPreservingNoResidueFullCycle.A}
 }
 \tag{PAN.15}
 ```
@@ -268,7 +268,7 @@ For every retained terminal same-carrier family, it asserts
 
 ```math
 \boxed{
-\left[\mathcal C_\sigma\right]_{\mathcal S,+}
+\left[\mathcal C_\sigma^{full}\right]_{\mathcal S,+}
 \le
 \varepsilon\nu D_\sigma
 -\partial_\sigma\Phi_\sigma
@@ -297,15 +297,16 @@ corrector:
 \tag{PAN.18}
 ```
 
-The selected positive part \([\mathcal C_\sigma]_{\mathcal S,+}\) is essential.
-The theorem has to apply after the actual terminal selector is chosen, not only
-to the global signed sum.
+The selected positive part
+\([\mathcal C_\sigma^{full}]_{\mathcal S,+}\) is essential.  The theorem has
+to apply after the actual terminal selector is chosen, not only to the global
+signed sum.
 
-The transported-selector test identifies a concrete way `(PAN.16)` could be
-proved.  With
+The transported-selector test identifies a concrete way the transport channel
+inside `(PAN.16)` could be produced.  With
 
 ```math
-G_\sigma=A_\sigma^\ast A_\sigma,
+G_\sigma^{tr}=(A_\sigma^{tr})^\ast A_\sigma^{tr},
 \qquad
 L=u\cdot\nabla,
 \tag{PAN.18a}
@@ -315,43 +316,53 @@ the exact metric identity is
 
 ```math
 \boxed{
-\langle A_\sigma L u,A_\sigma u\rangle
+\langle A_\sigma^{tr} L u,A_\sigma^{tr}u\rangle
 =
--{1\over2}\langle [L,G_\sigma]u,u\rangle.
+-{1\over2}\langle [L,G_\sigma^{tr}]u,u\rangle.
 }
 \tag{PAN.18b}
 ```
 
-Thus the commutator is the transport commutator of the selector metric.  At the
-symbol level this is the cotangent material derivative.  A fixed dyadic
-selector turns \([L,G_\sigma]\) into the active strain/source-square residue.
-A transported pressure-adapted selector would instead satisfy
+Thus the transport commutator is the transport commutator of the selector
+metric.  At the symbol level this is the cotangent material derivative.  A
+fixed dyadic selector turns \([L,G_\sigma^{tr}]\) into the active
+strain/source-square residue.  A transported transport-channel selector must
+now be compatible with the other Hodge-Stokes channels:
 
 ```math
-\partial_sG_\sigma+[L,G_\sigma]=\partial_\sigma K_\sigma+R_\sigma,
+\partial_sG_\sigma^{tr}
++[L,G_\sigma^{tr}]
++\mathcal P_\sigma
++\mathcal V_\sigma
++\mathcal I_\sigma
++\mathcal B_\sigma
+=
+\partial_\sigma K_\sigma+R_\sigma,
 \tag{PAN.18c}
 ```
 
-where the \(\partial_\sigma K_\sigma\) term gives the capacity drop
-\(-\partial_\sigma\Phi_\sigma\), and \(R_\sigma\) is viscous-absorbable or
-\(L^1_\sigma\).
+where \(\mathcal P_\sigma,\mathcal V_\sigma,\mathcal I_\sigma,\mathcal
+B_\sigma\) are the pressure, viscous, incompressibility/divergence, and
+boundary/cutoff records.  The \(\partial_\sigma K_\sigma\) term gives the
+capacity drop \(-\partial_\sigma\Phi_\sigma\), and \(R_\sigma\) is
+viscous-absorbable or \(L^1_\sigma\).
 
 So the concrete production target behind `(PAN.16)` is now
 
 ```math
 \boxed{
-\text{TransportedPressureAdaptedSelector.A.}
+\text{TransportedFullHodgeStokesSelector.A.}
 }
 \tag{PAN.18d}
 ```
 
 With `(PAN.16)`, the native selected positive activity is paid if it is
-identified with this commutator carrier:
+identified with this full-packet carrier:
 
 ```math
 A_{\rm sel}(\sigma)
 \le
-C_A\left[\mathcal C_\sigma\right]_{\mathcal S,+}
+C_A\left[\mathcal C_\sigma^{full}\right]_{\mathcal S,+}
 +
 R_A(\sigma),
 \qquad
