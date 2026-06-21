@@ -121,7 +121,7 @@ BASACTimeFaceAntiAtom.A.
 
 ## CM Face Boundary
 
-A terminal singular native source residue can be classified as a Pack/Part face
+A terminal singular native source residue can be classified as a Part/Field face
 inside the CM contrapositive witness tree. That classification is installed
 support for:
 

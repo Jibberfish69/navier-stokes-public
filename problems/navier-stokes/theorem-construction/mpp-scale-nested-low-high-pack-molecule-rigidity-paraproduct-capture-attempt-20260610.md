@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/live-theorem-edge.yaml
     - problems/navier-stokes/theorem-construction/mpp-paraproduct-native-source-capture-proof-20260522.md
     - problems/navier-stokes/theorem-construction/mpp-terminal-l3-duhamel-mass-cm-face-correction-20260523.md
-  downstream_consequence: "ScaleNestedLowHighPackMoleculeRigidity.A is not proved. The installed paraproduct theorem classifies/captures the low-high molecule as native source or selected Pack-side/source-wall failure inside the CM witness grammar; public Clay finality still needs LowHighPackSourceCarlesonReserve.A, SelectedLowHighPositiveStrainDecorrelation.A, or an equivalent theorem excluding the first Pack failure from original smooth data."
+  downstream_consequence: "ScaleNestedLowHighPackMoleculeRigidity.A is not proved. The installed paraproduct theorem classifies/captures the low-high molecule as native source or selected Field-window/source-wall failure inside the CM witness grammar; public Clay finality still needs LowHighPackSourceCarlesonReserve.A, SelectedLowHighPositiveStrainDecorrelation.A, or an equivalent theorem excluding the first Pack failure from original smooth data."
 ---
 
 # MPP ScaleNestedLowHighPackMoleculeRigidity Paraproduct-Capture Attempt
@@ -41,7 +41,7 @@ the positive part is taken after the product.
 Proof program: CM contrapositive public-finality bridge.
 
 Target role: decide whether the scale-nested low-high molecule is excluded,
-rigidified, or only classified as the Pack-side source-wall face.
+rigidified, or only classified as the Field-window support source-wall face.
 
 Logical skeleton: source-scope audit plus paraproduct capture plus public
 finality boundary.
@@ -59,7 +59,7 @@ L3DuhamelResponseWorkLocalization.A
 + ParaproductNativeSourceCapture.A
 + TerminalSourceResidueCMExit.A
 + RetainedPackPartCriticalL3FieldExit.A
-=> terminal L3 Duhamel mass lands in Pack/Part/legal CM Part/Field.
+=> terminal L3 Duhamel mass lands in Part/legal CM Part/Field.
 ```
 
 The proof of `ParaproductNativeSourceCapture.A` captures same-ledger nonlinear
@@ -67,8 +67,8 @@ source work as:
 
 ```text
 native positive source measure,
-or selected ScaleCriticalTreeCarleson / Pack-side source-wall failure,
-or paid Pack/Part/legal exit.
+or selected ScaleCriticalTreeCarleson / Field-window support source-wall failure,
+or paid Part/legal exit.
 ```
 
 This is real CM support. It says the low-high source work is not an untyped
@@ -84,7 +84,7 @@ by the scale-nested low-high molecule.
 ```
 
 `ParaproductNativeSourceCapture.A` does not say that. It routes the low-high
-work into the native positive source / selected Pack-side source-wall channel.
+work into the native positive source / selected Field-window support source-wall channel.
 That is exactly the obstruction currently being tested.
 
 So the import gives:
@@ -171,8 +171,8 @@ remain non-final.
 
 `NS-LIVE-20260609-218`: the installed paraproduct native-source package does not
 prove scale-nested low-high Pack molecule rigidity. It captures the low-high
-work as native source, selected Pack-side/source-wall failure, or paid
-Pack/Part/legal exit inside the CM witness grammar. That is classification
+work as native source, selected Field-window/source-wall failure, or paid
+Part/legal exit inside the CM witness grammar. That is classification
 support, not public finality: the first Pack failure from original smooth data
 can still be the selected low-high positive source-wall molecule. The active
 loop must prove `LowHighPackSourceCarlesonReserve.A`,

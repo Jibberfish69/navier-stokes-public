@@ -103,7 +103,7 @@ PositiveFieldScaleUnderSynchronization.A.
 
 Inside `TerminalCMNoExit.A / NoGenuineCMExit.A`, that residue is exactly the
 positive-scale Field survival problem after Pack and Part have been licensed.
-The Pack side is still the earlier no-exit gate:
+The Field-window support is still the earlier no-exit gate:
 
 ```math
 TerminalPackStrainIntegrabilityNoExit.A

@@ -94,7 +94,7 @@ Thus the extraction theorem is proved.
 
 ## Consequence
 
-The extracted packet feeds `FieldFiniteDifferenceReadoutHHalf.A` and `FieldCoherenceControlsCriticalShell.A`. On retained Pack+Part, the exact downstream implication is
+The extracted packet feeds `FieldFiniteDifferenceReadoutHHalf.A` and `FieldCoherenceControlsCriticalShell.A`. On retained Part plus Field-window evidence, the exact downstream implication is
 
 ```math
 Field_{N(J),2^{-J},Q}(\mathcal W)

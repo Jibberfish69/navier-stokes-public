@@ -27,7 +27,7 @@ SameWitnessTPSCaptureForFirstPackExit.A
 Proposed statement:
 
 ```text
-If original smooth data produce a first Pack-side terminal obstruction W_*,
+If original smooth data produce a first Field-window support terminal obstruction W_*,
 then W_* is represented, on the same CM witness ledger, by a selector-good TPS
 active-pair family to which SG.4 production applies.
 ```

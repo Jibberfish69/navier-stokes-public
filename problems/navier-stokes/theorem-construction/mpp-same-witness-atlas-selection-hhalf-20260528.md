@@ -74,7 +74,7 @@ The selected index `a_m` belongs to `\mathcal A(\mathcal W)` by definition. The 
 
 This lemma prevents a public critical shell from floating outside the CM witness. The chart is selected from the material atlas already carried by `Pack_Q`. Once the commutator supplier controls localization, the shell has a material address inside `\mathcal W`.
 
-The next question is participation and tower coherence. Participation is handled by `Part`; persistent high-frequency loss on retained Pack+Part moves to the `Field` analysis.
+The next question is participation and tower coherence. Participation is handled by `Part`; persistent high-frequency loss on retained Part plus Field-window evidence moves to the `Field` analysis.
 
 ## Boundary
 

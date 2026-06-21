@@ -132,7 +132,7 @@ NKF.Native
 
 The proof consequence is this: a terminal pressure-package problem is no longer
 allowed to float as an unresolved graph sibling. It must be typed as Part
-failure, retained receiver support, or Field failure after retained Pack+Part.
+failure, retained receiver support, or Field failure after retained Part plus Field-window evidence.
 
 ## Remaining Open Burden
 

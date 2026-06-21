@@ -429,7 +429,7 @@ rotational coefficient satisfies a bound of the form
 +
 \text{collar Field defect}
 +
-\text{same-fluid Pack/Part defect}.
+\text{same-fluid Part/Field defect}.
 \tag{FSW.14}
 ```
 
