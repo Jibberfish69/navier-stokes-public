@@ -205,7 +205,7 @@ A_I^+(N,\sigma)-\varepsilon
 \le
 \mathcal M_\varepsilon(I;N,\sigma)
 \int_I\|F(s)\|_2\,ds.
-\tag{FBS.17}
+\tag{FBS.16}
 \]
 
 Finite band can control the BV complexity of the sign interface of
@@ -213,7 +213,7 @@ Finite band can control the BV complexity of the sign interface of
 
 \[
 \mathcal M_\varepsilon(I;N,\sigma),
-\tag{FBS.18}
+\tag{FBS.17}
 \]
 
 because \(\mathcal M_\varepsilon\) is an \(H^1\)-type capture complexity after
@@ -229,10 +229,10 @@ BV\text{ selector}
 \to
 H^1\text{ selector with controlled capture loss}.
 }
-\tag{FBS.19}
+\tag{FBS.18}
 \]
 
-Without `(FBS.19)`, finite-band sign complexity remains a readout geometry
+Without `(FBS.18)`, finite-band sign complexity remains a readout geometry
 statement, not a gold anti-atom theorem.
 
 ## Verdict
@@ -248,7 +248,7 @@ The exact result is:
 6L(2\pi)^2
 \quad\text{for a.e. }\lambda.
 }
-\tag{FBS.20}
+\tag{FBS.19}
 \]
 
 The exact obstruction is:
@@ -258,7 +258,7 @@ The exact obstruction is:
 \text{the projected-duality carrier fork needs }H^1
 \text{ selector complexity, and smoothing a BV selector costs nodal margin.}
 }
-\tag{FBS.21}
+\tag{FBS.20}
 \]
 
 So the selector route now reduces to a sharper theorem:
@@ -267,7 +267,7 @@ So the selector route now reduces to a sharper theorem:
 \boxed{
 \text{same-carrier nodal-margin / nondegenerate sign-interface control.}
 }
-\tag{FBS.22}
+\tag{FBS.21}
 \]
 
 Absent that, the branch returns to source-square, selected critical-strain/CKN
