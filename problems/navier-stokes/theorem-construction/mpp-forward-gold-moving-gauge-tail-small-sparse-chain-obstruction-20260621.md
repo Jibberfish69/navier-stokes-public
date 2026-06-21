@@ -191,8 +191,9 @@ If the sparse chain also preserves:
 \tag{MSS.15}
 \]
 
-and the exact same-solution recurrence between \(j_k\) and \(j_{k+1}\) with
-scale ratio \(\Lambda_k\), then the moving-gauge errors are summably legal on
+and the exact same-solution recurrence between \(j_k\) and \(j_{k+1}\), with
+scale ratio \(\Lambda_k\) and the composite center/frame transform retained on
+the same selected carrier, then the moving-gauge errors are summably legal on
 that sparse fixed chain.  The branch enters the installed fixed-chain fork:
 
 \[
@@ -242,8 +243,8 @@ specific failures:
 or
 
 \[
-\text{the branch scale-skips in a way that prevents same-solution recurrence on
-the selected sparse chain.}
+\text{the branch scale-skips in a way that prevents same-carrier recurrence
+custody on the selected sparse chain.}
 \tag{MSS.22}
 \]
 
