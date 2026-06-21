@@ -442,7 +442,7 @@ closed spacetime circulation rather than an open sink-to-source path.
 
 `ParabolicEdgeResistance.A` then prices each retained legal source-current edge
 by the heat-scale resistance `(13)` or `(14)`.  Bounded overlap of the
-same-fluid packet tree gives:
+same-fluid participation-field tree gives:
 
 ```math
 \sum_{\text{retained cycles }C}

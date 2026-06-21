@@ -466,7 +466,7 @@ impassable obstruction:
 
 silver CM-exit test:
   only a surviving source-balanced terminal residual after the exact
-  forward-positive ledgers fail may be tested as a Pack/Part/Field witness.
+  forward-positive ledgers fail may be tested as a Part/Field witness.
 ```
 
 Thus this note closes the foundational funnel geometry and the raw-budget

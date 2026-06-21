@@ -59,7 +59,7 @@ g_m(s) = m 1_{(-1/m,0]}(s).
 The workflow target is not to check whether the PDF is submission ready. The
 target is to determine what this model costs, what the field can lawfully pay,
 how the clocks compare, and where each surviving branch lands in the CM
-Pack/Part/Field grammar.
+Part/Field grammar.
 
 ## Bounded Extraction Record
 
@@ -129,7 +129,7 @@ classification is not the raw count. The useful classification is whether each
 note really advances cost, payment, return, donor attenuation, limit-of-class,
 or singulet compatibility.
 
-### 2. Installed Pack/Part/Field and source-frontier machinery
+### 2. Installed Part/Field and source-frontier machinery
 
 The live CM route is:
 
@@ -150,8 +150,8 @@ The fail branch is exhausted as:
 
 ```text
 not Pack_Q,
-or Pack_Q + not Part_{N,Q},
-or Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q},
+or not Part_{N,Q},
+or Part_{N,Q} + forall r>0 not Field_{N,r,Q},
 then Exit(Q):=not Member(Q).
 ```
 
@@ -192,7 +192,7 @@ Navier-Stokes return-rate budget for the selected packet readout.
 
 These remain open only as positive supplier programs. They are not current CM
 blockers after `ParticipationDebtPassExitTargetClosure.A`, because failure of
-the service is now routed through Pack, Part, or Field.
+the service is now routed through Part or Field.
 
 ### 4. Point-singularity and limit-of-class inventory
 
@@ -253,7 +253,7 @@ CM status:
 
 ```text
 lawful pressure/flux service is pass;
-failed service enters the Pack/Part/Field tree.
+failed service enters the Part/Field tree.
 ```
 
 ### DonorDrainCompetition.A
@@ -275,7 +275,7 @@ CM status:
 
 ```text
 lawful donor delivery is pass;
-detached, unpaid, or zero-radius donor delivery enters Pack, Part, or Field.
+detached, unpaid, or zero-radius donor delivery enters Part or Field.
 ```
 
 ### TerminalPeakBackoff.A
@@ -381,7 +381,7 @@ dissipation / return clock:
 
 The current CM proof does not need the sharp positive clock comparison to delete
 the residue. The branch either pays and passes, or fails payment/return and
-lands in the CM face tree.
+lands in the CM Part/Field tree.
 
 ### Classify every surviving scenario
 
@@ -395,10 +395,10 @@ surviving endpoint atom with no positive retained carrier:
   not Pack_Q.
 
 retained carrier with unpaid same-fluid pressure / viscosity / source service:
-  Pack_Q + not Part_{N,Q}.
+  not Part_{N,Q}.
 
 retained positive-radius carrier with unbounded field readout:
-  Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}.
+  Part_{N,Q} + forall r>0 not Field_{N,r,Q}.
 
 finite-gradient singulet:
   removable / no singular readout.
@@ -412,7 +412,7 @@ There is no installed current branch that is both:
 ```text
 Member(Q)
 and
-a finite terminal nonsmooth third object outside Pack/Part/Field.
+a finite terminal nonsmooth third object outside Part/Field.
 ```
 
 ## Near-Miss Estimate Fork
@@ -447,7 +447,7 @@ return debt structurally installed,
 endpoint artifact classified,
 endpoint no-carrier branch landed as not Pack_Q,
 singulet knife-edge classified,
-and failed payment/return/compatibility branches routed through Pack/Part/Field.
+and failed payment/return/compatibility branches routed through Part/Field.
 ```
 
 The remaining positive pressure/flux, donor, and return-rate estimates are

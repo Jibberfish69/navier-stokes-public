@@ -201,7 +201,7 @@ So the hard theorem must be parabolic, not merely graph-theoretic.
 
 ## Theorem Target `CycleHeatAction.A`
 
-Let `\mathcal T` be a terminal same-fluid packet tree with no positive boundary
+Let `\mathcal T` be a terminal same-fluid participation-field tree with no positive boundary
 influx except the legal boundary current `Flux^+_{\partial\mathcal T}`.  Decompose
 the spacetime source current into boundary-fed flow plus internal parabolic
 cycles.  Then

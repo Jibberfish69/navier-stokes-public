@@ -18,7 +18,6 @@ The proposed bridge is:
 ```text
 ClayAdmissibleFiniteBreakdown(W_*)
 + canonical same-solution terminal packet Q
-+ Pack_Q
 + not Part_{N,Q} caused by a native terminal pressure/source tower defect
 => W_* is not a valid finite Clay breakdown witness.
 ```
@@ -29,7 +28,7 @@ The CM primitive remains:
 Exit(Q):=not Member(Q)
 ```
 
-through the Pack/Part/Field witness tree.  The question here is narrower:
+through the Part/Field witness tree.  The question here is narrower:
 can target fidelity alone rule out a retained-Pack Part failure as a Clay
 breakdown witness?
 
@@ -139,7 +138,7 @@ the finite-time breakdown of the original solution.
 
 `PartFailureTargetFidelityBridge.A` is not proved by target fidelity alone.
 
-The active loop must stop using CM face classification as public Clay finality.
+The active loop must stop using CM Part/Field classification as public Clay finality.
 The retained Part row now requires a concrete no-defect theorem:
 
 ```text

@@ -39,7 +39,7 @@ sup_m integral_{I_m} g_m(s) ds < infinity.
 The scalar witness `g_m(s)=m 1_{(-1/m,0]}` is the sharp example for this
 branch; it is not an assumed profile for every branch.
 
-The existing note correctly says that CM face support is not the same as the
+The existing note correctly says that CM Part/Field support is not the same as the
 forward payment needed by the public first-Pack survival chain. The false move
 to prevent is spending `TerminalSourceResidueCMExit.A` or
 `TerminalSignedSaturationCMFaceReduction.A` as though it were a forward
@@ -137,7 +137,7 @@ Cost_sing(P,r;Q)
 
 where `Q` is the blow-up readout being tested: velocity gradient, vorticity,
 enstrophy, pressure Hessian, source-current, packet energy density, or a
-Pack/Part/Field readout.
+Part/Field readout.
 
 This object asks:
 
@@ -268,7 +268,7 @@ The point is the peak/rest collision. The alleged blow-up wants maximal or
 infinite packet load at the terminal edge, while the same participation law
 requires return / dissipation / continued coupling. A damped same-fluid packet
 cannot hit infinite peak and erase the return interval without creating a CM
-face failure.
+Part/Field failure.
 
 ## LimitOfClassTerminalArtifact.A
 
@@ -300,7 +300,7 @@ infinite point spin
 ```
 
 The theorem asks whether such a point singularity can exist inside the same
-fluid without forcing a Pack, Part, Field, or jump failure.
+fluid without forcing a Part and Field, or jump failure.
 
 This is not a generic singularity slogan. It is the precise remaining
 point-object compatibility test.
@@ -427,7 +427,7 @@ mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md
 mpp-basac-terminal-atom-cm-face-labeling-20260519.md
 mpp-basac-closed-terminal-atom-cm-exit-classification-20260519.md
 mpp-basac-closed-atom-cm-field-face-diagnostic-20260517.md
-  conditional terminal-atom face landings
+  conditional terminal-atom Part/Field landings
 ```
 
 These surfaces show that the work has narrowed the obstruction. They also show
@@ -511,7 +511,7 @@ lawful payment / donor delivery / return / singulet compatibility
   => pass branch => Member(Q);
 
 failed payment / donor delivery / return / singulet compatibility
-  => Pack, Part, or Field face failure
+  => Part or Field Part/Field failure
   => Exit(Q):=not Member(Q).
 ```
 

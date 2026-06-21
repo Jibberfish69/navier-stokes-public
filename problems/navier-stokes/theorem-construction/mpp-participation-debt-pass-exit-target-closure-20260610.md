@@ -4,7 +4,7 @@ ns_viewer:
   status: proved-cm-pass-exit-closure-for-participation-debt-targets
   proof_role: active_completion_cm_target_closure
   logical_landing_node: participation_debt_pass_exit_target_closure
-  edge_effect: "Closes the participation-debt target set as CM blockers: pressure/flux throttle, donor attenuation, return-rate budget, and singulet compatibility are pass-or-face branches under the installed PositiveObstructionPassExitCMEngine.A and Pack-first Clay CM chain."
+  edge_effect: "Closes the participation-debt target set as CM blockers: pressure/flux throttle, donor attenuation, return-rate budget, and singulet compatibility are pass-or-face branches under the installed PositiveObstructionPassExitCMEngine.A and Field-certification Clay CM chain."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
     - problems/navier-stokes/theorem-construction/mpp-no-third-branch-clay-closure-audit-20260525.md
@@ -15,7 +15,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-participation-transfer-donor-drain-audit-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-terminal-peak-backoff-and-vortex-return-dichotomy-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-singulet-spin-smooth-exterior-compatibility-20260610.md
-  downstream_consequence: "The four participation-debt targets no longer stand as current CM closure blockers. They remain optional positive supplier programs only when the proof explicitly asks to delete the residue rather than use the residue/failure as the Pack/that face failure witness."
+  downstream_consequence: "The four participation-debt targets no longer stand as current CM closure blockers. They remain optional positive supplier programs only when the proof explicitly asks to delete the residue rather than use the residue/failure as the Pack/that Part/Field failure witness."
 ---
 
 # MPP ParticipationDebtPassExitTargetClosure.A
@@ -25,7 +25,7 @@ Date: 2026-06-10
 Status: proved CM pass/exit closure for the participation-debt target set. This
 note does not prove a new positive pressure/flux estimate. It closes those
 targets as CM blockers by routing every fail branch through an installed
-Pack/Part/Field face.
+Part/Field face.
 
 ## Target
 
@@ -35,11 +35,11 @@ The live open targets after the participation-debt extraction were:
 pressure / flux throttle,
 donor attenuation,
 return-rate budget,
-universal CM face landing,
+universal CM Part/Field landing,
 ```
 
 with `SinguletSpinSmoothExteriorCompatibility.A` as the point-object ontology
-test inside the universal face landing.
+test inside the universal Part/Field landing.
 
 The correct question is not:
 
@@ -52,7 +52,7 @@ The correct question is:
 ```text
 For each participation-debt obstruction, does the branch pass as a lawful
 same-fluid continuation service, or does the fail branch enter the CM terminal
-test and land in Pack, Part, or Field?
+test and land in Part or Field?
 ```
 
 ## Installed Inputs
@@ -74,16 +74,16 @@ The pass/exit engine says:
 
 ```text
 pass branch => Member(Q) => smooth continuation,
-fail branch => CM-test entry + first Pack/Part/Field face failure
+fail branch => CM-test entry + first Part/Field Part/Field failure
              => Exit(Q):=not Member(Q).
 ```
 
 The no-third-branch law says there is no legal branch that both remains inside
-`Member(Q)` and carries the derived face failure used as the finite nonsmooth
+`Member(Q)` and carries the derived Part/Field failure used as the finite nonsmooth
 terminal witness.
 
 The Clay CM chain says every CM-test-admissible finite Clay terminal object from
-the same original smooth datum enters the Pack-first terminal CM tree and is
+the same original smooth datum enters the Field-certification terminal CM tree and is
 exhausted by:
 
 ```text
@@ -110,7 +110,7 @@ pass/exit split:
 
 ```text
 O_PD_pass
-  => retained Pack/Part/Field continuation service
+  => retained Part/Field continuation service
   => Member(Q)
   => smooth continuation;
 
@@ -174,7 +174,7 @@ On the fail branch, the obstruction is being offered as the finite terminal
 nonsmooth event. Since it comes from the same maximal solution and the same
 original datum, `ClayAdmissibleFiniteBreakdown.A` makes it CM-test-admissible.
 By `ClayTerminalWitnessCMEntry.A` and `CanonicalTerminalPacketCapture.A`, it
-enters the Pack-first CM terminal tree.
+enters the Field-certification CM terminal tree.
 
 Then `ClayFiniteFailureTypeCMExhaustion.A` gives the first failed face:
 
@@ -184,7 +184,7 @@ or Pack_Q + not Part_{N_s,Q},
 or Pack_Q + Part_{N_s,Q} + forall r>0 not Field_{N_s,r,Q}.
 ```
 
-By `ClayCMContrapositiveEmbedding.A`, the derived face failure supports:
+By `ClayCMContrapositiveEmbedding.A`, the derived Part/Field failure supports:
 
 ```text
 Exit(Q):=not Member(Q).
@@ -230,7 +230,7 @@ positive coherent scale, the branch lands at:
 Pack_Q + Part_{N_s,Q} + forall r>0 not Field_{N_s,r,Q}.
 ```
 
-There is no separate pressure/flux blocker outside the Pack/Part/Field tree.
+There is no separate pressure/flux blocker outside the Part/Field tree.
 
 ## Target 2: Donor Attenuation
 
@@ -380,7 +380,7 @@ donor attenuation:
 return-rate budget:
   closed as pass-or-face;
 
-universal CM face landing:
+universal CM Part/Field landing:
   closed for the participation-debt targets by the installed Clay CM chain.
 ```
 
@@ -404,4 +404,4 @@ finite terminal nonsmooth witness.
 ```
 
 The installed `NoThirdInClassBranch.A` forbids that third branch after CM-test
-entry and Pack/Part/Field face derivation.
+entry and Part/Field Part/Field derivation.

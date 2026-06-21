@@ -22,7 +22,7 @@ native source witness, a selected Pack-side/source-wall exit, or a paid
 Pack/Part/legal exit. It is not a forward source-deletion theorem.
 
 The closed `B_ASAC` terminal zero-thickness CM target stays closed. The
-terminal zero-radius Zeno atom is now sorted by the Pack-before-Part audit:
+terminal zero-radius Zeno atom is now sorted by the Pack-out-of-CM audit:
 Part-side when the same original-NS participation record remains, and
 true Pack-side only when that record is absent. It is not a retained Field/jump
 target.
@@ -79,7 +79,7 @@ chargeable, the branch has already left the retained Pack/Part/legal channel.
 
 High-high and donor-square refill is exactly the selected scale-critical
 source-wall channel. If this reserve cannot be retained on the same selected
-tree, the output is a CM witness-face failure:
+tree, the output is a CM witness failure:
 
 ```math
 \neg_{sel}ScaleCriticalTreeCarleson.A.
@@ -182,6 +182,6 @@ CM witness outputs inside the contrapositive route.
 
 This note does not reopen `B_ASAC`. The closed terminal zero-thickness
 `B_ASAC^closed` object is already consumed by the May 21 CM correction as a
-Pack/that face failure, with zero-radius terminal Zeno residue landing first as
+Pack/that Part/Field failure, with zero-radius terminal Zeno residue landing first as
 `not Pack_Q`. The open work here is only the public `L^3` translator's
 same-ledger native source witness-capture step.

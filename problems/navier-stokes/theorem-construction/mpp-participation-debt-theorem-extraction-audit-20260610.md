@@ -141,7 +141,7 @@ Refined statement:
 
 ```text
 A finite positive-radius vortex peak requires a return interval,
-a dissipation channel, or a CM face failure explaining why no such
+a dissipation channel, or a CM Part/Field failure explaining why no such
 return interval exists.
 ```
 
@@ -190,7 +190,7 @@ scale.
 
 The repo proves the accounting identity and now closes the target in its CM
 role by `ParticipationDebtPassExitTargetClosure.A`: lawful delivery is pass,
-and failed lawful delivery lands in Pack, Part, or Field. The repo still does
+and failed lawful delivery lands in Part or Field. The repo still does
 not claim the closed maximum delivery rate needed for the separate positive
 supplier program.
 
@@ -210,7 +210,7 @@ on the source regions and annular transfer shells.
 The redshift idea survives as attenuation along accounting shells. It must not
 be stated as literal signal propagation speed. In the CM role, the branch is now
 closed: lawful delivery is pass, while unpaid or detached donor ancestry lands
-in Pack/Part/Field by the closure note.
+in Part/Field by the closure note.
 
 ### TerminalPeakBackoff.A
 
@@ -305,13 +305,13 @@ the separate positive payability theorem for all packet readouts.
 
 ### SingularityFailureModeClassification.A
 
-Verdict: keep; partially supplied by current CM face notes.
+Verdict: keep; partially supplied by current CM Part/Field notes.
 
 Refined statement:
 
 ```text
 After a paid or unpaid singularity model is described, classify the actual
-failure mechanism as Pack, Part, Field, jump, or a genuine remaining obstacle.
+failure mechanism as Part and Field, jump, or a genuine remaining obstacle.
 ```
 
 Failure labels are outputs of mechanism analysis, not names to assign first.
@@ -441,7 +441,7 @@ Discarded as a premise.
 
 Long-time dissipation may support intuition and mechanism search, but the proof
 cannot assume the whole unforced field has reached rest at the finite terminal
-time. The admissible theorem target is a clock incompatibility or CM face
+time. The admissible theorem target is a clock incompatibility or CM Part/Field
 landing, not a finite-time rest axiom.
 
 ## Current Repo Landing

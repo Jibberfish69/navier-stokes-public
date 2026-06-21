@@ -82,7 +82,7 @@ source-wall channel. If they carry the lower bound, the branch has
 \neg_{sel}ScaleCriticalTreeCarleson.A,
 ```
 
-which is Pack-side CM exit by
+which is Field smoothness-certification support by
 `mpp-scalecritical-tree-carleson-pack-side-cm-exit-20260521.md`.
 
 After those alternatives are removed, the remaining retained part is the
