@@ -3,7 +3,7 @@
 Date: 2026-05-23
 
 Status: corrected CM-contrapositive theorem note; proof thickened at the
-Part/Field case split and updated for Pack-out-of-CM resurfacing.
+Part/Field case split and updated for Pack-out-of-CM boundary correction.
 
 Theorem labels:
 
@@ -56,7 +56,7 @@ has lost.
 \forall r>0\,\neg Field_{N,r,Q}.
 ```
 
-6. `TerminalSourceResidueCMExit.A`: terminal source residue is a Pack/Part
+6. `TerminalSourceResidueCMExit.A`: terminal source residue is a Part/Field
    witness, not a fourth residue and not a deletion burden.
 7. `OriginalParticipationBeforePackLicensing.A` and the June 20 Pack-out-of-CM
    resurfacing audit: a singular or outside-CM packet/window same-solution terminal object with
@@ -186,7 +186,7 @@ We prove the face exhaustion directly.
 Fix a terminal window `Q` on the same terminal tail and fix the continuation
 depth `N_s` high enough for the installed `H^s`, `s>5/2`, readout.
 
-First apply the Pack-out-of-CM resurfacing audit. If the terminal extraction is
+First apply the Pack-out-of-CM boundary correction audit. If the terminal extraction is
 singular, outside-CM packet/window, or zero-radius but still has a meaningful pointwise record
 tied to the same original Navier-Stokes datum, pressure, viscosity, and source
 law, it is not disposed as Pack-only yet. It is tested under the participation
@@ -317,13 +317,13 @@ With `ParaproductNativeSourceCapture.A` and `TerminalSourceResidueCMExit.A`,
 the first-Part/Field landing is:
 
 ```text
-selected Pack-side source-wall failure
+selected Field-window support source-wall failure
 => not Pack_Q,
 
 unpaid terminal native source residue on a retained carrier
 => not Part_{N_s,Q},
 
-paid Pack/Part/legal terms
+paid Part/legal terms
 => no terminal obstruction row remains.
 ```
 
@@ -338,7 +338,7 @@ Pack_Q\wedge Part_{N_s,Q}\wedge L^3\text{-}CritConc(W_*)
 ```
 
 So the installed terminal `L^3` Duhamel-mass branch is exhausted by the same
-terminal CM tree, with the Pack-out-of-CM resurfacing audit applied whenever a
+terminal CM tree, with the Pack-out-of-CM boundary correction audit applied whenever a
 singular retained source record is still tied to the original Navier-Stokes
 participation law. Generic public-critical classes remain support until their
 own same-atlas localization and Field incompatibility are proved.
@@ -460,7 +460,7 @@ The corrected theorem is part of the CM contrapositive program:
 ```text
 start with the alleged finite failure;
 force it into the same-fluid CM witness tree;
-classify its first failed service, applying Pack-out-of-CM resurfacing to
+classify its first failed service, applying Pack-out-of-CM boundary correction to
 singular same-solution terminal objects;
 read that service failure as Exit(Q):=not Member(Q).
 ```

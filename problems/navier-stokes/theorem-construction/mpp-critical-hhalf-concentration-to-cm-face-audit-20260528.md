@@ -40,7 +40,7 @@ has a positive terminal lower bound or diverges after the route normalization.
 
 2. **Part branch.** If the selected critical shell energy is located on `Q` but cannot be evolved through the same fixed-viscosity pressure/participation law, the witness lands at `\neg Part_{N,Q}`.
 
-3. **Retained Pack+Part branch.** Assume `Pack_Q` and `Part_{N,Q}`. The critical `H^{1/2}` signal is then attached to one same-fluid pressure-viscosity carrier.
+3. **Retained Part plus Field-window evidence branch.** Assume `Pack_Q` and `Part_{N,Q}`. The critical `H^{1/2}` signal is then attached to one same-fluid pressure-viscosity carrier.
 
 4. **Amplitude-concentration branch.** When the critical Sobolev signal contains local amplitude concentration visible in `L^3`, the existing local `L^3` translator supplies the route: local critical concentration becomes same-ledger native source residue or selected scale-critical source-wall failure, and the installed diagnostics land that object in the CM witness grammar.
 
@@ -58,7 +58,7 @@ The oscillatory reading is different: the flow carries increasingly fine same-sc
 
 ## Required missing lemmas
 
-1. **SameLedgerHHalfExtraction.A**: a selected terminal `H^{1/2}` defect either fails Pack/Part before localization or produces a same-ledger dyadic packet on the retained carrier.
+1. **SameLedgerHHalfExtraction.A**: a selected terminal `H^{1/2}` defect either fails Part/Field before localization or produces a same-ledger dyadic packet on the retained carrier.
 
 2. **HHalfOscillationFieldExit.A**: retained `Pack_Q + Part_{N,Q}` plus a same-ledger pure high-frequency `H^{1/2}` defect forces `\neg Field_{N,r,Q}` at the selected depth/scale.
 

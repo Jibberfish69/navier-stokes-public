@@ -53,7 +53,7 @@ solution. On a retained terminal cover, choose depth `N` dominating some
 Write `Cont_N(T_*)` for the following packet.
 
 1. Carrier slot. A finite same-fluid retained cover with bounded overlap and
-   bounded deformation. In the CM grammar this is the Pack-side slot.
+   bounded deformation. In the CM grammar this is the Field-window support slot.
 2. Participation slot. The differentiated Navier--Stokes tower law and finite
    forcing participation through depth `N`. In the CM grammar this is the
    Part-side slot.

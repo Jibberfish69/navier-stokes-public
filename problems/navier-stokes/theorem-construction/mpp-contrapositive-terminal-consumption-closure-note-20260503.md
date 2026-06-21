@@ -40,7 +40,7 @@ Use the following installed theorem surfaces.
 5. `MBR.E`: genuine PDE non-smoothness forces a blown or jump manifestation,
    equivalently a packing-detached, tower-blown, or jump manifestation, from
    [mpp-pde-nonsmoothness-to-surviving-class-violation-bridge-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-pde-nonsmoothness-to-surviving-class-violation-bridge-note.md).
-6. `RF.E`: retained `Pack+Part+Field` excludes the mixed tower-blown residue and
+6. `RF.E`: retained `Part+Field` excludes the mixed tower-blown residue and
    discharges `SourcePulseCMExit.A`, from
    [mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md).
 7. The bounded-`H^s(T^3)` periodic relaunch criterion: for `s>5/2`, a finite

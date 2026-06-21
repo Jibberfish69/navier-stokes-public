@@ -146,7 +146,7 @@ supplies the Field-certification split.
 `not Pack_Q` means the terminal object has no legal positive same-fluid carrier.
 Every compact preterminal window has a Field-window support by still-live smoothness,
 but the available carrier scale may shrink to zero along the terminal approach.
-Under the CM program, this is Pack-side class exit. It is not a demand to prove
+Under the CM program, this is Field-window support class exit. It is not a demand to prove
 terminal Pack persistence.
 
 ### Part face

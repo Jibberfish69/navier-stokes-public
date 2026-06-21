@@ -23,7 +23,7 @@ The follow-up
 mixed tower residue left in this pass:
 
 ```math
-Pack+Part+Field
+Part+Field
 \Longrightarrow
 \neg tower\text{-}blown
 ```
@@ -86,7 +86,7 @@ then, if a stronger one-face supplier is desired:
 \boxed{
 SourcePulseFieldExit.A:
 \quad
-\text{terminal source-pulse}+Pack+Part\Longrightarrow \neg Field.
+\text{terminal source-pulse}+Part plus Field-window evidence\Longrightarrow \neg Field.
 }
 \tag{SPC.3}
 ```
@@ -195,7 +195,7 @@ If jump manifests while `Pack` and `Part` are retained, `FCR.D` identifies the
 manifestation as shrinking-scale coherence fracture:
 
 ```math
-Pack+Part+Jump
+Part plus Field-window evidence+Jump
 \Longrightarrow
 \neg Field_{\mathrm{app}}.
 \tag{SPC.10}
@@ -260,7 +260,7 @@ The stronger target would be:
 \boxed{
 SourcePulseFieldExit.A:
 \quad
-\text{terminal source-pulse}+Pack+Part\Longrightarrow \neg Field.
+\text{terminal source-pulse}+Part plus Field-window evidence\Longrightarrow \neg Field.
 }
 \tag{SPC.13}
 ```
@@ -305,7 +305,7 @@ Thus:
 
 ```math
 \boxed{
-Pack+Part+\mu_\ast^{sing}\ne0
+Part plus Field-window evidence+\mu_\ast^{sing}\ne0
 \not\Longrightarrow_{\mathrm{installed}}
 \neg Field.
 }

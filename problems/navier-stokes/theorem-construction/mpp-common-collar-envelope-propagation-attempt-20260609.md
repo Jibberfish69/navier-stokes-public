@@ -188,7 +188,7 @@ or prove the stronger retained-window alternative:
 
 ```math
 \boxed{
-\text{Original smooth data plus retained Pack/Part forces the needed still-live receiver admission up to }T_*.
+\text{Original smooth data plus retained Part/Field forces the needed still-live receiver admission up to }T_*.
 }
 ```
 

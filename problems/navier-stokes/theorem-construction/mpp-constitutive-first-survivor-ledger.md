@@ -350,7 +350,7 @@ exists, and its receiver is smaller than the old branch ladder.
   jump manifestation on the one-field side if the reference-family coherence
   collapses.
 
-### Entry 4. Pack-side gauge branch `CFI.C1a`
+### Entry 4. Field-window support gauge branch `CFI.C1a`
 
 - Same one-field law:
   one common deformation carrier on one compact label collar.

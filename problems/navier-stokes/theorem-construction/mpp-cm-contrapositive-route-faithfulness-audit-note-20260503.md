@@ -79,7 +79,7 @@ being used as the non-smooth occurrence.
 | Argument family | Current status | Route-faithfulness verdict |
 | --- | --- | --- |
 | Primitive class laws / source-locked CM restart | Installed root | Faithful. This is the actual route: singularity is class exit from the one incompressible pressure-viscosity object. |
-| Exact witness `CM=Pack+Part+Field` | Installed constitutive witness | Faithful. It defines the local witness family; it does not claim global propagation by itself. |
+| Exact witness `CM=Part+Field` | Installed constitutive witness | Faithful. It defines the local witness family; it does not claim global propagation by itself. |
 | Still-live smooth window implies `CM` | Installed local admission | Faithful. Positive direction is allowed here because it only installs the witness on preterminal smooth windows. |
 | PDE non-smoothness to surviving class-violation bridge | Open middle theorem | Faithful and central. This is the missing contrapositive bridge shape: genuine non-smoothness must manifest `not Pack` or `not Part` or `not Field` on shrinking still-live windows. |
 | First-class-exit shell | Installed chronological wrapper | Faithful if kept existential and downstream. It is only a way to index the exit, not the proof program itself. |

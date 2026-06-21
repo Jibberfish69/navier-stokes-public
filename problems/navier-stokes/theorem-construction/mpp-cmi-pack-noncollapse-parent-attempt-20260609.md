@@ -8,7 +8,7 @@ Not a closure theorem.
 ## Target
 
 The current CMI-finality bridge is blocked at the first no-genuine-exit face.
-The exact Pack-side target is:
+The exact Field-window support target is:
 
 ```text
 OriginalSmoothData_T3
@@ -50,7 +50,7 @@ precise: same-fluid ancestry and incompressible volume do not imply positive
 terminal carrier scale plus finite deformation comparability.
 
 `TerminalCollarStrainIntegrability.A` is sufficient for Pack retention by the
-Pack-side Gronwall reduction, but the June 7 audit correctly marks it as
+Field-window support Gronwall reduction, but the June 7 audit correctly marks it as
 continuation-strength unless a new weaker mechanism is supplied.
 
 ## Attempt 1: Same-Fluid Atlas Plus Incompressible Volume
@@ -218,7 +218,7 @@ proved replacement theorem.
 
 ## PDF Consequence
 
-The PDFs cannot honestly claim CMI finality from the current Pack-side record.
+The PDFs cannot honestly claim CMI finality from the current Field-window support record.
 They may state that the current CM apparatus classifies terminal Pack failure,
 but the Clay conclusion remains open until the Pack noncollapse/readout bridge
 or a different noncircular no-genuine-exit theorem is proved.
