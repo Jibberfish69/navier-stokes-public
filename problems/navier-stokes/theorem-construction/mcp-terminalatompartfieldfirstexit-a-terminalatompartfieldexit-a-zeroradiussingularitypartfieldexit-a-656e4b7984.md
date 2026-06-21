@@ -2,7 +2,7 @@
 
 Status: supersedes the generated `TerminalAtomOriginalParticipationAuditExit.A` wording.
 
-This surface used the stale phrase "pre-Pack indexed-predicate."  That phrase is no
+This surface used the stale phrase "outside-CM participation-field record-window indexed-predicate."  That phrase is no
 longer an admissible mathematical reading.  The corrected statement is:
 
 ```text
@@ -11,7 +11,7 @@ Navier-Stokes breakdown candidate is audited under the original Navier-Stokes
 participation law before `not Pack_Q` is used as terminal disposal.
 ```
 
-The pre-Pack test is the original equation-level participation question:
+The outside-CM participation-field record-window test is the original equation-level participation question:
 same datum, same maximal branch, same velocity-pressure law, viscosity,
 pressure coupling, and incompressibility.  It is not an indexed Silver
 `Part_{N,Q}` test, because that notation is only the finite packet-local record

@@ -10,7 +10,7 @@ The target was
 TTU:
 OriginalSmoothData
 \Longrightarrow
-\text{uniform terminal-tail retained Pack/Part/Field/tower data}.
+\text{uniform terminal-tail retained Part/Field/tower data}.
 ```
 
 The prior failure note records the direct pointwise terminal package:

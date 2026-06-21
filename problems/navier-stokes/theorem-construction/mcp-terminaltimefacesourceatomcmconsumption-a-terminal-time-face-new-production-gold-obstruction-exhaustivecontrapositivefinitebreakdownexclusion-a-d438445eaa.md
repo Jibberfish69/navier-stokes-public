@@ -72,7 +72,7 @@ Now split by CM status.
 
 If the terminal atom is only a diagnostic/support object, a Pack boundary record, or an object without same original datum / same maximal branch / same pressure-viscosity tower custody, then it is not an admitted surviving terminal residual object in the CM test.
 
-This consumes the branch by admissibility failure. It is not a branch the referee can demand to land in `Member(Q)` or a concrete Pack/Part/Field face, because it never enters as an admitted same-solution terminal residual object.
+This consumes the branch by admissibility failure. It is not a branch the referee can demand to land in `Member(Q)` or a concrete Part/Field face, because it never enters as an admitted same-solution terminal residual object.
 
 ### Case 2: admitted, but no finite same-solution participation service
 
@@ -82,7 +82,7 @@ Assume `Q` is admitted as a same-solution terminal residual object. If the termi
 not Part_{N,Q}.
 ```
 
-The branch is consumed by concrete Part face failure.
+The branch is consumed by concrete Part Part/Field failure.
 
 The endpoint strip model supplies the reason: the terminal source mass has no finite terminal residence modulus and infinite every-super-`L^1_s` cost. If the asserted Part service requires finite same-window participation/residence/donor-readout budget, the terminal atom cannot satisfy it.
 
@@ -98,7 +98,7 @@ Therefore
 forall r>0 not Field_{N,r,Q}.
 ```
 
-The branch is consumed by concrete Field face failure.
+The branch is consumed by concrete Field Part/Field failure.
 
 ### Case 4: positive-radius coherent readout survives
 

@@ -2,7 +2,7 @@
 
 ## Status
 
-Theorem-facing row-closure route. This note gives a way to close the remaining Pack/Part/Field row-input gaps without using `End_NS_avg` as an upstream input.
+Theorem-facing row-closure route. This note gives a way to close the remaining Part/Field row-input gaps without using `End_NS_avg` as an upstream input.
 
 The key move is to derive `READ.COVER` directly from `Jump_avg=>bot`, rather than from `End_NS_avg`. This avoids the circular route in which `End_NS_avg` already contains `END.Pack`.
 

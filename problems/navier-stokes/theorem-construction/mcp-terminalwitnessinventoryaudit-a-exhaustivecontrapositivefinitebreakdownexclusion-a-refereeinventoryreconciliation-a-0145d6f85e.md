@@ -15,7 +15,7 @@ The goal is to replace misleading forward-positive language such as terminal clo
 ```text
 Assume finite-time breakdown.
 Extract every admissible terminal witness possibility.
-Consume every possibility by admissibility failure, Part failure, Field failure, Pack/Part/Field face failure, or continuation/readout recovery.
+Consume every possibility by admissibility failure, Part failure, Field failure, Part/Field Part/Field failure, or continuation/readout recovery.
 If no branch remains, finite-time breakdown is excluded.
 ```
 
@@ -148,7 +148,7 @@ enters ordinary Pack_Q / Part_{N,Q} / Field_{N,r,Q} chain.
 
 If all services survive, it is continuation/readout recovery.
 
-If a service fails, it is a concrete CM face failure.
+If a service fails, it is a concrete CM Part/Field failure.
 
 ## Local audit verdict
 
@@ -160,7 +160,7 @@ Every listed branch has a consumed outcome:
 admissibility failure,
 not Part_{N,Q},
 not Field_{N,r,Q},
-ordinary CM face failure,
+ordinary CM Part/Field failure,
 or continuation/readout recovery.
 ```
 
@@ -169,7 +169,7 @@ or continuation/readout recovery.
 The official CM contrapositive referee gate still blocks the theorem packet. That means one of two things remains true:
 
 ```text
-1. the official terminal witness inventory has not yet been updated to accept this original-participation-before-Pack branch list as complete;
+1. the official terminal witness inventory has not yet been updated to accept this original-participation-before-Field-window branch list as complete;
 ```
 
 or

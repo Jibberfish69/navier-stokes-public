@@ -41,7 +41,7 @@ The source-pulse tower residue is closed by `SourcePulseDTCPlacement.A` and `Sou
 Thus a retained terminal class-membership branch has the legal retained witness
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 The branch selection, repaired `AACT.Global.noJump`, averaged endpoint package, and readout assembly produce `PCTP.hard / TTU.A` on the retained terminal tail.

@@ -10,7 +10,7 @@ The pointwise production target
 TTU:
 OriginalSmoothData
 \Longrightarrow
-\text{uniform terminal-tail retained Pack/Part/Field/tower data}
+\text{uniform terminal-tail retained Part/Field/tower data}
 ```
 
 has a prior failed-discharge note on disk:

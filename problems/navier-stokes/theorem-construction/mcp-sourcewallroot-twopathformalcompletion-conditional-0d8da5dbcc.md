@@ -245,11 +245,11 @@ That residue becomes useful only after a separate CM typing step:
 The installed CM primitive remains
 
 ```math
-CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}+Field_{N,r,Q}.
 \tag{TWO.5}
 ```
 
-Thus the source-wall residue does source-side work only after it is synchronized with the Pack/Part/Field witness envelope on the same still-live carrier.
+Thus the source-wall residue does source-side work only after it is synchronized with the Part/Field witness envelope on the same still-live carrier.
 
 ## Final local verdict
 

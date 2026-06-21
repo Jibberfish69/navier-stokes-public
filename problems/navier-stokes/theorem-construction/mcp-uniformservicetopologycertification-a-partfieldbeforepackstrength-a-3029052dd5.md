@@ -8,7 +8,7 @@ The principle is:
 
 ```text
 UniformServiceTopologyCertification.A:
-A valid class survivor is a survivor in the uniform service topology of the Pack/Part/Field service it claims, not merely a weak terminal measure limit.
+A valid class survivor is a survivor in the uniform service topology of the Part/Field service it claims, not merely a weak terminal measure limit.
 ```
 
 ## Why this is needed
@@ -29,7 +29,7 @@ Therefore a terminal object can be a weak limit while still failing class surviv
 
 ```text
 UniformServiceTopologyCertification.A:
-For any same-solution terminal witness Q, certification as a valid survivor through Pack, Part, or Field requires uniform control of that service along the terminal approach sequence. A weak terminal measure limit without the corresponding uniform service budget is a object tested before Pack or class-exit witness, not a valid class survivor.
+For any same-solution terminal witness Q, certification as a valid survivor through Part or Field requires uniform control of that service along the terminal approach sequence. A weak terminal measure limit without the corresponding uniform service budget is a object tested before Pack or class-exit witness, not a valid class survivor.
 ```
 
 Part/Field witness record before Pack form:
@@ -43,7 +43,7 @@ Circularity caveat: the Field budget here is a same-solution terminal readout bu
 
 ## Proof
 
-The Pack/Part/Field canonicality note identifies Pack, Part, and Field as primitive service families rather than labels for arbitrary weak limits.
+The Part/Field canonicality note identifies Part and Field as primitive service families rather than labels for arbitrary weak limits.
 
 The primitive-minimality note says each service carries its own irreducible endpoint-exclusion burden. That means a service is certified only by satisfying its own service burden, not by merely being present as a weak object at the terminal time.
 
@@ -94,4 +94,4 @@ The remaining work is propagation plus service-specific verification:
 
 ## Boundary
 
-This theorem is a class-witness-record bridge. It does not itself produce a new Navier-Stokes estimate. It specifies which topology counts as class survival inside the already-installed Pack/Part/Field architecture. The analytic burden remains family-by-family: a proposed Part or Field survival path must supply the corresponding residence, donor/readout, or same-solution terminal readout continuity budget.
+This theorem is a class-witness-record bridge. It does not itself produce a new Navier-Stokes estimate. It specifies which topology counts as class survival inside the already-installed Part/Field architecture. The analytic burden remains family-by-family: a proposed Part or Field survival path must supply the corresponding residence, donor/readout, or same-solution terminal readout continuity budget.
