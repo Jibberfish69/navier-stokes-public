@@ -53,7 +53,7 @@ source_rewrites:
     Assume \(Q\) is in the clean Euler boundary case and the first
     Navier--Stokes face lost after Pack is
     \[
-      \Pack_Q\wedge\neg\Part_{N,Q}.
+      \neg\Part_{N,Q}.
     \]
     Then the selected packet supports the Navier--Stokes class-exit conclusion
     \[
@@ -85,7 +85,7 @@ source_rewrites:
     \(\Part_{N,Q}\) survive for the branch split, and the first remaining
     Navier--Stokes face lost is
     \[
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     Then the selected packet supports \(\Exit(Q;\Owork)\) through the Field face,
     and the same packet has the base Euler reading \(\Member_E(Q)\).
@@ -111,10 +111,10 @@ source_rewrites:
     \begin{tabular}{L{0.30\linewidth}L{0.30\linewidth}L{0.30\linewidth}}
     \textbf{Terminal surface} & \textbf{Navier--Stokes role} & \textbf{Euler role}\\
     \hline
-    Clean Part face after Field-window evidence is present & \(\Pack_Q\wedge\neg\Part_{N,Q}\) &
+    Clean Part face after Field-window evidence is present & \(\neg\Part_{N,Q}\) &
     base boundary reading \(\Member_E(Q)\)\\
     Clean Field face after Pack and Part survive &
-    \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\) &
+    \(\Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\) &
     base boundary reading \(\Member_E(Q)\)\\
     Pack failure, detached ancestry, raw source residue, pressure-source residue,
     Reynolds-stress limit, or oscillation defect & first repair is still native
@@ -275,7 +275,7 @@ source_rewrites:
     \begin{proposition}[Exterior survivor lands in the CM faces]
     Assume the exterior nonlinear source survives in \(H^s\).  Then the selected terminal exterior survivor lands in the CM matrix:
     \[
-      \neg\Pack_Q\;\vee\;\neg\Part_{M,Q}\;\vee\;
+      Field-window evidence outside CM\;\vee\;\neg\Part_{M,Q}\;\vee\;
       \forall \rho>0\,\neg\Field_{M,\rho,Q}.
     \]
     \end{proposition}

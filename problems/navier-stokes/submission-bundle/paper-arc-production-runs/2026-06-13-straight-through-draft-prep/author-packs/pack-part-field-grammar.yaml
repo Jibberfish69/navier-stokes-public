@@ -45,7 +45,7 @@ source_rewrites:
 
     A terminal source, pressure pulse, donor history, or zero-radius residue becomes a Pack payment only after it supplies this positive carrier.  A record with that carrier moves to Part.  A record with no such carrier has first failure
     \[
-      \neg\Pack_Q.
+      Field-window evidence outside CM.
     \]
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:596
@@ -97,7 +97,7 @@ source_rewrites:
   math_reader_critic:
     claim_truth_attack: The strongest claim is that Pack failures have a common first-face form. The source limits this to cases where the selected terminal story lacks the positive same-fluid body needed for Part and Field to be asked.
     reader_thread_attack: A reader could treat a terminal point, source atom, or residue as a full Clay witness too early. The section now says these are relevant only after they become the same-solution terminal object, and it keeps annular admission separate from a raw radius-zero point.
-    open_derivation_attack: The section pays the Pack-side grammar and annular admission boundary. Branch-specific proof still has to show whether a concrete selected record has a carrier or stops at \(\neg\Pack_Q\).
+    open_derivation_attack: The section pays the Pack-side grammar and annular admission boundary. Branch-specific proof still has to show whether a concrete selected record has a carrier or stops at \(Field-window evidence outside CM\).
     repair_decision: passes after repair
     unresolved_failures: []
 - op: certify_existing_section
@@ -139,7 +139,7 @@ source_rewrites:
     \[
       \CM_{N,r,Q}
       :=
-      \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}.
     \]
     The three factors have different jobs.  Pack supplies the positive transported carrier.  Part supplies the same pressure-viscosity-incompressibility law on that carrier through depth \(N\).  Field supplies one positive scale on which the tower readings form one velocity-pressure field.
 
@@ -157,11 +157,11 @@ source_rewrites:
     \]
     at a depth \(N_s\) high enough for the \(H^s\), \(s>5/2\), readout, the local \(H^s\) theory restarts the classical solution past \(T_*\).  A genuine finite terminal obstruction must lose the first available face in Pack-before-Part audited order:
     \[
-      \neg\Pack_Q,
+      Field-window evidence outside CM,
       \qquad
-      \Pack_Q\wedge\neg\Part_{N_s,Q},
+      \neg\Part_{N_s,Q},
       \qquad
-      \Pack_Q\wedge\Part_{N_s,Q}\wedge\forall r>0\,\neg\Field_{N_s,r,Q}.
+      \Part plus Field-window evidence_{N_s,Q}\wedge\forall r>0\,\neg\Field_{N_s,r,Q}.
     \]
     That first face failure is the class-exit witness,
     \[
@@ -208,16 +208,16 @@ source_rewrites:
   replacement: |+
     \section{Simplifying The Witness Logic Table}
 
-    The formal conjunction \(\Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}\) has many Boolean rows.  The proof reads them through the order in which a Navier--Stokes record needs the data.  First ask for the carrier, then the same law, then the one-field readout.
+    The formal conjunction \(\Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}\) has many Boolean rows.  The proof reads them through the order in which a Navier--Stokes record needs the data.  First ask for the carrier, then the same law, then the one-field readout.
     \[
     \begin{array}{ll}
-    \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}
+    \Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}
       & \text{member-side certificate},\\[1mm]
-    \neg\Pack_Q
-      & \text{Pack-first failure},\\[1mm]
-    \Pack_Q\wedge\neg\Part_{N,Q}
+    Field-window evidence outside CM
+      & \text{Part/Field failure},\\[1mm]
+    \neg\Part_{N,Q}
       & \text{Part-first failure},\\[1mm]
-    \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
+    \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
       & \text{Field-first failure.}
     \end{array}
     \]
@@ -268,7 +268,7 @@ source_rewrites:
     \begin{definition}[Continuation-complete packet]
     Fix \(s>5/2\), and let \(N_s\) be a tower depth high enough for the classical \(H^s\) readout.  A continuation-complete packet for \(Q\) is a packet satisfying
     \[
-      \Pack_Q\wedge\Part_{N_s,Q}\wedge\Field_{N_s,r,Q}
+      \Part plus Field-window evidence_{N_s,Q}\wedge\Field_{N_s,r,Q}
     \]
     for some \(r>0\), together with the branch readout
     \[
@@ -279,11 +279,11 @@ source_rewrites:
     \begin{definition}[Terminal face-failure witness]
     A terminal face-failure witness is an admitted same-solution terminal record \(Q\) whose finite obstruction is charged to the first failed face
     \[
-      \neg\Pack_Q,
+      Field-window evidence outside CM,
       \qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},
+      \neg\Part_{N,Q},
       \qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     It is the fail-side witness for \(\Exit(Q;\Owork)\).
     \end{definition}
@@ -306,35 +306,35 @@ source_rewrites:
     \end{proof}
 
     \begin{theorem}[Finite witness face classification]
-    Let \(\mathcal F\) be an admitted finite terminal obstruction from the same smooth initial datum, and let \(Q\) be the selected terminal record.  At the continuation depth \(N_s\), \(\mathcal F\) lands in the Pack-first decision tree:
+    Let \(\mathcal F\) be an admitted finite terminal obstruction from the same smooth initial datum, and let \(Q\) be the selected terminal record.  At the continuation depth \(N_s\), \(\mathcal F\) is tested in the Part/Field decision tree:
     \[
       \mathcal F
       \Longrightarrow
       \begin{cases}
-        \neg\Pack_Q,\\
-        \Pack_Q\wedge\neg\Part_{N_s,Q},\\
-        \Pack_Q\wedge\Part_{N_s,Q}\wedge\forall r>0\,\neg\Field_{N_s,r,Q}.
+        Field-window evidence outside CM,\\
+        \neg\Part_{N_s,Q},\\
+        \Part plus Field-window evidence_{N_s,Q}\wedge\forall r>0\,\neg\Field_{N_s,r,Q}.
       \end{cases}
     \]
     Each branch supplies \(\Exit(Q;\Owork)\).
     \end{theorem}
 
     \begin{proof}
-    Begin with the selected record \(Q\).  The first gate is Pack.  Either the positive same-fluid carrier exists or it fails.  Carrier failure gives \(\neg\Pack_Q\), and the proof stops at Pack.
+    Begin with the selected record \(Q\).  The first gate is Pack.  Either the positive same-fluid carrier exists or it fails.  Carrier failure gives \(Field-window evidence outside CM\), and the proof stops at Pack.
 
     Assume Field-window evidence is present.  The second gate is Part.  Either the same pressure-viscosity-incompressibility tower acts through depth \(N_s\) on the carrier, or it fails.  Participation failure gives
     \[
-      \Pack_Q\wedge\neg\Part_{N_s,Q},
+      \neg\Part_{N_s,Q},
     \]
     and the proof stops at Part.
 
     Assume Pack and Part both survive.  The final gate is Field.  If there were some positive scale \(r>0\) with \(\Field_{N_s,r,Q}\), then
     \[
-      \Pack_Q\wedge\Part_{N_s,Q}\wedge\Field_{N_s,r,Q}
+      \Part plus Field-window evidence_{N_s,Q}\wedge\Field_{N_s,r,Q}
     \]
     would give a continuation-complete packet.  The attached \(H^s\), \(s>5/2\), readout would extend the classical solution past \(T_*\).  This contradicts the assumption that \(\mathcal F\) is the finite terminal obstruction for the same branch.  So every positive Field scale fails:
     \[
-      \Pack_Q\wedge\Part_{N_s,Q}\wedge\forall r>0\,\neg\Field_{N_s,r,Q}.
+      \Part plus Field-window evidence_{N_s,Q}\wedge\forall r>0\,\neg\Field_{N_s,r,Q}.
     \]
 
     In all three cases the selected record loses a required membership face.  The loss is read as \(\Exit(Q;\Owork)=\neg\Member(Q;\Owork)\).
