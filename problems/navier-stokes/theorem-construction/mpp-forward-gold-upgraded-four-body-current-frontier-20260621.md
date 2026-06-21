@@ -1699,6 +1699,25 @@ Each line is an unweighted same-carrier theorem.  Fixed-\(m\) smoothness gives
 ordinary preterminal continuity, and physical energy gives radius-discounted
 budgets; neither gives the uniform terminal modulus across the Zeno family.
 
+The strict no-waste branch has now been rechecked after the full-tuple audit.
+It is not an independent supplier from current inputs.  In the current
+frontier it is equivalent to producing a same-carrier unweighted critical-action
+producer:
+
+```math
+\boxed{
+\texttt{StrictFourBodyNoWasteLyapunov.A}
+\Longleftrightarrow_{\rm current\ frontier}
+\text{same-carrier unweighted critical-action production.}
+}
+\tag{4BF.73a}
+```
+
+Energy-sized, quadratic pressure-corrected, packet-local nonlinear,
+commutator-only, pressure-memory, and Volterra-memory shortcuts remain
+visibility identities unless they prove one of the full-strength producers
+above.
+
 The base participation nested-shell test has now checked this last sentence
 directly against the coupled pressure-transport-viscosity local energy law.  On
 a physical cutoff \(\eta_r(x)=\eta((x-x_\ast)/r)\),
