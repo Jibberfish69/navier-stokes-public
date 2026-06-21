@@ -25,7 +25,7 @@ Part,
 Field.
 ```
 
-The Part/Field-before-Pack route introduces no fourth source-level service. It refines Part and Field for terminal test used before Packing. The services remain:
+The Part/Field-before-Pack route introduces no fourth source-level service. It refines Part and Field for terminal test used as original-participation audit records before Pack-local notationing. The services remain:
 
 ```text
 `Part_{N,Q}` = participation service applied to a terminal limiting witness,
@@ -84,7 +84,7 @@ It is licensed only under these boundaries:
 The structural audit passes conditionally. The mathematical closure still requires:
 
 ```text
-PartFieldBeforePackStrength.A,
+OriginalParticipationBeforePackStrength.A,
 LimitOfClassTerminalArtifact.A,
 PositivePackDefectOrthogonality.A,
 AffineMaterialReadoutToFixedHs.A.

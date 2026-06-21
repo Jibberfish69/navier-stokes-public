@@ -5,7 +5,7 @@
 Attempt to prove:
 
 ```text
-PartFieldBeforePackStrength.A
+OriginalParticipationBeforePackStrength.A
 ```
 
 Desired content:
@@ -29,7 +29,7 @@ finite super-L1 residence => terminal endpoint concentration vanishes,
 positive endpoint concentration => every super-L1 residence cost diverges.
 ```
 
-So PartFieldBeforePackStrength.A would need one of the following real inputs:
+So OriginalParticipationBeforePackStrength.A would need one of the following real inputs:
 
 ```text
 ParticipationTransferThrottle.A,
@@ -50,7 +50,7 @@ Adding those clauses by definition would overstate the theorem. The class route 
 
 ## Result
 
-`PartFieldBeforePackStrength.A` is not proved from the current installed inputs.
+`OriginalParticipationBeforePackStrength.A` is not proved from the current installed inputs.
 
 The new route reaches a hard mathematical obstruction here:
 

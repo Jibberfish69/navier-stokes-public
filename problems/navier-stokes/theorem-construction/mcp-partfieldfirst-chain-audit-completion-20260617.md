@@ -7,8 +7,8 @@ Date: 2026-06-17
 Audit and complete the corrected chain:
 
 ```text
-TerminalAtomPartFieldFirstExit.A
-=> AllSingularitiesPartFieldFirstExit.A
+TerminalAtomOriginalParticipationAuditExit.A
+=> AllSingularitiesOriginalParticipationAuditExit.A
 => PackPositiveRadiusCertification.A
 => Pack_Q is legitimate inside the base CM triad.
 ```
@@ -36,7 +36,7 @@ terminal singular object
 
 ## Caveat recheck
 
-The chain is valid only with the existing `Part_{N,Q}` and `Field_{N,r,Q}` tests, used before Pack:
+The chain is valid only with the existing `Part_{N,Q}` and `Field_{N,r,Q}` tests, used as original-participation audit records before Pack-local notation:
 
 ```text
 `Part_{N,Q}` = same-solution participation/tower service on terminal approach records,
@@ -49,7 +49,7 @@ The word "scale" in `Field_{N,r,Q}` means a same-solution terminal readout scale
 
 ## Terminal atom
 
-`TerminalAtomPartFieldFirstExit.A` is proved under the existing service definitions, used before Pack.
+`TerminalAtomOriginalParticipationAuditExit.A` is proved under the existing service definitions, used as original-participation audit records before Pack-local notation.
 
 The proof is a two-case split:
 
@@ -68,7 +68,7 @@ This proof does not use `Pack_Q`, positive-radius Pack admissibility, or ordinar
 
 ## All singularities
 
-`AllSingularitiesPartFieldFirstExit.A` is complete as a route-level classification over the audited singular families.
+`AllSingularitiesOriginalParticipationAuditExit.A` is complete as a route-level classification over the audited singular families.
 
 For non-strip families, it does not invent new estimates. It records the correct Part/Field landing once the concrete witness is placed:
 
@@ -96,10 +96,10 @@ any remaining Member(Q)-eligible terminal object is in the ordinary
 positive-radius carrier/readout branch.
 ```
 
-So `Pack_Q` is not the device that excludes the singularity. It is the ordinary positive-radius admission test for what remains after Part/Field-first singularity exclusion.
+So `Pack_Q` is not the device that excludes the singularity. It is the ordinary positive-radius admission test for what remains after original-participation-before-Pack singularity exclusion.
 
 ## Completion state
 
 This completes the corrected route-custody work at theorem-construction level.
 
-It does not claim Clay-level closure or a new PDE estimate. It installs the proof order and the exact remaining responsibility: any future use of `Pack_Q` as a base CM test must cite the Part/Field-first singularity exclusion plus carrier-scale exhaustion, not a raw zero-radius source-residue support typed by Pack-before-Part exclusion.
+It does not claim Clay-level closure or a new PDE estimate. It installs the proof order and the exact remaining responsibility: any future use of `Pack_Q` as a base CM test must cite the original-participation-before-Pack singularity exclusion plus carrier-scale exhaustion, not a raw zero-radius source-residue support typed by Pack-before-Part exclusion.

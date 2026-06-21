@@ -14,34 +14,34 @@ Statement:
 Once all zero-radius / singular terminal witnesses have exited through Part or Field first, the positive-radius requirement in Pack_Q is certified as the ordinary admission test for the remaining Member(Q)-eligible objects.
 ```
 
-This theorem must not use Pack_Q to exclude the singularities. It uses the already-proved Part/Field-first singularity exclusion.
+This theorem must not use Pack_Q to exclude the singularities. It uses the already-proved original-participation-before-Pack singularity exclusion.
 
 ## Inputs
 
 Use:
 
 ```text
-TerminalAtomPartFieldFirstExit.A
-AllSingularitiesPartFieldFirstExit.A
+TerminalAtomOriginalParticipationAuditExit.A
+AllSingularitiesOriginalParticipationAuditExit.A
 UniformServiceTopologyCertification.A
 Pack/Part/Field canonicality and primitive-minimality surfaces
 Carrier-scale exhaustion for terminal class candidates:
-  after Part/Field-first singularity exclusion,
+  after original-participation-before-Pack singularity exclusion,
   a remaining Member(Q)-eligible object is in the ordinary positive-radius carrier/readout branch.
 ```
 
 The key input is:
 
 ```text
-AllSingularitiesPartFieldFirstExit.A:
-every zero-radius / singular terminal witness fails `Part_{N,Q}` or `Field_{N,r,Q}` before Pack_Q is used.
+AllSingularitiesOriginalParticipationAuditExit.A:
+every zero-radius / singular terminal witness receives an original-participation diagnosis before `not Pack_Q` is spent.
 ```
 
 ## Circularity caveat
 
-This certification is valid only when `Part_{N,Q}` and `Field_{N,r,Q}` are used before Pack.
+This carrier admission claim is valid only when the original NS participation law is audited before Pack-local notation.
 
-The Part/Field-first input must not assume:
+The original-participation-before-Pack input must not assume:
 
 ```text
 ordinary Pack_Q,
@@ -70,7 +70,7 @@ Now split candidates into two classes.
 
 ### Case 1: `Q` is zero-radius or singular
 
-By `AllSingularitiesPartFieldFirstExit.A`, `Q` fails `Part_{N,Q}` or `Field_{N,r,Q}` before Pack_Q is tested:
+By `AllSingularitiesOriginalParticipationAuditExit.A`, `Q` fails `Part_{N,Q}` or `Field_{N,r,Q}` before Pack_Q is tested:
 
 ```text
 Q singular
@@ -83,14 +83,14 @@ This exclusion does not use Pack_Q.
 
 ### Case 2: `Q` is still Member(Q)-eligible
 
-If `Q` has not exited through Part or Field, then it is not one of the zero-radius singular witnesses covered by the Part/Field-first theorem.
+If `Q` has not exited through Part or Field, then it is not one of the zero-radius singular witnesses covered by the original-participation-before-Pack theorem.
 
 By the carrier-scale exhaustion premise, the remaining candidate is in the ordinary smooth-class branch rather than a hidden third zero-radius branch. Smooth-class testing requires a positive-radius carrier/readout domain. Therefore the object is eligible for the ordinary Pack_Q test.
 
 Thus:
 
 ```text
-Member(Q)-eligible after Part/Field-first singularity exclusion
+Member(Q)-eligible after original-participation-before-Pack singularity exclusion
 => positive-radius testable
 => Pack_Q is a valid admission test.
 ```
@@ -102,7 +102,7 @@ The positive-radius requirement in Pack_Q is not being used to discard the singu
 Therefore Pack_Q is certified as the ordinary positive-radius test for the remaining class-admissible objects:
 
 ```text
-AllSingularitiesPartFieldFirstExit.A
+AllSingularitiesOriginalParticipationAuditExit.A
 => PackPositiveRadiusCertification.A.
 ```
 
@@ -123,12 +123,12 @@ So Pack is not a cheating exclusion device. It is the admission test for the non
 The corrected route is:
 
 ```text
-TerminalAtomPartFieldFirstExit.A
-=> AllSingularitiesPartFieldFirstExit.A
+TerminalAtomOriginalParticipationAuditExit.A
+=> AllSingularitiesOriginalParticipationAuditExit.A
 => PackPositiveRadiusCertification.A
 => Pack_Q is legitimate inside the base CM triad.
 ```
 
 ## Scope
 
-This is a route-certification theorem. It certifies the logical role of Pack_Q after Part/Field-first exclusion plus carrier-scale exhaustion. It does not prove a new PDE estimate, and it does not close Clay-level regularity by itself. Clay-level closure still requires the theorem packet and release surfaces to accept this route and propagate it through the current live obstruction ledger.
+This is a route-certification theorem. It certifies the logical role of Pack_Q after original-participation-before-Pack exclusion plus carrier-scale exhaustion. It does not prove a new PDE estimate, and it does not close Clay-level regularity by itself. Clay-level closure still requires the theorem packet and release surfaces to accept this route and propagate it through the current live obstruction ledger.

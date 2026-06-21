@@ -81,7 +81,7 @@ Stop here. Continuing to write more local theorem notes would relabel the same h
 The local route is now:
 
 ```text
-Part/Field-first singularity exclusion;
+original-participation-before-Pack singularity exclusion;
 Pack positive-radius certification;
 exhaustive contrapositive finite-breakdown exclusion patch;
 referee inventory patch supplied.

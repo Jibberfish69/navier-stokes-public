@@ -123,7 +123,7 @@ The current route should not claim full Pack positive-radius certification closu
 It should report:
 
 ```text
-endpoint-strip witnesses classified as terminal artifacts requiring Part/Field-first exit;
+endpoint-strip witnesses classified as terminal artifacts requiring original-participation-before-Pack exit;
 conditional Pack positive-radius certification proved;
 non-strip singular witnesses remain as exact blockers.
 ```

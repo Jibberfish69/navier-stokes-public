@@ -1,17 +1,17 @@
-# PartFieldFirstClayBridge.A Attempt
+# OriginalParticipationAuditClayBridge.A Attempt
 
 ## Target
 
 Attempt to close the release-level bridge:
 
 ```text
-PartFieldFirstClayBridge.A / NoGenuineExitFromSmoothData.A
+OriginalParticipationAuditClayBridge.A / NoGenuineExitFromSmoothData.A
 ```
 
 Desired conclusion:
 
 ```text
-The local Part/Field-first singularity classification excludes every genuine finite-time Clay counterexample from smooth data.
+The local original-participation-before-Pack singularity classification excludes every genuine finite-time Clay counterexample from smooth data.
 ```
 
 ## Inputs from the closure pass
@@ -19,12 +19,12 @@ The local Part/Field-first singularity classification excludes every genuine fin
 The local route now has:
 
 ```text
-PartFieldBeforePackLegality.A
+OriginalParticipationBeforePackLegality.A
 TerminalAtomFieldExit.A
 AffineNontransferFieldExit.A
 SelectorDriftFieldExit.A
 CrossProfilePositiveDefectFieldExit.A
-AllSingularitiesPartFieldFirstExit.A
+AllSingularitiesOriginalParticipationAuditExit.A
 PackPositiveRadiusCertification.A
 ```
 
@@ -49,7 +49,7 @@ Split `Q` into two cases.
 
 ### Case 1: `Q` is zero-radius or singular
 
-By `AllSingularitiesPartFieldFirstExit.A`, the witness fails `Part_{N,Q}` or `Field_{N,r,Q}` before `Pack_Q` is used.
+By `AllSingularitiesOriginalParticipationAuditExit.A`, the witness fails `Part_{N,Q}` or `Field_{N,r,Q}` before `Pack_Q` is used.
 
 So `Q` is not a `Member(Q)` survivor.
 
@@ -87,9 +87,9 @@ Without that theorem, the proof has classified the counterexample but has not co
 
 ## Verdict
 
-`PartFieldFirstClayBridge.A` is not fully discharged.
+`OriginalParticipationAuditClayBridge.A` is not fully discharged.
 
-The local Part/Field-first work is closed, but the release-level bridge still depends on the forward-invariance/no-genuine-exit theorem:
+The local original-participation-before-Pack work is closed, but the release-level bridge still depends on the forward-invariance/no-genuine-exit theorem:
 
 ```text
 SmoothDataNoGenuinePartFieldExit.A

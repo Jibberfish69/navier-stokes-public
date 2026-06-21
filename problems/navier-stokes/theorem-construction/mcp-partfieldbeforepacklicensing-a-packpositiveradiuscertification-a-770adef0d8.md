@@ -5,7 +5,7 @@
 Prove the structural licensing lemma needed by the Pack(Q) non-exclusion / recertification route:
 
 ```text
-PartFieldBeforePackLicensing.A:
+OriginalParticipationBeforePackLicensing.A:
 Given a same-solution terminal witness extracted from an alleged finite-time Navier-Stokes breakdown, `Part_{N,Q}` and `Field_{N,r,Q}` tests may be applied to that witness without first assuming ordinary Pack_Q.
 ```
 
@@ -26,7 +26,7 @@ finite-depth local tower/readout records on compact preterminal windows,
 and a terminal defect/source/readout trace obtained as a limit.
 ```
 
-Ordinary `Pack_Q` requires positive terminal carrier scale and finite deformation/readout comparability. A terminal singular witness may fail exactly there. The tests used before Pack therefore use the same terminal witness while replacing the ordinary positive-radius Pack substrate by direct same-solution terminal admissibility.
+Ordinary `Pack_Q` requires positive terminal carrier scale and finite deformation/readout comparability. A terminal singular witness may fail exactly there. The tests used as original-participation audit records before Pack-local notation therefore use the same terminal witness while replacing the ordinary positive-radius Pack substrate by direct same-solution terminal admissibility.
 
 Read `Part_{N,Q}` here as:
 
@@ -46,11 +46,11 @@ The terminal witness has a well-defined one-field coherence/readout record at a 
 
 Concretely, ``Field_{N,r,Q}`` asks whether neighboring local tower/readout data still belong to one common field in the terminal limit, or whether the terminal object produces a concrete jump/readout/compatibility failure.
 
-These are tests used before Pack. They are audit tests for class exit. They do not assert full ordinary class membership.
+These are pre-Pack original-participation audit records. They are audit tests for class exit. They do not assert full ordinary class membership.
 
 ## Circularity guard
 
-`Part_{N,Q}` and `Field_{N,r,Q}` are tests used before Pack. They use:
+The original NS participation law is tested before Pack-local notation; `Part_{N,Q}` and `Field_{N,r,Q}` are packet-local Silver records after a packet exists. They use:
 
 ```text
 same-solution terminal admissibility,
@@ -75,7 +75,7 @@ The phrase "tested scale" in `Field_{N,r,Q}` means a same-solution terminal read
 ## Licensing theorem
 
 ```text
-PartFieldBeforePackLicensing.A:
+OriginalParticipationBeforePackLicensing.A:
 For every same-solution terminal witness, `Part_{N,Q}` and `Field_{N,r,Q}` are lawful class-exit tests even in the absence of ordinary Pack_Q.
 ```
 
@@ -96,7 +96,7 @@ Part  = tower carrier / pressure-viscosity participation service,
 Field = neighboring compatibility / one-field coherence service.
 ```
 
-The licensing point is that Part and Field have their own primitive service content. They are not mere consequences of positive-radius Pack. Pack supplies material carrier and deformation comparability. Part supplies dynamic participation through the common pressure-viscosity tower. Field supplies one-field coherence through neighboring compatibility/readout.
+The licensing point is that Part and Field have their own primitive service content. They are not mere consequences of positive-radius Pack. Pack supplies material carrier and deformation comparability. Part records dynamic participation through the common pressure-viscosity tower. Field supplies one-field coherence through neighboring compatibility/readout.
 
 The primitive-minimality surface then says each primitive law carries its own irreducible endpoint-exclusion burden. Omitting Pack leaves the no-blown burden open; omitting Part leaves the dead-participation burden open; omitting Field leaves the no-jump / one-field burden open. This makes Part and Field legitimate audit surfaces in their own right.
 

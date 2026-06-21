@@ -38,7 +38,7 @@ If either residence or readout continuity is supplied, the terminal concentratio
 Remaining theorem:
 
 ```text
-PartFieldBeforePackStrength.A
+OriginalParticipationBeforePackStrength.A
 ```
 
 ### 2. Infinite-cost endpoint strip
@@ -180,7 +180,7 @@ Every Pack-illegal singular witness is routed to `Part_{N,Q}`, `Field_{N,r,Q}`, 
 The map does not yet prove global closure. It identifies the exact remaining bottlenecks:
 
 ```text
-PartFieldBeforePackStrength.A,
+OriginalParticipationBeforePackStrength.A,
 LimitOfClassTerminalArtifact.A,
 AffineMaterialReadoutToFixedHs.A,
 PackFunctionalStabilityUnderProfileDecomposition.A,
