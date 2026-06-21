@@ -2,7 +2,7 @@
 
 ## Authority Cap - Historical Route Audit
 
-This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
+This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
 
 ## Status
 
@@ -52,7 +52,7 @@ Concretely:
 ```math
 CMCert.A
 \quad+\quad
-\text{first-exit Pack/Part/Field witness envelope}
+\text{first-exit Part/Field witness envelope}
 ```
 
 are treated as the governing CM bridge.  The blunt converse
@@ -235,7 +235,7 @@ Audit reading:
 
 ### A4. `ScaleCriticalTreeCarleson.A`
 
-Current classification after the Pack-before-Part CM correction:
+Current classification after the Pack-out-of-CM CM correction:
 
 ```math
 \textbf{historical source-control support, not the live CM root.}
@@ -275,7 +275,7 @@ Audit reading:
 - the current proof use is narrower: this family can support the same-witness
   terminal anti-concentration / source-Carleson / rigid-anti-atom /
   non-source Pack-survival frontier only after same-ledger payment or CM-test
-  admission plus first Pack/Part/Field face failure.
+  admission plus first Part/Field Part/Field failure.
 
 ### A4B. `ParabolicSourceCurrent.A` / `CycleHeatAction.A`
 
@@ -470,7 +470,7 @@ Evidence:
 
 - `mpp-source-drain-definition-alignment-and-discharge-20260504.md`
 - `mcp-weightedadjres-source-drain-core-assembly-20260504.md`
-- `mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md`
+- `mpp-member-smooth-contrapositive-witness-bridge-20260504.md`
 
 Audit reading:
 
@@ -515,7 +515,7 @@ Evidence:
 
 - `live-theorem-edge.yaml`
 - `proof-obligation-matrix.yaml`
-- `mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md`
+- `mpp-member-smooth-contrapositive-witness-bridge-20260504.md`
 
 Audit reading:
 
@@ -650,7 +650,7 @@ The blunt converse `\neg CM=>\neg Member` is not installed.
 Audit note:
 
 - this is the clearest currently installed CM bridge in the repo;
-- older `cm-direction-alignment` / witness-face-needed language is stale where
+- older `cm-direction-alignment` / witness-needed language is stale where
   it survives in older release or consistency surfaces.
 
 ### B15B. Typed row bridges into CM
@@ -659,14 +659,14 @@ Current classification:
 
 ```math
 \textbf{explicitly typed, with CM.CrossFaceSynthesis.A installed only as the
-same-ledger Pack/Part/Field bookkeeping bridge.}
+same-ledger Part/Field bookkeeping bridge.}
 ```
 
 Evidence:
 
-- `mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md`
+- `mpp-member-smooth-contrapositive-witness-bridge-20260504.md`
 - `mpp-cm-cross-face-synthesis-bridge-license-audit-20260505.md`
-- `mcp-explicit-cm-witness-face-bridge-after-source-pulse-20260504.md`
+- `mcp-explicit-cm-witness-bridge-after-source-pulse-20260504.md`
 - `mcp-part-row-nodrop-to-part-n-q-20260504.md`
 - `live-theorem-edge.yaml`
 
@@ -699,7 +699,7 @@ Audit reading:
 - `Field.Readout_{source-pulse}=>Field_{N,r,Q}` is also conditional and is fed
   by root source-wall closure plus terminal-tail readout rather than by an
   independent installed field theorem.
-- `CM.CrossFaceSynthesis.A` is installed only after Pack, Part, and Field are
+- `CM.CrossFaceSynthesis.A` is installed only after Part and Field are
   certified on the same witness ledger; it is not a source-wall theorem.
 
 ### B15D. `GoodScaleNonCollapse.A`
@@ -747,7 +747,7 @@ while older bundle overlays may still contain stale conflict language.
 
 Item 14 is the `TRI.E1` canonicality ceiling, not the CM bridge.  The CM bridge
 belongs under item 15.  Inside item 15, the one-way certificate theorem is
-installed, but the typed Pack/Part/Field feed-in rows are still conditional row
+installed, but the typed Part/Field feed-in rows are still conditional row
 inputs rather than separately promoted live primitives, and the blunt converse
 `not CM=>not Member` is absent.
 
@@ -780,7 +780,7 @@ Current state:
   through the local Navier-Stokes hardener so they preserve the one-burden
   reopened source-wall root posture.
 - `CM.CrossFaceSynthesis.A` is now installed as the synchronized
-  Pack/Part/Field bookkeeping bridge into `CM_{N,r,Q}`.
+  Part/Field bookkeeping bridge into `CM_{N,r,Q}`.
 - the current open shared-system drift is that the formalization/theorem-repair
   loop still treats the lane as bridge-license-failed instead of routing it to
   `source-wall-root-after-reconcile`.
@@ -844,7 +844,7 @@ Current state:
 
 - `current-route-dependency-graph.yaml` records the current graph without
   relying on stale generated `dependency-graph.yaml` output.
-- it separates the installed CM witness-face bridge, the resolved
+- it separates the installed CM witness bridge, the resolved
   `SourceWall.Reconcile.A` demotion, the conditional normalized-adjoint
   source-drain support, the conditional signed-current route, the live direct
   root `ScaleCriticalTreeCarleson.A`, the live alternate Zeno rigid-class pair,

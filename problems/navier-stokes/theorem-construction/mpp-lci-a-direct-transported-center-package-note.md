@@ -4325,7 +4325,7 @@ FPCR.C+FSCR.C+FCC.C1+FCC.C1a\to FCI.5f,
 \qquad
 DTC\text{-to-TowerBound}\to END.TowerAmp\to END.TowerBound,
 \qquad
-END.Exh+END.Cross+Pack/Part/Field\text{ endpoint matrix}.
+END.Exh+END.Cross+Part/Field\text{ endpoint matrix}.
 \tag{DTC.38}
 ```
 
@@ -4363,7 +4363,7 @@ CFI.A,
 ```math
 DTC\text{-to-TowerBound}
 +END.Exh+END.Cross
-+Pack/Part/Field\text{ endpoint matrix}
++Part/Field\text{ endpoint matrix}
 \Longrightarrow
 \mathsf{End}_{NS},
 \tag{DTC.39d}
@@ -4697,7 +4697,7 @@ to the installed `(Part,Dead)` row. Hence
 
 ```math
 DTC\text{-to-TowerBound}+END.Exh+END.Cross
-+Pack/Part/Field\text{ endpoint matrix}
++Part/Field\text{ endpoint matrix}
 \Longrightarrow
 \mathsf{End}_{NS}.
 \tag{DTC.43i}
@@ -4712,7 +4712,7 @@ ACT.KX
 \to
 \left(
 DTC\text{-to-TowerBound}+END.Exh+END.Cross
-+Pack/Part/Field\text{ endpoint matrix}
++Part/Field\text{ endpoint matrix}
 \right),
 \tag{DTC.44}
 ```

@@ -81,7 +81,7 @@ Source anchors:
 The source chain is
 
 $$
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 $$
 
 `Field` supplies positive pointwise one-field coherence and finite-depth tower readout. `Pack` supplies bounded same-fluid carrier geometry and bounded cover distortion. `Part` keeps the tower attached to the retained fluid object. The endpoint readout surface supplies

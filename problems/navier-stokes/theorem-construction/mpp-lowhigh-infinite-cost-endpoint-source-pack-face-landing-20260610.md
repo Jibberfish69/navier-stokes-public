@@ -10,14 +10,14 @@ ns_viewer:
     - problems/navier-stokes/live-theorem-edge.yaml
     - problems/navier-stokes/theorem-construction/mpp-basac-closed-atom-cm-field-face-diagnostic-20260517.md
     - problems/navier-stokes/theorem-construction/mpp-basac-terminal-atom-cm-face-labeling-20260519.md
-  downstream_consequence: "Closes the low-high no-payment branch at CM face level: the surviving infinite-cost endpoint source strip is Pack-first not Pack_Q support unless a later positive-scale retained-carrier bridge retypes it. The forward public supplier branch remains separate."
+  downstream_consequence: "Closes the low-high no-payment branch at CM Part/Field level: the surviving infinite-cost endpoint source strip is Field-certification not Pack_Q support unless a later positive-scale retained-carrier bridge retypes it. The forward public supplier branch remains separate."
 ---
 
 # MPP LowHighInfiniteCostEndpointSourcePackFaceLanding.A
 
 Date: 2026-06-10
 
-Status: proved CM face landing for the low-high no-payment branch. This is not
+Status: proved CM Part/Field landing for the low-high no-payment branch. This is not
 a forward no-free-sink theorem and does not by itself prove public PDF finality.
 
 ## Target
@@ -40,7 +40,7 @@ The question is what the CM witness tree is allowed to do with that object.
 The live theorem edge records the terminal Zeno correction:
 
 ```text
-finite Zeno ancestry packets may be legal positive-radius CM packets,
+finite Zeno ancestry packets may be legal positive-radius CM participation-field records,
 but the terminal limit r_m -> 0 is typed before Pack is spent: Part-side when
 the same original-NS participation record remains, and true not Pack_Q
 only when that record/carrier/readout is absent before any retained
@@ -85,7 +85,7 @@ LowHighInfiniteCostEndpointSource.A
   => not Pack_Q.
 ```
 
-It is Pack-before-Part typed support for:
+It is Pack-out-of-CM typed support for:
 
 ```text
 Exit(Q):=not Member(Q)
@@ -119,11 +119,11 @@ any retained Field face can be spent; it becomes true `not Pack_Q` only when no
 same-solution participation record survives.
 
 The fifth assumption excludes the only bridge that could move the branch away
-from Pack-first landing: a positive-scale retained-carrier theorem. With that
+from Field-certification landing: a positive-scale retained-carrier theorem. With that
 bridge absent, the branch is not a positive-radius same-fluid Pack survivor. It
 is the selected endpoint residue.
 
-So the face landing is:
+So the Part/Field landing is:
 
 ```text
 not Pack_Q.
@@ -137,7 +137,7 @@ It proves:
 
 ```text
 surviving infinite-cost endpoint source strip
-=> Pack-face failure.
+=> Pack-Part/Field failure.
 ```
 
 It does not prove:
@@ -187,7 +187,7 @@ for whether the same fluid can pay the required super-`L1` source budget.
 ## Live Criticism Delta
 
 `NS-LIVE-20260610-COST-004`: the no-payment low-high endpoint source branch now
-lands at CM face level. The surviving infinite-cost endpoint strip is a
+lands at CM Part/Field level. The surviving infinite-cost endpoint strip is a
 zero-radius terminal source residue and, under the installed Zeno correction,
 is `not Pack_Q` unless a separate positive-scale retained-carrier bridge is
 proved. This is a class-exit result, not a forward no-free-sink supplier. The

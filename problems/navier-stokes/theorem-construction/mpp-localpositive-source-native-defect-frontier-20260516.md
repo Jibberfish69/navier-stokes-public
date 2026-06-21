@@ -30,7 +30,7 @@ remains:
 Exit(Q;O_{NS}^{work}):=\neg Member(Q;O_{NS}^{work}),
 ```
 
-with Pack/Part/Field as the witness faces.  A proof of
+with Part/Field as the witnesss.  A proof of
 `OriginalSmoothData=>\mu_{\ast}^{sing}=0` would be a positive source-control
 supplier theorem.  In the contrapositive program, the opposite event
 `\mu_{\ast}^{sing}\ne0` is not treated as something to eliminate by a
@@ -240,5 +240,5 @@ This is the current non-aliased positive-supplier form of
 `LocalPositiveSourceCarleson.A`.  It must not be mistaken for the CM
 contrapositive target itself.  For the contrapositive program, a surviving
 native positive source residue is useful only after it is carried into a typed
-Pack/that face failure witness; at the current source-wall resolution, that is a
+Pack/that Part/Field failure witness; at the current source-wall resolution, that is a
 retained Field/source-residue landing.

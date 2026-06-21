@@ -207,7 +207,7 @@ response-margin subface is absent only under closed terminal Part predicates or
 retained strict response margins on the same terminal tail.
 
 In the endpoint theorem packet, this is the repaired conditional
-Pack/Part/Field endpoint matrix:
+Part/Field endpoint matrix:
 
 ```math
 \{Pack,Part,Field\}

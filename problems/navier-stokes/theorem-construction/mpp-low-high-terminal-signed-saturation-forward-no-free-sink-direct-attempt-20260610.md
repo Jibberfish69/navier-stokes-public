@@ -31,7 +31,7 @@ LowHighTerminalSignedSaturationForwardNoFreeSink.A.
 The theorem would say that every selected low-high terminal positive
 source-current edge is paid in the forward public survival chain: its signed
 partner is retained, legally exited, finitely depleted, or otherwise paid
-without using CM face classification as the payment.
+without using CM Part/Field classification as the payment.
 
 ## Method Pass
 
@@ -98,7 +98,7 @@ missing preterminal residence modulus.
 
 `TerminalSourceResidueCMExit.A` and
 `TerminalSignedSaturationCMFaceReduction.A` correctly classify the surviving
-residue as Pack/Part/Field witness-face support in the CM contrapositive route.
+residue as Part/Field witness support in the CM contrapositive route.
 
 That is not the same as proving this forward no-free-sink theorem. The current
 public branch is trying to pay first-Pack survival before claiming the PDF is
@@ -145,7 +145,7 @@ finite donor trees are paid, but the terminal Zeno source-refill branch still
 allows nonnegative time marginals supported in `I_m=(T_m-tau_m,T_m]`, with
 `tau_m -> 0`, fixed positive selected mass, and only finite `L1_s` control. The
 exact witness `g_m(s)=m 1_{(-1/m,0]}` has unit mass, vanishing heat-time
-moment, and weak-* endpoint limit `delta_0`. CM face classification uses that
+moment, and weak-* endpoint limit `delta_0`. CM Part/Field classification uses that
 residue as exit-witness support; it does not provide the forward
 first-Pack-survival payment. The active loop must prove a low-high terminal
 source-time anti-atom, uniform temporal source integrability, positive active

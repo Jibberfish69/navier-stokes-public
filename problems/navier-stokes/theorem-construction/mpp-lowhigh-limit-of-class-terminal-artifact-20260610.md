@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-minimum-singularity-cost-functional-lowhigh-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-basac-closed-atom-cm-field-face-diagnostic-20260517.md
     - problems/navier-stokes/theorem-construction/mpp-basac-terminal-atom-cm-face-labeling-20260519.md
-  downstream_consequence: "Supplies LimitOfClassTerminalArtifact_lowhigh.A: a surviving zero-thickness low-high source atom is not a hidden finite-time source history. It is a terminal boundary artifact and can only be used as CM face support, Pack-first unless a retained positive-scale bridge moves it."
+  downstream_consequence: "Supplies LimitOfClassTerminalArtifact_lowhigh.A: a surviving zero-thickness low-high source atom is not a hidden finite-time source history. It is a terminal boundary artifact and can only be used as CM Part/Field support, Field-certification unless a retained positive-scale bridge moves it."
 ---
 
 # MPP LimitOfClassTerminalArtifact_lowhigh.A
@@ -160,7 +160,7 @@ positive terminal atom
 => limit-of-class terminal artifact.
 ```
 
-When the route requires a positive-scale Pack carrier, this is Pack-first
+When the route requires a positive-scale Pack carrier, this is Field-certification
 support for `not Pack_Q`. When a later theorem supplies a retained positive-scale
 bridge, the branch must be retyped by that bridge before any Field or Part
 landing is claimed.
@@ -198,5 +198,5 @@ PackFaceLandingFromInfiniteCostEndpointSource.A
 low-high terminal source mass confined to vanishing terminal strips converges
 as a measure to an endpoint atom `M delta_{T*}`. Its limit is singular with
 respect to time measure and has no preterminal `L1_s` density. This branch is a
-limit-of-class terminal artifact / Pack-first face-support object unless a
+limit-of-class terminal artifact / Field-certification face-support object unless a
 separate positive-scale retained-carrier bridge retypes it.

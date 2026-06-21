@@ -3,12 +3,12 @@
 ## Status
 
 Evidence record for the direct-live authority gate after the 20260504 source-drain
-and CM witness-face bridge updates.
+and CM witness bridge updates.
 
 The generated direct-live fallback obligation id is:
 
 ```text
-cm-witness-face-bridge-installed-membersmooth-a-gives-forall-n-cm-witness-smoothness-and-witnessface-a-gives-nonsmooth-not-pack-or-not-part-or-not-field
+cm-witness-bridge-installed-membersmooth-a-gives-forall-n-cm-witness-smoothness-and-witnessface-a-gives-nonsmooth-not-pack-or-not-part-or-not-field
 ```
 
 This generated id is superseded by the direction correction in

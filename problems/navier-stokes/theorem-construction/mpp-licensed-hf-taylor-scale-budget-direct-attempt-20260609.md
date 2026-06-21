@@ -4,14 +4,14 @@ ns_viewer:
   status: failed-pack-licensed-scale-hessian-budget-missing
   proof_role: terminal_pack_scale_budget_attempt
   logical_landing_node: pack-licensed-scale-hessian-budget
-  edge_effect: "Tests LicensedHFTaylorScaleBudget.A. The Taylor remainder closes on a licensed Pack window W_m=(A_m,I_m,rho_m) only if rho_m M_m -> 0, where M_m is the segment supremum of the material Hessian D_aF over A_m, I_m, and increments |r|<=rho_m. Shrinking the radius is a different theorem: it must prove that the smaller schedule remains a licensed finite same-fluid Pack witness. Keeping the licensed Pack windows fixed requires a terminal material-Hessian scale budget that dominates M_m. Existing Pack.TTU strain notes leave even localized strain integrability open, and material-Hessian control is stronger. The next atom is PackLicensedScaleHessianBudget.A."
+  edge_effect: "Tests LicensedHFTaylorScaleBudget.A. The Taylor remainder closes on a licensed Pack window W_m=(A_m,I_m,rho_m) only if rho_m M_m -> 0, where M_m is the segment supremum of the material Hessian D_aF over A_m, I_m, and increments |r|<=rho_m. Shrinking the radius is a different theorem: it must prove that the smaller schedule remains a licensed finite same-fluid Field-window support. Keeping the licensed Pack windows fixed requires a terminal material-Hessian scale budget that dominates M_m. Existing Pack.TTU strain notes leave even localized strain integrability open, and material-Hessian control is stronger. The next atom is PackLicensedScaleHessianBudget.A."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-hf-terminal-defect-mass-vanishing-direct-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md
     - problems/navier-stokes/theorem-construction/mpp-unified-survivor-conditional-theorem-packet-audit-note.md
     - problems/navier-stokes/theorem-construction/mcp-direct-pack-native-strain-estimate-sharpened-target-f1fed5e55b.md
     - problems/navier-stokes/theorem-construction/mcp-pack-ttu-material-line-strain-cancellation-test.md
-  downstream_consequence: "The next theorem atom is PackLicensedScaleHessianBudget.A: for the actual licensed Pack scale schedule, prove either admissible shrink freedom for a smaller schedule rho'_m with rho'_m M'_m -> 0 while preserving the finite same-fluid Pack witness, or prove a terminal material-Hessian bound M_m <= C N_m(D_aF) with rho_m N_m(D_aF) -> 0 and constants independent of m."
+  downstream_consequence: "The next theorem atom is PackLicensedScaleHessianBudget.A: for the actual licensed Pack scale schedule, prove either admissible shrink freedom for a smaller schedule rho'_m with rho'_m M'_m -> 0 while preserving the finite same-fluid Field-window support, or prove a terminal material-Hessian bound M_m <= C N_m(D_aF) with rho_m N_m(D_aF) -> 0 and constants independent of m."
 ---
 
 # MPP Licensed h/F Taylor Scale Budget Direct Attempt
@@ -66,9 +66,9 @@ actual licensed terminal scale windows.
 
 Logical skeleton: test whether the actual licensed windows already satisfy
 `rho_m M_m -> 0`; separately test whether any radius shrink remains a licensed
-finite same-fluid Pack witness.
+finite same-fluid Field-window support.
 
-Mechanism: finite Pack witness scale license, material Hessian of the flow,
+Mechanism: finite Field-window support scale license, material Hessian of the flow,
 segment-control supremum `M_m`, localized strain/flow budgets, and h/F survivor
 measure.
 
@@ -92,7 +92,7 @@ where `M'_m` is the same segment supremum computed with `rho'_m`.
 
 This proves only the Taylor remainder on the shrunken scale. It proves `Pack_Q`
 only after a separate theorem shows that replacing `rho_m` by `rho'_m` preserves
-the finite same-fluid Pack witness and its required coverage/readout data.
+the finite same-fluid Field-window support and its required coverage/readout data.
 
 ## Fixed Licensed-Window Test
 
@@ -124,7 +124,7 @@ The current repo has two conditional paths:
 
 ```text
 rho'_m <= rho_m, rho'_m M'_m -> 0,
-and the shrunken windows preserve the finite same-fluid Pack witness
+and the shrunken windows preserve the finite same-fluid Field-window support
 => Taylor h/F budget on licensed Pack data,
 ```
 
@@ -153,7 +153,7 @@ The next theorem atom is:
 PackLicensedScaleHessianBudget.A:
 for every licensed terminal same-fluid Pack window W_m=(A_m,I_m,rho_m),
 prove either an admissible shrunken schedule rho'_m with rho'_m M'_m -> 0
-that preserves the finite same-fluid Pack witness, or prove rho_m M_m -> 0
+that preserves the finite same-fluid Field-window support, or prove rho_m M_m -> 0
 on the actual windows; equivalently prove M_m <= C N_m(D_aF) and
 rho_m N_m(D_aF) -> 0 for a Pack-window Hessian-control norm with constants
 independent of m.
@@ -167,7 +167,7 @@ measure is zero on every licensed Pack window.
 `NS-LIVE-20260609-159`: `LicensedHFTaylorScaleBudget.A` is not proved. Adaptive
 shrinkage gives a Taylor budget only on a smaller schedule
 `rho'_m M'_m -> 0`, and the repo has not proved that this smaller schedule
-preserves the finite same-fluid Pack witness. On the actual licensed Pack
+preserves the finite same-fluid Field-window support. On the actual licensed Pack
 windows, the proof lacks `PackLicensedScaleHessianBudget.A`: `rho_m M_m -> 0`,
 or a Pack-window Hessian-control norm `N_m` with `M_m <= C N_m(D_aF)` and
 `rho_m N_m(D_aF) -> 0`, equivalently an h/F survivor-vanishing estimate on the
