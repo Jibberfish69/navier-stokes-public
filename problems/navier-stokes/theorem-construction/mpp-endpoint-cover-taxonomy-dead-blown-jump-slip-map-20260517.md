@@ -46,7 +46,7 @@ Member_E=EVol\wedge EMom
 | --- | --- | --- | --- |
 | `Dead` | `Part` | failure of pressure-viscosity participation / same-object dynamic carrier; dead-relative-to-carrier behavior; after reduction, either literal deadness or explicit Law 2 failure | raw stagnation `u=0` at a point |
 | `packing-detached` | `Pack` | loss of usable finite same-fluid cover, bounded material-coordinate gauge, or finite deformation control | failure of incompressible flux-volume by itself |
-| `tower-blown` | tower/readout slot | unbounded finite-depth tower amplitude or pressure/forcing readout needed by the endpoint matrix | a separate fourth primitive CM face |
+| `tower-blown` | tower/readout slot | unbounded finite-depth tower amplitude or pressure/forcing readout needed by the endpoint matrix | a separate fourth primitive CM Part/Field |
 | `Jump` | `Field` | loss of one positive same-fluid coherence scale; split local fields; velocity jump; derivative/tower jump; tangential slip sheet | failure of pressure incompressibility or Pack normal-flux law |
 
 The historical word `Blown` is therefore split in theorem use:

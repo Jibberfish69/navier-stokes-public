@@ -83,7 +83,7 @@ Dead\vee response\text{-}margin\text{-}collapse
 By definition,
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 Hence failure of `CM_{N,r,Q}` means failure of at least one component.
@@ -219,7 +219,7 @@ The three solved primitives give the exact original-data upgrade form:
 OriginalSmoothData
 +
 \left[
-Pack/Part/Field/tower\text{ finite on every approach tail}
+Part/Field/tower\text{ finite on every approach tail}
 \right]
 \Longrightarrow
 H1+H2+H6+ORIGIN.Retain.

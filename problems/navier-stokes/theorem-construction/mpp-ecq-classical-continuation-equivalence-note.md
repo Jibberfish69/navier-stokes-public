@@ -49,7 +49,7 @@ $$
 The installed class witness is
 
 $$
-CM_{N,r,Q}:=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 $$
 
 ## Continuation readout clause

@@ -191,7 +191,7 @@ Passing to the limit gives
 Together with `\nabla\cdot u=0`, this gives the Euler momentum-pressure law.
 The zero-budget branch can therefore land only in Euler-native membership
 `Member_E`: flux-volume plus weak momentum-pressure fidelity. Strong convergence
-of old `Pack/Part/Field` variables may supply optional carrier or regularity
+of old `Part/Field` variables may supply optional carrier or regularity
 data, but it is not the definition of Euler membership and must not be promoted
 to a copied Navier-Stokes class object.
 

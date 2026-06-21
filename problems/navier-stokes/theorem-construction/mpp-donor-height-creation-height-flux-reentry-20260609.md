@@ -12,7 +12,7 @@ The active Navier-Stokes route remains the CM contrapositive program:
 Exit(Q) := not Member(Q)
 ```
 
-through the Pack-first witness tree:
+through the Field-certification witness tree:
 
 ```text
 Pack_Q, Part_{N,Q}, Field_{N,r,Q}.
@@ -117,7 +117,7 @@ alias for the missing height-flux theorem, not an independent closure.
 inside the CM contrapositive program.  It allows an active-height-flux theorem
 to support `Exit(Q):=not Member(Q)` only when a first-created positive
 square-reserve surplus produces a same-ledger active height-flux witness or
-lands in Pack, Part, Field, or terminal Zeno residue.
+lands in Part and Field, or terminal Zeno residue.
 
 The audit vetoes the currently generated theorem-creation surface because the
 decisive visibility step is still asserted.  The missing object is not

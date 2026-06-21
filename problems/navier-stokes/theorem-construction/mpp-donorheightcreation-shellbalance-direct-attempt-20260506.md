@@ -7,7 +7,7 @@ Status: direct attempt; obstruction recorded; theorem not discharged.
 Exactness rework correction, 2026-06-18: this remains a valid obstruction note
 for the supplier-side shell-balance attempt, but its old downstream use as a
 direct source-wall closure chain is stale.  Current live surfaces require
-same-ledger payment or CM-test admission plus a first Pack/Part/Field face
+same-ledger payment or CM-test admission plus a first Part/Field face
 failure before a retained source/height-flux branch becomes CM proof material.
 
 Target:
@@ -61,7 +61,7 @@ ScaleCriticalTreeCarleson.A.
 
 Under the current live frontier, this implication chain is support-level unless
 the same branch is paid in the same ledger or is admitted to the CM test and
-lands at the first failed Pack, Part, or Field face.
+lands at the first failed Part or Field face.
 
 ## 2. Native shell balance input
 

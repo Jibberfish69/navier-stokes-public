@@ -241,7 +241,7 @@ Then the correct pass-or-exit program is:
 ```math
 \text{ResidualSourceBalancedLPAS.A}
 \quad\vee\quad
-\text{source-balanced terminal residual is a CM witness-face failure.}
+\text{source-balanced terminal residual is a CM witness failure.}
 ```
 
 The raw `DirectLPAS.A` name should no longer be used as the theorem to prove

@@ -35,7 +35,7 @@ The live edge already quarantines the broader bridge:
 ClayBreakdownPreterminalReflection.A / CMFaceNoFirstTerminalLoss.A
 ```
 
-It is not a live CM burden. The terminal Pack/Part/Field face failure is the
+It is not a live CM burden. The terminal Part/Field Part/Field failure is the
 CM contrapositive witness supporting `Exit(Q):=not Member(Q)`. It is not
 an earlier still-live failure without a backward-reflection theorem.
 
@@ -49,14 +49,14 @@ Assume the terminal record has:
 not Pack_Q*.
 ```
 
-Every compact preterminal slab has a smooth same-solution Pack witness. To
+Every compact preterminal slab has a smooth same-solution Field-window support. To
 reflect terminal Pack failure backward, the proof must show that these
 preterminal witnesses cannot degenerate only in the terminal limit.
 
 That is exactly a uniform terminal Pack persistence theorem:
 
 ```text
-preterminal same-solution Pack witnesses on [0,T_* - epsilon]
+preterminal same-solution Field-window supportes on [0,T_* - epsilon]
 with epsilon downarrow 0
 => terminal Pack_Q*.
 ```

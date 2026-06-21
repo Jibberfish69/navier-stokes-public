@@ -31,7 +31,7 @@ The CM primitive remains:
 Exit(Q) := not Member(Q)
 ```
 
-through the Pack/Part/Field witness tree.
+through the Part/Field witness tree.
 
 ## Endpoint family audit
 

@@ -4,7 +4,7 @@
 
 Supersession status (2026-05-04): historical / branch-local context. The endpoint
 and source terminal assembly remains useful provenance, but it is not an active
-MPP package blocker after the 20260504 source-drain and CM witness-face bridge
+MPP package blocker after the 20260504 source-drain and CM witness bridge
 surfaces unless a current live authority surface explicitly re-promotes it.
 
 Theorem-facing conditional assembly note.
@@ -157,7 +157,7 @@ Assume `(EST.4)`. Then `End_NS` holds.
 By the endpoint matrix note, class membership is
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 \tag{EST.A1}
 ```
 
