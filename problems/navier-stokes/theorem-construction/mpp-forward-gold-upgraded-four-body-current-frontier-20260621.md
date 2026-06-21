@@ -696,11 +696,11 @@ coupled theorem:
 ```
 
 The same-carrier orientation decomposition makes that coupled theorem more
-concrete.  The next proof work is to prove the four pairwise interface
-identifications `(4BF.26b)` through `(4BF.26e)`, or to charge their positive
-mismatches in \(K_{4B}^+\), \(K_{\rm sel}\), \(K_C^+\), or \(K_G^+\), while
-keeping the tower, participation, compactness, and deformation bodies on the
-same selected carrier.
+concrete.  The four interface criteria are now explicit.  The next proof work
+is to produce their hypotheses or charge the defects they name in \(K_{4B}^+\),
+\(K_{\rm sel}\), \(K_C^+\), \(K_G^+\), or \(R_{\rm legal}\), while keeping the
+tower, participation, compactness, and deformation bodies on the same selected
+carrier.
 
 The first interface has now been corrected: when the Body-I tower storage is
 the Body-II local rung storage \(M_{m,\alpha,\eta}\),
