@@ -4,13 +4,13 @@ ns_viewer:
   status: direct-test-complete-controlled-collapse-needs-canonical-radius-and-endpoint-ui
   proof_role: forward_gold_coupled_mixed_tower_radius_collapse_test
   logical_landing_node: controlled_coupled_tower_radius_collapse
-  edge_effect: "Tests ControlledCoupledTowerRadiusCollapse.A. The raw statement is false unless the shrinking radius is a canonical radius read from the coupled tower energy: an arbitrary chosen radius can collapse even for the zero solution. With a canonical admissible-radius set, collapse has two branches. A fixed finite rung can fail, which is a Field/Part-facing readout after CM admission. Or every fixed finite rung can remain bounded while the analytic/factorial radius collapses only at high rung order; that is the terminal time-face/high-tower endpoint UI problem and still needs unweighted same-carrier action/no-waste/profile production."
+  edge_effect: "Tests ControlledCoupledTowerRadiusCollapse.A. The raw statement is false unless the shrinking radius is a canonical radius read from the coupled tower energy: an arbitrary chosen radius can collapse even for the zero solution. With a canonical admissible-radius set, collapse has two branches. A fixed finite rung can fail, which is a Field/Part-facing readout after CM admission. Or every fixed finite rung can remain bounded while the analytic/factorial radius collapses only at high rung order; that is high-rung analytic-radius failure, not endpoint UI by itself. It still needs a tail-to-selected-carrier bridge, unweighted same-carrier action/no-waste, or profile production."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-summable-coupled-radius-spend-direct-test-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-moving-coupled-mixed-tower-radius-spend-identity-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-timeface-supplier-exhaustion-20260619.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-production-method-finality-20260620.md
-  downstream_consequence: "Do not use divergent radius spend as a forward-gold contradiction by itself. First tie the radius to a canonical tower-energy gauge. Then finite-rung collapse is a CM-facing readout, while high-rung-only collapse returns to SelectedCarrierEndpointUI.A / UnweightedTerminalCriticalActionReserve.A / StrictRescaledNoWasteLyapunov.A / MinimalZenoProfileProduction.A."
+  downstream_consequence: "Do not use divergent radius spend as a forward-gold contradiction by itself. First tie the radius to a canonical tower-energy gauge. Then finite-rung collapse is a CM-facing readout, while high-rung-only collapse remains only analytic-radius failure unless HighRungTailToSelectedEndpointCarrier.A or an equivalent unweighted same-carrier action/no-waste/profile theorem is proved."
 ---
 
 # MPP Forward-Gold Controlled Coupled Radius Collapse Direct Test
@@ -171,14 +171,14 @@ the high-rung/factorial tail:
 \tag{CCR.13}
 \]
 
-This is exactly the endpoint high-tower / terminal time-face branch. It can be
-\(C^\infty\) at every fixed rung and still have zero analytic radius. Therefore
-finite-rung compactness does not kill it.
+This is high-rung analytic-radius failure. It can be \(C^\infty\) at every fixed
+rung and still have zero analytic radius. Therefore finite-rung compactness does
+not kill it, and it is not automatically a terminal time-face atom.
 
 ## 5. What would close controlled collapse
 
-The high-rung-only branch closes only with one of the already isolated
-same-carrier endpoint controls:
+The high-rung-only branch closes only after an additional bridge ties the
+high-rung tail to one of the already isolated same-carrier endpoint controls:
 
 \[
 \boxed{
@@ -231,9 +231,9 @@ The controlled-collapse route has a valid corrected form:
 \tag{CCR.18}
 \]
 
-The first branch is visible after CM admission. The second branch is the same
-terminal time-face/high-tower obstruction already isolated by the forward-gold
-program.
+The first branch is visible after CM admission. The second branch is analytic
+radius failure until a tail-to-carrier, no-waste, or profile-production theorem
+turns it into a terminal obstruction.
 
 So
 
