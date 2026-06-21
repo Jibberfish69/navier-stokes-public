@@ -3,13 +3,13 @@
 ## Target
 
 - target obligation: RetainedFaceAmplitudeGain.A
-- target label: RetainedFaceAmplitudeGain.A / TerminalAmplitudeGain.A scale-critical amplitude cap under retained Pack_Q and Part_{N,Q}
+- target label: RetainedFaceAmplitudeGain.A / TerminalAmplitudeGain.A scale-critical amplitude cap under retained Part_{N,Q} plus Field-window evidence
 - route role: Find the missing local bridge that is strictly weaker than the target but strong enough to feed dependency-discharge.
 - theorem family: generic-bridge-theorem
 
 ## Created Theorem
 
-RetainedfaceamplitudegainMinimalBridge.A. Find the missing local bridge that is strictly weaker than the target but strong enough to feed dependency-discharge. This supplies the exact noncircular bridge needed for RetainedFaceAmplitudeGain.A / TerminalAmplitudeGain.A scale-critical amplitude cap under retained Pack_Q and Part_{N,Q}.
+RetainedfaceamplitudegainMinimalBridge.A. Find the missing local bridge that is strictly weaker than the target but strong enough to feed dependency-discharge. This supplies the exact noncircular bridge needed for RetainedFaceAmplitudeGain.A / TerminalAmplitudeGain.A scale-critical amplitude cap under retained Part_{N,Q} plus Field-window evidence.
 
 ## Inventive Search
 
@@ -55,7 +55,7 @@ RetainedfaceamplitudegainMinimalBridge.A. Find the missing local bridge that is 
 ## Forbidden Imports
 
 - RetainedfaceamplitudegainMinimalBridge.A
-- RetainedFaceAmplitudeGain.A / TerminalAmplitudeGain.A scale-critical amplitude cap under retained Pack_Q and Part_{N,Q}
+- RetainedFaceAmplitudeGain.A / TerminalAmplitudeGain.A scale-critical amplitude cap under retained Part_{N,Q} plus Field-window evidence
 - RetainedFaceAmplitudeGain.A
 - full-MPP closure
 - submission readiness
@@ -78,7 +78,7 @@ RetainedfaceamplitudegainMinimalBridge.A. Find the missing local bridge that is 
 - verdict: new_subprimitive
 - certification_level: theorem-creation:new-subprimitive
 - rationale: The theorem has been reduced to a smaller noncircular primitive that is not currently installed.
-- next subprimitive: RetainedfaceamplitudegainMinimalBridge.A.CoreSubprimitive -- core noncircular subprimitive for RetainedFaceAmplitudeGain.A / TerminalAmplitudeGain.A scale-critical amplitude cap under retained Pack_Q and Part_{N,Q}
+- next subprimitive: RetainedfaceamplitudegainMinimalBridge.A.CoreSubprimitive -- core noncircular subprimitive for RetainedFaceAmplitudeGain.A / TerminalAmplitudeGain.A scale-critical amplitude cap under retained Part_{N,Q} plus Field-window evidence
 
 ## Promotion Plan
 

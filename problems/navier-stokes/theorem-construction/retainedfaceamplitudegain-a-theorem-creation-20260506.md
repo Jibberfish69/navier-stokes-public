@@ -3,7 +3,7 @@
 ## Target
 
 - target obligation: RetainedFaceAmplitudeGain.A
-- target label: RetainedFaceAmplitudeGain.A / TerminalAmplitudeGain.A scale-critical amplitude cap under retained Pack_Q and Part_{N,Q}
+- target label: RetainedFaceAmplitudeGain.A / TerminalAmplitudeGain.A scale-critical amplitude cap under retained Part_{N,Q} plus Field-window evidence
 - route role: Bridge retained field-face amplitude into the Part/Field route by proving every retained face gain is recorded in a Pack_Q ledger before any Member(Q) conclusion is spent.
 - theorem family: retained-face-amplitude-gain
 
@@ -68,7 +68,7 @@ RetainedFaceAmplitudeGain.A. Any retained field-face amplitude gain admissible f
 ## Forbidden Imports
 
 - RetainedFaceAmplitudeGain.A
-- RetainedFaceAmplitudeGain.A / TerminalAmplitudeGain.A scale-critical amplitude cap under retained Pack_Q and Part_{N,Q}
+- RetainedFaceAmplitudeGain.A / TerminalAmplitudeGain.A scale-critical amplitude cap under retained Part_{N,Q} plus Field-window evidence
 - full-MPP closure
 - submission readiness
 - global smoothness
@@ -97,7 +97,7 @@ RetainedFaceAmplitudeGain.A. Any retained field-face amplitude gain admissible f
 15. Recursive solver step for PartEnvelopeAmplitudeConservation.A: Charge all leakage to the envelope boundary ledger.
 16. Recursive solver step for PartEnvelopeAmplitudeConservation.A: Use problems/navier-stokes/agent-contract.yaml:60 as source support for Part/Field bridge support.
 17. Recursive solver step for PartEnvelopeAmplitudeConservation.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Part/Field bridge support.
-18. Recursive solver step for PartBoundaryLeakageCharge.A: Assume retained Pack gain leaks through the Part envelope without boundary charge.
+18. Recursive solver step for PartBoundaryLeakageCharge.A: Assume retained Field-window evidence gain leaks through the Part envelope without boundary charge.
 19. Recursive solver step for PartBoundaryLeakageCharge.A: Localize the leakage to the first envelope boundary crossing.
 20. Recursive solver step for PartBoundaryLeakageCharge.A: Use the Part_{N,Q} envelope definition to price that crossing.
 21. Recursive solver step for PartBoundaryLeakageCharge.A: Contradict uncharged loss of retained amplitude.

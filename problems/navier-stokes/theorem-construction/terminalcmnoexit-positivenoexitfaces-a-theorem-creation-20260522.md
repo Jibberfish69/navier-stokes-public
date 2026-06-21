@@ -55,7 +55,7 @@ TerminalCMNoExit.PositiveNoExitFaces.A. The positive survivor packet is the orde
 - positive-scale same-fluid carrier
 - terminal strain-integrability
 - RetainedFaceAmplitudeGain.A. Any retained field-face amplitude gain admissible for the CM contrapositive route is recorded first as a Pack_Q gain event and transported through Part_{N,Q} without importing Field_{N,r,Q} or Member(Q) as a premise.
-- ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail, and windowwise leakage ledgers sum to the Pack_Q scale-critical donor-refill Carleson bound; an unpaid infinite donor-refill tree is therefore a Pack-face exit witness.
+- ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail, and windowwise leakage ledgers sum to the Pack_Q scale-critical donor-refill Carleson bound; an unpaid infinite donor-refill tree is therefore a Field-window evidence exit witness.
 - WindowwiseReserveCarleson.A. Replace global reserve accounting by a windowwise Carleson budget that cannot jump at the terminal window. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
 - theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
 - ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a genuinely new uncharged reserve birth creates a zero-cost packet-creation contradiction. This supplies the exact noncircular bridge needed for ScaleCriticalTreeCarleson.A sharp branch target decomposed from source-wall-root-after-reconcile.
@@ -75,7 +75,7 @@ TerminalCMNoExit.PositiveNoExitFaces.A. The positive survivor packet is the orde
 ## Proof Attempt
 
 1. Preserve the three-face statement as a conjunction rather than promoting a single selected packet.
-2. Use the direct no-exit attempt to order the faces Pack first, then Part, then licensed Field after Part.
+2. Use the direct no-exit attempt to order the faces Part/Field first, then Part, then licensed Field after Part.
 3. Keep CFI.A, End_NS, receiver readout, and source-residue sorting as downstream or support material.
 4. Select TerminalPackStrainIntegrabilityNoExit.A as the next exact analytic subprimitive.
 5. Use problems/navier-stokes/theorem-packet.yaml as source support for retained-face amplitude support.
