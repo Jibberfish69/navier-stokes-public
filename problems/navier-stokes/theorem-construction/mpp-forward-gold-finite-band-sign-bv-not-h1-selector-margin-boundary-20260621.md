@@ -177,6 +177,7 @@ Using `(FBS.4)`, this gives
 \[
 \boxed{
 \|\nabla\chi_{\lambda,\delta}\|_{L^2}
+\le
 (6C_H)^{1/2}(2\pi)
 \left({L\over\delta}\right)^{1/2}.
 }
