@@ -911,27 +911,43 @@ estimate.  Its exact remaining production locations are:
 \tag{4BF.45}
 ```
 
-The pressure-adapted no-residue skew route has now been added as the sharper
-way to avoid creating `(4BF.45)`'s square-source budget demand.  Use the
-same-carrier incompressible selector
+The participation-preserving no-residue full-cycle route has now been added as
+the sharper way to avoid creating `(4BF.45)`'s square-source budget demand.
+The one-channel selector
 
 ```math
-A_\sigma=S_\sigma P,
-\qquad
-W_\sigma=A_\sigma u.
+A_\sigma=S_\sigma P
 \tag{4BF.45a}
 ```
 
-Then the selected nonlinear interaction decomposes as
+is only a compatibility component.  The retained object is the full
+Hodge-Stokes packet
 
 ```math
-\mathcal M_\sigma
+\mathcal K_{\sigma,P}
 =
-\langle A_\sigma((u\cdot\nabla)u),W_\sigma\rangle
+\Big(
+S_\sigma^{tr}((u\cdot\nabla)u),\;
+S_\sigma^p\nabla p,\;
+\nu S_\sigma^\nu\Delta u,\;
+S_\sigma^t\partial_su,\;
+S_\sigma^{div}\nabla\cdot u,\;
+S_\sigma^P[\chi_P,\mathbb P_{\rm Leray}](u\cdot\nabla u),\;
+\mathcal B_{\sigma,P}^{cut},\;
+\mathcal S_{\sigma,P}^{sgn}
+\Big).
+\tag{4BF.45a1}
+```
+
+The transport component still has the exact skew decomposition.  With
+\(A_\sigma^{tr}=S_\sigma^{tr}\) and \(W_\sigma=A_\sigma^{tr}u\),
+
+```math
+\mathcal M_\sigma^{tr}
 =
 \langle u\cdot\nabla W_\sigma,W_\sigma\rangle
 +
-\langle[A_\sigma,u\cdot\nabla]u,W_\sigma\rangle.
+\langle[A_\sigma^{tr},u\cdot\nabla]u,W_\sigma\rangle.
 \tag{4BF.45b}
 ```
 
@@ -942,20 +958,30 @@ The incompressible skew term vanishes:
 \tag{4BF.45c}
 ```
 
-So the live term is the pressure/selector/cutoff/scale commutator
+So the transport live term is
 
 ```math
-\mathcal C_\sigma
+\mathcal C_\sigma^{tr}
 =
-\langle[A_\sigma,u\cdot\nabla]u,W_\sigma\rangle.
+\langle[A_\sigma^{tr},u\cdot\nabla]u,W_\sigma\rangle.
 \tag{4BF.45d}
 ```
 
-The no-residue theorem would prove
+The corrected no-residue theorem is full-cycle.  It would prove
 
 ```math
 \boxed{
-[\mathcal C_\sigma]_{\mathcal S,+}
+\left[
+\mathcal C_\sigma^{tr}
++\mathcal C_\sigma^p
++\mathcal C_\sigma^\nu
++\mathcal C_\sigma^{time}
++\mathcal C_\sigma^{div}
++\mathcal C_\sigma^{cut}
++\mathcal C_\sigma^{scale}
++\mathcal C_\sigma^{sgn}
++\mathcal C_\sigma^{tail}
+\right]_{\mathcal S,+}
 \le
 \varepsilon\nu D_\sigma
 -\partial_\sigma\Phi_\sigma
@@ -975,29 +1001,29 @@ C_\varepsilon\Theta_\sigma^2E_\sigma.
 \tag{4BF.45f}
 ```
 
-If the native selected positive carrier is identified with
-\([\mathcal C_\sigma]_{\mathcal S,+}\) up to legal residue, `(4BF.45e)` gives
-the unweighted four-body reserve after absorbing \(\varepsilon\nu D_\sigma\)
-and adding \(\Phi_\sigma\) to the storage.
+If the native selected positive carrier is identified with this positive
+full-packet carrier up to legal residue, `(4BF.45e)` gives the unweighted
+four-body reserve after absorbing \(\varepsilon\nu D_\sigma\) and adding
+\(\Phi_\sigma\) to the storage.
 
 This route is open exactly at:
 
 ```math
 \boxed{
-\text{pressure-adapted selector custody;}
+\text{full Hodge-Stokes packet custody;}
 \quad
-\text{selected commutator identification;}
+\text{selected full-packet identification;}
 \quad
-\text{no-residue commutator payment.}
+\text{no-residue full-cycle payment.}
 }
 \tag{4BF.45g}
 ```
 
-The transported-selector test makes the first and third clauses in `(4BF.45g)`
-more concrete.  If
+The transported-selector test makes the transport part of the first and third
+clauses in `(4BF.45g)` more concrete.  If
 
 ```math
-G_\sigma=A_\sigma^\ast A_\sigma,
+G_\sigma^{tr}=(A_\sigma^{tr})^\ast A_\sigma^{tr},
 \qquad
 L=u\cdot\nabla,
 \tag{4BF.45h}
@@ -1007,32 +1033,42 @@ then incompressibility gives the exact metric identity
 
 ```math
 \boxed{
-\langle A_\sigma L u,A_\sigma u\rangle
+\langle A_\sigma^{tr} L u,A_\sigma^{tr}u\rangle
 =
--{1\over2}\langle (LG_\sigma)u,u\rangle.
+-{1\over2}\langle [L,G_\sigma^{tr}]u,u\rangle.
 }
 \tag{4BF.45i}
 ```
 
-Thus the commutator is the material derivative of the selector metric.  The
-production target is to construct a pressure-adapted transported selector with
+Thus the transport commutator is the material/cotangent derivative of the
+selector metric.  The full production target is to construct a transported
+full Hodge-Stokes selector package with
 
 ```math
 \boxed{
-LG_\sigma=\partial_\sigma K_\sigma+R_\sigma,
+\partial_sG_\sigma^{tr}
++[L,G_\sigma^{tr}]
++\mathcal P_\sigma
++\mathcal V_\sigma
++\mathcal I_\sigma
++\mathcal B_\sigma
+=
+\partial_\sigma K_\sigma+R_\sigma,
 }
 \tag{4BF.45j}
 ```
 
 where \(K_\sigma\) gives the bounded-below capacity \(\Phi_\sigma\), and
-\(R_\sigma\) is viscous-absorbable, summable tail, or charged geometry/legal
-defect.
+\(\mathcal P_\sigma,\mathcal V_\sigma,\mathcal I_\sigma,\mathcal B_\sigma\)
+are the pressure, viscous, incompressibility/divergence, and boundary/cutoff
+records.  The remainder \(R_\sigma\) is viscous-absorbable, summable tail, or
+charged geometry/legal defect.
 
 This identifies the concrete theorem behind the no-residue route:
 
 ```math
 \boxed{
-\text{TransportedPressureAdaptedSelector.A.}
+\text{TransportedFullHodgeStokesSelector.A.}
 }
 \tag{4BF.45k}
 ```
