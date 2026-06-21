@@ -102,7 +102,7 @@ Pack face fails: `not Pack_Q`. If the packet is detached from the same
 Navier-Stokes equation, pressure, viscosity, and source ancestry, then the Part
 face fails: `not Part_{M,Q}`.
 
-It remains to consider the retained Pack+Part branch. On that branch the
+It remains to consider the retained Part plus Field-window evidence branch. On that branch the
 survivor is attached to the same terminal object and must be visible inside the
 retained Field windows. If a fixed positive Field scale \(\rho>0\) held through
 depth \(M>s\), each localized Field-window piece would have a uniform
@@ -128,7 +128,7 @@ N^s || P_N f ||_2 <= C_{rho,M,Q} N^{s-M} -> 0.
 
 The finite number of retained Field windows gives the same decay for the whole
 selected terminal packet. This contradicts the dyadic survivor lower bound.
-Therefore no fixed positive Field scale survives on retained Pack+Part:
+Therefore no fixed positive Field scale survives on retained Part plus Field-window evidence:
 
 ```text
 forall rho > 0, not Field_{M,rho,Q}.

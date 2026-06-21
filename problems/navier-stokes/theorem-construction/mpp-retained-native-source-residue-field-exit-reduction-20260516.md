@@ -49,13 +49,13 @@ already failed.
 The older conditional lower-response language below is retained as a sharper
 quantitative readout only after a separate theorem has licensed participation.
 The qualitative raw source-residue landing is now supplied by
-`TerminalSourceResidueCMExit.A` at Pack/Part.
+`TerminalSourceResidueCMExit.A` at Part/Field.
 
 Object boundary: this note is historical support for the retained-Field
 diagnostic. It does not classify the positive supplier theorem itself.
 `PositiveRemainderDepletion.A` remains the forward source-control burden. Raw
 native source residue is now seated by `TerminalSourceResidueCMExit.A` at
-Pack/Part; Field language below applies only after a separate participation
+Part/Field; Field language below applies only after a separate participation
 license has already converted the object into a coherence/readout residue.
 
 ## Governing Inputs

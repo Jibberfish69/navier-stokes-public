@@ -8,7 +8,7 @@ surface has already been legally sorted into the Field row.
 This note proves the endpoint-side refinement:
 
 ```math
-Pack+Part+\neg Field
+Part plus Field-window evidence+\neg Field
 \Longrightarrow
 tower\text{-}blown
 ```
@@ -180,7 +180,7 @@ Pack\Longrightarrow SourcePulseDTCCover.A.
 Therefore, on a retained source-pulse branch,
 
 ```math
-Pack+Part+\neg Field
+Part plus Field-window evidence+\neg Field
 \Longrightarrow
 \text{failure of the analytic same-family DTC/tower cell,}
 \tag{RFET.12}

@@ -4,7 +4,7 @@ ns_viewer:
   status: residual-refill-ledger-installed-spine-consolidated
   proof_role: forward_positive_residual_refill_ledger_and_cm_obstruction_routing
   logical_landing_node: cone_payment_static_hiding_and_flux_maximization
-  edge_effect: "Builds the residual refill ledger requested after the raw LPAS shear counterexample. The ledger measures positive same-fluid nonlinear refill after heat decay, through-flow, legal losses, and paid dissipation are removed. It reorganizes the cone/tower/drain, raw LPAS, square-source, amplitude-normalization, direct active-square, and source-pulse attempts around one spine: residual LPAS/CTS is the live forward theorem; a surviving residual source-balanced pulse is the only obstruction to classify. Generic no-carrier or point-object cases remain Pack-side. An admitted residual annular supplier has already paid carrier/selection, so its CM failures are Part or Field."
+  edge_effect: "Builds the residual refill ledger requested after the raw LPAS shear counterexample. The ledger measures positive same-fluid nonlinear refill after heat decay, through-flow, legal losses, and paid dissipation are removed. It reorganizes the cone/tower/drain, raw LPAS, square-source, amplitude-normalization, direct active-square, and source-pulse attempts around one spine: residual LPAS/CTS is the live forward theorem; a surviving residual source-balanced pulse is the only obstruction to classify. Generic no-carrier or point-object cases remain Field-window support. An admitted residual annular supplier has already paid carrier/selection, so its CM failures are Part or Field."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-direct-lpas-raw-active-square-false-shear-counterexample-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-forward-positive-cone-tower-active-square-exhaustion-20260611.md
@@ -363,7 +363,7 @@ claim that positive same-fluid nonlinear refill into the shrinking cone either
 pays the residual forward ledger or becomes the single residual obstruction for
 CM testing.
 
-For a generic point-object or no-carrier endpoint, the obstruction is Pack-side.
+For a generic point-object or no-carrier endpoint, the obstruction is Field-window support.
 For the annular supplier boundary, the admitted object is different: it is the
 surrounding positive-radius same-solution annular witness.  Once that witness is
 selected, carried on a same-solution positive-radius annular tail, and
@@ -390,7 +390,7 @@ Liouville, it is on the live spine.
 
 If a note produces a surviving terminal residual pulse after legal losses and
 heat descendants are removed, it is not a new forward-positive child.  It is the
-single residual CM obstruction: Pack-side before admission or no-carrier, and
+single residual CM obstruction: Field-window support before admission or no-carrier, and
 Part/Field after annular admission.
 ```
 

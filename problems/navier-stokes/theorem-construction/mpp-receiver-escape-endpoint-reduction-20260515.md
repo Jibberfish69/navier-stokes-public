@@ -181,7 +181,7 @@ the Field failure once Pack and Part are retained.
 last receiver alternative cannot be moved outside the CM witness split.  The
 next endpoint refinement is installed in
 `mpp-retained-field-endpoint-tower-reduction-20260515.md`: under retained
-`Pack+Part` and bounded pack gauge, a retained Field exit forces
+`Part plus Field-window evidence` and bounded pack gauge, a retained Field exit forces
 `tower-blown`, equivalently failure of the same-family DTC/tower analytic
 package.  To finish smoothness from this route, one still needs a noncircular
 proof of that terminal DTC/tower package, or a noncircular source/receiver

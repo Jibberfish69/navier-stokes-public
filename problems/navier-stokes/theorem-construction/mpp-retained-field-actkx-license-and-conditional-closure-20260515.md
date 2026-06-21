@@ -129,7 +129,7 @@ cover element.  The same-cover pressure readout and `DTC-to-TowerBound` at depth
 \mathfrak A_{N+1,Q}\in L^\infty(I).
 ```
 
-By `RFET.A`, bounded tower plus retained `Pack+Part` and bounded pack gauge gives
+By `RFET.A`, bounded tower plus retained `Part plus Field-window evidence` and bounded pack gauge gives
 a positive Field scale.  Therefore the retained Field exit cannot occur.
 `\square`
 
@@ -139,7 +139,7 @@ On a retained branch where `Pack` and `Part` survive, any selected Field-row
 exit forces failure of the pre-endpoint ACT/KX-to-DTC package:
 
 ```math
-Pack+Part+\neg Field
+Part plus Field-window evidence+\neg Field
 \Longrightarrow
 \neg PreEnd.ACTKX_Q
 \vee
@@ -205,7 +205,7 @@ The retained pointwise Field branch is conditionally closed:
 PreEnd.ACTKX_Q
 +\text{same-cover pressure readout}
 \Longrightarrow
-\text{no retained Field exit under }Pack+Part.
+\text{no retained Field exit under }Part plus Field-window evidence.
 \tag{RFACT.13}
 ```
 

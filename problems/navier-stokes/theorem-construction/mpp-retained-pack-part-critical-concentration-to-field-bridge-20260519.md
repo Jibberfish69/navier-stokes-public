@@ -1,4 +1,4 @@
-# Retained Pack/Part Critical Concentration To Field Bridge
+# Retained Part/Field Critical Concentration To Field Bridge
 
 Date: 2026-05-19
 
@@ -119,7 +119,7 @@ CritConc_X(\mathcal W).
 
 Global norm blow-up elsewhere is not enough.
 
-### 2. Retained Pack/Part quarantine
+### 2. Retained Part/Field quarantine
 
 The proof must exclude the escape where the public concentration is caused by
 loss of the carrier or loss of same-PDE participation:
@@ -171,4 +171,4 @@ active supplier problem.
 In particular, do not read `(RPCF.A)` as saying
 `PositiveRemainderDepletion.A` is a Field or Jump object. PRD is the positive
 source-control theorem. Only a surviving residue after PRD-style depletion
-fails can enter this retained Pack/Part-to-Field bridge.
+fails can enter this retained Part/Field-to-Field bridge.

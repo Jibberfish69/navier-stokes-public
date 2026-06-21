@@ -52,7 +52,7 @@ Target object: tower-blown endpoint face after Pack survival branch split.
 
 Object role: endpoint face consumption under retained CM witness rows.
 
-Logical skeleton: contradiction under retained `Pack+Part+Field` at one higher
+Logical skeleton: contradiction under retained `Part+Field` at one higher
 endpoint depth.
 
 Mechanism: energy anchors the base velocity rung under fixed positive Field

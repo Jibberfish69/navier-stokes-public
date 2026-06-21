@@ -8,7 +8,7 @@ This note proves a direct branch closure:
 
 ```math
 \boxed{
-\text{retained }Pack+Part+Field
+\text{retained }Part+Field
 \Longrightarrow
 \neg tower\text{-}blown
 }
@@ -206,7 +206,7 @@ Consequently:
 
 ```math
 \boxed{
-Pack+Part+Field
+Part+Field
 \Longrightarrow
 \neg tower\text{-}blown
 }
@@ -221,7 +221,7 @@ on the same approaching family.
 positive field scale.  `RF.B` bounds `U_k` for `1\le k\le N`.  `RF.C` bounds
 `K_k` for `0\le k\le N`.  Summing these finite bounds gives `(RF.11)`.
 Therefore the tower-amplitude escape defining `tower-blown` cannot occur while
-the retained `Pack+Part+Field` branch is maintained. `\square`
+the retained `Part+Field` branch is maintained. `\square`
 
 ## Corollary `RF.E` (SourcePulseCMExit.A Closure)
 
@@ -255,11 +255,11 @@ Jump.
 If `packing-detached` occurs, the pack-native endpoint row gives `\neg Pack`.
 
 If `Jump` occurs and either `Pack` or `Part` has already failed, the conclusion
-follows from that prior Part/Field failure.  If `Jump` occurs while `Pack+Part` are retained, the installed
+follows from that prior Part/Field failure.  If `Jump` occurs while `Part plus Field-window evidence` are retained, the installed
 field-face theorem gives `\neg Field`.
 
 It remains only to handle the mixed `tower-blown` alternative.  On the branch
-where `Pack+Part+Field` are retained, Theorem `RF.D` excludes
+where `Part+Field` are retained, Theorem `RF.D` excludes
 `tower-blown`.  Therefore `tower-blown` cannot be the surviving manifestation
 while all three CM witnesses remain retained.
 
