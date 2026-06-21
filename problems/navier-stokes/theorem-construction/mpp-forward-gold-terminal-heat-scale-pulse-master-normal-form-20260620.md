@@ -2,7 +2,7 @@
 theorem_id: forward-gold-terminal-heat-scale-pulse-master-normal-form-20260620
 status: master-normal-form-complete-forward-gold-not-solved
 logical_landing_node: terminal_heat_scale_pulse_unweighted_selected_carrier_reserve
-edge_effect: "Consolidates the endpoint UI, same-carrier tail UI, source-square, critical-strain, normalized CKN, coherent participation square, square parent-or-charge, signed donor, diffuse parent-cloud/no-null, finite-effective-branching/depth-entropy, strict no-waste, and compact-profile branches into one exact normal form. The only forward-gold theorem left by these tests is an unweighted critical-action reserve on the actual selected positive carrier. Without that reserve, the retained pulse is a CM Pack/Part/Field readout only after same-witness CM-test admission."
+edge_effect: "Consolidates the endpoint UI, same-carrier tail UI, source-square, critical-strain, normalized CKN, coherent participation square, square parent-or-charge, signed donor, diffuse parent-cloud/no-null, finite-effective-branching/depth-entropy, same-shadow gauge/action, mode-lobe expansion, strict no-waste, and compact-profile branches into one exact normal form. The only forward-gold theorem left by these tests is an unweighted critical-action reserve on the actual selected positive carrier. Without that reserve, the retained pulse is a CM Pack/Part/Field readout only after same-witness CM-test admission."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-tail-ui-production-normal-form-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-strain-carrier-ui-holder-saturation-test-20260620.md
@@ -16,6 +16,13 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-effective-parent-branching-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-depth-entropy-budget-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-per-generation-selected-square-quantum-direct-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-shadow-source-weighted-gauge-travel-charge-direct-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-shadow-unweighted-modulation-action-direct-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-shadow-action-localization-selector-stability-direct-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-active-endpoint-lobe-expanded-reduction-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-lobe-shadow-mode-residue-identity-direct-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-soft-lobe-product-charge-reentry-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-common-nodal-supplier-exhaustion-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-element-minimality-discount-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-first-created-reserve-source-square-energy-test-20260620.md
 ---
@@ -29,8 +36,9 @@ Date: 2026-06-20
 Master normal-form reduction complete.  This note does not solve the
 forward-gold theorem.  It records the exact nonduplicated theorem left after
 the endpoint, participation, square-reserve, donor, parent-cloud/no-null,
-finite-branch/depth-entropy, no-waste, and compactness branches have been
-tested against the same heat-scale pulse.
+finite-branch/depth-entropy, same-shadow gauge/action, mode-lobe expansion,
+no-waste, and compactness branches have been tested against the same heat-scale
+pulse.
 
 The live forward-gold object is:
 
@@ -383,6 +391,10 @@ status:
 \text{uniform selected-carrier inverse margin and square coalescence absent}\\
 \text{finite effective branching / terminal depth entropy} &
 \text{local finiteness and entropy visibility lack unweighted payment}\\
+\text{same-shadow gauge/action} &
+\text{physical action is discounted and may live on the wrong selected shadow}\\
+\text{finite mode-lobe expansion / soft lobes} &
+\text{sign split is paid; lobe-shadow residue and common nodal source remain}\\
 \text{strict no-waste} &
 \text{requires a new lower-bounded critical-action drop}\\
 \text{compact critical element} &
@@ -419,6 +431,8 @@ Concrete equivalent forms include:
 \text{strict rescaled no-waste Lyapunov with critical-action-size drop},\\
 \text{square reserve evolution / donor adjoint trace in square units},\\
 \text{selected polar/no-null saturation plus square-synchronous no-free Zeno control},\\
+\text{same-shadow gauge/action product control and finite lobe-expanded residue
+identity},\\
 \text{compact rigid profile production after endpoint defect evacuation.}
 \end{gathered}
 \tag{THP.28}
