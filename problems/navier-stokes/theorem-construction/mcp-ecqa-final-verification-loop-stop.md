@@ -18,7 +18,7 @@ problems/navier-stokes/theorem-construction/mcp-pctp-hard-readend-ecqa-loop-clos
 CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
-Choose depth `N` above a classical continuation index `s>5/2`. The retained Pack / Part / Field readout supplies
+Choose depth `N` above a classical continuation index `s>5/2`. The retained Field-window evidence / Part / Field readout supplies
 
 ```math
 \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty.

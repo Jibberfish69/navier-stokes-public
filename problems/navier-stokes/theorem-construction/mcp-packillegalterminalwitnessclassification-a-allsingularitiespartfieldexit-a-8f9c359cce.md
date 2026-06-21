@@ -154,7 +154,7 @@ No additional theorem beyond same-solution terminal extraction/admissibility.
 Profile:
 
 ```text
-Pack survives far enough to test participation and one-field readout, then jump/readout coherence fails.
+Field-window evidence is present far enough to test participation and one-field readout, then jump/readout coherence fails.
 ```
 
 Boundary routing:
