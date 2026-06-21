@@ -108,8 +108,7 @@ shared_alignment:
           infinite donor-refill ancestry is not Pack_Q / (Pack, packing-detached)'
         - 'ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A as diagnostic/source-residue
           language: finite Zeno ancestry is sorted by RawZenoFailurePartition.A +
-          ZenoAtomFailureToFaceWitness.A, while terminal zero-radius residue is Part-first
-          when a same-solution original NS participation record remains
+          ZenoAtomFailureToFaceWitness.A, while terminal zero-radius residue lands Part-side when a same-solution original NS participation record remains
           and true not Pack_Q only when that record is absent; endpoint readout language
           is post-exit support unless a positive-scale retained carrier is separately
           proved'
@@ -521,8 +520,7 @@ shared_alignment:
         label: Terminal zero-radius Zeno Part-first boundary
         proof_mode: terminal_zeno_pack_legality_boundary
         role: CM-facing boundary after finite Zeno ancestry accounting; the terminal
-          zero-radius residue lands Part-side when it keeps the same original-NS pointwise
-          participation record, and true not Pack_Q only when that record is absent;
+          zero-radius residue lands Part-side when it keeps the same original-NS participation record, and true not Pack_Q only when that record is absent;
           LPSC/PRD/Zeno rigid-class language is downstream no-pulse/source-control
           support outside this CM endpoint.
       - target_id: sourcepulse-terminal-zeno-operational-collapse
