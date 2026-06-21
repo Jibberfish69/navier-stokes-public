@@ -27,7 +27,7 @@ The criterion is:
 \[
 \boxed{
 \text{native positive stretching endpoint UI follows from same-carrier
-endpoint control of }\nabla\times N\text{ and the transport term.}
+control of }\omega,\ \nabla\times N,\text{ and the transport term.}
 }
 \tag{NCT.1}
 \]
@@ -179,7 +179,8 @@ Taking \(\limsup_j\) and then \(\theta\downarrow0\) proves
 \]
 
 Thus a native positive stretching endpoint atom is impossible under the
-same-carrier curl-source \(L_s^2L_y^2\) bound and transport endpoint UI.
+same-carrier \(L_s^\infty L_y^2\) vorticity bound, curl-source
+\(L_s^2L_y^2\) bound, and transport endpoint UI.
 
 This criterion is exact but stronger than the installed energy-class control.
 It asks for one derivative more than projected-source \(L^2\), and it asks for
