@@ -124,18 +124,15 @@ Then
 
 ### Proof
 
-For fixed \(R\), weak-star convergence on \(C_R\) gives
+For fixed \(R\), weak-star convergence of nonnegative Radon measures gives the
+Portmanteau upper bound on the compact set \(C_R\):
 
 ```math
-\lim_{n\to\infty}\mu_n^A(C_R)
-=
+\limsup_{n\to\infty}\mu_n^A(C_R)
+\le
 \mu_*^A(C_R)
 \tag{SCM.8}
 ```
-
-after replacing \(C_R\) by a continuity set for \(\mu_*^A\), or equivalently
-by testing against compactly supported cutoffs increasing to
-\(\mathbf 1_{C_R}\).
 
 For every \(R\),
 
