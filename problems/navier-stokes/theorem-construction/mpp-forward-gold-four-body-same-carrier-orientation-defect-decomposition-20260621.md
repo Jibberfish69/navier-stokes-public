@@ -605,8 +605,9 @@ The remaining proof work is now sharper:
 
 ```math
 \boxed{
-\text{prove the four pairwise same-carrier identifications, or charge their
-positive mismatches in the existing four-body defect terms.}
+\text{prove the production hypotheses inside the four pairwise interface
+criteria, or charge their positive mismatches in the existing four-body defect
+terms.}
 }
 \tag{SOD.42}
 ```
