@@ -4,7 +4,7 @@ ns_viewer:
   status: supplier-boundary-test-complete-heat-smoothing-alone-does-not-supply-radius
   proof_role: forward_gold_heat_smoothing_supplier_boundary_test
   logical_landing_node: heat_smoothing_supplier_boundary
-  edge_effect: "Mechanism test only. This is not a Navier-Stokes reduction, not a linearization of Navier-Stokes, not a Navier-Stokes model, and not a replacement for the nonlinear pressure-transport-viscosity system. The forcing in this note is an external heat-equation test input, not a proxy for -P div(v tensor v). It tests only the narrower supplier claim that heat semigroup smoothing by itself supplies a uniform coupled tower radius for terminal-layer input. In the forced heat test, terminal-layer forcing has smoothing time tending to zero, so the Duhamel average converges to the unsmoothed input. Any Navier-Stokes use still has to start from the exact Leray-Duhamel identity and estimate the actual nonlinear Duhamel contribution on the selected carrier."
+  edge_effect: "Mechanism test only. This is not a Navier-Stokes reduction, not a linearization of Navier-Stokes, not a Navier-Stokes normal form, not a Navier-Stokes model, and not a replacement for the nonlinear pressure-transport-viscosity system. The forcing in this note is an external heat-equation test input, not a proxy for -P div(v tensor v). It tests only the narrower supplier claim that heat semigroup smoothing by itself supplies a uniform coupled tower radius for terminal-layer input. In the forced heat test, terminal-layer forcing has smoothing time tending to zero, so the Duhamel average converges to the unsmoothed input. Any Navier-Stokes use still has to start from the exact Leray-Duhamel identity and estimate the actual nonlinear Duhamel contribution on the selected carrier."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-tower-radius-survival-implies-endpoint-ui-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-rung-tail-to-selected-carrier-direct-test-20260621.md
@@ -19,8 +19,8 @@ Date: 2026-06-21
 ## Status
 
 This note is a supplier-boundary test. It does not replace the Navier-Stokes
-nonlinear Duhamel term by a linear forcing, and it does not approximate the
-pressure-transport-viscosity system.
+nonlinear Duhamel term by a linear forcing, it is not a Navier-Stokes normal
+form, and it does not approximate the pressure-transport-viscosity system.
 
 The calculation is an external forced-heat supplier-boundary test. It is only a
 counterexample to the narrower claim that heat semigroup smoothing, by itself,
@@ -50,8 +50,8 @@ where the terminal source is the actual Leray-projected nonlinearity
 
 Citation rule. This note may be cited only as a negative supplier test:
 terminal heat time alone does not force a uniform analytic/tower radius. It may
-not be cited as a Navier-Stokes model, nonlinear approximation, source
-model, or selected-carrier identity.
+not be cited as a Navier-Stokes normal form, Navier-Stokes model, nonlinear
+approximation, source model, or selected-carrier identity.
 
 It tests only whether parabolic smoothing alone can produce the uniform coupled
 tower radius needed by the endpoint UI bridge:
