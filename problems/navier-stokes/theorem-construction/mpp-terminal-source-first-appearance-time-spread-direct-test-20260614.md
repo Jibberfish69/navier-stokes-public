@@ -110,7 +110,7 @@ does not control the selected native source marginal on `(-\tau_m,0]`.
 
 ```text
 first-created positive-scale native source-reserve surplus
-must be paid or become a Pack/Part/Field exit witness.
+must be paid or become a Pack/that face failure witness.
 ```
 
 That is a reduction, not a proof of the source anti-atom theorem.

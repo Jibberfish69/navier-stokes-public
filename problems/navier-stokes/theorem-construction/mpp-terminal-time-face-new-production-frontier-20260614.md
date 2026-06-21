@@ -45,7 +45,7 @@ gold supplier pass;
 exact terminal time-face pulse obstruction;
 no-admission support or Pack boundary;
 admitted Member branch;
-admitted Part/Field exit.
+admitted that face failure.
 ```
 
 The remaining gold-side theorem is the child that removes the exact pulse
