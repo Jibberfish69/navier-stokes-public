@@ -15,6 +15,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-viscous-defect-dichotomy-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-selector-graph-defect-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-terminal-trace-atom-routing-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-participation-tuple-coupling-breaker-live-edge-audit-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-upgraded-four-body-current-frontier-20260621.md
 ---
 
@@ -558,3 +559,16 @@ The corrected full-cycle branch is therefore narrowed to:
 or charge the exact remaining defects `(FHC.30a)`, `(FHC.31)`, `(FHC.32a)`,
 and `(FHC.33)` into the existing four-body legal, saturation, trace, or
 rigidity ledgers.
+
+The live-edge coupling audit forbids charging those defects by scalar size
+before the full tuple has been retained.  The selected packet must first carry
+
+```math
+R_{j,Q}+N_{j,Q}+P_{j,Q}+V_{j,Q}=L_{j,Q},
+\qquad
+I_{j,Q}\text{ retained on the same carrier,}
+\tag{FHC.37}
+```
+
+and only after that assignment may Cauchy, Young, Bernstein, Calderon-Zygmund,
+Leray, commutator, CKN, or tail estimates be used as cleanup estimates.
