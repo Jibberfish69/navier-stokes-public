@@ -374,6 +374,14 @@ Navier-Stokes solution realizes the schedule `(HCR.28)`. It records the exact
 reason the fixed-cylinder dissipation argument cannot be promoted into the
 shrinking heat-scale gold theorem.
 
+The full projected Navier-Stokes residual of this same normal form is computed
+in
+`mpp-forward-gold-heat-scale-convective-normal-form-full-ns-residual-test-20260621.md`.
+That residual is not small: in normalized variables its \(L^2\) action is at
+least a positive constant times \(\int b_m^2\,ds\). Thus this note may be used
+only as an algebraic/scaling boundary test, not as an exact or approximate
+Navier-Stokes trajectory.
+
 The fixed-cylinder Cauchy-Schwarz throttle gives
 
 \[
