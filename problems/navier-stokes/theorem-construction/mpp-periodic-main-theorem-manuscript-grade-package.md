@@ -314,8 +314,8 @@ Jump\Rightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown.
 ```
 
 At a first endpoint face, every non-tower face appearing on the right side is
-earlier than the alleged first face or is tied with it as an already-present
-first face. Removing those earlier-or-tied non-tower subcases leaves
+earlier than the alleged first Part/Field or is tied with it as an already-present
+first Part/Field. Removing those earlier-or-tied non-tower subcases leaves
 `tower-blown` as the stable first-face alternative.
 
 ## 9. Tower-to-continuation theorem

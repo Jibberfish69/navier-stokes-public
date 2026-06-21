@@ -90,7 +90,7 @@ That loop is not a proof of `PCTP.hard`.
 The remaining theorem to prove is either
 
 ```math
-OriginalSmoothData\Rightarrow\text{uniform terminal-tail retained Pack/Part/Field/tower data},
+OriginalSmoothData\Rightarrow\text{uniform terminal-tail retained Part/Field/tower data},
 ```
 
 or the equivalent facewise theorem

@@ -121,7 +121,7 @@ End_{NS}.
 
 ## Step 6: classical continuation
 
-The previous face assembly reduced all non-tower first faces into tower-blown, and the terminal readout supplies the old pointwise tower package. With `End_NS`, no old endpoint face remains.
+The previous face assembly reduced all non-tower first Part/Fields into tower-blown, and the terminal readout supplies the old pointwise tower package. With `End_NS`, no old endpoint face remains.
 
 The `H^s` continuation conversion then gives
 

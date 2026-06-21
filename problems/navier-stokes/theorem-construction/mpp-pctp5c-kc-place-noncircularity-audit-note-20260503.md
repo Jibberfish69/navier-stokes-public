@@ -82,7 +82,7 @@ KC.CKN\vee\neg Pack\vee\neg Part\vee\neg Field
 ```
 
 is only enough for the class-membership exit grammar.  It does not by itself
-produce the terminal-tail retained `Pack/Part/Field/tower` readout required by
+produce the terminal-tail retained `Part/Field/tower` readout required by
 `TTU.A`, because the retained `Field` alternative is precisely the uniform
 terminal-tail coherence whose production is under audit.
 

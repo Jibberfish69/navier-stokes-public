@@ -26,7 +26,7 @@ class-membership witness supplies a uniform continuation readout:
 ```
 
 Equivalently, assume the terminal tail has uniformly finite retained
-`Pack/Part/Field/tower` data strong enough for `CM.Readout` and `ECQ.A`.
+`Part/Field/tower` data strong enough for `CM.Readout` and `ECQ.A`.
 Then `T_* = infinity`.
 
 ### Proof
@@ -159,7 +159,7 @@ analytic suppliers are genuinely proved, not merely assembled:
    supplies the retained tail inputs, or prove directly that a first finite
    endpoint cannot realize `Dead`, `packing-detached`, `tower-blown`, or `Jump`.
 4. Class-membership-to-continuation readout: ensure the retained
-   `Pack/Part/Field/tower` controls give a global periodic `H^s`, `s>5/2`,
+   `Part/Field/tower` controls give a global periodic `H^s`, `s>5/2`,
    continuation norm on a terminal tail.
 
 ## Boundary

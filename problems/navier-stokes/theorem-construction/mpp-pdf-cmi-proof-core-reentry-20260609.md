@@ -11,7 +11,7 @@ claim. Parallel PDF criticism and repo-support checks produced the same
 mathematical pressure point:
 
 ```text
-terminal-record entry + Pack/Part/Field classification
+terminal-record entry + Part/Field classification
 is not by itself a Clay counterexample-exclusion theorem.
 ```
 
@@ -36,7 +36,7 @@ solution with the original branch. Therefore a finite maximal classical
 breakdown on the same original branch must fail the continuation readout along
 that branch. This is a PDE reduction, not a CM definition.
 
-### 2. Pack/Part/Field exhaustion is route-relative.
+### 2. Part/Field exhaustion is route-relative.
 
 `mpp-continuation-complete-terminal-face-exhaustion-working-pass-20260526.md`
 proves the ordered packet-exhaustion statement after a continuation-complete
@@ -58,11 +58,11 @@ boundary:
 
 ```text
 pass branch  => Member(Q) => same-solution continuation,
-fail branch  => first Pack/Part/Field face failure => Exit(Q):=not Member(Q).
+fail branch  => first Part/Field Part/Field failure => Exit(Q):=not Member(Q).
 ```
 
 It rules out a third object that is both an in-class continuation branch and a
-mechanism-derived face-failure branch.
+mechanism-derived Part/Field-failure branch.
 
 ## The CMI Gap That Remains
 
@@ -93,7 +93,7 @@ OriginalSmoothData => not GenuineCMExit(T_*)
 for every finite terminal time T_*.
 ```
 
-Inside the installed Pack-first grammar this is equivalent to ruling out the
+Inside the installed Field-certification grammar this is equivalent to ruling out the
 three first-exit faces from original smooth data:
 
 ```text

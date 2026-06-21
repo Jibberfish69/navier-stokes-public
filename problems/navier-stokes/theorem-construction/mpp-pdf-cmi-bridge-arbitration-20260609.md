@@ -15,7 +15,7 @@ finite-obstruction inventory:
 ```text
 finite terminal obstruction row
 => CM-test entry
-=> first Pack/Part/Field face
+=> first Part/Field face
 => Exit(Q):=not Member(Q).
 ```
 
@@ -45,13 +45,13 @@ obstruction inventory criterion:
 ```text
 every promoted finite terminal obstruction row
 => CM-test entry
-=> first failed Pack/Part/Field face
+=> first failed Part/Field face
 => Exit(Q):=not Member(Q).
 ```
 
 This is useful as a route-control criterion.  It prevents old source-wall or
 supplier rows from being promoted unless they name a same-solution terminal row
-and a first face.
+and a first Part/Field.
 
 It does not by itself answer the CMI referee question:
 
@@ -68,12 +68,12 @@ separates CM-test admissibility from `Member(Q)`.
 The proof still has to make the final contradiction explicit.  The step
 
 ```text
-terminal witness loses Pack, Part, or Field
+terminal witness loses Part or Field
 => no Clay counterexample
 ```
 
 is not a formal consequence of the Clay negation unless the terminal witness is
-proved to owe Pack, Part, and Field as validity conditions for being the
+proved to owe Part and Field as validity conditions for being the
 original branch's finite terminal obstruction.  Otherwise the conclusion says
 only that a breakdown object has broken the class.
 
@@ -108,11 +108,11 @@ with this burden:
 Finite Clay negation
 => same-solution terminal record Q.
 
-If Q passes Pack, Part, and Field
+If Q passes Part and Field
 => H^s readout
 => same-solution continuation.
 
-If Q fails a first Pack/Part/Field face
+If Q fails a first Part/Field face
 => prove this is not merely the alleged finite breakdown itself,
    but invalidates Q as a Clay counterexample object.
 ```
@@ -155,7 +155,7 @@ Source-reserve Pack survival is therefore not automatically the primary target.
 It becomes primary only if the finite-obstruction bridge cannot be proved
 directly.  Under the June 8 inventory criterion it remains demoted support
 unless a manuscript-used terminal row lacks same-solution CM entry or a derived
-first face.
+first Part/Field.
 
 ## PDF Consequence
 

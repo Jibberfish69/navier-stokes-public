@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-native-trilinear-defect-domination-direct-attempt-note.md
     - problems/navier-stokes/theorem-construction/mpp-local-positive-precauchy-source-carleson-direct-attempt-note.md
     - problems/navier-stokes/theorem-construction/mpp-reverseholder-parent-concentration-direct-attempt-note.md
-  downstream_consequence: "PositivePackDefectOrthogonality.A now requires direct control of the selected positive cross-profile measure, a uniform-integrability/Carleson replacement, or a Pack/Part/Field face landing; pdfs_final remains false."
+  downstream_consequence: "PositivePackDefectOrthogonality.A now requires direct control of the selected positive cross-profile measure, a uniform-integrability/Carleson replacement, or a Part/Field Part/Field landing; pdfs_final remains false."
 ---
 
 # MPP PositivePackDefectOrthogonality Bilinear-Decoupling Attempt
@@ -95,7 +95,7 @@ does not imply `\mu_{\alpha\beta,j}^{+,m}(W_m)\to0`.  The proof must establish
 one of the following exact alternatives for `\mu_{\alpha\beta,j}^{+,m}` on the
 selected terminal windows: vanishing in the tested Pack measure, uniform
 integrability/Carleson non-atomicity, absorption by a displayed one-profile
-Pack measure with quantitative density control, or a Pack/Part/Field face
+Pack measure with quantitative density control, or a Part/Field face
 failure.
 
 The desired bilinear theorem is:
@@ -103,7 +103,7 @@ The desired bilinear theorem is:
 ```text
 TerminalPositiveCrossProfileSourceControl.A:
 all alpha != beta cross-profile positive Pack source contributions vanish or
-are absorbed by a paid Pack/Part/Field face.
+are absorbed by a paid Part/Field face.
 ```
 
 ## Why Standard Bilinear Control Does Not Close It
@@ -189,7 +189,7 @@ SelectedPositivePackCrossTermNoAtom.A.
 
 It must use the same witness grammar and show that a terminal positive
 cross-profile source atom either belongs to one true profile, vanishes by
-uniform integrability, or lands as a paid Pack/Part/Field face.
+uniform integrability, or lands as a paid Part/Field face.
 
 ## Result
 
