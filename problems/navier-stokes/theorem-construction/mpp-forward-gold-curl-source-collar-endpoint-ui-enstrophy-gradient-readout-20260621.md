@@ -325,7 +325,7 @@ on localized charts.  It does not control
 \tag{CCE.25}
 \]
 
-which is the \(H^2\)-level part of `\(Z_{\eta,\mathrm{coll}}\)`.
+which is the \(H^2\)-level part of \(Z_{\eta,\mathrm{coll}}\).
 
 Therefore `(CCE.9)` is a real additional hypothesis.  It is not produced by
 viscosity alone, and it is not a consequence of the basic local energy ledger.
