@@ -77,7 +77,7 @@ manual_role_corrections:
   reason: May 17 square-source attempt remains an active-window source-control supplier, conditional on source normalization
 - path: theorem-construction/mpp-activeshellamplitudegain-completion-attempt-20260517.md
   corrected_face_sort: source_wall_Field_diagnostic_or_supplier
-  reason: May 17 ASAG attempt is the positive source-supplier branch collapsing to active-square reserve, not retained-amplitude Pack/Part closure
+  reason: May 17 ASAG attempt is the positive source-supplier branch collapsing to active-square reserve, not retained-amplitude Part/Field closure
 - path: theorem-construction/mpp-noncarleson-zeno-temporal-anticoncentration-completion-attempt-20260517.md
   corrected_face_sort: Zeno_Field_diagnostic_or_supplier
   reason: May 17 Zeno anti-concentration attempt leaves terminal zero-heat-time source residue as a Field diagnostic unless reverse Holder or rigid class is supplied
@@ -8001,7 +8001,7 @@ entries:
   category: theorem_construction_surface
   face_sort: source_wall_Field_diagnostic_or_supplier
   role: May 17 ASAG attempt; positive source-supplier branch collapsing to active-square
-    reserve rather than retained-amplitude Pack/Part closure
+    reserve rather than retained-amplitude Part/Field closure
 - path: theorem-construction/mpp-noncarleson-zeno-temporal-anticoncentration-completion-attempt-20260517.md
   category: theorem_construction_surface
   face_sort: Zeno_Field_diagnostic_or_supplier

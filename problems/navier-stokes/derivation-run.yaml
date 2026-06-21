@@ -6,7 +6,7 @@ identity:
   debt_id: debt-quarantined-support-basacreverseholderproduction-a
 target_debt:
   debt_id: debt-quarantined-support-basacreverseholderproduction-a
-  label: BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-out-of-CM audit.
+  label: BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Part/Field witness support by the Pack-out-of-CM audit.
   priority_rank: 4
   monograph_status: dependency-discharge now treats this as quarantined downstream
     no-pulse/source-control support outside the terminal Zeno CM endpoint
@@ -448,7 +448,7 @@ evidence_hits:
   - target-label
   hit_kind: phrase-match
   excerpt_note: te Part/Field packet on every alleged finite terminal tail. Source-residue
-    and B_ASAC terminal residue subcases are already sorted as Pack/Part witness or
+    and B_ASAC terminal residue subcases are already sorted as Part/Field witness or
     supplier-quarantined support; they are not bare anti-atom deletion burde
   authority_root: problems/navier-stokes
   authority_classification: lane-local
