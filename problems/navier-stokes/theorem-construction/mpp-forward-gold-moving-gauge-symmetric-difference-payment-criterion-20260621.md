@@ -11,8 +11,10 @@ ns_viewer:
     If the selected carrier has a same-carrier L^p spacetime density, p>1, then
     Holder pays the defect by |Delta_j^gauge|^(1-1/p), and the geometric bound
     |Delta_j^gauge| <= C lambda_j^4 min(|b_j|,lambda_j) gives an exact summability
-    condition. Current inputs give finite L1 carrier visibility and time-trace
-    endpoint tests, not this same-carrier spacetime uniform integrability. Thus
+    condition on any controlled carrier domain containing the symmetric-difference
+    set. Exterior parent-window spill is a separate collar/legal term. Current
+    inputs give finite L1 carrier visibility and time-trace endpoint tests, not
+    this same-carrier spacetime uniform integrability. Thus
     moving-gauge drift is paid only by a new spatial/spacetime UI source-square/CKN/
     critical-strain/no-waste theorem or remains a visible selected-carrier drift
     defect.
@@ -23,10 +25,10 @@ ns_viewer:
   downstream_consequence: >-
     Do not treat finite carrier mass, endpoint time UI, or source-square as a
     moving-gauge payment unless they control the actual selected carrier on
-    the gauge symmetric-difference set. The exact supplier is same-carrier
-    spacetime uniform integrability, a full selected source-square/CKN/critical-strain
-    density domination on Delta_j^gauge, strict no-waste, or profile/no-drift
-    production.
+    the controlled gauge symmetric-difference set. The exact supplier is
+    same-carrier spacetime uniform integrability, a full selected source-square/
+    CKN/critical-strain density domination on Delta_j^gauge after localization,
+    strict no-waste, or profile/no-drift production.
 ---
 
 # MPP Forward-Gold Moving Gauge Symmetric-Difference Payment Criterion
@@ -36,8 +38,8 @@ Date: 2026-06-21
 ## Status
 
 This note continues the moving-gauge split. The previous note showed that the
-child unit cylinder in a moving gauge is not the centered parent core. The exact
-defect is
+child unit cylinder in a moving gauge is not the centered parent core. Before
+parent-window localization, the exact defect is
 
 \[
 \Delta_j^{gauge}
@@ -50,14 +52,16 @@ B_{\lambda_j}(b_j)\triangle B_{\lambda_j}(0)
 \]
 
 For a selected same-carrier measure \(\mu_j\), the fixed-chain replacement is
-paid exactly when
+paid exactly when the controlled part of
 
 \[
 \mu_j(\Delta_j^{gauge})
 \tag{MGD.2}
 \]
 
-is legal, summable, or tail-small.
+is legal, summable, or tail-small. If part of \(\Delta_j^{gauge}\) lies outside
+the parent window used by the carrier, that exterior part is not silently paid;
+it must be routed as collar, boundary, or legal-spill mass.
 
 The result here is:
 
