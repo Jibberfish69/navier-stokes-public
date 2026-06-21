@@ -2,7 +2,7 @@
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
 status: consolidated-frontier-installed-strict-cycle-payment-or-rigidity-open-supplement-criteria-updated
 logical_landing_node: upgraded_four_body_current_frontier
-edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, the critical-density/CKN supplement criterion, the signed-polar saturation supplement criterion, the rigid source-residue supplement criterion, the full pre-Cauchy remainder reduction criterion, and the direct no-free terminal Zeno four-body attempt. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste, critical-density/CKN, signed-polar saturation, rigid source-residue production, and full pre-Cauchy remainder reduction are proved criteria, not produced Navier-Stokes estimates. The direct four-body attack reduces NoFreeTerminalZenoDonorChain.A to FourBodyTerminalTraceAC.A or strict no-waste/unweighted reserve. The remaining gold theorem is a same-carrier production theorem: prove terminal trace AC/no-waste, produce dN_miss=0 or a legal/charged polar defect, or produce MinimalZenoProfileProduction.A."
+edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, the critical-density/CKN supplement criterion, the signed-polar saturation supplement criterion, the rigid source-residue supplement criterion, the full pre-Cauchy remainder reduction criterion, the direct no-free terminal Zeno four-body attempt, and the component test for FourBodyTerminalTraceAC.A. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste, critical-density/CKN, signed-polar saturation, rigid source-residue production, and full pre-Cauchy remainder reduction are proved criteria, not produced Navier-Stokes estimates. The direct four-body attack reduces NoFreeTerminalZenoDonorChain.A to FourBodyTerminalTraceAC.A or strict no-waste/unweighted reserve, and the component test reduces FourBodyTerminalTraceAC.A to simultaneous terminal AC of the tower, participation, compactness/no-loss, geometry, and legal records. The remaining gold theorem is a same-carrier production theorem: prove those terminal moduli/no-waste, produce dN_miss=0 or a legal/charged polar defect, or produce MinimalZenoProfileProduction.A."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-factorial-tower-radius-spend-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-participation-exchange-normal-form-20260621.md
@@ -27,6 +27,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-rigid-source-residue-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-precauchy-remainder-fourbody-reduction-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-terminal-zeno-fourbody-direct-attempt-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-terminal-trace-ac-component-test-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -1223,6 +1224,61 @@ R_m((-\theta,0])
 This is `FourBodyTerminalTraceAC.A`.  A strict no-waste Lyapunov drop implies
 it, but current inputs do not.  Finite storage variation permits a terminal
 downward jump, which is exactly the last-instant source-pulse normal form.
+
+The component test for `FourBodyTerminalTraceAC.A` has now also been run.  It
+shows that `(4BF.68)` follows from simultaneous terminal absolute continuity of
+the four body records:
+
+```math
+\boxed{
+\lim_{\theta\downarrow0}\limsup_m
+\left[
+L_{i,m}(-\theta)-L_{i,m}(0)
+\right]_+
+=0
+\qquad
+i\in\{S,Q,C,G\},
+}
+\tag{4BF.69}
+```
+
+plus terminal AC of the legal residual.  The component identities reduce those
+four moduli to:
+
+```math
+\boxed{
+\text{Body I: tower radius-spend/current tail depletion;}
+}
+\tag{4BF.70}
+```
+
+```math
+\boxed{
+\text{Body II: participation storage, viscous/tower loss, and signed-current
+tail depletion;}
+}
+\tag{4BF.71}
+```
+
+```math
+\boxed{
+\text{Body III: selected-carrier terminal no-loss/tightness or charged relay
+defect;}
+}
+\tag{4BF.72}
+```
+
+```math
+\boxed{
+\text{Body IV: unweighted deformation/strain-clock terminal modulus or charged
+geometry defect.}
+}
+\tag{4BF.73}
+```
+
+Each line is an unweighted same-carrier theorem.  Fixed-\(m\) smoothness gives
+ordinary preterminal continuity, and physical energy gives radius-discounted
+budgets; neither gives the uniform terminal modulus across the Zeno family.
 
 This is the current unflattened frontier: the four-body loop pays quotient
 tower activity exactly, and the native cubic source selector must be converted
