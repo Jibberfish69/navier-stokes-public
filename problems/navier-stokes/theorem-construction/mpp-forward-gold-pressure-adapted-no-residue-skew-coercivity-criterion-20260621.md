@@ -18,6 +18,8 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-pressure-trace-defect-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-harmonic-pressure-memory-collar-routing-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-viscous-defect-dichotomy-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-terminal-trace-atom-routing-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-participation-tuple-coupling-breaker-live-edge-audit-20260621.md
 ---
 
 # Pressure-Adapted No-Residue Skew Coercivity Criterion
@@ -522,8 +524,21 @@ The local same-carrier pressure trace passes after Calderon-Zygmund pressure
 decomposition.  The viscous defect is either visible payment or strong gradient
 convergence.  Standard suitable compactness is still not enough for the full
 packet; harmonic pressure memory routes to collar/legal/terminal trace.  The
-remaining hidden failures are precisely selector graph loss, signed saturation
-loss, terminal trace atom, or legal-routing loss.
+remaining hidden failures are precisely unbounded selector complexity or carrier
+drift, signed saturation loss, endpoint storage jump/no-jump, or legal-routing
+loss.
+
+The live-edge coupling audit forbids using the old breaker estimates at this
+point.  The selected packet must first carry
+
+```math
+R_{j,Q}+N_{j,Q}+P_{j,Q}+V_{j,Q}=L_{j,Q},
+\qquad
+I_{j,Q}\text{ retained on the same carrier,}
+\tag{PAN.29a}
+```
+
+and only then may scalar estimates enter as cleanup.
 
 So the remaining production input is:
 
