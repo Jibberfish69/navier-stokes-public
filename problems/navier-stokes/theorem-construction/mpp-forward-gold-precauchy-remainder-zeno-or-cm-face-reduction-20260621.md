@@ -3,7 +3,7 @@ ns_viewer:
   theorem_id: forward-gold-precauchy-remainder-zeno-or-cm-face-reduction-20260621
   status: exact-pass-or-exit-reduction-installed-forward-gold-supplier-still-open
   proof_role: forward_gold_precauchy_remainder_pass_or_exit_reduction
-  logical_landing_node: precauchy_remainder_zeno_or_cm_face
+  logical_landing_node: precauchy_remainder_zeno_or_cm_part_field_question
   edge_effect: >-
     Installs the exact pass-or-exit placement of the remaining full pre-Cauchy
     remainder after the main carrier consumer boundary. Under the conditional
@@ -250,7 +250,7 @@ test:
 \tag{PZC.15}
 \]
 
-This is a CM face conclusion.  It is not a new Navier-Stokes smoothing or
+This is a CM Part/Field conclusion.  It is not a new Navier-Stokes smoothing or
 anti-atom estimate.
 
 ## Verdict
@@ -268,7 +268,7 @@ or
 
 \[
 \boxed{
-\text{terminal atom, hence Part/Field face failure after same-witness
+\text{terminal atom, hence Part/Field Part/Field failure after same-witness
 admission and service certification.}
 }
 \tag{PZC.17}
@@ -277,4 +277,4 @@ admission and service certification.}
 Thus the live forward-gold supplier is still the no-free terminal Zeno theorem.
 The terminal atom branch is no longer an unidentified retained branch: it is a
 CM pass-or-exit object once the same terminal witness is admitted to the
-Pack/Part/Field test.
+Part/Field test.

@@ -227,7 +227,7 @@ positive trilinear source:
 Thus active height proves visibility of the heat-scale pulse.  It becomes a
 forward-gold supplier only after an independent theorem bounds active height,
 dominates `(PEMAS.15)` by a same-ledger charge, or converts the retained pulse
-into a CM Pack/Part/Field face failure.
+into a CM Part/Field Part/Field failure.
 
 ## 4. The fixed-radius speed limit is real but does not touch the Zeno case
 
@@ -324,7 +324,7 @@ The branch productions are role-separated as follows:
 Endpoint UI is not a square-payment theorem.  Every square-strength item in
 `(PEMAS.22)` is a real forward-gold theorem only if it produces the unweighted
 same-selected-family reserve.  Otherwise it is visibility, diagnostic readout,
-or CM witness-face routing after same-witness admission plus service
+or CM witness routing after same-witness admission plus service
 certification.
 
 ## Verdict

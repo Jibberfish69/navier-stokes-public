@@ -3,15 +3,15 @@ ns_viewer:
   theorem_id: forward-gold-post-stirling-apportionment-attack-reduction-20260621
   status: post-countertest-attack-reduction-installed-forward-gold-not-solved
   proof_role: forward_gold_post_stirling_apportionment_attack_reduction
-  logical_landing_node: same_carrier_anti_remote_tail_or_cm_face_consumption
-  edge_effect: "Consolidates the four-thread Stirling/binomial, five-family mixed-jet, shifted-gamma, and apportionment/allocation work after the actual countertests. Fixed beta gives only polynomial moment charge and cannot pay the heat-scale source-square reserve. Scale-dependent beta large enough to pay the pulse is just positive logarithmic radius spend. Raw shifted-gamma tail collapse still misses the selected finite carrier by the high-frequency packet countertest. Therefore the best remaining attack is not further beta tuning; it is a same-carrier anti-remote-tail theorem: active-height/source-square/CKN/no-waste/profile production on the actual selected carrier, or CM Pack/Part/Field consumption after same-witness admission."
+  logical_landing_node: same_carrier_anti_remote_tail_or_cm_part_field_question_consumption
+  edge_effect: "Consolidates the four-thread Stirling/binomial, five-family mixed-jet, shifted-gamma, and apportionment/allocation work after the actual countertests. Fixed beta gives only polynomial moment charge and cannot pay the heat-scale source-square reserve. Scale-dependent beta large enough to pay the pulse is just positive logarithmic radius spend. Raw shifted-gamma tail collapse still misses the selected finite carrier by the high-frequency packet countertest. Therefore the best remaining attack is not further beta tuning; it is a same-carrier anti-remote-tail theorem: active-height/source-square/CKN/no-waste/profile production on the actual selected carrier, or CM Part/Field consumption after same-witness admission."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-shifted-gamma-spend-reserve-attack-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-shifted-gamma-tail-to-selected-carrier-countertest-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-shifted-gamma-polynomial-moment-not-square-reserve-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-dependent-beta-is-radius-spend-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-three-clause-pass-or-cm-exit-assembly-20260620.md
-  downstream_consequence: "Treat Stirling/gamma/apportionment as a filter, not as the remaining proof engine. It filters proposed routes into fixed-beta polynomial moment failure, dynamic-beta radius spend, or same-carrier charging. New math should target the carrier mechanism directly: active height, source-square/CKN, strict no-waste, profile production, or CM face landing after admission."
+  downstream_consequence: "Treat Stirling/gamma/apportionment as a filter, not as the remaining proof engine. It filters proposed routes into fixed-beta polynomial moment failure, dynamic-beta radius spend, or same-carrier charging. New math should target the carrier mechanism directly: active height, source-square/CKN, strict no-waste, profile production, or CM Part/Field landing after admission."
 ---
 
 # MPP Forward-Gold Post-Stirling Apportionment Attack Reduction
@@ -210,7 +210,7 @@ admission, the three-clause assembly already gives:
 
 So the retained heat-scale pulse is not a fourth in-class branch after
 admission.  It is either paid by the forward-gold same-carrier theorem, or it
-is consumed by the CM Pack/Part/Field route.
+is consumed by the CM Part/Field route.
 
 ## Verdict
 
@@ -231,7 +231,7 @@ with the CM contrapositive route kept separate:
 \boxed{
 \text{if the retained pulse is admitted as the same terminal witness,}
 \quad
-\text{land it in Pack/Part/Field.}
+\text{land it in Part/Field.}
 }
 \tag{PSA.17}
 ```

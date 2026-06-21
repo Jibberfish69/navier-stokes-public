@@ -9,7 +9,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-pressure-flux-throttle-direct-test-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-six-door-subagent-supplier-merge-closeout-20260620.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-unweighted-terminal-critical-action-reserve-direct-exhaustion-20260620.md
-  downstream_consequence: "Forward-gold progress now requires a direct proof of UnweightedTerminalCriticalActionReserve.A or a genuinely new theorem that implies it on the actual selected positive carrier. Otherwise the retained heat-scale pulse is CM Pack/Part/Field witness-face material after same-witness admission."
+  downstream_consequence: "Forward-gold progress now requires a direct proof of UnweightedTerminalCriticalActionReserve.A or a genuinely new theorem that implies it on the actual selected positive carrier. Otherwise the retained heat-scale pulse is CM Part/Field witness material after same-witness admission."
 ---
 
 # MPP Forward Gold Participation Pressure-Flux Throttle Supplier Merge
@@ -378,6 +378,6 @@ of the named equivalent coercive languages on the actual selected positive
 carrier.
 
 Absent that production theorem, the retained heat-scale pulse must be routed
-through the CM Pack/Part/Field witness-face program after same-witness
+through the CM Part/Field witness program after same-witness
 admission.  That is a different proof role, not a forward-positive no-jump
 theorem.

@@ -82,7 +82,7 @@ Rate_E(r_0,t)
 \tag{PT.6}
 ```
 
-is finite on compact preterminal intervals.  In the retained CM packet setting,
+is finite on compact preterminal intervals.  In the retained CM participation-field record setting,
 the stronger terminal strip form is already isolated by
 `NoPersistentUnpaidPositiveRadiusAncestry.A`:
 
@@ -356,7 +356,7 @@ things:
 
 3. **Detached or unpaid endpoint residue.**  Then it is not a retained
    same-fluid positive-radius packet.  In the CM route it lands through
-   Pack/Part/Field rather than serving as an in-class hidden continuation.
+   Part/Field rather than serving as an in-class hidden continuation.
 
 Thus the participation objection is correct and useful.  It does not leave the
 gold route with a mysterious legal fixed window.  It forces the live problem to

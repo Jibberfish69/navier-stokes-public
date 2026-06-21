@@ -125,7 +125,7 @@ C_{\mathrm{op}}C_X^p |I_m|
 \]
 
 contradicting the atom.  Thus any terminal atom of a fixed finite-order selected
-main carrier lands in the CM witness-face split:
+main carrier lands in the CM witness split:
 
 \[
 \neg Pack_Q

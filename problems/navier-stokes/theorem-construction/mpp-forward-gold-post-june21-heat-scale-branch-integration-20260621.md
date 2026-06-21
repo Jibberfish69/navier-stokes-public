@@ -1,8 +1,8 @@
 ---
 theorem_id: forward-gold-post-june21-heat-scale-branch-integration-20260621
 status: integration-complete-forward-gold-not-proved
-logical_landing_node: unweighted_same_carrier_reserve_or_cm_face_consumption
-edge_effect: "Integrates the June 21 moving heat-scale cutoff and enstrophy/stretching source-square tests into the existing heat-scale time-face fork. The cutoff identity supplies exact shell accounting but keeps the heat-scale radius discount and has no sign-definite selected-carrier lower bound. The enstrophy identity supplies a signed first-moment stretching ledger but not square-strength control on the actual selected positive carrier. Together with the already audited selected critical-strain, normalized CKN, source-square, strict no-waste, and CM-consumption notes, these tests leave the same exact fork: prove an unweighted same-carrier terminal reserve, or admit the retained same-witness pulse and consume it through Pack/Part/Field under uniform service topology."
+logical_landing_node: unweighted_same_carrier_reserve_or_cm_part_field_question_consumption
+edge_effect: "Integrates the June 21 moving heat-scale cutoff and enstrophy/stretching source-square tests into the existing heat-scale time-face fork. The cutoff identity supplies exact shell accounting but keeps the heat-scale radius discount and has no sign-definite selected-carrier lower bound. The enstrophy identity supplies a signed first-moment stretching ledger but not square-strength control on the actual selected positive carrier. Together with the already audited selected critical-strain, normalized CKN, source-square, strict no-waste, and CM-consumption notes, these tests leave the same exact fork: prove an unweighted same-carrier terminal reserve, or admit the retained same-witness pulse and consume it through Part/Field under uniform service topology."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-moving-heat-scale-cutoff-nojump-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-enstrophy-stretching-source-square-production-direct-test-20260621.md
@@ -35,7 +35,7 @@ or
 ```math
 \boxed{
 \text{admit the retained same-witness terminal pulse and consume it through
-Pack/Part/Field.}
+Part/Field.}
 }
 \tag{PJI.2}
 ```
@@ -175,7 +175,7 @@ and
 The CM-facing side is already typed.  Failure of endpoint uniform integrability
 for the selected source curve gives a weak-* terminal atom.  After same-witness
 CM admission and uniform service-topology certification, that atom is consumed
-as a Part or Field face failure, with Pack-only disposal reserved for the
+as a Part or Field Part/Field failure, with Pack-only disposal reserved for the
 no-carrier/no-original-participation branch.
 
 ## Verdict
@@ -195,7 +195,7 @@ The current exact state is:
 ```math
 \boxed{
 \text{without that reserve, the retained same-witness pulse belongs to the
-CM Pack/Part/Field route after admission.}
+CM Part/Field route after admission.}
 }
 \tag{PJI.14}
 ```

@@ -40,7 +40,7 @@ c_0>0
 ```
 
 on the actual selected native carrier, unless the generation has already paid a
-legal exit, retained signed partner, finite donor endpoint, or CM face readout.
+legal exit, retained signed partner, finite donor endpoint, or CM Part/Field readout.
 
 If `(PGQ.1)` held for \(J\) retained generations, then
 

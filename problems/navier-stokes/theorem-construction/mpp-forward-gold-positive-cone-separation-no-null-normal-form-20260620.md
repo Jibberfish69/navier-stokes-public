@@ -201,4 +201,4 @@ The compactness part is a structural condition on the selected carrier family.
 The production burden is the uniform separation margin.  Without that margin,
 the retained terminal branch is a compact positive native carrier with zero
 usable signed readout, which is not a forward-gold proof and is only a CM
-Pack/Part/Field readout after same-witness admission.
+Part/Field readout after same-witness admission.

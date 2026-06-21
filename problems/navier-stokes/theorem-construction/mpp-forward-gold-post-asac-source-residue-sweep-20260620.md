@@ -256,7 +256,7 @@ or one of its equivalent stronger forms:
 The branch is exhausted as a shortcut hunt.  New forward-gold progress must
 prove `(PASR.7)` or `(PASR.17)` on the actual selected positive carrier.  If
 that is not proved, the retained zero-thickness terminal source atom is a
-CM-facing Pack/Part/Field witness candidate, not a forward-positive smoothness
+CM-facing Part/Field witness candidate, not a forward-positive smoothness
 contradiction.
 
 ## Verdict
@@ -274,4 +274,4 @@ for the selected native positive source carrier.}
 ```
 
 All tested alternatives either imply this object, require it, or leave the
-terminal source atom for the CM witness-face route.
+terminal source atom for the CM witness route.
