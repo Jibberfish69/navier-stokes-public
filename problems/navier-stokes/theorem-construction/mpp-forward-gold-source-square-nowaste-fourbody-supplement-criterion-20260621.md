@@ -234,38 +234,46 @@ The strict no-waste audits show that pressure-corrected physical energy,
 instantaneous cubic correctors, heat memory, and compact recurrence do not
 produce `(SSN.15)` unless they already carry this unweighted selected action.
 
-## 4. Pressure-adapted no-residue skew upgrade
+## 4. Participation-preserving no-residue full-cycle upgrade
 
 The sharper version of the no-waste route tries to avoid the source-square
 residue before it is created.
 
-Let
+The old one-channel selector
 
 ```math
-A_\sigma=S_\sigma P,
-\qquad
-W_\sigma=A_\sigma u,
+A_\sigma=S_\sigma P
 \tag{SSN.16a}
 ```
 
-where \(P\) is Leray projection and \(S_\sigma\) is the retained same-carrier
-packet selector.  The selected nonlinear interaction is
+is not the selected object.  The retained object is the full Hodge-Stokes
+packet
 
 ```math
-\mathcal M_\sigma
+\mathcal K_{\sigma,P}
 =
-\langle A_\sigma((u\cdot\nabla)u),W_\sigma\rangle.
+\Big(
+S_\sigma^{tr}((u\cdot\nabla)u),\;
+S_\sigma^p\nabla p,\;
+\nu S_\sigma^\nu\Delta u,\;
+S_\sigma^t\partial_su,\;
+S_\sigma^{div}\nabla\cdot u,\;
+S_\sigma^P[\chi_P,\mathbb P_{\rm Leray}](u\cdot\nabla u),\;
+\mathcal B_{\sigma,P}^{cut},\;
+\mathcal S_{\sigma,P}^{sgn}
+\Big).
 \tag{SSN.16b}
 ```
 
-Insert and subtract \(u\cdot\nabla W_\sigma\):
+The transport component still has the exact skew decomposition.  With
+\(A_\sigma^{tr}=S_\sigma^{tr}\) and \(W_\sigma=A_\sigma^{tr}u\),
 
 ```math
-\mathcal M_\sigma
+\mathcal M_\sigma^{tr}
 =
 \langle u\cdot\nabla W_\sigma,W_\sigma\rangle
 +
-\langle[A_\sigma,u\cdot\nabla]u,W_\sigma\rangle.
+\langle[A_\sigma^{tr},u\cdot\nabla]u,W_\sigma\rangle.
 \tag{SSN.16c}
 ```
 
@@ -277,20 +285,30 @@ localized same-carrier pairing:
 \tag{SSN.16d}
 ```
 
-Thus the whole selected interaction is the commutator
+Thus the transport selected interaction is the transport commutator
 
 ```math
-\mathcal C_\sigma
+\mathcal C_\sigma^{tr}
 =
-\langle[A_\sigma,u\cdot\nabla]u,W_\sigma\rangle.
+\langle[A_\sigma^{tr},u\cdot\nabla]u,W_\sigma\rangle.
 \tag{SSN.16e}
 ```
 
-The no-residue theorem would prove
+The corrected no-residue theorem is full-cycle.  It would prove
 
 ```math
 \boxed{
-[\mathcal C_\sigma]_{\mathcal S,+}
+\left[
+\mathcal C_\sigma^{tr}
++\mathcal C_\sigma^p
++\mathcal C_\sigma^\nu
++\mathcal C_\sigma^{time}
++\mathcal C_\sigma^{div}
++\mathcal C_\sigma^{cut}
++\mathcal C_\sigma^{scale}
++\mathcal C_\sigma^{sgn}
++\mathcal C_\sigma^{tail}
+\right]_{\mathcal S,+}
 \le
 \varepsilon\nu D_\sigma
 -\partial_\sigma\Phi_\sigma
@@ -324,15 +342,17 @@ C_\varepsilon\Theta_\sigma^2E_\sigma.
 
 because `(SSN.16f)` has no \(C_\varepsilon\Theta_\sigma^2E_\sigma\) residual.
 
-If the native selected carrier is identified with this positive commutator up
-to summable legal residue, integrating `(SSN.16f)` gives the same unweighted
-reserve as `(SSN.16)`, after absorbing \(\varepsilon\nu D_\sigma\) into the
-four-body loss and adding \(\Phi_\sigma\) to the storage.
+If the native selected carrier is identified with this positive full-packet
+carrier up to summable legal residue, integrating `(SSN.16f)` gives the same
+unweighted reserve as `(SSN.16)`, after absorbing \(\varepsilon\nu D_\sigma\)
+into the four-body loss and adding \(\Phi_\sigma\) to the storage.
 
-This pressure-adapted route is now recorded in
+This route is now recorded in
 `mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md`.
 It is a criterion.  Its unproved production input is exactly the no-residue
-commutator payment `(SSN.16f)` on the terminal selected carrier.
+full-cycle payment `(SSN.16f)` on the terminal selected carrier, with the
+Hodge-Stokes packet replacement recorded in
+`mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md`.
 
 ## 5. Product split for the native trilinear carrier
 
