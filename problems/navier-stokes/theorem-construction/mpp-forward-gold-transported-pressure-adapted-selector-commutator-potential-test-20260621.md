@@ -71,21 +71,21 @@ The mixed interaction is
 Use skew-adjointness:
 
 ```math
-\langle L u,G_\sigma u\rangle
+\langle L u,G_\sigma^{tr} u\rangle
 =
--\langle u,L(G_\sigma u)\rangle
+-\langle u,L(G_\sigma^{tr} u)\rangle
 =
--\langle u,[L,G_\sigma]u\rangle
--\langle u,G_\sigma L u\rangle.
+-\langle u,[L,G_\sigma^{tr}]u\rangle
+-\langle u,G_\sigma^{tr} L u\rangle.
 \tag{TPC.5}
 ```
 
-Because \(G_\sigma\) is self-adjoint,
+Because \(G_\sigma^{tr}\) is self-adjoint,
 
 ```math
-\langle u,G_\sigma L u\rangle
+\langle u,G_\sigma^{tr} L u\rangle
 =
-\langle L u,G_\sigma u\rangle.
+\langle L u,G_\sigma^{tr} u\rangle.
 \tag{TPC.6}
 ```
 
@@ -95,7 +95,7 @@ Therefore
 \boxed{
 \mathcal M_\sigma
 =
--{1\over2}\langle [L,G_\sigma]u,u\rangle.
+-{1\over2}\langle [L,G_\sigma^{tr}]u,u\rangle.
 }
 \tag{TPC.7}
 ```
@@ -104,37 +104,37 @@ Equivalently,
 
 ```math
 \boxed{
-\langle[A_\sigma,L]u,A_\sigma u\rangle
+\langle[A_\sigma^{tr},L]u,A_\sigma^{tr}u\rangle
 =
--{1\over2}\langle [L,G_\sigma]u,u\rangle.
+-{1\over2}\langle [L,G_\sigma^{tr}]u,u\rangle.
 }
 \tag{TPC.8}
 ```
 
 This is the key structural point.  The selected nonlinear source is not an
-arbitrary cubic term after the pressure-adapted skew part is removed.  It is
-the transport commutator of the selector metric \(G_\sigma\).  At the symbol
+arbitrary cubic term after the transport skew part is removed.  It is the
+transport commutator of the selector metric \(G_\sigma^{tr}\).  At the symbol
 level this is the cotangent material derivative.
 
 ## 2. Why a fixed selector gives the square-source residue
 
-For a fixed dyadic or packet selector, the metric \(G_\sigma\) does not move
-with the fluid deformation.  Then \([L,G_\sigma]\) is the commutator between
-transport and the fixed scale/frequency cutoff.
+For a fixed dyadic or packet selector, the metric \(G_\sigma^{tr}\) does not
+move with the fluid deformation.  Then \([L,G_\sigma^{tr}]\) is the commutator
+between transport and the fixed scale/frequency cutoff.
 
-At principal-symbol level, if \(g_\sigma(x,\xi)\) is the symbol of
-\(G_\sigma\), incompressible transport produces the cotangent derivative
+At principal-symbol level, if \(g_\sigma^{tr}(x,\xi)\) is the symbol of
+\(G_\sigma^{tr}\), incompressible transport produces the cotangent derivative
 
 ```math
-(\partial_t+u\cdot\nabla_x-(\nabla u)^\top\xi\cdot\nabla_\xi)g_\sigma.
+(\partial_t+u\cdot\nabla_x-(\nabla u)^\top\xi\cdot\nabla_\xi)g_\sigma^{tr}.
 \tag{TPC.9}
 ```
 
-For a fixed radial frequency cutoff \(g_\sigma(|\xi|)\), the frequency part is
-schematically
+For a fixed radial frequency cutoff \(g_\sigma^{tr}(|\xi|)\), the frequency
+part is schematically
 
 ```math
--((\nabla u)^\top\xi)\cdot\nabla_\xi g_\sigma.
+-((\nabla u)^\top\xi)\cdot\nabla_\xi g_\sigma^{tr}.
 \tag{TPC.10}
 ```
 
@@ -156,12 +156,13 @@ while the incompressible flow deforms the selected scale/frequency geometry.
 
 ## 3. Transported selector condition
 
-The no-residue version asks for \(G_\sigma\) to be transported by the same
-pressure-adapted material/cotangent flow:
+The no-residue version asks for \(G_\sigma^{tr}\) to be transported by the
+same material/cotangent flow while the other Hodge-Stokes channels remain
+visible:
 
 ```math
 \boxed{
-(\partial_t+u\cdot\nabla_x-(\nabla u)^\top\xi\cdot\nabla_\xi)g_\sigma
+(\partial_t+u\cdot\nabla_x-(\nabla u)^\top\xi\cdot\nabla_\xi)g_\sigma^{tr}
 =
 \partial_\sigma k_\sigma
 +
@@ -174,12 +175,13 @@ Here \(\partial_\sigma k_\sigma\) is the scale-capacity motion that will become
 \(-\partial_\sigma\Phi_\sigma\), and \(r_\sigma\) is a lower-order/tail
 remainder.
 
-At operator level, `(TPC.12)` is the desired metric-transport identity for
-the commutator:
+At operator level, `(TPC.12)` is the transport part of the desired
+metric-transport identity:
 
 ```math
 \boxed{
-[L,G_\sigma]
+\partial_sG_\sigma^{tr}
++[L,G_\sigma^{tr}]
 =
 \partial_\sigma K_\sigma
 +
@@ -220,7 +222,8 @@ shape
 \tag{TPC.16}
 ```
 
-This is the geometric meaning of pressure-adapted no-residue absorption.
+This is the geometric meaning of the transport-channel part of no-residue
+absorption.
 
 ## 4. Viscosity and pressure placement
 
