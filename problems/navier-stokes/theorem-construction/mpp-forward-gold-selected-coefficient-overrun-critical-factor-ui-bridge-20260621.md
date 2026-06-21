@@ -81,18 +81,29 @@ where
 \]
 
 After rescaling the selected packet to a normalized cylinder, write the
-corresponding fields as
+corresponding normalized fields as
 
 \[
 W_j(s,y),
 \qquad
 \Sigma_j^+(s,y)
 =
-\alpha_j^+(T+r_j^2s,x_j+r_jy)
+r_j^2\alpha_j^+(T+r_j^2s,x_j+r_jy)
 \quad
 \text{on the selected overrun layer}.
 \tag{OCF.4}
 \]
+
+Thus the physical overrun condition \(\alpha_j^+>K\nu r_j^{-2}\) becomes
+
+\[
+\Sigma_j^+>K\nu
+\tag{OCF.4a}
+\]
+
+in normalized variables. In the normalized carrier currency used by the
+endpoint UI notes, fixed route constants aside, the overrun product is the
+same-layer product \(\Sigma_j^+|W_j|^2\).
 
 Suppressing fixed normalization constants, the endpoint question is whether
 
@@ -261,7 +272,7 @@ Plain critical visibility does not pay it:
 \boxed{
 \sup_j\|\Sigma_j^+\|_{L^{5/2}}
 +\sup_j\|W_j\|_{L^{10/3}}<\infty
-\quad\centernot\Longrightarrow\quad
+\quad\not\Longrightarrow\quad
 \text{endpoint UI of }a_{j,K}^{over}.
 }
 \tag{OCF.19}
