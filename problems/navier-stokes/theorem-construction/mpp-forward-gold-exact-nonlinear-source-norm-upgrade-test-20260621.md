@@ -234,9 +234,9 @@ The factor \(r^{-13/20}\) is not controlled by Hölder against an
 The endpoint \(k=0\) Hölder calculation therefore gives no finite bound:
 
 \[
-\int_0^\theta r^{-4/5}\|N(-r)\|_{W^{-1,5/3}}\,dr
+\int_0^\theta r^{-13/20}\|N(-r)\|_{W^{-1,5/3}}\,dr
 \le
-\left(\int_0^\theta r^{-2}\,dr\right)^{2/5}
+\left(\int_0^\theta r^{-13/8}\,dr\right)^{2/5}
 \|N\|_{L_s^{5/3}W_y^{-1,5/3}},
 \tag{NSU.18}
 \]
