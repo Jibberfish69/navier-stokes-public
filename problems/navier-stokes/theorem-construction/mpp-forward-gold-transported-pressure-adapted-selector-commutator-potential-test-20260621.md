@@ -175,13 +175,12 @@ Here \(\partial_\sigma k_\sigma\) is the scale-capacity motion that will become
 \(-\partial_\sigma\Phi_\sigma\), and \(r_\sigma\) is a lower-order/tail
 remainder.
 
-At operator level, `(TPC.12)` is the transport part of the desired
-metric-transport identity:
+At the instantaneous operator level, `(TPC.12)` gives the direct transport
+commutator identity:
 
 ```math
 \boxed{
-\partial_sG_\sigma^{tr}
-+[L,G_\sigma^{tr}]
+[L,G_\sigma^{tr}]
 =
 \partial_\sigma K_\sigma
 +
