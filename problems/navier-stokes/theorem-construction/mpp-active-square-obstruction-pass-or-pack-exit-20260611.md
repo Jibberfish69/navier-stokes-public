@@ -4,7 +4,7 @@ ns_viewer:
   status: local-forward-positive-obstruction-closed-as-cm-pass-or-pack-exit
   proof_role: forward_positive_lpas_obstruction_to_cm_pack_exit_bridge
   logical_landing_node: cone_payment_static_hiding_and_flux_maximization
-  edge_effect: "Closes the reduced cone/tower active-square problem as a pass-or-exit theorem after correcting the raw LPAS target. Raw DirectLPAS is false by the heat-shear counterexample, so the forward pass branch is residual/source-balanced LPAS/CTS/FCTS. If that residual theorem fails after legal/payment ledgers are removed, the selected heat-scale active-square pulse is exactly a source-balanced terminal packet. Positive-radius retained ancestry is consumed by NoPersistentUnpaidPositiveRadiusAncestry.A; terminal zero-radius ancestry is first audited for pointwise Part status and becomes true not Pack_Q only when that record is absent. Thus the obstruction is not an in-class hidden continuation branch."
+  edge_effect: "Closes the reduced cone/tower active-square problem as a pass-or-exit theorem after correcting the raw LPAS target. Raw DirectLPAS is false by the heat-shear counterexample, so the forward pass branch is residual/source-balanced LPAS/CTS/FCTS. If that residual theorem fails after legal/payment ledgers are removed, the selected heat-scale active-square pulse is exactly a source-balanced terminal packet. Positive-radius retained ancestry is consumed by NoPersistentUnpaidPositiveRadiusAncestry.A; terminal zero-radius ancestry is first audited for original participation law status and becomes true not Pack_Q only when that record is absent. Thus the obstruction is not an in-class hidden continuation branch."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-positive-cone-tower-active-square-exhaustion-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-residual-refill-ledger-and-spine-consolidation-20260611.md
@@ -233,7 +233,7 @@ More explicitly:
 3. Positive-radius retained ancestry is impossible without payment, incoming
    flux, legal exit, or a finite CM face exit.
 4. The terminal zero-radius residue is typed before Pack is spent: it is
-   Part-first when the same original-NS pointwise participation record remains,
+   Part-side when the same original-NS participation record remains,
    and true `not Pack_Q` only when that record/carrier/readout is absent.
 
 Thus the residual active-square obstruction is not an in-class hidden

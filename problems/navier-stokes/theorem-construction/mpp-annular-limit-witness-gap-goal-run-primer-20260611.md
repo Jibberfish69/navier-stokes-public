@@ -4,7 +4,7 @@ ns_viewer:
   status: corrected-live-goal-run-primer-open
   proof_role: gold-forward-positive-and-silver-cm-annular-limit-reopen
   logical_landing_node: terminal_cone_annular_limit_witness
-  edge_effect: "Reopens the overclaimed terminal-radius closure for the resumed goal-run. The zero-scale point-object is Part-first when it still carries the same original-NS pointwise participation record, and true not Pack_Q only when that record is absent; Thomas's objection is that the singularity is witnessed by the surrounding positive-radius fields as they approach the tip. The next run must either prove forward-positive annular/cone control in residual scale-critical currency, or admit the annular limiting behavior as the same-solution terminal witness and classify the admitted nonsmooth branch by Part or Field. A bare zero-radius Pack landing does not settle the positive-radius annular witness, and Pack is not the CM argument after annular admission."
+  edge_effect: "Reopens the overclaimed terminal-radius closure for the resumed goal-run. The zero-scale point-object lands Part-side when it still carries the same original-NS participation record, and true not Pack_Q only when that record is absent; Thomas's objection is that the singularity is witnessed by the surrounding positive-radius fields as they approach the tip. The next run must either prove forward-positive annular/cone control in residual scale-critical currency, or admit the annular limiting behavior as the same-solution terminal witness and classify the admitted nonsmooth branch by Part or Field. A bare zero-radius Pack landing does not settle the positive-radius annular witness, and Pack is not the CM argument after annular admission."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-residual-refill-ledger-and-spine-consolidation-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-active-square-obstruction-pass-or-pack-exit-20260611.md
@@ -28,10 +28,10 @@ The corrected Pack-before-Part grammar says
 
 ```math
 r_*=0
-\quad\hbox{is Part-first when the same original-NS pointwise participation record remains,}
+\quad\hbox{lands Part-side when the same original-NS participation record remains,}
 ```
 
-and becomes true `not Pack_Q` only when that pointwise participation record is
+and becomes true `not Pack_Q` only when that original participation record is
 absent. That point-object split still does not by itself handle Thomas's
 objection:
 
@@ -81,7 +81,7 @@ terminal residual source-balanced active pulse.
 The active-square pass-or-Pack note now reads the zero-radius endpoint of that
 pulse through the Pack-before-Part audit:
 
-same original-NS pointwise participation first, true `not Pack_Q` only when
+same original-NS participation first, true `not Pack_Q` only when
 that record is absent.
 
 That sorts the endpoint. The missing payment is the limiting positive-radius

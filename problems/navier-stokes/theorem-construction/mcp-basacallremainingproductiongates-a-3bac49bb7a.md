@@ -120,7 +120,7 @@ The localized Leray identity recombines convection and pressure before terminal 
 All named remaining gates require new theorem content.  The installed surfaces complete the branch only diagnostically:
 
 ```math
-B_ASAC^{closed}\leadsto \text{zero-radius source-residue support: Part-first when the same original-NS record remains, true }\neg Pack_Q\text{ only when that record is absent.}
+B_ASAC^{closed}\leadsto \text{zero-radius source-residue support: Part-side when the same original-NS record remains, true }\neg Pack_Q\text{ only when that record is absent.}
 ```
 
 This is the current completed state of the route.  Further progress requires one genuinely new production theorem from the gates above.

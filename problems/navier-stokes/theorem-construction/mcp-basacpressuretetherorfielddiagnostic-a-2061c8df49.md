@@ -90,7 +90,7 @@ The time-face CM route is completed diagnostically:
 
 ```math
 BASACClosedAtomCMPackExitSupport.A:
-B_{ASAC}^{closed}\Rightarrow \text{zero-radius source-residue support: Part-first when the same original-NS record remains, true }\neg Pack_Q\text{ only when that record is absent.}
+B_{ASAC}^{closed}\Rightarrow \text{zero-radius source-residue support: Part-side when the same original-NS record remains, true }\neg Pack_Q\text{ only when that record is absent.}
 ```
 
 Forward source-wall theorem closure still requires a new production theorem.  The diagnostic completion records the survivor cleanly for CM-exit discipline.

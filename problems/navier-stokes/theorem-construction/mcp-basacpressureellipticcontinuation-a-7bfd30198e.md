@@ -13,7 +13,7 @@ B_{ASAC}^{closed},
 ```
 
 already identified as a selected zero-radius terminal Zeno residue, hence
-Part-first when the same original-NS pointwise participation record remains and
+Part-side when the same original-NS participation record remains and
 true terminal `not Pack_Q` only when that record is absent, rather than a
 retained `Field_{N,r,Q}` packet.
 
