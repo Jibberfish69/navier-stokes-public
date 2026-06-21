@@ -33,7 +33,7 @@ proof_role:
     certification still requires the coupled lower-shell/upper-tail gain and
     the absorption of the matrix shadow defect.
   silver_layer: >-
-    The edited slice is support material. It makes no Pack, Part, or Field face
+    The edited slice is support material. It makes no Part or Field face
     landing and makes no silver closure claim.
 verification:
   build_command: >-

@@ -30,7 +30,7 @@ proof_role:
     synchronization theorem sits. Gold certification still requires the PSJ
     projector-recovery theorem and the downstream chain to be supplied on the page.
   silver_layer: >-
-    The edited slice is support material. It makes no Pack, Part, or Field face
+    The edited slice is support material. It makes no Part or Field face
     landing and makes no silver closure claim.
 verification:
   build_command: >-

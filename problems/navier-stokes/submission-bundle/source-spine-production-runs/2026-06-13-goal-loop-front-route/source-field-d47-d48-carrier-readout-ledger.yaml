@@ -29,7 +29,7 @@ proof_role:
     comparison as forward-positive support. It does not certify the gold route.
   silver_layer: >-
     The edited slice is readout/support material. It does not claim a Pack,
-    Part, or Field face landing, and it does not certify silver closure.
+    Part, or Field Part/Field landing, and it does not certify silver closure.
 verification:
   build_command: >-
     latexmk -pdf -interaction=nonstopmode -halt-on-error
@@ -64,4 +64,4 @@ remaining_open_after_batch:
   - >-
     The annular endpoint witness remains open until gold residual-load control
     is proved or the silver branch lands the selected same-solution Pack, Part,
-    or Field first face on the page.
+    or Field first Part/Field on the page.

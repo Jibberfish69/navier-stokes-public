@@ -34,8 +34,8 @@ proof_role:
     gold route.
   silver_layer: >-
     The edited slice states that a tower obstruction can enter the silver CM
-    layer after same-solution terminal selection and a Pack, Part, Field, or
-    readout test. It does not claim a silver first-face landing for the annular
+    layer after same-solution terminal selection and a Part and Field, or
+    readout test. It does not claim a silver first-Part/Field landing for the annular
     endpoint witness.
 verification:
   build_command: >-
@@ -72,4 +72,4 @@ remaining_open_after_batch:
   - >-
     The annular endpoint witness remains open until gold residual-load control
     is proved or the silver branch lands the selected same-solution Pack, Part,
-    or Field first face on the page.
+    or Field first Part/Field on the page.

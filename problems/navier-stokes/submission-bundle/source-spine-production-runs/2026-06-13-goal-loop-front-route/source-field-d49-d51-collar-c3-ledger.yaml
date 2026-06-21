@@ -33,7 +33,7 @@ proof_role:
     discharge remain open.
   silver_layer: >-
     The edited slice is support and handoff material. It records mathematical
-    debt in a form the PDF can use later; it makes no Pack, Part, or Field face
+    debt in a form the PDF can use later; it makes no Part or Field face
     landing and makes no silver closure claim.
 verification:
   build_command: >-
@@ -68,4 +68,4 @@ remaining_open_after_batch:
   - >-
     The annular endpoint witness remains open until gold residual-load control is
     proved or the silver branch lands the selected same-solution Pack, Part, or
-    Field first face on the page.
+    Field first Part/Field on the page.

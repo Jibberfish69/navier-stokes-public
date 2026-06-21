@@ -34,7 +34,7 @@ proof_role:
     still requires the commutator-tail theorem for the summed shell exchange and
     the Euclidean pullback theorem for the curvature bridge.
   silver_layer: >-
-    The edited slice is support material. It makes no Pack, Part, or Field face
+    The edited slice is support material. It makes no Part or Field face
     landing and makes no silver closure claim.
 verification:
   build_command: >-

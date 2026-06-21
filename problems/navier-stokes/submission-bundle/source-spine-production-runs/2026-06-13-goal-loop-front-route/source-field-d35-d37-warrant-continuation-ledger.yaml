@@ -30,8 +30,8 @@ proof_role:
     supplier work.  It does not certify the gold route.
   silver_layer: >-
     The edited slice states the silver entry boundary for scale-barrier failure:
-    same-solution terminal selection first, then Pack, Part, Field, or readout.
-    It does not claim a silver first-face landing for the annular endpoint
+    same-solution terminal selection first, then Part and Field, or readout.
+    It does not claim a silver first-Part/Field landing for the annular endpoint
     witness.
 verification:
   build_command: >-
@@ -67,4 +67,4 @@ remaining_open_after_batch:
   - >-
     The annular endpoint witness remains open until gold residual-load control
     is proved or the silver branch lands the selected same-solution Pack, Part,
-    or Field first face on the page.
+    or Field first Part/Field on the page.

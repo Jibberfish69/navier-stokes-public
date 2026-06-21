@@ -34,7 +34,7 @@ proof_role:
     scale-barrier tail input. It stops short of gold certification because the
     scale-barrier tail estimate remains upstream.
   silver_layer: >-
-    The edited slice is support material. It makes no Pack, Part, or Field face
+    The edited slice is support material. It makes no Part or Field face
     landing and makes no silver closure claim.
 verification:
   build_command: >-
@@ -69,4 +69,4 @@ remaining_open_after_batch:
   - >-
     The annular endpoint witness remains open until gold residual-load control is
     proved or the silver branch lands the selected same-solution Pack, Part, or
-    Field first face on the page.
+    Field first Part/Field on the page.
