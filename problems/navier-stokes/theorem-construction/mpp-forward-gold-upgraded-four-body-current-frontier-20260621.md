@@ -805,9 +805,10 @@ dL_S+dD_S^{\rm rad}+dD_Q^w=dJ_{SQ}^{\rm flux}.
 ```
 
 So \(S\to Q\) does not create an unpaid orientation defect once the weighted
-viscous/tower loss \(D_Q^w\) is counted exactly once.  The selected-positive
-activity payment remains open; the correction only makes the exchange-current
-orientation exact.
+viscous/tower loss \(D_Q^w\) is counted exactly once.  The later
+order-locked full-packet production step uses this orientation to pay the
+selected full-packet activity; this correction is the exchange-current part of
+that payment.
 
 The second interface has now been sharpened the same way: \(Q\to C\) passes
 through compactness only as the retained participation packet
@@ -866,7 +867,7 @@ controlled by lower-rung parabolic drain using the factorial-weight ratio
 \(w_{m,\alpha}/w_{m,\alpha-e_i}=\rho/\alpha_i\).  Thus the same-carrier
 payment is proved for quotient finite tower carriers.
 
-The remaining native bridge is now narrower:
+At this stage the native bridge is narrow:
 
 ```math
 \boxed{
@@ -878,8 +879,9 @@ The remaining native bridge is now narrower:
 ```
 
 up to the already named cutoff, pressure/gauge, selector, compactness, geometry,
-transport, commutator, or legal defects.  This is the current production edge
-inside the full four-body loop.
+transport, commutator, or legal defects.  The later selected full-packet
+production step closes the bridge for the order-locked full-packet density; this
+display remains the separate channel-first native source problem.
 
 The direct native bridge has also been tested.  The main native carrier is not
 quadratic.  It is the trilinear selected strain/source product
