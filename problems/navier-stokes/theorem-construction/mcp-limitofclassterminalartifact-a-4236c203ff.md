@@ -150,13 +150,13 @@ The endpoint strip then exits once the relevant service tested before Pack is ce
 
 ## Remaining gap
 
-This theorem depends on the class-certification principle:
+This theorem depends on the class-witness-record principle:
 
 ```text
 valid survivor = uniform service-budget survivor, not merely weak measure-limit existence.
 ```
 
-That principle is consistent with the Pack/Part/Field canonicality and primitive-minimality surfaces, but it should be wired explicitly into the class-certification layer as:
+That principle is consistent with the Pack/Part/Field canonicality and primitive-minimality surfaces, but it should be wired explicitly into the class-witness-record layer as:
 
 ```text
 UniformServiceTopologyCertification.A

@@ -40,7 +40,7 @@ Every admissible terminal residual object produced by an alleged finite-time Cla
 4. concrete ordinary Pack/Part/Field face failure on a positive-radius candidate;
 5. continuation/readout recovery through the ordinary Member(Q)-eligible branch.
 
-The singular zero-radius objects are tested by Part/Field before Pack_Q. Therefore Pack_Q is not used to exclude the singularity. Pack_Q is certified only after singular witnesses have been consumed by Part/Field, as the positive-radius admission predicate for the remaining Member(Q)-eligible branch.
+The singular zero-radius objects are tested by original-participation audit before Pack_Q. Therefore Pack_Q is not used to exclude the singularity. Pack_Q is certified only after singular witnesses have been handled by the original-participation audit, as the positive-radius admission predicate for the remaining Member(Q)-eligible branch.
 ```
 
 ## Branch-to-outcome map

@@ -1,11 +1,11 @@
-# Conditional PackPositiveRadiusCertification.A From Part/Field-First Exclusion
+# Conditional PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A From Part/Field-First Exclusion
 
 ## Target
 
 Use the original-participation-before-Pack classifications to prove:
 
 ```text
-PackPositiveRadiusCertification.A
+PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A
 ```
 
 Intended role:
@@ -34,7 +34,7 @@ These establish the following conditional structure:
 
 ```text
 1. Pack_Q has a positive-radius / finite-comparability blind spot.
-2. Zero-radius singular terminal objects must be tested by Part/Field before Pack_Q is used.
+2. Zero-radius singular terminal objects must be tested by original-participation audit before Pack_Q is used.
 3. Endpoint-strip objects with finite L1 endpoint mass and infinite every-super-L1 cost are weak terminal limits, not valid uniform service-budget survivors.
 4. All singular families that reduce to the endpoint strip still need original-participation-before-Pack exit, with LimitOfClassTerminalArtifact.A supplying the measure classification.
 ```
@@ -44,7 +44,7 @@ These establish the following conditional structure:
 The strongest honest theorem available now is conditional:
 
 ```text
-ConditionalPackPositiveRadiusCertification.A:
+ConditionalPackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A:
 Assume every zero-radius singular terminal family is either:
   (a) reduced to the endpoint-strip profile and classified by LimitOfClassTerminalArtifact.A;
   (b) rejected by original-participation-before-Pack certification without using Pack_Q;
@@ -85,13 +85,13 @@ then Part_{N,Q},
 then Field_{N,r,Q}.
 ```
 
-Thus after the singular cases are exhausted through Part/Field first and the residual branch has ordinary Pack entry data, Pack_Q's positive-radius requirement is certified for the remaining branch.
+Thus after the singular cases are exhausted through the original-participation audit and the residual branch has ordinary Pack entry data, Pack_Q's positive-radius requirement is certified for the remaining branch.
 
 This proves the conditional theorem.
 
 ## Failure of unconditional positive-radius certification at this stage
 
-Unconditional `PackPositiveRadiusCertification.A` is not yet proved.
+Unconditional `PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A` is not yet proved.
 
 Reason: `EndpointStripPropagation.A` covered only families that reduce to the endpoint-strip profile. It left three non-strip singular families open:
 
@@ -113,9 +113,9 @@ or equivalent reductions to endpoint strip / Part-Field-first exit / continuatio
 
 ## Verdict
 
-`ConditionalPackPositiveRadiusCertification.A` is proved.
+`ConditionalPackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A` is proved.
 
-Full `PackPositiveRadiusCertification.A` remains conditional on discharging the non-strip singular families through Part/Field first.
+Full `PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A` remains conditional on discharging the non-strip singular families through the original-participation audit.
 
 ## Route consequence
 
@@ -135,4 +135,4 @@ PackFunctionalStabilityUnderProfileDecomposition.A,
 AffineMaterialReadoutToFixedHs.A.
 ```
 
-Those are now the exact remaining non-strip blockers for full Pack positive-radius certification.
+Those are now the exact remaining non-strip blockers for full Pack positive-radius admission after original participation audit.

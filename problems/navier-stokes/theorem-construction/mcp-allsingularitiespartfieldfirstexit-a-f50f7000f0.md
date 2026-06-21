@@ -1,6 +1,6 @@
 # AllSingularitiesOriginalParticipationAuditExit.A
 
-Status: supersedes the generated `AllSingularitiesPartFieldFirstExit.A`
+Status: supersedes the generated `AllSingularitiesOriginalParticipationAuditExit.A`
 wording.
 
 The old theorem name encoded the wrong notation.  Singular branches are not

@@ -82,7 +82,7 @@ The local route is now:
 
 ```text
 original-participation-before-Pack singularity exclusion;
-Pack positive-radius certification;
+Pack positive-radius admission after original participation audit;
 exhaustive contrapositive finite-breakdown exclusion patch;
 referee inventory patch supplied.
 ```

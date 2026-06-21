@@ -106,7 +106,7 @@ The missing step is the first implication. Current installed notes do not prove 
 
 `NonStripPackIllegalFamilyDischarge.A` is not proved.
 
-The corrected route has classified the endpoint-strip branch as a terminal artifact, but full Pack positive-radius certification still requires at least one of the following exact moves:
+The corrected route has classified the endpoint-strip branch as a terminal artifact, but full Pack positive-radius admission after original participation audit still requires at least one of the following exact moves:
 
 ```text
 AffineMaterialReadoutToFixedHs.A
@@ -118,12 +118,12 @@ or corresponding `Field_{N,r,Q}`/Part failure theorems for those families.
 
 ## Route consequence
 
-The current route should not claim full Pack positive-radius certification closure yet.
+The current route should not claim full Pack positive-radius admission after original participation audit closure yet.
 
 It should report:
 
 ```text
 endpoint-strip witnesses classified as terminal artifacts requiring original-participation-before-Pack exit;
-conditional Pack positive-radius certification proved;
+conditional Pack positive-radius admission after original participation audit proved;
 non-strip singular witnesses remain as exact blockers.
 ```

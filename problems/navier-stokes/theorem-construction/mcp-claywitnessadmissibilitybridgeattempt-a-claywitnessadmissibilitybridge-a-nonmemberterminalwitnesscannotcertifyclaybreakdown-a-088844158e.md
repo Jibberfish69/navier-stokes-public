@@ -145,7 +145,7 @@ Closed locally:
 
 ```text
 original-participation-before-Pack singularity classification;
-Pack positive-radius certification;
+Pack positive-radius admission after original participation audit;
 local CM face classification.
 ```
 

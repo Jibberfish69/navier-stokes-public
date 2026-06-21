@@ -29,7 +29,7 @@ LimitOfClassTerminalArtifact.A
 inside the corrected:
 
 ```text
-OriginalParticipationAuditSingularityExclusion.A / PackPositiveRadiusCertification.A
+OriginalParticipationAuditSingularityExclusion.A / PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A
 ```
 
 without turning the measure classification into a stronger `Part_{N,Q}` / `Field_{N,r,Q}`
@@ -162,7 +162,7 @@ This proves that the endpoint strip is not a hidden finite-time survivor inside
 the preterminal source history. Under `UniformServiceTopologyCertification.A`,
 it is not a valid survivor through any claimed service tested before Pack whose uniform
 budget would force a terminal-window modulus. The required proof still runs
-through Part/Field first: the endpoint artifact must fail participation or
+through the original-participation audit: the endpoint artifact must fail participation or
 one-field coherence without using Pack_Q.
 
 It does not by itself prove:
@@ -170,7 +170,7 @@ It does not by itself prove:
 ```text
 `Part_{N,Q}` fails,
 `Field_{N,r,Q}` fails,
-or `PackPositiveRadiusCertification.A`.
+or `PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A`.
 ```
 
 Those require the certification bridge plus the service-specific analytic
