@@ -79,7 +79,7 @@ chunk:
       Proof. Statement (A1a.5) quantifies only over the Euclidean readout
       \(\mathcal C\) and the admissible datum class \(\mathcal K_{\mathrm{Euc}}\)
       fixed by the earlier splice. It does not assert that the Euclidean surface is
-      the correct export of the CM packet. It also does not assert evolution, an exact
+      the correct export of the CM participation-field. It also does not assert evolution, an exact
       projected nonlinear identity, or a global carrier norm bound. Those burdens
       belong to the earlier splice and to (A1b)--(A1c).
 
@@ -609,7 +609,7 @@ chunk:
     Proof. Statement (A1a.5) quantifies only over the Euclidean readout
     \(\mathcal C\) and the admissible datum class \(\mathcal K_{\mathrm{Euc}}\)
     fixed by the earlier splice. It does not assert that the Euclidean surface is
-    the correct export of the CM packet. It also does not assert evolution, an exact
+    the correct export of the CM participation-field. It also does not assert evolution, an exact
     projected nonlinear identity, or a global carrier norm bound. Those burdens
     belong to the earlier splice and to (A1b)--(A1c).
 
@@ -999,7 +999,7 @@ chunk:
     route still requires the stated coercive barrier.
     Its PDF role is to name the exact barrier that would turn angular null gain into
     proof material.  The CM role begins only after a surviving cap-null residue is
-    attached to the original branch and tested at Pack, Part, Field, or readout.
+    attached to the original branch and tested at Part, Field, or readout.
 
 
 
@@ -1076,7 +1076,7 @@ chunk:
     % ... source excerpt truncated for packet size ...
   context_truncated: true
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
