@@ -19,7 +19,7 @@ sorting_rule:
   Field: one-field coherence, receiver, Field readout, source-residue, SCTC, or Zeno
     retained branch failure
   typed_subset: height, low-strain, amplitude, near-band, ASAC, and signed-current
-    routes that land in Pack/Part/Field/Zeno according to the named boundary lemma
+    routes that land in Part/Field/Zeno according to the named boundary lemma
   support: supplier, readout, export, manuscript, generated, source-history, runtime,
     or governance surface with no independent CM steering authority
 inventory_self_inclusion:
@@ -83,28 +83,28 @@ manual_role_corrections:
   reason: May 17 Zeno anti-concentration attempt leaves terminal zero-heat-time source residue as a Field diagnostic unless reverse Holder or rigid class is supplied
 - path: theorem-construction/mpp-terminal-eigenframe-turnover-charge-direct-attempt-20260517.md
   corrected_face_sort: typed_subset_Pack_Part_Field_Zeno
-  reason: May 17 eigenframe turnover attempt isolates a near-band/material-pressure typed route, not an independent fourth CM face
+  reason: May 17 eigenframe turnover attempt isolates a near-band/material-pressure typed route, not an independent fourth CM Part/Field
 - path: theorem-construction/mpp-terminal-pressure-hessian-no-sustain-attempt-20260517.md
   corrected_face_sort: source_wall_Field_diagnostic_or_supplier
   reason: May 17 pressure-Hessian attempt returns to signed no-free-sink/source-current support at terminal weights
 generated_authority_inheritance:
   theorem: GeneratedAuthorityInheritance.A
   status: installed
-  rule: Generated authority YAML and submission copies inherit the Pack/Part/Field
-    witness-face gate from the theorem notes they cite; Member is reached only after
+  rule: Generated authority YAML and submission copies inherit the Part/Field
+    witness gate from the theorem notes they cite; Member is reached only after
     the triadic CM witness. These surfaces are carriers, not independent theorem faces.
 source_frontier_grounded_obligations_boundary:
   theorem: SourceFrontierGroundedObligationsBoundary.A
   status: installed
   rule: Source-frontier obligations such as mixed-jet, Hopf/shuffle, Lagrangian, Lemma
     4B, and energy-insufficiency claims remain support/export obligations until a
-    named theorem lands them in Pack, Part, or Field.
+    named theorem lands them in Part or Field.
 manuscript_draft_export_boundary:
   theorem: ManuscriptDraftExportBoundary.A
   status: installed
   rule: Manuscript, draft, submission, R3/whole-space export, strict-shadow, and generated
     TeX surfaces are consumers or presentation copies unless a named bridge promotes
-    them into Pack, Part, or Field.
+    them into Part or Field.
 recent_update:
   date: "2026-05-17"
   scope: narrow non-Euler certificate refresh from the May 17 non-Euler supplier attempts
@@ -181,21 +181,21 @@ entries:
 - path: NS working note - four body problem and braided ontology.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: NS working note - reconstruction method and thinking training.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: README.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: WIZARD-terminal-impasse-working-note.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: agent-contract.yaml
   category: runtime_or_governance_surface
   face_sort: runtime_governance_not_face
@@ -207,27 +207,27 @@ entries:
 - path: artifact-self-repair.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: assumption-audit.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: assumption-ledger.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: authoritative-source-discovery.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: authoritative-source-gap-ledger.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: authority-reconciliation.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: auto-audit.yaml
   category: authority_or_generated_control_surface
   face_sort: governance_surface_carries_face_sweep
@@ -236,11 +236,11 @@ entries:
 - path: backfill-report.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: bridge-slot-map.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: campaign-status.yaml
   category: runtime_or_governance_surface
   face_sort: runtime_governance_not_face
@@ -248,7 +248,7 @@ entries:
 - path: cascade-after-monotone-bridge-source-pack.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: chat-status.yaml
   category: runtime_or_governance_surface
@@ -297,95 +297,95 @@ entries:
 - path: circularity-audit.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: claim-ladder.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: closure-audit-source-pack.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: cm-convergence-atlas.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: cm-exit-live-surface-audit-20260514.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: codex-approach-alignment-and-assent-delta-card.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: codex-burden-integrity-under-proof-pressure-delta-card.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: codex-note-driven-execution-delta-card.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: codex-question-chain-intent-delta-card.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: codex-route-fidelity-delta-card.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: compactness-discharge-source-pack.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: consistency-audit.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: continuum-stack.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: corpus-audit-legacy-originals.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: creative-theorem-search.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: crosslane-extractor-contract.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: current-route-dependency-graph.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: current-route-reproducibility-bundle.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: curvature-based-regularity-discharge-source-pack.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: debt-map.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: dependency-audit.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: dependency-discharge-proof-dependencies-1-9.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: dependency-discharge.yaml
   category: authority_or_generated_control_surface
   face_sort: governance_surface_carries_face_sweep
@@ -394,11 +394,11 @@ entries:
 - path: dependency-graph.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: derivation-run.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: docs/current-state-publish-manifest.yaml
   category: manuscript_or_export_surface
   face_sort: manuscript_export_not_face
@@ -406,11 +406,11 @@ entries:
 - path: docs/import-inventory-v1.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: docs/import-plan-v1.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: draft-v6.md
   category: manuscript_or_export_surface
   face_sort: manuscript_export_not_face
@@ -430,16 +430,16 @@ entries:
 - path: energy-insufficiency-source-pack.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: exploration-graph.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: extension-branches.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: external-paper/main.tex
   category: manuscript_or_export_surface
   face_sort: manuscript_export_not_face
@@ -479,7 +479,7 @@ entries:
 - path: failure-mode-checks.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: final-release-snapshot.md
   category: manuscript_or_export_surface
   face_sort: manuscript_export_not_face
@@ -487,31 +487,31 @@ entries:
 - path: finish-plan.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: formalization-ledger.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: four-body-regularity-circuit-and-ontic-extension.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: frozen-core.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: full-proof-campaign.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: gap-audit.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: gap-ticket.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: governance-escalation.yaml
   category: runtime_or_governance_surface
   face_sort: runtime_governance_not_face
@@ -519,25 +519,25 @@ entries:
 - path: gradient-discharge-source-pack.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: gradient-transfer-coercivity-source-pack.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: halt-gist.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: halt-request.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: hypothesis-candidate.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: inbox-escalation.yaml
   category: runtime_or_governance_surface
   face_sort: runtime_governance_not_face
@@ -545,20 +545,20 @@ entries:
 - path: interdependencies-discharge-source-pack.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: lane-classification.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: layered-route-graph.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: lemma-falsification.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: live-theorem-edge.md
   category: authority_or_generated_control_surface
   face_sort: governance_surface_carries_face_sweep
@@ -572,54 +572,54 @@ entries:
 - path: manuscript-depth.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: marvin-adaptation-notes.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: marvin-ingest-notes.yaml
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: marvin-source-discovery.yaml
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: marvin-v6-tandem-crosswalk.yaml
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: marvin-watchlist.yaml
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: merge-verdict.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: monograph-V6-tandem-crosswalk.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: monotone-functional-discharge-source-pack.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: nonlinear-closure-discharge-source-pack.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: ns-27-lane-initialization.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: ns-proof-program-route-table.md
   category: authority_or_generated_control_surface
   face_sort: governance_surface_carries_face_sweep
@@ -633,15 +633,15 @@ entries:
 - path: object-formalization.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: obligation-evidence.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: obstruction-capture.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: paper-architecture.yaml
   category: manuscript_or_export_surface
   face_sort: manuscript_export_not_face
@@ -669,23 +669,23 @@ entries:
 - path: problem-intake.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: projected-nc-flow-clay-frontier.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: promotion-blocker-burndown.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: promotion-blocker-ledger.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: promotion-verdict.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: proof-assembly.yaml
   category: authority_or_generated_control_surface
   face_sort: governance_surface_carries_face_sweep
@@ -694,7 +694,7 @@ entries:
 - path: proof-source-pack.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: public-research-frontier.md
   category: manuscript_or_export_surface
@@ -725,7 +725,7 @@ entries:
 - path: review-log.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: review-verdict.yaml
   category: authority_or_generated_control_surface
   face_sort: governance_surface_carries_face_sweep
@@ -734,7 +734,7 @@ entries:
 - path: route-hypothesis.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: route-integrity-report.yaml
   category: authority_or_generated_control_surface
   face_sort: governance_surface_carries_face_sweep
@@ -804,91 +804,91 @@ entries:
 - path: scale-barrier-source-pack.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: scale-barrier-tail-discharge-source-pack.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: scale-high-side-remainder-source-pack.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: scale-memory-hardy-volterra-working-note.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: source-forensics/README.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: source-forensics/bridge-discharge-locus-map.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: source-forensics/canonical-equation-ledger.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: source-forensics/canonical-source-map.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: source-forensics/manifest.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: source-forensics/master-conversation-corpus.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: source-forensics/master-pdf-corpus.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: source-forensics/master-program-analysis.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: source-forensics/master-source-extraction.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: source-forensics/master-tex-corpus.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: source-forensics/master-text-corpus.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: source-forensics/merged-black-hole-anisotropy-arc-2024-10-14-to-2025-01-04.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: source-forensics/projected-nc-flow-source-locus.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: source-forensics/sourcepulse-q-dissipation-source-recovery-note.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: source-frontier.yaml
   category: authority_or_generated_control_surface
@@ -898,17 +898,17 @@ entries:
 - path: source-grounded-framework-map.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: source-ledger.yaml
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: spine.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: submission-bundle/frozen-core.md
   category: generated_submission_copy
   face_sort: copy_of_authority_or_export_support
@@ -988,7 +988,7 @@ entries:
 - path: submission-metadata.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: submission-verdict.yaml
   category: authority_or_generated_control_surface
   face_sort: governance_surface_carries_face_sweep
@@ -997,7 +997,7 @@ entries:
 - path: target-fidelity-discharge-source-pack.md
   category: source_or_history_context
   face_sort: source_recovery_or_history_not_face
-  role: source/history surface; may supply provenance but not a CM face without theorem
+  role: source/history surface; may supply provenance but not a CM Part/Field without theorem
     promotion
 - path: target-operating-contract.yaml
   category: authority_or_generated_control_surface
@@ -2944,7 +2944,7 @@ entries:
   category: theorem_construction_surface
   face_sort: Field_or_Field_readout_support
   role: theorem-construction surface classified by local theorem vocabulary
-- path: theorem-construction/mcp-explicit-cm-witness-face-bridge-after-source-pulse-20260504.md
+- path: theorem-construction/mcp-explicit-cm-witness-bridge-after-source-pulse-20260504.md
   category: theorem_construction_surface
   face_sort: Pack_or_Pack_bridge
   role: theorem-construction surface classified by local theorem vocabulary
@@ -5718,7 +5718,7 @@ entries:
   category: theorem_construction_surface
   face_sort: Pack_or_Pack_bridge
   role: theorem-construction surface classified by local theorem vocabulary
-- path: theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
+- path: theorem-construction/mpp-member-smooth-contrapositive-witness-bridge-20260504.md
   category: theorem_construction_surface
   face_sort: Pack_or_Pack_bridge
   role: theorem-construction surface classified by local theorem vocabulary
@@ -7930,7 +7930,7 @@ entries:
 - path: theorem-creation.yaml
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: theorem-packet.yaml
   category: authority_or_generated_control_surface
   face_sort: governance_surface_carries_face_sweep
@@ -7949,7 +7949,7 @@ entries:
 - path: v6-four-bridge-source-note.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: warrant-compilation.yaml
   category: authority_or_generated_control_surface
   face_sort: governance_surface_carries_face_sweep
@@ -7958,23 +7958,23 @@ entries:
 - path: whole-space-r3-matrix-branch.md
   category: root_support_surface
   face_sort: support_context_needs_no_face_promotion
-  role: root support/context surface; no independent CM face unless bridged
+  role: root support/context surface; no independent CM Part/Field unless bridged
 - path: theorem-construction/mpp-sourcepulse-two-tower-zeno-refinement-20260515.md
   category: theorem_construction_surface
   face_sort: supplier_readout_support
   role: source-pulse two-tower Zeno refinement; supplier-side conditional closing
-    package, no independent CM face unless bridged
+    package, no independent CM Part/Field unless bridged
 - path: theorem-construction/mpp-terminal-zeno-operational-collapse-20260515.md
   category: theorem_construction_surface
   face_sort: supplier_readout_support
   role: terminal Zeno operational collapse to LocalPositiveSourceCarleson.A under
-    audited named rigid classes; supplier-side support, no independent CM face unless
+    audited named rigid classes; supplier-side support, no independent CM Part/Field unless
     bridged
 - path: theorem-construction/mpp-localpositive-source-native-defect-frontier-20260516.md
   category: theorem_construction_surface
   face_sort: source_wall_Field_diagnostic_or_supplier
   role: May 16 sharpening of LocalPositiveSourceCarleson.A to the native positive
-    trilinear source-defect frontier; source-wall supplier, no independent CM face
+    trilinear source-defect frontier; source-wall supplier, no independent CM Part/Field
     unless bridged
 - path: theorem-construction/mpp-prd-completion-attempt-20260517.md
   category: theorem_construction_surface
@@ -7986,7 +7986,7 @@ entries:
   category: theorem_construction_surface
   face_sort: source_wall_Field_diagnostic_or_supplier
   role: May 17 five-supplier ledger; records conditional source-wall survivors
-    and preserves the Pack/Part/Field-only CM boundary
+    and preserves the Part/Field-only CM boundary
 - path: theorem-construction/mpp-localpositivesourcecarleson-completion-attempt-20260517.md
   category: theorem_construction_surface
   face_sort: source_wall_Field_diagnostic_or_supplier
@@ -8011,7 +8011,7 @@ entries:
   category: theorem_construction_surface
   face_sort: typed_subset_Pack_Part_Field_Zeno
   role: May 17 eigenframe turnover attempt; near-band/material-pressure typed route
-    returning to the source-current wall, not an independent CM face
+    returning to the source-current wall, not an independent CM Part/Field
 - path: theorem-construction/mpp-terminal-pressure-hessian-no-sustain-attempt-20260517.md
   category: theorem_construction_surface
   face_sort: source_wall_Field_diagnostic_or_supplier

@@ -63,10 +63,10 @@ layers:
     judgment: >
       The official Clay target is the incompressible 3D problem on R^3 or T^3,
       and the currently locked theorem-primary branch is the CM terminal-witness
-      chain: finite Clay witness entry, Pack/Part/Field finite-failure
+      chain: finite Clay witness entry, Part/Field finite-failure
       exhaustion, and `Exit(Q):=not Member(Q)`. Periodic, source-wall,
       positive-supplier, and export surfaces are support unless they land a
-      named failure in the CM faces.
+      named failure in the CM Part/Fields.
     surfaces:
       - problems/navier-stokes/route-lock.yaml
       - problems/navier-stokes/theorem-packet.yaml
@@ -123,7 +123,7 @@ layers:
       The current theorem-primary packet is the CM pass-or-exit spine:
       an alleged finite Clay terminal witness enters the same-fluid CM terminal
       packet tree, its finite failure type is exhausted as not Pack_Q, not
-      Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and that face failure
+      Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and that Part/Field failure
       supports `Exit(Q):=not Member(Q)`.
     surfaces:
       - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md

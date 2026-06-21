@@ -8,7 +8,7 @@ engine_goal: complete the NS repo/app/graph/PDF proof system
 governing_program:
   proof_program: CM contrapositive class exit
   primitive: Exit(Q):=not Member(Q)
-  witness_tree:
+  part_field_tree:
   - Pack_Q
   - Part_{N,Q}
   - Field_{N,r,Q}
@@ -152,7 +152,7 @@ work_graph:
     action_type: theorem_legitimacy_then_proof
     work_kind: theorem
     target_state: The CM contrapositive frontier is smaller, closed, or blocked by
-      a named Pack/Part/Field face.
+      a named Part/Field face.
     dependencies: []
     parallel_lane_id: proof_lane
     expected_state_delta: A proof note, failed-attempt note, or exact blocker changes
@@ -263,7 +263,7 @@ parallel_lanes:
     allowed_outputs:
     - theorem note
     - failed attempt with exact blocker
-    - Pack/Part/Field face landing
+    - Part/Field Part/Field landing
     done_condition: complete when the theorem node changes proof state or is exactly
       blocked by a named mathematical obstruction
     handoff_back: Handoff back with a changed-state ref, exact blocker, and next work-node
@@ -271,7 +271,7 @@ parallel_lanes:
     forbidden_outputs:
     - status-only completion
     - support-only success
-    - theorem closure claim without Pack/Part/Field mechanism
+    - theorem closure claim without Part/Field mechanism
     - PDF/submission promotion without proof-state movement
 - lane_id: graph_app_mcp_lane
   role: graph/app/MCP sync
@@ -303,7 +303,7 @@ parallel_lanes:
     forbidden_outputs:
     - status-only completion
     - support-only success
-    - theorem closure claim without Pack/Part/Field mechanism
+    - theorem closure claim without Part/Field mechanism
     - PDF/submission promotion without proof-state movement
 - lane_id: manuscript_lane
   role: human proof writing
@@ -334,7 +334,7 @@ parallel_lanes:
     forbidden_outputs:
     - status-only completion
     - support-only success
-    - theorem closure claim without Pack/Part/Field mechanism
+    - theorem closure claim without Part/Field mechanism
     - PDF/submission promotion without proof-state movement
 - lane_id: submission_lane
   role: submission boundary
@@ -364,7 +364,7 @@ parallel_lanes:
     forbidden_outputs:
     - status-only completion
     - support-only success
-    - theorem closure claim without Pack/Part/Field mechanism
+    - theorem closure claim without Part/Field mechanism
     - PDF/submission promotion without proof-state movement
 theorem_legitimacy_prechecks:
 - precheck_id: ns-cm-proof-frontier-legitimacy
@@ -373,7 +373,7 @@ theorem_legitimacy_prechecks:
     obstruction inside the CM exit-witness program, or a scope/definition error that
     should be rejected before proof work starts?
   ontology_check: 'Type the object before estimating it: finite breakdown assumption,
-    admissible CM test object, class-member predicate, Pack/Part/Field face, face
+    admissible CM test object, class-member predicate, Part/Field face, face
     failure, or class-exit conclusion.'
   human_scenario_or_counter_scenario: For the zero-radius vortex pattern, a vortex
     squeezed to radius zero has stopped being a vortex in the human picture; that
@@ -381,7 +381,7 @@ theorem_legitimacy_prechecks:
   pass_side_nonvacuity_check: For each obstruction split, verify that the pass branch
     has a genuine smooth/Member(Q) possibility and that the fail branch lands in a
     concrete face.
-  face_landing_policy: Valid fail branches must land in Pack, Part, or Field with
+  face_landing_policy: Valid fail branches must land in Part or Field with
     the exact face named; illegitimate objects close by definition or scope.
   allowed_proof_methods:
   - contrapositive
