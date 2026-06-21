@@ -136,7 +136,7 @@ phases:
   goal: lock equation and quarantine boundary
 - phase_id: phase-1-euler-membership-repair
   status: completed
-  goal: replace copied Pack/Part/Field membership with Member_E = EVol and EMom
+  goal: replace copied Part/Field membership with Member_E = EVol and EMom
 - phase_id: phase-2-regularity-retarget
   status: completed
   goal: demote ECFI/EL13/EOFP/EOFR/ELCI to regularity support above Member_E

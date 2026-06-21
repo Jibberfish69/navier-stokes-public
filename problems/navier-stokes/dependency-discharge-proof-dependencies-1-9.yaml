@@ -12,8 +12,8 @@ non_euler_surface_face_sweep_boundary:
   theorem: AllNonEulerNSSurfaceFaceSweep.A
   index: problems/navier-stokes/non-euler-surface-face-sweep-index-20260514.yaml
   rule: This dependency-discharge artifact is support/history for the current CM
-    program. It does not become an independent Pack, Part, or Field face unless
-    a named theorem promotes one of its obligations through that witness-face gate.
+    program. It does not become an independent Part or Field face unless
+    a named theorem promotes one of its obligations through that witness gate.
 claim_level:
   status: bridge_discharge_claimed
   promotion_allowed: false

@@ -47,7 +47,7 @@ theorem_posture:
       remains conditional on a root source-wall theorem.
     readout_interfaces: >-
       GoodScaleNonCollapse.A is the replacement interface for READ.COVER, and
-      CM.CrossFaceSynthesis.A only synchronizes already-certified Pack/Part/Field
+      CM.CrossFaceSynthesis.A only synchronizes already-certified Part/Field
       faces into CM_{N,r,Q}.
     signed_current_route: >-
       BareDyadicSkewCurrent.0 is installed only at the unweighted algebraic
@@ -128,7 +128,7 @@ hashes:
     sha256: dec43b2430d8dcb3d751437f7b0a5b36711854e48cb974a7e955262bc25a1777
   - path: theorem-construction/mpp-sourcewall-signed-current-collapse-ledger-20260505.md
     sha256: 56905a0459eb4a4297942a7dc7aaaaf8f62b29ff3f91a1e317aca6d84392f99d
-  - path: theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
+  - path: theorem-construction/mpp-member-smooth-contrapositive-witness-bridge-20260504.md
     sha256: 45ee65ecdfd4a7fc46530334429b2af42b993c6c5024dcf28d276f5653bfdb1a
   - path: theorem-construction/mpp-source-drain-definition-alignment-and-discharge-20260504.md
     sha256: c97b82f9330842833b962714335d4976d16d786b0da41313f74cb749147133e2
