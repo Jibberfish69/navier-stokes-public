@@ -32,8 +32,8 @@ arc_sequence:
     every witness role separated
   completion_test: finished TeX prose for every spine_ref, verified mechanically,
     then integrated into TeX source
-- arc_id: pack-part-field-grammar
-  title: Pack/Part/Field witness grammar
+- arc_id: part-field-grammar
+  title: Part/Field witness grammar
   priority: 4
   author_job: write the witness-face grammar and the contrapositive class-exit proof
     without role conflation
@@ -71,7 +71,7 @@ context_packet_refs:
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/opening-theorem-route.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/failure-taxonomy.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/cm-class-membership.yaml
-- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/pack-part-field-grammar.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/part-field-grammar.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/clay-facing-cm-completion.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/forward-branch-treatment.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/comparison-transfer-boundary.yaml
@@ -80,7 +80,7 @@ work_packet_refs:
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/opening-theorem-route.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/failure-taxonomy.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/cm-class-membership.yaml
-- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/pack-part-field-grammar.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/part-field-grammar.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/clay-facing-cm-completion.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/forward-branch-treatment.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/comparison-transfer-boundary.yaml
@@ -89,7 +89,7 @@ author_pack_refs:
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/opening-theorem-route.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/failure-taxonomy.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/cm-class-membership.yaml
-- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/pack-part-field-grammar.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/part-field-grammar.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/clay-facing-cm-completion.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/forward-branch-treatment.yaml
 - problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/comparison-transfer-boundary.yaml

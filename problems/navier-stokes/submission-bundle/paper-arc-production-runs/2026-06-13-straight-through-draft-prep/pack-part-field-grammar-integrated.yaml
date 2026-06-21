@@ -3,8 +3,8 @@ version: 1
 artifact_id: ns-source-spine-batch-20260614T054224Z
 status: applied
 generated_at: '2026-06-14T05:42:24Z'
-pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/pack-part-field-grammar.yaml
-batch_id: pack-part-field-grammar-author-pack-20260614T000054Z
+pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/part-field-grammar.yaml
+batch_id: part-field-grammar-author-pack-20260614T000054Z
 source_rewrite_count: 6
 changed_files: []
 operations:
