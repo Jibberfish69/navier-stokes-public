@@ -328,7 +328,7 @@ chunk:
 
       Step 3. A first-exit analysis can activate a failure surface only through a witness-face break. The accepted face channels are Pack Q, Part N,Q , and Field N,r,Q .
 
-      Step 4. The existing diagnostic record sorts major non-Euler source-wall surfaces into Pack, Part, Field, terminal-Zeno Pack-side/readout-quarantined subcases, or supplier/readout quarantine. This supplies classification discipline. It supplies row-level diagnostic coverage. Object-level positive supplier theorems remain separate burdens.
+      Step 4. The existing diagnostic record sorts major non-Euler source-wall surfaces into Part, Field, terminal-Zeno Pack-side/readout-quarantined subcases, or supplier/readout quarantine. This supplies classification discipline. It supplies row-level diagnostic coverage. Object-level positive supplier theorems remain separate burdens.
 
       Step 5. The current positive source-control atom remains Positive Remainder Depletion.A. The May 17 tests show that PRD needs Source Weighted Terminal Angular Depletion.A; LPSC returns to PRD; Square Source Estimate.A and Active Shell Amplitude Gain.A return to Active Shell Source Normalize.A / active- reserve; the non-Carleson Zeno route needs Terminal Source Reverse Holder.A / Uniform Temporal Source Integrability p.A or a rigid residue class with Liouville.
 
@@ -545,7 +545,7 @@ chunk:
 
     Step 3. A first-exit analysis can activate a failure surface only through a witness-face break. The accepted face channels are Pack Q, Part N,Q , and Field N,r,Q .
 
-    Step 4. The existing diagnostic record sorts major non-Euler source-wall surfaces into Pack, Part, Field, terminal-Zeno Pack-side/readout-quarantined subcases, or supplier/readout quarantine. This supplies classification discipline. It supplies row-level diagnostic coverage. Object-level positive supplier theorems remain separate burdens.
+    Step 4. The existing diagnostic record sorts major non-Euler source-wall surfaces into Part, Field, terminal-Zeno Pack-side/readout-quarantined subcases, or supplier/readout quarantine. This supplies classification discipline. It supplies row-level diagnostic coverage. Object-level positive supplier theorems remain separate burdens.
 
     Step 5. The current positive source-control atom remains Positive Remainder Depletion.A. The May 17 tests show that PRD needs Source Weighted Terminal Angular Depletion.A; LPSC returns to PRD; Square Source Estimate.A and Active Shell Amplitude Gain.A return to Active Shell Source Normalize.A / active- reserve; the non-Carleson Zeno route needs Terminal Source Reverse Holder.A / Uniform Temporal Source Integrability p.A or a rigid residue class with Liouville.
 
@@ -558,7 +558,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

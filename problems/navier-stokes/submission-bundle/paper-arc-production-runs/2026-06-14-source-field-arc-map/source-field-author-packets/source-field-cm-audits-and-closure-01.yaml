@@ -744,7 +744,7 @@ chunk:
     the reader exactly what would close the forward-positive side of the paper.  The
     silver layer can use an obstruction from one of these ladders only after the
     manuscript selects the same terminal record and tests the resulting residue at
-    Pack, Part, Field, or readout.
+    Part, Field, or readout.
 
 
 
@@ -821,7 +821,7 @@ chunk:
 
     These payments belong to the forward-positive layer.  A tower obstruction enters
     the silver CM layer after the manuscript selects the same terminal record and
-    tests the resulting residue at Pack, Part, Field, or readout.
+    tests the resulting residue at Part, Field, or readout.
 
 
 
@@ -987,7 +987,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
