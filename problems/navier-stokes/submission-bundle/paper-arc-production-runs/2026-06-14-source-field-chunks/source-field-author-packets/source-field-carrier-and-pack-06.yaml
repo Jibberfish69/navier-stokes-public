@@ -400,7 +400,7 @@ chunk:
       remains conditional on Endpoint Selector.TTU or Uniform Strain Tail.TTU.
 
       This is the exact Pack witness payment: once the terminal pack gauge is bounded,
-      the Pack face has not failed on the retained tail.  Any remaining obstruction
+      the Field-window evidence has not failed on the retained tail.  Any remaining obstruction
       must move to Part, Field, Good Scale, or another named packet, rather than being
       reported as unresolved Pack detachment.
 
@@ -755,7 +755,7 @@ chunk:
     remains conditional on Endpoint Selector.TTU or Uniform Strain Tail.TTU.
 
     This is the exact Pack witness payment: once the terminal pack gauge is bounded,
-    the Pack face has not failed on the retained tail.  Any remaining obstruction
+    the Field-window evidence has not failed on the retained tail.  Any remaining obstruction
     must move to Part, Field, Good Scale, or another named packet, rather than being
     reported as unresolved Pack detachment.
 
@@ -802,7 +802,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

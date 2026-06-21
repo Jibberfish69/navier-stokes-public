@@ -343,14 +343,14 @@ chunk:
     line_end: 43913
     source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43878
     start_anchor: "\\subsection{Clay problem Pack Gain record.A Direct Test And Obstruction}\n"
-    end_anchor: "\\subsection{Clay problem Pack-Part-Field Canonicality Reduction
+    end_anchor: "\\subsection{Clay problem Part-Field Canonicality Reduction
       Note}\n"
     include_end_anchor: false
     group_id: carrier-and-pack
     text: |+
       \subsection{Clay problem Pack Gain record.A Direct Test And Obstruction}
 
-      The implication may still be made true by strengthening the Pack face, or by proving a separate Navier--Stokes-specific retained pack-gain theorem. It is not currently installed by the existing pack gauge.
+      The implication may still be made true by strengthening the Field-window evidence, or by proving a separate Navier--Stokes-specific retained pack-gain theorem. It is not currently installed by the existing pack gauge.
 
       \[
       \Gamma_{\mathrm{pack},Q}(t)
@@ -662,7 +662,7 @@ chunk:
 
     \subsection{Clay problem Pack Gain record.A Direct Test And Obstruction}
 
-    The implication may still be made true by strengthening the Pack face, or by proving a separate Navier--Stokes-specific retained pack-gain theorem. It is not currently installed by the existing pack gauge.
+    The implication may still be made true by strengthening the Field-window evidence, or by proving a separate Navier--Stokes-specific retained pack-gain theorem. It is not currently installed by the existing pack gauge.
 
     \[
     \Gamma_{\mathrm{pack},Q}(t)
@@ -698,7 +698,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
@@ -906,7 +906,7 @@ source_rewrites:
   line_start: 43878
   line_end: 43913
   start_anchor: "\\subsection{Clay problem Pack Gain record.A Direct Test And Obstruction}\n"
-  end_anchor: "\\subsection{Clay problem Pack-Part-Field Canonicality Reduction Note}\n"
+  end_anchor: "\\subsection{Clay problem Part-Field Canonicality Reduction Note}\n"
   include_start_anchor: true
   include_end_anchor: false
   author_replacement_required: true

@@ -30,7 +30,7 @@ chunk:
   subsection_titles:
   - Pctp Hard Pack Detachment Absorption
   - Clay problem Pressure Carrier Trace.A direct attempt
-  - Clay problem Pressure Endpoint Pack/Part/Field Witness Test
+  - Clay problem Pressure Endpoint Part/Field Witness Test
   - Clay problem Pressure Quadratic-Defect Native-Carrier Dichotomy
   - Clay problem Retained Face Amplitude Gain.A Target And Pack-Gain Gap
   - Retained Pack/Part Critical Concentration To Field Bridge
@@ -95,7 +95,7 @@ chunk:
     line_end: 46564
     source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46532
     start_anchor: "\\subsection{Clay problem Pressure Carrier Trace.A direct attempt}\n"
-    end_anchor: "\\subsection{Clay problem Pressure Endpoint Pack/Part/Field Witness
+    end_anchor: "\\subsection{Clay problem Pressure Endpoint Part/Field Witness
       Test}\n"
     include_end_anchor: false
     group_id: carrier-and-pack
@@ -135,19 +135,19 @@ chunk:
 
     truncated: false
   - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
-    subsection_title: Clay problem Pressure Endpoint Pack/Part/Field Witness Test
+    subsection_title: Clay problem Pressure Endpoint Part/Field Witness Test
     line_start: 46565
     line_end: 46593
     source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46565
-    start_anchor: "\\subsection{Clay problem Pressure Endpoint Pack/Part/Field Witness
+    start_anchor: "\\subsection{Clay problem Pressure Endpoint Part/Field Witness
       Test}\n"
     end_anchor: "\\subsection{Clay problem Pressure-Hessian Partner Graph Normal Form}\n"
     include_end_anchor: false
     group_id: carrier-and-pack
     text: |+
-      \subsection{Clay problem Pressure Endpoint Pack/Part/Field Witness Test}
+      \subsection{Clay problem Pressure Endpoint Part/Field Witness Test}
 
-      Purpose: after the exhausted pressure branch was admitted as a Field-face diagnostic, test whether any pressure endpoint supplies a genuine noncircular Pack/Part/Field witness face for the current CM discipline.
+      Purpose: after the exhausted pressure branch was admitted as a Field-face diagnostic, test whether any pressure endpoint supplies a genuine noncircular Part/Field witness face for the current CM discipline.
 
       \[
       Pack_Q,
@@ -161,7 +161,7 @@ chunk:
 
       If proved, this endpoint would convert pressure-sustain residue into native source residue or a finite packet source tether. That would feed the source-current branch and could support Field-side source data.
 
-      The endpoint remains unproved. The finite packet tether still requires independent terminal Leray orientation, commutator legality, and saturation. so it supplies no present Pack/Part/Field witness.
+      The endpoint remains unproved. The finite packet tether still requires independent terminal Leray orientation, commutator legality, and saturation. so it supplies no present Part/Field witness.
 
       If proved, this endpoint would remove the pure pressure-sustain residue. The direct Liouville, rigid-class production, trace/angular saturation, legal classification, and time-spread tests all failed from installed inputs.
 
@@ -169,7 +169,7 @@ chunk:
 
       If proved, this endpoint would create a legal pressure class for retained pure-strain pressure sustain. The legal-classification attempt showed that the existing legal pressure records cover collar, harmonic, cutoff/projector, and off-family exits only. The retained interior pure pressure residue needs a new legal class and terminal summability proof.
 
-      It records that an uncharged retained pure pressure-sustain residue belongs on the Field/readout side of the CM record. This is useful bookkeeping. It cannot substitute for a Pack/Part/Field witness theorem.
+      It records that an uncharged retained pure pressure-sustain residue belongs on the Field/readout side of the CM record. This is useful bookkeeping. It cannot substitute for a Part/Field witness theorem.
 
       The source-wall root so requires a non-pressure supplier entrance or an independent proof of one of the named pressure endpoints.
 
@@ -289,7 +289,7 @@ chunk:
 
       Object boundary: this bridge classifies a retained concentration or residue after the supplier problem has failed to remove it. It does not classify Positive Remainder Depletion.A itself.
 
-      In the route notes, this is the retained Pack/Part critical-concentration
+      In the route notes, this is the retained Field-window evidence/Part critical-concentration
       bridge for \(X\).  Its job is to say that once Pack and Part are retained, a
       remaining critical concentration is a Field failure rather than a new fourth
       face.
@@ -426,7 +426,7 @@ chunk:
 
       If the complement carries a fixed fraction of the pairing, the backward heat mass that produced the terminal atom came from outside the selected parent record. That is exactly loss of retained carrier localization, hence Pack Q.
 
-      This is the same-witness earlier critical slice. Thus terminal heat mass either has an earlier same-witness critical ancestor or has already selected the Pack face.
+      This is the same-witness earlier critical slice. Thus terminal heat mass either has an earlier same-witness critical ancestor or has already selected the Field-window evidence.
 
       This is only the CM-facing local L 3 translator. It is not a public regularity discharge, not a generic all-critical-class theorem, and not a replacement for TerminalCMNo Exit.A / No GenuineCMExit.A.
 
@@ -509,9 +509,9 @@ chunk:
 
 
 
-    \subsection{Clay problem Pressure Endpoint Pack/Part/Field Witness Test}
+    \subsection{Clay problem Pressure Endpoint Part/Field Witness Test}
 
-    Purpose: after the exhausted pressure branch was admitted as a Field-face diagnostic, test whether any pressure endpoint supplies a genuine noncircular Pack/Part/Field witness face for the current CM discipline.
+    Purpose: after the exhausted pressure branch was admitted as a Field-face diagnostic, test whether any pressure endpoint supplies a genuine noncircular Part/Field witness face for the current CM discipline.
 
     \[
     Pack_Q,
@@ -525,7 +525,7 @@ chunk:
 
     If proved, this endpoint would convert pressure-sustain residue into native source residue or a finite packet source tether. That would feed the source-current branch and could support Field-side source data.
 
-    The endpoint remains unproved. The finite packet tether still requires independent terminal Leray orientation, commutator legality, and saturation. so it supplies no present Pack/Part/Field witness.
+    The endpoint remains unproved. The finite packet tether still requires independent terminal Leray orientation, commutator legality, and saturation. so it supplies no present Part/Field witness.
 
     If proved, this endpoint would remove the pure pressure-sustain residue. The direct Liouville, rigid-class production, trace/angular saturation, legal classification, and time-spread tests all failed from installed inputs.
 
@@ -533,7 +533,7 @@ chunk:
 
     If proved, this endpoint would create a legal pressure class for retained pure-strain pressure sustain. The legal-classification attempt showed that the existing legal pressure records cover collar, harmonic, cutoff/projector, and off-family exits only. The retained interior pure pressure residue needs a new legal class and terminal summability proof.
 
-    It records that an uncharged retained pure pressure-sustain residue belongs on the Field/readout side of the CM record. This is useful bookkeeping. It cannot substitute for a Pack/Part/Field witness theorem.
+    It records that an uncharged retained pure pressure-sustain residue belongs on the Field/readout side of the CM record. This is useful bookkeeping. It cannot substitute for a Part/Field witness theorem.
 
     The source-wall root so requires a non-pressure supplier entrance or an independent proof of one of the named pressure endpoints.
 
@@ -617,7 +617,7 @@ chunk:
 
     Object boundary: this bridge classifies a retained concentration or residue after the supplier problem has failed to remove it. It does not classify Positive Remainder Depletion.A itself.
 
-    In the route notes, this is the retained Pack/Part critical-concentration
+    In the route notes, this is the retained Field-window evidence/Part critical-concentration
     bridge for \(X\).  Its job is to say that once Pack and Part are retained, a
     remaining critical concentration is a Field failure rather than a new fourth
     face.
@@ -731,14 +731,14 @@ chunk:
 
     If the complement carries a fixed fraction of the pairing, the backward heat mass that produced the terminal atom came from outside the selected parent record. That is exactly loss of retained carrier localization, hence Pack Q.
 
-    This is the same-witness earlier critical slice. Thus terminal heat mass either has an earlier same-witness critical ancestor or has already selected the Pack face.
+    This is the same-witness earlier critical slice. Thus terminal heat mass either has an earlier same-witness critical ancestor or has already selected the Field-window evidence.
 
     This is only the CM-facing local L 3 translator. It is not a public regularity discharge, not a generic all-critical-class theorem, and not a replacement for TerminalCMNo Exit.A / No GenuineCMExit.A.
 
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
@@ -776,7 +776,7 @@ source_rewrites:
   line_start: 46532
   line_end: 46564
   start_anchor: "\\subsection{Clay problem Pressure Carrier Trace.A direct attempt}\n"
-  end_anchor: "\\subsection{Clay problem Pressure Endpoint Pack/Part/Field Witness
+  end_anchor: "\\subsection{Clay problem Pressure Endpoint Part/Field Witness
     Test}\n"
   include_start_anchor: true
   include_end_anchor: false
@@ -800,18 +800,18 @@ source_rewrites:
     open continuation
 - op: replace_between
   path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
-  subsection_title: Clay problem Pressure Endpoint Pack/Part/Field Witness Test
+  subsection_title: Clay problem Pressure Endpoint Part/Field Witness Test
   source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46565
   line_start: 46565
   line_end: 46593
-  start_anchor: "\\subsection{Clay problem Pressure Endpoint Pack/Part/Field Witness
+  start_anchor: "\\subsection{Clay problem Pressure Endpoint Part/Field Witness
     Test}\n"
   end_anchor: "\\subsection{Clay problem Pressure-Hessian Partner Graph Normal Form}\n"
   include_start_anchor: true
   include_end_anchor: false
   author_replacement_required: true
   replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pressure Endpoint
-    Pack/Part/Field Witness Test as paper-ready TeX with proof/support/open status.
+    Part/Field Witness Test as paper-ready TeX with proof/support/open status.
 
 '
   repo_sources_used:
