@@ -180,7 +180,7 @@ records:
       readout artifacts are removed. It is tested Field-certification and cannot be
       moved directly to Field.
     first_face: Pack_Q_or_Part_N_Q
-    face_failure: not Pack_Q, or Pack_Q and not Part_{N,Q}
+    face_failure: not Part_{N,Q}
     proof_evidence_path:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:667
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:672
@@ -204,7 +204,7 @@ records:
       requires same pressure, same viscosity, same tower, and same source
       participation.
     first_face: Part_{N,Q}
-    face_failure: Pack_Q and not Part_{N,Q}
+    face_failure: not Part_{N,Q}
     proof_evidence_path:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:519
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:528
@@ -225,7 +225,7 @@ records:
       Pack and Part are locally retained for this row; Field is now the first
       remaining service under the CM test.
     first_face: Field_{N,r,Q}
-    face_failure: "Pack_Q and Part_{N,Q} and for every r>0 not Field_{N,r,Q}"
+    face_failure: "Part_{N,Q} plus Field-window evidence and for every r>0 not Field_{N,r,Q}"
     proof_evidence_path:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:574
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:583
@@ -240,13 +240,13 @@ records:
     branch_family: BASAC, pressure, and rigid source residue
     selected_terminal_object: >-
       Native source residue already converted into a lawful participating
-      source/readout object on a retained Pack and Part witness record.
+      source/readout object on a retained Field-window evidence and Part witness record.
     cm_test_admission_status: >-
       Conditional. Raw source residue is certified at Part/Field first; this
       Field row becomes admissible only after a separate theorem licenses
       participation for the residue.
     first_face: Field_{N,r,Q}
-    face_failure: "Pack_Q and Part_{N,Q} and for every r>0 not Field_{N,r,Q}"
+    face_failure: "Part_{N,Q} plus Field-window evidence and for every r>0 not Field_{N,r,Q}"
     proof_evidence_path:
       - problems/navier-stokes/theorem-construction/mpp-retained-native-source-residue-field-exit-reduction-20260516.md:97
       - problems/navier-stokes/theorem-construction/mpp-retained-native-source-residue-field-exit-reduction-20260516.md:168
@@ -366,7 +366,7 @@ records:
       reserve-pricing supplier theorem.
     first_face: Pack_Q_or_Part_N_Q_or_Field_N_r_Q_after_retained_Pack_Part
     face_failure: >-
-      not Pack_Q, or Pack_Q and not Part_{N,Q}, or under retained Pack_Q and
+      not Part_{N,Q}, or under retained Field-window evidence and
       Part_{N,Q}, for every r>0 not Field_{N,r,Q}.
     proof_evidence_path:
       - problems/navier-stokes/theorem-construction/mpp-terminal-l3-duhamel-mass-cm-face-correction-20260523.md
@@ -403,7 +403,7 @@ records:
     exact_missing_step: >-
       None for CM proof inclusion. To promote a generic public-critical class
       X, prove same-atlas localization of CritConc_X and Field incompatibility
-      after retained Pack and Part. The installed local L3 Duhamel-mass row is
+      after retained Field-window evidence and Part. The installed local L3 Duhamel-mass row is
       already separately certified.
   - record_id: transfer_and_mirror_comparison
     branch_family: transfer and mirror comparison

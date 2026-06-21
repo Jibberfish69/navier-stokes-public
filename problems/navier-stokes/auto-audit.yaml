@@ -207,7 +207,7 @@ surface_snapshot:
     - ClayTerminalWitnessCMEntry.A places the witness in the same-fluid canonical
       CM terminal packet tree.
     - ClayFiniteFailureTypeCMExhaustion.A exhausts the finite failure type as not
-      Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}.
+      not Part_{N,Q} or forall r>0 not Field_{N,r,Q}.
     - ClayCMContrapositiveEmbedding.A embeds the derived Part/Field failure as `Exit(Q):=not
       Member(Q)` while the pass branch remains the lawful smooth continuation branch.
     route_chain_status: legacy-positive-support-not-current-authority
@@ -280,7 +280,7 @@ surface_snapshot:
         examples:
         - Exit(Q):=not Member(Q)
         - Pack_Q / Part_{N,Q} / Field_{N,r,Q}
-        - 'PackOutOfCMSmoothnessCertification.A: outside-CM packet/window or singular failed packet-window branches
+        - 'PackOutOfCMSmoothnessCertification.A: outside-CM participation-field/window or singular failed packet-window branches
           must test the original NS participation law without spending not Pack_Q as CM exit'
         - 'Part/Field as overlapping witness axes: Pack has fixed-box flux and
           finite-window material-coordinate readings; Part is same pressure-viscosity
@@ -339,7 +339,7 @@ surface_snapshot:
       propagated_object: same-fluid Part/Field witness envelope; Member(Q)
         is the forward membership predicate
       promotion_gate: Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence landing
-        after live-object participation is typed, plus original-participation audit before any outside-CM packet/window failure
+        after live-object participation is typed, plus original-participation audit before any outside-CM participation-field/window failure
         disposal
       current_role: governing proof grammar for CM-bearing promotion
       governing_engine_note: problems/navier-stokes/theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
@@ -347,7 +347,7 @@ surface_snapshot:
         note: problems/navier-stokes/theorem-construction/mpp-pack-out-of-cm-boundary-resurfacing-audit-20260620.md
         licensing_note: problems/navier-stokes/theorem-construction/mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md
         rule: Preserve Silver Part/Field after a legitimate Pack window, carrier,
-          readout, or jump-comparison structure is admitted. When an outside-CM packet/window or singular
+          readout, or jump-comparison structure is admitted. When an outside-CM participation-field/window or singular
           branch was disposed as not Pack_Q before the original Navier-Stokes participation law was applied to the live same-solution object, first ask
           whether the original Navier-Stokes viscosity, pressure, and incompressibility
           law still gives original participation status. If yes, resurface the branch
@@ -359,7 +359,7 @@ surface_snapshot:
         may be supplied by any lawful continuation mechanism. The fail branch is lawful
         CM contrapositive work only when the failure is capable of nonsmoothness and
         lands as a Part or Field Part/Field failure, or as an original-participation audit
-        of an outside-CM packet/window branch, supporting `Exit(Q):=not Member(Q)`. Do not replace
+        of an outside-CM participation-field/window branch, supporting `Exit(Q):=not Member(Q)`. Do not replace
         this engine with a demand to prove one particular positive estimate directly.
       no_third_branch_rule: The installed no-third-branch audit proves that no terminal
         branch is both an in-class `Member(Q)` continuation branch and a finite nonsmoothness
@@ -531,7 +531,7 @@ surface_snapshot:
         has been tested against the implication pressure among Part and Field,
         and the Dead/Jump/Blown readouts.
       part_field_resolution: A retained-Part Field landing is branch-local proof bookkeeping,
-        not a surviving terminal ontology row. It means Pack_Q and Part_{N,Q} have
+        not a surviving terminal ontology row. It means Part_{N,Q} plus Field-window evidence have
         been licensed enough to keep the selected obstruction inside the same NS packet,
         so the first unspent CM Part/Field is Field_{N,r,Q}. Under the stronger terminal
         same-fluid ontology, a realized coherence break also defeats terminal participation
@@ -540,7 +540,7 @@ surface_snapshot:
       part_field_resolution_note: problems/navier-stokes/theorem-construction/mpp-field-failure-to-part-collapse-20260522.md
       active_ontological_audit:
         status: field-to-part-collapse-resolved-pack-blown-side-active
-        note: problems/navier-stokes/theorem-construction/mpp-pack-part-field-ontological-collapse-question-20260517.md
+        note: problems/navier-stokes/theorem-construction/mpp-part-field-ontological-collapse-question-20260517.md
         question: 'Determine which formal Part/Field witness rows have real terminal
           same-fluid realizations, and which collapse into overlapping endpoint readouts
           once Pack is carrier geometry, Part is terminal pressure-viscosity/tower
@@ -565,7 +565,7 @@ surface_snapshot:
         note_classification:
         - path: problems/navier-stokes/theorem-construction/mpp-receiver-escape-endpoint-reduction-20260515.md
           class: licensed narrow CM witness bridge into Field
-          role: receiver escape is not a fourth branch; under retained Pack and Part
+          role: receiver escape is not a fourth branch; under retained Field-window evidence and Part
             it is a Field endpoint in the branch-local proof sense, while terminal
             ontology collapses a realized Jump to Pack+not-Part+not-Field and missing
             hypotheses are Pack or Part exits.
@@ -786,7 +786,7 @@ surface_snapshot:
       statement: Positive smoothness control and every surface indexed in the forward-positive
         quarantine ledger are not the CM contrapositive unless a named bridge proves
         membership, a Silver witness landing in Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence,
-        or the outside-CM packet/window original-participation audit needed before not Pack_Q can be spent.
+        or the outside-CM participation-field/window original-participation audit needed before not Pack_Q can be spent.
     - rule_id: fixed-nu-transfer-vs-ns-smoothness
       statement: Fixed-nu Euler-to-NS transfer compares two equations on the same
         datum and interval; it does not prove Euler smoothness or stand-alone NS smoothness.
