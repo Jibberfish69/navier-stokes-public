@@ -2920,6 +2920,38 @@ The remaining positive theorem is:
 \tag{4BF.116}
 ```
 
-or the pressure-compatible selector theorem that makes the local retained
-pressure deficit a paid four-body channel.  Typed exits apply to partners that
-leave the carrier; they do not pay a retained smooth interior cancellation.
+The direct polar-pair attempt reduces this theorem to pressure-compatible
+finite tower tests plus the same terminal modulus already isolated in the
+four-body trace work:
+
+```math
+\boxed{
+\texttt{PressurePartnerCompatibility.A}
++
+\texttt{FourBodyTerminalTraceAC.A}
+}
+\tag{4BF.117}
+```
+
+or equivalently the strict no-waste / no-free Zeno / endpoint-charged profile
+production alternatives:
+
+```math
+\boxed{
+\texttt{StrictFourBodyNoWasteLyapunov.A}
+\ \vee\
+\texttt{NoFreeTerminalZenoDonorChain.A}
+\ \vee\
+\texttt{MinimalZenoProfileProduction.A after endpoint evacuation or charge.}
+}
+\tag{4BF.118}
+```
+
+The pressure partner is paid for admissible divergence-free finite tower tests,
+because local pressure moves to the cutoff/collar term and harmonic pressure is
+already \(\mathfrak M_{press}\).  Viscosity is paid by normalized viscous/tower
+loss.  Finite signed-saturation, selector/legal, and geometry partners route
+through their existing channels.  The surviving unproduced term is the
+time/storage terminal trace or infinite Zeno child.  Typed exits apply to
+partners that leave the carrier; they do not pay a retained smooth interior
+cancellation.
