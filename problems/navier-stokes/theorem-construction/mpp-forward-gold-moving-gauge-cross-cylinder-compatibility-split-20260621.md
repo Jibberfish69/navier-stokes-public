@@ -11,11 +11,11 @@ ns_viewer:
     v_j(lambda_j^2 s,b_j+lambda_j A_j y), with b_j=O_j^T(x_{j+1}-x_j)/r_j
     and A_j=O_j^T O_{j+1}. Thus the child unit cylinder is the parent
     off-center subcylinder B_{lambda_j}(b_j) times [-lambda_j^2,0], not the
-    centered core unless b_j=0. Off-core drift is annular/collar visible in the
-    parent frame; core-following drift reduces to no-drift/unique-tangent or
-    profile production. This does not prove forward-gold anti-recurrence; it
-    identifies the exact drift branch left outside the fixed-chain annular
-    telescoping lemmas.
+    centered core unless b_j=0. Moving-gauge drift creates an exact
+    translation-collar/symmetric-difference defect relative to the centered-core
+    telescope. If that defect is paid, the fixed-chain analysis applies; if it
+    is not paid, the branch is a visible drift/gauge defect. The hidden remainder
+    is the no-drift/unique-tangent or profile-production burden.
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-rescaled-same-solution-feed-compatibility-direct-test-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-annular-share-nested-core-reduction-20260621.md
@@ -23,10 +23,10 @@ ns_viewer:
   downstream_consequence: >-
     The fixed-chain annular-share/no-share lemmas apply only after terminal
     center, frame, gauge, and selected-carrier chart are fixed. Without that,
-    moving-gauge compatibility gives a fork: off-core child mass must be routed
-    to annular/collar/source/legal visibility, while core-following moving-gauge
-    recurrence still needs ZenoNoDriftUniqueTangent.A, strict no-waste/source-square
-    control, or MinimalZenoProfileProduction.A.
+    moving-gauge compatibility gives a fork: the translation-collar/symmetric-difference
+    defect is routed to annular/collar/source/legal visibility, or the paid
+    moving-gauge recurrence still needs ZenoNoDriftUniqueTangent.A, strict
+    no-waste/source-square control, or MinimalZenoProfileProduction.A.
 ---
 
 # MPP Forward-Gold Moving Gauge Cross-Cylinder Compatibility Split
@@ -45,8 +45,8 @@ The exact outcome is:
 
 \[
 \boxed{
-\text{moving-gauge recurrence is either off-core annular/collar visible, or it
-is the no-drift/unique-tangent problem.}
+\text{moving-gauge recurrence creates a translation-collar defect, or it
+reduces to the no-drift/unique-tangent problem.}
 }
 \tag{MGC.1}
 \]
