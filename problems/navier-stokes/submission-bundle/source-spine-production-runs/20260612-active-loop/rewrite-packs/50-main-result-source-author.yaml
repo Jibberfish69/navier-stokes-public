@@ -30,11 +30,11 @@ source_rewrites:
     The member outcome is the retained same-solution continuation side.
     The exit outcome is supported by the first failed witness:
     \[
-      \neg\Pack_Q,
+      Field-window evidence outside CM,
       \qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},
+      \neg\Part_{N,Q},
       \qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     No admitted same-solution terminal record is both a member-continuation record and a finite nonsmooth terminal witness.
     \end{theorem}
@@ -110,7 +110,7 @@ source_rewrites:
     On the whole-space branch, the exterior Duhamel split supplies the corresponding decision surface.
     The initial heat tail and any fixed compact-core far-field source vanish at spatial infinity.
     A vanishing exterior nonlinear source gives the usual whole-space continuation readout.
-    A surviving exterior nonlinear source becomes a dyadic high-frequency escape and must enter the same CM participation-field test: no retained material address is Pack failure, detachment from the same equation, pressure, viscosity, or source ancestry is Part failure, and retained Pack plus Part with no fixed positive Field scale is Field failure.
+    A surviving exterior nonlinear source becomes a dyadic high-frequency escape and must enter the same CM participation-field test: no retained material address is Pack failure, detachment from the same equation, pressure, viscosity, or source ancestry is Part failure, and retained Field-window evidence plus Part with no fixed positive Field scale is Field failure.
 
     \subsection{Proof skeleton}
 
