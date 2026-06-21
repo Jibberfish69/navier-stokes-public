@@ -467,8 +467,13 @@ This note proves the same-carrier orientation decomposition:
 \tag{SOD.34}
 ```
 
-It does not prove the Navier-Stokes pairwise identifications `(SOD.24)`,
-`(SOD.29)`, `(SOD.30)`, and `(SOD.31)`.
+The \(S\to Q\) interface has now been reoriented exactly by `(SOD.24)`, provided
+Body I uses the same rung storage, weights, cutoff, cylinder, and parabolic
+tower transport as Body II.
+
+It does not prove the remaining Navier-Stokes pairwise identifications
+`(SOD.29)`, `(SOD.30)`, and `(SOD.31)`, nor does it prove that selector changes
+inside \(S\to Q\) have zero defect.
 
 The remaining proof work is now sharper:
 
