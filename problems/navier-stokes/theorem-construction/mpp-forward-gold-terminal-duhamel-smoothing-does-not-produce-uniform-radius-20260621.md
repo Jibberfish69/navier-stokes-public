@@ -22,10 +22,11 @@ This note is a supplier-boundary test. It does not replace the Navier-Stokes
 nonlinear Duhamel term by a linear forcing, and it does not approximate the
 pressure-transport-viscosity system.
 
-It should not be cited as a linear normal form for Navier-Stokes. It is only an
-external forced-heat counterexample to the narrower claim that heat semigroup
-smoothing, by itself, forces a uniform positive tower radius at the terminal
-face.
+It should not be called a "linear forced-heat normal form" for the
+Navier-Stokes terminal layer. That phrase is too loose here. The calculation is
+only an external forced-heat counterexample to the narrower claim that heat
+semigroup smoothing, by itself, forces a uniform positive tower radius at the
+terminal face.
 
 The exactness boundary is strict: the forcing \(f_m\) below is an external
 heat-equation test input. It is not a linear approximation to
