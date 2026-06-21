@@ -201,10 +201,9 @@ spending them:
 \tau'(t)=0,
 \qquad
 \rho'(t)=0.
-\tag{MRS.13}
 \]
 
-Then `(MRS.10)` loses the moment terms:
+Then the tower identity `(MRS.11)` loses the moment terms:
 
 \[
 {1\over2}{d\over dt}\mathfrak E_s
@@ -212,7 +211,6 @@ Then `(MRS.10)` loses the moment terms:
 c\nu\mathfrak D_s
 \le
 \mathfrak N_s.
-\tag{MRS.14}
 \]
 
 The installed mixed-jet machinery does not make \(\mathfrak N_s\) sign-definite
