@@ -457,10 +457,11 @@ If `(4BF.31a)` fails, the failure is not a new fifth body.  It is charged to
 the existing selector/compactness/legal defects \(K_{\rm sel}\), \(K_C^+\), or
 \(R_{\rm legal}\).
 
-The measure-level way to produce `(4BF.31a)` is also exact: the Body-III packet
-must retain the nonnegative selected carrier measures \(\mu_n^A\), those
-measures must be tight on the normalized same-carrier carrier, and the weak
-limit must identify with the canonical selected carrier of the limiting
+The measure-level way to produce `(4BF.31a)` is also exact.  In the finite
+selected tower packet, the nonnegative selected carrier measure is the measure
+with density \([h_P]_+\) on the extended carrier.  Body III still must prove
+tightness of those measures on the normalized same-carrier carrier and identify
+their weak limit with the canonical selected carrier of the limiting
 Navier-Stokes profile up to \(K_C^+\).  Signed-current compactness alone is not
 enough, because it can cancel the positive carrier.
 
