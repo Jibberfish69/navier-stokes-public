@@ -181,7 +181,7 @@ The Euler dual reads those as:
 Authority:
 `mpp-class-membership-forward-invariance-theorem-program.md`.
 
-On NS, `CFI.A` consumes the Pack/Part/Field certificate into `Member(Q)`.
+On NS, `CFI.A` consumes the Pack/Part/Field witness-face record into `Member(Q)`.
 On Euler, the mirror of `CFI.A` can only be a regularity-forward-invariance
 candidate over `Member_E`. It cannot define Euler membership.
 

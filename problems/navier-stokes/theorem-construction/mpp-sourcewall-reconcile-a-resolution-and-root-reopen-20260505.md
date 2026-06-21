@@ -209,7 +209,7 @@ ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
 
 ## Consequence For Field Row
 
-The typed CM certificate direction remains installed:
+The typed CM witness-to-member direction remains installed:
 
 ```math
 CMCert.A:\quad CM=>Member.

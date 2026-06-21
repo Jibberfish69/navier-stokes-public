@@ -131,7 +131,7 @@ The remaining alternatives are exactly the first-face exits:
    donor/entrance Pack ledger, hence a Pack-face defect, not a retained Pack
    counterexample.
 2. The first-created branch collapses to terminal zero-radius Zeno ancestry.
-   The terminal Zeno Pack-before-Part correction gives Part-side when pointwise participation remains and true `not Pack_Q` only when that record is absent.
+   The terminal Zeno Pack-before-Part correction gives Part-side when original participation remains and true `not Pack_Q` only when that record is absent.
 3. A retained positive-scale first-created contribution remains uncharged.
    This is precisely `not TerminalReserveFirstAppearanceCharge.A`, equivalently
    the localized `PositiveRemainderDepletion.A` supplier atom.

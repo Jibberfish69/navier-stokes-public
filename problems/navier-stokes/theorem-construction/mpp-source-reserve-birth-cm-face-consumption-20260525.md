@@ -122,7 +122,7 @@ RetainedPositiveScaleNativeReserveBirthCharge.A
 ```
 
 No `Member(Q)` converse is used.  `Member(Q)` remains downstream of the
-Pack/Part/Field CM certificate.
+Pack/Part/Field CM witness-face record.
 
 ## Verdict
 

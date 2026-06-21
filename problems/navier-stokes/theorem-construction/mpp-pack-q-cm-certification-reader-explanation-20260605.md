@@ -63,7 +63,7 @@ positive-radius same-fluid germ member is what supplies `Pack(Q)`.
 
 ## Certification consequence
 
-From the CM certification point of view, `Pack(Q)` is not a decorative
+From the CM witness-record point of view, `Pack(Q)` is not a decorative
 positive-radius convention. It is the first test that the terminal candidate is
 still a same-fluid Navier-Stokes object rather than a zero-radius residue.
 

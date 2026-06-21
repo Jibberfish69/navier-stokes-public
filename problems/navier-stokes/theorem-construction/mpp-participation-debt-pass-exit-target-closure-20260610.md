@@ -159,7 +159,7 @@ same-fluid carrier, the same pressure-viscosity participation tower, and a
 positive-scale coherent field readout at the depth needed for the `H^s`,
 `s>5/2`, continuation readout.
 
-That is exactly the retained CM certificate:
+That is exactly the retained CM witness record:
 
 ```text
 Pack_Q + Part_{N_s,Q} + Field_{N_s,r,Q}.

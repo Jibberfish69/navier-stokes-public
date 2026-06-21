@@ -36,7 +36,7 @@ Let `O` be a same-solution obstruction on a terminal window `Q`.
 
 1. `O` has a lawful smooth realization for the same obstruction field;
 2. that realization keeps the same-fluid continuation services needed for the
-   CM certificate;
+   CM witness record;
 3. by the installed membership readout, it gives
 
 ```text

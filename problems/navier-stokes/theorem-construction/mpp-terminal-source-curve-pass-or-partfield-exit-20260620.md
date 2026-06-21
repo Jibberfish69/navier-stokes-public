@@ -16,7 +16,7 @@ subsequential terminal atom, hence Part/Field exit on the same-solution branch.
 ```
 
 It uses the terminal source-curve compactness test and the installed
-`TerminalAtomPartFieldFirstExit.A` / uniform service-topology certification
+`TerminalAtomOriginalParticipationAuditExit.A` / uniform service-topology certification
 package.  It does not try another positive estimate for the endpoint modulus.
 
 ## 1. Measure lemma
@@ -136,7 +136,7 @@ The second branch produces a terminal atom:
 ```
 
 On the same-solution terminal branch, this is the object covered by the
-`TerminalAtomPartFieldFirstExit.A` package in its service-certification
+`TerminalAtomOriginalParticipationAuditExit.A` package in its service-certification
 reading.  Namely, after same-witness admission, a valid `Part` or `Field`
 survivor must carry the uniform service budget for that service, not merely a
 weak terminal measure.  The terminal atom has no endpoint window modulus, so

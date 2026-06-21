@@ -282,7 +282,7 @@ CM_{N,r,Q}
 Member(Q).
 ```
 
-The installed CM certificate direction gives `Member(Q)`.  The separate
+The installed CM witness-to-member direction gives `Member(Q)`.  The separate
 membership-to-smoothness row may then be invoked where the route has promoted
 that final membership consequence:
 
@@ -414,7 +414,7 @@ The closed and open targets are:
 | `Pack.FromFinitePhysicalCover.A` | installed |
 | `Part.TerminalClosedness.A` | installed |
 | `CM.Conjunction.A` | installed |
-| CM certificate direction `CM=>Member` | installed |
+| CM witness-to-member direction `CM=>Member` | installed |
 | `NoBadMaterialSet_{1/2}.A=>READ.COVER` | closed once the half-threshold bad set is empty |
 | `NoBadMaterialSet_{1/2}.A` | open from `OriginalSmoothData` |
 | `NoBadMaterialSet_{1/4}.A=>GoodScaleNonCollapse_{1/2}.A` | open unless threshold-flexible strict stability is installed |
