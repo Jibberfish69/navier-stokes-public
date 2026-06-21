@@ -19,6 +19,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-harmonic-pressure-memory-collar-routing-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-viscous-defect-dichotomy-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-terminal-trace-atom-routing-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-signed-saturation-residual-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-participation-tuple-coupling-breaker-live-edge-audit-20260621.md
 ---
 
@@ -523,10 +524,12 @@ loss on a stabilized carrier, through strong \(L^3\) velocity convergence.
 The local same-carrier pressure trace passes after Calderon-Zygmund pressure
 decomposition.  The viscous defect is either visible payment or strong gradient
 convergence.  Standard suitable compactness is still not enough for the full
-packet; harmonic pressure memory routes to collar/legal/terminal trace.  The
-remaining hidden failures are precisely unbounded selector complexity or carrier
-drift, signed saturation loss, endpoint storage jump/no-jump, or legal-routing
-loss.
+packet; harmonic pressure memory routes to collar/legal/terminal trace.  Finite
+signed-saturation donor graphs are paid by retained partners, legal exits,
+local donor balance, and entrance-leaf decay.  The remaining hidden failures
+are precisely unbounded selector complexity or carrier drift, terminal Zeno
+donor chain inherited from \(dN_{\rm miss}\), endpoint storage jump/no-jump, or
+legal-routing loss.
 
 The live-edge coupling audit forbids using the old breaker estimates at this
 point.  The selected packet must first carry
