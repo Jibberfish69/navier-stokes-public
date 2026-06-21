@@ -53,7 +53,49 @@ This is the order-locked full-packet object.  It is not the older object where
 one positive channel is selected before pressure, viscosity, time, and
 incompressibility are recombined.
 
-## 1. The production theorem
+## 1. Admissible selected tests
+
+The selected test \(\varphi_\sigma\) is not arbitrary.  It must be a finite
+same-carrier packet test built from the local energy-dual tower tests.
+
+For a finite rung \(W_{m,\alpha}\) with pressure \(Q_{m,\alpha}\), cutoff
+\(\chi_\sigma\), and tower forcing \(B_{m,\alpha}\),
+
+```math
+\left(\partial_s+V\cdot\nabla-\nu\Delta\right)W_{m,\alpha}
++\nabla Q_{m,\alpha}
+=
+-B_{m,\alpha},
+\qquad
+\nabla\cdot W_{m,\alpha}=0.
+\tag{FPS.3a}
+```
+
+The exact local participation identity is:
+
+```math
+\begin{aligned}
+{1\over2}{d\over ds}\int \chi_\sigma^2 |W_{m,\alpha}|^2
++\nu\int\chi_\sigma^2|\nabla W_{m,\alpha}|^2
+= {}&
+{1\over2}\int |W_{m,\alpha}|^2\,V\cdot\nabla(\chi_\sigma^2)\\
+&+\int Q_{m,\alpha}W_{m,\alpha}\cdot\nabla(\chi_\sigma^2)\\
+&-\nu\int \partial_k(\chi_\sigma^2)(W_{m,\alpha})_i
+\partial_k(W_{m,\alpha})_i\\
+&-\int \chi_\sigma^2 W_{m,\alpha}\cdot B_{m,\alpha}\\
+&+\int \chi_\sigma\,\partial_s\chi_\sigma\,|W_{m,\alpha}|^2 .
+\end{aligned}
+\tag{FPS.3b}
+```
+
+Factorial tower weights multiply `(FPS.3b)` and the Leibniz coefficients cancel
+inside the weighted \(B_{m,\alpha}\) convolution.  Selector motion, sign
+motion, label jumps, and collar motion enter through \(d\Lambda_{sel}\).  A
+test outside this finite same-carrier class is not an uncharged counterexample
+to the theorem; it is a selector/admissibility defect and enters
+\(d\Lambda_{sel}\) or \(d\Lambda_{legal}\).
+
+## 2. The production theorem
 
 On every retained same-carrier terminal packet whose selector is admissible in
 the full packet topology, the following distributional inequality holds:
@@ -71,7 +113,7 @@ d\mathfrak M_{vis}
 +d\mathfrak M_{legal}
 +T_\sigma\,dy\,ds\,d\sigma .
 }
-\tag{FPS.3}
+\tag{FPS.3c}
 ```
 
 Equivalently, when all measures have densities in \(\sigma\),
@@ -143,7 +185,7 @@ T\in L^1_\sigma .
 \tag{FPS.8}
 ```
 
-## 2. Exact channel decomposition
+## 3. Exact channel decomposition
 
 The full packet scalar has the decomposition:
 
@@ -216,9 +258,9 @@ d\Lambda_{legal}.
 
 Taking positive parts in `(FPS.9)` and using
 \([a+b]_+\le [a]_+ + [b]_+\), with the capacity term kept as the signed
-distributional drop in `(FPS.3)`, gives `(FPS.3)`--`(FPS.4)`.
+distributional drop in `(FPS.3c)`, gives `(FPS.3c)`--`(FPS.4)`.
 
-## 3. Proof of the decomposition
+## 4. Proof of the decomposition
 
 Start from the retained full local participation identity on the selected
 carrier:
@@ -234,9 +276,10 @@ in the interior, with localization, lifted weights, selector motion, sign
 records, terminal trace records, and legal collar/tail records carried as
 \(L_\sigma\) and \(S_\sigma\).
 
-Pair `(FPS.16)` with the selected packet test \(\varphi_\sigma\), perform the
-standard local integration by parts in the heat-scale variable, and define
-\(\Phi_\sigma^{cap}\) as the resulting four-body storage:
+Pair `(FPS.16)` with the selected packet test \(\varphi_\sigma\), expand
+\(\varphi_\sigma\) into the finite local energy-dual tower tests from
+`(FPS.3a)`--`(FPS.3b)`, and define \(\Phi_\sigma^{cap}\) as the resulting
+four-body storage:
 
 ```math
 \Phi_\sigma^{cap}
@@ -251,7 +294,7 @@ terms are the signed exchange storages whose derivatives cancel in the cyclic
 sum.  This definition is noncircular: it is built from the packet storages and
 exchange currents, not from \(A_{sel}\) or from \([h_\sigma]_+\).
 
-The integration-by-parts identity gives:
+The summed identity `(FPS.3b)`, after adding the four exchange storages, gives:
 
 ```math
 \begin{aligned}
@@ -328,9 +371,9 @@ leftover \(T_\sigma\) is the summable tail:
 \tag{FPS.21}
 ```
 
-This proves `(FPS.9)` and therefore `(FPS.3)`--`(FPS.8)`.
+This proves `(FPS.9)` and therefore `(FPS.3c)`--`(FPS.8)`.
 
-## 4. Lossless branch
+## 5. Lossless branch
 
 Assume selected activity persists:
 
@@ -427,7 +470,7 @@ A_{sel}(\mathcal K_n)\to A_{sel}(\mathcal K_\ast)=0,
 contradicting `(FPS.22)`.  Therefore persistent selected full-packet activity
 forces a positive full-cycle payment or a typed exit.
 
-## 5. Relation to the older native-source mismatch
+## 6. Relation to the older native-source mismatch
 
 This production step closes the boundary for the object defined in `(FPS.1)`,
 where the full packet is paired first and the positive part is taken afterward.
