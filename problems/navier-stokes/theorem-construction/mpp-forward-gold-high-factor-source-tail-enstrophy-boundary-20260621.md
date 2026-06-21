@@ -4,12 +4,30 @@ ns_viewer:
   status: exact-high-factor-negative-norm-bound-installed-selected-carrier-bridge-open
   proof_role: forward_gold_high_factor_source_boundary
   logical_landing_node: high_factor_source_tail_enstrophy_boundary
-  edge_effect: "After low-low source removal, the escaping source N_hi^(K) contains at least one high-frequency factor v_>K. The exact projected-divergence estimate gives ||N_hi^(K)||_{\dot H^{-1}} <= 2 b_K E^(1/2)||v_>K||_2 + C_GN ||v_>K||_2^(1/2)||grad v_>K||_2^(3/2), with b_K=(2pi)^(-3/2)(2K+1)^(3/2). Integrated over a terminal strip, this is controlled by theta K^(3/2)E plus theta^(1/4)E^(1/4) times high-tail enstrophy^(3/4). This is exact negative-norm visibility. It does not control the selected positive L1 carrier, because Leray/divergence negative norms and positive-part selection are separated by high-frequency cancellation. Therefore frequency escape still needs same-carrier source-square, selected critical-strain/CKN tail depletion, strict no-waste, polar saturation/no-free Zeno donor-chain control, or profile production."
+  edge_effect: >-
+    After low-low source removal, the escaping source N_hi^(K) contains at least
+    one high-frequency factor v_>K. The exact projected-divergence estimate gives
+    ||N_hi^(K)||_{\dot H^{-1}} <= 2 b_K E^(1/2)||v_>K||_2 + C_GN
+    ||v_>K||_2^(1/2)||grad v_>K||_2^(3/2), with
+    b_K=(2pi)^(-3/2)(2K+1)^(3/2). Integrated over a terminal strip, this is
+    controlled by theta K^(3/2)E plus theta^(1/4)E^(1/4) times high-tail
+    enstrophy^(3/4). This is exact negative-norm visibility. It does not control
+    the selected positive L1 carrier, because Leray/divergence negative norms and
+    positive-part selection are separated by high-frequency cancellation. Therefore
+    frequency escape still needs same-carrier source-square, selected
+    critical-strain/CKN tail depletion, strict no-waste, polar saturation/no-free
+    Zeno donor-chain control, or profile production.
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-source-atom-forces-frequency-escape-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-exact-nonlinear-source-norm-upgrade-test-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-negative-source-norm-to-positive-carrier-countermodel-20260621.md
-  downstream_consequence: "The high-frequency factor is visible in a negative Sobolev tail/enstrophy currency, but this currency is not the native selected positive endpoint carrier. The remaining gold bridge cannot be a bare high-tail negative-norm estimate; it must identify or coerce the same selected carrier through source-square, critical-strain/CKN, strict no-waste, polar saturation/no-free Zeno donor chain, or minimal profile production."
+  downstream_consequence: >-
+    The high-frequency factor is visible in a negative Sobolev tail/enstrophy
+    currency, but this currency is not the native selected positive endpoint
+    carrier. The remaining gold bridge cannot be a bare high-tail negative-norm
+    estimate; it must identify or coerce the same selected carrier through
+    source-square, critical-strain/CKN, strict no-waste, polar saturation/no-free
+    Zeno donor chain, or minimal profile production.
 ---
 
 # MPP Forward-Gold High-Factor Source Tail-Enstrophy Boundary
