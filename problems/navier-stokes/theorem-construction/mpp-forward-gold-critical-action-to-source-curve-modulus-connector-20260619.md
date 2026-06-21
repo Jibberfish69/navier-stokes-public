@@ -280,7 +280,7 @@ after subselection,
 ```
 
 On the same-solution terminal branch, the installed
-`TerminalAtomPartFieldFirstExit.A` package consumes `(CAM.21)` as
+`TerminalAtomOriginalParticipationAuditExit.A` package consumes `(CAM.21)` as
 
 ```math
 \mu(\{0\})>0

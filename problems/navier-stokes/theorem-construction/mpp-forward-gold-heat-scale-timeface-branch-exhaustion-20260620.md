@@ -365,7 +365,7 @@ moving-packet trace modulus/source-square/no-waste problem on the forward-gold
 side.  The separate pass-or-exit source-curve note records the branch only after
 same-witness admission and uniform service certification:
 consequence: failure of the endpoint modulus extracts a terminal atom, and the
-installed `TerminalAtomPartFieldFirstExit.A` package routes that atom to
+installed `TerminalAtomOriginalParticipationAuditExit.A` package routes that atom to
 `Part_{N,Q}` or `Field_{N,r,Q}` failure on the same-solution branch.
 
 ### 3.8 Compact source-residue rigidity and Door 2 stationarity
@@ -488,7 +488,7 @@ consumer, visibility theorem, or CM-facing fallback.
 
 The terminal source-curve fallback is now explicit: finite selected \(L^1_s\)
 mass gives endpoint uniform integrability or a terminal atom, and the terminal
-atom is already consumed by the Part/Field-first theorem.  This does not install
+atom is already consumed by the original-participation-before-Pack theorem.  This does not install
 the unweighted reserve `(HTE.35)`; it prevents the failed endpoint modulus from
 remaining as an independent in-class terminal branch.
 

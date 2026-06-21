@@ -140,7 +140,7 @@ This is the precise content of the source-curve pass-or-exit branch.
 
 ## 5. Boundary against overclaiming
 
-The older `PartFieldBeforePackStrength.A` attempt remains right about the
+The older `OriginalParticipationBeforePackStrength.A` attempt remains right about the
 analytic boundary: current Navier--Stokes estimates do not prove a new finite
 same-solution residence budget or one-field readout continuity budget for the
 selected carrier.

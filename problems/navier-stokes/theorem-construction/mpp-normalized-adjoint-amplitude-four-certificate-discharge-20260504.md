@@ -463,5 +463,5 @@ PCTP.hard/TTU.A.
 ```
 
 Boundary: this discharges the source-drain supplier route.  It does not by
-itself install the CM certificate direction into `Pack`, `Part`, `Field`, or
+itself install the CM witness-to-member direction into `Pack`, `Part`, `Field`, or
 `Member`, and it does not install the blunt converse `not CM=>not Member`.

@@ -25,7 +25,7 @@ proves
 ```
 
 or else a weak-* terminal atom appears at \(s=0\).  On the same-solution branch,
-that atom is consumed by `TerminalAtomPartFieldFirstExit.A`.
+that atom is consumed by `TerminalAtomOriginalParticipationAuditExit.A`.
 
 Thus endpoint concentration of finite \(L^1_s\) selected source mass is no
 longer an independent in-class terminal branch.

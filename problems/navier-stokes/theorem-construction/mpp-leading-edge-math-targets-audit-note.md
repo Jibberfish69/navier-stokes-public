@@ -41,7 +41,7 @@ currently says:
 
 ```math
 \boxed{
-\text{CM certificate direction installed}
+\text{CM witness-to-member direction installed}
 \quad+\quad
 \text{source-wall root reopened after SourceWall.Reconcile.A demotion}.
 }
@@ -619,7 +619,7 @@ canonicality ceiling plus its mixed-clause residual.
 Current classification:
 
 ```math
-\textbf{installed one-way CM certificate bridge on the current live edge.}
+\textbf{installed one-way CM witness record bridge on the current live edge.}
 ```
 
 Evidence:

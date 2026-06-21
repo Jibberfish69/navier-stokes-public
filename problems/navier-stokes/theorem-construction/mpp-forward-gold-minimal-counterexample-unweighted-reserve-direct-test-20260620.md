@@ -138,7 +138,7 @@ or an equivalent same-carrier source-square, reverse-Holder, positive trace AC,
 or strict no-waste theorem.  That is the forward-gold reading.  The CM reading
 is now supplied by the terminal source-curve pass-or-exit note: failure of
 `(MCUR.9)` produces the terminal atom, and the installed
-`TerminalAtomPartFieldFirstExit.A` theorem routes that atom to Part or Field
+`TerminalAtomOriginalParticipationAuditExit.A` theorem routes that atom to Part or Field
 failure.
 
 ### Case B: interior residence / first appearance

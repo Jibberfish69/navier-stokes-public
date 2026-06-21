@@ -119,7 +119,7 @@ profile.
 
 Failure of endpoint uniform integrability is not a fourth in-class
 forward-gold branch.  The terminal source-curve pass-or-exit package extracts a
-terminal atom from that failure, and `TerminalAtomPartFieldFirstExit.A` routes
+terminal atom from that failure, and `TerminalAtomOriginalParticipationAuditExit.A` routes
 the same-solution atom to a `Part` or `Field` face failure.
 
 So the endpoint branch is role-separated:

@@ -98,7 +98,7 @@ The minimal-counterexample/descent test localizes a failure to either a
 terminal endpoint atom or a first-created reserve charge.  The endpoint side is
 now accounted for by `mpp-terminal-source-curve-pass-or-partfield-exit-20260620.md`:
 failure of `TerminalMovingPacketTraceModulus.A` extracts a terminal atom, and
-the installed `TerminalAtomPartFieldFirstExit.A` package routes that atom to
+the installed `TerminalAtomOriginalParticipationAuditExit.A` package routes that atom to
 Part or Field failure on the same-solution branch.  The forward-gold residue is
 therefore the interior branch: `ReserveCreationCharge.A` for first-created
 unweighted reserve.

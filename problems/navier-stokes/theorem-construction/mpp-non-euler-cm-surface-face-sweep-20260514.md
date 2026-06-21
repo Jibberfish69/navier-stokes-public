@@ -313,7 +313,7 @@ with fixed-nu Euler transfer entries removed. It is a theorem-packet subcase of
 | 21 | `mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md` | LCI support into `Field` |
 | 22 | `mpp-lci-a-direct-transported-center-package-note.md` | DTC/LCI support into `Field` |
 | 23 | `mpp-class-membership-endpoint-matrix-closure-contract-note.md` | endpoint matrix: `(Pack, packing-detached)`, `(Part, Dead)`, `(Field, Jump)` plus tower/cross bookkeeping |
-| 24 | `mpp-class-membership-full-bridge-ledger-note.md` | bridge ledger; ordered Pack/Part/Field certificate, not a new face |
+| 24 | `mpp-class-membership-full-bridge-ledger-note.md` | bridge ledger; ordered Pack/Part/Field witness-face record, not a new face |
 | 25 | `mpp-readout-endpoint-compatibility-completion-note.md` | readout bridge: `Field.Read`, `DTC.Read`, `READ.END`; downstream from CM |
 | 26 | `mpp-lci-a-pre-csp-still-live-receiver-admission-note.md` | receiver admission into `Field` chain |
 | 27 | `mpp-collar-to-jump-pivot-note.md` | diagnostic sidecar; possible `Field/Jump` manifestation, not installed as a face |
