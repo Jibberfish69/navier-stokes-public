@@ -82,7 +82,7 @@ frontier_context:
       - Exit(Q):=not Member(Q)
       - Pack_Q / Part_{N,Q} / Field_{N,r,Q}
       - 'PackBeforePartDependencyResurfacing.A: pre-Pack or singular not-Pack branches
-        must test pointwise original-NS participation before not Pack_Q is spent'
+        must test the original NS participation law before not Pack_Q is spent'
       - 'Pack/Part/Field as overlapping witness axes: Pack has fixed-box flux and
         finite-window material-coordinate readings; Part is same pressure-viscosity
         carrier law; Field is neighboring tower coherence'
@@ -140,7 +140,7 @@ frontier_context:
     propagated_object: same-fluid Pack/Part/Field witness-face envelope; Member(Q)
       is the forward membership predicate
     promotion_gate: Silver Pack_Q, Part_{N,Q}, or Field_{N,r,Q} witness-face landing
-      after Pack admission, plus Part-first resurfacing before any pre-Pack not-Pack
+      after Pack admission, plus original-participation audit before any pre-Pack not-Pack
       disposal
     current_role: governing proof grammar for CM-bearing promotion
     governing_engine_note: problems/navier-stokes/theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
@@ -159,7 +159,7 @@ frontier_context:
       a fail branch. The pass branch is the in-class `Member(Q)` branch and may be
       supplied by any lawful continuation mechanism. The fail branch is lawful CM
       contrapositive work only when the failure is capable of nonsmoothness and lands
-      as a Pack, Part, or Field face failure, or as a Part-first resurfacing of a
+      as a Pack, Part, or Field face failure, or as a original-participation audit of a
       pre-Pack branch, supporting `Exit(Q):=not Member(Q)`. Do not replace this engine
       with a demand to prove one particular positive estimate directly.
     no_third_branch_rule: The installed no-third-branch audit proves that no terminal
@@ -582,7 +582,7 @@ frontier_context:
     statement: Positive smoothness control and every surface indexed in the forward-positive
       quarantine ledger are not the CM contrapositive unless a named bridge proves
       membership, a Silver witness-face landing in Pack_Q, Part_{N,Q}, or Field_{N,r,Q},
-      or the pre-Pack Part-first resurfacing needed before not Pack_Q can be spent.
+      or the pre-Pack original-participation audit needed before not Pack_Q can be spent.
   - rule_id: fixed-nu-transfer-vs-ns-smoothness
     statement: Fixed-nu Euler-to-NS transfer compares two equations on the same datum
       and interval; it does not prove Euler smoothness or stand-alone NS smoothness.
