@@ -330,7 +330,7 @@ The first term vanishes by incompressibility in the closed selected pairing.
 Thus
 
 ```math
-\mathcal M_\sigma
+\mathcal M_\sigma^{tr}
 =
 \mathcal C_\sigma^{tr},
 \qquad
@@ -511,7 +511,7 @@ The exact surviving bridge is:
 \text{bounded same-carrier amplitude/Field supplement}
 \ \text{or critical density}
 \ \text{or source-square/no-waste}
-\ \text{or pressure-adapted no-residue skew}
+\ \text{or participation-preserving no-residue full-cycle}
 \ \text{or signed saturation}
 \ \text{or rigid profile production}.
 \end{aligned}
