@@ -30,12 +30,12 @@ SourceWallRootAfterMinimalBridge.A. Find the missing local bridge that is strict
 
 ### Retrieved Ingredients
 
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:123 -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:60 -- Pack/Part bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:123 -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:60 -- Part/Field bridge support
 
 ### Recursive Solver Chain
 
@@ -72,7 +72,7 @@ SourceWallRootAfterMinimalBridge.A. Find the missing local bridge that is strict
 1. Name the strongest installed inputs.
 2. State the weakest bridge they imply.
 3. Audit that the bridge does not import the target conclusion.
-4. Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
+4. Use problems/navier-stokes/theorem-packet.yaml as source support for Part/Field bridge support.
 
 ## Circularity Audit
 

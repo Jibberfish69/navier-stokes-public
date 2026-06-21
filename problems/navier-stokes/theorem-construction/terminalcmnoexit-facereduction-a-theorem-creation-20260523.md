@@ -9,7 +9,7 @@
 
 ## Created Theorem
 
-TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A reduce NoGenuineCMExit to the Field-certification CM exit tree: ScaleCriticalTreeCarleson.A is the Pack-side donor-refill landing, followed only by Part and licensed Field if Pack survives.
+TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPacketCapture.A, AnyFiniteFailureWitnessCMExit.A, GenuineCMExit.Equiv.A, and TerminalSourceResidueCMExit.A reduce NoGenuineCMExit to the Field-certification CM exit tree: ScaleCriticalTreeCarleson.A is the Field-window support donor-refill landing, followed only by Part and licensed Field if Pack survives.
 
 ## Inventive Search
 
@@ -29,8 +29,8 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
 - problems/navier-stokes/agent-contract.yaml:53 -- source ingredient
 - problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
 
@@ -57,12 +57,12 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 - not Pack_Q
 - Part/Field
 - HeightFluxControl.A. Turn the remaining positive source-reserve birth charge into the first proof-facing sampling theorem: a first large retained height-flux event must create Pack gain, Part/dwell failure, legal Field source charge, or a Zeno terminal residue atom. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive HeightFluxControl.A exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
-- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for original participation law status, giving not Part_{N,Q} when same-solution participation remains and true not Pack_Q only when the participation record is absent. This is a CM Part/Field-reduction theorem, not a forward no-free-sink supplier discharge.
+- TerminalSignedSaturationCMFaceReduction.A. In the CM contrapositive route with Exit(Q):=not Member(Q), every failure of TerminalSignedSaturation.A is paid by retained signed partners, legal exits, ASAC pair-weight charge, finite donor balance, or else becomes a terminal zero-radius source residue; that residue is first audited for original participation law status, giving not Part_{N,Q} when same-solution participation remains and packet/window evidence only when the participation record is absent. This is a CM Part/Field-reduction theorem, not a forward no-free-sink supplier discharge.
 - Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail, and windowwise leakage ledgers sum to the Pack_Q scale-critical donor-refill Carleson bound; an unpaid infinite donor-refill tree is therefore a Pack-face exit witness.
-- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-out-of-CM audit.
+- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Part/Field witness support by the Pack-out-of-CM audit.
 
 ## Forbidden Imports
 
@@ -78,8 +78,8 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 1. Start from original smooth data and an alleged finite terminal tail.
 2. Use CanonicalTerminalPacketCapture.A and AnyFiniteFailureWitnessCMExit.A to force any terminal obstruction into Part or Field.
 3. Use GenuineCMExit.Equiv.A to read genuine terminal non-continuation through first failed continuation-complete Part/Field face.
-4. Use TerminalSourceResidueCMExit.A only as source-residue sorting into Pack/Part; do not treat anti-atom deletion or source absolute continuity as the Field face.
-5. Send the Field-window branch to ScaleCriticalTreeCarleson.A as the donor-refill Pack-side exit theorem, not to an original-data positive survivor theorem.
+4. Use TerminalSourceResidueCMExit.A only as source-residue sorting into Part/Field; do not treat anti-atom deletion or source absolute continuity as the Field face.
+5. Send the Field-window branch to ScaleCriticalTreeCarleson.A as the donor-refill Field-window support exit theorem, not to an original-data positive survivor theorem.
 6. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 7. Recursive solver step for ScaleCriticalTreeCarleson.A: Use WindowwiseReserveCarleson.A to localize reserve increments to terminal heat windows.
 8. Recursive solver step for ScaleCriticalTreeCarleson.A: Use ReserveCreationCharge.A and TerminalReserveFirstAppearanceCharge.A to split inherited reserve from first appearances.
@@ -114,7 +114,7 @@ TerminalCMNoExit.FaceReduction.A. For original smooth data, CanonicalTerminalPac
 37. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Partition selected terminal source-current edges into retained signed partners, legal exits, finite donor sinks, and terminal Zeno refill.
 38. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Pay retained partners by ASAC pair-weight charge, legal exits by declared ledgers, and finite donor sinks by LocalDonorBalance.A plus EntranceLeafDecay.A.
 39. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Route the only unpaid terminal Zeno refill to the produced B_ASAC terminal residue class.
-40. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Apply the terminal Zeno Pack-out-of-CM correction: a zero-radius terminal source residue lands Part-side when same-solution original participation remains and true not Pack_Q only when that record is absent.
+40. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Apply the terminal Zeno Pack-out-of-CM correction: a zero-radius terminal source residue lands Part-side when same-solution original participation remains and packet/window evidence only when that record is absent.
 41. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Use BASACTerminalAtomCMFaceLabeling.A to record any incoming flux, CM envelope blowout, or paid exit as Part/Field witness exit.
 42. Recursive solver step for TerminalSignedSaturationCMFaceReduction.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 

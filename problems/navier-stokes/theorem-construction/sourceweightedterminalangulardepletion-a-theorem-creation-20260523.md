@@ -4,12 +4,12 @@
 
 - target obligation: SourceWeightedTerminalAngularDepletion.A
 - target label: source-weighted terminal angular depletion for the selected positive source carrier
-- route role: Use the audited material-eigenframe split and installed ASAC/legal/donor payments to reduce SourceWeightedTerminalAngularDepletion.A to the selected TerminalWeightedNoFreeSink.A_ind branch; ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A then sharpen the surviving terminal Zeno refill to the B_ASAC equality class. In the CM contrapositive program the zero-radius B_ASAC residue is Pack/Part witness support, not a Field/Member promotion or a live CM anti-atom deletion target.
+- route role: Use the audited material-eigenframe split and installed ASAC/legal/donor payments to reduce SourceWeightedTerminalAngularDepletion.A to the selected TerminalWeightedNoFreeSink.A_ind branch; ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A then sharpen the surviving terminal Zeno refill to the B_ASAC equality class. In the CM contrapositive program the zero-radius B_ASAC residue is Part/Field witness support, not a Field/Member promotion or a live CM anti-atom deletion target.
 - theorem family: generic-bridge-theorem
 
 ## Created Theorem
 
-SourceWeightedTerminalAngularDepletion.A. The material-eigenframe split, ASAC/legal/donor ledgers, and installed B_ASAC equality-class production reduce the selected source-weighted terminal angular carrier to the forward positive-supplier anti-concentration theorem BASACTerminalSourceAntiConcentration.A; in the CM contrapositive route the zero-radius B_ASAC residue remains Pack/Part witness support, not a Field or Member promotion.
+SourceWeightedTerminalAngularDepletion.A. The material-eigenframe split, ASAC/legal/donor ledgers, and installed B_ASAC equality-class production reduce the selected source-weighted terminal angular carrier to the forward positive-supplier anti-concentration theorem BASACTerminalSourceAntiConcentration.A; in the CM contrapositive route the zero-radius B_ASAC residue remains Part/Field witness support, not a Field or Member promotion.
 
 ## Inventive Search
 
@@ -19,7 +19,7 @@ SourceWeightedTerminalAngularDepletion.A. The material-eigenframe split, ASAC/le
 - selected_mechanism: source_weighted_angular_to_basac_no_free_sink
 - candidate_count: 1
 - solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: Use the audited material-eigenframe split and installed ASAC/legal/donor payments to reduce SourceWeightedTerminalAngularDepletion.A to the selected TerminalWeightedNoFreeSink.A_ind branch; ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A then sharpen the surviving terminal Zeno refill to the B_ASAC equality class. In the CM contrapositive program the zero-radius B_ASAC residue is Pack/Part witness support, not a Field/Member promotion or a live CM anti-atom deletion target. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to BASACTerminalSourceAntiConcentration.A rather than pretending the frontier is closed.
+- selection_reason: This theorem is the right next move because it changes the proof economy: Use the audited material-eigenframe split and installed ASAC/legal/donor payments to reduce SourceWeightedTerminalAngularDepletion.A to the selected TerminalWeightedNoFreeSink.A_ind branch; ASACDefectMeasure.A and TerminalNoFreeSinkEqualityClassProduction.A then sharpen the surviving terminal Zeno refill to the B_ASAC equality class. In the CM contrapositive program the zero-radius B_ASAC residue is Part/Field witness support, not a Field/Member promotion or a live CM anti-atom deletion target. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to BASACTerminalSourceAntiConcentration.A rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
@@ -55,7 +55,7 @@ SourceWeightedTerminalAngularDepletion.A. The material-eigenframe split, ASAC/le
 - Pack landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Part landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
 - Field landing bridge for TerminalCMNoExit.A / NoGenuineCMExit.A
-- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Pack/Part witness support by the Pack-out-of-CM audit.
+- BASACReverseHolderProduction.A. Producing a reverse-Holder B_ASAC^RH(p) subclass is quarantined downstream no-pulse/source-control support; the installed B_ASAC equality-class clauses allow finite L^1_t terminal-layer concentration, but this production is not a terminal Zeno CM burden after the zero-radius residue is sorted as Part/Field witness support by the Pack-out-of-CM audit.
 
 ## Forbidden Imports
 
@@ -71,7 +71,7 @@ SourceWeightedTerminalAngularDepletion.A. The material-eigenframe split, ASAC/le
 2. Use ASAC.A, projected-cutoff, boundary, pressure/collar/off-family ledgers, LocalDonorBalance.A, and EntranceLeafDecay.A to pay retained partners, legal exits, and finite donor trees.
 3. Reduce the unpaid selected source-current to TerminalWeightedNoFreeSink.A_ind and then to the terminal Zeno refill case.
 4. Use ASACDefectMeasure.A plus TerminalNoFreeSinkEqualityClassProduction.A to produce B_ASAC as the equality class for any surviving terminal Zeno refill.
-5. Keep the remaining forward supplier as B_ASAC terminal source anti-concentration / Zeno residue Liouville, while recording that the CM contrapositive route consumes the zero-radius residue as Pack/Part witness support.
+5. Keep the remaining forward supplier as B_ASAC terminal source anti-concentration / Zeno residue Liouville, while recording that the CM contrapositive route consumes the zero-radius residue as Part/Field witness support.
 6. Use problems/navier-stokes/theorem-packet.yaml as source support for source ingredient.
 7. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
