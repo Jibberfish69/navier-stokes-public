@@ -157,8 +157,8 @@ arcs:
   context_cost: 513
   completion_test: finished TeX prose for every spine_ref, verified mechanically,
     then integrated through source-spine backend
-- arc_id: pack-part-field-grammar
-  title: Pack/Part/Field witness grammar
+- arc_id: part-field-grammar
+  title: Part/Field witness grammar
   priority: 4
   status: ready_for_author_packet
   author_job: write the witness-face grammar and the contrapositive class-exit proof
