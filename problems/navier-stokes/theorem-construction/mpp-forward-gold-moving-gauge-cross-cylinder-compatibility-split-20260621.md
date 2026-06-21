@@ -307,35 +307,35 @@ The fixed-chain annular-share fork remains valid after gauge fixing:
 \quad\text{or}\quad
 \text{nested-core atom}
 \right].
-\tag{MGC.20}
+\tag{MGC.21}
 \]
 
 Before gauge fixing, the exact moving-gauge fork is:
 
 \[
 \boxed{
-\text{off-core child cylinder}
+\text{unpaid moving-gauge symmetric-difference defect}
 \Longrightarrow
-\text{annular/collar visible mass,}
+\text{annular/collar/source/legal visibility,}
 }
-\tag{MGC.21}
+\tag{MGC.22}
 \]
 
 or
 
 \[
 \boxed{
-\text{core-following child cylinder}
+\text{paid moving-gauge defect}
 \Longrightarrow
 \text{fixed-chain nested-core analysis plus no-drift/profile burden.}
 }
-\tag{MGC.22}
+\tag{MGC.23}
 \]
 
 This prevents two errors. First, one cannot apply the fixed-chain telescoping
 lemma to a moving-center branch without checking `(MGC.13)`. Second, one cannot
-treat moving-gauge drift as invisible by default: off-core drift is visible in
-the parent annulus or collar.
+treat moving-gauge drift as invisible by default: it either pays the
+symmetric-difference defect or remains a selected-carrier drift defect.
 
 ## Verdict
 
@@ -344,18 +344,18 @@ gauges, but the child carrier lands in
 
 \[
 B_{\lambda_j}(b_j)\times[-\lambda_j^2,0].
-\tag{MGC.23}
+\tag{MGC.24}
 \]
 
 Therefore the remaining drift branch is sharpened to:
 
 \[
 \boxed{
-\text{off-core annular/collar visibility}
+\text{moving-gauge symmetric-difference visibility}
 \quad\text{or}\quad
-\text{core-following no-drift/unique-tangent/profile production.}
+\text{paid-gauge no-drift/unique-tangent/profile production.}
 }
-\tag{MGC.24}
+\tag{MGC.25}
 \]
 
 No forward-gold anti-atom theorem is proved here. The note installs the exact
