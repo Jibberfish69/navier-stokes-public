@@ -179,9 +179,7 @@ chunk:
       This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof state uses finite Clay witness entry, Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse not CM => not Member is not an active blocker for the current CM proof.
 
       \[
-      CM_{N,r,Q}
-      :=
-      Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
       Equivalently, a failed route-relative certificate at a selected depth/scale is not by itself a theorem-grade proof that the object has exited the working class.
@@ -189,7 +187,7 @@ chunk:
       This is weaker than the pointwise logical converse CM N,r,Q Member(Q; O NS work ).
 
       \[
-      CM_{N,r,Q}:=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}
       \]
 
       \[
@@ -218,13 +216,7 @@ chunk:
       This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof state uses finite Clay witness entry, Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse not CM => not Member is not an active blocker for the current CM proof.
 
       \[
-      CM_{N,r,Q}
-      =
-      Pack_Q
-      \wedge
-      Part_{N,Q}
-      \wedge
-      Field_{N,r,Q}.
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
       That statement remains a possible sufficient theorem, but it is not the route-faithful primary target.
@@ -416,9 +408,7 @@ chunk:
     This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof state uses finite Clay witness entry, Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse not CM => not Member is not an active blocker for the current CM proof.
 
     \[
-    CM_{N,r,Q}
-    :=
-    Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     Equivalently, a failed route-relative certificate at a selected depth/scale is not by itself a theorem-grade proof that the object has exited the working class.
@@ -426,7 +416,7 @@ chunk:
     This is weaker than the pointwise logical converse CM N,r,Q Member(Q; O NS work ).
 
     \[
-    CM_{N,r,Q}:=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}
     \]
 
     \[
@@ -444,13 +434,7 @@ chunk:
     This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof state uses finite Clay witness entry, Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse not CM => not Member is not an active blocker for the current CM proof.
 
     \[
-    CM_{N,r,Q}
-    =
-    Pack_Q
-    \wedge
-    Part_{N,Q}
-    \wedge
-    Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     That statement remains a possible sufficient theorem, but it is not the route-faithful primary target.

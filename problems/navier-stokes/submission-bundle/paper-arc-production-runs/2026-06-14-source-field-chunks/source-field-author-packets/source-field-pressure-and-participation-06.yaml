@@ -178,7 +178,7 @@ chunk:
       where Source Measure Participation Density Bridge.A reads the native positive source residue as a shared-participation source-current trace, and M CM(N,r,Q)<infty is the retained Part/Field source-current envelope.
 
       \[
-      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q},
       \]
 
       The desired proof would treat src,+ as the positive part of a conserved transported participation current. One would integrate a continuity law on the transported packet region and estimate the interior residence by the finite CM envelope, leaving only incoming boundary flux.
@@ -507,7 +507,7 @@ chunk:
     where Source Measure Participation Density Bridge.A reads the native positive source residue as a shared-participation source-current trace, and M CM(N,r,Q)<infty is the retained Part/Field source-current envelope.
 
     \[
-    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q},
     \]
 
     The desired proof would treat src,+ as the positive part of a conserved transported participation current. One would integrate a continuity law on the transported packet region and estimate the interior residence by the finite CM envelope, leaving only incoming boundary flux.
