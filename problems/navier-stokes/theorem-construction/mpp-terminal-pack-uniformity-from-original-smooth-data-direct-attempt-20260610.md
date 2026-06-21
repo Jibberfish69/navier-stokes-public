@@ -11,7 +11,7 @@ claim_boundary:
   downstream_consequence: "The first-Pack wall remains open below OriginalSmoothDataPackSurvival.A. Future progress must prove a reflection theorem forcing terminal Pack loss to appear before T_*, a terminal compactness modulus, or another non-alias Pack-survival theorem. pdfs_final remains false."
 evidence_refs:
   - problems/navier-stokes/theorem-construction/mpp-same-solution-preterminal-pack-persistence-direct-attempt-20260610.md
-  - problems/navier-stokes/theorem-construction/mpp-no-proof-bearing-first-face-failure-target-audit-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-no-proof-bearing-first-Part/Field-failure-target-audit-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-original-smooth-data-pack-survival-scalecritical-reentry-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-clay-breakdown-preterminal-reflection-proof-attempt-20260524.md
 ---

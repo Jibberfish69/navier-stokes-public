@@ -4,7 +4,7 @@ ns_viewer:
   status: proved-structural-dichotomy-open-ns-rate-supplier
   proof_role: active_completion_dissipation_return_clock
   logical_landing_node: terminal_peak_backoff_vortex_return_dichotomy
-  edge_effect: "Refines VortexPeakReturnDebt.A and TerminalPeakBackoff.A: a positive-radius packet peak cannot erase its return interval without either paying total variation/return budget or causing a CM face failure."
+  edge_effect: "Refines VortexPeakReturnDebt.A and TerminalPeakBackoff.A: a positive-radius packet peak cannot erase its return interval without either paying total variation/return budget or causing a CM Part/Field failure."
   upstream_origin:
     - /Users/thomasbirnie/.codex/attachments/9bf84840-083e-49fc-b943-7844429d4713/pasted-text.txt
     - problems/navier-stokes/theorem-construction/mpp-participation-debt-mechanism-reentry-20260610.md
@@ -135,7 +135,7 @@ can collapse to zero only if the return-rate budget grows fast enough to pay
 the peak debt.
 
 This is exactly where the Navier-Stokes supplier must enter. A finished proof
-needs a lawful bound on `B(A,r)` or a CM face classification for the branch
+needs a lawful bound on `B(A,r)` or a CM Part/Field classification for the branch
 where `B(A,r)` becomes unbounded.
 
 ## Terminal Peak Dichotomy
@@ -203,7 +203,7 @@ If a vortex winds tighter, at least one of the packet readouts increases. That
 increase must be paid by incoming work, pressure response, viscous boundary
 exchange, or donor load. If the vortex later returns, the return-clock lemma
 charges the decrease. If it never returns and becomes singular, the branch moves
-to payability or CM face classification.
+to payability or CM Part/Field classification.
 
 ## Relation To The First Terminal Pack/Source Failure
 
@@ -216,7 +216,7 @@ then the layer disappears as a boundary artifact.
 
 This note blocks that picture from being treated as a free smooth continuation.
 The branch must either pay a return budget or land as Pack / Part / Field
-support. The low-high endpoint-source notes already prove the Pack-first
+support. The low-high endpoint-source notes already prove the Field-certification
 landing for the zero-thickness endpoint source atom with no retained carrier.
 
 ## Remaining Mathematical Supplier
@@ -226,7 +226,7 @@ The open Navier-Stokes theorem is:
 ```text
 find the lawful return-rate budget B(A,r)
 for the selected packet readout,
-or prove that every branch where B(A,r) becomes unbounded is a CM face exit.
+or prove that every branch where B(A,r) becomes unbounded is a CM Part/Field exit.
 ```
 
 That supplier belongs with:

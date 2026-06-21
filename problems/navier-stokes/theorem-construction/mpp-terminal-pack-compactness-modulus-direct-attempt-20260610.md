@@ -7,7 +7,7 @@ governing_program: "Exit(Q):=not Member(Q) through Pack_Q / Part_{N,Q} / Field_{
 claim_boundary:
   logical_landing_node: TerminalPackCompactnessModulus.A / OriginalSmoothDataPackSurvival.A
   claim_status: not_proved
-  edge_effect: "Tests whether same-solution preterminal Pack witnesses have enough compactness to produce a terminal Pack modulus. They do not under current inputs: compactness extracts terminal measures and profiles, but it does not exclude zero-thickness terminal Pack atoms or prove uniform tree-Carleson tightness."
+  edge_effect: "Tests whether same-solution preterminal Field-window supportes have enough compactness to produce a terminal Pack modulus. They do not under current inputs: compactness extracts terminal measures and profiles, but it does not exclude zero-thickness terminal Pack atoms or prove uniform tree-Carleson tightness."
   downstream_consequence: "The first-Pack wall remains open. The next theorem must supply uniform terminal Pack tightness, no-zero-thickness positive Pack atom, or a genuinely new first-Pack survival mechanism. pdfs_final remains false."
 evidence_refs:
   - problems/navier-stokes/theorem-construction/mpp-terminal-pack-uniformity-from-original-smooth-data-direct-attempt-20260610.md
@@ -44,7 +44,7 @@ terminal defect rather than remove it.
 
 # Direct Attempt
 
-Let the preterminal Pack witnesses approach `T_*`. A compactness-modulus proof
+Let the preterminal Field-window supportes approach `T_*`. A compactness-modulus proof
 would need uniform tightness for the selected positive Pack source/tree measure:
 
 ```text

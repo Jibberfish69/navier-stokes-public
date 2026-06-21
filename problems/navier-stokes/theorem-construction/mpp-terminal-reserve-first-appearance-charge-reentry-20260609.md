@@ -12,7 +12,7 @@ TerminalReserveFirstAppearanceCharge.A / ChargeLedgerInjection.A.
 
 It must prove that a genuinely new terminal positive source-reserve birth is
 inherited from `Past(W)`, injected into `Charge_N(W)`, or becomes a concrete
-Pack/Part/Field witness-face failure.
+Part/Field witness failure.
 
 ## Checked reduction
 

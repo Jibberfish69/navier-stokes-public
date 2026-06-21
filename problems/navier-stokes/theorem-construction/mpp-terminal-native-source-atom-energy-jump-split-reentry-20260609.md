@@ -20,7 +20,7 @@ nonzero B_ASAC terminal native positive source atom
 => high-frequency energy jump,
    active-square source-time cost,
    legal/ASAC/pressure-source payment,
-   or a proof-bearing Pack/Part/Field first-exit witness strong enough to feed
+   or a proof-bearing Part/Field first-exit witness strong enough to feed
       OriginalSmoothDataPackSurvival.A.
 ```
 
@@ -132,10 +132,10 @@ payment exists, it must be a new theorem identifying the selected native source
 atom with one of those ledgers. The prior pressure and ASAC passes found no
 such theorem from installed inputs.
 
-## Pack/Part/Field face test
+## Part/Field face test
 
 A terminal zero-thickness native source atom can be classified as a CM
-Pack/Part/Field face obstruction. That is useful for:
+Part/Field face obstruction. That is useful for:
 
 ```text
 Exit(Q):=not Member(Q).
@@ -159,7 +159,7 @@ The split reduces to two already consumed possibilities:
 
 ```text
 active-square / source-normalization payment,
-or CM face classification.
+or CM Part/Field classification.
 ```
 
 The first is not installed. The second is not public finality.
@@ -201,7 +201,7 @@ source normalization.
 produce a new proof of first-exit Pack survival. The shell balance allows a
 source-balanced terminal pulse to replenish viscous damping without forcing a
 usable high-frequency energy jump. The active-square branch returns to consumed
-source-normalization suppliers, while Pack/Part/Field landing remains
+source-normalization suppliers, while Part/Field landing remains
 classification rather than public Clay finality. The next pass must attack
 `QuantitativeSourceDissipationAbsoluteContinuity.A` as a new source-time
 production theorem and keep `pdfs_final: false`.

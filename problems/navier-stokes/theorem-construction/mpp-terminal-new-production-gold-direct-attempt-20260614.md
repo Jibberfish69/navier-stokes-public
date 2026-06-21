@@ -333,7 +333,7 @@ branch is consumed by the already written CM split:
 
 ```text
 finite nonsmooth admitted same-solution obstruction
-=> first concrete Pack/Part/Field face failure
+=> first concrete Part/Field Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 

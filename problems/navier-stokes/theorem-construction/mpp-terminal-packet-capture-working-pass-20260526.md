@@ -13,7 +13,7 @@ Attempt the actual CM-contrapositive math:
 
 ```text
 Clay finite breakdown witness
-=> same-fluid finite terminal CM packet object
+=> same-fluid finite terminal CM participation-field record object
 => primitive failure service exhausted by Pack_Q, Part_{N,Q}, Field_{N,r,Q}
 => Exit(Q):=not Member(Q).
 ```
@@ -24,7 +24,7 @@ This pass holds the governing program fixed:
 Exit(Q):=not Member(Q)
 ```
 
-through the Pack-first witness tree
+through the Field-certification witness tree
 
 ```text
 Pack_Q,
@@ -34,7 +34,7 @@ Field_{N,r,Q}.
 
 It does not replace the target by a positive theorem saying that smooth data
 never exits CM, and it does not count a bad terminal branch as `Exit(Q)` before
-a Pack/Part/Field face failure is derived.
+a Part/Field Part/Field failure is derived.
 
 ## Sources Inspected
 
@@ -65,7 +65,7 @@ The alleged Clay breakdown witness is the same original solution stopped at
 Fix `s>5/2` and a continuation depth `N_s` high enough for the installed
 classical continuation readout.
 
-A terminal CM packet record is a same-fluid terminal tail
+A terminal CM participation-field record record is a same-fluid terminal tail
 
 ```text
 Q_* = (u_0, nu, u, p, Phi, T_*, N_s)
@@ -92,7 +92,7 @@ admissibility clauses:
 1. `Q_*` is selected from the same preterminal smooth solution and keeps the
    original datum, pressure, viscosity, velocity, and transported carrier
    family until the first failed service is declared.
-2. The continuation-complete CM packet on `Q_*` is exactly the three-service
+2. The continuation-complete CM participation-field record on `Q_*` is exactly the three-service
    packet
 
    ```text
@@ -101,7 +101,7 @@ admissibility clauses:
 
    together with the installed `H^s`, `s>5/2`, readout bridge.
 
-Then the terminal packet is exhausted by the Pack-before-Part audited face split:
+Then the terminal packet is exhausted by the Pack-out-of-CM audited face split:
 
 ```text
 not Pack_Q
@@ -151,7 +151,7 @@ Pack_Q + Part_{N_s,Q} + forall r>0 not Field_{N_s,r,Q}.
 ```
 
 The three cases are ordered by the first surviving question in the same
-record. This proves the conditional Pack-first exhaustion.
+record. This proves the conditional Field-certification exhaustion.
 
 ## What Lemma 1 Actually Proves
 
@@ -166,7 +166,7 @@ admission of `Q_*` and the readout completeness of the chosen packet.
 
 Start with the finite Clay breakdown assumption. For every `epsilon>0`, the
 solution is classical on `[0,T_* - epsilon]`. The still-live smooth-window
-surfaces give local Pack/Part/Field packets on each compact preterminal window.
+surfaces give local Part/Field packets on each compact preterminal window.
 
 The natural construction is:
 
@@ -174,7 +174,7 @@ The natural construction is:
    terminal obstruction;
 2. choose packet records `Q_j` from the same transported preterminal family;
 3. pass to a terminal tail `Q_*`;
-4. declare the first failed terminal service in the Pack-before-Part audited order.
+4. declare the first failed terminal service in the Pack-out-of-CM audited order.
 
 This construction is valid as a proof scheme, but the inspected sources do not
 yet supply the referee theorem that makes step 3 canonical and complete.
@@ -186,7 +186,7 @@ selection/completeness theorem:
 TerminalSelectionCompleteness.A:
 Every finite Clay breakdown witness has a same-fluid terminal packet tail Q_*
 such that all obstruction-bearing terminal mass is either:
-  (a) carried by Q_* and tested by Pack/Part/Field,
+  (a) carried by Q_* and tested by Part/Field,
   (b) removed as legal loss, readout-only residue, non-selected branch, or paid
       finite term,
   (c) or itself counted as the Pack-side failure of finite same-fluid packet
@@ -203,7 +203,7 @@ The current repo proves the conditional trichotomy:
 
 ```text
 CM-test-admissible terminal packet
-=> first failed Pack/Part/Field service
+=> first failed Part/Field service
 => Exit(Q):=not Member(Q).
 ```
 
@@ -318,7 +318,7 @@ TerminalSelectionCompleteness.A
 + PackDefinitionUnification.A
 ```
 
-Once those are proved, the inspected Pack-first trichotomy supplies the
+Once those are proved, the inspected Field-certification trichotomy supplies the
 desired CM exit result.
 
 If one of these three atoms turns out impossible, that is an authentic logical

@@ -113,7 +113,7 @@ BASACTerminalSourceAntiConcentration.A
 
 It must prove that a terminal native positive source atom in `B_ASAC` cannot be
 simultaneously parent-diffuse, zero-thickness in time, and pressure/eigenframe
-sustained without same-ledger source payment or Pack/Part/Field face failure.
+sustained without same-ledger source payment or Part/Field Part/Field failure.
 
 ## Route effect
 
