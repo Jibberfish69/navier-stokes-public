@@ -519,20 +519,20 @@ The exact surviving bridge is:
 \tag{NQB.23}
 ```
 
-After the amplitude, source-square/no-waste, critical-density/CKN,
-pressure-adapted no-residue skew, signed-polar saturation, rigid source-residue,
-and full pre-Cauchy remainder reduction supplement notes, the
+After the amplitude, source-square/no-waste, participation-preserving
+no-residue full-cycle, critical-density/CKN, signed-polar saturation, rigid
+source-residue, and full pre-Cauchy remainder reduction supplement notes, the
 unresolved gold-production suppliers inside `(NQB.23)` are same-carrier
 square/no-waste budget,
-same-carrier pressure-adapted no-residue commutator payment,
+same-carrier participation-preserving full-cycle no-residue payment,
 same-carrier critical-density/CKN budget, production of `(NQB.18a)`, rigid
 profile production through `MinimalZenoProfileProduction.A`, or full
 pre-Cauchy terminal Zeno payment through `NoFreeTerminalZenoDonorChain.A`.  The
 source-square/no-waste route is still open exactly at
 same-carrier identity, coefficient-overrun, or missing unweighted-budget
-production; the no-residue skew route is still open exactly at pressure-adapted
-selector custody, selected commutator identification, and no-residue
-commutator payment.  The critical-density/CKN route is still open exactly at
+production; the no-residue full-cycle route is still open exactly at
+full-packet custody, selected full-packet identification, and no-residue
+full-cycle payment.  The critical-density/CKN route is still open exactly at
 same-carrier critical-density identity, missing unweighted selected
 \(L^{5/2}\)-strain or normalized CKN budget, and same-layer overrun tail
 depletion.  The signed-polar route is still open exactly at same-carrier
