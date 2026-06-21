@@ -325,16 +325,16 @@ critical currency in geometry language:
 \tag{CGI.25}
 ```
 
-The reverse implication remains the gold wall:
+The reverse production remains the gold wall:
 
 ```math
+\text{current inputs do not prove}
+\quad
 \text{finite physical energy/local energy}
-\nRightarrow
-\text{same-carrier deformation action}
+\Longrightarrow
+\text{same-carrier deformation action}.
 \tag{CGI.26}
 ```
-
-from current inputs.
 
 Thus \(C\to G\) is a handoff theorem, not a standalone payment theorem.  It
 prevents compactness from producing a ghost Eulerian object that Body IV cannot
