@@ -128,10 +128,12 @@ d\mu_j(s,y)
 \tag{MSS.8}
 \]
 
-The time marginal is
+The time pushforward is absolutely continuous:
 
 \[
-a_j(s):=\mu_j(\{s\}\times B_1)=g(s),
+(\pi_s)_\#\mu_j=a_j(s)\,ds,
+\qquad
+a_j(s)=g(s),
 \qquad
 \sup_j\|a_j\|_{L^2(I)}=\|g\|_{L^2(I)}<\infty.
 \tag{MSS.9}
