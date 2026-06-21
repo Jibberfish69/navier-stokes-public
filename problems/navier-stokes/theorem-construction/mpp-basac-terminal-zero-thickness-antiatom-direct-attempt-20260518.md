@@ -4,7 +4,7 @@ Date: 2026-05-18
 
 ## Status
 
-Failed direct production theorem.  The attempt preserves the CM contrapositive landing: a retained terminal atom is a source-wall `Field` diagnostic after `Pack+Part` survival, not a new `Member` proof.
+Failed direct production theorem.  The attempt preserves the CM contrapositive landing: a retained terminal atom is a source-wall `Field` diagnostic after `Part plus Field-window evidence` survival, not a new `Member` proof.
 
 ## Target
 

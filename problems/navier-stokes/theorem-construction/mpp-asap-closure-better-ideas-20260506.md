@@ -128,7 +128,7 @@ A positive-`\nu` fold would have to show up inside the CM witnesses:
 Pack failure, Part failure, or Field failure.
 ```
 
-Pack/Part are already heavily routed.  The surviving positive-`\nu` fold must
+Part/Field are already heavily routed.  The surviving positive-`\nu` fold must
 therefore create a Field-face source wall.  In current source-wall variables it
 becomes first-time creation of large donor height:
 

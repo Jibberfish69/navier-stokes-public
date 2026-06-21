@@ -21,7 +21,7 @@ The forward theorem
 ZenoResidueLiouville_{B_{ASAC}}.A
 ```
 
-is not proved from installed inputs. The local search is nevertheless closed at the current resolution: every installed `B_ASAC` continuation returns to the same terminal zero-thickness native source atom, and the surviving all-doors-closed atom has Pack-out-of-CM typed support: Part-side when the same original-NS record remains and true `not Pack_Q` only when that record is absent, with Field readout requiring a separate positive-scale retained-carrier bridge.
+is not proved from installed inputs. The local search is nevertheless closed at the current resolution: every installed `B_ASAC` continuation returns to the same terminal zero-thickness native source atom, and the surviving all-doors-closed atom has Pack-out-of-CM typed support: Part-side when the same original-NS record remains and true packet/window evidence only when that record is absent, with Field readout requiring a separate positive-scale retained-carrier bridge.
 
 ## Starting point
 

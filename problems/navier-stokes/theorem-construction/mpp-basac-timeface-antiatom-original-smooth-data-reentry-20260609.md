@@ -79,7 +79,7 @@ while converging to a terminal atom.
 
 ## What Pack-before-first-exit pays
 
-Before the first exit the Pack-side ledgers are legal. This supplies inherited
+Before the first exit the Field-window support ledgers are legal. This supplies inherited
 past reserve control and removes represented residuals. It does not give a
 uniform terminal strip modulus for the first failing window. A uniform modulus
 would already be the missing Pack-survival estimate:

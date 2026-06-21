@@ -25,11 +25,11 @@ same-tail `SCF_base` local modulus now required by
 `mpp-averaged-field-face-admission-20260607.md`.
 
 It is not a proof of the full Clay theorem by itself. It is the precise
-Field-Part/Field landing for the retained Pack/Part averaged `Jump_avg` branch.
+Field-Part/Field landing for the retained Part/Field averaged `Jump_avg` branch.
 
 Target blocker: `averaged-jumpavg-branch-native-discharge`.
 
-CM program target: prove `Exit(Q):=not Member(Q)` by landing the first failed witness among `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`. This note attacks the retained averaged `Jump_avg` branch only after the averaged object is admitted to the same CM test and the Pack/Part faces have not already failed.
+CM program target: prove `Exit(Q):=not Member(Q)` by landing the first failed witness among `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`. This note attacks the retained averaged `Jump_avg` branch only after the averaged object is admitted to the same CM test and the Part/Field faces have not already failed.
 
 ## Exact Statement Tried
 

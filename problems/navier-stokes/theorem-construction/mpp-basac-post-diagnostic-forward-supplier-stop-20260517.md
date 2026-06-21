@@ -14,7 +14,7 @@ B_{ASAC}\text{ terminal atom}
 \neg Pack_Q\vee\neg Part_{N,Q}\vee\forall r>0\,\neg Field_{N,r,Q}.
 ```
 
-On a retained `Pack+Part` branch it lands in `Field` by `RetainedZenoAtomFieldExit.A`.
+On a retained `Part plus Field-window evidence` branch it lands in `Field` by `RetainedZenoAtomFieldExit.A`.
 
 This note records the remaining forward supplier status.
 
@@ -86,7 +86,7 @@ or an independently produced rigid subclass with one of these properties.
 The branch should now be used in two ways:
 
 ```text
-CM ledger: typed as Field after retained Pack+Part survival.
+CM ledger: typed as Field after retained Part plus Field-window evidence survival.
 Forward supplier ledger: open until a new anti-atom theorem is supplied.
 ```
 
