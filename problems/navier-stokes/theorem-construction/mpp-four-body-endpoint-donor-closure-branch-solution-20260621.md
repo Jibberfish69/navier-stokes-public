@@ -99,7 +99,34 @@ If there is \(\delta>0\) with
 \widehat\mu_*((-1,-\delta])>0,
 ```
 
-then the endpoint residue creates a terminal daughter packet with positive time thickness. This daughter packet is on the same retained full four-body carrier after the terminal-strip rescaling. It has positive four-body carried activity:
+then the endpoint residue creates a terminal daughter candidate with positive
+time thickness.
+
+The word daughter is used in the parabolic sense.  A realized daughter has
+coordinates
+
+```math
+\widehat V_k(\tau,z)
+=
+\sqrt{\theta_k}\,
+V_{m_k}(\theta_k\tau,y_k+\sqrt{\theta_k}z),
+\qquad
+\widehat Q_k(\tau,z)
+=
+\theta_k\,
+Q_{m_k}(\theta_k\tau,y_k+\sqrt{\theta_k}z),
+```
+
+on a retained same-carrier subpacket.  This keeps the Navier-Stokes law in
+the same normalized form.  If no such same-carrier parabolic daughter can be
+selected from the positive-thickness mass, then the residue has no coherent
+positive Field scale and already lands in
+
+```math
+Pack_Q+Part_{N,Q}+\forall r>0\,\neg Field_{N,r,Q}.
+```
+
+Otherwise the realized daughter has positive four-body carried activity:
 
 ```math
 A_{4B}^{daughter}>0.
@@ -113,7 +140,9 @@ C A_{4B}^{daughter}+R_{legal}^{daughter},
 
 or the daughter is a zero-loss full packet. In the zero-loss branch, the installed full-packet rigidity gives a Galilean/affine-pressure gauge packet, and the selected full-packet activity vanishes. This contradicts \(A_{4B}^{daughter}>0\).
 
-Thus positive-thickness endpoint residue is paid by the four-body activity or by already-declared legal loss.
+Thus positive-thickness endpoint residue is paid by the four-body activity or
+by already-declared legal loss, unless daughter realization itself fails and
+therefore gives the Field exit.
 
 ### Case 2: pure endpoint atom
 
@@ -150,7 +179,13 @@ unless the endpoint atom is consumed as the Field exit above.
 
 Let \(G_D=(V_D,E_D)\) be the finite retained donor graph after selector/collar stabilization and finite signed-saturation routing. A donor node records an unpaid negative partner required to cancel a native positive channel-first contribution. Let \(m_v(\sigma)\ge0\) be the donor mass at node \(v\).
 
-Assign a rank
+Assigning a rank is not free.  It means the stabilized donor quotient has been
+oriented as a finite acyclic unpaid-transfer graph after retained partners and
+legal exits are removed.  If that orientation cannot be made, then the failed
+orientation already contains a zero-descent circulation with no retained signed
+partner, no rank descent, and no legal exit; that is the Part exit below.
+
+On the oriented branch, assign a rank
 
 ```math
 \rho:V_D\to\mathbb N
