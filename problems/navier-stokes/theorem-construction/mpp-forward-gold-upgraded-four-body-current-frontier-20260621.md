@@ -25,6 +25,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transported-pressure-adapted-selector-commutator-potential-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-lp-full-balance-payment-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-density-ckn-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-polar-saturation-fourbody-supplement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-rigid-source-residue-fourbody-supplement-criterion-20260621.md
@@ -1072,6 +1073,59 @@ This identifies the concrete theorem behind the no-residue route:
 }
 \tag{4BF.45k}
 ```
+
+The shell-level version of the same route is now recorded as
+`LPFullBalancePayment.A` / `DyadicParticipationNoFreeSource.A`.  It keeps the
+Littlewood-Paley shell packet \(u_j=\Delta_j u\), but the selected activity is
+paid only after the localized shell law retains
+
+```math
+\partial_tu_j
++
+\Delta_j(u\cdot\nabla u)
++
+\nabla\Delta_jp
+-
+\nu\Delta u_j
+=0,
+\qquad
+\nabla\cdot u_j=0.
+\tag{4BF.45l}
+```
+
+For a selected shell-packet \((j,P)\), the theorem target is
+
+```math
+\boxed{
+A_{j,P}
+\lesssim
+-\partial_\sigma\Phi_{j,P}
++
+\mathsf P_{j,P}
++
+\mathsf V_{j,P}
++
+\mathsf I_{j,P}
++
+\mathsf L_{j,P}.
+}
+\tag{4BF.45m}
+```
+
+This is the dyadic full-balance replacement for the old Cauchy/Young source
+residue
+
+```math
+\varepsilon\nu D_{j,P}
++
+C_{\varepsilon,\nu}\Theta_{j,P}^2E_{j,P}.
+\tag{4BF.45n}
+```
+
+The older scale-barrier, lifted-band, and all-scale transfer notes remain
+scale-channel evidence.  They do not by themselves pay the selected packet
+until their transport estimates are placed inside this full time-pressure-
+viscosity-incompressibility-localization balance.
 
 The critical-density/CKN supplement has now been assembled in the same exact
 form.  The native main trilinear carrier obeys the sharp Holder domination
