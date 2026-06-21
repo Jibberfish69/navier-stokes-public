@@ -216,7 +216,7 @@ or
 ```
 
 or a rigid terminal-Zeno theorem proving that an infinite retained same-fluid
-binary depth produces a CM face failure or a forbidden compact profile.
+binary depth produces a CM Part/Field failure or a forbidden compact profile.
 
 No such theorem is installed by bounded overlap, same-fluid ancestry, scalar
 donor balance, branch entropy visibility, or the existing quadratic donor

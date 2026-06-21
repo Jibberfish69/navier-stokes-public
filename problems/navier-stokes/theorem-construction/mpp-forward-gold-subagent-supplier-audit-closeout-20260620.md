@@ -15,7 +15,7 @@ branch by separating three roles:
 \begin{array}{ll}
 \text{consumer theorem} & \text{kills the selected carrier once a stronger input is supplied,}\\
 \text{production theorem} & \text{creates that stronger input from NS balances,}\\
-\text{CM readout} & \text{uses failure of the endpoint modulus as a Pack/Part/Field face.}
+\text{CM readout} & \text{uses failure of the endpoint modulus as a Part/Field face.}
 \end{array}
 \tag{SSA.1}
 ```
@@ -120,14 +120,14 @@ profile.
 Failure of endpoint uniform integrability is not a fourth in-class
 forward-gold branch.  The terminal source-curve pass-or-exit package extracts a
 terminal atom from that failure, and `TerminalAtomOriginalParticipationAuditExit.A` routes
-the same-solution atom to a `Part` or `Field` face failure.
+the same-solution atom to a `Part` or `Field` Part/Field failure.
 
 So the endpoint branch is role-separated:
 
 ```math
 \begin{array}{ll}
 \text{endpoint UI holds} & \Rightarrow \text{forward-gold moving-packet anti-atom},\\
-\text{endpoint UI fails} & \Rightarrow \text{CM Part/Field witness-face readout}.
+\text{endpoint UI fails} & \Rightarrow \text{CM Part/Field witness readout}.
 \end{array}
 \tag{SSA.7}
 ```

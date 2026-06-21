@@ -314,4 +314,4 @@ This is a readout/consumer theorem.  It does not produce the missing unweighted
 terminal-family budget.  Closure still requires one of the already-isolated
 production mechanisms: same-carrier source-square or tail UI, selected
 critical-strain/normalized CKN Carleson control, strict no-waste, profile
-production, or same-witness CM Pack/Part/Field consumption.
+production, or same-witness CM Part/Field consumption.

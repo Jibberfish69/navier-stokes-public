@@ -54,7 +54,7 @@ Part_{N,Q}
 \]
 
 Therefore the retained tensor \(L^5\) branch cannot coexist with that Field
-subcase.  The face landing is:
+subcase.  The Part/Field landing is:
 
 \[
 \boxed{

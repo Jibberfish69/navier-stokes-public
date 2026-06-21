@@ -261,7 +261,7 @@ A quadratic/local-energy Lyapunov proof would require
 ```
 
 with \(\theta<1\), summable legal residual, and a visible defect term that is
-already consumed by CM Pack/Part/Field or by a proved forward reserve.
+already consumed by CM Part/Field or by a proved forward reserve.
 
 But `(SLQ.20)` is exactly the missing supplier in another form:
 

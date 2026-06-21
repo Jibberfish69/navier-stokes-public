@@ -9,7 +9,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-mixed-derivative-tower-participation-law-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-moving-coupled-mixed-tower-radius-spend-identity-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-mixed-tower-radius-lower-bound-direct-test-20260621.md
-  downstream_consequence: "SummableRadiusSpend.A is not a native consequence of the coupled tower identity plus physical energy. The remaining forward-gold options are a same-carrier unweighted action/no-waste supplier, or ControlledCoupledTowerRadiusCollapse.A, which must classify divergent spend as a terminal time-face atom/profile or a Pack/Part/Field-facing exit."
+  downstream_consequence: "SummableRadiusSpend.A is not a native consequence of the coupled tower identity plus physical energy. The remaining forward-gold options are a same-carrier unweighted action/no-waste supplier, or ControlledCoupledTowerRadiusCollapse.A, which must classify divergent spend as a terminal time-face atom/profile or a Part/Field-facing exit."
 ---
 
 # MPP Forward-Gold Summable Coupled Radius Spend Direct Test
@@ -340,4 +340,4 @@ or
 
 The second alternative must show that divergent coupled radius spend is not a
 free hidden survival mechanism: it must become the terminal time-face
-atom/profile branch or a Pack/Part/Field-facing exit.
+atom/profile branch or a Part/Field-facing exit.

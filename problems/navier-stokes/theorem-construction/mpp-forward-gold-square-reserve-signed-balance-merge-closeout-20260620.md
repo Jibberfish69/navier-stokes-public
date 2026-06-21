@@ -384,5 +384,5 @@ Without square no-spreading, endpoint uniform integrability of the selected
 source carrier, same-carrier source-square control, strict no-waste, or a rigid
 Zeno source-residue Liouville theorem, the square-reserve route does not close
 the forward-gold heat-scale terminal pulse.  It becomes either a CM-facing
-Pack/Part/Field face readout, or it remains the same unsolved gold-standard
+Part/Field face readout, or it remains the same unsolved gold-standard
 source-wall primitive.

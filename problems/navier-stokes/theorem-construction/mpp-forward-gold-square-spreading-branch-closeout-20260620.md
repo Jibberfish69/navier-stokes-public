@@ -13,7 +13,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-principal-gain-square-height-thickness-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-strict-nowaste-post-critical-currency-closeout-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-profile-decoupling-direct-test-20260620.md
-downstream_consequence: "The square-spreading branch has no remaining lower-level shortcut at current input strength. Forward-gold closure requires a new unweighted same-carrier critical-action theorem; otherwise the retained positive-scale reserve is available only as a CM Pack/Part/Field readout after same-witness CM entry."
+downstream_consequence: "The square-spreading branch has no remaining lower-level shortcut at current input strength. Forward-gold closure requires a new unweighted same-carrier critical-action theorem; otherwise the retained positive-scale reserve is available only as a CM Part/Field readout after same-witness CM entry."
 ---
 
 # MPP Forward-Gold Square-Spreading Branch Closeout
@@ -143,8 +143,8 @@ produces the correct selected carrier.
 ## 4. CM readout separation
 
 The retained positive-scale reserve is not worthless.  After same-witness
-CM-test admission, existing Pack-first promotion notes consume it as a
-Pack/Part/Field readout:
+CM-test admission, existing Field-certification promotion notes consume it as a
+Part/Field readout:
 
 ```math
 R_N(W)\le H_N(W)M_N(W),

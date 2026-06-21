@@ -23,7 +23,7 @@ ns_viewer:
     The tensor L5 branch is no longer only an explicit L5-Field subcase
     consumer. After same-witness admission, ordinary finite-rung Field
     coherence supplies the L5 upper bound through Sobolev embedding and is
-    contradicted. This remains a CM face consumer/readout, not a forward-gold
+    contradicted. This remains a CM Part/Field consumer/readout, not a forward-gold
     production theorem or a proof of an unweighted terminal-family budget.
 ---
 
