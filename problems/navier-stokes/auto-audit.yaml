@@ -358,7 +358,7 @@ surface_snapshot:
         and a fail branch. The pass branch is the in-class `Member(Q)` branch and
         may be supplied by any lawful continuation mechanism. The fail branch is lawful
         CM contrapositive work only when the failure is capable of nonsmoothness and
-        lands as a Pack, Part, or Field face failure, or as a original-participation audit
+        lands as a Pack, Part, or Field face failure, or as an original-participation audit
         of a pre-Pack branch, supporting `Exit(Q):=not Member(Q)`. Do not replace
         this engine with a demand to prove one particular positive estimate directly.
       no_third_branch_rule: The installed no-third-branch audit proves that no terminal

@@ -316,7 +316,7 @@ nodes:
       attempt also fails because zero ASAC defect does not upgrade the temporal
       source marginal beyond L1_t; the BASAC-local result is a zero-radius
       B_ASAC^closed source-residue obstruction typed by the Pack-before-Part
-      split: Part-first when the same original-NS pointwise record remains, true
+      split: Part-side when the same original-NS record remains, true
       not Pack_Q only when that record is absent, with later Field readout
       requiring a positive-scale retained-carrier bridge; forward progress
       requires an external new-production theorem.
