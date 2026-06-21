@@ -1,15 +1,15 @@
 ---
 ns_viewer:
   theorem_id: forward-gold-terminal-duhamel-smoothing-does-not-produce-uniform-radius-20260621
-  status: direct-test-complete-terminal-duhamel-source-defeats-heat-smoothing-radius
-  proof_role: forward_gold_uniform_coupled_radius_survival_test
-  logical_landing_node: terminal_duhamel_smoothing_radius
-  edge_effect: "Tests whether parabolic smoothing alone can produce the uniform coupled tower radius needed for endpoint UI. It cannot. In the forced heat normal form, source born in a terminal layer has smoothing time tending to zero. Duhamel averaging of a terminal layer converges to the unsmoothed source profile at the terminal face, so no positive analytic radius or endpoint UI follows from heat smoothing alone. This identifies the nonlinear NS issue precisely: the terminal source/current must be controlled on the same carrier, not merely passed through viscosity."
+  status: supplier-boundary-test-complete-heat-smoothing-alone-does-not-supply-radius
+  proof_role: forward_gold_heat_smoothing_supplier_boundary_test
+  logical_landing_node: heat_smoothing_supplier_boundary
+  edge_effect: "Mechanism test only. This is not a Navier-Stokes reduction, not a linearization of Navier-Stokes, and not a replacement for the nonlinear pressure-transport-viscosity system. It tests only the narrower supplier claim that heat semigroup smoothing by itself supplies a uniform coupled tower radius for terminal-layer input. In the forced heat test, terminal-layer forcing has smoothing time tending to zero, so the Duhamel average converges to the unsmoothed input. Any Navier-Stokes use still has to estimate the actual nonlinear Duhamel contribution on the selected carrier."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-tower-radius-survival-implies-endpoint-ui-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-rung-tail-to-selected-carrier-direct-test-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-summable-coupled-radius-spend-direct-test-20260621.md
-  downstream_consequence: "Do not claim that viscosity/parabolic smoothing supplies uniform coupled radius survival on terminal heat windows. A successful route must control the terminal Duhamel source/current itself through endpoint UI, unweighted action, strict no-waste, source-square domination, or profile production."
+  downstream_consequence: "Do not claim that viscosity/parabolic smoothing alone supplies uniform coupled radius survival on terminal heat windows. This note supplies no linear approximation to Navier-Stokes. A successful route must control the actual terminal nonlinear/pressure contribution itself through endpoint UI, unweighted action, strict no-waste, source-square domination, or profile production."
 ---
 
 # MPP Forward-Gold Terminal Duhamel Smoothing Does Not Produce Uniform Radius
@@ -18,22 +18,30 @@ Date: 2026-06-21
 
 ## Status
 
-This note tests whether parabolic smoothing alone can produce the uniform
-coupled tower radius needed by the endpoint UI bridge:
+This note is a supplier-boundary test. It does not replace the Navier-Stokes
+nonlinear Duhamel term by a linear forcing, and it does not approximate the
+pressure-transport-viscosity system.
+
+It tests only whether parabolic smoothing alone can produce the uniform coupled
+tower radius needed by the endpoint UI bridge:
 
 \[
 \boxed{
-\text{heat smoothing}
+\text{heat semigroup smoothing acting alone on terminal-layer input}
 \Longrightarrow
 \text{uniform positive coupled tower radius near the terminal face}.
 }
 \tag{TDS.1}
 \]
 
-The implication fails in the exact linear forced-heat normal form. A source born
-at the terminal face has vanishing smoothing time.
+That supplier claim fails already in a forced heat test. This licenses only the
+negative conclusion that bare viscosity/heat smoothing is not the missing
+radius supplier.
 
-## 1. Forced heat model
+## 1. Forced heat test
+
+The forcing below is an external test input. It is not asserted to equal,
+approximate, or model the Navier-Stokes nonlinear/pressure contribution.
 
 Consider
 
@@ -118,12 +126,12 @@ rung would give
 By the Cauchy-Hadamard/Sobolev analytic criterion, \(F\) would be analytic on
 \(B_{1/2}\), contradicting the choice of \(F\).
 
-Therefore terminal Duhamel smoothing does not supply a uniform positive
-analytic radius.
+Therefore heat smoothing acting alone on terminal-layer forcing does not supply
+a uniform positive analytic radius.
 
 ## 3. The source marginal still forms an endpoint atom
 
-The normalized source marginal of `(TDS.3)` is
+The normalized external source marginal of `(TDS.3)` is
 
 \[
 g_m(s):={1\over\tau_m}\mathbf 1_{(-\tau_m,0]}(s).
@@ -146,24 +154,27 @@ but fails endpoint UI:
 \tag{TDS.11}
 \]
 
-The heat operator sees the source only after it is born. At the terminal face,
-the Duhamel layer has no positive smoothing time left.
+The heat operator sees this external source only after it is born. At the
+terminal face, the forced heat layer has no positive smoothing time left.
 
 ## Verdict
 
-The exact obstruction is:
+The supplier-boundary obstruction is:
 
 \[
 \boxed{
-\text{viscosity smooths old material, but it does not smooth a source created
-at the terminal face before the endpoint is tested.}
+\text{heat smoothing alone has no time to regularize terminal-layer input
+before the endpoint is tested.}
 }
 \tag{TDS.12}
 \]
 
-So parabolic smoothing does not produce uniform coupled tower radius survival
-from current inputs. The missing theorem must control the terminal
-Duhamel/source/current itself:
+For Navier-Stokes this gives only a negative license: do not use bare viscosity
+as the missing tower-radius supplier. It does not linearize the equation and it
+does not prove anything about an actual Navier-Stokes terminal Duhamel term.
+
+The missing theorem must control the actual terminal nonlinear/pressure
+contribution itself:
 
 \[
 \boxed{
