@@ -1,8 +1,8 @@
 ---
 version: 1
 kind: ns-paper-arc-author-pack
-arc_id: pack-part-field-grammar
-batch_id: pack-part-field-grammar-current-source-certification-20260614T160747Z
+arc_id: part-field-grammar
+batch_id: part-field-grammar-current-source-certification-20260614T160747Z
 ready_to_apply: true
 source_rewrites:
 - op: certify_existing_section
@@ -145,7 +145,7 @@ source_rewrites:
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
-      role assigned to pack-part-field-grammar.
+      role assigned to part-field-grammar.
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside The Packet Witness without
       requiring an external status report.
@@ -169,7 +169,7 @@ source_rewrites:
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
-      role assigned to pack-part-field-grammar.
+      role assigned to part-field-grammar.
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Packet Failure without
       requiring an external status report.
@@ -193,7 +193,7 @@ source_rewrites:
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
-      role assigned to pack-part-field-grammar.
+      role assigned to part-field-grammar.
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Velocity Failure Mechanisms
       without requiring an external status report.
@@ -217,7 +217,7 @@ source_rewrites:
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
-      role assigned to pack-part-field-grammar.
+      role assigned to part-field-grammar.
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Reading the Witness Table
       without requiring an external status report.
@@ -228,7 +228,7 @@ source_rewrites:
     unresolved_failures: []
     critic_generated_at: '2026-06-14T16:07:47Z'
 author_contract:
-  arc_id: pack-part-field-grammar
+  arc_id: part-field-grammar
   must_write:
   - finished TeX prose, not a report
   - reader-facing explanation before compressed notation

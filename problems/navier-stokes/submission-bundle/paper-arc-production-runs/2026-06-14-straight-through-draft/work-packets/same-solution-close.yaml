@@ -912,9 +912,9 @@ source_sections:
     The member reading gives the same-solution readout chain up to the selected continuation consumer.
     The exit reading is supported by the first failed witness face:
     \[
-      \neg\Pack_Q,\qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      Field-window evidence outside CM,\qquad
+      \neg\Part_{N,Q},\qquad
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     \end{theorem}
 
@@ -926,11 +926,11 @@ source_sections:
     When those requirements survive at the continuation depth, the member-side readout chain feeds the continuation criterion selected for that branch.
     For the classical Sobolev endpoint, the local \(H^s\) theorem restarts the same solution beyond \(T_*\).
     When the record loses a requirement, the ordered test stops at the first lost face.
-    Loss of the carrier gives \(\neg\Pack_Q\).
-    Carrier without same-equation participation gives \(\Pack_Q\wedge\neg\Part_{N,Q}\).
+    Loss of the carrier gives \(Field-window evidence outside CM\).
+    Carrier without same-equation participation gives \(\neg\Part_{N,Q}\).
     Carrier and participation without any positive-scale coherent field readout gives
     \[
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     Each first face failure supports \(\Exit(Q;\Owork)\).
     The same admitted terminal record has no third CM reading.
@@ -949,7 +949,7 @@ source_sections:
     This theorem is a classification theorem after terminal-record admission.
     The separate public Clay bridge is the no-genuine-exit bridge from original smooth data to the absence of a genuine first Pack, Part, or Field face at finite time.
 
-    The remaining bridge can be seen at the terminal Pack face.  Smoothness on every fixed slab \([0,T_*-\varepsilon]\) gives a same-solution packet before terminal time, but it does not give a uniform positive terminal carrier as \(\varepsilon\downarrow0\).  A terminal Pack loss can appear only in the limiting record unless the proof supplies a uniform terminal Pack persistence theorem.  Source time-thickness has the same shape.  Finite \(L^1_t\) terminal source mass is compatible with concentration at the terminal face; for instance \(g_m(s)=m\mathbf 1_{(-1/m,0]}(s)\) has bounded mass and still collapses to terminal time.  Thus the classification theorem leaves one honest remaining alternative.  A public Clay close needs a theorem ruling out a genuine first Pack, Part, or Field loss from original smooth data.  Without that theorem, each admitted terminal record stays inside the silver CM classification and the paper names the first face it loses.
+    The remaining bridge can be seen at the terminal Field-window evidence.  Smoothness on every fixed slab \([0,T_*-\varepsilon]\) gives a same-solution packet before terminal time, but it does not give a uniform positive terminal carrier as \(\varepsilon\downarrow0\).  A terminal Pack loss can appear only in the limiting record unless the proof supplies a uniform terminal Pack persistence theorem.  Source time-thickness has the same shape.  Finite \(L^1_t\) terminal source mass is compatible with concentration at the terminal face; for instance \(g_m(s)=m\mathbf 1_{(-1/m,0]}(s)\) has bounded mass and still collapses to terminal time.  Thus the classification theorem leaves one honest remaining alternative.  A public Clay close needs a theorem ruling out a genuine first Pack, Part, or Field loss from original smooth data.  Without that theorem, each admitted terminal record stays inside the silver CM classification and the paper names the first face it loses.
 
     The branch sections pay into this theorem by selecting the record and identifying the face.
     The periodic branch selects the transported whole-torus atlas and reads non-continuation through that atlas.
@@ -1073,9 +1073,9 @@ source_sections:
     has one of the following proof roles:
     \begin{enumerate}[leftmargin=*]
     \item \(\Member(Q;\Owork)\): \(Q\) retains carrier, participation, field readout, and continuation readout.
-    \item \(\neg\Pack_Q\): \(Q\) has no positive same-fluid carrier.
-    \item \(\Pack_Q\wedge\neg\Part_{N,Q}\): \(Q\) has carrier without same pressure-viscosity participation.
-    \item \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\): \(Q\) has carrier and participation without positive-scale coherent field readout.
+    \item \(Field-window evidence outside CM\): \(Q\) has no positive same-fluid carrier.
+    \item \(\neg\Part_{N,Q}\): \(Q\) has carrier without same pressure-viscosity participation.
+    \item \(\Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\): \(Q\) has carrier and participation without positive-scale coherent field readout.
     \end{enumerate}
     \end{proposition}
 
@@ -1107,7 +1107,7 @@ source_sections:
     The paper treats periodic packet capture, local profile capture, and whole-space
     export as related branch concerns with separate admission tests.
     After the setting and the same-solution attachment are fixed, the object can be
-    read as Pack, Part, Field, member-side readout, or support for a named later
+    read as Part, Field, member-side readout, or support for a named later
     proof step.
   truncated: false
 support_refs:
@@ -1150,7 +1150,7 @@ support_refs:
     propagated_object: the escaped object in that clean special case, not a broad
         parallel Euler route
       promotion_gate: admitted only after the selected same-solution packet and first
-        lost Pack/Part/Field face are typed
+        lost Part/Field face are typed
       current_role: reader-facing class-exit/class-entrance boundary object
 - path: problems/navier-stokes/ns-completion-executor.yaml
   matched_keywords:
@@ -1313,7 +1313,7 @@ support_refs:
   - Exit
   excerpt: |-
     This note does not install `ClayFieldFaceExclusion.A`.  The installed sources
-    prove that a finite same-solution terminal witness with retained Pack and Part
+    prove that a finite same-solution terminal witness with retained Field-window evidence and Part
     has no positive Field scale unless the same solution continues. They do not
     prove that the all-scales Field failure is impossible as a Clay terminal
 - path: problems/navier-stokes/theorem-construction/mpp-earlier-pack-failure-reflection-direct-attempt-20260610.md
@@ -1338,7 +1338,7 @@ support_refs:
   - Exit
   excerpt: |-
     The zero-thickness native positive source atom can still be classified as a
-    Pack/Part/Field witness-face object once admitted to the same-solution terminal
+    Part/Field witness-face object once admitted to the same-solution terminal
     record.  That supports
 - path: problems/navier-stokes/theorem-construction/mpp-first-exit-nonalias-frontier-after-basac-density-failure-20260609.md
   matched_keywords:
@@ -1351,7 +1351,7 @@ support_refs:
     ```
 
     or a noncircular replacement proving that the same-solution terminal packet from
-    original smooth data cannot realize the first Pack face failure.
+    original smooth data cannot realize the first Field-window evidence failure.
 - path: problems/navier-stokes/theorem-construction/mpp-generic-pack-part-face-exclusion-blocker-demotion-20260607.md
   matched_keywords:
   - same-solution
@@ -1363,7 +1363,7 @@ support_refs:
     ```text
     For each proof-bearing finite terminal obstruction O:
       O enters the same-solution CM terminal test,
-      O lands in the first Pack/Part/Field face it actually breaks,
+      O lands in the first Part/Field face it actually breaks,
       and non-proof rows are demoted instead of carried as theorem burdens.
 context_packer_contract:
   arc_id: same-solution-close
@@ -1441,7 +1441,7 @@ context_domain_refs:
       label: clay_cm_contrapositive_witness_consumption
         status: current-cm-referee-inventory-gate-passed
         role: 'Direct Clay-facing classification route: a finite terminal witness enters
-          the same-fluid CM packet tree, the first failing Pack/Part/Field face is recorded,
+          the same-fluid CM participation-field tree, the first failing Part/Field face is recorded,
           and that face failure supports Exit(Q):=not Member(Q). The current referee audit
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
     matched_keywords:
@@ -1453,7 +1453,7 @@ context_domain_refs:
       label: clay_cm_contrapositive_witness_consumption
         status: current-cm-referee-inventory-gate-passed
         role: 'Direct Clay-facing classification route: a finite terminal witness enters
-          the same-fluid CM packet tree, the first failing Pack/Part/Field face is recorded,
+          the same-fluid CM participation-field tree, the first failing Part/Field face is recorded,
           and that face failure supports Exit(Q):=not Member(Q). The current referee audit
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
     matched_keywords:
@@ -1465,7 +1465,7 @@ context_domain_refs:
       label: clay_cm_contrapositive_witness_consumption
         status: current-cm-referee-inventory-gate-passed
         role: 'Direct Clay-facing classification route: a finite terminal witness enters
-          the same-fluid CM packet tree, the first failing Pack/Part/Field face is recorded,
+          the same-fluid CM participation-field tree, the first failing Part/Field face is recorded,
           and that face failure supports Exit(Q):=not Member(Q). The current referee audit
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260608.yaml
     matched_keywords:
@@ -1477,7 +1477,7 @@ context_domain_refs:
       label: clay_cm_contrapositive_witness_consumption
         status: current-cm-referee-inventory-gate-passed
         role: 'Direct Clay-facing classification route: a finite terminal witness enters
-          the same-fluid CM packet tree, the first failing Pack/Part/Field face is recorded,
+          the same-fluid CM participation-field tree, the first failing Part/Field face is recorded,
           and that face failure supports Exit(Q):=not Member(Q). The current referee audit
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260609-iteration-2.yaml
     matched_keywords:
@@ -1489,7 +1489,7 @@ context_domain_refs:
       label: clay_cm_contrapositive_witness_consumption
         status: current-cm-referee-inventory-gate-passed
         role: 'Direct Clay-facing classification route: a finite terminal witness enters
-          the same-fluid CM packet tree, the first failing Pack/Part/Field face is recorded,
+          the same-fluid CM participation-field tree, the first failing Part/Field face is recorded,
           and that face failure supports Exit(Q):=not Member(Q). The current referee audit
   ref_count: 6
 - domain_id: theorem_notes
@@ -1518,7 +1518,7 @@ context_domain_refs:
     - Exit
     excerpt: |-
       This note does not install `ClayFieldFaceExclusion.A`.  The installed sources
-      prove that a finite same-solution terminal witness with retained Pack and Part
+      prove that a finite same-solution terminal witness with retained Field-window evidence and Part
       has no positive Field scale unless the same solution continues. They do not
       prove that the all-scales Field failure is impossible as a Clay terminal
   - path: problems/navier-stokes/theorem-construction/mpp-earlier-pack-failure-reflection-direct-attempt-20260610.md
@@ -1543,7 +1543,7 @@ context_domain_refs:
     - Exit
     excerpt: |-
       The zero-thickness native positive source atom can still be classified as a
-      Pack/Part/Field witness-face object once admitted to the same-solution terminal
+      Part/Field witness-face object once admitted to the same-solution terminal
       record.  That supports
   - path: problems/navier-stokes/theorem-construction/mpp-first-exit-nonalias-frontier-after-basac-density-failure-20260609.md
     matched_keywords:
@@ -1556,7 +1556,7 @@ context_domain_refs:
       ```
 
       or a noncircular replacement proving that the same-solution terminal packet from
-      original smooth data cannot realize the first Pack face failure.
+      original smooth data cannot realize the first Field-window evidence failure.
   - path: problems/navier-stokes/theorem-construction/mpp-generic-pack-part-face-exclusion-blocker-demotion-20260607.md
     matched_keywords:
     - same-solution
@@ -1568,7 +1568,7 @@ context_domain_refs:
       ```text
       For each proof-bearing finite terminal obstruction O:
         O enters the same-solution CM terminal test,
-        O lands in the first Pack/Part/Field face it actually breaks,
+        O lands in the first Part/Field face it actually breaks,
         and non-proof rows are demoted instead of carried as theorem burdens.
   ref_count: 6
 - domain_id: brain_app_node_material

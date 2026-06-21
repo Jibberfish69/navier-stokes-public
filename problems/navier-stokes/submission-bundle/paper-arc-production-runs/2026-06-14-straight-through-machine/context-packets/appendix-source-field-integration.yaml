@@ -46,7 +46,7 @@ source_sections:
     theorem.  Each entry explains a direct route in four steps: what payment the
     route tried to make, why the calculation was worth attempting, where the
     mathematics stopped, and what same-solution residue or support obligation
-    survived into the Pack/Part/Field test.
+    survived into the Part/Field test.
 
     The order begins with the four-body attempt because that is where the
     smoothness-control program first became a concrete circuit:
@@ -61,7 +61,7 @@ source_sections:
 
     \subsection{How to Read the Failure Record}
 
-    The reader has already seen the class test.  Pack, Part, and Field are the
+    The reader has already seen the class test.  Part and Field are the
     three places where a terminal witness can keep or lose membership.  The
     appendix now shows why the positive smoothness program leaves the objects
     tested by that grammar.
@@ -71,7 +71,7 @@ source_sections:
     mathematical stopping point, the surviving residue, and the later CM role.
     Those obligations are the admission rule for this appendix.  A route belongs
     here when it helps the reader identify a terminal object, a member-side readout,
-    a Pack/Part/Field face, or a support theorem that is still waiting for one of
+    a Part/Field face, or a support theorem that is still waiting for one of
     those jobs.  The appendix serves the main proof by showing where each positive
     attempt stopped and what same-solution object or support burden it handed
     forward.
@@ -86,7 +86,7 @@ source_sections:
     sharpened.
     The record closes after the branch table and the CM handoff explain how a
     finite-time breakdown claim carries one of these terminal objects into the
-    Pack/Part/Field test.
+    Part/Field test.
 
     \subsection{How Repo Source Packets Enter This Audit}
 
@@ -416,7 +416,7 @@ source_sections:
     The branch table records each route's forward residue and later CM role.
     The closure states the actual handoff: a finite-time breakdown claim must
     carry one of these terminal objects, and the main proof tests that object
-    through Pack, Part, and Field.
+    through Part and Field.
     \end{enumerate}
 
     \subsection{Expanded Branch Work Packets}
@@ -556,7 +556,7 @@ source_sections:
     A terminal breakdown claim cannot be accepted merely because it names tail
     growth, source concentration, a compactness limit, or a geometric drain.
     It has to present the same Navier--Stokes object \(Q\).
-    The paper then asks the Pack-first questions.
+    The paper then asks the Part/Field questions.
     Does the object still have a positive packet?
     Does the same pressure-viscosity equation still act on that packet?
     Does the branch still have a coherent field on a positive scale?
@@ -830,7 +830,7 @@ source_sections:
     source object rather than a global positive bound.
     The CM route uses this by admitting the terminal source object to the witness
     test.
-    It asks whether the object still has Pack, Part, and Field, not whether the old
+    It asks whether the object still has Part and Field, not whether the old
     positive deletion theorem has magically been proved.
 
     \paragraph{BASAC and terminal atom.}
@@ -1055,7 +1055,7 @@ source_sections:
     Does the resulting field have a coherent positive-scale readout?
     The branch table and closure must leave the reader with that exact handoff:
     the failure history identifies what a finite-time breakdown claim would have to
-    carry; the main proof tests that carried object through Pack, Part, and Field.
+    carry; the main proof tests that carried object through Part and Field.
 
     \subsection{How The Record Enters The Proof}
 
@@ -1151,7 +1151,7 @@ source_sections:
     and readout pressure, not as the primitive CM proof.
     They may still matter.
     They can sharpen a Field readout after a same-solution packet is selected.
-    They cannot replace the Pack, Part, Field test unless a theorem transfers the
+    They cannot replace the Part, Field test unless a theorem transfers the
     exact selected packet into that witness tree.
 
     The fifth phase is the source wall.
@@ -1257,8 +1257,8 @@ source_sections:
     Does the Navier--Stokes law still participate on that carrier?
     Does the field have coherent positive-scale readout?
     If all three survive, the branch is on the smooth same-solution side.
-    If one fails first, the branch gives \(\neg\Pack_Q\), \(\Pack_Q\wedge
-    \neg\Part_{N,Q}\), or \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,
+    If one fails first, the branch gives \(Field-window evidence outside CM\), \(\Pack_Q\wedge
+    \neg\Part_{N,Q}\), or \(\Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,
     \neg\Field_{N,r,Q}\).
     That is the exact way the failure record becomes proof material.
 
@@ -1463,7 +1463,7 @@ source_sections:
     packet and loses same-equation participation, keeps both and loses positive
     field readout, or remains outside the class proof as support.
     This is the final reason the failure record has to be so explicit.
-    Without the record, Pack, Part, and Field can look like labels placed on
+    Without the record, Part and Field can look like labels placed on
     failures after the fact.
     With the record, the reader sees each terminal object being produced by an
     honest positive proof attempt and then tested by the three requirements that
@@ -1555,7 +1555,7 @@ source_sections:
     Which calculation was supposed to pay for that purchase?
     Where did the calculation stop?
     What residue survived the stopping point?
-    What is the residue's exact role in the Pack, Part, Field grammar?
+    What is the residue's exact role in the Part, Field grammar?
     If the page does not answer those questions, the branch has not yet been
     written into the paper.
     This is why the following reader-order narrative remains necessary even after
@@ -1580,7 +1580,7 @@ source_sections:
 
     The history from the four-body circuit onward is not background.
     It explains why the proof now has the shape it has.
-    The route did not begin with Pack, Part, and Field as formal names.
+    The route did not begin with Part and Field as formal names.
     It began with a positive regularity circuit and then learned, route by route,
     that the failed positive estimates were producing terminal objects.
     The class-membership proof is the point where those terminal objects stop being
@@ -1855,7 +1855,7 @@ source_sections:
     \begin{aligned}
     &\text{bad terminal object exists}\\
     &\Longrightarrow\ \text{test it as the same terminal object}\\
-    &\Longrightarrow\ \text{derive the first Pack/Part/Field face failure}\\
+    &\Longrightarrow\ \text{derive the first Part/Field face failure}\\
     &\Longrightarrow\ \Exit(Q;\Owork).
     \end{aligned}
     \]
@@ -1893,7 +1893,7 @@ source_sections:
       &\Longrightarrow
       \text{same-fluid CM terminal packet tree}\\
       &\Longrightarrow
-      \text{first failed Pack/Part/Field face}\\
+      \text{first failed Part/Field face}\\
       &\Longrightarrow
       \Exit(Q;\Owork).
       \end{aligned}
@@ -1902,7 +1902,7 @@ source_sections:
     It treats the alleged breakdown object seriously enough to test it.
     It also prevents the proof from rejecting the object by definition.
 
-    The Pack-first questions are now unavoidable:
+    The Part/Field questions are now unavoidable:
     \[
       \begin{array}{ll}
       \Pack_Q: & \text{does a positive same-fluid carrier survive?}\\
@@ -1927,7 +1927,7 @@ source_sections:
     \[
       O_{\Pass}
       \Longrightarrow
-      \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}
+      \Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}
       \Longrightarrow
       \Member(Q;\Owork)
       \Longrightarrow
@@ -1939,7 +1939,7 @@ source_sections:
     \[
       O_{\Fail}
       \Longrightarrow
-      \neg\Pack_Q
+      Field-window evidence outside CM
       \vee
       \neg\Part_{N,Q}
       \vee
@@ -2016,7 +2016,7 @@ source_sections:
     A theorem can be decisive in one mode and only supportive in another.
     A source-reserve visibility theorem is a forward-positive target.
     It is not automatically CM closure.
-    An endpoint readout theorem is pass-side support after Pack, Part, and Field
+    An endpoint readout theorem is pass-side support after Part and Field
     survive.
     It is not the upstream class test.
     The Euler boundary comparison is admitted only in the clean selected-packet case:
@@ -2064,7 +2064,7 @@ source_sections:
       &\Longrightarrow
       \text{surviving terminal object}\\
       &\Longrightarrow
-      \text{Pack, Part, Field, pass-side readout, or supplier quarantine.}
+      \text{Part, Field, pass-side readout, or supplier quarantine.}
       \end{aligned}
     \]
     That is not a status format.
@@ -2304,7 +2304,7 @@ support_refs:
   - failure
   excerpt: |-
     6. Dependency order is mandatory: definitions and operational need precede branch-family compression.
-    7. There is no current concrete CM blocker after terminal witness consumption. The Pack-side/source support chain is retained as mathematical support and may enter the proof spine only through the terminal CM entry, Pack/Part/Field finite-failure exhaustion, or contrapositive embedding gates.
+    7. There is no current concrete CM blocker after terminal witness consumption. The Pack-side/source support chain is retained as mathematical support and may enter the proof spine only through the terminal CM entry, Part/Field finite-failure exhaustion, or contrapositive embedding gates.
     8. The surface appendix must be long when the source field is long and the mathematical roles are genuinely distinct. Compression is allowed only by proof role, never by removing relevant mathematical obligations from the manuscript. Repeating a proof-role template across row numbers is forbidden and must fail the PDF hygiene check.
 - path: problems/navier-stokes/submission-bundle/source-frontier.yaml
   matched_keywords:
@@ -2390,8 +2390,8 @@ support_refs:
     status: demoted-stale-work-order
       proof_role: blocker_demotion
       logical_landing_node: cm_pack_face_attempts
-      edge_effect: "Demotes generic Pack-face exclusion as a stale global no-exit target while preserving not-Pack_Q as a lawful first-face landing for named rows."
-      upstream_origin: "June 7 Pack-face exclusion working pass and current CM referee audit."
+      edge_effect: "Demotes generic Field-window evidence exclusion as a stale global no-exit target while preserving not-Pack_Q as a lawful first-face landing for named rows."
+      upstream_origin: "June 7 Field-window evidence exclusion working pass and current CM referee audit."
 - path: problems/navier-stokes/theorem-construction/mpp-new-first-pack-survival-mechanism-search-after-nonalias-exhaustion-20260609.md
   matched_keywords:
   - attempt
@@ -2468,7 +2468,7 @@ context_domain_refs:
       allowed_outputs:
           - theorem note
           - failed attempt with exact blocker
-          - Pack/Part/Field face landing
+          - Part/Field face landing
           done_condition: complete when the theorem node changes proof state or is exactly
   - path: problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
     matched_keywords:
@@ -2776,14 +2776,14 @@ context_domain_refs:
     - failure
     excerpt: |-
       6. Dependency order is mandatory: definitions and operational need precede branch-family compression.
-      7. There is no current concrete CM blocker after terminal witness consumption. The Pack-side/source support chain is retained as mathematical support and may enter the proof spine only through the terminal CM entry, Pack/Part/Field finite-failure exhaustion, or contrapositive embedding gates.
+      7. There is no current concrete CM blocker after terminal witness consumption. The Pack-side/source support chain is retained as mathematical support and may enter the proof spine only through the terminal CM entry, Part/Field finite-failure exhaustion, or contrapositive embedding gates.
       8. The surface appendix must be long when the source field is long and the mathematical roles are genuinely distinct. Compression is allowed only by proof role, never by removing relevant mathematical obligations from the manuscript. Repeating a proof-role template across row numbers is forbidden and must fail the PDF hygiene check.
   - path: problems/navier-stokes/submission-bundle/authorial-structure-pass-20260526.md
     matched_keywords:
     - attempt
     - failure
     excerpt: |-
-      - Critical, endpoint, local, and comparison scenarios remain relevant only after they are tied to the same witness record and typed as Pack, Part, Field, or readout.
+      - Critical, endpoint, local, and comparison scenarios remain relevant only after they are tied to the same witness record and typed as Part, Field, or readout.
 
       ### 3. Positive Attempt Before Contrapositive Use
 
