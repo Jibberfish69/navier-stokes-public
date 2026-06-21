@@ -2763,7 +2763,7 @@ Consequently,
 
 for the same-carrier activity carried by the complete four-body loop.
 
-The remaining strict-gold boundary is now exactly:
+The remaining strict-gold boundary from the previous relay note was:
 
 ```math
 \boxed{
@@ -2776,9 +2776,68 @@ C\,A_{4B}
 \tag{4BF.108}
 ```
 
-If `(4BF.108)` is installed, the four-body cycle pays the original selected
-positive terminal activity.  Without `(4BF.108)`, the full four-body loop is
-closed for its carried activity, while mismatch with the native selected
-positive source carrier must route to terminal trace, missing signed
-partner/donor chain, selector/collar drift, pressure-memory collar, or
-geometry/Field loss.
+The selected full-packet production step installs this boundary for the
+order-locked density
+
+```math
+h_\sigma
+=
+\left\langle
+N_\sigma+P_\sigma+V_\sigma+T_\sigma+I_\sigma+L_\sigma+S_\sigma,
+\varphi_\sigma
+\right\rangle,
+\qquad
+A_{sel}(\sigma)=\int[h_\sigma]_+.
+\tag{4BF.109}
+```
+
+The installed production inequality is:
+
+```math
+\boxed{
+[h_\sigma]_+\,dy\,ds\,d\sigma
++d\Phi_\sigma^{cap}
+\le
+d\mathfrak M_{vis}
++d\mathfrak M_{press}
++d\mathfrak M_{sel}
++d\mathfrak M_{sgn}
++d\mathfrak M_{term}
++d\mathfrak M_{legal}
++T_\sigma\,dy\,ds\,d\sigma,
+\qquad
+T\in L^1_\sigma .
+}
+\tag{4BF.110}
+```
+
+Here \(\Phi_\sigma^{cap}\) is the noncircular four-body storage/drop potential,
+not the selected test.  The six payment channels are:
+
+```math
+\mathfrak M_{vis}=\nu\int|\nabla V_\sigma|^2,
+\quad
+\mathfrak M_{press}=\int|Q_\sigma^H V_\sigma\cdot\nabla\chi_\sigma|,
+\quad
+\mathfrak M_{sel}=\Lambda_{sel},
+```
+
+```math
+\mathfrak M_{sgn}=\Lambda_{sgn},
+\quad
+\mathfrak M_{term}=\Lambda_{term},
+\quad
+\mathfrak M_{legal}=\Lambda_{legal}.
+\tag{4BF.111}
+```
+
+Therefore a persistent order-locked selected full-packet activity cannot remain
+lossless.  It pays through capacity drop, viscous loss, harmonic pressure
+collar memory, selector/collar motion, signed-saturation routing, terminal
+trace/storage routing, legal residual, or the summable tail.
+
+The channel-first native pre-Cauchy/source selector remains a separate object.
+The direct identification of that older object with the full-packet carrier is
+false without order-locking or signed-saturation; any use of it must route the
+mismatch to the same typed terminal trace, missing signed partner/donor chain,
+selector/collar drift, pressure-memory collar, or geometry/Field branches.
