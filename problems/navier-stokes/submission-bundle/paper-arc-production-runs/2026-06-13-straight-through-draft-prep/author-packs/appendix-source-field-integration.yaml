@@ -27,7 +27,7 @@ source_rewrites:
       is not presented as a second proof spine.
     open_derivation_attack: The appendix does not prove smoothness; it pays the
       manuscript by making failed direct routes legible as source, residue, support,
-      open theorem, or Pack/Part/Field handoff material.
+      open theorem, or Part/Field handoff material.
     repair_decision: passes after repair
     unresolved_failures: []
 - op: certify_existing_section
@@ -48,7 +48,7 @@ source_rewrites:
       support controlled by the same-solution terminal test, not as an independent
       proof of the Clay conclusion.
     reader_thread_attack: 'The status map tells the reader how to use the huge source
-      record: proof-bearing only when a same terminal record and Pack/Part/Field face
+      record: proof-bearing only when a same terminal record and Part/Field face
       are named, support-only for definitions and routes, historical for older blockers.'
     open_derivation_attack: The derivation burden remains in the main proof or in
       cited face landings; the appendix is accepted here as organized support and

@@ -183,7 +183,7 @@ source_rewrites:
       object and membership in the original class. The replacement repairs this by
       saying related flows, Euler pictures, diagnostic traces, and exported records
       remain support until reattached to Owork and identified with Q.
-    open_derivation_attack: The witness certificate direction and the Pack/Part/Field
+    open_derivation_attack: The witness certificate direction and the Part/Field
       fail-side forms are paid. The branch readout at a selected continuation depth
       is named as attached later, so the section does not overclaim a complete global
       readout proof by itself.
@@ -202,7 +202,7 @@ source_rewrites:
     \[
       \WitnessRecord=(u_0,\nu,u,p,Q,N,r,\Phi,T_*).
     \]
-    The entries say what the proof is allowed to hold fixed.  The datum \(u_0\), viscosity \(\nu\), and velocity-pressure pair \((u,p)\) identify the original branch.  The object \(Q\) is the selected terminal record.  The integer \(N\) is the derivative depth used by the test.  The scale \(r>0\) is the positive field scale.  The carrier \(\Phi\) is transported by the same velocity field, and \(T_*\) is the alleged finite terminal time.  Pack, Part, and Field are all read on this record.
+    The entries say what the proof is allowed to hold fixed.  The datum \(u_0\), viscosity \(\nu\), and velocity-pressure pair \((u,p)\) identify the original branch.  The object \(Q\) is the selected terminal record.  The integer \(N\) is the derivative depth used by the test.  The scale \(r>0\) is the positive field scale.  The carrier \(\Phi\) is transported by the same velocity field, and \(T_*\) is the alleged finite terminal time.  Part and Field are all read on this record.
 
     \begin{definition}[Witness record]
     A witness record is one terminal data record
@@ -261,7 +261,7 @@ source_rewrites:
       record, the participation tower D_t U_k = K_k + B_k, and a positive-scale finite-difference
       model for Field.
     reader_thread_attack: A reader could lose which variables are held fixed across
-      Pack, Part, and Field. The replacement repairs this by naming the entries of
+      Part and Field. The replacement repairs this by naming the entries of
       the witness record before defining the two laws.
     open_derivation_attack: The section pays the local definitions and an example
       analytic Field bound. It does not claim every later branch satisfies or fails
@@ -402,9 +402,9 @@ source_rewrites:
 
     The periodic branch pays selection by using the whole transported material atlas.  The terminal object is \(Q_{\mathrm{atlas}}\).  The atlas fixes the packet before local branch examples are read, so the proof cannot switch to a private diagnostic packet after seeing the obstruction.  Loss of atlas selection or material comparability is Pack failure for \(Q_{\mathrm{atlas}}\).  Once an annular residue has already been admitted through the atlas, carrier and selection have been paid for that residue; the remaining nonsmooth branch is decided by Part or Field.
 
-    The whole-space branch pays selection differently.  For rapidly decaying data on \(\mathbb R^3\), the exterior Duhamel split removes the initial heat tail and the far-field effect of a fixed compact-core source.  The remaining object is the nonlinear source already living far out in space.  Vanishing in exterior \(H^s\) supplies the continuation readout.  A surviving exterior source enters the same CM packet test: Pack when no same-fluid material address remains, Part when the source has detached from the same equation and participation law, and Field when retained Pack plus Part still has no fixed positive field scale.
+    The whole-space branch pays selection differently.  For rapidly decaying data on \(\mathbb R^3\), the exterior Duhamel split removes the initial heat tail and the far-field effect of a fixed compact-core source.  The remaining object is the nonlinear source already living far out in space.  Vanishing in exterior \(H^s\) supplies the continuation readout.  A surviving exterior source enters the same CM participation-field test: Field-window evidence when a smoothness-certification window is requested, Part when the source has detached from the same equation and participation law, and Field when retained Field-window evidence plus Part still has no fixed positive field scale.
 
-    These two payments show how support work enters the class proof.  A forward estimate, comparison calculation, or source decomposition can select the record or strengthen the pass branch.  The CM conclusion begins only when the selected same-solution record is tested by Pack, Part, and Field.
+    These two payments show how support work enters the class proof.  A forward estimate, comparison calculation, or source decomposition can select the record or strengthen the pass branch.  The CM conclusion begins only when the selected same-solution record is tested by Part and Field.
 
     \subsection{The pass-or-exit conclusion}
 
@@ -437,7 +437,7 @@ source_rewrites:
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that the CM method consumes a selected
-      terminal survivor by Pack, Part, Field and gives Member or Exit. The replacement
+      terminal survivor by Part, Field and gives Member or Exit. The replacement
       pays this by stating Owork, Exit as not Member, CM_N,r,Q, the certificate direction,
       and the Pack-first fail side.
     reader_thread_attack: 'A reader could lose the annular object: endpoint point,
@@ -475,9 +475,9 @@ source_rewrites:
 
     This is the family used by retained pulses and annular source residues after selection.  The page should read these branches as failed positive-scale readability.  The proof force comes from the lost coherent field scale, not from the mere presence of a large quantity.
 
-    \subsection{Finite Pack/Part/Field disjunction obligations}
+    \subsection{Finite Part/Field disjunction obligations}
 
-    Some branch surfaces produce a finite list of same-solution alternatives rather than a single named face.  The proof then runs the Pack-first test on each alternative.  Every alternative lands in one of the three displayed losses:
+    Some branch surfaces produce a finite list of same-solution alternatives rather than a single named face.  The proof then runs the Part/Field test on each alternative.  Every alternative lands in one of the three displayed losses:
     \[
       \neg\Pack_Q,\qquad
       \Pack_Q\wedge\neg\Part_{N,Q},\qquad
@@ -493,9 +493,9 @@ source_rewrites:
 
     Their mathematical role is restraint.  An inherited-authority entry contributes through the theorem or face sweep it inherits from.  It supplies no fourth membership requirement and no new continuation branch.  The manuscript keeps these entries visible so the reader can see why already-paid material is not being counted again as an independent terminal alternative.
 
-    \subsection{Pack-face terminal obligations}
+    \subsection{Field-window evidence terminal obligations}
 
-    Pack-face obligations are the branches whose selected terminal object loses the same-fluid carrier first.  The mechanisms include carrier loss, cover loss, packing failure, failed retained-packet admission, and Pack bridge failure.  Their closing statement is
+    Field-window evidence obligations are the branches whose selected terminal object loses the same-fluid carrier first.  The mechanisms include carrier loss, cover loss, packing failure, failed retained-packet admission, and Pack bridge failure.  Their closing statement is
     \[
       \neg\Pack_Q\quad\Longrightarrow\quad\Exit(Q;\Owork).
     \]
@@ -520,7 +520,7 @@ source_rewrites:
     Support-boundary entries have no CM conclusion until they select a same-fluid terminal record or pay a named hinge.  They include history surfaces, audits, context material, downstream exports, readout consumers, source recovery, manuscript presentation surfaces, supplier notes, and comparison material.  Their role is
     \[
       \text{support}\quad\longrightarrow\quad
-      \text{later Pack, Part, Field, membership-readout, or no-third-branch hinge}.
+      \text{later Part, Field, membership-readout, or no-third-branch hinge}.
     \]
     They can strengthen the pass branch, sharpen the obstruction, explain why a witness matters, or prepare a later selection.  They remain support until the page identifies the selected same-solution record and proves either \(\Member(Q;\Owork)\) or \(\Exit(Q;\Owork)\).
 
@@ -554,7 +554,7 @@ source_rewrites:
   math_reader_critic:
     claim_truth_attack: The strongest claim is that the branch inventory collapses
       to finite CM obligations. The replacement pays this by grouping live branches
-      into Field-face, finite disjunction, inherited authority, Pack-face, Part-face,
+      into Field-face, finite disjunction, inherited authority, Field-window evidence, Part-face,
       and support-boundary obligations.
     reader_thread_attack: 'A reader could be overwhelmed by branch names. The replacement
       repairs this by making every family answer the same questions: what is Q, which

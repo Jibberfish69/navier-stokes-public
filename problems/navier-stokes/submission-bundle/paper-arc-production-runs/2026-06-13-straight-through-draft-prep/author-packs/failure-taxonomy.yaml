@@ -16,7 +16,7 @@ source_rewrites:
 
     The forward work produces many named surfaces.  The terminal proof uses them only after they have been reduced to one object: a same-solution record offered as the terminal record of the original Navier--Stokes branch.  That record is the object under examination.  It carries the initial datum, viscosity, velocity-pressure law, pressure response, incompressibility condition, material carrier, and terminal role inherited from the branch whose breakdown is being alleged.
 
-    The reduction has a fixed order.  A forward branch either pays a continuation readout, leaves a selected terminal record for the CM test, or remains support.  Once a record \(Q\) has been selected, the proof asks three questions in the order in which a Navier--Stokes record needs them.  Does \(Q\) have a positive same-fluid carrier?  Does the same pressure-viscosity-incompressibility law still participate on that carrier?  Do the retained readings form one positive-scale velocity field?  The answers are read as Pack, Part, and Field.
+    The reduction has a fixed order.  A forward branch either pays a continuation readout, leaves a selected terminal record for the CM test, or remains support.  Once a record \(Q\) has been selected, the proof asks three questions in the order in which a Navier--Stokes record needs them.  Does \(Q\) have a positive same-fluid carrier?  Does the same pressure-viscosity-incompressibility law still participate on that carrier?  Do the retained readings form one positive-scale velocity field?  The answers are read as Part and Field.
 
     The following map tells the reader what each forward family contributes to that ordered test.  Each entry names the direct estimate, the survivor left when that estimate stops short of a continuation theorem, and the face through which the survivor can become a CM witness.  A branch with no selected same-solution terminal record remains outside the CM proof.
 
@@ -75,7 +75,7 @@ source_rewrites:
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that many forward branch surfaces reduce
-      to one same-solution terminal record and then to Pack, Part, Field, continuation
+      to one same-solution terminal record and then to Part, Field, continuation
       readout, or support. The replacement pays this by listing branch families, naming
       each survivor type, and proving the Endpoint role map lemma.
     reader_thread_attack: A reader could lose the difference between a named failure
@@ -132,7 +132,7 @@ source_rewrites:
   math_reader_critic:
     claim_truth_attack: The strongest claim is that the endpoint taxonomy compresses
       to three ordered witness faces. The replacement pays this by defining Q, Owork,
-      Pack, Part, and Field and displaying the three terminal alternatives in Pack-first
+      Part and Field and displaying the three terminal alternatives in Pack-first
       order.
     reader_thread_attack: A reader could lose why Pack comes before Part and Field.
       The replacement repairs the thread by explaining that no equation or field question
@@ -249,7 +249,7 @@ source_rewrites:
   replacement: |
     \section{Velocity Failure Types}
 
-    The legacy words dead, jump, and blown are useful only after the first failed face has been located.  They are mechanism descriptions inside the Pack/Part/Field tree.  The proof first fixes the selected record \(Q\), checks Pack, checks Part, and then checks Field.  The first failed face licenses the mechanism name.
+    The legacy words dead, jump, and blown are useful only after the first failed face has been located.  They are mechanism descriptions inside the Part/Field tree.  The proof first fixes the selected record \(Q\), checks Part, then checks Field; Pack is only Field-window evidence.  The first failed face licenses the mechanism name.
 
     \subsection{Dead}
 
@@ -286,7 +286,7 @@ source_rewrites:
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that dead, jump, and blown are mechanism
-      names only after the first Pack/Part/Field face has been located. The replacement
+      names only after the first Part/Field face has been located. The replacement
       pays this by defining dead as Part failure, jump as Field failure, and blown
       as a mechanism that must be routed through Pack, Part, or Field depending on
       what survives.
