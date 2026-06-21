@@ -158,7 +158,7 @@ H_N(W)\to\infty.
 ```
 
 Thus a retained pulse admitted as the same terminal CM witness gives Pack
-failure, Part failure, or retained Pack+Part with Field-height failure.
+failure, Part failure, or retained Part plus Field-window evidence with Field-height failure.
 
 That is a CM readout.  It is not a forward-gold payment theorem.
 

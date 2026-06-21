@@ -118,7 +118,7 @@ Pack_Q and not Part_{N,Q}.
 ```
 
 That is a certified Part/Field failure for that selected row. The raw terminal source
-residue row is also certified at Pack/Part: when the carrier survives, an unpaid
+residue row is also certified at Part/Field: when the carrier survives, an unpaid
 native residue is a participation defect, hence a Part face. The retained
 pressure package note gives the same placement rule: a pressure package is
 either a Part failure, pass-side receiver support after Part survives, or a
@@ -126,7 +126,7 @@ Field issue after Pack and Part have already been licensed.
 
 The June 5 finite-obstruction row audit then split the local `L^3` Duhamel-mass
 branch from generic public-critical support and recorded the local row as
-seated in Pack/Part/legal alternatives, with a Field row only after retained
+seated in Part/legal alternatives, with a Field row only after retained
 Pack and Part.
 
 So, on the currently promoted finite-obstruction inventory, there is no generic

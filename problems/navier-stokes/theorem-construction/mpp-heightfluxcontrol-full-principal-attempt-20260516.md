@@ -251,7 +251,7 @@ Equivalently, prove a genuinely noncircular source-weighted theorem such as:
 
 ```text
 active strain decorrelation surviving the donor-height weight,
-retained Pack/Part gain strong enough to charge first height creation,
+retained Part/Field gain strong enough to charge first height creation,
 terminal no-incoming rigidity for native donor-height residuals,
 or a tail-weighted full-principal residual square estimate not equivalent to
 ScaleCriticalTreeCarleson.A.

@@ -12,7 +12,7 @@ closed.
 After the May 22 paraproduct/native-source capture closure, the terminal native
 source residue is already handled in the CM contrapositive program by
 `TerminalSourceResidueCMExit.A`: the residue is not erased; it is the witness
-landing in Pack/Part failure. The separate positive supplier route, when the
+landing in Part/Field failure. The separate positive supplier route, when the
 proof program explicitly asks to delete the residue, still targets:
 
 ```math
@@ -76,8 +76,8 @@ ParaproductNativeSourceCapture.A
 is closed for the nonlinear Duhamel half of the `L^3` native-extraction split.
 
 This identifies same-ledger nonlinear Duhamel work as native positive source
-work, or routes it to selected Pack-side/source-wall failure or paid
-Pack/Part/legal exit.
+work, or routes it to selected Field-window/source-wall failure or paid
+Part/legal exit.
 
 ## Direct Test: Can Paraproduct Capture Close The Positive Supplier?
 
@@ -99,7 +99,7 @@ The positive supplier route needs an exclusion theorem:
 
 The new paraproduct closure tells us what a terminal source contribution is
 once it appears. In the CM route that is enough because the contribution lands
-as Pack/Part exit. It does not by itself prove the stronger positive statement
+as Part/Field exit. It does not by itself prove the stronger positive statement
 that a zero-thickness terminal native source concentration cannot be produced.
 
 ## Direct Test: Promote `ReserveCreationCharge.A`?
@@ -236,13 +236,13 @@ for the Zeno/equality-class branch.
 
 Both are the same underlying demand for the positive route: prove that original
 smooth Navier-Stokes data cannot create a zero-thickness terminal native source
-pulse after all ASAC, legal, donor, non-Zeno, Pack/Part, and
+pulse after all ASAC, legal, donor, non-Zeno, Part/Field, and
 paraproduct-capture alternatives are removed.
 
 ## Bridge Boundary
 
 The CM contrapositive machinery is the governing route for this terminal
-residue. Any surviving terminal zero-radius residue is a Pack/Part CM exit, not
+residue. Any surviving terminal zero-radius residue is a Part/Field CM exit, not
 a retained Field/jump object, and the residue is used as the witness rather
 than deleted.
 

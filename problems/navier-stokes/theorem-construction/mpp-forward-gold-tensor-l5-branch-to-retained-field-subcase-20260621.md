@@ -6,7 +6,7 @@ ns_viewer:
   logical_landing_node: tensor_l5_branch_retained_field_subcase
   edge_effect: >-
     Takes the tensor-square-to-L5 readout and places it in the retained
-    Pack/Part critical-concentration grammar without overclaiming generic Field
+    Part/Field critical-concentration grammar without overclaiming generic Field
     failure. The tensor branch is already same-ledger localized because it is
     built on the selected projected-source terminal strips. If Pack_Q and
     Part_N,Q are retained and the Field certificate includes a finite
@@ -21,7 +21,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-finite-terminal-obstruction-inventory-row-audit-20260605.md
   downstream_consequence: >-
     The tensor L5 branch has a precise CM consumer: after same-witness admission
-    and retained Pack/Part, any Field reading with finite same-packet L5
+    and retained Part/Field, any Field reading with finite same-packet L5
     coherence fails. The branch remains a forward-gold readout, not a production
     theorem, unless an unweighted terminal-family L5/source-square/no-waste
     budget is produced.
@@ -100,7 +100,7 @@ CritConc_{L^5}(\mathcal W)
 \tag{TLF.5}
 \]
 
-Any failure to place these strips on the same terminal carrier is a Pack-side
+Any failure to place these strips on the same terminal carrier is a Field-window support
 failure.  Any failure to keep `(TLF.4)` as the same pressure-viscosity-
 incompressibility source law is a Part-side failure.  This note treats the
 retained subcase:

@@ -4,16 +4,16 @@ ns_viewer:
   status: installed-target-repair
   proof_role: target_repair
   logical_landing_node: cm_class_membership_program_attempts
-  edge_effect: "Replaces generic Pack/Part no-face-exclusion with row-level same-witness CM entry and Part/Field witness record as the current proof gate."
-  upstream_origin: "June 3 counterexample-exclusion target correction plus June 7 Pack/Part working passes."
-  downstream_consequence: "The current route remains on row-level same-witness CM entry and Part/Field witness record, with no generic Pack/Part global blocker open."
+  edge_effect: "Replaces generic Part/Field no-face-exclusion with row-level same-witness CM entry and Part/Field witness record as the current proof gate."
+  upstream_origin: "June 3 counterexample-exclusion target correction plus June 7 Part/Field working passes."
+  downstream_consequence: "The current route remains on row-level same-witness CM entry and Part/Field witness record, with no generic Part/Field global blocker open."
 ---
 
-# MPP Generic Pack/Part Face-Exclusion Blocker Target Repair
+# MPP Generic Part/Field Face-Exclusion Blocker Target Repair
 
 Date: 2026-06-07
 
-Status: installed target repair; the generic Pack/Part face-exclusion work
+Status: installed target repair; the generic Part/Field face-exclusion work
 order is stale as a generic global blocker.
 
 ## Point
@@ -109,7 +109,7 @@ generic global blockers. They remain useful warning labels for failed no-exit
 proof attempts.
 
 The current CM theorem state is governed by the finite-obstruction inventory
-gate, not by generic Pack/Part face exclusion.
+gate, not by generic Part/Field face exclusion.
 
 ## Boundary
 

@@ -28,7 +28,7 @@ such that every positive same-fluid cylinder centered at `(a_*,t_*)` is SCF-bad:
 SCF_{base}(Q_\rho^\Phi(a_*,t_*))>\varepsilon_m.
 ```
 
-Then the retained Pack+Part branch selects the Field face:
+Then the retained Part plus Field-window evidence branch selects the Field face:
 
 ```math
 Pack_Q(\mathcal W_*)

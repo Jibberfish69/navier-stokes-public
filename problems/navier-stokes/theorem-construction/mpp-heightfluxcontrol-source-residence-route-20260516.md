@@ -76,7 +76,7 @@ ASAC.A
 
 The non-Zeno donor trees telescope by `LocalDonorBalance.A` and
 `EntranceLeafDecay.A`.  Thus the only branch still not paid by retained
-Pack/Part/legal Field bookkeeping is:
+Part/legal Field bookkeeping is:
 
 ```text
 terminal Zeno source-residue atom.

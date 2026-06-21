@@ -482,7 +482,7 @@ status:
 \text{transport endpoint UI / enstrophy dissipation} &
 \text{exact consumer; bounded height plus }\int Z^2\text{ gives UI; atom forces }\theta^{-1/3}\text{ action}\\
 \text{native stretching atom finite-rung Field face} &
-\text{after same-witness Pack+Part, local }H^2\text{ Field coherence bounds }[\omega\cdot S\omega]_+\text{ and forbids a native stretching atom}\\
+\text{after same-witness Part plus Field-window evidence, local }H^2\text{ Field coherence bounds }[\omega\cdot S\omega]_+\text{ and forbids a native stretching atom}\\
 \text{allocation / KKT shadow price} &
 \text{combined Holder price paid; unweighted priced reserve absent}\\
 \text{coupled mixed-tower radius} &
@@ -496,13 +496,13 @@ status:
 \text{tensor-square to critical }L^5 &
 \text{finite-measure Holder promotes tensor-square readout to scale-invariant Serrin-critical }L^5\text{ bill}\\
 \text{tensor }L^5\text{ retained Field subcase} &
-\text{after same-witness Pack+Part, finite same-packet }L^5\text{ Field coherence is contradicted}\\
+\text{after same-witness Part plus Field-window evidence, finite same-packet }L^5\text{ Field coherence is contradicted}\\
 \text{tensor }L^5\text{ finite-rung Field face} &
-\text{after same-witness Pack+Part, finite-rung Sobolev Field coherence implies an }L^5\text{ upper bill and is contradicted}\\
+\text{after same-witness Part plus Field-window evidence, finite-rung Sobolev Field coherence implies an }L^5\text{ upper bill and is contradicted}\\
 \text{projected-source atom finite-rung Field face} &
-\text{after same-witness Pack+Part, finite-rung Sobolev Field coherence bounds }N=-\mathbb P\nabla\cdot(v\otimes v)\text{ in }L^\infty\text{ and forbids a projected-source atom}\\
+\text{after same-witness Part plus Field-window evidence, finite-rung Sobolev Field coherence bounds }N=-\mathbb P\nabla\cdot(v\otimes v)\text{ in }L^\infty\text{ and forbids a projected-source atom}\\
 \text{finite-order selected carrier Field face} &
-\text{after same-witness Pack+Part, any carrier bounded by a fixed finite-order readout is forbidden by finite-rung Field coherence}\\
+\text{after same-witness Part plus Field-window evidence, any carrier bounded by a fixed finite-order readout is forbidden by finite-rung Field coherence}\\
 \text{same-carrier }p>1\text{ / Orlicz} &
 \text{consumer of tail UI; production absent}\\
 \text{source-square / Carleson} &

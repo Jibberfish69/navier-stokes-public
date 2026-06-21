@@ -99,7 +99,7 @@ V:=|\mathbb T^3|.
 
 This lower bound is already attached to the selected projected-source terminal
 strips from the tensor branch.  A failure to place those strips on the same
-terminal carrier is a Pack-side failure, and a failure to keep the projected
+terminal carrier is a Field-window support failure, and a failure to keep the projected
 Navier-Stokes source law on those strips is a Part-side failure.  This note
 treats the retained subcase:
 
