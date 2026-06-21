@@ -7,6 +7,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-participation-exchange-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-packet-selector-polar-retention-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-measure-persistence-production-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-canonical-selected-carrier-identification-criterion-20260621.md
 ---
 
 # Selected Tower Carrier Representation
@@ -285,8 +286,8 @@ A_{\rm sel}=\mu_n^A(C_n)
 \tag{STR.21}
 ```
 
-It does not prove the two compactness clauses still needed by the selected
-carrier persistence production criterion:
+It does not prove the compactness and no-loss clauses still needed by the
+selected carrier persistence production criterion:
 
 ```math
 \boxed{
@@ -307,12 +308,26 @@ profile, up to }K_C^+.
 \tag{STR.23}
 ```
 
+The identification clause is now sharpened by the Body-III canonical carrier
+criterion.  On a fixed compact selected carrier, it follows from
+
+```math
+\sum_{P\in\mathcal S}
+\|h_{n,P}-h_P[U,\Pi]\|_{L^1(K\times P)}
+\to0.
+\tag{STR.23a}
+```
+
+Thus the remaining production is not a vague continuity condition for the
+positive part.  It is strong same-carrier convergence of the full coupled
+participation density of the velocity-pressure tower.
+
 So the exact current frontier after this note is:
 
 ```math
 \boxed{
-\text{representation is paid; tightness and Body-III no-loss identification
-remain open.}
+\text{representation is paid; tightness failure is charged; interior
+Body-III identification reduces to }L^1\text{ density convergence or }K_C^+.
 }
 \tag{STR.24}
 ```
