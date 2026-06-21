@@ -1,14 +1,15 @@
 ---
 theorem_id: forward-gold-source-square-nowaste-fourbody-supplement-criterion-20260621
-status: supplement-criterion-proved-source-square-nowaste-production-not-installed
+status: supplement-criterion-proved-source-square-nowaste-and-no-residue-skew-production-open
 logical_landing_node: source_square_nowaste_fourbody_supplement_criterion
-edge_effect: "Assembles the source-square / strict-no-waste supplement in the upgraded four-body loop. If the actual native selected positive carrier is dominated on the same carrier by a square-controlled density plus legal residue, and that square density has an unweighted terminal budget, then the selected carrier has same-carrier spacetime UI and no terminal atom. Equivalently, a strict no-waste Lyapunov drop with the selected critical action gives the same unweighted reserve. The bounded-coefficient part of the native trilinear carrier is already dominated by the parent source-square tail; the only remaining product obstruction is same-carrier identity failure, selected coefficient overrun, or absence of the unweighted square/no-waste budget. This proves the supplement criterion, not the Navier-Stokes production theorem."
+edge_effect: "Assembles the source-square / strict-no-waste supplement in the upgraded four-body loop. If the actual native selected positive carrier is dominated on the same carrier by a square-controlled density plus legal residue, and that square density has an unweighted terminal budget, then the selected carrier has same-carrier spacetime UI and no terminal atom. Equivalently, a strict no-waste Lyapunov drop with the selected critical action gives the same unweighted reserve. The pressure-adapted no-residue skew criterion is now attached as the sharper route: use a Leray/pressure-adapted incompressible selector to reduce the nonlinear term to a selector/pressure commutator, then pay that commutator by viscosity, scale-capacity drop, and L1 tail with no C_epsilon Theta_sigma^2 E_sigma residue. This proves supplement/criterion implications, not the Navier-Stokes production theorem."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-precauchy-to-gauge-quotient-tower-bridge-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-source-square-carrier-domination-failure-split-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-domination-to-same-carrier-spacetime-ui-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-strict-nowaste-post-active-height-audit-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-source-square-reserve-heat-scale-direct-test-20260619.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-upgraded-four-body-current-frontier-20260621.md
 ---
 
@@ -232,7 +233,107 @@ The strict no-waste audits show that pressure-corrected physical energy,
 instantaneous cubic correctors, heat memory, and compact recurrence do not
 produce `(SSN.15)` unless they already carry this unweighted selected action.
 
-## 4. Product split for the native trilinear carrier
+## 4. Pressure-adapted no-residue skew upgrade
+
+The sharper version of the no-waste route tries to avoid the source-square
+residue before it is created.
+
+Let
+
+```math
+A_\sigma=S_\sigma P,
+\qquad
+W_\sigma=A_\sigma u,
+\tag{SSN.16a}
+```
+
+where \(P\) is Leray projection and \(S_\sigma\) is the retained same-carrier
+packet selector.  The selected nonlinear interaction is
+
+```math
+\mathcal M_\sigma
+=
+\langle A_\sigma((u\cdot\nabla)u),W_\sigma\rangle.
+\tag{SSN.16b}
+```
+
+Insert and subtract \(u\cdot\nabla W_\sigma\):
+
+```math
+\mathcal M_\sigma
+=
+\langle u\cdot\nabla W_\sigma,W_\sigma\rangle
++
+\langle[A_\sigma,u\cdot\nabla]u,W_\sigma\rangle.
+\tag{SSN.16c}
+```
+
+The first term is the incompressible skew term and vanishes in the closed
+localized same-carrier pairing:
+
+```math
+\langle u\cdot\nabla W_\sigma,W_\sigma\rangle=0.
+\tag{SSN.16d}
+```
+
+Thus the whole selected interaction is the commutator
+
+```math
+\mathcal C_\sigma
+=
+\langle[A_\sigma,u\cdot\nabla]u,W_\sigma\rangle.
+\tag{SSN.16e}
+```
+
+The no-residue theorem would prove
+
+```math
+\boxed{
+[\mathcal C_\sigma]_{\mathcal S,+}
+\le
+\varepsilon\nu D_\sigma
+-\partial_\sigma\Phi_\sigma
++
+T_\sigma
++
+R_{\rm legal}(\sigma),
+}
+\tag{SSN.16f}
+```
+
+with
+
+```math
+T_\sigma,\ R_{\rm legal}\in L^1_\sigma,
+\qquad
+\inf_{\sigma\ge\sigma_0}\Phi_\sigma>-\infty.
+\tag{SSN.16g}
+```
+
+This is strictly stronger than the crude estimate
+
+```math
+|\mathcal C_\sigma|
+\le
+\varepsilon\nu D_\sigma
++
+C_\varepsilon\Theta_\sigma^2E_\sigma.
+\tag{SSN.16h}
+```
+
+because `(SSN.16f)` has no \(C_\varepsilon\Theta_\sigma^2E_\sigma\) residual.
+
+If the native selected carrier is identified with this positive commutator up
+to summable legal residue, integrating `(SSN.16f)` gives the same unweighted
+reserve as `(SSN.16)`, after absorbing \(\varepsilon\nu D_\sigma\) into the
+four-body loss and adding \(\Phi_\sigma\) to the storage.
+
+This pressure-adapted route is now recorded in
+`mpp-forward-gold-pressure-adapted-no-residue-skew-coercivity-criterion-20260621.md`.
+It is a criterion.  Its unproved production input is exactly the no-residue
+commutator payment `(SSN.16f)` on the terminal selected carrier.
+
+## 5. Product split for the native trilinear carrier
 
 For the main native carrier, write
 
@@ -294,7 +395,7 @@ The only remaining product branch is the selected overrun:
 The overrun branch is not paid by the source-square consumer unless another
 same-carrier theorem controls it.
 
-## 5. Exact failure locations
+## 6. Exact failure locations
 
 The source-square/no-waste supplement can fail only at one of these exact
 locations.
@@ -321,6 +422,10 @@ overrun `(SSN.21)` may remain unpaid.
 Third, a proposed no-waste functional or square density may lack an unweighted
 tail budget on the same carrier.
 
+Fourth, the pressure-adapted no-residue route may fail because the selected
+Leray/pressure/cutoff/scale commutator cannot be written as viscosity plus
+capacity drop plus \(L^1\) tail without the square-source residual.
+
 Thus the exact production burden is:
 
 ```math
@@ -329,12 +434,14 @@ Thus the exact production burden is:
 +
 \text{selected coefficient-overrun payment}
 +
-\text{unweighted square/no-waste budget.}
+\text{unweighted square/no-waste budget}
+\quad\text{or}\quad
+\text{pressure-adapted no-residue commutator payment.}
 }
 \tag{SSN.23}
 ```
 
-## 6. Current state
+## 7. Current state
 
 This note proves the source-square/no-waste supplement criterion:
 
@@ -357,7 +464,9 @@ It also sharpens the remaining branch:
 \ \vee\
 \text{selected coefficient overrun}
 \ \vee\
-\text{missing unweighted budget.}
+\text{missing unweighted budget}
+\ \vee\
+\text{failed no-residue pressure-adapted commutator payment.}
 }
 \tag{SSN.25}
 ```
