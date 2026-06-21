@@ -63,7 +63,7 @@ Since the deformation solves `\dot F=(\nabla u)(X(a,t),t)F`, this gives a finite
 
 ## Step 2. Part routes pressure/viscous participation but not high tails
 
-`Part_{N,Q}` supplies the participation law through finite depth `N`:
+`Part_{N,Q}` records the participation law through finite depth `N`:
 
 ```math
 D_tU_k=K_k+B_k,

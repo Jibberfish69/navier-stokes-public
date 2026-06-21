@@ -2,7 +2,7 @@
 
 Status: supersedes the generated `TerminalAtomOriginalParticipationAuditExit.A` wording.
 
-This surface used the stale phrase "Part/Field before Pack."  That phrase is no
+This surface used the stale phrase "pre-Pack indexed-predicate."  That phrase is no
 longer an admissible mathematical reading.  The corrected statement is:
 
 ```text

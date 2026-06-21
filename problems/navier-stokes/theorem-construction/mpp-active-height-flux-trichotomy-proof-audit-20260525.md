@@ -25,7 +25,7 @@ Pack_Q, Part_{N,Q}, Field_{N,r,Q}.
 
 `ActiveHeightFluxTrichotomy.A` is allowed to support this program only by
 showing that a first-created positive square-reserve surplus either produces a
-same-ledger active height-flux witness or already forces Pack/Part/Field exit.
+same-ledger active height-flux witness or already forces Pack/that face failure.
 It is not allowed to become a positive smoothness estimate, a free source
 budget, or a shortcut to `Member(Q)`.
 

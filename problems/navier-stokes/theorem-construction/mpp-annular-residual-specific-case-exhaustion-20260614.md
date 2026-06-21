@@ -243,4 +243,4 @@ It does not prove the stronger scale-uniform annular supplier.
 
 It does prove that the specific hand-waved annular residual case has no
 remaining untyped route: it is gold pass, exact gold obstruction, no-admission
-support/Pack boundary, admitted Member branch, or admitted Part/Field exit.
+support/Pack boundary, admitted Member branch, or admitted that face failure.

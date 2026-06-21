@@ -249,7 +249,7 @@ surviving residual annular obstruction
 + annular CM-test admission
 + same-solution positive-radius carrier
 + readout completeness
-=> smooth readout-complete Member branch or finite nonsmooth readout-complete Part/Field exit branch.
+=> smooth readout-complete Member branch or finite nonsmooth readout-complete that face failure branch.
 ```
 
 This is the CM answer to the annular objection. It does not erase the gold

@@ -24,7 +24,7 @@ The pointwise witness is
 CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
-`Pack_Q` supplies a finite retained cover with bounded deformation and bounded overlap. `Part_{N,Q}` supplies the finite tower participation and forcing law through depth `N`. `Field_{N,r,Q}` supplies one-field coherence, so the local tower packets patch as a single velocity field on `T^3`.
+`Pack_Q` supplies a finite retained cover with bounded deformation and bounded overlap. `Part_{N,Q}` records the finite tower participation and forcing law through depth `N`. `Field_{N,r,Q}` supplies one-field coherence, so the local tower packets patch as a single velocity field on `T^3`.
 
 `DTC.Read` supplies the required pointwise tower and pressure-forcing readout, including
 

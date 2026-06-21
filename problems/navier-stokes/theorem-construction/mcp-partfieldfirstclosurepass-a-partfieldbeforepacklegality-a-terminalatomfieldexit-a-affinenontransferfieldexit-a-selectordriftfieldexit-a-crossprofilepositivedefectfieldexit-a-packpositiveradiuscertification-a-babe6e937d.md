@@ -1,4 +1,4 @@
-# Part/Field-First Closure Pass
+# Original-Participation Audit Pass
 
 ## Purpose
 

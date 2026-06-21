@@ -8,7 +8,7 @@ The old chain said:
 
 ```text
 terminal singular object
-=> Part/Field exit first
+=> that face failure first
 => not Member(Q)
 => Pack_Q positive-radius requirement is certified afterward.
 ```
