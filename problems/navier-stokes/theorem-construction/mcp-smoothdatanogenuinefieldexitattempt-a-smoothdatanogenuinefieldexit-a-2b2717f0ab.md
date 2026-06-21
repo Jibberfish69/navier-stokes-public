@@ -81,7 +81,7 @@ FieldTerminalClosednessFromSmoothData.A.
 
 ## Final hard blocker
 
-After the Part/Field-first closure pass, the remaining Clay-level blocker is the terminal closedness / forward-invariance pair:
+After the original-participation-before-Pack closure pass, the remaining Clay-level blocker is the terminal closedness / forward-invariance pair:
 
 ```text
 PartTerminalClosednessFromSmoothData.A
@@ -101,12 +101,12 @@ Until those are installed, the proof classifies terminal exits but does not yet 
 Local work closed:
 
 ```text
-PartFieldBeforePackLegality.A
+OriginalParticipationBeforePackLegality.A
 TerminalAtomFieldExit.A
 AffineNontransferFieldExit.A
 SelectorDriftFieldExit.A
 CrossProfilePositiveDefectFieldExit.A
-AllSingularitiesPartFieldFirstExit.A
+AllSingularitiesOriginalParticipationAuditExit.A
 PackPositiveRadiusCertification.A
 ```
 

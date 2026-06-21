@@ -19,7 +19,7 @@ The distinction is order of use, not new notation.
 ### Claim
 
 ```text
-PartFieldBeforePackLegality.A
+OriginalParticipationBeforePackLegality.A
 ```
 
 For a same-solution terminal witness `Q`, the questions
@@ -80,7 +80,7 @@ terminal atom
 
 ### Status
 
-Closed as a Part/Field-first terminal atom theorem.
+Closed as a original-participation-before-Pack terminal atom theorem.
 
 ## 3. Affine/material nontransfer Field exit
 
@@ -159,14 +159,14 @@ cross-profile positive terminal defect
 
 ### Status
 
-Closed as a Field-exit dichotomy. The older demand for unconditional positive selected decoupling is stronger than needed under the corrected Part/Field-first route. The corrected route does not need to prove the cross-profile defect cannot exist as a positive Pack object. It only needs to prove that if it is not one coherent field, it fails Field; if it is one coherent field, it reduces to the one-profile branch.
+Closed as a Field-exit dichotomy. The older demand for unconditional positive selected decoupling is stronger than needed under the corrected original-participation-before-Pack route. The corrected route does not need to prove the cross-profile defect cannot exist as a positive Pack object. It only needs to prove that if it is not one coherent field, it fails Field; if it is one coherent field, it reduces to the one-profile branch.
 
 ## 6. All-singularity closure
 
 Combining the previous items:
 
 ```text
-AllSingularitiesPartFieldFirstExit.A:
+AllSingularitiesOriginalParticipationAuditExit.A:
 Every zero-radius / singular terminal witness is either:
   - not Part_{N,Q},
   - forall r>0 not Field_{N,r,Q},
@@ -190,12 +190,12 @@ This makes `Pack_Q` legitimate inside the base CM triad without using it to disc
 
 ## Remaining work after this closure pass
 
-The local Part/Field-first singularity route is closed at the classification level.
+The local original-participation-before-Pack singularity route is closed at the classification level.
 
 The remaining work is not another local Pack/Part/Field ordering problem. It is the release-level Clay bridge:
 
 ```text
-PartFieldFirstClayBridge.A / NoGenuineExitFromSmoothData.A
+OriginalParticipationAuditClayBridge.A / NoGenuineExitFromSmoothData.A
 ```
 
 The bridge must propagate the local classification into the official finite-time Clay counterexample exclusion layer and pass dependency, assumption, circularity, gap, consistency, failure-mode, review, and release audits.
@@ -205,19 +205,19 @@ The bridge must propagate the local classification into the official finite-time
 Closed locally:
 
 ```text
-PartFieldBeforePackLegality.A
+OriginalParticipationBeforePackLegality.A
 TerminalAtomFieldExit.A
 AffineNontransferFieldExit.A
 SelectorDriftFieldExit.A
 CrossProfilePositiveDefectFieldExit.A
-AllSingularitiesPartFieldFirstExit.A
+AllSingularitiesOriginalParticipationAuditExit.A
 PackPositiveRadiusCertification.A
 ```
 
 Still open globally:
 
 ```text
-PartFieldFirstClayBridge.A / NoGenuineExitFromSmoothData.A
+OriginalParticipationAuditClayBridge.A / NoGenuineExitFromSmoothData.A
 ```
 
 This is now the single real next theorem.

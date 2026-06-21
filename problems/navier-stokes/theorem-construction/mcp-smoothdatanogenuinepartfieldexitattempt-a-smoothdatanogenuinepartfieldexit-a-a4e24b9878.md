@@ -14,7 +14,7 @@ Desired statement:
 A same-solution terminal `Part_{N,Q}` or `Field_{N,r,Q}` exit cannot genuinely arise from smooth Navier-Stokes initial data on a maximal classical branch.
 ```
 
-This theorem is the missing bridge from local Part/Field-first classification to Clay-level exclusion.
+This theorem is the missing bridge from local original-participation-before-Pack classification to Clay-level exclusion.
 
 ## What the local route already proves
 
@@ -49,7 +49,7 @@ SmoothDataNoGenuineFieldExit.A:
 Smooth same-solution data cannot produce a genuine terminal failure of Field_{N,r,Q} for every r>0.
 ```
 
-If both are proved, then every local Part/Field-first singularity classification becomes a contradiction to the assumed smooth-data finite-time branch.
+If both are proved, then every local original-participation-before-Pack singularity classification becomes a contradiction to the assumed smooth-data finite-time branch.
 
 ## Attempted direct proof and failure point
 
@@ -95,4 +95,4 @@ SmoothDataNoGenuinePartExit.A
 SmoothDataNoGenuineFieldExit.A
 ```
 
-Those are the true release-level blockers after the local Part/Field-first closure.
+Those are the true release-level blockers after the local original-participation-before-Pack closure.

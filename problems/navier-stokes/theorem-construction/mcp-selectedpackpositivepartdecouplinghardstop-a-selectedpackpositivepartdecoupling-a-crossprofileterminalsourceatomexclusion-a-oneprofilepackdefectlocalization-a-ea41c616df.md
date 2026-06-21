@@ -14,7 +14,7 @@ PackFunctionalStabilityUnderProfileDecomposition.A
 
 The affine/material branch was already reduced separately to fixed-coordinate readout transfer or `Field_{N,r,Q}` exit.
 
-Circularity caveat: this profile/selector branch is support for Part/Field-first exclusion. Cross-profile `Field_{N,r,Q}` exit must be proved from one-field readout failure or selected-positive decoupling, not from ordinary Pack_Q positive-radius failure.
+Circularity caveat: this profile/selector branch is support for original-participation-before-Pack exclusion. Cross-profile `Field_{N,r,Q}` exit must be proved from one-field readout failure or selected-positive decoupling, not from ordinary Pack_Q positive-radius failure.
 
 ## Core obstruction
 

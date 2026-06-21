@@ -4,7 +4,7 @@ Status: failed audit boundary / conditional support retained.
 
 ## Audit target
 
-Check whether the `PartStarToPartFieldFaceBridge.Attempt` can be promoted from semantic bridge to source-backed Pack/Part/Field certificate by direct visible-surface audit of the participation-law notes.
+Check whether the `PartStarToPartFieldFaceBridge.Attempt` can be promoted from semantic bridge to source-backed Pack/Part/Field witness-face record by direct visible-surface audit of the participation-law notes.
 
 ## Surfaces located during this loop
 

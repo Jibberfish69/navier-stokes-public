@@ -7,7 +7,7 @@ Test whether the terminal measure concentration produced by the shrinking endpoi
 The intended statement is:
 
 ```text
-A same-solution terminal measure concentration cannot remain a valid `Part_{N,Q}` / `Field_{N,r,Q}` survivor once the tests used before Pack include their quantitative certification content.
+A same-solution terminal measure concentration cannot remain a valid `Part_{N,Q}` / `Field_{N,r,Q}` survivor once the tests used as original-participation audit records before Pack-local notation include their quantitative certification content.
 ```
 
 ## Installed cost fact
@@ -83,7 +83,7 @@ This gives a conditional reduction, rather than a full discharge.
 The remaining theorem is:
 
 ```text
-PartFieldBeforePackStrength.A:
+OriginalParticipationBeforePackStrength.A:
 The `Part_{N,Q}` / `Field_{N,r,Q}` tests used for class certification include finite selected-measure residence, temporal absolute continuity, same-solution terminal readout continuity, or an equivalent donor/readout compatibility budget. These clauses are before Pack service clauses and do not assume a positive terminal Pack carrier.
 ```
 

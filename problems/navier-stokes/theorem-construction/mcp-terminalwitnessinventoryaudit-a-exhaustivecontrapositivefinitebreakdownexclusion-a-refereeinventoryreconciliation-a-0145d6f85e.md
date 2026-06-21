@@ -32,7 +32,7 @@ So this inventory audit cannot honestly be marked as release-passed.
 
 It can only record the local inventory and identify what must be accepted by the referee gate.
 
-## Local inventory after Part/Field-first closure
+## Local inventory after original-participation-before-Pack closure
 
 The local terminal witness inventory is:
 
@@ -152,7 +152,7 @@ If a service fails, it is a concrete CM face failure.
 
 ## Local audit verdict
 
-The local inventory is coherent and internally exhaustive at the level of branch classes currently named in the Part/Field-first route.
+The local inventory is coherent and internally exhaustive at the level of branch classes currently named in the original-participation-before-Pack route.
 
 Every listed branch has a consumed outcome:
 
@@ -169,7 +169,7 @@ or continuation/readout recovery.
 The official CM contrapositive referee gate still blocks the theorem packet. That means one of two things remains true:
 
 ```text
-1. the official terminal witness inventory has not yet been updated to accept this Part/Field-first branch list as complete;
+1. the official terminal witness inventory has not yet been updated to accept this original-participation-before-Pack branch list as complete;
 ```
 
 or

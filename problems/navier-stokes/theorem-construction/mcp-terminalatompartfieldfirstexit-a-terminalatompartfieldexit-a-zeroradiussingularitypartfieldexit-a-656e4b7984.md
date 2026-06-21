@@ -1,17 +1,17 @@
-# TerminalAtomPartFieldFirstExit.A
+# TerminalAtomOriginalParticipationAuditExit.A
 
 ## Target
 
 Prove the corrected terminal-atom theorem under the `Part_{N,Q}` / `Field_{N,r,Q}` service definitions:
 
 ```text
-TerminalAtomPartFieldFirstExit.A
+TerminalAtomOriginalParticipationAuditExit.A
 ```
 
 Statement:
 
 ```text
-A terminal source atom / zero-heat-time endpoint strip extracted from the Navier-Stokes breakdown candidate exits through Part or Field before Pack_Q is used as an exclusion test.
+A terminal source atom / zero-heat-time endpoint strip extracted from the Navier-Stokes breakdown candidate must be audited under the original NS participation law before `not Pack_Q` is used as terminal disposal.
 ```
 
 Equivalently:
@@ -21,7 +21,7 @@ same-solution terminal atom
 => fails `Part_{N,Q}` or fails `Field_{N,r,Q}` at every tested readout scale,
 ```
 
-where `Part_{N,Q}` and `Field_{N,r,Q}` are the existing participation and one-field tests, used before Pack rather than as Pack-dependent tests.
+where `Part_{N,Q}` and `Field_{N,r,Q}` are the existing participation and one-field tests, read only as historical language for the original-participation audit before packet-local Silver records.
 
 ## Inputs
 
@@ -121,7 +121,7 @@ Terminal atom
 => fails `Part_{N,Q}` or fails `Field_{N,r,Q}` at every tested readout scale.
 ```
 
-This proves `TerminalAtomPartFieldFirstExit.A` as a Part/Field-first route theorem: the terminal atom exits through the participation face or the one-field readout face before `Pack_Q` is used.
+This proves `TerminalAtomOriginalParticipationAuditExit.A` as a original-participation-before-Pack route theorem: the terminal atom exits through the participation face or the one-field readout face before `Pack_Q` is used.
 
 ## Why this avoids the Pack(Q) circularity
 
@@ -181,6 +181,6 @@ terminal zero-radius singularity
 The next theorem is:
 
 ```text
-AllSingularitiesPartFieldFirstExit.A:
+AllSingularitiesOriginalParticipationAuditExit.A:
 Every zero-radius/singular terminal family exits by Part or Field before Pack_Q is used.
 ```

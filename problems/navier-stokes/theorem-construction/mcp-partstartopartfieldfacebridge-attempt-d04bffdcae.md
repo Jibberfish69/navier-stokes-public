@@ -4,7 +4,7 @@ Status: conditional bridge attempt.
 
 ## Target
 
-Convert the `Part(*)` participation-exit assessment into a Pack/Part/Field-facing CM certificate.
+Convert the `Part(*)` participation-exit assessment into a Pack/Part/Field-facing CM witness record.
 
 The desired bridge is:
 
