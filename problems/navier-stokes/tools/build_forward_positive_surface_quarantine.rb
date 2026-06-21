@@ -244,7 +244,7 @@ def quarantine_entry(path)
     "legacy_demotion_classes" => support_classes,
     "cm_authority" => "no-proof-authority",
     "proof_force" => "none_without_exact_cm_bridge",
-    "promotion_allowed_only_by" => "explicit bridge-license landing in Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence after live-object participation is typed, or the outside-CM packet/window original-participation audit, after target-lock selects the CM contrapositive program",
+    "promotion_allowed_only_by" => "explicit bridge-license landing in Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence after live-object participation is typed, or the outside-CM participation-field/window original-participation audit, after target-lock selects the CM contrapositive program",
     "forbidden_as_cm_substitute" => true
   }
 end
@@ -282,16 +282,16 @@ payload = {
   "summary_by_class" => summary_by_class,
   "summary_by_scope" => summary_by_scope,
   "support_classification_law" => {
-    "governing_cm_program" => "Exit(Q):=not Member(Q) through Silver Pack_Q / Part_{N,Q} / Field_{N,r,Q} after live-object participation is typed, plus outside-CM packet/window original-participation audit where needed",
-    "rule" => "Every indexed forward-positive, positive-supplier, continuation, transfer, receiver/readout, export, or already-classified positive surface has no CM proof authority unless an exact bridge lands the same witness in Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence, or proves the outside-CM packet/window original-participation audit needed before not Pack_Q can be spent.",
+    "governing_cm_program" => "Exit(Q):=not Member(Q) through Silver Pack_Q / Part_{N,Q} / Field_{N,r,Q} after live-object participation is typed, plus outside-CM participation-field/window original-participation audit where needed",
+    "rule" => "Every indexed forward-positive, positive-supplier, continuation, transfer, receiver/readout, export, or already-classified positive surface has no CM proof authority unless an exact bridge lands the same witness in Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence, or proves the outside-CM participation-field/window original-participation audit needed before not Pack_Q can be spent.",
     "cannot_do" => [
       "set the live CM frontier",
       "close TerminalCMNoExit.A / NoGenuineCMExit.A",
-      "replace the Silver witness tree or the outside-CM packet/window original-participation audit",
+      "replace the Silver witness tree or the outside-CM participation-field/window original-participation audit",
       "count as publication or release readiness",
       "turn a bad source/residue object into a deletion burden when it is already a lawful class-exit witness"
     ],
-    "promotion_gate" => "Only a named bridge-license theorem that lands the exact result in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the outside-CM packet/window original-participation audit can promote an indexed surface for CM use.",
+    "promotion_gate" => "Only a named bridge-license theorem that lands the exact result in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the outside-CM participation-field/window original-participation audit can promote an indexed surface for CM use.",
     "positive_program_boundary" => "When the user explicitly switches to a positive smoothness, positive supplier, fixed-nu transfer, or Euler comparison program, these surfaces may be read inside that separate program only."
   },
   "entries" => entries
