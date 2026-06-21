@@ -23,7 +23,7 @@ source_rewrites:
   math_reader_critic:
     claim_truth_attack: "The section must keep silver as class-membership testing on a selected same-solution record, not as a positive smoothness estimate.  The source now states that the record either keeps the class data or loses a first requirement."
     reader_thread_attack: "The pass/fail display is preceded by ordinary language explaining what the record is and what the route asks of it."
-    open_derivation_attack: "The section is route grammar, and it pays that grammar by displaying Member, Exit, and the Pack-first face losses."
+    open_derivation_attack: "The section is route grammar, and it pays that grammar by displaying Member, Exit, and the Part/Field face losses."
     repair_decision: passes after repair
     unresolved_failures: []
 - op: certify_existing_section
@@ -42,7 +42,7 @@ source_rewrites:
   - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
-    claim_truth_attack: "The section must define Member(Q;Owork) as the class-membership predicate and Exit(Q;Owork) as its negation, while keeping Pack, Part, and Field as witness faces."
+    claim_truth_attack: "The section must define Member(Q;Owork) as the class-membership predicate and Exit(Q;Owork) as its negation, while keeping Part and Field as witness faces."
     reader_thread_attack: "The text gives the fixed equation data before the predicate, then explains why support objects need reattachment to the selected record."
     open_derivation_attack: "The participation tower is displayed from the differentiated Navier-Stokes law, with K_k and B_k named as the pressure-viscosity term and commutator term."
     repair_decision: passes after repair
@@ -104,7 +104,7 @@ source_rewrites:
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: "The appendix obligations must remain support unless the main text selects a terminal record and pays the witness face."
-    reader_thread_attack: "The appendix groups obligations that the main text later consumes through Member, Pack, Part, Field, or Exit."
+    reader_thread_attack: "The appendix groups obligations that the main text later consumes through Member, Part, Field, or Exit."
     open_derivation_attack: "This appendix surface records obligations and does not itself claim final closure."
     repair_decision: passes after repair
     unresolved_failures: []
