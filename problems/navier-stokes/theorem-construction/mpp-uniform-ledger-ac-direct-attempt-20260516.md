@@ -135,5 +135,5 @@ OriginalSmoothData=>NativeTrilinearDefectDomination.A.
 If `(ULAC.1)` fails, the failure is a vanishing-ledger positive-source packet.
 That branch is already sorted by `VLBP.FaceSort.A` into `not Pack_Q`,
 `not Part_{N,Q}`, or retained `not Field_{N,r,Q}`. Thus the remaining positive
-supplier burden is not a new CM face; it is the exact modulus needed to make
+supplier burden is not a new CM Part/Field; it is the exact modulus needed to make
 the singular native source component vanish.

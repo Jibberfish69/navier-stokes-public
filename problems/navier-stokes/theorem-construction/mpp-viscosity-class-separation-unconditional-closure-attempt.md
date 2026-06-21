@@ -180,7 +180,7 @@ ZenoResidueLiouville_{\mathcal B}.A.
 
 ### Desired statement
 
-Compactness extraction preserves the same `Pack/Part/Field` witness faces, covers, pressure readouts, receiver ledgers, and packet labels.
+Compactness extraction preserves the same `Part/Field` witnesss, covers, pressure readouts, receiver ledgers, and packet labels.
 
 ### Attempt
 

@@ -21,7 +21,7 @@ Navier-Stokes proof program, use one reusable two-sided interface:
 
 ```text
 pass side: a simplest lawful smooth / Member(Q) witness exists for that same obstruction;
-fail side: every nonsmooth-capable realization enters the CM test and breaks Pack, Part, or Field.
+fail side: every nonsmooth-capable realization enters the CM test and breaks Part or Field.
 ```
 
 The pass side supplies non-vacuity. The fail side supplies the CM
@@ -54,8 +54,8 @@ and hence smooth continuation on the pass branch.
 
 ```text
 not Pack_Q,
-Pack_Q + not Part_{N,Q},
-Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}.
+not Part_{N,Q},
+Part_{N,Q} + forall r>0 not Field_{N,r,Q}.
 ```
 
 The pass witness is a non-vacuity witness for the branch split. It is not a
@@ -70,9 +70,9 @@ Assume a same-solution obstruction `O` admits the following four facts:
 (H1) Pass_O(Q) is nonempty by the simplest lawful smooth / Member(Q) witness.
 (H2) Every nonsmooth-capable realization of O is CM-test-admissible.
 (H3) Every CM-test-admissible fail realization of O has a first failed
-     Pack/Part/Field face.
+     Part/Field face.
 (H4) The obstruction has no third branch: a realization cannot be both an
-     in-class continuation branch and the derived face-failure branch.
+     in-class continuation branch and the derived Part/Field-failure branch.
 ```
 
 Then `O` is resolved by the CM pass/fail engine:
@@ -96,7 +96,7 @@ classical continuation readout gives smooth continuation on the pass branch.
 Now take any realization of `O` that is capable of serving as a finite
 nonsmooth terminal event. By `(H2)`, it enters the CM terminal test for the
 same original solution. By `(H3)`, its first failed service is a Pack, Part, or
-Field face failure. By `ClayCMContrapositiveEmbedding.A`, that face failure
+Field Part/Field failure. By `ClayCMContrapositiveEmbedding.A`, that Part/Field failure
 supports
 
 ```text
@@ -109,7 +109,7 @@ branch. Thus the branch field for `O` is exhausted:
 ```text
 smooth / Member(Q) pass branch
 or
-Pack/Part/Field face-failed exit branch.
+Part/Field face-failed exit branch.
 ```
 
 There is no third branch that remains in class while carrying the finite
@@ -127,7 +127,7 @@ For each obstruction type, the local job is therefore:
 ```text
 1. give the simplest lawful same-obstruction pass witness;
 2. prove fail-branch CM-test admission;
-3. derive the first Pack/Part/Field face failure;
+3. derive the first Part/Field Part/Field failure;
 4. verify no third in-class nonsmooth branch survives.
 ```
 
@@ -150,7 +150,7 @@ individual obstruction row contributes to the final proof:
 
 ```text
 same-obstruction pass witness
-+ fail-branch Pack/Part/Field face failure
++ fail-branch Part/Field Part/Field failure
 => no legal in-class nonsmooth branch for that obstruction.
 ```
 

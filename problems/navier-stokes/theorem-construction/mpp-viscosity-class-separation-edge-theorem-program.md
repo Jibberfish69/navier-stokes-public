@@ -155,10 +155,10 @@ membership.
 
 ### `SameLedgerLimitTransfer.A`
 
-The compactness extraction preserves the same witness-face typing:
+The compactness extraction preserves the same witness typing:
 
 ```math
-Pack/Part/Field
+Part/Field
 ```
 
 and the same packet labels, covers, and readout ledgers through the limiting procedure.
@@ -265,7 +265,7 @@ ELCI.A,
 EL13.A.
 ```
 
-It applies to the source-wall branch only after the witness-face routing has selected the `Field` row:
+It applies to the source-wall branch only after the witness routing has selected the `Field` row:
 
 ```math
 FieldFaceResidueReduction.A
@@ -282,7 +282,7 @@ The next theorem work should target these in order.
 1. `DirectFixedNuEulerSmoothBridge.A`: prove the hard target `EulerSmooth(u_0 on [0,T]) => NSSmooth_nu(u_0 on [0,T])` for each fixed `nu>0`, same initial data, with no `nu->0` escape and no Euler-nonsmooth fallback.
 2. `ACTKX_ELCI_Dichotomy.A`: if this comparison program is used as support only, prove that every terminal `Part/Field` defect either closes through an independently installed retained `ACT.KX` branch or extracts through the Euler `ELCI.A` zero-budget branch.
 3. `EulerOnlyDefectClassification.A`: type every zero-budget terminal defect as an Euler mirror class object.
-4. `SameLedgerLimitTransfer.A`: preserve Pack/Part/Field labels, covers, pressure readouts, and receiver ledgers through the limit.
+4. `SameLedgerLimitTransfer.A`: preserve Part/Field labels, covers, pressure readouts, and receiver ledgers through the limit.
 5. `NoPositiveNuEulerizationInsideNSClass.A`: rule out a same-ledger positive-viscosity Navier--Stokes member whose normalized receiver budget vanishes while class membership remains installed.
 
 ## Boundary

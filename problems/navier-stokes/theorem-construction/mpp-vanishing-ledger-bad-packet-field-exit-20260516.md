@@ -134,5 +134,5 @@ OriginalSmoothData=>NativeTrilinearDefectDomination.A.
 ```
 
 The reason is simple: the repo can now say what a failed domination theorem
-would mean inside the CM witness faces, but it still cannot rule out
+would mean inside the CM witnesss, but it still cannot rule out
 vanishing-ledger positive-source packets directly from original smooth data.

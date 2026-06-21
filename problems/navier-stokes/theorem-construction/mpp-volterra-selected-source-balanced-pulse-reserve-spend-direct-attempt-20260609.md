@@ -21,7 +21,7 @@ stress readout, prove that source-balanced refill spends one of:
    hypotheses;
 3. a terminal CKN/dissipation modulus;
 4. direct `(LPAS)`;
-5. or a concrete Pack/Part/Field face landing strong enough to feed the
+5. or a concrete Part/Field Part/Field landing strong enough to feed the
    first-exit survival bridge.
 
 ## Normal form
@@ -141,10 +141,10 @@ does not add either missing theorem.
 
 So the CKN/dissipation route remains open.
 
-## Branch 4: CM face landing
+## Branch 4: CM Part/Field landing
 
 Once the source-balanced pulse is admitted as a same-solution terminal
-source/residue object, the CM witness tree can type it as Pack/Part/Field
+source/residue object, the CM witness tree can type it as Part/Field
 support for
 
 ```text
@@ -153,7 +153,7 @@ Exit(Q):=not Member(Q).
 
 That classification is useful, but it is not the same as the public
 first-exit survival bridge.  It does not prove that original smooth data cannot
-realize the first terminal face failure unless the no-genuine-exit bridge is
+realize the first terminal Part/Field failure unless the no-genuine-exit bridge is
 also paid.
 
 ## Verdict

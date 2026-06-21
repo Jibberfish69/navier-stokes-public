@@ -11,7 +11,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-terminal-peak-backoff-and-vortex-return-dichotomy-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-minimum-singularity-cost-functional-lowhigh-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-lowhigh-infinite-cost-endpoint-source-pack-face-landing-20260610.md
-  downstream_consequence: "The exact packet energy transfer-rate formula is installed. A fixed positive scale has a finite same-time rate in terms of flux, pressure work, viscous boundary exchange, and local norms. No scale-uniform maximum follows from finite total energy; the shrinking-packet positive exclusion remains a scale-critical supplier problem or else a CM Pack/Part/Field landing."
+  downstream_consequence: "The exact packet energy transfer-rate formula is installed. A fixed positive scale has a finite same-time rate in terms of flux, pressure work, viscous boundary exchange, and local norms. No scale-uniform maximum follows from finite total energy; the shrinking-packet positive exclusion remains a scale-critical supplier problem or else a CM Part/Field landing."
 ---
 
 # MPP VortexPacketTransferRateAndCostAudit.A
@@ -385,7 +385,7 @@ So the correct result is:
 ```text
 fixed-scale payment is exactly accounted and finite;
 scale-shrinking payment is not ruled out by raw energy alone;
-failure of lawful payment is a Pack/Part/Field CM branch;
+failure of lawful payment is a Part/Field CM branch;
 a positive exclusion needs a sharper scale-critical pressure/flux/donor/return
 supplier.
 ```
@@ -414,7 +414,7 @@ The paid branch has only two lawful readings:
 ```
 
 If the claimed payment has no positive-radius retained carrier, it is not a
-paid vortex packet. It is an endpoint residue and lands Pack-first.
+paid vortex packet. It is an endpoint residue and lands Field-certification.
 
 If the claimed payment keeps a carrier name while losing pressure/viscosity
 coupling, neighbor participation, or time trace, it lands in Part.
@@ -445,7 +445,7 @@ So 6a is proved only in this form:
 
 ```text
 terminal peak cannot disappear for free;
-it must pay a return-rate budget or lose Pack/Part/Field services.
+it must pay a return-rate budget or lose Part/Field services.
 ```
 
 The stronger positive claim:
@@ -530,5 +530,5 @@ The CM contrapositive route remains:
 
 ```text
 If that lawful payment fails, the object is not a valid in-class smooth
-continuation packet; it lands through Pack, Part, or Field.
+continuation packet; it lands through Part or Field.
 ```

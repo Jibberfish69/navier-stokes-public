@@ -2,7 +2,7 @@
 
 ## Authority Cap - Historical Route Audit
 
-This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
+This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
 
 ## Status
 
@@ -35,7 +35,7 @@ The installed theorem-grade witness-to-member direction remains one-way:
 \forall N\ \exists r_N>0:\quad
 CM_{N,r_N,Q}\Longrightarrow Member(Q;\mathfrak O_{NS}^{work}),
 \qquad
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 \tag{VECM.0b}
 ```
 
@@ -136,7 +136,7 @@ Here:
    layers above membership, not primitive class faces.
 
 This class is a comparison object only. It does not state that Euler is smooth,
-and it does not import the Navier-Stokes `Pack/Part/Field` row into Euler.
+and it does not import the Navier-Stokes `Part/Field` row into Euler.
 
 ### Fixed-viscosity Navier--Stokes object
 
@@ -394,7 +394,7 @@ This is the edge set to which the prompted logic directly applies.
 | `ParabolicEdgeResistance.A` | signed-current source route | Localized parabolic resistance with scale-critical remainder | If independent, it would prove the source wall by fixed-`nu` resistance; current notes say the remainder is route-equivalent to the source wall. |
 | `TerminalAmplitudeGain.A` | heat-action amplitude correction | Required because cubic transfer defeats quadratic heat at scale-critical amplitude | The new idea must pay this. Positive viscosity alone is not enough unless amplitude gain is supplied. |
 | `PackGainLedger.A` / `RetainedPackGainProduction.A` | retained-face amplitude route | Not implied by finite `Pack_Q` deformation gauge | Prevents false promotion of "bounded volume geometry" into accumulated low-strain gain. |
-| `PCTP.hard / TTU.A` | downstream terminal-tail consumer | Consumer/readout, not CM primitive | The idea applies only after a bridge into `Field.Read`/`DTC.Read` or a Pack/Part/Field face. |
+| `PCTP.hard / TTU.A` | downstream terminal-tail consumer | Consumer/readout, not CM primitive | The idea applies only after a bridge into `Field.Read`/`DTC.Read` or a Part/Field face. |
 | `AWG.A`, `SOURCE.NO-PULSE.A`, `TGC.A` | source-pulse / averaged-route suppliers | Supplier/readout support | They cannot replace CM. The new idea may supply them only if explicitly bridged into `Field` or source-wall control. |
 | `TPS / PSJ+ / PD.70 / SG.4` | downstream one-field consumer wall | Branch-specific readout | Applies only as a consumer of `Field`/one-field coherence. It is not the primitive fixed-viscosity separation law. |
 | Euclidean strict-shadow / whole-space export | downstream export | Export only | The idea does not move this branch until the torus-first/fixed-`nu` CM route has a theorem-grade bridge. |

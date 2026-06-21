@@ -118,7 +118,7 @@ Exit\vee\neg Pack_Q\vee\neg Part_{N,Q}\vee\neg Field_{N,r,Q}.
 ```
 
 Thus the terminal atom is not a fourth Clay branch in the CM contrapositive
-program.  It is a Pack/Part/Field face witness unless a separate forward
+program.  It is a Part/Field face witness unless a separate forward
 positive-supplier theorem removes it earlier.
 
 ## 5. Manuscript Delta
@@ -133,7 +133,7 @@ Terminal Source Atoms In The Same-Solution Test
 with the proposition:
 
 ```text
-Retained terminal atom is a CM face witness.
+Retained terminal atom is a CM Part/Field witness.
 ```
 
 The proposition proves the retained strip estimate
@@ -163,6 +163,6 @@ This is not a final CMI-ready state.
 
 The next loop pass must reread the rendered compact paper as a Clay referee and
 check whether the finite Clay counterexample extraction, same-record
-Pack/Part/Field admission, and class-exit-to-Clay conclusion are now paid at
+Part/Field admission, and class-exit-to-Clay conclusion are now paid at
 normal paper depth.  Any live criticism found there remains live until repaired
 in the manuscript and rerendered.
