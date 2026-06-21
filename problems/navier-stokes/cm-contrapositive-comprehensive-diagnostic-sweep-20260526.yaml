@@ -17,8 +17,8 @@ governing_law:
   - Field_{N,r,Q}
   positive_to_cm_ultimatum: >-
     Every unfinished positive proof surface must either be solved positively,
-    become a CM-test-admissible fail branch with a concrete first Pack/Part/Field
-    face failure, be demoted as support/quarantine/obsolete/moot/logically
+    become a CM-test-admissible fail branch with a concrete first Part/Field
+    Part/Field failure, be demoted as support/quarantine/obsolete/moot/logically
     unreachable, or remain flagged as an unresolved positive proof requirement.
   no_forcing_rule: >-
     A surviving positive proof requirement may not be renamed as CM progress.
@@ -73,18 +73,18 @@ row_level_inventory:
     barred_or_inherited_count: 585
 switch_verdicts:
 - id: clay_terminal_witness_chain
-  classification: lawful_cm_face_exit
+  classification: lawful_cm_part_field_question_exit
   evidence:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
   - problems/navier-stokes/theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
   verdict: >-
     The active theorem-grade chain starts with the alleged finite Clay terminal
-    witness, admits it to the same-fluid CM terminal packet tree, exhausts the
-    finite failure type by Pack/Part/Field, and reads the first failed service as
+    witness, admits it to the same-fluid CM terminal participation-field tree, exhausts the
+    finite failure type by Part/Field, and reads the first failed service as
     Exit(Q):=not Member(Q).
 - id: torus_global_material_atlas_terminal_capture
-  classification: lawful_cm_face_exit_for_active_torus_surface
+  classification: lawful_cm_part_field_question_exit_for_active_torus_surface
   evidence:
   - problems/navier-stokes/theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
   - problems/navier-stokes/theorem-construction/mpp-continuation-complete-terminal-face-exhaustion-working-pass-20260526.md
@@ -99,10 +99,10 @@ switch_verdicts:
   evidence:
   - problems/navier-stokes/cm-branch-family-certificate-ledger-20260526.yaml
   verdict: >-
-    Five branch families are certified face failures. Remaining branch-family
+    Five branch families are certified Part/Field failures. Remaining branch-family
     rows are support, diagnostics, transfer/comparison, or optional positive
     supplier work unless they prove same-atlas CM-test admission plus first
-    Pack/Part/Field face failure.
+    Part/Field Part/Field failure.
 - id: source_reserve_active_height_signed_pair_family
   classification: support_or_optional_positive_work
   evidence:
@@ -113,7 +113,7 @@ switch_verdicts:
     Zero-radius residue and selected unpaid infinite donor-refill are Pack-side
     fail landings. Retained positive-scale first-created native reserve and
     same-ledger signed-pair visibility remain supplier-quarantined positive
-    support until same-ledger payment or a same-atlas first-face derivation is
+    support until same-ledger payment or a same-atlas first-Part/Field derivation is
     proved.
 - id: positive_no_exit_packet_survival_surfaces
   classification: demoted_positive_support
@@ -133,8 +133,8 @@ switch_verdicts:
   - problems/navier-stokes/theorem-repair.yaml
   verdict: >-
     These surfaces cannot act as a fourth face and cannot set the CM target.
-    They support Pack/Part/Field/readout only after a named bridge lands the same
-    witness record in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
+    They support Part/Field/readout only after a named bridge lands the same
+    witness record in Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence.
 - id: euler_fixed_nu_transfer_and_mirror_comparison
   classification: outside_cm_or_downstream_support
   evidence:
@@ -171,6 +171,6 @@ hardening_actions:
 referee_bottom_line: >-
   No active torus-first CM switch is currently accepted merely by label. The
   included torus-first proof mass is either positively solved at the packet/readout
-  level, lawfully converted to a Pack/Part/Field face exit, or demoted as support.
+  level, lawfully converted to a Part/Field face exit, or demoted as support.
   The surviving full-submission burden is whole-space R^3 export/scope alignment,
   not a hidden source-wall positive estimate.

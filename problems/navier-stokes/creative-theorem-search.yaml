@@ -44,16 +44,16 @@ branch_pool:
   branch_type: bridge-lemma
   pursuit_mode: co-dependent
   candidate_claim: Create the post-activation theorem ActiveHeightFluxTrichotomy.A
-    converting positive square-reserve surplus into active height flux or Pack/Part/Field
+    converting positive square-reserve surplus into active height flux or Part/Field
     exit.
   creative_move: 'Search for the missing mediating object or bounded inequality that
-    makes the implication local and testable. Keep this as a CM witness-face bridge:
-    it must land in Pack, Part, or Field. Member(Q) is the forward membership predicate.
+    makes the implication local and testable. Keep this as a CM witness bridge:
+    it must land in Part or Field. Member(Q) is the forward membership predicate.
     PCTP, SOURCE.NO-PULSE, AWG, TGC, Jump_avg, MSC.BadAC, pressure-strain, and compactness
-    arguments are supplier-only until a bridge license proves witness-face landing.'
+    arguments are supplier-only until a bridge license proves witness landing.'
   invention_packet:
     candidate_statement: Create the post-activation theorem ActiveHeightFluxTrichotomy.A
-      converting positive square-reserve surplus into active height flux or Pack/Part/Field
+      converting positive square-reserve surplus into active height flux or Part/Field
       exit.
     mediating_object: cm_witness_face_bridge_license
     proof_sketch:
@@ -64,7 +64,7 @@ branch_pool:
     - 'Prefer a classical closure lemma on the existing energy/compactness/gradient
       ladder rather than a modified-equation detour for `ActiveHeightFluxTrichotomy.A:
       first-created positive square-reserve surplus either produces same-ledger active
-      height flux or already exits Pack/Part/Field`.'
+      height flux or already exits Part/Field`.'
     - Show how that object converts one already-grounded local statement into the
       next missing step.
     - Reject the move if it introduces new global scope, hidden imports, or a stronger
@@ -86,7 +86,7 @@ branch_pool:
   - This branch is the live recursive subprimitive from theorem-creation; keep it
     on theorem-creation until it is discharged or sharpened.
   - The activation bridge is installed as support; this branch must prove the square-reserve
-    to active-height-flux trichotomy or classify the scalar-pulse failure as Pack/Part/Field
+    to active-height-flux trichotomy or classify the scalar-pulse failure as Part/Field
     exit.
   - This branch is machine-derived beyond the current frozen core.
   - Use the weakest sufficient move; do not inflate the theorem target.
@@ -150,7 +150,7 @@ candidate_archive:
 - origin_obligation_id: ActiveHeightFluxTrichotomy.A
   origin_kind: proof-dependency
   label: 'ActiveHeightFluxTrichotomy.A: first-created positive square-reserve surplus
-    either produces same-ledger active height flux or already exits Pack/Part/Field'
+    either produces same-ledger active height flux or already exits Part/Field'
   status: historical-context-only
   promoted_into_branch_pool: true
 - origin_obligation_id: source-reserve-birth-charge-a

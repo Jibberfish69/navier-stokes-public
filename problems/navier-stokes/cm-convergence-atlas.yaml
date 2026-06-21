@@ -17,7 +17,7 @@ current_authority_status:
   current_blocker_count: 0
 authority:
   governing_primitive: "Exit(Q;O_NS^work):=not Member(Q;O_NS^work)"
-  certificate: "CM_{N,r,Q}=Pack_Q and Part_{N,Q} and Field_{N,r,Q}"
+  certificate: "CM_{N,r,Q}:=Part_{N,Q} and Field_{N,r,Q}"
   installed_direction: "CM=>Member"
   installed_witness_use: "first class exit / NonSmooth(Q)=>not Pack or not Part or not Field"
   not_installed:
@@ -30,13 +30,13 @@ primary_open_root:
   typed_role: audit-open source-wall residual requiring known CM-exit landing before
     any branch presentation may steer the proof
   cm_exit_discipline: A source-wall surface is live for the CM program only when it
-    is forced by first-exit analysis or lands in Pack, Part, or Field.
+    is forced by first-exit analysis or lands in Part or Field.
   diagnostic_source_control_presentation: ScaleCriticalTreeCarleson.A
   diagnostic_residue_presentation: ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
   diagnostic_atoms_pending_cm_exit_landing:
     - theorem_id: ReserveCreationCharge.A
       role: diagnostic subtheorem inside the positive source-control presentation;
-        does not steer the CM route until it lands in Pack, Part, or Field
+        does not steer the CM route until it lands in Part or Field
       positive_control_consequences_if_proved:
         - SquareReserveEvolution.A
         - ScaleCriticalTreeCarleson.A
@@ -178,10 +178,10 @@ automation_crank:
     - record installed part and exact failed atom
     - synchronize live theorem surfaces
   subagent_roles:
-    cm_core_agent: audits Member/CM/Pack/Part/Field direction and false converses
+    cm_core_agent: audits Member/CM/Part/Field direction and false converses
     source_wall_agent: attacks HeightFluxControl.A through ActiveStrainAlignmentCost.A / RetainedPackGainProduction.A / TPNI.A, TemporalNonAtomicSource.A / TerminalResidueAtomExclusion.A, or WeightedLiftedSkewDefectLegal.A
     receiver_endpoint_agent: audits ACT/LCI/OFP/CFI/readout/endpoint direction and circularity
-    corpus_recovery_agent: recovers source-backed proof atoms and attaches them to a CM face
+    corpus_recovery_agent: recovers source-backed proof atoms and attaches them to a CM Part/Field
     skeptic_agent: searches for illegal carrier change, endpoint spending, stale generated promotion, or alias proliferation
 current_safe_posture:
   - historical theorem-program atlas

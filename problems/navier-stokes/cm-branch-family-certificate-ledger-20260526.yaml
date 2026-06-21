@@ -25,7 +25,7 @@ working_law:
   no_label_closure_rule: >-
     A paper row or machine certificate closes a branch only when it identifies
     the selected terminal object, verifies CM-test admission for that object,
-    names the first Pack/Part/Field service that fails, and cites a proof path
+    names the first Part/Field service that fails, and cites a proof path
     for the failure. Broad labels such as Field diagnostic, source wall, Zeno,
     signed current, or readout are not closure by themselves.
 sources_inspected:
@@ -48,7 +48,7 @@ sources_inspected:
   - path: problems/navier-stokes/theorem-construction/mpp-canonical-terminal-packet-capture-20260522.md
     role: terminal packet capture proof note and remaining no-exit warning
   - path: problems/navier-stokes/theorem-construction/mpp-any-finite-failure-witness-cm-exit-20260521.md
-    role: master Pack-first finite witness exit note
+    role: master Field-certification finite witness exit note
   - path: problems/navier-stokes/theorem-construction/mpp-clay-terminal-cm-completeness-hardening-20260524.md
     role: extraction and no-fourth-residue hardening
   - path: problems/navier-stokes/theorem-construction/mpp-scalecritical-tree-carleson-pack-side-cm-exit-20260521.md
@@ -62,9 +62,9 @@ sources_inspected:
   - path: problems/navier-stokes/theorem-construction/mpp-retained-pack-part-critical-concentration-to-field-bridge-20260519.md
     role: local critical translator to Field bridge target
   - path: problems/navier-stokes/theorem-construction/mpp-terminal-l3-duhamel-mass-cm-face-correction-20260523.md
-    role: installed terminal L3 Duhamel-mass same-witness CM face correction
+    role: installed terminal L3 Duhamel-mass same-witness CM Part/Field correction
   - path: problems/navier-stokes/theorem-construction/mpp-finite-terminal-obstruction-inventory-row-audit-20260605.md
-    role: June 5 row audit splitting installed local L3 face landing from generic public-critical translator support
+    role: June 5 row audit splitting installed local L3 Part/Field landing from generic public-critical translator support
   - path: problems/navier-stokes/theorem-construction/mpp-source-reserve-birth-cm-face-consumption-20260525.md
     role: source-reserve birth CM consumption and current quarantine
   - path: problems/navier-stokes/theorem-construction/mpp-source-reserve-birth-charge-direct-attempt-20260525.md
@@ -177,7 +177,7 @@ records:
       evolution.
     cm_test_admission_status: >-
       Admissible as a selected finite-failure residue after legal losses and
-      readout artifacts are removed. It is tested Pack-first and cannot be
+      readout artifacts are removed. It is tested Field-certification and cannot be
       moved directly to Field.
     first_face: Pack_Q_or_Part_N_Q
     face_failure: not Pack_Q, or Pack_Q and not Part_{N,Q}
@@ -269,7 +269,7 @@ records:
       the the original NS participation law record, landing in Part when that
       record remains and in Pack only when the record/carrier/readout is absent.
       The retained positive-scale surplus still needs same-ledger payment or a
-      first-face derivation.
+      first-Part/Field derivation.
     first_face: unresolved
     face_failure: unresolved_between_same_ledger_payment_and_Pack_Part_Field_exit
     proof_evidence_path:
@@ -283,8 +283,8 @@ records:
     exact_missing_step: >-
       None for CM proof inclusion. RetainedPositiveScaleNativeReserveBirthCharge.A
       remains optional positive Pack-support work; it is not imported as
-      proof-bearing unless same-ledger payment or a concrete Pack/Part/Field
-      face derivation is proved on the global atlas.
+      proof-bearing unless same-ledger payment or a concrete Part/Field
+      Part/Field derivation is proved on the global atlas.
   - record_id: active_height_low_strain_typed_disjunction
     branch_family: retained amplitude, low strain, and height flux
     selected_terminal_object: >-
@@ -307,16 +307,16 @@ records:
     proof_complete: true
     status: demoted_typed_support_with_certified_subcases_only
     exact_missing_step: >-
-      None for CM proof inclusion. Certified Pack/Part/Field subcases may be
+      None for CM proof inclusion. Certified Part/Field subcases may be
       cited; the hidden same-ledger signed-pair chain remains demoted support
-      until promoted by a same-atlas face derivation.
+      until promoted by a same-atlas Part/Field derivation.
   - record_id: signed_current_no_free_sink_family
     branch_family: signed current and no-free-sink
     selected_terminal_object: >-
       Terminal signed-current or no-free-sink branch carrying source-current
       motion, pair-weight charge, edge resistance, or signed saturation data.
     cm_test_admission_status: >-
-      Demoted as an independent face. It may support Pack, Part, Field, or
+      Demoted as an independent face. It may support Part and Field, or
       Zeno routing, but signed current itself is not a fourth CM service.
     first_face: no_independent_face
     face_failure: returns_to_Pack_Part_Field_Zeno_or_support
@@ -338,7 +338,7 @@ records:
       read continuation from already retained structure.
     cm_test_admission_status: >-
       Demoted as downstream readout support unless the exact same witness record
-      has already retained Pack, Part, and Field or the branch is restated as a
+      has already retained Part and Field or the branch is restated as a
       Field failure after Pack and Part.
     first_face: support_or_Field_after_Pack_and_Part
     face_failure: no_independent_face
@@ -353,9 +353,9 @@ records:
     status: demoted_support_or_readout
     exact_missing_step: >-
       None for demotion. To use an endpoint/no-pulse row as proof material,
-      first cite the exact selected packet and the Pack/Part/Field service it
+      first cite the exact selected packet and the Part/Field service it
       protects or breaks.
-  - record_id: terminal_l3_duhamel_mass_same_witness_cm_face
+  - record_id: terminal_l3_duhamel_mass_same_witness_cm_part_field_question
     branch_family: local critical translators
     selected_terminal_object: >-
       Terminal L3 Duhamel response mass localized to the same Navier-Stokes
@@ -388,7 +388,7 @@ records:
     cm_test_admission_status: >-
       Support until same-atlas localization is proved for the named public
       class. After placement on the same record, the packet is tested
-      Pack-first, then Part; a retained public critical concentration becomes
+      Field-certification, then Part; a retained public critical concentration becomes
       Field only after Field incompatibility is proved on that same atlas.
     first_face: no_independent_face_until_same_atlas_localization
     face_failure: none_until_same_atlas_localization_and_Field_incompatibility
@@ -410,7 +410,7 @@ records:
     selected_terminal_object: none_inside_non_euler_NS_CM_proof
     cm_test_admission_status: >-
       Outside this proof until a theorem transfers an exact Navier-Stokes packet
-      Q on the same witness record into a Pack, Part, or Field decision.
+      Q on the same witness record into a Part or Field decision.
     first_face: no_independent_face
     face_failure: none_until_exact_NS_packet_transfer
     proof_evidence_path:
@@ -423,7 +423,7 @@ records:
     status: demoted_comparison_outside_scope
     exact_missing_step: >-
       None for demotion. To promote a comparison branch, prove an exact transfer
-      theorem C => selected Navier-Stokes packet Q has a Pack, Part, or Field
+      theorem C => selected Navier-Stokes packet Q has a Part or Field
       decision.
 summaries:
   certified_branches:
@@ -432,7 +432,7 @@ summaries:
     - raw_terminal_source_residue_pack_or_part_exit
     - pressure_viscosity_or_dwell_part_exit
     - retained_positive_window_blowup_field_exit
-    - terminal_l3_duhamel_mass_same_witness_cm_face
+    - terminal_l3_duhamel_mass_same_witness_cm_part_field_question
   open_branches:
     []
   demoted_branches:
@@ -447,7 +447,7 @@ summaries:
   support_only_not_live_face:
     - SourceReserveBirthCharge.A direct positive visibility language
     - SquareReserveEvolution.A absent square-charge identity
-    - GoodScaleNonCollapse.A / UniformReadCover.A / READ.COVER before Pack/Part/Field
+    - GoodScaleNonCollapse.A / UniformReadCover.A / READ.COVER before Part/Field
     - SOURCE.NO-PULSE.A / AWG.A / TGC.A / no-Jump_avg before licensed source-wall bridge
     - Euler mirror and fixed-nu transfer rows before exact same-witness Navier-Stokes packet transfer
 next_working_steps:
@@ -456,7 +456,7 @@ next_working_steps:
     action: >-
       Rewrite grouped paper statements so the proof-bearing object is the torus
       global material atlas. Branch-family rows should be exposition/support
-      only unless a row cites a certified same-atlas Pack/Part/Field face.
+      only unless a row cites a certified same-atlas Part/Field face.
   - step_id: whole_space_export
     target: R^3 whole-space Clay export
     action: >-

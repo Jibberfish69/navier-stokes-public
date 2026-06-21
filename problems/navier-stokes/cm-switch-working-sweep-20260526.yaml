@@ -10,9 +10,9 @@ scope:
     Sweep every Navier-Stokes surface that advertises or performs a switch away
     from positive proof into the CM contrapositive program, and work each switch
     as mathematics rather than only classifying it.
-  governing_program: "Exit(Q):=not Member(Q) through Pack_Q, Part_{N,Q}, and Field_{N,r,Q}."
+  governing_program: "Exit(Q):=not Member(Q) through Part_{N,Q} and Field_{N,r,Q}; Pack_Q only as Field window evidence."
   allowed_outcomes:
-    - derived_cm_face_failure
+    - derived_cm_part_field_question_failure
     - positive_solved
     - support_only
     - obsolete_moot_unreachable
@@ -51,12 +51,12 @@ search_protocol:
 current_mathematical_verdict:
   terminal_packet_capture: >-
     Worked further by the continuation-complete packet pass. Finite terminal
-    non-continuation now yields failure of the complete Pack/Part/Field +
-    H^s-readout packet, then Pack-first first-face failure.
+    non-continuation now yields failure of the complete Part/Field +
+    H^s-readout packet, then Field-certification first-Part/Field failure.
   remaining_clay_risk: >-
     The live proof risk is the branch-family record ledger: every branch family
     promoted into the paper still needs a checkable record tying its selected
-    object to pass nonvacuity, CM-test admission, first Pack/Part/Field face
+    object to pass nonvacuity, CM-test admission, first Part/Field face
     failure, and Exit(Q):=not Member(Q), or else it must be demoted.
   generated_surface_risk: >-
     Some generated or markdown promotion surfaces still advertise release or
@@ -65,7 +65,7 @@ current_mathematical_verdict:
   clay_ready_after_this_sweep: false
 worked_switch_surfaces:
   - id: continuation_complete_terminal_face_exhaustion
-    classification: derived_cm_face_failure
+    classification: derived_cm_part_field_question_failure
     evidence:
       - "problems/navier-stokes/theorem-construction/mpp-continuation-complete-terminal-face-exhaustion-working-pass-20260526.md"
       - "problems/navier-stokes/cm-contrapositive-referee-audit.yaml:32-45"
@@ -73,7 +73,7 @@ worked_switch_surfaces:
     mathematical_reason: >-
       The switch is now earned at the packet level: ContCM(T_*) would imply an
       H^s continuation bound, so finite terminal non-continuation negates the
-      continuation-complete CM packet and is read Pack-first as not Pack, not
+      continuation-complete CM participation-field record and is read Field-certification as not Pack, not
       Part, or no positive Field scale.
     integration_action:
       patch_target: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -81,7 +81,7 @@ worked_switch_surfaces:
         Replace vague "terminal subsequence produces Rterm" reliance with the
         continuation-complete packet proof and cite the working-pass note.
   - id: clay_terminal_witness_invalidation_chain
-    classification: derived_cm_face_failure_with_record_certification_gap
+    classification: derived_cm_part_field_question_failure_with_record_certification_gap
     evidence:
       - "problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md:23-36"
       - "problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md:93-148"
@@ -89,7 +89,7 @@ worked_switch_surfaces:
       - "problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md:283-338"
     mathematical_reason: >-
       The switch starts with the alleged Clay terminal object, enters the
-      same-fluid CM tree, derives a Pack/Part/Field first-face failure, and reads
+      same-fluid CM tree, derives a Part/Field first-Part/Field failure, and reads
       that face as Exit(Q). The remaining weakness is not the logic of the
       switch; it is record certification for every promoted branch object that
       claims to instantiate the terminal object.
@@ -97,16 +97,16 @@ worked_switch_surfaces:
       patch_target: problems/navier-stokes/branch-family-face-certificate-ledger.yaml
       proof_effect: >-
         Add one certificate row for each paper-promoted terminal branch: selected
-        object, pass witness, CM-test admission, first face, Exit readout, and
+        object, pass witness, CM-test admission, first Part/Field, Exit readout, and
         demotion if unsupported.
   - id: canonical_terminal_packet_capture
-    classification: derived_cm_face_failure_plus_obsolete_positive_no_exit_tail
+    classification: derived_cm_part_field_question_failure_plus_obsolete_positive_no_exit_tail
     evidence:
       - "problems/navier-stokes/theorem-construction/mpp-canonical-terminal-packet-capture-20260522.md:15-27"
       - "problems/navier-stokes/theorem-construction/mpp-canonical-terminal-packet-capture-20260522.md:98-220"
       - "problems/navier-stokes/theorem-construction/mpp-canonical-terminal-packet-capture-20260522.md:235-295"
     mathematical_reason: >-
-      The Pack-first capture portion is useful. The later "Smoothness Burden
+      The Field-certification capture portion is useful. The later "Smoothness Burden
       After Capture" section revives TerminalCMNoExit.A as a positive no-exit
       burden, which is now superseded for the CM program by the pass/fail engine
       and continuation-complete terminal-face working pass.
@@ -117,12 +117,12 @@ worked_switch_surfaces:
         CM use through continuation-complete terminal face exhaustion plus the
         branch-family record ledger.
   - id: any_finite_failure_witness_cm_exit
-    classification: derived_cm_face_failure_conditioned_on_canonical_witness_entry
+    classification: derived_cm_part_field_question_failure_conditioned_on_canonical_witness_entry
     evidence:
       - "problems/navier-stokes/theorem-construction/mpp-any-finite-failure-witness-cm-exit-20260521.md:10-37"
       - "problems/navier-stokes/theorem-construction/mpp-any-finite-failure-witness-cm-exit-20260521.md:220-299"
     mathematical_reason: >-
-      This is the abstract Pack-first landing theorem. It earns Exit(Q) once the
+      This is the abstract Field-certification landing theorem. It earns Exit(Q) once the
       object is a genuine same-solution finite terminal witness; it does not by
       itself certify that every paper branch has supplied such a witness.
     integration_action:
@@ -138,7 +138,7 @@ worked_switch_surfaces:
       - "problems/navier-stokes/theorem-construction/mpp-uniform-two-sided-obstruction-lemma-20260526.md:65-167"
     mathematical_reason: >-
       The law is correct: pass gives Member(Q) and continuation, fail gives
-      CM-test entry plus first-face failure. It becomes proof-bearing for the
+      CM-test entry plus first-Part/Field failure. It becomes proof-bearing for the
       paper only after each concrete obstruction row supplies H1-H4 from the
       uniform two-sided lemma.
     integration_action:
@@ -146,7 +146,7 @@ worked_switch_surfaces:
       proof_effect: >-
         Materialize H1-H4 rows for every promoted obstruction instead of relying
         on the branch-law theorem as a global slogan.
-  - id: all_non_euler_cm_face_sweep
+  - id: all_non_euler_cm_part_field_question_sweep
     classification: support_only_row_level_diagnostic_until_record_certified
     evidence:
       - "problems/navier-stokes/non-euler-surface-face-sweep-index-20260514.yaml:13-24"
@@ -169,7 +169,7 @@ worked_switch_surfaces:
     mathematical_reason: >-
       The 1853 indexed forward-positive, continuation, readout, export, and
       transfer surfaces cannot set the CM target or close TerminalCMNoExit.A.
-      They become usable only through a named bridge into Pack, Part, or Field,
+      They become usable only through a named bridge into Part or Field,
       or inside a separately selected positive proof program.
     integration_action:
       patch_target: problems/navier-stokes/target-operating-contract.yaml
@@ -188,7 +188,7 @@ worked_switch_surfaces:
       already Pack-side fail landings. Retained positive-scale first-created
       native donor-square reserve surplus is not proved, not demoted to a face
       by naming it, and not a live CM blocker until same-ledger payment or
-      CM-test admission plus first-face failure is proved.
+      CM-test admission plus first-Part/Field failure is proved.
     integration_action:
       patch_target: problems/navier-stokes/theorem-creation.yaml
       proof_effect: >-
@@ -260,7 +260,7 @@ high_risk_switch_surfaces_still_needing_proof_work:
       leave the rest support-only.
   - surface: problems/navier-stokes/theorem-construction/mpp-canonical-terminal-packet-capture-20260522.md
     precise_risk: >-
-      The Pack-first capture proof is useful, but the no-exit tail is a positive
+      The Field-certification capture proof is useful, but the no-exit tail is a positive
       proof substitution and conflicts with the current pass/fail CM engine.
     needed_work: >-
       Supersede the no-exit tail with continuation-complete packet exhaustion and
@@ -268,8 +268,8 @@ high_risk_switch_surfaces_still_needing_proof_work:
   - surface: problems/navier-stokes/theorem-construction/mpp-pack-first-source-reserve-face-audit-20260526.md
     precise_risk: >-
       Retained positive-scale source-reserve surplus remains supplier-quarantined;
-      it is not a CM face until same-ledger payment or CM-test admission plus
-      first-face failure is proved.
+      it is not a CM Part/Field until same-ledger payment or CM-test admission plus
+      first-Part/Field failure is proved.
     needed_work: >-
       Prove the exact promotion condition or keep the branch out of Clay-facing
       proof mass.

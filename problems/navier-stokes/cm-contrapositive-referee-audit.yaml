@@ -41,7 +41,7 @@ status:
       silver:
         path_role: CM contrapositive acceptance path
         status: accepted-official-referee-resolution
-        route_object: ExhaustiveContrapositiveFiniteBreakdownExclusion.A through Pack/Part/Field
+        route_object: ExhaustiveContrapositiveFiniteBreakdownExclusion.A through Part/Field
         evidence:
         - problems/navier-stokes/theorem-construction/mcp-exhaustivecontrapositivefinitebreakdownexclusion-a-noncircularfinitebreakdownexclusion-a-clayclosingbridgewithoutforwardsmuggling-a-54137e3d64.md
         - problems/navier-stokes/theorem-construction/mcp-terminalwitnessinventoryaudit-a-exhaustivecontrapositivefinitebreakdownexclusion-a-refereeinventoryreconciliation-a-0145d6f85e.md
@@ -49,7 +49,7 @@ status:
     reason: The CM contrapositive excludes an alleged finite-time Clay breakdown by
       admitting the terminal witness to the CM test and exhausting every admissible
       branch as admissibility failure, continuation/readout recovery, or a concrete
-      Pack/Part/Field face failure supporting Exit(Q):=not Member(Q). A face failure
+      Part/Field Part/Field failure supporting Exit(Q):=not Member(Q). A Part/Field failure
       is the contradiction mechanism, not a surviving Clay breakdown classification.
   resolved_gap:
     superseded_source: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
@@ -57,14 +57,14 @@ status:
     resolution: 'The old generic demand to prove Exit(Q) inadmissible was the wrong
       local target. The finite-obstruction inventory gate is locally passed only in
       this sense: each proof-bearing terminal obstruction must enter the CM test and
-      land in Pack, Part, or Field, while non-proof rows are recorded as support with
+      land in Part or Field, while non-proof rows are recorded as support with
       no proof force. This local inventory pass is not release readiness after the
       pulling-teeth exactness reread; exactness rework and Clay finality remain separate
       decision-bearing blockers.'
 audit_law:
-  governing_program: Exit(Q):=not Member(Q) through Pack/Part/Field witness faces.
+  governing_program: Exit(Q):=not Member(Q) through Part/Field witnesss.
   positive_to_cm_ultimatum: Any unfinished positive proof surface must either convert
-    into CM-test admission plus a concrete Pack/Part/Field face failure, be positively
+    into CM-test admission plus a concrete Part/Field Part/Field failure, be positively
     solved, be recorded as support/quarantine/obsolete/moot/logically unreachable
     with no proof force, or be flagged as a genuine unresolved logical burden.
   no_forcing_rule: A surviving positive requirement may not be forced into CM language.
@@ -94,7 +94,7 @@ classification_summary:
   support_repair_separated_from_theorem_progress_20260527: true
   clay_counterexample_exclusion_bridge_demoted_as_wrong_local_target: true
   finite_terminal_obstruction_inventory_covered: true
-  r3_cm_face_branch_closed: true
+  r3_cm_part_field_question_branch_closed: true
   clay_closing_bridge_open: true
 working_pass_results:
 - id: comprehensive-cm-switch-and-generated-overlay-sweep
@@ -107,7 +107,7 @@ working_pass_results:
   - problems/navier-stokes/tools/ns_pipeline_hardener.rb
   result: A fresh multi-pass diagnostic sweep found no active torus-first CM switch
     accepted merely by label. Proof-bearing torus-first material is either solved
-    at the packet/readout level, lawfully converted to Pack/Part/Field face exit,
+    at the packet/readout level, lawfully converted to Part/Field face exit,
     or recorded as support with no proof force. Readiness overlays were hardened so
     the blocked CM referee gate suppresses stale whole-space submission-candidate/export-ready
     tails on the key generated surfaces.
@@ -122,7 +122,7 @@ working_pass_results:
     atlas covering the whole torus. This removes the undefined terminal-subsequence
     selection step, makes the packet readout-complete, and unifies Pack as the readout-compatible
     same-fluid material-atlas service. With that exact packet fixed, terminal non-continuation
-    is read as the first failed Pack/Part/Field service for the global atlas.
+    is read as the first failed Part/Field service for the global atlas.
   remaining_boundary: The June 7 R3 whole-space CM completion supersedes this old
     statement (A) boundary; this May 26 torus row is no longer a whole-space blocker.
 - id: continuation-complete-terminal-face-exhaustion-working-pass
@@ -130,17 +130,17 @@ working_pass_results:
   evidence:
   - problems/navier-stokes/theorem-construction/mpp-continuation-complete-terminal-face-exhaustion-working-pass-20260526.md
   result: Once the selected packet is readout-complete, terminal non-continuation
-    negates the continuation-complete CM packet. Since that packet is exactly Pack+Part+Field
-    plus the H^s readout, the negation yields a Pack-first first-face failure.
+    negates the continuation-complete CM participation-field record. Since that packet is exactly Pack+Part+Field
+    plus the H^s readout, the negation yields a Field-certification first-Part/Field failure.
   remaining_boundary: The torus global material atlas note supplies the selected readout-complete
     packet for the active periodic surface.
 - id: branch-family-record-ledger-working-pass
   status: integrated-support-classification-and-certified-row-ledger
   evidence:
   - problems/navier-stokes/cm-branch-family-certificate-ledger-20260526.yaml
-  result: Six rows are certified face failures after the June 5 local L3 row split.
+  result: Six rows are certified Part/Field failures after the June 5 local L3 row split.
     Endpoint/readout and transfer rows are support-only. The remaining supplier or
-    typed rows carry no proof force unless a same-atlas Pack/Part/Field derivation
+    typed rows carry no proof force unless a same-atlas Part/Field derivation
     is proved. The branch-family census is no longer allowed to be the load-bearing
     proof of terminal capture.
   remaining_boundary: The manuscript branch-family sections have been rewritten as
@@ -178,7 +178,7 @@ working_pass_results:
   result: A bounded completion-facing pressure test verified that the May 26 PDF crank
     gaps are authorial/scope/support-boundary obligations around the installed torus-first
     CM chain, while the May 27 relational target-custody rule keeps the live theorem
-    target on Exit(Q):=not Member(Q) through Pack/Part/Field.
+    target on Exit(Q):=not Member(Q) through Part/Field.
   remaining_boundary: June 7 R3 exterior-source notes close the whole-space CM pass-or-exit
     branch; the May 27 boundary is historical scope context, not an active export
     burden.
@@ -196,17 +196,17 @@ working_pass_results:
     inventory coverage, not a generic prohibition on Exit(Q). The branch ledger reports
     no open proof-bearing rows; support/comparison rows carry no proof force; the
     installed local L3 row is certified; and the R3 exterior-source survivor lands
-    in Pack/Part/Field by the June 7 dyadic-survivor notes.'
+    in Part/Field by the June 7 dyadic-survivor notes.'
   remaining_boundary: No CM-referee blocker remains on the currently promoted surfaces.
-    New proof-bearing branches must still pass the same CM-test-entry plus Pack/Part/Field
+    New proof-bearing branches must still pass the same CM-test-entry plus Part/Field
     face check before promotion.
 nonblocking_scope_boundaries: []
 downstream_export_burdens: []
 nonblocking_confirmations:
 - id: terminal-packet-capture-exhaustion-discharged-at-packet-level
   statement: The torus-first working pass proves finite terminal non-continuation
-    as failure of the readout-complete global material-atlas CM packet, then reads
-    that failure Pack-first through Pack_Q, Part_{N,Q}, and Field_{N,r,Q}.
+    as failure of the readout-complete global material-atlas CM participation-field record, then reads
+    that failure Field-certification through Part_{N,Q} and Field_{N,r,Q}; Pack_Q only as Field window evidence.
   evidence:
   - problems/navier-stokes/theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md
   - problems/navier-stokes/theorem-construction/mpp-continuation-complete-terminal-face-exhaustion-working-pass-20260526.md
@@ -225,8 +225,8 @@ nonblocking_confirmations:
   - system/runner/test/release_surface_reconciler_test.rb
 - id: source-reserve-not-live-blocker
   statement: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
-    is support-only after the Pack-first source-reserve audit unless same-ledger payment
-    or CM-test admission plus first-face landing is proved.
+    is support-only after the Field-certification source-reserve audit unless same-ledger payment
+    or CM-test admission plus first-Part/Field landing is proved.
   evidence:
   - problems/navier-stokes/live-theorem-edge.yaml:24
   - problems/navier-stokes/dependency-discharge.yaml:291
@@ -274,8 +274,8 @@ blocking_findings: []
 open_logical_burdens:
 - The finite-obstruction inventory pass is the accepted Silver CM consumption route
   when every promoted finite terminal row has CM-test entry plus admissibility failure,
-  continuation/readout recovery, or concrete Pack/Part/Field face failure. It is not
-  blocked by a generic demand to prove that face failure cannot itself be finite breakdown.
+  continuation/readout recovery, or concrete Part/Field Part/Field failure. It is not
+  blocked by a generic demand to prove that Part/Field failure cannot itself be finite breakdown.
 - The pulling-teeth exactness reread remains active until every decision-bearing live
   proof surface is reworked or stripped of proof force.
 passed: true
@@ -303,7 +303,7 @@ accepted_replacement:
     silver:
       path_role: CM contrapositive acceptance path
       status: accepted-official-referee-resolution
-      route_object: ExhaustiveContrapositiveFiniteBreakdownExclusion.A through Pack/Part/Field
+      route_object: ExhaustiveContrapositiveFiniteBreakdownExclusion.A through Part/Field
       evidence:
       - problems/navier-stokes/theorem-construction/mcp-exhaustivecontrapositivefinitebreakdownexclusion-a-noncircularfinitebreakdownexclusion-a-clayclosingbridgewithoutforwardsmuggling-a-54137e3d64.md
       - problems/navier-stokes/theorem-construction/mcp-terminalwitnessinventoryaudit-a-exhaustivecontrapositivefinitebreakdownexclusion-a-refereeinventoryreconciliation-a-0145d6f85e.md
@@ -317,15 +317,15 @@ accepted_replacement:
   - selector drift -> not Field unless stabilized, then reduce
   - cross-profile positive defect -> not Field unless one-profile localized, then
     reduce
-  - positive-radius nonsingular branch -> ordinary Pack/Part/Field chain or continuation/readout
+  - positive-radius nonsingular branch -> ordinary Part/Field chain or continuation/readout
     recovery
 superseded_readiness_candidates:
 - candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
   kind: superseded_wrong_silver_target
   surface: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
-  evidence: The old generic bridge demand treated a concrete CM face failure as a
+  evidence: The old generic bridge demand treated a concrete CM Part/Field failure as a
     leftover finite-breakdown branch. The 2026-06-19 correction rejects that as the
     Silver target.
   required_action: Only reopen Silver when a concrete promoted finite-breakdown row
-    enters the CM test and still neither continues nor lands in a real Pack/Part/Field
-    face failure.
+    enters the CM test and still neither continues nor lands in a real Part/Field
+    Part/Field failure.
