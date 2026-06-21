@@ -36,11 +36,11 @@ source_rewrites:
     The gold layer is the direct forward-positive route: estimate the quantities in the equation strongly enough to continue the solution.
     The silver layer is the CM contrapositive route: when the forward route leaves a precise terminal obstruction, test whether that obstruction is still a same-solution Navier--Stokes object.
     A retained object must carry a positive packet or carrier, the same participation law, and a positive-scale coherent field readout.
-    A failed object exits through the first lost face: Pack, Part, or Field.
+    A failed object exits through the first lost face: Part or Field.
 
     The current proof state keeps the annular endpoint witness explicit.
     A radius-zero point is not by itself a continuation packet, but a finite-time singularity is witnessed by the surrounding positive-radius fields as they shrink toward the endpoint.
-    Those annular fields must either be controlled by the gold route or landed by the silver Pack/Part/Field analysis.
+    Those annular fields must either be controlled by the gold route or landed by the silver Part/Field analysis.
     The periodic branch is treated through the transported whole-torus atlas.
     The whole-space branch is treated through the exterior-source CM dichotomy.
 
@@ -199,7 +199,7 @@ source_rewrites:
     Field asks for a positive-scale coherent field readout.
 
     The pass side is conservative.
-    When Pack, Part, and Field survive on the same record, the object remains on the member-continuation side and still reads out through the continuation criterion selected by the proof.
+    When Part and Field survive on the same record, the object remains on the member-continuation side and still reads out through the continuation criterion selected by the proof.
     The fail side is equally concrete.
     The proof does not call every bad-looking picture an exit.
     It records the first failed face of the same terminal record:
@@ -208,7 +208,7 @@ source_rewrites:
       \Pack_Q\wedge\neg\Part_{N,Q},\qquad
       \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
-    That first face failure supports
+    That first Part/Field failure supports
     \[
       \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
     \]
@@ -216,5 +216,5 @@ source_rewrites:
     This reframing keeps the Clay object fixed while separating two jobs.
     Gold tries to continue the solution by estimates.
     Silver tests any exact terminal obstruction that gold leaves behind.
-    At the present proof state, the annular endpoint witness is the visible unpaid place: the surrounding positive-radius fields must be controlled by the gold annular supplier or followed by the silver route to a first Pack, Part, or Field face.
+    At the present proof state, the annular endpoint witness is the visible unpaid place: the surrounding positive-radius fields must be controlled by the gold annular supplier or followed by the silver route to a first Part or Field face.
 fill_rule: 'Front-route pack filled with final TeX prose; apply through supervisor plan.'

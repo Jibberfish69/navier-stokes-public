@@ -56,11 +56,11 @@ source_rewrites:
 - op: replace_section
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   section_title: From Witness Faces to Class Exit
-  spine_id: from-witness-faces-to-class-exit
+  spine_id: from-witnesss-to-class-exit
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:803
   author_replacement_required: true
   replacement: "<<FILL BEFORE APPLYING: branch-payment-source-author must rewrite
-    source-spine node from-witness-faces-to-class-exit (From Witness Faces to Class
+    source-spine node from-witnesss-to-class-exit (From Witness Faces to Class
     Exit) in final TeX prose. Preserve the section heading, proof truth, source refs,
     and reader route.>>\n"
 - op: replace_section

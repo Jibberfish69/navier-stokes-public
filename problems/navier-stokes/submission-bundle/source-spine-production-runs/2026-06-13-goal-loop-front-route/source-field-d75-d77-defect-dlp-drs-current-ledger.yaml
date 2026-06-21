@@ -35,7 +35,7 @@ proof_role:
     certification claim for the paper.
   silver_layer: >-
     The edited slice is support material and current-state exposition. It makes
-    no CM Pack, Part, or Field face landing and makes no silver closure claim.
+    no CM Part or Field Part/Field landing and makes no silver closure claim.
 verification:
   build_command: >-
     latexmk -pdf -interaction=nonstopmode -halt-on-error

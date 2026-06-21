@@ -35,8 +35,8 @@ proof_role:
     making the carrier bound, decay, compactness, and projected solution chain
     readable. It makes no gold certification claim for the full paper.
   silver_layer: >-
-    The edited slice is support material. It makes no CM Pack, Part, or Field
-    face landing and makes no silver closure claim.
+    The edited slice is support material. It makes no CM Part or Field
+    Part/Field landing and makes no silver closure claim.
 verification:
   build_command: >-
     latexmk -pdf -interaction=nonstopmode -halt-on-error

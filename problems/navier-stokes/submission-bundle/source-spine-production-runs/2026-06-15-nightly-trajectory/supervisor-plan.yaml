@@ -131,7 +131,7 @@ source_manuscript_spine:
   line_end: 975
   sequence: 10016
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:803
-  spine_id: from-witness-faces-to-class-exit
+  spine_id: from-witnesss-to-class-exit
 - source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   section_title: The Clay-Facing Completion Claim
   line_start: 976
@@ -415,7 +415,7 @@ runner_lanes:
   - where-the-direct-route-reaches-an-obstruction
   - the-same-terminal-record
   - reading-the-witness-table
-  - from-witness-faces-to-class-exit
+  - from-witnesss-to-class-exit
   - how-forward-branches-enter-the-proof
   - which-branches-still-matter
   - the-auxiliary-estimate-boundary

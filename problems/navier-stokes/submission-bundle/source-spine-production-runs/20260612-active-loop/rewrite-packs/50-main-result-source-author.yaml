@@ -28,7 +28,7 @@ source_rewrites:
       \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
     \]
     The member outcome is the retained same-solution continuation side.
-    The exit outcome is supported by the first failed witness face:
+    The exit outcome is supported by the first failed witness:
     \[
       \neg\Pack_Q,
       \qquad
@@ -104,20 +104,20 @@ source_rewrites:
 
     On the periodic branch, the transported whole-torus atlas \(Q_{\mathrm{atlas}}\) pays selection and readout.
     The terminal object is the whole transported atlas, not a private annular packet.
-    Retained Pack, Part, and Field on that atlas read out to the global \(H^s\), \(s>5/2\), continuation norm.
+    Retained Part and Field on that atlas read out to the global \(H^s\), \(s>5/2\), continuation norm.
     Failure of atlas selection, carrier scale, or material comparability is a Pack failure on \(Q_{\mathrm{atlas}}\), not a fourth terminal requirement.
 
     On the whole-space branch, the exterior Duhamel split supplies the corresponding decision surface.
     The initial heat tail and any fixed compact-core far-field source vanish at spatial infinity.
     A vanishing exterior nonlinear source gives the usual whole-space continuation readout.
-    A surviving exterior nonlinear source becomes a dyadic high-frequency escape and must enter the same CM packet test: no retained material address is Pack failure, detachment from the same equation, pressure, viscosity, or source ancestry is Part failure, and retained Pack plus Part with no fixed positive Field scale is Field failure.
+    A surviving exterior nonlinear source becomes a dyadic high-frequency escape and must enter the same CM participation-field test: no retained material address is Pack failure, detachment from the same equation, pressure, viscosity, or source ancestry is Part failure, and retained Pack plus Part with no fixed positive Field scale is Field failure.
 
     \subsection{Proof skeleton}
 
     The proof has four steps.
     First, a finite terminal claim for the original solution supplies either an \(H^s\), \(s>5/2\), restart readout or a selected terminal record \(Q\) for that same branch.
-    Second, the selected record enters the CM packet tree only when it is the same-solution object with the same datum, equation, pressure law, fixed viscosity, incompressibility, and terminal role.
-    Third, the retained branch carries Pack, Part, and Field to the selected continuation consumer.
+    Second, the selected record enters the CM participation-field tree only when it is the same-solution object with the same datum, equation, pressure law, fixed viscosity, incompressibility, and terminal role.
+    Third, the retained branch carries Part and Field to the selected continuation consumer.
     Fourth, the failed branch loses its first required face and embeds as \(\Exit(Q;\Owork)\).
 
     This theorem-level statement is the current main result of the manuscript.
