@@ -14,6 +14,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-preserving-hodge-stokes-packet-replacement-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lossless-full-hodgestokes-packet-rigidity-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-packet-compactness-noloss-attempt-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-transport-product-defect-evacuation-20260621.md
 ---
 
 # Pressure-Adapted No-Residue Skew Coercivity Criterion
@@ -512,9 +513,11 @@ Thus the compactness form needs one production clause and one rigidity clause.
 The no-loss clause is now exact as a criterion: strong same-carrier convergence
 of the full Hodge-Stokes packet gives total-variation convergence of the
 selected positive carrier, because the positive-part map is \(1\)-Lipschitz in
-\(L^1\).  Standard suitable compactness is not enough; the remaining failures
-are precisely transport product loss, pressure trace loss, viscous measure
-loss, selector graph loss, signed saturation loss, terminal trace atom, or
+\(L^1\).  Standard suitable compactness also evacuates the transport product
+loss on a stabilized carrier, through strong \(L^3\) velocity convergence.
+Standard suitable compactness is still not enough for the full packet; the
+remaining failures are precisely pressure trace loss, viscous measure loss,
+selector graph loss, signed saturation loss, terminal trace atom, or
 legal-routing loss.
 
 So the remaining production input is:
