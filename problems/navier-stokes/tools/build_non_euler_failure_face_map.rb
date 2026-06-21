@@ -26,7 +26,7 @@ FACE_RULES = {
     "diagnostic_status" => "face_landing",
     "selected_failure_type" => "one-field coherence, receiver, finite-difference, Field readout, or endpoint Field failure",
     "cm_part_field_question_breaks" => ["Field_{N,r,Q}"],
-    "retention_rule" => "Pack and Part are not kept alive globally; they are local inherited hypotheses only after this surface's Pack/Part alternatives are removed."
+    "retention_rule" => "Pack and Part are not kept alive globally; they are local inherited hypotheses only after this surface's Part/Field alternatives are removed."
   },
   "source_wall_Field_diagnostic_or_supplier" => {
     "diagnostic_status" => "selected_failure_field_landing",
@@ -165,7 +165,7 @@ output = {
   },
   "method" => {
     "rule" => "For each non-Euler NS surface, keep the CM participation-field record fixed, identify the selected failure type, and record which Part/Field face that failure can break.",
-    "no_global_pack_part_retention" => "Pack and Part are not kept alive by default. They are retained only locally when the surface's own Pack/Part alternatives have been discharged or inherited from a selected branch.",
+    "no_global_pack_part_retention" => "Pack and Part are not kept alive by default. They are retained only locally when the surface's own Part/Field alternatives have been discharged or inherited from a selected branch.",
     "zeno_rule" => "Zeno is not a fourth face; a selected retained Zeno atom lands in Field.",
     "support_rule" => "Supplier, readout, export, manuscript, generated, source-history, runtime, and governance surfaces are quarantined unless a named theorem promotes them into Part or Field; Member is reached only after the triadic CM witness."
   },

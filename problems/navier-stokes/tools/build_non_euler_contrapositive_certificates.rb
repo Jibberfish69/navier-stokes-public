@@ -13,7 +13,7 @@ EXIT_RULES = {
   "face_landing" => {
     "contrapositive_status" => "proved_cm_exit",
     "proof_rule" => "direct_face_failure",
-    "statement_template" => "SelectedFailure(surface) implies the negation of the listed CM Part/Field; since CM is Pack+Part+Field, that selected failure is a CM exit witness."
+    "statement_template" => "SelectedFailure(surface) implies the negation of the listed CM Part/Field; since CM is Part+Field, that selected failure is a CM exit witness."
   },
   "selected_failure_field_landing" => {
     "contrapositive_status" => "proved_cm_exit",
@@ -23,7 +23,7 @@ EXIT_RULES = {
   "typed_subset_landing" => {
     "contrapositive_status" => "proved_cm_exit",
     "proof_rule" => "finite_face_disjunction",
-    "statement_template" => "The surface's selected failure lies in its declared finite subset of Part/Field/Zeno channels. After the Pack-out-of-CM audit, any Zeno or zero-heat-time source-residue branch is Part-side when the same original-NS participation record remains, true not Pack_Q only when that record/carrier/readout is absent, and Field only after a retained positive-window readout is separately licensed."
+    "statement_template" => "The surface's selected failure lies in its declared finite subset of Part/Field/Zeno channels. After the Pack-out-of-CM audit, any Zeno or zero-heat-time source-residue branch is Part-side when the same original-NS participation record remains, packet/window evidence only when that record/carrier/readout is absent, and Field only after a retained positive-window readout is separately licensed."
   },
   "support_quarantine" => {
     "contrapositive_status" => "proved_unlicensed_for_cm_contrapositive",

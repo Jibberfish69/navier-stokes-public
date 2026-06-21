@@ -227,7 +227,7 @@ FAMILIES = [
   },
   {
     "id" => "june_2026_active_cm_completion_notes",
-    "paper_representation" => "June 2026 theorem notes are represented as the current CM inventory-gate record. They sharpen Clay counterexample exclusion, Pack_Q reader certification, retained pressure/finite-energy obstruction placement, averaged Jump_avg and receiver readout issues, RSCB/SCF_avg Part/Field landing, Field-to-Part collapse, and the no-proof-force classification of generic Pack/Part no-exit blockers. Current proof-facing use is the finite-obstruction inventory criterion: named promoted rows need same-witness CM entry plus Part/Field face certification, while generic support rows stay support-only.",
+    "paper_representation" => "June 2026 theorem notes are represented as the current CM inventory-gate record. They sharpen Clay counterexample exclusion, Pack_Q reader certification, retained pressure/finite-energy obstruction placement, averaged Jump_avg and receiver readout issues, RSCB/SCF_avg Part/Field landing, Field-to-Part collapse, and the no-proof-force classification of generic Part/Field no-exit blockers. Current proof-facing use is the finite-obstruction inventory criterion: named promoted rows need same-witness CM entry plus Part/Field face certification, while generic support rows stay support-only.",
     "files" => %w[
       theorem-construction/mpp-nightly-20260602-clay-counterexample-exclusion-pressure-note.md
       theorem-construction/mpp-clay-counterexample-exclusion-target-correction-20260603.md

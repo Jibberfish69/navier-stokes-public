@@ -157,12 +157,12 @@ theorem_warrants:
       - 'ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A as diagnostic/source-residue
         language: finite Zeno ancestry is sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A,
         while terminal zero-radius residue lands Part-side when a same-solution pointwise
-        original-NS participation record remains and true not Pack_Q only when that
+        original-NS participation record remains and packet/window evidence only when that
         record is absent; endpoint readout language is post-exit support unless a
         positive-scale retained carrier is separately proved'
       - RetainedFaceAmplitudeGain.A as a PackGainLedger/PartEnvelopeAmplitudeConservation
         boundary, not a new face
-      - ActiveHeightFluxTrichotomy.A as Pack/Part/legal-Field/Zeno face routing
+      - ActiveHeightFluxTrichotomy.A as Part/legal-Field/Zeno face routing
       - PCTP.hard as supplier/readout support
     action_type:
       meaning: The operation requested by the user or lane.
@@ -206,7 +206,7 @@ theorem_warrants:
     current_role: governing proof grammar for CM-bearing promotion
     governing_engine_note: problems/navier-stokes/theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
     pack_before_part_dependency_audit:
-      note: problems/navier-stokes/theorem-construction/mpp-pack-before-part-dependency-resurfacing-audit-20260620.md
+      note: problems/navier-stokes/theorem-construction/mpp-pack-out-of-cm-boundary-resurfacing-audit-20260620.md
       licensing_note: problems/navier-stokes/theorem-construction/mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md
       rule: Preserve Silver Part/Field after a legitimate Pack window, carrier,
         readout, or jump-comparison structure is admitted. When an outside-CM packet/window or singular
@@ -257,7 +257,7 @@ theorem_warrants:
       / RetainedPositiveScaleNativeReserveBirthCharge.A` is support-only after the
       Pack-out-of-CM source-reserve face audit. The exact classification is: paid same-ledger
       service is pass-side nonvacuity; an admitted finite terminal obstruction is
-      CM-test admission only; selected unpaid infinite donor-refill lands first at `not Pack_Q`, while zero-radius terminal residue is Part-side when the same-solution original participation record remains and true `not Pack_Q` only when that record is absent; retained positive-scale first-created
+      CM-test admission only; selected unpaid infinite donor-refill lands first at `not Pack_Q`, while zero-radius terminal residue is Part-side when the same-solution original participation record remains and true packet/window evidence only when that record is absent; retained positive-scale first-created
       native donor-square reserve surplus remains supplier quarantine. Its honest
       next burden is `RetainedPositiveScaleNativeReserveBirthCharge.A / TerminalReserveFirstAppearanceCharge.A`
       as supplier-quarantined positive Pack support, promotable only by same-ledger
@@ -407,7 +407,7 @@ theorem_warrants:
         and Field is neighboring tower coherence. For each binary row, ask which cause
         applies among Blown, Dead, and Jump; tell the honest same-fluid story; then
         collapse the row if that story necessarily breaks another face. Current audit
-        result: only Pack+Part+Field, Pack+not-Part+not-Field, and failed packet-window+not-Part+not-Field
+        result: only Part+Field, Pack+not-Part+not-Field, and failed packet-window+not-Part+not-Field
         survive as ontological candidate rows. Field-to-Part collapse is installed
         by RetainedFieldToPartCollapse.A; the remaining audit work is the Pack/blown
         implication.'
@@ -417,7 +417,7 @@ theorem_warrants:
         surfaces decide the ontology before the plain failure story is tested.
     may15_retained_field_audit:
       status: receiver-escape-bridge-installed-three-notes-quarantined-as-conditional-support
-      bridge_effect: REE.C is the only promoted May 15 bridge; on retained Pack+Part
+      bridge_effect: REE.C is the only promoted May 15 bridge; on retained Part plus Field-window evidence
         it sends receiver escape to not Field as branch-local retained-hypothesis
         bookkeeping, while missing Pack or Part hypotheses land earlier in those witness
         faces.
@@ -490,7 +490,7 @@ theorem_warrants:
         after PackOutOfCMSmoothnessCertification.A. When the zero-radius atom is
         still the same original-NS terminal source/pressure-viscosity participation
         record, it is tested first by the original Navier-Stokes participation law as zero heat-time participation
-        / Part-side participation failure. It remains true `not Pack_Q` only when
+        / Part-side participation failure. It remains true packet/window evidence only when
         no same-solution original participation record survives and the defect is
         solely absence of a usable carrier/window/readout. NoPersistentUnpaidPositiveRadiusAncestry.A
         closes the positive-radius retained tail by the shared-participation strip
@@ -504,7 +504,7 @@ theorem_warrants:
         next CM target unless the proof program is explicitly switched.'
       cm_pack_legality_consequence: 'The terminal Zeno/B_ASAC zero-thickness endpoint
         is settled only after the Pack-out-of-CM audit: same original-NS terminal
-        atoms land in Part-side dead/participation failure, while Pack-side non-survival
+        atoms land in Part-side dead/participation failure, while Field-window support non-survival
         is reserved for cases with no surviving original participation record. H1-H6,
         ACT.KX, endpoint readout, and positive source-control material remain quarantined
         support rather than upstream proof inputs.'
@@ -547,7 +547,7 @@ theorem_warrants:
       proof_mode: direct_carleson_source_wall
       role: Field smoothness-certification support target; donor-refill ancestry belongs to Pack,
         so Pack_Q implies the scale-critical donor-refill Carleson bound and selected
-        unpaid infinite donor-refill failure is not Pack_Q / (Pack, packing-detached).
+        unpaid infinite donor-refill failure is Field-window evidence, not CM exit / (Pack, packing-detached).
         No Field/Jump conversion is needed for this landing; direct supplier theorem
         remains separate
     - target_id: zeno-rigid-class-pair
@@ -564,7 +564,7 @@ theorem_warrants:
       label: Terminal zero-radius Zeno Part-first boundary
       proof_mode: terminal_zeno_pack_legality_boundary
       role: CM-facing boundary after finite Zeno ancestry accounting; the terminal
-        zero-radius residue lands Part-side when it keeps the same original-NS participation record, and true not Pack_Q only when that record is absent;
+        zero-radius residue lands Part-side when it keeps the same original-NS participation record, and packet/window evidence only when that record is absent;
         LPSC/PRD/Zeno rigid-class language is downstream no-pulse/source-control support
         outside this CM endpoint.
     - target_id: sourcepulse-terminal-zeno-operational-collapse
@@ -586,7 +586,7 @@ theorem_warrants:
     - target_id: retained-face-amplitude-gain
       label: RetainedFaceAmplitudeGain.A
       proof_mode: retained_amplitude_face_boundary
-      role: conditional Pack/Part boundary; failure is not PackGainLedger.A or not
+      role: conditional Part/Field boundary; failure is not PackGainLedger.A or not
         PartEnvelopeAmplitudeConservation.A unless those inputs are supplied and the
         remainder returns to the source-wall Field/Zeno diagnostics
     - target_id: active-height-flux-trichotomy
@@ -604,7 +604,7 @@ theorem_warrants:
       label: Native trilinear / square-reserve equivalent presentations
       proof_mode: equivalent_or_reduced_presentations
       role: diagnostic equivalent presentation; current selected failures reduce to
-        Pack/Part subfailures, legal Field source charge, Zeno atom, or the installed
+        Part/Field subfailures, legal Field source charge, Zeno atom, or the installed
         Carleson/Zeno Field diagnostics
     - target_id: downstream-no-jump-readout
       label: PCTP / SOURCE.NO-PULSE / AWG / TGC / no-Jump_avg readout

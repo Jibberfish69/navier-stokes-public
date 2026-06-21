@@ -31,11 +31,11 @@ WindowPackingLeakage.A. Find the missing local bridge that is strictly weaker th
 ### Retrieved Ingredients
 
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:172 -- Pack/Part bridge support
+- problems/navier-stokes/agent-contract.yaml:172 -- Part/Field bridge support
 - problems/navier-stokes/agent-contract.yaml:145 -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:95 -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:165 -- Pack/Part bridge support
+- problems/navier-stokes/agent-contract.yaml:95 -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:165 -- Part/Field bridge support
 
 ### Recursive Solver Chain
 
@@ -74,7 +74,7 @@ WindowPackingLeakage.A. Find the missing local bridge that is strictly weaker th
 2. State the weakest bridge they imply.
 3. Audit that the bridge does not import the target conclusion.
 4. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
-5. Use problems/navier-stokes/agent-contract.yaml:172 as source support for Pack/Part bridge support.
+5. Use problems/navier-stokes/agent-contract.yaml:172 as source support for Part/Field bridge support.
 
 ## Circularity Audit
 
