@@ -4,7 +4,7 @@ ns_viewer:
   status: direct-test-complete-negative-source-norm-visible-not-square-reserve
   proof_role: forward_gold_actual_nonlinear_source_norm_test
   logical_landing_node: exact_nonlinear_source_norm_upgrade
-  edge_effect: "Tests the actual Leray-projected nonlinear source from the exact Duhamel split. Energy-class interpolation gives a genuine bound on N=-P div(v tensor v) in L_s^(5/3) W_y^(-1,5/3) on any normalized cylinder where the scale-invariant local energy and dissipation are bounded. This is a real Navier-Stokes estimate, not a model. It gives negative-order source visibility and endpoint uniform integrability for that negative norm only. It does not dominate the selected positive native carrier, the same-carrier source-square reserve, or the mixed analytic tower radius, and localization adds heat/cutoff and Leray/cutoff commutators. The missing upgrade is still a square-strength same-carrier theorem or strict no-waste/profile production."
+  edge_effect: "Tests the actual Leray-projected nonlinear source from the exact Duhamel split. Energy-class interpolation gives a genuine bound on N=-P div(v tensor v) in L_s^(5/3) W_y^(-1,5/3) on any normalized cylinder where the scale-invariant local energy and dissipation are bounded. This is a real Navier-Stokes estimate, not a model. It gives a terminal strip modulus for the linear negative source norm by Holder, but not for the 5/3-power action density and not for the selected positive native carrier. It does not dominate the same-carrier source-square reserve or the mixed analytic tower radius, and localization adds heat/cutoff and Leray/cutoff commutators. The missing upgrade is still a square-strength same-carrier theorem or strict no-waste/profile production."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-exact-nonlinear-duhamel-terminal-split-20260621.md
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-source-square-production-finality-20260620.md
@@ -94,20 +94,35 @@ This is the exact energy-class source visibility theorem.
 
 ## 2. What this estimate actually buys
 
-If \(E_Q\) is uniformly bounded on a selected normalized family, then the
-negative source norm is uniformly integrable:
+If \(E_Q\) is uniformly bounded on a selected normalized family, then Hölder
+gives a terminal strip modulus for the linear negative source norm:
 
 \[
 \lim_{\theta\downarrow0}
 \sup_Q
 \int_{I\cap(-\theta,0)}
-\|N(s)\|_{W^{-1,5/3}(B)}^{5/3}\,ds
+\|N(s)\|_{W^{-1,5/3}(B)}\,ds
 =0.
 \tag{NSU.7}
 \]
 
+Indeed,
+
+\[
+\int_{I\cap(-\theta,0)}
+\|N(s)\|_{W^{-1,5/3}(B)}\,ds
+\le
+\theta^{2/5}
+\|N\|_{L_s^{5/3}W_y^{-1,5/3}(Q)}.
+\tag{NSU.7a}
+\]
+
 So the actual nonlinear source is not invisible in every topology. It is
-visible in the negative Sobolev topology forced by the energy class.
+visible in the linear negative Sobolev source norm forced by the energy class.
+
+This does not give a terminal strip modulus for the action density
+\(\|N(s)\|_{W^{-1,5/3}}^{5/3}\). A bounded \(L^1_s\) family of those powers
+can still concentrate at the endpoint.
 
 The gold target is stronger. It needs endpoint control of the selected positive
 native carrier, or a square-strength substitute such as
