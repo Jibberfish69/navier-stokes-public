@@ -63,84 +63,114 @@ The intended mechanism is not a new source-square estimate.  It is to choose
 the selector so that the incompressible transport part is skew, and only the
 selector/Leray/pressure/cutoff/scale commutator remains.
 
-## 1. Pressure-adapted incompressible selector
+## 1. Participation-preserving Hodge-Stokes packet
 
-Let
+The earlier one-channel formulation
 
 ```math
-A_\sigma=S_\sigma P,
-\qquad
-W_\sigma=A_\sigma u,
+A_\sigma=S_\sigma P
+\tag{PAN.4-old}
+```
+
+is not the selected object.  It recombines pressure and convection before the
+terminal selector acts.  The corrected selected object is the full
+Hodge-Stokes balance packet
+
+```math
+\boxed{
+\mathcal K_{\sigma,P}
+=
+\Big(
+S_\sigma^{tr}((u\cdot\nabla)u),\;
+S_\sigma^p\nabla p,\;
+\nu S_\sigma^\nu\Delta u,\;
+S_\sigma^t\partial_su,\;
+S_\sigma^{div}\nabla\cdot u,\;
+S_\sigma^P[\chi_P,\mathbb P_{\rm Leray}](u\cdot\nabla u),\;
+\mathcal B_{\sigma,P}^{cut},\;
+\mathcal S_{\sigma,P}^{sgn}
+\Big).
+}
 \tag{PAN.4}
 ```
 
-where \(P\) is the Leray projection and \(S_\sigma\) is the same-carrier
-terminal selector at log scale \(\sigma\).  The point of including \(P\) is
-that the selected field \(W_\sigma\) is divergence-free in the pressure-adapted
-packet gauge.
-
-If \(S_\sigma\) is a global Fourier multiplier commuting with \(P\), then this
-is mostly notation because \(Pu=u\).  The route is nontrivial only for the
-localized packet selector, where \(S_\sigma\), \(P\), cutoffs, pressure
-normalization, and scale transport do not commute.
-
-The selected mixed interaction is
+The local equation carried by `(PAN.4)` is
 
 ```math
-\mathcal M_\sigma
+\partial_su
++
+(u\cdot\nabla)u
++
+\nabla p
+-
+\nu\Delta u
+=0,
+\qquad
+\nabla\cdot u=0.
+\tag{PAN.4a}
+```
+
+Leray projection remains a compatibility identity inside the packet:
+
+```math
+\mathbb P_{\rm Leray}\big((u\cdot\nabla)u\big)
 =
-\left\langle
-A_\sigma((u\cdot\nabla)u),
-W_\sigma
-\right\rangle.
+(u\cdot\nabla)u+\nabla p.
+\tag{PAN.4b}
+```
+
+It is not allowed to replace `(PAN.4)` by only the projected force channel.
+
+For the transport skew subidentity, let
+
+```math
+A_\sigma^{tr}=S_\sigma^{tr},
+\qquad
+W_\sigma=A_\sigma^{tr}u.
 \tag{PAN.5}
 ```
 
-Insert and subtract \(u\cdot\nabla W_\sigma\):
+The transport-channel mixed interaction is
 
 ```math
-\mathcal M_\sigma
+\mathcal M_\sigma^{tr}
 =
 \left\langle
-u\cdot\nabla W_\sigma,
-W_\sigma
-\right\rangle
-+
-\left\langle
-[A_\sigma,u\cdot\nabla]u,
+A_\sigma^{tr}((u\cdot\nabla)u),
 W_\sigma
 \right\rangle.
 \tag{PAN.6}
 ```
 
-The first term is the incompressible skew part.  Since \(\nabla\cdot u=0\),
-and \(W_\sigma\) is the localized field being paired in the same closed
-selected inner product,
+Insert and subtract \(u\cdot\nabla W_\sigma\):
 
 ```math
-\left\langle
-u\cdot\nabla W_\sigma,
-W_\sigma
-\right\rangle
+\mathcal M_\sigma^{tr}
 =
-{1\over2}\int u\cdot\nabla |W_\sigma|^2
-=0,
+\left\langle
+u\cdot\nabla W_\sigma,W_\sigma
+\right\rangle
++
+\left\langle
+[A_\sigma^{tr},u\cdot\nabla]u,W_\sigma
+\right\rangle.
 \tag{PAN.7}
 ```
 
-with any boundary/cutoff contribution included in the definition of the
-localized commutator ledger.
+The first term is the incompressible skew part and vanishes in the closed
+localized same-carrier pairing.  Boundary and cutoff contributions are retained
+in the full packet `(PAN.4)`, not discarded.
 
 Thus
 
 ```math
 \boxed{
-\mathcal M_\sigma=\mathcal C_\sigma,
+\mathcal M_\sigma^{tr}=\mathcal C_\sigma^{tr},
 \qquad
-\mathcal C_\sigma
+\mathcal C_\sigma^{tr}
 =
 \left\langle
-[A_\sigma,u\cdot\nabla]u,
+[A_\sigma^{tr},u\cdot\nabla]u,
 W_\sigma
 \right\rangle.
 }
@@ -149,21 +179,25 @@ W_\sigma
 
 This is the exact algebraic place where the square-source term is born.  It is
 not born from the incompressible transport itself.  It is born from estimating
-the commutator \(\mathcal C_\sigma\) by size.
+the transport commutator, after the full pressure-viscosity-incompressibility
+packet has been localized and selected, by size.
 
-## 2. What the commutator contains
+## 2. What the full-cycle commutator contains
 
-For the localized pressure-adapted selector, the commutator in `(PAN.8)` is not
-a single harmless Fourier commutator.  It contains the full same-carrier packet
-mismatch:
+For the localized participation-preserving packet, the live object is not a
+single Fourier commutator.  It is the full same-carrier packet mismatch:
 
 ```math
-\mathcal C_\sigma
+\mathcal C_\sigma^{full}
 =
-\mathcal C_\sigma^{sel}
-+\mathcal C_\sigma^{P}
+\mathcal C_\sigma^{tr}
++\mathcal C_\sigma^{p}
++\mathcal C_\sigma^{\nu}
++\mathcal C_\sigma^{time}
++\mathcal C_\sigma^{div}
 +\mathcal C_\sigma^{cut}
 +\mathcal C_\sigma^{scale}
++\mathcal C_\sigma^{sgn}
 +\mathcal C_\sigma^{tail}.
 \tag{PAN.9}
 ```
@@ -171,39 +205,42 @@ mismatch:
 Here:
 
 ```math
-\mathcal C_\sigma^{sel}
+\mathcal C_\sigma^{tr}
 =
-\text{selector/gauge transport mismatch,}
+\text{transport selector/gauge mismatch,}
 \tag{PAN.10}
 ```
 
 ```math
-\mathcal C_\sigma^{P}
+\mathcal C_\sigma^{p}
 =
-\text{Leray/pressure-normalization commutator,}
+\text{pressure/conormal/gauge channel,}
 \tag{PAN.11}
 ```
 
 ```math
-\mathcal C_\sigma^{cut}
+\mathcal C_\sigma^{\nu}
 =
-\text{cutoff/collar boundary leakage,}
+\text{viscous channel and selector--Laplacian commutator,}
 \tag{PAN.12}
 ```
 
 ```math
-\mathcal C_\sigma^{scale}
+\mathcal C_\sigma^{div}
 =
-\text{motion of the log-scale selector,}
+\text{incompressibility/divergence constraint channel,}
 \tag{PAN.13}
 ```
 
 and
 
 ```math
-\mathcal C_\sigma^{tail}
+\mathcal C_\sigma^{cut}
++\mathcal C_\sigma^{scale}
++\mathcal C_\sigma^{sgn}
++\mathcal C_\sigma^{tail}
 =
-\text{off-carrier or terminal tail leakage.}
+\text{cutoff, scale, signed-saturation, and tail records.}
 \tag{PAN.14}
 ```
 
@@ -213,8 +250,8 @@ loss of the signed partner can strand a positive commutator on the selected
 carrier.
 
 This note does not erase those failures.  It gives their sharper target:
-prove that the full commutator package is not a square-source residue, but a
-viscous/capacity/tail payment.
+prove that the full Hodge-Stokes packet is not a square-source residue, but a
+viscous/capacity/tail/legal payment on the same carrier.
 
 ## 3. No-residue commutator theorem
 
