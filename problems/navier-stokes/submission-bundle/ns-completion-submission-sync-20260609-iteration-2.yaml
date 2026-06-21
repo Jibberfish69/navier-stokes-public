@@ -169,7 +169,7 @@ verdict_alignment:
         or pure-pressure carrier dichotomy. OneSidedNearBandMaterialSourceCurrentLegal.A
         has now been tested and does not pay the bridge: post-ASAC source-current
         support is conditional on a forward no-free-sink or Zeno source-residue rigidity
-        theorem, while TerminalSignedSaturationCMFaceReduction.A is CM witness-face
+        theorem, while TerminalSignedSaturationCMFaceReduction.A is CM witness
         support only. LowHighTerminalSignedSaturationForwardNoFreeSink.A has now been
         tested and does not pay the bridge: retained partners, legal exits, ASAC pair-weight
         defects, and finite donor trees are paid, but the terminal Zeno source-refill
@@ -207,7 +207,7 @@ verdict_alignment:
         live CM target, and the TPS good-set bundle / CF-bundle / same-witness capture
         mechanism attempts are not installed as same-witness Pack survival. The next
         executable work is proving same-witness terminal anti-concentration for the
-        original-data first Pack witness, with NoGenuineExitFromSmoothData.A retained only as positive supplier/manuscript support.'
+        original-data first Field-window support, with NoGenuineExitFromSmoothData.A retained only as positive supplier/manuscript support.'
     - candidate_id: live-theorem-edge:clay_closure_status
       kind: live_theorem_edge
       surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -361,7 +361,7 @@ verdict_alignment:
           has now been tested and does not pay the bridge: post-ASAC source-current
           support is conditional on a forward no-free-sink or Zeno source-residue
           rigidity theorem, while TerminalSignedSaturationCMFaceReduction.A is CM
-          witness-face support only. LowHighTerminalSignedSaturationForwardNoFreeSink.A
+          witness support only. LowHighTerminalSignedSaturationForwardNoFreeSink.A
           has now been tested and does not pay the bridge: retained partners, legal
           exits, ASAC pair-weight defects, and finite donor trees are paid, but the
           terminal Zeno source-refill branch still allows the shrinking strip model.
@@ -400,7 +400,7 @@ verdict_alignment:
           are superseded or support-only for the live CM target, and the TPS good-set
           bundle / CF-bundle / same-witness capture mechanism attempts are not installed
           as same-witness Pack survival. The next executable work is proving same-witness
-          terminal anti-concentration for the original-data first Pack witness, then
+          terminal anti-concentration for the original-data first Field-window support, then
           NoGenuineExitFromSmoothData.A.'
       - candidate_id: live-theorem-edge:clay_closure_status
         kind: live_theorem_edge
@@ -591,7 +591,7 @@ verdict_alignment:
             has now been tested and does not pay the bridge: post-ASAC source-current
             support is conditional on a forward no-free-sink or Zeno source-residue
             rigidity theorem, while TerminalSignedSaturationCMFaceReduction.A is CM
-            witness-face support only. LowHighTerminalSignedSaturationForwardNoFreeSink.A
+            witness support only. LowHighTerminalSignedSaturationForwardNoFreeSink.A
             has now been tested and does not pay the bridge: retained partners, legal
             exits, ASAC pair-weight defects, and finite donor trees are paid, but
             the terminal Zeno source-refill branch still allows the shrinking strip
@@ -631,7 +631,7 @@ verdict_alignment:
             are superseded or support-only for the live CM target, and the TPS good-set
             bundle / CF-bundle / same-witness capture mechanism attempts are not installed
             as same-witness Pack survival. The next executable work is proving same-witness
-            terminal anti-concentration for the original-data first Pack witness,
+            terminal anti-concentration for the original-data first Field-window support,
             with NoGenuineExitFromSmoothData.A retained only as positive supplier/manuscript support.'
         - candidate_id: live-theorem-edge:clay_closure_status
           kind: live_theorem_edge

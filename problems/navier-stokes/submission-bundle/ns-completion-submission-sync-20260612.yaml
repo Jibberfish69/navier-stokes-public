@@ -162,7 +162,7 @@ verdict_alignment:
         or pure-pressure carrier dichotomy. OneSidedNearBandMaterialSourceCurrentLegal.A
         has now been tested and does not pay the bridge: post-ASAC source-current
         support is conditional on a forward no-free-sink or Zeno source-residue rigidity
-        theorem, while TerminalSignedSaturationCMFaceReduction.A is CM witness-face
+        theorem, while TerminalSignedSaturationCMFaceReduction.A is CM witness
         support only. LowHighTerminalSignedSaturationForwardNoFreeSink.A has now been
         tested and does not pay the bridge: retained partners, legal exits, ASAC pair-weight
         defects, and finite donor trees are paid, but the terminal Zeno source-refill
@@ -200,7 +200,7 @@ verdict_alignment:
         live CM target, and the TPS good-set bundle / CF-bundle / same-witness capture
         mechanism attempts are not installed as same-witness Pack survival. The next
         executable work is proving same-witness terminal anti-concentration for the
-        original-data first Pack witness, with NoGenuineExitFromSmoothData.A retained only as positive supplier/manuscript support.'
+        original-data first Field-window support, with NoGenuineExitFromSmoothData.A retained only as positive supplier/manuscript support.'
     - candidate_id: live-theorem-edge:clay_closure_status
       kind: live_theorem_edge
       surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -211,7 +211,7 @@ verdict_alignment:
         compatibility is pass and gives Member(Q), while failed payment, donor delivery,
         return, or singulet compatibility enters the installed Clay CM tree only after
         the surrounding positive-radius annular fields have been paid by forward control
-        or classified by their first Pack/Part/Field face.'
+        or classified by their first Part/Field face.'
     - candidate_id: source-frontier:primary_math_obligation
       kind: source_frontier
       surface: problems/navier-stokes/source-frontier.yaml
@@ -258,7 +258,7 @@ verdict_alignment:
         compatibility is pass and gives Member(Q), while failed payment, donor delivery,
         return, or singulet compatibility enters the installed Clay CM tree only after
         the surrounding positive-radius annular fields have been paid by forward control
-        or classified by their first Pack/Part/Field face.'
+        or classified by their first Part/Field face.'
     - candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
       kind: clay_closing_gap
       surface: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
@@ -362,7 +362,7 @@ verdict_alignment:
           has now been tested and does not pay the bridge: post-ASAC source-current
           support is conditional on a forward no-free-sink or Zeno source-residue
           rigidity theorem, while TerminalSignedSaturationCMFaceReduction.A is CM
-          witness-face support only. LowHighTerminalSignedSaturationForwardNoFreeSink.A
+          witness support only. LowHighTerminalSignedSaturationForwardNoFreeSink.A
           has now been tested and does not pay the bridge: retained partners, legal
           exits, ASAC pair-weight defects, and finite donor trees are paid, but the
           terminal Zeno source-refill branch still allows the shrinking strip model.
@@ -401,7 +401,7 @@ verdict_alignment:
           are superseded or support-only for the live CM target, and the TPS good-set
           bundle / CF-bundle / same-witness capture mechanism attempts are not installed
           as same-witness Pack survival. The next executable work is proving same-witness
-          terminal anti-concentration for the original-data first Pack witness, then
+          terminal anti-concentration for the original-data first Field-window support, then
           NoGenuineExitFromSmoothData.A.'
       - candidate_id: live-theorem-edge:clay_closure_status
         kind: live_theorem_edge
@@ -413,7 +413,7 @@ verdict_alignment:
           compatibility is pass and gives Member(Q), while failed payment, donor delivery,
           return, or singulet compatibility enters the installed Clay CM tree only
           after the surrounding positive-radius annular fields have been paid by forward
-          control or classified by their first Pack/Part/Field face.'
+          control or classified by their first Part/Field face.'
       - candidate_id: source-frontier:primary_math_obligation
         kind: source_frontier
         surface: problems/navier-stokes/source-frontier.yaml
@@ -460,7 +460,7 @@ verdict_alignment:
           compatibility is pass and gives Member(Q), while failed payment, donor delivery,
           return, or singulet compatibility enters the installed Clay CM tree only
           after the surrounding positive-radius annular fields have been paid by forward
-          control or classified by their first Pack/Part/Field face.'
+          control or classified by their first Part/Field face.'
       - candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
         kind: clay_closing_gap
         surface: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
@@ -600,7 +600,7 @@ verdict_alignment:
             has now been tested and does not pay the bridge: post-ASAC source-current
             support is conditional on a forward no-free-sink or Zeno source-residue
             rigidity theorem, while TerminalSignedSaturationCMFaceReduction.A is CM
-            witness-face support only. LowHighTerminalSignedSaturationForwardNoFreeSink.A
+            witness support only. LowHighTerminalSignedSaturationForwardNoFreeSink.A
             has now been tested and does not pay the bridge: retained partners, legal
             exits, ASAC pair-weight defects, and finite donor trees are paid, but
             the terminal Zeno source-refill branch still allows the shrinking strip
@@ -640,7 +640,7 @@ verdict_alignment:
             are superseded or support-only for the live CM target, and the TPS good-set
             bundle / CF-bundle / same-witness capture mechanism attempts are not installed
             as same-witness Pack survival. The next executable work is proving same-witness
-            terminal anti-concentration for the original-data first Pack witness,
+            terminal anti-concentration for the original-data first Field-window support,
             with NoGenuineExitFromSmoothData.A retained only as positive supplier/manuscript support.'
         - candidate_id: live-theorem-edge:clay_closure_status
           kind: live_theorem_edge
@@ -652,7 +652,7 @@ verdict_alignment:
             compatibility is pass and gives Member(Q), while failed payment, donor
             delivery, return, or singulet compatibility enters the installed Clay
             CM tree only after the surrounding positive-radius annular fields have
-            been paid by forward control or classified by their first Pack/Part/Field
+            been paid by forward control or classified by their first Part/Field
             face.'
         checks:
           route_candidates: 0
