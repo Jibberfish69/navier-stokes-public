@@ -302,4 +302,4 @@ The remaining live suppliers are still the one-sided same-carrier ones:
 \quad StrictRescaledNoWasteLyapunov.A,\quad MinimalZenoProfileProduction.A.}
 }
 \tag{NSP.24}
-
+\]
