@@ -202,7 +202,7 @@ source_rewrites:
     \[
       \CM_{N,r,Q}
       :=
-      \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}.
     \]
     \(\Pack_Q\) says that the same-fluid body is present.  \(\Part_{N,Q}\) says that the same pressure-viscosity-incompressibility tower still acts on that body.  \(\Field_{N,r,Q}\) says that one positive scale still reads neighboring towers as one field.
 
@@ -229,11 +229,11 @@ source_rewrites:
     \]
     On the fail side, the same selected record loses its first membership face:
     \[
-      \neg\Pack_Q
+      Field-window evidence outside CM
       \quad\text{or}\quad
-      \Pack_Q\wedge\neg\Part_{N_*,Q}
+      \neg\Part_{N_*,Q}
       \quad\text{or}\quad
-      \Pack_Q\wedge\Part_{N_*,Q}\wedge\forall r>0\,\neg\Field_{N_*,r,Q}.
+      \Part plus Field-window evidence_{N_*,Q}\wedge\forall r>0\,\neg\Field_{N_*,r,Q}.
     \]
     That first Part/Field failure supports \(\Exit(Q;\Owork)\).  The CM route is this pass-or-exit split on the same record.  It is not a shortcut around selecting the terminal object, and it is not a replacement for the forward-positive gold route.
 - op: replace_section
@@ -249,13 +249,13 @@ source_rewrites:
     \[
     \begin{array}{c|l}
     \text{face state on the selected record} & \text{proof reading}\\ \hline
-    \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}
+    \Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}
       & \text{member-side candidate, with readout still required}\\
-    \neg\Pack_Q
+    Field-window evidence outside CM
       & \text{Field-certification failure}\\
-    \Pack_Q\wedge\neg\Part_{N,Q}
+    \neg\Part_{N,Q}
       & \text{Part-first failure}\\
-    \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
+    \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
       & \text{Field-first failure.}
     \end{array}
     \]
@@ -334,9 +334,9 @@ source_rewrites:
     &\Longrightarrow
       \left[
       \begin{array}{c}
-        \neg\Pack_Q\\
-        \text{or }\Pack_Q\wedge\neg\Part_{N,Q}\\
-        \text{or }\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
+        Field-window evidence outside CM\\
+        \text{or }\neg\Part_{N,Q}\\
+        \text{or }\Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
       \end{array}
       \right]\\
     &\Longrightarrow \Exit(Q;\Owork).
@@ -442,7 +442,7 @@ source_rewrites:
     \begin{proof}
     Assume that the maximal smooth solution from \(u_0\) is alleged to stop at a finite time \(T_*\), and let \(Q\) be the terminal object offered by that breakdown claim.  The CM test admits only same-solution terminal objects.  A surrogate equation, comparison object, or support packet is rejected before it can count as the terminal object for this claim.
 
-    For an admitted object, membership in the working CM class is the conjunction of positive Pack carrier, same pressure-viscosity Part action, and positive-scale Field record, with the branch readout attached on the pass side.  If all survive, the selected branch is on the \(\Member(Q;\Owork)\) side.  If the alleged finite terminal object is not on that side, the first failed requirement is \(\neg\Pack_Q\), or \(\Pack_Q\wedge\neg\Part_{N,Q}\), or \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\).  That first Part/Field failure is embedded as \(\Exit(Q;\Owork)\).
+    For an admitted object, membership in the working CM class is the conjunction of positive Pack carrier, same pressure-viscosity Part action, and positive-scale Field record, with the branch readout attached on the pass side.  If all survive, the selected branch is on the \(\Member(Q;\Owork)\) side.  If the alleged finite terminal object is not on that side, the first failed requirement is \(Field-window evidence outside CM\), or \(\neg\Part_{N,Q}\), or \(\Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\).  That first Part/Field failure is embedded as \(\Exit(Q;\Owork)\).
 
     In the annular-limit case, the point \(r_*=0\) can fail Pack as a point-object, while the surrounding positive-radius fields remain the live witness that must be controlled or classified.  That is why this theorem is a classification target with an annular boundary, not a final Clay closure by itself.
     \end{proof}
@@ -471,11 +471,11 @@ source_rewrites:
     \begin{definition}[Terminal witness consumption]
     A finite Clay terminal witness is consumed by the CM proof when it is admitted to the same-fluid terminal packet tree and exhausted as one of
     \[
-      \neg\Pack_Q,
+      Field-window evidence outside CM,
       \qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},
+      \neg\Part_{N,Q},
       \qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},
     \]
     with the derived Part/Field failure embedded as
     \[
