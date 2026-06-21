@@ -108,8 +108,7 @@ FORBIDDEN = {
   "old Part-first branch wording" => /\b(?:is|was|remains|becomes)\s+Part-first\b/,
   "old primitive services ontology wording" => /`Pack`, `Part`, and `Field` are the canonical route-relative primitive services/,
   "old witness envelope certification wording" => /Pack\/Part\/Field as the canonical route-relative witness envelope used to certify membership/,
-  "old Pack Part Field certification shorthand" => /Pack\/Part\/Field certification/
-  ,
+  "old Pack Part Field certification shorthand" => /Pack\/Part\/Field certification/,
   "old Part Field before Pack wording" => /Part\/Field before Pack/,
   "old Part Field first wording" => /Part\/Field-first/,
   "old PartFieldBeforePack theorem label" => /PartFieldBeforePack/,
