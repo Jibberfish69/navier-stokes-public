@@ -254,7 +254,7 @@ obstruction is closed under the requested proof program:
 ```math
 \text{forward pass}
 \quad\text{or}\quad
-\text{CM Pack-face exit}.
+\text{CM Field-window evidence exit}.
 ```
 
 The remaining use of `ResidualSourceBalancedLPAS.A`,

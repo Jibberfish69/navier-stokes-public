@@ -105,7 +105,7 @@ C\,\mathcal P_Q^{gain}(W)
 Here:
 
 ```text
-\mathcal P_Q^{gain}     = accumulated positive strain not allowed by the Pack face;
+\mathcal P_Q^{gain}     = accumulated positive strain not allowed by the Field-window evidence;
 \mathcal P_{N,Q}^{part} = heat-dwell / participation failure for the retained packet;
 \mathcal L_{N,Q}^{field}= legal pressure/cutoff/source ledger already allowed in Field;
 \mathcal Z_{N,Q}^{atom} = terminal Zeno source-residue atom.
@@ -356,7 +356,7 @@ This is the exact replacement for the false implication
 ## 4. Pack spend after heat-dwell sampling
 
 Once `(AHF.5)` replaces positive action by net action on the same heat window,
-the Pack face becomes relevant again:
+the Field-window evidence becomes relevant again:
 
 ```math
 \left[\int_W \sigma_j(t)dt\right]_+

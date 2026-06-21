@@ -5,8 +5,8 @@
 This audit uses the current Part/Field structural surfaces already read in the repo sweep:
 
 ```text
-mpp-pack-part-field-canonicality-reduction-note.md
-mpp-pack-part-field-primitive-minimality-note.md
+mpp-part-field-canonicality-reduction-note.md
+mpp-part-field-primitive-minimality-note.md
 mpp-clay-pack-face-exclusion-working-pass-20260607.md
 mpp-cmi-pack-noncollapse-parent-attempt-20260609.md
 ```
@@ -54,9 +54,9 @@ Field carries the no-jump / one-field burden.
 
 That directly supports `Part_{N,Q}` / `Field_{N,r,Q}` certification. Part and Field have independent audit meaning. They are not merely decorative after Pack.
 
-## Finding 4: Clay Pack-face exclusion failure supports the pivot
+## Finding 4: Clay Field-window evidence exclusion failure supports the pivot
 
-The Pack-face exclusion attempt already failed for the same reason the user identified. Same-fluid ancestry and incompressible volume produce entry into the terminal test, while positive terminal carrier scale and finite deformation/readout comparability remain unproved.
+The Field-window evidence exclusion attempt already failed for the same reason the user identified. Same-fluid ancestry and incompressible volume produce entry into the terminal test, while positive terminal carrier scale and finite deformation/readout comparability remain unproved.
 
 Therefore using Pack_Q as the first final test repeats a known blind spot. The Part/Field-before-Pack route addresses exactly that issue.
 

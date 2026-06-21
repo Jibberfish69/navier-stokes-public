@@ -23,7 +23,7 @@ The proposed target was
 ```math
 \boxed{
 \textbf{RetainedFaceAmplitudeGain.A:}\qquad
-Pack_Q+Part_{N,Q}\Longrightarrow
+Part_{N,Q} plus Field-window evidence\Longrightarrow
 \sup_{P:j_P\ge N}a_P(t)\to0.
 }
 ```
@@ -59,7 +59,7 @@ and the gauged amplitude
 \Gamma_{pack,Q}(t)=\sup_{a\in A_Q(t)}\max\{|F(a,t)|,|F(a,t)^{-1}|\}<\infty.
 ```
 
-Since the deformation solves `\dot F=(\nabla u)(X(a,t),t)F`, this gives a finite bound on accumulated positive strain along retained same-fluid paths.  Thus the linear gain is controlled by the Pack face.
+Since the deformation solves `\dot F=(\nabla u)(X(a,t),t)F`, this gives a finite bound on accumulated positive strain along retained same-fluid paths.  Thus the linear gain is controlled by the Field-window evidence.
 
 ## Step 2. Part routes pressure/viscous participation but not high tails
 
@@ -91,7 +91,7 @@ The damping term comes from heat.  The finite linear gain is controlled by `Pack
 \|R_P\|_{packet}\le C_Q\widetilde A_N^2+o_N(1)+Loss_{legal}.
 ```
 
-This estimate is not a consequence of `Pack_Q+Part_{N,Q}`.  It is a high-high tail/source estimate.  In source-wall language it is a form of
+This estimate is not a consequence of `Part_{N,Q} plus Field-window evidence`.  It is a high-high tail/source estimate.  In source-wall language it is a form of
 
 ```math
 LocalPositiveSourceCarleson.A
@@ -114,7 +114,7 @@ Thus preterminal smoothness supplies the starting value, while the missing sourc
 A valid conditional statement is:
 
 ```math
-Pack_Q+Part_{N,Q}+FieldTail_N(Q)
+Part_{N,Q} plus Field-window evidence + FieldTail_N(Q)
 \Longrightarrow RetainedFaceAmplitudeGain.A,
 ```
 
@@ -131,7 +131,7 @@ But `FieldTail_N(Q)` is exactly the Field/readout side needed for CM membership 
 The direct implication
 
 ```math
-Pack_Q+Part_{N,Q}\Longrightarrow RetainedFaceAmplitudeGain.A
+Part_{N,Q} plus Field-window evidence\Longrightarrow RetainedFaceAmplitudeGain.A
 ```
 
 is not proved from the current installed inputs.  `Pack_Q` controls linear strain gain, and `Part_{N,Q}` controls finite-depth participation, while the missing high-frequency packet amplitude decay is a Field/source-wall estimate.
