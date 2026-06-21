@@ -24,7 +24,7 @@ source_rewrites:
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is the two-reading same-solution CM dichotomy. The source now limits that claim to an admitted same-solution terminal record and names the separate no-genuine-exit bridge as the public Clay bridge.
-    reader_thread_attack: A reader could lose the thread at the jump from a finite terminal claim to a CM record. The proof now spells out the bounded H^s restart alternative, the same-branch terminal record Q, and the Pack/Part/Field reading order.
+    reader_thread_attack: A reader could lose the thread at the jump from a finite terminal claim to a CM record. The proof now spells out the bounded H^s restart alternative, the same-branch terminal record Q, and the Part/Field reading order.
     open_derivation_attack: The local H^s restart is paid by the bounded H^s display, local lifespan dependence, and uniqueness gluing; the no-genuine-exit theorem remains explicitly outside this section's proved payment.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -46,7 +46,7 @@ source_rewrites:
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that compactness can produce a proof-bearing terminal record. The source now makes this conditional on already-paid tail, source, participation, and exact-object controls.
-    reader_thread_attack: A reader could mistake a weak profile or terminal atom for the original solution. The section now explains exact-object capture before the low/high split and routes detached limits to support or Pack/Part/Field failure.
+    reader_thread_attack: A reader could mistake a weak profile or terminal atom for the original solution. The section now explains exact-object capture before the low/high split and routes detached limits to support or Part/Field failure.
     open_derivation_attack: The uniform H^s tail condition is displayed, and the terminal atom example shows why compactness alone leaves Pack survival unpaid; the later proof step is the relevant uniform tightness/no-zero-thickness payment.
     repair_decision: passes after repair
     unresolved_failures: []

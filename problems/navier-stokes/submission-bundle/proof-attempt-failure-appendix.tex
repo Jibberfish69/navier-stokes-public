@@ -1248,8 +1248,8 @@ Does it have a positive material carrier?
 Does the Navier--Stokes law still participate on that carrier?
 Does the field have coherent positive-scale readout?
 If all three survive, the branch is on the smooth same-solution side.
-If one fails first, the branch gives \(\neg\Pack_Q\), \(\Pack_Q\wedge
-\neg\Part_{N,Q}\), or \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,
+If one fails first, the branch gives \(Field-window evidence outside CM\), \(\Pack_Q\wedge
+\neg\Part_{N,Q}\), or \(\Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,
 \neg\Field_{N,r,Q}\).
 That is the exact way the failure record becomes proof material.
 
@@ -1921,7 +1921,7 @@ The pass branch keeps the same-fluid requirement:
 \[
   O_{\Pass}
   \Longrightarrow
-  \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}
+  \Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}
   \Longrightarrow
   \Member(Q;\Owork)
   \Longrightarrow
@@ -1933,7 +1933,7 @@ test:
 \[
   O_{\Fail}
   \Longrightarrow
-  \neg\Pack_Q
+  Field-window evidence outside CM
   \vee
   \neg\Part_{N,Q}
   \vee
@@ -3903,13 +3903,13 @@ The installed branch-level conclusion is
 \[
   \text{terminal }L^3\text{ Duhamel response mass}
   \Longrightarrow
-  \neg\Pack_Q
+  Field-window evidence outside CM
   \vee
   \neg\Part_{N,Q}
   \vee
   \Legal .
 \]
-With retained Pack and Part, the local public translator gives the Field-facing
+With retained Field-window evidence and Part, the local public translator gives the Field-facing
 critical readout.
 
 This is a different role from the positive supplier route.
@@ -3971,7 +3971,7 @@ So an \(H^{1/2}\) terminal signal has two readings.
 The amplitude reading routes to the installed local \(L^3\) translator.
 The pure oscillatory reading keeps amplitude under control and concentrates the
 defect in frequency organization.
-With retained Pack and Part, that pure oscillatory branch should be a Field
+With retained Field-window evidence and Part, that pure oscillatory branch should be a Field
 failure: neighboring towers lose coherent agreement at the selected depth.
 
 The missing lemmas are exact:
@@ -4029,7 +4029,7 @@ The pass branch is the continuation branch:
 \[
   O_{\mathrm{pass}}
   \Longrightarrow
-  \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}
+  \Part plus Field-window evidence_{N,Q}\wedge\Field_{N,r,Q}
   \Longrightarrow
   \Member(Q;\Owork).
 \]
@@ -4039,7 +4039,7 @@ The fail branch must do real work:
   \Longrightarrow
   \text{CM-test-admissible terminal obstruction}
   \Longrightarrow
-  \neg\Pack_Q
+  Field-window evidence outside CM
   \vee
   \neg\Part_{N,Q}
   \vee
@@ -4137,11 +4137,11 @@ When the answer is yes through all three questions, the branch is the pass side.
 It gives the same-solution membership branch.
 When the answer first fails, the branch supplies the Part/Field failure:
 \[
-  \neg\Pack_Q,
+  Field-window evidence outside CM,
   \qquad
-  \Pack_Q\wedge\neg\Part_{N,Q},
+  \neg\Part_{N,Q},
   \qquad
-  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+  \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
 Those are the only exits used by the class proof.
 The record has a narrower job: it is the intake map for terminal evidence.

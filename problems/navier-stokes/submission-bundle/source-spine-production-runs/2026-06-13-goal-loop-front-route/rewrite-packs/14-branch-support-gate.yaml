@@ -39,9 +39,9 @@ source_rewrites:
     Every selected source-reserve branch is routed through the first Part/Field it can answer:
     \[
     \begin{array}{rcl}
-    \neg\Pack_Q &:& \text{no same-fluid carrier},\\
-    \Pack_Q\wedge\neg\Part_{N,Q} &:& \text{carrier without same participation},\\
-    \Pack_Q\wedge\Part_{N,Q} &:& \text{Field/readout pressure remains.}
+    Field-window evidence outside CM &:& \text{no same-fluid carrier},\\
+    \neg\Part_{N,Q} &:& \text{carrier without same participation},\\
+    \Part plus Field-window evidence_{N,Q} &:& \text{Field/readout pressure remains.}
     \end{array}
     \]
     \end{proposition}
@@ -157,9 +157,9 @@ source_rewrites:
     Every non-Euler Navier--Stokes branch family used by the working class-membership program has one of the following support roles:
     \[
     \begin{array}{l}
-    \neg\Pack_Q,\\
-    \Pack_Q\wedge\neg\Part_{N,Q},\\
-    \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},\\
+    Field-window evidence outside CM,\\
+    \neg\Part_{N,Q},\\
+    \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},\\
     \text{member-side continuation readout},\\
     \text{finite typed disjunction},\\
     \text{support awaiting a named face theorem.}
@@ -188,7 +188,7 @@ source_rewrites:
     \begin{tabular}{L{0.25\linewidth}L{0.31\linewidth}L{0.34\linewidth}}
     \textbf{Branch family} & \textbf{Object it can select} & \textbf{Proof role in this manuscript}\\
     \hline
-    Source reserve and donor refill & terminal source ancestry or residual refill & Pack first; Part after carrier survives; Field after Pack and Part\\
+    Source reserve and donor refill & terminal source ancestry or residual refill & Part/Field first; Part after carrier survives; Field after Pack and Part\\
     Zeno, terminal atoms, and annular limit & point-object or shrinking annular witness & point-object Pack failure; admitted annular witness returns to Part or Field landing\\
     Retained amplitude and low strain & terminal amplitude, dwell, or height-flux branch & finite routing through Part and Field, or Zeno\\
     Signed current and no-free-sink & source-current or donor-balance record & support until it proves a same-record face or readout\\
