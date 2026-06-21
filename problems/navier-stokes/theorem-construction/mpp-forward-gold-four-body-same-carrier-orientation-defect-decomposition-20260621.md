@@ -11,6 +11,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-canonical-selected-carrier-identification-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-deformation-gradient-return-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-bodyii-interface-reorientation-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-bodyiii-retained-participation-packet-criterion-20260621.md
 ---
 
 # Four-Body Same-Carrier Orientation Defect Decomposition
@@ -358,27 +359,53 @@ d\mu_n^J=d\mu_n^A-d\mu_n^N.
 \tag{SOD.27}
 ```
 
+The retained-packet criterion now makes this interface exact.  If Body III
+retains the three-measure packet
+
+```math
+\mathcal Q_n^{\rm ret}
+=
+(\mu_n^A,\mu_n^N,\mu_n^J),
+\tag{SOD.28}
+```
+
+then weak compactness preserves the polar identity:
+
+```math
+d\mu_*^J=d\mu_*^A-d\mu_*^N.
+\tag{SOD.29}
+```
+
 The selected carrier representation, tightness-defect, and canonical
-identification notes have now made this exact:
+identification notes identify the positive carrier:
 
 ```math
 d\mu_n^A=[h_{n,P}]_+\,dy\,ds\,\delta_P,
-\tag{SOD.28}
+\tag{SOD.30}
 ```
 
 escaped mass is \(K_{\rm tight}^A\), and interior density mismatch is
 \(K_{C,A}^{\rm int,+}\).
 
-Thus the \(Q\to C\) interface closes only when
+The full \(Q\to C\) defect is now
 
 ```math
 \boxed{
-K_{\rm sel}=0,\qquad K_{\rm tight}^A=0,\qquad K_{C,A}^{\rm int,+}=0,
+K_{Q\to C}^+
+\le
+K_{\rm sel}
++K_{C,A}^+
++K_{C,N}^+
++K_{C,J}^+
++R_{\rm legal}.
 }
-\tag{SOD.29}
+\tag{SOD.31}
 ```
 
-or those terms are charged in \(K_{\rm sel}+K_C^+\).
+Thus the \(Q\to C\) interface closes when the missing negative partner is
+retained or charged, the selected positive carrier is tight and canonically
+identified up to \(K_C^+\), and the signed current and negative partner are
+also canonically identified up to \(K_C^+\).
 
 ### 5.3. Compactness/no-loss to geometry
 
@@ -394,7 +421,7 @@ In formula form, the no-loss requirement is
 \quad
 \text{after the same material/gauge identification used by Body IV.}
 }
-\tag{SOD.30}
+\tag{SOD.32}
 ```
 
 Failure is part of the Body-III relay defect \(K_C^+\) or a Body-IV carrier
@@ -416,7 +443,7 @@ The exact condition is:
 \Longrightarrow
 \mathcal T_N[v,G]\text{ is the next Body-I tower packet.}
 }
-\tag{SOD.31}
+\tag{SOD.33}
 ```
 
 Failure is \(K_{G\to S}^+\), included in the Body-IV geometry defect \(K_G^+\)
@@ -434,7 +461,7 @@ K_{\rm sel}=0,
 K_C^+=0,
 \qquad
 K_G^+=0.
-\tag{SOD.32}
+\tag{SOD.34}
 ```
 
 Then the four body exchange currents cancel exactly, and the atom/accounting
@@ -448,7 +475,7 @@ L_{4B}(\sigma_0)-\inf L_{4B}
 +
 R_{4B}((\sigma_0,\infty)).
 }
-\tag{SOD.33}
+\tag{SOD.35}
 ```
 
 If the residual vanishes on the terminal tail, nonzero selected activity must
@@ -464,16 +491,21 @@ This note proves the same-carrier orientation decomposition:
 \text{unweighted four-body reserve}
 \quad\text{with extra residual }K_{\rm orient}^+.
 }
-\tag{SOD.34}
+\tag{SOD.36}
 ```
 
 The \(S\to Q\) interface has now been reoriented exactly by `(SOD.24)`, provided
 Body I uses the same rung storage, weights, cutoff, cylinder, and parabolic
 tower transport as Body II.
 
+The \(Q\to C\) interface has now been reduced to the retained-packet condition
+`(SOD.31)`: Body III must keep the signed current, positive carrier, and
+negative partner together, or the failure is charged in \(K_{\rm sel}\),
+\(K_C^+\), or \(R_{\rm legal}\).
+
 It does not prove the remaining Navier-Stokes pairwise identifications
-`(SOD.29)`, `(SOD.30)`, and `(SOD.31)`, nor does it prove that selector changes
-inside \(S\to Q\) have zero defect.
+`(SOD.32)` and `(SOD.33)`, nor does it prove that selector changes inside
+\(S\to Q\) or \(Q\to C\) have zero defect.
 
 The remaining proof work is now sharper:
 
@@ -482,7 +514,7 @@ The remaining proof work is now sharper:
 \text{prove the four pairwise same-carrier identifications, or charge their
 positive mismatches in the existing four-body defect terms.}
 }
-\tag{SOD.35}
+\tag{SOD.37}
 ```
 
 That is the exact current form of "the four bodies must balance."  Balance
