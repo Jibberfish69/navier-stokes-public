@@ -361,7 +361,7 @@ chunk:
       This support target would supply the dissipation side of Weighted Adj Res.A.
       A failure identifies the exact residual component preventing the drain proof.
 
-      It does not by itself bridge into a licensed Pack/Part/Field face. The CM
+      It does not by itself bridge into a licensed Part/Field face. The CM
       contrapositive program still needs the witness-face integration bridge after
       the source-pulse branch is eliminated.
 
@@ -646,7 +646,7 @@ chunk:
     This support target would supply the dissipation side of Weighted Adj Res.A.
     A failure identifies the exact residual component preventing the drain proof.
 
-    It does not by itself bridge into a licensed Pack/Part/Field face. The CM
+    It does not by itself bridge into a licensed Part/Field face. The CM
     contrapositive program still needs the witness-face integration bridge after
     the source-pulse branch is eliminated.
 
@@ -669,7 +669,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

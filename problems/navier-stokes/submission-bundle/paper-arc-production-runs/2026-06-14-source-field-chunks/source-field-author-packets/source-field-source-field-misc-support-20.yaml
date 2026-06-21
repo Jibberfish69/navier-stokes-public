@@ -301,7 +301,7 @@ chunk:
 
       This historical no-incoming route shows that lateral no-flux alone did not
       remove a source atom on the terminal time face; the present paper keeps that
-      route as source-wall pressure below the Pack/Part/Field terminal classification.
+      route as source-wall pressure below the Part/Field terminal classification.
 
       \[
       \mu_*^{src}(B_R\times\{0\})=0
@@ -547,7 +547,7 @@ chunk:
 
     This historical no-incoming route shows that lateral no-flux alone did not
     remove a source atom on the terminal time face; the present paper keeps that
-    route as source-wall pressure below the Pack/Part/Field terminal classification.
+    route as source-wall pressure below the Part/Field terminal classification.
 
     \[
     \mu_*^{src}(B_R\times\{0\})=0
@@ -589,7 +589,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
