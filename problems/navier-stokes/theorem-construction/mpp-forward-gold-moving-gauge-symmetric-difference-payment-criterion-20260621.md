@@ -259,10 +259,11 @@ Endpoint UI is a time-strip statement:
 \tag{MGD.19}
 \]
 
-The moving-gauge defect is a spacetime symmetric-difference statement:
+The moving-gauge defect is a spacetime symmetric-difference statement, localized
+to the controlled carrier region:
 
 \[
-\mu_j\left(
+\mu_j\left(\Omega_j\cap
 \left(B_{\lambda_j}(b_j)\triangle B_{\lambda_j}(0)\right)
 \times[-\lambda_j^2,0]
 \right).
@@ -292,12 +293,12 @@ d\mu_j
 \le
 C F_j(s,y)\,dy\,ds+d\ell_j,
 \qquad
-\sup_j\|F_j\|_{L^p(Q_1)}<\infty,
+\sup_j\|F_j\|_{L^p(\Omega_j)}<\infty,
 \quad p>1,
 \tag{MGD.22}
 \]
 
-with \(\ell_j(\Delta_j^{gauge})\) legal or tail-small.
+with \(\ell_j(E_j^{gauge})\) legal or tail-small.
 
 The installed source-square-to-moving-trace bridge is therefore a consumer for
 time endpoint atoms. It is not automatically a moving-gauge symmetric-difference
@@ -309,7 +310,7 @@ The moving-gauge fork sharpens to:
 
 \[
 \boxed{
-\text{same-carrier spacetime UI on }\Delta_j^{gauge}
+\text{same-carrier spacetime UI on }E_j^{gauge}
 \Longrightarrow
 \text{fixed-chain annular/nested-core analysis applies modulo legal error.}
 }
@@ -320,7 +321,7 @@ Without that payment,
 
 \[
 \boxed{
-\mu_j(\Delta_j^{gauge})\not\to0
+\mu_j(E_j^{gauge})\not\to0
 \Longrightarrow
 \text{visible selected-carrier drift/gauge defect.}
 }
@@ -346,7 +347,7 @@ The moving-gauge symmetric-difference defect has a precise payment theorem:
 \[
 \boxed{
 L^p\text{ same-carrier spacetime density, }p>1,
-\text{ pays the defect by Hölder; finite }L^1\text{ mass does not.}
+\text{ pays the controlled defect by Hölder; finite }L^1\text{ mass does not.}
 }
 \tag{MGD.26}
 \]
