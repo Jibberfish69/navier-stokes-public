@@ -33,6 +33,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-viscous-defect-dichotomy-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-selector-graph-defect-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-terminal-trace-atom-routing-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-signed-saturation-residual-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-remaining-defect-core-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-participation-tuple-coupling-breaker-live-edge-audit-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lp-full-balance-payment-20260621.md
@@ -1234,10 +1235,13 @@ So it is legal/collar paid, terminal trace, or selector/collar drift.  Finite
 or compact selector graphs also close by subsequence/compactness; the live
 selector branch is unbounded positive-part selector complexity or carrier
 drift.  The remaining exact possible hidden failures are therefore unbounded
-selector complexity/carrier drift, signed saturation loss, terminal trace atom,
-or legal routing defect.  Terminal trace atoms route further to signed
-saturation, visible loss, or endpoint storage jump.  Each remaining branch must
-be charged before the no-residue theorem can use the rigidity core.
+selector complexity/carrier drift, finite signed-saturation loss before donor
+decomposition, terminal trace atom, or legal routing defect.  Terminal trace
+atoms route further to signed saturation, visible loss, or endpoint storage
+jump.  The finite signed-saturation donor graph is already paid by retained
+signed partners, legal exits, local donor balance, and entrance-leaf decay.
+Thus the only signed-saturation branch that remains after the full tuple is
+retained is the terminal Zeno donor chain.
 
 The live-edge coupling audit is the active estimate veto for this whole
 subsection.  Every retained packet must first carry
@@ -1268,11 +1272,14 @@ residual core:
 ```
 
 Here \(\mathcal R_{\rm sel}\) is unbounded positive-part selector complexity or
-carrier drift, \(\mathcal R_{\rm sat}\) is the missing negative signed partner
-\(dN_{\rm miss}\), \(\mathcal R_{\rm jump}\) is the positive endpoint storage
-jump, and \(\mathcal R_{\rm legal}\) is non-summable or non-terminal-AC
-legal/collar residual.  Equivalently, if those four residuals are absent after
-the full tuple is retained, same-carrier selected positive no-loss follows.
+carrier drift, \(\mathcal R_{\rm sat}\) is the terminal Zeno donor chain
+inherited from \(dN_{\rm miss}\), \(\mathcal R_{\rm jump}\) is the positive
+endpoint storage jump, and \(\mathcal R_{\rm legal}\) is non-summable or
+non-terminal-AC legal/collar residual.  The finite \(dN_{\rm miss}\) branch is
+not a remaining defect: it is retained, legally charged, or paid by the donor
+balance/depletion surface.  Equivalently, if those four residuals are absent
+after the full tuple is retained, same-carrier selected positive no-loss
+follows.
 
 So the full-cycle branch is now split exactly: rigidity is paid after
 same-carrier compactness, while production is still open at full-packet
