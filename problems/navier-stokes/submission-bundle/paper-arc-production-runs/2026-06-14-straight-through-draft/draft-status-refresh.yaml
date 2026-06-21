@@ -127,19 +127,19 @@ arc_statuses:
   rewrite_count: 5
   failure_count: 0
   next_failure:
-- arc_id: pack-part-field-grammar
-  title: Pack/Part/Field witness grammar
-  pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/pack-part-field-grammar.yaml
-  work_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/work-packets/pack-part-field-grammar.yaml
+- arc_id: part-field-grammar
+  title: Part/Field witness grammar
+  pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/part-field-grammar.yaml
+  work_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/work-packets/part-field-grammar.yaml
   ready_to_apply: true
   status: integrated
   verifier_status: passed
   integration_allowed: true
   integrated: true
-  integration_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/pack-part-field-grammar-integrated.yaml
+  integration_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/part-field-grammar-integrated.yaml
   integration_status: applied
   critic_status: passed
-  critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/pack-part-field-grammar.yaml
+  critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/part-field-grammar.yaml
   critic_issue_count: 0
   critic_detected_issue_count: 0
   critic_issue_limit_reached: false
