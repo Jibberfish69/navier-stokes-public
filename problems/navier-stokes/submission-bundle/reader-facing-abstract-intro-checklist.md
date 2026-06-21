@@ -40,7 +40,7 @@ divergence-free data.
 ## External-review checklist
 
 1. Verify that the manuscript states the governing primitive as `Exit(Q):=not Member(Q)`.
-2. Verify that `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}` are witnesss, while `Member(Q)` is the downstream class-membership predicate.
+2. Verify that `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}` are witnesses, while `Member(Q)` is the downstream class-membership predicate.
 3. Verify finite Clay witness entry into the same-fluid CM terminal participation-field tree.
 4. Verify finite failure type exhaustion by Part and Field.
 5. Verify that the derived Part/Field failure embeds as `Exit(Q):=not Member(Q)`.

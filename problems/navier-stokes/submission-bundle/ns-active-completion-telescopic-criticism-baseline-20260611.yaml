@@ -410,7 +410,7 @@ child_criticisms:
     required_change: >-
       Rewrite the support-section opening and branch-role table so branch
       families are explicitly filtered through selected same-solution records,
-      continuation/readout suppliers, and first Part/Field Part/Field failures,
+      continuation/readout suppliers, and first Part/Field failures,
       with the periodic atlas, whole-space exterior-source split, and annular
       endpoint boundary kept visible.
     routed_surface:
