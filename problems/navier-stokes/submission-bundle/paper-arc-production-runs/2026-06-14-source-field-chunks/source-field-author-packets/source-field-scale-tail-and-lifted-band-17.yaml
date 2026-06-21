@@ -90,7 +90,7 @@ chunk:
 
       Positive Strain Decorrelation.A is not supplied by trace-free strain, signed exchange, pressure structure, vorticity-direction/helical coherence, or same-fluid transport. Positive Active Carleson Reserve.A is not supplied by raw energy, first-moment dissipation, local energy, Cauchy/Young envelopes, finite-band orthogonality, pressure/cutoff records, or downstream frozen-family source integrability. The Zeno rigidification branch has compactness but no produced class B with a class-specific Liouville theorem that kills the same positive source residue.
 
-      This is the current non-aliased positive-supplier form of Local Positive Source Carleson.A. It must not be mistaken for the CM contrapositive target itself. For the contrapositive program, a surviving native positive source residue is useful only after it is carried into a typed Pack/Part/Field exit witness; at the current source-wall resolution, that is a retained Field/sourc
+      This is the current non-aliased positive-supplier form of Local Positive Source Carleson.A. It must not be mistaken for the CM contrapositive target itself. For the contrapositive program, a surviving native positive source residue is useful only after it is carried into a typed Part/Field exit witness; at the current source-wall resolution, that is a retained Field/sourc
       % ... source excerpt truncated for packet size ...
     truncated: true
   - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
@@ -269,7 +269,7 @@ chunk:
       that donor reserve by o N(1)+Loss legal .\n\nThis estimate charges the selected
       native positive source measure to the installed route record and a vanishing
       terminal error. A nonzero singular component perpendicular to the installed
-      route record cannot survive under that estimate.\n\n\\[\n\\boxed{\nPack_Q+Part_{N,Q}+\\mu_{\\ast}^{sing}>0\n\\Longrightarrow\n\\forall
+      route record cannot survive under that estimate.\n\n\\[\n\\boxed{\nPart_{N,Q} plus Field-window evidence+\\mu_{\\ast}^{sing}>0\n\\Longrightarrow\n\\forall
       r>0\\,\\neg Field_{N,r,Q}.\n}\n\\]\n\nSo the native residue lands in the CM
       Field face through the scale-critical -reserve diagnostic.\n\nThe present bridge
       shows that this direct response theorem is unnecessary for the retained source-family
@@ -515,7 +515,7 @@ chunk:
 
     Positive Strain Decorrelation.A is not supplied by trace-free strain, signed exchange, pressure structure, vorticity-direction/helical coherence, or same-fluid transport. Positive Active Carleson Reserve.A is not supplied by raw energy, first-moment dissipation, local energy, Cauchy/Young envelopes, finite-band orthogonality, pressure/cutoff records, or downstream frozen-family source integrability. The Zeno rigidification branch has compactness but no produced class B with a class-specific Liouville theorem that kills the same positive source residue.
 
-    This is the current non-aliased positive-supplier form of Local Positive Source Carleson.A. It must not be mistaken for the CM contrapositive target itself. For the contrapositive program, a surviving native positive source residue is useful only after it is carried into a typed Pack/Part/Field exit witness; at the current source-wall resolution, that is a retained Field/source-residue landing.
+    This is the current non-aliased positive-supplier form of Local Positive Source Carleson.A. It must not be mistaken for the CM contrapositive target itself. For the contrapositive program, a surviving native positive source residue is useful only after it is carried into a typed Part/Field exit witness; at the current source-wall resolution, that is a retained Field/source-residue landing.
 
 
 
@@ -681,7 +681,7 @@ chunk:
 
     \[
     \boxed{
-    Pack_Q+Part_{N,Q}+\mu_{\ast}^{sing}>0
+    Part_{N,Q} plus Field-window evidence+\mu_{\ast}^{sing}>0
     \Longrightarrow
     \forall r>0\,\neg Field_{N,r,Q}.
     }
@@ -852,7 +852,7 @@ chunk:
     % ... source excerpt truncated for packet size ...
   context_truncated: true
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
