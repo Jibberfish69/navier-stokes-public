@@ -105,7 +105,7 @@ fixed-Hs transfer fails -> not Field_{N,r,Q}.
 
 ### Status
 
-Closed as a class-certification theorem. The separate analytic theorem `AffineMaterialReadoutToFixedHs.A` remains useful only for the recovery branch, not for excluding the singular branch.
+Closed as a class-witness-record theorem. The separate analytic theorem `AffineMaterialReadoutToFixedHs.A` remains useful only for the recovery branch, not for excluding the singular branch.
 
 ## 4. Selector drift Field exit
 
@@ -175,14 +175,14 @@ Every zero-radius / singular terminal witness is either:
 
 This closes the singularity-filter stage without using `Pack_Q` as the exclusion mechanism.
 
-## 7. Pack positive-radius certification
+## 7. Pack positive-radius admission after original participation audit
 
 Because every zero-radius singular terminal object has already exited through `Part_{N,Q}` or `Field_{N,r,Q}`, any remaining `Member(Q)`-eligible object is positive-radius testable.
 
 Therefore:
 
 ```text
-PackPositiveRadiusCertification.A:
+PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A:
 Pack_Q is certified as the ordinary positive-radius admission predicate for the remaining Member(Q)-eligible branch.
 ```
 
@@ -211,7 +211,7 @@ AffineNontransferFieldExit.A
 SelectorDriftFieldExit.A
 CrossProfilePositiveDefectFieldExit.A
 AllSingularitiesOriginalParticipationAuditExit.A
-PackPositiveRadiusCertification.A
+PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A
 ```
 
 Still open globally:

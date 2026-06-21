@@ -39,5 +39,5 @@ terminal singular object
 ```
 
 Completion state: this note is no longer a theorem-completion claim.  It is a
-supersession record that keeps generated `Part/Field-first` language from being
+supersession record that keeps generated `original-participation-audit` language from being
 read as current CM authority.

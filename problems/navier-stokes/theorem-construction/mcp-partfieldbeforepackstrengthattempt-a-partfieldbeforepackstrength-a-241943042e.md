@@ -11,7 +11,7 @@ OriginalParticipationBeforePackStrength.A
 Desired content:
 
 ```text
-The `Part_{N,Q}` / `Field_{N,r,Q}` tests used for class certification include enough quantitative content to reject the terminal endpoint strip: finite selected-measure residence, temporal absolute continuity, same-solution terminal readout continuity, or an equivalent donor/readout compatibility budget.
+The `Part_{N,Q}` / `Field_{N,r,Q}` tests used for class witness record include enough quantitative content to reject the terminal endpoint strip: finite selected-measure residence, temporal absolute continuity, same-solution terminal readout continuity, or an equivalent donor/readout compatibility budget.
 ```
 
 ## Attempt

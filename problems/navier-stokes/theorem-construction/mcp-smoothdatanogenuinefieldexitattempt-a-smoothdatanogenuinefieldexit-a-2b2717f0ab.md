@@ -107,7 +107,7 @@ AffineNontransferFieldExit.A
 SelectorDriftFieldExit.A
 CrossProfilePositiveDefectFieldExit.A
 AllSingularitiesOriginalParticipationAuditExit.A
-PackPositiveRadiusCertification.A
+PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A
 ```
 
 Global bridge still open:

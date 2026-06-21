@@ -25,7 +25,7 @@ AffineNontransferFieldExit.A
 SelectorDriftFieldExit.A
 CrossProfilePositiveDefectFieldExit.A
 AllSingularitiesOriginalParticipationAuditExit.A
-PackPositiveRadiusCertification.A
+PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A
 ```
 
 Together they prove the local classification:
@@ -55,7 +55,7 @@ So `Q` is not a `Member(Q)` survivor.
 
 ### Case 2: `Q` is not zero-radius or singular
 
-By `PackPositiveRadiusCertification.A`, `Q` is eligible for the ordinary positive-radius `Pack_Q` test and then the ordinary `Part_{N,Q}` / `Field_{N,r,Q}` chain.
+By `PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A`, `Q` is eligible for the ordinary positive-radius `Pack_Q` test and then the ordinary `Part_{N,Q}` / `Field_{N,r,Q}` chain.
 
 If all three services survive, this is the continuation/readout branch and not a finite-time singular counterexample. If one service fails, it is a concrete CM face failure.
 

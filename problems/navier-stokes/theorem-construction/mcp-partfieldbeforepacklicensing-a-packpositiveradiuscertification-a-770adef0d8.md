@@ -1,6 +1,6 @@
 # OriginalParticipationBeforePackLicensing.A
 
-Status: replaces the generated `PartFieldBeforePackLicensing.A` wording.
+Status: replaces the generated `OriginalParticipationBeforePackLicensing.A` wording.
 
 The licensed pre-Pack object is the original Navier-Stokes participation law,
 not the indexed Silver predicates.  The corrected licensing claim is:

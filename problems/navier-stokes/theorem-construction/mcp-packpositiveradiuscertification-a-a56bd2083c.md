@@ -1,6 +1,6 @@
 # PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A
 
-Status: supersedes the generated `PackPositiveRadiusCertification.A` wording.
+Status: supersedes the generated `PackPositiveRadiusAdmissionAfterOriginalParticipationAudit.A` wording.
 
 The old statement made Pack look certified by a prior indexed Part/Field
 exclusion.  The corrected statement is narrower:

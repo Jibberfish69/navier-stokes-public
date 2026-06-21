@@ -82,7 +82,7 @@ The Pack non-exclusion route now has:
 
 ```text
 endpoint-strip branch classified;
-UniformServiceTopologyCertification.A installed as a class-certification bridge;
+UniformServiceTopologyCertification.A installed as a class-witness-record bridge;
 conditional Pack recertification proved;
 affine/material branch reduced to fixed-Hs transfer or `Field_{N,r,Q}` exit;
 profile/selector branch reduced to selected-positive Pack defect decoupling.
