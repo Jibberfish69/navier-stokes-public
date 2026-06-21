@@ -29,7 +29,7 @@ The current direct-live CM boundary already says:
 
 - finite positive-radius Zeno ancestry can still be a legal CM participation-field record;
 - the terminal zero-radius endpoint is not a retained positive-radius packet;
-- the first CM failure for that endpoint lands Part-side when same-solution original participation remains and true `not Pack_Q` only when that record is absent;
+- the first CM failure for that endpoint lands Part-side when same-solution original participation remains and true packet/window evidence only when that record is absent;
 - Field/jump/source language is downstream readout unless a separate
   positive-scale retained carrier is proved.
 
@@ -103,7 +103,7 @@ every such window collapses to zero scale.
 Home:
 
 - The positive branch enters the ordinary `Part/Field` tree.
-- The zero-scale branch lands Part-side when same-solution original participation remains and true `not Pack_Q` only when that record is absent.
+- The zero-scale branch lands Part-side when same-solution original participation remains and true packet/window evidence only when that record is absent.
 - This belongs with the terminal Zeno Pack correction, not with retained Field
   language.
 
@@ -327,7 +327,7 @@ Then route:
 | diagnostic point probe | thicken to windows before using it; a bare point certifies neither smoothness nor nonsmoothness |
 | zero-radius residue, no retained carrier | `not Pack_Q` |
 | positive-radius vortex packet | test `Pack_Q`, `Part_{N,Q}`, `Field_{N,r,Q}` |
-| collapsed field-limit spin | `Field` only after carrier and law survive; otherwise earlier Pack/Part |
+| collapsed field-limit spin | `Field` only after carrier and law survive; otherwise earlier Part/Field |
 | intrinsic singleton spin | outside classical NS / new PDE |
 
 ## Guard Against The Conversation's Failure Mode

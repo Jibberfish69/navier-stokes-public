@@ -89,7 +89,7 @@ Under `(TPC.3)`, this is a lower-order localization error relative to the select
 
 The estimate says that a retained material cutoff can localize a selected `H^{1/2}` dyadic shell without creating an artificial public readout. The shell remains attached to the same material chart up to a Pack-controlled error.
 
-If the transported cutoff lacks the scale compatibility `(TPC.3)`, the shell cannot be assigned to the retained material packet at that dyadic resolution. That is a Pack-side failure for the extraction argument.
+If the transported cutoff lacks the scale compatibility `(TPC.3)`, the shell cannot be assigned to the retained material packet at that dyadic resolution. That is a Field-window support failure for the extraction argument.
 
 With retained Pack, the commutator is controlled, so the finite-atlas pigeonhole step can select a localized same-ledger shell packet for the next Part/Field analysis.
 

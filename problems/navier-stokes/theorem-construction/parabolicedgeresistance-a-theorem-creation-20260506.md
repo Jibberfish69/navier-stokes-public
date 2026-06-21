@@ -31,12 +31,12 @@ ParabolicEdgeResistance.A. After signed-current localization and boundary pricin
 
 ### Retrieved Ingredients
 
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:116 -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:60 -- Pack/Part bridge support
-- problems/navier-stokes/agent-contract.yaml:123 -- Pack/Part bridge support
-- problems/navier-stokes/theorem-packet.yaml -- Pack/Part bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:116 -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:60 -- Part/Field bridge support
+- problems/navier-stokes/agent-contract.yaml:123 -- Part/Field bridge support
+- problems/navier-stokes/theorem-packet.yaml -- Part/Field bridge support
 
 ### Recursive Solver Chain
 
@@ -79,13 +79,13 @@ ParabolicEdgeResistance.A. After signed-current localization and boundary pricin
 2. Price off-saturation boundary leakage.
 3. Apply cycle heat action on the localized object.
 4. Extract parabolic edge resistance.
-5. Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
+5. Use problems/navier-stokes/theorem-packet.yaml as source support for Part/Field bridge support.
 6. Recursive solver step for LocalizedParabolicResistanceCoercivity.A: Localize the signed current to the admissible terminal skew ledger.
 7. Recursive solver step for LocalizedParabolicResistanceCoercivity.A: Subtract off-saturation boundary leakage before applying CycleHeatAction.A.
 8. Recursive solver step for LocalizedParabolicResistanceCoercivity.A: Prove the remaining localized current has a positive parabolic resistance lower bound.
 9. Recursive solver step for LocalizedParabolicResistanceCoercivity.A: Reject any zero-resistance survivor as a violation of the localization ledger.
-10. Recursive solver step for LocalizedParabolicResistanceCoercivity.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Pack/Part bridge support.
-11. Recursive solver step for LocalizedParabolicResistanceCoercivity.A: Use problems/navier-stokes/agent-contract.yaml:116 as source support for Pack/Part bridge support.
+10. Recursive solver step for LocalizedParabolicResistanceCoercivity.A: Use problems/navier-stokes/theorem-packet.yaml as source support for Part/Field bridge support.
+11. Recursive solver step for LocalizedParabolicResistanceCoercivity.A: Use problems/navier-stokes/agent-contract.yaml:116 as source support for Part/Field bridge support.
 12. Recursive solver step for BoundaryPricedCycleCoercivity.A: Assume the boundary-priced localized current has zero parabolic resistance.
 13. Recursive solver step for BoundaryPricedCycleCoercivity.A: Use terminal skew localization to remove inadmissible current components.
 14. Recursive solver step for BoundaryPricedCycleCoercivity.A: Use CycleHeatAction.A on the remaining localized current.

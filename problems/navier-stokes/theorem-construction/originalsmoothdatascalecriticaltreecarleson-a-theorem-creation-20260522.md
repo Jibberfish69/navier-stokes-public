@@ -3,7 +3,7 @@
 ## Target
 
 - target obligation: OriginalSmoothDataScaleCriticalTreeCarleson.A
-- target label: original smooth data produces the Pack-side scale-critical donor-refill Carleson / positive-scale carrier theorem
+- target label: original smooth data produces the Field-window support scale-critical donor-refill Carleson / positive-scale carrier theorem
 - route role: Use the terminal Zeno source-refill playbook: PositiveRemainderDepletion.A on localized pre-Cauchy source packets, together with LocalDonorBalance.A, EntranceLeafDecay.A, bounded overlap, and Zeno summability, yields ScaleCriticalTreeCarleson.A from original smooth data.
 - theorem family: reserve-creation-charge
 
@@ -63,7 +63,7 @@ OriginalSmoothDataScaleCriticalTreeCarleson.A. Original smooth data gives ScaleC
 ## Forbidden Imports
 
 - OriginalSmoothDataScaleCriticalTreeCarleson.A
-- original smooth data produces the Pack-side scale-critical donor-refill Carleson / positive-scale carrier theorem
+- original smooth data produces the Field-window support scale-critical donor-refill Carleson / positive-scale carrier theorem
 - full-MPP closure
 - submission readiness
 - global smoothness

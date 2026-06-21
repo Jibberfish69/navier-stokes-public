@@ -207,7 +207,7 @@ finite-difference/readout language of `Field`, that is a terminal jump/source
 residue on the same carrier, not a coherent one-field tail.
 
 The installed `FieldSourceResidueJump.A` classification says that a nonzero
-terminal native source/readout residue under retained Pack/Part lands in the
+terminal native source/readout residue under retained Part/Field lands in the
 endpoint cell:
 
 ```math

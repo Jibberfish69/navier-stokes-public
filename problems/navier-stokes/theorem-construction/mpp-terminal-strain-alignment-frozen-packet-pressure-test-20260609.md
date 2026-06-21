@@ -147,7 +147,7 @@ or PositiveStrainDecorrelationOnTerminalPackets.A
 with the following required content:
 
 ```text
-retained Pack/Part on the first Pack-survival branch
+retained Part/Field on the first Pack-survival branch
 + same-fluid high-shell packet family
 + expanding low-strain alignment on shrinking terminal heat windows
 + zero ASAC defect and no legal/donor payment

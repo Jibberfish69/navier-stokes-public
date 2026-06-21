@@ -34,7 +34,7 @@ OFP.A. The collar source-pressure package CSP.A propagates the retained one-fiel
 - problems/navier-stokes/theorem-packet.yaml -- residual control
 - problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
 - problems/navier-stokes/theorem-packet.yaml -- source ingredient
-- problems/navier-stokes/agent-contract.yaml:55 -- Pack/Part bridge support
+- problems/navier-stokes/agent-contract.yaml:55 -- Part/Field bridge support
 - problems/navier-stokes/agent-contract.yaml:58 -- source ingredient
 
 ### Recursive Solver Chain
