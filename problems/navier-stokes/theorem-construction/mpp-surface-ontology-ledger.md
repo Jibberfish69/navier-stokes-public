@@ -118,7 +118,7 @@ Surface:
 Surface:
 [mpp-fused-sg4-supplier-schema.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-fused-sg4-supplier-schema.md)
 
-- Surface object: interface object connecting the branch-blind CM packet to a
+- Surface object: interface object connecting the branch-blind CM participation-field record to a
   branch-sensitive readout packet.
 - Projection type: export/interface layer.
 - Coupling preserved: CM carrier enters as `\mathcal E_J^{cm}` and exported

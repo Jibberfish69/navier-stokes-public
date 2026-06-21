@@ -63,7 +63,7 @@ same\text{-}ledger\ nonlinear\ source\ work
 ```
 
 With `ParaproductNativeSourceCapture.A`, that source work becomes native
-positive source measure or an allowed CM exit. This identifies the CM face once
+positive source measure or an allowed CM exit. This identifies the CM Part/Field once
 a terminal `L^3` response is already present. It does not prove that original
 smooth data cannot create a terminal source pulse, and it does not give a
 dynamic inequality for the donor square reserve.
@@ -253,4 +253,4 @@ This note is the convergence point for parallel work on the same shortcut:
   equivalently native height/source anti-concentration;
 - Euler-mirror, downstream readout, and positive no-pulse supplier material stay
   quarantined unless a named bridge explicitly imports them into the
-  Pack/Part/Field witness faces.
+  Part/Field witnesss.

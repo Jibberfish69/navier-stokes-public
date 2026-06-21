@@ -9,9 +9,9 @@ Claimed status: failed.
 Exactness rework correction, 2026-06-18: the two failed facts below remain
 valid. The downstream conclusion "next actual theorem = SquareReserveEvolution
 or Zeno residue Liouville" is historical. Current live surfaces read these as
-support-level source-control roots after the Pack-before-Part CM correction. A
+support-level source-control roots after the Pack-out-of-CM CM correction. A
 retained square-reserve / Zeno branch becomes proof material only through
-same-ledger payment or CM-test admission plus a first Pack/Part/Field face
+same-ledger payment or CM-test admission plus a first Part/Field face
 failure; otherwise it remains supplier or readout support.
 
 ## Branch 1: `SquareReserveEvolution.A`
@@ -123,4 +123,4 @@ Current exact use: these alternatives no longer set the live theorem target by
 themselves. They feed the same-witness terminal anti-concentration /
 source-Carleson / rigid-anti-atom / non-source Pack-survival frontier only if
 they prove a same-ledger payment or admit the branch to the CM test and derive
-the first failed Pack, Part, or Field face on the same terminal witness.
+the first failed Part or Field face on the same terminal witness.

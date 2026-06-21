@@ -56,7 +56,7 @@ paid\ Pack/Part/legal.
 
 The installed CM first-face rule then lands these alternatives:
 
-- `\neg_{sel}ScaleCriticalTreeCarleson.A` is Pack-side CM exit;
+- `\neg_{sel}ScaleCriticalTreeCarleson.A` is Field smoothness-certification support;
 - an unpaid terminal native source residue is Pack/Part exit by
   `TerminalSourceResidueCMExit.A`;
 - paid Pack/Part/legal alternatives are already legal exits.
@@ -78,7 +78,7 @@ Legal.
 
 Under retained `Pack_Q + Part_{N,Q}`, this also yields the retained public
 translator readout: the terminal `L^3` critical branch cannot coexist with a
-continuation-complete CM packet, hence it feeds
+continuation-complete CM participation-field record, hence it feeds
 `RetainedPackPartCriticalL3FieldExit.A` through the installed local `L^3`
 translator package.
 
@@ -104,7 +104,7 @@ L3DuhamelResponseWorkLocalization.A
 
 What remains outside this branch is the root `TerminalCMNoExit.A /
 NoGenuineCMExit.A` burden: every alleged terminal witness must either be routed
-into an installed Pack/Part/Field face like this one, or an independent
+into an installed Part/Field face like this one, or an independent
 admissibility/no-exit theorem must rule out genuine CM class-exit for original
 smooth data.
 

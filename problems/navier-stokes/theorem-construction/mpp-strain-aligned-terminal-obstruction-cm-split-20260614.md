@@ -9,8 +9,8 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-dynamic-expanding-eigenpacket-no-freeze-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-dynamic-low-high-eigenpacket-no-freeze-direct-attempt-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-terminal-strain-alignment-face-bridge-proof-20260609.md
-    - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
-  edge_effect: "Installs the silver CM split for the retained strain-aligned terminal source obstruction. Gold dynamic no-freeze remains open; after same-solution admission, the smooth branch is Member(Q), and the admitted finite nonsmooth branch leaves Member(Q) through Pack, Part, or Field."
+    - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-bridge-20260504.md
+  edge_effect: "Installs the silver CM split for the retained strain-aligned terminal source obstruction. Gold dynamic no-freeze remains open; after same-solution admission, the smooth branch is Member(Q), and the admitted finite nonsmooth branch leaves Member(Q) through Part or Field."
 ---
 
 # MPP Strain-Aligned Terminal Obstruction CM Split
@@ -103,7 +103,7 @@ Part_{N_s,Q_B}
 
 Thus an admitted finite nonsmooth strain-aligned terminal obstruction is not an
 in-class third branch.  It leaves the class object
-`Member(Q_B;\mathcal O_{work})` through a concrete witness face.
+`Member(Q_B;\mathcal O_{work})` through a concrete witness.
 
 ## 4. Proof
 
@@ -143,7 +143,7 @@ By De Morgan,
 ```
 
 On the first-Pack-survival branch, `Pack_{Q_B}` is part of the admission data,
-so only Part or Field can be the first surviving CM face failure.
+so only Part or Field can be the first surviving CM Part/Field failure.
 
 The installed terminal strain-alignment face bridge supplies the same
 conclusion for the strain-aligned atom itself: once it is the same terminal
@@ -158,7 +158,7 @@ The silver route for this obstruction is closed in the branch-local sense:
 ```text
 smooth admitted branch       => Member(Q_B);
 finite nonsmooth admitted branch => Exit(Q_B):=not Member(Q_B)
-                                   through Pack, Part, or Field.
+                                   through Part or Field.
 ```
 
 The gold route remains open.  A forward proof still has to exclude the terminal

@@ -2,7 +2,7 @@
 
 ## Status Verdict
 
-This note runs Option A against the current Navier--Stokes CM witness-face
+This note runs Option A against the current Navier--Stokes CM witness
 program.
 
 Verdict:
@@ -264,7 +264,7 @@ SquareReserveEvolution.A
 LocalPositiveSourceCarleson.A.
 ```
 
-Inside the CM witness-face program, this would close the retained Pack/Part
+Inside the CM witness program, this would close the retained Pack/Part
 Field-face branch:
 
 ```math

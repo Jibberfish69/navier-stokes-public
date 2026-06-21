@@ -2,7 +2,7 @@
 
 ## Authority Cap - Positive No-Exit Attempt Only
 
-This file is retained as a positive no-exit / packet-survival proof attempt. Current CM proof-status authority is `mpp-cm-proof-completion-surface-field-audit-20260525.md` plus `mpp-completed-proof-surface-challenge-20260525.md`. The open Pack/Part/Field no-exit language here is not an active CM blocker. Reopening requires a proved legal in-class nonsmooth third branch or a proved failure of Clay terminal CM entry/exhaustion/embedding.
+This file is retained as a positive no-exit / packet-survival proof attempt. Current CM proof-status authority is `mpp-cm-proof-completion-surface-field-audit-20260525.md` plus `mpp-completed-proof-surface-challenge-20260525.md`. The open Part/Field no-exit language here is not an active CM blocker. Reopening requires a proved legal in-class nonsmooth third branch or a proved failure of Clay terminal CM entry/exhaustion/embedding.
 
 Date: 2026-05-22
 
@@ -27,7 +27,7 @@ deleted first. The live CM move is:
 
 That theorem is installed as `TerminalSourceResidueCMExit.A`. Use the present
 note for the separate question: whether original smooth data prevents loss of
-all continuation-complete Pack/Part/Field packets.
+all continuation-complete Part/Field packets.
 
 ## Packet-Survival Formulation
 
@@ -78,7 +78,7 @@ OriginalSmoothData
 
 Using `CanonicalTerminalPacketCapture.A` and
 `AnyFiniteFailureWitnessCMExit.A`, this is equivalent to ruling out all three
-terminal CM faces on every alleged terminal tail:
+terminal CM Part/Fields on every alleged terminal tail:
 
 ```math
 \boxed{
@@ -97,7 +97,7 @@ Here `N_s` is a continuation depth chosen for the installed `H^s`,
 
 Assume for contradiction that `T_*<\infty`. By
 `CanonicalTerminalPacketCapture.A`, any terminal obstruction lands in the
-Pack-first tree:
+Field-certification tree:
 
 ```math
 \neg Pack_Q
@@ -286,6 +286,6 @@ Smoothness now needs positive no-exit across Pack, Part, and licensed Field.
 ## Boundary
 
 This note does not prove smoothness. It prevents a false promotion: the
-Pack/Part/Field capture theorem is enough to classify terminal failure, while
+Part/Field capture theorem is enough to classify terminal failure, while
 `TerminalCMNoExit.A` / `NoGenuineCMExit.A` is the positive analytic theorem that
 must still be proved to eliminate terminal failure.
