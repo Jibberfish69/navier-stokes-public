@@ -93,7 +93,7 @@ So autonomous local escalation is not native to the lawful fluid object.
 
 ## Distributed Proof Spine Already On Disk
 
-The theorem is already present in distributed form across the CM packet stack.
+The theorem is already present in distributed form across the CM participation-field record stack.
 The current centralization note is extracting that spine into one theorem-grade
 front statement.
 

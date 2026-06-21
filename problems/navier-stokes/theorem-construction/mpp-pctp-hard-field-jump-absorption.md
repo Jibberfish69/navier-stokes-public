@@ -72,7 +72,7 @@ Thus `Field_{N,r_*,Q}` holds throughout the terminal tail.
 
 ## First-face consequence
 
-Suppose `Jump` is the first endpoint face. Before that first time, `Part`, `Pack`, and the tower amplitude remain controlled. At the first time, their terminal limits remain controlled by the hypotheses of first failure. The lemma then supplies a positive field scale at that same terminal tail, contradicting the claim that the first face is `Jump`.
+Suppose `Jump` is the first endpoint face. Before that first time, `Part`, `Pack`, and the tower amplitude remain controlled. At the first time, their terminal limits remain controlled by the hypotheses of first failure. The lemma then supplies a positive field scale at that same terminal tail, contradicting the claim that the first Part/Field is `Jump`.
 
 Hence a terminal `Jump` face can occur first only after one of the three supplier controls has already failed, on the branch where the response-margin subface has already been removed:
 
@@ -82,7 +82,7 @@ Jump\Longrightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown.
 
 ## Consequence
 
-Together with pack-detachment endpoint reduction and participation persistence, every non-tower first face reduces to the tower face under first-face minimality. The remaining primitive endpoint face for `PCTP.hard` is therefore
+Together with pack-detachment endpoint reduction and participation persistence, every non-tower first Part/Field reduces to the tower face under first-face minimality. The remaining primitive endpoint face for `PCTP.hard` is therefore
 
 ```math
 tower\text{-}blown.

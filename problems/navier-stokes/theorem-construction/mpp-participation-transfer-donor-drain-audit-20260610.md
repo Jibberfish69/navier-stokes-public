@@ -215,7 +215,7 @@ super-L1 residence into a vanishing terminal strip?
 
 If yes, the ontology lane must classify the resulting fluid object. If no, the
 singularity cannot be paid. If the branch survives only as an endpoint atom, it
-lands as the Pack-first limit artifact already proved in the low-high notes.
+lands as the Field-certification limit artifact already proved in the low-high notes.
 
 ## Output
 

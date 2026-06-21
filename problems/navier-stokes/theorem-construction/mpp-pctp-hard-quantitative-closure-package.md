@@ -209,7 +209,7 @@ Jump\Rightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown.
 ```
 
 Under first-face ordering, every non-tower alternative on the right is either
-earlier than the alleged first face or is itself already present at that first
+earlier than the alleged first Part/Field or is itself already present at that first
 time. Removing those earlier-or-tied non-tower subcases leaves `tower-blown` as
 the only stable first-face alternative.
 

@@ -11,13 +11,7 @@ branch into the class-membership object without a named bridge.
 The target class-membership witness remains
 
 ```math
-CM_{N,r,Q}
-=
-Pack_Q
-\wedge
-Part_{N,Q}
-\wedge
-Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 Every imported branch used by the terminal route must therefore land in one of

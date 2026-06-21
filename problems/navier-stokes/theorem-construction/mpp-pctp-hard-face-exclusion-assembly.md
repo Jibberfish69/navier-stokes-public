@@ -29,7 +29,7 @@ These are supplied by the pack-detachment endpoint reduction, participation pers
 ## Theorem
 
 For a first finite endpoint face in the old PCTP.hard endpoint submatrix, every
-non-tower first face reduces to `tower-blown`.  The response-margin subface is a
+non-tower first Part/Field reduces to `tower-blown`.  The response-margin subface is a
 separate Part-row input and is not reduced by this theorem.
 
 Equivalently,

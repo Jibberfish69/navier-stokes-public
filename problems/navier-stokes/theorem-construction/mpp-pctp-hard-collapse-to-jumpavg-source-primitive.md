@@ -79,7 +79,7 @@ OriginalSmoothData\Longrightarrow AWG.A.
 ```
 
 Again, this is the active primitive only for the downstream averaged
-terminal-tail route; it is not a CM primitive or witness-face bridge.
+terminal-tail route; it is not a CM primitive or witness bridge.
 
 ## Proof
 

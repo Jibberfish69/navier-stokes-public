@@ -11,7 +11,7 @@ spine, but it is not yet a proof of
 ```math
 OriginalSmoothData
 \Longrightarrow
-\text{uniform terminal-tail retained }Pack/Part/Field/\text{tower readout}.
+\text{uniform terminal-tail retained }Part/Field/\text{tower readout}.
 \tag{PCTP.5.0}
 ```
 
@@ -34,7 +34,7 @@ PCTP.hard/TTU.A:
 \qquad
 OriginalSmoothData
 \Longrightarrow
-\text{uniform terminal-tail retained }Pack/Part/Field/\text{tower readout}.
+\text{uniform terminal-tail retained }Part/Field/\text{tower readout}.
 \tag{PCTP.5.A}
 ```
 
@@ -223,7 +223,7 @@ The active averaged-route primitive is now exactly:
 ```
 
 This is a primitive only for the downstream averaged `PCTP.hard` consumer
-route. It is not a CM primitive or witness-face bridge, and it is not upstream
+route. It is not a CM primitive or witness bridge, and it is not upstream
 of the governing `Exit(Q):=not Member(Q)` route.
 
 which gives

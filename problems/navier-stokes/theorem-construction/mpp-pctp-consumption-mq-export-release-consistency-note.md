@@ -80,7 +80,7 @@ M_Q(u,p):=Pack_Q\wedge Part_Q\wedge Field_Q.
 Relation to the previous class witness:
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 Thus `M_Q` is the notation-clean local membership face of `CM`; the indices `N,r` record route depth and positive coherence scale.
@@ -386,7 +386,7 @@ Define:
 Indexed class witness:
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 Thus `M_Q` is the notation-clean local membership face of `CM`.

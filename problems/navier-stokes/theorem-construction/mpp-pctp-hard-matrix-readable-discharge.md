@@ -162,7 +162,7 @@ tower\text{-}blown,
 Jump.
 ```
 
-The previous face-reduction notes also show that every non-tower first face reduces to tower-blown, and the readout layer supplies the pointwise tower package. Thus a first finite classical endpoint has no remaining endpoint face.
+The previous face-reduction notes also show that every non-tower first Part/Field reduces to tower-blown, and the readout layer supplies the pointwise tower package. Thus a first finite classical endpoint has no remaining endpoint face.
 
 The `H^s` continuation conversion gives, for finite route depth `N>s+2`,
 
