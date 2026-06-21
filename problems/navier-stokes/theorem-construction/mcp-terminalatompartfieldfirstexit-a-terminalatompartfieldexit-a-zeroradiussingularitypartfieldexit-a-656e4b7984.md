@@ -1,6 +1,6 @@
 # TerminalAtomOriginalParticipationAuditExit.A
 
-Status: supersedes the generated `TerminalAtomPartFieldFirstExit.A` wording.
+Status: supersedes the generated `TerminalAtomOriginalParticipationAuditExit.A` wording.
 
 This surface used the stale phrase "Part/Field before Pack."  That phrase is no
 longer an admissible mathematical reading.  The corrected statement is:

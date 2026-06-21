@@ -32,7 +32,7 @@ UniformServiceTopologyCertification.A:
 For any same-solution terminal witness Q, certification as a valid survivor through Pack, Part, or Field requires uniform control of that service along the terminal approach sequence. A weak terminal measure limit without the corresponding uniform service budget is a object tested before Pack or class-exit witness, not a valid class survivor.
 ```
 
-Part/Field certification before Pack form:
+Part/Field witness record before Pack form:
 
 ```text
 OriginalParticipationBeforePackStrength.A, certification clause:
@@ -94,4 +94,4 @@ The remaining work is propagation plus service-specific verification:
 
 ## Boundary
 
-This theorem is a class-certification bridge. It does not itself produce a new Navier-Stokes estimate. It specifies which topology counts as class survival inside the already-installed Pack/Part/Field architecture. The analytic burden remains family-by-family: a proposed Part or Field survival path must supply the corresponding residence, donor/readout, or same-solution terminal readout continuity budget.
+This theorem is a class-witness-record bridge. It does not itself produce a new Navier-Stokes estimate. It specifies which topology counts as class survival inside the already-installed Pack/Part/Field architecture. The analytic burden remains family-by-family: a proposed Part or Field survival path must supply the corresponding residence, donor/readout, or same-solution terminal readout continuity budget.

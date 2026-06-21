@@ -84,7 +84,7 @@ The remaining theorem is:
 
 ```text
 OriginalParticipationBeforePackStrength.A:
-The `Part_{N,Q}` / `Field_{N,r,Q}` tests used for class certification include finite selected-measure residence, temporal absolute continuity, same-solution terminal readout continuity, or an equivalent donor/readout compatibility budget. These clauses are before Pack service clauses and do not assume a positive terminal Pack carrier.
+The `Part_{N,Q}` / `Field_{N,r,Q}` tests used for class witness record include finite selected-measure residence, temporal absolute continuity, same-solution terminal readout continuity, or an equivalent donor/readout compatibility budget. These clauses are before Pack service clauses and do not assume a positive terminal Pack carrier.
 ```
 
 With that theorem installed, the endpoint strip is handled by `Part_{N,Q}` / `Field_{N,r,Q}`, and the Pack(Q) positive-radius blind spot is removed from this branch.
