@@ -23,6 +23,11 @@ latest_update: >-
   finite/compact selector-collar motion is charged or stabilizes, and the Zeno
   donor chain is visible to the full tuple plus tower but still lacks an
   unweighted payment for the high-factor/source-square/finite-rung readout.
+  The final visible-readout payment attempt exhausts that branch at the current
+  frontier: height is square/tail UI failure, critical density is a consumer
+  without an installed unweighted budget, finite source-gradient rungs are
+  CM-consumable after same-witness admission, and pure high-rung analytic tail
+  returns to tail-to-carrier/no-waste/profile production.
 parents:
   - problems/navier-stokes/theorem-construction/carrier-axiom-sheet.md
   - problems/navier-stokes/theorem-construction/carrier-realization-classical-identification.md
@@ -85,6 +90,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-actual-tuple-selector-admissibility-attack-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-terminal-zeno-donor-chain-full-hodgestokes-tower-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-compactness-collar-stabilization-solution-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-visible-readout-payment-final-attempt-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
