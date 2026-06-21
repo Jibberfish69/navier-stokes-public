@@ -15,7 +15,7 @@ positive selection.
 
 ## Core principle
 
-If the terminal object remains inside `CM_{N,r,Q}`, then its participation density and flux are governed by the same incompressible field, the same pressure-viscosity carrier, and the same Pack/Part/Field envelope.
+If the terminal object remains inside `CM_{N,r,Q}`, then its participation density and flux are governed by the same incompressible field, the same pressure-viscosity carrier, and the same Part/Field envelope.
 
 Therefore a terminal source atom has a residence bound. It can concentrate only by forcing one of three exits:
 

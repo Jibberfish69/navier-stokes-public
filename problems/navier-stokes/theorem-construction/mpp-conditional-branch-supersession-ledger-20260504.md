@@ -81,7 +81,7 @@ must be reconciled by shared-system repair rather than by theorem rewriting.
 | `mpp-sourcewall-signed-current-collapse-ledger-20260505.md` | live-root classification note; closes signed-current subtargets as conditional route pieces, not lower installed roots |
 | `mpp-goodscale-rehydrated-sourcewall-execution-20260505.md` | branch-local execution note; confirms `SquareReserveEvolution.A`, temporal anti-atom, and native zero-loss routes are presentations of the same native positive source-control wall |
 | `mpp-good-scale-noncollapse-replacement-target-audit-20260505.md` | downstream replacement interface; `GoodScaleNonCollapse.A=>UniformReadCover.A=>READ.COVER`, but it still depends on root source-wall closure |
-| `mpp-cm-cross-face-synthesis-bridge-license-audit-20260505.md` | installed CM bookkeeping bridge; synchronizes Pack/Part/Field faces into `CM_{N,r,Q}` without discharging the source-wall root |
+| `mpp-cm-cross-face-synthesis-bridge-license-audit-20260505.md` | installed CM bookkeeping bridge; synchronizes Part/Field faces into `CM_{N,r,Q}` without discharging the source-wall root |
 | `mpp-sourcepulse-ancestry-route-conditional-closure-note.md` | historical failed attempt for no-diffuse-ancestry / source-parent compactness |
 | `mpp-endpoint-source-terminal-conditional-assembly-note.md` | branch-local context for endpoint/source assembly |
 | `mpp-r3-conditional-status-and-t3-closure-boundary.md` | branch-local context for the R3 export boundary |

@@ -582,7 +582,7 @@ the organization and reductions, not the final forward-positive theorem.
 
 The silver branch for this case is licensed only after a precise forward
 obstruction has survived the exact ledgers above. A raw oscillation estimate, a
-benchmark payment rate, or a scale phrase is not itself a Pack/Part/Field
+benchmark payment rate, or a scale phrase is not itself a Part/Field
 witness.
 
 ## 9. What This Note Changes

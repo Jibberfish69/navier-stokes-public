@@ -480,7 +480,7 @@ TerminalSourceReverseHolder.A is a valid closure form, but current inputs give
 only L1 time source mass. B_ASAC^RH(p) has a Liouville theorem, but the route
 does not produce B_ASAC => B_ASAC^RH(p). The May 19 shared-participation pass
 classifies the surviving B_ASAC^closed terminal atom as incoming flux, paid
-exit, or a Pack/Part/Field face witness; it does not discharge the forward PRD
+exit, or a Part/Field face witness; it does not discharge the forward PRD
 supplier.
 ```
 

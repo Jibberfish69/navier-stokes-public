@@ -10,8 +10,8 @@ This note works the live CM burden instead of only classifying it:
 
 ```text
 finite Clay terminal non-continuation
-=> no continuation-complete CM packet
-=> first failed Pack/Part/Field face
+=> no continuation-complete CM participation-field record
+=> first failed Part/Field face
 => Exit(Q):=not Member(Q).
 ```
 
@@ -46,8 +46,8 @@ terminal packet at continuation depth.
 ## Theorem `ContinuationCompleteTerminalFaceExhaustion.A`
 
 If `T_*` is a finite terminal non-continuation time for the same original
-Navier-Stokes solution, then the failure is exhausted by a Pack-first
-Pack/Part/Field face failure:
+Navier-Stokes solution, then the failure is exhausted by a Field-certification
+Part/Field Part/Field failure:
 
 ```text
 finite terminal non-continuation at T_*
@@ -89,7 +89,7 @@ Therefore a finite terminal non-continuation time forces
 not ContCM(T_*).
 ```
 
-### Step 2. Negating `ContCM` gives the CM packet failure
+### Step 2. Negating `ContCM` gives the CM participation-field record failure
 
 `ContCM(T_*)` is exactly the existence of a same-fluid terminal packet with all
 three services plus readout.  Its negation says that no admissible terminal
@@ -103,9 +103,9 @@ Pack_Q and Part_{N_s,Q} and Field_{N_s,r,Q}
 
 fails for every `r>0`.
 
-### Step 3. Pack-first exhaustion
+### Step 3. Field-certification exhaustion
 
-Read the failed conjunction in the required Pack-before-Part audited order.
+Read the failed conjunction in the required Pack-out-of-CM audited order.
 
 1. If no positive same-fluid terminal carrier exists, then `not Pack_Q`.
    This is the Pack face.  It covers terminal zero-radius, detached carrier, and
@@ -128,7 +128,7 @@ Pack_Q and Part_{N_s,Q} and for all r>0 not Field_{N_s,r,Q}.
 This is the Field face.
 
 These three cases exhaust the continuation-complete packet because Pack, Part,
-and Field are the three witness-face records in the installed CM witness grammar.
+and Field are the three witness records in the installed CM witness grammar.
 Readout is the bridge from the complete packet to classical continuation, not a
 fourth face.
 
@@ -139,8 +139,8 @@ continuation-complete packet level:
 
 ```text
 finite terminal non-continuation
-=> failure of the continuation-complete CM packet
-=> first failed Pack/Part/Field face.
+=> failure of the continuation-complete CM participation-field record
+=> first failed Part/Field face.
 ```
 
 It does not by itself prove that the selected terminal packet is canonical or
@@ -172,7 +172,7 @@ times `t_j\uparrow T_*` and using uniqueness on overlaps extends the same
 classical solution past `T_*`.
 
 ```text
-continuation-complete Pack/Part/Field packet + H^s readout
+continuation-complete Part/Field packet + H^s readout
 => classical continuation.
 ```
 

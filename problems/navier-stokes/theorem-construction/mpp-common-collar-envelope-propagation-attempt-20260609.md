@@ -156,8 +156,8 @@ Pack_Q \wedge Part_{N,Q} \wedge \text{receiver escape}
 \forall r>0:\neg Field_{N,r,Q}.
 ```
 
-So receiver escape is classified as Pack, Part, or Field failure according to
-which upstream witness faces survive. That is useful CM classification. It is
+So receiver escape is classified as Part or Field failure according to
+which upstream witnesss survive. That is useful CM classification. It is
 not yet the final CMI theorem, because a finite Clay counterexample can be
 read as precisely a finite terminal loss of this receiver/Field structure
 unless a separate no-genuine-exit bridge proves otherwise.

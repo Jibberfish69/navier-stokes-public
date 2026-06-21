@@ -188,7 +188,7 @@ It proves a sharper route decision:
 Current installed inputs give:
   same-fluid terminal atlas entry,
   volume preservation on preterminal times,
-  Pack/Part/Field classification,
+  Part/Field classification,
   and local affine packet calculus.
 
 They do not give:

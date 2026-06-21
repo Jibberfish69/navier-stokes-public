@@ -11,11 +11,11 @@ burden for the CM contrapositive proof.
 It was introduced by the zero-moment direct-attempt note as a way to prove a
 forward visibility/no-free-sink theorem. That is useful as a warning against
 the wrong positive reading, but it blocks Thomas's CM contrapositive route only
-if the same-witness branch survives the Pack/Part/Field test.
+if the same-witness branch survives the Part/Field test.
 
 The CM program asks a different question: if the same-ledger signed-pair branch
 is the fail branch offered as a finite nonsmooth event, does its mechanism land
-in Pack, Part, or Field as `Exit(Q):=not Member(Q)`? If yes, the route does not
+in Part or Field as `Exit(Q):=not Member(Q)`? If yes, the route does not
 also need a positive theorem erasing that branch.
 
 ## Proof Object Under Test
@@ -57,7 +57,7 @@ These surfaces are not allowed to create a new burden merely by naming one:
 - `mpp-zero-moment-reserve-visibility-direct-attempt-20260525.md` says a forward
   visibility/no-free-sink theorem is not proved. That blocks the positive
   visibility route. It blocks the CM route only after a same-witness
-  Pack/Part/Field obstruction is derived.
+  Part/Field obstruction is derived.
 - `mpp-active-height-flux-trichotomy-proof-audit-20260525.md` vetoes promotion of
   `ActiveHeightFluxTrichotomy.A` as a forward discharge. That does not by itself
   prove the terminal signed branch remains an in-class nonsmooth branch.

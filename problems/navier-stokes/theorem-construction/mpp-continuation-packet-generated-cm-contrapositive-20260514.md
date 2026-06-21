@@ -36,7 +36,7 @@ The relevant installed readout is:
 - `mcp-pointwise-class-readout-to-h-s-continuation-norm-ecq-a-08ac0ba729.md`;
 - `mcp-final-continuation-readout-from-pctp-hard-ecq-a-72c63501ed.md`;
 - `mpp-exact-class-membership-witness-theorem.md`;
-- `mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md`;
+- `mpp-member-smooth-contrapositive-witness-bridge-20260504.md`;
 - `mpp-six-positive-contrapositive-chunks-completion-20260506.md`.
 
 The clean continuation index is the classical `H^s(T^3)` index with `s>5/2`.
@@ -61,7 +61,7 @@ Write `Cont_N(T_*)` for the following packet.
    enough to patch local tower packets as one velocity field. In the CM grammar
    this is the Field-side slot.
 4. Readout slot. The pointwise tower and pressure-forcing readout, such as
-   `DTC.Read`, needed to turn the local Pack/Part/Field witness into
+   `DTC.Read`, needed to turn the local Part/Field witness into
    `sup_{t<T_*} ||u(t)||_{H^s}<infty`.
 
 The installed pointwise readout note proves that these slots give:
@@ -83,10 +83,10 @@ If `Cont_N(T_*)` persists on a retained terminal cover for some `N` dominating
 ### Proof
 
 The carrier, participation, and coherence slots are exactly the local
-Pack/Part/Field witness package on the retained cover:
+Part/Field witness package on the retained cover:
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 The readout slot is the bridge from that local witness package to a global
@@ -128,7 +128,7 @@ question has a checked answer:
 Which continuation-packet slot does its failure negate?
 ```
 
-If the answer is Pack, Part, or Field, the surface can be used as CM-exit work.
+If the answer is Part or Field, the surface can be used as CM-exit work.
 If the answer is only the `H^s` readout bridge, the surface is bridge-licensing
 work from CM to continuation, not a CM-exit failure surface.
 
