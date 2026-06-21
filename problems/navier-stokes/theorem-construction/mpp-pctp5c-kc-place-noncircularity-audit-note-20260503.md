@@ -40,7 +40,7 @@ The retained-field placement argument proves the following conditional theorem.
 KC.Place_{ret}:
 \quad
 \text{terminal active source-pulse family}
-+ Pack+Part+Field_{N+2,r,Q}^{\le C}
++ Part+Field_{N+2,r,Q}^{\le C}
 \Longrightarrow KC.CKN.
 ```
 
@@ -104,7 +104,7 @@ The correct theorem-facing consequence is:
 ```math
 KC.Place_{ret}
 \Longrightarrow
-\text{no retained }Pack+Part+Field\text{ source-pulse counterexample}.
+\text{no retained }Part+Field\text{ source-pulse counterexample}.
 ```
 
 Equivalently, it supports the already installed local CM-exit statement

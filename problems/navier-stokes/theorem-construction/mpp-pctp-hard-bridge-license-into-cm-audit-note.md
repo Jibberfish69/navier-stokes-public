@@ -43,7 +43,7 @@ estimate, or averaged endpoint face is not itself `CM`.
 | `Field.Read` | `Field_{N,r,Q}` | `Field_avg+READ.COVER+ATD_m^epsilon => Field` | licensed into `Field` |
 | `DTC.Read` | pointwise `DTC.A` and `END.TowerBound` | `DTC.A_avg+READ.COVER+ATD_m^epsilon => DTC.A` | licensed as tower endpoint readout |
 | `READ.END` | `End_NS` | `End_NS_avg+READ.COVER+Field.Read+DTC.Read => End_NS` | licensed terminal readout |
-| `CM.Readout` | continuation norm | `Pack+Part+Field+tower => H^s` | licensed after `CM`, not before |
+| `CM.Readout` | continuation norm | `Part+Field+tower => H^s` | licensed after `CM`, not before |
 
 The critical direction is:
 

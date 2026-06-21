@@ -534,7 +534,7 @@ Finite cover summation gives the pointwise transported-center forcing readout.
 
 ```math
 \boxed{
-Pack+Part+Field
+Part+Field
 \Longrightarrow
 \sup_{t<T_*}\|u(t)\|_{H^s}<\infty,
 \qquad s>\frac52.

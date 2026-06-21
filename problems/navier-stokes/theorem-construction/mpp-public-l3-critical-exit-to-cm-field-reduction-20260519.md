@@ -134,7 +134,7 @@ The nonlinear half is further sharpened in
 `DuhamelInverseNativeSourceLocalization.A`: terminal critical mass of the
 Leray-projected Duhamel response must be converted into a native positive
 source packet, selected scale-critical tree failure, or an already paid
-Pack/Part/legal exit.
+Part/legal exit.
 
 The proof split
 `mpp-duhamel-inverse-native-source-localization-proof-split-20260519.md`

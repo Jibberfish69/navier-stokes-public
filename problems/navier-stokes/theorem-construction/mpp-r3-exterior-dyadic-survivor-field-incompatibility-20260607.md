@@ -13,7 +13,7 @@ N_j^s\|P_{N_j}W_{R_j}(t_j)\|_{L^2}\ge c>0,\qquad
 R_j\to\infty,\qquad N_j\to\infty.
 \]
 
-This note proves the missing CM-facing step on the retained Pack+Part branch:
+This note proves the missing CM-facing step on the retained Part plus Field-window evidence branch:
 
 \[
 \boxed{\text{dyadic exterior source survivor}+\Pack_Q+\Part_{M,Q}
@@ -34,7 +34,7 @@ N_j^s\|P_{N_j}W_{R_j}(t_j)\|_{L^2}\ge c>0,\qquad N_j\to\infty.
 
 Let \(Q\) be the terminal CM test object selected by that survivor. If \(\Pack_Q\) and \(\Part_{M,Q}\) are retained, then no fixed positive field scale \(\rho>0\) can satisfy \(\Field_{M,\rho,Q}\).
 
-Thus the retained Pack+Part branch lands in the Field face:
+Thus the retained Part plus Field-window evidence branch lands in the Field face:
 
 \[
 \forall \rho>0\,\neg\Field_{M,\rho,Q}.
@@ -74,7 +74,7 @@ That contradicts the dyadic survivor lower bound
 N_j^s\|P_{N_j}W_{R_j}(t_j)\|_{L^2}\ge c>0
 \]
 
-as \(N_j\to\infty\). Hence no fixed positive \(\rho\) can satisfy \(\Field_{M,\rho,Q}\) on the retained Pack+Part branch.
+as \(N_j\to\infty\). Hence no fixed positive \(\rho\) can satisfy \(\Field_{M,\rho,Q}\) on the retained Part plus Field-window evidence branch.
 
 ## Consequence
 
@@ -90,7 +90,7 @@ The whole-space exterior-source branch now has the CM dichotomy:
 \end{aligned}
 \]
 
-This closes the previous gap where the dyadic survivor was only described as a possible Pack/Field reading. It is now a first-face CM landing: no material address gives Pack failure; no same-fluid participation gives Part failure; retained Pack+Part forces Field failure.
+This closes the previous gap where the dyadic survivor was only described as a possible Pack/Field reading. It is now a first-face CM landing: no material address gives Pack failure; no same-fluid participation gives Part failure; retained Part plus Field-window evidence forces Field failure.
 
 ## Noncircularity Boundary
 

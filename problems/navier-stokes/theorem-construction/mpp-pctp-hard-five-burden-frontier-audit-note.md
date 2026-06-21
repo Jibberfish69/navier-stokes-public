@@ -214,7 +214,7 @@ PCTP.5.B,\qquad PCTP.5.D,\qquad PCTP.5.E
 
 are discharged for the selected route by the restart-scheduler cover theorem,
 the strengthened `Hyp(FFSRC.A)=>FCI.5f` source verification with its cutoff-defect
-hypothesis, and the bridge-license audit into `CM=Pack+Part+Field`.
+hypothesis, and the bridge-license audit into `CM=Part+Field`.
 
 The active averaged-route primitive is now exactly:
 

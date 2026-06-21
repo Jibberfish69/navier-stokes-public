@@ -29,7 +29,7 @@ The active target is:
 QSPAngularFailureFieldNecessityBridge.A.
 ```
 
-It must prove that, for the same terminal packet and under retained Pack+Part,
+It must prove that, for the same terminal packet and under retained Part plus Field-window evidence,
 failure of the finite QSP cap/shell bump nonconcentration packet is failure of
 the Field coherence/readout requirement itself.
 
@@ -69,11 +69,11 @@ The desired inference would be valid under an additional theorem:
 ```text
 the selected finite-frame/QSP readout is the Field_{N,r,Q} certificate for the
 same terminal packet, and no alternate Field certificate is available under
-retained Pack+Part.
+retained Part plus Field-window evidence.
 ```
 
 Then failure of the QSP angular packet would mean the Field certificate fails,
-so the obstruction would enter the retained-Pack+Part Field row.
+so the obstruction would enter the retained-Part plus Field-window evidence Field row.
 
 ## Failed Discharge
 

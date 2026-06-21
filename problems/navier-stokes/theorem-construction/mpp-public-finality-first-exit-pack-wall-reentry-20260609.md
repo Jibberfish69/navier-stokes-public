@@ -67,7 +67,7 @@ branch:
 OriginalSmoothData => ScaleCriticalTreeCarleson.A.
 ```
 
-That wall then reduces through the Pack-side source-wall chain:
+That wall then reduces through the Field-window support source-wall chain:
 
 ```text
 ScaleCriticalTreeCarleson.A

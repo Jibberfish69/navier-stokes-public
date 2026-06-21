@@ -138,7 +138,7 @@ without defining a counterexample to require the conclusion.
 OriginalSmoothData => not GenuineCMExit(T_*).
 ```
 
-On the Pack side that reopens the known wall:
+On the Field-window support that reopens the known wall:
 
 ```text
 OriginalSmoothData => terminal Pack survival,
