@@ -20,8 +20,7 @@ evidence_refs:
 
 ```text
 EarlierPackFailureReflection.A:
-terminal true not Pack_Q after the Part-first audit finds no pointwise
-participation record/carrier/readout for the same-solution terminal record
+terminal true not Pack_Q after the original-participation audit finds no original participation record/carrier/readout for the same-solution terminal record
 => there exists an earlier still-live window with not Pack.
 ```
 

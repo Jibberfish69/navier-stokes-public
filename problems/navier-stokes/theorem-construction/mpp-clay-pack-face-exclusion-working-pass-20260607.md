@@ -81,8 +81,7 @@ Installed conclusions used:
    readout, not mere preterminal material identity.
 4. `mpp-terminal-zeno-pack-failure-correction-20260521.md` says finite Zeno
    ancestry packets may be legal positive-radius CM packets, while the terminal
-   zero-radius limit is Part-first when the same original-NS pointwise
-   participation record remains and true `not Pack_Q` only when that record is
+   zero-radius limit lands Part-side when the same original-NS participation record remains and true `not Pack_Q` only when that record is
    absent, before any retained Field face can be spent.
 5. `mpp-clay-counterexample-exclusion-bridge-direct-work-20260601.md` already
    rejects the shortcut

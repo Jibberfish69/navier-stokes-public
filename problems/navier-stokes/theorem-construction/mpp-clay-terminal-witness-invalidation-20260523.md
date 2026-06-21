@@ -92,7 +92,7 @@ This means:
 5. same witness grammar: the only primitive terminal services available to that
    obstruction are `Pack_Q`, `Part_{N,Q}`, and `Field_{N,r,Q}`. Ordinary
    positive-carrier branches use the usual Pack/Part/Field order. Singular or
-   pre-Pack branches that still carry a same-solution pointwise participation
+   pre-Pack branches that still carry a same-solution original participation
    record are surfaced under `Part_{N,Q}` / `Field_{N,r,Q}` before a Pack-only
    conclusion is spent.
 
@@ -196,7 +196,7 @@ record remains, then Pack is the correct first face.
 ### Case 1: Pack fails
 
 Ask whether the terminal extraction leaves a positive legal same-fluid carrier
-on `Q`, and whether it has any meaningful same-solution pointwise participation
+on `Q`, and whether it has any meaningful same-solution original participation
 record that would force the resurfacing audit.
 
 If no such carrier survives, then the alleged terminal witness has lost the

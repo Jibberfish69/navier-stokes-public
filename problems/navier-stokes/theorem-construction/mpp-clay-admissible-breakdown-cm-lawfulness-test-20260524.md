@@ -44,7 +44,7 @@ it satisfies the five same-solution CM test-admissibility checks from
    breakdown branch is a terminal subsequence or residue of that preterminal
    family, so it uses the same transported carrier/flow family until a first
    CM service failure is typed. Pack-only failure is declared only when no
-   positive carrier and no meaningful same-solution pointwise participation
+   positive carrier and no meaningful same-solution original participation
    record remain.
 
 4. Same terminal role.
@@ -138,7 +138,7 @@ is not promoted.
 - `mpp-pack-before-part-dependency-resurfacing-audit-20260620.md` and
   `mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md`:
   license Part/Field testing before ordinary Pack-only disposal for singular
-  same-solution terminal witnesses with a pointwise participation record.
+  same-solution terminal witnesses with a original participation record.
 - `mpp-clay-solution-cm-exit-inadmissibility-20260523.md`: proves the smooth-solution
   inadmissibility bridge and marks the breakdown-counterexample bridge as
   separate.
