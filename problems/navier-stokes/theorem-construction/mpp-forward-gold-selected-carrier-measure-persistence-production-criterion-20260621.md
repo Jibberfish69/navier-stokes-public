@@ -7,6 +7,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-activity-persistence-replacement-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-no-loss-relay-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-packet-selector-polar-retention-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-tower-carrier-representation-20260621.md
 ---
 
 # Selected Carrier Measure Persistence Production Criterion
@@ -338,37 +339,34 @@ or the missing positive part must be recorded as \(K_{\rm sel}\), \(K_C^+\), or
 
 ## 6. Navier-Stokes production content
 
-This note proves the measure-level production criterion.  It does not prove
-that the Navier-Stokes tower supplies its hypotheses.
+This note proves the measure-level production criterion.  The finite selected
+tower representation clause is paid by the selected tower carrier
+representation theorem: for a finite selected packet family, the actual
+selected positive activity is the total mass of the nonnegative measure with
+density \([h_P]_+\) on the extended carrier.
+
+It does not prove the remaining compactness hypotheses.
 
 The remaining Navier-Stokes statement is the conjunction:
 
 ```math
 \boxed{
-\text{the actual selected positive carrier can be represented by retained
-nonnegative measures }\mu_n^A\text{ satisfying }(SCM.4);
-}
+\text{tightness of the retained nonnegative measures }\mu_n^A
+\text{ on the normalized same-carrier packet space;}
 \tag{SCM.26}
-```
-
-```math
-\boxed{
-\text{those measures are tight on the normalized same-carrier packet space;}
-}
-\tag{SCM.27}
 ```
 
 and
 
 ```math
 \boxed{
-\text{their weak limit is identified with the canonical selected carrier of
-the limiting Navier-Stokes profile up to }K_C^+.
+\text{identification of their weak limit with the canonical selected carrier
+of the limiting Navier-Stokes profile up to }K_C^+.
 }
-\tag{SCM.28}
+\tag{SCM.26}
 ```
 
-When `(SCM.26)`--`(SCM.28)` hold, selected positive activity persistence is
+When these two compactness clauses hold, selected positive activity persistence is
 installed, and the compactness-rigidity coercivity principle can use the
 four-body lossless-cycle rigidity theorem without the old vague continuity
 assumption.
