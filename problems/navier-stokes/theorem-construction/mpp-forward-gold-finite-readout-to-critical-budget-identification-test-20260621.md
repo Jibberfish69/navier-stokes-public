@@ -359,7 +359,7 @@ is proved:
 \[
 \boxed{
 \text{selected critical-budget identification, source-square domination,
-strict no-waste, profile production, or CM Pack/Part/Field consumption.}
+strict no-waste, profile production, or CM Part/Field consumption.}
 }
 \tag{FBI.26}
 \]

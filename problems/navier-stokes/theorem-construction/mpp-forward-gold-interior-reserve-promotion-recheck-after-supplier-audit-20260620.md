@@ -19,7 +19,7 @@ atom.  It is the retained positive-scale first-created square reserve:
 ```
 
 The exact question is whether this object can be promoted now, either as a
-forward-gold payment theorem or as a CM Pack/Part/Field face.
+forward-gold payment theorem or as a CM Part/Field face.
 
 It cannot be promoted from the current inputs without an extra bridge.
 
@@ -63,7 +63,7 @@ or
 ```math
 \text{CM-test admission}
 +
-\text{first Pack/Part/Field face failure}.
+\text{first Part/Field Part/Field failure}.
 \tag{IRP.5}
 ```
 
@@ -71,7 +71,7 @@ The first route is the forward-gold payment route.  It is the missing
 unweighted same-carrier reserve.
 
 The second route is the CM pass-or-exit route.  It cannot be skipped: a
-source-reserve pulse is not a CM face merely because it is bad, large, or
+source-reserve pulse is not a CM Part/Field merely because it is bad, large, or
 visible.  It must enter the same-solution CM terminal packet test and derive
 the first failed face.
 
@@ -108,7 +108,7 @@ height.  A forward-gold proof still needs an active-height bound, a same-ledger
 flux domination theorem, source-square/Carleson control, or strict no-waste.
 
 As CM evidence, active height can become useful only after the retained pulse
-has been admitted to the Pack-first witness tree.
+has been admitted to the Field-certification witness tree.
 
 ## 4. Why BKM, Serrin, CKN, and critical norms do not promote it
 
@@ -147,9 +147,9 @@ The retained first-created reserve can now be used only in these ways:
 \text{zero-radius or unpaid infinite donor-refill}
 &\Rightarrow&
 \neg Pack_Q,\\[2mm]
-\text{retained positive-scale reserve admitted and first face derived}
+\text{retained positive-scale reserve admitted and first Part/Field derived}
 &\Rightarrow&
-\text{CM Pack/Part/Field readout},\\[2mm]
+\text{CM Part/Field readout},\\[2mm]
 \text{retained positive-scale reserve without payment or admission}
 &\Rightarrow&
 \text{supplier quarantine}.
@@ -202,6 +202,6 @@ The interior first-created reserve branch is closed as a promotion shortcut.
 It is not closed as a theorem.
 
 Current inputs do not pay the retained positive-scale reserve, and they do not
-promote it to a CM face without CM-test admission plus first-face derivation.
+promote it to a CM Part/Field without CM-test admission plus first-Part/Field derivation.
 The next proof work must invent a genuinely new first-Pack-survival mechanism
 or prove the same-ledger payment theorem directly.

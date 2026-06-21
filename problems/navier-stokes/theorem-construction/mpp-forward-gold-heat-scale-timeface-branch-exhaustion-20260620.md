@@ -29,7 +29,7 @@ donor-chain saturation.
 
 Without one of those unweighted currencies, the retained heat-scale pulse is
 visible but not forward-positive excluded.  It must be consumed by the CM
-Pack/Part/Field witness-face route only after same-witness admission and
+Part/Field witness route only after same-witness admission and
 uniform service certification, rather than called a gold anti-atom proof.
 
 ## 1. The exact enemy
@@ -519,7 +519,7 @@ Fallback consequence:
 \boxed{
 \text{if that reserve is not proved, the retained pulse is not hidden;}
 \quad
-\text{it is CM Pack/Part/Field witness-face evidence.}
+\text{it is CM Part/Field witness evidence.}
 }
 \tag{HTE.39}
 ```

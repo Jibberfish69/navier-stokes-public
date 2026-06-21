@@ -3,7 +3,7 @@ ns_viewer:
   theorem_id: forward-gold-gradient-sobolev-branch-to-cm-face-20260621
   status: exact-finite-rung-gradient-branch-cm-face-consumer-installed
   proof_role: forward_gold_finite_rung_gradient_branch_cm_consumer
-  logical_landing_node: gradient_sobolev_branch_to_cm_face
+  logical_landing_node: gradient_sobolev_branch_to_cm_part_field_question
   edge_effect: >-
     Consumes the finite Sobolev side of the gradient branch after same-carrier
     CM admission. The prior Sobolev tower note proves that the residual gradient
@@ -19,10 +19,10 @@ ns_viewer:
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-forward-gold-gradient-branch-sobolev-tower-blowup-20260621.md
     - problems/navier-stokes/theorem-construction/r3-cm-contrapositive-sobolev-hs-energy-20260528.md
-    - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
+    - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-bridge-20260504.md
   downstream_consequence: >-
     The finite-rung Sobolev branch of the terminal selected-source gradient
-    alternative is consumed by the existing CM face grammar once same-carrier
+    alternative is consumed by the existing CM Part/Field grammar once same-carrier
     admission and sufficient-depth Field readout are present. The remaining
     gold work is now the height/source-square UI production branch and the
     high-rung-only analytic tail branch, which still needs tail-to-carrier,

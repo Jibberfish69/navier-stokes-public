@@ -207,7 +207,7 @@ Then the only visible output is large parent-scale active height or strong
 same-window source.  That is usable as a forward-gold payment only after an
 active-height cap, source-square reserve, same-carrier strong source theorem, or
 strict no-waste Lyapunov theorem is proved.  Otherwise it is CM-facing
-Pack/Part/Field readout after the retained pulse enters the witness tree.
+Part/Field readout after the retained pulse enters the witness tree.
 
 ## Verdict
 

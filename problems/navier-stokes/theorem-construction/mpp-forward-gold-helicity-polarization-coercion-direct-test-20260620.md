@@ -246,5 +246,5 @@ carrier.}
 ```
 
 After same-witness CM admission, a surviving helicity-invisible positive
-carrier is readout material for Pack/Part/Field.  It is not a forward-positive
+carrier is readout material for Part/Field.  It is not a forward-positive
 anti-atom proof.

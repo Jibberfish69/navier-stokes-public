@@ -16,7 +16,7 @@ and compact-recurrent tests, the exact remaining fork is:
 or
 
 \[
-\text{admit the retained pulse as a CM Pack/Part/Field witness-face exit}.
+\text{admit the retained pulse as a CM Part/Field witness exit}.
 \]
 
 This note does not claim the Navier-Stokes MPP is solved.  It closes this
@@ -386,4 +386,4 @@ Equivalent concrete forms are:
 
 Absent one of those, the heat-scale pulse is not killed by the gold route.  It
 must be admitted as a retained terminal pulse and consumed by the CM
-Pack/Part/Field witness-face machinery.
+Part/Field witness machinery.

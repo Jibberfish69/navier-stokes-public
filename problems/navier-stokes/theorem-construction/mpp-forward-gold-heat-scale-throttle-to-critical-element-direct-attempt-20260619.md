@@ -420,5 +420,5 @@ local-energy endpoint identity with terminal tightness, or prove compact
 profile stability for the selected positive carrier.
 
 At current inputs, the heat-scale branch is consumed only by the CM
-Pack/Part/Field fallback when the forward-gold supplier fails.  It is not yet
+Part/Field fallback when the forward-gold supplier fails.  It is not yet
 excluded by forward-positive gold.

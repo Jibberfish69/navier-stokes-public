@@ -2,7 +2,7 @@
 theorem_id: forward-gold-first-created-reserve-charge-production-clause-recheck-20260620
 status: direct-clause-recheck-complete-not-proved
 logical_landing_node: first_created_reserve_charge_production_clause
-edge_effect: "Rechecks Clause B of the unweighted same-carrier reserve production obligation. The first-created reserve charge is not paid by earliest square-window selection, normalized-adjoint child-mass parent-or-charge, boundary packet mass, heat-window thickness, linear donor balance, or first-moment source mass. The remaining supplier must be a square-strength same-carrier theorem, strict no-waste Lyapunov drop, active-height/log-tail theorem, same-unit square evolution/trace theorem, or CM Pack/Part/Field consumption after same-witness admission."
+edge_effect: "Rechecks Clause B of the unweighted same-carrier reserve production obligation. The first-created reserve charge is not paid by earliest square-window selection, normalized-adjoint child-mass parent-or-charge, boundary packet mass, heat-window thickness, linear donor balance, or first-moment source mass. The remaining supplier must be a square-strength same-carrier theorem, strict no-waste Lyapunov drop, active-height/log-tail theorem, same-unit square evolution/trace theorem, or CM Part/Field consumption after same-witness admission."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-unweighted-same-carrier-reserve-production-obligation-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-reserve-creation-heat-scale-first-appearance-test-20260619.md
@@ -242,7 +242,7 @@ or, after the retained pulse is admitted as the same terminal witness,
 
 ```math
 \boxed{
-\text{Pack/Part/Field face failure.}
+\text{Part/Field Part/Field failure.}
 }
 \tag{FCR.20}
 ```
@@ -277,5 +277,5 @@ first-moment source mass, and normalized-adjoint child ancestry.}
 
 The remaining forward-gold burden is not smaller bookkeeping.  It is the
 same-carrier square payment theorem listed in `(FCR.16)`--`(FCR.19)`, or else
-the retained pulse must be consumed by the CM Pack/Part/Field route after
+the retained pulse must be consumed by the CM Part/Field route after
 same-witness admission.
