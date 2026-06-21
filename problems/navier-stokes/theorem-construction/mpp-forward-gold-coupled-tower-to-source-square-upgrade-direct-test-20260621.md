@@ -160,6 +160,11 @@ for every \(j\). Then `(CTQ.9)` holds on each normalized terminal strip, but
 \tag{CTQ.12}
 \]
 
+This is a functional implication test, not a construction of a Navier-Stokes
+Zeno chain under positive tower radius.  It records exactly what `(CTQ.7)`
+proves: endpoint strip uniform integrability.  It does not prove summability
+over infinitely many retained normalized windows.
+
 So positive tower radius is an endpoint-atom killer. It is not, by itself, a
 summable unweighted-action theorem across a retained Zeno chain.
 
@@ -218,71 +223,98 @@ I_r=(T-r^2,T].
 \tag{CTQ.16}
 \]
 
-The heat-clock equality carrier has coefficient and shell energy
+Fix constants
 
 \[
-\alpha_+(t,x)
-\sim
-\nu r^{-2},
+0<c_\alpha\le C_\alpha<\infty,
 \qquad
-E(t)=\|w_j(t)\|_2^2
-\sim
-r^{3/2},
+0<c_E\le C_E<\infty,
 \tag{CTQ.17}
 \]
 
-on \(I_r\times B_r\). Then
+independent of \(r\).  The heat-clock equality carrier has coefficient and
+shell energy bounded by
 
 \[
-\Phi^+(t)
-\sim
-\alpha_+(t)E(t)
-\sim
-\nu r^{-1/2}.
+c_\alpha\nu r^{-2}
+\le
+\alpha_+(t,x)
+\le
+C_\alpha\nu r^{-2},
+\qquad
+c_Er^{3/2}
+\le
+E(t)=\|w_j(t)\|_2^2
+\le
+C_Er^{3/2},
 \tag{CTQ.18}
+\]
+
+on \(I_r\times B_r\).  Since
+\(\Phi^+(t)=\int_{B_r}\alpha_+(t,x)|w_j(t,x)|^2\,dx\) in this normal form,
+there are constants \(c_\Phi,C_\Phi>0\), independent of \(r\), such that
+
+\[
+c_\Phi\nu r^{-1/2}
+\le
+\Phi^+(t)
+\le
+C_\Phi\nu r^{-1/2}.
+\tag{CTQ.19}
 \]
 
 Its linear residence vanishes:
 
 \[
+c_\Phi\nu r^{3/2}
+\le
 \int_{I_r}\Phi^+(t)\,dt
-\sim
-\nu r^{3/2}
+\le
+C_\Phi\nu r^{3/2}
 \longrightarrow0.
-\tag{CTQ.19}
+\tag{CTQ.20}
 \]
 
 Its unweighted selected square reserve stays order one:
 
 \[
+c_\Phi^2\nu^2
+\le
 \int_{I_r}
 r^{-1}\bigl(\Phi^+(t)\bigr)^2\,dt
-\sim
-\int_{I_r}
-r^{-1}\nu^2r^{-1}\,dt
-\sim
-\nu^2.
-\tag{CTQ.20}
+\le
+C_\Phi^2\nu^2.
+\tag{CTQ.21}
 \]
 
 Meanwhile the bare coefficient-square cost is radius-discounted:
 
 \[
+c_{\alpha,2}\nu^2 r
+\le
 \int_{I_r}\int_{B_r}\alpha_+(t,x)^2\,dx\,dt
-\sim
-\nu^2 r.
-\tag{CTQ.21}
+\le
+C_{\alpha,2}\nu^2 r
+\tag{CTQ.22}
 \]
 
-The physical dissipation of the shell is also summably small at this scale:
+for constants \(c_{\alpha,2},C_{\alpha,2}>0\).  The physical dissipation of
+the shell is also summably small at this scale.  With
 
 \[
+D(t)=r^{-2}E(t),
+\tag{CTQ.23}
+\]
+
+one has
+
+\[
+c_Er^{3/2}
+\le
 \int_{I_r}D(t)\,dt
-\sim
-\int_{I_r}r^{-2}E(t)\,dt
-\sim
-r^{3/2}.
-\tag{CTQ.22}
+\le
+C_Er^{3/2}.
+\tag{CTQ.24}
 \]
 
 Thus a dyadic terminal chain can have
@@ -295,7 +327,7 @@ Thus a dyadic terminal chain can have
 \sum_j
 \int_{I_{r_j}}D(t)\,dt
 <\infty,
-\tag{CTQ.23}
+\tag{CTQ.25}
 \]
 
 while
@@ -305,7 +337,7 @@ while
 \int_{I_{r_j}}
 r_j^{-1}\bigl(\Phi_j^+(t)\bigr)^2\,dt
 =\infty.
-\tag{CTQ.24}
+\tag{CTQ.26}
 \]
 
 This is not asserted to be an exact Navier-Stokes solution. It is the exact
@@ -321,7 +353,7 @@ W_{j+1,m,\alpha}(s,y)
 =
 \lambda_j^{2m+|\alpha|+1}
 W_{j,m,\alpha}(\lambda_j^2s,\lambda_j y).
-\tag{CTQ.25}
+\tag{CTQ.27}
 \]
 
 This prevents treating nested cylinders as independent arbitrary packets. They
@@ -339,21 +371,21 @@ r_j
 \int_{-1}^{0}
 \int_{B_1}
 |\nabla_y v_j|^2\,dy\,ds.
-\tag{CTQ.26}
+\tag{CTQ.28}
 \]
 
 So physical energy controls
 
 \[
 \sum_j r_j A_j<\infty,
-\tag{CTQ.27}
+\tag{CTQ.29}
 \]
 
 not
 
 \[
 \sum_j A_j<\infty.
-\tag{CTQ.28}
+\tag{CTQ.30}
 \]
 
 The cross-cylinder law says how the same tower transforms. It does not create
@@ -368,7 +400,7 @@ The coupled tower gives the correct equation-level participation law:
 \text{rescale first, then the velocity, pressure, viscosity, incompressibility,
 and derivative rungs remain coupled across cylinders.}
 }
-\tag{CTQ.29}
+\tag{CTQ.31}
 \]
 
 The exact no-upgrade result is:
@@ -378,7 +410,7 @@ The exact no-upgrade result is:
 \text{this coupled tower law does not by itself produce the same-carrier
 source-square reserve.}
 }
-\tag{CTQ.30}
+\tag{CTQ.32}
 \]
 
 The remaining non-aliased suppliers are still:
@@ -393,5 +425,5 @@ The remaining non-aliased suppliers are still:
 \text{or MinimalZenoProfileProduction.A.}
 \end{gathered}
 }
-\tag{CTQ.31}
+\tag{CTQ.33}
 \]
