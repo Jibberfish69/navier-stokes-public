@@ -22,6 +22,12 @@ This note is a supplier-boundary test. It does not replace the Navier-Stokes
 nonlinear Duhamel term by a linear forcing, and it does not approximate the
 pressure-transport-viscosity system.
 
+The exact Navier-Stokes Duhamel identity is recorded separately in
+`mpp-forward-gold-exact-nonlinear-duhamel-terminal-split-20260621.md`. Any
+Navier-Stokes-facing use of this note must pass through that exact identity,
+where the terminal source is the actual Leray-projected nonlinearity
+\(-\mathbb P\nabla\cdot(v\otimes v)\), not the external test forcing below.
+
 It tests only whether parabolic smoothing alone can produce the uniform coupled
 tower radius needed by the endpoint UI bridge:
 
