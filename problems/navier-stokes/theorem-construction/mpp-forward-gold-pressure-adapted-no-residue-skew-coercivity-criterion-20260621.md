@@ -16,6 +16,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-packet-compactness-noloss-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-transport-product-defect-evacuation-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-pressure-trace-defect-reduction-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-harmonic-pressure-memory-collar-routing-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-viscous-defect-dichotomy-20260621.md
 ---
 
@@ -520,9 +521,9 @@ loss on a stabilized carrier, through strong \(L^3\) velocity convergence.
 The local same-carrier pressure trace passes after Calderon-Zygmund pressure
 decomposition.  The viscous defect is either visible payment or strong gradient
 convergence.  Standard suitable compactness is still not enough for the full
-packet; the remaining failures are precisely harmonic pressure memory/collar
-loss, selector graph loss, signed saturation loss, terminal trace atom, or
-legal-routing loss.
+packet; harmonic pressure memory routes to collar/legal/terminal trace.  The
+remaining hidden failures are precisely selector graph loss, signed saturation
+loss, terminal trace atom, or legal-routing loss.
 
 So the remaining production input is:
 
