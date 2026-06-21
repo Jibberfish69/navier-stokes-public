@@ -30,7 +30,7 @@ support-level until a theorem supplies one of the exact interfaces:
 ```text
 same-ledger payment
 or
-CM-test admission + first Part/Field Part/Field failure.
+CM-test admission + first Part/Field failure.
 ```
 
 Zero-radius terminal residue or selected unpaid infinite donor-refill lands
@@ -72,7 +72,7 @@ finite-time nonsmoothness
 => Pack failure or Part failure or Field failure.
 ```
 
-The witnesss are:
+The witnesses are:
 
 ```text
 Pack  = shared deformation / carrier geometry
@@ -465,7 +465,7 @@ replacement is the pass/fail obstruction engine:
 ```text
 positive supplier branch reaches a real obstruction
 => pass branch: lawful in-class / Member(Q) continuation mechanism
-=> fail branch: CM-test admission + first Part/Field Part/Field failure
+=> fail branch: CM-test admission + first Part/Field failure
 => Exit(Q):=not Member(Q) for that same witness.
 ```
 
@@ -508,7 +508,7 @@ Every source theorem must reduce the positive weighted shell flux.
 
 Current exact requirement: a source theorem must either pay the same-witness
 branch in the installed ledger, or promote the admitted finite obstruction to a
-specific Part/Field Part/Field failure.  Reducing a positive weighted shell flux
+specific Part/Field failure.  Reducing a positive weighted shell flux
 inside a supplier estimate is not enough unless that reduction supplies one of
 those interfaces.
 

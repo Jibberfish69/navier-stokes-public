@@ -120,7 +120,7 @@ retained Pack/Part on the first Pack-survival branch
 + zero ASAC defect and no legal/donor payment
 => a same-ledger angular, pressure, participation, or temporal-residence cost
    strong enough to prevent terminal heat-time source concentration,
-   or an earlier concrete Part/Field Part/Field failure.
+   or an earlier concrete Part/Field failure.
 ```
 
 This is narrower than the broad anti-atom label.  It says exactly what a new

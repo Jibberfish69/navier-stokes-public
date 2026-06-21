@@ -30,7 +30,7 @@ AngularConcentrationFieldFaceEntry.A.
 ```
 
 It must prove that a same-terminal-packet failure of finite QSP cap/shell bump
-nonconcentration lands as a Part/Field Part/Field failure, specifically Field
+nonconcentration lands as a Part/Field failure, specifically Field
 under retained Pack+Part, instead of remaining an endless positive
 equidistribution supplier demand.
 
@@ -76,7 +76,7 @@ no Field coherence/readout certificate exists for the same terminal packet.
 
 The live authority edge explicitly forbids treating every failed positive
 supplier as automatic `Exit(Q)`. The fail branch must derive a concrete
-Part/Field Part/Field failure after CM-test entry.
+Part/Field failure after CM-test entry.
 
 Therefore `AngularConcentrationFieldFaceEntry.A` needs an additional necessity
 bridge:

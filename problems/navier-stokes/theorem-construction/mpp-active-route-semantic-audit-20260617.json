@@ -79,7 +79,7 @@
     {
       "path": "problems/navier-stokes/theorem-construction/mpp-positive-pack-defect-orthogonality-bilinear-decoupling-attempt-20260609.md",
       "issue": "bilinear decoupling and positive-part language could let signed cross-term smallness stand in for control of the selected terminal positive Pack measure",
-      "replacement": "the note now defines dmu_{alpha beta,j}^{+,m}, displays the signed convergence statement that is insufficient, and states the exact alternatives needed: vanishing of that measure, uniform integrability/Carleson non-atomicity, one-profile absolute continuity with density control, or a Part/Field Part/Field failure",
+      "replacement": "the note now defines dmu_{alpha beta,j}^{+,m}, displays the signed convergence statement that is insufficient, and states the exact alternatives needed: vanishing of that measure, uniform integrability/Carleson non-atomicity, one-profile absolute continuity with density control, or a Part/Field failure",
       "downstream_consequence": "PositivePackDefectOrthogonality.A remains unproved by bilinear/paraproduct orthogonality alone; it must pass through TerminalPositiveCrossProfileSourceControl.A / UniformPackCrossTermIntegrability.A / SelectedPositivePackCrossTermNoAtom.A or an equivalent exact measure-control theorem"
     },
     {
@@ -200,7 +200,7 @@
       "path": "problems/navier-stokes/theorem-construction/mpp-two-profile-pack-molecule-rigidity-parameter-orthogonality-attempt-20260610.md",
       "issue": "the surviving low-high same-window molecule was described with profile geometry and order-size language after positive selection",
       "replacement": "the note now defines the selected low-high positive measure dmu_{alpha beta,m}^+, states survival as the exact normalized nonvanishing condition (TPM), and states separated-pair vanishing through the explicit cutoff-overlap limit (SEP)",
-      "downstream_consequence": "TwoProfilePackMoleculeRigidity.A remains unproved; the live child must prove vanishing, a terminal anti-atom modulus, one-profile absolute continuity with density control, a source-Carleson reserve, a rigid two-profile Liouville class, or a Part/Field Part/Field failure for the selected measure"
+      "downstream_consequence": "TwoProfilePackMoleculeRigidity.A remains unproved; the live child must prove vanishing, a terminal anti-atom modulus, one-profile absolute continuity with density control, a source-Carleson reserve, a rigid two-profile Liouville class, or a Part/Field failure for the selected measure"
     },
     {
       "path": "problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex",
@@ -259,7 +259,7 @@
     {
       "path": "problems/navier-stokes/review-verdict.yaml; problems/navier-stokes/route-lock.yaml; problems/navier-stokes/release-decision.yaml; problems/navier-stokes/route-integrity-report.yaml; problems/navier-stokes/proof-assembly.yaml; problems/navier-stokes/theorem-to-warrant.yaml; problems/navier-stokes/warrant-compilation.yaml; problems/navier-stokes/theorem-repair.yaml; problems/navier-stokes/theorem-crank.yaml; problems/navier-stokes/theorem-packet.yaml; problems/navier-stokes/submission-verdict.yaml; problems/navier-stokes/submission-bundle/theorem-packet.yaml; problems/navier-stokes/submission-bundle/submission-verdict.yaml",
       "issue": "generated verdict and packet mirrors used therefore/demoted wording around Part/Field support and source-control support rows",
-      "replacement": "mirrors now state that concrete Part/Field Part/Field failure supports Exit(Q), and source-control/positive supplier rows remain support-only with no proof force unless the exact bridge or theorem is proved",
+      "replacement": "mirrors now state that concrete Part/Field failure supports Exit(Q), and source-control/positive supplier rows remain support-only with no proof force unless the exact bridge or theorem is proved",
       "downstream_consequence": "route/verdict surfaces cannot close a proof step by connective force or support classification"
     },
     {

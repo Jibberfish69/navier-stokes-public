@@ -54,7 +54,7 @@ e_\ell\cdot S^{loc}_{<\ell}e_\ell
 ```
 
 Scalar damping and absolute commutator estimates return to the same source
-wall.  The missing move is to spend the CM witnesss:
+wall.  The missing move is to spend the CM witnesses:
 
 ```text
 Pack,

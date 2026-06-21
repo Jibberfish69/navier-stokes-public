@@ -39,7 +39,7 @@ OriginalParticipationBeforePackStrength.A, certification clause:
 `Part_{N,Q}` / `Field_{N,r,Q}` certification uses the same uniform-service principle. `Part_{N,Q}` requires a finite participation/residence budget or equivalent donor-readout compatibility. `Field_{N,r,Q}` requires a one-field readout continuity budget or equivalent same-solution scale-indexed compatibility. A object tested before Pack lacking these budgets fails the corresponding service tested before Pack.
 ```
 
-Circularity caveat: the Field budget here is a same-solution terminal readout budget used as original-participation audit records before Pack-local notation, not ordinary `Pack_Q` positive-radius admission. It does not assume positive terminal Pack carrier scale, finite Pack cover, finite Pack deformation/readout comparability, or Pack noncollapse.
+Circularity caveat: the Field budget here is a same-solution terminal readout budget used as original-participation audit records before field-local notation, not ordinary `Pack_Q` positive-radius admission. It does not assume positive terminal Pack carrier scale, finite Pack cover, finite Pack deformation/readout comparability, or Pack noncollapse.
 
 ## Proof
 

@@ -28,7 +28,7 @@ Thus
 Member(Q)
 ```
 
-requires all three witnesss, not only terminal-tail or tower readout data.
+requires all three witnesses, not only terminal-tail or tower readout data.
 
 ## What `PCTP.hard / TTU.A` provides
 

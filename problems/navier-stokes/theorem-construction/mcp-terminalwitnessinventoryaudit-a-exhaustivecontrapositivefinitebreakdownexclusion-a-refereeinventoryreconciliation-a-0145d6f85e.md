@@ -15,7 +15,7 @@ The goal is to replace misleading forward-positive language such as terminal clo
 ```text
 Assume finite-time breakdown.
 Extract every admissible terminal witness possibility.
-Consume every possibility by admissibility failure, Part failure, Field failure, Part/Field Part/Field failure, or continuation/readout recovery.
+Consume every possibility by admissibility failure, Part failure, Field failure, Part/Field failure, or continuation/readout recovery.
 If no branch remains, finite-time breakdown is excluded.
 ```
 

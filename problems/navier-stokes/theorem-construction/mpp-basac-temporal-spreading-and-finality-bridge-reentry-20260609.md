@@ -67,7 +67,7 @@ ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A.
 The checked failed shortcut is:
 
 ```text
-derived Part/Field Part/Field failure
+derived Part/Field failure
 => finite Clay breakdown impossible.
 ```
 

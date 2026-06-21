@@ -122,7 +122,7 @@ trajectories pointwise.  It says:
 
 ### Why this helps the repo
 
-A positive-`\nu` fold would have to show up inside the CM witnesss:
+A positive-`\nu` fold would have to show up inside the CM witnesses:
 
 ```text
 Pack failure, Part failure, or Field failure.
