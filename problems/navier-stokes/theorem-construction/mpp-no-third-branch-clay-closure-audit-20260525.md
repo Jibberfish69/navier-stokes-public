@@ -175,7 +175,7 @@ but also carries the Pack/Part/Field face failure used to block continuation.
 ```
 
 Such an object is ruled out by the membership readout on the pass side and by
-the derived Pack/Part/Field exit classification on the fail side.
+the derived Pack/that face failure classification on the fail side.
 
 ## What This Does Not Prove By Itself
 

@@ -182,6 +182,6 @@ CM witness outputs inside the contrapositive route.
 
 This note does not reopen `B_ASAC`. The closed terminal zero-thickness
 `B_ASAC^closed` object is already consumed by the May 21 CM correction as a
-Pack/Part/Field exit, with zero-radius terminal Zeno residue landing first as
+Pack/that face failure, with zero-radius terminal Zeno residue landing first as
 `not Pack_Q`. The open work here is only the public `L^3` translator's
 same-ledger native source witness-capture step.

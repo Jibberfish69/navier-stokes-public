@@ -19,7 +19,7 @@ data must not realize its first terminal Pack failure through the produced
 `B_ASAC` strain-aligned terminal atom.
 
 This is stronger than CM face landing. The face bridge says the atom is typed
-as Pack/Part/Field exit. The present theorem would show that original smooth
+as Pack/that face failure. The present theorem would show that original smooth
 data cannot produce that exit as an actual first terminal event.
 
 ## Minimal First-Exit Setup
@@ -64,7 +64,7 @@ untyped in-class third branch. It lands the atom in Pack, Part, or Field.
 The public-finality theorem needs more:
 
 ```text
-original smooth data => no first Pack/Part/Field exit.
+original smooth data => no first Pack/that face failure.
 ```
 
 Classification of the exit does not provide that implication.

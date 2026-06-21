@@ -167,7 +167,7 @@ This direct attempt does not close the Clay MPP.  It exposes the exact missing
 proof:
 
 ```text
-OriginalSmoothData must prevent the first terminal Pack/Part/Field exit,
+OriginalSmoothData must prevent the first terminal Pack/that face failure,
 with the first concrete wall at ScaleCriticalTreeCarleson.A.
 ```
 

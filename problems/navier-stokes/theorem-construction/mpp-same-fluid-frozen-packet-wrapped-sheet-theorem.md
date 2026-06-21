@@ -446,7 +446,7 @@ wall:
 
 This is the analytic version of the thought experiment: the ice cube is
 permitted, the wrapped sheet is permitted only as a constrained same-fluid packet,
-and autonomous solid-wall behavior is forced back into Pack/Part/Field exit.
+and autonomous solid-wall behavior is forced back into Pack/that face failure.
 
 ## What This Surface Does And Does Not Prove
 

@@ -15,7 +15,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-participation-transfer-donor-drain-audit-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-terminal-peak-backoff-and-vortex-return-dichotomy-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-singulet-spin-smooth-exterior-compatibility-20260610.md
-  downstream_consequence: "The four participation-debt targets no longer stand as current CM closure blockers. They remain optional positive supplier programs only when the proof explicitly asks to delete the residue rather than use the residue/failure as the Pack/Part/Field exit witness."
+  downstream_consequence: "The four participation-debt targets no longer stand as current CM closure blockers. They remain optional positive supplier programs only when the proof explicitly asks to delete the residue rather than use the residue/failure as the Pack/that face failure witness."
 ---
 
 # MPP ParticipationDebtPassExitTargetClosure.A

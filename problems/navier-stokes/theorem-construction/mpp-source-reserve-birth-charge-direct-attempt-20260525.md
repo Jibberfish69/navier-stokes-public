@@ -54,7 +54,7 @@ of:
 4. terminal Zeno residue already sorted as Pack/Part exit.
 
 The charge cannot be a free new positive source budget.  It must either be
-paid by installed same-ledger structure or become a Pack/Part/Field exit
+paid by installed same-ledger structure or become a Pack/that face failure
 witness.
 
 ## Proof Attempt
@@ -106,7 +106,7 @@ It proves the exact reduction:
 OriginalSmoothData=>ScaleCriticalTreeCarleson.A
 reduces, after installed parent/past/residual/legal ledgers, to proving that
 the first-created positive-scale native source-reserve surplus is paid or
-becomes a Pack/Part/Field exit witness.
+becomes a Pack/that face failure witness.
 ```
 
 Equivalently:
@@ -139,7 +139,7 @@ The first unproved mathematical subclaim is:
 ```text
 RetainedPositiveScaleNativeReserveBirthCharge.A:
 every retained positive-scale first-created native donor-square reserve surplus
-is either paid by same-ledger source geometry or forces Pack/Part/Field exit.
+is either paid by same-ledger source geometry or forces Pack/that face failure.
 ```
 
 Current equivalent entrances are:

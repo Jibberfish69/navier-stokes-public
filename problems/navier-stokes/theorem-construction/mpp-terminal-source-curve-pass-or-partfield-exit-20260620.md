@@ -12,7 +12,7 @@ This note proves the actual mathematical alternative:
 ```text
 endpoint uniform integrability
 or
-subsequential terminal atom, hence Part/Field exit on the same-solution branch.
+subsequential terminal atom, hence that face failure on the same-solution branch.
 ```
 
 It uses the terminal source-curve compactness test and the installed

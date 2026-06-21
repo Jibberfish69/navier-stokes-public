@@ -39,7 +39,7 @@ Exit_m records paid legal/projected/cutoff/boundary exits.
 
 `Pack_Q` supplies one incompressible transported control-volume geometry. Its flow map preserves volume and gives a boundary flux ledger.
 
-`Part_{N,Q}` supplies the common pressure-viscosity tower carrier. `Field_{N,r,Q}` supplies the one-field finite-difference coherence needed to read the selected source-current trace through the same retained field.
+`Part_{N,Q}` records the common pressure-viscosity tower carrier. `Field_{N,r,Q}` supplies the one-field finite-difference coherence needed to read the selected source-current trace through the same retained field.
 
 By `SourceMeasureParticipationDensityBridge.A`, the native positive source residue is the terminal selected positive source-current trace of this shared participation field. Integrating that readout over `Q_R\times[-\varepsilon,0]` gives three contributions:
 

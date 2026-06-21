@@ -111,7 +111,7 @@ selected high packet
 ASAC removes the active-alignment mismatch for retained partners. Local donor
 balance plus entrance decay removes finite non-Zeno donor trees. The remaining
 case is the zero-thickness terminal refill/source-residue branch. In CM
-language that branch can support Pack/Part/Field exit after the CM test has
+language that branch can support Pack/that face failure after the CM test has
 admitted the witness. In the public first-Pack survival chain it is still the
 unpaid branch unless a forward no-free-sink, terminal strip modulus, pure
 pressure Liouville, low-high no-incoming, source-residence evacuation, or
