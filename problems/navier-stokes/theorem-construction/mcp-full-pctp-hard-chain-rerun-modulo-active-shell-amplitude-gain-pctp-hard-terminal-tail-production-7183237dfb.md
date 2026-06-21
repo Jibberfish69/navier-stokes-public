@@ -7,7 +7,7 @@
 3. Use active-shell amplitude gain to get scale-normalized `nu_SCF` Carleson control.
 4. Use that Carleson estimate to eliminate `Jump_avg`.
 5. Insert `Jump_avg` elimination into `PCTP.hard`.
-6. Rerun `PCTP.hard -> terminal Pack/Part/Field/tower readout`.
+6. Rerun `PCTP.hard -> terminal Part/Field/tower readout`.
 
 ## Mechanism scan
 
@@ -37,7 +37,7 @@ The theorem note `mcp-conditional-pctp-hard-discharge-modulo-nu_scf-carleson-cfi
 
 Therefore the conditional chain is:
 
-`active-shell amplitude gain -> scale-normalized nu_SCF Carleson -> Jump_avg eliminated -> PCTP.hard -> terminal Pack/Part/Field/tower readout`.
+`active-shell amplitude gain -> scale-normalized nu_SCF Carleson -> Jump_avg eliminated -> PCTP.hard -> terminal Part/Field/tower readout`.
 
 ## Unclosed source theorem
 

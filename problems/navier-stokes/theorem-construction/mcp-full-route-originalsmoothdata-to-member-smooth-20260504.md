@@ -198,7 +198,7 @@ Jump_{avg}\Rightarrow\bot
 
 ## Noncircularity
 
-The route derives `READ.COVER` directly from no `Jump_avg`. It does not use `End_NS_avg` to prove Pack. Pack is obtained from finite physical cover and deformation ODE bounds. Source-pulse remains a Field-side supplier until the Pack, Part, and Field rows are assembled.
+The route derives `READ.COVER` directly from no `Jump_avg`. It does not use `End_NS_avg` to prove Pack. Pack is obtained from finite physical cover and deformation ODE bounds. Source-pulse remains a Field-side supplier until the Part and Field rows are assembled.
 
 ## Claimed status
 

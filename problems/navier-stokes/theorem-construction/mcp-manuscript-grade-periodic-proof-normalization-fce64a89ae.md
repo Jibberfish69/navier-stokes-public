@@ -75,7 +75,7 @@ pointwise transported-center and field inputs.
 
 Once the pointwise class witness and endpoint package are available, no first finite endpoint face remains.
 
-Proof. Endpoint exhaustiveness gives the possible first faces: dead participation, pack detachment, tower blowup, and field jump, together with cross entries. Participation removes the dead face. Bounded pack gauge removes pack detachment. Tower amplitude control removes tower blowup. Positive field coherence removes jump. Cross entries reduce to these primitive rows.
+Proof. Endpoint exhaustiveness gives the possible first Part/Fields: dead participation, pack detachment, tower blowup, and field jump, together with cross entries. Participation removes the dead face. Bounded pack gauge removes pack detachment. Tower amplitude control removes tower blowup. Positive field coherence removes jump. Cross entries reduce to these primitive rows.
 
 ## Proof Of The Conditional Theorem
 

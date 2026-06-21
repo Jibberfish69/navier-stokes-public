@@ -23,14 +23,14 @@ Dead\vee response\text{-}margin\text{-}collapse
 \vee packing\text{-}detached\vee tower\text{-}blown\vee Jump,
 ```
 
-inside the pointwise `Pack/Part/Field` vocabulary.
+inside the pointwise `Part/Field` vocabulary.
 
 ## Witness vocabulary
 
 The pointwise class witness is
 
 ```math
-CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 ```
 
 Failure of `CM` means at least one primitive law fails:

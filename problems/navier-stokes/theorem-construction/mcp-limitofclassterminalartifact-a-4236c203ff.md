@@ -11,7 +11,7 @@ LimitOfClassTerminalArtifact.A
 Intended role:
 
 ```text
-The endpoint strip with finite L1 terminal mass and infinite every-super-L1 residence cost is a terminal artifact / class-exit witness, not a valid finite-time survivor inside the class certified by Pack/Part/Field.
+The endpoint strip with finite L1 terminal mass and infinite every-super-L1 residence cost is a terminal artifact / class-exit witness, not a valid finite-time survivor inside the class certified by Part/Field.
 ```
 
 This is meant to use the already-installed cost dichotomy, not redo the generic terminal-atom argument.
@@ -63,7 +63,7 @@ That is a legitimate weak-limit object.
 
 ### Class-membership limit
 
-A valid finite-time survivor inside the Pack/Part/Field class must be a limit with the uniform quantitative budgets required by the service it claims:
+A valid finite-time survivor inside the Part/Field class must be a limit with the uniform quantitative budgets required by the service it claims:
 
 ```text
 finite same-solution participation residence,
@@ -84,7 +84,7 @@ The endpoint strip has none of them. Its every-super-L1 residence cost diverges.
 LimitOfClassTerminalArtifact.A:
 Let Q_* be a same-solution terminal endpoint strip extracted from a finite-time breakdown candidate. Assume Q_* has finite L1 endpoint mass and positive terminal-window mass on windows of length tau_m -> 0, hence infinite every-super-L1 residence cost by the cost dichotomy.
 
-If valid class survival requires uniform Pack/Part/Field membership constants in the relevant service topology, then Q_* is not a valid finite-time survivor. It is only a weak terminal measure-limit artifact / class-exit witness.
+If valid class survival requires uniform Part/Field membership constants in the relevant service topology, then Q_* is not a valid finite-time survivor. It is only a weak terminal measure-limit artifact / class-exit witness.
 ```
 
 ## Proof
@@ -137,7 +137,7 @@ This proves the route-relative theorem under the class-as-uniform-budget reading
 ```text
 finite L1 endpoint strip + infinite every-super-L1 cost
 + uniform service topology requiring a terminal-window modulus
-=> no valid Pack/Part/Field class survival through that service.
+=> no valid Part/Field class survival through that service.
 ```
 
 It also supports the user's Pack(Q) non-exclusion pivot:
@@ -156,7 +156,7 @@ This theorem depends on the class-witness-record principle:
 valid survivor = uniform service-budget survivor, not merely weak measure-limit existence.
 ```
 
-That principle is consistent with the Pack/Part/Field canonicality and primitive-minimality surfaces, but it should be wired explicitly into the class-witness-record layer as:
+That principle is consistent with the Part/Field canonicality and primitive-minimality surfaces, but it should be wired explicitly into the class-witness-record layer as:
 
 ```text
 UniformServiceTopologyCertification.A

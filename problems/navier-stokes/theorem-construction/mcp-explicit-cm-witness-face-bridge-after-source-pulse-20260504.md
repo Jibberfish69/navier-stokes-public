@@ -1,8 +1,8 @@
-# Explicit CM witness-face bridge after the source-pulse supplier route
+# Explicit CM witness bridge after the source-pulse supplier route
 
 ## Status
 
-Conditional CM witness-face bridge written explicitly. This note consumes the source-pulse / no-`Jump_avg` supplier route only as a Field-side readout supplier. It keeps the three CM faces separate.
+Conditional CM witness bridge written explicitly. This note consumes the source-pulse / no-`Jump_avg` supplier route only as a Field-side readout supplier. It keeps the three CM Part/Fields separate.
 
 ## CM target
 
@@ -29,7 +29,7 @@ Part_{N,Q},
 Field_{N,r,Q}.
 ```
 
-## Row 1: Pack witness
+## Row 1: Field-window support
 
 The retained terminal-tail pack witness is supplied by the pack terminal-tail row:
 
@@ -198,4 +198,4 @@ This bridge supplies a conditional route to `Member(Q)` after all three rows are
 
 ## Claimed status
 
-The explicit CM witness-face bridge is written. It is conditional on the listed row inputs, and it is the correct typed consumer of the source-pulse supplier route. Full closure still requires the row inputs to be authoritative and promoted together under the current proof-assembly/review surfaces.
+The explicit CM witness bridge is written. It is conditional on the listed row inputs, and it is the correct typed consumer of the source-pulse supplier route. Full closure still requires the row inputs to be authoritative and promoted together under the current proof-assembly/review surfaces.
