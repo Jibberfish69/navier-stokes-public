@@ -55,10 +55,10 @@ chunk:
       Here J in is incoming participation flux, M CM is the finite shared-participation/source-current envelope, and Exit denotes paid legal/projected/cutoff/boundary exits.
 
       \[
-      CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+      CM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.
       \]
 
-      The primary geometric reading is Pack-first: a terminal atom is an attempted order-one source-current accumulation inside a volume-preserving transported packet. It lands on another face only when the compensation is explicitly carried by that face.
+      The primary geometric reading is Part/Field: a terminal atom is an attempted order-one source-current accumulation inside a volume-preserving transported packet. It lands on another face only when the compensation is explicitly carried by that face.
 
       If Exit>0, the branch exits B ASAC closed directly. This is already a named paid-exit channel.
 
@@ -388,8 +388,8 @@ chunk:
     diagnostic theorem. The exits forced by a B ASAC closed terminal atom are assigned
     to the Part and Field witness faces.\n\nHere J in is incoming participation
     flux, M CM is the finite shared-participation/source-current envelope, and Exit
-    denotes paid legal/projected/cutoff/boundary exits.\n\n\\[\nCM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.\n\\]\n\nThe
-    primary geometric reading is Pack-first: a terminal atom is an attempted order-one
+    denotes paid legal/projected/cutoff/boundary exits.\n\n\\[\nCM_{N,r,Q}=Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}.\n\\]\n\nThe
+    primary geometric reading is Part/Field: a terminal atom is an attempted order-one
     source-current accumulation inside a volume-preserving transported packet. It
     lands on another face only when the compensation is explicitly carried by that
     face.\n\nIf Exit>0, the branch exits B ASAC closed directly. This is already a

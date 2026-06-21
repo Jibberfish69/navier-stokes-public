@@ -111,13 +111,7 @@ chunk:
       \subsection{Pctp Hard Bridge License Into Cm Audit Note}
 
       \[
-      CM_{N,r,Q}
-      =
-      Pack_Q
-      \wedge
-      Part_{N,Q}
-      \wedge
-      Field_{N,r,Q}.
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
       \]
 
       Every imported branch used by the terminal route must so land in one of these three slots, or else remain a downstream readout/context branch.
@@ -532,13 +526,7 @@ chunk:
     \subsection{Pctp Hard Bridge License Into Cm Audit Note}
 
     \[
-    CM_{N,r,Q}
-    =
-    Pack_Q
-    \wedge
-    Part_{N,Q}
-    \wedge
-    Field_{N,r,Q}.
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
     \]
 
     Every imported branch used by the terminal route must so land in one of these three slots, or else remain a downstream readout/context branch.

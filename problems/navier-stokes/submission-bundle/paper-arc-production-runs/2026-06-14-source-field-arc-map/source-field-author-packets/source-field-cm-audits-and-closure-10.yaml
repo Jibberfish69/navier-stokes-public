@@ -268,7 +268,7 @@ chunk:
       \]
 
       \[
-      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+      CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q},
       \]
 
       \[
@@ -325,7 +325,7 @@ chunk:
       for Source Weighted Terminal Angular Depletion.A. The selected packet has fixed
       positive source-weighted angular mass after ordinary paid alternatives have
       been removed.\n\nThe same-fluid carrier and participation are part of the selected
-      retained branch; otherwise the failure has already sorted into not Pack Q or
+      retained branch; otherwise the failure has already sorted into Field-window evidence outside CM or
       not Part N,Q . Projected-cutoff, boundary, and other named legal exits are removed
       by their installed records. Finite and non-Zeno refill trees are removed by
       Local Donor \n% ... source excerpt truncated for packet size ...\n"
@@ -644,7 +644,7 @@ chunk:
     \]
 
     \[
-    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q},
+    CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q},
     \]
 
     \[
@@ -707,7 +707,7 @@ chunk:
 
     Start from a retained failure sequence for Source Weighted Terminal Angular Depletion.A. The selected packet has fixed positive source-weighted angular mass after ordinary paid alternatives have been removed.
 
-    The same-fluid carrier and participation are part of the selected retained branch; otherwise the failure has already sorted into not Pack Q or not Part N,Q . Projected-cutoff, boundary, and other named legal exits are removed by their installed records. Finite and non-Zeno refill trees are removed by Local Donor Balance.A+Entrance Leaf Decay.A.
+    The same-fluid carrier and participation are part of the selected retained branch; otherwise the failure has already sorted into Field-window evidence outside CM or not Part N,Q . Projected-cutoff, boundary, and other named legal exits are removed by their installed records. Finite and non-Zeno refill trees are removed by Local Donor Balance.A+Entrance Leaf Decay.A.
 
     The remaining branch is terminal Zeno. Zeno Compactness Extraction.A gives an ancient local suitable source-residue limit with nonzero inherited native positive source residue. First selected slice/minimality gives No Earlier Selected Source Slice.A. By ASACDefect Measure.A, the ASAC-paid defect vanishes in this same terminal extraction.
 
