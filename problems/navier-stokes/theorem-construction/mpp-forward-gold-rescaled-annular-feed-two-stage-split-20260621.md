@@ -181,7 +181,7 @@ of three plain things:
 or
 
 \[
-\text{or the repeated feed freezes into a rigid profile that is already forbidden.}
+\text{the repeated feed freezes into a rigid profile that is already forbidden.}
 \tag{RAF.10c}
 \]
 
