@@ -125,9 +125,9 @@ source_sections:
     A finite Clay terminal witness is consumed by the CM proof when the witness has entered the same-fluid terminal packet tree and the ordered test produces one of the following outcomes:
     \begin{enumerate}[leftmargin=*]
     \item \(\Member(Q;\Owork)\): all three faces survive and the member-side readout continues the same branch.
-    \item \(\neg\Pack_Q\): the selected object has no same-fluid packet carrier.
-    \item \(\Pack_Q\wedge\neg\Part_{N,Q}\): a carrier survives without the same pressure-viscosity participation.
-    \item \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\): carrier and participation survive without positive-scale coherent field readout.
+    \item \(Field-window evidence outside CM\): the selected object has no same-fluid packet carrier.
+    \item \(\neg\Part_{N,Q}\): a carrier survives without the same pressure-viscosity participation.
+    \item \(\Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\): carrier and participation survive without positive-scale coherent field readout.
     \end{enumerate}
     In the three failed cases the derived face failure is embedded as
     \[
@@ -146,9 +146,9 @@ source_sections:
     The member outcome is the same-solution continuation branch.
     The exit outcome is supported by a first failed witness face:
     \[
-      \neg\Pack_Q,\qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      Field-window evidence outside CM,\qquad
+      \neg\Part_{N,Q},\qquad
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     \end{theorem}
 
@@ -301,9 +301,9 @@ source_sections:
     \]
     The member outcome gives the same-solution readout chain up to the selected continuation consumer.  The exit outcome is supported by a first failed witness face:
     \[
-      \neg\Pack_Q,\qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      Field-window evidence outside CM,\qquad
+      \neg\Part_{N,Q},\qquad
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     \end{theorem}
 
@@ -435,9 +435,9 @@ source_sections:
     has one of the following proof roles:
     \begin{enumerate}[leftmargin=*]
     \item \(\Member(Q;\Owork)\): \(Q\) retains carrier, participation, field readout, and continuation readout.
-    \item \(\neg\Pack_Q\): \(Q\) has no positive same-fluid carrier.
-    \item \(\Pack_Q\wedge\neg\Part_{N,Q}\): \(Q\) has carrier without same pressure-viscosity participation.
-    \item \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\): \(Q\) has carrier and participation without positive-scale coherent field readout.
+    \item \(Field-window evidence outside CM\): \(Q\) has no positive same-fluid carrier.
+    \item \(\neg\Part_{N,Q}\): \(Q\) has carrier without same pressure-viscosity participation.
+    \item \(\Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\): \(Q\) has carrier and participation without positive-scale coherent field readout.
     \end{enumerate}
     \end{proposition}
 

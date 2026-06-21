@@ -129,11 +129,11 @@ source_sections:
 
     The order matters.  A missing body is the first failure and is recorded before any equation or field question is asked.  A retained body with broken same-law participation has lost the equation that would make the derivative tower a Navier--Stokes tower.  A retained body with retained participation reaches the field question, where it can still lose every positive scale of coherent velocity readout.  The terminal alternatives are
     \[
-      \neg\Pack_Q,
+      Field-window evidence outside CM,
       \qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},
+      \neg\Part_{N,Q},
       \qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     These alternatives are the proof discipline for the rest of the paper.  A branch may describe a pulse, reserve, jump, weak limit, shear sheet, or Zeno source.  The manuscript counts it as a class-exit payment only after it names the same-solution record under test and derives one displayed alternative as the first failure.
 
@@ -162,7 +162,7 @@ source_sections:
     \]
     In each case the terminal story points at information without a same-fluid body carrying it.  A number, trace, source label, or endpoint location is short of a terminal Navier--Stokes object.  The proof records the first lost face as
     \[
-      \neg\Pack_Q.
+      Field-window evidence outside CM.
     \]
     After this face fails, the terminal record stops at Pack.  The Part and Field questions require a carrier on which the law and field can be read.
 
@@ -183,7 +183,7 @@ source_sections:
 
     Dead is the clean Part mechanism.  A carrier is still present, and the proof can point to the same terminal body.  The failure is that the same pressure-viscosity-incompressibility law no longer acts on that body through the tower being tested.  The word does not mean zero velocity.  It means loss of same-object dynamics.  In symbols, the first face is
     \[
-      \Pack_Q\wedge\neg\Part_{N,Q}.
+      \neg\Part_{N,Q}.
     \]
     Once Part fails, neighboring field readings usually fail as a consequence.  The proof records Part as the first lost requirement because the equation law has already stopped participating on the selected carrier.
 
@@ -191,7 +191,7 @@ source_sections:
 
     Jump is the clean Field mechanism.  The carrier survives and the local law remains readable far enough to compare neighboring readings.  The readings fail to assemble into one velocity field on any positive scale allowed by the record.  The first face is
     \[
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     A jump is a coherence failure: finite local readings fail to be the readings of one smooth field.
 
