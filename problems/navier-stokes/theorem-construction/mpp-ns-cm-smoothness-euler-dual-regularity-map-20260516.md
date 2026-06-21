@@ -131,7 +131,7 @@ from vocabulary alone.
 | `Pack_Q` | retain usable flux-volume and, on stronger NS surfaces, same-fluid cover / finite deformation coordinates | shared Pack is `EVol`; Lagrangian or material-packet Pack is `ELag` | Flux-volume Pack failure exits both; Lagrangian Pack failure exits only a stronger Euler carrier layer |
 | `Part_{N,Q}` | keep the differentiated pressure-viscosity carrier and neighboring participation law active | Euler has only `EPart^{press}`: pressure/incompressibility compatibility without viscous entrainment | NS participation proofs become diagnostics for exactly what Euler lacks; they do not exclude Euler slip, dead-relative-to-jet regions, or jump-like shear |
 | `Field_{N,r,Q}` | keep one coherent positive-scale velocity/pressure field across local towers | `Field` becomes `EReg` / optional one-field regularity | NS field proofs give Euler nonsmoothness diagnostics: one-field coherence may fail while `Member_E` and `EPart^{press}` still hold |
-| `H^s` readout | convert CM witness to classical continuation | no Euler membership face | readout gaps are bridge gaps unless they have been pushed back into Pack, Part, or Field |
+| `H^s` readout | convert CM witness to classical continuation | no Euler membership face | readout gaps are bridge gaps unless they have been pushed back into Part or Field |
 
 ## Main Repo Seats
 
@@ -181,7 +181,7 @@ The Euler dual reads those as:
 Authority:
 `mpp-class-membership-forward-invariance-theorem-program.md`.
 
-On NS, `CFI.A` consumes the Pack/Part/Field witness-face record into `Member(Q)`.
+On NS, `CFI.A` consumes the Part/Field witness record into `Member(Q)`.
 On Euler, the mirror of `CFI.A` can only be a regularity-forward-invariance
 candidate over `Member_E`. It cannot define Euler membership.
 

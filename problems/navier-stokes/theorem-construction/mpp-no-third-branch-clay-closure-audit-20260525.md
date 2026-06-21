@@ -20,13 +20,13 @@ The CM contrapositive move is role-typed:
 ```text
 O_fail
 => CM-test-admissible terminal obstruction
-=> derived first Pack/Part/Field face failure
+=> derived first Part/Field Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
 The phrase "capable of nonsmoothness" is not itself a proof of `Exit(Q)`. It is
-only the reason the failure branch must be tested against the CM witness faces.
-The exit conclusion is earned only after the Pack/Part/Field face failure has
+only the reason the failure branch must be tested against the CM witnesss.
+The exit conclusion is earned only after the Part/Field Part/Field failure has
 actually been derived.
 
 The complementary branch is:
@@ -43,7 +43,7 @@ O_pass
 There is no terminal branch that is simultaneously:
 
 1. a same-solution in-class continuation branch; and
-2. a derived Pack/Part/Field face-failure branch used as a finite nonsmoothness
+2. a derived Part/Field Part/Field-failure branch used as a finite nonsmoothness
    witness.
 
 Equivalently:
@@ -57,7 +57,7 @@ while a mechanism-derived failure has the form:
 
 ```text
 CM-test-admissible terminal obstruction
-=> first failed Pack/Part/Field face
+=> first failed Part/Field face
 => Exit(Q; O_NS^work):=not Member(Q; O_NS^work).
 ```
 
@@ -101,7 +101,7 @@ If `O` is on the fail branch, the audit may not jump from "bad enough to be
 nonsmooth" to `Exit(Q)`. The branch must first be entered into the CM terminal
 test by a Clay-facing entry theorem such as `ClayAdmissibleFiniteBreakdown.A`
 and `CanonicalTerminalPacketCapture.A`, and then its first failed service must
-be derived by a Pack-first exhaustion theorem such as
+be derived by a Field-certification exhaustion theorem such as
 `AnyFiniteFailureWitnessCMExit.A`:
 
 ```text
@@ -110,7 +110,7 @@ or Pack_Q + not Part_{N_s,Q},
 or Pack_Q + Part_{N_s,Q} + forall r>0 not Field_{N_s,r,Q}.
 ```
 
-Only after that face failure is derived may `ClayCMContrapositiveEmbedding.A`
+Only after that Part/Field failure is derived may `ClayCMContrapositiveEmbedding.A`
 support the class-exit primitive:
 
 ```text
@@ -144,7 +144,7 @@ NoThirdInClassBranch.A
 There is no branch which both:
 
 1. remains a legal same-solution continuation branch; and
-2. carries the derived Pack/Part/Field face failure used as the finite
+2. carries the derived Part/Field Part/Field failure used as the finite
    nonsmoothness witness.
 
 ### Proof
@@ -171,11 +171,11 @@ This proves that a referee cannot demand a third object of the following form:
 
 ```text
 a terminal same-solution branch that remains inside Member(Q)
-but also carries the Pack/Part/Field face failure used to block continuation.
+but also carries the Part/Field Part/Field failure used to block continuation.
 ```
 
 Such an object is ruled out by the membership readout on the pass side and by
-the derived Pack/that face failure classification on the fail side.
+the derived Pack/that Part/Field failure classification on the fail side.
 
 ## What This Does Not Prove By Itself
 
@@ -203,14 +203,14 @@ work is:
 ```text
 1. identify O as a real same-solution obstruction, not a generated label;
 2. prove CM-test entry for that O without assuming continuation or Member(Q);
-3. derive the first failed Pack/Part/Field face for the fail branch;
+3. derive the first failed Part/Field face for the fail branch;
 4. read the pass branch through retained continuation services and Member(Q).
 ```
 
 That is Thomas's pass/fail engine in a referee-usable form. It avoids forcing
 one favorite positive estimate to be the unique smoothness mechanism, while
 also avoiding the cheap move where any bad branch is called `Exit(Q)` before
-its witness-face mechanism is proved.
+its witness mechanism is proved.
 
 ## Drift Veto
 
@@ -230,8 +230,8 @@ OriginalSmoothData => not GenuineCMExit(T_*)
 ```
 
 as this note's remaining burden. Use concrete obstruction-by-obstruction CM
-entry plus Pack/Part/Field face derivation instead.
+entry plus Part/Field Part/Field derivation instead.
 
 Do not treat CM as a positive regularity class that a smooth solution must be
-proved to preserve. In this note, CM is the class-membership and witness-face
+proved to preserve. In this note, CM is the class-membership and witness
 grammar used to separate pass-as-continuation from fail-as-exit.

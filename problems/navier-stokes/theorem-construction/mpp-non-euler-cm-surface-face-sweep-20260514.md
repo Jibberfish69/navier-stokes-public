@@ -9,10 +9,10 @@ Navier-Stokes text surface except Euler-related material. The rule is:
 
 ```text
 do not ask whether the surface proves smoothness;
-ask which selected failure it produces, and which CM face that failure damages.
+ask which selected failure it produces, and which CM Part/Field that failure damages.
 ```
 
-The CM faces remain:
+The CM Part/Fields remain:
 
 ```text
 Pack_Q, Part_{N,Q}, Field_{N,r,Q}.
@@ -39,7 +39,7 @@ of:
 1. `Pack` or a `Pack` bridge;
 2. `Part` or a `Part` bridge;
 3. `Field` or `Field` receiver/readout support;
-4. a typed `Pack/Part/Field/Zeno` subset route;
+4. a typed `Part/Field/Zeno` subset route;
 5. a source-wall `Field` diagnostic or supplier;
 6. supplier/readout/export/manuscript/generated/source-history/runtime support.
 
@@ -89,14 +89,14 @@ problems/navier-stokes/non-euler-failure-face-diagnostic-map-20260514.yaml
 For every indexed non-Euler surface, the map records:
 
 ```text
-selected failure type -> CM face break, or support quarantine.
+selected failure type -> CM Part/Field break, or support quarantine.
 ```
 
 The counts are:
 
 | Diagnostic status | Count |
 |---|---:|
-| direct face landing | 846 |
+| direct Part/Field landing | 846 |
 | selected source/Zeno failure landing in Field | 417 |
 | typed subset landing | 96 |
 | support quarantine | 541 |
@@ -146,7 +146,7 @@ The proof-rule counts are:
 
 | Proof rule | Count |
 |---|---:|
-| direct face failure | 846 |
+| direct Part/Field failure | 846 |
 | selected retained Field failure | 417 |
 | finite face disjunction | 96 |
 | no selected CM failure without bridge | 541 |
@@ -238,7 +238,7 @@ Manual corrections installed in the index are:
 
 Generated authority YAML, review/release state, submission manifests, and
 derived copies are carriers. Their theorem content inherits the
-`Pack/Part/Field` witness-face gate from the theorem notes they cite; they do
+`Part/Field` witness gate from the theorem notes they cite; they do
 not create independent faces, and `Member` is reached only after the triadic CM
 witness.
 
@@ -282,7 +282,7 @@ one-field coherence  -> Field
 ```
 
 The readout bridge from CM to the classical `H^s`, `s>5/2`, continuation norm
-is not a fourth CM face.
+is not a fourth CM Part/Field.
 
 The primary-surface inventory below is the current `theorem-packet.yaml` list
 with fixed-nu Euler transfer entries removed. It is a theorem-packet subcase of
@@ -290,7 +290,7 @@ with fixed-nu Euler transfer entries removed. It is a theorem-packet subcase of
 
 | # | Surface | CM sort |
 |---|---|---|
-| 1 | `route-lock.yaml` | governing object law; names Pack/Part/Field but proves no face |
+| 1 | `route-lock.yaml` | governing object law; names Part/Field but proves no face |
 | 2 | `modernized-four-body-schema-torus-tower-geometry.md` | context/support only |
 | 3 | `live-frontier-honest-cut-reduction.md` | route audit; mentions endpoint cells but proves no face |
 | 4 | `strict-shadow-no-remainder-corollary.md` | downstream export; not CM |
@@ -299,7 +299,7 @@ with fixed-nu Euler transfer entries removed. It is a theorem-packet subcase of
 | 7 | `tps-strong-bridge-sg-lemma-family.md` | downstream selector branch; not CM |
 | 8 | `tps-dynamic-source-fit-and-open-frontier.md` | downstream selector/source branch; not CM |
 | 9 | `tps-coarse-flow-pair-gap-theorem-candidate.md` | downstream candidate; not CM |
-| 10 | `mpp-terminal-class-membership-six-burden-closure-note.md` | CM packet: `LCI.A/FCI.5f/OFP.A/CFI.A/End_NS`; closes through Pack/Part/Field endpoint package under named hypotheses |
+| 10 | `mpp-terminal-class-membership-six-burden-closure-note.md` | CM participation-field record: `LCI.A/FCI.5f/OFP.A/CFI.A/End_NS`; closes through Part/Field endpoint package under named hypotheses |
 | 11 | `mpp-class-membership-contradiction-frontier-packet.md` | route context; first failure language only |
 | 12 | `mpp-class-membership-forward-invariance-theorem-program.md` | membership bridge; consumes Pack+Part+Field to `Member`, not a separate face |
 | 13 | `mpp-one-field-forward-preservation-theorem-program.md` | `Field` support; failure is one-field coherence failure |
@@ -313,16 +313,16 @@ with fixed-nu Euler transfer entries removed. It is a theorem-packet subcase of
 | 21 | `mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md` | LCI support into `Field` |
 | 22 | `mpp-lci-a-direct-transported-center-package-note.md` | DTC/LCI support into `Field` |
 | 23 | `mpp-class-membership-endpoint-matrix-closure-contract-note.md` | endpoint matrix: `(Pack, packing-detached)`, `(Part, Dead)`, `(Field, Jump)` plus tower/cross bookkeeping |
-| 24 | `mpp-class-membership-full-bridge-ledger-note.md` | bridge ledger; ordered Pack/Part/Field witness-face record, not a new face |
+| 24 | `mpp-class-membership-full-bridge-ledger-note.md` | bridge ledger; ordered Part/Field witness record, not a new face |
 | 25 | `mpp-readout-endpoint-compatibility-completion-note.md` | readout bridge: `Field.Read`, `DTC.Read`, `READ.END`; downstream from CM |
 | 26 | `mpp-lci-a-pre-csp-still-live-receiver-admission-note.md` | receiver admission into `Field` chain |
 | 27 | `mpp-collar-to-jump-pivot-note.md` | diagnostic sidecar; possible `Field/Jump` manifestation, not installed as a face |
 | 28 | `mpp-lci-a-transported-center-residual-forcing-note.md` | RCF/LCI support into `Field` |
-| 29 | `mpp-frozen-family-pressure-channel-reduction-note.md` | pressure/source supplier; no direct CM face |
-| 30 | `mpp-frozen-family-resonant-pressure-sufficient-reduction-note.md` | pressure/source supplier; no direct CM face |
-| 31 | `mpp-pressure-source-supplier-verification-ledger-note.md` | source supplier ledger; no direct CM face |
-| 32 | `mpp-normalized-adjoint-amplitude-four-certificate-discharge-20260504.md` | demoted source-drain support; no direct CM face |
-| 33 | `mpp-source-drain-definition-alignment-and-discharge-20260504.md` | demoted source-drain support; no direct CM face |
+| 29 | `mpp-frozen-family-pressure-channel-reduction-note.md` | pressure/source supplier; no direct CM Part/Field |
+| 30 | `mpp-frozen-family-resonant-pressure-sufficient-reduction-note.md` | pressure/source supplier; no direct CM Part/Field |
+| 31 | `mpp-pressure-source-supplier-verification-ledger-note.md` | source supplier ledger; no direct CM Part/Field |
+| 32 | `mpp-normalized-adjoint-amplitude-four-certificate-discharge-20260504.md` | demoted source-drain support; no direct CM Part/Field |
+| 33 | `mpp-source-drain-definition-alignment-and-discharge-20260504.md` | demoted source-drain support; no direct CM Part/Field |
 | 34 | `mpp-independent-math-verification-audit.md` | audit only |
 | 35 | `mpp-pctp-hard-governance-consumption-audit-note.md` | supplier/readout only |
 | 36 | `mcp-canonical-pctp-hard-bridge-from-averaged-terminal-tail-route-cfi-a-1500f83b37.md` | downstream readout: averaged Field/readout to endpoint |
@@ -368,9 +368,9 @@ Thus the root group is closed as a face-sorting object:
 ```text
 Carleson selected failure -> Field
 Zeno selected failure     -> Field
-height/low-strain         -> Pack/Part/Field/Zeno subset
+height/low-strain         -> Part/Field/Zeno subset
 signed-current/native-square-reserve presentations -> support routes reducing to those cases
-PCTP/source/no-jump readout -> downstream support, not a CM face
+PCTP/source/no-jump readout -> downstream support, not a CM Part/Field
 ```
 
 ## Named Boundary Lemmas
@@ -482,7 +482,7 @@ authority/generated surfaces  -> carry the installed sweep; no new face
 submission/manuscript surfaces -> export/copy support; no new face
 source/history surfaces       -> provenance; no new face without promotion
 runtime/governance surfaces   -> operational support; no theorem face
-authority carriers            -> inherit the Pack/Part/Field witness-face gate
+authority carriers            -> inherit the Part/Field witness gate
 ```
 
 The only theorem-bearing categories capable of CM promotion are exactly the

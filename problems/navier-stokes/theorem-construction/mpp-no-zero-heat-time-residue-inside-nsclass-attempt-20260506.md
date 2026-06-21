@@ -18,7 +18,7 @@ NoZeroHeatTimeResidueInsideNSClass.A.
 ```
 
 For every fixed `\nu>0`, no retained same-fluid Navier-Stokes class member
-carrying the Pack/Part/Field witness laws can generate a native positive
+carrying the Part/Field witness laws can generate a native positive
 source-residue branch with:
 
 ```math
@@ -131,7 +131,7 @@ Thus `(NZH.8)` may have order-one terminal effect even though `(NZH.7)` has
 zero heat-time moment.  Fixed positive viscosity alone does not force temporal
 spread of an `L^1_t` source concentration at the terminal slice.
 
-## 3. Why Pack/Part/Field do not add the missing estimate here
+## 3. Why Part/Field do not add the missing estimate here
 
 The post-ASAC route has already spent:
 
@@ -143,7 +143,7 @@ LocalDonorBalance.A + EntranceLeafDecay.A for non-Zeno donor trees.
 ```
 
 What remains is precisely a Zeno source-refill branch.  On that branch,
-Pack/Part/Field legality gives:
+Part/Field legality gives:
 
 ```text
 bounded-overlap same-fluid localization,

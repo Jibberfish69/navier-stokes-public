@@ -2,7 +2,7 @@
 
 Date: 2026-06-20
 
-Status: route-facing audit for the Pack-before-Part dependency.
+Status: route-facing audit for the Pack-out-of-CM dependency.
 
 Proof mode: Navier-Stokes CM contrapositive class exit.
 
@@ -14,7 +14,7 @@ This note audits the dependency shape:
 not Pack_Q before the original Navier-Stokes participation law is applied to the live terminal object.
 ```
 
-The Silver Pack/Part/Field route is still valid after a legitimate Pack window,
+The Silver Part/Field route is still valid after a legitimate Pack window,
 carrier, readout, or jump-comparison structure has been admitted. The audit
 targets only those branches that were disposed as `not Pack_Q` before the
 participation question was asked.
@@ -27,7 +27,7 @@ Exit(Q) := not Member(Q).
 
 ## Rule
 
-For a pre-Pack, no-window, or singular terminal object, do not use `not Pack_Q`
+For a outside-CM participation-field record-window, no-window, or singular terminal object, do not use `not Pack_Q`
 as terminal disposal until the object has been typed.
 
 First ask whether the object still has a meaningful pointwise original
@@ -46,7 +46,7 @@ If that status is present, the object is resurfaced under the original
 Navier-Stokes participation law first. The dead/blown question is read from the
 pointwise participation/tower mechanism before any Pack-window conclusion is
 spent. A later local Silver readout may express that failure as
-`not Part_{N,Q}` only after a local tested record has been named; the pre-Pack
+`not Part_{N,Q}` only after a local tested record has been named; the outside-CM participation-field record-window
 test itself is not indexed by an admitted `Q` and must be stated with the live
 object and original NS law named.
 
@@ -71,9 +71,9 @@ problems/navier-stokes/theorem-construction/mcp-partfieldbeforepacklicensing-a-p
 That note states that the participation and field-readout tests have primitive
 service content and may be tested before ordinary positive-radius `Pack_Q` on a
 same-solution terminal witness. This audit retypes the participation side more
-strictly: the pre-Pack question is the original Navier-Stokes participation law applied to the live same-solution
+strictly: the outside-CM participation-field record-window question is the original Navier-Stokes participation law applied to the live same-solution
 terminal object; `Part_{N,Q}` is the later localized Silver expression after a local
-tested record is named. Every pre-Pack `not Pack_Q` branch must be checked for
+tested record is named. Every outside-CM participation-field record-window `not Pack_Q` branch must be checked for
 the original NS participation law before it is allowed to remain a Pack-only
 exit.
 
@@ -81,7 +81,7 @@ exit.
 
 | Branch condition | Classification |
 | --- | --- |
-| Pack has already been admitted as a legitimate window/carrier/readout/jump setting | Keep the Silver Pack/Part/Field order. |
+| Pack has already been admitted as a legitimate window/carrier/readout/jump setting | Keep the Silver Part/Field order. |
 | Selected unpaid infinite donor-refill ancestry has no finite packet ancestry window and no same-solution terminal original participation record | Keep `not Pack_Q` / `(Pack, packing-detached)` as a true ancestry/window/carrier failure. |
 | Raw native source residue or terminal source residue is still tied to the original NS pressure-viscosity-source participation law at a point or limiting record | Test the original Navier-Stokes participation law first; after the local tested record is named, the first Silver failure is `not Part_{N,Q}` / `(Part, Dead)`, not Pack-only. |
 | Terminal zero-radius Zeno or `B_ASAC` atom has the same original-NS terminal source/pressure-viscosity participation record | Test the original Navier-Stokes participation law first as zero heat-time participation / lawful source-participation failure; local Silver notation may then record the failure as `not Part_{N,Q}`. |
@@ -92,7 +92,7 @@ exit.
 
 ## Downstream consequence
 
-The affected corpus is not every Pack/Part/Field surface. The affected corpus is
+The affected corpus is not every Part/Field surface. The affected corpus is
 the subset whose proof force depends on:
 
 ```text
@@ -112,7 +112,7 @@ then Part and Field are tested inside that admitted structure.
 
 ## Bridge still owed
 
-For each resurfaced pre-Pack branch, the exact bridge is:
+For each resurfaced outside-CM participation-field record-window branch, the exact bridge is:
 
 ```text
 the original NS participation law diagnosis

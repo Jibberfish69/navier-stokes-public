@@ -18,8 +18,8 @@ Concrete form: the same maximal Navier-Stokes solution from original smooth
 data must not realize its first terminal Pack failure through the produced
 `B_ASAC` strain-aligned terminal atom.
 
-This is stronger than CM face landing. The face bridge says the atom is typed
-as Pack/that face failure. The present theorem would show that original smooth
+This is stronger than CM Part/Field landing. The face bridge says the atom is typed
+as Pack/that Part/Field failure. The present theorem would show that original smooth
 data cannot produce that exit as an actual first terminal event.
 
 ## Minimal First-Exit Setup
@@ -41,7 +41,7 @@ strain-aligned `B_ASAC` terminal atom. The new face-bridge theorem gives:
 
 ```text
 terminal strain-aligned B_ASAC atom
-=> Pack/Part/Field face landing.
+=> Part/Field Part/Field landing.
 ```
 
 That is not yet a contradiction. It types the exit; it does not bound the
@@ -56,15 +56,15 @@ below `T`. It does not give a uniform terminal bound as `t -> T`.
 
 So preterminal smoothness alone does not prove no first Pack exit.
 
-### 2. CM face bridge
+### 2. CM Part/Field bridge
 
 `TerminalStrainAlignmentFaceBridge_{B_ASAC}.A` prevents the atom from being an
-untyped in-class third branch. It lands the atom in Pack, Part, or Field.
+untyped in-class third branch. It lands the atom in Part or Field.
 
 The public-finality theorem needs more:
 
 ```text
-original smooth data => no first Pack/that face failure.
+original smooth data => no first Pack/that Part/Field failure.
 ```
 
 Classification of the exit does not provide that implication.
@@ -121,7 +121,7 @@ in the retained strain-aligned `B_ASAC` subcase.
 
 `NS-LIVE-20260609-082`: the loop has proved the terminal strain-alignment face
 bridge, but public Clay finality still needs a no-first-exit theorem. A direct
-attempt shows that preterminal smoothness, CM face landing, and installed
+attempt shows that preterminal smoothness, CM Part/Field landing, and installed
 continuation criteria do not bound the terminal Pack strain integral. The next
 work unit is
 `RetainedPositiveScaleNativeReserveBirthCharge_{B_ASAC-strain}.A` /

@@ -65,12 +65,12 @@ above base `Member_E`.
 
 3. The all-non-Euler sweep is exhaustive over the repo's non-Euler NS text
    surfaces: 1944 included, 71 Euler/fixed-nu/Euler-class surfaces excluded. It
-   sorts surfaces into Pack, Part, Field, typed-subset, or support.
+   sorts surfaces into Part and Field, typed-subset, or support.
    Source:
    `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/non-euler-surface-face-sweep-index-20260514.yaml:1`.
 
 4. The diagnostic map states the same boundary at row level: only Pack, Part,
-   and Field are CM witness faces; source-wall and readout notes are support
+   and Field are CM witnesss; source-wall and readout notes are support
    until a selected retained branch lands in one of those faces. It reports
    `Field_{N,r,Q}: 865`, `Pack_Q: 340`, `Part_{N,Q}: 346`, and
    `no_independent_face: 585` face-break readings.
@@ -112,7 +112,7 @@ checks pass.
 1. Same event: the Euler object is the same nonsmooth mechanism, or a checked
    local/global/singular-limit representation of that mechanism.
 2. Euler entrance: `EVol+EMom` is proved or imported with stated hypotheses.
-3. NS exit: the selected NS packet lands in a CM face supporting
+3. NS exit: the selected NS packet lands in a CM Part/Field supporting
    `Exit(Q):=not Member(Q)`.
 4. Mechanism: the NS failure is loss of fixed-viscosity participation,
    one-field coherence, or optional material-carrier regularity rather than
@@ -172,7 +172,7 @@ Source:
 Audit result:
 
 ```text
-Pack_Q + not Part_{N,Q}
+not Part_{N,Q}
 ```
 
 is an NS class-exit face. It becomes Euler class-entrance exactly when the same
@@ -198,7 +198,7 @@ Source:
 Audit result:
 
 ```text
-Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}
+Part_{N,Q} + forall r>0 not Field_{N,r,Q}
 ```
 
 is NS class-exit. It becomes Euler class-entrance when the same event is an
@@ -217,16 +217,16 @@ This table follows every record in
 | `zero_radius_terminal_packet_pack_exit` | `not Pack_Q` | no positive terminal radius / Zeno endpoint | NS Pack exit is installed. Euler entrance is not installed by this row because the same object lacks the positive carrier. A separate `EVol+EMom` construction would be needed. |
 | `unpaid_donor_refill_or_detached_ancestry_pack_exit` | `not Pack_Q` | detached donor ancestry or no positive same-fluid carrier | NS Pack exit is installed. Euler entrance only exists after retyping as an Euler flux-volume/momentum object; the current row is no-carrier NS exit. |
 | `raw_terminal_source_residue_pack_or_part_exit` | `not Pack_Q` or `Pack_Q + not Part` | raw source or pressure-source residue | This is not clean Euler entrance while the residue remains. It enters the Euler boundary only after no-residue compactness or a named defect-boundary/Liouville cleanup. |
-| `pressure_viscosity_or_dwell_part_exit` | `Pack_Q + not Part_{N,Q}` | carrier survives, same pressure-viscosity tower/dwell/source participation fails | Direct crossing candidate. When the same transport-pressure object satisfies `EVol+EMom`, this is exactly NS class-exit by loss of viscous participation and Euler class-entrance. |
+| `pressure_viscosity_or_dwell_part_exit` | `not Part_{N,Q}` | carrier survives, same pressure-viscosity tower/dwell/source participation fails | Direct crossing candidate. When the same transport-pressure object satisfies `EVol+EMom`, this is exactly NS class-exit by loss of viscous participation and Euler class-entrance. |
 | `retained_positive_window_blowup_field_exit` | `Pack_Q + Part_{N,Q} + forall r>0 not Field` | Pack and Part survive; every positive scale loses coherent field/readout | Direct Field crossing. Euler reads the same event as `Member_E` plus failure of optional `EReg/EField`, provided `EVol+EMom` is preserved. |
 | `retained_native_source_residue_field_diagnostic` | conditional Field diagnostic | native residue already converted into lawful participating source/readout object | Conditional crossing only after participation license. Raw residue remains Pack/Part, not Euler entrance. |
-| `retained_positive_scale_native_reserve_birth` | unresolved/support | positive-scale reserve surplus | No independent crossing yet. It must be paid on the same ledger or derived into Pack/Part/Field. |
+| `retained_positive_scale_native_reserve_birth` | unresolved/support | positive-scale reserve surplus | No independent crossing yet. It must be paid on the same ledger or derived into Part/Field. |
 | `active_height_low_strain_typed_disjunction` | finite typed disjunction | carrier failures, dwell/participation failures, licensed Field/Zeno subcases | Crossing applies only in the certified Part and Field subcases. Hidden signed-pair support is not class entrance. |
-| `signed_current_no_free_sink_family` | no independent face | signed-current/no-free-sink support | No direct crossing. It can feed a crossing only after a named theorem routes it to Pack/Part/Field. |
+| `signed_current_no_free_sink_family` | no independent face | signed-current/no-free-sink support | No direct crossing. It can feed a crossing only after a named theorem routes it to Part/Field. |
 | `endpoint_good_scale_no_pulse_readout` | support or Field after Pack+Part | downstream readout/good-scale/no-pulse branch | GoodScale failure becomes a Field crossing after retained Pack+Part. Before that, the row is support. |
-| `terminal_l3_duhamel_mass_same_witness_cm_face` | Pack/Part, or Field under retained Pack+Part | same-witness terminal L3 Duhamel mass | Installed CM face. Its retained Pack+Part critical branch is a Field crossing candidate after same-ledger/no-residue conditions; generic public-critical translators remain support. |
+| `terminal_l3_duhamel_mass_same_witness_cm_part_field_question` | Pack/Part, or Field under retained Pack+Part | same-witness terminal L3 Duhamel mass | Installed CM Part/Field. Its retained Pack+Part critical branch is a Field crossing candidate after same-ledger/no-residue conditions; generic public-critical translators remain support. |
 | `local_critical_translator_same_witness` | no independent face until same-atlas localization | generic public critical concentration | Not yet crossing. It becomes a Field crossing only after same-atlas localization and Field incompatibility are proved. |
-| `transfer_and_mirror_comparison` | no independent face | comparison branch | No direct NS CM face. It requires exact transfer to a selected NS packet with Pack/Part/Field decision. |
+| `transfer_and_mirror_comparison` | no independent face | comparison branch | No direct NS CM Part/Field. It requires exact transfer to a selected NS packet with Part/Field decision. |
 
 Line evidence:
 
@@ -609,14 +609,14 @@ Euler material is useful in the NS PDF only where it pays one of these two jobs.
    ```
 
 Everything else is excess for the NS proof unless it is explicitly attached to a
-selected `Pack/Part/Field` face or to `Member_E=EVol+EMom`.
+selected `Part/Field` face or to `Member_E=EVol+EMom`.
 
 ## Final Audit Verdict
 
 The concept is captured in the repo, but the honest statement is this:
 
 ```text
-Non-smooth NS events meet class-exit at Pack/Part/Field.
+Non-smooth NS events meet class-exit at Part/Field.
 
 They become Euler class-entrance at the Part/Field boundary precisely when the
 same event still satisfies Euler base membership EVol+EMom.

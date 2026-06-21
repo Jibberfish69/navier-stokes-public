@@ -14,7 +14,7 @@ NoProofBearingFirstFaceFailureFromOriginalSmoothData.A.
 ```
 
 Plain meaning: the same-solution terminal record extracted from original smooth
-data cannot be a proof-bearing first Pack/Part/Field face failure.
+data cannot be a proof-bearing first Part/Field Part/Field failure.
 
 This is the right public question. It is not yet a usable next theorem unless it
 is reduced to a smaller proof burden.
@@ -27,7 +27,7 @@ The proof program remains:
 Exit(Q) := not Member(Q)
 ```
 
-through the Pack-first terminal tree:
+through the Field-certification terminal tree:
 
 ```text
 Pack_Q, Part_{N,Q}, Field_{N,r,Q}.
@@ -35,7 +35,7 @@ Pack_Q, Part_{N,Q}, Field_{N,r,Q}.
 
 The logical skeleton tested here is minimal first-exit contradiction. The
 candidate theorem must prove contradiction from a proof-bearing first terminal
-face failure, not merely classify that failure as `Exit(Q):=not Member(Q)`.
+Part/Field failure, not merely classify that failure as `Exit(Q):=not Member(Q)`.
 
 ## Three attempted shortcuts
 
@@ -61,7 +61,7 @@ is classification, not public Clay contradiction.
 the reflection step:
 
 ```text
-terminal face failure => earlier still-live face failure.
+terminal Part/Field failure => earlier still-live Part/Field failure.
 ```
 
 Every compact preterminal window is smooth and has the local services, but the
@@ -72,7 +72,7 @@ exit would smuggle in exactly the terminal compactness theorem that is missing.
 
 `mpp-finite-obstruction-inventory-finality-attempt-20260609.md` proves that the
 finite obstruction is not outside the CM grammar. It does not prove that the
-proof-bearing first face failure is impossible for original smooth data.
+proof-bearing first Part/Field failure is impossible for original smooth data.
 
 `SupportOnlyRowsCannotServeAsFiniteBreakdownWitness.A` removes support-only
 diagnostics as hidden witnesses. It leaves the proof-bearing same-solution

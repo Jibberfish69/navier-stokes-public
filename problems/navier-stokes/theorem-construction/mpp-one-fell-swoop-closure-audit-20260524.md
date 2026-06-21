@@ -28,7 +28,7 @@ the CM class:
 ```text
 failed obstruction capable of non-smoothness
 => canonical same-solution terminal obstruction
-=> Pack/Part/Field face failure
+=> Part/Field Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
@@ -58,4 +58,4 @@ failure/non-smooth branch => Exit(Q),
 smooth branch => Member(Q).
 ```
 
-Pack, Part, and Field are the typed faces used to prove the first line.
+Part and Field are the typed faces used to prove the first line.
