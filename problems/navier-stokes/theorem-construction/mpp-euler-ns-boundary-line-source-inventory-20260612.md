@@ -42,9 +42,9 @@ branch history, and status surfaces that do not land in one of those two roles.
 | `problems/navier-stokes/euler-mirror/theorem-construction/global-periodic-smooth-layer-to-slip-sheet-limit-20260524.md:56` | proved singular-limit support | Smooth Euler shear layers converge to the slip-sheet boundary. |
 | `problems/navier-stokes/euler-mirror/theorem-construction/shared-pack-non-one-field-grammar-closure-20260524.md:17` | proved grammar | Shared Pack/non-one-field grammar closure. |
 | `problems/navier-stokes/euler-mirror/theorem-construction/shared-pack-non-one-field-grammar-closure-20260524.md:66` | proved grammar | Euler one-field coherence is an added regularity layer over base membership. |
-| `problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md:114` | proved NS CM support | `Part` is pressure-viscosity participation. |
-| `problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md:142` | proved NS CM support | `Field` is one-field/tower coherence. |
-| `problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md:246` | proved NS CM support | Nonsmooth terminal witnesses land through Pack/Part/Field. |
+| `problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-bridge-20260504.md:114` | proved NS CM support | `Part` is pressure-viscosity participation. |
+| `problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-bridge-20260504.md:142` | proved NS CM support | `Field` is one-field/tower coherence. |
+| `problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-bridge-20260504.md:246` | proved NS CM support | Nonsmooth terminal witnesses land through Part/Field. |
 | `problems/navier-stokes/theorem-construction/mpp-clay-field-failure-realization-proof-20260607.md:16` | proved NS Field support | Retained-Pack terminal Jump realizes Field failure. |
 | `problems/navier-stokes/theorem-construction/mpp-clay-field-failure-realization-proof-20260607.md:77` | proved NS Field support | Field failure case statement for terminal Jump. |
 | `problems/navier-stokes/theorem-construction/mpp-field-failure-to-part-collapse-20260522.md:104` | proved collapse support | Field failure collapses to Part under the retained-Pack terminal branch. |
@@ -102,7 +102,7 @@ unless one of the fixed-`nu` transfer lemmas is proved.
 | `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:338` | current PDF source | Allows Euler as a picture/test for lost viscous tether or one-field law. |
 | `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:458` | current PDF source | Explains Euler removes viscosity while retaining transport/pressure. |
 | `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1413` | current PDF source | Correctly keeps Euler/fixed-viscosity comparison outside proof until it lands a packet. |
-| `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1494` | current PDF source | Comparison enters only through selected NS packet and Pack/Part/Field decision. |
+| `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1494` | current PDF source | Comparison enters only through selected NS packet and Part/Field decision. |
 | `system/gui/navier-stokes-repo-viewer/src/nsAnalysis.ts:3824` | app placement | Euler/fixed-`nu` lanes are isolated from proof trunks. |
 | `system/gui/navier-stokes-repo-viewer/src/nsAnalysis.ts:3838` | app placement gap | Needs a visible child for viscous participation/tether Part/Field comparison witness. |
 | `system/gui/navier-stokes-repo-viewer/src/nsAnalysis.ts:8390` | app placement | Current app isolates Euler mirror/fixed-`nu` surfaces. |
@@ -127,4 +127,4 @@ quarantine.generated_status
 
 The worker should not reintroduce Euler material by keyword search, branch
 history, or surface count.  It must first identify the selected NS packet, the
-Pack/Part/Field face, and the exact retained role.
+Part/Field face, and the exact retained role.

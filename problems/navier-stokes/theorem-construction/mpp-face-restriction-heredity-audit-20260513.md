@@ -51,7 +51,7 @@ Field_{N,r,Q}(\mathcal W)\Longrightarrow Field_{N,r',Q}(\mathcal W').
 
 ### Pack face
 
-The installed witness-face note defines `Pack_Q` as a retained same-fluid
+The installed witness note defines `Pack_Q` as a retained same-fluid
 carrier with volume preservation, finite pack gauge, retained localization, and
 positive-scale finite-cover control on the relevant class region.
 

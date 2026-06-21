@@ -1635,7 +1635,7 @@ Edited live surface:
 Old loose step:
 
 - `theorem-construction/r3-cm-contrapositive-vorticity-bkm-strain-20260528.md`
-  said retained Pack, Part, and Field imply the "standard BKM continuation
+  said retained Part and Field imply the "standard BKM continuation
   condition" and that the same smooth solution extends beyond `T_*`.
 - The reader appendix mirrored the same compressed extension step.
 - `theorem-construction/regularity-upgrade-schemas.md` used "standard BKM
@@ -2080,7 +2080,7 @@ The note now states the exact pass-or-exit split:
 ```text
 pass branch: supplies the in-class Member(Q) continuation packet;
 fail branch: becomes Exit(Q):=not Member(Q) only after CM-test entry and a
-concrete Pack/Part/Field face failure.
+concrete Part/Field Part/Field failure.
 ```
 
 For finite QSP angular nonconcentration, the remaining alternative is now
@@ -2715,16 +2715,16 @@ enters CM proof material only through one of the exact interfaces
 ```text
 same-ledger payment
 or
-CM-test admission + first Pack/Part/Field face failure.
+CM-test admission + first Part/Field Part/Field failure.
 ```
 
-The exact face landing is displayed as
+The exact Part/Field landing is displayed as
 
 ```text
 not Pack_Q,
-Pack_Q + not Part_{N,Q},
+not Part_{N,Q},
 or
-Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}.
+Part_{N,Q} + forall r>0 not Field_{N,r,Q}.
 ```
 
 The note now records the live consequence from the source-frontier surfaces:
@@ -2736,7 +2736,7 @@ non-source Pack-survival theorem, or an equivalent same-ledger payment.
 Downstream consequence: `live-theorem-edge.yaml` now classifies the note as
 historical audit-open support and states that old HeightFlux/Zeno/signed-current
 targets are support-level unless promoted by same-ledger payment or CM-test
-admission plus a first Pack/Part/Field face failure. The live edge no longer
+admission plus a first Part/Field Part/Field failure. The live edge no longer
 preserves the old schematic proof graph as a current target.
 
 Second-pass downstream consequence: the live-edge neighboring HeightFlux notes
@@ -2744,7 +2744,7 @@ also no longer set `HeightFluxControl.A`, `DonorHeightCreation.A`, or
 `FirstHeightCreationDichotomy.A` as the current target by historical supplier
 chain. The exact scalar pulse obstruction and donor-height factorization remain
 available as conditional reductions, but their proof use is now restricted to
-same-ledger payment or CM-test admission plus typed face failure.
+same-ledger payment or CM-test admission plus typed Part/Field failure.
 
 Edited live surfaces:
 
@@ -2790,9 +2790,9 @@ first-moment charge.
 Downstream consequence: the square-reserve/Zeno final attempt, the leading-edge
 audit note, `live-theorem-edge.yaml`, and `current-route-dependency-graph.yaml`
 now classify the SquareReserveEvolution / Zeno / ScaleCriticalTreeCarleson
-family as historical source-control support after the Pack-before-Part CM correction.
+family as historical source-control support after the Pack-out-of-CM CM correction.
 Those branches enter the current proof only by same-ledger payment or CM-test
-admission plus first Pack/Part/Field face failure, feeding the same-witness
+admission plus first Part/Field Part/Field failure, feeding the same-witness
 terminal anti-concentration / source-Carleson / rigid-anti-atom /
 non-source Pack-survival frontier.
 
@@ -2868,10 +2868,10 @@ same-fluid obstruction calculation. The proof-facing replacement is
 TerminalSignedSaturation.A,
 ```
 
-or same-ledger payment / CM-test admission plus the first Pack/Part/Field face
+or same-ledger payment / CM-test admission plus the first Part/Field face
 failure on the same witness. The absolute fallback to
 `ScaleCriticalTreeCarleson.A` is now historical supplier support under the
-Pack-before-Part CM correction, not a current target-setting conclusion.
+Pack-out-of-CM CM correction, not a current target-setting conclusion.
 
 Downstream consequence: the signed-current branch no longer gets to convert
 symbolic exchange pairing into a scalar source-wall target by language alone.
@@ -3956,7 +3956,7 @@ Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump
 \vee response\text{-}margin\text{-}collapse.
 ```
 
-The face-free production alternative includes Pack, Part, Field, finite tower
+The face-free production alternative includes Part and Field, finite tower
 control, and retained strict Part response margins
 
 ```math
@@ -4509,9 +4509,9 @@ Old loose wording:
 
 Exact replacement:
 
-The authority surfaces now say that a Pack/Part/Field row is a generated or
+The authority surfaces now say that a Part/Field row is a generated or
 table-level row until a real terminal same-fluid realization is supplied and
-tested against the implication pressure among Pack, Part, Field, and the
+tested against the implication pressure among Part and Field, and the
 Dead/Jump/Blown readouts.  A retained Part hypothesis is recorded as a
 hypothesis/license rather than terminal ontology.  Continuation consumers are
 stated to require exact finite norm, local lifespan, relaunch, overlap
@@ -4521,7 +4521,7 @@ Downstream consequence:
 
 A generated Pack-only, Part-only, or Field-only row cannot discharge a live CM
 surface by table status.  It becomes proof-bearing only after the same-fluid
-realization story and the Pack/Part/Field implication test are paid on the
+realization story and the Part/Field implication test are paid on the
 active surface.
 
 Edited live surfaces:
@@ -4992,7 +4992,7 @@ Edited live surfaces:
 - `theorem-construction/mpp-act-kx-hidden-spending-audit-note.md`;
 - `theorem-construction/clay-closure-promotion-map.md`.
 
-## Pack/Part/Field Truth-Table Row Repair
+## Part/Field Truth-Table Row Repair
 
 Old loose step:
 
@@ -5021,7 +5021,7 @@ readout unless a separate theorem proves a genuine exception.
 
 Downstream consequence:
 
-Pack/Part/Field endpoint surfaces may still use the Boolean table for
+Part/Field endpoint surfaces may still use the Boolean table for
 case-bookkeeping, but they cannot spend a table row as an ontological scenario.
 Every row now requires an endpoint cause and a realization theorem before it
 has proof force.
@@ -5083,7 +5083,7 @@ Later carrier, branch-coverage, and source-field reader passages may cite the
 local carrier theory only through the displayed fixed-point hypotheses and
 relaunch criterion. Branch-family prose may not spend a mechanism label, route
 name, or familiar source as proof force unless the same terminal record and the
-proved Pack/Part/Field/readout outcome are named.
+proved Part/Field/readout outcome are named.
 
 Edited live surfaces:
 
@@ -5259,7 +5259,7 @@ Edited live surfaces:
 
 Old loose step:
 
-- `mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md` said
+- `mpp-member-smooth-contrapositive-witness-bridge-20260504.md` said
   `CM_{N,r_N,Q}` supplies the "usual local continuation norm."
 - `active-readout-subordination-to-persistent-carrier-core-result.md` invoked
   "usual finite-template bounds" before a tail estimate.
@@ -5300,7 +5300,7 @@ strain-plus-\(H^s\) ledger. They no longer get proof force from "usual" or
 
 Edited live surfaces:
 
-- `theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md`;
+- `theorem-construction/mpp-member-smooth-contrapositive-witness-bridge-20260504.md`;
 - `theorem-construction/active-readout-subordination-to-persistent-carrier-core-result.md`;
 - `theorem-construction/external-classical-validation-note.md`;
 - `theorem-construction/frame-recovery-wall-theorem-candidate-note.md`;
@@ -6304,7 +6304,7 @@ The affected notes no longer spend "same scale-critical" language as a hidden
 proof step.  Each failed route now lands on a named unclosed carrier, reserve,
 coefficient, multiplier, or charge, so later CM/source-wall work must either
 prove that specific bound or route the resulting terminal residue through the
-Pack/Part/Field classifier.
+Part/Field classifier.
 
 Surfaces edited:
 
@@ -6755,7 +6755,7 @@ The edited surfaces now say:
   `(CN.13ab)`--`(CN.13ad)`;
 - `PCC.B` is the direct pre-CSP thickened packet theorem;
 - `TerminalSourceReverseHolder.A` must conclude `TemporalNonAtomicSource.A`;
-- the affine quotient residue is not automatically a Pack/Part/Field face
+- the affine quotient residue is not automatically a Part/Field face
   failure;
 - the Clay discharge ladder would discharge only after one named ladder closes
   without changing the theorem target;
@@ -6765,7 +6765,7 @@ The edited surfaces now say:
 Downstream consequence:
 
 These passages no longer use "enough" to blur a route proposal, implication, or
-class-exit face landing.
+class-exit Part/Field landing.
 
 Surfaces edited:
 
@@ -8815,7 +8815,7 @@ identity readout:
 
 CM exit:
   a useful bad object becomes an exit witness only after same-witness admission
-  and a first Pack/Part/Field face failure;
+  and a first Part/Field Part/Field failure;
 
 Clay contradiction:
   a classified Exit(Q) contradicts a finite Clay breakdown witness only after
@@ -8848,7 +8848,7 @@ No modal shortcut is allowed to perform proof work.  When the implication is
 already exact, the text now names the exact reason, such as identity readout or
 an installed displayed implication.  When the implication is not installed, the
 text names the missing theorem: backward reflection, discount removal,
-same-witness Pack/Part/Field landing, same-ledger synchronization,
+same-witness Part/Field landing, same-ledger synchronization,
 same-carrier residual identification, terminal strong compactness,
 same-packet orientation, pressure-source tether, transported-density conversion,
 mesoscopic exclusion, selected-derivative transfer, fixed-coordinate readout, or
@@ -8862,7 +8862,7 @@ or profile decomposition as a proof step by wording.  Each affected branch now
 either carries an exact hypothesis into the next argument or remains an explicit
 theorem burden.  In particular, the CM contrapositive route keeps a bad object
 as a witness candidate until same-witness admission and a concrete Pack, Part,
-or Field face failure are derived; the positive/gold routes keep continuation
+or Field Part/Field failure are derived; the positive/gold routes keep continuation
 closure conditional on the named estimates rather than on modal language.
 
 Surfaces edited:
@@ -9106,7 +9106,7 @@ proof-search preference carry proof force.  Each affected branch either names a
 displayed estimate/proposition that would close it or remains an explicit
 uninstalled theorem target.  The CM-facing passages continue to treat tempting
 positive deletion objections as proof-program switches unless a same-witness
-Pack/Part/Field consequence has actually been derived.
+Part/Field consequence has actually been derived.
 
 Surfaces edited:
 
@@ -9177,7 +9177,7 @@ of the analogy:
 - pressure routes require a pressure-source tether, not a source-shadow reading;
 - coefficient-bearing same-scale estimates are recorded only as weighted-carrier
   inclusions and not as the coefficient-free theorem (SS);
-- collar, donor-factor, Pack/Part/Field, and terminal-participation passages
+- collar, donor-factor, Part/Field, and terminal-participation passages
   remain exact guard statements because they explicitly prevent the wrong
   substitution and name the missing theorem or lawful object.
 
@@ -9476,7 +9476,7 @@ conclusion is now conditional: the raw-energy insufficiency example is a
 benchmark under a stated amplitude-distribution hypothesis, not a profile claim
 about every shrinking packet.  The downstream positive-forward burden remains a
 scale-critical pressure/flux/donor/return bound, while failure of lawful payment
-still routes through Pack, Part, or Field.
+still routes through Part or Field.
 
 Surfaces edited:
 
@@ -10631,7 +10631,7 @@ says the Zeno side can occur while Pack and Part are still typed as present.
 Proof or downstream consequence:
 
 These passages now spend exact face-status typing, not a loose formal-intact
-reading.  The route still has to test participation, Pack, Part, Field, source
+reading.  The route still has to test participation, Part and Field, source
 height, and tower-amplitude mechanisms separately.
 
 Surfaces edited:
@@ -10650,7 +10650,7 @@ notes or appendix copy.  The positive scan finds `still typed as present`, and
 
 Old claim being spent:
 
-Pack/Part/Field triadicity and shared-participation surfaces warned against a
+Part/Field triadicity and shared-participation surfaces warned against a
 "formal carrier-law" or "weak formal" reading of `Part`.
 
 Exact replacement:
@@ -10688,7 +10688,7 @@ Exact replacement:
 
 Both surfaces now call it the unproved required bridge.  The appendix states the
 requirement directly: a public critical obstruction must be admitted to the
-same-solution CM test and then landed in Pack, Part, or Field before it has CM
+same-solution CM test and then landed in Part or Field before it has CM
 proof force.
 
 Proof or downstream consequence:
@@ -11692,7 +11692,7 @@ The note now states the required proof interfaces: an exact identity for the
 positive weighted shell-flux integrand; a one-sided positive strain
 decomposition of
 \(|w_\ell|^2[e_\ell\cdot S_{<\ell}e_\ell]_+\); same-fluid ancestry or a
-Pack/Part face failure for uncharged first-created donor height; finite-overlap
+Pack/Part Part/Field failure for uncharged first-created donor height; finite-overlap
 selection with a stated overlap constant and no bounded-selector loss against
 diffuse parent clouds; a legal pressure/cutoff ledger that bounds only recorded
 `L_P` terms; and active-strain decorrelation, depletion, or terminal tangent
@@ -12252,7 +12252,7 @@ The page no longer lets a vague standard-label substitute for a theorem,
 criterion, gate, or requirement.  The affected passages remain attached to the
 same exact mathematical burdens: Pack.TTU two-sided material supremum control,
 periodic-to-R3 export hypotheses, anisotropic Stokes divergence structure, and
-promoted-row CM face witness record.
+promoted-row CM Part/Field witness record.
 
 Surfaces edited:
 
@@ -12478,7 +12478,7 @@ diff --check` passed on the edited note and this ledger.
 Old claim being spent:
 
 The terminal face exhaustion working pass said the proof uses only the
-"standard implication" from a continuation-complete Pack/Part/Field packet plus
+"standard implication" from a continuation-complete Part/Field packet plus
 `H^s` readout to classical continuation.
 
 Exact replacement:
@@ -13058,7 +13058,7 @@ ledger.
 Old claim being spent:
 
 The conditional Pack positive-radius admission after original participation audit said the remaining branch
-may be tested by the "standard Pack/Part/Field chain."
+may be tested by the "standard Part/Field chain."
 
 Exact replacement:
 
@@ -13067,7 +13067,7 @@ The note now states the typed CM order: first `Pack_Q`, then `Part_{N,Q}`, then
 
 Proof or downstream consequence:
 
-The certification spends the Pack-before-Part audited CM witness grammar after singular
+The certification spends the Pack-out-of-CM audited CM witness grammar after singular
 cases are exhausted through the original-participation audit; it does not rely on a generic
 chain convention.
 
@@ -13077,7 +13077,7 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-The targeted scan finds no remaining `standard Pack/Part/Field` phrase in the
+The targeted scan finds no remaining `standard Part/Field` phrase in the
 edited conditional Pack positive-radius note.  It finds the replacement typed
 CM order.  `git diff --check` passed on the edited note and this ledger.
 
@@ -13115,11 +13115,11 @@ submission appendix.  It finds the replacement operator
 `P=I-nabla Delta^{-1}div` and pressure Poisson recovery.  `git diff --check`
 passed on the edited notes, appendix, and this ledger.
 
-## Pack-Part-Field Overlap Rule Rework
+## Part-Field Overlap Rule Rework
 
 Old claim being spent:
 
-The triadicity audit note and the submission appendix said Pack/Part/Field
+The triadicity audit note and the submission appendix said Part/Field
 "overlap is expected."
 
 Exact replacement:
@@ -13972,7 +13972,7 @@ Proof or downstream consequence:
 
 The packet-primary surfaces now spend displayed formulas, named representations,
 and defined components.  The class-membership route keeps the singular
-Pack/Part/Field chain as primary instead of a witness-bundle surrogate.  The TPS
+Part/Field chain as primary instead of a witness-bundle surrogate.  The TPS
 source-fit branch remains a route proposal until a lane-local estimate supplies
 the required constants.  The LCI and DTC notes point to the specific coefficient
 estimate and differential inequality rather than smoothness or model language.
@@ -14227,7 +14227,7 @@ search, broad bridge demand, and unspecified witness surrogates.
 Proof or downstream consequence:
 
 The affected notes now spend concrete witnesses, principal displayed terms,
-row-by-row Pack/Part/Field mechanisms, and exact predicate packages instead of
+row-by-row Part/Field mechanisms, and exact predicate packages instead of
 broad theorem/witness placeholders.
 
 Surfaces edited:
@@ -14482,7 +14482,7 @@ The appendix copy of the Clay bridge contained two proof-surface breaks.  The
 Clay counterexample-exclusion bridge left a dangling sentence after "So the
 rule", and the Clay Field Failure Realization section stated "Assume" without
 displaying the retained Pack, retained terminal Part, and all-scale not-Field
-hypotheses.  The same Field note also used "service" for a CM witness face.
+hypotheses.  The same Field note also used "service" for a CM witness.
 
 Exact replacement:
 
@@ -14509,7 +14509,7 @@ Pack_Q + J_Q + forall r>0 not Field_{N,r,Q}
 ```
 
 The theorem-construction source note now names the remaining object as the
-Field witness face, not a "service".
+Field witness, not a "service".
 
 Surfaces edited:
 
@@ -14542,7 +14542,7 @@ Old claim being spent:
 The reader appendix moved from the torus-atlas trichotomy
 
 ```text
-full Pack+Part+Field readout, or first Pack/Part/Field face failure
+full Pack+Part+Field readout, or first Part/Field Part/Field failure
 ```
 
 to "So the full readout-complete packet survives" without stating the
@@ -14650,7 +14650,7 @@ explicit same-witness signed-payment theorem, for example proved `ASAC.A`
 together with `PositivePairWeightDefectCharge.A` and the packet-residual,
 no-incoming, and backward-uniqueness hypotheses required by the live edge.
 Installed CM-face reductions alone classify failed signed balance as
-Pack/Part/Field support for `Exit(Q):=not Member(Q)`; they do not pay the
+Part/Field support for `Exit(Q):=not Member(Q)`; they do not pay the
 positive mismatch.
 
 Surfaces edited:
@@ -14668,7 +14668,7 @@ ASAC.A + PositivePairWeightDefectCharge.A
 
 with the same-witness residual/no-incoming/backward-uniqueness hypotheses for
 the retained signed-partner branch, or a Gold-supplier theorem excluding the
-produced `B_ASAC` terminal time-face atom.  Under the Pack-first CM
+produced `B_ASAC` terminal time-face atom.  Under the Field-certification CM
 contrapositive route, the terminal zero-thickness `B_ASAC` residue is consumed
 as Pack-side non-survival rather than as a required deletion theorem.
 
@@ -15322,7 +15322,7 @@ Delta_{rho(t)}u(t) <= 2 rho(t) sup_{B_{rho(t)}(x_*)}|grad u(.,t)|.
 ```
 
 The funnel route may use the moving-domain identity and rescaled-field equation;
-it may not use a fixed-cylinder proxy, a linear `U/r` profile, or a CM face
+it may not use a fixed-cylinder proxy, a linear `U/r` profile, or a CM Part/Field
 failure before a precise surviving obstruction is produced.
 
 Second downstream pass and validation:
@@ -15775,7 +15775,7 @@ promotion boundaries:
 - Pack-side work "should" attack retained positive-scale first appearance and
   "should not" spend the `L^3` translator without a bridge;
 - retained-face amplitude gain "should not" be a raw finite-energy theorem and
-  "should" be relative to retained CM faces;
+  "should" be relative to retained CM Part/Fields;
 - CM critical-concentration import "should" wait for carrier and same-PDE
   survival;
 - `ScaleCriticalPulseReserve.A` "should not" be tracked as independent from
@@ -15993,7 +15993,7 @@ Old claim being spent:
 
 `mpp-clay-breakdown-class-exit-inadmissibility-proof-attempt-20260524.md` said a
 target-fidelity shortcut "should be replaced" by the obstruction split.
-`mpp-cm-field-face-two-root-run-through-20260506.md` said the CM witness-face
+`mpp-cm-field-face-two-root-run-through-20260506.md` said the CM witness
 framing "should be kept" while leaving Field-face residual work open.
 
 Exact replacement:
@@ -16006,7 +16006,7 @@ failure/non-smooth branch outside CM,
 smooth branch inside CM.
 ```
 
-The Field-face two-root note now states that the CM witness-face framing remains
+The Field-face two-root note now states that the CM witness framing remains
 the framing and still does not solve the Field-face residual wall by itself.
 
 Surfaces edited:
@@ -16018,7 +16018,7 @@ Downstream consequence:
 
 The CM route no longer leaves the target-fidelity shortcut as an optional future
 replacement.  The proof split is fixed: a failure capable of nonsmoothness is
-outside CM, while the smooth/pass branch is inside CM.  The witness-face framing
+outside CM, while the smooth/pass branch is inside CM.  The witness framing
 continues to organize the work, but Field-face residual closure is not counted
 as solved by that framing.
 

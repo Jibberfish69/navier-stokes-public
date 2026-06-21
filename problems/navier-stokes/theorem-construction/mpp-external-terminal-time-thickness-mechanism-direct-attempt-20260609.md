@@ -28,7 +28,7 @@ or place every produced survivor into a subclass with a terminal strip modulus
 \omega_R(\varepsilon)\downarrow0.
 ```
 
-This is stronger than classifying the terminal atom as a CM face.  It is the
+This is stronger than classifying the terminal atom as a CM Part/Field.  It is the
 positive-production theorem that would make the source-time branch disappear
 before it reaches the face tree.
 
@@ -111,10 +111,10 @@ or LPAS.
 Those are not installed.  Reusing them as terminal time-thickness would be
 alias cycling.
 
-## CM face boundary
+## CM Part/Field boundary
 
 The zero-thickness native positive source atom can still be classified as a
-Pack/Part/Field witness-face object once admitted to the same-solution terminal
+Part/Field witness object once admitted to the same-solution terminal
 record.  That supports
 
 ```text
@@ -122,7 +122,7 @@ Exit(Q):=not Member(Q).
 ```
 
 It does not, by itself, prove the public Clay-facing bridge that original
-smooth data cannot realize a proof-bearing first face failure.  The terminal
+smooth data cannot realize a proof-bearing first Part/Field failure.  The terminal
 source-time elimination route has not paid that bridge.
 
 ## Verdict
@@ -141,10 +141,10 @@ The exact next target is:
 \textbf{NoProofBearingFirstFaceFailureFromOriginalSmoothData.A}.
 ```
 
-It must prove that a Pack/Part/Field face landing produced from original smooth
+It must prove that a Part/Field Part/Field landing produced from original smooth
 Clay data cannot remain a proof-bearing finite-time counterexample, or else
 identify the exact bridge from finite Clay breakdown to a same-solution
-terminal record whose face failure excludes the counterexample rather than
+terminal record whose Part/Field failure excludes the counterexample rather than
 merely classifying it.
 
 ## Closure impact

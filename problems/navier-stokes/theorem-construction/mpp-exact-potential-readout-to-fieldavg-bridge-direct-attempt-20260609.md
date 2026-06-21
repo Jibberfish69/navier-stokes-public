@@ -149,7 +149,7 @@ tower ledgers yields a terminal finite positive-scale SCF_base good cover.
 
 If that atom cannot be proved, the exact-potential/QSP branch must stay
 support-only for CM finality, and the loop must choose another Field
-certificate or another Pack/Part/Field face route.
+certificate or another Part/Field face route.
 
 ## New Live Criticism
 

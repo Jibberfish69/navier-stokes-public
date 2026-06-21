@@ -87,7 +87,7 @@ Assume:
 4. no extra Reynolds stress, source measure, pressure-source residue, or
    defect measure is introduced by the comparison.
 
-Then the selected Navier-Stokes packet has a Part-face failure:
+Then the selected Navier-Stokes packet has a Part-Part/Field failure:
 
 ```math
 Pack_Q\wedge \neg Part_{N,Q}.
@@ -113,7 +113,7 @@ form one coherent field.  Equivalently, the Euler comparison object satisfies
 the transport-pressure membership law but fails `EReg` or `EField` on that
 same packet.
 
-Then the selected Navier-Stokes packet has a Field-face failure:
+Then the selected Navier-Stokes packet has a Field-Part/Field failure:
 
 ```math
 Pack_Q\wedge Part_{N,Q}\wedge \forall r>0\,\neg Field_{N,r,Q}.
@@ -196,9 +196,9 @@ shared-pack-non-one-field-grammar-closure-20260524.md:17
 shared-pack-non-one-field-grammar-closure-20260524.md:66
 
 problems/navier-stokes/theorem-construction/
-mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md:114
-mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md:142
-mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md:246
+mpp-member-smooth-contrapositive-witness-bridge-20260504.md:114
+mpp-member-smooth-contrapositive-witness-bridge-20260504.md:142
+mpp-member-smooth-contrapositive-witness-bridge-20260504.md:246
 ```
 
 ### Conditional nonsmooth-side lift
