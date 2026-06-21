@@ -16,6 +16,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-bodyii-interface-reorientation-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-bodyiii-retained-participation-packet-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-bodyiv-canonical-geometry-packet-interface-criterion-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-bodyi-geometry-tower-recertification-interface-criterion-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -538,6 +539,44 @@ G\to S:\text{ deformation geometry recertifies the next Body-I tower packet.}
 \tag{4BF.26e}
 ```
 
+This interface now has the variable-coefficient tower criterion:
+
+```math
+\boxed{
+\Theta_{G\to S}\mathcal T_N[v,G]
+=
+\mathcal T_N^{\rm next}[u,p],
+\qquad
+\mathcal C_{m,\alpha}^G
+=
+\nu[\partial_t^m\partial_a^\alpha,\operatorname{div}_a(G\nabla_a)]v
+-
+[\partial_t^m\partial_a^\alpha,A^\top\nabla_a]q.
+}
+\tag{4BF.26e1}
+```
+
+Failure is charged by
+
+```math
+\boxed{
+K_{G\to S}^+
+\le
+K_{\rm ell}^+
++
+K_{\rm coef}^+
++
+K_{\rm comm}^+
++
+K_{\rm transport}^+
++
+K_G^+
++
+R_{\rm legal}.
+}
+\tag{4BF.26e2}
+```
+
 ```math
 \boxed{
 dK_{\rm sel}
@@ -687,3 +726,9 @@ compactness to geometry only as the same canonical packet pulled back by the
 volume-preserving material map.  A compact Eulerian packet that cannot be
 realized as the Body-IV material/deformation packet is not silently usable; it
 is charged to \(K_C^+\), \(K_G^+\), or legal residual.
+
+The fourth interface has now been sharpened as well: \(G\to S\) returns to the
+tower only through a uniformly elliptic variable-coefficient material tower
+whose coefficient commutator packet is retained, absorbed, or charged.  Geometry
+does not recertify scale by name; it recertifies scale by producing the next
+same-carrier Body-I tower packet.
