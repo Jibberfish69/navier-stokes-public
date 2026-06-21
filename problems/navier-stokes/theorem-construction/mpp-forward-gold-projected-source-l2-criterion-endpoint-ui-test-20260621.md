@@ -67,7 +67,7 @@ the same packet by the actual projected source:
 a_j(s)
 \le
 C_{\rm sel}\|N_j(s)\|_{L^2(B_R)}
-\ell_j(s),
++\ell_j(s),
 \qquad -1\le s\le0,
 \tag{PSL.5}
 \]
