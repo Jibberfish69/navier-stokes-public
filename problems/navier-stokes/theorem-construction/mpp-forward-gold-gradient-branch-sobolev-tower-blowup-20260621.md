@@ -26,7 +26,7 @@ ns_viewer:
     finite Sobolev level, terminal H^(gamma+1) tower growth above heat-window
     scale. Closing the gold route still requires a theorem that prevents this
     coupled tower blowup, pays it by unweighted action/source-square/no-waste,
-    consumes it as a Field-face high-rung readout, or converts it to profile
+    consumes it as a finite-rung Field/Part-facing readout, or converts it to profile
     production.
 ---
 
@@ -308,7 +308,7 @@ burden:
 \[
 \boxed{
 \text{prevent this coupled tower blowup, pay it by an unweighted source/action
-reserve, consume it as a Field-face high-rung readout, or convert it into
+reserve, consume it as a finite-rung Field/Part-facing readout, or convert it into
 profile production.}
 }
 \tag{GST.25}
