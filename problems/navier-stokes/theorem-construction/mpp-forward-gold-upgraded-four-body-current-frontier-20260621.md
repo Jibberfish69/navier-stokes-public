@@ -1,8 +1,8 @@
 ---
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
-status: consolidated-frontier-installed-strict-cycle-payment-or-rigidity-open-supplement-criteria-updated
+status: consolidated-frontier-installed-strict-cycle-payment-or-rigidity-open-base-participation-tested
 logical_landing_node: upgraded_four_body_current_frontier
-edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, the critical-density/CKN supplement criterion, the signed-polar saturation supplement criterion, the rigid source-residue supplement criterion, the full pre-Cauchy remainder reduction criterion, the direct no-free terminal Zeno four-body attempt, and the component test for FourBodyTerminalTraceAC.A. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste, critical-density/CKN, signed-polar saturation, rigid source-residue production, and full pre-Cauchy remainder reduction are proved criteria, not produced Navier-Stokes estimates. The direct four-body attack reduces NoFreeTerminalZenoDonorChain.A to FourBodyTerminalTraceAC.A or strict no-waste/unweighted reserve, and the component test reduces FourBodyTerminalTraceAC.A to simultaneous terminal AC of the tower, participation, compactness/no-loss, geometry, and legal records. The remaining gold theorem is a same-carrier production theorem: prove those terminal moduli/no-waste, produce dN_miss=0 or a legal/charged polar defect, or produce MinimalZenoProfileProduction.A."
+edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, the critical-density/CKN supplement criterion, the signed-polar saturation supplement criterion, the rigid source-residue supplement criterion, the full pre-Cauchy remainder reduction criterion, the direct no-free terminal Zeno four-body attempt, the component test for FourBodyTerminalTraceAC.A, and the base participation nested-shell test. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste, critical-density/CKN, signed-polar saturation, rigid source-residue production, and full pre-Cauchy remainder reduction are proved criteria, not produced Navier-Stokes estimates. The direct four-body attack reduces NoFreeTerminalZenoDonorChain.A to FourBodyTerminalTraceAC.A or strict no-waste/unweighted reserve; the component test reduces FourBodyTerminalTraceAC.A to simultaneous terminal AC of the tower, participation, compactness/no-loss, geometry, and legal records; and the base participation nested-shell test proves physical material accounting is radius-discounted at heat scale. The remaining gold theorem is a same-carrier production theorem: prove those terminal moduli/no-waste, produce dN_miss=0 or a legal/charged polar defect, or produce MinimalZenoProfileProduction.A."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-factorial-tower-radius-spend-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-participation-exchange-normal-form-20260621.md
@@ -28,6 +28,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-precauchy-remainder-fourbody-reduction-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-terminal-zeno-fourbody-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-terminal-trace-ac-component-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-base-participation-storage-nested-shell-test-20260621.md
 ---
 
 # Upgraded Four-Body Current Frontier
@@ -1279,6 +1280,102 @@ geometry defect.}
 Each line is an unweighted same-carrier theorem.  Fixed-\(m\) smoothness gives
 ordinary preterminal continuity, and physical energy gives radius-discounted
 budgets; neither gives the uniform terminal modulus across the Zeno family.
+
+The base participation nested-shell test has now checked this last sentence
+directly against the coupled pressure-transport-viscosity local energy law.  On
+a physical cutoff \(\eta_r(x)=\eta((x-x_\ast)/r)\),
+
+```math
+E_r(t_2)-E_r(t_1)+D_r((t_1,t_2])=J_r((t_1,t_2]).
+\tag{4BF.74}
+```
+
+After heat-scale normalization,
+
+```math
+V_r(s,y)=r\,u(T+r^2s,x_\ast+ry),
+\qquad
+Q_r(s,y)=r^2p(T+r^2s,x_\ast+ry),
+\tag{4BF.75}
+```
+
+the same participation identity becomes
+
+```math
+M_r(s_2)-M_r(s_1)+D_r^{ren}((s_1,s_2])
+=
+J_r^{ren}((s_1,s_2]).
+\tag{4BF.76}
+```
+
+The exact comparison of physical and normalized records is
+
+```math
+E_r(T+r^2s)=rM_r(s),
+\qquad
+D_r(T+r^2I)=rD_r^{ren}(I),
+\qquad
+J_r(T+r^2I)=rJ_r^{ren}(I).
+\tag{4BF.77}
+```
+
+Thus participation is not absent.  The center cannot receive a packet without
+the surrounding shell carrying the coupled pressure-transport-viscosity record.
+The obstruction is that one unit of normalized heat-scale participation has
+only order-\(r\) physical cost.
+
+Consequently physical material accounting supplies only
+
+```math
+\sum_j r_jA_j^{ren}<\infty,
+\tag{4BF.78}
+```
+
+or, with \(r=e^{-\sigma}\),
+
+```math
+\int_{\sigma_0}^{\infty}e^{-\sigma}A^{ren}(\sigma)\,d\sigma<\infty.
+\tag{4BF.79}
+```
+
+The gold reserve remains
+
+```math
+\boxed{
+\int_{\sigma_0}^{\infty}A^{ren}(\sigma)\,d\sigma<\infty.
+}
+\tag{4BF.80}
+```
+
+So the base participation body itself narrows the target to
+
+```math
+\boxed{
+\text{UnweightedMaterialParticipationTraceAC.A}
+}
+\tag{4BF.81}
+```
+
+or the full strict four-body no-waste inequality
+
+```math
+\boxed{
+dL_{4B}+dD_{4B}+c\,dA_{\rm sel}\le dR_{\rm legal},
+\qquad c>0.
+}
+\tag{4BF.82}
+```
+
+If `(4BF.81)` and `(4BF.82)` are not produced, the surviving terminal pulse must
+be handled by the already isolated alternatives:
+
+```math
+\boxed{
+\text{polar saturation, charged compactness/geometry defect, CM Part/Field
+consumption, or MinimalZenoProfileProduction.A.}
+}
+\tag{4BF.83}
+```
 
 This is the current unflattened frontier: the four-body loop pays quotient
 tower activity exactly, and the native cubic source selector must be converted
