@@ -27,7 +27,7 @@ CM_{N,r,Q}:=Part_{N,Q}\wedge Field_{N,r,Q}.
 Together:
 
 ```math
-Pack_Q+Part_{N,Q}+Field_{N,r,Q}
+Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}
 \Longrightarrow
 M_Q(u,p).
 ```

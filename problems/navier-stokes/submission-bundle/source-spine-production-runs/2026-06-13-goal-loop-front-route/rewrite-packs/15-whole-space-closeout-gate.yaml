@@ -73,7 +73,7 @@ source_rewrites:
     \begin{proposition}[Exterior survivor lands in the CM Part/Fields]
     Assume the exterior nonlinear source survives in \(H^s\).  Then the selected terminal exterior survivor lands in the CM matrix:
     \[
-      \neg\Pack_Q\;\vee\;\neg\Part_{M,Q}\;\vee\;
+      Field-window evidence outside CM\;\vee\;\neg\Part_{M,Q}\;\vee\;
       \forall \rho>0\,\neg\Field_{M,\rho,Q}.
     \]
     \end{proposition}
@@ -116,9 +116,9 @@ source_rewrites:
     \begin{proposition}[Branch obligations enter by first lost requirement]
     Let \(B\) be a non-Euler same-solution branch from source reserve, donor refill, zero-radius refinement, retained amplitude, low strain, height flux, signed current, square reserve, endpoint readout, no-pulse, local critical translation, or comparison.  The branch is proof-bearing exactly when it identifies the same terminal witness record and proves one of the following outcomes:
     \[
-      \neg\Pack_Q,\qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},
+      Field-window evidence outside CM,\qquad
+      \neg\Part_{N,Q},\qquad
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},
     \]
     or when it supplies the member-side continuation readout for that same record.  A branch still awaiting that witness record remains support, diagnostic pressure, readout pressure, or comparison pressure.
     \end{proposition}
@@ -197,9 +197,9 @@ source_rewrites:
     \]
     The member outcome gives the same-solution readout chain up to the selected continuation consumer.  The exit outcome is supported by a first failed witness:
     \[
-      \neg\Pack_Q,\qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      Field-window evidence outside CM,\qquad
+      \neg\Part_{N,Q},\qquad
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     \end{theorem}
 
@@ -224,7 +224,7 @@ source_rewrites:
       \Longrightarrow
       \text{CM-test entry}
       \Longrightarrow
-      \neg\Pack_Q
+      Field-window evidence outside CM
       \vee
       \neg\Part_{N,Q}
       \vee

@@ -28,7 +28,7 @@ RWS.C_{scale},
 and
 
 ```math
-Pack_Q+Part_{N,Q}+Field_{N,r,Q},
+Part_{N,Q} plus Field-window evidence + Field_{N,r,Q},
 \qquad
 \mathfrak A_{N,Q}\in L^\infty([t_0,T_*)).
 ```

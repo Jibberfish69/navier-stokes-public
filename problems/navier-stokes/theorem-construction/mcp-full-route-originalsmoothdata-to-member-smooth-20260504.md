@@ -189,7 +189,7 @@ OriginalSmoothData
 \Longrightarrow
 Jump_{avg}\Rightarrow\bot
 \Longrightarrow READ.COVER
-\Longrightarrow Pack_Q+Part_{N,Q}+Field_{N,r,Q}
+\Longrightarrow Part_{N,Q} plus Field-window evidence + Field_{N,r,Q}
 \Longrightarrow CM_{N,r,Q}
 \Longrightarrow Member(Q)
 \Longrightarrow Smooth(Q).

@@ -204,9 +204,9 @@ source_rewrites:
     The proof does not call every bad-looking picture an exit.
     It records the first failed face of the same terminal record:
     \[
-      \neg\Pack_Q,\qquad
-      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
-      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      Field-window evidence outside CM,\qquad
+      \neg\Part_{N,Q},\qquad
+      \Part plus Field-window evidence_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
     \]
     That first Part/Field failure supports
     \[

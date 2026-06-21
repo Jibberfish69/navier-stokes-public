@@ -108,7 +108,7 @@ tail `AveragedFieldFaceAdmission.A` gives the Field-face contradiction only with
 the same-tail modulus:
 
 ```math
-Pack_Q+Part_{N,Q}+Jump_{avg}(T)
+Part_{N,Q} plus Field-window evidence+Jump_{avg}(T)
 \quad+\quad SCFBaseLocalModulus_N(T,r)
 \Longrightarrow
 \neg Field_{N,r,Q}\text{ at that }r.

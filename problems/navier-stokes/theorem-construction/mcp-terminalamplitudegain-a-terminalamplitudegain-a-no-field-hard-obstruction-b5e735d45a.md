@@ -73,7 +73,7 @@ This estimate is exactly the local positive source control on terminal packets. 
 If one assumes a high-tail Field modulus `FieldTail_N`, then the high-high remainder estimate follows and the amplitude theorem is valid:
 
 ```math
-FieldTail_N+Pack_Q+Part_{N,Q}
+FieldTail_N+Part_{N,Q} plus Field-window evidence
 \Longrightarrow TerminalAmplitudeGain.A.
 ```
 
