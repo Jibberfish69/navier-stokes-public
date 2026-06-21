@@ -25,7 +25,7 @@ ns_viewer:
     exactly V_j. If V_j is summable, the moving-gauge defect is summably legal
     under the density bridge. If V_j -> 0 but is not summable, individual tail
     replacement is available but global telescoping still needs grouping,
-    subsequence control, or an independent reserve. If V_j does not tend to zero,
+    composite sparse-chain control, or an independent reserve. If V_j does not tend to zero,
     the branch must be treated as visible moving-gauge drift / no unique tangent /
     collar-readout / profile production, not as hidden source-square failure.
 ---
@@ -303,7 +303,8 @@ V_j\to0,
 In that branch each individual moving-gauge replacement is small on the tail,
 but a global telescoping proof over all Zeno steps is not paid by this geometry
 alone.  It still needs grouping, subsequence extraction, source-square/no-waste
-reserve, or profile production.
+alone.  It still needs grouping, composite sparse-chain summability,
+source-square/no-waste reserve, or profile production.
 
 ## 5. Proof-program consequence
 
@@ -321,8 +322,8 @@ Then:
 1. If \(\sum_jV_j<\infty\), the moving-gauge defect is summably paid under the
 same-carrier density bridge.
 2. If \(V_j\to0\), the moving-gauge defect is tail-small under the same-carrier
-density bridge, but global telescoping may still need a separate summability
-or grouping argument.
+density bridge, but global telescoping may still need a separate summability,
+grouping, or composite sparse-chain argument.
 3. If \(V_j\not\to0\), then the failure is not a hidden density estimate.  It is
 a visible moving-gauge drift branch:
 
