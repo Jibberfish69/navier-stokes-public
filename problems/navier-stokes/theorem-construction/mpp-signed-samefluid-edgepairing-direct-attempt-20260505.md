@@ -24,7 +24,7 @@ Exactness rework correction, 2026-06-18: this failed attempt is a signed
 same-fluid obstruction calculation.  It may not be used to reset the current
 live target to the old scalar source wall.  Current proof use requires
 same-ledger payment, terminal signed saturation, or CM-test admission plus first
-Pack/Part/Field face failure on the same witness.
+Part/Field Part/Field failure on the same witness.
 
 ## Intended Theorem
 
@@ -316,5 +316,5 @@ with the caveat that `TerminalSignedSaturation.A` is not a separate lower
 installed theorem; it is a signed formulation of the same source-control wall
 unless a new strain-sign / terminal-saturation argument is supplied.  Any
 absolute fallback to `ScaleCriticalTreeCarleson.A` remains historical supplier
-support under the Pack-before-Part CM correction, not a current target-setting
+support under the Pack-out-of-CM CM correction, not a current target-setting
 conclusion.

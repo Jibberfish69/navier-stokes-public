@@ -2,7 +2,7 @@
 
 ## Authority Cap - Superseded By CM Face Consumption
 
-This direct attempt is retained as positive visibility / source-reserve proof-search evidence. Current CM authority is `mpp-source-reserve-birth-cm-face-consumption-20260525.md`: the scalar-pulse or signed-pair fail branch is consumed as Pack/Part/Field witness-face support for `Exit(Q):=not Member(Q)`. The unproved no-free-sink or active-height language here blocks only the positive-forward route.
+This direct attempt is retained as positive visibility / source-reserve proof-search evidence. Current CM authority is `mpp-source-reserve-birth-cm-face-consumption-20260525.md`: the scalar-pulse or signed-pair fail branch is consumed as Part/Field witness support for `Exit(Q):=not Member(Q)`. The unproved no-free-sink or active-height language here blocks only the positive-forward route.
 
 Date: 2026-05-25
 
@@ -54,7 +54,7 @@ of:
 4. terminal Zeno residue already sorted as Pack/Part exit.
 
 The charge cannot be a free new positive source budget.  It must either be
-paid by installed same-ledger structure or become a Pack/that face failure
+paid by installed same-ledger structure or become a Pack/that Part/Field failure
 witness.
 
 ## Proof Attempt
@@ -106,7 +106,7 @@ It proves the exact reduction:
 OriginalSmoothData=>ScaleCriticalTreeCarleson.A
 reduces, after installed parent/past/residual/legal ledgers, to proving that
 the first-created positive-scale native source-reserve surplus is paid or
-becomes a Pack/that face failure witness.
+becomes a Pack/that Part/Field failure witness.
 ```
 
 Equivalently:
@@ -139,7 +139,7 @@ The first unproved mathematical subclaim is:
 ```text
 RetainedPositiveScaleNativeReserveBirthCharge.A:
 every retained positive-scale first-created native donor-square reserve surplus
-is either paid by same-ledger source geometry or forces Pack/that face failure.
+is either paid by same-ledger source geometry or forces Pack/that Part/Field failure.
 ```
 
 Current equivalent entrances are:

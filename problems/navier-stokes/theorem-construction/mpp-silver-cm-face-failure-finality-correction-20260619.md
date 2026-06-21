@@ -9,7 +9,7 @@ Status: installed correction.
 The following burden is rejected for the Silver CM route:
 
 ```text
-After a terminal witness lands in Pack/Part/Field failure, prove separately
+After a terminal witness lands in Part/Field failure, prove separately
 that this failure branch cannot itself be the finite-time breakdown.
 ```
 
@@ -22,7 +22,7 @@ when it satisfies the installed branch law:
 CM-test entry
 => admissibility failure
    or continuation/readout recovery
-   or concrete Pack/Part/Field face failure
+   or concrete Part/Field Part/Field failure
 => Exit(Q):=not Member(Q).
 ```
 
@@ -30,7 +30,7 @@ The same-solution obstruction is first read under the original Navier--Stokes
 participation law.  A later `Part_{N,Q}` label is the localized finite record
 of that law inside the Silver witness tree, not the source of participation.
 
-The face failure is the contrapositive witness. It is not a leftover branch that
+The Part/Field failure is the contrapositive witness. It is not a leftover branch that
 must then be deleted by `NoGenuineExitFromSmoothData.A`.
 
 ## Authority Consequence
@@ -48,8 +48,8 @@ A future Silver blocker must name a concrete promoted finite-breakdown row that:
 ```text
 enters the CM test
 and does not continue/read out
-and does not land in a real Pack/Part/Field face failure.
+and does not land in a real Part/Field Part/Field failure.
 ```
 
-Generic demands to prove that `Exit(Q)` is inadmissible, or that face failure
+Generic demands to prove that `Exit(Q)` is inadmissible, or that Part/Field failure
 cannot be finite breakdown, are superseded wrong targets.

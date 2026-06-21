@@ -17,7 +17,7 @@ SourceTimeConcentrationCost.A.
 The theorem should price a terminal native positive source squeeze. If a fixed
 amount of the selected source measure is concentrated in a terminal slab of
 thickness `\tau_m\downarrow0`, some same-ledger nonnegative cost must become
-too large for the installed finite budgets, legal payments, Pack/Part/Field
+too large for the installed finite budgets, legal payments, Part/Field
 face accounting, or source-residence budget.
 
 ## Existing Cost Form

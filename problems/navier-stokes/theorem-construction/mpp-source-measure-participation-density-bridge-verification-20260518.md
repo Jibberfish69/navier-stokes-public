@@ -19,7 +19,7 @@ positive selection.
 `CMW.A` gives the exact membership witness family:
 
 ```math
-CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+CM_{N,r,Q}:=Part_{N,Q}+Field_{N,r,Q}.
 ```
 
 `SharedParticipationAndTowerCoherence` gives the common incompressible flow map, common pressure-viscosity tower carrier, and common finite-difference field law.
@@ -94,7 +94,7 @@ The next theorem is
 SharedParticipationFluxBalance.A
 ```
 
-at the `B_ASAC` residue level. It must state the transported balance with the incoming flux term and identify which CM face receives the failure when the flux or envelope blows up.
+at the `B_ASAC` residue level. It must state the transported balance with the incoming flux term and identify which CM Part/Field receives the failure when the flux or envelope blows up.
 
 The direct attempt isolates the exact production burden:
 

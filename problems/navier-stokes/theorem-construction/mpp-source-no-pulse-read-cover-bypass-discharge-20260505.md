@@ -50,7 +50,7 @@ Installed row and cover surfaces used here:
 | `mcp-pack-from-finite-physical-cover-20260504.md` | `READ.COVER+ATD_m^\varepsilon=>Pack_Q` |
 | `mcp-part-terminal-closedness-field-tower-theorem-20260504.md` | terminal `Part_{N,Q}` from Field, tower, and preterminal Part |
 | `mcp-final-cm-conjunction-member-row-20260504.md` | `Pack+Part+Field=>CM=>Member` |
-| `mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md` | all-depth CM membership gives `Smooth(Q)` |
+| `mpp-member-smooth-contrapositive-witness-bridge-20260504.md` | all-depth CM membership gives `Smooth(Q)` |
 | `mpp-terminal-bad-scale-extraction-compactness-20260505.md` | `TerminalBadScaleExtraction.A` under retained suitable-compactness normalization |
 | `mpp-terminal-defect-persistence-measure-split-20260505.md` | measure-valued defect persistence under interior tightness |
 | `mpp-interior-scf-tightness-buffer-20260505.md` | buffered cutoff discharge of `InteriorSCFTightness.A` |

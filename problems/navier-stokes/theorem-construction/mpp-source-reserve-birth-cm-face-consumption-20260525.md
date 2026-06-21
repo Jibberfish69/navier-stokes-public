@@ -5,10 +5,10 @@ Date: 2026-05-25
 Status: theorem-facing CM consumption note for the source-reserve birth root.
 
 Authority cap: `mpp-pack-first-source-reserve-face-audit-20260526.md` is the
-current Pack-first classification. This note supplies CM-consumption support,
+current Field-certification classification. This note supplies CM-consumption support,
 but the retained positive-scale first-created native donor-square reserve
 surplus remains supplier-quarantined until same-ledger payment or CM-test
-admission plus a first Pack/Part/Field face failure is proved.
+admission plus a first Part/Field Part/Field failure is proved.
 
 ## Target
 
@@ -27,7 +27,7 @@ erased.  The required conclusion is:
 
 ```text
 the first reserve-surplus branch either remains a legal in-class/pass branch,
-or its fail branch lands in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
+or its fail branch lands in Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence.
 ```
 
 That supports:
@@ -74,7 +74,7 @@ forward visibility theorem.  The zero-thickness terminal layer is a real branch.
 ## Correct CM Reading
 
 The terminal-layer branch is not an in-class hidden continuation.  It is exactly
-the branch that must be routed through the CM witness faces.
+the branch that must be routed through the CM witnesss.
 
 The installed chain now used by the source-reserve root is:
 
@@ -92,8 +92,8 @@ The cases are:
 3. Same-ledger retained partner is paid by ASAC / positive pair-weight charge
    or legal finite-donor ledgers.
 4. The only uncharged terminal branch is a terminal signed-saturation failure.
-   `TerminalSignedSaturationCMFaceReduction.A` routes it to Pack/Part/Field
-   witness-face support, using the terminal Zeno Pack-before-Part correction and the
+   `TerminalSignedSaturationCMFaceReduction.A` routes it to Part/Field
+   witness support, using the terminal Zeno Pack-out-of-CM correction and the
    terminal atom face-labeling surface.
 
 Thus the scalar-pulse countermodel blocks the wrong positive theorem, but it
@@ -110,7 +110,7 @@ the first-created source-reserve surplus to the active-height / CM-face branch.
 `SignedPairReserveVisibility.A` supplies the same-ledger signed-pair routing.
 
 `TerminalSignedSaturationCMFaceReduction.A` supplies the terminal no-free-sink
-failure as Pack/Part/Field witness-face exit support.
+failure as Part/Field witness exit support.
 
 Together they consume the source-reserve birth root in the CM contrapositive
 sense:
@@ -122,11 +122,11 @@ RetainedPositiveScaleNativeReserveBirthCharge.A
 ```
 
 No `Member(Q)` converse is used.  `Member(Q)` remains downstream of the
-Pack/Part/Field CM witness-face record.
+Part/Field CM witness record.
 
 ## Verdict
 
-The source-reserve birth root is support-only after the Pack-first audit.
+The source-reserve birth root is support-only after the Field-certification audit.
 Zero-radius terminal residue or selected unpaid infinite donor-refill lands
 first at `not Pack_Q`; the retained positive-scale first-created native
 donor-square reserve surplus remains the supplier-quarantined burden.
@@ -136,4 +136,4 @@ visible first-moment height flux.  It is the contrapositive proof step Thomas
 wanted: once the positive proof route reaches the reserve-surplus obstruction,
 the pass branch remains the legal in-class continuation branch, and any fail
 branch becomes CM authority only after CM-test admission and a first
-Pack/Part/Field witness-face failure.
+Part/Field witness failure.

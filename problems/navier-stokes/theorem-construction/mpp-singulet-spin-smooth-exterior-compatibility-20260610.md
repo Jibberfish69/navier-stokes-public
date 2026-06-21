@@ -8,7 +8,7 @@ ns_viewer:
   upstream_origin:
     - /Users/thomasbirnie/.codex/attachments/9bf84840-083e-49fc-b943-7844429d4713/pasted-text.txt
     - problems/navier-stokes/theorem-construction/mpp-participation-debt-mechanism-reentry-20260610.md
-  downstream_consequence: "Supplies the ontology lane with a precise point-spin compatibility test, preventing the zero-radius singulet from being treated as both singular and smoothly participating without paying a CM face cost."
+  downstream_consequence: "Supplies the ontology lane with a precise point-spin compatibility test, preventing the zero-radius singulet from being treated as both singular and smoothly participating without paying a CM Part/Field cost."
 ---
 
 # MPP SinguletSpinSmoothExteriorCompatibility.A
@@ -168,7 +168,7 @@ singular enough to break smoothness,
 smooth enough to remain a finite-gradient participating point.
 ```
 
-The object must either be removable or move into CM face classification.
+The object must either be removable or move into CM Part/Field classification.
 
 ## Relation To First Terminal Pack/Source Failure
 
@@ -180,7 +180,7 @@ punctured smoothness at every positive radius
 does not equal Pack survival at the collapsed point.
 ```
 
-If no positive-radius carrier survives, the landing is Pack-first. If positive
+If no positive-radius carrier survives, the landing is Field-certification. If positive
 annuli survive with unbounded readout, the landing is Field. If same-object
 participation is asserted after the point carrier fails, the landing is Part.
 

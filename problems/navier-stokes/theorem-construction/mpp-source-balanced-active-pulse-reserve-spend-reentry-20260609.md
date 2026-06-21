@@ -33,7 +33,7 @@ source-balanced active pulse
 => active-square reserve
    or signed lifted-remainder cancellation
    or source-time concentration cost
-   or same-ledger Pack/Part/Field face failure.
+   or same-ledger Part/Field Part/Field failure.
 ```
 
 To help public Clay finality, this cannot be a label switch. The spent reserve
@@ -105,7 +105,7 @@ The possible payments are:
 3. **Source-time concentration cost.** This requires a coercive cost that
    diverges as the terminal time layer shrinks. Current source ledgers give
    only finite local `L^1_t` source mass.
-4. **Pack/Part/Field face payment.** This is valid as CM witness-face
+4. **Part/Field face payment.** This is valid as CM witness
    classification once the terminal occurrence is admitted. It is not a public
    supplier theorem showing that original smooth data cannot realize the first
    Pack exit.

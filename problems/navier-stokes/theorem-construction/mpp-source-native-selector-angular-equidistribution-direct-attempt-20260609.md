@@ -4,13 +4,13 @@ ns_viewer:
   status: failed-positive-equidistribution-discharge-pivots-to-field-face-entry
   proof_role: selector_source_cm_pivot_reentry
   logical_landing_node: angular-concentration-field-face-entry
-  edge_effect: "Tests SourceNativeSelectorAngularEquidistribution.A. A positive source-native angular equidistribution theorem is not installed: smooth incompressible transport can carry concentrated selected directions, and the material-gap tether preserves concentration rather than spreading it. Under the CM pass-or-exit engine, the missing-cap branch has two exact outcomes: prove the positive angular nonconcentration supplier, or prove AngularConcentrationFieldFaceEntry.A, namely that failure of finite QSP angular nonconcentration, once admitted as part of the same terminal packet, is a concrete Field-face failure unless Pack or Part already fails earlier."
+  edge_effect: "Tests SourceNativeSelectorAngularEquidistribution.A. A positive source-native angular equidistribution theorem is not installed: smooth incompressible transport can carry concentrated selected directions, and the material-gap tether preserves concentration rather than spreading it. Under the CM pass-or-exit engine, the missing-cap branch has two exact outcomes: prove the positive angular nonconcentration supplier, or prove AngularConcentrationFieldFaceEntry.A, namely that failure of finite QSP angular nonconcentration, once admitted as part of the same terminal packet, is a concrete Field-Part/Field failure unless Pack or Part already fails earlier."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-source-native-finite-cap-bump-comparability-direct-attempt-20260609.md
     - problems/navier-stokes/live-theorem-edge.yaml
     - problems/navier-stokes/theorem-construction/selector-quadratic-sign-separation-packet.md
     - problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
-  downstream_consequence: "The next theorem atom is AngularConcentrationFieldFaceEntry.A: prove that a same-terminal-packet failure of finite QSP cap/shell bump nonconcentration lands as a Pack/Part/Field face failure, specifically Field under retained Pack+Part, instead of remaining an endless positive equidistribution supplier demand."
+  downstream_consequence: "The next theorem atom is AngularConcentrationFieldFaceEntry.A: prove that a same-terminal-packet failure of finite QSP cap/shell bump nonconcentration lands as a Part/Field Part/Field failure, specifically Field under retained Pack+Part, instead of remaining an endless positive equidistribution supplier demand."
 ---
 
 # MPP Source-Native Selector Angular Equidistribution Direct Attempt
@@ -47,7 +47,7 @@ Logical skeleton: test the positive spreading theorem, then apply the
 pass-or-exit discipline from the live authority surface.
 
 Mechanism: angular transport, finite QSP cap nonconcentration, Field coherence,
-and Pack/Part/Field face entry.
+and Part/Field face entry.
 
 ## Positive Attempt
 
@@ -72,7 +72,7 @@ The live authority edge gives the exact pass-or-exit split:
 ```text
 pass branch: supplies the in-class Member(Q) continuation packet;
 fail branch: becomes Exit(Q):=not Member(Q) only after CM-test entry and a
-concrete Pack/Part/Field face failure.
+concrete Part/Field Part/Field failure.
 ```
 
 Finite QSP angular nonconcentration is exactly such an obstruction. If the
@@ -106,7 +106,7 @@ The next theorem atom is:
 ```text
 AngularConcentrationFieldFaceEntry.A:
 prove that a same-terminal-packet failure of finite QSP cap/shell bump
-nonconcentration lands as a Pack/Part/Field face failure, specifically Field
+nonconcentration lands as a Part/Field Part/Field failure, specifically Field
 under retained Pack+Part, instead of remaining an endless positive
 equidistribution supplier demand.
 ```
@@ -120,6 +120,6 @@ first-face order. The note only identifies the correct next atom.
 `NS-LIVE-20260609-152`: `SourceNativeSelectorAngularEquidistribution.A` is not
 proved as a positive source theorem. The route must either prove the angular
 nonconcentration packet or prove `AngularConcentrationFieldFaceEntry.A`: a
-same-terminal-packet CM face-entry theorem sending failure of finite QSP
-cap/shell bump nonconcentration to the Pack/Part/Field tree, Field under
+same-terminal-packet CM Part/Field-entry theorem sending failure of finite QSP
+cap/shell bump nonconcentration to the Part/Field tree, Field under
 retained Pack+Part.
