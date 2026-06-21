@@ -3,7 +3,7 @@
 ## Target
 
 - target obligation: LCI.A
-- target label: Create the sharp CM branch theorem LCI.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Pack, Part, or Field.
+- target label: Create the sharp CM branch theorem LCI.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Part or Field.
 - route role: Use the retained same-fluid receiver package: ordered ACT.KX and its readout feed ACT.A, then RCF.A, and the uniform lower-carrier/transported-center package supplies the LCI.A lower-carrier interval-integrability conclusion without spending CSP.A, OFP.A, or Field; Member is downstream of the CM witness certificate.
 - theorem family: generic-bridge-theorem
 
@@ -63,7 +63,7 @@ LCI.A. On a retained same-fluid interval with bounded Pack gauge and the ordered
 ## Forbidden Imports
 
 - LCI.A
-- Create the sharp CM branch theorem LCI.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Pack, Part, or Field.
+- Create the sharp CM branch theorem LCI.A from the live source-wall authority, keeping supplier/readout material quarantined until it lands in Part or Field.
 - full-MPP closure
 - submission readiness
 - global smoothness

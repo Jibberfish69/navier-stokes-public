@@ -180,7 +180,7 @@ The terminal production theorem remains:
 TTU:
 OriginalSmoothData
 \Longrightarrow
-\text{uniform terminal-tail retained Pack/Part/Field/tower data}.
+\text{uniform terminal-tail retained Part/Field/tower data}.
 ```
 
 That theorem is the next global step after the receiver-local `ACT.KX` package.

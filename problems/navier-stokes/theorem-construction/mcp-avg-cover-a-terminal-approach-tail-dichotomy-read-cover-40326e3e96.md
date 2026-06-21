@@ -10,7 +10,7 @@ The direct theorem
 TTU:
 OriginalSmoothData
 \Longrightarrow
-\text{uniform terminal-tail retained Pack/Part/Field/tower data}
+\text{uniform terminal-tail retained Part/Field/tower data}
 ```
 
 has already failed as a direct pointwise discharge. On compact classical subintervals, original smooth data supplies retained smooth center-ball control, bounded pack gauge, restart seeds, and finite same-fluid covers. On the full terminal tail `[t_0,T_*)`, those same statements become continuation-grade estimates.

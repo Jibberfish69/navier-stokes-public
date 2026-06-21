@@ -2,7 +2,7 @@
 
 ## Status
 
-Failed to discharge the remaining production gates from installed inputs. The run is completed at hard obstruction placement: `B_ASAC^closed` remains the canonical zero-radius source-residue support typed by Pack-before-Part selected terminal source-residue obstruction unless a positive-scale retained-carrier bridge licenses later Field readout.
+Failed to discharge the remaining production gates from installed inputs. The run is completed at hard obstruction placement: `B_ASAC^closed` remains the canonical zero-radius source-residue support typed by Pack-out-of-CM selected terminal source-residue obstruction unless a positive-scale retained-carrier bridge licenses later Field readout.
 
 ## Gate 1: super-L1 temporal residence
 
