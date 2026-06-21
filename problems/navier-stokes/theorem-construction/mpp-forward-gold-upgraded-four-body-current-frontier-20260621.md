@@ -1252,6 +1252,28 @@ I_{j,Q}\text{ retained on the same carrier.}
 Only after a packet channel has been assigned may Cauchy, Young, Bernstein,
 Calderon-Zygmund, Leray, commutator, CKN, or tail estimates be used as cleanup.
 
+With that tuple rule in force, the compactness/no-loss branch has an exact
+residual core:
+
+```math
+\boxed{
+\text{full-packet no-loss fails}
+\Rightarrow
+\mathcal R_{\rm sel}\cup
+\mathcal R_{\rm sat}\cup
+\mathcal R_{\rm jump}\cup
+\mathcal R_{\rm legal}.
+}
+\tag{4BF.45x}
+```
+
+Here \(\mathcal R_{\rm sel}\) is unbounded positive-part selector complexity or
+carrier drift, \(\mathcal R_{\rm sat}\) is the missing negative signed partner
+\(dN_{\rm miss}\), \(\mathcal R_{\rm jump}\) is the positive endpoint storage
+jump, and \(\mathcal R_{\rm legal}\) is non-summable or non-terminal-AC
+legal/collar residual.  Equivalently, if those four residuals are absent after
+the full tuple is retained, same-carrier selected positive no-loss follows.
+
 So the full-cycle branch is now split exactly: rigidity is paid after
 same-carrier compactness, while production is still open at full-packet
 custody, selected full-packet identification, and terminal trace/no-waste for
