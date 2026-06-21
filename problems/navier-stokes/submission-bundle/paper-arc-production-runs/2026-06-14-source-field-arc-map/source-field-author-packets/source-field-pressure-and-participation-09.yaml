@@ -170,7 +170,7 @@ chunk:
       \delta_h B_k.
       \]
 
-      The theorem is already present in distributed form across the CM packet stack. The current centralization note is extracting that spine into one theorem-grade front statement.
+      The theorem is already present in distributed form across the CM participation-field stack. The current centralization note is extracting that spine into one theorem-grade front statement.
 
       So the theorem spine is not missing. What was missing is one theorem-front note that says in one place what those modules are jointly proving.
 
@@ -546,7 +546,7 @@ chunk:
     \delta_h B_k.
     \]
 
-    The theorem is already present in distributed form across the CM packet stack. The current centralization note is extracting that spine into one theorem-grade front statement.
+    The theorem is already present in distributed form across the CM participation-field stack. The current centralization note is extracting that spine into one theorem-grade front statement.
 
     So the theorem spine is not missing. What was missing is one theorem-front note that says in one place what those modules are jointly proving.
 
@@ -761,7 +761,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

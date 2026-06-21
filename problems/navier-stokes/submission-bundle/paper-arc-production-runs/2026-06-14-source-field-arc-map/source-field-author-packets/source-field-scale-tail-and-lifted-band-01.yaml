@@ -327,7 +327,7 @@ chunk:
       all scales.  The manuscript should read this as an open gold supplier and a
       visible boundary theorem.  Its silver counterpart is simple: a frequency-transfer
       residue can enter the CM proof only after it is selected as a same-solution
-      terminal record and then read at Pack, Part, Field, or readout.
+      terminal record and then read at Part, Field, or readout.
 
 
     truncated: false
@@ -753,7 +753,7 @@ chunk:
     all scales.  The manuscript should read this as an open gold supplier and a
     visible boundary theorem.  Its silver counterpart is simple: a frequency-transfer
     residue can enter the CM proof only after it is selected as a same-solution
-    terminal record and then read at Pack, Part, Field, or readout.
+    terminal record and then read at Part, Field, or readout.
 
 
 
@@ -962,7 +962,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

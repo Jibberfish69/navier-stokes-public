@@ -628,7 +628,7 @@ chunk:
 
     A realized Jump says that, on those overlaps and arbitrarily close to the terminal time, the neighboring pieces do not cohere as one same-law field. At least one piece or overlap relation has left the same pressure-viscosity tower as the others.
 
-    This is the P and not-F => not-A half of the terminal ontology rule from the Pack/Part/Field collapse audit, applied after the Field face has first been hit in the branch-local proof.
+    This is the P and not-F => not-A half of the terminal ontology rule from the Part/Field collapse audit, applied after the Field face has first been hit in the branch-local proof.
 
     This does not prove TerminalCMNo Exit.A and does not rule out the endpoint. It only classifies it.
 
@@ -844,7 +844,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between

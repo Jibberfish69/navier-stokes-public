@@ -38,7 +38,7 @@ chunk:
     text: |+
       \subsection{Clay problem Clay Part-Face Exclusion Working Pass}
 
-      In this historical working pass, the target was the exact positive statement needed to exclude a retained-Pack first Part face.
+      In this historical working pass, the target was the exact positive statement needed to exclude a retained-Part/Field first Part face.
 
       Assume a finite Clay breakdown from smooth original data. Let (u,p) be the maximal classical Navier-Stokes solution on [0,T *), and let Q be the canonical terminal packet after legal losses, non-selected branches, readout artifacts, and paid finite records have been removed.
 
@@ -82,15 +82,15 @@ chunk:
 
       An alleged finite terminal obstruction O is the object under test. CM-test entry means that O has been put into the same-solution terminal packet tree after legal losses, readout artifacts, non-selected branches, and paid finite records have been removed.
 
-      It is not itself a contradiction with the finite-breakdown branch. In the CM pass/fail engine, the fail branch is supposed to become a typed exit branch once a concrete Pack/Part/Field face failure has been derived.
+      It is not itself a contradiction with the finite-breakdown branch. In the CM pass/fail engine, the fail branch is supposed to become a typed exit branch once a concrete Part/Field face failure has been derived.
 
       Thus the old generic Part work order is too broad. It asks for a continuation-strength no-defect theorem when the current CM referee standard only requires a named promoted obstruction row to be certified at its correct first face.
 
       That is a certified face failure for that selected row. The raw terminal source residue row is also certified at Pack/Part: when the carrier survives, an unpaid native residue is a participation defect, hence a Part face. The retained pressure package note gives the same placement rule: a pressure package is either a Part failure, pass-side receiver support after Part survives, or a Field issue after Pack and Part have already been licensed.
 
-      The June 5 finite-obstruction row audit then split the local L 3 Duhamel-mass branch from generic public-critical support and recorded the local row as seated in Pack/Part/legal alternatives, with a Field row only after retained Pack and Part.
+      The June 5 finite-obstruction row audit then split the local L 3 Duhamel-mass branch from generic public-critical support and recorded the local row as seated in Part/legal alternatives, with a Field row only after retained Field-window evidence and Part.
 
-      So, on the currently promoted finite-obstruction inventory, there is no generic uncovered Part theorem row. There are named rows, and the named rows that carry proof mass have either been certified at Pack/Part/Field or demoted from proof-bearing state.
+      So, on the currently promoted finite-obstruction inventory, there is no generic uncovered Part theorem row. There are named rows, and the named rows that carry proof mass have either been certified at Part/Field or demoted from proof-bearing state.
 
       Future Part checks remain possible only after a named row creates them. The burden must be named.
 
@@ -103,7 +103,7 @@ chunk:
   context_excerpt: |+
     \subsection{Clay problem Clay Part-Face Exclusion Working Pass}
 
-    In this historical working pass, the target was the exact positive statement needed to exclude a retained-Pack first Part face.
+    In this historical working pass, the target was the exact positive statement needed to exclude a retained-Part/Field first Part face.
 
     Assume a finite Clay breakdown from smooth original data. Let (u,p) be the maximal classical Navier-Stokes solution on [0,T *), and let Q be the canonical terminal packet after legal losses, non-selected branches, readout artifacts, and paid finite records have been removed.
 
@@ -135,15 +135,15 @@ chunk:
 
     An alleged finite terminal obstruction O is the object under test. CM-test entry means that O has been put into the same-solution terminal packet tree after legal losses, readout artifacts, non-selected branches, and paid finite records have been removed.
 
-    It is not itself a contradiction with the finite-breakdown branch. In the CM pass/fail engine, the fail branch is supposed to become a typed exit branch once a concrete Pack/Part/Field face failure has been derived.
+    It is not itself a contradiction with the finite-breakdown branch. In the CM pass/fail engine, the fail branch is supposed to become a typed exit branch once a concrete Part/Field face failure has been derived.
 
     Thus the old generic Part work order is too broad. It asks for a continuation-strength no-defect theorem when the current CM referee standard only requires a named promoted obstruction row to be certified at its correct first face.
 
     That is a certified face failure for that selected row. The raw terminal source residue row is also certified at Pack/Part: when the carrier survives, an unpaid native residue is a participation defect, hence a Part face. The retained pressure package note gives the same placement rule: a pressure package is either a Part failure, pass-side receiver support after Part survives, or a Field issue after Pack and Part have already been licensed.
 
-    The June 5 finite-obstruction row audit then split the local L 3 Duhamel-mass branch from generic public-critical support and recorded the local row as seated in Pack/Part/legal alternatives, with a Field row only after retained Pack and Part.
+    The June 5 finite-obstruction row audit then split the local L 3 Duhamel-mass branch from generic public-critical support and recorded the local row as seated in Part/legal alternatives, with a Field row only after retained Field-window evidence and Part.
 
-    So, on the currently promoted finite-obstruction inventory, there is no generic uncovered Part theorem row. There are named rows, and the named rows that carry proof mass have either been certified at Pack/Part/Field or demoted from proof-bearing state.
+    So, on the currently promoted finite-obstruction inventory, there is no generic uncovered Part theorem row. There are named rows, and the named rows that carry proof mass have either been certified at Part/Field or demoted from proof-bearing state.
 
     Future Part checks remain possible only after a named row creates them. The burden must be named.
 
@@ -154,7 +154,7 @@ chunk:
 
   context_truncated: false
   completion_test: each source unit is rewritten or certified as proof, support, obstruction,
-    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    obsolete material, contradiction, or open continuation, with Part/Field role
     named where relevant
 source_rewrites:
 - op: replace_between
