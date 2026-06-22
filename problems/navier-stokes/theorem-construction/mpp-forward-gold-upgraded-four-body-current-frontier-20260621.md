@@ -3287,14 +3287,39 @@ A_{4B}
 \tag{4BF.129}
 ```
 
-unless the stabilized donor quotient has a zero-descent cycle, which lands in
+after finite rank descent and after zero-rank cycles are tested in total
+exchange, not just signed net exchange.  If \(\mathcal C\) is a stabilized
+zero-rank donor cycle with signed donor currents \(J_e\), then
 
 ```math
-Pack_Q+\neg Part_{N,Q}.
+\mathcal A_{\mathcal C}^{tot}
+:=
+\sum_{e\in\mathcal C}|J_e|
 \tag{4BF.130}
 ```
 
-Therefore, outside these two typed CM exits,
+is the relevant carrier.  The selected donor residue on the cycle satisfies
+
+```math
+\mathcal Z_{\rm donor}^{\mathcal C}
+\le
+\sum_{e\in\mathcal C}[J_e]_+
+\le
+\mathcal A_{\mathcal C}^{tot}.
+\tag{4BF.131}
+```
+
+When this total exchange is realized on the same full packet, it is a Body-III
+signed-current relay defect / retained partner-selection defect and is already
+inside \(A_{4B}\).  The zero-rank cycle lands in
+
+```math
+Pack_Q+\neg Part_{N,Q}
+\tag{4BF.132}
+```
+
+only when the same-packet realization fails.  Therefore, outside these two
+typed CM exits,
 
 ```math
 \boxed{
@@ -3302,7 +3327,7 @@ A_{\rm native}
 \leadsto
 A_{4B}.
 }
-\tag{4BF.131}
+\tag{4BF.133}
 ```
 
 Since the four-body cycle gives
