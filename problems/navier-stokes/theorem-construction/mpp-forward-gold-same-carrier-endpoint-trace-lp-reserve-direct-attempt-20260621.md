@@ -2,7 +2,7 @@
 theorem_id: forward-gold-same-carrier-endpoint-trace-lp-reserve-direct-attempt-20260621
 status: direct-attempt-complete-reduces-to-temporal-trace-regularity-or-reverse-holder-producer
 logical_landing_node: same_carrier_endpoint_trace_lp_reserve
-edge_effect: "Attacks Thomas's sharpened minimal gold producer SameCarrierEndpointTraceLpReserve.A. The consumer step is exact: a same-carrier bound sup_m ||[H_m]_+||_{L_s^p(-1,0)}<infinity for some p>1 gives a Hardy endpoint moment for every alpha<1-1/p and hence FullHodgeStokesEndpointNoJump.A after the weighted legal/sign/selector/geometry endpoint measures are controlled. The direct production attempt does not close from the current four-body loop: the full-packet production identity gives L_s^1 control of the positive trace through capacity drop and payment measures, and finite L_s^1 control permits the terminal heat-scale pulse. The local energy trace bound gives L_s^p only after a reverse-Holder or normalized critical-density input for the collar quantities. The mixed derivative tower is the right way to try to get this smaller producer, but the installed tower normal form only gives exact factorial coupling and radius-spend bookkeeping; it does not yet control a positive fractional time-regularity norm of the endpoint trace. Therefore the new hard subproducer is EndpointTraceTemporalTowerRegularity.A or an equivalent TraceReverseHolder/SourceSquare/CriticalDensity theorem on the same retained full packet."
+edge_effect: "Attacks Thomas's sharpened minimal gold producer SameCarrierEndpointTraceLpReserve.A. The consumer step is exact: a same-carrier bound sup_m ||[H_m]_+||_{L_s^p(-1,0)}<infinity for some p>1 gives a Hardy endpoint moment for every alpha<1-1/p and hence FullHodgeStokesEndpointNoJump.A after the weighted legal/sign/selector/geometry endpoint measures are controlled. The direct production attempt does not close from the current four-body loop. The full-packet production identity directly pays the order-locked full-packet density h_sigma. It controls the local-energy endpoint trace H_m only after a same-carrier endpoint trace identification between h_sigma and the selected local-energy readout. Even with that identification, the available control is L_s^1 through capacity drop and payment measures, and finite L_s^1 control permits the terminal heat-scale pulse. The local energy trace bound gives L_s^p only after a reverse-Holder or normalized critical-density input for the collar quantities. The mixed derivative tower is the right way to try to get this smaller producer, but the installed tower normal form only gives exact factorial coupling and radius-spend bookkeeping; it does not yet control a positive fractional time-regularity norm of the endpoint trace. Therefore the new hard subproducer is FullPacketDensityEndpointTraceIdentification.A plus EndpointTraceTemporalTowerRegularity.A, or an equivalent TraceReverseHolder/SourceSquare/CriticalDensity theorem on the same retained full packet."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-reserve-producer-family-recheck-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-hardy-nowaste-direct-test-20260621.md
@@ -95,9 +95,44 @@ d\mathfrak M_{vis}
 \tag{ELP.5}
 ```
 
-After integrating over the retained spatial carrier, this gives an \(L_s^1\)
-bound for the positive endpoint trace against capacity drop and payment
-measures:
+This statement is for the order-locked full-packet density \(h_\sigma\).  The
+endpoint no-jump theorem uses the local-energy trace \(H_m(s)\):
+
+```math
+M_m(b)-M_m(a)+D_m(a,b)
+=
+\int_a^bH_m(s)\,ds+L_m(a,b).
+\tag{ELP.5a}
+```
+
+So there is an additional same-carrier identification step:
+
+```math
+\boxed{
+\texttt{FullPacketDensityEndpointTraceIdentification.A}
+}
+\tag{ELP.5b}
+```
+
+meaning that, on the retained local-energy test/cutoff/carrier, the positive
+endpoint trace is controlled by the order-locked full-packet density plus legal
+endpoint residues:
+
+```math
+[H_m(s)]_+
+\le
+C\int_{\text{retained carrier}}[h_m(s,y)]_+\,dy
++R_m^{trace/legal}(s).
+\tag{ELP.5c}
+```
+
+This identification is natural when the selected full-packet test is exactly
+the local-energy endpoint test.  It is not automatic for an arbitrary four-body
+selector, and it must be retained as part of the same-carrier hypothesis.
+
+After `(ELP.5b)`--`(ELP.5c)`, integrating over the retained spatial carrier
+gives an \(L_s^1\) bound for the positive endpoint trace against capacity drop
+and payment measures:
 
 ```math
 \int_{-1}^{0}[H_m(s)]_+\,ds
@@ -329,6 +364,15 @@ The exact current reduction is:
 ```
 
 is supplied by any one of:
+
+```math
+\boxed{
+\texttt{FullPacketDensityEndpointTraceIdentification.A}
+}
+\tag{ELP.21a}
+```
+
+together with one of the temporal-thickness producers below:
 
 ```math
 \boxed{
