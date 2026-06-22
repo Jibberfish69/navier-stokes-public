@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-vorticity-stretching-signed-enstrophy-ledger-direct-attempt-20260622
-status: signed-stretching-ledger-proved-positive-selected-carrier-saturation-remains
+status: signed-stretching-ledger-proved-positive-carrier-requires-total-exchange-retention
 logical_landing_node: vorticity_stretching_signed_enstrophy_ledger
 edge_effect: >-
   Attacks SamePacketVorticityStretchingPayment.A through the exact vorticity
@@ -9,13 +9,15 @@ edge_effect: >-
   vorticity dissipation plus collar terms. This is the correct full-packet
   participation ledger for the stretching mechanism. It does not by itself pay
   the selected positive carrier int phi [omega dot S omega]_+, because positive
-  part does not commute with the signed enstrophy identity. The remaining gold
-  clause is positive-stretching saturation/order-lock on the same packet, or an
-  endpoint no-jump theorem for the signed enstrophy storage record.
+  part does not commute with the signed enstrophy identity. The corrected
+  retained-branch carrier is total strain-vorticity exchange
+  int phi |omega dot S omega|. Positive stretching is admitted to A_4B exactly
+  when that total exchange is retained on the same material packet.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-strain-pressure-cancellation-global-local-audit-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-carrier-curl-source-transport-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-stretching-atom-to-finite-rung-field-face-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-vorticity-stretching-total-exchange-admission-20260622.md
 ---
 
 # Vorticity Stretching Signed Enstrophy Ledger Direct Attempt
@@ -207,18 +209,31 @@ The signed stretching payment is proved:
 \tag{VSL.12}
 ```
 
-The selected positive stretching payment is not proved.  The sharpened missing
-clause is:
+The selected positive stretching payment is not a consequence of the signed
+identity.  The corrected retained-branch clause is total-exchange retention:
 
 ```math
 \boxed{
-\texttt{PositiveVorticityStretchingSaturation.A}
+\int_I\int\phi|\omega\cdot S\omega|
+\le
+C\int_I A_{4B}(\sigma)\,d\sigma .
 }
 \tag{VSL.13}
 ```
 
-or an equivalent same-packet endpoint no-jump theorem for the vorticity
-enstrophy storage record.
+With `(VSL.13)`, the selected positive carrier satisfies
+
+```math
+\int_I\int\phi[\omega\cdot S\omega]_+
+\le
+C\int_I A_{4B}(\sigma)\,d\sigma .
+\tag{VSL.13a}
+```
+
+Without total-exchange retention, the signed enstrophy storage record can still
+hide positive and negative stretching behind zero net.  That failure is loss of
+the same-packet strain/vorticity participation record, not a proved positive
+saturation theorem.
 
 With that clause, the chain becomes:
 
