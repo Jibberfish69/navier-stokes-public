@@ -3451,6 +3451,40 @@ endpoint trace estimate therefore also needs same-carrier trace identification:
 \tag{4BF.158a}
 ```
 
+The direct identification attempt closes this only in the endpoint-base form.
+If the retained selected full-packet test is
+
+```math
+\varphi_m^E=\eta_m^2V_m,
+\tag{4BF.158b}
+```
+
+then the full-packet expansion is the local energy identity itself:
+
+```math
+H_m(s)
+=
+\int h_m^E(s,y)\,dy
++R_m^{trace/legal}(s),
+\tag{4BF.158c}
+```
+
+with the storage derivative and nonnegative interior viscous loss placed on
+the capacity/drop side.  Hence
+
+```math
+[H_m(s)]_+
+\le
+\int [h_m^E(s,y)]_+\,dy
++R_m^{trace/legal,+}(s).
+\tag{4BF.158d}
+```
+
+For a general selected test \(\varphi_\sigma\), `(4BF.158c)` is false.  The
+difference between the selected test and the endpoint base local-energy test is
+a selector/admissibility/legal mismatch and must enter \(d\Lambda_{sel}\) or
+\(d\Lambda_{legal}\).
+
 After that identification, the four-body payment gives only
 
 ```math
