@@ -468,3 +468,47 @@ C(F(t))
 Both \(C(F(t))\) and the tower norms are part of the record being proved.  Thus
 \(A_{4B}\) pays retained packets after admission; it does not by itself prove
 the admission record survives.
+
+## 10. Later-on annular stress return
+
+The outer-annulus picture gives a real no-atom mechanism on a fixed retained
+carrier.  If \(A(t)\) is a smooth material annulus, then
+
+```math
+\rho_A(t)
+:=
+\int_{\partial A(t)}|u\cdot T(u,p)n|\,dA
++
+2\nu\int_{A(t)}|S|^2\,dx
+\tag{PNE.35}
+```
+
+is an \(L^1\) time density of the same pressure-viscosity-incompressibility-
+velocity law.  Hence
+
+```math
+\lim_{\theta\downarrow0}
+\int_{T_*-\theta}^{T_*}\rho_A(t)\,dt
+=0.
+\tag{PNE.36}
+```
+
+So a fixed retained outer-annulus stress/strain return cannot be a naked
+endpoint atom.  Finite nested material-annulus return chains also telescope by
+the exact stress-work identity.
+
+The remaining step is the uniform terminal-Zeno version:
+
+```math
+\boxed{
+\text{center/time overlap projection}
+\le
+\text{uniform terminal tail of the same outer-annulus return density.}
+}
+\tag{PNE.37}
+```
+
+Equivalently, prove `UniformLaterAnnularReturnModulus.A` or
+`NoFreeInfiniteMaterialZenoStressChain.A`.  Without that uniform retained
+annulus theorem, the fixed-annulus no-atom result does not produce the finite
+material deformation/tower clock `(PNE.33)`.
