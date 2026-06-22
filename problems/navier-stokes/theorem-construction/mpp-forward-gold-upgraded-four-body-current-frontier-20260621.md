@@ -3146,7 +3146,7 @@ directly, or prove the bounded-overlap \(A_{4B}\) counting line `(4BF.126)` via
 the channel split `(4BF.125a)`.  The remaining gate inside that split is fixed
 transported annular atlas retention.  The local pressure term is admitted by
 the divergence-free transported velocity-pressure tower, and the transported
-viscous collar term is now explicit Body-II cutoff-collar density, so both are
+cutoff-collar term is now explicit Body-II cutoff-collar participation density, so both are
 counted in \(A_{4B}\) on the same carrier.  Harmonic pressure-memory requires a
 separate tail theorem only on the direct uniform-tail route, not on the
 four-body counting route.
@@ -3234,7 +3234,7 @@ Therefore the no-exit branch gives the terminal anti-atom:
 The only remaining alternatives are visible selector/collar loss or loss of the
 retained same-fluid annular carrier.
 
-The transported collar part of `(4BF.125a)` has an exact material-coordinate
+The transported cutoff-collar participation part of `(4BF.125a)` has an exact material-coordinate
 reduction.  For \(\eta_m(s,y)=\zeta_m(Y_m(s,y))\),
 
 ```math
@@ -3257,10 +3257,10 @@ So
 \tag{4BF.126b}
 ```
 
-Thus the transported collar gate has two roles.  For the direct uniform-tail
+Thus the transported cutoff-collar participation gate has two roles.  For the direct uniform-tail
 route it closes under bounded common-collar deformation, bounded label cutoff
 geometry, and bounded material collar energy.  For the four-body counting route
-it is already admitted as Body-II cutoff-collar density.  Failure is a
+it is already admitted as Body-II cutoff-collar participation density.  Failure is a
 common-collar deformation, material collar energy, or label-cutoff geometry
 failure on the direct-tail side, or else a same-carrier atlas-retention failure
 on the counting side; it is not a center endpoint pulse.
