@@ -304,8 +304,7 @@ and gives
 ```math
 dL_{4B}
 +c\,dA_{Q,N}
-+ 
-dD_S+dD_Q+dD_C+dD_G
++dD_S+dD_Q+dD_C+dD_G
 \le
 dR_{4B,N}.
 \tag{RGQ.19}
@@ -318,7 +317,7 @@ conditional theorem only after the activity installation
 dA_{4B,N}
 \le
 C\,dA_{Q,N}
-C(dD_S+dD_C+dD_G)
++C(dD_S+dD_C+dD_G)
 \tag{RGQ.20}
 ```
 
@@ -327,7 +326,7 @@ conditional cancellation theorem becomes
 
 ```math
 dL_{4B}
-dD_{4B,N}
++dD_{4B,N}
 +c'\,dA_{4B,N}
 \le
 dR_{4B,N}.
