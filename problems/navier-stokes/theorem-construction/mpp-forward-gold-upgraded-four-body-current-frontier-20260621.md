@@ -4541,7 +4541,8 @@ No detached estimate is promoted past diagnostic status before
 
 ## 35. Local finite-jet / harmonic pressure split
 
-The temporal-tower component in `(4BF.220)` is local.  It applies to
+The temporal-tower channel in `(4BF.220a)` is local after the order-lock
+admission.  It applies to
 
 ```math
 \mathcal J_K^{loc}
