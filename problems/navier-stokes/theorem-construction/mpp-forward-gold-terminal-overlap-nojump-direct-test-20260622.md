@@ -10,10 +10,10 @@ edge_effect: >-
   The consumer is exact: Hardy, Orlicz, or L_s^q endpoint uniform integrability
   of this overlap measure kills the terminal atom. Current inputs do not produce
   that uniform integrability; the terminal heat-scale overlap pulse survives
-  finite L_s^1 four-body payment and bounded storage. Thus the remaining gold
-  supplier must be strict same-packet no-waste, source-square/critical-strain/CKN
-  reserve, or a coupled participation theorem that directly forbids this
-  overlap pulse.
+  finite isolated L_s^1 overlap mass and bounded storage. Thus the remaining
+  admission mechanism must be strict same-packet no-waste, source-square/
+  critical-strain/CKN reserve inside the same carrier, or a coupled participation
+  theorem that directly forbids this overlap pulse.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-endpoint-nojump-direct-test-20260621.md
@@ -224,8 +224,8 @@ a^q\tau_m^{1-q}
 \tag{TON.12}
 ```
 
-Thus finite four-body \(L_s^1\) payment, bounded storage, and visibility of the
-full packet do not exclude the terminal overlap atom.
+Thus finite isolated \(L_s^1\) overlap mass, bounded storage, and visibility of
+the full packet do not exclude the terminal overlap atom.
 
 ## 3. Why detached suppliers do not prove this
 
