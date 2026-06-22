@@ -1,17 +1,18 @@
 ---
 theorem_id: forward-gold-endpoint-lp-upgrade-component-seed-assembly-20260621
-status: positive-assembly-proved-component-super-l1-seeds-imply-full-endpoint-lp-upgrade
+status: algebraic-assembly-valid-only-after-full-participation-order-lock-admission
 logical_landing_node: endpoint_lp_upgrade_from_component_seeds
-edge_effect: "Proves the exact positive assembly theorem for EndpointLpUpgradeFromFullNSPacket.A. If the full same-carrier endpoint density is decomposed into the finite-jet local-energy density, harmonic pressure-memory trace, and legal/selector/signed/terminal/geometry residue densities, and each component has a same-carrier super-L1 endpoint bound or is absorbed before endpoint formation, then the full endpoint packet density has an L_s^p bound for p>1. This gives EndpointUniformIntegrabilityReserve.A directly. The theorem identifies the remaining production burden as component seed production, not the algebraic recombination step."
+edge_effect: "Supersedes the old component-seed assembly reading. The algebraic Lp assembly is valid only after FullParticipationOrderLock.A admits the endpoint density from the recombined full pressure-transport-viscosity-incompressibility packet before positive-part extraction. Finite-jet, harmonic pressure-memory, and residue estimates are same-packet channel readouts after that admission, not independent producers. The remaining production burden is full-packet order-lock admission plus same-packet super-L1 channel control."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-reverse-holder-seed-consolidation-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-participation-order-lock-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-trace-temporal-tower-regularity-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-annular-pressure-reverse-holder-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-residue-density-policy-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-base-storage-harmonic-pressure-endpoint-policy-hardstop-20260621.md
 ---
 
-# Endpoint Lp Upgrade Component-Seed Assembly
+# Endpoint Lp Upgrade After Order-Lock Admission
 
 Date: 2026-06-21
 
