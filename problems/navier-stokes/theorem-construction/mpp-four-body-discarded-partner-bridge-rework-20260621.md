@@ -116,14 +116,16 @@ The bridge theorem is therefore:
 ```math
 \boxed{
 \Delta_{\rm ol}
-\le
-C A_{4B}+R_{\rm legal}
+\leadsto
+A_{4B}
 }
 \tag{DPB.8}
 ```
 
-or the order-lock overlap routes to a typed CM exit.  A proof using
-\(\Delta_{\rm partner}\) is allowed only as an overpayment on the same packet.
+or the order-lock overlap routes to a typed CM exit.  Here \(A_{4B}\) means the
+whole oriented same-carrier four-body object, including legal/collar/tail
+handling.  A proof using \(\Delta_{\rm partner}\) is allowed only as an
+overpayment on the same packet.
 
 ## 1. Meaning of "discarded partner"
 
@@ -416,8 +418,8 @@ Therefore the user-supplied bridge closes in the following exact sense:
 ```math
 \boxed{
 A_{\rm native}
-\le
-C A_{4B}+R_{\rm legal}
+\leadsto
+A_{4B}
 }
 \tag{DPB.31}
 ```
@@ -428,8 +430,8 @@ after either
 \boxed{
 [-\partial_\sigma M_\sigma]_+
 +\mathcal Z_{\rm donor}
-\le
-C A_{4B}+R_{\rm legal}
+\leadsto
+A_{4B}
 }
 \tag{DPB.32}
 ```
