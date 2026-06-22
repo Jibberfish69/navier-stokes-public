@@ -294,3 +294,89 @@ OriginalSmoothData
 The current inputs still do not prove `(PNE.21)`.  Without it, the noncircular
 route is pass-or-CM-consumption: retained record gives contradiction, lost
 record is the Part face.
+
+## 7. Material-clock form of the remaining no-exit theorem
+
+The same-packet record is not an abstract endpoint label.  In material
+coordinates it is the survival of the transported pressure-viscosity-
+incompressibility-velocity packet on the same carrier.  Let \(X(a,t)\) be the
+flow map and \(F=D_aX\).  The carrier deformation is governed by
+
+```math
+\partial_tF
+=
+\nabla u(X(a,t),t)F.
+\tag{PNE.22}
+```
+
+Thus a sufficient geometric record-survival condition is a finite same-carrier
+deformation clock:
+
+```math
+\int_{t_0}^{T_*}
+\|\nabla u(t)\|_{L^\infty(X(A_\sharp,t))}\,dt
+<\infty.
+\tag{PNE.23}
+```
+
+Together with the corresponding transported velocity-pressure finite tower,
+this gives the material packet bound
+
+```math
+\sup_{t<T_*}
+\mathcal P_{N,Q}^{mat}(u(t),p(t),X(t),D_aX(t))
+<\infty,
+\tag{PNE.24}
+```
+
+which is the material version of \(Part_{N,Q}\).
+
+The cutoff-collar term fits this same packet.  The localized algebra may
+produce
+
+```math
+4\nu\int |V|^2|\nabla\eta|^2,
+\tag{PNE.25}
+```
+
+but the \(4\) is only the Young-envelope constant from \(\phi=\eta^2\).  The
+four-body object is the viscous collar channel
+
+```math
+\nu |V|^2|\nabla\eta|^2
+\tag{PNE.26}
+```
+
+with constants absorbed inside the same full participation packet.  It is not
+a separate physical channel and not a viscosity-only replacement for
+participation.
+
+The Lagrangian deformation test shows why `(PNE.23)` is not produced by energy
+alone: a heat-scale pulse gives order-one deformation clock over its heat
+window while physical dissipation pays only a radius-weighted amount.  So the
+pure gold no-exit statement is now sharpened to:
+
+```math
+\boxed{
+OriginalSmoothData
+\Longrightarrow
+\text{finite same-carrier deformation/tower record up to }T_*.
+}
+\tag{PNE.27}
+```
+
+That theorem is not installed.  The checked route remains:
+
+```math
+\boxed{
+\begin{array}{ll}
+\text{material record retained}
+&\Rightarrow
+A_{4B}\text{ contradiction},\\[1mm]
+\text{material record lost}
+&\Rightarrow
+Pack_Q+\neg Part_{N,Q}.
+\end{array}
+}
+\tag{PNE.28}
+```
