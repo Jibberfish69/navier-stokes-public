@@ -432,3 +432,39 @@ It is not a no-exit proof by itself.  A pure gold no-exit theorem must produce
 the coefficient/tower record from original smooth data before using the
 four-body admission step.  Without that producer, loss of `(PNE.31)` is exactly
 the Part face.
+
+## 9. Why \(A_{4B}\) cannot be used before admission
+
+The four-body reserve controls the activity of the retained same-carrier
+packet:
+
+```math
+\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma<\infty.
+\tag{PNE.32}
+```
+
+The material record survival theorem would need a prior bound for the
+deformation/tower clock:
+
+```math
+\int_0^{T_*}\mathcal K_N(t)\,dt<\infty.
+\tag{PNE.33}
+```
+
+Trying to prove `(PNE.33)` from `(PNE.32)` is circular at the current level.
+To turn \(A_{4B}\) into the \(L^1_tL^\infty_x\)-type deformation clock, one
+uses bounded material geometry and enough finite tower/Sobolev control on the
+same carrier:
+
+```math
+\|\nabla u(t)\|_{L^\infty(X(A_\sharp,t))}
+\le
+C(F(t))
+\sum_{|\alpha|\le s}\|D_a^\alpha v(t)\|_{L^2(A_\sharp)},
+\qquad s>5/2.
+\tag{PNE.34}
+```
+
+Both \(C(F(t))\) and the tower norms are part of the record being proved.  Thus
+\(A_{4B}\) pays retained packets after admission; it does not by itself prove
+the admission record survives.
