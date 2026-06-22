@@ -184,8 +184,8 @@ U_m\cdot\nabla\partial_y^\alpha U_m
 where \(B_{m,0,\alpha}\) contains lower-rung Leibniz terms and
 \(G_m^{gauge}\) is the admitted gauge/cutoff motion.
 
-Therefore `(FET.3)` can be produced by a finite parabolic jet estimate of the
-form:
+Therefore `(FET.3)` can be produced for the local finite-jet density by a
+finite parabolic jet estimate of the form:
 
 ```math
 \boxed{
@@ -197,7 +197,7 @@ form:
 +\sup_m
 \sup_s
 \sum_{|\alpha|\le K+1}
-\|\partial_y^\alpha Q_m(s)\|_{H_y^\sigma}\\
+\|\partial_y^\alpha Q_m^{loc}(s)\|_{H_y^\sigma}\\
 &\qquad
 +\text{admitted gauge/cutoff variation}
 <\infty .
@@ -215,7 +215,7 @@ Failure of `(FET.3)` means:
 ```math
 \boxed{
 \sup_m
-\|\mathcal J_K\|_{L_s^\infty H_y^\sigma}
+\|\mathcal J_K^{loc}\|_{L_s^\infty H_y^\sigma}
 =\infty
 }
 \tag{FET.16}
@@ -226,14 +226,14 @@ or
 ```math
 \boxed{
 \sup_m
-\|\partial_s\mathcal J_K\|_{L_s^1H_y^\sigma}
+\|\partial_s\mathcal J_K^{loc}\|_{L_s^1H_y^\sigma}
 =\infty.
 }
 \tag{FET.17}
 ```
 
-Using `(FET.14)`, the second failure is a finite-rung pressure, viscosity,
-transport, nonlinear-coupling, or gauge/collar variation readout.
+Using `(FET.14)`, the second failure is a finite-rung local-pressure,
+viscosity, transport, nonlinear-coupling, or gauge/collar variation readout.
 
 After same-witness admission, this is not a hidden endpoint pulse.  It is a
 finite endpoint field/participation failure:
@@ -264,8 +264,8 @@ But the endpoint obstruction is now finite:
 
 ```math
 \boxed{
-\text{prove finite endpoint jet temporal modulus, or route finite-rung failure
-as Field/Part after same-witness admission.}
+\text{prove local finite endpoint jet temporal modulus, or route finite-rung
+failure as Field/Part after same-witness admission.}
 }
 \tag{FET.20}
 ```
