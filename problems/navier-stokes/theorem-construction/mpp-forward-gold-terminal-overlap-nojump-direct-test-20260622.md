@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-terminal-overlap-nojump-direct-test-20260622
-status: heat-scale-annular-attachment-proved-on-retained-packet-noexit-record-remains
+status: retained-atlas-heat-scale-shrinking-counting-solved-material-record-noexit-remains
 logical_landing_node: terminal_overlap_nojump
 edge_effect: >-
   Tests TerminalOverlapNoJump.A on the exact order-lock overlap left by
@@ -11,9 +11,12 @@ edge_effect: >-
   overlap kills the terminal atom. The spike/annulus correction restores the
   overlap to the same heat-scale material annular stress/strain carrier on a
   retained packet. Transported cutoffs discharge the materiality defect exactly
-  on that retained packet. Thus the remaining no-exit mechanism is retention of
-  the delayed heat-scale material annular return record; with that record, the
-  overlap is admitted as visible A_4B participation.
+  on that retained packet. On the retained transported annular atlas,
+  bounded-overlap A_4B counting forbids infinitely many fixed-size shrinking
+  heat-scale pulses. The remaining no-exit mechanism is retention of the
+  delayed heat-scale material strain-metric/coefficient/velocity-pressure
+  tower; with that record, the overlap is admitted as visible A_4B
+  participation.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-endpoint-nojump-direct-test-20260621.md
