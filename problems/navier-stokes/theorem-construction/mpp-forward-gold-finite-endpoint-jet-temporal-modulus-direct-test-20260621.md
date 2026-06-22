@@ -2,7 +2,7 @@
 theorem_id: forward-gold-finite-endpoint-jet-temporal-modulus-direct-test-20260621
 status: direct-test-complete-producer-not-installed-failure-is-finite-rung-readout
 logical_landing_node: finite_endpoint_jet_temporal_modulus
-edge_effect: "Tests FiniteEndpointJetTemporalModulus.A, the smaller endpoint-UI producer isolated after replacing full analytic radius survival. The consumer is exact: uniform L_s^infty H_y^sigma control of the finite endpoint jet set plus uniform L_s^1 H_y^sigma control of one time rung gives W_s^(1,1) control of the endpoint density and endpoint tail O(theta). Current energy, local-energy, physical CKN, and four-body L1 payment do not produce this finite endpoint jet modulus on shrinking retained heat-scale packets; they give radius-discounted control or L1 trace payment. Failure is not hidden: it is finite endpoint jet amplitude blowup, finite endpoint jet temporal-variation blowup, annular pressure-service finite-rung blowup, or residue-policy failure, hence a Field/Part-facing readout after same-witness admission."
+edge_effect: "Tests FiniteEndpointJetTemporalModulus.A, the smaller endpoint-UI producer isolated after replacing full analytic radius survival. The consumer is exact for the local finite-jet endpoint density: uniform L_s^infty H_y^sigma control of the gauge-fixed velocity/local-pressure finite jet set plus uniform L_s^1 H_y^sigma control of one time rung gives W_s^(1,1) control of that density and endpoint tail O(theta). Current energy, local-energy, physical CKN, and four-body L1 payment do not produce this finite endpoint jet modulus on shrinking retained heat-scale packets; they give radius-discounted control or L1 trace payment. Failure is not hidden: it is finite local endpoint jet amplitude blowup, finite local endpoint jet temporal-variation blowup, or local pressure finite-rung blowup, hence a Field/Part-facing readout after same-witness admission. Harmonic pressure memory remains a separate annular pressure-service component."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-endpoint-jet-modulus-replaces-full-radius-survival-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-uniform-normalized-local-energy-pressure-bound-direct-test-20260621.md
@@ -25,16 +25,15 @@ The smaller endpoint producer is:
 \tag{FET.1}
 ```
 
-Let \(\mathcal J_K\) be the finite jet set that forms the field endpoint
-density:
+Let \(\mathcal J_K^{loc}\) be the finite jet set that forms the local
+finite-jet endpoint density:
 
 ```math
-\mathcal J_K
+\mathcal J_K^{loc}
 =
 \left\{
 \partial_y^\alpha U_m,\,
-\partial_y^\alpha Q_m^{loc},\,
-Q_m^H-\Pi_{aff}Q_m^H
+\partial_y^\alpha Q_m^{loc}
 \ :\ |\alpha|\le K
 \right\}.
 \tag{FET.2}
@@ -45,26 +44,27 @@ For some \(\sigma>3/2\), the exact desired bound is:
 ```math
 \boxed{
 \sup_m
-\|\mathcal J_K\|_{L_s^\infty H_y^\sigma}
+\|\mathcal J_K^{loc}\|_{L_s^\infty H_y^\sigma}
 +\sup_m
-\|\partial_s\mathcal J_K\|_{L_s^1H_y^\sigma}
+\|\partial_s\mathcal J_K^{loc}\|_{L_s^1H_y^\sigma}
 <\infty .
 }
 \tag{FET.3}
 ```
 
-Together with the residue policy, `(FET.3)` implies
+Together with annular harmonic-pressure endpoint control and the residue
+policy, `(FET.3)` implies
 `EndpointUniformIntegrabilityReserve.A`.
 
 ## 1. Consumer proof
 
-The field endpoint density is a finite same-carrier expression:
+The local finite-jet endpoint density is a finite same-carrier expression:
 
 ```math
-\rho_m^{field}(s)
+\rho_m^{jet}(s)
 =
 \int_{\Omega_\chi}
-\Psi_m(\mathcal J_K(s,y),y)\,dy,
+\Psi_m(\mathcal J_K^{loc}(s,y),y)\,dy,
 \tag{FET.4}
 ```
 
@@ -73,11 +73,11 @@ with stable cutoff/selector/test coefficients after residue-policy admission.
 Since \(H_y^\sigma\) is an algebra for \(\sigma>3/2\), the chain rule gives
 
 ```math
-|\partial_s\rho_m^{field}(s)|
+|\partial_s\rho_m^{jet}(s)|
 \le
 C
-\left(1+\|\mathcal J_K(s)\|_{H_y^\sigma}^{d-1}\right)
-\|\partial_s\mathcal J_K(s)\|_{H_y^\sigma}
+\left(1+\|\mathcal J_K^{loc}(s)\|_{H_y^\sigma}^{d-1}\right)
+\|\partial_s\mathcal J_K^{loc}(s)\|_{H_y^\sigma}
 +g_m^{coef}(s),
 \tag{FET.5}
 ```
@@ -94,7 +94,7 @@ we get
 
 ```math
 \sup_m
-\|\partial_s\rho_m^{field}\|_{L_s^1(-1,0)}
+\|\partial_s\rho_m^{jet}\|_{L_s^1(-1,0)}
 <\infty.
 \tag{FET.7}
 ```
@@ -103,7 +103,7 @@ The four-body/full-packet payment gives
 
 ```math
 \sup_m
-\|\rho_m^{field}\|_{L_s^1(-1,0)}
+\|\rho_m^{jet}\|_{L_s^1(-1,0)}
 <\infty.
 \tag{FET.8}
 ```
@@ -112,7 +112,7 @@ Therefore
 
 ```math
 \sup_m
-\|\rho_m^{field}\|_{W_s^{1,1}(-1,0)}
+\|\rho_m^{jet}\|_{W_s^{1,1}(-1,0)}
 <\infty,
 \tag{FET.9}
 ```
@@ -121,13 +121,14 @@ and hence
 
 ```math
 \boxed{
-\int_{-\theta}^{0}\rho_m^{field}(s)\,ds
+\int_{-\theta}^{0}\rho_m^{jet}(s)\,ds
 \le C\theta.
 }
 \tag{FET.10}
 ```
 
-This is the endpoint uniform-integrability modulus for the field density.
+This is the endpoint uniform-integrability modulus for the local finite-jet
+density.  It does not pay the harmonic pressure-memory trace.
 
 ## 2. Current energy and CKN inputs do not produce `(FET.3)`
 
