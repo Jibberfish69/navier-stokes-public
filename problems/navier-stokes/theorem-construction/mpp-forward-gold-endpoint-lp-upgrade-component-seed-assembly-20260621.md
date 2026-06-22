@@ -253,9 +253,9 @@ and hence
 So the order-locked same-packet channel bounds imply
 `EndpointUniformIntegrabilityReserve.A`.
 
-## 5. Relation to the tower and pressure notes
+## 5. Relation to the tower and pressure notes after admission
 
-The finite-jet seed `(ELU.5)` is supplied by
+The finite-jet channel bound `(ELU.5)` is supplied by
 `EndpointTraceTemporalTowerRegularity.A` in its \(W_s^{1,1}\) form:
 
 ```math
@@ -265,26 +265,28 @@ The finite-jet seed `(ELU.5)` is supplied by
 \tag{ELU.16}
 ```
 
-Thus one may take \(p_{jet}=\infty\) for that component.
+Thus one may take \(p_{jet}=\infty\) for that channel after order-lock
+admission.
 
-The harmonic seed `(ELU.6)` is exactly `AnnularPressureReverseHolder.A` or
+The harmonic channel bound `(ELU.6)` is exactly `AnnularPressureReverseHolder.A` or
 `AnnularHarmonicPressureServiceSuperL1.A`.
 
-The residue seeds `(ELU.7)` are exactly `EndpointResidueDensityPolicy.A` in
+The residue channel bounds `(ELU.7)` are exactly `EndpointResidueDensityPolicy.A` in
 density form.  Hardy or Orlicz variants also work, but then the assembly should
 be phrased directly in terms of uniform integrability rather than a single
 common \(L^p\) exponent.
 
 ## 6. What remains unproved
 
-This note proves the algebraic and measure-theoretic assembly step.  It does
-not prove the component seeds from the current Navier-Stokes packet data.
+This note proves the algebraic and measure-theoretic assembly step after
+order-lock admission.  It does not prove `FullParticipationOrderLock.A`, and it
+does not prove the channel bounds from the current Navier-Stokes packet data.
 
 The remaining gold production burden is exactly:
 
 ```math
 \boxed{
-\text{produce }(ELU.5),\ (ELU.6),\ \text{and }(ELU.7)
+\text{produce }(ELU.3),\text{ then }(ELU.5),\ (ELU.6),\ \text{and }(ELU.7)
 \text{ on the same retained endpoint packet.}
 }
 \tag{ELU.17}
@@ -294,7 +296,8 @@ Equivalently:
 
 ```math
 \boxed{
-\texttt{EndpointTraceTemporalTowerRegularity.A}
+\texttt{FullParticipationOrderLock.A}
++\texttt{EndpointTraceTemporalTowerRegularity.A}
 +\texttt{AnnularPressureReverseHolder.A}
 +\texttt{EndpointResidueDensityPolicy.A}.
 }
