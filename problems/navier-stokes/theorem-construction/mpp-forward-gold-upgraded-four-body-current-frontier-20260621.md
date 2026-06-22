@@ -3902,3 +3902,73 @@ and
 }
 \tag{4BF.175}
 ```
+
+The harmonic pressure clause also has a tower-positive form, but it must use
+the enlarged annular pressure-service carrier.  The interior finite-jet tower
+does not see \(Q_m^H\).  On an annular pressure-service region \(A\), assume
+
+```math
+\sup_m\sup_{-1\le s\le0}
+\sum_{r,\alpha}
+{\tau^{2r}\rho^{2|\alpha|}\over(r!)^2(\alpha!)^2}
+\left(
+\|\chi_A\partial_s^r\partial_y^\alpha Q_m\|_{H_y^\sigma}^2
++\|\chi_A\partial_s^r\partial_y^\alpha U_m\|_{H_y^\sigma}^2
+\right)
+\le C_A,
+\qquad
+\sigma>{3\over2}.
+\tag{4BF.176}
+```
+
+Then
+
+```math
+\|Q_m^H-\Pi_{aff}Q_m^H\|_{L_s^\infty L_y^{3/2}(A)}
++\|U_m\|_{L_s^\infty L_y^3(C)}
+\le C,
+\tag{4BF.177}
+```
+
+and therefore
+
+```math
+\boxed{
+\int_{-\theta}^{0}
+\left[
+\int
+(Q_m^H-\Pi_{aff}Q_m^H)U_m\cdot\nabla\chi_C\,dy
+\right]_+
+ds
+\le
+C\theta.
+}
+\tag{4BF.178}
+```
+
+So:
+
+```math
+\boxed{
+\text{annular velocity-pressure mixed tower radius survives}
+\Longrightarrow
+\texttt{AnnularHarmonicPressureServiceSuperL1.A}.
+}
+\tag{4BF.179}
+```
+
+Failure of harmonic pressure endpoint UI is therefore not a local pressure
+problem.  It is annular pressure-tower radius collapse, annular carrier/collar
+drift, or unabsorbed endpoint residue.
+
+With `(4BF.173)` and `(4BF.179)`, the full endpoint uniform-integrability
+theorem has been reduced to:
+
+```math
+\boxed{
+\text{interior finite-jet tower UI}
++\text{annular pressure-tower UI}
++\text{endpoint residue density/absorption policy}.
+}
+\tag{4BF.180}
+```
