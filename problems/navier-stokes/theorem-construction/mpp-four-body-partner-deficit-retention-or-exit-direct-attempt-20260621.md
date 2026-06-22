@@ -387,8 +387,8 @@ C\,D_Q^w
 \tag{PDO.28}
 ```
 
-or if the polar-pair activity \(A_{\rm pair}\) is itself inserted into the
-four-body cycle and paid by a strict cycle theorem.
+or if the order-lock-overlap activity \(A_{\rm ol}\) is itself inserted into
+the four-body cycle and paid by a strict cycle theorem.
 
 Thus the remaining analytic clause should be stated in the sharper overlap
 form:
