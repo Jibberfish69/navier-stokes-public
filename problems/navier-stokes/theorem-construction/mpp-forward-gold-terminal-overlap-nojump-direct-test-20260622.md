@@ -1034,10 +1034,10 @@ channel.  A separate harmonic tail theorem is needed only for the direct
 uniform-tail route `(TON.58)`, not for bounded-overlap admission into
 \(A_{4B}\).
 
-Thus the terminal-specific work for the four-body counting route is solved down
-to fixed transported annular atlas retention.  Since `(TON.70)` is included in
-Body II and `(TON.71)` is admitted by the divergence-free transported tower,
-`(TON.67)` gives the channel admission
+Thus the terminal-specific work for the four-body counting route is solved on
+the retained heat-scale transported annular return atlas.  Since `(TON.70)` is
+included in Body II and `(TON.71)` is admitted by the divergence-free
+transported tower, `(TON.67)` gives the channel admission
 
 ```math
 C_m(s)
@@ -1066,7 +1066,7 @@ center endpoint pulse can survive only by breaking one of the exact admission
 gates:
 
 ```math
-\text{fixed transported annular atlas retention.}
+\text{retained heat-scale transported annular return atlas.}
 \tag{TON.74}
 ```
 
@@ -1276,9 +1276,9 @@ supports keep the same multiplicity:
 \tag{TON.90}
 ```
 
-Thus a retained terminal family using this fixed transported annular atlas has
-bounded carrier overlap before any estimate is applied.  In log-scale notation,
-the corresponding scale shells \(J_j\) satisfy
+Thus a retained terminal family using this heat-scale transported annular atlas
+has bounded carrier overlap before any estimate is applied.  In log-scale
+notation, the corresponding scale shells \(J_j\) satisfy
 
 ```math
 \sum_j{\bf 1}_{J_j}(\sigma)\le K_1,
@@ -1289,7 +1289,7 @@ where \(K_1\) depends only on the fixed dyadic partition constants and the
 allowed finite subcover of one annular collar.
 
 The same-carrier embedding `(TON.84)` is then just `(TON.72)` written on this
-fixed atlas.  For each retained shell,
+retained atlas.  For each retained shell,
 
 ```math
 \int_{-\theta_j}^{0}C_j(s)\,ds
@@ -1314,9 +1314,9 @@ CK_1
 \tag{TON.93}
 ```
 
-So the bounded-overlap selection gate closes on the fixed transported annular
-atlas.  The only ways it can fail are exactly the ways the packet can leave
-that atlas:
+So the bounded-overlap selection gate closes on the retained heat-scale
+transported annular atlas.  The only ways it can fail are exactly the ways the
+packet can leave that atlas:
 
 ```math
 \text{refreshed endpoint-dependent cover,}
