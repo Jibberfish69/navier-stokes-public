@@ -121,10 +121,12 @@ The local pressure part is already controlled by Calderon-Zygmund from the retai
 Consequently, an estimate of the form
 
 ```math
-\|Q_m^H\|_{L_s^aL_y^{3/2}(annulus)}\le C A_{4B}+R_{legal}
+\|Q_m^H\|_{L_s^aL_y^{3/2}(annulus)}\leadsto A_{4B}
 ```
 
-is a new pressure-service theorem, not a consequence of the local Calderon-Zygmund line.
+is a new pressure-service theorem, not a consequence of the local
+Calderon-Zygmund line.  The legal/collar pressure-memory handling is part of
+the oriented \(A_{4B}\) package, not an account after it.
 
 ## 4. Exact coercivity theorem needed
 
