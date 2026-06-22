@@ -3405,9 +3405,10 @@ and
 \tag{4BF.155}
 ```
 
-With those two lines installed, the already-proved four-body loop supplies the
-unweighted reserve, Hardy removes the endpoint pulse, and the native source
-bridge closes on the no-exit branch.
+With those two lines installed, the already-proved four-body loop supplies a
+stronger packet payment path.  It still must land in endpoint uniform
+integrability of the full endpoint packet measure before Hardy/no-jump can
+remove the terminal pulse.
 
 The same-carrier endpoint trace \(L_s^p\) direct attempt then tests the smaller
 producer Thomas isolated:
@@ -3504,6 +3505,116 @@ a_m(s)=a\,\tau_m^{-1}{\bf 1}_{(-\tau_m,0]}(s),
 ```
 
 whose \(L_s^p\) norm diverges for every \(p>1\).
+
+Thomas's corrected target is therefore the endpoint theorem itself:
+
+```math
+\boxed{
+\texttt{EndpointUniformIntegrabilityReserve.A}.
+}
+\tag{4BF.160a}
+```
+
+For the full same-carrier endpoint packet measure
+
+```math
+\begin{aligned}
+d\mu_m
+:={}&
+[H_m(s)]_+\,ds
+d\Lambda_{legal,m}
+d\Lambda_{sel,m}
+d\Lambda_{sgn,m}\\
+&+
+d\Lambda_{term,m}
+d\Lambda_{geom,m},
+\end{aligned}
+\tag{4BF.160b}
+```
+
+the target is the uniform terminal tail modulus
+
+```math
+\boxed{
+\lim_{\theta\downarrow0}\sup_m\mu_m((-\theta,0])=0.
+}
+\tag{4BF.160c}
+```
+
+A power modulus
+
+```math
+\mu_m((-\theta,0])\le C\theta^\beta,
+\qquad
+\beta>0,
+\tag{4BF.160d}
+```
+
+is enough.  Equivalent usable producers are:
+
+```math
+\sup_m\|\rho_m\|_{L_s^p}<\infty,
+\qquad
+d\mu_m=\rho_m(s)\,ds,
+\qquad
+p>1,
+\tag{4BF.160e}
+```
+
+or a Hardy moment
+
+```math
+\sup_m\int_{-1}^{0}(-s)^{-\alpha}\,d\mu_m(s)<\infty,
+\qquad
+\alpha>0,
+\tag{4BF.160f}
+```
+
+or a de la Vallee-Poussin/Orlicz uniform-integrability bound after all naked
+endpoint measures have been made absolutely continuous or absorbed before the
+endpoint step.
+
+The route is now:
+
+```math
+\boxed{
+\text{finite four-body payment is support, not the endpoint theorem.}
+}
+\tag{4BF.160g}
+```
+
+The producer to chase is the full endpoint reverse-Holder theorem:
+
+```math
+\boxed{
+\texttt{EndpointReverseHolderFullPacket.A}.
+}
+\tag{4BF.160h}
+```
+
+After gauge-fixing
+
+```math
+U_m=V_m-\langle V_m\rangle_{\eta_m},
+\tag{4BF.160i}
+```
+
+and after legal/selector/signed/terminal/geometry endpoint residues are made
+density-level or absorbed, this theorem asks for
+
+```math
+\boxed{
+\sup_m\int_{-1}^{0}\rho_m(s)^{1+\varepsilon}\,ds<\infty
+\qquad
+\varepsilon>0.
+}
+\tag{4BF.160j}
+```
+
+Then `(4BF.160c)` follows immediately by Holder.  The reverse-Holder direct
+attempt reduces `(4BF.160j)` to three actual producer clauses: endpoint residue
+density policy, local endpoint critical-density reverse Holder, and harmonic
+pressure reverse Holder.
 
 The local trace estimate reduces the problem to reverse Holder control of the
 same collar densities:
