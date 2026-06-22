@@ -37,7 +37,7 @@ the separate question of identifying a critical-density atom with the terminal
 time/storage overlap.  It is not a live obstruction to the preterminal
 material-packet lower-bound bypass.
 
-## 0. Target
+## 1. Target
 
 The pure-gold deletion left by the endpoint producer assembly is:
 
@@ -62,7 +62,7 @@ The carrier here is not allowed to be an abstract CKN readout unless it has
 already been admitted into the full pressure-viscosity-incompressibility-
 velocity participation packet.
 
-## 1. What failure of annular share gives
+## 2. What failure of annular share gives
 
 The installed annular-share equivalence proves that strict scale descent is
 exactly annular share.  The installed pass-or-Part/Field assembly proves the
@@ -88,7 +88,7 @@ By finite-measure continuity from above,
 So the no-share branch is not diffuse.  It is a point/time-face atom in the
 selected same carrier.
 
-## 2. What the transported-annular theorem kills
+## 3. What the transported-annular theorem kills
 
 The transported-annular endpoint theorem kills a specific atom: the order-locked
 time/storage overlap
@@ -122,7 +122,7 @@ K\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma
 
 Thus an atom of \(d\nu^{ol}\) cannot survive on the retained no-exit branch.
 
-## 3. The missing identification
+## 4. The missing identification
 
 The no-share atom `(SAS.4)` is currently an atom of the critical carrier
 \(\mu_0\).  In the preterminal lower-bound route, the natural candidate is the
@@ -167,7 +167,7 @@ scalar CKN lower bound, because the no-share atom might be visible as a
 critical-density readout without yet being tied to the native positive source,
 the storage partner, or the transported annular stress/strain work.
 
-## 4. Conditional closure
+## 5. Conditional closure
 
 If `(SAS.8)` is installed, the proof closes:
 
@@ -194,7 +194,7 @@ Then the endpoint producer assembly gives:
 
 contradicting the four-body reserve.
 
-## 5. Current verdict
+## 6. Current verdict
 
 The direct proof of `SameCarrierAnnularShare.A` does not close from the
 installed inputs.  It is reduced to one order-lock identification:
