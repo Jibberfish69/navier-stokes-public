@@ -155,6 +155,37 @@ physical carrier:
 The same strain that changes the annular metric is the strain recorded by the
 Cauchy stress in the annular stress-work identity.
 
+The clock is exactly the heat-scale version of the physical material strain
+clock.  For
+
+```math
+V_r(s,y)=r\,u(t_r+r^2s,x_r+ry),
+\tag{SMC.11a}
+```
+
+one has
+
+```math
+S_y(V_r)(s,y)=r^2S_x(u)(t_r+r^2s,x_r+ry),
+\qquad
+ds={dt\over r^2}.
+\tag{SMC.11b}
+```
+
+Therefore, on the corresponding material annulus,
+
+```math
+\int_{s_0}^{s_1}
+\|S_y(V_r)(s)\|_{L^\infty_y}\,ds
+=
+\int_{t_0}^{t_1}
+\|S_x(u)(t)\|_{L^\infty_x}\,dt .
+\tag{SMC.11c}
+```
+
+So the strain-metric clock is not a radius-discounted energy quantity.  It is
+the scale-invariant material deformation time experienced by the annulus.
+
 ## 3. What this proves
 
 The base material annulus, transported collars, and annular thickness do not
