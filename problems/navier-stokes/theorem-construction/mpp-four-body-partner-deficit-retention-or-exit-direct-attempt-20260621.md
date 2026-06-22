@@ -140,11 +140,12 @@ Thus the implication
 ```math
 \text{retained partner}
 \Longrightarrow
-\Delta_{\rm partner}\le C A_{4B}+R_{\rm legal}
+\Delta_{\rm partner}\leadsto A_{4B}
 \tag{PDO.9}
 ```
 
-is false unless \(A_{4B}\) already includes the partner-deficit mass itself.
+is false unless \(A_{4B}\) already includes the partner-deficit mass itself as
+part of the oriented same-carrier four-body object.
 
 This is not only a scalar artifact.  The same sign pattern appears in the
 smooth local Navier-Stokes core:
@@ -410,7 +411,7 @@ The statement
 \boxed{
 \text{every discarded partner is retained or exits}
 \Longrightarrow
-A_{\rm native}\le C A_{4B}+R_{\rm legal}
+A_{\rm native}\leadsto A_{4B}
 }
 \tag{PDO.30}
 ```
