@@ -939,6 +939,18 @@ cutoff-collar part of the same transported annular participation law.  The
 coefficient \(4\) is only the Young-inequality envelope produced by
 \(\phi_m=\eta_m^2\).
 
+Downstream four-body surfaces should therefore record the clean channel as
+
+```math
+\nu |V_m|^2|\nabla\eta_m|^2
+\tag{TON.68a}
+```
+
+with constants enveloped.  The displayed \(4\nu\) form belongs to the exact
+localized algebra in `(TON.66)`--`(TON.67)`; it is not a separate physical
+object, not an added body, and not a viscosity-only replacement for the full
+pressure-viscosity-incompressibility-velocity participation packet.
+
 ```math
 \left|\int Q_m^H V_m\cdot\nabla\phi_m\right|
 \quad\text{is the harmonic pressure-memory collar channel,}
@@ -946,15 +958,16 @@ coefficient \(4\) is only the Young-inequality envelope produced by
 ```
 
 ```math
-4\nu\int |V_m|^2|\nabla\eta_m|^2
+\nu\int |V_m|^2|\nabla\eta_m|^2
 \quad\text{is the transported cutoff-collar participation channel,}
 \tag{TON.70}
 ```
 
 For the four-body counting route, `(TON.70)` is now an explicit Body-II cutoff
-collar density in \(\mathfrak M_Q\).  It is therefore counted inside
-\(A_{4B}\) on the retained same carrier.  A separate material-collar energy
-bound is needed only for the direct uniform-tail route `(TON.58)`.
+collar density in \(\mathfrak M_Q\), with constants such as the \(4\) in
+`(TON.67)` absorbed.  It is therefore counted inside \(A_{4B}\) on the retained
+same carrier.  A separate material-collar energy bound is needed only for the
+direct uniform-tail route `(TON.58)`.
 
 and
 
