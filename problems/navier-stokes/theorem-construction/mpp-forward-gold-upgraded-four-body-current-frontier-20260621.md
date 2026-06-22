@@ -156,6 +156,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-hardy-nowaste-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-uniform-normalized-local-energy-pressure-bound-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-cm-exit-exclusion-boundary-recheck-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-reserve-producer-family-recheck-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-endpoint-donor-closure-branch-solution-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-visible-readout-payment-final-attempt-20260621.md
 ---
@@ -3223,4 +3224,40 @@ not "prove CM exits impossible" in the CM sense.  It is:
 \text{CM consumption of the endpoint Part/Field face.}
 }
 \tag{4BF.140}
+```
+
+The terminal reserve producer-family recheck then refines the direct terminal
+reserve side.  `UniformNormalizedLocalEnergyPressure.A` is a valid sufficient
+producer, but Hardy only consumes the endpoint trace density.  The minimal
+producer is
+
+```math
+\sup_m\|[H_m]_+\|_{L_s^p(-1,0)}<\infty
+\qquad\text{for some }p>1,
+\tag{4BF.141}
+```
+
+together with weighted endpoint control for legal, signed, selector, terminal,
+and geometry measures.  Then Hardy holds for
+
+```math
+0<\alpha<1-{1\over p}.
+\tag{4BF.142}
+```
+
+The earlier \(p=10/9\) route is one sufficient instance, giving
+\(\alpha<1/10\).  The recheck also records that the full normalized
+\(L_s^\infty L_y^2\) velocity bound must be read after Galilean/gauge quotient:
+large spatial mean modes can make that norm arbitrarily large while carrying no
+selected singular participation.  Thus the exact producer fork is now
+
+```math
+\boxed{
+\text{gauge-fixed uniform normalized energy-pressure}
+\quad\text{or}\quad
+\text{same-carrier }L_s^p\text{ endpoint trace reserve}
+\quad\text{or}\quad
+\text{CM endpoint Part/Field consumption.}
+}
+\tag{4BF.143}
 ```
