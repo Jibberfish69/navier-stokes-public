@@ -3103,7 +3103,7 @@ retained normalized packets have a uniform local energy-pressure bound
 then the smooth full-packet trace density is in \(L_s^{10/9}\), and Hardy holds
 for every \(\alpha<1/10\), modulo the same weighted endpoint control for legal,
 terminal, signed, selector, and geometry measures.  Current installed inputs
-give radius-discounted physical control, not `(4BF.126)` on the retained
+give radius-discounted physical control, not `(4BF.125)` on the retained
 terminal heat-scale family.  Thus the new frontier is:
 
 ```math
