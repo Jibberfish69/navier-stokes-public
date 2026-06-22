@@ -969,12 +969,32 @@ strong convergence of \(Q_m^{loc}\) from \(V_m\otimes V_m\), so this term is not
 the pressure-memory wall.  The nonlocal part is already the harmonic
 pressure-memory channel `(TON.69)`.
 
-Thus the terminal-specific work is solved down to transported collar admission,
-pressure-compatible same-packet selection, harmonic pressure-memory collar
-tail, and bounded-overlap selection.  When `(TON.70)` is included in the
-selector/collar part of the same four-body packet, `(TON.71)` is admitted by
-pressure-compatible retained tests, and `(TON.69)` is included in the harmonic
-pressure-memory channel, `(TON.67)` gives the channel admission
+For the four-body counting route, the harmonic pressure-memory piece is
+admitted by identity.  Take the Body-II localization to be the same transported
+cutoff,
+
+```math
+\chi_m=\phi_m .
+\tag{TON.71b}
+```
+
+The Body-II full participation payment measure contains
+
+```math
+|Q_m^HV_m\cdot\nabla\chi_m|\,dy\,ds.
+\tag{TON.71c}
+```
+
+With `(TON.71b)`, `(TON.69)` is exactly the harmonic pressure-memory collar
+channel.  A separate harmonic tail theorem is needed only for the direct
+uniform-tail route `(TON.58)`, not for bounded-overlap admission into
+\(A_{4B}\).
+
+Thus the terminal-specific work for the four-body counting route is solved down
+to transported collar admission, pressure-compatible same-packet selection, and
+bounded-overlap selection.  When `(TON.70)` is included in the selector/collar
+part of the same four-body packet and `(TON.71)` is admitted by
+pressure-compatible retained tests, `(TON.67)` gives the channel admission
 
 ```math
 C_m(s)
