@@ -4272,3 +4272,115 @@ So the endpoint wall is now:
 }
 \tag{4BF.202}
 ```
+
+## 33. Endpoint reverse-Holder seed consolidation
+
+The endpoint-uniform-integrability correction makes the reverse-Holder seed the
+actual gold producer.  The theorem is still:
+
+```math
+\boxed{
+\lim_{\theta\downarrow0}\sup_m\mu_m((-\theta,0])=0.
+}
+\tag{4BF.203}
+```
+
+For a density \(d\mu_m=\rho_m(s)\,ds\), the useful seed is:
+
+```math
+\boxed{
+\sup_m\int_{-1}^{0}\rho_m(s)^{1+\varepsilon}\,ds<\infty
+\qquad
+\text{for some }\varepsilon>0.
+}
+\tag{4BF.204}
+```
+
+Then
+
+```math
+\mu_m((-\theta,0])
+\le
+\theta^{\varepsilon/(1+\varepsilon)}
+\|\rho_m\|_{L_s^{1+\varepsilon}},
+\tag{4BF.205}
+```
+
+so `(4BF.203)` follows.
+
+This seed is not produced by the closed four-body \(L_s^1\) payment.  The
+pulse
+
+```math
+\rho_m(s)=a\,\tau_m^{-1}{\bf 1}_{(-\tau_m,0]}(s),
+\qquad
+\tau_m\downarrow0,
+\tag{4BF.206}
+```
+
+has bounded \(L_s^1\) mass and violates every `(4BF.204)`.
+
+The checked seed clauses are:
+
+```math
+\boxed{
+\texttt{LocalEndpointCriticalDensityReverseHolder.A}
++\texttt{AnnularPressureReverseHolder.A}
++\texttt{EndpointResidueDensityPolicy.A}.
+}
+\tag{4BF.207}
+```
+
+The local clause is supplied by gauge-fixed normalized local energy, local
+pressure, and dissipation control:
+
+```math
+\sup_m
+\left(
+\|U_m\|_{L_s^\infty L_y^2}^2
++\|\nabla U_m\|_{L^2_{s,y}}^2
++\|Q_m^{loc}\|_{L^{5/3}_{s,y}}^{5/3}
+\right)
+<\infty,
+\tag{4BF.208}
+```
+
+which yields the transport/local-pressure/lower-order trace in
+\(L_s^{10/9}\).  The harmonic pressure clause requires annular pressure
+service:
+
+```math
+\|Q_m^H-\Pi_{aff}Q_m^H\|_{L_s^aL_y^{3/2}(annulus)}
++\|U_m\|_{L_s^bL_y^3(collar)}
+<\infty,
+\qquad
+{1\over a}+{1\over b}<1.
+\tag{4BF.209}
+```
+
+The residue clause requires every legal, selector, signed, terminal, and
+geometry channel to have super-\(L^1\), Hardy, Orlicz, or absorption control
+before it enters \(d\mu_m\).
+
+Thus the current checked endpoint producer state is:
+
+```math
+\boxed{
+\text{Gehring/self-improvement consumes the seed;}
+\quad
+\text{it does not produce the seed from }L_s^1\text{ payment.}
+}
+\tag{4BF.210}
+```
+
+The live gold route is therefore:
+
+```math
+\boxed{
+\text{prove }(4BF.207)
+\quad\text{or prove an equivalent source-square, critical-strain, CKN,}
+\quad
+\text{finite-jet temporal-modulus, or strict no-waste seed.}
+}
+\tag{4BF.211}
+```
