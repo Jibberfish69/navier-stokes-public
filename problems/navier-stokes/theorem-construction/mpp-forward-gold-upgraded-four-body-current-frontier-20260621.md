@@ -82,30 +82,20 @@ latest_update: >-
   donor residual. Typed exits apply only to partners that leave the retained
   carrier; retained smooth cancellation is not itself a payment. The terminal
   Hardy/no-waste direct test
-  then proves the exact endpoint mechanism: a uniform Hardy moment for the
-  endpoint payment measure dmu=dR+d(-L_4B)_+ implies the terminal no-jump
-  modulus and kills the heat-scale pulse. It also gives a concrete conditional
-  PDE producer: uniform normalized local energy-dissipation plus pressure
-  L^(5/3) bounds put the smooth full-packet trace in L_s^(10/9), so every
-  alpha<1/10 gives the Hardy estimate, provided legal/sign/selector/geometry
-  endpoint measures have the same weighted control. Current inputs do not
-  install those uniform normalized bounds on the retained terminal family, so
-  the forward-positive branch remains TerminalHardyNoWaste.A / source-square /
-  critical-strain / normalized CKN / strict no-waste, while Hardy failure is a
-  visible endpoint atom for CM endpoint-face consumption after same-witness
-  admission. The endpoint/donor closure branch solution then closes the
-  discarded-partner tail in the pass-or-exit sense: endpoint storage jump is
-  either realized as a parabolic positive-thickness daughter and paid by the
-  four-body loop/zero-loss rigidity, or it fails daughter realization and lands
-  as Field exit; donor residue is either paid by a finite rank descent
-  potential, or a zero-descent cycle lands as Part exit. Thus the channel-first
-  native transfer is reduced to the order-lock overlap plus typed CM exits; it
-  is not a gold-only closure until the retained terminal overlap is excluded by
-  no-jump, strict no-waste, or an equivalent same-packet endpoint-uniform-
-  integrable reserve. This is not a no-exit Clay conclusion; the forward-positive
-  no-exit supplier remains
-  TerminalHardyNoWaste.A / source-square / critical-strain / normalized CKN /
-  strict no-waste.
+  then proves the exact endpoint consumer for the overlap measure
+  \(d\nu_m^{ol}\): Hardy, Orlicz, or \(L_s^q\), \(q>1\), endpoint uniform
+  integrability kills a terminal overlap atom.  Current inputs do not install
+  that uniform integrability for \(d\nu_m^{ol}\); the terminal heat-scale overlap
+  pulse survives finite isolated \(L_s^1\) overlap mass and bounded storage.
+  The endpoint/donor closure branch solution closes the discarded-partner tail
+  in the pass-or-exit sense: a positive-thickness daughter is carried by the
+  same \(A_{4B}\) loop and zero-loss rigidity, failed daughter realization lands
+  as Field exit, finite donor descent is carried by the same \(A_{4B}\) object,
+  and a zero-descent donor cycle lands as Part exit.  Thus the channel-first
+  native transfer is reduced to order-lock admission into \(A_{4B}\) plus typed
+  CM exits; it is not a gold-only closure until the retained terminal overlap is
+  excluded by no-jump, strict no-waste, or an equivalent same-packet endpoint-
+  uniform-integrable reserve.
   The clean current overlap-payment surface is
   mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md;
   the older partner-polar note is retained only as the sufficient-overpayment
