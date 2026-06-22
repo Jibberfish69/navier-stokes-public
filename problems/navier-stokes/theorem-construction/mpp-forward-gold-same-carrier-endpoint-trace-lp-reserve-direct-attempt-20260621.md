@@ -7,6 +7,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-reserve-producer-family-recheck-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-hardy-nowaste-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-endpoint-nojump-direct-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-fullpacket-density-endpoint-trace-identification-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-selected-full-packet-production-step-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-factorial-tower-radius-spend-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-mixed-derivative-tower-participation-law-20260621.md
@@ -129,6 +130,39 @@ C\int_{\text{retained carrier}}[h_m(s,y)]_+\,dy
 This identification is natural when the selected full-packet test is exactly
 the local-energy endpoint test.  It is not automatic for an arbitrary four-body
 selector, and it must be retained as part of the same-carrier hypothesis.
+
+The direct identification attempt now verifies the sharp form.  If the selected
+test is the endpoint base test
+
+```math
+\varphi_m^E=\eta_m^2V_m,
+\tag{ELP.5d}
+```
+
+then the full-packet expansion is exactly the local energy identity:
+
+```math
+H_m(s)
+=
+\int h_m^E(s,y)\,dy
++R_m^{trace/legal}(s),
+\tag{ELP.5e}
+```
+
+after the storage derivative and nonnegative interior viscous loss are placed
+on the capacity/drop side.  Therefore
+
+```math
+[H_m(s)]_+
+\le
+\int[h_m^E(s,y)]_+\,dy
++R_m^{trace/legal,+}(s).
+\tag{ELP.5f}
+```
+
+For a general selected test \(\varphi_\sigma\), `(ELP.5e)` is false unless the
+endpoint base test is retained or the mismatch is charged to
+\(d\Lambda_{sel}\) or \(d\Lambda_{legal}\).
 
 After `(ELP.5b)`--`(ELP.5c)`, integrating over the retained spatial carrier
 gives an \(L_s^1\) bound for the positive endpoint trace against capacity drop
