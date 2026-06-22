@@ -227,5 +227,4 @@ as `(TSV.14)`--`(TSV.15)`.
 
 If the record is retained, the heat-scale shrinking problem is solved by the
 transported annular atlas and the finite four-body count.  If the record is not
-retained, the branch is loss of the same-packet derivative participation record,
-not a hidden last-time center pulse.
+retained, the branch is loss of the same-packet derivative participation record.

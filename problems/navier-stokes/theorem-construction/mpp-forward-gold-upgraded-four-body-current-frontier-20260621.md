@@ -104,9 +104,9 @@ latest_update: >-
   selected carrier is \(\int\phi[\omega\cdot S\omega]_+\).  On a retained
   material packet, this selected carrier is admitted into \(A_{4B}\) by the
   total strain-vorticity exchange \(\int\phi|\omega\cdot S\omega|\).  Loss of
-  that total exchange record is the remaining same-packet derivative
-  participation boundary, not a hidden signed-cancellation residue.  The direct
-  retention test shows the pure forward no-exit producer would need either a
+  that total exchange record is the same-packet derivative participation
+  boundary.  The direct retention test shows the pure forward no-exit producer
+  would need either a
   strain clock \(\int\|S\|_{L^\infty}ds\) with enstrophy height, a critical
   \(\int\int|\nabla V|^3\) strain-vorticity density, or the equivalent finite
   material tower survival theorem; energy and signed enstrophy do not supply

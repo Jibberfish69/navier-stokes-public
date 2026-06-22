@@ -10,9 +10,8 @@ edge_effect: >-
   positive stretching is controlled by the total same-packet strain-vorticity
   exchange int phi |omega dot S omega|. When that total exchange is retained as
   a Body-IV/Body-II derivative-tower exchange channel inside A_4B, positive
-  stretching is admitted into the four-body count. The remaining failure is not
-  a hidden signed-cancellation residue; it is loss of the same-packet total
-  strain-vorticity exchange record.
+  stretching is admitted into the four-body count. The remaining failure is
+  loss of the same-packet total strain-vorticity exchange record.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-vorticity-stretching-saturation-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-vorticity-stretching-signed-enstrophy-ledger-direct-attempt-20260622.md
@@ -207,8 +206,8 @@ The exact result is:
 
 ```math
 \boxed{
-\texttt{PositiveVorticityStretchingSaturation.A}
-\text{ is solved on the retained total-exchange carrier.}
+\texttt{TotalStrainVorticityExchangeAdmission.A}
+\text{ carries the selected positive stretching on the retained carrier.}
 }
 \tag{PVTE.14}
 ```

@@ -15,8 +15,7 @@ edge_effect: >-
   carrier is total same-packet strain-vorticity exchange
   int phi |omega dot S omega|. On a retained total-exchange material packet,
   the selected positive carrier is admitted into A_4B by [f]_+ <= |f|. The
-  remaining boundary is loss of that total strain-vorticity exchange record,
-  not a hidden signed-cancellation residue.
+  remaining boundary is loss of that total strain-vorticity exchange record.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-vorticity-stretching-signed-enstrophy-ledger-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-carrier-curl-source-transport-criterion-20260621.md
