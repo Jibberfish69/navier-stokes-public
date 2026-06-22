@@ -138,7 +138,9 @@ C
 
 Higher material coefficients satisfy inequalities of the same form, with
 additional source terms from transported higher spatial derivatives of \(u\).
-Schematic but exact in role:
+More precisely, repeated \(a\)-differentiation of `(IFT.8)`, the inverse
+equation for \(A\), and \(G=AA^\top\), followed by the product estimates on the
+fixed material collar, gives constants \(C_N,M_N\) such that
 
 ```math
 {d\over dt}\mathfrak P_N^{mat}(t)
@@ -157,7 +159,8 @@ C_N
 \tag{IFT.10}
 ```
 
-So finite initial smoothness gives
+This is the finite-depth coefficient/tower Gronwall inequality.  So finite
+initial smoothness gives
 
 ```math
 \mathfrak P_N^{mat}(0)<\infty,
@@ -226,4 +229,3 @@ Pack_Q+\neg Part_{N,Q}.
 }
 \tag{IFT.14}
 ```
-
