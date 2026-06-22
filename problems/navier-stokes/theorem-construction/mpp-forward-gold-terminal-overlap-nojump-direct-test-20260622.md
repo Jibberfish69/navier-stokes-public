@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-terminal-overlap-nojump-direct-test-20260622
-status: exact-consumer-proved-transported-annular-carrier-tail-open
+status: transported-annular-nojump-proved-on-retained-fixed-atlas-remaining-loss-is-same-carrier-part-face-or-visible-selector-collar
 logical_landing_node: terminal_overlap_nojump
 edge_effect: >-
   Tests TerminalOverlapNoJump.A on the exact order-lock overlap left by
@@ -1216,14 +1216,15 @@ material atlas.  It is not being used as a standalone energy upgrade.
 The finite multiplicity part of `(TON.83)` is not another analytic reserve.  It
 is a geometric consequence of using one transported annular atlas.
 
-Fix a label-space dyadic annular partition around the selected material center:
+Fix a shrinking label-space dyadic annular partition around the selected
+material center:
 
 ```math
-\zeta_j(a)=\zeta(2^{-j}a),
+\zeta_j(a)=\zeta(2^j(a-a_\ast)),
 \qquad
 \operatorname{supp}\zeta_j
 \subset
-\{c_0\,2^j\le |a-a_\ast|\le C_0\,2^j\},
+\{c_0\,2^{-j}\le |a-a_\ast|\le C_0\,2^{-j}\},
 \tag{TON.87}
 ```
 
