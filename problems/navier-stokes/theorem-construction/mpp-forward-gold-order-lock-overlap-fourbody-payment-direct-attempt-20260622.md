@@ -305,21 +305,20 @@ Combining `(OLO.11)` through `(OLO.20)` gives
 ```math
 \boxed{
 \Delta_{\rm ol}
-\le
-\mathfrak M_{\rm vis}
-+\mathfrak M_{\rm press}
-+\Lambda_{\rm sgn}
-+\Lambda_{\rm sel}
-+\Lambda_{\rm legal}
-+K_G^+
-+\mathcal Z_{\rm donor}
-+\int\min\{[n_\sigma]_+,[-\partial_\sigma M_\sigma]_+\}
-+T_\sigma .
+\leadsto
+A_{4B}
 }
 \tag{OLO.25}
 ```
 
-Therefore `OrderLockOverlapFourBodyPayment.A` is reduced to:
+Here \(A_{4B}\) means the whole oriented same-carrier four-body object.  The
+viscous, pressure, sign, selector, legal, geometry, donor, terminal-storage,
+collar, tail, and \(T_\sigma\) pieces are not accounts after the four-body
+solution.  They are the channel entries through which the overlap is admitted
+into \(A_{4B}\).
+
+Therefore `OrderLockOverlapFourBodyPayment.A` is reduced to admission of the
+three places where that channel entry can fail:
 
 ```math
 \boxed{
@@ -334,5 +333,6 @@ with `StrictFourBodyNoWasteLyapunov.A` allowed to replace the terminal and donor
 pieces if it supplies the same endpoint-uniform-integrable overlap control.
 
 The pressure and donor terms are already typed inside the same full packet.  The
-forward-positive live producer is now the terminal overlap no-jump theorem, not
-a detached finite-jet, viscous, pressure-only, or scalar source-square estimate.
+terminal overlap theorem is not a detached payment account.  It is the remaining
+test that the native positive source and its time/storage partner enter the same
+oriented \(A_{4B}\) carrier rather than forming an endpoint face.
