@@ -3795,3 +3795,110 @@ So the smallest live gold producer fork is now:
 }
 \tag{4BF.166}
 ```
+
+The direct temporal-tower attempt now proves the finite-jet part of
+`(4BF.164)`.  Split the endpoint density as
+
+```math
+H_m
+=
+H_m^{jet}
++H_m^H
++H_m^{res}.
+\tag{4BF.167}
+```
+
+Here \(H_m^{jet}\) is the order-locked finite-jet density built from the
+gauge-fixed velocity \(U_m\), local pressure \(Q_m^{loc}\), cutoff, and selected
+tests.  The harmonic pressure trace is \(H_m^H\), and the legal/selector/signed/
+terminal/geometry residues are \(H_m^{res}\).
+
+If \(H_m^{jet}\) has the same-carrier finite-jet form
+
+```math
+H_m^{jet}(s)
+=
+\int_{\Omega_\chi}
+\Psi_m(Z_m(s,y),y)\,dy,
+\qquad
+Z_m=
+\{\partial_y^\alpha U_m,\partial_y^\alpha Q_m^{loc}\}_{|\alpha|\le k},
+\tag{4BF.168}
+```
+
+and the mixed tower controls one time rung in a Sobolev algebra,
+
+```math
+\sup_m
+\left(
+\|Z_m\|_{L_s^\infty H_y^\sigma}
++\|\partial_s Z_m\|_{L_s^1H_y^\sigma}
+\right)
+\le C,
+\qquad
+\sigma>{3\over2},
+\tag{4BF.169}
+```
+
+then the chain rule and the algebra property give
+
+```math
+\sup_m
+\|\partial_sH_m^{jet}\|_{L_s^1(-1,0)}
+<\infty.
+\tag{4BF.170}
+```
+
+Together with the existing \(L_s^1\) payment for \(H_m^{jet}\),
+
+```math
+\boxed{
+\sup_m
+\|[H_m^{jet}]_+\|_{W_s^{1,1}(-1,0)}
+<\infty.
+}
+\tag{4BF.171}
+```
+
+Therefore
+
+```math
+\boxed{
+\int_{-\theta}^{0}[H_m^{jet}(s)]_+\,ds
+\le
+C\theta.
+}
+\tag{4BF.172}
+```
+
+This is a real endpoint uniform-integrability theorem for the finite-jet
+density.  It kills the terminal \(L^1\)-pulse because that pulse has variation
+of size \(O(\tau_m^{-1})\).
+
+It does not control the harmonic pressure trace or naked endpoint residues.
+Thus the full endpoint uniform-integrability theorem now splits exactly into
+
+```math
+\boxed{
+\texttt{FiniteJetEndpointDensityTemporalTowerRegularity.A}
+}
+\tag{4BF.173}
+```
+
+plus
+
+```math
+\boxed{
+\texttt{AnnularHarmonicPressureServiceSuperL1.A}
+}
+\tag{4BF.174}
+```
+
+and
+
+```math
+\boxed{
+\texttt{EndpointResidueDensityPolicy.A}.
+}
+\tag{4BF.175}
+```
