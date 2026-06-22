@@ -304,10 +304,10 @@ The exact current state is:
 \tag{SMC.23}
 ```
 
-This replaces the older names
+This envelops the older reduction names
 `SimultaneousTowerA4BInstallation.A`,
 `ParticipationCarryingFullTowerFourBodyBalance.A`, and
-`FullTowerSignedTotalExchangeRetention.A` by the sharper single theorem:
+`FullTowerSignedTotalExchangeRetention.A` inside the sharper single theorem:
 
 ```math
 \boxed{
