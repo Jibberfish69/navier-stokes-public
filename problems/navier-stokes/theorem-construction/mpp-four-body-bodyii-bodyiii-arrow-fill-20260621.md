@@ -74,9 +74,11 @@ Define the Body-II full participation payment measure
 ```
 
 Here \(\chi_n=\eta_n^2\) on the transported annular carrier.  The displayed
-\(\nu |V_n|^2|\nabla\eta_n|^2\) density is the viscous cutoff-collar energy
-created by the exact Young split of the stress-work term.  It is part of
-Body-II, not an external residual.
+\(\nu |V_n|^2|\nabla\eta_n|^2\) density is the cutoff-collar participation
+density created by the exact Young split of the full stress-work term.  It is
+inside the same pressure-viscosity-incompressibility-velocity packet in
+Body-II, not an external residual and not a viscosity-only substitute for the
+participation law.
 
 Here `Q_n^H` is the harmonic/nonlocal pressure memory after local Calderon-Zygmund pressure decomposition. The selector-collar measure is
 
