@@ -1,20 +1,18 @@
 ---
 theorem_id: forward-gold-material-record-growth-quantization-to-fourbody-20260622
-status: record-growth-quantization-proved-on-retained-fourbody-carrier-carrier-loss-remains-part-face
+status: record-growth-quantization-proved-growth-channel-identity-remains-the-exact-admission-theorem
 logical_landing_node: material_record_growth_quantization_to_fourbody
 edge_effect: >-
-  Develops the record-loss route: same-material record loss is not treated as
-  an external terminal failure. On a retained material annular packet, loss of
-  the material strain-metric/coefficient/velocity-pressure tower occurs through
-  positive logarithmic record growth. Every dyadic growth event costs a fixed
-  amount of the positive record-growth measure. In the current four-body
-  notation that measure is carried by the Body-IV to Body-I defect components
-  dK_ell^+, dK_coef^+, dK_comm^+, dK_transport^+, and dK_G^+, hence it is
-  inside the same four-body payment. Thus an infinite
-  sequence of retained record-loss doublings contradicts the finite four-body
-  payment. If the domination of record growth by those same-carrier K-defects
-  fails, the selected branch has lost the material packet record and lands in
-  the Part face rather than remaining a hidden center pulse.
+  Develops the record-loss route without treating channel names as proof. The
+  exact proved part is record-growth quantization: if the same-material record
+  becomes unbounded, positive logarithmic variation has infinitely many fixed
+  quanta. The remaining exact admission theorem is
+  MaterialRecordLogGrowthChannelIdentity.A: differentiate the same material
+  record, derive the positive logarithmic growth measures from the material
+  PDE, and then identify those derived measures with the existing annular
+  four-body channels. If that identity holds, record loss is a four-body event;
+  if it fails, the selected branch has lost the material packet record and
+  lands in the Part face rather than remaining a hidden center pulse.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-material-annular-return-record-noexit-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-participation-material-tower-noexit-direct-attempt-20260622.md
@@ -198,32 +196,83 @@ with differentiated incompressibility
 
 The factorial weights still do their original job: they absorb the binomial
 splitting in the tower.  They do not by themselves bound the coefficient
-record.  The record-growth route asks for the positive logarithmic growth of
-the chosen finite material record to be dominated by the same Body-IV interface
-defect measure:
+record.
+
+The next theorem has to be derived from the material record itself.  Define the
+record in same-packet pieces:
+
+```math
+\mathfrak P_N^{mat}
+:=
+1+\Gamma
++E_N^v
++E_N^q
++E_N^{A,G}
++E^{collar}.
+\tag{RGQ.13a}
+```
+
+The first required line is the material-record growth identity
 
 ```math
 d\left[\log(1+\mathfrak P_N^{mat})\right]^+
 \le
-C\,
-\left(
-dK_{\rm ell}^+
-+dK_{\rm coef}^+
-+dK_{\rm comm}^+
-+dK_{\rm transport}^+
-+dK_G^+
+C\left(
+d\mathcal A^{metric}
++d\mathcal A^{coeff}
++d\mathcal A^{vel}
++d\mathcal A^{press}
++d\mathcal A^{visc}
++d\mathcal A^{collar}
++d\mathcal A^{exchange}
 \right).
+\tag{RGQ.13b}
+```
+
+Each \(\mathcal A^\kappa\) must be produced by differentiating one component of
+the same material record.  The base metric term comes from
+\(\partial_s(F^\top F)=2F^\top SF\).  The coefficient terms come from
+\(\partial_sA=-A\nabla V\) and \(G=AA^\top\).  The velocity and pressure tower
+terms come from `(RGQ.12)`--`(RGQ.13)`.  The collar term uses transported
+cutoffs, so the materiality defect vanishes and the remaining collar growth is
+transported collar geometry.
+
+Only after `(RGQ.13b)` is derived may the same measures be identified with the
+annular four-body activity:
+
+```math
+dA_{4B}^{ann}
+:=
+d\mathcal A^{metric}
++d\mathcal A^{coeff}
++d\mathcal A^{vel}
++d\mathcal A^{press}
++d\mathcal A^{visc}
++d\mathcal A^{collar}
++d\mathcal A^{exchange}.
+\tag{RGQ.13c}
+```
+
+The resulting admission theorem is
+
+```math
+d\left[\log(1+\mathfrak P_N^{mat})\right]^+
+\le
+C\,dA_{4B}^{ann}.
 \tag{RGQ.14}
 ```
 
-This is the exact form of `RecordGrowthQuantization.A` for the full record.
-The right side is not external.  It is the Body-IV to Body-I return defect
-measure already present in the four-body arrow
+The existing Body-IV notation is the shorthand for this second step:
 
 ```math
 G_{4B}\to S_{4B}.
 \tag{RGQ.15}
 ```
+
+The \(K\)-defects \(dK_{\rm ell}^+,dK_{\rm coef}^+,dK_{\rm comm}^+,
+dK_{\rm transport}^+,dK_G^+\) are admissible only after they have been shown
+to be the same derived measures in `(RGQ.13b)`.  A channel label by itself does
+not prove `(RGQ.14)`.
 
 ## 4. Admission into the four-body payment
 
@@ -241,7 +290,8 @@ dD_G
 \tag{RGQ.16}
 ```
 
-Thus `(RGQ.14)` gives
+Thus `MaterialRecordLogGrowthChannelIdentity.A`, namely `(RGQ.13b)` plus the
+same-carrier identification `(RGQ.13c)`, gives
 
 ```math
 d\left[\log(1+\mathfrak P_N^{mat})\right]^+
@@ -294,11 +344,11 @@ Therefore:
 
 ## 5. Exact boundary
 
-The only remaining escape is failure of `(RGQ.14)`.  That is not a hidden
-center endpoint pulse.  It means the positive logarithmic growth of the
-material record was not represented by the same Body-IV/Body-I return defects.
-Equivalently, the selected branch has lost the same-material packet record
-itself.
+The exact remaining theorem is `(RGQ.13b)` plus `(RGQ.13c)`.  Failure of that
+theorem is not a hidden center endpoint pulse.  It means the positive
+logarithmic growth of the material record was not represented by the same
+derived Body-IV/Body-I exchange measures.  Equivalently, the selected branch
+has lost the same-material packet record itself.
 
 In the current proof grammar this is the Part-side failure:
 
@@ -312,10 +362,10 @@ So the record-loss route sharpens the frontier:
 ```math
 \boxed{
 \begin{array}{ll}
-\text{record growth retained by Body-IV defects}
+\text{record growth derived and identified with Body-IV defects}
 &\Longrightarrow
 \text{finite four-body payment forbids terminal record loss},\\[1mm]
-\text{record growth not retained by Body-IV defects}
+\text{record growth not so identified}
 &\Longrightarrow
 \text{loss of same-material participation record}.
 \end{array}
