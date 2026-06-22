@@ -282,3 +282,62 @@ d\nu_m^{ol}.
 
 The terminal heat-scale overlap pulse is the exact countermodel to every
 finite-\(L_s^1\) or detached-channel substitute.
+
+## 6. Annular later-on carrier correction
+
+The overlap measure above is a center/time projection.  The spike picture
+shows why that projection is too narrow by itself.
+
+The physical object is not a center pulse detached from the fluid.  It is the
+spike together with the annular layers underneath it.  Those annuli carry the
+later-on stress/strain state of the same event: the internal force/deformation
+state that can return the inner imbalance outward at a later preterminal time.
+
+In the stress form,
+
+```math
+T(u,p)=-pI+2\nu S,
+\qquad
+S={\nabla u+\nabla u^T\over2},
+\tag{TON.16}
+```
+
+the relevant physical carrier is the annular stress work and strain history,
+not a standalone center endpoint measure:
+
+```math
+\int_{\partial A} u\cdot T(u,p)n\,dA,
+\qquad
+\int_A 2\nu |S|^2\,dx .
+\tag{TON.17}
+```
+
+Thus the production problem for `(TON.2)` should not be read as a search for a
+new center-only endpoint reserve.  It should be read as a same-participation
+identification problem:
+
+```math
+\text{center/time overlap }d\nu_m^{ol}
+\quad\text{is the projection of the annular later-on stress/strain carrier.}
+\tag{TON.18}
+```
+
+Once that identification is made on the retained same packet, the endpoint atom
+is no longer an independent zero-thickness source.  It is part of a smooth
+annular stress/strain evolution with positive time thickness, and the four-body
+object can count it as same-carrier participation rather than as a detached
+endpoint measure.
+
+So the live production clause becomes:
+
+```math
+\boxed{
+\text{restore the annular later-on stress/strain carrier behind }d\nu_m^{ol}
+\text{ and admit that carrier into }A_{4B}.
+}
+\tag{TON.19}
+```
+
+This is the promised coupled-participation route in concrete physical form:
+the terminal pulse survives only while the outer-annulus stress/strain carrier
+has been projected away.
