@@ -289,30 +289,35 @@ OriginalSmoothData
 
 That theorem is not installed in the current inputs.
 
-There is, however, a noncircular retained-carrier use of the full packet.  Let
-the positive logarithmic growth of the material record be dominated by the
-Body-IV return defects:
+There is, however, a noncircular retained-carrier use of the full packet after
+the four-body correction.  The positive logarithmic growth of the material
+record cannot be routed through Body-IV \(K\)-defects alone.  It must be carried
+by the whole simultaneous law-bearing packet:
 
 ```math
-d\left[\log(1+\mathfrak P_N^{mat})\right]^+
-\le
-C
-\left(
-dK_{\rm ell}^+
-+dK_{\rm coef}^+
-+dK_{\rm comm}^+
-+dK_{\rm transport}^+
-+dK_G^+
-\right).
+\boxed{
+\texttt{ParticipationCarryingFullTowerFourBodyBalance.A}.
+}
 \tag{FMT.18a}
 ```
 
-These \(K\)-defects are already part of the four-body return arrow
-\(G_{4B}\to S_{4B}\).  Thus, on a retained same-material four-body carrier,
-unbounded \(\mathfrak P_N^{mat}\) would force infinitely many fixed positive
-four-body payments by record-doubling quantization.  The finite four-body
-payment forbids that.  Failure of `(FMT.18a)` is not a hidden terminal pulse;
-it is loss of the same-material Part record.
+In that theorem, \(S_N,Q_N,C_N,G_N\) are four coordinates of the same material
+participation law, and the generated metric, coefficient, pressure, viscous,
+collar, compactness, and geometry terms appear as oriented exchange currents or
+strict losses of that same packet.  Equivalently, the theorem installs
+
+```math
+d[\log(1+\mathfrak P_N^{mat})]_+
+\le
+C\,dA_{4B,N}
+\tag{FMT.18b}
+```
+
+for the already-oriented tower-level four-body activity.  Only after this
+installation does record-doubling quantization force infinitely many fixed
+four-body quanta and contradict the finite four-body reserve.  Failure of
+`(FMT.18a)` is not a hidden terminal pulse; it is loss of the same-material
+Part record.
 
 The noncircular branch remains:
 
@@ -321,7 +326,7 @@ The noncircular branch remains:
 \begin{array}{ll}
 \text{record retained}
 &\Rightarrow
-\text{retained packets enter }A_{4B}
+\text{retained packets enter }A_{4B,N}
 \Rightarrow
 \text{four-body contradiction},\\[2mm]
 \text{record lost}
