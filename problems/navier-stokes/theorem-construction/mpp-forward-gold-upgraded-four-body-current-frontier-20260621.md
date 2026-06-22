@@ -3972,3 +3972,73 @@ theorem has been reduced to:
 }
 \tag{4BF.180}
 ```
+
+The residue policy is now explicit.  For every residue channel
+
+```math
+j\in\{legal,sel,sgn,term,geom\},
+\tag{4BF.181}
+```
+
+write
+
+```math
+d\Lambda_{j,m}
+=
+f_{j,m}(s)\,ds
++d\Lambda_{j,m}^{sing}.
+\tag{4BF.182}
+```
+
+The channel may remain inside the gold endpoint measure only when
+
+```math
+\boxed{
+\{f_{j,m}\}_m
+\text{ is uniformly endpoint-integrable}
+}
+\tag{4BF.183}
+```
+
+and
+
+```math
+\boxed{
+\lim_{\theta\downarrow0}
+\sup_m
+\Lambda_{j,m}^{sing}((-\theta,0])
+=0.
+}
+\tag{4BF.184}
+```
+
+Otherwise the channel is absorbed before endpoint-measure formation or leaves
+the gold branch through its typed collar/selector/signed/terminal/geometry face.
+So the endpoint measure used by the gold theorem is not `(4BF.160a)` with
+arbitrary finite measures.  After policy enforcement it is
+
+```math
+d\mu_m^{gold}
+=
+\rho_m(s)\,ds
++d\Lambda_m^{abs},
+\qquad
+\Lambda_m^{abs}((-\theta,0])\to0
+\text{ uniformly}.
+\tag{4BF.185}
+```
+
+Thus the remaining density target is:
+
+```math
+\boxed{
+\{\rho_m\}_m
+\text{ is uniformly endpoint-integrable.}
+}
+\tag{4BF.186}
+```
+
+The interior finite-jet tower and annular pressure tower supply this for the
+NS field-density channels under positive radius survival.  The residue policy
+prevents construction residues from reintroducing the terminal \(L^1\)-pulse as
+an unexamined finite measure.
