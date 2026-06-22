@@ -21,6 +21,7 @@ edge_effect: >-
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-material-annular-return-attachment-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-strain-metric-clock-sharpening-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-annular-stress-strain-to-strain-metric-clock-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-same-packet-record-survival-material-clock-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-participation-material-tower-noexit-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-initial-smooth-frequency-tail-to-material-record-direct-attempt-20260622.md
