@@ -1,8 +1,8 @@
 ---
 theorem_id: forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622
-status: direct-attempt-reduces-to-terminal-overlap-nojump-plus-pressure-compatibility
+status: direct-attempt-reduces-to-transported-annular-carrier-tail-plus-pressure-compatibility
 logical_landing_node: order_lock_overlap_fourbody_payment
-edge_effect: "Creates the clean surface for OrderLockOverlapFourBodyPayment.A, replacing the stale polar-pair framing. The algebraic channel-overlap split is proved: the native/full-packet mismatch is controlled by the sum over packet channels of min([n]_+,[-b^k]_+), not by an independent scalar source or by the whole partner deficit as the live object. Viscous, harmonic-pressure, selector/legal, finite signed, and geometry overlaps are admitted through their same-packet channels inside A_4B using the stronger partner-overlap estimates. Local pressure requires pressure-compatible same-packet tests. The only live unproduced admission piece remains the terminal time/storage overlap no-jump or a strict no-waste/full-loop substitute; otherwise the overlap routes through the existing terminal trace or donor/Field branches after same-packet admission."
+edge_effect: "Creates the clean surface for OrderLockOverlapFourBodyPayment.A, replacing the stale polar-pair framing. The algebraic channel-overlap split is proved: the native/full-packet mismatch is controlled by the sum over packet channels of min([n]_+,[-b^k]_+), not by an independent scalar source or by the whole partner deficit as the live object. Viscous, harmonic-pressure, selector/legal, finite signed, and geometry overlaps are admitted through their same-packet channels inside A_4B using the stronger partner-overlap estimates. Local pressure requires pressure-compatible same-packet tests. The terminal time/storage overlap has now been restored to the transported outer-annulus stress/strain carrier. The live unproduced admission piece is uniform terminal tail control of that carrier, or bounded-overlap admission of that carrier into A_4B; otherwise the overlap routes through the existing terminal trace or donor/Field branches after same-packet admission."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-participation-order-lock-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-partner-polar-payment-direct-attempt-20260621.md
@@ -384,9 +384,9 @@ the materiality defect vanishes and `(OLO.24d)` gives directly
 ```
 
 Thus the time/storage overlap enters \(A_{4B}\) through transported annular
-strain and stress-work.  The endpoint atom is removed on any retained
-positive-thickness transported annulus whose stress/strain carrier has uniform
-terminal absolute continuity.
+strain and stress-work.  The endpoint atom is removed only by a uniform terminal
+tail for that transported carrier, or by counting every surviving carrier pulse
+inside the finite four-body scale budget.
 
 ## 5. Result
 
@@ -419,10 +419,14 @@ three places where that channel entry can fail:
 \tag{OLO.26}
 ```
 
-with `StrictFourBodyNoWasteLyapunov.A` allowed to replace the terminal and donor
-pieces if it supplies the same endpoint-uniform-integrable overlap control.
+Here the terminal term means the transported outer-annulus carrier statement:
+either its same-carrier terminal tail is uniform, or its nonzero terminal pulses
+are counted with bounded overlap inside \(A_{4B}\).  `StrictFourBodyNoWasteLyapunov.A`
+can replace the terminal and donor pieces only when it supplies that same
+transported-carrier control.
 
 The pressure and donor terms are already typed inside the same full packet.  The
 terminal overlap theorem is not a detached payment account.  It is the remaining
 test that the native positive source and its time/storage partner enter the same
-oriented \(A_{4B}\) carrier rather than forming an endpoint face.
+oriented transported annular \(A_{4B}\) carrier rather than forming an endpoint
+face.
