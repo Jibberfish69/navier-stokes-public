@@ -340,3 +340,103 @@ So the live production clause becomes:
 This is the promised coupled-participation route in concrete physical form:
 the terminal pulse survives only while the outer-annulus stress/strain carrier
 has been projected away.
+
+## 7. Fixed outer-annulus carrier no-atom lemma
+
+The annular correction becomes a proof mechanism only after the center/time
+projection is restored to the same outer annulus.  The exact object is a
+material annular layer \(\Omega_A(t)\) belonging to the same fluid event as the
+spike.  Its stress/strain carrier density is
+
+```math
+\rho_A(t)
+:=
+\int_{\partial\Omega_A(t)}
+\left|u\cdot T(u,p)n\right|\,dA
++
+2\nu\int_{\Omega_A(t)}|S|^2\,dx .
+\tag{TON.20}
+```
+
+The material participation identity from the material-packet note is
+
+```math
+{d\over dt}E_{\Omega_A}(t)
++
+2\nu\int_{\Omega_A(t)}|S|^2\,dx
+=
+\int_{\partial\Omega_A(t)}
+u\cdot T(u,p)n\,dA .
+\tag{TON.21}
+```
+
+So the annular carrier is not a new detached account.  It is the stress-work
+and strain side of the same velocity-pressure-viscosity-incompressibility law.
+
+Assume the spatial branch has selected an outer annular layer that remains a
+positive-thickness smooth carrier up to the terminal face, in the exact sense
+that
+
+```math
+\rho_A\in L^1(t_0,T^*).
+\tag{TON.22}
+```
+
+Then the annular carrier has no terminal time atom:
+
+```math
+\lim_{\theta\downarrow0}
+\int_{T^*-\theta}^{T^*}\rho_A(t)\,dt
+=0 .
+\tag{TON.23}
+```
+
+This is not a Navier-Stokes estimate; it is absolute continuity of the
+Lebesgue integral applied to the restored same-fluid annular carrier.
+
+Therefore, the center overlap measure has no terminal atom once it is dominated
+by that carrier on shrinking terminal windows.  The needed domination is
+
+```math
+\nu_m^{ol}((-\theta,0])
+\le
+C
+\int_{T^*-\Theta_m(\theta)}^{T^*}
+\rho_{A,m}(t)\,dt,
+\qquad
+\Theta_m(\theta)\downarrow0
+\text{ uniformly as }\theta\downarrow0 .
+\tag{TON.24}
+```
+
+Combining `(TON.23)` and `(TON.24)` gives
+
+```math
+\lim_{\theta\downarrow0}\limsup_m
+\nu_m^{ol}((-\theta,0])
+=0,
+\tag{TON.25}
+```
+
+which is exactly `TerminalOverlapNoJump.A`.
+
+The smoothness route is consequently precise.  A finite-time singularity must
+leave terminal selected activity.  The spatial coercivity branch removes hidden
+point-object concentration.  The remaining last-time pulse is killed if its
+center projection is restored to the outer-annulus stress/strain carrier,
+because a positive-thickness smooth annular carrier cannot be a zero-thickness
+endpoint atom.
+
+Thus the remaining production statement is not a search for a detached
+endpoint \(L^q_s\) estimate.  It is the same-fluid carrier restoration:
+
+```math
+\text{center/time overlap projection}
+\le
+\text{outer-annulus stress/strain carrier of the same spike event}.
+\tag{TON.26}
+```
+
+Once `(TON.26)` is proved on the retained same packet, the no-jump theorem
+follows from `(TON.20)`--`(TON.25)`, and the four-body loop supplies the
+unweighted participation reserve for the restored carrier.
