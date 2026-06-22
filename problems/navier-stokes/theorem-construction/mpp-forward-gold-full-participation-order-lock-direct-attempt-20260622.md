@@ -130,7 +130,7 @@ gives
 \rho_m(s)
 \le
 [h_m(s)]_+
-R_m^{ol}(s).
++R_m^{ol}(s).
 \tag{FOL.9}
 ```
 
@@ -187,8 +187,30 @@ then
 \tag{FOL.14}
 ```
 
-Therefore the order-lock estimate for channel-first native selection is
-equivalent to paying the discarded same-packet partner deficit
+The exact minimal order-lock gap is
+
+```math
+\Delta_m^{ol}(s)
+:=
+\left([n_m(s)]_+ - [h_m(s)]_+\right)_+.
+\tag{FOL.15}
+```
+
+Thus channel-first native selection satisfies the order-lock estimate exactly
+when
+
+```math
+\boxed{
+\Delta_m^{ol}
+\le
+R_m^{ol}
+\quad\text{with}\quad
+\sup_m\|R_m^{ol}\|_{L_s^q}<\infty.
+}
+\tag{FOL.16}
+```
+
+The discarded same-packet partner deficit is a sufficient envelope:
 
 ```math
 \boxed{
@@ -198,7 +220,7 @@ R_m^{ol}
 \quad\text{with}\quad
 \sup_m\|R_m^{ol}\|_{L_s^q}<\infty,
 }
-\tag{FOL.15}
+\tag{FOL.17}
 ```
 
 or absorbing it into an already endpoint-uniform-integrable legal, signed,
@@ -221,14 +243,14 @@ a\tau_m^{-1}{\bf 1}_{(-\tau_m,0]}(s),
 b_m(s)=-n_m(s),
 \qquad
 \tau_m\downarrow0.
-\tag{FOL.16}
+\tag{FOL.18}
 ```
 
 Then
 
 ```math
 h_m(s)=0,
-\tag{FOL.17}
+\tag{FOL.19}
 ```
 
 but
@@ -239,7 +261,7 @@ but
 [n_m(s)]_+
 =
 a\tau_m^{-1}{\bf 1}_{(-\tau_m,0]}(s).
-\tag{FOL.18}
+\tag{FOL.20}
 ```
 
 The full scalar sees no positive activity, while the channel-first native
@@ -252,7 +274,7 @@ selector sees exactly the terminal pulse.  Moreover
 =
 a^q\tau_m^{1-q}\to\infty
 \quad(q>1).
-\tag{FOL.19}
+\tag{FOL.21}
 ```
 
 This proves that full-packet order-lock cannot be recovered from scalar
@@ -271,7 +293,7 @@ Proved:
 \texttt{FullParticipationOrderLock.A}
 \text{ by positive-part subadditivity.}
 }
-\tag{FOL.20}
+\tag{FOL.22}
 ```
 
 Also proved:
@@ -281,10 +303,21 @@ Also proved:
 \text{channel-first endpoint density}
 \Longrightarrow
 \texttt{FullParticipationOrderLock.A}
-\iff
-\text{same-packet partner deficit is endpoint-uniform-integrably paid.}
+\text{ exactly when the minimal order-lock gap } \Delta_m^{ol}
+\text{ is endpoint-uniform-integrably paid.}
 }
-\tag{FOL.21}
+\tag{FOL.23}
+```
+
+And the same-packet partner deficit gives a concrete sufficient envelope:
+
+```math
+\boxed{
+[-b_m]_+\in L_s^q
+\Longrightarrow
+\Delta_m^{ol}\in L_s^q.
+}
+\tag{FOL.24}
 ```
 
 Not proved from current inputs:
@@ -293,18 +326,18 @@ Not proved from current inputs:
 \boxed{
 \text{native terminal source selection is full-scalar-first}
 }
-\tag{FOL.22}
+\tag{FOL.25}
 ```
 
 and not proved:
 
 ```math
 \boxed{
-[-b_m]_+
+\Delta_m^{ol}\ \text{or its same-packet partner envelope }[-b_m]_+
 \text{ has an }L_s^q,\text{ Hardy, Orlicz, or strict absorption bound}
 \quad(q>1)
 }
-\tag{FOL.23}
+\tag{FOL.26}
 ```
 
 on every retained terminal heat-scale packet.
@@ -315,10 +348,10 @@ viscous estimate.  It is:
 ```math
 \boxed{
 \text{prove that terminal selection is full-packet-first, or prove that every
-channel-first discarded partner is paid inside the same endpoint packet before
-the positive endpoint density is formed.}
+channel-first positive excess over the full scalar is paid inside the same
+endpoint packet before the positive endpoint density is formed.}
 }
-\tag{FOL.24}
+\tag{FOL.27}
 ```
 
 Any estimate that does not enter `(FOL.24)` through the same packet remains a
