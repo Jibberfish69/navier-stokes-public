@@ -381,7 +381,7 @@ the corrected route needs
 ```math
 \lambda_{j,m}(s)
 \le
-c_j\,\rho_m^{smooth}(s)+r_{j,m}(s),
+c_j\,\rho_m^{feed}(s)+r_{j,m}(s),
 \qquad
 \|r_{j,m}\|_{L_s^q}\le C,
 \tag{ERHC.29}
@@ -413,7 +413,7 @@ or
 \boxed{
 \lambda_{j,m}
 \le
-c_j\rho_m^{smooth}+r_{j,m},
+c_j\rho_m^{feed}+r_{j,m},
 \quad
 \sum_jc_j<1,
 \quad
@@ -475,7 +475,7 @@ The corrected theorem that is actually proved by the component estimates is:
 \rho_m^{tr,loc}\in L_s^q,\quad
 \rho_m^{H}\in L_s^q,\quad
 \lambda_{j,m}\in L_s^q\ \text{or absorbable},\\
-g_m^\nu\in L_s^q\ \text{or kept dissipative outside }\rho_m
+D_m^\nu\ \text{kept as visible drain outside the endpoint positive density}
 \end{gathered}
 \Longrightarrow
 \rho_m\in L_s^q.
@@ -526,13 +526,13 @@ for the transport/local-pressure/lower-order trace;
 
 ```math
 \boxed{
-\texttt{ViscousDrainEndpointPolicy.A}
+\texttt{ViscousDrainPlacement.A}
 }
 \tag{ERHC.40}
 ```
 
-meaning higher gradient integrability if viscous drain is counted in
-\(\rho_m\), or a sign/orientation rule keeping it on the dissipative side;
+meaning the drain is retained as one visible dissipative channel inside the
+full participation law, before the endpoint positive density is formed;
 
 ```math
 \boxed{
