@@ -3,6 +3,7 @@ theorem_id: mpp-four-body-partner-polar-payment-direct-attempt-20260621
 status: superseded-overpayment-order-lock-overlap-is-sharper-live-object
 logical_landing_node: order_lock_overlap_payment_direct_attempt
 parents:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-partner-deficit-retention-or-exit-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-selected-full-packet-production-step-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-terminal-trace-ac-component-test-20260621.md
@@ -17,8 +18,11 @@ Date: 2026-06-21
 
 ## 0. Target
 
-The direct partner-deficit theorem failed because retained cancellation is not
-payment.  The old polar-pair comparison was a sufficient overpayment:
+This note is superseded by
+`mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md`
+as the live theorem surface.  The direct partner-deficit theorem failed because
+retained cancellation is not payment.  The old polar-pair comparison was a
+sufficient overpayment:
 
 ```math
 A_{\rm native}
