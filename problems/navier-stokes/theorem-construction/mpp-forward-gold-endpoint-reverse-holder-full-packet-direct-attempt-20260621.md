@@ -347,3 +347,306 @@ finite routed measure.
 Together these imply `(ERH.2)`, hence `EndpointUniformIntegrabilityReserve.A`.
 Without them, the terminal \(L^1\)-pulse remains compatible with the current
 gold data.
+
+
+---
+theorem_id: forward-gold-endpoint-reverse-holder-full-packet-direct-attempt-20260621
+status: direct-attempt-fails-current-inputs-give-measure-accounting-not-terminal-reverse-holder
+logical_landing_node: endpoint_reverse_holder_full_packet_direct_attempt
+parents:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-base-storage-harmonic-pressure-endpoint-policy-hardstop-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-endpoint-trace-lp-producer-direct-attempt-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-hardy-nowaste-direct-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-reserve-producer-family-recheck-20260621.md
+---
+
+# Endpoint Reverse Hölder Full Packet Direct Attempt
+
+Date: 2026-06-21
+
+## 0. Corrected target
+
+The corrected gold target is not finite payment.  It is endpoint uniform integrability.
+
+For each retained terminal heat-scale full packet, define the full endpoint packet measure
+
+```math
+d\mu_m(s)=\rho_m(s)\,ds
+```
+
+with density
+
+```math
+\rho_m
+=
+[H_m]_+
++\lambda_{legal,m}
++\lambda_{sel,m}
++\lambda_{sgn,m}
++\lambda_{term,m}
++\lambda_{geom,m}.
+\tag{ERH.1}
+```
+
+The desired theorem is
+
+```math
+\boxed{
+\texttt{EndpointReverseHolderFullPacket.A}:
+\qquad
+\exists q>1,\ C<\infty,\quad
+\sup_m\int_{-1}^{0}\rho_m(s)^q\,ds\le C.
+}
+\tag{ERH.2}
+```
+
+Then Hölder gives the terminal modulus
+
+```math
+\mu_m((-\theta,0])
+\le
+\theta^{1-1/q}\|\rho_m\|_{L^q(-1,0)}
+\le C^{1/q}\theta^{1-1/q}\to0,
+\tag{ERH.3}
+```
+
+so the endpoint no-jump theorem follows.
+
+Equivalently, one may prove the interval reverse-Hölder inequality
+
+```math
+\boxed{
+\left(\fint_I \rho_m^q\,ds\right)^{1/q}
+\le
+C\fint_{\lambda I}\rho_m\,ds
++C\left(\fint_{\lambda I} r_m^q\,ds\right)^{1/q}
+}
+\tag{ERH.4}
+```
+
+for all terminal intervals \(I=(-\theta,0]\), with \(q>1\), \(\lambda>1\), and an already controlled lower-order term \(r_m\).
+
+## 1. Smooth trace expansion after gauge fixing
+
+Let
+
+```math
+U_m=V_m-\langle V_m\rangle_{\eta_m}
+```
+
+and split pressure as
+
+```math
+Q_m=Q_m^{loc}+Q_m^H.
+```
+
+After Galilean and affine-pressure gauge removal, the smooth positive endpoint trace is controlled by terms of the schematic form
+
+```math
+[H_m]_{+}
+\lesssim
+\int_{collar}\left(
+|U_m|^3
++|Q_m^{loc}|^{3/2}
++|Q_m^H-\Pi_{aff}Q_m^H|^{3/2}
++|U_m|^2
++|\nabla U_m|^2
+\right)dy
++\rho_m^{meas}.
+\tag{ERH.5}
+```
+
+The local pressure is Calderon-Zygmund controlled by the velocity product:
+
+```math
+\|Q_m^{loc}\|_{L^{3/2}}
+\lesssim
+\|U_m\otimes U_m\|_{L^{3/2}}+R_{gauge/legal}.
+\tag{ERH.6}
+```
+
+The harmonic pressure-memory term requires a separate annular pressure-service estimate.
+
+Thus a sufficient route to `(ERH.2)` is:
+
+```math
+\int_{collar}|U_m|^3\,dy\in L_s^q,
+\quad
+\int_{collar}|Q_m^H-\Pi_{aff}Q_m^H|^{3/2}\,dy\in L_s^q,
+\quad
+\rho_m^{meas}\in L_s^q.
+\tag{ERH.7}
+```
+
+## 2. What installed energy estimates give
+
+If one had uniform gauge-fixed normalized energy-dissipation,
+
+```math
+\sup_m\left(
+\|U_m\|_{L_s^\infty L_y^2}^2
++\|\nabla U_m\|_{L^2_{s,y}}^2
+\right)<\infty,
+\tag{ERH.8}
+```
+
+then interpolation gives
+
+```math
+U_m\in L_{s,y}^{10/3},
+```
+
+and hence
+
+```math
+s\mapsto \int_{collar}|U_m(s)|^3\,dy
+\in L_s^{10/9}.
+\tag{ERH.9}
+```
+
+This supplies an endpoint exponent \(q=10/9>1\) for the velocity/local-pressure smooth trace.
+
+But `(ERH.8)` is not currently installed.  The previous direct attempt showed that the existing four-body storage plus integrated drain does not produce the \(L_s^\infty L_y^2\) mean-free term.  It gives finite payment and integrated dissipation, not the terminal time-trace bound needed for `(ERH.9)`.
+
+## 3. Direct reverse-Hölder attempt from finite payment
+
+Try to derive `(ERH.4)` from the closed four-body inequality
+
+```math
+\partial_sL_{4B,m}+D_{4B,m}+cA_{4B,m}\le R_{4B,m}.
+\tag{ERH.10}
+```
+
+Integrated over \(\lambda I\), this gives a finite-measure estimate
+
+```math
+\int_{\lambda I}\rho_m(s)\,ds
+\le
+C\bigl(L_{4B,m}(\inf \lambda I)-L_{4B,m}(0)\bigr)_+
++C R_{m}(\lambda I).
+\tag{ERH.11}
+```
+
+This has the correct \(L^1\) scale but no superlinear information.  There is no term in `(ERH.10)` that bounds
+
+```math
+\int_I \rho_m(s)^q\,ds,\qquad q>1.
+```
+
+The terminal pulse
+
+```math
+\rho_m(s)=a\tau_m^{-1}\mathbf 1_{(-\tau_m,0]}(s)
+\tag{ERH.12}
+```
+
+satisfies the finite payment estimate `(ERH.11)` with total mass \(a\), while
+
+```math
+\int_{-1}^{0}\rho_m(s)^q\,ds
+=a^q\tau_m^{1-q}\to\infty
+\quad(q>1).
+\tag{ERH.13}
+```
+
+Therefore finite payment cannot imply `(ERH.2)`.
+
+## 4. Direct reverse-Hölder attempt from local energy inequality
+
+The local energy inequality gives, schematically,
+
+```math
+\partial_sM_m^{gq}+D_m^{gq}\le H_m^{smooth}+\rho_m^{meas}.
+\tag{ERH.14}
+```
+
+This is one-sided.  It says the storage/dissipation is controlled by the endpoint flux.  It does not say the endpoint flux has self-improving integrability.
+
+A reverse-Hölder proof would need a Caccioppoli-type inequality in the opposite direction, with enough structure to compare high moments on \(I\) to first moments on a larger interval:
+
+```math
+\left(\fint_I \rho_m^q\right)^{1/q}
+\lesssim
+\fint_{\lambda I}\rho_m+	ext{controlled lower-order terms}.
+```
+
+The current packet supplies no such inequality.  In particular, pressure-memory, selector/collar, signed/donor, terminal trace, and geometry terms can still enter as endpoint measures.  A one-sided local energy inequality plus finite endpoint accounting does not force those measures to be absolutely continuous, much less \(L^q\).
+
+## 5. What theorem would actually close it
+
+A genuine closure theorem must have one of the following forms.
+
+### Form A: endpoint Caccioppoli-Gehring theorem
+
+```math
+\boxed{
+\texttt{EndpointCaccioppoliGehringFullPacket.A}}
+```
+
+For every terminal interval \(I=(-\theta,0]\),
+
+```math
+\left(\fint_I \rho_m^q\right)^{1/q}
+\le
+C\fint_{\lambda I}\rho_m
++C\left(\fint_{\lambda I} r_m^q\right)^{1/q},
+\qquad q>1.
+\tag{ERH.15}
+```
+
+### Form B: terminal Carleson packing with superlinear density
+
+```math
+\boxed{
+\texttt{TerminalSuperlinearCarlesonPacket.A}}
+```
+
+There exists \(q>1\) such that
+
+```math
+\sup_m\int_{-1}^{0}\rho_m^q\,ds<\infty.
+\tag{ERH.16}
+```
+
+### Form C: weighted endpoint Hardy reserve directly
+
+```math
+\boxed{
+\texttt{FullPacketHardyReserve.A}}
+```
+
+There exists \(\alpha>0\) such that
+
+```math
+\sup_m\int_{-1}^{0}(-s)^{-\alpha}\,d\mu_m(s)<\infty.
+\tag{ERH.17}
+```
+
+All three are equivalent at the current frontier: each rules out the terminal \(L^1\)-pulse.
+
+## 6. Result
+
+`EndpointReverseHolderFullPacket.A` is the right corrected gold target, but it is not produced by the installed inputs.
+
+The exact failed implication is
+
+```math
+\text{closed four-body finite payment + local energy inequality}
+\quad\not\Rightarrow\quad
+\rho_m\in L_s^q,\ q>1.
+```
+
+The mathematical hard obstruction is again the terminal pulse `(ERH.12)`: it satisfies finite endpoint accounting and violates every superlinear endpoint reserve.
+
+The route goes right only by adding a genuine endpoint self-improvement theorem:
+
+```math
+\boxed{
+\texttt{EndpointCaccioppoliGehringFullPacket.A}
+\quad\text{or}\quad
+\texttt{TerminalSuperlinearCarlesonPacket.A}
+\quad\text{or}\quad
+\texttt{FullPacketHardyReserve.A}.}
+```
+
+Without one of these, the gold-only proof cannot pass from finite endpoint payment to terminal no-jump.
