@@ -245,3 +245,54 @@ Pack_Q+\neg Part_{N,Q}.
 \tag{LAS.18}
 ```
 
+## 6. Uniform modulus scaling test
+
+The direct uniform-modulus test shows why `(LAS.16)` is not produced by the
+fixed-annulus result.  Under Navier--Stokes scaling,
+
+```math
+u_r(t,x)=r^{-1}U(r^{-2}t,r^{-1}x),
+\qquad
+p_r(t,x)=r^{-2}P(r^{-2}t,r^{-1}x),
+\tag{LAS.19}
+```
+
+the annular stress/strain density satisfies
+
+```math
+\rho_{A_r}(t)
+\sim
+r^{-1}\rho_{A_1}(r^{-2}t).
+\tag{LAS.20}
+```
+
+Over one heat window,
+
+```math
+\int_{I_r}\rho_{A_r}(t)\,dt
+\sim
+r\int_{-1}^{0}\rho_{A_1}(s)\,ds.
+\tag{LAS.21}
+```
+
+So physical annular \(L^1\) control is radius-discounted.  The normalized packet
+density is
+
+```math
+\widehat\rho_{A_r}(s)=r\,\rho_{A_r}(T+r^2s),
+\tag{LAS.22}
+```
+
+and it can remain order-one on every shrinking heat-scale annulus.
+
+Therefore the remaining theorem is not fixed-annulus absolute continuity.  It
+is the unweighted normalized terminal modulus
+
+```math
+\lim_{\theta\downarrow0}\limsup_m
+\int_{-\theta}^{0}\widehat\rho_{A,m}(s)\,ds
+=0.
+\tag{LAS.23}
+```
+
+This is exactly `UniformLaterAnnularReturnModulus.A`.
