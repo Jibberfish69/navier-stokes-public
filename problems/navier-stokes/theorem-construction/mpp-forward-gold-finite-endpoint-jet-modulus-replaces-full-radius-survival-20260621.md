@@ -112,7 +112,7 @@ Then, by the chain rule and the Sobolev algebra property,
 
 ```math
 \sup_m
-\|\partial_s \rho_m^{field}\|_{L_s^1(-1,0)}
+\|\partial_s \rho_m^{jet}\|_{L_s^1(-1,0)}
 \le C(C_0,C_1),
 \tag{FEJ.9}
 ```
@@ -120,19 +120,18 @@ Then, by the chain rule and the Sobolev algebra property,
 where
 
 ```math
-\rho_m^{field}
+\rho_m^{jet}
 :=
-[H_m^{jet}]_+
-+[H_m^H]_+.
+[H_m^{jet}]_+.
 \tag{FEJ.10}
 ```
 
-Since \(\rho_m^{field}\) is already \(L_s^1\)-paid by the four-body/full-packet
+Since \(\rho_m^{jet}\) is already \(L_s^1\)-paid by the four-body/full-packet
 identity,
 
 ```math
 \sup_m
-\|\rho_m^{field}\|_{W_s^{1,1}(-1,0)}
+\|\rho_m^{jet}\|_{W_s^{1,1}(-1,0)}
 <\infty.
 \tag{FEJ.11}
 ```
@@ -141,37 +140,39 @@ Therefore
 
 ```math
 \boxed{
-\int_{-\theta}^{0}\rho_m^{field}(s)\,ds
+\int_{-\theta}^{0}\rho_m^{jet}(s)\,ds
 \le C\theta.
 }
 \tag{FEJ.12}
 ```
 
-Adding the residue-policy modulus gives `(FEJ.1)`.
+Adding harmonic pressure endpoint control and the residue-policy modulus gives
+`(FEJ.1)`.
 
 ## 3. High-rung-only analytic collapse is harmless for endpoint UI
 
 High-rung-only analytic collapse means full factorial/Gevrey radius fails while
 every fixed finite rung remains bounded.
 
-For endpoint UI, only the finite set \(\mathcal J_K\) and \(\partial_s\mathcal
-J_K\) matters.  If `(FEJ.7)` and `(FEJ.8)` hold, then `(FEJ.12)` holds even
-when every positive analytic radius of the full tower is zero.
+For the local finite-jet endpoint density, only the finite set
+\(\mathcal J_K^{loc}\) and \(\partial_s\mathcal J_K^{loc}\) matters.  If
+`(FEJ.7)` and `(FEJ.8)` hold, then `(FEJ.12)` holds even when every positive
+analytic radius of the full tower is zero.
 
 Thus:
 
 ```math
 \boxed{
 \text{high-rung-only analytic-radius collapse}
-\not\text{ is a gold endpoint obstruction unless it breaks }(FEJ.7)
+\not\text{ is a local finite-jet endpoint obstruction unless it breaks }(FEJ.7)
 \text{ or }(FEJ.8).
 }
 \tag{FEJ.13}
 ```
 
 This is stronger than merely saying high-rung collapse does not imply endpoint
-UI failure.  For the endpoint theorem, high-rung-only collapse is irrelevant
-after the finite endpoint jet modulus is established.
+UI failure.  For the local finite-jet component, high-rung-only collapse is
+irrelevant after the finite endpoint jet modulus is established.
 
 ## 4. Corrected failure fork
 
@@ -182,6 +183,8 @@ On the residue-policy branch, failure of endpoint UI now forces:
 \neg(FEJ.7)
 \quad\text{or}\quad
 \neg(FEJ.8)
+\quad\text{or}\quad
+\text{harmonic pressure endpoint-control failure}
 \quad\text{or}\quad
 \text{residue-policy failure}.
 }
@@ -195,6 +198,8 @@ Equivalently:
 \text{finite endpoint jet amplitude blowup}
 \quad\text{or}\quad
 \text{finite endpoint jet temporal variation blowup}
+\quad\text{or}\quad
+\text{harmonic pressure endpoint-control failure}
 \quad\text{or}\quad
 \text{unadmitted endpoint residue}.
 }
@@ -219,6 +224,7 @@ The forward-gold endpoint wall is now smaller:
 ```math
 \boxed{
 \texttt{FiniteEndpointJetTemporalModulus.A}
++\texttt{AnnularPressureReverseHolder.A}
 +\texttt{EndpointResidueDensityPolicy.A}
 \Longrightarrow
 \texttt{EndpointUniformIntegrabilityReserve.A}.
@@ -227,5 +233,6 @@ The forward-gold endpoint wall is now smaller:
 ```
 
 The remaining exact work is to prove `(FEJ.7)` and `(FEJ.8)` for the retained
-same-carrier terminal packet, or route their failure as a finite-rung Field/Part
-readout after same-witness admission.
+same-carrier terminal packet, prove the harmonic pressure endpoint-control
+component, and prove the residue policy; or route those failures as finite-rung
+Field/Part, annular pressure, or residue readouts after same-witness admission.
