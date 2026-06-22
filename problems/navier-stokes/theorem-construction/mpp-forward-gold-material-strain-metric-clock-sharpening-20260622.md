@@ -188,6 +188,39 @@ Therefore, on the corresponding material annulus,
 So the strain-metric clock is not a radius-discounted energy quantity.  It is
 the scale-invariant material deformation time experienced by the annulus.
 
+The same identity gives the exact deformation-factor lower bound.  Let
+
+```math
+K_m(I)
+:=
+\int_I
+\|S_m(s)\|_{L^\infty(\widehat A_m(s))}\,ds .
+\tag{SMC.11d}
+```
+
+Then `(SMC.8)` gives, for every material line element,
+
+```math
+e^{-K_m(I)}|\xi_0|
+\le
+|F_m(s)\xi_0|
+\le
+e^{K_m(I)}|\xi_0| .
+\tag{SMC.11e}
+```
+
+Consequently, if the same material annulus changes a line length, collar
+thickness, or comparable material separation by a factor \(\Lambda\), then
+
+```math
+K_m(I)\ge \log\Lambda .
+\tag{SMC.11f}
+```
+
+This is the exact mathematical version of the spike-thinning statement on a
+retained material annulus: the annulus cannot compress or stretch by an
+arbitrary factor while the strain clock stays bounded.
+
 ## 3. What this proves
 
 The base material annulus, transported collars, and annular thickness do not
