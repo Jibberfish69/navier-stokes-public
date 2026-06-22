@@ -114,7 +114,7 @@ inside those coordinates:
 dA_{4B,N}
 \le
 C\,dA_{Q,N}
-C(dD_S+dD_C+dD_G).
++C(dD_S+dD_C+dD_G).
 \tag{STI.9}
 ```
 
