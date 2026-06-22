@@ -3193,10 +3193,9 @@ object is
 \tag{4BF.136}
 ```
 
-Uniform normalized local energy-pressure estimates, finite jets, pressure
-memory, source-square, critical-strain, and CKN estimates count here only when
-they dominate \(d\nu_m^{ol}\) on the same retained carrier.  Otherwise they are
-readouts.  Therefore the exact remaining fork is
+No detached readout family is a peer route here.  A readout becomes relevant
+only after it is rewritten as the same coupled participation statement for
+\(d\nu_m^{ol}\) inside \(A_{4B}\).  Therefore the exact remaining fork is
 
 ```math
 \boxed{
