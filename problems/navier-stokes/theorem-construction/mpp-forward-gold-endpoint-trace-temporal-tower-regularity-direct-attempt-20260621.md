@@ -1,7 +1,7 @@
 ---
 theorem_id: forward-gold-endpoint-trace-temporal-tower-regularity-direct-attempt-20260621
 status: finite-jet-endpoint-density-controlled-by-temporal-tower-harmonic-and-residue-channels-remain-separate
-logical_landing_node: endpoint_trace_temporal_tower_regulariy
+logical_landing_node: endpoint_trace_temporal_tower_regularity
 edge_effect: "Attacks EndpointTraceTemporalTowerRegularity.A as the tower-shaped producer for EndpointUniformIntegrabilityReserve.A. The exact positive result is finite-jet only: if the endpoint density is an order-locked same-carrier finite-jet functional of the gauge-fixed velocity, local pressure, cutoff, and selected tests, and the mixed time-space tower controls one time derivative of those jets in a Sobolev algebra, then the endpoint density is uniformly W_s^(1,1), hence uniformly L_s^infty and endpoint uniformly integrable. The terminal L1 pulse is impossible under this temporal tower bound because its variation blows up. The result does not control naked legal/selector/signed/terminal/geometry measures or harmonic pressure memory; those channels still require EndpointResidueDensityPolicy.A and AnnularHarmonicPressureServiceSuperL1.A before they may enter the full endpoint density."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-uniform-integrability-reserve-main-theorem-20260621.md
