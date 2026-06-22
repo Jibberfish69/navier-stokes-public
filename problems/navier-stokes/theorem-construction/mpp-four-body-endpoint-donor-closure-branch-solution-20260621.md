@@ -204,7 +204,7 @@ The local donor balance has the form
 \mathcal Z_{\rm donor}(\sigma)
 \le
 -\partial_\sigma\mathcal R_D(\sigma)
-+C A_{4B}^{sgn}(\sigma)+R_{legal}(\sigma)
++C A_{4B}(\sigma)
 ```
 
 as long as every unpaid transfer is rank-decreasing or paid by a retained partner/legal exit. Integrating gives a telescoping payment because \(\mathcal R_D\ge0\):
@@ -212,14 +212,13 @@ as long as every unpaid transfer is rank-decreasing or paid by a retained partne
 ```math
 \int \mathcal Z_{\rm donor}
 \le
-\mathcal R_D(\sigma_0)+C\int A_{4B}^{sgn}+\int R_{legal}.
+\mathcal R_D(\sigma_0)+C\int A_{4B}.
 ```
 
 This pays the finite-rank donor residue.
 
-In this local donor display, \(R_{legal}\) is the same legal-exit channel that
-belongs to the four-body package.  It is not an account appended after
-\(A_{4B}\).
+Here \(A_{4B}\) is the whole oriented four-body package, so retained signed
+partners and legal exits are both internal channels of the same object.
 
 The only remaining donor obstruction is an infinite zero-descent chain. Since the retained donor graph is finite after stabilization, an infinite chain contains a directed zero-rank cycle. A zero-rank donor cycle has no retained signed partner, no rank descent, and no legal exit. That is exactly failure of same-solution participation retention for the selected native source channel.
 
