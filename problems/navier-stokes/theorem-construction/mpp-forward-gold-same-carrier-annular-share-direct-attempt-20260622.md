@@ -1,17 +1,15 @@
 ---
 theorem_id: forward-gold-same-carrier-annular-share-direct-attempt-20260622
-status: direct-attempt-reduces-to-critical-density-atom-order-lock-admission-not-installed
+status: superseded-for-lower-bound-bypass-strict-descent-route-only
 logical_landing_node: same_carrier_annular_share_direct_attempt
 edge_effect: >-
-  Tests SameCarrierAnnularShare.A after the transported-annular endpoint
-  closure. The no-share branch gives a nested-core point/time-face atom in the
-  same critical carrier. The transported-annular theorem kills that atom only
-  after it is identified with the order-locked time/storage participation
-  overlap restored to outer-annulus stress/strain work. Current inputs do not
-  prove that a gauge-fixed critical-density atom is automatically that
-  order-locked participation overlap. Thus the direct annular-share proof
-  reduces to CriticalDensityAtomOrderLockAdmission.A, or the no-share atom
-  remains a Part/Field CM-consumption branch.
+  Records a direct attempt on SameCarrierAnnularShare.A and then demotes it for
+  the lower-bound-per-scale bypass. Annular share is the exact theorem for
+  strict scale descent, but the lower-bound bypass charges retained child cores
+  directly as material heat-scale packets. Therefore CriticalDensityAtomOrderLockAdmission.A
+  is not needed for that bypass. The note remains useful only for the strict-
+  descent route or for attempts to identify a critical-density atom with the
+  terminal time/storage overlap.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-cross-scale-strict-descent-annular-share-equivalence-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-annular-share-pass-or-partfield-assembly-20260621.md
@@ -22,6 +20,22 @@ parents:
 # Same-Carrier Annular Share Direct Attempt
 
 Date: 2026-06-22
+
+## 0. Supersession for the lower-bound bypass
+
+This direct attempt is not the active lower-bound-per-scale route.
+
+Annular share is the right theorem for strict descent.  The lower-bound bypass
+uses a different mechanism: every retained child core with non-removable
+critical density is itself a retained material heat-scale packet.  The
+lossless-rigidity lower-bound theorem charges that packet directly to
+\(A_{4B}\).  Therefore a nested no-share chain is still counted one microscope
+at a time; it does not need to be converted into an annular share first.
+
+So the reduction below is retained only for the strict-descent route and for
+the separate question of identifying a critical-density atom with the terminal
+time/storage overlap.  It is not a live obstruction to the preterminal
+material-packet lower-bound bypass.
 
 ## 0. Target
 
