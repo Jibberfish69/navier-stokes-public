@@ -298,6 +298,34 @@ or a stronger same-packet substitute such as
 or a Hardy/Orlicz/\(L_s^q\), \(q>1\), endpoint-uniform-integrability bound for
 the overlap density.
 
+The annular later-on carrier gives the same no-jump mechanism in physical
+packet language.  If the storage partner \(M_\sigma\) is the material annular
+energy storage of the same spike event, then the exact material identity gives
+
+```math
+\left[-\partial_\sigma M_\sigma\right]_+
+\le
+D_A(\sigma)+|W_A(\sigma)|
++r_{\rm stor}(\sigma),
+\tag{OLO.24a}
+```
+
+where \(D_A\) is annular strain dissipation, \(W_A\) is annular stress work,
+and \(r_{\rm stor}\) is a same-carrier selector/storage error.  Thus
+
+```math
+\int_{-\theta}^{0}
+\min\{[n_m(s)]_+,[-\partial_sM_m(s)]_+\}\,ds
+\le
+\int_{-\theta}^{0}
+\left(D_{A,m}(s)+|W_{A,m}(s)|+r_{{\rm stor},m}(s)\right)\,ds .
+\tag{OLO.24b}
+```
+
+On a positive-thickness smooth outer annulus, the right side has ordinary
+terminal absolute continuity.  This is the same terminal no-jump theorem stated
+without detaching the center pulse from the annular stress/strain carrier.
+
 ## 5. Result
 
 Combining `(OLO.11)` through `(OLO.20)` gives
