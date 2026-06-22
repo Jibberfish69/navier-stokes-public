@@ -4137,3 +4137,73 @@ Thus the remaining exact endpoint UI failure fork is:
 }
 \tag{4BF.193}
 ```
+
+The endpoint reorientation makes one more burden correction possible.  Full
+analytic/Gevrey tower radius survival is stronger than the endpoint theorem
+needs.  The endpoint density is finite-order.  Let
+
+```math
+\mathcal J_K
+=
+\{
+\partial_y^\alpha U_m,\,
+\partial_y^\alpha Q_m^{loc},\,
+Q_m^H-\Pi_{aff}Q_m^H
+\ :\ |\alpha|\le K
+\}
+\tag{4BF.194}
+```
+
+be the finite jet set that actually forms the endpoint field density.  The
+needed theorem is only
+
+```math
+\boxed{
+\sup_m
+\|\mathcal J_K\|_{L_s^\infty H_y^\sigma}
++\sup_m
+\|\partial_s\mathcal J_K\|_{L_s^1H_y^\sigma}
+<\infty,
+\qquad
+\sigma>{3\over2}.
+}
+\tag{4BF.195}
+```
+
+Then the chain rule gives
+
+```math
+\boxed{
+\sup_m
+\|\rho_m^{field}\|_{W_s^{1,1}(-1,0)}
+<\infty,
+}
+\tag{4BF.196}
+```
+
+and hence
+
+```math
+\boxed{
+\int_{-\theta}^{0}\rho_m^{field}(s)\,ds
+\le C\theta.
+}
+\tag{4BF.197}
+```
+
+So high-rung-only analytic-radius collapse is not a gold endpoint obstruction
+unless it breaks the finite endpoint jet modulus `(4BF.195)`.  The smaller live
+producer is now:
+
+```math
+\boxed{
+\texttt{FiniteEndpointJetTemporalModulus.A}
++\texttt{EndpointResidueDensityPolicy.A}
+\Longrightarrow
+\texttt{EndpointUniformIntegrabilityReserve.A}.
+}
+\tag{4BF.198}
+```
+
+Full `CoupledMixedTowerRadiusLowerBound.A` remains a sufficient supplier, but
+it is no longer the minimal endpoint UI target.
