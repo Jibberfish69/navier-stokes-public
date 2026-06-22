@@ -229,3 +229,68 @@ So the audited status is:
 }
 \tag{PNE.17}
 ```
+
+## 6. Update after the preterminal lower-bound bypass
+
+The retained branch is now stronger than `(PNE.10)` alone.  On a retained
+bounded material frame/gauge branch, moving-cylinder CKN visibility gives
+non-removable gauge-fixed critical packets.  The lossless Body II/III rigidity
+then proves the lower-bound admission
+
+```math
+\mathcal C^\perp(P_j)\ge\varepsilon_0
+\Longrightarrow
+\int_{P_j}A_{4B}\ge c(\varepsilon_0).
+\tag{PNE.18}
+```
+
+Separated log-scale packet counting gives
+
+```math
+\sum_j c(\varepsilon_0)
+\le
+K\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma
+<\infty,
+\tag{PNE.19}
+```
+
+so infinitely many retained endpoint singular packets are impossible.
+
+This correction also demotes the annular-share detour for this branch.
+Annular share is the strict-descent theorem.  The lower-bound-per-scale route
+does not need strict descent: if the non-removable critical mass nests into a
+child core, that child core is itself the next retained material packet and is
+charged by `(PNE.18)`.
+
+Thus the current exact fork is:
+
+```math
+\boxed{
+\begin{array}{ll}
+\text{terminal same-packet record retained}
+&\Rightarrow
+\text{preterminal material critical packets enter }A_{4B}
+\Rightarrow\text{contradiction},\\[2mm]
+\text{terminal same-packet record lost}
+&\Rightarrow
+Pack_Q+\neg Part_{N,Q}.
+\end{array}
+}
+\tag{PNE.20}
+```
+
+Therefore the remaining pure forward-positive gold theorem is even more
+precise than `(PNE.3)`:
+
+```math
+\boxed{
+OriginalSmoothData
+\Longrightarrow
+\text{no loss of the terminal same-packet participation record.}
+}
+\tag{PNE.21}
+```
+
+The current inputs still do not prove `(PNE.21)`.  Without it, the noncircular
+route is pass-or-CM-consumption: retained record gives contradiction, lost
+record is the Part face.
