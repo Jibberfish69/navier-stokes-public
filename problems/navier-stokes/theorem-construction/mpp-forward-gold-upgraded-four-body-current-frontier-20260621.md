@@ -4384,3 +4384,104 @@ The live gold route is therefore:
 }
 \tag{4BF.211}
 ```
+
+## 34. Endpoint \(L^p\) upgrade from component seeds
+
+The recombination step for `EndpointLpUpgradeFromFullNSPacket.A` is now closed.
+After gauge fixing and residue absorption, write
+
+```math
+\rho_m(s)
+=
+[H_m^{jet}(s)+H_m^H(s)]_+
++\sum_{j\in\mathcal R}\lambda_{j,m}(s),
+\qquad
+\mathcal R=\{legal,sel,sgn,term,geom\}.
+\tag{4BF.212}
+```
+
+Assume component seeds:
+
+```math
+\sup_m\|[H_m^{jet}]_+\|_{L_s^{p_{jet}}}<\infty,
+\qquad
+\sup_m\|[H_m^H]_+\|_{L_s^{p_H}}<\infty,
+\qquad
+\sup_m\|\lambda_{j,m}\|_{L_s^{p_j}}<\infty,
+\tag{4BF.213}
+```
+
+with all exponents \(>1\).  Set
+
+```math
+p_\ast
+=
+\min\{p_{jet},p_H,p_j:j\in\mathcal R\}>1.
+\tag{4BF.214}
+```
+
+The scalar inequality
+
+```math
+[a+b]_+\le [a]_+ + [b]_+
+\tag{4BF.215}
+```
+
+gives
+
+```math
+\rho_m(s)
+\le
+[H_m^{jet}(s)]_+
++[H_m^H(s)]_+
++\sum_{j\in\mathcal R}\lambda_{j,m}(s).
+\tag{4BF.216}
+```
+
+Since the interval has finite length, every \(L^{p_i}\) component bound gives
+an \(L^{p_\ast}\) bound.  Minkowski gives
+
+```math
+\boxed{
+\sup_m\|\rho_m\|_{L_s^{p_\ast}(-1,0)}<\infty.
+}
+\tag{4BF.217}
+```
+
+Holder then yields
+
+```math
+\boxed{
+\mu_m((-\theta,0])
+\le
+C\theta^{1-1/p_\ast}.
+}
+\tag{4BF.218}
+```
+
+Thus:
+
+```math
+\boxed{
+\text{component super-}L^1\text{ seeds}
+\Longrightarrow
+\texttt{EndpointLpUpgradeFromFullNSPacket.A}
+\Longrightarrow
+\texttt{EndpointUniformIntegrabilityReserve.A}.
+}
+\tag{4BF.219}
+```
+
+This removes the algebraic recombination bridge from the open list.  The
+remaining production burden is exactly the component seed trio:
+
+```math
+\boxed{
+\texttt{EndpointTraceTemporalTowerRegularity.A}
++\texttt{AnnularPressureReverseHolder.A}
++\texttt{EndpointResidueDensityPolicy.A}
+}
+\tag{4BF.220}
+```
+
+on the same retained endpoint packet.
