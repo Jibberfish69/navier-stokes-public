@@ -31,8 +31,7 @@ d\mu_m
 +d\Lambda_{legal,m}
 +d\Lambda_{sel,m}
 +d\Lambda_{sgn,m}\\
-&+
-d\Lambda_{term,m}
+&+d\Lambda_{term,m}
 +d\Lambda_{geom,m}.
 \end{aligned}
 \tag{EUI.1}
