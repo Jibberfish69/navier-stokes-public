@@ -180,13 +180,13 @@ This is an \(L_s^1\) statement.  It does not imply `(ERHC.3)` or `(ERHC.4)`.
 The endpoint pulse `(ERHC.7)` satisfies the same \(L_s^1\) type bound.  Thus
 the local energy identity alone is not a reverse-Holder seed.
 
-## 3. Smooth density pass under stronger normalized bounds
+## 3. Smooth feed density pass under stronger normalized bounds
 
-Define the smooth critical endpoint density
+Define the smooth critical feed density
 
 ```math
 \begin{aligned}
-\rho_m^{smooth}(s)
+\rho_m^{feed}(s)
 :=
 \int_{\operatorname{collar}}
 \left(
@@ -194,8 +194,7 @@ Define the smooth critical endpoint density
 +|Q_m^{loc}|^{3/2}
 +|Q_m^H-\Pi_{aff}Q_m^H|^{3/2}
 +|U_m|^2
-\right)\,dy
-+\nu\int\eta_m^2|\nabla U_m|^2\,dy .
+\right)\,dy .
 \end{aligned}
 \tag{ERHC.12}
 ```
@@ -284,15 +283,15 @@ The lower-order velocity term is bounded in \(L_s^\infty\):
 \tag{ERHC.20}
 ```
 
-Thus the transport, local-pressure, and lower-order smooth density is in
+Thus the transport, local-pressure, and lower-order smooth feed density is in
 \(L_s^{10/9}\) under `(ERHC.14)`.
 
-## 4. Viscous density obstruction
+## 4. Viscous drain placement
 
-The last term in `(ERHC.12)` is
+The viscous term is
 
 ```math
-g_m^\nu(s)
+D_m^\nu(s)
 =
 \nu\int\eta_m^2|\nabla U_m(s,y)|^2\,dy.
 \tag{ERHC.21}
@@ -301,38 +300,34 @@ g_m^\nu(s)
 The bound `(ERHC.14)` gives
 
 ```math
-\int_{-1}^{0}g_m^\nu(s)\,ds\le C,
+\int_{-1}^{0}D_m^\nu(s)\,ds\le C,
 \tag{ERHC.22}
 ```
 
-and no \(L_s^q\) improvement for \(q>1\).
-
-Therefore, if \(g_m^\nu\) is included in \(\rho_m\), the reverse-Holder
-theorem needs one of:
+This is the correct level for a drain.  The endpoint theorem should not ask
+this term for a super-\(L_s^1\) estimate.  It belongs to the coercive side of
+the participation law:
 
 ```math
-\boxed{
-\sup_m\|\nabla U_m\|_{L^{2q}_{s,y}}<\infty
-\quad\text{for some }q>1,
-}
+{d\over ds}E_m(s)+D_m^\nu(s)
+\le
+\rho_m^{feed}(s)+\rho_m^{res}(s).
 \tag{ERHC.23}
 ```
 
-or
+The endpoint density is formed after this visible drain has been kept as
+payment:
 
 ```math
 \boxed{
-g_m^\nu
-\text{ stays on the nonnegative dissipative side and is not counted as an
-endpoint positive trace density.}
+\text{viscous drain is visible payment, not endpoint positive density.}
 }
 \tag{ERHC.24}
 ```
 
-This is the first exact internal break in the corrected direct proof.
-Gauge-fixed normalized energy-pressure gives \(q=10/9\) for the local
-transport/pressure trace, but not for the time marginal of the viscous drain
-when that drain is placed inside \(\rho_m\).
+So the first real producer break is not viscosity.  The remaining positive
+feed still needs the super-\(L_s^1\) upgrade through transport/local pressure,
+harmonic pressure memory, and endpoint residue density/absorption.
 
 ## 5. Harmonic pressure service
 
