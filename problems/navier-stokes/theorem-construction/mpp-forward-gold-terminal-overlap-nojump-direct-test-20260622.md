@@ -868,3 +868,127 @@ Therefore the remaining gold-side bridge is exactly this: the transported
 outer-annulus stress/strain carrier \(C_m\) must either satisfy the uniform
 terminal tail `(TON.58)`, or be admitted into the bounded-overlap \(A_{4B}\)
 counting line `(TON.61)`.  No center-only endpoint reserve remains.
+
+## 12. Admission of the transported carrier into the four-body channels
+
+The carrier \(C_m\) is not an additional account after the four-body loop.  It
+is built from the same pressure-viscosity-incompressibility-velocity packet.
+Using
+
+```math
+T_m=-Q_mI+2\nu S_y(V_m),
+\qquad
+Q_m=Q_m^{loc}+Q_m^H,
+\tag{TON.64}
+```
+
+the stress-work part of `(TON.56)` splits as
+
+```math
+\left|\int V_m\cdot T_m\nabla\phi_m\,dy\right|
+\le
+\left|\int Q_m^H V_m\cdot\nabla\phi_m\,dy\right|
++
+\left|\int Q_m^{loc} V_m\cdot\nabla\phi_m\,dy\right|
++
+2\nu\left|\int V_m\cdot S_y(V_m)\nabla\phi_m\,dy\right|.
+\tag{TON.65}
+```
+
+The viscous collar term has the exact Young bound
+
+```math
+2\nu\left|\int V_m\cdot S_y(V_m)\nabla\phi_m\,dy\right|
+\le
+\nu\int\phi_m|S_y(V_m)|^2\,dy
++
+\nu\int {|V_m|^2|\nabla\phi_m|^2\over \phi_m}\,dy ,
+\tag{TON.66}
+```
+
+with the usual convention that the last integrand is restricted to the collar
+where \(\phi_m>0\).  Therefore
+
+```math
+C_m(s)
+\le
+3\nu\int\phi_m|S_y(V_m)|^2\,dy
++
+\left|\int Q_m^H V_m\cdot\nabla\phi_m\,dy\right|
++
+\left|\int Q_m^{loc} V_m\cdot\nabla\phi_m\,dy\right|
++
+\nu\int {|V_m|^2|\nabla\phi_m|^2\over \phi_m}\,dy .
+\tag{TON.67}
+```
+
+Each term in `(TON.67)` has a fixed four-body channel:
+
+```math
+3\nu\int\phi_m|S_y(V_m)|^2
+\quad\text{is the viscous/strain channel,}
+\tag{TON.68}
+```
+
+```math
+\left|\int Q_m^H V_m\cdot\nabla\phi_m\right|
+\quad\text{is the harmonic pressure-memory collar channel,}
+\tag{TON.69}
+```
+
+```math
+\nu\int {|V_m|^2|\nabla\phi_m|^2\over \phi_m}
+\quad\text{is the transported collar channel,}
+\tag{TON.70}
+```
+
+and
+
+```math
+\left|\int Q_m^{loc}V_m\cdot\nabla\phi_m\right|
+\quad\text{is the local pressure-compatible test channel.}
+\tag{TON.71}
+```
+
+Thus the terminal-specific work is solved down to the already-isolated pressure
+compatibility and collar admission gates.  When `(TON.70)` is included in the
+selector/collar part of the same four-body packet, and `(TON.71)` is admitted by
+pressure-compatible retained tests, `(TON.67)` gives the channel admission
+
+```math
+C_m(s)
+\le
+C\,A_{4B,m}^{ann}(s),
+\tag{TON.72}
+```
+
+where \(A_{4B,m}^{ann}\) denotes the annular part of the already oriented
+same-carrier \(A_{4B}\) activity.
+
+Now let \(I_j=(-\theta_j,0]\) be a retained terminal subsequence whose
+log-scale embeddings have overlap at most \(K\).  Integrating `(TON.72)` and
+summing gives
+
+```math
+\sum_j\int_{I_j}C_{m_j}(s)\,ds
+\le
+C K
+\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma .
+\tag{TON.73}
+```
+
+This is `(TON.61)` with the bounded-overlap constant shown.  Therefore the
+center endpoint pulse can survive only by breaking one of the exact admission
+gates:
+
+```math
+\text{transported collar admission,}
+\qquad
+\text{local pressure-compatible retained tests,}
+\qquad
+\text{bounded-overlap same-carrier selection.}
+\tag{TON.74}
+```
+
+Those are no longer center-only endpoint mysteries.  They are ordinary
+same-carrier four-body admission failures.
