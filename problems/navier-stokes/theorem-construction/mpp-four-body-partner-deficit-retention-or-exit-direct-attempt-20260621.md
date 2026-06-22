@@ -1,6 +1,6 @@
 ---
 theorem_id: mpp-four-body-partner-deficit-retention-or-exit-direct-attempt-20260621
-status: direct-partner-deficit-theorem-false-retention-alone-does-not-pay
+status: direct-partner-deficit-theorem-false-superseded-by-order-lock-overlap-formula
 logical_landing_node: partner_deficit_retention_or_exit_direct_attempt
 parents:
   - problems/navier-stokes/theorem-construction/mpp-four-body-native-selected-activity-identification-route-20260621.md
@@ -68,6 +68,25 @@ C A_{4B}(\sigma)+R_{\rm legal}(\sigma)
 
 unless the branch exits through pressure-memory, terminal trace,
 donor/saturation, selector/collar, geometry, or Field failure.
+
+This proposal is now sharpened by
+`mpp-forward-gold-full-participation-order-lock-direct-attempt-20260622.md`.
+The minimal gap is not all of \([-b_\sigma]_+\).  It is the same-packet
+cancellation overlap:
+
+```math
+\boxed{
+\Delta_\sigma^{ol}
+=
+\left([n_\sigma]_+-[h_\sigma]_+\right)_+
+=
+\min\{[n_\sigma]_+,[-b_\sigma]_+\}.
+}
+\tag{PDO.4a}
+```
+
+Thus \([-b_\sigma]_+\) remains a sufficient envelope, but it is not the exact
+live object.
 
 ## 1. Direct theorem is false as stated
 
@@ -223,15 +242,15 @@ up to legal error.  This is already installed by the selected full-packet
 production step.
 
 Second, keep channel-first selection but upgrade the four-body selected
-activity to a polar-pair activity:
+activity to an order-lock-overlap activity:
 
 ```math
 \boxed{
-A_{\rm pair}(\sigma)
+A_{\rm ol}(\sigma)
 :=
 \int[h_\sigma]_+
 +
-\int[-b_\sigma]_+.
+\int\min\{[n_\sigma]_+,[-b_\sigma]_+\}.
 }
 \tag{PDO.18}
 ```
@@ -242,7 +261,7 @@ Then the native comparison is an identity-level consequence of `(PDO.3)`:
 \boxed{
 A_{\rm native}(\sigma)
 \le
-A_{\rm pair}(\sigma).
+A_{\rm ol}(\sigma).
 }
 \tag{PDO.19}
 ```
@@ -251,7 +270,7 @@ The real theorem becomes:
 
 ```math
 \boxed{
-\texttt{PartnerPolarFourBodyPayment.A}
+\texttt{OrderLockOverlapFourBodyPayment.A}
 }
 \tag{PDO.20}
 ```
@@ -260,7 +279,7 @@ with statement:
 
 ```math
 \boxed{
-\int_{\sigma_0}^{\infty}A_{\rm pair}(\sigma)\,d\sigma<\infty
+\int_{\sigma_0}^{\infty}A_{\rm ol}(\sigma)\,d\sigma<\infty
 }
 \tag{PDO.21}
 ```
@@ -269,8 +288,17 @@ or a typed Pack/Part/Field exit.
 
 That theorem is genuinely stronger than the already installed full-packet
 production step, because it asks the four-body loop to pay not only the positive
-part of the full scalar \(h_\sigma\), but also the negative partner deficit
-discarded by channel-first native selection.
+part of the full scalar \(h_\sigma\), but also the exact overlap where native
+channel-first positivity is canceled by a same-packet negative partner.
+
+The older polar-pair activity
+
+```math
+\int[h_\sigma]_+ + \int[-b_\sigma]_+
+\tag{PDO.21a}
+```
+
+is a sufficient overpayment, not the minimal theorem.
 
 ## 4. Channel split of the partner deficit
 
@@ -362,13 +390,14 @@ C\,D_Q^w
 or if the polar-pair activity \(A_{\rm pair}\) is itself inserted into the
 four-body cycle and paid by a strict cycle theorem.
 
-Thus the exact remaining analytic clause is:
+Thus the remaining analytic clause should be stated in the sharper overlap
+form:
 
 ```math
 \boxed{
 \texttt{PressurePartnerCompatibility.A}
 \quad\text{or}\quad
-\texttt{PartnerPolarFourBodyPayment.A}.
+\texttt{OrderLockOverlapFourBodyPayment.A}.
 }
 \tag{PDO.29}
 ```
@@ -397,7 +426,7 @@ The correct statement is:
 \le
 \text{order-locked full-packet activity}
 +
-\text{retained partner-deficit activity}.
+\text{retained order-lock-overlap activity}.
 }
 \tag{PDO.31}
 ```
@@ -424,7 +453,7 @@ or:
 
 ```math
 \boxed{
-\texttt{PartnerPolarFourBodyPayment.A}
+\texttt{OrderLockOverlapFourBodyPayment.A}
 }
 \tag{PDO.34}
 ```
