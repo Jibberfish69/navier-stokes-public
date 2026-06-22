@@ -132,17 +132,18 @@ Otherwise the realized daughter has positive four-body carried activity:
 A_{4B}^{daughter}>0.
 ```
 
-The closed four-body loop applies to this daughter packet. Hence either the daughter residue is paid by
+The closed four-body loop applies to this daughter packet. Hence the daughter
+residue is admitted into the daughter four-body package:
 
 ```math
-C A_{4B}^{daughter}+R_{legal}^{daughter},
+A_{4B}^{daughter},
 ```
 
 or the daughter is a zero-loss full packet. In the zero-loss branch, the installed full-packet rigidity gives a Galilean/affine-pressure gauge packet, and the selected full-packet activity vanishes. This contradicts \(A_{4B}^{daughter}>0\).
 
-Thus positive-thickness endpoint residue is paid by the four-body activity or
-by already-declared legal loss, unless daughter realization itself fails and
-therefore gives the Field exit.
+Thus positive-thickness endpoint residue is admitted into the four-body
+activity package, whose legal/collar/tail channels are internal, unless daughter
+realization itself fails and therefore gives the Field exit.
 
 ### Case 2: pure endpoint atom
 
@@ -169,7 +170,7 @@ Therefore
 ```math
 \boxed{
 [-\partial_\sigma M_\sigma]_+
-\le C A_{4B}+R_{legal}
+\leadsto A_{4B}
 }
 ```
 
@@ -216,6 +217,10 @@ as long as every unpaid transfer is rank-decreasing or paid by a retained partne
 
 This pays the finite-rank donor residue.
 
+In this local donor display, \(R_{legal}\) is the same legal-exit channel that
+belongs to the four-body package.  It is not an account appended after
+\(A_{4B}\).
+
 The only remaining donor obstruction is an infinite zero-descent chain. Since the retained donor graph is finite after stabilization, an infinite chain contains a directed zero-rank cycle. A zero-rank donor cycle has no retained signed partner, no rank descent, and no legal exit. That is exactly failure of same-solution participation retention for the selected native source channel.
 
 The CM landing is
@@ -229,7 +234,7 @@ Therefore
 ```math
 \boxed{
 \mathcal Z_{\rm donor}
-\le C A_{4B}+R_{legal}
+\leadsto A_{4B}
 }
 ```
 
@@ -242,7 +247,7 @@ Adding the two branch lemmas gives
 ```math
 \boxed{
 [-\partial_\sigma M_\sigma]_+ + \mathcal Z_{\rm donor}
-\le C A_{4B}+R_{legal}
+\leadsto A_{4B}
 }
 ```
 
