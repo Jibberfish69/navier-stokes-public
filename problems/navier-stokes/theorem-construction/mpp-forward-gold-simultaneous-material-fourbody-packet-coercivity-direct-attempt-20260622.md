@@ -17,6 +17,7 @@ edge_effect: >-
   lower-bounded full-packet symmetrizer.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-law-bearing-full-tower-four-inequality-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-fourbody-symmetrizer-construction-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-tower-signed-total-exchange-retention-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-compactness-rigidity-coercivity-principle-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-selected-full-packet-production-step-20260621.md
@@ -319,3 +320,16 @@ This envelops the older reduction names
 This is not a different route.  It is the one-fluid material participation law
 with the four simultaneous coordinates held together by the cross-term
 symmetrizer.
+
+The direct construction audit sharpened `(SMC.23)`.  The \(X\)-terms cannot be
+implemented as cumulative primitives of signed current mismatches, because that
+would make lower boundedness of \(\mathfrak L_{4B,N}\) equivalent to the
+unproved no-free cumulative exchange statement.  They must be bounded-below
+instantaneous packet cross-terms.
+
+The same audit also forces a correction on the \(C_N\)-coordinate.  \(S_N\),
+\(Q_N\), and \(G_N\) are differentiated coordinates of the material PDE, but an
+after-the-limit compactness theorem cannot supply \(dL_C\), \(dX_{QC}\), or
+\(dX_{CG}\).  For `(SMC.5)` to be a genuine simultaneous identity, \(C_N\) must
+be realized preterminally as a same-packet no-loss defect coordinate with
+BV/AC evolution.
