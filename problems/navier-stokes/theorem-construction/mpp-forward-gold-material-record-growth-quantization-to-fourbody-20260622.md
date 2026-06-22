@@ -1,18 +1,20 @@
 ---
 theorem_id: forward-gold-material-record-growth-quantization-to-fourbody-20260622
-status: record-growth-quantization-proved-growth-channel-identity-remains-the-exact-admission-theorem
+status: record-growth-quantization-proved-simultaneous-material-fourbody-balance-remains
 logical_landing_node: material_record_growth_quantization_to_fourbody
 edge_effect: >-
   Develops the record-loss route without treating channel names as proof. The
   exact proved part is record-growth quantization: if the same-material record
   becomes unbounded, positive logarithmic variation has infinitely many fixed
-  quanta. The remaining exact admission theorem is
-  MaterialRecordLogGrowthChannelIdentity.A: differentiate the same material
-  record, derive the positive logarithmic growth measures from the material
-  PDE, and then admit those derived measures into the already-controlled
-  tower-level annular four-body packet. If that identity holds, record loss is a
-  four-body event; if it fails, the selected branch has lost the material packet
-  record and lands in the Part face rather than remaining a hidden center pulse.
+  quanta. The correction is that the four bodies are not separate suppliers.
+  They are four simultaneous coordinates of one transported material
+  participation packet. The remaining exact theorem is
+  SimultaneousMaterialFourBodyPacketBalance.A: differentiate the same material
+  packet and prove that the positive growth of its full four-coordinate record
+  is already measured by the same oriented four-body activity \(A_{4B,N}\).
+  If that balance holds, record loss is a four-body event; if it fails, the
+  selected branch has lost the material packet record and lands in the Part face
+  rather than remaining a hidden center pulse.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-material-annular-return-record-noexit-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-participation-material-tower-noexit-direct-attempt-20260622.md
@@ -50,7 +52,9 @@ The route here is:
 ```
 
 This keeps the record loss inside the pressure-viscosity-incompressibility-
-velocity packet.  It is not a new scalar reserve after the four-body loop.
+velocity packet.  It is not a new scalar reserve after the four-body loop and
+not a payment by one body to another.  The four bodies are four readings of one
+same-fluid packet.
 
 ## 1. Exact doubling selection
 
@@ -212,167 +216,129 @@ record in same-packet pieces:
 \tag{RGQ.13a}
 ```
 
-The first required line is the material-record growth identity
+The same transported packet also carries the four simultaneous coordinates
+
+```math
+\mathcal P_{4B,N}^{mat}
+=
+\left(S_N,Q_N,C_N,G_N\right).
+\tag{RGQ.13b}
+```
+
+Here \(S_N\) is the scale/tower-radius reading, \(Q_N\) is the
+pressure-viscosity-incompressibility participation reading, \(C_N\) is the
+same-object compactness/no-loss reading, and \(G_N\) is the
+geometry/strain/material-frame reading.  These are not four suppliers.  They
+are four coordinates of `(RGQ.11)`.
+
+The selected four-body activity must therefore be the activity of the whole
+simultaneous packet:
+
+```math
+A_{4B,N}
+=
+A_N^{scale/tower}
++A_N^{participation}
++A_N^{compactness/no-loss}
++A_N^{geometry/strain}.
+\tag{RGQ.13c}
+```
+
+This is the object controlled by the oriented four-body cancellation.  It is
+not lower-order annular stress alone, not a new ledger, and not a post-hoc
+enlargement of \(A_{4B}\).
+
+The exact remaining theorem is the simultaneous packet balance:
+
+```math
+\boxed{
+\texttt{SimultaneousMaterialFourBodyPacketBalance.A}
+}
+\tag{RGQ.13d}
+```
+
+Its statement is that differentiating the one material participation packet
+gives four projected balance lines
+
+```math
+dL_S+dD_S+dJ_{SQ}
+\le
+dJ_{GS}+dR_S,
+\tag{RGQ.14}
+```
+
+```math
+dL_Q+dD_Q+c\,dA_{4B,N}+dJ_{QC}
+\le
+dJ_{SQ}+dR_Q,
+\tag{RGQ.15}
+```
+
+```math
+dL_C+dD_C+dJ_{CG}
+\le
+dJ_{QC}+dR_C,
+\tag{RGQ.16}
+```
+
+and
+
+```math
+dL_G+dD_G+dJ_{GS}
+\le
+dJ_{CG}+dR_G.
+\tag{RGQ.17}
+```
+
+These four lines are projections of the same differentiated material
+participation law, not independent estimates pasted together.
+
+The positive logarithmic growth of the full material record is controlled by
+the same simultaneous packet:
 
 ```math
 d\left[\log(1+\mathfrak P_N^{mat})\right]^+
 \le
 C\left(
-d\mathcal A^{metric}
-+d\mathcal A^{coeff}
-+d\mathcal A^{vel}
-+d\mathcal A^{press}
-+d\mathcal A^{visc}
-+d\mathcal A^{collar}
-+d\mathcal A^{exchange}
+dD_S+dD_Q+dD_C+dD_G
++dA_{4B,N}
++dR_{4B}
 \right).
-\tag{RGQ.13b}
-```
-
-Each \(\mathcal A^\kappa\) must be produced by differentiating one component of
-the same material record.  The base metric term comes from
-\(\partial_s(F^\top F)=2F^\top SF\).  The coefficient terms come from
-\(\partial_sA=-A\nabla V\) and \(G=AA^\top\).  The velocity and pressure tower
-terms come from `(RGQ.12)`--`(RGQ.13)`.  The collar term uses transported
-cutoffs, so the materiality defect vanishes and the remaining collar growth is
-transported collar geometry.
-
-Only after `(RGQ.13b)` is derived may the same measures be admitted into the
-already-controlled annular four-body packet.  This is not a definition of a new
-activity.  It is the admission theorem that the growth measures just derived
-from the one material record are the same tower-level Body-IV/Body-I exchange
-measures already present in the oriented loop:
-
-```math
-d\mathcal A^{metric}
-+d\mathcal A^{coeff}
-+d\mathcal A^{vel}
-+d\mathcal A^{press}
-+d\mathcal A^{visc}
-+d\mathcal A^{collar}
-+d\mathcal A^{exchange}
-\le
-C\,dA_{4B,N}^{ann}.
-\tag{RGQ.13c}
-```
-
-Here \(dA_{4B,N}^{ann}\) denotes the \(N\)-tower annular slice of the existing
-same-carrier four-body packet.  It is not created in this note; it must be the
-same packet controlled by the cancellation loop.
-
-Equivalently, in the Body-IV return notation, the same admission can be written
-
-```math
-d\mathcal A^{metric}
-+d\mathcal A^{coeff}
-+d\mathcal A^{vel}
-+d\mathcal A^{press}
-+d\mathcal A^{visc}
-+d\mathcal A^{collar}
-+d\mathcal A^{exchange}
-\le
-C\,dD_{G,N}.
-\tag{RGQ.13d}
-```
-
-The resulting admission theorem is
-
-```math
-d\left[\log(1+\mathfrak P_N^{mat})\right]^+
-\le
-C\,dA_{4B,N}^{ann}
-\tag{RGQ.14}
-```
-
-or, through the Body-IV drain channel,
-
-```math
-d\left[\log(1+\mathfrak P_N^{mat})\right]^+
-\le
-C\,dD_{G,N}.
-\tag{RGQ.14a}
-```
-
-The existing Body-IV notation is shorthand for this second step:
-
-```math
-G_{4B}\to S_{4B}.
-\tag{RGQ.15}
-```
-
-The \(K\)-defects \(dK_{\rm ell}^+,dK_{\rm coef}^+,dK_{\rm comm}^+,
-dK_{\rm transport}^+,dK_G^+\) are admissible only after they have been shown
-to be the same derived measures in `(RGQ.13b)`.  A channel label by itself does
-not prove `(RGQ.14)`.
-
-## 4. Admission into the four-body payment
-
-The current four-body return note defines the Body-IV payment measure
-
-```math
-dD_G
-:=
-\|\nabla V_\sigma\|_{L^2(Q_1)}^2\,d\sigma
-+dK_{\rm ell}^+
-+dK_{\rm coef}^+
-+dK_{\rm comm}^+
-+dK_{\rm transport}^+
-+dK_G^+ .
-\tag{RGQ.16}
-```
-
-For a fixed tower height \(N\), write \(dD_{G,N}\) for the corresponding
-metric/coefficient/commutator/transport/geometry component of this same
-Body-IV payment.  This is a submeasure of the already-controlled four-body
-drain, not a new account:
-
-```math
-dD_{G,N}\le C_N\,dD_G.
-\tag{RGQ.16a}
-```
-
-Thus `MaterialRecordLogGrowthChannelIdentity.A`, namely `(RGQ.13b)` plus the
-same-carrier admission `(RGQ.13c)`--`(RGQ.13d)`, gives
-
-```math
-d\left[\log(1+\mathfrak P_N^{mat})\right]^+
-\le
-C\,dD_{G,N}.
-\tag{RGQ.17}
-```
-
-The cyclic four-body inequality gives the finite same-carrier payment
-
-```math
-\int_{\sigma_0}^{\infty}
-\left(
-D_{4B}(\sigma)+A_{4B}(\sigma)
-\right)\,d\sigma
-<\infty
 \tag{RGQ.18}
 ```
 
-after the legal/tail terms are enveloped in the four-body package.  Since
-\(D_{G,N}\) is controlled by the Body-IV component \(D_G\) of \(D_{4B}\),
-record growth on the retained carrier has finite total mass.
-
-Combining `(RGQ.5)` and `(RGQ.17)`--`(RGQ.18)`, infinitely many retained
-doublings would force
+Summing `(RGQ.14)`--`(RGQ.17)` cancels the internal exchange currents
 
 ```math
-\sum_j\log{3\over2}
-\le
-C\sum_j\int_{I_j}dD_{G,N}
-\le
-C_N\sum_j\int_{I_j}dD_G
-\le
-C\int_{\sigma_0}^{\infty}
-\left(D_{4B}+A_{4B}\right)\,d\sigma
-<\infty ,
+dJ_{SQ},\quad dJ_{QC},\quad dJ_{CG},\quad dJ_{GS},
 \tag{RGQ.19}
 ```
 
-which is impossible.
+and gives the one-packet inequality
+
+```math
+dL_{4B}
++dD_S+dD_Q+dD_C+dD_G
++c\,dA_{4B,N}
+\le
+dR_{4B}.
+\tag{RGQ.20}
+```
+
+After the already-enveloped legal/tail terms are included in \(dR_{4B}\), this
+is the unweighted four-body control for the same transported packet:
+
+```math
+\int_{\sigma_0}^{\infty}dA_{4B,N}<\infty,
+\qquad
+\int_{\sigma_0}^{\infty}(dD_S+dD_Q+dD_C+dD_G)<\infty.
+\tag{RGQ.21}
+```
+
+Combining `(RGQ.5)`, `(RGQ.18)`, and `(RGQ.21)`, infinitely many retained
+doublings would force infinitely many positive quanta of the same
+four-coordinate packet activity, contradicting the finite simultaneous
+four-body control.
 
 Therefore:
 
@@ -382,22 +348,21 @@ Therefore:
 \quad
 \sup_{s<0}\mathfrak P_N^{mat}(s)<\infty .
 }
-\tag{RGQ.20}
+\tag{RGQ.22}
 ```
 
 ## 5. Exact boundary
 
-The exact remaining theorem is `(RGQ.13b)` plus `(RGQ.13c)`.  Failure of that
-theorem is not a hidden center endpoint pulse.  It means the positive
-logarithmic growth of the material record was not represented by the same
-derived Body-IV/Body-I exchange measures.  Equivalently, the selected branch
-has lost the same-material packet record itself.
+The exact remaining theorem is `SimultaneousMaterialFourBodyPacketBalance.A`.
+Failure of that theorem is not a hidden center endpoint pulse.  It means the
+one transported material packet did not retain the simultaneous
+\((S_N,Q_N,C_N,G_N)\) participation record.
 
 In the current proof grammar this is the Part-side failure:
 
 ```math
 Pack_Q+\neg Part_{N,Q}.
-\tag{RGQ.21}
+\tag{RGQ.23}
 ```
 
 So the record-loss route sharpens the frontier:
@@ -405,16 +370,17 @@ So the record-loss route sharpens the frontier:
 ```math
 \boxed{
 \begin{array}{ll}
-\text{record growth derived and identified with Body-IV defects}
+\text{simultaneous four-coordinate packet balance holds}
 &\Longrightarrow
-\text{finite four-body payment forbids terminal record loss},\\[1mm]
-\text{record growth not so identified}
+\text{finite four-body activity forbids terminal record loss},\\[1mm]
+\text{simultaneous four-coordinate packet balance fails}
 &\Longrightarrow
 \text{loss of same-material participation record}.
 \end{array}
 }
-\tag{RGQ.22}
+\tag{RGQ.24}
 ```
 
-This is exactly the intended use of the four-body loop: record loss itself is a
-four-body event when the same-material carrier is retained.
+This is exactly the intended use of the four-body loop: record loss itself is
+growth of the one same-fluid four-coordinate packet, and the loop controls that
+packet by its internal cancellation.
