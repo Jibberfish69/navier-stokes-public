@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-positive-vorticity-stretching-saturation-direct-attempt-20260622
-status: direct-attempt-reduces-to-same-packet-sign-saturation-or-absolute-stretching-reserve
+status: direct-attempt-sharpened-to-total-exchange-retained-branch-solved
 logical_landing_node: positive_vorticity_stretching_saturation
 edge_effect: >-
   Attacks the remaining positive-part gap after the signed enstrophy ledger.
@@ -11,14 +11,17 @@ edge_effect: >-
   routed to legal/collar loss, or an absolute stretching reserve is proved.
   Local divergence-free jets can realize positive and negative stretching in
   separated lobes while the signed integral cancels, so the saturation theorem
-  is not a pointwise algebraic consequence of incompressibility. The live
-  forward-gold clause is same-packet sign saturation/no-waste for the stretching
-  carrier, order-locked to the full pressure-viscosity-incompressibility-velocity
-  packet.
+  is not a pointwise algebraic consequence of incompressibility. The corrected
+  carrier is total same-packet strain-vorticity exchange
+  int phi |omega dot S omega|. On a retained total-exchange material packet,
+  the selected positive carrier is admitted into A_4B by [f]_+ <= |f|. The
+  remaining boundary is loss of that total strain-vorticity exchange record,
+  not a hidden signed-cancellation residue.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-vorticity-stretching-signed-enstrophy-ledger-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-carrier-curl-source-transport-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-stretching-atom-to-finite-rung-field-face-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-vorticity-stretching-total-exchange-admission-20260622.md
 ---
 
 # Positive Vorticity Stretching Saturation Direct Attempt
@@ -183,7 +186,7 @@ admission.  That is a consumer/readout, not a forward-gold production theorem.
 
 ## 4. Exact result
 
-The direct positive-part saturation attempt gives:
+The direct positive-part saturation attempt first gives:
 
 ```math
 \boxed{
@@ -221,3 +224,36 @@ Equivalently, prove an absolute same-packet reserve:
 
 Current installed inputs give exact readouts and CM consumers for this carrier,
 but not the pure forward-gold saturation/reserve.
+
+The total-exchange correction supplies the retained-branch saturation.  Define
+
+```math
+X_{\omega S}^{tot}(I)
+:=
+\int_I\int\phi|\omega\cdot S\omega|\,dy\,ds .
+\tag{PVS.16}
+```
+
+Then
+
+```math
+\boxed{
+\int_I\int\phi[\omega\cdot S\omega]_+\,dy\,ds
+\le
+X_{\omega S}^{tot}(I).
+}
+\tag{PVS.17}
+```
+
+So on any retained material packet where
+
+```math
+X_{\omega S}^{tot}(I)
+\le
+C\int_I A_{4B}(\sigma)\,d\sigma,
+\tag{PVS.18}
+```
+
+the positive stretching carrier is admitted into the four-body count.  The
+remaining pure-gold no-exit clause is retention of the total
+strain-vorticity exchange record itself.
