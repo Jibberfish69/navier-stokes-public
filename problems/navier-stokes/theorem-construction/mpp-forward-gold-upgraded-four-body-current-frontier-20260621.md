@@ -50,9 +50,12 @@ latest_update: >-
   channel-first native positive source remains positive.  Thus the channel-first
   transfer now needs either order-locking or an order-lock-overlap four-body
   payment that counts the exact cancellation overlap
-  \(\min\{[n_\sigma]_+,[-b_\sigma]_+\}\).  The older polar-pair payment of
-  all \([-b_\sigma]_+\) is only a sufficient overpayment.  The overlap-payment
-  direct attempt uses that overpayment route to pay the pressure partner for
+  \(\min\{[n_\sigma]_+,[-b_\sigma]_+\}\).  This overlap also admits a
+  same-packet channel split
+  \(\Delta_{\rm ol}\le\sum_\kappa\int\min\{[n_\sigma]_+,[-b_\sigma^\kappa]_+\}\).
+  The older polar-pair payment of all \([-b_\sigma]_+\) is only a sufficient
+  overpayment.  The overlap-payment direct attempt uses the sharper channel
+  overlap split, or the overpayment route, to pay the pressure partner for
   pressure-compatible finite tower tests, pays the viscous partner by normalized
   viscous/tower loss, routes finite signed-saturation plus selector/legal/geometry
   partners, and leaves exactly the time/storage/terminal-Zeno producer already isolated as
@@ -2958,10 +2961,11 @@ The remaining positive theorem is:
 \tag{4BF.116}
 ```
 
-The direct overlap-payment attempt proves this by the stronger overpayment
-route that pays \([-b_\sigma]_+\).  It reduces the sufficient overpayment
-theorem to pressure-compatible finite tower tests plus the same terminal
-modulus already isolated in the four-body trace work:
+The direct overlap-payment attempt proves this either through the sharper
+channel-overlap split or by the stronger overpayment route that pays
+\([-b_\sigma]_+\).  The sufficient overpayment theorem reduces to
+pressure-compatible finite tower tests plus the same terminal modulus already
+isolated in the four-body trace work:
 
 ```math
 \boxed{
