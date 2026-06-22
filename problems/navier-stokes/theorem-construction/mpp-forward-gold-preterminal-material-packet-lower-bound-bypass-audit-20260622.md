@@ -1,15 +1,15 @@
 ---
 theorem_id: forward-gold-preterminal-material-packet-lower-bound-bypass-audit-20260622
-status: direct-audit-complete-bypass-reduces-to-same-material-annulus-a4b-lower-bound-not-installed
+status: direct-audit-complete-bypass-reduces-to-same-material-packet-a4b-lower-bound
 logical_landing_node: preterminal_material_packet_lower_bound_bypass
 edge_effect: >-
   Audits the noncircular bypass around terminal same-packet record survival.
   The bypass is exact once finite-time singularity supplies infinitely many
-  preterminal retained material-annulus packets with a fixed lower bound in
+  preterminal retained material heat-scale packets with a fixed lower bound in
   the same A_4B participation activity. Current CKN and critical-density
   surfaces supply visibility/readout only; they do not yet convert the
   singular critical lower bound into same-carrier pressure-viscosity-
-  incompressibility-velocity participation on the transported annular packet.
+  incompressibility-velocity participation on the transported material packet.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-same-packet-part-noexit-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-overlap-nojump-direct-test-20260622.md
@@ -30,7 +30,7 @@ theorem-sized as a pure gold supplier.
 
 There is one possible noncircular bypass.  Instead of proving the terminal
 record survives first, prove that a finite-time singularity already produces
-infinitely many preterminal material annular packets carrying a fixed positive
+infinitely many preterminal material heat-scale packets carrying a fixed positive
 amount of the same four-body participation activity:
 
 ```math
@@ -39,13 +39,13 @@ amount of the same four-body participation activity:
 ```
 
 Here \(J_j\) is the log-scale interval of the retained transported material
-annulus.  The packet is not a CKN proxy, not a scalar endpoint trace, and not a
+packet.  The packet is not a CKN proxy, not a scalar endpoint trace, and not a
 viscosity-only drain.  It is the same order-locked participation packet already
 used by the four-body loop.
 
 ## 1. Exact bypass once the lower bound is supplied
 
-Assume there are infinitely many retained preterminal material annular packets
+Assume there are infinitely many retained preterminal material heat-scale packets
 \(P_j\) with log-scale intervals \(J_j\), fixed-atlas bounded multiplicity
 
 ```math
@@ -139,7 +139,7 @@ The exact bridge needed for the bypass is:
 \tag{PML.9}
 ```
 
-on a retained transported material annulus belonging to the same fluid event,
+on a retained transported material packet belonging to the same fluid event,
 with the pressure-viscosity-incompressibility-velocity tuple kept together.
 
 This bridge has two inseparable clauses:
@@ -147,7 +147,7 @@ This bridge has two inseparable clauses:
 ```math
 \text{endpoint critical visibility}
 \Longrightarrow
-\text{preterminal retained material annular packet},
+\text{preterminal retained material heat-scale packet},
 \tag{PML.10}
 ```
 
@@ -224,7 +224,7 @@ The preterminal bypass option is:
 ```math
 \text{finite-time singularity}
 \Longrightarrow
-\text{infinitely many retained preterminal material annular packets satisfying `(PML.1)`.}
+\text{infinitely many retained preterminal material heat-scale packets satisfying `(PML.1)`.}
 \tag{PML.16}
 ```
 
@@ -244,7 +244,7 @@ with content:
 \boxed{
 \text{singular heat-scale critical visibility}
 \Longrightarrow
-\text{fixed lower bound in the same material-annulus }A_{4B}\text{ packet}.
+\text{fixed lower bound in the same material }A_{4B}\text{ packet}.
 }
 \tag{PML.18}
 ```
@@ -252,7 +252,7 @@ with content:
 Until `(PML.17)` is proved, CKN, critical strain, and critical-density estimates
 remain diagnostics or sufficient-but-uninstalled suppliers.  They are not the
 route unless they preserve and lower-bound the full coupled participation
-packet on the same material annulus.
+packet on the same material heat-scale carrier.
 
 ## Verdict
 
@@ -273,7 +273,7 @@ The missing proof is exactly the lower-bound admission:
 \boxed{
 \text{CKN/critical visibility}
 \Longrightarrow
-\text{same material-annulus }A_{4B}\text{ lower bound}.
+\text{same material-packet }A_{4B}\text{ lower bound}.
 }
 \tag{PML.20}
 ```
