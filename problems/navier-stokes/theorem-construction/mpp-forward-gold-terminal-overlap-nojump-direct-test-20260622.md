@@ -1186,3 +1186,101 @@ already gives \(\int A_{4B}<\infty\).
 So the bounded-overlap gate has only one remaining content: produce the
 same-carrier log-scale embedding `(TON.84)` with finite multiplicity `(TON.83)`.
 It is not being used as a standalone energy upgrade.
+
+## 15. Fixed transported annular atlas gives the finite multiplicity
+
+The finite multiplicity part of `(TON.83)` is not another analytic reserve.  It
+is a geometric consequence of using one transported annular atlas.
+
+Fix a label-space dyadic annular partition around the selected material center:
+
+```math
+\zeta_j(a)=\zeta(2^{-j}a),
+\qquad
+\operatorname{supp}\zeta_j
+\subset
+\{c_0\,2^j\le |a-a_\ast|\le C_0\,2^j\},
+\tag{TON.87}
+```
+
+with bounded label overlap
+
+```math
+\sum_j{\bf 1}_{\operatorname{supp}\zeta_j}(a)\le K_0 .
+\tag{TON.88}
+```
+
+Transport each annular label cutoff by the same packet flow:
+
+```math
+\eta_j(s,y)=\zeta_j(Y(s,y)),
+\qquad
+\phi_j=\eta_j^2 .
+\tag{TON.89}
+```
+
+Because \(X(s,\cdot)\) is one-to-one and volume preserving, the transported
+supports keep the same multiplicity:
+
+```math
+\sum_j
+{\bf 1}_{X(s,\operatorname{supp}\zeta_j)}(y)
+\le K_0
+\qquad\text{for every retained }s .
+\tag{TON.90}
+```
+
+Thus a retained terminal family using this fixed transported annular atlas has
+bounded carrier overlap before any estimate is applied.  In log-scale notation,
+the corresponding scale shells \(J_j\) satisfy
+
+```math
+\sum_j{\bf 1}_{J_j}(\sigma)\le K_1,
+\tag{TON.91}
+```
+
+where \(K_1\) depends only on the fixed dyadic partition constants and the
+allowed finite subcover of one annular collar.
+
+The same-carrier embedding `(TON.84)` is then just `(TON.72)` written on this
+fixed atlas.  For each retained shell,
+
+```math
+\int_{-\theta_j}^{0}C_j(s)\,ds
+\le
+C
+\int_{J_j}A_{4B}(\sigma)\,d\sigma ,
+\tag{TON.92}
+```
+
+because the four terms in `(TON.67)` are precisely the annular strain,
+harmonic pressure-memory collar, local pressure-compatible collar, and
+transported collar channels of the same \(A_{4B}\) packet.
+
+Combining `(TON.91)` and `(TON.92)` gives
+
+```math
+\sum_j
+\int_{-\theta_j}^{0}C_j(s)\,ds
+\le
+CK_1
+\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma .
+\tag{TON.93}
+```
+
+So the bounded-overlap selection gate closes on the fixed transported annular
+atlas.  The only ways it can fail are exactly the ways the packet can leave
+that atlas:
+
+```math
+\text{refreshed endpoint-dependent cover,}
+\qquad
+\text{unpaid selector/collar drift,}
+\qquad
+\text{loss of the retained material annular carrier.}
+\tag{TON.94}
+```
+
+Those are not hidden endpoint pulses.  They are selector/collar or same-carrier
+admission failures, and they are already the legal/collar branch isolated in
+the selector compactness note.
