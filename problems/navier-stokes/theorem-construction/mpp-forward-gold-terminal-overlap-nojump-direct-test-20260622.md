@@ -440,3 +440,119 @@ endpoint \(L^q_s\) estimate.  It is the same-fluid carrier restoration:
 Once `(TON.26)` is proved on the retained same packet, the no-jump theorem
 follows from `(TON.20)`--`(TON.25)`, and the four-body loop supplies the
 unweighted participation reserve for the restored carrier.
+
+## 8. Direct domination by material storage
+
+The domination in `(TON.24)` is not mysterious once the time/storage partner is
+identified with material energy storage on the same annular carrier.
+
+Use the local terminal packet variables
+
+```math
+V_m(s,y)=r_m u(T_m+r_m^2s,x_m+r_my),
+\qquad
+Q_m(s,y)=r_m^2p(T_m+r_m^2s,x_m+r_my),
+\tag{TON.27}
+```
+
+so the rescaled packet satisfies the same Navier-Stokes law.  Let
+\(\Omega_{A,m}(s)\) be a material annular layer in these packet variables:
+
+```math
+V_{\partial\Omega_{A,m}(s)}=V_m .
+\tag{TON.28}
+```
+
+Set
+
+```math
+E_{A,m}(s)
+=
+\int_{\Omega_{A,m}(s)}{1\over2}|V_m|^2\,dy,
+\tag{TON.29}
+```
+
+```math
+D_{A,m}(s)
+=
+2\nu\int_{\Omega_{A,m}(s)}|S_y(V_m)|^2\,dy,
+\tag{TON.30}
+```
+
+and
+
+```math
+W_{A,m}(s)
+=
+\int_{\partial\Omega_{A,m}(s)}
+V_m\cdot T_y(V_m,Q_m)n\,dA .
+\tag{TON.31}
+```
+
+The material identity in packet variables is exact:
+
+```math
+{d\over ds}E_{A,m}(s)+D_{A,m}(s)=W_{A,m}(s).
+\tag{TON.32}
+```
+
+Therefore the positive storage drop is pointwise dominated by the annular
+stress/strain carrier:
+
+```math
+\left[-{d\over ds}E_{A,m}(s)\right]_+
+=
+\left[D_{A,m}(s)-W_{A,m}(s)\right]_+
+\le
+D_{A,m}(s)+|W_{A,m}(s)|.
+\tag{TON.33}
+```
+
+Define
+
+```math
+\widehat\rho_{A,m}(s):=D_{A,m}(s)+|W_{A,m}(s)|.
+\tag{TON.34}
+```
+
+Then, on any terminal interval \(I_\theta=(-\theta,0]\),
+
+```math
+\int_{I_\theta}
+\min\{[n_m(s)]_+,[-\partial_sE_{A,m}(s)]_+\}\,ds
+\le
+\int_{I_\theta}\widehat\rho_{A,m}(s)\,ds .
+\tag{TON.35}
+```
+
+So the exact remaining identification is now smaller and sharper:
+
+```math
+[-\partial_sM_m]_+
+\le
+\left[-{d\over ds}E_{A,m}\right]_+
++ r_m^{stor}(s),
+\qquad
+\int_{-\theta}^{0}r_m^{stor}(s)\,ds\to0
+\text{ uniformly as }\theta\downarrow0.
+\tag{TON.36}
+```
+
+With `(TON.36)`, `(TON.35)` gives
+
+```math
+\nu_m^{ol}((-\theta,0])
+\le
+\int_{-\theta}^{0}\widehat\rho_{A,m}(s)\,ds
++
+\int_{-\theta}^{0}r_m^{stor}(s)\,ds .
+\tag{TON.37}
+```
+
+Thus the terminal pulse is excluded by the annular picture exactly when the
+time/storage partner \(M_m\) is restored to material annular energy storage,
+up to selector/storage error that is already inside the same four-body carrier.
+The proof no longer asks viscosity alone, pressure alone, or endpoint
+integrability alone to do the work.  It asks that the center/time storage
+projection be the projection of the same spike plus outer-annulus stress/strain
+carrier.
