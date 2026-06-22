@@ -4207,3 +4207,68 @@ producer is now:
 
 Full `CoupledMixedTowerRadiusLowerBound.A` remains a sufficient supplier, but
 it is no longer the minimal endpoint UI target.
+
+The direct test of `(4BF.195)` gives the exact producer state.  Current
+physical energy, physical CKN, and four-body \(L_s^1\) payment do not prove
+`(4BF.195)`.  They give radius-discounted heat-scale control or cumulative
+payment, not the endpoint finite-jet temporal variation modulus.
+
+The time rung is controlled by the rescaled finite-rung equation
+
+```math
+\partial_s\partial_y^\alpha U_m
+=
+-
+U_m\cdot\nabla\partial_y^\alpha U_m
+-\partial_y^\alpha\nabla Q_m
++\nu\Delta\partial_y^\alpha U_m
+-B_{m,0,\alpha}
++G_m^{gauge}.
+\tag{4BF.199}
+```
+
+Thus the finite endpoint modulus can be produced by finite parabolic jet
+control:
+
+```math
+\boxed{
+\begin{aligned}
+&\sup_m\sup_s
+\sum_{|\alpha|\le K+2}
+\|\partial_y^\alpha U_m(s)\|_{H_y^\sigma}
++\sup_m\sup_s
+\sum_{|\alpha|\le K+1}
+\|\partial_y^\alpha Q_m(s)\|_{H_y^\sigma}\\
+&\qquad
++\text{admitted gauge/cutoff variation}
+<\infty .
+\end{aligned}
+}
+\tag{4BF.200}
+```
+
+Failure of the finite endpoint modulus is therefore not a hidden endpoint
+measure.  It is
+
+```math
+\boxed{
+\text{finite endpoint jet amplitude blowup}
+\quad\text{or}\quad
+\text{finite endpoint jet temporal-variation blowup}
+\quad\text{or}\quad
+\text{annular pressure-service finite-rung blowup}
+\quad\text{or residue-policy failure.}
+}
+\tag{4BF.201}
+```
+
+After same-witness admission, this is a finite-rung Field/Part-facing readout.
+So the endpoint wall is now:
+
+```math
+\boxed{
+\text{prove }(4BF.200)
+\quad\text{or route }(4BF.201)\text{ through the finite-rung CM face.}
+}
+\tag{4BF.202}
+```
