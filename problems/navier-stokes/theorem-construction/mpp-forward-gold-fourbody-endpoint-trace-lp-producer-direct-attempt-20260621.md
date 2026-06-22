@@ -55,7 +55,7 @@ hence
 Then the discarded-partner bridge gives
 
 ```math
-A_{native}\le C A_{4B}+R_{legal}+T_\sigma,
+A_{native}\leadsto A_{4B},
 ```
 
 and the closed four-body loop gives
