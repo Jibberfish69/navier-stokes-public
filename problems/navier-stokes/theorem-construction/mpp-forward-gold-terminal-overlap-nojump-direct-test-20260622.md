@@ -285,13 +285,13 @@ finite-\(L_s^1\) or detached-channel substitute.
 
 ## 6. Annular later-on carrier correction
 
-The overlap measure above is a center/time projection.  The spike picture
-shows why that projection is too narrow by itself.
-
 The physical object is not a center pulse detached from the fluid.  It is the
 spike together with the annular layers underneath it.  Those annuli carry the
 later-on stress/strain state of the same event: the internal force/deformation
 state that can return the inner imbalance outward at a later preterminal time.
+
+The overlap measure above is only the center/time projection of that full
+object.  The spike picture shows why that projection is too narrow by itself.
 
 In the stress form,
 
@@ -313,12 +313,13 @@ not a standalone center endpoint measure:
 ```
 
 Thus the production problem for `(TON.2)` should not be read as a search for a
-new center-only endpoint reserve.  It should be read as a same-participation
-identification problem:
+new center-only endpoint reserve.  It should be read as restoring the full
+same-participation object behind the projection:
 
 ```math
-\text{center/time overlap }d\nu_m^{ol}
-\quad\text{is the projection of the annular later-on stress/strain carrier.}
+\text{spike plus outer-annulus later-on stress/strain carrier}
+\quad\longmapsto\quad
+\text{center/time projection currently denoted }d\nu_m^{ol}.
 \tag{TON.18}
 ```
 
@@ -331,10 +332,8 @@ endpoint measure.
 So the live production clause becomes:
 
 ```math
-\boxed{
-\text{restore the annular later-on stress/strain carrier behind }d\nu_m^{ol}
-\text{ and admit that carrier into }A_{4B}.
-}
+\text{restore the spike plus annular later-on stress/strain carrier}
+\text{ and admit that carrier into the four-body participation object.}
 \tag{TON.19}
 ```
 
