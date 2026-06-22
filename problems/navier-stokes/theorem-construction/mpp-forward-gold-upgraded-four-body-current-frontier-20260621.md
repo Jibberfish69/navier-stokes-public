@@ -3334,7 +3334,7 @@ Since the four-body cycle gives
 
 ```math
 \int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma<\infty,
-\tag{4BF.132}
+\tag{4BF.134}
 ```
 
 the no-exit branch gives
@@ -3343,7 +3343,7 @@ the no-exit branch gives
 \boxed{
 \int_{\sigma_0}^{\infty}A_{\rm native}(\sigma)\,d\sigma<\infty .
 }
-\tag{4BF.133}
+\tag{4BF.135}
 ```
 
 This admits the native selected activity into the same \(A_{4B}\) four-body
