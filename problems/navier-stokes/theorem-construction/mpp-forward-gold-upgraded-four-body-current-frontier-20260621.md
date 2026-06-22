@@ -105,7 +105,12 @@ latest_update: >-
   material packet, this selected carrier is admitted into \(A_{4B}\) by the
   total strain-vorticity exchange \(\int\phi|\omega\cdot S\omega|\).  Loss of
   that total exchange record is the remaining same-packet derivative
-  participation boundary, not a hidden signed-cancellation residue.
+  participation boundary, not a hidden signed-cancellation residue.  The direct
+  retention test shows the pure forward no-exit producer would need either a
+  strain clock \(\int\|S\|_{L^\infty}ds\) with enstrophy height, a critical
+  \(\int\int|\nabla V|^3\) strain-vorticity density, or the equivalent finite
+  material tower survival theorem; energy and signed enstrophy do not supply
+  this unweighted heat-scale record.
   The clean current overlap-payment surface is
   mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md;
   the older partner-polar note is retained only as the sufficient-overpayment
@@ -187,6 +192,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-storage-controls-normalized-terminal-packet-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-endpoint-trace-lp-reserve-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-vorticity-stretching-total-exchange-admission-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-total-strain-vorticity-exchange-retention-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-endpoint-donor-closure-branch-solution-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-visible-readout-payment-final-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-reverse-holder-full-packet-corrected-direct-attempt-20260622.md
