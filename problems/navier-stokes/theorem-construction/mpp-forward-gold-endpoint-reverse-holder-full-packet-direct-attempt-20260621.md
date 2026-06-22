@@ -47,7 +47,7 @@ Equivalently, prove a reverse-Holder seed on terminal intervals
 \right)^{1/(1+\varepsilon)}
 \le
 C\fint_{\lambda I}\rho_m\,ds
-\mathcal L_m(I),
++\mathcal L_m(I),
 }
 \tag{ERH.3}
 ```
@@ -89,11 +89,11 @@ So the trace density to estimate has the form
 \rho_m
 =
 [H_m^U]_+
-\lambda_{legal,m}
-\lambda_{sel,m}
-\lambda_{sgn,m}
-\lambda_{term,m}
-\lambda_{geom,m},
++\lambda_{legal,m}
++\lambda_{sel,m}
++\lambda_{sgn,m}
++\lambda_{term,m}
++\lambda_{geom,m},
 \tag{ERH.6}
 ```
 
