@@ -3137,6 +3137,34 @@ Thus the new frontier is the transported-annular carrier fork: prove `(4BF.124)`
 directly, or prove the bounded-overlap \(A_{4B}\) counting line `(4BF.126)` via
 the channel split `(4BF.125a)`.
 
+The transported collar part of `(4BF.125a)` has an exact material-coordinate
+reduction.  For \(\eta_m(s,y)=\zeta_m(Y_m(s,y))\),
+
+```math
+\nabla_y\eta_m(s,X_m(a,s))
+=
+F_m(a,s)^{-T}\nabla_a\zeta_m(a),
+\qquad
+dy=da.
+\tag{4BF.126a}
+```
+
+So
+
+```math
+4\nu\int |V_m|^2|\nabla_y\eta_m|^2\,dy
+\le
+4\nu\Gamma_{\sharp,m}(s)^2
+\|\nabla_a\zeta_m\|_\infty^2
+\int_{A_{\sharp,m}}|V_m(s,X_m(a,s))|^2\,da.
+\tag{4BF.126b}
+```
+
+Thus the transported collar gate closes under bounded common-collar deformation,
+bounded label cutoff geometry, and bounded material collar energy.  Failure is
+a common-collar deformation, material collar energy, or label-cutoff geometry
+failure, not a center endpoint pulse.
+
 The endpoint/donor branch solution now consumes the two remaining terms from
 `(4BF.119)` in the pass-or-exit sense.  The endpoint term obeys
 
