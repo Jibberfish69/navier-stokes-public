@@ -3021,21 +3021,23 @@ partners that leave the carrier; they do not pay a retained smooth interior
 cancellation.
 
 The discarded-partner rework restates this in the exact channel-first bridge
-language.  The comparison is:
+language.  The comparison is admission, not a post-loop estimate with external
+legal/tail accounts:
 
 ```math
 A_{\rm native}
-\le
-C A_{4B}
-+R_{\rm legal}
-+[-\partial_\sigma M_\sigma]_+
-+\mathcal Z_{\rm donor}
-+T_\sigma .
+\leadsto
+\int[h_\sigma]_+
++
+\Delta_{\rm ol}
+\leadsto
+A_{4B}.
 \tag{4BF.119}
 ```
 
 Thus the bridge from channel-first native source activity to the closed
-four-body route is paid except for the two already identified endpoint pieces:
+four-body route is admission into the same oriented carrier.  The two remaining
+admission tests are:
 
 ```math
 [-\partial_\sigma M_\sigma]_+
@@ -3049,8 +3051,8 @@ The forward-gold version still needs:
 ```math
 [-\partial_\sigma M_\sigma]_+
 +\mathcal Z_{\rm donor}
-\le
-C A_{4B}+R_{\rm legal}.
+\leadsto
+A_{4B}.
 \tag{4BF.121}
 ```
 
@@ -3058,37 +3060,32 @@ The CM-facing version sends those pieces to terminal trace/storage or infinite
 donor-chain exit after same-witness admission.  This is the exact current
 meaning of the final native-to-four-body bridge.
 
-The terminal Hardy/no-waste estimate is the sharpest current no-jump form.
-Define the genuine endpoint payment measure by
+The terminal Hardy/no-waste estimate is now read on the exact overlap measure.
+For the time/storage overlap, define \(d\nu_m^{ol}\) from the common dominating
+time measure of the native positive marginal and the positive storage-drop
+partner.  A Hardy moment
 
 ```math
-d\mu_m=dR_m+d(-L_{4B,m})_+ .
+\sup_m\int_{-1}^{0}(-s)^{-\alpha}\,d\nu_m^{ol}(s)<\infty
 \tag{4BF.122}
-```
-
-Then
-
-```math
-\sup_m\int_{-1}^{0}(-s)^{-\alpha}\,d\mu_m(s)<\infty
-\tag{4BF.123}
 ```
 
 for any \(\alpha\in(0,1)\) implies
 
 ```math
-\lim_{\theta\downarrow0}\limsup_m\mu_m((-\theta,0])=0,
-\tag{4BF.124}
+\lim_{\theta\downarrow0}\limsup_m\nu_m^{ol}((-\theta,0])=0,
+\tag{4BF.123}
 ```
 
 and hence the endpoint no-jump theorem.  The model pulse
 
 ```math
 a_m(s)=a\,\tau_m^{-1}{\bf 1}_{(-\tau_m,0]}(s)
-\tag{4BF.125}
+\tag{4BF.124}
 ```
 
-violates `(4BF.123)` by a factor \(\tau_m^{-\alpha}\), so the Hardy estimate
-kills exactly the remaining last-instant atom.
+violates `(4BF.122)` by a factor \(\tau_m^{-\alpha}\), so the Hardy estimate
+kills exactly the remaining same-carrier overlap atom.
 
 The direct PDE production test gives a concrete conditional route.  If the
 retained normalized packets have a uniform local energy-pressure bound
@@ -3100,7 +3097,7 @@ retained normalized packets have a uniform local energy-pressure bound
 +\|\nabla V_m\|_{L_{s,y}^2}^2
 +\|Q_m\|_{L_{s,y}^{5/3}}^{5/3}
 \right)<\infty,
-\tag{4BF.126}
+\tag{4BF.125}
 ```
 
 then the smooth full-packet trace density is in \(L_s^{10/9}\), and Hardy holds
@@ -3115,7 +3112,7 @@ terminal heat-scale family.  Thus the new frontier is:
 \quad\text{or}\quad
 \text{CM endpoint-face consumption of Hardy failure.}
 }
-\tag{4BF.127}
+\tag{4BF.126}
 ```
 
 The endpoint/donor branch solution now consumes the two remaining terms from
@@ -3123,9 +3120,9 @@ The endpoint/donor branch solution now consumes the two remaining terms from
 
 ```math
 [-\partial_\sigma M_\sigma]_+
-\le
-C A_{4B}+R_{\rm legal}
-\tag{4BF.128}
+\leadsto
+A_{4B}
+\tag{4BF.127}
 ```
 
 unless the endpoint defect has no realizable positive-thickness parabolic
@@ -3133,23 +3130,23 @@ daughter and therefore lands in
 
 ```math
 Pack_Q+Part_{N,Q}+\forall r>0\,\neg Field_{N,r,Q}.
-\tag{4BF.129}
+\tag{4BF.128}
 ```
 
 The donor term obeys
 
 ```math
 \mathcal Z_{\rm donor}
-\le
-C A_{4B}+R_{\rm legal}
-\tag{4BF.130}
+\leadsto
+A_{4B}
+\tag{4BF.129}
 ```
 
 unless the stabilized donor quotient has a zero-descent cycle, which lands in
 
 ```math
 Pack_Q+\neg Part_{N,Q}.
-\tag{4BF.131}
+\tag{4BF.130}
 ```
 
 Therefore, outside these two typed CM exits,
@@ -3157,17 +3154,17 @@ Therefore, outside these two typed CM exits,
 ```math
 \boxed{
 A_{\rm native}
-\le
-C A_{4B}+R_{\rm legal}+T_\sigma .
+\leadsto
+A_{4B}.
 }
-\tag{4BF.132}
+\tag{4BF.131}
 ```
 
 Since the four-body cycle gives
 
 ```math
 \int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma<\infty,
-\tag{4BF.133}
+\tag{4BF.132}
 ```
 
 the no-exit branch gives
@@ -3176,12 +3173,12 @@ the no-exit branch gives
 \boxed{
 \int_{\sigma_0}^{\infty}A_{\rm native}(\sigma)\,d\sigma<\infty .
 }
-\tag{4BF.134}
+\tag{4BF.133}
 ```
 
-This closes the native selected activity bridge as a four-body payment or CM
-exit theorem.  It does not prove that the two CM exits are impossible from
-original smooth data.
+This admits the native selected activity into the same \(A_{4B}\) four-body
+object or routes it to a CM exit.  It does not prove that the two CM exits are
+impossible from original smooth data.
 
 The follow-up uniform normalized local energy-pressure direct test sharpens the
 remaining forward no-exit supplier.  The needed retained packet bound is
