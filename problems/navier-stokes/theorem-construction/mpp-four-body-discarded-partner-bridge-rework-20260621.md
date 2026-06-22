@@ -377,7 +377,8 @@ Pack_Q+Part_{N,Q}+\forall r>0\,\neg Field_{N,r,Q}.
 
 ## 8. Result
 
-Combining `(DPB.7)` and `(DPB.14)`--`(DPB.27)` gives the exact bridge estimate:
+Combining `(DPB.7)` and `(DPB.14)`--`(DPB.27)` gives the exact channel
+assignment test:
 
 ```math
 \boxed{
@@ -398,17 +399,14 @@ A_{\rm full}
 ```
 
 Using the selected full-packet production theorem and the closed four-body loop,
-this becomes
+these channel terms are internal to the oriented same-carrier four-body object
+once the time/storage and donor pieces are assigned.  Thus the bridge is:
 
 ```math
 \boxed{
 A_{\rm native}
-\le
-C A_{4B}
-+R_{\rm legal}
-+[-\partial_\sigma M_\sigma]_+
-+\mathcal Z_{\rm donor}
-+T_\sigma .
+\leadsto
+A_{4B}
 }
 \tag{DPB.30}
 ```
