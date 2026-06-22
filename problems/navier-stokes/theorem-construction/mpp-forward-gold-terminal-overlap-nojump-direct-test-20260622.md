@@ -991,9 +991,9 @@ uniform-tail route `(TON.58)`, not for bounded-overlap admission into
 \(A_{4B}\).
 
 Thus the terminal-specific work for the four-body counting route is solved down
-to transported collar admission, pressure-compatible same-packet selection, and
-bounded-overlap selection.  When `(TON.70)` is included in the selector/collar
-part of the same four-body packet and `(TON.71)` is admitted by
+to transported collar admission and pressure-compatible same-packet selection
+on a fixed transported annular atlas.  When `(TON.70)` is included in the
+selector/collar part of the same four-body packet and `(TON.71)` is admitted by
 pressure-compatible retained tests, `(TON.67)` gives the channel admission
 
 ```math
@@ -1027,7 +1027,7 @@ gates:
 \qquad
 \text{local pressure-compatible retained tests,}
 \qquad
-\text{bounded-overlap same-carrier selection.}
+\text{fixed transported annular atlas retention.}
 \tag{TON.74}
 ```
 
@@ -1183,9 +1183,9 @@ Thus if every retained terminal pulse carries
 then `(TON.85)` forbids infinitely many such pulses because the four-body loop
 already gives \(\int A_{4B}<\infty\).
 
-So the bounded-overlap gate has only one remaining content: produce the
-same-carrier log-scale embedding `(TON.84)` with finite multiplicity `(TON.83)`.
-It is not being used as a standalone energy upgrade.
+So the only bounded-overlap content is the fixed-atlas statement proved next:
+the retained annular shells must be selected from one transported dyadic
+material atlas.  It is not being used as a standalone energy upgrade.
 
 ## 15. Fixed transported annular atlas gives the finite multiplicity
 
