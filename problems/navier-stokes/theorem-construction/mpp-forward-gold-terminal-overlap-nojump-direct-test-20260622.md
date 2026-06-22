@@ -556,3 +556,108 @@ The proof no longer asks viscosity alone, pressure alone, or endpoint
 integrability alone to do the work.  It asks that the center/time storage
 projection be the projection of the same spike plus outer-annulus stress/strain
 carrier.
+
+## 9. Exact cutoff-storage to material-carrier identity
+
+The storage \(M_m\) appearing in the endpoint note is not originally a sharp
+material annulus.  It is the weighted local storage
+
+```math
+M_m(s)=\int {1\over2}|V_m(s,y)|^2\phi_m(s,y)\,dy,
+\qquad
+\phi_m=\eta_m^2 .
+\tag{TON.38}
+```
+
+This becomes a material annular storage exactly when the cutoff is transported
+by the same packet:
+
+```math
+(\partial_s+V_m\cdot\nabla)\phi_m=0.
+\tag{TON.39}
+```
+
+Then the level sets of \(\phi_m\) move with the fluid, and \(M_m\) is a
+weighted superposition of material annular energies.
+
+For an arbitrary retained cutoff, the exact stress-form computation gives the
+missing bridge.  Let
+
+```math
+e_m={1\over2}|V_m|^2,
+\qquad
+T_m=-Q_m I+2\nu S_y(V_m).
+\tag{TON.40}
+```
+
+Using
+
+```math
+(\partial_s+V_m\cdot\nabla)e_m
+=
+V_m\cdot\nabla\cdot T_m,
+\qquad
+\nabla\cdot V_m=0,
+\tag{TON.41}
+```
+
+one obtains
+
+```math
+{d\over ds}M_m(s)
++
+2\nu\int\phi_m|S_y(V_m)|^2\,dy
+=
+-\int V_m\cdot T_m\nabla\phi_m\,dy
++
+\int e_m(\partial_s+V_m\cdot\nabla)\phi_m\,dy .
+\tag{TON.42}
+```
+
+Therefore
+
+```math
+[-\partial_sM_m(s)]_+
+\le
+2\nu\int\phi_m|S_y(V_m)|^2\,dy
++
+\left|\int V_m\cdot T_m\nabla\phi_m\,dy\right|
++
+\int e_m\left|(\partial_s+V_m\cdot\nabla)\phi_m\right|\,dy .
+\tag{TON.43}
+```
+
+The first two terms are exactly annular strain and annular stress work for the
+weighted outer-annulus carrier.  The last term is the materiality defect of
+the cutoff:
+
+```math
+r_m^{mat}(s)
+:=
+\int {1\over2}|V_m|^2
+\left|(\partial_s+V_m\cdot\nabla)\phi_m\right|\,dy .
+\tag{TON.44}
+```
+
+Thus `(TON.36)` is proved with
+
+```math
+r_m^{stor}=r_m^{mat}
+\tag{TON.45}
+```
+
+provided the selected cutoff is transported, or the materiality defect is
+admitted as a same-carrier selector/collar term with terminal absolute
+continuity:
+
+```math
+\lim_{\theta\downarrow0}\limsup_m
+\int_{-\theta}^{0}r_m^{mat}(s)\,ds=0.
+\tag{TON.46}
+```
+
+This is the exact place where the annular picture reaches the four-body route.
+The center pulse is controlled by annular stress/strain plus the materiality of
+the cutoff.  A transported cutoff removes the defect.  A non-transported cutoff
+must pay that defect inside the same selector/collar channel; otherwise the
+chosen packet has lost same-fluid annular carrier custody.
