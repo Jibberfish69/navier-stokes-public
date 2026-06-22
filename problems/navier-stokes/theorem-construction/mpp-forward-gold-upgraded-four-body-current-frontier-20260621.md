@@ -3170,8 +3170,9 @@ This admits the native selected activity into the same \(A_{4B}\) four-body
 object or routes it to a CM exit.  It does not prove that the two CM exits are
 impossible from original smooth data.
 
-The follow-up uniform normalized local energy-pressure direct test sharpens the
-remaining forward no-exit supplier.  The needed retained packet bound is
+The older uniform normalized local energy-pressure direct test is now only a
+sufficient readout route.  It helps only after it is tied to the actual
+order-lock overlap measure \(d\nu_m^{ol}\).  The raw retained packet bound is
 
 ```math
 \sup_m
@@ -3183,23 +3184,23 @@ remaining forward no-exit supplier.  The needed retained packet bound is
 \tag{4BF.135}
 ```
 
-If `(4BF.135)` holds, the terminal Hardy note gives
+By itself, `(4BF.135)` does not state the participation reserve.  The current
+object is
 
 ```math
-\texttt{TerminalHardyNoWaste.A}
-\Longrightarrow
-\texttt{FullHodgeStokesEndpointNoJump.A}.
+\texttt{TerminalOverlapNoJump.A}
+\quad\text{for }d\nu_m^{ol}.
 \tag{4BF.136}
 ```
 
-The direct production test does not derive `(4BF.135)` from current energy,
-local-energy, pressure, CKN, bounded-overlap, or Vitali inputs.  Those inputs
-give radius-discounted physical control on shrinking heat-scale cylinders.
-Therefore the exact remaining no-exit fork is
+Uniform normalized local energy-pressure estimates, finite jets, pressure
+memory, source-square, critical-strain, and CKN estimates count here only when
+they dominate \(d\nu_m^{ol}\) on the same retained carrier.  Otherwise they are
+readouts.  Therefore the exact remaining fork is
 
 ```math
 \boxed{
-\texttt{UniformNormalizedLocalEnergyPressure.A}
+\texttt{TerminalOverlapNoJump.A}
 \quad\text{or}\quad
 \text{CM endpoint Field/Part face after same-witness admission.}
 }
