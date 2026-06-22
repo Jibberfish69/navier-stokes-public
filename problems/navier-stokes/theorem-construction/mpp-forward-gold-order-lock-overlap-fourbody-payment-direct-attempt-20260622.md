@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622
-status: terminal-overlap-closed-and-donor-total-cycle-admitted-on-same-packet-branch
+status: terminal-overlap-attached-on-retained-heat-scale-annular-packet-donor-total-cycle-admitted-on-same-packet-branch
 logical_landing_node: order_lock_overlap_fourbody_payment
 edge_effect: "Creates the clean surface for OrderLockOverlapFourBodyPayment.A, replacing the stale polar-pair framing. The algebraic channel-overlap split is proved: the native/full-packet mismatch is controlled by the sum over packet channels of min([n]_+,[-b^k]_+), not by an independent scalar source or by the whole partner deficit as the live object. Viscous, harmonic-pressure, selector/legal, finite signed, geometry, local-pressure, transported-collar, and terminal time/storage overlaps are admitted through their same-packet channels inside A_4B. The terminal time/storage overlap is restored to the transported outer-annulus stress/strain carrier; if its uniform tail fails, fixed transported annular atlas counting puts every surviving pulse inside finite A_4B, while selector/collar drift is visible payment. The donor-chain branch is now split by net versus total exchange: finite rank descent pays finite chains, and zero-rank cycles are counted in A_4B when their total same-packet exchange is retained. Only failure of same-packet realization remains a Part-side CM boundary."
 parents:
@@ -9,6 +9,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-four-body-partner-deficit-retention-or-exit-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-discarded-partner-bridge-rework-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-upgraded-four-body-current-frontier-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-material-annular-return-attachment-direct-attempt-20260622.md
 ---
 
 # Order-Lock Overlap Four-Body Payment Direct Attempt
@@ -265,12 +266,13 @@ a\tau_m^{-1}{\bf 1}_{(-\tau_m,0]}
 has finite \(L_s^1\) mass and produces a terminal atom while keeping the
 overlap equal to the pulse.
 
-The transported-annular update supplies the no-jump mechanism by restoring this
-storage drop to the same material outer-annulus carrier:
+The heat-scale annular update supplies the no-jump mechanism on the retained
+return branch by restoring this storage drop to the same material
+outer-annulus carrier:
 
 ```math
 \boxed{
-\texttt{TerminalOverlapNoJump.A on the transported annular carrier.}
+\texttt{TerminalOverlapNoJump.A on the retained heat-scale annular carrier.}
 }
 \tag{OLO.22}
 ```
@@ -297,8 +299,9 @@ The older sufficient substitutes were
 ```
 
 or a Hardy/Orlicz/\(L_s^q\), \(q>1\), endpoint-uniform-integrability bound for
-the overlap density.  They are no longer the live object once the material
-annular carrier is retained.
+the overlap density.  They are consumer languages once the material annular
+carrier is retained; the live pure-gold clause is retention of that heat-scale
+return record.
 
 The annular later-on carrier gives the same no-jump mechanism in physical
 packet language.  If the storage partner \(M_\sigma\) is the material annular
@@ -386,13 +389,15 @@ the materiality defect vanishes and `(OLO.24d)` gives directly
 ```
 
 Thus the time/storage overlap enters \(A_{4B}\) through transported annular
-strain and stress-work.  The endpoint atom is removed only by a uniform terminal
-tail for that transported carrier, or by counting every surviving carrier pulse
-inside the finite four-body scale budget.
+strain and stress-work on the retained heat-scale material packet.  The endpoint
+atom is removed by a uniform terminal tail for that retained carrier, or by
+counting every surviving retained carrier pulse inside the finite four-body
+scale budget.  Loss of the heat-scale return record is the Part-side boundary.
 
 ## 5. Result
 
-Combining `(OLO.11)` through `(OLO.20)` gives
+Combining `(OLO.11)` through `(OLO.20)` and the retained heat-scale annular
+attachment gives
 
 ```math
 \boxed{
@@ -420,12 +425,13 @@ where same-packet realization can fail:
 \tag{OLO.26}
 ```
 
-The pressure and terminal terms have been discharged for the order-locked
-transported velocity-pressure tower.  Local pressure is a same-cutoff collar
-trace because the retained tower rungs are divergence-free.  The terminal
-time/storage term is restored to the transported outer-annulus carrier; a
-nonzero terminal pulse is either counted in \(A_{4B}\) through the fixed
-transported annular atlas or becomes visible selector/collar loss.
+The local pressure term is discharged for the order-locked transported
+velocity-pressure tower.  Local pressure is a same-cutoff collar trace because
+the retained tower rungs are divergence-free.  The terminal time/storage term
+is attached to the heat-scale material outer-annulus carrier on the retained
+return branch; a nonzero retained pulse is counted in \(A_{4B}\) through the
+transported annular atlas or becomes visible selector/collar loss.  Failure to
+retain that material return record is the Part-side boundary.
 
 The donor term is already typed inside the same full packet.  Finite chains
 telescope by rank descent.  A zero-rank cycle with zero net current is still
