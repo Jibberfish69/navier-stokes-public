@@ -157,6 +157,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-uniform-normalized-local-energy-pressure-bound-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-cm-exit-exclusion-boundary-recheck-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-reserve-producer-family-recheck-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-storage-controls-normalized-terminal-packet-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-endpoint-donor-closure-branch-solution-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-visible-readout-payment-final-attempt-20260621.md
 ---
@@ -3261,3 +3262,148 @@ selected singular participation.  Thus the exact producer fork is now
 }
 \tag{4BF.143}
 ```
+
+The four-body storage producer direct test then checks Thomas's clean
+gold-only solve theorem:
+
+```math
+\boxed{
+\texttt{FourBodyStorageControlsNormalizedTerminalPacket.A}
+}
+\tag{4BF.144}
+```
+
+The theorem would prove the normalized retained packet bound
+
+```math
+\sup_m
+\left(
+\|V_m\|_{L_s^\infty L_y^2(Q_1)}^2
++
+\|\nabla_yV_m\|_{L^2_{s,y}(Q_1)}^2
++
+\|Q_m\|_{L^{5/3}_{s,y}(Q_1)}^{5/3}
+\right)
+<\infty ,
+\tag{4BF.145}
+```
+
+and therefore gives the Hardy endpoint no-jump theorem and the native activity
+reserve.  The direct test confirms that this is the right relay.
+
+It also shows that the theorem is not produced by the current four-body storage
+as stated.  The present \(L_{4B}\) is a bounded-below storage/capacity object
+for Galilean-invariant selected participation activity.  It is not a positive
+equivalent of the ungauged local kinetic energy.  A constant Galilean packet
+
+```math
+V_m(s,y)=c_m,
+\qquad
+Q_m(s,y)=0
+\tag{4BF.146}
+```
+
+has
+
+```math
+\nabla_yV_m=0,
+\qquad
+A_{4B,m}=0,
+\qquad
+D_{4B,m}=0,
+\tag{4BF.147}
+```
+
+while
+
+```math
+\int_{B_1}\eta^2|V_m|^2\,dy
+=
+|c_m|^2\int_{B_1}\eta^2\,dy
+\tag{4BF.148}
+```
+
+can be arbitrarily large.  Thus the first coercivity line must be gauge-fixed:
+
+```math
+\boxed{
+\int_{B_1}\eta^2
+|V_m-\langle V_m\rangle_\eta|^2\,dy
+\le
+C L_{4B,m}^{gq}
++
+R_{\rm legal,m}.
+}
+\tag{4BF.149}
+```
+
+Alternatively, \(L_{4B}\) must be enlarged by a base local-energy term, and
+the derivative of that added term must be paid by the full pressure/viscosity/
+transport boundary flux.  That is a real additional theorem, not a free
+renormalization.
+
+The second and third lines are conditional once the base rung is included:
+
+```math
+D_{4B,m}
+\supset
+\nu\int_{B_1}\eta^2|\nabla_yV_m|^2\,dy,
+\tag{4BF.150}
+```
+
+and then Calderon-Zygmund plus interpolation gives
+
+```math
+\|Q_m^{loc}\|_{L^{5/3}}^{5/3}
+\le
+C\|V_m\|_{L^{10/3}}^{10/3}
+\le
+C
+\|V_m\|_{L_s^\infty L_y^2}^{4/3}
+\|\nabla_yV_m\|_{L^2_{s,y}}^2 .
+\tag{4BF.151}
+```
+
+The fourth line is not installed.  The current harmonic-pressure memory note
+routes the collar trace
+
+```math
+Q_m^H V_m\cdot\nabla\chi_m
+\tag{4BF.152}
+```
+
+as collar/legal/terminal/selector payment.  It does not prove the interior norm
+bound
+
+```math
+\boxed{
+\|Q_m^H\|_{L^{5/3}_{s,y}(Q_1)}^{5/3}
+\le
+C A_{4B,m}
++
+R_{\rm legal,m}.
+}
+\tag{4BF.153}
+```
+
+So the gold-only storage theorem is now reduced to the exact coercivity pair
+
+```math
+\boxed{
+\texttt{GaugeFixedFourBodyStorageCoercivity.A}
+}
+\tag{4BF.154}
+```
+
+and
+
+```math
+\boxed{
+\texttt{HarmonicPressureMemoryNormCoercivity.A}.
+}
+\tag{4BF.155}
+```
+
+With those two lines installed, the already-proved four-body loop supplies the
+unweighted reserve, Hardy removes the endpoint pulse, and the native source
+bridge closes on the no-exit branch.
