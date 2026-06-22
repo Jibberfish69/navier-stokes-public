@@ -943,6 +943,11 @@ Each term in `(TON.67)` has a fixed four-body channel:
 \tag{TON.70}
 ```
 
+For the four-body counting route, `(TON.70)` is now an explicit Body-II cutoff
+collar density in \(\mathfrak M_Q\).  It is therefore counted inside
+\(A_{4B}\) on the retained same carrier.  A separate material-collar energy
+bound is needed only for the direct uniform-tail route `(TON.58)`.
+
 and
 
 ```math
@@ -991,9 +996,8 @@ uniform-tail route `(TON.58)`, not for bounded-overlap admission into
 \(A_{4B}\).
 
 Thus the terminal-specific work for the four-body counting route is solved down
-to transported collar admission and pressure-compatible same-packet selection
-on a fixed transported annular atlas.  When `(TON.70)` is included in the
-selector/collar part of the same four-body packet and `(TON.71)` is admitted by
+to pressure-compatible same-packet selection on a fixed transported annular
+atlas.  Since `(TON.70)` is included in Body II and `(TON.71)` is admitted by
 pressure-compatible retained tests, `(TON.67)` gives the channel admission
 
 ```math
@@ -1023,8 +1027,6 @@ center endpoint pulse can survive only by breaking one of the exact admission
 gates:
 
 ```math
-\text{transported collar admission,}
-\qquad
 \text{local pressure-compatible retained tests,}
 \qquad
 \text{fixed transported annular atlas retention.}
