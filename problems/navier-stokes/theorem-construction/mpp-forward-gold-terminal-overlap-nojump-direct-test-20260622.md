@@ -993,3 +993,103 @@ gates:
 
 Those are no longer center-only endpoint mysteries.  They are ordinary
 same-carrier four-body admission failures.
+
+## 13. Transported collar term in material coordinates
+
+For a transported cutoff \(\eta_m(s,y)=\zeta_m(Y_m(s,y))\), with
+\(F_m(a,s)=D_aX_m(a,s)\), one has
+
+```math
+\nabla_y\eta_m(s,X_m(a,s))
+=
+F_m(a,s)^{-T}\nabla_a\zeta_m(a).
+\tag{TON.75}
+```
+
+Since the flow is incompressible, \(dy=da\).  Therefore the transported collar
+term `(TON.70)` is exactly
+
+```math
+4\nu\int |V_m(s,y)|^2|\nabla_y\eta_m(s,y)|^2\,dy
+=
+4\nu\int
+|V_m(s,X_m(a,s))|^2
+|F_m(a,s)^{-T}\nabla_a\zeta_m(a)|^2\,da .
+\tag{TON.76}
+```
+
+Let the common label collar be \(A_{\sharp,m}=\operatorname{supp}\nabla\zeta_m\)
+and set
+
+```math
+\Gamma_{\sharp,m}(s)
+:=
+\sup_{a\in A_{\sharp,m}}
+\max\{|F_m(a,s)|,\ |F_m(a,s)^{-1}|\}.
+\tag{TON.77}
+```
+
+Then
+
+```math
+4\nu\int |V_m|^2|\nabla_y\eta_m|^2\,dy
+\le
+4\nu\Gamma_{\sharp,m}(s)^2
+\|\nabla_a\zeta_m\|_\infty^2
+\int_{A_{\sharp,m}}
+|V_m(s,X_m(a,s))|^2\,da .
+\tag{TON.78}
+```
+
+Thus the transported collar channel has a uniform terminal tail whenever the
+common-collar deformation gauge and material collar energy satisfy
+
+```math
+\sup_m
+\left(
+\|\Gamma_{\sharp,m}\|_{L^\infty(-1,0)}
++
+\|\nabla_a\zeta_m\|_\infty
++
+\sup_{s\in(-1,0)}
+\int_{A_{\sharp,m}}|V_m(s,X_m(a,s))|^2\,da
+\right)
+<\infty .
+\tag{TON.79}
+```
+
+Under `(TON.79)`,
+
+```math
+\lim_{\theta\downarrow0}\limsup_m
+\int_{-\theta}^{0}
+4\nu\int |V_m|^2|\nabla_y\eta_m|^2\,dy\,ds
+=0.
+\tag{TON.80}
+```
+
+The existing pack-side preservation surface already identifies the source of
+the deformation gauge: interval-integrability of the collar stretching rate
+
+```math
+\Lambda_{\sharp,m}(s)
+=
+\|D(V_m)(\cdot,s)\|_{L^\infty(X_m(A_{\sharp,m},s))}
+\tag{TON.81}
+```
+
+implies bounded \(\Gamma_{\sharp,m}\) on the retained interval by Gronwall.
+Therefore a failure of `(TON.80)` is not a hidden endpoint pulse.  It is one of
+three explicit same-carrier failures:
+
+```math
+\text{unbounded common-collar deformation,}
+\qquad
+\text{unbounded material collar energy,}
+\qquad
+\text{uncontrolled label cutoff geometry.}
+\tag{TON.82}
+```
+
+These are Pack/collar or four-body storage-admission failures.  They do not
+revive a center-only terminal atom.
