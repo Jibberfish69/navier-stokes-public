@@ -3613,9 +3613,37 @@ density-level or absorbed, this theorem asks for
 ```
 
 Then `(4BF.160c)` follows immediately by Holder.  The reverse-Holder direct
-attempt reduces `(4BF.160j)` to three actual producer clauses: endpoint residue
-density policy, local endpoint critical-density reverse Holder, and harmonic
-pressure reverse Holder.
+attempt does not reduce `(4BF.160j)` to independent producer clauses.  Its
+first required step is the full-participation order-lock identity:
+
+```math
+\rho_m(s)
+\le
+C\Big[
+\langle
+N_m+P_m+V_m+T_m+I_m+L_m+S_m,
+\Phi_m
+\rangle
+-cD_m^\nu
+\Big]_+
++R_m^{ol}(s),
+\tag{4BF.160j-lock}
+```
+
+with
+
+```math
+\boxed{
+\|R_m^{ol}\|_{L_s^{1+\varepsilon}(-1,0)}\le C.
+}
+\tag{4BF.160j-rem}
+```
+
+Only after `(4BF.160j-lock)` is proved do the channel estimates count:
+endpoint residue density policy, local endpoint critical-density reverse
+Holder, and harmonic pressure reverse Holder.  Without the order-lock identity,
+finite-jet, pressure, viscosity, residue, CKN, tower, or four-body estimates
+are diagnostic side calculations rather than the route.
 
 The endpoint residue density policy direct attempt works the first clause.  It
 confirms that current selector/collar stabilization, terminal trace routing,
@@ -4388,30 +4416,58 @@ The live gold route is therefore:
 \tag{4BF.211}
 ```
 
-## 34. Endpoint \(L^p\) upgrade from component seeds
+## 34. Endpoint \(L^p\) upgrade after order-lock admission
 
-The recombination step for `EndpointLpUpgradeFromFullNSPacket.A` is now closed.
-After gauge fixing and residue absorption, write
+The recombination step for `EndpointLpUpgradeFromFullNSPacket.A` is closed only
+after the endpoint density is admitted from the same full participation packet.
+The admission identity is:
 
 ```math
 \rho_m(s)
-=
-[H_m^{jet}(s)+H_m^H(s)]_+
-+\sum_{j\in\mathcal R}\lambda_{j,m}(s),
-\qquad
-\mathcal R=\{legal,sel,sgn,term,geom\}.
+\le
+C\Big[
+\langle
+N_m+P_m+V_m+T_m+I_m+L_m+S_m,
+\Phi_m
+\rangle
+-cD_m^\nu
+\Big]_+
++R_m^{ol}(s),
 \tag{4BF.212}
 ```
 
-Assume component seeds:
+with
 
 ```math
-\sup_m\|[H_m^{jet}]_+\|_{L_s^{p_{jet}}}<\infty,
+\boxed{
+\sup_m\|R_m^{ol}\|_{L_s^p(-1,0)}\le C,
+\qquad p>1.
+}
+\tag{4BF.213}
+```
+
+Only inside `(4BF.212)` may the full scalar be decomposed into channel
+readouts:
+
+```math
+H_m
+=
+H_m^{tr,loc}+H_m^H+H_m^{res},
+\tag{4BF.214}
+```
+
+where \(H_m^{tr,loc}\) is the gauge-fixed transport/local-pressure/lower-order
+trace, \(H_m^H\) is the harmonic pressure-memory trace, and \(H_m^{res}\)
+collects legal, selector, signed, terminal, and geometry densities after
+absorption.  Assume the channel estimates on this same order-locked packet:
+
+```math
+\sup_m\|[H_m^{tr,loc}]_+\|_{L_s^{p_{tr}}}<\infty,
 \qquad
 \sup_m\|[H_m^H]_+\|_{L_s^{p_H}}<\infty,
 \qquad
-\sup_m\|\lambda_{j,m}\|_{L_s^{p_j}}<\infty,
-\tag{4BF.213}
+\sup_m\|[H_m^{res}]_+\|_{L_s^{p_{res}}}<\infty,
+\tag{4BF.215}
 ```
 
 with all exponents \(>1\).  Set
@@ -4419,30 +4475,12 @@ with all exponents \(>1\).  Set
 ```math
 p_\ast
 =
-\min\{p_{jet},p_H,p_j:j\in\mathcal R\}>1.
-\tag{4BF.214}
-```
-
-The scalar inequality
-
-```math
-[a+b]_+\le [a]_+ + [b]_+
-\tag{4BF.215}
-```
-
-gives
-
-```math
-\rho_m(s)
-\le
-[H_m^{jet}(s)]_+
-+[H_m^H(s)]_+
-+\sum_{j\in\mathcal R}\lambda_{j,m}(s).
+\min\{p,p_{tr},p_H,p_{res}\}>1.
 \tag{4BF.216}
 ```
 
-Since the interval has finite length, every \(L^{p_i}\) component bound gives
-an \(L^{p_\ast}\) bound.  Minkowski gives
+The scalar inequality \([a+b]_+\le [a]_+ + [b]_+\), applied only after
+`(4BF.212)`, and Minkowski give
 
 ```math
 \boxed{
@@ -4466,7 +4504,9 @@ Thus:
 
 ```math
 \boxed{
-\text{component super-}L^1\text{ seeds}
+\text{full-packet order-lock admission}
++
+\text{same-packet super-}L^1\text{ channel estimates}
 \Longrightarrow
 \texttt{EndpointLpUpgradeFromFullNSPacket.A}
 \Longrightarrow
@@ -4475,8 +4515,17 @@ Thus:
 \tag{4BF.219}
 ```
 
-This removes the algebraic recombination bridge from the open list.  The
-remaining production burden is exactly the component seed trio:
+This removes only the algebraic recombination bridge after admission.  The
+remaining production burden is:
+
+```math
+\boxed{
+\texttt{FullParticipationOrderLock.A}
+}
+\tag{4BF.220}
+```
+
+followed, inside the same retained endpoint packet, by:
 
 ```math
 \boxed{
@@ -4484,10 +4533,11 @@ remaining production burden is exactly the component seed trio:
 +\texttt{AnnularPressureReverseHolder.A}
 +\texttt{EndpointResidueDensityPolicy.A}
 }
-\tag{4BF.220}
+\tag{4BF.220a}
 ```
 
-on the same retained endpoint packet.
+No detached estimate is promoted past diagnostic status before
+`FullParticipationOrderLock.A`.
 
 ## 35. Local finite-jet / harmonic pressure split
 
@@ -4714,13 +4764,23 @@ a\tau_m^{-1}{\bf 1}_{(-\tau_m,0]}(s).
 \tag{4BF.239}
 ```
 
-The corrected direct attempt therefore breaks at four exact producer clauses:
+The corrected direct attempt therefore breaks first at the full-participation
+order-lock identity, and only then at channel estimates inside that identity:
+
+```math
+\boxed{
+\texttt{FullParticipationOrderLock.A}
+}
+\tag{4BF.240}
+```
+
+After `(4BF.240)` is installed, the channel estimates are:
 
 ```math
 \boxed{
 \texttt{GaugeFixedSmoothTraceSuperL1.A}
 }
-\tag{4BF.240}
+\tag{4BF.241}
 ```
 
 for the transport, local-pressure, and lower-order smooth trace;
@@ -4729,7 +4789,7 @@ for the transport, local-pressure, and lower-order smooth trace;
 \boxed{
 \texttt{ViscousDrainPlacement.A}
 }
-\tag{4BF.241}
+\tag{4BF.242}
 ```
 
 meaning viscosity is kept as one visible dissipative channel inside the full
@@ -4741,7 +4801,7 @@ upgraded;
 \boxed{
 \texttt{AnnularPressureReverseHolder.A}
 }
-\tag{4BF.242}
+\tag{4BF.243}
 ```
 
 for \(Q_m^H-\Pi_{aff}Q_m^H\); and
@@ -4750,7 +4810,7 @@ for \(Q_m^H-\Pi_{aff}Q_m^H\); and
 \boxed{
 \texttt{EndpointResidueDensityOrAbsorption.A}
 }
-\tag{4BF.243}
+\tag{4BF.244}
 ```
 
 for legal, selector, signed, terminal, and geometry channels.
