@@ -363,6 +363,31 @@ That term belongs to the selector/collar channel.  If its terminal tail is
 absolutely continuous, the time/storage overlap is admitted into the annular
 stress/strain carrier and the endpoint pulse is excluded.
 
+For a same-fluid transported annular cutoff
+
+```math
+\phi_\sigma(y)=\psi(Y_\sigma(y)),
+\qquad
+(\partial_\sigma+V_\sigma\cdot\nabla)\phi_\sigma=0,
+\tag{OLO.24f}
+```
+
+the materiality defect vanishes and `(OLO.24d)` gives directly
+
+```math
+[-\partial_\sigma M_\sigma]_+
+\le
+2\nu\int\phi_\sigma |S(V_\sigma)|^2
++
+\left|\int V_\sigma\cdot T(V_\sigma,Q_\sigma)\nabla\phi_\sigma\right|.
+\tag{OLO.24g}
+```
+
+Thus the time/storage overlap enters \(A_{4B}\) through transported annular
+strain and stress-work.  The endpoint atom is removed on any retained
+positive-thickness transported annulus whose stress/strain carrier has uniform
+terminal absolute continuity.
+
 ## 5. Result
 
 Combining `(OLO.11)` through `(OLO.20)` gives
