@@ -114,9 +114,9 @@ Any residue channel that remains a singular finite measure is not part of
 `(ELU.3)`.  It must be absorbed before endpoint formation or routed to its
 typed branch.
 
-## 2. Component seed hypotheses
+## 2. Same-packet channel hypotheses after admission
 
-Assume the finite-jet seed:
+Assume the finite-jet channel bound inside the same admitted packet:
 
 ```math
 \boxed{
@@ -127,7 +127,8 @@ p_{jet}>1.
 \tag{ELU.5}
 ```
 
-Assume the harmonic pressure-memory seed:
+Assume the harmonic pressure-memory channel bound inside the same admitted
+packet:
 
 ```math
 \boxed{
@@ -138,7 +139,7 @@ p_H>1.
 \tag{ELU.6}
 ```
 
-Assume the residue density seeds:
+Assume the residue density channel bounds inside the same admitted packet:
 
 ```math
 \boxed{
@@ -156,7 +157,7 @@ Set
 ```math
 p_\ast
 =
-\min\{p_{jet},p_H,p_j:j\in\mathcal R\}.
+\min\{p_{ol},p_{jet},p_H,p_j:j\in\mathcal R\}.
 \tag{ELU.8}
 ```
 
@@ -173,14 +174,15 @@ Use the scalar inequality
 \tag{ELU.9}
 ```
 
-Then `(ELU.3)` gives pointwise in \(s\):
+Then `(ELU.3)` and `(ELU.3b)` give pointwise in \(s\):
 
 ```math
 \rho_m(s)
 \le
 [H_m^{jet}(s)]_+
 +[H_m^H(s)]_+
-+\sum_{j\in\mathcal R}\lambda_{j,m}(s).
++\sum_{j\in\mathcal R}\lambda_{j,m}(s)
++R_m^{ol}(s).
 \tag{ELU.10}
 ```
 
@@ -194,7 +196,8 @@ Minkowski therefore yields
 &\le
 \|[H_m^{jet}]_+\|_{L_s^{p_\ast}}
 +\|[H_m^H]_+\|_{L_s^{p_\ast}}
-+\sum_{j\in\mathcal R}\|\lambda_{j,m}\|_{L_s^{p_\ast}}\\
++\sum_{j\in\mathcal R}\|\lambda_{j,m}\|_{L_s^{p_\ast}}
++\|R_m^{ol}\|_{L_s^{p_\ast}}\\
 &\le C.
 \end{aligned}
 \tag{ELU.11}
@@ -210,7 +213,8 @@ Thus:
 \tag{ELU.12}
 ```
 
-This proves `EndpointLpUpgradeFromFullNSPacket.A` from the component seeds.
+This proves `EndpointLpUpgradeFromFullNSPacket.A` from full-packet order-lock
+admission plus same-packet channel bounds.
 
 ## 4. Endpoint uniform integrability follows
 
@@ -246,7 +250,8 @@ and hence
 \tag{ELU.15}
 ```
 
-So the component seeds imply `EndpointUniformIntegrabilityReserve.A`.
+So the order-locked same-packet channel bounds imply
+`EndpointUniformIntegrabilityReserve.A`.
 
 ## 5. Relation to the tower and pressure notes
 
