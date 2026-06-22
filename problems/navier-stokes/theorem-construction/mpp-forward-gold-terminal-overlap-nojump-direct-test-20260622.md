@@ -241,14 +241,16 @@ Combining this note with the order-lock overlap payment surface gives
 \boxed{
 \texttt{OrderLockOverlapFourBodyPayment.A}
 \Leftarrow
-\texttt{PressurePartnerCompatibility.A}
-+
-\texttt{TerminalOverlapNoJump.A}
-+
 \texttt{NoFreeTerminalZenoDonorChain.A}.
 }
 \tag{TON.13}
 ```
+
+The earlier pressure and terminal-overlap gates are discharged below for the
+order-locked transported velocity-pressure tower.  Local pressure is a
+same-cutoff collar trace, and the terminal time/storage overlap is restored to
+the transported outer-annulus carrier and counted in \(A_{4B}\) on the fixed
+transported annular atlas.
 
 The terminal term in `(TON.13)` is produced by any one of:
 
