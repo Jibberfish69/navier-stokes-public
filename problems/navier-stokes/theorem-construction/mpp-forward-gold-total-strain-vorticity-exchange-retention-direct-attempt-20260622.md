@@ -123,6 +123,49 @@ Thus another sufficient record is the critical density
 
 or any same-packet strain/vorticity variant that controls `(TSV.7)`.
 
+This critical density is the heat-scale visible form of the annular strain
+history.  For
+
+```math
+V_r(s,y)=r\,u(t_r+r^2s,x_r+ry),
+\tag{TSV.8a}
+```
+
+we have
+
+```math
+\nabla_yV_r(s,y)
+=
+r^2\nabla_xu(t_r+r^2s,x_r+ry),
+\qquad
+dy\,ds=r^{-5}\,dx\,dt .
+\tag{TSV.8b}
+```
+
+Hence
+
+```math
+\int_{-1}^{0}\int_{\widehat A_r}
+|\nabla_yV_r|^3\,dy\,ds
+=
+r
+\int_{t_r-r^2}^{t_r}
+\int_{A_r(t)}
+|\nabla_xu|^3\,dx\,dt .
+\tag{TSV.8c}
+```
+
+For a heat-scale strain event with
+
+```math
+|\nabla_xu|\simeq r^{-2}
+\tag{TSV.8d}
+```
+
+on a parabolic region of size \(r^3\cdot r^2\), the right side of `(TSV.8c)`
+is order one.  Thus `(TSV.8)` is not erased by the shrinking physical radius;
+it is the normalized same-annulus strain-history readout.
+
 ## 2. Why energy and signed enstrophy do not produce it
 
 The physical dissipation of one heat-scale packet carries the radius discount:
