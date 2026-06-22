@@ -11,9 +11,8 @@ edge_effect: >-
   overlap kills the terminal atom. The spike/annulus correction restores the
   overlap to its transported outer-annulus stress/strain carrier. Transported
   cutoffs discharge the materiality defect exactly. Thus the remaining
-  admission mechanism is not a detached endpoint density reserve; it is uniform
-  terminal tail control of the transported annular carrier, or admission of that
-  carrier as visible A_4B participation.
+  admission mechanism is uniform terminal tail control of the transported
+  annular carrier, or admission of that carrier as visible A_4B participation.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-endpoint-nojump-direct-test-20260621.md
