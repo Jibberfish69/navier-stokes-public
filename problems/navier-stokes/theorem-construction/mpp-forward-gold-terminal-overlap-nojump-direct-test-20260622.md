@@ -1095,6 +1095,11 @@ term `(TON.70)` is exactly
 \tag{TON.76}
 ```
 
+This is the exact \(4\nu\) representative inherited from the localized Young
+split.  At the packet level it is still the single viscous collar channel
+\(\nu |V_m|^2|\nabla_y\eta_m|^2\), with constants absorbed inside the same
+participation object.
+
 Let the common label collar be \(A_{\sharp,m}=\operatorname{supp}\nabla\zeta_m\)
 and set
 
