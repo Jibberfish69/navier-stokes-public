@@ -108,13 +108,17 @@ where
 \int[-b_\sigma]_+.
 ```
 
-Thus the native-to-four-body problem is exactly the partner-deficit problem:
+Thus the native-to-four-body problem is not the whole partner deficit.  The
+whole deficit is only a sufficient envelope.  The exact admission problem is
+the order-lock overlap:
 
 ```math
 \boxed{
-\Delta_{\rm partner}
-\le
-C A_{4B}+R_{\rm legal}
+\Delta_{\rm ol}
+=
+\int\min\{[n_\sigma]_+,[-b_\sigma]_+\}
+\leadsto
+A_{4B}
 \quad\text{or typed CM exit.}
 }
 ```
