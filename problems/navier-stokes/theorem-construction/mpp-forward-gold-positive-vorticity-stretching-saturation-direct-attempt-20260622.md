@@ -7,8 +7,8 @@ edge_effect: >-
   The signed same-packet identity pays int phi omega dot S omega, but the gold
   carrier is int phi [omega dot S omega]_+. Algebraically, positive part equals
   signed value plus negative partner, so no signed ledger can pay the selected
-  positive carrier unless the negative partner is retained on the same packet,
-  routed to legal/collar loss, or an absolute stretching reserve is proved.
+  positive carrier unless the negative partner is retained on the same packet
+  or the total strain-vorticity exchange is retained.
   Local divergence-free jets can realize positive and negative stretching in
   separated lobes while the signed integral cancels, so the saturation theorem
   is not a pointwise algebraic consequence of incompressibility. The corrected
@@ -197,21 +197,19 @@ The direct positive-part saturation attempt first gives:
 \tag{PVS.13}
 ```
 
-The missing gold clause is:
+The corrected retained-branch clause is:
 
 ```math
 \boxed{
-\texttt{PositiveVorticityStretchingSaturation.A}
+\texttt{TotalStrainVorticityExchangeRetention.A}
 }
 \tag{PVS.14}
 ```
 
-meaning: the negative stretching partner, transport partner, curl-source
-partner, collar term, or finite-rung Field record must remain order-locked to
-the same material packet whenever the selected positive stretching carrier
-survives.
+meaning: the total strain-vorticity exchange must remain order-locked to the
+same material packet whenever the selected positive stretching carrier survives.
 
-Equivalently, prove an absolute same-packet reserve:
+Equivalently, retain the total same-packet exchange:
 
 ```math
 \boxed{
@@ -222,8 +220,8 @@ Equivalently, prove an absolute same-packet reserve:
 \tag{PVS.15}
 ```
 
-Current installed inputs give exact readouts and CM consumers for this carrier,
-but not the pure forward-gold saturation/reserve.
+Current installed inputs give exact readouts and CM consumers for this carrier.
+The retained-branch production is the total-exchange admission below.
 
 The total-exchange correction supplies the retained-branch saturation.  Define
 
