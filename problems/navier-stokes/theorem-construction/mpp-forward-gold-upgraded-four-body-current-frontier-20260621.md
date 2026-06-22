@@ -3636,6 +3636,48 @@ R_m^{legal}(s).
 Thus `(4BF.157)` follows from a same-carrier reverse Holder estimate for the
 right-hand side of `(4BF.161)`, but that estimate is not installed.
 
+The harmonic pressure term inside `(4BF.161)` has its own sharpened producer:
+
+```math
+\boxed{
+\texttt{AnnularPressureReverseHolder.A}.
+}
+\tag{4BF.161a}
+```
+
+After the Galilean/affine-pressure quotient, the target is
+
+```math
+\boxed{
+\sup_m
+\left\|
+\left[
+\int
+(Q_m^H-\Pi_{aff}Q_m^H)
+U_m\cdot\nabla\chi_m\,dy
+\right]_+
+\right\|_{L_s^{1+\varepsilon}}
+<\infty.
+}
+\tag{4BF.161b}
+```
+
+The direct pressure attempt reduces this to annular harmonic pressure service:
+
+```math
+\|Q_m^H-\Pi_{aff}Q_m^H\|_{L_s^aL_y^{3/2}(annulus)}
+\le C,
+\qquad
+\|U_m\|_{L_s^bL_y^3(collar)}\le C,
+\qquad
+{1\over a}+{1\over b}<1.
+\tag{4BF.161c}
+```
+
+Current harmonic-pressure routing gives finite collar/legal/terminal visibility.
+It does not prove `(4BF.161b)`.  So harmonic pressure is now a live
+super-\(L^1\) endpoint density problem, not a routed finite measure problem.
+
 The mixed tower gives the more precise next target.  A terminal pulse has
 large time variation and large fractional time regularity cost.  Therefore a
 positive temporal trace-regularity estimate would imply the \(L_s^p\) reserve:
