@@ -4042,3 +4042,98 @@ The interior finite-jet tower and annular pressure tower supply this for the
 NS field-density channels under positive radius survival.  The residue policy
 prevents construction residues from reintroducing the terminal \(L^1\)-pulse as
 an unexamined finite measure.
+
+The assembly theorem is now exact:
+
+```math
+\boxed{
+\text{interior finite-jet tower UI}
++\text{annular pressure-tower UI}
++\text{residue density/absorption policy}
+\Longrightarrow
+\texttt{EndpointUniformIntegrabilityReserve.A}.
+}
+\tag{4BF.187}
+```
+
+Contrapositively, on the residue-policy branch,
+
+```math
+\boxed{
+\neg\texttt{EndpointUniformIntegrabilityReserve.A}
+\Longrightarrow
+\text{canonical interior tower collapse}
+\quad\text{or}\quad
+\text{canonical annular pressure-tower collapse}.
+}
+\tag{4BF.188}
+```
+
+The word canonical matters.  The collapsing radius must be read from the
+admissible tower-energy set, not chosen freely.  Arbitrary radius collapse has
+no theorem content, since even the zero solution can be assigned a collapsing
+radius.
+
+Canonical tower collapse then splits as
+
+```math
+\boxed{
+\text{finite-rung readout}
+\quad\text{or}\quad
+\text{high-rung-only analytic-radius failure}.
+}
+\tag{4BF.189}
+```
+
+The high-rung-only branch is not endpoint UI failure by itself:
+
+```math
+\boxed{
+\text{high-rung-only analytic-radius failure}
+\not\Longrightarrow
+\neg\texttt{EndpointUniformIntegrabilityReserve.A}.
+}
+\tag{4BF.190}
+```
+
+Nor does high-rung analytic tail mass dominate the finite-order selected
+carrier:
+
+```math
+\boxed{
+\text{high-rung analytic tail divergence}
+\not\Longrightarrow
+\text{finite-order selected carrier mass}.
+}
+\tag{4BF.191}
+```
+
+However, for a genuine selected source atom after the tensor-action branch and
+height branch are removed, the high-rung-only explanation is pruned.  The
+selected atom forces fixed finite Sobolev rung blowup:
+
+```math
+\boxed{
+\theta_m
+\operatorname*{ess\,sup}_{s\in I_m}
+\|v_m(s)\|_{H^{\gamma+1}}^2
+\to\infty
+\qquad
+\gamma>{5\over2}.
+}
+\tag{4BF.192}
+```
+
+Thus the remaining exact endpoint UI failure fork is:
+
+```math
+\boxed{
+\begin{gathered}
+\text{residue-policy failure;}\\
+\text{finite-rung tower/Field readout;}\\
+\text{selected-source finite Sobolev rung blowup after tensor/height pruning;}\\
+\text{or high-rung-only analytic failure needing no-waste/action/profile.}
+\end{gathered}
+}
+\tag{4BF.193}
+```
