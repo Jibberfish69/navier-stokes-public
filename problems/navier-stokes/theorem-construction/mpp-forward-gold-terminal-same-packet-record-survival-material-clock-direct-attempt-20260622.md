@@ -138,6 +138,24 @@ F(a,t)^{-T}\nabla_a\zeta(a),
 
 so bounded \(F^{-1}\) keeps the collar geometry under control.
 
+Conversely, this is the exact same-material obstruction to unlimited spike-base
+thinning.  If a material line element or collar thickness in the retained
+annulus changes by a factor \(\Lambda\) on a time interval \(I\), then the
+metric identity `(MCR.7)` gives
+
+```math
+\int_I
+\|S(t)\|_{L^\infty(X(A_\sharp,t))}\,dt
+\ge
+\log\Lambda .
+\tag{MCR.10a}
+```
+
+So, on one retained material packet, the annulus can hold the later
+stress/strain return smoothly only by recording the corresponding strain-clock
+amount.  A spike base cannot thin without that deformation appearing in the
+same annular strain record.
+
 Full same-packet record survival also requires the velocity-pressure finite
 tower to remain controlled in this material frame.  A compact statement is:
 
