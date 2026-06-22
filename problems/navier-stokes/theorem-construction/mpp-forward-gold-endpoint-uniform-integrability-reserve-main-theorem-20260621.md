@@ -373,12 +373,13 @@ and then the existing native bridge yields
 
 ```math
 A_{\rm native}
-\le
-C A_{4B}+R_{\rm legal}+T_\sigma
+\leadsto
+A_{4B}
 \tag{EUI.30}
 ```
 
-on the no-exit branch.
+on the no-exit branch.  The legal/collar/tail channels are internal to the
+oriented \(A_{4B}\) package, not external accounts after it.
 
 The four-body loop is still useful, but it is not the endpoint theorem.  It
 provides packet payment and same-carrier bookkeeping.  The terminal pulse is
