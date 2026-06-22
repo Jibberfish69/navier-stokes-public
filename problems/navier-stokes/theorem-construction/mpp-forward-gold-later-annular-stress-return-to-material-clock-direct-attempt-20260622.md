@@ -296,3 +296,61 @@ is the unweighted normalized terminal modulus
 ```
 
 This is exactly `UniformLaterAnnularReturnModulus.A`.
+
+## 7. Infinite material Zeno chain test
+
+The direct no-free-chain test gives the same obstruction in finite-chain
+language.  For nested material annuli, every finite chain is paid by
+stress-work cancellation:
+
+```math
+W_0(I)
+=
+W_M(I)
+-
+\sum_{j=1}^{M}
+\left(E_{A_j}(b)-E_{A_j}(a)\right)
+-
+\sum_{j=1}^{M}D_{A_j}(I).
+\tag{LAS.24}
+```
+
+At heat scale \(r_j\), however, the physical shell quantities scale like
+
+```math
+E_{A_j}\sim r_j,
+\qquad
+D_{A_j}\sim r_j,
+\qquad
+W_j\sim r_j,
+\tag{LAS.25}
+```
+
+while the normalized packet quantities divide by \(r_j\):
+
+```math
+\widehat E_{A_j}=r_j^{-1}E_{A_j},
+\qquad
+\widehat D_{A_j}=r_j^{-1}D_{A_j},
+\qquad
+\widehat W_j=r_j^{-1}W_j.
+\tag{LAS.26}
+```
+
+Thus a dyadic terminal chain can have
+
+```math
+\sum_j r_j\widehat E_{A_j}<\infty
+\tag{LAS.27}
+```
+
+while still allowing order-one normalized return at each scale:
+
+```math
+\widehat E_{A_j}\sim1.
+\tag{LAS.28}
+```
+
+So the no-free infinite material Zeno stress-chain theorem is not produced by
+finite physical energy or finite-chain telescoping alone.  It is precisely the
+same unweighted normalized annular reserve as `(LAS.23)`.
