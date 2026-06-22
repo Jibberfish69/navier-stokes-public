@@ -42,18 +42,55 @@ where \(d\mu_m=\rho_m(s)\,ds\) is the full same-carrier endpoint packet
 measure after all singular residues have been absorbed or converted into
 density channels.
 
-This note proves the assembly step from component seeds to `(ELU.2)`.
+This note proves only the algebraic assembly step after full participation
+order-lock admission.  It does not license finite-jet, pressure, viscosity, or
+residue estimates as independent producers.
 
-## 1. Full endpoint density split
+## 1. Full-packet admission before any split
 
-After Galilean and affine-pressure gauge choices, write the endpoint density as
+The required admission is:
 
 ```math
 \rho_m(s)
-=
-[H_m^{jet}(s)+H_m^{H}(s)]_+
-+\sum_{j\in\mathcal R}\lambda_{j,m}(s),
+\le
+[h_m(s)]_+
+R_m^{ol}(s),
+\qquad
+\sup_m\|R_m^{ol}\|_{L_s^{p_{ol}}}<\infty,
+\quad p_{ol}>1.
 \tag{ELU.3}
+```
+
+Here \(h_m\) is the recombined scalar of the same full packet before
+positive-part extraction:
+
+```math
+h_m
+=
+\left\langle
+N_m+P_m+V_m+T_m+I_m+L_m+S_m,
+\Phi_m
+\right\rangle
+-cD_m^\nu .
+\tag{ELU.3a}
+```
+
+Only after `(ELU.3)` may the scalar be decomposed as
+
+```math
+h_m
+=
+H_m^{jet}+H_m^H+H_m^{res},
+\tag{ELU.3b}
+```
+
+where \(H_m^{res}\) is the sum of the residue densities
+
+```math
+H_m^{res}
+=
+\sum_{j\in\mathcal R}\lambda_{j,m},
+\tag{ELU.3c}
 ```
 
 where
@@ -71,7 +108,7 @@ Here:
   density;
 * \(H_m^H\) is the harmonic pressure-memory density;
 * \(\lambda_{j,m}\ge0\) are the residue densities that are still allowed to
-  enter the gold endpoint measure.
+  enter the gold endpoint measure after order-lock admission.
 
 Any residue channel that remains a singular finite measure is not part of
 `(ELU.3)`.  It must be absorbed before endpoint formation or routed to its
