@@ -190,7 +190,7 @@ r
 
 Therefore a terminal dyadic stack can have finite physical dissipation while
 the material strain-metric clock sees order-one events at infinitely many
-scales.  Energy does not prove `(MCR.6)`.
+scales.  Energy does not prove `(MCR.8)`.
 
 ## 4. The collar coefficient correction
 
@@ -213,7 +213,8 @@ with constants absorbed.  This collar channel stays inside the same
 pressure-viscosity-incompressibility-velocity participation packet; it is not
 a separate viscosity-only supplier.
 
-In material coordinates, `(MCR.14)` is controlled by the same deformation clock:
+In material coordinates, `(MCR.16)` is controlled by the same material geometry
+record:
 
 ```math
 \nu\int |V(t,y)|^2|\nabla_y\eta(t,y)|^2\,dy
@@ -244,7 +245,7 @@ The sharpened fork is:
 Pack_Q+\neg Part_{N,Q}.
 \end{array}
 }
-\tag{MCR.16}
+\tag{MCR.18}
 ```
 
 The pure forward-positive gold theorem would be:
@@ -257,9 +258,9 @@ OriginalSmoothData
 \mathcal P_{N,Q}^{mat}(u(t),p(t),X(t),F(t))
 <\infty .
 }
-\tag{MCR.17}
+\tag{MCR.19}
 ```
 
-The current inputs do not prove `(MCR.17)`.  They prove the retained branch is
+The current inputs do not prove `(MCR.19)`.  They prove the retained branch is
 paid once the record survives.  They also identify loss of the record as the
 Part face in the CM contrapositive route.
