@@ -3440,7 +3440,18 @@ so `(4BF.157)` implies endpoint no-jump once the legal, signed, selector,
 terminal, and geometry endpoint measures have the matching weighted control.
 
 The direct production step does not follow from the current four-body payment.
-The selected full-packet identity gives
+The selected full-packet identity directly pays the order-locked density
+\(h_\sigma\), not automatically the endpoint local-energy trace \(H_m\).  The
+endpoint trace estimate therefore also needs same-carrier trace identification:
+
+```math
+\boxed{
+\texttt{FullPacketDensityEndpointTraceIdentification.A}.
+}
+\tag{4BF.158a}
+```
+
+After that identification, the four-body payment gives only
 
 ```math
 \int_{-1}^{0}[H_m(s)]_+\,ds\le C,
