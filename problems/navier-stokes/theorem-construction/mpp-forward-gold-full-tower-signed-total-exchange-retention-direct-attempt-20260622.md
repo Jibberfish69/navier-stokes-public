@@ -298,3 +298,25 @@ Pack_Q+\neg Part_{N,Q}.
 The branch is therefore exactly located.  The remaining pure gold theorem is
 strict same-packet cycle-exchange coercivity for the full transported material
 tower.
+
+After the simultaneous material-packet correction, this theorem is an internal
+face of
+
+```math
+\texttt{SimultaneousMaterialFourBodyPacketCoercivity.A}.
+\tag{FTR.22}
+```
+
+The signed-total exchange retention problem is solved if the single
+bounded-below symmetrized functional
+
+```math
+L_S+L_Q+L_C+L_G+X_{SQ}+X_{QC}+X_{CG}+X_{GS}
+\tag{FTR.23}
+```
+
+is constructed from the transported material law and its derivative controls
+the four-body activity, material-record positive log growth, and strict
+nonnegative loss at once.  Thus `(FTR.13)` is no longer a separate supplier
+target; it is one necessary cancellation/coercivity face of the simultaneous
+packet estimate.
