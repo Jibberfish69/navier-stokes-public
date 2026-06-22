@@ -1,18 +1,19 @@
 ---
 theorem_id: forward-gold-terminal-overlap-nojump-direct-test-20260622
-status: exact-consumer-proved-production-open-heat-scale-overlap-pulse
+status: exact-consumer-proved-transported-annular-carrier-tail-open
 logical_landing_node: terminal_overlap_nojump
 edge_effect: >-
   Tests TerminalOverlapNoJump.A on the exact order-lock overlap left by
   OrderLockOverlapFourBodyPayment.A. The live object is not terminal storage
   AC by itself and not full endpoint measure AC by itself. It is the same-carrier
   overlap between native positive activity and the negative time/storage partner.
-  The consumer is exact: Hardy, Orlicz, or L_s^q endpoint uniform integrability
-  of this overlap measure kills the terminal atom. Current inputs do not produce
-  that uniform integrability; the terminal heat-scale overlap pulse survives
-  finite isolated L_s^1 overlap mass and bounded storage. Thus the remaining
-  admission mechanism must be stated directly in the coupled participation
-  language for the same retained packet.
+  The consumer is exact: uniform terminal tail control of this same-packet
+  overlap kills the terminal atom. The spike/annulus correction restores the
+  overlap to its transported outer-annulus stress/strain carrier. Transported
+  cutoffs discharge the materiality defect exactly. Thus the remaining
+  admission mechanism is not a detached endpoint density reserve; it is uniform
+  terminal tail control of the transported annular carrier, or admission of that
+  carrier as visible A_4B participation.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-endpoint-nojump-direct-test-20260621.md
@@ -757,8 +758,114 @@ continuity of this transported annular carrier:
 \tag{TON.55}
 ```
 
-On a retained positive-thickness transported annulus with bounded smooth
-stress/strain carrier, `(TON.55)` is ordinary absolute continuity.  If
-`(TON.55)` fails, the endpoint pulse has not hidden at the center; it has
-become visible annular stress/strain participation on the same four-body
-carrier.
+The point is uniformity.  Ordinary absolute continuity of one fixed packet does
+not rule out a sequence of terminal pulses.  The proof needs the retained
+transported annular carriers to have a uniform terminal tail, or it needs the
+failure of that tail to be counted as visible same-carrier \(A_{4B}\)
+participation.
+
+## 11. Uniform transported-carrier tail or four-body contradiction
+
+Define the transported annular carrier density
+
+```math
+C_m(s)
+:=
+2\nu\int\phi_m|S_y(V_m)|^2\,dy
++
+\left|\int V_m\cdot T_m\nabla\phi_m\,dy\right|.
+\tag{TON.56}
+```
+
+Then `(TON.54)` is exactly
+
+```math
+\nu_m^{ol}((-\theta,0])
+\le
+\int_{-\theta}^{0}C_m(s)\,ds .
+\tag{TON.57}
+```
+
+So the endpoint no-jump statement follows from the same-carrier uniform tail
+
+```math
+\lim_{\theta\downarrow0}\limsup_m
+\int_{-\theta}^{0}C_m(s)\,ds
+=0.
+\tag{TON.58}
+```
+
+This is the precise version of the annular "later-on" statement.  The center
+time-face pulse is ruled out because its required storage drop is bounded by
+stress/strain work carried by the surrounding transported annulus.
+
+A usable sufficient form is uniform integrability of the same carrier:
+
+```math
+\sup_m
+\int_{-1}^{0}\Psi(C_m(s))\,ds
+<\infty,
+\qquad
+{\Psi(r)\over r}\to\infty .
+\tag{TON.59}
+```
+
+The \(L_s^q\) version with \(q>1\) is only a special case of `(TON.59)`.
+The object remains \(C_m\), the transported outer-annulus stress/strain carrier;
+the integrability language is a way to express its uniform terminal tail, not a
+replacement object.
+
+If `(TON.58)` fails, then there are \(\epsilon_0>0\), \(\theta_j\downarrow0\),
+and retained packets \(m_j\) such that
+
+```math
+\int_{-\theta_j}^{0}C_{m_j}(s)\,ds
+\ge
+\epsilon_0 .
+\tag{TON.60}
+```
+
+That is no longer a hidden center atom.  It is positive transported-annular
+stress/strain participation.  The remaining order-lock admission statement is
+therefore the bounded-overlap four-body counting line:
+
+```math
+\sum_j
+\int_{-\theta_j}^{0}C_{m_j}(s)\,ds
+\le
+C
+\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma .
+\tag{TON.61}
+```
+
+Once `(TON.61)` is installed for a disjoint or bounded-overlap terminal
+subsequence, `(TON.60)` cannot hold infinitely often, because the four-body loop
+already gives
+
+```math
+\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma<\infty .
+\tag{TON.62}
+```
+
+Thus the smoothness contradiction has this exact form:
+
+```math
+\text{finite-time spike}
+\Rightarrow
+\text{positive endpoint overlap at infinitely many heat scales}
+\Rightarrow
+\text{positive transported annular carrier at those scales}
+\Rightarrow
+\sum_j \epsilon_0
+\le
+C\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma
+<\infty,
+\tag{TON.63}
+```
+
+which is impossible.
+
+Therefore the remaining gold-side bridge is exactly this: the transported
+outer-annulus stress/strain carrier \(C_m\) must either satisfy the uniform
+terminal tail `(TON.58)`, or be admitted into the bounded-overlap \(A_{4B}\)
+counting line `(TON.61)`.  No center-only endpoint reserve remains.
