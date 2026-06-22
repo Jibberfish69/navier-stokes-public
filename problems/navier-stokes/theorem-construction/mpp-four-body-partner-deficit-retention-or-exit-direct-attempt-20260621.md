@@ -60,8 +60,8 @@ So the remaining theorem was proposed as:
 \Delta_{\rm partner}(\sigma)
 :=
 \int[-b_\sigma]_+
-\le
-C A_{4B}(\sigma)+R_{\rm legal}(\sigma)
+\leadsto
+A_{4B}(\sigma)
 }
 \tag{PDO.4}
 ```
