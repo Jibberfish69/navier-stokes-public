@@ -3351,39 +3351,16 @@ object or routes it to a CM exit.  It does not prove that the two CM exits are
 impossible from original smooth data.
 
 The older uniform normalized local energy-pressure direct test is now only a
-sufficient readout route.  It helps only after it is tied to the actual
-transported annular carrier \(C_m\).  The raw retained packet bound is
-
-```math
-\sup_m
-\left(
-\|V_m\|_{L_s^\infty L_y^2}^2
-+\|\nabla_yV_m\|_{L^2_{s,y}}^2
-+\|Q_m\|_{L^{5/3}_{s,y}}^{5/3}
-\right)<\infty .
-\tag{4BF.135}
-```
-
-By itself, `(4BF.135)` does not state the participation reserve.  The current
-object is
-
-```math
-\texttt{TerminalOverlapNoJump.A}
-\quad\text{for the transported annular carrier }C_m.
-\tag{4BF.136}
-```
-
-No detached readout family is a peer route here.  A readout becomes relevant
-only after it is rewritten as the same coupled participation statement for
-\(C_m\) inside \(A_{4B}\).  Therefore the exact remaining fork is
+sufficient readout route.  It is not the live object.  After the
+transported-annular update, the exact remaining fork is
 
 ```math
 \boxed{
-\texttt{TerminalOverlapNoJump.A for }C_m
+\texttt{NoFreeTerminalZenoDonorChain.A through same-packet total exchange}
 \quad\text{or}\quad
-\text{CM endpoint Field/Part face after same-witness admission.}
+\text{CM Part face after same-witness admission.}
 }
-\tag{4BF.137}
+\tag{4BF.136}
 ```
 
 The CM-exit exclusion boundary recheck then separates two readings of that
