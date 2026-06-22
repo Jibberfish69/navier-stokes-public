@@ -1,7 +1,7 @@
 ---
 theorem_id: mpp-four-body-partner-polar-payment-direct-attempt-20260621
-status: polar-pair-payment-reduces-to-pressure-compatible-tests-plus-terminal-trace-ac-nowaste
-logical_landing_node: partner_polar_four_body_payment_direct_attempt
+status: superseded-overpayment-order-lock-overlap-is-sharper-live-object
+logical_landing_node: order_lock_overlap_payment_direct_attempt
 parents:
   - problems/navier-stokes/theorem-construction/mpp-four-body-partner-deficit-retention-or-exit-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-selected-full-packet-production-step-20260621.md
@@ -11,14 +11,14 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-upgraded-four-body-current-frontier-20260621.md
 ---
 
-# Partner Polar Four-Body Payment: Direct Attempt
+# Order-Lock Overlap Payment: Direct Attempt
 
 Date: 2026-06-21
 
 ## 0. Target
 
 The direct partner-deficit theorem failed because retained cancellation is not
-payment.  The corrected channel-first comparison is:
+payment.  The old polar-pair comparison was a sufficient overpayment:
 
 ```math
 A_{\rm native}
@@ -31,6 +31,34 @@ A_{\rm pair}
 +
 \int[-b_\sigma]_+,
 \tag{PPD.1}
+```
+
+The sharper live comparison uses only the order-lock overlap:
+
+```math
+\Delta_{\rm ol}
+=
+\int\min\{[n_\sigma]_+,[-b_\sigma]_+\}.
+\tag{PPD.1a}
+```
+
+Define
+
+```math
+A_{\rm ol}
+:=
+\int[h_\sigma]_+
++\Delta_{\rm ol}.
+\tag{PPD.1b}
+```
+
+Then
+
+```math
+\boxed{
+A_{\rm native}\le A_{\rm ol}\le A_{\rm pair}.
+}
+\tag{PPD.1c}
 ```
 
 where
@@ -49,14 +77,15 @@ The theorem tested here is:
 
 ```math
 \boxed{
-\texttt{PartnerPolarFourBodyPayment.A:}
+\texttt{OrderLockOverlapFourBodyPayment.A:}
 \qquad
-\int_{\sigma_0}^{\infty}A_{\rm pair}(\sigma)\,d\sigma<\infty
+\int_{\sigma_0}^{\infty}A_{\rm ol}(\sigma)\,d\sigma<\infty
 }
 \tag{PPD.3}
 ```
 
-or a typed Pack/Part/Field exit.
+or a typed Pack/Part/Field exit.  The older polar-pair theorem remains a
+sufficient stronger theorem.
 
 ## 1. Full-packet half is already paid
 
@@ -76,12 +105,12 @@ d\mathfrak M_{vis}
 \tag{PPD.4}
 ```
 
-with \(T\in L^1_\sigma\).  Thus only the retained partner-deficit half
+with \(T\in L^1_\sigma\).  Thus only the order-lock overlap
 
 ```math
-\Delta_{\rm partner}
+\Delta_{\rm ol}
 =
-\int[-b_\sigma]_+
+\int\min\{[n_\sigma]_+,[-b_\sigma]_+\}
 \tag{PPD.5}
 ```
 
@@ -112,8 +141,18 @@ Then:
 \tag{PPD.7}
 ```
 
-The task is to price each partner on the same carrier, without replacing the
-full participation tuple by a scalar source-square estimate.
+The task is to price the overlap on the same carrier.  Pricing every term in
+`(PPD.7)` remains a valid overpayment route, because
+
+```math
+\Delta_{\rm ol}
+\le
+\int[-b_\sigma]_+.
+\tag{PPD.7a}
+```
+
+The proof may not replace the full participation tuple by a scalar source-square
+estimate.
 
 ## 3. Pressure partner
 
@@ -292,7 +331,7 @@ Combining the channel estimates gives:
 
 ```math
 \boxed{
-A_{\rm pair}
+A_{\rm ol}
 \le
 -\partial_\sigma\Phi_\sigma^{cap}
 +\mathfrak M_{full}
@@ -305,13 +344,14 @@ A_{\rm pair}
 ```
 
 where \(\mathcal Z_{\rm donor}\) is the infinite terminal Zeno donor-chain
-residual after finite signed-saturation has been paid.
+residual after finite signed-saturation has been paid.  This estimate is
+obtained by the overpayment route \(\Delta_{\rm ol}\le\int[-b_\sigma]_+\).
 
 Consequently:
 
 ```math
 \boxed{
-\texttt{PartnerPolarFourBodyPayment.A}
+\texttt{OrderLockOverlapFourBodyPayment.A}
 }
 \tag{PPD.24}
 ```
@@ -344,9 +384,10 @@ profile-production alternatives.
 
 ## 8. Final state
 
-The polar-pair route is useful because it fixes the algebraic mistake:
+The old polar-pair route was useful because it fixed the algebraic mistake:
 retained cancellation is no longer treated as payment unless the retained
-deficit is itself part of the selected activity being paid.
+deficit is itself part of the selected activity being paid.  The sharper
+order-lock route pays only the actual cancellation overlap.
 
 It does not supply a smaller Navier-Stokes theorem from current inputs.
 
@@ -363,7 +404,7 @@ or:
 
 ```math
 \boxed{
-\text{pay the polar-pair activity by pressure-compatible tests plus terminal
+\text{pay the order-lock overlap by pressure-compatible tests plus terminal
 trace AC / strict no-waste / no-free Zeno / profile production.}
 }
 \tag{PPD.28}
@@ -371,4 +412,5 @@ trace AC / strict no-waste / no-free Zeno / profile production.}
 
 Lost partners still route to the typed terminal trace, donor/saturation,
 selector/collar, pressure-memory, geometry, or Field branches.  Retained
-partners require polar-pair payment.
+partners require order-lock-overlap payment.  Paying the whole partner deficit
+remains a valid but nonminimal overpayment.
