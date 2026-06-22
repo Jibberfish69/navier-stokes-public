@@ -1,5 +1,4 @@
 ---
-
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
 status: order-lock-overlap-frontier-terminal-overlap-nojump-open
 logical_landing_node: upgraded_four_body_current_frontier
