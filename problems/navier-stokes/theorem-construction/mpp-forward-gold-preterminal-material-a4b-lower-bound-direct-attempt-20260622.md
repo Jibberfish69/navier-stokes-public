@@ -1,10 +1,10 @@
 ---
 theorem_id: forward-gold-preterminal-material-a4b-lower-bound-direct-attempt-20260622
-status: retained-gauge-fixed-lower-bound-proved-by-lossless-rigidity-endpoint-production-open
+status: retained-gauge-fixed-material-packet-lower-bound-proved-by-lossless-rigidity-endpoint-production-open
 logical_landing_node: preterminal_material_packet_a4b_lower_bound
 edge_effect: >-
   Proves the lower-bound admission inside the retained gauge-fixed compactness
-  class: a preterminal material packet with non-removable critical density
+  class: a preterminal material heat-scale packet with non-removable critical density
   cannot have vanishing same-carrier A_4B participation, because the Body II/III
   lossless branch converges to a Galilean/affine-pressure gauge packet. The
   remaining open production step is endpoint singularity to retained gauge-fixed
@@ -16,7 +16,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mcp-moving-cylinder-ckn-admissibility-lemma-f2a546e26f.md
 ---
 
-# Preterminal Material \(A_{4B}\) Lower-Bound Direct Attempt
+# Preterminal Material Packet \(A_{4B}\) Lower-Bound Direct Attempt
 
 Date: 2026-06-22
 
@@ -48,7 +48,7 @@ gauge-fixed material packet.  That production step is separated in Section 5.
 
 ## 1. Gauge-fixed critical density
 
-On a retained material packet \(P\), let \(U\) and \(\Pi\) be the normalized
+On a retained material heat-scale packet \(P\), let \(U\) and \(\Pi\) be the normalized
 velocity and pressure in the transported packet coordinates.  Remove the
 removable gauge modes:
 
@@ -94,6 +94,12 @@ This is the correct critical visibility for the four-body route.  Raw CKN mass
 is not enough, because Galilean or affine-pressure gauge content can be large
 without being singular participation activity.
 
+The packet \(P\) may be a transported core cylinder or a transported annular
+shell.  The annular form is essential for the endpoint time/storage overlap
+theorem.  The preterminal critical lower-bound bypass only needs a retained
+material heat-scale packet with its own log-scale interval; a nested child core
+is still a packet at the next microscope.
+
 ## 2. Lower-bound theorem inside the retained compactness class
 
 Fix the retained packet class used by the Body II/III arrow theorem: the
@@ -112,7 +118,7 @@ Then there is a constant \(c(\varepsilon_0)>0\), depending only on
 ```
 
 Here \(A_{4B}\) is the same pressure-viscosity-incompressibility-velocity
-participation activity on the same transported material annular carrier.  The
+participation activity on the same transported material carrier.  The
 cutoff-collar term is included only as the Young-envelope collar channel inside
 that same packet.
 
@@ -234,7 +240,7 @@ What is not yet installed is:
 \boxed{
 \text{finite-time singularity}
 \Longrightarrow
-\text{infinitely many retained material packets with }
+\text{infinitely many retained material heat-scale packets with }
 \mathcal C^\perp(P_j)\ge\varepsilon_0.
 }
 \tag{PAL.18}
