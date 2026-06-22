@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-same-packet-strain-tower-coercion-direct-attempt-20260622
-status: direct-attempt-reduces-to-positive-vorticity-stretching-after-pressure-collar-routing
+status: direct-attempt-reduces-to-total-strain-vorticity-exchange-retention
 logical_landing_node: same_packet_strain_tower_coercion
 edge_effect: >-
   Attacks SamePacketStrainTowerCoercion.A directly from the coupled
@@ -11,17 +11,20 @@ edge_effect: >-
   annuli pressure returns through collar/boundary terms. Those pressure-collar
   terms have now been routed as same-packet A_4B collar/tower density on the
   retained transported annular atlas, and the remaining bulk production is
-  positive vorticity stretching. Viscosity gives top-order
+  positive vorticity stretching. That wall is now sharpened by the
+  net-versus-total correction: selected positive stretching is admitted into
+  A_4B when the total same-packet strain-vorticity exchange
+  int phi |omega dot S omega| is retained. Viscosity gives top-order
   dissipation only after the tower is already retained; it does not supply a
   same-packet coercive lower bound for the nonlinear strain/vorticity
-  production. The direct attempt therefore reduces to selected positive
-  vorticity-stretching saturation or an equivalent absolute same-packet
-  stretching reserve.
+  production by itself. The direct attempt therefore reduces to retention of
+  the total strain-vorticity exchange record on the same material packet.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-strain-pressure-cancellation-global-local-audit-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-annular-stress-strain-to-strain-metric-clock-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-strain-metric-clock-sharpening-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-participation-material-tower-noexit-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-vorticity-stretching-total-exchange-admission-20260622.md
 ---
 
 # Same-Packet Strain Tower Coercion Direct Attempt
@@ -294,12 +297,11 @@ form:
 \tag{STC.17}
 ```
 
-So the sharpened live theorem is
+The net-versus-total correction sharpens the live theorem to
 
 ```math
 \boxed{
-\texttt{PositiveVorticityStretchingSaturation.A}
-\quad\text{or an equivalent absolute stretching reserve.}
+\texttt{TotalStrainVorticityExchangeRetention.A}
 }
 \tag{STC.18}
 ```
@@ -309,7 +311,9 @@ inside the full pressure-viscosity-incompressibility-velocity packet.
 Once `(STC.18)` is proved, the chain is:
 
 ```math
-\text{positive stretching saturation}
+\text{retained total strain-vorticity exchange}
+\Longrightarrow
+\text{positive stretching admitted to }A_{4B}
 \Longrightarrow
 \text{same-packet strain tower}
 \Longrightarrow
@@ -322,4 +326,5 @@ A_{4B}\text{ counts the pulse}.
 ```
 
 Without `(STC.18)`, the pure forward-gold no-exit branch remains open at the
-same-packet positive vorticity-stretching wall.
+same-packet total strain-vorticity exchange record.  The signed enstrophy ledger
+alone is only a net identity and cannot replace that total record.
