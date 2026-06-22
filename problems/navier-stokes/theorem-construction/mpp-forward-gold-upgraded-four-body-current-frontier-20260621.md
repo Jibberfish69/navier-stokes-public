@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
-status: order-lock-overlap-frontier-transported-annular-carrier-counting-open
+status: order-lock-overlap-frontier-transported-annular-carrier-counting-positive-stretching-total-exchange-refined
 logical_landing_node: upgraded_four_body_current_frontier
 edge_effect: >-
   Consolidates the upgraded four-body program at the current exact frontier.
@@ -98,6 +98,14 @@ latest_update: >-
   CM exits; it is not a gold-only closure until the retained terminal overlap is
   restored to the transported annular carrier and either its uniform terminal
   tail is proved or its nonzero pulses are counted inside \(A_{4B}\).
+  The June 22 strain/vorticity refinement applies the same net-versus-total
+  rule to the remaining positive vorticity-stretching wall.  The signed
+  enstrophy identity pays only net \(\int\phi\,\omega\cdot S\omega\), while the
+  selected carrier is \(\int\phi[\omega\cdot S\omega]_+\).  On a retained
+  material packet, this selected carrier is admitted into \(A_{4B}\) by the
+  total strain-vorticity exchange \(\int\phi|\omega\cdot S\omega|\).  Loss of
+  that total exchange record is the remaining same-packet derivative
+  participation boundary, not a hidden signed-cancellation residue.
   The clean current overlap-payment surface is
   mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md;
   the older partner-polar note is retained only as the sufficient-overpayment
@@ -178,6 +186,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-reserve-producer-family-recheck-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-storage-controls-normalized-terminal-packet-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-endpoint-trace-lp-reserve-direct-attempt-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-vorticity-stretching-total-exchange-admission-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-endpoint-donor-closure-branch-solution-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-visible-readout-payment-final-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-reverse-holder-full-packet-corrected-direct-attempt-20260622.md
