@@ -7,13 +7,15 @@ edge_effect: >-
   strain-vorticity exchange record needed after the net-versus-total correction.
   The exact total exchange is int phi |omega dot S omega|. It is controlled by
   either an L^1_s L^\infty_y strain clock times enstrophy height, or by a
-  scale-critical L^3-type gradient/strain-vorticity density. Current energy,
-  local energy, and the signed enstrophy ledger do not produce that unweighted
-  heat-scale record: one normalized pulse has order-one total exchange while
-  physical dissipation is radius-weighted. Thus retained total exchange is
-  counted by A_4B, but pure forward no-exit requires a critical
-  strain-vorticity clock or material tower survival theorem that is not
-  installed.
+  scale-critical L^3-type gradient/strain-vorticity density. The L^3 readout is
+  heat-scale visible: int int |grad_y V_r|^3 = r int int |grad_x u|^3 on the
+  corresponding physical packet, so a self-similar strain event remains
+  order-one after normalization. Current energy, local energy, and the signed
+  enstrophy ledger do not produce that unweighted heat-scale record: one
+  normalized pulse has order-one total exchange while physical dissipation is
+  radius-weighted. Thus retained total exchange is counted by A_4B, but pure
+  forward no-exit requires a critical strain-vorticity clock or material tower
+  survival theorem that is not installed.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-vorticity-stretching-total-exchange-admission-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-packet-strain-tower-coercion-direct-attempt-20260622.md
