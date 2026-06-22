@@ -10,7 +10,7 @@ edge_effect: >-
   amount of the positive record-growth measure. In the current four-body
   notation that measure is carried by the Body-IV to Body-I defect components
   dK_ell^+, dK_coef^+, dK_comm^+, dK_transport^+, and dK_G^+, hence it is
-  inside the same four-body payment, not a detached supplier. Thus an infinite
+  inside the same four-body payment. Thus an infinite
   sequence of retained record-loss doublings contradicts the finite four-body
   payment. If the domination of record growth by those same-carrier K-defects
   fails, the selected branch has lost the material packet record and lands in
