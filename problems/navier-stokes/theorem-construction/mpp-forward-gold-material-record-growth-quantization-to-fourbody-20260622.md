@@ -1,20 +1,20 @@
 ---
 theorem_id: forward-gold-material-record-growth-quantization-to-fourbody-20260622
-status: record-growth-quantization-proved-simultaneous-material-fourbody-balance-remains
+status: record-growth-quantization-and-conditional-fourbody-cancellation-proved-simultaneous-tower-installation-remains
 logical_landing_node: material_record_growth_quantization_to_fourbody
 edge_effect: >-
   Develops the record-loss route without treating channel names as proof. The
   exact proved part is record-growth quantization: if the same-material record
   becomes unbounded, positive logarithmic variation has infinitely many fixed
-  quanta. The correction is that the four bodies are not separate suppliers.
-  They are four simultaneous coordinates of one transported material
-  participation packet. The remaining exact theorem is
-  SimultaneousMaterialFourBodyPacketBalance.A: differentiate the same material
-  packet and prove that the positive growth of its full four-coordinate record
-  is already measured by the same oriented four-body activity \(A_{4B,N}\).
-  If that balance holds, record loss is a four-body event; if it fails, the
-  selected branch has lost the material packet record and lands in the Part face
-  rather than remaining a hidden center pulse.
+  quanta. The conditional four-body cancellation theorem is available once the
+  transported material packet has been installed at tower level. The correction
+  is that the four bodies are not separate suppliers; they are four simultaneous
+  coordinates of one transported material participation packet. The remaining
+  exact Navier-Stokes installation theorem is SimultaneousTowerA4BInstallation.A:
+  prove that every positive tower-level material-record growth is seen by the
+  already-oriented four-body activity \(A_{4B,N}\). After that installation,
+  record loss is a four-body event; without it, the cancellation machine is
+  conditional only.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-material-annular-return-record-noexit-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-participation-material-tower-noexit-direct-attempt-20260622.md
@@ -248,17 +248,16 @@ This is the object controlled by the oriented four-body cancellation.  It is
 not lower-order annular stress alone, not a new ledger, and not a post-hoc
 enlargement of \(A_{4B}\).
 
-The exact remaining theorem is the simultaneous packet balance:
+The exact available cancellation theorem is conditional:
 
 ```math
 \boxed{
-\texttt{SimultaneousMaterialFourBodyPacketBalance.A}
+\texttt{ConditionalFourBodyTowerCancellation.A}
 }
 \tag{RGQ.13d}
 ```
 
-Its statement is that differentiating the one material participation packet
-gives four projected balance lines
+Its input is one transported material packet whose four projections satisfy
 
 ```math
 dL_S+dD_S+dJ_{SQ}
@@ -290,57 +289,116 @@ dJ_{CG}+dR_G.
 \tag{RGQ.17}
 ```
 
-These four lines are projections of the same differentiated material
-participation law, not independent estimates pasted together.
-
-The positive logarithmic growth of the full material record is controlled by
-the same simultaneous packet:
-
-```math
-d\left[\log(1+\mathfrak P_N^{mat})\right]^+
-\le
-C\left(
-dD_S+dD_Q+dD_C+dD_G
-+dA_{4B,N}
-+dR_{4B}
-\right).
-\tag{RGQ.18}
-```
+These four lines are four projections of the same material participation law,
+not independent estimates pasted together.
 
 Summing `(RGQ.14)`--`(RGQ.17)` cancels the internal exchange currents
 
 ```math
 dJ_{SQ},\quad dJ_{QC},\quad dJ_{CG},\quad dJ_{GS},
-\tag{RGQ.19}
+\tag{RGQ.18}
 ```
 
-and gives the one-packet inequality
+and gives
 
 ```math
 dL_{4B}
-+dD_S+dD_Q+dD_C+dD_G
-+c\,dA_{4B,N}
++c\,dA_{Q,N}
+dD_S+dD_Q+dD_C+dD_G
 \le
-dR_{4B}.
+dR_{4B,N}.
+\tag{RGQ.19}
+```
+
+The selected activity of the whole tower packet is controlled by this
+conditional theorem only after the activity installation
+
+```math
+dA_{4B,N}
+\le
+C\,dA_{Q,N}
+C(dD_S+dD_C+dD_G)
 \tag{RGQ.20}
 ```
 
-After the already-enveloped legal/tail terms are included in \(dR_{4B}\), this
-is the unweighted four-body control for the same transported packet:
+is proved from the actual material Navier-Stokes packet. With `(RGQ.20)`, the
+conditional cancellation theorem becomes
 
 ```math
-\int_{\sigma_0}^{\infty}dA_{4B,N}<\infty,
-\qquad
-\int_{\sigma_0}^{\infty}(dD_S+dD_Q+dD_C+dD_G)<\infty.
+dL_{4B}
+dD_{4B,N}
++c'\,dA_{4B,N}
+\le
+dR_{4B,N}.
 \tag{RGQ.21}
 ```
 
-Combining `(RGQ.5)`, `(RGQ.18)`, and `(RGQ.21)`, infinitely many retained
-doublings would force infinitely many positive quanta of the same
-four-coordinate packet activity, contradicting the finite simultaneous
-four-body control.
+where
 
-Therefore:
+```math
+D_{4B,N}=D_S+D_Q+D_C+D_G.
+\tag{RGQ.22}
+```
+
+If \(L_{4B}\) is bounded below and \(R_{4B,N}\) is summable, integration gives
+
+```math
+\int_{\sigma_0}^{\infty}dA_{4B,N}<\infty.
+\tag{RGQ.23}
+```
+
+This is the conditional four-body cancellation theorem.
+
+The unresolved Navier-Stokes installation is the step that ties material
+record growth to the already-oriented tower activity:
+
+```math
+\boxed{
+\texttt{SimultaneousTowerA4BInstallation.A}
+}
+\tag{RGQ.24}
+```
+
+The statement is
+
+```math
+d\left[\log(1+\mathfrak P_N^{mat})\right]^+
+\le
+C\,dA_{4B,N}.
+\tag{RGQ.25}
+```
+
+Equivalently: every positive tower-level material-record growth must be seen by
+the simultaneous four-body packet.  This cannot be proved one body at a time.
+It has to be proved by carrying the full participation law through all four
+coordinates and showing that any term not seen in one coordinate is seen by the
+adjacent coordinate before summation.
+
+After `(RGQ.25)`, record loss is forbidden by the conditional cancellation:
+
+```math
+\int_{\sigma_0}^{\infty}
+d\left[\log(1+\mathfrak P_N^{mat})\right]^+
+\le
+C\int_{\sigma_0}^{\infty}dA_{4B,N}
+<\infty.
+\tag{RGQ.26}
+```
+
+Combining `(RGQ.5)` and `(RGQ.26)`, infinitely many retained doublings would
+force
+
+```math
+\sum_j \log{3\over2}
+\le
+C\int_{\sigma_0}^{\infty}dA_{4B,N}
+<\infty,
+\tag{RGQ.27}
+```
+
+which is impossible.
+
+Therefore, after the installation theorem:
 
 ```math
 \boxed{
@@ -348,21 +406,31 @@ Therefore:
 \quad
 \sup_{s<0}\mathfrak P_N^{mat}(s)<\infty .
 }
-\tag{RGQ.22}
+\tag{RGQ.28}
 ```
 
-## 5. Exact boundary
+The point is:
 
-The exact remaining theorem is `SimultaneousMaterialFourBodyPacketBalance.A`.
-Failure of that theorem is not a hidden center endpoint pulse.  It means the
-one transported material packet did not retain the simultaneous
+```math
+\boxed{
+\text{finite four-body tower activity forbids infinite material record loss.}
+}
+\tag{RGQ.29}
+```
+
+## 4. Exact boundary
+
+The available proof is the conditional four-body cancellation theorem.  The
+unresolved Navier-Stokes installation is `SimultaneousTowerA4BInstallation.A`.
+Failure of that installation is not a hidden center endpoint pulse.  It means
+the one transported material packet did not retain the simultaneous
 \((S_N,Q_N,C_N,G_N)\) participation record.
 
 In the current proof grammar this is the Part-side failure:
 
 ```math
 Pack_Q+\neg Part_{N,Q}.
-\tag{RGQ.23}
+\tag{RGQ.30}
 ```
 
 So the record-loss route sharpens the frontier:
@@ -370,17 +438,17 @@ So the record-loss route sharpens the frontier:
 ```math
 \boxed{
 \begin{array}{ll}
-\text{simultaneous four-coordinate packet balance holds}
+\text{SimultaneousTowerA4BInstallation.A holds}
 &\Longrightarrow
 \text{finite four-body activity forbids terminal record loss},\\[1mm]
-\text{simultaneous four-coordinate packet balance fails}
+\text{SimultaneousTowerA4BInstallation.A fails}
 &\Longrightarrow
 \text{loss of same-material participation record}.
 \end{array}
 }
-\tag{RGQ.24}
+\tag{RGQ.31}
 ```
 
-This is exactly the intended use of the four-body loop: record loss itself is
-growth of the one same-fluid four-coordinate packet, and the loop controls that
-packet by its internal cancellation.
+This is exactly the intended use of the four-body loop: the loop supplies the
+conditional cancellation machine; the remaining Navier-Stokes work is installing
+the tower-level material record into that same simultaneous packet.
