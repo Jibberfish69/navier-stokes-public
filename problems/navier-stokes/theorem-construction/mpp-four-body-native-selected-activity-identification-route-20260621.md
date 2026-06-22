@@ -17,15 +17,17 @@ Date: 2026-06-21
 
 This note records the final comparison route after the four-body loop closes for its carried full-packet activity.
 
-The desired final comparison is
+The desired final comparison is admission into the same oriented four-body
+object:
 
 ```math
 A_{\rm selected\ native}(\sigma)
-\le
-C A_{4B}(\sigma)+R_{\rm legal}(\sigma)
+\leadsto
+A_{4B}(\sigma)
 ```
 
-on the same retained carrier.
+on the same retained carrier.  The notation \(A_{4B}\) here means the whole
+four-body solution package, including legal/collar/tail handling.
 
 The direct comparison is false if native positive selection is taken channel-first. The solvable comparison is obtained by one of two mechanisms:
 
@@ -246,11 +248,10 @@ The four-body loop supplies
 \int_{\sigma_0}^\infty A_{4B}(\sigma)\,d\sigma<\infty.
 ```
 
-If the partner-deficit theorem supplies
+If the order-lock bridge supplies
 
 ```math
-A_{\rm native}\le C A_{4B}+R_{\rm legal},
-\qquad R_{\rm legal}\in L^1_\sigma,
+A_{\rm native}\leadsto A_{4B},
 ```
 
 then
