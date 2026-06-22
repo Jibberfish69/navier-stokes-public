@@ -29,7 +29,7 @@ The target is the branch theorem
 ```math
 \boxed{
 [-\partial_\sigma M_\sigma]_+ + \mathcal Z_{\rm donor}
-\le C A_{4B}+R_{\rm legal}
+\leadsto A_{4B}
 }
 ```
 
@@ -258,19 +258,20 @@ and
 Pack_Q+Part_{N,Q}+\forall r>0\,\neg Field_{N,r,Q}.
 ```
 
-Substituting into the discarded-partner bridge yields
+Substituting into the discarded-partner bridge gives admission into the same
+oriented four-body package:
 
 ```math
-A_{native}\le C A_{4B}+R_{legal}+T_\sigma.
+A_{native}\leadsto A_{4B}.
 ```
 
 Since the four-body cycle gives
 
 ```math
-\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma<\infty
+\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma<\infty,
 ```
 
-and \(R_{legal},T\in L^1_\sigma\), the no-exit branch gives
+the no-exit branch gives
 
 ```math
 \boxed{
@@ -278,4 +279,8 @@ and \(R_{legal},T\in L^1_\sigma\), the no-exit branch gives
 }
 ```
 
-Thus the endpoint/donor solution closes the native bridge in exactly this sense: every surviving unpaid endpoint or donor residue is either paid by the four-body activity or consumed as a Pack/Part/Field CM exit.
+Here \(A_{4B}\) means the whole oriented same-carrier four-body solution object,
+including legal/collar/tail handling.  The endpoint/donor solution closes the
+native bridge in exactly this sense: every surviving unpaid endpoint or donor
+residue is either admitted into that four-body object or consumed as a
+Pack/Part/Field CM exit.
