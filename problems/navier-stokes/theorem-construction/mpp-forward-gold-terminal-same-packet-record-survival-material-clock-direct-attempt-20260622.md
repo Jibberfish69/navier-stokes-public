@@ -235,12 +235,12 @@ The sharpened fork is:
 ```math
 \boxed{
 \begin{array}{ll}
-\text{finite same-carrier deformation/tower record}
+\text{finite same-carrier strain-metric/tower record}
 &\Rightarrow
 \text{retained material packets enter }A_{4B}
 \Rightarrow
 \text{four-body contradiction},\\[2mm]
-\text{loss of same-carrier deformation/tower record}
+\text{loss of same-carrier strain-metric/tower record}
 &\Rightarrow
 Pack_Q+\neg Part_{N,Q}.
 \end{array}
