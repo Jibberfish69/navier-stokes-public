@@ -89,6 +89,10 @@ latest_update: >-
   no-exit Clay conclusion; the forward-positive no-exit supplier remains
   TerminalHardyNoWaste.A / source-square / critical-strain / normalized CKN /
   strict no-waste.
+  The clean current overlap-payment surface is
+  mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md;
+  the older partner-polar note is retained only as the sufficient-overpayment
+  route.
 parents:
   - problems/navier-stokes/theorem-construction/carrier-axiom-sheet.md
   - problems/navier-stokes/theorem-construction/carrier-realization-classical-identification.md
@@ -154,6 +158,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-four-body-bodyii-bodyiii-arrow-fill-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-remaining-arrows-and-cycle-closure-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-selected-full-packet-production-step-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-native-selected-activity-identification-route-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-partner-deficit-retention-or-exit-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-partner-polar-payment-direct-attempt-20260621.md
