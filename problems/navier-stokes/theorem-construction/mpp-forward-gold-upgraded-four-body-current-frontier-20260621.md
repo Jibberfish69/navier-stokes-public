@@ -4486,3 +4486,81 @@ remaining production burden is exactly the component seed trio:
 ```
 
 on the same retained endpoint packet.
+
+## 35. Local finite-jet / harmonic pressure split
+
+The temporal-tower component in `(4BF.220)` is local.  It applies to
+
+```math
+\mathcal J_K^{loc}
+=
+\left\{
+\partial_y^\alpha U_m,\,
+\partial_y^\alpha Q_m^{loc}
+\ :\ |\alpha|\le K
+\right\},
+\tag{4BF.221}
+```
+
+not to the harmonic pressure memory
+
+```math
+Q_m^H-\Pi_{aff}Q_m^H.
+\tag{4BF.222}
+```
+
+The local finite-jet seed is:
+
+```math
+\boxed{
+\sup_m
+\|\mathcal J_K^{loc}\|_{L_s^\infty H_y^\sigma}
++\sup_m
+\|\partial_s\mathcal J_K^{loc}\|_{L_s^1H_y^\sigma}
+<\infty,
+\qquad
+\sigma>{3\over2}.
+}
+\tag{4BF.223}
+```
+
+It gives
+
+```math
+\boxed{
+\int_{-\theta}^{0}[H_m^{jet}(s)]_+\,ds
+\le C\theta.
+}
+\tag{4BF.224}
+```
+
+The harmonic pressure seed remains:
+
+```math
+\boxed{
+\sup_m
+\|[H_m^H]_+\|_{L_s^{p_H}(-1,0)}
+<\infty,
+\qquad
+p_H>1,
+}
+\tag{4BF.225}
+```
+
+which is `AnnularPressureReverseHolder.A` or an equivalent annular
+pressure-service theorem.
+
+Thus the corrected endpoint seed statement is:
+
+```math
+\boxed{
+\texttt{FiniteEndpointJetTemporalModulus.A}
++\texttt{AnnularPressureReverseHolder.A}
++\texttt{EndpointResidueDensityPolicy.A}
+\Longrightarrow
+\texttt{EndpointLpUpgradeFromFullNSPacket.A}.
+}
+\tag{4BF.226}
+```
+
+The finite-jet tower no longer carries harmonic pressure by notation.
