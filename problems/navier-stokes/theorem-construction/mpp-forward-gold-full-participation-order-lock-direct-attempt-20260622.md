@@ -1,8 +1,8 @@
 ---
 theorem_id: forward-gold-full-participation-order-lock-direct-attempt-20260622
-status: algebraic-consumer-proved-admission-reduces-to-minimal-order-lock-gap-with-partner-deficit-sufficient-envelope
+status: algebraic-consumer-proved-minimal-order-lock-gap-formula-proved-native-admission-open
 logical_landing_node: full_participation_order_lock
-edge_effect: "Attacks FullParticipationOrderLock.A, the admission theorem now required before endpoint reverse-Holder channel estimates can count. The algebraic order-lock consumer is exact: once the endpoint density is built from the recombined full pressure-transport-viscosity-incompressibility scalar before positive-part extraction, the full-packet positive trace controls it up to an endpoint Lp/Hardy/Orlicz remainder. The direct attempt does not prove native admission from current inputs. If native selection remains channel-first, order-lock is exactly the need to pay the minimal positive excess of channel-first activity over the full scalar; the discarded same-packet partner deficit is a sufficient envelope. Without that same-packet payment, a terminal pulse can be created by exact channel cancellation. This is not a detached subproblem: the gap is precisely the failure mode of FullParticipationOrderLock.A."
+edge_effect: "Attacks FullParticipationOrderLock.A, the admission theorem now required before endpoint reverse-Holder channel estimates can count. The algebraic order-lock consumer is exact: once the endpoint density is built from the recombined full pressure-transport-viscosity-incompressibility scalar before positive-part extraction, the full-packet positive trace controls it up to an endpoint Lp/Hardy/Orlicz remainder. The direct attempt does not prove native admission from current inputs. If native selection remains channel-first, the minimal order-lock gap is exactly min([n]_+,[-b]_+), the same-packet overlap where native positive activity is canceled by a negative partner. The discarded partner deficit [-b]_+ is only a sufficient envelope. Without full-scalar-first admission or endpoint-uniform-integrable control of that overlap, a terminal pulse can be created by exact channel cancellation. This is not a detached subproblem: the overlap is precisely the failure mode of FullParticipationOrderLock.A."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-reverse-holder-full-packet-corrected-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-upgraded-four-body-current-frontier-20260621.md
@@ -196,6 +196,41 @@ The exact minimal order-lock gap is
 \tag{FOL.15}
 ```
 
+Since \(h_m=n_m+b_m\), this gap has the exact scalar formula
+
+```math
+\boxed{
+\Delta_m^{ol}(s)
+=
+\min\left\{[n_m(s)]_+,[-b_m(s)]_+\right\}.
+}
+\tag{FOL.15a}
+```
+
+Proof.  If \(n_m\le0\), both sides vanish.  If \(n_m>0\) and \(b_m\ge0\),
+then \(h_m\ge n_m>0\), so the gap is zero.  If \(n_m>0\), \(b_m<0\), and
+\(h_m>0\), then
+
+```math
+\Delta_m^{ol}
+=
+n_m-(n_m+b_m)
+=
+-b_m.
+\tag{FOL.15b}
+```
+
+If \(n_m>0\), \(b_m<0\), and \(h_m\le0\), then
+
+```math
+\Delta_m^{ol}
+=
+n_m.
+\tag{FOL.15c}
+```
+
+These cases give `(FOL.15a)`.
+
 Thus channel-first native selection satisfies the order-lock estimate exactly
 when
 
@@ -210,7 +245,8 @@ R_m^{ol}
 \tag{FOL.16}
 ```
 
-The discarded same-packet partner deficit is a sufficient envelope:
+The discarded same-packet partner deficit is therefore only a sufficient
+envelope:
 
 ```math
 \boxed{
@@ -309,13 +345,15 @@ Also proved:
 \tag{FOL.23}
 ```
 
-And the same-packet partner deficit gives a concrete sufficient envelope:
+And the exact formula plus the same-packet partner deficit give:
 
 ```math
 \boxed{
-[-b_m]_+\in L_s^q
-\Longrightarrow
-\Delta_m^{ol}\in L_s^q.
+\Delta_m^{ol}
+=
+\min\{[n_m]_+,[-b_m]_+\}
+\le
+[-b_m]_+.
 }
 \tag{FOL.24}
 ```
@@ -333,7 +371,8 @@ and not proved:
 
 ```math
 \boxed{
-\Delta_m^{ol}\ \text{or its same-packet partner envelope }[-b_m]_+
+\min\{[n_m]_+,[-b_m]_+\}
+\text{ or its same-packet partner envelope }[-b_m]_+
 \text{ has an }L_s^q,\text{ Hardy, Orlicz, or strict absorption bound}
 \quad(q>1)
 }
