@@ -1,6 +1,6 @@
 ---
 theorem_id: mpp-four-body-endpoint-donor-closure-branch-solution-20260621
-status: branch-solution-endpoint-daughter-or-field-exit-donor-rank-or-part-exit
+status: branch-solution-endpoint-annular-nojump-and-donor-total-cycle-admission-or-part-exit
 logical_landing_node: endpoint_donor_closure_branch_solution
 parents:
   - problems/navier-stokes/theorem-construction/mpp-four-body-discarded-partner-bridge-rework-20260621.md
@@ -13,6 +13,8 @@ parents:
 # Endpoint Atom / Donor Closure Branch Solution
 
 Date: 2026-06-21
+
+Update: 2026-06-22
 
 ## 0. Target
 
@@ -46,6 +48,12 @@ Pack_Q+Part_{N,Q}+\forall r>0\,\neg Field_{N,r,Q}.
 ```
 
 This solves the endpoint/donor branch at the level needed by the four-body bridge. It does not assert a no-exit Clay conclusion. It states that the two remaining residues are paid or consumed by the declared CM exits.
+
+The 2026-06-22 transported-annular update strengthens the endpoint half.  A
+center/time storage overlap is now restored to the same material outer-annulus
+stress/strain carrier and counted inside \(A_{4B}\) on the fixed transported
+annular atlas.  The older daughter/Field split remains a fallback description,
+but the no-exit four-body branch uses the transported annular no-jump route.
 
 ## 1. EndpointAtomDaughterOrFieldExit.A
 
@@ -220,7 +228,50 @@ This pays the finite-rank donor residue.
 Here \(A_{4B}\) is the whole oriented four-body package, so retained signed
 partners and legal exits are both internal channels of the same object.
 
-The only remaining donor obstruction is an infinite zero-descent chain. Since the retained donor graph is finite after stabilization, an infinite chain contains a directed zero-rank cycle. A zero-rank donor cycle has no retained signed partner, no rank descent, and no legal exit. That is exactly failure of same-solution participation retention for the selected native source channel.
+The only remaining donor obstruction is an infinite zero-descent chain. Since
+the retained donor graph is finite after stabilization, an infinite chain
+contains a directed zero-rank cycle.
+
+At this point the net/total distinction matters.  A directed zero-rank cycle can
+have zero signed net contribution around the loop while still carrying positive
+total exchange.  Let \(J_e(\sigma)\) be the signed donor exchange on an edge of
+the stabilized cycle \(\mathcal C\).  Define the same-cycle total exchange by
+
+```math
+\mathcal A_{\mathcal C}^{tot}(\sigma)
+:=
+\sum_{e\in\mathcal C}|J_e(\sigma)|.
+```
+
+The donor residue on that cycle is bounded by the positive exchange on the
+cycle, hence by the total exchange:
+
+```math
+\mathcal Z_{\rm donor}^{\mathcal C}(\sigma)
+\le
+\sum_{e\in\mathcal C}[J_e(\sigma)]_+
+\le
+\mathcal A_{\mathcal C}^{tot}(\sigma).
+```
+
+So a zero-rank cycle is not automatically a free donor branch.  If the cycle is
+realized on the same retained full packet, this total exchange is exactly a
+Body-III signed-current relay defect or a retained selector/partner defect.  In
+the Body-III notation it is charged through \(K_{C,J}^+\), \(K_{\rm sel}\), or
+the corresponding same-packet positive relay term, and therefore belongs to
+\(A_{4B}\):
+
+```math
+\mathcal Z_{\rm donor}^{\mathcal C}(\sigma)
+\le
+C\,A_{4B}(\sigma).
+```
+
+Thus the zero-rank cycle is consumed by the four-body object whenever the cycle
+is actually a same-solution full-packet exchange.  It becomes a CM Part exit
+only when that same-packet realization fails: the selected native source keeps
+its positive receiver but the corresponding pressure-viscosity-incompressibility
+velocity participation record is not retained on the same carrier.
 
 The CM landing is
 
