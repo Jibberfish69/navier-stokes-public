@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-terminal-same-packet-part-noexit-direct-attempt-20260622
-status: direct-attempt-fails-as-gold-only-noexit-theorem-cm-part-consumption-installed
+status: direct-attempt-fails-as-gold-only-noexit-theorem-theorem-sized-cm-part-consumption-installed
 logical_landing_node: terminal_same_packet_part_noexit_direct_attempt
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-smooth-same-packet-realization-audit-20260622.md
@@ -161,3 +161,71 @@ Thus the final state is:
 A purely forward-positive gold presentation still needs a new theorem proving
 `(PNE.3)`.  The current repo does not contain that theorem; the current
 completion route is the CM contrapositive consumption of the Part face.
+
+## 5. Theorem-size audit
+
+The no-exit target `(PNE.3)` is not a channel estimate, collar estimate, donor
+estimate, or endpoint anti-atom estimate.  It is a terminal compactness/survival
+theorem for the same pressure-viscosity-incompressibility-velocity packet.
+
+The CM authority surface gives the exact role.  Once a same-fluid terminal
+witness enters the CM tree, the cases are exhausted by:
+
+```math
+\neg Pack_Q
+\quad\vee\quad
+\neg Part_{N_s,Q}
+\quad\vee\quad
+\forall r>0\,\neg Field_{N_s,r,Q}.
+\tag{PNE.12}
+```
+
+At depth \(N_s\) high enough for the installed continuation readout, retained
+Pack, Part, and Field give:
+
+```math
+\sup_{t<T_*}\|u(t)\|_{H^s}<\infty,
+\qquad s>5/2,
+\tag{PNE.13}
+```
+
+and classical continuation past \(T_*\).  Thus the CM route does not need to
+delete the Part face.  A concrete Part failure is already a face failure
+supporting:
+
+```math
+Exit(Q):=\neg Member(Q).
+\tag{PNE.14}
+```
+
+Therefore `(PNE.3)` is a positive no-exit supplier.  It would remove one CM
+face rather than consume it.  In the current forward-gold route, proving
+`(PNE.3)` would require a new original-smooth-data terminal compactness theorem:
+
+```math
+OriginalSmoothData
+\Longrightarrow
+\sup_{t<T_*}\mathcal P_{N,Q}(u(t),p(t))<\infty
+\tag{PNE.15}
+```
+
+or an equivalent same-packet terminal survival statement.  That is exactly the
+kind of theorem the current four-body argument cannot supply before admission,
+because the four-body argument only starts after the same packet has already
+been retained.
+
+So the audited status is:
+
+```math
+\boxed{
+(PNE.3)\text{ is theorem-sized as a pure gold no-exit supplier.}
+}
+\tag{PNE.16}
+```
+
+```math
+\boxed{
+\text{The noncircular route keeps the Part failure as the CM contrapositive face.}
+}
+\tag{PNE.17}
+```
