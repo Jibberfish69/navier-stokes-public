@@ -2,7 +2,7 @@
 theorem_id: forward-gold-finite-endpoint-jet-modulus-replaces-full-radius-survival-20260621
 status: endpoint-ui-needs-finite-trace-modulus-not-full-analytic-radius
 logical_landing_node: finite_endpoint_jet_modulus_replaces_full_radius_survival
-edge_effect: "Corrects the tower-radius burden after the endpoint UI reorientation. Full positive analytic/Gevrey radius survival is stronger than the endpoint theorem needs. The endpoint density is a finite-order order-locked functional; endpoint UI follows from uniform control of the finite jet set entering that density and one time rung of that finite jet set. Therefore high-rung-only analytic-radius collapse is irrelevant to endpoint UI unless it forces failure of the finite endpoint jet modulus. The live gold producer should be FiniteEndpointJetTemporalModulus.A, not full CoupledMixedTowerRadiusLowerBound.A, for endpoint uniform integrability."
+edge_effect: "Corrects the tower-radius burden after the endpoint UI reorientation. Full positive analytic/Gevrey radius survival is stronger than the endpoint theorem needs. The local endpoint density is a finite-order order-locked functional; its endpoint UI follows from uniform control of the local finite jet set entering that density and one time rung of that finite jet set. Harmonic pressure memory remains a separate annular pressure-service component. Therefore high-rung-only analytic-radius collapse is irrelevant to endpoint UI unless it forces failure of the local finite endpoint jet modulus, annular pressure endpoint control, or residue policy. The live gold producer should be FiniteEndpointJetTemporalModulus.A plus AnnularPressureReverseHolder.A plus EndpointResidueDensityPolicy.A, not full CoupledMixedTowerRadiusLowerBound.A, for endpoint uniform integrability."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-ui-from-field-towers-and-residue-policy-assembly-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-trace-temporal-tower-regularity-direct-attempt-20260621.md
@@ -27,10 +27,11 @@ The endpoint theorem is:
 ```
 
 This theorem does not require a full positive analytic/Gevrey radius for the
-entire mixed tower.  It only requires uniform endpoint control of the finite
-jet set that actually forms the endpoint density.
+entire mixed tower.  It requires uniform endpoint control of the finite local
+jet set that forms the local endpoint density, plus separate harmonic pressure
+and residue endpoint control.
 
-So the correct producer is:
+So the correct local tower producer is:
 
 ```math
 \boxed{
@@ -47,7 +48,7 @@ not full
 ```
 
 The full analytic radius is useful when available, but it is stronger than the
-endpoint uniform-integrability theorem needs.
+local finite-jet endpoint component needs.
 
 ## 1. Finite endpoint jet set
 
@@ -62,27 +63,25 @@ After residue policy and pressure decomposition, the gold endpoint density is:
 \tag{FEJ.4}
 ```
 
-The field part is finite-order.  There is a finite jet set
+The local finite-jet part is finite-order.  There is a finite local jet set
 
 ```math
-\mathcal J_K
+\mathcal J_K^{loc}
 =
 \{
 \partial_y^\alpha U_m,\,
-\partial_y^\alpha Q_m^{loc},\,
-Q_m^H-\Pi_{aff}Q_m^H
+\partial_y^\alpha Q_m^{loc}
 \ :\ |\alpha|\le K
 \}
 \tag{FEJ.5}
 ```
 
-large enough to form the finite-jet endpoint density and the harmonic pressure
-trace.
+large enough to form the local finite-jet endpoint density.
 
 The needed time rung is also finite:
 
 ```math
-\partial_s\mathcal J_K.
+\partial_s\mathcal J_K^{loc}.
 \tag{FEJ.6}
 ```
 
@@ -92,7 +91,7 @@ Let \(\sigma>3/2\).  Assume:
 
 ```math
 \sup_m
-\|\mathcal J_K\|_{L_s^\infty H_y^\sigma}
+\|\mathcal J_K^{loc}\|_{L_s^\infty H_y^\sigma}
 \le C_0,
 \tag{FEJ.7}
 ```
@@ -101,7 +100,7 @@ and
 
 ```math
 \sup_m
-\|\partial_s\mathcal J_K\|_{L_s^1 H_y^\sigma}
+\|\partial_s\mathcal J_K^{loc}\|_{L_s^1 H_y^\sigma}
 \le C_1.
 \tag{FEJ.8}
 ```
