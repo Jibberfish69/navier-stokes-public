@@ -48,18 +48,20 @@ latest_update: >-
   "retained partner" is still not "paid partner": smooth interior pressure
   cancellation can make the full-packet positive part vanish while the
   channel-first native positive source remains positive.  Thus the channel-first
-  transfer now needs either order-locking or a polar-pair four-body payment that
-  counts the retained deficit \([-b_\sigma]_+\) itself.  The polar-pair direct
-  attempt then pays the pressure partner for pressure-compatible finite tower
-  tests, pays the viscous partner by normalized viscous/tower loss, routes finite
-  signed-saturation plus selector/legal/geometry partners, and leaves exactly
-  the time/storage/terminal-Zeno producer already isolated as
+  transfer now needs either order-locking or an order-lock-overlap four-body
+  payment that counts the exact cancellation overlap
+  \(\min\{[n_\sigma]_+,[-b_\sigma]_+\}\).  The older polar-pair payment of
+  all \([-b_\sigma]_+\) is only a sufficient overpayment.  The overlap-payment
+  direct attempt uses that overpayment route to pay the pressure partner for
+  pressure-compatible finite tower tests, pays the viscous partner by normalized
+  viscous/tower loss, routes finite signed-saturation plus selector/legal/geometry
+  partners, and leaves exactly the time/storage/terminal-Zeno producer already isolated as
   FourBodyTerminalTraceAC.A / StrictFourBodyNoWasteLyapunov.A / no-free Zeno /
   profile production. The discarded-partner bridge rework then states the exact
   comparison in Thomas's channel-first/full-packet language: native positivity is
-  controlled by the full four-body route plus partner deficit; pressure,
-  viscosity, selector/legal, finite signed, and geometry deficits are paid or
-  routed; the only unproduced pieces are the terminal storage drop
+  controlled by the full four-body route plus the order-lock overlap; pressure,
+  viscosity, selector/legal, finite signed, and geometry overpayment deficits are
+  paid or routed; the only unproduced pieces are the terminal storage drop
   [-partial_sigma M_sigma]_+ and infinite donor residual Z_donor. Typed exits
   apply only to partners that leave the retained carrier; retained smooth
   cancellation is not itself a payment. The terminal Hardy/no-waste direct test
@@ -2936,13 +2938,13 @@ Therefore the channel-first native transfer now has the exact replacement:
 \boxed{
 A_{\rm native}
 \le
-A_{\rm pair},
+A_{\rm ol},
 \qquad
-A_{\rm pair}
+A_{\rm ol}
 :=
 \int[h_\sigma]_+
 +
-\int[-b_\sigma]_+.
+\int\min\{[n_\sigma]_+,[-b_\sigma]_+\}.
 }
 \tag{4BF.115}
 ```
@@ -2951,14 +2953,15 @@ The remaining positive theorem is:
 
 ```math
 \boxed{
-\texttt{PartnerPolarFourBodyPayment.A}
+\texttt{OrderLockOverlapFourBodyPayment.A}
 }
 \tag{4BF.116}
 ```
 
-The direct polar-pair attempt reduces this theorem to pressure-compatible
-finite tower tests plus the same terminal modulus already isolated in the
-four-body trace work:
+The direct overlap-payment attempt proves this by the stronger overpayment
+route that pays \([-b_\sigma]_+\).  It reduces the sufficient overpayment
+theorem to pressure-compatible finite tower tests plus the same terminal
+modulus already isolated in the four-body trace work:
 
 ```math
 \boxed{
