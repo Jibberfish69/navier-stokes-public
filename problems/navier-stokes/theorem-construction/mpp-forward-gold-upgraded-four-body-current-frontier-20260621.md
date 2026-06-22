@@ -3616,6 +3616,65 @@ attempt reduces `(4BF.160j)` to three actual producer clauses: endpoint residue
 density policy, local endpoint critical-density reverse Holder, and harmonic
 pressure reverse Holder.
 
+The endpoint residue density policy direct attempt works the first clause.  It
+confirms that current selector/collar stabilization, terminal trace routing,
+signed/donor routing, geometry routing, and legal routing provide visibility,
+finite mass, stabilization, or branch classification.  They do not upgrade
+naked endpoint residue measures to endpoint-usable densities.  The required
+channelwise policy is:
+
+```math
+\boxed{
+\text{each of }
+\Lambda_{legal},\Lambda_{sel},\Lambda_{sgn},\Lambda_{term},\Lambda_{geom}
+\text{ is super-}L^1,\text{ Hardy/Orlicz controlled, or absorbed before }
+d\mu_m.
+}
+\tag{4BF.160k}
+```
+
+Otherwise the residue channel can still carry the terminal \(L^1\)-pulse.
+
+The local endpoint critical-density direct attempt works the second clause.
+After gauge-fixing, define
+
+```math
+F_m^{loc}(s)
+=
+\int_{\operatorname{collar}}
+\left(
+|U_m|^3+|Q_m^{loc}|^{3/2}+|U_m|^2
+\right)\,dy
++\nu\int\eta_m^2|\nabla U_m|^2\,dy .
+\tag{4BF.160l}
+```
+
+The exact positive estimate is:
+
+```math
+\boxed{
+\|U_m\|_{L_s^\infty L_y^2}
++\|\nabla U_m\|_{L^2_{s,y}}
++\|Q_m^{loc}\|_{L^{5/3}_{s,y}}
+\le C
+\Longrightarrow
+\int_{\operatorname{collar}}
+\left(
+|U_m|^3+|Q_m^{loc}|^{3/2}+|U_m|^2
+\right)\,dy
+\in L_s^{10/9}.
+}
+\tag{4BF.160m}
+```
+
+The local pressure piece is Calderon-Zygmund licensed by the gauge-fixed
+velocity product.  The interior viscous density is naturally dissipative; if it
+is moved into the positive endpoint trace density, it needs its own
+super-\(L^1\) upgrade.  Current four-body \(L^1\) payment does not prove
+`(4BF.160m)`.  The valid producers are gauge-fixed normalized
+energy-pressure, positive coupled tower radius, source-square/selected-strain/
+normalized-CKN reserve, or strict no-waste.
+
 The local trace estimate reduces the problem to reverse Holder control of the
 same collar densities:
 
