@@ -151,6 +151,46 @@ The task is to price the overlap on the same carrier.  Pricing every term in
 \tag{PPD.7a}
 ```
 
+There is a sharper same-packet channel split.  Since
+
+```math
+[-b_\sigma]_+
+=
+\left[-\sum_{\kappa}b_\sigma^\kappa\right]_+
+\le
+\sum_{\kappa}[-b_\sigma^\kappa]_+,
+\qquad
+\kappa\in\{p,v,t,i,l,s\},
+\tag{PPD.7b}
+```
+
+and for \(a,c_\kappa\ge0\),
+
+```math
+\min\left\{a,\sum_\kappa c_\kappa\right\}
+\le
+\sum_\kappa \min\{a,c_\kappa\},
+\tag{PPD.7c}
+```
+
+the order-lock overlap obeys
+
+```math
+\boxed{
+\Delta_{\rm ol}
+\le
+\sum_{\kappa\in\{p,v,t,i,l,s\}}
+\int
+\min\{[n_\sigma]_+,[-b_\sigma^\kappa]_+\}.
+}
+\tag{PPD.7d}
+```
+
+Thus the channel readouts can be sharpened from full negative-channel budgets
+to same-packet cancellation-overlap budgets.  Paying all of
+\([-b_\sigma^\kappa]_+\) is still allowed as an overpayment, but the live
+object is the overlap with \([n_\sigma]_+\).
+
 The proof may not replace the full participation tuple by a scalar source-square
 estimate.
 
@@ -327,7 +367,8 @@ Pack_Q+Part_{N,Q}+\forall r>0\,\neg Field_{N,r,Q}.
 
 ## 7. Result of the direct attempt
 
-Combining the channel estimates gives:
+Combining the same-packet channel-overlap estimates, or the stronger
+full-partner overpayments, gives:
 
 ```math
 \boxed{
@@ -345,7 +386,8 @@ A_{\rm ol}
 
 where \(\mathcal Z_{\rm donor}\) is the infinite terminal Zeno donor-chain
 residual after finite signed-saturation has been paid.  This estimate is
-obtained by the overpayment route \(\Delta_{\rm ol}\le\int[-b_\sigma]_+\).
+obtained either through `(PPD.7d)` or by the stronger overpayment route
+\(\Delta_{\rm ol}\le\int[-b_\sigma]_+\).
 
 Consequently:
 
