@@ -974,6 +974,22 @@ strong convergence of \(Q_m^{loc}\) from \(V_m\otimes V_m\), so this term is not
 the pressure-memory wall.  The nonlocal part is already the harmonic
 pressure-memory channel `(TON.69)`.
 
+For the transported annular carrier used here, pressure compatibility is
+automatic at the base rung: the retained test is the same divergence-free
+velocity \(V_m\) paired with the same transported cutoff \(\phi_m\).  At tower
+rung \(\alpha\), the same identity holds with \(V_{m,\alpha}=\partial^\alpha
+V_m\), since
+
+```math
+\nabla\cdot V_{m,\alpha}=0 .
+\tag{TON.71d}
+```
+
+Thus the local pressure gate is closed for the order-locked transported
+velocity-pressure tower.  A failure can only come from selecting a different
+non-pressure-compatible test, which is a selector/collar mismatch rather than a
+new endpoint pulse.
+
 For the four-body counting route, the harmonic pressure-memory piece is
 admitted by identity.  Take the Body-II localization to be the same transported
 cutoff,
@@ -996,9 +1012,9 @@ uniform-tail route `(TON.58)`, not for bounded-overlap admission into
 \(A_{4B}\).
 
 Thus the terminal-specific work for the four-body counting route is solved down
-to pressure-compatible same-packet selection on a fixed transported annular
-atlas.  Since `(TON.70)` is included in Body II and `(TON.71)` is admitted by
-pressure-compatible retained tests, `(TON.67)` gives the channel admission
+to fixed transported annular atlas retention.  Since `(TON.70)` is included in
+Body II and `(TON.71)` is admitted by the divergence-free transported tower,
+`(TON.67)` gives the channel admission
 
 ```math
 C_m(s)
@@ -1027,8 +1043,6 @@ center endpoint pulse can survive only by breaking one of the exact admission
 gates:
 
 ```math
-\text{local pressure-compatible retained tests,}
-\qquad
 \text{fixed transported annular atlas retention.}
 \tag{TON.74}
 ```
