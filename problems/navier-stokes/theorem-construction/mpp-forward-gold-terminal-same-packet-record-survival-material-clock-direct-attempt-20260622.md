@@ -153,6 +153,25 @@ metric identity `(MCR.7)` gives
 \tag{MCR.10a}
 ```
 
+The finite-chain form is the same statement summed over disjoint retained
+intervals.  If \(I_1,\ldots,I_M\) are disjoint time intervals on the same
+retained material packet and the selected material thickness/separation changes
+by factors \(\Lambda_j>1\), then
+
+```math
+\int_{\bigcup_{j=1}^{M}I_j}
+\|S(t)\|_{L^\infty(X(A_\sharp,t))}\,dt
+\ge
+\sum_{j=1}^{M}\log\Lambda_j .
+\tag{MCR.10b}
+```
+
+Thus dyadic thinning over \(M\) retained same-material events forces at least
+\(M\log2\) strain-clock amount.  Bounded material record rules out an infinite
+same-carrier dyadic thinning chain; an unbounded clock is a visible loss of the
+terminal same-packet material record unless that clock has been admitted into
+the four-body activity.
+
 So, on one retained material packet, the annulus can hold the later
 stress/strain return smoothly only by recording the corresponding strain-clock
 amount.  A spike base cannot thin without that deformation appearing in the
