@@ -377,8 +377,8 @@ native bridge gives
 
 ```math
 A_{\rm native}
-\le
-C A_{4B}+R_{\rm legal}+T_\sigma .
+\leadsto
+A_{4B}.
 \tag{FSC.27}
 ```
 
