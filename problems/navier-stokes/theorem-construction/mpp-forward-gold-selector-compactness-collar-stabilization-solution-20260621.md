@@ -234,4 +234,9 @@ After this solution, `FullPacketDefectExhaustion.A` has three remaining theorem 
 \boxed{\text{legal routing terminal-AC and }L^1_\sigma\text{ summability.}}
 ```
 
-The next direct clause is the donor-chain branch. The clean proof target is a donor-rank potential whose strict descent rules out infinite unpaid donor chains on a finite donor graph; any zero-descent cycle becomes a Hodge/circulation branch and must land in Part or Field.
+The next direct clause is the donor-chain branch. The clean proof target is a
+donor-rank potential whose strict descent rules out infinite unpaid donor
+chains on a finite donor graph.  A zero-descent cycle must be tested by total
+same-packet exchange, not only signed net circulation: when that total exchange
+is retained in the full packet it is counted in \(A_{4B}\), and only failure of
+same-packet realization lands in Part or Field.
