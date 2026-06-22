@@ -1300,3 +1300,50 @@ that atlas:
 Those are not hidden endpoint pulses.  They are selector/collar or same-carrier
 admission failures, and they are already the legal/collar branch isolated in
 the selector compactness note.
+
+The selector compactness/collar stabilization surface now consumes `(TON.94)`.
+Its legal variation measure is
+
+```math
+d\Lambda_{sel}
+=
+\|d\chi\|_{C^2}\,d\sigma
++\|d\Phi\|_{\mathcal T}\,d\sigma
++dN_{label}
++dN_{sgn}
++d\Lambda_{collar}.
+\tag{TON.95}
+```
+
+If this variation is nonzero on the terminal tail, the atlas motion is already
+visible selector/collar payment inside the four-body packet.  If its terminal
+tail vanishes, the labels, signs, cutoffs, tests, and collar topology stabilize
+after passing to the retained tail.  The selected packet then uses one fixed
+transported annular atlas, so `(TON.91)`--`(TON.93)` apply.
+
+Consequently, failure of the uniform transported-carrier tail `(TON.58)` has no
+unpaid remaining route on the no-exit branch:
+
+```math
+\int_{-\theta_j}^{0}C_{m_j}(s)\,ds\ge \epsilon_0
+\quad\text{for infinitely many }j
+\Longrightarrow
+\sum_j\epsilon_0
+\le
+CK
+\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma
+<\infty,
+\tag{TON.96}
+```
+
+which is impossible.  Thus the transported annular carrier gives the endpoint
+anti-atom:
+
+```math
+\lim_{\theta\downarrow0}\limsup_m
+\nu_m^{ol}((-\theta,0])=0
+\tag{TON.97}
+```
+
+unless the branch has already produced visible selector/collar loss or lost the
+retained same-fluid annular carrier.
