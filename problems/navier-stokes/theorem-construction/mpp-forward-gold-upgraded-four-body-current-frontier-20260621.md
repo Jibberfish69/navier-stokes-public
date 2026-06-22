@@ -2977,20 +2977,18 @@ The remaining positive theorem is:
 The direct overlap-payment attempt does not prove this unconditionally.  It
 reduces the live gap through the sharper channel-overlap split, with the
 stronger \([-b_\sigma]_+\) route retained only as sufficient overpayment.  The
-remaining exact burden is pressure-compatible retained tests plus the terminal
-overlap no-jump modulus isolated in the order-lock overlap surface:
+remaining exact burden after the transported-annular update is the infinite
+donor-chain branch:
 
 ```math
 \boxed{
-\texttt{PressurePartnerCompatibility.A}
-+
-\texttt{TerminalOverlapNoJump.A}
+\texttt{NoFreeTerminalZenoDonorChain.A}
 }
 \tag{4BF.117}
 ```
 
-or equivalently the strict no-waste / no-free Zeno / endpoint-charged profile
-production alternatives:
+The strict no-waste / endpoint-charged profile alternatives remain broader
+ways to consume the same donor/Zeno branch:
 
 ```math
 \boxed{
