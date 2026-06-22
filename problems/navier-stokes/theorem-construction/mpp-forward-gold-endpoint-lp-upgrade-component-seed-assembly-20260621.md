@@ -1,7 +1,7 @@
 ---
 theorem_id: forward-gold-endpoint-lp-upgrade-component-seed-assembly-20260621
 status: algebraic-assembly-valid-only-after-full-participation-order-lock-admission
-logical_landing_node: endpoint_lp_upgrade_from_component_seeds
+logical_landing_node: endpoint_lp_upgrade_after_order_lock_admission
 edge_effect: "Supersedes the old component-seed assembly reading. The algebraic Lp assembly is valid only after FullParticipationOrderLock.A admits the endpoint density from the recombined full pressure-transport-viscosity-incompressibility packet before positive-part extraction. Finite-jet, harmonic pressure-memory, and residue estimates are same-packet channel readouts after that admission, not independent producers. The remaining production burden is full-packet order-lock admission plus same-packet super-L1 channel control."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-reverse-holder-seed-consolidation-20260621.md
@@ -54,7 +54,7 @@ The required admission is:
 \rho_m(s)
 \le
 [h_m(s)]_+
-R_m^{ol}(s),
++R_m^{ol}(s),
 \qquad
 \sup_m\|R_m^{ol}\|_{L_s^{p_{ol}}}<\infty,
 \quad p_{ol}>1.
@@ -304,4 +304,5 @@ Equivalently:
 \tag{ELU.18}
 ```
 
-The recombination from these three seeds to endpoint no-jump is now closed.
+The recombination from order-lock admission plus these same-packet channel
+bounds to endpoint no-jump is closed.
