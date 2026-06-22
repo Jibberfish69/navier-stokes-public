@@ -1,8 +1,8 @@
 ---
 theorem_id: forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622
-status: terminal-overlap-piece-closed-by-transported-annular-fourbody-counting-on-no-exit-branch
+status: terminal-overlap-closed-and-donor-total-cycle-admitted-on-same-packet-branch
 logical_landing_node: order_lock_overlap_fourbody_payment
-edge_effect: "Creates the clean surface for OrderLockOverlapFourBodyPayment.A, replacing the stale polar-pair framing. The algebraic channel-overlap split is proved: the native/full-packet mismatch is controlled by the sum over packet channels of min([n]_+,[-b^k]_+), not by an independent scalar source or by the whole partner deficit as the live object. Viscous, harmonic-pressure, selector/legal, finite signed, geometry, local-pressure, transported-collar, and terminal time/storage overlaps are admitted through their same-packet channels inside A_4B. The terminal time/storage overlap is restored to the transported outer-annulus stress/strain carrier; if its uniform tail fails, fixed transported annular atlas counting puts every surviving pulse inside finite A_4B, while selector/collar drift is visible payment. Thus the terminal overlap piece is closed on the no-exit branch; donor-chain/CM-exit handling remains the separate nonlocal branch."
+edge_effect: "Creates the clean surface for OrderLockOverlapFourBodyPayment.A, replacing the stale polar-pair framing. The algebraic channel-overlap split is proved: the native/full-packet mismatch is controlled by the sum over packet channels of min([n]_+,[-b^k]_+), not by an independent scalar source or by the whole partner deficit as the live object. Viscous, harmonic-pressure, selector/legal, finite signed, geometry, local-pressure, transported-collar, and terminal time/storage overlaps are admitted through their same-packet channels inside A_4B. The terminal time/storage overlap is restored to the transported outer-annulus stress/strain carrier; if its uniform tail fails, fixed transported annular atlas counting puts every surviving pulse inside finite A_4B, while selector/collar drift is visible payment. The donor-chain branch is now split by net versus total exchange: finite rank descent pays finite chains, and zero-rank cycles are counted in A_4B when their total same-packet exchange is retained. Only failure of same-packet realization remains a Part-side CM boundary."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-participation-order-lock-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-partner-polar-payment-direct-attempt-20260621.md
@@ -250,8 +250,8 @@ Hence the overlap is bounded by
 \tag{OLO.20}
 ```
 
-This is the live endpoint obstruction in its order-locked form.  Bounded
-storage does not rule it out.  The pulse model
+This was the endpoint obstruction in its order-locked form.  Bounded storage
+does not rule it out.  The pulse model
 
 ```math
 [n_\sigma]_+
@@ -265,11 +265,12 @@ a\tau_m^{-1}{\bf 1}_{(-\tau_m,0]}
 has finite \(L_s^1\) mass and produces a terminal atom while keeping the
 overlap equal to the pulse.
 
-Therefore the terminal channel requires a genuine no-jump mechanism:
+The transported-annular update supplies the no-jump mechanism by restoring this
+storage drop to the same material outer-annulus carrier:
 
 ```math
 \boxed{
-\texttt{TerminalOverlapNoJump.A}
+\texttt{TerminalOverlapNoJump.A on the transported annular carrier.}
 }
 \tag{OLO.22}
 ```
@@ -286,7 +287,7 @@ with statement
 \tag{OLO.23}
 ```
 
-or a stronger same-packet substitute such as
+The older sufficient substitutes were
 
 ```math
 \boxed{
@@ -296,7 +297,8 @@ or a stronger same-packet substitute such as
 ```
 
 or a Hardy/Orlicz/\(L_s^q\), \(q>1\), endpoint-uniform-integrability bound for
-the overlap density.
+the overlap density.  They are no longer the live object once the material
+annular carrier is retained.
 
 The annular later-on carrier gives the same no-jump mechanism in physical
 packet language.  If the storage partner \(M_\sigma\) is the material annular
@@ -407,12 +409,13 @@ collar, tail, and \(T_\sigma\) pieces are not accounts after the four-body
 solution.  They are the channel entries through which the overlap is admitted
 into \(A_{4B}\).
 
-Therefore `OrderLockOverlapFourBodyPayment.A` is reduced to admission of the
-remaining donor-chain place where channel entry can fail:
+Therefore the only remaining channel-entry boundary is the donor-chain place
+where same-packet realization can fail:
 
 ```math
 \boxed{
 \texttt{NoFreeTerminalZenoDonorChain.A}
+\quad\text{with zero-rank cycles tested by total same-packet exchange.}
 }
 \tag{OLO.26}
 ```
@@ -424,6 +427,8 @@ time/storage term is restored to the transported outer-annulus carrier; a
 nonzero terminal pulse is either counted in \(A_{4B}\) through the fixed
 transported annular atlas or becomes visible selector/collar loss.
 
-The donor term is already typed inside the same full packet.  The remaining
-question is whether an infinite same-carrier donor chain can persist without
-rank descent, retained signed partner, or legal/collar payment.
+The donor term is already typed inside the same full packet.  Finite chains
+telescope by rank descent.  A zero-rank cycle with zero net current is still
+counted when its positive total exchange is retained on the same full packet.
+Only failure of that same-packet realization remains, and that is the
+Part-side CM boundary rather than a hidden gold-side residue.
