@@ -895,19 +895,20 @@ the stress-work part of `(TON.56)` splits as
 \tag{TON.65}
 ```
 
-The viscous collar term has the exact Young bound
+Write \(\phi_m=\eta_m^2\).  The viscous collar term has the exact Young bound
 
 ```math
 2\nu\left|\int V_m\cdot S_y(V_m)\nabla\phi_m\,dy\right|
+ =
+4\nu\left|\int \eta_m V_m\cdot S_y(V_m)\nabla\eta_m\,dy\right|
 \le
 \nu\int\phi_m|S_y(V_m)|^2\,dy
 +
-\nu\int {|V_m|^2|\nabla\phi_m|^2\over \phi_m}\,dy ,
+4\nu\int |V_m|^2|\nabla\eta_m|^2\,dy .
 \tag{TON.66}
 ```
 
-with the usual convention that the last integrand is restricted to the collar
-where \(\phi_m>0\).  Therefore
+Therefore
 
 ```math
 C_m(s)
@@ -918,7 +919,7 @@ C_m(s)
 +
 \left|\int Q_m^{loc} V_m\cdot\nabla\phi_m\,dy\right|
 +
-\nu\int {|V_m|^2|\nabla\phi_m|^2\over \phi_m}\,dy .
+4\nu\int |V_m|^2|\nabla\eta_m|^2\,dy .
 \tag{TON.67}
 ```
 
@@ -937,7 +938,7 @@ Each term in `(TON.67)` has a fixed four-body channel:
 ```
 
 ```math
-\nu\int {|V_m|^2|\nabla\phi_m|^2\over \phi_m}
+4\nu\int |V_m|^2|\nabla\eta_m|^2
 \quad\text{is the transported collar channel,}
 \tag{TON.70}
 ```
