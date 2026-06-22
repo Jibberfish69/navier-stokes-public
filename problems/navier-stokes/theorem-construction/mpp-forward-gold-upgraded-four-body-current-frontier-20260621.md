@@ -3178,6 +3178,42 @@ Thus fixed positive \(C_m\)-mass at infinitely many terminal scales contradicts
 the four-body reserve.  The remaining selection content is exactly `(4BF.126c)`
 plus `(4BF.126d)`.
 
+The finite multiplicity clause `(4BF.126c)` is now closed on the fixed
+transported dyadic annular atlas.  Choose label-space annular cutoffs
+\(\zeta_j\) with bounded overlap and transport them by the same packet flow:
+
+```math
+\eta_j(s,y)=\zeta_j(Y(s,y)).
+\tag{4BF.126f}
+```
+
+Since the flow is one-to-one and incompressible, the transported annular
+supports have the same bounded multiplicity as the label supports:
+
+```math
+\sum_j{\bf 1}_{X(s,\operatorname{supp}\zeta_j)}(y)\le K.
+\tag{4BF.126g}
+```
+
+Hence the log-scale shells \(J_j\) from this fixed atlas satisfy `(4BF.126c)`.
+The embedding `(4BF.126d)` is exactly the channel admission `(4BF.125a)` after
+the four channels are retained in the same \(A_{4B}\) packet.  Thus
+
+```math
+\sum_j
+\int_{-\theta_j}^{0}C_{m_j}(s)\,ds
+\le
+CK
+\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma .
+\tag{4BF.126h}
+```
+
+The counting gate can now fail only if the selected packet leaves the fixed
+transported annular atlas: endpoint-dependent cover refresh, unpaid
+selector/collar drift, or loss of the retained material annular carrier.  Those
+are legal/collar or same-carrier admission failures, not a revived center-only
+endpoint pulse.
+
 The transported collar part of `(4BF.125a)` has an exact material-coordinate
 reduction.  For \(\eta_m(s,y)=\zeta_m(Y_m(s,y))\),
 
