@@ -326,6 +326,38 @@ A_{4B}\text{ counts the pulse}.
 \tag{STC.19}
 ```
 
+The finite-chain consequence is now explicit.  Suppose \(I_1,\ldots,I_M\) are
+disjoint retained heat-time intervals on the same transported material annulus,
+and the selected spike-base thickness or comparable material separation changes
+by factors \(\Lambda_j>1\) on those intervals.  The material clock sharpening
+gives
+
+```math
+\int_{\bigcup_{j=1}^{M}I_j}
+\|S(V_m)(s)\|_{L^\infty(\widehat A_m(s))}\,ds
+\ge
+\sum_{j=1}^{M}\log\Lambda_j .
+\tag{STC.20}
+```
+
+If the same-packet strain tower is retained, Sobolev control on the retained
+annular geometry bounds the left side.  Therefore a retained same-material
+dyadic thinning chain satisfies
+
+```math
+M\log2
+\le
+\int_{\bigcup_j I_j}
+\|S(V_m)(s)\|_{L^\infty(\widehat A_m(s))}\,ds
+<\infty .
+\tag{STC.21}
+```
+
+So an infinite dyadic thinning chain cannot remain invisible on the same
+retained material packet.  It either produces an unbounded strain-clock/tower
+record, or the same-material packet record has been lost before the terminal
+limit.
+
 Without `(STC.18)`, the pure forward-gold no-exit branch remains open at the
 same-packet total strain-vorticity exchange record.  The signed enstrophy ledger
 alone is only a net identity and cannot replace that total record.
