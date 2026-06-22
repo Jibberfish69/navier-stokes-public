@@ -26,6 +26,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-same-packet-record-survival-material-clock-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-participation-material-tower-noexit-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-initial-smooth-frequency-tail-to-material-record-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-record-growth-quantization-to-fourbody-20260622.md
 ---
 
 # Heat-Scale Material Annular Return Record No-Exit Direct Attempt
@@ -302,6 +303,35 @@ OriginalSmoothData
 ```
 
 This theorem is not proved by the current installed inputs.
+
+The record-growth route refines the retained-carrier case.  Let
+\(P(s)=\mathfrak R_{N,m}(s)\), or any equivalent finite material record norm.
+If \(P\) becomes unbounded at the terminal face, then after a finite prefix it
+has infinitely many doubling intervals.  Any positive measure dominating
+
+```math
+d[\log(1+P)]_+
+\tag{HMR.21a}
+```
+
+charges each such interval by at least \(\log(3/2)\).  In the current
+four-body notation, this positive logarithmic record-growth measure is carried
+on the retained branch by the Body-IV return defects
+
+```math
+dK_{\rm ell}^+
++dK_{\rm coef}^+
++dK_{\rm comm}^+
++dK_{\rm transport}^+
++dK_G^+ .
+\tag{HMR.21b}
+```
+
+Those defects are components of the same four-body payment.  Therefore record
+loss is impossible on a retained same-material four-body carrier with finite
+total four-body payment.  If `(HMR.21a)` is not represented by `(HMR.21b)`,
+then the selected branch has lost the material packet record itself, which is
+the Part-side failure.
 
 What is proved is the retained-branch implication:
 
