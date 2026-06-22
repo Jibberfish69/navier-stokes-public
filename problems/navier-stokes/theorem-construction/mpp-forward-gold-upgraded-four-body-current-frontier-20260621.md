@@ -3097,7 +3097,28 @@ If `(4BF.124)` fails, then a terminal subsequence has
 ```
 
 for \(\theta_j\downarrow0\).  This is positive transported-annular
-stress/strain participation.  The exact four-body counting bridge is
+stress/strain participation.  The transported carrier is admitted into
+four-body channels by the exact split
+
+```math
+C_m(s)
+\le
+3\nu\int\phi_m|S_y(V_m)|^2
++
+\left|\int Q_m^HV_m\cdot\nabla\phi_m\right|
++
+\left|\int Q_m^{loc}V_m\cdot\nabla\phi_m\right|
++
+4\nu\int |V_m|^2|\nabla\eta_m|^2,
+\qquad
+\phi_m=\eta_m^2.
+\tag{4BF.125a}
+```
+
+The four terms are, respectively, the viscous/strain channel, the harmonic
+pressure-memory collar channel, the local pressure-compatible retained-test
+channel, and the transported collar channel.  With those channel admissions in
+the same \(A_{4B}\) packet, the exact four-body counting bridge is
 
 ```math
 \sum_j
@@ -3113,7 +3134,8 @@ installed, the four-body cycle gives the contradiction because
 \(\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma<\infty\).
 
 Thus the new frontier is the transported-annular carrier fork: prove `(4BF.124)`
-directly, or prove the bounded-overlap \(A_{4B}\) counting line `(4BF.126)`.
+directly, or prove the bounded-overlap \(A_{4B}\) counting line `(4BF.126)` via
+the channel split `(4BF.125a)`.
 
 The endpoint/donor branch solution now consumes the two remaining terms from
 `(4BF.119)` in the pass-or-exit sense.  The endpoint term obeys
