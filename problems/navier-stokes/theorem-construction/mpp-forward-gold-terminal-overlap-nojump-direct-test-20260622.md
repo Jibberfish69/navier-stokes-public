@@ -947,7 +947,7 @@ coefficient \(4\) is only the Young-inequality envelope produced by
 
 ```math
 4\nu\int |V_m|^2|\nabla\eta_m|^2
-\quad\text{is the transported collar channel,}
+\quad\text{is the transported cutoff-collar participation channel,}
 \tag{TON.70}
 ```
 
@@ -1105,7 +1105,8 @@ Then
 \tag{TON.78}
 ```
 
-Thus the transported collar channel has a uniform terminal tail whenever the
+Thus the transported cutoff-collar participation channel has a uniform terminal
+tail whenever the
 common-collar deformation gauge and material collar energy satisfy
 
 ```math
@@ -1280,7 +1281,7 @@ C
 
 because the four terms in `(TON.67)` are precisely the annular strain,
 harmonic pressure-memory collar, local pressure-compatible collar, and
-transported collar channels of the same \(A_{4B}\) packet.
+transported cutoff-collar participation channels of the same \(A_{4B}\) packet.
 
 Combining `(TON.91)` and `(TON.92)` gives
 
