@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
-status: native-transfer-closed-direct-reserve-or-cm-consumption-boundary-sharpened
+status: order-lock-overlap-frontier-terminal-overlap-nojump-open
 logical_landing_node: upgraded_four_body_current_frontier
 edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, the corrected participation-preserving no-residue full-cycle criterion, the transported transport-channel selector commutator-potential test, the full Hodge-Stokes packet replacement, the lossless full Hodge-Stokes packet rigidity sublemma, the full Hodge-Stokes packet compactness/no-loss criterion and defect split, the transport-product defect evacuation, the local-pressure trace reduction to harmonic pressure memory, the harmonic pressure-memory collar routing, the viscous defect paid-or-strong dichotomy, the selector graph defect reduction to unbounded selector complexity, the terminal trace atom routing, the signed-saturation residual reduction, the remaining full-Hodge-Stokes defect core, the participation-tuple coupling-breaker live-edge audit, the LP full-balance direct attempt, the full-tuple channel-coercivity direct attempt, the critical-density/CKN supplement criterion, the source-square/CKN full-tuple recheck, the signed-polar saturation supplement criterion, the rigid source-residue supplement criterion, the full pre-Cauchy remainder reduction criterion, the direct no-free terminal Zeno four-body attempt, the component test for FourBodyTerminalTraceAC.A, the strict no-waste full-tuple recheck, the base participation nested-shell test, the minimal-producer exhaustion for FourBodyTerminalTraceAC.A, the full-tuple recheck of MinimalZenoProfileProduction.A, the full-tuple endpoint defect CM-consumption boundary, and the terminal Zeno chain profile-or-no-waste forcing attempt. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste, transported-selector commutator potential, full Hodge-Stokes compactness/no-loss, critical-density/CKN, signed-polar saturation, rigid source-residue production, and full pre-Cauchy remainder reduction are proved criteria/tests, not produced Navier-Stokes estimates for channel-first native source selection. The no-residue route sharpens the source-square wall by keeping Leray projection as one compatibility channel inside a full Hodge-Stokes packet, using the exact transport-channel identity <A_sigma^tr(u.grad u),A_sigma^tr u>=-1/2<[u.grad,G_sigma^tr]u,u>, and requiring the full pressure-viscosity-incompressibility packet to be paid by viscosity, capacity drop, and L1 tail without a C_epsilon Theta_sigma^2 E_sigma residual. Its zero-loss rigidity core is now proved conditionally: zero full Hodge-Stokes loss leaves only Galilean/affine-pressure gauge, so gauge-invariant selected singular participation vanishes. Its compactness/no-loss side is now exact as a criterion: strong same-carrier full-packet convergence gives total-variation no-loss for the selected positive carrier, standard local energy compactness evacuates the transport product defect on fixed carriers, the local same-carrier pressure trace passes after Calderon-Zygmund, harmonic pressure memory routes to collar/legal/terminal trace, viscous defect is paid loss or strong gradient convergence, finite/compact selector graphs close, terminal trace atoms route to signed saturation, visible loss, or endpoint storage jump, and finite signed-saturation donor graphs are paid by retained partners, legal exits, LocalDonorBalance.A, and EntranceLeafDecay.A. The remaining full-Hodge-Stokes defect core is exact: full-tuple retention plus absence of unbounded selector complexity/carrier drift, terminal Zeno donor chain inherited from dN_miss, positive endpoint storage jump, and non-summable/non-terminal-AC legal residual implies same-carrier selected positive no-loss. The participation-tuple audit is now the live estimator veto: every selected packet must first carry (R,N,P,V,I), and scalar estimates are cleanup only after the payment channel is assigned. The Body II/III arrow-fill note closes Q_4B -> C_4B -> G_4B as a same-carrier relay. The remaining-arrows note closes G_4B -> S_4B and S_4B -> Q_4B as same-carrier relays, giving the cyclic unweighted reserve for the full four-body carried activity. The selected full-packet production-step note closes the strict payment boundary for the order-locked density h_sigma=<N+P+V+T+I+L+S,varphi_sigma>; that density is paid by the noncircular four-body capacity drop, viscous loss, harmonic-pressure collar memory, selector/collar variation, signed-saturation routing, terminal-trace/storage routing, legal residual, and L1 tail. The channel-first native source object remains separate: direct identification with the full-packet carrier is false without order-locking or signed-saturation, and mismatch must route to the typed terminal trace, donor-chain/saturation, selector/collar, pressure-memory, geometry, or Field branches."
 latest_update: >-
@@ -55,19 +55,22 @@ latest_update: >-
   \(\Delta_{\rm ol}\le\sum_\kappa\int\min\{[n_\sigma]_+,[-b_\sigma^\kappa]_+\}\).
   The older polar-pair payment of all \([-b_\sigma]_+\) is only a sufficient
   overpayment.  The overlap-payment direct attempt uses the sharper channel
-  overlap split, or the overpayment route, to pay the pressure partner for
-  pressure-compatible finite tower tests, pays the viscous partner by normalized
-  viscous/tower loss, routes finite signed-saturation plus selector/legal/geometry
-  partners, and leaves exactly the time/storage/terminal-Zeno producer already isolated as
-  FourBodyTerminalTraceAC.A / StrictFourBodyNoWasteLyapunov.A / no-free Zeno /
-  profile production. The discarded-partner bridge rework then states the exact
-  comparison in Thomas's channel-first/full-packet language: native positivity is
-  controlled by the full four-body route plus the order-lock overlap; pressure,
-  viscosity, selector/legal, finite signed, and geometry overpayment deficits are
-  paid or routed; the only unproduced pieces are the terminal storage drop
-  [-partial_sigma M_sigma]_+ and infinite donor residual Z_donor. Typed exits
-  apply only to partners that leave the retained carrier; retained smooth
-  cancellation is not itself a payment. The terminal Hardy/no-waste direct test
+  overlap split, with the overpayment route retained only as a sufficient
+  stronger criterion. It pays the pressure partner only on pressure-compatible
+  retained tests, treats viscosity as one same-packet paid channel rather than
+  full participation, routes finite signed-saturation plus selector/legal/geometry
+  partners, and leaves exactly the time/storage overlap plus infinite Zeno donor
+  producer:
+  TerminalOverlapNoJump.A / StrictFourBodyNoWasteLyapunov.A /
+  NoFreeTerminalZenoDonorChain.A / profile production. The discarded-partner
+  bridge rework then states the exact comparison in Thomas's channel-first/full-
+  packet language: native positivity is controlled by the full four-body route
+  plus the order-lock overlap only after that overlap is paid or routed; pressure,
+  viscosity, selector/legal, finite signed, and geometry overlap channels are
+  paid or routed; the unproduced positive-forward pieces are the terminal storage
+  overlap and infinite donor residual. Typed exits apply only to partners that
+  leave the retained carrier; retained smooth cancellation is not itself a
+  payment. The terminal Hardy/no-waste direct test
   then proves the exact endpoint mechanism: a uniform Hardy moment for the
   endpoint payment measure dmu=dR+d(-L_4B)_+ implies the terminal no-jump
   modulus and kills the heat-scale pulse. It also gives a concrete conditional
@@ -85,8 +88,11 @@ latest_update: >-
   four-body loop/zero-loss rigidity, or it fails daughter realization and lands
   as Field exit; donor residue is either paid by a finite rank descent
   potential, or a zero-descent cycle lands as Part exit. Thus the channel-first
-  native transfer is now closed outside the two typed CM exits. This is not a
-  no-exit Clay conclusion; the forward-positive no-exit supplier remains
+  native transfer is reduced to the order-lock overlap plus typed CM exits; it
+  is not a gold-only closure until the retained terminal overlap is excluded by
+  no-jump, strict no-waste, or an equivalent same-packet endpoint-uniform-
+  integrable reserve. This is not a no-exit Clay conclusion; the forward-positive
+  no-exit supplier remains
   TerminalHardyNoWaste.A / source-square / critical-strain / normalized CKN /
   strict no-waste.
   The clean current overlap-payment surface is
