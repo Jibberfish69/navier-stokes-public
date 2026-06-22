@@ -264,14 +264,14 @@ The heat-scale calculation in the material-clock note shows why physical
 energy is not that estimate:
 
 ```math
-\text{material deformation clock per heat-scale packet}\simeq 1,
+\text{material strain-metric clock per heat-scale packet}\simeq 1,
 \qquad
 \text{physical dissipation cost}\simeq r.
 \tag{FMT.17}
 ```
 
 Thus a dyadic terminal stack can remain finite for physical energy while the
-material coefficient clock diverges.
+material strain-metric/coefficient record diverges.
 
 ## 6. Exact result
 
