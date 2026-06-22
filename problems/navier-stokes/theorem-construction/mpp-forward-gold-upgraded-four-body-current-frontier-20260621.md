@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
-status: channel-first-native-transfer-closed-forward-noexit-reduced-to-uniform-normalized-energy-pressure-or-cm-endpoint-face
+status: native-transfer-closed-direct-reserve-or-cm-consumption-boundary-sharpened
 logical_landing_node: upgraded_four_body_current_frontier
 edge_effect: "Consolidates the upgraded four-body program after the Body I factorial tower radius-spend form, Body II participation exchange form, Body III no-loss relay form, Body IV deformation-gradient return form, packet-selector polar retention criterion, same-carrier terminal atom accounting, lossless-cycle viscous rigidity, the gauge-quotient tower carrier drain-production criterion, the native pre-Cauchy-to-quotient-tower bridge test, the finite-order amplitude/Field supplement, the source-square/no-waste supplement criterion, the corrected participation-preserving no-residue full-cycle criterion, the transported transport-channel selector commutator-potential test, the full Hodge-Stokes packet replacement, the lossless full Hodge-Stokes packet rigidity sublemma, the full Hodge-Stokes packet compactness/no-loss criterion and defect split, the transport-product defect evacuation, the local-pressure trace reduction to harmonic pressure memory, the harmonic pressure-memory collar routing, the viscous defect paid-or-strong dichotomy, the selector graph defect reduction to unbounded selector complexity, the terminal trace atom routing, the signed-saturation residual reduction, the remaining full-Hodge-Stokes defect core, the participation-tuple coupling-breaker live-edge audit, the LP full-balance direct attempt, the full-tuple channel-coercivity direct attempt, the critical-density/CKN supplement criterion, the source-square/CKN full-tuple recheck, the signed-polar saturation supplement criterion, the rigid source-residue supplement criterion, the full pre-Cauchy remainder reduction criterion, the direct no-free terminal Zeno four-body attempt, the component test for FourBodyTerminalTraceAC.A, the strict no-waste full-tuple recheck, the base participation nested-shell test, the minimal-producer exhaustion for FourBodyTerminalTraceAC.A, the full-tuple recheck of MinimalZenoProfileProduction.A, the full-tuple endpoint defect CM-consumption boundary, and the terminal Zeno chain profile-or-no-waste forcing attempt. The four bodies now have exact normal forms, and selected activity is paid by same-carrier parabolic drain once it is realized as a gauge-quotient finite tower carrier. The direct native bridge fails for the main trilinear source carrier by cubic-versus-quadratic scaling. Finite-order amplitude control is a proved supplement. Source-square/no-waste, transported-selector commutator potential, full Hodge-Stokes compactness/no-loss, critical-density/CKN, signed-polar saturation, rigid source-residue production, and full pre-Cauchy remainder reduction are proved criteria/tests, not produced Navier-Stokes estimates for channel-first native source selection. The no-residue route sharpens the source-square wall by keeping Leray projection as one compatibility channel inside a full Hodge-Stokes packet, using the exact transport-channel identity <A_sigma^tr(u.grad u),A_sigma^tr u>=-1/2<[u.grad,G_sigma^tr]u,u>, and requiring the full pressure-viscosity-incompressibility packet to be paid by viscosity, capacity drop, and L1 tail without a C_epsilon Theta_sigma^2 E_sigma residual. Its zero-loss rigidity core is now proved conditionally: zero full Hodge-Stokes loss leaves only Galilean/affine-pressure gauge, so gauge-invariant selected singular participation vanishes. Its compactness/no-loss side is now exact as a criterion: strong same-carrier full-packet convergence gives total-variation no-loss for the selected positive carrier, standard local energy compactness evacuates the transport product defect on fixed carriers, the local same-carrier pressure trace passes after Calderon-Zygmund, harmonic pressure memory routes to collar/legal/terminal trace, viscous defect is paid loss or strong gradient convergence, finite/compact selector graphs close, terminal trace atoms route to signed saturation, visible loss, or endpoint storage jump, and finite signed-saturation donor graphs are paid by retained partners, legal exits, LocalDonorBalance.A, and EntranceLeafDecay.A. The remaining full-Hodge-Stokes defect core is exact: full-tuple retention plus absence of unbounded selector complexity/carrier drift, terminal Zeno donor chain inherited from dN_miss, positive endpoint storage jump, and non-summable/non-terminal-AC legal residual implies same-carrier selected positive no-loss. The participation-tuple audit is now the live estimator veto: every selected packet must first carry (R,N,P,V,I), and scalar estimates are cleanup only after the payment channel is assigned. The Body II/III arrow-fill note closes Q_4B -> C_4B -> G_4B as a same-carrier relay. The remaining-arrows note closes G_4B -> S_4B and S_4B -> Q_4B as same-carrier relays, giving the cyclic unweighted reserve for the full four-body carried activity. The selected full-packet production-step note closes the strict payment boundary for the order-locked density h_sigma=<N+P+V+T+I+L+S,varphi_sigma>; that density is paid by the noncircular four-body capacity drop, viscous loss, harmonic-pressure collar memory, selector/collar variation, signed-saturation routing, terminal-trace/storage routing, legal residual, and L1 tail. The channel-first native source object remains separate: direct identification with the full-packet carrier is false without order-locking or signed-saturation, and mismatch must route to the typed terminal trace, donor-chain/saturation, selector/collar, pressure-memory, geometry, or Field branches."
 latest_update: >-
@@ -155,6 +155,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-four-body-discarded-partner-bridge-rework-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-hardy-nowaste-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-uniform-normalized-local-energy-pressure-bound-direct-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-cm-exit-exclusion-boundary-recheck-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-endpoint-donor-closure-branch-solution-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-visible-readout-payment-final-attempt-20260621.md
 ---
@@ -3184,4 +3185,42 @@ Therefore the exact remaining no-exit fork is
 \text{CM endpoint Field/Part face after same-witness admission.}
 }
 \tag{4BF.137}
+```
+
+The CM-exit exclusion boundary recheck then separates two readings of that
+last phrase.  The installed CM theorem consumes a finite terminal witness:
+
+```math
+\text{finite terminal witness}
+\Longrightarrow
+\neg Pack_Q
+\vee
+\neg Part_{N,Q}
+\vee
+\forall r>0\,\neg Field_{N,r,Q}.
+\tag{4BF.138}
+```
+
+The stronger statement
+
+```math
+OriginalSmoothData
+\Longrightarrow
+\exists Q,r>0:
+Pack_Q\wedge Part_{N_s,Q}\wedge Field_{N_s,r,Q}
+\tag{4BF.139}
+```
+
+is the older positive packet-survival theorem
+`TerminalCMNoExit.A / NoGenuineCMExit.A`; it is not produced by the current
+inputs and is not the governing CM-consumption burden.  Thus the live fork is
+not "prove CM exits impossible" in the CM sense.  It is:
+
+```math
+\boxed{
+\text{direct terminal reserve production}
+\quad\text{or}\quad
+\text{CM consumption of the endpoint Part/Field face.}
+}
+\tag{4BF.140}
 ```
