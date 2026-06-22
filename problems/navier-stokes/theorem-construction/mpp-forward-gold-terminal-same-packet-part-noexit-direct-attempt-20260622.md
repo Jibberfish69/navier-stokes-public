@@ -380,3 +380,55 @@ Pack_Q+\neg Part_{N,Q}.
 }
 \tag{PNE.28}
 ```
+
+## 8. Full material-tower test
+
+Pulling the full packet back to material coordinates preserves participation
+exactly:
+
+```math
+\partial_t v
++
+A^\top\nabla_aq
+=
+\nu\,\operatorname{div}_a(G\nabla_av),
+\qquad
+\operatorname{div}_a(Av)=0,
+\tag{PNE.29}
+```
+
+where \(v=u\circ X\), \(q=p\circ X\), \(A=(D_aX)^{-1}\), and
+\(G=AA^\top\).
+
+For each tower rung \(V_\alpha=D_a^\alpha v\), the differentiated equation is
+
+```math
+\partial_tV_\alpha
++
+A^\top\nabla_aQ_\alpha
+-
+\nu\,\operatorname{div}_a(G\nabla_aV_\alpha)
+=
+\mathcal C_\alpha^{mat},
+\tag{PNE.30}
+```
+
+with \(\mathcal C_\alpha^{mat}\) made from derivatives of \(A\), \(G\), \(v\),
+and \(q\) on the same carrier.  Factorial weights handle the internal Leibniz
+binomials, but they do not create bounds for the material coefficient tower.
+
+Thus the full-packet pullback gives an exact equivalence:
+
+```math
+\boxed{
+\text{material tower closes}
+\Longleftrightarrow
+\text{the coefficient/tower same-packet record is retained.}
+}
+\tag{PNE.31}
+```
+
+It is not a no-exit proof by itself.  A pure gold no-exit theorem must produce
+the coefficient/tower record from original smooth data before using the
+four-body admission step.  Without that producer, loss of `(PNE.31)` is exactly
+the Part face.
