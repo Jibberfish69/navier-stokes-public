@@ -3141,10 +3141,11 @@ installed, the four-body cycle gives the contradiction because
 Thus the new frontier is the transported-annular carrier fork: prove `(4BF.124)`
 directly, or prove the bounded-overlap \(A_{4B}\) counting line `(4BF.126)` via
 the channel split `(4BF.125a)`.  The remaining gates inside that split are
-transported collar admission, pressure-compatible same-packet selection,
-and fixed transported annular atlas retention.  Harmonic pressure-memory
-requires a separate tail theorem only on the direct uniform-tail route, not on
-the four-body counting route.
+pressure-compatible same-packet selection and fixed transported annular atlas
+retention.  The transported viscous collar term is now explicit Body-II
+cutoff-collar density, so it is counted in \(A_{4B}\) on the same carrier.
+Harmonic pressure-memory requires a separate tail theorem only on the direct
+uniform-tail route, not on the four-body counting route.
 
 The bounded-overlap step is only a counting lemma after \(C_m\) has already
 entered the unweighted four-body activity.  It is not the rejected
@@ -3237,10 +3238,13 @@ So
 \tag{4BF.126b}
 ```
 
-Thus the transported collar gate closes under bounded common-collar deformation,
-bounded label cutoff geometry, and bounded material collar energy.  Failure is
-a common-collar deformation, material collar energy, or label-cutoff geometry
-failure, not a center endpoint pulse.
+Thus the transported collar gate has two roles.  For the direct uniform-tail
+route it closes under bounded common-collar deformation, bounded label cutoff
+geometry, and bounded material collar energy.  For the four-body counting route
+it is already admitted as Body-II cutoff-collar density.  Failure is a
+common-collar deformation, material collar energy, or label-cutoff geometry
+failure on the direct-tail side, or else a same-carrier atlas-retention failure
+on the counting side; it is not a center endpoint pulse.
 
 The endpoint/donor branch solution now consumes the two remaining terms from
 `(4BF.119)` in the pass-or-exit sense.  The endpoint term obeys
