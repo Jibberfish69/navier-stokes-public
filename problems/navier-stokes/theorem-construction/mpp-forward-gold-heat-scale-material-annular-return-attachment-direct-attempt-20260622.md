@@ -1,0 +1,259 @@
+---
+theorem_id: forward-gold-heat-scale-material-annular-return-attachment-direct-attempt-20260622
+status: attachment-identity-proved-on-retained-heat-scale-material-packet-noexit-clause-remains
+logical_landing_node: heat_scale_material_annular_return_attachment
+edge_effect: >-
+  Corrects the later-annular route by keeping the heat-scale shrinking inside
+  the object. The center endpoint pulse is not replaced by a fixed-radius
+  annulus. At each radius r_m, the same material annulus is rescaled to unit
+  heat scale, where its stress/strain return has ordinary time thickness and
+  obeys the exact material stress-work identity for the full
+  pressure-viscosity-incompressibility-velocity packet. On a retained
+  heat-scale material packet, the positive storage part of the order-lock
+  center overlap is attached to this annular return identity. The remaining
+  pure gold clause is no-exit of the retained heat-scale material return
+  record: the delayed annular return window must remain inside the same
+  material packet/atlas. Failure of that record is the Part face, not a
+  detached center atom and not a new stress-only supplier.
+parents:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-overlap-nojump-direct-test-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-later-annular-stress-return-to-material-clock-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-same-packet-record-survival-material-clock-direct-attempt-20260622.md
+---
+
+# Heat-Scale Material Annular Return Attachment Direct Attempt
+
+Date: 2026-06-22
+
+## 0. Correction
+
+The object is the heat-scale spike together with the material annular layers
+under it.  The shrinking radius is not removed.  At radius \(r_m\), rescale the
+same physical annulus:
+
+```math
+V_m(s,y)
+=
+r_m u(t_m+r_m^2s,x_m+r_my),
+\qquad
+Q_m(s,y)
+=
+r_m^2p(t_m+r_m^2s,x_m+r_my).
+\tag{HSA.1}
+```
+
+The relevant theorem is not a fixed-annulus replacement.  It is:
+
+```math
+\boxed{
+\text{center endpoint overlap at scale }r_m
+\Longrightarrow
+\text{same-material annular return at scale }r_m
+}
+\tag{HSA.2}
+```
+
+with both sides measured in the same heat-scale clock \(s\).
+
+## 1. Rescaled material annulus identity
+
+Let \(\widehat A_m(s)\) be a material annulus in the \(y\)-variables,
+transported by
+
+```math
+{dy\over ds}=V_m(s,y).
+\tag{HSA.3}
+```
+
+Then the exact normalized material identity is
+
+```math
+{d\over ds}
+\int_{\widehat A_m(s)}{1\over2}|V_m|^2\,dy
++
+2\nu\int_{\widehat A_m(s)}|S(V_m)|^2\,dy
+=
+\int_{\partial\widehat A_m(s)}
+V_m\cdot\left(-Q_mI+2\nu S(V_m)\right)n\,dA_y .
+\tag{HSA.4}
+```
+
+This is the same pressure-viscosity-incompressibility-velocity law.  Pressure
+and viscosity are carried together through the stress tensor; incompressibility
+is what makes the material volume transport exact.
+
+Define the normalized annular return density
+
+```math
+\widehat\rho_m(s)
+:=
+\int_{\partial\widehat A_m(s)}
+\left|
+V_m\cdot\left(-Q_mI+2\nu S(V_m)\right)n
+\right|\,dA_y
++
+2\nu\int_{\widehat A_m(s)}|S(V_m)|^2\,dy .
+\tag{HSA.5}
+```
+
+This density is the heat-scale version of the later-on outer-annulus
+stress/strain history.
+
+## 2. Attachment of the storage part
+
+Let \(\widehat\Omega_m(s)\) be the material core under the spike, and let
+
+```math
+M_m(s)
+=
+\int_{\widehat\Omega_m(s)}{1\over2}|V_m|^2\,dy .
+\tag{HSA.6}
+```
+
+Applying `(HSA.4)` to \(\widehat\Omega_m(s)\) gives
+
+```math
+-\,dM_m^+(s)
+\le
+\left[
+-\int_{\partial\widehat\Omega_m(s)}
+V_m\cdot\left(-Q_mI+2\nu S(V_m)\right)n\,dA_y
+\right]_+ds
++
+2\nu\int_{\widehat\Omega_m(s)}|S(V_m)|^2\,dy\,ds .
+\tag{HSA.7}
+```
+
+Now take a material annulus between the spike core and an outer material
+interface.  The finite annulus identity gives
+
+```math
+W_{\rm in}(I)
+=
+W_{\rm out}(I)
+-
+\Delta E_{\widehat A_m}(I)
+-
+D_{\widehat A_m}(I).
+\tag{HSA.8}
+```
+
+Thus the positive storage drop in the center core is not a private endpoint
+object.  On a retained heat-scale material annulus it is attached to outer
+annular stress work, annular stored-energy change, and annular dissipation,
+all in the same normalized packet currency.
+
+## 3. Attachment of the order-lock overlap
+
+The center endpoint object is not all storage drop.  It is the order-lock
+overlap
+
+```math
+d\nu_m^{ol}
+=
+\min\left\{
+{da_m\over d\lambda_m},
+{d\gamma_m\over d\lambda_m}
+\right\}\,d\lambda_m,
+\tag{HSA.9}
+```
+
+where \(da_m\) is the native positive time marginal and \(d\gamma_m=d(-M_m)^+\)
+is the positive storage partner on the same packet.
+
+Since
+
+```math
+d\nu_m^{ol}\le d\gamma_m,
+\tag{HSA.10}
+```
+
+the storage attachment above yields the retained-packet domination
+
+```math
+\boxed{
+\nu_m^{ol}(I)
+\le
+C
+\int_{\mathcal R_m(I)}
+\widehat\rho_m(s)\,ds
+}
+\tag{HSA.11}
+```
+
+provided \(\mathcal R_m(I)\) is the same material annular return region
+generated by the spike core over the corresponding delayed heat-time window.
+
+This is the correction to the earlier drift: `(HSA.11)` is stated at the same
+shrinking heat scale.  The annulus is not fixed in physical radius; it is fixed
+after rescaling the same material packet.
+
+## 4. What this solves
+
+On a retained heat-scale material packet, the shrinking radius is solved at the
+carrier level.  The center endpoint pulse is reattached to the normalized
+annular return history:
+
+```math
+\text{center overlap}
+\le
+\text{same-scale material annular stress/strain return}.
+\tag{HSA.12}
+```
+
+If the return region has non-collapsing heat-time thickness and is admitted to
+the same four-body carrier, then a surviving pulse is counted by \(A_{4B}\) on
+that retained packet.
+
+## 5. Exact remaining no-exit clause
+
+The direct attachment does not by itself prove that the required delayed
+annular return region remains available on the terminal sequence.  The missing
+pure gold clause is:
+
+```math
+\boxed{
+\text{the heat-scale material annular return record remains retained on the
+same packet up to the terminal face.}
+}
+\tag{HSA.13}
+```
+
+Equivalently, the later-on return window cannot disappear by loss of the
+material packet, loss of the transported annular atlas, selector/collar drift,
+or failure of the transported velocity-pressure tower.
+
+Failure of `(HSA.13)` is not a hidden center atom.  It is the same-packet
+participation record failing:
+
+```math
+\boxed{
+Pack_Q+\neg Part_{N,Q}.
+}
+\tag{HSA.14}
+```
+
+## 6. Result
+
+The heat-scale shrinking problem is handled correctly as follows:
+
+```math
+\boxed{
+\begin{array}{ll}
+\text{retained heat-scale material annular return}
+&\Rightarrow
+\nu_m^{ol}\text{ attaches to annular stress/strain return}
+\Rightarrow
+A_{4B}\text{ counting},\\[1mm]
+\text{return record not retained}
+&\Rightarrow
+Pack_Q+\neg Part_{N,Q}.
+\end{array}
+}
+\tag{HSA.15}
+```
+
+So the remaining work is not another weighted/unweighted scalar reserve by
+itself.  It is the no-exit theorem for the retained heat-scale material
+annular return record.
