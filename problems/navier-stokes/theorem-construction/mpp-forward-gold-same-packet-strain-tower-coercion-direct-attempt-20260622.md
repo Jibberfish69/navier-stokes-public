@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-same-packet-strain-tower-coercion-direct-attempt-20260622
-status: direct-attempt-fails-sign-indefinite-strain-pressure-tower-obstruction-exact
+status: direct-attempt-reduces-to-positive-vorticity-stretching-after-pressure-collar-routing
 logical_landing_node: same_packet_strain_tower_coercion
 edge_effect: >-
   Attacks SamePacketStrainTowerCoercion.A directly from the coupled
@@ -8,12 +8,15 @@ edge_effect: >-
   finite same-packet strain tower would control that clock by Sobolev. The
   strain equation is exact and coupled to pressure and incompressibility. The
   global pressure-Hessian contribution cancels, but on localized material
-  annuli pressure returns through collar/boundary terms, and the remaining bulk
-  production is positive vorticity stretching. Viscosity gives top-order
+  annuli pressure returns through collar/boundary terms. Those pressure-collar
+  terms have now been routed as same-packet A_4B collar/tower density on the
+  retained transported annular atlas, and the remaining bulk production is
+  positive vorticity stretching. Viscosity gives top-order
   dissipation only after the tower is already retained; it does not supply a
   same-packet coercive lower bound for the nonlinear strain/vorticity
-  production. The direct attempt therefore reduces to the sharper same-packet
-  vorticity-stretching payment plus pressure-collar routing wall.
+  production. The direct attempt therefore reduces to selected positive
+  vorticity-stretching saturation or an equivalent absolute same-packet
+  stretching reserve.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-strain-pressure-cancellation-global-local-audit-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-annular-stress-strain-to-strain-metric-clock-direct-attempt-20260622.md
