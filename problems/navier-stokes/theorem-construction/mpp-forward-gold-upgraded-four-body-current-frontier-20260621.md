@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-upgraded-four-body-current-frontier-20260621
-status: order-lock-overlap-frontier-terminal-overlap-nojump-open
+status: order-lock-overlap-frontier-transported-annular-carrier-counting-open
 logical_landing_node: upgraded_four_body_current_frontier
 edge_effect: >-
   Consolidates the upgraded four-body program at the current exact frontier.
@@ -10,9 +10,11 @@ edge_effect: >-
   order-lock overlap Delta_ol=int min([n]_+,[-b]_+), not the whole partner
   deficit and not any detached proxy route. The
   clean overlap surface reduces this mismatch to pressure-compatible retained
-  tests, terminal overlap no-jump, and the no-free terminal Zeno donor branch,
-  with strict same-packet no-waste allowed only if it supplies the same
-  endpoint-uniform-integrable overlap control.
+  tests, terminal overlap no-jump, and the no-free terminal Zeno donor branch.
+  The terminal overlap no-jump route is now read through the transported
+  outer-annulus stress/strain carrier: either that carrier has a uniform
+  terminal tail, or its surviving terminal pulses must be counted with bounded
+  overlap inside \(A_{4B}\).
 
 latest_update: >-
   The full-loop carrier-rigidity/no-residue direct attempt proves the algebraic
@@ -77,13 +79,16 @@ latest_update: >-
   signed, and geometry overlap channels are same-carrier entries to \(A_{4B}\).
   The remaining admission gates are the terminal storage overlap and infinite
   donor residual. Typed exits apply only to partners that leave the retained
-  carrier; retained smooth cancellation is not itself a payment. The terminal
-  Hardy/no-waste direct test
-  then proves the exact endpoint consumer for the overlap measure
-  \(d\nu_m^{ol}\): Hardy, Orlicz, or \(L_s^q\), \(q>1\), endpoint uniform
-  integrability kills a terminal overlap atom.  Current inputs do not install
-  that uniform integrability for \(d\nu_m^{ol}\); the terminal heat-scale overlap
-  pulse survives finite isolated \(L_s^1\) overlap mass and bounded storage.
+  carrier; retained smooth cancellation is not itself a payment. The
+  transported-annulus correction then restores the time/storage overlap to the
+  outer-annulus stress/strain carrier. For transported cutoffs
+  \((\partial_s+V\cdot\nabla)\phi=0\), the materiality defect vanishes exactly,
+  and the terminal overlap is bounded by transported annular strain plus
+  transported annular stress-work. The live endpoint producer is now a uniform
+  terminal tail for that transported carrier, or bounded-overlap admission of
+  every surviving transported-carrier pulse into the finite \(A_{4B}\) scale
+  budget. Hardy, Orlicz, and \(L_s^q\) remain consumer languages only after
+  they are written for that same transported carrier.
   The endpoint/donor closure branch solution closes the discarded-partner tail
   in the pass-or-exit sense: a positive-thickness daughter is carried by the
   same \(A_{4B}\) loop and zero-loss rigidity, failed daughter realization lands
@@ -91,8 +96,8 @@ latest_update: >-
   and a zero-descent donor cycle lands as Part exit.  Thus the channel-first
   native transfer is reduced to order-lock admission into \(A_{4B}\) plus typed
   CM exits; it is not a gold-only closure until the retained terminal overlap is
-  excluded by no-jump, strict no-waste, or an equivalent same-packet endpoint-
-  uniform-integrable reserve.
+  restored to the transported annular carrier and either its uniform terminal
+  tail is proved or its nonzero pulses are counted inside \(A_{4B}\).
   The clean current overlap-payment surface is
   mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md;
   the older partner-polar note is retained only as the sufficient-overpayment
