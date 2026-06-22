@@ -8,7 +8,7 @@ edge_effect: >-
   carried activity after same-carrier full-packet admission. The channel-first
   native source is a different object. The exact remaining mismatch is the
   order-lock overlap Delta_ol=int min([n]_+,[-b]_+), not the whole partner
-  deficit and not any detached finite-jet/component/viscosity proxy. The
+  deficit and not any detached proxy route. The
   clean overlap surface reduces this mismatch to pressure-compatible retained
   tests, terminal overlap no-jump, and the no-free terminal Zeno donor branch,
   with strict same-packet no-waste allowed only if it supplies the same
@@ -32,13 +32,10 @@ latest_update: >-
   still fails at the terminal heat-scale pulse, transported selector
   admissibility fails for scalar heat-scale selectors under anisotropic strain,
   finite/compact selector-collar motion is charged or stabilizes, and the Zeno
-  donor chain is visible to the full tuple plus tower but still lacks an
-  unweighted payment for the high-factor/source-square/finite-rung readout.
-  The final visible-readout payment attempt exhausts that branch at the current
-  frontier: height is square/tail UI failure, critical density is a consumer
-  without an installed unweighted budget, finite source-gradient rungs are
-  CM-consumable after same-witness admission, and pure high-rung analytic tail
-  returns to tail-to-carrier/no-waste/profile production. The Body II/III
+  donor chain is visible to the full tuple plus tower but still lacks the
+  required same-carrier admission of the terminal overlap. The older visible-
+  readout attempts are historical support under that admission problem, not
+  peer routes. The Body II/III
   arrow-fill note then closes the conditional relay
   Q_4B -> C_4B -> G_4B at the current proof level: zero unpaid full
   participation payment gives same-carrier full-packet compactness, exact local
