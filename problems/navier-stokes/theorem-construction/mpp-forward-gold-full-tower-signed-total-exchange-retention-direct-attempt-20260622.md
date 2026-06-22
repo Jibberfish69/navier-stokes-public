@@ -209,7 +209,38 @@ three-measure packet has already been produced.
 It does not prove that every generated tower-record positive term from
 `(FTR.10)` is already such a retained three-measure packet.
 
-## 5. Direct attempt result
+## 5. Compactness-rigidity route check
+
+There is an abstract route to `(FTR.13)`.  The compactness-rigidity principle
+would give strict same-packet cycle payment if the full-tower packet space were
+compact, the total positive exchange activity persisted under same-carrier
+convergence, the loss were lower semicontinuous, and every zero-loss packet had
+zero total tower-record activity.
+
+The installed no-loss packet criterion proves this only after strong
+same-carrier convergence of the full packet:
+
+```math
+V_n\to V\text{ in }L^3,
+\qquad
+Q_n\to Q\text{ in }L^{3/2},
+\qquad
+\nabla V_n\to\nabla V\text{ in }L^2,
+\tag{FTR.16a}
+```
+
+with stabilized cutoffs, signs, labels, and legal residuals.  That is enough
+to pass selected positive carriers through compactness.
+
+It does not produce the full-tower total-exchange packet from the material
+equation.  In particular, it does not prove that the generated measures
+`(FTR.10)` have a retained positive carrier, retained negative partner, and
+retained signed current before compactness is used.
+
+So compactness-rigidity is a valid consumer for strict cycle coercivity, but it
+does not install the missing signed-total exchange retention.
+
+## 6. Direct attempt result
 
 The pulled-back material Navier-Stokes tower proves:
 
@@ -243,7 +274,7 @@ Therefore the direct attempt does not close
 It reduces it to the strict same-packet cycle-exchange coercivity statement
 `(FTR.13)`--`(FTR.14)`.
 
-## 6. Consequence for the gold route
+## 7. Consequence for the gold route
 
 If `(FTR.13)` holds, then
 
