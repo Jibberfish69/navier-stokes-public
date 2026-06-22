@@ -17,6 +17,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-same-packet-record-survival-material-clock-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-same-packet-part-noexit-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lagrangian-deformation-coercion-direct-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-record-growth-quantization-to-fourbody-20260622.md
 ---
 
 # Full Participation Material-Tower No-Exit Direct Attempt
@@ -287,6 +288,31 @@ OriginalSmoothData
 ```
 
 That theorem is not installed in the current inputs.
+
+There is, however, a noncircular retained-carrier use of the full packet.  Let
+the positive logarithmic growth of the material record be dominated by the
+Body-IV return defects:
+
+```math
+d\left[\log(1+\mathfrak P_N^{mat})\right]^+
+\le
+C
+\left(
+dK_{\rm ell}^+
++dK_{\rm coef}^+
++dK_{\rm comm}^+
++dK_{\rm transport}^+
++dK_G^+
+\right).
+\tag{FMT.18a}
+```
+
+These \(K\)-defects are already part of the four-body return arrow
+\(G_{4B}\to S_{4B}\).  Thus, on a retained same-material four-body carrier,
+unbounded \(\mathfrak P_N^{mat}\) would force infinitely many fixed positive
+four-body payments by record-doubling quantization.  The finite four-body
+payment forbids that.  Failure of `(FMT.18a)` is not a hidden terminal pulse;
+it is loss of the same-material Part record.
 
 The noncircular branch remains:
 
