@@ -2966,17 +2966,17 @@ The remaining positive theorem is:
 \tag{4BF.116}
 ```
 
-The direct overlap-payment attempt proves this either through the sharper
-channel-overlap split or by the stronger overpayment route that pays
-\([-b_\sigma]_+\).  The sufficient overpayment theorem reduces to
-pressure-compatible finite tower tests plus the same terminal modulus already
-isolated in the four-body trace work:
+The direct overlap-payment attempt does not prove this unconditionally.  It
+reduces the live gap through the sharper channel-overlap split, with the
+stronger \([-b_\sigma]_+\) route retained only as sufficient overpayment.  The
+remaining exact burden is pressure-compatible retained tests plus the terminal
+overlap no-jump modulus isolated in the order-lock overlap surface:
 
 ```math
 \boxed{
 \texttt{PressurePartnerCompatibility.A}
 +
-\texttt{FourBodyTerminalTraceAC.A}
+\texttt{TerminalOverlapNoJump.A}
 }
 \tag{4BF.117}
 ```
@@ -2995,12 +2995,12 @@ production alternatives:
 \tag{4BF.118}
 ```
 
-The pressure partner is paid for admissible divergence-free finite tower tests,
-because local pressure moves to the cutoff/collar term and harmonic pressure is
-already \(\mathfrak M_{press}\).  Viscosity is paid by normalized viscous/tower
-loss.  Finite signed-saturation, selector/legal, and geometry partners route
-through their existing channels.  The surviving unproduced term is the
-time/storage terminal trace or infinite Zeno child.  Typed exits apply to
+The pressure partner is paid only on pressure-compatible retained tests:
+local pressure moves to the cutoff/collar term and harmonic pressure is already
+\(\mathfrak M_{press}\).  Viscosity is a same-packet paid channel, not the full
+participation law.  Finite signed-saturation, selector/legal, and geometry
+partners route through their existing channels.  The surviving unproduced term
+is the time/storage overlap or infinite Zeno donor child.  Typed exits apply to
 partners that leave the carrier; they do not pay a retained smooth interior
 cancellation.
 
