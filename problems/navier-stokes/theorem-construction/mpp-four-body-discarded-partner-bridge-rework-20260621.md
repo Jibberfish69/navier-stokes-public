@@ -1,6 +1,6 @@
 ---
 theorem_id: mpp-four-body-discarded-partner-bridge-rework-20260621
-status: bridge-proved-up-to-terminal-storage-and-infinite-donor-pay-or-exit
+status: bridge-reframed-through-order-lock-overlap-terminal-storage-and-donor-pay-or-exit
 logical_landing_node: discarded_partner_bridge_rework
 parents:
   - problems/navier-stokes/theorem-construction/mpp-four-body-native-selected-activity-identification-route-20260621.md
@@ -97,18 +97,33 @@ A_{\rm full}
 \tag{DPB.7}
 ```
 
+The sharper order-lock gap is:
+
+```math
+\boxed{
+\Delta_{\rm ol}
+:=
+\int\left([n_\sigma]_+-[h_\sigma]_+\right)_+
+=
+\int\min\{[n_\sigma]_+,[-b_\sigma]_+\}.
+}
+\tag{DPB.7a}
+```
+
+Thus \(\Delta_{\rm partner}\) is a sufficient envelope, not the exact bridge.
 The bridge theorem is therefore:
 
 ```math
 \boxed{
-\Delta_{\rm partner}
+\Delta_{\rm ol}
 \le
 C A_{4B}+R_{\rm legal}
 }
 \tag{DPB.8}
 ```
 
-or the partner deficit routes to a typed CM exit.
+or the order-lock overlap routes to a typed CM exit.  A proof using
+\(\Delta_{\rm partner}\) is allowed only as an overpayment on the same packet.
 
 ## 1. Meaning of "discarded partner"
 
@@ -189,6 +204,19 @@ Then
 ```
 
 The rest of the proof is exactly channel-by-channel.
+
+After the order-lock formula, this split is an overpayment route for
+\(\Delta_{\rm ol}\), because
+
+```math
+\Delta_{\rm ol}
+\le
+\int[-b_\sigma]_+.
+\tag{DPB.14a}
+```
+
+The exact live object remains the same-packet cancellation overlap, not the
+full negative partner mass.
 
 ## 3. Pressure partner
 
@@ -433,8 +461,8 @@ So the refined final theorem is not another scalar source bridge.  It is:
 ```math
 \boxed{
 \text{native channel-first positivity is controlled by the full four-body
-route once terminal storage jumps and infinite Zeno donor chains are paid or
-sent to CM exit.}
+route once the order-lock overlap, terminal storage jumps, and infinite Zeno
+donor chains are paid or sent to CM exit.}
 }
 \tag{DPB.35}
 ```
