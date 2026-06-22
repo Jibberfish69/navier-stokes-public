@@ -2,7 +2,7 @@
 theorem_id: forward-gold-endpoint-reverse-holder-full-packet-corrected-direct-attempt-20260622
 status: corrected-direct-attempt-reduces-to-super-l1-smooth-density-pressure-service-and-density-residue-absorption
 logical_landing_node: endpoint_reverse_holder_full_packet_corrected
-edge_effect: "Runs the corrected direct attempt at EndpointReverseHolderFullPacket.A on the full endpoint packet density rho_m, with no naked endpoint measures admitted. The no-jump consumer is exact: rho_m uniformly bounded in L_s^q, q>1, gives a terminal tail modulus and kills the heat-scale pulse. The direct production attempt from the local energy identity gives only L_s^1 endpoint bookkeeping unless a real reverse-Holder/super-L1 seed is supplied. The smooth local density has an L_s^(10/9) pass under gauge-fixed normalized local energy-pressure for the transport/local-pressure/lower-order pieces, while the interior viscous density requires either higher gradient integrability or staying on the dissipative side rather than entering rho_m. Harmonic pressure requires AnnularPressureReverseHolder.A after affine-pressure gauge removal. Legal, selector, signed, terminal, and geometry residues must be absolutely continuous densities with L_s^q control, absorbed with a strictly absorbable coefficient, or routed out of the gold endpoint packet."
+edge_effect: "Runs the corrected direct attempt at EndpointReverseHolderFullPacket.A on the full endpoint packet density rho_m, with no naked endpoint measures admitted. The no-jump consumer is exact: rho_m uniformly bounded in L_s^q, q>1, gives a terminal tail modulus and kills the heat-scale pulse. The direct production attempt from the local energy identity gives only L_s^1 endpoint bookkeeping unless a real reverse-Holder/super-L1 seed is supplied. The smooth local feed density has an L_s^(10/9) pass under gauge-fixed normalized local energy-pressure for the transport/local-pressure/lower-order pieces. The viscous drain is not full participation and not an endpoint positive density; it is one visible dissipative channel inside the coupled velocity-pressure-viscosity-incompressibility participation law. Harmonic pressure requires AnnularPressureReverseHolder.A after affine-pressure gauge removal. Legal, selector, signed, terminal, and geometry residues must be absolutely continuous densities with L_s^q control, absorbed with a strictly absorbable coefficient, or routed out of the gold endpoint packet."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-uniform-integrability-reserve-main-theorem-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-reverse-holder-full-packet-direct-attempt-20260621.md
@@ -41,6 +41,20 @@ d\Lambda_{j,m}(s)=\lambda_{j,m}(s)\,ds.
 
 No arbitrary finite endpoint measure is admitted in the gold endpoint packet.
 If a channel remains only a finite measure, it has not entered this theorem.
+
+Here \(H_m\) is the endpoint feed trace after visible viscous loss has been
+kept on the coercive side of the local energy identity.  In pre-drain notation
+this means the positive trace is represented schematically by
+
+```math
+[H_m^{pre\nu}-cD_m^\nu]_+,
+\qquad
+D_m^\nu(s)=\nu\int\eta_m^2|\nabla U_m|^2\,dy.
+\tag{ERHC.3a}
+```
+
+The drain \(D_m^\nu\) is not full participation.  It is one paid channel inside
+the full pressure-transport-viscosity-incompressibility packet.
 
 The target is:
 
