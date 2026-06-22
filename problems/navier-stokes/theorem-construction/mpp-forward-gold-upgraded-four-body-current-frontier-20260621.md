@@ -158,6 +158,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-cm-exit-exclusion-boundary-recheck-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-reserve-producer-family-recheck-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-storage-controls-normalized-terminal-packet-direct-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-endpoint-trace-lp-reserve-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-endpoint-donor-closure-branch-solution-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-visible-readout-payment-final-attempt-20260621.md
 ---
@@ -3407,3 +3408,133 @@ and
 With those two lines installed, the already-proved four-body loop supplies the
 unweighted reserve, Hardy removes the endpoint pulse, and the native source
 bridge closes on the no-exit branch.
+
+The same-carrier endpoint trace \(L_s^p\) direct attempt then tests the smaller
+producer Thomas isolated:
+
+```math
+\boxed{
+\texttt{SameCarrierEndpointTraceLpReserve.A}
+}
+\tag{4BF.156}
+```
+
+namely
+
+```math
+\boxed{
+\sup_m\|[H_m]_+\|_{L_s^p(-1,0)}<\infty
+\qquad\text{for some }p>1.
+}
+\tag{4BF.157}
+```
+
+The consumer step is exact.  Holder gives a Hardy moment for every
+
+```math
+0<\alpha<1-{1\over p},
+\tag{4BF.158}
+```
+
+so `(4BF.157)` implies endpoint no-jump once the legal, signed, selector,
+terminal, and geometry endpoint measures have the matching weighted control.
+
+The direct production step does not follow from the current four-body payment.
+The selected full-packet identity gives
+
+```math
+\int_{-1}^{0}[H_m(s)]_+\,ds\le C,
+\tag{4BF.159}
+```
+
+after capacity drop, full-packet payment measures, legal residue, and tail
+terms are counted.  That is \(L_s^1\), and \(L_s^1\) still permits the terminal
+heat-scale pulse
+
+```math
+a_m(s)=a\,\tau_m^{-1}{\bf 1}_{(-\tau_m,0]}(s),
+\qquad
+\tau_m\downarrow0,
+\tag{4BF.160}
+```
+
+whose \(L_s^p\) norm diverges for every \(p>1\).
+
+The local trace estimate reduces the problem to reverse Holder control of the
+same collar densities:
+
+```math
+[H_m(s)]_+
+\lesssim
+\int_{\operatorname{collar}}
+\left(
+|V_m|^3+|Q_m|^{3/2}+|V_m|^2
+\right)\,dy
++
+\varepsilon\nu\int\eta_m^2|\nabla V_m|^2\,dy
++
+R_m^{legal}(s).
+\tag{4BF.161}
+```
+
+Thus `(4BF.157)` follows from a same-carrier reverse Holder estimate for the
+right-hand side of `(4BF.161)`, but that estimate is not installed.
+
+The mixed tower gives the more precise next target.  A terminal pulse has
+large time variation and large fractional time regularity cost.  Therefore a
+positive temporal trace-regularity estimate would imply the \(L_s^p\) reserve:
+
+```math
+\boxed{
+\sup_m\|[H_m]_+\|_{W_s^{\beta,1}(-1,0)}<\infty
+\qquad\text{for some }\beta>0.
+}
+\tag{4BF.162}
+```
+
+By one-dimensional Sobolev embedding,
+
+```math
+W^{\beta,1}(-1,0)
+\hookrightarrow
+L^p(-1,0),
+\qquad
+1<p<{1\over 1-\beta}.
+\tag{4BF.163}
+```
+
+The installed mixed tower currently supplies exact cross-cylinder coupling,
+factorial binomial cancellation, and radius-spend bookkeeping.  It does not
+yet prove `(4BF.162)` for the endpoint trace.  The exact tower-shaped producer
+is therefore
+
+```math
+\boxed{
+\texttt{EndpointTraceTemporalTowerRegularity.A}
+}
+\tag{4BF.164}
+```
+
+or, equivalently at the trace level,
+
+```math
+\boxed{
+\texttt{TraceCriticalDensityReverseHolder.A}.
+}
+\tag{4BF.165}
+```
+
+So the smallest live gold producer fork is now:
+
+```math
+\boxed{
+\text{same-carrier trace reverse Holder}
+\quad\text{or}\quad
+\text{endpoint trace temporal tower regularity}
+\quad\text{or}\quad
+\text{source-square / critical-strain / CKN reserve}
+\quad\text{or}\quad
+\text{CM endpoint Part/Field consumption.}
+}
+\tag{4BF.166}
+```
