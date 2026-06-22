@@ -1133,3 +1133,56 @@ three explicit same-carrier failures:
 
 These are Pack/collar or four-body storage-admission failures.  They do not
 revive a center-only terminal atom.
+
+## 14. Bounded-overlap selection is counting, not a reserve upgrade
+
+The earlier bounded-overlap no-upgrade result remains in force.  Bounded
+overlap does not convert physical radius-weighted ledgers into an unweighted
+terminal reserve.  Its role here is narrower: after `(TON.72)` has already
+admitted \(C_m\) into the unweighted four-body activity, bounded overlap only
+prevents double-counting the same \(A_{4B}\) mass.
+
+Let \(J_j\subset[\sigma_0,\infty)\) be the log-scale images of a retained
+terminal subsequence, and assume their overlap multiplicity is at most \(K\):
+
+```math
+\sum_j{\bf 1}_{J_j}(\sigma)\le K
+\qquad\text{for a.e. }\sigma .
+\tag{TON.83}
+```
+
+Assume the same-carrier admission from normalized terminal time to log scale:
+
+```math
+\int_{-\theta_j}^{0}C_{m_j}(s)\,ds
+\le
+C\int_{J_j}A_{4B}(\sigma)\,d\sigma .
+\tag{TON.84}
+```
+
+Then summing and using `(TON.83)` gives exactly
+
+```math
+\sum_j
+\int_{-\theta_j}^{0}C_{m_j}(s)\,ds
+\le
+C
+\sum_j\int_{J_j}A_{4B}(\sigma)\,d\sigma
+\le
+CK\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma .
+\tag{TON.85}
+```
+
+Thus if every retained terminal pulse carries
+
+```math
+\int_{-\theta_j}^{0}C_{m_j}(s)\,ds\ge\epsilon_0>0,
+\tag{TON.86}
+```
+
+then `(TON.85)` forbids infinitely many such pulses because the four-body loop
+already gives \(\int A_{4B}<\infty\).
+
+So the bounded-overlap gate has only one remaining content: produce the
+same-carrier log-scale embedding `(TON.84)` with finite multiplicity `(TON.83)`.
+It is not being used as a standalone energy upgrade.
