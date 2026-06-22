@@ -280,21 +280,25 @@ The current installed inputs do not prove `(STC.16)`.
 
 The same-packet strain tower is the right bridge from annular stress/strain
 return to retained material geometry.  But direct energy testing of the strain
-equation stops at a sign-indefinite production wall:
+equation stops at a sign-indefinite production wall.  After the global/local
+pressure audit, this wall has the sharper form:
 
 ```math
 \boxed{
-S^2+\Omega^2+\nabla^2Q
-\text{ is coupled, but not automatically coercive.}
+\text{positive vorticity stretching}
++
+\text{local pressure-collar routing}.
 }
 \tag{STC.17}
 ```
 
-So the sharpened live theorem is:
+So the sharpened live theorem is the pair
 
 ```math
 \boxed{
-\texttt{StrainPressureCoerciveCancellation.A}
+\texttt{SamePacketVorticityStretchingPayment.A}
++
+\texttt{PressureCollarSamePacketRouting.A}.
 }
 \tag{STC.18}
 ```
@@ -304,7 +308,7 @@ inside the full pressure-viscosity-incompressibility-velocity packet.
 Once `(STC.18)` is proved, the chain is:
 
 ```math
-\text{strain-pressure tower coercion}
+\text{vorticity-stretching payment + pressure-collar routing}
 \Longrightarrow
 \text{same-packet strain tower}
 \Longrightarrow
@@ -317,4 +321,4 @@ A_{4B}\text{ counts the pulse}.
 ```
 
 Without `(STC.18)`, the pure forward-gold no-exit branch remains open at the
-strain-pressure production wall.
+same-packet vorticity-stretching / pressure-collar wall.
