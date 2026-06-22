@@ -2945,12 +2945,12 @@ The direct theorem
 
 ```math
 \int[-b_\sigma]_+
-\le
-C A_{4B}+R_{\rm legal}
+\leadsto
+A_{4B}
 \tag{4BF.114}
 ```
 
-is false if "retained partner" is treated as payment.  The scalar packet
+is false if "retained partner" is treated as admission.  The scalar packet
 \(n=1_X\), \(b=-1_X\) has \(A_{\rm native}=|X|\), \(A_{\rm full}=0\), and a
 perfectly retained cancelling partner.  The smooth affine incompressible core
 \(u=(x,-y,0)\), \(p=-(x^2+y^2)/2\) realizes the same convection/pressure
