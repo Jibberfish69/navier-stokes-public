@@ -1027,8 +1027,6 @@ gates:
 \qquad
 \text{local pressure-compatible retained tests,}
 \qquad
-\text{harmonic pressure-memory collar tail,}
-\qquad
 \text{bounded-overlap same-carrier selection.}
 \tag{TON.74}
 ```
