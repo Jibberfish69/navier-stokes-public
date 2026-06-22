@@ -3669,9 +3669,9 @@ The exact positive estimate is:
 ```
 
 The local pressure piece is Calderon-Zygmund licensed by the gauge-fixed
-velocity product.  The interior viscous density is naturally dissipative; if it
-is moved into the positive endpoint trace density, it needs its own
-super-\(L^1\) upgrade.  Current four-body \(L^1\) payment does not prove
+velocity product.  The interior viscous drain stays on the dissipative side;
+moving it into the positive endpoint trace density is the wrong packet
+placement for this gold endpoint route.  Current four-body \(L^1\) payment does not prove
 `(4BF.160m)`.  The valid producers are gauge-fixed normalized
 energy-pressure, positive coupled tower radius, source-square/selected-strain/
 normalized-CKN reserve, or strict no-waste.
