@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-terminal-same-packet-record-survival-material-clock-direct-attempt-20260622
-status: direct-attempt-reduces-to-finite-same-carrier-deformation-tower-clock-not-installed
+status: direct-attempt-reduces-to-finite-same-carrier-strain-metric-tower-record-not-installed
 logical_landing_node: terminal_same_packet_record_survival_material_clock
 edge_effect: >-
   Sharpens TerminalSamePacketPartNoExit.A in material-frame terms. The same
