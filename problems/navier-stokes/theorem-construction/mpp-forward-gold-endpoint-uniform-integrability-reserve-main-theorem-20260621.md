@@ -28,12 +28,12 @@ Define the full same-carrier endpoint packet measure
 d\mu_m
 :={}&
 [H_m(s)]_+\,ds
-d\Lambda_{legal,m}
-d\Lambda_{sel,m}
-d\Lambda_{sgn,m}\\
++d\Lambda_{legal,m}
++d\Lambda_{sel,m}
++d\Lambda_{sgn,m}\\
 &+
 d\Lambda_{term,m}
-d\Lambda_{geom,m}.
++d\Lambda_{geom,m}.
 \end{aligned}
 \tag{EUI.1}
 ```
@@ -270,11 +270,11 @@ let \(\rho_m\) denote the full endpoint density:
 \rho_m(s)
 =
 [H_m(s)]_+
-\lambda_{legal,m}(s)
-\lambda_{sel,m}(s)
-\lambda_{sgn,m}(s)
-\lambda_{term,m}(s)
-\lambda_{geom,m}(s).
++\lambda_{legal,m}(s)
++\lambda_{sel,m}(s)
++\lambda_{sgn,m}(s)
++\lambda_{term,m}(s)
++\lambda_{geom,m}(s).
 \tag{EUI.22}
 ```
 
