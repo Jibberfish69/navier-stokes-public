@@ -9,9 +9,11 @@ edge_effect: >-
   annulus, bounded geometry follows from the heat-scale strain clock int
   ||S(V_m)||_Linf ds. This matches the physical stress/strain carrier: strain is
   the internal deformation force recorded by the full pressure-viscosity-
-  incompressibility-velocity packet. The correction sharpens the no-exit target
-  but does not prove the full finite tower, because the pulled-back derivative
-  tower still needs a controlled frame/connection and transported
+  incompressibility-velocity packet. The strain clock is exactly invariant
+  under heat-scale normalization, so it is a material deformation-time readout,
+  not a radius-discounted energy quantity. The correction sharpens the no-exit
+  target but does not prove the full finite tower, because the pulled-back
+  derivative tower still needs a controlled frame/connection and transported
   velocity-pressure coefficient record.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-material-annular-return-record-noexit-direct-attempt-20260622.md
