@@ -3146,6 +3146,38 @@ and bounded-overlap same-carrier selection.  Harmonic pressure-memory requires a
 separate tail theorem only on the direct uniform-tail route, not on the
 four-body counting route.
 
+The bounded-overlap step is only a counting lemma after \(C_m\) has already
+entered the unweighted four-body activity.  It is not the rejected
+bounded-overlap upgrade from physical radius-weighted ledgers.  If \(J_j\) are
+the log-scale images of a retained terminal subsequence with
+
+```math
+\sum_j{\bf 1}_{J_j}(\sigma)\le K,
+\tag{4BF.126c}
+```
+
+and the same-carrier embedding gives
+
+```math
+\int_{-\theta_j}^{0}C_{m_j}(s)\,ds
+\le
+C\int_{J_j}A_{4B}(\sigma)\,d\sigma,
+\tag{4BF.126d}
+```
+
+then
+
+```math
+\sum_j\int_{-\theta_j}^{0}C_{m_j}(s)\,ds
+\le
+CK\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma.
+\tag{4BF.126e}
+```
+
+Thus fixed positive \(C_m\)-mass at infinitely many terminal scales contradicts
+the four-body reserve.  The remaining selection content is exactly `(4BF.126c)`
+plus `(4BF.126d)`.
+
 The transported collar part of `(4BF.125a)` has an exact material-coordinate
 reduction.  For \(\eta_m(s,y)=\zeta_m(Y_m(s,y))\),
 
