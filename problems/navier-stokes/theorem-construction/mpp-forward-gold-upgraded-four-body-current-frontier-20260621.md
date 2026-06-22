@@ -67,21 +67,21 @@ latest_update: >-
   The older polar-pair payment of all \([-b_\sigma]_+\) is only a sufficient
   overpayment.  The overlap-payment direct attempt uses the sharper channel
   overlap split, with the overpayment route retained only as a sufficient
-  stronger criterion. It pays the pressure partner only on pressure-compatible
-  retained tests, treats viscosity as one same-packet paid channel rather than
-  full participation, routes finite signed-saturation plus selector/legal/geometry
-  partners, and leaves exactly the time/storage overlap plus infinite Zeno donor
-  producer:
+  stronger criterion. It admits the pressure partner only on pressure-compatible
+  retained tests, treats viscosity as one same-packet channel rather than full
+  participation, routes finite signed-saturation plus selector/legal/geometry
+  partners inside the same carrier, and leaves exactly the time/storage overlap
+  plus infinite Zeno donor admission gates:
   TerminalOverlapNoJump.A / StrictFourBodyNoWasteLyapunov.A /
   NoFreeTerminalZenoDonorChain.A / profile production. The discarded-partner
   bridge rework then states the exact comparison in Thomas's channel-first/full-
-  packet language: native positivity is controlled by the full four-body route
-  plus the order-lock overlap only after that overlap is paid or routed; pressure,
-  viscosity, selector/legal, finite signed, and geometry overlap channels are
-  paid or routed; the unproduced positive-forward pieces are the terminal storage
-  overlap and infinite donor residual. Typed exits apply only to partners that
-  leave the retained carrier; retained smooth cancellation is not itself a
-  payment. The terminal Hardy/no-waste direct test
+  packet language: native positivity is admitted into the full four-body route
+  through the order-lock overlap; pressure, viscosity, selector/legal, finite
+  signed, and geometry overlap channels are same-carrier entries to \(A_{4B}\).
+  The remaining admission gates are the terminal storage overlap and infinite
+  donor residual. Typed exits apply only to partners that leave the retained
+  carrier; retained smooth cancellation is not itself a payment. The terminal
+  Hardy/no-waste direct test
   then proves the exact endpoint mechanism: a uniform Hardy moment for the
   endpoint payment measure dmu=dR+d(-L_4B)_+ implies the terminal no-jump
   modulus and kills the heat-scale pulse. It also gives a concrete conditional
