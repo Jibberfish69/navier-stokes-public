@@ -6,15 +6,16 @@ edge_effect: >-
   Attacks SamePacketStrainTowerCoercion.A directly from the coupled
   Navier-Stokes law. The base annular metric clock is driven by strain, and a
   finite same-packet strain tower would control that clock by Sobolev. The
-  strain equation is exact and coupled to pressure and incompressibility, but
-  the strain tower energy contains sign-indefinite terms from S^2, Omega^2, and
-  the pressure Hessian. Viscosity gives top-order dissipation only after the
-  tower is already retained; it does not supply a same-packet coercive lower
-  bound for the nonlinear strain-pressure production. The direct attempt
-  therefore reduces to a sharper missing theorem:
-  StrainPressureCoerciveCancellation.A, a same-packet cancellation/coercion
-  statement for the full pressure-viscosity-incompressibility-velocity packet.
+  strain equation is exact and coupled to pressure and incompressibility. The
+  global pressure-Hessian contribution cancels, but on localized material
+  annuli pressure returns through collar/boundary terms, and the remaining bulk
+  production is positive vorticity stretching. Viscosity gives top-order
+  dissipation only after the tower is already retained; it does not supply a
+  same-packet coercive lower bound for the nonlinear strain/vorticity
+  production. The direct attempt therefore reduces to the sharper same-packet
+  vorticity-stretching payment plus pressure-collar routing wall.
 parents:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-strain-pressure-cancellation-global-local-audit-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-annular-stress-strain-to-strain-metric-clock-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-strain-metric-clock-sharpening-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-participation-material-tower-noexit-direct-attempt-20260622.md
@@ -137,8 +138,10 @@ does not create a bulk sign term.  The result is
 ```
 
 The right side has no fixed sign.  The pressure Hessian is not optional; it is
-the elliptic part of the same incompressible packet.  But the coupling
-`(STC.7)` does not turn `(STC.8)` into a positive lower bound by itself.
+the elliptic part of the same incompressible packet.  On a whole closed packet,
+the pressure-Hessian integral cancels.  On a localized material annulus, it
+returns through collar and boundary terms in the same packet.  The remaining
+bulk production is the vorticity-stretching sign problem.
 
 The standard estimate is only
 
