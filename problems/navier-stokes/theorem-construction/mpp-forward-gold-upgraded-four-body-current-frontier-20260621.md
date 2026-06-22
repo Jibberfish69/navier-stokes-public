@@ -4160,9 +4160,9 @@ needed theorem is only
 ```math
 \boxed{
 \sup_m
-\|\mathcal J_K\|_{L_s^\infty H_y^\sigma}
+\|\mathcal J_K^{loc}\|_{L_s^\infty H_y^\sigma}
 +\sup_m
-\|\partial_s\mathcal J_K\|_{L_s^1H_y^\sigma}
+\|\partial_s\mathcal J_K^{loc}\|_{L_s^1H_y^\sigma}
 <\infty,
 \qquad
 \sigma>{3\over2}.
@@ -4175,7 +4175,7 @@ Then the chain rule gives
 ```math
 \boxed{
 \sup_m
-\|\rho_m^{field}\|_{W_s^{1,1}(-1,0)}
+\|\rho_m^{jet}\|_{W_s^{1,1}(-1,0)}
 <\infty,
 }
 \tag{4BF.196}
@@ -4185,19 +4185,20 @@ and hence
 
 ```math
 \boxed{
-\int_{-\theta}^{0}\rho_m^{field}(s)\,ds
+\int_{-\theta}^{0}\rho_m^{jet}(s)\,ds
 \le C\theta.
 }
 \tag{4BF.197}
 ```
 
-So high-rung-only analytic-radius collapse is not a gold endpoint obstruction
-unless it breaks the finite endpoint jet modulus `(4BF.195)`.  The smaller live
-producer is now:
+So high-rung-only analytic-radius collapse is not a local finite-jet endpoint
+obstruction unless it breaks the finite endpoint jet modulus `(4BF.195)`.
+The smaller live producer is now:
 
 ```math
 \boxed{
 \texttt{FiniteEndpointJetTemporalModulus.A}
++\texttt{AnnularPressureReverseHolder.A}
 +\texttt{EndpointResidueDensityPolicy.A}
 \Longrightarrow
 \texttt{EndpointUniformIntegrabilityReserve.A}.
@@ -4238,7 +4239,7 @@ control:
 \|\partial_y^\alpha U_m(s)\|_{H_y^\sigma}
 +\sup_m\sup_s
 \sum_{|\alpha|\le K+1}
-\|\partial_y^\alpha Q_m(s)\|_{H_y^\sigma}\\
+\|\partial_y^\alpha Q_m^{loc}(s)\|_{H_y^\sigma}\\
 &\qquad
 +\text{admitted gauge/cutoff variation}
 <\infty .
@@ -4256,7 +4257,7 @@ measure.  It is
 \quad\text{or}\quad
 \text{finite endpoint jet temporal-variation blowup}
 \quad\text{or}\quad
-\text{annular pressure-service finite-rung blowup}
+\text{harmonic pressure endpoint-control failure}
 \quad\text{or residue-policy failure.}
 }
 \tag{4BF.201}
