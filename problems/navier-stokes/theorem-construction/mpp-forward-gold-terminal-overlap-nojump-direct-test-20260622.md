@@ -792,6 +792,52 @@ Then `(TON.54)` is exactly
 \tag{TON.57}
 ```
 
+This is the finite-packet attachment statement.  The center/time overlap is
+already dominated before any terminal limit is taken.  Define the two measures
+
+```math
+d\alpha_m:=d\nu_m^{ol},
+\qquad
+d\beta_m:=C_m(s)\,ds .
+\tag{TON.57a}
+```
+
+Then `(TON.57)` is the interval form of
+
+```math
+\int \zeta\,d\alpha_m
+\le
+\int \zeta\,d\beta_m
+\qquad
+\text{for every } \zeta\ge0 .
+\tag{TON.57b}
+```
+
+Thus, along any terminal heat-scale subsequence for which
+\(\alpha_m\rightharpoonup^\ast\alpha\) and
+\(\beta_m\rightharpoonup^\ast\beta\) as Radon measures,
+
+```math
+\int \zeta\,d\alpha
+\le
+\int \zeta\,d\beta
+\qquad
+\text{for every } \zeta\ge0 ,
+\tag{TON.57c}
+```
+
+so
+
+```math
+\alpha\le\beta .
+\tag{TON.57d}
+```
+
+Consequently a terminal atom in the center overlap can only occur together
+with terminal mass in the transported annular strain/stress carrier.  The limit
+cannot detach the center pulse from the outer annulus, because the domination
+was installed at finite \(m\) on the same transported packet.
+
 So the endpoint no-jump statement follows from the same-carrier uniform tail
 
 ```math
