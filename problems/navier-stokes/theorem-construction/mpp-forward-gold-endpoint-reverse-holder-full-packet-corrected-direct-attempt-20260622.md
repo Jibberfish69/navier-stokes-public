@@ -2,7 +2,7 @@
 theorem_id: forward-gold-endpoint-reverse-holder-full-packet-corrected-direct-attempt-20260622
 status: corrected-direct-attempt-reduces-to-super-l1-smooth-density-pressure-service-and-density-residue-absorption
 logical_landing_node: endpoint_reverse_holder_full_packet_corrected
-edge_effect: "Runs the corrected direct attempt at EndpointReverseHolderFullPacket.A on the full endpoint packet density rho_m, with no naked endpoint measures admitted. The no-jump consumer is exact: rho_m uniformly bounded in L_s^q, q>1, gives a terminal tail modulus and kills the heat-scale pulse. The direct production attempt from the local energy identity gives only L_s^1 endpoint bookkeeping unless a real reverse-Holder/super-L1 seed is supplied. The smooth local feed density has an L_s^(10/9) pass under gauge-fixed normalized local energy-pressure for the transport/local-pressure/lower-order pieces. The viscous drain is not full participation and not an endpoint positive density; it is one visible dissipative channel inside the coupled velocity-pressure-viscosity-incompressibility participation law. Harmonic pressure requires AnnularPressureReverseHolder.A after affine-pressure gauge removal. Legal, selector, signed, terminal, and geometry residues must be absolutely continuous densities with L_s^q control, absorbed with a strictly absorbable coefficient, or routed out of the gold endpoint packet."
+edge_effect: "Runs the corrected direct attempt at EndpointReverseHolderFullPacket.A on the full endpoint packet density rho_m, with no naked endpoint measures admitted. The no-jump consumer is exact: rho_m uniformly bounded in L_s^q, q>1, gives a terminal tail modulus and kills the heat-scale pulse. The direct production attempt from the local energy identity gives only L_s^1 endpoint bookkeeping unless a real reverse-Holder/super-L1 seed is supplied. This correction adds the missing admission rule: no finite-jet, harmonic-pressure, viscosity, residue, CKN, tower, or four-body estimate may count as a route unless it is first order-locked to the same full pressure-transport-viscosity-incompressibility packet before positive-part extraction. The smooth local feed density, harmonic pressure service, visible viscous drain, and endpoint residues are channel readouts inside that packet; outside the order-lock identity they are diagnostic side calculations, not producer clauses."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-uniform-integrability-reserve-main-theorem-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-reverse-holder-full-packet-direct-attempt-20260621.md
@@ -465,9 +465,70 @@ The local energy identity and four-body \(L_s^1\) payment do not imply
 `(ERHC.4)`.  They have no mechanism forcing the time marginal to spread over
 terminal intervals.
 
-## 8. Corrected positive theorem
+## 8. Order-lock admission rule
 
-The corrected theorem that is actually proved by the component estimates is:
+The full packet for the endpoint route is the coupled object
+
+```math
+\mathfrak P_m
+=
+\big(
+N_m,P_m,V_m,T_m,I_m,L_m,S_m;
+\chi_m,\Phi_m
+\big),
+\tag{ERHC.36}
+```
+
+where the entries are the transport/nonlinear, pressure, viscous, time,
+incompressibility, legal/collar, and selector/sign/geometry channels carried
+on the same retained packet.
+
+The endpoint density may be estimated only after an order-locked identity of
+the form
+
+```math
+\rho_m(s)
+\le
+C\Big[
+\langle
+N_m+P_m+V_m+T_m+I_m+L_m+S_m,
+\Phi_m
+\rangle
+-cD_m^\nu
+\Big]_+
++R_m^{ol}(s)
+\tag{ERHC.37}
+```
+
+with
+
+```math
+\|R_m^{ol}\|_{L_s^q(-1,0)}\le C
+\qquad(q>1)
+\tag{ERHC.38}
+```
+
+or with an equivalent Hardy/Orlicz endpoint modulus.
+
+This is the admission rule:
+
+```math
+\boxed{
+\text{no channel estimate counts unless it is order-locked to }
+\mathfrak P_m
+\text{ before positive-part extraction.}
+}
+\tag{ERHC.39}
+```
+
+Thus finite-jet control, harmonic-pressure service, CKN control, selected
+critical strain, source-square, viscosity, and four-body payment are not
+standalone subproblems.  They are usable only as channel estimates inside
+`(ERHC.37)`.  Without `(ERHC.37)`, they are diagnostic side calculations.
+
+## 9. What the channel estimates prove after admission
+
+After `(ERHC.37)` is in place, the channel estimates give:
 
 ```math
 \boxed{
@@ -480,7 +541,7 @@ D_m^\nu\ \text{kept as visible drain outside the endpoint positive density}
 \Longrightarrow
 \rho_m\in L_s^q.
 }
-\tag{ERHC.36}
+\tag{ERHC.40}
 ```
 
 Here \(q>1\),
@@ -492,7 +553,7 @@ Here \(q>1\),
 \left(
 |U_m|^3+|Q_m^{loc}|^{3/2}+|U_m|^2
 \right)\,dy,
-\tag{ERHC.37}
+\tag{ERHC.41}
 ```
 
 and
@@ -502,55 +563,59 @@ and
 =
 \int_{\operatorname{collar}}
 |(Q_m^H-\Pi_{aff}Q_m^H)U_m|\,dy.
-\tag{ERHC.38}
+\tag{ERHC.42}
 ```
 
-Under `(ERHC.36)`, the endpoint no-jump theorem follows by `(ERHC.5)`.
+Under `(ERHC.37)` and `(ERHC.40)`, the endpoint no-jump theorem follows by
+`(ERHC.5)`.
 
-## 9. Result of the corrected direct attempt
+## 10. Result of the corrected direct attempt
 
 `EndpointReverseHolderFullPacket.A` is not produced by the current installed
 four-body payment, local energy identity, finite pressure routing, or residue
 routing.
 
-The corrected direct attempt reduces it to four exact producer clauses:
+It does not reduce to four independent subproblems.  It reduces first to the
+single order-lock admission identity `(ERHC.37)`.  Once that identity is
+installed, the channel estimates required inside it are:
 
 ```math
 \boxed{
 \texttt{GaugeFixedSmoothTraceSuperL1.A}
 }
-\tag{ERHC.39}
+\tag{ERHC.43}
 ```
 
-for the transport/local-pressure/lower-order trace;
+for the transport/local-pressure/lower-order trace inside the same packet;
 
 ```math
 \boxed{
 \texttt{ViscousDrainPlacement.A}
 }
-\tag{ERHC.40}
+\tag{ERHC.44}
 ```
 
 meaning the drain is retained as one visible dissipative channel inside the
-full participation law, before the endpoint positive density is formed;
+full participation law, before endpoint positive density formation;
 
 ```math
 \boxed{
 \texttt{AnnularPressureReverseHolder.A}
 }
-\tag{ERHC.41}
+\tag{ERHC.45}
 ```
 
-for the harmonic pressure-memory trace; and
+for the harmonic pressure-memory trace in the same order-locked packet; and
 
 ```math
 \boxed{
 \texttt{EndpointResidueDensityOrAbsorption.A}
 }
-\tag{ERHC.42}
+\tag{ERHC.46}
 ```
 
 for legal, selector, signed, terminal, and geometry channels.
 
 The local energy identity gives the \(L_s^1\) ledger.  The missing gold
-ingredient is the super-\(L^1\) mechanism for the full endpoint density.
+ingredient is not a detached component estimate.  It is the super-\(L^1\)
+mechanism for the order-locked full endpoint packet density.
