@@ -1,23 +1,24 @@
 ---
 theorem_id: forward-gold-heat-scale-material-annular-return-record-noexit-direct-attempt-20260622
-status: direct-attempt-reduces-to-uniform-heat-scale-material-record-survival-not-installed
+status: retained-atlas-shrinking-count-solved-uniform-material-record-survival-not-installed
 logical_landing_node: heat_scale_material_annular_return_record_noexit
 edge_effect: >-
-  Attacks the remaining heat-scale shrinking problem directly. The center
-  endpoint pulse has already been attached to the same heat-scale material
-  annular stress/strain return when that return record is retained. This note
-  tests whether original smooth data forces that retained return record. For
+  Separates the solved retained-atlas heat-scale shrinking/counting step from
+  the still-open material record no-exit step. The center endpoint pulse has
+  already been attached to the same heat-scale material annular stress/strain
+  return when that return record is retained, and the transported annular atlas
+  plus bounded-overlap A_4B counting forbids infinitely many fixed-size
+  shrinking pulses on that retained branch. This note tests the separate pure
+  gold question: whether original smooth data forces the retained material
+  strain-metric/coefficient/velocity-pressure tower up to the terminal face. For
   each preterminal packet the material annular record exists while the smooth
   solution exists. Uniform terminal retention requires a non-collapsing
   heat-time return window, bounded strain-metric material geometry, and bounded
   transported frame/coefficient plus velocity-pressure tower on the same
-  annulus. Current
-  energy/local-energy/frequency inputs do not produce these uniform bounds: a
-  heat-scale pulse can create order-one normalized strain-metric deformation
-  and return work at scale r_m while paying only radius-weighted physical cost.
-  Therefore the heat-scale shrinking has been expressed in the correct
-  material-annular coordinates, but the pure gold no-exit theorem remains the
-  uniform heat-scale material record survival theorem.
+  annulus. Current energy/local-energy/frequency inputs do not produce these
+  uniform bounds: a heat-scale pulse can create order-one normalized
+  strain-metric deformation and return work at scale r_m while paying only
+  radius-weighted physical cost.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-material-annular-return-attachment-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-strain-metric-clock-sharpening-20260622.md
@@ -42,7 +43,9 @@ The attachment theorem already proves the retained-branch statement:
 \tag{HMR.1}
 ```
 
-This note attacks the remaining clause:
+The retained-atlas shrinking/counting step is now handled in
+`mpp-forward-gold-heat-scale-shrinking-resolution-on-retained-atlas-20260622.md`.
+This note attacks the separate remaining material-record clause:
 
 ```math
 \boxed{
@@ -53,7 +56,8 @@ OriginalSmoothData
 \tag{HMR.2}
 ```
 
-This is the shrinking problem itself.  The radius is not frozen or bypassed.
+This is not the bounded-overlap shrinking count.  The radius is still not
+frozen or bypassed.
 The same annulus is rescaled at radius \(r_m\), and retention is asked in the
 unit heat-scale variables.
 
@@ -285,7 +289,8 @@ requires the coupled material clock.
 
 ## 5. Direct result
 
-The heat-scale shrinking problem is now in its exact material-annular form:
+The material-record no-exit problem behind the heat-scale annular route is now
+in exact material-annular form:
 
 ```math
 \boxed{
@@ -323,8 +328,10 @@ Pack_Q+\neg Part_{N,Q}.
 
 ## 6. Exact frontier after this attempt
 
-The route has not avoided the shrinking heat scale.  It has reduced that
-shrinking problem to a single same-carrier theorem:
+The route has not avoided the shrinking heat scale.  The retained-atlas
+shrinking/counting step is solved by the transported annular carrier and
+bounded-overlap \(A_{4B}\) counting.  The remaining pure gold theorem is the
+single same-carrier material-record survival statement:
 
 ```math
 \boxed{
