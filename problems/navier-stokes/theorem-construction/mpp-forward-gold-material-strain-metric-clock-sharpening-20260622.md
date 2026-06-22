@@ -217,9 +217,40 @@ K_m(I)\ge \log\Lambda .
 \tag{SMC.11f}
 ```
 
+The lower bound is additive along a finite same-material thinning chain.  Let
+\(I_1,\ldots,I_M\) be pairwise disjoint retained material-time intervals on
+the same transported annulus.  If, on each \(I_j\), some retained material line
+element, collar thickness, or comparable material separation changes by a
+factor \(\Lambda_j>1\), then
+
+```math
+\int_{\bigcup_{j=1}^{M}I_j}
+\|S_m(s)\|_{L^\infty(\widehat A_m(s))}\,ds
+=
+\sum_{j=1}^{M}K_m(I_j)
+\ge
+\sum_{j=1}^{M}\log\Lambda_j .
+\tag{SMC.11g}
+```
+
+In particular, dyadic thinning on the same retained material annulus costs at
+least \(M\log 2\) in the strain clock over \(M\) retained thinning events:
+
+```math
+\Lambda_j\ge2\quad(1\le j\le M)
+\qquad\Longrightarrow\qquad
+\int_{\bigcup_j I_j}\|S_m(s)\|_{L^\infty}\,ds
+\ge
+M\log2 .
+\tag{SMC.11h}
+```
+
 This is the exact mathematical version of the spike-thinning statement on a
 retained material annulus: the annulus cannot compress or stretch by an
-arbitrary factor while the strain clock stays bounded.
+arbitrary factor while the strain clock stays bounded.  A same-material
+infinite dyadic thinning cascade cannot be invisible as a center-only terminal
+pulse; either the retained annulus has unbounded strain-clock record, or the
+same-material record has been lost.
 
 ## 3. What this proves
 
