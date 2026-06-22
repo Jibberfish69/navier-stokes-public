@@ -4140,22 +4140,22 @@ Thus the remaining exact endpoint UI failure fork is:
 
 The endpoint reorientation makes one more burden correction possible.  Full
 analytic/Gevrey tower radius survival is stronger than the endpoint theorem
-needs.  The endpoint density is finite-order.  Let
+needs.  The local endpoint density is finite-order.  Let
 
 ```math
-\mathcal J_K
+\mathcal J_K^{loc}
 =
 \{
 \partial_y^\alpha U_m,\,
-\partial_y^\alpha Q_m^{loc},\,
-Q_m^H-\Pi_{aff}Q_m^H
+\partial_y^\alpha Q_m^{loc}
 \ :\ |\alpha|\le K
 \}
 \tag{4BF.194}
 ```
 
-be the finite jet set that actually forms the endpoint field density.  The
-needed theorem is only
+be the finite jet set that forms the local endpoint field density.  It does
+not contain the harmonic pressure memory \(Q_m^H-\Pi_{aff}Q_m^H\), which is
+carried by `AnnularPressureReverseHolder.A`.  The needed local theorem is only
 
 ```math
 \boxed{
@@ -4207,7 +4207,8 @@ The smaller live producer is now:
 ```
 
 Full `CoupledMixedTowerRadiusLowerBound.A` remains a sufficient supplier, but
-it is no longer the minimal endpoint UI target.
+it is no longer the minimal endpoint UI target, and it is not allowed to hide
+the annular harmonic-pressure component inside the local jet notation.
 
 The direct test of `(4BF.195)` gives the exact producer state.  Current
 physical energy, physical CKN, and four-body \(L_s^1\) payment do not prove
