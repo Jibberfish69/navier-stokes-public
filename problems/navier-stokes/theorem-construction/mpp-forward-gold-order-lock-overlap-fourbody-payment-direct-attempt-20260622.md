@@ -1,8 +1,8 @@
 ---
 theorem_id: forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622
-status: direct-attempt-reduces-to-transported-annular-carrier-tail-plus-pressure-compatibility
+status: terminal-overlap-piece-closed-by-transported-annular-fourbody-counting-on-no-exit-branch
 logical_landing_node: order_lock_overlap_fourbody_payment
-edge_effect: "Creates the clean surface for OrderLockOverlapFourBodyPayment.A, replacing the stale polar-pair framing. The algebraic channel-overlap split is proved: the native/full-packet mismatch is controlled by the sum over packet channels of min([n]_+,[-b^k]_+), not by an independent scalar source or by the whole partner deficit as the live object. Viscous, harmonic-pressure, selector/legal, finite signed, and geometry overlaps are admitted through their same-packet channels inside A_4B using the stronger partner-overlap estimates. Local pressure requires pressure-compatible same-packet tests. The terminal time/storage overlap has now been restored to the transported outer-annulus stress/strain carrier. The live unproduced admission piece is uniform terminal tail control of that carrier, or bounded-overlap admission of that carrier into A_4B; otherwise the overlap routes through the existing terminal trace or donor/Field branches after same-packet admission."
+edge_effect: "Creates the clean surface for OrderLockOverlapFourBodyPayment.A, replacing the stale polar-pair framing. The algebraic channel-overlap split is proved: the native/full-packet mismatch is controlled by the sum over packet channels of min([n]_+,[-b^k]_+), not by an independent scalar source or by the whole partner deficit as the live object. Viscous, harmonic-pressure, selector/legal, finite signed, geometry, local-pressure, transported-collar, and terminal time/storage overlaps are admitted through their same-packet channels inside A_4B. The terminal time/storage overlap is restored to the transported outer-annulus stress/strain carrier; if its uniform tail fails, fixed transported annular atlas counting puts every surviving pulse inside finite A_4B, while selector/collar drift is visible payment. Thus the terminal overlap piece is closed on the no-exit branch; donor-chain/CM-exit handling remains the separate nonlocal branch."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-participation-order-lock-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-partner-polar-payment-direct-attempt-20260621.md
@@ -408,25 +408,22 @@ solution.  They are the channel entries through which the overlap is admitted
 into \(A_{4B}\).
 
 Therefore `OrderLockOverlapFourBodyPayment.A` is reduced to admission of the
-three places where that channel entry can fail:
+remaining donor-chain place where channel entry can fail:
 
 ```math
 \boxed{
-\texttt{PressurePartnerCompatibility.A}
-+\texttt{TerminalOverlapNoJump.A}
-+\texttt{NoFreeTerminalZenoDonorChain.A}
+\texttt{NoFreeTerminalZenoDonorChain.A}
 }
 \tag{OLO.26}
 ```
 
-Here the terminal term means the transported outer-annulus carrier statement:
-either its same-carrier terminal tail is uniform, or its nonzero terminal pulses
-are counted with bounded overlap inside \(A_{4B}\).  `StrictFourBodyNoWasteLyapunov.A`
-can replace the terminal and donor pieces only when it supplies that same
-transported-carrier control.
+The pressure and terminal terms have been discharged for the order-locked
+transported velocity-pressure tower.  Local pressure is a same-cutoff collar
+trace because the retained tower rungs are divergence-free.  The terminal
+time/storage term is restored to the transported outer-annulus carrier; a
+nonzero terminal pulse is either counted in \(A_{4B}\) through the fixed
+transported annular atlas or becomes visible selector/collar loss.
 
-The pressure and donor terms are already typed inside the same full packet.  The
-terminal overlap theorem is not a detached payment account.  It is the remaining
-test that the native positive source and its time/storage partner enter the same
-oriented transported annular \(A_{4B}\) carrier rather than forming an endpoint
-face.
+The donor term is already typed inside the same full packet.  The remaining
+question is whether an infinite same-carrier donor chain can persist without
+rank descent, retained signed partner, or legal/collar payment.
