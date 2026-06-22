@@ -3216,6 +3216,21 @@ selector/collar drift, or loss of the retained material annular carrier.  Those
 are legal/collar or same-carrier admission failures, not a revived center-only
 endpoint pulse.
 
+The selector compactness/collar stabilization theorem consumes that last
+counting-route gate.  Nonzero selector/collar variation is visible four-body
+payment.  Vanishing terminal variation stabilizes the labels, signs, tests,
+cutoffs, and collar topology, so the fixed transported annular atlas applies.
+Therefore the no-exit branch gives the terminal anti-atom:
+
+```math
+\lim_{\theta\downarrow0}\limsup_m
+\nu_m^{ol}((-\theta,0])=0.
+\tag{4BF.126i}
+```
+
+The only remaining alternatives are visible selector/collar loss or loss of the
+retained same-fluid annular carrier.
+
 The transported collar part of `(4BF.125a)` has an exact material-coordinate
 reduction.  For \(\eta_m(s,y)=\zeta_m(Y_m(s,y))\),
 
