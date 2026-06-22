@@ -9,10 +9,10 @@ edge_effect: >-
   quanta. The remaining exact admission theorem is
   MaterialRecordLogGrowthChannelIdentity.A: differentiate the same material
   record, derive the positive logarithmic growth measures from the material
-  PDE, and then identify those derived measures with the existing annular
-  four-body channels. If that identity holds, record loss is a four-body event;
-  if it fails, the selected branch has lost the material packet record and
-  lands in the Part face rather than remaining a hidden center pulse.
+  PDE, and then admit those derived measures into the already-controlled
+  tower-level annular four-body packet. If that identity holds, record loss is a
+  four-body event; if it fails, the selected branch has lost the material packet
+  record and lands in the Part face rather than remaining a hidden center pulse.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-material-annular-return-record-noexit-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-participation-material-tower-noexit-direct-attempt-20260622.md
@@ -237,20 +237,42 @@ terms come from `(RGQ.12)`--`(RGQ.13)`.  The collar term uses transported
 cutoffs, so the materiality defect vanishes and the remaining collar growth is
 transported collar geometry.
 
-Only after `(RGQ.13b)` is derived may the same measures be identified with the
-annular four-body activity:
+Only after `(RGQ.13b)` is derived may the same measures be admitted into the
+already-controlled annular four-body packet.  This is not a definition of a new
+activity.  It is the admission theorem that the growth measures just derived
+from the one material record are the same tower-level Body-IV/Body-I exchange
+measures already present in the oriented loop:
 
 ```math
-dA_{4B}^{ann}
-:=
+d\mathcal A^{metric}
+d\mathcal A^{coeff}
+d\mathcal A^{vel}
+d\mathcal A^{press}
+d\mathcal A^{visc}
+d\mathcal A^{collar}
+d\mathcal A^{exchange}
+\le
+C\,dA_{4B,N}^{ann}.
+\tag{RGQ.13c}
+```
+
+Here \(dA_{4B,N}^{ann}\) denotes the \(N\)-tower annular slice of the existing
+same-carrier four-body packet.  It is not created in this note; it must be the
+same packet controlled by the cancellation loop.
+
+Equivalently, in the Body-IV return notation, the same admission can be written
+
+```math
 d\mathcal A^{metric}
 +d\mathcal A^{coeff}
 +d\mathcal A^{vel}
 +d\mathcal A^{press}
 +d\mathcal A^{visc}
 +d\mathcal A^{collar}
-+d\mathcal A^{exchange}.
-\tag{RGQ.13c}
++d\mathcal A^{exchange}
+\le
+C\,dD_{G,N}.
+\tag{RGQ.13d}
 ```
 
 The resulting admission theorem is
@@ -258,11 +280,20 @@ The resulting admission theorem is
 ```math
 d\left[\log(1+\mathfrak P_N^{mat})\right]^+
 \le
-C\,dA_{4B}^{ann}.
+C\,dA_{4B,N}^{ann}
 \tag{RGQ.14}
 ```
 
-The existing Body-IV notation is the shorthand for this second step:
+or, through the Body-IV drain channel,
+
+```math
+d\left[\log(1+\mathfrak P_N^{mat})\right]^+
+\le
+C\,dD_{G,N}.
+\tag{RGQ.14a}
+```
+
+The existing Body-IV notation is shorthand for this second step:
 
 ```math
 G_{4B}\to S_{4B}.
@@ -291,7 +322,7 @@ dD_G
 ```
 
 Thus `MaterialRecordLogGrowthChannelIdentity.A`, namely `(RGQ.13b)` plus the
-same-carrier identification `(RGQ.13c)`, gives
+same-carrier admission `(RGQ.13c)`--`(RGQ.13d)`, gives
 
 ```math
 d\left[\log(1+\mathfrak P_N^{mat})\right]^+
