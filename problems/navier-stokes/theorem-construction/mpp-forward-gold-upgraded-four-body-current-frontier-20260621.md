@@ -3142,9 +3142,9 @@ Thus the new frontier is the transported-annular carrier fork: prove `(4BF.124)`
 directly, or prove the bounded-overlap \(A_{4B}\) counting line `(4BF.126)` via
 the channel split `(4BF.125a)`.  The remaining gates inside that split are
 transported collar admission, pressure-compatible same-packet selection,
-and bounded-overlap same-carrier selection.  Harmonic pressure-memory requires a
-separate tail theorem only on the direct uniform-tail route, not on the
-four-body counting route.
+and fixed transported annular atlas retention.  Harmonic pressure-memory
+requires a separate tail theorem only on the direct uniform-tail route, not on
+the four-body counting route.
 
 The bounded-overlap step is only a counting lemma after \(C_m\) has already
 entered the unweighted four-body activity.  It is not the rejected
