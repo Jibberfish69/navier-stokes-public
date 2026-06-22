@@ -2,7 +2,7 @@
 theorem_id: forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622
 status: direct-attempt-reduces-to-terminal-overlap-nojump-plus-pressure-compatibility
 logical_landing_node: order_lock_overlap_fourbody_payment
-edge_effect: "Creates the clean surface for OrderLockOverlapFourBodyPayment.A, replacing the stale polar-pair framing. The algebraic channel-overlap split is proved: the native/full-packet mismatch is controlled by the sum over packet channels of min([n]_+,[-b^k]_+), not by an independent scalar source or by the whole partner deficit as the live object. Viscous, harmonic-pressure, selector/legal, finite signed, and geometry overlaps are paid by their same-packet channels using the stronger partner-overpayment estimates. Local pressure requires pressure-compatible same-packet tests. The only live unproduced positive-forward piece remains the terminal time/storage overlap no-jump or a strict no-waste/full-loop substitute; otherwise the overlap routes through the existing terminal trace or donor/Field branches after same-packet admission."
+edge_effect: "Creates the clean surface for OrderLockOverlapFourBodyPayment.A, replacing the stale polar-pair framing. The algebraic channel-overlap split is proved: the native/full-packet mismatch is controlled by the sum over packet channels of min([n]_+,[-b^k]_+), not by an independent scalar source or by the whole partner deficit as the live object. Viscous, harmonic-pressure, selector/legal, finite signed, and geometry overlaps are admitted through their same-packet channels inside A_4B using the stronger partner-overlap estimates. Local pressure requires pressure-compatible same-packet tests. The only live unproduced admission piece remains the terminal time/storage overlap no-jump or a strict no-waste/full-loop substitute; otherwise the overlap routes through the existing terminal trace or donor/Field branches after same-packet admission."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-participation-order-lock-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-partner-polar-payment-direct-attempt-20260621.md
@@ -136,10 +136,10 @@ we get the order-locked channel split:
 This is still one packet.  The native positive factor \([n_\sigma]_+\) remains
 inside every channel term.
 
-## 2. Paid same-packet channels
+## 2. Same-packet channel admission
 
 For every channel, the overlap is bounded by the corresponding partner
-overpayment:
+overlap:
 
 ```math
 \int\min\{[n_\sigma]_+,[-b_\sigma^\kappa]_+\}
