@@ -897,7 +897,8 @@ the stress-work part of `(TON.56)` splits as
 \tag{TON.65}
 ```
 
-Write \(\phi_m=\eta_m^2\).  The viscous collar term has the exact Young bound
+Write \(\phi_m=\eta_m^2\).  The transported collar contribution of the
+full stress-work participation law has the exact Young bound
 
 ```math
 2\nu\left|\int V_m\cdot S_y(V_m)\nabla\phi_m\,dy\right|
@@ -932,6 +933,11 @@ Each term in `(TON.67)` has a fixed four-body channel:
 \quad\text{is the viscous/strain channel,}
 \tag{TON.68}
 ```
+
+The final term in `(TON.67)` is not a new viscosity-only mechanism.  It is the
+cutoff-collar part of the same transported annular participation law.  The
+coefficient \(4\) is only the Young-inequality envelope produced by
+\(\phi_m=\eta_m^2\).
 
 ```math
 \left|\int Q_m^H V_m\cdot\nabla\phi_m\right|
