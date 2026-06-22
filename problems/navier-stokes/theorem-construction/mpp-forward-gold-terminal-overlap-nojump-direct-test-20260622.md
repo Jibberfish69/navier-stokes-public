@@ -1,0 +1,254 @@
+---
+theorem_id: forward-gold-terminal-overlap-nojump-direct-test-20260622
+status: exact-consumer-proved-production-open-heat-scale-overlap-pulse
+logical_landing_node: terminal_overlap_nojump
+edge_effect: >-
+  Tests TerminalOverlapNoJump.A on the exact order-lock overlap left by
+  OrderLockOverlapFourBodyPayment.A. The live object is not terminal storage
+  AC by itself and not full endpoint measure AC by itself. It is the same-carrier
+  overlap between native positive activity and the negative time/storage partner.
+  The consumer is exact: Hardy, Orlicz, or L_s^q endpoint uniform integrability
+  of this overlap measure kills the terminal atom. Current inputs do not produce
+  that uniform integrability; the terminal heat-scale overlap pulse survives
+  finite L_s^1 four-body payment and bounded storage. Thus the remaining gold
+  supplier must be strict same-packet no-waste, source-square/critical-strain/CKN
+  reserve, or a coupled participation theorem that directly forbids this
+  overlap pulse.
+parents:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-endpoint-nojump-direct-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-hardy-nowaste-direct-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-strict-nowaste-full-tuple-recheck-20260621.md
+---
+
+# Terminal Overlap No-Jump Direct Test
+
+Date: 2026-06-22
+
+## 0. Exact object
+
+The order-lock overlap surface leaves the time/storage term
+
+```math
+\int
+\min\{[n_\sigma]_+,[-\partial_\sigma M_\sigma]_+\}.
+\tag{TON.1}
+```
+
+For a retained terminal heat-scale sequence, write the associated endpoint
+overlap measure as
+
+```math
+d\nu_m^{ol}(s)
+:=
+\int
+\min\{[n_m(s,y)]_+,d(-M_m)^+(s,y)\}
+```
+
+in the absolutely continuous case, and as the corresponding Radon measure
+obtained from the polar decomposition of the positive storage-drop variation
+in the general retained-packet case.
+
+The theorem tested here is
+
+```math
+\boxed{
+\texttt{TerminalOverlapNoJump.A:}
+\qquad
+\lim_{\theta\downarrow0}\limsup_m
+\nu_m^{ol}((-\theta,0])=0.
+}
+\tag{TON.2}
+```
+
+This is narrower than full endpoint no-jump.  It does not ask that every
+storage drop vanish near the terminal face.  It asks that the storage drop not
+overlap the selected native positive source in a terminal atom.
+
+## 1. Exact consumers
+
+### Hardy consumer
+
+If there are \(\alpha\in(0,1)\) and \(C<\infty\) such that
+
+```math
+\sup_m
+\int_{-1}^{0}(-s)^{-\alpha}\,d\nu_m^{ol}(s)
+\le C,
+\tag{TON.3}
+```
+
+then
+
+```math
+\nu_m^{ol}((-\theta,0])
+\le
+\theta^\alpha
+\int_{-\theta}^{0}(-s)^{-\alpha}\,d\nu_m^{ol}(s)
+\le
+C\theta^\alpha.
+\tag{TON.4}
+```
+
+Hence `(TON.2)` follows.
+
+### Super-\(L^1\) density consumer
+
+If
+
+```math
+d\nu_m^{ol}(s)=\rho_m^{ol}(s)\,ds
+\tag{TON.5}
+```
+
+and for some \(q>1\),
+
+```math
+\sup_m\|\rho_m^{ol}\|_{L_s^q(-1,0)}<\infty,
+\tag{TON.6}
+```
+
+then Hölder gives
+
+```math
+\nu_m^{ol}((-\theta,0])
+\le
+\|\rho_m^{ol}\|_{L_s^q}
+\theta^{1-1/q},
+\tag{TON.7}
+```
+
+so `(TON.2)` follows.
+
+### Orlicz consumer
+
+More generally, de la Vallee-Poussin uniform integrability of the densities
+\(\rho_m^{ol}\) gives `(TON.2)`.  This is exactly the same endpoint-uniform-
+integrability requirement, stated without choosing a power.
+
+## 2. Exact pulse obstruction
+
+The terminal heat-scale overlap pulse is
+
+```math
+[n_m(s,y)]_+
+=
+[-\partial_sM_m(s,y)]_+
+=
+a\,\tau_m^{-1}\mathbf 1_{(-\tau_m,0]}(s)\psi_m(y),
+\qquad
+\tau_m\downarrow0,
+\tag{TON.8}
+```
+
+with \(\int\psi_m=1\) on the retained carrier.  Then
+
+```math
+\nu_m^{ol}((-\theta,0])
+=a
+\quad
+\text{whenever }\theta\ge\tau_m,
+\tag{TON.9}
+```
+
+so `(TON.2)` fails.
+
+The same pulse has uniformly finite \(L_s^1\) mass:
+
+```math
+\int_{-1}^{0}d\nu_m^{ol}=a.
+\tag{TON.10}
+```
+
+It also has the exact Hardy blow-up
+
+```math
+\int_{-1}^{0}(-s)^{-\alpha}\,d\nu_m^{ol}(s)
+=
+{a\over 1-\alpha}\tau_m^{-\alpha}
+\to\infty.
+\tag{TON.11}
+```
+
+and for every \(q>1\),
+
+```math
+\|\rho_m^{ol}\|_{L_s^q}^q
+=
+a^q\tau_m^{1-q}
+\to\infty.
+\tag{TON.12}
+```
+
+Thus finite four-body \(L_s^1\) payment, bounded storage, and visibility of the
+full packet do not exclude the terminal overlap atom.
+
+## 3. Why detached suppliers do not prove this
+
+Viscous drain is one paid same-packet channel.  It does not control `(TON.1)`
+unless the negative time/storage partner is shown to be dominated by viscous
+loss on the same selected carrier with an endpoint-uniform-integrable modulus.
+
+Finite jets are local coordinates for the packet.  They do not control
+`(TON.1)` unless their coupled time equation proves endpoint uniform
+integrability of \(\nu_m^{ol}\).
+
+Component \(L_s^p\) estimates are readouts after order-lock admission.  They do
+not control `(TON.1)` until the overlap density itself is either one of those
+components or is dominated by them on the same carrier.
+
+Pressure recovery is also not enough by itself.  It identifies pressure partners
+inside the full packet; it does not make the storage-drop overlap vanish near
+the terminal face.
+
+## 4. Exact current reduction
+
+Combining this note with the order-lock overlap payment surface gives
+
+```math
+\boxed{
+\texttt{OrderLockOverlapFourBodyPayment.A}
+\Leftarrow
+\texttt{PressurePartnerCompatibility.A}
++
+\texttt{TerminalOverlapNoJump.A}
++
+\texttt{NoFreeTerminalZenoDonorChain.A}.
+}
+\tag{TON.13}
+```
+
+The terminal term in `(TON.13)` is produced by any one of:
+
+```math
+\boxed{
+\begin{array}{l}
+\text{Hardy / Orlicz / }L_s^q,\ q>1,
+\text{ endpoint-uniform integrability of }d\nu_m^{ol},\\
+\texttt{StrictFourBodyNoWasteLyapunov.A}
+\text{ on the same full packet},\\
+\text{same-carrier source-square / critical-strain / CKN terminal reserve},\\
+\text{a coupled participation theorem directly forbidding the overlap pulse}.
+\end{array}
+}
+\tag{TON.14}
+```
+
+No weaker \(L_s^1\), finite storage, finite jet, pressure-only, or viscous-only
+statement proves `TerminalOverlapNoJump.A`.
+
+## 5. Result
+
+The consumer theorem is proved exactly.  The production theorem is still open
+at the same coupled object:
+
+```math
+\boxed{
+\text{prove endpoint uniform integrability of the same-carrier overlap measure }
+d\nu_m^{ol}.
+}
+\tag{TON.15}
+```
+
+The terminal heat-scale overlap pulse is the exact countermodel to every
+finite-\(L_s^1\) or detached-channel substitute.
