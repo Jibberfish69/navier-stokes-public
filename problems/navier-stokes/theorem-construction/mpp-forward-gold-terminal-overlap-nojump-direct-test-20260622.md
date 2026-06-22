@@ -11,9 +11,8 @@ edge_effect: >-
   of this overlap measure kills the terminal atom. Current inputs do not produce
   that uniform integrability; the terminal heat-scale overlap pulse survives
   finite isolated L_s^1 overlap mass and bounded storage. Thus the remaining
-  admission mechanism must be strict same-packet no-waste, source-square/
-  critical-strain/CKN reserve inside the same carrier, or a coupled participation
-  theorem that directly forbids this overlap pulse.
+  admission mechanism must be stated directly in the coupled participation
+  language for the same retained packet.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-endpoint-nojump-direct-test-20260621.md
@@ -227,23 +226,12 @@ a^q\tau_m^{1-q}
 Thus finite isolated \(L_s^1\) overlap mass, bounded storage, and visibility of
 the full packet do not exclude the terminal overlap atom.
 
-## 3. Why detached suppliers do not prove this
+## 3. Why detached readouts do not prove this
 
-Viscous drain is one paid same-packet channel.  It does not control `(TON.1)`
-unless the negative time/storage partner is shown to be dominated by viscous
-loss on the same selected carrier with an endpoint-uniform-integrable modulus.
-
-Finite jets are local coordinates for the packet.  They do not control
-`(TON.1)` unless their coupled time equation proves endpoint uniform
-integrability of \(\nu_m^{ol}\).
-
-Component \(L_s^p\) estimates are readouts after order-lock admission.  They do
-not control `(TON.1)` until the overlap density itself is either one of those
-components or is dominated by them on the same carrier.
-
-Pressure recovery is also not enough by itself.  It identifies pressure partners
-inside the full packet; it does not make the storage-drop overlap vanish near
-the terminal face.
+A detached readout does not prove `(TON.1)`.  It becomes relevant only after it
+has been rewritten as a statement about the same coupled participation object
+and the same overlap measure \(d\nu_m^{ol}\).  Until then it is outside the live
+theorem.
 
 ## 4. Exact current reduction
 
@@ -271,15 +259,13 @@ The terminal term in `(TON.13)` is produced by any one of:
 \text{ endpoint-uniform integrability of }d\nu_m^{ol},\\
 \texttt{StrictFourBodyNoWasteLyapunov.A}
 \text{ on the same full packet},\\
-\text{same-carrier source-square / critical-strain / CKN terminal reserve},\\
-\text{a coupled participation theorem directly forbidding the overlap pulse}.
+\text{a theorem stated directly for the coupled participation object}.
 \end{array}
 }
 \tag{TON.14}
 ```
 
-No weaker \(L_s^1\), finite storage, finite jet, pressure-only, or viscous-only
-statement proves `TerminalOverlapNoJump.A`.
+No detached single-readout statement proves `TerminalOverlapNoJump.A`.
 
 ## 5. Result
 
