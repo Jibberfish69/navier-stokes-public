@@ -3052,60 +3052,68 @@ The CM-facing version sends those pieces to terminal trace/storage or infinite
 donor-chain exit after same-witness admission.  This is the exact current
 meaning of the final native-to-four-body bridge.
 
-The terminal Hardy/no-waste estimate is now read on the exact overlap measure.
-For the time/storage overlap, define \(d\nu_m^{ol}\) from the common dominating
-time measure of the native positive marginal and the positive storage-drop
-partner.  A Hardy moment
+The time/storage overlap is now restored to the transported outer-annulus
+stress/strain carrier.  In normalized variables, with the transported cutoff
+\(\phi_m(s,y)=\psi_m(Y_m(s,y))\), the exact materiality identity gives
 
 ```math
-\sup_m\int_{-1}^{0}(-s)^{-\alpha}\,d\nu_m^{ol}(s)<\infty
+C_m(s)
+:=
+2\nu\int\phi_m|S_y(V_m)|^2\,dy
++
+\left|\int V_m\cdot T_m\nabla\phi_m\,dy\right|.
 \tag{4BF.122}
 ```
 
-for any \(\alpha\in(0,1)\) implies
+The order-lock time/storage overlap satisfies
 
 ```math
-\lim_{\theta\downarrow0}\limsup_m\nu_m^{ol}((-\theta,0])=0,
+\nu_m^{ol}((-\theta,0])
+\le
+\int_{-\theta}^{0}C_m(s)\,ds.
 \tag{4BF.123}
 ```
 
-and hence the endpoint no-jump theorem.  The model pulse
+Therefore terminal no-jump follows from the uniform terminal tail
 
 ```math
-a_m(s)=a\,\tau_m^{-1}{\bf 1}_{(-\tau_m,0]}(s)
+\lim_{\theta\downarrow0}\limsup_m
+\int_{-\theta}^{0}C_m(s)\,ds
+=0.
 \tag{4BF.124}
 ```
 
-violates `(4BF.122)` by a factor \(\tau_m^{-\alpha}\), so the Hardy estimate
-kills exactly the remaining same-carrier overlap atom.
+Hardy, Orlicz, and \(L_s^q\) criteria are consumer languages for `(4BF.124)`;
+they are not replacement objects.  The object is the transported annular
+carrier \(C_m\).
 
-The direct PDE production test gives a concrete conditional route.  If the
-retained normalized packets have a uniform local energy-pressure bound
+If `(4BF.124)` fails, then a terminal subsequence has
 
 ```math
-\sup_m
-\left(
-\|V_m\|_{L_s^\infty L_y^2}^2
-+\|\nabla V_m\|_{L_{s,y}^2}^2
-+\|Q_m\|_{L_{s,y}^{5/3}}^{5/3}
-\right)<\infty,
+\int_{-\theta_j}^{0}C_{m_j}(s)\,ds
+\ge
+\epsilon_0
 \tag{4BF.125}
 ```
 
-then the smooth full-packet trace density is in \(L_s^{10/9}\), and Hardy holds
-for every \(\alpha<1/10\), modulo the same weighted endpoint control for legal,
-terminal, signed, selector, and geometry measures.  Current installed inputs
-give radius-discounted physical control, not `(4BF.125)` on the retained
-terminal heat-scale family.  Thus the new frontier is:
+for \(\theta_j\downarrow0\).  This is positive transported-annular
+stress/strain participation.  The exact four-body counting bridge is
 
 ```math
-\boxed{
-\texttt{TerminalHardyNoWaste.A}
-\quad\text{or}\quad
-\text{CM endpoint-face consumption of Hardy failure.}
-}
+\sum_j
+\int_{-\theta_j}^{0}C_{m_j}(s)\,ds
+\le
+C
+\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma
 \tag{4BF.126}
 ```
+
+for a disjoint or bounded-overlap terminal subsequence.  Once `(4BF.126)` is
+installed, the four-body cycle gives the contradiction because
+\(\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma<\infty\).
+
+Thus the new frontier is the transported-annular carrier fork: prove `(4BF.124)`
+directly, or prove the bounded-overlap \(A_{4B}\) counting line `(4BF.126)`.
 
 The endpoint/donor branch solution now consumes the two remaining terms from
 `(4BF.119)` in the pass-or-exit sense.  The endpoint term obeys
@@ -3174,7 +3182,7 @@ impossible from original smooth data.
 
 The older uniform normalized local energy-pressure direct test is now only a
 sufficient readout route.  It helps only after it is tied to the actual
-order-lock overlap measure \(d\nu_m^{ol}\).  The raw retained packet bound is
+transported annular carrier \(C_m\).  The raw retained packet bound is
 
 ```math
 \sup_m
@@ -3191,17 +3199,17 @@ object is
 
 ```math
 \texttt{TerminalOverlapNoJump.A}
-\quad\text{for }d\nu_m^{ol}.
+\quad\text{for the transported annular carrier }C_m.
 \tag{4BF.136}
 ```
 
 No detached readout family is a peer route here.  A readout becomes relevant
 only after it is rewritten as the same coupled participation statement for
-\(d\nu_m^{ol}\) inside \(A_{4B}\).  Therefore the exact remaining fork is
+\(C_m\) inside \(A_{4B}\).  Therefore the exact remaining fork is
 
 ```math
 \boxed{
-\texttt{TerminalOverlapNoJump.A}
+\texttt{TerminalOverlapNoJump.A for }C_m
 \quad\text{or}\quad
 \text{CM endpoint Field/Part face after same-witness admission.}
 }
