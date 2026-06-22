@@ -326,6 +326,43 @@ On a positive-thickness smooth outer annulus, the right side has ordinary
 terminal absolute continuity.  This is the same terminal no-jump theorem stated
 without detaching the center pulse from the annular stress/strain carrier.
 
+For the actual localized storage
+
+```math
+M_\sigma={1\over2}\int\phi_\sigma |V_\sigma|^2,
+\qquad
+\phi_\sigma=\eta_\sigma^2,
+\tag{OLO.24c}
+```
+
+the exact stress-form identity is
+
+```math
+\partial_\sigma M_\sigma
++
+2\nu\int\phi_\sigma |S(V_\sigma)|^2
+=
+-\int V_\sigma\cdot T(V_\sigma,Q_\sigma)\nabla\phi_\sigma
++
+\int {1\over2}|V_\sigma|^2
+(\partial_\sigma+V_\sigma\cdot\nabla)\phi_\sigma .
+\tag{OLO.24d}
+```
+
+So the storage partner is restored to the material annular carrier when
+\((\partial_\sigma+V_\sigma\cdot\nabla)\phi_\sigma=0\).  Otherwise the only
+new term is the same-carrier materiality defect
+
+```math
+\int {1\over2}|V_\sigma|^2
+\left|(\partial_\sigma+V_\sigma\cdot\nabla)\phi_\sigma\right|.
+\tag{OLO.24e}
+```
+
+That term belongs to the selector/collar channel.  If its terminal tail is
+absolutely continuous, the time/storage overlap is admitted into the annular
+stress/strain carrier and the endpoint pulse is excluded.
+
 ## 5. Result
 
 Combining `(OLO.11)` through `(OLO.20)` gives
