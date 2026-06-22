@@ -9,11 +9,12 @@ edge_effect: >-
   tests whether original smooth data forces that retained return record. For
   each preterminal packet the material annular record exists while the smooth
   solution exists. Uniform terminal retention requires a non-collapsing
-  heat-time return window, bounded material deformation, and bounded
-  transported velocity-pressure tower on the same annulus. Current
+  heat-time return window, bounded strain-metric material geometry, and bounded
+  transported frame/coefficient plus velocity-pressure tower on the same
+  annulus. Current
   energy/local-energy/frequency inputs do not produce these uniform bounds: a
-  heat-scale pulse can create order-one normalized material deformation and
-  return work at scale r_m while paying only radius-weighted physical cost.
+  heat-scale pulse can create order-one normalized strain-metric deformation
+  and return work at scale r_m while paying only radius-weighted physical cost.
   Therefore the heat-scale shrinking has been expressed in the correct
   material-annular coordinates, but the pure gold no-exit theorem remains the
   uniform heat-scale material record survival theorem.
@@ -249,7 +250,7 @@ differentiated material tower from `(HMR.11)` contains derivatives of
 
 ## 4. Why energy and frequency do not solve it
 
-One heat-scale packet can have order-one normalized deformation:
+One heat-scale packet can have order-one normalized strain-metric deformation:
 
 ```math
 \int_{-1}^{0}
@@ -326,7 +327,7 @@ shrinking problem to a single same-carrier theorem:
 
 ```math
 \boxed{
-\text{uniform heat-scale material deformation/tower record survival}.
+\text{uniform heat-scale material strain-metric/tower record survival}.
 }
 \tag{HMR.24}
 ```
