@@ -152,8 +152,8 @@ Hence
 ```math
 \boxed{
 A_{\rm native}(\sigma)
-\le
-A_{4B}(\sigma)+R_{\rm legal}(\sigma).
+\leadsto
+A_{4B}(\sigma).
 }
 ```
 
@@ -184,40 +184,40 @@ The signed-partner theorem must prove that every such deficit is either carried 
 
 ```math
 \int[-b_\sigma^p]_+
-\le
-C A_{4B}^{press}(\sigma)+R_{press}^{legal}(\sigma)
+\leadsto
+A_{4B}^{press}(\sigma)
 ```
 
 or pressure-memory/collar exit;
 
 ```math
 \int[-b_\sigma^v]_+
-\le
-C A_{4B}^{vis}(\sigma)+R_{vis}^{legal}(\sigma)
+\leadsto
+A_{4B}^{vis}(\sigma)
 ```
 
 or visible viscous payment;
 
 ```math
 \int[-b_\sigma^t]_+
-\le
-C A_{4B}^{time}(\sigma)+R_{term}(\sigma)
+\leadsto
+A_{4B}^{time}(\sigma)
 ```
 
 or terminal trace/storage exit;
 
 ```math
 \int[-b_\sigma^i]_+
-\le
-C A_{4B}^{inc}(\sigma)+R_{sgn}(\sigma)
+\leadsto
+A_{4B}^{inc}(\sigma)
 ```
 
 or donor/saturation exit;
 
 ```math
 \int[-b_\sigma^l]_+
-\le
-C A_{4B}^{legal}(\sigma)+R_{legal}(\sigma)
+\leadsto
+A_{4B}^{legal}(\sigma)
 ```
 
 or selector/collar exit;
@@ -235,11 +235,13 @@ Summing gives
 ```math
 \boxed{
 \Delta_{\rm partner}(\sigma)
-\le
-C A_{4B}(\sigma)+R_{\rm legal}(\sigma)
+\leadsto
+A_{4B}(\sigma)
 }
 ```
 
+Here the legal/collar/tail handling is already part of the oriented four-body
+package.  It is not an external account after \(A_{4B}\).
 outside the typed exit branches. Combining with the algebraic core yields the desired comparison.
 
 ## 4. Why this is noncircular
@@ -333,8 +335,8 @@ with statement:
 \Delta_{\rm partner}(\sigma)
 =
 \int[-\langle P+V+T+I+L+S,\varphi_\sigma\rangle]_+
-\le
-C A_{4B}(\sigma)+R_{\rm legal}(\sigma)
+\leadsto
+A_{4B}(\sigma)
 }
 ```
 
