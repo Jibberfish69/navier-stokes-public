@@ -4727,15 +4727,15 @@ for the transport, local-pressure, and lower-order smooth trace;
 
 ```math
 \boxed{
-\texttt{ViscousDrainEndpointPolicy.A}
+\texttt{ViscousDrainPlacement.A}
 }
 \tag{4BF.241}
 ```
 
-meaning either higher gradient integrability for
-\(\nu\int\eta_m^2|\nabla U_m|^2\,dy\), or a sign/orientation rule keeping the
-viscous drain on the dissipative side rather than inside the endpoint positive
-trace density;
+meaning viscosity is kept as one visible dissipative channel inside the full
+participation law, before endpoint positive density formation.  It is not full
+participation by itself, and it is not the reverse-Holder density to be
+upgraded;
 
 ```math
 \boxed{
@@ -4755,7 +4755,7 @@ for \(Q_m^H-\Pi_{aff}Q_m^H\); and
 
 for legal, selector, signed, terminal, and geometry channels.
 
-The finite local jet remains useful only for the local smooth trace and
+The finite local jet remains useful only for the local smooth feed trace and
 material selector/collar motion.  It is not the endpoint theorem and it does
-not control harmonic pressure, viscous-drain time concentration, or arbitrary
-endpoint residues.
+not control harmonic pressure, full participation, or arbitrary endpoint
+residues.
