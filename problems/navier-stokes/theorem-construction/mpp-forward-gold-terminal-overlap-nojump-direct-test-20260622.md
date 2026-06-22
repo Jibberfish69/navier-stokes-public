@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-terminal-overlap-nojump-direct-test-20260622
-status: transported-annular-nojump-proved-on-retained-fixed-atlas-remaining-loss-is-same-carrier-part-face-or-visible-selector-collar
+status: heat-scale-annular-attachment-proved-on-retained-packet-noexit-record-remains
 logical_landing_node: terminal_overlap_nojump
 edge_effect: >-
   Tests TerminalOverlapNoJump.A on the exact order-lock overlap left by
@@ -9,15 +9,17 @@ edge_effect: >-
   overlap between native positive activity and the negative time/storage partner.
   The consumer is exact: uniform terminal tail control of this same-packet
   overlap kills the terminal atom. The spike/annulus correction restores the
-  overlap to its transported outer-annulus stress/strain carrier. Transported
-  cutoffs discharge the materiality defect exactly. Thus the remaining
-  admission mechanism is uniform terminal tail control of the transported
-  annular carrier, or admission of that carrier as visible A_4B participation.
+  overlap to the same heat-scale material annular stress/strain carrier on a
+  retained packet. Transported cutoffs discharge the materiality defect exactly
+  on that retained packet. Thus the remaining no-exit mechanism is retention of
+  the delayed heat-scale material annular return record; with that record, the
+  overlap is admitted as visible A_4B participation.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-endpoint-nojump-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-hardy-nowaste-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-strict-nowaste-full-tuple-recheck-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-material-annular-return-attachment-direct-attempt-20260622.md
 ---
 
 # Terminal Overlap No-Jump Direct Test
@@ -246,11 +248,10 @@ Combining this note with the order-lock overlap payment surface gives
 \tag{TON.13}
 ```
 
-The earlier pressure and terminal-overlap gates are discharged below for the
-order-locked transported velocity-pressure tower.  Local pressure is a
-same-cutoff collar trace, and the terminal time/storage overlap is restored to
-the transported outer-annulus carrier and counted in \(A_{4B}\) on the fixed
-transported annular atlas.
+The local pressure gate is discharged below for the order-locked transported
+velocity-pressure tower.  The terminal time/storage overlap is attached below
+to the heat-scale material outer-annulus carrier on the retained return branch.
+It is counted in \(A_{4B}\) after that heat-scale return record is retained.
 
 The terminal term in `(TON.13)` is produced by any one of:
 
@@ -271,12 +272,13 @@ No detached single-readout statement proves `TerminalOverlapNoJump.A`.
 
 ## 5. Result
 
-The consumer theorem is proved exactly.  The production theorem is still open
-at the same coupled object:
+The consumer theorem is proved exactly.  The heat-scale annular attachment is
+proved on retained material packets.  The production theorem still open at the
+same coupled object is no-exit of that retained annular return record:
 
 ```math
 \boxed{
-\text{prove endpoint uniform integrability of the same-carrier overlap measure }
+\text{retain the heat-scale material annular return record behind }
 d\nu_m^{ol}.
 }
 \tag{TON.15}
@@ -334,14 +336,14 @@ endpoint measure.
 So the live production clause becomes:
 
 ```math
-\text{restore the spike plus annular later-on stress/strain carrier}
-\text{ and admit that carrier into the four-body participation object.}
+\text{retain the heat-scale spike plus annular later-on stress/strain carrier}
+\text{ and admit that retained carrier into the four-body participation object.}
 \tag{TON.19}
 ```
 
-This is the promised coupled-participation route in concrete physical form:
-the terminal pulse survives only while the outer-annulus stress/strain carrier
-has been projected away.
+This is the coupled-participation route in concrete physical form: the terminal
+pulse survives as a hidden center object only when the heat-scale outer-annulus
+stress/strain return record is not retained in the same packet.
 
 ## 7. Fixed outer-annulus carrier no-atom lemma
 
