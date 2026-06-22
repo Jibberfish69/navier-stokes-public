@@ -245,12 +245,12 @@ measures already present in the oriented loop:
 
 ```math
 d\mathcal A^{metric}
-d\mathcal A^{coeff}
-d\mathcal A^{vel}
-d\mathcal A^{press}
-d\mathcal A^{visc}
-d\mathcal A^{collar}
-d\mathcal A^{exchange}
++d\mathcal A^{coeff}
++d\mathcal A^{vel}
++d\mathcal A^{press}
++d\mathcal A^{visc}
++d\mathcal A^{collar}
++d\mathcal A^{exchange}
 \le
 C\,dA_{4B,N}^{ann}.
 \tag{RGQ.13c}
@@ -307,7 +307,7 @@ not prove `(RGQ.14)`.
 
 ## 4. Admission into the four-body payment
 
-The current four-body return note defines
+The current four-body return note defines the Body-IV payment measure
 
 ```math
 dD_G
@@ -321,13 +321,23 @@ dD_G
 \tag{RGQ.16}
 ```
 
+For a fixed tower height \(N\), write \(dD_{G,N}\) for the corresponding
+metric/coefficient/commutator/transport/geometry component of this same
+Body-IV payment.  This is a submeasure of the already-controlled four-body
+drain, not a new account:
+
+```math
+dD_{G,N}\le C_N\,dD_G.
+\tag{RGQ.16a}
+```
+
 Thus `MaterialRecordLogGrowthChannelIdentity.A`, namely `(RGQ.13b)` plus the
 same-carrier admission `(RGQ.13c)`--`(RGQ.13d)`, gives
 
 ```math
 d\left[\log(1+\mathfrak P_N^{mat})\right]^+
 \le
-C\,dD_G .
+C\,dD_{G,N}.
 \tag{RGQ.17}
 ```
 
@@ -343,8 +353,8 @@ D_{4B}(\sigma)+A_{4B}(\sigma)
 ```
 
 after the legal/tail terms are enveloped in the four-body package.  Since
-\(D_G\) is one component of \(D_{4B}\), record growth on the retained carrier
-has finite total mass.
+\(D_{G,N}\) is controlled by the Body-IV component \(D_G\) of \(D_{4B}\),
+record growth on the retained carrier has finite total mass.
 
 Combining `(RGQ.5)` and `(RGQ.17)`--`(RGQ.18)`, infinitely many retained
 doublings would force
@@ -352,7 +362,9 @@ doublings would force
 ```math
 \sum_j\log{3\over2}
 \le
-C\sum_j\int_{I_j}dD_G
+C\sum_j\int_{I_j}dD_{G,N}
+\le
+C_N\sum_j\int_{I_j}dD_G
 \le
 C\int_{\sigma_0}^{\infty}
 \left(D_{4B}+A_{4B}\right)\,d\sigma
