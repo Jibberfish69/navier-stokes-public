@@ -231,8 +231,8 @@ must prove one of the following inside the same transported material packet:
 d\mathcal A_N^\kappa
 \le
 C\,dA_{Q,N}
-C(dD_S+dD_C+dD_G)
-dR_{4B,N},
++C(dD_S+dD_C+dD_G)
++dR_{4B,N},
 \tag{PFT.19}
 ```
 
@@ -246,8 +246,8 @@ Equivalently, the whole-packet activity installation
 dA_{4B,N}
 \le
 C\,dA_{Q,N}
-C(dD_S+dD_C+dD_G)
-dR_{4B,N}
++C(dD_S+dD_C+dD_G)
++dR_{4B,N}
 \tag{PFT.20}
 ```
 

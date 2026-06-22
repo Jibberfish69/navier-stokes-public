@@ -267,7 +267,7 @@ dJ_{GS}+dR_S,
 ```
 
 ```math
-dL_Q+dD_Q+c\,dA_{4B,N}+dJ_{QC}
+dL_Q+dD_Q+c\,dA_{Q,N}+dJ_{QC}
 \le
 dJ_{SQ}+dR_Q,
 \tag{RGQ.15}
