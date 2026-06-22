@@ -304,6 +304,7 @@ and gives
 ```math
 dL_{4B}
 +c\,dA_{Q,N}
++ 
 dD_S+dD_Q+dD_C+dD_G
 \le
 dR_{4B,N}.
