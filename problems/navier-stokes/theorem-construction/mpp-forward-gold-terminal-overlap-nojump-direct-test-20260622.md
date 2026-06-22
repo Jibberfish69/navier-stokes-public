@@ -661,3 +661,104 @@ The center pulse is controlled by annular stress/strain plus the materiality of
 the cutoff.  A transported cutoff removes the defect.  A non-transported cutoff
 must pay that defect inside the same selector/collar channel; otherwise the
 chosen packet has lost same-fluid annular carrier custody.
+
+## 10. Transported annular cutoff discharge
+
+The transported-cutoff surface already exists in the Eulerian-to-transported
+comparison note.  Let \(X_m(a,s)\) be the packet flow map
+
+```math
+{d\over ds}X_m(a,s)=V_m(s,X_m(a,s)),
+\tag{TON.47}
+```
+
+and let \(Y_m(s,\cdot)=X_m(s,\cdot)^{-1}\).  Choose a label-space annular
+cutoff \(\psi_m(a)\) and define
+
+```math
+\phi_m(s,y)=\psi_m(Y_m(s,y)).
+\tag{TON.48}
+```
+
+Then, exactly,
+
+```math
+(\partial_s+V_m\cdot\nabla_y)Y_m=0,
+\qquad
+(\partial_s+V_m\cdot\nabla_y)\phi_m=0.
+\tag{TON.49}
+```
+
+So the materiality defect `(TON.44)` vanishes:
+
+```math
+r_m^{mat}(s)=0.
+\tag{TON.50}
+```
+
+Because \(\nabla_y\cdot V_m=0\), the packet flow is volume preserving:
+
+```math
+\det D_aX_m(a,s)=1.
+\tag{TON.51}
+```
+
+Thus the weighted storage is literally a label-space material storage:
+
+```math
+M_m(s)
+=
+\int {1\over2}|V_m(s,y)|^2\psi_m(Y_m(s,y))\,dy
+=
+\int {1\over2}|V_m(s,X_m(a,s))|^2\psi_m(a)\,da.
+\tag{TON.52}
+```
+
+With `(TON.50)`, `(TON.43)` becomes the exact transported-annulus bound
+
+```math
+[-\partial_sM_m(s)]_+
+\le
+2\nu\int\phi_m|S_y(V_m)|^2\,dy
++
+\left|\int V_m\cdot T_m\nabla\phi_m\,dy\right|.
+\tag{TON.53}
+```
+
+Therefore the order-lock terminal overlap satisfies
+
+```math
+\nu_m^{ol}((-\theta,0])
+\le
+\int_{-\theta}^{0}
+\left(
+2\nu\int\phi_m|S_y(V_m)|^2\,dy
++
+\left|\int V_m\cdot T_m\nabla\phi_m\,dy\right|
+\right)ds .
+\tag{TON.54}
+```
+
+The endpoint pulse is now no longer a center-only object.  It is bounded by
+the same-fluid transported annular strain and stress-work history.
+
+The remaining terminal anti-atom condition is the uniform terminal absolute
+continuity of this transported annular carrier:
+
+```math
+\lim_{\theta\downarrow0}\limsup_m
+\int_{-\theta}^{0}
+\left(
+2\nu\int\phi_m|S_y(V_m)|^2\,dy
++
+\left|\int V_m\cdot T_m\nabla\phi_m\,dy\right|
+\right)ds
+=0.
+\tag{TON.55}
+```
+
+On a retained positive-thickness transported annulus with bounded smooth
+stress/strain carrier, `(TON.55)` is ordinary absolute continuity.  If
+`(TON.55)` fails, the endpoint pulse has not hidden at the center; it has
+become visible annular stress/strain participation on the same four-body
+carrier.
