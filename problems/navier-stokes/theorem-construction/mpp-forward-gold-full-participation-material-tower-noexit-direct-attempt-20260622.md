@@ -214,30 +214,50 @@ and therefore
 Higher \(a\)-derivatives of \(A\) and \(G\) contain transported spatial
 derivatives of \(u\) and products of lower coefficient rungs.  Thus the
 closure condition for `(FMT.10)` is a finite same-carrier material coefficient
-and velocity-pressure tower:
+and velocity-pressure tower.  One explicit sufficient norm is
 
 ```math
-\sup_{t<T_*}
+\begin{aligned}
+\mathfrak P_N^{mat}(t)
+:={}&
+\sum_{|\beta|\le N+1}
 \left(
-\sum_{|\beta|\le N+1}\|D_a^\beta A(t)\|_{\mathcal X_\beta}
+\|D_a^\beta A(t)\|_{L^\infty(A_\sharp)}
 +
-\sum_{|\beta|\le N+1}\|D_a^\beta G(t)\|_{\mathcal X_\beta}
+\|D_a^\beta G(t)\|_{L^\infty(A_\sharp)}
+\right)\\
+&+
+\sum_{|\alpha|\le N}
+\left(
+\|D_a^\alpha v(t)\|_{H^1(A_\sharp)}
 +
-\sum_{|\alpha|\le N}\|D_a^\alpha(v,q)(t)\|_{\mathcal Y_\alpha}
-\right)
-<\infty.
+\|D_a^\alpha q(t)\|_{H^1(A_\sharp)}
+\right).
+\end{aligned}
 \tag{FMT.15}
 ```
 
-But `(FMT.15)` is the terminal same-packet record.  It is the material form of
+The required record is
+
+```math
+\sup_{t<T_*}
+\mathfrak P_N^{mat}(t)
+<\infty.
+\tag{FMT.16}
+```
+
+This is stronger than a minimal packet topology, but it is concrete and it
+closes the displayed commutator identity.  It is also exactly the kind of
+finite-depth same-carrier record being tested.  In the older notation, it is
+the material form of
 \(Part_{N,Q}\).
 
 ## 5. Why this does not prove no-exit
 
 The full material packet identity preserves participation exactly, but it does
 not prove the terminal record survives.  The attempted proof would need to use
-`(FMT.15)` to control the commutators in `(FMT.11)`--`(FMT.12)`, then conclude
-`(FMT.15)`.  That is circular unless a separate coercive estimate produces the
+`(FMT.16)` to control the commutators in `(FMT.11)`--`(FMT.12)`, then conclude
+`(FMT.16)`.  That is circular unless a separate coercive estimate produces the
 coefficient/tower bound from data already known before packet admission.
 
 The heat-scale calculation in the material-clock note shows why physical
@@ -247,7 +267,7 @@ energy is not that estimate:
 \text{material deformation clock per heat-scale packet}\simeq 1,
 \qquad
 \text{physical dissipation cost}\simeq r.
-\tag{FMT.16}
+\tag{FMT.17}
 ```
 
 Thus a dyadic terminal stack can remain finite for physical energy while the
@@ -261,9 +281,9 @@ The direct full-packet no-exit attempt reduces to:
 \boxed{
 OriginalSmoothData
 \Longrightarrow
-\text{finite material coefficient/tower record }(FMT.15).
+\text{finite material coefficient/tower record }(FMT.16).
 }
-\tag{FMT.17}
+\tag{FMT.18}
 ```
 
 That theorem is not installed in the current inputs.
@@ -283,6 +303,5 @@ The noncircular branch remains:
 Pack_Q+\neg Part_{N,Q}.
 \end{array}
 }
-\tag{FMT.18}
+\tag{FMT.19}
 ```
-
