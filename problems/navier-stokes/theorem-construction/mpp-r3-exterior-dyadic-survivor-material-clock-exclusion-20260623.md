@@ -23,6 +23,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-r3-duhamel-survivor-to-material-tower-clock-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-same-material-dyadic-packet-overlap-selection-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-legal-residual-logscale-summability-correction-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-compact-core-material-history-hs-bound-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-original-smooth-data-material-history-no-finite-breakdown-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
 ---
@@ -320,8 +321,7 @@ Tail.Hs_{\mathbb R^3}.
 \tag{R3M.21}
 ```
 
-Together with compact-core tower bounds from the material-history closure, this
-gives
+Together with `R3CompactCoreMaterialHistoryHsBound.A`, this gives
 
 ```math
 \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb R^3)}<\infty,
