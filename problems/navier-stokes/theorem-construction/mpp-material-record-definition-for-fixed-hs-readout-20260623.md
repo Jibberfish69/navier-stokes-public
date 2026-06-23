@@ -4,13 +4,12 @@ status: proof-installed-material-record-definition-matches-fixed-hs-readout
 logical_landing_node: material_record_definition_for_fixed_hs_readout
 edge_effect: >-
   Defines the continuation-depth material record used by the prelimit clock and
-  the fixed-Hs readout bridge. The record is not a loose phrase: it contains
-  the material velocity tower, pressure tower, deformation/coefficient tower,
-  transported collar geometry, interface-current record, and the composition
-  controls needed to compare transported material derivatives with fixed
-  Eulerian H^s norms. Incompressibility gives J=det D_aX=1, so no hidden volume
-  density is spent outside the pressure-viscosity-incompressibility-velocity
-  packet.
+  the fixed-Hs readout bridge. The record contains the material velocity tower,
+  pressure tower, deformation/coefficient tower, transported collar geometry,
+  interface-current record, and the composition controls needed to compare
+  transported material derivatives with fixed Eulerian H^s norms.
+  Incompressibility gives J=det D_aX=1, so the volume form remains inside the
+  pressure-viscosity-incompressibility-velocity packet.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-material-clock-to-fixed-hs-continuation-readout-20260623.md
@@ -102,8 +101,8 @@ controls the coefficient norms needed for composition:
 ```
 
 This is the definition of the material record used in the fixed-\(H^s\)
-readout.  Any theorem spending \(d[\log(1+\mathcal P_N^{mat})]_+\) must use
-this full record, not a scalar proxy or a viscosity-only record.
+readout.  Any theorem spending \(d[\log(1+\mathcal P_N^{mat})]_+\) spends this
+full record.
 
 ## 1. The Jacobian is fixed by incompressibility
 
