@@ -19,6 +19,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-c-coordinate-realization-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-shrinking-resolution-on-retained-atlas-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-compactness-collar-stabilization-solution-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-crossscale-material-atlas-fixed-terminal-gauge-solution-20260622.md
 ---
 
 # Cross-Scale Material Atlas Compatibility Direct Attempt
@@ -301,3 +302,13 @@ This clause is internal to
 `SimultaneousMaterialFourBodyPacketCoercivity.A`: it says the \(\sigma\)-path
 of packets is one material packet path, not a sequence of unrelated selected
 microscopes.
+
+The fixed-terminal-gauge solution discharges the center/time modulation part on
+the retained branch.  With \(T_\sigma=T^\ast\) and \(x_\sigma=x^\ast\),
+`(CMA.8)` reduces to `(CMA.18)`.  Moving active packets become bounded
+rescaled translations when they remain in the retained heat-scale atlas, and
+those translations are exactly what the \(C_N\) material time/space translation
+moduli measure.  Label/sign/collar/selector variation is then handled by the
+selector-collar stabilization theorem.  Thus the retained-branch
+cross-scale atlas is fixed enough for \(d_\sigma L_C\); the live construction
+returns to the bounded-below \(X\)-term symmetrizer.
