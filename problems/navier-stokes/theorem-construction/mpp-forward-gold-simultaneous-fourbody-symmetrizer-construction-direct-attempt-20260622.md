@@ -472,6 +472,8 @@ so zero full-packet loss is harmless gauge and selected non-gauge activity
 vanishes.  The retained frozen-family compactness/lsc solution gives the
 finite-time frozen observability estimate on the retained quotient.  The direct
 Gramian test shows finite-time observability alone leaves a positive endpoint
-readout, so the remaining algebraic face is the frozen full-packet
-dissipative/no-return law that makes the infinite-time Gramian finite and
-produces the instantaneous bounded-below \(X\)-term symmetrizer.
+readout.  The no-return test shows that frozen dissipative/no-return is not an
+independent supplier from current inputs, because the frozen linearized energy
+still contains the same strain/exchange terms the \(X\)-terms must cancel.  The
+live algebraic face is therefore the direct simultaneous construction of
+\(X_{SQ},X_{QC},X_{CG},X_{GS}\) from the material participation law.
