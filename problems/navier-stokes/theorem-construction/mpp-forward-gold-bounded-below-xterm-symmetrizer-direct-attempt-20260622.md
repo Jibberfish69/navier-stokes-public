@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-bounded-below-xterm-symmetrizer-direct-attempt-20260622
-status: retained-frozen-finite-time-observability-installed-gramian-to-instantaneous-xterm-open
+status: retained-frozen-observability-installed-gramian-to-xterm-fails-without-frozen-dissipative-noreturn
 logical_landing_node: bounded_below_instantaneous_xterm_symmetrizer
 edge_effect: >-
   Attacks the last live installation inside
@@ -14,10 +14,11 @@ edge_effect: >-
   observability gap. The static gap has been sharpened into the full-packet
   kernel theorem ker L_4B,N=G, and the retained frozen-family compactness/lsc
   solution gives finite-time observability on the retained quotient. The
-  remaining internal face is ObservableFrozenGramianToInstantaneousXTerm.A:
-  convert the finite-time observable Gramian into the bounded-below
-  instantaneous X-term symmetrizer whose derivative gives the simultaneous
-  four-body inequality.
+  direct Gramian-to-X-term test shows finite-time observability alone leaves a
+  positive endpoint readout and does not produce the instantaneous Lyapunov
+  sign. The remaining internal face is FrozenFullPacketDissipativeNoReturn.A:
+  a same-packet dissipative/no-return law on the gauge quotient that makes the
+  infinite-time Gramian finite and removes the endpoint term.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-material-fourbody-packet-coercivity-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-fourbody-symmetrizer-construction-direct-attempt-20260622.md
@@ -26,6 +27,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-packet-observability-gap-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-packet-kernel-observability-theorem-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-frozen-family-compactness-lsc-solution-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-observable-frozen-gramian-to-instantaneous-xterm-direct-test-20260622.md
 ---
 
 # Bounded-Below \(X\)-Term Symmetrizer Direct Attempt
@@ -257,12 +259,13 @@ criterion:
 
 ```math
 \boxed{
-\texttt{ObservableFrozenGramianToInstantaneousXTerm.A}
+\texttt{FrozenFullPacketDissipativeNoReturn.A}
 }
 \tag{BXS.15}
 ```
 
-with content: convert the finite-time observable Gramian
+The direct Gramian test shows why this is needed.  The finite-time observable
+Gramian
 
 ```math
 G_\sigma
@@ -274,8 +277,39 @@ e^{t\mathcal L_\sigma}\,dt
 \tag{BXS.15a}
 ```
 
-into the bounded-below instantaneous \(H_\sigma=I+K_\sigma\) whose derivative
-has the sign required in `(BXS.9)`.
+satisfies
+
+```math
+\mathcal L_\sigma^\ast G_\sigma+G_\sigma\mathcal L_\sigma
+=
+e^{T_0\mathcal L_\sigma^\ast}
+\mathcal W_\sigma
+e^{T_0\mathcal L_\sigma}
+-\mathcal W_\sigma,
+\tag{BXS.15b}
+```
+
+so a positive endpoint readout remains.  The required no-return theorem must
+make the infinite-time Gramian finite:
+
+```math
+H_\sigma
+=
+\int_0^\infty
+e^{t\mathcal L_\sigma^\ast}
+\mathcal W_\sigma
+e^{t\mathcal L_\sigma}\,dt,
+\tag{BXS.15c}
+```
+
+which then gives
+
+```math
+\mathcal L_\sigma^\ast H_\sigma+H_\sigma\mathcal L_\sigma
+=
+-\mathcal W_\sigma.
+\tag{BXS.15d}
+```
 
 Once `(BXS.15)` is installed, the off-diagonal blocks of \(H_\sigma\) give
 
@@ -287,5 +321,5 @@ X_{SQ},\quad X_{QC},\quad X_{CG},\quad X_{GS},
 and `(BXS.9)` gives the simultaneous packet inequality.
 
 The active remaining theorem is therefore not a component estimate.  It is the
-Gramian-to-instantaneous-\(X\)-term conversion for the retained mixed material
+frozen full-packet dissipative no-return law for the retained mixed material
 tower.
