@@ -118,10 +118,11 @@ for the finite tower level \(N\) under discussion.  Thus any later spike is a
 redistribution and deformation of finite initial material content, not an
 externally injected infinite-amplitude wave.
 
-## 2. Retained branch
+## 2. Full-clock consequence on the represented material history
 
-Assume the terminal same-material record is retained on the selected tail.  In
-concrete terms, this means the terminal family admits:
+Once the terminal center/time readout is kept on the same prelimit material
+history, the selected family is represented by the transported material packet.
+At finite tower level \(N\), this is the record:
 
 ```math
 \sup_m \mathcal P_{N,m}^{mat}<\infty
@@ -130,7 +131,9 @@ concrete terms, this means the terminal family admits:
 ```
 
 after harmless gauge removal, with transported collars and bounded overlap
-strong enough for the residual normal form.
+strong enough for the residual normal form.  This is not a second branch of the
+fluid.  It is the same smooth material history read in the terminal heat-scale
+coordinates.
 
 Then the prelimit master-balance theorem applies:
 
@@ -169,10 +172,10 @@ d[\log(1+\mathcal P_N^{mat})]_+
 \tag{OSF.12}
 ```
 
-Now suppose the retained branch still contains a finite-time endpoint
-singularity.  The retained moving-cylinder CKN contrapositive gives infinitely
-many retained gauge-fixed material packets \(P_j\) with non-removable critical
-density:
+Now suppose this same represented material history still contains a finite-time
+endpoint singularity.  The moving-cylinder singularity criterion used in this
+route gives infinitely many gauge-fixed material packets \(P_j\) with
+non-removable critical density:
 
 ```math
 \mathcal C^\perp(P_j)\ge\varepsilon_0 .
@@ -200,9 +203,9 @@ This is impossible for infinitely many \(j\).  Hence:
 
 ```math
 \boxed{
-\text{retained terminal same-material record}
+\text{terminal readout represented on the original material history}
 \Longrightarrow
-\text{no finite-time singular endpoint on that branch.}
+\text{no finite-time singular endpoint on that material history.}
 }
 \tag{OSF.16}
 ```
