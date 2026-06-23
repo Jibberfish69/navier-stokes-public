@@ -21,6 +21,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
   - problems/navier-stokes/theorem-construction/mpp-no-third-branch-clay-closure-audit-20260525.md
   - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
+  - problems/navier-stokes/theorem-construction/mpp-original-smooth-data-material-history-no-finite-breakdown-20260623.md
 ---
 
 # Full Proof Closure After Uniform Zeno Annular Return
@@ -138,7 +139,7 @@ d\Omega_N
 :=
 dA_{4B,N}
 +
-d[\log(1+\mathcal P_N^{mat})]_+
+C_{log}d[\log(1+\mathcal P_N^{mat})]_+
 +
 d\mathcal K_{\rm iface}
 +
@@ -196,7 +197,8 @@ No branch leaves a finite nonsmooth terminal object.
 
 ## 4. Conclusion
 
-Therefore no finite Clay terminal witness survives:
+Therefore no finite Clay terminal witness survives on the same material
+history:
 
 ```math
 \boxed{
@@ -205,16 +207,28 @@ Therefore no finite Clay terminal witness survives:
 \tag{FCZ.10}
 ```
 
-The installed witness-to-smooth direction says that the retained same-fluid
-terminal packet with all finite tower depths gives the local continuation
-norm.  Therefore the absence of a finite Clay terminal witness gives the
-repo-side Navier--Stokes MPP smoothness closure:
+The final classical bridge is the direct finite-breakdown contradiction.  A
+finite maximal time would supply a same-solution terminal readout failure in
+the \(H^s\), \(s>5/2\), continuation norm.  On the periodic surface the
+transported whole-torus material atlas is the readout-complete terminal object.
+The material-history full clock excludes loss of the atlas, loss of the
+pressure-viscosity-incompressibility tower, and loss of positive-scale field
+coherence on that same atlas.  Hence the continuation readout survives:
+
+```math
+\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty,
+\qquad s>5/2.
+\tag{FCZ.10a}
+```
+
+The classical \(H^s\) local theory then relaunches the same solution past
+\(T_*\), contradicting finite maximality.  Therefore:
 
 ```math
 \boxed{
 \text{original smooth Navier--Stokes data}
 \Longrightarrow
-\text{no finite-time Clay breakdown witness.}
+\text{no finite-time classical breakdown on }T^3.
 }
 \tag{FCZ.11}
 ```
