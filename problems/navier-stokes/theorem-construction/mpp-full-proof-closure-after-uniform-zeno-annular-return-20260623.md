@@ -24,6 +24,8 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
   - problems/navier-stokes/theorem-construction/mpp-original-smooth-data-material-history-no-finite-breakdown-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-r3-duhamel-survivor-to-material-tower-clock-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-same-material-dyadic-packet-overlap-selection-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-legal-residual-logscale-summability-correction-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-material-clock-exclusion-20260623.md
 ---
 
@@ -234,7 +236,8 @@ high-frequency exterior Duhamel response.  The dyadic heat kernel localizes that
 response to a backward heat-time strip, and that strip forces positive
 same-material nonlinear source/tower clock in the original Navier--Stokes
 history.  Bounded overlap and the prelimit master balance give finite total
-clock mass.  Therefore
+history.  Same-material log-scale packet selection and the prelimit master
+balance give finite total clock mass.  Therefore
 
 ```math
 Tail.Hs_{\mathbb R^3},
