@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-bounded-below-xterm-symmetrizer-direct-attempt-20260622
-status: retained-frozen-observability-installed-gramian-to-xterm-fails-without-frozen-dissipative-noreturn
+status: semigroup-gramian-route-demoted-live-face-direct-simultaneous-xterm-identity
 logical_landing_node: bounded_below_instantaneous_xterm_symmetrizer
 edge_effect: >-
   Attacks the last live installation inside
@@ -16,9 +16,10 @@ edge_effect: >-
   solution gives finite-time observability on the retained quotient. The
   direct Gramian-to-X-term test shows finite-time observability alone leaves a
   positive endpoint readout and does not produce the instantaneous Lyapunov
-  sign. The remaining internal face is FrozenFullPacketDissipativeNoReturn.A:
-  a same-packet dissipative/no-return law on the gauge quotient that makes the
-  infinite-time Gramian finite and removes the endpoint term.
+  sign. The subsequent no-return test shows frozen dissipative no-return is not
+  an independent supplier from current inputs; it asks for the same cross-term
+  balance. The semigroup/Gramian route is therefore demoted, and the live
+  internal face is DirectSimultaneousMaterialFourBodyXTermIdentity.A.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-material-fourbody-packet-coercivity-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-fourbody-symmetrizer-construction-direct-attempt-20260622.md
@@ -28,6 +29,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-packet-kernel-observability-theorem-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-frozen-family-compactness-lsc-solution-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-observable-frozen-gramian-to-instantaneous-xterm-direct-test-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-frozen-full-packet-dissipative-noreturn-direct-test-20260622.md
 ---
 
 # Bounded-Below \(X\)-Term Symmetrizer Direct Attempt
@@ -259,13 +261,13 @@ criterion:
 
 ```math
 \boxed{
-\texttt{FrozenFullPacketDissipativeNoReturn.A}
+\texttt{DirectSimultaneousMaterialFourBodyXTermIdentity.A}
 }
 \tag{BXS.15}
 ```
 
-The direct Gramian test shows why this is needed.  The finite-time observable
-Gramian
+The direct Gramian test shows why the semigroup route is insufficient.  The
+finite-time observable Gramian
 
 ```math
 G_\sigma
@@ -311,6 +313,13 @@ which then gives
 \tag{BXS.15d}
 ```
 
+The no-return direct test shows that this no-return theorem is not available
+as an independent supplier from the current inputs.  For the frozen NS packet,
+the linearized energy identity still contains the same strain/exchange terms
+that the \(X\)-terms are supposed to cancel.  Therefore the route returns to
+constructing \(X_{SQ},X_{QC},X_{CG},X_{GS}\) directly from the simultaneous
+material participation law.
+
 Once `(BXS.15)` is installed, the off-diagonal blocks of \(H_\sigma\) give
 
 ```math
@@ -321,5 +330,4 @@ X_{SQ},\quad X_{QC},\quad X_{CG},\quad X_{GS},
 and `(BXS.9)` gives the simultaneous packet inequality.
 
 The active remaining theorem is therefore not a component estimate.  It is the
-frozen full-packet dissipative no-return law for the retained mixed material
-tower.
+direct simultaneous \(X\)-term identity for the retained mixed material tower.
