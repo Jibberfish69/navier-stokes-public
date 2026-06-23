@@ -16,6 +16,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-construction-check-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-same-carrier-clock-lsc-defect-closure-check-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-frozen-family-compactness-lsc-solution-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-legal-residual-logscale-summability-correction-20260623.md
 ---
 
 # Prelimit Master Balance Limit Passage Proof
@@ -322,8 +323,9 @@ dR^0_{N,m}.
 \tag{PML.21}
 ```
 
-The remaining residuals are lower-order commutators and finite-overlap collar
-terms.  Transported cutoffs reduce the collar residual to
+The remaining residuals are lower-order commutators and collar terms satisfying
+the corrected log-scale residual normal form.  Transported cutoffs may reduce a
+single-packet collar residual to
 
 ```math
 dR^0_{collar,m}
@@ -341,7 +343,27 @@ dR^0_{collar,m}
 \tag{PML.22}
 ```
 
-Finite overlap, local energy, and the local pressure decomposition give
+For a nested terminal log-scale family, `(PML.22)` is summable only after one of
+the following is verified:
+
+```math
+dR^0_{collar,m}
+\lesssim
+\sum_\lambda
+r_m^{\alpha_\lambda}
+\int_{\mathrm{collar}_m} f_{\lambda}\,dx\,dt
+dB_m^{tel},
+\qquad \alpha_\lambda>0,
+\tag{PML.22a}
+```
+
+or the physical collar family has genuine bounded overlap.  Scale-neutral
+physical \(L^1\) collar terms on nested terminal windows are not legal
+residuals; they must be absorbed into \(d\mathfrak C_{N,m}\) or
+\(d\mathcal L_{4B,N,m}\) before compactness.
+
+With this corrected residual normal form, local energy, positive scale gain or
+physical bounded overlap, and the local pressure decomposition give
 
 ```math
 \sup_m\int_{\sigma_0}^{\infty}dR^0_{N,m}<\infty.
