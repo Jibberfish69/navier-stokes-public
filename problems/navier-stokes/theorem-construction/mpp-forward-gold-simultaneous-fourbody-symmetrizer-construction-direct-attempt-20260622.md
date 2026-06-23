@@ -470,6 +470,8 @@ kernel theorem
 
 so zero full-packet loss is harmless gauge and selected non-gauge activity
 vanishes.  The retained frozen-family compactness/lsc solution gives the
-finite-time frozen observability estimate on the retained quotient.  The
-remaining algebraic face is converting that observable Gramian into the
-instantaneous bounded-below \(X\)-term symmetrizer.
+finite-time frozen observability estimate on the retained quotient.  The direct
+Gramian test shows finite-time observability alone leaves a positive endpoint
+readout, so the remaining algebraic face is the frozen full-packet
+dissipative/no-return law that makes the infinite-time Gramian finite and
+produces the instantaneous bounded-below \(X\)-term symmetrizer.
