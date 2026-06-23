@@ -386,6 +386,7 @@ remaining simultaneous-packet construction is therefore:
 as an internal face of
 `SimultaneousMaterialFourBodyPacketCoercivity.A`.
 
-This is not a separate compactness theorem.  It is the exact condition that
-the log-scale derivative of \(C_N\) remains the derivative of the same
-one-fluid material packet.
+There is no remaining separate \(C_N\)-compactness theorem on the retained
+branch.  The log-scale derivative of \(C_N\) is now tied to the same one-fluid
+material packet.  The live PDE construction is the bounded-below simultaneous
+\(X\)-term symmetrizer.
