@@ -360,7 +360,30 @@ The remaining PDE installation is now:
 \tag{SMC.26}
 ```
 
-The moving-atlas terms are centers, terminal times, annular labels, material
-maps, and collars. They must enter as same-packet \(S_N/G_N/Q_N\) drift
-channels; otherwise \(d_\sigma L_C\) compares different packets rather than
-differentiating the one four-coordinate material packet.
+The moving-atlas label law has now been computed:
+
+```math
+\partial_\sigma Y_\sigma
+=
+\nabla_yY_\sigma
+\left(
+-y+2sV_\sigma
++r_\sigma^{-1}\dot x_\sigma
+-r_\sigma^{-2}\dot T_\sigma V_\sigma
+\right).
+\tag{SMC.27}
+```
+
+The fixed center/time part is same-packet. The remaining moving-atlas terms are
+the normalized modulation and jump variation
+
+```math
+r_\sigma^{-1}\dot x_\sigma,\quad
+r_\sigma^{-2}\dot T_\sigma,\quad
+dN_{label},\quad dN_{sgn},\quad d\Lambda_{collar,N}.
+\tag{SMC.28}
+```
+
+They must enter as same-packet \(S_N/G_N/Q_N\) drift channels; otherwise
+\(d_\sigma L_C\) compares different packets rather than differentiating the one
+four-coordinate material packet.
