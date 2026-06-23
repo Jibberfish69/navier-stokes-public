@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-bounded-below-xterm-symmetrizer-direct-attempt-20260622
-status: semigroup-gramian-route-demoted-live-face-direct-simultaneous-xterm-identity
+status: semigroup-gramian-route-demoted-direct-xterm-reduced-to-exact-exchange-concomitant
 logical_landing_node: bounded_below_instantaneous_xterm_symmetrizer
 edge_effect: >-
   Attacks the last live installation inside
@@ -19,7 +19,8 @@ edge_effect: >-
   sign. The subsequent no-return test shows frozen dissipative no-return is not
   an independent supplier from current inputs; it asks for the same cross-term
   balance. The semigroup/Gramian route is therefore demoted, and the live
-  internal face is DirectSimultaneousMaterialFourBodyXTermIdentity.A.
+  internal face was DirectSimultaneousMaterialFourBodyXTermIdentity.A; the
+  direct attempt reduces it to ExactMaterialFourBodyExchangeConcomitant.A.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-material-fourbody-packet-coercivity-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-fourbody-symmetrizer-construction-direct-attempt-20260622.md
@@ -329,5 +330,8 @@ X_{SQ},\quad X_{QC},\quad X_{CG},\quad X_{GS},
 
 and `(BXS.9)` gives the simultaneous packet inequality.
 
-The active remaining theorem is therefore not a component estimate.  It is the
-direct simultaneous \(X\)-term identity for the retained mixed material tower.
+The active remaining theorem is therefore not a component estimate.  The direct
+simultaneous \(X\)-term attempt has reduced it further to the exact material
+exchange concomitant: the adjacent exchange mismatch one-form must be the
+differential of a bounded instantaneous same-packet cross-term, modulo strict
+same-packet loss and same-packet residual.
