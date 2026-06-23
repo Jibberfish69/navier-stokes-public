@@ -210,6 +210,14 @@ d[\log(1+\mathcal P_{N,m}^{mat})]_+.
 \tag{PML.13}
 ```
 
+Here \(\mathcal P_{N,m}^{mat}\) is the full continuation-depth material record:
+the velocity tower, pressure tower, deformation/coefficient tower
+\((F_m,A_m,G_m)\), transported collar geometry, and same-packet interface
+current record.  Incompressibility gives \(\det F_m=1\), so no separate volume
+density is left outside the same pressure-viscosity-incompressibility-velocity
+packet.  The depth \(N\) is chosen high enough that this record controls the
+fixed-coordinate \(H^s\) readout by the material composition estimate.
+
 Define the smooth prelimit clock by
 
 ```math
