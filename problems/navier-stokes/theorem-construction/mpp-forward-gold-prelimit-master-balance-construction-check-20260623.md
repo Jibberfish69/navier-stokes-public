@@ -180,7 +180,10 @@ interface defects.
 
 ## 3. Finite mixed-tower commutator estimate
 
-The nontrivial finite-smooth estimate is:
+The nontrivial finite-smooth estimate is a clock-identification estimate, not a
+right-side residual estimate.  The positive material-record growth created by
+the commutator is entered into the prelimit clock before the master balance is
+closed:
 
 ```math
 \sum_\alpha w_\alpha
@@ -192,18 +195,27 @@ The nontrivial finite-smooth estimate is:
 +
 C_\varepsilon\,dD_{S,m}^{rad}
 +
-C\,d[\log(1+\mathcal P_{N,m}^{mat})]_+
-+
 dR_{comm,m}.
 \tag{PMB.9}
 ```
+
+after the positive part of the material-record growth has been included in
+
+```math
+C_{log}\,d[\log(1+\mathcal P_{N,m}^{mat})]_+
+\subset d\mathfrak C_{N,m}
+\tag{PMB.9a}
+```
+
+with \(C_{log}\) chosen once from the finite tower constants.  Thus the
+commutator does not leave a nonsummable positive term on the right side.
 
 This is not a new global supplier.  It is a finite same-carrier tower estimate
 inside the smooth packet.  Its algebraic reason is the factorial cancellation:
 
 ```math
 w_\alpha^{1/2}{\alpha\choose\beta}
-\lesssim
+=
 w_\beta^{1/2}w_{\alpha-\beta}^{1/2},
 \tag{PMB.10}
 ```
@@ -267,13 +279,14 @@ d\mathfrak C_{N,m}
 =
 dA_{4B,N,m}
 +
-d[\log(1+\mathcal P_{N,m}^{mat})]_+.
+C_{log}\,d[\log(1+\mathcal P_{N,m}^{mat})]_+.
 \tag{PMB.15}
 ```
 
 Here \(dA_{4B,N,m}\) is the selected nonnegative readout of the same smooth
 pressure-viscosity-incompressibility-velocity balance, not a detached
-post-limit object.
+post-limit object, and \(C_{log}\) is the same structural constant used in
+`(PMB.9a)`.
 
 The smooth master balance is:
 
