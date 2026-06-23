@@ -409,8 +409,16 @@ the inverse label map:
 \tag{SYM.28}
 ```
 
-So fixed center/time is already same-packet. The remaining \(C_N\)-face is the
-normalized modulation and jump variation:
+So fixed center/time is already same-packet. The fixed-terminal-gauge solution
+sets \(T_\sigma=T^\ast\) and \(x_\sigma=x^\ast\) on the retained branch.
+Moving active packets are then represented as material time/space translations
+inside \(C_N\), while unbounded translations are loss of the retained atlas.
+Label/sign/collar/selector variation is handled by selector-collar
+stabilization as visible packet variation or eventual stabilization.
+
+Thus the retained-branch \(C_N\)-face is fixed enough for \(d_\sigma L_C\). The
+only remaining \(C_N\)-related terms are the visible/stabilized variation
+recorded by
 
 ```math
 r_\sigma^{-1}\dot x_\sigma,\quad
@@ -419,6 +427,5 @@ dN_{label},\quad dN_{sgn},\quad d\Lambda_{collar,N}.
 \tag{SYM.29}
 ```
 
-These must enter through same-packet \(S_N/G_N/Q_N\) drift channels. Without
-that compatibility, \(d_\sigma L_C\) compares different material packets and
-cannot be inserted into the simultaneous symmetrizer.
+after translating them into the fixed terminal gauge. The live construction is
+therefore the bounded-below instantaneous \(X\)-term symmetrizer.
