@@ -4,14 +4,14 @@ status: proved-as-full-packet-height-doubling-trichotomy
 logical_landing_node: original_data_spike_thinning_full_participation_trichotomy
 edge_effect: >-
   Turns the physical spike picture into a same-material packet theorem. A
-  finite-time rising spike from smooth finite-energy initial data is not allowed
-  to be read as an isolated center object. At each height-doubling step, the
-  full pressure-viscosity-incompressibility-velocity packet records one of
-  three events: material geometry thins or stretches and spends strain clock;
-  the selected active material changes and spends selector/collar/interface
-  clock; or the same material packet gains kinetic storage and spends annular
+  finite-time rising spike from smooth finite-energy initial data is read on
+  the same material packet. At each height-doubling step, the full
+  pressure-viscosity-incompressibility-velocity packet records one of three
+  events: material geometry thins or stretches and spends strain clock; the
+  selected active material changes and spends selector/collar/interface clock;
+  or the same material packet gains kinetic storage and spends annular
   stress/strain work. Thus an infinite terminal spike-thinning recurrence is an
-  infinite full same-material clock recurrence, not a detached endpoint pulse.
+  infinite full same-material clock recurrence.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-smooth-to-prelimit-master-balance-family-direct-attempt-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-strain-metric-clock-sharpening-20260622.md
