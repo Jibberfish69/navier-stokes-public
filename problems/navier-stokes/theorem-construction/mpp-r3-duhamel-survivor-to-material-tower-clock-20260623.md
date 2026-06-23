@@ -4,12 +4,11 @@ status: proof-installed-r3-duhamel-survivor-admitted-to-material-tower-clock
 logical_landing_node: r3_duhamel_survivor_to_material_tower_clock
 edge_effect: >-
   Repairs the R3 exterior dyadic survivor bridge. A high-frequency Duhamel
-  response survivor is not treated as an already-large CKN velocity packet.
-  The heat-scale response is inverted only to the extent licensed by the
-  Duhamel kernel: it forces a positive amount of same-material nonlinear
-  source/tower activity on a backward heat-time strip. That activity is a
-  component of the smooth prelimit four-body clock before compactness, hence
-  it is counted by the relaxed full material clock after passage.
+  response survivor is admitted by the heat-kernel/Duhamel inverse step: the
+  response forces a positive amount of same-material nonlinear source/tower
+  activity on a backward heat-time strip. That activity is a component of the
+  smooth prelimit four-body clock before compactness, hence it is counted by the
+  relaxed full material clock after passage.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-construction-check-20260623.md
@@ -71,8 +70,7 @@ dA_{4B,N_j}
 ```
 
 The point is that `(DSM.2)` is admitted through the material tower/source
-coordinate of the full same-fluid packet.  It is not reinterpreted as a
-standalone CKN velocity packet.
+coordinate of the full same-fluid packet.
 
 ## 1. Heat-time localization of the Duhamel response
 
@@ -201,8 +199,7 @@ Combining `(DSM.8)`--`(DSM.12)` gives the survivor quantum `(DSM.4)`.
 
 ## 4. Consequence for the R3 branch
 
-The exterior Duhamel survivor is therefore counted by the same material clock
-without passing through a false center-only or response-only projection:
+The exterior Duhamel survivor is therefore counted by the same material clock:
 
 ```math
 \text{exterior Duhamel dyadic survivor}
