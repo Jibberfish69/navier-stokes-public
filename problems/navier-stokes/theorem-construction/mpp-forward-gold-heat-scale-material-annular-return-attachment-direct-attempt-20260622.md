@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-heat-scale-material-annular-return-attachment-direct-attempt-20260622
-status: preterminal-material-unity-proved-terminal-projection-caveat-remains
+status: preterminal-material-unity-proved-material-history-guard-installed
 logical_landing_node: heat_scale_material_annular_return_attachment
 edge_effect: >-
   Corrects the later-annular route from original smooth data forward. At every
@@ -11,11 +11,10 @@ edge_effect: >-
   radius r_m, the same material annulus is rescaled to unit heat scale, where
   its stress/strain return has ordinary time thickness and obeys the exact
   material stress-work identity for the full
-  pressure-viscosity-incompressibility-velocity packet. The remaining caveat is
-  only a terminal representation caveat: a center/time-face readout must not be
-  allowed to forget the prelimit material annular history that produced it.
-  Failure to retain that history is a Part/Field face, not an independent
-  hidden center pulse.
+  pressure-viscosity-incompressibility-velocity packet. The limiting
+  description must keep that prelimit material annular history. Forgetting the
+  history does not create an independent hidden center pulse; it stops
+  describing the material event under test.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-overlap-nojump-direct-test-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md
@@ -36,9 +35,9 @@ the same velocity, pressure, incompressibility, viscosity, stress, and strain
 evolving from \(u_0\).
 
 The "attachment" language in this note is therefore not a new physical theorem.
-It is a terminal-projection guard.  It says that a center/time-face readout is
-not allowed to be treated as a detached atom after the limit when, at every
-smooth preterminal scale, it came from the same material annular history.
+It is a limit guard.  It says that the center storage/overlap term is not
+allowed to be treated as a detached atom after the limit when, at every smooth
+preterminal scale, it came from the same material annular history.
 
 The shrinking radius is still part of the object.  At radius \(r_m\), rescale
 the same physical annulus:
@@ -157,12 +156,13 @@ all in the same normalized packet currency.
 
 ## 3. Attachment of the order-lock overlap
 
-The center endpoint object is not all storage drop.  It is the order-lock
-overlap
+The center storage/overlap term is not all storage drop.  Its absolutely
+continuous prelimit form is
 
 ```math
-d\nu_m^{ol}
-=
+\omega_m^{cs}(I)
+:=
+\int_I
 \min\left\{
 {da_m\over d\lambda_m},
 {d\gamma_m\over d\lambda_m}
@@ -176,7 +176,7 @@ is the positive storage partner on the same packet.
 Since
 
 ```math
-d\nu_m^{ol}\le d\gamma_m,
+\omega_m^{cs}(I)\le \gamma_m(I),
 \tag{HSA.10}
 ```
 
@@ -184,7 +184,7 @@ the storage attachment above yields the retained-packet domination
 
 ```math
 \boxed{
-\nu_m^{ol}(I)
+\omega_m^{cs}(I)
 \le
 C
 \int_{\mathcal R_m(I)}
@@ -217,38 +217,26 @@ If the return region has non-collapsing heat-time thickness and is admitted to
 the same four-body carrier, then a surviving pulse is counted by \(A_{4B}\) on
 that retained packet.
 
-## 5. Exact terminal projection caveat
+## 5. Exact material-history guard
 
 For the smooth preterminal solution, the delayed annular return region is
 already part of the same material history.  The remaining caveat is about the
-terminal representation: after taking the terminal limit, the center/time
-readout cannot be allowed to discard the material annular history that produced
-it.
+limit description: after taking the terminal limit, the center storage/overlap
+term cannot be allowed to discard the material annular history that produced it.
 
 ```math
 \boxed{
-\text{the terminal center/time readout is read as the projection of the
-prelimit heat-scale material annular return record.}
+\text{the terminal center storage/overlap term is read on the prelimit
+heat-scale material annular return record.}
 }
 \tag{HSA.13}
 ```
 
 Equivalently, the later-on return window is not a separate object to be
 recovered after the fact.  It is part of the same smooth material event from
-the start.  A terminal description that loses the material packet, transported
+the start.  A limiting description that loses the material packet, transported
 annular atlas, selector/collar record, or transported velocity-pressure tower is
-not a detached-pulse branch; it is a failure of the terminal representation to
-carry the same material event.
-
-Failure of `(HSA.13)` is not a hidden center atom.  It is the same-packet
-participation record failing:
-
-```math
-\boxed{
-Pack_Q+\neg Part_{N,Q}.
-}
-\tag{HSA.14}
-```
+not a detached-pulse branch; it has stopped carrying the same material event.
 
 ## 6. Result
 
@@ -259,15 +247,15 @@ The heat-scale shrinking problem is handled correctly as follows:
 \begin{array}{ll}
 \text{retained heat-scale material annular return}
 &\Rightarrow
-\nu_m^{ol}\text{ attaches to annular stress/strain return}
+\omega_m^{cs}\text{ attaches to annular stress/strain return}
 \Rightarrow
 A_{4B}\text{ counting},\\[1mm]
 \text{return record not retained}
 &\Rightarrow
-Pack_Q+\neg Part_{N,Q}.
+\text{the limiting description no longer carries the material event.}
 \end{array}
 }
-\tag{HSA.15}
+\tag{HSA.14}
 ```
 
 So the remaining work is not another weighted/unweighted scalar reserve by
