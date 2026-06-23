@@ -14,6 +14,7 @@ edge_effect: >-
 parents:
   - problems/navier-stokes/theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md
   - problems/navier-stokes/theorem-construction/mpp-material-record-definition-for-fixed-hs-readout-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-material-pressure-tower-same-packet-elliptic-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-material-clock-to-fixed-hs-continuation-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-full-proof-closure-after-uniform-zeno-annular-return-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-uniform-terminal-zeno-annular-return-proof-20260623.md
