@@ -100,7 +100,7 @@ This is exactly the storage convergence/lower-bound object needed for the limit 
 If the final manuscript instead keeps a visible-only post-limit clock
 
 ```math
-dA_{4B,N}+d[\log(1+\mathcal P_N^{mat})]_+
+dA_{4B,N}+C_{log}d[\log(1+\mathcal P_N^{mat})]_+
 ```
 
 without the lsc gap `dK_iface`, then the prelimit positive clock loses mass at compactness and the old residual-side defect problem returns. Therefore the relaxed definitions are not a cosmetic choice; they are forced by the order-of-limits repair.
