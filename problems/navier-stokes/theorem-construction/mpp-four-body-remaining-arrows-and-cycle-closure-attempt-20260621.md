@@ -111,7 +111,6 @@ Then
 A_S(\sigma)
 \le
 C\,D_G(\sigma)
--\partial_\sigma X_{GS}(\sigma)
 +R_G(\sigma),
 \qquad
 R_G\in L^1_\sigma,
