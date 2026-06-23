@@ -49,6 +49,13 @@ N_s\ge \lceil s\rceil+4 .
 \tag{MHR.2a}
 ```
 
+Set
+
+```math
+m_s=\lceil s\rceil .
+\tag{MHR.2b}
+```
+
 The continuation-depth material record \(\mathcal P_{N_s}^{mat}\) is the full
 same-material record defined in
 `MaterialRecordDefinitionForFixedHsReadout.A`.  In particular it controls, on
@@ -62,9 +69,9 @@ the transported whole-torus material atlas,
 and the coefficient/deformation quantities needed for composition:
 
 ```math
-\|F(t)\|_{W^{N_s,\infty}_a}
+\|F(t)\|_{W^{m_s+1,\infty}_a}
 +
-\|A(t)\|_{W^{N_s,\infty}_a}
+\|A(t)\|_{W^{m_s+1,\infty}_a}
 +
 \|J(t)\|_{L^\infty_a}
 +
@@ -104,8 +111,8 @@ Since \(x=X(a,t)\), the Eulerian gradient is
 \tag{MHR.7}
 ```
 
-For every integer \(k\le N_s\), repeated use of `(MHR.7)` gives a finite
-chain-rule expansion
+For every integer \(k\le m_s\), repeated use of `(MHR.7)` gives the finite
+Faà di Bruno chain-rule expansion
 
 ```math
 \nabla_x^k u(X(a,t),t)
@@ -119,8 +126,9 @@ D_a^{\beta_0}v(a,t),
 ```
 
 where every term uses at most \(k\) material derivatives of \(v\) and at most
-\(k\) material derivatives of \(A\).  The combinatorial constants depend only
-on the fixed depth \(N_s\).
+\(k-1\) derivatives of \(A\) when \(k\ge1\), with harmless lower-order
+variants from differentiating products. The combinatorial constants depend
+only on \(m_s\).
 
 Using the change of variables \(x=X(a,t)\),
 
@@ -136,28 +144,28 @@ and `(MHR.8)`, `(MHR.4)` give
 \le
 C_{k}
 \left(
-\|A(t)\|_{W^{k,\infty}_a},
+\|A(t)\|_{W^{k-1,\infty}_a},
 \|J(t)\|_{L^\infty_a}
 \right)
 \sum_{|\alpha|\le k}\|D_a^\alpha v(t)\|_{L^2_a}^2.
 \tag{MHR.10}
 ```
 
-Summing \(0\le k\le N_s\) gives
+Summing \(0\le k\le m_s\) gives
 
 ```math
-\|u(t)\|_{H^{N_s}_x}
+\|u(t)\|_{H^{m_s}_x}
 \le
-C_{N_s}\!\left(\mathcal P_{N_s}^{mat}(t)\right).
+C_{m_s}\!\left(\mathcal P_{N_s}^{mat}(t)\right).
 \tag{MHR.11}
 ```
 
-Since \(N_s>s\), Sobolev monotonicity gives
+Since \(m_s\ge s\), Sobolev monotonicity gives
 
 ```math
 \|u(t)\|_{H^s_x}
 \le
-\|u(t)\|_{H^{N_s}_x}
+\|u(t)\|_{H^{m_s}_x}
 \le
 C_s\!\left(\mathcal P_{N_s}^{mat}(t)\right),
 \tag{MHR.12}
