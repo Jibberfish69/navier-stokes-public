@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-bounded-below-xterm-symmetrizer-direct-attempt-20260622
-status: kernel-observability-installed-retained-frozen-family-compactness-lsc-open
+status: retained-frozen-finite-time-observability-installed-gramian-to-instantaneous-xterm-open
 logical_landing_node: bounded_below_instantaneous_xterm_symmetrizer
 edge_effect: >-
   Attacks the last live installation inside
@@ -12,11 +12,12 @@ edge_effect: >-
   d_sigma H+H L+L^*H <= -c A_4B,N-D_4B,N-c dlog(1+P_N^mat)+R. The construction
   is noncircular if the quotient mixed material packet has a dynamic frozen
   observability gap. The static gap has been sharpened into the full-packet
-  kernel theorem ker L_4B,N=G: zero full loss forces harmless gauge and selected
-  non-gauge activity vanishes. The remaining internal face is
-  RetainedFrozenFamilyCompactnessLsc.A, the compactness/lower-semicontinuity
-  clause needed to pass from that static kernel theorem to frozen-evolution
-  observability.
+  kernel theorem ker L_4B,N=G, and the retained frozen-family compactness/lsc
+  solution gives finite-time observability on the retained quotient. The
+  remaining internal face is ObservableFrozenGramianToInstantaneousXTerm.A:
+  convert the finite-time observable Gramian into the bounded-below
+  instantaneous X-term symmetrizer whose derivative gives the simultaneous
+  four-body inequality.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-material-fourbody-packet-coercivity-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-fourbody-symmetrizer-construction-direct-attempt-20260622.md
@@ -24,6 +25,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-compactness-rigidity-coercivity-principle-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-packet-observability-gap-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-packet-kernel-observability-theorem-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-frozen-family-compactness-lsc-solution-20260622.md
 ---
 
 # Bounded-Below \(X\)-Term Symmetrizer Direct Attempt
@@ -242,9 +244,9 @@ uses the intersection of the nonnegative losses
 \(D_S^{rad},D_Q^{vis},K_C^+,K_G^+,K_{\rm sel},R_{\rm legal}\): if all vanish,
 the packet is harmless gauge.
 
-So the final symmetrizer construction reduces to making this compactness-
-rigidity argument uniform for the frozen/evolution-family operators
-\(\mathcal L_\sigma\).
+The retained frozen-family compactness/lsc solution makes this
+compactness-rigidity argument uniform for the frozen same-packet flows on the
+retained quotient and proves finite-time observability.
 
 ## 5. Direct attempt result
 
@@ -255,16 +257,25 @@ criterion:
 
 ```math
 \boxed{
-\texttt{RetainedFrozenFamilyCompactnessLsc.A}
+\texttt{ObservableFrozenGramianToInstantaneousXTerm.A}
 }
 \tag{BXS.15}
 ```
 
-with content: the retained frozen evolutions \(e^{t\mathcal L_\sigma}Z\) are
-compact on the same-packet quotient, and \(\mathcal W_\sigma\) is lower
-semicontinuous along that retained frozen family.  Together with
-\(\ker\mathcal L_{4B,N}=\mathcal G\), this gives the standard
-Lyapunov/Kawashima construction `(BXS.12)` on the gauge quotient.
+with content: convert the finite-time observable Gramian
+
+```math
+G_\sigma
+=
+\int_0^{T_0}
+e^{t\mathcal L_\sigma^\ast}
+\mathcal W_\sigma
+e^{t\mathcal L_\sigma}\,dt
+\tag{BXS.15a}
+```
+
+into the bounded-below instantaneous \(H_\sigma=I+K_\sigma\) whose derivative
+has the sign required in `(BXS.9)`.
 
 Once `(BXS.15)` is installed, the off-diagonal blocks of \(H_\sigma\) give
 
@@ -276,4 +287,5 @@ X_{SQ},\quad X_{QC},\quad X_{CG},\quad X_{GS},
 and `(BXS.9)` gives the simultaneous packet inequality.
 
 The active remaining theorem is therefore not a component estimate.  It is the
-uniform full-packet observability gap for the retained mixed material tower.
+Gramian-to-instantaneous-\(X\)-term conversion for the retained mixed material
+tower.
