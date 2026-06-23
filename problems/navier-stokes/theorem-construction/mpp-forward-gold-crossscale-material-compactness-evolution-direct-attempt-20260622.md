@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-crossscale-material-compactness-evolution-direct-attempt-20260622
-status: fixed-atlas-crossscale-generator-derived-mixed-tower-refinement-and-moving-atlas-compatibility-open
+status: fixed-atlas-crossscale-generator-derived-moving-atlas-identity-reduces-to-normalized-modulation-and-jump-variation
 logical_landing_node: crossscale_material_compactness_evolution
 edge_effect: >-
   Attacks CrossScaleMaterialCompactnessEvolution.A inside the simultaneous
@@ -11,16 +11,17 @@ edge_effect: >-
   d_sigma Q=-2Q-y.grad Q-2s d_s Q. Thus positive sigma-variation of the
   preterminal C_N compactness modulus is controlled by the same full mixed
   material tower, provided C_N is built from the mixed velocity-pressure record
-  rather than from spatial rungs alone. The general retained terminal family
-  still lacks a fixed cross-scale material atlas: moving centers, terminal
-  times, annular labels, material maps, and cutoffs add atlas-variation terms.
-  Those terms must be included as S_N/G_N same-packet drift channels or the
-  simultaneous symmetrizer is not installed.
+  rather than from spatial rungs alone. The moving-atlas direct attempt then
+  derives d_sigma Y=grad_y Y(-y+2sV+r^{-1}dot x-r^{-2}dot T V). Hence fixed
+  center/time is already compatible, and the remaining internal face is the
+  normalized modulation and jump variation of centers, terminal times, labels,
+  signs, collars, and selectors.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-c-coordinate-realization-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-fourbody-symmetrizer-construction-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-material-fourbody-packet-coercivity-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-mixed-derivative-tower-participation-law-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-crossscale-material-atlas-compatibility-direct-attempt-20260622.md
 ---
 
 # Cross-Scale Material Compactness Evolution Direct Attempt
