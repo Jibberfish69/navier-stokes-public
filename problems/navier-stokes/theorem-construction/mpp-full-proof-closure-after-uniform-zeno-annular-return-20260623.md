@@ -216,10 +216,10 @@ history:
 The final classical bridge is the direct finite-breakdown contradiction.  A
 finite maximal time would supply a same-solution terminal readout failure in
 the \(H^s\), \(s>5/2\), continuation norm.  On the periodic surface the
-transported whole-torus material atlas is the readout-complete terminal object.
-The material-history full clock excludes loss of the atlas, loss of the
-pressure-viscosity-incompressibility tower, and loss of positive-scale field
-coherence on that same atlas.  Hence the continuation readout survives:
+transported whole-torus material history is the object.  The material-history
+full clock gives finite positive logarithmic variation of the
+continuation-depth material record, and the direct fixed-coordinate readout
+bridge converts that record into the continuation norm:
 
 ```math
 \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty,
