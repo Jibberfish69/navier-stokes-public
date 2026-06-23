@@ -6,10 +6,10 @@ edge_effect: >-
   Installs the exact reason the pressure tower in the material record belongs
   to the same pressure/incompressibility packet. Pressure is the Lagrange
   multiplier enforcing the same incompressibility constraint on the same
-  transported material packet. Its finite-depth tower is recovered from the
-  velocity and coefficient towers by the material elliptic pressure equation,
-  with local harmonic/collar pieces retained in the same interface-current
-  record.
+  transported material packet. Its finite-derivative-depth tower is recovered
+  from the velocity and coefficient towers by the material elliptic pressure
+  equation, with local harmonic/collar pieces retained in the same
+  interface-current record.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-material-record-definition-for-fixed-hs-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
