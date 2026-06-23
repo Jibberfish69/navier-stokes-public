@@ -56,6 +56,13 @@ m_s=\lceil s\rceil .
 \tag{MHR.2b}
 ```
 
+The depth \(N_s\) is finite because this bridge targets one continuation norm.
+It does not truncate the field or remove high frequencies: \(u\) and \(v\)
+remain smooth fields with their full Fourier content.  The finite record only
+asks for enough material derivatives to control the fixed \(H^s\) norm that
+local Navier--Stokes continuation needs.  An all-orders version would be a
+stronger projective-tower theorem, not a necessary continuation input.
+
 The continuation-depth material record \(\mathcal P_{N_s}^{mat}\) is the full
 same-material record defined in
 `MaterialRecordDefinitionForFixedHsReadout.A`.  In particular it controls, on
