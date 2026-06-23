@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-retained-frozen-family-compactness-lsc-solution-20260622
-status: retained-compact-quotient-finite-time-observability-proved-gramian-to-instantaneous-xterm-still-separate
+status: retained-compact-quotient-finite-time-observability-proved-gramian-to-xterm-fails-without-frozen-dissipative-noreturn
 logical_landing_node: retained_frozen_family_compactness_lsc
 edge_effect: >-
   Solves RetainedFrozenFamilyCompactnessLsc.A in the same-packet sense needed
@@ -10,14 +10,15 @@ edge_effect: >-
   ker L_4B,N=G gives a uniform finite-time observability estimate by
   compactness contradiction. This closes the dynamic observability gap on the
   retained packet class. It does not by itself construct the instantaneous
-  X-term Lyapunov operator; the remaining algebraic step is converting the
-  finite-time observable Gramian into the bounded-below instantaneous
-  four-body symmetrizer without leaving the same material packet.
+  X-term Lyapunov operator. The direct Gramian-to-X-term test shows finite-time
+  observability alone leaves a positive endpoint readout; the remaining
+  same-packet input is FrozenFullPacketDissipativeNoReturn.A.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-packet-kernel-observability-theorem-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-c-coordinate-realization-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-crossscale-material-compactness-evolution-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-crossscale-material-atlas-fixed-terminal-gauge-solution-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-observable-frozen-gramian-to-instantaneous-xterm-direct-test-20260622.md
 ---
 
 # Retained Frozen Family Compactness/Lsc Solution
@@ -349,29 +350,31 @@ same-packet class:
 Together with the kernel theorem, the retained non-gauge frozen packet cannot
 be invisible to the full four-body readout.
 
-The remaining \(X\)-term construction is now more precise.  The next algebraic
-step is not another compactness theorem.  It is:
+The remaining \(X\)-term construction is now more precise.  The direct
+Gramian-to-\(X\)-term test shows finite-time observability alone leaves a
+positive endpoint readout.  The next same-packet theorem is:
 
 ```math
 \boxed{
-\texttt{ObservableFrozenGramianToInstantaneousXTerm.A}.
+\texttt{FrozenFullPacketDissipativeNoReturn.A}.
 }
 \tag{RFC.27}
 ```
 
-That theorem must convert the finite-time observable Gramian
+That theorem must make the infinite-time observable Gramian
 
 ```math
-G_\sigma
+H_\sigma
 :=
-\int_0^{T_0}
+\int_0^\infty
 e^{t\mathcal L_\sigma^\ast}
 \mathcal W_\sigma
 e^{t\mathcal L_\sigma}\,dt
 \tag{RFC.28}
 ```
 
-into the bounded-below instantaneous four-body symmetrizer
+finite on the gauge quotient and remove the endpoint term, producing the
+bounded-below instantaneous four-body symmetrizer
 
 ```math
 \mathfrak L_{4B,N}
@@ -383,5 +386,5 @@ into the bounded-below instantaneous four-body symmetrizer
 whose derivative supplies the desired simultaneous packet inequality.
 
 So the dynamic observability gap is closed on the retained packet.  The live
-construction has moved to the algebraic Gramian-to-\(X\)-term step, still
-inside the same transported material participation law.
+construction has moved to the frozen full-packet no-return/dissipativity step,
+still inside the same transported material participation law.
