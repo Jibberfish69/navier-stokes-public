@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-simultaneous-material-fourbody-packet-coercivity-direct-attempt-20260622
-status: algebraic-closure-proved-pde-symmetrizer-construction-not-installed
+status: algebraic-closure-proved-pde-symmetrizer-reduced-to-exact-exchange-concomitant
 logical_landing_node: simultaneous_material_fourbody_packet_coercivity
 edge_effect: >-
   Replaces the sequential supplier/admission framing by the corrected
@@ -12,9 +12,10 @@ edge_effect: >-
   record cannot double infinitely often. The missing PDE installation is the
   explicit construction of the symmetrizer cross-terms X_SQ, X_QC, X_CG, X_GS
   from the material Navier-Stokes law and verification of the simultaneous
-  derivative inequality. Existing notes name exchange storages and prove
-  conditional compactness/rigidity consumers, but they do not construct this
-  lower-bounded full-packet symmetrizer.
+  derivative inequality. The direct X-term attempt reduces this to exactness of
+  the adjacent exchange mismatch one-form with a bounded same-packet bilinear
+  concomitant; existing notes name exchange storages and prove conditional
+  compactness/rigidity consumers, but they do not construct that concomitant.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-law-bearing-full-tower-four-inequality-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-tower-signed-total-exchange-retention-direct-attempt-20260622.md
@@ -435,10 +436,11 @@ The retained frozen-family compactness/lsc solution upgrades the kernel theorem
 to finite-time frozen observability on the retained quotient.  The direct
 Gramian-to-\(X\)-term test shows that finite-time observability alone leaves a
 positive endpoint readout.  The no-return test shows that same-packet
-no-return is not independent of the cross-term construction.  The active
-internal face is therefore the direct simultaneous \(X\)-term identity:
+no-return is not independent of the cross-term construction.  The direct
+simultaneous \(X\)-term attempt sharpens the active internal face to exact
+material exchange concomitance:
 
 ```math
-\texttt{DirectSimultaneousMaterialFourBodyXTermIdentity.A}.
+\texttt{ExactMaterialFourBodyExchangeConcomitant.A}.
 \tag{SMC.32}
 ```
