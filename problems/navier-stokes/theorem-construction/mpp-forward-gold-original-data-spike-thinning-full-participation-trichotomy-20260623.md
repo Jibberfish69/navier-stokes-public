@@ -314,8 +314,8 @@ the following normalized quantities is bounded below on the packet window:
 
 This is exactly the admission condition for a selected terminal packet.  A
 pure pointwise height spike with all these normalized quantities vanishing is
-not a non-gauge selected terminal witness; it is a center-only readout that has
-lost the full material participation record.
+not a non-gauge selected terminal witness; it has no annular
+stress/strain-history record for the proof to test.
 
 For a normalized non-gauge selected terminal packet there is a constant
 \(\eta_N>0\), depending only on the normalization and tower level, such that
