@@ -20,6 +20,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-material-a4b-lower-bound-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-data-spike-thinning-full-participation-trichotomy-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-material-record-definition-for-fixed-hs-readout-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-material-pressure-tower-same-packet-elliptic-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-material-clock-to-fixed-hs-continuation-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
   - problems/navier-stokes/theorem-construction/mpp-no-third-branch-clay-closure-audit-20260525.md
