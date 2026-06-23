@@ -232,5 +232,5 @@ argument.
 \text{later stress/strain return}
 =
 \text{one transported material history.}
-\tag{MH.15}
+\tag{MH.16}
 ```
