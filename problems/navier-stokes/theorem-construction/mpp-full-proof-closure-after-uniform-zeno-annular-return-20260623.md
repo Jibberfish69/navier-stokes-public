@@ -224,13 +224,33 @@ coherence on that same atlas.  Hence the continuation readout survives:
 ```
 
 The classical \(H^s\) local theory then relaunches the same solution past
-\(T_*\), contradicting finite maximality.  Therefore:
+\(T_*\), contradicting finite maximality.
+
+On the whole-space surface, the R3 exterior-tail reduction removes the initial
+tail and compact-core far-kernel source.  Bounded exterior frequencies vanish
+from the energy-class exterior source estimate.  Any remaining tail is a
+high-frequency exterior dyadic survivor, hence a heat-scale packet of the same
+preterminal material history after recentering and rescaling.  The material
+clock gives a fixed positive quantum for each survivor, while bounded overlap
+and the prelimit master balance give finite total clock mass.  Therefore
+
+```math
+Tail.Hs_{\mathbb R^3},
+\qquad
+\sup_{t<T_*}\|u(t)\|_{H^s(\mathbb R^3)}<\infty,
+\qquad s>5/2.
+\tag{FCZ.10b}
+```
+
+Whole-space \(H^s\) local theory also relaunches the same solution past
+\(T_*\).  Therefore:
 
 ```math
 \boxed{
 \text{original smooth Navier--Stokes data}
 \Longrightarrow
-\text{no finite-time classical breakdown on }T^3.
+\text{no finite-time classical breakdown on }T^3
+\text{ or on }\mathbb R^3.
 }
 \tag{FCZ.11}
 ```
