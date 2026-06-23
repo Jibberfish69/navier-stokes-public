@@ -228,35 +228,36 @@ that frozen evolution.  Then `(FOG.15)` gives
 \tag{FOG.17}
 ```
 
-Lossless rigidity would force \(Z_\ast(t)\) to remain in the gauge kernel.
-But `(FOG.14)` and quotient compactness would give a nonzero quotient limit,
-contradiction.
+The kernel theorem in
+`mpp-forward-gold-full-packet-kernel-observability-theorem-20260622.md` forces
+\(Z_\ast(t)\) to remain in the harmless gauge kernel.  But `(FOG.14)` and
+quotient compactness would give a nonzero quotient limit, contradiction.
 
 Thus the remaining theorem is exactly:
 
 ```math
 \boxed{
-\texttt{FrozenFullPacketKawashimaObservability.A}
+\texttt{RetainedFrozenFamilyCompactnessLsc.A}
 }
 \tag{FOG.18}
 ```
 
-with content `(FOG.12)` plus frozen-family compactness/lower-semicontinuity
-for the same retained mixed material packet.
+with content: compactness of \(e^{t\mathcal L_{\sigma_n}}Z_n\) on the same
+retained mixed material packet and lower semicontinuity of the full readout
+\(\mathcal W_\sigma\).  Together with the kernel theorem, that gives `(FOG.12)`.
 
 ## 4. Direct attempt result
 
-The static full-packet gap is proved on the retained gauge quotient:
+The static full-packet gap is superseded by the exact kernel theorem:
 
 ```math
-A_{sel}^\perp\ge\eta
-\Longrightarrow
-\mathcal L_{4B,N}\ge c_\eta>0.
+\ker\mathcal L_{4B,N}=\mathcal G.
 \tag{FOG.19}
 ```
 
-That is enough to rule out a lossless retained packet with selected non-gauge
-activity.
+That is stronger than the earlier compactness-rigidity statement: lossless
+retained packets are precisely harmless gauge packets, and selected non-gauge
+activity vanishes on that kernel.
 
 It is not enough by itself to construct the \(X\)-term symmetrizer.  The
 symmetrizer needs the dynamic frozen-evolution observability estimate
@@ -264,7 +265,7 @@ symmetrizer needs the dynamic frozen-evolution observability estimate
 
 ```math
 \boxed{
-\texttt{FrozenFullPacketKawashimaObservability.A}.
+\texttt{RetainedFrozenFamilyCompactnessLsc.A}.
 }
 \tag{FOG.20}
 ```
