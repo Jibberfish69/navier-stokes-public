@@ -2,7 +2,13 @@
 
 ## Claim
 
-Let the selected terminal family be a heat-scale dyadic family of transported material windows/collars with uniformly bounded spacetime overlap after pullback to the physical variables. Let the prelimit master balance be written after all top-order, critical, and potentially non-summable positive terms have been absorbed into either strict loss or the prelimit positive clock.
+Let the selected terminal family be a heat-scale dyadic family of transported
+material windows/collars.  For genuinely physically bounded-overlap subfamilies,
+local \(L^1\) residuals may be summed directly.  For nested terminal log-scale
+families, the residual must instead have positive scale gain or telescope as
+storage.  Let the prelimit master balance be written after all top-order,
+critical, scale-neutral nested, and potentially non-summable positive terms have
+been absorbed into either strict loss or the prelimit positive clock.
 
 Then the remaining legal residuals satisfy
 
@@ -31,11 +37,20 @@ dR_{legal,m}\lesssim
 \Bigr)\,dx\,dt
 ```
 
-with `alpha_j>=0`, plus harmless endpoint/bounded-storage differences. Terms with negative scaling power, top-order material derivatives, critical vorticity-stretching/strain action, or uncompensated pressure/current defects are not legal residuals. They belong to the prelimit positive clock or strict loss before compactness.
+with `alpha_j>0` on nested terminal log-scale branches, plus harmless
+endpoint/bounded-storage differences.  Terms with `alpha_j=0` are legal only on
+genuinely physically bounded-overlap subfamilies or when they telescope through
+bounded storage.  Terms with negative scaling power, top-order material
+derivatives, critical vorticity-stretching/strain action, uncompensated
+pressure/current defects, or scale-neutral nested collar mass are not legal
+residuals. They belong to the prelimit positive clock or strict loss before
+compactness.
 
 ## Proof
 
-The selected terminal windows are heat-scale annuli/collars with bounded overlap. Therefore for any nonnegative locally integrable density `f`,
+For the physically bounded-overlap case, the selected terminal windows are
+heat-scale annuli/collars with bounded overlap. Therefore for any nonnegative
+locally integrable density `f`,
 
 ```math
 \sum_m\int_{Q_m^{collar}} f\,dx\,dt
@@ -73,7 +88,18 @@ Thus
 \bigl(|u|^2+|u|^3+|\nabla u|^2+|p|^{3/2}\bigr)\,dx\,dt<\infty.
 ```
 
-Because `r_m^{alpha_j}<=1` for small terminal scales and `alpha_j>=0`, finite overlap gives
+For nested terminal log-scale families, use the corrected scale-gain estimate.
+At each fixed separated scale the material labels have finite multiplicity, and
+for `alpha_j>0`,
+
+```math
+\sum_m r_m^{alpha_j}\int_{Q_m^{collar}} f\,dx\,dt
+\le
+C\left(\sum_m r_m^{alpha_j}\right)\int_{Q_*}f\,dx\,dt<\infty.
+```
+
+Thus finite physical overlap handles the scale-neutral case, and positive scale
+gain handles the nested terminal case. Under exactly those alternatives,
 
 ```math
 \sum_m \int dR_{legal,m}<\infty.
@@ -99,7 +125,9 @@ and lower semicontinuity of total mass gives
 
 ## Exclusion rule
 
-If a residual candidate cannot be bounded by the subcritical/local-energy normal form above, then it is not legal. It must be absorbed before the limit into one of
+If a residual candidate cannot be bounded by the corrected subcritical/local-energy
+normal form above, then it is not legal. It must be absorbed before the limit
+into one of
 
 ```math
 dD_{S,m}^{rad},\quad dD_{Q,m}^{w},\quad d[\log(1+\mathcal P_{N,m}^{mat})]_+,\quad dA_{4B,N,m}.
@@ -109,4 +137,9 @@ This exclusion prevents a hidden nonsummable positive term from remaining on the
 
 ## Conclusion
 
-The legal residual summability gate closes under the residual normal form and bounded-overlap terminal-family hypothesis. Together with relaxed object matching, this completes the limit-passage gates for the prelimit master balance. The remaining nontrivial burden is to ensure the final manuscript enforces this residual normal form: any term not satisfying it must be part of the prelimit clock/loss, not `dR_{legal}`.
+The legal residual summability gate closes under the corrected residual normal
+form: physical bounded overlap for scale-neutral terms, positive scale gain for
+nested terminal log-scale terms, or telescoping bounded storage. Together with
+relaxed object matching, this completes the limit-passage gates for the prelimit
+master balance only when that normal form is enforced: any term not satisfying
+it must be part of the prelimit clock/loss, not `dR_{legal}`.
