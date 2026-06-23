@@ -332,3 +332,35 @@ after-the-limit compactness theorem cannot supply \(dL_C\), \(dX_{QC}\), or
 \(dX_{CG}\).  For `(SMC.5)` to be a genuine simultaneous identity, \(C_N\) must
 be realized preterminally as a same-packet no-loss defect coordinate with
 BV/AC evolution.
+
+The preterminal \(C_N\) coordinate has now been realized as a mixed material
+compactness-defect record. Its fixed-atlas \(\sigma\)-derivative is generated
+by
+
+```math
+\partial_\sigma V
+=-V-y\cdot\nabla V-2s\,\partial_sV,
+\qquad
+\partial_\sigma Q
+=-2Q-y\cdot\nabla Q-2s\,\partial_sQ,
+\tag{SMC.25}
+```
+
+and therefore by the same mixed
+pressure-viscosity-incompressibility-velocity tower plus scaling drift. This
+installs the fixed-atlas \(C_N\)-face of `(SMC.5)`.
+
+The remaining PDE installation is now:
+
+```math
+\boxed{
+\text{moving-atlas compatibility for }d_\sigma L_C
+\text{ plus bounded-below instantaneous }X\text{-terms.}
+}
+\tag{SMC.26}
+```
+
+The moving-atlas terms are centers, terminal times, annular labels, material
+maps, and collars. They must enter as same-packet \(S_N/G_N/Q_N\) drift
+channels; otherwise \(d_\sigma L_C\) compares different packets rather than
+differentiating the one four-coordinate material packet.
