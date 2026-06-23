@@ -140,16 +140,19 @@ Testing `(PML.6)` against \(w_\alpha\zeta^2D^\alpha v_m\), summing in
 - lower-order collar and commutator residuals.
 
 The top-order commutators stay inside the smooth material packet.  The
-factorial weights absorb Leibniz splitting:
+factorial weights absorb Leibniz splitting in the square-root weighted form:
 
 ```math
-w_\alpha{\alpha\choose\beta}
-\lesssim
+w_\alpha^{1/2}{\alpha\choose\beta}
+=
 w_\beta^{1/2}w_{\alpha-\beta}^{1/2}.
 \tag{PML.8}
 ```
 
-Thus
+The commutator estimate is then used as a clock-identification estimate.  Once
+the positive material-record growth is included in the prelimit clock with a
+fixed structural constant \(C_{log}\), the leftover commutator is absorbable or
+legal:
 
 ```math
 \left|
@@ -161,10 +164,16 @@ Thus
 +
 \varepsilon dD_{S,m}^{rad}
 +
-C_\varepsilon d[\log(1+\mathcal P_{N,m}^{mat})]_+
-+
 dR^0_{comm,m}.
 \tag{PML.9}
+```
+
+The omitted positive part is precisely
+
+```math
+C_{log}d[\log(1+\mathcal P_{N,m}^{mat})]_+
+\subset d\mathfrak C_{N,m}.
+\tag{PML.9a}
 ```
 
 The geometry identities
@@ -207,7 +216,7 @@ d\mathfrak C_{N,m}
 =
 dA_{4B,N,m}
 +
-d[\log(1+\mathcal P_{N,m}^{mat})]_+.
+C_{log}d[\log(1+\mathcal P_{N,m}^{mat})]_+.
 \tag{PML.14}
 ```
 
@@ -322,6 +331,8 @@ dR^0_{collar,m}
 \int_{\mathrm{collar}}
 \left(
 |v_m|^2
++
+|v_m|^3
 +
 |\nabla v_m|^2
 +
@@ -450,7 +461,7 @@ Define the visible limiting clock by lower relaxation:
 ```math
 dA_{4B,N}
 +
-d[\log(1+\mathcal P_N^{mat})]_+
+C_{log}d[\log(1+\mathcal P_N^{mat})]_+
 \le
 d\mu_{\rm clock}.
 \tag{PML.33}
@@ -466,7 +477,7 @@ d\mu_{\rm clock}
 -
 dA_{4B,N}
 -
-d[\log(1+\mathcal P_N^{mat})]_+.
+C_{log}d[\log(1+\mathcal P_N^{mat})]_+.
 \tag{PML.34}
 ```
 
@@ -484,7 +495,7 @@ d\mu_{\rm clock}
 =
 dA_{4B,N}
 +
-d[\log(1+\mathcal P_N^{mat})]_+
+C_{log}d[\log(1+\mathcal P_N^{mat})]_+
 +
 d\mathcal K_{\rm iface}.
 \tag{PML.36}
@@ -560,7 +571,7 @@ d\mathfrak L_{4B,N}
 c_0\left(
 dA_{4B,N}
 +
-d[\log(1+\mathcal P_N^{mat})]_+
+C_{log}d[\log(1+\mathcal P_N^{mat})]_+
 +
 d\mathcal K_{\rm iface}
 \right)
