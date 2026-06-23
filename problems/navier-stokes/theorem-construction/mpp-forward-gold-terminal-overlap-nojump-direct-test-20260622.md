@@ -272,8 +272,8 @@ No single-channel readout statement proves `TerminalOverlapNoJump.A`.
 ## 5. Result
 
 The consumer theorem is proved exactly.  The heat-scale annular attachment is
-proved on retained material packets.  The production theorem still open at the
-same coupled object is no-exit of that retained annular return record:
+proved on retained material packets.  The later same-material full-clock closure
+supplies the retained annular return record used here:
 
 ```math
 \boxed{
@@ -293,8 +293,8 @@ spike together with the annular layers underneath it.  Those annuli carry the
 later-on stress/strain state of the same event: the internal force/deformation
 state that can return the inner imbalance outward at a later preterminal time.
 
-The overlap measure above is only the center/time projection of that full
-object.  The spike picture shows why that projection is too narrow by itself.
+The overlap measure above is only one center/time reading of that full material
+object.  The spike picture shows why that reading is too narrow by itself.
 
 In the stress form,
 
@@ -315,9 +315,9 @@ not a standalone center endpoint measure:
 \tag{TON.17}
 ```
 
-Thus the production problem for `(TON.2)` should not be read as a search for a
-new endpoint reserve read apart from the material history.  It should be read as restoring the full
-same-participation object behind the projection:
+Thus the production problem for `(TON.2)` is not a search for a new endpoint
+reserve read apart from the material history.  It is the restoration of the full
+same-participation object behind that reading:
 
 ```math
 \text{spike plus outer-annulus later-on stress/strain carrier}
