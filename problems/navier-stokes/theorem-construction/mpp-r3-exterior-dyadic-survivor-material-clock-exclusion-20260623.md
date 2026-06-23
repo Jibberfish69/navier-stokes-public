@@ -287,8 +287,7 @@ Combining \((R3M.3)\), the compact-core far-kernel tail estimate, and
 
 ## 6. Whole-space continuation
 
-The conditional whole-space continuation bridge from the R3 tail package now
-has its missing input:
+The whole-space continuation bridge from the R3 tail package now has its input:
 
 ```math
 Tail.Hs_{\mathbb R^3}.
