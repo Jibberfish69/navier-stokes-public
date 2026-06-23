@@ -460,7 +460,16 @@ The derivative condition is the full-packet Lyapunov/Kawashima inequality
 \tag{SYM.31}
 ```
 
-The remaining internal face is the uniform observability gap on the gauge
-quotient: no non-gauge retained mixed material packet can have unit selected
-activity and zero full four-body loss. Compactness plus lossless rigidity is
-the intended mechanism for proving that gap uniformly.
+The remaining internal face is now sharper.  The static quotient gap is the
+installed kernel theorem
+
+```math
+\ker\mathcal L_{4B,N}=\mathcal G,
+\tag{SYM.32}
+```
+
+so zero full-packet loss is harmless gauge and selected non-gauge activity
+vanishes.  The dynamic clause still needed for the symmetrizer is retained
+frozen-family compactness and lower semicontinuity for the frozen same-packet
+evolutions \(e^{t\mathcal L_\sigma}Z\).  With that clause, the kernel theorem
+gives the uniform observability gap by compactness contradiction.
