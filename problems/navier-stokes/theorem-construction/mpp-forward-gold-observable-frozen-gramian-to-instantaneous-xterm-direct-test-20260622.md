@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-observable-frozen-gramian-to-instantaneous-xterm-direct-test-20260622
-status: direct-test-fails-from-observability-alone-reduces-to-frozen-dissipative-noreturn
+status: direct-test-fails-from-observability-alone-noreturn-test-reduces-to-direct-xterm-identity
 logical_landing_node: observable_frozen_gramian_to_instantaneous_xterm
 edge_effect: >-
   Tests the algebraic step left after retained frozen finite-time
@@ -10,14 +10,15 @@ edge_effect: >-
   Lyapunov/Kawashima inequality needed for the X-terms. A two-dimensional
   skew-rotation countermodel has finite-time observability but no decreasing
   quadratic Lyapunov functional, proving the missing input is real. The route
-  reduces to a same-packet FrozenFullPacketDissipativeNoReturn.A statement:
-  the frozen material participation law must provide dissipativity/no-return on
-  the gauge quotient, so the observable Gramian can be extended to an
-  infinite-time Lyapunov operator with no positive endpoint term.
+  reduces to a same-packet FrozenFullPacketDissipativeNoReturn.A statement.
+  The no-return direct test shows that statement is not available as an
+  independent supplier from the current inputs; it reduces back to direct
+  construction of the instantaneous X-terms from the material participation law.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-frozen-family-compactness-lsc-solution-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-below-xterm-symmetrizer-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-packet-kernel-observability-theorem-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-frozen-full-packet-dissipative-noreturn-direct-test-20260622.md
 ---
 
 # Observable Frozen Gramian To Instantaneous \(X\)-Term Direct Test
@@ -325,11 +326,13 @@ and then
 \tag{OGX.23}
 ```
 
-So the live internal face is now:
+The no-return direct test shows `(OGX.24)` is not available as an independent
+supplier from the current inputs.  It reduces back to direct construction of
+the simultaneous \(X\)-terms.  Thus the live internal face is:
 
 ```math
 \boxed{
-\texttt{FrozenFullPacketDissipativeNoReturn.A}.
+\texttt{DirectSimultaneousMaterialFourBodyXTermIdentity.A}.
 }
 \tag{OGX.24}
 ```
