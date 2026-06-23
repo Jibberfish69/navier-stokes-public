@@ -17,6 +17,7 @@ edge_effect: >-
   of the same material packet.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-material-fourbody-packet-coercivity-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-c-coordinate-realization-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-law-bearing-full-tower-four-inequality-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-record-log-growth-channel-identity-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-four-body-same-carrier-orientation-defect-decomposition-20260621.md
@@ -346,3 +347,32 @@ not cumulative primitives of unproved exchange bounds.}
 Once `(SYM.23)` and `(SYM.24)` are installed, differentiating the whole packet
 can genuinely prove `(SYM.3)`. Without them, the simultaneous four-body theorem
 remains an algebraic closure theorem plus an uninstalled PDE symmetrizer.
+
+The preterminal \(C_N\)-coordinate has now been sharpened to the compactness
+modulus family
+
+```math
+C_N
+\equiv
+\{L_C^{M,\ell,\delta}\}_{M,\ell,\delta},
+\tag{SYM.25}
+```
+
+built from finite-rank tails, material spatial translation moduli, and material
+time-translation moduli of the full participation record. This realizes
+`(SYM.23)` as a same-packet object for fixed compactness parameters.
+
+The remaining issue inside `(SYM.23)` is the derivative required by the
+terminal four-body loop:
+
+```math
+d_\sigma [L_C^{M,\ell,\delta}]_+
+\le
+C\,d_\sigma A_{4B,N}^{ann,M,\ell,\delta}.
+\tag{SYM.26}
+```
+
+The installed material PDE gives \(s\)-evolution inside a retained packet; it
+does not yet give `(SYM.26)` across nested heat-scale packets. Thus the
+\(C_N\)-face of the symmetrizer is now the cross-scale material compactness
+evolution law, not generic compactness.
