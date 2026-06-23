@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-original-smooth-to-prelimit-master-balance-family-direct-attempt-20260623
-status: original-data-material-unity-clarified-terminal-representation-passage-is-live
+status: original-data-material-unity-clarified-terminal-material-history-passage-is-live
 logical_landing_node: original_smooth_data_to_prelimit_master_balance_family
 edge_effect: >-
   Corrects the remaining repo-side gate after the prelimit master-balance route
@@ -9,12 +9,12 @@ edge_effect: >-
   annular layers underneath it, the strain/internal-force record, and the
   delayed annular return are not separate physical objects. The represented
   material-history argument closes by the prelimit master balance and A_4B
-  lower-bound counting. The
-  live gold passage is terminal representation: the terminal center/time readout
-  must continue to be read as the projection of that same prelimit material
-  history. A representation that discards the transported
-  pressure-viscosity-incompressibility-velocity record is a Part/Field face,
-  not a hidden gold residual and not a physically detached spike.
+  lower-bound counting. The live gold passage is material-history preservation:
+  the terminal storage/overlap quantity must continue to be read on that same
+  prelimit material history. A limiting description that forgets the
+  transported pressure-viscosity-incompressibility-velocity record no longer
+  describes the material event under test; it is not a hidden gold residual and
+  not a physically detached spike.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-route-supersedes-postlimit-kawashima-burden-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
@@ -56,8 +56,8 @@ That family must have:
 ```
 
 The corrected attempt does not introduce a physically lost-record branch.
-Preterminally, there is one material event.  The only possible failure is a
-terminal representation that forgets that event.
+Preterminally, there is one material event.  A limiting description is useful
+only while it continues to describe that event.
 
 ## 1. What original smooth data supplies preterminally
 
@@ -119,10 +119,10 @@ for the finite tower level \(N\) under discussion.  Thus any later spike is a
 redistribution and deformation of finite initial material content, not an
 externally injected infinite-amplitude wave.
 
-## 2. Full-clock consequence on the represented material history
+## 2. Full-clock consequence on the material history
 
-Once the terminal center/time readout is kept on the same prelimit material
-history, the selected family is represented by the transported material packet.
+Once the terminal storage/overlap quantity is kept on the same prelimit material
+history, the selected family is the transported material packet.
 At finite tower level \(N\), this is the record:
 
 ```math
@@ -173,7 +173,7 @@ d[\log(1+\mathcal P_N^{mat})]_+
 \tag{OSF.12}
 ```
 
-Now suppose this same represented material history still contains a finite-time
+Now suppose this same material history still contains a finite-time
 endpoint singularity.  The moving-cylinder singularity criterion used in this
 route gives infinitely many gauge-fixed material packets \(P_j\) with
 non-removable critical density:
@@ -204,22 +204,22 @@ This is impossible for infinitely many \(j\).  Hence:
 
 ```math
 \boxed{
-\text{terminal readout represented on the original material history}
+\text{terminal storage/overlap kept on the original material history}
 \Longrightarrow
 \text{no finite-time singular endpoint on that material history.}
 }
 \tag{OSF.16}
 ```
 
-## 3. Terminal representation passage
+## 3. Material-history passage
 
 The exact live passage is:
 
 ```math
 \boxed{
-\text{terminal center/time readout}
+\text{terminal storage/overlap quantity}
 \Longrightarrow
-\text{projection of the same prelimit material annular history.}
+\text{same prelimit material annular history.}
 }
 \tag{OSF.17}
 ```
