@@ -423,5 +423,15 @@ needed derivative inequality is
 ```
 
 This construction is noncircular exactly when the retained mixed material
-packet has a uniform full-packet observability gap on the gauge quotient.
-That gap is now the active internal face of the simultaneous packet theorem.
+packet has a uniform full-packet observability gap on the gauge quotient.  The
+static kernel part is now installed as
+
+```math
+\ker\mathcal L_{4B,N}=\mathcal G.
+\tag{SMC.31}
+```
+
+The active internal face is the dynamic retained-family clause:
+same-packet compactness and lower semicontinuity for the frozen evolutions
+\(e^{t\mathcal L_\sigma}Z\), which upgrades the kernel theorem to the
+Lyapunov/Kawashima observability estimate.
