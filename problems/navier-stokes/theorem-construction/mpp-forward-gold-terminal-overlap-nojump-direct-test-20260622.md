@@ -76,7 +76,7 @@ then
 
 ```math
 \boxed{
-d\nu_m^{ol}:=\min\{A_m,G_m\}\,d\lambda_m .
+d\omega_m^{cs}:=\min\{A_m,G_m\}\,d\lambda_m .
 }
 \tag{TON.1e}
 ```
@@ -84,7 +84,7 @@ d\nu_m^{ol}:=\min\{A_m,G_m\}\,d\lambda_m .
 In the absolutely continuous case, this is exactly
 
 ```math
-d\nu_m^{ol}(s)
+d\omega_m^{cs}(s)
 =
 \min\left\{
 \int[n_m(s,y)]_+\,dy,
@@ -100,7 +100,7 @@ The theorem tested here is
 \texttt{TerminalOverlapNoJump.A:}
 \qquad
 \lim_{\theta\downarrow0}\limsup_m
-\nu_m^{ol}((-\theta,0])=0.
+\omega_m^{cs}((-\theta,0])=0.
 }
 \tag{TON.2}
 ```
@@ -117,7 +117,7 @@ If there are \(\alpha\in(0,1)\) and \(C<\infty\) such that
 
 ```math
 \sup_m
-\int_{-1}^{0}(-s)^{-\alpha}\,d\nu_m^{ol}(s)
+\int_{-1}^{0}(-s)^{-\alpha}\,d\omega_m^{cs}(s)
 \le C,
 \tag{TON.3}
 ```
@@ -125,10 +125,10 @@ If there are \(\alpha\in(0,1)\) and \(C<\infty\) such that
 then
 
 ```math
-\nu_m^{ol}((-\theta,0])
+\omega_m^{cs}((-\theta,0])
 \le
 \theta^\alpha
-\int_{-\theta}^{0}(-s)^{-\alpha}\,d\nu_m^{ol}(s)
+\int_{-\theta}^{0}(-s)^{-\alpha}\,d\omega_m^{cs}(s)
 \le
 C\theta^\alpha.
 \tag{TON.4}
@@ -141,23 +141,23 @@ Hence `(TON.2)` follows.
 If
 
 ```math
-d\nu_m^{ol}(s)=\rho_m^{ol}(s)\,ds
+d\omega_m^{cs}(s)=\rho_m^{cs}(s)\,ds
 \tag{TON.5}
 ```
 
 and for some \(q>1\),
 
 ```math
-\sup_m\|\rho_m^{ol}\|_{L_s^q(-1,0)}<\infty,
+\sup_m\|\rho_m^{cs}\|_{L_s^q(-1,0)}<\infty,
 \tag{TON.6}
 ```
 
 then Hölder gives
 
 ```math
-\nu_m^{ol}((-\theta,0])
+\omega_m^{cs}((-\theta,0])
 \le
-\|\rho_m^{ol}\|_{L_s^q}
+\|\rho_m^{cs}\|_{L_s^q}
 \theta^{1-1/q},
 \tag{TON.7}
 ```
@@ -167,7 +167,7 @@ so `(TON.2)` follows.
 ### Orlicz consumer
 
 More generally, de la Vallee-Poussin uniform integrability of the densities
-\(\rho_m^{ol}\) gives `(TON.2)`.  This is exactly the same endpoint-uniform-
+\(\rho_m^{cs}\) gives `(TON.2)`.  This is exactly the same endpoint-uniform-
 integrability requirement, stated without choosing a power.
 
 ## 2. Exact pulse obstruction
@@ -188,7 +188,7 @@ a\,\tau_m^{-1}\mathbf 1_{(-\tau_m,0]}(s),
 Then
 
 ```math
-\nu_m^{ol}((-\theta,0])
+\omega_m^{cs}((-\theta,0])
 =a
 \quad
 \text{whenever }\theta\ge\tau_m,
@@ -200,14 +200,14 @@ so `(TON.2)` fails.
 The same pulse has uniformly finite \(L_s^1\) mass:
 
 ```math
-\int_{-1}^{0}d\nu_m^{ol}=a.
+\int_{-1}^{0}d\omega_m^{cs}=a.
 \tag{TON.10}
 ```
 
 It also has the exact Hardy blow-up
 
 ```math
-\int_{-1}^{0}(-s)^{-\alpha}\,d\nu_m^{ol}(s)
+\int_{-1}^{0}(-s)^{-\alpha}\,d\omega_m^{cs}(s)
 =
 {a\over 1-\alpha}\tau_m^{-\alpha}
 \to\infty.
@@ -217,7 +217,7 @@ It also has the exact Hardy blow-up
 and for every \(q>1\),
 
 ```math
-\|\rho_m^{ol}\|_{L_s^q}^q
+\|\rho_m^{cs}\|_{L_s^q}^q
 =
 a^q\tau_m^{1-q}
 \to\infty.
@@ -227,11 +227,11 @@ a^q\tau_m^{1-q}
 Thus finite isolated \(L_s^1\) overlap mass, bounded storage, and visibility of
 the full packet do not exclude the terminal overlap atom.
 
-## 3. Why detached readouts do not prove this
+## 3. Why single-channel readouts do not prove this
 
-A detached readout does not prove `(TON.1)`.  It becomes relevant only after it
+A single-channel readout does not prove `(TON.1)`.  It becomes relevant only after it
 has been rewritten as a statement about the same coupled participation object
-and the same overlap measure \(d\nu_m^{ol}\).  Until then it is outside the live
+and the same overlap measure \(d\omega_m^{cs}\).  Until then it is outside the live
 theorem.
 
 ## 4. Exact current reduction
@@ -258,7 +258,7 @@ The terminal term in `(TON.13)` is produced by any one of:
 \boxed{
 \begin{array}{l}
 \text{Hardy / Orlicz / }L_s^q,\ q>1,
-\text{ endpoint-uniform integrability of }d\nu_m^{ol},\\
+\text{ endpoint-uniform integrability of }d\omega_m^{cs},\\
 \texttt{StrictFourBodyNoWasteLyapunov.A}
 \text{ on the same full packet},\\
 \text{a theorem stated directly for the coupled participation object}.
@@ -267,7 +267,7 @@ The terminal term in `(TON.13)` is produced by any one of:
 \tag{TON.14}
 ```
 
-No detached single-readout statement proves `TerminalOverlapNoJump.A`.
+No single-channel readout statement proves `TerminalOverlapNoJump.A`.
 
 ## 5. Result
 
@@ -278,17 +278,17 @@ same coupled object is no-exit of that retained annular return record:
 ```math
 \boxed{
 \text{retain the heat-scale material annular return record behind }
-d\nu_m^{ol}.
+d\omega_m^{cs}.
 }
 \tag{TON.15}
 ```
 
 The terminal heat-scale overlap pulse is the exact countermodel to every
-finite-\(L_s^1\) or detached-channel substitute.
+finite-\(L_s^1\) or single-channel substitute.
 
 ## 6. Annular later-on carrier correction
 
-The physical object is not a center pulse detached from the fluid.  It is the
+The physical object is not a center pulse read apart from the fluid.  It is the
 spike together with the annular layers underneath it.  Those annuli carry the
 later-on stress/strain state of the same event: the internal force/deformation
 state that can return the inner imbalance outward at a later preterminal time.
@@ -316,20 +316,20 @@ not a standalone center endpoint measure:
 ```
 
 Thus the production problem for `(TON.2)` should not be read as a search for a
-new center-only endpoint reserve.  It should be read as restoring the full
+new endpoint reserve read apart from the material history.  It should be read as restoring the full
 same-participation object behind the projection:
 
 ```math
 \text{spike plus outer-annulus later-on stress/strain carrier}
 \quad\longmapsto\quad
-\text{center/time projection currently denoted }d\nu_m^{ol}.
+\text{center/time overlap currently denoted }d\omega_m^{cs}.
 \tag{TON.18}
 ```
 
 Once that identification is made on the retained same packet, the endpoint atom
 is no longer an independent zero-thickness source.  It is part of a smooth
 annular stress/strain evolution with positive time thickness, and the four-body
-object can count it as same-carrier participation rather than as a detached
+object can count it as same-carrier participation rather than as a separate
 endpoint measure.
 
 So the live production clause becomes:
@@ -373,7 +373,7 @@ u\cdot T(u,p)n\,dA .
 \tag{TON.21}
 ```
 
-So the annular carrier is not a new detached account.  It is the stress-work
+So the annular carrier is not a new separate account.  It is the stress-work
 and strain side of the same velocity-pressure-viscosity-incompressibility law.
 
 Assume the spatial branch has selected an outer annular layer that remains a
@@ -401,7 +401,7 @@ Therefore, the center overlap measure has no terminal atom once it is dominated
 by that carrier on shrinking terminal windows.  The needed domination is
 
 ```math
-\nu_m^{ol}((-\theta,0])
+\omega_m^{cs}((-\theta,0])
 \le
 C
 \int_{T^*-\Theta_m(\theta)}^{T^*}
@@ -416,7 +416,7 @@ Combining `(TON.23)` and `(TON.24)` gives
 
 ```math
 \lim_{\theta\downarrow0}\limsup_m
-\nu_m^{ol}((-\theta,0])
+\omega_m^{cs}((-\theta,0])
 =0,
 \tag{TON.25}
 ```
@@ -542,7 +542,7 @@ So the exact remaining identification is now smaller and sharper:
 With `(TON.36)`, `(TON.35)` gives
 
 ```math
-\nu_m^{ol}((-\theta,0])
+\omega_m^{cs}((-\theta,0])
 \le
 \int_{-\theta}^{0}\widehat\rho_{A,m}(s)\,ds
 +
@@ -729,7 +729,7 @@ With `(TON.50)`, `(TON.43)` becomes the exact transported-annulus bound
 Therefore the order-lock terminal overlap satisfies
 
 ```math
-\nu_m^{ol}((-\theta,0])
+\omega_m^{cs}((-\theta,0])
 \le
 \int_{-\theta}^{0}
 \left(
@@ -740,7 +740,7 @@ Therefore the order-lock terminal overlap satisfies
 \tag{TON.54}
 ```
 
-The endpoint pulse is now no longer a center-only object.  It is bounded by
+The endpoint pulse is now read on the same material history.  It is bounded by
 the same-fluid transported annular strain and stress-work history.
 
 The remaining terminal anti-atom condition is the uniform terminal absolute
@@ -780,7 +780,7 @@ C_m(s)
 Then `(TON.54)` is exactly
 
 ```math
-\nu_m^{ol}((-\theta,0])
+\omega_m^{cs}((-\theta,0])
 \le
 \int_{-\theta}^{0}C_m(s)\,ds .
 \tag{TON.57}
@@ -790,7 +790,7 @@ This is the finite-packet attachment statement.  The center/time overlap is
 already dominated before any terminal limit is taken.  Define the two measures
 
 ```math
-d\alpha_m:=d\nu_m^{ol},
+d\alpha_m:=d\omega_m^{cs},
 \qquad
 d\beta_m:=C_m(s)\,ds .
 \tag{TON.57a}
@@ -914,7 +914,7 @@ which is impossible.
 Therefore the remaining gold-side bridge is exactly this: the transported
 outer-annulus stress/strain carrier \(C_m\) must either satisfy the uniform
 terminal tail `(TON.58)`, or be admitted into the bounded-overlap \(A_{4B}\)
-counting line `(TON.61)`.  No center-only endpoint reserve remains.
+counting line `(TON.61)`.  No standalone endpoint reserve remains.
 
 ## 12. Admission of the transported carrier into the four-body channels
 
@@ -1113,7 +1113,7 @@ gates:
 \tag{TON.74}
 ```
 
-Those are no longer center-only endpoint mysteries.  They are ordinary
+Those are no longer standalone endpoint mysteries.  They are ordinary
 same-carrier four-body admission failures.
 
 ## 13. Transported collar term in material coordinates
@@ -1220,7 +1220,7 @@ three explicit same-carrier failures:
 ```
 
 These are Pack/collar or four-body storage-admission failures.  They do not
-revive a center-only terminal atom.
+revive a standalone terminal atom.
 
 ## 14. Bounded-overlap selection is counting, not a reserve upgrade
 
@@ -1414,7 +1414,7 @@ anti-atom:
 
 ```math
 \lim_{\theta\downarrow0}\limsup_m
-\nu_m^{ol}((-\theta,0])=0
+\omega_m^{cs}((-\theta,0])=0
 \tag{TON.97}
 ```
 
