@@ -460,8 +460,8 @@ The derivative condition is the full-packet Lyapunov/Kawashima inequality
 \tag{SYM.31}
 ```
 
-The remaining internal face is now sharper.  The static quotient gap is the
-installed kernel theorem
+The internal face is now sharper.  The static quotient gap is the installed
+kernel theorem
 
 ```math
 \ker\mathcal L_{4B,N}=\mathcal G,
@@ -469,7 +469,7 @@ installed kernel theorem
 ```
 
 so zero full-packet loss is harmless gauge and selected non-gauge activity
-vanishes.  The dynamic clause still needed for the symmetrizer is retained
-frozen-family compactness and lower semicontinuity for the frozen same-packet
-evolutions \(e^{t\mathcal L_\sigma}Z\).  With that clause, the kernel theorem
-gives the uniform observability gap by compactness contradiction.
+vanishes.  The retained frozen-family compactness/lsc solution gives the
+finite-time frozen observability estimate on the retained quotient.  The
+remaining algebraic face is converting that observable Gramian into the
+instantaneous bounded-below \(X\)-term symmetrizer.
