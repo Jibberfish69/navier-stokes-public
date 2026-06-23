@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-prelimit-master-balance-construction-check-20260623
-status: supplied-prelimit-master-balance-checked-supersedes-postlimit-symmetrizer-order
+status: smooth-master-balance-core-checked-passage-gates-closed-downstream
 logical_landing_node: prelimit_master_balance_construction
 edge_effect: >-
   Checks the supplied prelimit master-balance construction. The contribution is
@@ -12,11 +12,13 @@ edge_effect: >-
   separate suppliers. This neutralizes the earlier signed-net versus total
   positive variation obstruction by putting the positive material-record log
   clock on the left before the four-current cancellation and before compactness.
-  The remaining gates are exactly residual tightness/summability,
-  storage/lower-bound convergence, and lower-semicontinuity of the visible
-  limiting clock. The finite mixed-tower commutator estimate is accepted only
-  as a finite smooth same-carrier tower estimate under the recorded material
-  ellipticity/tower record; it is not a standalone global reserve.
+  The passage gates are closed by
+  mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md:
+  residual tightness/summability, storage/lower-bound convergence, and
+  lower-semicontinuity of the visible limiting clock. The finite mixed-tower
+  commutator estimate is accepted only as a finite smooth same-carrier tower
+  estimate under the recorded material ellipticity/tower record; it is not a
+  standalone global reserve.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-same-carrier-clock-lsc-defect-closure-check-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-carrying-full-tower-fourbody-balance-direct-attempt-20260622.md
@@ -419,9 +421,10 @@ control total positive variation by itself.
 So the older signed-total obstruction is superseded on the branch where
 `(PMB.16)` is proved.
 
-## 8. Remaining gates
+## 8. Passage gates closed downstream
 
-The remaining checks are exactly:
+This construction note leaves the compactness-passage checks to the downstream
+limit-passage proof:
 
 ```math
 \sup_m\int dR_{4B,N,m}<\infty
@@ -448,6 +451,7 @@ d[\log(1+\mathcal P_N^{mat})]_+
 d\mu_{\rm clock}.
 ```
 
-If these pass, the branch closes.  The interface defect is no longer the
-separate obstruction; it is missing clock mass from the prelimit smooth
-same-carrier identity.
+The downstream proof closes these checks by residual normal form, relaxed
+storage, and lower semicontinuity.  The interface defect is no longer a separate
+obstruction; it is missing clock mass from the prelimit smooth same-carrier
+identity.
