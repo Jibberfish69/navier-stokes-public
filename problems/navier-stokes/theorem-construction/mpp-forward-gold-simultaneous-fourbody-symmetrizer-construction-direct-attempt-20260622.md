@@ -431,3 +431,36 @@ vanish in fixed terminal gauge; bounded moving-packet offsets are \(C_N\)
 translations; unbounded offsets are loss of the retained atlas; and the label,
 sign, and collar terms are visible or stabilized.  The live construction is
 therefore the bounded-below instantaneous \(X\)-term symmetrizer.
+
+The bounded-below \(X\)-term direct attempt identifies the exact construction:
+the \(X\)-terms must be the off-diagonal blocks of one positive full-packet
+symmetrizer
+
+```math
+\mathfrak L_{4B,N}
+=
+\langle \mathfrak U_N,H_\sigma\mathfrak U_N\rangle,
+\qquad
+H_\sigma=I+K_\sigma,
+\tag{SYM.30}
+```
+
+with \(K_\sigma\) off-diagonal in the \((S_N,Q_N,C_N,G_N)\) decomposition.
+The derivative condition is the full-packet Lyapunov/Kawashima inequality
+
+```math
+\partial_\sigma H_\sigma
++H_\sigma\mathcal L_\sigma
++\mathcal L_\sigma^\ast H_\sigma
+\le
+-c\,A_{4B,N}
+-D_{4B,N}
+-c\,d[\log(1+\mathcal P_N^{mat})]_+/d\sigma
++R_{4B,N}.
+\tag{SYM.31}
+```
+
+The remaining internal face is the uniform observability gap on the gauge
+quotient: no non-gauge retained mixed material packet can have unit selected
+activity and zero full four-body loss. Compactness plus lossless rigidity is
+the intended mechanism for proving that gap uniformly.
