@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-full-packet-kernel-observability-theorem-20260622
-status: static-kernel-theorem-proved-retained-frozen-finite-time-observability-solved-gramian-to-xterm-open
+status: static-kernel-theorem-proved-retained-frozen-observability-solved-semigroup-route-demoted-direct-xterm-open
 logical_landing_node: full_packet_observability_gap
 edge_effect: >-
   Installs the kernel formulation for the full-packet observability gap. The
@@ -11,15 +11,17 @@ edge_effect: >-
   gauge subspace G. Thus ker L_4B,N=G on the retained quotient and selected
   non-gauge activity vanishes. The retained frozen-family compactness/lsc
   solution then gives finite-time frozen observability by compactness
-  contradiction on the retained quotient. The remaining internal algebraic
-  clause is converting that finite-time observable Gramian into the
-  bounded-below instantaneous X-term symmetrizer without leaving the same
-  material packet.
+  contradiction on the retained quotient. The Gramian-to-X-term and no-return
+  direct tests demote the semigroup route: the remaining internal algebraic
+  clause is the direct simultaneous construction of X_SQ, X_QC, X_CG, X_GS from
+  the same material participation law.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-packet-observability-gap-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-below-xterm-symmetrizer-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-material-a4b-lower-bound-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-frozen-family-compactness-lsc-solution-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-observable-frozen-gramian-to-instantaneous-xterm-direct-test-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-frozen-full-packet-dissipative-noreturn-direct-test-20260622.md
 ---
 
 # Full-Packet Kernel Observability Theorem
@@ -362,17 +364,19 @@ This installs the exact kernel theorem:
 \tag{KOT.31}
 ```
 
-The dynamic compactness/lsc clause is now installed on the retained compact
-quotient.  The remaining algebraic clause is:
+The dynamic compactness/lsc clause is installed on the retained compact
+quotient.  The semigroup/Gramian route has been tested and demoted: finite-time
+observability leaves a positive endpoint term, and no-return is not available
+as an independent supplier from current inputs.  The remaining algebraic clause
+is:
 
 ```math
 \boxed{
-\texttt{ObservableFrozenGramianToInstantaneousXTerm.A}
+\texttt{DirectSimultaneousMaterialFourBodyXTermIdentity.A}
 }
 \tag{KOT.32}
 ```
 
-with content: convert the finite-time observable Gramian into the
-bounded-below instantaneous \(X\)-term symmetrizer whose derivative gives the
-simultaneous four-body inequality.  It is still inside the same material
-participation law.
+with content: construct \(X_{SQ},X_{QC},X_{CG},X_{GS}\) directly from the
+simultaneous material participation law.  The kernel theorem remains the
+zero-loss rigidity check for that construction.
