@@ -75,7 +75,7 @@ J=\det F .
 ```
 
 The pressure component of this record is the same pressure/incompressibility
-tower, fixed by the material pressure equation rather than assumed separately.
+tower, fixed by the material pressure equation.
 
 Then there is a nondecreasing function \(C_s\) such that
 
