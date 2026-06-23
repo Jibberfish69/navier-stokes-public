@@ -352,7 +352,7 @@ Assume
 ```math
 dA_{4B,N,m}
 +
-d[\log(1+\mathcal P_{N,m}^{mat})]_+
+C_{log}d[\log(1+\mathcal P_{N,m}^{mat})]_+
 \rightharpoonup^\ast
 d\mu_{\rm clock}.
 \tag{PMB.21}
@@ -363,7 +363,7 @@ Assume the visible limiting clock satisfies
 ```math
 dA_{4B,N}
 +
-d[\log(1+\mathcal P_N^{mat})]_+
+C_{log}d[\log(1+\mathcal P_N^{mat})]_+
 \le
 d\mu_{\rm clock}.
 \tag{PMB.22}
@@ -378,7 +378,7 @@ d\mu_{\rm clock}
 -
 dA_{4B,N}
 -
-d[\log(1+\mathcal P_N^{mat})]_+.
+C_{log}d[\log(1+\mathcal P_N^{mat})]_+.
 \tag{PMB.23}
 ```
 
@@ -390,7 +390,7 @@ d\mathfrak L_{4B,N}
 c\left(
 dA_{4B,N}
 +
-d[\log(1+\mathcal P_N^{mat})]_+
+C_{log}d[\log(1+\mathcal P_N^{mat})]_+
 +
 d\mathcal K_{\rm iface}
 \right)
