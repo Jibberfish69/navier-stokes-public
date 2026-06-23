@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-exact-material-fourbody-exchange-concomitant-direct-attempt-20260622
-status: direct-attempt-reduces-to-lawbearing-orientation-plus-bounded-mismatch-primitive
+status: direct-attempt-reduces-to-qc-cg-orientation-plus-bounded-mismatch-primitive-gs-exact-current
 logical_landing_node: exact_material_fourbody_exchange_concomitant
 edge_effect: >-
   Tests the exact concomitant theorem exposed by the direct X-term attempt. The
@@ -10,11 +10,13 @@ edge_effect: >-
   the leftover mismatch is the differential of a bounded instantaneous
   same-packet cross-term. The installed Body-I/Body-II normal form closes the
   S->Q interface. The current repo still does not install the full Q->C, C->G,
-  and G->S oriented current cycle as exact material identities, and it also
+  and C->G oriented current cycle as exact material identities, and it also
   does not construct bounded instantaneous primitives for their residual
-  mismatch. Thus ExactMaterialFourBodyExchangeConcomitant.A reduces to
-  LawBearingExchangeOrientation.A plus BoundedMaterialMismatchPrimitive.A on
-  the residual mismatch.
+  mismatch. A later check against the Body-IV/Body-I criterion shows that
+  retained G->S closes by exact current identity, with X_GS=0, and failure of
+  that criterion is charged to G-side defects. Thus
+  ExactMaterialFourBodyExchangeConcomitant.A reduces to Q->C/C->G law-bearing
+  orientation plus BoundedMaterialMismatchPrimitive.A on residual mismatch.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-direct-simultaneous-material-fourbody-xterm-identity-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-law-bearing-full-tower-four-inequality-attempt-20260622.md
@@ -223,16 +225,41 @@ dL_G+dA_G=dJ_{CG}-dJ_{GS}.
 ```
 
 The installed \(G\to S\) criterion is conditional on ellipticity, coefficient
-control, commutator absorption, and same-carrier tower transport.  That is
-properly same-packet, but it is not yet the exact oriented return current
-\(J_{GS}\), nor a bounded \(X_{GS}\)-primitive for the residual mismatch:
+control, commutator absorption, and same-carrier tower transport.  Under those
+retained hypotheses it already gives the exact oriented return current:
 
 ```math
-d\mu_{GS}=-dX_{GS}+d\mathcal D_{GS}+dR_{GS}.
+\Theta_{G\to S}\mathcal T_N[v,G]
+=
+\mathcal T_N^{next}[u,p]
+\quad\Longrightarrow\quad
+dJ_S^{in}=dJ_G^{out}.
 \tag{EMC.19}
 ```
 
-So \(G\to S\) is still the principal open interface.
+Thus the retained \(G\to S\) branch has
+
+```math
+d\mu_{GS}=0,
+\qquad
+X_{GS}=0.
+\tag{EMC.20}
+```
+
+When that criterion fails, the defect is charged to
+
+```math
+K_{\rm ell}^+
++K_{\rm coef}^+
++K_{\rm comm}^+
++K_{\rm transport}^+
++K_G^+
++R_{\rm legal}.
+\tag{EMC.21}
+```
+
+So \(G\to S\) is exact-current-or-defect.  It is not an \(X\)-primitive
+problem.
 
 ## 6. Result
 
@@ -244,17 +271,27 @@ What is installed:
 \boxed{
 S\to Q\text{ is exact as strict same-packet radius/viscous loss.}
 }
-\tag{EMC.20}
+\tag{EMC.22}
+```
+
+and
+
+```math
+\boxed{
+G\to S\text{ is exact current on the retained criterion branch, with failures
+charged to }K_{G\to S}^+.
+}
+\tag{EMC.23}
 ```
 
 What remains:
 
 ```math
 \boxed{
-Q\to C,\quad C\to G,\quad G\to S
+Q\to C,\quad C\to G
 \text{ must be made into exact oriented current identities}
 }
-\tag{EMC.21}
+\tag{EMC.24}
 ```
 
 or their residual mismatches must be represented by bounded instantaneous
@@ -266,9 +303,9 @@ d\mu_{ij}
 =
 -dX_{ij}+d\mathcal D_{ij}+dR_{ij},
 \qquad
-ij\in\{QC,CG,GS\}.
+ij\in\{QC,CG\}.
 }
-\tag{EMC.22}
+\tag{EMC.25}
 ```
 
 Therefore
@@ -277,7 +314,7 @@ Therefore
 \boxed{
 \texttt{ExactMaterialFourBodyExchangeConcomitant.A}
 }
-\tag{EMC.23}
+\tag{EMC.26}
 ```
 
 reduces to the two concrete construction clauses:
@@ -286,7 +323,7 @@ reduces to the two concrete construction clauses:
 \boxed{
 \texttt{LawBearingExchangeOrientation.A}
 }
-\tag{EMC.24}
+\tag{EMC.27}
 ```
 
 and, for whatever mismatch remains after the best orientation,
@@ -295,7 +332,7 @@ and, for whatever mismatch remains after the best orientation,
 \boxed{
 \texttt{BoundedMaterialMismatchPrimitive.A}.
 }
-\tag{EMC.25}
+\tag{EMC.28}
 ```
 
 This is still one-fluid work.  Both clauses live inside the same transported
