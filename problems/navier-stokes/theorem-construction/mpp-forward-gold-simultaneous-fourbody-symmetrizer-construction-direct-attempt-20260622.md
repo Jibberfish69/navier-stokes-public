@@ -394,8 +394,31 @@ pressure-viscosity-incompressibility-velocity tower plus scaling drift.
 Therefore `(SYM.26)` is proved in the fixed-atlas case after replacing the
 \(C_N\) compactness record by the mixed material tower.
 
-The remaining \(C_N\)-face is the moving-atlas compatibility clause: centers,
-terminal times, annular labels, material maps, and collars must vary only
-through same-packet \(S_N/G_N/Q_N\) drift channels. Without that compatibility,
-\(d_\sigma L_C\) compares different material packets and cannot be inserted
-into the simultaneous symmetrizer.
+The moving-atlas compatibility clause has also been sharpened by differentiating
+the inverse label map:
+
+```math
+\partial_\sigma Y_\sigma
+=
+\nabla_yY_\sigma
+\left(
+-y+2sV_\sigma
++r_\sigma^{-1}\dot x_\sigma
+-r_\sigma^{-2}\dot T_\sigma V_\sigma
+\right).
+\tag{SYM.28}
+```
+
+So fixed center/time is already same-packet. The remaining \(C_N\)-face is the
+normalized modulation and jump variation:
+
+```math
+r_\sigma^{-1}\dot x_\sigma,\quad
+r_\sigma^{-2}\dot T_\sigma,\quad
+dN_{label},\quad dN_{sgn},\quad d\Lambda_{collar,N}.
+\tag{SYM.29}
+```
+
+These must enter through same-packet \(S_N/G_N/Q_N\) drift channels. Without
+that compatibility, \(d_\sigma L_C\) compares different material packets and
+cannot be inserted into the simultaneous symmetrizer.
