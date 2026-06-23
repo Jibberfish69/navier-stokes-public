@@ -1,20 +1,14 @@
 ---
 theorem_id: full-proof-closure-from-prelimit-clock-and-cm-tree-20260623
-status: repo-side-full-closure-assembled-under-installed-cm-framework
+status: demoted-cm-aware-branch-assembly-pure-gold-noexit-open
 logical_landing_node: navier_stokes_mpp_full_proof_closure
 edge_effect: >-
-  Assembles the current repo-side proof into one contradiction closure.  A
-  CM-test-admissible finite Clay terminal witness from original smooth data
-  enters the same-fluid CM terminal tree.  If it retains a normalized non-gauge
-  same-material packet, the prelimit master balance gives finite full clock and
-  finite A_4B; clock quantization prevents zero-cost Part loss on the retained
-  tail; endpoint singularity then produces infinitely many retained critical
-  packets, each with a fixed A_4B lower bound, contradicting finite A_4B.  If
-  the normalized same-material packet is not retained, the obstruction is a
-  typed Part/Field face and embeds as Exit(Q):=not Member(Q).  The installed
-  no-third-branch law excludes any remaining in-class nonsmooth terminal
-  branch.  Thus no CM-test-admissible finite Clay terminal witness remains
-  inside the installed route.
+  Demotes the previous full-closure claim.  The retained normalized branch is
+  contradicted by the finite prelimit four-body clock.  The non-retained branch
+  is not a pure-gold contradiction; it is a CM/Silver Part-or-Field class-exit
+  landing.  The note therefore records a CM-aware branch assembly, not a proof
+  that original smooth data supplies the missing raw no-exit theorem
+  TerminalSamePacketPartNoExit.A.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-same-packet-part-noexit-clock-quantization-direct-attempt-20260623.md
@@ -25,14 +19,43 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
 ---
 
-# Full Proof Closure From Prelimit Clock And CM Tree
+# CM-Aware Branch Assembly From Prelimit Clock And CM Tree
 
 Date: 2026-06-23
 
+## Role correction
+
+This note is not a pure-gold MPP closure. It should not be cited as proving
+that original smooth data rules out every terminal witness by itself. The
+retained normalized same-material branch is contradicted by finite four-body
+clock. The non-retained branch is a CM/Silver landing in `Part` or `Field`, not
+a gold deletion of the branch.
+
+So the honest status is:
+
+```math
+\text{retained branch} \Rightarrow \text{finite-clock contradiction,}
+```
+
+and
+
+```math
+\text{non-retained branch} \Rightarrow \text{CM/Silver Part-or-Field exit.}
+```
+
+The missing pure-gold clause remains:
+
+```math
+\text{original smooth data} \Rightarrow
+\text{retained typed same-material object with finite same-material clock.}
+```
+
 ## 0. Claim
 
-Within the installed CM-test framework, no finite-time Clay terminal witness
-from original smooth Navier--Stokes data survives.
+Within the installed CM-test framework, the retained branch is contradicted and
+the non-retained branch is classified as a CM/Silver exit. This is branch
+classification plus retained-branch contradiction, not pure-gold witness
+deletion.
 
 More explicitly:
 
@@ -40,7 +63,13 @@ More explicitly:
 \boxed{
 ClayWitness_{CM}(W_*)
 \Longrightarrow
-\bot .
+\left[
+\text{retained clock contradiction}
+\right]
+\vee
+\left[
+\text{CM/Silver Part-or-Field exit}
+\right].
 }
 \tag{FC.1}
 ```
@@ -288,29 +317,33 @@ Exit(Q;\mathfrak O_{NS}^{work})
 and the second alternative is not an in-class finite nonsmooth terminal
 candidate by `(FC.17)`--`(FC.20)`.
 
-Thus:
+Thus the pure retained branch is eliminated:
 
 ```math
 \boxed{
-\neg ClayWitness_{CM}(W_*).
+\neg\left(
+ClayWitness_{CM}(W_*)
+\ \text{and retained normalized same-material branch}
+\right).
 }
 \tag{FC.22}
 ```
 
-In the installed repo route, this is the full proof closure:
+In the installed repo route, this is not the full pure-gold proof closure. It is
+the branch split:
 
 ```math
 \boxed{
-\text{original smooth data}
-\Longrightarrow
-\text{no CM-test-admissible finite Clay terminal witness.}
+\text{retained branch contradicts finite clock;}
+\qquad
+\text{non-retained branch lands in CM/Silver exit.}
 }
 \tag{FC.23}
 ```
 
-Combined with the standard local continuation readout used by the route, this
-is the claimed global smoothness conclusion for the working Navier--Stokes
-object.
+The pure-gold conclusion still requires the missing no-exit supplier that turns
+original smooth data into the retained typed same-material object with finite
+same-material clock, without absorbing the failure as a CM/Silver exit.
 
 ## 6. Proof custody
 
