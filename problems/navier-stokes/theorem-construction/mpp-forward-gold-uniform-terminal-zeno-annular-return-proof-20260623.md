@@ -64,7 +64,7 @@ d\Omega_{N,m}
 :=
 dA_{4B,N,m}
 +
-d[\log(1+\mathcal P_{N,m}^{mat})]_+
+C_{log}d[\log(1+\mathcal P_{N,m}^{mat})]_+
 +
 d\mathcal L_{4B,N,m}.
 \tag{UZR.3}
@@ -77,7 +77,7 @@ d\Omega_N
 :=
 dA_{4B,N}
 +
-d[\log(1+\mathcal P_N^{mat})]_+
+C_{log}d[\log(1+\mathcal P_N^{mat})]_+
 +
 d\mathcal K_{\rm iface}
 +
