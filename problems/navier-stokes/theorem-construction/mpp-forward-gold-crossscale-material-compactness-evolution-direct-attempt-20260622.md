@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-crossscale-material-compactness-evolution-direct-attempt-20260622
-status: fixed-atlas-crossscale-generator-derived-moving-atlas-identity-reduces-to-normalized-modulation-and-jump-variation
+status: fixed-atlas-crossscale-generator-derived-retained-branch-atlas-fixed-by-terminal-gauge
 logical_landing_node: crossscale_material_compactness_evolution
 edge_effect: >-
   Attacks CrossScaleMaterialCompactnessEvolution.A inside the simultaneous
@@ -12,16 +12,20 @@ edge_effect: >-
   preterminal C_N compactness modulus is controlled by the same full mixed
   material tower, provided C_N is built from the mixed velocity-pressure record
   rather than from spatial rungs alone. The moving-atlas direct attempt then
-  derives d_sigma Y=grad_y Y(-y+2sV+r^{-1}dot x-r^{-2}dot T V). Hence fixed
-  center/time is already compatible, and the remaining internal face is the
-  normalized modulation and jump variation of centers, terminal times, labels,
-  signs, collars, and selectors.
+  derives d_sigma Y=grad_y Y(-y+2sV+r^{-1}dot x-r^{-2}dot T V). The
+  fixed-terminal-gauge solution then sets T_sigma=T* and x_sigma=x* on the
+  retained branch. Moving active packets become bounded material time/space
+  translations measured by C_N, while unbounded translations are loss of the
+  retained atlas. Label/sign/collar/selector variation is handled by
+  selector-collar stabilization. Thus the retained-branch atlas is fixed enough
+  for d_sigma L_C; the live obstruction returns to bounded-below X-terms.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-c-coordinate-realization-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-fourbody-symmetrizer-construction-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-material-fourbody-packet-coercivity-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-mixed-derivative-tower-participation-law-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-crossscale-material-atlas-compatibility-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-crossscale-material-atlas-fixed-terminal-gauge-solution-20260622.md
 ---
 
 # Cross-Scale Material Compactness Evolution Direct Attempt
@@ -361,13 +365,20 @@ C\,d_\sigma A_{4B,N_\ast}^{ann,M,\ell,\delta}.
 \tag{CSM.22}
 ```
 
-The general retained terminal family is still not closed, because moving
-centers, times, labels, collars, and material maps produce `(CSM.18b)` and the
-corresponding selector/collar jump measures.  The remaining clause is therefore:
+The fixed-terminal-gauge solution removes the center/time modulation on the
+retained branch by setting \(T_\sigma=T^\ast\) and \(x_\sigma=x^\ast\). Moving
+active packets then appear as bounded material time/space translations in the
+fixed gauge, which are exactly part of the \(C_N\) translation moduli. Unbounded
+translations are loss of the retained atlas, not hidden same-packet terms.
+Label/sign/collar/selector variation is handled by selector-collar
+stabilization as visible packet variation or eventual stabilization.
+
+Thus the retained-branch atlas compatibility clause is discharged. The
+remaining simultaneous-packet construction is therefore:
 
 ```math
 \boxed{
-\texttt{CrossScaleMaterialAtlasCompatibility.A}
+\text{bounded-below instantaneous }X_{SQ},X_{QC},X_{CG},X_{GS}.
 }
 \tag{CSM.23}
 ```
