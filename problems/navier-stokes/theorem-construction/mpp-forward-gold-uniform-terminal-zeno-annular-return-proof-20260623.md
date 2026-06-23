@@ -334,7 +334,7 @@ contradiction proves `(UZR.2)`.
 The installed terminal-overlap attachment gives
 
 ```math
-\nu_m^{ol}((-\theta,0])
+\omega_m^{cs}((-\theta,0])
 \le
 \int_{-\theta}^{0}\widehat\rho_{A,m}(s)\,ds
 +
@@ -350,13 +350,14 @@ absolutely continuous by the residual normal form.  Therefore `(UZR.2)` implies
 \boxed{
 \lim_{\theta\downarrow0}
 \limsup_m
-\nu_m^{ol}((-\theta,0])
+\omega_m^{cs}((-\theta,0])
 =0.
 }
 \tag{UZR.27}
 ```
 
-So the terminal last-time pulse cannot survive as a hidden center atom.
+So the terminal last-time storage/overlap contribution has no surviving
+endpoint atom on the same material history.
 
 ## 7. MPP route closure inside the installed framework
 
@@ -374,18 +375,21 @@ version of the later annular return.  The proof above closes it:
 contradicting the prelimit master balance.
 
 Together with the already-installed retained critical-packet lower-bound
-theorem and the CM terminal-tree entry, the branch split is now:
+theorem and the material-record clock, the branch split is now:
 
 ```math
 \begin{array}{ll}
-\text{retained terminal packet}
+\text{storage/overlap pulse on the material history}
 &\Rightarrow
-\text{finite-clock contradiction},\\[1mm]
-\text{non-retained same-material record}
+\text{uniform annular-return contradiction},\\[1mm]
+\text{retained non-gauge critical packet on the material history}
 &\Rightarrow
-\text{Part/Field class-exit face}.
+\text{A}_{4B}\text{ lower-bound contradiction},\\[1mm]
+\text{material record or interface growth on the material history}
+&\Rightarrow
+\text{full-clock contradiction}.
 \end{array}
-\tag{UZR.22}
+\tag{UZR.28}
 ```
 
 Thus the pure forward-gold terminal pulse obstruction is closed in the repo
