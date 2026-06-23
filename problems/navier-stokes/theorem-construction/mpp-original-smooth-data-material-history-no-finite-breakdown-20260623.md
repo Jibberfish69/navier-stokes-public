@@ -167,8 +167,32 @@ frame growth, and interface loss are all placed into the left-side clock in
 \((MH.5)\).  Anything nonsummable or critical is therefore not a right-side
 residual after compactness; it is part of \(d\Omega_N\).
 
-Since \((MH.6)\) is finite, the finite \(N_s\) material tower cannot lose
-retention at the terminal tail.  Thus \(Part_{N_s,Q_{\rm atlas}}\) survives.
+Since \((MH.6)\) is finite, the positive material-record variation is finite:
+
+```math
+\int_{\sigma_0}^{\infty}
+d[\log(1+\mathcal P_N^{mat})]_+
+<\infty .
+\tag{MH.8a}
+```
+
+The record starts finite at every preterminal base scale.  Hence
+
+```math
+\log(1+\mathcal P_N^{mat}(\sigma))
+\le
+\log(1+\mathcal P_N^{mat}(\sigma_0))
++
+\int_{\sigma_0}^{\sigma}
+d[\log(1+\mathcal P_N^{mat})]_+
+<\infty
+\tag{MH.8b}
+```
+
+uniformly on the terminal tail.  A finite \(N_s\) tower loss would require this
+material record to blow up, drop carrier attachment, or lose an interface
+current.  Those alternatives are exactly the clock pieces already counted in
+\((MH.5)\).  Thus \(Part_{N_s,Q_{\rm atlas}}\) survives.
 
 ## 5. Full clock excludes positive-scale field loss
 
