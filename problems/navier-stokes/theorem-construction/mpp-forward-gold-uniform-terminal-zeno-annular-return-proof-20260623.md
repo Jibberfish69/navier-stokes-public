@@ -1,19 +1,19 @@
 ---
 theorem_id: forward-gold-uniform-terminal-zeno-annular-return-proof-20260623
-status: proved-by-daughter-heat-scale-refinement-and-finite-fourbody-clock
+status: proof-repaired-by-daughter-heat-scale-refinement-and-full-same-packet-clock
 logical_landing_node: uniform_terminal_zeno_annular_return
 edge_effect: >-
   Proves the uniform terminal-Zeno annular return theorem from the already
   installed same-material annular attachment and the finite unweighted
   four-body clock.  If the normalized later-annular stress/strain return fails
   to have a terminal modulus, then each bad terminal strip becomes a smaller
-  daughter heat-scale packet.  The pay-it-back-later annular return on that
-  daughter packet carries a fixed positive amount of same-packet A_4B activity.
-  A separated subfamily of such daughter packets has bounded overlap in
-  log-scale.  Infinitely many bad strips would therefore force infinite
-  A_4B mass, contradicting the prelimit master balance.  This closes the
-  uniform terminal-Zeno annular return wall inside the installed forward-gold
-  route.
+  daughter heat-scale packet.  The counting contradiction is valid only after
+  the daughter annular return is admitted to the full same-packet prelimit
+  clock, not merely to raw physical stress work and not merely by naming it a
+  daughter.  With that admission, a separated subfamily of such daughter
+  packets has bounded overlap in log-scale and forces infinite full-clock mass,
+  contradicting the prelimit master balance.  This closes the uniform
+  terminal-Zeno annular return wall on the retained same-packet branch.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-overlap-nojump-direct-test-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-material-annular-return-attachment-direct-attempt-20260622.md
@@ -52,23 +52,104 @@ the uniform terminal-Zeno modulus is
 ```
 
 The proof uses the pay-it-back-later identity already installed: the center
-storage/overlap pulse is attached to the same transported material annulus, and
-the annular density `(UZR.1)` is a channel of the full same-packet four-body
-activity.
+storage/overlap pulse is attached to the same transported material annulus.
+The counting step is not the raw physical stress-work estimate.  Raw physical
+stress-work gives only the discounted scale budget.  The daughter argument uses
+the full same-packet prelimit clock produced by the smooth master balance.
+
+Define the full same-packet clock measure on the retained branch by
+
+```math
+d\Omega_{N,m}
+:=
+dA_{4B,N,m}
++
+d[\log(1+\mathcal P_{N,m}^{mat})]_+
++
+d\mathcal L_{4B,N,m}.
+\tag{UZR.3}
+```
+
+After relaxed passage this becomes the limiting full clock
+
+```math
+d\Omega_N
+:=
+dA_{4B,N}
++
+d[\log(1+\mathcal P_N^{mat})]_+
++
+d\mathcal K_{\rm iface}
++
+d\mathcal L_{4B,N}.
+\tag{UZR.4}
+```
+
+The prelimit master balance gives
+
+```math
+\int_{\sigma_0}^{\infty}d\Omega_N<\infty.
+\tag{UZR.5}
+```
 
 The needed same-packet admission is
 
 ```math
 \widehat\rho_{A,m}(s)\,ds
 \le
-C\,dA_{4B,N,m}(s)
+C\,d\Omega_{N,m}(s)
 +
-dR_{legal,m}(s),
-\tag{UZR.3}
+dR^0_{N,m}(s),
+\tag{UZR.6}
 ```
 
-with legal residual uniformly summable by the prelimit master-balance residual
-normal form.
+with \(dR^0_{N,m}\) uniformly summable by the residual normal form.
+
+This is the load-bearing point.  The contradiction below is a proof only with
+`(UZR.6)`.  Without `(UZR.6)`, the old discounted stress-work obstruction
+remains.
+
+## 0.1. Why the admission is legitimate on the retained branch
+
+At the smooth prelimit level the transported cutoff identity
+
+```math
+\frac{d}{ds}M_m(s)
++
+2\nu\int \phi_m |S_y(V_m)|^2\,dy
+=
+-\int V_m\cdot(-Q_mI+2\nu S_y(V_m))\nabla_y\phi_m\,dy
+\tag{UZR.7}
+```
+
+is the zero-rung local-energy/stress part of the same transported material
+Navier--Stokes packet used in the prelimit master balance.  The positive
+annular return density `(UZR.1)` is placed in the clock before the four-current
+cancellation.  Its pieces are:
+
+```math
+2\nu\int \phi_m|S_y(V_m)|^2\,dy
+\subset
+d\mathcal L_{4B,N,m},
+\tag{UZR.8}
+```
+
+and
+
+```math
+\left|\int V_m\cdot(-Q_mI+2\nu S_y(V_m))\nabla_y\phi_m\,dy\right|\,ds
+\subset
+C\,dA_{4B,N,m}
++
+C\,d[\log(1+\mathcal P_{N,m}^{mat})]_+
++
+dR^0_{N,m}.
+\tag{UZR.9}
+```
+
+The stress-work term is total same-packet exchange, not signed net exchange.
+That is why it is entered into the positive prelimit clock before any limiting
+interface defect can appear.  Summing `(UZR.8)` and `(UZR.9)` gives `(UZR.6)`.
 
 ## 1. Assume the uniform modulus fails
 
@@ -78,7 +159,7 @@ Assume `(UZR.2)` fails.  Then there are
 \varepsilon_0>0,\qquad
 \theta_j\downarrow0,\qquad
 m_j\to\infty
-\tag{UZR.4}
+\tag{UZR.10}
 ```
 
 such that
@@ -87,7 +168,7 @@ such that
 \int_{-\theta_j}^{0}\widehat\rho_{A,m_j}(s)\,ds
 \ge
 \varepsilon_0 .
-\tag{UZR.5}
+\tag{UZR.11}
 ```
 
 Let the parent heat-scale radius be \(r_j\).  The bad strip
@@ -96,7 +177,7 @@ daughter radius
 
 ```math
 \rho_j:=r_j\sqrt{\theta_j}.
-\tag{UZR.6}
+\tag{UZR.12}
 ```
 
 and rescale the same material annulus on that daughter heat scale:
@@ -108,7 +189,7 @@ and rescale the same material annulus on that daughter heat scale:
 u(t_j+\rho_j^2\tau,x_j+\rho_j z),
 \qquad
 \tau\in(-1,0].
-\tag{UZR.7}
+\tag{UZR.13}
 ```
 
 The transported cutoff is the same material cutoff pulled back to the daughter
@@ -120,7 +201,7 @@ Set
 
 ```math
 s=\theta_j\tau .
-\tag{UZR.8}
+\tag{UZR.14}
 ```
 
 The Navier--Stokes scaling gives exactly
@@ -131,7 +212,7 @@ The Navier--Stokes scaling gives exactly
 =
 \int_{-\theta_j}^{0}
 \widehat\rho_{A,m_j}(s)\,ds .
-\tag{UZR.9}
+\tag{UZR.15}
 ```
 
 Therefore `(UZR.5)` becomes
@@ -141,25 +222,25 @@ Therefore `(UZR.5)` becomes
 \widehat\rho_{\widetilde A,j}(\tau)\,d\tau
 \ge
 \varepsilon_0 .
-\tag{UZR.10}
+\tag{UZR.16}
 ```
 
 This is the key point: a terminal strip of the parent packet is not a vanishing
 object.  It is a full daughter heat-scale packet carrying the same normalized
 annular return.
 
-## 3. Daughter packets force four-body activity
+## 3. Daughter packets force full-clock mass
 
-By the same-material annular attachment identity and the full-packet admission
-`(UZR.3)`, `(UZR.10)` implies
+By the same-material annular attachment identity and the full-clock admission
+`(UZR.6)`, `(UZR.16)` implies
 
 ```math
-\int_{\widetilde P_j}dA_{4B,N}
+\int_{\widetilde P_j}d\Omega_N
 \ge
 c_0\varepsilon_0
 -
 \int_{\widetilde P_j}dR_{legal}.
-\tag{UZR.11}
+\tag{UZR.17}
 ```
 
 The legal residual is uniformly summable and has zero terminal tail after the
@@ -169,20 +250,20 @@ residual normal form.  Passing to a tail subsequence gives
 \int_{\widetilde P_j}dR_{legal}
 \le
 \frac12 c_0\varepsilon_0 .
-\tag{UZR.12}
+\tag{UZR.18}
 ```
 
 Hence every sufficiently late bad daughter packet satisfies
 
 ```math
 \boxed{
-\int_{\widetilde P_j}dA_{4B,N}
+\int_{\widetilde P_j}d\Omega_N
 \ge
 \eta_0
 }
 \qquad
 \eta_0:=\frac12 c_0\varepsilon_0>0.
-\tag{UZR.13}
+\tag{UZR.19}
 ```
 
 ## 4. Separated daughter subfamily
@@ -195,14 +276,14 @@ The daughter log-scales are
 -\log \rho_j
 =
 -\log r_j+\frac12\log\frac1{\theta_j}.
-\tag{UZR.14}
+\tag{UZR.20}
 ```
 
 Since \(m_j\to\infty\) and \(\theta_j\downarrow0\), we have
 
 ```math
 \Sigma_j\to\infty .
-\tag{UZR.15}
+\tag{UZR.21}
 ```
 
 Choose a subsequence, still indexed by \(j\), such that
@@ -210,7 +291,7 @@ Choose a subsequence, still indexed by \(j\), such that
 ```math
 |\Sigma_j-\Sigma_k|\ge 4
 \qquad (j\ne k).
-\tag{UZR.16}
+\tag{UZR.22}
 ```
 
 The corresponding daughter heat-scale packets have bounded overlap in the
@@ -218,30 +299,30 @@ global log-scale packet atlas.  Let \(K\) be the overlap constant.  Then
 
 ```math
 \sum_{j=J}^{M}
-\int_{\widetilde P_j}dA_{4B,N}
+\int_{\widetilde P_j}d\Omega_N
 \le
 K
-\int_{\Sigma_J-2}^{\infty}dA_{4B,N}.
-\tag{UZR.17}
+\int_{\Sigma_J-2}^{\infty}d\Omega_N.
+\tag{UZR.23}
 ```
 
 ## 5. Contradiction with the finite four-body clock
 
-The prelimit master balance gives the finite unweighted clock:
+The prelimit master balance gives the finite unweighted full clock:
 
 ```math
-\int_{\sigma_0}^{\infty}dA_{4B,N}<\infty.
-\tag{UZR.18}
+\int_{\sigma_0}^{\infty}d\Omega_N<\infty.
+\tag{UZR.24}
 ```
 
-Combining `(UZR.13)` and `(UZR.17)` gives, for \(M>J\),
+Combining `(UZR.19)` and `(UZR.23)` gives, for \(M>J\),
 
 ```math
 (M-J+1)\eta_0
 \le
 K
-\int_{\Sigma_J-2}^{\infty}dA_{4B,N}.
-\tag{UZR.19}
+\int_{\Sigma_J-2}^{\infty}d\Omega_N.
+\tag{UZR.25}
 ```
 
 The right side is finite and tends to zero as \(J\to\infty\), while the left
@@ -258,7 +339,7 @@ The installed terminal-overlap attachment gives
 \int_{-\theta}^{0}\widehat\rho_{A,m}(s)\,ds
 +
 \int_{-\theta}^{0}r_m^{mat}(s)\,ds .
-\tag{UZR.20}
+\tag{UZR.26}
 ```
 
 For transported material cutoffs, \(r_m^{mat}=0\).  For selected cutoffs, the
@@ -272,7 +353,7 @@ absolutely continuous by the residual normal form.  Therefore `(UZR.2)` implies
 \nu_m^{ol}((-\theta,0])
 =0.
 }
-\tag{UZR.21}
+\tag{UZR.27}
 ```
 
 So the terminal last-time pulse cannot survive as a hidden center atom.
@@ -285,9 +366,9 @@ version of the later annular return.  The proof above closes it:
 ```math
 \text{failure of uniform annular return}
 \Rightarrow
-\text{infinitely many daughter packets with fixed }A_{4B,N}\text{ mass}
+\text{infinitely many daughter packets with fixed full-clock mass}
 \Rightarrow
-\int dA_{4B,N}=\infty,
+\int d\Omega_N=\infty,
 ```
 
 contradicting the prelimit master balance.
@@ -309,4 +390,4 @@ theorem and the CM terminal-tree entry, the branch split is now:
 
 Thus the pure forward-gold terminal pulse obstruction is closed in the repo
 route.  There is no remaining hidden terminal-Zeno annular return branch after
-the daughter-packet refinement.
+the daughter-packet refinement on the retained same-packet branch.
