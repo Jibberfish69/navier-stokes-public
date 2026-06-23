@@ -7,8 +7,9 @@ edge_effect: >-
   supersedes the post-limit Kawashima burden. Original smooth data supplies one
   smooth material history at every preterminal time: the center spike, the
   annular layers underneath it, the strain/internal-force record, and the
-  delayed annular return are not separate physical objects. The retained branch
-  closes by the prelimit master balance and A_4B lower-bound counting. The
+  delayed annular return are not separate physical objects. The represented
+  material-history argument closes by the prelimit master balance and A_4B
+  lower-bound counting. The
   live gold passage is terminal representation: the terminal center/time readout
   must continue to be read as the projection of that same prelimit material
   history. A representation that discards the transported
