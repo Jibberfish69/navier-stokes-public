@@ -1,5 +1,18 @@
 # TypedPackParticipationNoExit via Relaxed Clock Closure
 
+## Role correction
+
+This is a CM-aware typed-record closure, not a pure forward-gold no-exit proof.
+It does not prove `Pack_Q=>Part_{N,Q}` from original smooth data, and it does
+not prove that a raw terminal packet cannot lose participation. It proves only
+that once a packet has already been typed as a live finite same-material object
+and the relaxed same-material clock is finite, the relaxed typed participation
+record is finite.
+
+The theorem should therefore be cited as a Silver/CM-aware retained-object
+closure. It must not be used as the missing pure-gold theorem
+`TerminalSamePacketPartNoExit.A from original smooth data`.
+
 ## Corrected target
 
 The raw packet/window witness is not the CM object.  The theorem is therefore not
@@ -109,9 +122,11 @@ d\mathcal K_{iface}\le d\mu_{clock}.
 ```
 
 Thus any lost interface/current mass is still a finite component of the relaxed
-typed participation record.  It cannot produce `\neg Part_{N,Q}`; it is precisely
-how the relaxed `Part_{N,Q}` records lower-semicontinuity loss from the smooth
-same-carrier family.
+typed participation record.  It cannot produce failure of the relaxed typed
+record; it is precisely how the relaxed record accounts for
+lower-semicontinuity loss from the smooth same-carrier family. This is the point
+where the theorem becomes a typed-relaxed/CM-aware closure rather than a raw
+gold no-exit proof.
 
 Suppose, for contradiction, that `\neg Part_{N,Q}` holds.  Then at least one of
 the finite typed participation components is either absent from the same typed
@@ -129,7 +144,8 @@ measure
 d\mu_{clock}+d\mathcal L_{4B,N}+dR_{legal}.
 ```
 
-Therefore `\neg Part_{N,Q}` is impossible.  Hence
+Therefore failure of the relaxed typed participation record is impossible under
+the three stated hypotheses.  Hence
 
 ```math
 Pack_Q+TypedLiveObject_{N,Q}+FiniteSameMaterialClock_{N,Q}\Rightarrow Part_{N,Q}.
@@ -137,12 +153,12 @@ Pack_Q+TypedLiveObject_{N,Q}+FiniteSameMaterialClock_{N,Q}\Rightarrow Part_{N,Q}
 
 ## Consequence
 
-The forbidden face
+The typed-relaxed forbidden face
 
 ```math
 Pack_Q+TypedLiveObject_{N,Q}+\neg Part_{N,Q}
 ```
 
 cannot occur on the terminal tail of the relaxed prelimit-clock construction.
-The older raw implication `Pack_Q=>Part_{N,Q}` remains false/overstrong, but the
-CM-aware typed no-exit theorem is closed.
+The older raw implication `Pack_Q=>Part_{N,Q}` remains false/overstrong, and the
+pure-gold no-exit theorem from original smooth data remains open on this note.
