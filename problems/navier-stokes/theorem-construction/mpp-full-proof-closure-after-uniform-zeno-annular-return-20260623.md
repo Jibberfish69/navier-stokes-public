@@ -9,8 +9,9 @@ edge_effect: >-
   read through the annular stress/strain return, and failure of a uniform
   terminal modulus creates daughter heat-scale packets with fixed full
   same-packet clock mass, contradicting the finite prelimit four-body clock.
-  There is no detachable center event in this proof.  Thus no finite Clay
-  terminal witness survives inside the installed Navier--Stokes route.
+  The spike and the later annular return stay one material history throughout
+  the proof. Thus no finite Clay terminal witness survives inside the installed
+  Navier--Stokes route.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-uniform-terminal-zeno-annular-return-proof-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-overlap-nojump-direct-test-20260622.md
@@ -22,6 +23,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-no-third-branch-clay-closure-audit-20260525.md
   - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
   - problems/navier-stokes/theorem-construction/mpp-original-smooth-data-material-history-no-finite-breakdown-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-material-clock-exclusion-20260623.md
 ---
 
 # Full Proof Closure After Uniform Zeno Annular Return
