@@ -184,6 +184,9 @@ Combining \((MH.10)\) and \((MH.12)\),
 \tag{MH.13}
 ```
 
+Here the clock supplies the terminal tail.  The earlier interval
+\([0,T_*-\delta]\) is bounded because the solution is classical there.
+
 This is the exact negation of the terminal readout failure \((MH.1)\).
 
 ## 5. Relaunch contradiction
