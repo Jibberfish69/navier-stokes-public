@@ -287,8 +287,31 @@ Then \(\partial_\sigma Z_{N,\sigma}^{mix}\) gains atlas-variation terms:
 \tag{CSM.18}
 ```
 
-These terms are not allowed to sit outside the route.  They must be one of the
-simultaneous packet coordinates:
+The moving-atlas direct attempt computes the label-map term exactly.  If
+
+```math
+Y_\sigma(s,y)=Y(T_\sigma+r_\sigma^2s,x_\sigma+r_\sigma y),
+\tag{CSM.18a}
+```
+
+then
+
+```math
+\partial_\sigma Y_\sigma
+=
+\nabla_yY_\sigma
+\left(
+-y+2sV_\sigma
++r_\sigma^{-1}\dot x_\sigma
+-r_\sigma^{-2}\dot T_\sigma V_\sigma
+\right).
+\tag{CSM.18b}
+```
+
+Thus fixed center/time is already same-packet.  The remaining moving-atlas
+terms are normalized modulation and jump variations.  These terms are not
+allowed to sit outside the route.  They must be one of the simultaneous packet
+coordinates:
 
 ```math
 \dot T_\sigma,\ \dot x_\sigma,\ \partial_\sigma Y_\sigma
@@ -339,8 +362,8 @@ C\,d_\sigma A_{4B,N_\ast}^{ann,M,\ell,\delta}.
 ```
 
 The general retained terminal family is still not closed, because moving
-centers, times, labels, collars, and material maps produce `(CSM.18)`.  The
-remaining clause is therefore:
+centers, times, labels, collars, and material maps produce `(CSM.18b)` and the
+corresponding selector/collar jump measures.  The remaining clause is therefore:
 
 ```math
 \boxed{
