@@ -51,6 +51,9 @@ G=AA^\top,
 define \(\mathcal P_N^{mat}\) to dominate all of the following
 finite-derivative-depth same-packet quantities. This is a finite Sobolev-depth
 readout of a smooth field, not a restriction to finitely many Fourier modes:
+it replaces the earlier all-orders tower burden by a continuation-depth record
+for one fixed \(H^s\) target, with \(s\) arbitrary but chosen before the
+estimate is run.
 
 ```math
 1+
