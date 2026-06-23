@@ -191,9 +191,17 @@ dJ_{GS}^{\rm tower}
 \tag{RAC.13}
 ```
 
-Choose \(X_{GS}\) to be the signed exchange storage associated with
-\(J_{GS}^{\rm tower}\).  The positive tower recertification failure is exactly
-bounded by the interface defects:
+Under the later bounded-instantaneous \(X\)-term audit, this return is not
+closed by choosing a cumulative signed exchange storage.  On the retained
+branch the Body-IV/Body-I criterion gives the exact current identity
+
+```math
+dJ_S^{in}=dJ_G^{out},
+\tag{RAC.13a}
+```
+
+so no \(X_{GS}\)-primitive is needed.  The positive tower recertification
+failure is exactly bounded by the interface defects:
 
 ```math
 A_S^{\rm tow}
@@ -205,7 +213,6 @@ dK_{\rm ell}^+
 +dK_{\rm transport}^+
 +dK_G^+
 \right)
--\partial_\sigma X_{GS}
 +R_G.
 \tag{RAC.14}
 ```
