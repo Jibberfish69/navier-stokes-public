@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-exact-material-fourbody-exchange-concomitant-direct-attempt-20260622
-status: direct-attempt-reduces-to-qc-cg-orientation-plus-bounded-mismatch-primitive-gs-exact-current
+status: direct-attempt-corrected-four-interfaces-exact-current-or-defect-xprimitives-demoted
 logical_landing_node: exact_material_fourbody_exchange_concomitant
 edge_effect: >-
   Tests the exact concomitant theorem exposed by the direct X-term attempt. The
@@ -9,14 +9,13 @@ edge_effect: >-
   literally the incoming current of the next coordinate with opposite sign, or
   the leftover mismatch is the differential of a bounded instantaneous
   same-packet cross-term. The installed Body-I/Body-II normal form closes the
-  S->Q interface. The current repo still does not install the full Q->C, C->G,
-  and C->G oriented current cycle as exact material identities, and it also
-  does not construct bounded instantaneous primitives for their residual
-  mismatch. A later check against the Body-IV/Body-I criterion shows that
-  retained G->S closes by exact current identity, with X_GS=0, and failure of
-  that criterion is charged to G-side defects. Thus
-  ExactMaterialFourBodyExchangeConcomitant.A reduces to Q->C/C->G law-bearing
-  orientation plus BoundedMaterialMismatchPrimitive.A on residual mismatch.
+  S->Q interface. Later checks against the Body-II/III, Body-III/IV, and
+  Body-IV/I interface criteria show that retained Q->C, C->G, and G->S branches
+  close by exact current identity, with X_QC=X_CG=X_GS=0 on those branches, and
+  failures charged to their named packet defects. Thus the interface-concomitant
+  problem is corrected: cumulative X-primitives are demoted, and the remaining
+  work is the simultaneous packet envelope that includes all named interface
+  defects inside the four-body loss/residual structure.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-direct-simultaneous-material-fourbody-xterm-identity-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-law-bearing-full-tower-four-inequality-attempt-20260622.md
@@ -24,6 +23,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyi-factorial-tower-radius-spend-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-participation-exchange-normal-form-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-crossscale-material-compactness-evolution-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-qc-cg-exact-current-vs-xprimitive-correction-20260622.md
 ---
 
 # Exact Material Four-Body Exchange Concomitant Direct Attempt
