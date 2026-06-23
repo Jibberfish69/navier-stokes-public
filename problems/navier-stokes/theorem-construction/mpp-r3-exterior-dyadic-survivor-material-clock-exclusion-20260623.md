@@ -131,14 +131,25 @@ tail is necessarily high-frequency.
 ## 3. A survivor enters the heat-scale material tower clock
 
 From \((R3M.5)\) and \((R3M.6)\), there are radii \(R_j\to\infty\), times
-\(t_j<T_*\), centers \(x_j\) in the exterior region, and dyadic frequencies
-\(N_j\to\infty\) such that
+\(t_j<T_*\), and dyadic frequencies \(N_j\to\infty\) such that
 
 ```math
 N_j^s
-\|P_{N_j}W_{R_j}(t_j)\|_{L^2(B(x_j,cN_j^{-1}))}
+\|P_{N_j}W_{R_j}(t_j)\|_{L^2(\mathbb R^3)}
 \ge c_0>0 .
 \tag{R3M.9}
+```
+
+Localize the exterior region at radius \(r_j=N_j^{-1}\) by a smooth material
+packet partition \(\{\psi_{j,\ell}\}_{\ell\in\mathcal I_j}\) with finite
+overlap.  Then
+
+```math
+\sum_{\ell\in\mathcal I_j}
+N_j^{2s}
+\|\psi_{j,\ell}P_{N_j}W_{R_j}(t_j)\|_{L^2}^2
+\ge c\,c_0^2 .
+\tag{R3M.9a}
 ```
 
 Set
@@ -148,37 +159,41 @@ r_j:=N_j^{-1}.
 \tag{R3M.10}
 ```
 
-Recenter and rescale around \((t_j,x_j,r_j)\):
+For each active packet label \(\ell\), recenter and rescale around its material
+center \(x_{j,\ell}\):
 
 ```math
-V_j(\sigma,y)
+V_{j,\ell}(\sigma,y)
 =
-r_j\,u(t_j+r_j^2\sigma,x_j+r_jy),
+r_j\,u(t_j+r_j^2\sigma,x_{j,\ell}+r_jy),
 \qquad
-Q_j(\sigma,y)
+Q_{j,\ell}(\sigma,y)
 =
-r_j^2\,p(t_j+r_j^2\sigma,x_j+r_jy).
+r_j^2\,p(t_j+r_j^2\sigma,x_{j,\ell}+r_jy).
 \tag{R3M.11}
 ```
 
-The lower bound \((R3M.9)\) is admitted by
+The lower bound \((R3M.9)\), localized as \((R3M.9a)\), is admitted by
 `R3DuhamelSurvivorToMaterialTowerClock.A`: the dyadic heat kernel localizes the
 response to the backward strip \(t_j-O(r_j^2)<\tau<t_j\), and the inverse
-Duhamel estimate gives a positive same-time nonlinear source/tower record:
+Duhamel estimate gives a positive same-time nonlinear source/tower record on
+the selected exterior packet family:
 
 ```math
+\sum_{\ell\in\mathcal I_j}
 \int_{t_j-Mr_j^2}^{t_j}
 r_j^{-s-1}
-\|P_{\sim r_j^{-1}}(\chi_{\ge R_j/4}u\otimes u)(\tau)\|_{L^2}
+\|\psi_{j,\ell}P_{\sim r_j^{-1}}(\chi_{\ge R_j/4}u\otimes u)(\tau)\|_{L^2}
 \,d\tau
 \ge c\varepsilon_0 .
 \tag{R3M.12}
 ```
 
 The source in \((R3M.12)\) is \(u\otimes u\) from the same smooth preterminal
-Navier--Stokes solution.  After recentering, rescaling, and pulling back by the
-material map, it becomes a tower/nonlinear participation term in the
-\(S\to Q\) coordinate of the same four-body packet.  The finite
+Navier--Stokes solution.  After recentering each selected packet, rescaling,
+and pulling back by the material map, it becomes a tower/nonlinear
+participation term in the \(S\to Q\) coordinate of the same four-body packet
+family.  The finite
 Littlewood--Paley/Bony collar and cutoff commutators are legal residuals in the
 prelimit residual normal form.
 
@@ -196,11 +211,13 @@ Thus a survivor is covered by the full material-clock trichotomy:
 \tag{R3M.13}
 ```
 
-Consequently each retained exterior dyadic survivor carries a fixed positive
-amount of the full same-material clock:
+Consequently each retained exterior dyadic survivor generation carries a fixed
+positive amount of the full same-material clock over its selected packet family:
 
 ```math
-\int_{P_j}d\Omega_N\ge\eta_0>0,
+\sum_{\ell\in\mathcal I_j}
+\int_{P_{j,\ell}}d\Omega_N
+\ge\eta_0>0,
 \tag{R3M.14}
 ```
 
@@ -255,7 +272,8 @@ bounded-overlap subfamilies or as telescoping storage, while nested terminal
 terms carry positive scale gain.  Thus
 
 ```math
-\sum_j\int_{P_j}dR_{4B,N}
+\sum_j\sum_{\ell\in\mathcal I_j}
+\int_{P_{j,\ell}}dR_{4B,N}
 \lesssim
 \int_0^{T_*}\int_{\mathbb R^3}
 \left(
@@ -283,7 +301,8 @@ bound for \(\mathfrak L_{4B,N}\), and then applying
 `SameMaterialDyadicPacketOverlapSelection.A` gives
 
 ```math
-\sum_j\int_{P_j}d\Omega_N<\infty.
+\sum_j\sum_{\ell\in\mathcal I_j}
+\int_{P_{j,\ell}}d\Omega_N<\infty.
 \tag{R3M.18}
 ```
 
@@ -293,7 +312,8 @@ If the exterior nonlinear-source \(H^s\) tail survived, the separated survivor
 family would be infinite, and \((R3M.14)\) would give
 
 ```math
-\sum_j\int_{P_j}d\Omega_N
+\sum_j\sum_{\ell\in\mathcal I_j}
+\int_{P_{j,\ell}}d\Omega_N
 \ge
 \sum_j\eta_0
 =\infty.
