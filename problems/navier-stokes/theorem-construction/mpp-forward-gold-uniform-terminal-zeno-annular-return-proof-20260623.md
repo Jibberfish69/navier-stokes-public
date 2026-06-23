@@ -20,6 +20,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-uniform-later-annular-return-modulus-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-infinite-material-zeno-stress-chain-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-same-material-dyadic-packet-overlap-selection-20260623.md
 ---
 
 # Uniform Terminal-Zeno Annular Return Proof
@@ -294,15 +295,16 @@ Choose a subsequence, still indexed by \(j\), such that
 \tag{UZR.22}
 ```
 
-The corresponding daughter heat-scale packets have bounded overlap in the
-global log-scale packet atlas.  Let \(K\) be the overlap constant.  Then
+Apply `SameMaterialDyadicPacketOverlapSelection.A` to the transported daughter
+annuli.  The count is on the same-material log-scale clock atlas, not on naked
+physical cylinders.  Let \(K\) be the material-atlas overlap constant.  Then
 
 ```math
 \sum_{j=J}^{M}
 \int_{\widetilde P_j}d\Omega_N
 \le
 K
-\int_{\Sigma_J-2}^{\infty}d\Omega_N.
+\int_{\Sigma_J-c_\sigma}^{\infty}d\Omega_N.
 \tag{UZR.23}
 ```
 
@@ -321,7 +323,7 @@ Combining `(UZR.19)` and `(UZR.23)` gives, for \(M>J\),
 (M-J+1)\eta_0
 \le
 K
-\int_{\Sigma_J-2}^{\infty}d\Omega_N.
+\int_{\Sigma_J-c_\sigma}^{\infty}d\Omega_N.
 \tag{UZR.25}
 ```
 
