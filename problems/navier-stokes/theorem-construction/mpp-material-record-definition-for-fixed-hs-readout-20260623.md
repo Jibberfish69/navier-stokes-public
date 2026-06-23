@@ -11,6 +11,7 @@ edge_effect: >-
   Incompressibility gives J=det D_aX=1, so the volume form remains inside the
   pressure-viscosity-incompressibility-velocity packet.
 parents:
+  - problems/navier-stokes/theorem-construction/mpp-material-pressure-tower-same-packet-elliptic-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-material-clock-to-fixed-hs-continuation-readout-20260623.md
 ---
@@ -104,6 +105,10 @@ This is the definition of the material record used in the fixed-\(H^s\)
 readout.  Any theorem spending \(d[\log(1+\mathcal P_N^{mat})]_+\) spends this
 full record.
 
+The pressure tower in `(MRD.3)` is the same-packet pressure/incompressibility
+tower. It is fixed by the pressure equation on the retained material carrier,
+as recorded in `MaterialPressureTowerSamePacketEllipticReadout.A`.
+
 ## 1. The Jacobian is fixed by incompressibility
 
 The material Jacobian
@@ -171,7 +176,28 @@ C_s\!\left(\mathcal P_N^{mat}(t)\right).
 This is exactly the readout used by
 `MaterialClockToFixedHsContinuationReadout.A`.
 
-## 3. The prelimit clock controls this full record
+## 3. The pressure tower is tied to incompressibility
+
+The pulled-back pressure \(q\) is the Lagrange multiplier for
+\(\operatorname{div}_a(Av)=0\). On the periodic packet, after fixing the mean
+of \(q\), the pressure satisfies the material elliptic readout
+
+```math
+\sum_{|\alpha|\le N-1}\|D_a^\alpha q(t)\|_{L^2_a}^2
+\le
+C_N\!\left(\mathcal P_N^{mat}(t)\right),
+\tag{MRD.14}
+```
+
+with constants depending only on the same coefficient/deformation tower and
+ellipticity record already included in \(\mathcal P_N^{mat}\). On localized
+packets, the local pressure part obeys the same elliptic control, while the
+harmonic pressure memory is retained in \(\mathcal P_N^{iface}\).
+
+The pressure tower is a readout of the same pressure-incompressibility
+material packet.
+
+## 4. The prelimit clock controls this full record
 
 The smooth prelimit master balance differentiates the same material system:
 
@@ -181,7 +207,7 @@ The smooth prelimit master balance differentiates the same material system:
 \nu\,\operatorname{div}_a(G\nabla_a v),
 \qquad
 \operatorname{div}_a(Av)=0.
-\tag{MRD.14}
+\tag{MRD.15}
 ```
 
 The velocity tower comes from differentiating \(v\), the pressure tower from
@@ -191,7 +217,7 @@ the pressure/incompressibility current, the coefficient tower from
 \partial_sA=-A(\nabla_a v)A,
 \qquad
 \partial_sG=(\partial_sA)A^\top+A(\partial_sA)^\top,
-\tag{MRD.15}
+\tag{MRD.16}
 ```
 
 and \(F=A^{-1}\) is controlled by the same coefficient tower and ellipticity
@@ -203,10 +229,10 @@ Therefore the clock term
 
 ```math
 d[\log(1+\mathcal P_N^{mat})]_+
-\tag{MRD.16}
+\tag{MRD.17}
 ```
 
 is the positive logarithmic variation of the full continuation-depth material
-record `(MRD.3)`--`(MRD.6)`.  Finite clock mass gives a uniform bound for that
-whole record on the terminal tail, and `(MRD.13)` gives the fixed-coordinate
-\(H^s\) continuation readout.
+record `(MRD.3)`--`(MRD.6)`, with the pressure tower licensed by `(MRD.14)`.
+Finite clock mass gives a uniform bound for that whole record on the terminal
+tail, and `(MRD.13)` gives the fixed-coordinate \(H^s\) continuation readout.
