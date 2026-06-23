@@ -13,6 +13,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-construction-check-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-legal-residual-logscale-summability-correction-20260623.md
 ---
 
 # R3 Duhamel Survivor To Material Tower Clock
@@ -167,7 +168,9 @@ dA_{4B,N}
 ```
 
 with \(dR^0_N\) uniformly summable on bounded-overlap selected exterior
-families.
+families after applying the corrected residual normal form: scale-neutral terms
+are legal only with genuine physical bounded overlap or telescoping storage,
+and nested terminal residuals require positive scale gain.
 
 ## 3. Passage to the relaxed clock
 
