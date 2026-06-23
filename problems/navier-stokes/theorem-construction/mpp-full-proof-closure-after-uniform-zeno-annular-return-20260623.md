@@ -235,7 +235,6 @@ from the energy-class exterior source estimate.  Any remaining tail is a
 high-frequency exterior Duhamel response.  The dyadic heat kernel localizes that
 response to a backward heat-time strip, and that strip forces positive
 same-material nonlinear source/tower clock in the original Navier--Stokes
-history.  Bounded overlap and the prelimit master balance give finite total
 history.  Same-material log-scale packet selection and the prelimit master
 balance give finite total clock mass.  Therefore
 
