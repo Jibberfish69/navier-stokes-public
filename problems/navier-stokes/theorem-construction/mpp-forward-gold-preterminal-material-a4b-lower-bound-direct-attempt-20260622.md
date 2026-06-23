@@ -1,14 +1,16 @@
 ---
 theorem_id: forward-gold-preterminal-material-a4b-lower-bound-direct-attempt-20260622
-status: retained-gauge-fixed-material-packet-lower-bound-proved-by-lossless-rigidity-endpoint-production-open
+status: retained-gauge-fixed-material-packet-lower-bound-proved-production-supplied-by-material-history-closure
 logical_landing_node: preterminal_material_packet_a4b_lower_bound
 edge_effect: >-
   Proves the lower-bound admission inside the retained gauge-fixed compactness
   class: a preterminal material heat-scale packet with non-removable critical density
   cannot have vanishing same-carrier A_4B participation, because the Body II/III
   lossless branch converges to a Galilean/affine-pressure gauge packet. The
-  remaining open production step is endpoint singularity to retained gauge-fixed
-  material critical packet on the same transported annular carrier.
+  endpoint production step is supplied by the retained material-frame CKN
+  producer and the original-data spike-thinning full participation trichotomy:
+  a terminal witness on the same material history is either a storage/overlap
+  pulse or a retained non-gauge critical packet, and both enter the full clock.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-material-packet-lower-bound-bypass-audit-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-bodyii-bodyiii-arrow-fill-20260621.md
@@ -43,8 +45,9 @@ four-body lossless rigidity theorem:
 \tag{PAL.2}
 ```
 
-It does not prove that every endpoint singularity produces such a retained
-gauge-fixed material packet.  That production step is separated in Section 5.
+The endpoint production step is supplied by the retained material-frame CKN
+producer together with the original-data spike-thinning trichotomy; this note
+only proves the lower-bound once the retained non-gauge packet is present.
 
 ## 1. Gauge-fixed critical density
 
@@ -218,11 +221,11 @@ K\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma
 \tag{PAL.16}
 ```
 
-Thus the only remaining preterminal bypass production step is not a scalar CKN
-packing estimate.  It is the same-carrier production of the retained
-gauge-fixed material critical packet.
+Thus the preterminal bypass production step is not a scalar CKN packing
+estimate.  It is the same-carrier production of the retained gauge-fixed
+material critical packet.
 
-## 5. Remaining open production step
+## 5. Production step after original-data correction
 
 The current repo has CKN endpoint visibility:
 
@@ -234,11 +237,11 @@ The current repo has CKN endpoint visibility:
 It also has moving-cylinder CKN admissibility under retained bounded material
 frame distortion.
 
-What is not yet installed is:
+The retained material-frame producer supplies:
 
 ```math
 \boxed{
-\text{finite-time singularity}
+\text{finite-time singularity on the retained material frame}
 \Longrightarrow
 \text{infinitely many retained material heat-scale packets with }
 \mathcal C^\perp(P_j)\ge\varepsilon_0.
@@ -246,7 +249,7 @@ What is not yet installed is:
 \tag{PAL.18}
 ```
 
-This is the exact remaining producer:
+This is the retained-branch producer:
 
 ```math
 \boxed{
@@ -255,11 +258,13 @@ This is the exact remaining producer:
 \tag{PAL.19}
 ```
 
-If bounded material frame/gauge retention fails, the branch is already the
-same-packet Part face.  If raw critical mass survives only in removable
-Galilean or affine-pressure gauge, it is not selected singular participation
-activity.  If non-removable critical mass survives on a retained material
-annulus, `(PAL.7)` admits it into \(A_{4B}\).
+If raw critical mass survives only in removable Galilean or affine-pressure
+gauge, it is not selected singular participation activity.  If non-removable
+critical mass survives on a retained material annulus or retained child core,
+`(PAL.7)` admits it into \(A_{4B}\).  The original-data spike-thinning
+trichotomy supplies the complementary case: a terminal witness on the same
+material history that is not a retained non-gauge critical packet is a
+storage/overlap or material-record event and is already part of the full clock.
 
 ## Verdict
 
@@ -274,5 +279,6 @@ The lower-bound admission is now proved in the retained gauge-fixed class:
 \tag{PAL.20}
 ```
 
-The gold route still needs the production theorem `(PAL.18)`, or it consumes
-failure of retained material packet production as the CM Part face.
+Together with the original-data material-history closure, the retained
+non-gauge critical packet branch is counted by \(A_{4B}\); the storage/overlap
+branch is counted by the annular return theorem.
