@@ -335,47 +335,56 @@ dR^0_{N,m}.
 \tag{PML.21}
 ```
 
-The remaining residuals are lower-order commutators and collar terms satisfying
-the corrected log-scale residual normal form.  Transported cutoffs may reduce a
-single-packet collar residual to
+The remaining residuals are only the lower-order commutators and collar terms
+that satisfy the corrected log-scale residual normal form.  On a nested
+terminal heat-scale family, local \(L^1\) control alone is not a summability
+mechanism.  A residual term may stay on the right side only in one of the
+following three forms.
+
+First, it may have positive scale gain:
 
 ```math
 dR^0_{collar,m}
 \lesssim
+\sum_{\lambda}
+r_m^{\alpha_\lambda}
 \int_{\mathrm{collar}}
-\left(
-|v_m|^2
-+
-|v_m|^3
-+
-|\nabla v_m|^2
-+
-|q_m|^{3/2}
-\right).
+f_{\lambda,m}(x,t)\,dx\,dt,
+\qquad
+\alpha_\lambda>0,
 \tag{PML.22}
 ```
 
-For a nested terminal log-scale family, `(PML.22)` is summable only after one of
-the following is verified:
+where \(f_{\lambda,m}\) is one of the local-energy/pressure densities controlled
+by the original smooth solution, after pullback to the same transported packet.
+The positive factor \(r_m^{\alpha_\lambda}\), not local \(L^1\) control by
+itself, makes the nested log-scale sum finite.
+
+Second, it may telescope through a bounded storage:
 
 ```math
-dR^0_{collar,m}
-\lesssim
-\sum_\lambda
-r_m^{\alpha_\lambda}
-\int_{\mathrm{collar}_m} f_{\lambda}\,dx\,dt
-dB_m^{tel},
-\qquad \alpha_\lambda>0,
+dR^0_{tel,m}\le dB_m^{tel},
+\qquad
+\sum_m\int dB_m^{tel}<\infty.
 \tag{PML.22a}
 ```
 
-or the physical collar family has genuine bounded overlap.  Scale-neutral
-physical \(L^1\) collar terms on nested terminal windows are not legal
-residuals; they must be absorbed into \(d\mathfrak C_{N,m}\) or
+Third, it may live on a genuinely physically bounded-overlap collar family:
+
+```math
+\sum_m{\bf 1}_{\mathrm{collar}_m}(x,t)\le K_{\rm phys}.
+\tag{PML.22b}
+```
+
+Then scale-neutral local \(L^1\) terms are summable by physical bounded overlap.
+Without positive scale gain, telescoping storage, or physical bounded overlap, a
+scale-neutral collar, pressure, strain, selector, interface, or tower term is
+not a legal residual.  It must be absorbed into \(d\mathfrak C_{N,m}\) or
 \(d\mathcal L_{4B,N,m}\) before compactness.
 
-With this corrected residual normal form, local energy, positive scale gain or
-physical bounded overlap, and the local pressure decomposition give
+With this corrected residual normal form, the original local energy bounds,
+positive scale gain or telescoping/physical bounded-overlap structure, and the
+local pressure decomposition give
 
 ```math
 \sup_m\int_{\sigma_0}^{\infty}dR^0_{N,m}<\infty.
