@@ -395,8 +395,9 @@ dN_{label},\quad dN_{sgn},\quad d\Lambda_{collar,N}.
 
 are removed from the retained branch by fixed terminal gauge, absorbed as
 \(C_N\) time/space translations, or recorded as visible selector/collar
-variation. The remaining PDE installation is therefore the bounded-below
-instantaneous construction of the four exchange cross-terms.
+variation. This leaves the same-material simultaneous coercivity installation:
+the derivative of the full packet must control activity, record growth, loss,
+and all named interface defects in one envelope.
 
 The bounded-below \(X\)-term direct attempt makes this construction precise.
 One must construct a positive full-packet symmetrizer
@@ -438,11 +439,49 @@ The retained frozen-family compactness/lsc solution upgrades the kernel theorem
 to finite-time frozen observability on the retained quotient.  The direct
 Gramian-to-\(X\)-term test shows that finite-time observability alone leaves a
 positive endpoint readout.  The no-return test shows that same-packet
-no-return is not independent of the cross-term construction.  The direct
-simultaneous \(X\)-term attempt sharpens the active internal face to exact
-material exchange concomitance:
+no-return is not independent of the simultaneous coercivity construction.  The
+direct simultaneous \(X\)-term attempt first sharpened the active internal face
+to exact material exchange concomitance:
 
 ```math
 \texttt{ExactMaterialFourBodyExchangeConcomitant.A}.
 \tag{SMC.32}
 ```
+
+The subsequent interface audit corrects that face.  \(Q\to C\), \(C\to G\),
+and \(G\to S\) are retained exact-current-or-defect criteria, not detached
+residual-mismatch \(X\)-primitive problems.  Their failures are named packet
+defects and have the envelope
+
+```math
+dK_{\rm orient}^+
+\le
+d\mathcal K_{\rm iface}
++dD_S^{rad}
++dD_Q^w
++dR_{\rm legal}.
+\tag{SMC.33}
+```
+
+Thus the live PDE installation is now:
+
+```math
+\boxed{
+\texttt{SamePacketInterfaceDefectSummabilityOrStrictLoss.A}
+}
+\tag{SMC.34}
+```
+
+inside
+
+```math
+\boxed{
+\texttt{SimultaneousMaterialFourBodyPacketCoercivity.A}.
+}
+\tag{SMC.35}
+```
+
+The retained currents already match.  The remaining gold work is proving that
+every failure of those retained current criteria is still a same-material
+four-body loss/residual with finite terminal mass, not a hidden external
+account.
