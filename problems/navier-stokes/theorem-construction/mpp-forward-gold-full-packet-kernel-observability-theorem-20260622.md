@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-full-packet-kernel-observability-theorem-20260622
-status: static-kernel-theorem-proved-dynamic-observability-conditional-on-retained-frozen-family-compactness-lsc
+status: static-kernel-theorem-proved-retained-frozen-finite-time-observability-solved-gramian-to-xterm-open
 logical_landing_node: full_packet_observability_gap
 edge_effect: >-
   Installs the kernel formulation for the full-packet observability gap. The
@@ -9,15 +9,17 @@ edge_effect: >-
   vanishes, each nonnegative coordinate loss vanishes, and the
   velocity-pressure-tower-geometry-selector packet is forced into the harmless
   gauge subspace G. Thus ker L_4B,N=G on the retained quotient and selected
-  non-gauge activity vanishes. The dynamic frozen observability estimate
-  follows by contradiction provided the retained frozen evolution family has
-  same-packet compactness and lower semicontinuity for the full readout. The
-  remaining analytic clause is exactly that retained frozen-family
-  compactness/lsc, not a component estimate and not a separate supplier.
+  non-gauge activity vanishes. The retained frozen-family compactness/lsc
+  solution then gives finite-time frozen observability by compactness
+  contradiction on the retained quotient. The remaining internal algebraic
+  clause is converting that finite-time observable Gramian into the
+  bounded-below instantaneous X-term symmetrizer without leaving the same
+  material packet.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-packet-observability-gap-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-below-xterm-symmetrizer-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-material-a4b-lower-bound-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-frozen-family-compactness-lsc-solution-20260622.md
 ---
 
 # Full-Packet Kernel Observability Theorem
@@ -296,9 +298,9 @@ c\,
 \tag{KOT.25}
 ```
 
-This follows from `(KOT.21)` by the standard compactness-contradiction
-argument once the retained frozen family has compactness and lower
-semicontinuity.
+This follows from `(KOT.21)` by the retained compactness-contradiction
+argument installed in
+`mpp-forward-gold-retained-frozen-family-compactness-lsc-solution-20260622.md`.
 
 Assume `(KOT.25)` fails.  Then there are retained frozen operators
 \(\mathcal L_{\sigma_n}\) and quotient-normalized data \(Z_n\) such that
@@ -317,8 +319,8 @@ while
 \tag{KOT.27}
 ```
 
-If the retained frozen-family compactness/lsc clause holds, then after passing
-to a subsequence,
+The retained frozen-family compactness/lsc solution gives, after passing to a
+subsequence,
 
 ```math
 e^{t\mathcal L_{\sigma_n}}Z_n
@@ -347,8 +349,7 @@ Thus \(Z_\ast(0)\in\mathcal G\).  Quotient compactness preserves the
 normalization in `(KOT.26)`, so \(Z_\ast(0)\) is nonzero in
 \(\mathcal H_N/\mathcal G\).  This is a contradiction.
 
-Therefore `(KOT.25)` is proved once the retained frozen evolution family has
-same-packet compactness and lower semicontinuity for \(\mathcal W_\sigma\).
+Therefore `(KOT.25)` is proved on the retained compact quotient.
 
 ## 6. Landing
 
@@ -361,21 +362,17 @@ This installs the exact kernel theorem:
 \tag{KOT.31}
 ```
 
-It also identifies the remaining dynamic clause without breaking the one-fluid
-packet:
+The dynamic compactness/lsc clause is now installed on the retained compact
+quotient.  The remaining algebraic clause is:
 
 ```math
 \boxed{
-\texttt{RetainedFrozenFamilyCompactnessLsc.A}
+\texttt{ObservableFrozenGramianToInstantaneousXTerm.A}
 }
 \tag{KOT.32}
 ```
 
-with content: the frozen same-packet evolutions \(e^{t\mathcal L_\sigma}Z\)
-are compact on the retained quotient, and the full readout
-\(\mathcal W_\sigma\) is lower semicontinuous along that retained frozen
-family.
-
-That is the remaining analytic face of the \(X\)-term symmetrizer.  It is not a
-component estimate, not a new supplier, and not detached from the material
+with content: convert the finite-time observable Gramian into the
+bounded-below instantaneous \(X\)-term symmetrizer whose derivative gives the
+simultaneous four-body inequality.  It is still inside the same material
 participation law.
