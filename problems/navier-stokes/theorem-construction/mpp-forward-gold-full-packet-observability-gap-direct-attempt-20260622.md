@@ -1,25 +1,23 @@
 ---
 theorem_id: forward-gold-full-packet-observability-gap-direct-attempt-20260622
-status: static-gap-proved-on-retained-quotient-dynamic-frozen-evolution-observability-open
+status: superseded-by-kernel-theorem-static-kernel-proved-dynamic-frozen-family-compactness-lsc-open
 logical_landing_node: full_packet_observability_gap
 edge_effect: >-
-  Attacks FullPacketObservabilityGap.A, the remaining internal face needed to
-  construct the bounded-below X-term symmetrizer. The static quotient gap is
-  proved from the installed compactness-rigidity principle and the retained
-  gauge-fixed material packet lower-bound theorem: on the compact retained
-  same-packet quotient, nonzero selected non-gauge activity forces positive
-  full four-body loss. That proves no lossless non-gauge packet. It does not by
-  itself construct the Lyapunov/Kawashima H_sigma for the sigma-evolution,
-  because H_sigma requires observability along the frozen mixed material
-  evolution e^{tL_sigma}. The remaining internal face is therefore
-  FrozenFullPacketKawashimaObservability.A: every non-gauge initial packet must
-  produce a positive amount of full four-body loss along the frozen same-packet
-  evolution, uniformly on the retained tail.
+  This direct attempt is superseded by the explicit kernel theorem
+  mpp-forward-gold-full-packet-kernel-observability-theorem-20260622.md. The
+  static quotient gap has been sharpened to ker L_4B,N=G for the whole retained
+  material packet: zero full loss forces the packet into harmless gauge and
+  selected non-gauge activity vanishes. The dynamic frozen observability needed
+  for the Lyapunov/Kawashima H_sigma follows by compactness contradiction once
+  the retained frozen evolution family has same-packet compactness and lower
+  semicontinuity for the full readout W_sigma. The remaining internal face is
+  now RetainedFrozenFamilyCompactnessLsc.A.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-below-xterm-symmetrizer-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-compactness-rigidity-coercivity-principle-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-material-a4b-lower-bound-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-c-coordinate-realization-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-packet-kernel-observability-theorem-20260622.md
 ---
 
 # Full-Packet Observability Gap Direct Attempt
@@ -182,7 +180,7 @@ tail.  Here
 \mathcal W_\sigma
 =
 A_{4B,N}+D_{4B,N}
-d[\log(1+\mathcal P_N^{mat})]_+/d\sigma
++d[\log(1+\mathcal P_N^{mat})]_+/d\sigma
 \tag{FOG.13}
 ```
 
