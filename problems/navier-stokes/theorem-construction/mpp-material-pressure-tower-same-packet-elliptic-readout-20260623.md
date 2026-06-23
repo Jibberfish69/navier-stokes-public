@@ -63,19 +63,46 @@ On \(T^3\), fix the pressure gauge by
 \tag{MPR.3}
 ```
 
-Taking the divergence constraint derivative of `(MPR.2)` gives a variable
-coefficient elliptic equation for \(q\). Schematically,
+Pull back the Eulerian pressure equation through \(x=X(a,t)\). Since
 
 ```math
--\operatorname{div}_a(AA^\top\nabla_a q)
+\nabla_x
 =
-\mathcal E_p(v,A,G,\nabla_a v,\nabla_a A,\nabla_a G),
+A^\top\nabla_a,
+\qquad
+\Delta_x p\circ X
+=
+\operatorname{div}_a(G\nabla_aq),
 \tag{MPR.4}
 ```
 
-where \(\mathcal E_p\) is a finite sum of products made only from the same
-velocity and coefficient towers. In fixed Eulerian variables this is the usual
-pressure identity
+and
+
+```math
+\partial_{x_i}u_j\circ X
+=
+A_{\ell i}\partial_{a_\ell}v_j,
+\tag{MPR.5}
+```
+
+the Eulerian identity \(-\Delta_xp=\partial_i u_j\,\partial_j u_i\) becomes
+
+```math
+-\partial_{a_\ell}
+\left(
+G_{\ell k}\partial_{a_k}q
+\right)
+=
+A_{\ell i}A_{k j}
+(\partial_{a_\ell}v_j)
+(\partial_{a_k}v_i).
+\tag{MPR.6}
+```
+
+This is the exact material pressure equation. It uses only the same velocity
+gradient and coefficient fields \(A,G\) carried by the material packet.
+
+Equivalently, before pullback, the pressure identity is
 
 ```math
 -\Delta_x p
@@ -83,10 +110,10 @@ pressure identity
 \partial_i\partial_j(u_i u_j)
 =
 \partial_i u_j\,\partial_j u_i
-\tag{MPR.5}
+\tag{MPR.7}
 ```
 
-for divergence-free \(u\), pulled back by \(x=X(a,t)\).
+for divergence-free \(u\).
 
 For every \(N\) used in the continuation readout, elliptic estimates on the
 uniformly controlled material chart give
@@ -95,21 +122,26 @@ uniformly controlled material chart give
 \sum_{|\alpha|\le N-1}\|D_a^\alpha q(t)\|_{L^2_a}
 \le
 C_N\!\left(
-\|A(t)\|_{W^{N,\infty}_a},
-\|A^{-1}(t)\|_{L^\infty_a}
+\lambda(t)^{-1},
+\|G(t)\|_{W^{N-1,\infty}_a}
 \right)
-\mathcal E_N^{p}(v,A,G)(t),
-\tag{MPR.6}
+\left\|
+A_{\ell i}A_{k j}
+(\partial_{a_\ell}v_j)
+(\partial_{a_k}v_i)
+\right\|_{H^{N-3}_a},
+\tag{MPR.8}
 ```
 
-where \(\mathcal E_N^{p}\) is a polynomial in the same finite-depth velocity
-and coefficient norms already included in \(\mathcal P_N^{mat}\). Hence
+where \(N\ge3\) and \(\lambda(t)>0\) is the ellipticity lower bound of
+\(G(t)\). The right side is bounded by a polynomial in the same finite-depth
+velocity and coefficient norms included in \(\mathcal P_N^{mat}\). Hence
 
 ```math
 \sum_{|\alpha|\le N-1}\|D_a^\alpha q(t)\|_{L^2_a}^2
 \le
 C_N\!\left(\mathcal P_N^{mat}(t)\right).
-\tag{MPR.7}
+\tag{MPR.9}
 ```
 
 ## 2. Local pressure and harmonic memory
@@ -118,10 +150,10 @@ On a localized annular or compact-core packet, write the pressure as
 
 ```math
 q=q^{loc}+q^H .
-\tag{MPR.8}
+\tag{MPR.10}
 ```
 
-The local part satisfies the same elliptic estimate as `(MPR.6)` on the
+The local part satisfies the same elliptic estimate as `(MPR.8)` on the
 selected material chart, with constants depending on the retained ellipticity
 and collar geometry. The harmonic part is the pressure memory/collar component
 of the same interface-current record:
@@ -132,7 +164,7 @@ q^H
 \mathcal P_N^{iface}
 \quad\text{and}\quad
 dA_{4B,N}.
-\tag{MPR.9}
+\tag{MPR.11}
 ```
 
 ## 3. Consequence for the material record
@@ -149,16 +181,16 @@ The pressure component in
 \text{coefficient/deformation tower}
 +
 \text{collar/interface record}
-\tag{MPR.10}
+\tag{MPR.12}
 ```
 
-is licensed by `(MPR.2)`--`(MPR.9)`. Any positive growth of the pressure tower
+is licensed by `(MPR.2)`--`(MPR.11)`. Any positive growth of the pressure tower
 is positive growth of the same material pressure-incompressibility record, and
 is therefore spent by
 
 ```math
 d[\log(1+\mathcal P_N^{mat})]_+ .
-\tag{MPR.11}
+\tag{MPR.13}
 ```
 
 This is the pressure exactness needed by the fixed-\(H^s\) readout bridge.
