@@ -243,9 +243,17 @@ summable:
 ```
 
 The finiteness follows from the energy inequality,
-\(u\in L^{10/3}_{t,x}\), and
-\(p\in L^{5/3}_{t,x}\).  Lower-order exterior tails are also uniformly tight
-by the installed \(L^2\) exterior-tail theorem.  Therefore
+\(u\in L^4_tL^3_x\), and the pressure representation
+\(-\Delta p=\partial_i\partial_j(u_i u_j)\).  The Riesz transform bound gives
+\(\|p(t)\|_{L^{3/2}_x}\lesssim \|u(t)\|_{L^3_x}^2\), hence
+\[
+\int_0^{T_*}\|p(t)\|_{L^{3/2}_x}^{3/2}\,dt
+\lesssim
+\int_0^{T_*}\|u(t)\|_{L^3_x}^3\,dt
+<\infty.
+\]
+Lower-order exterior tails are also uniformly tight by the installed \(L^2\)
+exterior-tail theorem.  Therefore
 
 ```math
 \sum_j\int_{P_j}d\Omega_N<\infty.
