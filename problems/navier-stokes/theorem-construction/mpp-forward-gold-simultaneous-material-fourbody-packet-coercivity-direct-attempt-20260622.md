@@ -432,11 +432,12 @@ static kernel part is now installed as
 ```
 
 The retained frozen-family compactness/lsc solution upgrades the kernel theorem
-to finite-time frozen observability on the retained quotient.  The active
-internal face is now the algebraic conversion from that observable Gramian to
-the instantaneous bounded-below \(X\)-term symmetrizer:
+to finite-time frozen observability on the retained quotient.  The direct
+Gramian-to-\(X\)-term test shows that finite-time observability alone leaves a
+positive endpoint readout.  The active internal face is now the same-packet
+no-return law:
 
 ```math
-\texttt{ObservableFrozenGramianToInstantaneousXTerm.A}.
+\texttt{FrozenFullPacketDissipativeNoReturn.A}.
 \tag{SMC.32}
 ```
