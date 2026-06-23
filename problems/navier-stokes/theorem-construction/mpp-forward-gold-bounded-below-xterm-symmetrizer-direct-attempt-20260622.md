@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-bounded-below-xterm-symmetrizer-direct-attempt-20260622
-status: static-observability-gap-proved-dynamic-frozen-kawashima-observability-open
+status: kernel-observability-installed-retained-frozen-family-compactness-lsc-open
 logical_landing_node: bounded_below_instantaneous_xterm_symmetrizer
 edge_effect: >-
   Attacks the last live installation inside
@@ -11,16 +11,19 @@ edge_effect: >-
   inequality is the Lyapunov/Kawashima inequality
   d_sigma H+H L+L^*H <= -c A_4B,N-D_4B,N-c dlog(1+P_N^mat)+R. The construction
   is noncircular if the quotient mixed material packet has a dynamic frozen
-  observability gap. The static retained quotient gap is now proved: non-gauge
-  selected activity forces positive full four-body loss. The remaining internal
-  face is the dynamic frozen/evolution-family version,
-  FrozenFullPacketKawashimaObservability.A.
+  observability gap. The static gap has been sharpened into the full-packet
+  kernel theorem ker L_4B,N=G: zero full loss forces harmless gauge and selected
+  non-gauge activity vanishes. The remaining internal face is
+  RetainedFrozenFamilyCompactnessLsc.A, the compactness/lower-semicontinuity
+  clause needed to pass from that static kernel theorem to frozen-evolution
+  observability.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-material-fourbody-packet-coercivity-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-fourbody-symmetrizer-construction-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-crossscale-material-atlas-fixed-terminal-gauge-solution-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-compactness-rigidity-coercivity-principle-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-packet-observability-gap-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-packet-kernel-observability-theorem-20260622.md
 ---
 
 # Bounded-Below \(X\)-Term Symmetrizer Direct Attempt
@@ -185,7 +188,7 @@ for every non-gauge \(Z\), where
 \mathcal W_\sigma
 \simeq
 A_{4B,N}+D_{4B,N}
-d[\log(1+\mathcal P_N^{mat})]_+/d\sigma,
++d[\log(1+\mathcal P_N^{mat})]_+/d\sigma,
 \tag{BXS.11}
 ```
 
@@ -208,19 +211,21 @@ This is the right construction because boundedness of \(H_\sigma\) is supplied
 by a uniform observability gap, not by integrating the unknown exchange
 mismatch along the terminal tail.
 
-## 4. The exact observability gap
+## 4. The exact kernel/observability gap
 
-The needed gap is:
+The static gap is the kernel theorem for the whole packet:
 
 ```math
 \boxed{
-\text{No non-gauge retained mixed material packet has unit selected}
-\ A_{4B,N}\text{ activity and zero full four-body loss.}
+\ker\mathcal L_{4B,N}=\mathcal G.
 }
 \tag{BXS.13}
 ```
 
-Equivalently, for the gauge quotient,
+Equivalently, zero full four-body loss forces the retained material packet into
+Galilean/affine-pressure gauge, together with any rigid motion modes explicitly
+quotiented by the retained geometry gauge.  Selected singular activity
+annihilates that gauge.  Thus, on the gauge quotient,
 
 ```math
 \|\mathfrak U_N\|_{\mathcal H_N}=1
@@ -231,13 +236,11 @@ Equivalently, for the gauge quotient,
 
 uniformly on the retained terminal tail.
 
-The compactness-rigidity mechanism is exactly suited to prove `(BXS.13)`.
-Assume `(BXS.14)` fails.  Then there are retained packets with normalized
-activity but vanishing full loss.  The mixed \(C_N\) no-loss coordinate gives
-same-packet compactness.  Passing to the limit gives an exact lossless
-material packet.  The lossless rigidity theorem reduces that limit to a
-Galilean/affine-pressure gauge.  The selected singular activity vanishes on
-that gauge, contradicting the normalization.
+The full-packet kernel theorem is installed in
+`mpp-forward-gold-full-packet-kernel-observability-theorem-20260622.md`.  It
+uses the intersection of the nonnegative losses
+\(D_S^{rad},D_Q^{vis},K_C^+,K_G^+,K_{\rm sel},R_{\rm legal}\): if all vanish,
+the packet is harmless gauge.
 
 So the final symmetrizer construction reduces to making this compactness-
 rigidity argument uniform for the frozen/evolution-family operators
@@ -252,13 +255,16 @@ criterion:
 
 ```math
 \boxed{
-\texttt{FullPacketObservabilityGap.A}
+\texttt{RetainedFrozenFamilyCompactnessLsc.A}
 }
 \tag{BXS.15}
 ```
 
-with content `(BXS.13)`--`(BXS.14)`, plus the standard Lyapunov/Kawashima
-construction `(BXS.12)` on the gauge quotient.
+with content: the retained frozen evolutions \(e^{t\mathcal L_\sigma}Z\) are
+compact on the same-packet quotient, and \(\mathcal W_\sigma\) is lower
+semicontinuous along that retained frozen family.  Together with
+\(\ker\mathcal L_{4B,N}=\mathcal G\), this gives the standard
+Lyapunov/Kawashima construction `(BXS.12)` on the gauge quotient.
 
 Once `(BXS.15)` is installed, the off-diagonal blocks of \(H_\sigma\) give
 
