@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-full-packet-kernel-observability-theorem-20260622
-status: static-kernel-theorem-proved-retained-frozen-observability-solved-semigroup-route-demoted-direct-xterm-open
+status: static-kernel-theorem-proved-retained-frozen-observability-solved-semigroup-route-demoted-exact-concomitant-open
 logical_landing_node: full_packet_observability_gap
 edge_effect: >-
   Installs the kernel formulation for the full-packet observability gap. The
@@ -12,9 +12,9 @@ edge_effect: >-
   non-gauge activity vanishes. The retained frozen-family compactness/lsc
   solution then gives finite-time frozen observability by compactness
   contradiction on the retained quotient. The Gramian-to-X-term and no-return
-  direct tests demote the semigroup route: the remaining internal algebraic
-  clause is the direct simultaneous construction of X_SQ, X_QC, X_CG, X_GS from
-  the same material participation law.
+  direct tests demote the semigroup route: the direct simultaneous X-term
+  attempt reduces the remaining internal algebraic clause to exactness of the
+  material four-body exchange concomitant.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-packet-observability-gap-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-below-xterm-symmetrizer-direct-attempt-20260622.md
@@ -367,16 +367,17 @@ This installs the exact kernel theorem:
 The dynamic compactness/lsc clause is installed on the retained compact
 quotient.  The semigroup/Gramian route has been tested and demoted: finite-time
 observability leaves a positive endpoint term, and no-return is not available
-as an independent supplier from current inputs.  The remaining algebraic clause
-is:
+as an independent supplier from current inputs.  The direct simultaneous
+\(X\)-term attempt reduces the remaining algebraic clause to:
 
 ```math
 \boxed{
-\texttt{DirectSimultaneousMaterialFourBodyXTermIdentity.A}
+\texttt{ExactMaterialFourBodyExchangeConcomitant.A}
 }
 \tag{KOT.32}
 ```
 
-with content: construct \(X_{SQ},X_{QC},X_{CG},X_{GS}\) directly from the
-simultaneous material participation law.  The kernel theorem remains the
-zero-loss rigidity check for that construction.
+with content: construct \(X_{SQ},X_{QC},X_{CG},X_{GS}\) as bounded
+instantaneous same-packet concomitants whose derivatives cancel adjacent
+exchange mismatch modulo strict loss and same-packet residual.  The kernel
+theorem remains the zero-loss rigidity check for that construction.
