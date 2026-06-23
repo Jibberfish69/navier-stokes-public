@@ -417,8 +417,7 @@ Label/sign/collar/selector variation is handled by selector-collar
 stabilization as visible packet variation or eventual stabilization.
 
 Thus the retained-branch \(C_N\)-face is fixed enough for \(d_\sigma L_C\). The
-only remaining \(C_N\)-related terms are the visible/stabilized variation
-recorded by
+previous modulation list
 
 ```math
 r_\sigma^{-1}\dot x_\sigma,\quad
@@ -427,5 +426,8 @@ dN_{label},\quad dN_{sgn},\quad d\Lambda_{collar,N}.
 \tag{SYM.29}
 ```
 
-after translating them into the fixed terminal gauge. The live construction is
+is not a retained-branch obstruction after gauge fixing.  The first two terms
+vanish in fixed terminal gauge; bounded moving-packet offsets are \(C_N\)
+translations; unbounded offsets are loss of the retained atlas; and the label,
+sign, and collar terms are visible or stabilized.  The live construction is
 therefore the bounded-below instantaneous \(X\)-term symmetrizer.
