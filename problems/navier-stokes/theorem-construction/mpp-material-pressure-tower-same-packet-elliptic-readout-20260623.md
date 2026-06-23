@@ -76,7 +76,8 @@ A^\top\nabla_a,
 \tag{MPR.4}
 ```
 
-and
+where the second identity is the \(J=1\) Piola pullback of the scalar
+Laplacian, and since
 
 ```math
 \partial_{x_i}u_j\circ X
