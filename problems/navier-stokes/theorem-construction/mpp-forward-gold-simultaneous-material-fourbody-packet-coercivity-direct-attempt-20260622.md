@@ -394,3 +394,34 @@ are removed from the retained branch by fixed terminal gauge, absorbed as
 \(C_N\) time/space translations, or recorded as visible selector/collar
 variation. The remaining PDE installation is therefore the bounded-below
 instantaneous construction of the four exchange cross-terms.
+
+The bounded-below \(X\)-term direct attempt makes this construction precise.
+One must construct a positive full-packet symmetrizer
+
+```math
+\mathfrak L_{4B,N}
+=
+\langle \mathfrak U_N,H_\sigma\mathfrak U_N\rangle,
+\qquad
+H_\sigma=I+K_\sigma,
+\tag{SMC.29}
+```
+
+where \(K_\sigma\) is off-diagonal in the four-coordinate decomposition.  The
+needed derivative inequality is
+
+```math
+\partial_\sigma H_\sigma
++H_\sigma\mathcal L_\sigma
++\mathcal L_\sigma^\ast H_\sigma
+\le
+-c\,A_{4B,N}
+-D_{4B,N}
+-c\,d[\log(1+\mathcal P_N^{mat})]_+/d\sigma
++R_{4B,N}.
+\tag{SMC.30}
+```
+
+This construction is noncircular exactly when the retained mixed material
+packet has a uniform full-packet observability gap on the gauge quotient.
+That gap is now the active internal face of the simultaneous packet theorem.
