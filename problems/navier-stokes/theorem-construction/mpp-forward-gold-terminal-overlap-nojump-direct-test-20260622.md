@@ -429,18 +429,16 @@ which is exactly `TerminalOverlapNoJump.A`.
 
 The smoothness route is consequently precise.  A finite-time singularity must
 leave terminal selected activity.  The spatial coercivity branch removes hidden
-point-object concentration.  The remaining last-time pulse is killed if its
-center projection is restored to the outer-annulus stress/strain carrier,
-because a positive-thickness smooth annular carrier cannot be a zero-thickness
-endpoint atom.
+point-object concentration.  The remaining last-time pulse is read on the same
+spike-annulus material history, where the later outer-annulus stress/strain
+return has positive heat-time thickness.
 
-Thus the remaining production statement is not a search for a detached
-endpoint \(L^q_s\) estimate.  It is the same-fluid carrier restoration:
+Thus the production statement is the same-fluid material-history reading:
 
 ```math
-\text{center/time overlap projection}
+\text{center/time overlap}
 \le
-\text{outer-annulus stress/strain carrier of the same spike event}.
+\text{outer-annulus stress/strain history of the same spike event}.
 \tag{TON.26}
 ```
 
