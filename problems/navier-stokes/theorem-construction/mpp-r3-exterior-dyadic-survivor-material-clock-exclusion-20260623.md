@@ -19,6 +19,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-r3-exterior-source-dyadic-escape-cm-face-20260607.md
   - problems/navier-stokes/theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md
   - problems/navier-stokes/theorem-construction/mpp-r3-exterior-l2-tightness-no-tail-face.md
+  - problems/navier-stokes/theorem-construction/mpp-r3-duhamel-survivor-to-material-tower-clock-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-original-smooth-data-material-history-no-finite-breakdown-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
 ---
@@ -123,7 +124,7 @@ On bounded frequency, heat/Leray maps this source into
 \(L^\infty_tL^2_x\), and Bernstein gives the \(H^s\) bound.  Hence a surviving
 tail is necessarily high-frequency.
 
-## 3. A survivor is a heat-scale material packet
+## 3. A survivor enters the heat-scale material tower clock
 
 From \((R3M.5)\) and \((R3M.6)\), there are radii \(R_j\to\infty\), times
 \(t_j<T_*\), centers \(x_j\) in the exterior region, and dyadic frequencies
@@ -156,14 +157,29 @@ r_j^2\,p(t_j+r_j^2\sigma,x_j+r_jy).
 \tag{R3M.11}
 ```
 
-The Navier--Stokes equations are translation invariant and scale invariant in
-these variables.  Since \(t_j<T_*\), every packet in \((R3M.11)\) comes from a
-smooth preterminal material flow.  The packet may be far out in physical space,
-but it is not a different object: it is the same original fluid history read
-near \((x_j,t_j)\).
+The lower bound \((R3M.9)\) is a Duhamel-response lower bound, so it is not
+treated as an already-large CKN velocity packet.  Apply
+`R3DuhamelSurvivorToMaterialTowerClock.A`: the dyadic heat kernel localizes the
+response to the backward strip \(t_j-O(r_j^2)<\tau<t_j\), and the inverse
+Duhamel estimate gives a positive same-time nonlinear source/tower record:
 
-The lower bound \((R3M.9)\) gives a non-gauge selected heat-scale packet.  It
-is therefore covered by the original-data spike-thinning trichotomy:
+```math
+\int_{t_j-Mr_j^2}^{t_j}
+r_j^{-s-1}
+\|P_{\sim r_j^{-1}}(\chi_{\ge R_j/4}u\otimes u)(\tau)\|_{L^2}
+\,d\tau
+\ge c\varepsilon_0 .
+\tag{R3M.12}
+```
+
+The source in \((R3M.12)\) is \(u\otimes u\) from the same smooth preterminal
+Navier--Stokes solution.  After recentering, rescaling, and pulling back by the
+material map, it becomes a tower/nonlinear participation term in the
+\(S\to Q\) coordinate of the same four-body packet.  The finite
+Littlewood--Paley/Bony collar and cutoff commutators are legal residuals in the
+prelimit residual normal form.
+
+Thus a survivor is covered by the full material-clock trichotomy:
 
 ```math
 \begin{array}{ll}
@@ -171,10 +187,10 @@ is therefore covered by the original-data spike-thinning trichotomy:
 &\leadsto C_{\log}d[\log(1+\mathcal P_N^{mat})]_+,\\[1mm]
 \text{material selection/interface change}
 &\leadsto d\mathcal K_{\rm iface}+d\mathcal L_{4B,N},\\[1mm]
-\text{same-material storage/stress-work change}
+\text{same-material nonlinear source/tower or storage/stress-work change}
 &\leadsto dA_{4B,N}+d\mathcal L_{4B,N}.
 \end{array}
-\tag{R3M.12}
+\tag{R3M.13}
 ```
 
 Consequently each retained exterior dyadic survivor carries a fixed positive
@@ -182,7 +198,7 @@ amount of the full same-material clock:
 
 ```math
 \int_{P_j}d\Omega_N\ge\eta_0>0,
-\tag{R3M.13}
+\tag{R3M.14}
 ```
 
 where
@@ -197,13 +213,14 @@ C_{\log}d[\log(1+\mathcal P_N^{mat})]_+
 d\mathcal K_{\rm iface}
 +
 d\mathcal L_{4B,N}.
-\tag{R3M.14}
+\tag{R3M.15}
 ```
 
 The terminal storage/overlap subcase is controlled by the uniform annular-return
-modulus, and the retained non-gauge critical-packet subcase is controlled by
-the \(A_{4B}\) lower-bound theorem.  Thus \((R3M.13)\) is the same packet-counting
-output as in the periodic material-history closure.
+modulus.  The high-frequency exterior Duhamel subcase is controlled by the
+material tower/source bridge above.  Thus \((R3M.14)\) is the same packet-counting
+output as in the periodic material-history closure, but without routing the
+Duhamel response through a center-only or CKN-packet projection.
 
 ## 4. The selected exterior family has finite full clock
 
@@ -225,7 +242,7 @@ d\mathcal K_{\rm iface}
 d\mathcal L_{4B,N}
 \le
 dR_{4B,N}.
-\tag{R3M.15}
+\tag{R3M.16}
 ```
 
 On the selected exterior bounded-overlap family, the residual normal form is
@@ -239,7 +256,7 @@ summable:
 |u|^2+|u|^3+|\nabla u|^2+|p|^{3/2}
 \right)\,dx\,dt
 <\infty.
-\tag{R3M.16}
+\tag{R3M.17}
 ```
 
 The finiteness follows from the energy inequality,
@@ -257,33 +274,33 @@ exterior-tail theorem.  Therefore
 
 ```math
 \sum_j\int_{P_j}d\Omega_N<\infty.
-\tag{R3M.17}
+\tag{R3M.18}
 ```
 
 ## 5. Contradiction
 
 If the exterior nonlinear-source \(H^s\) tail survived, the separated survivor
-family would be infinite, and \((R3M.13)\) would give
+family would be infinite, and \((R3M.14)\) would give
 
 ```math
 \sum_j\int_{P_j}d\Omega_N
 \ge
 \sum_j\eta_0
 =\infty.
-\tag{R3M.18}
+\tag{R3M.19}
 ```
 
-This contradicts \((R3M.17)\).  Hence the exterior nonlinear-source tail
+This contradicts \((R3M.18)\).  Hence the exterior nonlinear-source tail
 vanishes:
 
 ```math
 \lim_{R\to\infty}
 \sup_{t<T_*}\|W_R(t)\|_{H^s}=0.
-\tag{R3M.19}
+\tag{R3M.20}
 ```
 
 Combining \((R3M.3)\), the compact-core far-kernel tail estimate, and
-\((R3M.19)\) proves \(Tail.Hs_{\mathbb R^3}\).
+\((R3M.20)\) proves \(Tail.Hs_{\mathbb R^3}\).
 
 ## 6. Whole-space continuation
 
@@ -291,7 +308,7 @@ The whole-space continuation bridge from the R3 tail package now has its input:
 
 ```math
 Tail.Hs_{\mathbb R^3}.
-\tag{R3M.20}
+\tag{R3M.21}
 ```
 
 Together with compact-core tower bounds from the material-history closure, this
@@ -300,7 +317,7 @@ gives
 ```math
 \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb R^3)}<\infty,
 \qquad s>5/2.
-\tag{R3M.21}
+\tag{R3M.22}
 ```
 
 Whole-space \(H^s\) local theory relaunches the same solution past \(T_*\),
