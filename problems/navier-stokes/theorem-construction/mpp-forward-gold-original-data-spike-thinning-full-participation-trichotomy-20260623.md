@@ -134,9 +134,21 @@ Because the flow is incompressible,
 \tag{STP.11}
 ```
 
-The high-amplitude set allowed by `(STP.8)` has shrunk by at least a factor
-comparable to \(4\) across a height doubling.  Therefore the selected spike
-record must realize one of the following three events.
+Across a height doubling, the energy-compatible high-amplitude volume scale
+drops by at least a factor \(4\):
+
+```math
+\frac{E_0}{\theta^2H(t_{j+1})^2}
+\le
+\frac{1}{4}\,
+\frac{E_0}{\theta^2H(t_j)^2}.
+\tag{STP.11a}
+```
+
+This is a statement about the permitted volume scale, not a claim that the
+actual active set has already been identified.  Compare the transported
+selected material packet at \(t_{j+1}\) with the high-amplitude part that it is
+supposed to carry.  Exactly one of the following happens.
 
 First, the same material packet remains selected but changes shape: transverse
 width, collar thickness, or material separation thins while another direction
@@ -165,10 +177,11 @@ If the relevant material length ratio changes by \(\Lambda\), then
 
 In particular, dyadic thinning spends at least a fixed strain-clock quantum.
 
-Second, the selected active material does not remain the same packet.  Then the
-terminal spike is being carried by packet switching, selector/collar drift, or
-interface replacement.  In the full four-body packet this is not free; it is
-recorded by the selector/collar/interface part of the same clock:
+Second, the selected active material at \(t_{j+1}\) is not the transported
+image of the selected material at \(t_j\).  Then the terminal spike is being
+carried by packet switching, selector/collar drift, or interface replacement.
+In the full four-body packet this is not free; it is recorded by the
+selector/collar/interface part of the same clock:
 
 ```math
 d\Omega_N
@@ -179,9 +192,12 @@ d\mathcal L_{4B,N}.
 \tag{STP.15}
 ```
 
-Third, the same material packet keeps comparable geometry and comparable
-selection while its kinetic storage rises.  For any transported cutoff
-\(\phi_j\) carried by the same material packet, define
+Third, the selected material remains the same transported packet and the
+relevant annular geometry does not pay the dyadic thinning clock on this
+interval.  Then the only remaining way for the selected spike record to survive
+the height doubling is a positive change in the same material packet's kinetic
+storage or stress-work balance.  For any transported cutoff \(\phi_j\) carried
+by the same material packet, define
 
 ```math
 M_j(t)=\int \frac12|u(t,x)|^2\phi_j(t,x)\,dx.
@@ -214,9 +230,10 @@ transaction:
 \tag{STP.18}
 ```
 
-Thus a height doubling cannot occur as a detached center event.  It is material
-geometry deformation, material selection/interface change, or material
-stress-work/storage change.
+Thus the three cases are exhaustive at the preterminal smooth level: either the
+same material deforms, the selected material changes, or the same material
+storage/stress balance changes.  A height doubling cannot occur as a detached
+center event.
 
 ## 3. Heat-scale and full-clock form
 
