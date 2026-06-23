@@ -163,8 +163,8 @@ annular stress/strain return:
 \tag{MH.11}
 ```
 
-So the terminal readout cannot be a center-only projection.  It remains the
-same material history whose full record is bounded by \((MH.10)\).
+Thus the terminal readout is the same material history whose full record is
+bounded by \((MH.10)\).
 
 ## 4. The material record gives the fixed-coordinate \(H^s\) norm
 
