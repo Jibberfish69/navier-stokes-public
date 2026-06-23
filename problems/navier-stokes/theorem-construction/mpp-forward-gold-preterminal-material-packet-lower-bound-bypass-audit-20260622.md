@@ -1,21 +1,23 @@
 ---
 theorem_id: forward-gold-preterminal-material-packet-lower-bound-bypass-audit-20260622
-status: direct-audit-complete-bypass-reduces-to-same-material-packet-a4b-lower-bound
+status: superseded-audit-lower-bound-branch-closed-by-retained-gauge-fixed-material-packet-theorem
 logical_landing_node: preterminal_material_packet_lower_bound_bypass
 edge_effect: >-
   Audits the noncircular bypass around terminal same-packet record survival.
   The bypass is exact once finite-time singularity supplies infinitely many
   preterminal retained material heat-scale packets with a fixed lower bound in
-  the same A_4B participation activity. Current CKN and critical-density
-  surfaces supply visibility/readout only; they do not yet convert the
-  singular critical lower bound into same-carrier pressure-viscosity-
-  incompressibility-velocity participation on the transported material packet.
+  the same A_4B participation activity. At audit time, CKN and critical-density
+  surfaces supplied visibility/readout only. The later retained gauge-fixed
+  material lower-bound theorem closes the retained non-gauge branch, while the
+  original-data material-history split handles the storage/overlap branch.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-same-packet-part-noexit-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-overlap-nojump-direct-test-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ckn-heat-scale-summability-direct-test-20260619.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-normalized-ckn-carleson-packing-direct-test-20260619.md
   - problems/navier-stokes/theorem-construction/mcp-moving-cylinder-ckn-admissibility-lemma-f2a546e26f.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-material-a4b-lower-bound-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-data-spike-thinning-full-participation-trichotomy-20260623.md
 ---
 
 # Preterminal Material Packet Lower-Bound Bypass Audit
@@ -228,8 +230,9 @@ The preterminal bypass option is:
 \tag{PML.16}
 ```
 
-The second option is narrower than proving terminal endpoint record survival,
-but it is still not installed.  Its exact name in the route should be:
+At the time of this audit, the second option was narrower than proving terminal
+endpoint record survival, but it was not yet installed.  Its exact name in the
+route was:
 
 ```math
 \boxed{
@@ -249,10 +252,11 @@ with content:
 \tag{PML.18}
 ```
 
-Until `(PML.17)` is proved, CKN, critical strain, and critical-density estimates
-remain diagnostics or sufficient-but-uninstalled suppliers.  They are not the
-route unless they preserve and lower-bound the full coupled participation
-packet on the same material heat-scale carrier.
+The later note
+`mpp-forward-gold-preterminal-material-a4b-lower-bound-direct-attempt-20260622.md`
+proves the retained gauge-fixed lower-bound branch.  CKN remains only a
+visibility readout by itself; it enters the route only after the retained
+non-gauge material packet is admitted to the full coupled participation packet.
 
 ## Verdict
 
@@ -267,7 +271,7 @@ The preterminal bypass is mathematically clean:
 \tag{PML.19}
 ```
 
-The missing proof is exactly the lower-bound admission:
+The proof that was missing at audit time was exactly the lower-bound admission:
 
 ```math
 \boxed{
@@ -278,5 +282,7 @@ The missing proof is exactly the lower-bound admission:
 \tag{PML.20}
 ```
 
-That is the only admissible use of CKN in this bypass.  Without `(PML.20)`, CKN
-is only a readout of the bad spike, not the full participation law that pays it.
+That is the only admissible use of CKN in this bypass.  The retained
+gauge-fixed lower-bound theorem now supplies this admission for the non-gauge
+material critical packet; the storage/overlap alternative is handled by the
+same-material annular return theorem.
