@@ -36,7 +36,7 @@ d\mathfrak L_{4B,N}
 c_0\left(
 dA_{4B,N}
 +
-d[\log(1+\mathcal P_N^{mat})]_+
+C_{log}d[\log(1+\mathcal P_N^{mat})]_+
 +
 d\mathcal K_{\rm iface}
 \right)
