@@ -210,8 +210,8 @@ surface:
 
 ## 6. Relation to older bridge audits
 
-The older service-language capture theorem is no longer the load-bearing
-periodic gold closure.  The direct closure is the material-history chain:
+The older CM capture theorem is no longer the load-bearing periodic gold
+closure.  The direct closure is the material-history chain:
 
 ```math
 \text{finite breakdown}
