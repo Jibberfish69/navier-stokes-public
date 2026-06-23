@@ -284,9 +284,10 @@ problem.
 
 ## 6. Result
 
-The exact concomitant theorem is not installed by the current inputs.
+The retained interface concomitants are installed as exact-current-or-defect
+criteria.
 
-What is installed:
+What is installed at the interface level:
 
 ```math
 \boxed{
