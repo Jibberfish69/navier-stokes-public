@@ -15,6 +15,9 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-material-packet-lower-bound-bypass-audit-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-bodyii-bodyiii-arrow-fill-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-overlap-nojump-direct-test-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-singularity-to-retained-material-critical-packet-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-data-spike-thinning-full-participation-trichotomy-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
   - problems/navier-stokes/theorem-construction/mcp-moving-cylinder-ckn-admissibility-lemma-f2a546e26f.md
   - problems/navier-stokes/theorem-construction/mpp-same-material-dyadic-packet-overlap-selection-20260623.md
 ---
