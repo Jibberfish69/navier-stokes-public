@@ -279,13 +279,34 @@ The three height-doubling meanings above are exactly components of
 \tag{STP.23}
 ```
 
-So for a normalized non-gauge selected terminal packet there is a constant
+The fixed lower bound is a selected-packet statement, not a statement about an
+arbitrary pointwise blip.  The packet must be normalized as a non-gauge
+terminal witness at finite tower level \(N\).  Equivalently, at least one of
+the following normalized quantities is bounded below on the packet window:
+
+```math
+\operatorname{Var}_{I_j}M_m,
+\qquad
+\int_{I_j}\|S_y(V_m)\|_{L^\infty(\widehat A_m)}\,ds,
+\qquad
+\mathcal C^\perp(P_j),
+\qquad
+\mathcal K_{\rm iface}(I_j).
+\tag{STP.24}
+```
+
+This is exactly the admission condition for a selected terminal packet.  A
+pure pointwise height spike with all these normalized quantities vanishing is
+not a non-gauge selected terminal witness; it is a center-only readout that has
+lost the full material participation record.
+
+For a normalized non-gauge selected terminal packet there is a constant
 \(\eta_N>0\), depending only on the normalization and tower level, such that
 each genuine height-doubling event satisfies
 
 ```math
 \int_{I_j}d\Omega_N\ge \eta_N .
-\tag{STP.24}
+\tag{STP.25}
 ```
 
 This is the full-participation version of the spike-thinning rule.
@@ -304,18 +325,19 @@ dR_{4B,N},
 \int dR_{4B,N}<\infty,
 \qquad
 \mathfrak L_{4B,N}\ge -C.
-\tag{STP.25}
+\tag{STP.26}
 ```
 
 Therefore
 
 ```math
 \int_{\sigma_0}^{\infty}d\Omega_N<\infty.
-\tag{STP.26}
+\tag{STP.27}
 ```
 
 If a finite-time terminal spike rose without bound on the represented material
-history, it would have infinitely many height doublings.  By `(STP.24)`,
+history as a normalized non-gauge selected packet, it would have infinitely
+many height doublings.  By `(STP.25)`,
 
 ```math
 \int_{\sigma_0}^{\infty}d\Omega_N
@@ -323,10 +345,10 @@ history, it would have infinitely many height doublings.  By `(STP.24)`,
 \sum_j\eta_N
 =
 \infty,
-\tag{STP.27}
+\tag{STP.28}
 ```
 
-contradicting `(STP.26)`.
+contradicting `(STP.27)`.
 
 ## 5. Result
 
@@ -340,7 +362,7 @@ The physical spike picture closes as a full participation theorem:
 \Longrightarrow
 \text{no finite-time infinite spike-thinning recurrence.}
 }
-\tag{STP.28}
+\tag{STP.29}
 ```
 
 The proof does not use a viscosity-only drain, pressure-only recovery, finite
