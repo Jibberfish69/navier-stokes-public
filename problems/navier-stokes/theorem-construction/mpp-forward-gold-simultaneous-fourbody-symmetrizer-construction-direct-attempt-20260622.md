@@ -17,7 +17,6 @@ edge_effect: >-
   of the same material packet.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-material-fourbody-packet-coercivity-direct-attempt-20260622.md
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-c-coordinate-realization-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-law-bearing-full-tower-four-inequality-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-record-log-growth-channel-identity-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-four-body-same-carrier-orientation-defect-decomposition-20260621.md
