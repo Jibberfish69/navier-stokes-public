@@ -7,11 +7,12 @@ edge_effect: >-
   exterior tail theorem controls the far field. On every fixed compact core,
   the same original-data material-history/full-clock argument used on the
   transported torus atlas applies to a finite transported local material atlas.
-  Therefore compact-core H^s blowup would force a first loss of material atlas,
-  participation tower, or positive-scale field coherence on that same local
-  material history, and the finite full clock excludes that loss.
+  The finite local material clock controls the continuation-depth material
+  record, and the direct material-clock-to-fixed-Hs readout gives the compact
+  core H^s bound.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-original-smooth-data-material-history-no-finite-breakdown-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-material-clock-to-fixed-hs-continuation-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-same-material-dyadic-packet-overlap-selection-20260623.md
 ---
@@ -34,7 +35,7 @@ closure gives
 
 This is the compact-core input needed by the R3 exterior-tail relaunch.
 
-## 1. Compact-core failure produces a local terminal readout failure
+## 1. Compact-core failure is read on a fixed local material atlas
 
 Assume `(RCC.1)` fails for some fixed \(R\).  Choose a finite smooth partition
 \(\{\chi_{R,\ell}\}_{\ell=1}^{L(R)}\) covering \(\operatorname{supp}\chi_R\).
@@ -57,37 +58,7 @@ x=X(a,t),\qquad v(a,t)=u(X(a,t),t),\qquad q(a,t)=p(X(a,t),t).
 For every \(t<T_*\), this is a smooth same-solution material packet carrying
 the full pressure-viscosity-incompressibility-velocity law.
 
-## 2. Same local packet services as the torus atlas
-
-At continuation depth \(N_s\), the local compact-core packet has the same three
-services as the transported torus atlas:
-
-```math
-Pack_{Q_{R,\ell}},
-\qquad
-Part_{N_s,Q_{R,\ell}},
-\qquad
-Field_{N_s,r,Q_{R,\ell}}.
-\tag{RCC.4}
-```
-
-Here \(Q_{R,\ell}\) is the transported local material chart.  The chart is
-finite, positive-radius, and same-material before \(T_*\).  If the localized
-\(H^s\) readout fails at \(T_*\), the first failure must be one of:
-
-```math
-\neg Pack_{Q_{R,\ell}},
-\qquad
-\neg Part_{N_s,Q_{R,\ell}},
-\qquad
-\forall r>0\,\neg Field_{N_s,r,Q_{R,\ell}}.
-\tag{RCC.5}
-```
-
-This is not a new physical object.  It is the same compact portion of the
-original smooth material history.
-
-## 3. Full clock excludes the compact-core first failures
+## 2. Full clock controls the local material record
 
 The prelimit master balance supplies the finite same-material clock
 
@@ -103,29 +74,59 @@ d\mathcal K_{\rm iface}
 d\mathcal L_{4B,N},
 \qquad
 \int d\Omega_N<\infty .
+\tag{RCC.4}
+```
+
+The local continuation-depth material record \(\mathcal P_{N_s,R,\ell}^{mat}\)
+contains the localized velocity tower, pressure tower, deformation
+coefficients, transported collars, and same-packet interface currents needed
+to compare the transported local material chart with the fixed compact-core
+coordinates.
+
+Since \(d\Omega_N\) is finite, its positive logarithmic material-record part is
+finite:
+
+```math
+\int d[\log(1+\mathcal P_{N_s,R,\ell}^{mat})]_+<\infty .
+\tag{RCC.5}
+```
+
+The record starts finite at every preterminal base time because the solution is
+smooth there.  Therefore the same positive-variation estimate used in the
+periodic bridge gives
+
+```math
+\sup_{t<T_*}\mathcal P_{N_s,R,\ell}^{mat}(t)<\infty
 \tag{RCC.6}
 ```
 
-Loss of the local material chart, loss of the participation tower, or loss of
-positive-scale field coherence is a positive same-material clock event by the
-same material-history argument used for the periodic transported atlas.  A
-terminal sequence of such first failures would therefore produce infinitely
-many fixed positive \(d\Omega_N\) quanta on a finite local material atlas.
+on the terminal tail, while the earlier compact time interval is bounded by
+classical smoothness.
 
-The local material atlas has finite label multiplicity, and the separated
-terminal log-scale selection is governed by
-`SameMaterialDyadicPacketOverlapSelection.A`.  Hence infinitely many fixed
-quanta would imply
+## 3. The local material record gives the compact-core \(H^s\) bound
+
+The fixed-core version of the material-clock readout is the same composition
+estimate as on the torus, with the fixed cutoff \(\chi_{R,\ell}\):
 
 ```math
-\int d\Omega_N=\infty,
+\|\chi_{R,\ell}u(t)\|_{H^s(\mathbb R^3)}
+\le
+C_{s,R,\ell}
+\left(
+\mathcal P_{N_s,R,\ell}^{mat}(t)
+\right).
 \tag{RCC.7}
 ```
 
-contradicting `(RCC.6)`.
+Combining `(RCC.6)` and `(RCC.7)` gives
 
-Thus no local compact-core terminal readout failure occurs, and `(RCC.1)`
-holds.
+```math
+\sup_{t<T_*}\|\chi_{R,\ell}u(t)\|_{H^s}<\infty
+\tag{RCC.7a}
+```
+
+for every chart in the finite compact-core partition.  Summing the finite
+partition gives `(RCC.1)`.
 
 ## 4. Whole-space Hs assembly
 
@@ -160,4 +161,3 @@ supplies the second term uniformly for large \(R\).  Thus
 
 Classical \(H^s\), \(s>5/2\), local theory then relaunches the same whole-space
 solution past \(T_*\).
-
