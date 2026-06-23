@@ -10,6 +10,7 @@ edge_effect: >-
   original smooth solution.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-material-record-definition-for-fixed-hs-readout-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-material-pressure-tower-same-packet-elliptic-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md
 ---
@@ -72,6 +73,9 @@ and the coefficient/deformation quantities needed for composition:
 J=\det F .
 \tag{MHR.4}
 ```
+
+The pressure component of this record is the same pressure/incompressibility
+tower, fixed by the material pressure equation rather than assumed separately.
 
 Then there is a nondecreasing function \(C_s\) such that
 
