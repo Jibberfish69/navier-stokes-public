@@ -157,8 +157,7 @@ r_j^2\,p(t_j+r_j^2\sigma,x_j+r_jy).
 \tag{R3M.11}
 ```
 
-The lower bound \((R3M.9)\) is a Duhamel-response lower bound, so it is not
-treated as an already-large CKN velocity packet.  Apply
+The lower bound \((R3M.9)\) is admitted by
 `R3DuhamelSurvivorToMaterialTowerClock.A`: the dyadic heat kernel localizes the
 response to the backward strip \(t_j-O(r_j^2)<\tau<t_j\), and the inverse
 Duhamel estimate gives a positive same-time nonlinear source/tower record:
@@ -219,8 +218,7 @@ d\mathcal L_{4B,N}.
 The terminal storage/overlap subcase is controlled by the uniform annular-return
 modulus.  The high-frequency exterior Duhamel subcase is controlled by the
 material tower/source bridge above.  Thus \((R3M.14)\) is the same packet-counting
-output as in the periodic material-history closure, but without routing the
-Duhamel response through a center-only or CKN-packet projection.
+output as in the periodic material-history closure.
 
 ## 4. The selected exterior family has finite full clock
 
