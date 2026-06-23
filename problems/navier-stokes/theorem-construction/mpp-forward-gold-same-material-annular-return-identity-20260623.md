@@ -1,18 +1,15 @@
 ---
 theorem_id: forward-gold-same-material-annular-return-identity-20260623
-status: smooth-prelimit-identity-proved-terminal-use-requires-pulse-as-storage-variation-or-retained-critical-packet
+status: duplicate-rederivation-of-installed-attachment-identity-not-new-frontier-closure
 logical_landing_node: same_material_annular_return_identity
 edge_effect: >-
-  Proves the smooth same-material identity behind the "pay it back later"
-  picture.  For a transported cutoff, any center storage variation is dominated
-  by the stress/strain record on the same material annulus.  The proof is
-  prelimit and does not assume terminal retention.  In heat-scale variables the
-  identity is scale-invariant and its right side is exactly the annular
-  pressure-viscosity-strain channel that belongs inside the simultaneous
-  four-body packet.  Thus terminal pulse attachment is proved for pulses
-  represented by local storage variation; a pulse that persists without storage
-  variation is the retained critical-packet branch already charged by the
-  A_4B lower-bound theorem.
+  Re-derives an already-installed smooth same-material attachment identity.
+  The transported-cutoff stress identity and heat-scale annular attachment were
+  already present in the June 22 terminal-overlap and heat-scale material
+  annular return notes.  This note should be cited only as a compact restatement,
+  not as new proof progress or MPP closure.  The remaining frontier is still the
+  uniform normalized terminal-Zeno annular return modulus / no-free infinite
+  material Zeno stress-chain theorem.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-same-packet-part-noexit-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-singularity-to-retained-material-critical-packet-direct-attempt-20260622.md
@@ -20,9 +17,23 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
 ---
 
-# Same-Material Annular Return Identity
+# Same-Material Annular Return Identity Restatement
 
 Date: 2026-06-23
+
+## Role correction
+
+This note is not new closure.  It repackages the identity already installed in
+
+- `mpp-forward-gold-terminal-overlap-nojump-direct-test-20260622.md`, equations
+  `(TON.42)`--`(TON.54)`;
+- `mpp-forward-gold-heat-scale-material-annular-return-attachment-direct-attempt-20260622.md`,
+  equations `(HSA.4)`--`(HSA.15)`.
+
+The unresolved hard theorem remains the uniform terminal-Zeno version: the
+normalized later annular stress/strain return must have a terminal modulus, or
+the infinite material Zeno stress-chain must be ruled out by an unweighted
+same-packet reserve.  This note does not prove that theorem.
 
 ## 0. Meaning
 
