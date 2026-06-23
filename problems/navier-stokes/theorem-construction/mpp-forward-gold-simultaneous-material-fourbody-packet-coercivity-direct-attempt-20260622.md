@@ -431,7 +431,12 @@ static kernel part is now installed as
 \tag{SMC.31}
 ```
 
-The active internal face is the dynamic retained-family clause:
-same-packet compactness and lower semicontinuity for the frozen evolutions
-\(e^{t\mathcal L_\sigma}Z\), which upgrades the kernel theorem to the
-Lyapunov/Kawashima observability estimate.
+The retained frozen-family compactness/lsc solution upgrades the kernel theorem
+to finite-time frozen observability on the retained quotient.  The active
+internal face is now the algebraic conversion from that observable Gramian to
+the instantaneous bounded-below \(X\)-term symmetrizer:
+
+```math
+\texttt{ObservableFrozenGramianToInstantaneousXTerm.A}.
+\tag{SMC.32}
+```
