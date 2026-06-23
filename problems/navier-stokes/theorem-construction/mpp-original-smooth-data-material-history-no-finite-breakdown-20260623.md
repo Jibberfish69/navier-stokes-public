@@ -13,6 +13,7 @@ edge_effect: >-
   standard local theory gives the relaunch contradiction.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md
+  - problems/navier-stokes/theorem-construction/mpp-material-record-definition-for-fixed-hs-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-material-clock-to-fixed-hs-continuation-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-full-proof-closure-after-uniform-zeno-annular-return-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-uniform-terminal-zeno-annular-return-proof-20260623.md
@@ -70,7 +71,7 @@ q(a,t)=p(X(a,t),t).
 \tag{MH.3}
 ```
 
-At continuation depth \(N_s>s+2\), the material record
+At continuation depth \(N_s\ge \lceil s\rceil+4\), the material record
 \(\mathcal P_{N_s}^{mat}\) contains the velocity tower, pressure tower,
 deformation coefficients, transported collars, and same-packet interface
 currents needed to compare the material variables with fixed coordinates.
