@@ -217,23 +217,28 @@ If the return region has non-collapsing heat-time thickness and is admitted to
 the same four-body carrier, then a surviving pulse is counted by \(A_{4B}\) on
 that retained packet.
 
-## 5. Exact remaining no-exit clause
+## 5. Exact terminal projection caveat
 
-The direct attachment does not by itself prove that the required delayed
-annular return region remains available on the terminal sequence.  The missing
-pure gold clause is:
+For the smooth preterminal solution, the delayed annular return region is
+already part of the same material history.  The remaining caveat is about the
+terminal representation: after taking the terminal limit, the center/time
+readout cannot be allowed to discard the material annular history that produced
+it.
 
 ```math
 \boxed{
-\text{the heat-scale material annular return record remains retained on the
-same packet up to the terminal face.}
+\text{the terminal center/time readout is read as the projection of the
+prelimit heat-scale material annular return record.}
 }
 \tag{HSA.13}
 ```
 
-Equivalently, the later-on return window cannot disappear by loss of the
-material packet, loss of the transported annular atlas, selector/collar drift,
-or failure of the transported velocity-pressure tower.
+Equivalently, the later-on return window is not a separate object to be
+recovered after the fact.  It is part of the same smooth material event from
+the start.  A terminal description that loses the material packet, transported
+annular atlas, selector/collar record, or transported velocity-pressure tower is
+not a detached-pulse branch; it is a failure of the terminal representation to
+carry the same material event.
 
 Failure of `(HSA.13)` is not a hidden center atom.  It is the same-packet
 participation record failing:
@@ -266,5 +271,6 @@ Pack_Q+\neg Part_{N,Q}.
 ```
 
 So the remaining work is not another weighted/unweighted scalar reserve by
-itself.  It is the no-exit theorem for the retained heat-scale material
-annular return record.
+itself.  It is the original-data-to-terminal-representation passage: the
+terminal center/time object must carry the same material annular history that
+the smooth preterminal solution already has.
