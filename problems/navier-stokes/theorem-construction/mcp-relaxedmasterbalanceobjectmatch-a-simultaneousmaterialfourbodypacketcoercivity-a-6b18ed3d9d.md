@@ -18,13 +18,14 @@ with
 
 ```math
 d\mathcal K_{iface}
-:=d\mu_{clock}-dA_{4B,N}-d[\log(1+\mathcal P_N^{mat})]_+.
+:=d\mu_{clock}-dA_{4B,N}-C_{log}d[\log(1+\mathcal P_N^{mat})]_+.
 ```
 
 Under these definitions,
 
 ```math
-d\mu_{clock}=dA_{4B,N}+d[\log(1+\mathcal P_N^{mat})]_+ +d\mathcal K_{iface},
+d\mu_{clock}
+=dA_{4B,N}+C_{log}d[\log(1+\mathcal P_N^{mat})]_+ +d\mathcal K_{iface},
 ```
 
 and the prelimit master balance passes to the desired final object.
@@ -34,7 +35,8 @@ and the prelimit master balance passes to the desired final object.
 At the smooth level there is only one same material packet, so the prelimit clock is
 
 ```math
-d\mathfrak C_{N,m}=dA_{4B,N,m}+d[\log(1+\mathcal P_{N,m}^{mat})]_+.
+d\mathfrak C_{N,m}
+=dA_{4B,N,m}+C_{log}d[\log(1+\mathcal P_{N,m}^{mat})]_+.
 ```
 
 The prelimit master identity uses this exact clock. Therefore the terminal clock must be the weak-star limit of this positive measure, not merely the visible post-limit activity. Define
@@ -46,20 +48,21 @@ d\mu_{clock}=w^*\lim_m d\mathfrak C_{N,m}.
 The visible terminal objects are the lower-semicontinuous visible parts:
 
 ```math
-dA_{4B,N}+d[\log(1+\mathcal P_N^{mat})]_+\le d\mu_{clock}.
+dA_{4B,N}+C_{log}d[\log(1+\mathcal P_N^{mat})]_+\le d\mu_{clock}.
 ```
 
 The missing mass is by definition
 
 ```math
-d\mathcal K_{iface}=d\mu_{clock}-dA_{4B,N}-d[\log(1+\mathcal P_N^{mat})]_+\ge0.
+d\mathcal K_{iface}
+=d\mu_{clock}-dA_{4B,N}-C_{log}d[\log(1+\mathcal P_N^{mat})]_+\ge0.
 ```
 
 Thus the final manuscript clock must be
 
 ```math
 d\mathfrak C_N=d\mu_{clock}
-=dA_{4B,N}+d[\log(1+\mathcal P_N^{mat})]_+ +d\mathcal K_{iface}.
+=dA_{4B,N}+C_{log}d[\log(1+\mathcal P_N^{mat})]_+ +d\mathcal K_{iface}.
 ```
 
 For storage, let `E_{N,m}` be the positive diagonal smooth storage and choose exact cross-storages satisfying
