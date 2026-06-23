@@ -13,6 +13,7 @@ edge_effect: >-
   automatically. This closes the limit-passage gate for the prelimit
   master-balance branch.
 parents:
+  - problems/navier-stokes/theorem-construction/mpp-material-pressure-tower-same-packet-elliptic-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-construction-check-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-same-carrier-clock-lsc-defect-closure-check-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-frozen-family-compactness-lsc-solution-20260622.md
@@ -215,8 +216,11 @@ the velocity tower, pressure tower, deformation/coefficient tower
 \((F_m,A_m,G_m)\), transported collar geometry, and same-packet interface
 current record.  Incompressibility gives \(\det F_m=1\), so no separate volume
 density is left outside the same pressure-viscosity-incompressibility-velocity
-packet.  The depth \(N\) is chosen high enough that this record controls the
-fixed-coordinate \(H^s\) readout by the material composition estimate.
+packet.  The pressure tower is the material elliptic pressure readout forced
+by \(\operatorname{div}_a(A_mv_m)=0\), with localized harmonic pressure memory
+kept inside the same interface-current record.  The depth \(N\) is chosen high
+enough that this record controls the fixed-coordinate \(H^s\) readout by the
+material composition estimate.
 
 Define the smooth prelimit clock by
 
