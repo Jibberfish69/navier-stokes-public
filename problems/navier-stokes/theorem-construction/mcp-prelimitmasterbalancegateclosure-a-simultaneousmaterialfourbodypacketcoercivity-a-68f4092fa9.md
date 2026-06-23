@@ -32,7 +32,7 @@ Consequently the terminal limit satisfies
 
 ```math
 d\mathfrak L_{4B,N}
-+c_0\bigl(dA_{4B,N}+d[\log(1+\mathcal P_N^{mat})]_+ +d\mathcal K_{iface}\bigr)
++c_0\bigl(dA_{4B,N}+C_{log}d[\log(1+\mathcal P_N^{mat})]_+ +d\mathcal K_{iface}\bigr)
 +d\mathcal L_{4B,N}
 \le dR_{4B,N},
 \qquad \int dR_{4B,N}<\infty,
@@ -197,7 +197,7 @@ d\mathfrak C_{N,m}\rightharpoonup^* d\mu_{clock}
 along a subsequence. Define the visible limiting clock as the lower-semicontinuous retained part:
 
 ```math
-dA_{4B,N}+d[\log(1+\mathcal P_N^{mat})]_+\le d\mu_{clock}.
+dA_{4B,N}+C_{log}d[\log(1+\mathcal P_N^{mat})]_+\le d\mu_{clock}.
 ```
 
 Define
@@ -210,7 +210,7 @@ d\mathcal K_{iface}
 Then `dK_iface>=0` and
 
 ```math
-d\mu_{clock}=dA_{4B,N}+d[\log(1+\mathcal P_N^{mat})]_+ +d\mathcal K_{iface}.
+d\mu_{clock}=dA_{4B,N}+C_{log}d[\log(1+\mathcal P_N^{mat})]_+ +d\mathcal K_{iface}.
 ```
 
 This closes clock lower semicontinuity.
@@ -228,7 +228,7 @@ Substituting the clock decomposition gives
 
 ```math
 d\mathfrak L_{4B,N}
-+c_0\bigl(dA_{4B,N}+d[\log(1+\mathcal P_N^{mat})]_+ +d\mathcal K_{iface}\bigr)
++c_0\bigl(dA_{4B,N}+C_{log}d[\log(1+\mathcal P_N^{mat})]_+ +d\mathcal K_{iface}\bigr)
 +d\mathcal L_{4B,N}
 \le dR_{4B,N}.
 ```
