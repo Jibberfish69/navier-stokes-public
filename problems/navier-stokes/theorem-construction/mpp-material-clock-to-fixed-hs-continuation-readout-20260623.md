@@ -73,8 +73,9 @@ C_s\!\left(\mathcal P_{N_s}^{mat}(t)\right).
 \tag{MHR.5}
 ```
 
-Consequently, a uniform bound for \(\mathcal P_{N_s}^{mat}\) on the terminal
-tail gives
+Consequently, a uniform bound for \(\mathcal P_{N_s}^{mat}\) on a terminal
+tail, together with ordinary smoothness on the preceding compact time interval,
+gives
 
 ```math
 \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty .
@@ -183,8 +184,11 @@ By `(MHR.13)`, the right side is uniformly bounded on the terminal tail.  Hence
 \tag{MHR.15}
 ```
 
-Substituting `(MHR.15)` into `(MHR.5)` gives the fixed-coordinate continuation
-readout `(MHR.6)`.
+Substituting `(MHR.15)` into `(MHR.5)` gives a uniform fixed-coordinate
+\(H^s\) bound on the terminal tail.  On every compact interval
+\([0,T_*-\delta]\), the solution is classical and smooth, so
+\(\|u(t)\|_{H^s}\) is finite there.  Combining the compact preterminal interval
+with the terminal tail gives `(MHR.6)`.
 
 ## 3. Physical meaning
 
