@@ -163,9 +163,12 @@ Repeatedly applying
 \tag{MRD.12}
 ```
 
-expresses every fixed-coordinate derivative \(\nabla_x^k u\), \(k\le\lceil s\rceil\),
-as a finite sum of products of derivatives of \(A\) and derivatives of \(v\).
-Using `(MRD.11)`, `(MRD.3)`, and \(J=1\), one obtains
+expresses every fixed-coordinate derivative \(\nabla_x^k u\),
+\(k\le\lceil s\rceil\), as a finite sum of products of derivatives of \(A\)
+and derivatives of \(v\).  The coefficient depth required is
+\(W^{\lceil s\rceil+1,\infty}\), which is exactly why `(MRD.1)` leaves four
+derivatives of room above \(\lceil s\rceil\). Using `(MRD.11)`, `(MRD.3)`, and
+\(J=1\), one obtains
 
 ```math
 \|u(t)\|_{H^s_x}
