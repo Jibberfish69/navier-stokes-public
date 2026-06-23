@@ -62,6 +62,9 @@ remain smooth fields with their full Fourier content.  The finite record only
 asks for enough material derivatives to control the fixed \(H^s\) norm that
 local Navier--Stokes continuation needs.  An all-orders version would be a
 stronger projective-tower theorem, not a necessary continuation input.
+This is the correction to the earlier full-tower burden: the proof may be run
+for any chosen \(s>5/2\), but it does not need one simultaneous all-\(s\)
+infinite tower estimate.
 
 The continuation-depth material record \(\mathcal P_{N_s}^{mat}\) is the full
 same-material record defined in
