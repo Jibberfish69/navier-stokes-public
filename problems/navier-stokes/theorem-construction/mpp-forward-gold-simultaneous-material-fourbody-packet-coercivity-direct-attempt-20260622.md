@@ -374,8 +374,14 @@ The moving-atlas label law has now been computed:
 \tag{SMC.27}
 ```
 
-The fixed center/time part is same-packet. The remaining moving-atlas terms are
-the normalized modulation and jump variation
+The fixed center/time part is same-packet. The fixed-terminal-gauge solution
+sets \(T_\sigma=T^\ast\) and \(x_\sigma=x^\ast\) on the retained branch, so
+moving active packets are represented as material time/space translations
+inside \(C_N\). Unbounded translations are loss of the retained atlas, and
+label/sign/collar/selector variation is handled by stabilization.
+
+Thus the retained-branch \(C_N\) atlas is fixed enough. The only atlas terms
+that need recording before stabilization are
 
 ```math
 r_\sigma^{-1}\dot x_\sigma,\quad
@@ -384,6 +390,6 @@ dN_{label},\quad dN_{sgn},\quad d\Lambda_{collar,N}.
 \tag{SMC.28}
 ```
 
-They must enter as same-packet \(S_N/G_N/Q_N\) drift channels; otherwise
-\(d_\sigma L_C\) compares different packets rather than differentiating the one
-four-coordinate material packet.
+translated into the fixed terminal gauge as \(C_N\) time/space translations or
+visible selector/collar variation. The remaining PDE installation is therefore
+the bounded-below instantaneous construction of the four exchange cross-terms.
