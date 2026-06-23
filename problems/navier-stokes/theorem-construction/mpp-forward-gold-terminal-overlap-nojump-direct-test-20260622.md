@@ -1,22 +1,18 @@
 ---
 theorem_id: forward-gold-terminal-overlap-nojump-direct-test-20260622
-status: retained-atlas-heat-scale-shrinking-counting-solved-material-record-noexit-remains
+status: superseded-by-same-material-annular-return-and-full-clock-closure
 logical_landing_node: terminal_overlap_nojump
 edge_effect: >-
-  Tests TerminalOverlapNoJump.A on the exact order-lock overlap left by
-  OrderLockOverlapFourBodyPayment.A. The live object is not terminal storage
-  AC by itself and not full endpoint measure AC by itself. It is the same-carrier
-  overlap between native positive activity and the negative time/storage partner.
-  The consumer is exact: uniform terminal tail control of this same-packet
-  overlap kills the terminal atom. The spike/annulus correction restores the
-  overlap to the same heat-scale material annular stress/strain carrier on a
-  retained packet. Transported cutoffs discharge the materiality defect exactly
-  on that retained packet. On the retained transported annular atlas,
-  bounded-overlap A_4B counting forbids infinitely many fixed-size shrinking
-  heat-scale pulses. The remaining no-exit mechanism is retention of the
-  delayed heat-scale material strain-metric/coefficient/velocity-pressure
-  tower; with that record, the overlap is admitted as visible A_4B
-  participation.
+  Historical direct test for TerminalOverlapNoJump.A. Its local overlap notation
+  is superseded by the later same-material annular return and full-clock closure:
+  the terminal center/time reading, the annular layers underneath it, and the
+  later stress/strain return are read as one heat-scale material history. The
+  active route is the full same-packet material clock used in the uniform
+  terminal-Zeno annular return theorem and final closure notes.
+superseded_by:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-material-annular-return-attachment-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-uniform-terminal-zeno-annular-return-proof-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-full-proof-closure-after-uniform-zeno-annular-return-20260623.md
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-order-lock-overlap-fourbody-payment-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-hodgestokes-endpoint-nojump-direct-test-20260621.md
