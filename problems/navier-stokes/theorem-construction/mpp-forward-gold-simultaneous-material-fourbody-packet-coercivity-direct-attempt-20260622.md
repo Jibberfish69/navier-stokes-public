@@ -380,8 +380,8 @@ moving active packets are represented as material time/space translations
 inside \(C_N\). Unbounded translations are loss of the retained atlas, and
 label/sign/collar/selector variation is handled by stabilization.
 
-Thus the retained-branch \(C_N\) atlas is fixed enough. The only atlas terms
-that need recording before stabilization are
+Thus the retained-branch \(C_N\) atlas is fixed enough. The previous moving
+atlas terms
 
 ```math
 r_\sigma^{-1}\dot x_\sigma,\quad
@@ -390,6 +390,7 @@ dN_{label},\quad dN_{sgn},\quad d\Lambda_{collar,N}.
 \tag{SMC.28}
 ```
 
-translated into the fixed terminal gauge as \(C_N\) time/space translations or
-visible selector/collar variation. The remaining PDE installation is therefore
-the bounded-below instantaneous construction of the four exchange cross-terms.
+are removed from the retained branch by fixed terminal gauge, absorbed as
+\(C_N\) time/space translations, or recorded as visible selector/collar
+variation. The remaining PDE installation is therefore the bounded-below
+instantaneous construction of the four exchange cross-terms.
