@@ -215,7 +215,7 @@ The Navier--Stokes scaling gives exactly
 \tag{UZR.15}
 ```
 
-Therefore `(UZR.5)` becomes
+Therefore `(UZR.11)` becomes
 
 ```math
 \int_{-1}^{0}
