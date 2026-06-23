@@ -10,10 +10,11 @@ edge_effect: >-
   failures are K_sel, K_C^+ and legal residual. C->G is exact when the
   canonical Eulerian packet is pulled back through the volume-preserving
   material geometry realization on the same labels/gauge; its failures are K_C^+,
-  K_G^+ geometry components and legal residual. Thus X_QC and X_CG are set to
-  zero on retained exact-current branches. The remaining work is not to invent
-  cumulative primitives, but to include the named interface defects inside the
-  simultaneous four-body loss/residual envelope.
+  K_G^+ geometry components and legal residual. Thus no residual-mismatch
+  X_QC or X_CG primitive is needed on retained exact-current branches. The
+  remaining work is not to invent cumulative primitives, but to include the
+  named interface defects inside the simultaneous four-body loss/residual
+  envelope.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-bodyiii-retained-participation-packet-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-bodyiv-canonical-geometry-packet-interface-criterion-20260621.md
@@ -41,17 +42,22 @@ Q\to C,\ C\to G
 \tag{QCG.1}
 ```
 
-So the retained branches use
+So the retained branches satisfy
 
 ```math
 \boxed{
-X_{QC}=0,\qquad X_{CG}=0.
+dK_{Q\to C}=0,
+\qquad
+dK_{C\to G}=0.
 }
 \tag{QCG.2}
 ```
 
 The live burden is to keep the named defect terms inside the simultaneous
-four-body packet, not to replace them by cumulative exchange primitives.
+four-body packet, not to replace residual mismatches by cumulative exchange
+primitives.  This does not forbid legitimate bounded cross-terms in a global
+symmetrizer; it only demotes \(X\)-terms as repairs for these retained
+interface mismatches.
 
 ## 1. \(Q\to C\)
 
@@ -200,7 +206,7 @@ G\to S
 ```
 
 Thus the exact-concomitant problem no longer asks for cumulative \(X\)-primitive
-repairs at the four interfaces.
+repairs of retained interface mismatches.
 
 The honest remaining problem is the simultaneous packet envelope:
 
@@ -217,4 +223,3 @@ This is still not a proof of smoothness.  It is a correction of the frontier:
 the interface laws are criteria already installed; the open gold work is making
 their hypotheses and defect charges live inside one simultaneous material
 four-body coercivity inequality.
-
