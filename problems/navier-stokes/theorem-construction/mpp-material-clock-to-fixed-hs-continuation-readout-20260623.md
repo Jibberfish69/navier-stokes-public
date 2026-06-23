@@ -119,8 +119,8 @@ D_a^{\beta_0}v(a,t),
 ```
 
 where every term uses at most \(k\) material derivatives of \(v\) and at most
-\(k\) material derivatives of \(A\).  The exact combinatorial constants are
-irrelevant because \(N_s\) is fixed.
+\(k\) material derivatives of \(A\).  The combinatorial constants depend only
+on the fixed depth \(N_s\).
 
 Using the change of variables \(x=X(a,t)\),
 
