@@ -24,6 +24,9 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-carrying-full-tower-fourbody-balance-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-tower-signed-total-exchange-retention-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-mixed-derivative-tower-participation-law-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-material-record-definition-for-fixed-hs-readout-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-material-pressure-tower-same-packet-elliptic-readout-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-legal-residual-logscale-summability-correction-20260623.md
   - problems/navier-stokes/theorem-construction/lagrangian-material-derivative-recheck-note.md
 ---
 
@@ -85,7 +88,9 @@ w_\alpha(\sigma)
 \tag{PMB.2}
 ```
 
-Define the finite material record schematically by
+Use the continuation-depth material record
+`MaterialRecordDefinitionForFixedHsReadout.A`.  In the present smooth-packet
+calculation this means a finite same-carrier record equivalent to
 
 ```math
 \mathcal P_{N,m}^{mat}
@@ -106,6 +111,12 @@ Define the finite material record schematically by
 E_m^{coll}.
 \tag{PMB.3}
 ```
+
+The displayed expression is an equivalent smooth-packet norm package, not a
+new definition.  The pressure component is the same pressure/incompressibility
+elliptic tower from `MaterialPressureTowerSamePacketEllipticReadout.A`, and the
+collar/interface component is the same transported-packet record consumed by
+the prelimit clock.  No finite-frequency truncation is being made.
 
 ## 2. Differentiated material tower
 
@@ -185,7 +196,8 @@ interface defects.
 The nontrivial finite-smooth estimate is a clock-identification estimate, not a
 right-side residual estimate.  The positive material-record growth created by
 the commutator is entered into the prelimit clock before the master balance is
-closed:
+closed.  After the clock component is included, the remaining legal part has
+the residual normal form from `LegalResidualLogScaleSummabilityCorrection.A`:
 
 ```math
 \sum_\alpha w_\alpha
@@ -224,8 +236,11 @@ w_\beta^{1/2}w_{\alpha-\beta}^{1/2},
 
 so the Leibniz splitting stays inside the same finite material record.  The
 estimate is valid only under the same smooth material ellipticity/coefficient
-record that defines \(\mathcal P_{N,m}^{mat}\), with leftover terms kept in
-\(dR_{comm,m}\).
+record that defines \(\mathcal P_{N,m}^{mat}\).  Any leftover term that is
+scale-neutral, critical, or top-order is not allowed in \(dR_{comm,m}\); it is
+part of \(d\mathfrak C_{N,m}\) or \(d\mathcal L_{4B,N,m}\).  The residual
+\(dR_{comm,m}\) contains only positive-scale-gain, telescoping, or physically
+bounded-overlap lower-order terms.
 
 ## 4. Geometry record
 
@@ -349,7 +364,7 @@ and recovers `(PMB.16)`.
 
 ## 6. Terminal limit
 
-Assume
+After subsequence extraction in the downstream relaxed passage,
 
 ```math
 dA_{4B,N,m}
@@ -360,7 +375,7 @@ d\mu_{\rm clock}.
 \tag{PMB.21}
 ```
 
-Assume the visible limiting clock satisfies
+The visible limiting clock satisfies the lower-semicontinuity inequality
 
 ```math
 dA_{4B,N}
