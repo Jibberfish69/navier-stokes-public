@@ -292,70 +292,66 @@ What is installed:
 \boxed{
 S\to Q\text{ is exact as strict same-packet radius/viscous loss.}
 }
-\tag{EMC.22}
+\tag{EMC.24}
 ```
 
 and
 
 ```math
 \boxed{
-G\to S\text{ is exact current on the retained criterion branch, with failures
-charged to }K_{G\to S}^+.
-}
-\tag{EMC.23}
-```
-
-What remains:
-
-```math
-\boxed{
-Q\to C,\quad C\to G
-\text{ must be made into exact oriented current identities}
-}
-\tag{EMC.24}
-```
-
-or their residual mismatches must be represented by bounded instantaneous
-cross-terms:
-
-```math
-\boxed{
-d\mu_{ij}
-=
--dX_{ij}+d\mathcal D_{ij}+dR_{ij},
-\qquad
-ij\in\{QC,CG\}.
+Q\to C\text{ is exact current on the retained three-measure packet branch.}
 }
 \tag{EMC.25}
 ```
 
-Therefore
+and
 
 ```math
 \boxed{
-\texttt{ExactMaterialFourBodyExchangeConcomitant.A}
+C\to G\text{ is exact current on the retained material-pullback branch.}
 }
 \tag{EMC.26}
 ```
 
-reduces to the two concrete construction clauses:
+and
 
 ```math
 \boxed{
-\texttt{LawBearingExchangeOrientation.A}
+G\to S\text{ is exact current on the retained tower-recertification branch.}
 }
 \tag{EMC.27}
 ```
 
-and, for whatever mismatch remains after the best orientation,
+The exact-concomitant correction is therefore:
 
 ```math
 \boxed{
-\texttt{BoundedMaterialMismatchPrimitive.A}.
+X_{QC}=X_{CG}=X_{GS}=0
+\quad\text{on the retained exact-current branches.}
 }
 \tag{EMC.28}
 ```
 
-This is still one-fluid work.  Both clauses live inside the same transported
-material participation law.  Neither clause may be replaced by a cumulative
-exchange primitive.
+What remains is not a cumulative primitive construction.  It is the simultaneous
+packet envelope:
+
+```math
+\boxed{
+\text{all named interface defects must be included in }
+dD_{4B,N}+dA_{4B,N}+dR_{4B,N}
+\text{ on the same material packet.}
+}
+\tag{EMC.29}
+```
+
+Equivalently, the still-open gold work is:
+
+```math
+\boxed{
+\texttt{SimultaneousMaterialFourBodyPacketCoercivity.A}
+}
+\tag{EMC.30}
+```
+
+with \(Q\to C\), \(C\to G\), and \(G\to S\) treated as exact-current-or-defect
+interface criteria, not as detached \(X\)-primitive problems.
