@@ -16,6 +16,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-four-body-bodyii-bodyiii-arrow-fill-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-overlap-nojump-direct-test-20260622.md
   - problems/navier-stokes/theorem-construction/mcp-moving-cylinder-ckn-admissibility-lemma-f2a546e26f.md
+  - problems/navier-stokes/theorem-construction/mpp-same-material-dyadic-packet-overlap-selection-20260623.md
 ---
 
 # Preterminal Material Packet \(A_{4B}\) Lower-Bound Direct Attempt
@@ -204,7 +205,7 @@ step:
 \tag{PAL.14}
 ```
 
-Together with fixed transported annular atlas counting,
+Together with the same-material log-scale packet counting lemma,
 
 ```math
 \sum_j{\bf 1}_{J_j}\le K,
