@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-bounded-below-xterm-symmetrizer-direct-attempt-20260622
-status: reduces-xterm-construction-to-uniform-full-packet-observability-gap
+status: static-observability-gap-proved-dynamic-frozen-kawashima-observability-open
 logical_landing_node: bounded_below_instantaneous_xterm_symmetrizer
 edge_effect: >-
   Attacks the last live installation inside
@@ -10,17 +10,17 @@ edge_effect: >-
   L_4B,N=<U_N,H_sigma U_N> with H_sigma=I+K_sigma, the needed derivative
   inequality is the Lyapunov/Kawashima inequality
   d_sigma H+H L+L^*H <= -c A_4B,N-D_4B,N-c dlog(1+P_N^mat)+R. The construction
-  is noncircular if the quotient mixed material packet has a uniform
-  observability gap: no non-gauge packet can have unit selected activity and
-  zero full four-body loss. Compactness-rigidity is the right way to prove that
-  gap on the retained branch, but the uniform frozen/evolution-family
-  observability theorem is not yet installed. Thus the remaining internal face
-  is FullPacketObservabilityGap.A, not another component estimate.
+  is noncircular if the quotient mixed material packet has a dynamic frozen
+  observability gap. The static retained quotient gap is now proved: non-gauge
+  selected activity forces positive full four-body loss. The remaining internal
+  face is the dynamic frozen/evolution-family version,
+  FrozenFullPacketKawashimaObservability.A.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-material-fourbody-packet-coercivity-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-fourbody-symmetrizer-construction-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-crossscale-material-atlas-fixed-terminal-gauge-solution-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-compactness-rigidity-coercivity-principle-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-packet-observability-gap-direct-attempt-20260622.md
 ---
 
 # Bounded-Below \(X\)-Term Symmetrizer Direct Attempt
