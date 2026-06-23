@@ -434,10 +434,11 @@ static kernel part is now installed as
 The retained frozen-family compactness/lsc solution upgrades the kernel theorem
 to finite-time frozen observability on the retained quotient.  The direct
 Gramian-to-\(X\)-term test shows that finite-time observability alone leaves a
-positive endpoint readout.  The active internal face is now the same-packet
-no-return law:
+positive endpoint readout.  The no-return test shows that same-packet
+no-return is not independent of the cross-term construction.  The active
+internal face is therefore the direct simultaneous \(X\)-term identity:
 
 ```math
-\texttt{FrozenFullPacketDissipativeNoReturn.A}.
+\texttt{DirectSimultaneousMaterialFourBodyXTermIdentity.A}.
 \tag{SMC.32}
 ```
