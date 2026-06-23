@@ -135,14 +135,31 @@ A_{\ell i}A_{k j}
 ```
 
 where \(N\ge3\) and \(\lambda(t)>0\) is the ellipticity lower bound of
-\(G(t)\). The right side is bounded by a polynomial in the same finite-depth
-velocity and coefficient norms included in \(\mathcal P_N^{mat}\). Hence
+\(G(t)\). For the continuation-depth choice \(N\ge \lceil s\rceil+4\), hence
+\(N\ge7\), the Sobolev index \(N-3\) is an algebra index in dimension three.
+The Moser product estimate gives
+
+```math
+\left\|
+A_{\ell i}A_{k j}
+(\partial_{a_\ell}v_j)
+(\partial_{a_k}v_i)
+\right\|_{H^{N-3}_a}
+\le
+C_N
+\|A\|_{W^{N-3,\infty}_a}^2
+\|v\|_{H^{N-2}_a}^2 .
+\tag{MPR.9}
+```
+
+The right side of `(MPR.9)` is part of the same velocity and coefficient
+towers in \(\mathcal P_N^{mat}\). Hence
 
 ```math
 \sum_{|\alpha|\le N-1}\|D_a^\alpha q(t)\|_{L^2_a}^2
 \le
 C_N\!\left(\mathcal P_N^{mat}(t)\right).
-\tag{MPR.9}
+\tag{MPR.10}
 ```
 
 ## 2. Local pressure and harmonic memory
@@ -151,7 +168,7 @@ On a localized annular or compact-core packet, write the pressure as
 
 ```math
 q=q^{loc}+q^H .
-\tag{MPR.10}
+\tag{MPR.11}
 ```
 
 The local part satisfies the same elliptic estimate as `(MPR.8)` on the
@@ -165,7 +182,7 @@ q^H
 \mathcal P_N^{iface}
 \quad\text{and}\quad
 dA_{4B,N}.
-\tag{MPR.11}
+\tag{MPR.12}
 ```
 
 ## 3. Consequence for the material record
@@ -182,16 +199,16 @@ The pressure component in
 \text{coefficient/deformation tower}
 +
 \text{collar/interface record}
-\tag{MPR.12}
+\tag{MPR.13}
 ```
 
-is licensed by `(MPR.2)`--`(MPR.11)`. Any positive growth of the pressure tower
+is licensed by `(MPR.2)`--`(MPR.12)`. Any positive growth of the pressure tower
 is positive growth of the same material pressure-incompressibility record, and
 is therefore spent by
 
 ```math
 d[\log(1+\mathcal P_N^{mat})]_+ .
-\tag{MPR.13}
+\tag{MPR.14}
 ```
 
 This is the pressure exactness needed by the fixed-\(H^s\) readout bridge.
