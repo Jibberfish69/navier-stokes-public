@@ -1,15 +1,16 @@
 ---
 theorem_id: full-proof-closure-after-uniform-zeno-annular-return-20260623
-status: repo-side-mpp-closure-under-installed-framework
+status: repo-side-closure-under-retained-full-clock-admission
 logical_landing_node: navier_stokes_mpp_full_proof_closure_after_uniform_zeno_return
 edge_effect: >-
   Assembles the final repo-side closure after the uniform terminal-Zeno annular
-  return theorem.  The pay-it-back-later mechanism is now formal: center
-  endpoint storage/overlap is attached to the same-material annular
-  stress/strain return, and failure of a uniform terminal modulus creates
-  daughter heat-scale packets with fixed A_4B mass, contradicting the finite
-  prelimit four-body clock.  Therefore the retained terminal branch is
-  impossible.  A non-retained same-material record is not a hidden smooth
+  return theorem.  The pay-it-back-later mechanism is formal on the retained
+  same-packet branch: center endpoint storage/overlap is attached to the
+  same-material annular stress/strain return, and failure of a uniform terminal
+  modulus creates daughter heat-scale packets with fixed full same-packet clock
+  mass, contradicting the finite prelimit four-body clock.  Therefore the
+  retained terminal pulse branch is impossible.  A non-retained same-material
+  record is not a hidden smooth
   counterexample; it is the installed Part/Field face in the CM terminal tree.
   Thus no CM-test-admissible finite Clay terminal witness survives inside the
   installed Navier-Stokes route.
@@ -84,10 +85,11 @@ The uniform terminal-Zeno annular return theorem gives
 The proof of `(FCZ.4)` is the daughter-packet argument: if `(FCZ.4)` fails,
 then every bad parent terminal strip becomes a smaller heat-scale daughter
 packet with fixed positive same-material annular return.  Same-packet admission
-puts that return inside \(A_{4B,N}\), and a separated daughter subfamily forces
+puts that return inside the full same-packet clock, and a separated daughter
+subfamily forces
 
 ```math
-\int_{\sigma_0}^{\infty}dA_{4B,N}=\infty.
+\int_{\sigma_0}^{\infty}d\Omega_N=\infty.
 \tag{FCZ.5}
 ```
 
@@ -95,21 +97,36 @@ This contradicts the prelimit master balance:
 
 ```math
 d\mathfrak L_{4B,N}
-
++
 c_0\left(
 dA_{4B,N}
-
++
 d[\log(1+\mathcal P_N^{mat})]_+
-
++
 d\mathcal K_{\rm iface}
 \right)
-
++
 d\mathcal L_{4B,N}
 \le
 dR_{4B,N},
 \qquad
 \int dR_{4B,N}<\infty .
 \tag{FCZ.6}
+```
+
+where
+
+```math
+d\Omega_N
+:=
+dA_{4B,N}
++
+d[\log(1+\mathcal P_N^{mat})]_+
++
+d\mathcal K_{\rm iface}
++
+d\mathcal L_{4B,N}.
+\tag{FCZ.6a}
 ```
 
 Therefore no retained endpoint storage/overlap pulse survives.
