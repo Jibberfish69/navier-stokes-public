@@ -22,6 +22,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-r3-exterior-l2-tightness-no-tail-face.md
   - problems/navier-stokes/theorem-construction/mpp-r3-duhamel-survivor-to-material-tower-clock-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-same-material-dyadic-packet-overlap-selection-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-legal-residual-logscale-summability-correction-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-original-smooth-data-material-history-no-finite-breakdown-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
 ---
@@ -247,8 +248,10 @@ dR_{4B,N}.
 \tag{R3M.16}
 ```
 
-On the selected exterior bounded-overlap family, the residual normal form is
-summable:
+On the selected exterior family, the corrected residual normal form is
+summable: scale-neutral lower-order terms are used only on physically
+bounded-overlap subfamilies or as telescoping storage, while nested terminal
+terms carry positive scale gain.  Thus
 
 ```math
 \sum_j\int_{P_j}dR_{4B,N}
@@ -261,7 +264,7 @@ summable:
 \tag{R3M.17}
 ```
 
-The finiteness follows from the energy inequality,
+The displayed physical densities are finite by the energy inequality,
 \(u\in L^4_tL^3_x\), and the pressure representation
 \(-\Delta p=\partial_i\partial_j(u_i u_j)\).  The Riesz transform bound gives
 \(\|p(t)\|_{L^{3/2}_x}\lesssim \|u(t)\|_{L^3_x}^2\), hence
@@ -272,7 +275,11 @@ The finiteness follows from the energy inequality,
 <\infty.
 \]
 Lower-order exterior tails are also uniformly tight by the installed \(L^2\)
-exterior-tail theorem.  Therefore
+exterior-tail theorem.
+
+Integrating `(R3M.16)` over the global selected clock atlas, using the lower
+bound for \(\mathfrak L_{4B,N}\), and then applying
+`SameMaterialDyadicPacketOverlapSelection.A` gives
 
 ```math
 \sum_j\int_{P_j}d\Omega_N<\infty.
