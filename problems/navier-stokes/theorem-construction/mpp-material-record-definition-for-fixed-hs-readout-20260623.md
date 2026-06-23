@@ -48,8 +48,9 @@ G=AA^\top,
 \tag{MRD.2}
 ```
 
-define \(\mathcal P_N^{mat}\) to dominate all of the following finite-depth
-same-packet quantities:
+define \(\mathcal P_N^{mat}\) to dominate all of the following
+finite-derivative-depth same-packet quantities. This is a finite Sobolev-depth
+readout of a smooth field, not a restriction to finitely many Fourier modes:
 
 ```math
 1+
