@@ -294,11 +294,7 @@ The remaining construction clause is therefore:
 
 inside the simultaneous packet.
 
-Once `(PCN.15)` is installed, \(C_N\) becomes a genuine simultaneous
-four-body coordinate and the next remaining clause is the bounded-below
-instantaneous construction of
-
-```math
-X_{SQ},\quad X_{QC},\quad X_{CG},\quad X_{GS}.
-\tag{PCN.16}
-```
+With fixed terminal gauge and the mixed-tower refinement, \(C_N\) is a genuine
+simultaneous four-body coordinate on the retained branch.  The remaining clause
+is exactly `(PCN.15)`: build the bounded-below instantaneous \(X\)-term
+symmetrizer.
