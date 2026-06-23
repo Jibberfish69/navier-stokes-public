@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-simultaneous-material-fourbody-packet-coercivity-direct-attempt-20260622
-status: algebraic-closure-proved-pde-symmetrizer-reduced-to-exact-exchange-concomitant
+status: algebraic-closure-proved-interface-envelope-installed-defect-summability-open
 logical_landing_node: simultaneous_material_fourbody_packet_coercivity
 edge_effect: >-
   Replaces the sequential supplier/admission framing by the corrected
@@ -10,18 +10,20 @@ edge_effect: >-
   A_4B,N, the material-record positive log growth, and the nonnegative four-body
   loss up to summable residual, then A_4B,N is integrable and the material
   record cannot double infinitely often. The missing PDE installation is the
-  explicit construction of the symmetrizer cross-terms X_SQ, X_QC, X_CG, X_GS
-  from the material Navier-Stokes law and verification of the simultaneous
-  derivative inequality. The direct X-term attempt reduces this to exactness of
-  the adjacent exchange mismatch one-form with a bounded same-packet bilinear
-  concomitant; existing notes name exchange storages and prove conditional
-  compactness/rigidity consumers, but they do not construct that concomitant.
+  explicit verification of the simultaneous derivative inequality. A later
+  interface audit corrects the X-term reduction: retained Q->C, C->G, and G->S
+  branches are exact-current-or-defect criteria, so cumulative X-primitives are
+  not the live burden. The interface defects are algebraically enveloped inside
+  the same packet. What remains open is the production/summability theorem that
+  the named interface defects are strict same-material loss, summable residual,
+  or zero on the retained branch.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-law-bearing-full-tower-four-inequality-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-tower-signed-total-exchange-retention-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-compactness-rigidity-coercivity-principle-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-selected-full-packet-production-step-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-four-body-balance-circuit-redevelopment-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-interface-defect-envelope-after-qc-cg-gs-corrections-20260622.md
 ---
 
 # Simultaneous Material Four-Body Packet Coercivity Direct Attempt
