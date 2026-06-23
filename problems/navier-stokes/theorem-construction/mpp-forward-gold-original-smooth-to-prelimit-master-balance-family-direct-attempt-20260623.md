@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-original-smooth-to-prelimit-master-balance-family-direct-attempt-20260623
-status: original-data-material-unity-clarified-terminal-material-history-passage-is-live
+status: proof-installed-original-data-to-prelimit-material-history-full-clock
 logical_landing_node: original_smooth_data_to_prelimit_master_balance_family
 edge_effect: >-
   Corrects the remaining repo-side gate after the prelimit master-balance route
@@ -13,8 +13,7 @@ edge_effect: >-
   the terminal storage/overlap quantity must continue to be read on that same
   prelimit material history. A limiting description that forgets the
   transported pressure-viscosity-incompressibility-velocity record no longer
-  describes the material event under test; it is not a hidden gold residual and
-  not a physically detached spike.
+  describes the material event under test; it is not a hidden gold residual.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-route-supersedes-postlimit-kawashima-burden-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
@@ -29,8 +28,7 @@ Date: 2026-06-23
 
 ## 0. Target from original data forward
 
-After the prelimit master-balance repair, the remaining proposed pure-gold gate
-is:
+After the prelimit master-balance repair, the pure-gold gate is:
 
 ```math
 \boxed{
