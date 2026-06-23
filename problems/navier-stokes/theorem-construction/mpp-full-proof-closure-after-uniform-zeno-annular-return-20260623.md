@@ -78,7 +78,7 @@ return.  For the transported material cutoff, the exact identity is
 Thus
 
 ```math
-\nu_m^{ol}((-\theta,0])
+\omega_m^{cs}((-\theta,0])
 \le
 \int_{-\theta}^{0}\widehat\rho_{A,m}(s)\,ds
 +
@@ -205,7 +205,9 @@ Therefore no finite Clay terminal witness survives:
 \tag{FCZ.10}
 ```
 
-Under the installed route's local continuation/readout bridge, this is the
+The installed witness-to-smooth direction says that the retained same-fluid
+terminal packet with all finite tower depths gives the local continuation
+norm.  Therefore the absence of a finite Clay terminal witness gives the
 repo-side Navier--Stokes MPP smoothness closure:
 
 ```math
