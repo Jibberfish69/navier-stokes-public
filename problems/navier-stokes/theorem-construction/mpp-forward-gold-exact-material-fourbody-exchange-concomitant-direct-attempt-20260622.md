@@ -11,11 +11,12 @@ edge_effect: >-
   same-packet cross-term. The installed Body-I/Body-II normal form closes the
   S->Q interface. Later checks against the Body-II/III, Body-III/IV, and
   Body-IV/I interface criteria show that retained Q->C, C->G, and G->S branches
-  close by exact current identity, with X_QC=X_CG=X_GS=0 on those branches, and
-  failures charged to their named packet defects. Thus the interface-concomitant
-  problem is corrected: cumulative X-primitives are demoted, and the remaining
-  work is the simultaneous packet envelope that includes all named interface
-  defects inside the four-body loss/residual structure.
+  close by exact current identity, so no residual-mismatch X_QC, X_CG, or X_GS
+  primitive is needed on those branches, and failures are charged to their named
+  packet defects. Thus the interface-concomitant problem is corrected:
+  cumulative X-primitives are demoted, and the remaining work is the
+  simultaneous packet envelope that includes all named interface defects inside
+  the four-body loss/residual structure.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-direct-simultaneous-material-fourbody-xterm-identity-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-law-bearing-full-tower-four-inequality-attempt-20260622.md
@@ -170,8 +171,6 @@ so the \(Q\to C\) interface has no residual orientation defect:
 
 ```math
 dK_{Q\to C}=0,
-\qquad
-X_{QC}=0.
 \tag{EMC.14}
 ```
 
@@ -207,8 +206,6 @@ Equivalently, on the common selected four-body carrier,
 
 ```math
 dK_{C\to G}=0,
-\qquad
-X_{CG}=0.
 \tag{EMC.17}
 ```
 
@@ -262,8 +259,6 @@ Thus the retained \(G\to S\) branch has
 
 ```math
 d\mu_{GS}=0,
-\qquad
-X_{GS}=0.
 \tag{EMC.22}
 ```
 
@@ -327,8 +322,8 @@ The exact-concomitant correction is therefore:
 
 ```math
 \boxed{
-X_{QC}=X_{CG}=X_{GS}=0
-\quad\text{on the retained exact-current branches.}
+\text{no residual-mismatch }X_{QC},X_{CG},X_{GS}\text{ primitive is needed on
+the retained exact-current branches.}
 }
 \tag{EMC.28}
 ```
