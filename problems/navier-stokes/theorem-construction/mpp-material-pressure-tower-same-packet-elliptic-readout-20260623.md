@@ -22,8 +22,10 @@ Date: 2026-06-23
 
 ## 0. Claim
 
-The pressure tower in \(\mathcal P_N^{mat}\) is the finite-depth record of the
-pressure Lagrange multiplier in the same transported material packet.
+The pressure tower in \(\mathcal P_N^{mat}\) is the finite-derivative-depth
+record of the pressure Lagrange multiplier in the same transported material
+packet. "Finite depth" means derivatives up to a fixed order \(N\); it does
+not mean finitely many Fourier modes or finitely many physical frequencies.
 
 For the material variables
 
@@ -116,8 +118,8 @@ Equivalently, before pullback, the pressure identity is
 
 for divergence-free \(u\).
 
-For every \(N\) used in the continuation readout, elliptic estimates on the
-uniformly controlled material chart give
+For every derivative depth \(N\) used in the continuation readout, elliptic
+estimates on the uniformly controlled material chart give
 
 ```math
 \sum_{|\alpha|\le N-1}\|D_a^\alpha q(t)\|_{L^2_a}
