@@ -20,6 +20,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-singularity-to-retained-material-critical-packet-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-material-a4b-lower-bound-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-same-packet-part-noexit-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-same-material-dyadic-packet-overlap-selection-20260623.md
 ---
 
 # Original Smooth Data To Prelimit Master Balance Family Direct Attempt
@@ -188,7 +189,10 @@ The retained lower-bound theorem gives:
 \tag{OSF.14}
 ```
 
-The selected log-scale intervals have bounded multiplicity \(K\).  Therefore
+The selected family is counted by
+`SameMaterialDyadicPacketOverlapSelection.A`: after log-scale separation, the
+transported material labels have finite multiplicity \(K\) in the full clock
+atlas.  Therefore
 
 ```math
 \sum_j c(\varepsilon_0)
