@@ -1,22 +1,24 @@
 ---
 theorem_id: forward-gold-original-data-spike-thinning-full-participation-trichotomy-20260623
-status: proved-as-full-packet-height-doubling-trichotomy
+status: physical-trichotomy-installed-clock-quantum-conditional-on-signed-coercivity
 logical_landing_node: original_data_spike_thinning_full_participation_trichotomy
 edge_effect: >-
-  Turns the physical spike picture into a same-material packet theorem. A
+  Turns the physical spike picture into a same-material packet trichotomy. A
   finite-time rising spike from smooth finite-energy initial data is read on
   the same material packet. At each height-doubling step, the full
   pressure-viscosity-incompressibility-velocity packet records one of three
   events: material geometry thins or stretches and spends strain clock; the
   selected active material changes and spends selector/collar/interface clock;
-  or the same material packet gains kinetic storage and spends annular
-  stress/strain work. Thus an infinite terminal spike-thinning recurrence is an
-  infinite full same-material clock recurrence.
+  or the same material packet changes kinetic storage through annular
+  stress/strain work. The trichotomy becomes a contradiction only after the
+  signed smooth same-packet commutator/coercivity theorem proves that these
+  events have a finite full-clock budget.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-smooth-to-prelimit-master-balance-family-direct-attempt-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-strain-metric-clock-sharpening-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-material-annular-return-identity-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-smooth-same-packet-commutator-coercivity-audit-20260623.md
 ---
 
 # Original-Data Spike-Thinning Full Participation Trichotomy
@@ -317,7 +319,9 @@ pure pointwise height spike with all these normalized quantities vanishing is
 not a non-gauge selected terminal witness; it has no annular
 stress/strain-history record for the proof to test.
 
-For a normalized non-gauge selected terminal packet there is a constant
+For a normalized non-gauge selected terminal packet, a fixed lower clock
+quantum follows only after the three trichotomy channels are admitted into the
+signed full same-packet clock.  Under that admission, there is a constant
 \(\eta_N>0\), depending only on the normalization and tower level, such that
 each genuine height-doubling event satisfies
 
@@ -326,11 +330,12 @@ each genuine height-doubling event satisfies
 \tag{STP.25}
 ```
 
-This is the full-participation version of the spike-thinning rule.
+This is the full-participation version of the spike-thinning rule conditional
+on the signed smooth same-packet commutator/coercivity theorem.
 
 ## 4. Contradiction with finite full clock
 
-The simultaneous material four-body master balance gives
+The signed smooth same-packet master balance would give
 
 ```math
 d\mathfrak L_{4B,N}
@@ -367,9 +372,10 @@ many height doublings.  By `(STP.25)`,
 
 contradicting `(STP.27)`.
 
-## 5. Result
+## 5. Conditional result
 
-The physical spike picture closes as a full participation theorem:
+The physical spike picture becomes a full participation theorem once the signed
+smooth same-packet commutator/coercivity theorem supplies the finite full clock:
 
 ```math
 \boxed{
@@ -382,6 +388,8 @@ The physical spike picture closes as a full participation theorem:
 \tag{STP.29}
 ```
 
-The proof does not use a viscosity-only drain, pressure-only recovery, finite
+The route does not use a viscosity-only drain, pressure-only recovery, finite
 jet proxy, endpoint measure proxy, or detached readout.  Every case is read on
-the same pressure-viscosity-incompressibility-velocity material packet.
+the same pressure-viscosity-incompressibility-velocity material packet, and the
+remaining proof producer is the signed full-clock coercivity estimate for that
+same packet.
