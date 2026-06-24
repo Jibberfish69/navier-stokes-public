@@ -124,24 +124,34 @@ Since \(x=X(a,t)\), the Eulerian gradient is
 \tag{MHR.7}
 ```
 
-For every integer \(k\le m_s\), repeated use of `(MHR.7)` gives the finite
-Faà di Bruno chain-rule expansion
+For \(k=0\), \(u(X(a,t),t)=v(a,t)\).  For every integer
+\(1\le k\le m_s\), repeated use of `(MHR.7)` gives the finite chain-rule
+expansion
 
 ```math
 \nabla_x^k u(X(a,t),t)
 =
-\sum_{\ell=1}^{k}
-\sum_{\beta_0+\beta_1+\cdots+\beta_\ell\le k}
-C_{\beta}
-\left(\prod_{j=1}^{\ell}D_a^{\beta_j}A(a,t)\right)
-D_a^{\beta_0}v(a,t),
+\sum_{\Gamma\in\mathcal I_k}
+C_{\Gamma}
+\left(\prod_{\nu=1}^{r_\Gamma}D_a^{\beta_{\Gamma,\nu}}A(a,t)\right)
+D_a^{\gamma_\Gamma}v(a,t),
 \tag{MHR.8}
 ```
 
-where every term uses at most \(k\) material derivatives of \(v\) and at most
-\(k-1\) derivatives of \(A\) when \(k\ge1\), with harmless lower-order
-variants from differentiating products. The combinatorial constants depend
-only on \(m_s\).
+where \(\mathcal I_k\) is finite, \(r_\Gamma\le k\),
+\(1\le|\gamma_\Gamma|\le k\), and
+
+```math
+|\gamma_\Gamma|
++
+\sum_{\nu=1}^{r_\Gamma}|\beta_{\Gamma,\nu}|
+=k.
+\tag{MHR.8a}
+```
+
+Thus the total derivative order falling on the coefficient factors is at most
+\(k-1\).  The constants and the finite index set depend only on \(k\), hence
+only on \(m_s\) after summing.
 
 Using the change of variables \(x=X(a,t)\),
 
@@ -160,7 +170,8 @@ C_{k}
 \|A(t)\|_{W^{k-1,\infty}_a},
 \|J(t)\|_{L^\infty_a}
 \right)
-\sum_{|\alpha|\le k}\|D_a^\alpha v(t)\|_{L^2_a}^2.
+\sum_{1\le|\alpha|\le k}\|D_a^\alpha v(t)\|_{L^2_a}^2
+\mathbf 1_{k=0}\|v(t)\|_{L^2_a}^2.
 \tag{MHR.10}
 ```
 
