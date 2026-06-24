@@ -1,36 +1,41 @@
 ---
 theorem_id: forward-gold-prelimit-master-balance-limit-passage-proof-20260623
-status: proved-smooth-master-balance-residual-absorption-relaxed-lsc-limit-passage
+status: conditional-limit-passage-after-signed-smooth-packet-commutator-coercivity
 logical_landing_node: prelimit_master_balance_limit_passage
 edge_effect: >-
-  Installs the supplied closure of the three remaining gates for the prelimit
-  master-balance branch. The smooth same-carrier master balance is proved on
-  each prelimit material packet, the residual is split into absorbable
-  clock/loss pieces plus a uniformly finite lower-order residual, and the
-  terminal passage is made through relaxed lower semicontinuity. The interface
-  defect is not estimated after the limit; it is defined as the lower
-  semicontinuity gap of the positive prelimit clock, hence enters the left side
-  automatically. This closes the limit-passage gate for the prelimit
-  master-balance branch.
+  Records the correct order for the prelimit master-balance branch after the
+  exactness audit. The relaxed lower-semicontinuity passage is valid once the
+  smooth same-carrier master balance has been proved with a signed commutator
+  coercivity estimate. The interface defect is not estimated after the limit;
+  it is defined as the lower-semicontinuity gap of the positive prelimit clock,
+  hence enters the left side automatically. What remains open in this file is
+  the production of the smooth signed same-packet commutator/coercivity line
+  that makes the prelimit full clock finite.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-material-pressure-tower-same-packet-elliptic-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-construction-check-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-same-carrier-clock-lsc-defect-closure-check-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-frozen-family-compactness-lsc-solution-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-legal-residual-logscale-summability-correction-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-smooth-same-packet-commutator-coercivity-audit-20260623.md
 ---
 
 # Prelimit Master Balance Limit Passage Proof
 
 Date: 2026-06-23
 
-## 0. Result
+## 0. Conditional result
 
-The branch closes by proving the smooth same-carrier balance first, absorbing
-the residual before taking limits, and then passing through relaxed lower
-semicontinuity.
+The limit-passage branch has the correct order: prove the smooth same-carrier
+balance first, absorb the residual before taking limits, and then pass through
+relaxed lower semicontinuity.
 
-The limiting inequality is
+This file does not yet prove the smooth signed commutator/coercivity line that
+produces the full prelimit clock.  The limiting inequality below is conditional
+on the theorem isolated in
+`mpp-forward-gold-signed-smooth-same-packet-commutator-coercivity-audit-20260623.md`.
+
+Under that signed smooth-packet theorem, the limiting inequality is
 
 ```math
 d\mathfrak L_{4B,N}
