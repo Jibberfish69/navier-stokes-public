@@ -187,3 +187,33 @@ The closure package records the current classical closure architecture:
 These steps are not yet completed at theorem grade on the current full-claim
 surface. Remaining work is packet discharge first, then manuscript and export
 hygiene.
+
+
+## 2026-06-24 Closure Package Repair Update
+
+The C3 `4 -> 1` local packet has received a non-TeX theorem-surface repair:
+
+`problems/navier-stokes/theorem-construction/strict-low-mode-coefficient-repair-20260624.md`.
+
+This repair addresses the strict-low coefficient defect in the tail-energy
+recertification layer.  The live repaired coefficient is
+
+```math
+\mathcal G_N(t)=1+\sum_{k\le N-4}2^{3k/2}\|\nabla\Delta_k u(t)\|_2,
+```
+
+and the repaired strict-low target is
+
+```math
+\mathcal N^{tail}_{N,strict}(t)
+\le C\mathcal G_N(t)T_N(t).
+```
+
+The repair keeps the C3 packet on the declared Euclidean theorem surface by
+using incompressibility cancellation, the Route B gradient-transfer `H^1`
+output, and the retained coercive tail damping.  It should replace the older
+compressed strict-low statement wherever that statement relied on a direct
+Young step that would square the low coefficient.
+
+Remaining C3 status: locally improved, still subject to full packet audit and
+full manuscript/export propagation before any closure promotion.
