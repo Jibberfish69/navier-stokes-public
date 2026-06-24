@@ -4,22 +4,37 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   falsification_id: lemma-falsification-navier-stokes
-  generated_at: '2026-06-24T00:44:19Z'
+  generated_at: '2026-06-24T00:50:24Z'
   generator: system/runner/lib/lemma_falsification_builder.rb
   source_branch_set_id: extension-branches-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
 results:
 - branch_id: branch-navier-stokes-1
-  origin_obligation_id: pack-out-of-cm-smoothness-certification-audit
+  origin_obligation_id: signed-smooth-same-packet-commutator-coercivity
   verdict: quarantine
   reasons:
   - This is a route branch rather than a local theorem bridge, so it stays quarantined.
 - branch_id: branch-navier-stokes-2
+  origin_obligation_id: original-smooth-data-material-history-no-finite-breakdown
+  verdict: quarantine
+  reasons:
+  - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+- branch_id: branch-navier-stokes-3
+  origin_obligation_id: pack-out-of-cm-smoothness-certification-audit
+  verdict: quarantine
+  reasons:
+  - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+- branch_id: branch-navier-stokes-4
+  origin_obligation_id: r3-whole-space-cm-completion
+  verdict: quarantine
+  reasons:
+  - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+- branch_id: branch-navier-stokes-5
   origin_obligation_id: scale-uniform-annular-supplier-goal-resolution
   verdict: quarantine
   reasons:
   - This is a route branch rather than a local theorem bridge, so it stays quarantined.
 summary:
   survives_first_pass_count: 0
-  quarantined_count: 2
+  quarantined_count: 5
   rejected_count: 0

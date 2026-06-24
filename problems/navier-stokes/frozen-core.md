@@ -11,17 +11,18 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Grounded Core
 
-- OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A (`live-theorem-frontier`; `original-smooth-data-material-history-no-finite-breakdown`)
 - PackOutOfCMObjectBoundary.A (`live-theorem-frontier`; `pack-out-of-cm-object-boundary`)
 - ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A (`live-theorem-frontier`; `clay-cm-contrapositive-witness-consumption`)
 - CMPartOntologyWitnessNotation.A (`live-theorem-frontier`; `cm-part-ontology-witness-notation-correction`)
 - TorusGlobalMaterialAtlasTerminalCapture.A (`live-theorem-frontier`; `torus-global-material-atlas-terminal-capture`)
-- R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A (`live-theorem-frontier`; `r3-whole-space-cm-completion`)
 
 ## Source Frontier
 
-- `first_unresolved`: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A (`live-theorem-frontier`; `pack-out-of-cm-smoothness-certification-audit`)
+- `first_unresolved`: SignedSmoothSamePacketCommutatorCoercivity.A (`live-theorem-frontier`; `signed-smooth-same-packet-commutator-coercivity`)
+- SignedSmoothSamePacketCommutatorCoercivity.A (`live-theorem-frontier`; `signed-smooth-same-packet-commutator-coercivity`)
+- OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A (`live-theorem-frontier`; `original-smooth-data-material-history-no-finite-breakdown`)
 - PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A (`live-theorem-frontier`; `pack-out-of-cm-smoothness-certification-audit`)
+- R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A (`live-theorem-frontier`; `r3-whole-space-cm-completion`)
 - ScaleUniformAnnularSupplierGoalResolution.A / AnnularLimitCMFaceLanding.A (`live-theorem-frontier`; `scale-uniform-annular-supplier-goal-resolution`)
 
 ## Source Surfaces

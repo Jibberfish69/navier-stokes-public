@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   branch_set_id: extension-branches-navier-stokes
-  generated_at: '2026-06-24T00:44:19Z'
+  generated_at: '2026-06-24T00:50:24Z'
   generator: system/runner/lib/lemma_synthesis_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -14,6 +14,33 @@ provenance_policy:
     and promotion.
 branches:
 - branch_id: branch-navier-stokes-1
+  origin_obligation_id: signed-smooth-same-packet-commutator-coercivity
+  branch_type: route-branch
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Open a quarantined side branch that tests whether signedSmoothSamePacketCommutatorCoercivity.A
+    can be made explicit without crossing the current safe-claim boundary.
+  depends_on:
+  - cm-part-ontology-witness-notation-correction
+  - torus-global-material-atlas-terminal-capture
+  - signed-smooth-same-packet-commutator-coercivity
+  risk_level: high
+  notes:
+  - This branch starts exactly at the first unresolved frontier for `signed-smooth-same-packet-commutator-coercivity`.
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-2
+  origin_obligation_id: original-smooth-data-material-history-no-finite-breakdown
+  branch_type: route-branch
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Open a quarantined side branch that tests whether originalSmoothDataMaterialHistoryNoFiniteBreakdown.A
+    can be made explicit without crossing the current safe-claim boundary.
+  depends_on:
+  - cm-part-ontology-witness-notation-correction
+  - torus-global-material-atlas-terminal-capture
+  - original-smooth-data-material-history-no-finite-breakdown
+  risk_level: high
+  notes: []
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-3
   origin_obligation_id: pack-out-of-cm-smoothness-certification-audit
   branch_type: route-branch
   provenance: machine-derived-beyond-source-frontier
@@ -21,14 +48,27 @@ branches:
     / OriginalParticipationBeforePackLicensing.A can be made explicit without crossing
     the current safe-claim boundary.
   depends_on:
+  - cm-part-ontology-witness-notation-correction
   - torus-global-material-atlas-terminal-capture
-  - r3-whole-space-cm-completion
   - pack-out-of-cm-smoothness-certification-audit
   risk_level: high
-  notes:
-  - This branch starts exactly at the first unresolved frontier for `pack-out-of-cm-smoothness-certification-audit`.
+  notes: []
   merge_policy: quarantined-until-promoted
-- branch_id: branch-navier-stokes-2
+- branch_id: branch-navier-stokes-4
+  origin_obligation_id: r3-whole-space-cm-completion
+  branch_type: route-branch
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Open a quarantined side branch that tests whether r3ExteriorDyadicSurvivorMaterialClockExclusion.A
+    / R3.WholeSpaceHsTailCompletion.A can be made explicit without crossing the current
+    safe-claim boundary.
+  depends_on:
+  - cm-part-ontology-witness-notation-correction
+  - torus-global-material-atlas-terminal-capture
+  - r3-whole-space-cm-completion
+  risk_level: high
+  notes: []
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-5
   origin_obligation_id: scale-uniform-annular-supplier-goal-resolution
   branch_type: route-branch
   provenance: machine-derived-beyond-source-frontier
@@ -36,11 +76,11 @@ branches:
     / AnnularLimitCMFaceLanding.A can be made explicit without crossing the current
     safe-claim boundary.
   depends_on:
+  - cm-part-ontology-witness-notation-correction
   - torus-global-material-atlas-terminal-capture
-  - r3-whole-space-cm-completion
   - scale-uniform-annular-supplier-goal-resolution
   risk_level: high
   notes: []
   merge_policy: quarantined-until-promoted
 summary:
-  branch_count: 2
+  branch_count: 5

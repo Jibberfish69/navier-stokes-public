@@ -4,26 +4,36 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-06-24T00:44:19Z'
+  generated_at: '2026-06-24T00:50:24Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
 theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
-  OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A; PackOutOfCMObjectBoundary.A;
-  ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A;
-  CMPartOntologyWitnessNotation.A; PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A.'
+  SignedSmoothSamePacketCommutatorCoercivity.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
+  PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
+  / ClayCMContrapositiveEmbedding.A; CMPartOntologyWitnessNotation.A.'
 source_grounded_chain:
-- OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
 - PackOutOfCMObjectBoundary.A
 - ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
 - CMPartOntologyWitnessNotation.A
 - TorusGlobalMaterialAtlasTerminalCapture.A
-- R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A
 tentative_extension_chain: []
 remaining_open_obligations:
+- obligation_id: signed-smooth-same-packet-commutator-coercivity
+  label: SignedSmoothSamePacketCommutatorCoercivity.A
+  kind: live-theorem-frontier
+  status: frontier-open
+- obligation_id: original-smooth-data-material-history-no-finite-breakdown
+  label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
+  kind: live-theorem-frontier
+  status: frontier-open
 - obligation_id: pack-out-of-cm-smoothness-certification-audit
   label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
+  kind: live-theorem-frontier
+  status: frontier-open
+- obligation_id: r3-whole-space-cm-completion
+  label: R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A
   kind: live-theorem-frontier
   status: frontier-open
 - obligation_id: scale-uniform-annular-supplier-goal-resolution
@@ -33,8 +43,20 @@ remaining_open_obligations:
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
   math_frontier_obligations:
+  - obligation_id: signed-smooth-same-packet-commutator-coercivity
+    label: SignedSmoothSamePacketCommutatorCoercivity.A
+    kind: live-theorem-frontier
+    status: frontier-open
+  - obligation_id: original-smooth-data-material-history-no-finite-breakdown
+    label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
+    kind: live-theorem-frontier
+    status: frontier-open
   - obligation_id: pack-out-of-cm-smoothness-certification-audit
     label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
+    kind: live-theorem-frontier
+    status: frontier-open
+  - obligation_id: r3-whole-space-cm-completion
+    label: R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A
     kind: live-theorem-frontier
     status: frontier-open
   - obligation_id: scale-uniform-annular-supplier-goal-resolution
@@ -46,8 +68,20 @@ frontier_context:
   route_container_obligations: []
   downstream_support_obligations: []
   additional_context_obligations:
+  - obligation_id: signed-smooth-same-packet-commutator-coercivity
+    label: SignedSmoothSamePacketCommutatorCoercivity.A
+    kind: live-theorem-frontier
+    status: frontier-open
+  - obligation_id: original-smooth-data-material-history-no-finite-breakdown
+    label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
+    kind: live-theorem-frontier
+    status: frontier-open
   - obligation_id: pack-out-of-cm-smoothness-certification-audit
     label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
+    kind: live-theorem-frontier
+    status: frontier-open
+  - obligation_id: r3-whole-space-cm-completion
+    label: R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A
     kind: live-theorem-frontier
     status: frontier-open
   - obligation_id: scale-uniform-annular-supplier-goal-resolution
@@ -55,22 +89,26 @@ frontier_context:
     kind: live-theorem-frontier
     status: frontier-open
 next_solver_targets:
+- obligation_id: signed-smooth-same-packet-commutator-coercivity
+  label: SignedSmoothSamePacketCommutatorCoercivity.A
+  kind: live-theorem-frontier
+  status: frontier-open
+- obligation_id: original-smooth-data-material-history-no-finite-breakdown
+  label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
+  kind: live-theorem-frontier
+  status: frontier-open
 - obligation_id: pack-out-of-cm-smoothness-certification-audit
   label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
   kind: live-theorem-frontier
   status: frontier-open
-- obligation_id: scale-uniform-annular-supplier-goal-resolution
-  label: ScaleUniformAnnularSupplierGoalResolution.A / AnnularLimitCMFaceLanding.A
-  kind: live-theorem-frontier
-  status: frontier-open
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-e1eff71fb128
-  route_signature: e1eff71fb128638c7c6e38bda92e1c4f137a7328
+  surface_id: theorem-surface-navier-stokes-c180ca0473fc
+  route_signature: c180ca0473fc77ed753e74b886ed7f200f785f38
   theorem_target: clay-cm-contrapositive-witness-consumption
   theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
-    OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A; PackOutOfCMObjectBoundary.A;
-    ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A;
-    CMPartOntologyWitnessNotation.A; PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A.'
+    SignedSmoothSamePacketCommutatorCoercivity.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
+    PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
+    / ClayCMContrapositiveEmbedding.A; CMPartOntologyWitnessNotation.A.'
   route_chain:
   - Start with the alleged finite-time Clay terminal witness from the same original
     smooth Navier-Stokes datum
@@ -85,14 +123,20 @@ theorem_surface:
   - The pass branch remains the lawful smooth continuation branch, while the fail
     branch has no legal in-class nonsmooth continuation status
   route_slots:
-  - slot_id: pack-out-of-cm-smoothness-certification-audit
-    label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
+  - slot_id: signed-smooth-same-packet-commutator-coercivity
+    label: SignedSmoothSamePacketCommutatorCoercivity.A
     kind: live-theorem-frontier
     status: frontier-open
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
     patch_surface: problems/navier-stokes/live-theorem-edge.yaml
-  - slot_id: scale-uniform-annular-supplier-goal-resolution
-    label: ScaleUniformAnnularSupplierGoalResolution.A / AnnularLimitCMFaceLanding.A
+  - slot_id: original-smooth-data-material-history-no-finite-breakdown
+    label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
+    kind: live-theorem-frontier
+    status: frontier-open
+    source_anchor: problems/navier-stokes/live-theorem-edge.yaml
+    patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+  - slot_id: pack-out-of-cm-smoothness-certification-audit
+    label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
     kind: live-theorem-frontier
     status: frontier-open
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
@@ -193,17 +237,17 @@ theorem_surface:
     cross_surface_splice: false
     sterilized_synthesis_import_count: 0
 summary:
-  grounded_step_count: 6
+  grounded_step_count: 4
   promoted_extension_count: 0
   bridge_discharge_blocking_count: 0
   bridge_discharge_only_count: 0
   theorem_warrant_blocking_count: 0
-  open_obligation_count: 2
-  math_frontier_open_count: 2
-  frontier_context_count: 2
+  open_obligation_count: 5
+  math_frontier_open_count: 5
+  frontier_context_count: 5
   frontier_route_container_count: 0
   frontier_downstream_support_count: 0
   tracked_source_count: 140
   synthesis_import_surface_count: 0
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-e1eff71fb128
+  theorem_surface_id: theorem-surface-navier-stokes-c180ca0473fc
