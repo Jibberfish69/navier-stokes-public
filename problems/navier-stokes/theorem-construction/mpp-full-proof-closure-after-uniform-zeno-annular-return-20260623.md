@@ -266,8 +266,8 @@ Whole-space \(H^s\) local theory also relaunches the same solution past
 \;+\;
 \text{finite full same-packet clock from signed smooth coercivity}
 \Longrightarrow
-\text{no finite-time classical breakdown on }T^3
-\text{ or on }\mathbb R^3.
+\text{classical relaunch beyond }T_*
+\text{ on }T^3\text{ and on }\mathbb R^3.
 }
 \tag{FCZ.11}
 ```
