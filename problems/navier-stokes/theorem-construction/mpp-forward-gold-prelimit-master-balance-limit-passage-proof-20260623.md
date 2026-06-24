@@ -653,10 +653,11 @@ dR_{4B,N}.
 
 This is `(PML.1)`.
 
-## 6. Consequence
+## 6. Conditional consequence
 
 Because the relaxed storage is nonnegative and \(dR_{4B,N}\) has finite mass,
-integrating `(PML.41)` gives
+integrating `(PML.41)` gives, conditional on the signed smooth-packet
+commutator/coercivity theorem,
 
 ```math
 \int_{\sigma_0}^{\infty}
@@ -671,13 +672,14 @@ d\mathcal K_{\rm iface}
 \tag{PML.42}
 ```
 
-The three gates left by the prelimit master-balance construction are therefore
-closed:
+The passage gates after the smooth signed clock theorem are:
 
 1. \(dR_{4B,N}\) is a finite relaxed residual measure.
 2. \(\mathfrak L_{4B,N}\) is lower-bounded by relaxed storage.
 3. \(d\mathcal K_{\rm iface}\) is left-side clock mass, not a post-limit
    residual.
 
-The branch result is the relaxed same-packet four-body coercive balance
-`(PML.41)`.
+The live branch result is therefore conditional: the relaxed same-packet
+four-body coercive balance `(PML.41)` follows from the signed smooth
+same-packet commutator/coercivity theorem, not from the limit-passage argument
+alone.
