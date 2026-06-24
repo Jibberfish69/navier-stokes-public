@@ -1,6 +1,37 @@
 \section{Direct Closure and the Four-Body Diagnostic}
 \label{sec:positive-forward-four-body-diagnostic}
 
+\subsection{Where the Factorial Tower Enters the Four-Body Circuit}
+\label{subsec:factorial-tower-four-body-entry}
+
+The Stirling/binomial route refines the first body of the four-body circuit.  The raw mixed-derivative expansion creates coefficients
+\[
+  {m\choose a}{\alpha\choose\beta},
+\]
+while the factorial tower weight
+\[
+  w_{m,\alpha}(\tau,\rho)={\tau^m\rho^{|\alpha|}\over m!\,\alpha!}
+\]
+absorbs those coefficients exactly.  The first body therefore receives an exact tower-normalization payment rather than an informal combinatorial estimate.
+
+With moving time and space radii, the same tower produces the signed exchange
+\[
+  dL_S+dD_S^{\rm rad}=dJ_{SQ},
+  \qquad D_S^{\rm rad}\ge0.
+\]
+This is the coupled analytic-radius spend.  It is the amount of tower radius paid by the selected scale channel as the four-body circuit moves toward a terminal endpoint.
+
+The diagnostic question passed to the next body is the same-carrier reserve question.  The selected activity \(a_j(s)\) has to be priced by a same-carrier action \(B_j(s)\),
+\[
+  a_j(s)\le \lambda B_j(s)+\ell_j(s),
+  \qquad \int_{-1}^{0}\ell_j(s)\,ds=o_j(1),
+\]
+and the same action has to satisfy the terminal-family reserve
+\[
+  \lim_{N\to\infty}\sum_{j:\,r_j\le2^{-N}}\int_{-1}^{0}B_j(s)\,ds=0.
+\]
+This is the current forward-gold wall named by the active thread: coupled radius spend plus same-carrier reserve.  The four-body circuit therefore routes the factorial tower into a precise proof burden instead of leaving Stirling/binomial cancellation as a side calculation.
+
 The direct proof target for Navier--Stokes is exact. One wants estimates that
 start from the original smooth divergence-free datum, remain on the same
 Navier--Stokes solution, and satisfy a continuation criterion for the classical
