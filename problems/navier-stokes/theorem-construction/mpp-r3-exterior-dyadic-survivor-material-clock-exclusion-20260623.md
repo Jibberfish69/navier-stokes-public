@@ -131,23 +131,25 @@ tail is necessarily high-frequency.
 ## 3. A survivor enters the heat-scale material tower clock
 
 From \((R3M.5)\) and \((R3M.6)\), there are radii \(R_j\to\infty\), times
-\(t_j<T_*\), and dyadic frequencies \(N_j\to\infty\) such that
+\(t_j<T_*\), and dyadic frequencies \(\Lambda_j\to\infty\) such that
 
 ```math
-N_j^s
-\|P_{N_j}W_{R_j}(t_j)\|_{L^2(\mathbb R^3)}
+\Lambda_j^s
+\|P_{\Lambda_j}W_{R_j}(t_j)\|_{L^2(\mathbb R^3)}
 \ge c_0>0 .
 \tag{R3M.9}
 ```
 
-Localize the exterior region at radius \(r_j=N_j^{-1}\) by a smooth material
-packet partition \(\{\psi_{j,\ell}\}_{\ell\in\mathcal I_j}\) with finite
-overlap.  Then
+Localize the exterior region at radius \(r_j=\Lambda_j^{-1}\) by a smooth
+material packet partition \(\{\psi_{j,\ell}\}_{\ell\in\mathcal I_j}\) with
+finite overlap.  The dyadic frequency \(\Lambda_j\) is only the spatial scale
+of the selected packet; the material clock below uses the fixed continuation
+depth \(N_s\) chosen for this \(H^s\) readout.  Then
 
 ```math
 \sum_{\ell\in\mathcal I_j}
-N_j^{2s}
-\|\psi_{j,\ell}P_{N_j}W_{R_j}(t_j)\|_{L^2}^2
+\Lambda_j^{2s}
+\|\psi_{j,\ell}P_{\Lambda_j}W_{R_j}(t_j)\|_{L^2}^2
 \ge c\,c_0^2 .
 \tag{R3M.9a}
 ```
@@ -155,7 +157,7 @@ N_j^{2s}
 Set
 
 ```math
-r_j:=N_j^{-1}.
+r_j:=\Lambda_j^{-1}.
 \tag{R3M.10}
 ```
 
