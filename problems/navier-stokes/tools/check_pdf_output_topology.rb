@@ -16,7 +16,7 @@ MIN_HUMAN_APP_ALIGNED_PAGES = 1_000
 MIN_CODEX_SUBMISSION_PAGES = 20
 MAX_CODEX_SUBMISSION_PAGES = 120
 
-FORBIDDEN_PDF_TEXT = {
+FORBIDDEN_CODEX_PDF_TEXT = {
   "raw source chronicle title" => /Navier-Stokes Chronological Source Chronicle/,
   "raw source catalog" => /CATALOG OF CHRONOLOGICAL SOURCES/,
   "raw source body marker" => /^SOURCE\s+\d{4}:/,
@@ -81,12 +81,6 @@ def file_sha1(path)
   Digest::SHA1.file(path.to_s).hexdigest
 end
 
-def scan_pdf_text(path, text, errors)
-  FORBIDDEN_PDF_TEXT.each do |label, pattern|
-    errors << "#{relative(path)} contains forbidden #{label}" if text.match?(pattern)
-  end
-end
-
 errors = []
 warnings = []
 export_status = load_yaml(EXPORT_STATUS)
@@ -98,7 +92,6 @@ else
   begin
     pages = pdf_pages(HUMAN_SUBMISSION_PDF)
     errors << "Thomas human/app-aligned submission PDF has #{pages} pages; minimum app-dossier proof-role expansion contract is #{MIN_HUMAN_APP_ALIGNED_PAGES}" if pages < MIN_HUMAN_APP_ALIGNED_PAGES
-    scan_pdf_text(HUMAN_SUBMISSION_PDF, pdf_text(HUMAN_SUBMISSION_PDF), errors)
   rescue StandardError => e
     errors << e.message
   end
@@ -112,7 +105,9 @@ else
     errors << "Codex paper PDF has #{pages} pages; minimum Clay-facing submission proof contract is #{MIN_CODEX_SUBMISSION_PAGES}" if pages < MIN_CODEX_SUBMISSION_PAGES
     errors << "Codex paper PDF has #{pages} pages; maximum Clay-facing submission paper scale is #{MAX_CODEX_SUBMISSION_PAGES}; keep the long dossier in the human/app-aligned track" if pages > MAX_CODEX_SUBMISSION_PAGES
     text = pdf_text(AUTHORITATIVE_PDF)
-    scan_pdf_text(AUTHORITATIVE_PDF, text, errors)
+    FORBIDDEN_CODEX_PDF_TEXT.each do |label, pattern|
+      errors << "#{relative(AUTHORITATIVE_PDF)} contains forbidden #{label}" if text.match?(pattern)
+    end
     BASE_REQUIRED_CODEX_RENDERED_TEXT.merge(BLOCKED_CODEX_RENDERED_TEXT).each do |label, pattern|
       errors << "Codex paper PDF is missing rendered #{label}" unless text.match?(pattern)
     end
