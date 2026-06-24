@@ -79,7 +79,7 @@ frequency-depth tower claim.
 
 ## 1. Heat-time localization of the Duhamel response
 
-On dyadic frequency \(N\),
+On a temporary dyadic frequency \(N\) (only in this heat-kernel estimate),
 
 ```math
 \|P_N e^{\nu(t-\tau)\Delta}\mathbb P\nabla\cdot f\|_{L^2}
@@ -185,8 +185,8 @@ The prelimit master-balance passage gives the relaxed clock identity
 ```math
 d\mu_{\rm clock}
 =
-dA_{4B,N}
-+C_{\log}d[\log(1+\mathcal P_N^{mat})]_+
+dA_{4B,N_s}
++C_{\log}d[\log(1+\mathcal P_{N_s}^{mat})]_+
 +d\mathcal K_{\rm iface},
 \tag{DSM.11}
 ```
@@ -194,13 +194,13 @@ dA_{4B,N}
 and the coercive inequality
 
 ```math
-d\mathfrak L_{4B,N}
+d\mathfrak L_{4B,N_s}
 +
 c\,d\mu_{\rm clock}
 +
-d\mathcal L_{4B,N}
+d\mathcal L_{4B,N_s}
 \le
-dR_{4B,N}.
+dR_{4B,N_s}.
 \tag{DSM.12}
 ```
 
