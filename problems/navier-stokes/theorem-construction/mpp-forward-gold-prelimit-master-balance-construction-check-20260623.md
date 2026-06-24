@@ -26,6 +26,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-legal-residual-logscale-summability-correction-20260623.md
   - problems/navier-stokes/theorem-construction/lagrangian-material-derivative-recheck-note.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-smooth-same-packet-commutator-coercivity-audit-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-smooth-same-packet-commutator-direct-calculation-20260623.md
 ---
 
 # Prelimit Master Balance Construction Check
@@ -305,7 +306,7 @@ d[\log(1+\mathcal P_{N,m}^{mat})]_+.
 
 So geometry cannot grow outside the same material clock.
 
-## 5. Smooth master balance
+## 5. Conditional smooth master balance
 
 Define the smooth prelimit clock by
 
@@ -323,7 +324,7 @@ pressure-viscosity-incompressibility-velocity balance, not a detached
 post-limit object, and \(C_{log}\) is the same structural constant used in
 `(PMB.9a)`.
 
-The smooth master balance is:
+If the signed line `(PMB.9s)` is proved, the smooth master balance is:
 
 ```math
 d\mathfrak L_{4B,N,m}
@@ -371,18 +372,23 @@ dJ_{CG,m}+dR_{G,m}.
 \tag{PMB.20}
 ```
 
-At the smooth level these currents are exact pieces of the same integration by
-parts.  Summing cancels
+At the smooth level these currents would be exact pieces of the same
+integration by parts after `(PMB.9s)` has moved the positive commutator clock to
+the left.  Summing cancels
 
 ```math
 dJ_{SQ,m},\quad dJ_{QC,m},\quad dJ_{CG,m},\quad dJ_{GS,m},
 ```
 
-and recovers `(PMB.16)`.
+and recovers `(PMB.16)`.  Without `(PMB.9s)`, the calculation stops at the
+standard material-tower growth inequality: the commutator is bounded by the
+same-material strain/coefficient service rate times the record.  That is a
+BKM-type growth law, not a finite full-clock theorem.
 
 ## 6. Terminal limit
 
-After subsequence extraction in the downstream relaxed passage,
+After `(PMB.16)` is proved and after subsequence extraction in the downstream
+relaxed passage,
 
 ```math
 dA_{4B,N,m}
@@ -436,8 +442,9 @@ dR_{4B,N}.
 \tag{PMB.24}
 ```
 
-Thus the interface defect is not a separate post-limit obstruction. It is the
-lost part of the smooth prelimit clock.
+Thus the interface defect is not a separate post-limit obstruction once the
+smooth prelimit clock has been produced. It is the lost part of that smooth
+prelimit clock. The production of the clock remains conditional on `(PMB.9s)`.
 
 ## 7. Effect on the older signed-total obstruction
 
@@ -445,19 +452,21 @@ The older `FullTowerSignedTotalExchangeRetention.A` obstruction came from
 trying to infer total positive record-growth control from signed current
 cancellation.
 
-This master-balance construction changes that.  The positive material-record
-log clock is placed on the left side of the smooth master identity before the
-current split.  The four-current cancellation is then only the split form of
-that master identity.  The proof no longer asks signed net cancellation to
-control total positive variation by itself.
+This master-balance construction would change that after `(PMB.9s)` is proved.
+The positive material-record log clock would be placed on the left side of the
+smooth master identity before the current split.  The four-current cancellation
+would then be only the split form of that master identity.  Until `(PMB.9s)` is
+proved, the older signed-total obstruction has not been solved; it has been
+localized to the signed smooth same-packet commutator/coercivity line.
 
 So the older signed-total obstruction is superseded on the branch where
 `(PMB.16)` is proved.
 
 ## 8. Passage gates closed downstream
 
-This construction note leaves the compactness-passage checks to the downstream
-limit-passage proof:
+This construction note leaves two layers open.  The upstream layer is the
+signed smooth same-packet commutator/coercivity line `(PMB.9s)`.  The downstream
+layer, once `(PMB.9s)` is available, consists of the compactness-passage checks:
 
 ```math
 \sup_m\int dR_{4B,N,m}<\infty
@@ -484,7 +493,7 @@ d[\log(1+\mathcal P_N^{mat})]_+
 d\mu_{\rm clock}.
 ```
 
-The downstream proof closes these checks by residual normal form, relaxed
-storage, and lower semicontinuity.  The interface defect is no longer a separate
-obstruction; it is missing clock mass from the prelimit smooth same-carrier
-identity.
+The downstream proof closes those passage checks by residual normal form,
+relaxed storage, and lower semicontinuity.  The interface defect is no longer a
+separate obstruction after the prelimit clock exists; it is missing clock mass
+from the prelimit smooth same-carrier identity.
