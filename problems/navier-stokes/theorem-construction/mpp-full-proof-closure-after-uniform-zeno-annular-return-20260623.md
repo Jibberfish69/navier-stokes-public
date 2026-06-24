@@ -246,7 +246,7 @@ high-frequency exterior Duhamel response.  The dyadic heat kernel localizes that
 response to a backward heat-time strip, and that strip forces positive
 same-material nonlinear source/tower clock in the original Navier--Stokes
 history.  Same-material log-scale packet selection and the prelimit master
-balance give finite total clock mass.  The compact core is controlled by the
+balance would give finite total clock mass.  The compact core is controlled by the
 same local material-history clock on a finite transported local atlas.  Therefore
 
 ```math
@@ -258,7 +258,7 @@ Tail.Hs_{\mathbb R^3},
 ```
 
 Whole-space \(H^s\) local theory also relaunches the same solution past
-\(T_*\).  Therefore:
+\(T_*\).  Therefore, conditional on the same finite full-clock producer:
 
 ```math
 \boxed{
@@ -270,5 +270,6 @@ Whole-space \(H^s\) local theory also relaunches the same solution past
 \tag{FCZ.11}
 ```
 
-The proof uses the same-fluid pay-it-back-later mechanism as the terminal
-anti-pulse theorem.
+The assembly uses the same-fluid pay-it-back-later mechanism as the terminal
+anti-pulse theorem.  It is not an unconditional MPP proof until the signed
+smooth same-packet commutator/coercivity theorem is proved.
