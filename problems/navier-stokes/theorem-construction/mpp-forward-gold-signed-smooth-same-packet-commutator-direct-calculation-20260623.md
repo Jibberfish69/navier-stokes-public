@@ -260,14 +260,51 @@ clock mechanism at every depth.
 
 The same-fluid pay-it-back-later picture remains the correct physical object:
 the last-time center pulse must be read through the later transported annular
-stress/strain history.  The direct calculation shows exactly what is still
-missing mathematically:
+stress/strain history.  The initial wave-packet picture also stays in this same
+object.  Smooth initial data may contain infinitely many frequencies, but its
+Fourier amplitudes have finite Sobolev tails:
+
+```math
+\sum_k (1+|k|^2)^s|\widehat u_0(k)|^2<\infty
+\qquad
+\text{for every }s.
+\tag{SSC-DC.16}
+```
+
+That is entrance control for the full packet, not finite frequency support.
+The nonlinear term can move energy into higher frequencies, so the initial tail
+continues to control the terminal tower only under the same finite material
+strain/coefficient clock:
+
+```math
+\mathcal P_N^{mat}(0)<\infty
++
+\int_0^{T_*}\Theta_N(t)\,dt<\infty
+\Longrightarrow
+\sup_{t<T_*}\mathcal P_N^{mat}(t)<\infty.
+\tag{SSC-DC.17}
+```
+
+The annular stress/strain return gives the correct internal-force carrier, and
+on each fixed retained material annulus it has no endpoint atom.  Across a
+shrinking heat-scale family, however, its physical mass is radius-discounted:
+
+```math
+\int_{T-r^2}^{T}\rho_{A_r}(t)\,dt
+=
+r\int_{-1}^{0}\widehat\rho_{A_r}(s)\,ds.
+\tag{SSC-DC.18}
+```
+
+So the later return history is attached to the spike, but physical \(L^1\)
+stress-work alone does not give the unweighted normalized clock.  The direct
+calculation shows exactly what is still missing mathematically:
 
 ```math
 \boxed{
 \text{the full material strain/coefficient service clock must be finite,}
 }
-\tag{SSC-DC.16}
+\tag{SSC-DC.19}
 ```
 
 or equivalently,
@@ -277,7 +314,7 @@ or equivalently,
 \text{the commutator must admit a signed same-packet cross-storage/coercivity
 line.}
 }
-\tag{SSC-DC.17}
+\tag{SSC-DC.20}
 ```
 
 No current file proves that line.  The repo should therefore keep the MPP
