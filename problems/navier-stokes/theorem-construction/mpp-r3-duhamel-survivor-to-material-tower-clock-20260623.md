@@ -118,7 +118,8 @@ N^{s+1}\|P_{\sim N}F_R(\tau)\|_{L^2}\,d\tau
 
 This is the exact inverse Duhamel statement needed here.  It says the response
 could not appear without a same-time nonlinear source record in the original
-fluid.
+fluid.  In the application below, the temporary dyadic \(N\) is set to
+\(\Lambda_j\).
 
 ## 2. Localization does not detach the source from the material history
 
@@ -145,13 +146,36 @@ v=V(X(a,s),s),\qquad q=Q(X(a,s),s),
 \tag{DSM.9}
 ```
 
-After applying the finite material derivative record of depth \(N_s\) and the
-Bony/Littlewood--Paley split inside this transported packet, the lower bound
-`(DSM.8)` is a finite \(H^s\)-source readout of the \(S\to Q\) part of the
-smooth four-body master balance.  The frequency localization selects where the
-source sits; it does not increase the derivative depth of the material record.
-The finite Bony collar and cutoff commutators are the legal residuals already
-allowed by the residual normal form.
+The source norm in `(DSM.8)` is the dyadic form of the \(H^{s+1}\)-readout of
+the product \(u\otimes u\).  Choose \(N_s\) in the material record large enough
+to dominate this finite product readout; the standing choice
+\(N_s\ge\lceil s\rceil+4\) gives that margin.  In transported coordinates,
+every derivative of
+
+```math
+\psi_{\ell,\Lambda}\,P_{\sim\Lambda}(u\otimes u)
+\tag{DSM.9a}
+```
+
+up to order \(\lceil s\rceil+1\) is a finite sum of products of the same
+packet variables
+
+```math
+D_a^\beta v,\qquad D_a^\gamma A,\qquad D_a^\delta F,
+\tag{DSM.9b}
+```
+
+with \(|\beta|,|\gamma|,|\delta|\le N_s\), plus the fixed packet cutoff
+derivatives. Since \(s>5/2\), the finite Sobolev product/Moser estimates on
+the retained material chart place this source readout inside the same
+finite-depth material packet.
+
+Thus after the Bony/Littlewood--Paley split inside the transported packet, the
+lower bound `(DSM.8)` is a finite \(H^s\)-source readout of the \(S\to Q\) part
+of the smooth four-body master balance.  The frequency localization selects
+where the source sits; it does not increase the derivative depth of the
+material record. The finite Bony collar and cutoff commutators are the legal
+residuals already allowed by the residual normal form.
 
 Thus the selected exterior source clock
 
