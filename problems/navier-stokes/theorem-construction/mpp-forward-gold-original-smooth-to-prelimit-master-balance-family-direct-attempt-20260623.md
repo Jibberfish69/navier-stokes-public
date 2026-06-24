@@ -1,19 +1,17 @@
 ---
 theorem_id: forward-gold-original-smooth-to-prelimit-master-balance-family-direct-attempt-20260623
-status: proof-installed-original-data-to-prelimit-material-history-full-clock
+status: original-data-material-history-installed-full-clock-producer-conditional
 logical_landing_node: original_smooth_data_to_prelimit_master_balance_family
 edge_effect: >-
-  Corrects the remaining repo-side gate after the prelimit master-balance route
+  Corrects the original-data gate after the prelimit master-balance route
   supersedes the post-limit Kawashima burden. Original smooth data supplies one
   smooth material history at every preterminal time: the center spike, the
   annular layers underneath it, the strain/internal-force record, and the
   delayed annular return are not separate physical objects. The represented
-  material-history argument closes by the prelimit master balance and A_4B
-  lower-bound counting. The live gold passage is material-history preservation:
-  the terminal storage/overlap quantity must continue to be read on that same
-  prelimit material history. A limiting description that forgets the
-  transported pressure-viscosity-incompressibility-velocity record no longer
-  describes the material event under test; it is not a hidden gold residual.
+  material-history argument closes only after the signed smooth same-packet
+  commutator/coercivity theorem proves the finite full clock. The live gold
+  passage is material-history preservation plus production of that finite
+  same-packet clock.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-route-supersedes-postlimit-kawashima-burden-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
@@ -21,6 +19,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-preterminal-material-a4b-lower-bound-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-same-packet-part-noexit-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-same-material-dyadic-packet-overlap-selection-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-smooth-same-packet-commutator-coercivity-audit-20260623.md
 ---
 
 # Original Smooth Data To Prelimit Master Balance Family Direct Attempt
@@ -135,7 +134,8 @@ strong enough for the residual normal form.  This is not a second branch of the
 fluid.  It is the same smooth material history read in the terminal heat-scale
 coordinates.
 
-Then the prelimit master-balance theorem applies:
+Then the prelimit master-balance theorem would apply once the signed smooth
+same-packet commutator/coercivity theorem produces the finite full clock:
 
 ```math
 d\mathfrak L_{4B,N}
@@ -202,7 +202,8 @@ K\int_{\sigma_0}^{\infty}A_{4B}(\sigma)\,d\sigma
 \tag{OSF.15}
 ```
 
-This is impossible for infinitely many \(j\).  Hence:
+This is impossible for infinitely many \(j\), conditional on the finite
+same-material clock producer.  Hence:
 
 ```math
 \boxed{
@@ -284,8 +285,8 @@ scale-invariant strain clock:
 \tag{OSF.22}
 ```
 
-The simultaneous four-body master balance is exactly the assertion that this
-same material strain/stress/tower clock is finite on the gold branch:
+The simultaneous four-body master balance must be the assertion that this same
+material strain/stress/tower clock is finite on the gold branch:
 
 ```math
 d\mathfrak L_{4B,N}
@@ -323,11 +324,12 @@ Integrating `(OSF.23)` gives:
 ```
 
 So a terminal readout that requires infinitely many dyadic material-thinning
-returns contradicts the finite full same-material clock.
+returns contradicts the finite full same-material clock once that clock has
+been produced by the signed smooth same-packet commutator/coercivity theorem.
 
 ## 4. Exact repo state
 
-The repaired repo chain is now:
+The repaired repo chain is:
 
 ```math
 \text{terminal readout kept on the original material history}
@@ -342,9 +344,9 @@ The repaired repo chain is now:
 
 ## Verdict
 
-The exact gold proof is now written from original data forward.  The smooth
-preterminal solution gives one material event; stress/strain is the physical
-later return; material thinning spends the strain clock; the simultaneous
-four-body master balance makes the full same-material clock finite; and a
-finite-time infinite spike-thinning recurrence would require that clock to be
-infinite.
+The original-data material-history piece is installed.  The smooth preterminal
+solution gives one material event; stress/strain is the physical later return;
+material thinning spends the strain clock.  The remaining exact proof producer
+is the signed smooth same-packet commutator/coercivity theorem that makes the
+full same-material clock finite.  After that producer is proved, a finite-time
+infinite spike-thinning recurrence would require that clock to be infinite.
