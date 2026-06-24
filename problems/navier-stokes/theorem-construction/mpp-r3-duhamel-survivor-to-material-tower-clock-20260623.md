@@ -41,9 +41,9 @@ W_R(t)
 If an exterior dyadic Duhamel survivor exists,
 
 ```math
-N_j^s\|P_{N_j}W_{R_j}(t_j)\|_{L^2}\ge\varepsilon_0,
+\Lambda_j^s\|P_{\Lambda_j}W_{R_j}(t_j)\|_{L^2}\ge\varepsilon_0,
 \qquad
-N_j\to\infty,
+\Lambda_j\to\infty,
 \tag{DSM.2}
 ```
 
@@ -51,27 +51,31 @@ then the original smooth solution carries a positive amount of same-material
 tower/source clock on the backward heat-time strip
 
 ```math
-I_j=[t_j-cN_j^{-2},t_j].
+I_j=[t_j-c\Lambda_j^{-2},t_j].
 \tag{DSM.3}
 ```
 
 More precisely, after localizing in the exterior packet atlas at scale
-\(r_j=N_j^{-1}\),
+\(r_j=\Lambda_j^{-1}\), and after fixing once for this \(s\) a continuation
+depth \(N_s\) large enough to control the finite \(H^s\) source readout,
 
 ```math
 \int_{\mathcal P_j}
 \left(
-dA_{4B,N_j}
-+C_{\log}d[\log(1+\mathcal P_{N_j}^{mat})]_+
+dA_{4B,N_s}
++C_{\log}d[\log(1+\mathcal P_{N_s}^{mat})]_+
 +d\mathcal K_{\rm iface}
-+d\mathcal L_{4B,N_j}
++d\mathcal L_{4B,N_s}
 \right)
 \ge \eta(\varepsilon_0)>0 .
 \tag{DSM.4}
 ```
 
 The point is that `(DSM.2)` is admitted through the material tower/source
-coordinate of the full same-fluid packet.
+coordinate of the full same-fluid packet.  The dyadic frequency
+\(\Lambda_j\) tends to infinity, but the material derivative depth is the fixed
+finite continuation depth \(N_s\); this is not an all-orders or
+frequency-depth tower claim.
 
 ## 1. Heat-time localization of the Duhamel response
 
