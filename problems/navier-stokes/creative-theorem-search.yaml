@@ -4,14 +4,14 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-05-25T18:54:18Z'
+  generated_at: '2026-06-24T01:39:39Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_proof_assembly_id: proof-assembly-navier-stokes
 intervention:
   reason: frontier-expansion
-  review_posture: historical-sandbox-superseded-by-submission-candidate
+  review_posture: ''
   boundary_rule: Everything beyond the grounded core is machine extension until it
     survives falsification and promotion.
   provenance_rule: Machine-generated branches remain speculative until they survive
@@ -24,104 +24,50 @@ sandbox:
   survivor_writeback: Keep only branches that survive discharge, falsification, or
     refinement; demote the rest back into explicit debt.
   independent_branch_ids:
-  - creative-branch-navier-stokes-2
-  co_dependent_branch_ids:
   - creative-branch-navier-stokes-1
+  - creative-branch-navier-stokes-2
+  - creative-branch-navier-stokes-3
+  - creative-branch-navier-stokes-4
+  co_dependent_branch_ids: []
   branch_execution_order:
   - creative-branch-navier-stokes-1
   - creative-branch-navier-stokes-2
+  - creative-branch-navier-stokes-3
+  - creative-branch-navier-stokes-4
 branch_pool:
 - &1
   branch_id: creative-branch-navier-stokes-1
-  origin_obligation_id: ActiveHeightFluxTrichotomy.A
-  origin_kind: proof-dependency
-  parent_obligation_id: source-reserve-birth-charge-a
-  parent_label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
-  root_target_obligation_id: source-reserve-birth-charge-a
-  root_target_label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
-  source_class: source-reserve-active-heightflux-trichotomy-bridge
-  source_status: historical-context-only
-  branch_type: bridge-lemma
-  pursuit_mode: co-dependent
-  candidate_claim: Create the post-activation theorem ActiveHeightFluxTrichotomy.A
-    converting positive square-reserve surplus into active height flux or Part/Field
-    exit.
-  creative_move: 'Search for the missing mediating object or bounded inequality that
-    makes the implication local and testable. Keep this as a CM witness bridge:
-    it must land in Part or Field. Member(Q) is the forward membership predicate.
-    PCTP, SOURCE.NO-PULSE, AWG, TGC, Jump_avg, MSC.BadAC, pressure-strain, and compactness
-    arguments are supplier-only until a bridge license proves witness landing.'
-  invention_packet:
-    candidate_statement: Create the post-activation theorem ActiveHeightFluxTrichotomy.A
-      converting positive square-reserve surplus into active height flux or Part/Field
-      exit.
-    mediating_object: cm_witness_face_bridge_license
-    proof_sketch:
-    - State the weakest exact claim that would advance `ActiveHeightFluxTrichotomy.A`
-      without expanding the theorem target.
-    - Define or isolate the mediating object on the current carrier/window/sector
-      only.
-    - 'Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `ActiveHeightFluxTrichotomy.A:
-      first-created positive square-reserve surplus either produces same-ledger active
-      height flux or already exits Part/Field`.'
-    - Show how that object converts one already-grounded local statement into the
-      next missing step.
-    - Reject the move if it introduces new global scope, hidden imports, or a stronger
-      claim than the frozen frontier needs.
-    falsification_checks:
-    - Does the move preserve the frozen theorem target rather than redefining it?
-    - Can the candidate be stated on already-grounded objects without importing a
-      new theory chapter?
-    - Does it reduce at least one open obligation or turn a frontier statement into
-      a local discharge target?
-    - Reject if the branch only rephrases the existing gap without a new mediating
-      object or bounded inequality.
-    scope_guard: Insert only the weakest bridge sufficient to connect the current
-      grounded chain.
-  grounded_basis:
-  - ActiveHeightFluxTrichotomy.A
-  risk_level: medium-low
-  notes:
-  - This branch is the live recursive subprimitive from theorem-creation; keep it
-    on theorem-creation until it is discharged or sharpened.
-  - The activation bridge is installed as support; this branch must prove the square-reserve
-    to active-height-flux trichotomy or classify the scalar-pulse failure as Part/Field
-    exit.
-  - This branch is machine-derived beyond the current frozen core.
-  - Use the weakest sufficient move; do not inflate the theorem target.
-  recommended_next_cell_type:
-  recommended_next_action: Creative theorem search selected post-activation theorem
-    `ActiveHeightFluxTrichotomy.A`. Run theorem-creation on the square-reserve to
-    active-height-flux trichotomy before another parent source-reserve discharge.
-  merge_policy: quarantined-until-promoted
-- branch_id: creative-branch-navier-stokes-2
-  origin_obligation_id: source-reserve-birth-charge-a
+  origin_obligation_id: signed-smooth-same-packet-commutator-coercivity
   origin_kind: live-theorem-frontier
-  parent_obligation_id: source-reserve-birth-charge-a
-  parent_label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
-  root_target_obligation_id: source-reserve-birth-charge-a
-  root_target_label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
-  source_class: stalled-dependency-discharge-target
-  source_status: historical-context-only
+  parent_obligation_id: signed-smooth-same-packet-commutator-coercivity
+  parent_label: SignedSmoothSamePacketCommutatorCoercivity.A
+  root_target_obligation_id: signed-smooth-same-packet-commutator-coercivity
+  root_target_label: SignedSmoothSamePacketCommutatorCoercivity.A
+  source_class: ''
+  source_status: frontier-open
   branch_type: route-mutation
   pursuit_mode: independent
-  candidate_claim: 'Refine the stalled dependency-discharge target source-reserve-birth-charge-a:
-    SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A'
-  creative_move: Open a bounded side branch that changes representation but not the
-    theorem target, then compare whether it reduces proof obligations.
+  candidate_claim: Mutate the route locally so that signedSmoothSamePacketCommutatorCoercivity.A
+    can be pursued without reopening the theorem target.
+  creative_move: 'Open a bounded side branch that changes representation but not the
+    theorem target, then compare whether it reduces proof obligations. Keep this as
+    a CM witness bridge: it must land in Silver Part or Field after live-object participation
+    is typed, or pass the outside-CM participation-field/window original-participation
+    audit without spending not Pack_Q as CM exit. Member(Q) is the forward membership
+    predicate. PCTP, SOURCE.NO-PULSE, AWG, TGC, Jump_avg, MSC.BadAC, pressure-strain,
+    and compactness arguments are supplier-only until a bridge license proves witness
+    landing or the resurfacing audit.'
   invention_packet:
-    candidate_statement: 'Refine the stalled dependency-discharge target source-reserve-birth-charge-a:
-      SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A'
-    mediating_object: route_mutation_carrier
+    candidate_statement: Mutate the route locally so that signedSmoothSamePacketCommutatorCoercivity.A
+      can be pursued without reopening the theorem target.
+    mediating_object: cm_witness_face_bridge_license
     proof_sketch:
-    - State the weakest exact claim that would advance `source-reserve-birth-charge-a`
+    - State the weakest exact claim that would advance `signed-smooth-same-packet-commutator-coercivity`
       without expanding the theorem target.
     - Define or isolate the mediating object on the current carrier/window/sector
       only.
     - Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `SourceReserveBirthCharge.A
-      / RetainedPositiveScaleNativeReserveBirthCharge.A`.
+      ladder rather than a modified-equation detour for `SignedSmoothSamePacketCommutatorCoercivity.A`.
     - Show how that object converts one already-grounded local statement into the
       next missing step.
     - Reject the move if it introduces new global scope, hidden imports, or a stronger
@@ -136,53 +82,223 @@ branch_pool:
       object or bounded inequality.
     scope_guard: Representation may change, theorem target may not.
   grounded_basis:
-  - source-reserve-birth-charge-a
+  - clay-cm-contrapositive-witness-consumption
+  - cm-part-ontology-witness-notation-correction
+  - torus-global-material-atlas-terminal-capture
+  - signed-smooth-same-packet-commutator-coercivity
   risk_level: high
   notes:
   - This branch starts at the first unresolved frontier.
   - This branch is machine-derived beyond the current frozen core.
-  recommended_next_cell_type:
-  recommended_next_action: Creative theorem search kept the stalled dependency target
-    `source-reserve-birth-charge-a`. Run theorem-creation on that exact obstruction
-    instead of mining adjacent source-wall atoms.
+  recommended_next_cell_type: dependency-discharge
+  recommended_next_action: Creative theorem search selected `signed-smooth-same-packet-commutator-coercivity`.
+    Use the invention packet to ground a new explicit bridge for SignedSmoothSamePacketCommutatorCoercivity.A
+    through dependency-discharge.
+  merge_policy: quarantined-until-promoted
+- branch_id: creative-branch-navier-stokes-2
+  origin_obligation_id: original-smooth-data-material-history-no-finite-breakdown
+  origin_kind: live-theorem-frontier
+  parent_obligation_id: signed-smooth-same-packet-commutator-coercivity
+  parent_label: SignedSmoothSamePacketCommutatorCoercivity.A
+  root_target_obligation_id: signed-smooth-same-packet-commutator-coercivity
+  root_target_label: SignedSmoothSamePacketCommutatorCoercivity.A
+  source_class: ''
+  source_status: frontier-open
+  branch_type: route-mutation
+  pursuit_mode: independent
+  candidate_claim: Mutate the route locally so that originalSmoothDataMaterialHistoryNoFiniteBreakdown.A
+    can be pursued without reopening the theorem target.
+  creative_move: Open a bounded side branch that changes representation but not the
+    theorem target, then compare whether it reduces proof obligations.
+  invention_packet:
+    candidate_statement: Mutate the route locally so that originalSmoothDataMaterialHistoryNoFiniteBreakdown.A
+      can be pursued without reopening the theorem target.
+    mediating_object: route_mutation_carrier
+    proof_sketch:
+    - State the weakest exact claim that would advance `original-smooth-data-material-history-no-finite-breakdown`
+      without expanding the theorem target.
+    - Define or isolate the mediating object on the current carrier/window/sector
+      only.
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A`.
+    - Show how that object converts one already-grounded local statement into the
+      next missing step.
+    - Reject the move if it introduces new global scope, hidden imports, or a stronger
+      claim than the frozen frontier needs.
+    falsification_checks:
+    - Does the move preserve the frozen theorem target rather than redefining it?
+    - Can the candidate be stated on already-grounded objects without importing a
+      new theory chapter?
+    - Does it reduce at least one open obligation or turn a frontier statement into
+      a local discharge target?
+    - Reject if the branch only rephrases the existing gap without a new mediating
+      object or bounded inequality.
+    scope_guard: Representation may change, theorem target may not.
+  grounded_basis:
+  - clay-cm-contrapositive-witness-consumption
+  - cm-part-ontology-witness-notation-correction
+  - torus-global-material-atlas-terminal-capture
+  - original-smooth-data-material-history-no-finite-breakdown
+  risk_level: high
+  notes:
+  - This branch is machine-derived beyond the current frozen core.
+  recommended_next_cell_type: dependency-discharge
+  recommended_next_action: Creative theorem search selected `original-smooth-data-material-history-no-finite-breakdown`.
+    Use the invention packet to ground a new explicit bridge for OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
+    through dependency-discharge.
+  merge_policy: quarantined-until-promoted
+- branch_id: creative-branch-navier-stokes-3
+  origin_obligation_id: pack-out-of-cm-smoothness-certification-audit
+  origin_kind: live-theorem-frontier
+  parent_obligation_id: signed-smooth-same-packet-commutator-coercivity
+  parent_label: SignedSmoothSamePacketCommutatorCoercivity.A
+  root_target_obligation_id: signed-smooth-same-packet-commutator-coercivity
+  root_target_label: SignedSmoothSamePacketCommutatorCoercivity.A
+  source_class: ''
+  source_status: frontier-open
+  branch_type: route-mutation
+  pursuit_mode: independent
+  candidate_claim: Mutate the route locally so that packOutOfCMSmoothnessCertification.A
+    / OriginalParticipationBeforePackLicensing.A can be pursued without reopening
+    the theorem target.
+  creative_move: 'Open a bounded side branch that changes representation but not the
+    theorem target, then compare whether it reduces proof obligations. Keep this as
+    a CM witness bridge: it must land in Silver Part or Field after live-object participation
+    is typed, or pass the outside-CM participation-field/window original-participation
+    audit without spending not Pack_Q as CM exit. Member(Q) is the forward membership
+    predicate. PCTP, SOURCE.NO-PULSE, AWG, TGC, Jump_avg, MSC.BadAC, pressure-strain,
+    and compactness arguments are supplier-only until a bridge license proves witness
+    landing or the resurfacing audit.'
+  invention_packet:
+    candidate_statement: Mutate the route locally so that packOutOfCMSmoothnessCertification.A
+      / OriginalParticipationBeforePackLicensing.A can be pursued without reopening
+      the theorem target.
+    mediating_object: cm_witness_face_bridge_license
+    proof_sketch:
+    - State the weakest exact claim that would advance `pack-out-of-cm-smoothness-certification-audit`
+      without expanding the theorem target.
+    - Define or isolate the mediating object on the current carrier/window/sector
+      only.
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `PackOutOfCMSmoothnessCertification.A
+      / OriginalParticipationBeforePackLicensing.A`.
+    - Show how that object converts one already-grounded local statement into the
+      next missing step.
+    - Reject the move if it introduces new global scope, hidden imports, or a stronger
+      claim than the frozen frontier needs.
+    falsification_checks:
+    - Does the move preserve the frozen theorem target rather than redefining it?
+    - Can the candidate be stated on already-grounded objects without importing a
+      new theory chapter?
+    - Does it reduce at least one open obligation or turn a frontier statement into
+      a local discharge target?
+    - Reject if the branch only rephrases the existing gap without a new mediating
+      object or bounded inequality.
+    scope_guard: Representation may change, theorem target may not.
+  grounded_basis:
+  - clay-cm-contrapositive-witness-consumption
+  - cm-part-ontology-witness-notation-correction
+  - torus-global-material-atlas-terminal-capture
+  - pack-out-of-cm-smoothness-certification-audit
+  risk_level: high
+  notes:
+  - This branch is machine-derived beyond the current frozen core.
+  recommended_next_cell_type: dependency-discharge
+  recommended_next_action: Creative theorem search selected `pack-out-of-cm-smoothness-certification-audit`.
+    Use the invention packet to ground a new explicit bridge for PackOutOfCMSmoothnessCertification.A
+    / OriginalParticipationBeforePackLicensing.A through dependency-discharge.
+  merge_policy: quarantined-until-promoted
+- branch_id: creative-branch-navier-stokes-4
+  origin_obligation_id: r3-whole-space-cm-completion
+  origin_kind: live-theorem-frontier
+  parent_obligation_id: signed-smooth-same-packet-commutator-coercivity
+  parent_label: SignedSmoothSamePacketCommutatorCoercivity.A
+  root_target_obligation_id: signed-smooth-same-packet-commutator-coercivity
+  root_target_label: SignedSmoothSamePacketCommutatorCoercivity.A
+  source_class: ''
+  source_status: frontier-open
+  branch_type: route-mutation
+  pursuit_mode: independent
+  candidate_claim: Mutate the route locally so that r3ExteriorDyadicSurvivorMaterialClockExclusion.A
+    / R3.WholeSpaceHsTailCompletion.A can be pursued without reopening the theorem
+    target.
+  creative_move: Open a bounded side branch that changes representation but not the
+    theorem target, then compare whether it reduces proof obligations.
+  invention_packet:
+    candidate_statement: Mutate the route locally so that r3ExteriorDyadicSurvivorMaterialClockExclusion.A
+      / R3.WholeSpaceHsTailCompletion.A can be pursued without reopening the theorem
+      target.
+    mediating_object: route_mutation_carrier
+    proof_sketch:
+    - State the weakest exact claim that would advance `r3-whole-space-cm-completion`
+      without expanding the theorem target.
+    - Define or isolate the mediating object on the current carrier/window/sector
+      only.
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `R3ExteriorDyadicSurvivorMaterialClockExclusion.A
+      / R3.WholeSpaceHsTailCompletion.A`.
+    - Show how that object converts one already-grounded local statement into the
+      next missing step.
+    - Reject the move if it introduces new global scope, hidden imports, or a stronger
+      claim than the frozen frontier needs.
+    falsification_checks:
+    - Does the move preserve the frozen theorem target rather than redefining it?
+    - Can the candidate be stated on already-grounded objects without importing a
+      new theory chapter?
+    - Does it reduce at least one open obligation or turn a frontier statement into
+      a local discharge target?
+    - Reject if the branch only rephrases the existing gap without a new mediating
+      object or bounded inequality.
+    scope_guard: Representation may change, theorem target may not.
+  grounded_basis:
+  - clay-cm-contrapositive-witness-consumption
+  - cm-part-ontology-witness-notation-correction
+  - torus-global-material-atlas-terminal-capture
+  - r3-whole-space-cm-completion
+  risk_level: high
+  notes:
+  - This branch is machine-derived beyond the current frozen core.
+  recommended_next_cell_type: dependency-discharge
+  recommended_next_action: Creative theorem search selected `r3-whole-space-cm-completion`.
+    Use the invention packet to ground a new explicit bridge for R3ExteriorDyadicSurvivorMaterialClockExclusion.A
+    / R3.WholeSpaceHsTailCompletion.A through dependency-discharge.
   merge_policy: quarantined-until-promoted
 candidate_archive:
-- origin_obligation_id: ActiveHeightFluxTrichotomy.A
-  origin_kind: proof-dependency
-  label: 'ActiveHeightFluxTrichotomy.A: first-created positive square-reserve surplus
-    either produces same-ledger active height flux or already exits Part/Field'
-  status: historical-context-only
-  promoted_into_branch_pool: true
-- origin_obligation_id: source-reserve-birth-charge-a
+- origin_obligation_id: signed-smooth-same-packet-commutator-coercivity
   origin_kind: live-theorem-frontier
-  label: SourceReserveBirthCharge.A / RetainedPositiveScaleNativeReserveBirthCharge.A
-  status: historical-context-only
+  label: SignedSmoothSamePacketCommutatorCoercivity.A
+  status: frontier-open
   promoted_into_branch_pool: true
+- origin_obligation_id: original-smooth-data-material-history-no-finite-breakdown
+  origin_kind: live-theorem-frontier
+  label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
+  status: frontier-open
+  promoted_into_branch_pool: true
+- origin_obligation_id: pack-out-of-cm-smoothness-certification-audit
+  origin_kind: live-theorem-frontier
+  label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
+  status: frontier-open
+  promoted_into_branch_pool: true
+- origin_obligation_id: r3-whole-space-cm-completion
+  origin_kind: live-theorem-frontier
+  label: R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A
+  status: frontier-open
+  promoted_into_branch_pool: true
+- origin_obligation_id: scale-uniform-annular-supplier-goal-resolution
+  origin_kind: live-theorem-frontier
+  label: ScaleUniformAnnularSupplierGoalResolution.A / AnnularLimitCMFaceLanding.A
+  status: frontier-open
+  promoted_into_branch_pool: false
 selected_branch: *1
 summary:
-  candidate_count: 2
-  candidate_archive_count: 2
+  candidate_count: 5
+  candidate_archive_count: 5
   sandbox_mode: single-branch-sandbox
   active_branch_ids:
   - creative-branch-navier-stokes-1
   - creative-branch-navier-stokes-2
+  - creative-branch-navier-stokes-3
+  - creative-branch-navier-stokes-4
   selected_branch_id: creative-branch-navier-stokes-1
-  selected_next_cell_type:
-  intervention_needed: false
-  current_live_blocking_count: 0
-  current_live_frontier_count: 0
-  stale_surface_status: historical-context-only
-current_authority_status:
-  status: superseded-by-direct-live-clearance
-  checked_at: '2026-06-08T07:57:59Z'
-  reason: Direct live authority reports no open theorem frontier; this artifact is
-    retained as historical theorem-work context and must not respawn a live blocker.
-  authority_summary:
-    authority_mode: direct-live-surfaces
-    blocking_count: 0
-    frontier_count: 0
-    all_discharged: true
-  controlling_surfaces:
-  - problems/navier-stokes/live-theorem-edge.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
+  selected_next_cell_type: dependency-discharge
+  intervention_needed: true
