@@ -1,6 +1,75 @@
 \section{Scale Barriers and High-Frequency Tails}
 \label{sec:scale-barrier-tail-branch}
 
+\subsection{Factorial Radius Spend and Same-Carrier Reserve}
+\label{subsec:factorial-radius-spend-same-carrier-reserve}
+
+The current forward-gold scale branch has a factorial tower reading.  For mixed derivatives
+\[
+  W_{m,\alpha}=\partial_s^m\partial_y^\alpha V,
+  \qquad
+  Q_{m,\alpha}=\partial_s^m\partial_y^\alpha Q,
+\]
+the differentiated nonlinearity carries the mixed Leibniz coefficient
+\[
+  {m\choose a}{\alpha\choose\beta}.
+\]
+With
+\[
+  w_{m,\alpha}(\tau,\rho)={\tau^m\rho^{|\alpha|}\over m!\,\alpha!},
+\]
+the coefficient is absorbed exactly:
+\[
+  w_{m,\alpha}{m\choose a}{\alpha\choose\beta}
+  =w_{a,\beta}w_{m-a,\alpha-\beta}.
+\]
+The binomial factor is therefore paid by the tower normalization.  The remaining cost is the loss of mixed analytic radius on the same selected carrier.
+
+Let \(\tau(\sigma)\) and \(\rho(\sigma)\) be the time and space radii.  The finite tower storage
+\[
+  L_S(\sigma)=\sum_{2m+|\alpha|\le N}w_{m,\alpha}(\tau,\rho)E_{m,\alpha}(\sigma)
+\]
+satisfies
+\[
+  dL_S+dD_S^{\rm rad}=dJ_{SQ},
+  \qquad
+  D_S^{\rm rad}
+  =\sum_{2m+|\alpha|\le N}
+  \left(-m{\tau'\over\tau}-|\alpha|{\rho'\over\rho}\right)
+  w_{m,\alpha}E_{m,\alpha}\ge0.
+\]
+This is the coupled analytic-radius spend supplied by the Stirling/binomial route.
+
+The next forward-gold bridge is the same-carrier reserve.  With selected activity \(a_j(s)\) and same-carrier action currency \(B_j(s)\), the certificate is
+\[
+  a_j(s)\le \lambda B_j(s)+\ell_j(s),
+  \qquad
+  \int_{-1}^{0}\ell_j(s)\,ds=o_j(1),
+\]
+together with
+\[
+  \lim_{N\to\infty}
+  \sum_{j:\,r_j\le2^{-N}}
+  \int_{-1}^{0}B_j(s)\,ds=0.
+\]
+This pair of estimates rules out a retained endpoint chain carrying a fixed positive amount of selected activity.
+
+The shifted-gamma saddle gives the current candidate price.  For
+\[
+  w_n^{(\beta)}(\tau)={\tau^n\over\Gamma(n+\beta)},
+\]
+the middle-band multiplier is
+\[
+  R_\beta(n,k)
+  ={n\choose k}{\Gamma(k+\beta)\Gamma(n-k+\beta)\over\Gamma(n+\beta)}
+  =2^{2-2\beta}n^{\beta-1}\bigl(1+O_\beta(n^{-1/2})\bigr)
+\]
+on \(k=n/2+O(\sqrt n)\).  The open bridge is
+\[
+  \text{SameCarrierShiftedGammaSpendReserve.A}.
+\]
+It requires shifted-gamma extraction on the selected carrier and an unweighted reserve for the same action currency.
+
 The scale-barrier branch asks a direct question about the Navier--Stokes
 equation.  Can high-frequency transfer be made summable before it can carry a
 finite terminal event?  This is a forward branch because it tries to pay the
