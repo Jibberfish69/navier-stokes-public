@@ -4,12 +4,22 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   falsification_id: lemma-falsification-navier-stokes
-  generated_at: '2026-05-25T18:58:36Z'
+  generated_at: '2026-06-24T00:44:19Z'
   generator: system/runner/lib/lemma_falsification_builder.rb
   source_branch_set_id: extension-branches-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
-results: []
+results:
+- branch_id: branch-navier-stokes-1
+  origin_obligation_id: pack-out-of-cm-smoothness-certification-audit
+  verdict: quarantine
+  reasons:
+  - This is a route branch rather than a local theorem bridge, so it stays quarantined.
+- branch_id: branch-navier-stokes-2
+  origin_obligation_id: scale-uniform-annular-supplier-goal-resolution
+  verdict: quarantine
+  reasons:
+  - This is a route branch rather than a local theorem bridge, so it stays quarantined.
 summary:
   survives_first_pass_count: 0
-  quarantined_count: 0
+  quarantined_count: 2
   rejected_count: 0

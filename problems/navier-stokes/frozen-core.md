@@ -5,17 +5,24 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Theorem Target
 
-- `theorem_target`: full-mpp-closure
-- `lowest_safe_claim`: Every smooth divergence-free zero-mean initial datum on T^3 with f=0 generates a global smooth classical three-dimensional incompressible Navier-Stokes solution.
-- `first_unsafe_overclaim`: Replacing the official Clay statement by a weaker route-local or data-class-local statement.
+- `theorem_target`: clay-cm-contrapositive-witness-consumption
+- `lowest_safe_claim`: clay-cm-contrapositive-witness-consumption
+- `first_unsafe_overclaim`: Replacing the CM contrapositive class-exit chain with the stale torus-first / Q(t) / periodic-opening story.
 
 ## Grounded Core
 
-- No grounded obligations were identified.
+- OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A (`live-theorem-frontier`; `original-smooth-data-material-history-no-finite-breakdown`)
+- PackOutOfCMObjectBoundary.A (`live-theorem-frontier`; `pack-out-of-cm-object-boundary`)
+- ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A (`live-theorem-frontier`; `clay-cm-contrapositive-witness-consumption`)
+- CMPartOntologyWitnessNotation.A (`live-theorem-frontier`; `cm-part-ontology-witness-notation-correction`)
+- TorusGlobalMaterialAtlasTerminalCapture.A (`live-theorem-frontier`; `torus-global-material-atlas-terminal-capture`)
+- R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A (`live-theorem-frontier`; `r3-whole-space-cm-completion`)
 
 ## Source Frontier
 
-- No unresolved frontier obligations remain.
+- `first_unresolved`: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A (`live-theorem-frontier`; `pack-out-of-cm-smoothness-certification-audit`)
+- PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A (`live-theorem-frontier`; `pack-out-of-cm-smoothness-certification-audit`)
+- ScaleUniformAnnularSupplierGoalResolution.A / AnnularLimitCMFaceLanding.A (`live-theorem-frontier`; `scale-uniform-annular-supplier-goal-resolution`)
 
 ## Source Surfaces
 

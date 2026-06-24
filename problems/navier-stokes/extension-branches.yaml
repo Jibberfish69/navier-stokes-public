@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   branch_set_id: extension-branches-navier-stokes
-  generated_at: '2026-05-25T18:58:36Z'
+  generated_at: '2026-06-24T00:44:19Z'
   generator: system/runner/lib/lemma_synthesis_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -12,6 +12,35 @@ provenance_policy:
   branch_class: machine-derived-beyond-source-frontier
   merge_rule: Do not merge any branch into the frozen core unless it survives falsification
     and promotion.
-branches: []
+branches:
+- branch_id: branch-navier-stokes-1
+  origin_obligation_id: pack-out-of-cm-smoothness-certification-audit
+  branch_type: route-branch
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Open a quarantined side branch that tests whether packOutOfCMSmoothnessCertification.A
+    / OriginalParticipationBeforePackLicensing.A can be made explicit without crossing
+    the current safe-claim boundary.
+  depends_on:
+  - torus-global-material-atlas-terminal-capture
+  - r3-whole-space-cm-completion
+  - pack-out-of-cm-smoothness-certification-audit
+  risk_level: high
+  notes:
+  - This branch starts exactly at the first unresolved frontier for `pack-out-of-cm-smoothness-certification-audit`.
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-2
+  origin_obligation_id: scale-uniform-annular-supplier-goal-resolution
+  branch_type: route-branch
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Open a quarantined side branch that tests whether scaleUniformAnnularSupplierGoalResolution.A
+    / AnnularLimitCMFaceLanding.A can be made explicit without crossing the current
+    safe-claim boundary.
+  depends_on:
+  - torus-global-material-atlas-terminal-capture
+  - r3-whole-space-cm-completion
+  - scale-uniform-annular-supplier-goal-resolution
+  risk_level: high
+  notes: []
+  merge_policy: quarantined-until-promoted
 summary:
-  branch_count: 0
+  branch_count: 2
