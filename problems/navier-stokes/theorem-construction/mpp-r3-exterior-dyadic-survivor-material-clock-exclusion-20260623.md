@@ -195,7 +195,7 @@ The source in \((R3M.12)\) is \(u\otimes u\) from the same smooth preterminal
 Navier--Stokes solution.  After recentering each selected packet, rescaling,
 and pulling back by the material map, it becomes a tower/nonlinear
 participation term in the \(S\to Q\) coordinate of the same four-body packet
-family.  The finite
+family at the fixed continuation depth \(N_s\).  The finite
 Littlewood--Paley/Bony collar and cutoff commutators are legal residuals in the
 prelimit residual normal form.
 
@@ -204,11 +204,11 @@ Thus a survivor is covered by the full material-clock trichotomy:
 ```math
 \begin{array}{ll}
 \text{material geometry thinning}
-&\leadsto C_{\log}d[\log(1+\mathcal P_N^{mat})]_+,\\[1mm]
+&\leadsto C_{\log}d[\log(1+\mathcal P_{N_s}^{mat})]_+,\\[1mm]
 \text{material selection/interface change}
-&\leadsto d\mathcal K_{\rm iface}+d\mathcal L_{4B,N},\\[1mm]
+&\leadsto d\mathcal K_{\rm iface}+d\mathcal L_{4B,N_s},\\[1mm]
 \text{same-material nonlinear source/tower or storage/stress-work change}
-&\leadsto dA_{4B,N}+d\mathcal L_{4B,N}.
+&\leadsto dA_{4B,N_s}+d\mathcal L_{4B,N_s}.
 \end{array}
 \tag{R3M.13}
 ```
@@ -218,7 +218,7 @@ positive amount of the full same-material clock over its selected packet family:
 
 ```math
 \sum_{\ell\in\mathcal I_j}
-\int_{P_{j,\ell}}d\Omega_N
+\int_{P_{j,\ell}}d\Omega_{N_s}
 \ge\eta_0>0,
 \tag{R3M.14}
 ```
@@ -226,15 +226,15 @@ positive amount of the full same-material clock over its selected packet family:
 where
 
 ```math
-d\Omega_N
+d\Omega_{N_s}
 =
-dA_{4B,N}
+dA_{4B,N_s}
 +
-C_{\log}d[\log(1+\mathcal P_N^{mat})]_+
+C_{\log}d[\log(1+\mathcal P_{N_s}^{mat})]_+
 +
 d\mathcal K_{\rm iface}
 +
-d\mathcal L_{4B,N}.
+d\mathcal L_{4B,N_s}.
 \tag{R3M.15}
 ```
 
@@ -252,19 +252,19 @@ multiplicity.  The localized prelimit master balance applies to each smooth
 material packet and gives
 
 ```math
-d\mathfrak L_{4B,N}
+d\mathfrak L_{4B,N_s}
 +
 c_0\left(
-dA_{4B,N}
+dA_{4B,N_s}
 +
-C_{\log}d[\log(1+\mathcal P_N^{mat})]_+
+C_{\log}d[\log(1+\mathcal P_{N_s}^{mat})]_+
 +
 d\mathcal K_{\rm iface}
 \right)
 +
-d\mathcal L_{4B,N}
+d\mathcal L_{4B,N_s}
 \le
-dR_{4B,N}.
+dR_{4B,N_s}.
 \tag{R3M.16}
 ```
 
@@ -275,7 +275,7 @@ terms carry positive scale gain.  Thus
 
 ```math
 \sum_j\sum_{\ell\in\mathcal I_j}
-\int_{P_{j,\ell}}dR_{4B,N}
+\int_{P_{j,\ell}}dR_{4B,N_s}
 \lesssim
 \int_0^{T_*}\int_{\mathbb R^3}
 \left(
@@ -299,12 +299,12 @@ Lower-order exterior tails are also uniformly tight by the installed \(L^2\)
 exterior-tail theorem.
 
 Integrating `(R3M.16)` over the global selected clock atlas, using the lower
-bound for \(\mathfrak L_{4B,N}\), and then applying
+bound for \(\mathfrak L_{4B,N_s}\), and then applying
 `SameMaterialDyadicPacketOverlapSelection.A` gives
 
 ```math
 \sum_j\sum_{\ell\in\mathcal I_j}
-\int_{P_{j,\ell}}d\Omega_N<\infty.
+\int_{P_{j,\ell}}d\Omega_{N_s}<\infty.
 \tag{R3M.18}
 ```
 
@@ -315,7 +315,7 @@ family would be infinite, and \((R3M.14)\) would give
 
 ```math
 \sum_j\sum_{\ell\in\mathcal I_j}
-\int_{P_{j,\ell}}d\Omega_N
+\int_{P_{j,\ell}}d\Omega_{N_s}
 \ge
 \sum_j\eta_0
 =\infty.
