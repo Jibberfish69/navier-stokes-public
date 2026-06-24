@@ -1,19 +1,16 @@
 ---
 theorem_id: forward-gold-uniform-terminal-zeno-annular-return-proof-20260623
-status: proof-repaired-by-daughter-heat-scale-refinement-and-full-same-packet-clock
+status: conditional-on-finite-full-clock-from-signed-smooth-packet-coercivity
 logical_landing_node: uniform_terminal_zeno_annular_return
 edge_effect: >-
-  Proves the uniform terminal-Zeno annular return theorem from the already
-  installed same-material annular attachment and the finite unweighted
-  four-body clock.  If the normalized later-annular stress/strain return fails
-  to have a terminal modulus, then each bad terminal strip becomes a smaller
-  daughter heat-scale packet.  The counting contradiction is valid only after
-  the daughter annular return is admitted to the full same-packet prelimit
-  clock, not merely to raw physical stress work and not merely by naming it a
-  daughter.  With that admission, a separated subfamily of such daughter
-  packets has bounded overlap in log-scale and forces infinite full-clock mass,
-  contradicting the prelimit master balance.  This closes the uniform
-  terminal-Zeno annular return wall on the retained same-packet branch.
+  Proves the daughter-packet implication for the uniform terminal-Zeno annular
+  return theorem, conditional on a finite full same-packet clock. If the
+  normalized later-annular stress/strain return fails to have a terminal
+  modulus, then each bad terminal strip becomes a smaller daughter heat-scale
+  packet. The counting contradiction is valid only after the daughter annular
+  return is admitted to a full same-packet prelimit clock that is already known
+  to be finite. The exactness audit shows that the finiteness of that clock
+  still depends on the signed smooth same-packet commutator/coercivity theorem.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-overlap-nojump-direct-test-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-material-annular-return-attachment-direct-attempt-20260622.md
@@ -21,9 +18,10 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-infinite-material-zeno-stress-chain-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-same-material-dyadic-packet-overlap-selection-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-smooth-same-packet-commutator-coercivity-audit-20260623.md
 ---
 
-# Uniform Terminal-Zeno Annular Return Proof
+# Uniform Terminal-Zeno Annular Return Conditional Proof
 
 Date: 2026-06-23
 
