@@ -1,24 +1,24 @@
 ---
 theorem_id: forward-gold-prelimit-route-supersedes-postlimit-kawashima-burden-20260623
-status: route-reconciliation-installed-current-live-gate-is-family-admission-and-residual-normal-form
+status: route-reconciliation-corrected-live-gate-is-signed-smooth-commutator-clock-producer
 logical_landing_node: prelimit_route_supersedes_postlimit_kawashima_burden
 edge_effect: >-
   Reconciles the older post-limit Kawashima/signed-symmetrizer burden with the
   newer prelimit master-balance route. The post-limit Kawashima compensator is
-  an alternate direct operator route, not the current necessary wall, once the
+  an alternate direct operator route, not the current necessary wall, after the
   smooth same-carrier master balance is proved before compactness and the
   interface defect is defined as the lower-semicontinuity gap of the positive
-  prelimit clock. The remaining repo-side proof gate is not PDF/manuscript
-  enforcement and not a post-limit estimate of dK_iface. It is admission from
-  original smooth data to the selected terminal material family satisfying
-  bounded overlap and residual normal form, with every critical or potentially
-  nonsummable term already placed in prelimit clock/loss.
+  prelimit clock. The current repo-side proof gate is the signed smooth
+  same-packet commutator/coercivity theorem that produces that prelimit clock.
+  Family admission, bounded overlap, residual normal form, and relaxed lower
+  semicontinuity are downstream gates once that producer exists.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-construction-check-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-same-carrier-clock-lsc-defect-closure-check-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-direct-kawashima-fourbody-operator-form-check-20260623.md
   - problems/navier-stokes/theorem-construction/mcp-legalresidualsummabilityonselectedterminalfamily-a-simultaneousmaterialfourbodypacketcoercivity-a-a9f387f77f.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-smooth-same-packet-commutator-direct-calculation-20260623.md
 ---
 
 # Prelimit Route Supersedes Postlimit Kawashima Burden
@@ -27,10 +27,11 @@ Date: 2026-06-23
 
 ## 0. Result
 
-The current repo state is:
+The conditional route is:
 
 ```math
-\text{prelimit smooth master balance}
+\text{signed smooth commutator/coercivity}
++\text{ prelimit smooth master balance}
 +
 \text{residual normal form}
 +
@@ -40,14 +41,17 @@ The current repo state is:
 \tag{PRS.1}
 ```
 
-This does not solve the MPP by itself. It solves the same-material four-body
-coercive gate conditionally on the terminal family and residual hypotheses.
+This does not solve the MPP by itself. The direct commutator calculation shows
+that the smooth tower currently gives a material strain/coefficient growth law,
+not the finite full clock. The same-material four-body coercive gate is still
+conditional on the signed smooth same-packet commutator/coercivity producer.
 
 The older post-limit Kawashima/signed-symmetrizer burden is no longer the
-current necessary wall on this route. It is an alternate way to prove a similar
-coercive sign after taking a limit. The repaired route proves the smooth
-same-carrier balance before compactness, then passes the positive clock by
-relaxation.
+preferred order on this route. It is an alternate way to prove a similar
+coercive sign after taking a limit. The repaired route tries to prove the
+smooth same-carrier balance before compactness, then pass the positive clock by
+relaxation. The direct calculation keeps that attempt honest: the signed
+commutator line is still open.
 
 ## 1. Why the post-limit burden is demoted
 
