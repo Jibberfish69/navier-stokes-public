@@ -51,9 +51,11 @@ G=AA^\top,
 define \(\mathcal P_N^{mat}\) to dominate all of the following
 finite-derivative-depth same-packet quantities. This is a finite Sobolev-depth
 readout of a smooth field, not a restriction to finitely many Fourier modes:
-it replaces the earlier all-orders tower burden by a continuation-depth record
-for one fixed \(H^s\) target, with \(s\) arbitrary but chosen before the
-estimate is run.
+it is the continuation-depth projection of the full material tower, not a
+replacement for the full tower as the carried physical object.  The full smooth
+pressure-viscosity-incompressibility history remains the object; for one fixed
+\(H^s\) target, with \(s\) arbitrary but chosen before the estimate is run,
+only this finite Sobolev-depth record has to be certified for relaunch.
 
 ```math
 1+
@@ -239,7 +241,8 @@ d[\log(1+\mathcal P_N^{mat})]_+
 \tag{MRD.17}
 ```
 
-is the positive logarithmic variation of the full continuation-depth material
-record `(MRD.3)`--`(MRD.6)`, with the pressure tower licensed by `(MRD.14)`.
-Finite clock mass gives a uniform bound for that whole record on the terminal
-tail, and `(MRD.13)` gives the fixed-coordinate \(H^s\) continuation readout.
+is the positive logarithmic variation of the continuation-depth projection
+`(MRD.3)`--`(MRD.6)` of the full material tower, with the pressure tower
+licensed by `(MRD.14)`.  Finite clock mass gives a uniform bound for that
+continuation-depth record on the terminal tail, and `(MRD.13)` gives the
+fixed-coordinate \(H^s\) continuation readout.
