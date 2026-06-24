@@ -346,3 +346,64 @@ A naive Young step can then upgrade the declared linear coefficient surface
 So the commutator line still needs a coefficient-preserving absorption argument
 before this strict low-mode note can count as fully discharged on the local
 tail-energy surface.
+
+
+## 2026-06-24 Route B Coefficient Repair
+
+The coefficient-preserving line in this note is superseded by:
+
+`problems/navier-stokes/theorem-construction/strict-low-mode-coefficient-repair-20260624.md`.
+
+The unstable step is the shellwise expression
+
+```math
+\mathcal L_N(t)\,\|\nabla\Delta_j u(t)\|_2\,\|\Delta_j u(t)\|_2,
+```
+
+because a direct Young inequality promotes the coefficient to `\mathcal L_N^2`.
+The repaired Route B packet does not use that step as the final strict-low
+closure.
+
+The repaired split is:
+
+1. the low-velocity/high-gradient strict-low term cancels exactly by
+   incompressibility;
+2. the high-velocity/low-gradient term is controlled by the low-gradient
+   coefficient
+
+```math
+\mathcal G_N(t)
+:=1+\sum_{k\le N-4}2^{3k/2}\|\nabla\Delta_k u(t)\|_2;
+```
+
+3. the Euclidean gradient-transfer output supplies
+
+```math
+K_T:=\sup_{0\le t<T}\|\nabla u(t)\|_2<\infty,
+```
+
+so
+
+```math
+\mathcal G_N(t)\le 1+C2^{3N/2}K_T;
+```
+
+4. the `4 -> 1` return arrow keeps the coercive tail damping
+
+```math
+Q_N(t)\ge c_{LP}2^{2N}T_N(t),
+```
+
+and `2^{2N}` dominates the repaired `2^{3N/2}` coefficient growth for large
+`N`.
+
+Thus the live strict-low Route B target is now
+
+```math
+\mathcal N^{tail}_{N,strict}(t)
+\le C\mathcal G_N(t)T_N(t),
+```
+
+with same-surface absorption supplied by the retained dyadic tail damping.  The
+old displayed `\mathcal L_N ab` Young step should be read as a rejected
+intermediate diagnostic, not as the live theorem-grade closure line.
