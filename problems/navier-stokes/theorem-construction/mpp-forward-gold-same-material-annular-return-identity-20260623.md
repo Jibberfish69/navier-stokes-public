@@ -267,8 +267,8 @@ channel:
 In the simultaneous material four-body packet this is not an external residual.
 It is the annular stress/strain part of the \(Q\)-coordinate, coupled to the
 same transported cutoff and same material carrier.  Thus, with the four-body
-activity understood as the full same-packet activity, the smooth prelimit
-admission is
+activity understood as the full same-packet total-variation activity, the
+smooth prelimit admission target is
 
 ```math
 C_{\phi_r}(s)\,ds
@@ -279,6 +279,11 @@ C\,dA_{4B,N,r}^{ann}(s)+dR_{legal,r}(s).
 
 Any term not satisfying this same-packet inclusion is not legal residual; it has
 to be moved into the prelimit clock or loss before the terminal limit.
+
+This is an identification requirement, not a proof that the terminal clock is
+finite.  The stress-work term contains total flux variation.  The transported
+energy identity gives a signed balance for that flux, but it does not by itself
+bound total flux variation on a shrinking heat-scale family.
 
 Combining (8) and (10),
 
@@ -295,10 +300,10 @@ C\int_J dA_{4B,N,r}^{ann}
 
 This is the formal same-material version of the "pay it back later" argument:
 the center pulse is bounded by the pressure-viscosity-strain transaction on the
-same material annulus, and that transaction is counted by the full four-body
+same material annulus, and that transaction must be counted by the full four-body
 packet.
 
-## 6. Terminal consequence
+## 6. Conditional terminal consequence
 
 There are two terminal forms of the spike.
 
@@ -326,13 +331,14 @@ CK\int_{\sigma_0}^{\infty}dA_{4B,N}
 \tag{13}
 ```
 
-The prelimit master balance makes the right side finite.  Therefore infinitely
-many storage-variation terminal pulses are impossible.
+Once the signed smooth same-packet clock producer has made the full four-body
+clock finite, the right side is finite.  Then infinitely many storage-variation
+terminal pulses are impossible.
 
 Second, if the spike persists without storage variation on the selected
 terminal windows, then it is not an endpoint storage pulse.  It is the retained
-critical-packet branch.  That branch is already charged by the retained
-gauge-fixed lower-bound theorem:
+critical-packet branch.  That branch is charged only after the retained
+gauge-fixed lower-bound is order-locked into the same finite full clock:
 
 ```math
 \mathcal C^\perp(P_j)\ge\varepsilon_0
@@ -359,9 +365,12 @@ for any center pulse represented by local storage variation:
 }
 ```
 
-The proof is prelimit and uses only the original smooth Navier--Stokes law,
-transported material cutoffs, incompressibility, and the Cauchy stress identity.
+The first inequality is proved prelimit from the original smooth
+Navier--Stokes law, transported material cutoffs, incompressibility, and the
+Cauchy stress identity.  The second inequality is conditional on the signed
+smooth same-packet clock producer, because it requires total annular
+stress-work variation to be controlled by the finite full clock.
 
 The only way this identity does not see a terminal spike is when the spike is
 not a storage-variation pulse but a retained non-gauge critical packet.  That is
-the retained branch already paid by the four-body lower-bound theorem.
+the retained branch after it is admitted into the same finite full clock.
