@@ -1,24 +1,21 @@
 ---
 theorem_id: forward-gold-prelimit-master-balance-construction-check-20260623
-status: smooth-master-balance-core-checked-passage-gates-closed-downstream
+status: construction-order-checked-signed-commutator-coercivity-still-open
 logical_landing_node: prelimit_master_balance_construction
 edge_effect: >-
   Checks the supplied prelimit master-balance construction. The contribution is
   real: the signed four-body problem should not be solved by constructing a
   post-limit symmetrizer H_sigma. On each smooth same-carrier packet, the
   transported material Navier-Stokes law can be tested with transported cutoffs
-  and factorial mixed material weights to produce one smooth master balance.
+  and factorial mixed material weights to set up one smooth master balance.
   The four currents are then the split form of that master balance, not four
   separate suppliers. This neutralizes the earlier signed-net versus total
   positive variation obstruction by putting the positive material-record log
   clock on the left before the four-current cancellation and before compactness.
-  The passage gates are closed by
-  mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md:
-  residual tightness/summability, storage/lower-bound convergence, and
-  lower-semicontinuity of the visible limiting clock. The finite mixed-tower
-  commutator estimate is accepted only as a finite smooth same-carrier tower
-  estimate under the recorded material ellipticity/tower record; it is not a
-  standalone global reserve.
+  The exactness audit shows that this construction is still conditional on a
+  signed smooth same-packet commutator/coercivity estimate. The finite
+  mixed-tower absolute-value estimate is support only; it is not yet the signed
+  master-balance inequality that makes the full prelimit clock finite.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-same-carrier-clock-lsc-defect-closure-check-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-carrying-full-tower-fourbody-balance-direct-attempt-20260622.md
@@ -28,6 +25,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-material-pressure-tower-same-packet-elliptic-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-legal-residual-logscale-summability-correction-20260623.md
   - problems/navier-stokes/theorem-construction/lagrangian-material-derivative-recheck-note.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-smooth-same-packet-commutator-coercivity-audit-20260623.md
 ---
 
 # Prelimit Master Balance Construction Check
@@ -193,11 +191,12 @@ interface defects.
 
 ## 3. Finite mixed-tower commutator estimate
 
-The nontrivial finite-smooth estimate is a clock-identification estimate, not a
-right-side residual estimate.  The positive material-record growth created by
-the commutator is entered into the prelimit clock before the master balance is
-closed.  After the clock component is included, the remaining legal part has
-the residual normal form from `LegalResidualLogScaleSummabilityCorrection.A`:
+The finite absolute-value estimate below is not enough to close the smooth
+master balance.  It controls the size of a commutator after the relevant
+material record is present, but it does not by itself prove that positive
+material-record growth is produced as left-side clock mass.  The missing signed
+line is isolated in
+`mpp-forward-gold-signed-smooth-same-packet-commutator-coercivity-audit-20260623.md`.
 
 ```math
 \sum_\alpha w_\alpha
@@ -213,7 +212,25 @@ dR_{comm,m}.
 \tag{PMB.9}
 ```
 
-after the positive part of the material-record growth has been included in
+The signed theorem has to prove an inequality of the form
+
+```math
+\mathcal I_m
++
+dX_{comm,m}
++
+c\,C_{log}d[\log(1+\mathcal P_{N,m}^{mat})]_+
+\le
+\varepsilon dD_{Q,m}^{w}
++
+\varepsilon dD_{S,m}^{rad}
++
+dR^0_{comm,m}.
+\tag{PMB.9s}
+```
+
+Only after `(PMB.9s)` is proved may the positive material-record growth be
+included in
 
 ```math
 C_{log}\,d[\log(1+\mathcal P_{N,m}^{mat})]_+
@@ -221,8 +238,9 @@ C_{log}\,d[\log(1+\mathcal P_{N,m}^{mat})]_+
 \tag{PMB.9a}
 ```
 
-with \(C_{log}\) chosen once from the finite tower constants.  Thus the
-commutator does not leave a nonsummable positive term on the right side.
+with \(C_{log}\) chosen once from the finite tower constants.  Until then, the
+construction is a conditional route, not a proof that the commutator leaves no
+nonsummable positive term on the right side.
 
 This is not a new global supplier.  It is a finite same-carrier tower estimate
 inside the smooth packet.  Its algebraic reason is the factorial cancellation:
