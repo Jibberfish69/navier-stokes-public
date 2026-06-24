@@ -160,7 +160,7 @@ dx = J(a,t)\,da,
 \tag{MHR.9}
 ```
 
-and `(MHR.8)`, `(MHR.4)` give
+and `(MHR.8)`, `(MHR.4)` give, for \(1\le k\le m_s\),
 
 ```math
 \|\nabla_x^k u(t)\|_{L^2_x}^2
@@ -170,9 +170,17 @@ C_{k}
 \|A(t)\|_{W^{k-1,\infty}_a},
 \|J(t)\|_{L^\infty_a}
 \right)
-\sum_{1\le|\alpha|\le k}\|D_a^\alpha v(t)\|_{L^2_a}^2
-\mathbf 1_{k=0}\|v(t)\|_{L^2_a}^2.
+\sum_{1\le|\alpha|\le k}\|D_a^\alpha v(t)\|_{L^2_a}^2.
 \tag{MHR.10}
+```
+
+For \(k=0\),
+
+```math
+\|u(t)\|_{L^2_x}^2
+\le
+\|J(t)\|_{L^\infty_a}\|v(t)\|_{L^2_a}^2 .
+\tag{MHR.10a}
 ```
 
 Summing \(0\le k\le m_s\) gives
