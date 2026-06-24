@@ -145,33 +145,35 @@ v=V(X(a,s),s),\qquad q=Q(X(a,s),s),
 \tag{DSM.9}
 ```
 
-After applying the material derivative tower and the Bony/Littlewood--Paley
-split inside this transported packet, the lower bound `(DSM.8)` is exactly a
-tower/nonlinear participation term in the \(S\to Q\) part of the smooth
-four-body master balance.  The finite Bony collar and cutoff commutators are
-the legal residuals already allowed by the residual normal form.
+After applying the finite material derivative record of depth \(N_s\) and the
+Bony/Littlewood--Paley split inside this transported packet, the lower bound
+`(DSM.8)` is a finite \(H^s\)-source readout of the \(S\to Q\) part of the
+smooth four-body master balance.  The frequency localization selects where the
+source sits; it does not increase the derivative depth of the material record.
+The finite Bony collar and cutoff commutators are the legal residuals already
+allowed by the residual normal form.
 
 Thus the selected exterior source clock
 
 ```math
-d\mathcal S^{R3}_{N,R}
+d\mathcal S^{R3}_{s,R,\Lambda}
 ```
 
 satisfies, on smooth prelimit packets,
 
 ```math
-d\mathcal S^{R3}_{N,R}
+d\mathcal S^{R3}_{s,R,\Lambda}
 \le
 C\left(
-dA_{4B,N}
-+C_{\log}d[\log(1+\mathcal P_N^{mat})]_+
-+d\mathcal L_{4B,N}
+dA_{4B,N_s}
++C_{\log}d[\log(1+\mathcal P_{N_s}^{mat})]_+
++d\mathcal L_{4B,N_s}
 \right)
-+dR^0_N,
++dR^0_{s,\Lambda},
 \tag{DSM.10}
 ```
 
-with \(dR^0_N\) uniformly summable on bounded-overlap selected exterior
+with \(dR^0_{s,\Lambda}\) uniformly summable on bounded-overlap selected exterior
 families after applying the corrected residual normal form: scale-neutral terms
 are legal only with genuine physical bounded overlap or telescoping storage,
 and nested terminal residuals require positive scale gain.
