@@ -95,11 +95,10 @@ summary:
   total_authority_assumptions: 3
   discharged_authority_assumptions: 3
   referee_blockers: &1
-  - 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
-    bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
+  - navier-stokes-exactness-rework-active
 release_blockers: *1
 required_next_actions: *1
-generated_at: '2026-06-18T21:43:38Z'
+generated_at: '2026-06-24T00:33:32Z'
 pass: false
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md

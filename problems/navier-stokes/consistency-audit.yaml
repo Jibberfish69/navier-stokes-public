@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: consistency-audit-navier-stokes
-  generated_at: '2026-06-18T21:43:38Z'
+  generated_at: '2026-06-24T00:33:32Z'
   generator: system/runner/lib/release_surface_reconciler.rb
   purpose: release consistency blocked by CM contrapositive referee audit
 status:
@@ -23,7 +23,7 @@ source:
 summary:
   authority_mode: cm-contrapositive-referee-gate
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
-  audit_status: clay-closing-bridge-open
+  audit_status: passed-current-finite-obstruction-inventory-gate
   blocking_count: 1
   frontier_count: 0
   unresolved_count: 1
@@ -31,8 +31,7 @@ summary:
   theorem_warrant_blocking_count: 1
   all_discharged: false
   referee_blockers: &1
-  - 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
-    bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
+  - navier-stokes-exactness-rework-active
   open_frontier_labels: []
 findings:
 - The CM contrapositive referee audit reports unresolved proof-bearing burdens; stale

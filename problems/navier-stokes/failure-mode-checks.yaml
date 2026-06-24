@@ -3,7 +3,7 @@ version: 2
 identity:
   problem_id: navier-stokes
   artifact_id: failure-mode-checks-navier-stokes
-  generated_at: '2026-06-18T21:43:38Z'
+  generated_at: '2026-06-24T00:33:32Z'
   generator: system/runner/lib/release_surface_reconciler.rb
 status: cm-contrapositive-referee-blocked
 pass: false
@@ -24,13 +24,13 @@ checks:
 auto_audit_certification:
   current_package_status: cm-referee-gate-passed-with-gold-silver-paths
   standalone_status: blocked
-  completion_tier_achieved: branch-paid-annular-silver-gold-new-production-open
+  completion_tier_achieved: cm-referee-gate-passed-with-gold-silver-paths
   review_verdict: blocked
   theorem_packet_status: theorem-open
 summary:
   authority_mode: cm-contrapositive-referee-gate
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
-  audit_status: clay-closing-bridge-open
+  audit_status: passed-current-finite-obstruction-inventory-gate
   blocking_count: 1
   frontier_count: 0
   unresolved_count: 1
@@ -38,7 +38,6 @@ summary:
   theorem_warrant_blocking_count: 1
   all_discharged: false
   referee_blockers:
-  - 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
-    bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
+  - navier-stokes-exactness-rework-active
   open_frontier_labels: []
   failure_mode_blocking_count: 1
