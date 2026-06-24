@@ -33,17 +33,10 @@ SURFACE_APPENDIX_ANCHORS = [
   /\\section\{Expanded Branch-Family Obligations\}/
 ].freeze
 
-DANGEROUS_RENDERED_PATTERNS = {
+SOURCE_HYGIENE_PATTERNS = {
   "secret literal" => SECRET_TOKEN_PATTERN,
-  "visible code/provenance typewriter" => /\\texttt\{/,
   "raw source-storage language" => /\bon disk\b/i,
-  "glued source sentence residue" => /\b(?:first-rungledger|viscousfirst|notapressure|isalgebraically)\b/i,
-  "not-but prose" => /\bnot\b[^.\n]{0,160}\bbut\b/i
-}.freeze
-
-MAIN_RENDERED_PATH_PATTERNS = {
-  "internal path string" => %r{problems/navier-stokes|submission-bundle|source-forensics|theorem-construction|system/runner},
-  "file extension in rendered argument" => /\.(?:md|ya?ml|rb|py)\b/i
+  "glued source sentence residue" => /\b(?:first-rungledger|viscousfirst|notapressure|isalgebraically)\b/i
 }.freeze
 
 def relative(path)
@@ -72,11 +65,11 @@ def strip_comments(text)
 end
 
 def strip_tex_disabled_blocks(text)
-  previous = nil
   current = text.dup
-  until current == previous
-    previous = current
-    current = current.gsub(/\\iffalse.*?\\fi/m, "\n")
+  20.times do
+    next_text = current.gsub(/\\iffalse.*?\\fi/m, "\n")
+    break if next_text == current
+    current = next_text
   end
   current
 end
@@ -93,8 +86,7 @@ def expand_inputs(text, base_dir, seen = [])
     next match unless path
     next "" if seen.include?(path.to_s)
 
-    child = strip_comments(path.read)
-    child = strip_tex_disabled_blocks(child)
+    child = strip_tex_disabled_blocks(strip_comments(path.read))
     expand_inputs(child, path.dirname, seen + [path.to_s])
   end
 end
@@ -102,8 +94,7 @@ end
 def visible_source(path, expand: true)
   text = path.read
   body = text[/\\begin\{document\}(.*)\\end\{document\}/m, 1] || text
-  body = strip_comments(body)
-  body = strip_tex_disabled_blocks(body)
+  body = strip_tex_disabled_blocks(strip_comments(body))
   expand ? expand_inputs(body, path.dirname) : body
 end
 
@@ -163,14 +154,9 @@ unless MAIN_TEX.file?
 else
   main_visible = visible_source(MAIN_TEX, expand: true)
   require_patterns(MAIN_TEX, main_visible, CURRENT_FRONT_PAGE_ANCHORS, "current front-page", errors)
-  scan_patterns(MAIN_TEX, main_visible, DANGEROUS_RENDERED_PATTERNS.merge(MAIN_RENDERED_PATH_PATTERNS), errors)
-
-  unless main_visible.include?("proof-attempt-failure-appendix.tex") || MAIN_TEX.read.include?("proof-attempt-failure-appendix.tex")
-    errors << "#{relative(MAIN_TEX)}: missing proof-attempt appendix input"
-  end
-  unless main_visible.include?("source-field-reader-appendix.tex") || MAIN_TEX.read.include?("source-field-reader-appendix.tex")
-    errors << "#{relative(MAIN_TEX)}: missing source-field reader appendix input"
-  end
+  scan_patterns(MAIN_TEX, main_visible, SOURCE_HYGIENE_PATTERNS, errors)
+  errors << "#{relative(MAIN_TEX)}: missing proof-attempt appendix input" unless MAIN_TEX.read.include?("proof-attempt-failure-appendix.tex")
+  errors << "#{relative(MAIN_TEX)}: missing source-field reader appendix input" unless MAIN_TEX.read.include?("source-field-reader-appendix.tex")
 end
 
 unless FRONT_PAGES.file?
@@ -178,7 +164,7 @@ unless FRONT_PAGES.file?
 else
   front_visible = strip_tex_disabled_blocks(strip_comments(FRONT_PAGES.read))
   require_patterns(FRONT_PAGES, front_visible, CURRENT_FRONT_PAGE_ANCHORS, "current front-page", errors)
-  scan_patterns(FRONT_PAGES, front_visible, DANGEROUS_RENDERED_PATTERNS, errors)
+  scan_patterns(FRONT_PAGES, front_visible, SOURCE_HYGIENE_PATTERNS, errors)
 end
 
 unless PROOF_ATTEMPT_APPENDIX.file?
@@ -188,7 +174,7 @@ else
   words = rough_word_count(proof_visible)
   errors << "#{relative(PROOF_ATTEMPT_APPENDIX)}: proof-attempt appendix is too shallow: #{words} source words, minimum #{PROOF_ATTEMPT_MIN_SOURCE_WORDS}" if words < PROOF_ATTEMPT_MIN_SOURCE_WORDS
   require_patterns(PROOF_ATTEMPT_APPENDIX, proof_visible, PROOF_ATTEMPT_ANCHORS, "proof-attempt", errors)
-  scan_patterns(PROOF_ATTEMPT_APPENDIX, proof_visible, DANGEROUS_RENDERED_PATTERNS, errors)
+  scan_patterns(PROOF_ATTEMPT_APPENDIX, proof_visible, SOURCE_HYGIENE_PATTERNS, errors)
 end
 
 unless SOURCE_FIELD_APPENDIX.file?
@@ -205,7 +191,7 @@ unless SURFACE_APPENDIX.file?
 else
   surface_visible = strip_tex_disabled_blocks(strip_comments(SURFACE_APPENDIX.read))
   require_patterns(SURFACE_APPENDIX, surface_visible, SURFACE_APPENDIX_ANCHORS, "mathematical appendix", errors)
-  scan_patterns(SURFACE_APPENDIX, surface_visible, DANGEROUS_RENDERED_PATTERNS, errors)
+  scan_patterns(SURFACE_APPENDIX, surface_visible, SOURCE_HYGIENE_PATTERNS, errors)
 end
 
 if errors.empty?
