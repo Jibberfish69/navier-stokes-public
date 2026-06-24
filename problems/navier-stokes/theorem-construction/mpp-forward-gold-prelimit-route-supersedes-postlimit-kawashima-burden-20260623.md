@@ -5,10 +5,11 @@ logical_landing_node: prelimit_route_supersedes_postlimit_kawashima_burden
 edge_effect: >-
   Reconciles the older post-limit Kawashima/signed-symmetrizer burden with the
   newer prelimit master-balance route. The post-limit Kawashima compensator is
-  an alternate direct operator route, not the current necessary wall, after the
-  smooth same-carrier master balance is proved before compactness and the
-  interface defect is defined as the lower-semicontinuity gap of the positive
-  prelimit clock. The current repo-side proof gate is the signed smooth
+  an alternate direct operator route, not the current necessary wall, on the
+  conditional route where the smooth same-carrier master balance is produced
+  before compactness and the interface defect is defined as the
+  lower-semicontinuity gap of the positive prelimit clock. The current
+  repo-side proof gate is the signed smooth
   same-packet commutator/coercivity theorem that produces that prelimit clock.
   Family admission, bounded overlap, residual normal form, and relaxed lower
   semicontinuity are downstream gates once that producer exists.
