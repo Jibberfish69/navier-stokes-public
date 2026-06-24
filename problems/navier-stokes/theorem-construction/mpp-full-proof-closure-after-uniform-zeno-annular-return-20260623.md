@@ -102,7 +102,8 @@ Thus
 For transported cutoffs \(r_m^{mat}=0\); for selected packet cutoffs it is a
 same-packet selector/collar legal residual.
 
-The uniform terminal-Zeno annular return theorem gives
+The uniform terminal-Zeno annular return theorem gives, conditional on the
+finite full-clock producer,
 
 ```math
 \lim_{\theta\downarrow0}
@@ -123,7 +124,7 @@ subfamily forces
 \tag{FCZ.5}
 ```
 
-This contradicts the prelimit master balance:
+This contradicts the signed smooth-packet master balance:
 
 ```math
 d\mathfrak L_{4B,N}
@@ -160,7 +161,7 @@ d\mathcal L_{4B,N}.
 ```
 
 Therefore no endpoint storage/overlap pulse survives on the original material
-history.
+history once the finite full clock is available.
 
 ## 2. Critical-packet spike on the material history
 
@@ -175,15 +176,16 @@ installed lower-bound theorem says
 \tag{FCZ.7}
 ```
 
-Infinitely many critical terminal packets again contradict the finite
-four-body clock:
+Infinitely many critical terminal packets again contradict the finite four-body
+clock, once that clock has been produced:
 
 ```math
 \int_{\sigma_0}^{\infty}dA_{4B,N}<\infty .
 \tag{FCZ.8}
 ```
 
-So the non-gauge critical-packet case cannot be the finite terminal witness.
+So the non-gauge critical-packet case cannot be the finite terminal witness
+under the signed smooth-packet clock theorem.
 
 ## 3. Same Material Event
 
@@ -205,12 +207,13 @@ So the terminal witness has only these possibilities:
 \tag{FCZ.9}
 ```
 
-No branch leaves a finite nonsmooth terminal object.
+No branch leaves a finite nonsmooth terminal object after the finite full-clock
+producer is supplied.
 
 ## 4. Conclusion
 
-Therefore no finite Clay terminal witness survives on the same material
-history:
+Therefore, conditional on the signed smooth-packet clock producer, no finite
+Clay terminal witness survives on the same material history:
 
 ```math
 \boxed{
@@ -223,7 +226,7 @@ The final classical bridge is the direct finite-breakdown contradiction.  A
 finite maximal time would supply a same-solution terminal readout failure in
 the \(H^s\), \(s>5/2\), continuation norm.  On the periodic surface the
 transported whole-torus material history is the object.  The material-history
-full clock gives finite positive logarithmic variation of the
+full clock would give finite positive logarithmic variation of the
 continuation-depth material record, and the direct fixed-coordinate readout
 bridge converts that record into the continuation norm:
 
