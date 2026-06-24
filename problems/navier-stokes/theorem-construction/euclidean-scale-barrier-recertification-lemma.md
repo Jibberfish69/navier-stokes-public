@@ -413,3 +413,46 @@ then the resulting bound retains an `N`-dependent exponential budget and does
 not recover the Proposition 4.1 barrier in the same sharp dyadic form. The
 same-shape recertification on the exact Euclidean surface uses coercive tail
 damping, not bare Gronwall.
+
+
+## 2026-06-24 Strict-Low Coefficient Repair Propagation
+
+The strict-low term in this `4 -> 1` packet now routes through:
+
+`problems/navier-stokes/theorem-construction/strict-low-mode-coefficient-repair-20260624.md`.
+
+Accordingly, Step 1 should be read with the repaired coefficient
+
+```math
+\mathcal G_N(t)
+:=1+\sum_{k\le N-4}2^{3k/2}\|\nabla\Delta_k u(t)\|_2
+```
+
+rather than as a theorem-grade use of the unstable shellwise product
+`\mathcal L_N\|\nabla\Delta_j u\|_2\|\Delta_j u\|_2`.
+
+The repaired strict-low contribution is
+
+```math
+\mathcal N_{N,strict}^{tail}(t)
+\le C\mathcal G_N(t)T_N(t).
+```
+
+The Route B packet remains on the same Euclidean surface because the gradient
+bridge already supplies
+
+```math
+K_T=\sup_{0\le t<T}\|\nabla u(t)\|_2<\infty,
+```
+
+and hence
+
+```math
+\mathcal G_N(t)\le1+C2^{3N/2}K_T.
+```
+
+This repaired coefficient is still dominated by the retained coercive damping
+`Q_N\ge c_{LP}2^{2N}T_N` for all sufficiently large `N`.  The local same-shape
+barrier recovery argument in Step 5 therefore remains the live Route B return
+mechanism, with `\mathcal G_N` replacing the unstable strict-low coefficient
+line.
