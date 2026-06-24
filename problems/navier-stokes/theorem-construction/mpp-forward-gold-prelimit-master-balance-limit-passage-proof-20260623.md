@@ -156,10 +156,29 @@ w_\beta^{1/2}w_{\alpha-\beta}^{1/2}.
 \tag{PML.8}
 ```
 
-The commutator estimate is then used as a clock-identification estimate.  Once
-the positive material-record growth is included in the prelimit clock with a
-fixed structural constant \(C_{log}\), the leftover commutator is absorbable or
-legal:
+The exact remaining production line is not the unsigned size estimate alone.
+The commutator must be decomposed with a same-packet cross-storage so that the
+positive material-record growth appears on the left before compactness.  In the
+notation of
+`mpp-forward-gold-signed-smooth-same-packet-commutator-coercivity-audit-20260623.md`,
+the needed line is:
+
+```math
+\mathcal I_m
++
+dX_{comm,m}
++
+c\,C_{log}d[\log(1+\mathcal P_{N,m}^{mat})]_+
+\le
+\varepsilon dD_{Q,m}^{w}
++
+\varepsilon dD_{S,m}^{rad}
++
+dR^0_{comm,m}.
+\tag{PML.8a}
+```
+
+The weaker unsigned bound
 
 ```math
 \left|
@@ -175,7 +194,9 @@ dR^0_{comm,m}.
 \tag{PML.9}
 ```
 
-The omitted positive part is precisely
+is only a support estimate.  It becomes useful for the master balance only
+after `(PML.8a)` has produced the signed left-clock contribution.  The positive
+part to be produced is
 
 ```math
 C_{log}d[\log(1+\mathcal P_{N,m}^{mat})]_+
@@ -238,7 +259,7 @@ C_{log}d[\log(1+\mathcal P_{N,m}^{mat})]_+.
 \tag{PML.14}
 ```
 
-The smooth master balance is therefore
+With `(PML.8a)` in hand, the smooth master balance is
 
 ```math
 d\mathfrak L_{4B,N,m}
