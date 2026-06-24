@@ -263,6 +263,8 @@ Whole-space \(H^s\) local theory also relaunches the same solution past
 ```math
 \boxed{
 \text{original smooth Navier--Stokes data}
+\;+\;
+\text{finite full same-packet clock from signed smooth coercivity}
 \Longrightarrow
 \text{no finite-time classical breakdown on }T^3
 \text{ or on }\mathbb R^3.
