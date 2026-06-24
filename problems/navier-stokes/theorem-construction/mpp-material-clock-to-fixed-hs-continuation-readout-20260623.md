@@ -62,9 +62,12 @@ remain smooth fields with their full Fourier content.  The finite record only
 asks for enough material derivatives to control the fixed \(H^s\) norm that
 local Navier--Stokes continuation needs.  An all-orders version would be a
 stronger projective-tower theorem, not a necessary continuation input.
-This is the correction to the earlier full-tower burden: the proof may be run
-for any chosen \(s>5/2\), but it does not need one simultaneous all-\(s\)
-infinite tower estimate.
+This does not demote the full derivative tower as the physical material
+object.  The full smooth tower is the pressure-viscosity-incompressibility
+history being carried by the fluid.  The finite \(N_s\) record is the exact
+continuation certificate extracted from that full history: the proof may be
+run for any chosen \(s>5/2\), but the relaunch criterion does not require one
+simultaneous all-\(s\) infinite-tower estimate.
 
 The continuation-depth material record \(\mathcal P_{N_s}^{mat}\) is the full
 same-material record defined in
@@ -226,9 +229,10 @@ with the terminal tail gives `(MHR.6)`.
 The center spike is not being read by itself.  The readout uses the entire
 same-material history: the transported torus atlas, the annular deformation
 under the spike, the pressure-viscosity-incompressibility-velocity tower, and
-the later stress/strain return.  Once that full material record has finite
-positive logarithmic variation, the transported coordinates cannot hide an
-unbounded fixed-coordinate \(H^s\) norm.
+the later stress/strain return.  For the continuation contradiction, one reads
+from that full history the finite depth needed for a chosen \(H^s\) norm. Once
+that continuation-depth record has finite positive logarithmic variation, the
+transported coordinates cannot hide an unbounded fixed-coordinate \(H^s\) norm.
 
 The bridge is therefore direct:
 
