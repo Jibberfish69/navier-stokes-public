@@ -304,3 +304,42 @@ has:
 
 What remains is theorem-grade packet discharge and synchronization across the
 manuscript, export, and generated control surfaces.
+
+
+## 2026-06-24 C3 Packet Repair Propagation
+
+The local `4 -> 1` strict-low coefficient defect has been repaired in:
+
+`problems/navier-stokes/theorem-construction/strict-low-mode-coefficient-repair-20260624.md`.
+
+This C3 packet should therefore treat the strict-low part of the Euclidean tail
+return as routed through the repaired coefficient
+
+```math
+\mathcal G_N(t)
+:=1+\sum_{k\le N-4}2^{3k/2}\|\nabla\Delta_k u(t)\|_2,
+```
+
+with
+
+```math
+\mathcal N^{tail}_{N,strict}(t)
+\le C\mathcal G_N(t)T_N(t).
+```
+
+The repair is compatible with the C3 same-surface rule because:
+
+1. the low-velocity/high-gradient strict-low term cancels by incompressibility;
+2. the high-velocity/low-gradient term uses only the same Euclidean field `u`;
+3. the gradient bridge already supplies `K_T=\sup_{t<T}\|\nabla u(t)\|_2<\infty` inside the Route B packet;
+4. `\mathcal G_N(t)\le1+C2^{3N/2}K_T`;
+5. the retained tail coercivity `Q_N\ge c2^{2N}T_N` dominates that coefficient for large `N`.
+
+So the live C3 local return mechanism is no longer the unstable `\mathcal L_N ab`
+Young step.  It is the repaired strict-low packet plus the existing spill and
+high-high packets, followed by coercive dyadic tail damping.
+
+This update repairs one local packet defect. It does not promote C3 to full
+Navier--Stokes closure until the spill/high-high surfaces, proposition-level
+alignment, continuation bridge, and manuscript/export propagation are checked
+against the same repaired surface.
