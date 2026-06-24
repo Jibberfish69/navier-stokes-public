@@ -84,7 +84,7 @@ d\mathcal L_{4B,N}.
 \tag{UZR.4}
 ```
 
-The prelimit master balance gives
+The signed smooth-packet master balance would give
 
 ```math
 \int_{\sigma_0}^{\infty}d\Omega_N<\infty.
@@ -105,8 +105,9 @@ dR^0_{N,m}(s),
 with \(dR^0_{N,m}\) uniformly summable by the residual normal form.
 
 This is the load-bearing point.  The contradiction below is a proof only with
-`(UZR.6)`.  Without `(UZR.6)`, the old discounted stress-work obstruction
-remains.
+`(UZR.5)` and `(UZR.6)`.  The annular identity supplies `(UZR.6)` on the same
+material packet; the current open theorem is the signed smooth-packet
+commutator/coercivity estimate needed to make `(UZR.5)` true.
 
 ## 0.1. Why the admission is legitimate on the retained branch
 
@@ -327,7 +328,7 @@ K
 
 The right side is finite and tends to zero as \(J\to\infty\), while the left
 side can be made arbitrarily large by taking \(M\to\infty\).  This
-contradiction proves `(UZR.2)`.
+contradiction proves `(UZR.2)` conditional on that finite full-clock producer.
 
 ## 6. Consequence for the terminal overlap
 
@@ -359,10 +360,10 @@ absolutely continuous by the residual normal form.  Therefore `(UZR.2)` implies
 So the terminal last-time storage/overlap contribution has no surviving
 endpoint atom on the same material history.
 
-## 7. MPP route closure inside the installed framework
+## 7. Conditional route consequence
 
-The remaining forward-gold obstruction was exactly the infinite terminal Zeno
-version of the later annular return.  The proof above closes it:
+The infinite terminal Zeno version of the later annular return is reduced to the
+finite full-clock producer:
 
 ```math
 \text{failure of uniform annular return}
@@ -372,10 +373,10 @@ version of the later annular return.  The proof above closes it:
 \int d\Omega_N=\infty,
 ```
 
-contradicting the prelimit master balance.
+contradicting the finite full-clock master balance.
 
-Together with the already-installed retained critical-packet lower-bound
-theorem and the material-record clock, the branch split is now:
+Together with the retained critical-packet lower-bound theorem and the
+material-record clock, the branch split becomes:
 
 ```math
 \begin{array}{ll}
@@ -392,6 +393,7 @@ theorem and the material-record clock, the branch split is now:
 \tag{UZR.28}
 ```
 
-Thus the pure forward-gold terminal pulse obstruction is closed in the repo
-route.  There is no remaining hidden terminal-Zeno annular return branch after
-the daughter-packet refinement on the retained same-packet branch.
+Thus the daughter-packet refinement is the correct terminal-Zeno annular return
+mechanism.  The route is not closed by this note alone; it closes after the
+signed smooth same-packet commutator/coercivity theorem proves the finite full
+clock.
