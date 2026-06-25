@@ -1,6 +1,6 @@
 ---
-theorem_id: forward-gold-material-record-growth-is-remaining-clock-producer-20260625
-status: proof-installed-reduction-to-material-record-growth-service-clock; finite-service-clock-still-open
+theorem_id: forward-gold-material-record-growth-is-service-coordinate-of-fourbody-estimate-20260625
+status: proof-installed-record-growth-law; finite-fourbody-service-coordinate-estimate-open
 logical_landing_node: global_same_packet_full_clock_from_original_data
 edge_effect: >-
   Consolidates the live edge after the bounded-record action-cycle proof. The
@@ -10,8 +10,9 @@ edge_effect: >-
   Differentiating the same pressure-viscosity-incompressibility-velocity
   material equations gives the exact BKM-type growth law: positive material
   record growth is controlled by a same-material strain/coefficient/pressure
-  service clock. Thus the remaining producer is finite total same-material
-  service clock, or an equivalent signed global terminal-tail clock inequality,
+  service coordinate of the same four-body material clock. Thus the remaining
+  theorem is the finite-total estimate for that already-derived service
+  coordinate, or an equivalent signed global terminal-tail clock inequality,
   not another endpoint, packet, viscosity-only, pressure-only, or annular
   location problem.
 parents:
@@ -22,7 +23,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-material-record-definition-for-fixed-hs-readout-20260623.md
 ---
 
-# Material Record Growth Is Remaining Clock Producer
+# Material Record Growth Is The Service-Coordinate Form Of The Four-Body Estimate
 
 Date: 2026-06-25
 
@@ -182,7 +183,7 @@ This is the exact material-record growth law.
 
 ## 3. What this proves
 
-If the same-material service clock is finite,
+If the same-material service coordinate has finite total action,
 
 ```math
 \int_0^{T_*}\Theta_N(t)\,dt<\infty,
@@ -207,17 +208,19 @@ The installed material readout then gives
 
 and classical local theory relaunches the same solution past \(T_*\).
 
-Thus finite same-material service clock proves the MPP through the gold route.
+Thus the finite-total four-body service estimate proves the MPP through the
+gold route.
 
 ## 4. What remains open
 
-The calculation does not prove `(MRG.13)`.  It identifies it as the remaining
-producer.
+The calculation does not have to prove that the clock exists.  The transported
+material equations define the service coordinate and prove the record-growth
+law `(MRG.12)`.  The unfinished theorem is the finite-total estimate `(MRG.13)`.
 
 This is the material-history version of the classical continuation criterion:
 record growth is controlled by the deformation/strain and pressure-service
-clock, and proving that clock finite from original smooth data is the
-regularity theorem.
+clock, and proving finite total action for that coordinate from original
+smooth data is the four-body regularity estimate.
 
 The remaining open theorem can be written equivalently as either
 
@@ -253,7 +256,7 @@ stress-work and material storage exchange.
 The proof state is now exact:
 
 ```math
-\text{finite service clock }(MRG.13)
+\text{finite-total four-body estimate in service-coordinate form }(MRG.13)
 \Longrightarrow
 \text{finite full material clock}
 \Longrightarrow
@@ -265,5 +268,5 @@ The proof state is now exact:
 
 The remaining MPP-facing work is the first arrow.  Every other annular,
 endpoint, bounded-cycle, pressure-only, viscosity-only, packet-only, or
-component-only obstruction has been reduced back to this same-material service
-clock on the original transported history.
+component-only obstruction has been reduced back to finite total action for
+this same-material service coordinate on the original transported history.
