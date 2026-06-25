@@ -10,7 +10,7 @@ edge_effect: >-
   service quantity, but it does not expose a hidden nonnegative stress-square
   or strain-square bulk term. The first integration by parts leaves collar
   Hessian and stress-curl contractions; the stress-time term leaves pressure
-  and tower commutators. Thus the live producer remains the signed smooth
+  and tower commutators. Thus the live estimate remains the signed smooth
   same-packet commutator/coercivity estimate for the gauge-reduced rectified
   annular clock.
 parents:
