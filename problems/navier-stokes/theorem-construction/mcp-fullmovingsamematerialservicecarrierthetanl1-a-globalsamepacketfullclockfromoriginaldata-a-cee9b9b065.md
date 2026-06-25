@@ -121,4 +121,7 @@ The unconditional proof of
 \int_0^{T^*}\Theta_N(t)dt<\infty
 ```
 
-is not obtained from the current installed inputs. The exact next theorem is the bounded-below same-material Lyapunov/coercivity law for the remaining positive moving participation-law-strain service.
+is not obtained from the current installed inputs. After the PLS
+recirculation packing closure, the remaining theorem is finite one-way positive
+material-record growth, equivalently a bounded-below same-material
+Lyapunov/coercivity law for that record-growth clock.
