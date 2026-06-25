@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-24T16:33:28Z'
+generated_at: '2026-06-25T04:44:20Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -12,8 +12,8 @@ pdf_tracks:
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     present: true
-    sha1: 2b8d7c4522be920f68c4c807eae250c2ce650d5c
-    bytes: 4539260
+    sha1: 3efe85ad83d6b0338d4c4cc7cdac6e9a141765bd
+    bytes: 4540439
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
     role: preferred problems/** app-aligned human submission track
     required_for_clay_submission: true
@@ -42,7 +42,7 @@ readiness_blocker: 'Navier-Stokes completion readiness is blocked by 9 unresolve
   source-frontier:unresolved_obligations.'
 active_supplier_blocker: first-exit-pack-survival-mechanism-search
 manuscript_tex_sha1: b75b03d536a1c1fe640fa2d0b7820424e3ceea76
-completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260624-iteration-2.yaml
+completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260625.yaml
 readiness_evidence:
   source_frontier_clear: false
   open_d8_proof_blockers: 0
@@ -240,8 +240,8 @@ readiness_evidence:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: 2b8d7c4522be920f68c4c807eae250c2ce650d5c
-          bytes: 4539260
+          sha1: 3efe85ad83d6b0338d4c4cc7cdac6e9a141765bd
+          bytes: 4540439
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
@@ -322,8 +322,8 @@ readiness_evidence:
       human_app_aligned:
         path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
         present: true
-        sha1: 2b8d7c4522be920f68c4c807eae250c2ce650d5c
-        bytes: 4539260
+        sha1: 3efe85ad83d6b0338d4c4cc7cdac6e9a141765bd
+        bytes: 4540439
         manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
         required_for_clay_submission: true
       codex_machine_paper:
@@ -338,8 +338,8 @@ readiness_evidence:
     human_app_aligned:
       path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       present: true
-      sha1: 2b8d7c4522be920f68c4c807eae250c2ce650d5c
-      bytes: 4539260
+      sha1: 3efe85ad83d6b0338d4c4cc7cdac6e9a141765bd
+      bytes: 4540439
       manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
       role: preferred problems/** app-aligned human submission track
       required_for_clay_submission: true
@@ -361,8 +361,8 @@ pdf_render_status:
     human_app_aligned:
       path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       present: true
-      sha1: 2b8d7c4522be920f68c4c807eae250c2ce650d5c
-      bytes: 4539260
+      sha1: 3efe85ad83d6b0338d4c4cc7cdac6e9a141765bd
+      bytes: 4540439
       manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
       required_for_clay_submission: true
     codex_machine_paper:
