@@ -131,8 +131,8 @@ The later PLS recirculation packing closure discharges the oscillatory
 recirculation branch by the original smooth frequency history: bounded-record
 cycles need definite time, accelerated cycles are paid by viscosity or the
 top-strain/coefficient/collar participation clock, and top-shell regeneration
-is itself PLS service. The remaining case is one-way positive material-record
-growth.
+is itself PLS service. The later one-way material-record growth estimate admits
+net upward record growth into the same PLS cost.
 
 ## 4. Verdict
 
@@ -142,15 +142,15 @@ The requested storage theorem has the exact strength of the finite full moving s
 \text{same-fluid attachment, fixed-annulus L1, fixed-collar L1, top-strain storage, Hodge constraint correction, participation-law interface identification.}
 ```
 
-They leave one live finite-total estimate after the recirculation branch:
+They leave one live finite-total estimate after the recirculation and one-way
+record-growth arrows:
 
 ```math
 \boxed{
-\text{construct a bounded-below same-material storage}
-\text{ for one-way positive material-record growth.}
+\int_0^{T^*}d\Omega_N^{PLS}<\infty .
 }
 ```
 
 This note records the failed unconditional storage construction; the later
-recirculation closure narrows its unresolved part to one-way material-record
-growth.
+recirculation and record-growth notes narrow the unresolved part to the global
+finite-total PLS action bound.
