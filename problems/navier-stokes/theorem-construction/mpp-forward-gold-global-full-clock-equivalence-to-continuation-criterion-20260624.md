@@ -188,8 +188,9 @@ The energy inequality gives the physical finite-time dissipation control:
 \tag{GFC.15}
 ```
 
-On a shrinking heat-scale family, this supplies only radius-weighted normalized
-control.  It does not give the unweighted terminal material clock
+On a bounded-overlap heat-scale sampling of the same material spike history,
+this supplies only radius-weighted normalized control.  It does not give the
+unweighted terminal material clock
 
 ```math
 \sum_m\int_{J_m}d\Omega_{N,m}^{full}<\infty.
@@ -246,7 +247,7 @@ with statement `(GFC.1)`.
 
 This is the same mathematical burden previously named
 `SignedSmoothSamePacketCommutatorCoercivity.A`, after removing the false local
-commutator reading.  It is the global terminal-tail full-clock producer.
+commutator reading.  It is the global terminal-tail full-clock estimate.
 
 The downstream route remains installed and conditional:
 
