@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-positive-material-action-cycle-direct-attack-20260625
-status: direct-attack-identifies-exact-no-free-positive-action-cycle; global-clock-still-open
+status: direct-attack-identifies-positive-action-cycle-branch; corrected-by-bounded-record-packing; global-clock-still-open
 logical_landing_node: global_same_packet_full_clock_from_original_data
 edge_effect: >-
   Attacks the remaining finite full material clock directly on the original
@@ -10,8 +10,10 @@ edge_effect: >-
   pressure-viscosity-incompressibility-velocity action cycles on the transported
   annular history, with signed storage/payback canceling but rectified action
   accumulating. This is not a new proxy problem; it is the original missing
-  global clock in minimal-cycle form. Closing the MPP now requires the exact
-  no-free-positive-material-action-cycle inequality recorded below.
+  global clock in minimal-cycle form. The later bounded-record packing note
+  corrects the overstrong single-cycle wording: one unit action cycle can exist,
+  but infinitely many unit cycles cannot accumulate before a finite terminal
+  time while the continuation-depth material record remains bounded.
 parents:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/thread-trajectories/assess-stirling-for-ns-binomials.yaml
@@ -214,20 +216,27 @@ dR_N,
 \tag{PAC.11}
 ```
 
-Equivalently, in cycle language:
+The first corrected cycle consequence is now installed in
+`BoundedMaterialRecordExcludesInfiniteActionCycles.A`: under a bounded
+continuation-depth material record, the full annular action density is bounded,
+so infinitely many unit positive cycles cannot fit into finite time.  The
+remaining open part is the record-growth part of the same clock.
+
+Equivalently, the accurate cycle language is:
 
 ```math
 \boxed{
-\text{No smooth same-material annular pressure-viscosity-incompressibility-velocity
-cycle can carry unit positive full-clock action with zero net storage, zero
-strict loss, and no growth of the material record.}
+\text{No infinite family of smooth same-material annular
+pressure-viscosity-incompressibility-velocity cycles can carry unit positive
+full-clock action before }T_*\text{ with bounded continuation-depth material
+record.}
 }
 \tag{PAC.12}
 ```
 
-This is the no-free-positive-material-action-cycle theorem.  It is exactly the
-missing finite full-clock producer, stated in the physical variables of the
-original material history.
+Thus bounded-record oscillatory cycling is not the remaining producer.  The
+remaining finite full-clock producer is the finite positive variation of the
+same continuation-depth material record itself.
 
 ## 5. What this proves and what it does not prove
 
