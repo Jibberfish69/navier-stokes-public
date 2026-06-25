@@ -115,7 +115,7 @@ The current repo surfaces identify the required theorem as the signed smooth sam
 +dR^0_{N,m}.
 ```
 
-Equivalently, in the moving material interface language, prove finite rectified variation of the signed same-shell participation-law-strain pump:
+Equivalently, in the moving material interface language, prove finite rectified variation of the signed same-shell participation-law-strain action:
 
 ```math
 \int_0^{T^*}\sum_j [m_j(t)]_+dt<\infty.
