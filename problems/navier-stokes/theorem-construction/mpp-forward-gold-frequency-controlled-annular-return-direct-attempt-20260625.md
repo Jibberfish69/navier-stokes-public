@@ -18,6 +18,8 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-initial-frequency-data-to-material-clock-pressure-test-20260624.md
   - problems/navier-stokes/theorem-construction/derivative-lp-compatibility-bridge-note.md
   - problems/navier-stokes/theorem-construction/dyadic-high-frequency-gain-theorem.md
+  - problems/navier-stokes/theorem-construction/dyadic-shell-gain-lemma.md
+  - problems/navier-stokes/theorem-construction/mcp-circularity-audit-for-repaired-cascade-chain-pst-a-a650ea638e.md
 ---
 
 # Frequency-Controlled Annular Return Direct Attempt
@@ -385,3 +387,112 @@ material history.
 This is not a detached obstruction.  It is exactly the full coupled
 pressure-viscosity-incompressibility-velocity transfer needed to make the
 annular stress/strain return have finite variation.
+
+## 7. Relation to the repaired cascade scheduler
+
+The repaired cascade chain is real support, but it is not the estimate
+`(FCA.24)`.
+
+The installed periodic shell/tail theorem `PST.A` gives, after a threshold
+has been scheduled,
+
+```math
+\sup_{t\in I}E_N(t)+\int_I D_N(t)\,dt\le \rho,
+\tag{FCA.25}
+```
+
+where
+
+```math
+E_N(t)=\sum_{j\ge N}2^{2j}\|\Delta_j u(t)\|_2^2,
+\qquad
+D_N(t)=\sum_{j\ge N}2^{4j}\|\Delta_j u(t)\|_2^2 .
+\tag{FCA.26}
+```
+
+The circularity audit for that chain is clean: endpoint exclusion is downstream
+of `PST.A`, and the proof uses fixed-threshold coefficients, dyadic support,
+Bernstein, commutator estimates, Young-margin splits, and Gronwall.  So the
+chain should not be thrown away.
+
+But `(FCA.24)` asks for a different object:
+
+```math
+\int_0^{T_*}
+\sum_j
+2^{\gamma j}
+\left\|
+\Delta_j\mathcal B^\sharp_\phi(t)
+\right\|_{L^1_x}
+\,dt
+<\infty .
+\tag{FCA.27}
+```
+
+This is an all-active-shell, moving material-annulus estimate for the derivative
+of the gauge-reduced annular stress-work flux.  It contains the stress-time
+piece \(D_tT^\sharp\), the collar/transport terms, and the pressure
+complement inside the same physical packet.
+
+Therefore the current implication is only
+
+```math
+\texttt{PST.A}
+\quad\Longrightarrow\quad
+\text{scheduled fixed-threshold high-tail suppression,}
+\tag{FCA.28}
+```
+
+not
+
+```math
+\texttt{PST.A}
+\quad\Longrightarrow\quad
+\text{finite rectified annular force-action variation.}
+\tag{FCA.29}
+```
+
+To use the repaired cascade chain for the material-history route, one must add
+the missing bridge
+
+```math
+\sum_j
+2^{\gamma j}
+\left\|
+\Delta_j\mathcal B^\sharp_\phi(t)
+\right\|_{L^1_x}
+\le
+C\Bigl(
+\text{scheduled cascade density}
++\text{strict same-packet loss}
++\text{summable legal density}
+\Bigr)
+\tag{FCA.30}
+```
+
+on the same transported annulus, with constants independent of the terminal
+scale sampling.  This bridge is stronger than the current `PST.A` statement
+because it must control the moving annular stress-transfer density itself, not
+only keep a high-frequency tail small after a scheduled threshold has been
+chosen.
+
+The active-square notes also do not supply `(FCA.30)` as installed.  Raw LPAS
+is false, and the residual/source-balanced version is a pass-or-exit theorem
+for the reduced cone/tower active-square problem.  It becomes forward-gold
+input here only after the residual density is identified with the full
+gauge-reduced annular derivative density \(\mathcal B^\sharp_\phi\) on the
+same material history.
+
+So the current noncircular state is:
+
+```math
+\boxed{
+\text{finite rectified annular force-action variation}
+\Leftarrow
+\text{full annular-density bridge }(FCA.30)
++\text{scheduled cascade / strict-loss control.}
+}
+\tag{FCA.31}
+```
+
+The proof is still open exactly at `(FCA.30)`.
