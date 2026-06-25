@@ -1,18 +1,18 @@
 ---
 theorem_id: forward-gold-frequency-controlled-annular-return-direct-attempt-20260625
-status: direct-dyadic-implementation-reduces-to-nonlinear-high-frequency-refill-clock
+status: direct-dyadic-implementation-reduces-to-same-material-nonlinear-stress-transfer-clock
 logical_landing_node: signed_smooth_same_packet_commutator_coercivity
 edge_effect: >-
   Implements the frequency-controlled annular return plan on the same
   transported material history. The initial-frequency contribution is summable
   from smooth data, and the linear viscous heat contribution has the expected
-  high-frequency damping. The remaining term is the nonlinear high-frequency
-  refill of the annular stress-time signal. Bony/Littlewood-Paley localization
-  keeps it on the full pressure-viscosity-incompressibility-velocity packet,
-  but does not bound it from energy alone. The route closes only if the
-  same-packet nonlinear refill clock is proved; otherwise the plan reduces to
-  the existing high-frequency cascade/active-square wall rather than proving
-  finite annular force-action variation.
+  high-frequency damping. The remaining term is continued high-frequency
+  nonlinear stress transfer inside the same transported annular history.
+  Bony/Littlewood-Paley localization keeps it on the full
+  pressure-viscosity-incompressibility-velocity packet, but does not bound it
+  from energy alone. The direct dyadic calculation therefore reduces finite
+  annular force-action variation to the same-material nonlinear transfer
+  clock already represented by the cascade/active-square wall.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-rectified-annular-force-action-variation-proof-attempt-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-initial-frequency-data-to-material-clock-pressure-test-20260624.md
@@ -185,10 +185,10 @@ This is the precise mathematical version of the physical statement: faster
 annular reversals are not free; they must be created by original spectrum or by
 legal nonlinear transfer.
 
-## 4. The nonlinear refill term
+## 4. The continued nonlinear stress-transfer term
 
 Applying `(FCA.12)` to the Duhamel term reduces finite annular variation to a
-weighted nonlinear refill estimate of the form
+weighted nonlinear stress-transfer estimate of the form
 
 ```math
 \int_0^{T_*}
@@ -243,7 +243,7 @@ The high-high part contains the finite-collar resonant packet
 \tag{FCA.18}
 ```
 
-which contributes a weighted square/refill term of the schematic form
+which contributes a weighted square transfer term of the schematic form
 
 ```math
 \sum_j 2^{\gamma j}
@@ -278,13 +278,13 @@ coefficient clock comparable to
 ```
 
 or a same-packet substitute for that clock.  The high-high term `(FCA.19)`
-requires the scale-critical nonlinear refill/active-square estimate.
+requires the scale-critical nonlinear transfer/active-square estimate.
 
-Both are legitimate readings of the same physical law.  Neither is supplied by
-initial smoothness plus the energy inequality alone.  Initial smoothness gives
-the entrance tail `(FCA.10)`, and viscosity damps the linear tail `(FCA.12)`;
-the unproved part is the nonlinear replenishment of high-frequency stress-time
-amplitude.
+Both are legitimate readings of the same physical law.  Initial smoothness gives
+the entrance tail `(FCA.10)`, and viscosity damps the linear tail `(FCA.12)`.
+The exact remaining term is the nonlinear annular stress-transfer performed by
+the same pressure-viscosity-incompressibility-velocity relation; it is not a
+separate reservoir and not a free time curve.
 
 Thus the frequency route proves the following exact reduction:
 
@@ -292,12 +292,13 @@ Thus the frequency route proves the following exact reduction:
 \boxed{
 \text{finite annular force-action variation}
 \Leftarrow
-\text{finite same-packet nonlinear high-frequency refill clock.}
+\text{finite same-material nonlinear high-frequency stress-transfer clock.}
 }
 \tag{FCA.22}
 ```
 
-It does not prove that refill clock from the currently installed inputs.
+The direct dyadic calculation has not yet proved that stress-transfer clock
+from the currently installed inputs.
 
 ## 6. Result of implementing the plan
 
@@ -306,7 +307,7 @@ oscillator.  Its high-frequency reversals must come from the initial spectrum
 or from nonlinear transfer under the full Navier--Stokes packet.
 
 The initial-spectrum and linear-viscosity parts are controlled.  The remaining
-same-packet nonlinear refill estimate is
+same-packet nonlinear stress-transfer estimate is
 
 ```math
 \boxed{
