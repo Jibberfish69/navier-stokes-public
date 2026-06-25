@@ -3,14 +3,14 @@ theorem_id: forward-gold-annular-flux-derivative-original-data-scaling-test-2026
 status: direct-scaling-test-original-data-does-not-by-itself-produce-unweighted-flux-derivative-clock
 logical_landing_node: signed_smooth_same_packet_commutator_coercivity
 edge_effect: >-
-  Tests the exact remaining pay-it-back-later producer against original smooth
+  Tests the exact remaining pay-it-back-later estimate against original smooth
   data. The transported annular flux derivative is a same-fluid material
   history quantity, but the heat-scale normalization shows that preterminal
   smoothness and physical energy bookkeeping do not by themselves give the
   unweighted terminal summability of the flux-derivative/material-service
   clock. A physical total-variation theorem for the annular stress-work flux
   would close this subgate, but proving that theorem is the signed same-packet
-  commutator/coercivity producer in physical variables.
+  commutator/coercivity estimate in physical variables.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-annular-stress-work-rectification-clock-reduction-20260624.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-annular-flux-derivative-same-packet-identity-20260624.md

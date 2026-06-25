@@ -9,7 +9,7 @@ edge_effect: >-
   Navier-Stokes equations with zero interior viscous Laplacian. It has positive
   material metric growth and nonzero strain clock. Therefore no interior
   viscosity-only, finite-jet, or bounded algebraic symmetrizer can be the
-  missing full-clock producer. The producer must count the same-fluid annular
+  missing full-clock estimate. The estimate must count the same-fluid annular
   pressure/strain stress-work and material-geometry channel as part of the
   coupled pressure-viscosity-incompressibility-velocity packet.
 parents:
@@ -26,7 +26,7 @@ Date: 2026-06-24
 
 ## 0. Purpose
 
-This note tests the signed-clock producer against the simplest exact local
+This note tests the signed-clock estimate against the simplest exact local
 strain model. The goal is not to replace the full problem by an affine model.
 The goal is to prevent the signed commutator theorem from being proved by a
 proxy that forgets the outer annular stress-work.
@@ -179,7 +179,7 @@ energy and deformation with the surrounding same fluid through the transported
 annulus. Thus the physical payment is exactly the pressure/strain stress-work
 on the collar together with the material metric clock.
 
-So the signed clock producer must have the form
+So the signed clock estimate must have the form
 
 ```math
 \Theta_N\,d\sigma
@@ -222,7 +222,7 @@ annular pressure/strain stress-work, material geometry clock, transported
 collar, pressure tower, and viscous loss together produce a finite same-packet
 clock.
 
-The exact admissible producer is:
+The exact admissible estimate is:
 
 ```math
 \boxed{
@@ -231,7 +231,7 @@ The exact admissible producer is:
 \tag{AF.16}
 ```
 
-The inadmissible producers are:
+The inadmissible estimates are:
 
 ```math
 \boxed{

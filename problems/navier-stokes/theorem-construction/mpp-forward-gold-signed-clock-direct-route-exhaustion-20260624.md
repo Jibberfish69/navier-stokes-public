@@ -45,7 +45,7 @@ annular storage identity.  The initial pulse/frequency picture is also
 installed: original smooth data may carry infinitely many frequencies, but for
 every fixed continuation depth it gives a finite material entrance record.
 
-The direct attack did not close the last arrow.  The exact remaining producer is
+The direct attack did not close the last arrow.  The exact remaining estimate is
 the same-packet rectified annular flux-derivative clock:
 
 ```math

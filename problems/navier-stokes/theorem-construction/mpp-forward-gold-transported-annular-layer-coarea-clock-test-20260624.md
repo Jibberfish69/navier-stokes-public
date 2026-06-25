@@ -9,7 +9,7 @@ edge_effect: >-
   every layer flux derivative into the same full packet. Summing over material
   annular layers gives bounded-overlap admission, but it does not by itself
   turn total rectified stress-work variation into a signed or finite quantity.
-  The remaining producer is still the signed same-packet commutator/coercivity
+  The remaining estimate is still the signed same-packet commutator/coercivity
   estimate for the rectified annular flux-derivative clock.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-annular-stress-work-rectification-clock-reduction-20260624.md
@@ -199,7 +199,7 @@ Using `(TAL.10)`, the remaining burden becomes
 \tag{TAL.13}
 ```
 
-That is the same signed same-packet clock producer in all-layer language.
+That is the same signed same-packet clock estimate in all-layer language.
 
 ## 5. Normal-form check on the shortcut
 

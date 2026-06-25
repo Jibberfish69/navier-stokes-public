@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-symmetrizer-clock-producer-noncircularity-check-20260624
-status: symmetrizer-route-reduces-to-same-finite-material-clock-producer
+status: symmetrizer-route-reduces-to-same-finite-material-clock-estimate
 logical_landing_node: signed_smooth_same_packet_commutator_coercivity
 edge_effect: >-
   Checks whether the missing signed smooth same-packet clock can be produced by
@@ -12,7 +12,7 @@ edge_effect: >-
   normal form rules out a purely local algebraic bounded-storage payment for
   arbitrary positive material strain/log growth. Therefore the symmetrizer
   route is not a separate closure of the MPP edge; it is another formulation of
-  the signed smooth same-packet commutator/coercivity producer.
+  the signed smooth same-packet commutator/coercivity estimate.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-simultaneous-fourbody-symmetrizer-construction-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-moving-symmetrizer-log-variation-absorption-20260622.md
@@ -29,7 +29,7 @@ Date: 2026-06-24
 ## 0. Result
 
 The symmetrizer route does not currently prove the missing clock.  It gives a
-different coordinate expression for the same missing producer.
+different coordinate expression for the same missing estimate.
 
 The live required inequality is still the smooth same-packet estimate
 
@@ -206,7 +206,7 @@ directly.}
 ```
 
 These are the same theorem in two languages.  The symmetrizer route has not
-closed the gold edge; it has only renamed the needed producer as finite
+closed the gold edge; it has only renamed the needed estimate as finite
 operator-log variation or bounded-below instantaneous cross-storage.
 
 ## 6. Route effect

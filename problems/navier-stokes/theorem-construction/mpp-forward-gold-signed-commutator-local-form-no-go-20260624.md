@@ -11,7 +11,7 @@ edge_effect: >-
   annular pressure/strain stress-work and material energy-storage exchange as
   part of the left clock/loss, or else use a genuinely global terminal-tail
   argument from original smooth finite-energy data. Thus the live theorem is
-  sharpened: the missing producer cannot be a local commutator algebra lemma;
+  sharpened: the missing estimate cannot be a local commutator algebra lemma;
   it must be a same-packet global terminal-tail clock theorem.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-smooth-same-packet-commutator-coercivity-audit-20260623.md
@@ -48,7 +48,7 @@ deformation clock even when the interior viscous Laplacian vanishes and the
 local equation is pressure-balanced.  A bounded algebraic cross-storage cannot
 pay that clock by itself.
 
-So the remaining producer cannot be a purely local commutator lemma.  It must
+So the remaining estimate cannot be a purely local commutator lemma.  It must
 be a terminal-tail same-packet clock theorem that counts the transported
 annular pressure/strain stress-work and the material energy-storage exchange as
 real clock/loss, or uses original smooth finite-energy data globally.
@@ -247,7 +247,7 @@ The no-go says only this:
 
 ```math
 \boxed{
-\text{the signed smooth same-packet producer cannot be a purely local
+\text{the signed smooth same-packet estimate cannot be a purely local
 commutator/coercivity algebra lemma.}
 }
 \tag{SLN.20}
