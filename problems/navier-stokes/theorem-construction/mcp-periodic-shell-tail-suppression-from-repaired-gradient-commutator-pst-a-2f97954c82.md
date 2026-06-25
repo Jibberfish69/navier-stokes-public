@@ -4,6 +4,26 @@
 
 Theorem-facing conversion from the repaired gradient commutator estimate `GC.A` to periodic shell/tail suppression on the active `T^3` branch.
 
+Boundary correction, 2026-06-25: this surface must be read through the fully
+quantified scheduler theorem `Sched.A+`.  Fixed-threshold integrability of
+\(A_N(t)\) is not enough by itself when the threshold \(N\) is being selected
+from the initial tail.  The cell count
+
+```math
+K_N:=1+\left\lceil {1\over L_*}\int_I A_N(t)\,dt\right\rceil
+```
+
+must be paid by the selected initial tail and reserve:
+
+```math
+K_N\left(E_N(t_0)+R_N|I|\right)\to0 .
+```
+
+Without this compatibility condition, smooth initial data alone does not imply
+the scheduled tail estimate; smoothness gives polynomial Sobolev tails at every
+finite order, not automatic analytic decay against an arbitrarily fast-growing
+coefficient.
+
 ## Setup
 
 Let `u` be a smooth periodic solution on a finite classical interval `I=[t_0,t_1]`. Let `\Delta_j` be a periodic Littlewood-Paley decomposition. Define
@@ -42,7 +62,15 @@ For fixed `N`, the coefficient `\widetilde\Lambda_N^\sharp` is finite-dimensiona
 
 ## Theorem `PST.A`
 
-For every finite classical interval `I`, every `\eta\in(0,1)`, and every tolerance `\rho>0`, there is a threshold `N=N(I,\rho,\eta)` such that
+Assume the scheduler compatibility condition from `Sched.A+` for the coefficient
+
+```math
+A_N(t)=C_{\eta,M,\nu}\widetilde\Lambda_N^\sharp(t)
+```
+
+and reserve \(R_N=C_*2^{-2\delta N}\).  Then for every finite classical
+interval `I`, every `\eta\in(0,1)`, and every tolerance `\rho>0`, there is a
+threshold `N=N(I,\rho,\eta)` such that
 
 ```math
 \sup_{t\in I}E_N(t)+\int_I D_N(t)\,dt\le \rho.
@@ -87,7 +115,13 @@ For fixed `N`, `A_N\in L^1(I)`. Gronwall gives
 \tag{6}
 ```
 
-The threshold scheduler chooses `N` and, when needed, subdivides `I` into finitely many subintervals so that the right side of `(6)` is below `\rho/2` on each scheduler cell. This is possible because the initial high tail and the reserve `R_N` vanish as `N\to\infty`, while the coefficient is integrable for each selected fixed threshold.
+The threshold scheduler chooses `N` and, when needed, subdivides `I` into
+finitely many subintervals so that the right side of `(6)` is below `\rho/2`
+on each scheduler cell.  The nontrivial selection condition is exactly the
+product condition from `Sched.A+`: the vanishing tail and reserve must beat the
+number of cells created by \(\int_I A_N\).  Fixed-threshold integrability of
+\(A_N\) only lets one partition after \(N\) has been chosen; it does not by
+itself prove that a useful \(N\) exists.
 
 Integrating `(4)` over each scheduler cell yields
 
@@ -115,4 +149,8 @@ Together with `(3)`, this proves that the high-frequency nonlinear transfer is i
 
 ## Boundary
 
-This theorem supplies the periodic shell/tail suppression needed by the cascade route through a fixed-threshold scheduler. It is the route-level suppression theorem used for endpoint exclusion. It is stronger than a local packet estimate and distinct from a global all-threshold Besov summability assertion.
+This theorem supplies the periodic shell/tail suppression needed by the cascade
+route only under the `Sched.A+` compatibility condition.  It is a route-level
+fixed-threshold suppression theorem, distinct from a global all-threshold
+Besov summability assertion and distinct from the forward-gold material
+annular force-action variation estimate.
