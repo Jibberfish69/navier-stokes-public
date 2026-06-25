@@ -99,15 +99,12 @@ d(-E_w)+[m_w^{PLS}]_+dt
 \tag{GFE.4}
 ```
 
-This shows the obstruction precisely: positive variation is controlled only if the negative side / rectified exchange is controlled.  Same-fluid donor symmetry gives signed cancellation, but not rectified BV.  The two-shell alternating-transfer model still applies to the free material shell interface.
-
-After the later recirculation closure, this sentence should be read only as
-the algebraic warning about signed cancellation.  The oscillatory two-shell
-branch itself is not the remaining live branch: bounded-record cycles,
-subheat accelerated backscatter, superheat recirculation, and top-shell
-regeneration have been routed into already-paid participation cost.  What
-remains is the non-oscillatory upcrossing branch, namely one-way growth of the
-continuation-depth free material record.
+This shows the obstruction precisely: positive variation is not produced by
+signed cancellation alone.  The oscillatory two-shell branch itself is no
+longer live: bounded-record cycles, subheat accelerated backscatter, superheat
+recirculation, and top-shell regeneration have been routed into already-paid
+participation cost.  What remains is the non-oscillatory upcrossing branch,
+namely one-way growth of the continuation-depth free material record.
 
 ## 5. Verdict
 
