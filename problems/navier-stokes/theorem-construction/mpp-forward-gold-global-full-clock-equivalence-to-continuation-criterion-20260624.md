@@ -188,9 +188,10 @@ The energy inequality gives the physical finite-time dissipation control:
 \tag{GFC.15}
 ```
 
-On a bounded-overlap heat-scale sampling of the same material spike history,
-this supplies only radius-weighted normalized control.  It does not give the
-unweighted terminal material clock
+On a bounded-overlap heat-scale sampling of the same transported material
+history around a candidate terminal concentration, this supplies only
+radius-weighted normalized control.  It does not give the unweighted terminal
+material clock
 
 ```math
 \sum_m\int_{J_m}d\Omega_{N,m}^{full}<\infty.
