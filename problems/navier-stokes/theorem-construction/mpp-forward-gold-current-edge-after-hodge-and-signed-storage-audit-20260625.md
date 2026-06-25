@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-current-edge-after-hodge-and-signed-storage-audit-20260625
-status: exact-current-edge-pressure-stress-cubic-collar-positive-clock-open
+status: superseded-by-single-pressure-strain-interface-correction
 logical_landing_node: global_same_packet_full_clock_from_original_data
 edge_effect: >-
   Consolidates the current forward-gold edge after the material Hodge projection
@@ -13,7 +13,12 @@ edge_effect: >-
   collar-stress part of that same moving material annular return. Finite
   integral of that service is exactly the remaining full-clock bridge to fixed
   H^s continuation. This note is an exact proof-state reduction, not a completed
-  smoothness proof.
+  smoothness proof. It is superseded at the live edge by
+  mpp-forward-gold-pressure-rhs-annular-stress-one-interface-correction-20260625.md,
+  which collapses the pressure-stress, cubic-collar, and collar-stress wording
+  into one moving material pressure-strain interface.
+superseded_by:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-rhs-annular-stress-one-interface-correction-20260625.md
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-hodge-projection-commutator-pressure-operator-reduction-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-cancellation-pressure-time-cubic-gradient-test-20260625.md
@@ -25,6 +30,12 @@ parents:
 # Current Edge After Hodge And Signed Storage
 
 Date: 2026-06-25
+
+Supersession note: this note remains a checked reduction through Hodge and
+signed pressure-time storage, but its three-piece description of the remaining
+service is no longer the live object.  The live object is the single moving
+material pressure-strain interface identified in
+`mpp-forward-gold-pressure-rhs-annular-stress-one-interface-correction-20260625.md`.
 
 ## 0. Object
 
