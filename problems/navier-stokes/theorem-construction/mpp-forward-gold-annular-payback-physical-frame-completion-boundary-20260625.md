@@ -236,7 +236,7 @@ It has not completed the a priori estimate:
 \tag{APB.18}
 ```
 
-The exact remaining producer is a same-packet inequality of the form
+The exact remaining finite-total estimate is a same-packet inequality of the form
 
 ```math
 d\mathfrak L_N
