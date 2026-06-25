@@ -9,7 +9,7 @@ edge_effect: >-
   and same-packet commutators. The commutators are controlled by the
   material strain/coefficient service rate times the finite continuation-depth
   record. This gives a BKM-type logarithmic growth inequality, not a signed
-  coercive master balance. Therefore the current route still needs a producer
+  coercive master balance. Therefore the current route still needs an estimate
   for the scale-critical full material strain/coefficient clock, or an actual
   signed cross-storage inequality.
 parents:
@@ -241,7 +241,7 @@ But proving `(SSC-DC.15)` from original smooth finite-energy data is a
 regularity theorem, not a consequence of the high-order energy identity alone.
 The material packet version is the same issue with the correct same-fluid
 geometry retained: proving finite \(\int\Theta_{N,m}\,d\sigma\) is the
-unresolved gold producer.
+unresolved gold estimate.
 
 ## 3. Infinite tower does not fix the sign
 
