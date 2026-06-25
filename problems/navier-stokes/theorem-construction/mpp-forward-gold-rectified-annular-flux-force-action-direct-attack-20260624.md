@@ -9,10 +9,11 @@ edge_effect: >-
   pressure-time service, strain-time service, and cubic transport. This density
   is exactly inside the full pressure-viscosity-incompressibility-velocity
   packet, not a side readout. The attempt proves the sharp reduction:
-  smoothness follows once the original-data terminal family has finite
-  unweighted force-action clock. The note also proves that ordinary
-  energy/dissipation cannot supply this clock because the force-action density
-  is scale-critical while energy is radius-discounted.
+  smoothness follows once the original-data material spike history has finite
+  rectified annular force-action variation. Heat-scale windows are used only as
+  bounded-overlap samplings of that one transported history, not as independent
+  annular-stack events. The note also proves that ordinary energy/dissipation
+  alone is too low-order to control this force-action variation.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-annular-flux-derivative-gauge-quotient-correction-20260624.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-annular-stress-work-rectification-clock-reduction-20260624.md
@@ -47,18 +48,32 @@ is the pressure after subtracting the affine pressure gauge, and
 \tag{RAF.2}
 ```
 
-The missing terminal clock is
+The missing terminal clock is the total variation of this same annular
+stress-work transaction along the transported material spike history:
+
+```math
+\int_{s_0}^{0}
+\left|{d\over ds}F_{\phi}^{\sharp}(s)\right|\,ds
+<\infty .
+\tag{RAF.3}
+```
+
+Equivalently, after choosing a bounded-overlap heat-scale sampling of that same
+history,
 
 ```math
 \sum_m\int_{J_m}
 \left|{d\over ds}F_{\phi_m}^{\sharp}(s)\right|\,ds
 <\infty
-\tag{RAF.3}
+\tag{RAF.4}
 ```
 
-on the selected shrinking heat-scale family with bounded same-material overlap.
+The sampled form is not a separate stack of possible events.  It is only a
+coordinate accounting of the one smooth spike-wave, its height/width evolution,
+and the outer annular stress/strain return carried by the same material
+history.
 
-This note attacks `(RAF.3)` directly.
+This note attacks `(RAF.3)` directly, with `(RAF.4)` as its sampled form.
 
 ## 1. Exact differentiated flux identity
 
@@ -66,7 +81,7 @@ Let
 
 ```math
 D_s=\partial_s+V\cdot\nabla .
-\tag{RAF.4}
+\tag{RAF.5}
 ```
 
 The reduced variables obey
@@ -75,7 +90,7 @@ The reduced variables obey
 D_sU=\nabla\cdot T^\sharp,
 \qquad
 \nabla\cdot U=0
-\tag{RAF.5}
+\tag{RAF.6}
 ```
 
 after the harmless affine/Galilean gauge is removed.  Since \(\phi\) is
@@ -83,7 +98,7 @@ transported,
 
 ```math
 D_s\nabla\phi=-(\nabla V)^T\nabla\phi .
-\tag{RAF.6}
+\tag{RAF.7}
 ```
 
 Therefore
@@ -98,7 +113,7 @@ Therefore
 &-
 \int U_iT^\sharp_{ij}(\partial_jV_k)(\partial_k\phi)\,dy .
 \end{aligned}
-\tag{RAF.7}
+\tag{RAF.8}
 ```
 
 This identity is the exact full-packet differentiation.  It contains no
@@ -119,7 +134,7 @@ Define the force-action density
 \int_{\operatorname{collar}\phi}
 |U|\,|T^\sharp|\,|\nabla V|\,|\nabla\phi|\,dy .
 \end{aligned}
-\tag{RAF.8}
+\tag{RAF.9}
 ```
 
 Then the direct domination is
@@ -130,7 +145,7 @@ Then the direct domination is
 \le
 \mathcal A_\phi^{FA}(s).
 }
-\tag{RAF.9}
+\tag{RAF.10}
 ```
 
 Thus the terminal no-Zeno clock follows from the full same-packet
@@ -140,7 +155,7 @@ force-action theorem
 \boxed{
 \sum_m\int_{J_m}\mathcal A_{\phi_m}^{FA}(s)\,ds<\infty .
 }
-\tag{RAF.10}
+\tag{RAF.11}
 ```
 
 This is not a new proxy.  It is the absolute derivative of the same annular
@@ -154,14 +169,14 @@ The force term is the material acceleration:
 
 ```math
 \nabla\cdot T^\sharp=D_sU .
-\tag{RAF.11}
+\tag{RAF.12}
 ```
 
 The stress is pressure plus viscous strain:
 
 ```math
 T^\sharp=-PI+2\nu S(U).
-\tag{RAF.12}
+\tag{RAF.13}
 ```
 
 The stress-time term is
@@ -171,7 +186,7 @@ D_sT^\sharp
 =
 -(D_sP)I
 +2\nu D_sS(U),
-\tag{RAF.13}
+\tag{RAF.14}
 ```
 
 with
@@ -182,14 +197,14 @@ D_sS(U)
 \operatorname{sym}\nabla(D_sU)
 -
 \operatorname{sym}\big((\nabla V)(\nabla U)\big).
-\tag{RAF.14}
+\tag{RAF.15}
 ```
 
 The pressure service is tied by the elliptic pressure law
 
 ```math
 -\Delta P=\partial_iU_j\,\partial_jU_i
-\tag{RAF.15}
+\tag{RAF.16}
 ```
 
 up to the affine harmonic gauge already removed, and differentiating gives
@@ -199,7 +214,7 @@ up to the affine harmonic gauge already removed, and differentiating gives
 =
 D_s(\partial_iU_j\,\partial_jU_i)
 +[\Delta,D_s]P .
-\tag{RAF.16}
+\tag{RAF.17}
 ```
 
 The commutator in `(RAF.16)` contains the same velocity-gradient and pressure
@@ -210,10 +225,10 @@ tower terms:
 =
 2(\partial_iV_k)\partial_{ik}P
 +(\Delta V_k)\partial_kP .
-\tag{RAF.17}
+\tag{RAF.18}
 ```
 
-So `(RAF.8)` is exactly a pressure-viscosity-incompressibility-velocity
+So `(RAF.9)` is exactly a pressure-viscosity-incompressibility-velocity
 force-action density on the same transported annulus.
 
 ## 3. Why ordinary energy cannot bound this density
@@ -224,7 +239,7 @@ The ordinary local energy ledger controls
 \|V\|_{L_s^\infty L_y^2}^2
 +
 \nu\|\nabla V\|_{L^2_{s,y}}^2
-\tag{RAF.18}
+\tag{RAF.19}
 ```
 
 on normalized packets only with the terminal radius discount when summed over
@@ -238,11 +253,12 @@ The force-action density contains the scale-critical products
 |U|\,|D_sT^\sharp|,
 \qquad
 |U|\,|T^\sharp|\,|\nabla V|.
-\tag{RAF.19}
+\tag{RAF.20}
 ```
 
-These are one derivative higher than the energy ledger, and after heat scaling
-they remain unit-sized for a genuine terminal heat-scale event.  In physical
+These are one derivative higher than the energy ledger.  A heat-scale sampling
+of a genuine high-gradient portion of the same material spike history does not
+become small merely because the coordinate window shrinks.  In physical
 variables the first term has the scaling form
 
 ```math
@@ -252,7 +268,7 @@ variables the first term has the scaling form
 r
 \int_{Q_r^{collar}}
 |\nabla_x\cdot T_x^\sharp|\,|T_x^\sharp|\,dx\,dt .
-\tag{RAF.20}
+\tag{RAF.21}
 ```
 
 Thus a self-similar heat-scale force-action event with
@@ -263,7 +279,7 @@ Thus a self-similar heat-scale force-action event with
 |T_x^\sharp|\sim r^{-2},
 \qquad
 |\nabla_x\cdot T_x^\sharp|\sim r^{-3}
-\tag{RAF.21}
+\tag{RAF.22}
 ```
 
 has
@@ -273,7 +289,7 @@ r
 \int_{Q_r^{collar}}
 |\nabla_x\cdot T_x^\sharp|\,|T_x^\sharp|\,dx\,dt
 \sim 1.
-\tag{RAF.22}
+\tag{RAF.23}
 ```
 
 The physical energy inequality sees only the lower-order radius-discounted
@@ -281,7 +297,7 @@ quantity.  It does not force
 
 ```math
 \sum_m\int_{J_m}\mathcal A_{\phi_m}^{FA}(s)\,ds<\infty .
-\tag{RAF.23}
+\tag{RAF.24}
 ```
 
 ## 4. The exact theorem that would close the route
@@ -290,36 +306,39 @@ The missing theorem can now be stated without proxy language:
 
 ```math
 \boxed{
-\texttt{OriginalDataRectifiedAnnularForceActionClock.A}
+\texttt{OriginalDataRectifiedAnnularForceActionVariation.A}
 }
-\tag{RAF.24}
+\tag{RAF.25}
 ```
 
-For every selected same-material terminal heat-scale family generated by one
-smooth Navier--Stokes solution from original smooth finite-energy data,
+For the one transported material spike history generated by one smooth
+Navier--Stokes solution from original smooth finite-energy data,
 
 ```math
 \boxed{
-\sum_m\int_{J_m}\mathcal A_{\phi_m}^{FA}(s)\,ds<\infty .
+\int_{s_0}^{0}\mathcal A_{\phi}^{FA}(s)\,ds<\infty .
 }
-\tag{RAF.25}
+\tag{RAF.26}
 ```
 
 Equivalently,
 
 ```math
 \boxed{
-\sum_m\int_{J_m}
+\int_{s_0}^{0}
 \left|{d\over ds}F_{\phi_m}^{\sharp}(s)\right|\,ds
 <\infty .
 }
-\tag{RAF.26}
+\tag{RAF.27}
 ```
+
+Any bounded-overlap heat-scale decomposition of this one history is just a
+sampled version of `(RAF.26)` and `(RAF.27)`.
 
 Then the installed chain gives:
 
 ```math
-\texttt{OriginalDataRectifiedAnnularForceActionClock.A}
+\texttt{OriginalDataRectifiedAnnularForceActionVariation.A}
 \Longrightarrow
 \texttt{GlobalSamePacketFullClockFromOriginalData.A}
 \Longrightarrow
@@ -328,7 +347,7 @@ Then the installed chain gives:
 \texttt{MaterialClockToFixedHsContinuationReadout.A}
 \Longrightarrow
 \text{no finite-time breakdown.}
-\tag{RAF.27}
+\tag{RAF.28}
 ```
 
 ## 5. Exact proof state
@@ -339,11 +358,10 @@ The direct attack proves the identity and the exact full-packet reduction:
 \left|{d\over ds}F_\phi^\sharp\right|
 \le
 \mathcal A_\phi^{FA}.
-\tag{RAF.28}
+\tag{RAF.29}
 ```
 
-It does not prove `(RAF.25)` from the currently installed original-data
-inputs.  The remaining hard statement is now precisely the finite unweighted
-force-action clock `(RAF.25)`.  That statement is the missing same-packet
-four-body coercivity step in physical annular language.
-
+It does not prove `(RAF.26)` from the currently installed original-data
+inputs.  The remaining hard statement is now precisely the finite force-action
+variation of the one material spike history.  That statement is the missing
+same-packet four-body coercivity step in physical annular language.
