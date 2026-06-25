@@ -1,9 +1,9 @@
 ---
 theorem_id: forward-gold-material-stokes-hodge-shell-clock-closure-20260625
-status: smooth-prelimit-closure-installed-for-moving-constraint-commutator
+status: native-shell-reduction-installed-log-weighted-exchange-gap-open
 logical_landing_node: global_same_packet_full_clock_from_original_data
 edge_effect: >-
-  Closes the remaining moving-constraint commutator created by fixed material
+  Corrects the remaining moving-constraint commutator created by fixed material
   Littlewood-Paley shells.  The active shell is replaced by the spectral shell
   of the same material Hodge-Stokes operator on
   ker div_a(A dot).  With that selector, pressure is constraint-normal,
@@ -11,10 +11,12 @@ edge_effect: >-
   variation of the material metric/Stokes form.  The form derivative is
   bounded by the positive top-strain rate because dot G=-2 A S A^T and
   tr S=0.  Subheat shell motion is absorbed by viscosity; superheat shell
-  motion is the already installed top-strain logarithmic storage coordinate.
-  Therefore the Hodge commutator term left in HAS.18 is not an independent
-  producer.  The smooth prelimit full material clock is finite for the
-  transported material Stokes/Hodge shell packet.
+  motion reduces to the top-strain residence.  The attempted final closure
+  overread the logarithmic strain storage: differentiating
+  B_j=e_j log(lambda/(delta 2^{2j}))_+ produces the same shell exchange
+  multiplied by the log weight.  Thus the remaining exact gap is the
+  log-weighted same-shell exchange current, not the pressure constraint
+  commutator.
 parents:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-hodge-adapted-shell-pump-alignment-reduction-20260625.md
@@ -24,7 +26,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-higher-collar-tower-demoted-to-same-depth-service-20260625.md
 ---
 
-# Material Stokes/Hodge Shell Clock Closure
+# Material Stokes/Hodge Shell Clock Reduction
 
 Date: 2026-06-25
 
@@ -246,7 +248,7 @@ constants.
 
 Thus subheat shell motion is paid by viscosity.
 
-## 6. Superheat payment
+## 6. Superheat reduction and the remaining exchange term
 
 On the superheat region, the remaining positive term is
 
@@ -257,8 +259,8 @@ On the superheat region, the remaining positive term is
 \tag{MSH.18}
 ```
 
-This is exactly the top-strain superheat coordinate already paid by the signed
-strain logarithmic storage:
+This is the top-strain superheat coordinate seen by the signed strain
+logarithmic storage:
 
 ```math
 B_j
@@ -277,45 +279,70 @@ The order-locked identity from the strain equation gives
 +e_j\lambda_+
 \mathbf 1_{\{\lambda_+>\delta2^{2j}\}}
 =
-\text{same-packet signed exchange current}.
+(m_j-d_j)L_j
++e_j{W_\lambda\over\lambda}.
 \tag{MSH.20}
 ```
 
-After summing over the transported finite-width material Stokes/Hodge shells,
-the exchange current is part of the smooth prelimit four-body storage.  Since
-\(B_j\ge0\), the superheat shell-motion term has finite total mass on the
-preterminal family whenever the smooth master balance is read with these
-native shells.
+Here
 
-## 7. Closure of the Hodge commutator remainder
+```math
+L_j=
+\left[
+\log{\lambda_+\over\delta2^{2j}}
+\right]_+,
+\qquad
+W_\lambda
+=
+|\Omega e|^2
+-e\cdot\nabla^2p\,e
++\nu e\cdot\Delta S\,e.
+\tag{MSH.20a}
+```
 
-Combining `(MSH.9)`, `(MSH.14)`, `(MSH.17)`, and `(MSH.20)` yields
+The term
+
+```math
+(m_j-d_j)L_j
+\tag{MSH.20b}
+```
+
+contains the same shell exchange whose positive part is being controlled.
+Thus `(MSH.20)` is not by itself a payment of the superheat shell-motion term.
+It reduces the fixed-shell commutator problem to a log-weighted same-shell
+exchange problem inside the same pressure-viscosity-incompressibility-velocity
+packet.
+
+## 7. Correct proof-state result
+
+Combining `(MSH.9)`, `(MSH.14)`, and `(MSH.17)` yields
 
 ```math
 \left[
-{d\over dt}e_j+d_j
+\langle \dot\Pi_jv,h_j\rangle
 \right]_+
 \le
-{d\over dt}B_j
+\varepsilon d_j
 +C e_j\lambda_+
 \mathbf 1_{\{\lambda_+>\delta2^{2j}\}}
-+{1\over2}d_j
 +r_j^{legal}.
 \tag{MSH.21}
 ```
 
-Summing in \(j\) and integrating over the original material history gives
+The exact remaining closure is therefore
 
 ```math
+\boxed{
 \int_0^{T_*}\sum_j
 \left[
-\langle \dot\Pi_jv,h_j\rangle
-\right]_+\,dt
-<\infty.
+(m_j-d_j)L_j
++e_j{W_\lambda\over\lambda}
+\right]_+\,dt<\infty.
+}
 \tag{MSH.22}
 ```
 
-Equivalently,
+If `(MSH.22)` is proved, then the Hodge commutator remainder is finite:
 
 ```math
 \int_0^{T_*}\sum_j
@@ -324,7 +351,8 @@ Equivalently,
 \tag{MSH.23}
 ```
 
-This is the previously open `(HAS.18)`.
+This is smaller than the old fixed-shell pressure/interface burden.  It is not
+yet the full smoothness proof.
 
 ## 8. Consequence for the full material clock
 
@@ -344,22 +372,26 @@ r_j^{legal}.
 ```
 
 The first term is viscous loss.  The second term is the signed top-strain
-storage coordinate.  The last term is legal finite-overlap residual.
+storage coordinate, which is exact only together with `(MSH.22)`.  The last
+term is legal finite-overlap residual.
 
-Therefore the positive same-material shell pump has finite total mass:
+Therefore the positive same-material shell pump has finite total mass once
 
 ```math
-\int_0^{T_*}\sum_j [m_j(t)]_+\,dt<\infty.
+\int_0^{T_*}\sum_j
+\left[
+(m_j-d_j)L_j
++e_j{W_\lambda\over\lambda}
+\right]_+\,dt<\infty.
 \tag{MSH.25}
 ```
 
-This proves the finite rectified annular force-action variation for the
-original transported material history, read in the native
-pressure-viscosity-incompressibility-velocity shell.
+This is the live log-weighted same-shell exchange closure.
 
 ## 9. Continuation landing
 
-The installed chain now applies without the fixed-shell commutator gap:
+After `(MSH.25)` is proved, the installed chain applies without the fixed-shell
+commutator gap:
 
 ```math
 \text{finite material Stokes/Hodge shell clock}
@@ -372,6 +404,6 @@ The installed chain now applies without the fixed-shell commutator gap:
 ```
 
 Classical local theory then relaunches the same smooth solution past the
-alleged finite terminal time.  Thus the gold route closes on the
-periodic-surface same-material packet when the active shell is the transported
-material Hodge-Stokes shell rather than a fixed Euclidean shell.
+alleged finite terminal time.  This note supplies the native shell reduction
+needed for that route; the log-weighted same-shell exchange closure remains
+live.
