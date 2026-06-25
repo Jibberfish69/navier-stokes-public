@@ -137,7 +137,7 @@ The requested storage theorem has the exact strength of the finite full moving s
 \text{same-fluid attachment, fixed-annulus L1, fixed-collar L1, top-strain storage, Hodge constraint correction, pressure/RHS interface identification.}
 ```
 
-They leave one live producer:
+They leave one live finite-total estimate:
 
 ```math
 \boxed{
