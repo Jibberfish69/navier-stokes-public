@@ -1,16 +1,16 @@
 ---
 theorem_id: forward-gold-pressure-rhs-annular-stress-one-interface-correction-20260625
-status: live-edge-correction-installed-pressure-rhs-is-same-interface-coordinate-not-second-producer
+status: live-edge-correction-installed-pressure-rhs-is-same-interface-coordinate-not-second-source
 logical_landing_node: global_same_packet_full_clock_from_original_data
 edge_effect: >-
   Corrects the current forward-gold live edge after the pressure/RHS and
   annular stress-work checks. Pressure ellipticity, pressure-time service, and
-  RHS differentiation are not an independent producer beside annular stress
+  RHS differentiation are not an independent source beside annular stress
   work. They are the pressure/incompressibility coordinate of the same moving
-  material pressure-strain interface. The remaining producer is therefore the
-  signed smooth same-packet commutator/coercivity line for the full material
-  clock, equivalently finite rectified variation of the moving pressure-strain
-  interface. Attachment, raw internal Cauchy stress action, coefficient-frame
+  material pressure-strain interface. The remaining finite-total estimate is
+  therefore the signed smooth same-packet commutator/coercivity line for the
+  full material clock, equivalently finite rectified variation of the moving
+  pressure-strain interface. Attachment, raw internal Cauchy stress action, coefficient-frame
   motion, and transported collar/frame motion are already paid coordinates;
   the unresolved part is the one-way payment of the scale-critical material
   service rate in the smooth prelimit master balance.
@@ -31,7 +31,7 @@ Date: 2026-06-25
 
 ## 0. Correction
 
-The live edge had drifted into a two-producer wording:
+The live edge had drifted into a two-source wording:
 
 ```math
 \text{pressure/RHS service}
@@ -94,7 +94,7 @@ coordinates already present in the material annular stress-work derivative.
 
 ## 2. What is paid already
 
-The following parts are no longer independent live producers.
+The following parts are no longer independent live proof sources.
 
 First, pure top-strain self-stretch is paid by the bounded-below logarithmic
 top-strain storage.
@@ -119,7 +119,7 @@ Third, base transported collar motion is paid by the same frame/strain clock:
 
 Fourth, higher collar/tower time variation is demoted to same-depth service on
 heat windows by the factor \(2^{-2j}\). It does not create an independent
-higher-tower producer.
+higher-tower source.
 
 ## 3. What remains
 
@@ -173,7 +173,7 @@ signed smooth same-packet commutator/coercivity theorem.
 
 ## 4. Live-edge consequence
 
-The current live edge should not say that the remaining producer is
+The current live edge should not say that the remaining finite-total estimate is
 
 ```math
 \text{pressure/RHS service plus annular stress-work service}.
