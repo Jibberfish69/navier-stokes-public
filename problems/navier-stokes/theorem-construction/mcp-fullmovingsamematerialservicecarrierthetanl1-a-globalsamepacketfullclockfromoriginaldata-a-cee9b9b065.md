@@ -122,6 +122,9 @@ The unconditional proof of
 ```
 
 is not obtained from the current installed inputs. After the PLS
-recirculation packing closure, the remaining theorem is finite one-way positive
-material-record growth, equivalently a bounded-below same-material
-Lyapunov/coercivity law for that record-growth clock.
+recirculation packing closure and the one-way material-record growth estimate,
+the remaining theorem is the global finite-total PLS action bound:
+
+```math
+\int_0^{T^*}d\Omega_N^{PLS}<\infty .
+```
