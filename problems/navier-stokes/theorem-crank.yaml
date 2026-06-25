@@ -4,787 +4,166 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-06-08T07:42:16Z'
+  generated_at: '2026-06-25T01:31:58Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
-  status: needs-sync
+  status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-afca8b68a2f8
-    route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
+    surface_id: theorem-surface-navier-stokes-c180ca0473fc
+    route_signature: c180ca0473fc77ed753e74b886ed7f200f785f38
     route_chain:
-    - The historical four-bridge / positive-smoothness chain is preserved as support
-      context only.
-    - Direct live authority is governed by live-theorem-edge.yaml and target-operating-contract.yaml.
-    - Do not read this chain as current proof authority, a respawn trigger, terminal
-      proof status, or a singleton Navier-Stokes route.
-    legacy_route_chain:
-    - The historical four-bridge / positive-smoothness chain is preserved as support
-      context only.
-    - Direct live authority is governed by live-theorem-edge.yaml and target-operating-contract.yaml.
-    - Do not read this chain as current proof authority, a respawn trigger, terminal
-      proof status, or a singleton Navier-Stokes route.
-    theorem_target: target must be locked by ns-target-operating-contract-v1
-    route_chain_status: legacy-positive-support-not-current-authority
-    current_authority:
-      target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
-      direct_live_surfaces:
-      - problems/navier-stokes/source-forensics/
-      - problems/navier-stokes/live-theorem-edge.yaml
-      - problems/navier-stokes/source-frontier.yaml
-      - problems/navier-stokes/theorem-packet.yaml
-      - problems/navier-stokes/theorem-repair.yaml
-      - problems/navier-stokes/dependency-discharge.yaml
-      installed_root_group_id: release-exactness-and-manuscript-refresh
-      proof_mode_must_be_selected: true
-    target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
-    target_preflight: &2
-      rule_id: ns-target-topology-preflight-v2
-      status: required-before-answer-or-generated-summary
-      required_fields:
-      - user_question_or_action
-      - action_type
-      - proof_mode_or_transfer_mode
-      - target_object
-      - direct_live_authority_surface
-      - governing_primitive_or_exact_transfer_claim
-      - bridge_license_or_quarantine_state
-      - supplier_readout_objects_not_promoted
-      - return_shape
-      - persistence_scope
-      anti_flattening_rule: A single release blocker or frontier count is a dashboard
-        gate, not evidence that Navier-Stokes has one path, method, proof mode, wall,
-        or target.
-      missing_field_rule: If any required field is missing, recover it from the direct
-        live surfaces first. Ask the user exactly one referent-lock question only
-        if the current prompt and direct live surfaces still do not identify the field.
-      language_boundary: Do not say "the route", "the wall", "the path", or "the method"
-        unless the sentence names the exact proof mode or says explicitly that it
-        is only a dashboard/release gate.
-      must_not_merge:
-      - positive smoothness proof
-      - CM contrapositive class-exit proof
-      - same-datum same-interval fixed-nu Euler-to-NS transfer
-      - Euler mirror comparison
-      - source-wall supplier work
-      - receiver/source/readout support
-      - downstream export/readout branches
-      - source recovery
-      - new-idea generation
-      - automation/runtime repair
-    target_lock_schema: &3
-      proof_mode:
-        meaning: The proof program or comparison mode being discussed.
-        allowed_values:
-        - positive_smoothness
-        - cm_contrapositive_class_exit
-        - fixed_nu_euler_to_ns_transfer
-        - euler_mirror_comparison
-        - source_wall_supplier
-        - receiver_source_readout
-        - downstream_export_readout
-        - source_recovery
-        - new_idea_generation
-        - route_audit
-        - automation_runtime_repair
-        rule: This field cannot be replaced by current-route, current-frontier, main-wall,
-          release-blocker, or similar dashboard language.
-      target_object:
-        meaning: The exact theorem, primitive, transfer claim, file object, bridge
-          gate, or burden.
-        examples:
-        - Exit(Q):=not Member(Q)
-        - Pack_Q / Part_{N,Q} / Field_{N,r,Q}
-        - 'PackOutOfCMSmoothnessCertification.A: outside-CM participation-field/window or singular failed packet-window branches
-          must test the original NS participation law without spending not Pack_Q as CM exit'
-        - 'Part/Field as overlapping witness axes: Pack has fixed-box flux and
-          finite-window material-coordinate readings; Part is same pressure-viscosity
-          carrier law; Field is neighboring tower coherence'
-        - 'Part/Field ontological collapse audit: test whether formal witness
-          rows have real terminal same-fluid realizations, or collapse into overlapping
-          Dead/Jump/Blown readouts'
-        - EulerSmooth(u_0,[0,T]) => NSSmooth_nu(u_0,[0,T]) for fixed nu>0
-        - 'ScaleCriticalTreeCarleson.A as Field smoothness-certification support target: Pack_Q
-          implies the scale-critical donor-refill Carleson bound, and selected unpaid
-          infinite donor-refill ancestry is not Pack_Q / (Pack, packing-detached)'
-        - 'ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A as diagnostic/source-residue
-          language: finite Zeno ancestry is sorted by RawZenoFailurePartition.A +
-          ZenoAtomFailureToFaceWitness.A, while terminal zero-radius residue lands Part-side when a same-solution original NS participation record remains
-          and packet/window evidence only when that record is absent; endpoint readout language
-          is post-exit support unless a positive-scale retained carrier is separately
-          proved'
-        - RetainedFaceAmplitudeGain.A as a PackGainLedger/PartEnvelopeAmplitudeConservation
-          boundary, not a new face
-        - ActiveHeightFluxTrichotomy.A as Part/legal-Field/Zeno face routing
-        - PCTP.hard as supplier/readout support
-      action_type:
-        meaning: The operation requested by the user or lane.
-        allowed_values:
-        - prove_close_discharge_do_the_math
-        - audit_verify
-        - summarize_status
-        - edit_patch
-        - inventory
-        - target_tail
-        - decide_prioritize
-        - explain
-        - route_runtime_repair
-        rule: Strong theorem verbs default to object-level theorem work, not status
-          packaging, note sync, or route cleanup.
-      authority_source:
-        meaning: The governing source that must be inspected or cited before answering.
-        rule: Direct live surfaces and the original source corpus outrank generated
-          maps and summaries.
-      return_shape:
-        meaning: The requested output span.
-        allowed_values:
-        - proof_attempt
-        - exact_burden_list
-        - inventory_only
-        - target_tail
-        - patch_receipt
-        - status_receipt
-        - review_findings
-        - one_concrete_next_action
-        - plain_explanation
-    proof_program_topology: &4
-    - program_id: cm-member-class-exit
-      proof_mode: contrapositive_class_membership
-      governing_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
-      propagated_object: same-fluid Part/Field witness envelope; Member(Q)
-        is the forward membership predicate
-      promotion_gate: Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence landing
-        after live-object participation is typed, plus original-participation audit before any outside-CM participation-field/window failure
-        disposal
-      current_role: governing proof grammar for CM-bearing promotion
-      governing_engine_note: problems/navier-stokes/theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
-      pack_before_part_dependency_audit:
-        note: problems/navier-stokes/theorem-construction/mpp-pack-out-of-cm-boundary-resurfacing-audit-20260620.md
-        licensing_note: problems/navier-stokes/theorem-construction/mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md
-        rule: Preserve Silver Part/Field after a legitimate Pack window, carrier,
-          readout, or jump-comparison structure is admitted. When an outside-CM participation-field/window or singular
-          branch was disposed as not Pack_Q before the original Navier-Stokes participation law was applied to the live same-solution object, first ask
-          whether the original Navier-Stokes viscosity, pressure, and incompressibility
-          law still gives original participation status. If yes, resurface the branch
-          under Part_{N,Q}; if no, keep not Pack_Q as a true carrier/window/readout
-          failure.
-      obstruction_pass_exit_rule: Follow the ordinary positive proof program until
-        it reaches a real obstruction, then split the obstruction into a pass branch
-        and a fail branch. The pass branch is the in-class `Member(Q)` branch and
-        may be supplied by any lawful continuation mechanism. The fail branch is lawful
-        CM contrapositive work only when the failure is capable of nonsmoothness and
-        lands as a Part or Field Part/Field failure, or as an original-participation audit
-        of an outside-CM participation-field/window branch, supporting `Exit(Q):=not Member(Q)`. Do not replace
-        this engine with a demand to prove one particular positive estimate directly.
-      no_third_branch_rule: The installed no-third-branch audit proves that no terminal
-        branch is both an in-class `Member(Q)` continuation branch and a finite nonsmoothness
-        branch once the obstruction has been admitted to the CM test and a concrete
-        Part/Field failure has been derived. Do not respawn the rejected
-        positive no-exit slogan as the local burden; the live proof engine is obstruction-by-obstruction
-        CM-test entry plus Part/Field Part/Field derivation.
-      no_genuine_exit_rule: The direct first-exit positive no-exit attempt is retained
-        as a failed positive no-exit shortcut and may not control the local CM target.
-        Under the current pass-or-exit engine, a pass branch may be supplied by any
-        lawful continuation mechanism, and a fail branch is useful exactly when it
-        lands in Part or Field; that concrete Part/Field failure supports `Exit(Q):=not
-        Member(Q)`.
-      silver_face_failure_finality_correction_20260619: Do not state or preserve as
-        a Silver burden that a concrete Part/Field failure must then be
-        proved not to be the finite-time breakdown of the original smooth solution.
-        That imports a forward no-exit theorem into the contrapositive. For Silver,
-        after same-solution CM-test admission, the row is consumed by admissibility
-        failure, continuation/readout recovery, or concrete Part/Field failure. `NoGenuineExitFromSmoothData.A`,
-        first-Pack survival, terminal anti-atom, and PCTP/TTU are positive supplier
-        or manuscript support unless a concrete promoted row is shown to enter the
-        CM test and still neither continue nor land in a real Part/Field failure.
-      positive_existence_translation_veto: Do not restate the live CM burden as proving
-        that at least one solution remains in the class, producing a smooth/class-member
-        solution, or showing smooth data stays in CM. That is a positive-existence/class-preservation
-        reading. The pass side is already the smooth/Member(Q) side under whatever
-        lawful continuation mechanism supplies it; the proof work is admitting each
-        obstruction to the CM test and deriving the fail side as a concrete Part/Field
-        Part/Field failure supporting Exit(Q):=not Member(Q).
-      source_reserve_birth_rule: 'The May 25 source-reserve burst is support, not
-        live frontier: `ReserveCreationCharge.A` remains a positive supplier / charge-ledger
-        subprimitive, `ActiveHeightFluxTrichotomy.A` remains conditional face-routing
-        support after the zero-first-moment visibility veto, and `SourceReserveBirthCharge.A
-        / RetainedPositiveScaleNativeReserveBirthCharge.A` is support-only after the
-        Pack-out-of-CM source-reserve face audit. The exact classification is: paid same-ledger
-        service is pass-side nonvacuity; an admitted finite terminal obstruction is
-        CM-test admission only; selected unpaid infinite donor-refill lands first at `not Pack_Q`, while zero-radius terminal residue is Part-side when the same-solution original participation record remains and true packet/window evidence only when that record is absent; retained positive-scale first-created
-        native donor-square reserve surplus remains supplier quarantine. Its honest
-        next burden is `RetainedPositiveScaleNativeReserveBirthCharge.A / TerminalReserveFirstAppearanceCharge.A`
-        as supplier-quarantined positive Pack support, promotable only by same-ledger
-        payment or CM-test admission plus first Part/Field failure.'
-    - program_id: positive-smoothness
-      proof_mode: positive_smoothness
-      governing_primitive: direct a priori regularity or continuation control for
-        the Navier-Stokes solution
-      propagated_object: smooth NS solution on the specified domain, datum, and interval
-      promotion_gate: classical continuation criterion or installed same-object membership
-        bridge
-      current_role: separate positive theorem program; not identical to CM contrapositive
-        work
-    - program_id: fixed-nu-euler-to-ns-transfer
-      proof_mode: same_datum_same_interval_transfer
-      governing_primitive: EulerSmooth(u_0,[0,T]) => NSSmooth_nu(u_0,[0,T]) for fixed
-        nu>0
-      propagated_object: relative fixed-viscosity a priori bound or first-failure
-        exclusion
-      promotion_gate: quarantined transfer theorem; not a proof of Euler smoothness
-        or stand-alone NS smoothness
-      current_role: separate theorem target, not the CM source-wall root
-    - program_id: euler-mirror
-      proof_mode: viscosity_removed_comparison
-      governing_primitive: parallel Euler branch under euler-mirror/
-      propagated_object: Euler analogues of selected NS route objects
-      promotion_gate: comparison only unless a separate transfer theorem is proved
-      current_role: quarantined mirror lane
-    - program_id: source-wall-residual-root-group
-      proof_mode: branch_native_supplier_or_cm_landing_support
-      governing_primitive: source-wall-root-after-reconcile
-      propagated_object: source-reserve or Field-face residual support, depending
-        on branch
-      promotion_gate: fresh CM-necessity audit plus typed bridge into Part/Field
-        before it can become live
-      current_role: historical/support grouping; not a current release blocker under
-        direct-live clearance
-    - program_id: receiver-source-readout
-      proof_mode: forward_positive_support_and_endpoint_readout
-      governing_primitive: retained/averaged receiver, source ledger, endpoint readout
-      propagated_object: receiver/source/read-cover/end-point packets
-      promotion_gate: typed bridge into Part/Field witnesses, or explicit
-        downstream readout after the CM witness certificate
-      current_role: support program, not interchangeable with the CM primitive
-    - program_id: export-readout-branches
-      proof_mode: downstream_readout_or_export
-      governing_primitive: TPS/SG.4, exact-potential/Hodge, Euclidean strict-shadow,
-        mixed-jet, frozen-family, Lagrangian
-      propagated_object: branch-local carrier or readout object
-      promotion_gate: explicit bridge theorem into the target program
-      current_role: do not substitute for live CM, transfer, or positive targets
-    - program_id: source-recovery
-      proof_mode: source_recovery
-      governing_primitive: original corpus and archived theorem notes
-      propagated_object: recovered definitions, route splits, theorem obligations,
-        and proof text
-      promotion_gate: source-backed promotion into a lane-local theorem surface
-      current_role: preservation and rehydration, not proof closure by itself
-    - program_id: new-idea-generation
-      proof_mode: new_idea_generation
-      governing_primitive: bounded speculative theorem invention under frozen target
-        object
-      propagated_object: candidate mediating object, inequality, or local bridge
-      promotion_gate: falsification plus promotion into a typed theorem surface
-      current_role: route mutation/new idea; never silently overwrites source authority
-    - program_id: automation-runtime-repair
-      proof_mode: route_runtime_repair
-      governing_primitive: lane daemon, hardener, MCP, collaboration scope, and generated-surface
-        health
-      propagated_object: runnable target custody and correct generated surfaces
-      promotion_gate: verification commands and refreshed surfaces
-      current_role: infrastructure repair; not mathematical progress unless it materializes
-        theorem work
-    open_root_group: &5
-      group_id: release-exactness-and-manuscript-refresh
-      group_label: Terminal time-face new-production frontier after the annular residual
-        specific case exhaustion.
-      live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
-      top_level_release_blocker: false
-      not_single_path: true
-      not_single_proof_mode: true
-      dashboard_boundary: The installed Clay terminal-witness CM chain remains the
-        proof grammar, and this single referee gate is now recorded with Gold/Silver
-        paths. Gold is the forward-positive supplier attempt audited to TerminalTimeFaceAntiAtom.A
-        / TerminalNewProductionTheorem_{B_ASAC}.A. Silver names the accepted exhaustive
-        CM contrapositive branch-table resolution. Do not narrate this as a still-open
-        Gold-side child, and do not split Gold and Silver into separate gates.
-      exact_live_theorem_grade_burden: &1
-        status: cm-referee-gate-passed-with-gold-silver-paths
-        burden_id: release-exactness-and-manuscript-refresh
-        proof_mode: single_referee_gate_with_gold_silver_paths
-        target_object: CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A
-        theorem_grade_statement: 'The original acceptance gate had treated Gold forward-positive
-          proof as the only acceptance mode. The corrected single gate accepts Silver
-          as the CM contrapositive discharge: once the alleged terminal witness is
-          admitted to the CM test, the exhaustive branch table consumes every admissible
-          branch by admissibility failure, continuation/readout recovery, or a concrete
-          Part/Field failure supporting Exit(Q):=not Member(Q).'
-        active_container: release-exactness-and-manuscript-refresh
-        respawn_cell:
-        respawn_stage:
-        allowed_input_boundary: Gold and Silver are acceptance paths inside one gate.
-          Gold names the tried forward-positive supplier path to TerminalTimeFaceAntiAtom.A
-          / TerminalNewProductionTheorem_{B_ASAC}.A; Silver names the accepted exhaustive
-          CM contrapositive branch-table resolution.
-        nearest_wrong_substitution: Treating the gate as cleared only by Gold forward-positive
-          proof, or splitting Gold and Silver into separate gates instead of one gate
-          with Gold/Silver paths.
-        accepted_replacement:
-          patch: CMContrapositiveRefereeInventoryPatch.A
-          theorem: ExhaustiveContrapositiveFiniteBreakdownExclusion.A
-          single_gate_paths:
-            gate_model: one referee gate with Gold and Silver acceptance paths
-            accepted_path: Silver
-            anti_smuggling_rule: The gate accepts either Gold proof or the Silver
-              exhaustive CM contrapositive replacement. It records accepted_path only;
-              Gold is not the only acceptance mode.
-      cm_exit_discipline: A theorem surface is live for the CM program only when it
-        is generated by negating the installed continuation packet, or when a checked
-        bridge lands it in a typed Part or Field obligation. The H^s readout
-        bridge is proof-licensing work from CM to continuation, not a fourth CM failure
-        face. Imagined analytic pathologies and positive source-control estimates
-        are diagnostic language until that continuation-slot landing is proved.
-      witness_face_overlap_boundary: Part and Field are overlapping witness
-        axes, not mutually exclusive doors. Pack records fixed-box flux / usable common
-        packing coordinates; Part records the same pressure-viscosity participation
-        carrier; Field records neighboring tower coherence. A finite-time material
-        distortion event is Pack-facing but its strain/tower mechanism must be audited
-        against Field or the row-independent tower-amplitude slot. Under the terminal
-        same-fluid reading, do not advertise a formal "Pack-only", "Part-only", or
-        "Field-only" row as an ontological scenario until its real terminal realization
-        has been tested against the implication pressure among Part and Field,
-        and the Dead/Jump/Blown readouts.
-      part_field_resolution: A retained-Part Field landing is branch-local proof bookkeeping,
-        not a surviving terminal ontology row. It means Part_{N,Q} plus Field-window evidence have
-        been licensed enough to keep the selected obstruction inside the same NS packet,
-        so the first unspent CM Part/Field is Field_{N,r,Q}. Under the stronger terminal
-        same-fluid ontology, a realized coherence break also defeats terminal participation
-        and collapses to Pack + not-Part + not-Field unless the note explicitly says
-        Part is only a retained hypothesis/formal license.
-      part_field_resolution_note: problems/navier-stokes/theorem-construction/mpp-field-failure-to-part-collapse-20260522.md
-      active_ontological_audit:
-        status: field-to-part-collapse-resolved-pack-blown-side-active
-        note: problems/navier-stokes/theorem-construction/mpp-part-field-ontological-collapse-question-20260517.md
-        question: 'Determine which formal Part/Field witness rows have real terminal
-          same-fluid realizations, and which collapse into overlapping endpoint readouts
-          once Pack is carrier geometry, Part is terminal pressure-viscosity/tower
-          participation, and Field is neighboring tower coherence. For each binary
-          row, ask which cause applies among Blown, Dead, and Jump; tell the honest
-          same-fluid story; then collapse the row if that story necessarily breaks
-          another face. Current audit result: only Part+Field, Pack+not-Part+not-Field,
-          and failed packet-window+not-Part+not-Field survive as ontological candidate rows. Field-to-Part
-          collapse is installed by RetainedFieldToPartCollapse.A; the remaining audit
-          work is the Pack/blown implication.'
-        forbidden_substitution: Do not answer this inquiry by replaying the flat eight-row
-          Boolean table or by introducing Pack-only / Part-only / Field-only rows
-          without a terminal realization story. Do not let old matrix or generated
-          endpoint surfaces decide the ontology before the plain failure story is
-          tested.
-      may15_retained_field_audit:
-        status: receiver-escape-bridge-installed-three-notes-quarantined-as-conditional-support
-        bridge_effect: REE.C is the only promoted May 15 bridge; on retained Part plus Field-window evidence
-          it sends receiver escape to not Field as branch-local retained-hypothesis
-          bookkeeping, while missing Pack or Part hypotheses land earlier in those
-          witnesses.
-        note_classification:
-        - path: problems/navier-stokes/theorem-construction/mpp-receiver-escape-endpoint-reduction-20260515.md
-          class: licensed narrow CM witness bridge into Field
-          role: receiver escape is not a fourth branch; under retained Field-window evidence and Part
-            it is a Field endpoint in the branch-local proof sense, while terminal
-            ontology collapses a realized Jump to Pack+not-Part+not-Field and missing
-            hypotheses are Pack or Part exits.
-        - path: problems/navier-stokes/theorem-construction/mpp-retained-field-exit-source-receiver-reduction-20260515.md
-          class: quarantined conditional Field-row support
-          role: retained Field exit pushes down to receiver escape, lower-carrier
-            supplier failure, or frozen-family source-ledger failure.
-        - path: problems/navier-stokes/theorem-construction/mpp-retained-field-endpoint-tower-reduction-20260515.md
-          class: quarantined conditional Field-row support
-          role: retained Field exit forces failure of the same-family DTC/tower analytic
-            cell with same-cover pressure readout.
-        - path: problems/navier-stokes/theorem-construction/mpp-retained-field-actkx-license-and-conditional-closure-20260515.md
-          class: quarantined conditional Field-row support
-          role: pre-endpoint ACT.KX closes the retained Field row conditionally, but
-            H1-H6 replay and endpoint readouts cannot be spent upstream.
-        quarantine_boundary: The retained Field endpoint DTC/tower/ACT.KX analytic
-          cell is support, not a live frontier component, until produced from original
-          data without endpoint/readout circularity.
-        promotion_boundary: Do not mark the stronger no-pulse/PCTP supplier route
-          closed unless the source-control atom below is proved; the CM-retained source-pulse
-          branch is already classified by SourcePulseCMExit.A.
-        route_audit: problems/navier-stokes/theorem-construction/mpp-endpoint-production-cell-route-audit-20260515.md
-        sourcepulse_self_attempt: problems/navier-stokes/theorem-construction/mpp-sourcepulse-first-unpaid-self-attempt-20260515.md
-        sourcepulse_two_tower_refinement: problems/navier-stokes/theorem-construction/mpp-sourcepulse-two-tower-zeno-refinement-20260515.md
-        terminal_zeno_operational_collapse: problems/navier-stokes/theorem-construction/mpp-terminal-zeno-operational-collapse-20260515.md
-        localpositive_source_native_defect_frontier: problems/navier-stokes/theorem-construction/mpp-localpositive-source-native-defect-frontier-20260516.md
-        native_source_rn_decision_criterion: problems/navier-stokes/theorem-construction/mpp-native-source-radon-nikodym-decision-criterion-20260516.md
-        positive_remainder_source_supplier_handoff: problems/navier-stokes/theorem-construction/mpp-positive-remainder-source-supplier-handoff-20260516.md
-        positive_remainder_depletion_attempt: problems/navier-stokes/theorem-construction/mcp-positiveremainderdepletion-a-97b674fc40.md
-        terminal_angular_mixing_attempt: problems/navier-stokes/theorem-construction/mcp-terminalangularmixing-a-alignmentdecorrel-a-asac-a-5b08228909.md
-        zeno_residue_rigidity_attempt: problems/navier-stokes/theorem-construction/mcp-zenosourceresiduerigidity-a-7a97f81431.md
-        temporal_integrability_attempt: problems/navier-stokes/theorem-construction/mcp-uniformtemporalsourceintegrability-a-terminalresidueatomexclusion-a-uniformtemporalsourceintegrability-a-892a3622a3.md
-        zeno_cancellation_class_attempt: problems/navier-stokes/theorem-construction/mcp-zenocancellationclassproduction-a-8df8798dfd.md
-        one_sided_negative_part_attempt: problems/navier-stokes/theorem-construction/mcp-onesidedselectedwindownegativepartcomparison-a-asac-a-9eade42309.md
-        active_square_reserve_attempt: problems/navier-stokes/theorem-construction/mcp-scalecriticaltreecarleson-a-activesquarereserve-a-scalecriticaltreecarleson-a-d3e81f46a9.md
-        independent_prd_alternative_attempts: problems/navier-stokes/theorem-construction/mpp-independent-prd-alternative-proof-attempts-20260516.md
-        temporal_nonatomic_noncarleson_frontier: problems/navier-stokes/theorem-construction/mpp-temporal-nonatomic-source-noncarleson-frontier-20260516.md
-        terminal_source_reverse_holder_normalization: problems/navier-stokes/theorem-construction/mpp-terminal-source-reverse-holder-to-active-shell-source-normalization-20260516.md
-        positive_remainder_post_asac_conditional_closure: problems/navier-stokes/theorem-construction/mpp-positive-remainder-depletion-post-asac-conditional-closure-20260516.md
-        five_supplier_parallel_completion_ledger: problems/navier-stokes/theorem-construction/mpp-five-supplier-parallel-completion-ledger-20260517.md
-        positive_remainder_depletion_completion_attempt: problems/navier-stokes/theorem-construction/mpp-prd-completion-attempt-20260517.md
-        localpositive_source_carleson_completion_attempt: problems/navier-stokes/theorem-construction/mpp-localpositivesourcecarleson-completion-attempt-20260517.md
-        square_source_estimate_completion_attempt: problems/navier-stokes/theorem-construction/mpp-squaresourceestimate-completion-attempt-20260517.md
-        active_shell_amplitude_gain_completion_attempt: problems/navier-stokes/theorem-construction/mpp-activeshellamplitudegain-completion-attempt-20260517.md
-        noncarleson_zeno_temporal_anticoncentration_completion_attempt: problems/navier-stokes/theorem-construction/mpp-noncarleson-zeno-temporal-anticoncentration-completion-attempt-20260517.md
-        sourceweighted_terminal_angular_solve_route: problems/navier-stokes/theorem-construction/mpp-sourceweighted-terminal-angular-depletion-solve-route-20260517.md
-        asac_defect_measure_equality_class_production: problems/navier-stokes/theorem-construction/mpp-asac-defect-measure-equality-class-production-20260517.md
-        zeno_residue_liouville_basac_direct_attempt: problems/navier-stokes/theorem-construction/mpp-zenoresidue-liouville-basac-direct-attempt-20260517.md
-        terminal_source_reverse_holder_basac_direct_attempt: problems/navier-stokes/theorem-construction/mpp-terminal-source-reverse-holder-basac-direct-attempt-20260517.md
-        basac_noincoming_source_drain_attempt: problems/navier-stokes/theorem-construction/mpp-basac-noincoming-source-drain-attempt-20260517.md
-        basac_source_ancestry_compactness_attempt: problems/navier-stokes/theorem-construction/mpp-basac-source-ancestry-compactness-attempt-20260517.md
-        basac_target_local_exhaustion_and_cm_field_closure: problems/navier-stokes/theorem-construction/mpp-basac-target-local-exhaustion-and-cm-field-closure-20260517.md
-        cm_contrapositive_sourcepulse_status: SourcePulseCMExit.A is locally discharged
-          as a source-pulse branch theorem by retained-Field tower anchoring; the
-          route-wide CM primitive remains Exit(Q):=not Member(Q), and positive supplier
-          presentations are quarantined support, not the proof root.
-        sourcepulse_cm_retained_branch_status: SourcePulseCMExit.A already classifies
-          the retained source-pulse survivor as a Part/Field exit; no stronger
-          SourcePulseExclusion.A proof is required for that CM branch split.
-        terminal_zeno_pack_legality_boundary: 'The May 21 terminal Zeno correction
-          is the governing CM boundary: finite Zeno ancestry packets may be legal,
-          but the terminal zero-radius residue is not automatically a Pack-only endpoint
-          after PackOutOfCMSmoothnessCertification.A. When the zero-radius atom is
-          still the same original-NS terminal source/pressure-viscosity participation
-          record, it is tested first by the original Navier-Stokes participation law as zero heat-time participation
-          / Part-side participation failure. It remains true packet/window evidence only when
-          no same-solution original participation record survives and the defect
-          is solely absence of a usable carrier/window/readout. NoPersistentUnpaidPositiveRadiusAncestry.A
-          closes the positive-radius retained tail by the shared-participation strip
-          balance. BASACTerminalAtomCMFaceLabeling.A, RetainedPackFieldNoIncomingParticipationFlux.A,
-          and BASACLiouvilleCMParticipationBridge.A are finite-ancestry accounting
-          and post-exit readout support. PRD, LPSC, SquareSourceEstimate.A, ActiveShellAmplitudeGain.A,
-          TerminalSourceReverseHolder.A, UniformTemporalSourceIntegrability_p.A, rigid-class
-          production, and OriginalSmoothData=>SourcePulseExclusion.A are retained
-          as historical downstream no-pulse/source-control support with no CM proof
-          force; they are not required terminal Zeno CM burdens and may not respawn
-          as the next CM target unless the proof program is explicitly switched.'
-        cm_pack_legality_consequence: 'The terminal Zeno/B_ASAC zero-thickness endpoint
-          is settled only after the Pack-out-of-CM audit: same original-NS terminal
-          atoms land in Part-side dead/participation failure, while Field-window support non-survival
-          is reserved for cases with no surviving original participation record.
-          H1-H6, ACT.KX, endpoint readout, and positive source-control material remain
-          quarantined support rather than upstream proof inputs.'
-      continuation_packet_methodology:
-        rule: Start from the sufficient packet for classical continuation, then negate
-          that packet to obtain the admissible CM-exit failure calculus. Do not promote
-          a surface merely because it suppresses a possible bad scenario.
-        note: problems/navier-stokes/theorem-construction/mpp-continuation-packet-generated-cm-contrapositive-20260514.md
-        slots:
-        - carrier/cover slot -> Pack or Pack bridge
-        - participation/forcing slot -> Part or Part bridge
-        - one-field coherence slot -> Field or Field bridge
-        readout_boundary: H^s readout bridge -> proof-licensing from CM to continuation,
-          not a CM-exit failure face
-      live_surface_application: Apply this rule to the 1937 included non-Euler text
-        surfaces indexed in non-euler-surface-face-sweep-index-20260514.yaml, with
-        69 Euler/fixed-nu or Euler-class comparison surfaces excluded and the theorem-packet
-        primary surfaces as a checked subcase, before using any surface as a steering
-        target.
-      surface_face_sweep_soundness:
-        theorem: AllNonEulerNSSurfaceFaceSweep.A
-        note: problems/navier-stokes/theorem-construction/mpp-non-euler-cm-surface-face-sweep-20260514.md
-        major_note: problems/navier-stokes/theorem-construction/mpp-major-non-euler-cm-contrapositive-closures-20260514.md
-        index: problems/navier-stokes/non-euler-surface-face-sweep-index-20260514.yaml
-        diagnostic_map: problems/navier-stokes/non-euler-failure-face-diagnostic-map-20260514.yaml
-        proof_certificates: problems/navier-stokes/non-euler-cm-contrapositive-proof-certificates-20260514.yaml
-        soundness_theorems:
-        - InventorySelfInclusion.A
-        - EulerContentExclusionSoundness.A
-        - IndexClassifierSoundness.A
-        - AllNonEulerNSFailureFaceDiagnostic.A
-        - AllNonEulerCMContrapositiveClosure.A
-        - MajorNonEulerCMContrapositiveClosure.A
-        - GeneratedAuthorityInheritance.A
-        - SourceFrontierGroundedObligationsBoundary.A
-        - ManuscriptDraftExportBoundary.A
-      diagnostic_presentations_pending_cm_exit_landing:
-      - target_id: scalecriticaltreecarleson-a
-        label: ScaleCriticalTreeCarleson.A
-        proof_mode: direct_carleson_source_wall
-        role: Field smoothness-certification support target; donor-refill ancestry belongs to Pack,
-          so Pack_Q implies the scale-critical donor-refill Carleson bound and selected
-          unpaid infinite donor-refill failure is Field-window evidence, not CM exit / (Pack, packing-detached).
-          No Field/Jump conversion is needed for this landing; direct supplier theorem
-          remains separate
-      - target_id: zeno-rigid-class-pair
-        label: ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A
-        proof_mode: zeno_rigidity_alternate
-        role: diagnostic source-residue presentation; selected finite Zeno ancestry
-          is sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A,
-          while terminal zero-heat-time source residue is first audited for pointwise
-          original-NS participation. If the same-solution participation record remains,
-          it lands in Part first; if that record is absent, it lands as true not Pack_Q.
-          Field/Jump language is post-exit readout unless a positive-scale retained
-          carrier is separately proved; non-Carleson TemporalNonAtomicSource.A remains
-          separate
-      - target_id: terminal-zeno-pack-legality-boundary
-        label: Terminal zero-radius Zeno Part-first boundary
-        proof_mode: terminal_zeno_pack_legality_boundary
-        role: CM-facing boundary after finite Zeno ancestry accounting; the terminal
-          zero-radius residue lands Part-side when it keeps the same original-NS participation record, and packet/window evidence only when that record is absent;
-          LPSC/PRD/Zeno rigid-class language is downstream no-pulse/source-control
-          support outside this CM endpoint.
-      - target_id: sourcepulse-terminal-zeno-operational-collapse
-        label: LocalPositiveSourceCarleson.A
-        proof_mode: operational_positive_source_carleson_attack
-        role: May 15 operational collapse after named Zeno rigid classes fail production;
-          this is the coarse positive-source step that is now sharpened by sourcepulse-native-positive-defect-frontier,
-          while the rigid-class branch remains only as a new-class escape hatch.
-      - target_id: sourcepulse-native-positive-defect-frontier
-        label: PositiveRemainderDepletion.A / NativeTrilinearDefectDomination.A /
-          mu_*^sing=0
-        proof_mode: quarantined_positive_supplier_support
-        role: Historical downstream no-pulse/source-control support only. PRD, NativeTrilinearDefectDomination.A,
-          UniformLedgerAC.A, mu_*^sing=0, LPSC, SquareSourceEstimate.A, ActiveShellAmplitudeGain.A,
-          temporal anti-concentration, and rigid-class production may describe a separate
-          positive supplier program, but they are support-only with no proof force
-          for the CM contrapositive terminal Zeno endpoint. They do not create a terminal
-          CM burden after the zero-radius residue has been sorted by the Pack-out-of-CM
-          audit as Part-first participation failure or true failed packet-window carrier failure.
-      - target_id: retained-face-amplitude-gain
-        label: RetainedFaceAmplitudeGain.A
-        proof_mode: retained_amplitude_face_boundary
-        role: conditional Part/Field boundary; failure is not PackGainLedger.A or not
-          PartEnvelopeAmplitudeConservation.A unless those inputs are supplied and
-          the remainder returns to the source-wall Field/Zeno diagnostics
-      - target_id: active-height-flux-trichotomy
-        label: ActiveHeightFluxTrichotomy.A / LowStrainBVCharge.A
-        proof_mode: typed_face_routing_subset
-        role: first positive height flux routes to Pack gain, Part/dwell failure,
-          legal Field source charge, or Zeno terminal atom; no independent face is
-          created
-      - target_id: post-asac-signed-current
-        label: Terminal signed-current / weighted lifted defect support after ASAC
-        proof_mode: conditional_signed_current_support
-        role: support presentation; ASAC pays active-alignment and positive pair-weight
-          pieces, after which the remaining selected branch is ZenoSourceResidueRigidity.A
-          and hence the installed Zeno Field diagnostic
-      - target_id: native-trilinear-equivalent
-        label: Native trilinear / square-reserve equivalent presentations
-        proof_mode: equivalent_or_reduced_presentations
-        role: diagnostic equivalent presentation; current selected failures reduce
-          to Part/Field subfailures, legal Field source charge, Zeno atom, or the installed
-          Carleson/Zeno Field diagnostics
-      - target_id: downstream-no-jump-readout
-        label: PCTP / SOURCE.NO-PULSE / AWG / TGC / no-Jump_avg readout
-        proof_mode: supplier_or_downstream_readout
-        role: readout presentation requiring direct accountability before use as a
-          target
-    exact_live_theorem_grade_burden: *1
-    release_or_respawn_consequence: &6
-      disposition: gate-cleared-review-refresh-required
-      next_cell_type: review-refresh
-      next_stage: submission-and-pdf-readiness-refresh
-      next_action: Refresh downstream review/submission mirrors from the accepted
-        single-gate CM referee resolution; do not respawn TerminalTimeFaceAntiAtom.A
-        / TerminalNewProductionTheorem_{B_ASAC}.A as the active blocker.
-    forward_positive_surface_quarantine: &7
-      status: active-no-proof-authority
-      index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
-      generator: problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb
-      scan_scope: problems/navier-stokes/** text surfaces
-      entry_count: 3305
-      summary_by_class:
-        already-classified-positive-support-language: 207
-        downstream-export-or-legacy-engine-support: 940
-        quarantined-forward-positive-supplier-support: 1555
-        receiver-readout-endpoint-support: 2140
-        separate-positive-smoothness-support: 857
-        separate-transfer-or-euler-comparison-support: 263
-      index_path: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
-      index_status: active-no-proof-authority-index
-      summary_by_scope:
-        repo-surface: 1026
-        theorem-construction: 2279
-    non_merge_rules: &8
-    - rule_id: positive-vs-cm
-      statement: Positive smoothness control and every surface indexed in the forward-positive
-        quarantine ledger are not the CM contrapositive unless a named bridge proves
-        membership, a Silver witness landing in Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence,
-        or the outside-CM participation-field/window original-participation audit needed before not Pack_Q can be spent.
-    - rule_id: fixed-nu-transfer-vs-ns-smoothness
-      statement: Fixed-nu Euler-to-NS transfer compares two equations on the same
-        datum and interval; it does not prove Euler smoothness or stand-alone NS smoothness.
-    - rule_id: euler-mirror-vs-transfer
-      statement: Euler mirror removes viscosity for comparison; it is not the fixed-nu
-        transfer theorem.
-    - rule_id: ns-cm-smoothness-to-euler-dual
-      statement: Shared flux-volume Pack failure exits both Euler and Navier-Stokes;
-        NS Part/Field smoothness mechanisms do not become Euler pressure-participation
-        or one-field membership laws, and Euler pressure/incompressibility may coexist
-        with slip, jet-shear, Dead-like stronger-carrier failure, or Jump-like one-field
-        failure.
-      authority: problems/navier-stokes/theorem-construction/mpp-ns-cm-smoothness-euler-dual-regularity-map-20260516.md
-      proof_witness: problems/navier-stokes/euler-mirror/theorem-construction/mpp-euler-pressure-nonparticipation-vortex-sheet-witness-20260517.md
-      smooth_data_bridge: problems/navier-stokes/euler-mirror/theorem-construction/mpp-smooth-data-to-euler-nonsmooth-bridge-20260517.md
-      endpoint_cover_taxonomy: problems/navier-stokes/theorem-construction/mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md
-      ns_attack_map: problems/navier-stokes/theorem-construction/mpp-euler-control-case-to-ns-attack-map-20260517.md
-      fixed_datum_boundary_reference: Chen-Hou prove a boundary/axisymmetric smooth-data
-        blowup route; no-boundary smooth finite-energy Euler remains a separate open
-        target.
-    - rule_id: supplier-vs-promotion
-      statement: PCTP, SOURCE.NO-PULSE, AWG, TGC, Jump_avg, signed-current, pressure-strain,
-        compactness, ancestry, and donor-depletion objects remain supplier/readout
-        support except where a named face diagnostic supplies a Part and Field,
-        or Zeno-sorted landing with its promotion boundary stated.
-    - rule_id: source-recovery-vs-proof
-      statement: Recovering a source or route split preserves authority; it does not
-        discharge the theorem burden without object-level proof text.
-    - rule_id: runtime-repair-vs-math
-      statement: Repairing generated surfaces or daemon behavior is not theorem progress
-        unless it creates or promotes exact theorem-facing work.
-    authority_hierarchy: &9
-      source_priority:
-      - problems/navier-stokes/source-forensics/
-      - problems/navier-stokes/live-theorem-edge.yaml
-      - problems/navier-stokes/source-frontier.yaml
-      - problems/navier-stokes/theorem-packet.yaml
-      - problems/navier-stokes/theorem-repair.yaml
-      - problems/navier-stokes/dependency-discharge.yaml
-      - problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
-      - problems/navier-stokes/theorem-construction/mpp-major-non-euler-cm-contrapositive-closures-20260514.md
-      - problems/navier-stokes/non-euler-surface-face-sweep-index-20260514.yaml
-      - problems/navier-stokes/non-euler-failure-face-diagnostic-map-20260514.yaml
-      - problems/navier-stokes/non-euler-cm-contrapositive-proof-certificates-20260514.yaml
-      - problems/navier-stokes/ns-proof-program-route-table.yaml
-      - problems/navier-stokes/target-operating-contract.yaml
-      generated_surfaces_are_not_authority_when_conflicting:
-      - system/meta/research-os/project-map.yaml
-      - system/meta/research-os/live-state/
-      - submission-bundle/
-      - route-integrity-report.yaml
-      - theorem-crank.yaml
-      stale_surface_rule: If a generated or older route surface advertises closure,
-        terminal posture, or a singleton target that conflicts with the direct live
-        surfaces and this contract, classify it as having no proof authority or repair
-        the exact claim before using it in a user answer.
-    mode_selection_protocol: &10
-      before_answer:
-      - lock target using target_lock_schema
-      - inspect authority_source unless the user only asks for a purely conversational
-        reflection
-      - classify proof_mode before using words like route, frontier, wall, path, target,
-        closure, or smoothness
-      - check the forward-positive quarantine index before using a positive, supplier,
-        transfer, receiver/readout, export, or continuation surface in a CM contrapositive
-        answer
-      - classify action_type before choosing status, proof attempt, patch, inventory,
-        or target-tail output
-      - preserve paused targets instead of merging them into the active one
-      stop_condition: Stop only when a genuine new mathematical choice is needed,
-        an out-of-scope write is required, the route has split and one bounded self-attempt
-        has already failed, or verification cannot be repaired internally.
+    - Start with the alleged finite-time Clay terminal witness from the same original
+      smooth Navier-Stokes datum
+    - The witness enters the canonical same-fluid CM terminal participation-field
+      tree rather than being assumed to be a class member
+    - After Pack admission, the finite failure type is exhausted as not Part_{N,Q},
+      or forall r>0 not Field_{N,r,Q}; before the Field smoothness-certification question
+      is live, a failed packet-window candidate first tests the original NS participation
+      law
+    - The derived typed failure embeds as `Exit(Q):=not Member(Q)` inside the CM contrapositive
+      program
+    - The pass branch remains the lawful smooth continuation branch, while the fail
+      branch has no legal in-class nonsmooth continuation status
+    route_slots:
+    - slot_id: signed-smooth-same-packet-commutator-coercivity
+      label: SignedSmoothSamePacketCommutatorCoercivity.A
+      kind: live-theorem-frontier
+      status: frontier-open
+      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    - slot_id: original-smooth-data-material-history-no-finite-breakdown
+      label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
+      kind: live-theorem-frontier
+      status: frontier-open
+      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
+    - slot_id: pack-out-of-cm-smoothness-certification-audit
+      label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
+      kind: live-theorem-frontier
+      status: frontier-open
+      patch_surface: problems/navier-stokes/live-theorem-edge.yaml
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
-    route_label: CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A
-    current_route_name: CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A
-    exact_cut_summary: The corrected active gate is one referee gate with Gold/Silver
-      paths, not two gates. Gold names the tried forward-positive supplier path to
-      TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A. Silver
-      is the accepted exhaustive CM contrapositive branch-table resolution through
-      CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A.
+    route_label: clay-cm-contrapositive-witness-consumption
+    current_route_name: clay-cm-contrapositive-witness-consumption
+    exact_cut_summary: 'The Clay-facing CM chain remains installed as a proof skeleton,
+      but the current lowest safe claim is a live proof candidate with an annular-limit
+      referee blocker.  An alleged finite Clay breakdown witness enters the canonical
+      same-fluid terminal CM participation-field test, and the endpoint statement
+      r_*=0 is no longer read as automatic not Pack_Q for the point-object: the zero-scale
+      object lands Part-side when the same original-NS participation record remains,
+      and packet/window evidence only when that record is absent.  The surrounding
+      positive-radius annular fields that witness the approach to the endpoint must
+      still be paid: either by Gold forward-positive annular control in residual scale-critical
+      currency, or by Silver CM annular admission with Pack/carrier already paid,
+      the continuation-readout bridge paid, and a concrete Part or continuation-readout
+      Field failure derived afterward.  Positive no-pulse, source-wall, PCTP, averaged-readout,
+      retained Field, public-critical, Euler-mirror, selector, transfer, and export
+      surfaces are support unless they prove that annular payment, a legal in-class
+      nonsmooth third branch, or failure of terminal CM entry / finite-failure exhaustion
+      / CM contrapositive embedding.'
     paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
       "problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md",
       "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md",
       "problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md"]'
-    safe_claim_boundary: The corrected active gate is one referee gate with Gold/Silver
-      paths, not two gates. Gold names the tried forward-positive supplier path to
-      TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A. Silver
-      is the accepted exhaustive CM contrapositive branch-table resolution through
-      CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A.
-    source_excerpt: |-
-      The corrected active gate is one referee gate with Gold/Silver paths, not two gates. Gold names the tried forward-positive supplier path to TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A. Silver is the accepted exhaustive CM contrapositive branch-table resolution through CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A.
-      CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A
-  promoted_obligation_count: 8
-  missing_promoted_obligation_count: 8
-  missing_promoted_obligations:
-  - obligation_id: marvin-upstream-eb3fabeeac46
-    label: 'Define or prove: Reduced the live Navier-Stokes route stack against the
-      Clay whole-space target into exact source-backed ingredients already present
-      on the lane. On the classical side, isolated the mixed-jet system, the exact
-      rung-level can'
-    recommended_stage: object-formalization
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T014725Z-6ece27230fc9.md
-  - obligation_id: marvin-upstream-ada9835aa864
-    label: 'Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha
-      u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra
-      property and the order-1 Calderon-Zygmund bound for the pressure operator,'
-    recommended_stage: object-formalization
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T015459Z-d5f90422800c.md
-  - obligation_id: marvin-upstream-6d929e8a052a
-    label: 'Define or prove: Added three theorem-facing reductions on the Navier-Stokes
-      lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact
-      whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2,
-      red'
-    recommended_stage: object-formalization
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T020719Z-04949830208e.md
-  - obligation_id: marvin-upstream-954339945793
-    label: 'Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md:
-      under the exact strict-shadow identities already present on the lane, ShadowDef(X)
-      and E_sh(X) vanish identically, so the exact Route '
-    recommended_stage: object-formalization
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T020853Z-1ed78e356031.md
-  - obligation_id: marvin-upstream-96892bab139f
-    label: 'Define or prove: Added two new theorem-facing reductions on the Clay whole-space
-      target.'
-    recommended_stage: object-formalization
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260405T022825Z-ed5d2bb9bea4.md
-  - obligation_id: marvin-upstream-409f183ee495
-    label: 'Define or prove: Completed the Hopf/shuffle line as a theorem-program
-      refinement. The correct algebraic fit for the time tower is the divided-power
-      Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle'
-    recommended_stage: object-formalization
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260407T191622Z-e3045e4591c9.md
-  - obligation_id: marvin-upstream-c8f7cb511776
-    label: 'Define or prove: Formalized the refined direct Lagrangian route as a six-lemma
-      mainline: differentiated Lagrangian decomposition, deformation-adapted energy,
-      ellipticity window, coefficient-commutator absorption, no-loss pressure recovery, '
-    recommended_stage: object-formalization
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260407T194404Z-c14350fd2eb1.md
-  - obligation_id: marvin-upstream-e2f5b0a915cf
-    label: 'Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md
-      with a geometry-testing ladder for the elliptic test field W_test = A^T grad
-      Phi solving -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three
-      rungs: (1) ene'
-    recommended_stage: object-formalization
-    source_path: system/meta/research-os/promotions/navier-stokes/capture-20260407T201618Z-94497e50e8c4.md
-  route_authority_candidate_count: 48
+  promoted_obligation_count: 0
+  missing_promoted_obligation_count: 0
+  missing_promoted_obligations: []
+  route_authority_candidate_count: 0
   missing_route_authority_candidate_count: 0
   missing_route_authority_candidates: []
   promoted_proof_packet_count: 0
-  route_authority_candidates:
-  - directive_id: marvin-route-authority-4
-    headline: Research OS Theorem Packet
-    requested_frontier: 'Theorem packet: Added four theorem-construction reductions.
-      (1) strict-shadow-no-remainder-corollary.md: under the exact strict-shadow identities
-      already present on the lane, ShadowDef(X) and E_sh(X) vanish identically, so
-      the exact Route A'
-  - directive_id: marvin-route-authority-5
-    headline: Research OS Theorem Packet
-    requested_frontier: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
-  - directive_id: marvin-route-authority-6
-    headline: Research OS Route Pivot
-    requested_frontier: 'Live task: Completed the Hopf/shuffle line as a theorem-program
-      refinement. The correct algebraic fit for the time tower is the divided-power
-      Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
-      or sy'
+  route_authority_candidates: []
   compiled_import_summary:
-    bucket_counts:
-      local-discharge-support: 130
+    bucket_counts: {}
     route_slot_labels: []
-  alignment_reroute: route-synthesis
+  alignment_reroute: solver-loop
 local_derivation:
-  status: cm-referee-gate-passed-with-gold-silver-paths
+  status: locally-exhausted
   required_packet_count: 0
   required_packets: []
-  leadership_status: aligned
+  leadership_status: leading
   net_new_local_theorem_count: 8
-  recommended_next_cell_type: theorem-work
+  recommended_next_cell_type: theorem-creation
 cross_lane_broadcast:
-  status: no-broadcast-needed
-  local_consequence_count: 0
-  local_consequences: []
+  status: publish-local-delta
+  local_consequence_count: 8
+  local_consequences:
+  - label: 'ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve
+      surplus with zero first moment cannot remain hidden: the signed-pair normal
+      form either exposes same-ledger active height flux, pays by ASAC / positive
+      pair-weight charge, produces a Pack, Part, or licensed Field face through the
+      named same-ledger failure mechanism, or reduces to TerminalSignedSaturation.A,
+      whose failure is already CM Part/Field-reduction support. This supplies the
+      exact noncircular bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A
+      converting positive square-reserve surplus into active height flux or Pack/that
+      Part/Field failure..'
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md
+  - label: CSP.A. On the retained same-fluid collar, LCI.A together with the installed
+      post-LCI source ledger FCI.5f supplies the collar source-pressure package; OFP.A,
+      CFI.A, endpoint readout, and Field remain downstream consumers, with Member
+      following only after the CM witness certificate.
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/csp-a-theorem-creation-20260522.md
+  - label: 'HeightFluxControl.A. Turn the remaining positive source-reserve birth
+      charge into the first proof-facing sampling theorem: a first large retained
+      height-flux event must create Pack gain, Part/dwell failure, legal Field source
+      charge, or a Zeno terminal residue atom. This supplies the exact noncircular
+      bridge needed for Create the recursive theorem subprimitive HeightFluxControl.A
+      exposed by the previous theorem-creation packet, instead of mutating a neighboring
+      route..'
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260523.md
+  - label: 'HeightFluxControl.A. Turn the remaining positive source-reserve birth
+      charge into the first proof-facing sampling theorem: a first large retained
+      height-flux event must create Pack gain, Part/dwell failure, legal Field source
+      charge, or a Zeno terminal residue atom. This supplies the exact noncircular
+      bridge needed for Create the native theorem route HeightFluxControl.A after
+      the supplier chain PositiveRemainderDepletion.A stopped serving the source-reserve
+      CM-exit target..'
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/heightfluxcontrol-a-theorem-creation-20260525.md
+  - label: LCI.A. On a retained same-fluid interval with bounded Pack gauge and the
+      ordered ACT.KX receiver package installed, ACT.X-Readout gives ACT.A, ACT.A
+      gives RCF.A through the transported-center residual package, and ULCI.A/DTC.C
+      yields lower-carrier interval integrability; FCI.5f, CSP.A, OFP.A, CFI.A, endpoint
+      readout, and Field remain downstream consumers, with Member downstream of the
+      CM witness certificate.
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/lci-a-theorem-creation-20260522.md
+  - label: OFP.A. The collar source-pressure package CSP.A propagates the retained
+      one-field package on the same-fluid interval, with CFI.A, endpoint readout,
+      and Field kept downstream; Member is downstream of the CM witness certificate.
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/ofp-a-theorem-creation-20260522.md
+  - label: ParabolicEdgeResistance.A. After signed-current localization and boundary
+      pricing, the cycle heat action controls the parabolic edge resistance required
+      by the live frontier.
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/parabolicedgeresistance-a-theorem-creation-20260506.md
+  - label: RetainedFaceAmplitudeGain.A. Any retained field-face amplitude gain admissible
+      for the CM contrapositive route is recorded first as a Pack_Q gain event and
+      transported through Part_{N,Q} without importing Field_{N,r,Q} or Member(Q)
+      as a premise.
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/retainedfaceamplitudegain-a-theorem-creation-20260506.md
   broadcast_paths:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
@@ -792,85 +171,56 @@ cross_lane_broadcast:
   - problems/navier-stokes/dependency-discharge.yaml
   - problems/navier-stokes/object-formalization.yaml
 auditor:
-  status: blocked-theorem-open
-  audit_status: cm-referee-gate-passed-with-gold-silver-paths
-  branch_terminal_status: cm-referee-gate-passed-with-gold-silver-paths
-  open_issue_count: 1
+  status: needs-attention
+  audit_status: audited-needs-fix
+  branch_terminal_status: terminal-audit-open
+  open_issue_count: 3
   autofixable_issue_count: 0
   fix_plan_count: 0
-  branch_count: 0
+  branch_count: 5
   live_import_count: 0
-  route_equivalence_count: 0
+  route_equivalence_count: 5
   death_certificate_count: 0
   unresolved_branch_terminal_count: 0
 frontier_projection:
-  status: frontier-open
+  status: ready
   primary_target:
-    obligation_id: release-exactness-and-manuscript-refresh
-    kind: direct-live-authority
-    label: CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A
-    status: cm-referee-gate-passed-with-gold-silver-paths
+    obligation_id: signed-smooth-same-packet-commutator-coercivity
+    kind: live-theorem-frontier
+    label: SignedSmoothSamePacketCommutatorCoercivity.A
+    status: frontier-open
+    recommended_stage: theorem-creation
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
-    exact_live_theorem_grade_burden: *1
-  one_step_beyond: []
-  two_steps_beyond: []
-  route_pressure:
-  - headline: Research OS Theorem Packet
-    requested_frontier: 'Theorem packet: Added four theorem-construction reductions.
-      (1) strict-shadow-no-remainder-corollary.md: under the exact strict-shadow identities
-      already present on the lane, ShadowDef(X) and E_sh(X) vanish identically, so
-      the exact Route A'
-  - headline: Research OS Theorem Packet
-    requested_frontier: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
-  recommended_next_cell_type: theorem-work
-  target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
-  target_preflight: *2
-  target_lock_schema: *3
-  proof_program_topology: *4
-  open_root_group: *5
-  exact_live_theorem_grade_burden: *1
-  release_or_respawn_consequence: *6
-  forward_positive_surface_quarantine: *7
-  non_merge_rules: *8
-  authority_hierarchy: *9
-  mode_selection_protocol: *10
+  one_step_beyond:
+  - label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
+    recommended_stage: theorem-creation
+  two_steps_beyond:
+  - label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
+    recommended_stage: theorem-creation
+  route_pressure: []
+  recommended_next_cell_type: theorem-creation
 summary:
-  phase: theorem-work
-  execution_state: blocked-theorem-open
-  leadership_status: aligned
-  alignment_complete: false
-  theorem_authority_gate_all_discharged: true
+  phase: frontier-projection
+  execution_state: actively-working
+  leadership_status: leading
+  alignment_complete: true
+  theorem_authority_gate_all_discharged: false
   authority_gate_mode: direct-live-surfaces
-  authority_gate_blocking_count: 1
-  proof_assembly_open_obligation_count: 1
+  authority_gate_blocking_count: 5
+  proof_assembly_open_obligation_count: 5
   authoritative_source_gap_count: 0
   export_readiness_hold_state: none
   exact_local_packet_count: 0
   net_new_local_theorem_count: 8
-  projected_frontier_count: 0
-  current_open_obligation_count: 1
-  open_obligations_state: frontier-open
-  theorem_work_blocked: true
+  projected_frontier_count: 2
+  current_open_obligation_count: 5
+  open_obligations_state: active-work
+  theorem_work_blocked: false
   blocked_queue_interpretation: none
   on_recommended_track: true
-  recommended_next_cell_type: theorem-work
-  audit_status: cm-referee-gate-passed-with-gold-silver-paths
-  branch_terminal_status: cm-referee-gate-passed-with-gold-silver-paths
-  unresolved_branch_terminal_count: 1
-  current_next_cell_type: theorem-work
+  recommended_next_cell_type: theorem-creation
+  audit_status: audited-needs-fix
+  branch_terminal_status: terminal-audit-open
+  unresolved_branch_terminal_count: 0
+  current_next_cell_type: theorem-creation
   current_next_cell_is_theorem_work: true
-  direct_live_authority_all_discharged: false
-  one_frontier_count_is_not_one_path: true
-  open_root_diagnostic_presentation_count: 10
-  target_operating_contract_id: ns-target-operating-contract-v1
-target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
-target_preflight: *2
-target_lock_schema: *3
-proof_program_topology: *4
-open_root_group: *5
-exact_live_theorem_grade_burden: *1
-release_or_respawn_consequence: *6
-forward_positive_surface_quarantine: *7
-non_merge_rules: *8
-authority_hierarchy: *9
-mode_selection_protocol: *10
