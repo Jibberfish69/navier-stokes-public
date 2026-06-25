@@ -125,9 +125,14 @@ shape carrying the matching thinning/compression record.
 
 ## 3. Strain meaning
 
-At times where the ordered singular-value rates are differentiable, each
-`\dot\ell_i` is a principal material stretch rate.  Equivalently, for a
-material line element `\xi(t)=F(a,t)\xi_0`,
+At almost every time the ordered singular-value rates are differentiable.  At
+simple singular values, each `\dot\ell_i` is the strain of the corresponding
+Eulerian principal stretch direction.  At multiple singular values, the ordered
+rates are the a.e. eigenvalue derivatives inside the same singular subspace.
+The positive/negative pairing `(SVP.10)` only uses the zero-sum identity and
+does not depend on choosing a smooth singular frame.
+
+For any material line element `\xi(t)=F(a,t)\xi_0`,
 
 ```math
 {d\over dt}\log|\xi(t)|
@@ -208,4 +213,3 @@ finite continuation-depth tower records.
 Therefore the physical spike-wave picture removes detached-pulse and
 center-only readings, but the remaining theorem is still the finite rectified
 same-material force-action/material-record variation for the original history.
-
