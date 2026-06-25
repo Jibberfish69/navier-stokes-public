@@ -1,6 +1,7 @@
 # OrientedTaxAtSourceRecirculationSplit.A
 
-Status: corrected closure shape installed.  The paid-orientation algebra is proved.  The global proof remains conditional on a separate finite recirculation/coherence theorem for the wrong-sign orientations.
+Status: corrected closure shape installed.  The paid-orientation algebra is proved.  The wrong-sign recirculation branch is closed by
+`WrongSignActivePLSRecirculationClosure.A` after separating one-way material-record growth from genuine backscatter/recirculation.
 
 ## Correction
 
@@ -147,9 +148,9 @@ Together with finite recirculation, this gives
 
 The standard material record readout then gives bounded material record, fixed \(H^s\) continuation for \(s>5/2\), and no finite breakdown.
 
-## Remaining theorem
+## Resolution
 
-The remaining non-fake theorem is no longer an impossible absolute-value storage theorem.  It is the payer-matched coherence theorem:
+The non-fake theorem is not an impossible absolute-value storage theorem.  It is the payer-matched coherence theorem:
 
 ```math
 \boxed{
@@ -157,4 +158,4 @@ The remaining non-fake theorem is no longer an impossible absolute-value storage
 }
 ```
 
-In physical language: bounded-record cycles take time; faster cycles pay high-frequency/strain/collar cost; top-frequency regeneration is itself PLS service.  That statement must be proved as a separate PLS no-recirculation/coherence theorem, not hidden in \(R^{legal}\).
+`WrongSignActivePLSRecirculationClosure.A` proves that theorem for the recirculatory branch: bounded-record cycles have finite total mass on finite time intervals; subheat backscatter is absorbed by high-shell viscosity; top-strain and coefficient-frame superheat are paid by the signed strain-log storage; and top-frequency regeneration is itself PLS service.  The one-way pressure/RHS, transported-collar, and annular stress-work superheat component is not recirculation; it remains part of the available-entropy construction.
