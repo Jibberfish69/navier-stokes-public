@@ -73,8 +73,8 @@ history,
 \tag{RAF.4}
 ```
 
-The sampled form is not a separate stack of possible events.  It is only a
-coordinate accounting of the same solution history, including the candidate
+The sampled form is not a detached collection of possible events.  It is only
+a coordinate accounting of the same solution history, including the candidate
 spike's height/width evolution and the outer annular stress/strain return.
 
 This note attacks `(RAF.3)` directly, with `(RAF.4)` as its sampled form.
