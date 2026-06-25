@@ -41,13 +41,17 @@ For increasing continuation-depth weights \(w_j\),
 \tag{NFU.4}
 ```
 
-This proves attachment: every upward weighted gain has a same-fluid donor partner.  It does not prove finite rectified action, because the two-shell model
+This proves attachment: every upward weighted gain has a same-fluid donor partner.  It does not prove finite one-way action from original data.  The toy two-shell model
 
 ```math
 E_H'=b(t),\qquad E_L'=-b(t),\qquad E_H+E_L=E_0
 ```
 
-allows finite net reservoir with unbounded \(\int[b]_+dt\) unless a no-recirculation/upcrossing toll is added.
+is only the warning that signed cancellation is weaker than rectified
+variation.  The recirculatory interpretation of that model has already been
+spent by the PLS recirculation packing closure.  The remaining branch is
+positive upcrossing which becomes one-way continuation-depth material-record
+growth.
 
 ## 2. Shell-potential attempt
 
@@ -113,9 +117,9 @@ A positive free-material shell-transfer event can be classified as:
 3. annular/interface service;
 4. legal/collar exit;
 5. recirculatory return;
-6. unresolved graph-compatible shell-transfer upcrossing.
+6. unresolved one-way graph-compatible shell-transfer upcrossing.
 
-Items 1--5 are paid by installed or separately finite clocks.  Item 6 is exactly `(NFU.1)`.  The current installed identities show that item 6 is same-material and signed-attached; they do not rule out arbitrary repeated rectified upcrossing of the same finite reservoir.
+Items 1--5 are paid by installed or separately finite clocks.  Item 6 is exactly `(NFU.1)`.  The current installed identities show that item 6 is same-material and signed-attached; they do not prove a finite total bound for one-way upcrossing of the continuation-depth material record.
 
 ## Verdict
 
