@@ -14,7 +14,7 @@ edge_effect: >-
   simultaneous four-body identity at level Nsharp is circular unless the
   same-packet defect envelope/summability theorem is already installed. Thus the
   route contributes a corrected conditional theorem, not a new independent
-  producer. The live burden remains SimultaneousMaterialFourBodyPacketCoercivity.A
+  clock estimate. The live burden remains SimultaneousMaterialFourBodyPacketCoercivity.A
   through the same-packet interface-defect envelope.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-moving-symmetrizer-log-variation-absorption-20260622.md
@@ -293,7 +293,7 @@ The finite inflation \(N^\sharp>N\) is fixed by the chosen \(N\)-rung Hilbert
 packet: scale differentiation contributes scaling derivatives, one time
 derivative, and the viscous second spatial derivative.
 
-## 4. The actual producer needed
+## 4. The actual estimate needed
 
 The useful estimate in the supplied proof is exactly this:
 
@@ -446,7 +446,7 @@ inputs in `(OGL.27)` are genuinely proved.
 ## 7. Current proof state after the check
 
 The attachment is therefore useful, but it does not add an independent gold
-supplier.
+estimate.
 
 What is already installed:
 
