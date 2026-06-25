@@ -14,7 +14,7 @@ Construct a same-material storage \(\mathfrak L_N\) and a finite residual measur
 R_N((0,T^*))<\infty.
 ```
 
-Here \(\Theta_N\) is the full moving same-material service carrier of the original transported Navier-Stokes history: pressure-strain interface, pressure/RHS coordinate, coefficient/frame service, transported collar/interface service, and the continuation-depth material record growth coordinate.
+Here \(\Theta_N\) is the full moving same-material service carrier of the original transported Navier-Stokes history: the participation-law-strain interface, pressure/RHS coordinate, coefficient/frame service, transported collar/interface service, and the continuation-depth material record growth coordinate.
 
 ## 1. The storage statement implies the desired L1 clock
 
@@ -95,7 +95,7 @@ The top positive strain logarithmic storage pays the selected top-strain superhe
 \nabla_x\phi=A^T\nabla_a\psi,
 ```
 
-it also pays coefficient-frame and base transported-collar motion. This covers those coordinates of \(\Theta_N\). It leaves the moving pressure-strain/Hodge-interface rectified service.
+it also pays coefficient-frame and base transported-collar motion. This covers those coordinates of \(\Theta_N\). It leaves the moving participation-law-strain rectified service.
 
 ### Hodge/Stokes shell storage
 
@@ -115,7 +115,7 @@ The current repo surfaces identify the required theorem as the signed smooth sam
 +dR^0_{N,m}.
 ```
 
-Equivalently, in the moving material interface language, prove finite rectified variation of the signed same-shell pressure-strain pump:
+Equivalently, in the moving material interface language, prove finite rectified variation of the signed same-shell participation-law-strain pump:
 
 ```math
 \int_0^{T^*}\sum_j [m_j(t)]_+dt<\infty.
@@ -142,7 +142,7 @@ They leave one live finite-total estimate:
 ```math
 \boxed{
 \text{construct a bounded-below same-material cross-storage }X_{comm,N}
-\text{ paying the positive moving pressure-strain/Hodge-interface service.}
+\text{ paying the positive moving participation-law-strain service.}
 }
 ```
 
