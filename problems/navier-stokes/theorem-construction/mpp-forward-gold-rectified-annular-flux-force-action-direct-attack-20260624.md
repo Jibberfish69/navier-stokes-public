@@ -13,7 +13,7 @@ edge_effect: >-
   history has finite rectified annular force-action variation around the
   candidate terminal spike concentration. Heat-scale windows are used only as
   bounded-overlap samplings of that same material history, not as independent
-  annular-stack events. The note also proves that ordinary energy/dissipation
+  annular events. The note also proves that ordinary energy/dissipation
   alone is too low-order to control this force-action variation.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-annular-flux-derivative-gauge-quotient-correction-20260624.md
