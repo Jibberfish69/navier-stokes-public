@@ -113,16 +113,23 @@ a_N>0,
 \tag{DTM.8}
 ```
 
-where \(B_N\) contains lower-order or legal terms already controlled on the
-interval under the retained smooth preterminal solution.  Combining
-`(DTM.7)` and `(DTM.8)` gives the local continuation-type envelope
+where \(B_N\) contains lower-order or legal density terms already controlled on
+the interval under the retained smooth preterminal solution.  On the smooth
+prelimit interval write the absolutely continuous part of the legal residual as
+
+```math
+dR_N^0=\rho_N^0(t)\,dt .
+\tag{DTM.9a}
+```
+
+Combining `(DTM.7)` and `(DTM.8)` gives the local continuation-type envelope
 
 ```math
 {d\over dt}Y_N(t)
 \le
 C_NY_N(t)^{1+a_N}
 +C_NB_N(t)Y_N(t)
-+dR_N^0\,Y_N(t).
++C_N\rho_N^0(t)Y_N(t).
 \tag{DTM.9}
 ```
 
@@ -131,8 +138,9 @@ the current material record height.
 
 ## 2. The resulting doubling-time lower bound is record-dependent
 
-Ignore the lower-order \(B_N\) and legal terms for the strongest possible local
-time-gap test.  If
+Ignore the lower-order \(B_N\) and legal densities for the cleanest possible
+local time-gap test.  Adding positive service can only shorten the lower-bound
+model; it cannot turn a record-dependent lower bound into a uniform one.  If
 
 ```math
 {dY\over dt}\le C\,Y^{1+a},
