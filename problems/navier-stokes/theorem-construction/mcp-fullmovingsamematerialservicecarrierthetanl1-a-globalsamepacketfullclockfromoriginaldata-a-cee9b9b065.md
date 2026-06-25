@@ -77,7 +77,7 @@ d[\log(1+\mathcal P_N^{mat})]_+
 
 This says the service clock controls material record growth. It does not give an upper bound on the service clock from original data.
 
-The Hodge/Stokes shell route pays the constraint-normal pressure overcount and pays Hodge selector/top-strain motion. The later overclaim correction leaves the full pressure-RHS / annular stress interface service as the same remaining moving interface, rather than producing a finite total clock.
+The Hodge/Stokes shell route pays the constraint-normal pressure overcount and pays Hodge selector/top-strain motion. The later overclaim correction leaves the full participation-law-strain service as the same remaining moving interface, rather than producing a finite total clock.
 
 The pressure elliptic operator route identifies the service as one material operator/RHS/collar variation:
 
