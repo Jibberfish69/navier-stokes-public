@@ -4,14 +4,14 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-06-24T01:39:39Z'
+  generated_at: '2026-06-25T01:33:19Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_proof_assembly_id: proof-assembly-navier-stokes
 intervention:
   reason: frontier-expansion
-  review_posture: ''
+  review_posture: blocked
   boundary_rule: Everything beyond the grounded core is machine extension until it
     survives falsification and promotion.
   provenance_rule: Machine-generated branches remain speculative until they survive
