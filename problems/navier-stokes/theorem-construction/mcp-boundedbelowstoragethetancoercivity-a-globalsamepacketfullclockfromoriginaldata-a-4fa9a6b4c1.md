@@ -134,7 +134,7 @@ Attachment alone permits rectified recirculation. A bounded-below cross-storage 
 The requested storage theorem has the exact strength of the finite full moving service clock. Current installed surfaces provide:
 
 ```math
-\text{same-fluid attachment, fixed-annulus L1, fixed-collar L1, top-strain storage, Hodge constraint correction, pressure/RHS interface identification.}
+\text{same-fluid attachment, fixed-annulus L1, fixed-collar L1, top-strain storage, Hodge constraint correction, participation-law interface identification.}
 ```
 
 They leave one live finite-total estimate:
