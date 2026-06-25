@@ -727,7 +727,7 @@ Consequently the full stress-time term admits the same-packet spatial reduction
 ```math
 |U|\,|D_tT^\sharp|\,|\nabla\phi|
 \lesssim
-|U|\,|\nabla\mathcal R\mathcal R\mathcal E_P|\,|\nabla\phi|
+|U|\,|\nabla(-\Delta)^{-1}\mathcal E_P|\,|\nabla\phi|
 +
 |\nabla\cdot T^\sharp|\,|U|\,|\nabla^2\phi|
 +
@@ -762,7 +762,7 @@ where
 :={}&
 |\nabla\cdot T^\sharp|\,|T^\sharp|\,|\nabla\phi|
 +
-|U|\,|\nabla\mathcal R\mathcal R\mathcal E_P|\,|\nabla\phi|\\
+|U|\,|\nabla(-\Delta)^{-1}\mathcal E_P|\,|\nabla\phi|\\
 &+
 |\nabla\cdot T^\sharp|\,|U|\,|\nabla^2\phi|
 +
