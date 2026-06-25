@@ -7,11 +7,11 @@ edge_effect: >-
   material annuli. For incompressible Navier-Stokes, the internal force-action
   \(T:S\) is exactly \(2\nu|S|^2\); pressure contributes to boundary transfer
   between material shells but does no internal volumetric work. Therefore a
-  bounded-overlap material annular atlas has finite internal stress/strain
-  action directly from the global energy inequality. The remaining live issue
-  is the admission of terminal center growth into this internal annular
-  strain-action record rather than into naked rectified boundary pressure
-  flux.
+  bounded-overlap material annular atlas has finite raw internal stress/strain
+  action directly from the global energy inequality. This is a necessary
+  ontology correction, not the full smoothness producer: the taller-than-
+  self-similar superheat profile can still have finite raw strain action while
+  failing the stronger continuation-depth material clock.
 parents:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-direct-full-clock-original-history-attempt-20260625.md
@@ -113,8 +113,8 @@ C\|u_0\|_2^2 .
 \tag{CSP.7}
 ```
 
-This proves finite rectified internal stress/strain action for the original
-material history:
+This proves finite rectified raw internal stress/strain action for the
+original material history:
 
 ```math
 \boxed{
@@ -135,15 +135,12 @@ strain action.  Across the surrounding material annulus, the same boundary
 traction is the opposite side of the same shell exchange, while the internal
 force-action is exactly the finite strain action `(CSP.8)`.
 
-Thus the admissible gold route is:
+Thus the admissible gold route keeps two distinct but coupled quantities:
 
 ```math
-\text{terminal center growth}
-\longrightarrow
-\text{same-material annular stress exchange}
-\longrightarrow
-\text{internal strain action }2\nu|S|^2
-\text{ plus bounded storage}.
+\text{boundary traction exchange}
+\quad\text{and}\quad
+\text{internal strain action }2\nu|S|^2 .
 \tag{CSP.9}
 ```
 
@@ -151,19 +148,31 @@ The pressure channel remains coupled because it determines the boundary
 traction exchange in `(CSP.6)`, but incompressibility prevents pressure from
 becoming a separate internal force-action reservoir.
 
-## 5. Remaining exact admission point
+## 5. Why this does not close the superheat clock
 
-The internal action bound `(CSP.8)` is closed.  The remaining theorem is the
-admission step:
+The internal action bound `(CSP.8)` is closed, but it is the raw \(L^2\)-strain
+action.  The sharpened superheat profile test shows why that is not enough.
+For the threshold profile
 
 ```math
-\text{the terminal center pulse of the original material history}
-\quad
-\text{is controlled by}
-\quad
-\text{same-material annular stress exchange whose internal action is }(CSP.8).
+H(w)\sim w^{-13/10},
 \tag{CSP.10}
 ```
 
-That admission step must use the transported material identity `(CSP.6)`, not
-a center-only endpoint projection and not a detached pressure-only estimate.
+the heat-window raw strain action scales like
+
+```math
+w^2D_w\sim w^2w^{-8/5}=w^{2/5},
+\tag{CSP.11}
+```
+
+which is summable along dyadic \(w\).  The stronger strain-superheat clock is
+
+```math
+w^2D_w^{5/4}\sim 1.
+\tag{CSP.12}
+```
+
+So finite raw stress/strain action does not rule out the first superheat
+profile.  The remaining theorem must control the stronger same-material
+superheat residence, not only the raw Cauchy stress power.
