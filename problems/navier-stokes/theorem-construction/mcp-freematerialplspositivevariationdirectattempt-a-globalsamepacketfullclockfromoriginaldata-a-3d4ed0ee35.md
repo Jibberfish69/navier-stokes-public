@@ -79,7 +79,7 @@ C\,dD_N^{vis}
 
 Current installed inputs prove the recirculation and several service absorptions, but they do not prove `(FMP.6)` as a complete rectified shell-transfer inequality.
 
-## 3. Two-shell obstruction remains unless no-free-upcrossing is proved
+## 3. What remains after recirculation is already paid
 
 The algebraic model
 
@@ -87,21 +87,33 @@ The algebraic model
 E_H'(t)=b(t),\qquad E_L'(t)=-b(t),\qquad E_H+E_L=E_0
 ```
 
-shows why signed conservation alone cannot bound
+shows only why signed conservation alone cannot bound
 
 ```math
 \int[b(t)]_+dt.
 ```
 
-Viscosity and strain can break this obstruction only if each positive transfer has a quantitative residence/upcrossing toll.  That toll is precisely `(FMP.6)`.  It is not a consequence of the signed donor law alone.
+That warning is not the live oscillatory branch.  The later PLS
+recirculation packing theorem has already routed bounded-record cycling,
+accelerated backscatter, superheat recirculation, and top-shell regeneration
+into viscosity, top-strain/frame service, annular/interface service, or legal
+residual.  After that closure, the remaining branch is one-way upcrossing:
+positive free-material PLS transfer which raises the continuation-depth
+material record without returning as a recirculatory exchange.
+
+Thus `(FMP.6)` should be read as a no-free-upcrossing estimate for this
+one-way branch, not as a request to re-prove the already-spent
+no-recirculation theorem.  It is not a consequence of the signed donor law
+alone.
 
 ## 4. Result
 
-The pressure/collar graph replacement sharpens the final open theorem to the free-material no-free-upcrossing theorem:
+The pressure/collar graph replacement sharpens the final open theorem to the
+free-material one-way no-free-upcrossing theorem:
 
 ```math
 \boxed{
-\text{Every positive free-material PLS shell-transfer event is paid by viscosity, top-strain/frame residence, annular/interface service, legal residual, or already-finite recirculation.}
+\text{Every one-way positive free-material PLS upcrossing is paid by viscosity, top-strain/frame residence, annular/interface service, legal residual, or already-finite recirculation.}
 }
 \tag{FMP.7}
 ```
