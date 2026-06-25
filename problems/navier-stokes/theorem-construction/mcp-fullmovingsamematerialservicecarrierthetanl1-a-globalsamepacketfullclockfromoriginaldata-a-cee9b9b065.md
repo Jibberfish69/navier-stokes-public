@@ -10,7 +10,7 @@ Prove, for the original smooth Navier-Stokes material history up to a finite can
 \int_0^{T^*}\Theta_N(t)\,dt<\infty .
 ```
 
-Here `Theta_N` is the full moving same-material service carrier for the continuation-depth material record. It contains the positive moving pressure-strain / pressure-RHS / coefficient / transported-collar / Hodge-interface service on the original material history. It is stronger than a fixed finite collar coefficient and stronger than raw viscous stress power.
+Here `Theta_N` is the full moving same-material service carrier for the continuation-depth material record. It contains the positive moving participation-law-strain service on the original material history: pressure/RHS, coefficient/frame, transported collar, Hodge interface, viscosity, incompressibility, and velocity remain one coupled packet. It is stronger than a fixed finite collar coefficient and stronger than raw viscous stress power.
 
 ## Known installed inputs used
 
@@ -97,7 +97,7 @@ The proof reduces to the following missing theorem:
 \boxed{
 \text{There exists a bounded-below same-material Lyapunov/coercivity storage}
 \ \mathfrak L_N
-\text{ whose decrease pays the positive moving pressure-strain/Hodge-interface service.}
+\text{ whose decrease pays the positive moving participation-law-strain service.}
 }
 ```
 
@@ -121,4 +121,4 @@ The unconditional proof of
 \int_0^{T^*}\Theta_N(t)dt<\infty
 ```
 
-is not obtained from the current installed inputs. The exact next theorem is the bounded-below same-material Lyapunov/coercivity law for the remaining positive moving pressure-strain/Hodge-interface service.
+is not obtained from the current installed inputs. The exact next theorem is the bounded-below same-material Lyapunov/coercivity law for the remaining positive moving participation-law-strain service.
