@@ -25,6 +25,57 @@ Z_N=(q,C_N)=\Gamma_N(Y_N)+W_N
 
 keeps the pressure/collar material record controlled by free material graph drivers plus the Schur relative defect.  The exact global graph makes \(W_N=0\); localized harmonic/collar pieces are interface/legal bookkeeping.
 
+The material elliptic graph-driver reduction closes the pressure/collar sector
+of this graph-compatible clock.  Differentiating
+
+```math
+q=L_G^{-1}R(Y_N)
+```
+
+gives
+
+```math
+\dot q=L_G^{-1}\dot R-L_G^{-1}(\dot L_G)q.
+```
+
+The operator term is strain/frame service because
+
+```math
+\dot G=-2ASA^\top.
+```
+
+The RHS term
+
+```math
+R=A_{\ell i}A_{kj}\partial_\ell v_j\partial_kv_i
+```
+
+differentiates into coefficient terms, viscous terms, and the pressure-Hessian
+feedback.  The coefficient terms are strain/frame service, the viscous terms
+are \(dD_N^{vis}\) plus legal collar residue, and the pressure-Hessian feedback
+is the strain-equation coordinate
+
+```math
+D_tS+S^2+\Omega^2+\nabla^2p=\nu\Delta S.
+```
+
+The collar graph differentiates through \(A,G,\phi,\mathbb P_A\); transported
+cutoff motion is base collar/frame service and projector motion is
+Hodge/Stokes service.  Therefore
+
+```math
+d\Omega_N^{press/RHS}+d\Omega_N^{collar}
+\le
+C_N d\Omega_N^{rel.defect}
++C_N(d\Omega_N^{strain/frame}
++d\Omega_N^{Hodge/Stokes}
++d\Omega_N^{collar/base}
++dD_N^{vis})
++dR_N^{legal}.
+```
+
+So pressure/collar is no longer a standalone frontier after graph replacement.
+
 Coefficient-frame service is paid by top-strain log storage.  Annular stress-work has bounded-below storage.  Wrong-sign recirculation is finite.
 
 ## Remaining free-material branch
