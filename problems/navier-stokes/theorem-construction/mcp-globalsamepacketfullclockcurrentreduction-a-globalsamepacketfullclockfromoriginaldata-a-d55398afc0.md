@@ -1,7 +1,7 @@
 # GlobalSamePacketFullClockCurrentReduction.A
 
 Status: refined after center-to-annulus tail identification.  The rigid
-terminal source residue is a full-clock tail readout, not a separate producer.
+terminal source residue is a full-clock tail readout, not a separate theorem.
 
 ## Target
 
@@ -40,7 +40,7 @@ Return is covered by the installed recirculation closure.  Fresh events require 
 The older reduction named the unresolved branch as a rigid strain-aligned
 terminal concentration with finite \(L^1_s\) mass and no installed temporal
 thickness estimate.  The center-to-annulus identity sharpens that statement.
-That terminal concentration is not an independent clock producer.  It is the
+That terminal concentration is not an independent clock theorem.  It is the
 terminal tail readout of the same transported annular PLS clock.
 
 For the transported center cutoff,
@@ -64,7 +64,8 @@ C\int_{T_*-\Theta(\theta)}^{T_*}d\Omega_N^{PLS,graph}.
 Therefore finite full graph-compatible PLS clock implies the terminal
 anti-atom immediately.  Conversely, a surviving rigid terminal atom is exactly
 a failure of absolute continuity for the tail of the same full clock.  It is a
-consumer/readout of the missing producer, not a smaller replacement producer.
+consumer/readout of the finite-action theorem, not a smaller replacement
+theorem.
 
 The model
 
@@ -78,7 +79,8 @@ the finite tail of \(d\Omega_N^{PLS,graph}\) itself.
 
 ## Live equivalent targets
 
-The remaining theorem must supply the full-clock producer directly:
+The remaining theorem is the finite rectified action statement for the existing
+full clock:
 
 ```math
 \int_0^{T^*}d\Omega_N^{PLS,graph}<\infty,
@@ -110,7 +112,8 @@ packet.
 ## Verdict
 
 `GlobalSamePacketFullClockFromOriginalData.A` remains open.  The active strict
-Gold producer is the bounded-below full same-material PLS entropy / primitive
-graph-driver no-free-upcrossing theorem.  The rigid strain-aligned terminal
-atom is downstream evidence of failure of that clock tail, not a separate
-endpoint theorem that can close the route by itself.
+Gold theorem is finite rectified action of the full same-material PLS record,
+equivalently a bounded-below same-material PLS entropy or primitive graph-driver
+no-free-upcrossing law.  The rigid strain-aligned terminal atom is downstream
+evidence of failure of that clock tail, not a separate endpoint theorem that can
+close the route by itself.
