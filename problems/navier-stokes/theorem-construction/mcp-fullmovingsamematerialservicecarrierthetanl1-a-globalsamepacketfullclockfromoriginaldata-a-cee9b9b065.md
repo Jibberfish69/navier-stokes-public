@@ -107,11 +107,11 @@ Equivalently:
 \boxed{
 \int_0^{T^*}\Theta_N(t)dt<\infty
 \Longleftrightarrow
-\text{finite positive variation of the continuation-depth material record / full pressure-stress interface.}
+\text{finite positive variation of the continuation-depth material record / full participation-law-strain interface.}
 }
 ```
 
-The current repo surfaces install same-fluid attachment, fixed-annulus L1 tails, fixed-collar L1 service, pressure constraint correction, Hodge shell correction, and top-strain/coefficient/base-collar storage. They do not install the one-way global storage/coercivity law for the remaining moving pressure-RHS / annular stress interface.
+The current repo surfaces install same-fluid attachment, fixed-annulus L1 tails, fixed-collar L1 service, pressure constraint correction, Hodge shell correction, and top-strain/coefficient/base-collar storage. They do not install the finite-total estimate for the remaining moving participation-law-strain interface.
 
 ## Result
 
