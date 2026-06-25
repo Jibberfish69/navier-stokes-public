@@ -1,17 +1,19 @@
 ---
 theorem_id: forward-gold-bounded-material-record-excludes-infinite-action-cycles-20260625
-status: proof-installed-bounded-record-excludes-infinite-positive-action-cycles; global-record-growth-still-open
+status: proof-installed-bounded-record-excludes-infinite-positive-action-cycles-and-fixed-stack-flux-variation; global-record-growth-still-open
 logical_landing_node: global_same_packet_full_clock_from_original_data
 edge_effect: >-
   Proves the zero-record-growth part of the positive material action cycle
   problem. On the original smooth transported material history, if the
   continuation-depth material record remains bounded, then the full annular
-  pressure-stress-velocity action density is pointwise bounded and infinitely
-  many unit positive action cycles cannot accumulate before a finite T*. Hence
-  any failure of the global full material clock is not a bounded-record
-  oscillatory annular cycling problem; it must appear as positive growth of the
-  same material record itself. This preserves the physical ontology and removes
-  the fake arbitrary cycle obstruction without claiming the MPP is closed.
+  pressure-stress-velocity action density is pointwise bounded, infinitely many
+  unit positive action cycles cannot accumulate before a finite T*, and any
+  finite or summably weighted transported annular stack has finite rectified
+  flux variation under the same service clock. Hence any failure of the global
+  full material clock is not a bounded-record oscillatory annular cycling
+  problem; it must appear as positive growth of the same material record
+  itself. This preserves the physical ontology and removes the fake arbitrary
+  cycle/stack obstruction without claiming the MPP is closed.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-material-action-cycle-direct-attack-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-material-record-definition-for-fixed-hs-readout-20260623.md
