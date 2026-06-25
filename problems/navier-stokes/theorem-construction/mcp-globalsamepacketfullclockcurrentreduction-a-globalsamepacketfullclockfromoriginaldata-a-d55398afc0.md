@@ -1,6 +1,7 @@
 # GlobalSamePacketFullClockCurrentReduction.A
 
-Status: not discharged.  Current reduction after the graph-compatible pressure/collar replacement and the positive-source-control route tests.
+Status: refined after center-to-annulus tail identification.  The rigid
+terminal source residue is a full-clock tail readout, not a separate producer.
 
 ## Target
 
@@ -36,7 +37,34 @@ d\Omega_N^{free,+}=d\Omega_N^{return,+}+d\Omega_N^{fresh,+}.
 
 Return is covered by the installed recirculation closure.  Fresh events require a native birth-packing/no-reuse theorem.  Existing reductions pay inherited reserve, visible reserve, finite donor trees, non-Zeno refill, legal/projector/cutoff/boundary/off-family exits, angular/ASAC turnover, and already-counted recirculation.
 
-The unresolved branch is a rigid strain-aligned terminal concentration with finite \(L^1_s\) mass and no installed temporal thickness estimate.
+The older reduction named the unresolved branch as a rigid strain-aligned
+terminal concentration with finite \(L^1_s\) mass and no installed temporal
+thickness estimate.  The center-to-annulus identity sharpens that statement.
+That terminal concentration is not an independent clock producer.  It is the
+terminal tail readout of the same transported annular PLS clock.
+
+For the transported center cutoff,
+
+```math
+{d\over dt}M_C(t)
++2\nu\int\phi_C|S|^2\,dx
+=
+-\int u\cdot(-pI+2\nu S)\nabla\phi_C\,dx,
+```
+
+and the right-hand side is supported on the same transported annulus.  Hence
+the center endpoint defect satisfies
+
+```math
+\mu_C((T_*-\theta,T_*])
+\le
+C\int_{T_*-\Theta(\theta)}^{T_*}d\Omega_N^{PLS,graph}.
+```
+
+Therefore finite full graph-compatible PLS clock implies the terminal
+anti-atom immediately.  Conversely, a surviving rigid terminal atom is exactly
+a failure of absolute continuity for the tail of the same full clock.  It is a
+consumer/readout of the missing producer, not a smaller replacement producer.
 
 The model
 
@@ -44,26 +72,45 @@ The model
 g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
 ```
 
-still satisfies finite \(L^1_s\) control while violating every \(L^p_s\), \(p>1\), estimate.
+still explains why a mere finite \(L^1_s\) endpoint source measure is too weak.
+It does not define the live route after annular attachment.  The live route is
+the finite tail of \(d\Omega_N^{PLS,graph}\) itself.
 
 ## Live equivalent targets
 
-The remaining theorem must supply one of:
+The remaining theorem must supply the full-clock producer directly:
 
 ```math
-\text{TerminalSourceReverseHolder}_{B_ASAC-strain}.A,
+\int_0^{T^*}d\Omega_N^{PLS,graph}<\infty,
 ```
+
+or an equivalent bounded-below same-material entropy:
 
 ```math
-\text{UniformTemporalSourceIntegrability}_{p,B_ASAC-strain}.A,
+\exists\,\mathscr A_N(t)\ge -C_N(u_0)
+\quad\text{with}\quad
+d\mathscr A_N+c_Nd\Omega_N^{PLS,graph}\le dR_N^{legal},
+\qquad
+\int_0^{T^*}dR_N^{legal}<\infty.
 ```
+
+At the current primitive-driver level this is the same as finite positive
+variation of the low material coefficient itself:
 
 ```math
-\text{PositiveActiveCarlesonReserve.A},
+\int_0^{T^*}
+\|\mathcal M_{<j-C,N}(t)\|_{\mathcal X_N}^{+,\mathrm{rect}}\,dt
+<\infty,
 ```
 
-or an equivalent class-specific terminal-residue exclusion theorem.
+with pressure, viscosity, incompressibility, velocity, material frame,
+Hodge/Stokes projection, collar, annular Cauchy stress, and strain kept as one
+packet.
 
 ## Verdict
 
-`GlobalSamePacketFullClockFromOriginalData.A` remains open.  The active obstruction is now sharply the rigid strain-aligned terminal temporal concentration problem, not pressure/collar and not recirculation.
+`GlobalSamePacketFullClockFromOriginalData.A` remains open.  The active strict
+Gold producer is the bounded-below full same-material PLS entropy / primitive
+graph-driver no-free-upcrossing theorem.  The rigid strain-aligned terminal
+atom is downstream evidence of failure of that clock tail, not a separate
+endpoint theorem that can close the route by itself.
