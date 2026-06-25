@@ -1,0 +1,366 @@
+---
+theorem_id: birthpackingmap-strict-ancestry-descent-attack-20260625
+status: direct-attack-installed; birth-packing reduces to strict-ancestry-descent/no-self-birth theorem
+logical_landing_node: global_same_packet_full_clock_from_original_data
+edge_effect: >-
+  Attacks the hard obstruction in BirthPackingMapHardObstruction.A. The
+  first-birth/injection ledger closes only if every one-way growth atom has a
+  strictly earlier or strictly lower-rank native ancestor in a finite reserve
+  class. The installed recirculation, subheat, top-strain, coefficient-frame,
+  and base-collar reductions discharge all non-self branches. The surviving
+  branch is a self-birth of the same one-way pressure/RHS, higher-collar, and
+  annular stress-work superheat block. Therefore the missing theorem is not a
+  generic birth ledger; it is strict birth-ancestry descent for the remaining
+  full PLS block, or an equivalent no-self-birth/coercive Carleson theorem. The
+  note prevents the first-birth map from being promoted as solved without that
+  descent.
+parents:
+  - problems/navier-stokes/theorem-construction/mcp-onewaygrowthbirthledgersolutionshape-a-globalsamepacketfullclockfromoriginaldata-a-056a9b7ba7.md
+  - problems/navier-stokes/theorem-construction/mcp-birthpackingmaphardobstruction-a-globalsamepacketfullclockfromoriginaldata-a-c78465551e.md
+  - problems/navier-stokes/theorem-construction/mcp-pressop-collar-annularstress-entropy-identity-direct-attack-20260625.md
+  - problems/navier-stokes/theorem-construction/mcp-wrongsignactiveplsrecirculationclosure-a-nullmodecorrectedparticipationclock-a-20260625.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-moving-pump-subheat-absorption-superheat-record-dichotomy-20260625.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-superheat-residence-fixed-hs-equivalence-20260625.md
+---
+
+# Birth Packing Map / Strict Ancestry Descent Attack
+
+Date: 2026-06-25
+
+## 0. Target
+
+The proposed closure is the growth-birth ledger:
+
+```math
+d\Omega_N^{grow}
+=
+\sum_{\gamma\in\Gamma_N}d\omega_\gamma,
+\tag{BAD.1}
+```
+
+with a packing map
+
+```math
+\iota:\Gamma_N\to\mathcal R_N(u_0)
+\tag{BAD.2}
+```
+
+such that
+
+```math
+\sum_{\gamma\in\Gamma_N}\omega_\gamma
+\le
+C\sum_{\rho\in\mathcal R_N(u_0)}\rho
++
+\int_0^{T^*}dR_N^{legal},
+\qquad
+\sum_{\rho\in\mathcal R_N(u_0)}\rho\le C_N(u_0).
+\tag{BAD.3}
+```
+
+The hard obstruction is to construct `(BAD.2)` without assuming the full clock
+we are trying to prove.
+
+## 1. What a growth birth can be
+
+After the recirculation closure, a one-way growth atom is not an oscillatory
+return.  It is a new positive demand in the remaining block:
+
+```math
+d\Omega_N^{grow}
+\sim
+d\Omega_N^{press/RHS}
++
+d\Omega_N^{higher\ collar}
++
+d\Omega_N^{annular\ stress}
++
+\text{top regeneration not already paid}.
+\tag{BAD.4}
+```
+
+For a birth atom \(\gamma\), trace its ancestry backward along the same
+transported material packet.  The ancestry can land in only five places.
+
+## 2. Non-self branches are already paid
+
+### 2.1 Initial tail
+
+If the atom is inherited from the initial smooth packet, it is charged to
+
+```math
+\mathcal R_N^{init}(u_0)
+\subset
+\mathcal R_N(u_0).
+\tag{BAD.5}
+```
+
+At fixed depth \(N\), this reserve is finite because \(u_0\) is smooth:
+
+```math
+\mathcal P_N^{mat}(0)<\infty .
+\tag{BAD.6}
+```
+
+### 2.2 Subheat production
+
+If the atom is generated below the heat rate on shell \(j\), the moving-pump
+dichotomy gives
+
+```math
+[\mathcal M_j^{mov}]_+^{subheat}
+\le
+{1\over2}d_j+r_j^{legal}.
+\tag{BAD.7}
+```
+
+So this branch is already in viscosity/legal payment.
+
+### 2.3 Wrong-sign return
+
+If the atom is a return/backscatter event, it belongs to
+
+```math
+d\Omega_N^{recirc,-},
+\tag{BAD.8}
+```
+
+which is finite after null-mode removal by the installed wrong-sign
+recirculation theorem.
+
+### 2.4 Top-strain / coefficient-frame / base-collar superheat
+
+If the atom is born through top-strain, coefficient-frame, or base collar
+superheat, it is paid by the signed strain-log storage and the coefficient /
+base-collar reductions:
+
+```math
+d\Omega_N^{top\ strain}
++
+d\Omega_N^{coef}
++
+d\Omega_N^{collar,0}
+\le
+d\Omega_N^{strain\ log}
++
+dR_N^{legal}.
+\tag{BAD.9}
+```
+
+### 2.5 Legal finite-overlap residual
+
+If the atom is a lower-order cutoff, finite-overlap commutator, or local-energy
+term in the residual normal form, it belongs to \(dR_N^{legal}\).
+
+Thus every non-self birth branch is already charged.
+
+## 3. The surviving branch is self-birth
+
+The only birth ancestry not covered by Section 2 is:
+
+```math
+\gamma
+\longleftarrow
+\text{one-way pressure/RHS + higher-collar + annular-stress superheat}
+\longleftarrow
+\gamma .
+\tag{BAD.10}
+```
+
+This is not a detached source.  It is the same full participation-law--strain
+block:
+
+```math
+v,\quad q,\quad A,\quad G,\quad
+\mathbb P_A,\quad
+T=-pI+2\nu S,\quad
+S,\quad
+\phi .
+\tag{BAD.11}
+```
+
+It is also not recirculation, because the wrong-sign return part has already
+been removed.  It is one-way growth generated by the same one-way growth block.
+
+So a bare first-birth map is circular here.  If the map sends \(\gamma\) to
+its own pressure/RHS--collar--annular-stress cause, then `(BAD.3)` reads
+
+```math
+\Omega_N^{grow}
+\le
+C\Omega_N^{grow}
++
+R_N^{legal},
+\tag{BAD.12}
+```
+
+which gives no bound.
+
+## 4. Exact theorem needed to solve the obstruction
+
+The birth-packing map becomes noncircular exactly if the surviving branch
+admits a strict ancestry descent.
+
+There must be a rank
+
+```math
+\rho_{birth}(\gamma)
+\in
+\mathcal W
+\tag{BAD.13}
+```
+
+in a well-founded ordered set \(\mathcal W\) such that every one-way
+pressure/RHS--higher-collar--annular-stress birth either lands in a paid class
+from Section 2 or has a parent \(\gamma'\) with
+
+```math
+\rho_{birth}(\gamma')<\rho_{birth}(\gamma),
+\tag{BAD.14}
+```
+
+and
+
+```math
+\omega_\gamma
+\le
+C\omega_{\gamma'}
++
+dR_N^{legal}(\gamma).
+\tag{BAD.15}
+```
+
+Then infinite unpaid one-way births are impossible: a well-founded descent
+cannot run forever, and all terminal leaves of the ancestry tree are in
+finite initial / viscous / top-strain / recirculation / legal reserves.
+
+Equivalently, prove the no-self-birth inequality
+
+```math
+d\Omega_N^{grow,self}
+\le
+\theta\,d\Omega_N^{grow,self}
++
+dR_N^{paid},
+\qquad
+0\le\theta<1,
+\tag{BAD.16}
+```
+
+where \(dR_N^{paid}\) is the sum of the Section 2 paid branches.  Absorbing the
+left side gives
+
+```math
+d\Omega_N^{grow,self}
+\le
+{1\over1-\theta}dR_N^{paid}.
+\tag{BAD.17}
+```
+
+This is the exact mathematical content missing from
+`BirthPackingMapHardObstruction.A`.
+
+## 5. Why the current installed inputs do not yet prove it
+
+The installed notes prove attachment and eliminate false branches:
+
+```math
+\text{center pulse is attached to annular stress history,}
+```
+
+```math
+\text{subheat growth is viscous,}
+```
+
+```math
+\text{wrong-sign recirculation is finite,}
+```
+
+```math
+\text{top-strain/coefficient/base-collar superheat is paid.}
+```
+
+They do not prove `(BAD.14)` or `(BAD.16)` for the remaining
+pressure/RHS--higher-collar--annular-stress block.
+
+The pressure/operator identity
+
+```math
+{d\over dt}E_p
+=
+\langle q,\dot R\rangle
++
+\int ASA^\top\nabla_aq\cdot\nabla_aq
+\tag{BAD.18}
+```
+
+keeps the block attached to strain and the pressure RHS.  It does not make the
+parent rank smaller.  The higher-collar identities similarly keep the block
+inside the same material packet without giving strict descent.  The annular
+stress identity gives a bounded-below storage for the base annular energy, but
+not for the pressure/operator plus higher-collar record.
+
+Thus the hard obstruction is not solved by naming the birth map.  The map is
+solved only by strict ancestry descent or by the equivalent no-self-birth
+absorption `(BAD.16)`.
+
+## 6. Clean solution target
+
+The noncircular theorem to prove is:
+
+```math
+\boxed{
+\texttt{StrictPLSBirthAncestryDescent.A}
+}
+\tag{BAD.19}
+```
+
+with statement:
+
+```math
+\boxed{
+\text{Every one-way pressure/RHS--higher-collar--annular-stress growth birth
+has a strictly earlier or strictly lower-rank paid ancestor, unless it is
+already in the finite recirculation / viscosity / top-strain / legal classes.}
+}
+\tag{BAD.20}
+```
+
+Equivalently:
+
+```math
+\boxed{
+d\Omega_N^{grow}
+\le
+C\left(
+d\Omega_N^{vis}
++
+d\Omega_N^{strain\ log}
++
+d\Omega_N^{recirc,-}
++
+dR_N^{legal}
++
+d\mathcal R_N^{init}
+\right).
+}
+\tag{BAD.21}
+```
+
+The displayed bound `(BAD.21)` would solve the birth-packing hard obstruction
+and close the available-entropy clock.  The repo does not currently contain a
+proof of `(BAD.20)` or `(BAD.21)`.
+
+## Verdict
+
+The hard obstruction is now pinned to one exact noncircular statement:
+
+```math
+\text{no self-birth of the remaining one-way PLS growth block.}
+```
+
+All other birth branches are already paid by installed pieces.  A proof of
+strict ancestry descent for the remaining pressure/RHS, higher-collar, and
+annular stress-work superheat block is the missing solution.  Without that
+descent, the birth ledger reuses the same growth block as its own reserve and
+is circular.
