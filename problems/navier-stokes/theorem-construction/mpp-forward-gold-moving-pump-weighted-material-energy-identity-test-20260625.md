@@ -228,20 +228,27 @@ Conversely, `(MPW.6)` gives
 because the viscous term appears with the positive sign on the left side of
 `(MPW.6)`.
 
-Therefore finite pump work is equivalent, up to the weighted viscous loss, to
-finite positive variation of the weighted material energy:
+Therefore the exact relation is two-sided only after the weighted viscous loss
+is counted.  Pump finiteness gives finite positive weighted-energy growth:
 
 ```math
 \int_0^{T_*}\mathcal P_w^{pump}(t)\,dt<\infty
-\quad
-\Longleftrightarrow
-\quad
+\Longrightarrow
 \int_0^{T_*}\left[{d\over dt}E_w(t)\right]_+dt
-+\nu\int_0^{T_*}D_w(t)dt<\infty ,
+<\infty .
 \tag{MPW.18}
 ```
 
-with the precise direction `(MPW.16)`--`(MPW.17)`.
+Conversely, finite positive weighted-energy growth together with finite
+weighted viscous loss gives finite pump work:
+
+```math
+\int_0^{T_*}\left[{d\over dt}E_w(t)\right]_+dt
++\nu\int_0^{T_*}D_w(t)dt<\infty
+\Longrightarrow
+\int_0^{T_*}\mathcal P_w^{pump}(t)\,dt<\infty .
+\tag{MPW.19}
+```
 
 ## 4. Why this identity is not yet the producer
 
@@ -256,12 +263,13 @@ E_w(t)
 D_w(t)
 =
 \sum_jw_j\int G\nabla_av_j\cdot\nabla_av_j .
-\tag{MPW.19}
+\tag{MPW.20}
 ```
 
 For continuation-depth weights \(w_j\), these are exactly the material
-\(H^N\)-level record and its viscous tower.  Thus `(MPW.18)` is not a free
-estimate from finite energy.  It is the continuation-depth clock itself.
+\(H^N\)-level record and its viscous tower.  Thus `(MPW.18)`--`(MPW.19)` are
+not a free estimate from finite energy.  They are the continuation-depth clock
+itself.
 
 This is the exact physical meaning: the surrounding annulus can feed the
 active shell only by increasing the weighted material record or by paying
@@ -287,12 +295,12 @@ dR_w,
 E_w\ge0,
 \qquad
 \int_0^{T_*}dR_w<\infty ,
-\tag{MPW.20}
+\tag{MPW.21}
 ```
 
 or an equivalent all-scale no-free-upward-transfer theorem for the same moving
 material pressure-strain pump.
 
-Without `(MPW.20)`, the weighted identity is exact but only conditional:
+Without `(MPW.21)`, the weighted identity is exact but only conditional:
 finite pump work and finite continuation-depth material energy are the same
 remaining problem.
