@@ -348,8 +348,9 @@ storage.  The signed recombination note identifies `(MSH.22)` with
 \(d(e_jL_j)/dt+e_j\lambda_+\) on the active set, so it belongs to the same
 bounded-below storage mechanism as the top-strain superheat coordinate.
 
-With that coordinate installed, the Hodge selector-motion remainder is reduced
-to the already counted top-strain storage plus legal residual:
+With that coordinate installed, the top-strain/Hodge-selector coordinate is
+paid by the already counted top-strain storage plus legal residual.  The
+stronger statement
 
 ```math
 \int_0^{T_*}\sum_j
@@ -358,9 +359,11 @@ to the already counted top-strain storage plus legal residual:
 \tag{MSH.23}
 ```
 
-This is smaller than the old fixed-shell pressure/interface burden.  It does
-not pay the non-top-strain pressure-stress and cubic-collar service left by the
-moving annular pump.
+is not installed by this note.  The later material Hodge projection commutator
+calculation identifies \(\mathcal R_j^{Hodge}\) with the same pressure/RHS and
+annular stress-interface service after the coefficient-frame and base-collar
+pieces are paid.  Thus `(MSH.23)` is exactly the remaining one-interface clock,
+not a consequence of the selector-motion calculation alone.
 
 ## 8. Consequence for the full material clock
 
