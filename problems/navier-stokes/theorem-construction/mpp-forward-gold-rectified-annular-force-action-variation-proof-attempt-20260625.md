@@ -184,7 +184,7 @@ terms, but they are not controlled by `(RAV.10)`.
 
 ## 4. The exact failed estimate
 
-To close `(RAV.1)` from original smooth data, one needs
+The componentwise sufficient estimate exposed by `(RAV.6)` is
 
 ```math
 \int_{s_0}^{0}
@@ -194,7 +194,10 @@ To close `(RAV.1)` from original smooth data, one needs
 \tag{RAV.14}
 ```
 
-as part of the same annular material history.
+as part of the same annular material history.  This is a safe sufficient
+coordinate estimate, but it is not the preferred route statement because it
+splits the coupled stress transaction into separate pressure-time and
+strain-time pieces before using the full participation law.
 
 Substituting `(RAV.11)` gives the required bound
 
@@ -210,10 +213,53 @@ Substituting `(RAV.11)` gives the required bound
 \tag{RAV.15}
 ```
 
-The available original-data controls do not imply `(RAV.15)`.  They control
-\(|S|^2\), not \(|D_sS|\), and they control pressure through the elliptic
-law at the \(u\otimes u\) level, not the absolute material derivative
-\(|D_sP|\) needed by `(RAV.15)`.
+The full-coupled statement is sharper.  After gauge reduction, the derivative
+of the annular stress-work flux is
+
+```math
+{d\over ds}F_\phi^\sharp=I_1+I_2+I_3,
+\tag{RAV.15a}
+```
+
+with
+
+```math
+I_1
+=
+\int(\partial_kT^\sharp_{ik})T^\sharp_{ij}\partial_j\phi\,dy,
+\tag{RAV.15b}
+```
+
+```math
+I_2
+=
+\int U_i(D_sT^\sharp_{ij})\partial_j\phi\,dy,
+\tag{RAV.15c}
+```
+
+and
+
+```math
+I_3
+=
+-\int U_iT^\sharp_{ij}(\partial_jU_k)(\partial_k\phi)\,dy .
+\tag{RAV.15d}
+```
+
+Thus the exact live estimate is the same-material stress-transfer clock
+
+```math
+\sum_m\int_{J_m}
+\left(
+|I_{1,m}|+|I_{2,m}|+|I_{3,m}|
+\right)\,ds
+<\infty .
+\tag{RAV.15e}
+```
+
+The displayed pressure/strain-time bound `(RAV.15)` is only one coordinate
+sufficient condition for `(RAV.15e)`.  The route must keep pressure, viscosity,
+incompressibility, and velocity locked in `(RAV.15a)`--`(RAV.15e)`.
 
 This is not a failure of attachment.  The term is attached to the correct
 outer annulus and to the correct same-fluid history.  The failure is that
@@ -230,22 +276,18 @@ estimate:
 
 ```math
 \boxed{
-\int_{s_0}^{0}
-\int_{\operatorname{collar}\phi}
-|U|
+\sum_m\int_{J_m}
 \left(
-|D_sP|+\nu|D_sS(U)|
-\right)
-|\nabla\phi|\,dy\,ds
+|I_{1,m}|+|I_{2,m}|+|I_{3,m}|
+\right)\,ds
 <\infty .
 }
 \tag{RAV.16}
 ```
 
-Once `(RAV.16)` is proved, the other terms in `(RAV.7)` are lower-order
-same-packet stress-action terms and the rectified annular force-action
-variation follows.
+Once `(RAV.16)` is proved for the gauge-reduced transported annular family,
+the rectified annular force-action variation follows.
 
 Without `(RAV.16)`, writing down `(RAV.1)` as a proved original-data theorem
-would assume the continuation-strength stress clock rather than derive it.
-
+would assume the continuation-strength stress-transfer clock rather than
+derive it.
