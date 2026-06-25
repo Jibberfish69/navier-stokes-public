@@ -1,5 +1,15 @@
 # GlobalSamePacketFullMinimalBridge.A theorem creation
 
+## Audit override
+
+This generated bridge is not spendable for the current forward-gold proof. It targets `GlobalSamePacketFullClockFromOriginalData.A`, but the retrieved support is drawn from older height-flux / CM source-reserve surfaces rather than the current governing object: the original smooth solution's transported material spike-wave history and its full pressure-viscosity-incompressibility-velocity annular stress/strain clock.
+
+Use this file only as evidence that the theorem-creation runner still needs sharper source selection for the gold route. It does not prove, reduce, or replace the live one-interface producer:
+
+\[
+\int_0^{T_*}\sum_j [m_j^{interface}(t)]_+\,dt<\infty .
+\]
+
 ## Target
 
 - target obligation: global-same-packet-full-material-clock
