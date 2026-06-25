@@ -496,3 +496,101 @@ So the current noncircular state is:
 ```
 
 The proof is still open exactly at `(FCA.30)`.
+
+## 8. Direct bridge test for `(FCA.30)`
+
+A direct paraproduct test shows where the bridge breaks.
+
+The first part of \(\mathcal B^\sharp_\phi\) is
+
+```math
+|\nabla\cdot T^\sharp|\,|T^\sharp|\,|\nabla\phi|.
+\tag{FCA.32}
+```
+
+After localization, a typical high shell is controlled by \(L^2\times L^2\)
+or low-high paraproduct bounds of the form
+
+```math
+\|\Delta_j(\nabla T^\sharp\,T^\sharp)\|_{L^1}
+\lesssim
+\sum_{|k-j|\le C}
+\|\Delta_k\nabla T^\sharp\|_{L^2}
+\|S_{k-C}T^\sharp\|_{L^2}
++\text{high-high terms}.
+\tag{FCA.33}
+```
+
+Since \(T^\sharp=-PI+2\nu S(U)\), this term asks for pressure service plus
+roughly \(H^2\)-level velocity control on the active shell.  This is the part
+closest to the repaired cascade tail: it can plausibly be tied to scheduled
+\(D_N\)-type control once the pressure/collar terms are restored.
+
+The second part is different:
+
+```math
+|U|\,|D_tT^\sharp|\,|\nabla\phi|.
+\tag{FCA.34}
+```
+
+The exact stress evolution is
+
+```math
+D_tT^\sharp=-(D_tP)I+2\nu D_tS(U),
+\tag{FCA.35}
+```
+
+and
+
+```math
+D_tS(U)
+=
+\operatorname{sym}\nabla(\nabla\cdot T^\sharp)
+-
+\operatorname{sym}\big((\nabla V)(\nabla U)\big).
+\tag{FCA.36}
+```
+
+Thus a direct absolute-value estimate for `(FCA.34)` requires a term of the
+shape
+
+```math
+\int_0^{T_*}
+\sum_j
+2^{\gamma j}
+\|\Delta_jD_tT^\sharp(t)\|_{L^1(\operatorname{collar}\phi)}
+\,dt
+<\infty ,
+\tag{FCA.37}
+```
+
+or an exact cancellation that removes this stress-time derivative before
+absolute values are taken.
+
+The installed `PST.A`/`Sched.A+` cascade control does not provide `(FCA.37)`.
+It controls a scheduled \(H^1\) tail and integrated \(H^2\) tail for the
+velocity after the scheduler compatibility condition is paid.  It does not
+control the material time derivative of the reduced stress, which contains
+pressure-time service and one additional material stress derivative through
+`(FCA.36)`.
+
+Therefore `(FCA.30)` has only two noncircular routes from the checked inputs:
+
+```math
+\text{derive a signed same-packet cancellation for }I_2
+\tag{FCA.38}
+```
+
+before absolute values, or
+
+```math
+\text{prove the full stress-time clock }(FCA.37)
+\tag{FCA.39}
+```
+
+as part of the same pressure-viscosity-incompressibility-velocity packet.
+
+This is the exact place where the physical picture still demands work.  The
+annular return is attached to the original material history; the open
+mathematical line is controlling the rectified variation of that attached
+stress history without assuming the continuation-strength material clock.
