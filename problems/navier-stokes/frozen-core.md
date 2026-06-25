@@ -18,8 +18,8 @@ Anything beyond the frontier below is machine extension and must remain quaranti
 
 ## Source Frontier
 
-- `first_unresolved`: SignedSmoothSamePacketCommutatorCoercivity.A (`live-theorem-frontier`; `signed-smooth-same-packet-commutator-coercivity`)
-- SignedSmoothSamePacketCommutatorCoercivity.A (`live-theorem-frontier`; `signed-smooth-same-packet-commutator-coercivity`)
+- `first_unresolved`: GlobalSamePacketFullClockFromOriginalData.A (`live-theorem-frontier`; `global-same-packet-full-material-clock`)
+- GlobalSamePacketFullClockFromOriginalData.A (`live-theorem-frontier`; `global-same-packet-full-material-clock`)
 - OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A (`live-theorem-frontier`; `original-smooth-data-material-history-no-finite-breakdown`)
 - PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A (`live-theorem-frontier`; `pack-out-of-cm-smoothness-certification-audit`)
 - R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A (`live-theorem-frontier`; `r3-whole-space-cm-completion`)

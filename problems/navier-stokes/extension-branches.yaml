@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   branch_set_id: extension-branches-navier-stokes
-  generated_at: '2026-06-24T00:50:24Z'
+  generated_at: '2026-06-25T15:48:40Z'
   generator: system/runner/lib/lemma_synthesis_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -14,18 +14,18 @@ provenance_policy:
     and promotion.
 branches:
 - branch_id: branch-navier-stokes-1
-  origin_obligation_id: signed-smooth-same-packet-commutator-coercivity
+  origin_obligation_id: global-same-packet-full-material-clock
   branch_type: route-branch
   provenance: machine-derived-beyond-source-frontier
-  hypothesis: Open a quarantined side branch that tests whether signedSmoothSamePacketCommutatorCoercivity.A
+  hypothesis: Open a quarantined side branch that tests whether globalSamePacketFullClockFromOriginalData.A
     can be made explicit without crossing the current safe-claim boundary.
   depends_on:
   - cm-part-ontology-witness-notation-correction
   - torus-global-material-atlas-terminal-capture
-  - signed-smooth-same-packet-commutator-coercivity
+  - global-same-packet-full-material-clock
   risk_level: high
   notes:
-  - This branch starts exactly at the first unresolved frontier for `signed-smooth-same-packet-commutator-coercivity`.
+  - This branch starts exactly at the first unresolved frontier for `global-same-packet-full-material-clock`.
   merge_policy: quarantined-until-promoted
 - branch_id: branch-navier-stokes-2
   origin_obligation_id: original-smooth-data-material-history-no-finite-breakdown

@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   assembly_id: proof-assembly-navier-stokes
-  generated_at: '2026-06-24T00:50:24Z'
+  generated_at: '2026-06-25T15:48:40Z'
   generator: system/runner/lib/proof_assembly_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
 theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
-  SignedSmoothSamePacketCommutatorCoercivity.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
+  GlobalSamePacketFullClockFromOriginalData.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
   PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
   / ClayCMContrapositiveEmbedding.A; CMPartOntologyWitnessNotation.A.'
 source_grounded_chain:
@@ -20,8 +20,8 @@ source_grounded_chain:
 - TorusGlobalMaterialAtlasTerminalCapture.A
 tentative_extension_chain: []
 remaining_open_obligations:
-- obligation_id: signed-smooth-same-packet-commutator-coercivity
-  label: SignedSmoothSamePacketCommutatorCoercivity.A
+- obligation_id: global-same-packet-full-material-clock
+  label: GlobalSamePacketFullClockFromOriginalData.A
   kind: live-theorem-frontier
   status: frontier-open
 - obligation_id: original-smooth-data-material-history-no-finite-breakdown
@@ -43,8 +43,8 @@ remaining_open_obligations:
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
   math_frontier_obligations:
-  - obligation_id: signed-smooth-same-packet-commutator-coercivity
-    label: SignedSmoothSamePacketCommutatorCoercivity.A
+  - obligation_id: global-same-packet-full-material-clock
+    label: GlobalSamePacketFullClockFromOriginalData.A
     kind: live-theorem-frontier
     status: frontier-open
   - obligation_id: original-smooth-data-material-history-no-finite-breakdown
@@ -68,8 +68,8 @@ frontier_context:
   route_container_obligations: []
   downstream_support_obligations: []
   additional_context_obligations:
-  - obligation_id: signed-smooth-same-packet-commutator-coercivity
-    label: SignedSmoothSamePacketCommutatorCoercivity.A
+  - obligation_id: global-same-packet-full-material-clock
+    label: GlobalSamePacketFullClockFromOriginalData.A
     kind: live-theorem-frontier
     status: frontier-open
   - obligation_id: original-smooth-data-material-history-no-finite-breakdown
@@ -89,8 +89,8 @@ frontier_context:
     kind: live-theorem-frontier
     status: frontier-open
 next_solver_targets:
-- obligation_id: signed-smooth-same-packet-commutator-coercivity
-  label: SignedSmoothSamePacketCommutatorCoercivity.A
+- obligation_id: global-same-packet-full-material-clock
+  label: GlobalSamePacketFullClockFromOriginalData.A
   kind: live-theorem-frontier
   status: frontier-open
 - obligation_id: original-smooth-data-material-history-no-finite-breakdown
@@ -102,11 +102,11 @@ next_solver_targets:
   kind: live-theorem-frontier
   status: frontier-open
 theorem_surface:
-  surface_id: theorem-surface-navier-stokes-c180ca0473fc
-  route_signature: c180ca0473fc77ed753e74b886ed7f200f785f38
+  surface_id: theorem-surface-navier-stokes-d857049b86ee
+  route_signature: d857049b86ee0132f87f3cd355af3810fab1f5a0
   theorem_target: clay-cm-contrapositive-witness-consumption
   theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
-    SignedSmoothSamePacketCommutatorCoercivity.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
+    GlobalSamePacketFullClockFromOriginalData.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
     PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
     / ClayCMContrapositiveEmbedding.A; CMPartOntologyWitnessNotation.A.'
   route_chain:
@@ -123,8 +123,8 @@ theorem_surface:
   - The pass branch remains the lawful smooth continuation branch, while the fail
     branch has no legal in-class nonsmooth continuation status
   route_slots:
-  - slot_id: signed-smooth-same-packet-commutator-coercivity
-    label: SignedSmoothSamePacketCommutatorCoercivity.A
+  - slot_id: global-same-packet-full-material-clock
+    label: GlobalSamePacketFullClockFromOriginalData.A
     kind: live-theorem-frontier
     status: frontier-open
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
@@ -250,4 +250,4 @@ summary:
   tracked_source_count: 140
   synthesis_import_surface_count: 0
   ready_for_submission: false
-  theorem_surface_id: theorem-surface-navier-stokes-c180ca0473fc
+  theorem_surface_id: theorem-surface-navier-stokes-d857049b86ee

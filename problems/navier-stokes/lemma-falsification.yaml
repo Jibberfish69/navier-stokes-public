@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   falsification_id: lemma-falsification-navier-stokes
-  generated_at: '2026-06-24T00:50:24Z'
+  generated_at: '2026-06-25T15:48:40Z'
   generator: system/runner/lib/lemma_falsification_builder.rb
   source_branch_set_id: extension-branches-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
 results:
 - branch_id: branch-navier-stokes-1
-  origin_obligation_id: signed-smooth-same-packet-commutator-coercivity
+  origin_obligation_id: global-same-packet-full-material-clock
   verdict: quarantine
   reasons:
   - This is a route branch rather than a local theorem bridge, so it stays quarantined.
