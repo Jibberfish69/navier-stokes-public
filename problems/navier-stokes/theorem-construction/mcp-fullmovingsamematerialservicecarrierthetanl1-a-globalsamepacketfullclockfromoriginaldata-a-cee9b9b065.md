@@ -1,6 +1,6 @@
 # Full moving same-material service carrier Theta_N L1 attempt
 
-Status: failed unconditional discharge; exact open producer isolated.
+Status: failed unconditional discharge; exact finite-total estimate isolated.
 
 ## Target
 
