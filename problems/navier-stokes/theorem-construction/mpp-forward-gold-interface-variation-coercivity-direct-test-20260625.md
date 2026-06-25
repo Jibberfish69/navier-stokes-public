@@ -1,0 +1,254 @@
+---
+theorem_id: forward-gold-interface-variation-coercivity-direct-test-20260625
+status: direct-test-installed-interface-variation-not-controlled-by-first-superheat-residence
+logical_landing_node: global_same_packet_full_clock_from_original_data
+edge_effect: >-
+  Attacks the no-free-upward-transfer estimate at the same-shell interface
+  after the heat-window demotion removed the fake higher-derivative objection.
+  The principal demoted pressure-gradient variation term has size
+  \(2^{-2j}\Theta_j^2 e_j\). On sub-heat-rate windows it is absorbed by
+  viscous residence. On super-heat-rate windows it equals the superheat
+  residence \(\Theta_j e_j\) multiplied by the unbounded acceleration factor
+  \(\Theta_j/2^{2j}\). Therefore the interface-variation/BV route does not
+  prove finite superheat residence from the first superheat clock alone. It
+  requires either a bounded-below same-material storage or a stronger
+  all-scale no-free-acceleration law for the same pressure-strain-coefficient
+  packet.
+parents:
+  - problems/navier-stokes/live-theorem-edge.yaml
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-updown-shell-recirculation-balance-direct-test-20260625.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-shell-interface-variation-direct-calculation-20260625.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-window-interface-variation-same-depth-demotion-test-20260625.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-moving-pump-subheat-absorption-superheat-record-dichotomy-20260625.md
+---
+
+# Interface Variation Coercivity Direct Test
+
+Date: 2026-06-25
+
+## 0. Object
+
+The object is the same active-shell material interface
+
+```math
+m_j(t)=P_j(t)+C_j(t),
+\tag{IVC.1}
+```
+
+from the transported material packet.  The shell energy balance is
+
+```math
+{d\over dt}e_j(t)+d_j(t)=m_j(t),
+\tag{IVC.2}
+```
+
+and the heat-window BV estimate is
+
+```math
+\int_{I_j}[m_j]_+
+\le
+[e_j(b)-e_j(a)]_+
++\int_{I_j}d_j
++C\int_{I_j}\mathcal W_j^{iface}(t)\,dt.
+\tag{IVC.3}
+```
+
+The previous heat-window calculation proved that \(\mathcal W_j^{iface}\) is
+same-depth.  This note tests whether it is coercively controlled by viscous
+residence plus the first superheat residence.
+
+## 1. Principal pressure-gradient variation term
+
+Let
+
+```math
+F_j=\Delta_j^a(A^\top\nabla_aq).
+\tag{IVC.4}
+```
+
+The pressure-interface derivative contains
+
+```math
+w_j2^{-2j}\|F_j\|_2^2.
+\tag{IVC.5}
+```
+
+The same-packet pressure/strain/coefficient service estimate has the form
+
+```math
+\|F_j\|_2
+\le
+C\Theta_j^{mat} e_j^{1/2}
++\text{typed commutator terms},
+\tag{IVC.6}
+```
+
+where \(e_j=\frac12 w_j\|v_j\|_2^2\) and
+
+```math
+\Theta_j^{mat}
+=
+\Theta_j^{strain}
++
+\Theta_j^{press}
++
+\Theta_j^{coef}
++
+\Theta_j^{collar}.
+\tag{IVC.7}
+```
+
+Thus the principal demoted variation term obeys
+
+```math
+w_j2^{-2j}\|F_j\|_2^2
+\lesssim
+2^{-2j}(\Theta_j^{mat})^2 e_j
++\text{typed commutator/loss terms}.
+\tag{IVC.8}
+```
+
+This is still one coupled pressure-viscosity-incompressibility-velocity
+quantity; no pressure-only estimate has been introduced.
+
+## 2. Sub-heat-rate part is absorbed
+
+On
+
+```math
+\Theta_j^{mat}\le\delta2^{2j},
+\tag{IVC.9}
+```
+
+one has
+
+```math
+2^{-2j}(\Theta_j^{mat})^2e_j
+\le
+\delta^2\,2^{2j}e_j.
+\tag{IVC.10}
+```
+
+The high-shell viscous residence satisfies, on the retained material chart,
+
+```math
+d_j\ge c\nu\,2^{2j}e_j
+\tag{IVC.11}
+```
+
+up to the already typed coefficient/collar commutators.  Choosing \(\delta\)
+small gives
+
+```math
+\mathbf 1_{\{\Theta_j^{mat}\le\delta2^{2j}\}}
+2^{-2j}(\Theta_j^{mat})^2e_j
+\le
+\varepsilon d_j
++r_j^{legal}.
+\tag{IVC.12}
+```
+
+So the sub-heat interface variation is not a terminal producer.
+
+## 3. Super-heat-rate part recreates the full clock
+
+On
+
+```math
+\Theta_j^{mat}>\delta2^{2j},
+\tag{IVC.13}
+```
+
+the same principal term becomes
+
+```math
+2^{-2j}(\Theta_j^{mat})^2e_j
+=
+\left({\Theta_j^{mat}\over2^{2j}}\right)
+\Theta_j^{mat}e_j.
+\tag{IVC.14}
+```
+
+The first superheat residence is only
+
+```math
+\Theta_j^{mat}e_j
+\mathbf 1_{\{\Theta_j^{mat}>\delta2^{2j}\}}.
+\tag{IVC.15}
+```
+
+The multiplier
+
+```math
+{\Theta_j^{mat}\over2^{2j}}
+\tag{IVC.16}
+```
+
+is bounded below by \(\delta\), but it is not bounded above by energy,
+enstrophy, pressure ellipticity, or the shell balance.  Therefore the BV route
+does not prove
+
+```math
+\int\Theta_j^{mat}e_j
+\mathbf 1_{\{\Theta_j^{mat}>\delta2^{2j}\}}\,dt<\infty
+\tag{IVC.17}
+```
+
+from `(IVC.3)` alone.  It asks for the stronger acceleration-weighted clock
+
+```math
+\int
+\left({\Theta_j^{mat}\over2^{2j}}\right)
+\Theta_j^{mat}e_j
+\mathbf 1_{\{\Theta_j^{mat}>\delta2^{2j}\}}\,dt<\infty,
+\tag{IVC.18}
+```
+
+or for a bounded-below same-material storage that pays the variation without
+placing `(IVC.18)` on the right.
+
+## 4. Consequence
+
+The interface-variation route is valuable because it proves that recirculation
+is not arbitrary.  Every sign change is generated by material pressure,
+strain, coefficient, viscosity, incompressibility, and collar service.
+
+It does not close the no-free-upward-transfer theorem by first-order BV
+control.  The direct estimate has the exact shape
+
+```math
+\int_{I_j}[m_j]_+
+\le
+[e_j(b)-e_j(a)]_+
++\int_{I_j}d_j
++C\int_{I_j}
+2^{-2j}(\Theta_j^{mat})^2e_j\,dt
++R_{legal}.
+\tag{IVC.19}
+```
+
+The sub-heat part of the last integral is viscously absorbed.  The super-heat
+part is a higher material acceleration clock.
+
+So the remaining direct producer is sharper:
+
+```math
+\boxed{
+\text{bounded-below same-material storage}
+}
+\tag{IVC.20}
+```
+
+or
+
+```math
+\boxed{
+\text{all-scale no-free-acceleration for the super-heat pressure-strain pump.}
+}
+\tag{IVC.21}
+```
+
+Without one of these, the BV/interface-variation calculation is a precise
+admission of the recirculation into the full packet, not a proof of finite
+positive action.
+
