@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-annular-payback-physical-frame-completion-boundary-20260625
-status: proof-installed-physical-frame-boundary; mpp-still-requires-full-clock-producer
+status: proof-installed-physical-frame-boundary; mpp-still-requires-full-clock-finite-total-estimate
 logical_landing_node: global_same_packet_full_clock_from_original_data
 edge_effect: >-
   Records the exact mathematical boundary of the pay-it-back-later physical
@@ -11,7 +11,7 @@ edge_effect: >-
   fixed-annulus rectified variation is finite once the same material record and
   service clock are finite.  It does not by itself prove that the positive
   continuation-depth material clock is finite from original data; that remaining
-  producer is exactly GlobalSamePacketFullClockFromOriginalData.A.
+  finite-total estimate is exactly GlobalSamePacketFullClockFromOriginalData.A.
 parents:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-physical-frame-fake-subproblem-filter-20260625.md
