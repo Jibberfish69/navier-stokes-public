@@ -107,7 +107,7 @@ C\,d\Omega_N^{rel.defect}
 +dR_N^{legal}.
 ```
 
-The calculation proves this modulo the pressure partner/collar cancellation theorem:
+The calculation proves the pressure-only projection modulo the pressure partner/collar cancellation theorem:
 
 ```math
 \boxed{
@@ -117,22 +117,22 @@ TerminalCZPressureCancellation.A
 }
 ```
 
-or the equivalent same-material finite positive pressure/collar partner packing theorem.
+or the equivalent same-material finite positive pressure/collar partner packing theorem.  That is no longer the live full-PLS landing after the pressure/Hodge/collar graph-parallel part is read through the material strain equation.
 
 ## Obstruction
 
-Same-packet pressure/collar routing is installed as admission.  It says pressure/collar terms belong to the same PLS packet.  It does not prove that one-sided positive Calderon-Zygmund pressure/collar growth after terminal selection is paid by retained negative lobes, collar exits, donor sinks, or relative Schur defect.
+Same-packet pressure/collar routing is installed as admission.  It says pressure/collar terms belong to the same PLS packet.  In this pressure-only projection it does not prove that one-sided positive Calderon-Zygmund pressure/collar growth after terminal selection is paid by retained negative lobes, collar exits, donor sinks, or relative Schur defect.
 
-Therefore the Schur complement removes autonomous graph energy, but the remaining top-rank no-self-birth proof still requires terminal preservation of pressure partner cancellation / pressure-collar no-free-sink.
+The newer full-PLS correction changes the landing.  The Schur complement removes autonomous graph energy; the graph-parallel part is then the primitive moving low-high participation-law--strain driver, not an external pressure-partner residue.
 
 ## Verdict
 
-The no-self-birth estimate is reduced to a precise pressure-partner theorem, not discharged.  The remaining theorem is:
+The pressure-only no-self-birth estimate reduced to a pressure-partner theorem.  That reduction is superseded as the live frontier.  The current remaining theorem is finite available participation organization for the primitive PLS driver:
 
 ```math
-\boxed{
-\text{one-sided positive pressure/Hodge/collar graph-parallel growth is paid by retained CZ partners, legal collar exits, donor no-free-sink, or Schur relative defect.}
-}
+\exists\,\mathscr A_N(t)\ge -C_N(u_0)
+\quad\text{such that}\quad
+d\mathscr A_N+c_N\,d\Omega_N^{PLS,primitive}\le dR_N^{legal}.
 ```
 
-Without that theorem, the bounded-below relative Schur-complement entropy law remains conditional.
+Without that full-PLS entropy or an equivalent strict no-self-birth/contraction theorem for the primitive graph-driver, the bounded-below full-clock law remains conditional.
