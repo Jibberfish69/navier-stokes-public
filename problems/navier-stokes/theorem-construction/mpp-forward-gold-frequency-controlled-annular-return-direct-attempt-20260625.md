@@ -62,6 +62,26 @@ The previous direct calculation gives
 \tag{FCA.3}
 ```
 
+Define the full gauge-reduced annular derivative density
+
+```math
+\mathcal B^\sharp_\phi
+:=
+\left(
+|\nabla\cdot T^\sharp|\,|T^\sharp|
++
+|U|\,|D_tT^\sharp|
++
+|U|\,|T^\sharp|\,|\nabla u|
+\right)|\nabla\phi| .
+\tag{FCA.3a}
+```
+
+The route statement is control of \(\mathcal B^\sharp_\phi\).  A projected
+Duhamel source such as \(\mathbb P\nabla\cdot(u\otimes u)\) is only one
+coordinate reading of that density; it is not allowed to replace the full
+pressure-viscosity-incompressibility-velocity packet.
+
 The plan is to prove `(FCA.2)` by frequency control rather than treating
 \(F_\phi^\sharp\) as an arbitrary time signal.
 
@@ -187,8 +207,8 @@ legal nonlinear transfer.
 
 ## 4. The continued nonlinear stress-transfer term
 
-Applying `(FCA.12)` to the Duhamel term reduces finite annular variation to a
-weighted nonlinear stress-transfer estimate of the form
+Applying `(FCA.12)` to the Duhamel term gives a coordinate estimate for one
+piece of the nonlinear stress transfer:
 
 ```math
 \int_0^{T_*}
@@ -206,6 +226,25 @@ where \(\gamma\) is the finite derivative weight required by the stress-time
 terms in `(FCA.3)`.  The exact value of \(\gamma\) depends only on the chosen
 finite continuation depth and on the collar/gauge norm used to read the
 annular packet.
+
+The full route target is the corresponding estimate for the actual annular
+density:
+
+```math
+\int_0^{T_*}
+\sum_j
+2^{\gamma j}
+\left\|
+\Delta_j\mathcal B^\sharp_\phi(t)
+\right\|_{L^1_x}
+\,dt
+<\infty .
+\tag{FCA.14a}
+```
+
+Estimate `(FCA.14)` is useful only after its pressure, viscous, transported
+collar, coefficient, and incompressibility commutators have been restored into
+`(FCA.14a)`.
 
 Bony decomposition gives the shellwise split
 
@@ -307,7 +346,7 @@ oscillator.  Its high-frequency reversals must come from the initial spectrum
 or from nonlinear transfer under the full Navier--Stokes packet.
 
 The initial-spectrum and linear-viscosity parts are controlled.  The remaining
-same-packet nonlinear stress-transfer estimate is
+same-packet nonlinear stress-transfer estimate has the projected coordinate
 
 ```math
 \boxed{
@@ -323,8 +362,25 @@ same-packet nonlinear stress-transfer estimate is
 \tag{FCA.23}
 ```
 
-or the equivalent material-coordinate version with pressure, coefficient,
-transported-collar, and projector commutator terms included.
+and the actual material-coordinate form
+
+```math
+\boxed{
+\int_0^{T_*}
+\sum_j
+2^{\gamma j}
+\left\|
+\Delta_j\mathcal B^\sharp_\phi(t)
+\right\|_{L^1_x}
+\,dt
+<\infty .
+}
+\tag{FCA.24}
+```
+
+Here `(FCA.24)` includes pressure, viscosity, incompressibility, velocity,
+transported-collar, coefficient, and projector commutator terms on the same
+material history.
 
 This is not a detached obstruction.  It is exactly the full coupled
 pressure-viscosity-incompressibility-velocity transfer needed to make the
