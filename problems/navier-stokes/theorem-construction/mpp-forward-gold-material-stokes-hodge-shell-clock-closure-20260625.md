@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-material-stokes-hodge-shell-clock-closure-20260625
-status: native-shell-reduction-installed-log-weighted-exchange-gap-open
+status: native-shell-reduction-installed-pressure-stress-cubic-collar-clock-open
 logical_landing_node: global_same_packet_full_clock_from_original_data
 edge_effect: >-
   Corrects the remaining moving-constraint commutator created by fixed material
@@ -10,13 +10,13 @@ edge_effect: >-
   viscosity is diagonal/coercive, and shell motion is exactly the time
   variation of the material metric/Stokes form.  The form derivative is
   bounded by the positive top-strain rate because dot G=-2 A S A^T and
-  tr S=0.  Subheat shell motion is absorbed by viscosity; superheat shell
-  motion reduces to the top-strain residence.  The attempted final closure
-  overread the logarithmic strain storage: differentiating
-  B_j=e_j log(lambda/(delta 2^{2j}))_+ produces the same shell exchange
-  multiplied by the log weight.  Thus the remaining exact gap is the
-  log-weighted same-shell exchange current, not the pressure constraint
-  commutator.
+  tr S=0.  Subheat selector motion is absorbed by viscosity, and the
+  superheat selector-motion coordinate is represented by the signed
+  top-strain logarithmic storage.  The attempted final closure then overread
+  that coordinate as the whole moving annular pump.  The log-weighted identity
+  pays only the top-strain/Hodge-selector part.  The remaining exact gap is the
+  non-top-strain-aligned pressure-stress and cubic-collar service on the same
+  transported annulus.
 parents:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-hodge-adapted-shell-pump-alignment-reduction-20260625.md
@@ -329,7 +329,7 @@ Combining `(MSH.9)`, `(MSH.14)`, and `(MSH.17)` yields
 \tag{MSH.21}
 ```
 
-The exact remaining closure is therefore
+The exact signed top-strain companion is
 
 ```math
 \boxed{
@@ -342,7 +342,14 @@ The exact remaining closure is therefore
 \tag{MSH.22}
 ```
 
-If `(MSH.22)` is proved, then the Hodge commutator remainder is finite:
+This is not the whole moving annular pump.  It is the coordinate produced when
+the native Hodge selector motion is read through the selected top-strain
+storage.  The signed recombination note identifies `(MSH.22)` with
+\(d(e_jL_j)/dt+e_j\lambda_+\) on the active set, so it belongs to the same
+bounded-below storage mechanism as the top-strain superheat coordinate.
+
+With that coordinate installed, the Hodge selector-motion remainder is reduced
+to the already counted top-strain storage plus legal residual:
 
 ```math
 \int_0^{T_*}\sum_j
@@ -351,13 +358,14 @@ If `(MSH.22)` is proved, then the Hodge commutator remainder is finite:
 \tag{MSH.23}
 ```
 
-This is smaller than the old fixed-shell pressure/interface burden.  It is not
-yet the full smoothness proof.
+This is smaller than the old fixed-shell pressure/interface burden.  It does
+not pay the non-top-strain pressure-stress and cubic-collar service left by the
+moving annular pump.
 
 ## 8. Consequence for the full material clock
 
-The fixed-shell pump estimate from `HAS.16` becomes, for the material
-Stokes/Hodge shell packet,
+The invalid step was to promote the Hodge selector-motion estimate into a
+whole-pump estimate of the form
 
 ```math
 [m_j]_+
@@ -371,22 +379,28 @@ r_j^{legal}.
 \tag{MSH.24}
 ```
 
-The first term is viscous loss.  The second term is the signed top-strain
-storage coordinate, which is exact only together with `(MSH.22)`.  The last
-term is legal finite-overlap residual.
+That estimate is not installed for the full active pump.  It is valid only for
+the Hodge selector-motion / top-strain-aligned coordinate.  The remaining part
+of \(m_j\) is the same transported annular pressure-stress, pressure-transport,
+viscous-stress, and cubic-collar service isolated in the pressure/cubic
+cancellation and full-density bridge notes.
 
-Therefore the positive same-material shell pump has finite total mass once
+The live closure is therefore
 
 ```math
-\int_0^{T_*}\sum_j
-\left[
-(m_j-d_j)L_j
-+e_j{W_\lambda\over\lambda}
-\right]_+\,dt<\infty.
+\int_0^{T_*}
+\left(
+\mathcal Q_{\phi}^{press/stress,+}
++
+\mathcal C_{\phi}^{cubic,+}
++
+\mathcal R_{\phi}^{collar/stress,+}
+\right)dt<\infty,
 \tag{MSH.25}
 ```
 
-This is the live log-weighted same-shell exchange closure.
+or an equivalent bounded-below same-material storage that pays this positive
+service before rectification.
 
 ## 9. Continuation landing
 
@@ -394,7 +408,7 @@ After `(MSH.25)` is proved, the installed chain applies without the fixed-shell
 commutator gap:
 
 ```math
-\text{finite material Stokes/Hodge shell clock}
+\text{finite pressure-stress/cubic-collar positive clock}
 \Longrightarrow
 \text{finite continuation-depth material record}
 \Longrightarrow
@@ -405,5 +419,5 @@ commutator gap:
 
 Classical local theory then relaunches the same smooth solution past the
 alleged finite terminal time.  This note supplies the native shell reduction
-needed for that route; the log-weighted same-shell exchange closure remains
+needed for that route; the pressure-stress/cubic-collar positive clock remains
 live.
