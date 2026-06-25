@@ -8,6 +8,12 @@ Theorem-facing audit for the repaired cascade chain
 LowMode.A+SP.A+HH.Abs.Q\Longrightarrow GC.A\Longrightarrow PST.A\Longrightarrow PEnd.A.
 ```
 
+Boundary correction, 2026-06-25: this audit checks circularity of the repaired
+cascade chain.  It does not prove the scheduler compatibility condition needed
+by the fully quantified `Sched.A+` theorem.  The chain is acyclic only after
+that compatibility condition is included as an explicit hypothesis or proved
+from the selected data.
+
 ## Dependency Order
 
 The chain uses the following order.
@@ -18,8 +24,11 @@ The chain uses the following order.
 4. `GC.A` adds those three estimates and produces the gradient tail inequality.
 5. `Coeff.A` proves fixed-threshold integrability of `\widetilde\Lambda_N^\sharp`.
 6. `Sched.A` propagates the high tail with Gronwall and a finite partition.
-7. `PST.A` records scheduled shell/tail suppression.
-8. `PEnd.A` converts scheduled shell/tail suppression into the periodic endpoint input.
+7. `Sched.A+` supplies the quantified threshold scheduler when its cell-count
+   compatibility condition holds.
+8. `PST.A` records scheduled shell/tail suppression.
+9. `PEnd.A` converts scheduled shell/tail suppression into the periodic
+   endpoint cascade-face input.
 
 ## Upstream Inputs
 
@@ -63,4 +72,7 @@ The coefficient `\Theta_N^\sharp` is a finite threshold-collar coefficient. `Coe
 
 The repaired cascade chain is acyclic. Endpoint exclusion is downstream. Full critical gradient control is absent from the upstream estimates. Uniform all-threshold Besov gain is absent from the scheduler argument.
 
-The repaired chain is therefore circularity-clear at the theorem-packet level.
+The repaired chain is therefore circularity-clear at the theorem-packet level,
+but not unconditional.  Its current forward use requires the `Sched.A+`
+compatibility condition, and it still does not prove the active
+forward-gold full annular derivative density estimate.
