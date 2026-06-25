@@ -73,7 +73,7 @@ TerminalCZPressureCancellation.A
 \tag{FEL.2}
 ```
 
-The installed surfaces do not prove `(FEL.2)`.  They identify it as the pressure-specific remaining theorem.
+The installed surfaces do not prove `(FEL.2)`.  This remains the correct verdict for the pressure-only projection.  It is no longer the live full-PLS theorem after the pressure lobe is read through the material strain equation.
 
 ## Pressure-source tether alternative
 
@@ -85,24 +85,22 @@ The pressure-source route seeks
 
 The pressure Poisson and Leray identities act before positive-part extraction.  After one-sided terminal packet selection, the installed identities do not prove domination by the native source-current carrier.
 
-The failed direct pressure tether attempts reduce the issue to
+The failed direct pressure tether attempts reduce the pressure-only projection to
 
 ```math
 SelectedPressurePositivePartComparison.A
 ```
 
-or equivalent pressure-source absolute continuity / pure pressure Liouville statements.  Those are not installed.
+or equivalent pressure-source absolute continuity / pure pressure Liouville statements.  Those are not installed, and the newer full-PLS placement shows they should not be pursued as standalone closure gates.
 
 ## Verdict
 
-The full entropy law is not closed from current inputs.  The Schur-complement correction is the correct entropy object, and it reduces the remaining task to the pressure-partner/collar theorem `(FEL.2)` or an equivalent pressure-source tether / pure-pressure-residue Liouville theorem.
+This pressure-only closure is not closed from current inputs.  The Schur-complement correction is the correct relative-defect object, but the graph-parallel pressure/collar part has been reassigned to the full material participation-law--strain clock.
 
-The exact remaining theorem is
+The pressure-only theorem named here is
 
 ```math
-\boxed{
 \text{one-sided positive pressure/Hodge/collar graph-parallel growth is paid by retained CZ partners, legal collar exits, donor no-free-sink, or Schur relative defect.}
-}
 ```
 
-Without that theorem, the bounded-below relative Schur-complement entropy law remains conditional and the full entropy law is not yet closed.
+That statement is retained only as a failed projection.  The live full route asks for a bounded-below available-participation entropy paying the primitive moving low-high PLS driver, with pressure/Hodge/collar growth already admitted as one coordinate of that clock.
