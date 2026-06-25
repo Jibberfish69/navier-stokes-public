@@ -39,7 +39,7 @@ The object is one original smooth incompressible Navier--Stokes history:
 \qquad
 \nabla\cdot u=0,
 \qquad
-u>0.
+u(0)=u_0\in C^\infty .
 ```
 
 The material map is
