@@ -10,7 +10,7 @@ edge_effect: >-
   same transported material packet. This proves admission of the rectification
   clock into the material tower. It does not prove the unweighted terminal
   summability of that clock; that summability remains the signed smooth
-  same-packet commutator/coercivity producer.
+  same-packet commutator/coercivity estimate.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-annular-stress-work-rectification-clock-reduction-20260624.md
   - problems/navier-stokes/theorem-construction/mpp-material-record-definition-for-fixed-hs-readout-20260623.md
