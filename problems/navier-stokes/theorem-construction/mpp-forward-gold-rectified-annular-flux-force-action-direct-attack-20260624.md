@@ -326,7 +326,7 @@ Equivalently,
 ```math
 \boxed{
 \int_{s_0}^{0}
-\left|{d\over ds}F_{\phi_m}^{\sharp}(s)\right|\,ds
+\left|{d\over ds}F_{\phi}^{\sharp}(s)\right|\,ds
 <\infty .
 }
 \tag{RAF.27}
