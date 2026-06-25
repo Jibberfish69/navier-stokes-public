@@ -1,6 +1,6 @@
 # GraphCompatibleFullClockEntropyAttempt.A
 
-Status: failed as a complete closure; pressure/collar lobe obstruction removed, but free-material PLS positive variation remains.
+Status: graph-compatible clock replacement installed; pressure/collar lobe obstruction removed; free-material recirculation separated from one-way no-free-upcrossing.
 
 ## 0. Graph-compatible clock
 
@@ -73,7 +73,7 @@ D_t\nabla_x\phi=-(\nabla_xu)^\top\nabla_x\phi .
 
 Higher pressure/collar tower components are handled by the graph-compatible pressure/collar replacement above.
 
-## 4. Remaining free-material producer
+## 4. Remaining free-material branch after recirculation separation
 
 After removing pressure/collar lobe overcount, coefficient-frame superheat, selected top-strain superheat, annular stress-work, and wrong-sign recirculation, the remaining hard producer is the rectified positive variation of the free material participation-law--strain interface:
 
@@ -101,11 +101,19 @@ d(-E_w)+[m_w^{PLS}]_+dt
 
 This shows the obstruction precisely: positive variation is controlled only if the negative side / rectified exchange is controlled.  Same-fluid donor symmetry gives signed cancellation, but not rectified BV.  The two-shell alternating-transfer model still applies to the free material shell interface.
 
+After the later recirculation closure, this sentence should be read only as
+the algebraic warning about signed cancellation.  The oscillatory two-shell
+branch itself is not the remaining live branch: bounded-record cycles,
+subheat accelerated backscatter, superheat recirculation, and top-shell
+regeneration have been routed into already-paid participation cost.  What
+remains is the non-oscillatory upcrossing branch, namely one-way growth of the
+continuation-depth free material record.
+
 ## 5. Verdict
 
 The graph-compatible pressure/collar replacement removes the pressure positive-part CZ obstruction from the continuation readout.  It does not by itself prove the full graph-compatible PLS clock finite.
 
-The final remaining theorem is now sharply:
+The final remaining theorem is now sharply the no-free-upcrossing form:
 
 ```math
 \boxed{
@@ -117,3 +125,20 @@ C_N(u_0)+\text{viscous/top-strain/annular/legal finite terms}.
 ```
 
 plus the relative Schur-defect lower-rank estimate `(GFE.2)`.  Without `(GFE.5)`, the graph-compatible full-clock entropy is not closed.
+
+Equivalently, after the recirculation branch has been spent, prove a strict
+absorption / available-entropy line
+
+```math
+d\mathscr A_N^{graph}
++c_Nd\Omega_N^{PLS,graph}
+\le dR_N^{legal},
+\qquad
+\mathscr A_N^{graph}\ge -C_N(u_0),
+\tag{GFE.6}
+```
+
+or a one-way material-record growth estimate with a genuine coefficient
+\(\theta<1\) after all already-paid PLS coordinates are removed.  The
+graph-compatible replacement removes the pressure-lobe bridge from the
+continuation theorem; it does not by itself construct `(GFE.6)`.
