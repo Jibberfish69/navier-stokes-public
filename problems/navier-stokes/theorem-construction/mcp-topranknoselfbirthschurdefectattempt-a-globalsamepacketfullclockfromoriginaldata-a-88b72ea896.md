@@ -1,6 +1,8 @@
 # TopRankNoSelfBirthSchurDefectAttempt.A
 
-Status: direct no-self-birth proof not completed; exact residual theorem identified.
+Status: superseded as a live frontier by `mcp-pressurepartner-gate-demoted-by-full-pls-strain-placement-20260625.md` and `mcp-primitivegraphdriver-pls-interface-direct-attack-20260625.md`.
+
+This note correctly shows that the relative Schur complement pays only the pressure/collar defect \(W_N\), not the raw graph-parallel motion.  Its final reduction to a pressure-partner theorem is stale.  After the full PLS strain placement, graph-parallel pressure/Hodge/collar growth is admitted into the material strain equation and the primitive moving low-high participation-law--strain driver.  The remaining nonconditional theorem is the bounded-below available-participation entropy, or strict no-self-birth/contraction, for that primitive full PLS driver.
 
 ## Setup
 
