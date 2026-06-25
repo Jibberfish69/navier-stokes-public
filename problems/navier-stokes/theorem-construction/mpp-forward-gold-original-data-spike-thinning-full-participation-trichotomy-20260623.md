@@ -391,5 +391,5 @@ smooth same-packet commutator/coercivity theorem supplies the finite full clock:
 The route does not use a viscosity-only drain, pressure-only recovery, finite
 jet proxy, endpoint measure proxy, or detached readout.  Every case is read on
 the same pressure-viscosity-incompressibility-velocity material packet, and the
-remaining proof producer is the signed full-clock coercivity estimate for that
+remaining proof estimate is the signed full-clock coercivity estimate for that
 same packet.

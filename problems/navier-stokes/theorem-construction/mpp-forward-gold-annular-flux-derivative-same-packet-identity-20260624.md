@@ -301,7 +301,7 @@ same-packet service density:
 \tag{AFD.21}
 ```
 
-That is exactly the signed smooth same-packet commutator/coercivity producer in
+That is exactly the signed smooth same-packet commutator/coercivity estimate in
 flux-rectified form.
 
 The physical meaning is direct: the outer annulus can carry later payback, and
