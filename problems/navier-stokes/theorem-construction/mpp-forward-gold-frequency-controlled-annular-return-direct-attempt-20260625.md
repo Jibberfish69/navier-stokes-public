@@ -218,6 +218,9 @@ Bony decomposition gives the shellwise split
 \tag{FCA.15}
 ```
 
+Here \(T_u^{op}u\) denotes the opposite paraproduct, with the high and low
+frequency roles of the two tensor factors exchanged.
+
 The low-high part contains
 
 ```math
