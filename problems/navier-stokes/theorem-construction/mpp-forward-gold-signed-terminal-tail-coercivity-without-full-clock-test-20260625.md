@@ -134,7 +134,7 @@ c\left(
 |\mathcal C_\phi^{cubic}|_+
 \right)
 \le
-\text{strict loss}+	ext{summable residual}.
+\text{strict loss}+\text{summable residual}.
 \tag{STC.9}
 ```
 
