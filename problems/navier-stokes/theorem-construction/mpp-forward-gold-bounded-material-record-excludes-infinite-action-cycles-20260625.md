@@ -17,6 +17,7 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-material-record-definition-for-fixed-hs-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-material-clock-to-fixed-hs-continuation-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mcp-global-full-clock-stress-time-spatial-reduction-20260625.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-fixed-annulus-bounded-record-controls-flux-variation-20260625.md
 ---
 
 # Bounded Material Record Excludes Infinite Positive Action Cycles
@@ -130,7 +131,48 @@ C_N(K)
 for every \(t\in I\), with the collar volume and transported collar geometry
 controlled by the same record.
 
-## 2. Unit cycles require definite time under bounded record
+## 2. Rectified flux variation is also bounded on a fixed material stack
+
+Let \(\{\psi_\ell\}_{\ell\in\mathcal I}\) be a finite transported material
+annular atlas, or a countable atlas with summable cutoff seminorms,
+
+```math
+\sum_{\ell\in\mathcal I}
+\|\psi_\ell\|_{C^2}<\infty .
+\tag{BMR.7}
+```
+
+For each material cutoff, the fixed-annulus variation lemma gives
+
+```math
+\operatorname{Var}_I F_{\psi_\ell}
+\le
+C_{\psi_\ell,N}(K)
+\left(
+|I|+\int_I\mathcal S_N^{mat}(t)\,dt
+\right)
+\tag{BMR.8}
+```
+
+under the same bounded-record hypothesis `(BMR.5)`.  Summing over the atlas
+therefore gives
+
+```math
+\sum_{\ell\in\mathcal I}\operatorname{Var}_I F_{\psi_\ell}
+\le
+C_{\mathcal I,N}(K)
+\left(
+|I|+\int_I\mathcal S_N^{mat}(t)\,dt
+\right).
+\tag{BMR.9}
+```
+
+So the rectified annular return of a fixed transported stack cannot have
+independent infinite variation while the same material record and its service
+density stay controlled.  Any infinite rectified stack variation must be
+positive growth or service of the same material record.
+
+## 3. Unit cycles require definite time under bounded record
 
 Let \(I_j=[a_j,b_j]\subset[0,T_*)\) be disjoint or bounded-overlap intervals
 on the same transported material history, and suppose each interval carries one
@@ -138,7 +180,7 @@ unit of positive annular action:
 
 ```math
 \int_{I_j}\mathcal A_N^\sharp(t)\,dt\ge \eta>0.
-\tag{BMR.7}
+\tag{BMR.10}
 ```
 
 If `(BMR.5)` holds on the union of these intervals, then `(BMR.6)` gives
@@ -147,7 +189,7 @@ If `(BMR.5)` holds on the union of these intervals, then `(BMR.6)` gives
 |I_j|
 \ge
 {\eta\over C_N(K)}.
-\tag{BMR.8}
+\tag{BMR.11}
 ```
 
 For a finite terminal time \(T_*\), a bounded-overlap family therefore satisfies
@@ -156,13 +198,13 @@ For a finite terminal time \(T_*\), a bounded-overlap family therefore satisfies
 \sum_j 1
 \le
 {K_{ov}C_N(K)T_*\over \eta}.
-\tag{BMR.9}
+\tag{BMR.12}
 ```
 
 So infinitely many unit positive action cycles cannot accumulate before
 \(T_*\) while the same material record is bounded.
 
-## 3. Consequence for the full clock
+## 4. Consequence for the full clock
 
 The full material clock has the form
 
@@ -173,7 +215,7 @@ d\Omega_N^{full}
 +
 C_{\log}\,d[\log(1+\mathcal P_N^{mat})]_+
 +d\Omega_N^{legal}.
-\tag{BMR.10}
+\tag{BMR.13}
 ```
 
 Assume the legal part is in the already-installed legal normal form.  Then, on
@@ -183,14 +225,14 @@ any finite terminal interval,
 \int d[\log(1+\mathcal P_N^{mat})]_+<\infty
 \quad\Longrightarrow\quad
 \sup_t\mathcal P_N^{mat}(t)<\infty.
-\tag{BMR.11}
+\tag{BMR.14}
 ```
 
 By `(BMR.6)`, this implies
 
 ```math
 \int_0^{T_*}\mathcal A_N^\sharp(t)\,dt<\infty.
-\tag{BMR.12}
+\tag{BMR.15}
 ```
 
 Hence, modulo legal residuals already required to be summable,
@@ -199,20 +241,20 @@ Hence, modulo legal residuals already required to be summable,
 \int_0^{T_*}d\Omega_N^{full}=\infty
 \quad\Longrightarrow\quad
 \int_0^{T_*}d[\log(1+\mathcal P_N^{mat})]_+=\infty.
-\tag{BMR.13}
+\tag{BMR.16}
 ```
 
 This is the exact improvement over the previous cycle formulation.  The
 remaining hard branch is material-record positive growth itself, not bounded
 record oscillatory annular cycling.
 
-## 4. Relation to the pay-it-back-later identity
+## 5. Relation to the pay-it-back-later identity
 
 The transported stress identity
 
 ```math
 {d\over dt}M_\phi(t)+D_\phi(t)=-F_\phi(t)
-\tag{BMR.14}
+\tag{BMR.17}
 ```
 
 still attaches the center pulse to the same outer annular history.  The new
@@ -225,7 +267,7 @@ and the fake arbitrary oscillation model together.  What remains is the same
 material record becoming unbounded, which is exactly the continuation-facing
 quantity.
 
-## 5. Result
+## 6. Result
 
 The zero-record-growth branch of the no-free-positive-material-action-cycle
 problem is proved:
@@ -236,7 +278,7 @@ problem is proved:
 \Longrightarrow
 \int_0^{T_*}\mathcal A_N^\sharp(t)\,dt<\infty.
 }
-\tag{BMR.15}
+\tag{BMR.18}
 ```
 
 Therefore the global clock failure has only one remaining same-object form:
@@ -245,7 +287,7 @@ Therefore the global clock failure has only one remaining same-object form:
 \boxed{
 \int_0^{T_*}d[\log(1+\mathcal P_N^{mat})]_+=\infty.
 }
-\tag{BMR.16}
+\tag{BMR.19}
 ```
 
 This note does not close the MPP by itself.  It removes bounded-record positive
