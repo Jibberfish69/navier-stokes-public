@@ -1,6 +1,16 @@
 # FullEntropyLawPressurePartnerClosureAttempt.A
 
-Status: failed to close from installed inputs.  The full Schur-complement entropy law remains conditional on the pressure-partner/collar package.
+Status: superseded as a live frontier by `mcp-pressurepartner-gate-demoted-by-full-pls-strain-placement-20260625.md`.
+
+This note remains useful as a failed pressure-only projection.  Its conclusion that the full entropy law is conditional on a standalone pressure-partner/collar package is no longer the live route.  The newer full PLS strain-placement note shows that selected positive pressure/Hodge/collar graph-parallel growth is not an external Calderon-Zygmund partner problem.  It is admitted through
+
+```math
+D_tS+S^2+\Omega^2+\nabla^2p=\nu\Delta S
+```
+
+into the full participation-law--strain clock: material strain growth, strain-vorticity imbalance, viscous strain-tower service, collar/eigenframe motion, and the primitive moving low-high PLS graph-driver.
+
+The live remaining theorem is therefore the bounded-below available-participation entropy for the full PLS clock, or an equivalent strict no-self-birth/contraction theorem for the primitive moving low-high material deformation coefficient.  The pressure-partner package below should not be revived as an independent entropy-closing gate.
 
 ## Target
 
