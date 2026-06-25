@@ -156,6 +156,12 @@ e^{\nu(t-s)\Delta}
 \tag{FCA.11}
 ```
 
+Here \(\mathbb P\nabla\cdot(u\otimes u)\) is only the Eulerian shorthand for
+the coupled pressure-incompressibility response.  In the transported material
+packet this is read as the velocity equation together with the pressure
+complement, coefficient equations, and divergence constraint; the pressure
+channel is not discarded.
+
 The heat kernel gives
 
 ```math
@@ -206,7 +212,7 @@ Bony decomposition gives the shellwise split
 ```math
 \Delta_j(u\otimes u)
 =
-\Delta_j(T_u u)+\Delta_j(T_u u)^{op}
+\Delta_j(T_u u)+\Delta_j(T_u^{op}u)
 +
 \Delta_jR(u,u).
 \tag{FCA.15}
@@ -319,4 +325,3 @@ transported-collar, and projector commutator terms included.
 This is not a detached obstruction.  It is exactly the full coupled
 pressure-viscosity-incompressibility-velocity transfer needed to make the
 annular stress/strain return have finite variation.
-
