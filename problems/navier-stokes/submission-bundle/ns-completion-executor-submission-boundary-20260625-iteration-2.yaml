@@ -1,0 +1,50 @@
+---
+version: 1
+artifact_id: ns-completion-executor-submission-boundary-2026-06-25
+status: blocked
+date: '2026-06-25'
+iteration_index: 2
+consumed_work_node_ids:
+- ns-submission-readiness
+input_refs:
+- problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260625.md
+- problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260625.md
+- problems/navier-stokes/ns-completion-executor-route-sync-20260625.yaml
+- problems/navier-stokes/ns-completion-route-sync-payload-20260625.yaml
+- system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+- problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260625.md
+- problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260625.yaml
+- problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260625.yaml
+- problems/navier-stokes/submission-verdict.yaml
+- problems/navier-stokes/submission-bundle/submission-verdict.yaml
+- problems/navier-stokes/submission-bundle/submission-export-status.yaml
+submission_ready: false
+pdf_tracks_rendered: true
+pdf_render_status:
+  status: rendered
+  rendered: true
+  tracks:
+    human_app_aligned:
+      path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+      present: true
+      sha1: 3efe85ad83d6b0338d4c4cc7cdac6e9a141765bd
+      bytes: 4540439
+      manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+      required_for_clay_submission: true
+    codex_machine_paper:
+      path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+      present: true
+      sha1: b1b00ffb0490c197b2936153e7852f6aa822032b
+      bytes: 360725
+      manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
+      required_for_clay_submission: true
+  preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+boundary_reason: 'executor reentry reached an exact blocked state: proof closure and
+  reader-facing manuscript proof are still open'
+may_advance_when:
+- the proof lane lands the CM obstruction in Part or Field or closes it by legitimate
+  scope rejection
+- the manuscript lane converts earned proof movement into human-facing proof prose
+- the route graph, app, and MCP readout agree with the proof and manuscript state
+state_delta: changed submission boundary by tying readiness to executor proof/manuscript
+  evidence
