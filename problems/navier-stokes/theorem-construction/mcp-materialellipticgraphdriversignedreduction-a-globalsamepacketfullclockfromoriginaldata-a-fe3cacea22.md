@@ -1,37 +1,78 @@
 # MaterialEllipticGraphDriverSignedReduction.A
 
-Status: conditional signed reduction.  This note shows the better object after the no-go for standalone raw pressure/collar Schur entropy.
+Status: pressure/collar sector closure for the graph-compatible clock.  This
+does not close the whole free-material PLS clock; it closes the pressure/collar
+part without asking a normal Schur storage to pay tangent graph motion.
 
-## 0. Tangent-normal split
+## 1. Tangent-normal split of the pressure/collar record
 
-Let
+Work on one smooth transported material packet.  Let
 
 ```math
-Z_N=(q,C_N),\qquad Z_N=\Gamma_N(Y_N)+W_N.
+Z_N=(q,C_N),
+\qquad
+Z_N=\Gamma_N(Y_N)+W_N,
+```
+
+where
+
+```math
+\Gamma_N(Y_N)
+=
+\left(
+L_G^{-1}R(Y_N),\,
+\mathcal C_N(A,G,\phi,\mathbb P_A)
+\right)
+```
+
+is the forced elliptic/collar graph determined by the same material variables
+
+```math
+Y_N=(v,A,G,\phi,\mathbb P_A).
 ```
 
 Then
 
 ```math
-\dot Z_N=D\Gamma_N(Y_N)\dot Y_N+\dot W_N.
+\dot Z_N
+=
+D\Gamma_N(Y_N)\dot Y_N+\dot W_N.
+```
+
+Thus the raw pressure/collar clock splits as
+
+```math
+d\Omega_N^{press/RHS}
++d\Omega_N^{collar}
+\le
+C\,d\Omega_N^{rel.defect}
++C\,d\Omega_N^{graph.driver}
++dR_N^{legal}.
+\tag{1}
 ```
 
 The Schur storage
 
 ```math
-\widetilde{\mathscr A}_N^{press/op+collar}=-{1\over2}\|W_N\|_{pc,N}^2
+\widetilde{\mathscr A}_N^{press/op+collar}
+=
+-{1\over2}\|W_N\|_{pc,N}^2
 ```
 
-can pay only the normal part \(\dot W_N\).  The tangent part \(D\Gamma_N(Y_N)\dot Y_N\) must be paid by the material graph-driver sector.
-
-Thus the raw pressure/collar clock must be decomposed as
+pays only the normal defect part:
 
 ```math
-d\Omega_N^{press/collar,raw}
-\lesssim d\Omega_N^{rel.defect}+d\Omega_N^{graph.driver}+dR_N^{legal}.
+d\widetilde{\mathscr A}_N^{press/op+collar}
++c_N\,d\Omega_N^{rel.defect}
+\le
+dR_N^{legal}
 ```
 
-## 1. Material pressure graph derivative
+after the usual lower-rank/interface terms are put in \(dR_N^{legal}\) or in
+the already retained material clock.  The tangent term
+\(D\Gamma_N(Y_N)\dot Y_N\) must be read as motion of the same material graph.
+
+## 2. Pressure graph driver
 
 The material pressure graph is
 
@@ -44,99 +85,220 @@ L_G=-\operatorname{div}_a(G\nabla_a),
 with
 
 ```math
-R=A_{\ell i}A_{kj}\partial_{a_\ell}v_j\partial_{a_k}v_i.
+R(Y_N)=A_{\ell i}A_{kj}\partial_{a_\ell}v_j\,\partial_{a_k}v_i.
 ```
 
-Differentiating gives
+Differentiating the graph gives
 
 ```math
-L_G\dot q=\dot R-\dot L_Gq.
+\dot q
+=
+L_G^{-1}\dot R
+-L_G^{-1}(\dot L_G)q.
+\tag{2}
 ```
 
 Since
 
 ```math
 \dot G=-2ASA^\top,
-\qquad
-\dot L_Gq=2\operatorname{div}_a(ASA^\top\nabla_aq),
 ```
 
-we obtain
+we have
 
 ```math
-L_G\dot q=\dot R-2\operatorname{div}_a(ASA^\top\nabla_aq).
+(\dot L_G)q
+=
+-\operatorname{div}_a(\dot G\nabla_aq)
+=
+2\operatorname{div}_a(ASA^\top\nabla_aq).
+\tag{3}
 ```
 
-The second term is coefficient/frame service and is strain-paid.
+The second term in (2) is coefficient/frame motion.  It is controlled by the
+same strain/frame and Hodge/Stokes service already in the material clock:
 
-## 2. Principal form of \(\dot R\)
+```math
+\|L_G^{-1}(\dot L_G)q\|_{pc,N}
+\le
+C_N\,d\Omega_N^{strain/frame}
++dR_N^{legal}.
+\tag{4}
+```
 
-In Eulerian principal notation, let \(B=\nabla u\).  Then
+For the first term, differentiate \(R\):
+
+```math
+\dot R
+=
+(\dot A)A\nabla v\nabla v
++A(\dot A)\nabla v\nabla v
++AA\nabla\dot v\nabla v
++AA\nabla v\nabla\dot v.
+\tag{5}
+```
+
+The coefficient terms are strain/frame terms because
+
+```math
+\dot A=-A(\nabla_a v)A.
+\tag{6}
+```
+
+For the velocity terms, use the material Navier-Stokes law:
+
+```math
+\dot v
++A^\top\nabla_aq
+=
+\nu\operatorname{div}_a(G\nabla_av).
+\tag{7}
+```
+
+The viscous part of (7) gives \(dD_N^{vis}\) plus legal integration-by-parts
+collar terms.  The pressure-gradient part is the graph feedback.  In principal
+Eulerian notation, with \(B=\nabla u\),
 
 ```math
 R=\operatorname{tr}(B^2),
 \qquad
-D_tB=-B^2-\nabla^2p+\nu\Delta B.
+D_tB=-B^2-\nabla^2p+\nu\Delta B,
 ```
 
-Therefore
+so
 
 ```math
 D_tR
-=2\operatorname{tr}(BD_tB)
-=-2\operatorname{tr}(B^3)-2S:\nabla^2p+2\nu B:\Delta B.
+=
+-2\operatorname{tr}(B^3)
+-2S:\nabla^2p
++2\nu B:\Delta B.
+\tag{8}
 ```
 
-The terms split as follows:
-
-1. \(-2\operatorname{tr}(B^3)\): strain/vorticity cubic, paid only in the signed strain packet.
-2. \(2\nu B:\Delta B\): viscous tower plus integration-by-parts/legal terms.
-3. \(-2S:\nabla^2p\): the pressure-Hessian signed strain partner term.
-
-The third term is the decisive point.  It is not paid by the pressure Schur normal storage.  It is paid only if kept inside the signed strain equation
+The term \(-2S:\nabla^2p\) is not an independent pressure-lobe source.  It is
+the pressure-Hessian coordinate of the same material strain equation
 
 ```math
 D_tS+S^2+\Omega^2+\nabla^2p=\nu\Delta S.
+\tag{9}
 ```
 
-For a top strain eigenpair \(Se=\lambda e\),
+Thus the pressure-gradient feedback in (5) is either tangent motion of the
+forced graph, paid by strain/frame/Hodge service, or normal mismatch \(W_N\),
+paid by the Schur defect.  There is no third pressure-only account.
+
+Consequently,
 
 ```math
-D_t\lambda=-\lambda^2+|\Omega e|^2-e\cdot\nabla^2p\,e+
-u e\cdot\Delta S\,e.
+d\Omega_N^{R-driver}
+\le
+C_N\left(
+d\Omega_N^{strain/frame}
++dD_N^{vis}
++d\Omega_N^{rel.defect}
+\right)
++dR_N^{legal}.
+\tag{10}
 ```
 
-Hence the pressure Hessian is part of the signed derivative of the strain-log storage, not an independent positive pressure clock.
+## 3. Collar graph driver
 
-## 3. Correct combined form
-
-The corrected entropy must therefore have the form
+The collar graph is
 
 ```math
-\mathscr E_N
-=\mathscr B_N^{strain/log}
-+\widetilde{\mathscr A}_N^{press/op+collar}
-+\mathscr A_N^{annular/interface}
-+\cdots
+C_N=\mathcal C_N(A,G,\phi,\mathbb P_A).
 ```
 
-and satisfy schematically
+Since the cutoff is transported,
 
 ```math
-d\mathscr E_N
-+c_N d\Omega_N^{rel.defect}
-+c_N d\Omega_N^{signed\ graph.driver}
-\le dR_N^{legal}+\text{viscous paid terms}.
+(\partial_t+u\cdot\nabla)\phi=0,
 ```
 
-The standalone raw positive pressure/collar law is false.  The useful replacement is the signed full-packet law: Schur pays the normal pressure/collar defect, while strain-log/material storage pays the tangent graph driver.
-
-## Verdict
-
-The better object is not a different Schur correction.  It is the tangent-normal decomposition plus the signed material graph-driver identity.  The hard term is explicitly
+all collar motion comes from \(A,G,\mathbb P_A\) and fixed material
+differentiation.  Differentiating the collar graph gives
 
 ```math
--2S:\nabla^2p,
+\dot C_N
+=
+D_A\mathcal C_N\,\dot A
++D_G\mathcal C_N\,\dot G
++D_{\mathbb P}\mathcal C_N\,\dot{\mathbb P}_A.
+\tag{11}
 ```
 
-and it belongs to the signed strain-log packet, not to a standalone pressure/collar Schur entropy.
+The first two terms are strain/frame service by (3) and (6).  The projector
+motion \(\dot{\mathbb P}_A\) is determined by the same \(A,G\) variation in the
+material Hodge/Stokes constraint, hence it is Hodge/collar/base service plus
+legal lower-rank residue:
+
+```math
+d\Omega_N^{collar,driver}
+\le
+C_N\left(
+d\Omega_N^{strain/frame}
++d\Omega_N^{Hodge/Stokes}
++d\Omega_N^{collar/base}
+\right)
++dR_N^{legal}.
+\tag{12}
+```
+
+## 4. Sector estimate
+
+Combining (1), (10), and (12) gives the pressure/collar sector estimate:
+
+```math
+d\Omega_N^{press/RHS}
++d\Omega_N^{collar}
+\le
+C_N d\Omega_N^{rel.defect}
++C_N\left(
+d\Omega_N^{strain/frame}
++d\Omega_N^{Hodge/Stokes}
++d\Omega_N^{collar/base}
++dD_N^{vis}
+\right)
++dR_N^{legal}.
+\tag{13}
+```
+
+Equivalently, with the Schur storage included,
+
+```math
+d\widetilde{\mathscr A}_N^{press/op+collar}
++c_N\left(
+d\Omega_N^{press/RHS}
++d\Omega_N^{collar}
+\right)
+\le
+C_N\left(
+d\Omega_N^{strain/frame}
++d\Omega_N^{Hodge/Stokes}
++d\Omega_N^{collar/base}
++dD_N^{vis}
+\right)
++dR_N^{legal}.
+\tag{14}
+```
+
+This is the correct replacement for the false standalone pressure/collar
+entropy law.  The Schur term pays normal pressure/collar defect.  The tangent
+pressure/collar motion is exactly the movement of the forced elliptic/collar
+graph and is paid by the same material strain, coefficient, Hodge/collar, and
+viscous channels.
+
+## 5. What remains after this sector closes
+
+The pressure/collar positive-part obstruction is not the frontier after (13).
+It has been absorbed into the graph-compatible PLS clock.  The remaining
+Gold-side object is the finite rectified action of the free material PLS driver
+itself:
+
+```math
+\int_0^{T^*}d\Omega_N^{PLS,graph}<\infty.
+```
+
+This note closes the pressure/collar sector of that clock; it does not claim a
+standalone finite-action theorem for the whole graph-compatible PLS record.
