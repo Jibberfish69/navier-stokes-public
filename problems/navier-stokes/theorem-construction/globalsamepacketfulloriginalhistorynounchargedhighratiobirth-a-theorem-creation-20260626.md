@@ -9,7 +9,7 @@
 
 ## Created Theorem
 
-GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A. Prove that a high-ratio upward birth on one original transported material history cannot be disjoint from annular Cauchy stress-work, material Hodge/projector coupling, weighted-summable entrance/legal mass, and contracted lower-band carry. Thus every such birth is charged inside the finite full same-material action estimate. This supplies the exact noncircular bridge needed for the annular/Hodge same-history packing theorem.
+GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A. Prove that a high-ratio upward birth on one original transported material history cannot be disjoint from annular Cauchy stress-work, material Hodge/projector coupling, weighted-summable entrance/legal mass, and contracted lower-band carry. Thus every such birth is charged inside the finite full same-material action estimate. This supplies the exact noncircular bridge needed for Prove no uncharged high-ratio upward birth on one transported material history..
 
 ## Inventive Search
 
