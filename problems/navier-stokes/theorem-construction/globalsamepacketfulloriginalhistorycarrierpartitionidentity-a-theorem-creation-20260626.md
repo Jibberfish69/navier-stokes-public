@@ -9,7 +9,7 @@
 
 ## Created Theorem
 
-GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A. Differentiate the high-band material energy on the original transported material history. The projected material Navier-Stokes equation partitions the positive high-band birth into lower-band carry, weighted-summable entrance/legal mass, annular Cauchy stress-work, material Hodge/projector motion, and viscous loss. Since viscous loss has the dissipative sign, a positive birth invisible to the other carriers is impossible. This supplies the exact noncircular bridge needed for the no-uncharged-high-ratio-birth theorem.
+GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A. Differentiate the high-band material energy on the original transported material history. The projected material Navier-Stokes equation partitions the positive high-band birth into lower-band carry, weighted-summable entrance/legal mass, annular Cauchy stress-work, material Hodge/projector motion, and viscous loss. Since viscous loss has the dissipative sign, a positive birth invisible to the other carriers is impossible. This supplies the exact noncircular bridge needed for Prove the original-history high-band carrier partition identity..
 
 ## Inventive Search
 
@@ -23,7 +23,7 @@ GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A. Differentiate the
 
 ### Candidate Theorems
 
-- GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A (full_same_material_high_band_carrier_partition_identity; score=146)
+- GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A (full_same_material_high_band_carrier_partition_identity; score=94)
 
 ### Retrieved Ingredients
 
