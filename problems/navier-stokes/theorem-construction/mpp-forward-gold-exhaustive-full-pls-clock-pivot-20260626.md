@@ -65,7 +65,8 @@ prove finite total mass of \(d\Omega_N^{PLS,full}\).
 
 ## Gate 2. Finite Total Action
 
-The noncircular producer is still required.  It must be either a bounded-below
+The remaining proof is the finite-action theorem for the same coupled
+participation-law-strain history.  It must be either a bounded-below
 same-material entropy
 
 ```math
