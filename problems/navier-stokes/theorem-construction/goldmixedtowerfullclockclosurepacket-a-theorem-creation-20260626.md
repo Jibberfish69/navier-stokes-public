@@ -2,14 +2,14 @@
 
 ## Target
 
-- target obligation: GlobalSamePacketFullGoodLambdaTail.A.ContractionSubprimitive
-- target label: noncircular proof of the weight-beating good-lambda contraction
+- target obligation: FullTowerFourBodyCancellation.A
+- target label: prove the enlarged full-tower four-body cancellation for the exact same-carrier tower channel list
 - route role: Use the rehydrated Gold packet: factorial mixed jets remove binomial overcount, endpoint trace identification ties H_m to the same full-packet density, temporal tower regularity supplies super-L1 endpoint thickness, and enlarged full-tower four-body cancellation gives finite total tower action for one transported material history.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GoldMixedTowerFullClockClosurePacket.A. Use the rehydrated Gold packet: factorial mixed jets remove binomial overcount, endpoint trace identification ties H_m to the same full-packet density, temporal tower regularity supplies super-L1 endpoint thickness, and enlarged full-tower four-body cancellation gives finite total tower action for one transported material history. This supplies the exact noncircular bridge needed for noncircular proof of the weight-beating good-lambda contraction.
+GoldMixedTowerFullClockClosurePacket.A. Use the rehydrated Gold packet: factorial mixed jets remove binomial overcount, endpoint trace identification ties H_m to the same full-packet density, temporal tower regularity supplies super-L1 endpoint thickness, and enlarged full-tower four-body cancellation gives finite total tower action for one transported material history. This supplies the exact noncircular bridge needed for prove the enlarged full-tower four-body cancellation for the exact same-carrier tower channel list.
 
 ## Inventive Search
 
@@ -23,7 +23,7 @@ GoldMixedTowerFullClockClosurePacket.A. Use the rehydrated Gold packet: factoria
 
 ### Candidate Theorems
 
-- GoldMixedTowerFullClockClosurePacket.A (gold_mixed_tower_full_clock_closure_packet; score=94)
+- GoldMixedTowerFullClockClosurePacket.A (gold_mixed_tower_full_clock_closure_packet; score=146)
 
 ### Retrieved Ingredients
 
@@ -41,8 +41,8 @@ GoldMixedTowerFullClockClosurePacket.A. Use the rehydrated Gold packet: factoria
 ## Forbidden Imports
 
 - GoldMixedTowerFullClockClosurePacket.A
-- noncircular proof of the weight-beating good-lambda contraction
-- GlobalSamePacketFullGoodLambdaTail.A.ContractionSubprimitive
+- prove the enlarged full-tower four-body cancellation for the exact same-carrier tower channel list
+- FullTowerFourBodyCancellation.A
 - full-MPP closure
 - submission readiness
 - global smoothness
