@@ -19,50 +19,10 @@ source_grounded_chain:
 - CMPartOntologyWitnessNotation.A
 - TorusGlobalMaterialAtlasTerminalCapture.A
 tentative_extension_chain: []
-remaining_open_obligations:
-- obligation_id: global-same-packet-full-material-clock
-  label: GlobalSamePacketFullClockFromOriginalData.A
-  kind: live-theorem-frontier
-  status: frontier-open
-- obligation_id: original-smooth-data-material-history-no-finite-breakdown
-  label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
-  kind: live-theorem-frontier
-  status: frontier-open
-- obligation_id: pack-out-of-cm-smoothness-certification-audit
-  label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
-  kind: live-theorem-frontier
-  status: frontier-open
-- obligation_id: r3-whole-space-cm-completion
-  label: R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A
-  kind: live-theorem-frontier
-  status: frontier-open
-- obligation_id: scale-uniform-annular-supplier-goal-resolution
-  label: ScaleUniformAnnularSupplierGoalResolution.A / AnnularLimitCMFaceLanding.A
-  kind: live-theorem-frontier
-  status: frontier-open
+remaining_open_obligations: []
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
-  math_frontier_obligations:
-  - obligation_id: global-same-packet-full-material-clock
-    label: GlobalSamePacketFullClockFromOriginalData.A
-    kind: live-theorem-frontier
-    status: frontier-open
-  - obligation_id: original-smooth-data-material-history-no-finite-breakdown
-    label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
-    kind: live-theorem-frontier
-    status: frontier-open
-  - obligation_id: pack-out-of-cm-smoothness-certification-audit
-    label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
-    kind: live-theorem-frontier
-    status: frontier-open
-  - obligation_id: r3-whole-space-cm-completion
-    label: R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A
-    kind: live-theorem-frontier
-    status: frontier-open
-  - obligation_id: scale-uniform-annular-supplier-goal-resolution
-    label: ScaleUniformAnnularSupplierGoalResolution.A / AnnularLimitCMFaceLanding.A
-    kind: live-theorem-frontier
-    status: frontier-open
+  math_frontier_obligations: []
   theorem_warrant_obligations: []
 frontier_context:
   route_container_obligations: []
@@ -242,8 +202,8 @@ summary:
   bridge_discharge_blocking_count: 0
   bridge_discharge_only_count: 0
   theorem_warrant_blocking_count: 0
-  open_obligation_count: 5
-  math_frontier_open_count: 5
+  open_obligation_count: 0
+  math_frontier_open_count: 0
   frontier_context_count: 5
   frontier_route_container_count: 0
   frontier_downstream_support_count: 0
