@@ -2,14 +2,14 @@
 
 ## Target
 
-- target obligation: GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive
-- target label: Create the recursive theorem subprimitive GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
+- target obligation: GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.CoreSubprimitive
+- target label: core same-history exclusion of a high-ratio upward birth invisible to annular stress, Hodge/projector coupling, entrance mass, and lower-band carry
 - route role: The original-history carrier partition identity is a localized support theorem. It partitions high-band positive birth on the transported material history, but it does not by itself prove the weight-beating contraction, weighted tail summability, or a bounded-below original-history action storage. The full-action route must keep the remaining no-free-upward-transfer estimate open instead of treating carrier partition as terminal closure.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullHistoryStorageLowerBound.A.SupportOnlyReduction. The original-history carrier partition identity is a localized support theorem. It partitions high-band positive birth on the transported material history, but it does not by itself prove the weight-beating contraction, weighted tail summability, or a bounded-below original-history action storage. The full-action route must keep the remaining no-free-upward-transfer estimate open instead of treating carrier partition as terminal closure. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
+GlobalSamePacketFullHistoryStorageLowerBound.A.SupportOnlyReduction. The original-history carrier partition identity is a localized support theorem. It partitions high-band positive birth on the transported material history, but it does not by itself prove the weight-beating contraction, weighted tail summability, or a bounded-below original-history action storage. The full-action route must keep the remaining no-free-upward-transfer estimate open instead of treating carrier partition as terminal closure. This supplies the exact noncircular bridge needed for core same-history exclusion of a high-ratio upward birth invisible to annular stress, Hodge/projector coupling, entrance mass, and lower-band carry.
 
 ## Inventive Search
 
@@ -19,20 +19,15 @@ GlobalSamePacketFullHistoryStorageLowerBound.A.SupportOnlyReduction. The origina
 - selected_mechanism: full_same_material_history_core_to_carrier_partition_support_only
 - candidate_count: 1
 - solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: The original-history carrier partition identity is a localized support theorem. It partitions high-band positive birth on the transported material history, but it does not by itself prove the weight-beating contraction, weighted tail summability, or a bounded-below original-history action storage. The full-action route must keep the remaining no-free-upward-transfer estimate open instead of treating carrier partition as terminal closure. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to GlobalSamePacketFullNoFreeUpwardTransferHardObstruction.A rather than pretending the frontier is closed.
+- selection_reason: This theorem is the right next move because it changes the proof economy: The original-history carrier partition identity is a localized support theorem. It partitions high-band positive birth on the transported material history, but it does not by itself prove the weight-beating contraction, weighted tail summability, or a bounded-below original-history action storage. The full-action route must keep the remaining no-free-upward-transfer estimate open instead of treating carrier partition as terminal closure. It deliberately reduces the remaining work to GlobalSamePacketFullNoFreeUpwardTransferHardObstruction.A rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
-- GlobalSamePacketFullHistoryStorageLowerBound.A.SupportOnlyReduction (full_same_material_history_core_to_carrier_partition_support_only; score=166)
+- GlobalSamePacketFullHistoryStorageLowerBound.A.SupportOnlyReduction (full_same_material_history_core_to_carrier_partition_support_only; score=180)
 
 ### Retrieved Ingredients
 
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:245 -- installed dynamic support
+- none
 
 ### Recursive Solver Chain
 
@@ -48,8 +43,8 @@ GlobalSamePacketFullHistoryStorageLowerBound.A.SupportOnlyReduction. The origina
 ## Forbidden Imports
 
 - GlobalSamePacketFullHistoryStorageLowerBound.A.SupportOnlyReduction
-- Create the recursive theorem subprimitive GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
-- GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive
+- core same-history exclusion of a high-ratio upward birth invisible to annular stress, Hodge/projector coupling, entrance mass, and lower-band carry
+- GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.CoreSubprimitive
 - full-MPP closure
 - submission readiness
 - global smoothness
@@ -61,7 +56,6 @@ GlobalSamePacketFullHistoryStorageLowerBound.A.SupportOnlyReduction. The origina
 3. Partition every positive high-band birth term into lower-band carry, weighted-summable entrance/legal mass, annular stress, Hodge/projector motion, or viscous loss.
 4. Treat the partition as support for the full-action estimate, not as the estimate itself.
 5. Expose the remaining noncircular no-free-upward-transfer / weight-beating tail theorem as the live gap.
-6. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
 ## Circularity Audit
 
