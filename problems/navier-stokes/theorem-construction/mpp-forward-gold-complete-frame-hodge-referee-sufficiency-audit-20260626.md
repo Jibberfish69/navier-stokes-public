@@ -166,7 +166,7 @@ surface explicitly discharges their open burdens without circularity.
 
 ## Full Support-Anchor Census
 
-The live-edge complete-frame block currently cites \(167\) support anchors for
+The live-edge complete-frame block currently cites \(168\) support anchors for
 \(\mathrm{GlobalSamePacketFullClockFromOriginalData.A}\).
 
 The mechanical census of those anchors gives:
@@ -176,7 +176,7 @@ The mechanical census of those anchors gives:
 | missing file | 0 | No cited support file is absent. |
 | frontmatter parse error | 0 | No cited support file failed metadata parsing. |
 | conditional or failed attempt | 102 | These surfaces cannot carry proof force without a later discharge. |
-| support or reduction | 64 | These surfaces are useful coordinates, reductions, readouts, or consumer bridges. |
+| support or reduction | 65 | These surfaces are useful coordinates, reductions, readouts, consumer bridges, or proof-force audits. |
 | initially unclassified | 1 | Hand-read below. |
 
 The single initially unclassified anchor is
@@ -190,6 +190,11 @@ critical-element architecture is the cleanest native organization at that proof
 resolution, but that the current inputs do not produce the object consumed by
 rigidity.  Its exact gap is the terminal time-face atom in critical-element
 language.  It therefore cannot certify the exhaustive full PLS clock.
+
+The added June 26 complete-frame payment audit is classified as proof-force
+audit/support: it records that complete-frame trace-free payment closes
+same-packet orientation/admission, while finite total transverse payment remains
+the full-clock producer burden.
 
 Thus every cited support anchor is now classified, and the classification
 confirms the same result as the referee machinery: the complete-frame Hodge
