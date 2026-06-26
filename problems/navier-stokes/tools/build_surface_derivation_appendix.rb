@@ -148,9 +148,9 @@ def cm_claim_and_proof(label, role)
   case role
   when :pack
     [
-      "#{branch} gives \\(\\neg\\Pack_Q\\), hence \\(\\Exit(Q;\\Owork)\\).",
-      "A member branch must first carry \\(Q\\) by a positive same-fluid packet. The selected terminal branch loses that carrier requirement before any participation or field readout can be asked of it. The Pack-out-of-CM audited order therefore gives \\(\\neg\\Pack_Q\\), and the class-exit embedding gives \\(\\Exit(Q;\\Owork)\\).",
-      "On the page, this tells the reader that the branch never reaches the later questions. The proof is not claiming a new smooth solution; it is recording that the alleged terminal branch cannot even supply the packet that would let membership be tested. That is why the branch belongs on the fail side of the pass-or-exit split."
+      "#{branch} records carrier-window support outside the CM-exit conclusion until the original participation law is tested.",
+      "A member branch must first carry \\(Q\\) by a positive same-fluid packet, but carrier loss is not itself a Part or Field face. The Pack-out-of-CM audited order records carrier-window evidence and then asks whether the selected original Navier--Stokes record admits the participation-law test. Only after carrier admission and original-participation typing can the branch be spent through Part or Field as \\(\\Exit(Q;\\Owork)\\).",
+      "On the page, this keeps carrier loss from being mistaken for a fourth CM face. The proof is not claiming a new smooth solution and is not spending raw \\(\\neg\\Pack_Q\\) as class exit. It is recording the admission boundary that must be crossed before the Part/Field witness tree carries proof force."
     ]
   when :part
     [
@@ -298,7 +298,7 @@ end
 def face_summary(entries)
   labels = entries.map do |entry|
     faces = Array(entry["cm_part_field_question_breaks"]).map(&:to_s).reject(&:empty?)
-    faces.empty? ? "no independent Part/Field face" : faces.sort.join(" and ")
+    faces.empty? ? "no independent Part/Field face" : faces_tex(faces.sort)
   end
   count_summary(labels, empty: "no independent Part/Field face")
 end
