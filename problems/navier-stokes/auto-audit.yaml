@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-26T09:33:27Z'
+  audited_at: '2026-06-26T09:36:35Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: referee-blocked-cm-contrapositive
@@ -300,6 +300,28 @@ issues:
   details:
   - Primary manuscript changed after the current review verdict was written.
   - Submission export status changed after the current review verdict was written.
+- issue_id: generated-core-placeholder-survives
+  severity: major
+  summary: A generated CoreSubprimitive placeholder survived into a live solver handoff
+    instead of being sharpened to a source-backed residual.
+  autofixable: false
+  recommended_action: Rerun theorem invention with a target-specific mechanism, or
+    patch the residual handoff so solver_verdict and proof_object name the audited
+    subprimitive rather than a generated core placeholder.
+  details:
+    placeholder_entries:
+    - artifact: theorem_creation
+      path: problems/navier-stokes/theorem-creation.yaml
+      location: theorem_creation.proof_object.direct_residual_gap
+      primitive_id: GlobalSamePacketFullHistoryStorageLowerBound.A.CoreSubprimitive
+      label: core original-history lower-bound construction for the good-lambda contraction
+      subprimitive_class: ''
+    - artifact: theorem_creation
+      path: problems/navier-stokes/theorem-creation.yaml
+      location: theorem_creation.invention.selected_candidate.direct_residual_gap
+      primitive_id: GlobalSamePacketFullHistoryStorageLowerBound.A.CoreSubprimitive
+      label: core original-history lower-bound construction for the good-lambda contraction
+      subprimitive_class: ''
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
