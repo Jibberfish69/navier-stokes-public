@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-06-26T01:26:00Z'
+  generated_at: '2026-06-26T01:35:36Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -43,12 +43,12 @@ branch_pool:
   parent_label: GlobalSamePacketFullClockFromOriginalData.A
   root_target_obligation_id: global-same-packet-full-material-clock
   root_target_label: GlobalSamePacketFullClockFromOriginalData.A
-  source_class: ''
+  source_class: stalled-dependency-discharge-target
   source_status: frontier-open
   branch_type: route-mutation
   pursuit_mode: independent
-  candidate_claim: Mutate the route locally so that globalSamePacketFullClockFromOriginalData.A
-    can be pursued without reopening the theorem target.
+  candidate_claim: 'Refine the stalled dependency-discharge target global-same-packet-full-material-clock:
+    GlobalSamePacketFullClockFromOriginalData.A'
   creative_move: 'Open a bounded side branch that changes representation but not the
     theorem target, then compare whether it reduces proof obligations. Keep this as
     a CM witness bridge: it must land in Silver Part or Field after live-object participation
@@ -58,8 +58,8 @@ branch_pool:
     and compactness arguments are supplier-only until a bridge license proves witness
     landing or the resurfacing audit.'
   invention_packet:
-    candidate_statement: Mutate the route locally so that globalSamePacketFullClockFromOriginalData.A
-      can be pursued without reopening the theorem target.
+    candidate_statement: 'Refine the stalled dependency-discharge target global-same-packet-full-material-clock:
+      GlobalSamePacketFullClockFromOriginalData.A'
     mediating_object: cm_witness_face_bridge_license
     proof_sketch:
     - State the weakest exact claim that would advance `global-same-packet-full-material-clock`
@@ -90,10 +90,10 @@ branch_pool:
   notes:
   - This branch starts at the first unresolved frontier.
   - This branch is machine-derived beyond the current frozen core.
-  recommended_next_cell_type: dependency-discharge
-  recommended_next_action: Creative theorem search selected `global-same-packet-full-material-clock`.
-    Use the invention packet to ground a new explicit bridge for GlobalSamePacketFullClockFromOriginalData.A
-    through dependency-discharge.
+  recommended_next_cell_type: theorem-creation
+  recommended_next_action: Creative theorem search kept the stalled dependency target
+    `global-same-packet-full-material-clock`. Run theorem-creation on that exact obstruction
+    instead of mining adjacent source-wall atoms.
   merge_policy: quarantined-until-promoted
 - branch_id: creative-branch-navier-stokes-2
   origin_obligation_id: original-smooth-data-material-history-no-finite-breakdown
@@ -300,5 +300,5 @@ summary:
   - creative-branch-navier-stokes-3
   - creative-branch-navier-stokes-4
   selected_branch_id: creative-branch-navier-stokes-1
-  selected_next_cell_type: dependency-discharge
+  selected_next_cell_type: theorem-creation
   intervention_needed: true
