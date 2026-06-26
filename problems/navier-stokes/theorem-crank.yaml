@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-06-26T09:42:09Z'
+  generated_at: '2026-06-26T09:42:41Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -89,15 +89,6 @@ cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
   local_consequences:
-  - label: GlobalSamePacketFullHistoryStorageLowerBound.A. Construct the global same-material
-      history functional whose lower bound prevents high-ratio one-way upward transfer
-      and yields the same good-lambda contraction. This supplies the exact noncircular
-      bridge needed for good-lambda contraction for the global same-material no-free-upward-transfer
-      tail.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/globalsamepacketfullhistorystoragelowerbound-a-theorem-creation-20260626.md
   - label: GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A. The original-history
       lower-bound storage core is the same algebraic partition of high-band positive
       birth on the transported material history. Differentiating the high-band material
@@ -110,6 +101,15 @@ cross_lane_broadcast:
     status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/theorem-construction/globalsamepacketfulloriginalhistorycarrierpartitionidentity-a-theorem-creation-20260626.md
+  - label: GlobalSamePacketFullHistoryStorageLowerBound.A. Construct the global same-material
+      history functional whose lower bound prevents high-ratio one-way upward transfer
+      and yields the same good-lambda contraction. This supplies the exact noncircular
+      bridge needed for good-lambda contraction for the global same-material no-free-upward-transfer
+      tail.
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/globalsamepacketfullhistorystoragelowerbound-a-theorem-creation-20260626.md
   - label: 'ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve
       surplus with zero first moment cannot remain hidden: the signed-pair normal
       form either exposes same-ledger active height flux, pays by ASAC / positive
@@ -228,5 +228,5 @@ summary:
   audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: solver-loop
+  current_next_cell_type: dependency-discharge
   current_next_cell_is_theorem_work: true
