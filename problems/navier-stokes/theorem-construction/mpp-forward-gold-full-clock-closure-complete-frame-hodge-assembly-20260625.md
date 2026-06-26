@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-full-clock-closure-complete-frame-hodge-assembly-20260625
-status: candidate-assembly-referee-blocked-full-clock-producer-not-certified
+status: candidate-assembly-referee-blocked-finite-total-action-not-certified
 logical_landing_node: original_smooth_data_material_history_no_finite_breakdown
 edge_effect: >-
   Assembles the corrected Gold-route candidate after the projector-first Hodge
@@ -9,9 +9,10 @@ edge_effect: >-
   driver pieces should be read inside one graph-compatible PLS clock.  A
   June 26 referee sufficiency audit demoted the note from proof-installed to
   candidate-assembly because several parents remain conditional or explicitly
-  state that the full-clock producer is not certified.  The downstream fixed-Hs
-  continuation bridge is valid once the finite full PLS clock is proved; this
-  note no longer certifies that producer by itself.
+  state that finite total action for the full same-material clock is not
+  certified.  The downstream fixed-Hs continuation bridge is valid once the
+  finite full PLS clock is proved; this note no longer certifies that estimate
+  by itself.
 parents:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-projector-first-hodge-route-frontier-audit-20260625.md
@@ -33,7 +34,7 @@ Date: 2026-06-25
 Referee audit update, 2026-06-26: this note is a candidate assembly, not a
 referee-certified proof.  The parent surfaces include sector reductions and
 conditional consumers, but they do not yet certify the exhaustive finite full
-PLS clock producer.  The controlling audit is
+PLS clock estimate.  The controlling audit is
 `mpp-forward-gold-complete-frame-hodge-referee-sufficiency-audit-20260626.md`.
 
 ## 0. Claim
@@ -481,5 +482,5 @@ branch; it is a transported-collar/carrier admission failure already accounted
 for by the relaxed interface/legal clock.  In the retained branch, the
 complete-frame trace-free payment removes the primitive positive-cone null as a
 local orientation gap.  The remaining referee burden is the exhaustive finite
-full-clock producer, because the cited support surfaces do not yet certify that
-global estimate.
+total-action theorem for the full same-material clock, because the cited
+support surfaces do not yet certify that global estimate.
