@@ -3,13 +3,13 @@
 ## Target
 
 - target obligation: GlobalSamePacketFullOriginalHistoryBandFluxPacking.A
-- target label: Create the recursive theorem subprimitive GlobalSamePacketFullOriginalHistoryBandFluxPacking.A exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
+- target label: Prove original-history ratio-band packing for high-ratio same-material transfer.
 - route role: Prove the ratio-band high-ratio same-material transfer is packed by the original transported history: each L to L+1 upward event either comes from the contracted lower-band carry, pays weighted-summable entrance/legal mass, or is ruled out by global annular matching and nonlocal material Hodge coupling on the same original solution.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullOriginalHistoryBandFluxPacking.A. Prove the ratio-band high-ratio same-material transfer is packed by the original transported history: each L to L+1 upward event either comes from the contracted lower-band carry, pays weighted-summable entrance/legal mass, or is ruled out by global annular matching and nonlocal material Hodge coupling on the same original solution. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive GlobalSamePacketFullOriginalHistoryBandFluxPacking.A exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
+GlobalSamePacketFullOriginalHistoryBandFluxPacking.A. Prove the ratio-band high-ratio same-material transfer is packed by the original transported history: each L to L+1 upward event either comes from the contracted lower-band carry, pays weighted-summable entrance/legal mass, or is ruled out by global annular matching and nonlocal material Hodge coupling on the same original solution. This supplies the exact noncircular bridge needed for the weight-beating good-lambda contraction.
 
 ## Inventive Search
 
@@ -42,7 +42,7 @@ GlobalSamePacketFullOriginalHistoryBandFluxPacking.A. Prove the ratio-band high-
 ## Forbidden Imports
 
 - GlobalSamePacketFullOriginalHistoryBandFluxPacking.A
-- Create the recursive theorem subprimitive GlobalSamePacketFullOriginalHistoryBandFluxPacking.A exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
+- Prove original-history ratio-band packing for high-ratio same-material transfer.
 - full-MPP closure
 - submission readiness
 - global smoothness
