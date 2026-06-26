@@ -76,7 +76,7 @@ for the original smooth solution:
 \text{same-material full-action charge}
 \]
 
-with the clock charge measured by the complete-frame graph-compatible PLS
+with the clock charge measured by the complete-frame graph-compatible same-material action
 ledger, not by a detached center pulse, pressure-only clock, viscosity-only
 drain, or example-specific annular model.
 
@@ -104,7 +104,7 @@ The installed assembly note lists eleven parents.  Their checked roles are:
 | Parent | Classification | Referee effect |
 | --- | --- | --- |
 | `live-theorem-edge.yaml` | authority surface | Now downgraded to candidate/referee-blocked for this closure. |
-| `mpp-forward-gold-projector-first-hodge-route-frontier-audit-20260625.md` | sector reduction | Closes the pressure/Hodge/collar sector as a reduction; explicitly says the primitive PLS driver remains. |
+| `mpp-forward-gold-projector-first-hodge-route-frontier-audit-20260625.md` | sector reduction | Closes the pressure/Hodge/collar sector as a reduction; explicitly says the primitive same-material action driver remains. |
 | `mpp-forward-gold-complete-frame-tracefree-primitive-pls-payment-20260625.md` | local orientation-gap proof | Pays the principal complete-frame trace-free orientation gap. |
 | `mpp-forward-gold-signed-strain-log-storage-recombination-20260625.md` | local storage proof | Pays the signed top-strain superheat coordinate. |
 | `mpp-forward-gold-coefficient-frame-clock-absorbed-by-strain-log-storage-20260625.md` | reduction proof | Reduces coefficient/frame superheat to the top-strain storage. |

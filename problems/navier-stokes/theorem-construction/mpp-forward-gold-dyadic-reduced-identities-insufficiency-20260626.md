@@ -8,8 +8,8 @@ logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 source_surfaces:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-exhaustive-full-pls-clock-pivot-20260626.md
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-pls-finite-action-minimal-burst-attempt-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-exhaustive-full-same-material-action-pivot-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-same-material-action-minimal-burst-attempt-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-logweighted-interface-escalation-audit-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-superheat-residence-fixed-hs-equivalence-20260625.md
 ---

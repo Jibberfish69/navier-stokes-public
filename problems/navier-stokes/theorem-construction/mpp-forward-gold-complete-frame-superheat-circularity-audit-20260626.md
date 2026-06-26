@@ -5,7 +5,7 @@ logical_landing_node: global_same_packet_full_clock_from_original_data
 edge_effect: >-
   Audits the precise inference by which the complete-frame Hodge assembly tries
   to promote the trace-free primitive payment and top-strain log storage into a
-  finite full PLS clock. The audit confirms that the trace-free complete-frame
+  finite full same-material action. The audit confirms that the trace-free complete-frame
   identity is a same-packet orientation/admission theorem, while the
   superheat-storage summability claim is conditional on the same full-clock
   coercivity it is meant to prove unless the positive right-side strain-log
@@ -42,7 +42,7 @@ Status: frontier-open -> frontier-open
 ```
 
 So the installed automation agrees with the direct live authority surface:
-the exhaustive finite full PLS clock theorem is still open.
+the exhaustive finite full same-material action theorem is still open.
 
 ## 1. The candidate inference under audit
 
@@ -144,7 +144,7 @@ Thus the storage gives a valid channel identity:
 It does not by itself give the finite total estimate
 
 ```math
-\int_0^{T_*}d\Omega_N^{PLS,full}<\infty .
+\int_0^{T_*}d\Omega_N^{full}<\infty .
 \tag{CSA.6}
 ```
 
@@ -159,19 +159,19 @@ The primitive driver pointwise contraction test already shows that local
 trace-free strain, incompressibility, pressure ellipticity, and shell gap do
 not produce a pointwise sign contraction. There are smooth divergence-free
 normal forms where a selected high shell aligns with a positive strain
-direction and produces order-one positive low-high PLS driver.
+direction and produces order-one positive low-high same-material action driver.
 
 The complete-frame identity repairs the missing third direction in that local
 reading. It prevents a retained packet from being a positive-cone null. It
 does not rule out large rectified transverse compression history. The
-transverse compression records are themselves components of the full PLS clock.
+transverse compression records are themselves components of the full same-material action.
 
 So the inference
 
 ```math
 \text{complete-frame pointwise payment}
 \Longrightarrow
-\text{finite full PLS clock}
+\text{finite full same-material action}
 \tag{CSA.7}
 ```
 
@@ -183,16 +183,16 @@ same-material storage or no-free-upcrossing argument.
 The current noncircular target is unchanged:
 
 ```math
-\int_0^{T_*}d\Omega_N^{PLS,full}<\infty .
+\int_0^{T_*}d\Omega_N^{full}<\infty .
 \tag{CSA.8}
 ```
 
 After the complete-frame and projector-first reductions, the remaining
 primitive burden can be stated as a time-history estimate for the moving
-low-high same-material PLS driver:
+low-high same-material action driver:
 
 ```math
-d\Omega_N^{PLS,primitive}
+d\Omega_N^{primitive}
 \simeq
 \sum_j w_j
 \left[
@@ -210,7 +210,7 @@ A proof must produce either
 \mathscr A_N(t)\ge -C_N(u_0),
 \qquad
 d\mathscr A_N
-+c_N\,d\Omega_N^{PLS,full}
++c_N\,d\Omega_N^{full}
 \le
 dR_N^{legal},
 \qquad
@@ -221,7 +221,7 @@ dR_N^{legal},
 or an equivalent direct finite-action/no-free-upcrossing estimate
 
 ```math
-\int_0^{T_*}d\Omega_N^{PLS,full}
+\int_0^{T_*}d\Omega_N^{full}
 \le
 C_N(u_0).
 \tag{CSA.11}
@@ -244,5 +244,5 @@ GlobalSamePacketFullClockFromOriginalData.A: frontier-open
 
 The complete-frame Hodge assembly is retained as a candidate assembly and
 sector/orientation reduction. It is not a solved proof of the Gold route until
-the noncircular finite full PLS clock estimate `(CSA.10)` or `(CSA.11)` is
+the noncircular finite full same-material action estimate `(CSA.10)` or `(CSA.11)` is
 installed.

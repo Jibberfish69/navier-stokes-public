@@ -18,7 +18,7 @@ source_surfaces:
 
 The live object is finite full same-material action on one original transported
 material history.  The notation \(d\Omega_N^{full}\) denotes that action
-measure.  Older "PLS clock" language is only historical shorthand.
+measure.  Older "full same-material action" language is only historical shorthand.
 
 This note tests the remaining high-ratio one-way transfer branch by a minimal
 bad-tail normalization.

@@ -6,10 +6,10 @@ edge_effect: >-
   Audits the complete-frame trace-free primitive payment against the actual
   Gold-route producer burden. The complete-frame identity closes the pointwise
   primitive positive-cone null on retained packets, but it does not by itself
-  prove finite total full PLS clock. The transverse paying records are
+  prove finite total full same-material action. The transverse paying records are
   frequency/covector compression and annular/collar-normal compression; their
   finite rectified total over the original transported material history is
-  exactly part of the same full PLS clock still to be produced. This prevents
+  exactly part of the same full same-material action still to be produced. This prevents
   the candidate assembly from being promoted to a solved state without a
   noncircular bounded-below storage, entropy, no-free-upcrossing theorem, or
   equivalent direct finite-action proof.
@@ -49,7 +49,7 @@ third retained material direction.
 The audit question is different:
 
 ```math
-\int_0^{T_*}d\Omega_N^{PLS,full}<\infty .
+\int_0^{T_*}d\Omega_N^{full}<\infty .
 \tag{CFVA.2}
 ```
 
@@ -101,7 +101,7 @@ prove that the total transverse payment is finite on \([0,T_*)\).
 After summing over shells and time, the complete-frame identity gives only
 
 ```math
-d\Omega_N^{PLS,primitive}
+d\Omega_N^{primitive}
 \le
 C_N\left(
 d\Omega_N^{frequency/compression}
@@ -114,7 +114,7 @@ dR_N^{legal}
 ```
 
 The two right-side clocks are not external finite reserves.  They are
-components of the same full PLS clock.  Thus `(CFVA.6)` is a valid same-packet
+components of the same full same-material action.  Thus `(CFVA.6)` is a valid same-packet
 admission and orientation theorem, not a finite-clock producer.
 
 Promoting `(CFVA.6)` directly to `(CFVA.2)` would be circular unless one also
@@ -140,7 +140,7 @@ The installed superheat-residence equivalence states that finite full material
 residence is continuation-strength:
 
 ```math
-\int_0^{T_*}d\Omega_N^{PLS,full}<\infty
+\int_0^{T_*}d\Omega_N^{full}<\infty
 \quad\Longleftrightarrow\quad
 \sup_{t<T_*}\mathcal P_N^{mat}(t)<\infty
 \tag{CFVA.8}
@@ -162,7 +162,7 @@ smooth material history:
 \qquad
 \inf_{t<T_*}\mathscr A_N(t)>-\infty,
 \qquad
-d\mathscr A_N+c_Nd\Omega_N^{PLS,full}
+d\mathscr A_N+c_Nd\Omega_N^{full}
 \le
 dR_N^{legal},
 \qquad
@@ -173,7 +173,7 @@ dR_N^{legal},
 or an equivalent no-free-upcrossing / no-self-birth theorem:
 
 ```math
-\int_0^{T_*}d\Omega_N^{PLS,full}
+\int_0^{T_*}d\Omega_N^{full}
 \le
 C_N(u_0).
 \tag{CFVA.10}
