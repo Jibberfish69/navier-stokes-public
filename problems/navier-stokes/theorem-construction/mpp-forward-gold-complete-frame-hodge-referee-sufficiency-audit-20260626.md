@@ -125,7 +125,7 @@ This classification blocks the bad inference
 
 The missing item is still the global finite-action/exhaustiveness estimate for
 \[
-\int_0^{T_*}d\Omega_N^{PLS,full}<\infty.
+\int_0^{T_*}d\Omega_N^{full}<\infty.
 \]
 
 ## Current Referee Verdict
@@ -205,7 +205,7 @@ The remaining audit-hardening work before any victory claim is:
    \(\mathrm{TerminalNewProductionTheorem}_{B_{\mathrm{ASAC}}}\mathrm{.A}\).
 2. prove the noncircular same-material full-action theorem itself:
    \[
-   \int_0^{T_*} d\Omega_N^{PLS,full}<\infty.
+   \int_0^{T_*} d\Omega_N^{full}<\infty.
    \]
 
 Only after that theorem is proved and the referee surfaces accept it can the
