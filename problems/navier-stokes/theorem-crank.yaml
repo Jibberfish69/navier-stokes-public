@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-06-26T10:31:30Z'
+  generated_at: '2026-06-26T10:32:20Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -96,9 +96,8 @@ cross_lane_broadcast:
       Cauchy stress-work, material Hodge/projector motion, and viscous loss. Since
       viscous loss has the dissipative sign, a positive birth invisible to the other
       carriers is impossible. This supplies the exact noncircular bridge needed for
-      Create the recursive theorem subprimitive GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive
-      exposed by the previous theorem-creation packet, instead of mutating a neighboring
-      route..
+      core same-history exclusion of a high-ratio upward birth invisible to annular
+      stress, Hodge/projector coupling, entrance mass, and lower-band carry.
     kind: lemma
     status: localized-support
     origin: local
@@ -230,5 +229,5 @@ summary:
   audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: solver-loop
+  current_next_cell_type: dependency-discharge
   current_next_cell_is_theorem_work: true
