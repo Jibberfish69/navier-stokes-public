@@ -59,16 +59,16 @@ Also
 ```math
 \partial_tu+(u\cdot\nabla)u
 =
-\left(A'(t)+A(t)^2\right)x .
+\left(\dot A(t)+A(t)^2\right)x .
 \tag{LAJ.4}
 ```
 
-Since \(A'(t)+A(t)^2\) is symmetric, choose
+Since \(\dot A(t)+A(t)^2\) is symmetric, choose
 
 ```math
 p(t,x)
 =
--{1\over2}x\cdot\left(A'(t)+A(t)^2\right)x .
+-{1\over2}x\cdot\left(\dot A(t)+A(t)^2\right)x .
 \tag{LAJ.5}
 ```
 
@@ -77,7 +77,7 @@ Then
 ```math
 \nabla p
 =
--\left(A'(t)+A(t)^2\right)x ,
+-\left(\dot A(t)+A(t)^2\right)x ,
 \tag{LAJ.6}
 ```
 
