@@ -17,6 +17,10 @@ source_surfaces:
 
 # Superheat Ratio Tail Moment Reduction
 
+Terminology guard.  The current object is finite full same-material action.
+Older wording such as "PLS clock" or "full clock" is a legacy alias, not a
+separate producer or target.
+
 This note rewrites the remaining one-way superheat material residence in its
 sharp measure-theoretic form.
 
@@ -232,4 +236,3 @@ finite-action problem: original smooth data must supply a first material-rate
 ratio moment, or a stronger second moment, over the finite viscous/tower
 measure.  Equivalently, the missing bounded-below same-material storage must
 pay the weighted tail `(SRT.15)`.
-
