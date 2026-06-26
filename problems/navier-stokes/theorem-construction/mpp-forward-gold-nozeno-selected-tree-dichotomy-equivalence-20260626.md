@@ -91,7 +91,7 @@ Equivalently,
 
 ```math
 \texttt{RepeatedCorePositiveVariationRootBound.A}
-+
+\quad\text{and}\quad
 \texttt{ScaleInvariantSelectedCapacityNoEscape.A}
 \Longrightarrow
 \sum_{Q\in\mathcal T}A(Q)<\infty.
