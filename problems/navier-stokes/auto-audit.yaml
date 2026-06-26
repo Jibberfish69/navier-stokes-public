@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-26T13:23:43Z'
+  audited_at: '2026-06-26T13:30:53Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: referee-blocked-cm-contrapositive
@@ -315,6 +315,12 @@ issues:
     - r3-whole-space-cm-completion
     - scale-uniform-annular-supplier-goal-resolution
     drift_artifacts:
+    - artifact: dependency_discharge
+      path: problems/navier-stokes/dependency-discharge.yaml
+      target_ids:
+      - ContinuationStrengthMaterialClockAtDepth.A
+      lineage_ids: []
+      generated_at: '2026-06-26T13:30:48Z'
     - artifact: object_formalization
       path: problems/navier-stokes/object-formalization.yaml
       target_ids:
