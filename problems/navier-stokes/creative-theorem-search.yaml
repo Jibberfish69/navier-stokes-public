@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-06-26T07:28:43Z'
+  generated_at: '2026-06-26T07:30:24Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -37,31 +37,32 @@ sandbox:
 branch_pool:
 - &1
   branch_id: creative-branch-navier-stokes-1
-  origin_obligation_id: GlobalSamePacketFullOriginalHistoryBandFluxPacking.A
+  origin_obligation_id: GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A
   origin_kind: proof-dependency
-  parent_obligation_id: GlobalSamePacketFullGoodLambdaTail.A.ContractionSubprimitive
-  parent_label: noncircular proof of the weight-beating good-lambda contraction
+  parent_obligation_id: GlobalSamePacketFullOriginalHistoryBandFluxPacking.A
+  parent_label: Prove original-history ratio-band packing for high-ratio same-material
+    transfer.
   root_target_obligation_id: global-same-packet-full-material-clock
   root_target_label: GlobalSamePacketFullClockFromOriginalData.A
   source_class: theorem-creation-next-subprimitive
   source_status: needs-theorem-creation
   branch_type: bridge-lemma
   pursuit_mode: co-dependent
-  candidate_claim: Prove original-history ratio-band packing for high-ratio same-material
-    transfer.
+  candidate_claim: Prove original-history annular/Hodge packing for true high-ratio
+    upward birth.
   creative_move: Search for the missing mediating object or bounded inequality that
     makes the implication local and testable.
   invention_packet:
-    candidate_statement: Prove original-history ratio-band packing for high-ratio
-      same-material transfer.
-    mediating_object: original_history_ratio_band_packing
+    candidate_statement: Prove original-history annular/Hodge packing for true high-ratio
+      upward birth.
+    mediating_object: original_history_annular_hodge_packing
     proof_sketch:
-    - Work on the ratio bands of the original transported material history.
-    - Separate contracted lower-band carry, weighted-summable entrance/legal mass,
-      and true one-way high-ratio upward birth.
-    - Use only global same-history annular matching, finite original energy, and nonlocal
-      material Hodge coupling to rule out the true upward-birth remainder.
-    - Derive the cross-band estimate needed for the good-lambda contraction.
+    - Keep the object as one original transported material history.
+    - Localize ratio bands only as readouts of that same history.
+    - Use annular Cauchy stress-work and material Hodge/projector coupling as same-history
+      constraints.
+    - Pack every true one-way high-ratio upward birth into weighted-summable entrance/legal
+      mass or the finite full same-material action.
     falsification_checks:
     - Does the move preserve the frozen theorem target rather than redefining it?
     - Can the candidate be stated on already-grounded objects without importing a
@@ -76,7 +77,7 @@ branch_pool:
   - clay-cm-contrapositive-witness-consumption
   - cm-part-ontology-witness-notation-correction
   - torus-global-material-atlas-terminal-capture
-  - GlobalSamePacketFullOriginalHistoryBandFluxPacking.A
+  - GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A
   risk_level: medium-low
   notes:
   - This branch is the live recursive subprimitive from theorem-creation; keep it
@@ -85,9 +86,9 @@ branch_pool:
   - Use the weakest sufficient move; do not inflate the theorem target.
   recommended_next_cell_type: theorem-creation
   recommended_next_action: 'Creative theorem search selected the live theorem-creation
-    subprimitive `GlobalSamePacketFullOriginalHistoryBandFluxPacking.A`. Run theorem-creation
-    on that exact recursive proof burden instead of replaying route mutation: GlobalSamePacketFullOriginalHistoryBandFluxPacking.A:
-    original-history ratio-band packing for high-ratio same-material transfer.'
+    subprimitive `GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A`. Run theorem-creation
+    on that exact recursive proof burden instead of replaying route mutation: GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A:
+    core original-history annular/Hodge packing estimate for high-ratio band flux.'
   merge_policy: quarantined-until-promoted
 - branch_id: creative-branch-navier-stokes-2
   origin_obligation_id: GlobalSamePacketFullWeightBeatingTail.A
@@ -250,10 +251,10 @@ branch_pool:
     through dependency-discharge.
   merge_policy: quarantined-until-promoted
 candidate_archive:
-- origin_obligation_id: GlobalSamePacketFullOriginalHistoryBandFluxPacking.A
+- origin_obligation_id: GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A
   origin_kind: proof-dependency
-  label: 'GlobalSamePacketFullOriginalHistoryBandFluxPacking.A: original-history ratio-band
-    packing for high-ratio same-material transfer'
+  label: 'GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A: core original-history
+    annular/Hodge packing estimate for high-ratio band flux'
   status: needs-theorem-creation
   promoted_into_branch_pool: true
 - origin_obligation_id: GlobalSamePacketFullWeightBeatingTail.A
