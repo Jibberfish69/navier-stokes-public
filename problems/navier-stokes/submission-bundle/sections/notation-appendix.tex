@@ -4,12 +4,12 @@ The paper uses a small number of project names.  Each name is tied to a proof ro
 
 \begin{description}
 \item[\(\Owork\).] The working same-solution Navier--Stokes class object.  It keeps the datum, equation, pressure law, viscosity, incompressibility constraint, and preterminal branch together.
-\item[\(\Member(Q;\Owork)\).] The class-membership predicate for a selected terminal record \(Q\).  A member record is on the continuation side and must be paired with the relevant readout.
+\item[\(\Member(Q;\Owork)\).] The class-membership predicate for a selected terminal record \(Q\).  It means that \(Q\) carries the same pressure-viscosity-incompressibility participation law of \(\Owork\), with the relevant readout paired to it when the pass branch is used for continuation.
 \item[\(\Exit(Q;\Owork)\).] The class-exit conclusion.  It means
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
-\item[\(\Pack_Q\).] The Field-window support.  It asks whether the selected record still has a positive same-fluid carrier or packet.
+\item[\(\Pack_Q\).] The carrier-window support predicate.  It asks whether the selected record still has a positive same-fluid carrier or packet.  By itself it records admission support, not the class-exit conclusion.
 \item[\(\Part_{N,Q}\).] The Part witness.  It asks whether the same pressure-viscosity-incompressibility law still participates on the derivative tower being tested.
 \item[\(\Field_{N,r,Q}\).] The Field witness.  It asks whether a positive-scale coherent velocity-field readout survives at scale \(r\).
 \item[\(Q_{\mathrm{ann}}\).] A selected annular residual terminal witness.  It is admitted to the CM test only after the positive-radius annular residue has been tied to the same original Navier--Stokes branch.
@@ -18,4 +18,4 @@ The paper uses a small number of project names.  Each name is tied to a proof ro
 \item[Annular witness.] The positive-radius terminal residue surrounding a proposed endpoint.  It is the live boundary because a radius-zero point alone does not carry the full singularity claim.
 \end{description}
 
-These names are proof objects.  A branch, comparison packet, Euler boundary, source-reserve estimate, or positive-forward estimate note enters the paper only when it pays one of these roles: same-solution admission, Part and Field, member readout, exit conclusion, gold obstruction, silver landing, context, obsolete route, or open continuation.
+These names are proof objects.  A branch, comparison packet, Euler boundary, source-reserve estimate, or positive-forward estimate note enters the paper only when it pays one of these roles: same-solution admission support, Part or Field failure, member readout, exit conclusion, gold obstruction, silver landing, context, obsolete route, or open continuation.
