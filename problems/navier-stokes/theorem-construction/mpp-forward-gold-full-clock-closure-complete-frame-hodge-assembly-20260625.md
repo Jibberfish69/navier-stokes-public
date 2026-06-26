@@ -199,7 +199,7 @@ sources; on heat windows they demote to same-depth pressure/RHS,
 coefficient/strain, viscous commutator, and collar/frame service, all already
 kept inside the prelimit clock or strict loss.
 
-## 4. Top-strain superheat is paid by a bounded-below storage
+## 4. Top-strain superheat has a signed storage
 
 For a selected active shell with energy \(e_j\), let
 
@@ -236,8 +236,10 @@ D_t\lambda+\lambda^2 .
 
 This is a signed full-packet identity.  The storage \(B_j\ge0\), and in the
 prelimit four-body master balance the right side is an exchange/loss component
-of the same packet.  Therefore the superheat top-strain residence is finite
-after summing shells and passing through the relaxed clock.
+of the same packet.  This identifies the correct same-packet channel for
+superheat residence.  It does not by itself prove finite residence after
+summing shells, because the positive part of the right-side exchange is the
+same full material participation clock whose finite mass is under audit.
 
 The subheat part is absorbed by high-shell viscosity:
 
@@ -249,7 +251,7 @@ e_j\lambda_+(S_{<j-C})\le \delta\,2^{2j}e_j
 \tag{FCA.17}
 ```
 
-## 5. Complete-frame payment closes the primitive driver
+## 5. Complete-frame payment closes the primitive orientation gap
 
 The primitive graph-compatible PLS driver is the positive low-high deformation
 action on the active packet:
@@ -317,15 +319,16 @@ D_t\log|\eta_n|
 
 up to the transported-collar commutators already typed in the packet.
 
-Both paying directions are already paid.  Below heat rate they are absorbed by
-viscosity.  Above heat rate, the trace-free bound
+Both paying directions are now typed on the same retained packet.  Below heat
+rate they are absorbed by viscosity.  Above heat rate, the trace-free bound
 
 ```math
 \|S\|_{op}\le2\lambda_+(S)
 \tag{FCA.24}
 ```
 
-places them under the same top-strain log storage `(FCA.14)`.  Hence
+places them under the same top-strain log storage `(FCA.14)`.  Thus the
+primitive driver is routed into viscous service or top-strain/frame service:
 
 ```math
 d\Omega_N^{PLS,primitive}
@@ -340,10 +343,12 @@ dR_N^{legal}
 \tag{FCA.25}
 ```
 
-This is the missing noncircular step.  The earlier primitive-driver obstruction
-was created by reading only \((p,\widehat\xi)\).  The retained material packet
-also has the annular/collar normal \(n\), and the trace-free identity forces
-the payment into one of the two transverse compression records.
+This is a routing/admission estimate, not a standalone finite-action theorem.
+The earlier primitive-driver obstruction was created by reading only
+\((p,\widehat\xi)\).  The retained material packet also has the annular/collar
+normal \(n\), and the trace-free identity forces the activity into one of the
+two transverse compression records.  The remaining noncircular burden is to
+prove that the resulting full history clock has finite total mass.
 
 ## 6. Full clock finiteness
 
