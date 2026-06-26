@@ -16,6 +16,10 @@ source_surfaces:
 
 # Critical Continuation Readout Audit
 
+Terminology guard.  In this live edge, "PLS clock" and "full clock" are legacy
+aliases only.  The governing object is the finite full same-material action
+from the original transported material history.
+
 The material-record Osgood audit left one formal alternative:
 
 ```math
