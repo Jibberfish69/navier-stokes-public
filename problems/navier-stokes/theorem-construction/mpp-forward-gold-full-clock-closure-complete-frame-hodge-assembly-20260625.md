@@ -6,12 +6,12 @@ edge_effect: >-
   Assembles the corrected Gold-route candidate after the projector-first Hodge
   reduction and the complete-frame trace-free primitive payment.  The assembly
   identifies how pressure, collar, coefficient-frame, annular, and primitive
-  driver pieces should be read inside one graph-compatible PLS clock.  A
+  driver pieces should be read inside one graph-compatible full action.  A
   June 26 referee sufficiency audit demoted the note from proof-installed to
   candidate-assembly because several parents remain conditional or explicitly
   state that finite total action for the full same-material clock is not
   certified.  The downstream fixed-Hs continuation bridge is valid once the
-  finite full PLS clock is proved; this note no longer certifies that estimate
+  finite full same-material action is proved; this note no longer certifies that estimate
   by itself.
 parents:
   - problems/navier-stokes/live-theorem-edge.yaml
@@ -34,7 +34,7 @@ Date: 2026-06-25
 Referee audit update, 2026-06-26: this note is a candidate assembly, not a
 referee-certified proof.  The parent surfaces include sector reductions and
 conditional consumers, but they do not yet certify the exhaustive finite full
-PLS clock estimate.  The controlling audit is
+same-material action estimate.  The controlling audit is
 `mpp-forward-gold-complete-frame-hodge-referee-sufficiency-audit-20260626.md`.
 
 ## 0. Claim
@@ -56,7 +56,7 @@ the candidate full graph-compatible
 pressure-viscosity-incompressibility-velocity material clock target is
 
 ```math
-\int_0^{T_*}d\Omega_N^{PLS,full}<\infty .
+\int_0^{T_*}d\Omega_N^{full}<\infty .
 \tag{FCA.2}
 ```
 
@@ -258,7 +258,7 @@ The primitive graph-compatible PLS driver is the positive low-high deformation
 action on the active packet:
 
 ```math
-d\Omega_N^{PLS,primitive}
+d\Omega_N^{primitive}
 \simeq
 \sum_jw_j
 \left[
@@ -332,7 +332,7 @@ places them under the same top-strain log storage `(FCA.14)`.  Thus the
 primitive driver is routed into viscous service or top-strain/frame service:
 
 ```math
-d\Omega_N^{PLS,primitive}
+d\Omega_N^{primitive}
 \le
 C_N\left(
 dD_N^{vis}
@@ -353,14 +353,14 @@ prove that the resulting full history clock has finite total mass.
 
 ## 6. Full clock finiteness
 
-The full graph-compatible PLS clock decomposes into the following same-packet
-pieces:
+The full graph-compatible same-material action decomposes into the following
+same-packet pieces:
 
 ```math
-d\Omega_N^{PLS,full}
+d\Omega_N^{full}
 \le
 C_N\bigl(
-d\Omega_N^{PLS,primitive}
+d\Omega_N^{primitive}
 +d\Omega_N^{press/collar,normal}
 +d\Omega_N^{Hodge/projector}
 +d\Omega_N^{coef/frame}
@@ -432,12 +432,12 @@ d\mu_C(t)
 \tag{FCA.30}
 ```
 
-The annular stress transaction is a component of \(d\Omega_N^{PLS,full}\) plus
+The annular stress transaction is a component of \(d\Omega_N^{full}\) plus
 legal residual.  Once `(FCA.2)` is proved, terminal tails vanish:
 
 ```math
 \lim_{\theta\downarrow0}
-\int_{T_*-\theta}^{T_*}d\Omega_N^{PLS,full}=0.
+\int_{T_*-\theta}^{T_*}d\Omega_N^{full}=0.
 \tag{FCA.31}
 ```
 
@@ -449,7 +449,7 @@ The full clock contains the positive material-record variation:
 ```math
 d[\log(1+\mathcal P_N^{mat})]_+
 \le
-C_Nd\Omega_N^{PLS,full}+dR_N^0.
+C_Nd\Omega_N^{full}+dR_N^0.
 \tag{FCA.32}
 ```
 
