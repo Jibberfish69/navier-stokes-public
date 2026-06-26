@@ -25,7 +25,7 @@ pdf_tracks:
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     present: true
-    sha1: 6942a9af380ca0ff649aa20527db0c5c84468528
+    sha1: 1900d78fcfb56afd44626d78c77140a65f311dee
     bytes: 4541048
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
     role: preferred problems/** app-aligned human submission track
@@ -46,7 +46,7 @@ pdf_render_status:
     human_app_aligned:
       path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       present: true
-      sha1: 6942a9af380ca0ff649aa20527db0c5c84468528
+      sha1: 1900d78fcfb56afd44626d78c77140a65f311dee
       bytes: 4541048
       manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
       required_for_clay_submission: true
@@ -61,7 +61,7 @@ pdf_render_status:
 human_pdf:
   path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   present: true
-  sha1: 6942a9af380ca0ff649aa20527db0c5c84468528
+  sha1: 1900d78fcfb56afd44626d78c77140a65f311dee
   bytes: 4541048
 manuscript_tex:
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -73,14 +73,13 @@ verdict_alignment:
   bundle_verdict_synced: true
   export_status_synced: true
   submission_ready: false
-  blocking_reason: 'Navier-Stokes completion readiness is blocked by 6 unresolved
+  blocking_reason: 'Navier-Stokes completion readiness is blocked by 4 unresolved
     candidate(s): pdf-reader-proof-integration, contract-readiness-after-manuscript-expansion,
-    clay-readiness-not-claimed, source-frontier:primary_math_obligation, source-frontier:additional_context_obligations,
-    source-frontier:active_frontier_labels.'
+    clay-readiness-not-claimed, source-frontier-missing.'
   readiness_evidence:
-    source_frontier_clear: false
+    source_frontier_clear: true
     open_d8_proof_blockers: 0
-    completion_candidate_count: 6
+    completion_candidate_count: 4
     completion_candidates:
     - candidate_id: pdf-reader-proof-integration
       kind: d8_resolved_blocker_state
@@ -128,28 +127,15 @@ verdict_alignment:
       evidence: state=open-release-exactness-and-manuscript-refresh
       required_action: Release readiness must not be claimed until exactness/manuscript
         surfaces are synchronized with the accepted Silver CM rowwise consumption.
-    - candidate_id: source-frontier:primary_math_obligation
+    - candidate_id: source-frontier-missing
       kind: source_frontier
       surface: problems/navier-stokes/source-frontier.yaml
-      evidence: nonempty primary_math_obligation
-      required_action: Clear or demote the source-frontier primary_math_obligation
-        before submission readiness.
-    - candidate_id: source-frontier:additional_context_obligations
-      kind: source_frontier
-      surface: problems/navier-stokes/source-frontier.yaml
-      evidence: nonempty additional_context_obligations
-      required_action: Clear or demote the source-frontier additional_context_obligations
-        before submission readiness.
-    - candidate_id: source-frontier:active_frontier_labels
-      kind: source_frontier
-      surface: problems/navier-stokes/source-frontier.yaml
-      evidence: nonempty active_frontier_labels
-      required_action: Clear or demote the source-frontier active_frontier_labels
-        before submission readiness.
+      evidence: missing
+      required_action: Restore source-frontier.yaml before readiness can be assessed.
     completion_readiness:
       status: blocked
       submission_ready: false
-      candidate_count: 6
+      candidate_count: 4
       candidates:
       - candidate_id: pdf-reader-proof-integration
         kind: d8_resolved_blocker_state
@@ -199,24 +185,11 @@ verdict_alignment:
         evidence: state=open-release-exactness-and-manuscript-refresh
         required_action: Release readiness must not be claimed until exactness/manuscript
           surfaces are synchronized with the accepted Silver CM rowwise consumption.
-      - candidate_id: source-frontier:primary_math_obligation
+      - candidate_id: source-frontier-missing
         kind: source_frontier
         surface: problems/navier-stokes/source-frontier.yaml
-        evidence: nonempty primary_math_obligation
-        required_action: Clear or demote the source-frontier primary_math_obligation
-          before submission readiness.
-      - candidate_id: source-frontier:additional_context_obligations
-        kind: source_frontier
-        surface: problems/navier-stokes/source-frontier.yaml
-        evidence: nonempty additional_context_obligations
-        required_action: Clear or demote the source-frontier additional_context_obligations
-          before submission readiness.
-      - candidate_id: source-frontier:active_frontier_labels
-        kind: source_frontier
-        surface: problems/navier-stokes/source-frontier.yaml
-        evidence: nonempty active_frontier_labels
-        required_action: Clear or demote the source-frontier active_frontier_labels
-          before submission readiness.
+        evidence: missing
+        required_action: Restore source-frontier.yaml before readiness can be assessed.
       checks:
         route_candidates: 0
         d8_candidates: 3
@@ -225,7 +198,7 @@ verdict_alignment:
         child_paper_repo_candidates: 0
         manuscript_unresolved_candidates: 0
         active_pdf_criticism_candidates: 0
-        source_frontier_candidates: 3
+        source_frontier_candidates: 1
         route_state_agreement_candidates: 0
         submission_verdict_agreement_candidates: 0
         pdf_track_candidates: 0
@@ -240,7 +213,7 @@ verdict_alignment:
           human_app_aligned:
             path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
             present: true
-            sha1: 6942a9af380ca0ff649aa20527db0c5c84468528
+            sha1: 1900d78fcfb56afd44626d78c77140a65f311dee
             bytes: 4541048
             manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
             required_for_clay_submission: true
@@ -322,7 +295,7 @@ verdict_alignment:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: 6942a9af380ca0ff649aa20527db0c5c84468528
+          sha1: 1900d78fcfb56afd44626d78c77140a65f311dee
           bytes: 4541048
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
@@ -338,7 +311,7 @@ verdict_alignment:
       human_app_aligned:
         path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
         present: true
-        sha1: 6942a9af380ca0ff649aa20527db0c5c84468528
+        sha1: 1900d78fcfb56afd44626d78c77140a65f311dee
         bytes: 4541048
         manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
         role: preferred problems/** app-aligned human submission track
