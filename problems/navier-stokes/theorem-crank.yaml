@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-06-26T05:11:15Z'
+  generated_at: '2026-06-26T05:16:35Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -174,7 +174,7 @@ auditor:
   status: needs-attention
   audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
-  open_issue_count: 2
+  open_issue_count: 3
   autofixable_issue_count: 0
   fix_plan_count: 0
   branch_count: 5
@@ -222,5 +222,5 @@ summary:
   audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: theorem-repair
+  current_next_cell_type: creative-theorem-search
   current_next_cell_is_theorem_work: true
