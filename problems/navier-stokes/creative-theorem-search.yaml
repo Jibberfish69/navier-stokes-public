@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-06-26T05:30:20Z'
+  generated_at: '2026-06-26T05:44:13Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -39,9 +39,10 @@ branch_pool:
   branch_id: creative-branch-navier-stokes-1
   origin_obligation_id: GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive
   origin_kind: proof-dependency
-  parent_obligation_id: global-same-packet-full-material-clock
-  parent_label: 'Refine the stalled dependency-discharge target global-same-packet-full-material-clock:
-    GlobalSamePacketFullClockFromOriginalData.A'
+  parent_obligation_id: GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive
+  parent_label: Create the recursive theorem subprimitive GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive
+    exposed by the previous theorem-creation packet, instead of mutating a neighboring
+    route.
   root_target_obligation_id: global-same-packet-full-material-clock
   root_target_label: GlobalSamePacketFullClockFromOriginalData.A
   source_class: theorem-creation-next-subprimitive
