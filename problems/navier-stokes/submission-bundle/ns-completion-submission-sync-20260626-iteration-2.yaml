@@ -25,7 +25,7 @@ pdf_tracks:
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     present: true
-    sha1: 411495cfe6603e6440a84656482c1db8b400f1bf
+    sha1: bb7f4ceae572b2218ba1969c4b12b2c528f580c8
     bytes: 4541048
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
     role: preferred problems/** app-aligned human submission track
@@ -46,7 +46,7 @@ pdf_render_status:
     human_app_aligned:
       path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       present: true
-      sha1: 411495cfe6603e6440a84656482c1db8b400f1bf
+      sha1: bb7f4ceae572b2218ba1969c4b12b2c528f580c8
       bytes: 4541048
       manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
       required_for_clay_submission: true
@@ -61,7 +61,7 @@ pdf_render_status:
 human_pdf:
   path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   present: true
-  sha1: 411495cfe6603e6440a84656482c1db8b400f1bf
+  sha1: bb7f4ceae572b2218ba1969c4b12b2c528f580c8
   bytes: 4541048
 manuscript_tex:
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -240,7 +240,7 @@ verdict_alignment:
           human_app_aligned:
             path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
             present: true
-            sha1: 411495cfe6603e6440a84656482c1db8b400f1bf
+            sha1: bb7f4ceae572b2218ba1969c4b12b2c528f580c8
             bytes: 4541048
             manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
             required_for_clay_submission: true
@@ -322,7 +322,7 @@ verdict_alignment:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: 411495cfe6603e6440a84656482c1db8b400f1bf
+          sha1: bb7f4ceae572b2218ba1969c4b12b2c528f580c8
           bytes: 4541048
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
@@ -338,7 +338,7 @@ verdict_alignment:
       human_app_aligned:
         path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
         present: true
-        sha1: 411495cfe6603e6440a84656482c1db8b400f1bf
+        sha1: bb7f4ceae572b2218ba1969c4b12b2c528f580c8
         bytes: 4541048
         manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
         role: preferred problems/** app-aligned human submission track
