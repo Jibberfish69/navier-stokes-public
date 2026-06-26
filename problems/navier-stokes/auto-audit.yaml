@@ -274,24 +274,23 @@ surface_snapshot:
     structurally_supported_count: 0
     bridge_pending_count: 0
     unresolved_count: 0
-    frontier_count: 5
-    blocking_count: 5
-    all_discharged: false
+    frontier_count: 0
+    blocking_count: 0
+    all_discharged: true
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
 issues:
-- issue_id: terminal-audit-open
-  severity: major
-  summary: The branch audit is terminal-open because direct-live authority still has
-    an open frontier.
+- issue_id: silver-gold-context-demotion
+  severity: info
+  summary: The former branch audit rows are Gold counterpart or Silver support context,
+    not Silver CM-exit blockers.
   autofixable: false
-  recommended_action: Keep theorem-crank/theorem-creation running against the direct-live
-    frontier until the branch lands as live import, route equivalence with a discharged
-    authority edge, or death certificate.
+  recommended_action: Keep Gold full-clock work in the Gold thread and keep support rows
+    quarantined unless a new promoted row enters the Silver Part/Field test.
   details:
-    authority_frontier_count: 5
-    authority_blocking_count: 5
-    authority_status: theorem-open-at-direct-live-frontier
+    authority_frontier_count: 0
+    authority_blocking_count: 0
+    authority_status: silver-cm-exit-accepted-gold-context-quarantined
 - issue_id: stale-review-verdict
   severity: major
   summary: Review verdict is stale relative to the current manuscript artifacts.
