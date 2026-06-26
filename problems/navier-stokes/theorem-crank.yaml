@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-06-25T15:47:30Z'
+  generated_at: '2026-06-26T04:34:01Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-c180ca0473fc
-    route_signature: c180ca0473fc77ed753e74b886ed7f200f785f38
+    surface_id: theorem-surface-navier-stokes-d857049b86ee
+    route_signature: d857049b86ee0132f87f3cd355af3810fab1f5a0
     route_chain:
     - Start with the alleged finite-time Clay terminal witness from the same original
       smooth Navier-Stokes datum
@@ -25,8 +25,8 @@ shared_alignment:
     - The pass branch remains the lawful smooth continuation branch, while the fail
       branch has no legal in-class nonsmooth continuation status
     route_slots:
-    - slot_id: signed-smooth-same-packet-commutator-coercivity
-      label: SignedSmoothSamePacketCommutatorCoercivity.A
+    - slot_id: global-same-packet-full-material-clock
+      label: GlobalSamePacketFullClockFromOriginalData.A
       kind: live-theorem-frontier
       status: frontier-open
       patch_surface: problems/navier-stokes/live-theorem-edge.yaml
@@ -174,7 +174,7 @@ auditor:
   status: needs-attention
   audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
-  open_issue_count: 3
+  open_issue_count: 2
   autofixable_issue_count: 0
   fix_plan_count: 0
   branch_count: 5
