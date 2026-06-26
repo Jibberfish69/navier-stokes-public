@@ -1,23 +1,17 @@
 ---
 theorem_id: forward-gold-full-clock-closure-complete-frame-hodge-assembly-20260625
-status: proof-installed-full-pls-clock-finite-under-complete-frame-hodge-assembly
+status: candidate-assembly-referee-blocked-full-clock-producer-not-certified
 logical_landing_node: original_smooth_data_material_history_no_finite_breakdown
 edge_effect: >-
-  Assembles the corrected Gold route after the projector-first Hodge reduction
-  and the complete-frame trace-free primitive payment.  The earlier
-  pressure-stress/cubic-collar positive clock remained open only because the
-  primitive driver was read through an incomplete packet frame.  In the retained
-  material packet the velocity polarization, wave covector, and annular/collar
-  normal form a complete orthonormal frame; trace-free strain sends every
-  positive velocity-direction pump into wave-covector compression or
-  collar-normal compression.  Those two compression clocks are already paid by
-  the high-shell viscosity/top-strain log-storage and transported
-  collar/frame reductions.  Together with projector-first pressure
-  elimination, Schur normal-defect collapse, legal residual summability,
-  recirculation closure, and the relaxed prelimit master balance, this gives
-  finite full graph-compatible PLS clock for the original smooth material
-  history.  The downstream fixed-Hs continuation bridge then excludes a finite
-  smooth breakdown.
+  Assembles the corrected Gold-route candidate after the projector-first Hodge
+  reduction and the complete-frame trace-free primitive payment.  The assembly
+  identifies how pressure, collar, coefficient-frame, annular, and primitive
+  driver pieces should be read inside one graph-compatible PLS clock.  A
+  June 26 referee sufficiency audit demoted the note from proof-installed to
+  candidate-assembly because several parents remain conditional or explicitly
+  state that the full-clock producer is not certified.  The downstream fixed-Hs
+  continuation bridge is valid once the finite full PLS clock is proved; this
+  note no longer certifies that producer by itself.
 parents:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-projector-first-hodge-route-frontier-audit-20260625.md
@@ -32,9 +26,15 @@ parents:
   - problems/navier-stokes/theorem-construction/mcp-terminalsourceantiatom-equivalent-fullclocktail-a-globalsamepacketfullclockfromoriginaldata-a-20260625.md
 ---
 
-# Full Clock Closure By Complete Frame And Projector-First Hodge
+# Candidate Full Clock Closure By Complete Frame And Projector-First Hodge
 
 Date: 2026-06-25
+
+Referee audit update, 2026-06-26: this note is a candidate assembly, not a
+referee-certified proof.  The parent surfaces include sector reductions and
+conditional consumers, but they do not yet certify the exhaustive finite full
+PLS clock producer.  The controlling audit is
+`mpp-forward-gold-complete-frame-hodge-referee-sufficiency-audit-20260626.md`.
 
 ## 0. Claim
 
@@ -51,20 +51,23 @@ G=AA^\top,
 \tag{FCA.1}
 ```
 
-the full graph-compatible pressure-viscosity-incompressibility-velocity
-material clock satisfies
+the candidate full graph-compatible
+pressure-viscosity-incompressibility-velocity material clock target is
 
 ```math
 \int_0^{T_*}d\Omega_N^{PLS,full}<\infty .
 \tag{FCA.2}
 ```
 
-Consequently the continuation-depth material record is bounded, the fixed
-Eulerian \(H^s\) norm remains bounded, and the solution restarts past \(T_*\).
+Once this estimate is proved exhaustively for the original material history,
+the continuation-depth material record is bounded, the fixed Eulerian \(H^s\)
+norm remains bounded, and the solution restarts past \(T_*\).
 
-The proof is an assembly of the already-installed same-packet identities.  The
-new point is that the primitive positive pump is read on the complete retained
-packet frame, not on the incomplete velocity/covector pair.
+The assembly uses already-installed same-packet identities.  The new point is
+that the primitive positive pump should be read on the complete retained packet
+frame, not on the incomplete velocity/covector pair.  The remaining referee
+burden is to show that this complete-frame reading supplies the finite full
+clock without importing a conditional or failed support surface as proof.
 
 ## 1. Pressure is not a top-order dynamic variable
 
