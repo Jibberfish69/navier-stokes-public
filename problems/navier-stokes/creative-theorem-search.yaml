@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-06-25T01:33:19Z'
+  generated_at: '2026-06-26T01:26:00Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -37,17 +37,17 @@ sandbox:
 branch_pool:
 - &1
   branch_id: creative-branch-navier-stokes-1
-  origin_obligation_id: signed-smooth-same-packet-commutator-coercivity
+  origin_obligation_id: global-same-packet-full-material-clock
   origin_kind: live-theorem-frontier
-  parent_obligation_id: signed-smooth-same-packet-commutator-coercivity
-  parent_label: SignedSmoothSamePacketCommutatorCoercivity.A
-  root_target_obligation_id: signed-smooth-same-packet-commutator-coercivity
-  root_target_label: SignedSmoothSamePacketCommutatorCoercivity.A
+  parent_obligation_id: global-same-packet-full-material-clock
+  parent_label: GlobalSamePacketFullClockFromOriginalData.A
+  root_target_obligation_id: global-same-packet-full-material-clock
+  root_target_label: GlobalSamePacketFullClockFromOriginalData.A
   source_class: ''
   source_status: frontier-open
   branch_type: route-mutation
   pursuit_mode: independent
-  candidate_claim: Mutate the route locally so that signedSmoothSamePacketCommutatorCoercivity.A
+  candidate_claim: Mutate the route locally so that globalSamePacketFullClockFromOriginalData.A
     can be pursued without reopening the theorem target.
   creative_move: 'Open a bounded side branch that changes representation but not the
     theorem target, then compare whether it reduces proof obligations. Keep this as
@@ -58,16 +58,16 @@ branch_pool:
     and compactness arguments are supplier-only until a bridge license proves witness
     landing or the resurfacing audit.'
   invention_packet:
-    candidate_statement: Mutate the route locally so that signedSmoothSamePacketCommutatorCoercivity.A
+    candidate_statement: Mutate the route locally so that globalSamePacketFullClockFromOriginalData.A
       can be pursued without reopening the theorem target.
     mediating_object: cm_witness_face_bridge_license
     proof_sketch:
-    - State the weakest exact claim that would advance `signed-smooth-same-packet-commutator-coercivity`
+    - State the weakest exact claim that would advance `global-same-packet-full-material-clock`
       without expanding the theorem target.
     - Define or isolate the mediating object on the current carrier/window/sector
       only.
     - Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `SignedSmoothSamePacketCommutatorCoercivity.A`.
+      ladder rather than a modified-equation detour for `GlobalSamePacketFullClockFromOriginalData.A`.
     - Show how that object converts one already-grounded local statement into the
       next missing step.
     - Reject the move if it introduces new global scope, hidden imports, or a stronger
@@ -85,23 +85,23 @@ branch_pool:
   - clay-cm-contrapositive-witness-consumption
   - cm-part-ontology-witness-notation-correction
   - torus-global-material-atlas-terminal-capture
-  - signed-smooth-same-packet-commutator-coercivity
+  - global-same-packet-full-material-clock
   risk_level: high
   notes:
   - This branch starts at the first unresolved frontier.
   - This branch is machine-derived beyond the current frozen core.
   recommended_next_cell_type: dependency-discharge
-  recommended_next_action: Creative theorem search selected `signed-smooth-same-packet-commutator-coercivity`.
-    Use the invention packet to ground a new explicit bridge for SignedSmoothSamePacketCommutatorCoercivity.A
+  recommended_next_action: Creative theorem search selected `global-same-packet-full-material-clock`.
+    Use the invention packet to ground a new explicit bridge for GlobalSamePacketFullClockFromOriginalData.A
     through dependency-discharge.
   merge_policy: quarantined-until-promoted
 - branch_id: creative-branch-navier-stokes-2
   origin_obligation_id: original-smooth-data-material-history-no-finite-breakdown
   origin_kind: live-theorem-frontier
-  parent_obligation_id: signed-smooth-same-packet-commutator-coercivity
-  parent_label: SignedSmoothSamePacketCommutatorCoercivity.A
-  root_target_obligation_id: signed-smooth-same-packet-commutator-coercivity
-  root_target_label: SignedSmoothSamePacketCommutatorCoercivity.A
+  parent_obligation_id: global-same-packet-full-material-clock
+  parent_label: GlobalSamePacketFullClockFromOriginalData.A
+  root_target_obligation_id: global-same-packet-full-material-clock
+  root_target_label: GlobalSamePacketFullClockFromOriginalData.A
   source_class: ''
   source_status: frontier-open
   branch_type: route-mutation
@@ -150,10 +150,10 @@ branch_pool:
 - branch_id: creative-branch-navier-stokes-3
   origin_obligation_id: pack-out-of-cm-smoothness-certification-audit
   origin_kind: live-theorem-frontier
-  parent_obligation_id: signed-smooth-same-packet-commutator-coercivity
-  parent_label: SignedSmoothSamePacketCommutatorCoercivity.A
-  root_target_obligation_id: signed-smooth-same-packet-commutator-coercivity
-  root_target_label: SignedSmoothSamePacketCommutatorCoercivity.A
+  parent_obligation_id: global-same-packet-full-material-clock
+  parent_label: GlobalSamePacketFullClockFromOriginalData.A
+  root_target_obligation_id: global-same-packet-full-material-clock
+  root_target_label: GlobalSamePacketFullClockFromOriginalData.A
   source_class: ''
   source_status: frontier-open
   branch_type: route-mutation
@@ -211,10 +211,10 @@ branch_pool:
 - branch_id: creative-branch-navier-stokes-4
   origin_obligation_id: r3-whole-space-cm-completion
   origin_kind: live-theorem-frontier
-  parent_obligation_id: signed-smooth-same-packet-commutator-coercivity
-  parent_label: SignedSmoothSamePacketCommutatorCoercivity.A
-  root_target_obligation_id: signed-smooth-same-packet-commutator-coercivity
-  root_target_label: SignedSmoothSamePacketCommutatorCoercivity.A
+  parent_obligation_id: global-same-packet-full-material-clock
+  parent_label: GlobalSamePacketFullClockFromOriginalData.A
+  root_target_obligation_id: global-same-packet-full-material-clock
+  root_target_label: GlobalSamePacketFullClockFromOriginalData.A
   source_class: ''
   source_status: frontier-open
   branch_type: route-mutation
@@ -264,9 +264,9 @@ branch_pool:
     / R3.WholeSpaceHsTailCompletion.A through dependency-discharge.
   merge_policy: quarantined-until-promoted
 candidate_archive:
-- origin_obligation_id: signed-smooth-same-packet-commutator-coercivity
+- origin_obligation_id: global-same-packet-full-material-clock
   origin_kind: live-theorem-frontier
-  label: SignedSmoothSamePacketCommutatorCoercivity.A
+  label: GlobalSamePacketFullClockFromOriginalData.A
   status: frontier-open
   promoted_into_branch_pool: true
 - origin_obligation_id: original-smooth-data-material-history-no-finite-breakdown
