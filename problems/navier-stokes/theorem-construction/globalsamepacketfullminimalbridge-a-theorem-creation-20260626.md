@@ -29,12 +29,7 @@ GlobalSamePacketFullMinimalBridge.A. Find the strictly weaker same-material brid
 
 ### Retrieved Ingredients
 
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:245 -- installed dynamic support
+- none
 
 ### Recursive Solver Chain
 
