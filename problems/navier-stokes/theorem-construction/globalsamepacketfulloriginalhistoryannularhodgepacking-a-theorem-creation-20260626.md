@@ -2,14 +2,14 @@
 
 ## Target
 
-- target obligation: GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A
-- target label: Prove original-history annular/Hodge packing for true high-ratio upward birth.
+- target obligation: GlobalSamePacketFullOriginalHistoryBandFluxPacking.A.CoreSubprimitive
+- target label: core original-history annular/Hodge packing estimate for high-ratio band flux
 - route role: Prove the core original-history annular/Hodge packing estimate for high-ratio band flux: on the one original transported material history, a true one-way high-ratio upward birth is bounded by same-history annular Cauchy stress-work and material Hodge/projector coupling, plus weighted-summable entrance/legal mass.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A. Prove the core original-history annular/Hodge packing estimate for high-ratio band flux: on the one original transported material history, a true one-way high-ratio upward birth is bounded by same-history annular Cauchy stress-work and material Hodge/projector coupling, plus weighted-summable entrance/legal mass. This supplies the exact noncircular bridge needed for Prove original-history annular/Hodge packing for true high-ratio upward birth..
+GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A. Prove the core original-history annular/Hodge packing estimate for high-ratio band flux: on the one original transported material history, a true one-way high-ratio upward birth is bounded by same-history annular Cauchy stress-work and material Hodge/projector coupling, plus weighted-summable entrance/legal mass. This supplies the exact noncircular bridge needed for core original-history annular/Hodge packing estimate for high-ratio band flux.
 
 ## Inventive Search
 
@@ -17,14 +17,13 @@ GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A. Prove the core origina
 - external_resources_used: false
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
 - selected_mechanism: full_same_material_original_history_annular_hodge_packing
-- candidate_count: 2
+- candidate_count: 1
 - solver_chain_verdict: open
 - selection_reason: This theorem is the right next move because it changes the proof economy: Prove the core original-history annular/Hodge packing estimate for high-ratio band flux: on the one original transported material history, a true one-way high-ratio upward birth is bounded by same-history annular Cauchy stress-work and material Hodge/projector coupling, plus weighted-summable entrance/legal mass. It deliberately reduces the remaining work to GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A.CoreSubprimitive rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
-- GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A (full_same_material_original_history_annular_hodge_packing; score=144)
-- GlobalSamePacketFullHistoryStorageLowerBound.A (full_same_material_history_storage_lower_bound; score=120)
+- GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A (full_same_material_original_history_annular_hodge_packing; score=154)
 
 ### Retrieved Ingredients
 
@@ -42,7 +41,8 @@ GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A. Prove the core origina
 ## Forbidden Imports
 
 - GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A
-- Prove original-history annular/Hodge packing for true high-ratio upward birth.
+- core original-history annular/Hodge packing estimate for high-ratio band flux
+- GlobalSamePacketFullOriginalHistoryBandFluxPacking.A.CoreSubprimitive
 - full-MPP closure
 - submission readiness
 - global smoothness
