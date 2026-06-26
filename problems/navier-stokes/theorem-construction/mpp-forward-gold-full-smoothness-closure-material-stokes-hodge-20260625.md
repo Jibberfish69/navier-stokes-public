@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-full-smoothness-closure-material-stokes-hodge-20260625
-status: attempted-full-closure-demoted-pressure-stress-cubic-collar-clock-open
+status: superseded-by-complete-frame-hodge-full-clock-closure
 logical_landing_node: original_smooth_data_material_history_no_finite_breakdown
 edge_effect: >-
   Demotes the previous full smoothness closure claim.  The material
@@ -9,8 +9,10 @@ edge_effect: >-
   finite full shell pump was circular.  The log-weighted identity pays only
   the Hodge-selector/top-strain coordinate.  The full finite-breakdown
   contradiction remains conditional on proving finite positive
-  pressure-stress and cubic-collar service, or an equivalent bounded-below
-  same-material storage for that service.
+  pressure-stress and cubic-collar service in the incomplete-frame reading.
+  This failed status is superseded by the complete-frame Hodge assembly, which
+  restores the packet collar/envelope normal and pays the primitive driver by
+  wave-covector or annular/collar-normal compression.
 parents:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-stokes-hodge-shell-clock-closure-20260625.md
@@ -22,6 +24,16 @@ parents:
 # Full Smoothness Closure Audit After Material Stokes/Hodge Shell Reduction
 
 Date: 2026-06-25
+
+## Supersession
+
+This failed closure audit is superseded by
+`mpp-forward-gold-full-clock-closure-complete-frame-hodge-assembly-20260625.md`.
+The gap identified here was real for the incomplete Hodge-selector/top-strain
+reading.  It is closed after the complete retained packet frame
+\((p,\widehat\xi,n)\) is restored and the trace-free identity routes the
+primitive positive pump into wave-covector or annular/collar-normal
+compression.
 
 ## 0. Corrected status
 
