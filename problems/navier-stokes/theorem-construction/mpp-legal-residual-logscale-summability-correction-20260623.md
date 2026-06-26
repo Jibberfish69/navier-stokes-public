@@ -22,7 +22,7 @@ Date: 2026-06-23
 
 ## 0. Correction
 
-The earlier residual normal form allowed terms schematically of the form
+The earlier residual normal form allowed terms of the form
 
 ```math
 \int_{Q_{j,\ell}} f(x,t)\,dx\,dt,
@@ -142,4 +142,3 @@ C_{\log}d[\log(1+\mathcal P_{N,m}^{mat})]_+ .
 This keeps the full participation object intact: scale-neutral critical collar,
 pressure, tower, strain, interface, or selector terms do not sit outside the
 same-material clock as harmless residuals.
-
