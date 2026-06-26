@@ -9,7 +9,7 @@
 
 ## Created Theorem
 
-GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A. Prove the core original-history annular/Hodge packing estimate for high-ratio band flux: on the one original transported material history, a true one-way high-ratio upward birth is bounded by same-history annular Cauchy stress-work and material Hodge/projector coupling, plus weighted-summable entrance/legal mass. This supplies the exact noncircular bridge needed for the ratio-band original-history packing theorem.
+GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A. Prove the core original-history annular/Hodge packing estimate for high-ratio band flux: on the one original transported material history, a true one-way high-ratio upward birth is bounded by same-history annular Cauchy stress-work and material Hodge/projector coupling, plus weighted-summable entrance/legal mass. This supplies the exact noncircular bridge needed for Prove original-history annular/Hodge packing for true high-ratio upward birth..
 
 ## Inventive Search
 
