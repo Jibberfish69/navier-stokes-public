@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-25T15:47:30Z'
+  audited_at: '2026-06-26T00:57:50Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: referee-blocked-cm-contrapositive
@@ -25,15 +25,15 @@ branch_audit:
   unresolved_count: 0
   branches:
   - branch_id: branch-navier-stokes-1
-    origin_obligation_id: signed-smooth-same-packet-commutator-coercivity
+    origin_obligation_id: global-same-packet-full-material-clock
     branch_type: route-branch
     terminal_status: route-equivalence
     exact_reason: This branch starts exactly at the first unresolved frontier for
-      `signed-smooth-same-packet-commutator-coercivity`.
+      `global-same-packet-full-material-clock`.
     promotion_status: quarantined
     falsification_verdict: quarantine
     reasons:
-    - This branch starts exactly at the first unresolved frontier for `signed-smooth-same-packet-commutator-coercivity`.
+    - This branch starts exactly at the first unresolved frontier for `global-same-packet-full-material-clock`.
     - This is a route branch rather than a local theorem bridge, so it stays quarantined.
   - branch_id: branch-navier-stokes-2
     origin_obligation_id: original-smooth-data-material-history-no-finite-breakdown
@@ -76,8 +76,8 @@ branch_audit:
     reasons:
     - This is a route branch rather than a local theorem bridge, so it stays quarantined.
   authority_frontier_open: true
-  authority_frontier_count: 5
-  authority_blocking_count: 5
+  authority_frontier_count: 4
+  authority_blocking_count: 4
   authority_status: theorem-open-at-direct-live-frontier
 downstream_overlay_drift:
   status: ok
@@ -87,7 +87,7 @@ downstream_overlay_drift:
   authority_surfaces:
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: f17c53bd921d0ab70cf5564d0cba5fe90518ea22
+    sha1: 550e5c662b8089db76dcd149e99011617def23f8
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -112,11 +112,11 @@ graph_snapshot:
     edge_count: 0
 surface_snapshot:
   theorem_surface:
-    surface_id: theorem-surface-navier-stokes-8bc62fc02549
-    route_signature: 8bc62fc0254939701711c2172a75d3063dd556d7
+    surface_id: theorem-surface-navier-stokes-94915f473d7e
+    route_signature: 94915f473d7e1350c1b6f9291cb350939b1f6534
     theorem_target: clay-cm-contrapositive-witness-consumption
     theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
-      SignedSmoothSamePacketCommutatorCoercivity.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
+      GlobalSamePacketFullClockFromOriginalData.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
       PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
       / ClayCMContrapositiveEmbedding.A; CMPartOntologyWitnessNotation.A.'
     route_chain:
@@ -268,14 +268,14 @@ surface_snapshot:
       cross_surface_splice: false
       sterilized_synthesis_import_count: 0
   theorem_authority_summary:
-    total_obligations: 9
+    total_obligations: 8
     grounded_count: 4
     structural_only_count: 0
     structurally_supported_count: 0
     bridge_pending_count: 0
     unresolved_count: 0
-    frontier_count: 5
-    blocking_count: 5
+    frontier_count: 4
+    blocking_count: 4
     all_discharged: false
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
@@ -289,8 +289,8 @@ issues:
     frontier until the branch lands as live import, route equivalence with a discharged
     authority edge, or death certificate.
   details:
-    authority_frontier_count: 5
-    authority_blocking_count: 5
+    authority_frontier_count: 4
+    authority_blocking_count: 4
     authority_status: theorem-open-at-direct-live-frontier
 - issue_id: stale-review-verdict
   severity: major
@@ -313,26 +313,26 @@ issues:
     - artifact: theorem_creation
       path: problems/navier-stokes/theorem-creation.yaml
       location: theorem_creation.solver_verdict.next_subprimitive
-      primitive_id: SignedSmoothSamePacketMinimalBridge.A.CoreSubprimitive
-      label: core noncircular subprimitive for SignedSmoothSamePacketCommutatorCoercivity.A
+      primitive_id: GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive
+      label: core noncircular subprimitive for GlobalSamePacketFullClockFromOriginalData.A
       subprimitive_class: generated-core-subprimitive
     - artifact: theorem_creation
       path: problems/navier-stokes/theorem-creation.yaml
       location: theorem_creation.proof_object.direct_residual_gap
-      primitive_id: SignedSmoothSamePacketMinimalBridge.A.CoreSubprimitive
-      label: core noncircular subprimitive for SignedSmoothSamePacketCommutatorCoercivity.A
+      primitive_id: GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive
+      label: core noncircular subprimitive for GlobalSamePacketFullClockFromOriginalData.A
       subprimitive_class: generated-core-subprimitive
     - artifact: theorem_creation
       path: problems/navier-stokes/theorem-creation.yaml
       location: theorem_creation.invention.selected_candidate.residual_gap
-      primitive_id: SignedSmoothSamePacketMinimalBridge.A.CoreSubprimitive
-      label: core noncircular subprimitive for SignedSmoothSamePacketCommutatorCoercivity.A
+      primitive_id: GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive
+      label: core noncircular subprimitive for GlobalSamePacketFullClockFromOriginalData.A
       subprimitive_class: generated-core-subprimitive
     - artifact: theorem_creation
       path: problems/navier-stokes/theorem-creation.yaml
       location: theorem_creation.invention.selected_candidate.direct_residual_gap
-      primitive_id: SignedSmoothSamePacketMinimalBridge.A.CoreSubprimitive
-      label: core noncircular subprimitive for SignedSmoothSamePacketCommutatorCoercivity.A
+      primitive_id: GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive
+      label: core noncircular subprimitive for GlobalSamePacketFullClockFromOriginalData.A
       subprimitive_class: generated-core-subprimitive
 fix_plan: []
 source_artifacts:
