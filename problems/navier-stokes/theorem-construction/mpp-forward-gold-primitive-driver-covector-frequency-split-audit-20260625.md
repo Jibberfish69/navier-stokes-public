@@ -149,17 +149,18 @@ d\Omega_N^{compressive\ covector}
 
 The first branch is paid by shell growth, viscosity, and top-strain/superheat
 service.  The second branch is the already installed angular/recirculation
-service.  The third branch is the real survivor: positive primitive activity
-that remains divergence-free and same-carrier but is not seen by the paid
-covector-growth orientation.
+service.  In the single-covector model only, the third branch appears as a
+survivor: positive primitive activity that remains divergence-free and
+same-carrier but is not seen by the paid wave-covector orientation.
 
-That survivor is not pressure/collar.  It is a same-carrier positive-cone
-problem on the graph-compatible primitive PLS carrier.
+The complete-frame correction in Section 6 removes that apparent survivor by
+restoring the packet-normal/collar direction.
 
-## 4. Exact remaining theorem
+## 4. Single-covector remaining theorem before supersession
 
-The remaining theorem is the primitive-driver analogue of the installed
-selected positive cone no-null/saturation surface:
+Before restoring the packet-normal direction, the apparent remaining theorem is
+the primitive-driver analogue of the installed selected positive cone
+no-null/saturation surface:
 
 ```math
 \boxed{
@@ -196,19 +197,17 @@ primitive PLS carrier}
 \tag{PCF.11}
 ```
 
-The current repo has the algebraic sign-separation packet and the source-mode
-factorization.  It does not yet prove the occupancy/saturation hypothesis for
-the graph-compatible primitive PLS carrier.
+This is the correct diagnosis for the incomplete `(p,\widehat\xi)` reading.
+It is not the final complete-frame diagnosis.
 
 ## 5. Result
 
-The projector-first Hodge route remains accepted and closes the pressure sector.
-The covector/frequency route pays the compressive-frequency and angular
-recirculation branches.  It does not close the retained positive-cone branch,
-because the divergence-free microlocal model `(PCF.4)`-`(PCF.6)` is a legal
-countergeometry to the naive frequency-payment implication.
+The projector-first Hodge route remains accepted and closes the pressure
+sector.  The single-covector frequency route pays the compressive-frequency and
+angular recirculation branches.  By itself it does not close the retained
+positive-cone branch, because it ignores the packet-normal/collar direction.
 
-Thus the gold-only frontier is sharpened to:
+Thus the single-covector audit sharpened the missing object to:
 
 ```math
 \boxed{
@@ -218,9 +217,8 @@ graph-compatible primitive PLS carrier.}
 \tag{PCF.12}
 ```
 
-This is the exact primitive-driver version of the remaining finite full-clock
-theorem.  It is not a pressure theorem, not an endpoint theorem, and not a
-viscosity-only theorem.
+Section 6 supersedes this as the final primitive-driver obstruction by adding
+the complete frame.
 
 ## 6. Supersession by complete-frame payment
 
