@@ -2,14 +2,14 @@
 
 ## Target
 
-- target obligation: GlobalSamePacketFullOriginalHistoryBandFluxPacking.A
+- target obligation: GlobalSamePacketFullOriginalHistoryBandFluxPacking.A.CoreSubprimitive
 - target label: Prove original-history ratio-band packing for high-ratio same-material transfer.
 - route role: Prove the ratio-band high-ratio same-material transfer is packed by the original transported history: each L to L+1 upward event either comes from the contracted lower-band carry, pays weighted-summable entrance/legal mass, or is ruled out by global annular matching and nonlocal material Hodge coupling on the same original solution.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullOriginalHistoryBandFluxPacking.A. Prove the ratio-band high-ratio same-material transfer is packed by the original transported history: each L to L+1 upward event either comes from the contracted lower-band carry, pays weighted-summable entrance/legal mass, or is ruled out by global annular matching and nonlocal material Hodge coupling on the same original solution. This supplies the exact noncircular bridge needed for the weight-beating good-lambda contraction.
+GlobalSamePacketFullOriginalHistoryBandFluxPacking.A. Prove the ratio-band high-ratio same-material transfer is packed by the original transported history: each L to L+1 upward event either comes from the contracted lower-band carry, pays weighted-summable entrance/legal mass, or is ruled out by global annular matching and nonlocal material Hodge coupling on the same original solution. This supplies the exact noncircular bridge needed for Prove original-history ratio-band packing for high-ratio same-material transfer..
 
 ## Inventive Search
 
@@ -23,8 +23,8 @@ GlobalSamePacketFullOriginalHistoryBandFluxPacking.A. Prove the ratio-band high-
 
 ### Candidate Theorems
 
-- GlobalSamePacketFullOriginalHistoryBandFluxPacking.A (full_same_material_original_history_band_flux_packing; score=112)
-- GlobalSamePacketFullHistoryStorageLowerBound.A (full_same_material_history_storage_lower_bound; score=90)
+- GlobalSamePacketFullOriginalHistoryBandFluxPacking.A (full_same_material_original_history_band_flux_packing; score=152)
+- GlobalSamePacketFullHistoryStorageLowerBound.A (full_same_material_history_storage_lower_bound; score=130)
 
 ### Retrieved Ingredients
 
@@ -43,6 +43,7 @@ GlobalSamePacketFullOriginalHistoryBandFluxPacking.A. Prove the ratio-band high-
 
 - GlobalSamePacketFullOriginalHistoryBandFluxPacking.A
 - Prove original-history ratio-band packing for high-ratio same-material transfer.
+- GlobalSamePacketFullOriginalHistoryBandFluxPacking.A.CoreSubprimitive
 - full-MPP closure
 - submission readiness
 - global smoothness
