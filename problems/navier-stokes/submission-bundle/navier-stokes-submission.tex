@@ -773,7 +773,7 @@ The periodic branch pays Pack by selecting the whole transported material atlas 
 
 A terminal source, pressure pulse, donor history, or zero-radius residue becomes a Pack landing only after it supplies this positive carrier.  A record with that carrier moves to Part.  A record with no such carrier has first failure
 \[
-  carrier-window support outside CM.
+  \text{carrier-window support outside CM}.
 \]
 \section{Packet Failure}
 
@@ -791,14 +791,14 @@ The common Pack failures have the same shape:
 \]
 In each case the terminal story points at information without a same-fluid body carrying it.  The information may be relevant, and it may explain why the branch was considered.  It still has not become the selected terminal Navier--Stokes object.  The argument marks the first lost face as
 \[
-  carrier-window support outside CM.
+  \text{carrier-window support outside CM}.
 \]
 After this face fails, the terminal record stops at Pack.  The Part and Field questions require a carrier on which the law and field can be read.
 
 The annular case is where Pack is read by admission status.  A radius-zero point is too small to carry the Clay breakdown by itself.  The surrounding fields on shrinking positive-radius annuli are the witness.  Before those fields are admitted as the same-solution terminal record, the proof is still at the selection boundary.  After they are admitted, Pack has survived for that annular test.  The remaining question is whether the admitted annular record keeps same-law participation and positive-scale field coherence.
 \section{Velocity Failure Mechanisms}
 
-The words dead, jump, and blown name mechanisms after the first failed face has been located.  They are not substitutes for the Part/Field test.  The proof first fixes the selected record \(Q\), checks Part, then checks Field; Pack is only Field-window evidence.  The first failed face determines which mechanism name is lawful.
+The words dead, jump, and blown name mechanisms after the first failed face has been located.  They are not substitutes for the Part/Field test.  The proof first fixes the selected record \(Q\), checks carrier admission, then checks Part and Field; Pack-side loss is carrier-window support outside CM.  The first Part or Field failure determines which mechanism name is lawful as exit.
 
 \subsection{Dead}
 
@@ -1272,7 +1272,7 @@ A source-reserve branch is a selected terminal branch for which a positive sourc
 Every selected source-reserve branch is routed through the first Part/Field it can answer:
 \[
 \begin{array}{rcl}
-carrier-window support outside CM &:& \text{no same-fluid carrier},\\
+\text{carrier-window support outside CM} &:& \text{no same-fluid carrier},\\
 \neg\Part_{N,Q} &:& \text{carrier without same participation},\\
 \Part_{N,Q} &:& \text{remaining Field or continuation-readout question.}
 \end{array}
@@ -1298,7 +1298,7 @@ A rigid pressure-source residue is a selected terminal object whose pressure/sou
 \end{definition}
 
 \begin{lemma}[Rigid residue requirement test]
-A rigid pressure-source residue has no independent class face.  It is Field-window support when it lacks a positive carrier, Part-side when it loses pressure participation after a carrier survives, and Field-side only after the same carrier and same participation tower both survive.
+A rigid pressure-source residue has no independent class face.  It is carrier-window support when it lacks a positive carrier, Part-side when it loses pressure participation after a carrier survives, and Field-side only after the same carrier and same participation tower both survive.
 \end{lemma}
 
 \begin{proof}
@@ -1312,7 +1312,7 @@ Pressure-tail Hardy controls, transported boundary tightness, pure-pressure sust
 Zeno arguments describe terminal objects that appear only through infinite refinement toward \(T_*\).  The exact distinction is between the point-object and the shrinking positive-radius fields around it.  For the point-object alone, zero radius is decisive.  For the singularity claim, the proof must test those shrinking positive-radius fields.
 
 \begin{proposition}[Zeno routing]
-A Zeno terminal branch with no positive terminal carrier is Field-window support as a point-object or pre-admission case.  A retained positive-scale Zeno branch has supplied carrier.  A Zeno or annular-limit branch witnessed by positive-radius fields remains live until those fields are controlled or, after admission, land in Part or Field.
+A Zeno terminal branch with no positive terminal carrier is carrier-window support as a point-object or pre-admission case.  A retained positive-scale Zeno branch has supplied carrier.  A Zeno or annular-limit branch witnessed by positive-radius fields remains live until those fields are controlled or, after admission, land in Part or Field.
 \end{proposition}
 
 \begin{proof}
@@ -1395,7 +1395,7 @@ The family analysis must answer one question for each branch.  Which same-soluti
 Every non-Euler Navier--Stokes branch family used by the working class-membership program has one of the following entry roles:
 \[
 \begin{array}{l}
-carrier-window support outside CM,\\
+\text{carrier-window support outside CM},\\
 \neg\Part_{N,Q},\\
 \Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},\\
 \text{member-side continuation readout},\\
@@ -1406,7 +1406,7 @@ carrier-window support outside CM,\\
 \end{proposition}
 
 \begin{proof}
-Read the families by their selected terminal object.  Source-control and donor-refill branches select terminal source ancestry or reserve.  Detached or unaccounted ancestry without a positive same-fluid carrier is Field-window support.  Retained source residue with carrier and broken pressure-viscosity participation is Part-side.  Retained source residue that has passed Pack and Part becomes a Field or readout diagnostic.
+Read the families by their selected terminal object.  Source-control and donor-refill branches select terminal source ancestry or reserve.  Detached or unaccounted ancestry without a positive same-fluid carrier is carrier-window support.  Retained source residue with carrier and broken pressure-viscosity participation is Part-side.  Retained source residue that has passed Pack and Part becomes a Field or readout diagnostic.
 
 Zero-radius and terminal-atom branches select a point-object with no positive terminal carrier unless a retained positive-scale packet has first been supplied.  The point-object branch is a Pack Part/Field failure.  Retained Zeno and annular alternatives are finite typed subcases inside the same witness tree.
 
@@ -1606,7 +1606,7 @@ The energy class gives \(u\in L^4_tL^3_x\) on \([0,T_*)\).  The exterior factor 
 \begin{proposition}[Exterior survivor lands in the CM Part/Fields]
 Assume the exterior nonlinear source survives in \(H^s\).  Then the selected terminal exterior survivor lands in the CM matrix:
 \[
-  carrier-window support outside CM\;\vee\;\neg\Part_{M,Q}\;\vee\;
+  \text{carrier-window support outside CM}\;\vee\;\neg\Part_{M,Q}\;\vee\;
   \forall \rho>0\,\neg\Field_{M,\rho,Q}.
 \]
 \end{proposition}
@@ -1641,7 +1641,7 @@ The branch sections have one job for the reader.  They show how the accumulated 
 \begin{proposition}[Branch obligations enter by first lost requirement]
 Let \(B\) be a non-Euler same-solution branch from source reserve, donor refill, zero-radius refinement, retained amplitude, low strain, height flux, signed current, square reserve, endpoint readout, no-pulse, local critical translation, or comparison.  The branch is proof-bearing exactly when it identifies the same terminal witness record and proves one of the following outcomes:
 \[
-  carrier-window support outside CM,\qquad
+  \text{carrier-window support outside CM},\qquad
   \neg\Part_{N,Q},\qquad
   \Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},
 \]
@@ -1787,7 +1787,7 @@ It says what happens once the alleged terminal object has been tied to the origi
 At that point the same record either supplies the selected continuation readout, or it loses its first Part or Field face.
 
 The Clay-facing bridge keeps the original smooth-data branch inside the same pass-or-exit CM reading.
-The simplest place to see the remaining bridge is the terminal Field-window evidence.
+The simplest place to see the remaining bridge is the terminal carrier-window support boundary.
 Smoothness on every fixed slab \([0,T_*-\varepsilon]\) gives a same-solution packet before terminal time, but it does not by itself give a uniform positive terminal carrier as \(\varepsilon\downarrow0\).
 A terminal Pack loss can appear only in the limiting record unless the proof supplies a uniform terminal Pack persistence theorem.
 
@@ -1821,7 +1821,7 @@ An auxiliary estimate enters the proof after it names the selected terminal reco
   \text{CM-test entry}\\
   &\Longrightarrow
   \begin{cases}
-  carrier-window support outside CM,\\
+  \text{carrier-window support outside CM},\\
   \neg\Part_{N,Q},\\
   \Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
   \end{cases}
@@ -1829,7 +1829,7 @@ An auxiliary estimate enters the proof after it names the selected terminal reco
 \]
 or after it supplies the member-side readout chain required by the continuation criterion selected for that same record.
 This gives every auxiliary calculation a concrete job.
-For an auxiliary calculation to enter the proof, it identifies the same terminal record \(Q\), pays one of the three faces, or supplies the continuation readout for that same record.
+For an auxiliary calculation to enter the proof, it identifies the same terminal record \(Q\), records carrier-admission support, pays a Part or Field face, or supplies the continuation readout for that same record.
 
 A failed direct estimate still belongs in the paper when it teaches where a direct route stops.
 It records the exact obstruction, the object left behind, and the theorem required of a future direct proof.
@@ -1870,7 +1870,7 @@ A terminal branch with zero terminal radius, detached ancestry, first-created un
 \begin{proof}
 Each listed mechanism removes the positive transported packet needed to carry \(Q\) as the same fluid branch.
 The carrier requirement is exactly the existence of such a positive transported packet.
-The first lost requirement is \(carrier-window support outside CM\).
+The first lost requirement is carrier-window support outside CM.
 \end{proof}
 
 \begin{lemma}[Participation pattern]
