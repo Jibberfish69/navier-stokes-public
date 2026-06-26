@@ -372,7 +372,16 @@ GOLD_COUNTERPART_SUPPORT_PATH_PATTERN = %r{
 }x.freeze
 GENERATED_THEOREM_TEST_SUPPORT_PATH_PATTERN = %r{
   (?:^|/)problems/navier-stokes/theorem-construction/
-  mcp-[^/]*\.(?:md|ya?ml|tex)\z
+  mcp-[^/]*(?:
+    test|
+    attempt|
+    direct-?attack|
+    directattempt|
+    directproofattempt|
+    constructionattempt|
+    coupledplssymmetrizertransaction|
+    normalizedplsterminalrest
+  )[^/]*\.(?:md|ya?ml|tex)\z
 }x.freeze
 SESSION_OR_CONVERSATION_SUPPORT_PATH_PATTERN = %r{
   (?:^|/)
