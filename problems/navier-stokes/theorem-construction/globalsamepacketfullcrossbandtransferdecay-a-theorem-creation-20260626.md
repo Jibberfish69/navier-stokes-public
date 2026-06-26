@@ -53,7 +53,7 @@ GlobalSamePacketFullCrossBandTransferDecay.A. Prove the original transported smo
 1. Work directly with the ratio bands E_{j,l} for rho_j=Theta_j^{mat}/2^{2j}.
 2. Use the original transported smooth history and the full pressure-viscosity-incompressibility-velocity material coupling.
 3. Show high-ratio one-way transfer has cross-band decay strong enough to give N_{L+1} <= theta N_L + B_L with 2theta<1.
-4. Keep local finite-depth examples, scalar donor models, and stale proxy clocks as insufficiency tests rather than proof inputs.
+4. Keep local finite-depth examples, scalar donor models, and stale proxy readouts as insufficiency tests rather than proof inputs.
 
 ## Circularity Audit
 
