@@ -79,7 +79,7 @@
 \titleformat{\paragraph}[runin]{\bfseries\normalsize}{\theparagraph}{0.75em}{}
 \titlespacing*{\paragraph}{0pt}{1.0\baselineskip}{0.6em}
 
-\title{Three-Dimensional Navier--Stokes: Complete-Frame Material Clock Route and Referee Audit}
+\title{Three-Dimensional Navier--Stokes: Silver CM-Exit Route and Gold Counterpart}
 \author{Thomas Birnie}
 \date{June 17, 2026}
 
@@ -89,35 +89,33 @@
 \clearpage
 
 \begin{abstract}
-This manuscript records the current Gold-route continuation attempt for
-three-dimensional incompressible Navier--Stokes and the referee audit needed
-before that route can be treated as a finished smoothness proof.  The route
-starts from a smooth divergence-free datum, follows the original smooth solution
-on a maximal interval \([0,T_*)\), and tries to prove that the full
-same-material participation clock is finite.  That clock is the pressure,
-viscosity, incompressibility, velocity, strain, Hodge projection, collar,
-annular stress, and material-frame action read on one transported material
-history.
+This manuscript states the Silver CM-exit proof for three-dimensional
+incompressible Navier--Stokes.  Start from a smooth divergence-free datum and
+the original classical solution \((u,p)\) on a maximal interval
+\([0,T_*)\).  An alleged finite-time Clay breakdown must select a terminal
+record \(Q\) for that same branch.  The CM test asks whether \(Q\) remains a
+member of the working Navier--Stokes class, where class membership is the
+same pressure-viscosity-incompressibility participation law together with one
+coherent positive-scale field readout.
 
-The candidate closing mechanism is the complete-frame Hodge assembly.  Pressure
-is first removed as a top-order dynamic variable by the moving material Hodge
-projector.  The pressure/collar normal defect is handled by the Schur
-complement, while tangent pressure motion is projector and metric motion.
-Coefficient and base-collar variation reduce to strain/frame service.  The
-primitive driver is read on the complete retained frame consisting of velocity
-polarization, wave covector, and annular/collar normal.  Since the strain is
-trace-free, positive pump in the velocity direction must be matched by
-compression in a transverse direction.
+The Silver route is the contrapositive branch.  After the same-solution
+terminal record is admitted, a retained participation-field packet lies on the
+member/continuation side.  A nonsmooth terminal record must lose the first
+available face in Pack-out-of-CM audited order: outside-CM field-window
+evidence after original-participation testing, failure of
+\(\Part_{N,Q}\), or retained participation with
+\(\forall r>0\,\neg\Field_{N,r,Q}\).  That first Part or Field failure gives
+\[
+  \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+\]
+The same record cannot be both a continuation-complete member packet and the
+finite nonsmooth obstruction for the original branch.
 
-The referee issue is exhaustiveness.  The annular mechanism is sufficient only
-when every terminal concentration mechanism is read as part of the same full
-participation clock, rather than as a detached center pulse or a single
-motivating example.  Once that exhaustive clock statement is certified, finite
-clock mass removes the terminal endpoint atom, bounds the continuation-depth
-material record, gives a fixed \(H^s\), \(s>5/2\), bound, and restarts the
-classical solution past \(T_*\).  Until that referee audit is synchronized, the
-manuscript records a candidate Gold closure and the Part/Field classification
-grammar, not a final claim that the Millennium problem is solved.
+The Gold route remains active as the forward-positive counterpart: it tries to
+prove the continuation-strength full material clock for the original smooth
+history directly.  That work is CM-bearing because it concerns the same
+participation law, but it is not a hidden condition on the Silver CM-exit
+proof stated here.
 \end{abstract}
 \clearpage
 
