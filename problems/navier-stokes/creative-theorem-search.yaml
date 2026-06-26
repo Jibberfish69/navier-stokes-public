@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-06-26T01:50:38Z'
+  generated_at: '2026-06-26T04:59:02Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -37,35 +37,35 @@ sandbox:
 branch_pool:
 - &1
   branch_id: creative-branch-navier-stokes-1
-  origin_obligation_id: PositiveRemainderDepletion.A
+  origin_obligation_id: SourceWeightedTerminalAngularDepletion.A
   origin_kind: proof-dependency
-  parent_obligation_id: global-same-packet-full-material-clock
-  parent_label: 'Refine the stalled dependency-discharge target global-same-packet-full-material-clock:
-    GlobalSamePacketFullClockFromOriginalData.A'
+  parent_obligation_id: PositiveRemainderDepletion.A
+  parent_label: same-ledger depletion/anti-concentration for the minimal retained
+    positive-scale first-created source carrier
   root_target_obligation_id: global-same-packet-full-material-clock
   root_target_label: GlobalSamePacketFullClockFromOriginalData.A
   source_class: theorem-creation-next-subprimitive
   source_status: needs-theorem-creation
   branch_type: bridge-lemma
   pursuit_mode: co-dependent
-  candidate_claim: Create the recursive theorem subprimitive PositiveRemainderDepletion.A
+  candidate_claim: Create the recursive theorem subprimitive SourceWeightedTerminalAngularDepletion.A
     exposed by the previous theorem-creation packet, instead of mutating a neighboring
     route.
   creative_move: Search for the missing mediating object or bounded inequality that
     makes the implication local and testable.
   invention_packet:
-    candidate_statement: Create the recursive theorem subprimitive PositiveRemainderDepletion.A
+    candidate_statement: Create the recursive theorem subprimitive SourceWeightedTerminalAngularDepletion.A
       exposed by the previous theorem-creation packet, instead of mutating a neighboring
       route.
     mediating_object: local_bridge_object
     proof_sketch:
-    - State the weakest exact claim that would advance `PositiveRemainderDepletion.A`
+    - State the weakest exact claim that would advance `SourceWeightedTerminalAngularDepletion.A`
       without expanding the theorem target.
     - Define or isolate the mediating object on the current carrier/window/sector
       only.
     - Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `same-ledger depletion/anti-concentration
-      for the minimal retained positive-scale first-created source carrier`.
+      ladder rather than a modified-equation detour for `source-weighted terminal
+      angular depletion for the selected positive source carrier`.
     - Show how that object converts one already-grounded local statement into the
       next missing step.
     - Reject the move if it introduces new global scope, hidden imports, or a stronger
@@ -84,7 +84,7 @@ branch_pool:
   - clay-cm-contrapositive-witness-consumption
   - cm-part-ontology-witness-notation-correction
   - torus-global-material-atlas-terminal-capture
-  - PositiveRemainderDepletion.A
+  - SourceWeightedTerminalAngularDepletion.A
   risk_level: medium-low
   notes:
   - This branch is the live recursive subprimitive from theorem-creation; keep it
@@ -93,9 +93,9 @@ branch_pool:
   - Use the weakest sufficient move; do not inflate the theorem target.
   recommended_next_cell_type: theorem-creation
   recommended_next_action: 'Creative theorem search selected the live theorem-creation
-    subprimitive `PositiveRemainderDepletion.A`. Run theorem-creation on that exact
-    recursive proof burden instead of replaying route mutation: same-ledger depletion/anti-concentration
-    for the minimal retained positive-scale first-created source carrier.'
+    subprimitive `SourceWeightedTerminalAngularDepletion.A`. Run theorem-creation
+    on that exact recursive proof burden instead of replaying route mutation: source-weighted
+    terminal angular depletion for the selected positive source carrier.'
   merge_policy: quarantined-until-promoted
 - branch_id: creative-branch-navier-stokes-2
   origin_obligation_id: global-same-packet-full-material-clock
@@ -270,10 +270,10 @@ branch_pool:
     / OriginalParticipationBeforePackLicensing.A through dependency-discharge.
   merge_policy: quarantined-until-promoted
 candidate_archive:
-- origin_obligation_id: PositiveRemainderDepletion.A
+- origin_obligation_id: SourceWeightedTerminalAngularDepletion.A
   origin_kind: proof-dependency
-  label: same-ledger depletion/anti-concentration for the minimal retained positive-scale
-    first-created source carrier
+  label: source-weighted terminal angular depletion for the selected positive source
+    carrier
   status: needs-theorem-creation
   promoted_into_branch_pool: true
 - origin_obligation_id: global-same-packet-full-material-clock
