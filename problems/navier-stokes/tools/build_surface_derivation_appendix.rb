@@ -69,7 +69,7 @@ end
 
 def cm_role_phrase(role)
   {
-    pack: "Field-window evidence terminal obligations",
+    pack: "carrier-window support obligations",
     part: "Part-face terminal obligations",
     field: "Field-face terminal obligations",
     finite_disjunction: "finite Part/Field disjunction obligations",
