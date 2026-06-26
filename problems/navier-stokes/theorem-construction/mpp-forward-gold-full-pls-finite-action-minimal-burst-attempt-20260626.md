@@ -13,14 +13,14 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mcp-superheatresidencefrequencyhistorydirectaudit-a-globalsamepacketfullclockfromoriginaldata-a-20260625.md
 ---
 
-# Full PLS Finite-Action Minimal-Burst Attempt
+# Full Same-Material Action Minimal-Burst Attempt
 
 The live Gold object is the original smooth solution's single transported
 material history.  Heat-scale packets are only bounded-overlap samples of that
 history.  The remaining theorem is the finite total action estimate
 
 ```math
-\int_0^{T_*}d\Omega_N^{PLS,full}<\infty ,
+\int_0^{T_*}d\Omega_N^{full}<\infty ,
 \tag{MBA.1}
 ```
 
@@ -30,15 +30,15 @@ feeding a separate object.
 
 ## 1. Minimal-burst contradiction setup
 
-Assume `(MBA.1)` fails.  Since \(d\Omega_N^{PLS,full}\) is a nonnegative
+Assume `(MBA.1)` fails.  Since \(d\Omega_N^{full}\) is a nonnegative
 same-material action measure, choose first-hitting intervals \(I_k=[a_k,b_k]\)
 on the same material history such that
 
 ```math
-\int_{I_k}d\Omega_N^{PLS,full}=1,
+\int_{I_k}d\Omega_N^{full}=1,
 \qquad
 b_k=\inf\left\{t>a_k:
-\int_{a_k}^{t}d\Omega_N^{PLS,full}=1
+\int_{a_k}^{t}d\Omega_N^{full}=1
 \right\}.
 \tag{MBA.2}
 ```
@@ -55,7 +55,7 @@ The installed sector reductions are then applied to each \(I_k\):
   into wave-covector compression or annular/collar-normal compression;
 - subheat refill is absorbed by high-shell viscosity;
 - return/oscillatory recirculation is finite;
-- top-frequency regeneration is not free and is part of the same PLS action.
+- top-frequency regeneration is not free and is part of the same full same-material action.
 
 Thus a minimal unit burst cannot hide in a terminal center atom, pressure-only
 lobe, viscosity-only drain, scalar endpoint pulse, finite jet, or arbitrary
@@ -93,7 +93,7 @@ material participation rate outruns heat damping at shell \(j\).  On this set
 the dyadic energy identity gives only
 
 ```math
-[m_j^{PLS}(t)]_+
+[m_j^{full}(t)]_+
 \lesssim
 \Theta_j^{mat}(t)e_j(t)+r_j^{legal}(t),
 \tag{MBA.5}
@@ -180,7 +180,7 @@ same-history compression action.
 The weighted material-energy primitive has the same sign obstruction:
 
 ```math
-{d\over dt}E_w+\nu D_w=m_w^{PLS}.
+{d\over dt}E_w+\nu D_w=m_w^{full}.
 \tag{MBA.11}
 ```
 

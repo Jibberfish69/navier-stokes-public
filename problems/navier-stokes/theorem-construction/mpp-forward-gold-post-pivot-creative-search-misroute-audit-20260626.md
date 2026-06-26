@@ -12,7 +12,7 @@ source_surfaces:
 
 # Forward Gold Post-Pivot Creative Search Misroute Audit
 
-After installing the exhaustive full PLS clock pivot, the dependency-discharge
+After installing the exhaustive full same-material action pivot, the dependency-discharge
 worker correctly kept the target open:
 
 ```text
@@ -22,7 +22,7 @@ Next cell: creative-theorem-search
 ```
 
 The subsequent creative-theorem-search run did not select the Gold target
-`ExhaustiveFullPLSClockFromOriginalData.A`.  It selected the prior recursive
+`GlobalSamePacketFullClockFromOriginalData.A`.  It selected the prior recursive
 subprimitive:
 
 ```text
@@ -41,7 +41,7 @@ Gold route.  It may remain support for other route machinery, but it does not
 prove the Gold theorem
 
 ```math
-\int_0^{T_*}d\Omega_N^{PLS,full}<\infty .
+\int_0^{T_*}d\Omega_N^{full}<\infty .
 ```
 
 Therefore the current creative-theorem-search output is not safe to promote or
@@ -52,7 +52,7 @@ The next Gold theorem-creation packet must target one of the two pivot forms:
 ```math
 \mathscr A_N(t)\ge -C_N(u_0),
 \qquad
-d\mathscr A_N+c_Nd\Omega_N^{PLS,full}\le dR_N^{legal},
+d\mathscr A_N+c_Nd\Omega_N^{full}\le dR_N^{legal},
 \qquad
 \int_0^{T_*}dR_N^{legal}<\infty,
 ```
@@ -60,7 +60,7 @@ d\mathscr A_N+c_Nd\Omega_N^{PLS,full}\le dR_N^{legal},
 or
 
 ```math
-\int_0^{T_*}d\Omega_N^{PLS,full}\le C_N(u_0).
+\int_0^{T_*}d\Omega_N^{full}\le C_N(u_0).
 ```
 
 Any generated theorem whose carrier is a source-reserve, terminal-source,

@@ -19,7 +19,7 @@ source_surfaces:
 The active Gold object is the finite full same-material action estimate
 
 ```math
-\int_0^{T_*} d\Omega_N^{PLS,full}<\infty .
+\int_0^{T_*} d\Omega_N^{full}<\infty .
 \tag{FSC.1}
 ```
 
@@ -41,7 +41,7 @@ Assume `(FSC.1)` fails.  The minimal-burst reduction gives disjoint or
 bounded-overlap first-hitting intervals \(I_k\) with
 
 ```math
-\int_{I_k} d\Omega_N^{PLS,full}=1.
+\int_{I_k} d\Omega_N^{full}=1.
 \tag{FSC.2}
 ```
 
@@ -113,7 +113,7 @@ material-record growth:
 ```math
 d[\log(1+\mathcal P_N^{mat})]_+
 \le
-C_N\,d\Omega_N^{PLS,full}+dR_N^0 .
+C_N\,d\Omega_N^{full}+dR_N^0 .
 \tag{FSC.7}
 ```
 

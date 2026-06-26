@@ -132,7 +132,7 @@ This is the exact circularity in the complete-frame/Hodge closure attempt:
 +
 \text{top-strain log storage}
 \not\Rightarrow
-\int d\Omega_N^{PLS,full}<\infty .
+\int d\Omega_N^{full}<\infty .
 ```
 
 It gives the same action multiplied by \(L_j\) on the side that still needs a
@@ -218,7 +218,7 @@ Therefore the live Gold requirement remains the noncircular finite-action
 theorem for the original transported material history:
 
 ```math
-\int_0^{T_*}d\Omega_N^{PLS,full}<\infty,
+\int_0^{T_*}d\Omega_N^{full}<\infty,
 ```
 
 or an equivalent bounded-below same-material depletion invariant that pays the

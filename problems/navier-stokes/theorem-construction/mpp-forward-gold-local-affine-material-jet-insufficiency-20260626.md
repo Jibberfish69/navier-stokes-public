@@ -179,11 +179,11 @@ They prove attachment and admission:
 They do not prove the finite total estimate:
 
 ```math
-\int_0^{T_*}d\Omega_N^{PLS,full}<\infty .
+\int_0^{T_*}d\Omega_N^{full}<\infty .
 \tag{LAJ.16}
 ```
 
-Here \(d\Omega_N^{PLS,full}\) is only the legacy notation for the finite full
+Here \(d\Omega_N^{full}\) is only the legacy notation for the finite full
 same-material action measure.
 
 ## 4. What a successful proof must use

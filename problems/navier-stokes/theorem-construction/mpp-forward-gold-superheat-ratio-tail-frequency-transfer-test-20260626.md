@@ -21,7 +21,7 @@ This note checks the last natural frequency-history escape hatch.
 
 The object is still one original smooth solution and its transported material
 history.  Heat-scale windows are only samples of that history.  The legacy
-symbol \(d\Omega_N^{PLS,full}\) means the full same-material
+symbol \(d\Omega_N^{full}\) means the full same-material
 pressure--viscosity--incompressibility--velocity action measure.
 
 ## 1. Known frequency input

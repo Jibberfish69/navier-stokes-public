@@ -25,11 +25,11 @@ complete-frame, Hodge, subheat, and recirculation reductions.  The point is to
 show that those reductions alone cannot imply
 
 ```math
-\int_0^{T_*}d\Omega_N^{PLS,full}<\infty .
+\int_0^{T_*}d\Omega_N^{full}<\infty .
 \tag{DRI.1}
 ```
 
-Here the notation \(d\Omega_N^{PLS,full}\) is only the legacy symbol for the
+Here the notation \(d\Omega_N^{full}\) is only the legacy symbol for the
 full same-material participation-law-strain action.
 
 ## 1. Reduced action model

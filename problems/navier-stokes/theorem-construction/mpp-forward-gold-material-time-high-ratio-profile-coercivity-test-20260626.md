@@ -22,7 +22,7 @@ The live target is finite full same-material action:
 \tag{MTHR.1}
 ```
 
-The deprecated PLS-clock language is only historical shorthand.  The object is
+The deprecated clock shorthand is only historical shorthand.  The object is
 the original smooth solution and its transported material history.
 
 This note tests the profile produced by failure of the weighted high-ratio tail.

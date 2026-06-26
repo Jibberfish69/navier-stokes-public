@@ -229,11 +229,11 @@ fluid packet.
 It does not, by scale alone, prove
 
 ```math
-\int_0^{T_*}d\Omega_N^{PLS,full}<\infty .
+\int_0^{T_*}d\Omega_N^{full}<\infty .
 \tag{LGM.20}
 ```
 
-Here the legacy symbol \(d\Omega_N^{PLS,full}\) denotes the full
+Here the legacy symbol \(d\Omega_N^{full}\) denotes the full
 same-material action measure.
 
 The remaining theorem must use more than global matching:

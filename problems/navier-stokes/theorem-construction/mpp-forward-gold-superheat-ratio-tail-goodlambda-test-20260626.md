@@ -21,7 +21,7 @@ This note tests the exact good-lambda shape needed by the finite full
 same-material action problem.
 
 The object is still the original transported material history.  The legacy
-symbol \(d\Omega_N^{PLS,full}\) is only notation for the finite full
+symbol \(d\Omega_N^{full}\) is only notation for the finite full
 same-material action measure.
 
 ## 1. Tail variables
