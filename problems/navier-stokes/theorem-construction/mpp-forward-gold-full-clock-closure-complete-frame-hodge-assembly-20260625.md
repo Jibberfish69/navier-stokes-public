@@ -407,8 +407,11 @@ with
 \tag{FCA.29}
 ```
 
-Integrating `(FCA.28)` gives finite total mass for the relaxed positive clock
-and strict loss.  Combining `(FCA.25)`--`(FCA.29)` yields `(FCA.2)`.
+If the relaxed master balance `(FCA.28)` is supplied with only genuinely
+legal/summable residuals and with every conditional sector hypothesis
+discharged, integration gives finite total mass for the relaxed positive clock
+and strict loss.  The referee audit records that those hypotheses are not yet
+certified by the cited support surfaces.
 
 ## 7. Terminal and continuation consequences
 
@@ -424,7 +427,7 @@ d\mu_C(t)
 ```
 
 The annular stress transaction is a component of \(d\Omega_N^{PLS,full}\) plus
-legal residual.  Since `(FCA.2)` is finite, terminal tails vanish:
+legal residual.  Once `(FCA.2)` is proved, terminal tails vanish:
 
 ```math
 \lim_{\theta\downarrow0}
@@ -432,7 +435,8 @@ legal residual.  Since `(FCA.2)` is finite, terminal tails vanish:
 \tag{FCA.31}
 ```
 
-Thus there is no positive center endpoint atom and no last-time terminal pulse.
+Thus finite full clock implies no positive center endpoint atom and no
+last-time terminal pulse.
 
 The full clock contains the positive material-record variation:
 
@@ -443,7 +447,7 @@ C_Nd\Omega_N^{PLS,full}+dR_N^0.
 \tag{FCA.32}
 ```
 
-Therefore
+Therefore finite full clock implies
 
 ```math
 \sup_{t<T_*}\mathcal P_N^{mat}(t)<\infty.
@@ -460,14 +464,17 @@ Eulerian norm:
 ```
 
 Classical periodic Navier--Stokes local theory then relaunches the solution
-past \(T_*\).  Hence a finite smooth breakdown time cannot occur.
+past \(T_*\).  This continuation conclusion is conditional on the finite full
+clock estimate.
 
 ## 8. Boundary of the theorem
 
-This theorem is a Gold-route closure for the retained complete-frame material
-packet.  If a purported terminal packet does not retain the packet
+This note is a Gold-route candidate closure for the retained complete-frame
+material packet.  If a purported terminal packet does not retain the packet
 collar/envelope normal, then it is not a counterexample inside this Gold
 branch; it is a transported-collar/carrier admission failure already accounted
 for by the relaxed interface/legal clock.  In the retained branch, the
-complete-frame trace-free payment removes the final primitive positive-cone
-null and closes the full material clock.
+complete-frame trace-free payment removes the primitive positive-cone null as a
+local orientation gap.  The remaining referee burden is the exhaustive finite
+full-clock producer, because the cited support surfaces do not yet certify that
+global estimate.
