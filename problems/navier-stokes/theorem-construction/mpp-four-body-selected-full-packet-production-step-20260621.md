@@ -497,7 +497,7 @@ and hence:
 \boxed{
 \text{persistent order-locked selected full-packet activity}
 \Rightarrow
-\text{positive full-cycle payment or typed Pack/Part/Field exit.}
+\text{positive full-cycle payment or typed carrier admission plus Part/Field exit.}
 }
 \tag{FPS.34}
 ```

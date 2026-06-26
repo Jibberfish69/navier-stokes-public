@@ -1491,7 +1491,7 @@ the current frontier:
 \begin{array}{rcl}
 \text{height atom} &\Rightarrow& \text{square/tail UI failure},\\[1mm]
 \text{critical density} &\Rightarrow& \text{consumer after unweighted budget},\\[1mm]
-\text{finite source-gradient rung} &\Rightarrow& \text{CM Pack/Part/Field face
+\text{finite source-gradient rung} &\Rightarrow& \text{carrier admission plus Part/Field face
 after same-witness admission},\\[1mm]
 \text{pure high-rung tail} &\Rightarrow& \text{tail-to-carrier/no-waste/profile
 branch}.

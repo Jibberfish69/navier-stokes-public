@@ -88,7 +88,7 @@ The theorem tested here is:
 \tag{PPD.3}
 ```
 
-or a typed Pack/Part/Field exit.  The older polar-pair theorem remains a
+or a typed carrier admission plus Part/Field exit.  The older polar-pair theorem remains a
 sufficient stronger theorem.
 
 ## 1. Full-packet half is already paid

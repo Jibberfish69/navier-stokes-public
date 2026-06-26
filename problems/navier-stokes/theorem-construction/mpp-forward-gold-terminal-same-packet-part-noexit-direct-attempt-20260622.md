@@ -133,7 +133,7 @@ Pack_Q+\neg Part_{N,Q}.
 ```
 
 The checked CM authority says that a CM-test-admissible Clay terminal witness
-is exhausted by a Pack/Part/Field face failure, and the Part failure supports
+is exhausted by carrier admission followed by a Part/Field face failure, and the Part failure supports
 
 ```math
 Exit(Q):=\neg Member(Q).

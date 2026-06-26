@@ -308,7 +308,7 @@ It also records:
 \boxed{
 \text{retained atom plus same finite-rung readout}
 \Longrightarrow
-\text{Pack/Part/Field face after same-witness admission.}
+\text{carrier admission followed by Part/Field face after same-witness admission.}
 }
 \tag{FAS.22}
 ```

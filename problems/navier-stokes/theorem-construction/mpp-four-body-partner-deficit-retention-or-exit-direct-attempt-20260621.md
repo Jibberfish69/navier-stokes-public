@@ -285,7 +285,7 @@ with statement:
 \tag{PDO.21}
 ```
 
-or a typed Pack/Part/Field exit.
+or a typed carrier admission plus Part/Field exit.
 
 That theorem is genuinely stronger than the already installed full-packet
 production step, because it asks the four-body loop to pay not only the positive

@@ -166,7 +166,7 @@ Thus the remaining proof object is:
 
 ```math
 \boxed{
-\text{FullPacketDefectExhaustion.A: every failed production branch is either paid or typed as Pack/Part/Field exit.}
+\text{FullPacketDefectExhaustion.A: every failed production branch is either paid or typed as carrier admission plus Part/Field exit.}
 }
 ```
 

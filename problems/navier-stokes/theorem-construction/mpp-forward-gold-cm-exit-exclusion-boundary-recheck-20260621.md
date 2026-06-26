@@ -2,7 +2,7 @@
 theorem_id: forward-gold-cm-exit-exclusion-boundary-recheck-20260621
 status: boundary-recheck-complete-cm-consumption-installed-positive-noexit-not-produced
 logical_landing_node: cm_exit_exclusion_boundary_recheck
-edge_effect: "Rechecks the new fork after the native channel-first source bridge closed as four-body payment or typed CM exit. The checked boundary is sharp: AnyFiniteFailureWitnessCMExit.A and ClayTerminalWitnessCMEntry/Exhaustion/Embedding install CM consumption of finite terminal witnesses as Pack/Part/Field class-exit support. Excluding those CM exits from original smooth data is a different positive packet-survival theorem, TerminalCMNoExit.A / NoGenuineCMExit.A, and the direct attempt remains open from installed inputs. Therefore the branch must not replace the direct terminal reserve problem by a vague CM-exit exclusion slogan. The honest fork is: prove a direct no-exit supplier such as UniformNormalizedLocalEnergyPressure.A / TerminalHardyNoWaste.A / source-square / critical-strain / normalized CKN / strict no-waste, or use the already-installed CM consumption of the surviving endpoint Part/Field faces after same-witness admission."
+edge_effect: "Rechecks the new fork after the native channel-first source bridge closed as four-body payment or typed CM exit. The checked boundary is sharp: AnyFiniteFailureWitnessCMExit.A and ClayTerminalWitnessCMEntry/Exhaustion/Embedding install CM consumption of finite terminal witnesses as carrier admission followed by Part/Field class-exit support. Excluding those CM exits from original smooth data is a different positive packet-survival theorem, TerminalCMNoExit.A / NoGenuineCMExit.A, and the direct attempt remains open from installed inputs. Therefore the branch must not replace the direct terminal reserve problem by a vague CM-exit exclusion slogan. The honest fork is: prove a direct no-exit supplier such as UniformNormalizedLocalEnergyPressure.A / TerminalHardyNoWaste.A / source-square / critical-strain / normalized CKN / strict no-waste, or use the already-installed CM consumption of the surviving endpoint Part/Field faces after same-witness admission."
 parents:
   - problems/navier-stokes/theorem-construction/mpp-four-body-endpoint-donor-closure-branch-solution-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-uniform-normalized-local-energy-pressure-bound-direct-test-20260621.md
@@ -94,7 +94,7 @@ The checked CM direction is therefore:
 \boxed{
 \text{finite terminal witness}
 \Longrightarrow
-\text{Pack/Part/Field face failure}
+\text{carrier admission followed by Part/Field failure}
 \Longrightarrow
 Exit(Q):=\neg Member(Q).
 }
@@ -230,7 +230,7 @@ on the no-exit branch, hence
 ```
 
 The two remaining CM faces are not new hidden residues.  They are the already
-installed CM consumption targets:
+installed Part/Field consumption targets after carrier admission:
 
 ```math
 Pack_Q+\neg Part_{N,Q},
