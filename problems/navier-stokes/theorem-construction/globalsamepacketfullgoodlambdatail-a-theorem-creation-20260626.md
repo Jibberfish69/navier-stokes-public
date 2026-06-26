@@ -3,13 +3,13 @@
 ## Target
 
 - target obligation: GlobalSamePacketFullWeightBeatingTail.A.GoodLambdaSubprimitive
-- target label: good-lambda or bounded-below same-material storage proof of the weight-beating tail
+- target label: good-lambda or bounded-below storage subprimitive for the weight-beating same-material tail
 - route role: Prove the tail recurrence for the original transported smooth history: N_{L+1} <= theta N_L + B_L with 2theta<1 and weighted-summable B_L, which is equivalent to finite full same-material action.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullGoodLambdaTail.A. Prove the tail recurrence for the original transported smooth history: N_{L+1} <= theta N_L + B_L with 2theta<1 and weighted-summable B_L, which is equivalent to finite full same-material action. This supplies the exact noncircular bridge needed for good-lambda or bounded-below same-material storage proof of the weight-beating tail.
+GlobalSamePacketFullGoodLambdaTail.A. Prove the tail recurrence for the original transported smooth history: N_{L+1} <= theta N_L + B_L with 2theta<1 and weighted-summable B_L, which is equivalent to finite full same-material action. This supplies the exact noncircular bridge needed for good-lambda or bounded-below storage subprimitive for the weight-beating same-material tail.
 
 ## Inventive Search
 
@@ -23,7 +23,7 @@ GlobalSamePacketFullGoodLambdaTail.A. Prove the tail recurrence for the original
 
 ### Candidate Theorems
 
-- GlobalSamePacketFullGoodLambdaTail.A (full_same_material_goodlambda_contraction; score=138)
+- GlobalSamePacketFullGoodLambdaTail.A (full_same_material_goodlambda_contraction; score=134)
 - GlobalSamePacketFullBoundedActionStorage.A (full_same_material_bounded_storage_equivalent; score=118)
 
 ### Retrieved Ingredients
@@ -42,7 +42,7 @@ GlobalSamePacketFullGoodLambdaTail.A. Prove the tail recurrence for the original
 ## Forbidden Imports
 
 - GlobalSamePacketFullGoodLambdaTail.A
-- good-lambda or bounded-below same-material storage proof of the weight-beating tail
+- good-lambda or bounded-below storage subprimitive for the weight-beating same-material tail
 - GlobalSamePacketFullWeightBeatingTail.A.GoodLambdaSubprimitive
 - full-MPP closure
 - submission readiness
