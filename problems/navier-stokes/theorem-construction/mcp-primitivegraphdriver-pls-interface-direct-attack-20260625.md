@@ -2,7 +2,20 @@
 
 Date: 2026-06-25
 
-Status: direct attack installed; graph-driver identified as the continuation-strength moving material deformation coefficient, not a pressure/collar defect.
+Status: superseded by complete-frame trace-free primitive payment; graph-driver
+identified here as the continuation-strength moving material deformation
+coefficient, then closed on retained complete-frame packets by transverse
+compression payment.
+
+## Supersession
+
+This direct attack correctly identified the primitive graph-driver as the
+moving material deformation coefficient and rejected pressure/collar-only
+closures.  Its nonclosure verdict is superseded by
+`mpp-forward-gold-complete-frame-tracefree-primitive-pls-payment-20260625.md`.
+The missing object was the packet collar/envelope normal in the retained
+point-scale frame; after adding it, trace-free strain pays the primitive
+positive pump through one of the two transverse compression records.
 
 ## 0. Object
 
