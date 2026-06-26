@@ -14,6 +14,8 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-repeated-core-nonreuse-storage-direct-test-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-shrinking-core-escape-capacity-lower-bound-direct-test-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-installed-support-axioms-half-tail-model-no-go-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-history-critical-sample-compactness-rigidity-test-20260625.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-reserve-minimal-bad-chain-compactness-test-20260626.md
 ---
 
 # No-Zeno Selected Tree Dichotomy Equivalence
@@ -42,17 +44,40 @@ Assume `(NTD.1)` fails on the retained tree. Then there is an infinite retained
 subtree \(\mathcal T_0\subseteq\mathcal T\) with positive selected action at
 arbitrarily deep levels.
 
-For any infinite laminar tree, one of two things happens.
+Use the standard branch/antichain split for a laminar tree measure. For a branch
+\(\gamma\), set
+
+```math
+A(\gamma):=\sum_{Q\in\gamma}A(Q).
+\tag{NTD.2}
+```
+
+For an antichain \(\mathcal A\), set
+
+```math
+A(\mathcal A):=\sum_{Q\in\mathcal A}A(Q).
+\tag{NTD.3}
+```
+
+If there is a branch \(\gamma\) with
+
+```math
+A(\gamma)=\infty,
+\tag{NTD.4}
+```
+
+then the failed selected tail is carried by repeated use of one material
+ancestry core.
 
 First, there is an infinite ancestry path
 
 ```math
 Q_0\supset Q_1\supset Q_2\supset\cdots
-\tag{NTD.2}
+\tag{NTD.5}
 ```
 
-that carries infinitely many retained selected visits. This is the repeated-core
-branch. The needed estimate is exactly
+with divergent branch action. This is the repeated-core branch. The needed
+estimate is exactly
 
 ```text
 RepeatedCorePositiveVariationRootBound.A
@@ -62,11 +87,25 @@ because each repeated visit is already conditionally charged to positive
 Cauchy-Green, pressure-Hodge-frame, collar-normal, or annular turnstile
 variation on the reused material ancestry.
 
-Second, no ancestry path carries infinite selected visits. Then the failed
-selected tail must escape through infinitely many pairwise separated children,
-or through descendants whose common material core shrinks to the terminal point.
-Equivalently, after passing to a subfamily, the selected unit bursts form a
-shrinking-core escape family with summable raw radius/capacity still possible.
+Second, suppose every branch has finite branch action. Since the total tree
+action is infinite, the mass cannot be charged to repeated use of one ancestry
+line. After pruning finitely many early generations, one can decompose the
+remaining mass into antichain blocks \(\mathcal A_k\), with depths tending to
+the terminal core, such that
+
+```math
+A(\mathcal A_k)>0,
+\qquad
+\sum_k A(\mathcal A_k)=\infty.
+\tag{NTD.6}
+```
+
+Each block consists of pairwise material-separated selected cores inside their
+common ancestors, or descendants whose common ancestor radius tends to the
+terminal core. This is the shrinking-core escape branch: the selected action
+escapes through smaller material cores rather than through infinite reuse of one
+core.
+
 The needed estimate is exactly
 
 ```text
@@ -79,12 +118,18 @@ like the core radius and cannot pay unit selected action.
 Thus the current alternatives are exhaustive:
 
 ```math
-\neg (NTD.1)
+\sum_{Q\in\mathcal T}A(Q)=\infty
 \Longrightarrow
-\neg\texttt{RepeatedCorePositiveVariationRootBound.A}
+\left[
+\exists\gamma,\ A(\gamma)=\infty
+\right]
 \quad\text{or}\quad
-\neg\texttt{ScaleInvariantSelectedCapacityNoEscape.A}.
-\tag{NTD.3}
+\left[
+\exists\{\mathcal A_k\},\ 
+\sum_k A(\mathcal A_k)=\infty
+\text{ through shrinking antichain blocks}
+\right].
+\tag{NTD.7}
 ```
 
 Equivalently,
@@ -95,8 +140,15 @@ Equivalently,
 \texttt{ScaleInvariantSelectedCapacityNoEscape.A}
 \Longrightarrow
 \sum_{Q\in\mathcal T}A(Q)<\infty.
-\tag{NTD.4}
+\tag{NTD.8}
 ```
+
+Compactness does not add a third case. The same-history critical-sample
+compactness tests extract a local suitable packet plus terminal/collar defect
+package; they do not produce the finite unweighted root measure. That package
+falls into the same two alternatives above according to whether its selected
+mass remains on a reused material core or escapes through shrinking selected
+cores.
 
 ## 3. No third Gold branch
 
