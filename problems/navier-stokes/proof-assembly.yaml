@@ -30,37 +30,38 @@ frontier_context:
   additional_context_obligations:
   - obligation_id: global-same-packet-full-material-clock
     label: GlobalSamePacketFullClockFromOriginalData.A
-    kind: live-theorem-frontier
-    status: frontier-open
+    kind: gold-counterpart-frontier
+    status: gold-open-not-silver-blocker
   - obligation_id: original-smooth-data-material-history-no-finite-breakdown
     label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
-    kind: live-theorem-frontier
-    status: frontier-open
+    kind: gold-counterpart-frontier
+    status: gold-open-not-silver-blocker
   - obligation_id: pack-out-of-cm-smoothness-certification-audit
     label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
-    kind: live-theorem-frontier
-    status: frontier-open
+    kind: silver-support-repair
+    status: support-installed-not-silver-blocker
   - obligation_id: r3-whole-space-cm-completion
     label: R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A
-    kind: live-theorem-frontier
-    status: frontier-open
+    kind: silver-support-and-gold-counterpart
+    status: support-not-silver-blocker
   - obligation_id: scale-uniform-annular-supplier-goal-resolution
     label: ScaleUniformAnnularSupplierGoalResolution.A / AnnularLimitCMFaceLanding.A
-    kind: live-theorem-frontier
-    status: frontier-open
-next_solver_targets:
+    kind: silver-support-and-gold-counterpart
+    status: support-not-silver-blocker
+next_solver_targets: []
+gold_counterpart_or_support_targets:
 - obligation_id: global-same-packet-full-material-clock
   label: GlobalSamePacketFullClockFromOriginalData.A
-  kind: live-theorem-frontier
-  status: frontier-open
+  kind: gold-counterpart-frontier
+  status: gold-open-not-silver-blocker
 - obligation_id: original-smooth-data-material-history-no-finite-breakdown
   label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
-  kind: live-theorem-frontier
-  status: frontier-open
+  kind: gold-counterpart-frontier
+  status: gold-open-not-silver-blocker
 - obligation_id: pack-out-of-cm-smoothness-certification-audit
   label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
-  kind: live-theorem-frontier
-  status: frontier-open
+  kind: silver-support-repair
+  status: support-installed-not-silver-blocker
 theorem_surface:
   surface_id: theorem-surface-navier-stokes-d857049b86ee
   route_signature: d857049b86ee0132f87f3cd355af3810fab1f5a0
