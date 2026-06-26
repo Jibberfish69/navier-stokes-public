@@ -2,14 +2,14 @@
 
 ## Target
 
-- target obligation: global-same-packet-full-material-clock
-- target label: GlobalSamePacketFullClockFromOriginalData.A
+- target obligation: GlobalSamePacketFullWeightBeatingTail.A
+- target label: Prove the weight-beating ratio-tail law for the original transported full same-material action.
 - route role: Prove the nonproxy tail law for the original transported smooth history: the material-rate/heat-rate ratio beats the dyadic weight and therefore yields finite full same-material action.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullWeightBeatingTail.A. Prove the nonproxy tail law for the original transported smooth history: the material-rate/heat-rate ratio beats the dyadic weight and therefore yields finite full same-material action. This supplies the exact noncircular bridge needed for GlobalSamePacketFullClockFromOriginalData.A.
+GlobalSamePacketFullWeightBeatingTail.A. Prove the nonproxy tail law for the original transported smooth history: the material-rate/heat-rate ratio beats the dyadic weight and therefore yields finite full same-material action. This supplies the exact noncircular bridge needed for Prove the weight-beating ratio-tail law for the original transported full same-material action..
 
 ## Inventive Search
 
@@ -23,9 +23,9 @@ GlobalSamePacketFullWeightBeatingTail.A. Prove the nonproxy tail law for the ori
 
 ### Candidate Theorems
 
-- GlobalSamePacketFullWeightBeatingTail.A (full_same_material_weight_beating_tail; score=96)
-- GlobalSamePacketFullCompactnessDefectRigidity.A (full_same_material_compactness_defect; score=86)
-- GlobalSamePacketFullMonotoneBudget.A (full_same_material_monotone_budget; score=74)
+- GlobalSamePacketFullWeightBeatingTail.A (full_same_material_weight_beating_tail; score=132)
+- GlobalSamePacketFullCompactnessDefectRigidity.A (full_same_material_compactness_defect; score=82)
+- GlobalSamePacketFullMonotoneBudget.A (full_same_material_monotone_budget; score=78)
 
 ### Retrieved Ingredients
 
@@ -43,8 +43,7 @@ GlobalSamePacketFullWeightBeatingTail.A. Prove the nonproxy tail law for the ori
 ## Forbidden Imports
 
 - GlobalSamePacketFullWeightBeatingTail.A
-- GlobalSamePacketFullClockFromOriginalData.A
-- global-same-packet-full-material-clock
+- Prove the weight-beating ratio-tail law for the original transported full same-material action.
 - full-MPP closure
 - submission readiness
 - global smoothness
