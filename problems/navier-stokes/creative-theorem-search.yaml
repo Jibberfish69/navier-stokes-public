@@ -47,16 +47,12 @@ branch_pool:
   source_status: needs-theorem-creation
   branch_type: bridge-lemma
   pursuit_mode: co-dependent
-  candidate_claim: Create the recursive theorem subprimitive GlobalSamePacketFullOriginalHistoryBandFluxPacking.A
-    exposed by the previous theorem-creation packet, instead of mutating a neighboring
-    route.
+  candidate_claim: Prove original-history ratio-band packing for high-ratio same-material transfer.
   creative_move: Search for the missing mediating object or bounded inequality that
     makes the implication local and testable.
   invention_packet:
-    candidate_statement: Create the recursive theorem subprimitive GlobalSamePacketFullOriginalHistoryBandFluxPacking.A
-      exposed by the previous theorem-creation packet, instead of mutating a neighboring
-      route.
-    mediating_object: local_bridge_object
+    candidate_statement: Prove original-history ratio-band packing for high-ratio same-material transfer.
+    mediating_object: original_history_ratio_band_packing
     proof_sketch:
     - State the weakest exact claim that would advance `GlobalSamePacketFullOriginalHistoryBandFluxPacking.A`
       without expanding the theorem target.
