@@ -24,10 +24,9 @@ history.  The remaining theorem is the finite total action estimate
 \tag{MBA.1}
 ```
 
-not an external clock-supplier statement.  The phrase "clock producer" is
-therefore deprecated for the live theorem surface: the proof must produce
-finite action of the same participation-law-strain history, not feed a separate
-clock from a detached account.
+not an external supplier statement.  The live theorem surface must say finite
+action of the same participation-law-strain history, not a detached account
+feeding a separate object.
 
 ## 1. Minimal-burst contradiction setup
 
