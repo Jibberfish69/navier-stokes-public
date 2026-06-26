@@ -46,7 +46,7 @@ authority_sync_gate:
 central_gate:
   gate_id: cm-witness-face-bridge
   target: Every Silver theorem result must test the original participation law and land
-    in Part_{N,Q} or Field_{N,r,Q}, with Pack_Q only as outside-CM packet/window
+    in Part_{N,Q} or Field_{N,r,Q}, with Pack_Q only as carrier-window
     evidence for Field, or remain branch-support only.
   governing_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
   witness_form: Part/Field failure after same-solution admission supports Exit(Q):=not Member(Q);
@@ -62,7 +62,7 @@ contract_compiler:
     target: GlobalSamePacketFullClockFromOriginalData.A
     output_lane: cm-bearing
     allowed_inputs:
-    - installed same-fluid Pack/Part/Field definitions
+    - installed same-fluid carrier admission plus Part/Field definitions
     - live CM primitive in live-theorem-edge.yaml
     - source-frontier unresolved obligation
     - direct-live authority gate
@@ -79,7 +79,7 @@ contract_compiler:
     target: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
     output_lane: cm-bearing
     allowed_inputs:
-    - installed same-fluid Pack/Part/Field definitions
+    - installed same-fluid carrier admission plus Part/Field definitions
     - live CM primitive in live-theorem-edge.yaml
     - source-frontier unresolved obligation
     - direct-live authority gate
@@ -96,7 +96,7 @@ contract_compiler:
     target: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
     output_lane: cm-bearing
     allowed_inputs:
-    - installed same-fluid Pack/Part/Field definitions
+    - installed same-fluid carrier admission plus Part/Field definitions
     - live CM primitive in live-theorem-edge.yaml
     - source-frontier unresolved obligation
     - direct-live authority gate
@@ -113,7 +113,7 @@ contract_compiler:
     target: R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A
     output_lane: cm-bearing
     allowed_inputs:
-    - installed same-fluid Pack/Part/Field definitions
+    - installed same-fluid carrier admission plus Part/Field definitions
     - live CM primitive in live-theorem-edge.yaml
     - source-frontier unresolved obligation
     - direct-live authority gate
@@ -130,7 +130,7 @@ contract_compiler:
     target: ScaleUniformAnnularSupplierGoalResolution.A / AnnularLimitCMFaceLanding.A
     output_lane: cm-bearing
     allowed_inputs:
-    - installed same-fluid Pack/Part/Field definitions
+    - installed same-fluid carrier admission plus Part/Field definitions
     - live CM primitive in live-theorem-edge.yaml
     - source-frontier unresolved obligation
     - direct-live authority gate
@@ -171,34 +171,34 @@ contract_compiler:
     output_lane: supplier-only
     supplier_kind: source-side-supplier
     bridge_to: []
-    promotion_boundary: branch-support only until bridge-license certifies Pack/Part/Field
+    promotion_boundary: branch-support only until bridge-license certifies carrier admission plus Part/Field
       landing
   - contract_id: awg-a
     target: AWG.A
     output_lane: supplier-only
     supplier_kind: branch-support
     bridge_to: []
-    promotion_boundary: branch-support only until bridge-license certifies Pack/Part/Field
+    promotion_boundary: branch-support only until bridge-license certifies carrier admission plus Part/Field
       landing
   - contract_id: tgc-a
     target: TGC.A
     output_lane: supplier-only
     supplier_kind: terminal-cover-support
     bridge_to: []
-    promotion_boundary: branch-support only until bridge-license certifies Pack/Part/Field
+    promotion_boundary: branch-support only until bridge-license certifies carrier admission plus Part/Field
       landing
   - contract_id: pctp-hard-ttu-a
     target: PCTP.hard / TTU.A
     output_lane: supplier-only
     supplier_kind: downstream-consumer
     bridge_to: []
-    promotion_boundary: branch-support only until bridge-license certifies Pack/Part/Field
+    promotion_boundary: branch-support only until bridge-license certifies carrier admission plus Part/Field
       landing
   forbidden_aliases:
   - PCTP.hard / TTU.A as direct CM bridge
   - SOURCE.NO-PULSE.A as governing CM primitive
   - AWG.A or Jump_avg elimination as Member(Q)
-  - TGC.A terminal-cover support as Pack/Part/Field
+  - TGC.A terminal-cover support as carrier admission plus Part/Field
   - local class-membership route closed
   - none-active
   - all_discharged while live CM witness-face bridge remains open
