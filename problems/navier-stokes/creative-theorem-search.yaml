@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-06-26T13:08:41Z'
+  generated_at: '2026-06-26T13:17:34Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_proof_assembly_id: proof-assembly-navier-stokes
 intervention:
-  reason: frontier-expansion
+  reason: multi-path-sandbox
   review_posture: blocked
   boundary_rule: Everything beyond the grounded core is machine extension until it
     survives falsification and promotion.
@@ -19,16 +19,16 @@ intervention:
   coverage_rule: Keep all candidate branch ideas on record even when only the top
     bounded subset is actively pursued.
 sandbox:
-  mode: single-branch-sandbox
-  trigger: single-frontier
+  mode: multi-path-sandbox
+  trigger: forked-frontier
   survivor_writeback: Keep only branches that survive discharge, falsification, or
     refinement; demote the rest back into explicit debt.
   independent_branch_ids:
+  - creative-branch-navier-stokes-1
   - creative-branch-navier-stokes-2
   - creative-branch-navier-stokes-3
   - creative-branch-navier-stokes-4
-  co_dependent_branch_ids:
-  - creative-branch-navier-stokes-1
+  co_dependent_branch_ids: []
   branch_execution_order:
   - creative-branch-navier-stokes-1
   - creative-branch-navier-stokes-2
@@ -37,39 +37,39 @@ sandbox:
 branch_pool:
 - &1
   branch_id: creative-branch-navier-stokes-1
-  obligation_id: GlobalSamePacketFullMonotoneBudget.A
-  kind: proof-dependency
-  label: 'GlobalSamePacketFullMonotoneBudget.A: bounded-below same-material storage
-    for the graph-compatible full same-material action'
-  status: needs-theorem-creation
-  origin_obligation_id: GlobalSamePacketFullMonotoneBudget.A
-  origin_kind: proof-dependency
+  obligation_id: ContinuationStrengthMaterialClockAtDepth.A
+  kind: blocked-frontier
+  label: 'ContinuationStrengthMaterialClockAtDepth.A: hard boundary for finite total
+    same-material service at continuation depth; formalize only a genuinely new non-equivalent
+    Gold mechanism'
+  status: hard-boundary-open
+  origin_obligation_id: ContinuationStrengthMaterialClockAtDepth.A
+  origin_kind: blocked-frontier
   parent_obligation_id: global-same-packet-full-material-clock
   parent_label: GlobalSamePacketFullClockFromOriginalData.A
   root_target_obligation_id: global-same-packet-full-material-clock
   root_target_label: GlobalSamePacketFullClockFromOriginalData.A
-  source_class: stalled-full-action-monotone-budget-bridge
-  source_status: needs-theorem-creation
-  branch_type: bridge-lemma
-  pursuit_mode: co-dependent
-  candidate_claim: Construct the bounded-below same-material budget for the graph-compatible
-    full same-material action.
-  creative_move: Search for the missing mediating object or bounded inequality that
-    makes the implication local and testable.
+  source_class: continuation-strength-hard-boundary
+  source_status: hard-boundary-open
+  branch_type: route-mutation
+  pursuit_mode: independent
+  candidate_claim: Hold the continuation-strength material clock as the current hard
+    boundary and formalize only a new non-equivalent Gold mechanism candidate.
+  creative_move: Open a bounded side branch that changes representation but not the
+    theorem target, then compare whether it reduces proof obligations.
   invention_packet:
-    candidate_statement: Construct the bounded-below same-material budget for the
-      graph-compatible full same-material action.
-    mediating_object: bounded_below_same_material_budget
+    candidate_statement: Hold the continuation-strength material clock as the current
+      hard boundary and formalize only a new non-equivalent Gold mechanism candidate.
+    mediating_object: non_equivalent_gold_mechanism_for_continuation_strength_clock
     proof_sketch:
-    - Construct a global same-material history functional bounded below by the original
-      smooth data.
-    - Differentiate that functional on the transported material history, using the
-      moving Hodge projector for tangent pressure motion and Schur normal storage
-      only for relative pressure/collar defect.
-    - Show its derivative pays the graph-compatible full same-material action measure
-      up to legal summable residual.
-    - Reject local finite-depth state primitives whose paying sign becomes unbounded
-      below on one-way stretch histories.
+    - Preserve ContinuationStrengthMaterialClockAtDepth.A as the current hard boundary.
+    - Reject MonotoneBudget, bounded-storage, local metric, pressure/collar, annular,
+      and finite commutator storage routes as already tested equivalents or no-go
+      branches.
+    - A promoted branch must supply a genuinely new same-material Gold mechanism whose
+      conclusion is not equivalent to finite continuation-depth material clock.
+    - If no such mechanism is formalized, keep the Gold route open at the hard boundary
+      instead of creating another theorem-creation target.
     falsification_checks:
     - Does the move preserve the frozen theorem target rather than redefining it?
     - Can the candidate be stated on already-grounded objects without importing a
@@ -78,30 +78,25 @@ branch_pool:
       a local discharge target?
     - Reject if the branch only rephrases the existing gap without a new mediating
       object or bounded inequality.
-    scope_guard: Insert only the weakest bridge sufficient to connect the current
-      grounded chain.
+    scope_guard: Representation may change, theorem target may not.
   grounded_basis:
   - clay-cm-contrapositive-witness-consumption
   - cm-part-ontology-witness-notation-correction
   - torus-global-material-atlas-terminal-capture
-  - GlobalSamePacketFullMonotoneBudget.A
-  risk_level: medium-low
+  - ContinuationStrengthMaterialClockAtDepth.A
+  risk_level: high
   notes:
-  - This branch is the live recursive subprimitive from theorem-creation; keep it
-    on theorem-creation until it is discharged or sharpened.
-  - The weight-tail branch has already produced localized support without promoting
-    the full-action root; this branch tests the equivalent bounded-below same-material
-    budget route.
-  - The weight-tail branch has already reached the original-history carrier partition
-    identity as localized support without promoting the full-action root; the next
-    branch must test the equivalent bounded-below same-material storage route.
+  - The current theorem-creation packet already classified this target as a hard boundary;
+    creative-search must not reselect MonotoneBudget or another tested storage proxy.
+  - The moving-pump finite-work route is already classified as equivalent to the continuation-strength
+    material clock. Bounded-storage, local metric, pressure/collar, annular, and commutator-storage
+    routes are stale unless a new non-equivalent Gold mechanism is supplied.
   - This branch is machine-derived beyond the current frozen core.
-  - Use the weakest sufficient move; do not inflate the theorem target.
-  recommended_next_cell_type: theorem-creation
-  recommended_next_action: Creative theorem search selected bounded-below same-material
-    budget route `GlobalSamePacketFullMonotoneBudget.A` after the weight-tail chain
-    failed to promote global-same-packet-full-material-clock. Run theorem-creation
-    on the budget route instead of replaying `GlobalSamePacketFullWeightBeatingTail.A`.
+  recommended_next_cell_type: object-formalization
+  recommended_next_action: Creative theorem search selected `ContinuationStrengthMaterialClockAtDepth.A`
+    as the current hard boundary. Formalize a genuinely new non-equivalent Gold mechanism
+    candidate; do not rerun MonotoneBudget, bounded-storage, local metric, pressure/collar,
+    annular, or commutator storage routes.
   merge_policy: quarantined-until-promoted
 - branch_id: creative-branch-navier-stokes-2
   obligation_id: global-same-packet-full-material-clock
@@ -276,11 +271,12 @@ branch_pool:
     / OriginalParticipationBeforePackLicensing.A through dependency-discharge.
   merge_policy: quarantined-until-promoted
 candidate_archive:
-- origin_obligation_id: GlobalSamePacketFullMonotoneBudget.A
-  origin_kind: proof-dependency
-  label: 'GlobalSamePacketFullMonotoneBudget.A: bounded-below same-material storage
-    for the graph-compatible full same-material action'
-  status: needs-theorem-creation
+- origin_obligation_id: ContinuationStrengthMaterialClockAtDepth.A
+  origin_kind: blocked-frontier
+  label: 'ContinuationStrengthMaterialClockAtDepth.A: hard boundary for finite total
+    same-material service at continuation depth; formalize only a genuinely new non-equivalent
+    Gold mechanism'
+  status: hard-boundary-open
   promoted_into_branch_pool: true
 - origin_obligation_id: global-same-packet-full-material-clock
   origin_kind: live-theorem-frontier
@@ -311,12 +307,12 @@ selected_branch: *1
 summary:
   candidate_count: 6
   candidate_archive_count: 6
-  sandbox_mode: single-branch-sandbox
+  sandbox_mode: multi-path-sandbox
   active_branch_ids:
   - creative-branch-navier-stokes-1
   - creative-branch-navier-stokes-2
   - creative-branch-navier-stokes-3
   - creative-branch-navier-stokes-4
   selected_branch_id: creative-branch-navier-stokes-1
-  selected_next_cell_type: theorem-creation
+  selected_next_cell_type: object-formalization
   intervention_needed: true
