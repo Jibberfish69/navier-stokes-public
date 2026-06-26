@@ -53,7 +53,7 @@ GlobalSamePacketFullWeightBeatingTail.A. The generated minimal-bridge core is no
 1. Use the June 26 weight-beating tail audit as the governing source.
 2. State the tail law sum_l 2^l nu_l<infinity as the theorem surface.
 3. Accept only the equivalent good-lambda recurrence with 2theta<1 or bounded-below same-material action storage as subprimitive forms.
-4. Exclude PLS-acronym, terminal-source, source-reserve, pressure-lobe, and viscosity-only clocks from the target.
+4. Exclude acronym-only, terminal-source, source-reserve, pressure-lobe, and viscosity-only clocks from the target.
 
 ## Circularity Audit
 
