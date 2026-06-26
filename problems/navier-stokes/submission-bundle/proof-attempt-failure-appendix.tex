@@ -1248,10 +1248,11 @@ Does it have a positive material carrier?
 Does the Navier--Stokes law still participate on that carrier?
 Does the field have coherent positive-scale readout?
 If all three survive, the branch is on the smooth same-solution side.
-If one fails first, the branch gives \(carrier-window support outside the exit conclusion\), \(\Pack_Q\wedge
-\neg\Part_{N,Q}\), or \(\\Part_{N,Q}\wedge\forall r>0\,
-\neg\Field_{N,r,Q}\).
-That is the exact way the failure record becomes proof material.
+If the carrier is not admitted, the branch records carrier-window support outside
+the exit conclusion.  Once admitted, the branch gives \(\neg\Part_{N,Q}\) or
+\(\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\).
+That is the exact way the failure record becomes proof material without turning
+carrier support into class exit.
 
 \subsection{Branch-To-Face Conversion Checks}
 
@@ -1921,20 +1922,18 @@ The pass branch keeps the same-fluid requirement:
 \[
   O_{\Pass}
   \Longrightarrow
-  \\Part_{N,Q}\wedge\Field_{N,r,Q}
+  \Part_{N,Q}\wedge\Field_{N,r,Q}
   \Longrightarrow
   \Member(Q;\Owork)
   \Longrightarrow
   \text{smooth continuation}.
 \]
 The fail branch is not a loose bad scenario.
-It is a terminal object capable of finite nonsmoothness and admitted to the CM
-test:
+It either remains at the carrier-window support boundary before admission, or it
+is a terminal object capable of finite nonsmoothness and admitted to the CM test:
 \[
   O_{\Fail}
   \Longrightarrow
-  carrier-window support outside the exit conclusion
-  \vee
   \neg\Part_{N,Q}
   \vee
   \forall r>0\,\neg\Field_{N,r,Q}.
@@ -3903,7 +3902,7 @@ The installed branch-level conclusion is
 \[
   \text{terminal }L^3\text{ Duhamel response mass}
   \Longrightarrow
-  carrier-window support outside the exit conclusion
+  \text{carrier-window support outside the exit conclusion}
   \vee
   \neg\Part_{N,Q}
   \vee
@@ -4029,18 +4028,17 @@ The pass branch is the continuation branch:
 \[
   O_{\mathrm{pass}}
   \Longrightarrow
-  \\Part_{N,Q}\wedge\Field_{N,r,Q}
+  \Part_{N,Q}\wedge\Field_{N,r,Q}
   \Longrightarrow
   \Member(Q;\Owork).
 \]
-The fail branch must do real work:
+The fail branch must do real work.  Carrier loss remains carrier-window support
+before admission; an admitted obstruction must land in Part or Field:
 \[
   O_{\mathrm{fail}}
   \Longrightarrow
   \text{CM-test-admissible terminal obstruction}
   \Longrightarrow
-  carrier-window support outside the exit conclusion
-  \vee
   \neg\Part_{N,Q}
   \vee
   \forall r>0\,\neg\Field_{N,r,Q}.
@@ -4135,13 +4133,11 @@ have a positive-scale coherent readout?
 
 When the answer is yes through all three questions, the branch is the pass side.
 It gives the same-solution membership branch.
-When the answer first fails, the branch supplies the Part/Field failure:
+When the admitted answer first fails, the branch supplies the Part/Field failure:
 \[
-  carrier-window support outside the exit conclusion,
-  \qquad
   \neg\Part_{N,Q},
   \qquad
-  \\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+  \Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
 Those are the only exits used by the class proof.
 The record has a narrower job: it is the intake map for terminal evidence.
