@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-full-pump-alignment-bridge-direct-attack-20260625
-status: partial-bridge-installed; top-strain-aligned-pump-paid; non-top-strain-pressure-collar-pump-remains
+status: superseded-by-projector-first-complete-frame-assembly
 logical_landing_node: global_same_packet_full_clock_from_original_data
 edge_effect: >-
   Attacks the exact alignment bridge left after the signed top-strain
@@ -13,6 +13,10 @@ edge_effect: >-
   cancellation. A full-pump eigenvalue storage would pay this by definition,
   but its generator does not satisfy the strain Riccati damping law; the
   natural storage is bounded below only after assuming the continuation record.
+  This partial boundary is superseded by the projector-first Hodge reduction
+  and complete-frame trace-free payment: pressure/collar graph motion is not a
+  primitive positive source, and the retained packet normal routes the
+  primitive positive pump into paid transverse compression.
 parents:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-top-strain-storage-vs-moving-pump-alignment-check-20260625.md
@@ -24,6 +28,15 @@ parents:
 # Full Pump Alignment Bridge Direct Attack
 
 Date: 2026-06-25
+
+## Supersession
+
+This note remains the historical split that exposed the incomplete-frame
+problem.  Its non-top pump boundary is superseded by
+`mpp-forward-gold-full-clock-closure-complete-frame-hodge-assembly-20260625.md`.
+Projector-first Hodge removes pressure as a top-order dynamic source, and the
+complete frame \((p,\widehat\xi,n)\) pays the remaining primitive strain pump
+through wave-covector or annular/collar-normal compression.
 
 ## 0. Object
 
