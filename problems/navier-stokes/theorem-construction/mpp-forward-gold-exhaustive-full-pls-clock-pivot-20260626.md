@@ -13,7 +13,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-theorem-creation-misroute-audit-20260626.md
 ---
 
-# Forward Gold Exhaustive Full PLS Clock Pivot
+# Forward Gold Exhaustive Full Same-Material Action Pivot
 
 The current Gold route is not closed.
 
@@ -30,7 +30,7 @@ history, and heat-scale windows only as bounded-overlap samples of that same
 history.
 
 The Gold proof must prove the exhaustive same-material full participation-law
-strain clock estimate
+strain action estimate
 
 ```math
 \int_0^{T_*} d\Omega_N^{PLS,full}<\infty .
@@ -58,7 +58,7 @@ Installed reductions support this admission:
   wave-covector compression or annular/collar-normal compression;
 - subheat refill, oscillatory recirculation, and top-frequency regeneration are
   routed into high-shell viscosity, strain/frame service, legal service, or the
-  same PLS clock.
+  same full action.
 
 Those are admission and sector-reduction results.  They do not by themselves
 prove finite total mass of \(d\Omega_N^{PLS,full}\).
@@ -91,7 +91,7 @@ because that bounded record is the downstream consequence of `(PIV.1)`.
 ## Drift Rule
 
 Generated or older surfaces are support only unless they prove `(PIV.2)` or
-`(PIV.3)` for the full same-material PLS clock.
+`(PIV.3)` for the full same-material action.
 
 This specifically quarantines the following as Gold-route substitutes:
 
@@ -103,7 +103,7 @@ This specifically quarantines the following as Gold-route substitutes:
 - viscosity-only drain;
 - scalar endpoint-pulse \(L^p\) or Hardy reserves;
 - finite-jet supplier language;
-- local complete-frame payment without finite total full-clock control.
+- local complete-frame payment without finite total full-action control.
 
 ## Current Status
 
@@ -112,7 +112,7 @@ This pivot closes a target-custody problem, not the theorem.
 The remaining mathematical theorem is exactly:
 
 ```text
-ExhaustiveFullPLSClockFromOriginalData.A
+ExhaustiveFullSameMaterialActionFromOriginalData.A
 ```
 
 with content `(PIV.1)`, proved by `(PIV.2)` or `(PIV.3)` after exhaustive
