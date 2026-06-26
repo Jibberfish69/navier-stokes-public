@@ -4,13 +4,13 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-06-26T13:17:34Z'
+  generated_at: '2026-06-26T13:31:17Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
   source_proof_assembly_id: proof-assembly-navier-stokes
 intervention:
-  reason: multi-path-sandbox
+  reason: formalization-stalled
   review_posture: blocked
   boundary_rule: Everything beyond the grounded core is machine extension until it
     survives falsification and promotion.
@@ -20,7 +20,7 @@ intervention:
     bounded subset is actively pursued.
 sandbox:
   mode: multi-path-sandbox
-  trigger: forked-frontier
+  trigger: formalization-stalled
   survivor_writeback: Keep only branches that survive discharge, falsification, or
     refinement; demote the rest back into explicit debt.
   independent_branch_ids:
@@ -39,9 +39,8 @@ branch_pool:
   branch_id: creative-branch-navier-stokes-1
   obligation_id: ContinuationStrengthMaterialClockAtDepth.A
   kind: blocked-frontier
-  label: 'ContinuationStrengthMaterialClockAtDepth.A: hard boundary for finite total
-    same-material service at continuation depth; formalize only a genuinely new non-equivalent
-    Gold mechanism'
+  label: Hold the continuation-strength material clock as the current hard boundary
+    and formalize only a new non-equivalent Gold mechanism candidate.
   status: hard-boundary-open
   origin_obligation_id: ContinuationStrengthMaterialClockAtDepth.A
   origin_kind: blocked-frontier
@@ -49,27 +48,33 @@ branch_pool:
   parent_label: GlobalSamePacketFullClockFromOriginalData.A
   root_target_obligation_id: global-same-packet-full-material-clock
   root_target_label: GlobalSamePacketFullClockFromOriginalData.A
-  source_class: continuation-strength-hard-boundary
+  source_class: stalled-dependency-discharge-target
   source_status: hard-boundary-open
   branch_type: route-mutation
   pursuit_mode: independent
-  candidate_claim: Hold the continuation-strength material clock as the current hard
-    boundary and formalize only a new non-equivalent Gold mechanism candidate.
+  candidate_claim: 'Refine the stalled dependency-discharge target ContinuationStrengthMaterialClockAtDepth.A:
+    Hold the continuation-strength material clock as the current hard boundary and
+    formalize only a new non-equivalent Gold mechanism candidate.'
   creative_move: Open a bounded side branch that changes representation but not the
     theorem target, then compare whether it reduces proof obligations.
   invention_packet:
-    candidate_statement: Hold the continuation-strength material clock as the current
-      hard boundary and formalize only a new non-equivalent Gold mechanism candidate.
-    mediating_object: non_equivalent_gold_mechanism_for_continuation_strength_clock
+    candidate_statement: 'Refine the stalled dependency-discharge target ContinuationStrengthMaterialClockAtDepth.A:
+      Hold the continuation-strength material clock as the current hard boundary and
+      formalize only a new non-equivalent Gold mechanism candidate.'
+    mediating_object: route_mutation_carrier
     proof_sketch:
-    - Preserve ContinuationStrengthMaterialClockAtDepth.A as the current hard boundary.
-    - Reject MonotoneBudget, bounded-storage, local metric, pressure/collar, annular,
-      and finite commutator storage routes as already tested equivalents or no-go
-      branches.
-    - A promoted branch must supply a genuinely new same-material Gold mechanism whose
-      conclusion is not equivalent to finite continuation-depth material clock.
-    - If no such mechanism is formalized, keep the Gold route open at the hard boundary
-      instead of creating another theorem-creation target.
+    - State the weakest exact claim that would advance `ContinuationStrengthMaterialClockAtDepth.A`
+      without expanding the theorem target.
+    - Define or isolate the mediating object on the current carrier/window/sector
+      only.
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `Hold the continuation-strength
+      material clock as the current hard boundary and formalize only a new non-equivalent
+      Gold mechanism candidate.`.
+    - Show how that object converts one already-grounded local statement into the
+      next missing step.
+    - Reject the move if it introduces new global scope, hidden imports, or a stronger
+      claim than the frozen frontier needs.
     falsification_checks:
     - Does the move preserve the frozen theorem target rather than redefining it?
     - Can the candidate be stated on already-grounded objects without importing a
@@ -86,17 +91,15 @@ branch_pool:
   - ContinuationStrengthMaterialClockAtDepth.A
   risk_level: high
   notes:
-  - The current theorem-creation packet already classified this target as a hard boundary;
-    creative-search must not reselect MonotoneBudget or another tested storage proxy.
-  - The moving-pump finite-work route is already classified as equivalent to the continuation-strength
-    material clock. Bounded-storage, local metric, pressure/collar, annular, and commutator-storage
-    routes are stale unless a new non-equivalent Gold mechanism is supplied.
+  - The current object-formalization packet already failed to promote this exact target,
+    so this pass must mutate the theorem move instead of regenerating the same object.
   - This branch is machine-derived beyond the current frozen core.
-  recommended_next_cell_type: object-formalization
-  recommended_next_action: Creative theorem search selected `ContinuationStrengthMaterialClockAtDepth.A`
-    as the current hard boundary. Formalize a genuinely new non-equivalent Gold mechanism
-    candidate; do not rerun MonotoneBudget, bounded-storage, local metric, pressure/collar,
-    annular, or commutator storage routes.
+  recommended_next_cell_type: debt-extract
+  recommended_next_action: Creative theorem search selected `ContinuationStrengthMaterialClockAtDepth.A`.
+    Reopen debt-extract and split Hold the continuation-strength material clock as
+    the current hard boundary and formalize only a new non-equivalent Gold mechanism
+    candidate. into a sharper local object, lemma, or bridge burden before another
+    discharge attempt.
   merge_policy: quarantined-until-promoted
 - branch_id: creative-branch-navier-stokes-2
   obligation_id: global-same-packet-full-material-clock
@@ -273,9 +276,8 @@ branch_pool:
 candidate_archive:
 - origin_obligation_id: ContinuationStrengthMaterialClockAtDepth.A
   origin_kind: blocked-frontier
-  label: 'ContinuationStrengthMaterialClockAtDepth.A: hard boundary for finite total
-    same-material service at continuation depth; formalize only a genuinely new non-equivalent
-    Gold mechanism'
+  label: Hold the continuation-strength material clock as the current hard boundary
+    and formalize only a new non-equivalent Gold mechanism candidate.
   status: hard-boundary-open
   promoted_into_branch_pool: true
 - origin_obligation_id: global-same-packet-full-material-clock
@@ -314,5 +316,5 @@ summary:
   - creative-branch-navier-stokes-3
   - creative-branch-navier-stokes-4
   selected_branch_id: creative-branch-navier-stokes-1
-  selected_next_cell_type: object-formalization
+  selected_next_cell_type: debt-extract
   intervention_needed: true
