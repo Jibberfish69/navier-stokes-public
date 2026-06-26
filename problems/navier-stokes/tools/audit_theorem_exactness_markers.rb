@@ -363,9 +363,17 @@ EXPLORATORY_MATH_SUPPORT_PATH_PATTERN = %r{
     watchlist|ingest|creation|contract|hypothesis|review|chronology|
     translation|report|source-pack|spine|ledger|packet|speculative|
     quarantine|historical|warrant|guard|health|intake|workpack
-    |criticism
+    |criticism|test|attack
   )[^/]*\.(?:md|ya?ml|tex)\z
 }ix.freeze
+GOLD_COUNTERPART_SUPPORT_PATH_PATTERN = %r{
+  (?:^|/)problems/navier-stokes/theorem-construction/
+  mpp-forward-gold-[^/]*\.(?:md|ya?ml|tex)\z
+}x.freeze
+GENERATED_THEOREM_TEST_SUPPORT_PATH_PATTERN = %r{
+  (?:^|/)problems/navier-stokes/theorem-construction/
+  mcp-[^/]*\.(?:md|ya?ml|tex)\z
+}x.freeze
 SESSION_OR_CONVERSATION_SUPPORT_PATH_PATTERN = %r{
   (?:^|/)
   (?:
@@ -488,6 +496,10 @@ stdout.each_line do |entry|
       "quarantine-or-ingest-support"
     elsif relative.match?(TOOL_IMPLEMENTATION_PATH_PATTERN)
       "tool-implementation"
+    elsif relative.match?(GOLD_COUNTERPART_SUPPORT_PATH_PATTERN)
+      "gold-counterpart-support"
+    elsif relative.match?(GENERATED_THEOREM_TEST_SUPPORT_PATH_PATTERN)
+      "generated-theorem-test-support"
     elsif line.match?(SHELL_COLLAR_NOTATION_PATTERN)
       "shell-collar-notation"
     elsif RELATION_NOTATION_PATTERNS.any? { |pattern| line.match?(pattern) }
@@ -544,6 +556,8 @@ payload = {
   "generated_or_archive_support_file_count" => hits.select { |hit| hit.fetch("classification") == "generated-or-archive-support" }.map { |hit| hit.fetch("path") }.uniq.length,
   "quarantine_or_ingest_support_file_count" => hits.select { |hit| hit.fetch("classification") == "quarantine-or-ingest-support" }.map { |hit| hit.fetch("path") }.uniq.length,
   "tool_implementation_file_count" => hits.select { |hit| hit.fetch("classification") == "tool-implementation" }.map { |hit| hit.fetch("path") }.uniq.length,
+  "gold_counterpart_support_file_count" => hits.select { |hit| hit.fetch("classification") == "gold-counterpart-support" }.map { |hit| hit.fetch("path") }.uniq.length,
+  "generated_theorem_test_support_file_count" => hits.select { |hit| hit.fetch("classification") == "generated-theorem-test-support" }.map { |hit| hit.fetch("path") }.uniq.length,
   "shell_collar_notation_file_count" => hits.select { |hit| hit.fetch("classification") == "shell-collar-notation" }.map { |hit| hit.fetch("path") }.uniq.length,
   "relation_notation_file_count" => hits.select { |hit| hit.fetch("classification") == "relation-notation" }.map { |hit| hit.fetch("path") }.uniq.length,
   "typographic_tilde_file_count" => hits.select { |hit| hit.fetch("classification") == "typographic-tilde" }.map { |hit| hit.fetch("path") }.uniq.length,
