@@ -9,7 +9,7 @@
 
 ## Created Theorem
 
-GlobalSamePacketFullOriginalHistoryBandFluxPacking.A. Prove the ratio-band high-ratio same-material transfer is packed by the original transported history: each L to L+1 upward event either comes from the contracted lower-band carry, pays weighted-summable entrance/legal mass, or is ruled out by global annular matching and nonlocal material Hodge coupling on the same original solution. This supplies the exact noncircular bridge needed for Prove original-history ratio-band packing for high-ratio same-material transfer..
+GlobalSamePacketFullOriginalHistoryBandFluxPacking.A. Prove the ratio-band high-ratio same-material transfer is packed by the original transported history: each L to L+1 upward event either comes from the contracted lower-band carry, pays weighted-summable entrance/legal mass, or is ruled out by global annular matching and nonlocal material Hodge coupling on the same original solution. This supplies the exact noncircular bridge needed for the weight-beating good-lambda contraction.
 
 ## Inventive Search
 
