@@ -35,14 +35,8 @@ law.
 
 ## Checked Surface State
 
-At the time of this audit, the live edge still contained the historical
-candidate closure entry:
-
-\[
-\texttt{gold-full-material-clock-closed-complete-frame-hodge-assembly}.
-\]
-
-That entry cited
+At the time of this audit, the live edge still contained a historical
+candidate-closure entry for the complete-frame Hodge assembly. That entry cited
 
 \[
 \texttt{mpp-forward-gold-full-clock-closure-complete-frame-hodge-assembly-20260625.md}.
