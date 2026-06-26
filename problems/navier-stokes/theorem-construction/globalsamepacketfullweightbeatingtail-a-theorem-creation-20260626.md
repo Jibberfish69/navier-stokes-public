@@ -2,29 +2,40 @@
 
 ## Target
 
-- target obligation: GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.CoreSubprimitive
-- target label: core same-history exclusion of a high-ratio upward birth invisible to annular stress, Hodge/projector coupling, entrance mass, and lower-band carry
-- route role: Create the exact theorem-grade bridge required by core same-history exclusion of a high-ratio upward birth invisible to annular stress, Hodge/projector coupling, entrance mass, and lower-band carry.
+- target obligation: GlobalSamePacketFullNoFreeUpwardTransferResolution.A
+- target label: Prove the noncircular no-free-upward-transfer theorem for the original transported full same-material action.
+- route role: Prove the nonproxy tail law for the original transported smooth history: the material-rate/heat-rate ratio beats the dyadic weight and therefore yields finite full same-material action.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullWeightBeatingTail.A. Under the installed hypotheses recorded in the theorem packet, core same-history exclusion of a high-ratio upward birth invisible to annular stress, Hodge/projector coupling, entrance mass, and lower-band carry.
+GlobalSamePacketFullWeightBeatingTail.A. Prove the nonproxy tail law for the original transported smooth history: the material-rate/heat-rate ratio beats the dyadic weight and therefore yields finite full same-material action. This supplies the exact noncircular bridge needed for Prove the noncircular no-free-upward-transfer theorem for the original transported full same-material action..
 
 ## Inventive Search
 
 - mode: inventive-right-theorem-selection
 - external_resources_used: false
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
-- selected_mechanism: 
-- candidate_count: 0
+- selected_mechanism: full_same_material_weight_beating_tail
+- candidate_count: 3
+- solver_chain_verdict: open
+- selection_reason: This theorem is the right next move because it changes the proof economy: Prove the nonproxy tail law for the original transported smooth history: the material-rate/heat-rate ratio beats the dyadic weight and therefore yields finite full same-material action. It deliberately reduces the remaining work to GlobalSamePacketFullWeightBeatingTail.A.GoodLambdaSubprimitive rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
+- GlobalSamePacketFullWeightBeatingTail.A (full_same_material_weight_beating_tail; score=112)
+- GlobalSamePacketFullCompactnessDefectRigidity.A (full_same_material_compactness_defect; score=86)
+- GlobalSamePacketFullMonotoneBudget.A (full_same_material_monotone_budget; score=82)
 
 ### Retrieved Ingredients
 
 - none
+
+### Recursive Solver Chain
+
+- terminal_verdict: open
+- reason: No internal solver mechanism is installed for GlobalSamePacketFullWeightBeatingTail.A.GoodLambdaSubprimitive.
+- depth 0: GlobalSamePacketFullWeightBeatingTail.A via full_same_material_weight_beating_tail -> GlobalSamePacketFullWeightBeatingTail.A.GoodLambdaSubprimitive
 
 ## Allowed Inputs
 
@@ -32,18 +43,18 @@ GlobalSamePacketFullWeightBeatingTail.A. Under the installed hypotheses recorded
 ## Forbidden Imports
 
 - GlobalSamePacketFullWeightBeatingTail.A
-- core same-history exclusion of a high-ratio upward birth invisible to annular stress, Hodge/projector coupling, entrance mass, and lower-band carry
-- GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.CoreSubprimitive
+- Prove the noncircular no-free-upward-transfer theorem for the original transported full same-material action.
+- GlobalSamePacketFullNoFreeUpwardTransferResolution.A
 - full-MPP closure
 - submission readiness
 - global smoothness
 
 ## Proof Attempt
 
-1. Restate the unresolved obligation as a theorem with explicit allowed hypotheses.
-2. Search the installed theorem packet for matching definitions, lemmas, and proof dependencies.
-3. Attempt a direct bridge from the strongest installed inputs to the target conclusion.
-4. If no noncircular bridge is available, isolate the smallest missing subprimitive.
+1. Keep the object as the original smooth solution's transported material history.
+2. Use the ratio-tail variables dmu_j=2^{2j}e_jdt and rho_j=Theta_j^{mat}/2^{2j}.
+3. Prove sum_l 2^l nu_l<infinity, or the equivalent good-lambda recurrence with 2theta<1, without importing finite full action.
+4. Reject stale proxy readouts as target-setting objects; keep the target on the weight-beating full same-material action tail.
 
 ## Circularity Audit
 
@@ -55,7 +66,7 @@ GlobalSamePacketFullWeightBeatingTail.A. Under the installed hypotheses recorded
 - verdict: new_subprimitive
 - certification_level: theorem-creation:new-subprimitive
 - rationale: The theorem has been reduced to a smaller noncircular primitive that is not currently installed.
-- next subprimitive: GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive -- minimal noncircular bridge for core same-history exclusion of a high-ratio upward birth invisible to annular stress, Hodge/projector coupling, entrance mass, and lower-band carry
+- next subprimitive: GlobalSamePacketFullWeightBeatingTail.A.GoodLambdaSubprimitive -- good-lambda or bounded-below storage subprimitive for the weight-beating same-material tail
 
 ## Promotion Plan
 
