@@ -317,12 +317,13 @@ source_wall_root_cm_status: 'The original acceptance gate had treated Gold forwa
   live-theorem-edge.yaml or target-operating-contract.yaml. The Pack-out-of-CM boundary
   audit keeps outside-CM participation-field/window failure disposal from becoming
   terminal until the original NS participation law has been tested. The forward-positive
-  quarantine index keeps 3305 scanned surfaces out of CM authority unless a named
-  bridge lands the exact result in Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only
-  as Field window evidence, or proves the outside-CM participation-field/window original-participation
-  audit needed before not Pack_Q can be spent.'
+  quarantine index keeps scanned Gold/support surfaces out of CM-exit authority unless
+  a named bridge lands the exact result in the Silver Part_{N,Q} or Field_{N,r,Q}
+  face after carrier admission and original-participation typing. Gold counterpart
+  obligations remain active outside this Silver closure and do not block the Silver
+  CM-exit route.'
 submission_posture: not-ready
-readiness_status: terminal-time-face-new-production-open
+readiness_status: silver-cm-exit-accepted-release-refresh-open
 manuscript_scaffold_status: human/app submission scaffold repaired as a paper-local
   CM proof surface; papers/** generated main.tex remains an independent manuscript
   surface requiring separate hygiene repair
@@ -332,10 +333,10 @@ next_theorem_primitive_slot: A future primitive is proof-bearing only after it n
   readout chain up to the selected continuation consumer or the first failed Part/Field
   face.
 blockers:
-- 'NSPDF-20260609-001: human PDF page 1 still contains submission-package/status-map
-  language instead of a normal CMI-facing opening.'
-- 'NSPDF-20260609-002: submission surfaces still need exactness/manuscript refresh
-  to state accepted Silver CM rowwise consumption.'
+- 'NSPDF-20260626-001: release/exactness and generated papers/** machine-track hygiene
+  remain open; this does not reopen the Silver CM-exit math route.'
+- 'NSPDF-20260626-002: broad appendix notation/exactness scans still need cleanup
+  outside the Silver route patch.'
 required_before_submission:
 - release-exactness-and-manuscript-refresh
 stdout: ''
