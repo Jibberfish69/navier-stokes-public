@@ -51,7 +51,7 @@ GlobalSamePacketFullGoodLambdaTail.A. Prove the tail recurrence for the original
 ## Proof Attempt
 
 1. Work on the ratio bands E_{j,l} for rho_j=Theta_j^{mat}/2^{2j}.
-2. Use only original-history same-material coupling, not a standalone pressure, viscosity, terminal-source, or acronym proxy.
+2. Use only original-history same-material coupling and keep stale proxy clocks out of the target.
 3. Prove the contraction 2theta<1 or route the same burden to a bounded-below same-material action storage.
 4. Keep reduced dyadic models as insufficiency tests rather than proof inputs.
 
