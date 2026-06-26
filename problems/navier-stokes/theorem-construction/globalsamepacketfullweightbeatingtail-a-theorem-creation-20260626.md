@@ -2,14 +2,14 @@
 
 ## Target
 
-- target obligation: GlobalSamePacketFullMonotoneBudget.A
-- target label: Construct the bounded-below same-material budget for the graph-compatible full same-material action.
+- target obligation: GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive
+- target label: Create the recursive theorem subprimitive GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
 - route role: Prove the nonproxy tail law for the original transported smooth history: the material-rate/heat-rate ratio beats the dyadic weight and therefore yields finite full same-material action.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullWeightBeatingTail.A. Prove the nonproxy tail law for the original transported smooth history: the material-rate/heat-rate ratio beats the dyadic weight and therefore yields finite full same-material action. This supplies the exact noncircular bridge needed for Construct the bounded-below same-material budget for the graph-compatible full same-material action..
+GlobalSamePacketFullWeightBeatingTail.A. Prove the nonproxy tail law for the original transported smooth history: the material-rate/heat-rate ratio beats the dyadic weight and therefore yields finite full same-material action. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
 
 ## Inventive Search
 
@@ -23,9 +23,9 @@ GlobalSamePacketFullWeightBeatingTail.A. Prove the nonproxy tail law for the ori
 
 ### Candidate Theorems
 
-- GlobalSamePacketFullWeightBeatingTail.A (full_same_material_weight_beating_tail; score=108)
-- GlobalSamePacketFullCompactnessDefectRigidity.A (full_same_material_compactness_defect; score=82)
-- GlobalSamePacketFullMonotoneBudget.A (full_same_material_monotone_budget; score=106)
+- GlobalSamePacketFullWeightBeatingTail.A (full_same_material_weight_beating_tail; score=88)
+- GlobalSamePacketFullCompactnessDefectRigidity.A (full_same_material_compactness_defect; score=74)
+- GlobalSamePacketFullMonotoneBudget.A (full_same_material_monotone_budget; score=70)
 
 ### Retrieved Ingredients
 
@@ -43,8 +43,8 @@ GlobalSamePacketFullWeightBeatingTail.A. Prove the nonproxy tail law for the ori
 ## Forbidden Imports
 
 - GlobalSamePacketFullWeightBeatingTail.A
-- Construct the bounded-below same-material budget for the graph-compatible full same-material action.
-- GlobalSamePacketFullMonotoneBudget.A
+- Create the recursive theorem subprimitive GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
+- GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive
 - full-MPP closure
 - submission readiness
 - global smoothness
