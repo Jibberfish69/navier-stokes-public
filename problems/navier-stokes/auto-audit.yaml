@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-26T00:57:50Z'
+  audited_at: '2026-06-26T01:16:11Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: referee-blocked-cm-contrapositive
@@ -76,8 +76,8 @@ branch_audit:
     reasons:
     - This is a route branch rather than a local theorem bridge, so it stays quarantined.
   authority_frontier_open: true
-  authority_frontier_count: 4
-  authority_blocking_count: 4
+  authority_frontier_count: 5
+  authority_blocking_count: 5
   authority_status: theorem-open-at-direct-live-frontier
 downstream_overlay_drift:
   status: ok
@@ -268,14 +268,14 @@ surface_snapshot:
       cross_surface_splice: false
       sterilized_synthesis_import_count: 0
   theorem_authority_summary:
-    total_obligations: 8
+    total_obligations: 9
     grounded_count: 4
     structural_only_count: 0
     structurally_supported_count: 0
     bridge_pending_count: 0
     unresolved_count: 0
-    frontier_count: 4
-    blocking_count: 4
+    frontier_count: 5
+    blocking_count: 5
     all_discharged: false
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
@@ -289,8 +289,8 @@ issues:
     frontier until the branch lands as live import, route equivalence with a discharged
     authority edge, or death certificate.
   details:
-    authority_frontier_count: 4
-    authority_blocking_count: 4
+    authority_frontier_count: 5
+    authority_blocking_count: 5
     authority_status: theorem-open-at-direct-live-frontier
 - issue_id: stale-review-verdict
   severity: major
