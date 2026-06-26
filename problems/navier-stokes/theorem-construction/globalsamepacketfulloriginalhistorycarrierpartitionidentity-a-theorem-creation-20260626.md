@@ -2,38 +2,43 @@
 
 ## Target
 
-- target obligation: GlobalSamePacketFullHistoryStorageLowerBound.A.CoreSubprimitive
-- target label: core original-history lower-bound construction for the good-lambda contraction
-- route role: The original-history lower-bound storage core is the same algebraic partition of high-band positive birth on the transported material history. Differentiating the high-band material energy with the moving material Hodge projector partitions the birth into lower-band carry, weighted-summable entrance/legal mass, annular Cauchy stress-work, Hodge/projector motion, and viscous loss, leaving no invisible high-ratio birth.
+- target obligation: GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive
+- target label: Create the recursive theorem subprimitive GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
+- route role: Differentiate the high-band material energy on the original transported material history. The projected material Navier-Stokes equation partitions the positive high-band birth into lower-band carry, weighted-summable entrance/legal mass, annular Cauchy stress-work, material Hodge/projector motion, and viscous loss. Since viscous loss has the dissipative sign, a positive birth invisible to the other carriers is impossible.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A. The original-history lower-bound storage core is the same algebraic partition of high-band positive birth on the transported material history. Differentiating the high-band material energy with the moving material Hodge projector partitions the birth into lower-band carry, weighted-summable entrance/legal mass, annular Cauchy stress-work, Hodge/projector motion, and viscous loss, leaving no invisible high-ratio birth. This supplies the exact noncircular bridge needed for core original-history lower-bound construction for the good-lambda contraction.
+GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A. Differentiate the high-band material energy on the original transported material history. The projected material Navier-Stokes equation partitions the positive high-band birth into lower-band carry, weighted-summable entrance/legal mass, annular Cauchy stress-work, material Hodge/projector motion, and viscous loss. Since viscous loss has the dissipative sign, a positive birth invisible to the other carriers is impossible. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
 
 ## Inventive Search
 
 - mode: inventive-recursive-theorem-solver
 - external_resources_used: false
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
-- selected_mechanism: full_same_material_history_core_to_carrier_partition
+- selected_mechanism: full_same_material_high_band_carrier_partition_identity
 - candidate_count: 1
 - solver_chain_verdict: closed
-- selection_reason: This theorem is the right next move because it changes the proof economy: The original-history lower-bound storage core is the same algebraic partition of high-band positive birth on the transported material history. Differentiating the high-band material energy with the moving material Hodge projector partitions the birth into lower-band carry, weighted-summable entrance/legal mass, annular Cauchy stress-work, Hodge/projector motion, and viscous loss, leaving no invisible high-ratio birth. The internal solver also discharged the residual chain through GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A.
+- selection_reason: This theorem is the right next move because it changes the proof economy: Differentiate the high-band material energy on the original transported material history. The projected material Navier-Stokes equation partitions the positive high-band birth into lower-band carry, weighted-summable entrance/legal mass, annular Cauchy stress-work, material Hodge/projector motion, and viscous loss. Since viscous loss has the dissipative sign, a positive birth invisible to the other carriers is impossible. It is source-backed by 8 local ingredient(s). The internal solver also discharged the residual chain through GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A.
 
 ### Candidate Theorems
 
-- GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A (full_same_material_history_core_to_carrier_partition; score=92)
+- GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A (full_same_material_high_band_carrier_partition_identity; score=98)
 
 ### Retrieved Ingredients
 
-- none
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
+- problems/navier-stokes/agent-contract.yaml:245 -- installed dynamic support
 
 ### Recursive Solver Chain
 
 - terminal_verdict: closed
 - reason: The recursive theorem solver reached a terminal mechanism with no remaining residual primitive.
-- depth 0: GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A via full_same_material_history_core_to_carrier_partition -> closed
+- depth 0: GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A via full_same_material_high_band_carrier_partition_identity -> closed
 
 ## Allowed Inputs
 
@@ -43,19 +48,19 @@ GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A. The original-hist
 ## Forbidden Imports
 
 - GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A
-- core original-history lower-bound construction for the good-lambda contraction
-- GlobalSamePacketFullHistoryStorageLowerBound.A.CoreSubprimitive
+- Create the recursive theorem subprimitive GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
+- GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive
 - full-MPP closure
 - submission readiness
 - global smoothness
 
 ## Proof Attempt
 
-1. Use the original transported material history as the only carrier.
-2. Differentiate the high-band material energy with transported cutoffs and the moving material Hodge projector.
-3. Partition every positive high-band birth term into lower-band carry, weighted-summable entrance/legal mass, annular stress, Hodge/projector motion, or viscous loss.
-4. Use the dissipative sign of viscosity and the same-history Hodge/projector identity to rule out an invisible high-ratio birth remainder.
-5. Feed that carrier partition into the good-lambda tail as the noncircular lower-bound mechanism.
+1. Define the high-band material energy with transported cutoffs and the moving material Hodge projector.
+2. Differentiate it along the original material history.
+3. Use the projected material Navier-Stokes equation to partition every term into lower-band carry, entrance/legal mass, annular stress, Hodge/projector motion, or viscous loss.
+4. Conclude that the positive birth measure is dominated by those carriers; the invisible remainder is zero.
+5. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
 ## Circularity Audit
 

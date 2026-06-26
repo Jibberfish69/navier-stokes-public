@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-26T10:10:10Z'
+  audited_at: '2026-06-26T10:14:51Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: referee-blocked-cm-contrapositive
@@ -300,6 +300,27 @@ issues:
   details:
   - Primary manuscript changed after the current review verdict was written.
   - Submission export status changed after the current review verdict was written.
+- issue_id: direct-live-generated-target-drift
+  severity: major
+  summary: One or more generated artifacts still target a non-live guardrail while
+    direct-live authority is on the Stage C frontier.
+  autofixable: false
+  recommended_action: Regenerate or explicitly supersede the stale generated artifacts
+    so every live artifact target is one of the current direct-live frontier obligations.
+  details:
+    live_frontier_ids:
+    - global-same-packet-full-material-clock
+    - original-smooth-data-material-history-no-finite-breakdown
+    - pack-out-of-cm-smoothness-certification-audit
+    - r3-whole-space-cm-completion
+    - scale-uniform-annular-supplier-goal-resolution
+    drift_artifacts:
+    - artifact: theorem_creation
+      path: problems/navier-stokes/theorem-creation.yaml
+      target_ids:
+      - GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive
+      lineage_ids: []
+      generated_at: '2026-06-26T10:14:31Z'
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
