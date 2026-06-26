@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-26T20:20:13Z'
+generated_at: '2026-06-26T20:30:52Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -42,7 +42,7 @@ readiness_blocker: 'Navier-Stokes completion readiness is blocked by 6 unresolve
   source-frontier:active_frontier_labels.'
 active_supplier_blocker: none-for-silver-cm-exit-gold-counterpart-thread-active
 manuscript_tex_sha1: 051edba1dcedf23ba55017c89e22939ae31d25cb
-completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260626-iteration-2.yaml
+completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260626.yaml
 readiness_evidence:
   source_frontier_clear: false
   open_d8_proof_blockers: 0
