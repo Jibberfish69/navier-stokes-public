@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-tangent-normal-identity-primitive-driver-audit-20260625
-status: exact-audit-installed; tangent-normal-pressure-collar-identity-absorbs-sector-but-does-not-close-primitive-driver
+status: superseded-by-complete-frame-primitive-driver-payment
 logical_landing_node: global_same_packet_full_clock_from_original_data
 edge_effect: >-
   Audits the supplied tangent-normal split of the pressure/operator and collar
@@ -9,9 +9,11 @@ edge_effect: >-
   Schur pays the normal defect and the tangent graph-driver is strain/frame,
   Hodge/base-collar, and viscous service. The annular base stress orientation is
   also bounded below by the transported energy storage. After those absorptions,
-  the only remaining nonconditional gold object is the primitive graph-compatible
-  free-material PLS driver, equivalently finite superheat material residence /
-  bounded continuation-depth material record.
+  this audit left the primitive graph-compatible free-material PLS driver open
+  because it used an incomplete packet-frame reading. The complete-frame
+  trace-free payment note supersedes that boundary by adding the retained
+  annular/collar normal and routing the primitive positive pump into paid
+  transverse compression clocks.
 parents:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-nontopstrain-pump-graphdriver-absorption-bridge-20260625.md
@@ -26,6 +28,15 @@ parents:
 # Tangent-Normal Identity / Primitive Driver Audit
 
 Date: 2026-06-25
+
+## Supersession
+
+This audit remains the pressure/collar tangent-normal reduction, but its final
+primitive-driver boundary is superseded by
+`mpp-forward-gold-complete-frame-tracefree-primitive-pls-payment-20260625.md`
+and assembled in
+`mpp-forward-gold-full-clock-closure-complete-frame-hodge-assembly-20260625.md`.
+The primitive driver is no longer open on retained complete-frame packets.
 
 ## 0. Supplied identity under audit
 
