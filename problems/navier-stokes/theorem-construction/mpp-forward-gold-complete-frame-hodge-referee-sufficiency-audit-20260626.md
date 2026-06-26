@@ -113,6 +113,26 @@ The live-edge closure note may be the candidate proof of the missing
 exhaustiveness implication, but the automated referee surfaces and active
 manuscript have not been synchronized around that claim.
 
+The support-anchor check confirms the blocker.  The current closure block cites
+surfaces whose own statuses are not proof completions, including:
+
+- `mcp-availableparticipationentropyroute...`: conditional theorem route, not a
+  discharge of `GlobalSamePacketFullClockFromOriginalData.A`;
+- `mcp-pressop-collar-annularstress-entropy-identity-direct-attack...`:
+  oriented differential algebra obtained, bounded-below entropy not obtained;
+- `mcp-relative-schur-pressop-collar-storage-direct-attack...`: exact graph
+  correction tested, no bounded-below entropy obtained;
+- `mcp-toprank-pressure-collar-noselfbirth-direct-attack...`: strict top-rank
+  descent not obtained;
+- `mcp-freshupcrossingterminalantiatomdirectattempt...`: failed direct
+  discharge from installed inputs;
+- `mpp-forward-gold-global-full-clock-continuation-strength-audit...`:
+  continuation-strength audit installed, full-clock producer still open.
+
+These are valid support and failure-analysis surfaces, but they cannot serve as
+proof anchors for the statement that the full clock is finite unless a later
+surface explicitly discharges their open burdens without circularity.
+
 The next audit-hardening work must do two things before any victory claim:
 
 1. check that every support anchor in the complete-frame Hodge closure is a
