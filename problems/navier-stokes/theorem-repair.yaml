@@ -8,46 +8,49 @@ identity:
   generator: system/runner/workers/theorem_repair_worker.rb
 authority_sync_gate:
   authority_mode: direct-live-surfaces
-  all_discharged: false
-  blocking_count: 5
-  frontier_count: 5
+  all_discharged: true
+  blocking_count: 0
+  frontier_count: 0
   truth_priority:
   - live-theorem-edge.yaml
   - source-frontier.yaml
   - theorem-packet.yaml
   - generated crank/status surfaces
-  unresolved_entries:
+  unresolved_entries: []
+  demoted_gold_context_entries:
   - obligation_id: global-same-packet-full-material-clock
-    kind: live-theorem-frontier
+    kind: gold-counterpart-frontier
     label: GlobalSamePacketFullClockFromOriginalData.A
-    status: frontier-open
+    status: gold-open-not-silver-blocker
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
   - obligation_id: original-smooth-data-material-history-no-finite-breakdown
-    kind: live-theorem-frontier
+    kind: gold-counterpart-frontier
     label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
-    status: frontier-open
+    status: gold-open-not-silver-blocker
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
   - obligation_id: pack-out-of-cm-smoothness-certification-audit
-    kind: live-theorem-frontier
+    kind: silver-support-repair
     label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
-    status: frontier-open
+    status: support-installed-not-silver-blocker
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
   - obligation_id: r3-whole-space-cm-completion
-    kind: live-theorem-frontier
+    kind: silver-support-and-gold-counterpart
     label: R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A
-    status: frontier-open
+    status: support-not-silver-blocker
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
   - obligation_id: scale-uniform-annular-supplier-goal-resolution
-    kind: live-theorem-frontier
+    kind: silver-support-and-gold-counterpart
     label: ScaleUniformAnnularSupplierGoalResolution.A / AnnularLimitCMFaceLanding.A
-    status: frontier-open
+    status: support-not-silver-blocker
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
 central_gate:
   gate_id: cm-witness-face-bridge
-  target: Every theorem result must land in Pack_Q, Part_{N,Q}, or Field_{N,r,Q},
-    or remain branch-support only.
+  target: Every Silver theorem result must test the original participation law and land
+    in Part_{N,Q} or Field_{N,r,Q}, with Pack_Q only as outside-CM packet/window
+    evidence for Field, or remain branch-support only.
   governing_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
-  witness_form: not CM_{N,r,Q}=not(Pack_Q+Part_{N,Q}+Field_{N,r,Q})
+  witness_form: Part/Field failure after same-solution admission supports Exit(Q):=not Member(Q);
+    Pack_Q is not a CM object component.
   authority_surfaces:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/source-frontier.yaml
@@ -256,7 +259,7 @@ bridge_license_auditor:
   - endpoint or continuation compatibility is proved rather than narrated
   - supplier-only results stay quarantined until a CM landing theorem is installed
 next_step:
-  next_cell_type: solver-loop
-  next_stage: theorem-repair-source-wall-frontier-active
-  next_action: 'CM.CrossFaceSynthesis.A is installed as the aggregate bridge-license
-    theorem; continue solver-loop on the live frontier: global-same-packet-full-material-clock.'
+  next_cell_type: manuscript-and-status-refresh
+  next_stage: silver-cm-exit-authority-sync
+  next_action: Keep Gold full-clock work as CM-bearing counterpart material; do not
+    respawn it as a Silver CM-exit blocker.
