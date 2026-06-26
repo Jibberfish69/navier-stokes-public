@@ -17,8 +17,8 @@ pdf_tracks:
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     present: true
-    sha1: a535d16fb8e3f467ce23a733ff3c02ebcfc5f9d9
-    bytes: 4541048
+    sha1: f8dbd08a0dbd52bb8efbdbd4d009b0c0206761c2
+    bytes: 484834
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
     role: preferred problems/** app-aligned human submission track
     required_for_clay_submission: true
@@ -38,8 +38,8 @@ pdf_render_status:
     human_app_aligned:
       path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       present: true
-      sha1: a535d16fb8e3f467ce23a733ff3c02ebcfc5f9d9
-      bytes: 4541048
+      sha1: 135a38c7fb23673c310892a9af536ef976cfcdea
+      bytes: 538407
       manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
       required_for_clay_submission: true
     codex_machine_paper:
@@ -53,8 +53,8 @@ pdf_render_status:
 human_pdf:
   path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   present: true
-  sha1: a535d16fb8e3f467ce23a733ff3c02ebcfc5f9d9
-  bytes: 4541048
+  sha1: 9178169d2b3cca2d57f30dc1febaa2feb7d8a9f7
+  bytes: 572465
 manuscript_tex:
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   present: true
@@ -65,14 +65,14 @@ verdict_alignment:
   bundle_verdict_synced: true
   export_status_synced: true
   submission_ready: false
-  blocking_reason: 'Navier-Stokes completion readiness is blocked by 6 unresolved
+  blocking_reason: 'Navier-Stokes completion readiness is blocked by 7 unresolved
     candidate(s): pdf-reader-proof-integration, contract-readiness-after-manuscript-expansion,
     clay-readiness-not-claimed, source-frontier:primary_math_obligation, source-frontier:additional_context_obligations,
     source-frontier:active_frontier_labels.'
   readiness_evidence:
     source_frontier_clear: false
     open_d8_proof_blockers: 0
-    completion_candidate_count: 6
+    completion_candidate_count: 7
     completion_candidates:
     - candidate_id: pdf-reader-proof-integration
       kind: d8_resolved_blocker_state
@@ -138,10 +138,16 @@ verdict_alignment:
       evidence: nonempty active_frontier_labels
       required_action: Clear or demote the source-frontier active_frontier_labels
         before submission readiness.
+    - candidate_id: pdf-track:human_app_aligned:fingerprint
+      kind: pdf_track
+      surface: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+      evidence: stale fingerprint
+      required_action: Refresh human_app_aligned PDF fingerprint against the live
+        file.
     completion_readiness:
       status: blocked
       submission_ready: false
-      candidate_count: 6
+      candidate_count: 7
       candidates:
       - candidate_id: pdf-reader-proof-integration
         kind: d8_resolved_blocker_state
@@ -209,6 +215,12 @@ verdict_alignment:
         evidence: nonempty active_frontier_labels
         required_action: Clear or demote the source-frontier active_frontier_labels
           before submission readiness.
+      - candidate_id: pdf-track:human_app_aligned:fingerprint
+        kind: pdf_track
+        surface: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+        evidence: stale fingerprint
+        required_action: Refresh human_app_aligned PDF fingerprint against the live
+          file.
       checks:
         route_candidates: 0
         d8_candidates: 3
@@ -220,7 +232,7 @@ verdict_alignment:
         source_frontier_candidates: 3
         route_state_agreement_candidates: 0
         submission_verdict_agreement_candidates: 0
-        pdf_track_candidates: 0
+        pdf_track_candidates: 1
         current_material_candidates: 0
         clay_closing_gap_candidates: 0
         stale_readiness_ref_candidates: 0
@@ -232,8 +244,8 @@ verdict_alignment:
           human_app_aligned:
             path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
             present: true
-            sha1: a535d16fb8e3f467ce23a733ff3c02ebcfc5f9d9
-            bytes: 4541048
+            sha1: 49d4cd90e6886eb83fa52d81ca8c662879bc72ac
+            bytes: 971242
             manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
             required_for_clay_submission: true
           codex_machine_paper:
@@ -314,8 +326,8 @@ verdict_alignment:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: a535d16fb8e3f467ce23a733ff3c02ebcfc5f9d9
-          bytes: 4541048
+          sha1: ac0a9de96d1db41b19fc4dd3f51c64d178bd3d1a
+          bytes: 1198847
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
@@ -330,8 +342,8 @@ verdict_alignment:
       human_app_aligned:
         path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
         present: true
-        sha1: a535d16fb8e3f467ce23a733ff3c02ebcfc5f9d9
-        bytes: 4541048
+        sha1: 00f01deeda7eda97abbd252232e38a39c86e88cf
+        bytes: 1237322
         manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
         role: preferred problems/** app-aligned human submission track
         required_for_clay_submission: true
