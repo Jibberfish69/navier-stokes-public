@@ -164,15 +164,49 @@ These are valid support and failure-analysis surfaces, but they cannot serve as
 proof anchors for the statement that the full clock is finite unless a later
 surface explicitly discharges their open burdens without circularity.
 
-The next audit-hardening work must do two things before any victory claim:
+## Full Support-Anchor Census
 
-1. check that every support anchor in the complete-frame Hodge closure is a
-   proof or a valid conditional whose hypotheses are supplied, not a failed
-   attempt promoted by naming;
-2. remove or explicitly supersede active manuscript and audit surfaces that
+The live-edge complete-frame block currently cites \(167\) support anchors for
+\(\mathrm{GlobalSamePacketFullClockFromOriginalData.A}\).
+
+The mechanical census of those anchors gives:
+
+| Class | Count | Referee meaning |
+| --- | ---: | --- |
+| missing file | 0 | No cited support file is absent. |
+| frontmatter parse error | 0 | No cited support file failed metadata parsing. |
+| conditional or failed attempt | 102 | These surfaces cannot carry proof force without a later discharge. |
+| support or reduction | 64 | These surfaces are useful coordinates, reductions, readouts, or consumer bridges. |
+| initially unclassified | 1 | Hand-read below. |
+
+The single initially unclassified anchor is
+
+\[
+\texttt{mpp-forward-gold-critical-element-nowaste-package-closeout-20260619.md}.
+\]
+
+Hand reading classifies it as support/failure analysis, not proof.  It says the
+critical-element architecture is the cleanest native organization at that proof
+resolution, but that the current inputs do not produce the object consumed by
+rigidity.  Its exact gap is the terminal time-face atom in critical-element
+language.  It therefore cannot certify the exhaustive full PLS clock.
+
+Thus every cited support anchor is now classified, and the classification
+confirms the same result as the referee machinery: the complete-frame Hodge
+assembly is not yet a closed smoothness proof.  It is a candidate assembly whose
+support surfaces still contain unresolved or conditional producer burdens.
+
+The remaining audit-hardening work before any victory claim is:
+
+1. remove or explicitly supersede active manuscript and audit surfaces that
    still describe the Gold route as open at
    \(\mathrm{TerminalTimeFaceAntiAtom.A}\) /
    \(\mathrm{TerminalNewProductionTheorem}_{B_{\mathrm{ASAC}}}\mathrm{.A}\).
+2. prove the noncircular same-material full-clock producer itself:
+   \[
+   \int_0^{T_*} d\Omega_N^{PLS,full}<\infty.
+   \]
 
-Only after those two checks pass can the route be described as an exhaustive
-smoothness proof rather than a candidate closure assembly.
+Only after that producer is proved and the referee surfaces accept it can the
+route be described as an exhaustive smoothness proof rather than a candidate
+closure assembly.
