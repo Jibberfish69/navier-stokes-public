@@ -2,29 +2,30 @@
 
 ## Target
 
-- target obligation: GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive
-- target label: Create the recursive theorem subprimitive GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
-- route role: The generated minimal-bridge core is not a new proxy clock. It sharpens to the current nonproxy theorem: the original transported smooth history satisfies the weight-beating material-rate/heat-rate tail law, or an equivalent bounded-below same-material action storage.
+- target obligation: GlobalSamePacketFullGoodLambdaTail.A.ContractionSubprimitive
+- target label: noncircular proof of the weight-beating good-lambda contraction
+- route role: Prove the nonproxy tail law for the original transported smooth history: the material-rate/heat-rate ratio beats the dyadic weight and therefore yields finite full same-material action.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullWeightBeatingTail.A. The generated minimal-bridge core is not a new proxy clock. It sharpens to the current nonproxy theorem: the original transported smooth history satisfies the weight-beating material-rate/heat-rate tail law, or an equivalent bounded-below same-material action storage. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
+GlobalSamePacketFullWeightBeatingTail.A. Prove the nonproxy tail law for the original transported smooth history: the material-rate/heat-rate ratio beats the dyadic weight and therefore yields finite full same-material action. This supplies the exact noncircular bridge needed for noncircular proof of the weight-beating good-lambda contraction.
 
 ## Inventive Search
 
 - mode: inventive-right-theorem-selection
 - external_resources_used: false
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
-- selected_mechanism: full_same_material_core_to_weight_tail
-- candidate_count: 2
+- selected_mechanism: full_same_material_weight_beating_tail
+- candidate_count: 3
 - solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: The generated minimal-bridge core is not a new proxy clock. It sharpens to the current nonproxy theorem: the original transported smooth history satisfies the weight-beating material-rate/heat-rate tail law, or an equivalent bounded-below same-material action storage. It deliberately reduces the remaining work to GlobalSamePacketFullWeightBeatingTail.A.GoodLambdaSubprimitive rather than pretending the frontier is closed.
+- selection_reason: This theorem is the right next move because it changes the proof economy: Prove the nonproxy tail law for the original transported smooth history: the material-rate/heat-rate ratio beats the dyadic weight and therefore yields finite full same-material action. It deliberately reduces the remaining work to GlobalSamePacketFullWeightBeatingTail.A.GoodLambdaSubprimitive rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
-- GlobalSamePacketFullWeightBeatingTail.A (full_same_material_core_to_weight_tail; score=102)
-- GlobalSamePacketFullMonotoneBudget.A (full_same_material_monotone_budget; score=72)
+- GlobalSamePacketFullWeightBeatingTail.A (full_same_material_weight_beating_tail; score=100)
+- GlobalSamePacketFullCompactnessDefectRigidity.A (full_same_material_compactness_defect; score=70)
+- GlobalSamePacketFullMonotoneBudget.A (full_same_material_monotone_budget; score=66)
 
 ### Retrieved Ingredients
 
@@ -34,7 +35,7 @@ GlobalSamePacketFullWeightBeatingTail.A. The generated minimal-bridge core is no
 
 - terminal_verdict: open
 - reason: No internal solver mechanism is installed for GlobalSamePacketFullWeightBeatingTail.A.GoodLambdaSubprimitive.
-- depth 0: GlobalSamePacketFullWeightBeatingTail.A via full_same_material_core_to_weight_tail -> GlobalSamePacketFullWeightBeatingTail.A.GoodLambdaSubprimitive
+- depth 0: GlobalSamePacketFullWeightBeatingTail.A via full_same_material_weight_beating_tail -> GlobalSamePacketFullWeightBeatingTail.A.GoodLambdaSubprimitive
 
 ## Allowed Inputs
 
@@ -42,18 +43,18 @@ GlobalSamePacketFullWeightBeatingTail.A. The generated minimal-bridge core is no
 ## Forbidden Imports
 
 - GlobalSamePacketFullWeightBeatingTail.A
-- Create the recursive theorem subprimitive GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
-- GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive
+- noncircular proof of the weight-beating good-lambda contraction
+- GlobalSamePacketFullGoodLambdaTail.A.ContractionSubprimitive
 - full-MPP closure
 - submission readiness
 - global smoothness
 
 ## Proof Attempt
 
-1. Use the June 26 weight-beating tail audit as the governing source.
-2. State the tail law sum_l 2^l nu_l<infinity as the theorem surface.
-3. Accept only the equivalent good-lambda recurrence with 2theta<1 or bounded-below same-material action storage as subprimitive forms.
-4. Keep stale proxy clocks out of the target; use the weight-beating same-material tail as the governing surface.
+1. Keep the object as the original smooth solution's transported material history.
+2. Use the ratio-tail variables dmu_j=2^{2j}e_jdt and rho_j=Theta_j^{mat}/2^{2j}.
+3. Prove sum_l 2^l nu_l<infinity, or the equivalent good-lambda recurrence with 2theta<1, without importing finite full action.
+4. Reject stale proxy clocks as target-setting objects; keep the target on the weight-beating full same-material action tail.
 
 ## Circularity Audit
 
@@ -65,7 +66,7 @@ GlobalSamePacketFullWeightBeatingTail.A. The generated minimal-bridge core is no
 - verdict: new_subprimitive
 - certification_level: theorem-creation:new-subprimitive
 - rationale: The theorem has been reduced to a smaller noncircular primitive that is not currently installed.
-- next subprimitive: GlobalSamePacketFullWeightBeatingTail.A.GoodLambdaSubprimitive -- good-lambda or bounded-below same-material storage proof of the weight-beating tail
+- next subprimitive: GlobalSamePacketFullWeightBeatingTail.A.GoodLambdaSubprimitive -- good-lambda or bounded-below storage subprimitive for the weight-beating same-material tail
 
 ## Promotion Plan
 
