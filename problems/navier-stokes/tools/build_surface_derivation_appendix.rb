@@ -235,7 +235,7 @@ FAMILY_EXPANSIONS = {
   "basac_pressure_zeno_source_residue_family" => [
     "Source-reserve family",
     "This branch family is tested by source survival, zero-radius refinement, signed-current/no-free-sink pressure, retained amplitude, and terminal atom mechanisms.",
-    "The proof first asks whether a positive same-fluid packet carries the source residue. Carrier loss gives \\(\\neg\\Pack_Q\\). A surviving carrier then asks whether the pressure-viscosity tower remains the same; failure gives \\(\\neg\\Part_{N,Q}\\). Surviving participation finally asks for a positive-scale coherent field readout; failure at every scale gives the Field face."
+    "The proof first asks whether a positive same-fluid packet carries the source residue. Carrier loss remains carrier-window support until the original participation law is typed. A surviving carrier then asks whether the pressure-viscosity tower remains the same; failure gives \\(\\neg\\Part_{N,Q}\\). Surviving participation finally asks for a positive-scale coherent field readout; failure at every scale gives the Field face."
   ],
   "late_l3_duhamel_translator_notes" => [
     "Local translator family",
