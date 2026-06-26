@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-06-26T09:24:20Z'
+  generated_at: '2026-06-26T09:29:10Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -89,14 +89,14 @@ cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
   local_consequences:
-  - label: GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A. Differentiate
-      the high-band material energy on the original transported material history.
-      The projected material Navier-Stokes equation partitions the positive high-band
-      birth into lower-band carry, weighted-summable entrance/legal mass, annular
-      Cauchy stress-work, material Hodge/projector motion, and viscous loss. Since
-      viscous loss has the dissipative sign, a positive birth invisible to the other
-      carriers is impossible. This supplies the exact noncircular bridge needed for
-      Prove the original-history high-band carrier partition identity..
+  - label: GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A. The original-history
+      lower-bound storage core is the same algebraic partition of high-band positive
+      birth on the transported material history. Differentiating the high-band material
+      energy with the moving material Hodge projector partitions the birth into lower-band
+      carry, weighted-summable entrance/legal mass, annular Cauchy stress-work, Hodge/projector
+      motion, and viscous loss, leaving no invisible high-ratio birth. This supplies
+      the exact noncircular bridge needed for core original-history lower-bound construction
+      for the good-lambda contraction.
     kind: lemma
     status: localized-support
     origin: local
@@ -226,5 +226,5 @@ summary:
   audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: solver-loop
+  current_next_cell_type: dependency-discharge
   current_next_cell_is_theorem_work: true
