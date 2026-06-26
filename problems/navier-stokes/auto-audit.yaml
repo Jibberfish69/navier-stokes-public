@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-26T07:57:49Z'
+  audited_at: '2026-06-26T08:30:46Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: referee-blocked-cm-contrapositive
@@ -87,7 +87,7 @@ downstream_overlay_drift:
   authority_surfaces:
   - artifact: submission_verdict
     path: problems/navier-stokes/submission-verdict.yaml
-    sha1: 0b5e8c76f3bf2c39ea5ea39ce056c44d53bea3a3
+    sha1: 28b2f1b7701a53b55b611023c997e61410ba5dd6
     matched_terms:
     - direct-live-surfaces
     - source_authority_mode
@@ -300,6 +300,51 @@ issues:
   details:
   - Primary manuscript changed after the current review verdict was written.
   - Submission export status changed after the current review verdict was written.
+- issue_id: generated-core-placeholder-survives
+  severity: major
+  summary: A generated CoreSubprimitive placeholder survived into a live solver handoff
+    instead of being sharpened to a source-backed residual.
+  autofixable: false
+  recommended_action: Rerun theorem invention with a target-specific mechanism, or
+    patch the residual handoff so solver_verdict and proof_object name the audited
+    subprimitive rather than a generated core placeholder.
+  details:
+    placeholder_entries:
+    - artifact: theorem_creation
+      path: problems/navier-stokes/theorem-creation.yaml
+      location: theorem_creation.solver_verdict.next_subprimitive
+      primitive_id: GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive
+      label: core noncircular monotone-budget step for graph-compatible full same-material
+        action
+      subprimitive_class: ''
+    - artifact: theorem_creation
+      path: problems/navier-stokes/theorem-creation.yaml
+      location: theorem_creation.proof_object.direct_residual_gap
+      primitive_id: GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive
+      label: core noncircular monotone-budget step for graph-compatible full same-material
+        action
+      subprimitive_class: ''
+    - artifact: theorem_creation
+      path: problems/navier-stokes/theorem-creation.yaml
+      location: theorem_creation.invention.selected_candidate.residual_gap
+      primitive_id: GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive
+      label: core noncircular monotone-budget step for graph-compatible full same-material
+        action
+      subprimitive_class: ''
+    - artifact: theorem_creation
+      path: problems/navier-stokes/theorem-creation.yaml
+      location: theorem_creation.invention.selected_candidate.direct_residual_gap
+      primitive_id: GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive
+      label: core noncircular monotone-budget step for graph-compatible full same-material
+        action
+      subprimitive_class: ''
+    - artifact: creative_theorem_search
+      path: problems/navier-stokes/creative-theorem-search.yaml
+      location: creative_theorem_search.selected_branch
+      primitive_id: GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive
+      label: core noncircular monotone-budget step for graph-compatible full same-material
+        action
+      subprimitive_class: ''
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml

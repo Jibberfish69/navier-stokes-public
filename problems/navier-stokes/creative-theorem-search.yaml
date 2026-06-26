@@ -2,9 +2,9 @@
 version: 1
 identity:
   problem_id: navier-stokes
-  display_name: Navier-Stokes
+  display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-06-26T08:29:28Z'
+  generated_at: '2026-06-26T08:30:22Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
