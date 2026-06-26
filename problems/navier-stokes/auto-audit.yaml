@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-26T11:02:50Z'
+  audited_at: '2026-06-26T11:03:45Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: referee-blocked-cm-contrapositive
@@ -318,10 +318,9 @@ issues:
     - artifact: theorem_creation
       path: problems/navier-stokes/theorem-creation.yaml
       target_ids:
-      - GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive
-      lineage_ids:
-      - GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive
-      generated_at: '2026-06-26T11:02:28Z'
+      - GlobalSamePacketFullNoFreeUpwardTransferHardObstruction.A
+      lineage_ids: []
+      generated_at: '2026-06-26T11:03:20Z'
 fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
