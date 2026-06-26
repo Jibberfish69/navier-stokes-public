@@ -161,15 +161,15 @@ Let \(u_0\) be smooth and divergence-free, and let \((u,p)\) be the maximal clas
 \[
   \Member(Q;\Owork),
 \]
-or the first failed witness gives
+or the first failed witness gives carrier-window support outside the CM conclusion or one of the two Part/Field failures
 \[
-  carrier-window support outside CM,
+  \text{carrier-window support outside CM},
   \qquad
   \neg\Part_{N,Q},
   \qquad
   \Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
-In the second case the first failed face yields
+In the Part or Field cases the first failed face yields
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
@@ -943,21 +943,21 @@ on that carrier.  Field gives a positive scale \(r_N\) on which the tower readin
 \end{proof}
 
 \begin{theorem}[Finite witness classification]
-Let \(\mathcal F\) be an admitted finite terminal obstruction from the same smooth initial datum, and let \(Q\) be the selected terminal record.  At the continuation depth \(N_s\), the obstruction must lose one of the packet faces in Pack-out-of-CM audited order:
+Let \(\mathcal F\) be an admitted finite terminal obstruction from the same smooth initial datum, and let \(Q\) be the selected terminal record.  At the continuation depth \(N_s\), the obstruction must either stop at carrier-window support outside the CM conclusion or lose a Part/Field face after carrier admission:
 \[
   \mathcal F
   \Longrightarrow
   \begin{cases}
-    carrier-window support outside CM,\\
+    \text{carrier-window support outside CM},\\
     \neg\Part_{N_s,Q},\\
     \Part_{N_s,Q}\wedge\forall r>0\,\neg\Field_{N_s,r,Q}.
   \end{cases}
 \]
-Each displayed branch supplies \(\Exit(Q;\Owork)\).
+The carrier-window line is support for admission.  The displayed Part and Field losses supply \(\Exit(Q;\Owork)\).
 \end{theorem}
 
 \begin{proof}
-Begin with the selected record \(Q\).  The first gate is Pack.  Either the positive same-fluid carrier exists or it fails.  Carrier failure gives \(carrier-window support outside CM\), and the proof stops at Pack.
+Begin with the selected record \(Q\).  The first gate is Pack.  Either the positive same-fluid carrier exists or it fails.  Carrier failure gives carrier-window support outside CM, and the proof does not spend that line as class exit.
 
 Assume the carrier has been admitted.  The second gate is Part.  Either the same pressure-viscosity-incompressibility tower acts through depth \(N_s\) on the carrier, or it fails.  Participation failure gives
 \[
@@ -978,7 +978,7 @@ The local \(H^s\) theorem gives a lifespan \(\tau(\nu,s,M_s)>0\).  Choosing \(t_
   \Part_{N_s,Q}\wedge\forall r>0\,\neg\Field_{N_s,r,Q}.
 \]
 
-In all three cases the selected record loses a required membership face.  The loss is read as \(\Exit(Q;\Owork)=\neg\Member(Q;\Owork)\).
+In the Part and Field cases the selected record loses a required membership face after carrier admission.  That loss is read as \(\Exit(Q;\Owork)=\neg\Member(Q;\Owork)\).
 \end{proof}
 
 \begin{theorem}[No same-record member obstruction]
@@ -1127,11 +1127,11 @@ The record has entered the CM test, and the first lost requirement is read as a 
 A finite Clay terminal witness is resolved by the CM proof when the witness has entered the same-solution packet test and the ordered test produces one of the following outcomes:
 \begin{enumerate}[leftmargin=*]
 \item \(\Member(Q;\Owork)\): all three faces survive and the member-side readout continues the same branch.
-\item \(carrier-window support outside CM\): the selected object has no same-fluid packet carrier.
+\item carrier-window support outside CM: the selected object has no same-fluid packet carrier, so this line remains admission support rather than a CM-exit payment.
 \item \(\neg\Part_{N,Q}\): a carrier survives without the same pressure-viscosity participation.
 \item \(\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\): carrier and participation survive without positive-scale coherent field readout.
 \end{enumerate}
-In the three failed cases the derived Part/Field failure is embedded as
+In the Part and Field failed cases the derived Part/Field failure is embedded as
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
@@ -1146,9 +1146,9 @@ Then the CM test has exactly two proof outcomes for \(Q\):
   \Exit(Q;\Owork).
 \]
 The member outcome is the same-solution continuation branch.
-The exit outcome is supported by a first failed witness:
+The exit outcome is supported by a first failed Part or Field witness after carrier admission:
 \[
-  carrier-window support outside CM,\qquad
+  \text{carrier-window support outside CM},\qquad
   \neg\Part_{N,Q},\qquad
   \Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
@@ -1742,9 +1742,9 @@ Inside the CM test, \(Q\) has exactly two readings:
   \Exit(Q;\Owork).
 \]
 The member reading gives the same-solution readout chain required by the selected continuation criterion.
-The exit reading is certified by the first failed witness:
+The exit reading is certified by the first failed Part or Field witness after carrier admission:
 \[
-  carrier-window support outside CM,\qquad
+  \text{carrier-window support outside CM},\qquad
   \neg\Part_{N,Q},\qquad
   \Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
@@ -1762,7 +1762,7 @@ In the remaining case, the finite terminal claim supplies the terminal record \(
 Membership in \(\Owork\) requires a positive same-fluid carrier, same-equation pressure-viscosity participation, and positive-scale field readout on that same record.
 When those requirements survive at the continuation depth, the member-side readout chain feeds the continuation criterion selected for that branch.
 When the record loses a requirement, the ordered test stops at the first lost face.
-Loss of the carrier gives \(carrier-window support outside CM\).
+Loss of the carrier gives carrier-window support outside CM, which marks the admission boundary rather than the class-exit payment.
 Carrier without same-equation participation gives \(\neg\Part_{N,Q}\).
 Carrier and participation without any positive-scale coherent field readout gives
 \[
