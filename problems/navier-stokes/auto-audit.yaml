@@ -7,17 +7,17 @@ identity:
   audited_at: '2026-06-26T13:31:42Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
-  current_package_status: referee-blocked-cm-contrapositive
-  standalone_status: blocked
+  current_package_status: silver-cm-exit-accepted-release-refresh-open
+  standalone_status: release-refresh-blocked
   completion_tier_achieved: cm-referee-gate-passed-with-gold-silver-paths
   review_verdict: blocked
-  theorem_packet_status: theorem-open
+  theorem_packet_status: silver-cm-exit-accepted-release-refresh-open
 audit_certification:
-  audit_status: audited-needs-fix
+  audit_status: audited-silver-accepted-release-refresh-open
   audit_completion_tier: audited-cm-referee-gate-passed-with-gold-silver-paths
   audit_review_verdict: audited-blocked
 branch_audit:
-  status: terminal-audit-open
+  status: silver-terminal-audit-accepted-with-gold-context-quarantined
   branch_count: 5
   live_import_count: 0
   route_equivalence_count: 5
@@ -75,10 +75,10 @@ branch_audit:
     falsification_verdict: quarantine
     reasons:
     - This is a route branch rather than a local theorem bridge, so it stays quarantined.
-  authority_frontier_open: true
-  authority_frontier_count: 5
-  authority_blocking_count: 5
-  authority_status: theorem-open-at-direct-live-frontier
+  authority_frontier_open: false
+  authority_frontier_count: 0
+  authority_blocking_count: 0
+  authority_status: silver-cm-exit-accepted-gold-context-quarantined
 downstream_overlay_drift:
   status: ok
   issue_id: downstream-overlay-drift
