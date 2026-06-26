@@ -79,7 +79,7 @@ I_{LH,j,k}
 
 This part costs no coefficient and no absorption budget.
 
-The remaining strict low-mode piece is the high-velocity / low-gradient packet.  It has the schematic form
+The remaining strict low-mode piece is the high-velocity / low-gradient packet.  Its algebraic form is
 
 \[
 I_{HL,j,k}
