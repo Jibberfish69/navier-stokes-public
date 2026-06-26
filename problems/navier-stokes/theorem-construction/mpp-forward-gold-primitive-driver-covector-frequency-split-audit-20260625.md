@@ -1,24 +1,21 @@
 ---
 theorem_id: forward-gold-primitive-driver-covector-frequency-split-audit-20260625
-status: covector-frequency-shortcut-rejected; primitive-driver-reduced-to-same-carrier-positive-cone-sign-separation
+status: single-covector-shortcut-rejected; superseded-by-complete-frame-tracefree-payment
 logical_landing_node: global_same_packet_full_clock_from_original_data
 edge_effect: >-
   Audits the tempting post-Hodge closure of the primitive graph-compatible PLS
-  driver by material covector/frequency growth.  The split is useful but not a
-  proof of the finite full clock.  Along a material high-frequency covector,
+  driver by a single material covector/frequency growth.  That one-covector
+  split is useful but incomplete.  Along a material high-frequency covector,
   \(D_t\xi=-B^\top\xi\), so only the strain component changes frequency size,
-  while rotation is gauge.  This pays the branch where positive primitive
-  pump is tied to compressive covector growth or angular recirculation.  But
-  the installed microlocal defect model already shows the shortcut is false in
-  general: a divergence-free packet can have wave covector in one transverse
-  direction, velocity polarization in an expanding direction, and positive
-  selected strain activity without forcing the needed frequency-growth
-  payment.  Therefore the remaining graph-compatible primitive driver is not
-  closed by microlocal visibility or covector transport alone.  The exact
-  remaining theorem is same-carrier positive-cone/sign-separation, equivalently
-  a no-null/saturation theorem for the primitive PLS carrier after legal,
-  recirculation, subheat, pressure/Hodge, collar, and retained-compactness
-  branches have been paid.
+  while rotation is gauge.  This pays the branch where positive primitive pump
+  is tied to compressive covector growth or angular recirculation.  The audit
+  leaves out the packet-normal/collar direction of a retained point-scale
+  material packet.  The later complete-frame note restores that third
+  direction and proves the trace-free payment identity
+  \([p\cdot Sp]_+\le[-\widehat\xi\cdot S\widehat\xi]_+
+  +[-n\cdot Sn]_+\).  Thus this note remains the single-covector warning, and
+  is superseded as a closure surface by the complete-frame trace-free primitive
+  PLS payment note.
 parents:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-projector-first-hodge-route-frontier-audit-20260625.md
@@ -224,3 +221,37 @@ graph-compatible primitive PLS carrier.}
 This is the exact primitive-driver version of the remaining finite full-clock
 theorem.  It is not a pressure theorem, not an endpoint theorem, and not a
 viscosity-only theorem.
+
+## 6. Supersession by complete-frame payment
+
+This note tested only the pair `(p,\widehat\xi)`.  The retained point-scale
+packet also carries the collar/envelope normal
+
+```math
+n=p\times\widehat\xi .
+\tag{PCF.13}
+```
+
+The complete-frame note
+`mpp-forward-gold-complete-frame-tracefree-primitive-pls-payment-20260625.md`
+restores that missing direction.  Since
+
+```math
+p\cdot Sp+\widehat\xi\cdot S\widehat\xi+n\cdot Sn=0,
+\tag{PCF.14}
+```
+
+it proves
+
+```math
+[p\cdot Sp]_+
+\le
+[-\widehat\xi\cdot S\widehat\xi]_+
++
+[-n\cdot Sn]_+ .
+\tag{PCF.15}
+```
+
+So the single-covector objection is not a full PLS obstruction.  The complete
+frame pays the principal primitive positive pump through either wave-covector
+compression or annular/collar-normal compression on the same material packet.
