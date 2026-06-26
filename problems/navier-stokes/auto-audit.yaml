@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-26T07:29:53Z'
+  audited_at: '2026-06-26T07:31:23Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: referee-blocked-cm-contrapositive
@@ -313,30 +313,30 @@ issues:
     - artifact: theorem_creation
       path: problems/navier-stokes/theorem-creation.yaml
       location: theorem_creation.solver_verdict.next_subprimitive
-      primitive_id: GlobalSamePacketFullOriginalHistoryBandFluxPacking.A.CoreSubprimitive
-      label: core original-history annular/Hodge packing estimate for high-ratio band
-        flux
+      primitive_id: GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A.CoreSubprimitive
+      label: core annular/Hodge same-history packing estimate excluding uncharged
+        high-ratio upward birth
       subprimitive_class: ''
     - artifact: theorem_creation
       path: problems/navier-stokes/theorem-creation.yaml
       location: theorem_creation.proof_object.direct_residual_gap
-      primitive_id: GlobalSamePacketFullOriginalHistoryBandFluxPacking.A.CoreSubprimitive
-      label: core original-history annular/Hodge packing estimate for high-ratio band
-        flux
+      primitive_id: GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A.CoreSubprimitive
+      label: core annular/Hodge same-history packing estimate excluding uncharged
+        high-ratio upward birth
       subprimitive_class: ''
     - artifact: theorem_creation
       path: problems/navier-stokes/theorem-creation.yaml
       location: theorem_creation.invention.selected_candidate.residual_gap
-      primitive_id: GlobalSamePacketFullOriginalHistoryBandFluxPacking.A.CoreSubprimitive
-      label: core original-history annular/Hodge packing estimate for high-ratio band
-        flux
+      primitive_id: GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A.CoreSubprimitive
+      label: core annular/Hodge same-history packing estimate excluding uncharged
+        high-ratio upward birth
       subprimitive_class: ''
     - artifact: theorem_creation
       path: problems/navier-stokes/theorem-creation.yaml
       location: theorem_creation.invention.selected_candidate.direct_residual_gap
-      primitive_id: GlobalSamePacketFullOriginalHistoryBandFluxPacking.A.CoreSubprimitive
-      label: core original-history annular/Hodge packing estimate for high-ratio band
-        flux
+      primitive_id: GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A.CoreSubprimitive
+      label: core annular/Hodge same-history packing estimate excluding uncharged
+        high-ratio upward birth
       subprimitive_class: ''
 fix_plan: []
 source_artifacts:
