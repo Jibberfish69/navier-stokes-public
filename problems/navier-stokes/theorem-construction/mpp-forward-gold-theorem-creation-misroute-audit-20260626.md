@@ -7,7 +7,7 @@ edge_effect: >-
   the follow-on theorem-repair CM witness-face routing as non-promoted support.
   The generated branch starts from the correct live obstruction but shifts into
   source-reserve / charge-ledger / Pack-Part-Field machinery rather than
-  proving the exhaustive same-material full PLS clock. It must not be spent as
+  proving the exhaustive same-material full same-material action. It must not be spent as
   the Gold full-clock producer.
 parents:
   - problems/navier-stokes/live-theorem-edge.yaml
@@ -63,7 +63,7 @@ The active Gold target is the original smooth solution's same-material full
 participation-law-strain clock:
 
 ```math
-\int_0^{T_*}d\Omega_N^{PLS,full}<\infty .
+\int_0^{T_*}d\Omega_N^{full}<\infty .
 ```
 
 The generated theorem is instead a terminal reserve / charge-ledger statement:
@@ -80,7 +80,7 @@ Its retrieved support and recursive chain are source-reserve, height-flux,
 Pack/Part/Field, Zeno residue, and positive-remainder depletion surfaces.
 Those may be useful in the CM branch, but they do not prove a bounded-below
 same-material entropy or no-free-upcrossing law for
-\(d\Omega_N^{PLS,full}\).
+\(d\Omega_N^{full}\).
 
 In particular, the generated branch does not control the positive part of the
 strain-log exchange in the complete-frame Hodge candidate:
@@ -92,7 +92,7 @@ strain-log exchange in the complete-frame Hodge candidate:
 That exchange is the same full material participation clock under audit.  A
 source-reserve charge theorem can be promoted to the Gold route only after a
 separate bridge proves that its reserve/charge ledger dominates this full
-same-material PLS clock on the original transported history.  No such bridge
+same-material full action on the original transported history.  No such bridge
 was generated or installed.
 
 ## 2. Correct classification
@@ -110,7 +110,7 @@ It is not a replacement for the noncircular estimate
 ```math
 \mathscr A_N(t)\ge -C_N(u_0),
 \qquad
-d\mathscr A_N+c_Nd\Omega_N^{PLS,full}
+d\mathscr A_N+c_Nd\Omega_N^{full}
 \le
 dR_N^{legal}.
 ```
@@ -119,7 +119,7 @@ It is a quarantined machine-created support branch.  The Gold route remains
 open at the same point:
 
 ```text
-prove finite total mass of the exhaustive same-material full PLS clock
+prove finite total mass of the exhaustive same-material full same-material action
 from original smooth data.
 ```
 
