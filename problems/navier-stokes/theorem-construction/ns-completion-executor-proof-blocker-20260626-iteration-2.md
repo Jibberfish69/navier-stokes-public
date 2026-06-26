@@ -15,7 +15,9 @@ This pass re-entered changed refs from the first executor pass:
 
 Stop state: exact blocker, not theorem closure.
 
-No proof blocker is open in the current source frontier.
+CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A remains open at silver-cm-exit-authority; the CM obstruction has not yet been landed in Part/Field (Pack_Q, Part_{N,Q}, Field_{N,r,Q}) or closed by legitimacy rejection.
 
 Next executable proof tasks:
-
+- name the first open CM Part/Field from source-frontier.yaml and live-theorem-edge.yaml
+- run theorem-legitimacy and pass-side nonvacuity before estimates
+- write a proof or failed-attempt note with the exact face mechanism
