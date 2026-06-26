@@ -426,6 +426,12 @@ add_dynamic_family.call(
 )
 
 add_dynamic_family.call(
+  "current_thread_trajectory_support",
+  "Thread trajectory files preserve active thread, goal-loop, and routing state. They can identify the live working lane and required rehydration surfaces, but they do not create theorem authority; proof force remains in the direct live edge, theorem notes, source frontier, manuscript, and referee/audit surfaces.",
+  %r{\Athread-trajectories/}
+)
+
+add_dynamic_family.call(
   "current_theorem_construction_remainder",
   "Current theorem-construction files outside the direct live authority, source-artifact set, non-Euler sweep, and forward-positive quarantine are theorem-attempt or audit remainder. They are preserved as active research support with no downstream proof force until an exact statement with hypotheses is promoted into the direct live surfaces or certified by the Part/Field referee audit.",
   %r{\Atheorem-construction/}
