@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-06-26T08:26:16Z'
+  generated_at: '2026-06-26T08:28:08Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -24,11 +24,11 @@ sandbox:
   survivor_writeback: Keep only branches that survive discharge, falsification, or
     refinement; demote the rest back into explicit debt.
   independent_branch_ids:
+  - creative-branch-navier-stokes-2
   - creative-branch-navier-stokes-3
   - creative-branch-navier-stokes-4
   co_dependent_branch_ids:
   - creative-branch-navier-stokes-1
-  - creative-branch-navier-stokes-2
   branch_execution_order:
   - creative-branch-navier-stokes-1
   - creative-branch-navier-stokes-2
@@ -37,71 +37,6 @@ sandbox:
 branch_pool:
 - &1
   branch_id: creative-branch-navier-stokes-1
-  obligation_id: GlobalSamePacketFullGoodLambdaTail.A.ContractionSubprimitive
-  kind: proof-dependency
-  label: noncircular proof of the weight-beating good-lambda contraction
-  status: needs-theorem-creation
-  origin_obligation_id: GlobalSamePacketFullGoodLambdaTail.A.ContractionSubprimitive
-  origin_kind: proof-dependency
-  parent_obligation_id: GlobalSamePacketFullWeightBeatingTail.A.GoodLambdaSubprimitive
-  parent_label: good-lambda or bounded-below storage subprimitive for the weight-beating
-    same-material tail
-  root_target_obligation_id: global-same-packet-full-material-clock
-  root_target_label: GlobalSamePacketFullClockFromOriginalData.A
-  source_class: theorem-creation-next-subprimitive
-  source_status: needs-theorem-creation
-  branch_type: bridge-lemma
-  pursuit_mode: co-dependent
-  candidate_claim: Create the recursive theorem subprimitive GlobalSamePacketFullGoodLambdaTail.A.ContractionSubprimitive
-    exposed by the previous theorem-creation packet, instead of mutating a neighboring
-    route.
-  creative_move: Search for the missing mediating object or bounded inequality that
-    makes the implication local and testable.
-  invention_packet:
-    candidate_statement: Create the recursive theorem subprimitive GlobalSamePacketFullGoodLambdaTail.A.ContractionSubprimitive
-      exposed by the previous theorem-creation packet, instead of mutating a neighboring
-      route.
-    mediating_object: local_bridge_object
-    proof_sketch:
-    - State the weakest exact claim that would advance `GlobalSamePacketFullGoodLambdaTail.A.ContractionSubprimitive`
-      without expanding the theorem target.
-    - Define or isolate the mediating object on the current carrier/window/sector
-      only.
-    - Prefer a classical closure lemma on the existing energy/compactness/gradient
-      ladder rather than a modified-equation detour for `noncircular proof of the
-      weight-beating good-lambda contraction`.
-    - Show how that object converts one already-grounded local statement into the
-      next missing step.
-    - Reject the move if it introduces new global scope, hidden imports, or a stronger
-      claim than the frozen frontier needs.
-    falsification_checks:
-    - Does the move preserve the frozen theorem target rather than redefining it?
-    - Can the candidate be stated on already-grounded objects without importing a
-      new theory chapter?
-    - Does it reduce at least one open obligation or turn a frontier statement into
-      a local discharge target?
-    - Reject if the branch only rephrases the existing gap without a new mediating
-      object or bounded inequality.
-    scope_guard: Insert only the weakest bridge sufficient to connect the current
-      grounded chain.
-  grounded_basis:
-  - clay-cm-contrapositive-witness-consumption
-  - cm-part-ontology-witness-notation-correction
-  - torus-global-material-atlas-terminal-capture
-  - GlobalSamePacketFullGoodLambdaTail.A.ContractionSubprimitive
-  risk_level: medium-low
-  notes:
-  - This branch is the live recursive subprimitive from theorem-creation; keep it
-    on theorem-creation until it is discharged or sharpened.
-  - This branch is machine-derived beyond the current frozen core.
-  - Use the weakest sufficient move; do not inflate the theorem target.
-  recommended_next_cell_type: theorem-creation
-  recommended_next_action: 'Creative theorem search selected the live theorem-creation
-    subprimitive `GlobalSamePacketFullGoodLambdaTail.A.ContractionSubprimitive`. Run
-    theorem-creation on that exact recursive proof burden instead of replaying route
-    mutation: noncircular proof of the weight-beating good-lambda contraction.'
-  merge_policy: quarantined-until-promoted
-- branch_id: creative-branch-navier-stokes-2
   obligation_id: GlobalSamePacketFullMonotoneBudget.A
   kind: proof-dependency
   label: 'GlobalSamePacketFullMonotoneBudget.A: bounded-below same-material storage
@@ -168,7 +103,7 @@ branch_pool:
     failed to promote global-same-packet-full-material-clock. Run theorem-creation
     on the budget route instead of replaying `GlobalSamePacketFullWeightBeatingTail.A`.
   merge_policy: quarantined-until-promoted
-- branch_id: creative-branch-navier-stokes-3
+- branch_id: creative-branch-navier-stokes-2
   obligation_id: global-same-packet-full-material-clock
   kind: live-theorem-frontier
   label: GlobalSamePacketFullClockFromOriginalData.A
@@ -225,7 +160,7 @@ branch_pool:
     Use the invention packet to ground a new explicit bridge for GlobalSamePacketFullClockFromOriginalData.A
     through dependency-discharge.
   merge_policy: quarantined-until-promoted
-- branch_id: creative-branch-navier-stokes-4
+- branch_id: creative-branch-navier-stokes-3
   obligation_id: original-smooth-data-material-history-no-finite-breakdown
   kind: live-theorem-frontier
   label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
@@ -281,12 +216,66 @@ branch_pool:
     Use the invention packet to ground a new explicit bridge for OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
     through dependency-discharge.
   merge_policy: quarantined-until-promoted
+- branch_id: creative-branch-navier-stokes-4
+  obligation_id: pack-out-of-cm-smoothness-certification-audit
+  kind: live-theorem-frontier
+  label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
+  status: frontier-open
+  origin_obligation_id: pack-out-of-cm-smoothness-certification-audit
+  origin_kind: live-theorem-frontier
+  parent_obligation_id: global-same-packet-full-material-clock
+  parent_label: GlobalSamePacketFullClockFromOriginalData.A
+  root_target_obligation_id: global-same-packet-full-material-clock
+  root_target_label: GlobalSamePacketFullClockFromOriginalData.A
+  source_class: ''
+  source_status: frontier-open
+  branch_type: route-mutation
+  pursuit_mode: independent
+  candidate_claim: Mutate the route locally so that packOutOfCMSmoothnessCertification.A
+    / OriginalParticipationBeforePackLicensing.A can be pursued without reopening
+    the theorem target.
+  creative_move: Open a bounded side branch that changes representation but not the
+    theorem target, then compare whether it reduces proof obligations.
+  invention_packet:
+    candidate_statement: Mutate the route locally so that packOutOfCMSmoothnessCertification.A
+      / OriginalParticipationBeforePackLicensing.A can be pursued without reopening
+      the theorem target.
+    mediating_object: route_mutation_carrier
+    proof_sketch:
+    - State the weakest exact claim that would advance `pack-out-of-cm-smoothness-certification-audit`
+      without expanding the theorem target.
+    - Define or isolate the mediating object on the current carrier/window/sector
+      only.
+    - Prefer a classical closure lemma on the existing energy/compactness/gradient
+      ladder rather than a modified-equation detour for `PackOutOfCMSmoothnessCertification.A
+      / OriginalParticipationBeforePackLicensing.A`.
+    - Show how that object converts one already-grounded local statement into the
+      next missing step.
+    - Reject the move if it introduces new global scope, hidden imports, or a stronger
+      claim than the frozen frontier needs.
+    falsification_checks:
+    - Does the move preserve the frozen theorem target rather than redefining it?
+    - Can the candidate be stated on already-grounded objects without importing a
+      new theory chapter?
+    - Does it reduce at least one open obligation or turn a frontier statement into
+      a local discharge target?
+    - Reject if the branch only rephrases the existing gap without a new mediating
+      object or bounded inequality.
+    scope_guard: Representation may change, theorem target may not.
+  grounded_basis:
+  - clay-cm-contrapositive-witness-consumption
+  - cm-part-ontology-witness-notation-correction
+  - torus-global-material-atlas-terminal-capture
+  - pack-out-of-cm-smoothness-certification-audit
+  risk_level: high
+  notes:
+  - This branch is machine-derived beyond the current frozen core.
+  recommended_next_cell_type: dependency-discharge
+  recommended_next_action: Creative theorem search selected `pack-out-of-cm-smoothness-certification-audit`.
+    Use the invention packet to ground a new explicit bridge for PackOutOfCMSmoothnessCertification.A
+    / OriginalParticipationBeforePackLicensing.A through dependency-discharge.
+  merge_policy: quarantined-until-promoted
 candidate_archive:
-- origin_obligation_id: GlobalSamePacketFullGoodLambdaTail.A.ContractionSubprimitive
-  origin_kind: proof-dependency
-  label: noncircular proof of the weight-beating good-lambda contraction
-  status: needs-theorem-creation
-  promoted_into_branch_pool: true
 - origin_obligation_id: GlobalSamePacketFullMonotoneBudget.A
   origin_kind: proof-dependency
   label: 'GlobalSamePacketFullMonotoneBudget.A: bounded-below same-material storage
@@ -307,7 +296,7 @@ candidate_archive:
   origin_kind: live-theorem-frontier
   label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
   status: frontier-open
-  promoted_into_branch_pool: false
+  promoted_into_branch_pool: true
 - origin_obligation_id: r3-whole-space-cm-completion
   origin_kind: live-theorem-frontier
   label: R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A
@@ -320,8 +309,8 @@ candidate_archive:
   promoted_into_branch_pool: false
 selected_branch: *1
 summary:
-  candidate_count: 7
-  candidate_archive_count: 7
+  candidate_count: 6
+  candidate_archive_count: 6
   sandbox_mode: single-branch-sandbox
   active_branch_ids:
   - creative-branch-navier-stokes-1
