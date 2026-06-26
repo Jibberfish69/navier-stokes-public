@@ -2,14 +2,14 @@
 
 ## Target
 
-- target obligation: global-same-packet-full-material-clock
-- target label: Refine the stalled dependency-discharge target global-same-packet-full-material-clock: GlobalSamePacketFullClockFromOriginalData.A
+- target obligation: GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive
+- target label: Create the recursive theorem subprimitive GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
 - route role: Find the strictly weaker same-material bridge that advances GlobalSamePacketFullClockFromOriginalData.A while preserving the full pressure-viscosity-incompressibility-velocity packet.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullMinimalBridge.A. Find the strictly weaker same-material bridge that advances GlobalSamePacketFullClockFromOriginalData.A while preserving the full pressure-viscosity-incompressibility-velocity packet. This supplies the exact noncircular bridge needed for Refine the stalled dependency-discharge target global-same-packet-full-material-clock: GlobalSamePacketFullClockFromOriginalData.A.
+GlobalSamePacketFullMinimalBridge.A. Find the strictly weaker same-material bridge that advances GlobalSamePacketFullClockFromOriginalData.A while preserving the full pressure-viscosity-incompressibility-velocity packet. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
 
 ## Inventive Search
 
@@ -23,9 +23,9 @@ GlobalSamePacketFullMinimalBridge.A. Find the strictly weaker same-material brid
 
 ### Candidate Theorems
 
-- GlobalSamePacketFullMinimalBridge.A (full_same_material_minimal_bridge; score=122)
-- GlobalSamePacketFullCompactnessDefectRigidity.A (full_same_material_compactness_defect; score=86)
-- GlobalSamePacketFullMonotoneBudget.A (full_same_material_monotone_budget; score=78)
+- GlobalSamePacketFullMinimalBridge.A (full_same_material_minimal_bridge; score=102)
+- GlobalSamePacketFullCompactnessDefectRigidity.A (full_same_material_compactness_defect; score=74)
+- GlobalSamePacketFullMonotoneBudget.A (full_same_material_monotone_budget; score=66)
 
 ### Retrieved Ingredients
 
@@ -43,8 +43,8 @@ GlobalSamePacketFullMinimalBridge.A. Find the strictly weaker same-material brid
 ## Forbidden Imports
 
 - GlobalSamePacketFullMinimalBridge.A
-- Refine the stalled dependency-discharge target global-same-packet-full-material-clock: GlobalSamePacketFullClockFromOriginalData.A
-- global-same-packet-full-material-clock
+- Create the recursive theorem subprimitive GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
+- GlobalSamePacketFullMinimalBridge.A.CoreSubprimitive
 - full-MPP closure
 - submission readiness
 - global smoothness
