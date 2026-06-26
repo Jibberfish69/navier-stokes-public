@@ -24,7 +24,7 @@ smoothness.
 The referee question is:
 
 \[
-\text{Does the complete-frame same-material clock cover every terminal
+\text{Does the complete-frame same-material action cover every terminal
 concentration mechanism of the original solution?}
 \]
 
@@ -62,7 +62,8 @@ Gold-route statement pending the exhaustiveness audit.
 
 Therefore the repo did not have a clean referee-certified victory state.  The
 current live edge now treats the complete-frame Hodge assembly as a blocked
-candidate whose sufficiency depends on the finite full material clock producer.
+candidate whose sufficiency depends on the finite full same-material action
+theorem.
 
 ## Exhaustiveness Criterion
 
@@ -72,7 +73,7 @@ for the original smooth solution:
 \[
 \text{finite terminal concentration}
 \Longrightarrow
-\text{same-material full-clock charge}
+\text{same-material full-action charge}
 \]
 
 with the clock charge measured by the complete-frame graph-compatible PLS
@@ -90,8 +91,8 @@ covered readings:
 4. primitive positive pump is read on the complete retained frame
    \((p,\widehat\xi,n)\), so trace-free strain sends it into transverse
    wave-covector or annular/collar compression;
-5. all of those transverse records are components of the same full PLS clock;
-6. finite full PLS clock gives terminal no-atom, finite material record, fixed
+5. all of those transverse records are components of the same full action;
+6. finite full same-material action gives terminal no-atom, finite material record, fixed
    \(H^s\) continuation, and restart.
 
 This is an exhaustive proof shape.  The annular idea alone is not.
@@ -111,18 +112,18 @@ The installed assembly note lists eleven parents.  Their checked roles are:
 | `mpp-forward-gold-higher-collar-tower-demoted-to-same-depth-service-20260625.md` | support reduction | Demotes higher collar terms; not an independent producer. |
 | `mcp-relativeschurdefectcollapseandlocalizedinterfacesplit...0e99943057.md` | conditional local discharge | Exact on the global graph; localized residuals are interface/legal terms. |
 | `mcp-prelimitmasterbalancegateclosure...68f4092fa9.md` | conditional master-balance gate | Requires legal residual summability and all nonsummable terms placed into clock/loss before compactness. |
-| `mpp-forward-gold-finite-full-clock-to-fixed-hs-continuation-bridge-20260625.md` | consumer bridge | Proves finite full clock implies fixed-\(H^s\) continuation; does not produce the clock. |
-| `mcp-terminalsourceantiatom-equivalent-fullclocktail...20260625.md` | consumer equivalence | Proves terminal anti-atom follows from finite full clock; explicitly says the producer is not proved there. |
+| `mpp-forward-gold-finite-full-clock-to-fixed-hs-continuation-bridge-20260625.md` | consumer bridge | Proves finite full action implies fixed-\(H^s\) continuation; does not prove finite action. |
+| `mcp-terminalsourceantiatom-equivalent-fullclocktail...20260625.md` | consumer equivalence | Proves terminal anti-atom follows from finite full action; explicitly says finite action is not proved there. |
 
 This classification blocks the bad inference
 
 \[
 \text{sector reductions}+\text{consumer bridges}
 \Longrightarrow
-\text{finite full clock}.
+\text{finite full action}.
 \]
 
-The missing item is still the global producer/exhaustiveness estimate for
+The missing item is still the global finite-action/exhaustiveness estimate for
 \[
 \int_0^{T_*}d\Omega_N^{PLS,full}<\infty.
 \]
@@ -153,10 +154,10 @@ surfaces whose own statuses are not proof completions, including:
 - `mcp-freshupcrossingterminalantiatomdirectattempt...`: failed direct
   discharge from installed inputs;
 - `mpp-forward-gold-global-full-clock-continuation-strength-audit...`:
-  continuation-strength audit installed, full-clock producer still open.
+  continuation-strength audit installed, finite full action still open.
 
 These are valid support and failure-analysis surfaces, but they cannot serve as
-proof anchors for the statement that the full clock is finite unless a later
+proof anchors for the statement that the full action is finite unless a later
 surface explicitly discharges their open burdens without circularity.
 
 ## Full Support-Anchor Census
@@ -184,17 +185,17 @@ Hand reading classifies it as support/failure analysis, not proof.  It says the
 critical-element architecture is the cleanest native organization at that proof
 resolution, but that the current inputs do not produce the object consumed by
 rigidity.  Its exact gap is the terminal time-face atom in critical-element
-language.  It therefore cannot certify the exhaustive full PLS clock.
+language.  It therefore cannot certify the exhaustive full same-material action.
 
 The added June 26 complete-frame payment audit is classified as proof-force
 audit/support: it records that complete-frame trace-free payment closes
 same-packet orientation/admission, while finite total transverse payment remains
-the full-clock producer burden.
+the finite-action burden.
 
 Thus every cited support anchor is now classified, and the classification
 confirms the same result as the referee machinery: the complete-frame Hodge
 assembly is not yet a closed smoothness proof.  It is a candidate assembly whose
-support surfaces still contain unresolved or conditional producer burdens.
+support surfaces still contain unresolved or conditional finite-action burdens.
 
 The remaining audit-hardening work before any victory claim is:
 
@@ -202,11 +203,11 @@ The remaining audit-hardening work before any victory claim is:
    still describe the Gold route as open at
    \(\mathrm{TerminalTimeFaceAntiAtom.A}\) /
    \(\mathrm{TerminalNewProductionTheorem}_{B_{\mathrm{ASAC}}}\mathrm{.A}\).
-2. prove the noncircular same-material full-clock producer itself:
+2. prove the noncircular same-material full-action theorem itself:
    \[
    \int_0^{T_*} d\Omega_N^{PLS,full}<\infty.
    \]
 
-Only after that producer is proved and the referee surfaces accept it can the
+Only after that theorem is proved and the referee surfaces accept it can the
 route be described as an exhaustive smoothness proof rather than a candidate
 closure assembly.
