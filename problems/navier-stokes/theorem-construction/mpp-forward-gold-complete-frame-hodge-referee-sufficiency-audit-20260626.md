@@ -35,13 +35,14 @@ law.
 
 ## Checked Surface State
 
-The current live edge contains a closure entry:
+At the time of this audit, the live edge still contained the historical
+candidate closure entry:
 
 \[
 \texttt{gold-full-material-clock-closed-complete-frame-hodge-assembly}.
 \]
 
-That entry cites
+That entry cited
 
 \[
 \texttt{mpp-forward-gold-full-clock-closure-complete-frame-hodge-assembly-20260625.md}.
@@ -65,9 +66,9 @@ The active manuscript also contained live text saying that
 remained open.  The front matter has now been downgraded to a conditional
 Gold-route statement pending the exhaustiveness audit.
 
-Therefore the repo does not currently have a clean referee-certified victory
-state.  It has a live-edge closure claim plus stale or conflicting referee and
-manuscript surfaces.
+Therefore the repo did not have a clean referee-certified victory state.  The
+current live edge now treats the complete-frame Hodge assembly as a blocked
+candidate whose sufficiency depends on the finite full material clock producer.
 
 ## Exhaustiveness Criterion
 
