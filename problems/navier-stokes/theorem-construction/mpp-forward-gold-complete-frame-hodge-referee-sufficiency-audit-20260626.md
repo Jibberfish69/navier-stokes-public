@@ -101,6 +101,37 @@ covered readings:
 
 This is an exhaustive proof shape.  The annular idea alone is not.
 
+## Narrow Parent Classification
+
+The installed assembly note lists eleven parents.  Their checked roles are:
+
+| Parent | Classification | Referee effect |
+| --- | --- | --- |
+| `live-theorem-edge.yaml` | authority surface | Now downgraded to candidate/referee-blocked for this closure. |
+| `mpp-forward-gold-projector-first-hodge-route-frontier-audit-20260625.md` | sector reduction | Closes the pressure/Hodge/collar sector as a reduction; explicitly says the primitive PLS driver remains. |
+| `mpp-forward-gold-complete-frame-tracefree-primitive-pls-payment-20260625.md` | local orientation-gap proof | Pays the principal complete-frame trace-free orientation gap. |
+| `mpp-forward-gold-signed-strain-log-storage-recombination-20260625.md` | local storage proof | Pays the signed top-strain superheat coordinate. |
+| `mpp-forward-gold-coefficient-frame-clock-absorbed-by-strain-log-storage-20260625.md` | reduction proof | Reduces coefficient/frame superheat to the top-strain storage. |
+| `mpp-forward-gold-base-transported-collar-clock-absorbed-by-frame-20260625.md` | reduction proof | Reduces base transported-collar clock to frame/strain service. |
+| `mpp-forward-gold-higher-collar-tower-demoted-to-same-depth-service-20260625.md` | support reduction | Demotes higher collar terms; not an independent producer. |
+| `mcp-relativeschurdefectcollapseandlocalizedinterfacesplit...0e99943057.md` | conditional local discharge | Exact on the global graph; localized residuals are interface/legal terms. |
+| `mcp-prelimitmasterbalancegateclosure...68f4092fa9.md` | conditional master-balance gate | Requires legal residual summability and all nonsummable terms placed into clock/loss before compactness. |
+| `mpp-forward-gold-finite-full-clock-to-fixed-hs-continuation-bridge-20260625.md` | consumer bridge | Proves finite full clock implies fixed-\(H^s\) continuation; does not produce the clock. |
+| `mcp-terminalsourceantiatom-equivalent-fullclocktail...20260625.md` | consumer equivalence | Proves terminal anti-atom follows from finite full clock; explicitly says the producer is not proved there. |
+
+This classification blocks the bad inference
+
+\[
+\text{sector reductions}+\text{consumer bridges}
+\Longrightarrow
+\text{finite full clock}.
+\]
+
+The missing item is still the global producer/exhaustiveness estimate for
+\[
+\int_0^{T_*}d\Omega_N^{PLS,full}<\infty.
+\]
+
 ## Current Referee Verdict
 
 The current verdict is:
