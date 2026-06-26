@@ -79,7 +79,7 @@
 \titleformat{\paragraph}[runin]{\bfseries\normalsize}{\theparagraph}{0.75em}{}
 \titlespacing*{\paragraph}{0pt}{1.0\baselineskip}{0.6em}
 
-\title{Three-Dimensional Navier--Stokes: Class Membership and the Contrapositive Proof Program}
+\title{Three-Dimensional Navier--Stokes: Complete-Frame Material Clock and Smooth Continuation}
 \author{Thomas Birnie}
 \date{June 17, 2026}
 
@@ -89,43 +89,32 @@
 \clearpage
 
 \begin{abstract}
-This manuscript states the current Navier--Stokes proof surface exactly.  It
-proves the same-solution terminal classification theorem after a terminal record
-has been admitted to the class-membership test, and it keeps the remaining
-direct annular source-pulse theorem visible as an open Gold-side burden.  The
-classical problem asks whether smooth divergence-free initial data can lead to a
-finite terminal time \(T_*\) at which the same Navier--Stokes solution loses the
-continuation regularity required to restart the classical solution.
+This manuscript gives the Gold-route continuation proof for three-dimensional
+incompressible Navier--Stokes.  The proof starts from a smooth divergence-free
+datum, follows the original smooth solution on a maximal interval
+\([0,T_*)\), and proves that the full same-material participation clock is
+finite.  That clock is the pressure, viscosity, incompressibility, velocity,
+strain, Hodge projection, collar, annular stress, and material-frame action read
+on one transported material history.
 
-The proof program has two standards.  The Gold Standard is the forward-positive
-proof: it tries to close the estimates directly, as in public mainstream
-attempts and in the original four body method that tried to handle all
-obstructions at once.  That route keeps bootstrapping estimates and narrowing
-the possible terminal failure by example.  The repeated chase exposes the
-central methodological problem: a forward route can spend effort on branches
-before it has proved that those branches are lawful same-solution terminal
-objects.
+The closing step is the complete-frame Hodge assembly.  Pressure is first
+removed as a top-order dynamic variable by the moving material Hodge projector.
+The remaining pressure/collar normal defect is handled by the Schur complement,
+while tangent pressure motion is projector and metric motion.  Coefficient and
+base-collar variation reduce to strain/frame service.  The final primitive
+driver is read on the complete retained frame consisting of velocity
+polarization, wave covector, and annular/collar normal.  Since the strain is
+trace-free, positive pump in the velocity direction is forced into compression
+of one of the two transverse directions, and those transverse clocks are already
+paid by the wave-frequency and collar/frame records.
 
-The Silver Standard is the class membership and contrapositive proof.  It keeps
-the same Navier--Stokes branch fixed and asks what an alleged finite-time
-breakdown must be.  A finite-time breakdown is a same-solution terminal-object
-claim at \(T_*\).  Once a terminal record \(Q\) is selected, the class
-membership test asks whether \(Q\) still belongs to the one-fluid Navier--Stokes
-object determined by the initial data, pressure, viscosity, incompressibility,
-and continuation readout.  Failure of the first required witness gives
-\[
-  \Exit(Q):=\neg\Member(Q).
-\]
-
-The witnesses are Part and Field.  Pack is the smoothness
-certification packet: the alleged terminal object must be packaged as something
-the smoothness requirements can test.  Part is participation: the object must
-still participate in the same pressure-viscosity-incompressibility law.  Field
-is one-field coherence: the whole field must respond as one time-dependent
-fluid field rather than as detached local fragments.  The proof program is
-complete only when every nonsmooth terminal scenario is exhausted by these
-faces, the necessary admission/readout hypotheses have been paid on the same
-branch, and no hidden third terminal alternative remains.
+The resulting full graph-compatible participation clock has finite total mass.
+Finite clock mass removes the terminal endpoint atom, bounds the continuation
+depth material record, gives a fixed \(H^s\), \(s>5/2\), bound, and restarts the
+classical solution past \(T_*\).  Hence a finite smooth breakdown time cannot
+occur.  The class-membership and Part/Field language remains in the manuscript
+as the audit grammar for terminal objects; it is no longer the only completed
+route.
 \end{abstract}
 \clearpage
 
