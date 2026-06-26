@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-06-26T05:07:20Z'
+  generated_at: '2026-06-26T05:10:10Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -49,18 +49,12 @@ branch_pool:
   pursuit_mode: independent
   candidate_claim: 'Refine the stalled dependency-discharge target global-same-packet-full-material-clock:
     GlobalSamePacketFullClockFromOriginalData.A'
-  creative_move: 'Open a bounded side branch that changes representation but not the
-    theorem target, then compare whether it reduces proof obligations. Keep this as
-    a CM witness bridge: it must land in Silver Part or Field after live-object participation
-    is typed, or pass the outside-CM participation-field/window original-participation
-    audit without spending not Pack_Q as CM exit. Member(Q) is the forward membership
-    predicate. PCTP, SOURCE.NO-PULSE, AWG, TGC, Jump_avg, MSC.BadAC, pressure-strain,
-    and compactness arguments are supplier-only until a bridge license proves witness
-    landing or the resurfacing audit.'
+  creative_move: Open a bounded side branch that changes representation but not the
+    theorem target, then compare whether it reduces proof obligations.
   invention_packet:
     candidate_statement: 'Refine the stalled dependency-discharge target global-same-packet-full-material-clock:
       GlobalSamePacketFullClockFromOriginalData.A'
-    mediating_object: cm_witness_face_bridge_license
+    mediating_object: route_mutation_carrier
     proof_sketch:
     - State the weakest exact claim that would advance `global-same-packet-full-material-clock`
       without expanding the theorem target.
@@ -161,19 +155,13 @@ branch_pool:
   candidate_claim: Mutate the route locally so that packOutOfCMSmoothnessCertification.A
     / OriginalParticipationBeforePackLicensing.A can be pursued without reopening
     the theorem target.
-  creative_move: 'Open a bounded side branch that changes representation but not the
-    theorem target, then compare whether it reduces proof obligations. Keep this as
-    a CM witness bridge: it must land in Silver Part or Field after live-object participation
-    is typed, or pass the outside-CM participation-field/window original-participation
-    audit without spending not Pack_Q as CM exit. Member(Q) is the forward membership
-    predicate. PCTP, SOURCE.NO-PULSE, AWG, TGC, Jump_avg, MSC.BadAC, pressure-strain,
-    and compactness arguments are supplier-only until a bridge license proves witness
-    landing or the resurfacing audit.'
+  creative_move: Open a bounded side branch that changes representation but not the
+    theorem target, then compare whether it reduces proof obligations.
   invention_packet:
     candidate_statement: Mutate the route locally so that packOutOfCMSmoothnessCertification.A
       / OriginalParticipationBeforePackLicensing.A can be pursued without reopening
       the theorem target.
-    mediating_object: cm_witness_face_bridge_license
+    mediating_object: route_mutation_carrier
     proof_sketch:
     - State the weakest exact claim that would advance `pack-out-of-cm-smoothness-certification-audit`
       without expanding the theorem target.
