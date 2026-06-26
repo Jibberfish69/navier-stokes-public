@@ -85,20 +85,20 @@ theorem_surface:
   route_slots:
   - slot_id: global-same-packet-full-material-clock
     label: GlobalSamePacketFullClockFromOriginalData.A
-    kind: live-theorem-frontier
-    status: frontier-open
+    kind: gold-counterpart-frontier
+    status: gold-open-not-silver-blocker
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
     patch_surface: problems/navier-stokes/live-theorem-edge.yaml
   - slot_id: original-smooth-data-material-history-no-finite-breakdown
     label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
-    kind: live-theorem-frontier
-    status: frontier-open
+    kind: gold-counterpart-frontier
+    status: gold-open-not-silver-blocker
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
     patch_surface: problems/navier-stokes/live-theorem-edge.yaml
   - slot_id: pack-out-of-cm-smoothness-certification-audit
     label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
-    kind: live-theorem-frontier
-    status: frontier-open
+    kind: silver-support-repair
+    status: support-installed-not-silver-blocker
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
     patch_surface: problems/navier-stokes/live-theorem-edge.yaml
   authority_layers:
