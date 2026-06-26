@@ -491,13 +491,13 @@ The reframing keeps the original datum, velocity-pressure branch, viscosity, pre
 
 The pass side is conservative.  If Part and Field survive on one selected record, that record remains on the member-continuation side and must be paired with the continuation readout named by the proof.  The fail side is equally concrete.  The argument marks the first failed face:
 \[
-  carrier-window support outside CM,
+  \text{carrier-window support outside CM},
   \qquad
   \neg\Part_{N,Q},
   \qquad
   \Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
-That first Part/Field failure yields
+The carrier-window line records support for admission.  The Part and Field lines yield
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
@@ -573,13 +573,13 @@ Here \(\Pack_Q\) says that \(Q\) has a positive same-fluid carrier.  The stateme
 
 The order matters.  A missing body is the first failure and is recorded before any equation or field question is asked.  A retained body with broken same-law participation has lost the equation needed for the derivative tower to be a Navier--Stokes tower.  A retained body with retained participation reaches the field question, where it can still lose every positive scale of coherent velocity readout.  The terminal alternatives are
 \[
-  carrier-window support outside CM,
+  \text{carrier-window support outside CM},
   \qquad
   \neg\Part_{N,Q},
   \qquad
   \Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
-These alternatives are the proof discipline for the rest of the paper.  A branch may describe a pulse, reserve, jump, weak limit, shear sheet, or Zeno source.  The manuscript counts it as a class-exit contribution only after it names the same-solution record under test and derives one displayed alternative as the first failure.
+These alternatives are the proof discipline for the rest of the paper.  A branch may describe a pulse, reserve, jump, weak limit, shear sheet, or Zeno source.  The manuscript counts it as a class-exit contribution only after it names the same-solution record under test and derives a Part or Field alternative as the first failed membership face.
 
 The annular endpoint shows the order in use.  The point \(r=0\) is too small to be the carrier by itself.  The alleged singularity is witnessed by positive-radius annular fields shrinking toward that point.  Once those annular fields are selected as the terminal record, carrier has been established for that test.  The remaining nonsmooth annular exit is Part or Field.  Pack remains available for no-carrier or pre-admission failure.
 \section{The CM Contrapositive Route}
@@ -598,13 +598,13 @@ The pass line means that the selected record keeps the original datum, the fixed
 The first lost requirement is read in Pack-out-of-CM audited order:
 \[
   \begin{aligned}
-  \text{lost same-fluid carrier} &\longmapsto carrier-window support outside CM,\\
+  \text{lost same-fluid carrier} &\longmapsto \text{carrier-window support outside CM},\\
   \text{lost pressure-viscosity-incompressibility participation} &\longmapsto \neg\Part_{N,Q},\\
   \text{lost positive-scale coherent field readout} &\longmapsto
   \Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
   \end{aligned}
 \]
-The three lines are witness readings of one membership question.  Pack asks whether the selected record is carried by the same fluid body.  Part asks whether the same Navier--Stokes law acts on that body through the finite derivative tower being tested.  Field asks whether the resulting readings still live on one positive scale.
+The three lines are witness readings of one membership question.  Pack asks whether the selected record is carried by the same fluid body and records admission support when it fails.  Part asks whether the same Navier--Stokes law acts on that body through the finite derivative tower being tested.  Field asks whether the resulting readings still live on one positive scale.  The class-exit payment is made by the Part or Field line after carrier admission.
 
 The direct work determines what \(Q\) is.  It may select the transported torus atlas, an exterior-source survivor in \(\mathbb R^3\), a high-frequency tail, a source reserve, or an annular residual branch.  After selection, the silver route holds to that exact record.  For each selected branch, the manuscript shows the record, names the class data it carries, and derives the first Part or Field loss on that record.
 
@@ -683,7 +683,7 @@ The membership direction is
   \quad\Longrightarrow\quad
   \Member(Q;\Owork),
 \]
-with the branch readout attached at the continuation depth selected later in the proof.  The fail side is read by the Field-certification loss of this same certificate.  A loss of carrier is \(carrier-window support outside CM\).  A retained carrier with lost participation is \(\neg\Part_{N,Q}\).  A retained carrier and retained participation with no positive coherent field scale is
+with the branch readout attached at the continuation depth selected later in the proof.  The fail side is read by the Field-certification loss of this same certificate.  A loss of carrier is carrier-window support outside CM.  A retained carrier with lost participation is \(\neg\Part_{N,Q}\).  A retained carrier and retained participation with no positive coherent field scale is
 \[
   \Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
@@ -859,7 +859,7 @@ at a depth \(N_s\) chosen so that the tower controls a finite \(H^s\), \(s>5/2\)
 \]
 then the local \(H^s\) theorem supplies a lifespan \(\tau(\nu,s,M_s)>0\).  Launching from any \(t_j<T_*\) with \(T_*-t_j<\tau/2\) gives a classical solution beyond \(T_*\), and uniqueness on the overlap identifies that relaunch with the original branch.  A genuine finite terminal obstruction must lose the first available face in Pack-out-of-CM audited order:
 \[
-  carrier-window support outside CM,
+  \text{carrier-window support outside CM},
   \qquad
   \neg\Part_{N_s,Q},
   \qquad
@@ -882,8 +882,8 @@ The formal conjunction \(\Part_{N,Q}\wedge\Field_{N,r,Q}\) has many Boolean rows
 \begin{array}{ll}
 \Part_{N,Q}\wedge\Field_{N,r,Q}
   & \text{member-side certificate},\\[1mm]
-carrier-window support outside CM
-  & \text{Field-certification failure},\\[1mm]
+\text{carrier-window support outside CM}
+  & \text{carrier-admission support},\\[1mm]
 \neg\Part_{N,Q}
   & \text{Part-first failure},\\[1mm]
 \Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
@@ -916,13 +916,13 @@ for some \(r>0\), together with the branch readout
 \begin{definition}[Terminal Part/Field-failure witness]
 A terminal Part/Field-failure witness is an admitted same-solution terminal record \(Q\) whose finite obstruction is charged to the first failed face:
 \[
-  carrier-window support outside CM,
+  \text{carrier-window support outside CM},
   \qquad
   \neg\Part_{N,Q},
   \qquad
   \Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
-It is the fail-side witness for \(\Exit(Q;\Owork)\).
+The carrier-window row is support for admission; the Part and Field rows are the fail-side witnesses for \(\Exit(Q;\Owork)\).
 \end{definition}
 
 \begin{proposition}[Exact witness certificate]
