@@ -13,13 +13,13 @@ ContinuationStrengthMaterialClockAtDepth.A. ContinuationStrengthMaterialClockAtD
 
 ## Inventive Search
 
-- mode: inventive-recursive-theorem-solver
+- mode: inventive-hard-boundary-classification
 - external_resources_used: false
 - external_resource_policy: disabled-by-default; external searches may suggest support but may not certify or promote a theorem
 - selected_mechanism: continuation_strength_clock_hard_boundary
 - candidate_count: 1
-- solver_chain_verdict: closed
-- selection_reason: This theorem is the right next move because it changes the proof economy: ContinuationStrengthMaterialClockAtDepth.A is the continuation-grade material record bound at the chosen depth. The moving low-high pressure/strain pump hard-boundary note identifies finite pump work with this same continuation-strength clock. Proving this theorem directly is equivalent to proving the Gold route's remaining continuation estimate; it is not a discharged support anchor, pressure/collar readout, local storage theorem, or smaller noncircular producer. The internal solver also discharged the residual chain through ContinuationStrengthMaterialClockAtDepth.A.
+- solver_chain_verdict: hard_boundary
+- selection_reason: This theorem is the right next move because it changes the proof economy: ContinuationStrengthMaterialClockAtDepth.A is the continuation-grade material record bound at the chosen depth. The moving low-high pressure/strain pump hard-boundary note identifies finite pump work with this same continuation-strength clock. Proving this theorem directly is equivalent to proving the Gold route's remaining continuation estimate; it is not a discharged support anchor, pressure/collar readout, local storage theorem, or smaller noncircular producer. The internal solver stopped at a hard boundary with no smaller promotable residual primitive.
 
 ### Candidate Theorems
 
@@ -31,9 +31,9 @@ ContinuationStrengthMaterialClockAtDepth.A. ContinuationStrengthMaterialClockAtD
 
 ### Recursive Solver Chain
 
-- terminal_verdict: closed
-- reason: The recursive theorem solver reached a terminal mechanism with no remaining residual primitive.
-- depth 0: ContinuationStrengthMaterialClockAtDepth.A via continuation_strength_clock_hard_boundary -> closed
+- terminal_verdict: hard_boundary
+- reason: The recursive theorem solver reached a hard-boundary mechanism: no smaller promotable residual primitive is installed.
+- depth 0: ContinuationStrengthMaterialClockAtDepth.A via continuation_strength_clock_hard_boundary -> hard_boundary
 
 ## Allowed Inputs
 
