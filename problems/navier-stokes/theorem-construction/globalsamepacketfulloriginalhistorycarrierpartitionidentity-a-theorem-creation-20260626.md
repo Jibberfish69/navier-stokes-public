@@ -2,14 +2,14 @@
 
 ## Target
 
-- target obligation: GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive
-- target label: Create the recursive theorem subprimitive GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
+- target obligation: GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.CoreSubprimitive
+- target label: core same-history exclusion of a high-ratio upward birth invisible to annular stress, Hodge/projector coupling, entrance mass, and lower-band carry
 - route role: Differentiate the high-band material energy on the original transported material history. The projected material Navier-Stokes equation partitions the positive high-band birth into lower-band carry, weighted-summable entrance/legal mass, annular Cauchy stress-work, material Hodge/projector motion, and viscous loss. Since viscous loss has the dissipative sign, a positive birth invisible to the other carriers is impossible.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A. Differentiate the high-band material energy on the original transported material history. The projected material Navier-Stokes equation partitions the positive high-band birth into lower-band carry, weighted-summable entrance/legal mass, annular Cauchy stress-work, material Hodge/projector motion, and viscous loss. Since viscous loss has the dissipative sign, a positive birth invisible to the other carriers is impossible. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
+GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A. Differentiate the high-band material energy on the original transported material history. The projected material Navier-Stokes equation partitions the positive high-band birth into lower-band carry, weighted-summable entrance/legal mass, annular Cauchy stress-work, material Hodge/projector motion, and viscous loss. Since viscous loss has the dissipative sign, a positive birth invisible to the other carriers is impossible. This supplies the exact noncircular bridge needed for core same-history exclusion of a high-ratio upward birth invisible to annular stress, Hodge/projector coupling, entrance mass, and lower-band carry.
 
 ## Inventive Search
 
@@ -19,20 +19,15 @@ GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A. Differentiate the
 - selected_mechanism: full_same_material_high_band_carrier_partition_identity
 - candidate_count: 1
 - solver_chain_verdict: closed
-- selection_reason: This theorem is the right next move because it changes the proof economy: Differentiate the high-band material energy on the original transported material history. The projected material Navier-Stokes equation partitions the positive high-band birth into lower-band carry, weighted-summable entrance/legal mass, annular Cauchy stress-work, material Hodge/projector motion, and viscous loss. Since viscous loss has the dissipative sign, a positive birth invisible to the other carriers is impossible. It is source-backed by 8 local ingredient(s). The internal solver also discharged the residual chain through GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A.
+- selection_reason: This theorem is the right next move because it changes the proof economy: Differentiate the high-band material energy on the original transported material history. The projected material Navier-Stokes equation partitions the positive high-band birth into lower-band carry, weighted-summable entrance/legal mass, annular Cauchy stress-work, material Hodge/projector motion, and viscous loss. Since viscous loss has the dissipative sign, a positive birth invisible to the other carriers is impossible. The internal solver also discharged the residual chain through GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A.
 
 ### Candidate Theorems
 
-- GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A (full_same_material_high_band_carrier_partition_identity; score=98)
+- GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A (full_same_material_high_band_carrier_partition_identity; score=116)
 
 ### Retrieved Ingredients
 
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/theorem-packet.yaml -- installed dynamic support
-- problems/navier-stokes/agent-contract.yaml:245 -- installed dynamic support
+- none
 
 ### Recursive Solver Chain
 
@@ -48,8 +43,8 @@ GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A. Differentiate the
 ## Forbidden Imports
 
 - GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A
-- Create the recursive theorem subprimitive GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
-- GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.Subprimitive
+- core same-history exclusion of a high-ratio upward birth invisible to annular stress, Hodge/projector coupling, entrance mass, and lower-band carry
+- GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.CoreSubprimitive
 - full-MPP closure
 - submission readiness
 - global smoothness
@@ -60,7 +55,6 @@ GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A. Differentiate the
 2. Differentiate it along the original material history.
 3. Use the projected material Navier-Stokes equation to partition every term into lower-band carry, entrance/legal mass, annular stress, Hodge/projector motion, or viscous loss.
 4. Conclude that the positive birth measure is dominated by those carriers; the invisible remainder is zero.
-5. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 
 ## Circularity Audit
 
