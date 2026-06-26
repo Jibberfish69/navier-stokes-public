@@ -139,11 +139,11 @@ It does not close the finite-action theorem:
 ```math
 \text{material Hodge orthogonality}
 \not\Rightarrow
-\int_0^{T_*}d\Omega_N^{PLS,full}<\infty.
+\int_0^{T_*}d\Omega_N^{full}<\infty.
 \tag{HSA.10}
 ```
 
-Here the legacy symbol \(d\Omega_N^{PLS,full}\) denotes the full
+Here the legacy symbol \(d\Omega_N^{full}\) denotes the full
 same-material action measure.
 
 Therefore the Hodge sign option is not the missing one-way mechanism.  The

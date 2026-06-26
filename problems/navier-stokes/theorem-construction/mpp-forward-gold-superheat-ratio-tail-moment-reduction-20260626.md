@@ -18,7 +18,7 @@ source_surfaces:
 # Superheat Ratio Tail Moment Reduction
 
 Terminology guard.  The current object is finite full same-material action.
-Older wording such as "PLS clock" or "full clock" is a legacy alias, not a
+Older wording such as "full same-material action" or "full clock" is a legacy alias, not a
 separate producer or target.
 
 This note rewrites the remaining one-way superheat material residence in its

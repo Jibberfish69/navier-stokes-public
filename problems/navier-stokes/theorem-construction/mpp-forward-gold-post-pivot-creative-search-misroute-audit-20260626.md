@@ -7,7 +7,7 @@ route: forward-gold
 source_surfaces:
   - problems/navier-stokes/creative-theorem-search.yaml
   - problems/navier-stokes/dependency-discharge.yaml
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-exhaustive-full-pls-clock-pivot-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-exhaustive-full-same-material-action-pivot-20260626.md
 ---
 
 # Forward Gold Post-Pivot Creative Search Misroute Audit
