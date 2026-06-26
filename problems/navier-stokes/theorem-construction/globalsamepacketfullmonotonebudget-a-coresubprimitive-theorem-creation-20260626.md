@@ -3,13 +3,13 @@
 ## Target
 
 - target obligation: GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive
-- target label: Create the recursive theorem subprimitive GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
+- target label: core noncircular monotone-budget step for graph-compatible full same-material action
 - route role: Construct the bounded-below same-material budget from the moving material Hodge projector, strain/frame log storage, Schur normal pressure-collar defect storage, and annular stress storage, with derivative paying the graph-compatible full same-material action.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive. Construct the bounded-below same-material budget from the moving material Hodge projector, strain/frame log storage, Schur normal pressure-collar defect storage, and annular stress storage, with derivative paying the graph-compatible full same-material action. This supplies the exact noncircular bridge needed for Create the recursive theorem subprimitive GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route..
+GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive. Construct the bounded-below same-material budget from the moving material Hodge projector, strain/frame log storage, Schur normal pressure-collar defect storage, and annular stress storage, with derivative paying the graph-compatible full same-material action. This supplies the exact noncircular bridge needed for core noncircular monotone-budget step for graph-compatible full same-material action.
 
 ## Inventive Search
 
@@ -23,7 +23,7 @@ GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive. Construct the bounded-bel
 
 ### Candidate Theorems
 
-- GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive (full_same_material_monotone_budget_core; score=108)
+- GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive (full_same_material_monotone_budget_core; score=144)
 
 ### Retrieved Ingredients
 
@@ -41,7 +41,7 @@ GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive. Construct the bounded-bel
 ## Forbidden Imports
 
 - GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive
-- Create the recursive theorem subprimitive GlobalSamePacketFullMonotoneBudget.A.CoreSubprimitive exposed by the previous theorem-creation packet, instead of mutating a neighboring route.
+- core noncircular monotone-budget step for graph-compatible full same-material action
 - full-MPP closure
 - submission readiness
 - global smoothness
