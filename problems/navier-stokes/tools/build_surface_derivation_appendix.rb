@@ -300,7 +300,14 @@ def face_summary(entries)
     faces = Array(entry["cm_part_field_question_breaks"]).map(&:to_s).reject(&:empty?)
     faces.empty? ? "no independent Part/Field face" : faces_tex(faces.sort)
   end
-  count_summary(labels, empty: "no independent Part/Field face")
+  counts = labels.map(&:strip).reject(&:empty?).group_by(&:itself).transform_values(&:length)
+  return "no independent Part/Field face" if counts.empty?
+
+  listed = counts.sort_by { |value, count| [-count, value] }.first(14)
+  rendered = listed.map { |value, count| "#{value} (#{count})" }
+  remaining = counts.length - listed.length
+  rendered << "#{remaining} further mechanism#{remaining == 1 ? '' : 's'}" if remaining.positive?
+  rendered.join("; ")
 end
 
 now = Time.now.utc.iso8601
