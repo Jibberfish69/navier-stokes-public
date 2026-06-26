@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   artifact_id: theorem-crank-navier-stokes
-  generated_at: '2026-06-26T06:48:29Z'
+  generated_at: '2026-06-26T06:51:48Z'
   generator: system/runner/lib/theorem_crank_builder.rb
 shared_alignment:
   status: aligned
@@ -89,6 +89,18 @@ cross_lane_broadcast:
   status: publish-local-delta
   local_consequence_count: 8
   local_consequences:
+  - label: GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A. Differentiate
+      the high-band material energy on the original transported material history.
+      The projected material Navier-Stokes equation partitions the positive high-band
+      birth into lower-band carry, weighted-summable entrance/legal mass, annular
+      Cauchy stress-work, material Hodge/projector motion, and viscous loss. Since
+      viscous loss has the dissipative sign, a positive birth invisible to the other
+      carriers is impossible. This supplies the exact noncircular bridge needed for
+      the no-uncharged-high-ratio-birth theorem.
+    kind: lemma
+    status: localized-support
+    origin: local
+    source_anchor: problems/navier-stokes/theorem-construction/globalsamepacketfulloriginalhistorycarrierpartitionidentity-a-theorem-creation-20260626.md
   - label: 'ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve
       surplus with zero first moment cannot remain hidden: the signed-pair normal
       form either exposes same-ledger active height flux, pays by ASAC / positive
@@ -156,14 +168,6 @@ cross_lane_broadcast:
     status: localized-support
     origin: local
     source_anchor: problems/navier-stokes/theorem-construction/parabolicedgeresistance-a-theorem-creation-20260506.md
-  - label: RetainedFaceAmplitudeGain.A. Any retained field-face amplitude gain admissible
-      for the CM contrapositive route is recorded first as a Pack_Q gain event and
-      transported through Part_{N,Q} without importing Field_{N,r,Q} or Member(Q)
-      as a premise.
-    kind: lemma
-    status: localized-support
-    origin: local
-    source_anchor: problems/navier-stokes/theorem-construction/retainedfaceamplitudegain-a-theorem-creation-20260506.md
   broadcast_paths:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/proof-assembly.yaml
@@ -222,5 +226,5 @@ summary:
   audit_status: audited-needs-fix
   branch_terminal_status: terminal-audit-open
   unresolved_branch_terminal_count: 0
-  current_next_cell_type: solver-loop
+  current_next_cell_type: dependency-discharge
   current_next_cell_is_theorem_work: true
