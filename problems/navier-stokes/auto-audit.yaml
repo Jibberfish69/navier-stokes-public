@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-06-26T09:18:28Z'
+  audited_at: '2026-06-26T09:24:20Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
   current_package_status: referee-blocked-cm-contrapositive
@@ -310,30 +310,6 @@ issues:
     subprimitive rather than a generated core placeholder.
   details:
     placeholder_entries:
-    - artifact: theorem_creation
-      path: problems/navier-stokes/theorem-creation.yaml
-      location: theorem_creation.solver_verdict.next_subprimitive
-      primitive_id: GlobalSamePacketFullHistoryStorageLowerBound.A.CoreSubprimitive
-      label: core original-history lower-bound construction for the good-lambda contraction
-      subprimitive_class: ''
-    - artifact: theorem_creation
-      path: problems/navier-stokes/theorem-creation.yaml
-      location: theorem_creation.proof_object.direct_residual_gap
-      primitive_id: GlobalSamePacketFullHistoryStorageLowerBound.A.CoreSubprimitive
-      label: core original-history lower-bound construction for the good-lambda contraction
-      subprimitive_class: ''
-    - artifact: theorem_creation
-      path: problems/navier-stokes/theorem-creation.yaml
-      location: theorem_creation.invention.selected_candidate.residual_gap
-      primitive_id: GlobalSamePacketFullHistoryStorageLowerBound.A.CoreSubprimitive
-      label: core original-history lower-bound construction for the good-lambda contraction
-      subprimitive_class: ''
-    - artifact: theorem_creation
-      path: problems/navier-stokes/theorem-creation.yaml
-      location: theorem_creation.invention.selected_candidate.direct_residual_gap
-      primitive_id: GlobalSamePacketFullHistoryStorageLowerBound.A.CoreSubprimitive
-      label: core original-history lower-bound construction for the good-lambda contraction
-      subprimitive_class: ''
     - artifact: creative_theorem_search
       path: problems/navier-stokes/creative-theorem-search.yaml
       location: creative_theorem_search.selected_branch
