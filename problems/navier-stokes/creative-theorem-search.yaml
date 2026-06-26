@@ -4,7 +4,7 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   search_id: creative-theorem-search-navier-stokes
-  generated_at: '2026-06-26T06:45:47Z'
+  generated_at: '2026-06-26T06:56:57Z'
   generator: system/runner/lib/creative_theorem_search_builder.rb
   source_frontier_id: source-frontier-navier-stokes
   source_theorem_packet_id: theorem-packet-navier-stokes
@@ -37,30 +37,32 @@ sandbox:
 branch_pool:
 - &1
   branch_id: creative-branch-navier-stokes-1
-  origin_obligation_id: GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A
+  origin_obligation_id: GlobalSamePacketFullWeightBeatingTail.A
   origin_kind: proof-dependency
-  parent_obligation_id: GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A
-  parent_label: Prove no uncharged high-ratio upward birth on one transported material
-    history.
+  parent_obligation_id: global-same-packet-full-material-clock
+  parent_label: GlobalSamePacketFullClockFromOriginalData.A
   root_target_obligation_id: global-same-packet-full-material-clock
   root_target_label: GlobalSamePacketFullClockFromOriginalData.A
-  source_class: theorem-creation-next-subprimitive
+  source_class: stalled-full-action-frontier-bridge
   source_status: needs-theorem-creation
   branch_type: bridge-lemma
   pursuit_mode: co-dependent
-  candidate_claim: Prove the original-history high-band carrier partition identity.
+  candidate_claim: Prove the weight-beating ratio-tail law for the original transported
+    full same-material action.
   creative_move: Search for the missing mediating object or bounded inequality that
     makes the implication local and testable.
   invention_packet:
-    candidate_statement: Prove the original-history high-band carrier partition identity.
-    mediating_object: original_history_high_band_carrier_partition
+    candidate_statement: Prove the weight-beating ratio-tail law for the original
+      transported full same-material action.
+    mediating_object: original_history_weight_beating_tail
     proof_sketch:
-    - Differentiate the high-band material energy on the original transported history.
-    - Insert the material Navier-Stokes equation after applying the moving Hodge projector.
-    - Assign each term to lower-band carry, entrance/legal mass, annular Cauchy stress-work,
-      Hodge/projector motion, or viscous loss.
-    - Use the sign of viscous loss to show positive high-band birth cannot remain
-      outside the listed carriers.
+    - Work on the ratio-tail readout of the original transported material history.
+    - Use the material-rate/heat-rate ratio to state the weighted tail law equivalent
+      to finite full same-material action.
+    - Allow only a good-lambda recurrence with contraction or an equivalent bounded-below
+      same-material storage as the next subprimitive.
+    - Reject source-remainder, viscosity-only, pressure-only, endpoint-only, and stale
+      proxy replacements.
     falsification_checks:
     - Does the move preserve the frozen theorem target rather than redefining it?
     - Can the candidate be stated on already-grounded objects without importing a
@@ -75,7 +77,7 @@ branch_pool:
   - clay-cm-contrapositive-witness-consumption
   - cm-part-ontology-witness-notation-correction
   - torus-global-material-atlas-terminal-capture
-  - GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A
+  - GlobalSamePacketFullWeightBeatingTail.A
   risk_level: medium-low
   notes:
   - This branch is the live recursive subprimitive from theorem-creation; keep it
@@ -84,11 +86,10 @@ branch_pool:
   - Use the weakest sufficient move; do not inflate the theorem target.
   recommended_next_cell_type: theorem-creation
   recommended_next_action: 'Creative theorem search selected the live theorem-creation
-    subprimitive `GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A`.
-    Run theorem-creation on that exact recursive proof burden instead of replaying
-    route mutation: GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A:
-    high-band material energy birth partitions into lower-band carry, entrance/legal
-    mass, annular stress, Hodge/projector motion, and viscous loss.'
+    subprimitive `GlobalSamePacketFullWeightBeatingTail.A`. Run theorem-creation on
+    that exact recursive proof burden instead of replaying route mutation: GlobalSamePacketFullWeightBeatingTail.A:
+    weight-beating ratio-tail law for the original transported full same-material
+    action.'
   merge_policy: quarantined-until-promoted
 - branch_id: creative-branch-navier-stokes-2
   origin_obligation_id: global-same-packet-full-material-clock
@@ -97,17 +98,17 @@ branch_pool:
   parent_label: GlobalSamePacketFullClockFromOriginalData.A
   root_target_obligation_id: global-same-packet-full-material-clock
   root_target_label: GlobalSamePacketFullClockFromOriginalData.A
-  source_class: stalled-dependency-discharge-target
+  source_class: ''
   source_status: frontier-open
   branch_type: route-mutation
   pursuit_mode: independent
-  candidate_claim: 'Refine the stalled dependency-discharge target global-same-packet-full-material-clock:
-    GlobalSamePacketFullClockFromOriginalData.A'
+  candidate_claim: Mutate the route locally so that globalSamePacketFullClockFromOriginalData.A
+    can be pursued without reopening the theorem target.
   creative_move: Open a bounded side branch that changes representation but not the
     theorem target, then compare whether it reduces proof obligations.
   invention_packet:
-    candidate_statement: 'Refine the stalled dependency-discharge target global-same-packet-full-material-clock:
-      GlobalSamePacketFullClockFromOriginalData.A'
+    candidate_statement: Mutate the route locally so that globalSamePacketFullClockFromOriginalData.A
+      can be pursued without reopening the theorem target.
     mediating_object: route_mutation_carrier
     proof_sketch:
     - State the weakest exact claim that would advance `global-same-packet-full-material-clock`
@@ -138,10 +139,10 @@ branch_pool:
   notes:
   - This branch starts at the first unresolved frontier.
   - This branch is machine-derived beyond the current frozen core.
-  recommended_next_cell_type: theorem-creation
-  recommended_next_action: Creative theorem search kept the stalled dependency target
-    `global-same-packet-full-material-clock`. Run theorem-creation on that exact obstruction
-    instead of mining adjacent source-wall atoms.
+  recommended_next_cell_type: dependency-discharge
+  recommended_next_action: Creative theorem search selected `global-same-packet-full-material-clock`.
+    Use the invention packet to ground a new explicit bridge for GlobalSamePacketFullClockFromOriginalData.A
+    through dependency-discharge.
   merge_policy: quarantined-until-promoted
 - branch_id: creative-branch-navier-stokes-3
   origin_obligation_id: original-smooth-data-material-history-no-finite-breakdown
@@ -251,11 +252,10 @@ branch_pool:
     / OriginalParticipationBeforePackLicensing.A through dependency-discharge.
   merge_policy: quarantined-until-promoted
 candidate_archive:
-- origin_obligation_id: GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A
+- origin_obligation_id: GlobalSamePacketFullWeightBeatingTail.A
   origin_kind: proof-dependency
-  label: 'GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A: high-band
-    material energy birth partitions into lower-band carry, entrance/legal mass, annular
-    stress, Hodge/projector motion, and viscous loss'
+  label: 'GlobalSamePacketFullWeightBeatingTail.A: weight-beating ratio-tail law for
+    the original transported full same-material action'
   status: needs-theorem-creation
   promoted_into_branch_pool: true
 - origin_obligation_id: global-same-packet-full-material-clock
