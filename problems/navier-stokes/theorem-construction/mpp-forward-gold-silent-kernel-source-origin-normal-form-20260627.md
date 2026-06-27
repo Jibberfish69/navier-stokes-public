@@ -22,8 +22,7 @@ f=\mathcal L_A w,
 \qquad
 w|_{\partial A}=0,
 \qquad
-\partial_{
-u_A}w|_{\partial A}=0.
+\partial_{\nu_A}w|_{\partial A}=0.
 ```
 
 Such a source can be invisible to the parent Schur trace. Therefore the right question is not whether the boundary detects every interior source. It does not.
@@ -41,8 +40,7 @@ Define the silent source class
 ```math
 \mathcal K_{sil}
 :=
-\left\{f:\ f=\mathcal L_A w,\ w|_{\partial A}=0,\ \partial_{
-u_A}w|_{\partial A}=0\right\}.
+\left\{f:\ f=\mathcal L_A w,\ w|_{\partial A}=0,\ \partial_{\nu_A}w|_{\partial A}=0\right\}.
 ```
 
 The desired source-origin normal form is the dichotomy
