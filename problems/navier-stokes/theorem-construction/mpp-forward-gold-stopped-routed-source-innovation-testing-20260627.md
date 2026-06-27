@@ -47,8 +47,8 @@ testing and Carleson packing on retained subpackets:
 
 ```math
 \|T_S(b_P\nu^S)\|_{L^2(P,\mathcal R)}^2
-\operatorname{Def}_{test}(P)
-\operatorname{Mean}_{test}(P)
++\operatorname{Def}_{test}(P)
++\operatorname{Mean}_{test}(P)
 \le
 C\mathcal R(P)+C R_{legal}(P)+C Stop(P).
 \tag{1}
@@ -117,7 +117,7 @@ admits a decomposition `(2)`--`(3)` and accretive tests \(b_P\) such that:
 ```math
 \sum_{Q\subset P}
 \|T_S d\nu_Q^S\|_{L^2(Q,\mathcal R)}^2
-\|\nu_{stop/legal}^S\|_{test(P)}^2
++\|\nu_{stop/legal}^S\|_{test(P)}^2
 \le
 C(u_0)\mathcal R(P)
 +C R_{legal}(P)
