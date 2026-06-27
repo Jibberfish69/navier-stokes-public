@@ -9,7 +9,7 @@ attacks_hinge:
   - FreshPotentialAverageKillAndPositiveTransfer.A
   - CriticalWeightedResetBVFromOriginalHistory.A
   - LogScaleResetDerivativeCarrierBound.A
-  - PersistentRootAffineQuientReturnPayment.A
+  - PersistentRootAffineQuotientReturnPayment.A
   - OriginalHistorySelectedAmplificationBV.A
   - OriginalHistoryHilbertBMOProducer.A
 source_surfaces:
