@@ -23,9 +23,9 @@ effect: >-
   Repeated same-channel reuse has decreasing leverage; fresh directions are
   orthogonal; changed reuse is reset/geometry motion already reduced to E_route.
   This proves the algebraic Bellman telescope once selected new action is admitted
-  as leverage-dominated.  Partial, not Gold closed: the remaining PDE admission
-  theorem is that retained selected action before readout is bounded by this
-  parent-known leverage plus legal/terminal stop/reset terms.
+  as stress-realized leverage.  Partial, not Gold closed: the remaining PDE
+  admission theorem is that retained selected action before readout is bounded by
+  this parent-known realized leverage plus legal/terminal stop/reset terms.
 ---
 
 # Effective-Resistance Bellman Capacity Realization
