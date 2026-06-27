@@ -198,7 +198,7 @@ Therefore the corrected conditional theorem is:
 ```math
 \boxed{
 \text{ParentSubtractedActiveWeightCarlesonEmbedding.A}
-\ \text{relative to}\ 
+\ \text{relative to}\
 \text{ScaleCriticalStoppedFrameCarlesonEmbedding.A}
 }
 \tag{13}
