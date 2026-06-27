@@ -1,13 +1,14 @@
 ---
 theorem_id: forward-gold-selected-density-martingale-square-function-governing-edge-20260627
-status: governing-edge-realigned-to-selected-density-martingale-square-function-open
+status: governing-edge-realigned-to-stopped-selected-log-amplification-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / critical half-tail exclusion
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 governing_hinge:
-  - SelectedDensityMartingaleSquareFunctionCarleson.A
   - OriginalHistorySelectedLogAmplificationCarleson.A
+  - StoppedSelectorCorrectHilbertBMOProducer.A
+  - SelectedDensityMartingaleSquareFunctionCarleson.A
   - SelectedDensityEntropyRootBound.A
 support_hinges:
   - SilentInteriorSourceOriginNormalForm.A
@@ -27,23 +28,24 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-origin-to-record-return-overrun-dichotomy-20260627.md
 edge_effect: >-
   Promotes the selected-density martingale / entropy estimate to the governing
-  Gold edge. The record/return and reset/overrun split remains as proof
-  mechanism, but it is no longer the top theorem statement. The top theorem is
-  the original-history square-function/entropy Carleson bound for the selected
-  density on the retained same-material laminar tree. Silent-source
-  classification supplies the missing local normal form: boundary-flat
-  pressure-Hodge material is unselected, or selected-but-paid by top-strain
-  exchange/material service.
+  Gold edge, with the theorem-grade form corrected to stopped selected
+  log-amplification / BMO square-function control. Additive selected-density
+  jump control is a consequence. The record/return and reset/overrun split
+  remains as proof mechanism under this theorem, not the top theorem statement.
+  Silent-source classification supplies the missing local normal form:
+  boundary-flat pressure-Hodge material is unselected, or selected-but-paid by
+  top-strain exchange/material service.
 downstream_consequence: >-
   Relay and goal-loop surfaces should not reselect pressure observability, raw
   capacity, endpoint atom exclusion, or the record/return-vs-reset split as the
   global producer. They are support or proof mechanisms. The current proof
-  object is SelectedDensityMartingaleSquareFunctionCarleson.A, with source-origin
-  normal form as the local invisible-source classification needed to prove the
-  square-function increments.
+  object is OriginalHistorySelectedLogAmplificationCarleson.A / StoppedSelectorCorrectHilbertBMOProducer.A,
+  with source-origin normal form as the local invisible-source classification
+  needed to construct the stopped lifted carrier and then derive the
+  square-function / entropy consequence.
 ---
 
-# Selected-Density Martingale Square-Function Governing Edge
+# Selected-Density Martingale / Log-Amplification Governing Edge
 
 ## 1. The object
 
@@ -68,12 +70,56 @@ critical action is not:
 ```
 
 So the current Gold edge is not pressure observability, raw capacity, or
-terminal atom exclusion alone. It is the selected-density square-function /
-entropy estimate that forbids this half-tail.
+terminal atom exclusion alone. It is stopped selected log-amplification control
+for the same-material tree. The selected-density square-function and entropy
+estimates are the martingale consequences of that control.
 
 ## 2. Governing theorem
 
-The theorem should be stated as:
+The theorem-grade form should be stated as:
+
+```text
+OriginalHistorySelectedLogAmplificationCarleson.A
+```
+
+On each stopped same-material interval \(S\), construct an original-history
+lifted carrier
+
+```math
+Z^S
+=
+Z^S_{vis}\oplus Z^S_{sil}\oplus Z^S_{ex}
+```
+
+and paid defects \(e_Q^S\) such that
+
+```math
+\log {f_Q\over f_{\operatorname{par}(Q)}}
+=
+\ell_Q(\Delta_QZ^S)-\psi_Q+e_Q^S,
+```
+
+with the root Carleson bound
+
+```math
+\boxed{
+\sup_{P'\subseteq P}
+{1\over\mathcal R(P')}
+\left[
+\sum_{S\subseteq P'}
+\sum_{Q\subseteq S}
+\left(
+\|\Delta_QZ^S\|_{\mathcal H_{vis}\oplus\mathcal H_{sil}\oplus\mathcal H_{ex}}^2
++|e_Q^S|^2
+\right)\mathcal R(Q)
++{\rm Stop}(P')
+\right]
+\le
+C_N(u_0)+{R_{\rm legal}(P')\over\mathcal R(P')}.
+}
+```
+
+The additive square-function theorem is then the consequence:
 
 ```text
 SelectedDensityMartingaleSquareFunctionCarleson.A
@@ -112,8 +158,10 @@ or
 \le C_N(u_0)+R_{\rm legal}(Q_0).
 ```
 
-Any one of these kills the critical half-tail and gives the selected
-first-ratio action bound.
+Any one of these consequences kills the critical half-tail and gives the
+selected first-ratio action bound. The live PDE work is the stopped
+log-amplification carrier construction and root bound, not the abstract
+martingale consumer step.
 
 ## 3. The local increment estimate
 
@@ -183,7 +231,9 @@ A_{\rm sel}(Q)
 +R_Q^{legal}.
 ```
 
-For the martingale theorem, the needed sharpened local step is the jump form:
+For the stopped log-amplification theorem, the needed sharpened local step is
+the log-ratio carrier form. The additive jump form below is a useful
+consequence and pressure test:
 
 ```math
 \boxed{
@@ -299,14 +349,14 @@ CriticalWeightedParentChildResetCarleson.A
 Both are now subordinate to one governing theorem:
 
 ```text
-SelectedDensityMartingaleSquareFunctionCarleson.A.
+OriginalHistorySelectedLogAmplificationCarleson.A.
 ```
 
 ## 6. Closure relay
 
-If the square-function theorem holds, then standard martingale good-lambda /
-John--Nirenberg / reverse-Holder machinery gives selected-density uniform
-integrability:
+If the stopped log-amplification square-function theorem holds, then standard
+martingale good-lambda / John--Nirenberg / reverse-Holder machinery gives
+selected-density uniform integrability:
 
 ```math
 \rho_{\rm sel}\in L^{1+\varepsilon}(d\mathcal R).
@@ -350,17 +400,15 @@ The source-origin normal form supplies the local classification:
 invisible source = unselected, or selected-but-paid.
 ```
 
-The open theorem is to turn that packet classification into the martingale
-increment bound on the retained material tree:
+The open theorem is to turn that packet classification into the stopped
+log-amplification carrier representation on the retained material tree:
 
 ```math
-|\Delta_Q\rho_{\rm sel}|^2\mathcal R(Q)
-\lesssim
-\langle U_Q,\mathsf S_QU_Q\rangle
-+\mathcal E_Q^{top\text{-}ex}
-+\mathcal S_Q^{mat}
-+R_Q^{legal},
+\log {f_Q\over f_{\operatorname{par}(Q)}}
+=
+\ell_Q(\Delta_QZ^S)-\psi_Q+e_Q^S,
 ```
 
-and then prove that the right side is Carleson from the original material
-history. That is the current leading edge.
+and then prove the root Carleson bound for \(\Delta_QZ^S\), the defects, and
+the stop/reselection entropy from the original material history. That is the
+current leading edge.
