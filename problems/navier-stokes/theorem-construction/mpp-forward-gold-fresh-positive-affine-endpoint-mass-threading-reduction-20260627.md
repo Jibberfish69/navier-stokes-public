@@ -1,34 +1,91 @@
+---
+theorem_id: forward-gold-fresh-positive-affine-endpoint-mass-threading-reduction-20260627
+status: conditional-reduction-sharpens-fresh-producer-to-positive-endpoint-threading-open
+created: 2026-06-27
+problem: navier-stokes
+route: forward-gold terminal full-packet / fresh positive endpoint producer
+logical_landing_node: TerminalFullPacketNoResiduePayment.A
+attacks_hinge:
+  - TerminalFullPacketNoResiduePayment.A
+  - FreshPotentialAverageKillAndPositiveTransfer.A
+  - FreshPositiveStressSecondOrderExactness.A
+refined_hinge:
+  - FreshPositiveAffineEndpointMassKill.A
+  - FreshMuNCarlesonEndpointThreading.A
+  - FreshEndpointMassShellPairThreading.A
+  - FreshTerminalNuNWindowSeedSynchronization.A
+source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-full-packet-fresh-potential-producer-reconciliation-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-paired-carrier-der-aqk-potential-average-boundary-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-retained-potential-average-positive-transfer-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-retained-positive-affine-endpoint-mass-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-retained-mun-carleson-endpoint-threading-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-retained-endpoint-mass-shell-pair-threading-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-endpoint-mass-from-shell-pair-commutator-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-positive-stress-signed-exactness-transfer-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-positive-endpoint-stress-observability-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-direct-finite-band-bilinear-8j11-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-terminal-finite-collar-seed-to-interval-control-proof-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-terminal-nun-window-seed-synchronization-direct-attempt-20260609.md
+---
+
 # Fresh positive affine endpoint-mass threading reduction
 
 Status: conditional reduction, not a closure.
 
 ## Governing parent
 
-The governing Gold hinge remains:
+The governing Gold hinge remains
 
-\[
+```math
 \texttt{TerminalFullPacketNoResiduePayment.A}.
-\]
+```
 
-The fresh-potential branch is only a concrete producer under the unweighted same-carrier visible-readout branch. It does not replace the full-packet no-residue theorem.
+The fresh-potential branch is a concrete producer under the unweighted
+same-carrier visible-readout branch. It does not replace the full-packet
+no-residue theorem.
 
-## Checked branch
+## What the previous fresh note exposed
 
-The current concrete branch is:
+The fresh DER/AQK note reduced the fresh paired-carrier producer to the affine
+quotient
 
-\[
-\texttt{FreshPotentialAverageKillAndPositiveTransfer.A}
-\]
+```math
+c_F^{fresh}
+=
+A_\kappa M_0^{fresh}
++
+B_\kappa M_1^{fresh},
+```
 
-or equivalently
+where
 
-\[
-\texttt{FreshPositiveStressSecondOrderExactness.A}.
-\]
+```math
+M_0^{fresh}(t,x)
+=
+\int_J \widetilde Z^{fresh}(\sigma,t,x)\,d\sigma,
+\qquad
+M_1^{fresh}(t,x)
+=
+\int_J \sigma \widetilde Z^{fresh}(\sigma,t,x)\,d\sigma .
+```
 
-The installed signed scale descent gives only first-order exactness before positivity:
+The target AQK estimate is
 
-\[
+```math
+\int_0^{T^*} H_w(t)\|c_F^{fresh}(t)\|_{L_x^2}^2\,dt
+\le
+{\eta\nu\over C}\int_0^{T^*}D_N(t)\,dt
++
+C_*2^{-2\delta N}
++
+R_{legal}.
+\tag{AQK-fresh}
+```
+
+The installed signed scale descent supplies only first-order exactness:
+
+```math
 Y^{fresh}
 =
 \partial_\sigma\Psi^{fresh}
@@ -36,136 +93,208 @@ Y^{fresh}
 S^{spill}
 +
 E .
-\]
+```
 
-After the positive-source extraction, the surviving obstruction is the scale-average potential
+Pairing this against the affine quotient weight leaves the scale-average
+potential
 
-\[
-\mathcal P_{avg}^{fresh}
+```math
+\mathcal P_{avg}^{fresh}(t)
 =
-|J|^{-1}\int_J\Psi^{fresh}\,d\sigma .
-\]
+|J|^{-1}\int_J\Psi^{fresh}(\sigma,t)\,d\sigma .
+```
 
-The needed fresh AQK estimate is:
+So the signed branch is one scale derivative short unless it proves both a
+weighted kill of this potential average and a signed-to-positive transfer to
+the nonnegative fresh stress source.
 
-\[
-\int H_w\|c_F^{fresh}\|_2^2
+## Retained-source audit
+
+The retained direct attempts decide the correct branch order.
+
+First, the potential-average route is not a hidden closure. The retained
+potential-average attempt records that ordinary gauge normalization does not
+kill the affine survivor, Poincare control spends the signed source square, and
+no installed theorem transfers signed first-order exactness to the positive
+endpoint stress carrier.
+
+Second, positivity does give a real shrinkage. On the positive carrier,
+
+```math
+0\le c_F^{fresh}(t,x)
 \le
-{\eta\nu\over C}\int D_N
+{|J|\over |I|}M_0^{fresh}(t,x),
+```
+
+with
+
+```math
+M_0^{fresh}(t,x)
+=
+\int_J \widetilde Z^{fresh}(\sigma,t,x)\,d\sigma,
+\qquad
+\widetilde Z^{fresh}\ge0 .
+```
+
+Thus the positive branch asks for the fresh weighted endpoint theorem
+
+```math
+\int_0^{T^*} H_w(t)\|M_0^{fresh}(t)\|_{L_x^2}^2\,dt
+\le
+{\eta\nu\over C}\int_0^{T^*}D_N(t)\,dt
 +
 C_*2^{-2\delta N}
 +
-R_{\rm legal}.
-\]
+R_{legal}.
+\tag{EP-fresh}
+```
 
-At the affine quotient level,
+This is the sharper positive-native producer for AQK. It is still open.
 
-\[
-c_F^{fresh}
-=
-A_\kappa M_0^{fresh}
-+
-B_\kappa M_1^{fresh}.
-\]
+## Why endpoint mass is not already paid
 
-The positive-carrier order gives the same reduction as the retained branch:
+The retained endpoint-mass notes show four nonclosed routes.
 
-\[
-0\le c_F^{fresh}
-\le
-{|J|\over |I|}\,M_0^{fresh}.
-\]
+### 1. Shell-pair commutator threading
 
-Therefore the branch reduces to the weighted endpoint theorem
+The absorbed shell-pair packet has signed commutator structure and lands on
 
-\[
-\int H_w\|M_0^{fresh}\|_2^2
-\le
-{\eta\nu\over C}\int D_N
-+
-C_*2^{-2\delta N}
-+
-R_{\rm legal}.
-\]
+```math
+\varepsilon\nu D_N(t)+\mu_N(t),
+\qquad
+d\mu_N(t)=\widetilde\Lambda_N^\sharp(t)E_N(t)\,dt .
+```
 
-## Moment equation
+The endpoint mass is the nonnegative accumulated stress source
 
-The positive affine moments satisfy the exact fresh analogue of the retained moment law:
+```math
+M_0^{fresh}(t)=\int_J\widetilde Z^{fresh}(\sigma,t)\,d\sigma .
+```
 
-\[
-\partial_tM_q^{fresh}
--
-\nu\Delta M_q^{fresh}
-+
-2\nu\mathfrak D_q^{fresh}
-=
-\mathfrak N_q^{fresh}
-+
-\nabla\cdot\mathfrak Q_q^{fresh},
-\qquad q=0,1.
-\]
+The retained attempt proves that the commutator packet does not dominate this
+positive endpoint mass without another theorem. The fresh analogue is:
 
-This identity is exact but not closed by itself: the defect, nonlinear, and flux terms are not functions of
-\((M_0^{fresh},M_1^{fresh})\) alone.
+```math
+\texttt{FreshEndpointMassShellPairThreading.A}.
+```
 
-## Correct lower target
+### 2. Finite-band bilinear route
 
-The current fresh-potential branch is therefore equivalent to one of the following producer forms:
+Cauchy on fixed scale windows reduces endpoint observability to a finite-band
+endpoint square, and the direct bilinear route isolates the term
 
-1. Fresh positive affine endpoint mass:
+```math
+\sum_{m\in\mathcal B_I(N)}
+\sum_{j\in\mathcal B_J(N)}
+E_m(t)^{1/2}2^{-j/2}D_j(t).
+```
 
-\[
-\texttt{FreshPositiveAffineEndpointMassKill.A}.
-\]
+The retained direct attempt shows this term is absorbable only after controlling
+the finite-collar coefficient
 
-2. Fresh \(\mu_N\)-Carleson endpoint threading:
+```math
+2^{-j}E_m(t)
+```
 
-\[
+on the same retained terminal interval. The conditional collar seed theorem is
+installed, but it requires synchronized terminal-window smallness of the
+upgraded coefficient measure. The fresh endpoint branch inherits this exact
+unpaid synchronization burden:
+
+```math
+\texttt{FreshTerminalNuNWindowSeedSynchronization.A}.
+```
+
+### 3. Carleson / measure threading
+
+The upgraded gradient bridge would accept a Carleson estimate of the form
+
+```math
 \mu_N^{fresh}(I)
 \le
-\varepsilon\nu\int_I D_N
+{\varepsilon_\mu\nu\over C}\int_I D_N(t)\,dt
 +
-C_\varepsilon 2^{-2\delta N}
+C_{\mu,*}2^{-2\delta N}
 +
-R_{\rm legal}(I).
-\]
+R_{legal}(I).
+```
 
-3. A closed coercive evolution for
-\[
-(M_0^{fresh},M_1^{fresh})
-\]
-on the same full packet.
+The retained attempts show that using the upgraded bridge to prove this measure
+bound and then feeding the measure bound back into endpoint observability is
+circular on the current route. A fresh proof must supply the Carleson estimate
+before using the endpoint theorem it is meant to feed:
 
-4. A compactness/rigidity theorem for the affine survivor on the same full packet:
-
-\[
-\text{persistent weighted affine survivor}
-\Longrightarrow
-\text{nonzero full-packet no-residue violation}.
-\]
-
-## Consequence
-
-Direct positive second-order exactness is not installed. Treating it as closed would relabel the endpoint-mass theorem rather than prove it.
-
-The live hierarchy is:
-
-\[
-\texttt{TerminalFullPacketNoResiduePayment.A}
-\]
-
-with subordinate producer:
-
-\[
-\texttt{FreshPotentialAverageKillAndPositiveTransfer.A}
-\]
-
-which reduces to:
-
-\[
-\texttt{FreshPositiveAffineEndpointMassKill.A}
-\quad\text{or}\quad
+```math
 \texttt{FreshMuNCarlesonEndpointThreading.A}.
-\]
+```
 
-This preserves the full-packet parent and prevents the fresh potential branch from becoming a detached scalar target.
+### 4. Coherent positive-stress packets
+
+The Volterra and anti-coherence attempts show why endpoint observability cannot
+be treated as a generic Littlewood-Paley or Volterra fact. Positive stress
+packets can model the sharp lower-prefix Hardy worst case:
+
+```math
+\tau_{j,model}^{H^1}(x,t)=b_j(t)\Phi(x,t),
+\qquad b_j(t)\ge0 .
+```
+
+This coherent case must be paid by same-window dissipation/Carleson control,
+tethered to an installed Part/Field terminal packet, excluded by a genuine
+strain-stress anti-coherence mechanism, or used to prove the lower-prefix
+active-square theorem directly. For the fresh Gold branch, this is subordinate
+to endpoint threading unless it is proved to imply `(EP-fresh)` for the same
+selected carrier.
+
+## Correct fresh hierarchy
+
+The current hierarchy is:
+
+```math
+\texttt{TerminalFullPacketNoResiduePayment.A}
+```
+
+with subordinate producer
+
+```math
+\texttt{FreshPotentialAverageKillAndPositiveTransfer.A}
+```
+
+sharpened on the positive-native branch to
+
+```math
+\texttt{FreshPositiveAffineEndpointMassKill.A}.
+```
+
+That fresh endpoint theorem reduces to one of:
+
+```math
+\texttt{FreshMuNCarlesonEndpointThreading.A},
+\qquad
+\texttt{FreshEndpointMassShellPairThreading.A},
+\qquad
+\texttt{FreshTerminalNuNWindowSeedSynchronization.A},
+```
+
+or a full-packet compactness/rigidity theorem proving that a persistent
+positive affine survivor creates a nonzero no-residue full-packet violation.
+
+## Result
+
+`FreshPositiveStressSecondOrderExactness.A` is not installed, and treating it
+as closed would relabel the endpoint theorem rather than prove it.
+
+The better noncircular producer is the fresh positive endpoint-mass branch:
+
+```math
+\texttt{FreshPositiveAffineEndpointMassKill.A}
+```
+
+with the first sharp child
+
+```math
+\texttt{FreshMuNCarlesonEndpointThreading.A}.
+```
+
+This preserves the full-packet parent and prevents the fresh potential branch
+from becoming a detached scalar target.
