@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-selected-readout-parent-subtracted-current-admission-20260627
-status: selected-readout-decomposition-proved-reset-variation-and-route-energy-discharged
+status: selected-readout-decomposition-proved-route-energy-conditional-on-active-bessel
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -11,7 +11,8 @@ decomposes_hinge:
   - StoppedStressTestParentSubtractedInnovationAdmission.A
   - SelectedActionParentSubtractedCurrentAdmission.A
 leaves_open:
-  - source/manuscript/referee promotion of the corrected parent-subtracted stopped-current chain
+  - ScaleCriticalStoppedFrameCarlesonEmbedding.A
+  - OriginalHistoryRoutedCurrentEnergyFinite.A
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-announced-reset-variation-to-routed-energy-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-inherited-action-square-packing-20260627.md
@@ -19,6 +20,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-current-coboundary-square-function-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-bounded-projection-original-participation-law-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-routed-current-energy-original-history-producer-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-frame-bessel-critical-weight-fork-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-history-routed-current-energy-bessel-producer-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-squarepacking-to-hs-closure-verification-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parentdrop-full-clock-relay-from-square-packing-20260627.md
@@ -30,9 +32,9 @@ effect: >-
   through changes of inherited direction, measured by the active-metric
   projection-jump square function sum_i ||b_i-b_{i-1}||_{H_P,act}^2, equivalently reset/angle/selector/frame/collar/
   stop/legal variation. Parent-announced first-exit slabs charge that variation
-  to E_route in the active route metric. The original-history finiteness of
-  E_route is discharged by the stopped-frame Bessel producer against
-  G=2nu S_A before selected readout.
+  to E_route in the active route metric. Original-history finiteness of E_route
+  still requires the scale-critical stopped-frame Carleson/Bessel embedding for
+  that same active route metric before selected readout.
 ---
 
 # Selected readout decomposition for parent-subtracted current
@@ -201,8 +203,9 @@ C(u_0)+R_{\rm legal}(P)+Stop(P).
 
 ## 4. Consequence
 
-With the original-history bound for \(\mathcal E_{\mathrm{route}}\) now proved by
-the stopped-frame Bessel producer, the previously installed relay applies:
+If the original-history bound for \(\mathcal E_{\mathrm{route}}\) is proved by
+the active-metric stopped-frame Carleson/Bessel embedding, the previously installed
+relay applies:
 
 ```math
 \sum_Q A_{\rm sel}(Q)<\infty
@@ -216,4 +219,5 @@ the stopped-frame Bessel producer, the previously installed relay applies:
 Thus this note proves the parent-subtracted selected-readout decomposition.
 The reset-variation claim is not a raw inherited-value theorem; it is a
 parent-announced first-exit charge in routed-current energy currency. That
-currency is now paid by the original-history stopped-frame Bessel producer.
+currency is paid only after the stopped-frame Bessel producer is upgraded from
+raw \(L^2\) Bessel to the active route-metric Carleson embedding.
