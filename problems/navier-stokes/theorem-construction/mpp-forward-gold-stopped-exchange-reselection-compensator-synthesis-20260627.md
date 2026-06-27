@@ -21,6 +21,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-extremal-bad-tree-two-branch-reduction-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-selection-tax-density-atom-boundary-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-selected-density-atom-exclusion-direct-test-20260626.md
+parallel_checks:
   - subagent:gibbs:carleman-quotient-visible-observability-20260627
 ---
 
