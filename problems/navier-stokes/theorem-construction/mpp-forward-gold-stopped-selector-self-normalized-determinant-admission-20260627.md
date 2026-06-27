@@ -5,6 +5,8 @@ created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
+superseded_live_hinge_by:
+  - BoundedOriginalPacketSelectedProjectionAdmission.A
 refines:
   - ParentStressGramDeterminantSelectedAdmission.A
   - FiniteStoppedScoreSelectorRealization.A
@@ -23,7 +25,10 @@ effect: >-
   score cannot turn a low determinant-leverage parent-subtracted current into a
   retained unit selected increment.  If it tries, the score has changed its
   normalization, aperture, order-lock, or carrier, and the transaction is reset,
-  stop, legal, or donor paid.  Partial, not Gold closed.
+  stop, legal, or donor paid.  This note is now a parent-reuse/Bellman support
+  theorem, not the sole Gold producer: genuine fresh selected-scale birth still
+  requires bounded original-packet projection admission before Bessel pays it.
+  Partial, not Gold closed.
 ---
 
 # Stopped selector self-normalized determinant admission
@@ -31,7 +36,11 @@ effect: >-
 The parent stress Gram determinant note proves the algebra after the correct
 admission rule.  It does not yet prove the admission rule.
 
-This note isolates the smaller theorem that would prove it.
+This note isolates the determinant/reuse theorem.  The later correction
+`BoundedOriginalPacketSelectedProjectionAdmission.A` keeps this determinant
+piece but adds the missing fresh-channel condition: first-birth selected units
+must be bounded tests of the original material stress packet before Bessel can
+pay them.
 
 ## 1. Determinant leverage record
 
@@ -230,10 +239,13 @@ existing-channel parent-normalized refill
 fresh selected-scale native birth.
 ```
 
-The determinant formulation absorbs both into one parent Gram record.  A fresh
-orthogonal direction has high novelty only if its raw current is large relative
-to the fixed parent floor.  A tiny fresh direction has small determinant
-leverage and cannot be unit selected action on a fixed stopped selector chamber.
+The determinant formulation absorbs the parent-reuse side into one parent Gram
+record.  It does not by itself pay the scale-weighted fresh side.  A fresh
+orthogonal direction is physical selected birth only after it is represented by a
+bounded original-packet test; then the first-birth family is Bessel.  If the
+scale-normalized readout requires an unbounded original-packet test, the
+measuring rule has created a fake fourth category rather than physical
+participation.
 
 The affine-Schur finite-state note is the two-moment quotient shadow of the same
 statement.  The self-normalized selector theorem is stronger because it is
@@ -251,9 +263,12 @@ StoppedSelectorSelfNormalizedDeterminantAdmission.A
   -> H^s continuation.
 ```
 
-The determinant telescope and parent-subtracted Bessel parts are installed.  The
-new proof-bearing local theorem is the self-normalized finite stopped-selector
-bound `(9)`: low determinant leverage cannot be promoted into unit selected
-action unless the selector pays reset, stop, legal, donor, or drift.
+The determinant telescope and parent-subtracted Bessel parts are installed, but
+they close Gold only after the bounded original-packet selected-projection
+admission is proved.  The self-normalized finite stopped-selector bound `(9)`
+pays parent reuse; genuine fresh birth is paid by Bessel in the original stress
+Hilbert space after bounded-test admission.  Low determinant leverage cannot be
+promoted into unit selected action unless the selector pays reset, stop, legal,
+donor, drift, or supplies a bounded fresh original-packet projection.
 
 Partial, not Gold closed.
