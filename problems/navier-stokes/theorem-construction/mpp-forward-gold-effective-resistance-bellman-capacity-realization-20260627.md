@@ -429,23 +429,20 @@ EffectiveResistanceSelectedActionAdmission.A
 ```
 
 For every retained unpaid selected child before descendant selected readout,
-the selected new action is bounded by the parent-known leverage charge `(5)`,
-plus paid reset, legal, reselection, and terminal stop terms:
+the selected new action is bounded by the parent-known stress-realized leverage
+charge, plus paid reset, legal, reselection, and terminal stop terms:
 
 \[
 \omega_Q^{new}
 \le
 C_N
-\operatorname{tr}\log
-\left(
-I+V_{Q^-}^{-1/2}\Delta K_QV_{Q^-}^{-1/2}
-\right)
+\log\left(1+\frac{\mu_G(\widehat Q)}{s_{Q^-}}\right)
 +R_Q^{legal}+Stop_Q^{term}+Reset_Q^{paid}.
 \tag{27}
 \]
 
-If `(22)` is proved from the stopped Navier-Stokes participation law, then
-`RetainedActiveRawBellmanCapacity.A` follows by `(13)`--`(16)`, and the already
+If `(27)` is proved from the stopped Navier-Stokes participation law, then
+`RetainedActiveRawBellmanCapacity.A` follows by `(13b)`--`(17)`, and the already
 installed downstream relay gives finite selected action, finite full
 same-material clock, and the usual \(H^s\) continuation.
 
