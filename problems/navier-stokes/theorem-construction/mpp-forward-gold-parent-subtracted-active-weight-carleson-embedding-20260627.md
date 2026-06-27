@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-parent-subtracted-active-weight-carleson-embedding-20260627
-status: corrected-active-weight-embedding-proved-for-parent-subtracted-stopped-frame
+status: overclaim-demoted-active-route-metric-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -20,18 +20,17 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-announceable-active-weight-reset-carleson-cauchy-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-stress-test-frame-qr-realization-20260627.md
 effect: >-
-  The raw active-weight embedding is false as a Gold closure target because it
-  recounts inherited parent directions. The correct embedding is the quotient
-  embedding for the stopped parent-subtracted frame: fresh residuals are Bessel,
-  exact inherited reuse is zero new action, and changed inherited reuse is paid
-  by parent-announced first-exit reset variation. This is the active-weight
-  estimate actually consumed by selected action.
+  The note correctly identifies the parent-subtracted selected current: fresh
+  residuals are Bessel and exact inherited reuse is zero new action. It overclaims
+  when it treats changed inherited reuse as already paid. Parent-announced first-exit
+  reset variation is paid only relative to E_route. The remaining theorem is still
+  active route metric Carleson/storage before selected readout.
 ---
 
-# Parent-subtracted active-weight Carleson embedding
+# Parent-subtracted active-weight Carleson embedding: demotion
 
-The active-weight fork exposed the right correction.  Gold does not need the raw
-embedding
+The active-weight fork exposed a real correction: selected action should not
+count raw inherited parent directions again.  The raw embedding
 
 ```math
 \int w(\sigma,t)
@@ -41,9 +40,10 @@ C\|F\|_{\mathfrak H_P}^2 .
 \tag{1}
 ```
 
-That statement counts inherited parent directions again.  The selected action
-has already been corrected to the parent-subtracted current, so the embedding
-must be stated for the same quotient object.
+counts inherited parent directions again.  The selected action has already been
+corrected to the parent-subtracted current, so the quotient object below is the
+right readout.  That correction does not by itself prove the active route metric
+finite.
 
 For each stopped child or reset edge, let
 
@@ -173,9 +173,10 @@ This term is not raw inherited reuse.  It is changed inherited reuse, and the
 parent-announced first-exit representation is exactly the route ledger that pays
 it.
 
-## Quotient active embedding
+## Quotient active estimate
 
-Combining `(5)` and `(11)` gives the embedding actually used by selected action:
+Combining `(5)` and `(11)` gives only the conditional estimate actually used by
+selected action:
 
 ```math
 \sum_{Q\subset P}
@@ -187,26 +188,31 @@ C_N\|G\|_{\mathfrak H_P}^2
 \tag{12}
 ```
 
-The remaining \(\mathcal E_{\rm route}^{reset}\) is not the raw active frame
-clock `(1)`.  It is the finite stopped first-exit reset ledger `(11)`, built
-from parent-announced score exits and bounded overlap.  Under the installed
-finite stopped-score selector realization, `(11)` is already the paid reset
-branch.
+The remaining \(\mathcal E_{\rm route}^{reset}\) is not a free quotient artifact.
+It is the active route energy appearing in the parent-announced reset reduction.
+It is paid only after the stopped route metric is proved to be an original-history
+Carleson/storage measure.
 
-Therefore the corrected active-weight theorem is:
+Therefore the corrected conditional theorem is:
 
 ```math
 \boxed{
 \text{ParentSubtractedActiveWeightCarlesonEmbedding.A}
+\ \text{relative to}\ 
+\text{ScaleCriticalStoppedFrameCarlesonEmbedding.A}
 }
 \tag{13}
 ```
 
-not the raw `ScaleCriticalStoppedFrameCarlesonEmbedding.A`.
+The parent-subtracted quotient prevents exact inherited reuse from being counted
+twice.  It does not remove the need to prove active route metric Carleson
+finiteness.
 
 ## Consequence
 
-Applying `(12)` with \(G=2\nu S_A\) and the material energy identity gives
+If the active route metric is admitted as an original-history Carleson measure,
+for example by `HighActiveDensityForcesStopOrLegalReselection.A`, then applying
+`(12)` with \(G=2\nu S_A\) and the material energy identity gives
 
 ```math
 \sum_{Q\subset P}
@@ -217,4 +223,5 @@ C_N(u_0)+R_{\rm legal}+Stop .
 ```
 
 This restores the relay to selected action and \(H^s\) continuation without
-counting a raw inherited active tail.
+counting a raw inherited active tail.  Without the active metric admission, this
+note is a quotient-readout reduction, not a Gold closure.
