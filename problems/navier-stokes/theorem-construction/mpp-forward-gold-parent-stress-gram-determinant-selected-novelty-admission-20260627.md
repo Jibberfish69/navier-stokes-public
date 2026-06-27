@@ -1,10 +1,13 @@
 ---
 theorem_id: forward-gold-parent-stress-gram-determinant-selected-novelty-admission-20260627
-status: sharper-reduction-selected-admission-open
+status: determinant-bellman-support-bounded-riesz-currency-required
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
+superseded_live_hinge_by:
+  - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 refines:
   - SelectedUnitNoveltyAdmission.A
   - SelectedRefillParentNormalizedAdmission.A
@@ -26,10 +29,11 @@ effect: >-
   a separate reserve; they are low-leverage directions against the same
   parent-known stress Gram record unless they force a parent-known reset or
   legal stop.  The Fredholm determinant telescope is proved at the algebraic
-  level.  The remaining open theorem is the Navier-Stokes selected-admission
-  inequality: the stopped selector must count a retained unit only by this
-  determinant leverage plus paid reset / stop / legal terms. Partial, not Gold
-  closed.
+  level.  This is now parent-reuse/Bellman support under the enforced
+  source-level selected-action currency.  The retained unit must first be a
+  bounded original-packet projection, equivalently a bounded Riesz representative
+  before scalar readout; determinant leverage then pays the inherited/root part.
+  Partial, not Gold closed by this determinant note alone.
 ---
 
 # Parent stress Gram determinant selected novelty admission
@@ -269,15 +273,22 @@ account.  In the parent Gram formulation, fresh directions are just unsaturated
 directions of the same parent stress record, measured against a fixed
 parent-known floor.
 
-The Gold route now has a sharper single open theorem:
+This determinant branch is not the live Gold producer by itself. The live
+source-level currency is:
 
 \[
-\texttt{ParentStressGramDeterminantSelectedAdmission.A}.
+\texttt{SelectedActionCurrencyBoundedOriginalPacketEnforcement.A},
 \]
 
-The algebra after that theorem is closed by the determinant telescope and the
-installed parent-subtracted Bessel / reset / stop / legal relays.  The theorem
-itself is still open: it must be proved from the stopped Navier-Stokes selector,
-not imposed after the selected readout.
+with Hilbert normal form
+
+\[
+\texttt{SelectedUnitRieszRepresentativeSourceGraphAdmission.A}.
+\]
+
+The algebra after bounded selected-unit admission is closed by the determinant
+telescope and the installed parent-subtracted Bessel / reset / stop / legal
+relays.  The determinant theorem itself is parent-reuse support: it must not be
+promoted as a separate source of selected action after scalar readout.
 
 Partial, not Gold closed.
