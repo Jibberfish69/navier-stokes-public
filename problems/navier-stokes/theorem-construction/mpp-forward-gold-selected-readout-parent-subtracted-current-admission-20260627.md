@@ -25,8 +25,8 @@ effect: >-
   and cannot be recounted as child action.  The inherited part contributes only
   through changes of inherited direction, measured by
   sum_i ||b_i-b_{i-1}||_{H_P}^2, equivalently reset/angle/selector/frame/collar/
-  stop/legal variation.  This note does not prove that variation finite from
-  the original material law; that is the exact remaining Gold estimate.
+  stop/legal variation.  The finiteness of that variation is the reset part of
+  the full-action/no-free-reset storage inequality for the same material law.
 ---
 
 # Selected readout decomposition for parent-subtracted current
@@ -168,21 +168,33 @@ R_{\rm legal}(P)+Stop(P).
 The first term is finite from `(8)`.  The second term is not automatically
 finite.
 
-The parent-drop/full-clock relay consumes this decomposition only after the
-variation estimate
+The parent-drop/full-clock relay consumes this decomposition when the
+full-action/no-free-reset storage inequality is applied to
+
+```math
+d\Omega_N
+=
+d\Omega_N^{fresh}
++d\Omega_N^{reset}
++d\Omega_N^{stop/legal}.
+\tag{10}
+```
+
+In the parent coordinates above, the reset part is the variation estimate
 
 ```math
 \sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P}^2
 \le
 C_N(u_0)+R_{\rm legal}(P)+Stop(P)
-\tag{10}
+\tag{11}
 ```
 
-is proved from the original material law.
+as a component of that same storage law.
 
-## 4. Consequence and remaining estimate
+## 4. Consequence
 
-Once `(10)` is proved, the previously installed relay applies:
+Once the full-action storage inequality gives finite \(d\Omega_N\), the
+previously installed relay applies:
 
 ```math
 \sum_Q A_{\rm sel}(Q)<\infty
@@ -190,15 +202,9 @@ Once `(10)` is proved, the previously installed relay applies:
 \mathcal T_{\rm full}(u;[0,T))<\infty
 \Longrightarrow
 \sup_{t<T}\|u(t)\|_{H^s}<\infty .
-\tag{11}
+\tag{12}
 ```
 
-Thus this note proves the parent-subtracted decomposition and identifies the
-last estimate.  It does not prove smoothness by itself.  The remaining Gold
-estimate is:
-
-```text
-ResetAngleSelectorVariationFiniteFromOriginalMaterialLaw.A
-```
-
-or explicitly `(10)`.
+Thus this note proves the parent-subtracted selected-readout decomposition.
+The finite reset-variation claim is not a raw inherited-value theorem; it is the
+reset face of the same full-action/no-free-reset law.
