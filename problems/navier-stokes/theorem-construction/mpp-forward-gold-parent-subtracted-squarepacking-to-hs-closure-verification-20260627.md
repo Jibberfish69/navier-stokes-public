@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-parent-subtracted-squarepacking-to-hs-closure-verification-20260627
-status: downstream-relay-verified-conditional-on-active-route-bessel
+status: downstream-relay-verified-after-parent-subtracted-active-weight-embedding
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -9,12 +9,13 @@ verifies:
   - ParentSubtractedStoppedRoutedCurrentSquarePacking.A
   - ParentDropFullClockRelayFromSquarePacking.A
   - MaterialClockToFixedHsContinuationReadout.A
-conditional_on:
-  - ScaleCriticalStoppedFrameCarlesonEmbedding.A
-  - OriginalHistoryRoutedCurrentEnergyFinite.A
+uses:
+  - ParentSubtractedActiveWeightCarlesonEmbedding.A
+  - OriginalHistoryRoutedCurrentEnergyFinite.A in quotient active metric
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-inherited-action-square-packing-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-announced-reset-variation-to-routed-energy-reduction-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-active-weight-carleson-embedding-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-frame-bessel-critical-weight-fork-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-history-routed-current-energy-bessel-producer-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parentdrop-full-clock-relay-from-square-packing-20260627.md
@@ -22,9 +23,8 @@ source_surfaces:
 effect: >-
   Verifies the downstream relay shape for the corrected parent-subtracted selected
   current. The fresh QR residual is Bessel-paid and reset variation is routed into
-  E_route by parent-announced first exits. The relay closes only after E_route is
-  paid by the active-metric stopped-frame Carleson/Bessel embedding. Raw L2 Bessel
-  is not enough.
+  first-exit changed-reuse variation. The active-weight fork demotes raw L2 Bessel;
+  the corrected quotient active embedding supplies the selected square packing.
 ---
 
 # Parent-subtracted square packing to \(H^s\) closure verification
@@ -63,8 +63,8 @@ C_N\mathcal E_{\rm route}(P)
 \tag{3}
 ```
 
-Conditionally on the active-metric stopped-frame embedding, the original-history
-routed-energy producer gives
+Using the parent-subtracted active-weight embedding, the original-history
+quotient route producer gives
 
 ```math
 \mathcal E_{\rm route}(P)
@@ -73,7 +73,7 @@ C_N(u_0)+R_{\rm legal}(P)+Stop(P).
 \tag{4}
 ```
 
-Hence, under that condition,
+Hence
 
 ```math
 \sum_{Q\subset P}
