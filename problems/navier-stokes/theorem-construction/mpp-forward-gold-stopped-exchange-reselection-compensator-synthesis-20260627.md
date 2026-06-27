@@ -21,6 +21,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-extremal-bad-tree-two-branch-reduction-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-selection-tax-density-atom-boundary-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-selected-density-atom-exclusion-direct-test-20260626.md
+  - subagent:gibbs:carleman-quotient-visible-observability-20260627
 ---
 
 # Stopped exchange-reselection compensator synthesis
@@ -233,6 +234,27 @@ and adjoint polarization can help prove the visible part of `(1)`.  They cannot
 be the primary Gold closure, because the silent-source note already shows that
 pure boundary observability is false.
 
+The clean local support theorem is therefore quotient-visible:
+
+```text
+StoppedQuotientVisibleSelectedTraceObservability.A
+```
+
+Statement:
+
+```math
+A_{\rm qvis}^{\rm stop}(S)
+\le
+C_N\langle U_S,\mathsf S_S^{\rm stop}U_S\rangle
++C_N R_{\rm legal}(S),
+\tag{11}
+```
+
+where \(A_{\rm qvis}^{\rm stop}\) is retained stopped selected action after
+quotienting by the boundary-flat silent pressure-potential kernel.  This is the
+right Carleman/unique-continuation target: it pays the boundary-visible branch
+and leaves the silent branch to the same-material exchange term in `(1)`.
+
 The nonlocal closure should instead attack the stopped compensator:
 
 ```math
@@ -241,10 +263,10 @@ The nonlocal closure should instead attack the stopped compensator:
 \;\le\;
 \text{same-material exchange variation}
 }
-\tag{11}
+\tag{12}
 ```
 
-Once `(11)` is proved, the stopped Bellman inequality has only the full
+Once `(12)` is proved, the stopped Bellman inequality has only the full
 original-history exchange action left to sum.
 
 ## 6. Honest remaining burden
