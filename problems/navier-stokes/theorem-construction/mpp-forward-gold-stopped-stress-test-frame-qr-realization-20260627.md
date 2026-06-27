@@ -115,141 +115,147 @@ The representative \(a_Q\) is the lifted gradient \(\sqrt{\mathcal R(Q)}
 \,\nabla_Av_Q\), projected into the parent stress Hilbert space with the
 material metric and stopped support.
 
-## 2. Stopped QR frame
+## 2. Parent-subtracted QR frame
 
-Order the children by the stopped parent filtration.  Run predictable QR in
-\(\mathfrak H_P\):
+Order the children by the stopped parent filtration.  Let \(E_{i-1}\) be the
+parent-known span of inherited directions and earlier admitted fresh
+directions, and split
 
 ```math
-a_Q
-=
-\sum_{j<Q}r_{Qj}e_j+r_{QQ}e_Q ,
+a_i=b_i+d_i,
 \qquad
-\langle e_i,e_j\rangle_P=\delta_{ij}.
+b_i=\Pi_{E_{i-1}}a_i,
+\qquad
+d_i=(I-\Pi_{E_{i-1}})a_i .
 \tag{7}
 ```
 
-The retained fixed core is the part where the triangular coefficient map is
-uniformly conditioned:
+The selected child current is the parent-subtracted read:
 
 ```math
-r_{QQ}\ge \kappa \|a_Q\|_{\mathfrak H_P},
-\qquad
-\sum_{j<Q}|r_{Qj}|^2
-\le C_\kappa\|a_Q\|_{\mathfrak H_P}^2 .
+\sqrt{\mathcal R(Q_i)}\,\Delta J_i^{new}
+:=
+\langle 2\nu S_A,a_i\rangle_P
+-
+\langle 2\nu S_A,b_i\rangle_P
+=
+\langle 2\nu S_A,d_i\rangle_P .
 \tag{8}
 ```
 
-When `(8)` fails, the packet has not produced a free current.  It has changed
-the selector frame, collapsed into an already-used parent direction, crossed a
-stopped stratum, or demanded a reselection.  Those outcomes are charged as
-\(R_{\rm legal}\), \(Stop\), or the existing selector/order-lock connection
-ledger.
+If \(d_i=0\), the child has reused an already known parent stress direction and
+contributes zero new child action.  The inherited read remains parent current;
+it is not counted again as a child source.
 
-Linear combinations of divergence-free lifted tests remain divergence-free.
-Thus QR does not reintroduce pressure:
+Linear combinations and orthogonal projections of divergence-free lifted tests
+remain divergence-free.  Thus the parent-subtracted QR step does not
+reintroduce pressure:
 
 ```math
-D_A\cdot\Bigl(\sum_Q c_Q v_Q\Bigr)=0 .
+D_A\cdot\Bigl(\sum_i c_i v_i\Bigr)=0 .
 \tag{9}
 ```
 
-That is the point of orthogonalizing the test side rather than the physical
-traction current.
+## 3. Fresh Bessel estimate
 
-## 3. Bessel estimate
-
-For any \(G\in\mathfrak H_P\), `(7)` and `(8)` give
+Normalize the stopped lifts so that \(\|a_i\|_{\mathfrak H_P}\le C_N\); hence
+\(\|d_i\|_{\mathfrak H_P}\le C_N\).  For \(d_i\ne0\), set
+\(e_i=d_i/\|d_i\|\).  Parent-known QR gives an orthonormal family \(e_i\), so
+for every \(G\in\mathfrak H_P\),
 
 ```math
-\sum_{Q\subset P}^{ret}
-\left|\ell_Q(G)\right|^2
+\sum_i
+\left|\langle G,d_i\rangle_P\right|^2
+=
+\sum_i
+\|d_i\|_{\mathfrak H_P}^2
+\left|\langle G,e_i\rangle_P\right|^2
 \le
-C_\kappa
-\sum_j|\langle G,e_j\rangle_P|^2
-\le
-C_\kappa\|G\|_{\mathfrak H_P}^2 .
+C_N^2\|G\|_{\mathfrak H_P}^2 .
 \tag{10}
 ```
 
-Restoring the stopped errors,
+This is the Bessel estimate for new child action.  The raw inherited values
+\(\langle G,b_i\rangle_P\) do not appear in `(10)` because they have been
+subtracted before selected action is counted.
+
+## 4. Reset, angle, selector, and stop variation
+
+Inherited current reappears only when the parent-known projection changes.
+Let \(\Pi_i\) denote the active parent projection after a reset, angle change,
+selector change, frame/collar change, stop event, or legal event.  The changed
+reuse term is
 
 ```math
-\sum_{Q\subset P}
-\mathcal R(Q)
-\left|
-\int_{\operatorname{Hist}(Q)}
-G:\nabla_Av_Q
-\right|^2
-\le
-C_\kappa
-\int_{\operatorname{Hist}(P)}
-|G|^2
-+R_{\rm legal}(P)+Stop(P).
+\rho_i
+=
+\langle G,(\Pi_i-\Pi_{i-1})a_i\rangle_P .
 \tag{11}
 ```
 
-This is the needed `StoppedDivergenceFreeStressTestBessel.A` estimate in
-constructive form: Bessel is not a later miracle; it is the stopped
-parent-known frame condition on the lifted readout tests.
-
-## 4. Apply to the viscous stress
-
-Put \(G=2\nu S_A\) in `(11)`.  Since pressure has already vanished by `(4)`,
+With
 
 ```math
-\sum_{Q\subset P}
-\mathcal R(Q)|\Delta_QJ^S|^2
-\le
-C_\kappa\nu^2
-\int_{\operatorname{Hist}(P)}|S_A|^2
-+R_{\rm legal}(P)+Stop(P).
+\operatorname{Var}^{stop}_P
+:=
+\sum_i
+\|(\Pi_i-\Pi_{i-1})a_i\|_{\mathfrak H_P}^2
++Stop(P)+R_{\rm legal}(P),
 \tag{12}
 ```
 
-The material energy identity gives
+Cauchy--Schwarz gives
+
+```math
+\sum_i|\rho_i|^2
+\le
+\|G\|_{\mathfrak H_P}^2\operatorname{Var}^{stop}_P .
+\tag{13}
+```
+
+The term `(13)` is not a free right-hand side.  It is part of the same
+full-action/no-free-reset balance: changed inherited reuse is counted in
+\(d\Omega_N^{reset}\), while fresh QR residuals are counted in
+\(d\Omega_N^{fresh}\).
+
+## 5. Apply to the viscous stress
+
+Put \(G=2\nu S_A\).  The material energy identity gives
 
 ```math
 2\nu\int_0^T\int |S|^2
 \le
 \|u_0\|_2^2 .
-\tag{13}
-```
-
-After the fixed viscosity normalization used by the Gold route,
-
-```math
-\sum_{Q\subset P}
-\mathcal R(Q)|\Delta_QJ^S|^2
-\le
-C_\kappa(u_0)+R_{\rm legal}(P)+Stop(P).
 \tag{14}
 ```
 
-This proves the routed-current square-packing estimate from original material
-strain, once the stopped QR realization is admitted.
+Therefore, for the parent-subtracted selected current,
 
-## 5. Remaining open point
-
-The open theorem is now sharper than a raw Bessel hope:
-
-```text
-StoppedStressTestFrameQRConditioning.A.
+```math
+\sum_{Q_i\subset P}
+\mathcal R(Q_i)|\Delta J_i^{new}|^2
+\le
+C_N(u_0)
++C_N(u_0)\operatorname{Var}^{stop}_P .
+\tag{15}
 ```
 
-It must prove, in the parent-known stopped material atlas, that:
+Equivalently, in the full-action notation,
 
-1. the raw selected readout functionals admit divergence-free Hodge lifts
-   \(v_Q\) before scalar selected readout;
-2. the Riesz representatives \(a_Q\) are finite-overlap parent-known stress
-   vectors in \(\mathfrak H_P\);
-3. the stopped QR conditioning failure in `(8)` is exactly a legal,
-   stop/reselection, selector-frame, or order-lock event, not a future selected
-   tail.
+```math
+d\Omega_N
+=
+d\Omega_N^{fresh}+d\Omega_N^{reset}+d\Omega_N^{stop/legal},
+\tag{16}
+```
 
-With that theorem, `StoppedDivergenceFreeStressTestBessel.A` becomes a
-parent-known Hilbert-space frame statement, the pressure remains absent, and
-`StoppedSelectorBoundedProjectionOfOriginalParticipationLaw.A` can consume the
-routed-current energy before scalar readout.
+where `(10)` pays \(d\Omega_N^{fresh}\) by viscous strain and `(13)` records
+\(d\Omega_N^{reset}\) as the cost of changing the parent-known projection.
 
-Partial, not Gold closed.
+## 6. Result
+
+This file no longer asserts a raw Bessel theorem for
+\(\{\langle G,a_i\rangle\}\).  The constructive theorem is parent-subtracted:
+same-direction reuse is parent current, fresh residuals Bessel-pack, and changed
+reuse is reset/angle/selector/frame/collar/stop/legal variation in the same
+full-action balance.
