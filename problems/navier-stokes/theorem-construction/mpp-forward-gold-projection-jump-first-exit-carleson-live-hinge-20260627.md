@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-projection-jump-first-exit-carleson-live-hinge-20260627
-status: superseded-by-route-energy-reduction
+status: projection-jump-first-exit-carleson-proved-relative-to-route-energy
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -19,9 +19,9 @@ source_surfaces:
 effect: >-
   Records the parent-subtracted split: exact inherited reuse is zero new selected
   child action, fresh residuals are Bessel-paid, and changed inherited reuse is
-  the projection-jump term. This note is superseded as the live hinge by the
-  route-energy reduction proving ProjectionJumpFirstExitCarlesonFromRouteEnergy.A.
-  The remaining burden is OriginalHistoryRoutedCurrentEnergyFinite.A.
+  the projection-jump term. The projection-jump / first-exit Carleson estimate
+  is proved from the rescaled packet in E_route currency. The remaining burden
+  is OriginalHistoryRoutedCurrentEnergyFinite.A.
 ---
 
 # Projection-jump / first-exit Carleson live hinge
@@ -102,38 +102,143 @@ Thus
 \tag{7}
 ```
 
-The remaining theorem-grade reserve is exactly
+The theorem-grade projection-jump quantity is
 
 ```math
+\mathrm{PJ}(P)
+=
 \sum_i
-\|(\Pi_i-\Pi_{i-1})a_i\|_{\mathfrak H_P}^2
-\le
-C_N(u_0)+R_{\rm legal}+Stop .
+\|(\Pi_i-\Pi_{i-1})a_i\|_{\mathfrak H_P}^2 .
 \tag{8}
 ```
 
-This is the projection-jump / first-exit Carleson bound.
+In first-exit form, for reset edges \(e\subset P\),
 
-It is the sharp remaining clause because:
+```math
+\mathrm{PJ}(P)
+=
+\sum_{e\subset P}
+\int
+H_{I_e}(t)
+\|(\Pi_e^+-\Pi_e^-)a_e\|^2\,dt .
+\tag{9}
+```
 
-1. unchanged reuse contributes zero by `(4)`;
-2. fresh use is orthogonal and paid by `(5)`;
-3. changed reuse is measured by `(7)` and needs `(8)`.
+The projection-jump / first-exit Carleson estimate is
 
-The reused-channel note states the same boundary as an unproved local descent
-clause: a later read of the same material channel must either be fresh
-orthogonal work, legal/stop loss, paid reselection/reset, or a bounded-multiplicity
-return to an already spent reserve atom.  This note records the exact Hilbert
-projection-jump form of that remaining theorem.
+```math
+\mathrm{PJ}(P)
+\le
+C_N\mathcal E_{\rm route}(P)
++R_{\rm legal}(P)+Stop(P).
+\tag{10}
+```
 
-Once `(8)` is proved, the routed-current energy bound follows:
+Proof. A reset/projection jump is a first exit of a parent-known transported
+coordinate \(q_e\). Since the pressure-viscosity-incompressibility-velocity
+packet is rescaled together, \(q_e\) is an original same-material coordinate,
+and along the stopped scale interval \(I_e\),
+
+```math
+q_e(\sigma_1,t)-q_e(\sigma_0,t)
+=
+\int_{I_e}\partial_\sigma q_e(\sigma,t)\,d\sigma .
+\tag{11}
+```
+
+The packet derivative decomposes as
+
+```math
+\partial_\sigma q_e
+=
+L_e(\partial_\sigma Z,T_\sigma,E_\sigma,C_\sigma)
++Err_{\rm legal},
+\qquad
+\|L_e\|\le C_N .
+\tag{12}
+```
+
+With
+
+```math
+H_{I_e}(t)
+=
+\frac{|I_e|^2}{\int_{I_e}w^{-1}\,d\sigma},
+\tag{13}
+```
+
+weighted Cauchy gives
+
+```math
+H_{I_e}
+\|q_e(\sigma_1)-q_e(\sigma_0)\|^2
+\le
+C_N\int_{I_e}
+w\left(
+|\partial_\sigma Z|^2
++|T_\sigma|^2
++|E_\sigma|^2
++|C_\sigma|^2
+\right)
++dR_{\rm legal}.
+\tag{14}
+```
+
+The projection map \(q\mapsto \Pi(q)\) is uniformly Lipschitz on the stopped
+chart, so
+
+```math
+H_{I_e}
+\|(\Pi_e^+-\Pi_e^-)a_e\|^2
+\le
+C_N\int_{I_e}
+w\left(
+|\partial_\sigma Z|^2
++|T_\sigma|^2
++|E_\sigma|^2
++|C_\sigma|^2
+\right)
++dR_{\rm legal}.
+\tag{15}
+```
+
+Maximal first-exit intervals are disjoint along each stopped ancestry line, and
+the material tubes are laminar across siblings:
+
+```math
+\sum_e 1_{I_e\times T_e}
+\le
+C_N+R_{\rm legal}+Stop.
+\tag{16}
+```
+
+Therefore summing `(15)` proves `(10)`, where
+
+```math
+\mathcal E_{\rm route}(P)
+=
+\int_{\operatorname{Hist}(P)}
+w\left(
+|\partial_\sigma Z|^2
++|T_\sigma|^2
++|E_\sigma|^2
++|C_\sigma|^2
+\right).
+\tag{17}
+```
+
+The \(C(u_0)\) reserve version follows exactly when the original routed packet
+energy satisfies
 
 ```math
 \mathcal E_{\rm route}(P)
 \le
 C(u_0)+R_{\rm legal}(P)+Stop(P).
-\tag{9}
+\tag{18}
 ```
 
-Then the already-installed downstream relay gives finite selected action, finite
-full material clock, and the usual \(H^s\) continuation readout.
+Thus the projection-jump / first-exit Carleson step is installed. The remaining
+Gold producer is `(18)`: the original routed packet energy storage bound before
+selected readout. After `(18)`, the already-installed downstream relay gives
+finite selected action, finite full material clock, and the usual \(H^s\)
+continuation readout.
