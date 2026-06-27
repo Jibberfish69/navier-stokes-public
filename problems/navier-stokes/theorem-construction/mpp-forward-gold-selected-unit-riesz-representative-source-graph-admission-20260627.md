@@ -1,16 +1,18 @@
 ---
 theorem_id: forward-gold-selected-unit-riesz-representative-source-graph-admission-20260627
-status: source-graph-normal-form-proved-admission-definition-open
+status: source-graph-normal-form-proved-currency-enforced-by-retained-definition
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 refines:
   - SelectedUnitBoundedOriginalPacketProjectionAdmission.A
+  - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
   - SelectedReadoutDifferentialExhaustion.A
   - StoppedSelectorBoundedProjectionOfOriginalParticipationLaw.A
   - SelectedReadoutParentSubtractedCurrentAdmission.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-action-currency-bounded-original-packet-enforcement-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-unit-bounded-original-packet-projection-admission-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-differential-exhaustion-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-parent-subtracted-current-admission-20260627.md
@@ -26,8 +28,11 @@ effect: >-
   inherited reuse is reset/stop/legal/selector motion. If the readout has no
   uniformly bounded Riesz representative, it is a discontinuous measuring rule
   in the original packet norm and cannot be retained as physical participation.
-  This proves the normal form; Gold remains partial until the retained selector
-  definition/source graph enforces this continuity clause.
+  This proves the normal form. The companion selected-action currency note
+  installs this continuity clause as the retained selector definition. Gold
+  remains partial until the downstream proof surfaces, support anchors,
+  manuscript/PDF text, and referee checks are audited under that enforced
+  currency.
 ---
 
 # Selected unit Riesz representative source-graph admission
@@ -254,9 +259,12 @@ currently installed chain applies:
 \tag{15}
 \]
 
-The remaining source-graph burden is specific: prove from the retained stopped
-selector construction, or add as an explicit retained-selector admission
-criterion, the uniform continuity bound `(6)` for every selected child before
-scalar positive readout.
+The source-graph burden for selected-unit admission is now discharged by the
+explicit retained-selector admission criterion in
+`mpp-forward-gold-selected-action-currency-bounded-original-packet-enforcement-20260627.md`.
+Every downstream selected-action use must read through `(6)`--`(7)`: bounded
+Riesz representative, inherited/root current, paid stop/legal/reselection or
+selector drift, or alias. Any unbounded scale-renormalized read is outside the
+retained Gold branch.
 
 Partial, not Gold closed until that source-graph admission is enforced.
