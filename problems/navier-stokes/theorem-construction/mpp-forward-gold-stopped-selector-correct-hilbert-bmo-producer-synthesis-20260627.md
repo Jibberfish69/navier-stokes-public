@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-stopped-selector-correct-hilbert-bmo-producer-synthesis-20260627
-status: better-idea-synthesis-selector-correct-hilbert-bmo-promoted-after-descent-countermodel-no-go
+status: conditional-synthesis-selector-correct-hilbert-bmo-reduces-to-source-carrier-and-paid-reselection-not-proved
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / stopped primitive PLS strict half-barrier
@@ -8,7 +8,7 @@ attacks_hinge:
   - StoppedPrimitivePLSStrictHalfBarrierBreak.A
   - MonotoneLaminarAdjointSelectedCapacityGain.A
   - StoppedSelectorCorrectHilbertBMOProducer.A
-refined_hinge:
+conditional_refined_route:
   - StoppedSourceCarrierAndPaidReselection.A
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-primitive-pls-strict-half-barrier-break-relay-20260627.md
@@ -22,6 +22,12 @@ source_surfaces:
 ---
 
 # Stopped selector-correct Hilbert BMO producer synthesis
+
+This is a conditional producer route, not a closed proof.  It shows how a
+selector-correct Hilbert/BMO square-function bound would supply the strict
+exponent needed for the stopped primitive PLS half-barrier.  The source-carrier
+square-function bound and paid reselection stopping bound are still theorem
+burdens unless they are proved from original-history material data.
 
 ## 1. Answer to the better-idea question
 
@@ -43,9 +49,9 @@ ancestry, and raw Hilbert freshness while still spending only summable raw scale
 mass.  Therefore the Gold route closes only by producing a strict exponent or a
 bounded-below reserve that is not the descendant tail.
 
-The strongest current mechanism for producing that strict exponent is the
-stopped selector-correct Hilbert BMO route: freeze the selected carrier on legal
-stopped intervals, pay reselection movement separately, build an original-history
+A plausible mechanism for producing that strict exponent is the stopped
+selector-correct Hilbert BMO route: freeze the selected carrier on legal stopped
+intervals, pay reselection movement separately, build an original-history
 visible/silent/exchange Hilbert carrier, and use the martingale BMO square
 function to obtain reverse Holder for the selected density.
 
@@ -176,7 +182,7 @@ stopped setting.
 
 ## 5. Refined theorem
 
-The next nonconsumer theorem is:
+One conditional route to the strict half-barrier is:
 
 ```text
 StoppedSourceCarrierAndPaidReselection.A
@@ -204,5 +210,7 @@ Failure of the reselection stopping bound is the shrinking/reselecting-core
 branch: selected mass restarts through smaller stopped windows at summable raw
 cost.
 
-Closing those two producer bounds gives the reverse-Holder exponent, hence the
-strict half-barrier break, hence the current Gold producer.
+Closing those two producer bounds would give the reverse-Holder exponent, hence
+the strict half-barrier break, hence the current Gold producer.  Until those two
+bounds are proved, the live theorem remains the strict stopped primitive PLS
+half-barrier / bounded-below same-material reserve problem.
