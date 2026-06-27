@@ -3,8 +3,9 @@
 Date: 2026-06-27
 
 Status: local source-origin normal form proved as the correct replacement for
-Schur-only observability; global summability still lands through the already
-installed full same-material exchange clock.
+Schur-only observability.  This note does not supply global summability; the
+global step now lands through the repeated-core signed-channel record/return
+branch and the shrinking-core native birth-packing branch.
 
 Related surfaces:
 
