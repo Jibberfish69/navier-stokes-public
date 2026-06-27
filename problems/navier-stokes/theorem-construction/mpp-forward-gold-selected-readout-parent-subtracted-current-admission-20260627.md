@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-selected-readout-parent-subtracted-current-admission-20260627
-status: selected-readout-decomposition-proved-with-parent-subtracted-active-weight-embedding
+status: selected-readout-decomposition-proved-route-energy-bound-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -11,7 +11,8 @@ decomposes_hinge:
   - StoppedStressTestParentSubtractedInnovationAdmission.A
   - SelectedActionParentSubtractedCurrentAdmission.A
 leaves_open:
-  - source/manuscript/referee promotion of the corrected quotient active-weight chain
+  - OriginalHistoryRoutedCurrentEnergyFinite.A / active route metric storage before selected readout
+  - HighActiveDensityForcesStopOrLegalReselection.A as the current constructive admission route
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-announced-reset-variation-to-routed-energy-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-inherited-action-square-packing-20260627.md
@@ -32,9 +33,9 @@ effect: >-
   through changes of inherited direction, measured by the active-metric
   projection-jump square function sum_i ||b_i-b_{i-1}||_{H_P,act}^2, equivalently reset/angle/selector/frame/collar/
   stop/legal variation. Parent-announced first-exit slabs charge that variation
-  to the parent-subtracted active route metric. Raw active-route Bessel is
-  overstrong; the corrected quotient embedding counts fresh residuals and
-  first-exit changed-reuse variation only.
+  to E_route. Raw active-route Bessel is overstrong; the corrected quotient
+  embedding counts fresh residuals and first-exit changed-reuse variation only
+  after E_route is bounded as a projection of the original participation law.
 ---
 
 # Selected readout decomposition for parent-subtracted current
@@ -203,7 +204,16 @@ C(u_0)+R_{\rm legal}(P)+Stop(P).
 
 ## 4. Consequence
 
-With the parent-subtracted active-weight embedding installed, the previously
+When the routed-current energy line
+
+```math
+\mathcal E_{\mathrm{route}}(P)
+\le
+C(u_0)+R_{\rm legal}(P)+Stop(P)
+\tag{12}
+```
+
+is supplied from the original material participation law, the previously
 installed relay applies:
 
 ```math
@@ -212,11 +222,11 @@ installed relay applies:
 \mathcal T_{\rm full}(u;[0,T))<\infty
 \Longrightarrow
 \sup_{t<T}\|u(t)\|_{H^s}<\infty .
-\tag{12}
+\tag{13}
 ```
 
 Thus this note proves the parent-subtracted selected-readout decomposition.
 The reset-variation claim is not a raw inherited-value theorem; it is a
 parent-announced first-exit charge in routed-current energy currency. That
-currency is paid in the quotient active metric: raw inherited active weight is
-not counted as new selected child action.
+currency is still the open upstream line; raw inherited active weight is not
+counted as new selected child action.
