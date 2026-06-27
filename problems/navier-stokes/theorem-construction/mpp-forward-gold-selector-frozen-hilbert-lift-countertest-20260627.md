@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-selector-frozen-hilbert-lift-countertest-20260627
-status: hilbert-lift-refined-to-fixed-carrier-plus-moving-selector-carleson
+status: hilbert-lift-refined-to-fixed-carrier-plus-moving-selector-and-stochastic-exponential-bmo
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material full-clock / selected first-ratio gain
@@ -11,14 +11,19 @@ audits_hinge:
 refined_hinge:
   - FixedCarrierVisibleSilentHilbertLift.A
   - MovingSelectorVariationCarleson.A
+  - StochasticExponentialSelectedDensityHilbertBMO.A
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-visible-silent-selected-density-hilbert-lift-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-visible-silent-hilbert-lift-audit-selected-tail-frontier-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-hilbert-lift-direct-boundary-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiii-canonical-selected-carrier-identification-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-measure-persistence-production-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-heredity-finite-menu-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-packet-selector-polar-retention-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-selection-tax-density-atom-boundary-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-shadow-action-localization-selector-stability-direct-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-selector-kinematic-realization-direct-test-20260622.md
 ---
 
 # Selector-frozen Hilbert lift countertest
@@ -51,8 +56,10 @@ C\|\Delta_QZ^{C_\ast}\|_{\mathcal H_{\rm lift}}
 ```
 
 If `(2)` holds and the projections defining \(Z^{C_\ast}\) are nested, then
-Bessel/Pythagoras gives martingale BMO and hence the strict reverse-Holder /
-good-lambda gain for that fixed carrier.
+Bessel/Pythagoras gives the Hilbert square function.  To become a strict
+reverse-Holder / good-lambda gain, this must be used as a compensated
+stochastic-exponential estimate for the selected density ratios, not merely as
+bare BMO of an arbitrary logarithm.
 
 This is a real proof mechanism.  It converts the square-function theorem from
 scalar tail counting into Hilbert geometry.
@@ -246,16 +253,107 @@ C_N(u_0)\mathcal R(Q_0)+R_{\rm legal}(Q_0)
 
 as the exact remaining label-variation theorem.
 
-## 6. Result
+## 6. Martingale theorem actually needed
+
+The scalar density theorem should be formulated multiplicatively.  Let
+
+```math
+f_Q=\mathbb E_{\mathcal R}(f\mid Q),
+\qquad
+r_Q={f_Q\over f_{\operatorname{par}(Q)}}.
+\tag{18}
+```
+
+The correct noncircular route is:
+
+```math
+\mathbb E(r_Q\mid \operatorname{par}(Q))=1,
+\tag{19}
+```
+
+and
+
+```math
+\log r_Q
+=
+\ell_Q(\Delta_QZ)-\psi_Q+e_Q,
+\tag{20}
+```
+
+where \(\psi_Q\) is the exponential compensator/normalizer, the jump size or
+exponential moment is uniformly controlled, and
+
+```math
+\sup_{P}
+{1\over\mathcal R(P)}
+\sum_{Q\subseteq P}
+\|\Delta_QZ\|_{\mathcal H_{\rm ext}}^2\mathcal R(Q)
+\le
+C_N(u_0).
+\tag{21}
+```
+
+Then martingale John--Nirenberg / Kazamaki gives the usable reverse-Holder
+form:
+
+```math
+\int_P f^{1+\varepsilon}\,d\mathcal R
+\le
+C_N(u_0)\mathcal R(P).
+\tag{22}
+```
+
+This is enough for the strict good-lambda half-tail.  It is weaker and more
+natural than proving the literal density-increment square function directly.
+
+Bare BMO of \(\log\rho\) gives only
+
+```math
+\sum_{Q\subseteq P}
+|\Delta_Q\log\rho|^2\mathcal R(Q)
+\lesssim
+\mathcal R(P).
+\tag{23}
+```
+
+It does not by itself imply the literal density-amplitude estimate
+
+```math
+\sum_{Q\subseteq P}
+|f_Q-f_{\operatorname{par}(Q)}|^2\mathcal R(Q)
+\lesssim
+\mathcal R(P),
+\tag{24}
+```
+
+because `(24)` also contains the size of \(f_{\operatorname{par}(Q)}\).  To
+claim `(24)` directly one would need an extra density-weighted Carleson
+embedding:
+
+```math
+\sum_{Q\subseteq P}
+f_{\operatorname{par}(Q)}^2
+\|\Delta_QZ\|_{\mathcal H_{\rm ext}}^2
+\mathcal R(Q)
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P).
+\tag{25}
+```
+
+That weighted estimate is stronger than what the current Hilbert lift supplies.
+The noncircular target should therefore be the stochastic-exponential
+reverse-Holder route `(18)`--`(22)`.
+
+## 7. Result
 
 The Hilbert-lift route is still the best current Gold idea, but only in the
 selector-correct form:
 
 ```text
-fixed-carrier Hilbert BMO
+fixed-carrier stochastic-exponential Hilbert BMO
 +
 moving-selector variation Carleson
-=> selected-density square-function Carleson.
+=> selected-density reverse Holder / strict good-lambda.
 ```
 
 The previous unfrozen statement tried to make the physical Hilbert carrier pay
@@ -265,7 +363,8 @@ carrier defect, not a free PDE increment.
 The live hinge is now:
 
 ```text
-prove MovingSelectorVariationCarleson.A, or prove finite/compact selected
-carrier heredity strong enough to reduce the Gold tail to fixed-carrier Hilbert
-BMO.
+prove MovingSelectorVariationCarleson.A and
+StochasticExponentialSelectedDensityHilbertBMO.A, or prove finite/compact
+selected carrier heredity strong enough to reduce the Gold tail to the fixed
+carrier stochastic-exponential Hilbert BMO case.
 ```
