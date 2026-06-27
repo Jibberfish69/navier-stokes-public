@@ -65,8 +65,9 @@ K_P(E)
 \tag{2}
 \]
 
-The Bessel construction gives \(K_P(\widehat P)\) trace class on the stopped
-finite-aperture frame, or finite rank after the \(N\)-stopped truncation:
+The Bessel construction gives \(K_P(\widehat P)\) bounded on the stopped
+finite-aperture frame, and finite-rank/trace-class after the \(N\)-stopped
+truncation:
 
 \[
 \operatorname{tr}K_P(\widehat P)\le C_N,
@@ -132,7 +133,7 @@ Using \(\log\det(I+A)\le\operatorname{tr}A\),
 \tag{8}
 \]
 
-For the actual Navier-Stokes stress current, the scalar realized version is
+For the actual Navier-Stokes stress current, the realized scalar shadow is
 
 \[
 s_0=\lambda+\mu_G({\rm past}),
@@ -153,7 +154,10 @@ and
 \tag{10}
 \]
 
-This is the one-dimensional shadow of `(7)`.
+This is the one-dimensional shadow of `(7)`. It is useful only for the actual
+stress \(G_P\). The operator log-det controls frame novelty; the scalar shadow
+controls realized current novelty. Neither one is allowed to count a repeated
+parent level as new selected action.
 
 ## 3. Bellman capacity
 
@@ -184,8 +188,56 @@ Across a stopped tree, the same identity is applied on each parent-known
 laminar branch. Bounded stopped overlap and legal/terminal stops add only
 \(R_{\rm legal}\) and \(Stop_{\rm term}\).
 
+There is also a more concrete stress-realized capacity:
+
+\[
+B_i^{G}
+:=
+C_N\bigl(\log s_P^{\max}-\log s_i\bigr),
+\qquad
+s_P^{\max}:=\lambda+\mu_G(\widehat P).
+\tag{13a}
+\]
+
+Then `(10)` gives
+
+\[
+C_N
+\log\left(1+\frac{\mu_G(\widehat Q_i)}{s_{i-1}}\right)
++B_i^{G}
+\le
+B_{i-1}^{G}.
+\tag{13b}
+\]
+
+The Hilbert projection capacity from the coboundary note is the corresponding
+energy version:
+
+\[
+\mathcal B_Q
+:=
+\|G_P-\Pi_{\mathcal P_Q}G_P\|_{\mathfrak H_P}^2.
+\tag{13c}
+\]
+
+It satisfies the Pythagorean drop
+
+\[
+\|\Delta M_Q\|_{\mathfrak H_P}^2+\mathcal B_Q
+\le
+\mathcal B_{Q^-},
+\qquad
+M_Q=\Pi_{\mathcal P_Q}G_P.
+\tag{13d}
+\]
+
+So there are two compatible views of the same parent capacity: the squared
+unexplained stress current and the logarithmic/effective-resistance leverage of
+the stopped frame. The first pays true projection increments; the second pays
+scale-critical novelty after the parent frame has already seen the channel.
+
 Thus the algebraic part of `RetainedActiveRawBellmanCapacity.A` is proved once
-the selected action is admitted as leverage:
+the selected action is admitted as parent-subtracted leverage:
 
 \[
 \omega_i^{new}
@@ -228,7 +280,61 @@ B(P)
 
 which is the Bellman form needed by the active route metric.
 
-## 4. Heat-scale pressure test
+## 4. Countermodel: level reuse cannot be counted
+
+The failure mode is exact inherited reuse counted as new action. Let
+\(\mathfrak H=\mathbb R^2\), \(G=e_1\), \(\ell_m=2^{-m}\), and
+
+\[
+a_m=\sqrt{\ell_m}\,e_1 .
+\tag{17}
+\]
+
+Then
+
+\[
+\mu_m=|\langle G,a_m\rangle|^2=\ell_m,
+\qquad
+\omega_m^{level}=|\langle G,e_1\rangle|^2=1.
+\tag{18}
+\]
+
+The raw stress-square bill is finite while the fake level action diverges:
+
+\[
+\sum_m\mu_m<\infty,
+\qquad
+\sum_m\omega_m^{level}=\infty.
+\tag{19}
+\]
+
+The parent projection record does not move:
+
+\[
+M_m=M_{m-1}=e_1,
+\qquad
+\mathcal B_{m-1}-\mathcal B_m=0.
+\tag{20}
+\]
+
+So no Bellman inequality can pay \(\omega_m^{level}\). This is not a bug in the
+capacity. It is the theorem's admission boundary: exact inherited level reuse is
+parent current, not new retained selected action. The admissible new readout is
+
+\[
+\Delta J_Q^{new}
+=
+\langle G_P,d_Q\rangle
++\langle \Delta M_Q,\widehat b_Q\rangle
++\langle M_{Q^-},
+\widehat b_Q-\mathsf T_{Q^-\to Q}\widehat b_{Q^-}\rangle .
+\tag{21}
+\]
+
+Only those three terms can enter \(\omega_Q^{new}\): fresh orthogonal residual,
+parent current coboundary, and paid frame/selector/collar/reset drift.
+
+## 5. Heat-scale pressure test
 
 The old heat-scale counterprofile had
 
@@ -238,14 +344,14 @@ The old heat-scale counterprofile had
 \omega_{Q_m}\sim1,
 \qquad
 \sum_m\ell_m<\infty.
-\tag{17}
+\tag{22}
 \]
 
 Raw energy cannot pay \(\sum_m1\). Effective resistance changes the count. With
 
 \[
 s_{m-1}=\lambda+\sum_{j<m}\ell_j,
-\tag{18}
+\tag{23}
 \]
 
 the leverage charge is
@@ -254,7 +360,7 @@ the leverage charge is
 \tau_m
 \simeq
 \log\left(1+\frac{\ell_m}{s_{m-1}}\right),
-\tag{19}
+\tag{24}
 \]
 
 and therefore
@@ -264,7 +370,7 @@ and therefore
 \le
 \log\left(1+\lambda^{-1}\sum_m\ell_m\right)
 <\infty.
-\tag{20}
+\tag{25}
 \]
 
 So the repeated heat-scale train is killed without inventing a new physical
@@ -274,7 +380,7 @@ selector still tries to count every \(Q_m\) as \(\omega_m^{new}\sim1\), then
 new action in the parent-known frame; it is either inherited reuse, paid reset
 of the frame, legal/reselection loss, or terminal stop.
 
-## 5. Relation to the installed reset branch
+## 6. Relation to the installed reset branch
 
 Changing the frame changes \(V_i\). The determinant identity is valid only
 inside a fixed parent-known stopped frame. When \(V_i\) is replaced by a new
@@ -288,7 +394,7 @@ frame \(V_i'\), the transition cost is
 \left\|
 V_i^{-1/2}(V_i'-V_i)V_i^{-1/2}
 \right\|_{\rm tr,+}.
-\tag{21}
+\tag{26}
 \]
 
 This is the operator version of the inverse-Gram motion already isolated in
@@ -300,7 +406,7 @@ motion. The parent-announced first-exit reset theorem charges them into
 Thus exact reuse is handled by leverage saturation; changed reuse is handled by
 the reset-to-\(\mathcal E_{\rm route}\) reduction.
 
-## 6. Remaining theorem
+## 7. Remaining theorem
 
 This note changes the remaining PDE burden. It is no longer a request for raw
 Bessel to dominate the active critical metric. The algebraic Bellman mechanism
@@ -325,7 +431,7 @@ C_N
 I+V_{Q^-}^{-1/2}\Delta K_QV_{Q^-}^{-1/2}
 \right)
 +R_Q^{legal}+Stop_Q^{term}+Reset_Q^{paid}.
-\tag{22}
+\tag{27}
 \]
 
 If `(22)` is proved from the stopped Navier-Stokes participation law, then
