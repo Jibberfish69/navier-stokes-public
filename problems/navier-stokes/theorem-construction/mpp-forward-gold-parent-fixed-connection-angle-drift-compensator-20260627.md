@@ -14,6 +14,7 @@ refines:
   - EndpointInnovationOrthogonalityOrPaidAngleDrift.A
   - PredictableRootWeightMartingaleRealization.A
   - OriginalHistoryParentPredictableFreshInnovationCarleson.A
+  - ParentSubtractedDynamicSilentFreshInnovationCarleson.A
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-common-parent-hilbert-geometry-angle-drift-block-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-active-weight-compensator-from-scale-memory-storage-20260627.md
