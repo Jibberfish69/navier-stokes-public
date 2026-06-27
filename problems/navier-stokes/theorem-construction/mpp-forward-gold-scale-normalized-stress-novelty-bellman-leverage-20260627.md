@@ -1,10 +1,13 @@
 ---
 theorem_id: forward-gold-scale-normalized-stress-novelty-bellman-leverage-20260627
-status: live-gold-producer-open
+status: bellman-leverage-pressure-test-superseded-by-source-currency
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
+superseded_live_hinge_by:
+  - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 attacks_hinge:
   - ScaleNormalizedStressNoveltyBellmanLeverage.A
   - RetainedActiveRawBellmanCapacity.A
@@ -20,15 +23,14 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-route-metric-bellman-capacity-pressure-test-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-history-routed-current-energy-bessel-producer-20260627.md
 effect: >-
-  Records the actual remaining Gold producer after the projection-jump / first-exit
-  Carleson reduction.  The original packet gives finite raw strain-work, but raw
+  Records a pressure test that led to the source-level selected-action currency.
+  The original packet gives finite raw strain-work, but raw
   strain-work alone does not rule out infinitely many scale-normalized selected
-  refills from smaller and smaller stress reads.  The open theorem is the
-  Bellman/leverage novelty rule: a retained selected child can count as a unit
-  refill only when it has real new leverage against the parent stress record,
-  with exact reuse counted as parent current, fresh orthogonal change paid by
-  strain, and changed reuse paid by reset/angle/collar/connection motion.
-  Partial, not Gold closed.
+  refills from smaller and smaller stress reads.  The Bellman/leverage novelty
+  rule is now support: retained selected action is governed by bounded
+  original-packet projection / bounded Riesz representative before scalar
+  readout, inherited/root current, paid stop/legal/reselection/selector drift,
+  or an alias of those. Partial, not Gold closed by this pressure test alone.
 ---
 
 # Scale-normalized stress novelty Bellman leverage
@@ -89,7 +91,7 @@ themselves solve the scale-normalized refill count. A tiny raw stress read can
 still be selected as a unit refill unless the selector is forced to measure its
 novelty against the parent stress record.
 
-The remaining theorem is the Bellman/leverage rule:
+The Bellman/leverage pressure-test rule was:
 
 \[
 \omega_Q^{new}
@@ -127,9 +129,10 @@ controlled by the same material participation law. Then parent-subtracted fresh
 Bessel, projection-jump first-exit Carleson, and the leverage telescope give
 finite selected critical action.
 
-Thus the live Gold producer is not the already-proved fact that changed reuse is
-charged to \(\mathcal E_{\rm route}\). The live producer is the scale-normalized
-novelty rule `(5)` and its Bellman telescope `(6)`: retained selected action must
-require real new leverage against the parent stress record.
+Thus this note does not define the live Gold producer after the source-currency
+installation. The live producer is `SelectedActionCurrencyBoundedOriginalPacketEnforcement.A`:
+retained selected action must be a bounded original-packet/Riesz read before
+scalar selected amplification, or it must be inherited/root current, paid
+stop/legal/reselection/selector drift, or an alias of those.
 
 Partial, not Gold closed.
