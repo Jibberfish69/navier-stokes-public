@@ -356,17 +356,45 @@ C_N(u_0),
 ```
 
 and normalized positive martingale ratios, this is the noncircular input for
-stochastic-exponential martingale BMO.  The conclusion is the usable
-reverse-Holder estimate
+stochastic-exponential martingale BMO.  The required ratio structure is
+
+```math
+r_Q={f_Q\over f_{\operatorname{par}(Q)}},
+\qquad
+\mathbb E(r_Q\mid \operatorname{par}(Q))=1,
+\tag{22}
+```
+
+with \(\psi_Q\) the predictable exponential normalizer and with uniformly
+controlled jumps or conditional exponential moments.  Then martingale
+John--Nirenberg/Kazamaki gives the usable reverse-Holder estimate
 
 ```math
 \int_P f^{1+\varepsilon}\,d\mathcal R
 \le
 C_N(u_0)\mathcal R(P),
-\tag{22}
+\tag{23}
 ```
 
 which is enough for the strict selected good-lambda half-tail.
+
+This is deliberately weaker than demanding the literal density-increment square
+function at the start.  Bare log-BMO gives only an unweighted bound on
+\(\Delta\log\rho\), which lacks the martingale normalizer and exponential
+moment control.  A density-weighted square function would require terms like
+
+```math
+\sum_{Q\subseteq P}
+f_{\operatorname{par}(Q)}^2
+\|\Delta_QZ\|_{\mathcal H_{\rm lift}}^2
+\mathcal R(Q),
+\tag{24}
+```
+
+which is stronger than the current Hilbert lift and risks assuming the selected
+density gain being proved.  The clean noncircular target is the compensated
+stochastic exponential theorem whose output is selected-density
+\(RH_{1+\varepsilon}\).
 
 ## 8. Relation to the moving-selector direct test
 
@@ -386,14 +414,14 @@ The direct test leaves exactly three branches:
 \text{terminal selected-density atom / critical half-tail.}
 \end{aligned}
 }
-\tag{23}
+\tag{25}
 ```
 
-This note belongs to the second line of `(23)`.  It says that the label defect
+This note belongs to the second line of `(25)`.  It says that the label defect
 is paid only through the full-packet order-lock gap, visible selector-collar
 variation, retained three-measure packet custody, or named Body defects.  If
 none of those mechanisms is present, the branch has not been paid; it remains
-the third line of `(23)`.
+the third line of `(25)`.
 
 ## 9. Result
 
