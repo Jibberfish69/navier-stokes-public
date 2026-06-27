@@ -1,38 +1,41 @@
 ---
 theorem_id: forward-gold-original-history-routed-current-energy-bessel-producer-20260627
-status: original-history-routed-current-energy-closed-under-parent-known-covariant-bessel-routing
+status: conditional-on-scale-critical-stopped-frame-carleson-embedding
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
-closes:
+attacks_hinge:
   - OriginalHistoryRoutedCurrentEnergyFinite.A
   - StoppedSelectorBoundedProjectionOriginalParticipationLaw.A
+  - ScaleCriticalStoppedFrameCarlesonEmbedding.A
 uses:
   - ParentSubtractedInheritedActionSquarePacking.A
   - ParentAnnouncedFirstExitResetVariation.A
   - MaterialTractionCurrentParticipationLaw.A
-remaining_audit:
-  - Verify the downstream parent-drop/full-clock/Hs-continuation relays consume the parent-subtracted selected action and not stale raw clocks.
+leaves_open:
+  - ScaleCriticalStoppedFrameCarlesonEmbedding.A
+  - active route metric Bessel/Carleson embedding before selected readout
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-frame-bessel-critical-weight-fork-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-announced-reset-variation-to-routed-energy-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-bounded-projection-original-participation-law-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-energy-stable-routed-current-projection-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-traction-current-participation-law-20260627.md
 effect: >-
-  Proves the remaining routed-current energy line by identifying the routed
-  derivative, turnstile, exchange, and covector terms as the covariant derivative
-  of a parent-known stopped annular wavelet frame.  The resulting square function
-  is Bessel in the original material Hilbert space, hence is controlled directly
-  by the original viscous strain energy ||2nu S_A||^2.  This closes the Gold
-  producer at the stopped-current level; downstream relays still must be checked
-  for stale raw-clock imports before claiming manuscript-level MPP closure.
+  Identifies the only way the remaining routed-current energy line could be
+  proved by stopped-frame Bessel: the covariant stopped annular frame must be
+  Bessel for the same active route metric consumed by selected action. Raw L2
+  Bessel for a parent-known material wavelet frame is support, but it does not
+  pay the scale-critical Gold weight. The open theorem is the scale-critical
+  stopped-frame Carleson/Bessel embedding before selected readout.
 ---
 
 # Original-history routed-current energy from the stopped Bessel frame
 
-The routed-current energy is finite because, before selected readout, it is a
-square function of the original material traction current.
+The routed-current energy is finite from the stopped frame only if the stopped
+frame is Bessel in the active route metric. This note records the conditional
+mechanism and the exact remaining embedding theorem.
 
 Let
 
@@ -113,15 +116,14 @@ w(\sigma,t)|\mathcal G_{\sigma,t}|^2\,d\sigma dt
 
 ## 2. Parent-known Bessel estimate
 
-Because the stopped selector is parent-known, has finite aperture, and resets
-only through parent-announced first exits, the family
+Gold would close if the stopped selector produced a Bessel family
 
 ```math
 \sqrt{w(\sigma,t)}\,\mathcal D_\sigma a_{\sigma,t}
 \tag{7}
 ```
 
-is a Bessel family in \(\mathfrak H_P\).  Equivalently, for every
+in \(\mathfrak H_P\). Equivalently, for every
 \(F\in\mathfrak H_P\),
 
 ```math
@@ -135,13 +137,21 @@ C_N\|F\|_{\mathfrak H_P}^2
 \tag{8}
 ```
 
-This is the standard stopped-frame square-function estimate: inside one
-stopped chart it is finite-frame Bessel; across charts, parent-announced
-first-exit slabs have bounded stopped overlap; degenerate aperture, illegal
-selector motion, or non-parent-known changes are precisely the stop/legal
-terms.
+This is not a consequence of parent-knownness, finite aperture, or ordinary raw
+Littlewood-Paley Bessel alone. It is the active-metric stopped-frame embedding:
 
-Apply `(8)` to \(F=G\).  Using `(5)` gives
+```text
+ScaleCriticalStoppedFrameCarlesonEmbedding.A.
+```
+
+The heat-scale compatibility test shows the gap. Raw energy/dissipation can
+have scale cost \(\ell_m\), while the normalized Gold clock has cost \(1\) on
+the same critical sample. Therefore raw \(L^2\) Bessel can be finite while the
+active selected clock diverges. The weight \(w\) in `(8)` must already contain
+the scale-critical admission, and proving Bessel for that weighted family is
+the remaining theorem.
+
+If `(8)` is proved, apply it to \(F=G\). Using `(5)` gives
 
 ```math
 \mathcal E_{\rm route}(P)
@@ -167,7 +177,7 @@ C_\nu E_0(u_0),
 ```
 
 with the parent restriction handled by monotonicity and bounded stopped overlap.
-Therefore
+Therefore, conditionally on `(8)`,
 
 ```math
 \boxed{
@@ -179,7 +189,7 @@ C_N(u_0)+R_{\rm legal}(P)+Stop(P).
 ```
 
 This proves `OriginalHistoryRoutedCurrentEnergyFinite.A` at the stopped-current
-level.
+level only after `ScaleCriticalStoppedFrameCarlesonEmbedding.A` is proved.
 
 ## 4. Consequence for the selected action
 
@@ -195,7 +205,7 @@ C(u_0)
 \tag{12}
 ```
 
-Combining `(11)` and `(12)` gives
+Combining conditional `(11)` and `(12)` gives
 
 ```math
 \sum_{Q\subset P}
@@ -206,12 +216,13 @@ C_N(u_0)+R_{\rm legal}(P)+Stop(P).
 ```
 
 Thus the parent-subtracted stopped selected-current square packing is finite
-from original smooth data.
+from original smooth data only under the active-metric stopped-frame embedding.
 
 ## 5. Remaining verification before claiming full MPP closure
 
-This closes the stopped-current producer.  The downstream relays must now be
-audited against the corrected currency:
+This does not close the stopped-current producer by itself. The downstream
+relays can be audited against the corrected currency only after the active
+embedding `(8)` is proved:
 
 ```text
 parent-subtracted selected current square packing
@@ -220,7 +231,7 @@ parent-subtracted selected current square packing
 -> H^s continuation.
 ```
 
-Those relays must consume `(13)`.  Any relay that still consumes raw inherited
-child stress, a future selected tail, downstream full-clock finiteness, or a
-stale scalar primitive clock remains stale and must be corrected before final
-Gold closure is claimed.
+Those relays must consume `(13)` after `(8)` is installed. Any relay that still
+consumes raw inherited child stress, a future selected tail, downstream full-clock
+finiteness, raw \(L^2\) Bessel in place of the active metric, or a stale scalar
+primitive clock remains stale.
