@@ -206,8 +206,9 @@ In formula form, for a parent-known legal mode filtration
 H_{e^-}\|(I-\Pi_{\mathcal V_m})D_e\|^2
 \le
 \varepsilon_m
-\,
-\mathcal E_{\rm mode}(P),
+\sum_{e\subset P}
+H_{e^-}\|D_e\|^2
++C_m\mathcal E_{\rm mode}(P),
 \qquad
 \varepsilon_m\downarrow0,
 \tag{10}
@@ -232,6 +233,16 @@ negative scale return.
 If `(10)` is available, pick \(m\) so that the tail is small.  The normalized
 defect has positive mass inside the finite-dimensional \(\mathcal V_m\), hence
 has a nonzero strongly convergent subsequence there.  That supplies `(9)`.
+
+The active frontier names the same bill in tower language:
+
+```text
+RootDefectHighFrequencyTailCharge.A.
+```
+
+That theorem is the finite-mode tail estimate `(10)` with
+\(\mathcal V_m=\Pi_{\le M}^P\mathcal H_{\rm lift}\) and
+\(\mathcal E_{\rm mode}\) paid by parent-known tower/root currency.
 
 ## 5. Link to persistent affine return
 
