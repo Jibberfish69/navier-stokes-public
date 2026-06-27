@@ -126,131 +126,210 @@ The same stopped Hodge lift, divergence-free stress testing, material
 connection motion, collar motion, and inherited/fresh stress-channel split must
 therefore be read on the rescaled unit packet.
 
-## 3. Correct scale-uniform closure statement
+## 3. Local packet storage calculation
 
-For each rescaled stopped packet, the desired theorem is a normalized full
-packet action inequality
+On one fully rescaled packet, isolate a high shell of the material stress
+record.  Its normalized high stress energy has the model form
 
 ```math
-d\mathfrak A^{(r)}
-+c\,d\Omega^{(r)}
-\le
-dR^{(r)},
-\qquad
-\mathfrak A^{(r)}\ge -C_N(u_0),
+\dot h_j+\nu d_j=b_jh_j+\rho_j.
 \tag{8}
 ```
 
-where \(d\Omega^{(r)}\) is the full pressure-viscosity-incompressibility-
-velocity material action of the rescaled packet:
+Here \(h_j\) is the normalized high stress energy, \(d_j\) is the corresponding
+viscous/high-shell dissipation, \(b_j\) is the low material pressure/frame
+coefficient, and \(\rho_j\) is legal, stop, or lower-order transfer.  The bad
+normalized action is
 
 ```math
-d\Omega^{(r)}
-=
-d\Omega^{(r)}_{\rm fresh}
-+d\Omega^{(r)}_{\rm reuse}
-+d\Omega^{(r)}_{\rm reset}
-+d\Omega^{(r)}_{\rm collar}
-+d\Omega^{(r)}_{\rm legal/stop}.
+b_jh_j\,ds.
 \tag{9}
 ```
 
-The constant in `(8)` must be independent of \(r\).  Any hidden dependence on
-the original packet scale is exactly the heat-scale gap.
-
-In inherited-channel notation, the reused part of `(8)` is the scale-uniform
-version of
+The direct storage is
 
 ```math
-\operatorname{Rec}(\Psi^{(r)})
-+V_-(\Psi^{(r)})
-\le
-C_N(u_0)+R_{\rm legal}^{(r)}+Stop^{(r)}.
+A_j=-h_j.
 \tag{10}
 ```
 
-Equivalently, the unit-packet theorem must supply a forward native reserve
-assignment
+Then
 
 ```math
-\iota^{(r)}:\Gamma_N^{reuse}(P^{(r)})
-\to
-\mathcal R_N^{reuse,nat}(u_0;P^{(r)}),
+\dot A_j+b_jh_j
+=
+\nu d_j-\rho_j.
 \tag{11}
+```
+
+So the algebra pays the bad term.  The lower bound fails at exactly the
+continuation-strength point:
+
+```math
+A_j\ge -C
+\qquad
+\Longleftrightarrow
+\qquad
+h_j\le C.
+\tag{12}
+```
+
+Thus local packet storage is circular.  It proves the desired packet action
+only after assuming the high shell is already bounded.
+
+## 4. Gauge storage calculation
+
+The next local candidate is a gauge storage
+
+```math
+A_j=-m_jh_j,
+\qquad
+\dot m_j=-b_jm_j.
+\tag{13}
+```
+
+This cancels the same bad action:
+
+```math
+\dot A_j+m_jb_jh_j
+=
+m_j\nu d_j-m_j\rho_j.
+\tag{14}
+```
+
+But the weight is usable only while the coefficient clock is finite:
+
+```math
+m_j(s)=m_j(s_0)
+\exp\left(-\int_{s_0}^s b_j(\tau)\,d\tau\right).
+\tag{15}
+```
+
+So a uniform gauge requires
+
+```math
+\int |b_j|\,ds<\infty
+\tag{16}
+```
+
+or an equivalent signed bounded-oscillation control.  That is the full material
+clock in coefficient form.  Gauge storage is therefore another circular local
+storage unless the coefficient/frame service has already been paid from original
+history.
+
+## 5. Correct cross-scale closure statement
+
+The rescaled packet calculation leaves one nonlocal theorem.  Infinite nested
+reuse of the same material channel must create paid cross-scale change in the
+original history:
+
+```math
+\sum_{k\subset P}^{reuse}
+\Omega^{(1)}_{\rm norm}(P_k)
+\le
+C_N(u_0)+R_{\rm legal}(P)+Stop(P),
+\tag{17}
+```
+
+where each \(P_k\) is viewed in its own unit packet scaling, and
+\(\Omega^{(1)}_{\rm norm}(P_k)\) contains the normalized reused-channel action
+that local storage would pay only circularly.
+
+Equivalently, construct a forward same-material reserve assignment
+
+```math
+\iota:\Gamma_N^{reuse}(P)\to\mathcal R_N^{cross}(u_0;P)
+\tag{18}
 ```
 
 with
 
 ```math
-\omega_\gamma^{(r)}
+\omega_\gamma
 \le
-C_N\rho_{\iota^{(r)}(\gamma)}
-+R_{\rm legal}^{(r)}(\gamma)
-+Stop^{(r)}(\gamma),
+C_N\rho_{\iota(\gamma)}
++R_{\rm legal}(\gamma)
++Stop(\gamma),
 \qquad
-\operatorname{mult}(\iota^{(r)})\le C_N,
-\tag{12}
+\operatorname{mult}(\iota)\le C_N,
+\tag{19}
 ```
 
-and a scale-uniform reserve total
+and
 
 ```math
-\sum_{\rho\in\mathcal R_N^{reuse,nat}(u_0;P^{(r)})}\rho
+\sum_{\rho\in\mathcal R_N^{cross}(u_0;P)}\rho
 \le
-C_N(u_0)\mathcal R(P^{(r)})
-+R_{\rm legal}^{(r)}(P^{(r)})
-+Stop^{(r)}(P^{(r)}).
-\tag{13}
+C_N(u_0)+R_{\rm legal}(P)+Stop(P).
+\tag{20}
 ```
 
-## 4. Why this is stronger than scalar normalization
-
-Normalizing a selected readout can make a single burst look unit-size, but it
-does not preserve the whole participation law.  It can separate the scalar
-reading from the pressure constraint, metric motion, collar motion, reset,
-fresh Bessel part, and inherited reused-channel BV.
-
-Parabolic rescaling of the entire transported packet preserves those objects at
-once.  The proof then has only one possible pass/fail point: whether `(8)` is
-available with constants independent of \(r\).
-
-The heat-scale counterprofile says why this is necessary.  Raw energy can have
+The reserve atom must be born from actual cross-scale same-material change:
 
 ```math
-\sum_m \ell_m<\infty
-\tag{14}
+\rho
+\in
+\{
+\text{fresh orthogonal stress work},
+\text{collar/turnstile motion},
+\text{pressure/frame coefficient loss},
+\text{reset/reselection loss},
+\text{legal/stop loss}
+\}.
+\tag{21}
 ```
 
-while the normalized packet clock has
+This is the mathematical form of "reuse must pay."  Reusing the same rescaled
+packet shape down a nested terminal family is not forbidden by the local packet
+law.  It is forbidden only if repeating it forces one of the cross-scale changes
+in `(21)` with bounded multiplicity.
+
+## 6. Why Bessel and raw energy still miss the target
+
+The heat-scale counterprofile gives the scale count.  Raw energy and raw
+Bessel/strain attachment can have
 
 ```math
-\sum_m 1=\infty .
-\tag{15}
+\sum_k r_k<\infty
+\tag{22}
 ```
 
-Scale-uniform `(8)` would rule this out because every rescaled packet would pay
-one unit from the same original-history reserve/storage ledger.  Without `(8)`,
-the rescaling is only a faithful restatement of the critical obstruction.
+while smoothness needs to rule out
 
-## 5. Consequence if the packet inequality is proved
+```math
+\sum_k 1=\infty.
+\tag{23}
+```
 
-Assume `(8)` holds for the stopped packet family with the existing
-finite-overlap stop/legal accounting.  Summing over rescaled packets gives
+The standard fresh Bessel estimate pays genuine orthogonal stress work.  It does
+not pay infinitely many inherited reads of the same rescaled material channel.
+The local storage \(A_j=-h_j\) sees those reads but has no lower bound; the gauge
+storage sees them only after importing the full coefficient clock.
+
+Thus the noncircular Gold producer is `(17)`--`(21)`, not an ordinary packet
+energy and not a scalar readout normalization.
+
+## 7. Consequence if the cross-scale reuse theorem is proved
+
+Assume `(17)`--`(21)` holds for the stopped packet family with the existing
+finite-overlap stop/legal accounting.  Together with the installed fresh Bessel
+part, summing over rescaled packets gives
 
 ```math
 \sum_{P^{(r)}}\int d\Omega^{(r)}
 \le
 C_N(u_0)+R_{\rm legal}+Stop.
-\tag{16}
+\tag{24}
 ```
 
 The installed consumers then give finite selected critical action, finite
 routed-current/full same-material clock, bounded continuation-depth material
 record, and the standard \(H^s\) continuation past a finite terminal time.
 
-Thus the scale move is exactly right as a normalization principle.  The
-remaining theorem is the scale-uniform lower-bounded full-packet action
-inequality `(8)`, proved from the original Navier-Stokes law without importing
-the downstream full material clock.
+Thus the whole-packet rescaling is exactly right as a normalization principle,
+but the storage calculation shows what it cannot supply locally.  The remaining
+theorem is the cross-scale same-material reuse payment `(17)`--`(21)`, proved
+from the original Navier-Stokes law without importing the downstream full
+material clock.
 
 Gold remains partial, not closed.
