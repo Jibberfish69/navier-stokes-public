@@ -90,7 +90,7 @@ so
 \sqrt{\mathcal R(Q)}\,\Delta_QJ^S
 =
 \ell_Q(2\nu S_A)
-dR_Q^{legal}+dStop_Q .
++dR_Q^{legal}+dStop_Q .
 \tag{5}
 ```
 
