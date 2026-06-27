@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-parent-subtracted-inherited-direction-bessel-closure-20260627
-status: inherited-direction-decomposition-closed-reset-variation-finiteness-open
+status: inherited-direction-decomposition-closed-reset-variation-reduced-to-routed-energy
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / stopped root geometry
@@ -26,8 +26,9 @@ effect: >-
   and Bessel-paid by the viscous strain ledger.  Changed inherited reuse reduces
   exactly to the square variation of inherited directions,
   sum_i ||b_i-b_{i-1}||_{H_P}^2, equivalently reset/angle/selector/frame/collar/
-  stop/legal variation.  This note does not prove that variation finite from the
-  original material law.
+  stop/legal variation.  Parent-announced first-exit reset slabs pay that
+  variation in routed-current energy currency.  The remaining Gold theorem is
+  original-history finiteness of E_route from the Navier-Stokes participation law.
 ---
 
 # Parent-subtracted inherited-direction Bessel decomposition
@@ -202,13 +203,23 @@ root-geometry compensator. The root-geometry proof should now measure the child
 action by the parent-subtracted current \(\Delta J_i^{new}\). Any surface that
 treats raw inherited value as fresh selected child action is stale.
 
-The remaining root-geometry work is the exact original-history estimate
+The parent-announced first-exit reset representation turns this ledger into a
+routed-current energy charge:
 
 ```math
-\sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P}^2
+\operatorname{Var}^{stop}_P
 \le
-C(u_0)+R_{\mathrm{legal}}(P)+Stop(P).
+C_N\mathcal E_{\mathrm{route}}(P)
++R_{\mathrm{legal}}(P)+Stop(P).
 ```
 
-Equivalently, prove `ResetAngleSelectorVariationFiniteFromOriginalMaterialLaw.A`
+Equivalently, the remaining root-geometry work is no longer raw inherited
+variation. It is the original-history routed-current energy estimate
+
+```math
+\mathcal E_{\mathrm{route}}(P)
+\le
+C(u_0)+R_{\mathrm{legal}}(P)+Stop(P)
+```
+
 before descendant selected-tail readout.
