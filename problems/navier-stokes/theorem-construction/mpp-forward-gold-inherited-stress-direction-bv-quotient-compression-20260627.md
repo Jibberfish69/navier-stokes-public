@@ -168,7 +168,7 @@ original data; that finiteness is the remaining service-clock theorem.
 ## 4. The mixed Bessel/BV estimate
 
 The correct consumer estimate for the stopped stress-test readout is therefore
-the mixed bound
+the conditional mixed bound
 
 ```math
 \sum_Q|\langle G,d_Q\rangle_{\mathfrak H_P}|^2
@@ -201,9 +201,10 @@ w\left(
 ```
 
 The fresh term is square-packed by Hilbert orthogonality.  The inherited term is
-compressed into a BV scalar ledger.  After this quotient compression, the
-unpaid inherited multiplicity is bounded because repeated positive visits have
-already been summed into one \(V^+\) term for \(P_\alpha\).
+compressed into a BV scalar ledger.  After this quotient compression, repeated
+positive visits have been summed into one \(V^+\) term for \(P_\alpha\); the open
+PDE content is the original-data bound for the associated negative return and
+same-material service.
 
 This is the operational form of
 
@@ -211,8 +212,9 @@ This is the operational form of
 InheritedDirectionMultiplicityCarleson.A.
 ```
 
-It should be read as "bounded multiplicity after quotient compression," not as
-a demand to make raw repeated copies of the same inherited vector orthogonal.
+It should be read as "bounded multiplicity after quotient compression, provided
+the negative return/service charge is finite from original history," not as a
+demand to make raw repeated copies of the same inherited vector orthogonal.
 
 ## 5. Formal conversion theorem
 
