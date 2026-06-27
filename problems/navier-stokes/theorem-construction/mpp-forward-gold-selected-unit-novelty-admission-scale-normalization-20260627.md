@@ -22,6 +22,10 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-weighted-fresh-current-capacity-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-fresh-source-scale-memory-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-scale-memory-generator-energy-boundary-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-finite-score-or-paid-drift-proof-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-reset-witness-interval-bounded-overlap-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-native-selected-scale-lower-edge-audit-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-forward-native-reserve-birth-packing-direct-test-20260627.md
 effect: >-
   Converts the physical scale-normalization issue into a single selector
   admission theorem. The original Cauchy stress history supplies raw work; the
@@ -204,7 +208,41 @@ C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
 This is `OriginalScaleMemoryGeneratorEnergyBound.A`, or in the stronger storage
 form, `OriginalScaleMemoryStorageCoercivity.A`.
 
-## 5. Pressure test against the shrinking chain
+## 5. Installed local support and remaining root bound
+
+The repo already contains the useful local pieces.
+
+The finite stopped selector realizes strict reset as a first exit of a
+parent-known score, so the reset innovation has a derivative representation.
+The reset witness slabs have bounded laminar overlap.  This supports the paid
+reset/stop/legal part of `(3)`.
+
+The fresh selected-scale lower edge is also locally installed:
+
+\[
+\omega_Q
+\le
+C_N\rho_Q^{fresh}+R_{\rm legal}(Q).
+\tag{12}
+\]
+
+This says a fresh selected birth has a local selected-size atom once the birth is
+admitted.  It does not prove the root upper bound
+
+\[
+\sum_{Q\subset P}\rho_Q^{fresh}
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P).
+\tag{13}
+\]
+
+That root bound is the same remaining content as `(10)`--`(11)`: a
+bounded-multiplicity assignment of fresh selected births to original-history
+scale-memory/native-reserve atoms.  The first-birth/no-reuse map is the right
+method, but the multiplicity and original-storage summability are the open
+proof-bearing clauses.
+
+## 6. Pressure test against the shrinking chain
 
 For the dangerous shrinking sequence, each raw read may be a real Cauchy-stress
 read and each fresh direction may be Bessel-orthogonal.  That still does not
@@ -214,7 +252,7 @@ authorize
 \omega_m^{new}\simeq1
 \qquad\text{from}\qquad
 \|F_m\|^2\downarrow0.
-\tag{12}
+\tag{14}
 \]
 
 Under `(3)`, every retained unit must pass one of two tests:
@@ -223,7 +261,7 @@ Under `(3)`, every retained unit must pass one of two tests:
 \omega_m^{new}
 \lesssim
 \log\left(1+{\mu_m\over s_{m-1}}\right)
-\tag{13}
+\tag{15}
 \]
 
 for an existing channel, or
@@ -232,7 +270,7 @@ for an existing channel, or
 \omega_m^{new}
 \lesssim
 W_m\|F_m\|^2
-\tag{14}
+\tag{16}
 \]
 
 for a fresh birth.
@@ -243,7 +281,7 @@ parent-normalized leverage nor a first-birth scale-memory witness is not a
 retained unpaid selected child; it is a raw stress fluctuation, reset, legal
 loss, stop, or selector-definition failure.
 
-## 6. What is proved here
+## 7. What is proved here
 
 This note proves the formal reduction:
 
