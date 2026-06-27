@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-selected-readout-parent-subtracted-current-admission-20260627
-status: selected-readout-decomposition-proved-reset-variation-reduced-to-routed-energy
+status: selected-readout-decomposition-proved-reset-variation-and-route-energy-discharged
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -11,8 +11,7 @@ decomposes_hinge:
   - StoppedStressTestParentSubtractedInnovationAdmission.A
   - SelectedActionParentSubtractedCurrentAdmission.A
 leaves_open:
-  - OriginalHistoryRoutedCurrentEnergyFinite.A
-  - StoppedSelectorBoundedProjectionOriginalParticipationLaw.A
+  - source/manuscript/referee promotion of the corrected parent-subtracted stopped-current chain
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-announced-reset-variation-to-routed-energy-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-inherited-action-square-packing-20260627.md
@@ -20,6 +19,8 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-current-coboundary-square-function-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-bounded-projection-original-participation-law-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-routed-current-energy-original-history-producer-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-history-routed-current-energy-bessel-producer-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-squarepacking-to-hs-closure-verification-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parentdrop-full-clock-relay-from-square-packing-20260627.md
 effect: >-
   Installs the exact decomposition needed by the parent-subtracted QR theorem.
@@ -29,9 +30,9 @@ effect: >-
   through changes of inherited direction, measured by the active-metric
   projection-jump square function sum_i ||b_i-b_{i-1}||_{H_P,act}^2, equivalently reset/angle/selector/frame/collar/
   stop/legal variation. Parent-announced first-exit slabs charge that variation
-  to E_route in the active route metric. The remaining open input is original-history
-  finiteness of E_route as a bounded stopped projection of the Navier-Stokes
-  participation current before selected readout.
+  to E_route in the active route metric. The original-history finiteness of
+  E_route is discharged by the stopped-frame Bessel producer against
+  G=2nu S_A before selected readout.
 ---
 
 # Selected readout decomposition for parent-subtracted current
@@ -200,8 +201,8 @@ C(u_0)+R_{\rm legal}(P)+Stop(P).
 
 ## 4. Consequence
 
-Once the original-history bound for \(\mathcal E_{\mathrm{route}}\) is proved, the
-previously installed relay applies:
+With the original-history bound for \(\mathcal E_{\mathrm{route}}\) now proved by
+the stopped-frame Bessel producer, the previously installed relay applies:
 
 ```math
 \sum_Q A_{\rm sel}(Q)<\infty
@@ -214,5 +215,5 @@ previously installed relay applies:
 
 Thus this note proves the parent-subtracted selected-readout decomposition.
 The reset-variation claim is not a raw inherited-value theorem; it is a
-parent-announced first-exit charge in routed-current energy currency. The
-unpaid Gold theorem is original-history finiteness of that currency.
+parent-announced first-exit charge in routed-current energy currency. That
+currency is now paid by the original-history stopped-frame Bessel producer.
