@@ -387,6 +387,27 @@ construction problem is to build this record from the same material PDE history
 and prove its critical BV / square-function / Carleson bound without using the
 future selected tail.
 
+The current producer boundary for that construction is:
+
+```text
+StoppedSelectorTestingCarleson.A
+/ OriginalHistoryHilbertBMOProducer.A.
+```
+
+For each stopped same-material selector region \(S\), the routed selected source
+measure \(\nu^S\) must satisfy cancellation and local testing for the stopped
+same-material Hilbert/Riesz/martingale lift \(T_S\):
+
+```math
+\|T_S(1_P\nu^S)\|_{L^2(P,\mathcal R)}^2
+\le
+C\mathcal R(P)+CR_{\rm legal}(P).
+```
+
+The testing defects must be Carleson over stopped subpackets. Defining
+\(Z^S=T_S\nu^S\) is only the candidate lift; the actual proof burden is this
+stopped testing theorem from original smooth data.
+
 ## 6. Closure relay
 
 If the stopped log-amplification square-function theorem holds, then standard
