@@ -21,13 +21,15 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-hodge-projection-commutator-pressure-operator-reduction-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-bounded-projection-original-participation-law-20260627.md
 effect: >-
-  Refines the corrected Gold dual-stress mechanism into a constructive Bessel
-  realization.  The physical traction current is not differentiated.  The
-  selected readout is lifted before selection to divergence-free material test
-  fields, pressure is killed in the stress pairing, and the Bessel family is
-  produced by a parent-known stopped QR/Gram-Schmidt frame in the material
-  stress Hilbert space.  Conditioning failures are stop/legal/reselection
-  events.  Partial, not Gold closed.
+  Refines the corrected Gold dual-stress mechanism into a constructive
+  parent-subtracted Bessel realization.  The physical traction current is not
+  differentiated.  The selected readout is lifted before selection to
+  divergence-free material test fields, pressure is killed in the stress
+  pairing, and counted child action is the parent-subtracted QR residual in the
+  material stress Hilbert space.  Exact inherited same-direction reuse is parent
+  current and contributes zero new child action.  Projection-change reuse is
+  reset/angle/selector/frame/collar/stop/legal variation in the same full-action
+  ledger.
 ---
 
 # Stopped stress-test frame QR realization
