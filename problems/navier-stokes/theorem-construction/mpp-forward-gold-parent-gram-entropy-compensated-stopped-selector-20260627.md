@@ -5,6 +5,9 @@ created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
+superseded_live_hinge_by:
+  - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 refines:
   - StoppedSelectorSelfNormalizedDeterminantAdmission.A
   - ParentStressGramDeterminantSelectedAdmission.A
@@ -257,8 +260,11 @@ R_{\rm reset}(P)+R_{\rm legal}(P)+Stop(P)
 \tag{17}
 \]
 
-Thus the Bellman/leverage chain closes after the parent-Gram entropy compensated
-selector is installed.
+Thus the parent-reuse Bellman/leverage side closes after the parent-Gram entropy
+compensated selector is installed.  This does not define a separate selected
+action source.  The chain is consumed only under the source-level rule that each
+retained selected unit has a bounded original-packet/Riesz representative before
+scalar readout.
 
 ## 6. Correct source-graph obligation
 
