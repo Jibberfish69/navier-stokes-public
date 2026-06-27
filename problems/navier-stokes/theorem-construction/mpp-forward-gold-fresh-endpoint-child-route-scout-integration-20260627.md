@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-fresh-endpoint-child-route-scout-integration-20260627
-status: sibling-routes-checked-fresh-mun-carleson-remains-active-open
+status: sibling-routes-checked-fresh-mun-carleson-remains-active-as-endpoint-child-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold terminal full-packet / fresh endpoint child selection
@@ -10,7 +10,7 @@ attacks_hinge:
   - FreshMuNCarlesonEndpointThreading.A
   - FreshEndpointMassShellPairThreading.A
   - FreshTerminalNuNWindowSeedSynchronization.A
-refined_hinge:
+refined_child_hinge:
   - FreshMuNCarlesonEndpointThreading.A
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-positive-affine-endpoint-mass-threading-reduction-20260627.md
@@ -67,7 +67,13 @@ M_0^{fresh}(t,x)
 \widetilde Z^{fresh}\ge0 .
 ```
 
-This note integrates the three independent child-route scouts.
+This note integrates the three independent child-route scouts.  Its authority
+is local to the endpoint-mass/AQK branch.  It does not replace the governing
+Gold branch
+
+\[
+\texttt{FreshSameCarrierIdentityAndOverrunTailUI.A}.
+\]
 
 ## 1. Shell-pair commutator child
 
@@ -212,8 +218,17 @@ The sibling routes
 remain useful only as conditional supports unless they first prove the
 independent measure estimate or an equivalent endpoint theorem.
 
-The next relay hinge should therefore stay on
+Within the endpoint-mass/AQK branch, the next child hinge is
 
 ```math
 \texttt{FreshMuNCarlesonEndpointThreading.A}.
 ```
+
+This is not the top-level relay hinge.  It is a subordinate route-selection
+inside the endpoint-mass mechanism.  The governing source-square branch remains:
+
+\[
+\texttt{FreshSameCarrierIdentity.A}
+\quad\text{then}\quad
+\texttt{FreshOverrunSameCarrierTailUI.A}.
+\]
