@@ -1,15 +1,17 @@
 ---
 theorem_id: forward-gold-inherited-stress-direction-bv-quotient-compression-20260627
-status: bv-quotient-compression-reduction-stress-direction-score-lift-open
+status: reused-channel-charge-reduction-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 refines:
   - InheritedDirectionMultiplicityCarleson.A
+  - ReusedSameMaterialStressChannelReturnResetCharge.A
   - ParentSubtractedQRNoFreeReset.A
   - RepeatedCoreRecordReturnStorageBound.A
 attacks_hinge:
+  - ReusedSameMaterialStressChannelReturnResetCharge.A
   - InheritedStressDirectionBVQuotientCompression.A
   - StressTestInheritedDirectionSignedScoreLift.A
   - OriginalParticipationStorageCoercivity.A
@@ -23,11 +25,11 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-gram-schur-participation-storage-20260627.md
 effect: >-
   Sharpens the inherited-direction part of the stopped stress-test frame problem:
-  repeated same-direction reads should not be counted as separate Bessel vectors.
-  They are quotient-compressed to one parent-known stopped score whose positive
-  visits are paid by record growth or negative return BV.  The remaining open
-  theorem is the signed score lift/storage for inherited stress-test directions
-  in the original participation metric.  Partial, not Gold closed.
+  repeated same-material stress-channel reads should not be counted as separate
+  Bessel vectors.  They are quotient-compressed to one parent-known stopped score
+  whose positive visits are paid by record growth or negative return/reset BV.
+  The single smoothness-closing theorem is the original-history reused-channel
+  charge bound for the inherited part.  Partial, not Gold closed.
 ---
 
 # Inherited stress-direction BV quotient compression
@@ -206,7 +208,71 @@ InheritedDirectionMultiplicityCarleson.A.
 It should be read as "bounded multiplicity after quotient compression," not as
 a demand to make raw repeated copies of the same inherited vector orthogonal.
 
-## 5. What is still open
+## 5. Formal conversion theorem
+
+The downstream smoothness conversion now hangs on one precise estimate.  With
+
+```math
+a_Q
+=
+\sqrt{\mathcal R(Q)}\,1_{\operatorname{Hist}(Q)}\nabla_Av_Q
+=b_Q+d_Q,
+\tag{12}
+```
+
+where \(d_Q\) is fresh relative to the parent-known past and \(b_Q\) is inherited,
+the fresh half is already Bessel:
+
+```math
+\sum_Q |\langle G,d_Q\rangle|^2
+\le C\|G\|_2^2.
+\tag{13}
+```
+
+Applied to \(G=2\nu S_A\), this gives
+
+```math
+\sum_Q^{\rm fresh}\mathcal R(Q)|\Delta_QJ^S|^2
+\le C(u_0)+R+Stop.
+\tag{14}
+```
+
+The remaining theorem is exactly the reused-channel charge bound
+
+```math
+\sum_Q |\langle 2\nu S_A,b_Q\rangle|^2
+\le C(u_0)+R+Stop.
+\tag{15}
+```
+
+This is the formal no-free-reset statement: a stopped selector cannot count the
+same material stress channel as infinitely many new refills unless the original
+transported history pays finite deformation, return, reset, reselection,
+selector, stop, or legal cost.
+
+Adding `(13)` and `(15)` gives full stopped square-packing:
+
+```math
+\sum_Q \mathcal R(Q)|\Delta_QJ^S|^2 < \infty.
+\tag{16}
+```
+
+The installed consumers then give
+
+```math
+\sum_Q A_{\rm sel}(Q)<\infty
+\quad\Longrightarrow\quad
+\mathcal T_{\rm full}(u;[0,T_*))<\infty
+\quad\Longrightarrow\quad
+\sup_{t<T_*}\|u(t)\|_{H^s}<\infty,\qquad s>\frac52.
+\tag{17}
+```
+
+Standard local Navier-Stokes continuation then extends a smooth solution past a
+finite maximal time.  Thus Gold smoothness follows once `(15)` is proved from
+the original Navier-Stokes law.  The note records `(15)` as open.
+
+## 6. What is still open
 
 The formal scalar BV part is elementary once `(5)` and `(8)` are installed.  The
 remaining PDE theorem is the signed score lift for inherited stress-test
@@ -237,7 +303,7 @@ Those must bound \(\mathcal E_{\rm route}(P)\) from the original Navier-Stokes
 material law.  Without that original-history storage bound, `(10)` is still only
 a conditional compression theorem.
 
-## 6. Current status
+## 7. Current status
 
 This note does not close Gold.  It replaces a too-literal inherited-vector
 Bessel target by the sharper mixed object:
