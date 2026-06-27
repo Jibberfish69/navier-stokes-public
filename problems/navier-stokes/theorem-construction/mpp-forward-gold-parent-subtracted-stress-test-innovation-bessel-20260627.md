@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-parent-subtracted-stress-test-innovation-bessel-20260627
-status: partial-innovation-bessel-proved-admission-open
+status: innovation-bessel-proved-selected-admission-wired-reset-full-action
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -17,6 +17,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-lifted-transition-bessel-consumer-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-transition-predictable-weight-martingale-lock-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-dynamic-silent-fresh-innovation-carleson-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-parent-subtracted-current-admission-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-finite-score-or-paid-drift-proof-20260627.md
   - problems/navier-stokes/theorem-construction/lagrangian-stokes-bridge-program.md
 effect: >-
@@ -25,7 +26,9 @@ effect: >-
   its Riesz representative onto the parent-known past stress-test span, and
   pack only the orthogonal innovation.  Low QR pivot is not a failure; it means
   the readout is inherited parent current and routes to record/return or
-  selector stop/legal payment.  Partial, not Gold closed.
+  selector stop/legal payment.  The selected-admission note wires the selector
+  to this parent-subtracted current; reset variation belongs to the same
+  full-action/no-free-reset law.
 ---
 
 # Parent-subtracted stress-test innovation Bessel
@@ -230,21 +233,15 @@ The material energy identity supplies
 
 hence the fresh stress-test current is original-data finite.
 
-## 5. What remains
+## 5. How this is consumed
 
 This note proves the Bessel mechanism for the parent-subtracted fresh stress
-tests.  The remaining theorem is the admission/routing statement:
+tests.  The selected-readout admission file supplies the selector identity that
+counts \(\langle G,d_Q\rangle\), not the raw child read
+\(\langle G,a_Q\rangle\).
 
-```text
-StoppedStressTestParentSubtractedInnovationAdmission.A.
-```
-
-It must prove that every retained selected stress readout admits the split
-`(7)` before scalar selected readout, and that the inherited component
-\(\langle G,b_Q\rangle\) is fully routed to fixed-core return/BV,
-selector/order-lock drift, stop, legal, or reselection loss.  With that
-admission theorem, the raw QR lower-pivot condition is no longer a live Gold
-wall; low pivot is inherited current, while the parent-subtracted fresh current
-packs by `(9)`--`(12)`.
-
-Partial, not Gold closed.
+The inherited component \(\langle G,b_Q\rangle\) remains parent current.  Its
+same-direction reuse contributes zero new child action; its changed reuse is
+reset/angle/selector/frame/collar/stop/legal variation and is counted in
+\(d\Omega_N^{reset}\).  The raw QR lower-pivot condition is no longer a live
+Gold wall.
