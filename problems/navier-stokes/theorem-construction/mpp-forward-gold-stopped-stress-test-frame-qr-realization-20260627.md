@@ -1,16 +1,21 @@
 ---
 theorem_id: forward-gold-stopped-stress-test-frame-qr-realization-20260627
-status: partial-qr-realization-proposed-conditioning-open
+status: parent-subtracted-fresh-qr-realized-reset-variation-recorded
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 attacks_hinge:
   - StoppedDivergenceFreeStressTestBessel.A
+  - ParentSubtractedInheritedActionSquarePacking.A
+  - ResetAngleSelectorVariationPayment.A
+  - SelectedActionParentSubtractedCurrentAdmission.A
   - StoppedSelectorBoundedProjectionOfOriginalParticipationLaw.A
   - OriginalHistoryRoutedCurrentEnergyFinite.A
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-traction-current-participation-law-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-inherited-action-square-packing-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-parent-subtracted-current-admission-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-lifted-transition-bessel-consumer-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-common-parent-hilbert-geometry-angle-drift-block-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-hodge-projection-commutator-pressure-operator-reduction-20260625.md
