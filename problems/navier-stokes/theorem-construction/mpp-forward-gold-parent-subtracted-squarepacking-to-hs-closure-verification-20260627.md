@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-parent-subtracted-squarepacking-to-hs-closure-verification-20260627
-status: downstream-relay-verified-after-parent-subtracted-active-weight-embedding
+status: downstream-relay-verified-conditional-on-route-energy-bound
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -10,8 +10,9 @@ verifies:
   - ParentDropFullClockRelayFromSquarePacking.A
   - MaterialClockToFixedHsContinuationReadout.A
 uses:
-  - ParentSubtractedActiveWeightCarlesonEmbedding.A
-  - OriginalHistoryRoutedCurrentEnergyFinite.A in quotient active metric
+  - ParentSubtractedSelectedReadoutDecomposition.A
+  - OriginalHistoryRoutedCurrentEnergyFinite.A / E_route bound
+  - HighActiveDensityForcesStopOrLegalReselection.A as current constructive route to E_route
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-inherited-action-square-packing-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-announced-reset-variation-to-routed-energy-reduction-20260627.md
@@ -23,8 +24,8 @@ source_surfaces:
 effect: >-
   Verifies the downstream relay shape for the corrected parent-subtracted selected
   current. The fresh QR residual is Bessel-paid and reset variation is routed into
-  first-exit changed-reuse variation. The active-weight fork demotes raw L2 Bessel;
-  the corrected quotient active embedding supplies the selected square packing.
+  E_route by parent-announced first-exit slabs. The downstream H^s relay is
+  verified only after E_route is bounded by the original material participation law.
 ---
 
 # Parent-subtracted square packing to \(H^s\) closure verification
@@ -63,8 +64,7 @@ C_N\mathcal E_{\rm route}(P)
 \tag{3}
 ```
 
-Using the parent-subtracted active-weight embedding, the original-history
-quotient route producer gives
+The remaining upstream line is the original-history routed-current energy bound
 
 ```math
 \mathcal E_{\rm route}(P)
@@ -73,7 +73,7 @@ C_N(u_0)+R_{\rm legal}(P)+Stop(P).
 \tag{4}
 ```
 
-Hence
+Once `(4)` is proved, the selected square packing follows:
 
 ```math
 \sum_{Q\subset P}
@@ -165,8 +165,7 @@ The chain is:
 ```text
 parent-subtracted QR
 -> parent-announced reset variation into E_route
--> active-weight stopped-frame Carleson embedding
--> conditional original-history bound for E_route
+-> original-history bound for E_route
 -> selected action
 -> parent drop
 -> finite material record
