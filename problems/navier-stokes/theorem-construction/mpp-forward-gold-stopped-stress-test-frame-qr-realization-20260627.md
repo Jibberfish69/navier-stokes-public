@@ -56,10 +56,10 @@ overlap, and route-change errors are kept outside `(1)` and charged only to
 
 For each retained stopped child \(Q\subset P\), start from the parent-known
 selected readout functional and lift it before scalar selection to a material
-test field \(u_Q\) satisfying
+test field \(v_Q\) satisfying
 
 ```math
-D_A\cdot u_Q=0 .
+D_A\cdot v_Q=0 .
 \tag{2}
 ```
 
@@ -70,16 +70,16 @@ The routed current readout is
 :=
 \sqrt{\mathcal R(Q)}
 \int_{\operatorname{Hist}(Q)}
-G:\nabla_Au_Q .
+G:\nabla_Av_Q .
 \tag{3}
 ```
 
 With \(G=T=-pI+2\nu S_A\), `(2)` gives
 
 ```math
-\int_{\operatorname{Hist}(Q)}pI:\nabla_Au_Q
+\int_{\operatorname{Hist}(Q)}pI:\nabla_Av_Q
 =
-\int_{\operatorname{Hist}(Q)}p\,D_A\cdot u_Q
+\int_{\operatorname{Hist}(Q)}p\,D_A\cdot v_Q
 =0,
 \tag{4}
 ```
@@ -105,7 +105,7 @@ Let \(a_Q\in\mathfrak H_P\) be the Riesz representative of \(\ell_Q\):
 ```
 
 The representative \(a_Q\) is the lifted gradient \(\sqrt{\mathcal R(Q)}
-\,\nabla_Au_Q\), projected into the parent stress Hilbert space with the
+\,\nabla_Av_Q\), projected into the parent stress Hilbert space with the
 material metric and stopped support.
 
 ## 2. Stopped QR frame
@@ -143,7 +143,7 @@ Linear combinations of divergence-free lifted tests remain divergence-free.
 Thus QR does not reintroduce pressure:
 
 ```math
-D_A\cdot\Bigl(\sum_Q c_Q u_Q\Bigr)=0 .
+D_A\cdot\Bigl(\sum_Q c_Q v_Q\Bigr)=0 .
 \tag{9}
 ```
 
@@ -172,7 +172,7 @@ Restoring the stopped errors,
 \mathcal R(Q)
 \left|
 \int_{\operatorname{Hist}(Q)}
-G:\nabla_Au_Q
+G:\nabla_Av_Q
 \right|^2
 \le
 C_\kappa
@@ -233,7 +233,7 @@ StoppedStressTestFrameQRConditioning.A.
 It must prove, in the parent-known stopped material atlas, that:
 
 1. the raw selected readout functionals admit divergence-free Hodge lifts
-   \(u_Q\) before scalar selected readout;
+   \(v_Q\) before scalar selected readout;
 2. the Riesz representatives \(a_Q\) are finite-overlap parent-known stress
    vectors in \(\mathfrak H_P\);
 3. the stopped QR conditioning failure in `(8)` is exactly a legal,
