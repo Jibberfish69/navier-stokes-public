@@ -7,6 +7,8 @@ route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 superseded_live_hinge_by:
   - BoundedOriginalPacketSelectedProjectionAdmission.A
+  - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 refines:
   - ParentStressGramDeterminantSelectedAdmission.A
   - FiniteStoppedScoreSelectorRealization.A
@@ -253,19 +255,20 @@ formulated directly in the full parent stress Gram record before scalar readout.
 
 ## 6. Result
 
-The current Gold chain is:
+The determinant support chain is:
 
 ```text
-StoppedSelectorSelfNormalizedDeterminantAdmission.A
-  -> ParentStressGramDeterminantSelectedAdmission.A
+SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
+  -> bounded original-packet/Riesz selected unit
+  -> StoppedSelectorSelfNormalizedDeterminantAdmission.A for parent reuse
   -> finite selected critical action
   -> finite full same-material clock
   -> H^s continuation.
 ```
 
 The determinant telescope and parent-subtracted Bessel parts are installed, but
-they close Gold only after the bounded original-packet selected-projection
-admission is proved.  The self-normalized finite stopped-selector bound `(9)`
+they are consumed only under the bounded original-packet selected-action
+currency.  The self-normalized finite stopped-selector bound `(9)`
 pays parent reuse; genuine fresh birth is paid by Bessel in the original stress
 Hilbert space after bounded-test admission.  Low determinant leverage cannot be
 promoted into unit selected action unless the selector pays reset, stop, legal,
