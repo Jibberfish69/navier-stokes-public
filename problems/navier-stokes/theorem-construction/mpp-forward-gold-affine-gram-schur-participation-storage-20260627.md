@@ -169,7 +169,7 @@ Completing the square in `(7)` gives the local Schur-storage inequality
 ```math
 H_w\|c_\theta^{+}\|_{L_x^2}^2
 \le
-C\,D_t\mathfrak S_J
+C\,[D_t\mathfrak S_J]_+
 +C\,H_w\|c_\theta^{-}\|_{L_x^2}^2
 +C\,\mathfrak S_J\,
 \|\mathsf G_J^{-1/2}(D_t\mathsf G_J)\mathsf G_J^{-1/2}\|_{\rm op,+}
@@ -243,10 +243,13 @@ moment Schur storages satisfy
 \sum_{J\subset P}
 \int
 \left[
-d\mathfrak S_J
+[d\mathfrak S_J]_+
 +c\,H_w\|c_{\theta,J}^{+}\|_{L_x^2}^2\,dt
 \right]
 \le
+C
+\sum_{J\subset P}\mathfrak S_J(t_{\rm root})
++
 C
 \sum_{J\subset P}
 \int
