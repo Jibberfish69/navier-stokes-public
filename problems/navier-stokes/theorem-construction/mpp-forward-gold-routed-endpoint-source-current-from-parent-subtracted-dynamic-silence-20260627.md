@@ -175,7 +175,7 @@ J_{EP}^{vis,new}
 \tag{8}
 ```
 
-where the silent component is assembled from `(5)), and prove
+where the silent component is assembled from `(5)`, and prove
 
 ```math
 M_{0,parent\text{-}sub}^{fresh}
