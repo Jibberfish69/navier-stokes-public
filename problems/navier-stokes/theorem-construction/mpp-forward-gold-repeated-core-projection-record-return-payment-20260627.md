@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-repeated-core-projection-record-return-payment-20260627
-status: repeated-core-payment-installed-under-predictable-root-projection-geometry
+status: conditional-repeated-core-consumer-under-predictable-root-projection-geometry
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / affine quotient transition payment
@@ -18,18 +18,19 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-finite-score-or-paid-drift-proof-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-lifted-transition-bessel-consumer-20260627.md
 effect: >-
-  Pays the repeated-core branch inside the predictable root Hilbert geometry.
-  New inherited affine records are charged by orthogonal projection-energy
-  increments. Reuse of an already retained parent-predictable component is not
-  counted again as child action. Downward return/reset of the same stopped
-  score is paid by finite-score first-exit/downcrossing derivative
-  representation, bounded-overlap witnesses, and the active-weight Cauchy
-  estimate.
+  Conditional repeated-core consumer. If the common predictable root Hilbert
+  geometry and parent affine projection structure are already constructed from
+  original same-material history, then inherited affine records are charged by
+  orthogonal projection-energy increments, and returns are charged by
+  finite-score downcrossing derivative representation. This does not construct
+  the root geometry and must not be promoted as AffineQuotientTransitionPayment.A
+  by itself.
 ---
 
 # Repeated-core projection record/return payment
 
-The scalar stopped-record obstruction was real: a bounded scalar sequence can
+This is conditional on the root projection geometry.  The scalar stopped-record
+obstruction was real: a bounded scalar sequence can
 oscillate forever.  The Gold repeated-core object is not that scalar sequence.
 It is a parent-predictable affine component inside one stopped root Hilbert
 space.  That difference is the payment mechanism.
@@ -225,8 +226,8 @@ C_N(u_0)\mathcal R(P)+R_{\rm legal}(P).
 \tag{10}
 ```
 
-This proves the repeated-core branch under the predictable root projection
-geometry.
+This proves only the repeated-core consumer after the predictable root
+projection geometry has already been constructed.
 
 ## 5. Remaining integration point
 
