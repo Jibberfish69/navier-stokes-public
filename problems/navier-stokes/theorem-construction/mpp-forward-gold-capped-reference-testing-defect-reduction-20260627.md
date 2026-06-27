@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-capped-reference-testing-defect-reduction-20260627
-status: selector-reference-closed-by-capped-test-testing-defect-open
+status: superseded-support-corona-rebase-is-live-reference-closure
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / stopped root geometry
@@ -18,15 +18,22 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-generator-storage-accretive-testing-equivalence-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-defect-tightness-original-ledger-correction-20260627.md
 effect: >-
-  Removes selector thickness as an independent stopped-Tb obstruction by using
-  a capped selector contrast added to the flat parent-known reference state.
-  The capped test is always accretive and L2-controlled. Thin selected support
-  now appears only as a balanced mean-zero localization/testing defect. The
-  remaining open theorem is a Carleson estimate for that balanced contrast and
-  for the flat root-generator test from original-history ledgers.
+  Support/countercheck only.  This capped-test route shows that inverse selector
+  thickness is not an intrinsic accretive-reference obstruction, but the live
+  repo route has already closed the thin reference branch by stopped-corona
+  rebase.  The current live hinge is not this capped reference construction;
+  it is the testing-defect reduction to StoppedFullExchangeActionCarleson.A plus
+  PaidReselectionStoppingCarleson.A, further sharpened to the native-reserve
+  birth/no-unpaid-high-ratio-upward-birth problem.
 ---
 
 # Capped reference test and balanced testing-defect reduction
+
+Supersession note: this file is support, not the current source anchor.  The
+checked live route closes the selector-reference issue through stopped-corona
+rebase and leaves the testing defect to full exchange plus paid reselection.
+The current deeper target is `ForwardNativeReserveBirthPaysFullPLS.A`, reduced
+to `NoUnpaidHighRatioUpwardBirthFromOriginalHistory.A`.
 
 The thick/thin reduction proves the normalized selector reference on the thick
 branch.  On a thin branch it records the size loss
@@ -197,9 +204,11 @@ This matches the dynamic silent-source principle: a source may be invisible at a
 frozen time, but selected persistence under material transport has to spend
 commutator, connection, or service cost.
 
-## 4. New sharper theorem pair
+## 4. Support theorem pair, superseded as live route
 
-The stopped testing theorem should now be attacked through this pair:
+This pair is a useful countercheck on thickness circularity, but it is no
+longer the live route after stopped-corona rebase.  In this support coordinate,
+the stopped testing theorem would be attacked through:
 
 ```text
 FlatRootGeneratorTestingCarleson.A
@@ -293,9 +302,9 @@ original-history commutator, connection, selector-drift, and reset ledgers,
 without using the produced root clock or downstream selected-density square
 function.
 
-## 6. Result
+## 6. Result as support
 
-The capped reference test closes the accretive reference-state obstruction:
+The capped reference test would close the accretive reference-state obstruction:
 
 ```text
 SelectorReferenceStateFromOriginalHistory.A
@@ -304,7 +313,7 @@ SelectorReferenceStateFromOriginalHistory.A
 in the stopped \(Tb\) hypotheses, because `(8)`--`(10)` give accretivity and
 size uniformly for every stopped packet.
 
-The remaining live theorem is sharper:
+In this coordinate, the remaining theorem would be:
 
 ```text
 FlatRootGeneratorTestingCarleson.A
@@ -313,7 +322,7 @@ BalancedSelectorContrastTestingCarleson.A
   -> MaterialAdjointAccretiveTestingData.A.
 ```
 
-This is still partial.  It does not prove Gold.  It replaces the artificial
-thin-selector reference-state wall by the real noncircular testing problem:
-parent-flat root-generator testing plus mean-zero selected-localization
-Carleson packing from original material history.
+This is still partial and superseded as the live route.  It does not prove Gold.
+The current checked route replaces the thin-selector wall through stopped-corona
+rebase and pushes the remaining burden to full exchange/reselection, then to
+the forward-native reserve birth problem.
