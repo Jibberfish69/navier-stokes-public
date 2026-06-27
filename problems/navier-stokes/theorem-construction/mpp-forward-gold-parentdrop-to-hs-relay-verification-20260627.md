@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-parentdrop-to-hs-relay-verification-20260627
-status: relay-verified-conditional-on-global-selected-action-producer
+status: superseded-by-parent-subtracted-squarepacking-to-hs-closure-verification
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / continuation readout
@@ -19,31 +19,35 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-material-clock-to-fixed-hs-continuation-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-full-proof-closure-after-uniform-zeno-annular-return-20260623.md
 edge_effect: >-
-  Verifies the downstream relay without reopening stale proxy clocks. The
-  invisible-child/silent-source issue is consumed by the source-origin normal
-  form and augmented parent-drop. Finite global selected action, supplied by the
-  fresh root/tent theorem or by a true source-square/overrun tail-UI branch,
-  feeds the installed material-record positive-log-variation readout. That
-  readout gives the fixed H^s continuation bound and classical relaunch. The
-  relay is conditional because the global selected-action producer remains open.
+  Superseded by mpp-forward-gold-parent-subtracted-squarepacking-to-hs-closure-verification-20260627.md.
+  This older note verified the downstream consumer relay while the selected-action
+  producer was still named as a fresh root/tent branch. The corrected route defines
+  selected action by the parent-subtracted stopped current Delta J^{new}, pays
+  reset variation through parent-announced first-exit routed energy, and pays that
+  routed energy by the original-history stopped-frame Bessel producer.
 downstream_consequence: >-
   Parent-drop, nested-core tightness, endpoint UI, critical-density Holder, and
-  material-clock-to-Hs are consumer/relay surfaces. They should not be promoted
-  to completed Gold closure unless FreshNativeRootUpperBound.A /
-  CriticalFreshSourceTentCarleson.A, or the source-square branch's actual
-  FreshSameCarrierIdentity plus FreshOverrunSameCarrierTailUI, is proved.
+  material-clock-to-Hs are consumer/relay surfaces. This note should not be used
+  to reselect FreshNativeRootUpperBound.A, CriticalFreshSourceTentCarleson.A, or
+  source-square/tail-UI as the live Gold producer.
 ---
 
 # Parent-Drop To Hs Relay Verification
 
 ## Status
 
-The relay from parent-drop to \(H^s\) continuation is installed as a conditional
-consumer chain. It is not an unconditional proof of smoothness.
+This note is superseded. The live relay is the corrected parent-subtracted
+stopped-current relay:
 
-The condition is finite global selected same-material action. In the current
-Gold language that can arrive through the fresh root/tent theorem, or through
-the source-square branch after actual carrier identity plus overrun tail UI.
+```math
+\sum_{Q\subset P}\mathcal R(Q)|\Delta_QJ^{new}|^2
+\le
+C_N(u_0)+R_{\rm legal}+Stop,
+\tag{PTH.S}
+```
+
+followed by parent drop, finite selected action, material-record positive-log
+variation, and fixed \(H^s\) continuation.
 
 ## 1. Silent-source escape is removed
 
@@ -114,6 +118,12 @@ C B_{\rm cap}(Q_0)
 
 This verifies the parent-drop relay. It does not produce the global
 strain/exchange sum.
+
+## 3. Superseded producer language
+
+The following fresh-root/source-square language is retained only as historical
+context. It is not the live Gold target after the parent-subtracted stopped-current
+closure.
 
 ## 3. Exact open producer
 
@@ -256,4 +266,3 @@ Current exact forms are `(PTH.8)` / `(PTH.9)`, or the source-square branch
 `(PTH.12)` plus `(PTH.13)`. Endpoint UI, nested-core tightness, Holder/CKN
 visibility, and the material-clock readout are verified consumers, not the
 producer itself.
-
