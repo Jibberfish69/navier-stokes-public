@@ -24,7 +24,7 @@ source_surfaces:
 parallel_checks:
   - subagent:gibbs:carleman-quotient-visible-observability-20260627
   - subagent:sartre:rellich-visible-quotient-sign-20260627
-  - subagent:rawls:riccati-microlocal-silent-bubble-reserve-20260627
+  - subagent:rawls:riccati-microlocal-silent-bubble-reserve-support-20260627
 ---
 
 # Stopped exchange-reselection compensator synthesis
@@ -285,14 +285,16 @@ for the visible quotient in `(1)`, not a way to remove the exchange terms.
 The DtN Riccati and microlocal-defect routes have the same limitation.  They
 are useful microscopes for polarization and cancellation, but they do not make
 selected strain a monotone positive potential in the pure Schur drop.  Their
-best noncircular contribution is a silent-bubble reserve feeding the exchange
-side:
+noncircular contribution is optional support for the exchange side, not a new
+hinge.  The source-origin normal form already gives the needed local split:
+projected silent pressure force is unselected, while selected silent source is
+strain/exchange charged.
 
 ```text
 SilentSourceBubbleEnergyCarleson.A
 ```
 
-Statement:
+Optional support statement:
 
 ```math
 \sum_{Q}
@@ -304,11 +306,10 @@ C_N(u_0)
 \tag{13}
 ```
 
-This is not a replacement hinge.  It is a subroute inside
-`StoppedFullExchangeActionCarleson.A`: boundary-flat selected pressure-Hodge
-sources decompose into hidden Hilbert bubbles plus material service, and the
-hidden bubble energy must be Carleson from the same original-history exchange
-ledger.
+This is not a replacement hinge and not required as a separate live burden.
+It is a possible support estimate inside `StoppedFullExchangeActionCarleson.A`.
+The selected silent-source branch is already routed locally by source-origin
+normal form into same-material strain/exchange service.
 
 The nonlocal closure should instead attack the stopped compensator:
 
