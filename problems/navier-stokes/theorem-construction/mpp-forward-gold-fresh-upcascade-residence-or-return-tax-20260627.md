@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-fresh-upcascade-residence-or-return-tax-20260627
-status: direct-attempt-reduces-no-free-upcascade-to-residence-or-return-tax-open
+status: synthesis-aligns-residence-or-return-with-threaded-cascade-packing-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / fresh frequency flux
@@ -8,20 +8,23 @@ logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 attacks_hinge:
   - FreshFrequencyFluxNoFreeUpcascade.A
   - FreshSourceWeightedPairedCarrierBound.A
+  - ThreadedFreshCascadePacking.A
   - FreshSameCarrierIdentityAndSelectedOverrunPayment.A
   - FreshPotentialAverageKillAndPositiveTransfer.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-frequency-flux-residence-transit-dichotomy-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-weighted-paired-carrier-frequency-flux-test-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-differential-exhaustion-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-paired-carrier-to-same-carrier-overrun-payment-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-paired-carrier-der-aqk-potential-average-boundary-20260627.md
 effect: >-
-  Synthesizes the frequency-flux and overrun/AQK routes.  The selected-weighted
-  positive upcascade theorem closes if every fresh upward crossing either remains
-  in the upper shell long enough to pay viscous residence, or exits quickly through
-  a paid return/reset/legal/backscatter/overrun channel.  The same-carrier overrun
-  and affine-quotient routes are not rival live targets; they are coordinates of
-  the fast-exit branch left by the frequency-flux theorem.
+  Synthesizes the checked frequency-flux residence/transit dichotomy with the
+  overrun/AQK routes.  The residence branch is already paid in the dichotomy note.
+  The remaining branch is ThreadedFreshCascadePacking.A: coherent same-material
+  upward transit must be packed as one cascade thread or charged by return/reset,
+  stop, legal, or selected-overrun exit.  The same-carrier overrun and affine-quotient
+  routes are not rival live targets; they are coordinates of the transit branch
+  left by the frequency-flux theorem.
 ---
 
 # Fresh upcascade residence-or-return tax
@@ -58,6 +61,11 @@ pay `(2)` only by one of two same-material behaviors:
 So the proof should not treat the paired carrier, frequency flux, same-carrier
 overrun, and affine quotient as four separate targets.  They are one
 residence-or-return accounting problem.
+
+Alignment with the checked residence/transit note: the residence branch is
+already paid.  The open branch is `ThreadedFreshCascadePacking.A`, not a new
+parallel label.  This note explains how that threaded-transit branch connects
+to the overrun and DER/AQK coordinates.
 
 ## 1. Stopped crossing intervals
 
@@ -117,29 +125,26 @@ R_{j,\alpha}^{ret}
 ```
 
 This is the exact place where the same-carrier overrun and DER/AQK notes enter.
-They are not alternate top routes.  They are attempted payments for the
-fast-exit branch of the frequency-flux theorem.
+They are not alternate top routes.  They are attempted payments for the fast
+threaded-transit branch of the frequency-flux theorem.
 
-## 2. The residence-or-return theorem
+## 2. The residence-or-return theorem as threaded transit
 
 The sharpened theorem is:
 
 ```text
-FreshUpcascadeResidenceOrReturnTax.A
+ThreadedFreshCascadePacking.A
 ```
 
 For every retained stopped root \(P\),
 
 ```math
-\sum_{j,\alpha}
-2^j\mathcal E_{j,\alpha}^{in}
+\sum_{\gamma\subset P}
+\sum_{j\in\gamma}2^jM_j^\gamma
 \le
-C
-\int_{\mathcal T(P)}
-\sum_{j>N}\nu2^{2j}E_j^{fresh}(t)\,dt
-+C\,Return(P)
-+C\,Reset(P)
-+C\,Stop(P)
+C_N(u_0)\mathcal R(P)
++C\,Res(P)
++C\,ReturnReset(P)
 +C\,R_{\rm legal}(P)
 +C\,Overrun(P).
 \tag{7}
@@ -187,6 +192,9 @@ Thus the next proof should attack the fast-exit branch directly.  Proving that
 every fast exit is a paid return/reset/legal/backscatter or a paid selected
 overrun closes `FreshFrequencyFluxNoFreeUpcascade.A`.
 
+Equivalently, in the residence/transit language, the proof must pack coherent
+upward transit threads rather than count each shell crossing as a new birth.
+
 ## 4. Direct proof attempt and first open estimate
 
 The natural proof is a stopping-time charge.
@@ -216,17 +224,21 @@ The first unproved estimate is bounded overlap of this exit map in the selected
 critical weight:
 
 ```math
-\sum_{j,\alpha\in fast}
-2^j\mathcal E_{j,\alpha}^{in}
+\sum_{\gamma\subset P}
+\sum_{j\in\gamma}2^jM_j^\gamma
 \le
-C\,Return(P)+C\,Reset(P)+C\,Stop(P)+C\,R_{\rm legal}(P)
+C_N(u_0)\mathcal R(P)
++C\,Res(P)
++C\,ReturnReset(P)
++C\,R_{\rm legal}(P)
 +C\,Overrun(P).
 \tag{11}
 ```
 
-Equation `(11)` is the real fast-exit theorem.  Without it, a packet could
-oscillate upward and downward rapidly, paying signed energy balance while
-leaving infinite selected positive variation.
+Equation `(11)` is the real threaded-cascade theorem.  Without it, one
+same-material packet can travel upward through infinitely many dyadic shells
+with negligible residence, paying signed energy balance while leaving infinite
+selected positive variation.
 
 ## 5. Result
 
@@ -234,8 +246,8 @@ This note does not prove Gold.  It gives the next non-stale shape:
 
 ```text
 FreshFrequencyFluxNoFreeUpcascade.A
-  <= FreshUpcascadeResidenceOrReturnTax.A
-  <= FreshFastExitReturnOverlap.A
+  <= ThreadedFreshCascadePacking.A
+  <= FreshTransitThreadNoFreeZeno.A
      + FreshSelectedCoefficientOverrunPayment.A.
 ```
 
