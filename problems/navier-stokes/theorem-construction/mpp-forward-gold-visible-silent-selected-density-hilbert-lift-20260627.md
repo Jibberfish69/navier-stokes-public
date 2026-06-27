@@ -28,9 +28,9 @@ parent,
 \sum_{Q'\in ch(Q)}A(Q')
 \le
 C\langle U_Q,\mathsf S_QU_Q\rangle
-C\,\Omega_Q^{strain/ex}
-C\,D_Q^{vis/rad}
-C R_{\rm legal}(Q).
++C\,\Omega_Q^{strain/ex}
++C\,D_Q^{vis/rad}
++C R_{\rm legal}(Q).
 \tag{1}
 ```
 
