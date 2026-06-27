@@ -297,7 +297,7 @@ The failure mode is exact inherited reuse counted as new action. Let
 
 \[
 a_m=\sqrt{\ell_m}\,e_1 .
-\tag{17}
+\tag{18}
 \]
 
 Then
@@ -306,7 +306,7 @@ Then
 \mu_m=|\langle G,a_m\rangle|^2=\ell_m,
 \qquad
 \omega_m^{level}=|\langle G,e_1\rangle|^2=1.
-\tag{18}
+\tag{19}
 \]
 
 The raw stress-square bill is finite while the fake level action diverges:
@@ -315,7 +315,7 @@ The raw stress-square bill is finite while the fake level action diverges:
 \sum_m\mu_m<\infty,
 \qquad
 \sum_m\omega_m^{level}=\infty.
-\tag{19}
+\tag{20}
 \]
 
 The parent projection record does not move:
@@ -324,7 +324,7 @@ The parent projection record does not move:
 M_m=M_{m-1}=e_1,
 \qquad
 \mathcal B_{m-1}-\mathcal B_m=0.
-\tag{20}
+\tag{21}
 \]
 
 So no Bellman inequality can pay \(\omega_m^{level}\). This is not a bug in the
@@ -338,7 +338,7 @@ parent current, not new retained selected action. The admissible new readout is
 +\langle \Delta M_Q,\widehat b_Q\rangle
 +\langle M_{Q^-},
 \widehat b_Q-\mathsf T_{Q^-\to Q}\widehat b_{Q^-}\rangle .
-\tag{21}
+\tag{22}
 \]
 
 Only those three terms can enter \(\omega_Q^{new}\): fresh orthogonal residual,
@@ -354,14 +354,14 @@ The old heat-scale counterprofile had
 \omega_{Q_m}\sim1,
 \qquad
 \sum_m\ell_m<\infty.
-\tag{22}
+\tag{23}
 \]
 
 Raw energy cannot pay \(\sum_m1\). Effective resistance changes the count. With
 
 \[
 s_{m-1}=\lambda+\sum_{j<m}\ell_j,
-\tag{23}
+\tag{24}
 \]
 
 the leverage charge is
@@ -370,7 +370,7 @@ the leverage charge is
 \tau_m
 \simeq
 \log\left(1+\frac{\ell_m}{s_{m-1}}\right),
-\tag{24}
+\tag{25}
 \]
 
 and therefore
@@ -380,7 +380,7 @@ and therefore
 \le
 \log\left(1+\lambda^{-1}\sum_m\ell_m\right)
 <\infty.
-\tag{25}
+\tag{26}
 \]
 
 So the repeated heat-scale train is killed without inventing a new physical
@@ -404,7 +404,7 @@ frame \(V_i'\), the transition cost is
 \left\|
 V_i^{-1/2}(V_i'-V_i)V_i^{-1/2}
 \right\|_{\rm tr,+}.
-\tag{26}
+\tag{27}
 \]
 
 This is the operator version of the inverse-Gram motion already isolated in
@@ -438,10 +438,10 @@ charge, plus paid reset, legal, reselection, and terminal stop terms:
 C_N
 \log\left(1+\frac{\mu_G(\widehat Q)}{s_{Q^-}}\right)
 +R_Q^{legal}+Stop_Q^{term}+Reset_Q^{paid}.
-\tag{27}
+\tag{28}
 \]
 
-If `(27)` is proved from the stopped Navier-Stokes participation law, then
+If `(28)` is proved from the stopped Navier-Stokes participation law, then
 `RetainedActiveRawBellmanCapacity.A` follows by `(13b)`--`(17)`, and the already
 installed downstream relay gives finite selected action, finite full
 same-material clock, and the usual \(H^s\) continuation.
