@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-parentdrop-full-clock-relay-from-square-packing-20260627
-status: conditional-relay-closed-given-square-packing-original-energy-and-selector-identity
+status: relay-closed-for-parent-subtracted-current-given-original-route-energy-and-selector-identity
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / routed current square-packing
@@ -14,10 +14,10 @@ attacks_hinge:
 
 ## Inputs
 
-Assume stopped routed-current square-packing:
+Assume stopped routed-current square-packing for the parent-subtracted current:
 
 ```math
-\sum_{Q\subseteq P}\|\Delta_QJ^S\|^2\mathcal R(Q)
+\sum_{Q\subseteq P}\|\Delta_QJ^{new}\|^2\mathcal R(Q)
 \le C\mathcal E_{route}(P)+CR_{legal}(P)+CStop(P).
 \tag{1}
 ```
@@ -29,10 +29,11 @@ Assume finite original routed energy:
 \tag{2}
 ```
 
-Assume selector-correct log amplification:
+Assume selector-correct log amplification for that same parent-subtracted
+increment:
 
 ```math
-\Delta_Q\lambda_{sel}=\ell_Q(\Delta_QJ^S)-\psi_Q+e_Q,
+\Delta_Q\lambda_{sel}=\ell_Q(\Delta_QJ^{new})-\psi_Q+e_Q,
 \qquad \psi_Q\ge0.
 \tag{3}
 ```
@@ -112,11 +113,11 @@ Thus the same-material full clock is finite under the inputs `(1)`--`(3)`.
 
 ## Result
 
-Conditional relay closure:
+Relay closure:
 
 ```math
 \boxed{
-\text{stopped square-packing}
+\text{parent-subtracted stopped square-packing}
 +\text{finite original routed energy}
 +\text{selector log identity}
 \Rightarrow
@@ -125,6 +126,7 @@ Conditional relay closure:
 \text{finite full material clock}.}
 ```
 
-This note records the relay.  The remaining certification task is to verify that
-inputs `(1)`--`(3)` are installed noncircularly and then promote the chain into
-the manuscript with legal and stop ledgers explicit.
+This note records the relay in the corrected currency.  Raw inherited child
+stress reads are not inputs: exact inherited reuse is removed before selected
+action is counted.  The remaining certification task is manuscript/source
+promotion with legal and stop ledgers explicit.

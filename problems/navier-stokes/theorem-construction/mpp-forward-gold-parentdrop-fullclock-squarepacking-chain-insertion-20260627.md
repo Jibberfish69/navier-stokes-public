@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-parentdrop-fullclock-squarepacking-chain-insertion-20260627
-status: theorem-chain-insertion-recorded-source-edit-still-needed
+status: theorem-chain-insertion-recorded-for-parent-subtracted-current-source-edit-still-needed
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / routed current square-packing
@@ -16,7 +16,7 @@ supports:
 Insert the stopped routed-current route into the theorem chain in this order:
 
 ```text
-StoppedRoutedCurrentSquarePackingFromDerivativeBV.A
+ParentSubtractedStoppedRoutedCurrentSquarePackingFromDerivativeBV.A
 OriginalHistoryRoutedCurrentEnergyFinite.A
 SelectorCorrectLogAmplificationIdentity.A
 StoppedRoutedCurrentSquarePackingToSelectedFirstRatio.A
@@ -30,7 +30,7 @@ HsContinuationFromFullMaterialClock.A
 The three inputs are:
 
 ```math
-\sum_{Q\subseteq P}\|\Delta_QJ^S\|^2\mathcal R(Q)
+\sum_{Q\subseteq P}\|\Delta_QJ^{new}\|^2\mathcal R(Q)
 \le C\mathcal E_{route}(P)+CR_{legal}(P)+CStop(P),
 \tag{1}
 ```
@@ -43,7 +43,7 @@ The three inputs are:
 and
 
 ```math
-\Delta_Q\lambda_{sel}=\ell_Q(\Delta_QJ^S)-\psi_Q+e_Q,
+\Delta_Q\lambda_{sel}=\ell_Q(\Delta_QJ^{new})-\psi_Q+e_Q,
 \qquad \psi_Q\ge0,
 \tag{3}
 ```
@@ -104,7 +104,8 @@ The chain insertion must carry these clauses:
 - reset witnesses are maximal first-exit slabs with bounded overlap;
 - routing maps are energy-stable or their degeneracy is charged;
 - selected density is the stopped score readout;
-- legal and stop ledgers are summable before laminar telescoping.
+- legal and stop ledgers are summable before laminar telescoping;
+- \(\Delta_QJ^{new}\) is parent-subtracted, so exact inherited reuse is not counted as child action.
 ```
 
 ## 4. Result
