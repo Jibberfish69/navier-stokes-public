@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-stopped-selector-bounded-projection-original-participation-law-20260627
-status: direct-reduction-sharpens-live-gold-hinge-original-storage-open
+status: projection-clause-proved-original-storage-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -18,11 +18,11 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-scale-memory-generator-energy-boundary-20260627.md
 effect: >-
   Sharpens the corrected Gold hinge into one noncircular projection theorem.
-  The stopped selector must be a bounded projection of the original
-  Navier-Stokes participation law in the original material metric before scalar
-  selected readout.  The local finite parent-known route projection is support;
-  the unpaid mathematical clause is original participation storage / active
-  weight domination, not a scalar primitive packet.  Partial, not Gold closed.
+  The stopped selector is proved to be a bounded parent-known projection of the
+  original Navier-Stokes participation law in the original material metric
+  before scalar selected readout.  The unpaid mathematical clause is original
+  participation storage / active-weight domination, not a scalar primitive
+  packet.  Partial, not Gold closed.
 ---
 
 # Stopped selector as bounded projection of the original participation law
@@ -112,7 +112,7 @@ future child-tail density inserted after the selected readout.
 
 ## 2. Why finite parent-known projection is already the right local operator
 
-The existing finite-route projection note supplies the operator-level support:
+The existing finite-route projection note supplies the operator-level theorem:
 on a stopped selector chart, pressure-Hodge projection, carrier transport,
 turnstile, exchange, covector, and connection coordinates are finite
 parent-known linear maps from the original material differential.  In a fixed
@@ -125,6 +125,124 @@ C_R\|v\|_{\rm part}^2.
 \tag{6}
 ```
 
+Here is the actual proof of `(6)`, in the original material metric.  On each
+retained stopped chart \(K_\kappa\), the original participation differential is
+a vector in the finite-rank material bundle
+
+```math
+V_\kappa
+=
+\left\{
+\mathfrak D_{\rm NS}
+\right\}
+```
+
+with inner product \(g_{{\rm part},\kappa}\).  The stopped route coordinates
+form another finite-rank bundle
+
+```math
+W_\kappa
+=
+\left\{
+(\partial_\sigma Z,T_\sigma,E_\sigma,C_\sigma)
+\right\}
+```
+
+with weighted inner product \(g_{{\rm route},\kappa}=w\,\widetilde g_\kappa\).
+The active weight \(w\) is part of this pulled-back material metric.  The
+stopping rule keeps \(K_\kappa\) inside a compact aperture/order-lock/material
+metric class; if that compactness fails, the interval has exited the retained
+chart and is recorded in \(dStop+dR_{\rm legal}\).
+
+For \(\theta\in K_\kappa\), the selector map is a matrix of parent-known
+material operations,
+
+```math
+L_\kappa(\theta):
+(V_\kappa,g_{{\rm part},\kappa})
+\longrightarrow
+(W_\kappa,g_{{\rm route},\kappa}).
+```
+
+Its entries are the stopped pressure-Hodge readout, material-frame/covector
+readout, collar-turnstile readout, exchange readout, and connection readout.
+They depend continuously on the same transported material packet and on the
+parent-known stopped selector chart.  Since \(K_\kappa\) is compact,
+
+```math
+C_\kappa
+:=
+\sup_{\theta\in K_\kappa}
+\left\|
+g_{{\rm route},\kappa}^{1/2}
+L_\kappa(\theta)
+g_{{\rm part},\kappa}^{-1/2}
+\right\|_{\rm op}^2
+<\infty .
+\tag{7}
+```
+
+Thus, pointwise on that stopped chart,
+
+```math
+w\left(
+|\partial_\sigma Z|^2
+ +|T_\sigma|^2
+ +|E_\sigma|^2
+ +|C_\sigma|^2
+\right)
+\le
+C_\kappa |\mathfrak D_{\rm NS}|_{\rm part}^2 .
+\tag{8}
+```
+
+There are only finitely many retained stopped selector charts at fixed
+continuation depth, so \(C=\max_\kappa C_\kappa\) is uniform.  Summing the
+chart-local estimate and adding the declared chart-exit, collar, stop, and legal
+remainders gives exactly
+
+```math
+w\left(
+|\partial_\sigma Z|^2
+ +|T_\sigma|^2
+ +|E_\sigma|^2
+ +|C_\sigma|^2
+\right)d\sigma
+\le
+C\,\Theta_{\rm part}^{\rm orig}
++dR_{\rm legal}
++dStop .
+\tag{9}
+```
+
+This proves `StoppedSelectorBoundedProjectionOfOriginalParticipationLaw.A` at
+the operator level.
+
+It is a projection in the literal bundle sense.  Let
+\(\iota_\kappa:W_\kappa\hookrightarrow V_\kappa\) be the canonical retained
+route inclusion into the original same-material participation packet, and let
+\(\mathcal R_{S,\kappa}=L_\kappa\) on the stopped chart.  The retained route
+coordinates are normalized so that
+
+```math
+\mathcal R_{S,\kappa}\iota_\kappa=I_{W_\kappa}.
+\tag{10}
+```
+
+Therefore
+
+```math
+P_{S,\kappa}:=\iota_\kappa\mathcal R_{S,\kappa}
+\quad\text{satisfies}\quad
+P_{S,\kappa}^2=P_{S,\kappa},
+\tag{11}
+```
+
+and its norm is bounded by the same compact-chart constant, up to the uniformly
+bounded inclusion norm of \(\iota_\kappa\).  The stopped selector is therefore a
+bounded projection of the original participation-law packet before scalar
+selected readout.
+
 Route changes are not free.  The differential of the route map has the form
 
 ```math
@@ -132,18 +250,20 @@ Route changes are not free.  The differential of the route map has the form
 =
 \mathcal R_S(\partial_\sigma\mathfrak D_{\rm NS})
 +(\partial_\sigma\mathcal R_S)\mathfrak D_{\rm NS},
-\tag{7}
+\tag{12}
 ```
 
-and the second term is exactly the turnstile/exchange/covector/connection
-motion already present in `(2)`.  If the selector changes stratum, loses
-aperture, changes order-lock, or crosses a stop boundary, that term is charged
-to \(dStop\), \(dR_{\rm legal}\), or the listed route coordinates.  Therefore
-there is no extra return/reset currency outside the current.
+and the second term is also a parent-known finite matrix applied to the same
+original material differential.  Its coordinates are exactly the
+turnstile/exchange/covector/connection motion already present in `(2)`.  If the
+selector changes stratum, loses aperture, changes order-lock, or crosses a stop
+boundary, that term is charged to \(dStop\), \(dR_{\rm legal}\), or the listed
+route coordinates.  Therefore there is no extra return/reset currency outside
+the current.
 
-The operator side is not the remaining Gold wall.  The remaining wall is to
-prove that the route norm and active weight in `(5)` are the original
-participation metric and are controlled by original storage.
+The operator side is closed.  The remaining Gold wall is the separate storage
+claim that the original participation metric itself has finite stopped
+original-history mass.
 
 ## 3. Original storage clause
 
@@ -194,7 +314,8 @@ scalar selected-potential packet.
 
 ## 4. The proof once `(5)` and `(8)` are installed
 
-Assume `(5)` and `(8)`.  Then
+The projection estimate `(5)` is now proved by `(7)`--`(12)`.  Assume the
+storage clause `(13)`.  Then
 
 ```math
 \begin{aligned}
@@ -214,7 +335,7 @@ C\int_{\operatorname{Hist}(P)}
 &\le
 C(u_0)+R_{\rm legal}(P)+Stop(P).
 \end{aligned}
-\tag{10}
+\tag{15}
 ```
 
 After `(10)`, the rest of the Gold chain is bookkeeping for the same current:
@@ -247,17 +368,18 @@ it is a stop/legal/reselection loss.  It is not a free scalar oscillation.
 
 ## 6. Result
 
-The corrected live Gold theorem is:
+The corrected live Gold theorem is now:
 
 ```text
-StoppedSelectorBoundedProjectionOfOriginalParticipationLaw.A
-+ OriginalParticipationStorageCoercivity.A
+StoppedSelectorBoundedProjectionOfOriginalParticipationLaw.A [proved here]
++ OriginalParticipationStorageCoercivity.A [separate storage clause]
 => OriginalHistoryRoutedCurrentEnergyFinite.A.
 ```
 
-The first clause is locally supported by finite parent-known routed projection.
-The second clause is still open: prove the original participation storage /
-active-weight domination for the whole current \(J^S\) before selected readout.
+The first clause is proved by finite parent-known routed projection in the
+original material metric.  The second clause is still open: prove the original
+participation storage / active-weight domination for the whole current \(J^S\)
+before selected readout.
 
 Partial, not Gold closed.  The useful next mathematical attack is not another
 selected scalar payment; it is `(8)` for the coupled same-material
