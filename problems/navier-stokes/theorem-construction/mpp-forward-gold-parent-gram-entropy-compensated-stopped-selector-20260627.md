@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-parent-gram-entropy-compensated-stopped-selector-20260627
-status: determinant-admission-proved-under-parent-gram-entropy-compensator
+status: diagnostic-support-bare-linear-score-insufficient
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -15,17 +15,16 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-correct-log-amplification-identity-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-score-identity-noncircular-installation-20260627.md
 effect: >-
-  Proves the determinant admission inequality once the stopped selector score
-  is genuinely self-normalized by the parent stress Gram entropy compensator.
-  It also proves that the currently installed finite stopped-score identity
-  with only psi_Q >= 0 is insufficient: a linear score can turn square-summable
-  tiny currents into infinite positive variation. The remaining source-graph
-  obligation is to install the parent-Gram entropy compensator as part of the
-  retained stopped selector, or route uncompensated score edges to reset, legal,
-  stop, donor, or selector drift. Partial, not Gold closed.
+  Diagnostic support for the selected-unit bounded-projection admission theorem.
+  It proves that the currently installed finite stopped-score identity with
+  only psi_Q >= 0 is insufficient: a linear score can turn square-summable tiny
+  currents into infinite positive variation. The live physical admission is
+  stronger and simpler: retained selected units must be bounded projections of
+  the original pressure-viscosity-incompressibility-velocity packet. Partial,
+  not Gold closed.
 ---
 
-# Parent-Gram entropy compensated stopped selector
+# Parent-Gram entropy compensated stopped selector diagnostic
 
 The parent stress Gram determinant is the right novelty record. The local gap is
 not the stress source. The gap is the selector normalization.
@@ -261,23 +260,23 @@ R_{\rm reset}(P)+R_{\rm legal}(P)+Stop(P)
 Thus the Bellman/leverage chain closes after the parent-Gram entropy compensated
 selector is installed.
 
-## 6. Exact remaining source-graph obligation
+## 6. Correct source-graph obligation
 
 The theorem is no longer a search for another stress reserve. The stress reserve
-is the same Cauchy stress history of the same material packet. The required
+is the same Cauchy stress history of the same material packet. The live
 source-graph clause is:
 
 ```text
-ParentGramEntropyCompensatedStoppedSelector.A
+SelectedUnitBoundedOriginalPacketProjectionAdmission.A
 ```
 
-Every retained stopped selector score is either represented in the
-self-normalized form `(6)`, or the uncompensated part is routed to reset, legal,
-stop, donor, or selector drift.
+Every retained selected unit is read by a bounded original-packet test. A
+scale-renormalized read whose original-packet test is unbounded is routed to
+reset, legal, stop, donor, or selector drift.
 
-With that clause, the determinant admission theorem is proved by `(8)`--`(16)`.
-Without that clause, the one-dimensional example `(2)`--`(3)` shows the local
-admission theorem is false.
+The self-normalized entropy form `(6)` is one analytic way to enforce that
+bounded-projection rule. It is not the governing physical object. Without some
+bounded original-packet admission, the one-dimensional example `(2)`--`(3)`
+shows the local admission theorem is false.
 
-Partial, not Gold closed until the source graph installs this compensated
-selector clause as the retained Gold selector definition.
+Partial, not Gold closed.
