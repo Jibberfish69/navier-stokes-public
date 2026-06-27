@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-whole-transported-packet-parabolic-rescaling-boundary-20260627
-status: scale-uniform-full-packet-action-inequality-open
+status: local-packet-storage-circular-cross-scale-reuse-payment-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -9,7 +9,9 @@ refines:
   - ReusedSameMaterialStressChannelReturnResetCharge.A
   - ForwardNativeReserveBirthPaysFullPLS.A
   - FullPacketScaleUniformActionProducer.A
+  - CrossScaleSameMaterialReuseMustPay.A
 attacks_hinge:
+  - CrossScaleSameMaterialReusePayment.A
   - ScaleUniformWholePacketActionInequality.A
   - OriginalHistoryWeightedFreshCurrentCapacity.A
   - OriginalParticipationStorageCoercivity.A
@@ -25,10 +27,14 @@ effect: >-
   Rescale the whole transported Navier-Stokes material packet.  In the unit
   packet variables, velocity, pressure, material map, metric, incompressibility,
   Hodge/stress tests, and collar motion obey the same material system with the
-  same viscosity.  Gold closes only if the full packet admits a lower-bounded
-  action inequality with constants independent of the packet scale.  This is a
-  sharper form of the missing original-history reserve/storage theorem, not a
-  proof of it.  Partial, not Gold closed.
+  same viscosity.  The naive local packet storage calculation is now explicit:
+  \(A_j=-h_j\) pays the bad action algebraically, but its lower bound is exactly
+  the high shell bound being proved; the gauge storage \(A_j=-m_jh_j\) cancels
+  the same action only after assuming the full coefficient clock.  Therefore
+  the missing producer is a cross-scale same-material reuse estimate: infinite
+  nested normalized reuse must create orthogonal, collar, pressure/frame, reset,
+  stop, or legal loss in a summable original-history currency.  Partial, not
+  Gold closed.
 ---
 
 # Whole transported packet parabolic rescaling boundary
