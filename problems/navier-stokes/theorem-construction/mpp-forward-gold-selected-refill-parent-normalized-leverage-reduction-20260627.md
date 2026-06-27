@@ -24,7 +24,9 @@ effect: >-
   admission identity.  This does not close Gold.  It narrows the remaining
   theorem to SelectedRefillParentNormalizedAdmission.A: the stopped Navier-Stokes
   selected readout must count only parent-normalized new leverage, not raw
-  heat-scale level reuse.
+  heat-scale level reuse.  It also records the surviving shrinking orthogonal
+  chain showing that fresh Bessel and first-exit reset payment do not imply the
+  admission identity.
 ---
 
 # Selected refill parent-normalized leverage reduction
