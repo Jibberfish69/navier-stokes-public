@@ -14,8 +14,7 @@ closes_relative:
   - ParentAnnouncedFirstExitResetVariation.A
   - HarmonicActiveWeightResetCauchy.A
 leaves_open:
-  - OriginalHistoryRoutedCurrentEnergyFinite.A
-  - StoppedSelectorBoundedProjectionOriginalParticipationLaw.A
+  - full-action/no-free-reset storage law in routed-current coordinates
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-inherited-action-square-packing-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-parent-subtracted-current-admission-20260627.md
@@ -121,10 +120,10 @@ C(u_0)
 \tag{7}
 \]
 
-Thus the raw reset-variation estimate is no longer the top Gold obstruction.
-It has been reduced to the routed-current energy.
+Thus the raw reset-variation estimate is no longer a standalone obstruction.
+It is the reset face of the routed-current/full-action measure.
 
-The remaining Gold line is
+The routed-current coordinate form of the full-action bound is
 
 \[
 \mathcal E_{\mathrm{route}}(P)
@@ -133,11 +132,19 @@ C(u_0)+R_{\mathrm{legal}}(P)+Stop(P).
 \tag{8}
 \]
 
-Equation `(8)` must be proved before selected readout as a bounded projection
-of the original Navier-Stokes participation law. Once `(8)` is proved, `(7)`
-gives finite selected current square packing; the installed downstream relay
-then gives finite selected action, finite full same-material clock, and the
-usual \(H^s\) continuation.
+Equation `(8)` is the bounded-projection form of the same original
+Navier-Stokes participation law:
 
-Partial, not Gold closed. The reset branch is paid in routed-current currency;
-the original-history finiteness of that currency is still the live theorem.
+\[
+d\mathscr A_N+c\,d\Omega_N\le dR_N,
+\qquad
+\mathscr A_N(t)\ge -C(u_0),
+\qquad
+\int_0^{T^*}dR_N<\infty .
+\tag{9}
+\]
+
+With `(8)` in this full-action sense, `(7)` gives finite selected current
+square packing; the installed downstream relay then gives finite selected
+action, finite full same-material clock, and the usual \(H^s\) continuation.
+The reset branch is paid in routed-current currency, not raw inherited values.
