@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-active-route-metric-carleson-stopping-admission-20260627
-status: constructive-reduction-open
+status: constructive-reduction-insufficient-without-bellman-capacity
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -9,6 +9,7 @@ attacks_hinge:
   - ScaleCriticalStoppedFrameCarlesonEmbedding.A
   - OriginalHistoryRoutedCurrentEnergyFinite.A
   - StoppedSelectorBoundedProjectionOriginalParticipationLaw.A
+  - RetainedActiveRawBellmanCapacity.A
 refines:
   - StoppedRoutedCurrentSquarePacking.A
   - StoppedRoutedParticipationCurrentCarleson.A
@@ -18,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-routed-participation-current-carleson-direct-test-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-announced-reset-variation-to-routed-energy-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-whole-transported-packet-parabolic-rescaling-boundary-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-route-metric-bellman-capacity-pressure-test-20260627.md
 ---
 
 # Active Route Metric Carleson Stopping Admission
@@ -168,7 +170,10 @@ by the material energy identity.
 
 This is a constructive reduction, not a closure.  It changes the missing line
 from a bare active-weight Bessel miracle into a stopped-selector admission
-problem.  The heat-scale train survives exactly when high active-density
-subpackets can remain retained selected children despite violating `(5)`.  Gold
-closes only after the stopped same-material selector proves that those packets
-are first exits in the original material history.
+problem.  The later Bellman pressure test sharpens this further: raw density
+stopping alone does not pay the normalized heat-scale count, and charging a
+nondominated packet to `Stop` is useful only when that stop is terminal for the
+retained Gold branch or carries a finite original-history capacity drop.  The
+current sharper target is therefore
+`RetainedActiveRawBellmanCapacity.A`, a telescoping capacity inequality for the
+retained active route metric.
