@@ -26,7 +26,8 @@ effect: >-
   Carleson are not independent theorem species: both are projections of one
   parent-known original-history selected potential/amplification record.  This
   note proves the projection implication and leaves the construction/testing of
-  that record as the sharper Gold producer.  Partial, not Gold closed.
+  that record as the unpaid internal subproducer for
+  StoppedPredictableRootGeometryCompensator.A.  Partial, not Gold closed.
 ---
 
 # Original-history selected potential/amplification BV producer
@@ -295,10 +296,12 @@ OriginalHistorySelectedPotentialAmplificationBV.A
   -> StoppedPredictableRootGeometryCompensator.A.
 ```
 
-So the current two-branch frontier can be replaced by one sharper producer:
+So the current two-branch frontier is one unpaid subproducer inside the live
+root-geometry compensator:
 
 ```text
-OriginalHistorySelectedPotentialAmplificationBV.A
+StoppedPredictableRootGeometryCompensator.A
+  requires OriginalHistorySelectedPotentialAmplificationBV.A
 ```
 
 or, in testing language,
@@ -341,15 +344,15 @@ turn local source-origin payment into a global stopped BMO/BV record.
 
 ## 7. Result
 
-This note closes no final Gold gate.  It does something more useful than another
-branch split: it identifies the common object behind the two current open
-payments.
+This note closes no final Gold gate.  It identifies the common object behind the
+two current open payments and places it under the live root-geometry producer.
 
-The next live theorem should be:
+The live Gold producer remains:
 
 ```text
-OriginalHistorySelectedPotentialAmplificationBV.A
+StoppedPredictableRootGeometryCompensator.A
 ```
 
-with `OriginalHistoryHilbertBMOProducer.A / StoppedSelectorTestingCarleson.A` as
-the constructive/testing form.
+with `OriginalHistorySelectedPotentialAmplificationBV.A` and
+`OriginalHistoryHilbertBMOProducer.A / StoppedSelectorTestingCarleson.A` as the
+unpaid constructive/testing subproducer.

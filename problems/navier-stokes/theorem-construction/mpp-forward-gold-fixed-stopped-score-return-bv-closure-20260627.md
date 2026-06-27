@@ -26,8 +26,9 @@ effect: >-
   variation of that pre-existing score, and the score's total variation is paid
   by the same stopped routed carrier derivative plus selector/frame/connection
   motion already demanded by the root-geometry current currency. This does not
-  close Gold; the live producer remains the root-geometry compactness/tightness
-  theorem.
+  close Gold; the live producer remains StoppedPredictableRootGeometryCompensator.A,
+  with the parent-known selected potential/amplification record as its unpaid
+  internal subproducer.
 ---
 
 # Fixed stopped score return/BV closure
@@ -196,7 +197,7 @@ FixedStoppedScore P_R = Gamma_R Z^S
 ```
 
 This removes the repeated-core return/BV branch from the live Gold wall.  It
-does not close Gold by itself, because the root active weight and parent-fixed
-connection currency are still produced by
-`StoppedPredictableRootGeometryCompensator.A`, now sharpened to
-`RootDefectCarrierStableCompactness.A`.
+does not close Gold by itself: the live producer is
+`StoppedPredictableRootGeometryCompensator.A`, with the parent-known selected
+potential/amplification record still required as the stopped testing /
+original-history Hilbert-BMO subproducer for that root geometry.
