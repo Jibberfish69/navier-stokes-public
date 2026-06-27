@@ -329,3 +329,75 @@ without reopening Schur observability.  If it fails, the precise bad profile is
 a selected silent transition stack whose material commutator is visible but
 collinear in every available parent-history weight before positive readout.
 That is a sharper obstruction than a static invisible child.
+
+## 7. Bessel consumer audit
+
+The martingale/Bessel part is standard once the predictable lifted geometry is
+already installed.  If, before positive selected readout,
+
+```math
+\mathcal C_\theta[Z_e]
+=B_e+D_e+R_e,
+\qquad
+D_e\perp \mathcal P_{e^-}
+```
+
+in a common predictable Hilbert geometry
+
+```math
+L^2(H_{e^-}\,dt\,dx;\mathcal H_{\rm lift}),
+```
+
+then Pythagoras/Bessel gives the square-packing consumer:
+
+```math
+\int
+\left\|
+\sum_eD_e
+\right\|^2
+\lesssim
+\sum_e\int H_{e^-}(t)\|D_e(t)\|^2\,dt
++R_{\rm legal}(P).
+```
+
+This discharges only
+
+```text
+StoppedLiftedTransitionBesselCarleson.A
+```
+
+under the stated predictable-geometry hypotheses.
+
+It does not construct the geometry.  The live noncircular construction is still:
+
+```text
+PredictableActiveWeightTransitionCarleson.A
++ StoppedAffineTransitionLiftedMartingaleDifference.A.
+```
+
+Equivalently, the proof must produce from the original stopped material history,
+not from the future selected descendant tail, a parent-predictable active weight
+and an adapted split satisfying
+
+```math
+H_w(t)\|c_F^{fresh}(t)\|_2^2
+\le
+C\sum_eH_{e^-}(t)
+\|\mathcal C_\theta[Z_e](t)\|_2^2
++R_{\rm legal}(P),
+```
+
+and
+
+```math
+\mathcal C_\theta[Z_e]
+=
+\Pi_{\mathcal P_{e^-}}\mathcal C_\theta[Z_e]
++
+(I-\Pi_{\mathcal P_{e^-}})\mathcal C_\theta[Z_e]
++R_e
+```
+
+before any scalar positive-part selection.  The inherited part routes to the
+fixed-core record/return gate; the lifted innovation routes to the strict reset
+gate.  This is now the exact open production theorem.
