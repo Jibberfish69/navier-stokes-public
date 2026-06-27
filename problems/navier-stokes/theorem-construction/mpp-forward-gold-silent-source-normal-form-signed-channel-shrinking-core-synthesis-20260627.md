@@ -191,14 +191,33 @@ C_N(u_0)+R_{\rm legal}.
 \tag{10}
 ```
 
-This is `SelectedCompressionRootReserve.A`.  The noncircular producer is
-`NativeBirthChargePacking.A / NativeBirthAtomNonReuse.A`: construct a bounded
-multiplicity map from each retained selected high-ratio birth atom into a finite
-native original-history reserve atom,
+This is `SelectedCompressionRootReserve.A`.  The checked nonreuse part is no
+longer the live obstruction: after lower-band carry, paid reselection,
+silent-source exchange, full-exchange refund, entrance, and legal carry are
+removed, a strict selected descendant must read a genuinely fresh source
+increment.
+
+The noncircular producer left in the shrinking-core branch is the selected-scale
+fresh root upper bound:
+
+```math
+\sum_{Q\subset P}
+w(Q)\|F_Q\|_{\mathcal H_{\rm raw}}^2
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P),
+\tag{11}
+```
+
+where \(F_Q\) is the genuinely fresh original-history visible/silent/exchange
+increment after spent-source projection and paid removals, and \(w(Q)\) is the
+selected first-ratio / heat-scale weight.
+
+Equivalently, construct a bounded multiplicity map from each retained selected
+high-ratio fresh source atom into a finite native original-history reserve atom,
 
 ```math
 \iota:\Gamma_N(P)\to\mathcal R_N^{nat}(u_0;P),
-\tag{11}
+\tag{12}
 ```
 
 with
@@ -210,7 +229,7 @@ C_N\rho_{\iota(\gamma)}
 +R_{\rm legal}(\gamma),
 \qquad
 \operatorname{mult}(\iota)\le C_N,
-\tag{12}
+\tag{13}
 ```
 
 and
@@ -219,7 +238,7 @@ and
 \sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}\rho
 \le
 C_N(u_0)\mathcal R(P)+R_{\rm legal}(P).
-\tag{13}
+\tag{14}
 ```
 
 ## Current Gold state
@@ -234,20 +253,19 @@ splits cleanly as:
 ```math
 \text{CriticalFreshSourceTentCarleson.A}
 \Leftarrow
-\text{NoZenoReuseEscapeDichotomyStrictCharge.A},
-\tag{14}
-```
-
-where
-
-```math
-\text{NoZenoReuseEscapeDichotomyStrictCharge.A}
-=
 \text{RepeatedCoreChannelRecordReturnStorageBound.A}
 +
-\text{NativeBirthChargePacking.A}.
+\text{FreshNativeRootUpperBound.A},
 \tag{15}
 ```
 
-This is not Gold closure.  It is the current sharp branch synthesis after the
-silent-source normal form repair and the primitive PLS signed-channel repair.
+where the repeated-core branch first requires
+
+```text
+PrimitivePLSSignedChannelDecomposition.A
+```
+
+and the shrinking-core branch first requires the selected-critical fresh root
+upper bound above.  This is not Gold closure.  It is the current sharp branch
+synthesis after the silent-source normal form repair, the repeated-core signed
+channel audit, and the spent-source nonreuse audit.
