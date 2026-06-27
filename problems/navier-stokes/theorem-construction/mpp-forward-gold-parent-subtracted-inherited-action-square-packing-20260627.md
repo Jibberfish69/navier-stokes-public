@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-parent-subtracted-inherited-action-square-packing-20260627
-status: parent-subtracted-inherited-action-square-packing-formalized
+status: parent-subtracted-decomposition-proved-inherited-direction-variation-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -15,6 +15,8 @@ attacks_hinge:
   - ParentSubtractedInheritedActionSquarePacking.A
   - ResetAngleSelectorVariationPayment.A
   - StoppedAnnularWaveletFreshActionBessel.A
+leaves_open:
+  - ResetAngleSelectorVariationFiniteFromOriginalMaterialLaw.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-current-coboundary-square-function-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-whole-transported-packet-parabolic-rescaling-boundary-20260627.md
@@ -24,7 +26,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-bounded-projection-original-participation-law-20260627.md
 ---
 
-# Forward Gold Parent-Subtracted Inherited Action Square Packing
+# Forward Gold Parent-Subtracted Inherited Action Decomposition
 
 ## Correction
 
@@ -132,6 +134,37 @@ C(u_0).
 This is the actual fresh-current square packing. It does not estimate inherited
 level values; it removes them before action is counted.
 
+For the inherited part,
+
+\[
+J_i^{\mathrm{inh}}
+=
+\langle G,b_i\rangle .
+\]
+
+The only new inherited contribution is its variation:
+
+\[
+J_i^{\mathrm{inh}}-J_{i-1}^{\mathrm{inh}}
+=
+\langle G,b_i-b_{i-1}\rangle .
+\]
+
+Thus
+
+\[
+\sum_i |J_i^{\mathrm{inh}}-J_{i-1}^{\mathrm{inh}}|^2
+\le
+\|G\|_{\mathfrak H_P}^2
+\sum_i \|b_i-b_{i-1}\|_{\mathfrak H_P}^2
+\le
+C(u_0)
+\sum_i \|b_i-b_{i-1}\|_{\mathfrak H_P}^2 .
+\]
+
+The same-direction inherited reuse itself contributes nothing new. Only change
+of inherited direction contributes.
+
 ## Reset, Angle, Selector, And Stop Variation
 
 Inherited current reappears only when the parent-known geometry changes. Let
@@ -165,17 +198,26 @@ by stopping or legal loss. Then
 C(u_0)\operatorname{Var}^{reset}_P .
 \]
 
-Therefore
+Therefore the original transported action decomposes as
 
 \[
-\sum_{Q_i\subset P}
-\mathcal R(Q_i)|\Delta J_i^{fresh}|^2
+\Omega_P^{orig}
 \le
-C(u_0)
+C\sum_i |J_i^{\mathrm{fresh}}|^2
 +C(u_0)\operatorname{Var}^{reset}_P
 +C R_{\mathrm{legal}}(P)
 +C Stop(P).
 \]
+
+Here
+
+\[
+\operatorname{Var}^{reset}_P
+=
+\sum_i \|b_i-b_{i-1}\|_{\mathfrak H_P}^2
+\]
+
+up to the equivalent projection-jump, legal, and stop terms.
 
 ## Gold Effect
 
@@ -189,13 +231,20 @@ The stopped selector must count the parent-subtracted current as action:
 \Delta J_i-\Delta J_i^{parent}.
 \]
 
-Then exact inherited reuse is killed algebraically, fresh use is orthogonal, and
-changed reuse is paid only by reset, angle, selector, frame, collar, stop, or
-legal variation. With this parent-subtracted current as the selected action, the
-rescaled same-material route obtains finite stopped current square packing; the
-installed selected-action, full-clock, and \(H^s\) continuation consumers then give
-the usual smooth continuation consequence.
+Then exact inherited reuse is killed algebraically and fresh use is orthogonal.
+Changed reuse is exactly reset, angle, selector, frame, collar, stop, or legal
+variation. This note proves the decomposition; it does not prove that this
+variation is finite.
 
-The remaining repository-surface risk is not a new PDE payment for raw inherited
-values. It is making every selected readout consume the parent-subtracted current,
-not the raw child stress read.
+The final Gold estimate is
+
+\[
+\sum_i \|b_i-b_{i-1}\|_{\mathfrak H_P}^2
+\le
+C(u_0)+R_{\mathrm{legal}}(P)+Stop(P).
+\]
+
+Once that original-material-law estimate is proved, the parent-subtracted
+selected action gives finite stopped current square packing, and the installed
+selected-action, full-clock, and \(H^s\) continuation consumers apply. Until
+then, Gold remains partial.
