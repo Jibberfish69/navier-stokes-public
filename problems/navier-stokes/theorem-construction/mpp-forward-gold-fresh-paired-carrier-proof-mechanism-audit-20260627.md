@@ -16,6 +16,9 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/lower-triangular-scale-memory-formalization-note.md
   - problems/navier-stokes/theorem-construction/persistent-weighted-quotient-kill-routes-audit.md
   - problems/navier-stokes/theorem-construction/affine-quotient-kill-from-signed-scale-descent-audit.md
+  - problems/navier-stokes/theorem-construction/affine-survivor-stripped-down-note.md
+  - problems/navier-stokes/theorem-construction/mpp-retained-affine-quotient-second-order-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-retained-b1-signed-to-affine-second-order-transfer-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/lifted-packet-three-piece-closure-program.md
   - problems/navier-stokes/theorem-construction/far-corona-cts-lpas-execution-program.md
   - problems/navier-stokes/theorem-construction/same-scale-coefficient-kill-into-weighted-carrier-note.md
@@ -210,6 +213,40 @@ or a further descent
 \tag{16}
 ```
 
+On the positive stress carrier, the affine quotient shrinks further.  Since
+\(\widetilde Z(\sigma,t,x)\ge0\) and the affine kernel is nonnegative on
+\(J=[\alpha,\beta]\),
+
+```math
+c_F(t,x)
+=
+\int_J{\beta-\sigma\over |I|}\widetilde Z(\sigma,t,x)\,d\sigma
+\le
+{|J|\over |I|}M_0(t,x),
+\tag{17}
+```
+
+where
+
+```math
+M_0(t)=\int_J\widetilde Z(\sigma,t)\,d\sigma.
+\tag{18}
+```
+
+Thus `AQK` would follow from the weighted endpoint mass estimate
+
+```math
+\int_0^T H_w(t)\|M_0(t)\|_{L_x^2}^2\,dt
+\le
+{\eta\nu\over C}\int_0^TD_N(t)\,dt+C_*2^{-2\delta N}.
+\tag{19}
+```
+
+The retained affine-quotient attempts show that `(19)` is not installed.  Its
+exact scalar route is the potential-average kill `(15)` plus signed-to-positive
+transfer, or a direct second-order exactness theorem for the positive stress
+source \(\widetilde Z\).
+
 ## 5. Same-scale side is not the large-gap blocker
 
 The upper-boundary and moving-spill pieces are same-scale finite-width objects.
@@ -218,7 +255,7 @@ weighted carrier
 
 ```math
 \widetilde\Lambda_N^\sharp(t)E_N(t).
-\tag{17}
+\tag{20}
 ```
 
 So the same-scale side is not the current large-gap theorem.  The large-gap
@@ -248,3 +285,7 @@ fresh source scale primitive.
 The previous DER endpoint-pressure wording is demoted by this audit.  The
 second component is not a generic endpoint pressure theorem; it is the affine
 quotient kill produced by the weighted Volterra readout.
+
+The affine quotient kill itself has now been sharpened to the weighted
+positive-carrier endpoint mass `(19)`, or equivalently to potential-average
+kill plus signed-to-positive transfer / direct second-order exactness.
