@@ -1,26 +1,30 @@
 ---
 theorem_id: forward-gold-fresh-native-root-upper-bound-direct-test-20260627
-status: root-upper-bound-reduced-to-fresh-one-way-selected-amplification
+status: fresh-root-upper-bound-reduced-to-critical-fresh-source-tent-carleson
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / fresh native root reserve
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
-audits_hinge:
+attacks_hinge:
   - FreshNativeRootUpperBound.A
   - SelectedScaleFreshNativeRootReserve.A
-  - OriginalHistorySelectedLogAmplificationCarleson.A
-  - WeightBeatingTailLaw.A
+  - SelectedDensityMartingaleSquareFunctionCarleson.A
+refined_hinge:
+  - CriticalFreshSourceTentCarleson.A
+  - FreshSourceCriticalScaleMemoryBound.A
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-native-selected-scale-lower-edge-audit-20260627.md
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-weight-beating-tail-ns-structure-audit-20260626.md
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-superheat-ratio-tail-frequency-transfer-test-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-spent-source-projection-nonreuse-audit-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-origin-hilbert-energy-dissipation-selector-readout-test-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-log-amplification-carleson-production-target-20260627.md
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-history-selected-reserve-normal-form-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-installed-support-axioms-half-tail-model-no-go-20260626.md
+  - problems/navier-stokes/theorem-construction/one-sided-scale-memory-obstruction-note.md
 ---
 
-# Fresh native root upper bound direct test
+# Fresh native root upper-bound direct test
 
-The lower edge is now separated:
+The current hinge is `FreshNativeRootUpperBound.A`.  The selected-scale lower
+edge is already isolated:
 
 ```math
 \omega_Q
@@ -30,7 +34,8 @@ C_N\rho_Q^{fresh}
 \tag{1}
 ```
 
-The root upper bound needed for Gold is:
+The remaining question is whether the fresh native coordinates have a finite
+root measure:
 
 ```math
 \sum_{Q\subset P}\rho_Q^{fresh}
@@ -39,164 +44,195 @@ C_N(u_0)\mathcal R(P)+R_{\rm legal}(P).
 \tag{2}
 ```
 
-This note checks whether `(2)` is already supplied by one of the native
-coordinates.
+This note tests the direct Hilbert/Bessel proof of `(2)`.
 
-## 1. Visible Schur coordinate
+## 1. What fresh projection gives
 
-For the pressure-visible quotient, capacity monotonicity gives a genuine
-telescoping root bound:
+After spent-source projection, strict descendant reuse is removed.  For a
+selected child \(Q\), write
 
 ```math
-\sum_{Q\subset P}\rho_Q^{vis}
-\le
-C B_{\rm cap}(P)+R_{\rm legal}(P).
+F_Q=(I-\Pi_{\rm spent(<Q)})\Delta_QZ_{\rm src}^{orig}.
 \tag{3}
 ```
 
-This branch is closed.  It cannot pay the boundary-flat or Schur-silent fresh
-source component.
-
-## 2. Silent/exchange coordinate
-
-The silent branch is locally closed by source-origin rigidity:
+On a stopped laminar tree, the fresh pieces are orthogonal along each chain,
+and sibling overlap is bounded by the retained material atlas.  Therefore the
+raw Hilbert geometry gives
 
 ```math
-\omega_Q^{silent}
+\sum_{Q\subset P}
+\|F_Q\|_{\mathcal H_{\rm raw}}^2
 \le
-C\,\Omega_Q^{strain/ex}
-+C\,D_Q^{vis/rad}
-+R_{\rm legal}(Q).
+C_N\|Z_P\|_{\mathcal H_{\rm raw}}^2
++R_{\rm legal}(P).
 \tag{4}
 ```
 
-The root upper bound would be
+This is real progress.  It says the same native source direction cannot be
+counted twice as fresh.
+
+## 2. Why the direct proof still fails
+
+Equation `(4)` is raw.  The root bound `(2)` is selected-critical.  In the
+fresh-source language the missing weight is
 
 ```math
-\sum_{Q\subset P}\Omega_Q^{strain/ex}
-\le
-C_N(u_0)\mathcal R(P)+R_{\rm legal}(P).
+\rho_Q^{fresh}
+\simeq
+w(Q)\,\|F_Q\|_{\mathcal H_{\rm raw}}^2,
+\qquad
+w(Q)\sim 2^{\ell(Q)}
 \tag{5}
 ```
 
-Equation `(5)` is not installed.  It is the same selected first-ratio /
-top-strain-log exchange root reserve that survived the previous audits.
+up to the already paid selector/legal normalizations.
 
-## 3. Hodge/projector coordinate
-
-Projector-first pressure removal gives
+If one defines the Hilbert norm so that
 
 ```math
-\dot{\mathbb P}_A v
-=
-\mathcal G_A L_A^{-1}\operatorname{div}_a(ABv),
+\|F_Q\|_{\mathcal H_{\rm crit}}^2
+:=
+w(Q)\|F_Q\|_{\mathcal H_{\rm raw}}^2,
 \tag{6}
 ```
 
-so Hodge/projector motion is driven by the same material gradient
-\(B=S+\Omega\), with metric motion depending on \(S\).
+then `(2)` becomes a Bessel estimate in the critical norm.  But that is useful
+only if \(\|Z_P\|_{\mathcal H_{\rm crit}}^2\) is finite from the original
+smooth material history.  Defining \(\mathcal H_{\rm crit}\) from the future
+selected tail repackages the target theorem.
 
-This proves attachment:
+Thus the direct proof stops at:
 
 ```math
-\rho_Q^{Hodge/proj}
-\lesssim
-\rho_Q^{strain/frame}+R_{\rm legal}(Q).
+\sum_Q \|F_Q\|_{\mathcal H_{\rm raw}}^2<\infty
+\quad\not\Rightarrow\quad
+\sum_Q w(Q)\|F_Q\|_{\mathcal H_{\rm raw}}^2<\infty .
 \tag{7}
 ```
 
-It does not give the root bound for the rectified selected projector motion.
-After pure rotations are gauged, the remaining strain-frame service is again
-the selected one-way material exchange coordinate.
+## 3. Fresh orthogonal half-tail
 
-## 4. Annular coordinate
-
-The transported annular identity is exact:
+The old half-tail can be made fresh.  Take orthogonal source directions
+\(e_\ell\) and set
 
 ```math
-{d\over dt}M_\phi
-+2\nu\int\phi |S|^2
+\|F_\ell\|_{\mathcal H_{\rm raw}}^2
 =
--\int u\cdot T\nabla\phi.
+\nu_\ell
+=
+{2^{-\ell}\over \ell+1}.
 \tag{8}
 ```
 
-Thus annular stress is the correct same-fluid carrier.  The storage
-\(-M_\phi\) is bounded below by physical energy.  It pays one orientation of
-the stress transaction.
-
-The missing root bound is for the rectified fresh selected part:
+Then the raw fresh Bessel sum is finite:
 
 ```math
-\sum_{Q\subset P}
-\left|\int_{I_Q}\int u\cdot T\nabla\phi_Q\right|_{\rm fresh,sel}
-\le
-C_N(u_0)\mathcal R(P)+R_{\rm legal}(P).
+\sum_\ell \|F_\ell\|_{\mathcal H_{\rm raw}}^2<\infty .
 \tag{9}
 ```
 
-The signed identity `(8)` does not imply `(9)` without the already-separated
-no-recirculation and one-way selected-amplification control.  The return branch
-is paid; the fresh one-way branch remains.
-
-## 5. Viscous/radius and frequency-native coordinates
-
-Raw heat and frequency estimates give
+But the selected-critical fresh mass is
 
 ```math
-\sum_\ell \nu_\ell<\infty,
+\sum_\ell
+2^\ell\|F_\ell\|_{\mathcal H_{\rm raw}}^2
+=
+\sum_\ell {1\over \ell+1}
+=\infty .
 \tag{10}
 ```
 
-and close entrance, subheat, and recirculation branches.  The selected action
-requires
+This model does not reuse a spent source direction.  It defeats the direct
+fresh-projection proof by using infinitely many genuinely fresh raw increments
+at smaller scales.
 
-```math
-\sum_\ell 2^\ell\nu_\ell<\infty.
-\tag{11}
-```
-
-The high-ratio one-way transfer branch cancels the heat penalty and returns
-exactly `(11)`.  So the frequency-native coordinate is finite only after the
-fresh selected amplification theorem is proved.
-
-## 6. Result
-
-The fresh root upper bound is partially closed:
-
-```math
-\text{visible Schur quotient}
-\quad\text{has root capacity packing.}
-\tag{12}
-```
-
-Every remaining fresh selected coordinate reduces to the same theorem:
+So the current obstruction is sharper than chain nonuse:
 
 ```text
-FreshOneWaySelectedAmplificationCarleson.A
+fresh orthogonal source increments can still miss the selected-critical tent
+weight.
 ```
 
-Plain statement: after pressure-visible capacity, spent-source reuse,
-selector/reselection jumps, silent-source zero-cost rigidity, return
-recirculation, entrance/legal, and subheat branches are removed, the remaining
-fresh one-way selected material amplification has finite original-history
-Carleson mass.
+## 4. Correct next theorem
 
-In formulas, the live bound is
+The noncircular theorem is:
+
+```text
+CriticalFreshSourceTentCarleson.A
+```
+
+Statement: for every retained same-material root \(P\), the fresh original
+source increments left after spent-source projection, silent-source normal
+form, paid selector/reselection, and exchange removals satisfy the critical
+tent bound
 
 ```math
 \sum_{Q\subset P}
-\left(
-\rho_Q^{strain/ex}
-+\rho_Q^{Hodge/proj,sel}
-+\rho_Q^{annular,sel}
-+\rho_Q^{freq/native,high}
-\right)_{\rm fresh}
+w(Q)\|F_Q\|_{\mathcal H_{\rm raw}}^2
 \le
-C_N(u_0)\mathcal R(P)+R_{\rm legal}(P).
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P),
+\tag{11}
+```
+
+where \(w(Q)\) is the selected first-ratio / heat-scale weight and the left
+side is built from original-history source coordinates, not from the future
+selected tail.
+
+Equivalently, prove the selector-correct martingale square-function bound
+
+```math
+\sup_{P}
+{1\over\mathcal R(P)}
+\sum_{Q\subset P}
+\left(
+\|F_Q\|_{\mathcal H_{\rm crit}}^2
++dK_{\rm sel}(Q)
++dK_{\rm ol}(Q)
+\right)\mathcal R(Q)
+\le
+C_N(u_0)+R_{\rm legal}(P),
+\tag{12}
+```
+
+with \(\mathcal H_{\rm crit}\) produced by the original pressure-visible,
+silent/exchange, annular, Hodge/projector, vis/rad, and frequency-native
+history.
+
+## 5. One-sided scale-memory form
+
+In physical scale variables, `(11)` is the fresh-source version of the
+one-sided scale-memory obstruction.  The active shell is tested against a
+lower-prefix material source history.  Raw same-history energy gives only the
+zeroth moment; the selected theorem needs the critical lower-prefix moment:
+
+```math
+\int
+a(r,t)
+\left(
+\int_0^rK(\ell,r)z(\ell,t)\,{d\ell\over\ell}
+\right)^2
+{dr\over r}\,dt
+\le
+C_N(u_0).
 \tag{13}
 ```
 
-This is the weight-beating tail law in fresh-native coordinates.  It is the
-same content as original-history selected log-amplification Carleson control,
-with all stale silent-source, reuse, and selector-jump branches removed.
+Thus the fresh-native root theorem is not another observability, nonreuse, or
+local lower-edge theorem.  It is a critical Carleson embedding for genuinely
+fresh same-material source increments.
+
+## 6. Result
+
+`FreshNativeRootUpperBound.A` is not discharged by spent-source projection plus
+ordinary Hilbert geometry.  Those inputs close reuse and prove raw Bessel
+packing, but they do not supply the selected critical weight.
+
+The next nonduplicate Gold hinge is:
+
+```text
+CriticalFreshSourceTentCarleson.A / FreshSourceCriticalScaleMemoryBound.A
+```
+
+This is the exact missing gain needed to turn the fresh selected-scale lower
+edge into the full selected first-ratio action bound.
