@@ -23,6 +23,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-selected-density-atom-exclusion-direct-test-20260626.md
 parallel_checks:
   - subagent:gibbs:carleman-quotient-visible-observability-20260627
+  - subagent:sartre:rellich-visible-quotient-sign-20260627
 ---
 
 # Stopped exchange-reselection compensator synthesis
@@ -256,6 +257,30 @@ quotienting by the boundary-flat silent pressure-potential kernel.  This is the
 right Carleman/unique-continuation target: it pays the boundary-visible branch
 and leaves the silent branch to the same-material exchange term in `(1)`.
 
+Rellich/Pohozaev gives the same role with a different proof mechanism.  The
+sign has to be inside the collar identity, not on Schur defect alone:
+
+```text
+StoppedRellichVisibleQuotientSelectedSign.A
+```
+
+Statement:
+
+```math
+\sum_{S'}A_{\rm vis}(S')
+\le
+C\langle U_S,\mathsf S_S^{\rm stop}U_S\rangle
++R_{\rm stop}^{vis}(S)
++R_{\rm legal}(S).
+\tag{12}
+```
+
+The silent component is explicitly excluded from `(12)`.  Boundary-flat
+pressure potentials may have zero boundary/Schur trace; when they are genuinely
+selected, the installed silent-source normal form routes them into
+\(\Omega^{strain/ex}\) and \(D^{vis/rad}\).  So Rellich is a proof mechanism
+for the visible quotient in `(1)`, not a way to remove the exchange terms.
+
 The nonlocal closure should instead attack the stopped compensator:
 
 ```math
@@ -264,10 +289,10 @@ The nonlocal closure should instead attack the stopped compensator:
 \;\le\;
 \text{same-material exchange variation}
 }
-\tag{12}
+\tag{13}
 ```
 
-Once `(12)` is proved, the stopped Bellman inequality has only the full
+Once `(13)` is proved, the stopped Bellman inequality has only the full
 original-history exchange action left to sum.
 
 ## 6. Honest remaining burden
