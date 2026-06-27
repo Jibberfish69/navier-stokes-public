@@ -165,7 +165,8 @@ The chain is:
 ```text
 parent-subtracted QR
 -> parent-announced reset variation into E_route
--> original-history Bessel bound for E_route
+-> active-weight stopped-frame Carleson embedding
+-> conditional original-history bound for E_route
 -> selected action
 -> parent drop
 -> finite material record
