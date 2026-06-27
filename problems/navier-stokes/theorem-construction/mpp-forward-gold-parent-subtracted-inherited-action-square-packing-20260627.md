@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-parent-subtracted-inherited-action-square-packing-20260627
-status: parent-subtracted-decomposition-proved-inherited-direction-variation-open
+status: parent-subtracted-decomposition-proved-reset-variation-reduced-to-routed-energy
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -15,14 +15,19 @@ attacks_hinge:
   - ParentSubtractedInheritedActionSquarePacking.A
   - ResetAngleSelectorVariationPayment.A
   - StoppedAnnularWaveletFreshActionBessel.A
+  - ParentAnnouncedFirstExitResetVariation.A
 leaves_open:
-  - ResetAngleSelectorVariationFiniteFromOriginalMaterialLaw.A
+  - OriginalHistoryRoutedCurrentEnergyFinite.A
+  - StoppedSelectorBoundedProjectionOriginalParticipationLaw.A
 source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-announced-reset-variation-to-routed-energy-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-current-coboundary-square-function-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-whole-transported-packet-parabolic-rescaling-boundary-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-traction-current-participation-law-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-stress-test-innovation-bessel-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-parent-subtracted-current-admission-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-square-packing-noncircular-installation-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-routed-current-energy-original-history-producer-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-stress-test-bessel-frame-no-free-reset-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-bounded-projection-original-participation-law-20260627.md
 ---
@@ -245,17 +250,66 @@ d\Omega_N^{fresh}
 +d\Omega_N^{stop/legal}.
 \]
 
-The final Gold estimate is the no-free-reset storage inequality for this
-combined action:
+Represent each reset as a parent-announced first exit. For the reset edge \(e\),
+the stopped selector gives
 
 \[
-d\mathscr A_N+c\,d\Omega_N\le dR_N,
-\qquad
-\mathscr A_N(t)\ge -C(u_0),
-\qquad
-\int_0^{T^*}dR_N<\infty .
+D_e
+=
+{|I_e|}^{-1}\int_{I_e}
+\mathcal G_e(\sigma,t)\,d\sigma
++Err_e^{legal},
+\]
+
+where
+
+\[
+\mathcal G_e
+=
+\partial_\sigma Z
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma .
+\]
+
+With
+
+\[
+H_{I_e}(t)=
+{|I_e|^2\over\int_{I_e}w(\sigma,t)^{-1}\,d\sigma},
+\]
+
+Cauchy and bounded stopped overlap of the first-exit slabs give
+
+\[
+\operatorname{Var}^{stop}_P
+\le
+C_N\mathcal E_{\mathrm{route}}(P)
++R_{\mathrm{legal}}(P)+Stop(P).
+\]
+
+Combining this with the fresh Bessel estimate gives
+
+\[
+\sum_{Q\subset P}
+\mathcal R(Q)|\Delta J_Q^{sel}|^2
+\le
+C(u_0)
++C_N\mathcal E_{\mathrm{route}}(P)
++R_{\mathrm{legal}}(P)+Stop(P).
+\]
+
+The final Gold estimate is therefore the original-history routed-current energy
+bound
+
+\[
+\mathcal E_{\mathrm{route}}(P)
+\le
+C(u_0)+R_{\mathrm{legal}}(P)+Stop(P).
 \]
 
 This note proves the parent-subtracted decomposition and the fresh Bessel
-packing.  The finite-reset-variation part is exactly the storage inequality
-above, not a raw inherited-value estimate.
+packing. The reset-variation branch is paid in routed-current currency by the
+parent-announced first-exit representation. The live unpaid theorem is the
+bounded-projection estimate for \(\mathcal E_{\mathrm{route}}\) from the original
+Navier-Stokes participation law.
