@@ -238,7 +238,76 @@ and the bounded-projection theorem put \(\mu_G(\widehat P)\) under the original
 same-material participation law. This gives the retained active Bellman
 capacity estimate once `(3)` is proved.
 
-## 5. Exact remaining theorem
+## 5. The surviving shrinking-chain test
+
+The admission identity `(3)` is not a consequence of the fresh Bessel estimate.
+The minimal survivor is already visible in the parent Hilbert space.  Take
+\(\ell_m=2^{-m}\), orthonormal stopped residual directions \(e_m\), and
+
+\[
+G=\sum_m \ell_m^{1/2}e_m .
+\tag{14}
+\]
+
+Let the retained children \(Q_m\) have
+
+\[
+d_{Q_m}=e_m,\qquad
+\mu_G(\widehat Q_m)=|\langle G,e_m\rangle|^2=\ell_m,
+\qquad
+R^{reset}_{Q_m}=R^{legal}_{Q_m}=Stop_{Q_m}=0 .
+\tag{15}
+\]
+
+Then the installed payments all remain finite:
+
+\[
+\sum_m|\langle G,d_{Q_m}\rangle|^2
+=
+\sum_m\ell_m
+<\infty .
+\tag{16}
+\]
+
+This chain does not reuse the same direction, so exact-reuse subtraction is not
+triggered.  It has no projection jump, collar movement, stop, or legal exit.
+Pressure has already been removed by the divergence-free material tests.  Thus
+fresh Bessel, pressure cancellation, and first-exit reset payment do not prevent
+a selector from declaring
+
+\[
+\omega_{Q_m}^{new}\simeq 1
+\qquad\text{for every }m .
+\tag{17}
+\]
+
+The parent-normalized admission identity `(3)` is precisely the sentence that
+rules out `(17)`, because with
+
+\[
+s_{Q_m^-}=s_{P,0}+\sum_{j<m}\ell_j
+\tag{18}
+\]
+
+the permitted leverage is only
+
+\[
+\log\left(1+\frac{\ell_m}{s_{Q_m^-}}\right),
+\tag{19}
+\]
+
+and these terms telescope to a finite parent stress-record budget.
+
+The seed \(s_{P,0}\) is not a child-sized free denominator.  It must be a
+parent-known normalization fixed before the selected tail is read.  Starting a
+new empty account at each shrinking child would reintroduce the same missing
+scale-normalized unit count under another name.
+
+So the reduction is exact: the Bellman/log calculation proves finite action
+after `(3)`, and the shrinking-chain test shows `(3)` is the genuine remaining
+Navier-Stokes selector-admission theorem.
+
+## 6. Exact remaining theorem
 
 The remaining theorem is not another stress source theorem. It is the selector
 admission identity:
