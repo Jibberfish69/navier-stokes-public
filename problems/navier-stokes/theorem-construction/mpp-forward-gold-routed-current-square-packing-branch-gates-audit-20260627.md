@@ -101,13 +101,17 @@ This note records the exact content of the two branch gates.
 
 The repeated stopped-core branch is not paid by boundedness of a scalar record.
 A bounded oscillating record can have infinite variation.  The needed theorem is
-a signed stopped-material PLS balance:
+a stopped scale-potential package:
 
 ```text
+StoppedPrimitivePLSSignedScalePotentialLift.A
++
+StoppedPotentialRecordAverageBound.A
++
 SignedStoppedPLSEvolutionIdentity.A / StoppedReturnBVFiniteFromOriginalData.A.
 ```
 
-The required identity has the form
+The required signed identity has the form
 
 ```math
 D_tP_{\mathfrak R}
@@ -137,9 +141,19 @@ P_{\mathfrak R}(t_1)-P_{\mathfrak R}(t_0)
 \tag{8}
 ```
 
-and `(7)` turns the fixed-core contribution into original-history service.
+Thus the fixed-core contribution is paid only after both pieces are controlled:
 
-Without `(6)`--`(7)`, fixed-core return remains open.
+```math
+P_{\mathfrak R}(t_1)-P_{\mathfrak R}(t_0)
+\le
+B_{\rm rec}(Q_0)+R_{\rm legal}(Q_0),
+\tag{8a}
+```
+
+and `(7)` controls the negative-return term.  The first line is the bounded
+record/root-capacity part; the second line is the paid-return part.
+
+Without `(6)`--`(8a)`, fixed-core return remains open.
 
 ## 4. Strict reset gate
 
@@ -211,6 +225,10 @@ StoppedRoutedCurrentSquarePacking.A
 with two exact proof inputs:
 
 ```text
+StoppedPrimitivePLSSignedScalePotentialLift.A
++
+StoppedPotentialRecordAverageBound.A
++
 SignedStoppedPLSEvolutionIdentity.A / StoppedReturnBVFiniteFromOriginalData.A
 ```
 
