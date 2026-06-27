@@ -177,6 +177,20 @@ In proof form:
 \text{spent once or refunded through paid full exchange}.
 ```
 
+In Hilbert-square-function language this is a spent-source projection.  The
+unspent original-history increment can be charged by Bessel orthogonality, but
+a strict descendant may not keep reading the same source direction after it has
+already paid a selected birth.  The missing projection is:
+
+```math
+\Delta_\gamma Z_{\rm src}^{orig}
+\longmapsto
+(I-\Pi_{\rm spent(<\gamma)})\Delta_\gamma Z_{\rm src}^{orig},
+```
+
+with the spent part charged to paid reselection, full-exchange refund, or
+legal loss.  This is the Hilbert form of the same non-reuse theorem.
+
 This is the exact noncircular version of the Bellman reserve.  A Bellman
 functional equal to the future selected tail assumes the clock.  A Bellman
 functional whose atoms are the map \(\iota\) proves the clock.
