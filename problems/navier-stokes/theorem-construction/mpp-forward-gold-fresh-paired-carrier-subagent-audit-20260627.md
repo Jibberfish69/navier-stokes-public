@@ -114,9 +114,9 @@ exposed.  The missing theorem is a one-sided square / Carleson theorem on the
 coupled two-scale density, or a factorized same-material theorem strong enough
 to imply it.
 
-## 3. Current edge
+## 3. Superseded edge
 
-The current live theorem is therefore:
+The audited theorem was therefore:
 
 ```text
 FreshSourceWeightedPairedCarrierBound.A
