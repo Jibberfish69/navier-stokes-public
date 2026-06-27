@@ -64,7 +64,7 @@ H_{I_e}(t)
 \tag{3}
 \]
 
-Cauchy gives
+Cauchy gives the reset estimate in the active metric:
 
 \[
 H_{I_e}(t)\|D_e(t)\|^2
@@ -74,6 +74,22 @@ w(\sigma,t)\|\mathcal G_e(\sigma,t)\|^2\,d\sigma
 +Err_e^{legal}.
 \tag{4}
 \]
+
+Define the stopped reset-variation ledger in that same active metric:
+
+\[
+\operatorname{Var}^{stop}_P
+:=
+\sum_{e\subset P}
+\int H_{I_e}(t)\|D_e(t)\|^2\,dt
++R_{\mathrm{legal}}(P)+Stop(P).
+\tag{5}
+\]
+
+Equivalently, this is the projection-jump square function
+\(\sum_i\|b_i-b_{i-1}\|^2\) computed in the pulled-back active route metric.  An
+unweighted projection-jump norm is not inferred from `(4)` unless the stopped
+chart has already normalized it to this active metric.
 
 The reset witness slabs are parent-announced first-exit slabs. Their stopped
 overlap is bounded. Hence the reset, angle, selector, frame, and collar
@@ -91,7 +107,7 @@ w\Big(
 +|C_\sigma|^2
 \Big)
 +R_{\mathrm{legal}}(P)+Stop(P).
-\tag{5}
+\tag{6}
 \]
 
 That integral is exactly the stopped routed-current energy:
@@ -106,10 +122,10 @@ w\Big(
 +|E_\sigma|^2
 +|C_\sigma|^2
 \Big).
-\tag{6}
+\tag{7}
 \]
 
-Combining the fresh annular-wavelet QR/Bessel estimate with `(5)` gives
+Combining the fresh annular-wavelet QR/Bessel estimate with `(6)` gives
 
 \[
 \sum_{Q\subset P}
@@ -118,7 +134,7 @@ Combining the fresh annular-wavelet QR/Bessel estimate with `(5)` gives
 C(u_0)
 +C_N\,\mathcal E_{\mathrm{route}}(P)
 +R_{\mathrm{legal}}(P)+Stop(P).
-\tag{7}
+\tag{8}
 \]
 
 Thus the raw reset-variation estimate is no longer a standalone obstruction.
@@ -130,10 +146,10 @@ The routed-current coordinate form of the full-action bound is
 \mathcal E_{\mathrm{route}}(P)
 \le
 C(u_0)+R_{\mathrm{legal}}(P)+Stop(P).
-\tag{8}
+\tag{9}
 \]
 
-Equation `(8)` is the bounded-projection form of the same original
+Equation `(9)` is the bounded-projection form of the same original
 Navier-Stokes participation law:
 
 \[
@@ -142,10 +158,10 @@ d\mathscr A_N+c\,d\Omega_N\le dR_N,
 \mathscr A_N(t)\ge -C(u_0),
 \qquad
 \int_0^{T^*}dR_N<\infty .
-\tag{9}
+\tag{10}
 \]
 
-With `(8)` in this full-action sense, `(7)` gives finite selected current
+With `(9)` in this full-action sense, `(8)` gives finite selected current
 square packing; the installed downstream relay then gives finite selected
 action, finite full same-material clock, and the usual \(H^s\) continuation.
 The reset branch is paid in routed-current currency, not raw inherited values.

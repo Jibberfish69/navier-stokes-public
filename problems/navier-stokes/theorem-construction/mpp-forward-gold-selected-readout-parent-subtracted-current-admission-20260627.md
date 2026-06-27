@@ -137,9 +137,11 @@ By Cauchy--Schwarz,
 ```
 
 The same-direction inherited reuse itself contributes nothing new.  Only change
-of inherited direction contributes.  In projection notation,
-\(\sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P}^2\) is the stopped reset/angle/selector/
-frame/collar variation ledger, with stop/legal pieces recorded separately.
+of inherited direction contributes.  In projection notation, the stopped
+reset/angle/selector/frame/collar variation ledger is
+\(\sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P,act}^2\), the projection-jump square
+function in the pulled-back active route metric, with stop/legal pieces recorded
+separately.
 
 ## 3. Square packing consumed by the relay
 
@@ -163,7 +165,7 @@ Together with `(7)`, the original transported action decomposes as
 C
 \sum_i|\sqrt{\mathcal R(Q_i)}\,\Delta J_i^{new}|^2
 +
-C(u_0)\sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P}^2
+C(u_0)\sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P,act}^2
 +
 R_{\rm legal}(P)+Stop(P).
 \tag{9}
@@ -176,7 +178,7 @@ For those reset edges, the harmonic-weight Cauchy estimate and bounded stopped
 overlap give
 
 ```math
-\sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P}^2
+\sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P,act}^2
 \lesssim
 \operatorname{Var}^{stop}_P
 \le
