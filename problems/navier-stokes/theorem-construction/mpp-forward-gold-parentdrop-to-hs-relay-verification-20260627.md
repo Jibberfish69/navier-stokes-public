@@ -125,9 +125,9 @@ The following fresh-root/source-square language is retained only as historical
 context. It is not the live Gold target after the parent-subtracted stopped-current
 closure.
 
-## 3. Exact open producer
+## 3. Historical producer language
 
-The current global producer is
+At the time this note was written, the then-current global producer was
 
 ```math
 \boxed{
