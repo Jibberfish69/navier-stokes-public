@@ -182,7 +182,7 @@ Restoring paid and stopped terms gives the physical form
 \right|^2
 \le
 C_N\int_{\operatorname{Hist}(P)}|G|^2
-\+
++
 \Omega_{\rm nfr}(P).
 \tag{11}
 ```
