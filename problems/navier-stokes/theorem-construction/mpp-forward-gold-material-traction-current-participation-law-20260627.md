@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-material-traction-current-participation-law-20260627
-status: material-current-mechanism-installed-derivative-estimate-open
+status: material-current-dual-stress-test-bessel-bound-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -20,7 +20,10 @@ effect: >-
   production because tr S = 0, convection has no material production because the
   regions are transported by the flow, and viscosity is dissipative.  Selected
   scale-action can only be incoming interface traction plus variation of the
-  same material capacity/current record.  Partial, not Gold closed.
+  same material capacity/current record.  The routed-current estimate is dual:
+  lift selected readouts to stopped divergence-free material test fields, kill
+  pressure exactly, and square-pack the lifted gradients by Bessel orthogonality.
+  Partial, not Gold closed.
 ---
 
 # Material traction current participation law
@@ -110,44 +113,102 @@ D_AJ^S+\nu^S_{\rm stop}+\nu^S_{\rm legal}.
 
 The source factorization is physical before the selector reads scalar action.
 
-## 3. Stopped projection estimate
+## 3. Dual stopped stress test
 
-The stopped selector is admissible only because it is parent-known and
-finite-overlap.  On each retained stopped shell \(Q\), the selected edge
-increment must be controlled by derivative variation of the same traction
-current:
+The current estimate is dual.  Do not differentiate the physical traction
+current \(J=u\cdot Tn\).  For each stopped child \(Q\), lift the selected readout
+functional before selection to a material test field \(v_Q\) satisfying
 
 ```math
-|\Delta_QJ^S|^2\,\mathcal R(Q)
-\lesssim
-\int_{\operatorname{Hist}(Q)}
-w\,|\partial_\sigma J^S|^2.
+D_A\cdot v_Q=0.
 \tag{7}
 ```
 
-The right-hand side is original traction/strain/turnstile/covector/connection
-derivative energy.  It is not a future selected tail and not a downstream full
-material clock input.
-
-After decomposing \(\partial_\sigma J^S\) into routed coordinates, `(7)` is the
-pointwise shell form of
+Define the routed current increment by stress pairing:
 
 ```math
-\int_{\operatorname{Hist}(P)}
-w\left(
-|\partial_\sigma Z|^2
-+|T_\sigma|^2
-+|E_\sigma|^2
-+|C_\sigma|^2
-\right)
-\le
-C(u_0)+R_{\rm legal}(P)+Stop(P).
+\Delta_QJ^S
+:=
+\int_{\operatorname{Hist}(Q)}
+T:\nabla_A v_Q.
 \tag{8}
 ```
 
-Equation `(8)` is the Gold wall.  Fixed return, strict reset, selector log
-amplification, parent drop, finite full clock, and \(H^s\) continuation are
-bookkeeping after `(8)`.
+The pressure term vanishes exactly:
+
+```math
+\int_{\operatorname{Hist}(Q)}
+pI:\nabla_Av_Q
+=
+\int_{\operatorname{Hist}(Q)}
+p\,D_A\cdot v_Q
+=0.
+\tag{9}
+```
+
+The remaining part is viscous:
+
+```math
+\Delta_QJ^S
+=
+\int_{\operatorname{Hist}(Q)}
+2\nu S_A:\nabla_Av_Q
++dR_Q^{legal}+dStop_Q.
+\tag{10}
+```
+
+Choose the stopped routing atlas so the lifted gradients are an
+energy-normalized parent-known Bessel family:
+
+```math
+\sum_{Q\subset P}
+\mathcal R(Q)
+\left|
+\int_{\operatorname{Hist}(Q)}
+G:\nabla_Av_Q
+\right|^2
+\le
+C
+\int_{\operatorname{Hist}(P)}
+|G|^2.
+\tag{11}
+```
+
+Applying `(11)` with \(G=2\nu S_A\) gives
+
+```math
+\sum_{Q\subset P}
+\mathcal R(Q)|\Delta_QJ^S|^2
+\le
+C\nu^2
+\int_{\operatorname{Hist}(P)}
+|S_A|^2
++R_{\rm legal}+Stop.
+\tag{12}
+```
+
+The material energy identity gives
+
+```math
+2\nu\int_0^T\int |S|^2
+\le
+\|u_0\|_2^2.
+\tag{13}
+```
+
+Thus, for fixed viscosity normalization,
+
+```math
+\sum_{Q\subset P}
+\mathcal R(Q)|\Delta_QJ^S|^2
+\le
+C(u_0)+R_{\rm legal}+Stop.
+\tag{14}
+```
+
+Equation `(14)` is the square-packing input for the Gold wall.  Fixed return,
+strict reset, selector log amplification, parent drop, finite full clock, and
+\(H^s\) continuation are bookkeeping after this stopped dual stress-test bound.
 
 ## 4. Noncircularity
 
@@ -167,13 +228,14 @@ legal loss.
 The remaining theorem is:
 
 ```text
-MaterialTractionCurrentStoppedAtlasDerivativeBound.A.
+StoppedDivergenceFreeStressTestBessel.A.
 ```
 
-For the parent-known stopped material atlas, prove that the projected interface
-traction current satisfies `(7)` with derivative energy controlled by the
-original strain, turnstile, exchange, covector, connection, stop, and legal
-ledgers.  Then `(8)` follows, and the selected Gold chain is only downstream
-bookkeeping.
+For the parent-known stopped material atlas, construct the pre-selected
+divergence-free Hodge lifts \(v_Q\) and prove the lifted gradients satisfy the
+Bessel estimate `(11)`, with all stopping, boundary, chart, and legal errors
+entering only through \(R_{\rm legal}\) and \(Stop\).  Then `(14)` supplies finite
+routed-current energy from the original viscous strain norm, and the selected
+Gold chain is only downstream bookkeeping.
 
 Partial, not Gold closed.
