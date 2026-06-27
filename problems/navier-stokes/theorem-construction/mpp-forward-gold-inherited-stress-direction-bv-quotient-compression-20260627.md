@@ -258,6 +258,44 @@ same material stress channel as infinitely many new refills unless the original
 transported history pays finite deformation, return, reset, reselection,
 selector, stop, or legal cost.
 
+On one stopped ancestry line this is equivalently a signed material flux
+potential statement.  Define \(\Psi\) so that the inherited positive readings
+have a signed density \(Y=\partial_t\Psi\) and
+
+```math
+Y_+=Y+Y_-+Err.
+\tag{15a}
+```
+
+Then on every stopped interval \(I=[t_0,t_1]\),
+
+```math
+\int_I Y_+
+\le
+\operatorname{Rec}(\Psi;I)+V_-(\Psi;I)+Err(I),
+\tag{15b}
+```
+
+because
+
+```math
+V_+(\Psi;I)=\Psi(t_1)-\Psi(t_0)+V_-(\Psi;I).
+\tag{15c}
+```
+
+The scalar BV identity `(15b)`--`(15c)` is not the Gold payment.  The payment is
+the PDE estimate
+
+```math
+\operatorname{Rec}(\Psi)+V_-(\Psi)
+\le C(u_0)+R_{\rm legal}+Stop.
+\tag{15d}
+```
+
+The fixed-annulus payback notes prove only the conditional version: rectified
+flux variation is finite once the same-material record and service clock are
+finite.  They do not prove the record/service clock finite from original data.
+
 Adding `(13)` and `(15)` gives full stopped square-packing:
 
 ```math
