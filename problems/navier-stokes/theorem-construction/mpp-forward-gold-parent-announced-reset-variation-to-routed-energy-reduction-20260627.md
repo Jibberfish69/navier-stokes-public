@@ -14,7 +14,8 @@ closes_relative:
   - ParentAnnouncedFirstExitResetVariation.A
   - HarmonicActiveWeightResetCauchy.A
 leaves_open:
-  - full-action/no-free-reset storage law in routed-current coordinates
+  - OriginalHistoryRoutedCurrentEnergyFinite.A
+  - StoppedSelectorBoundedProjectionOriginalParticipationLaw.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-inherited-action-square-packing-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-parent-subtracted-current-admission-20260627.md
