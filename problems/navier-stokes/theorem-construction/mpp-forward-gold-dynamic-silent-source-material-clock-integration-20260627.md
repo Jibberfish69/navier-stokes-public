@@ -241,7 +241,7 @@ S_{\rm covector}
 This is the clean technical bridge from frozen silence to the current lifted
 transition program.  The split must happen in the lifted
 visible/silent/exchange packet before scalar positive readout.  If scalar
-selection is taken first, the signed cancellation in `(10)` can be destroyed,
+selection is taken first, the signed cancellation in `(12)` can be destroyed,
 which is the same obstruction isolated by the affine transition square-packing
 note.
 
@@ -320,7 +320,7 @@ C_N\left(E_Q^{top\text{-}ex}+S_Q^{mat}\right)
 \tag{21}
 ```
 
-Without `(18)` or `(19)`, interior energy only renames the missing reserve.  It
+Without `(20)` or `(21)`, interior energy only renames the missing reserve.  It
 does not beat the critical half-tail.
 
 ## 5. Entropy and square function placement
@@ -375,7 +375,7 @@ Statement:
 \sum_{Q\subseteq P}
 w(Q)
 \int_{I_Q}
-\|[D_t,\mathcal L_A]w_Q\|_{\mathcal H_{lift}(Q)}^2\,d\tau
+\|\Pi_{\rm sel}^{ex}[D_t,\mathcal L_A]w_Q\|_{\mathcal H_{lift}(Q)}^2\,d\tau
 \le
 C_N(u_0)\mathcal R(P)+R_{legal}(P).
 \tag{24}
@@ -415,7 +415,7 @@ CriticalWeightedParentChildResetCarleson.A
 LogScaleResetDerivativeCarrierBound.A.
 ```
 
-In the repeated-core branch, `(22)` supplies the missing pre-positive signed
+In the repeated-core branch, `(24)` supplies the missing pre-positive signed
 channel for silent material:
 
 ```math
@@ -429,7 +429,7 @@ Y_{{\rm sil},+}=Y_{\rm sil}+Y_{{\rm sil},-}.
 \tag{26}
 ```
 
-In the shrinking-core branch, `(22)` is a candidate source for the critical
+In the shrinking-core branch, `(24)` is a candidate source for the critical
 weighted reset charge because a fresh selected child that remains silent must
 spend log-scale/covector/frame deformation before the future selected tail is
 formed.
@@ -455,6 +455,6 @@ service-free at the same time.
 ```
 
 This is the right improvement to the invisible-child lane.  The remaining Gold
-burden is the global selected-critical sum `(22)`, because local dynamic
+burden is the global selected-critical sum `(24)`, because local dynamic
 exposure must still be paid from original history rather than from the future
 selected tail.
