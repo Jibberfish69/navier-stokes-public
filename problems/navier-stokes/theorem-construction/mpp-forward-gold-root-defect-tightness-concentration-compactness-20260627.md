@@ -15,6 +15,7 @@ refines:
   - StoppedSelectorFiniteScoreOrPaidDrift.A
   - PositiveFreshAffineQuotientBVReturnKill.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-defect-tightness-original-ledger-correction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-root-geometry-compensator-direct-proof-attempt-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-high-weight-tube-escape-charge-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-reset-witness-interval-bounded-overlap-20260627.md
@@ -24,13 +25,14 @@ source_surfaces:
 effect: >-
   Runs concentration-compactness on the normalized root defect measure.  The
   strict first-exit reset/high-weight escape alternative is already paid by the
-  finite-score selector, witness-overlap, and harmonic Cauchy machinery.  The
-  tight same-carrier zero-cost alternative is killed by parent subtraction and
-  dynamic-silent rigidity.  What remains is the non-derivative persistent affine
-  quotient on a same carrier: it must be predictable record/return, or it must
-  pay a potential-average / negative-scale-return / selected-overrun bill.  This
-  is a sharper subproblem inside RootDefectTightnessFromOriginalHistory.A, not
-  Gold closure.
+  finite-score selector, witness-overlap, and harmonic Cauchy machinery, but
+  only against the parent-known original ledger.  The tight same-carrier
+  zero-cost alternative is killed by parent subtraction and dynamic-silent
+  rigidity.  What remains is the non-derivative persistent affine quotient on a
+  same carrier: it must be predictable record/return, or it must pay a
+  potential-average / negative-scale-return / selected-overrun bill from the
+  original ledger.  This is a sharper subproblem inside
+  RootDefectTightnessFromOriginalHistory.A, not Gold closure.
 ---
 
 # Root defect tightness via concentration compactness
@@ -52,15 +54,20 @@ are removed, normalize a stopped family so that
 \tag{1}
 ```
 
-while the original-history root ledger vanishes:
+while the parent-known original-history root ledger vanishes:
 
 ```math
-\int d\Lambda_{P_n}^{root}+R_{\rm legal}(P_n)+Stop(P_n)\to0.
+\int d\Lambda_{P_n}^{orig}+R_{\rm legal}(P_n)+Stop(P_n)\to0.
 \tag{2}
 ```
 
 The target `RootDefectTightnessFromOriginalHistory.A` is the assertion that
 `(1)` cannot hold together with `(2)`.
+
+The ledger in `(2)` must not contain \(dA^{wt}\) or \(dA^{conn}\).  Those
+measures are part of the root clock on the left side of `(1)`.  They become
+available only after the original storage/coercivity estimate has produced
+them.
 
 ## 2. Concentration-compactness split
 
@@ -94,8 +101,8 @@ one carrier plus a selector/covector/connection mismatch.
 
 Different carriers are paid by laminar disjointness after choosing the maximal
 subtree carrying a fixed fraction of mass.  A mismatch is exactly
-turnstile/exchange/covector/connection cost, hence belongs to
-\(d\Lambda^{root}\).  Therefore dichotomy cannot preserve `(1)` while `(2)`
+turnstile/exchange/covector/connection cost, hence belongs to the original
+ledger \(d\Lambda^{orig}\).  Therefore dichotomy cannot preserve `(1)` while `(2)`
 vanishes.
 
 ### Tight same-carrier mass
@@ -201,8 +208,8 @@ C_N(u_0)\mathcal R(P)
 ```
 
 Here `Return_-`, `PotAvg`, and `Overrun_sel` are not new consumers.  They are
-the exact bills already isolated by the positive affine quotient BV-return
-route:
+the original-ledger bills already isolated by the positive affine quotient
+BV-return route:
 
 ```math
 Y_+=Y+Y_-.
