@@ -1,11 +1,11 @@
 ---
 theorem_id: forward-gold-high-active-density-first-exit-admission-closure-20260627
-status: theorem-note-closed-under-parent-known-density-stop
+status: failed-closure-root-active-measure-circularity
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
-closes:
+tests:
   - HighActiveDensityForcesStopOrLegalReselection.A
   - ScaleCriticalStoppedFrameCarlesonEmbedding.A on the retained stopped tree
   - OriginalHistoryRoutedCurrentEnergyFinite.A for the retained routed-current atlas
@@ -21,13 +21,14 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-frame-bessel-critical-weight-fork-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-history-routed-current-energy-bessel-producer-20260627.md
 effect: >-
-  Adds the missing parent-known density stop. A packet whose active routed-current
-  density exceeds the retained Carleson aperture is not allowed to remain a
-  retained unpaid selected child. It is a parent-announced first exit and is
-  charged to stop/legal/reselection/reset or parent-current capacity drop.
+  Tests the parent-known density-stop closure. The stop rule is valid as a
+  selector-admission mechanism, but it does not prove the root active route
+  measure finite. If the bad-packet packing uses the active weighted route
+  measure, the argument assumes E_route(P)<infty. Thus this note is a sharp
+  failed closure, not a Gold proof.
 ---
 
-# High active density first-exit admission closure
+# High active density first-exit admission attempt
 
 The reset branch is already reduced to the routed-current energy line
 
@@ -38,7 +39,7 @@ C(u_0)+R_{\mathrm{legal}}(P)+Stop(P).
 \tag{1}
 \]
 
-This note proves the missing stopped-selector admission step for that line.
+This note tests the parent-known density-stop route for that line.
 
 Let
 
@@ -163,8 +164,8 @@ C_\nu E_0(u_0).
 \tag{12}
 \]
 
-On the retained complement, `(8)` gives the active route metric Carleson bound.
-Equivalently,
+On the retained complement, `(8)` controls only the measure used to define
+\(\mu_G\). To conclude the active route metric estimate one would need
 
 \[
 \int_{\operatorname{Hist}(P)_{\mathrm{ret}}}
@@ -174,6 +175,11 @@ C_{N,K}\|G\|_{\mathfrak H_P}^2
 +R_{\mathrm{legal}}(P)+Stop(P).
 \tag{13}
 \]
+
+This is the unproved step. If \(\mu_G\) is the active weighted measure from
+`(13)`, then `(6)` is exactly \(\mathcal E_{\mathrm{route}}(P)<\infty\), the
+theorem being proved. If \(\mu_G\) is only the raw unweighted Bessel measure,
+then `(13)` does not follow.
 
 The routed-current identity gives
 
@@ -197,7 +203,7 @@ where
 \tag{15}
 \]
 
-Therefore `(13)` is exactly
+With `(13)`, the routed-current identity would give
 
 \[
 \mathcal E_{\mathrm{route}}(P)
@@ -207,7 +213,7 @@ C_N\|2\nu S_A\|_{\mathfrak H_P}^2
 \tag{16}
 \]
 
-Using `(12)`,
+Using `(12)`, this would imply
 
 \[
 \boxed{
@@ -218,11 +224,12 @@ C_N(u_0)+R_{\mathrm{legal}}(P)+Stop(P).
 \tag{17}
 \]
 
-This proves `HighActiveDensityForcesStopOrLegalReselection.A`: high active
-density cannot survive as retained unpaid selected action because density
-excess is a parent-announced first exit.
+So the density stop proves only the selector-admission half of
+`HighActiveDensityForcesStopOrLegalReselection.A`: once a finite parent root
+active measure is available, high active-density excess cannot remain a retained
+unpaid selected child.
 
-Combining `(17)` with the parent-announced reset reduction gives
+Combining `(17)` with the parent-announced reset reduction would give
 
 \[
 \sum_{Q\subset P}
@@ -232,7 +239,14 @@ C_N(u_0)+R_{\mathrm{legal}}(P)+Stop(P).
 \tag{18}
 \]
 
-The proof uses no future selected tail, no downstream full-clock finiteness, and
-no raw inherited-value counting. The density stop is a finite same-material
-selector score, and the only stress input is the original Navier-Stokes
-participation law through \(G=2\nu S_A\).
+The exact remaining line is still
+
+\[
+\mathcal E_{\mathrm{route}}(P)
+\le
+C(u_0)+R_{\mathrm{legal}}(P)+Stop(P),
+\tag{19}
+\]
+
+proved from the original Navier-Stokes participation law rather than from the
+active route measure itself.
