@@ -8,7 +8,7 @@ logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 audits_hinge:
   - FreshSourceWeightedPairedCarrierBound.A
   - SameMaterialFactorizedTwoScaleFreshSourceCarleson.A
-  - SameMaterialDERplusEPFreshSourceRoute.A
+  - SameMaterialDERplusAQKFreshSourceRoute.A
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-paired-carrier-subagent-audit-20260627.md
   - problems/navier-stokes/theorem-construction/paired-carrier-inequality.md
@@ -245,6 +245,6 @@ SameMaterialDERplusAQKFreshSourceRoute.A
 meaning a derivative-exact residual bound plus an affine quotient kill for the
 fresh source scale primitive.
 
-The old name `SameMaterialDERplusEPFreshSourceRoute.A` should be read in this
-audited form: the second component is not a generic endpoint pressure theorem;
-it is the affine quotient kill produced by the weighted Volterra readout.
+The previous DER endpoint-pressure wording is demoted by this audit.  The
+second component is not a generic endpoint pressure theorem; it is the affine
+quotient kill produced by the weighted Volterra readout.
