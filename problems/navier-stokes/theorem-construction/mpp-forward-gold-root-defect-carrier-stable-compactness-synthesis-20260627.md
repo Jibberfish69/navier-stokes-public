@@ -30,8 +30,10 @@ effect: >-
   selected reset rigidity is already closed after tightness extraction. The
   remaining nonconsumer work is to prove that a normalized parent-subtracted
   root defect has a same-carrier, nonzero lifted limit unless carrier mismatch,
-  connection drift, active-weight escape, selector/collar change, or legal loss
-  has already paid it.
+  active-weight escape, selector/collar change, connection drift, or legal loss
+  has already been paid by parent-known original-history ledgers. The produced
+  root clocks themselves are not available as external currency for escaped
+  mass.
 ---
 
 # Root defect carrier-stable compactness synthesis
@@ -86,6 +88,12 @@ Here \(D_e\) is the parent-subtracted fresh quotient in the lifted
 visible/silent/exchange packet, and \(d\Lambda^{root}\) contains log-scale
 derivative, turnstile, exchange, covector, frame, collar, selector, and legal
 charges.
+
+The distinction is essential.  The clocks \(dA^{wt}\) and \(dA^{conn}\) are
+part of the normalized root defect being produced.  They may organize the bad
+profile, but they cannot be used as external payment for escaped root-defect
+mass.  Escape, selector/collar motion, and connection drift have to route back
+to parent-known original-history derivative/current/connection ledgers.
 
 The compactness theorem must turn `(1)`--`(2)` into a nonzero same-carrier
 zero-cost limit.  The rigidity notes can kill that limit, but only after it has
@@ -194,15 +202,18 @@ D_\infty\ne0,
 unless the lost mass is charged by one of
 
 ```text
-dA^{wt}, dA^{conn}, dLambda^{root}, selector/collar/covector mismatch,
-legal loss, or stop.
+parent-known original derivative/current/connection ledgers,
+selector/collar/covector mismatch, legal loss, stop, or first-exit escape
+charge.
 ```
 
 This is where the proof must prevent a false weak-limit loss.  If weak
 convergence loses the unit mass by oscillation, that oscillation is frame,
-covector, frequency, collar, or selector motion and belongs to `(5)` or
-`dLambda^{root}`.  If it loses the mass by spatial/scale escape, `(4)` charges
-it.  If it splits into infinitely many unrelated carriers, same-carrier
+covector, frequency, collar, or selector motion and must be paid by the
+parent-known original ledgers behind `(5)` and `dLambda^{root}`.  If it loses
+the mass by spatial/scale escape, `(4)` charges it from the stopped first-exit
+derivative representation.  If it splits into infinitely many unrelated
+carriers, same-carrier
 extraction charges all but a stable subfamily.
 
 That is the compactness content still missing from the repo.
