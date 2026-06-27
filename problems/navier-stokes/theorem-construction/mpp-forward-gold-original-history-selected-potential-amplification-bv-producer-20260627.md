@@ -10,7 +10,7 @@ attacks_hinge:
   - CriticalWeightedResetBVFromOriginalHistory.A
   - LogScaleResetDerivativeCarrierBound.A
   - PersistentRootAffineQuotientReturnPayment.A
-  - OriginalHistorySelectedAmplificationBV.A
+  - OriginalHistorySelectedPotentialAmplificationBV.A
   - OriginalHistoryHilbertBMOProducer.A
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-persistent-root-affine-quotient-payment-branch-audit-20260627.md
