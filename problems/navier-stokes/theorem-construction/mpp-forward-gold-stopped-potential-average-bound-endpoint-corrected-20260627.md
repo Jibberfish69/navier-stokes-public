@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-stopped-potential-average-bound-endpoint-corrected-20260627
-status: stopped-potential-average-bound-closed-under-endpoint-corrected-parent-known-potential
+status: conditional-consumer-from-original-history-selected-potential-record
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / fresh affine quotient branch
@@ -13,13 +13,12 @@ inputs_checked:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-primitive-signed-scale-potential-lift-derivative-control-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fixed-stopped-score-return-bv-closure-20260627.md
 effect: >-
-  Closes the weighted stopped-potential average bound for the fixed stopped
-  channel, provided the affine defect is endpoint-corrected before averaging.
-  The proof uses one-dimensional Poincare in the scale variable on the
-  endpoint-corrected stopped potential and the already isolated derivative
-  domination of the parent-known stopped score.  It does not import the selected
-  source square.  Any failure of endpoint correction or fixed stopped channel
-  belongs to the reset/overrun branch.
+  Proves only the projection/consumer step for the weighted stopped-potential
+  average once an endpoint-corrected parent-known stopped potential record has
+  already been constructed from original history.  The one-dimensional Poincare
+  calculation is noncircular in that setting, but it does not construct the
+  stopped signed record or prove its BV/testing norm.  The live producer remains
+  OriginalHistorySelectedPotentialAmplificationBV.A / OriginalHistoryHilbertBMOProducer.A.
 ---
 
 # Endpoint-corrected stopped potential average bound
@@ -150,8 +149,9 @@ C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
 \tag{9}
 ```
 
-This proves `StoppedPotentialRecordAverageBound.A` on the fixed stopped
-channel.
+This proves `StoppedPotentialRecordAverageBound.A` only as a consumer of the
+endpoint-corrected parent-known record.  It does not build that record from
+original history.
 
 ## 3. Positive transfer consequence
 
@@ -175,23 +175,35 @@ either in the inherited parent span, hence removed by
 \((I-\Pi_{\mathcal P_{e^-}})\), or it is a reset/selector mismatch and belongs
 to reset/overrun/legal loss.
 
-The average term is paid by `(9)`.  The negative return term is paid by the
-fixed stopped-score return/BV branch.  Thus the fixed-channel part of
-`FreshPotentialAverageKillAndPositiveTransfer.A` is closed.
+The average term is paid by `(9)` once
+`OriginalHistorySelectedPotentialAmplificationBV.A` supplies the stopped record
+and derivative bound.  The negative return term is paid by the fixed
+stopped-score return/BV branch.  Thus the fixed-channel projection from that
+record into `FreshPotentialAverageKillAndPositiveTransfer.A` is closed.
 
 ## 4. Remaining branch
 
-The only way the proof above fails is that the endpoint value, stopped channel,
-or affine representative is not parent-known before child selection.  That is
-not a potential-average failure; it is exactly strict reset/overrun:
+The proof above leaves the construction of the endpoint-corrected stopped
+record open.  The common producer for that record and for strict reset/overrun
+is:
+
+```text
+OriginalHistorySelectedPotentialAmplificationBV.A
+/ OriginalHistoryHilbertBMOProducer.A
+/ StoppedSelectorTestingCarleson.A.
+```
+
+If the endpoint value, stopped channel, or affine representative is not
+parent-known before child selection, that specific failure lands in strict
+reset/overrun:
 
 ```text
 CriticalWeightedResetBVFromOriginalHistory.A
 / LogScaleResetDerivativeCarrierBound.A.
 ```
 
-So the potential-average branch is closed under endpoint-corrected fixed
-stopped-channel interpretation.  The remaining Gold subproducer is the reset
-branch.
+So the potential-average branch is not closed as a producer.  It is reduced to
+the original-history selected potential/amplification record, with strict reset
+BV as the other projection of the same record.
 
 Partial, not Gold closed.
