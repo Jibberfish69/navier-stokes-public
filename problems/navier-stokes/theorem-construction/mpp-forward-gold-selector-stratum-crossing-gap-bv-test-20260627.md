@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-selector-stratum-crossing-gap-bv-test-20260627
-status: selector-stratum-crossing-reduced-to-quotient-bv-and-action-gap-transversality
+status: superseded-by-selector-stratum-crossing-bv-closure
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / stopped exchange-reselection
@@ -15,6 +15,8 @@ uses:
   - OrderLockSelectedDensityFirstRatioAlignment.A
   - MaterialSelectorKinematicRealization.A
   - SelectorFrozenHilbertLiftCountertest.A
+superseded_by:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-stratum-crossing-bv-closure-20260627.md
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-silent-interior-source-to-stopped-compensator-audit-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-exchange-reselection-compensator-synthesis-20260627.md
@@ -247,17 +249,17 @@ this quotient BV realization with the action-gap transversality `(8)`.
 
 ## 6. Result
 
-`SelectorStratumCrossingVariationBound.A` is not proved yet, but it is now a
-real smaller target rather than a renamed terminal-density obstruction.
+This note was superseded by
+`mpp-forward-gold-selector-stratum-crossing-bv-closure-20260627.md`.  The
+checked closure proves the selector-stratum crossing side relative to the full
+exchange action by deterministic same-packet BV/coarea.
 
-The next selector-side hinge is:
+The selector side should no longer be carried as an independent Gold hinge.  The
+remaining hinge is:
 
 ```text
-SelectedActionStratumGapTransversality.A
-+ QuotientSelectorPacketBV.A
+StoppedFullExchangeActionCarleson.A
 ```
 
-Together these prove the unpaid-reselection half of
-`StoppedExchangeReselectionCompensator.A`.  The other half remains
-`StoppedFullExchangeActionCarleson.A`, the original-history summability of the
-same exchange packet that appears on the right side of `(10)`.
+It is the original-history summability of the same exchange packet that appears
+on the right side of `(10)`.
