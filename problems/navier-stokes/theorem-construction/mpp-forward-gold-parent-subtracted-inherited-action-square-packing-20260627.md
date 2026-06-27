@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-whole-transported-packet-parabolic-rescaling-boundary-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-traction-current-participation-law-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-stress-test-innovation-bessel-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-parent-subtracted-current-admission-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-stress-test-bessel-frame-no-free-reset-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-bounded-projection-original-participation-law-20260627.md
 ---
@@ -233,18 +234,28 @@ The stopped selector must count the parent-subtracted current as action:
 
 Then exact inherited reuse is killed algebraically and fresh use is orthogonal.
 Changed reuse is exactly reset, angle, selector, frame, collar, stop, or legal
-variation. This note proves the decomposition; it does not prove that this
-variation is finite.
-
-The final Gold estimate is
+variation.  The variation is not a loose RHS; it is the reset part of the same
+full action:
 
 \[
-\sum_i \|b_i-b_{i-1}\|_{\mathfrak H_P}^2
-\le
-C(u_0)+R_{\mathrm{legal}}(P)+Stop(P).
+d\Omega_N
+=
+d\Omega_N^{fresh}
++d\Omega_N^{reset}
++d\Omega_N^{stop/legal}.
 \]
 
-Once that original-material-law estimate is proved, the parent-subtracted
-selected action gives finite stopped current square packing, and the installed
-selected-action, full-clock, and \(H^s\) continuation consumers apply. Until
-then, Gold remains partial.
+The final Gold estimate is the no-free-reset storage inequality for this
+combined action:
+
+\[
+d\mathscr A_N+c\,d\Omega_N\le dR_N,
+\qquad
+\mathscr A_N(t)\ge -C(u_0),
+\qquad
+\int_0^{T^*}dR_N<\infty .
+\]
+
+This note proves the parent-subtracted decomposition and the fresh Bessel
+packing.  The finite-reset-variation part is exactly the storage inequality
+above, not a raw inherited-value estimate.
