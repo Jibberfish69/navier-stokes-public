@@ -7,10 +7,12 @@ route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 refines:
   - SelectedUnitBoundedOriginalPacketProjectionAdmission.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
   - BoundedOriginalPacketSelectedProjectionAdmission.A
   - SourceLevelFullClockCurrencyAudit.A
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-unit-bounded-original-packet-projection-admission-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-unit-riesz-representative-source-graph-admission-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-original-packet-selected-projection-fresh-packing-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-bounded-projection-original-participation-law-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-clock-fresh-increment-definition-audit-boundary-20260627.md
@@ -19,8 +21,10 @@ effect: >-
   selected action means bounded original-packet projection before scalar readout,
   plus inherited/root current and paid stop/legal/reselection/selector-drift
   defects. Absolute child mass and unbounded scale-renormalized reads carry no
-  proof force in the retained Gold branch. This enforces the admission clause;
-  it does not by itself certify the manuscript or all stale support anchors.
+  proof force in the retained Gold branch. The Riesz normal form identifies this
+  rule with uniform continuity of the selected stress functional in the original
+  material Hilbert norm. This enforces the admission clause; it does not by
+  itself certify the manuscript or all stale support anchors.
 ---
 
 # Selected action currency bounded original-packet enforcement
@@ -73,6 +77,18 @@ and the selected unit is read as
 
 Equation (4) is the source-level definition of retained selected action in this
 Gold branch.
+
+Equivalently, before positive selected readout the stress part of the selected
+functional must be continuous in \(\mathfrak H_P\):
+
+\[
+|\Lambda_Q(H)|\le C_N\|H\|_{\mathfrak H_P}.
+\tag{4a}
+\]
+
+Riesz then gives the representative \(A_Q\) in `(3)`. A selected measurement
+without this uniformly bounded representative is not a retained source-level
+unit; it is an unbounded scale-renormalized read.
 
 ## 2. Parent-predictable split
 
