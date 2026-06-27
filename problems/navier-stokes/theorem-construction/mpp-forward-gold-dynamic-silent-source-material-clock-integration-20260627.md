@@ -26,6 +26,8 @@ open_global_burden:
   - MaterialPersistentSilentSourceExchangeTax.A
   - SilentCovectorExchangeNormalForm.A
   - ZeroCostDynamicSilentRigidity.A
+  - OriginalHistorySelectedLogAmplificationCarleson.A
+  - StoppedSelectorCorrectHilbertBMOProducer.A
   - StoppedPrimitivePLSSignedScalePotentialLift.A
   - StoppedPotentialRecordAverageBound.A
   - StoppedNegativeScaleReturnCharge.A
@@ -109,7 +111,7 @@ A_{\rm sel}^{sil}(Q)
 \le
 C_N
 \int_{I_Q}
-\|[D_t,\mathcal L_A]w_Q\|_{\mathcal H_{lift}(Q)}^2\,d\tau
+\|\Pi_{\rm sel}^{ex}[D_t,\mathcal L_A]w_Q\|_{\mathcal H_{lift}(Q)}^2\,d\tau
 +R_Q^{legal}.
 \tag{5}
 ```
@@ -118,7 +120,7 @@ The commutator is then charged to existing same-material currencies:
 
 ```math
 \int_{I_Q}
-\|[D_t,\mathcal L_A]w_Q\|_{\mathcal H_{lift}(Q)}^2\,d\tau
+\|\Pi_{\rm sel}^{ex}[D_t,\mathcal L_A]w_Q\|_{\mathcal H_{lift}(Q)}^2\,d\tau
 \le
 C_N\left(
 E_Q^{top\text{-}ex}
@@ -135,6 +137,27 @@ one time, but it cannot stay selected under the same material clock without
 spending top-strain exchange, frame rotation, covector compression,
 packet-normal service, or material deformation.
 
+The projection matters.  The theorem must be built in the lifted
+visible/silent/exchange packet before the scalar positive selected readout.
+The unpaid term if this order is not proved is
+
+```math
+\Pi_{\rm sel}^{+}\mathcal L_A(D_tw_Q).
+\tag{7}
+```
+
+That term cannot be charged to the future selected tail.  It has to enter the
+stopped lifted carrier relation as an original-history error term,
+
+```math
+\log {f_Q\over f_{\operatorname{par}(Q)}}
+=
+\ell_Q(\Delta_QZ^S)-\psi_Q+e_Q^S,
+\tag{8}
+```
+
+with \(Z^S\) built before scalar selection.
+
 ## 2. Frozen-symbol normal form
 
 At one frozen point and frequency, pressure-Hodge visibility reads
@@ -143,14 +166,14 @@ At one frozen point and frequency, pressure-Hodge visibility reads
 m_{\rm PH}(\xi)Z
 =
 { \xi_i\xi_jZ_{ij}\over |\xi|^2 }.
-\tag{7}
+\tag{9}
 ```
 
 The silent symbol condition is
 
 ```math
 \xi^TZ\xi=0.
-\tag{8}
+\tag{10}
 ```
 
 This allows transverse trace-free modes at a frozen time.  The material-clock
@@ -158,7 +181,7 @@ question is different because the covector is transported by
 
 ```math
 D_t\xi=-(\nabla u)^T\xi.
-\tag{9}
+\tag{11}
 ```
 
 If the source remains symbolically silent while staying selected, then
@@ -166,7 +189,7 @@ If the source remains symbolically silent while staying selected, then
 ```math
 0=D_t(\xi^TZ\xi)
 =-2\xi^T(\nabla u)Z\xi+\xi^T(D_tZ)\xi.
-\tag{10}
+\tag{12}
 ```
 
 This is exactly an exchange identity: persistence of the silent condition
@@ -183,21 +206,21 @@ Statement: for a retained selected frozen silent mode,
 
 ```math
 Z\in\ker m_{\rm PH}(\xi)\cap\mathcal C_{\rm sel},
-\tag{11}
+\tag{13}
 ```
 
 material persistence gives a decomposition
 
 ```math
 Z=Z_{gauge}+Z_{ex},
-\tag{12}
+\tag{14}
 ```
 
 where
 
 ```math
 A_{\rm sel}(Z_{gauge})=0,
-\tag{13}
+\tag{15}
 ```
 
 and
@@ -212,7 +235,7 @@ S_{\rm covector}
 +S_{\rm mat}
 \right)
 +R^{legal}.
-\tag{14}
+\tag{16}
 ```
 
 This is the clean technical bridge from frozen silence to the current lifted
@@ -235,11 +258,13 @@ Statement:
 ```math
 \mathcal K_Q^{sil}
 \cap\mathcal C_Q^{sel}
-\cap\ker [D_t,\mathcal L_A]
+\cap\ker \Pi_{\rm sel}^{ex}[D_t,\mathcal L_A]
 \cap\ker S_Q^{mat}
-=\{0\}.
-\tag{15}
+\subset \mathcal C_Q^{hidden}.
+\tag{17}
 ```
+
+After quotienting hidden constraint material, the selected action is zero.
 
 Equivalently, if a bad sequence has
 
@@ -249,7 +274,7 @@ A_{\rm sel}(f_n)=1,
 \mathsf S_{\rm parent}(f_n)\to0,
 \qquad
 E_{top\text{-}ex}(f_n)+S_{mat}(f_n)+R_{legal}(f_n)\to0,
-\tag{16}
+\tag{18}
 ```
 
 then a blow-up limit would be selected, silent, materially persistent, and
@@ -271,7 +296,7 @@ The interior Dirichlet energy
 \langle f,\mathcal L_{A,Q,D}^{-1}f\rangle
 =
 \int_{A_Q}|\nabla_Aw_Q|^2\,da
-\tag{17}
+\tag{19}
 ```
 
 is a useful diagnostic because the boundary can miss \(f\) while the interior
@@ -282,7 +307,7 @@ existing finite ledger:
 \sum_{Q\subseteq P}\mathcal H_Q(f_Q^{sil})
 \le
 C_N(u_0)\mathcal R(P)+R_{legal}(P),
-\tag{18}
+\tag{20}
 ```
 
 or
@@ -292,7 +317,7 @@ or
 \le
 C_N\left(E_Q^{top\text{-}ex}+S_Q^{mat}\right)
 +R_Q^{legal}.
-\tag{19}
+\tag{21}
 ```
 
 Without `(18)` or `(19)`, interior energy only renames the missing reserve.  It
@@ -312,7 +337,7 @@ B_{\rm Schur}(P)
 +S_{mat}(P)
 \right)
 +R_{legal}(P).
-\tag{20}
+\tag{22}
 ```
 
 The square-function form is
@@ -327,7 +352,7 @@ B_{\rm Schur}(P)
 +S_{mat}(P)
 \right)
 +R_{legal}(P).
-\tag{21}
+\tag{23}
 ```
 
 These are useful once the dynamic silent-source cost is already an
@@ -353,11 +378,33 @@ w(Q)
 \|[D_t,\mathcal L_A]w_Q\|_{\mathcal H_{lift}(Q)}^2\,d\tau
 \le
 C_N(u_0)\mathcal R(P)+R_{legal}(P).
-\tag{22}
+\tag{24}
 ```
 
 This is the exact point where the idea meets the current primitive PLS wall.
-Equation `(22)` would feed the open producer inputs
+Equation `(24)` is one coordinate of the current global producer:
+
+```text
+OriginalHistorySelectedLogAmplificationCarleson.A
+/
+StoppedSelectorCorrectHilbertBMOProducer.A.
+```
+
+The producer form is:
+
+```math
+\log {f_Q\over f_{\operatorname{par}(Q)}}
+=
+\ell_Q(\Delta_QZ^S)-\psi_Q+e_Q^S,
+\tag{25}
+```
+
+with a root Carleson bound for \(\Delta_QZ^S\), \(e_Q^S\), stop entropy,
+order-lock, reset, and legal defects from original material history.  That is
+the theorem that turns the local dynamic-silent-source cost into a selected
+density entropy or square-function bound.
+
+Equation `(24)` would feed the open producer inputs
 
 ```text
 StoppedPrimitivePLSSignedScalePotentialLift.A
@@ -379,7 +426,7 @@ Y_{\rm sil}
 +E_{\rm sil},
 \qquad
 Y_{{\rm sil},+}=Y_{\rm sil}+Y_{{\rm sil},-}.
-\tag{23}
+\tag{26}
 ```
 
 In the shrinking-core branch, `(22)` is a candidate source for the critical
