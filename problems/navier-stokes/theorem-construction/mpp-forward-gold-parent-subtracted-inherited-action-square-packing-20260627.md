@@ -162,7 +162,7 @@ Thus
 \sum_i |J_i^{\mathrm{inh}}-J_{i-1}^{\mathrm{inh}}|^2
 \le
 \|G\|_{\mathfrak H_P}^2
-\sum_i \|b_i-b_{i-1}\|_{\mathfrak H_P}^2
+\sum_i \|b_i-b_{i-1}\|_{\mathfrak H_P,act}^2
 \le
 C(u_0)
 \sum_i \|b_i-b_{i-1}\|_{\mathfrak H_P,act}^2 .
@@ -189,7 +189,7 @@ Define the reset variation ledger by
 \[
 \operatorname{Var}^{reset}_P
 :=
-\sum_i \|(\Pi_i-\Pi_{i-1})a_i\|_{\mathfrak H_P}^2
+\sum_i \|(\Pi_i-\Pi_{i-1})a_i\|_{\mathfrak H_P,act}^2
 \]
 
 with stop/legal pieces recorded separately when the projection jump is created
@@ -199,7 +199,7 @@ by stopping or legal loss. Then
 \sum_i|\rho_i|^2
 \le
 \|G\|_{\mathfrak H_P}^2
-\sum_i\|(\Pi_i-\Pi_{i-1})a_i\|_{\mathfrak H_P}^2
+\sum_i\|(\Pi_i-\Pi_{i-1})a_i\|_{\mathfrak H_P,act}^2
 \le
 C(u_0)\operatorname{Var}^{reset}_P .
 \]
