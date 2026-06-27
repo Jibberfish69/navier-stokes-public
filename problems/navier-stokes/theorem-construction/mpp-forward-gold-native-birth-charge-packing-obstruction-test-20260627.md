@@ -137,7 +137,7 @@ Hodge/projector motion, strain-frame compression, pressure-collar defect, or
 vis/rad loss.
 
 That is still not enough.  Source attachment is local.  Gold needs a global
-no-reuse rule:
+bounded-multiplicity rule:
 
 ```text
 NativeBirthAtomNonReuse.A / SpentNativeReserveNoReuse.A
@@ -148,6 +148,24 @@ native reserve atom.  That atom is either consumed by the selected child,
 remains as lower-band carry, or is refunded through paid full exchange.  It
 cannot be counted again by a strict selected descendant without one of those
 events being recorded.
+
+This chain non-reuse is only the first half of the theorem.  The second half is
+sibling packing: different stopped laminar shadows assigned to the same
+original-history native atom must have bounded overlap, with only the finite
+channel and selector constants lost.  Otherwise the route would exclude reuse
+down a single chain but still allow the same root atom to be copied across
+siblings.
+
+So the missing clause has two parts:
+
+```text
+selected-size atom:
+  the attached source-channel atom has weight comparable to the selected
+  birth charge;
+
+bounded multiplicity:
+  chain non-reuse plus sibling packing gives mult(iota) <= C_N.
+```
 
 In proof form:
 
