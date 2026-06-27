@@ -5,6 +5,9 @@ created: 2026-06-27
 problem: navier-stokes
 route: forward-gold native reserve/current-capacity
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
+superseded_live_hinge_by:
+  - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 attacks_hinge:
   - NativeBirthChargePacking.A
   - CriticalFreshSourceTentCarleson.A
@@ -267,8 +270,8 @@ future selected readout.  If \(a\) is chosen from the future selected clock,
 
 ## 5. Exact sharpened open theorem
 
-The remaining Gold producer can be stated as either of the following equivalent
-open forms.
+The superseded weighted-fresh producer could be stated as either of the following
+equivalent open forms.
 
 `OriginalHistoryWeightedFreshCurrentCapacity.A.`  For every retained stopped
 root \(P\), with fresh increments `(7)` constructed from the original material
@@ -312,6 +315,7 @@ original-history bills whose raw sum is finite and whose critical weighted sum
 diverges.  Gold needs the quantitative weighted original-history reserve, not
 only exact zero-cost rigidity.
 
-Gold remains open until `(19)` or `(18)` is proved from the original
-Navier-Stokes material law, or until an equivalent noncircular native reserve
-map `(1)`--`(2)` is constructed.
+Gold is not closed by this weighted-fresh reduction.  After the bounded
+original-packet/Riesz selected-action currency was installed, `(19)` and `(18)`
+are historical pressure-test/support forms and must not be promoted ahead of
+`SelectedActionCurrencyBoundedOriginalPacketEnforcement.A`.

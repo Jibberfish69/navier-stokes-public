@@ -5,6 +5,9 @@ created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / fresh frequency flux
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
+superseded_live_hinge_by:
+  - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 attacks_hinge:
   - FreshFrequencyFluxNoFreeUpcascade.A
   - FreshSourceWeightedPairedCarrierBound.A
@@ -29,7 +32,8 @@ effect: >-
 
 # Fresh upcascade residence-or-return tax
 
-The live theorem is the frequency-flux form of the fresh paired-carrier bound:
+The superseded theorem was the frequency-flux form of the fresh paired-carrier
+bound:
 
 ```math
 I^\uparrow_{\rm fresh}(P)

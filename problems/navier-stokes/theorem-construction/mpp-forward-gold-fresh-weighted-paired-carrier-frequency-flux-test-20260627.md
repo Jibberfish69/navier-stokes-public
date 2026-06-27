@@ -4,6 +4,9 @@ status: paired-carrier-reduced-to-no-free-upcascade-flux-variation
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / fresh weighted paired carrier
+superseded_live_hinge_by:
+  - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 attacks_hinge:
   - FreshSourceWeightedPairedCarrierBound.A
   - CriticalFreshSourceTentCarleson.A
@@ -17,14 +20,15 @@ effect: >-
   crossing statement for the exact selected-readout differential. This is the
   physical proof pressure: fresh weighted birth is an upcascade crossing, not a
   new source. The remaining global theorem is finite positive upcascade
-  variation from original same-material history.
+  variation from original same-material history. This is now support/pressure-test
+  language under the bounded original-packet selected-action currency.
 ---
 
 # Fresh weighted paired carrier as frequency-flux crossing
 
 The selected-readout differential note closed the pointwise kernel problem:
 there is no positive selected birth outside the exact material differential.
-The live theorem is now global:
+The former live theorem was global:
 
 ```math
 \sum_{Q\subset P} w(Q)\|F_Q\|_{\mathcal H_{\rm raw}}^2
@@ -158,7 +162,9 @@ C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
 \tag{11}
 ```
 
-This is exactly `FreshSourceWeightedPairedCarrierBound.A`.
+This was exactly `FreshSourceWeightedPairedCarrierBound.A`; after the bounded
+original-packet/Riesz currency installation it is support, not the active
+producer.
 
 ## 5. Mechanism required for `(10)`
 

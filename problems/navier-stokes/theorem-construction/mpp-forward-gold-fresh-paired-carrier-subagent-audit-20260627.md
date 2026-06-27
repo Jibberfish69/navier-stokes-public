@@ -1,10 +1,13 @@
 ---
 theorem_id: forward-gold-fresh-paired-carrier-subagent-audit-20260627
-status: audited-current-edge-fresh-source-weighted-paired-carrier-open
+status: audited-fresh-source-edge-superseded-by-bounded-currency
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / fresh source weighted paired carrier
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
+superseded_live_hinge_by:
+  - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 audits_hinge:
   - FreshSourceWeightedPairedCarrierBound.A
   - CriticalFreshSourceTentCarleson.A
@@ -25,9 +28,10 @@ subagent_audit:
 
 # Fresh paired-carrier subagent audit
 
-The current Gold edge is the same-material fresh weighted paired-carrier
+The audited Gold edge was the same-material fresh weighted paired-carrier
 estimate.  This audit records the result of the paired proof-side and no-go
-side checks.
+side checks as support under the later bounded original-packet selected-action
+currency.
 
 The live estimate is
 
@@ -118,7 +122,7 @@ The current live theorem is therefore:
 FreshSourceWeightedPairedCarrierBound.A
 ```
 
-Equivalent proof mechanisms are:
+Equivalent proof mechanisms were:
 
 ```text
 SameMaterialFactorizedTwoScaleFreshSourceCarleson.A

@@ -1,9 +1,12 @@
 ---
 theorem_id: forward-gold-testing-defect-to-fresh-weighted-paired-carrier-correction-20260627
-status: live-edge-corrected-to-fresh-weighted-paired-carrier
+status: support-superseded-by-bounded-original-packet-selected-currency
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / stopped root geometry
+superseded_live_hinge_by:
+  - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 attacks_hinge:
   - FreshSourceWeightedPairedCarrierBound.A
   - CriticalFreshSourceTentCarleson.A
@@ -17,8 +20,8 @@ inputs:
 effect: >-
   Corrects the previous testing-defect live target. Paid reselection/reset is
   not an independent co-producer beside full exchange; it is conditional support
-  once the stopped full-exchange/root reserve is proved. The active Gold hinge
-  is the fresh weighted paired-carrier/native-root reserve bound.
+  once the stopped full-exchange/root reserve is proved. This is now support for
+  the bounded original-packet selected-action currency, not the active Gold hinge.
 ---
 
 # Testing defect to fresh weighted paired carrier
@@ -96,7 +99,7 @@ insufficient:
 \tag{3}
 ```
 
-The missing theorem is the weighted paired-carrier estimate:
+The superseded weighted paired-carrier target was:
 
 ```text
 FreshSourceWeightedPairedCarrierBound.A
@@ -134,7 +137,8 @@ C_N(u_0).
 
 ## 3. Consequence for authority surfaces
 
-The live target should be read as `(4)`/`(5)`.  Older formulations that keep
+This support note should be read through the enforced selected-action currency.
+Older formulations that keep
 
 ```text
 PaidReselectionStoppingCarleson.A
@@ -151,13 +155,12 @@ when they point back to `(2)`.
 
 ## 4. Result
 
-Gold is not closed.  The live wall is now one theorem:
+Gold is not closed by this support note.  The former wall was:
 
 ```text
 FreshSourceWeightedPairedCarrierBound.A.
 ```
 
-Closing it gives the fresh critical source tent Carleson estimate, then the
-fresh native root upper bound, then full stopped exchange/root reserve, then
-the stopped testing/Hilbert-BMO producer, then the selected-density half-tail
-break.
+After the bounded original-packet/Riesz selected-action currency was installed,
+this FreshSource form is only a historical pressure test.  It must not be
+promoted ahead of `SelectedActionCurrencyBoundedOriginalPacketEnforcement.A`.

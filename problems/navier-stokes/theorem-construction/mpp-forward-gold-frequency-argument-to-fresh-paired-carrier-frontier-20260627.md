@@ -5,6 +5,9 @@ created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / selected-scale fresh native root reserve
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
+superseded_live_hinge_by:
+  - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 uses:
   - AugmentedStoppedSelectedActionTraceCoercivity.A
   - SpentNativeReserveNoReuse.A
@@ -224,13 +227,14 @@ It proves that the selected root-reserve obstruction is not caused by:
 - selector/reselection bookkeeping;
 - silent pressure-Hodge kernel invisibility.
 
-After those removals, the exact remaining producer is:
+After those removals, the former remaining producer was:
 
 ```text
 FreshSourceWeightedPairedCarrierBound.A
 ```
 
-equivalently:
+This is now a historical pressure-test coordinate under the enforced bounded
+original-packet selected-action currency, equivalently:
 
 ```text
 CriticalFreshSourceTentCarleson.A / FreshSourceCriticalScaleMemoryBound.A.

@@ -5,6 +5,9 @@ created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / fresh source weighted paired carrier
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
+superseded_live_hinge_by:
+  - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 audits_hinge:
   - FreshSourceWeightedPairedCarrierBound.A
   - SameMaterialFactorizedTwoScaleFreshSourceCarleson.A
@@ -26,14 +29,15 @@ source_surfaces:
 
 # Fresh paired-carrier proof mechanism audit
 
-The current hinge remains
+The audited hinge was
 
 ```text
 FreshSourceWeightedPairedCarrierBound.A
 ```
 
 The proof-side audit separates its two named mechanisms and records exactly
-where each one stops.
+where each one stops.  It is now historical support under the enforced bounded
+original-packet selected-action currency.
 
 ## 1. The paired carrier itself
 
