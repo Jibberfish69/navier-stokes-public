@@ -165,34 +165,71 @@ The remaining part is viscous:
 \tag{10}
 ```
 
-Choose the stopped routing atlas so the lifted gradients are an
-energy-normalized parent-known Bessel family:
+For a fixed stopped parent \(P\), put the lifted readouts in
 
 ```math
-\sum_{Q\subset P}
-\mathcal R(Q)
-\left|
-\int_{\operatorname{Hist}(Q)}
-G:\nabla_Av_Q
-\right|^2
-\le
-C
-\int_{\operatorname{Hist}(P)}
-|G|^2.
+\mathfrak H_P
+=
+L^2_{\rm sym,tr}(\operatorname{Hist}(P))
 \tag{11}
 ```
 
-Applying `(11)` with \(G=2\nu S_A\) gives
+by writing
 
 ```math
-\sum_{Q\subset P}
-\mathcal R(Q)|\Delta_QJ^S|^2
-\le
-C\nu^2
-\int_{\operatorname{Hist}(P)}
-|S_A|^2
-+R_{\rm legal}+Stop.
+a_i
+=
+\sqrt{\mathcal R(Q_i)}
+\,1_{\operatorname{Hist}(Q_i)}
+P_{\rm sym,tr}\nabla_Av_i
+\in \mathfrak H_P,
+\qquad
+\sqrt{\mathcal R(Q_i)}\,\Delta J_i
+=
+\langle 2\nu S_A,a_i\rangle_{\mathfrak H_P}.
 \tag{12}
+```
+
+Let \(E_{i-1}\) be the parent-known span of inherited directions and already
+admitted fresh directions.  Split
+
+```math
+a_i=b_i+d_i,
+\qquad
+b_i=\Pi_{E_{i-1}}a_i,
+\qquad
+d_i=(I-\Pi_{E_{i-1}})a_i .
+\tag{13}
+```
+
+The current consumed by the selected child readout is the new current
+
+```math
+\sqrt{\mathcal R(Q_i)}\,\Delta J_i^{new}
+:=
+\langle 2\nu S_A,a_i\rangle
+-
+\langle 2\nu S_A,b_i\rangle
+=
+\langle 2\nu S_A,d_i\rangle .
+\tag{14}
+```
+
+Exact inherited reuse has \(d_i=0\), hence zero new child action.  It remains
+parent current in the same material record.
+
+For \(d_i\ne0\), set \(e_i=d_i/\|d_i\|\).  Parent-known QR makes the \(e_i\)
+orthonormal, and the normalized stopped lifts have \(\|d_i\|\le C_N\).  Thus
+
+```math
+\sum_i
+\mathcal R(Q_i)|\Delta J_i^{new}|^2
+=
+\sum_i |\langle 2\nu S_A,d_i\rangle|^2
+\le
+C_N^2\,4\nu^2
+\int_{\operatorname{Hist}(P)}|S_A|^2 .
+\tag{15}
 ```
 
 The material energy identity gives
@@ -201,63 +238,53 @@ The material energy identity gives
 2\nu\int_0^T\int |S|^2
 \le
 \|u_0\|_2^2.
-\tag{13}
-```
-
-Thus, for fixed viscosity normalization,
-
-```math
-\sum_{Q\subset P}
-\mathcal R(Q)|\Delta_QJ^S|^2
-\le
-C(u_0)+R_{\rm legal}+Stop.
-\tag{14}
-```
-
-Equation `(14)` is the square-packing input for the Gold wall only after the
-measure \(\mathcal R(Q)\) in `(11)`--`(14)` has been proved to be the
-selected-critical original participation weight pulled back to the stopped tree.
-With only raw stopped-overlap weight, `(14)` is the material-current/Bessel
-support estimate, not the Gold producer.  Fixed return, strict reset, selector
-log amplification, parent drop, finite full clock, and \(H^s\) continuation are
-bookkeeping after the active-weight stopped dual stress-test bound.
-The half-tail profile has finite raw current mass
-
-```math
-\sum_\ell \|F_\ell\|_{\mathcal H_{\rm raw}}^2<\infty
-\tag{15}
-```
-
-and divergent selected-critical mass
-
-```math
-\sum_\ell w_\ell\|F_\ell\|_{\mathcal H_{\rm raw}}^2=\infty.
 \tag{16}
 ```
 
-Thus the stress-test estimate closes the Gold wall only in its active-weight
-Carleson form:
+So the fresh parent-subtracted current is original-data finite:
 
 ```math
-\sum_{Q\subset P}
-w(Q)
-\left|
-\int_{\operatorname{Hist}(Q)}
-G:\nabla_Av_Q
-\right|^2
+\sum_i
+\mathcal R(Q_i)|\Delta J_i^{new}|^2
 \le
-C
-\int_{\operatorname{Hist}(P)}
-|G|^2
-+dR+dStop,
+C_N(u_0).
 \tag{17}
 ```
 
-or equivalently after proving that the raw stopped stress-test weight
-\(\mathcal R(Q)\) is dominated by the original-history selected-critical native
-reserve/current-capacity measure.  This is the same unpaid content now recorded
-as `OriginalHistoryWeightedFreshCurrentCapacity.A` /
-`OriginalScaleMemoryGeneratorEnergyBound.A`.
+When the parent-known projection changes, the inherited channel has changed.
+The changed-reuse term is
+
+```math
+\rho_i
+=
+\langle 2\nu S_A,(\Pi_i-\Pi_{i-1})a_i\rangle .
+\tag{18}
+```
+
+With
+
+```math
+\operatorname{Var}^{stop}_P
+:=
+\sum_i\|(\Pi_i-\Pi_{i-1})a_i\|_{\mathfrak H_P}^2
++Stop(P)+R_{\rm legal}(P),
+\tag{19}
+```
+
+one has
+
+```math
+\sum_i|\rho_i|^2
+\le
+C_N(u_0)\operatorname{Var}^{stop}_P .
+\tag{20}
+```
+
+Equations `(17)` and `(20)` are the mathematical form of the no-free-reset
+story.  The original Navier-Stokes law supplies the stress \(2\nu S_A\) and its
+finite strain norm; the stopped selector must count only the parent-subtracted
+new current, while projection changes are charged as reset/angle/selector/
+frame/collar/stop/legal variation in the same full-action measure.
 
 ## 4. Noncircularity
 
@@ -268,28 +295,39 @@ Pressure can move energy across shell boundaries, but it cannot create bulk
 energy because \(\operatorname{tr}S=0\).  Viscosity removes energy.  Material
 transport removes convective creation.  Internal edge currents cancel in the
 tree sum.  A selected shell can only gain by receiving cancellable interface
-traction from another shell, and finite stopped overlap prevents the selector
-from reading the same original current infinitely often without paying stop or
-legal loss.
+traction from another shell.  The parent-subtracted read prevents the selector
+from counting the same original current again as fresh child action.
 
-## 5. Remaining theorem
+## 5. Closure form
 
-The remaining theorem is:
+The full action being read is
 
-```text
-StoppedDivergenceFreeStressTestBessel.A
-+ OriginalParticipationStorageCoercivity.A
-  in the selected-critical original participation metric.
+```math
+d\Omega_N
+=
+d\Omega_N^{fresh}
++d\Omega_N^{reset}
++d\Omega_N^{stop/legal}.
+\tag{21}
 ```
 
-For the parent-known stopped material atlas, construct the pre-selected
-divergence-free Hodge lifts \(v_Q\) and prove the lifted gradients satisfy the
-Bessel/Carleson estimate `(17)`, with all stopping, boundary, chart, and legal
-errors entering only through \(R_{\rm legal}\) and \(Stop\).  Equivalently,
-prove `(11)` together with original participation storage / active-weight
-domination identifying \(\mathcal R(Q)\) with the selected-critical native
-reserve measure before selected readout.  Then `(14)` supplies finite
-routed-current energy from the original viscous strain norm in the Gold-critical
-metric, and the selected Gold chain is downstream bookkeeping.
+Here \(d\Omega_N^{fresh}\) is paid by `(17)`, and \(d\Omega_N^{reset}\) is the
+projection-change variation in `(20)`.  In the no-free-reset storage notation,
+the Gold form is
 
-Partial, not Gold closed.
+```math
+d\mathscr A_N
++c\,d\Omega_N
+\le
+dR_N,
+\qquad
+\mathscr A_N(t)\ge -C(u_0),
+\qquad
+\int_0^{T^*}dR_N<\infty .
+\tag{22}
+```
+
+With selected readout admitted in the parent-subtracted form `(14)`, `(22)`
+turns the material current estimate into finite full same-material action.  Any
+surface that still asks for a raw inherited-value estimate or a raw
+\(\{\langle G,a_i\rangle\}\) Bessel theorem is stale.
