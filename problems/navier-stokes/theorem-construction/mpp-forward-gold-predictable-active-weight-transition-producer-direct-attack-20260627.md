@@ -213,13 +213,78 @@ the same mechanism exposed by the dynamic silent-source note: material
 persistence can reveal the cost, but the cost must be packed by original
 history before positive readout.
 
-## 6. Result
+## 6. What the harmonic weight does prove
+
+The harmonic active weight is still useful.  It gives the exact Cauchy--Schwarz
+payment for any transition component that has already been written as an
+announced derivative integral.
+
+If
+
+```math
+\Delta Z_e(t)
+=
+{1\over |I_e|}
+\int_{I_e}F_e(\sigma,t)\,d\sigma
+```
+
+and
+
+```math
+H_{I_e}(t)
+=
+{|I_e|^2\over \int_{I_e}w(\sigma,t)^{-1}\,d\sigma},
+```
+
+then
+
+```math
+H_{I_e}(t)\|\Delta Z_e(t)\|^2
+\le
+\int_{I_e}w(\sigma,t)\|F_e(\sigma,t)\|^2\,d\sigma .
+\tag{13}
+```
+
+So the derivative-exact part of a strict reset is paid once \(F_e\) is one of:
+
+```math
+\partial_\sigma Z,\qquad
+\operatorname{turnstile}_\sigma,\qquad
+\operatorname{exchange}_\sigma,\qquad
+\operatorname{covector}_\sigma,
+```
+
+with the matching original-history weighted \(L^2\) bound.
+
+This is not enough for the whole affine quotient.  The persistent quotient
+
+```math
+c_F^{fresh}
+=
+\int_I\theta_I(\sigma)Z^{fresh}(\sigma,t)\,d\sigma
+```
+
+is not automatically an announced derivative integral.  Applying `(13)` to it
+would require a prior bound on
+
+```math
+\int_I w(\sigma,t)\|Z^{fresh}(\sigma,t)\|^2\,d\sigma,
+```
+
+which is exactly the selected-critical weight that the proof is trying to
+produce.  Thus the harmonic-weight Cauchy step discharges only the
+derivative-exact reset part.  The non-derivative affine quotient must still go
+through record/return, negative scale return, second-order exactness, or an
+original-history weighted source theorem.
+
+## 7. Result
 
 The direct parent-envelope attack narrows the problem:
 
 ```text
 parent-predictable envelope: available but insufficient;
-announceable reset derivative Carleson: still open and necessary.
+announceable reset derivative Cauchy step: proved for derivative-exact pieces;
+persistent affine quotient payment: still open and necessary.
 ```
 
 So the next hinge is not the Bessel theorem and not a raw predictability
@@ -233,10 +298,11 @@ PredictableActiveWeightTransitionCarleson.A
   in one original-history stopping theorem.
 ```
 
-If this is proved, the lifted transition martingale package becomes
-noncircular: the active weight is fixed from the parent history, the innovations
-are orthogonal in that geometry, and the high selected weights are paid by
-finite original material motion.  If it fails, the exact bad profile is a
+The derivative-exact part of this hinge is now reduced to `(13)`.  The remaining
+production theorem is the persistent affine quotient payment: prove that every
+non-derivative quotient survivor is either parent-predictable record/return or
+is converted into derivative/turnstile/exchange/covector motion before the
+future selected tail is formed.  If that fails, the exact bad profile is a
 parent-announced sequence of increasingly active child intervals whose raw
 innovation mass is summable while the harmonic active-weighted mass is a
 critical half-tail.
