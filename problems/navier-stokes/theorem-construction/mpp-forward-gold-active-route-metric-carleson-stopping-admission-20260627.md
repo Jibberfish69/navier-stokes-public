@@ -107,8 +107,10 @@ C_NK^{-1}\|G\|_{\mathfrak H_P}^2.
 
 Thus the analytic Carlesonization is elementary once the stopped selector is
 forced to honor this first-exit tree.  On the retained complement every
-descendant satisfies `(5)`, and the active stopped-frame embedding follows in
-the scalar form needed for the realized Navier-Stokes stress:
+descendant satisfies `(5)`.  If the active route measure used by selected action
+is exactly the retained measure produced by this stopping rule, or is dominated
+by it with bounded density, then the stopped-frame embedding follows in the
+scalar form needed for the realized Navier-Stokes stress:
 
 \[
 \int_{\operatorname{Hist}(P)_{\mathrm{ret}}}
@@ -119,8 +121,8 @@ C_{N,K}\|G\|_{\mathfrak H_P}^2
 \tag{8}
 \]
 
-The stronger operator version replaces `(4)`--`(8)` by the operator density
-condition
+The stronger operator version replaces `(4)`--`(8)` by the parent-known operator
+density condition
 
 \[
 \left\|
@@ -141,11 +143,12 @@ HighActiveDensityForcesStopOrLegalReselection.A
 ```
 
 Statement: if a proposed selected child \(Q\subset P\) violates `(5)` before
-descendant selected readout, then \(Q\) is a parent-announced first-exit packet.
-It either enters \(Stop(P)\), pays \(R_{\mathrm{legal}}(P)\), triggers a
-reselection/reset slab already covered by the parent-announced reset variation
-reduction, or produces a parent current capacity drop.  It cannot remain a
-retained unpaid selected child.
+descendant selected readout, or if its selected active weight is not dominated
+by the retained raw stress-square measure from this stopping rule, then \(Q\) is
+a parent-announced first-exit packet.  It either enters \(Stop(P)\), pays
+\(R_{\mathrm{legal}}(P)\), triggers a reselection/reset slab already covered by
+the parent-announced reset variation reduction, or produces a parent current
+capacity drop.  It cannot remain a retained unpaid selected child.
 
 With that admission theorem, `(7)` charges every active-density excess packet
 to original stress-square measure, and `(5)` gives the active route metric
