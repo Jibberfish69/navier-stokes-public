@@ -29,9 +29,11 @@ effect: >-
   same material capacity/current record.  The routed-current estimate is dual:
   lift selected readouts to stopped divergence-free material test fields, kill
   pressure exactly, subtract the parent-known inherited projection, and
-  square-pack only the fresh QR residual.  Exact inherited reuse is parent
-  current.  Changed inherited reuse is reset/angle/selector/frame/collar/stop/
-  legal variation inside the same full-action/no-free-reset law.
+  square-pack only the fresh QR residual. Exact inherited reuse is parent current.
+  Changed inherited reuse is represented by parent-announced first-exit reset slabs
+  and charged into E_route. The remaining open Gold input is original-history
+  finiteness of E_route as a bounded stopped projection of the Navier-Stokes
+  participation law before selected readout.
 ---
 
 # Material traction current participation law
