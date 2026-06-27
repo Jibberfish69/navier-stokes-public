@@ -1,14 +1,17 @@
 ---
 theorem_id: forward-gold-predictable-root-weight-martingale-realization-closure-20260627
-status: predictable-root-realization-proved-branch-payments-installed
+status: failed-referee-circular-import
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / affine quotient transition payment
-proves:
+attempted_proves:
   - PredictableRootWeightMartingaleRealization.A
   - AffineQuotientTransitionPayment.A
   - StoppedAffineQuotientTransitionSquarePacking.A
-consumes:
+circular_imports:
+  - parent-predictable root weight H_P
+  - selected-critical reset/root currency
+conditional_consumers_used:
   - StoppedLiftedTransitionBesselCarleson.A
   - StoppedSelectorFiniteScoreOrPaidDrift.A
   - StoppedPotentialRecordAverageBound.A
@@ -21,22 +24,40 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-predictable-root-realization-branch-classification-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-scale-memory-storage-to-affine-quotient-transition-20260627.md
 effect: >-
-  Assembles the predictable root Hilbert realization for affine quotient
-  transitions. The root measure, parent affine spans, lifted inherited/fresh
-  split, Bessel consumer, finite-score reset payment, and projection
-  record/return payment are now one same-material theorem. This discharges the
-  affine quotient transition payment that remained after the lower-triangular
-  scale-memory split.
+  Failed closure attempt. The note correctly identifies the desired assembly
+  shape, but it declares the parent-predictable root weight and selected-critical
+  reset/root currency instead of producing them from original same-material
+  history. It must not be used as proof of PredictableRootWeightMartingaleRealization.A
+  or AffineQuotientTransitionPayment.A.
 ---
 
-# Predictable root weight martingale realization closure
+# Predictable root weight martingale realization failed closure attempt
+
+Referee verdict: this note is not a proof.  It imports the two things the live
+theorem was supposed to produce:
+
+```text
+parent-predictable root weight / Hilbert geometry
+```
+
+and
+
+```text
+selected-critical reset/root currency.
+```
+
+Everything below is therefore a conditional assembly template, not a discharged
+Gold theorem.
 
 The live obstruction after the lower-triangular scale-memory split was the
 rank-one affine quotient transition payment.  The needed object was a
 parent-predictable root Hilbert realization constructed before terminal
 selected positive readout.
 
-This note assembles that realization from the installed pieces.
+This attempted assembly shows the desired shape only.  The missing producer is
+still the construction of \(H_P\), the parent affine spans, and the selected
+critical root currency from original same-material history before terminal
+positive readout.
 
 ## 1. Root measure and lifted space
 
@@ -240,8 +261,8 @@ StoppedAffineQuotientTransitionSquarePacking.A
   -> H^s continuation.
 ```
 
-Thus the affine quotient wall created by the original-scale memory split is
-closed at the theorem-construction level.
+This downstream relay remains conditional because `(8)` was not produced
+noncircularly.
 
 ## 7. Audit boundary
 
