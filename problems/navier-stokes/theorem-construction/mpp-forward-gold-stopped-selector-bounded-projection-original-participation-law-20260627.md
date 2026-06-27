@@ -279,7 +279,7 @@ The needed original-history storage statement is:
 \mathfrak M_P\ge0,
 \qquad
 \mathfrak M_P(\operatorname{root}P)\le C(u_0).
-\tag{8}
+\tag{13}
 ```
 
 Equivalently,
@@ -289,10 +289,10 @@ Equivalently,
 \Theta_{\rm part}^{\rm orig}
 \le
 C(u_0)+R_{\rm legal}(P)+Stop(P).
-\tag{9}
+\tag{14}
 ```
 
-Combining `(5)` and `(9)` proves `(2)`.
+Combining `(5)` and `(14)` proves `(2)`.
 
 This clause is the noncircular meaning of "original-history finite."  It cannot
 be imported from the downstream full material clock recovered after selected
@@ -301,7 +301,7 @@ participation storage, dynamic silent/exchange commutator coercivity, covector
 and turnstile service, reset/order-lock derivative structure, and legal/stop
 losses.
 
-In the existing local language, `(8)` is the same unpaid mathematical content as
+In the existing local language, `(13)` is the same unpaid mathematical content as
 
 ```text
 OriginalScaleMemoryStorageCoercivity.A
@@ -312,7 +312,7 @@ OriginalScaleMemoryStorageCoercivity.A
 but now it is attached to the whole stopped routed current \(J^S\), not to a
 scalar selected-potential packet.
 
-## 4. The proof once `(5)` and `(8)` are installed
+## 4. The proof once `(5)` and `(13)` are installed
 
 The projection estimate `(5)` is now proved by `(7)`--`(12)`.  Assume the
 storage clause `(13)`.  Then
@@ -338,7 +338,7 @@ C(u_0)+R_{\rm legal}(P)+Stop(P).
 \tag{15}
 ```
 
-After `(10)`, the rest of the Gold chain is bookkeeping for the same current:
+After `(15)`, the rest of the Gold chain is bookkeeping for the same current:
 
 ```text
 stopped routed-current square packing
@@ -381,6 +381,5 @@ original material metric.  The second clause is still open: prove the original
 participation storage / active-weight domination for the whole current \(J^S\)
 before selected readout.
 
-Partial, not Gold closed.  The useful next mathematical attack is not another
-selected scalar payment; it is `(8)` for the coupled same-material
-participation current.
+Partial, not Gold closed.  The remaining mathematical attack is `(13)` for the
+coupled same-material participation current.

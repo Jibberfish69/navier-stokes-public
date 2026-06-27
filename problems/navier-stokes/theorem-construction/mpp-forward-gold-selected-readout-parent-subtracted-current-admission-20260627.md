@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-selected-readout-parent-subtracted-current-admission-20260627
-status: selected-readout-decomposition-proved-reset-angle-selector-variation-finiteness-open
+status: selected-readout-decomposition-proved-reset-variation-reduced-to-routed-energy
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -11,12 +11,15 @@ decomposes_hinge:
   - StoppedStressTestParentSubtractedInnovationAdmission.A
   - SelectedActionParentSubtractedCurrentAdmission.A
 leaves_open:
-  - ResetAngleSelectorVariationFiniteFromOriginalMaterialLaw.A
+  - OriginalHistoryRoutedCurrentEnergyFinite.A
+  - StoppedSelectorBoundedProjectionOriginalParticipationLaw.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-announced-reset-variation-to-routed-energy-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-inherited-action-square-packing-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-stress-test-innovation-bessel-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-current-coboundary-square-function-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-bounded-projection-original-participation-law-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-routed-current-energy-original-history-producer-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parentdrop-full-clock-relay-from-square-packing-20260627.md
 effect: >-
   Installs the exact decomposition needed by the parent-subtracted QR theorem.
@@ -25,8 +28,9 @@ effect: >-
   and cannot be recounted as child action.  The inherited part contributes only
   through changes of inherited direction, measured by
   sum_i ||b_i-b_{i-1}||_{H_P}^2, equivalently reset/angle/selector/frame/collar/
-  stop/legal variation.  The finiteness of that variation is the reset part of
-  the full-action/no-free-reset storage inequality for the same material law.
+  stop/legal variation. Parent-announced first-exit slabs charge that variation
+  to E_route. The remaining Gold input is original-history finiteness of E_route
+  as a bounded projection of the Navier-Stokes participation law.
 ---
 
 # Selected readout decomposition for parent-subtracted current
@@ -165,35 +169,35 @@ R_{\rm legal}(P)+Stop(P).
 \tag{9}
 ```
 
-The first term is finite from `(8)`.  The second term is not automatically
-finite.
+The first term is finite from `(8)`. The second term is paid when the projection
+changes are represented as parent-announced first exits.
 
-The parent-drop/full-clock relay consumes this decomposition when the
-full-action/no-free-reset storage inequality is applied to
-
-```math
-d\Omega_N
-=
-d\Omega_N^{fresh}
-+d\Omega_N^{reset}
-+d\Omega_N^{stop/legal}.
-\tag{10}
-```
-
-In the parent coordinates above, the reset part is the variation estimate
+For those reset edges, the harmonic-weight Cauchy estimate and bounded stopped
+overlap give
 
 ```math
 \sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P}^2
+\lesssim
+\operatorname{Var}^{stop}_P
 \le
-C_N(u_0)+R_{\rm legal}(P)+Stop(P)
+C_N\mathcal E_{\mathrm{route}}(P)
++R_{\rm legal}(P)+Stop(P).
+\tag{10}
+```
+
+Thus the parent-drop/full-clock relay consumes this decomposition only after the
+remaining routed-current energy line is supplied:
+
+```math
+\mathcal E_{\mathrm{route}}(P)
+\le
+C(u_0)+R_{\rm legal}(P)+Stop(P).
 \tag{11}
 ```
 
-as a component of that same storage law.
-
 ## 4. Consequence
 
-Once the full-action storage inequality gives finite \(d\Omega_N\), the
+Once the original-history bound for \(\mathcal E_{\mathrm{route}}\) is proved, the
 previously installed relay applies:
 
 ```math
@@ -206,5 +210,6 @@ previously installed relay applies:
 ```
 
 Thus this note proves the parent-subtracted selected-readout decomposition.
-The finite reset-variation claim is not a raw inherited-value theorem; it is the
-reset face of the same full-action/no-free-reset law.
+The reset-variation claim is not a raw inherited-value theorem; it is a
+parent-announced first-exit charge in routed-current energy currency. The
+unpaid Gold theorem is original-history finiteness of that currency.
