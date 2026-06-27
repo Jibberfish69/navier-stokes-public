@@ -236,46 +236,56 @@ unexplained stress current and the logarithmic/effective-resistance leverage of
 the stopped frame. The first pays true projection increments; the second pays
 scale-critical novelty after the parent frame has already seen the channel.
 
-Thus the algebraic part of `RetainedActiveRawBellmanCapacity.A` is proved once
-the selected action is admitted as parent-subtracted leverage:
+The operator decrement `(13)` is geometry, not yet physical payment. The Gold
+payment comes from the stress-realized leverage shadow. Thus the algebraic part
+of `RetainedActiveRawBellmanCapacity.A` is proved once the selected action is
+admitted as parent-subtracted realized leverage:
 
 \[
 \omega_i^{new}
 \le
-C_N\tau_i
+C_N
+\log\left(1+\frac{\mu_G(\widehat Q_i)}{s_{i-1}}\right)
 +R_i^{legal}
 +Stop_i^{term}
 +Reset_i^{paid}.
 \tag{14}
 \]
 
-Then `(13)` gives
+Then `(13b)` gives
 
 \[
 \sum_{Q\in\operatorname{ch}_{ret}(P)}
 \omega_Q^{new}
 +
-\sum_{Q\in\operatorname{ch}_{ret}(P)}B(Q)
+\sum_{Q\in\operatorname{ch}_{ret}(P)}B^G(Q)
 \le
-B(P)
-+C_N\operatorname{tr}K_P(\widehat P)
+B^G(P)
 +R_{\rm legal}(P)+Stop_{\rm term}(P).
 \tag{15}
 \]
 
-Pairing `(15)` with the material stress \(G_P=2\nu S_A\) gives the realized
-route version
+The raw route measure is recovered by the coarse bound
+
+\[
+\log\left(1+\lambda^{-1}\mu_G(\widehat P)\right)
+\le
+\lambda^{-1}\mu_G(\widehat P).
+\tag{16}
+\]
+
+Thus the realized route version is
 
 \[
 \sum_{Q\in\operatorname{ch}_{ret}(P)}
 \omega_Q^{new}
 +
-\sum_QB(Q)
+\sum_QB^G(Q)
 \le
-B(P)
+B^G(P)
 +C_N\mu_G(\widehat P)
 +R_{\rm legal}(P)+Stop_{\rm term}(P),
-\tag{16}
+\tag{17}
 \]
 
 which is the Bellman form needed by the active route metric.
