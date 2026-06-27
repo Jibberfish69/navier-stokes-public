@@ -26,8 +26,8 @@ effect: >-
   The selected child action is defined from the innovation current
   Delta J^{new}=Delta J-Delta J^{parent}; raw inherited reuse is parent current
   and cannot be recounted as child action.  The inherited part contributes only
-  through changes of inherited direction, measured by
-  sum_i ||b_i-b_{i-1}||_{H_P}^2, equivalently reset/angle/selector/frame/collar/
+  through changes of inherited direction, measured by the active-metric
+  projection-jump square function sum_i ||b_i-b_{i-1}||_{H_P,act}^2, equivalently reset/angle/selector/frame/collar/
   stop/legal variation. Parent-announced first-exit slabs charge that variation
   to E_route. The remaining Gold input is original-history finiteness of E_route
   as a bounded projection of the Navier-Stokes participation law.
@@ -121,7 +121,7 @@ Thus
 \tag{6}
 ```
 
-By Cauchy--Schwarz,
+By Cauchy--Schwarz in the active route metric,
 
 ```math
 \sum_i
@@ -132,7 +132,7 @@ By Cauchy--Schwarz,
 \right|^2
 \le
 \|G\|_{\mathfrak H_P}^2
-\sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P}^2 .
+\sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P,act}^2 .
 \tag{7}
 ```
 
