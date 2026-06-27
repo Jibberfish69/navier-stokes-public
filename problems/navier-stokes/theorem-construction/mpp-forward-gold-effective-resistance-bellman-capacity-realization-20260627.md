@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-effective-resistance-bellman-capacity-realization-20260627
-status: effective-resistance-bellman-mechanism-installed-admission-open
+status: demoted-effective-resistance-surrogate-projection-jump-reserve-live
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -17,18 +17,48 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-announced-reset-variation-to-routed-energy-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-parent-subtracted-current-admission-20260627.md
 effect: >-
-  Installs a concrete Bellman-capacity mechanism for the retained active route
-  metric.  The parent current capacity should be the effective-resistance /
-  statistical-leverage budget of the parent-known stopped stress-test covariance.
-  Repeated same-channel reuse has decreasing leverage; fresh directions are
-  orthogonal; changed reuse is reset/geometry motion already reduced to E_route.
-  This proves the algebraic Bellman telescope once selected new action is admitted
-  as stress-realized leverage.  Partial, not Gold closed: the remaining PDE
-  admission theorem is that retained selected action before readout is bounded by
-  this parent-known realized leverage plus legal/terminal stop/reset terms.
+  Demotes the effective-resistance/log-det idea to a pressure-test surrogate.
+  The exact live mechanism is stronger and simpler: unchanged inherited reuse
+  contributes zero new selected current, fresh residuals are Bessel-paid, and
+  changed reuse is exactly projection-jump reserve.  Do not use this note as the
+  live Gold hinge.  The live theorem is the projection-jump/parent-announced
+  first-exit Carleson reserve.
 ---
 
-# Effective-Resistance Bellman Capacity Realization
+# Effective-Resistance Bellman Capacity Pressure Test
+
+This note is now demoted. Effective resistance is a useful analogy for why
+repeated same-channel reads should lose novelty, but it is not the theorem-grade
+reserve.
+
+The exact reserve is the projection-jump square function. With
+\(a_i=b_i+d_i\), \(b_i=\Pi_{E_{i-1}}a_i\), and
+\(d_i=(I-\Pi_{E_{i-1}})a_i\), selected new current is
+
+\[
+\Delta J_i^{new}
+=
+\langle G,a_i\rangle-\langle G,b_i\rangle
+=
+\langle G,d_i\rangle .
+\]
+
+Thus unchanged reuse has \(d_i=0\) and no new selected refill. Fresh reuse is
+Bessel-paid. Changed reuse is the projection jump
+\[
+\rho_i=\langle G,(\Pi_i-\Pi_{i-1})a_i\rangle .
+\]
+
+The live theorem is the finite projection-jump / parent-announced first-exit
+Carleson bound
+\[
+\sum_i\|(\Pi_i-\Pi_{i-1})a_i\|_{\mathfrak H_P}^2
+\le
+C_N(u_0)+R_{\rm legal}+Stop .
+\]
+
+The material below is retained only as a rejected/heuristic capacity pressure
+test.
 
 The capacity in `RetainedActiveRawBellmanCapacity.A` should not be scalar local
 energy. It should be the parent-known effective resistance of the stopped
