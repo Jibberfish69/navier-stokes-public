@@ -29,9 +29,9 @@ effect: >-
   through changes of inherited direction, measured by the active-metric
   projection-jump square function sum_i ||b_i-b_{i-1}||_{H_P,act}^2, equivalently reset/angle/selector/frame/collar/
   stop/legal variation. Parent-announced first-exit slabs charge that variation
-  to E_route in the active route metric. E_route finiteness is the
-  routed-coordinate form of the same full-action/no-free-reset law for the
-  Navier-Stokes participation current.
+  to E_route in the active route metric. The remaining open input is original-history
+  finiteness of E_route as a bounded stopped projection of the Navier-Stokes
+  participation current before selected readout.
 ---
 
 # Selected readout decomposition for parent-subtracted current
