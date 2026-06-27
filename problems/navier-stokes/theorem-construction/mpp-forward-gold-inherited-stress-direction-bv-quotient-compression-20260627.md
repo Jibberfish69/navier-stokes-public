@@ -315,14 +315,17 @@ The installed consumers then give
 ```
 
 Standard local Navier-Stokes continuation then extends a smooth solution past a
-finite maximal time.  Thus Gold smoothness follows once `(15)` is proved from
-the original Navier-Stokes law.  The note records `(15)` as open.
+finite maximal time.  Thus Gold smoothness follows once `(15)`, equivalently
+`(15d)` for the inherited service channel, is proved from the original
+Navier-Stokes law without importing the full material clock.  The note records
+that theorem as open.
 
 ## 6. What is still open
 
-The formal scalar BV part is elementary once `(5)` and `(8)` are installed.  The
-remaining PDE theorem is the signed score lift for inherited stress-test
-directions:
+The formal scalar BV part is elementary once `(5)` and the signed potential
+identity are installed.  The remaining PDE theorem is finite negative
+return/service from original data, expressed through the signed score lift for
+inherited stress-test directions:
 
 ```text
 StressTestInheritedDirectionSignedScoreLift.A.
@@ -331,12 +334,12 @@ StressTestInheritedDirectionSignedScoreLift.A.
 Statement:
 
 For every retained inherited stress direction \(e_\alpha\), before selected
-positive readout, construct the stopped scalar score \(P_\alpha\) so that
-unpaid inherited selected action satisfies `(5)`, and so that
-\(\partial_\sigma P_\alpha\) has the original-history derivative decomposition
-`(8)`--`(9)`.  Any failure of this construction is selector drift,
-order-lock/frame/connection motion, reset/reselection, stop, legal loss, or a
-fresh orthogonal innovation.
+positive readout, construct the stopped scalar score/potential \(P_\alpha\) or
+\(\Psi_\alpha\) so that unpaid inherited selected action satisfies `(5)`, and so
+that the negative return/service variation satisfies `(15d)` from the original
+transported Navier-Stokes history.  Any failure of this construction is selector
+drift, order-lock/frame/connection motion, reset/reselection, stop, legal loss,
+or a fresh orthogonal innovation.
 
 The global root part remains:
 
@@ -345,9 +348,10 @@ OriginalParticipationStorageCoercivity.A
 + OriginalHistoryWeightedFreshCurrentCapacity.A.
 ```
 
-Those must bound \(\mathcal E_{\rm route}(P)\) from the original Navier-Stokes
-material law.  Without that original-history storage bound, `(10)` is still only
-a conditional compression theorem.
+Those must bound \(\mathcal E_{\rm route}(P)\), or equivalently the relevant
+\(\operatorname{Rec}(\Psi)+V_-(\Psi)\) service ledger, from the original
+Navier-Stokes material law.  Without that original-history storage bound, `(10)`
+and `(15)` are still only conditional compression theorems.
 
 ## 7. Current status
 
@@ -356,10 +360,12 @@ Bessel target by the sharper mixed object:
 
 ```text
 fresh directions -> Bessel square packing,
-inherited directions -> stopped-score record/return BV compression,
+inherited directions -> stopped-score record/return BV compression, with finite
+  negative return/service still open,
 paid changes -> reset/reselection/selector/stop/legal ledgers.
 ```
 
-The next nonduplicate mathematical target is the signed score lift/storage
+The next nonduplicate mathematical target is the finite negative return/service
 theorem for inherited stress-test directions, tied to the global participation
-storage bound.
+storage bound.  This is the same missing regularity content in a more exact
+currency, not a consequence of the installed fresh Bessel and scalar BV facts.
