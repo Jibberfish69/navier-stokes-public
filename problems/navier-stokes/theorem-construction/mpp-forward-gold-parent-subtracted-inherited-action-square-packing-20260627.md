@@ -165,7 +165,7 @@ Thus
 \sum_i \|b_i-b_{i-1}\|_{\mathfrak H_P}^2
 \le
 C(u_0)
-\sum_i \|b_i-b_{i-1}\|_{\mathfrak H_P}^2 .
+\sum_i \|b_i-b_{i-1}\|_{\mathfrak H_P,act}^2 .
 \]
 
 The same-direction inherited reuse itself contributes nothing new. Only change
@@ -220,10 +220,10 @@ Here
 \[
 \operatorname{Var}^{reset}_P
 =
-\sum_i \|b_i-b_{i-1}\|_{\mathfrak H_P}^2
+\sum_i \|b_i-b_{i-1}\|_{\mathfrak H_P,act}^2
 \]
 
-up to the equivalent projection-jump, legal, and stop terms.
+the equivalent active-metric projection-jump ledger, up to legal and stop terms.
 
 ## Gold Effect
 
