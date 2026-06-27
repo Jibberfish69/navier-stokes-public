@@ -154,61 +154,101 @@ clause in the \(\mathcal E_{\rm route}\) currency.
 
 ## Parent-announced first-exit form
 
-The projection jump must be represented before selected child-tail readout as a
-parent-announced first exit. On each reset edge \(e\), the stopped selector
-supplies an interval \(I_e\) and
+The projection jump is represented before selected child-tail readout as a
+parent-announced first exit. On each reset edge \(e\), the reset/projection jump
+is a first exit of a parent-known transported coordinate \(q_e\). Since the
+whole pressure-viscosity-incompressibility-velocity packet is rescaled together,
+\(q_e\) is an original same-material coordinate, and along the stopped scale
+interval \(I_e\),
 
 \[
-D_e
+q_e(\sigma_1,t)-q_e(\sigma_0,t)
 =
-|I_e|^{-1}
-\int_{I_e}\mathcal G_e(\sigma,t)\,d\sigma
-+Err_e^{legal},
-\tag{9}
-\]
-
-with
-
-\[
-\mathcal G_e
-=
-\partial_\sigma Z
-+\operatorname{turnstile}_\sigma
-+\operatorname{exchange}_\sigma
-+\operatorname{covector}_\sigma .
+\int_{I_e}\partial_\sigma q_e(\sigma,t)\,d\sigma .
 \tag{10}
 \]
 
-The harmonic active weight gives
+The packet derivative decomposes as
 
 \[
-H_{I_e}(t)\|D_e(t)\|^2
-\le
-\int_{I_e}
-w(\sigma,t)\|\mathcal G_e(\sigma,t)\|^2\,d\sigma
-+Err_e^{legal}.
+\partial_\sigma q_e
+=
+L_e(\partial_\sigma Z,T_\sigma,E_\sigma,C_\sigma)
++Err_{\rm legal},
+\qquad
+\|L_e\|\le C_N .
 \tag{11}
 \]
 
-If the projection jump satisfies
+The harmonic active weight
 
 \[
-\|(\Pi_i-\Pi_{i-1})a_i\|_{\mathfrak H_P}^2
-\lesssim
-\int H_{I_i}(t)\|D_i(t)\|^2\,dt
-+Err_i^{legal}+Stop_i,
+H_{I_e}(t)
+=
+\frac{|I_e|^2}{\int_{I_e}w^{-1}\,d\sigma}
 \tag{12}
 \]
 
-and the parent-announced first-exit slabs have bounded stopped overlap, then
-`(8)` follows from the original routed-current energy:
+and weighted Cauchy give
 
 \[
-\sum_i
-\|(\Pi_i-\Pi_{i-1})a_i\|_{\mathfrak H_P}^2
-\lesssim
-\mathcal E_{\rm route}(P)+R_{\rm legal}+Stop .
+H_{I_e}
+\|q_e(\sigma_1)-q_e(\sigma_0)\|^2
+\le
+C_N
+\int_{I_e}
+w\big(
+|\partial_\sigma Z|^2
++|T_\sigma|^2
++|E_\sigma|^2
++|C_\sigma|^2
+\big)
++dR_{\rm legal}.
 \tag{13}
+\]
+
+The projection map \(q\mapsto\Pi(q)\) is uniformly Lipschitz on the stopped
+chart, so
+
+\[
+H_{I_e}
+\|(\Pi_e^+-\Pi_e^-)a_e\|^2
+\le
+C_N
+\int_{I_e}
+w\big(
+|\partial_\sigma Z|^2
++|T_\sigma|^2
++|E_\sigma|^2
++|C_\sigma|^2
+\big)
++dR_{\rm legal}.
+\tag{14}
+\]
+
+Maximal first-exit intervals are disjoint along each stopped ancestry line, and
+the material tubes are laminar across siblings:
+
+\[
+\sum_e 1_{I_e\times T_e}
+\le
+C_N+R_{\rm legal}+Stop.
+\tag{15}
+\]
+
+Summing `(14)` proves `(9)`, where
+
+\[
+\mathcal E_{\rm route}(P)
+=
+\int_{\operatorname{Hist}(P)}
+w\big(
+|\partial_\sigma Z|^2
++|T_\sigma|^2
++|E_\sigma|^2
++|C_\sigma|^2
+\big).
+\tag{16}
 \]
 
 The final remaining input is therefore the original-history storage estimate
@@ -217,11 +257,11 @@ The final remaining input is therefore the original-history storage estimate
 \mathcal E_{\rm route}(P)
 \le
 C_N(u_0)+R_{\rm legal}+Stop .
-\tag{14}
+\tag{17}
 \]
 
-With `(8)` and fresh Bessel, selected action is square-packed. The installed
-downstream relay then gives finite selected action, finite full same-material
-clock, and the usual \(H^s\) continuation.
+With `(17)`, projection-jump reserve and fresh Bessel square-pack selected
+action. The installed downstream relay then gives finite selected action, finite
+full same-material clock, and the usual \(H^s\) continuation.
 
 Partial, not Gold closed.
