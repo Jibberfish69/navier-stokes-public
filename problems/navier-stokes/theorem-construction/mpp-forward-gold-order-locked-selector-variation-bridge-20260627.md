@@ -9,6 +9,7 @@ attacks_hinge:
   - SelectorTieGapOrDriftCharge.A
   - StochasticExponentialSelectedDensityHilbertBMO.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-moving-selector-variation-carleson-direct-test-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-frozen-hilbert-lift-countertest-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-compactness-collar-stabilization-solution-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-participation-order-lock-direct-attempt-20260622.md
@@ -26,8 +27,15 @@ source_surfaces:
 
 ## 1. New reduction
 
+The moving-selector direct test already closes two cases: finite-menu heredity
+gives a fixed carrier on an infinite retained subtail, and an already-summable
+label-defect ledger gives the Carleson estimate.  This note sharpens the third
+question: what structure would actually produce or type that label-defect
+ledger before the unpaid continuum branch collapses back to the terminal
+selected-density atom.
+
 The moving-selector term from the selector-frozen Hilbert lift should not be
-treated as a free scalar label derivative.  The checked notes give a sharper
+treated as a free scalar label derivative.  The checked notes give the sharper
 object:
 
 ```math
@@ -49,9 +57,8 @@ retained Body-II/III three-measure packet
 => moving-selector contribution is charged or zero on the retained tail.
 ```
 
-This is stronger than the previous abstract statement
-`MovingSelectorVariationCarleson.A`, because it names the exact carrier on
-which selector motion is allowed to exist.
+This is not a replacement for the moving-selector direct test.  It is the
+candidate production mechanism for the paid-defect branch of that test.
 
 ## 2. Stabilized selector branch
 
@@ -361,12 +368,39 @@ C_N(u_0)\mathcal R(P),
 
 which is enough for the strict selected good-lambda half-tail.
 
-## 8. Result
+## 8. Relation to the moving-selector direct test
+
+The direct test leaves exactly three branches:
+
+```math
+\boxed{
+\begin{aligned}
+&\text{finite menu / compact heredity}
+\Rightarrow
+\text{fixed carrier;}\\
+&\text{paid label defect}
+\Rightarrow
+\text{Carleson label variation;}\\
+&\text{unpaid continuum label motion}
+\Rightarrow
+\text{terminal selected-density atom / critical half-tail.}
+\end{aligned}
+}
+\tag{23}
+```
+
+This note belongs to the second line of `(23)`.  It says that the label defect
+is paid only through the full-packet order-lock gap, visible selector-collar
+variation, retained three-measure packet custody, or named Body defects.  If
+none of those mechanisms is present, the branch has not been paid; it remains
+the third line of `(23)`.
+
+## 9. Result
 
 This note does not close Gold.  It sharpens the current hinge.
 
-The previous moving-selector theorem was too abstract.  The exact replacement
-is:
+The previous moving-selector theorem was too abstract when stated as a naked
+label derivative.  The exact paid-defect bridge is:
 
 ```text
 OrderLockedSelectorVariationBridge.A:
@@ -394,3 +428,14 @@ It must prove one of the following on the retained Gold tail:
 After that production theorem, the fixed-carrier Hilbert lift and the
 stochastic-exponential martingale reverse-Holder theorem become a coherent
 Gold route rather than a selector-blind scalar estimate.
+
+The global nonduplicate target remains:
+
+```text
+StochasticExponentialSelectedDensityHilbertBMO.A
+```
+
+on a fixed retained carrier, together with finite/compact heredity or this
+order-locked selector-variation payment.  Without that payment, moving-selector
+variation is not a new route; it is the terminal selected-density atom /
+critical half-tail branch already isolated by the direct test.
