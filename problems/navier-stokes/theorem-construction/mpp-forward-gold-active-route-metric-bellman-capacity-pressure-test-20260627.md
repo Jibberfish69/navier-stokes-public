@@ -5,6 +5,9 @@ created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
+superseded_live_hinge_by:
+  - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 corrects:
   - HighActiveDensityForcesStopOrLegalReselection.A as standalone closure
   - raw-density-stopping-as-active-clock-payment
@@ -68,7 +71,7 @@ the critical active size, `(4)` is even less likely to fire.  The missing
 quantity is not raw density; it is domination of the active selected weight by
 raw stress-square measure plus a telescoping same-material capacity.
 
-The correct retained theorem is the Bellman form
+The Bellman form tested here is
 
 \[
 \sum_{Q\in \operatorname{ch}_{ret}(P)}
@@ -152,6 +155,7 @@ that is a no-work refilling channel for the same parent material traction
 current.  Gold closes precisely by proving that this channel cannot remain a
 retained selected branch of the original Navier-Stokes participation law.
 
-This pressure test improves the target.  The current constructive route is not
-raw density stopping alone.  It is a Bellman/capacity admission theorem for the
-retained active route metric.
+This pressure test improved the target.  The current constructive route is no
+longer raw density stopping or Bellman/capacity alone.  It is the source-level
+selected-action currency: bounded original-packet/Riesz selected reads,
+inherited/root current, or paid stop/legal/reselection/selector drift.
