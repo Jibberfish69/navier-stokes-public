@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-root-defect-finite-observable-compactness-pivot-20260627
-status: carrier-stable-compactness-pivoted-to-finite-observable-norming-open
+status: finite-observable-pivot-consumed-by-high-frequency-tail-charge-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / stopped root geometry
@@ -12,8 +12,10 @@ attacks_hinge:
 refines_to:
   - RootDefectFiniteObservableCompactness.A
   - RootDefectFiniteModeNormingOrEntropyPayment.A
+  - RootDefectHighFrequencyTailCharge.A
   - PersistentRootAffineQuotientReturnPayment.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-defect-compactness-finite-band-nonvanishing-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-defect-carrier-stable-compactness-synthesis-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-defect-tightness-concentration-compactness-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-defect-tightness-original-ledger-correction-20260627.md
@@ -27,9 +29,11 @@ effect: >-
   enough: normalized vectors can vanish weakly by moving through orthogonal
   legal modes. The root defect must either be seen by a finite parent-known legal
   norming family on the compact selected quotient, or the motion through new
-  modes must pay spectral/selector entropy, potential-average, negative-return,
-  legal, stop, or original-history connection charge. This is the finite
-  observable version of carrier-stable compactness, not Gold closure.
+  modes must pay spectral/tower tail, selector entropy, potential-average,
+  negative-return, legal, stop, or original-history connection charge. The
+  finite-band nonvanishing note is the sharper active surface: finite observable
+  compactness is the compact piece, and RootDefectHighFrequencyTailCharge.A is
+  the remaining open producer.
 ---
 
 # Root defect finite-observable compactness pivot
@@ -275,3 +279,27 @@ attempt to keep changing legal directions must pay the original-history entropy
 This is not Gold closure.  It is a sharper proof object that blocks the current
 false nonzero-limit step and turns the remaining work into a concrete finite
 mode-tail or entropy-payment theorem.
+
+## 7. Alignment with the active frontier
+
+The active frontier has now sharpened this note into the finite-band/tower-tail
+split:
+
+```text
+finite-band nonvanishing
++ RootDefectHighFrequencyTailCharge.A
+  -> RootDefectCarrierStableCompactness.A.
+```
+
+So `RootDefectFiniteObservableCompactness.A` should be read as the observable
+reason for the finite-band projection step, not as a separate live target.  The
+open theorem is:
+
+```text
+RootDefectHighFrequencyTailCharge.A.
+```
+
+It is exactly the noncircular tail law that prevents the orthonormal-mode
+countermodel from hiding the normalized unit in ever-higher root/tower modes.
+The payment must come from parent-known original-history tower/root currency,
+not from produced root clocks.
