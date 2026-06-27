@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-projection-jump-first-exit-carleson-live-hinge-20260627
-status: open-sharp-live-hinge
+status: superseded-by-route-energy-reduction
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -17,10 +17,11 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-inherited-direction-bessel-closure-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-reused-channel-return-service-no-recirculation-equivalence-20260627.md
 effect: >-
-  Records the sharpened live Gold hinge: exact inherited reuse is zero new
-  selected child action, fresh residuals are Bessel-paid, and only changed
-  inherited reuse remains. The remaining theorem is the projection-jump /
-  first-exit Carleson reserve for parent-known projection changes.
+  Records the parent-subtracted split: exact inherited reuse is zero new selected
+  child action, fresh residuals are Bessel-paid, and changed inherited reuse is
+  the projection-jump term. This note is superseded as the live hinge by the
+  route-energy reduction proving ProjectionJumpFirstExitCarlesonFromRouteEnergy.A.
+  The remaining burden is OriginalHistoryRoutedCurrentEnergyFinite.A.
 ---
 
 # Projection-jump / first-exit Carleson live hinge
