@@ -37,10 +37,10 @@ exist.  The installed replacement is the augmented stopped parent-drop:
 \sum_{S'\in ch_{\rm stop}(S)}A(S')
 \le
 C\langle U_S,\mathsf S^{\rm stop}_S U_S\rangle
-C\,\Omega_S^{strain/ex}
-C\,D_S^{vis/rad}
-R_{\rm stop}(S)
-R_{\rm legal}(S).
++C\,\Omega_S^{strain/ex}
++C\,D_S^{vis/rad}
++R_{\rm stop}(S)
++R_{\rm legal}(S).
 \tag{1}
 ```
 
@@ -66,9 +66,9 @@ monotonicity plus `(1)` gives
 \bigl(A(S')+B(S')\bigr)
 \le
 B(S)
-C\,\Xi(S)
-R_{\rm stop}(S)
-R_{\rm legal}(S),
++C\,\Xi(S)
++R_{\rm stop}(S)
++R_{\rm legal}(S),
 \tag{2}
 ```
 
@@ -140,9 +140,9 @@ C
 \sum_{S\subseteq P}
 \Bigl(
 \Omega_S^{strain/ex}
-D_S^{vis/rad}
++D_S^{vis/rad}
 \Bigr)
-R_{\rm legal}(P).
++R_{\rm legal}(P).
 \tag{5}
 ```
 
@@ -161,7 +161,7 @@ in the form
 \sum_{S\subseteq P}
 \Bigl(
 \Omega_S^{strain/ex}
-D_S^{vis/rad}
++D_S^{vis/rad}
 \Bigr)
 \le
 C_N(u_0)\mathcal R(P)+R_{\rm legal}(P).
@@ -203,7 +203,7 @@ coarea/BV crossing estimate should give
 \sum_{\text{unpaid crossings in }P}w_j(S)
 \le
 C\,\operatorname{Var}_P(Y)
-R_{\rm legal}(P).
++R_{\rm legal}(P).
 \tag{9}
 ```
 
@@ -217,9 +217,9 @@ C
 \sum_{S\subseteq P}
 \Bigl(
 \Omega_S^{strain/ex}
-D_S^{vis/rad}
++D_S^{vis/rad}
 \Bigr)
-R_{\rm legal}(P).
++R_{\rm legal}(P).
 \tag{10}
 ```
 
