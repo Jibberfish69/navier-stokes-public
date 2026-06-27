@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-projection-jump-first-exit-carleson-reserve-20260627
-status: projection-jump-reserve-exact-live-gold-hinge-open
+status: projection-jump-first-exit-carleson-proved-relative-to-route-energy
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -16,11 +16,12 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-reused-channel-return-service-no-recirculation-equivalence-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-announced-reset-variation-to-routed-energy-reduction-20260627.md
 effect: >-
-  Installs the exact formal shape of the remaining Gold reserve.  Exact inherited
+  Installs the exact formal shape of the projection-jump reserve.  Exact inherited
   reuse is zero new selected current.  Fresh residuals are orthogonal and paid by
   the material stress Bessel estimate.  Recycled action exists only when the
-  parent-known projection changes, and the remaining theorem is the finite
-  projection-jump / parent-announced first-exit Carleson reserve.  Partial, not
+  parent-known projection changes, and the projection-jump / parent-announced
+  first-exit Carleson estimate is proved in E_route currency.  The remaining
+  Gold producer is OriginalHistoryRoutedCurrentEnergyFinite.A.  Partial, not
   Gold closed.
 ---
 
@@ -109,21 +110,32 @@ Therefore
 \tag{7}
 \]
 
-The theorem-grade reserve is exactly
+The theorem-grade reserve version is
 
 \[
-\boxed{
 \sum_i
 \|(\Pi_i-\Pi_{i-1})a_i\|_{\mathfrak H_P}^2
 \le
 C_N(u_0)+R_{\rm legal}+Stop .
-}
 \tag{8}
 \]
 
-This is the remaining finite-reserve statement. It says unchanged reuse is
-zero, fresh reuse is orthogonal, and changed reuse spends projection-jump
-reserve.
+The proved first-exit statement is the route-energy version:
+
+\[
+\mathrm{PJ}(P)
+:=
+\sum_{e\subset P}
+\int H_{I_e}(t)\|(\Pi_e^+-\Pi_e^-)a_e\|^2\,dt
+\le
+C_N\mathcal E_{\rm route}(P)+R_{\rm legal}(P)+Stop(P).
+\tag{9}
+\]
+
+It says unchanged reuse is zero, fresh reuse is orthogonal, and changed reuse
+spends projection-jump reserve in the original routed-packet energy currency.
+The \(C(u_0)\) version of `(8)` follows after the original storage producer
+\(\mathcal E_{\rm route}(P)\le C(u_0)+R_{\rm legal}+Stop\).
 
 ## Relation to the installed notes
 
@@ -133,11 +145,12 @@ inherited stress readout is parent current, not child action.
 The parent-subtracted Bessel closure installs `(5)`: fresh residuals square-pack
 against \(\|G\|_{\mathfrak H_P}^2\).
 
-The reused-channel note states the missing local descent clause: a later read
-of the same material channel cannot restore selected high-ratio action without
-fresh orthogonal work, legal/stop loss, paid reselection/reset, or return to an
-already spent reserve atom with bounded multiplicity. In the present notation,
-that missing clause is `(8)`.
+The reused-channel note stated the local descent clause before first-exit
+realization: a later read of the same material channel cannot restore selected
+high-ratio action without fresh orthogonal work, legal/stop loss, paid
+reselection/reset, or return to an already spent reserve atom with bounded
+multiplicity. In the present notation, the first-exit realization proves that
+clause in the \(\mathcal E_{\rm route}\) currency.
 
 ## Parent-announced first-exit form
 
