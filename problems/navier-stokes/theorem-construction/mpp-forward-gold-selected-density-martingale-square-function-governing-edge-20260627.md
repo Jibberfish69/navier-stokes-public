@@ -372,6 +372,21 @@ CriticalWeightedResetBVFromOriginalHistory.A
 These are not competing top-level targets. They are the two branch-payment ways
 to construct the original-history stopped log-amplification Carleson bound.
 
+The latest refinement unifies those two branch payments as projections of one
+record:
+
+```text
+OriginalHistorySelectedAmplificationBV.A.
+```
+
+Here the object is a single original-history selected amplification variable
+\(\Lambda=\log f_{\rm sel}\), or equivalently the stopped lifted carrier \(Z^S\).
+The fixed stopped-core return estimate is a stopped projection of \(\Lambda\).
+The strict reset estimate is a chart-change projection of \(\Lambda\). The live
+construction problem is to build this record from the same material PDE history
+and prove its critical BV / square-function / Carleson bound without using the
+future selected tail.
+
 ## 6. Closure relay
 
 If the stopped log-amplification square-function theorem holds, then standard
