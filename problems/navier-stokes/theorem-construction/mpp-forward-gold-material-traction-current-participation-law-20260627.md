@@ -210,14 +210,13 @@ C(u_0)+R_{\rm legal}+Stop.
 \tag{14}
 ```
 
-Equation `(14)` is the square-packing input for the Gold wall.  Fixed return,
-strict reset, selector log amplification, parent drop, finite full clock, and
-\(H^s\) continuation are bookkeeping after this stopped dual stress-test bound.
-
-This sentence has one essential qualifier: the measure \(\mathcal R(Q)\) in
-`(11)`--`(14)` must already be the selected-critical original participation
-weight pulled back to the stopped tree.  With only raw stopped-overlap weight,
-`(14)` is the material-current/Bessel support estimate, not the Gold producer.
+Equation `(14)` is the square-packing input for the Gold wall only after the
+measure \(\mathcal R(Q)\) in `(11)`--`(14)` has been proved to be the
+selected-critical original participation weight pulled back to the stopped tree.
+With only raw stopped-overlap weight, `(14)` is the material-current/Bessel
+support estimate, not the Gold producer.  Fixed return, strict reset, selector
+log amplification, parent drop, finite full clock, and \(H^s\) continuation are
+bookkeeping after the active-weight stopped dual stress-test bound.
 The half-tail profile has finite raw current mass
 
 ```math
