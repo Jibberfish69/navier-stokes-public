@@ -24,6 +24,7 @@ source_surfaces:
 parallel_checks:
   - subagent:gibbs:carleman-quotient-visible-observability-20260627
   - subagent:sartre:rellich-visible-quotient-sign-20260627
+  - subagent:rawls:riccati-microlocal-silent-bubble-reserve-20260627
 ---
 
 # Stopped exchange-reselection compensator synthesis
@@ -281,6 +282,34 @@ selected, the installed silent-source normal form routes them into
 \(\Omega^{strain/ex}\) and \(D^{vis/rad}\).  So Rellich is a proof mechanism
 for the visible quotient in `(1)`, not a way to remove the exchange terms.
 
+The DtN Riccati and microlocal-defect routes have the same limitation.  They
+are useful microscopes for polarization and cancellation, but they do not make
+selected strain a monotone positive potential in the pure Schur drop.  Their
+best noncircular contribution is a silent-bubble reserve feeding the exchange
+side:
+
+```text
+SilentSourceBubbleEnergyCarleson.A
+```
+
+Statement:
+
+```math
+\sum_{Q}
+\|w_Q\|_{\mathcal H_A(Q)}^2
+\le
+C_N(u_0)
++C\sum_Q\mathcal S_{\rm material}(Q)
++R_{\rm legal}.
+\tag{13}
+```
+
+This is not a replacement hinge.  It is a subroute inside
+`StoppedFullExchangeActionCarleson.A`: boundary-flat selected pressure-Hodge
+sources decompose into hidden Hilbert bubbles plus material service, and the
+hidden bubble energy must be Carleson from the same original-history exchange
+ledger.
+
 The nonlocal closure should instead attack the stopped compensator:
 
 ```math
@@ -289,10 +318,10 @@ The nonlocal closure should instead attack the stopped compensator:
 \;\le\;
 \text{same-material exchange variation}
 }
-\tag{13}
+\tag{14}
 ```
 
-Once `(13)` is proved, the stopped Bellman inequality has only the full
+Once `(14)` is proved, the stopped Bellman inequality has only the full
 original-history exchange action left to sum.
 
 ## 6. Honest remaining burden
