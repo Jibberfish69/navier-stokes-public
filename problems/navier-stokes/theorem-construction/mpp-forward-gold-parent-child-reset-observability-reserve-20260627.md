@@ -203,10 +203,10 @@ in the form
 A_{\rm sel}^{fresh}(Q')
 \le
 C\langle U_Q,\mathsf S_Q^{stop}U_Q\rangle
-C\Omega_Q^{strain/ex}
-CD_Q^{vis/rad}
-CJ_{\rm reset}(Q\to Q')
-R_{\rm legal}(Q).
++C\Omega_Q^{strain/ex}
++CD_Q^{vis/rad}
++CJ_{\rm reset}(Q\to Q')
++R_{\rm legal}(Q).
 \tag{5}
 ```
 
