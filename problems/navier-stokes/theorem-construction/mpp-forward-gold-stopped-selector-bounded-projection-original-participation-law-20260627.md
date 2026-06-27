@@ -20,9 +20,9 @@ effect: >-
   Sharpens the corrected Gold hinge into one noncircular projection theorem.
   The stopped selector is proved to be a bounded parent-known projection of the
   original Navier-Stokes participation law in the original material metric
-  before scalar selected readout.  The unpaid mathematical clause is original
-  participation storage / active-weight domination, not a scalar primitive
-  packet.  Partial, not Gold closed.
+  before scalar selected readout.  The storage clause is the same
+  full-action/no-free-reset inequality for the coupled participation current,
+  not a scalar primitive packet or a detached producer.
 ---
 
 # Stopped selector as bounded projection of the original participation law
@@ -261,11 +261,12 @@ boundary, that term is charged to \(dStop\), \(dR_{\rm legal}\), or the listed
 route coordinates.  Therefore there is no extra return/reset currency outside
 the current.
 
-The operator side is closed.  The remaining Gold wall is the separate storage
-claim that the original participation metric itself has finite stopped
-original-history mass.
+The operator side is closed.  The storage side is the same no-free-reset claim
+for the coupled participation current: finite routed energy must come from a
+bounded-below material organization functional plus legal/stop error, not from a
+downstream scalar record.
 
-## 3. Original storage clause
+## 3. Original full-action storage clause
 
 The needed original-history storage statement is:
 
@@ -294,12 +295,23 @@ C(u_0)+R_{\rm legal}(P)+Stop(P).
 
 Combining `(5)` and `(14)` proves `(2)`.
 
-This clause is the noncircular meaning of "original-history finite."  It cannot
-be imported from the downstream full material clock recovered after selected
-first-ratio action.  The admissible sources are original same-material
-participation storage, dynamic silent/exchange commutator coercivity, covector
-and turnstile service, reset/order-lock derivative structure, and legal/stop
-losses.
+This clause is the noncircular meaning of "original-history finite."  It is the
+coordinate form of
+
+```math
+d\mathscr A_N+c\,d\Omega_N\le dR_N,
+\qquad
+\mathscr A_N(t)\ge -C(u_0),
+\qquad
+\int_0^{T^*}dR_N<\infty .
+\tag{15}
+```
+
+It cannot be imported from the downstream full material clock recovered after
+selected first-ratio action.  The admissible sources are original
+same-material participation storage, dynamic silent/exchange commutator
+coercivity, covector and turnstile service, reset/order-lock derivative
+structure, and legal/stop losses.
 
 In the existing local language, `(13)` is the same unpaid mathematical content as
 
@@ -312,10 +324,10 @@ OriginalScaleMemoryStorageCoercivity.A
 but now it is attached to the whole stopped routed current \(J^S\), not to a
 scalar selected-potential packet.
 
-## 4. The proof once `(5)` and `(13)` are installed
+## 4. The proof once `(5)` and the full-action storage law are installed
 
 The projection estimate `(5)` is now proved by `(7)`--`(12)`.  Assume the
-storage clause `(13)`.  Then
+storage clause `(13)`, equivalently `(15)`.  Then
 
 ```math
 \begin{aligned}
@@ -335,7 +347,7 @@ C\int_{\operatorname{Hist}(P)}
 &\le
 C(u_0)+R_{\rm legal}(P)+Stop(P).
 \end{aligned}
-\tag{15}
+\tag{16}
 ```
 
 After `(15)`, the rest of the Gold chain is bookkeeping for the same current:
@@ -372,14 +384,10 @@ The corrected live Gold theorem is now:
 
 ```text
 StoppedSelectorBoundedProjectionOfOriginalParticipationLaw.A [proved here]
-+ OriginalParticipationStorageCoercivity.A [separate storage clause]
++ full-action/no-free-reset storage for the same coupled current
 => OriginalHistoryRoutedCurrentEnergyFinite.A.
 ```
 
-The first clause is proved by finite parent-known routed projection in the
-original material metric.  The second clause is still open: prove the original
-participation storage / active-weight domination for the whole current \(J^S\)
-before selected readout.
-
-Partial, not Gold closed.  The remaining mathematical attack is `(13)` for the
-coupled same-material participation current.
+The projection clause is proved by finite parent-known routed projection in the
+original material metric.  The storage clause is `(13)` / `(15)` for the whole
+current \(J^S\) before selected readout.
