@@ -130,7 +130,7 @@ w(\sigma,t)
 |\langle G,\mathcal D_\sigma a_{\sigma,t}\rangle|^2\,d\sigma dt
 \le
 C_N\|G\|_{\mathfrak H_P}^2
-R_{\rm legal}(P)+Stop(P)
++R_{\rm legal}(P)+Stop(P)
 \tag{10}
 \]
 
