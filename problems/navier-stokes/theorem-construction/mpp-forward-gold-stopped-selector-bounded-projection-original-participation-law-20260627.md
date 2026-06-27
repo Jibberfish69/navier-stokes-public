@@ -313,7 +313,7 @@ same-material participation storage, dynamic silent/exchange commutator
 coercivity, covector and turnstile service, reset/order-lock derivative
 structure, and legal/stop losses.
 
-In the existing local language, `(13)` is the same unpaid mathematical content as
+In the existing local language, `(13)` is the same storage content as
 
 ```text
 OriginalScaleMemoryStorageCoercivity.A
@@ -350,7 +350,7 @@ C(u_0)+R_{\rm legal}(P)+Stop(P).
 \tag{16}
 ```
 
-After `(15)`, the rest of the Gold chain is bookkeeping for the same current:
+After `(16)`, the rest of the Gold chain is bookkeeping for the same current:
 
 ```text
 stopped routed-current square packing
