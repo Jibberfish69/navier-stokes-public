@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-parent-subtracted-inherited-direction-bessel-closure-20260627
-status: inherited-direction-branch-closed-for-parent-subtracted-current
+status: inherited-direction-decomposition-closed-reset-variation-finiteness-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / stopped root geometry
@@ -22,14 +22,15 @@ effect: >-
   Corrects the raw inherited-value estimate.  The theorem is not a bound for
   repeated inherited value as fresh child action.  It changes the action to the
   parent-subtracted inherited current: exact same-direction reuse is parent
-  current and contributes zero new child source; fresh use is orthogonal and
-  Bessel-paid by the viscous strain ledger; changed reuse is paid by reset,
-  angle, selector, stop, or legal variation.  This closes the inherited-direction
-  branch of the stopped root-geometry compensator under the retained normalized
-  endpoint-test convention.
+  current and contributes zero new child source, while fresh use is orthogonal
+  and Bessel-paid by the viscous strain ledger.  Changed inherited reuse reduces
+  exactly to the square variation of inherited directions,
+  sum_i ||b_i-b_{i-1}||_{H_P}^2, equivalently reset/angle/selector/frame/collar/
+  stop/legal variation.  This note does not prove that variation finite from the
+  original material law.
 ---
 
-# Parent-subtracted inherited-direction Bessel closure
+# Parent-subtracted inherited-direction Bessel decomposition
 
 The raw inherited-value estimate was the wrong statement.  Reusing the same
 direction down the stopped material tree is not new child action.  It is parent
@@ -168,9 +169,10 @@ C(u_0)\operatorname{Var}_{P}^{reset/angle/selector}.
 
 The last factor is exactly the stopped reset/angle/selector variation ledger.
 Stop and legal collar changes are recorded in \(Stop(P)\) and
-\(R_{\mathrm{legal}}(P)\).
+\(R_{\mathrm{legal}}(P)\). This line is a decomposition of the remaining cost,
+not a proof that the ledger is finite.
 
-## 3. Closure statement
+## 3. Decomposition statement
 
 Combining `(8)` and `(11)` gives
 
@@ -185,22 +187,28 @@ C(u_0)
 \tag{12}
 ```
 
-This is the inherited-direction theorem:
+This is the inherited-direction decomposition:
 
 ```text
 reuse is parent current,
 fresh use is orthogonal,
-changed reuse is paid by reset/angle/selector variation.
+changed reuse is exactly reset/angle/selector variation.
 ```
 
 ## 4. Route effect
 
-This closes the inherited-direction branch inside the stopped root-geometry
-compensator.  The root-geometry proof should now measure the child action by
-the parent-subtracted current \(\Delta J_i^{new}\).  Any surface that treats raw
-inherited value as fresh selected child action is stale.
+This closes only the parent-subtracted decomposition inside the stopped
+root-geometry compensator. The root-geometry proof should now measure the child
+action by the parent-subtracted current \(\Delta J_i^{new}\). Any surface that
+treats raw inherited value as fresh selected child action is stale.
 
-The remaining root-geometry work is no longer to bound repeated inherited
-value.  It is to ensure the reset/angle/selector variation ledger and the
-selected potential/amplification record are produced from original
-same-material history before descendant selected-tail readout.
+The remaining root-geometry work is the exact original-history estimate
+
+```math
+\sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P}^2
+\le
+C(u_0)+R_{\mathrm{legal}}(P)+Stop(P).
+```
+
+Equivalently, prove `ResetAngleSelectorVariationFiniteFromOriginalMaterialLaw.A`
+before descendant selected-tail readout.
