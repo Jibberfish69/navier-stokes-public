@@ -352,6 +352,26 @@ Both are now subordinate to one governing theorem:
 OriginalHistorySelectedLogAmplificationCarleson.A.
 ```
 
+The proof relay has since refined the immediate branch locks. On the fixed
+stopped-core side, the missing payment is a genuine signed stopped-material PLS
+evolution identity:
+
+```text
+SignedStoppedPLSEvolutionIdentity.A
+/ StoppedReturnBVFiniteFromOriginalData.A.
+```
+
+On the shrinking reset side, the missing payment is the critical weighted reset
+BV/Carleson estimate:
+
+```text
+CriticalWeightedResetBVFromOriginalHistory.A
+/ LogScaleResetDerivativeCarrierBound.A.
+```
+
+These are not competing top-level targets. They are the two branch-payment ways
+to construct the original-history stopped log-amplification Carleson bound.
+
 ## 6. Closure relay
 
 If the stopped log-amplification square-function theorem holds, then standard
