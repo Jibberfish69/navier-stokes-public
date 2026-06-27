@@ -1,15 +1,17 @@
 ---
 theorem_id: forward-gold-selected-readout-parent-subtracted-current-admission-20260627
-status: selected-readout-admission-closed-with-stopped-variation-ledger
+status: selected-readout-decomposition-proved-reset-angle-selector-variation-finiteness-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
-closes_hinge:
+decomposes_hinge:
   - ParentSubtractedInheritedActionSquarePacking.A
   - ResetAngleSelectorVariationPayment.A
   - StoppedStressTestParentSubtractedInnovationAdmission.A
   - SelectedActionParentSubtractedCurrentAdmission.A
+leaves_open:
+  - ResetAngleSelectorVariationFiniteFromOriginalMaterialLaw.A
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-inherited-action-square-packing-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-stress-test-innovation-bessel-20260627.md
@@ -17,17 +19,17 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-bounded-projection-original-participation-law-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parentdrop-full-clock-relay-from-square-packing-20260627.md
 effect: >-
-  Installs the admission convention needed by the parent-subtracted QR theorem.
+  Installs the exact decomposition needed by the parent-subtracted QR theorem.
   The selected child action is defined from the innovation current
   Delta J^{new}=Delta J-Delta J^{parent}; raw inherited reuse is parent current
-  and cannot be recounted as child action.  Projection changes are selector/frame/
-  collar/reset/stop/legal variation of the stopped selector itself, hence are
-  charged in the stopped variation ledger before descendant selected-tail readout.
-  With this admission, the square-packing relay consumes the parent-subtracted
-  current and the parent-drop-to-Hs relay applies to the same action.
+  and cannot be recounted as child action.  The inherited part contributes only
+  through changes of inherited direction, measured by
+  sum_i ||b_i-b_{i-1}||_{H_P}^2, equivalently reset/angle/selector/frame/collar/
+  stop/legal variation.  This note does not prove that variation finite from
+  the original material law; that is the exact remaining Gold estimate.
 ---
 
-# Selected readout admission for parent-subtracted current
+# Selected readout decomposition for parent-subtracted current
 
 The selected action must be read from the parent-subtracted current, not from
 the raw child stress read.
@@ -93,47 +95,47 @@ If the stopped parent geometry does not change and the direction is inherited,
 then \(d_i=0\), \(r_i^{var}=0\), and `(4)` gives no new selected child action.
 That is the algebraic no-reuse law.
 
-## 2. Variation ledger
+## 2. Inherited variation term
 
-When the parent-known projection changes, write
+The inherited part is
 
 ```math
-\rho_i
+\sqrt{\mathcal R(Q_i)}\,\Delta J_i^{inh}
 =
-\langle G,(\Pi_i-\Pi_{i-1})a_i\rangle .
+\langle G,b_i\rangle .
 \tag{5}
 ```
 
-The stopped selector variation ledger is
+Thus
 
 ```math
-\operatorname{Var}^{stop}_P
-:=
-\sum_i\|(\Pi_i-\Pi_{i-1})a_i\|_{\mathfrak H_P}^2
-+Stop(P)+R_{\rm legal}(P).
+\sqrt{\mathcal R(Q_i)}\Delta J_i^{inh}
+-
+\sqrt{\mathcal R(Q_{i-1})}\Delta J_{i-1}^{inh}
+=
+\langle G,b_i-b_{i-1}\rangle .
 \tag{6}
 ```
-
-Only announced stopped geometry changes contribute to `(6)`.  A post-readout
-change of projection is illegal and is routed to \(Stop\) or \(R_{\rm legal}\).
-Therefore the variation ledger is parent-known before descendant selected-tail
-readout.
 
 By Cauchy--Schwarz,
 
 ```math
-\sum_i|\rho_i|^2
+\sum_i
+\left|
+\sqrt{\mathcal R(Q_i)}\Delta J_i^{inh}
+-
+\sqrt{\mathcal R(Q_{i-1})}\Delta J_{i-1}^{inh}
+\right|^2
 \le
 \|G\|_{\mathfrak H_P}^2
-\operatorname{Var}^{stop}_P
-\le
-C(u_0)\operatorname{Var}^{stop}_P.
+\sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P}^2 .
 \tag{7}
 ```
 
-This proves `ResetAngleSelectorVariationPayment.A` in the stopped admission
-form: changed inherited reuse is not a new source; it is the selector's own
-announced geometry variation.
+The same-direction inherited reuse itself contributes nothing new.  Only change
+of inherited direction contributes.  In projection notation,
+\(\sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P}^2\) is the stopped reset/angle/selector/
+frame/collar variation ledger, with stop/legal pieces recorded separately.
 
 ## 3. Square packing consumed by the relay
 
@@ -149,29 +151,38 @@ C(u_0).
 \tag{8}
 ```
 
-Together with `(7)`,
+Together with `(7)`, the original transported action decomposes as
 
 ```math
-\sum_{Q_i\subset P}
-\mathcal R(Q_i)|\Delta J_i^{sel}|^2
+\Omega_P^{orig}
 \le
-C(u_0)
-+C(u_0)\operatorname{Var}^{stop}_P
-+CStop(P)
-+CR_{\rm legal}(P),
+C
+\sum_i|\sqrt{\mathcal R(Q_i)}\,\Delta J_i^{new}|^2
++
+C(u_0)\sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P}^2
++
+R_{\rm legal}(P)+Stop(P).
 \tag{9}
 ```
 
-where \(\Delta J_i^{sel}\) is the current consumed by the selected readout in
-`(4)`.
+The first term is finite from `(8)`.  The second term is not automatically
+finite.
 
-The parent-drop/full-clock relay consumes this square-packed
-\(\Delta J^{sel}\).  It does not consume the raw stress read
-\(\Delta J\).
+The parent-drop/full-clock relay consumes this decomposition only after the
+variation estimate
 
-## 4. Consequence
+```math
+\sum_i\|b_i-b_{i-1}\|_{\mathfrak H_P}^2
+\le
+C_N(u_0)+R_{\rm legal}(P)+Stop(P)
+\tag{10}
+```
 
-With `(4)` as the selector identity, the previously installed relay applies:
+is proved from the original material law.
+
+## 4. Consequence and remaining estimate
+
+Once `(10)` is proved, the previously installed relay applies:
 
 ```math
 \sum_Q A_{\rm sel}(Q)<\infty
@@ -179,9 +190,15 @@ With `(4)` as the selector identity, the previously installed relay applies:
 \mathcal T_{\rm full}(u;[0,T))<\infty
 \Longrightarrow
 \sup_{t<T}\|u(t)\|_{H^s}<\infty .
-\tag{10}
+\tag{11}
 ```
 
-Thus the selected-readout admission gap is closed under the stopped variation
-ledger.  Any surface that still reads selected child action from the raw
-inherited stress value is stale.
+Thus this note proves the parent-subtracted decomposition and identifies the
+last estimate.  It does not prove smoothness by itself.  The remaining Gold
+estimate is:
+
+```text
+ResetAngleSelectorVariationFiniteFromOriginalMaterialLaw.A
+```
+
+or explicitly `(10)`.
