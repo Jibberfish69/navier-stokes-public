@@ -11,6 +11,7 @@ uses:
   - SelectorStratumCrossingVariationBound.A
   - StoppedFullExchangeActionCarleson.A
 audits_hinge:
+  - NativeBirthChargePacking.A
   - ForwardNativeReserveBirthPaysFullPLS.A
   - SelectedCompressionRootReserve.A
   - WeightBeatingTailLaw.A
@@ -20,6 +21,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-silent-interior-source-origin-normal-form-closure-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-stratum-crossing-bv-closure-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-full-exchange-native-reserve-pivot-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-forward-native-reserve-birth-packing-direct-test-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-reused-core-raw-volume-bound-selected-exponent-gap-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-laminar-dual-bellman-mincut-reserve-target-20260626.md
 ---
@@ -102,6 +104,12 @@ or native reserve theorem, not another raw deformation estimate.
 The live hinge is:
 
 ```text
+NativeBirthChargePacking.A
+```
+
+This is the proof-bearing core of:
+
+```text
 ForwardNativeReserveBirthPaysFullPLS.A
 ```
 
@@ -130,6 +138,29 @@ dR_N,
 \int_0^{T^*}dR_N<\infty.
 ```
 
+The sharpened form is a bounded-multiplicity charge map.  After lower-band
+carry, entrance/legal, nonlaminar, selector/order-lock, and already-paid
+exchange defects are removed, each retained selected high-ratio birth atom
+\(\gamma\) must map to a finite original-history native reserve atom:
+
+```math
+\iota:\Gamma_N(P)\to\mathcal R_N^{nat}(u_0;P),
+\qquad
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}+R_{\rm legal}(\gamma),
+\qquad
+\operatorname{mult}(\iota)\le C_N.
+```
+
+with
+
+```math
+\sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}\rho
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P).
+```
+
 Equivalently, every retained selected high-ratio child action must be one of:
 
 1. lower-band carry consuming already-present native reserve;
@@ -141,7 +172,7 @@ Equivalently, every retained selected high-ratio child action must be one of:
 The forbidden fourth branch is:
 
 ```math
-\text{unpaid selected high-ratio upward birth invisible to all original-history source channels.}
+\text{unpaid selected high-ratio upward birth attached to source channels but not packable into finite root reserve.}
 ```
 
 ## Dual/Bellman status
@@ -168,15 +199,15 @@ closure by duality alone.
 ## Result
 
 The source-origin theorem is the correct answer to the silent interior source
-problem.  It does not close the MPP.  The nonduplicate Gold burden is the
-selected root-reserve/exponent-lift theorem:
+problem.  It does not close the MPP.  The nonduplicate Gold burden is the native
+birth-packing theorem that supplies the selected root-reserve/exponent lift:
 
 ```math
 \sum_{\ell\ge0}2^\ell\nu_\ell<\infty,
 ```
 
 or equivalently the forward-native no-free-upward-birth reserve.  Future loop
-work should attack that theorem directly and should not reselect pure boundary
-observability, hidden-bubble Carleson, selector-stratum crossing, raw
-Cauchy-Green material variation, or Bellman duality by itself as the live
-hinge.
+work should attack the bounded-multiplicity charge map directly and should not
+reselect pure boundary observability, hidden-bubble Carleson, selector-stratum
+crossing, raw Cauchy-Green material variation, source-channel attachment alone,
+or Bellman duality by itself as the live hinge.
