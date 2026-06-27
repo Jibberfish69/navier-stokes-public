@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-whole-transported-packet-parabolic-rescaling-boundary-20260627
-status: local-packet-storage-circular-cross-scale-reuse-payment-open
+status: annular-wavelet-traction-current-reuse-payment-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -10,8 +10,10 @@ refines:
   - ForwardNativeReserveBirthPaysFullPLS.A
   - FullPacketScaleUniformActionProducer.A
   - CrossScaleSameMaterialReuseMustPay.A
+  - DivergenceFreeAnnularWaveletTractionCurrentPayment.A
 attacks_hinge:
   - CrossScaleSameMaterialReusePayment.A
+  - ParentCurrentRecordVariationPaysInheritedStressReuse.A
   - ScaleUniformWholePacketActionInequality.A
   - OriginalHistoryWeightedFreshCurrentCapacity.A
   - OriginalParticipationStorageCoercivity.A
@@ -27,14 +29,16 @@ effect: >-
   Rescale the whole transported Navier-Stokes material packet.  In the unit
   packet variables, velocity, pressure, material map, metric, incompressibility,
   Hodge/stress tests, and collar motion obey the same material system with the
-  same viscosity.  The naive local packet storage calculation is now explicit:
-  \(A_j=-h_j\) pays the bad action algebraically, but its lower bound is exactly
-  the high shell bound being proved; the gauge storage \(A_j=-m_jh_j\) cancels
-  the same action only after assuming the full coefficient clock.  Therefore
-  the missing producer is a cross-scale same-material reuse estimate: infinite
-  nested normalized reuse must create orthogonal, collar, pressure/frame, reset,
-  stop, or legal loss in a summable original-history currency.  Partial, not
-  Gold closed.
+  same viscosity.  The positive payment is the material traction current tested
+  against a parent-known divergence-free stopped annular wavelet frame.  Pressure
+  cancels in the stress pairing, fresh QR directions are Bessel and paid by the
+  viscous \(L^2\) strain, and inherited directions must stay attached to the
+  parent current record unless angle, selector, frame, reset/reselection, stop,
+  or legal state changes.  The local packet storage calculation remains as a
+  pressure test: \(A_j=-h_j\) pays algebraically but is lower-bounded exactly
+  when \(h_j\) is already bounded, while gauge storage \(A_j=-m_jh_j\) works
+  only after assuming the coefficient/full-material clock.  Partial, not Gold
+  closed.
 ---
 
 # Whole transported packet parabolic rescaling boundary
@@ -126,7 +130,112 @@ The same stopped Hodge lift, divergence-free stress testing, material
 connection motion, collar motion, and inherited/fresh stress-channel split must
 therefore be read on the rescaled unit packet.
 
-## 3. Local packet storage calculation
+## 3. Material traction current annular wavelet payment
+
+On a stopped parent material history \(P\), write the material stress law as
+
+```math
+\partial_s V=\operatorname{Div}_A T_A,
+\qquad
+T_A=-Q A+2\nu S_A A .
+```
+
+Choose stopped material annular wavelet tests \(w_Q\) that are parent-known and
+divergence-free in the material coordinates:
+
+```math
+D_A\cdot w_Q=0.
+```
+
+Then the pressure contribution to the current readout vanishes exactly:
+
+```math
+\int_{\operatorname{Hist}(Q)} Q\,D_A\cdot w_Q=0.
+```
+
+The routed current increment is therefore viscous stress-work:
+
+```math
+\Delta J_Q
+=
+\int_{\operatorname{Hist}(Q)}T_A:\nabla_A w_Q
+=
+2\nu\int_{\operatorname{Hist}(Q)}S_A:\nabla_A w_Q .
+```
+
+Put all stopped tests into the parent Hilbert space
+
+```math
+\mathfrak H_P=L^2_{\mathrm{sym,tr}}(\operatorname{Hist}(P)),
+```
+
+and define the normalized stress-test vector
+
+```math
+a_Q
+=
+\sqrt{\mathcal R(Q)}\,
+1_{\operatorname{Hist}(Q)}
+P_{\mathrm{sym,tr}}\nabla_A w_Q .
+```
+
+Then
+
+```math
+\sqrt{\mathcal R(Q)}\,\Delta J_Q
+=
+\langle 2\nu S_A,a_Q\rangle_{\mathfrak H_P}.
+```
+
+Choose the stopped annular wavelets by parent-known QR:
+
+```math
+a_Q=d_Q+b_Q,
+```
+
+where \(d_Q\) is orthogonal to earlier admitted fresh directions and \(b_Q\) is
+the inherited parent direction.  The fresh part is Bessel:
+
+```math
+\sum_Q |\langle 2\nu S_A,d_Q\rangle|^2
+\le
+4\nu^2\int_{\operatorname{Hist}(P)}|S_A|^2
+\le
+C(u_0).
+```
+
+The load-bearing inherited estimate is
+
+```math
+\sum_Q |\langle 2\nu S_A,b_Q\rangle|^2
+\le
+C\,\operatorname{Var}_P(J_{\rm parent})
++C\,R_{\rm legal}(P)
++C\,Stop(P).
+```
+
+Here \(J_{\rm parent}\) is the same parent material traction-current record.  An
+inherited same-direction read is not a fresh scale action.  It remains attached
+to that parent current record unless the material history changes angle,
+selector, frame, collar, or stopping state; those changes are precisely the
+reset/reselection, legal, and stop variations.
+
+Combining the fresh Bessel part and the inherited current-record variation gives
+the constructive stopped current square packing:
+
+```math
+\sum_{Q\subset P}
+\mathcal R(Q)|\Delta J_Q|^2
+\le
+C(u_0)+C\,\operatorname{Var}_P(J_{\rm parent})
++C\,R_{\rm legal}(P)+C\,Stop(P).
+```
+
+Thus Gold closes from this mechanism exactly when the parent current-record
+variation is proved finite from original transported Navier-Stokes history, with
+bounded multiplicity across stopped descendants.
+
+## 4. Local packet storage calculation
 
 On one fully rescaled packet, isolate a high shell of the material stress
 record.  Its normalized high stress energy has the model form
@@ -177,7 +286,7 @@ h_j\le C.
 Thus local packet storage is circular.  It proves the desired packet action
 only after assuming the high shell is already bounded.
 
-## 4. Gauge storage calculation
+## 5. Gauge storage calculation
 
 The next local candidate is a gauge storage
 
@@ -217,10 +326,11 @@ clock in coefficient form.  Gauge storage is therefore another circular local
 storage unless the coefficient/frame service has already been paid from original
 history.
 
-## 5. Correct cross-scale closure statement
+## 6. Constructive cross-scale closure statement
 
 The rescaled packet calculation leaves one nonlocal theorem.  Infinite nested
-reuse of the same material channel must create paid cross-scale change in the
+reuse of the same material channel must remain inside the parent material
+traction-current record, or it must create paid cross-scale change in the
 original history:
 
 ```math
@@ -281,10 +391,11 @@ The reserve atom must be born from actual cross-scale same-material change:
 
 This is the mathematical form of "reuse must pay."  Reusing the same rescaled
 packet shape down a nested terminal family is not forbidden by the local packet
-law.  It is forbidden only if repeating it forces one of the cross-scale changes
-in `(21)` with bounded multiplicity.
+law.  It is paid when repeated inherited reads are counted as variation of the
+same parent material traction-current record, or when repetition forces one of
+the cross-scale changes in `(21)` with bounded multiplicity.
 
-## 6. Why Bessel and raw energy still miss the target
+## 7. Why Bessel and raw energy still miss the target
 
 The heat-scale counterprofile gives the scale count.  Raw energy and raw
 Bessel/strain attachment can have
@@ -301,15 +412,17 @@ while smoothness needs to rule out
 \tag{23}
 ```
 
-The standard fresh Bessel estimate pays genuine orthogonal stress work.  It does
-not pay infinitely many inherited reads of the same rescaled material channel.
-The local storage \(A_j=-h_j\) sees those reads but has no lower bound; the gauge
-storage sees them only after importing the full coefficient clock.
+The standard fresh Bessel estimate pays genuine orthogonal stress work through
+the \(d_Q\) part of the annular wavelet frame.  It does not by itself pay
+infinitely many inherited reads of the same rescaled material channel through
+the \(b_Q\) part.  The local storage \(A_j=-h_j\) sees those reads but has no
+lower bound; the gauge storage sees them only after importing the full
+coefficient clock.
 
 Thus the noncircular Gold producer is `(17)`--`(21)`, not an ordinary packet
 energy and not a scalar readout normalization.
 
-## 7. Consequence if the cross-scale reuse theorem is proved
+## 8. Consequence if the cross-scale reuse theorem is proved
 
 Assume `(17)`--`(21)` holds for the stopped packet family with the existing
 finite-overlap stop/legal accounting.  Together with the installed fresh Bessel
