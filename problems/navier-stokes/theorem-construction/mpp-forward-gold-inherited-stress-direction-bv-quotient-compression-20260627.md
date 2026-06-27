@@ -23,13 +23,16 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-finite-score-or-paid-drift-proof-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-reset-witness-interval-bounded-overlap-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-gram-schur-participation-storage-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-fixed-annulus-bounded-record-controls-flux-variation-20260625.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-annular-payback-physical-frame-completion-boundary-20260625.md
 effect: >-
   Sharpens the inherited-direction part of the stopped stress-test frame problem:
   repeated same-material stress-channel reads should not be counted as separate
   Bessel vectors.  They are quotient-compressed to one parent-known stopped score
-  whose positive visits are paid by record growth or negative return/reset BV.
+  whose positive visits reduce to record growth or negative return/reset BV.
   The single smoothness-closing theorem is the original-history reused-channel
-  charge bound for the inherited part.  Partial, not Gold closed.
+  return/service charge bound for the inherited part; this payment is not proved
+  by the installed ingredients.  Partial, not Gold closed.
 ---
 
 # Inherited stress-direction BV quotient compression
@@ -127,7 +130,8 @@ span-growth part is orthogonal and paid by Pythagoras:
 \tag{7}
 ```
 
-The negative return term is paid by differentiating the same scalar score:
+The negative return term is the PDE bill.  Formally, differentiating the same
+scalar score gives the candidate identity
 
 ```math
 \partial_\sigma P_\alpha
@@ -137,9 +141,9 @@ The negative return term is paid by differentiating the same scalar score:
 \tag{8}
 ```
 
-The second term is exactly the route geometry: turnstile, exchange, covector,
-connection, selector/order-lock, reset/reselection, stop, and legal motion.
-With the active original-history weight,
+The second term is the route geometry: turnstile, exchange, covector,
+connection, selector/order-lock, reset/reselection, stop, and legal motion.  The
+desired noncircular payment is
 
 ```math
 V^-(P_\alpha)
@@ -156,8 +160,10 @@ w\left(
 \tag{9}
 ```
 
-Thus repeated same-direction selection is paid as record/return variation of
-one stopped scalar channel, not as many copies of one Bessel vector.
+Thus repeated same-direction selection is reduced to record/return variation of
+one stopped scalar channel, not to many copies of one Bessel vector.  The
+identity itself does not prove that the right side of `(9)` is finite from
+original data; that finiteness is the remaining service-clock theorem.
 
 ## 4. The mixed Bessel/BV estimate
 
