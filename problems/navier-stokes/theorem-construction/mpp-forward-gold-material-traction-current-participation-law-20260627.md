@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-material-traction-current-participation-law-20260627
-status: material-current-dual-stress-test-bessel-bound-open
+status: material-current-stress-test-bessel-plus-active-storage-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -23,6 +23,10 @@ effect: >-
   same material capacity/current record.  The routed-current estimate is dual:
   lift selected readouts to stopped divergence-free material test fields, kill
   pressure exactly, and square-pack the lifted gradients by Bessel orthogonality.
+  This is Gold-closing only when the stopped square-packing weight is the
+  selected-critical original participation weight supplied by
+  OriginalParticipationStorageCoercivity.A / OriginalHistoryWeightedFreshCurrentCapacity.A;
+  raw stopped-overlap Bessel control is support only.
   Partial, not Gold closed.
 ---
 
@@ -210,6 +214,48 @@ Equation `(14)` is the square-packing input for the Gold wall.  Fixed return,
 strict reset, selector log amplification, parent drop, finite full clock, and
 \(H^s\) continuation are bookkeeping after this stopped dual stress-test bound.
 
+This sentence has one essential qualifier: the measure \(\mathcal R(Q)\) in
+`(11)`--`(14)` must already be the selected-critical original participation
+weight pulled back to the stopped tree.  With only raw stopped-overlap weight,
+`(14)` is the material-current/Bessel support estimate, not the Gold producer.
+The half-tail profile has finite raw current mass
+
+```math
+\sum_\ell \|F_\ell\|_{\mathcal H_{\rm raw}}^2<\infty
+\tag{15}
+```
+
+and divergent selected-critical mass
+
+```math
+\sum_\ell w_\ell\|F_\ell\|_{\mathcal H_{\rm raw}}^2=\infty.
+\tag{16}
+```
+
+Thus the stress-test estimate closes the Gold wall only in its active-weight
+Carleson form:
+
+```math
+\sum_{Q\subset P}
+w(Q)
+\left|
+\int_{\operatorname{Hist}(Q)}
+G:\nabla_Av_Q
+\right|^2
+\le
+C
+\int_{\operatorname{Hist}(P)}
+|G|^2
++dR+dStop,
+\tag{17}
+```
+
+or equivalently after proving that the raw stopped stress-test weight
+\(\mathcal R(Q)\) is dominated by the original-history selected-critical native
+reserve/current-capacity measure.  This is the same unpaid content now recorded
+as `OriginalHistoryWeightedFreshCurrentCapacity.A` /
+`OriginalScaleMemoryGeneratorEnergyBound.A`.
+
 ## 4. Noncircularity
 
 The proof is noncircular for one reason: the current is original material
@@ -228,14 +274,19 @@ legal loss.
 The remaining theorem is:
 
 ```text
-StoppedDivergenceFreeStressTestBessel.A.
+StoppedDivergenceFreeStressTestBessel.A
++ OriginalParticipationStorageCoercivity.A
+  in the selected-critical original participation metric.
 ```
 
 For the parent-known stopped material atlas, construct the pre-selected
 divergence-free Hodge lifts \(v_Q\) and prove the lifted gradients satisfy the
-Bessel estimate `(11)`, with all stopping, boundary, chart, and legal errors
-entering only through \(R_{\rm legal}\) and \(Stop\).  Then `(14)` supplies finite
-routed-current energy from the original viscous strain norm, and the selected
-Gold chain is only downstream bookkeeping.
+Bessel/Carleson estimate `(17)`, with all stopping, boundary, chart, and legal
+errors entering only through \(R_{\rm legal}\) and \(Stop\).  Equivalently,
+prove `(11)` together with original participation storage / active-weight
+domination identifying \(\mathcal R(Q)\) with the selected-critical native
+reserve measure before selected readout.  Then `(14)` supplies finite
+routed-current energy from the original viscous strain norm in the Gold-critical
+metric, and the selected Gold chain is downstream bookkeeping.
 
 Partial, not Gold closed.
