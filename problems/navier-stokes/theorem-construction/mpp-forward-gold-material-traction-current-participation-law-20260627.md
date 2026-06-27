@@ -6,10 +6,16 @@ problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 attacks_hinge:
+  - ParentSubtractedInheritedActionSquarePacking.A
+  - ResetAngleSelectorVariationPayment.A
+  - SelectedActionParentSubtractedCurrentAdmission.A
   - StoppedSelectorBoundedProjectionOfOriginalParticipationLaw.A
   - OriginalParticipationStorageCoercivity.A
   - OriginalHistoryRoutedCurrentEnergyFinite.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-inherited-action-square-packing-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-parent-subtracted-current-admission-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-stress-test-frame-qr-realization-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-bounded-projection-original-participation-law-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-energy-stable-routed-current-projection-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-routed-current-energy-subledger-full-clock-boundary-20260627.md
@@ -22,12 +28,10 @@ effect: >-
   scale-action can only be incoming interface traction plus variation of the
   same material capacity/current record.  The routed-current estimate is dual:
   lift selected readouts to stopped divergence-free material test fields, kill
-  pressure exactly, and square-pack the lifted gradients by Bessel orthogonality.
-  This is Gold-closing only when the stopped square-packing weight is the
-  selected-critical original participation weight supplied by
-  OriginalParticipationStorageCoercivity.A / OriginalHistoryWeightedFreshCurrentCapacity.A;
-  raw stopped-overlap Bessel control is support only.
-  Partial, not Gold closed.
+  pressure exactly, subtract the parent-known inherited projection, and
+  square-pack only the fresh QR residual.  Exact inherited reuse is parent
+  current.  Changed inherited reuse is reset/angle/selector/frame/collar/stop/
+  legal variation inside the same full-action/no-free-reset law.
 ---
 
 # Material traction current participation law
