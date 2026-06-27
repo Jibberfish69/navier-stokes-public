@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-persistent-affine-quotient-selected-record-splitting-20260627
-status: persistent-quotient-reduced-to-parent-known-selected-record
+status: superseded-support-coupled-current-object-is-live
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / stopped root geometry
@@ -17,19 +17,22 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-defect-high-frequency-tail-charge-direct-attempt-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-defect-tightness-concentration-compactness-20260627.md
 effect: >-
-  Records the noncircular implication from the parent-known selected
-  potential/amplification record to the persistent affine/root quotient payment.
-  After the fixed stopped-score return branch is paid by P_R = Gamma_R Z^S, the
-  surviving persistent quotient has no fourth currency: its retained same-core
-  part is a projection of Z^S, its fresh affine average is a projection of
-  Psi^S, its reset/amplification motion is a projection of Lambda^S, and all
-  selector/frame/connection motion is charged to the original-history root
-  geometry ledgers.  This makes PersistentRootAffineQuotientReturnPayment.A a
-  consumer of OriginalHistorySelectedPotentialAmplificationBV.A, not an
-  independent Gold wall.  Partial, not Gold closed.
+  Records a scalar-readout support implication for the persistent affine/root
+  quotient, but this is no longer the live Gold object.  The live object is the
+  coupled stopped routed participation current J^S: nu^S = D_A J^S + stop +
+  legal, with fixed return, strict reset, selector log amplification, parent
+  drop, and full-clock finiteness as faces of derivative BV / square packing for
+  the same current.  See
+  mpp-forward-gold-stopped-routed-current-energy-original-history-producer-20260627.md.
+  Partial, not Gold closed.
 ---
 
 # Persistent affine quotient selected-record splitting
+
+This note is support only.  The live Gold object has moved back to the coupled
+stopped routed participation current \(J^S\), not a scalar selected-record
+packet.  The governing note is
+`mpp-forward-gold-stopped-routed-current-energy-original-history-producer-20260627.md`.
 
 The fixed stopped score closes the primitive return/BV branch.  The remaining
 question is whether the persistent non-derivative affine/root quotient still
