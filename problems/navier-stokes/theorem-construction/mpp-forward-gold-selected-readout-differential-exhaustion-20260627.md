@@ -9,6 +9,9 @@ attacks_hinge:
   - ForwardNativeReserveBirthPaysFullPLS.A
   - FreshSourceWeightedPairedCarrierBound.A
   - CriticalFreshSourceTentCarleson.A
+superseded_live_hinge_by:
+  - SelectedUnitBoundedOriginalPacketProjectionAdmission.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 inputs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-forward-native-reserve-birth-direct-attempt-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-full-exchange-native-reserve-pivot-20260627.md
@@ -17,8 +20,11 @@ effect: >-
   selected high-ratio birth must be obtained by differentiating the selected
   readout along the retained material packet before taking positive parts. This
   closes the pointwise no-unpaid-birth kernel statement. The remaining theorem
-  is global Carleson/BV packing of the exact material differential, equivalently
-  the fresh weighted paired-carrier bound.
+  is global Carleson/BV packing of the exact material differential. The older
+  fresh weighted paired-carrier formulation is now support/pressure-test
+  language; the sharper live hinge is that every retained selected unit must
+  have a uniformly bounded original-packet Riesz representative before scalar
+  positive readout.
 ---
 
 # Selected readout differential exhaustion
@@ -235,15 +241,21 @@ C_N(u_0)\mathcal R(P)+R_{\rm legal}(P).
 ```
 
 Thus the real remaining theorem is not the existence of a mysterious unpaid
-branch.  The remaining theorem is:
+branch.  The older weighted paired-carrier display `(15)` is a pressure-test
+coordinate for scale normalization.  The sharper live theorem is:
 
 ```text
-FreshSourceWeightedPairedCarrierBound.A.
+SelectedUnitRieszRepresentativeSourceGraphAdmission.A.
 ```
 
-It must prove that the exact material differential `(8)` has Carleson/BV
-packing in the selected critical weight.  The no-fourth-branch language is now
-only the pointwise kernel check; it should not remain the live Gold target.
+It requires every retained selected unit to have a uniformly bounded Riesz
+representative \(A_Q\in\mathfrak H_P\) in the original material stress Hilbert
+space before scalar positive readout.  Once that admission is enforced, the
+fresh part is ordinary Bessel packing in the same original packet, parent reuse
+telescopes through the parent stress record, and unbounded scale-renormalized
+readout exits as stop/legal/donor/reselection/selector drift.  The
+no-fourth-branch language is now only the pointwise kernel check; it should not
+remain the live Gold target.
 
 ## 5. Result
 
@@ -256,8 +268,10 @@ positive selected birth cannot occur outside the exact material differential.
 Gold remains open at the global packing theorem:
 
 ```text
-FreshSourceWeightedPairedCarrierBound.A
+SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 ```
 
-or equivalently the Carleson/BV bound for the positive variation of the exact
-selected-readout material differential.
+or equivalently the uniform source-graph continuity clause saying that the
+stress component of every retained selected readout is a bounded functional on
+the original material stress Hilbert space before selected positive-part
+amplification.

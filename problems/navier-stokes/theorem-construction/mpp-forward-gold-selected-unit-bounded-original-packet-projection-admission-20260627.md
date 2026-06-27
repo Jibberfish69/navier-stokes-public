@@ -9,11 +9,13 @@ refines:
   - StoppedSelectorSelfNormalizedDeterminantAdmission.A
   - ParentStressGramDeterminantSelectedAdmission.A
   - StoppedSelectorBoundedProjectionOfOriginalParticipationLaw.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-bounded-projection-original-participation-law-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-stress-gram-determinant-selected-novelty-admission-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-self-normalized-determinant-admission-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-gram-entropy-compensated-stopped-selector-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-unit-riesz-representative-source-graph-admission-20260627.md
 effect: >-
   Installs the physical admission rule in the precise form supplied on the live
   thread: selected child units are bounded projections of the original
@@ -25,7 +27,9 @@ effect: >-
   fourth category and exits the retained Gold branch. The remaining source-graph
   obligation is to enforce this selected-unit bounded-projection admission as
   the retained selector definition. Partial, not Gold closed until that source
-  graph clause is installed.
+  graph clause is installed. Equivalently, the retained selected readout must
+  have a uniformly bounded Riesz representative in the original material stress
+  Hilbert space before positive selected readout.
 ---
 
 # Selected unit bounded original-packet projection admission
@@ -255,6 +259,13 @@ bare linear stopped score is too weak: a score with no original-packet bounded
 projection normalization can turn square-summable tiny currents into infinite
 positive variation. The bounded-projection admission here is the physical rule
 that forbids that false selector.
+
+Equivalently, the selected-readout stress functional must be continuous in
+\(\mathfrak H_P\), uniformly on retained stopped charts. The Riesz representative
+is the bounded original-packet test \(A_Q\). A functional without such a
+representative can turn arbitrarily small original stress norm into unit
+selected participation and is therefore a failed retained-selector admission,
+not a physical child refill.
 
 Partial, not Gold closed until this admission rule is installed as the retained
 selector definition in the source graph and promotion surfaces.
