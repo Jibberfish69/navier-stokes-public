@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: full-output-neutral-transverse-forest-capacity-open
+status: full-output-terminal-no-replay-detector-packing-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -19,6 +19,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-martingale-under-service-storage-adjudication-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-paid-parent-current-span-perpendicular-category-repair-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-high-parent-current-admission-identity-attempt-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628.md
 completion_truth: partial-not-gold-closed
 effect: >-
   Records the corrected affine Schur scale-memory state. The original packet
@@ -2714,7 +2715,162 @@ Thomas-dialogue audit:
 - Did this create another alias? No.  It identifies the concrete capacity
   required by the material state.
 
-Partial, not Gold closed.  The strict producer is the selected-forest
-complete-frame capacity `(175)`, with \(\rho_{inst,N}\) constructed from the
-original coupled packet, or the equivalent active-reserve / rigid-Zeno theorem
-for the same neutral-transverse full-output cascade.
+Partial, not Gold closed.  Section 26 is necessary support, but the
+selected-forest complete-frame capacity is not the final Gold producer by
+itself.  The half-tail and no-free-zoom audits below sharpen it to the terminal
+detector-packing wall.
+
+## 27. The selected-forest capacity is a half-tail consumer
+
+The selected-forest lift `(175)` is not an independent discharge.  In the
+high-ratio variables
+
+\[
+d\mu_j(t)=2^{2j}e_j(t)\,dt,
+\qquad
+\rho_j(t)=\frac{\Theta_j^{mat}(t)}{2^{2j}},
+\qquad
+\nu_\ell=\sum_j\mu_j(\{2^\ell\delta<\rho_j\le2^{\ell+1}\delta\}),
+\tag{178}
+\]
+
+the installed raw ledgers give only
+
+\[
+\sum_{\ell\ge0}\nu_\ell<\infty ,
+\tag{179}
+\]
+
+while selected full same-material action asks for
+
+\[
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty .
+\tag{180}
+\]
+
+The complete-frame inequality and laminar ancestry tax pay each selected visit
+locally, but they do not insert the missing factor \(2^\ell\).  The critical
+half-tail
+
+\[
+\nu_\ell=\frac{2^{-\ell}}{\ell+1},
+\qquad
+2^\ell\nu_\ell=\frac1{\ell+1}
+\tag{181}
+\]
+
+has finite raw mass and divergent selected action.  It can assign each local
+visit a hidden transverse payer while the root weighted reserve still diverges.
+Thus `(175)` is a consumer of a strict tail law, bounded-below positive
+variation storage, or terminal no-cycle theorem; it is not itself the
+noncircular source of finite capacity.
+
+The no-free-zoom `(*)` audit supplies the correct shape.  For a stopped parent
+packet \(P\), the selected bill must first be admitted into a parent-built
+same-carrier capacity and then packed before child readout:
+
+\[
+a_Q\le C\rho_Q+Ce_Q,
+\qquad
+\sum_{Q\subset P}\rho_Q
+\le
+C\mathcal R(P)+CE_{\rm paid}(P).
+\tag{182}
+\]
+
+The category repair fixes what counts as paid current inside `(182)`.  A
+direction \(a\) with \(a\in R\) and \(\langle a,g\rangle=0\), \(g=G^{-1}m\), is
+only catalogued in the parent geometry; it is fresh relative to the paid
+parent-current history.  Its first positive same-carrier entry is
+Bessel-payable and updates
+
+\[
+m\mapsto m+\delta a,
+\qquad
+g\mapsto g+\delta G^{-1}a .
+\tag{183}
+\]
+
+After that update, repeated production in that coordinate is Schur current
+work.  A channel that keeps looking perpendicular in the payment sense was not
+admitted into the parent current.
+
+The duality-and-packing form of `(*)` therefore becomes the live producer:
+construct the parent active Hodge--Stokes / positive-metric quotient capacity
+\(\mathfrak C_{P,act}^{HS}\), with parent-announced active projector,
+terminal detector record, harmonic gate, and connection, and prove terminal
+no-replay detector admission plus record-variation packing:
+
+\[
+a_Q^{act}+b_Q^{term}
+\le
+C\rho_Q^{lin}
++Ce_Q^{paid},
+\tag{184}
+\]
+
+\[
+\sum_{Q\subset P}\rho_Q^{lin}
+\le
+C\|\mathfrak J_P\|_{\mathfrak C_{P,act}^{HS,*}}^2
++C\int_P\left(|K|^2+\|\nabla^P b^{term}\|_{\mathfrak C}^2\right)d\mu_P
++CE_{\rm paid}(P).
+\tag{185}
+\]
+
+Here \(\rho_Q^{lin}\) counts fresh terminal detector innovation or positive
+parent-record variation.  Replayed inherited detector value is not a new
+selected bill.
+
+Paid line:
+
+\[
+\text{terminal no-replay detector packing `(184)'--`(185)'}
+\Longrightarrow
+\text{no-free-zoom `(*)' `(182)'}
+\Longrightarrow
+\text{selected-forest complete-frame capacity `(175)'}
+\Longrightarrow
+\text{full-output upcrossing law.}
+\tag{186}
+\]
+
+Failed line:
+
+\[
+\text{complete-frame payment + laminar ancestry}
+\not\Longrightarrow
+\text{root-finite weighted selected-forest reserve.}
+\tag{187}
+\]
+
+Thomas-dialogue audit:
+
+- Is this actually the live object? Yes.  It demotes the selected-forest
+  capacity to a consumer and names the producer that would pay it.
+- Did this prove smoothness? No.  It narrows the remaining wall to terminal
+  no-replay detector admission and record-variation packing in the parent active
+  Hodge--Stokes capacity.
+- What does it mean physically? A local hidden transverse payment can be real
+  while a root half-tail still evades raw ledgers.  The proof must stop repeated
+  terminal replay or charge fresh detector innovation, parent-record variation,
+  return, motion, viscosity, legal, stop, or endpoint.
+- Is this the full coupled packet or a scalar proxy? Full coupled only through
+  the parent stress current, active Hodge--Stokes quotient, pressure-Hodge
+  compatibility, positive material metric variation, annular return, donor
+  exchange, viscosity, collar, legal, stop, and endpoint terms on the same
+  carrier.
+- Is this already handled in the repo? The complete-frame identity, laminar
+  support, category repair, raw `(*)` architecture, active graph-kernel test,
+  and fresh Bessel innovation support are handled.  The terminal no-replay
+  admission `(184)` and packing `(185)`, with terminal full-packet no-atom and
+  root-fixed no-jump or Hardy thickness, remain open.
+- Did this create another alias? No.  It removes selected-forest capacity as
+  the active alias and locks the wall to no-replay detector packing.
+
+Partial, not Gold closed.  The strict producer is terminal no-replay detector
+packing for the parent active Hodge--Stokes / positive-metric capacity,
+together with terminal full-packet no-atom storage and root-fixed terminal
+no-jump or Hardy thickness.  Every positive high-high dyadic transfer must be
+admitted into the paid same-carrier parent current, or routed to return,
+motion, viscosity, legal, stop, or endpoint.
