@@ -1573,7 +1573,11 @@ finite donor graphs but leaves the infinite terminal Zeno donor chain.  Raw
 terminal angular mixing from trace-free strain, same-fluid transport, or
 selected-frequency drain fails on the neutral-transverse affine normal form;
 the complete-frame tax pays one ancestry line but leaves selected-forest
-summability or rigidity unproved.
+summability or rigidity unproved.  Selected-forest complete-frame summability
+collapses to the weight-beating high-ratio tail law; complete-frame plus
+laminarity admits the critical half-tail `(85)` and therefore does not produce
+the strict good-lambda coefficient, bounded-below storage, or terminal
+half-tail Liouville theorem.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -1585,7 +1589,9 @@ equivalent to terminal angular mixing / positive strain decorrelation,
 positive active Carleson reserve, or rigid Zeno source-class production; after
 the angular-mixing pressure test, the first branch is specifically the
 neutral-transverse alignment exclusion / selected-forest complete-frame
-summability line `(78)`.
+summability line `(78)`; after the half-tail strictness attempt, `(78)` is
+equivalent to the weight-beating tail law `(82)`, strict good-lambda `(83)`,
+bounded-below storage `(90)`, or terminal affine half-tail exclusion `(91)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
@@ -1594,6 +1600,7 @@ escaping descendant-tail storage, native carrier payment, zero-flux profile
 production, selected return, critical reset, exchange, stop/legal event, and
 fresh native birth charge.  Equivalently, prove the selected-forest lift `(78)`,
 or show that failure of `(78)` produces `PositiveActiveCarlesonReserve.A` or a
-rigid Zeno source class.
+rigid Zeno source class.  In the current strict form, this means prove `(83)`,
+`(90)`, or `(91)` from the original coupled Navier--Stokes history.
 
 Partial, not Gold closed.
