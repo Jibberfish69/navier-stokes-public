@@ -1371,3 +1371,134 @@ Thomas-dialogue verdict:
 
 Partial, not Gold closed. The current sharp producer is the high-high
 same-carrier dyadic admission/update theorem `(82)`.
+
+## 14. Stopped coefficient-update audit: no positive clipping before signed admission
+
+The service-storage coefficient-update identity is the right direction, but it
+does not discharge `(82)`.  It proves a signed current identity, not the
+square-positive packing estimate needed by `(81)`.
+
+In the parent-declared same-carrier frame, the projected equation gives a
+coordinate identity of the form
+
+\[
+dq_i=b_i\,dt+dR_i,
+\qquad
+b_i=-\sigma_i\langle B_{mmm},\phi_i^P\rangle ,
+\tag{86}
+\]
+
+where \(dR_i\) contains viscosity, low/high routing, frame/collar motion, legal,
+and stop terms.  This is a valid parent-current update identity.  The missing
+step is the upgrade
+
+\[
+b_i^+\,dt
+\leadsto
+\nu^{-1}(b_i^+)^2\,dt
+\tag{87}
+\]
+
+inside the same paid current ledger.  That upgrade is not automatic.
+
+The countermodel is one-dimensional.  Let \(q_\varepsilon\) start at zero and
+increase by \(\varepsilon\) on an interval of length \(\varepsilon^2\).  Then
+
+\[
+\int (dq_\varepsilon)_+=\varepsilon,
+\qquad
+\Delta(q_\varepsilon^2)=\varepsilon^2,
+\qquad
+\int_0^{\varepsilon^2}
+\left({dq_\varepsilon\over dt}\right)^2dt=1 .
+\tag{88}
+\]
+
+So a linear current update and endpoint Schur storage do not control the
+scale-critical square bill.  If the pulse is erased afterward, the erasure is
+return and must be paid with the same scale-critical strength.  If it is not
+erased, retained Schur work starts only after enough signed current exists for
+the pairing to see the production.  This is exactly the Schur-thin defect, now
+seen in the high-high coefficient-update language.
+
+The failed line in the stopped update proof is therefore
+
+\[
+\text{signed coefficient identity `(86)'}
+\not\Longrightarrow
+\sum_i\nu^{-1}\int (b_i^+)^2
+\text{ is paid.}
+\tag{89}
+\]
+
+The positive part may be taken only after the full same-carrier decomposition
+has already admitted the signed increment.  Equivalently, the raw scalar
+positive read
+
+\[
+\bigl[-\langle B_{mmm},\phi_i^P\rangle\bigr]_+
+\tag{90}
+\]
+
+does not count until pressure-Hodge nulls, cutoff/collar terms, material-frame
+motion, low/high routing, and stop/legal pieces have been separated in the same
+identity and the remaining signed increment has updated the paid current.
+
+The sharpened theorem is
+
+\[
+\nu^{-1}\sum_i\int_I (b_i^+)^2
+\lesssim
+\sum_i\int_I q_i\,db_i^+
++dA_I^-
++\mathfrak S_I\,d\mathcal K_I
++\theta\nu D_I
++Legal_I+Stop_I+CM_I^{end},
+\qquad \theta<1,
+\tag{91}
+\]
+
+on the stopped retained family, with first-entry intervals interpreted through
+parent-subtracted Bessel novelty and Schur-thin intervals routed to the
+time-floor/endpoint descent.  Formula `(91)` is not a new payment channel.  It
+is the missing noncircular rule that says square-positive selected transfer is
+counted only after signed parent-current admission.
+
+Paid line:
+
+\[
+\text{signed admission `(86)' plus square packing `(91)'}
+\Longrightarrow
+\text{the high-high part of `(81)'.}
+\tag{92}
+\]
+
+Unproved line:
+
+\[
+\text{prove `(91)' for the actual selected high-high coefficients, or route
+failure to return, motion, viscosity, legal, stop, or same-witness endpoint.}
+\tag{93}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It audits the exact place where the
+  coefficient-update note moved too fast: signed current update was treated as
+  squared positive-transfer admission.
+- Did this prove smoothness? No.  It reopens the central hinge at the sharper
+  sign/scale line `(91)`.
+- What does it mean physically? The parent can see the high-high source as a
+  velocity-current derivative, but a thin derivative spike is not paid merely
+  because it has a current coordinate.  The spike must either build signed
+  current thickly enough for Schur work, enter as Bessel novelty with the right
+  square packing, or be routed.
+- Is this the full coupled packet or a scalar proxy? It is full-packet only
+  after pressure-Hodge, cutoff/collar, material-frame, low/high, viscosity,
+  legal, and stop terms are split before the positive part is taken.
+- Is this already handled in the repo? No.  The service-storage note records
+  the useful signed coefficient identity, but its jump to the square estimate is
+  exactly the open line.
+
+Partial, not Gold closed. The current sharp producer is signed high-high
+parent-current square admission before positive selected readout `(91)`.
