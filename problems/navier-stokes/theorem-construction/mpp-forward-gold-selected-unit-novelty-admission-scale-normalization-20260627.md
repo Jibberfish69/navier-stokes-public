@@ -1,21 +1,26 @@
 ---
 theorem_id: forward-gold-selected-unit-novelty-admission-scale-normalization-20260627
-status: conditional-reduction-to-navier-stokes-selected-novelty-admission
+status: historical-scale-normalization-pressure-test-superseded-by-source-currency
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 refines:
+  - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
   - SelectedActionLeverageOrNativeBirthDichotomy.A
   - ScaleNormalizedStressNoveltyBellmanLeverage.A
   - SelectedRefillParentNormalizedAdmission.A
   - SelectedScaleNativeReserveAtom.A
   - OriginalHistoryWeightedFreshCurrentCapacity.A
 uses:
+  - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
   - ParentSubtractedSelectedReadoutDecomposition.A
   - ProjectionJumpFirstExitCarlesonFromRouteEnergy.A
   - CriticalFreshSourceScaleMemoryReduction.A
   - OriginalScaleMemoryGeneratorEnergyBound.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-action-currency-bounded-original-packet-enforcement-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-unit-riesz-representative-source-graph-admission-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-action-leverage-or-native-birth-dichotomy-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-refill-parent-normalized-leverage-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-birth-live-edge-after-reset-countertest-20260627.md
@@ -27,16 +32,21 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-native-selected-scale-lower-edge-audit-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-forward-native-reserve-birth-packing-direct-test-20260627.md
 effect: >-
-  Converts the physical scale-normalization issue into a single selector
-  admission theorem. The original Cauchy stress history supplies raw work; the
-  missing rule is that a retained selected unit must have real novelty against
-  the parent record. Existing-channel reads pay only parent-normalized leverage.
-  Fresh-channel reads pay selected-scale first-birth reserve. Without leverage or
-  first-birth reserve, a shrinking raw stress read is not an unpaid retained
-  selected unit. Partial, not Gold closed.
+  Records the older scale-normalization pressure test and demotes it under the
+  installed source-currency rule. A retained selected unit is now admitted only
+  as a bounded original-packet stress functional with a bounded Riesz
+  representative before scalar readout. Existing-channel leverage and fresh
+  novelty remain support coordinates after that admission, not standalone Gold
+  producers.
 ---
 
 # Selected unit novelty admission and scale normalization
+
+Current source-currency replacement.  A retained selected child is admissible
+before scalar readout only when its selected stress functional is continuous on
+the original stopped material Hilbert packet and hence has a bounded Riesz
+representative \(A_Q\).  The novelty/leverage calculation below is a pressure
+test for that admission rule, not the live Gold producer.
 
 The physical issue is scale normalization, not stress origin.  The original
 same-material Cauchy stress history supplies the raw strain-work.  A shrinking
@@ -77,9 +87,9 @@ against an existing parent record.  \(F_Q\) is first-birth work in a new selecte
 direction.  Collapsing both into one scalar selected increment is the scale
 normalization error.
 
-## 2. The admission theorem
+## 2. The historical admission theorem
 
-The required selector theorem is:
+The former conditional selector theorem was:
 
 `SelectedUnitNoveltyAdmission.A.`  For every retained unpaid selected child
 \(Q\subset P\), before scalar selected readout,
@@ -114,11 +124,11 @@ W_Q(t)
 \tag{4}
 \]
 
-This is the mathematical version of the physical novelty rule.  The same small
-push into an already saturated channel is not one more unit refill; it is counted
-only by its logarithmic leverage against the existing parent record.  A small
-push into an empty channel can count only when selection supplies the first-birth
-scale-memory witness that carries \(W_Q\).
+This was the mathematical version of the physical novelty rule.  Under the
+installed source-currency rule, the same intuition is enforced one level earlier:
+the readout itself must already be a bounded original-packet Riesz read.
+Parent-normalized leverage and first-birth witnesses are downstream support
+coordinates for admitted reads.
 
 ## 3. Why the refill term telescopes
 
@@ -166,9 +176,9 @@ The heat-scale half-tail shows that `(7)` does not control selected unit action:
 \tag{8}
 \]
 
-Thus a fresh orthogonal read is not automatically a selected unit.  It becomes a
-selected birth only through a parent-announced first-birth witness.  With `(4)`,
-weighted Cauchy gives
+Thus a fresh orthogonal read is not automatically a selected unit.  In the old
+conditional reduction it became a selected birth only through a parent-announced
+first-birth witness.  With `(4)`, weighted Cauchy gives
 
 \[
 W_Q\|F_Q\|_{\mathcal H_{\rm raw}}^2
@@ -281,9 +291,9 @@ parent-normalized leverage nor a first-birth scale-memory witness is not a
 retained unpaid selected child; it is a raw stress fluctuation, reset, legal
 loss, stop, or selector-definition failure.
 
-## 7. What is proved here
+## 7. What this note still proves
 
-This note proves the formal reduction:
+This note records the historical formal reduction:
 
 ```text
 SelectedUnitNoveltyAdmission.A
@@ -294,10 +304,9 @@ SelectedUnitNoveltyAdmission.A
     => H^s continuation.
 ```
 
-The note does not prove `SelectedUnitNoveltyAdmission.A` from Navier-Stokes.
-That is the exact remaining Gold obligation: prove that the stopped
-Navier-Stokes selector only promotes a shrinking stress read to unit selected
-action when the read has real parent leverage, selected-scale first-birth
-reserve, or paid reset/stop/legal exit.
-
-Partial, not Gold closed.
+The live source-level replacement is now
+`SelectedActionCurrencyBoundedOriginalPacketEnforcement.A`, with
+`SelectedUnitRieszRepresentativeSourceGraphAdmission.A` as the Hilbert normal
+form.  A shrinking stress read whose original-packet test is unbounded is a fake
+fourth category, not physical participation.  This note remains support for the
+scale-normalization pressure test only.
