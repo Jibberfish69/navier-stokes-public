@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: duality-packing-audited-terminal-hardy-or-cm-endpoint-face-open
+status: order-locked-endpoint-super-l1-or-cm-endpoint-face-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -3445,7 +3445,202 @@ Thomas-dialogue verdict:
   `(*)` is duality plus packing; the remaining producer is the endpoint
   anti-atom `(190)`.
 
-## 34. Truth ledger
+## 34. Endpoint time-thickness audit: order lock before channel estimates
+
+Now test `(192)`--`(194)` itself.  The phrase "endpoint \(L^p\) producer" is
+still too broad unless the endpoint density is formed from the recombined full
+packet before positive-part extraction.  Otherwise a single selected channel
+can create a terminal pulse while the full packet scalar cancels it.
+
+Let the full endpoint packet measure be absolutely continuous after all
+allowed endpoint channels have either become densities or been absorbed:
+
+\[
+d\mu_P^{end}(s)=\rho_P(s)\,ds,
+\qquad
+\rho_P
+=
+[H_P]_+
++\lambda_{\rm legal}
++\lambda_{\rm sel}
++\lambda_{\rm sgn}
++\lambda_{\rm term}
++\lambda_{\rm geom}.
+\tag{204}
+\]
+
+The no-jump consumer is exact:
+
+\[
+\rho_P\in L_s^q(-1,0),\qquad q>1
+\quad\Longrightarrow\quad
+\mu_P^{end}((-\theta,0])
+\le
+C\theta^{1-1/q}.
+\tag{205}
+\]
+
+So `(205)` proves `(192)` and then `(190)`.  The real producer is the
+order-locked admission identity
+
+\[
+\rho_P(s)
+\le
+C\Big[
+\left\langle
+N_P+P_P+V_P+T_P+I_P+L_P+S_P,\Phi_P
+\right\rangle
+-cD_P^\nu(s)
+\Big]_+
++R_P^{ol}(s),
+\tag{206}
+\]
+
+with
+
+\[
+\|R_P^{ol}\|_{L_s^q(-1,0)}\le C
+\quad(q>1),
+\tag{207}
+\]
+
+or the equivalent Hardy/Orlicz terminal modulus.  No finite-jet, harmonic
+pressure, viscosity, CKN, tower, residue, or four-body estimate counts before
+it enters `(206)` on the same retained pressure-transport-viscosity-
+incompressibility packet.
+
+After `(206)`, the channel estimates required inside the packet are:
+
+\[
+\rho_P^{tr,loc}
+:=
+\int_{\operatorname{collar}}
+\left(|U_P|^3+|Q_P^{loc}|^{3/2}+|U_P|^2\right)\,dy
+\in L_s^q,
+\tag{208}
+\]
+
+\[
+\rho_P^{H}
+:=
+\int_{\operatorname{collar}}
+|(Q_P^H-\Pi_{aff}Q_P^H)U_P|\,dy
+\in L_s^q,
+\tag{209}
+\]
+
+and for every endpoint residue channel \(j\),
+
+\[
+\lambda_{j,P}\in L_s^q
+\quad\text{or}\quad
+\lambda_{j,P}\le c_j\rho_P^{feed}+r_{j,P},
+\qquad
+\sum_jc_j<1,\quad r_{j,P}\in L_s^q,
+\tag{210}
+\]
+
+or that channel is absorbed before \(d\mu_P^{end}\) is formed.
+
+There is a real paid subline for the finite-jet part.  If the order-locked
+finite-jet endpoint trace has mixed time-space tower control, then
+
+\[
+\|[H_P^{jet}]_+\|_{W_s^{1,1}(-1,0)}\le C
+\quad\Longrightarrow\quad
+\int_{-\theta}^{0}[H_P^{jet}(s)]_+\,ds\le C\theta.
+\tag{211}
+\]
+
+This kills the terminal pulse for the finite-jet density because the pulse has
+unbounded time variation.  It does not touch harmonic pressure memory or naked
+endpoint residue measures.
+
+The harmonic pressure channel needs annular service beyond finite pressure
+routing:
+
+\[
+Q_P^H-\Pi_{aff}Q_P^H
+\in L_s^aL_y^{3/2}(\operatorname{annulus}),
+\qquad
+U_P\in L_s^bL_y^3(\operatorname{collar}),
+\qquad
+{1\over a}+{1\over b}<1.
+\tag{212}
+\]
+
+The residue channels need the density/absorption policy `(210)`, not finite
+visibility.  A finite legal, selector, signed, terminal, or geometry measure
+still permits \(a\tau^{-1}{\bf 1}_{(-\tau,0]}ds\).
+
+The order-lock obstruction has an exact scalar form.  If \(n_P\) is the native
+channel-first scalar and \(b_P\) is the same-packet partner, with
+\(h_P=n_P+b_P\), then the channel-first excess over the full scalar is
+
+\[
+\Delta_P^{ol}
+:=
+\big([n_P]_+-[h_P]_+\big)_+
+=
+\min\{[n_P]_+,[-b_P]_+\}.
+\tag{213}
+\]
+
+The pulse
+
+\[
+n_\tau=a\tau^{-1}{\bf 1}_{(-\tau,0]},
+\qquad
+b_\tau=-n_\tau,
+\tag{214}
+\]
+
+has \(h_\tau=0\) while \([n_\tau]_+\) is exactly the terminal \(L^1\) pulse.
+Thus full-packet recombination after channel selection is too late.  The
+positive part must be taken after the full packet is assembled, or the overlap
+defect `(213)` must itself have a super-\(L^1\), Hardy, Orlicz, or strict
+absorption bound inside the same endpoint packet.
+
+Paid line:
+
+\[
+\text{order-locked full endpoint density in }L_s^q,\ q>1
+\Longrightarrow
+\text{terminal anti-atom `(190)'.}
+\tag{215}
+\]
+
+Unproved line:
+
+\[
+\text{prove `(206)'--`(210)' from the original same-carrier
+Navier--Stokes packet before selected endpoint readout.}
+\tag{216}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It is the production side of
+  `(192)`--`(194)`, not another consumer criterion.
+- Did this prove smoothness? No.  It proves the exact consumer and finite-jet
+  support, then isolates `(206)`--`(210)` as the current Gold line.
+- What does it mean physically? The endpoint pulse is a time-compressed
+  positive part.  It survives whenever one channel is selected before the full
+  pressure-viscosity-incompressibility packet has had its cancellations,
+  drains, and partners kept on the same carrier.
+- Is this the full coupled packet or a scalar proxy? Full packet only after
+  `(206)`.  Finite jets, harmonic pressure service, residues, and viscosity are
+  channel readouts until the positive endpoint density is formed from the
+  recombined packet.
+- Is this already handled in the repo? The \(L^q\)/Hardy consumer, finite-jet
+  tower support, order-lock gap formula, annular pressure reduction, and
+  residue-policy reductions are handled.  The full order-locked super-\(L^1\)
+  producer `(206)`--`(210)` is not.
+- Did this create another alias? No.  It decomposes endpoint \(L^p\) into the
+  required same-packet mechanism and rejects finite routing, channel-first
+  selection, and finite-jet-only tower control as closure.
+
+## 35. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
@@ -3486,16 +3681,22 @@ producer `(192)`--`(194)` or same-witness CM endpoint-face consumption `(196)`.
 The supplied duality-and-packing packet is now placed by `(197)`--`(203)`: it
 is the architecture of `(*)` after the active Hodge--Stokes quotient correction,
 while endpoint Hardy/\(L^p\) time-thickness remains the live Gold producer.
+The endpoint time-thickness audit `(204)`--`(216)` sharpens that producer:
+super-\(L^1\) endpoint control is a consumer once the density is order-locked,
+finite-jet tower regularity is only one support channel, and the unproved line
+is full-packet-first order lock plus harmonic-pressure and residue
+super-\(L^1\)/absorption inside the same endpoint packet.
 
 Conditional relay: proving the positive storage-trace anti-atom `(190)` by the
-Hardy/\(L^p\) endpoint producer `(192)`--`(194)` supplies fixed-core
-no-residue trace storage `(184)`--`(185)`, hence the terminal anti-atom `(186)`,
-hence tightness-or-paid-escape for the critical defect measure, hence critical
-parent-capacity packing `(175)`, hence the active-weight
-strain-vorticity/connection estimate `(169)`, hence the parent-announced active
-quotient projector bound `(163)`, hence the noncircular geometry needed for
-active Hodge--Stokes admission `(155)` and quotient graph-capacity Bessel
-packing `(156)`; that gives `(*)`, hence `(105)`--`(106)`, hence finite selected
+order-locked endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)` supplies
+the Hardy/\(L^p\) endpoint line `(192)`--`(194)`, hence fixed-core no-residue
+trace storage `(184)`--`(185)`, hence the terminal anti-atom `(186)`, hence
+tightness-or-paid-escape for the critical defect measure, hence critical
+parent-capacity packing `(175)`, hence the active-weight strain-vorticity/
+connection estimate `(169)`, hence the parent-announced active quotient
+projector bound `(163)`, hence the noncircular geometry needed for active
+Hodge--Stokes admission `(155)` and quotient graph-capacity Bessel packing
+`(156)`; that gives `(*)`, hence `(105)`--`(106)`, hence finite selected
 action.  If `(190)` fails, the current Gold relay does not close; the remaining
 use is the same-witness CM endpoint-face branch in `(196)`.
 The earlier high-weight tube escape charge `(127)` is the escape branch that
@@ -3566,7 +3767,11 @@ defects to payment or rigidity, but the positive storage-trace atom `(189)`
 survives until a Hardy/\(L^p\) endpoint producer is proved.  The direct Hardy
 production route `(194)` is blocked by heat-scale normalization `(195)`: current
 physical ledgers give radius-weighted control, not unweighted normalized
-endpoint control.
+endpoint control.  Generic endpoint \(L^p\) language also fails as a proof
+mechanism: finite-jet temporal regularity controls only \(H^{jet}\), harmonic
+pressure finite routing leaves the pressure pulse alive, finite endpoint
+residue visibility leaves the residue pulse alive, and channel-first native
+selection can create the exact order-lock overlap pulse `(213)`--`(214)`.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -3614,8 +3819,12 @@ escape for the selected critical defect measure plus fixed-core terminal
 anti-atom/no-residue trace storage `(184)`--`(185)`.  After the terminal
 storage-trace audit, `(184)`--`(185)` is equivalent to the positive
 storage-trace anti-atom `(190)`.  Gold proves that branch through an endpoint
-Hardy/\(L^p\) upgrade `(192)`--`(194)`; failure of that upgrade is not another
-Gold producer, but the same-witness CM endpoint-face branch `(196)`.
+Hardy/\(L^p\) upgrade `(192)`--`(194)`.  After the endpoint time-thickness
+audit, `(192)`--`(194)` is equivalent to order-locked full endpoint
+super-\(L^1\)/Hardy production `(204)`--`(216)`: full-packet-first positive
+density, harmonic pressure service, residue density/absorption, and no
+channel-first overlap pulse.  Failure of that upgrade is not another Gold
+producer, but the same-witness CM endpoint-face branch `(196)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
@@ -3629,14 +3838,15 @@ duality-and-packing version of `(*)`: construct the noncircular parent active
 Hodge--Stokes/positive-metric quotient capacity \(\mathfrak C_{P,act}^{HS}\)
 with parent-announced \(\mathcal N^{act}\), \(\mathcal P^{act}\), \(H_{e^-}\),
 and connection \(\nabla^P\), then prove the positive storage-trace anti-atom
-`(190)` for the retained selected packet \(D_Q\), concretely through the
-endpoint Hardy/\(L^p\) producer `(192)`--`(194)`.  That supplies fixed-core
-no-residue trace storage `(184)`--`(185)`, the terminal anti-atom `(186)`,
-tightness-or-paid-escape, critical parent-capacity packing `(175)`, `(169)`,
-`(163)`, and `(162)`.  This supplies active same-carrier adjoint admission
-`(155)` and quotient graph-capacity Bessel packing `(156)`.  If `(190)` fails,
-the endpoint pulse is no longer a hidden Gold reserve; after same-witness
-admission it is the CM Part/Field endpoint-face branch `(196)`.  The admitted
+`(190)` for the retained selected packet \(D_Q\), concretely by proving the
+order-locked full endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)`, which
+supplies `(192)`--`(194)`.  That supplies fixed-core no-residue trace storage
+`(184)`--`(185)`, the terminal anti-atom `(186)`, tightness-or-paid-escape,
+critical parent-capacity packing `(175)`, `(169)`, `(163)`, and `(162)`.  This
+supplies active same-carrier adjoint admission `(155)` and quotient
+graph-capacity Bessel packing `(156)`.  If `(190)` fails, the endpoint pulse is
+no longer a hidden Gold reserve; after same-witness admission it is the CM
+Part/Field endpoint-face branch `(196)`.  The admitted
 same-carrier positive variations and active pressure-Hessian readouts must pack
 finitely because fresh endpoint-invisible affine cycles and selected
 pressure-Hessian carriers cannot keep escaping into smaller high-weight tubes,
@@ -3644,10 +3854,11 @@ staying as fixed-core terminal critical atoms, or hiding in moving null
 projectors, without paying original-history positive metric variation, active
 Hodge--Stokes quotient energy, scale derivative, turnstile, exchange, covector,
 selector-boundary, spin-axis metric motion, angular viscous/connection residue,
-endpoint Hardy/\(L^p\) no-jump storage, or legal charge.  The older formulations
-`(83)`, `(90)`, `(91)`, `(120)`--`(121)`,
+order-locked endpoint super-\(L^1\)/Hardy no-jump storage, or legal charge.  The
+older formulations `(83)`, `(90)`, `(91)`, `(120)`--`(121)`,
 `(127)`, raw `(132)`, raw `(145)`--`(147)`, child-fitted `(153)`--`(156)`, raw
-`(169)`, and raw `(175)` are valid only insofar as they prove that
+`(169)`, raw `(175)`, and generic `(192)`--`(194)` are valid only insofar as
+they prove that
 parent-current active graph Bessel/no-cycle clause; `(91)` remains sharpened to
 the positive-variation budget `(100)`, not merely bounded endpoint Cauchy--Green
 state.
