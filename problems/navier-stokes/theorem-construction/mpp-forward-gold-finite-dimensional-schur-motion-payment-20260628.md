@@ -153,7 +153,7 @@ Thus the full finite-dimensional motion-payment form is
 \[
 \sum_e(\omega_e^{open}+\omega_e^{motion})
 \le
-C_{\rm open}\sup_I S
+C_{\rm open}\sup_{t\in I}S(t)
 +C_{\rm exit}B\int_I S(t)\|K(t)\|_{\rm op}^2dt
 +R_{\rm return}+L_{\rm legal}.
 \]
@@ -184,13 +184,21 @@ Therefore any endpoint motion birth weight of the form
 \omega_e^{motion}
 \lesssim
 M_e\delta_e^2+R_e+L_e,
-\qquad
-M_e\lesssim
-{ |q_{a_e}(t)|^2\over N_{a_e}(t)}
-\quad\hbox{for the serviced current level on }I_e,
 \]
 
-is paid by the same estimate:
+is paid by the same estimate once the endpoint level \(M_e\) is compared to the
+serviced current level on \(I_e\):
+
+\[
+M_e\delta_e^2
+\lesssim
+\int_{I_e}
+{|q_{a_e}(t)|^2\over N_{a_e}(t)}
+\left|{d\over dt}\log N_{a_e}(t)\right|^2dt
++R_e+L_e .
+\]
+
+Consequently
 
 \[
 \sum_e\omega_e^{motion}
@@ -218,7 +226,7 @@ whose inverse-Gram size changes along the way,
 and the square first-exit charge is bounded by
 
 \[
-\sum_e\omega_e
+\sum_e\omega_e^{motion}
 \lesssim
 \int_0^T S(t)\|K(t)\|_{\rm op}^2dt
 +R_{\rm return}+L_{\rm legal}.
