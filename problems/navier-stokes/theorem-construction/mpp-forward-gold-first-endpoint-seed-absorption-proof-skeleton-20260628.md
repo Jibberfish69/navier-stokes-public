@@ -1,0 +1,224 @@
+---
+theorem_id: forward-gold-first-endpoint-seed-absorption-proof-skeleton-20260628
+status: proof-skeleton-reduces-to-endpoint-current-rigidity-and-testing
+created_at: 2026-06-28
+problem: navier-stokes
+route: forward-gold same-material stopped routed participation current
+refines:
+  - FreshPositiveAffineEndpointMassKill.A
+  - NativeBirthChargePacking.A
+  - PositiveCriticalTransferBound.A
+  - StoppedEndpointAccretiveTestingData.A
+completion_truth: partial-not-mpp-closed
+---
+
+# First endpoint seed absorption proof skeleton
+
+This note records the shortest noncircular route for the retained first endpoint
+seed absorption theorem.
+
+The target is
+
+\[
+\sum_{\gamma\subset P}
+\int_{I_\gamma}H_\gamma(t)\|M_\gamma(t)\|_2^2\,dt
+\le
+C_N(u_0)\mathcal R(P)
++
+\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
++
+Paid(P),
+\qquad
+\theta<1 .
+\tag{1}
+\]
+
+Here \(M_\gamma\) is the positive endpoint seed left after lower-band carry,
+spent-source reuse, reset, reselection, silent exchange, legal loss, stop, and
+annular payback have been removed.
+
+## 1. Original-packet divergence form
+
+For every retained first endpoint seed, prove the same-material identity
+
+\[
+M_\gamma
+=
+D_AJ_\gamma
++
+M_{\gamma,stop}
++
+M_{\gamma,legal}
++
+M_{\gamma,reset}
++
+M_{\gamma,return},
+\tag{2}
+\]
+
+where \(D_A=\operatorname{div}_a(A\cdot)\) is the material divergence and
+\(J_\gamma\) is built from the original transported
+pressure-viscosity-incompressibility-velocity packet:
+
+\[
+J_\gamma
+=
+\Pi_{\gamma}^{fresh}
+\int_{J_\gamma}
+k_\gamma(\sigma)
+\Bigl(
+2\nu S_A
+-p_A I
++[D_t,\mathcal L_A]w
++\operatorname{covector}
++\operatorname{frame}
++\operatorname{turnstile}
++\partial_\sigma Z
+\Bigr)\,d\sigma .
+\tag{3}
+\]
+
+This is the formal version of the physical claim: a retained first seed is not a
+free scalar object; it is the divergence/readout of the same material stress and
+geometry current.
+
+The paid terms in `(2)` obey
+
+\[
+\sum_\gamma
+\|M_{\gamma,stop}\|_{H_\gamma^{-1}}^2
++
+\|M_{\gamma,legal}\|_{H_\gamma^{-1}}^2
++
+\|M_{\gamma,reset}\|_{H_\gamma^{-1}}^2
++
+\|M_{\gamma,return}\|_{H_\gamma^{-1}}^2
+\le
+Paid(P).
+\tag{4}
+\]
+
+## 2. Endpoint testing
+
+The positive endpoint mass is recovered by duality:
+
+\[
+\int H_\gamma\|M_\gamma\|_2^2
+=
+\sup_{\|g\|_{L^2(H_\gamma)}\le1}
+\left|\int H_\gamma M_\gamma g\right|^2 .
+\tag{5}
+\]
+
+Using `(2)` and integrating by parts in material variables gives
+
+\[
+\int H_\gamma M_\gamma g
+=
+-\int J_\gamma\cdot D_A^*(H_\gamma g)
++Paid_g .
+\tag{6}
+\]
+
+The required stopped endpoint testing estimate is
+
+\[
+\int |D_A^*(H_\gamma g)|^2\,d\mathcal R_\gamma^{-1}
+\le
+C\int H_\gamma |g|^2
++
+Paid(P).
+\tag{7}
+\]
+
+This estimate is the exact place where the selector must be parent-known and
+accretive before future selected readout.  If the test is chosen from the future
+tail, `(7)` is circular.
+
+## 3. Current Carleson estimate
+
+The endpoint current must satisfy
+
+\[
+\sum_{\gamma\subset P}
+\int |J_\gamma|^2\,d\mathcal R_\gamma
+\le
+C_N(u_0)\mathcal R(P)
++
+\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
++
+Paid(P),
+\qquad
+\theta<1 .
+\tag{8}
+\]
+
+This is the current-energy form of the original-packet positive critical
+transfer estimate.  It says that the fresh endpoint currents are square-packed
+by the same pressure-viscosity-incompressibility packet, with only a strict
+fraction of the native viscous reserve left to absorb.
+
+## 4. Absorption proof
+
+Combine `(5)`--`(8)`.  For each normalized dual test \(g\),
+
+\[
+\left|\int H_\gamma M_\gamma g\right|^2
+\le
+\left(\int |J_\gamma|^2\,d\mathcal R_\gamma\right)
+\left(\int |D_A^*(H_\gamma g)|^2\,d\mathcal R_\gamma^{-1}\right)
++
+Paid(P).
+\tag{9}
+\]
+
+By `(7)`, the second factor is bounded uniformly for
+\(\|g\|_{L^2(H_\gamma)}\le1\).  Taking the supremum in `(5)` and summing in
+\(\gamma\), `(8)` gives `(1)`.
+
+## 5. Rigidity form
+
+Equivalently, prove `(1)` by contradiction.
+
+If `(1)` fails, normalize a sequence of counterexamples so that
+
+\[
+\sum_{\gamma}
+\int H_\gamma\|M_\gamma\|_2^2=1,
+\tag{10}
+\]
+
+while
+
+\[
+\sum_\gamma\int |J_\gamma|^2\,d\mathcal R_\gamma
++Paid(P)
++\nu\int\|\Lambda^{3/2}u\|_2^2
+\to0
+\tag{11}
+\]
+
+after subtracting the allowed strict absorption term.  Stopped compactness gives
+a limiting retained endpoint seed \(M_\infty\) with
+
+\[
+\int H_\infty\|M_\infty\|_2^2=1,
+\qquad
+M_\infty=D_{A_\infty}J_\infty,
+\qquad
+J_\infty=0 .
+\tag{12}
+\]
+
+Thus \(M_\infty=0\), contradicting the unit endpoint mass.  This is the physical
+rigidity statement: there is no retained first endpoint seed detached from the
+original material current.
+
+## 6. Remaining noncircular burden
+
+The absorption theorem is proved once `(2)`, `(7)`, and `(8)` are proved from the
+original packet before future selected-tail readout.
+
+The installed notes already identify `(2)` and `(7)` as the endpoint
+current/testing surface.  The only smoothness-bearing estimate in this proof is
+`(8)`, equivalently the one-sided positive critical transfer bound.
