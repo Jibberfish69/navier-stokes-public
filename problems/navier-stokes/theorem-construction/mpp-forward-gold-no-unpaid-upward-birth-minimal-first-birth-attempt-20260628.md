@@ -949,27 +949,32 @@ Proved support: bounded original-packet tests Bessel-pack; spent-source
 projection closes same-chain raw nonreuse; local source attachment rules out
 detached high-ratio birth; retained first selected birth has a local
 endpoint-seed admission line; return and reset surfaces identify the right paid
-currencies.
+currencies; the upper critical-frame Bessel line is available after a
+parent-known critical lower-frame admission.
 
-Conditional relay: a parent-known material-capacity cocycle gives
+Conditional relay: one-sided positive critical transfer / depletion / rigidity
+gives the parent-known critical capacity frame; that gives
 `NativeBirthChargePacking.A`, then selected compression root reserve, finite
 selected action, full same-material clock, and continuation.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
-rebase.  Raw root ancestry is also too coarse, because one ancestry bucket can
-hide infinitely many selected-scale endpoint-state changes.
+rebase.  Raw root ancestry is too coarse, because one ancestry bucket can hide
+infinitely many selected-scale endpoint-state changes.  Raw bounded-Riesz/QR
+packing closes only the bounded original-packet channel, not genuine
+scale-native births.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
 `NativeBirthChargePacking.A`, equivalently the shared metric behind fresh
 endpoint Carleson, selected return square, critical weighted reset BV, stopped
-endpoint accretive testing, and positive critical transfer.
+endpoint accretive testing, and one-sided positive critical transfer.
 
-Live producer: prove the critical material-capacity lower/upper frame
-`(39)`--`(42)`, or
-produce a specific noncircular obstruction showing that a locally parent-fresh
-selected unit can keep old root endpoint ancestry with no selected return,
-critical reset, exchange, or fresh endpoint Carleson charge.
+Live producer: prove the one-sided positive critical transfer / depletion /
+critical-element rigidity line `(50)`--`(51)` that supplies the scale-native
+critical capacity frame, or produce a specific noncircular obstruction showing
+that a retained same-material positive upcascade can keep old root endpoint
+ancestry with no selected return, critical reset, exchange, stop/legal event, or
+fresh native birth charge.
 
 Partial, not Gold closed.
