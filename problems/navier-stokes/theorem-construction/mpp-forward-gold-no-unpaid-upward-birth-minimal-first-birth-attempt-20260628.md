@@ -2376,12 +2376,15 @@ return the material metric near its initial state while accumulating positive
 selected metric variation.  Scalar critical action admission by
 \(|S|^{5/2}+|\nabla^2p|^{5/4}\) is also rejected as a proxy: pressure-Hessian
 and undirected critical density are readouts unless they are tied to a
-same-carrier metric squeeze.  Positive metric-variation storage itself now
-also fails as a proof mechanism: reversible affine cycles can keep endpoint
-metric state and raw ledgers finite while \(\sum\rho_\gamma^{met}\) diverges.
+same-carrier metric squeeze.  Naked positive metric-variation storage now also
+fails as a proof mechanism: reversible affine cycles can keep endpoint metric
+state and raw ledgers finite while \(\sum\rho_\gamma^{met}\) diverges.  It does
+not defeat the duality-and-packing form of `(*)`; it says the
+positive variation must enter as a parent-known capacity norm with a Bessel
+detector estimate, not as a selected bill renamed as reserve.
 Minimal-bad-chain compactness also fails to produce a root reserve: it gives a
 normalized affine packet/defect package, while the escaping high-weight tube
-charge `(127)` remains unproved.
+branch of the Bessel proof remains unproved.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
