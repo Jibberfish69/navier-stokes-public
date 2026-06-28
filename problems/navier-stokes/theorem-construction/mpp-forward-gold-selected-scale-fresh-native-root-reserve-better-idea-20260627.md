@@ -12,6 +12,7 @@ audits_hinge:
   - NativeBirthChargePacking.A
   - SelectedScaleFreshNativeRootReserve.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-origin-hilbert-energy-dissipation-selector-readout-test-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-correct-hilbert-bmo-direct-attack-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-multicurrency-invisible-child-to-stopped-compensator-synthesis-20260627.md
@@ -24,6 +25,10 @@ source_surfaces:
 ---
 
 # Selected-scale fresh native root reserve better idea
+
+This note is retained as the live scale-native direction: bounded-Riesz
+original-packet admission closes only bounded pulled-back tests, while pure
+zoom births require a selected-scale native reserve with finite root packing.
 
 The current relay hinge was stated as the pair
 
