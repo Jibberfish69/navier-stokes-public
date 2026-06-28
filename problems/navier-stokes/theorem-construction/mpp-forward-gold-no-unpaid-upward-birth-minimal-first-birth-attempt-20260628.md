@@ -2327,7 +2327,134 @@ The proof is still partial.  The live producer has become sharper: construct
 metric-variation Bessel packing without letting \(\mathfrak C_P\) depend on the
 future selected tail.
 
-## 26. Truth ledger
+## 26. Adjoint admission pressure test: Hodge--Stokes graph, not raw Hessian
+
+Attempt the admission line `(132)` directly.
+
+For a parent-built material test field \(\psi\), the stress-current form is
+
+\[
+\mathfrak J_P(\psi)
+=
+\int_{\operatorname{Hist}(P)}
+(-pI+2\nu S_A):\nabla_A\psi
++R_{\rm stop/legal}(\psi).
+\tag{140}
+\]
+
+If the lifted test is divergence-free in the material metric, then
+
+\[
+\int_{\operatorname{Hist}(P)}p\,D_A\cdot\psi=0,
+\tag{141}
+\]
+
+and the direct parent-current pairing sees only the viscous stress projection:
+
+\[
+|\mathfrak J_P(\psi)|
+\le
+2\nu\|S_A\|_{\mathfrak H_P}\|\nabla_A\psi\|_{\mathfrak H_P}
++R_{\rm stop/legal}(\psi).
+\tag{142}
+\]
+
+This is real paid support: it is exactly the parent-subtracted stress-test/QR
+Bessel channel already installed in the routed-current notes.  It does not by
+itself admit the full selected packet `(128)` if the second component is read as
+a raw pressure-Hessian norm.
+
+The pressure-Hessian component enters through the strain/Hodge--Stokes graph,
+not as an independent scalar bill.  In material coordinates,
+
+\[
+D_tS+S^2+\Omega^2+\nabla_A^2p
+=
+\nu\Delta_AS+\operatorname{Coef}_{A}(u,p).
+\tag{143}
+\]
+
+Testing the selected pressure-Hessian readout against a same-carrier strain
+detector \(B_Q\) gives
+
+\[
+\langle \Pi_Q\nabla_A^2p,B_Q\rangle
+=
+-\langle D_tS-\nu\Delta_AS,B_Q\rangle
+-\langle S^2+\Omega^2,B_Q\rangle
++\langle \operatorname{Coef}_{A}(u,p),B_Q\rangle .
+\tag{144}
+\]
+
+After backward integration by parts, `(144)` is paid only when the detector is
+part of a parent-built Hodge--Stokes adjoint graph.  The time/viscous terms
+move onto the adjoint detector; the quadratic strain-vorticity and coefficient
+terms become top-strain, exchange, frame, collar, reselection, stop, or legal
+payments.  Thus the corrected admission statement is not raw `(132)`, but
+
+\[
+a_Q^{HS}
+\le
+C\rho_Q^{HS}
++C\Omega_Q^{top\text{-}strain/ex}
++CD_Q^{vis/rad}
++Ce_Q,
+\tag{145}
+\]
+
+where \(a_Q^{HS}\) is the selected critical packet after projecting the
+pressure-Hessian component through the same parent Hodge--Stokes detector, and
+
+\[
+\rho_Q^{HS}
+:=
+\sup_{\Psi\in\mathcal A_Q^{HS}(P),\ \|\Psi\|_{\mathfrak C_P^{HS}}\le1}
+|\mathfrak J_P(\psi_\Psi)|^2
+\tag{146}
+\]
+
+uses parent-built graph detectors \(\Psi=(\psi_\Psi,B_\Psi)\), not a future
+selected scalar Hessian test.
+
+The packing line must therefore pack the whole parent graph capacity:
+
+\[
+\sum_{Q\subset P}
+\left(
+\rho_Q^{HS}
++\Omega_Q^{top\text{-}strain/ex}
++D_Q^{vis/rad}
+\right)
+\le
+C\mathcal R(P)+CE_{\rm paid}(P).
+\tag{147}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It is the admission half of the
+  duality-and-packing proof, tested against the full selected packet.
+- Did this prove smoothness? No.  It proves that the raw formulation of `(132)`
+  was too broad.  The viscous stress read is paid, but the pressure-Hessian read
+  must pass through the same Hodge--Stokes graph and then pack.
+- What does it mean physically? Pressure is not a second fuel supply.  It is
+  the incompressibility constraint; when its Hessian is selected, it either
+  appears through the same current/Hodge graph or it forces strain, exchange,
+  viscous/radius, frame, collar, reselection, stop, or legal motion.
+- Is this the full coupled packet or a scalar proxy? Raw
+  \(\|\Pi_Q\nabla^2p\|_{L^{5/4}}\) is still a scalar proxy unless
+  \(\Pi_Q\) means the parent Hodge--Stokes graph projection.  The coupled packet
+  is `(145)`--`(147)`.
+- Is this already handled in the repo? Pieces are handled: parent-subtracted QR
+  pays `(142)`, current factorization pays the transform side, and augmented
+  trace coercivity pays local silent pressure carriers with exchange/viscous
+  terms.  The graph-capacity Bessel packing `(147)` is not installed.
+- Did this create another alias? It would be alias churn if called another
+  capacity theorem.  The actual sharper mechanism is that \(\mathfrak C_P\)
+  must be a parent-known Hodge--Stokes plus positive-metric-variation graph
+  norm.  Anything less cannot admit the pressure-Hessian bill noncircularly.
+
+## 27. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
