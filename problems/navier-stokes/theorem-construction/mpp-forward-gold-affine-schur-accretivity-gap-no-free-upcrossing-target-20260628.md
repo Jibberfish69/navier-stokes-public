@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: actual-selected-parent-current-capture-open
+status: high-high-capture-carrier-choice-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -18,6 +18,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-service-storage-equivalence-local-storage-no-go-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-martingale-under-service-storage-adjudication-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-paid-parent-current-span-perpendicular-category-repair-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-high-parent-current-admission-identity-attempt-20260628.md
 completion_truth: partial-not-gold-closed
 effect: >-
   Records the corrected affine Schur scale-memory state. The original packet
@@ -76,7 +77,12 @@ effect: >-
   stopped log-density square-function passages are mechanism attempts under
   that wall; they do not replace it. The latest capture audit makes this
   explicit: the parent-current exponential controls the actual selected density
-  only after actual-current capture is proved.
+  only after actual-current capture is proved. The high-high parent-current
+  identity audit adds the current sharp obstruction: individual input-colored
+  high-high triads are not one-point parent-current reads. The one-point
+  identity is valid only for the full output-local stress after summing input
+  interactions; retaining input-colored high-high selection requires a two-point
+  material parent-current theory.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
@@ -2151,3 +2157,118 @@ now actual-selected parent-current capture/admission: every positive high-high
 dyadic transfer must enter the paid same-carrier current as first-entry Bessel
 novelty or retained Schur work, or be routed to return, motion, viscosity,
 legal, stop, or same-witness endpoint material.
+
+## 22. High-high capture has a carrier choice: full output or two-point current
+
+The actual-selected capture line `(136)` still hides one category choice.  The
+older wording says "each positive high-high dyadic transfer" enters the paid
+same-carrier parent current.  That is true for a one-point current only after
+the high-high object is the full output-local stress
+
+\[
+B_m^{full}
+=
+\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u\otimes u).
+\tag{140}
+\]
+
+For `(140)`, testing against a parent-declared output frame gives a legal
+one-point material stress-current read, with Hodge, collar, frame, adjoint,
+viscosity, legal, and stop defects routed in the same parent packet.
+
+The same statement is false for an individual input-colored triad
+
+\[
+B_{k\ell m}
+=
+\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u_k\otimes u_\ell),
+\qquad k\sim \ell\sim m.
+\tag{141}
+\]
+
+The Fourier symbol of `(141)` depends on the input split \((\xi,\eta)\), not
+only on the output frequency \(\xi+\eta\).  A one-point stress-current test
+against \(u\otimes u\) only sees a symbol depending on the output point.  Thus
+the identity
+
+\[
+\langle B_{k\ell m},\phi\rangle
+=
+J_P(\Psi_{k\ell m,\phi}^P)+Paid
+\tag{142}
+\]
+
+cannot hold for all \(u\) at fixed input colors.  The exact current is a
+two-point bilinear material current:
+
+\[
+\langle B_{k\ell m},\phi\rangle
+=
+J_P^{(2)}(K_{k\ell m,\phi}^P)+Paid .
+\tag{143}
+\]
+
+So the current capture theorem has two coherent branches:
+
+\[
+\begin{array}{ll}
+\text{one-point route:}&
+\text{select the full output-local stress `(140)' before positive readout;}\\[1mm]
+\text{two-point route:}&
+\text{keep input-colored triads and prove product-carrier Bessel/Schur packing
+for `(143)'.}
+\end{array}
+\tag{144}
+\]
+
+The paid line in the one-point route is
+
+\[
+\text{full output-local capture for `(140)' + square-positive admission}
+\Longrightarrow
+\text{actual-selected capture `(136)' for the one-point Gold selector.}
+\tag{145}
+\]
+
+The paid line in the two-point route is
+
+\[
+\text{two-point parent current `(143)' + product-carrier packing}
+\Longrightarrow
+\text{actual-selected capture `(136)' for input-colored high-high triads.}
+\tag{146}
+\]
+
+The failed line is
+
+\[
+\text{individual input-colored high-high triad}
+\not\Longrightarrow
+\text{one-point same-carrier parent-current admission.}
+\tag{147}
+\]
+
+Thomas-dialogue audit:
+
+- Is this actually the live object? Yes.  It attacks actual-selected
+  parent-current capture at the carrier level.
+- Did this prove smoothness? No.  It prevents a false proof: `(136)` cannot be
+  proved for input-colored triads using a one-point parent current.
+- What does it mean physically? The full Navier--Stokes nonlinearity is one
+  material stress seen at the output.  Splitting it by input colors turns the
+  detector into a two-point question about two transported inputs.
+- Is this the full coupled packet or a scalar proxy? Full-output one-point
+  capture preserves the coupled packet.  Input-colored capture needs a
+  two-point coupled packet, not a scalar dyadic proxy.
+- Is this already handled in the repo? The source
+  `mpp-forward-gold-high-high-parent-current-admission-identity-attempt-20260628.md`
+  proves the full-output one-point identity and disproves the input-colored
+  one-point identity.  The product-carrier packing theorem is not installed.
+- Did this create another alias? No.  It removes the alias "high-high dyadic
+  transfer" until the carrier is typed as full-output or two-point.
+
+Partial, not Gold closed. The live producer is now the high-high capture
+carrier choice: either prove actual-selected capture after summing to the full
+output-local stress `(140)`, preserving positive-square admission without
+input-color clipping, or build the two-point parent-current packing theorem
+for `(143)`.
