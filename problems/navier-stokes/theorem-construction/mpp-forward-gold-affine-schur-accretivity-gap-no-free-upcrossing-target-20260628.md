@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: schur-thin-signed-current-square-admission-open
+status: invisible-square-refinement-admission-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -52,10 +52,15 @@ effect: >-
   transfer must first be admitted as a signed increment of the paid same-carrier
   parent current, and only then may the positive square be packed by first-entry
   Bessel novelty, retained Schur current work, time-thickness/endpoint descent,
-  or routed return, motion, viscosity, legal, or stop. This is the current open
-  producer for `(30)`, then the Schur-thin gate, then finite original-data
-  control of the Schur record, negative return, and inverse-Gram route
-  variation.
+  or routed return, motion, viscosity, legal, or stop. The visible/invisible
+  split of that square bill exposes the next exact gap: a concentrated invisible
+  square subinterval is only a measure-theoretic subinterval until the stopped
+  parent packet can localize it as a lawful same-carrier child and pay every
+  cutoff, Hodge, pressure, frame, collar, route, legal, and stop defect. Thus the
+  current open producer is invisible-square refinement admission for the actual
+  selected high-high coefficients, then the Schur-thin gate, then finite
+  original-data control of the Schur record, negative return, and inverse-Gram
+  route variation.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
@@ -1502,3 +1507,103 @@ Thomas-dialogue verdict:
 
 Partial, not Gold closed. The current sharp producer is signed high-high
 parent-current square admission before positive selected readout `(91)`.
+
+## 15. Invisible-square refinement audit: density is not child admission
+
+The visible/invisible split in the service-storage anchor sharpens `(91)`, but
+it still has one hidden admission line.  From
+
+\[
+c_i=b_i^+,\qquad
+Z_i=\{q_i^+<\eta\nu^{-1}c_i\},
+\tag{94}
+\]
+
+the visible set is paid by the Schur pairing:
+
+\[
+\nu^{-1}\int_{V_i}c_i^2\,dt
+\le
+\eta^{-1}\int_{V_i}q_i^+c_i\,dt .
+\tag{95}
+\]
+
+The hard set is \(Z_i\).  A density argument can find a smaller time interval
+where \(\int c_i^2\) remains large, but that alone is not a proof move in the
+same-material packet.  The smaller interval has to be admitted as a stopped
+same-carrier child with the same high-high coefficient, before selected readout.
+
+The failed line is
+
+\[
+\text{large invisible square density on a subinterval}
+\not\Longrightarrow
+\text{lawful retained same-carrier child packet.}
+\tag{96}
+\]
+
+Localizing the coefficient changes the object.  The cutoff has to commute
+through \(\mathbb P\), \(P_m\), \(\Lambda^{-1/2}\), the material pullback, the
+transported frame, and the pressure-Hodge split.  Those commutators are not
+cosmetic.  They are exactly the collar, Hodge, pressure, frame, route, legal,
+and stop costs that decide whether the subinterval is a retained child or a paid
+escape.
+
+So Section 74's descent is conditional on the following refinement-admission
+theorem:
+
+\[
+\begin{array}{c}
+\text{retained nonendpoint invisible high-high square bill on }Z_i\\
+\Longrightarrow\\
+\text{a smaller stopped same-carrier child with comparable } \nu^{-1}\int c_i^2,
+\text{ or paid return/motion/viscosity/legal/stop/endpoint.}
+\end{array}
+\tag{97}
+\]
+
+Once `(97)` holds, the Section 68 descent applies: repeated invisible
+nonendpoint concentration produces a strictly smaller same-witness child until
+it either reaches the time floor or accumulates at the same-witness endpoint
+face.  Without `(97)`, the descent proof is circular because it has selected a
+high-density subinterval by looking at the child bill before proving that the
+parent packet can lawfully ask that localized question.
+
+Paid line:
+
+\[
+\text{visible Schur payment `(95)' + refinement admission `(97)'}
+\Longrightarrow
+\text{square-positive admission `(91)'.}
+\tag{98}
+\]
+
+Current unproved line:
+
+\[
+\text{prove `(97)' for the actual high-high source coefficient, or route the
+localization defect to return, motion, viscosity, legal, stop, or endpoint.}
+\tag{99}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It is the exact place where the
+  invisible-square argument could cheat: turning density selection into child
+  admission.
+- Did this prove smoothness? No.  It replaces a vague anti-atom statement by
+  the concrete same-carrier refinement theorem `(97)`.
+- What does it mean physically? A violent high-high kick inside the parent
+  history only counts as a smaller child if the original packet can localize the
+  kick without changing the carrier or hiding the cost in pressure-Hodge/collar
+  terms.
+- Is this the full coupled packet or a scalar proxy? It is full-packet only when
+  the localization commutators are paid in the same pressure-viscosity-
+  incompressibility identity before the positive square is counted.
+- Is this already handled in the repo? No.  Existing selector descent handles a
+  retained child after admission.  It does not prove that an arbitrary
+  high-density invisible square subinterval is such a child.
+- Did this create another alias? It collapses the anti-atom wording back to the
+  actual producer: same-carrier invisible-square refinement admission.
+
+Partial, not Gold closed. The current sharp producer is `(97)`.
