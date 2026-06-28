@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: full-output-terminal-probe-admission-update-open
+status: full-output-terminal-full-packet-root-fixed-nojump-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -2946,6 +2946,141 @@ it produces, the parent current has changed.  Counting the same hidden squeeze
 again is terminal replay unless the parent record changes or the selector pays
 for the change.
 
-Partial, not Gold closed.  The strict affine producer is parent-known terminal
-probe admission/update `(188)`--`(192)`, feeding terminal no-replay detector
-packing `(184)`--`(185)`.
+Partial, not Gold closed.  Probe admission/update `(188)`--`(192)` is the
+first no-replay gate.  The deeper no-free-zoom audit shows that this gate is
+support for the terminal full-packet no-atom producer.
+
+## 29. Probe admission is a gate; terminal no-atom is the producer
+
+The probe admission/update clause `(188)`--`(192)` removes one alias: a selected
+transverse probe cannot be chosen after readout and then called parent
+capacity.  But it is not the final Gold producer.  The no-free-zoom audit
+continues the chain: no-replay detector packing reduces to record-variation
+admission, actual-selector first-exit capture, parent-subtracted replay, and
+then the active Hodge--Stokes graph kernel.  The interior graph kernel is paid
+by the material metric identity:
+
+\[
+D_tG=2F^TSF,
+\qquad
+K=G^{-1/2}D_tG\,G^{-1/2}=2O^TSO .
+\tag{193}
+\]
+
+Thus \(K=0\) forces \(S=0\) on retained parent-announced charts, modulo paid
+collar/frame/legal terms.  The remaining pressure curvature is the rigid-spin
+inertial pressure balance already removed by the active quotient.  So an
+interior zero-increment active graph packet has no positive selected bill.
+
+The survivor is fixed-core terminal concentration of the same parent-known full
+packet.  In the notation of the no-free-zoom audit, it is controlled only by a
+terminal potential \(\Phi_P\):
+
+\[
+\mu_{P,fix}^{crit}(T_\rho(z_0))
+\le
+C\,\operatorname{Osc}_{T_{c\rho}(z_0)}\Phi_P
++C(E_{\rm paid}+R_{\rm legal}+Stop)(T_{c\rho}(z_0)).
+\tag{194}
+\]
+
+The Gold line is the terminal no-atom condition
+
+\[
+\lim_{\rho\downarrow0}
+\sup_{z_0}
+\operatorname{Osc}_{T_{c\rho}(z_0)}\Phi_P
+=0,
+\tag{195}
+\]
+
+or equivalently a no-atom modulus for the positive storage-trace defect.  A
+sufficient positive form is Hardy/time-thickness:
+
+\[
+\sup_P\int_{-1}^{0}(-s)^{-\alpha}\,d\mu_P^{end}(s)<\infty
+\qquad(\alpha>0).
+\tag{196}
+\]
+
+Root-fixed descent is necessary but still not enough.  A nonresettable
+same-parent functional may prevent the same terminal atom from being paid after
+every child zoom:
+
+\[
+-d\mathcal L_P
+\ge
+c\,d\mu_P^{end}-d\lambda_P,
+\qquad
+\mathcal L_P\ge -C_N(u_0),
+\tag{197}
+\]
+
+but `(197)` still permits one terminal jump.  Gold no-atom needs the same
+root-fixed functional to satisfy terminal no-jump
+
+\[
+\lim_{\rho\downarrow0}\sup_{z_0}
+\big[-\Delta_{T_\rho(z_0)}\mathcal L_P\big]_+=0,
+\tag{198}
+\]
+
+or the Hardy substitute
+
+\[
+\sup_P\int_{-1}^{0}(-s)^{-\alpha}\,d(-\mathcal L_P)_+(s)<\infty
+\qquad(\alpha>0).
+\tag{199}
+\]
+
+Paid line:
+
+\[
+\text{probe admission/update `(188)'--`(192)'}
+\Longrightarrow
+\text{lawful no-replay detector input.}
+\tag{200}
+\]
+
+\[
+\text{material metric identity + active quotient}
+\Longrightarrow
+\text{no interior active graph kernel.}
+\tag{201}
+\]
+
+Unproved line:
+
+\[
+\text{construct root-fixed full-packet terminal no-atom/no-jump storage
+`(195)'--`(199)' from the original coupled packet, or route its failure to the
+same-witness endpoint face.}
+\tag{202}
+\]
+
+Thomas-dialogue audit:
+
+- Is this actually the live object? Yes.  It collapses the probe-admission
+  target into its support role and names the surviving producer.
+- Did this prove smoothness? No.  It pays only the target-custody error: the
+  active status no longer stops at a gate already reduced by the no-free-zoom
+  audit.
+- What does it mean physically? A hidden squeeze may be admitted once and then
+  charged, but the last dangerous object is a fixed-core endpoint atom of the
+  same full packet.
+- Is this the full coupled packet or a scalar proxy? Full coupled only if
+  \(\Phi_P\) or \(\mathcal L_P\) is built before endpoint positive-part
+  extraction from pressure, viscosity, incompressibility, strain, active
+  pressure quotient, selector, collar, legal, stop, and endpoint channels
+  together.
+- Is this already handled in the repo? Probe admission/update, parent-subtracted
+  replay, and the interior active graph kernel are handled as support in the
+  no-free-zoom audit.  Terminal full-packet no-atom storage with root-fixed
+  terminal no-jump or Hardy thickness is not installed.
+- Did this create another alias? No.  It removes the probe-admission alias and
+  restores the root-fixed terminal no-atom producer.
+
+Partial, not Gold closed.  The strict affine producer is terminal full-packet
+no-atom storage `(195)`--`(199)` for the same parent-known active
+Hodge--Stokes / positive-metric packet, or same-witness endpoint-face
+consumption if that storage fails.
