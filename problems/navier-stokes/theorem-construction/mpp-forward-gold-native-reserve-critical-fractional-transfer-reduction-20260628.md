@@ -8,7 +8,13 @@ refines:
   - NativeBirthChargePacking.A
   - CriticalFreshSourceTentCarleson.A
   - OriginalScaleMemoryStorageCoercivity.A
+  - SelectedGeneratorStorageCoercivity.A
   - ScaleNativeActiveParticipationReserve.A
+source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-raw-zoom-selector-native-birth-packing-live-edge-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-scale-memory-storage-coercivity-boundary-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-storage-coercivity-hard-block-20260627.md
 completion_truth: partial-not-mpp-closed
 ---
 
