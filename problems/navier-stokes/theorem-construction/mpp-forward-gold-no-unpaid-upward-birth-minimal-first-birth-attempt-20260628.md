@@ -468,16 +468,157 @@ items are proved from original history before future selected-tail readout:
 3. return payment: repeated endpoint-state reads are bounded in selected
    harmonic square currency;
 4. reset payment: changes of endpoint state have critical weighted reset BV;
-5. noncircular cocycle: the same root selected metric contains the endpoint
+5. metric eligibility: the root selected metric is a parent-known material
+   capacity, not a future-tail weight;
+6. noncircular cocycle: the same root selected metric contains the endpoint
    atom, return square, and reset derivative;
-6. relay: the resulting native birth packing gives selected compression root
+7. relay: the resulting native birth packing gives selected compression root
    reserve, finite selected action, full same-material clock, \(H^s\) control,
    and local continuation.
 
-Only item 6 is already a conditional consumer relay.  Items 1--5 are still the
+Only item 7 is already a conditional consumer relay.  Items 1--6 are still the
 producer.
 
-## 11. Truth ledger
+## 11. Root selected metric legality test
+
+The cocycle in `(16)`--`(23)` still hides one possible lie: the metric
+\(\mathcal H_{\rm root,sel}\) could be built from the selected endpoint tail.
+Then every term is measured in exactly the currency that the proof is trying to
+bound.
+
+The legal metric must be fixed by the parent material packet before the fresh
+endpoint read.  In dual form, the metric is legal only when the following four
+clauses use the same parent-known weight \(H\) and current-energy measure
+\(d\mathcal R\).
+
+Endpoint divergence form:
+
+\[
+M_\gamma=D_AJ_\gamma+M_{\gamma}^{paid}.
+\tag{24}
+\]
+
+Adjoint testing:
+
+\[
+\int |D_A^*(Hg)|^2\,d\mathcal R^{-1}
+\le
+C\int H|g|^2+Paid(P).
+\tag{25}
+\]
+
+Current energy:
+
+\[
+\sum_{\gamma\subset P}\int |J_\gamma|^2\,d\mathcal R
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{26}
+\]
+
+Selector admission:
+
+\[
+\omega_\gamma
+\le
+C_N\int H|M_\gamma|^2+Paid(\gamma).
+\tag{27}
+\]
+
+If `(24)`--`(27)` hold in the same metric, then Cauchy--Schwarz proves the
+endpoint atom bound:
+
+\[
+\sum_{\gamma\subset P}\omega_\gamma
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{28}
+\]
+
+The checked repo state supplies only pieces.  The endpoint-current notes supply
+the representation shape `(24)`.  The stopped endpoint testing notes identify
+`(25)` as an open accretive testing theorem.  The current-Carleson notes
+identify `(26)` as the original-history fresh innovation theorem.  The native
+birth notes identify `(27)` as the selected-scale lower edge.
+
+So the cocycle is not yet a proof.  It is a proof exactly after the same metric
+passes all four clauses.
+
+## 12. Capacity reformulation
+
+The non-aliased way to state the metric is material capacity.
+
+For a parent-known stopped packet \(P\), define the material capacity norm of an
+endpoint seed \(M\) by
+
+\[
+\|M\|_{\operatorname{Cap}_P^{-1}}^2
+:=
+\inf_{D_AJ=M+paid}
+\int_{\operatorname{Hist}(P)}|J|^2\,d\mathcal R
++Paid(P).
+\tag{29}
+\]
+
+Then the live line is:
+
+\[
+\omega_\gamma
+\le
+C_N\|M_\gamma\|_{\operatorname{Cap}_P^{-1}}^2
++Paid(\gamma),
+\tag{30}
+\]
+
+with the fresh capacity atoms packing:
+
+\[
+\sum_{\gamma\subset P}
+\|M_\gamma^{fresh}\|_{\operatorname{Cap}_P^{-1}}^2
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{31}
+\]
+
+This is the selected-metric cocycle without the hidden weight.  The selected
+weight \(H\) is legal only as a witness of the parent-known capacity norm, not
+as a definition copied from the future selected tail.
+
+There are three failure modes:
+
+1. circular metric: \(H\) is chosen after the endpoint tail is known, so
+   `(27)` is tautological;
+2. thin metric: \(H\) is parent-known and testing-good, but `(27)` fails and a
+   retained selected unit is not admitted by material capacity;
+3. fat metric: \(H\) admits the selected unit, but `(25)` or `(26)` fails and
+   the half-tail survives as current energy defect.
+
+The stronger mechanism forced by this failure is not another named reserve.  It
+is capacity admission:
+
+\[
+\text{retained selected endpoint seed}
+\Rightarrow
+\text{parent-known material capacity of selected size,}
+\tag{32}
+\]
+
+and capacity packing:
+
+\[
+\text{fresh material capacities are Bessel/Carleson in the parent packet.}
+\tag{33}
+\]
+
+This recovers the physical ontology: a selected birth is real only when the
+same pressure-viscosity-incompressibility packet has enough material capacity
+to transmit that endpoint seed before the selector reads it.
+
+The proof still fails at `(30)`--`(31)`.  Those lines are exactly the coupled
+version of endpoint lower edge, accretive testing, current Carleson, reset, and
+return in one root metric.
+
+## 13. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
@@ -488,7 +629,7 @@ detached high-ratio birth; retained first selected birth has a local
 endpoint-seed admission line; return and reset surfaces identify the right paid
 currencies.
 
-Conditional relay: a selected-metric endpoint cocycle gives
+Conditional relay: a parent-known material-capacity cocycle gives
 `NativeBirthChargePacking.A`, then selected compression root reserve, finite
 selected action, full same-material clock, and continuation.
 
@@ -498,11 +639,12 @@ rebase.  Raw root ancestry is also too coarse, because one ancestry bucket can
 hide infinitely many selected-scale endpoint-state changes.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
-clause upgraded to a selected-metric endpoint cocycle inside
+clause upgraded to a parent-known material-capacity cocycle inside
 `NativeBirthChargePacking.A`, equivalently the shared metric behind fresh
-endpoint Carleson, selected return square, and critical weighted reset BV.
+endpoint Carleson, selected return square, critical weighted reset BV, and
+stopped endpoint accretive testing.
 
-Live producer: prove the coupled endpoint-state cocycle `(20)`--`(23)`, or
+Live producer: prove the coupled material-capacity cocycle `(24)`--`(33)`, or
 produce a specific noncircular obstruction showing that a locally parent-fresh
 selected unit can keep old root endpoint ancestry with no selected return,
 critical reset, exchange, or fresh endpoint Carleson charge.
