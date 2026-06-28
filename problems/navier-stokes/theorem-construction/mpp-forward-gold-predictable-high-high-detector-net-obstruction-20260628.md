@@ -28,9 +28,10 @@ The previous high-high note reduced the remaining branch to a predictable
 detector admission theorem. For input-coloured same-scale high-high positive
 transfer, the old desired theorem was:
 
-For each retained positive high-high triad output witness, there exists a
-parent-predictable material adjoint detector \(\psi_i^P\), chosen before child
-readout from a bounded-entropy parent frame, such that
+Old input-coloured statement: for each retained positive high-high triad output
+witness, there exists a parent-predictable material adjoint detector
+\(\psi_i^P\), chosen before child readout from a bounded-entropy parent frame,
+such that
 
 \[
 T_{HH,k\ell m}^+

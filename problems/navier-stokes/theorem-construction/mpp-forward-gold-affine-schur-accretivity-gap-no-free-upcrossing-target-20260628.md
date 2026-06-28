@@ -2167,9 +2167,9 @@ same-witness endpoint material.
 ## 22. High-high capture has a carrier choice: full output or two-point current
 
 The actual-selected capture line `(136)` still hides one category choice.  The
-older wording says "each positive high-high dyadic transfer" enters the paid
-same-carrier parent current.  That is true for a one-point current only after
-the high-high object is the full output-local stress
+older wording treated positive high-high dyadic transfers as direct entries into
+the paid same-carrier parent current.  That is true for a one-point current only
+after the high-high object is the full output-local stress
 
 \[
 B_m^{full}
