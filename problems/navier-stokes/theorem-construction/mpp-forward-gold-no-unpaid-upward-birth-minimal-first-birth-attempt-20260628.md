@@ -5192,8 +5192,8 @@ is paid in the original same-material packet:
 4. actual stopped selector capture: a counted child bill must be a
    parent-subtracted first-exit increment, parent-bundled dust, stopped/legal
    loss, or same-witness endpoint-face material;
-5. terminal full-packet no-atom storage for \(\Phi_P\), equivalently `(318)`--`(320)`
-   or the time-thickness form `(654)';
+5. terminal full-packet no-atom storage for \(\Phi_P\), equivalently
+   `(318)`--`(320)` or the time-thickness form `(654)`;
 6. if the terminal no-atom producer fails, same-witness endpoint-face admission
    must consume that failure as a CM branch rather than counting it as Gold
    closure.
