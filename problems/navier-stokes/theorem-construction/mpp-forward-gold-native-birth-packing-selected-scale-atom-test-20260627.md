@@ -13,6 +13,7 @@ refined_hinge:
   - GlobalSamePacketFullMonotoneBudget.A.BoundedLowerEdgeSubprimitive
   - SelectedScaleNativeReserveAtom.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-forward-native-reserve-birth-packing-direct-test-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-forward-native-reserve-ratio-tail-obstruction-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-compression-root-reserve-synthesis-20260626.md
@@ -24,6 +25,10 @@ source_surfaces:
 ---
 
 # Native birth packing selected-scale atom test
+
+This is now the live scale-native branch, not a stale reserve slogan.  It is
+needed precisely because bounded original-packet/Riesz admission does not pay a
+unit rescaled zoom test whose original pullback has norm \(r^{-1/2}\).
 
 `NativeBirthChargePacking.A` asks for a bounded-multiplicity charge map
 
