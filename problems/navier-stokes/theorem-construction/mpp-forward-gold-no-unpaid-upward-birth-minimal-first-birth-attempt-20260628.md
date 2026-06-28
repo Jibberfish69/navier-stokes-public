@@ -1552,7 +1552,144 @@ Thomas-dialogue verdict:
   as a good-lambda coefficient below \(1/2\), a bounded-below same-material
   storage, or a terminal affine half-tail Liouville/rigidity theorem.
 
-## 20. Truth ledger
+## 20. Reversible affine-cycle pressure test
+
+The terminal affine half-tail is still too broad unless the storage sees
+positive material-metric variation, not only endpoint Cauchy--Green state.  The
+coupled local model makes this visible.
+
+Let
+
+\[
+E=\operatorname{diag}(1,-1,0),
+\qquad \operatorname{tr}E=0,
+\tag{92}
+\]
+
+and on a heat-scale interval use the affine strain
+
+\[
+B_+(t)=\lambda(t)E,
+\qquad \lambda(t)\ge0.
+\tag{93}
+\]
+
+The local velocity \(u=B_+(t)x\) is incompressible and is balanced by
+
+\[
+p_+(x,t)
+=
+-\frac12 x\cdot(\dot B_+ + B_+^2)x .
+\tag{94}
+\]
+
+It stretches the \(e_1\) material direction and compresses \(e_2\).  Reverse it
+on a neighboring heat-scale interval:
+
+\[
+B_-(t)=-\lambda(t)E,
+\qquad
+p_-(x,t)
+=
+-\frac12 x\cdot(\dot B_- + B_-^2)x .
+\tag{95}
+\]
+
+Because \(B_+\) and \(B_-\) commute, equal action pulses satisfy
+
+\[
+F_{cycle}
+=
+\exp\!\left(-\int\lambda E\,dt\right)
+\exp\!\left(\int\lambda E\,dt\right)
+=I,
+\tag{96}
+\]
+
+up to transition and localization errors.  The endpoint Cauchy--Green state
+returns:
+
+\[
+C_{cycle}=F_{cycle}^TF_{cycle}\simeq I.
+\tag{97}
+\]
+
+But the selected positive action does not cancel.  Reading the expanding
+direction in each half-cycle gives
+
+\[
+\int [e_1\cdot B_+e_1]_+\,dt
++\int [e_2\cdot B_-e_2]_+\,dt
+=
+2\int\lambda(t)\,dt .
+\tag{98}
+\]
+
+After localization at radius \(r\) with \(\lambda\simeq r^{-2}\) and
+\(|I|\simeq r^2\), one cycle has order-one selected material action and raw
+energy, dissipation, pressure work, and collar work of order \(r\).  A terminal
+sequence with \(\sum r_k<\infty\) can therefore keep raw costs summable while
+accumulating infinitely many units of positive selected metric variation.
+
+This does not construct a Navier--Stokes blow-up.  It is a countermodel to a
+proof mechanism: endpoint Cauchy--Green state, local pressure-Hessian balance,
+instantaneous Poisson coupling, and finite-depth local storage do not by
+themselves exclude the half-tail.  They see the same coupled packet, but they
+do not give a one-sided positive-variation budget.
+
+The paid line is:
+
+\[
+\text{original coupled law}
+\Longrightarrow
+\text{affine half-tail visits are pressure-Hodge attached to one material
+metric path.}
+\tag{99}
+\]
+
+The exact unproved line is:
+
+\[
+\text{one material metric path}
+\Longrightarrow
+\operatorname{Var}_+(\log C\text{ on selected complete-frame directions})
+\text{ has a root-finite budget.}
+\tag{100}
+\]
+
+Equivalently, a valid proof must rule out terminal reversible affine cycles
+whose endpoint metric state stays bounded while their positive metric
+variation has the critical half-tail.  A bounded endpoint state is not enough;
+the storage must be a noncircular positive-variation reservoir, or it must
+prove a strict good-lambda gain that prevents these cycles from appearing at
+all scales.
+
+Thomas-dialogue verdict:
+
+- Did the terminal half-tail Liouville route prove smoothness? No.  The local
+  affine law admits non-gauge strain, and reversible cycles defeat endpoint
+  Cauchy--Green storage.
+- Did this rename the hinge? It would rename it if the new object is just
+  "positive variation" with no root-finite budget.  The proof-bearing object
+  is root-finite positive metric variation on the original same-history
+  selected forest.
+- What does it mean physically? The fluid can stretch one material direction,
+  then later reverse the deformation and stretch the transverse direction; the
+  shape comes back, but the selected positive work has already been counted.
+- Is this the full coupled packet? Yes as a pressure-Hessian-balanced local
+  packet with divergence-free localization and collar costs included; no as a
+  global proof, because the root-finite positive-variation budget is exactly
+  what remains unproved.
+- Is it already handled? Endpoint Cauchy--Green, local affine Liouville,
+  local state storage, pressure-Poisson, and reduced dyadic identities are all
+  already audited as insufficient.
+- What stronger insight did failure reveal? The remaining Gold producer is
+  now a no-reversible-Zeno positive metric variation theorem: the original
+  same-material pressure-viscosity-incompressibility history must not be able
+  to run infinitely many selected affine stretch-return cycles with summable
+  raw costs and divergent positive material action.
+
+## 21. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
