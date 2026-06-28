@@ -4191,30 +4191,28 @@ rigid Zeno source class.  In the current strict form, this means prove the
 duality-and-packing version of `(*)`: construct the noncircular parent active
 Hodge--Stokes/positive-metric quotient capacity \(\mathfrak C_{P,act}^{HS}\)
 with parent-announced \(\mathcal N^{act}\), \(\mathcal P^{act}\), \(H_{e^-}\),
-and connection \(\nabla^P\), then prove the positive storage-trace anti-atom
-`(190)` for the retained selected packet \(D_Q\), concretely by proving the
-order-lock overlap terminal branch `(217)`--`(230)`, hence the order-locked full
-endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)`, hence `(192)`--`(194)`.
-That supplies fixed-core no-residue trace storage
-`(184)`--`(185)`, the terminal anti-atom `(186)`, tightness-or-paid-escape,
-critical parent-capacity packing `(175)`, `(169)`, `(163)`, and `(162)`.  This
-supplies active same-carrier adjoint admission `(155)` and quotient
-graph-capacity Bessel packing `(156)`.  If `(190)` fails, the endpoint pulse is
-no longer a hidden Gold reserve; after same-witness admission it is the CM
-Part/Field endpoint-face branch `(196)`.  The admitted
-same-carrier positive variations and active pressure-Hessian readouts must pack
-finitely because fresh endpoint-invisible affine cycles and selected
-pressure-Hessian carriers cannot keep escaping into smaller high-weight tubes,
-staying as fixed-core terminal critical atoms, or hiding in moving null
+and connection \(\nabla^P\), then prove the terminal detector admission and
+Bessel packing `(234)`--`(235)` for the bill `(232)`.  That supplies the
+order-lock overlap terminal branch `(217)`--`(230)`, the order-locked full
+endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)`, `(192)`--`(194)`,
+fixed-core no-residue trace storage `(184)`--`(185)`, the terminal anti-atom
+`(186)`, tightness-or-paid-escape, critical parent-capacity packing `(175)`,
+`(169)`, `(163)`, and `(162)`.  This supplies active same-carrier adjoint
+admission `(155)` and quotient graph-capacity Bessel packing `(156)`.  If
+`(190)` fails, the endpoint pulse is no longer a hidden Gold reserve; after
+same-witness admission it is the CM Part/Field endpoint-face branch `(196)`.
+The admitted same-carrier positive variations and active pressure-Hessian
+readouts must pack finitely because fresh endpoint-invisible affine cycles and
+selected pressure-Hessian carriers cannot keep escaping into smaller high-weight
+tubes, staying as fixed-core terminal critical atoms, or hiding in moving null
 projectors, without paying original-history positive metric variation, active
 Hodge--Stokes quotient energy, scale derivative, turnstile, exchange, covector,
 selector-boundary, spin-axis metric motion, angular viscous/connection residue,
 order-locked endpoint super-\(L^1\)/Hardy no-jump storage, annular-return
 no-pulse, terminal donor realization/no-Zeno, or legal charge.  The older
-formulations `(83)`, `(90)`, `(91)`, `(120)`--`(121)`,
-`(127)`, raw `(132)`, raw `(145)`--`(147)`, child-fitted `(153)`--`(156)`, raw
-`(169)`, raw `(175)`, and generic `(192)`--`(194)` are valid only insofar as
-they prove that
+formulations `(83)`, `(90)`, `(91)`, `(120)`--`(121)`, `(127)`, raw `(132)`,
+raw `(145)`--`(147)`, child-fitted `(153)`--`(156)`, raw `(169)`, raw `(175)`,
+and generic `(192)`--`(194)` are valid only insofar as they prove the
 parent-current active graph Bessel/no-cycle clause; `(91)` remains sharpened to
 the positive-variation budget `(100)`, not merely bounded endpoint Cauchy--Green
 state.
