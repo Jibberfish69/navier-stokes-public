@@ -5398,8 +5398,12 @@ inherited positive level can have finite parent-distance variation and infinite
 selected bill unless the selector counts only the parent-subtracted increment.
 Parent-subtracted quotient algebra alone also fails as a closure proof: it
 kills replay current, but `(301)`--`(307)` shows that the remaining possible
-failure is a positive critical packet in the active graph kernel.  That is a
-coercivity problem for the full coupled packet, not another QR/Bessel theorem.
+failure is a positive critical packet in the active graph kernel.  The active
+graph kernel closure `(311)`--`(316)` kills that interior kernel on retained
+parent-announced charts, so active graph coercivity is not the final live
+producer.  The survivor is fixed-core terminal concentration of the same full
+packet, measured by `(317)` and excluded only by terminal no-atom storage
+`(318)`--`(320)`.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -5469,11 +5473,11 @@ first-exit audit, `(274)` is equivalent to actual-selector first-exit capture
 `(287)` / `(290)` in the parent active Hodge--Stokes capacity metric.  After
 the parent-subtracted replay audit, `(287)` is equivalent to actual stopped
 selector replacement by the fresh increment `(294)`--`(295)`: replay of an
-inherited positive level is not a new selected action.  After the
-zero-increment pressure test, `(295)` is equivalent to active Hodge--Stokes
-graph coercivity `(305)`--`(308)` on retained parent-announced charts: no
-positive selected critical packet may lie in the graph kernel after the
-zero-stretch pressure null space is quotiented.
+inherited positive level is not a new selected action.  After the active graph
+kernel closure, `(295)` passes the interior graph-kernel test by
+`(311)`--`(316)`, and the equivalent hinge is terminal full-packet no-atom
+storage `(318)`--`(320)`: exclusion of fixed-core endpoint atoms of the same
+parent-known packet.
 Failure of that upgrade is the same-witness CM endpoint-face branch `(196)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
@@ -5490,9 +5494,10 @@ with parent-announced \(\mathcal N^{act}\), \(\mathcal P^{act}\), \(H_{e^-}\),
 and connection \(\nabla^P\), then prove the terminal no-replay detector
 admission and record-variation packing `(246)`--`(247)` for the bill `(232)`,
 with the square-to-linear terminal admission supplied by actual-selector
-first-exit capture `(287)` / `(290)`, now sharpened to parent-subtracted
-selector capture `(294)`--`(300)` and active graph coercivity `(305)`--`(308)`,
-refining `(254)`/`(256)` through `(269)`--`(310)`.  That supplies
+first-exit capture `(287)` / `(290)`, sharpened through parent-subtracted
+selector capture `(294)`--`(300)`, active graph kernel closure
+`(311)`--`(316)`, and terminal full-packet no-atom storage `(318)`--`(320)`,
+refining `(254)`/`(256)` through `(269)`--`(322)`.  That supplies
 `(234)`--`(235)`, the
 order-lock overlap terminal branch `(217)`--`(230)`, the order-locked full
 endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)`, `(192)`--`(194)`,
