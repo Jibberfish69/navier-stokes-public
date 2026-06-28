@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: invisible-square-refinement-admission-open
+status: parent-predictable-dual-stopped-testing-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -56,11 +56,16 @@ effect: >-
   split of that square bill exposes the next exact gap: a concentrated invisible
   square subinterval is only a measure-theoretic subinterval until the stopped
   parent packet can localize it as a lawful same-carrier child and pay every
-  cutoff, Hodge, pressure, frame, collar, route, legal, and stop defect. Thus the
-  current open producer is invisible-square refinement admission for the actual
-  selected high-high coefficients, then the Schur-thin gate, then finite
-  original-data control of the Schur record, negative return, and inverse-Gram
-  route variation.
+  cutoff, Hodge, pressure, frame, collar, route, legal, and stop defect. The
+  sharper nonanticipatory form is parent-predictable dual stopped-testing: the
+  invisible square bill is recovered by a dual time weight, and that weight is
+  not legal if it is chosen from future child readout. The original packet must
+  make the localized high-high detector a stopped parent-built test through the
+  localized Green current, or charge the time-cutoff, pressure-Hodge,
+  material-frame, collar, route, viscosity, legal, stop, or same-witness endpoint
+  defect. That parent-predictable stopped-testing theorem is the current open
+  producer; after it, the Schur-thin gate gives finite original-data control of
+  the Schur record, negative return, and inverse-Gram route variation.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
@@ -1606,4 +1611,62 @@ Thomas-dialogue verdict:
 - Did this create another alias? It collapses the anti-atom wording back to the
   actual producer: same-carrier invisible-square refinement admission.
 
-Partial, not Gold closed. The current sharp producer is `(97)`.
+## 16. Parent-predictable dual stopped-testing form
+
+The refinement theorem `(97)` must be read through duality.  On an invisible
+subinterval \(J\subset Z_i\),
+
+\[
+\nu^{-1}\int_J c_i^2\,dt
+=
+\sup_{\|\alpha\|_{L^2(J)}\le1}
+\nu^{-1}\left|\int_J c_i\alpha\,dt\right|^2 .
+\tag{100}
+\]
+
+The maximizing \(\alpha\) is selected from the future high-high readout.  It is
+not automatically a parent-built stopped test.  The candidate parent detector is
+
+\[
+\Psi_{i,J,\alpha}
+=
+\chi_J\alpha\Lambda^{-1/2}P_m\mathbb P\phi_i^P ,
+\tag{101}
+\]
+
+pulled back to the same material carrier.  The actual original-packet identity
+has the form
+
+\[
+\int_J c_i\alpha\,dt
+=
+\mathfrak J_P^{loc}(\Psi_{i,J,\alpha})
++\mathcal E^{time}
++\mathcal E^{Hodge}
++\mathcal E^{frame/collar}
++\mathcal E^{route}
++Legal+Stop .
+\tag{102}
+\]
+
+Therefore the sharp producer is
+
+\[
+\sup_{\|\alpha\|_{L^2(J)}\le1}
+\nu^{-1}|\mathfrak J_P^{loc}(\Psi_{i,J,\alpha})|^2
+\le
+C\rho_{i,J}^{loc},
+\qquad
+\sum_{J\subset Z_i}\rho_{i,J}^{loc}
+\le
+C\mathcal R_{loc}(P)+C\int |K|^2\,d\mu_P+C E_{paid}(P),
+\tag{103}
+\]
+
+with all terms in `(102)` outside the localized current paid by return, motion,
+collar, route, viscosity, legal, stop, or the same-witness endpoint face.  This
+is the noncircular content of `(97)`.
+
+Partial, not Gold closed. The current sharp producer is parent-predictable dual
+stopped-testing `(100)`--`(103)` for the actual invisible high-high
+coefficient.
