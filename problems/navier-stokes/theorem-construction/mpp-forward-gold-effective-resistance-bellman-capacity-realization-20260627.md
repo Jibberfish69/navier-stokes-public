@@ -6,11 +6,13 @@ problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 refines:
+  - ScaleNativeActiveParticipationNativeReserveHinge.A
   - RetainedActiveRawBellmanCapacity.A
   - ParentCurrentCoboundarySquareFunction.A
   - AffineGramSchurParticipationStorage.A
   - OriginalHistoryRoutedCurrentEnergyFinite.A
 source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-route-metric-bellman-capacity-pressure-test-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-current-coboundary-square-function-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-gram-schur-participation-storage-20260627.md
@@ -21,8 +23,8 @@ effect: >-
   The exact live mechanism is stronger and simpler: unchanged inherited reuse
   contributes zero new selected current, fresh residuals are Bessel-paid, and
   changed reuse is exactly projection-jump reserve.  Do not use this note as the
-  live Gold hinge.  The live theorem is the projection-jump/parent-announced
-  first-exit Carleson reserve.
+  live Gold hinge.  The live theorem has moved past projection-jump support to
+  the scale-native native-reserve map.
 ---
 
 # Effective-Resistance Bellman Capacity Pressure Test
@@ -49,7 +51,8 @@ Bessel-paid. Changed reuse is the projection jump
 \rho_i=\langle G,(\Pi_i-\Pi_{i-1})a_i\rangle .
 \]
 
-The live theorem is the finite projection-jump / parent-announced first-exit
+The installed reset-support theorem is the finite projection-jump /
+parent-announced first-exit
 Carleson bound
 \[
 \sum_i\|(\Pi_i-\Pi_{i-1})a_i\|_{\mathfrak H_P}^2
@@ -446,34 +449,25 @@ motion. The parent-announced first-exit reset theorem charges them into
 Thus exact reuse is handled by leverage saturation; changed reuse is handled by
 the reset-to-\(\mathcal E_{\rm route}\) reduction.
 
-## 7. Remaining theorem
+## 7. Current role
 
-This note changes the remaining PDE burden. It is no longer a request for raw
-Bessel to dominate the active critical metric. The algebraic Bellman mechanism
-is the log-det/effective-resistance telescope above.
+This note does not supply selected-action currency.  The log-det/effective
+resistance calculation is support for already-admitted parent reuse: once a
+selected read is a bounded original-packet/Riesz read, the inherited/root
+component can telescope through the parent stress record.
 
-The remaining theorem is:
+It does not pay a pure scale-native zoom birth.  A unit rescaled read may pull
+back to an original test of size \(r^{-1/2}\), so Bellman leverage cannot be
+promoted into full selected action unless the read is already admitted in a
+lawful channel.
+
+The remaining Gold producer is:
 
 ```text
-EffectiveResistanceSelectedActionAdmission.A
+NativeBirthChargePacking.A / SelectedGeneratorStorageCoercivity.A
 ```
 
-For every retained unpaid selected child before descendant selected readout,
-the selected new action is bounded by the parent-known stress-realized leverage
-charge, plus paid reset, legal, reselection, and terminal stop terms:
-
-\[
-\omega_Q^{new}
-\le
-C_N
-\log\left(1+\frac{\mu_G(\widehat Q)}{s_{Q^-}}\right)
-+R_Q^{legal}+Stop_Q^{term}+Reset_Q^{paid}.
-\tag{28}
-\]
-
-If `(28)` is proved from the stopped Navier-Stokes participation law, then
-`RetainedActiveRawBellmanCapacity.A` follows by `(13b)`--`(17)`, and the already
-installed downstream relay gives finite selected action, finite full
-same-material clock, and the usual \(H^s\) continuation.
+as recorded in
+`mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md`.
 
 Partial, not Gold closed.
