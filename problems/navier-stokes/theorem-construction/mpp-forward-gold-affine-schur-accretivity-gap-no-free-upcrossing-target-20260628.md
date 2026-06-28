@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: full-output-terminal-no-replay-detector-packing-open
+status: full-output-terminal-probe-admission-update-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -2874,3 +2874,78 @@ together with terminal full-packet no-atom storage and root-fixed terminal
 no-jump or Hardy thickness.  Every positive high-high dyadic transfer must be
 admitted into the paid same-carrier parent current, or routed to return,
 motion, viscosity, legal, stop, or endpoint.
+
+## 28. Probe admission/update is the first no-replay gate
+
+Terminal no-replay starts before the detector value is read.  The selected
+transverse probes must already be parent-known in the active Hodge--Stokes
+capacity; otherwise \(\rho_Q^{lin}\) is only selected readout renamed as
+capacity.
+
+For selected \(P\) and \(\alpha\in\{\widehat\xi,n\}\), set
+
+\[
+\tau_{P,\alpha}
+=
+1_{Q(P)}|w_{j_P}|^2
+\mathbb P_{\rm sym,tr}
+(\alpha_{j_P}\otimes\alpha_{j_P}).
+\tag{188}
+\]
+
+The admission/packing requirement is
+
+\[
+\sum_{P,\alpha}
+|\langle F,\tau_{P,\alpha}\rangle|^2
+\le
+C\,\rho_{\rm probe,N}(\mathcal F_N)
+\|F\|_{\mathfrak C_{P,act}^{HS}}^2,
+\tag{189}
+\]
+
+\[
+\rho_{\rm probe,N}(\mathcal F_N)
+\le
+C_N(u_0)+E_{\rm paid}+R_{\rm legal}+Stop.
+\tag{190}
+\]
+
+The pressure test is the same repeated-probe test:
+
+\[
+\tau_i=\tau,\quad i=1,\dots,M
+\quad\Longrightarrow\quad
+\sum_{i=1}^M\langle S_0,\tau_i\rangle_+
+=
+M\langle S_0,\tau\rangle_+,
+\tag{191}
+\]
+
+while the original same-carrier packet size of \(S_0\) is fixed.  So repeated
+selected terminal reads must be bounded-multiplicity/Bessel, Schur-retained
+after current update, or paid by reset, motion, return, viscosity, legal, stop,
+endpoint, active reserve, or rigid Zeno.
+
+The zero-current category repair is exactly the update law used here:
+
+\[
+\langle a,g\rangle=0,\quad g=G^{-1}m
+\quad\Longrightarrow\quad
+m\mapsto m+\delta a,\quad
+g\mapsto g+\delta G^{-1}a.
+\tag{192}
+\]
+
+The first positive entry is Bessel novelty.  After `(192)`, the coordinate is
+charged and repeated production is Schur current work.  A channel that remains
+perpendicular through repeated same-carrier production was not admitted.
+
+Physical reading: a zero-current perpendicular direction is fresh once.  After
+it produces, the parent current has changed.  Counting the same hidden squeeze
+again is terminal replay unless the parent record changes or the selector pays
+for the change.
+
+Partial, not Gold closed.  The strict affine producer is parent-known terminal
+probe admission/update `(188)`--`(192)`, feeding terminal no-replay detector
+packing `(184)`--`(185)`.
