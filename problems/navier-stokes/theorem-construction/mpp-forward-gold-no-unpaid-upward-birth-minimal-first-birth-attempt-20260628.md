@@ -1103,29 +1103,30 @@ endpoint-seed admission line; return and reset surfaces identify the right paid
 currencies; the upper critical-frame Bessel line is available after a
 parent-known critical lower-frame admission.
 
-Conditional relay: one-sided positive critical transfer / depletion / rigidity
-gives the parent-known critical capacity frame; that gives
-`NativeBirthChargePacking.A`, then selected compression root reserve, finite
-selected action, full same-material clock, and continuation.
+Conditional relay: the monotone positive-flux reserve `(59)`--`(60)` gives
+one-sided positive critical transfer; that gives the parent-known critical
+capacity frame, `NativeBirthChargePacking.A`, selected compression root
+reserve, finite selected action, full same-material clock, and continuation.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
 rebase.  Raw root ancestry is too coarse, because one ancestry bucket can hide
 infinitely many selected-scale endpoint-state changes.  Raw bounded-Riesz/QR
 packing closes only the bounded original-packet channel, not genuine
-scale-native births.
+scale-native births.  Minimal-profile compactness produces residue/profile
+alternatives, but not a finite root reserve.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
 `NativeBirthChargePacking.A`, equivalently the shared metric behind fresh
 endpoint Carleson, selected return square, critical weighted reset BV, stopped
-endpoint accretive testing, and one-sided positive critical transfer.
+endpoint accretive testing, one-sided positive critical transfer, and monotone
+positive-flux depletion.
 
-Live producer: prove the one-sided positive critical transfer / depletion /
-critical-element rigidity line `(50)`--`(51)` that supplies the scale-native
-critical capacity frame, or produce a specific noncircular obstruction showing
-that a retained same-material positive upcascade can keep old root endpoint
-ancestry with no selected return, critical reset, exchange, stop/legal event, or
-fresh native birth charge.
+Live producer: construct the noncircular positive-flux reserve `(59)`--`(60)`,
+or produce a specific same-material obstruction showing that a retained
+positive upcascade can regenerate without descendant-tail storage, native
+carrier payment, zero-flux profile production, selected return, critical reset,
+exchange, stop/legal event, or fresh native birth charge.
 
 Partial, not Gold closed.
