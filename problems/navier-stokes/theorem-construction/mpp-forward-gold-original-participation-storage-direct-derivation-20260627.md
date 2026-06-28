@@ -233,7 +233,7 @@ inverse-Gram weight.
 ## 4. Where the proof stops
 
 To turn `(14)` into `(1)`, the accretivity line `(13)` and the positive part of
-\(D_t\mathfrak S_J\) must become bounded-below storage drop. That requires a
+\(D_t\mathfrak S_J\) must become a bounded-below storage drop. That requires a
 same-packet bound of the form
 
 ```math
@@ -273,6 +273,8 @@ circular.
 The direct derivation gives this checked implication:
 
 ```math
+\text{rectified accretive lower bound}
++
 \text{bounded terminal Schur size}
 +
 \text{finite negative return}
@@ -283,7 +285,7 @@ The direct derivation gives this checked implication:
 \tag{18}
 ```
 
-It does not prove those three inputs from the installed original energy law.
+It does not prove those inputs from the installed original energy law.
 So the remaining theorem is exactly:
 
 ```text
