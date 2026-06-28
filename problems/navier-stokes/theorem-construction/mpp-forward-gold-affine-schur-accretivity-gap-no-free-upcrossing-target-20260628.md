@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: schur-thin-localized-green-current-admission-open
+status: schur-thin-paid-parent-current-admission-update-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -17,6 +17,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-below-same-material-service-storage-target-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-service-storage-equivalence-local-storage-no-go-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-martingale-under-service-storage-adjudication-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-paid-parent-current-span-perpendicular-category-repair-20260628.md
 completion_truth: partial-not-gold-closed
 effect: >-
   Records the corrected affine Schur scale-memory state. The original packet
@@ -35,18 +36,19 @@ effect: >-
   equation for that detector. The scalar output heat equation is the wrong
   object because differentiating the product creates a critical cross-gradient
   forcing. The two-particle equation is the supplier form; the proof mechanism
-  must be same-carrier duality and packing. The first duality pass exposed a
-  sharper obstruction: the raw weak-form current vanishes on compact interior
-  adjoint tests, so it cannot itself be the capacity that pays a positive
-  selected child zoom bill. The current open producer is localized Green-current
-  admission: construct the parent-collar/cutoff/material-boundary current,
-  solve the backward parent adjoint against the selected critical packet, and
-  prove that the resulting nonzero localized current admits the selected zoom
-  without selected-child lookahead. The admitted localized detectors must then
-  Bessel/Carleson pack in a reserve that counts positive material-metric
-  variation, not merely endpoint deformation. This is the current open producer
-  for `(30)`, then the Schur-thin gate, then finite original-data control of the
-  Schur record, negative return, and inverse-Gram route variation.
+  must be same-carrier duality and packing. The corrected payment category is
+  the paid parent-current span, not the raw catalogue of known detector
+  coordinates. A zero-current direction is fresh relative to paid parent-current
+  history, so its first positive entry is Bessel-payable and updates the Schur
+  current. After that update, repeated same-carrier production in the coordinate
+  is Schur current work. If the event keeps looking perpendicular in the payment
+  sense, it was not admitted into the parent current. Thus the current open
+  producer is the same-carrier dyadic admission/update theorem: every positive
+  high-high dyadic transfer enters the paid same-carrier parent current, or is
+  routed to return, motion, viscosity, legal, or stop. This is the current open
+  producer for `(30)`, then the Schur-thin gate, then finite original-data
+  control of the Schur record, negative return, and inverse-Gram route
+  variation.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
@@ -1199,3 +1201,165 @@ Thomas-dialogue verdict:
 
 Partial, not Gold closed. The current sharp producer is localized Green-current
 admission `(69)` plus localized novelty packing `(70)`.
+
+## 13. Paid parent-current span repair: perpendicular is not a fourth channel
+
+The localized-current pressure test `(63)`--`(73)` fixed one false capacity: the
+raw interior weak-form current is null.  The paid-parent-current repair fixes a
+second category error.  A direction may be known geometrically by the parent
+without being paid as parent current.
+
+Let \(H_P\) be the parent detector Hilbert space and set
+
+\[
+g(t)=G(t)^{-1}m(t).
+\tag{74}
+\]
+
+The span used for payment is
+
+\[
+R_{\rm paid}(t)
+=
+\overline{\operatorname{span}}\{
+\text{directions already admitted with nonzero paid current response,
+or already charged as novelty/motion/return}
+\}.
+\tag{75}
+\]
+
+This is not the raw detector dictionary.  A catalogued direction \(a\) with
+
+\[
+\langle a,g(t_0)\rangle=0
+\tag{76}
+\]
+
+is not already paid as parent current.  If positive same-carrier production
+first enters that coordinate, then before the entry it is fresh relative to
+\(R_{\rm paid}\).  That first entry is the Bessel novelty case.  In fixed metric
+notation,
+
+\[
+m^+=m+\delta a,
+\qquad
+g^+=g+\delta G^{-1}a,
+\qquad
+\delta>0.
+\tag{77}
+\]
+
+After `(77)`, the coordinate is no longer perpendicular in the payment sense.
+Repeated admitted production in the same coordinate is Schur current work:
+
+\[
+\int_{t_0}^{t_1} q\,dq
+=
+{1\over2}\bigl(q(t_1)^2-q(t_0)^2\bigr),
+\qquad
+q(t)=\langle g(t),a\rangle .
+\tag{78}
+\]
+
+When \(G\) moves, the same calculation is the affine Schur identity: the change
+of \(G^{-1}\) is the metric-motion term and is paid by
+\(\mathfrak S\,d\mathcal K\), route motion, return, legal, or stop.  There is
+no retained channel in which the same same-carrier positive production remains
+perpendicular forever.
+
+The old obstruction
+
+\[
+a\in R,\qquad \langle a,g\rangle=0,
+\tag{79}
+\]
+
+was therefore a bookkeeping contradiction.  If \(R\) means raw geometric
+catalogue, then `(79)` has not been paid and first positive production is fresh.
+If \(R\) means paid parent-current span, then repeated positive production
+updates \(g\) and becomes Schur work.  If the update is refused, the event was
+not admitted into the paid parent current.
+
+Thus the remaining Gold wall is narrower:
+
+\[
+\text{each positive high-high dyadic transfer}
+\Longrightarrow
+\text{paid parent-current entry, or paid route/return/viscous/legal/stop.}
+\tag{80}
+\]
+
+Equivalently, after fresh novelty and motion are removed, a retained positive
+same-carrier increment must satisfy
+
+\[
+T_Q^+
+\lesssim
+\int_Q \langle G^{-1}m,p_Q\rangle_+
++dA_Q^-
++\mathfrak S_Q\,d\mathcal K_Q
++\theta\nu D_Q
++Legal_Q+Stop_Q,
+\qquad \theta<1 .
+\tag{81}
+\]
+
+The exact hard line is admission/update:
+
+\[
+\text{positive high-high Navier--Stokes dyadic transfer}
+\Longrightarrow
+\text{admitted increment of the paid same-carrier parent current}.
+\tag{82}
+\]
+
+Paid line:
+
+\[
+\text{admission/update `(82)' plus Schur/Bessel/motion accounting}
+\Longrightarrow
+\text{finite selected zoom bill `(59)'.}
+\tag{83}
+\]
+
+Failed line:
+
+\[
+\text{known geometric coordinate with zero current}
+\not\Longrightarrow
+\text{already-paid parent-current direction.}
+\tag{84}
+\]
+
+Sharper unproved line:
+
+\[
+\text{prove `(82)' for every positive high-high dyadic transfer, or route the
+transfer to return, motion, viscosity, legal, or stop before selected readout.}
+\tag{85}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It corrects the payment category
+  itself: paid parent-current span, not raw detector catalogue.
+- Did this prove smoothness? No.  It removes the fake repeated-perpendicular
+  obstruction and narrows the remaining theorem to high-high same-carrier
+  admission/update.
+- What does it mean physically? A new zero-current direction is an unpaid
+  direction until the fluid actually produces current there.  First production
+  is a fresh entry; later production is work in the same current coordinate.
+- Is this the full coupled packet or a scalar proxy? It is full-packet only
+  when the high-high dyadic transfer is admitted as an increment of the same
+  pressure-viscosity-incompressibility parent current, with pressure-Hodge nulls
+  and metric motion routed before scalar readout.
+- Is this already handled in the repo? The corrected surface
+  `mpp-forward-gold-paid-parent-current-span-perpendicular-category-repair-20260628.md`
+  installs the category repair.  It explicitly leaves same-carrier dyadic
+  admission open.
+- Did this create another alias? No.  It deletes an alias: "repeated
+  perpendicular unpaid channel" was the same event being treated as both
+  nonfresh and zero-current.
+
+Partial, not Gold closed. The current sharp producer is the high-high
+same-carrier dyadic admission/update theorem `(82)`.
