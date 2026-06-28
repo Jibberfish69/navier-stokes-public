@@ -2411,7 +2411,9 @@ charge for endpoint-invisible reversible affine cycles.
 After the tight/escape pressure test, the cycle-birth charge is equivalent to
 `NoFreeHighWeightTubeEscapeCharge.A` / `ActiveWeightEscapeCarleson.A` on the
 escaping branch, with the tight branch handled by same-carrier zero-cost
-rigidity.
+rigidity.  After the duality-and-packing reformulation, that escape charge is
+not a standalone destination; it is the high-weight escape subcase of proving
+positive-metric-variation Bessel packing for the parent stress current.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
@@ -2421,14 +2423,16 @@ production, selected return, critical reset, exchange, stop/legal event, and
 fresh native birth charge.  Equivalently, prove the selected-forest lift `(78)`,
 or show that failure of `(78)` produces `PositiveActiveCarlesonReserve.A` or a
 rigid Zeno source class.  In the current strict form, this means prove the
-high-weight tube escape charge `(127)` from the original coupled Navier--Stokes
-history.  The admitted same-carrier positive variations must pack finitely
-because fresh endpoint-invisible affine cycles cannot keep escaping into
-smaller high-weight tubes without paying original-history scale derivative,
+duality-and-packing version of `(*)`: construct the noncircular parent capacity
+\(\mathfrak C_P\), prove same-carrier adjoint admission `(132)`, and prove
+positive-metric-variation Bessel packing `(133)`--`(136)`.  The admitted
+same-carrier positive variations must pack finitely because fresh endpoint-
+invisible affine cycles cannot keep escaping into smaller high-weight tubes
+without paying original-history positive metric variation, scale derivative,
 turnstile, exchange, covector, selector-boundary, or legal charge.  The older
-formulations `(83)`, `(90)`, `(91)`, and `(120)`--`(121)` are valid only insofar
-as they prove that escape-charge/no-cycle clause; `(91)` remains sharpened to
-the positive-variation budget `(100)`, not merely bounded endpoint
-Cauchy--Green state.
+formulations `(83)`, `(90)`, `(91)`, `(120)`--`(121)`, and `(127)` are valid
+only insofar as they prove that parent-current Bessel/no-cycle clause; `(91)`
+remains sharpened to the positive-variation budget `(100)`, not merely bounded
+endpoint Cauchy--Green state.
 
 Partial, not Gold closed.
