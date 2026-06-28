@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: schur-thin-two-particle-source-equation-open
+status: schur-thin-duality-packing-admission-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -34,12 +34,14 @@ effect: >-
   is still too weak a target; the useful producer is the parabolic source
   equation for that detector. The scalar output heat equation is the wrong
   object because differentiating the product creates a critical cross-gradient
-  forcing. The remaining theorem is the same-carrier two-particle source
-  equation for the high-high stress detector, with heat acting on the two input
-  carriers before output projection, plus paid pressure/Hodge and commutator
-  forcing; this implies `(30)`, then the Schur-thin gate, then finite
-  original-data control of the Schur record, negative return, and inverse-Gram
-  route variation.
+  forcing. The two-particle equation is the supplier form; the proof mechanism
+  must be same-carrier duality and packing. Each selected critical packet must
+  be admitted as a bounded parent-built adjoint read, then the selected reads
+  must Bessel/Carleson pack in a reserve that counts positive material-metric
+  variation, not merely endpoint deformation. This is the current open
+  producer for `(30)`, then the Schur-thin gate, then finite original-data
+  control of the Schur record, negative return, and inverse-Gram route
+  variation.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
@@ -835,3 +837,194 @@ Thomas-dialogue verdict:
   equation.
 
 Partial, not Gold closed. The current sharp producer is `(44)`--`(46)`.
+
+## 11. Duality-and-packing audit: no-free-zoom admission plus metric-variation packing
+
+The two-particle equation `(44)`--`(46)` is still only the supplier form unless
+the selected read is admitted through the parent packet and then packed there.
+The proof has to be a same-carrier duality-and-packing argument.
+
+Start with a stopped parent packet \(P\).  For each selected child packet
+\(Q\subset P\), the selected critical packet is
+
+\[
+D_Q=(S,\Pi_Q\nabla^2p),
+\qquad S=\nabla_{\rm sym}u,
+\tag{50}
+\]
+
+where \(\Pi_Q\nabla^2p\) is the pressure-Hessian part seen on the same selected
+carrier.  Its scale-critical selected zoom bill is
+
+\[
+a_Q
+:=
+\|S\|_{L^{5/2}(Q)}^2
++
+\|\Pi_Q\nabla^2p\|_{L^{5/4}(Q)}^2 .
+\tag{51}
+\]
+
+The parent-known stress current is
+
+\[
+\mathfrak J_P(\psi)
+=
+\int_P
+u\cdot(-\partial_t\psi-\nu\Delta\psi)
++
+(u\otimes u):\nabla\psi
++
+p\,\nabla\cdot\psi
+\,dx\,dt .
+\tag{52}
+\]
+
+This current keeps velocity, viscosity, pressure, and incompressibility in one
+parent-built packet.  For each selected \(Q\), let \(\mathcal A_Q(P)\) be the
+class of backward adjoint test fields built from the parent carrier and
+detecting \(Q\).  Define
+
+\[
+\rho_Q
+:=
+\sup_{\psi\in\mathcal A_Q(P),\ \|\psi\|_{\mathfrak C_P}\le1}
+|\mathfrak J_P(\psi)|^2 .
+\tag{53}
+\]
+
+This is the parent-known same-carrier capacity of \(Q\).
+
+Admission is the first real lemma.  Choose a dual critical test that sees
+\(D_Q\), solve the backward adjoint equation on the parent carrier, integrate
+by parts through the Navier-Stokes weak form, and put every
+boundary/reselection/reset defect into \(e_Q\).  The required no-free-zoom
+admission inequality is
+
+\[
+a_Q
+\le
+C\rho_Q
++
+C e_Q .
+\tag{54}
+\]
+
+This is exactly where circularity can enter.  The class \(\mathcal A_Q(P)\), the
+norm \(\mathfrak C_P\), and the projection \(\Pi_Q\) must be parent-built before
+the selected child readout.  If the dual test is allowed to use selected-child
+lookahead, `(54)` only renames the old selector admission gap.
+
+Packing is the second real lemma.  The selected adjoint detectors must be
+Bessel in the parent capacity space:
+
+\[
+\sum_{Q\subset P}
+|\mathfrak J_P(\psi_Q)|^2
+\le
+C\|\mathfrak J_P\|_{\mathfrak C_P^\ast}^2
++
+C E_{\rm paid}(P).
+\tag{55}
+\]
+
+Equivalently,
+
+\[
+\sum_{Q\subset P}\rho_Q
+\le
+C\mathcal R(P)
++
+C E_{\rm paid}(P).
+\tag{56}
+\]
+
+The reserve in \(\mathfrak C_P\) cannot store only endpoint deformation.  A
+stretch followed by reverse-stretch can cancel in the endpoint state.  It does
+not cancel as positive material variation.  With
+
+\[
+G=(\nabla_aX)^T\nabla_aX,
+\qquad
+K=G^{-1/2}D_tG\,G^{-1/2},
+\tag{57}
+\]
+
+the packing reserve must count
+
+\[
+\int_P |K|^2\,d\mu_P .
+\tag{58}
+\]
+
+This is the part that survives reversible affine cycles.  Endpoint storage may
+miss a cycle that returns to its starting shape; positive material-metric
+variation still records the work done during the cycle.
+
+Combining admission and packing gives the intended no-free-zoom estimate:
+
+\[
+\sum_{Q\subset P}a_Q
+\le
+C\sum_{Q\subset P}\rho_Q
++
+C\sum_{Q\subset P}e_Q
+\le
+C\mathcal R(P)
++
+C E_{\rm paid}(P)
+<\infty .
+\tag{59}
+\]
+
+Paid line:
+
+\[
+\text{parent-built adjoint admission `(54)' plus Bessel packing `(55)'--`(58)'}
+\Longrightarrow
+\text{finite selected zoom bill `(59)'.}
+\tag{60}
+\]
+
+Failed line:
+
+\[
+\text{endpoint deformation storage alone}
+\not\Longrightarrow
+\text{packing through reversible affine cycles.}
+\tag{61}
+\]
+
+Sharper unproved line:
+
+\[
+\text{construct \(\mathfrak C_P\), \(\mathcal A_Q(P)\), and \(\Pi_Q\) so that
+`(54)' is nonanticipatory, and prove `(55)' with the positive metric-variation
+reserve `(58)'.}
+\tag{62}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It turns the selected squeeze into a
+  parent-known same-carrier capacity and tries to pack that capacity.
+- Did this prove smoothness? No.  It gives the proof mechanism that would turn
+  selected zoom into paid parent capacity, but `(54)` and `(55)` are still the
+  two unproved lemmas.
+- What does it mean physically? A child cannot zoom for free if the parent has
+  already supplied an adjoint detector that sees the same velocity-pressure
+  packet, and if repeated detector use is charged to positive material
+  variation.
+- Is this the full coupled packet or a scalar proxy? Full coupled packet only
+  when \(\mathfrak J_P\) keeps velocity, viscosity, pressure, and
+  incompressibility together and \(\Pi_Q\nabla^2p\) is a same-carrier pressure
+  read, not an after-the-fact scalar projection.
+- Is this already handled in the repo? No.  Existing Bessel notes prove abstract
+  packing after admission.  This section names the exact admission and the
+  stronger positive-metric reserve needed for reversible affine cycles.
+- Did this create another alias? No.  It collapses "two-particle source
+  equation," "selected squeeze," and "parent adjoint detector" into one proof
+  burden: same-carrier adjoint admission plus positive-metric-variation packing.
+
+Partial, not Gold closed. The current sharp producer is same-carrier adjoint
+admission `(54)` plus positive-metric-variation Bessel packing `(55)`--`(58)`.
