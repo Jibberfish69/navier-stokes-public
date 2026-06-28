@@ -1407,7 +1407,11 @@ infinitely many selected-scale endpoint-state changes.  Raw bounded-Riesz/QR
 packing closes only the bounded original-packet channel, not genuine
 scale-native births.  Minimal-profile compactness produces residue/profile
 alternatives, but not a finite root reserve.  Signed donor saturation pays
-finite donor graphs but leaves the infinite terminal Zeno donor chain.
+finite donor graphs but leaves the infinite terminal Zeno donor chain.  Raw
+terminal angular mixing from trace-free strain, same-fluid transport, or
+selected-frequency drain fails on the neutral-transverse affine normal form;
+the complete-frame tax pays one ancestry line but leaves selected-forest
+summability or rigidity unproved.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -1416,13 +1420,18 @@ endpoint Carleson, selected return square, critical weighted reset BV, stopped
 endpoint accretive testing, one-sided positive critical transfer, and monotone
 positive-flux depletion; after the donor attempt, the noncircular reserve is
 equivalent to terminal angular mixing / positive strain decorrelation,
-positive active Carleson reserve, or rigid Zeno source-class production.
+positive active Carleson reserve, or rigid Zeno source-class production; after
+the angular-mixing pressure test, the first branch is specifically the
+neutral-transverse alignment exclusion / selected-forest complete-frame
+summability line `(78)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
 positive terminal alignment / active reserve demand / rigid Zeno residue while
 escaping descendant-tail storage, native carrier payment, zero-flux profile
 production, selected return, critical reset, exchange, stop/legal event, and
-fresh native birth charge.
+fresh native birth charge.  Equivalently, prove the selected-forest lift `(78)`,
+or show that failure of `(78)` produces `PositiveActiveCarlesonReserve.A` or a
+rigid Zeno source class.
 
 Partial, not Gold closed.
