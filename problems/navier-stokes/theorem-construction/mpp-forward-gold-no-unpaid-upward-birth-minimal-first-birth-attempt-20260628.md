@@ -2339,17 +2339,21 @@ endpoint-seed admission line; return and reset surfaces identify the right paid
 currencies; the upper critical-frame Bessel line is available after a
 parent-known critical lower-frame admission; the same-carrier metric-squeeze
 admission clause `(105)` is paid in the corrected currency by the material
-metric identity `(108)`--`(112)`.
+metric identity `(108)`--`(112)`.  The no-free-zoom bridge `(*)` now has a
+specific duality-and-packing proof form: same-carrier adjoint admission
+`(132)` plus positive-metric-variation Bessel packing `(133)`--`(136)`.
 
-Conditional relay: proving the high-weight tube escape charge `(127)` plus the
-tight-branch zero-cost rigidity `(123)`--`(125)` gives the reversible-cycle
-birth/scale-descent packing line `(120)`--`(121)`; that gives `(106)` for the
-metric charges `(111)` and hence finite selected action.  Equivalently, any
-branch of `(70)` that supplies a noncircular positive-flux reserve gives
-`(59)`--`(60)`; that gives one-sided positive critical transfer, the
-parent-known critical capacity frame, `NativeBirthChargePacking.A`, selected
-compression root reserve, finite selected action, full same-material clock, and
-continuation.
+Conditional relay: proving same-carrier adjoint admission `(132)` and
+positive-metric-variation Bessel packing `(133)`--`(136)` gives `(*)`, hence
+`(105)`--`(106)`, hence finite selected action.  The earlier high-weight tube
+escape charge `(127)` is the escape branch that the Bessel proof must control;
+combined with tight-branch zero-cost rigidity `(123)`--`(125)`, it gives the
+reversible-cycle birth/scale-descent packing line `(120)`--`(121)`.
+Equivalently, any branch of `(70)` that supplies a noncircular positive-flux
+reserve gives `(59)`--`(60)`; that gives one-sided positive critical transfer,
+the parent-known critical capacity frame, `NativeBirthChargePacking.A`,
+selected compression root reserve, finite selected action, full same-material
+clock, and continuation.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
