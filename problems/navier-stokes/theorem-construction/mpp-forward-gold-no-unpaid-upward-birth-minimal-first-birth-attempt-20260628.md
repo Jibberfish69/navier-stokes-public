@@ -5405,7 +5405,7 @@ metric identity `(311)`--`(316)`: zero metric variation gives zero strain, and
 the remaining pressure Hessian is the rigid-spin pressure balance already
 removed by the active quotient.  Active graph coercivity is support, and the
 live unproved line is terminal full-packet no-atom storage `(318)`--`(320)`.
-The horizon/no-waste pressure test `(323)`--`(328)` sharpens the positive
+The horizon/no-jump pressure test `(323)`--`(331)` sharpens the positive
 route: child-normalized descent `(326)` is only reset/rebase aliasing,
 root-fixed full-packet descent `(324)` plus nonresettable terminal-layer
 accounting `(325)` prevents repeated selected reuse, and Gold no-atom still
@@ -5658,8 +5658,9 @@ with the square-to-linear terminal admission supplied by actual-selector
 first-exit capture `(287)` / `(290)`, sharpened through parent-subtracted
 selector capture `(294)`--`(300)`, active graph kernel closure
 `(311)`--`(316)`, terminal full-packet no-atom storage `(318)`--`(320)`, and
-root-fixed no-waste descent `(324)`--`(325)` rather than child-renormalized
-storage `(326)`, refining `(254)`/`(256)` through `(269)`--`(328)`.  That supplies
+root-fixed full-packet descent `(324)`--`(325)` plus terminal no-jump `(327)` or
+Hardy thickness `(328)`, with child-renormalized storage `(326)` rejected,
+refining `(254)`/`(256)` through `(269)`--`(331)`.  That supplies
 `(234)`--`(235)`, the
 order-lock overlap terminal branch `(217)`--`(230)`, the order-locked full
 endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)`, `(192)`--`(194)`,
