@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: same-carrier-high-high-admission-update-open
+status: actual-selected-parent-current-capture-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -74,7 +74,9 @@ effect: >-
   same-carrier parent current, or routed to return, motion, viscosity, legal,
   stop, or the same-witness endpoint face. The selected root-capacity and
   stopped log-density square-function passages are mechanism attempts under
-  that wall; they do not replace it.
+  that wall; they do not replace it. The latest capture audit makes this
+  explicit: the parent-current exponential controls the actual selected density
+  only after actual-current capture is proved.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
