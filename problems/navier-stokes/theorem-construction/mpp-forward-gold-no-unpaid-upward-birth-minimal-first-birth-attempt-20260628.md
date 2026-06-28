@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: selected-forest-lift-collapses-to-strict-half-tail-exclusion-open
+status: strict-half-tail-exclusion-reduces-to-positive-metric-variation-no-cycle-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -50,6 +50,14 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-localized-affine-global-matching-scaling-audit-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-forward-native-reserve-ratio-tail-obstruction-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-weight-beating-tail-ns-structure-audit-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-half-tail-profile-liouville-boundary-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-nongauge-material-time-profile-liouville-test-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-local-state-action-storage-no-go-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-global-same-history-affine-burst-nozeno-audit-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-hessian-affine-tail-global-poisson-direct-test-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-time-cauchy-green-storage-sign-test-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-time-high-ratio-profile-coercivity-test-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-dyadic-reduced-identities-insufficiency-20260626.md
 completion_truth: partial-not-mpp-closed
 ---
 
