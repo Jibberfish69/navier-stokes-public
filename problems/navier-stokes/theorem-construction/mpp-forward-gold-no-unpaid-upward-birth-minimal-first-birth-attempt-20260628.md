@@ -5406,9 +5406,10 @@ the remaining pressure Hessian is the rigid-spin pressure balance already
 removed by the active quotient.  Active graph coercivity is support, and the
 live unproved line is terminal full-packet no-atom storage `(318)`--`(320)`.
 The horizon/no-waste pressure test `(323)`--`(328)` sharpens the positive
-route: a no-waste proof must construct root-fixed full-packet descent `(324)`
-plus nonresettable terminal-layer accounting `(325)`, while child-normalized
-descent `(326)` is only reset/rebase aliasing.
+route: child-normalized descent `(326)` is only reset/rebase aliasing,
+root-fixed full-packet descent `(324)` plus nonresettable terminal-layer
+accounting `(325)` prevents repeated selected reuse, and Gold no-atom still
+requires root-fixed terminal no-jump `(327)` or Hardy thickness `(328)`.
 
 Conditional relay: proving the positive storage-trace anti-atom `(190)` by the
 order-locked endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)` supplies
@@ -5456,8 +5457,9 @@ the same-witness endpoint face.  The zero-increment pressure test
 active graph kernel closure `(311)`--`(316)` discharges that criterion on
 retained parent-announced charts, so the relay now requires terminal no-atom
 storage `(318)`--`(320)`: no fixed-core endpoint atom of the same parent-known
-full packet.  A root-fixed full-packet descent proof `(324)`--`(325)` supplies
-that no-atom line by `(327)`.
+full packet.  Root-fixed full-packet descent `(324)`--`(325)` supplies
+nonresettable accounting only; the no-atom line still needs root-fixed terminal
+no-jump `(327)` or Hardy thickness `(328)`.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
@@ -5556,9 +5558,10 @@ producer.  The survivor is fixed-core terminal concentration of the same full
 packet, measured by `(317)` and excluded only by terminal no-atom storage
 `(318)`--`(320)`.  Treating no-waste Lyapunov as child-local storage also fails:
 `(326)` can pay the same terminal pulse once after every zoom without a single
-original-history functional seeing the accumulated drop.  A no-waste mechanism
-counts only if it has root-fixed descent `(324)` and nonresettable layer
-accounting `(325)`.
+original-history functional seeing the accumulated drop.  Treating root-fixed
+bounded-below descent itself as Gold no-atom also fails: `(324)`--`(325)` still
+allows one terminal jump.  The positive mechanism needs root-fixed terminal
+no-jump `(327)` or Hardy thickness `(328)`.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -5632,10 +5635,10 @@ inherited positive level is not a new selected action.  After the active graph
 kernel closure, `(295)` passes the interior graph-kernel test by
 `(311)`--`(316)`, and the equivalent hinge is terminal full-packet no-atom
 storage `(318)`--`(320)`: exclusion of fixed-core endpoint atoms of the same
-parent-known packet.  After the terminal no-waste pressure test, that hinge is
+parent-known packet.  After the terminal no-jump pressure test, that hinge is
 equivalent on the positive route to root-fixed full-packet descent
-`(324)`--`(325)`, with child-renormalized descent `(326)` rejected as reset
-aliasing.
+`(324)`--`(325)` plus root-fixed terminal no-jump `(327)` or Hardy thickness
+`(328)`, with child-renormalized descent `(326)` rejected as reset aliasing.
 Failure of that upgrade is the same-witness CM endpoint-face branch `(196)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
