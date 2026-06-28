@@ -1199,8 +1199,9 @@ Thomas-dialogue verdict:
   capacity is an alias unless it is the localized current produced by commuting
   the parent weak form.
 
-Partial, not Gold closed. The current sharp producer is localized Green-current
-admission `(69)` plus localized novelty packing `(70)`.
+Partial, not Gold closed at this pressure-test stage. Section 13 below
+supersedes the localized-current route as the live producer by repairing the
+paid parent-current category.
 
 ## 13. Paid parent-current span repair: perpendicular is not a fourth channel
 
