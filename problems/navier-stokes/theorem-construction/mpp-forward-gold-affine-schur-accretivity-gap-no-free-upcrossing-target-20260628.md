@@ -1670,3 +1670,110 @@ is the noncircular content of `(97)`.
 Partial, not Gold closed. The current sharp producer is parent-predictable dual
 stopped-testing `(100)`--`(103)` for the actual invisible high-high
 coefficient.
+
+## 17. First-hit audit: predictability still leaves the endpoint trace
+
+The nonanticipatory way to choose the invisible interval in Section 16 is not a
+maximal-density search.  It is a fixed-quantum first hit of the parent-known
+square score.  For the invisible coefficient \(c_i\) on \(Z_i\), set
+
+\[
+A_i(t)
+=
+\nu^{-1}\int_{t_i}^{t}1_{Z_i}(\sigma)c_i(\sigma)^2\,d\sigma .
+\tag{104}
+\]
+
+Fix the retained selected quantum \(\kappa_P\) before the child readout and
+define
+
+\[
+\tau_{n+1}
+=
+\inf\{t>\tau_n:\ A_i(t)-A_i(\tau_n)=\kappa_P\},
+\tag{105}
+\]
+
+with carrier exit, collar failure, route change, legal loss, and stop taken as
+paid exits.  Then \(J_n=[\tau_n,\tau_{n+1}]\) is a parent-announced stopped
+interval, and
+
+\[
+\nu^{-1}\int_{J_n}c_i^2\,dt=\kappa_P .
+\tag{106}
+\]
+
+If `(105)` never fires, the remaining invisible bill is below the retained
+quantum or sits on an endpoint/stop face.  Thus first hitting repairs the
+lookahead in the choice of \(J\): the interval is selected by a monotone
+parent score, not by searching the future child density.
+
+This does not yet prove `(103)`.  For a stopped \(J\), the dual weight
+\(\alpha\) is legal only because the parent detector class has already included
+the whole unit ball \(L^2(J)\).  The maximizing
+\(\alpha=c_i/\|c_i\|_{L^2(J)}\) is then an element of a predeclared capacity
+space, not a new child-fitted selector.  The real remaining cost appears when
+the localized detector is commuted through the parent packet:
+
+\[
+d(\chi_J\Psi)=\chi_J\,d\Psi+\Psi\,d\chi_J .
+\tag{107}
+\]
+
+The \(\Psi\,d\chi_J\) term is the same-carrier endpoint/cutoff trace created by
+turning a parent score interval into a stopped test.  It is not paid by the
+first-hit identity `(106)`, and it is not paid by abstract Bessel packing after
+admission.  The missing estimate is
+
+\[
+\sup_{\|\alpha\|_{L^2(J)}\le1}
+\nu^{-1}
+\left|
+\mathcal E^{\partial J}_{i,J,\alpha}
+\right|^2
+\le
+Paid_{i,J}+CM_{i,J}^{end},
+\tag{108}
+\]
+
+where \(\mathcal E^{\partial J}\) is the time-cutoff endpoint trace from
+`(107)`, including its pressure-Hodge, frame, collar, route, viscosity, legal,
+and stop companions.  It must either enter the same stopped return/BV currency,
+the positive endpoint trace temporal-variation currency, or a same-witness
+endpoint face.
+
+The pressure test is the terminal pulse model.  A sequence can have
+\(\nu^{-1}\int_J c_i^2=\kappa_P\) on first-hit intervals \(J\) with
+\(|J|\downarrow0\).  First hitting makes those intervals predictable, but the
+cutoff trace concentrates at their endpoints unless `(108)` supplies temporal
+variation, return, route, legal, stop, or endpoint payment.
+
+Paid line:
+
+\[
+\text{first-hit score `(104)'--`(106)' + endpoint trace charge `(108)'}
+\Longrightarrow
+\text{parent-predictable dual stopped-testing `(103)'.}
+\tag{109}
+\]
+
+Failed line:
+
+\[
+\text{first-hit square-score predictability}
+\not\Longrightarrow
+\text{payment of the endpoint/cutoff trace in `(107)'.}
+\tag{110}
+\]
+
+Current unproved line:
+
+\[
+\text{prove `(108)' for the actual invisible high-high stopped tests, or route
+the cutoff trace to return, motion, viscosity, legal, stop, or endpoint.}
+\tag{111}
+\]
+
+Partial, not Gold closed. The current sharp producer is first-hit
+parent-predictable dual stopped-testing plus the endpoint/cutoff trace charge
+`(108)` for the actual invisible high-high coefficient.
