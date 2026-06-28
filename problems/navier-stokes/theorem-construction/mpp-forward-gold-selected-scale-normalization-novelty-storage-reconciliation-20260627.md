@@ -21,9 +21,9 @@ attacks_hinge:
   - OriginalScaleMemoryGeneratorEnergyBound.A
   - SelectedGeneratorStorageCoercivity.A
   - StoppedAccretiveTestingData.A
-  - CriticalPositiveTransferReserve.A
+  - PositiveCriticalTransferBound.A
 source_surfaces:
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-positive-transfer-reduction-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-fractional-transfer-reduction-20260628.md
 effect: >-
   Reconciles the physical scale-normalization statement with the checked repo
   state. The same material Cauchy stress history supplies the raw stress. The

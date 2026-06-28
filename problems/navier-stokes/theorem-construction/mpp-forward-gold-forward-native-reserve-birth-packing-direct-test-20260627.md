@@ -22,7 +22,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-installed-support-axioms-half-tail-model-no-go-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-shell-transfer-reservoir-identity-and-rectified-recirculation-test-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-direct-full-clock-original-history-attempt-20260625.md
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-positive-transfer-reduction-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-fractional-transfer-reduction-20260628.md
 ---
 
 # Forward-native reserve birth-packing direct test

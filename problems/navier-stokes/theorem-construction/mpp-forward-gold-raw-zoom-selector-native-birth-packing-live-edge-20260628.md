@@ -15,7 +15,7 @@ live_obligation:
   aliases:
     - CriticalFreshSourceTentCarleson.A
     - OriginalScaleMemoryStorageCoercivity.A
-    - CriticalPositiveTransferReserve.A
+    - PositiveCriticalTransferBound.A
     - bounded-multiplicity native-reserve assignment
 completion_truth: partial-not-mpp-closed
 ---

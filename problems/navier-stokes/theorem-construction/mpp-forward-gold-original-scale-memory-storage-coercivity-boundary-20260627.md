@@ -8,9 +8,9 @@ attacks_hinge:
   - OriginalScaleMemoryStorageCoercivity.A
   - OriginalScaleMemoryGeneratorEnergyBound.A
   - CriticalFreshSourceTentCarleson.A
-  - CriticalPositiveTransferReserve.A
+  - PositiveCriticalTransferBound.A
 source_surfaces:
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-positive-transfer-reduction-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-fractional-transfer-reduction-20260628.md
 ---
 
 # Original scale-memory storage coercivity boundary
@@ -112,7 +112,7 @@ StoppedAccretiveTestingData.A / OriginalHistoryHilbertBMOProducer.A
 or, in the physical fractional-energy language,
 
 ```text
-CriticalPositiveTransferReserve.A
+PositiveCriticalTransferBound.A
 ```
 
 Statement:
@@ -128,7 +128,7 @@ energy alone.  The natural storage gives a balance law, not square coercivity.
 The live producer is now sharpened to:
 
 ```math
-\boxed{\text{SelectedGeneratorStorageCoercivity.A / CriticalPositiveTransferReserve.A}.}
+\boxed{\text{SelectedGeneratorStorageCoercivity.A / PositiveCriticalTransferBound.A}.}
 ```
 
 The standard estimate closes the positive-transfer bound only for small

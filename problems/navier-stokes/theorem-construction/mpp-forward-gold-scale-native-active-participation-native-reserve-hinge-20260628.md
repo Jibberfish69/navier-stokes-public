@@ -12,13 +12,13 @@ refines:
   - ForwardNativeReserveBirthPaysFullPLS.A
   - OriginalScaleMemoryStorageCoercivity.A
   - SelectedGeneratorStorageCoercivity.A
-  - CriticalPositiveTransferReserve.A
+  - PositiveCriticalTransferBound.A
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-action-currency-bounded-original-packet-enforcement-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-unit-riesz-representative-source-graph-admission-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-forward-native-reserve-birth-packing-direct-test-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-scale-memory-storage-coercivity-boundary-20260627.md
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-positive-transfer-reduction-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-fractional-transfer-reduction-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-full-exchange-native-reserve-pivot-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-squarepacking-to-hs-closure-verification-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-material-clock-to-fixed-hs-continuation-readout-20260623.md
@@ -278,7 +278,7 @@ The repo now records three equivalent hard faces of that line:
 ```text
 NativeBirthChargePacking.A
 SelectedGeneratorStorageCoercivity.A / OriginalScaleMemoryStorageCoercivity.A
-CriticalPositiveTransferReserve.A
+PositiveCriticalTransferBound.A
 ```
 
 The natural scale-memory storage gives a balance identity, not square

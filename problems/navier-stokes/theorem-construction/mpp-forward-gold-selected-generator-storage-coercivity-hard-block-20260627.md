@@ -9,9 +9,9 @@ attacks_hinge:
   - StoppedAccretiveTestingData.A
   - OriginalScaleMemoryStorageCoercivity.A
   - CriticalFreshSourceTentCarleson.A
-  - CriticalPositiveTransferReserve.A
+  - PositiveCriticalTransferBound.A
 source_surfaces:
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-positive-transfer-reduction-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-fractional-transfer-reduction-20260628.md
 ---
 
 # Selected generator storage coercivity: hard block
@@ -146,7 +146,7 @@ control.  Without `(8)`--`(9)`, the storage route has no positive lower bound.
 The live producer remains:
 
 ```text
-CriticalPositiveTransferReserve.A / StoppedAccretiveTestingData.A
+PositiveCriticalTransferBound.A / StoppedAccretiveTestingData.A
 ```
 
 or equivalently a concrete selected-generator storage coercivity theorem proving
