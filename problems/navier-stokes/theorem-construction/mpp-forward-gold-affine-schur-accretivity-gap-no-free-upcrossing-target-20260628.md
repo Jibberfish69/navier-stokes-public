@@ -1672,9 +1672,9 @@ with all terms in `(102)` outside the localized current paid by return, motion,
 collar, route, viscosity, legal, stop, or the same-witness endpoint face.  This
 is the noncircular content of `(97)`.
 
-Partial, not Gold closed. The current sharp producer is parent-predictable dual
-stopped-testing `(100)`--`(103)` for the actual invisible high-high
-coefficient.
+Partial, not Gold closed.  At this point the sharp producer is
+parent-predictable dual stopped-testing `(100)`--`(103)`; Sections 17--18 below
+collapse it further to the fixed-core lower-edge/root-reserve survivor.
 
 ## 17. First-hit audit: predictability still leaves the endpoint trace
 
