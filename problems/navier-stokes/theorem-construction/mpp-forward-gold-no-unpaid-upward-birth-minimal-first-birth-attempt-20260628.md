@@ -2455,7 +2455,139 @@ Thomas-dialogue verdict:
   must be a parent-known Hodge--Stokes plus positive-metric-variation graph
   norm.  Anything less cannot admit the pressure-Hessian bill noncircularly.
 
-## 27. Truth ledger
+## 27. Graph packing pressure test: rigid rotation is not a squeeze
+
+Attempt the graph-capacity packing line `(147)` with the pressure-Hessian term
+still read as a raw selected Hessian norm.
+
+The immediate countertest is a same-carrier rigid-rotation affine packet:
+
+\[
+u(x)=\Omega x,
+\qquad
+\Omega^T=-\Omega,
+\qquad
+S=0.
+\tag{148}
+\]
+
+Ignoring localization collars for the moment, this is balanced by pressure:
+
+\[
+(u\cdot\nabla)u=\Omega^2x,
+\qquad
+\nabla^2p=-\Omega^2.
+\tag{149}
+\]
+
+The material metric does not stretch:
+
+\[
+D_tG=0,
+\qquad
+K=G^{-1/2}D_tG\,G^{-1/2}=0,
+\tag{150}
+\]
+
+but the raw pressure-Hessian norm can be nonzero:
+
+\[
+\|\nabla^2p\|_{L^{5/4}(Q)}\ne0.
+\tag{151}
+\]
+
+So a packet bill that contains raw \(\|\Pi_Q\nabla^2p\|_{L^{5/4}}\) still
+overcharges the wrong object.  It counts centripetal pressure constraint for
+rigid spin as if it were selected squeeze.
+
+The strain equation explains the quotient that is needed:
+
+\[
+D_tS-\nu\Delta_AS
+=
+-\bigl(S^2+\Omega^2+\nabla_A^2p\bigr)
++\operatorname{Coef}_A(u,p).
+\tag{152}
+\]
+
+For `(148)`--`(149)`, the active strain-driving residual vanishes.  Therefore
+the pressure-Hessian component in the selected packet must be the active
+Hodge--Stokes quotient
+
+\[
+\Pi_Q^{act}\nabla_A^2p
+:=
+\Pi_Q^{HS}\bigl(\nabla_A^2p+\Omega_A^2\bigr)
+\quad
+\text{modulo top-strain, coefficient, collar, stop, and legal terms}.
+\tag{153}
+\]
+
+The corrected selected graph bill is
+
+\[
+a_Q^{act}
+:=
+\|S\|_{L^{5/2}(Q)}^2
++
+\|\Pi_Q^{act}\nabla_A^2p\|_{L^{5/4}(Q)}^2 .
+\tag{154}
+\]
+
+The corresponding admission and packing targets become
+
+\[
+a_Q^{act}
+\le
+C\rho_Q^{act}
++C\Omega_Q^{top\text{-}strain/ex}
++CD_Q^{vis/rad}
++Ce_Q,
+\tag{155}
+\]
+
+and
+
+\[
+\sum_{Q\subset P}
+\left(
+\rho_Q^{act}
++\Omega_Q^{top\text{-}strain/ex}
++D_Q^{vis/rad}
+\right)
+\le
+C\mathcal R(P)+CE_{\rm paid}(P).
+\tag{156}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It attacks the live graph-capacity
+  producer by asking whether the selected pressure-Hessian bill is really a
+  selected squeeze.
+- Did this prove smoothness? No.  It removes a false bill from the proof shape
+  and sharpens the producer to `(155)`--`(156)`.
+- What does it mean physically? Pressure can hold a rotating material packet
+  in curved motion without stretching it.  That centripetal pressure is part of
+  incompressibility, not a zoom bill.
+- Is this the full coupled packet or a scalar proxy? Raw pressure Hessian is a
+  scalar proxy here.  The full coupled packet is the Hodge--Stokes graph after
+  quotienting the zero-stretch skew-inertial pressure balance.
+- Is this already handled in the repo? The repo already says pressure/Hodge
+  attachment is real, instantaneous Poisson interaction is not closure, and
+  full-packet no-residue is the correct direction.  It does not install the
+  active quotient `(153)` or the graph Bessel packing `(156)`.
+- Did this create another alias? No.  It collapses the pressure-Hessian bill
+  back to the original coupled participation object: only pressure curvature
+  that survives the active Hodge--Stokes quotient can be selected action.
+
+The stronger insight is that \(\mathfrak C_P^{HS}\) must be a quotient graph
+capacity.  Its null space contains parent-predictable rigid spin / skew-inertial
+pressure balance.  Positive metric variation, Hodge--Stokes graph energy, and
+paid exchange/reselection terms must pack the quotient, not the raw pressure
+Hessian.
+
+## 28. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
