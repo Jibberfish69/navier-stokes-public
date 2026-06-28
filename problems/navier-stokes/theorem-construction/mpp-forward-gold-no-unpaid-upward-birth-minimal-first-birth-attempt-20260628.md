@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: terminal-full-packet-no-atom-storage-open
+status: terminal-full-packet-root-fixed-no-waste-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -5192,15 +5192,15 @@ is paid in the original same-material packet:
 4. actual stopped selector capture: a counted child bill must be a
    parent-subtracted first-exit increment, parent-bundled dust, stopped/legal
    loss, or same-witness endpoint-face material;
-5. terminal full-packet no-atom storage for \(\Phi_P\), equivalently `(318)'--`(320)'
+5. terminal full-packet no-atom storage for \(\Phi_P\), equivalently `(318)`--`(320)`
    or the time-thickness form `(654)';
 6. if the terminal no-atom producer fails, same-witness endpoint-face admission
    must consume that failure as a CM branch rather than counting it as Gold
    closure.
 
-Items 1--4 are support in the current file after the active graph kernel audit.
-Item 5 is the remaining Gold producer.  Item 6 is the only lawful fallback for
-failure of item 5.
+Items 1--4 are reduced to support/relay already represented in the current
+file after the active graph kernel audit.  Item 5 is the remaining Gold
+producer.  Item 6 is the only lawful fallback for failure of item 5.
 
 Now pressure-test the last possible positive mechanism.  Suppose a fixed-core
 terminal atom survives:
@@ -5376,6 +5376,10 @@ metric identity `(311)`--`(316)`: zero metric variation gives zero strain, and
 the remaining pressure Hessian is the rigid-spin pressure balance already
 removed by the active quotient.  Active graph coercivity is support, and the
 live unproved line is terminal full-packet no-atom storage `(318)`--`(320)`.
+The horizon/no-waste pressure test `(323)`--`(328)` sharpens the positive
+route: a no-waste proof must construct root-fixed full-packet descent `(324)`
+plus nonresettable terminal-layer accounting `(325)`, while child-normalized
+descent `(326)` is only reset/rebase aliasing.
 
 Conditional relay: proving the positive storage-trace anti-atom `(190)` by the
 order-locked endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)` supplies
@@ -5423,7 +5427,8 @@ the same-witness endpoint face.  The zero-increment pressure test
 active graph kernel closure `(311)`--`(316)` discharges that criterion on
 retained parent-announced charts, so the relay now requires terminal no-atom
 storage `(318)`--`(320)`: no fixed-core endpoint atom of the same parent-known
-full packet.
+full packet.  A root-fixed full-packet descent proof `(324)`--`(325)` supplies
+that no-atom line by `(327)`.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
