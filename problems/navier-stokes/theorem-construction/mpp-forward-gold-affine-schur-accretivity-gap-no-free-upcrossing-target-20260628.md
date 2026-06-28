@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: schur-thin-paid-parent-current-admission-update-open
+status: schur-thin-signed-current-square-admission-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -42,10 +42,17 @@ effect: >-
   history, so its first positive entry is Bessel-payable and updates the Schur
   current. After that update, repeated same-carrier production in the coordinate
   is Schur current work. If the event keeps looking perpendicular in the payment
-  sense, it was not admitted into the parent current. Thus the current open
-  producer is the same-carrier dyadic admission/update theorem: every positive
-  high-high dyadic transfer enters the paid same-carrier parent current, or is
-  routed to return, motion, viscosity, legal, or stop. This is the current open
+  sense, it was not admitted into the parent current. A later stopped
+  coefficient-update audit shows the next hidden gap: the identity
+  dM_i=-<B_i,phi_i>dt+paid proves only a signed parent-current derivative. It
+  does not by itself control the squared positive selected bill, because
+  positive clipping and squaring before signed same-carrier admission can turn a
+  thin current derivative into fake paid action. Thus the current open producer
+  is signed high-high current-square admission: every positive high-high dyadic
+  transfer must first be admitted as a signed increment of the paid same-carrier
+  parent current, and only then may the positive square be packed by first-entry
+  Bessel novelty, retained Schur current work, time-thickness/endpoint descent,
+  or routed return, motion, viscosity, legal, or stop. This is the current open
   producer for `(30)`, then the Schur-thin gate, then finite original-data
   control of the Schur record, negative return, and inverse-Gram route
   variation.
