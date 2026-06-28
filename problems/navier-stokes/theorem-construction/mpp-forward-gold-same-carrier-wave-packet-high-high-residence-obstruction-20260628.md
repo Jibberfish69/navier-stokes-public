@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-same-carrier-wave-packet-high-high-residence-obstruction-20260628
-status: frame-algebra-admitted; paid-parent-current-admission-open
+status: frame-algebra-admitted; individual-input-colored-triad-one-point-admission-false; full-output-stress-admission-available
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur accretivity edge
@@ -12,7 +12,8 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-high-bilinear-stress-parent-adjoint-lift-pressure-test-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-predictable-high-high-detector-net-obstruction-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-adjoint-bessel-packing-under-parent-subtracted-novelty-20260628.md
-completion_truth: partial; parent wave-packet frame gives the legal detector coordinate, but paid parent-current admission/update for positive high-high transfer remains unproved
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-high-parent-current-admission-identity-attempt-20260628.md
+completion_truth: partial; parent wave-packet frame gives the legal detector coordinate, the one-point identity is exact for full output-local stress, and individual input-colored high-high triad admission would require a two-point parent current or a full-output reformulation
 ---
 
 # Same-carrier wave-packet high-high residence obstruction
@@ -23,6 +24,15 @@ A zero-current direction is fresh relative to paid parent-current history and is
 Bessel-payable on entry; after admission, repeated same-coordinate production is
 Schur current work. The remaining high-high burden is therefore paid-current
 admission/update, not a separate repeated-perpendicular residence payment.
+
+Second supersession note, 2026-06-28: the requested one-point parent-current
+identity is exact for the full output-local stress
+\(\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u\otimes u)\). It is false for an
+individual input-colored high-high triad
+\(\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u_k\otimes u_\ell)\), because input-color
+selection depends on the frequency split \((\xi,\eta)\), while a one-point stress
+current test depends only on the output variable. See
+`mpp-forward-gold-high-high-parent-current-admission-identity-attempt-20260628.md`.
 
 ## 1. Intake
 
@@ -125,8 +135,14 @@ paid parent-current coordinate.
 
 ## 4. Exact remaining theorem
 
-The high-high branch therefore closes with paid-current admission/update. In
-parent packet form, the required theorem is:
+The high-high branch therefore has to choose its object before closure. For the
+full output-local stress, paid-current admission/update is an exact one-point
+identity plus motion, viscosity, Hodge, collar, legal, and stop errors. For an
+individual input-colored high-high triad, the following theorem is not available
+with the installed one-point parent current; it would require either full-output
+selection or a two-point parent-current theory.
+
+In parent packet form, the desired estimate is:
 
 For every stopped parent packet \(P\), retained high-high scale family, and parent-declared same-carrier frame, the selected positive source reads satisfy
 
@@ -149,10 +165,10 @@ The Schur term pays already admitted same-material current, the Bessel term pays
 first-entry parent-current novelty, the \(\mathcal K\) and route terms pay motion,
 and the strict \(\theta D^\nu\) term is the only allowed raw viscous absorption.
 
-This is the exact no-free high-high source inequality. It is stronger than frame
-existence and weaker than restating global smoothness: it asks for positive
-same-carrier high-high transfer to be admitted into the paid parent-current
-ledger rather than left as an uncharged raw output norm.
+This is the exact no-free high-high source inequality once the correct high-high
+object is chosen. For full output-local stress it is compatible with the
+one-point parent current. For input-colored triads it asks for a current the
+installed one-point parent stress-current does not contain.
 
 ## 5. Sharp obstruction if the theorem fails
 
@@ -161,20 +177,22 @@ A failure sequence has this form:
 1. \(B_i=\Lambda^{-1/2}P_{m_i}\mathbb P\nabla\cdot(u_{m_i}\otimes u_{m_i})\) produces positive selected \(H^{1/2}\) transfer.
 2. The selected output packets are legal parent-frame tests.
 3. Parent-subtracted novelty Bessel-packs and motion is charged.
-4. The selected read is not admitted as first-entry novelty or as an increment of
-   an already paid parent-current coordinate.
+4. The selected read is an individual input-colored bilinear current, not a
+   one-point parent stress-current read.
 5. The remaining same-scale coefficient has large critical density
    \(A_{m_i}/\nu^2\), so the fallback standard bound gives only
    \((A_{m_i}/\nu^2)D_{m_i}^\nu\), not \(\theta D_{m_i}^\nu\).
 
 That sequence is not a missing fourth payment. It is the exact place where the
-current three-payment route still needs high-high paid-current admission.
+current route must either switch to full-output stress selection or install a
+two-point parent-current capacity.
 
 ## 6. Outcome
 
 The parent-declared same-carrier wave-packet frame is a valid detector coordinate,
-not closure. It proves that high-high source reads can be represented as
-parent-known stress-current tests under the same-carrier Egorov / Coifman--Meyer
-bound. The remaining open theorem is paid parent-current admission/update for
-positive high-high transfer. Without that admission, the high-high branch falls
-back to the standard \(H^{1/2}\) energy obstruction.
+not closure. It proves that full output-local stress reads can be represented as
+parent-known one-point stress-current tests under the same-carrier Egorov /
+Coifman--Meyer bound. It does not represent individual input-colored high-high
+triads in that one-point current. Without a full-output reformulation or a
+two-point capacity theorem, the high-high branch falls back to the standard
+\(H^{1/2}\) energy obstruction.
