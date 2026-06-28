@@ -4208,6 +4208,7 @@ C
 |\langle\mathfrak J_P,d_Q\rangle|^2
 +
 {(\Delta_Q^+)^2\over A_Q^{inv}}
++A_Q^{inv}
 \right]
 +CE_P^{paid},
 \tag{257}
