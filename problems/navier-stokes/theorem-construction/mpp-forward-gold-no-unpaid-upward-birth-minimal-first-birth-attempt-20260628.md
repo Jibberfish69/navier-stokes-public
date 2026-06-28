@@ -2718,7 +2718,128 @@ construct \(\mathcal N^{act}\), \(\mathcal P^{act}\), \(H_{e^-}\), and the
 connection \(\nabla^P\) from parent history, then prove `(162)`--`(163)` from
 the original Navier--Stokes participation law.
 
-## 29. Truth ledger
+## 29. Projector-motion pressure test: rigid spin cannot move for free
+
+Audit the supplied duality-and-packing spine at the exact place where a moving
+active quotient could still hide selected zoom.
+
+On a stopped parent material chart, write the affine packet gradient as
+
+\[
+A=S+\Omega,
+\qquad
+S^T=S,
+\qquad
+\Omega^T=-\Omega .
+\tag{164}
+\]
+
+The parent material Navier--Stokes gradient equation has the schematic form
+
+\[
+D_t A + A^2+\nabla_A^2p
+=
+\mathcal V_A+\mathcal C_A ,
+\tag{165}
+\]
+
+where \(\mathcal V_A\) is the viscous graph term and \(\mathcal C_A\) contains
+parent-known frame, covector, collar, exchange, reselection, stop, and legal
+terms.  Splitting `(165)` into symmetric and skew parts gives
+
+\[
+D_t\Omega+S\Omega+\Omega S
+=
+\mathcal V_\Omega+\mathcal C_\Omega ,
+\tag{166}
+\]
+
+and
+
+\[
+D_tS+S^2+\Omega^2+\nabla_A^2p
+=
+\mathcal V_S+\mathcal C_S .
+\tag{167}
+\]
+
+Thus a genuine zero-stretch rigid-spin null packet has no unpaid projector
+motion.  If \(S=0\), \(K=0\), \(\nabla_A^2p+\Omega^2=0\), and the paid
+viscous/connection terms vanish, then `(166)` gives \(D_t\Omega=0\).  The
+rigid-spin null direction is transported as parent-known inertial data; it
+does not create a selected child capacity after the fact.
+
+On stopped subcharts where the parent-announced spectral gap
+\(\gamma_\Omega\) separates the zero-stretch skew-inertial null space from the
+active quotient, the projector derivative obeys the Kato/Davis--Kahan type
+bound
+
+\[
+\left\|
+\left(\nabla^P\Pi_{\mathcal N^{act}}\right)_{\rm new}
+\right\|_{\operatorname{op}}^2
+\lesssim
+\gamma_\Omega^{-2}
+\left(
+\|S\Omega+\Omega S\|_{\mathcal H^{HS}}^2
++
+\|\mathcal V_\Omega+\mathcal C_\Omega\|_{\mathcal H^{HS}}^2
+\right)
++Stop+Legal .
+\tag{168}
+\]
+
+Loss of the gap is not free motion; it is a stop, reselection, or legal event.
+Therefore `(163)` reduces to the active-weight strain-vorticity/connection
+Carleson estimate
+
+\[
+\int_{\operatorname{Hist}(P')}
+H_P^\ast\gamma_\Omega^{-2}
+\left(
+\|S\Omega+\Omega S\|_{\mathcal H^{HS}}^2
++
+\|\mathcal V_\Omega+\mathcal C_\Omega\|_{\mathcal H^{HS}}^2
+\right)
+\,d\sigma dt
+\le
+C_N(u_0)\mathcal R(P')+Stop(P')+R_{\rm legal}(P')
+\tag{169}
+\]
+
+for every stopped \(P'\subseteq P\).
+
+The paid line is real: pure rigid spin and its pressure curvature cannot move
+the active null projector unless strain, viscosity, frame/covector motion,
+collar exchange, reselection, stop, or legal charge moves it.  The unproved
+line is `(169)`: the original same-material Navier--Stokes participation law
+must Carleson-pack this active-weight strain-vorticity/connection charge in
+the parent quotient capacity.
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It attacks `(163)`, the current
+  noncircularity condition for the active quotient.
+- Did this prove smoothness? No.  It proves that the rigid-spin null is not a
+  free hiding place, then exposes `(169)` as the exact open producer.
+- What does it mean physically? Rigid spin itself is harmless; changing the
+  spin axis, spin rate, or active null space is work done by the original
+  coupled strain-vorticity-pressure-viscosity connection.
+- Is this the full coupled packet or a scalar proxy? It is coupled only through
+  \(S,\Omega,\nabla_A^2p\), viscosity, connection, collar, exchange, and stop
+  terms together.  A pressure-only or strain-only reading is still a proxy.
+- Is this already handled in the repo? Parent-fixed reset and connection
+  ledgers are present by analogy, but the active-weight Carleson estimate
+  `(169)` is not installed here.
+- Did this create another alias? No.  It rewrites `(163)` as the concrete
+  strain-vorticity/connection charge that must be proved from the same original
+  flow.
+
+The live producer is now `(169)`.  Proving it supplies `(163)`, then `(162)`,
+then active same-carrier adjoint admission `(155)` and quotient graph-capacity
+Bessel packing `(156)`, and only then the duality-and-packing form of `(*)`.
+
+## 30. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
