@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: fixed-core-lower-edge-root-reserve-open
+status: cutoff-trace-fixed-core-root-reserve-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -65,12 +65,13 @@ effect: >-
   material-frame, collar, route, viscosity, legal, stop, or same-witness endpoint
   defect. The later first-hit score repair makes the interval predictable but
   leaves the endpoint/cutoff trace. The central service-storage anchor now
-  splits that trace: first-exit traces are paid by harmonic Cauchy, changed
+  splits that trace: first-exit interiors are paid by harmonic Cauchy, changed
   questions are motion/legal/stop/endpoint, and the fixed-core trace is exactly
-  retained lower-edge admission plus the original root-geometry reserve. That
-  fixed-core lower-edge/root-reserve theorem is the current open producer; after
-  it, the Schur-thin gate gives finite original-data control of the Schur
-  record, negative return, and inverse-Gram route variation.
+  retained lower-edge admission plus the original root-geometry reserve. The
+  current open producer is cutoff trace charge plus retained fixed-core
+  lower-edge/root reserve; after it, the Schur-thin gate gives finite
+  original-data control of the Schur record, negative return, and inverse-Gram
+  route variation.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
@@ -1832,8 +1833,8 @@ same-witness endpoint face.
 Thus `(108)` collapses to the same live producer as the central anchor:
 
 \[
-\text{retained fixed-core lower-edge admission plus original root-geometry
-reserve for the actual invisible high-high dual weights.}
+\text{cutoff trace charge plus retained fixed-core lower-edge admission and
+original root-geometry reserve for the actual invisible high-high dual weights.}
 \tag{116}
 \]
 
