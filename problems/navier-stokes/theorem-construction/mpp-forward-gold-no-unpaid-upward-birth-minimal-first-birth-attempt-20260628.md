@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: positive-flux-reserve-reduces-to-terminal-angular-mixing-or-rigid-zeno-open
+status: terminal-angular-mixing-reduces-to-neutral-transverse-alignment-exclusion-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -42,6 +42,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-trace-signed-atom-balance-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-positive-remainder-depletion-target-attack-note.md
   - problems/navier-stokes/theorem-construction/mcp-positiveremainderdepletion-onwardalignmentreduction-7d647f8a43.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-ancestry-line-frame-deformation-tax-20260626.md
 completion_truth: partial-not-mpp-closed
 ---
 
