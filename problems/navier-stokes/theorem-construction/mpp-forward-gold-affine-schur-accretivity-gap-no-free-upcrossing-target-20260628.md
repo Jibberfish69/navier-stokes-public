@@ -70,10 +70,11 @@ effect: >-
   questions are motion/legal/stop/endpoint, and fixed-core replay is admissible
   only through the parent-known harmonic return score. The retained lower edge
   is therefore a stopped-selector admission rule, not an independent PDE
-  estimate. The live wall remains same-carrier high-high admission/update:
-  each positive high-high dyadic transfer must be admitted into the paid
-  same-carrier parent current, or routed to return, motion, viscosity, legal,
-  stop, or the same-witness endpoint face. The selected root-capacity and
+  estimate. The live wall remains same-carrier high-high admission/update with
+  the carrier typed correctly: the one-point parent current must admit full
+  output-local stress, while input-colored high-high selection requires a
+  two-point material parent-current theory. Either branch may also route to
+  return, motion, viscosity, legal, stop, or the same-witness endpoint face. The selected root-capacity and
   stopped log-density square-function passages are mechanism attempts under
   that wall; they do not replace it. The latest capture audit makes this
   explicit: the parent-current exponential controls the actual selected density
@@ -714,8 +715,9 @@ Paid line:
 Unproved line:
 
 \[
-\text{derive `(34)'--`(36)' for the high-high stress source detector
-\(B_{k\ell m}=\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u_k\otimes u_\ell)\)
+\text{derive `(34)'--`(36)' for the full output-local high-high stress source,
+or install a two-point product-carrier source equation for
+\(B_{k\ell m}=\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u_k\otimes u_\ell)\),
 without reintroducing the critical \(H^{1/2}\) coefficient.}
 \tag{40}
 \]
@@ -763,8 +765,9 @@ same-scale high-high source of the same critical size as the original one.  It
 is not automatically a paid error.  Treating `(41)` as forcing would recreate
 the \(H^{1/2}\) coefficient obstruction inside the source-variation theorem.
 
-Therefore the parabolic equation must be written on the bilinear input pair,
-before collapsing to the selected output detector.  For the high-high source
+Therefore, on the input-colored branch, the parabolic equation must be written
+on the bilinear input pair before collapsing to the selected output detector.
+For the high-high source
 
 \[
 B_{k\ell m}
@@ -847,12 +850,13 @@ Failed line:
 \tag{48}
 \]
 
-Sharper unproved line:
+Sharper unproved line for the input-colored branch:
 
 \[
-\text{construct the parent-built bilinear stress detector
+\text{construct the product-carrier parent-built bilinear stress detector
 \(\mathcal B_{k\ell m}^P\) and prove `(44)'--`(46)' without selected-child
-lookahead and without the critical \(H^{1/2}\) coefficient.}
+lookahead and without the critical \(H^{1/2}\) coefficient, or return to
+full-output selection in the one-point route.}
 \tag{49}
 \]
 
@@ -1318,7 +1322,7 @@ not admitted into the paid parent current.
 Thus the remaining Gold wall is narrower:
 
 \[
-\text{each positive high-high dyadic transfer}
+\text{each positive high-high event, typed as full-output or two-point}
 \Longrightarrow
 \text{paid parent-current entry, or paid route/return/viscous/legal/stop.}
 \tag{80}
