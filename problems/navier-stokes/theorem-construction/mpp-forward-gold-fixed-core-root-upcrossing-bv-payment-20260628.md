@@ -244,14 +244,8 @@ without assuming the full material record/service clock whose finiteness would
 already imply continuation.  This is the fixed-core face of the bounded-below
 same-material service storage target.
 
-So the branch state is now sharp:
+So the branch state is now sharp: fixed-core/root-upcrossing is paid once
+original finite return BV is paid.
 
-\[
-\boxed{
-\text{fixed-core/root-upcrossing is paid once original finite return BV is paid.}
-}
-\tag{15}
-\]
-
-The MPP is not closed by `(15)`.  The open theorem is the noncircular derivation
+The MPP is not closed by this branch statement.  The open theorem is the noncircular derivation
 of `(14)` from the original pressure-viscosity-incompressibility-velocity packet.
