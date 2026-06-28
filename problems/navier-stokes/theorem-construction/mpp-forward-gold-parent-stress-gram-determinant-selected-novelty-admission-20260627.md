@@ -6,6 +6,7 @@ problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 superseded_live_hinge_by:
+  - ScaleNativeActiveParticipationNativeReserveHinge.A
   - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
   - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
 refines:
@@ -15,6 +16,7 @@ refines:
   - StoppedAccretiveTestingData.A
   - EffectiveResistanceSelectedActionAdmission.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-scale-normalization-novelty-storage-reconciliation-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-refill-parent-normalized-leverage-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-effective-resistance-bellman-capacity-realization-20260627.md
@@ -30,10 +32,13 @@ effect: >-
   parent-known stress Gram record unless they force a parent-known reset or
   legal stop.  The Fredholm determinant telescope is proved at the algebraic
   level.  This is now parent-reuse/Bellman support under the enforced
-  source-level selected-action currency.  The retained unit must first be a
-  bounded original-packet projection, equivalently a bounded Riesz representative
-  before scalar readout; determinant leverage then pays the inherited/root part.
-  Partial, not Gold closed by this determinant note alone.
+  bounded original-packet/Riesz channel and under the scale-native native-reserve
+  hinge.  The retained bounded-test unit must first be a bounded original-packet
+  projection, equivalently a bounded Riesz representative before scalar readout;
+  determinant leverage then pays only the inherited/root part.  Pure scale-native
+  zoom births still require NativeBirthChargePacking.A /
+  SelectedGeneratorStorageCoercivity.A. Partial, not Gold closed by this
+  determinant note alone.
 ---
 
 # Parent stress Gram determinant selected novelty admission
@@ -238,27 +243,28 @@ increments remain in one parent channel:
 \log\left(1+{\mu_G(\widehat Q)\over s_{Q^-}}\right).
 \]
 
-Fresh orthogonal birth is not a separate reserve.  It is the same determinant
-leverage against the parent floor.  A fresh direction can count as unit only if
-its raw stress increment has unit-scale leverage, or if the selector changes the
-parent frame and pays reset / legal / stop.
+Fresh bounded original-packet birth is not paid by determinant leverage; it is
+paid by Bessel after bounded-Riesz admission.  Pure scale-native fresh birth is
+not paid here at all.  It must be charged to the native-reserve / scale-memory
+producer.
 
-Thus the sharpened theorem is:
+Thus the determinant theorem is support:
 
 ```text
 ParentStressGramDeterminantSelectedAdmission.A
 ```
 
-For every retained child before scalar selected readout, selected unit action is
+For every already-admitted retained child, the inherited/root reuse component is
 bounded by the Fredholm determinant increment of the same parent stress record,
-plus paid reset, stop, and legal terms.
+plus paid reset, stop, and legal terms.  It is not a definition of selected unit
+action.
 
 ## 5. What this changes
 
 The effective-resistance/log-det note was demoted correctly when it was treated
-as a standalone capacity substitute for the Navier-Stokes selector.  It should
-not be demoted as the admission geometry itself.  The determinant is the correct
-form of parent-known novelty.
+as a standalone capacity substitute for the Navier-Stokes selector.  The
+determinant remains the correct form of parent-known inherited novelty after
+lawful admission; it is not the scale-native birth producer.
 
 The previous scalar split
 
