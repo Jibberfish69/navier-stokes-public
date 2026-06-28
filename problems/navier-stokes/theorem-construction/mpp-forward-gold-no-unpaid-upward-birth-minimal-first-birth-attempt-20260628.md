@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: metric-squeeze-admission-paid-positive-variation-packing-open
+status: metric-variation-packing-reduces-to-reversible-cycle-birth-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -1910,7 +1910,136 @@ metric squeezes.  It is an exact consequence of the material metric identity
 positive metric-variation charges \(\rho_\gamma^{met}\) pack finitely along the
 original same-history selected forest.
 
-## 23. Truth ledger
+## 23. Packing pressure test: positive variation is not storage
+
+Attempt the packing/no-cycle clause `(106)` by using the positive material
+metric variation itself as a root-finite reservoir.
+
+The reversible affine-cycle packet from section 20 defeats that attempt.  For a
+cycle at radius \(r_k\), take the paired trace-free strains
+
+\[
+B_{k,+}(t)=\lambda_k(t)E,
+\qquad
+B_{k,-}(t)=-\lambda_k(t)E,
+\qquad
+E=\operatorname{diag}(1,-1,0),
+\tag{113}
+\]
+
+with \(\lambda_k\simeq r_k^{-2}\) on heat windows of length \(r_k^2\).  The
+cycle returns its endpoint material metric:
+
+\[
+C_{k,final}\simeq C_{k,initial},
+\tag{114}
+\]
+
+but its admitted positive metric bill is order one:
+
+\[
+\rho_{k}^{met}
+\simeq
+\int [e_1\cdot B_{k,+}e_1]_+\,dt
++
+\int [e_2\cdot B_{k,-}e_2]_+\,dt
+\simeq 1.
+\tag{115}
+\]
+
+The globally matched packet still has radius-weighted raw ledgers:
+
+\[
+E_k+D_k+P_k+Collar_k+Legal_k
+\lesssim r_k.
+\tag{116}
+\]
+
+Thus a terminal chain with \(\sum_k r_k<\infty\) satisfies every finite raw
+ledger and returns endpoint metric state after each local cycle, while
+
+\[
+\sum_k\rho_k^{met}=\infty .
+\tag{117}
+\]
+
+This is not a Navier--Stokes blow-up construction.  It is a countermodel to the
+current proof formalism.  The formalism has paid admission, pressure-Hodge
+attachment, divergence-free localization, collar matching, and endpoint
+Cauchy--Green return; those payments still do not imply `(106)`.
+
+The paid line is:
+
+\[
+\text{real selected squeeze}
+\Longrightarrow
+\text{same-carrier positive metric-variation bill }\rho_\gamma^{met}.
+\tag{118}
+\]
+
+The failed line is:
+
+\[
+\sum_\gamma\rho_\gamma^{met}
+\le
+C\bigl(
+\text{endpoint metric state}
++
+\text{raw energy/dissipation/pressure/collar/current ledgers}
+\bigr).
+\tag{119}
+\]
+
+The structural reason is simple: positive metric variation is a variation
+measure, not a state.  It can be infinite on a path whose endpoint state and
+raw radius-weighted ledgers remain finite.  After `(105)` is paid, calling
+\(\rho_\gamma^{met}\) a "capacity" does not add a reservoir; it just renames the
+selected bill.
+
+The sharper required mechanism is a reversible-cycle birth charge.  For a new
+cycle after endpoint return, define \(\beta_k^{cycle}\) to mean: this cycle is
+not inherited same-carrier metric variation from the previous retained cycle,
+but a fresh heat-scale reversible affine burst born at a smaller selected
+scale.  The remaining producer must prove
+
+\[
+\sum_k \beta_k^{cycle}
+\le
+C(u_0)+Paid,
+\tag{120}
+\]
+
+and must dominate the admitted metric bills:
+
+\[
+\rho_k^{met}
+\le
+C\beta_k^{cycle}+Paid_k .
+\tag{121}
+\]
+
+Thomas-dialogue verdict:
+
+- Did this prove smoothness? No.  It proves that `(106)` is not obtainable from
+  endpoint metric storage or raw current ledgers.
+- Is this the live object? Yes.  The live bad object is now an infinite family
+  of endpoint-invisible reversible affine cycles on one original same-history
+  selected forest.
+- What does it mean physically? The fluid stretches, reverses, and comes back
+  in shape; the shape return hides the fact that selected positive work was
+  done.
+- Full coupled packet? Yes as a proof-formalism countermodel: velocity,
+  pressure, incompressibility, viscous/collar matching, and material metric are
+  all present at the local packet level.
+- Already handled? Endpoint Cauchy--Green storage, local state storage, global
+  matching by scaling, pressure-Poisson, and reduced dyadic identities have all
+  already failed on this same profile.
+- Stronger insight? The last proof-bearing object is not positive variation
+  storage.  It is a no-free-birth theorem for reversible affine cycles across
+  scales: after a cycle erases its endpoint state, the next smaller selected
+  cycle must still have an original-history birth/scale-descent charge.
+
+## 24. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
@@ -1924,12 +2053,13 @@ parent-known critical lower-frame admission; the same-carrier metric-squeeze
 admission clause `(105)` is paid in the corrected currency by the material
 metric identity `(108)`--`(112)`.
 
-Conditional relay: proving the packing/no-cycle clause `(106)` for the metric
-charges `(111)` gives finite selected action.  Equivalently, any branch of
-`(70)` that supplies a noncircular positive-flux reserve gives `(59)`--`(60)`;
-that gives one-sided positive critical transfer, the parent-known critical
-capacity frame, `NativeBirthChargePacking.A`, selected compression root
-reserve, finite selected action, full same-material clock, and continuation.
+Conditional relay: proving the reversible-cycle birth/scale-descent packing
+line `(120)`--`(121)` gives `(106)` for the metric charges `(111)` and hence
+finite selected action.  Equivalently, any branch of `(70)` that supplies a
+noncircular positive-flux reserve gives `(59)`--`(60)`; that gives one-sided
+positive critical transfer, the parent-known critical capacity frame,
+`NativeBirthChargePacking.A`, selected compression root reserve, finite
+selected action, full same-material clock, and continuation.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
@@ -1952,7 +2082,9 @@ return the material metric near its initial state while accumulating positive
 selected metric variation.  Scalar critical action admission by
 \(|S|^{5/2}+|\nabla^2p|^{5/4}\) is also rejected as a proxy: pressure-Hessian
 and undirected critical density are readouts unless they are tied to a
-same-carrier metric squeeze.
+same-carrier metric squeeze.  Positive metric-variation storage itself now
+also fails as a proof mechanism: reversible affine cycles can keep endpoint
+metric state and raw ledgers finite while \(\sum\rho_\gamma^{met}\) diverges.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -1973,7 +2105,9 @@ selected forest; after the `(*)` audit, the live hinge is the two-clause
 no-free-zoom bridge: parent-known same-carrier admission `(105)` plus
 root-finite packing/no-cycle `(106)`; after the admission pressure test,
 `(105)` is paid for the corrected metric-squeeze currency, and the live hinge is
-the root-finite packing/no-cycle of \(\rho_\gamma^{met}\).
+the root-finite packing/no-cycle of \(\rho_\gamma^{met}\); after the packing
+pressure test, that hinge is specifically a no-free-birth / scale-descent
+charge for endpoint-invisible reversible affine cycles.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
@@ -1982,12 +2116,14 @@ escaping descendant-tail storage, native carrier payment, zero-flux profile
 production, selected return, critical reset, exchange, stop/legal event, and
 fresh native birth charge.  Equivalently, prove the selected-forest lift `(78)`,
 or show that failure of `(78)` produces `PositiveActiveCarlesonReserve.A` or a
-rigid Zeno source class.  In the current strict form, this means prove `(106)`
-from the original coupled Navier--Stokes history for the metric charges `(111)`:
-the admitted same-carrier positive variations must pack finitely through
-reversible affine cycles.  The older formulations `(83)`, `(90)`, and `(91)` are
-valid only insofar as they prove that packing/no-cycle clause; `(91)` remains
-sharpened to the positive-variation budget `(100)`, not merely bounded endpoint
-Cauchy--Green state.
+rigid Zeno source class.  In the current strict form, this means prove the
+reversible-cycle birth/scale-descent charge `(120)`--`(121)` from the original
+coupled Navier--Stokes history.  The admitted same-carrier positive variations
+must pack finitely because fresh endpoint-invisible affine cycles cannot be
+born at infinitely many smaller selected scales for free.  The older
+formulations `(83)`, `(90)`, and `(91)` are valid only insofar as they prove
+that cycle-birth/no-cycle clause; `(91)` remains sharpened to the
+positive-variation budget `(100)`, not merely bounded endpoint Cauchy--Green
+state.
 
 Partial, not Gold closed.
