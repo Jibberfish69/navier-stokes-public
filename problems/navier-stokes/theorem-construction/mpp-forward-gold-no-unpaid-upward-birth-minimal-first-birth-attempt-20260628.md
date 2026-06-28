@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: critical-capacity-frame-reduces-to-one-sided-positive-transfer-open
+status: one-sided-positive-transfer-reduces-to-noncircular-positive-flux-reserve-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -32,6 +32,11 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-routed-current-energy-original-history-producer-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-critical-transfer-direct-attack-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-critical-transfer-dyadic-flux-affine-threading-reduction-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-tail-nozeno-to-positive-flux-inheritance-reduction-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-laminar-positive-flux-inheritance-direct-attack-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-positive-flux-reserve-tail-equivalence-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-reserve-minimal-bad-chain-compactness-test-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-two-door-sharp-form-repair-20260618.md
 completion_truth: partial-not-mpp-closed
 ---
 
