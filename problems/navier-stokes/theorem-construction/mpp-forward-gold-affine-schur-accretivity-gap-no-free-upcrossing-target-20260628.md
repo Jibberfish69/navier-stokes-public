@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: parent-predictable-dual-stopped-testing-open
+status: fixed-core-lower-edge-root-reserve-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -63,9 +63,14 @@ effect: >-
   make the localized high-high detector a stopped parent-built test through the
   localized Green current, or charge the time-cutoff, pressure-Hodge,
   material-frame, collar, route, viscosity, legal, stop, or same-witness endpoint
-  defect. That parent-predictable stopped-testing theorem is the current open
-  producer; after it, the Schur-thin gate gives finite original-data control of
-  the Schur record, negative return, and inverse-Gram route variation.
+  defect. The later first-hit score repair makes the interval predictable but
+  leaves the endpoint/cutoff trace. The central service-storage anchor now
+  splits that trace: first-exit traces are paid by harmonic Cauchy, changed
+  questions are motion/legal/stop/endpoint, and the fixed-core trace is exactly
+  retained lower-edge admission plus the original root-geometry reserve. That
+  fixed-core lower-edge/root-reserve theorem is the current open producer; after
+  it, the Schur-thin gate gives finite original-data control of the Schur
+  record, negative return, and inverse-Gram route variation.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
@@ -1774,6 +1779,62 @@ the cutoff trace to return, motion, viscosity, legal, stop, or endpoint.}
 \tag{111}
 \]
 
-Partial, not Gold closed. The current sharp producer is first-hit
-parent-predictable dual stopped-testing plus the endpoint/cutoff trace charge
-`(108)` for the actual invisible high-high coefficient.
+## 18. Endpoint trace charge collapses to first-exit or fixed-core return
+
+The endpoint trace charge `(108)` is not a new producer.  Once the first-hit
+score `(104)`--`(106)` makes \(J\) parent-predictable, the boundary term in
+
+\[
+d(\chi_J\Psi)=\chi_J\,d\Psi+\Psi\,d\chi_J
+\tag{112}
+\]
+
+has the same stopped-selector split as the central service-storage anchor.
+
+If the endpoint of \(J\) is a parent-announced first exit, the trace is paid by
+the harmonic Cauchy estimate:
+
+\[
+H_J\|D_J^{fresh}\|_2^2
+\lesssim
+\int_{\operatorname{Hist}(J)}w|G_{\rm route}|^2+Legal+Stop .
+\tag{113}
+\]
+
+If the endpoint is fixed-core replay, the trace is a return of the same stopped
+root record \(P_R=\Gamma_RZ^S\).  The original packet pays only the harmonic
+square return
+
+\[
+H_J\left({\Delta_J^-P_R\over |J|}\right)^2
+\le
+\int_Jw|G_{\rm root}^{new}|^2,
+\tag{114}
+\]
+
+so selected counting still needs the retained lower edge and root reserve:
+
+\[
+\omega_J^{ret}
+\lesssim
+H_J\left({\Delta_J^-P_R\over |J|}\right)^2+Paid(J),
+\qquad
+\int_{\operatorname{Hist}(P)}w|G_{\rm root}^{new}|^2
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}+Stop .
+\tag{115}
+\]
+
+If the endpoint is neither first-exit nor fixed-core, it is a changed
+selector/collar/route question and belongs to motion, legal, stop, or the
+same-witness endpoint face.
+
+Thus `(108)` collapses to the same live producer as the central anchor:
+
+\[
+\text{retained fixed-core lower-edge admission plus original root-geometry
+reserve for the actual invisible high-high dual weights.}
+\tag{116}
+\]
+
+Partial, not Gold closed. The current sharp producer is `(116)`.
