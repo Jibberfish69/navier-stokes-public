@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: high-high-capture-carrier-choice-open
+status: full-output-net-flux-parent-current-split-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -79,11 +79,11 @@ effect: >-
   that wall; they do not replace it. The latest capture audit makes this
   explicit: the parent-current exponential controls the actual selected density
   only after actual-current capture is proved. The high-high parent-current
-  identity audit adds the current sharp obstruction: individual input-colored
-  high-high triads are not one-point parent-current reads. The one-point
-  identity is valid only for the full output-local stress after summing input
-  interactions; retaining input-colored high-high selection requires a two-point
-  material parent-current theory.
+  identity audit adds the carrier correction: individual input-colored high-high
+  triads are not one-point parent-current reads, while the full output-local
+  stress is. The critical energy law then resolves the Gold selector in favor
+  of the net full-output transfer; input-colored positive clipping is only an
+  optional two-point diagnostic branch.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
