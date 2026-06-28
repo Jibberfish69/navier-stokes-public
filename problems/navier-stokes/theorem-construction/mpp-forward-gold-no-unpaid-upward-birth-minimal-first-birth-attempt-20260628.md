@@ -753,7 +753,194 @@ The proof still fails at `(41)`--`(42)`: the repo has the raw divergence
 representation, same-chain nonreuse, and conditional testing/current surfaces,
 but not the critical capacity frame from original data.
 
-## 14. Truth ledger
+## 14. Smoothness-completion requirements from this hinge
+
+From the current live hinge, a complete MPP smoothness proof requires exactly
+the following proof-bearing chain.
+
+1. Parent-known critical material tests.  Every retained selected seed must be
+   represented before future selected-tail readout by a test field
+   \(\varphi_\gamma\) in the original pressure-viscosity-incompressibility
+   material packet.
+2. Lower frame / admission.  The retained selected unit must satisfy
+
+\[
+\omega_\gamma
+\lesssim
+|\langle M_\gamma,\varphi_\gamma\rangle|^2+Paid(\gamma),
+\qquad
+\|\varphi_\gamma\|_{\operatorname{Cap}_{crit,P}}\le C_N.
+\tag{43}
+\]
+
+3. Upper frame / packing.  The same parent-known tests must obey the critical
+   Bessel/Carleson bound
+
+\[
+\sum_{\gamma\subset P}
+|\langle D_AJ,\varphi_\gamma\rangle|^2
+\le
+C_N\int_{\operatorname{Hist}(P)}|J|^2\,d\mathcal R_{crit}
++Paid(P).
+\tag{44}
+\]
+
+4. Same-packet coupling.  The capacity norm, endpoint admission, stopped
+   testing, current energy, return square, and reset derivative must all be
+   faces of the same material pressure-viscosity-incompressibility packet.
+5. Exhaustion of selected births.  Every retained upward birth must be exactly
+   one of: bounded original-packet read, inherited/root current, selected
+   return, critical reset, exchange/stop/legal/reselection, or a genuine
+   scale-native fresh birth paid by the critical frame.
+6. One-sided scale-native payment.  The genuine scale-native fresh births must
+   satisfy a positive critical transfer / depletion / rigidity theorem strong
+   enough to give the critical frame for arbitrary smooth data.
+7. Downstream relay.  The resulting `NativeBirthChargePacking.A` gives selected
+   compression root reserve, finite selected action, full same-material clock,
+   \(H^s\) control, and the standard local continuation past the alleged first
+   singular time.
+
+Items 1--5 are now structurally identified.  Item 7 is a conditional consumer.
+Item 6 is the remaining producer.
+
+## 15. Critical-frame proof attempt
+
+Attempt one direct frame mechanism.
+
+For each retained child \(\gamma\), assume the selected read has a parent-known
+critical Riesz representative \(\varphi_\gamma\).  Write
+
+\[
+\psi_\gamma=D_A^*\varphi_\gamma
+\in L^2(\operatorname{Hist}(P),d\mathcal R_{crit}),
+\tag{45}
+\]
+
+and split it against the parent-known span \(E_{\gamma^-}\):
+
+\[
+\psi_\gamma
+=
+\Pi_{E_{\gamma^-}}\psi_\gamma
++(I-\Pi_{E_{\gamma^-}})\psi_\gamma
+=b_\gamma+f_\gamma .
+\tag{46}
+\]
+
+Exact inherited reuse has \(f_\gamma=0\).  It is parent current, not fresh
+selected action.  Changed inherited reuse is reset/return/selector/collar
+motion.  For the fresh residuals, parent-known QR gives a Bessel family, hence
+
+\[
+\sum_{\gamma\subset P}
+|\langle J,f_\gamma\rangle|^2
+\le
+C_N\int_{\operatorname{Hist}(P)}|J|^2\,d\mathcal R_{crit}.
+\tag{47}
+\]
+
+This pays the upper frame `(44)` after admission.  It is the same mechanism as
+the installed bounded-Riesz channel, with the metric changed from raw material
+\(L^2\) to critical material capacity.
+
+The Thomas-dialogue interrogation is the important part.
+
+- Did this prove smoothness? No.  It proves only that the upper Bessel side is
+  available after a critical lower-frame admission theorem.
+- Is it the live object? Yes, only for the retained scale-native births whose
+  raw original-packet representative is unbounded.
+- Is it full packet or scalar proxy? It is full packet only when
+  \(\varphi_\gamma\), \(D_A^*\varphi_\gamma\), the return/reset motion, and the
+  current \(J\) all come from the same material traction/current law before
+  selected readout.
+- Is it already handled in the repo? The bounded original-packet channel is
+  handled by the Riesz/Bessel notes.  The genuine scale-native channel is not:
+  the pulled-back raw test can have norm \(r^{-1/2}\), so raw Bessel does not
+  pay a unit selected birth.
+- Did this become another alias? It becomes an alias if "critical capacity" is
+  just a name for selected action.  It is noncircular only if the critical
+  measure is supplied by the original equation.
+
+For scale-native births, critical capacity is exactly the native fractional
+reserve:
+
+\[
+\mathfrak R_{\rm nat}(T)
+\simeq
+\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt .
+\tag{48}
+\]
+
+The original coupled equation gives the signed critical identity
+
+\[
+{1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
++
+\nu\|\Lambda^{3/2}u\|_2^2
+=
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle .
+\tag{49}
+\]
+
+The small-critical packet closes by standard absorption.  For arbitrary smooth
+data the missing line is the one-sided positive transfer estimate
+
+\[
+\int_0^T
+\left(
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C(u_0)
++\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt,
+\qquad
+\theta<1 .
+\tag{50}
+\]
+
+Equivalently, in dyadic flux form, the missing line is
+
+\[
+\int_0^T\sum_j2^j[\Pi_j(t)]_+\,dt
+\le
+C(u_0)
++\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid,
+\qquad
+\theta<1 .
+\tag{51}
+\]
+
+That is the sharper producer exposed by the frame attempt.  The critical
+capacity frame is not an independent new theorem after this pressure test.  It
+is the material-packet form of one-sided positive critical transfer:
+
+\[
+\text{critical lower admission}
++\text{critical upper packing}
+\Longleftrightarrow
+\text{no retained positive upcascade without depletion, stop, reset, or fresh
+native birth charge.}
+\tag{52}
+\]
+
+The proof still fails at `(50)`--`(51)`.  The structural reason is sign: the
+critical identity controls the signed transfer, while selected birth counts the
+rectified positive upward transfer.  Negative transfer may occur in another
+shell or orientation, so cancellation in `(49)` does not bound the positive
+selected half.  The next sharper mechanism is therefore one of: accretive
+testing of the positive selected transfer, depletion of a bounded original
+reserve by each retained positive burst, or critical-element rigidity for a
+minimal same-material profile with positive retained upcascade and no paid
+branch.
+
+## 16. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
