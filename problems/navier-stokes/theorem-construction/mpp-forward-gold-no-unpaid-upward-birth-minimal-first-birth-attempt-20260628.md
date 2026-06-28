@@ -2978,17 +2978,19 @@ rigid Zeno source class.  In the current strict form, this means prove the
 duality-and-packing version of `(*)`: construct the noncircular parent active
 Hodge--Stokes/positive-metric quotient capacity \(\mathfrak C_{P,act}^{HS}\)
 with parent-announced \(\mathcal N^{act}\), \(\mathcal P^{act}\), \(H_{e^-}\),
-and connection \(\nabla^P\), then prove `(162)`--`(163)`.  This supplies active
-same-carrier adjoint admission `(155)` and quotient graph-capacity Bessel
-packing `(156)`.  The admitted same-carrier positive variations and active
-pressure-Hessian readouts must pack finitely because fresh endpoint-invisible
-affine cycles and selected pressure-Hessian carriers cannot keep escaping into
-smaller high-weight tubes, or hiding in moving null projectors, without paying
-original-history positive metric variation, active Hodge--Stokes quotient
-energy, scale derivative, turnstile, exchange, covector, selector-boundary,
-projector-connection motion, or legal charge.  The older formulations `(83)`,
-`(90)`, `(91)`, `(120)`--`(121)`, `(127)`, raw `(132)`, raw `(145)`--`(147)`,
-and child-fitted `(153)`--`(156)` are valid only insofar as they prove that
+and connection \(\nabla^P\), then prove the active-weight
+strain-vorticity/connection Carleson estimate `(169)`, which supplies `(163)`
+and `(162)`.  This supplies active same-carrier adjoint admission `(155)` and
+quotient graph-capacity Bessel packing `(156)`.  The admitted same-carrier
+positive variations and active pressure-Hessian readouts must pack finitely
+because fresh endpoint-invisible affine cycles and selected pressure-Hessian
+carriers cannot keep escaping into smaller high-weight tubes, or hiding in
+moving null projectors, without paying original-history positive metric
+variation, active Hodge--Stokes quotient energy, scale derivative, turnstile,
+exchange, covector, selector-boundary, strain-vorticity projector motion,
+viscous graph motion, or legal charge.  The older formulations `(83)`, `(90)`,
+`(91)`, `(120)`--`(121)`, `(127)`, raw `(132)`, raw `(145)`--`(147)`, and
+child-fitted `(153)`--`(156)` are valid only insofar as they prove that
 parent-current active graph Bessel/no-cycle clause; `(91)` remains sharpened to
 the positive-variation budget `(100)`, not merely bounded endpoint Cauchy--Green
 state.
