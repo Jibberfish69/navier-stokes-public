@@ -5253,8 +5253,12 @@ changes in selected action, while Gold needs the actual selected bill to be a
 fresh parent-subtracted increment `(295)`.  The zero-increment pressure test
 `(301)`--`(310)` then shows that parent-subtracted algebra and stopped
 projection reduce any remaining failure of `(295)` to a positive selected
-critical packet in the active Hodge--Stokes graph kernel `(307)`.  The live
-unproved line is active graph coercivity `(305)`--`(308)`.
+critical packet in the active Hodge--Stokes graph kernel `(307)`.  The active
+graph kernel closure `(311)`--`(322)` pays the interior kernel by the material
+metric identity `(311)`--`(316)`: zero metric variation gives zero strain, and
+the remaining pressure Hessian is the rigid-spin pressure balance already
+removed by the active quotient.  Active graph coercivity is support, and the
+live unproved line is terminal full-packet no-atom storage `(318)`--`(320)`.
 
 Conditional relay: proving the positive storage-trace anti-atom `(190)` by the
 order-locked endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)` supplies
@@ -5298,9 +5302,11 @@ The parent-subtracted replay audit `(291)`--`(300)` refines that again: the
 actual selected packet must be replaceable by the increment `(294)` before its
 positive level is charged, with non-incremental replay bundled or consumed by
 the same-witness endpoint face.  The zero-increment pressure test
-`(301)`--`(310)` then gives the relay criterion for that replacement: prove the
-active graph has no positive selected critical null packet after
-parent-announced quotienting.
+`(301)`--`(310)` then gives the relay criterion for that replacement.  The
+active graph kernel closure `(311)`--`(316)` discharges that criterion on
+retained parent-announced charts, so the relay now requires terminal no-atom
+storage `(318)`--`(320)`: no fixed-core endpoint atom of the same parent-known
+full packet.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
