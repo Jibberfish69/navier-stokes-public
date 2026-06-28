@@ -150,3 +150,87 @@ H_w\|c_{\theta,J}^+\|_2^2
 \]
 
 by showing every selected positive fresh production vector is either parent-visible in Schur capacity, parent-orthogonal and Bessel-packable, or paid route motion. This is a narrowed theorem target, not a Gold closure.
+
+## 5. Carry-forward: zero-reserve reduction
+
+The trichotomy can be tested by its zero-reserve case. Normalize one selected
+detector direction \(a_Q\) in the parent metric and write
+
+\[
+a_Q=P_{F_Q}a_Q+(I-P_{F_Q})a_Q
+\]
+
+where \(F_Q\) is the parent-known detector span already generated before the
+child \(Q\). Put
+
+\[
+d_Q=(I-P_{F_Q})a_Q,\qquad
+\sigma_Q=\langle G^{-1}m,P_{F_Q}a_Q\rangle .
+\]
+
+The three payments are then:
+
+\[
+\text{Schur: }\sigma_Q,\qquad
+\text{Bessel novelty: }\|d_Q\|_G,\qquad
+\text{motion: }\int_Q\|K\|^2+first\text{-}exit.
+\]
+
+The zero-reserve obstruction is therefore:
+
+\[
+T_Q^+>0,\qquad
+\sigma_Q\approx0,\qquad
+d_Q\approx0,\qquad
+K\approx0,\qquad
+legal+stop\approx0 .
+\]
+
+In the finite-dimensional stationary model this obstruction is impossible once
+the selected production is known to be an actual increment of the same affine
+current coordinate. Indeed, take \(G\) fixed, \(a_Q=a\in F_Q\), and write
+
+\[
+q(t)=\langle G^{-1}m(t),a\rangle .
+\]
+
+On an interval with no return/reset and no legal error, same-direction positive
+production gives
+
+\[
+dq=b(t)\,dt,\qquad b(t)\ge0 .
+\]
+
+Then the Schur pairing is the positive current work
+
+\[
+\int q\,b\,dt
+=
+{1\over2}\bigl(q(t_1)^2-q(t_0)^2\bigr).
+\]
+
+Thus repeated stationary same-direction production is not free: the production
+itself builds the Schur current that pays it. If the current is later erased so
+that the same direction can look fresh again, the erasure is negative
+return/reset. If the direction changes while claiming to be the same affine
+direction, the change is metric/selector motion and is paid by \(K\) plus
+first-exit slabs. If the direction was not already in \(F_Q\), it is Bessel
+novelty.
+
+So the remaining Navier-Stokes bridge is not a fourth payment mechanism. It is
+the same-carrier admission statement that the dangerous positive dyadic triad
+really enters the parent affine current coordinate with this sign:
+
+\[
+T_Q^+
+\lesssim
+\int_Q \langle G^{-1}m,p_Q\rangle_+
++\|d_Q\|_G^2
++\int_Q\|K\|^2
++legal+stop .
+\]
+
+A genuine failure triad must therefore be more specific than "outside the
+trichotomy": it must produce positive \(H^{1/2}\) transfer while not being an
+increment of any parent-known same-carrier affine current coordinate. That is
+the exact remaining enemy of AffineSchurAccretivityGap.A.
