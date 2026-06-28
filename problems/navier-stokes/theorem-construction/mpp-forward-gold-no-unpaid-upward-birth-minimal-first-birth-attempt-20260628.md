@@ -4994,33 +4994,34 @@ Paid line:
 \tag{309}
 \]
 
-Unproved line:
+Intermediate criterion:
 
 \[
-\text{prove active Hodge--Stokes graph coercivity `(305)'--`(308)'
-from the original coupled Navier--Stokes participation law.}
+\text{selector capture reduces to active Hodge--Stokes graph coercivity
+`(305)'--`(308)' before the kernel-closure audit.}
 \tag{310}
 \]
 
 Thomas-dialogue verdict:
 
-- Is this actually the live object? Yes.  It is the zero-increment form of the
-  actual stopped selector capture `(295)`.
+- Is this actually the live object? It is the zero-increment form of the actual
+  stopped selector capture `(295)`, and Section 43 then audits its kernel.
 - Did this prove smoothness? No.  It proves that quotient algebra and replay
-  bundling are not the remaining obstruction; the remaining obstruction is an
-  active-graph null packet with positive selected critical bill.
+  bundling are not the remaining obstruction; after Section 43, the remaining
+  obstruction is terminal no-atom storage for the same full packet.
 - What does it mean physically? A child cannot be a new dangerous zoom if the
   same material packet shows no fresh detector, no squeeze, no terminal record
   motion, and no active pressure-quotient motion.
 - Is this full packet or scalar proxy? Full packet.  The null test includes
   strain, active pressure Hessian, material metric variation, terminal record,
   detector, and parent connection.
-- Is this already handled in the repo? The parent-subtracted decomposition and
-  stopped projection clauses are handled.  The active graph coercivity
-  `(305)`--`(308)` for the actual selected critical bill is still open.
+- Is this already handled in the repo? The parent-subtracted decomposition,
+  stopped projection clauses, and interior active graph kernel are handled after
+  Section 43.  Terminal full-packet no-atom storage `(318)`--`(320)` remains
+  open.
 - Did this create another alias? No.  It rejects the algebra-only alias and
-  names the exact missing implication: no positive selected critical packet in
-  the active graph kernel.
+  sets up the exact kernel test that Section 43 collapses to terminal
+  no-atom storage.
 
 ## 43. Active graph kernel closure: the survivor is terminal, not interior
 
