@@ -4195,7 +4195,7 @@ C\mathcal R(P)+Paid(P),
 \tag{256}
 \]
 
-which converts the square estimate `(251)` into a linear positive-bill bound by
+which converts the square estimate `(252)` into a linear positive-bill bound by
 Cauchy over the retained stopped family.
 
 The refined summed admission and packing target is therefore
@@ -4320,7 +4320,7 @@ variation.  The terminal detector Bessel audit `(240)`--`(249)` then sharpens
 the Bessel side: fresh detector innovations are paid by parent-subtracted QR,
 while inherited detector replay must be converted into positive terminal
 record variation before it can count as new selected capacity.
-The record-variation admission audit `(250)`--`(259)` then shows that even
+The record-variation admission audit `(250)`--`(260)` then shows that even
 positive record variation is only square payment until retained terminal events
 have selected inverse-weight admission `(254)` or inverse-weight packing
 `(256)`.
@@ -4355,7 +4355,7 @@ material variation counted before selected readout.  The detector-packing audit
 `(240)`--`(249)` makes the necessary linearization explicit: `(235)` is false
 for replayed inherited near-extremizers unless new terminal bills are restricted
 to fresh detector innovation or positive parent-record variation.  The
-record-variation audit `(250)`--`(259)` sharpens this again: parent-record
+record-variation audit `(250)`--`(260)` sharpens this again: parent-record
 variation pays harmonic square increments, and the live terminal admission line
 is the conversion of those square increments into the positive endpoint bill.
 
@@ -4435,7 +4435,7 @@ their combined terminal bill `(232)` to be admitted and packed by `(234)`--`(235
 The raw supremum form `(233)` also fails as a proof mechanism if it allows
 repeated inherited detectors `(243)`--`(244)`; the live form is the linearized
 no-replay currency `(245)`--`(247)`.  Treating record variation itself as
-linear terminal payment also fails: `(251)` is a square estimate, and `(252)`
+linear terminal payment also fails: `(252)` is a square estimate, and `(253)`
 shows that square summability alone does not exclude infinite positive terminal
 bill.
 
