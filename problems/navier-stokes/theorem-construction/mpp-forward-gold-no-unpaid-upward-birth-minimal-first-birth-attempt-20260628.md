@@ -945,7 +945,153 @@ reserve by each retained positive burst, or critical-element rigidity for a
 minimal same-material profile with positive retained upcascade and no paid
 branch.
 
-## 16. Truth ledger
+## 16. Minimal-profile / depletion attempt
+
+Try the critical-element route instead of another estimate.
+
+Assume `(51)` fails after bounded original-packet reads, inherited/root current,
+selected return, critical reset, exchange, stop, legal loss, and reselection
+have been removed.  Then a retained scale-native family can be normalized so
+that each bad child has order-one positive critical flux
+
+\[
+A_+(Q_k)
+:=
+\int_{I_{Q_k}}\sum_j 2^j[\Pi_j(t)]_+\,dt
+\simeq 1,
+\tag{53}
+\]
+
+while the raw physical costs remain heat-scale small,
+
+\[
+E_{\rm raw}(Q_k)+D_{\rm raw}(Q_k)+R_{\rm collar}(Q_k)
+\lesssim r_k,
+\qquad
+\sum_k r_k<\infty .
+\tag{54}
+\]
+
+Rescale each bad child to a unit heat packet:
+
+\[
+u_k(s,y)=r_k u(t_k+r_k^2s,x_k+r_ky),
+\qquad
+p_k(s,y)=r_k^2p(t_k+r_k^2s,x_k+r_ky).
+\tag{55}
+\]
+
+The positive critical flux in `(53)` is scale-invariant, so compactness can
+produce a local suitable same-material packet with a nonzero retained positive
+flux or selected-gain residue.
+
+The paid part of this attempt is the normalization and compactness alternative:
+a failure of `(51)` yields a same-material terminal profile carrying one of two
+readouts.
+
+Door 1:
+
+\[
+\Phi_0\ne0
+\quad\Longrightarrow\quad
+\text{visible nonzero stress-flux residue.}
+\tag{56}
+\]
+
+The finite vector selector for a nonzero residue is already paid.  The unproved
+Door 1 line is the native-carrier identification:
+
+\[
+\Phi_0\ne0
+\Longrightarrow
+\text{retained selected positive native carrier in the same packet,}
+\tag{57}
+\]
+
+and then a finite donor/depletion reserve for that carrier.
+
+Door 2:
+
+\[
+\Phi_0=0
+\quad\Longrightarrow\quad
+\text{zero-flux profile branch.}
+\tag{58}
+\]
+
+The Landau-class Liouville consumer is paid after exact profile production.
+The unproved Door 2 line is producing the exact profile: stationarity,
+homogeneity, smooth sphere profile, and evacuation of terminal defect measures.
+
+So critical-element compactness alone does not prove smoothness.  It produces a
+profile or residue, but it does not produce the finite root payment for the
+unweighted positive flux.  In the minimal-bad-chain model the local packet can
+retain unit normalized action while the global matching/collar cost remains
+radius-weighted and summable.  The compactness limit is therefore not killed
+unless one proves either native-carrier depletion in Door 1 or exact zero-flux
+profile production in Door 2.
+
+The sharper noncircular producer is a monotone same-material positive-flux
+reserve.  For every retained parent \(Q\), construct \(B(Q)\ge0\), before
+future selected-tail readout, such that
+
+\[
+\sum_{Q'\in ch(Q)}A_+(Q')
++
+\sum_{Q'\in ch(Q)}B(Q')
+\le
+B(Q)+Paid(Q),
+\tag{59}
+\]
+
+with root bound
+
+\[
+B(Q_{\rm root})
+\le
+C_N(u_0)+Paid(Q_{\rm root}).
+\tag{60}
+\]
+
+The reserve must not be the descendant tail
+
+\[
+B_\ast(Q)=\sum_{R\subsetneq Q}A_+(R)+Paid(R),
+\tag{61}
+\]
+
+because root finiteness of `(61)` is exactly the theorem.  It must be an
+original-history positive-flux/depletion storage whose drop pays child
+scale-native positive transfer.
+
+Thomas-dialogue verdict:
+
+- Did the critical-element attempt prove smoothness? No.  It produced a
+  residue/profile alternative, not a finite root reserve.
+- Did it rename the hinge? It would be a rename if "rigidity" only says a
+  zero-cost profile is impossible.  The proof needs the quantitative coercive
+  reserve `(59)`--`(60)`.
+- What is the physical meaning? A child positive upcascade must consume an
+  inherited same-material flux resource; the same pressure-Hodge-stress
+  interface cannot regenerate order-one positive selected flux forever without
+  depletion, visible native carrier, profile production, or paid exit.
+- Is it full packet? Only if \(B(Q)\), \(\Phi_0\), the positive native carrier,
+  and the zero-flux profile are all constructed from the original transported
+  pressure-viscosity-incompressibility packet.
+- Is it already handled? No.  The repo has finite vector selection and a
+  conditional zero-flux Liouville consumer.  It does not have `(57)`, exact
+  Door 2 profile production, or the noncircular reserve `(59)`--`(60)`.
+- What stronger insight did failure reveal? Zero-cost rigidity is not the
+  producer.  It is the coercivity test for the producer.  The producer is a
+  noncircular positive-flux reserve whose finite root value comes from original
+  data and whose monotone drop pays the rectified critical upcascade.
+
+Thus `(50)`--`(51)` now has its exact noncircular Bellman/depletion form:
+prove `(59)`--`(60)`, or produce a genuine same-material obstruction in which a
+retained positive upcascade regenerates without descendant-tail storage, native
+carrier payment, zero-flux profile production, or paid exit.
+
+## 17. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
