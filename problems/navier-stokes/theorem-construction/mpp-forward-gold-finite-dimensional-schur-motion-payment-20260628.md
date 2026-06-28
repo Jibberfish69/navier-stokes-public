@@ -94,7 +94,9 @@ Schur storage times positive metric variation.
 
 ## 3. First-exit motion births
 
-Let \(\mathcal E\) be a selected family of motion births. Each birth \(e\) has:
+Let \(\mathcal E\) be a selected family of motion births. The time measure below
+is the normalized parent first-exit measure; equivalently, all slab Cauchy
+constants are absorbed into \(C_{\rm exit}\). Each birth \(e\) has:
 
 1. a parent-known detector \(a_e\);
 2. a parent-announced first-exit slab \(I_e\subset I\);
@@ -112,11 +114,11 @@ Let \(\mathcal E\) be a selected family of motion births. Each birth \(e\) has:
 \sum_{e\in\mathcal E}{\bf 1}_{I_e}(t)\le B;
 \]
 
-5. discrete birth weight dominated by the continuous serviced-current motion
-charge, up to return/legal error:
+5. discrete motion birth weight dominated by the continuous serviced-current
+motion charge, up to return/legal error:
 
 \[
-\omega_e
+\omega_e^{motion}
 \le
 C_{\rm exit}
 \int_{I_e}
@@ -128,7 +130,7 @@ C_{\rm exit}
 Then
 
 \[
-\sum_{e\in\mathcal E}\omega_e
+\sum_{e\in\mathcal E}\omega_e^{motion}
 \le
 C_{\rm exit}B
 \int_I S(t)\|K(t)\|_{\rm op}^2dt
@@ -137,6 +139,24 @@ C_{\rm exit}B
 
 Proof. Sum the preceding pointwise estimate over \(e\), integrate on \(I_e\),
 and use bounded overlap.
+
+If the selected bookkeeping also assigns one opening Schur-visible birth charge
+\(\omega_e^{open}\) before metric motion starts, and those opening directions
+are parent-known with bounded multiplicity, then
+
+\[
+\sum_e\omega_e^{open}\le C_{\rm open}\sup_{t\in I}S(t).
+\]
+
+Thus the full finite-dimensional motion-payment form is
+
+\[
+\sum_e(\omega_e^{open}+\omega_e^{motion})
+\le
+C_{\rm open}\sup_I S
++C_{\rm exit}B\int_I S(t)\|K(t)\|_{\rm op}^2dt
++R_{\rm return}+L_{\rm legal}.
+\]
 
 ## 4. Endpoint/upcrossing form
 
@@ -158,22 +178,22 @@ is the first threshold crossing, Cauchy on the parent-announced slab gives
 \left|{d\over dt}\log N_{a_e}(t)\right|^2dt .
 \]
 
-Therefore any endpoint birth weight of the form
+Therefore any endpoint motion birth weight of the form
 
 \[
-\omega_e
+\omega_e^{motion}
 \lesssim
 M_e\delta_e^2+R_e+L_e,
 \qquad
 M_e\lesssim
 { |q_{a_e}(t)|^2\over N_{a_e}(t)}
-\quad\hbox{on the serviced part of }I_e,
+\quad\hbox{for the serviced current level on }I_e,
 \]
 
 is paid by the same estimate:
 
 \[
-\sum_e\omega_e
+\sum_e\omega_e^{motion}
 \lesssim
 \int_I S(t)\|K(t)\|_{\rm op}^2dt
 +R_{\rm return}+L_{\rm legal}.
