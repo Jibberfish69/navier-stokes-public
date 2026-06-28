@@ -1,14 +1,15 @@
 ---
 theorem_id: forward-gold-selected-refill-parent-normalized-leverage-reduction-20260627
-status: conditional-reduction-selector-admission-open
+status: bellman-leverage-support-scale-native-native-reserve-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 attacks_hinge:
   - ScaleNormalizedStressNoveltyBellmanLeverage.A
-  - EffectiveResistanceSelectedActionAdmission.A
-  - RetainedActiveRawBellmanCapacity.A
+  - SelectedRefillParentNormalizedAdmission.A
+  - NativeBirthChargePacking.A
+  - ScaleNativeActiveParticipationReserve.A
 uses:
   - ParentSubtractedSelectedReadoutDecomposition.A
   - ParentSubtractedInheritedDirectionBesselClosure.A
@@ -19,14 +20,14 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-effective-resistance-bellman-capacity-realization-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-parent-subtracted-current-admission-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-projection-jump-first-exit-carleson-from-route-energy-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md
 effect: >-
-  Proves the Bellman/leverage telescope from a precise selected-refill
-  admission identity.  This does not close Gold.  It narrows the remaining
-  theorem to SelectedRefillParentNormalizedAdmission.A: the stopped Navier-Stokes
-  selected readout must count only parent-normalized new leverage, not raw
-  heat-scale level reuse.  It also records the surviving shrinking orthogonal
-  chain showing that fresh Bessel and first-exit reset payment do not imply the
-  admission identity.
+  Proves the Bellman/leverage telescope after a precise selected-refill
+  admission identity. This is support, not the live Gold producer. The
+  scale-native correction shows that pure shrinking zoom units are not paid by
+  raw bounded original-packet tests or by effective-resistance bookkeeping. The
+  remaining producer is the scale-native native-reserve map recorded in
+  ScaleNativeActiveParticipationNativeReserveHinge.A.
 ---
 
 # Selected refill parent-normalized leverage reduction
@@ -36,8 +37,9 @@ same transported material packet. The scale-normalized gap is that a small
 heat-scale stress read could still be declared one selected refill unless the
 selector measures novelty against the parent stress record.
 
-This note proves the algebraic part cleanly and isolates the remaining
-Navier-Stokes admission line.
+This note proves the algebraic part cleanly.  After the scale-native correction,
+that algebra is a downstream readout form of the native-reserve map, not the
+source of the Gold payment.
 
 ## 1. Installed parent-subtracted current
 
@@ -309,25 +311,28 @@ So the reduction is exact: the Bellman/log calculation proves finite action
 after `(3)`, and the shrinking-chain test shows `(3)` is the genuine remaining
 Navier-Stokes selector-admission theorem.
 
-## 6. Exact remaining theorem
+## 6. Current role after the scale-native correction
 
-The remaining theorem is not another stress source theorem. It is the selector
-admission identity:
+The selector admission identity above is a useful readout form, but it is not
+the live MPP-bearing producer.  A pure scale-native zoom event can have unit
+selected size while its bounded original-packet witness vanishes at scale
+\(r^{1/2}\).  The theorem that must be proved before this Bellman algebra
+becomes usable for all retained births is:
 
 \[
 \boxed{
-\texttt{SelectedRefillParentNormalizedAdmission.A}
+\texttt{NativeBirthChargePacking.A / ScaleNativeActiveParticipationReserve.A}
 }
 \]
 
-For every retained stopped child before selected readout, the selected refill
-weight satisfies `(3)`. Equivalently, the stopped Navier-Stokes selector is not
-allowed to promote raw heat-scale level reuse into a unit refill unless that
-read has parent-normalized leverage, or else is charged to reset, legal exit, or
-stop.
+That theorem must assign every retained scale-native high-ratio birth to an
+original-history native reserve atom with bounded multiplicity.  Once that map
+is installed, the parent-normalized admission identity is one downstream
+expression of the same reserve accounting.
 
-If this admission identity is installed, the Bellman telescope above gives
-finite selected action. Combined with the existing downstream relays, that gives
-finite full same-material action and the usual fixed-\(H^s\) continuation.
+The Bellman telescope above then gives finite selected action for the
+parent-normalized part.  Combined with the native-reserve map and the existing
+downstream relays, it gives finite full same-material action and the usual
+fixed-\(H^s\) continuation.
 
 Partial, not Gold closed.
