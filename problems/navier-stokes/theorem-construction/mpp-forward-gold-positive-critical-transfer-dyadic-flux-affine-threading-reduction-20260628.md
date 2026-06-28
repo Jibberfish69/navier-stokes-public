@@ -34,8 +34,9 @@ effect: >-
   Identifies PositiveCriticalTransferBound.A with the critical weighted dyadic
   upward-frequency flux. This closes the bookkeeping gap between the fractional
   native-reserve identity and the existing fresh-frequency / affine-endpoint
-  route, but does not prove Gold: the remaining theorem is the weighted
-  no-free-upcascade / endpoint-interface payment for arbitrary data.
+  route, but does not prove Gold: the remaining theorem is the one-sided
+  no-free-upcascade/native-birth packing estimate for arbitrary data, with
+  endpoint/interface surfaces only as coordinate faces of that reserve.
 ---
 
 # Positive critical transfer dyadic-flux affine-threading reduction
@@ -205,9 +206,10 @@ lower edge
 \texttt{MovingLowHighInterfaceLowerEdge.A}.
 ```
 
-So the positive critical transfer theorem is now pinned to the same endpoint /
-interface branch as the scale-native birth packing. It is not a separate
-post-selection storage estimate.
+So the positive critical transfer theorem is now pinned to the same weighted
+upcascade branch as scale-native birth packing. The endpoint and moving
+low-high surfaces are useful coordinate faces of that branch; they are not a
+replacement final hinge.
 
 ## What remains open
 
@@ -236,20 +238,32 @@ Thus raw strain work, raw Bessel packing, raw reset distance, or raw
 bounded-test admission does not prove `(7)`. The remaining theorem must produce
 the selected first-ratio weight from the original coupled packet.
 
-The current sharp open producer can be stated in either equivalent form:
+The current sharp open producer remains:
+
+```math
+\texttt{PositiveCriticalTransferBound.A}
+\ /\ 
+\texttt{NativeBirthChargePacking.A}.
+\tag{10}
+```
+
+In dyadic language this is the selected one-sided critical
+no-free-upcascade bound with bounded-multiplicity assignment of retained
+scale-native high-ratio births into finite original-history native reserve.
+Two useful coordinate faces of the same open payment are:
 
 ```math
 \texttt{FreshPositiveAffineEndpointMassKill.A}
 \quad\text{through}\quad
 \texttt{FreshMuNCarlesonEndpointThreading.A},
-\tag{10}
+\tag{11}
 ```
 
 or
 
 ```math
 \texttt{MovingLowHighInterfaceLowerEdge.A}.
-\tag{11}
+\tag{12}
 ```
 
 The return/reset side has a precise role. Fixed stopped-score return/BV is
@@ -269,11 +283,7 @@ no-free-upcascade theorem. The Gold live edge is therefore sharper:
 \le
 \texttt{FreshFrequencyFluxNoFreeUpcascade.A}
 \le
-\texttt{AffineQuotientTransitionPayment.A}
-\le
-\texttt{FreshPositiveAffineEndpointMassKill.A}
-\ /\ 
-\texttt{MovingLowHighInterfaceLowerEdge.A},
+\texttt{NativeBirthChargePacking.A},
 ```
 
 with the critical branch payments kept explicit.
