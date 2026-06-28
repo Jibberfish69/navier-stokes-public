@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-first-endpoint-seed-absorption-proof-skeleton-20260628
-status: proof-skeleton-reduces-to-endpoint-current-rigidity-and-testing
+status: compactness-route-corrected-current-carleson-still-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -15,7 +15,8 @@ completion_truth: partial-not-mpp-closed
 # First endpoint seed absorption proof skeleton
 
 This note records the shortest noncircular route for the retained first endpoint
-seed absorption theorem.
+seed absorption theorem and the exact point where the compactness proof cannot
+yet be closed.
 
 The target is
 
@@ -176,9 +177,9 @@ By `(7)`, the second factor is bounded uniformly for
 \(\|g\|_{L^2(H_\gamma)}\le1\).  Taking the supremum in `(5)` and summing in
 \(\gamma\), `(8)` gives `(1)`.
 
-## 5. Rigidity form
+## 5. Corrected rigidity form
 
-Equivalently, prove `(1)` by contradiction.
+The tempting contradiction proof is:
 
 If `(1)` fails, normalize a sequence of counterexamples so that
 
@@ -214,6 +215,45 @@ Thus \(M_\infty=0\), contradicting the unit endpoint mass.  This is the physical
 rigidity statement: there is no retained first endpoint seed detached from the
 original material current.
 
+The flaw is that failure of `(1)` does not imply `(11)`.  It only gives a
+sequence for which the endpoint seed mass is large compared with the allowed
+right side.  After normalization one obtains
+
+\[
+\sum_\gamma\int H_\gamma\|M_\gamma\|_2^2=1,
+\qquad
+\sum_\gamma\int |J_\gamma|^2\,d\mathcal R_\gamma\simeq1,
+\tag{13}
+\]
+
+while the lower-order paid terms vanish and the strict absorbed portion of the
+native reserve is not enough to dominate the current.  The limit is therefore
+not a seed with zero current.  It is a nonzero retained endpoint current with no
+available original-data reserve left to spend:
+
+\[
+M_\infty=D_{A_\infty}J_\infty,
+\qquad
+\int H_\infty\|M_\infty\|_2^2=1,
+\qquad
+\int |J_\infty|^2\,d\mathcal R_\infty\simeq1 .
+\tag{14}
+\]
+
+There is no contradiction in `(14)`.  The identity \(M=D_AJ\) transfers endpoint
+mass to current energy; it does not by itself force the current to vanish.
+
+Thus a compactness proof needs an additional Liouville/rigidity theorem:
+
+\[
+\text{no nonzero retained endpoint current can survive with zero paid
+same-material reserve beyond the strict native viscous fraction.}
+\tag{15}
+\]
+
+That theorem is equivalent to the one-sided positive critical transfer bound in
+compactness language.
+
 ## 6. Remaining noncircular burden
 
 The absorption theorem is proved once `(2)`, `(7)`, and `(8)` are proved from the
@@ -221,4 +261,6 @@ original packet before future selected-tail readout.
 
 The installed notes already identify `(2)` and `(7)` as the endpoint
 current/testing surface.  The only smoothness-bearing estimate in this proof is
-`(8)`, equivalently the one-sided positive critical transfer bound.
+`(8)`, equivalently the one-sided positive critical transfer bound.  The
+compactness route does not remove that burden; it repackages it as the rigidity
+statement `(15)`.
