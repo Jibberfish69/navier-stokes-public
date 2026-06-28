@@ -2587,7 +2587,138 @@ pressure balance.  Positive metric variation, Hodge--Stokes graph energy, and
 paid exchange/reselection terms must pack the quotient, not the raw pressure
 Hessian.
 
-## 28. Truth ledger
+## 28. Predictability pressure test: the active quotient cannot be child-fit
+
+Attempt `(155)`--`(156)` with the active quotient projector left implicit.
+
+The quotient in `(153)` is only legal if its null space is fixed from the parent
+history before the selected child is read.  Otherwise the proof can choose a
+child-fitted null space that absorbs the selected pressure-Hessian component
+after seeing it.
+
+Let
+
+\[
+\mathcal N_{e^-}^{act}
+\subset
+\mathcal H_{e^-}^{HS}
+\tag{157}
+\]
+
+be the parent-predictable zero-stretch skew-inertial Hodge--Stokes null space at
+the stopped parent side of an edge \(e=Q\to Q'\).  Its elements are the packet
+directions whose active strain-driving quotient vanishes:
+
+\[
+S=0,
+\qquad
+\nabla_A^2p+\Omega_A^2=0,
+\qquad
+K=0,
+\tag{158}
+\]
+
+up to already paid frame, collar, stop, and legal terms.  The legal active
+child packet is therefore
+
+\[
+D_e^{act}
+:=
+\left(I-\Pi_{\mathcal N_{e^-}^{act}}-\Pi_{\mathcal P_{e^-}^{act}}\right)
+D_e^{HS},
+\tag{159}
+\]
+
+where \(\mathcal P_{e^-}^{act}\) is the inherited parent-predictable active
+graph span.  The selected bill must use \(D_e^{act}\), not a quotient chosen
+from the child endpoint:
+
+\[
+a_e^{act}
+\simeq
+\int_{I_e} H_{e^-}(t)\|D_e^{act}(t)\|_{\mathcal H^{HS}}^2\,dt
++Paid_e .
+\tag{160}
+\]
+
+The paid line is algebraic: once \(\mathcal N_{e^-}^{act}\),
+\(\mathcal P_{e^-}^{act}\), and \(H_{e^-}\) are parent-known, the residuals
+\(D_e^{act}\) are legitimate martingale/Bessel differences.  The unproved line
+is the parent-announced quotient-projector variation bound.
+
+If the null space changes from one stopped parent chart to the next, its
+variation must be represented as connection motion:
+
+\[
+dA_P^{act\text{-}q}
+:=
+H_P^\ast
+\left\|
+\left(\nabla^P\Pi_{\mathcal N^{act}}\right)_{\rm new}
+\right\|_{\operatorname{op}}^2\,d\sigma dt
++dA_P^{frame/cov/ex}
++dStop_P+dR_{\rm legal,P}.
+\tag{161}
+\]
+
+The exact producer needed for `(156)` is
+
+\[
+\sum_{e\subset P}
+\int H_{e^-}\|D_e^{act}\|_{\mathcal H^{HS}}^2
+\le
+C\|\mathcal J_P^{HS}\|_{\mathfrak C_{P,act}^{HS,*}}^2
++C\int_{\operatorname{Hist}(P)}dA_P^{act\text{-}q}
++CE_{\rm paid}(P),
+\tag{162}
+\]
+
+with the Carleson bound
+
+\[
+\int_{\operatorname{Hist}(P')}dA_{P'}^{act\text{-}q}
+\le
+C_N(u_0)\mathcal R(P')
++R_{\rm legal}(P')+Stop(P')
+\quad
+\text{for every stopped }P'\subseteq P.
+\tag{163}
+\]
+
+Without `(163)`, the quotient graph capacity is still circular: the selected
+tail can be hidden in a moving null projector.  With `(163)`, child-fitted
+motion is either paid as frame/covector/exchange/turnstile/stop/legal variation
+or the residual is a genuine parent-subtracted active graph innovation.
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It is the noncircularity test for the
+  current live producer `(155)`--`(156)`.
+- Did this prove smoothness? No.  It identifies the next exact paid/unproved
+  split: Bessel is algebraic after the quotient geometry is parent-announced;
+  the projector-variation Carleson bound `(163)` is still open.
+- What does it mean physically? A parent may know which pressure curvature is
+  just rigid spin.  A child cannot retroactively declare its dangerous pressure
+  curvature to have been rigid spin all along without moving the material
+  frame/connection, and that motion is physical work.
+- Is this the full coupled packet or a scalar proxy? This is the coupled packet
+  only if the active null space, inherited span, and weight are all built from
+  the original same-material history.  A child-fitted quotient is a scalar proxy
+  in disguise.
+- Is this already handled in the repo? The repo handles the analogous structure
+  for parent-announced resets, predictable weights, and parent-fixed connection
+  angle drift.  It does not yet install the active Hodge--Stokes quotient
+  projector bound `(163)`.
+- Did this create another alias? No.  It collapses the active quotient back to
+  the same root issue: parent-known geometry plus original-history Carleson
+  control before selected readout.
+
+The live producer is now the parent-announced active quotient projector:
+construct \(\mathcal N^{act}\), \(\mathcal P^{act}\), \(H_{e^-}\), and the
+connection \(\nabla^P\) from parent history, then prove `(162)`--`(163)` from
+the original Navier--Stokes participation law.
+
+## 29. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
