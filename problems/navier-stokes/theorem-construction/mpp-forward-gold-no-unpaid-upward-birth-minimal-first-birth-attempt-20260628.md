@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: terminal-full-packet-root-fixed-no-waste-open
+status: terminal-full-packet-root-fixed-nojump-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -5176,7 +5176,7 @@ Thomas-dialogue verdict:
 - Did this create another alias? No.  It removes an alias: active graph
   coercivity is support, and the live producer is terminal no-atom storage.
 
-## 44. Horizon checklist and terminal no-waste pressure test
+## 44. Horizon checklist and terminal no-jump pressure test
 
 The proof can close smoothness from this Gold hinge only if the following chain
 is paid in the original same-material packet:
@@ -5239,6 +5239,26 @@ Then `(323)` cannot occur for infinitely many retained selected terminal layers:
 each retained atom forces a fixed root-parent drop by `(324)`, while `(325)`
 allows only finite total drop.
 
+But this is not yet the Gold no-atom theorem.  A bounded-below root functional
+may still have one terminal jump.  That jump would be finite and nonresettable,
+but it would still violate `(318)` if it remained as an endpoint atom of the
+parent full packet.  Therefore the positive Gold mechanism needs one more
+property on the same root-fixed functional:
+
+\[
+\lim_{\rho\downarrow0}\sup_{z_0}
+\big[-\Delta_{T_\rho(z_0)}\mathcal L_P\big]_+=0
+\tag{327}
+\]
+
+or a Hardy/time-thickness substitute such as
+
+\[
+\sup_P\int_{-1}^{0}(-s)^{-\alpha}\,d(-\mathcal L_P)_+(s)<\infty
+\qquad(\alpha>0).
+\tag{328}
+\]
+
 The same argument fails if the storage is rebuilt after zooming to each child:
 
 \[
@@ -5256,28 +5276,35 @@ drops.  That is exactly the old reset/rebase alias in no-waste language.
 Paid line:
 
 \[
-\text{root-fixed full-packet descent `(324)' + nonresettable layer accounting `(325)'}
+\text{`(324)' + `(325)'}
+\Longrightarrow
+\text{no reset/rebase double-counting of a terminal atom.}
+\tag{329}
+\]
+
+\[
+\text{`(324)' + `(325)' + root-fixed terminal no-jump `(327)' or `(328)'}
 \Longrightarrow
 \text{terminal no-atom `(318)'--`(320)'.}
-\tag{327}
+\tag{330}
 \]
 
 Unproved line:
 
 \[
-\text{construct \(\mathcal L_P\) satisfying `(324)'--`(325)' from the coupled
-pressure--viscosity--incompressibility packet, or route `(323)' into the
-same-witness endpoint face.}
-\tag{328}
+\text{construct \(\mathcal L_P\) satisfying `(324)'--`(325)' and `(327)'/`(328)'
+from the coupled pressure--viscosity--incompressibility packet, or route `(323)'
+into the same-witness endpoint face.}
+\tag{331}
 \]
 
 Thomas-dialogue verdict:
 
 - Is this actually the live object? Yes.  It attacks the terminal atom `(323)`,
   not active graph coercivity, scalar endpoint mass, or finite reserve.
-- Did this prove smoothness? No.  It proves that a real no-waste proof must be
-  root-fixed and nonresettable; child-normalized Lyapunov drops only rename the
-  hinge.
+- Did this prove smoothness? No.  It catches the exact overclaim: root-fixed
+  no-waste blocks reset/rebase double counting, but Gold no-atom also needs
+  terminal no-jump or Hardy thickness of the root-fixed functional.
 - What does it mean physically? The same material packet may not spend the same
   terminal drop again after every zoom.  Either one parent history records the
   cumulative loss, or the terminal atom is a same-witness endpoint failure.
@@ -5286,11 +5313,13 @@ Thomas-dialogue verdict:
   pressure, viscosity, incompressibility, strain, active pressure quotient,
   selector, collar, and legal channels together.
 - Is this already handled in the repo? The consumer implication `(327)` is
-  standard from `(324)`--`(325)`.  The construction of the root-fixed
-  \(\mathcal L_P\) is not installed.
+  only the no-reuse implication.  The Gold implication is `(330)`, and the
+  construction of a root-fixed \(\mathcal L_P\) with terminal no-jump is not
+  installed.
 - Did this create another alias? No.  It rejects the bounded-below-storage
   alias unless the storage is original-history, full-packet, and nonresettable
-  across terminal layers.
+  across terminal layers, then rejects root-fixed no-waste itself as Gold
+  closure unless it also has terminal no-jump.
 
 ## 45. Truth ledger
 
