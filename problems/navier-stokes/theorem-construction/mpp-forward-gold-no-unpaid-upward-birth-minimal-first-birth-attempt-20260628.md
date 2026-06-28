@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: terminal-angular-mixing-reduces-to-neutral-transverse-alignment-exclusion-open
+status: selected-forest-lift-collapses-to-strict-half-tail-exclusion-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -43,6 +43,13 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-positive-remainder-depletion-target-attack-note.md
   - problems/navier-stokes/theorem-construction/mcp-positiveremainderdepletion-onwardalignmentreduction-7d647f8a43.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ancestry-line-frame-deformation-tax-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-pls-no-free-upcrossing-complete-frame-laminar-test-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-weighted-laminar-ancestry-reserve-audit-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-ratio-goodlambda-half-barrier-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-installed-support-axioms-half-tail-model-no-go-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-localized-affine-global-matching-scaling-audit-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-forward-native-reserve-ratio-tail-obstruction-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-weight-beating-tail-ns-structure-audit-20260626.md
 completion_truth: partial-not-mpp-closed
 ---
 
