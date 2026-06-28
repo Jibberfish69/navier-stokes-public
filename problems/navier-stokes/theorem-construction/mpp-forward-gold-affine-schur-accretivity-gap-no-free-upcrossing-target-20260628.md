@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: schur-thin-parabolic-source-equation-open
+status: schur-thin-two-particle-source-equation-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -31,12 +31,15 @@ effect: >-
   thin square-large impulses. A BV pressure test then identifies the exact
   parent quantity that sees those impulses: material-time variation of the
   same-carrier source detector. A further pressure test shows that arbitrary BV
-  is still too weak a target; the useful producer is the same-carrier parabolic
-  source equation for that detector. The remaining theorem is to prove this
-  differentiated source equation with heat-scale absorption and paid commutator
-  forcing, without losing the critical coefficient; this implies `(30)`, then
-  the Schur-thin gate, then finite original-data control of the Schur record,
-  negative return, and inverse-Gram route variation.
+  is still too weak a target; the useful producer is the parabolic source
+  equation for that detector. The scalar output heat equation is the wrong
+  object because differentiating the product creates a critical cross-gradient
+  forcing. The remaining theorem is the same-carrier two-particle source
+  equation for the high-high stress detector, with heat acting on the two input
+  carriers before output projection, plus paid pressure/Hodge and commutator
+  forcing; this implies `(30)`, then the Schur-thin gate, then finite
+  original-data control of the Schur record, negative return, and inverse-Gram
+  route variation.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
@@ -696,3 +699,139 @@ Thomas-dialogue verdict:
   equation plus paid forcing.
 
 Partial, not Gold closed. The current sharp producer is `(34)`--`(36)`.
+
+## 10. Two-particle pressure test: scalar output heat is the wrong equation
+
+The source equation `(34)` still has one hidden trap.  If \(b_B\) is treated as
+a scalar output packet and one applies the ordinary output heat operator, the
+Leibniz rule creates a critical forcing term.
+
+In the model case \(D_t u-\nu\Delta u=0\),
+
+\[
+(D_t-\nu\Delta)(u\otimes u)
+=
+-2\nu\,\nabla u\odot\nabla u .
+\tag{41}
+\]
+
+After applying \(\Lambda^{-1/2}P_m\mathbb P\nabla\cdot\), the right side is a
+same-scale high-high source of the same critical size as the original one.  It
+is not automatically a paid error.  Treating `(41)` as forcing would recreate
+the \(H^{1/2}\) coefficient obstruction inside the source-variation theorem.
+
+Therefore the parabolic equation must be written on the bilinear input pair,
+before collapsing to the selected output detector.  For the high-high source
+
+\[
+B_{k\ell m}
+=
+\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u_k\otimes u_\ell),
+\tag{42}
+\]
+
+the correct heat operator is the two-particle material operator
+
+\[
+\mathcal L_{k\ell}^{P,2}(u_k,u_\ell)
+:=
+((-\Delta_P)u_k,u_\ell)+(u_k,(-\Delta_P)u_\ell),
+\tag{43}
+\]
+
+pushed through the same bilinear stress map.  The target source equation is
+
+\[
+D_t^P b_{k\ell m}
++\nu\,\mathcal B_{k\ell m}^P\mathcal L_{k\ell}^{P,2}(u_k,u_\ell)
+=
+\mathcal C_{k\ell m}^{press/Hodge}
++\mathcal C_{k\ell m}^{frame/collar/selector}
++\mathcal C_{k\ell m}^{fresh/end},
+\tag{44}
+\]
+
+where \(b_{k\ell m}=G^{-1/2}B_{k\ell m}\) and
+\(\mathcal B_{k\ell m}^P\) is the parent-built same-carrier bilinear stress
+detector.  The cross-gradient in `(41)` is no longer an unpaid forcing term; it
+is part of the two-input heat variation being measured before output
+projection.
+
+The required absorption estimate is correspondingly
+
+\[
+\sum_{\chi_B<\eta}
+\sup_B\|G_B^{-1/2}m_B\|
+\int_B
+\left\|\nu\,\mathcal B_{k\ell m}^P
+\mathcal L_{k\ell}^{P,2}(u_k,u_\ell)\right\|
+\le
+\theta\nu\sum_B(D_k+D_\ell)
++C_\eta E_{\rm paid}(P),
+\qquad \theta<1 .
+\tag{45}
+\]
+
+The remaining forcing estimate is
+
+\[
+\sum_{\chi_B<\eta}
+\sup_B\|G_B^{-1/2}m_B\|
+\int_B
+\|\mathcal C_{k\ell m}^{press/Hodge}
++\mathcal C_{k\ell m}^{frame/collar/selector}
++\mathcal C_{k\ell m}^{fresh/end}\|
+\le
+C_\eta(E_{\rm motion}+E_{\rm fresh}+A^-+Legal+Stop+CM^{end}).
+\tag{46}
+\]
+
+Paid line:
+
+\[
+\text{two-particle source equation `(44)' plus `(45)'--`(46)'}
+\Longrightarrow
+\text{source-variation bound `(30)'.}
+\tag{47}
+\]
+
+Failed line:
+
+\[
+\text{scalar output heat equation}
+\not\Longrightarrow
+\text{paid source variation, because `(41)' is critical high-high forcing.}
+\tag{48}
+\]
+
+Sharper unproved line:
+
+\[
+\text{construct the parent-built bilinear stress detector
+\(\mathcal B_{k\ell m}^P\) and prove `(44)'--`(46)' without selected-child
+lookahead and without the critical \(H^{1/2}\) coefficient.}
+\tag{49}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It attacks the proof of `(34)`--`(36)`
+  for the high-high stress source.
+- Did this prove smoothness? No.  It rejects the scalar output heat version and
+  replaces it with the correct two-particle source equation.
+- What does it mean physically? The stress source is made by two moving packets.
+  Heat acts on the two packets before their product is projected; treating the
+  product as a scalar output creates a fake forcing term of exactly the dangerous
+  size.
+- Is this the full coupled packet or a scalar proxy? Full packet only if the
+  two input carriers, Leray/Hodge pressure correction, material frame, selector,
+  collar, and endpoint branches are all kept before output projection.
+- Is this already handled in the repo? No.  Existing notes isolate the
+  high-high source detector and prove abstract novelty packing after admission.
+  The parent-built two-particle source equation `(44)`--`(46)` is not installed.
+- Did this create another alias? No.  It removes one: "parabolic source
+  equation" meant as scalar output heat is an alias for the high-high
+  obstruction.  The live producer is the two-particle same-carrier source
+  equation.
+
+Partial, not Gold closed. The current sharp producer is `(44)`--`(46)`.
