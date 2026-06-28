@@ -2668,8 +2668,13 @@ C\rho_{inst,N}(\mathcal F_N)+o_N(1),
 \tag{175}
 \]
 
-or the nonsummable hidden transverse cost must produce a positive active
-Carleson reserve or a rigid Zeno residue class.
+Here \(\rho_{inst,N}\) is not a solved reserve label.  It must be an
+original-packet, parent-known transverse-frame capacity for the same selected
+forest, built before child readout and carrying pressure-Hodge, viscosity,
+transport, collar, legal, stop, and endpoint terms on the same material
+history.  Otherwise `(175)` only renames finite reserve.  If that capacity
+cannot be built, the nonsummable hidden transverse cost must produce a positive
+active Carleson reserve or a rigid Zeno residue class.
 
 Paid line:
 
@@ -2703,11 +2708,13 @@ Thomas-dialogue audit:
 - Is this the full coupled packet or a scalar proxy? Full packet only if the
   frame capacity carries pressure-Hodge, viscosity, transport, collar, legal,
   stop, and endpoint terms on the same material history.
-- Is this already handled in the repo? The one-line complete-frame identity
-  and finite donor graph support are handled.  The selected-forest lift is not.
+- Is this already handled in the repo? The trace-free one-frame inequality and
+  finite donor graph support are handled.  The parent-known selected-forest
+  transverse capacity \(\rho_{inst,N}\) is not.
 - Did this create another alias? No.  It identifies the concrete capacity
   required by the material state.
 
 Partial, not Gold closed.  The strict producer is the selected-forest
-complete-frame capacity `(175)`, or the equivalent active-reserve / rigid-Zeno
-theorem for the same neutral-transverse full-output cascade.
+complete-frame capacity `(175)`, with \(\rho_{inst,N}\) constructed from the
+original coupled packet, or the equivalent active-reserve / rigid-Zeno theorem
+for the same neutral-transverse full-output cascade.
