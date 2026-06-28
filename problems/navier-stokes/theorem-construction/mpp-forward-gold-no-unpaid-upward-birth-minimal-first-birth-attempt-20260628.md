@@ -2863,10 +2863,13 @@ zero-stretch skew-inertial pressure balance before the pressure-Hessian term is
 allowed to count as selected squeeze.  The parent-predictability test
 `(157)`--`(163)` shows that the active quotient itself is lawful only when its
 null space, inherited span, active weight, and connection are built before child
-selected readout.
+selected readout.  The projector-motion test `(164)`--`(169)` shows that pure
+zero-stretch rigid spin cannot move the active null projector for free; any
+motion is strain-vorticity, viscous graph, connection, stop, or legal charge.
 
-Conditional relay: proving the parent-announced active quotient projector
-estimate `(162)`--`(163)` supplies the noncircular geometry needed for active
+Conditional relay: proving the active-weight strain-vorticity/connection
+Carleson estimate `(169)` supplies the parent-announced active quotient
+projector bound `(163)`, hence the noncircular geometry needed for active
 Hodge--Stokes admission `(155)` and quotient graph-capacity Bessel packing
 `(156)`; that gives `(*)`, hence `(105)`--`(106)`, hence finite selected action.
 The earlier high-weight tube escape charge `(127)` is the escape branch that
@@ -2919,7 +2922,10 @@ curvature.  Child-fitted active quotient projection now fails as well: if
 \(\mathcal N^{act}\), \(\mathcal P^{act}\), or \(H_{e^-}\) are chosen after
 seeing the selected descendant, they can hide the tail they are supposed to
 charge.  The quotient projector must be parent-announced and its motion must
-pay `(161)`--`(163)`.
+pay `(161)`--`(163)`.  A raw moving-null-projector route also fails as a proof
+mechanism unless it proves `(169)`: pure rigid spin is stationary, but motion of
+the active null space must be charged to strain-vorticity, viscous graph,
+connection, stop, or legal terms.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -2956,7 +2962,10 @@ rigid-rotation pressure test, that graph packet is further sharpened to the
 active quotient `(153)`--`(156)`, which annihilates parent-predictable
 zero-stretch skew-inertial pressure balance.  After the predictability pressure
 test, the active quotient is valid only as a parent-announced quotient projector
-with variation ledger `(161)` and Carleson bound `(163)`.
+with variation ledger `(161)` and Carleson bound `(163)`.  After the
+projector-motion pressure test, `(163)` is equivalent to the active-weight
+strain-vorticity/viscous/connection Carleson estimate `(169)` plus gap-loss
+stop, reselection, and legal treatment.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
