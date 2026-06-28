@@ -12,6 +12,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-five-step-smoothness-route-first-two-lemmas-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-dyadic-triad-exhaustion-hinge-attempt-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-dimensional-schur-motion-payment-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-adjoint-bessel-packing-under-parent-subtracted-novelty-20260628.md
 completion_truth: partial; exact commutator admission theorem still open
 ---
 
@@ -174,6 +175,24 @@ The fresh piece is Bessel-packable exactly when parent-subtracted novelty gives
 \sum_{k\ell m}P_{(I-P_F)e_{k\ell m}}\le C I+C E_{route}.
 \]
 
+The exact Hilbert lemma for this is now installed separately. In parent order,
+
+\[
+F_n=(I-P_{R_{n-1}})E_n,\qquad
+R_{n-1}=\overline{\operatorname{span}}(E_1,\ldots,E_{n-1}) ,
+\]
+
+gives mutually orthogonal novelty spaces, hence
+
+\[
+\sum_n P_{F_n}\le I,\qquad
+\sum_n \|P_{F_n}j_P\|^2\le \|J_P\|_{\mathcal C_P^\ast}^2 .
+\]
+
+So the fresh term is no longer an accounting hope. The only question is whether
+the positive triad detector has first been admitted into this parent Hilbert
+space with the correct parent order and novelty projection.
+
 The motion piece is paid by the already proved finite-dimensional Schur motion
 lemma:
 
@@ -184,7 +203,8 @@ lemma:
 \]
 
 Therefore the only remaining non-formal step is material lift/admission of the
-raw Fourier detector into \(\mathcal C_P\).
+raw Fourier detector into \(\mathcal C_P\), with the parent order fixed before
+the selected child readout.
 
 ## 5. High-low and high-high branch: exact open lift
 
@@ -209,7 +229,8 @@ The exact bridge theorem is:
 
 For every retained selected positive \(H^{1/2}\) triad, the Eulerian commutator
 detector admits a parent-built material adjoint representative
-\(\psi_{k\ell m}^P\in\mathcal C_P\) such that
+\(\psi_{k\ell m}^P\in\mathcal C_P\), chosen before the selected child value is
+read, such that
 
 \[
 T_{k\ell m}^+
@@ -222,8 +243,11 @@ T_{k\ell m}^+
 \]
 
 The low-high branch supplies the motion term by the commutator/cotangent-flow
-calculation above. The high-low and high-high branches remain open precisely at
-the material adjoint lift and parent-subtracted novelty bound.
+calculation above. Parent-subtracted novelty supplies the Bessel term once the
+triad has a legal parent representative. The high-low and high-high branches
+remain open precisely at the material adjoint lift: producing that parent-built
+representative and proving its inherited/fresh/motion split without using the
+future selected child value.
 
 ## 7. Current conclusion
 
