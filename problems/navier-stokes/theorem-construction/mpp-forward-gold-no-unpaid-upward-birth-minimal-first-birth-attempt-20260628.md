@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: minimal-first-birth-reduces-to-selected-metric-endpoint-cocycle-open
+status: material-capacity-frame-reduces-to-critical-capacity-admission-packing-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -25,6 +25,11 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-packet-return-bv-producer-test-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-reset-overrun-carleson-boundary-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-first-endpoint-seed-absorption-proof-skeleton-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bellman-root-capacity-branch-collapse-and-shrinking-core-attempt-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-route-metric-bellman-capacity-pressure-test-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-traction-current-participation-law-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-history-routed-current-energy-finiteness-boundary-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-routed-current-energy-original-history-producer-20260627.md
 completion_truth: partial-not-mpp-closed
 ---
 
@@ -468,8 +473,8 @@ items are proved from original history before future selected-tail readout:
 3. return payment: repeated endpoint-state reads are bounded in selected
    harmonic square currency;
 4. reset payment: changes of endpoint state have critical weighted reset BV;
-5. metric eligibility: the root selected metric is a parent-known material
-   capacity, not a future-tail weight;
+5. metric eligibility: the root selected metric is a parent-known critical
+   material capacity, not raw divergence capacity and not a future-tail weight;
 6. noncircular cocycle: the same root selected metric contains the endpoint
    atom, return square, and reset derivative;
 7. relay: the resulting native birth packing gives selected compression root
@@ -618,7 +623,135 @@ The proof still fails at `(30)`--`(31)`.  Those lines are exactly the coupled
 version of endpoint lower edge, accretive testing, current Carleson, reset, and
 return in one root metric.
 
-## 13. Truth ledger
+## 13. Capacity frame pressure test
+
+The capacity reformulation still has a false easy reading.  The norm in `(29)`
+cannot be ordinary divergence capacity.
+
+For a shrinking heat-scale endpoint seed \(M_r\), the raw material current can
+have
+
+\[
+\|M_r\|_{\operatorname{Cap}_{raw,P}^{-1}}^2\sim r,
+\tag{34}
+\]
+
+while the retained selected readout is normalized as
+
+\[
+\omega_r\sim1.
+\tag{35}
+\]
+
+Thus raw capacity admission
+
+\[
+\omega_r
+\le
+C\|M_r\|_{\operatorname{Cap}_{raw,P}^{-1}}^2
++Paid
+\tag{36}
+\]
+
+is false by the same half-tail mechanism.  It is exactly the old \(r\) versus
+unit selected-action gap in capacity language.
+
+The only possible legal capacity is the critical material capacity:
+
+\[
+\|M_r\|_{\operatorname{Cap}_{crit,P}^{-1}}^2
+\simeq
+r^{-1}\|M_r\|_{\operatorname{Cap}_{raw,P}^{-1}}^2,
+\tag{37}
+\]
+
+or its equivalent parent-known routed-current / positive-critical-transfer
+metric.  Then admission can see unit selected seeds, but packing becomes the
+whole producer:
+
+\[
+\sum_{\gamma\subset P}
+\|M_\gamma^{fresh}\|_{\operatorname{Cap}_{crit,P}^{-1}}^2
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{38}
+\]
+
+So capacity has two independent frame requirements.
+
+Lower frame / admission:
+
+\[
+\omega_\gamma
+\le
+C_N\|M_\gamma\|_{\operatorname{Cap}_{crit,P}^{-1}}^2
++Paid(\gamma).
+\tag{39}
+\]
+
+Upper frame / packing:
+
+\[
+\sum_{\gamma\subset P}
+\|M_\gamma^{fresh}\|_{\operatorname{Cap}_{crit,P}^{-1}}^2
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{40}
+\]
+
+Both must be parent-known before future selected-tail readout.  If `(39)` is
+proved by choosing the capacity witness after seeing the endpoint tail, the
+metric is circular.  If `(40)` is proved by importing finite selected action or
+the downstream full clock, the packing is circular.  If the capacity is raw,
+`(39)` fails.  If the capacity is critical but not originally finite, `(40)`
+fails.
+
+This is the exact frame version of the Thomas-dialogue pressure:
+
+- Does this prove smoothness? No; it proves the relay only after `(39)`--`(40)`.
+- Is it full packet? Yes only if the critical capacity is built from the
+  pressure-viscosity-incompressibility traction/current packet.
+- Did it become another alias? It becomes an alias if `Cap_{crit}` is defined
+  from selected action.  It is noncircular only if it is a parent-known material
+  frame with lower and upper bounds.
+- What stronger insight did the failure reveal? The live theorem is not
+  "capacity" by itself.  It is a critical capacity frame theorem: the retained
+  selector must be a lower frame for endpoint seeds, while the same material
+  current must give the upper Bessel/Carleson frame bound.
+
+In dual language, for parent-known critical capacity test fields
+\(\varphi_\gamma\), the target is
+
+\[
+\omega_\gamma
+\lesssim
+|\langle M_\gamma,\varphi_\gamma\rangle|^2+Paid(\gamma),
+\qquad
+\|\varphi_\gamma\|_{\operatorname{Cap}_{crit,P}}\le C_N,
+\tag{41}
+\]
+
+and
+
+\[
+\sum_{\gamma\subset P}
+|\langle D_AJ,\varphi_\gamma\rangle|^2
+\le
+C_N\int_{\operatorname{Hist}(P)}|J|^2\,d\mathcal R_{crit}
++Paid(P).
+\tag{42}
+\]
+
+Equation `(41)` is selected admission / endpoint lower edge.  Equation `(42)`
+is parent-known accretive testing plus current Carleson in the same metric.
+Together they are smaller than the full clock and stronger than any single
+endpoint, return, reset, Bellman, or current-energy note.
+
+The proof still fails at `(41)`--`(42)`: the repo has the raw divergence
+representation, same-chain nonreuse, and conditional testing/current surfaces,
+but not the critical capacity frame from original data.
+
+## 14. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
@@ -639,12 +772,13 @@ rebase.  Raw root ancestry is also too coarse, because one ancestry bucket can
 hide infinitely many selected-scale endpoint-state changes.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
-clause upgraded to a parent-known material-capacity cocycle inside
+clause upgraded to a parent-known critical material-capacity frame inside
 `NativeBirthChargePacking.A`, equivalently the shared metric behind fresh
-endpoint Carleson, selected return square, critical weighted reset BV, and
-stopped endpoint accretive testing.
+endpoint Carleson, selected return square, critical weighted reset BV, stopped
+endpoint accretive testing, and positive critical transfer.
 
-Live producer: prove the coupled material-capacity cocycle `(24)`--`(33)`, or
+Live producer: prove the critical material-capacity lower/upper frame
+`(39)`--`(42)`, or
 produce a specific noncircular obstruction showing that a locally parent-fresh
 selected unit can keep old root endpoint ancestry with no selected return,
 critical reset, exchange, or fresh endpoint Carleson charge.
