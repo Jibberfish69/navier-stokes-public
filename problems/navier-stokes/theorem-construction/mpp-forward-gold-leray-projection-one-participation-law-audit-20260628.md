@@ -18,8 +18,9 @@ source_surfaces:
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-creation.yaml
 completion_truth: >-
-  This audits Leray/Hodge shorthand against the main participation algebra. It
-  does not prove the full-output net-flux parent-current split or close Gold.
+  This audits Leray/Hodge shorthand and the recovered far-shell pulse intuition
+  against the main participation algebra. It does not prove the full-output
+  net-flux parent-current split or close Gold.
 ---
 
 # Leray projection and the one participation law
@@ -33,6 +34,91 @@ law carried by the velocity field and the material stress.  The symbol
 and reading the tangent divergence-free part of that same law.  It is not a
 separate transported substance, a detached source, or a standalone
 participation mechanism.
+
+## 0. Recovered thread picture
+
+The physical picture being audited is a build-pulse picture.  At \(t=0\) the
+fluid is at rest.  For \(t>0\), a smooth localized jet or pulse is injected near
+a center \(x_0\).  The first issue is whether the whole incompressible field
+participates immediately.  The correct reading is: the pressure constraint gives
+an immediate whole-field compatibility readout, and the material law records how
+that readout is paid as stress, boundary traction, velocity, energy, viscous
+dissipation, route motion, legal remainder, or stop.
+
+The pulse picture should be kept as a bell-tail / far-annulus question, not as a
+new scalar packet.  On \(\mathbb R^3\), the tail is measured by distance from
+\(x_0\).  On \(\mathbb T^3\), the literal farthest point can be cut-locus
+dependent, so the stable object is the outer annular shell.  At a far-shell
+point \(x_R\) and scale \(r\), the same material packet is viewed through the
+parabolic zoom
+
+```math
+y=\frac{x-x_R}{r},
+\qquad
+s=\frac{\nu(t-t_0)}{r^2},
+\qquad
+U(y,s)=r\,u(x_R+ry,t_0+r^2s).
+```
+
+This is the thread's viscosity nuance: viscosity is not only a later drain.
+Viscosity participates in the clock and scaling by which a tiny far-tail
+readout becomes an order-one selected child view.  The selected child view is
+still the same material participation packet, just expressed in rescaled
+coordinates.
+
+There is no fixed smallest positive packet in this picture.  The first
+nonzero object can be an acceleration/pressure-compatibility coefficient, a
+selected detector coefficient, or a material stress-current readout depending
+on the chart.  Energy-bearing motion appears after the compatible velocity has
+been created; selected Gold action appears only after the readout is admitted as
+an original-packet coordinate.  So "smallest packet" means scale-relative
+participation coefficient, not an independent atom of energy.
+
+The build-pulse and already-formed-pulse experiments must remain separate.  A
+build-pulse experiment asks how the pulse is physically formed from rest, so the
+pressure solve, material stress, boundary traction, viscous clock, and energy
+formation all belong to the same event.  Starting from an already formed
+\(u_{\rm pulse}\) hides that formation cost inside initial data.
+
+In the repo algebra, the same picture must be read through the parent packet
+current system
+
+```math
+\mathcal A_P=(H_P,G_P,m_P,g_P,R_{\rm paid}),
+\qquad
+g_P=G_P^{-1}m_P,
+\qquad
+\mathfrak S_P=\langle m_P,G_P^{-1}m_P\rangle .
+```
+
+A far-annular child \(Q\) supplies a selected detector \(a_Q\) and positive
+readout \(p_Q\).  Same-carrier admission means this child readout enters the
+parent current coordinate, schematically
+
+```math
+dq_Q
+=
+\langle G_P^{-1}dm_P,a_Q\rangle
++\langle g_P,da_Q\rangle
+-\langle G_P^{-1}dG_P\,g_P,a_Q\rangle
++{\rm return}+{\rm viscous}+{\rm legal}+{\rm stop}.
+```
+
+This formula is the repo-facing translation of the thread intuition.  The first
+term is retained Schur current work.  The \(da_Q\) and \(dG_P\) terms are
+selector/frame/metric motion.  The parent-subtracted fresh component is Bessel
+novelty only after admission as a bounded original-packet test.  Erasure is
+return/reset.  Viscous absorption is the dissipation part of the same packet.
+
+Therefore "positive transfer with no admission" is bad physical language.  It
+should not be presented as a possible event.  The honest mathematical statement
+is that the proof still has to derive the coordinate identity/admission estimate
+that writes each positive far-shell/high-high selected readout as retained Schur
+work, bounded fresh novelty, coordinate motion, return/reset, viscous
+absorption, legal, stop, or terminal same-witness endpoint material.  The thread
+picture contributes this ontology guard: do not invent a no-history pulse,
+do not split pressure/velocity/energy/viscosity into separate packets, and do
+not treat \(\mathbb P\) as the physical carrier of participation.
 
 ## 1. What the projection actually abbreviates
 
