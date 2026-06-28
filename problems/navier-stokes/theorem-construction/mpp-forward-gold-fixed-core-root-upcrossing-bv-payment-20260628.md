@@ -20,6 +20,8 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-negative-scale-return-bv-boundary-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-nozeno-record-return-branch-routing-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fixed-annulus-bounded-record-controls-flux-variation-20260625.md
+continued_by:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-packet-return-bv-producer-test-20260628.md
 completion_truth: partial-not-mpp-closed
 effect: >-
   Proves the fixed-core/root-upcrossing branch of the predictable-weight
@@ -221,7 +223,8 @@ Together with the first-exit/reset branch, the predictable-weight pivot becomes
 
 The remaining producer is not a projection theorem and not a Bessel theorem.
 It is the original-data estimate `(10)` for the negative return of the same
-coupled material stress-work packet.
+coupled material stress-work packet, in the original harmonic square currency
+or after an admission lower bound converts that square currency into linear BV.
 
 ## 5. Original-packet boundary
 
@@ -244,8 +247,8 @@ without assuming the full material record/service clock whose finiteness would
 already imply continuation.  This is the fixed-core face of the bounded-below
 same-material service storage target.
 
-So the branch state is now sharp: fixed-core/root-upcrossing is paid once
-original finite return BV is paid.
+So the branch state is now sharp: fixed-core/root-upcrossing is paid once the
+original packet supplies finite return in the retained selected currency.
 
 The MPP is not closed by this branch statement.  The open theorem is the noncircular derivation
 of `(14)` from the original pressure-viscosity-incompressibility-velocity packet.
