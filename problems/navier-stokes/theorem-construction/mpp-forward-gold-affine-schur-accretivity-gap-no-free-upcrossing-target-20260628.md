@@ -2408,8 +2408,8 @@ upcrossing theorem for the critical energy current:
 \int_0^T[B^{crit}(t)]_+\,dt
 \le
 C_N(u_0)
-\theta\nu\int_0^T D_c(t)\,dt
-R_{\rm legal}+Stop,
++\theta\nu\int_0^T D_c(t)\,dt
++R_{\rm legal}+Stop,
 \qquad \theta<1 .
 \tag{158}
 \]
@@ -2443,11 +2443,11 @@ full-output storage \(\mathcal U_P\), built on the same carrier as
 [dq_{\rm pc}]_+
 \le
 -d\mathcal U_P
-dFresh_{\rm Bessel}^{pc}
-dSchur_{\rm retained}^{pc}
-dMotion+dReturn
-\theta\nu D_c\,dt
-dLegal+dStop+dEnd ,
++dFresh_{\rm Bessel}^{pc}
++dSchur_{\rm retained}^{pc}
++dMotion+dReturn
++\theta\nu D_c\,dt
++dLegal+dStop+dEnd ,
 \tag{160}
 \]
 
