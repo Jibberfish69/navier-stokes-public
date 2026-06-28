@@ -12,7 +12,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-gram-schur-first-three-pressure-tests-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-adjoint-bessel-packing-under-parent-subtracted-novelty-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-schur-accretivity-alignment-hard-block-20260628.md
-completion_truth: the repeated-perpendicular abstract block was a category error; the remaining burden is to admit each positive Navier-Stokes triad as a same-carrier parent-current increment
+completion_truth: the repeated-perpendicular abstract block was a category error; the remaining burden is to apply paid-current admission to the correct high-high object: full output-local stress for one-point current, or input-coloured triads only after installing a two-point current
 ---
 
 # Paid parent-current span and the perpendicular category repair
@@ -165,7 +165,8 @@ T_Q^+
 \qquad \theta<1.
 \]
 
-The exact hard problem is to prove that the high-high Navier--Stokes commutator
-detector is admitted into this paid parent-current span. Once that admission is
-proved, the perpendicular loophole is closed by the Schur/Bessel/motion
-accounting above.
+The exact hard problem is to use the correct high-high object. The installed
+one-point parent current admits the full output-local stress. Individual
+input-coloured high-high triads require a two-point parent-current theory. Once
+the chosen high-high object is admitted, the perpendicular loophole is closed by
+the Schur/Bessel/motion accounting above.

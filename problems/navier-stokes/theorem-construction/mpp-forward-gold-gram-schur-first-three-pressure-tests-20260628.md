@@ -128,15 +128,23 @@ The raw analytic face is
 \quad \theta<1.
 \]
 
-Dyadically, this asks whether every positive triadic contribution to the critical \(H^{1/2}\) flux can be charged to viscosity after parent-subtraction and selected same-material routing. In raw Fourier variables the standard estimate leaves a coefficient depending on \(\|u\|_{\dot H^{1/2}}\), so the raw inequality is MPP-strength. It should be used as a falsifier/normalizer for the selected Schur mechanism, not as the easiest proof surface.
+Dyadically, this asks whether the positive critical \(H^{1/2}\) flux can be
+charged after parent-subtraction and selected same-material routing. The
+input-coloured high-high triad version is only a falsifier: individual
+\((k,\ell,m)\) input colours are two-point bilinear currents, not one-point
+parent stress-current tests. The one-point route must select after recombining
+to the full output-local stress, or else install a two-point current.
 
-The triad test should classify each positive contribution into one of three bins:
+The output-stress test should classify each positive contribution into one of
+three bins:
 
 1. inherited parent-visible current, paid by Schur capacity;
 2. fresh parent-orthogonal residual, paid by Bessel/viscous square-packing;
 3. selector/frame/collar/metric motion, paid by \(K\)-variation and first-exit route energy.
 
-Failure of this trichotomy gives a concrete counterexample branch to AffineSchurAccretivityGap.A.
+Failure of this trichotomy gives a concrete counterexample branch to
+AffineSchurAccretivityGap.A. Failure of individual input-coloured triad
+admission by itself only shows that the two-point-current route has been chosen.
 
 ## 4. Current conclusion
 

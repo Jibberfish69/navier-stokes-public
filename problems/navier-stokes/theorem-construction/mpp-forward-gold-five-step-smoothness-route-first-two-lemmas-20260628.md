@@ -137,6 +137,12 @@ Sharp boundary: repeated adaptive selection of the same one-dimensional detector
 
 ## 3. Dyadic positive H^{1/2} triad exhaustion target
 
+Supersession note, 2026-06-28: the high-high branch cannot require every
+input-coloured triad to be admitted into the installed one-point parent current.
+That current sees the full output-local stress after input colours are
+recombined. Keeping individual high-high input colours requires a two-point
+parent-current theory.
+
 For Littlewood-Paley pieces u_k=P_k u define the positive critical triad contribution
 
 \[
@@ -158,7 +164,10 @@ where the three terms mean:
 - parent-orthogonal fresh residual paid by Bessel packing;
 - selector/frame/collar/metric motion paid by K-variation.
 
-This is the active Navier-Stokes sign/exhaustion burden. The first two lemmas supply the accounting mechanism. The remaining work is to prove every positive triad admits the inherited/fresh/motion classification in the same material carrier.
+This remains a useful falsifier for raw Littlewood-Paley bookkeeping. The active
+Navier--Stokes sign/exhaustion burden is sharper: prove the inherited/fresh/motion
+classification for the full output-local stress in the one-point parent current,
+or replace input-coloured high-high triads by a two-point parent current.
 
 ## 4. Summation and continuation relay
 
@@ -174,4 +183,7 @@ This is the positive critical transfer bound, equivalent on this route to bounde
 
 finite positive critical transfer -> finite selected action -> finite same-material clock -> H^s control for s>5/2 -> smooth continuation.
 
-Conclusion: the first two abstract mechanisms are proved under their explicit structural hypotheses. The live theorem work is now concentrated in the dyadic triad exhaustion theorem: every positive critical triad must land in Schur-visible inherited current, Bessel-packable fresh residual, or paid metric/selector motion.
+Conclusion: the first two abstract mechanisms are proved under their explicit
+structural hypotheses. The live theorem work is now concentrated in choosing and
+admitting the correct high-high object: full output-local stress for one-point
+parent-current accounting, or a two-point current for input-coloured triads.

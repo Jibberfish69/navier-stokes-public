@@ -126,10 +126,17 @@ The bound grows like \(N\). Thus absolute child detector mass cannot be the fres
 
 The second pressure test is passed in the exact abstract sense: parent-subtracted novelty Bessel-packs because innovation subspaces are orthogonal in the parent detector Hilbert geometry.
 
-The remaining Navier-Stokes burden is an admission bridge. Each dangerous positive \(H^{1/2}\) triad detector must be lifted into the same parent detector space and decomposed as
+The remaining Navier-Stokes burden is an admission bridge after the correct
+high-high object has been chosen. For the installed one-point parent current,
+the dangerous positive detector is the full output-local stress detector, not an
+individual input-coloured high-high triad. Input-coloured triads require a
+two-point parent-current space. Once the detector is legal, it decomposes as
 
 \[
 e_{k\ell m}=e^{Schur}_{k\ell m}+e^{nov}_{k\ell m}+e^{motion}_{k\ell m},
 \]
 
-where \(e^{nov}_{k\ell m}\) is a genuine parent-subtracted innovation. Once that same-carrier commutator admission is proved, this Bessel lemma supplies the fresh residual packing term in the Schur/Bessel/motion trichotomy.
+where the novelty component is a genuine parent-subtracted innovation. Once the
+same-carrier admission is proved for the chosen high-high object, this Bessel
+lemma supplies the fresh residual packing term in the Schur/Bessel/motion
+trichotomy.
