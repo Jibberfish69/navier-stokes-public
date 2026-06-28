@@ -1,6 +1,6 @@
 ---
 theorem_id: mpp-forward-gold-dyadic-triad-exhaustion-hinge-attempt-20260628
-status: failed-unconditional-discharge-narrows-to-commutator-admission-theorem
+status: failed-unconditional-discharge; input-coloured-high-high-triad-one-point-admission-superseded
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur accretivity edge
@@ -12,6 +12,13 @@ claimed_status: failed
 ---
 
 # Dyadic triad exhaustion hinge attempt
+
+Supersession note, 2026-06-28: this note is valid as a falsifier for raw
+Littlewood--Paley bookkeeping, but its high-high target is too fine for the
+installed one-point parent current. Individual input-coloured high-high triads
+are two-point bilinear currents. The one-point parent-current route must use the
+full output-local stress after input colours are recombined, or else a separate
+two-point parent-current theory must be installed.
 
 ## 1. Target
 
@@ -26,7 +33,7 @@ T_{k\ell m}^+
 \right\rangle\right]_+.
 \]
 
-The desired exhaustion theorem is
+The originally desired input-coloured exhaustion theorem was
 
 \[
 T_{k\ell m}^+
@@ -77,7 +84,10 @@ The principal part is skew and cancels. The remainder is a commutator of the dya
 
 This is the motion branch. Its coefficient is controlled by deformation of the transported frame and therefore must be paid by the \(K\)-variation / first-exit route ledger, provided the selected packet uses the same material carrier.
 
-High-low and high-high interactions produce either parent-visible stress current or parent-orthogonal residual. The parent-visible component is measured by the Schur capacity response. The orthogonal component is a fresh detector direction and is admissible only through the parent-adjoint Bessel lemma.
+High-low interactions can be reduced to parent-visible stress current,
+parent-orthogonal residual, or paid motion. High-high interactions require an
+extra object choice: full output-local stress for the one-point parent current,
+or input-coloured triads only in a two-point parent-current theory.
 
 ## 4. The attempted exhaustion proof and exact failure point
 
@@ -105,54 +115,64 @@ C\left(
 
 The first term is Schur-visible. The second term Bessel-packs after parent-subtracted novelty. The third term is paid by the finite-dimensional Schur motion lemma.
 
-The proof fails at the unconditional construction of this decomposition for raw Fourier triads. A Littlewood-Paley triad by itself does not name the same transported material carrier, the parent detector space, or the first-exit motion ledger. Therefore raw Fourier trichotomy is an accounting assertion unless the dyadic detector is first lifted into the parent material-current Hilbert geometry.
+The proof fails at the unconditional construction of this decomposition for raw
+Fourier triads. A Littlewood-Paley triad by itself does not name the same
+transported material carrier, the parent detector space, or the first-exit motion
+ledger. In the high-high branch there is a stronger algebraic failure:
+input-coloured triads are not one-point parent stress-current reads because their
+symbols depend on the input frequency split.
 
 ## 5. Narrowed theorem replacing the failed discharge
 
-The needed theorem is the following commutator admission theorem.
+The corrected needed theorem is the following commutator admission theorem.
 
-For every positive critical triad detector \(e_{k\ell m}\) on a retained selected packet, there is a same-carrier decomposition
+For each retained selected packet, the full output-local stress detector admits a
+same-carrier decomposition in the installed one-point parent-current space,
 
 \[
-e_{k\ell m}=e^{Schur}_{k\ell m}+e^{fresh}_{k\ell m}+e^{motion}_{k\ell m}
+e_m^{full}=e^{Schur}_m+e^{fresh}_m+e^{motion}_m
 \]
 
 such that
 
 \[
-\langle J_P,e^{Schur}_{k\ell m}\rangle
+\langle J_P,e^{Schur}_m\rangle
 =\langle G_J^{-1}m_J,p_J\rangle_+
 \]
 
 at the selected scale face,
 
 \[
-\sum_{k\ell m}\|e^{fresh}_{k\ell m}\|^2\le C\|J_P\|^2+C E_{route},
+\sum_m\|e^{fresh}_m\|^2\le C\|J_P\|^2+C E_{route},
 \]
 
 and
 
 \[
-\sum_{k\ell m}\|e^{motion}_{k\ell m}\|^2_K
+\sum_m\|e^{motion}_m\|^2_K
 \le C\int S(t)\|K(t)\|^2dt+C E_{route}.
 \]
 
-Under this commutator admission theorem, dyadic triad exhaustion follows by summing the three bounds.
+Input-coloured high-high triads may be kept only after replacing \(J_P\) by a
+two-point parent current and proving the corresponding packing theorem.
 
 ## 6. Outcome
 
-Unconditional dyadic triad exhaustion is not discharged here. The attempt identifies the precise missing bridge: raw Fourier triads must be lifted into the same-material parent detector Hilbert space before Schur/Bessel/motion accounting has proof force.
+Unconditional dyadic triad exhaustion is not discharged here. The attempt
+identifies the precise missing bridge and its correction: one-point Schur/Bessel/
+motion accounting applies to full output-local stress; input-coloured high-high
+triads require a two-point current.
 
 The next theorem target is therefore:
 
 \[
-\boxed{\text{same-carrier commutator detector admission for positive }H^{1/2}\text{ triads}.}
+\boxed{\text{same-carrier admission for full output-local positive }H^{1/2}\text{ stress}.}
 \]
 
 The first bridge attempt is now recorded in
 `mpp-forward-gold-same-carrier-commutator-detector-admission-bridge-20260628.md`.
-It proves the low-high branch as a detector-motion term and leaves high-low /
-high-high interactions open exactly at the material adjoint lift and
-parent-subtracted novelty bound.
+It proves the low-high branch as a detector-motion term and leaves high-low plus
+the corrected high-high fork open: full-output one-point admission, or
+input-coloured two-point current.
 
 That target is sharper than the previous positive-transfer statement. It names the exact object required to connect the abstract Schur and Bessel lemmas to the Navier-Stokes nonlinearity.

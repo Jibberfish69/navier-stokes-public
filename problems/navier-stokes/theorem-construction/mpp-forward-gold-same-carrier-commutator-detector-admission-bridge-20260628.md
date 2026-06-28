@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-same-carrier-commutator-detector-admission-bridge-20260628
-status: partial-bridge-low-high-motion-admitted-high-interaction-material-lift-open
+status: partial-bridge-low-high-motion-admitted; high-high-corrected-to-full-output-or-two-point-current
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur accretivity edge
@@ -15,10 +15,17 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-adjoint-bessel-packing-under-parent-subtracted-novelty-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-low-high-high-material-adjoint-lift-split-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-high-bilinear-stress-parent-adjoint-lift-pressure-test-20260628.md
-completion_truth: partial; exact commutator admission theorem still open
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-high-parent-current-admission-identity-attempt-20260628.md
+completion_truth: partial; low-high motion is admitted, full output-local high-high stress has the one-point parent-current identity, and individual input-coloured high-high triads require a two-point current
 ---
 
 # Same-carrier commutator detector admission bridge
+
+Supersession note, 2026-06-28: the high-high part below must be read through the
+full-output/two-point repair. A one-point parent stress current cannot admit
+individual input-coloured high-high triads. It admits the full output-local
+stress after input colours are recombined; keeping input colours requires a
+two-point parent-current theory.
 
 The first two abstract mechanisms are now available:
 
@@ -26,12 +33,14 @@ The first two abstract mechanisms are now available:
 2. parent-adjoint fresh directions pack once their projections satisfy the operator
    Bessel/Carleson bound.
 
-The remaining bridge is to show that every positive \(H^{1/2}\) commutator triad
-is admitted into that parent material detector geometry.
+The remaining bridge is to show that the positive \(H^{1/2}\) commutator stress
+is admitted into the correct parent material detector geometry: full output-local
+stress for the installed one-point current, or a two-point current for
+input-coloured high-high triads.
 
 ## 1. Correct target
 
-For a dyadic triad
+For a dyadic input-coloured triad
 
 \[
 T_{k\ell m}^+
@@ -45,7 +54,7 @@ T_{k\ell m}^+
 \right]_+,
 \]
 
-the desired bound is
+the formerly desired one-point bound was
 
 \[
 T_{k\ell m}^+
@@ -59,9 +68,9 @@ T^{Schur}_{k\ell m}
 +legal+stop .
 \]
 
-This is not a fourth payment mechanism. It is the admission theorem saying that
-the dyadic commutator detector is a legal same-carrier parent detector, up to
-fresh novelty and paid motion.
+This remains a falsifier for raw bookkeeping, but it is not the high-high
+one-point theorem. The corrected one-point theorem replaces \(T_{k\ell m}^+\) in
+the high-high branch by the positive read of the full output-local stress.
 
 ## 2. Commutator identity
 
@@ -148,33 +157,35 @@ material derivative of the detector, and the cotangent deformation is the
 
 ## 4. Parent Hilbert decomposition after material lift
 
-Once a triad detector \(e_{k\ell m}\) has been lifted to the parent material
-detector space \(\mathcal C_P\), the Schur/fresh split is just Hilbert geometry.
-Let \(F_{k\ell m}\) be the parent-known spent detector span before this triad.
+Once the chosen detector has been lifted to the parent material detector space
+\(\mathcal C_P\), the Schur/fresh split is just Hilbert geometry. In the
+one-point high-high route, this detector is the full output-local stress detector
+\(e_m^{full}\), not an input-coloured \(e_{k\ell m}\). Let \(F_m\) be the
+parent-known spent detector span before this read.
 Then
 
 \[
-e_{k\ell m}
+e_m^{full}
 =
-P_{F_{k\ell m}}e_{k\ell m}
+P_{F_m}e_m^{full}
 +
-(I-P_{F_{k\ell m}})e_{k\ell m}
+(I-P_{F_m})e_m^{full}
 +
-e^{motion}_{k\ell m}.
+e^{motion}_m.
 \]
 
 The inherited piece is Schur-visible:
 
 \[
-T^{Schur}_{k\ell m}
+T^{Schur}_m
 \simeq
-\left|\langle J_P,P_{F_{k\ell m}}e_{k\ell m}\rangle\right|^2 .
+\left|\langle J_P,P_{F_m}e_m^{full}\rangle\right|^2 .
 \]
 
 The fresh piece is Bessel-packable exactly when parent-subtracted novelty gives
 
 \[
-\sum_{k\ell m}P_{(I-P_F)e_{k\ell m}}\le C I+C E_{route}.
+\sum_mP_{(I-P_F)e_m^{full}}\le C I+C E_{route}.
 \]
 
 The exact Hilbert lemma for this is now installed separately. In parent order,
@@ -192,14 +203,14 @@ gives mutually orthogonal novelty spaces, hence
 \]
 
 So the fresh term is no longer an accounting hope. The only question is whether
-the positive triad detector has first been admitted into this parent Hilbert
+the chosen positive detector has first been admitted into this parent Hilbert
 space with the correct parent order and novelty projection.
 
 The motion piece is paid by the already proved finite-dimensional Schur motion
 lemma:
 
 \[
-\sum_{k\ell m}\|e^{motion}_{k\ell m}\|_K^2
+\sum_m\|e^{motion}_m\|_K^2
 \lesssim
 \int S(t)\|K(t)\|^2dt+E_{route}.
 \]
@@ -210,7 +221,7 @@ the selected child readout.
 
 ## 5. High-low and high-high branch: exact open lift
 
-For high-low and high-high interactions, raw Fourier localization produces a
+For high-low interactions, raw Fourier localization produces a
 detector for the Eulerian stress current, but it does not automatically say that
 the detector is:
 
@@ -221,53 +232,55 @@ the detector is:
 5. accompanied by a first-exit motion ledger when the frame/selector/collar
    changes.
 
-This is the precise failed step in the unconditional dyadic triad exhaustion
-attempt. A raw Littlewood-Paley triad only supplies an Eulerian multiplier. The
-Schur/Bessel/motion accounting requires a same-carrier parent adjoint detector.
+For high-high interactions, an input-coloured Littlewood--Paley triad has an
+additional failure: it is a two-point bilinear current. The Schur/Bessel/motion
+accounting for the installed one-point parent current requires selecting the
+full output-local stress after input recombination.
 
 ## 6. The theorem still to prove
 
-The exact bridge theorem is:
+The corrected bridge theorem is:
 
-For every retained selected positive \(H^{1/2}\) triad, the Eulerian commutator
-detector admits a parent-built material adjoint representative
-\(\psi_{k\ell m}^P\in\mathcal C_P\), chosen before the selected child value is
-read, such that
+For every retained selected positive full output-local \(H^{1/2}\) stress read,
+the Eulerian commutator detector admits a parent-built material adjoint
+representative \(\psi_m^P\in\mathcal C_P\), chosen before the selected child value
+is read, such that
 
 \[
-T_{k\ell m}^+
+T_m^{full,+}
 \lesssim
-\left|\langle J_P,P_F\psi_{k\ell m}^P\rangle\right|^2
-+\|(I-P_F)\psi_{k\ell m}^P\|_{\mathcal C_P}^2
-+\|\psi_{k\ell m}^{motion}\|_K^2
-+\varepsilon\nu D_{k\ell m}
+\left|\langle J_P,P_F\psi_m^P\rangle\right|^2
++\|(I-P_F)\psi_m^P\|_{\mathcal C_P}^2
++\|\psi_m^{motion}\|_K^2
++\varepsilon\nu D_m
 +legal+stop .
 \]
 
 The low-high branch supplies the motion term by the commutator/cotangent-flow
 calculation above. Parent-subtracted novelty supplies the Bessel term once the
-triad has a legal parent representative. The high-low branch is reduced to a
-parent-low coefficient lift plus Leray/Hodge parent adjoint legality. The
-high-high branch is now sharpened to parent admission of the same-scale
-bilinear stress source
+selected detector has a legal parent representative. The high-low branch is
+reduced to a parent-low coefficient lift plus Leray/Hodge parent adjoint
+legality. The high-high branch is now sharpened to parent admission of the full
+output-local stress source
 
 \[
-B_{k\ell m}
+B_m^{full}
 =
-\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u_k\otimes u_\ell).
+\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u\otimes u).
 \]
 
-The remaining open act is producing that parent-built representative and proving
-its inherited/fresh/motion split without using the future selected child value.
+The remaining open act is proving the positive-part/square packing after this
+full-output admission, or else installing a two-point current for input-coloured
+triads.
 
 ## 7. Current conclusion
 
 The proof route has narrowed to one live obstruction:
 
 \[
-\text{same-scale bilinear stress source}
+\text{full output-local same-scale stress source}
 \longrightarrow
-\text{parent-known same-carrier adjoint detector}.
+\text{parent-known same-carrier one-point adjoint detector}.
 \]
 
 Once that admission bridge is proved with the stated norm bounds, the first two
