@@ -1823,19 +1823,19 @@ itself, the event "this selected squeeze is real."  The admitted object must be
 the same-carrier metric squeeze.
 
 Let \(F(t)\) be the material deformation gradient on the parent packet and
-\(C(t)=F(t)^TF(t)\).  For a parent-known material direction \(a\), put
+\(C(t)=F(t)^TF(t)\).  For a parent-known material direction \(\alpha\), put
 
 \[
-q_a(t):={F(t)a\over |F(t)a|}.
+q_\alpha(t):={F(t)\alpha\over |F(t)\alpha|}.
 \tag{107}
 \]
 
 Then the original velocity field gives the exact material metric identity
 
 \[
-{d\over dt}\log(a\cdot C(t)a)
+{d\over dt}\log(\alpha\cdot C(t)\alpha)
 =
-2\,q_a(t)\cdot S(t)q_a(t).
+2\,q_\alpha(t)\cdot S(t)q_\alpha(t).
 \tag{108}
 \]
 
@@ -1856,7 +1856,7 @@ a_{\gamma}^{sq}
 \le
 {1\over2}
 \operatorname{Var}_{+}
-\log(a_\gamma\cdot C a_\gamma;I_\gamma)
+\log(\alpha_\gamma\cdot C\alpha_\gamma;I_\gamma)
 +Paid_{\rm reset/turnstile/covector/collar}(\gamma).
 \tag{110}
 \]
@@ -1868,7 +1868,7 @@ So the legal parent-known charge for the admission clause is
 :=
 {1\over2}
 \operatorname{Var}_{+}
-\log(a_\gamma\cdot C a_\gamma;I_\gamma),
+\log(\alpha_\gamma\cdot C\alpha_\gamma;I_\gamma),
 \tag{111}
 \]
 
