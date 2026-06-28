@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: full-output-material-state-storage-capacity-open
+status: full-output-neutral-transverse-forest-capacity-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -2650,7 +2650,7 @@ direction:
 [e\cdot Se]_+
 \le
 [-\widehat\xi\cdot S\widehat\xi]_+
-[-n\cdot Sn]_+ .
++[-n\cdot Sn]_+ .
 \tag{174}
 \]
 
