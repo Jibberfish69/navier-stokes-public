@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: minimal-first-birth-reduces-to-nonresettable-root-ancestry-open
+status: minimal-first-birth-reduces-to-selected-metric-endpoint-cocycle-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -19,6 +19,12 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-birth-physical-reformulation-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-fractional-transfer-reduction-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-birth-live-edge-after-reset-countertest-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-spent-source-projection-nonreuse-audit-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-birth-affine-endpoint-threading-synthesis-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-packet-return-bv-producer-test-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-reset-overrun-carleson-boundary-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-first-endpoint-seed-absorption-proof-skeleton-20260628.md
 completion_truth: partial-not-mpp-closed
 ---
 
@@ -263,30 +269,242 @@ than source attachment.  Exhibiting a lawful original-packet configuration with
 `(13)` would show that the native-reserve formalism still lacks a noncircular
 producer.
 
-## 7. Truth ledger
+## 7. Thomas-dialogue interrogation of the mechanism
+
+Is `(13)` actually the live object?
+
+Yes, but only after tightening the words.  "Old root ancestry" is too coarse.
+A raw root ancestry label can contain infinitely many raw-orthogonal descendants
+whose total raw mass is finite while selected action diverges.  The live object
+is the selected-metric endpoint state, not a raw source label.
+
+Did the rebase-tax line prove smoothness?
+
+No.  It identified the only shape a proof must forbid:
+
+\[
+\text{parent-fresh in the local stopped metric}
+\quad+\quad
+\text{not fresh in the root selected endpoint metric}
+\quad+\quad
+\text{no return/reset/exchange charge.}
+\tag{14}
+\]
+
+What does it mean physically?
+
+The child is not creating new material from nothing.  It is reading the same
+original pressure-viscosity-incompressibility packet through a changed
+endpoint window.  If the endpoint window is the same, the event is reuse or
+return.  If the endpoint window changes, the surrounding material frame,
+collar, covector, turnstile, or exchange geometry moved.  If it is genuinely
+new, it must be a fresh endpoint atom with a root Carleson bound.
+
+Is this the full coupled packet or a scalar proxy?
+
+The full packet is required.  A scalar root label or raw Hilbert atom loses the
+scale weight.  The state must include the routed endpoint mass together with
+the material frame/covector/turnstile/exchange derivatives that make changes of
+that state visible in the original coupled law.
+
+Is this already handled in the repo?
+
+Only in pieces.  The checked surfaces show:
+
+- spent-source projection pays same-chain raw reuse relative to a fresh selected
+  root reserve;
+- the endpoint reduction identifies the positive affine endpoint mass as the
+  candidate selected-scale atom;
+- original-packet return gives a weighted square return identity, not linear
+  BV without selected admission;
+- strict reset is recorded as needing critical weighted reset BV;
+- endpoint-current compactness still stops at a nonzero current, so it needs
+  the same positive critical transfer/native-reserve producer.
+
+So the repo has the components, not the closed cocycle.
+
+Did this create another alias?
+
+It becomes an alias if "root ancestry" means a raw source bucket.  It becomes a
+genuine mechanism only when the root tag is the selected-metric endpoint state
+and every transition of that state is forced into one of three paid cases:
+reuse/return, critical reset, or fresh endpoint Carleson.
+
+## 8. Selected-metric endpoint cocycle attempt
+
+Define the root endpoint state of a retained birth \(\gamma\) as the pullback to
+the original stopped parent of the weighted endpoint seed
+
+\[
+E_\gamma
+:=
+H_\gamma^{1/2}M_\gamma
+\quad
+\text{together with its frame/covector/turnstile/exchange coordinates.}
+\tag{15}
+\]
+
+The intended cocycle is:
+
+\[
+E_{\gamma'}
+=
+E_\gamma
++\Delta_{\rm ret}E_{\gamma\to\gamma'}
++\Delta_{\rm reset}E_{\gamma\to\gamma'}
++\Delta_{\rm fresh}E_{\gamma'}.
+\tag{16}
+\]
+
+The three terms have different proof roles.
+
+Return/reuse term:
+
+\[
+\Delta_{\rm ret}E_{\gamma\to\gamma'}
+\quad\text{is paid by}\quad
+StoppedReturnBV(P)
+\tag{17}
+\]
+
+after the retained endpoint state is already admitted in the selected harmonic
+square currency.
+
+Reset term:
+
+\[
+\Delta_{\rm reset}E_{\gamma\to\gamma'}
+\quad\text{is paid by}\quad
+CriticalResetBV(P),
+\tag{18}
+\]
+
+where the derivative is critical-weighted and root-relative, not raw parent
+variation.
+
+Fresh term:
+
+\[
+\Delta_{\rm fresh}E_{\gamma'}
+\quad\text{is paid by}\quad
+\rho_{\gamma'}^{EP}
+=
+\int_{I_{\gamma'}}H_{\gamma'}\|M_{\gamma'}^{fresh}\|_2^2dt
++DER(\gamma')+R_{\rm thread}(\gamma').
+\tag{19}
+\]
+
+The cocycle would close the forbidden branch if it proved
+
+\[
+\sum_{\gamma\subset P}
+\left(
+\|\Delta_{\rm ret}E_\gamma\|^2
++\|\Delta_{\rm reset}E_\gamma\|^2
++\|\Delta_{\rm fresh}E_\gamma\|^2
+\right)
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{20}
+\]
+
+Then a locally parent-fresh selected unit cannot be old in the root endpoint
+state without entering return or reset, and cannot be new without spending a
+fresh endpoint atom.
+
+## 9. Where the cocycle proof fails
+
+The paid line is only the algebraic split `(16)` plus the local endpoint seed
+admission `(3)`.
+
+The unproved line is the selected-metric root bound:
+
+\[
+\sum_{\gamma\subset P}
+\|E_\gamma-E_{\operatorname{par}(\gamma)}\|_{\mathcal H_{\rm root,sel}}^2
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{21}
+\]
+
+The current reset and return surfaces prove raw or conditional pieces.  They do
+not prove `(21)` because raw variation can be heat-scale small while the
+selected endpoint displacement is unit:
+
+\[
+\|E_\gamma-E_{\operatorname{par}(\gamma)}\|_{\mathcal H_{\rm raw}}^2
+\simeq r_\gamma,
+\qquad
+\|E_\gamma-E_{\operatorname{par}(\gamma)}\|_{\mathcal H_{\rm root,sel}}^2
+\simeq1.
+\tag{22}
+\]
+
+This is the same half-tail in endpoint-state language.  A root ancestry tag
+does not solve it; a selected-metric endpoint cocycle would.
+
+The stronger insight is that the route cannot close by proving "no reset" or
+"finite return" separately.  The theorem must prove a coupled endpoint-state
+cocycle:
+
+\[
+\text{fresh endpoint atom}
++\text{critical reset derivative}
++\text{selected return square}
+\quad\text{all in the same root selected metric.}
+\tag{23}
+\]
+
+That is smaller than the full clock but stronger than each branch note.
+
+## 10. Current proof requirements
+
+From the present hinge, smoothness is complete only after these proof-bearing
+items are proved from original history before future selected-tail readout:
+
+1. endpoint lower edge: every retained first birth has selected-size positive
+   endpoint mass;
+2. endpoint root upper edge: fresh endpoint atoms satisfy a root Carleson bound;
+3. return payment: repeated endpoint-state reads are bounded in selected
+   harmonic square currency;
+4. reset payment: changes of endpoint state have critical weighted reset BV;
+5. noncircular cocycle: the same root selected metric contains the endpoint
+   atom, return square, and reset derivative;
+6. relay: the resulting native birth packing gives selected compression root
+   reserve, finite selected action, full same-material clock, \(H^s\) control,
+   and local continuation.
+
+Only item 6 is already a conditional consumer relay.  Items 1--5 are still the
+producer.
+
+## 11. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
 
-Proved support: bounded original-packet tests Bessel-pack; local source
-attachment rules out detached high-ratio birth; retained first selected birth
-has a local endpoint-seed admission line.
+Proved support: bounded original-packet tests Bessel-pack; spent-source
+projection closes same-chain raw nonreuse; local source attachment rules out
+detached high-ratio birth; retained first selected birth has a local
+endpoint-seed admission line; return and reset surfaces identify the right paid
+currencies.
 
-Conditional relay: a root-relative nonresettable native reserve map gives
+Conditional relay: a selected-metric endpoint cocycle gives
 `NativeBirthChargePacking.A`, then selected compression root reserve, finite
 selected action, full same-material clock, and continuation.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
-rebase.
+rebase.  Raw root ancestry is also too coarse, because one ancestry bucket can
+hide infinitely many selected-scale endpoint-state changes.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
-clause inside `NativeBirthChargePacking.A`, equivalently the selected-scale
-rebase tax in the critical positive-transfer/storage form.
+clause upgraded to a selected-metric endpoint cocycle inside
+`NativeBirthChargePacking.A`, equivalently the shared metric behind fresh
+endpoint Carleson, selected return square, and critical weighted reset BV.
 
-Live producer: prove that every parent-fresh selected unit with old root
-ancestry pays reset/reselection/return/exchange at selected scale, or produce a
-specific noncircular obstruction showing such unpaid rebasing is compatible with
-the original coupled packet.
+Live producer: prove the coupled endpoint-state cocycle `(20)`--`(23)`, or
+produce a specific noncircular obstruction showing that a locally parent-fresh
+selected unit can keep old root endpoint ancestry with no selected return,
+critical reset, exchange, or fresh endpoint Carleson charge.
 
 Partial, not Gold closed.
