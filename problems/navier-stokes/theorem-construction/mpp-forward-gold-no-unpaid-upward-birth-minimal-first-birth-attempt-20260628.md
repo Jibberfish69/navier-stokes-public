@@ -2713,7 +2713,7 @@ Thomas-dialogue verdict:
   the same root issue: parent-known geometry plus original-history Carleson
   control before selected readout.
 
-The live producer is now the parent-announced active quotient projector:
+This stage exposes the parent-announced active quotient projector:
 construct \(\mathcal N^{act}\), \(\mathcal P^{act}\), \(H_{e^-}\), and the
 connection \(\nabla^P\) from parent history, then prove `(162)`--`(163)` from
 the original Navier--Stokes participation law.
@@ -2835,9 +2835,11 @@ Thomas-dialogue verdict:
   strain-vorticity/connection charge that must be proved from the same original
   flow.
 
-The live producer is now `(169)`.  Proving it supplies `(163)`, then `(162)`,
-then active same-carrier adjoint admission `(155)` and quotient graph-capacity
-Bessel packing `(156)`, and only then the duality-and-packing form of `(*)`.
+This stage exposes `(169)` as the provisional producer.  Proving it supplies
+`(163)`, then `(162)`, then active same-carrier adjoint admission `(155)` and
+quotient graph-capacity Bessel packing `(156)`, and only then the
+duality-and-packing form of `(*)`; the next audit tests whether `(169)` is an
+independent obstruction.
 
 ## 30. Gap-normalized audit: spin-axis motion is metric variation
 
