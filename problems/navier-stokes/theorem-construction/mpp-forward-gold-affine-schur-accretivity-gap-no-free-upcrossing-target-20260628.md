@@ -465,3 +465,104 @@ Thomas-dialogue verdict:
   Schur-thin retained positive production.
 
 Partial, not Gold closed. The current sharp producer is `(24)`.
+
+## 8. BV pressure test: thin impulses are source-variation events
+
+The thin-pulse obstruction in `(21)`--`(23)` is not invisible to all parent
+quantities.  In the scalar frozen-carrier model \(D_th=q\), integration by
+parts gives
+
+\[
+\int_B q^2\,dt
+=
+[hq]_{\partial B}
+-
+\int_B h\,dq .
+\tag{28}
+\]
+
+Thus, after boundary terms are assigned to fresh onset, stop, legal, or block
+exit, a Schur-thin square bill is bounded by source variation:
+
+\[
+\int_B q^2\,dt
+\le
+Boundary_B
++
+\sup_B |h|\;{\rm Var}_B(q).
+\tag{29}
+\]
+
+This exactly detects the pulse countermodel.  For `(21)`, the accumulated
+record is \(\sup h\sim n^{-2}\), while \({\rm Var}(q_n)\sim n^3\), and the
+product is order \(n\), the same size as the selected square bill in `(23)`.
+So the failure of Schur memory alone is not mysterious: thin impulses move the
+problem from storage to material-time variation of the source detector.
+
+The live producer can therefore be stated more sharply than `(24)`.  For
+Schur-thin retained blocks, prove the same-carrier source-variation bound
+
+\[
+\sum_{B:\chi_B<\eta}
+\sup_B\|G_B^{-1/2}m_B\|\,
+{\rm Var}_B^P(G_B^{-1/2}p_B)
+\le
+\theta\nu\sum_B D_B
++
+C_\eta\big(
+E_{\rm fresh}+E_{\rm motion}+A^-+Legal+Stop+CM^{end}
+\big),
+\qquad \theta<1 .
+\tag{30}
+\]
+
+Here \({\rm Var}_B^P\) is material-time variation along the parent carrier,
+including the differentiated pressure, viscosity, incompressibility, frame,
+commutator, collar, and selector terms before scalar readout.
+
+Then `(28)`--`(30)` give the Schur-thin parabolic thickness estimate `(24)`.
+The PDE content has become exact: a source that is too thin to build Schur
+residence must oscillate, turn on/off, or change through the material
+Navier--Stokes law, and that variation must be paid by viscosity, pressure
+transport, route motion, legal/stop, or endpoint-face consumption.
+
+Paid line:
+
+\[
+\text{material source-variation bound `(30)'}
+\Longrightarrow
+\text{Schur-thin estimate `(24)'}
+\Longrightarrow
+\text{Schur retention gate `(16)'.}
+\tag{31}
+\]
+
+Unproved line:
+
+\[
+\text{derive `(30)' from the same-carrier differentiated stress-current
+equation without losing the critical coefficient.}
+\tag{32}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It attacks the Schur-thin branch by
+  identifying the exact parent quantity that sees thin impulses.
+- Did this prove smoothness? No.  It is a noncircular reduction: prove the
+  material source-variation bound `(30)`, then the Schur-thin gate follows.
+- What does it mean physically? A source pulse that is too fast to leave a
+  Schur record must have a sharp material turn-on, turn-off, or direction
+  change.  That is not free in the coupled pressure-viscosity-incompressibility
+  dynamics.
+- Is this the full coupled packet or a scalar proxy? The scalar identity
+  `(28)` is only the pulse algebra.  The required bound `(30)` is full-packet:
+  it differentiates the parent stress source along the material carrier.
+- Is this already handled in the repo? The existing notes handle source
+  admission, Bessel novelty, frame motion, and Schur residence.  The
+  differentiated source-variation estimate `(30)` is not installed.
+- Did this create another alias? No.  It replaces the phrase "time thickness"
+  by a concrete producer: material BV/commutator control of Schur-thin source
+  detectors.
+
+Partial, not Gold closed. The current sharp producer is `(30)`.
