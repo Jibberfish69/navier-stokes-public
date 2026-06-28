@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: active-graph-coercivity-selector-capture-open
+status: terminal-full-packet-no-atom-storage-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -5022,7 +5022,160 @@ Thomas-dialogue verdict:
   names the exact missing implication: no positive selected critical packet in
   the active graph kernel.
 
-## 43. Truth ledger
+## 43. Active graph kernel closure: the survivor is terminal, not interior
+
+The active graph kernel line `(305)`--`(308)` is not the final open theorem.
+The service-storage surface already contains the exact identity needed to kill
+the interior kernel.  In material variables, with \(F=\nabla_aX\) and
+\(G=F^TF\),
+
+\[
+D_tG=2F^TSF,
+\qquad
+K=G^{-1/2}D_tG\,G^{-1/2}=2O^TSO,
+\qquad
+O=FG^{-1/2},\quad O^TO=I .
+\tag{311}
+\]
+
+Therefore
+
+\[
+K=0
+\Longrightarrow
+S=0 .
+\tag{312}
+\]
+
+On a retained connected parent chart, \(S=0\) means the velocity is a local
+Killing field modulo already paid collar/frame errors:
+
+\[
+u(x,t)=\Omega(t)x+c(t),
+\qquad
+\Omega(t)^T=-\Omega(t).
+\tag{313}
+\]
+
+The Navier--Stokes momentum equation then leaves only the rigid-spin inertial
+pressure balance in the symmetric Hessian:
+
+\[
+\nabla_A^2p+\Omega_A^2=0
+\quad
+\text{modulo viscous, collar, frame, stop, and legal terms}.
+\tag{314}
+\]
+
+But `(314)` is exactly the zero-stretch skew-inertial pressure null space
+removed by the parent-announced active quotient.  Hence a zero-increment
+interior graph packet has no active selected bill:
+
+\[
+K=0,\quad
+(I-\Pi_{\mathcal E^{par}})\psi^{act}=0,\quad
+\nabla^P b^{term}=0,\quad
+\nabla^P\mathcal P^{act}=0
+\Longrightarrow
+D^{act}=0,
+\tag{315}
+\]
+
+so
+
+\[
+\ker \mathfrak C_{P,act}^{HS}
+\cap
+\{F_Q>0\}
+=\varnothing
+\tag{316}
+\]
+
+on retained parent-announced charts, modulo stop/legal/CM.  This pays the exact
+kernel form of `(305)`--`(308)`.
+
+The only remaining way for selector capture to fail is not an interior active
+graph null packet.  It is the fixed-core terminal concentration branch already
+isolated in the service-storage surface:
+
+\[
+\mu_{P,fix}^{crit}(T_\rho(z_0))
+\le
+C\,\operatorname{Osc}_{T_{c\rho}(z_0)}\Phi_P
++
+C(E_{\rm paid}+R_{\rm legal}+Stop)(T_{c\rho}(z_0)).
+\tag{317}
+\]
+
+The missing Gold line is the no-terminal-atom condition for the same
+parent-known full-packet capacity potential:
+
+\[
+\lim_{\rho\downarrow0}
+\sup_{z_0}
+\operatorname{Osc}_{T_{c\rho}(z_0)}\Phi_P
+=0
+\tag{318}
+\]
+
+outside paid terminal/legal channels.  Equivalently, for the positive
+storage-trace defect,
+
+\[
+\lim_{\rho\downarrow0}\sup_{z_0}
+\kappa_{\Phi,P}(T_\rho(z_0))=0 .
+\tag{319}
+\]
+
+A sufficient terminal modulus is
+
+\[
+\sup_P\int_{-1}^{0}(-s)^{-\alpha}\,d\mu_P^{end}(s)<\infty
+\qquad(\alpha>0),
+\tag{320}
+\]
+
+which rules out finite-mass terminal pulses that still concentrate at the
+endpoint.
+
+Paid line:
+
+\[
+\text{material metric identity `(311)' + active rigid-spin quotient `(314)'}
+\Longrightarrow
+\text{no positive interior selected packet lies in the active graph kernel.}
+\tag{321}
+\]
+
+Unproved line:
+
+\[
+\text{prove the terminal full-packet no-atom storage law `(318)'--`(320)',
+or route its failure into the same-witness endpoint face rather than Gold
+closure.}
+\tag{322}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It corrects the previous active-graph
+  obstruction by checking the exact kernel.
+- Did this prove smoothness? No.  It pays the interior active graph kernel and
+  exposes the fixed-core terminal atom as the surviving Gold obstruction.
+- What does it mean physically? If the material metric does not change, there
+  is no strain.  The remaining pressure curvature is rigid-spin
+  incompressibility, already removed by the active quotient.  The only hidden
+  unpaid action left is endpoint concentration of the same full packet.
+- Is this full packet or scalar proxy? Full packet.  The argument uses strain,
+  pressure quotient, material metric, terminal trace potential, stop/legal, and
+  endpoint-face branches together.
+- Is this already handled in the repo? The zero-stretch kernel kill is handled
+  by the service-storage identities.  The terminal no-atom modulus
+  `(318)`--`(320)` remains open.
+- Did this create another alias? No.  It removes an alias: active graph
+  coercivity is support, and the live producer is terminal no-atom storage.
+
+## 44. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
