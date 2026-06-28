@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: material-capacity-frame-reduces-to-critical-capacity-admission-packing-open
+status: critical-capacity-frame-reduces-to-one-sided-positive-transfer-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -30,6 +30,8 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-traction-current-participation-law-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-history-routed-current-energy-finiteness-boundary-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-routed-current-energy-original-history-producer-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-critical-transfer-direct-attack-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-critical-transfer-dyadic-flux-affine-threading-reduction-20260628.md
 completion_truth: partial-not-mpp-closed
 ---
 
