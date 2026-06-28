@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: active-quotient-projector-motion-carleson-open
+status: active-quotient-motion-reduced-to-critical-metric-capacity-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -2839,7 +2839,128 @@ The live producer is now `(169)`.  Proving it supplies `(163)`, then `(162)`,
 then active same-carrier adjoint admission `(155)` and quotient graph-capacity
 Bessel packing `(156)`, and only then the duality-and-packing form of `(*)`.
 
-## 30. Truth ledger
+## 30. Gap-normalized audit: spin-axis motion is metric variation
+
+The previous section deliberately overcharged the active null-projector motion
+by writing it as a raw strain-vorticity/connection estimate.  The quotient
+projector does not follow the magnitude of a rigid spin.  It follows the
+spin-axis shape of the zero-stretch pressure balance.
+
+In three dimensions write the skew part as
+
+\[
+\Omega z={1\over2}\omega\times z,
+\qquad
+n={\omega\over|\omega|}
+\tag{170}
+\]
+
+on stopped subcharts where \(|\omega|\) is separated from zero.  Then
+
+\[
+\Omega^2={1\over4}\left(\omega\otimes\omega-|\omega|^2I\right),
+\tag{171}
+\]
+
+so the normalized rigid-spin pressure shape depends on \(n\otimes n\), not on
+the spin amplitude.  Differentiating the axis with the skew equation gives
+
+\[
+D_t n
+=
+(I-n\otimes n)Sn
++
+{(I-n\otimes n)(\mathcal V_\omega+\mathcal C_\omega)\over|\omega|}.
+\tag{172}
+\]
+
+The amplitude term \((n\cdot Sn)n\) drops out because it changes the spin
+speed, not the null projector.  Therefore
+
+\[
+\left\|
+\left(\nabla^P\Pi_{\mathcal N^{act}}\right)_{\rm new}
+\right\|_{\operatorname{op}}^2
+\lesssim
+|S|^2
++
+{ \left\|(I-n\otimes n)(\mathcal V_\omega+\mathcal C_\omega)\right\|^2
+\over |\omega|^2}
++Stop+Legal .
+\tag{173}
+\]
+
+This is the cancellation hidden inside `(168)`--`(169)`: the factor of
+\(|\omega|^{-2}\) is canceled by the vorticity factor in \(S\omega\), leaving
+strain-square.  The only terms that still carry a spin-gap denominator are
+viscous angular diffusion, connection/collar angular motion, and chart
+degeneracy; those are paid or stopped by the same parent-fixed connection
+machinery, not by a new strain-vorticity theorem.
+
+Using \(G=(\nabla_aX)^T\nabla_aX\) and
+\(K=G^{-1/2}D_tG\,G^{-1/2}\), the principal term in `(173)` is exactly
+positive material metric variation:
+
+\[
+|K|^2\simeq |S|^2
+\tag{174}
+\]
+
+in the material orthonormal frame.  Thus `(169)` is not an independent live
+producer.  It reduces to the critical parent-capacity packing of positive
+metric variation, with the angular viscous/connection/gap-loss residue added
+to the already paid connection, stop, and legal ledgers:
+
+\[
+\int_{\operatorname{Hist}(P')}
+H_P^\ast |K|^2\,d\sigma dt
++
+\int_{\operatorname{Hist}(P')}
+H_P^\ast
+{ \left\|(I-n\otimes n)(\mathcal V_\omega+\mathcal C_\omega)\right\|^2
+\over |\omega|^2}
+\,d\sigma dt
+\le
+C_N(u_0)\mathcal R(P')+Stop(P')+R_{\rm legal}(P').
+\tag{175}
+\]
+
+The paid line is the spin-axis calculation `(170)`--`(174)`: active quotient
+projector motion from the rigid-spin null space is just material metric/strain
+motion plus already classified angular connection residue.  The unproved line
+is `(175)`, and its first term is precisely the critical positive metric
+capacity packing already exposed by the no-free-zoom bridge.  The older
+combined strain-vorticity storage audit remains decisive: enstrophy and
+top-strain log storage pay real orientations, but they do not pay the full
+localized rectified primitive material-record variation.
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It pressure-tests `(169)` and removes
+  the moving-null-projector loophole from the list of independent obstructions.
+- Did this prove smoothness? No.  It proves that spin-axis projector motion is
+  not a new free channel; the remaining proof is still the critical
+  same-carrier positive metric/primitive-driver capacity packing `(175)`.
+- What does it mean physically? Rigid spin may change speed without changing
+  the quotient projector.  Turning the spin axis requires strain, so the
+  original material metric has already moved.
+- Is this the full coupled packet or a scalar proxy? The calculation is lawful
+  only inside the coupled packet: strain, vorticity, pressure balance,
+  viscosity, material connection, collar, stop, and legal charts together.
+- Is this already handled in the repo? The pressure placement, R-driver
+  recombination, combined strain-vorticity storage failure, and parent-fixed
+  connection compensator are installed.  This note adds the missing
+  gap-normalized active-null-projector reduction.
+- Did this create another alias? No.  It collapses `(169)` back to the
+  critical positive-metric/primitive graph-driver capacity problem instead of
+  making "strain-vorticity projector Carleson" a new frontier.
+
+The live producer is now `(175)`: prove the critical parent-capacity Bessel
+packing for positive material metric variation plus angular viscous/connection
+residue.  That supplies `(169)`, hence `(163)`, `(162)`, `(155)`--`(156)`, and
+then the duality-and-packing form of `(*)`.
+
+## 31. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
@@ -2866,12 +2987,17 @@ null space, inherited span, active weight, and connection are built before child
 selected readout.  The projector-motion test `(164)`--`(169)` shows that pure
 zero-stretch rigid spin cannot move the active null projector for free; any
 motion is strain-vorticity, viscous graph, connection, stop, or legal charge.
+The gap-normalized audit `(170)`--`(175)` then sharpens that charge: the
+principal spin-axis projector motion is pointwise controlled by positive
+material metric variation, and only angular viscous/connection/gap-loss residue
+remains outside the \(|K|^2\simeq|S|^2\) term.
 
-Conditional relay: proving the active-weight strain-vorticity/connection
-Carleson estimate `(169)` supplies the parent-announced active quotient
-projector bound `(163)`, hence the noncircular geometry needed for active
-Hodge--Stokes admission `(155)` and quotient graph-capacity Bessel packing
-`(156)`; that gives `(*)`, hence `(105)`--`(106)`, hence finite selected action.
+Conditional relay: proving the critical parent-capacity packing `(175)` supplies
+the active-weight strain-vorticity/connection estimate `(169)`, hence the
+parent-announced active quotient projector bound `(163)`, hence the noncircular
+geometry needed for active Hodge--Stokes admission `(155)` and quotient
+graph-capacity Bessel packing `(156)`; that gives `(*)`, hence `(105)`--`(106)`,
+hence finite selected action.
 The earlier high-weight tube escape charge `(127)` is the escape branch that
 the Bessel proof must control; combined with tight-branch zero-cost rigidity
 `(123)`--`(125)`, it gives the reversible-cycle birth/scale-descent packing
@@ -2925,7 +3051,11 @@ charge.  The quotient projector must be parent-announced and its motion must
 pay `(161)`--`(163)`.  A raw moving-null-projector route also fails as a proof
 mechanism unless it proves `(169)`: pure rigid spin is stationary, but motion of
 the active null space must be charged to strain-vorticity, viscous graph,
-connection, stop, or legal terms.
+connection, stop, or legal terms.  Treating `(169)` as a fresh
+strain-vorticity theorem now also fails: after normalizing the spin-axis null
+shape, the principal term is only \(|S|^2\), so the route collapses back to
+critical positive metric-capacity packing plus angular viscous/connection/gap
+residue.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -2965,7 +3095,9 @@ test, the active quotient is valid only as a parent-announced quotient projector
 with variation ledger `(161)` and Carleson bound `(163)`.  After the
 projector-motion pressure test, `(163)` is equivalent to the active-weight
 strain-vorticity/viscous/connection Carleson estimate `(169)` plus gap-loss
-stop, reselection, and legal treatment.
+stop, reselection, and legal treatment.  After the gap-normalized audit,
+`(169)` reduces to the critical positive material metric-capacity packing
+`(175)` plus angular viscous/connection/gap-loss residue.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
@@ -2978,21 +3110,20 @@ rigid Zeno source class.  In the current strict form, this means prove the
 duality-and-packing version of `(*)`: construct the noncircular parent active
 Hodge--Stokes/positive-metric quotient capacity \(\mathfrak C_{P,act}^{HS}\)
 with parent-announced \(\mathcal N^{act}\), \(\mathcal P^{act}\), \(H_{e^-}\),
-and connection \(\nabla^P\), then prove the active-weight
-strain-vorticity/connection Carleson estimate `(169)`, which supplies `(163)`
-and `(162)`.  This supplies active same-carrier adjoint admission `(155)` and
-quotient graph-capacity Bessel packing `(156)`.  The admitted same-carrier
-positive variations and active pressure-Hessian readouts must pack finitely
-because fresh endpoint-invisible affine cycles and selected pressure-Hessian
-carriers cannot keep escaping into smaller high-weight tubes, or hiding in
-moving null projectors, without paying original-history positive metric
-variation, active Hodge--Stokes quotient energy, scale derivative, turnstile,
-exchange, covector, selector-boundary, strain-vorticity projector motion,
-viscous graph motion, or legal charge.  The older formulations `(83)`, `(90)`,
-`(91)`, `(120)`--`(121)`, `(127)`, raw `(132)`, raw `(145)`--`(147)`, and
-child-fitted `(153)`--`(156)` are valid only insofar as they prove that
-parent-current active graph Bessel/no-cycle clause; `(91)` remains sharpened to
-the positive-variation budget `(100)`, not merely bounded endpoint Cauchy--Green
-state.
+and connection \(\nabla^P\), then prove the critical parent-capacity packing
+`(175)`, which supplies `(169)`, `(163)`, and `(162)`.  This supplies active
+same-carrier adjoint admission `(155)` and quotient graph-capacity Bessel
+packing `(156)`.  The admitted same-carrier positive variations and active
+pressure-Hessian readouts must pack finitely because fresh endpoint-invisible
+affine cycles and selected pressure-Hessian carriers cannot keep escaping into
+smaller high-weight tubes, or hiding in moving null projectors, without paying
+original-history positive metric variation, active Hodge--Stokes quotient
+energy, scale derivative, turnstile, exchange, covector, selector-boundary,
+spin-axis metric motion, angular viscous/connection residue, or legal charge.
+The older formulations `(83)`, `(90)`, `(91)`, `(120)`--`(121)`, `(127)`, raw
+`(132)`, raw `(145)`--`(147)`, child-fitted `(153)`--`(156)`, and raw `(169)`
+are valid only insofar as they prove that parent-current active graph
+Bessel/no-cycle clause; `(91)` remains sharpened to the positive-variation
+budget `(100)`, not merely bounded endpoint Cauchy--Green state.
 
 Partial, not Gold closed.
