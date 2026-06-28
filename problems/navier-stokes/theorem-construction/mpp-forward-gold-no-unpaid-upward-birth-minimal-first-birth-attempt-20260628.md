@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: terminal-record-square-admission-lower-bound-open
+status: terminal-normalized-selector-gate-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -4264,7 +4264,252 @@ Thomas-dialogue verdict:
   terminal events must be admitted into the square currency that the parent
   record actually pays.
 
-## 39. Truth ledger
+## 39. Same-carrier duality-and-packing audit: low dust cannot be retained
+
+The supplied packet fixes the proof shape.  For a stopped parent packet \(P\)
+and selected child \(Q\subset P\), the selected critical packet is
+
+\[
+D_Q
+:=
+\left(S,\Pi_Q\nabla^2p\right),
+\qquad
+S=\nabla_{\rm sym}u,
+\tag{261}
+\]
+
+with selected zoom bill
+
+\[
+a_Q
+:=
+\|S\|_{L^{5/2}(Q)}^2
++
+\|\Pi_Q\nabla^2p\|_{L^{5/4}(Q)}^2 .
+\tag{262}
+\]
+
+In this file \(\Pi_Q\) is the parent-announced active Hodge--Stokes quotient
+carrier from `(153)`--`(156)`, and \(\mathfrak C_P\) is the corrected parent
+capacity \(\mathfrak C_{P,act}^{HS}\).  The parent-known stress current is
+
+\[
+\mathfrak J_P(\psi)
+=
+\int_P
+u\cdot(-\partial_t\psi-\nu\Delta\psi)
++
+(u\otimes u):\nabla\psi
++
+p\,\nabla\cdot\psi
+\,dx\,dt .
+\tag{263}
+\]
+
+For the selected detector class \(\mathcal A_Q(P)\), define the same-carrier
+capacity
+
+\[
+\rho_Q
+:=
+\sup_{\psi\in\mathcal A_Q(P),\ \|\psi\|_{\mathfrak C_P}\le1}
+|\mathfrak J_P(\psi)|^2 .
+\tag{264}
+\]
+
+The first real lemma is same-carrier adjoint admission:
+
+\[
+a_Q+b_Q^{term}
+\le
+C\rho_Q
++
+Ce_Q,
+\tag{265}
+\]
+
+where \(e_Q\) contains only boundary, reselection, reset, stop, exchange, collar,
+and legal terms.  This is the no-free-zoom admission inequality: a selected
+critical squeeze and the terminal annular-return/donor bill count only when a
+parent-built adjoint field sees them on the same carrier.
+
+The second real lemma is Bessel packing in the parent capacity space:
+
+\[
+\sum_{Q\subset P}\rho_Q
+\le
+C\mathcal R(P)
++
+CE_{\rm paid}(P).
+\tag{266}
+\]
+
+The parent reserve \(\mathcal R(P)\) must include positive material variation,
+not only endpoint deformation:
+
+\[
+G=(\nabla_aX)^T\nabla_aX,
+\qquad
+K=G^{-1/2}D_tG\,G^{-1/2},
+\qquad
+\int_P |K|^2\,d\mu_P <\infty .
+\tag{267}
+\]
+
+Thus reversible affine stretch/reverse-stretch cycles may cancel in the
+endpoint state \(G(t_2)-G(t_1)\), but they still pay through `(267)`.  Combining
+the two lemmas gives
+
+\[
+\sum_{Q\subset P}(a_Q+b_Q^{term})
+\le
+C\mathcal R(P)
++
+CE_{\rm paid}(P)
++
+C\sum_{Q\subset P}e_Q .
+\tag{268}
+\]
+
+The audit now tests the exact point where `(268)` can still fail.  Write the
+normalized terminal record size as
+
+\[
+\alpha_Q^{term}
+:=
+{\Delta_Q^+\over A_Q^{inv}} .
+\tag{269}
+\]
+
+Split the retained terminal children into
+
+\[
+\mathcal T_P^{hi}(\eta)
+:=\{Q:\alpha_Q^{term}\ge\eta\},
+\qquad
+\mathcal T_P^{dust}(\eta)
+:=\{Q:\alpha_Q^{term}<\eta\}.
+\tag{270}
+\]
+
+On the high-normalized branch, the square record payment already gives the
+linear terminal bill:
+
+\[
+\sum_{Q\in\mathcal T_P^{hi}(\eta)}
+\Delta_Q^+
+\le
+\eta^{-1}
+\sum_{Q\in\mathcal T_P^{hi}(\eta)}
+{(\Delta_Q^+)^2\over A_Q^{inv}} .
+\tag{271}
+\]
+
+On the low-normalized branch, the available estimate is only
+
+\[
+\sum_{Q\in\mathcal T_P^{dust}(\eta)}
+\Delta_Q^+
+\le
+\eta
+\sum_{Q\in\mathcal T_P^{dust}(\eta)}
+A_Q^{inv},
+\tag{272}
+\]
+
+so dust is harmless only when the inverse weights pack or when those events are
+not retained as new terminal bills.  The low-dust countermodel is explicit:
+
+\[
+\Delta_n={1\over n},
+\qquad
+A_n^{inv}=n,
+\qquad
+{(\Delta_n)^2\over A_n^{inv}}={1\over n^3},
+\qquad
+\sum_n {1\over n^3}<\infty,
+\qquad
+\sum_n {1\over n}=\infty .
+\tag{273}
+\]
+
+Thus same-carrier adjoint admission and positive-variation Bessel packing still
+need the stopped selector to enforce the normalized gate
+
+\[
+Q\in\mathcal T_P^{term,ret}
+\Longrightarrow
+\alpha_Q^{term}\ge\eta
+\quad\text{or}\quad
+Q\in Bundled_P\cup Stop_P\cup Legal_P\cup CM_P^{end}.
+\tag{274}
+\]
+
+Here \(Bundled_P\) means the terminal readout remains a parent record and is not
+charged again as a new selected bill; \(CM_P^{end}\) is the same-witness
+endpoint-face branch from `(196)`.
+
+With `(274)`, the retained terminal admission becomes
+
+\[
+\sum_{Q\subset P}b_Q^{term}
+\le
+C_\eta
+\sum_{Q\subset P}
+\left[
+|\langle \mathfrak J_P,d_Q\rangle|^2
++
+{(\Delta_Q^+)^2\over A_Q^{inv}}
+\right]
++
+CE_{\rm paid}(P)
++
+C\,CM_P^{end}.
+\tag{275}
+\]
+
+Paid line:
+
+\[
+\text{same-carrier adjoint admission + parent Bessel packing
++ positive material variation}
+\Longrightarrow
+\text{high-normalized selected zoom bills `(271)'.}
+\tag{276}
+\]
+
+Unproved line:
+
+\[
+\text{prove the stopped terminal selector gate `(274)' for retained
+annular-return and donor events.}
+\tag{277}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It keeps the proof as the supplied
+  duality-and-packing argument, then isolates the selector rule that turns a
+  real selected squeeze into a packable selected zoom bill.
+- Did this prove smoothness? No.  It proves the high-normalized branch from the
+  existing square payment and exposes retained low-normalized dust as the open
+  branch.
+- What does it mean physically? A tiny terminal record motion can be real and
+  still fail to pay a positive selected endpoint bill.  It can stay only as a
+  parent-bundled record, stop/legal event, or same-witness endpoint face unless
+  the stopped selector admits it at normalized size.
+- Is this the full coupled packet or a scalar proxy? It is full coupled packet
+  work because \(D_Q\), \(\mathfrak J_P\), \(\Pi_Q\), \(K\), the terminal
+  record, and the detector class all live on the same parent carrier.
+- Is this already handled in the repo? The same-carrier adjoint architecture,
+  fresh detector Bessel part, and harmonic square record payment are installed.
+  The normalized stopped-selector gate `(274)` is open.
+- Did this create another alias? No.  It collapses the remaining
+  square-to-linear fork into one noncircular producer: retained terminal events
+  must be high-normalized, bundled, stopped/legal, or consumed by the endpoint
+  face.
+
+## 40. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
