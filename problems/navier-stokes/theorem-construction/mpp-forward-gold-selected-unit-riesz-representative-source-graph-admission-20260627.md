@@ -1,44 +1,42 @@
 ---
 theorem_id: forward-gold-selected-unit-riesz-representative-source-graph-admission-20260627
-status: source-graph-normal-form-proved-currency-enforced-by-retained-definition
+status: bounded-riesz-normal-form-proved-scale-native-capture-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 refines:
+  - ScaleNativeActiveParticipationNativeReserveHinge.A
   - SelectedUnitBoundedOriginalPacketProjectionAdmission.A
   - SelectedActionCurrencyBoundedOriginalPacketEnforcement.A
   - SelectedReadoutDifferentialExhaustion.A
   - StoppedSelectorBoundedProjectionOfOriginalParticipationLaw.A
   - SelectedReadoutParentSubtractedCurrentAdmission.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-action-currency-bounded-original-packet-enforcement-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-unit-bounded-original-packet-projection-admission-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-differential-exhaustion-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-parent-subtracted-current-admission-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-bounded-projection-original-participation-law-20260627.md
 effect: >-
-  Converts the selected-unit bounded original-packet projection rule into the
-  exact source-graph admission normal form. A retained selected child can count
-  before scalar positive readout only when its stress component is a continuous
-  linear functional on the original material stress Hilbert space with a
-  uniformly bounded Riesz representative. Under this admission, fresh
-  selected-scale first births are ordinary Bessel/martingale differences in the
-  same original packet, exact inherited reuse is parent current, and changed
-  inherited reuse is reset/stop/legal/selector motion. If the readout has no
-  uniformly bounded Riesz representative, it is a discontinuous measuring rule
-  in the original packet norm and cannot be retained as physical participation.
-  This proves the normal form. The companion selected-action currency note
-  installs this continuity clause as the retained selector definition. Gold
-  remains partial until the downstream proof surfaces, support anchors,
-  manuscript/PDF text, and referee checks are audited under that enforced
-  currency.
+  Converts the bounded original-packet projection rule into the exact Riesz
+  normal form for one admitted channel. Under this admission, fresh bounded
+  tests are Bessel/martingale differences, exact inherited reuse is parent
+  current, and changed inherited reuse is reset/stop/legal/selector motion.
+  This does not capture pure scale-native zoom events: unit rescaled tests may
+  pull back with original norm r^{-1/2}. Gold remains open at the native-reserve
+  / scale-memory storage theorem that pays those scale-native births.
 ---
 
 # Selected unit Riesz representative source-graph admission
 
 The selected unit rule is not a new reserve. It is the source-graph definition
-of what may count as a physical selected unit.
+of what may count in the bounded original-packet readout channel.
+
+The scale-native channel is separate.  A unit read in rescaled coordinates need
+not be a bounded original-packet functional after pullback.  That case is not
+closed by the Riesz theorem below; it is the native-reserve hinge.
 
 On a stopped parent history \(P\), use the original material stress Hilbert
 space
@@ -208,7 +206,7 @@ counted as one unit has already supplied a bounded original-packet test.
 Infinitely many order-one fresh selected units would be infinitely many
 order-one projections of one finite vector onto Bessel directions.
 
-## 5. Failure of admission is the fake fourth category
+## 5. Failure of bounded-Riesz admission
 
 If `(6)` fails, then for every \(M\) there is an \(H_M\in\mathfrak H_P\) with
 
@@ -219,17 +217,20 @@ If `(6)` fails, then for every \(M\) there is an \(H_M\in\mathfrak H_P\) with
 \tag{13}
 \]
 
-So the measuring rule can declare unit selected participation from arbitrarily
-small original-packet stress norm. This is not a new Navier-Stokes mechanism.
-It is measuring-rule creation of participation.
+So the bounded-test measuring rule can declare unit selected participation from
+arbitrarily small original-packet stress norm.  Within the bounded-Riesz channel,
+that is measuring-rule creation of participation and cannot be retained.
 
-Therefore a readout without a uniformly bounded Riesz representative cannot be
-retained as unpaid Gold selected action. It must exit as stop, legal loss,
-donor loss, reselection, selector drift, or a failed selector admission.
+For a genuine scale-native zoom event, this conclusion is not enough: the unit
+rescaled test may be physically meaningful while its original pullback is
+unbounded.  That case must be paid by `NativeBirthChargePacking.A` /
+`SelectedGeneratorStorageCoercivity.A`, not dismissed by the bounded-Riesz
+normal form.
 
 ## 6. Consequence for the live Gold hinge
 
-This note proves the normal-form reduction:
+This note proves the normal-form reduction for the bounded original-packet
+channel:
 
 \[
 \text{retained selected-unit admission}
@@ -240,8 +241,8 @@ This note proves the normal-form reduction:
 
 for the stress component before positive selected readout.
 
-With `(14)` installed in the retained selector definition, the rest of the
-currently installed chain applies:
+With `(14)` installed for bounded-Riesz admitted reads, the installed chain
+applies to that part of the selected action:
 
 \[
 \begin{aligned}
@@ -258,6 +259,10 @@ currently installed chain applies:
 \end{aligned}
 \tag{15}
 \]
+
+The full Gold proof still needs the scale-native native-reserve theorem for
+high-ratio zoom births whose unit rescaled tests are not bounded original-packet
+functionals.
 
 The source-graph burden for selected-unit admission is now discharged by the
 explicit retained-selector admission criterion in
