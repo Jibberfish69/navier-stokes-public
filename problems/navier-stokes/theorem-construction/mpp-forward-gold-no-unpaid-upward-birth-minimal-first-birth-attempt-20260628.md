@@ -3248,7 +3248,11 @@ connection, stop, or legal terms.  Treating `(169)` as a fresh
 strain-vorticity theorem now also fails: after normalizing the spin-axis null
 shape, the principal term is only \(|S|^2\), so the route collapses back to
 critical positive metric-capacity packing plus angular viscous/connection/gap
-residue.
+residue.  Treating `(175)` as a direct capacity estimate also fails: raw energy
+misses the critical scale weight, and a failed Bessel bound produces a defect
+measure, not automatically a zero-cost packet.  First-exit derivative Cauchy
+pays only moving/reset tube escape; the retained fixed-core branch needs
+no-residue trace storage.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -3290,7 +3294,10 @@ projector-motion pressure test, `(163)` is equivalent to the active-weight
 strain-vorticity/viscous/connection Carleson estimate `(169)` plus gap-loss
 stop, reselection, and legal treatment.  After the gap-normalized audit,
 `(169)` reduces to the critical positive material metric-capacity packing
-`(175)` plus angular viscous/connection/gap-loss residue.
+`(175)` plus angular viscous/connection/gap-loss residue.  After the
+critical-capacity compactness audit, `(175)` is equivalent to tightness or paid
+escape for the selected critical defect measure plus fixed-core terminal
+anti-atom/no-residue trace storage `(184)`--`(185)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
