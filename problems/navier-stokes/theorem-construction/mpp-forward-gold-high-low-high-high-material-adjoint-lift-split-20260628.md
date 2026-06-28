@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-high-low-high-high-material-adjoint-lift-split-20260628
-status: high-low-admitted-conditionally-as-parent-low-coefficient-detector; high-high-remains-live-bilinear-source-lift
+status: high-low-admitted-conditionally-as-parent-low-coefficient-detector; high-high-corrected-to-full-output-or-two-point-current
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur accretivity edge
@@ -12,10 +12,19 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-commutator-detector-admission-bridge-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-adjoint-bessel-packing-under-parent-subtracted-novelty-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-dimensional-schur-motion-payment-20260628.md
-completion_truth: narrows remaining dyadic admission; does not close high-high same-scale bilinear lift
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-high-parent-current-admission-identity-attempt-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-high-full-output-stress-repo-wide-repair-20260628.md
+completion_truth: low/high split remains useful; old per-input-colour high-high one-point lift is superseded by full-output one-point capture or a two-point current theorem
 ---
 
 # High-low / high-high material adjoint lift split
+
+Supersession note. The low-high and high-low reductions below still stand. The
+old high-high target in this note used an individual input-coloured triad as
+though it were a one-point parent-current read. That is false. The one-point
+route must select the full output-local stress after summing input interactions.
+Retaining input-coloured high-high triads requires a two-point/product-carrier
+parent current and its own Schur/Bessel/motion packing theorem.
 
 ## 1. Current intake
 
@@ -89,52 +98,85 @@ This is a real narrowing: high-low does not require a fourth payment mechanism. 
 
 ## 3. High-high branch
 
-Let \(h_1=u_k\), \(h_2=u_\ell\), with \(k\sim\ell\sim m\). The high-high term is
+Let the full output-local high-high stress at scale \(m\) be
 
 \[
-P_m(h_1\cdot\nabla h_2).
+B_m^{full}
+=
+\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u\otimes u).
 \]
 
-Here neither input is a parent low coefficient. The detector is genuinely bilinear at the child scale. A raw Littlewood-Paley representation gives an Eulerian multiplier, while Schur/Bessel/motion accounting needs a parent-built linear adjoint detector.
-
-A valid lift must factor the bilinear stress into one of the existing currencies:
+This is the object a one-point parent stress current can see: the parent test is
+declared at the output scale and reads the full transported stress \(u\otimes u\).
+A valid one-point lift must factor this full output stress into one of the
+existing currencies:
 
 1. inherited stress/current already present in the parent Schur span;
 2. parent-orthogonal fresh stress detector with Bessel packing;
 3. motion of selector/frame/collar/carrier paid by first-exit route energy;
 4. viscous absorption \(\varepsilon\nu D_m\) for the derivative-bearing remainder.
 
-The exact obstruction is the creation of a same-scale bilinear stress detector whose norm is scale-critical and whose direction is neither parent-visible nor parent-orthogonal in the existing detector geometry. In raw Fourier estimates this is where the coefficient depends on \(\|u\|_{\dot H^{1/2}}\), which is the MPP-strength quantity.
+For an individual input-coloured high-high term
+
+\[
+B_{k\ell m}
+=
+\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u_k\otimes u_\ell),
+\qquad k\sim\ell\sim m,
+\]
+
+the one-point lift is not available: the detector depends on the input split
+\((\xi,\eta)\), not only on the output point \(\xi+\eta\). Keeping this object
+requires a two-point bilinear material current.
+
+The exact obstruction is therefore the carrier choice. The one-point route must
+prove positive-square capture for \(B_m^{full}\) without clipping by input
+colours. The input-coloured route must build and pack a two-point parent current.
+In raw Fourier estimates this is where the coefficient depends on
+\(\|u\|_{\dot H^{1/2}}\), which is the MPP-strength quantity.
 
 Thus high-high remains the live branch:
 
 \[
-\boxed{\text{same-scale bilinear stress }\to\text{ parent adjoint detector with novelty packing}.}
+\text{full output-local stress}
+\to
+\text{parent adjoint detector with novelty packing},
+\]
+
+or, on the input-coloured branch,
+
+\[
+\text{same-scale bilinear stress}
+\to
+\text{two-point parent current with product-carrier packing}.
 \]
 
 ## 4. Resulting route state
 
-Low-high is motion-paid. High-low is conditionally reduced to parent-low coefficient admission plus Schur/Bessel/motion splitting. High-high is the remaining nonlinear core.
+Low-high is motion-paid. High-low is conditionally reduced to parent-low
+coefficient admission plus Schur/Bessel/motion splitting. High-high is the
+remaining nonlinear core only after the object is typed correctly.
 
-The next exact theorem target is therefore the high-high bilinear stress lift:
+The one-point theorem target is:
 
-For every retained positive high-high critical triad, construct a parent material adjoint detector \(\psi_{HH,k\ell m}^P\) such that
+For every retained positive full output-local high-high stress event, construct
+a parent material adjoint detector \(\psi_m^P\) such that
 
 \[
-T_{HH,k\ell m}^+
+T_m^{full,+}
 \le
 C\left(
-|\langle J_P,P_F\psi_{HH,k\ell m}^P\rangle|^2
-+\|(I-P_F)\psi_{HH,k\ell m}^P\|_{\mathcal C_P}^2
-+\|\psi_{HH,k\ell m}^{motion}\|_K^2
+|\langle J_P,P_F\psi_m^P\rangle|^2
++\|(I-P_F)\psi_m^P\|_{\mathcal C_P}^2
++\|\psi_m^{motion}\|_K^2
 \right)
-+\varepsilon\nu D_{k\ell m}+legal+stop.
++\varepsilon\nu D_m+legal+stop.
 \]
 
 The first pressure-test reduction for this branch is recorded in
 `mpp-forward-gold-high-high-bilinear-stress-parent-adjoint-lift-pressure-test-20260628.md`.
-It dualizes the high-high transfer against the viscous \(H^{3/2}\) term and
-isolates the source detector
+It is superseded as a one-point theorem when it isolates the input-coloured
+source detector
 
 \[
 B_{k\ell m}
@@ -142,6 +184,9 @@ B_{k\ell m}
 \Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u_k\otimes u_\ell)
 \]
 
-as the object that must be admitted into the parent material adjoint geometry.
+as though it were a one-point parent-current object. That detector is now a
+two-point-branch object.
 
-This is the remaining theorem-sized obstruction after the low-high and high-low reductions.
+The remaining theorem-sized obstruction after the low-high and high-low
+reductions is full-output positive-square capture for the one-point route, or
+product-carrier packing for the input-coloured route.
