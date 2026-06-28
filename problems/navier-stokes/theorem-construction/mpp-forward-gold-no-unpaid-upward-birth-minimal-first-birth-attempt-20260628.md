@@ -3829,7 +3829,144 @@ Thomas-dialogue verdict:
   the same terminal anti-atom/no-Zeno boundary: retained annular return no-pulse
   or same-witness CM endpoint-face consumption.
 
-## 36. Truth ledger
+## 36. No-free-zoom return audit: terminal faces must be detector-packable
+
+The supplied duality-and-packing packet now has to be read back into the two
+terminal survivors `(227)` and `(228)`.  The selected squeeze is the corrected
+active packet
+
+\[
+D_Q^{act}
+=
+\left(S,\Pi_Q^{act}\nabla_A^2p\right),
+\qquad
+S=\nabla_{\rm sym}u,
+\tag{231}
+\]
+
+seen through the same parent stress current `(130)`.  The endpoint overlap
+survivors form the terminal selected bill
+
+\[
+b_Q^{term}
+:=
+\int_{I_Q}\left(D_A+|W_A|+r_{\rm stor}\right)(s)\,ds
++\mathcal Z_{{\rm donor},Q}^{term}.
+\tag{232}
+\]
+
+The capacity is therefore not allowed to be an annular-only or donor-only
+modulus.  It must be the parent-built active Hodge--Stokes detector capacity
+
+\[
+\rho_Q^{term}
+:=
+\sup_{\psi\in\mathcal A_Q^{term}(P),\
+\|\psi\|_{\mathfrak C_{P,act}^{HS}}\le1}
+|\mathfrak J_P(\psi)|^2,
+\tag{233}
+\]
+
+where \(\mathcal A_Q^{term}(P)\) is built before the selected child readout and
+is allowed to detect the active graph packet `(231)` together with the retained
+terminal overlap bill `(232)`.
+
+The required admission line is
+
+\[
+a_Q^{act}+b_Q^{term}
+\le
+C\rho_Q^{term}
++Ce_Q^{paid},
+\tag{234}
+\]
+
+where \(e_Q^{paid}\) contains boundary, reselection, reset, collar, stop,
+exchange, and legal terms already exposed by `(217)`--`(230)`.  Leaving
+\(b_Q^{term}\) outside `(234)` just restates the terminal problem.
+
+The required packing line is the parent-current Bessel estimate
+
+\[
+\sum_{Q\subset P}\rho_Q^{term}
+\le
+C\|\mathfrak J_P\|_{\mathfrak C_{P,act}^{HS,*}}^2
++C\mathcal V_P
++CE_{\rm paid}(P),
+\tag{235}
+\]
+
+with positive material variation
+
+\[
+\mathcal V_P
+:=
+\int_P |K|^2\,d\mu_P,
+\qquad
+K=G^{-1/2}D_tG\,G^{-1/2}.
+\tag{236}
+\]
+
+This is the point of the reversible-cycle correction: endpoint Cauchy--Green
+storage can cancel on stretch/reverse-stretch cycles, while `(236)` is positive
+material variation and cannot cancel by returning \(G(t_2)\) near \(G(t_1)\).
+It still has to enter as parent-known detector capacity.  Added after selected
+readout, it is only another selected bill.
+
+Combining `(234)` and `(235)` gives the desired no-free-zoom line for the
+current survivor:
+
+\[
+\sum_{Q\subset P}\left(a_Q^{act}+b_Q^{term}\right)
+\le
+C\|\mathfrak J_P\|_{\mathfrak C_{P,act}^{HS,*}}^2
++C\mathcal V_P
++CE_{\rm paid}(P).
+\tag{237}
+\]
+
+Paid line:
+
+\[
+\text{parent stress current + active Hodge--Stokes quotient + transported
+storage identity + finite donor telescoping}
+\Longrightarrow
+e_Q^{paid}.
+\tag{238}
+\]
+
+Unproved line:
+
+\[
+\text{prove `(234)'--`(235)' with `(232)' detected by the parent-built
+capacity before selected readout.}
+\tag{239}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It makes the supplied
+  duality-and-packing proof shape govern the two terminal faces `(227)` and
+  `(228)`.
+- Did this prove smoothness? No.  It gives the exact admission-plus-Bessel
+  mechanism that would prove the no-free-zoom step; `(234)`--`(235)` are not
+  installed.
+- What does it mean physically? A selected terminal squeeze is real only when
+  the original parent fluid history already contains the velocity, pressure,
+  viscosity, incompressibility, annular return, and donor exchange needed to
+  produce it.
+- Is this the full coupled packet or a scalar proxy? Full coupled packet only
+  after the pressure-Hessian part is the active Hodge--Stokes quotient and the
+  terminal bill `(232)` is detected by parent-built adjoint fields.
+- Is this already handled in the repo? The raw `(*)` architecture, active
+  quotient correction, transported storage identity, channel split, and finite
+  donor telescoping are handled.  The parent-current Bessel estimate `(235)` for
+  the terminal detector family is still open.
+- Did this create another alias? No.  It collapses retained annular-return
+  no-pulse and terminal donor realization/no-Zeno into the same no-free-zoom
+  admission-plus-packing mechanism.
+
+## 37. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
