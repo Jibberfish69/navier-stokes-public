@@ -14,7 +14,6 @@ refines:
   - SelectedRefillParentNormalizedAdmission.A
   - SelectedGeneratorStorageCoercivity.A
   - StoppedAccretiveTestingData.A
-  - EffectiveResistanceSelectedActionAdmission.A
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-scale-normalization-novelty-storage-reconciliation-20260627.md
