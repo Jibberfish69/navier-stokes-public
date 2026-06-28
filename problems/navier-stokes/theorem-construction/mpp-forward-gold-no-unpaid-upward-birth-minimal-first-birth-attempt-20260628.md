@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: terminal-storage-trace-hardy-or-cm-endpoint-face-open
+status: duality-packing-audited-terminal-hardy-or-cm-endpoint-face-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -3321,7 +3321,131 @@ Thomas-dialogue verdict:
   "terminal trace AC", "anti-atom", and "compactness production" to the single
   positive storage-trace atom `(189)`, with the fork `(196)`.
 
-## 33. Truth ledger
+## 33. Supplied duality-and-packing packet placement audit
+
+The supplied packet is the correct proof architecture for `(*)`: selected zoom
+must be admitted by a parent-built dual current and then packed by a
+Bessel/Carleson estimate in the same parent capacity.  The audit fixes where
+that architecture now sits in the proof.
+
+The raw selected packet `(128)`--`(129)` is legal only after the pressure-Hessian
+component is replaced by the parent-announced active Hodge--Stokes quotient:
+
+\[
+D_Q^{act}
+:=
+\left(S,\Pi_Q^{act}\nabla_A^2p\right),
+\qquad
+a_Q^{act}
+:=
+\|S\|_{L^{5/2}(Q)}^2
++
+\|\Pi_Q^{act}\nabla_A^2p\|_{L^{5/4}(Q)}^2 .
+\tag{197}
+\]
+
+The admitted duality line is therefore
+
+\[
+a_Q^{act}
+\le
+C\rho_Q^{act}
++C\Omega_Q^{top\text{-}strain/ex}
++CD_Q^{vis/rad}
++Ce_Q,
+\tag{198}
+\]
+
+where \(\rho_Q^{act}\) is computed in the parent active Hodge--Stokes graph
+capacity with \(\mathcal N^{act}\), \(\mathcal P^{act}\), \(H_{e^-}\), and the
+connection fixed before child readout.
+
+The supplied packing line becomes
+
+\[
+\sum_{Q\subset P}
+\left(
+\rho_Q^{act}
++\Omega_Q^{top\text{-}strain/ex}
++D_Q^{vis/rad}
+\right)
+\le
+C\|\mathfrak J_P\|_{\mathfrak C_{P,act}^{HS,*}}^2
++CE_{\rm paid}(P),
+\tag{199}
+\]
+
+with the capacity reserve containing positive material metric variation
+
+\[
+\mathcal V_P
+=
+\int_{\operatorname{Hist}(P)} |K|^2\,d\mu_P,
+\qquad
+K=G^{-1/2}D_tG\,G^{-1/2}.
+\tag{200}
+\]
+
+This is the exact place where reversible affine cycles are paid: they may erase
+endpoint \(G(t_2)-G(t_1)\), but they remain visible in \(\mathcal V_P\) once
+the detectors are parent-announced and Bessel-pack.  It does not by itself
+create terminal time-thickness.  The compactness audit still reduces `(199)` to
+tight zero-payment rigidity, paid moving escape, and the fixed-core endpoint
+anti-atom `(190)`.
+
+Thus the audited implication is
+
+\[
+\begin{array}{c}
+\text{active same-carrier adjoint admission `(198)'}\\
++\text{positive-metric-variation Bessel packing `(199)'--`(200)'}\\
++\text{terminal anti-atom `(190)'}
+\end{array}
+\Longrightarrow
+\text{the no-free-zoom bridge `(*)'.}
+\tag{201}
+\]
+
+The exact paid line from the supplied packet is the architecture:
+
+\[
+\text{selected squeeze is real}
+\Rightarrow
+\text{parent-current active graph capacity must see it and pack it}.
+\tag{202}
+\]
+
+The exact unproved Gold line remains
+
+\[
+\text{produce `(190)' through endpoint Hardy/\(L^p\) time-thickness
+`(192)'--`(194)'.}
+\tag{203}
+\]
+
+Failure of `(203)` is not a hidden Gold reserve.  After same-witness admission,
+the surviving endpoint pulse is the CM endpoint-face branch recorded in `(196)`.
+
+Thomas-dialogue verdict:
+
+- Is the supplied packet actually the live object? Yes as the proof architecture
+  for `(*)`, not as the final no-jump producer.
+- Did it prove smoothness? No.  It proves the right duality-and-packing shape
+  after the active quotient correction, then lands on `(190)` as the remaining
+  Gold obstruction.
+- What does it mean physically? The selected zoom has to be seen by the same
+  parent pressure-viscosity-incompressibility current; reversible stretch-return
+  cycles pay through positive material variation, while terminal time
+  compression still needs Hardy/\(L^p\) spreading.
+- Is this the full coupled packet or a scalar proxy? It is coupled only in the
+  active Hodge--Stokes quotient form `(197)`--`(200)`.  Raw
+  \((S,\Pi_Q\nabla^2p)\) is the useful display, but the lawful object is the
+  quotient graph packet.
+- Did this create another alias? No.  It places the supplied packet exactly:
+  `(*)` is duality plus packing; the remaining producer is the endpoint
+  anti-atom `(190)`.
+
+## 34. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
@@ -3359,6 +3483,9 @@ anti-atom/no-residue trace storage.  The terminal storage-trace audit
 `(187)`--`(196)` identifies the only unpaid fixed-core survivor as the positive
 storage-trace atom `(189)` and splits it into the Gold Hardy/\(L^p\) endpoint
 producer `(192)`--`(194)` or same-witness CM endpoint-face consumption `(196)`.
+The supplied duality-and-packing packet is now placed by `(197)`--`(203)`: it
+is the architecture of `(*)` after the active Hodge--Stokes quotient correction,
+while endpoint Hardy/\(L^p\) time-thickness remains the live Gold producer.
 
 Conditional relay: proving the positive storage-trace anti-atom `(190)` by the
 Hardy/\(L^p\) endpoint producer `(192)`--`(194)` supplies fixed-core
