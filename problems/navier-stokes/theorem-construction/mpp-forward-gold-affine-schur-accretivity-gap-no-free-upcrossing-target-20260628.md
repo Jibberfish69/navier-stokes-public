@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: schur-residence-thickness-gate-open
+status: schur-thin-parabolic-thickness-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -26,9 +26,12 @@ effect: >-
   form is a Schur residence/thickness gate. Schur-thick retained production is
   paid by the Schur pairing G_J^{-1}m_J against p_J; Schur-thin production must
   be fresh onset, route motion, negative return, viscous/time-thickness loss,
-  legal/stop, or same-witness endpoint-face material. The remaining theorem is
-  to prove this retention gate and then the finite original-data control of the
-  Schur record, negative return, and inverse-Gram route variation.
+  legal/stop, or same-witness endpoint-face material. A first-passage test
+  proves that Schur memory pays residence after visibility but not arbitrarily
+  thin square-large impulses. The remaining theorem is the parabolic
+  time-thickness estimate `(24)` for Schur-thin retained production, followed by
+  finite original-data control of the Schur record, negative return, and
+  inverse-Gram route variation.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
