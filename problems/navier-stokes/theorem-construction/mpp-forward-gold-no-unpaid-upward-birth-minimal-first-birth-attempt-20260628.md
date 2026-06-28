@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: terminal-normalized-selector-gate-open
+status: actual-selector-first-exit-capture-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -12,6 +12,7 @@ attacks_hinge:
   - OriginalHistoryParentPredictableFreshInnovationCarleson.A
   - PositiveCriticalTransferBound.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-below-same-material-service-storage-target-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-density-to-native-reserve-birth-spend-attempt-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-forward-native-reserve-birth-packing-direct-test-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-birth-charge-packing-obstruction-test-20260627.md
@@ -4509,7 +4510,201 @@ Thomas-dialogue verdict:
   must be high-normalized, bundled, stopped/legal, or consumed by the endpoint
   face.
 
-## 40. Truth ledger
+## 40. Cumulative first-exit selector audit: dust bundles until it crosses
+
+The eventwise form of `(274)` is still too fine.  It is false as a statement
+about every microscopic terminal readout \(Q\): `(273)` shows that many tiny
+positive record moves can have finite square cost and divergent linear sum if
+each micro-readout is promoted to a new selected bill.  The selector must
+therefore count terminal records by parent-announced first-exit blocks, not by
+every small positive wiggle.
+
+For a parent-announced terminal block \(B\), set
+
+\[
+\Delta_B^+
+:=
+\left[\mathcal B^{term}(s_B^+)-\mathcal B^{term}(s_B^-)\right]_+,
+\qquad
+A_B^{inv}:=\int_{I_B}w^{-1}\,d\mu_P,
+\qquad
+\alpha_B^{term}:={\Delta_B^+\over A_B^{inv}} .
+\tag{278}
+\]
+
+The block is chosen as a first passage:
+
+\[
+s_B^+
+=
+\inf\left\{
+s>s_B^-:
+\mathcal B^{term}(s)-\mathcal B^{term}(s_B^-)
+\ge
+\eta\int_{s_B^-}^{s}w^{-1}\,d\mu_P
+\right\},
+\tag{279}
+\]
+
+with stop/legal/reselection handling when the infimum leaves the retained
+packet.  Thus a new retained terminal bill is not created by each low-normalized
+micro increment.  It is created only when the cumulative parent record exits the
+inverse-weight ball:
+
+\[
+B\in\mathcal B_P^{term,ret}
+\Longrightarrow
+\alpha_B^{term}\ge\eta
+\quad\text{or}\quad
+B\in Bundled_P\cup Stop_P\cup Legal_P\cup CM_P^{end}.
+\tag{280}
+\]
+
+On each first-exit block, the parent derivative identity gives the same square
+payment as `(252)`:
+
+\[
+{(\Delta_B^+)^2\over A_B^{inv}}
+\le
+C\int_{I_B}
+\left(|K|^2+\|\nabla^P b^{term}\|_{\mathfrak C}^2\right)d\mu_P
++Paid_B .
+\tag{281}
+\]
+
+The first-exit lower bound converts that square payment into the linear bill:
+
+\[
+\Delta_B^+
+\le
+\eta^{-1}{(\Delta_B^+)^2\over A_B^{inv}} .
+\tag{282}
+\]
+
+Since the first-exit blocks are maximal and parent-announced, their interiors
+are disjoint up to the same legal/selector overlap already carried in the
+stopped tree.  Therefore
+
+\[
+\sum_{B\subset P}^{first}
+\Delta_B^+
+\le
+C_\eta
+\int_P
+\left(|K|^2+\|\nabla^P b^{term}\|_{\mathfrak C}^2\right)d\mu_P
++CE_{\rm paid}(P).
+\tag{283}
+\]
+
+The low-dust terms inside a block are not discarded.  They remain the parent
+record until `(279)` fires:
+
+\[
+\{Q\subset B:\alpha_Q^{term}<\eta\}
+\subset
+Bundled_P
+\quad\text{until the block first exit occurs.}
+\tag{284}
+\]
+
+If the terminal limit carries a positive residual record that never first exits
+and is not bundled, stopped, or legal, then it is no longer a hidden Gold
+payment.  It is the same-witness endpoint-face alternative:
+
+\[
+\Delta_{\rm res}^+>0,\qquad
+\alpha_{\rm res}^{term}<\eta,\qquad
+\Delta_{\rm res}^+\notin Bundled_P\cup Stop_P\cup Legal_P
+\Longrightarrow
+CM_P^{end}.
+\tag{285}
+\]
+
+This is the same first-exit capture line recorded in the service-storage
+surface.  In one parent active Hodge--Stokes capacity state
+
+\[
+Z_Q^{cap}
+=
+\left(
+\psi_Q^{act},
+b_Q^{term},
+G_Q,
+\mathcal P_Q^{act},
+\nabla_Q^P
+\right),
+\tag{286}
+\]
+
+the actual selected bill must satisfy the parent-capacity first-exit admission
+
+\[
+Q\text{ retained as a new selected unit}
+\Longrightarrow
+\delta_P(Q^-,Q)^2
+\ge
+c_N\left(a_Q+b_Q^{term}\right),
+\tag{287}
+\]
+
+where \(\delta_P^2\) is the sum of fresh detector distance, positive material
+metric/projector/record variation, inverse-weight terminal first exit, and
+paid stop/legal/reselection defects.  Then abstract Bessel plus positive
+variation gives
+
+\[
+\sum_{Q\subset P}\left(a_Q+b_Q^{term}\right)
+\le
+C_N\|\mathfrak J_P\|_{\mathfrak C_P^\ast}^2
++C_N\mathcal V_P^{act}
++C_NE_{\rm paid}(P).
+\tag{288}
+\]
+
+Paid line:
+
+\[
+\text{parent-announced first-exit blocks + harmonic Cauchy}
+\Longrightarrow
+\text{low dust is bundled until it becomes a paid selected-size exit.}
+\tag{289}
+\]
+
+Unproved line:
+
+\[
+\text{prove actual-selector first-exit capture `(287)' from the original
+same-carrier Navier--Stokes packet, or show non-first-exit replay is not
+singularity-forcing selected action.}
+\tag{290}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It replaces eventwise dust policing
+  with the cumulative first-exit selector rule that the stopped proof actually
+  needs.
+- Did this prove smoothness? No.  It proves the abstract block-packing
+  implication `(278)`--`(288)` and exposes actual-selector first-exit capture
+  `(287)` as the live PDE line.
+- What does it mean physically? The parent packet may carry many small terminal
+  motions as one record.  A new zoom bill starts only when that record leaves a
+  parent-known capacity ball.
+- Is this the full coupled packet or a scalar proxy? Full packet, because the
+  capacity state `(286)` contains the detector, terminal record, material
+  metric, active pressure quotient, and parent connection.
+- Is this already handled in the repo? The service-storage surface already
+  proves the abstract packing implication under first-exit admission.  The
+  actual-selector capture theorem is still open.
+- Did this create another alias? No.  It demotes the eventwise normalized gate
+  to a coordinate readout of the sharper object: first-exit capture in the
+  parent active capacity metric.
+- Where did the reasoning go wrong? It let a micro-readout be counted as a new
+  selected bill.  The stronger insight is that selection must bundle replay
+  until parent capacity first exits, or the replay is not a new singularity-
+  forcing event.
+
+## 41. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
