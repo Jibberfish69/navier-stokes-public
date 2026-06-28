@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: parent-subtracted-selector-capture-open
+status: active-graph-coercivity-selector-capture-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -4846,7 +4846,183 @@ Thomas-dialogue verdict:
   parent-subtracted action `(295)`.  Replayed level is bundled parent record or
   endpoint-face material, not a new Gold bill.
 
-## 42. Truth ledger
+## 42. Zero-increment pressure test: the graph norm must be coercive
+
+Now test whether `(295)` is only another name for finite reserve.  Suppose it
+fails after parent subtraction, stop/legal defects, and the endpoint-face branch
+are removed.  Then there are retained selected children \(Q_n\subset P\) such
+that
+
+\[
+F_{Q_n}(Z_{Q_n}^{cap})\ge 1,
+\qquad
+\mathcal I_P(Q_n)\to0,
+\qquad
+Q_n\notin Bundled_P\cup Stop_P\cup Legal_P\cup CM_P^{end}.
+\tag{301}
+\]
+
+By `(294)`, zero increment means
+
+\[
+\left\|
+(I-\Pi_{\mathcal E_{Q_n^-}^{par}})\psi_{Q_n}^{act}
+\right\|_{\mathfrak C_P}^2\to0,
+\qquad
+{(\Delta_{B_n}^+)^2\over A_{B_n}^{inv}}\to0,
+\tag{302}
+\]
+
+and
+
+\[
+\int_{I_{B_n}}
+\left(
+|K|^2
++\|\nabla^P b^{term}\|_{\mathfrak C}^2
++\|\nabla^P\mathcal P^{act}\|_{\mathfrak C}^2
+\right)d\mu_P
+\to0.
+\tag{303}
+\]
+
+The parent-subtracted QR notes already prove that `(302)` kills fresh detector
+action, and the stopped-projection notes prove that a retained parent chart is
+a bounded projection of the original participation packet.  Therefore a
+counterexample to `(295)` cannot be ordinary replay.  After passing to the
+zero-increment limit, it must be a nonzero selected critical packet in the null
+space of the active graph:
+
+\[
+F_\infty\ge1,
+\qquad
+(I-\Pi_{\mathcal E^{par}})\psi_\infty^{act}=0,
+\qquad
+K_\infty=0,
+\qquad
+\nabla^P b_\infty^{term}=0,
+\qquad
+\nabla^P\mathcal P_\infty^{act}=0.
+\tag{304}
+\]
+
+Thus the remaining selector-capture theorem is exactly the coercivity of the
+active Hodge--Stokes graph quotient:
+
+\[
+\left[
+(I-\Pi_{\mathcal E^{par}})\psi^{act}=0,\quad
+K=0,\quad
+\nabla^P b^{term}=0,\quad
+\nabla^P\mathcal P^{act}=0
+\right]
+\Longrightarrow
+F_Q(Z_Q^{cap})=0
+\tag{305}
+\]
+
+inside a retained parent chart, after the zero-stretch skew-inertial pressure
+null space has already been quotiented out.  In quantitative form, the needed
+statement is
+
+\[
+F_Q(Z_Q^{cap})
+\le
+C_N
+\left[
+\left\|
+(I-\Pi_{\mathcal E_{Q^-}^{par}})\psi_Q^{act}
+\right\|_{\mathfrak C_P}^2
++\int_{I_B}
+\left(
+|K|^2
++\|\nabla^P b^{term}\|_{\mathfrak C}^2
++\|\nabla^P\mathcal P^{act}\|_{\mathfrak C}^2
+\right)d\mu_P
+\right]
++C_NPaid_Q
++C_NCM_P^{end}.
+\tag{306}
+\]
+
+The stopped selector then supplies the inverse-weight terminal first-exit term
+from `(294)`, giving `(295)`.
+
+This is stronger than the parent-subtracted algebra.  The algebra says replay
+has zero new current.  The coercivity line `(305)`--`(306)` says the full
+selected critical packet has no hidden active component when the parent graph
+sees no fresh detector, no material squeeze, no terminal record motion, and no
+active pressure-quotient motion.
+
+Equivalently, a failure of `(306)` is a genuine null packet:
+
+\[
+D_\infty=(S_\infty,\Pi_\infty\nabla^2p_\infty),
+\qquad
+F_\infty>0,
+\qquad
+D_\infty\in\ker \mathfrak C_{P,act}^{HS}.
+\tag{307}
+\]
+
+The physical content of `(307)` is impossible in the intended quotient: a
+selected squeeze would be present while the material metric, active pressure
+quotient, terminal record, and detector all report no parent-relative change.
+If \(S_\infty\neq0\), then \(K_\infty\) is nonzero in the material metric.  If
+only the raw pressure Hessian survives, it is either the zero-stretch
+skew-inertial balance already quotiented from active pressure, or it moves the
+active pressure quotient and is counted in `(303)`.
+
+So `(295)` is reduced to a single noncircular line:
+
+\[
+\ker \mathfrak C_{P,act}^{HS}
+\cap
+\{F_Q>0\}
+=\varnothing
+\quad
+\text{on retained parent-announced charts, modulo stop/legal/CM.}
+\tag{308}
+\]
+
+Paid line:
+
+\[
+\text{parent-subtracted QR + stopped projection}
+\Longrightarrow
+\text{any failure of selector capture is an active-graph null packet `(307)'.}
+\tag{309}
+\]
+
+Unproved line:
+
+\[
+\text{prove active Hodge--Stokes graph coercivity `(305)'--`(308)'
+from the original coupled Navier--Stokes participation law.}
+\tag{310}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It is the zero-increment form of the
+  actual stopped selector capture `(295)`.
+- Did this prove smoothness? No.  It proves that quotient algebra and replay
+  bundling are not the remaining obstruction; the remaining obstruction is an
+  active-graph null packet with positive selected critical bill.
+- What does it mean physically? A child cannot be a new dangerous zoom if the
+  same material packet shows no fresh detector, no squeeze, no terminal record
+  motion, and no active pressure-quotient motion.
+- Is this full packet or scalar proxy? Full packet.  The null test includes
+  strain, active pressure Hessian, material metric variation, terminal record,
+  detector, and parent connection.
+- Is this already handled in the repo? The parent-subtracted decomposition and
+  stopped projection clauses are handled.  The active graph coercivity
+  `(305)`--`(308)` for the actual selected critical bill is still open.
+- Did this create another alias? No.  It rejects the algebra-only alias and
+  names the exact missing implication: no positive selected critical packet in
+  the active graph kernel.
+
+## 43. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
