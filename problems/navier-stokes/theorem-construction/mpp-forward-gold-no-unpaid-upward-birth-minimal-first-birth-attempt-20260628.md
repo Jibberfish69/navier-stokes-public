@@ -1329,15 +1329,14 @@ The paid line is the complete-frame identity.  With
 \tag{76}
 \]
 
-On one material ancestry line, `(76)` and the frame/deformation tax give
+On one material ancestry line, after the local packet charge is normalized to
+the retained visit charge \(a_\gamma\), `(76)` and the frame/deformation tax give
 
 \[
-\int_I |a|^2[\widehat a\cdot S\widehat a]_+
+\sum_{\gamma\subset\mathcal A(a)} a_\gamma
 \lesssim
-\operatorname{Var}_I\log|F\widehat\xi|
-+\operatorname{Var}_I\log|Fn|
-+\operatorname{Var}_I(\widehat\xi)
-+\operatorname{Var}_I(n)
+\mathcal V_C(\mathcal A(a))
++\mathcal V_F(\mathcal A(a))
 +R_{legal}.
 \tag{77}
 \]
