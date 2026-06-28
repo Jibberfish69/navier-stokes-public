@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: order-locked-endpoint-super-l1-or-cm-endpoint-face-open
+status: order-lock-overlap-terminal-storage-or-donor-face-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -3640,7 +3640,196 @@ Thomas-dialogue verdict:
   required same-packet mechanism and rejects finite routing, channel-first
   selection, and finite-jet-only tower control as closure.
 
-## 35. Truth ledger
+## 35. Order-lock overlap audit: signed partner, storage, or donor face
+
+Now test the order-lock gap `(213)` itself.  The exact object is not the whole
+negative partner mass.  It is the cancellation overlap
+
+\[
+\Delta_P^{ol}
+=
+\int\min\{[n_P]_+,[-b_P]_+\}.
+\tag{217}
+\]
+
+Splitting the same-packet partner
+
+\[
+b_P=b_P^p+b_P^v+b_P^t+b_P^i+b_P^l+b_P^s
+\tag{218}
+\]
+
+gives the channel overlap bound
+
+\[
+\Delta_P^{ol}
+\le
+\sum_{\kappa}
+\int\min\{[n_P]_+,[-b_P^\kappa]_+\}.
+\tag{219}
+\]
+
+This is a same-packet split, not a scalar source split.  The positive native
+factor stays inside every channel term.
+
+The channel audit pays or types the nonterminal pieces:
+
+\[
+\begin{array}{ll}
+\text{viscous overlap} &\to \text{true loss plus cutoff/legal},\\
+\text{local pressure overlap} &\to \text{collar/legal under pressure-compatible tests},\\
+\text{harmonic pressure overlap} &\to \text{pressure-memory service},\\
+\text{selector/legal/geometry overlap} &\to \text{density policy, absorption, or typed branch},\\
+\text{finite signed donor overlap} &\to \text{retained partner, legal exit, or finite donor descent}.
+\end{array}
+\tag{220}
+\]
+
+The signed-current criterion explains why this is only a channel audit.  From a
+same-carrier signed identity
+
+\[
+dM+dD=dJ,
+\tag{221}
+\]
+
+one cannot insert a positive selected activity \(dA\) for free.  The strict
+activity is paid only by
+
+\[
+dA\le C\,dD,
+\qquad
+dA\le C\,dJ^+\ \text{with retained/legal }dJ^-+(dM)^+,
+\qquad
+\text{or}\qquad
+dA\le C\,dR_{\rm legal}.
+\tag{222}
+\]
+
+Thus a retained cancelling partner proves participation, not smallness of the
+rectified channel.  It becomes Gold payment only when the negative partner is
+retained as same-packet loss/current, absorbed with a strict coefficient, or
+turned into an endpoint-density channel before positive endpoint formation.
+
+The time/storage overlap is the surviving pulse:
+
+\[
+\int_{-\theta}^{0}
+\min\{[n_P(s)]_+,[-\partial_sM_P(s)]_+\}\,ds .
+\tag{223}
+\]
+
+For the pulse model
+
+\[
+[n_\tau]_+
+=
+[-\partial_sM_\tau]_+
+=
+a\tau^{-1}{\bf 1}_{(-\tau,0]},
+\tag{224}
+\]
+
+finite storage and signed cancellation still leave an endpoint atom.  The
+overlap is paid only after \(M_P\) is restored to the retained heat-scale
+material annular carrier:
+
+\[
+\partial_s M_P
++2\nu\int\phi_P|S(V_P)|^2
+=
+-\int V_P\cdot T(V_P,Q_P)\nabla\phi_P
++\int {1\over2}|V_P|^2(\partial_s+V_P\cdot\nabla)\phi_P .
+\tag{225}
+\]
+
+If the cutoff is transported with the material carrier, the last term vanishes.
+Otherwise it is selector/collar materiality defect.  The retained time/storage
+overlap is therefore bounded by annular strain dissipation, annular stress
+work, and selector/collar materiality:
+
+\[
+\min\{[n_P]_+,[-\partial_sM_P]_+\}
+\le
+C\left(
+D_A+|W_A|+r_{\rm stor}
+\right).
+\tag{226}
+\]
+
+Equation `(226)` is not yet endpoint no-jump.  It moves the overlap onto the
+same material annular return record.  The remaining Gold statement is the
+terminal modulus for that retained record:
+
+\[
+\lim_{\theta\downarrow0}\sup_P
+\int_{-\theta}^{0}
+\left(D_A+|W_A|+r_{\rm stor}\right)(s)\,ds
+=0,
+\tag{227}
+\]
+
+or an \(L^q\), Hardy, Orlicz, or \(W^{\beta,1}\) form that implies `(227)`.
+
+The second surviving branch is the terminal donor chain:
+
+\[
+\mathcal Z_{\rm donor}^{term}.
+\tag{228}
+\]
+
+Finite donor chains telescope by retained partners, legal exits, local donor
+balance, and entrance decay.  A zero-rank terminal cycle is Gold-payment only
+when its total same-packet exchange is retained as positive endpoint density or
+absorbed before endpoint formation.  Failure of that same-packet realization is
+not a hidden Gold reserve; it is the typed signed/donor endpoint face after
+same-witness admission.
+
+Paid line:
+
+\[
+\Delta_P^{ol}
+\le
+C A_{4B}^{oriented}
++C\int_{term}(D_A+|W_A|+r_{\rm stor})
++C\mathcal Z_{\rm donor}^{term}
++Paid.
+\tag{229}
+\]
+
+Unproved line:
+
+\[
+\text{prove terminal no-pulse for the retained annular return record `(227)'}
+\quad\text{and same-packet realization/no-Zeno for `(228)'.}
+\tag{230}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It attacks the order-lock overlap,
+  the exact place where channel-first positivity can survive full-packet
+  cancellation.
+- Did this prove smoothness? No.  It pays or types the ordinary overlap
+  channels and exposes the two surviving terminal faces `(227)` and `(228)`.
+- What does it mean physically? A cancelling partner is real participation,
+  but the positive selected channel is not small unless the partner is retained
+  as loss/current, the storage drop is carried by the material annulus, or the
+  branch leaves Gold through a typed endpoint face.
+- Is this the full coupled packet or a scalar proxy? It is full packet only
+  because \(n_P\), every \(b_P^\kappa\), the storage \(M_P\), the annular stress
+  work, and donor exchange stay on the same pressure-viscosity-incompressibility
+  material carrier.
+- Is this already handled in the repo? The overlap formula, channel split,
+  local pressure compatibility, finite donor routing, and signed-current
+  criterion are handled.  The terminal annular-return modulus `(227)` and
+  terminal zero-rank donor realization `(228)` are not installed as Gold
+  no-jump producers here.
+- Did this create another alias? No.  It collapses order-lock overlap back to
+  the same terminal anti-atom/no-Zeno boundary: retained annular return no-pulse
+  or same-witness CM endpoint-face consumption.
+
+## 36. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
@@ -3685,7 +3874,11 @@ The endpoint time-thickness audit `(204)`--`(216)` sharpens that producer:
 super-\(L^1\) endpoint control is a consumer once the density is order-locked,
 finite-jet tower regularity is only one support channel, and the unproved line
 is full-packet-first order lock plus harmonic-pressure and residue
-super-\(L^1\)/absorption inside the same endpoint packet.
+super-\(L^1\)/absorption inside the same endpoint packet.  The order-lock
+overlap audit `(217)`--`(230)` then splits the exact channel-first overlap:
+ordinary partner channels are paid or typed, while the surviving terminal faces
+are retained annular-return no-pulse `(227)` and terminal donor realization/no-
+Zeno `(228)`.
 
 Conditional relay: proving the positive storage-trace anti-atom `(190)` by the
 order-locked endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)` supplies
@@ -3707,6 +3900,10 @@ noncircular positive-flux reserve gives `(59)`--`(60)`; that gives one-sided
 positive critical transfer, the parent-known critical capacity frame,
 `NativeBirthChargePacking.A`, selected compression root reserve, finite selected
 action, full same-material clock, and continuation.
+The order-lock producer itself now relays through `(217)`--`(230)`: once the
+overlap is paid by oriented four-body channels plus terminal annular-return
+no-pulse and terminal donor realization/no-Zeno, the order-locked density enters
+the endpoint super-\(L^1\)/Hardy line.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
@@ -3772,6 +3969,13 @@ mechanism: finite-jet temporal regularity controls only \(H^{jet}\), harmonic
 pressure finite routing leaves the pressure pulse alive, finite endpoint
 residue visibility leaves the residue pulse alive, and channel-first native
 selection can create the exact order-lock overlap pulse `(213)`--`(214)`.
+Treating the cancelling partner as payment also fails: retained cancellation
+proves participation, not smallness, and a signed current pays rectified
+activity only through true loss, retained negative current plus storage-jump
+consumption, or legal residual `(221)`--`(222)`.  The time/storage overlap
+survives as `(223)`--`(224)` until the annular return record has a terminal
+modulus `(227)`; the terminal donor chain survives until same-packet
+realization/no-Zeno `(228)` is proved or consumed by CM.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -3823,8 +4027,11 @@ Hardy/\(L^p\) upgrade `(192)`--`(194)`.  After the endpoint time-thickness
 audit, `(192)`--`(194)` is equivalent to order-locked full endpoint
 super-\(L^1\)/Hardy production `(204)`--`(216)`: full-packet-first positive
 density, harmonic pressure service, residue density/absorption, and no
-channel-first overlap pulse.  Failure of that upgrade is not another Gold
-producer, but the same-witness CM endpoint-face branch `(196)`.
+channel-first overlap pulse.  After the overlap audit, the channel-first pulse
+is equivalent to retained annular-return no-pulse `(227)` plus terminal donor
+realization/no-Zeno `(228)`, with ordinary overlap channels paid or typed.
+Failure of that upgrade is not another Gold producer, but the same-witness CM
+endpoint-face branch `(196)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
@@ -3839,8 +4046,9 @@ Hodge--Stokes/positive-metric quotient capacity \(\mathfrak C_{P,act}^{HS}\)
 with parent-announced \(\mathcal N^{act}\), \(\mathcal P^{act}\), \(H_{e^-}\),
 and connection \(\nabla^P\), then prove the positive storage-trace anti-atom
 `(190)` for the retained selected packet \(D_Q\), concretely by proving the
-order-locked full endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)`, which
-supplies `(192)`--`(194)`.  That supplies fixed-core no-residue trace storage
+order-lock overlap terminal branch `(217)`--`(230)`, hence the order-locked full
+endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)`, hence `(192)`--`(194)`.
+That supplies fixed-core no-residue trace storage
 `(184)`--`(185)`, the terminal anti-atom `(186)`, tightness-or-paid-escape,
 critical parent-capacity packing `(175)`, `(169)`, `(163)`, and `(162)`.  This
 supplies active same-carrier adjoint admission `(155)` and quotient
@@ -3854,8 +4062,9 @@ staying as fixed-core terminal critical atoms, or hiding in moving null
 projectors, without paying original-history positive metric variation, active
 Hodge--Stokes quotient energy, scale derivative, turnstile, exchange, covector,
 selector-boundary, spin-axis metric motion, angular viscous/connection residue,
-order-locked endpoint super-\(L^1\)/Hardy no-jump storage, or legal charge.  The
-older formulations `(83)`, `(90)`, `(91)`, `(120)`--`(121)`,
+order-locked endpoint super-\(L^1\)/Hardy no-jump storage, annular-return
+no-pulse, terminal donor realization/no-Zeno, or legal charge.  The older
+formulations `(83)`, `(90)`, `(91)`, `(120)`--`(121)`,
 `(127)`, raw `(132)`, raw `(145)`--`(147)`, child-fitted `(153)`--`(156)`, raw
 `(169)`, raw `(175)`, and generic `(192)`--`(194)` are valid only insofar as
 they prove that
