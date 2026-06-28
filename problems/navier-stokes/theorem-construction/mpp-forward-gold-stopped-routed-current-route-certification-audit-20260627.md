@@ -1,10 +1,11 @@
 ---
 theorem_id: forward-gold-stopped-routed-current-route-certification-audit-20260627
-status: certification-open-local-route-assembled-but-source-graph-promotion-needed
+status: routed-current-route-support-native-reserve-producer-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / routed current square-packing
 attacks_hinge:
+  - ScaleNativeActiveParticipationNativeReserveHinge.A
   - StoppedRoutedCurrentRouteCertification.A
   - StoppedRoutedCurrentSquarePacking.A
   - ParentDrop.A
@@ -17,11 +18,12 @@ attacks_hinge:
 
 The local theorem-work chain now contains a conditional route from stopped routed-current square-packing to parent-drop/full-clock continuation.  This audit checks what is actually installed and what still needs source-graph/manuscript certification.
 
-The route is not yet a final proof certificate.  It has three required inputs:
+The route is not yet a final proof certificate.  It has two conditional relay
+inputs plus one support ledger that cannot be promoted circularly:
 
 ```text
 I.   StoppedRoutedCurrentSquarePackingFromDerivativeBV.A
-II.  OriginalHistoryRoutedCurrentEnergyFinite.A
+II.  Routed-current reset/projection support produced noncircularly before selected readout
 III. SelectorCorrectLogAmplificationIdentity.A
 ```
 
@@ -30,6 +32,11 @@ and one relay:
 ```text
 ParentDropFullClockRelayFromSquarePacking.A
 ```
+
+The missing producer is not `OriginalHistoryRoutedCurrentEnergyFinite.A` as a
+downstream subledger.  The current Gold producer is
+`NativeBirthChargePacking.A / SelectedGeneratorStorageCoercivity.A`, which pays
+pure scale-native zoom births.
 
 ## 2. Input I: stopped routed-current square-packing
 
