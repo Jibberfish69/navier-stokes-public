@@ -12,11 +12,13 @@ refines:
   - ForwardNativeReserveBirthPaysFullPLS.A
   - OriginalScaleMemoryStorageCoercivity.A
   - SelectedGeneratorStorageCoercivity.A
+  - CriticalPositiveTransferReserve.A
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-action-currency-bounded-original-packet-enforcement-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-unit-riesz-representative-source-graph-admission-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-forward-native-reserve-birth-packing-direct-test-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-scale-memory-storage-coercivity-boundary-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-positive-transfer-reduction-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-full-exchange-native-reserve-pivot-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-squarepacking-to-hs-closure-verification-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-material-clock-to-fixed-hs-continuation-readout-20260623.md
@@ -29,8 +31,11 @@ effect: >-
   MPP-bearing Gold hinge is therefore the scale-native active-participation
   reserve theorem: construct a bounded-multiplicity native-reserve assignment
   for retained high-ratio births from the original coupled
-  pressure-viscosity-incompressibility-velocity packet. The downstream
-  smoothness chain is complete relative to that map, but the map/storage
+  pressure-viscosity-incompressibility-velocity packet. The native reserve has
+  now been identified with a critical fractional dissipation estimate, finite
+  only after controlling the positive nonlinear transfer in the Leray-projected
+  half-derivative energy identity. The downstream smoothness chain is complete
+  relative to that map, but the arbitrary-data positive-transfer/storage
   coercivity itself remains open.
 ---
 
@@ -268,21 +273,54 @@ Classical local Navier-Stokes theory continues the same solution past
 The closure above is exact and conditional.  The unproved MPP-bearing line is
 `(10)`--`(12)`.
 
-The repo already records two equivalent hard faces of that line:
+The repo now records three equivalent hard faces of that line:
 
 ```text
 NativeBirthChargePacking.A
 SelectedGeneratorStorageCoercivity.A / OriginalScaleMemoryStorageCoercivity.A
+CriticalPositiveTransferReserve.A
 ```
 
 The natural scale-memory storage gives a balance identity, not square
-coercivity.  A finished Gold proof must build the native reserve atoms and prove
-their bounded multiplicity from the original coupled material packet, without
+coercivity.  In physical variables the reserve is comparable to
+
+\[
+\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt .
+\tag{19}
+\]
+
+Testing the Leray-projected equation against \(\Lambda u\) gives this reserve
+only after the positive nonlinear transfer obeys
+
+\[
+\int_0^T
+\left(
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C(u_0)
++
+\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt,
+\qquad
+\theta<1 .
+\tag{20}
+\]
+
+The standard estimate closes `(20)` only under a small
+\(\dot H^{1/2}\) packet condition.  For arbitrary smooth data, `(20)` is the
+same MPP-bearing storage coercivity problem in critical-transfer form.
+
+A finished Gold proof must build the native reserve atoms and prove their
+bounded multiplicity from the original coupled material packet, without
 importing the future selected clock or downstream \(H^s\) continuation.
 
 Thus the honest state is:
 
 ```text
 bounded-Riesz admission closes the raw bounded-test channel;
-scale-native active participation remains the MPP-bearing native-reserve hinge.
+scale-native active participation remains the MPP-bearing native-reserve /
+critical-positive-transfer hinge.
 ```
