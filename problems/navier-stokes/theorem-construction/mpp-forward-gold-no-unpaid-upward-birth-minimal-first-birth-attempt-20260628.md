@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: one-sided-positive-transfer-reduces-to-noncircular-positive-flux-reserve-open
+status: positive-flux-reserve-reduces-to-terminal-angular-mixing-or-rigid-zeno-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -37,6 +37,11 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-positive-flux-reserve-tail-equivalence-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-reserve-minimal-bad-chain-compactness-test-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-two-door-sharp-form-repair-20260618.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-weighted-skew-to-terminal-signed-saturation-20260618.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-door1-no-free-terminal-zeno-donor-chain-20260618.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-trace-signed-atom-balance-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-positive-remainder-depletion-target-attack-note.md
+  - problems/navier-stokes/theorem-construction/mcp-positiveremainderdepletion-onwardalignmentreduction-7d647f8a43.md
 completion_truth: partial-not-mpp-closed
 ---
 
