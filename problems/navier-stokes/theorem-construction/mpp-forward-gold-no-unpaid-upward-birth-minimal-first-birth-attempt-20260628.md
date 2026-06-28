@@ -3484,7 +3484,11 @@ stop, reselection, and legal treatment.  After the gap-normalized audit,
 `(175)` plus angular viscous/connection/gap-loss residue.  After the
 critical-capacity compactness audit, `(175)` is equivalent to tightness or paid
 escape for the selected critical defect measure plus fixed-core terminal
-anti-atom/no-residue trace storage `(184)`--`(185)`.
+anti-atom/no-residue trace storage `(184)`--`(185)`.  After the terminal
+storage-trace audit, `(184)`--`(185)` is equivalent to the positive
+storage-trace anti-atom `(190)`.  Gold proves that branch through an endpoint
+Hardy/\(L^p\) upgrade `(192)`--`(194)`; failure of that upgrade is not another
+Gold producer, but the same-witness CM endpoint-face branch `(196)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
