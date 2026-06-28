@@ -2276,3 +2276,102 @@ carrier choice: either prove actual-selected capture after summing to the full
 output-local stress `(140)`, preserving positive-square admission without
 input-color clipping, or build the two-point parent-current packing theorem
 for `(143)`.
+
+## 23. The Gold selector is net full-output critical transfer
+
+The carrier fork in `(144)` is resolved by the original critical energy law.
+The law does not select the positive parts of input-colored triads; it selects
+the net full-output transfer
+
+\[
+B^{crit}(t)
+=
+\sum_m2^m\mathcal B_m^{full}(t),
+\qquad
+\mathcal B_m^{full}
+=
+-\langle P_m\mathbb P(u\cdot\nabla u),u_m\rangle .
+\tag{148}
+\]
+
+The identity is
+
+\[
+{1\over2}{d\over dt}\sum_m2^m\|u_m\|_2^2
++\nu\sum_m2^m\|\nabla u_m\|_2^2
+=B^{crit}(t)+LP_{err}(t).
+\tag{149}
+\]
+
+Although
+
+\[
+\mathcal B_m^{full}
+=
+\sum_{k,\ell}\mathcal B_{k\ell m},
+\tag{150}
+\]
+
+the measure
+
+\[
+\sum_{m,k,\ell}2^m[\mathcal B_{k\ell m}]_+
+\tag{151}
+\]
+
+is an overcount after discarding cancellations.  It is not the positive
+transfer selected by `(149)`.  Any singularity-forcing history for smooth data
+must be visible in
+
+\[
+[B^{crit}]_+
+\tag{152}
+\]
+
+because finite \(\int_0^T[B^{crit}]_+dt\) gives the critical
+\(\dot H^{1/2}\) energy and \(\dot H^{3/2}\) dissipation control needed for
+continuation, modulo already-routed LP/legal/stop terms.
+
+Therefore Gold does not need the two-point branch unless the proof deliberately
+chooses input-colored positive clipping.  The full-output stress `(140)` is the
+lawful selector, and the one-point parent-current identity applies.  The
+remaining estimate is
+
+\[
+\int_0^T[B^{crit}(t)]_+\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
++R_{\rm legal}+Stop,
+\qquad \theta<1,
+\tag{153}
+\]
+
+through the signed parent-current representation
+
+\[
+B^{crit}(t)\,dt
+=
+dq_{\rm pc}
++dPaid_{\rm motion/return/Hodge/collar/frame/legal/stop}
++Err_{\rm LP},
+\tag{154}
+\]
+
+and the one-sided admission split
+
+\[
+[dq_{\rm pc}]_+
+\le
+dFresh_{\rm Bessel}^{pc}
++dSchur_{\rm retained}^{pc}
++dMotion+dReturn
++\theta\nu D_{3/2}\,dt
++dLegal+dStop+dEnd .
+\tag{155}
+\]
+
+Partial, not Gold closed. The high-high carrier choice is resolved in favor of
+the full-output net critical transfer. The live producer is now the one-sided
+full-output parent-current split `(154)`--`(155)`, not input-colored two-point
+packing.
