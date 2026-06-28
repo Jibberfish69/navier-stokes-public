@@ -2572,7 +2572,7 @@ with
 [dq_{\rm pc}]_+
 \le
 -d\mathcal U_P(\mathfrak M_P)
-dFresh+dSchur+dMotion+dReturn+\theta\nu D_c\,dt+dLegal+dStop+dEnd,
++dFresh+dSchur+dMotion+dReturn+\theta\nu D_c\,dt+dLegal+dStop+dEnd,
 \tag{168}
 \]
 
@@ -2590,3 +2590,124 @@ Partial, not Gold closed.  The live producer is finite-capacity same-material
 state storage `(167)`--`(169)`, not a scalar current Bellman.  The scalar
 current version either fails sustained refuel or hides the desired positive
 transfer bound inside its lower bound.
+
+## 26. The material state must pack neutral-transverse full-frame cost
+
+The finite material state in `(167)` is still only a real producer after its
+capacity is identified.  The same repo pressure tests that reject descendant
+tail Bellman storage also identify the surviving unpaid cascade.
+
+After first-entry Bessel, retained Schur current, motion, return, viscosity,
+legal, stop, and endpoint payment are removed, the excess is
+
+\[
+dX_P
+:=
+[dq_{\rm pc}]_+
+-dFresh-dSchur-dMotion-dReturn
+-\theta\nu D_c\,dt
+-dLegal-dStop-dEnd .
+\tag{170}
+\]
+
+Finite donor graphs pay by signed saturation.  Generic critical-element
+compactness can leave a terminal boundary defect.  The remaining branch is a
+same-material Zeno donor chain whose principal positive source remainder is
+
+\[
+|w_j|^2[e_j\cdot S_{<j}^{loc}e_j]_+ .
+\tag{171}
+\]
+
+The selected wavevector does not always see the cost.  In the local affine
+normal form
+
+\[
+S=\lambda\,{\rm diag}(1,0,-1),
+\qquad
+e=e_1,\qquad
+\widehat\xi=e_2,\qquad
+n=e_1\times e_2=e_3,
+\qquad
+\lambda>0,
+\tag{172}
+\]
+
+one has
+
+\[
+[e\cdot Se]_+=\lambda,
+\qquad
+-\widehat\xi\cdot S\widehat\xi=0 .
+\tag{173}
+\]
+
+The packet stretches in the selected amplitude direction while the selected
+frequency is neutral.  The trace-free frame puts the payment in the completing
+direction:
+
+\[
+[e\cdot Se]_+
+\le
+[-\widehat\xi\cdot S\widehat\xi]_+
+[-n\cdot Sn]_+ .
+\tag{174}
+\]
+
+Thus the finite material state must contain a selected-forest complete-frame
+capacity:
+
+\[
+\sum_{P\in\mathcal F_N}
+\int_{Q(P)}
+|w_{j_P}|^2
+[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}]_+
+\,dxdt
+\le
+C\rho_{inst,N}(\mathcal F_N)+o_N(1),
+\tag{175}
+\]
+
+or the nonsummable hidden transverse cost must produce a positive active
+Carleson reserve or a rigid Zeno residue class.
+
+Paid line:
+
+\[
+\text{selected-forest complete-frame capacity `(175)'}
+\Longrightarrow
+\text{finite-capacity material state `(167)'--`(169)'}
+\Longrightarrow
+\text{full-output upcrossing law `(160)'--`(161)'.}
+\tag{176}
+\]
+
+Failed line:
+
+\[
+\text{scalar current Bellman or selected-frequency drain}
+\not\Longrightarrow
+\text{neutral-transverse cascade payment.}
+\tag{177}
+\]
+
+Thomas-dialogue audit:
+
+- Is this actually the live object? Yes.  It specifies the capacity hidden in
+  the finite material state.
+- Did this prove smoothness? No.  It names the remaining theorem: `(175)` or
+  its active-reserve / rigid-Zeno equivalent.
+- What does it mean physically? A selected high wave can be stretched while its
+  own frequency is neutral; the cost is in the rest of the incompressible
+  frame.
+- Is this the full coupled packet or a scalar proxy? Full packet only if the
+  frame capacity carries pressure-Hodge, viscosity, transport, collar, legal,
+  stop, and endpoint terms on the same material history.
+- Is this already handled in the repo? The one-line complete-frame identity
+  and finite donor graph support are handled.  The selected-forest lift is not.
+- Did this create another alias? No.  It identifies the concrete capacity
+  required by the material state.
+
+Partial, not Gold closed.  The strict producer is the selected-forest
+complete-frame capacity `(175)`, or the equivalent active-reserve / rigid-Zeno
+theorem for the same neutral-transverse full-output cascade.
