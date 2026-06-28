@@ -45,7 +45,7 @@ To close `(1)`, one needs parent-known testing data \(b_P\) or a storage operato
 ```math
 \|G_{sel}\|^2
 \le C\langle G,K_PG\rangle+C(R_{legal}+Stop),
-\tag{2}
+\tag{3}
 ```
 
 with the right-hand side controlled by original material-history quantities and packing Carleson over stopped subtrees.
@@ -57,7 +57,7 @@ Leray-projected equation
 
 ```math
 \partial_tu+\mathbb P(u\cdot\nabla u)=\nu\Delta u
-\tag{3}
+\tag{4}
 ```
 
 tested against \(\Lambda u\) gives
@@ -71,7 +71,7 @@ tested against \(\Lambda u\) gives
 \Lambda^{1/2}\mathbb P(u\cdot\nabla u),
 \Lambda^{1/2}u
 \right\rangle .
-\tag{4}
+\tag{5}
 ```
 
 So `(1)` follows from the positive-transfer estimate
@@ -90,7 +90,7 @@ C(u_0)
 \theta\nu\int_0^T\|\Lambda^{3/2}u\|_2^2\,dt,
 \qquad
 \theta<1 .
-\tag{5}
+\tag{6}
 ```
 
 The standard bound
@@ -104,11 +104,11 @@ The standard bound
 \right|
 \le
 C\|u\|_{\dot H^{1/2}}\|\Lambda^{3/2}u\|_2^2
-\tag{6}
+\tag{7}
 ```
 
 closes only while the critical packet norm is small.  For arbitrary smooth
-data, `(5)` is the open analytic content of
+data, `(6)` is the open analytic content of
 `SelectedGeneratorStorageCoercivity.A`.
 
 ## 4. Equivalence to stopped testing
@@ -125,7 +125,7 @@ In testing language, one needs a stopped family \(b_P\) such that
 |\langle b_P\rangle_P|\ge c,
 \qquad
 \|b_P\|_{L^2(P)}^2\le C\mathcal R(P),
-\tag{3}
+\tag{8}
 ```
 
 and
@@ -133,10 +133,11 @@ and
 ```math
 \|T_P(b_P\nu^P)\|_{L^2(P)}^2
 \le C\mathcal R(P)+CR_{legal}(P)+CStop(P),
-\tag{8}
+\tag{9}
 ```
 
-with testing defects Carleson.  This gives the needed selected square generator control.  Without `(3)`--`(4)`, the storage route has no positive lower bound.
+with testing defects Carleson.  This gives the needed selected square generator
+control.  Without `(8)`--`(9)`, the storage route has no positive lower bound.
 
 ## 5. Result
 
