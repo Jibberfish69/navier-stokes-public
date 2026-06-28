@@ -131,4 +131,17 @@ C\left(
 +\varepsilon\nu D_{k\ell m}+legal+stop.
 \]
 
+The first pressure-test reduction for this branch is recorded in
+`mpp-forward-gold-high-high-bilinear-stress-parent-adjoint-lift-pressure-test-20260628.md`.
+It dualizes the high-high transfer against the viscous \(H^{3/2}\) term and
+isolates the source detector
+
+\[
+B_{k\ell m}
+=
+\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u_k\otimes u_\ell)
+\]
+
+as the object that must be admitted into the parent material adjoint geometry.
+
 This is the remaining theorem-sized obstruction after the low-high and high-low reductions.
