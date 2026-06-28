@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: schur-thin-source-variation-open
+status: schur-thin-parabolic-source-equation-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -30,10 +30,13 @@ effect: >-
   proves that Schur memory pays residence after visibility but not arbitrarily
   thin square-large impulses. A BV pressure test then identifies the exact
   parent quantity that sees those impulses: material-time variation of the
-  same-carrier source detector. The remaining theorem is the differentiated
-  source-variation bound `(30)` without losing the critical coefficient,
-  followed by finite original-data control of the Schur record, negative return,
-  and inverse-Gram route variation.
+  same-carrier source detector. A further pressure test shows that arbitrary BV
+  is still too weak a target; the useful producer is the same-carrier parabolic
+  source equation for that detector. The remaining theorem is to prove this
+  differentiated source equation with heat-scale absorption and paid commutator
+  forcing, without losing the critical coefficient; this implies `(30)`, then
+  the Schur-thin gate, then finite original-data control of the Schur record,
+  negative return, and inverse-Gram route variation.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
@@ -568,3 +571,128 @@ Thomas-dialogue verdict:
   detectors.
 
 Partial, not Gold closed. The current sharp producer is `(30)`.
+
+## 9. Differentiated source equation: BV is useful only after parabolic structure
+
+The BV reduction `(28)`--`(30)` is still not the final PDE mechanism.  As a raw
+statement, material BV can be just another name for the desired selected square
+bill.  The Navier--Stokes content must say why that variation is itself paid.
+
+For a Schur-thin block \(B\), set
+
+\[
+b_B:=G_B^{-1/2}p_B .
+\tag{33}
+\]
+
+The useful target is a same-carrier differentiated source equation of the form
+
+\[
+D_t^P b_B+\nu\mathcal L_B^P b_B
+=
+\mathcal C_B^{press/Hodge}
++\mathcal C_B^{frame}
++\mathcal C_B^{collar}
++\mathcal C_B^{selector}
++\mathcal C_B^{fresh/end},
+\tag{34}
+\]
+
+where \(\mathcal L_B^P\) is the parent heat-scale positive operator on the same
+carrier.  The pressure/Hodge top part must cancel using incompressibility; what
+remains is a same-carrier commutator, collar, selector, frame, fresh-onset, or
+endpoint-face forcing term.
+
+If `(34)` is available with
+
+\[
+\sum_{\chi_B<\eta}
+\sup_B\|G_B^{-1/2}m_B\|
+\int_B \|\nu\mathcal L_B^P b_B\|
+\le
+\theta\nu\sum_B D_B
++C_\eta E_{\rm heat/rem}(P),
+\qquad \theta<1,
+\tag{35}
+\]
+
+and
+
+\[
+\sum_{\chi_B<\eta}
+\sup_B\|G_B^{-1/2}m_B\|
+\int_B
+\|\mathcal C_B^{press/Hodge}
++\mathcal C_B^{frame}
++\mathcal C_B^{collar}
++\mathcal C_B^{selector}
++\mathcal C_B^{fresh/end}\|
+\le
+C_\eta(E_{\rm motion}+E_{\rm fresh}+A^-+Legal+Stop+CM^{end}),
+\tag{36}
+\]
+
+then `(30)` follows by integrating the source variation in `(34)`.
+
+This is sharper than asking for source BV.  The scalar pulse
+\(q_n=n^3{\bf 1}_{I_n}\), \(|I_n|=n^{-5}\), can have huge BV and tiny record
+because it is an arbitrary forcing.  A homogeneous heat-scale source
+\[
+D_tb+\lambda b=0,\qquad \lambda\simeq\nu 2^{2m},
+\tag{37}
+\]
+has
+
+\[
+\sup_t\left|\int_0^t b(s)\,ds\right|\,{\rm Var}(b)
+\simeq
+{b(0)^2\over \lambda}
+\simeq
+\int_0^\infty b(t)^2\,dt .
+\tag{38}
+\]
+
+So parabolic residence is exactly the missing thickness.  A pulse sharper than
+the heat scale must be produced by the forcing terms in `(34)`, and those terms
+must be fresh, moving, returned, legal/stopped, or endpoint-face consumed.
+
+Paid line:
+
+\[
+\text{same-carrier parabolic source equation `(34)' plus `(35)'--`(36)'}
+\Longrightarrow
+\text{source-variation bound `(30)'.}
+\tag{39}
+\]
+
+Unproved line:
+
+\[
+\text{derive `(34)'--`(36)' for the high-high stress source detector
+\(B_{k\ell m}=\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u_k\otimes u_\ell)\)
+without reintroducing the critical \(H^{1/2}\) coefficient.}
+\tag{40}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It attacks `(30)` rather than naming
+  source variation as a new reserve.
+- Did this prove smoothness? No.  It proves only that `(30)` follows from the
+  same-carrier parabolic source equation with paid forcing.
+- What does it mean physically? A retained source cannot flash faster than the
+  heat scale unless something in the coupled packet turns it on, changes it, or
+  ejects it.  That "something" is exactly the paid forcing side of `(34)`.
+- Is this the full coupled packet or a scalar proxy? The heat model `(37)` is
+  only the thickness calibration.  The real object is the differentiated
+  pressure--viscosity--incompressibility stress detector equation `(34)`.
+- Is this already handled in the repo? The prelimit master balance handles
+  same-carrier commutator absorption for full material towers, and the
+  commutator-admission notes handle low-high motion and abstract Bessel
+  novelty.  They do not install `(34)`--`(36)` for the Schur-thin high-high
+  source detector.
+- Did this create another alias? No.  It demotes raw BV/time-thickness to a
+  consumer and names the actual producer: same-carrier parabolic source
+  equation plus paid forcing.
+
+Partial, not Gold closed. The current sharp producer is `(34)`--`(36)`.
