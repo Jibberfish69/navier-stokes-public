@@ -3355,16 +3355,22 @@ remains outside the \(|K|^2\simeq|S|^2\) term.  The critical-capacity
 compactness audit `(176)`--`(186)` shows that tight selected critical mass is
 killed by zero-payment rigidity and moving tube escape is paid by first-exit
 derivative machinery; the remaining live branch is fixed-core terminal
-anti-atom/no-residue trace storage.
+anti-atom/no-residue trace storage.  The terminal storage-trace audit
+`(187)`--`(196)` identifies the only unpaid fixed-core survivor as the positive
+storage-trace atom `(189)` and splits it into the Gold Hardy/\(L^p\) endpoint
+producer `(192)`--`(194)` or same-witness CM endpoint-face consumption `(196)`.
 
-Conditional relay: proving fixed-core no-residue trace storage `(184)`--`(185)`
-supplies the terminal anti-atom `(186)`, hence tightness-or-paid-escape for the
-critical defect measure, hence critical parent-capacity packing `(175)`, hence
-the active-weight strain-vorticity/connection estimate `(169)`, hence the
-parent-announced active quotient projector bound `(163)`, hence the noncircular
-geometry needed for active Hodge--Stokes admission `(155)` and quotient
-graph-capacity Bessel packing `(156)`; that gives `(*)`, hence `(105)`--`(106)`,
-hence finite selected action.
+Conditional relay: proving the positive storage-trace anti-atom `(190)` by the
+Hardy/\(L^p\) endpoint producer `(192)`--`(194)` supplies fixed-core
+no-residue trace storage `(184)`--`(185)`, hence the terminal anti-atom `(186)`,
+hence tightness-or-paid-escape for the critical defect measure, hence critical
+parent-capacity packing `(175)`, hence the active-weight
+strain-vorticity/connection estimate `(169)`, hence the parent-announced active
+quotient projector bound `(163)`, hence the noncircular geometry needed for
+active Hodge--Stokes admission `(155)` and quotient graph-capacity Bessel
+packing `(156)`; that gives `(*)`, hence `(105)`--`(106)`, hence finite selected
+action.  If `(190)` fails, the current Gold relay does not close; the remaining
+use is the same-witness CM endpoint-face branch in `(196)`.
 The earlier high-weight tube escape charge `(127)` is the escape branch that
 the Bessel proof must control; combined with tight-branch zero-cost rigidity
 `(123)`--`(125)`, it gives the reversible-cycle birth/scale-descent packing
@@ -3426,7 +3432,14 @@ residue.  Treating `(175)` as a direct capacity estimate also fails: raw energy
 misses the critical scale weight, and a failed Bessel bound produces a defect
 measure, not automatically a zero-cost packet.  First-exit derivative Cauchy
 pays only moving/reset tube escape; the retained fixed-core branch needs
-no-residue trace storage.
+no-residue trace storage.  Treating no-residue trace storage as bounded-below
+storage also fails: a finite \(L^1\) terminal pulse has finite mass and can
+still be an atom.  Compactness/no-loss reduces all nonterminal fixed-core
+defects to payment or rigidity, but the positive storage-trace atom `(189)`
+survives until a Hardy/\(L^p\) endpoint producer is proved.  The direct Hardy
+production route `(194)` is blocked by heat-scale normalization `(195)`: current
+physical ledgers give radius-weighted control, not unweighted normalized
+endpoint control.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
