@@ -21,6 +21,9 @@ attacks_hinge:
   - OriginalScaleMemoryGeneratorEnergyBound.A
   - SelectedGeneratorStorageCoercivity.A
   - StoppedAccretiveTestingData.A
+  - CriticalPositiveTransferReserve.A
+source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-positive-transfer-reduction-20260628.md
 effect: >-
   Reconciles the physical scale-normalization statement with the checked repo
   state. The same material Cauchy stress history supplies the raw stress. The
@@ -29,8 +32,11 @@ effect: >-
   first-birth reserve, or paid reset/stop/legal exit. The Bellman/log refill part
   is reduced to SelectedRefillParentNormalizedAdmission.A. The fresh-birth part
   is exactly the original-history routed-current/root-generator storage
-  coercivity problem. Projection-jump and bounded-projection clauses are support;
-  downstream full-clock finiteness is a forbidden input. Partial, not Gold closed.
+  coercivity problem. That storage problem is now identified with the critical
+  positive-transfer reserve for the Leray-projected \(\dot H^{1/2}\) packet:
+  small critical packets close by absorption, while arbitrary data remains open.
+  Projection-jump and bounded-projection clauses are support; downstream
+  full-clock finiteness is a forbidden input. Partial, not Gold closed.
 ---
 
 # Selected scale normalization: novelty rule and storage edge
@@ -229,7 +235,29 @@ for the Bellman/log refill telescope, and
 \text{StoppedAccretiveTestingData.A}
 \]
 
-for the fresh-birth/root-generator storage.
+for the fresh-birth/root-generator storage.  In physical variables this is the
+same as the positive critical transfer estimate
+
+\[
+\int_0^T
+\left(
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C(u_0)
++
+\theta\nu\int_0^T\|\Lambda^{3/2}u\|_2^2\,dt,
+\qquad
+\theta<1 .
+\tag{5}
+\]
+
+The standard bound closes `(5)` only under a small
+\(\dot H^{1/2}\) packet condition.  For arbitrary data, `(5)` is the same open
+scale-native native-reserve theorem, not a consequence of the raw energy law.
 
 Once `(1)` and `(2)` are proved from the original same-material Navier-Stokes
 history before selected readout, the installed relays apply:
