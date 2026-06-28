@@ -1,30 +1,31 @@
 ---
 theorem_id: forward-gold-selected-action-currency-bounded-original-packet-enforcement-20260627
-status: source-level-selected-action-currency-enforced
+status: bounded-riesz-channel-enforced-scale-native-native-reserve-hinge-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 refines:
+  - ScaleNativeActiveParticipationNativeReserveHinge.A
   - SelectedUnitBoundedOriginalPacketProjectionAdmission.A
   - SelectedUnitRieszRepresentativeSourceGraphAdmission.A
   - BoundedOriginalPacketSelectedProjectionAdmission.A
   - SourceLevelFullClockCurrencyAudit.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-unit-bounded-original-packet-projection-admission-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-unit-riesz-representative-source-graph-admission-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-original-packet-selected-projection-fresh-packing-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-bounded-projection-original-participation-law-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-clock-fresh-increment-definition-audit-boundary-20260627.md
 effect: >-
-  Installs the source-level currency rule for the live Gold route. Retained
-  selected action means bounded original-packet projection before scalar readout,
-  plus inherited/root current and paid stop/legal/reselection/selector-drift
-  defects. Absolute child mass and unbounded scale-renormalized reads carry no
-  proof force in the retained Gold branch. The Riesz normal form identifies this
-  rule with uniform continuity of the selected stress functional in the original
-  material Hilbert norm. This enforces the admission clause; it does not by
-  itself certify the manuscript or all stale support anchors.
+  Installs the bounded original-packet/Riesz channel for the live Gold route and
+  forbids absolute child mass from being counted as retained selected action in
+  that channel. This does not pay pure scale-native zoom events: a unit
+  rescaled test pulls back with original L2 stress-test norm r^{-1/2}. The
+  MPP-bearing remaining producer is therefore the native reserve / scale-memory
+  storage theorem recorded in ScaleNativeActiveParticipationNativeReserveHinge.A
+  and NativeBirthChargePacking.A.
 ---
 
 # Selected action currency bounded original-packet enforcement
@@ -32,7 +33,14 @@ effect: >-
 The retained selected unit is not an arbitrary normalized child read. It is a
 bounded projection of the one original material participation packet.
 
-This note installs that sentence as the source-level currency rule.
+This note installs that sentence as the source-level currency rule for the
+bounded-test channel.
+
+The scale-native correction is now part of the rule: a unit test in rescaled
+coordinates is not automatically bounded in the original material stress
+history.  If its pullback has norm \(r^{-1/2}\), the bounded-Riesz channel does
+not pay that selected unit.  Such a pure zoom event must be paid by the native
+reserve / scale-memory channel, or it remains an open Gold obstruction.
 
 ## 1. Admissible retained selected unit
 
@@ -135,7 +143,8 @@ R_Q+Stop_Q .
 \tag{7}
 \]
 
-Therefore, on each retained stopped ancestry,
+Therefore, on each retained stopped ancestry made only of bounded-Riesz
+admitted units plus inherited/root and paid defect terms,
 
 \[
 \sum_Q\Theta_Q
@@ -144,8 +153,9 @@ C(u_0)+R+Stop .
 \tag{8}
 \]
 
-This is the finite selected participation statement used by the downstream
-same-material full-action relay.
+This is the finite selected participation statement for the bounded-Riesz
+admitted channel.  It is not a proof that all scale-native singularity-forcing
+zoom reads have been captured.
 
 ## 3. Source-level exclusion rule
 
@@ -183,7 +193,7 @@ selected action.
 
 ## 5. Consequence
 
-The source graph can now use the relay
+For the bounded-Riesz admitted channel, the source graph can use the relay
 
 \[
 \sum_Q\Theta_Q<\infty
@@ -194,9 +204,15 @@ The source graph can now use the relay
 \tag{10}
 \]
 
-This closes the selected-unit admission clause at the source-currency level.
+This closes only the bounded original-packet selected-unit channel.
 
-It does not certify the full MPP package. The remaining work is to audit and
-align downstream support anchors, manuscript/PDF text, referee checks, and stale
-failed-attempt notes so no surface still treats absolute child mass, determinant
-alone, or unbounded scale-renormalized reads as proof-bearing selected action.
+It does not certify the full MPP package.  The remaining mathematical producer
+is the scale-native active-participation reserve:
+
+```text
+NativeBirthChargePacking.A / SelectedGeneratorStorageCoercivity.A.
+```
+
+That theorem must assign every retained scale-native high-ratio birth to a
+finite original-history native reserve with bounded multiplicity.  Downstream
+audit still matters, but it is not the remaining producer.
