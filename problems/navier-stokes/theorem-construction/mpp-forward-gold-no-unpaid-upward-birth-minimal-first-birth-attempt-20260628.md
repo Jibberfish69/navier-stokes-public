@@ -5239,6 +5239,20 @@ Then `(323)` cannot occur for infinitely many retained selected terminal layers:
 each retained atom forces a fixed root-parent drop by `(324)`, while `(325)`
 allows only finite total drop.
 
+The same argument fails if the storage is rebuilt after zooming to each child:
+
+\[
+-d\mathcal L_Q
+\ge
+c\,d\mu_Q^{end}
+-d\lambda_Q .
+\tag{326}
+\]
+
+In `(326)` the same fixed terminal pulse can be paid once in each child
+coordinate without a single original-history functional seeing the sum of the
+drops.  That is exactly the old reset/rebase alias in no-waste language.
+
 But this is not yet the Gold no-atom theorem.  A bounded-below root functional
 may still have one terminal jump.  That jump would be finite and nonresettable,
 but it would still violate `(318)` if it remained as an endpoint atom of the
@@ -5258,20 +5272,6 @@ or a Hardy/time-thickness substitute such as
 \qquad(\alpha>0).
 \tag{328}
 \]
-
-The same argument fails if the storage is rebuilt after zooming to each child:
-
-\[
--d\mathcal L_Q
-\ge
-c\,d\mu_Q^{end}
--d\lambda_Q .
-\tag{326}
-\]
-
-In `(326)` the same fixed terminal pulse can be paid once in each child
-coordinate without a single original-history functional seeing the sum of the
-drops.  That is exactly the old reset/rebase alias in no-waste language.
 
 Paid line:
 
