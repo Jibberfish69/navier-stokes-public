@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: cutoff-trace-fixed-core-root-reserve-open
+status: selected-root-capacity-exponent-lift-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -66,12 +66,13 @@ effect: >-
   defect. The later first-hit score repair makes the interval predictable but
   leaves the endpoint/cutoff trace. The central service-storage anchor now
   splits that trace: first-exit interiors are paid by harmonic Cauchy, changed
-  questions are motion/legal/stop/endpoint, and the fixed-core trace is exactly
-  retained lower-edge admission plus the original root-geometry reserve. The
-  current open producer is cutoff trace charge plus retained fixed-core
-  lower-edge/root reserve; after it, the Schur-thin gate gives finite
-  original-data control of the Schur record, negative return, and inverse-Gram
-  route variation.
+  questions are motion/legal/stop/endpoint, and fixed-core replay is admissible
+  only through the parent-known harmonic return score. The retained lower edge
+  is therefore a stopped-selector admission rule, not an independent PDE
+  estimate. The current open producer is the original-data selected root
+  capacity / exponent-lift bound for that harmonic root score; after it, the
+  Schur-thin gate gives finite original-data control of the Schur record,
+  negative return, and inverse-Gram route variation.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
@@ -1839,3 +1840,133 @@ original root-geometry reserve for the actual invisible high-high dual weights.}
 \]
 
 Partial, not Gold closed. The current sharp producer is `(116)`.
+
+## 19. Lower-edge admission is a stopped score; root capacity is the producer
+
+The retained lower edge in `(115)` is not a separate analytic estimate.  On a
+fixed-core replay branch, the parent already has the stopped score
+
+\[
+P_R=\Gamma_RZ^S .
+\tag{117}
+\]
+
+For a candidate return interval \(J\), define the harmonic return score
+
+\[
+\mathcal B_R(J)
+=
+H_J\left({\Delta_J^-P_R\over |J|}\right)^2 .
+\tag{118}
+\]
+
+This score is built from the fixed parent channel, the stopped material metric,
+and the same root record.  It is not chosen from the future selected tail.  The
+Gold selector may retain a fixed-core replay only when this score first reaches
+the selected quantum \(\kappa_P\), up to legal tie/collar error:
+
+\[
+J\in FC^{ret}(P)
+\Longrightarrow
+\omega_J^{ret}
+\le
+C\mathcal B_R(J)+Paid(J).
+\tag{119}
+\]
+
+If `(119)` fails, the event was not admitted as retained fixed-core Gold action.
+It is residual mass below the selected quantum, a selector/collar/order-lock
+change, legal/stop loss, or same-witness endpoint material.  This is exactly the
+finite stopped-score rule already used for fresh resets, now applied to the
+fixed-core return score.
+
+With `(119)`, the cutoff trace line `(116)` reduces to the original root
+capacity estimate
+
+\[
+\sum_{J\subset P}^{FC^{ret}}\omega_J^{ret}
+\le
+C\int_{\operatorname{Hist}(P)}
+w|G_{\rm root}^{new}|^2
++Paid(P),
+\tag{120}
+\]
+
+where
+
+\[
+G_{\rm root}^{new}
+=
+\partial_\sigma Z^S
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
++\operatorname{conn}_\sigma .
+\tag{121}
+\]
+
+Thus the true PDE producer is not "lower edge plus root reserve" as two
+unrelated doors.  The lower edge is the nonanticipatory admission rule, and the
+remaining theorem is the selected root-capacity bound
+
+\[
+\int_{\operatorname{Hist}(P)}
+w|G_{\rm root}^{new}|^2
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P)
+\tag{122}
+\]
+
+with \(w\), the stopped regions, and the capacity all parent-known before
+descendant selected readout.
+
+The raw-capacity proof fails for the same reason every half-tail model fails:
+on a heat-scale packet \(Q_r\),
+
+\[
+R_{\rm raw}(Q_r)\sim r,
+\qquad
+A_{\rm sel}(Q_r)\sim 1 .
+\tag{123}
+\]
+
+So `(122)` cannot come from raw \(L^2\) material capacity.  It needs a genuine
+same-material selected change-of-measure theorem, equivalently a Bellman/root
+capacity drop or reverse-Holder/exponent lift for the selected root density:
+
+\[
+d\mathcal R_{\rm sel}
+\ll
+d\mathcal R_{\rm raw}
+\quad\text{with enough gain to pack }A_{\rm sel}.
+\tag{124}
+\]
+
+Paid line:
+
+\[
+\text{finite stopped-score lower edge `(119)' + selected root capacity `(122)'}
+\Longrightarrow
+\text{cutoff trace / fixed-core replay payment `(116)'.}
+\tag{125}
+\]
+
+Failed line:
+
+\[
+\text{raw material capacity}
+\not\Longrightarrow
+\text{selected root capacity, because of the exponent gap `(123)'.}
+\tag{126}
+\]
+
+Current unproved line:
+
+\[
+\text{prove the parent-known selected root-capacity exponent lift `(122)'--`(124)'
+from the full pressure-viscosity-incompressibility-velocity packet.}
+\tag{127}
+\]
+
+Partial, not Gold closed. The current sharp producer is selected root-capacity
+exponent lift `(122)`--`(124)`.
