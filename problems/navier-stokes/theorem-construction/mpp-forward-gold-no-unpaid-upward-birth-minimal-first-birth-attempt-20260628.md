@@ -2605,18 +2605,22 @@ specific duality-and-packing proof form: same-carrier adjoint admission
 direct stress-current part of admission is paid for divergence-free parent
 tests by `(140)`--`(142)`, and existing local pressure-source notes pay
 pressure-Hessian carriers only after they are routed through the same
-Hodge--Stokes graph with exchange/viscous/reselection terms.
+Hodge--Stokes graph with exchange/viscous/reselection terms.  The rigid-rotation
+test `(148)`--`(151)` shows that even this graph must be quotiented by the
+zero-stretch skew-inertial pressure balance before the pressure-Hessian term is
+allowed to count as selected squeeze.
 
-Conditional relay: proving the corrected Hodge--Stokes admission `(145)` and
-graph-capacity Bessel packing `(147)` gives `(*)`, hence `(105)`--`(106)`,
-hence finite selected action.  The earlier high-weight tube escape charge
-`(127)` is the escape branch that the Bessel proof must control; combined with
-tight-branch zero-cost rigidity `(123)`--`(125)`, it gives the reversible-cycle
-birth/scale-descent packing line `(120)`--`(121)`.  Equivalently, any branch of
-`(70)` that supplies a noncircular positive-flux reserve gives `(59)`--`(60)`;
-that gives one-sided positive critical transfer, the parent-known critical
-capacity frame, `NativeBirthChargePacking.A`, selected compression root
-reserve, finite selected action, full same-material clock, and continuation.
+Conditional relay: proving the active Hodge--Stokes quotient admission `(155)`
+and quotient graph-capacity Bessel packing `(156)` gives `(*)`, hence
+`(105)`--`(106)`, hence finite selected action.  The earlier high-weight tube
+escape charge `(127)` is the escape branch that the Bessel proof must control;
+combined with tight-branch zero-cost rigidity `(123)`--`(125)`, it gives the
+reversible-cycle birth/scale-descent packing line `(120)`--`(121)`.
+Equivalently, any branch of `(70)` that supplies a noncircular positive-flux
+reserve gives `(59)`--`(60)`; that gives one-sided positive critical transfer,
+the parent-known critical capacity frame, `NativeBirthChargePacking.A`,
+selected compression root reserve, finite selected action, full same-material
+clock, and continuation.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
@@ -2651,7 +2655,11 @@ branch of the Bessel proof remains unproved.  Raw adjoint admission `(132)` now
 also fails if it is read as a stress current controlling the full scalar packet
 `(128)`--`(129)`: divergence-free stress tests kill pressure in `(141)`, so a
 selected pressure-Hessian bill is not admitted until it is routed through the
-strain/Hodge--Stokes graph `(143)`--`(145)`.
+strain/Hodge--Stokes graph `(143)`--`(145)`.  Raw graph packing also fails if
+it charges the rigid-rotation pressure Hessian `(149)`: a zero-stretch spin has
+\(K=0\) and no selected squeeze, but nonzero \(\nabla^2p\).  The selected
+pressure-Hessian term must be the active quotient `(153)`--`(154)`, not raw
+curvature.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -2683,7 +2691,10 @@ not a standalone destination; it is the high-weight escape subcase of proving
 positive-metric-variation Bessel packing for the parent stress current.  After
 the adjoint admission pressure test, the admission side itself is sharpened:
 the full packet is the parent Hodge--Stokes graph packet `(145)`--`(147)`, not
-raw stress current plus a detached selected pressure-Hessian norm.
+raw stress current plus a detached selected pressure-Hessian norm.  After the
+rigid-rotation pressure test, that graph packet is further sharpened to the
+active quotient `(153)`--`(156)`, which annihilates parent-predictable
+zero-stretch skew-inertial pressure balance.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
@@ -2693,18 +2704,19 @@ production, selected return, critical reset, exchange, stop/legal event, and
 fresh native birth charge.  Equivalently, prove the selected-forest lift `(78)`,
 or show that failure of `(78)` produces `PositiveActiveCarlesonReserve.A` or a
 rigid Zeno source class.  In the current strict form, this means prove the
-duality-and-packing version of `(*)`: construct the noncircular parent
-Hodge--Stokes/positive-metric graph capacity \(\mathfrak C_P^{HS}\), prove the
-corrected same-carrier adjoint admission `(145)`, and prove graph-capacity
-Bessel packing `(147)`.  The admitted same-carrier positive variations and
-pressure-Hessian readouts must pack finitely because fresh endpoint-invisible
-affine cycles and selected pressure-Hessian carriers cannot keep escaping into
-smaller high-weight tubes without paying original-history positive metric
-variation, Hodge--Stokes graph energy, scale derivative, turnstile, exchange,
-covector, selector-boundary, or legal charge.  The older formulations `(83)`,
-`(90)`, `(91)`, `(120)`--`(121)`, `(127)`, and raw `(132)` are valid only
-insofar as they prove that parent-current graph Bessel/no-cycle clause; `(91)`
-remains sharpened to the positive-variation budget `(100)`, not merely bounded
-endpoint Cauchy--Green state.
+duality-and-packing version of `(*)`: construct the noncircular parent active
+Hodge--Stokes/positive-metric quotient capacity \(\mathfrak C_{P,act}^{HS}\),
+prove active same-carrier adjoint admission `(155)`, and prove quotient
+graph-capacity Bessel packing `(156)`.  The admitted same-carrier positive
+variations and active pressure-Hessian readouts must pack finitely because fresh
+endpoint-invisible affine cycles and selected pressure-Hessian carriers cannot
+keep escaping into smaller high-weight tubes without paying original-history
+positive metric variation, active Hodge--Stokes quotient energy, scale
+derivative, turnstile, exchange, covector, selector-boundary, or legal charge.
+The older formulations `(83)`, `(90)`, `(91)`, `(120)`--`(121)`, `(127)`, raw
+`(132)`, and raw `(145)`--`(147)` are valid only insofar as they prove that
+parent-current active graph Bessel/no-cycle clause; `(91)` remains sharpened to
+the positive-variation budget `(100)`, not merely bounded endpoint Cauchy--Green
+state.
 
 Partial, not Gold closed.
