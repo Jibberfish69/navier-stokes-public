@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: no-free-zoom-star-splits-admission-and-positive-variation-packing-open
+status: metric-squeeze-admission-paid-positive-variation-packing-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -32,6 +32,12 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-routed-current-energy-original-history-producer-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-critical-transfer-direct-attack-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-critical-transfer-dyadic-flux-affine-threading-reduction-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-parent-subtracted-current-admission-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-route-metric-carleson-stopping-admission-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-endpoint-mass-to-stopped-current-testing-reduction-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-unit-novelty-admission-scale-normalization-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-weight-bad-profile-compactness-tightness-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-weight-defect-compactness-tight-escape-dichotomy-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-tail-nozeno-to-positive-flux-inheritance-reduction-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-laminar-positive-flux-inheritance-direct-attack-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-positive-flux-reserve-tail-equivalence-20260626.md
@@ -1806,7 +1812,105 @@ selected action.  The remaining proof must build \(\mu_P\) from the original
 same-history packet so `(105)` is not future-tail selection and `(106)` is not
 an unbounded positive-variation primitive.
 
-## 22. Truth ledger
+## 22. Admission pressure test: metric squeeze, not scalar action
+
+Attempt the admission clause `(105)`.
+
+The scalar action in `(101)` is too broad for admission.  The term
+\(|\nabla^2p|^{5/4}\) is a pressure-Hodge readout, and \(|S|^{5/2}\) without a
+selected material direction is only a critical density.  Neither one is, by
+itself, the event "this selected squeeze is real."  The admitted object must be
+the same-carrier metric squeeze.
+
+Let \(F(t)\) be the material deformation gradient on the parent packet and
+\(C(t)=F(t)^TF(t)\).  For a parent-known material direction \(a\), put
+
+\[
+q_a(t):={F(t)a\over |F(t)a|}.
+\tag{107}
+\]
+
+Then the original velocity field gives the exact material metric identity
+
+\[
+{d\over dt}\log(a\cdot C(t)a)
+=
+2\,q_a(t)\cdot S(t)q_a(t).
+\tag{108}
+\]
+
+Thus a retained selected squeeze in that same carrier has the corrected action
+
+\[
+a_{\gamma}^{sq}
+:=
+\int_{I_\gamma}
+\bigl[q_{\gamma}(t)\cdot S(t)q_{\gamma}(t)\bigr]_+\,dt,
+\tag{109}
+\]
+
+and `(108)` gives
+
+\[
+a_{\gamma}^{sq}
+\le
+{1\over2}
+\operatorname{Var}_{+}
+\log(a_\gamma\cdot C a_\gamma;I_\gamma)
++Paid_{\rm reset/turnstile/covector/collar}(\gamma).
+\tag{110}
+\]
+
+So the legal parent-known charge for the admission clause is
+
+\[
+\rho_{\gamma}^{met}
+:=
+{1\over2}
+\operatorname{Var}_{+}
+\log(a_\gamma\cdot C a_\gamma;I_\gamma),
+\tag{111}
+\]
+
+computed from the original material metric path, with direction changes paid as
+reset, turnstile, covector, collar, stop, or legal motion.  In this corrected
+currency, `(105)` is paid:
+
+\[
+a_{\gamma}^{sq}
+\le
+\rho_{\gamma}^{met}
++Paid(\gamma).
+\tag{112}
+\]
+
+Thomas-dialogue verdict:
+
+- Did this prove smoothness? No.  It proves the admission side only after
+  replacing scalar critical action by same-carrier metric-squeeze action.
+- Is this the live object? Yes: a selected squeeze is real precisely when the
+  original material metric is increasing in the selected direction.
+- What was the mathematical lie? Treating \(|S|^{5/2}+|\nabla^2p|^{5/4}\) as
+  an admitted squeeze.  That scalar density can be a readout; it is not the
+  same-carrier bill.
+- Full coupled packet? Yes for the velocity/material-metric part, with pressure
+  retained as the Hodge compatibility mechanism and not as a separate positive
+  currency.
+- Already handled? The material traction current and parent-subtracted readout
+  notes supply the same-carrier current framework; this section installs the
+  missing metric identity inside `(*)`.
+- Stronger insight? The no-free-zoom bridge has only one remaining unproved
+  producer in the corrected currency: root-finite packing of positive material
+  metric variation.  Reversible affine cycles show exactly why endpoint metric
+  state is too weak.
+
+Thus `(105)` is no longer a separate open theorem for retained same-carrier
+metric squeezes.  It is an exact consequence of the material metric identity
+`(108)`.  The live producer is `(106)`, equivalently `(100)`: prove that the
+positive metric-variation charges \(\rho_\gamma^{met}\) pack finitely along the
+original same-history selected forest.
+
+## 23. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
@@ -1816,15 +1920,16 @@ projection closes same-chain raw nonreuse; local source attachment rules out
 detached high-ratio birth; retained first selected birth has a local
 endpoint-seed admission line; return and reset surfaces identify the right paid
 currencies; the upper critical-frame Bessel line is available after a
-parent-known critical lower-frame admission.
+parent-known critical lower-frame admission; the same-carrier metric-squeeze
+admission clause `(105)` is paid in the corrected currency by the material
+metric identity `(108)`--`(112)`.
 
-Conditional relay: proving `(*)` with the admission clause `(105)` and the
-packing/no-cycle clause `(106)` gives finite selected action.  Equivalently,
-any branch of `(70)` that supplies a noncircular positive-flux reserve gives
-`(59)`--`(60)`; that gives one-sided positive critical transfer, the
-parent-known critical capacity frame, `NativeBirthChargePacking.A`, selected
-compression root reserve, finite selected action, full same-material clock, and
-continuation.
+Conditional relay: proving the packing/no-cycle clause `(106)` for the metric
+charges `(111)` gives finite selected action.  Equivalently, any branch of
+`(70)` that supplies a noncircular positive-flux reserve gives `(59)`--`(60)`;
+that gives one-sided positive critical transfer, the parent-known critical
+capacity frame, `NativeBirthChargePacking.A`, selected compression root
+reserve, finite selected action, full same-material clock, and continuation.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
@@ -1844,7 +1949,10 @@ the strict good-lambda coefficient, bounded-below storage, or terminal
 half-tail Liouville theorem.  Terminal affine half-tail exclusion by endpoint
 Cauchy--Green state also fails: reversible affine stretch-return cycles can
 return the material metric near its initial state while accumulating positive
-selected metric variation.
+selected metric variation.  Scalar critical action admission by
+\(|S|^{5/2}+|\nabla^2p|^{5/4}\) is also rejected as a proxy: pressure-Hessian
+and undirected critical density are readouts unless they are tied to a
+same-carrier metric squeeze.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -1863,7 +1971,9 @@ after the reversible-cycle test, `(91)` is specifically a root-finite positive
 metric-variation / no-reversible-Zeno theorem for the original same-history
 selected forest; after the `(*)` audit, the live hinge is the two-clause
 no-free-zoom bridge: parent-known same-carrier admission `(105)` plus
-root-finite packing/no-cycle `(106)`.
+root-finite packing/no-cycle `(106)`; after the admission pressure test,
+`(105)` is paid for the corrected metric-squeeze currency, and the live hinge is
+the root-finite packing/no-cycle of \(\rho_\gamma^{met}\).
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
@@ -1872,13 +1982,12 @@ escaping descendant-tail storage, native carrier payment, zero-flux profile
 production, selected return, critical reset, exchange, stop/legal event, and
 fresh native birth charge.  Equivalently, prove the selected-forest lift `(78)`,
 or show that failure of `(78)` produces `PositiveActiveCarlesonReserve.A` or a
-rigid Zeno source class.  In the current strict form, this means prove `(*)`
-from the original coupled Navier--Stokes history: `(105)` must admit every real
-selected squeeze into a parent-known same-carrier material capacity, and
-`(106)` must pack those admitted capacities finitely through reversible affine
-cycles.  The older formulations `(83)`, `(90)`, and `(91)` are valid only insofar
-as they prove those two clauses; `(91)` remains sharpened to the
-positive-variation budget `(100)`, not merely bounded endpoint Cauchy--Green
-state.
+rigid Zeno source class.  In the current strict form, this means prove `(106)`
+from the original coupled Navier--Stokes history for the metric charges `(111)`:
+the admitted same-carrier positive variations must pack finitely through
+reversible affine cycles.  The older formulations `(83)`, `(90)`, and `(91)` are
+valid only insofar as they prove that packing/no-cycle clause; `(91)` remains
+sharpened to the positive-variation budget `(100)`, not merely bounded endpoint
+Cauchy--Green state.
 
 Partial, not Gold closed.
