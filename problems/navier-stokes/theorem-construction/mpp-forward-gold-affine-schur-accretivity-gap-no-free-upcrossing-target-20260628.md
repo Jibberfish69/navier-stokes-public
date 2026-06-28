@@ -1346,7 +1346,7 @@ T_Q^+
 The exact hard line is admission/update:
 
 \[
-\text{positive high-high Navier--Stokes dyadic transfer}
+\text{positive high-high event, typed as full-output or two-point}
 \Longrightarrow
 \text{admitted increment of the paid same-carrier parent current}.
 \tag{82}
