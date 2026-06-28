@@ -3147,7 +3147,181 @@ critical mass and has no terminal jump on shrinking same-carrier tents.  That
 gives `(186)`, hence tightness-or-paid-escape, hence `(175)`, `(169)`, `(163)`,
 `(162)`, `(155)`--`(156)`, and the duality-and-packing form of `(*)`.
 
-## 32. Truth ledger
+## 32. Terminal storage trace atom: Hardy fork or endpoint face
+
+Now test `(184)`--`(185)` against the endpoint pulse countermodel.  A
+bounded-below storage can pay finite total mass and still spend one unit in a
+vanishing terminal strip.  Thus the no-residue statement must be the local
+positive trace defect estimate, not merely the global differential inequality.
+
+Define the fixed-core positive storage-trace defect by
+
+\[
+\kappa_{\Phi,P}(T_\rho(z_0))
+:=
+\limsup_{n\to\infty}
+\Big[
+\Phi_{P,n}(T_\rho^{in}(z_0))
+-
+\Phi_{P,n}(T_\rho^{out}(z_0))
+\Big]_+ .
+\tag{187}
+\]
+
+The compactness/no-loss split gives the honest bridge
+
+\[
+\mu_{P,fix}^{crit}(T_\rho(z_0))
+\le
+C\kappa_{\Phi,P}(T_{c\rho}(z_0))
++
+C(E_{\rm paid}+R_{\rm legal}+Stop)(T_{c\rho}(z_0))
++o_\rho(1).
+\tag{188}
+\]
+
+All nonterminal fixed-core defects in `(188)` have already been sorted: viscous
+defect is payment or strong gradient convergence; harmonic pressure/collar,
+selector, Hodge, signed-partner, legal, and geometry drift are paid channels;
+lossless same-carrier full-packet limits are consumed by rigidity.  The only
+unpaid survivor is
+
+\[
+\lim_{\rho\downarrow0}
+\sup_{z_0}
+\kappa_{\Phi,P}(T_\rho(z_0))>0 .
+\tag{189}
+\]
+
+So `(185)` is exactly the terminal storage anti-atom
+
+\[
+\lim_{\rho\downarrow0}
+\sup_{z_0}
+\kappa_{\Phi,P}(T_\rho(z_0))=0.
+\tag{190}
+\]
+
+There is a real sufficient mechanism.  Let the full-packet endpoint payment
+measure be
+
+\[
+d\mu_P^{end}
+:=
+d(-\Phi_P)_+
++d\Lambda_{\rm legal}
++d\Lambda_{\rm sel}
++d\Lambda_{\rm sgn}
++d\Lambda_{\rm term}
++d\Lambda_{\rm geom}.
+\tag{191}
+\]
+
+If for some \(\alpha>0\)
+
+\[
+\sup_P
+\int_{-1}^{0}(-s)^{-\alpha}\,d\mu_P^{end}(s)
+<\infty,
+\tag{192}
+\]
+
+then
+
+\[
+\mu_P^{end}((-\theta,0])
+\le
+C_\alpha\theta^\alpha
+\quad\Longrightarrow\quad
+\text{`(190)'}.
+\tag{193}
+\]
+
+This is not an alias for finite reserve.  The terminal heat-pulse measure
+\(a\tau^{-1}{\bf1}_{(-\tau,0]}ds\) has finite mass and infinite left-hand side
+in `(192)`.
+
+The checked PDE production route for `(192)` is
+
+\[
+\begin{array}{c}
+\sup_m\big(
+\|V_m\|_{L_s^\infty L_y^2}^2
++\|\nabla V_m\|_{L_{s,y}^2}^2
++\|Q_m\|_{L_{s,y}^{5/3}}^{5/3}
+\big)<\infty\\
++\text{ weighted endpoint bounds for legal/selector/signed/terminal/geometry
+measures}
+\\
+\Longrightarrow
+\text{terminal Hardy/no-waste}
+\Longrightarrow
+\text{`(190)'}.
+\end{array}
+\tag{194}
+\]
+
+The direct production of `(194)` is not installed.  Heat-scale normalization
+shows the gap:
+
+\[
+\int |\nabla_yV_m|^2
+=
+r_m^{-1}
+\int_{Q_{r_m}}|\nabla_xu|^2,
+\qquad
+\int |Q_m|^{5/3}
+=
+r_m^{-5/3}
+\int_{Q_{r_m}}|p|^{5/3}.
+\tag{195}
+\]
+
+Physical energy and pressure bounds give radius-weighted control such as
+\(\sum_m r_mD_m^{ren}<\infty\), not the unweighted normalized bound in `(194)`.
+
+Thus the noncircular fork is
+
+\[
+\boxed{
+\begin{array}{ll}
+\text{Gold no-jump branch:}&
+\text{prove `(192)`/`(194)`, hence `(190)`, hence `(186)`;}\\[1mm]
+\text{CM consumption branch:}&
+\text{if `(190)` fails, same-witness admission turns the terminal atom}\\
+&\text{into a Part failure, or after retained Part and Field-window evidence}\\
+&\text{into }\forall r>0\,\neg Field_{N,r,Q}.
+\end{array}
+}
+\tag{196}
+\]
+
+The second branch is not Gold closure.  It is the contrapositive use of the
+surviving endpoint pulse after the terminal object has entered the same-witness
+CM tree.  Pack remains packet/window evidence for Field smoothness
+certification; it is not a CM object component or class-exit label.
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It attacks the no-jump clause
+  `(185)` left by the fixed-core branch.
+- Did this prove smoothness? No.  It proves the exact fork `(196)`: Gold needs
+  Hardy/\(L^p\) endpoint production; a surviving pulse must be consumed through
+  same-witness CM Part/Field admission.
+- What does it mean physically? The same full material packet can still spend
+  at the last instant unless the endpoint payment measure has a terminal
+  modulus stronger than finite mass.
+- Is this the full coupled packet or a scalar proxy? Full coupled packet:
+  \(\Phi_P\) and \(d\mu_P^{end}\) carry pressure, viscosity, incompressibility,
+  velocity, selector/collar/Hodge, signed, legal, and geometry channels.
+- Is this already handled in the repo? The Hardy criterion, compactness/no-loss
+  sorting, and CM endpoint consumption are handled.  The endpoint \(L^p\)/Hardy
+  production theorem `(192)`/`(194)` is not.
+- Did this create another alias? No.  It collapses "bounded storage",
+  "terminal trace AC", "anti-atom", and "compactness production" to the single
+  positive storage-trace atom `(189)`, with the fork `(196)`.
+
+## 33. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
