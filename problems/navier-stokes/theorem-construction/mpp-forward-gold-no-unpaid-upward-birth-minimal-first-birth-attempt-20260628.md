@@ -4755,6 +4755,7 @@ increment
 \left\|
 (I-\Pi_{\mathcal E_{Q^-}^{par}})\psi_Q^{act}
 \right\|_{\mathfrak C_P}^2
++
 {(\Delta_B^+)^2\over A_B^{inv}}
 \\
 &\quad+
@@ -4916,7 +4917,11 @@ legal, or consumed by the endpoint face rather than retained as a new selected
 bill.  The cumulative first-exit selector audit `(278)`--`(290)` then sharpens
 that line: microscopic low dust is bundled until a parent-announced first exit
 occurs, first-exit blocks are paid by harmonic Cauchy, and the live unproved
-PDE line is actual-selector first-exit capture `(287)`.
+PDE line is actual-selector first-exit capture `(287)`.  The
+parent-subtracted replay audit `(291)`--`(300)` then rejects ordinary
+Lipschitz/no-loss stability as a proof of `(287)`: level stability controls
+changes in selected action, while Gold needs the actual selected bill to be a
+fresh parent-subtracted increment `(295)`.
 
 Conditional relay: proving the positive storage-trace anti-atom `(190)` by the
 order-locked endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)` supplies
@@ -4956,6 +4961,10 @@ high branch and proves that the open line is exactly low-dust exclusion by
 `(274)`.  The cumulative first-exit audit `(278)`--`(290)` refines the
 exclusion: low dust is not counted eventwise, and the remaining relay input is
 the actual selected packet's first exit from the parent active capacity ball.
+The parent-subtracted replay audit `(291)`--`(300)` refines that again: the
+actual selected packet must be replaceable by the increment `(294)` before its
+positive level is charged, with non-incremental replay bundled or consumed by
+the same-witness endpoint face.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
@@ -5041,7 +5050,10 @@ terminal bill on the low-normalized dust branch.  Treating every low-normalized
 micro-readout as a new retained bill also fails: it manufactures the divergence
 that first-exit bundling is designed to prevent.  The real obstruction is
 non-first-exit replay promoted by the actual selector as singularity-forcing
-action.
+action.  Ordinary Lipschitz/no-loss stability of the selected level functional
+also fails as the proof of `(287)`: `(292)`--`(293)` shows that a repeated
+inherited positive level can have finite parent-distance variation and infinite
+selected bill unless the selector counts only the parent-subtracted increment.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -5108,7 +5120,10 @@ the normalized selector audit, that fork is equivalent to the stopped terminal
 gate `(274)`: every retained terminal event is high-normalized, parent-bundled,
 stopped/legal, or same-witness endpoint-face consumed.  After the cumulative
 first-exit audit, `(274)` is equivalent to actual-selector first-exit capture
-`(287)` / `(290)` in the parent active Hodge--Stokes capacity metric.
+`(287)` / `(290)` in the parent active Hodge--Stokes capacity metric.  After
+the parent-subtracted replay audit, `(287)` is equivalent to actual stopped
+selector replacement by the fresh increment `(294)`--`(295)`: replay of an
+inherited positive level is not a new selected action.
 Failure of that upgrade is the same-witness CM endpoint-face branch `(196)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
@@ -5125,8 +5140,9 @@ with parent-announced \(\mathcal N^{act}\), \(\mathcal P^{act}\), \(H_{e^-}\),
 and connection \(\nabla^P\), then prove the terminal no-replay detector
 admission and record-variation packing `(246)`--`(247)` for the bill `(232)`,
 with the square-to-linear terminal admission supplied by actual-selector
-first-exit capture `(287)` / `(290)`, refining `(254)`/`(256)` through
-`(269)`--`(288)`.  That supplies `(234)`--`(235)`, the
+first-exit capture `(287)` / `(290)`, now sharpened to parent-subtracted
+selector capture `(294)`--`(300)`, refining `(254)`/`(256)` through
+`(269)`--`(298)`.  That supplies `(234)`--`(235)`, the
 order-lock overlap terminal branch `(217)`--`(230)`, the order-locked full
 endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)`, `(192)`--`(194)`,
 fixed-core no-residue trace storage `(184)`--`(185)`, the terminal anti-atom
