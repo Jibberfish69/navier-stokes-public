@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: full-output-net-flux-parent-current-split-open
+status: full-output-upcrossing-viscous-margin-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -2377,3 +2377,132 @@ Partial, not Gold closed. The high-high carrier choice is resolved in favor of
 the full-output net critical transfer. The live producer is now the one-sided
 full-output parent-current split `(154)`--`(155)`, not input-colored two-point
 packing.
+
+## 24. The full-output split is an upcrossing/viscous-margin theorem
+
+The full-output correction in Section 23 removes the false two-point burden,
+but it does not turn the signed parent-current identity into a positive
+estimate.  Write
+
+\[
+E_c(t)=\sum_m2^m\|u_m(t)\|_2^2,
+\qquad
+D_c(t)=\sum_m2^m\|\nabla u_m(t)\|_2^2
+\simeq
+\|\Lambda^{3/2}u(t)\|_2^2 .
+\tag{156}
+\]
+
+Then `(149)` says
+
+\[
+B^{crit}(t)\,dt
+={1\over2}\,dE_c(t)+\nu D_c(t)\,dt-LP_{err}(t)\,dt .
+\tag{157}
+\]
+
+Thus `(153)` is not just a current-capture theorem.  It is a strict one-sided
+upcrossing theorem for the critical energy current:
+
+\[
+\int_0^T[B^{crit}(t)]_+\,dt
+\le
+C_N(u_0)
+\theta\nu\int_0^T D_c(t)\,dt
+R_{\rm legal}+Stop,
+\qquad \theta<1 .
+\tag{158}
+\]
+
+The signed identity `(154)` can be true while `(158)` is false.  A scalar
+sawtooth current \(q\) may have zero endpoint change and arbitrarily large
+positive variation:
+
+\[
+q(T)-q(0)=0,
+\qquad
+\int_0^T[dq]_+\gg1 .
+\tag{159}
+\]
+
+This is not a Navier--Stokes counterexample.  It is the exact failure mode for
+the proof line
+
+\[
+B^{crit}dt=dq_{\rm pc}+paid
+\quad\Longrightarrow\quad
+[B^{crit}]_+dt\ \text{is packed}.
+\]
+
+The missing producer must therefore be a parent-known Bellman/upcrossing law,
+not another signed-current representation.  The needed form is a bounded-below
+full-output storage \(\mathcal U_P\), built on the same carrier as
+\(q_{\rm pc}\), such that on retained nonendpoint histories
+
+\[
+[dq_{\rm pc}]_+
+\le
+-d\mathcal U_P
+dFresh_{\rm Bessel}^{pc}
+dSchur_{\rm retained}^{pc}
+dMotion+dReturn
+\theta\nu D_c\,dt
+dLegal+dStop+dEnd ,
+\tag{160}
+\]
+
+with
+
+\[
+\mathcal U_P(T)\ge -C_N(u_0)-R_{\rm legal}-Stop,
+\qquad
+\mathcal U_P(0)\le C_N(u_0).
+\tag{161}
+\]
+
+Then integrating `(160)`, using `(154)`, and routing \(LP_{err}\) gives
+`(158)`.  The strict factor \(\theta<1\) is the whole point: without a
+remaining viscous margin, `(158)` only rewrites the critical energy identity
+and does not force continuation.
+
+Paid line:
+
+\[
+\text{bounded-below full-output Bellman/upcrossing law `(160)'--`(161)'}
+\Longrightarrow
+\text{one-sided split `(155)'}
+\Longrightarrow
+\text{positive critical transfer absorption `(153)'.}
+\tag{162}
+\]
+
+Failed line:
+
+\[
+\text{signed full-output current identity `(154)'}
+\not\Longrightarrow
+\text{positive upcrossing absorption `(153)'.}
+\tag{163}
+\]
+
+Thomas-dialogue audit:
+
+- Is this actually the live object? Yes.  It tests the exact line left after
+  the category repair and full-output selector correction.
+- Did this prove smoothness? No.  It proves that the current capture identity
+  is only a paid support line; the live producer is still `(160)`--`(161)`.
+- What does it mean physically? The fluid can have signed stress work that
+  returns later.  Gold needs a rule saying positive net work cannot repeatedly
+  outrun viscous drain unless it draws down a bounded parent storage or routes
+  to a paid event.
+- Is this the full coupled packet or a scalar proxy? Full packet.  The
+  sawtooth is only the sign-to-positive countertest; \(\mathcal U_P\) must be
+  built from the full output-local pressure-viscosity-incompressibility current.
+- Is this already handled in the repo? No.  Existing sections prove the
+  full-output carrier identity and category repair.  They do not produce the
+  bounded-below upcrossing storage with strict viscous margin.
+- Did this create another alias? No.  It collapses the remaining split into
+  its exact paid line: bounded-below full-output upcrossing with margin.
+
+Partial, not Gold closed.  The strict producer is now the bounded-below
+full-output critical Bellman/upcrossing law `(160)`--`(161)`.
