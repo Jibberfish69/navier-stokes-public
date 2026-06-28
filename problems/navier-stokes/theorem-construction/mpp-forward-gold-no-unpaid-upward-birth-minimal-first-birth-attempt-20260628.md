@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: metric-variation-packing-reduces-to-reversible-cycle-birth-open
+status: cycle-birth-reduces-to-high-weight-tube-escape-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -2039,7 +2039,123 @@ Thomas-dialogue verdict:
   scales: after a cycle erases its endpoint state, the next smaller selected
   cycle must still have an original-history birth/scale-descent charge.
 
-## 24. Truth ledger
+## 24. Cycle-birth tight/escape pressure test
+
+Attempt the reversible-cycle birth charge `(120)`--`(121)` by compactness.
+
+Assume a normalized bad family of endpoint-invisible reversible affine cycles
+survives after all paid reset, turnstile, covector, exchange, collar, stop, and
+legal terms are removed:
+
+\[
+\sum_{k\in\mathcal C_n}\rho_k^{met}=1,
+\qquad
+Paid(\mathcal C_n)\to0.
+\tag{122}
+\]
+
+There are two possible outcomes.
+
+First, a fixed stopped same-carrier chart carries a positive fraction of the
+cycle mass.  After active-weight blow-up, the normalized cycle has a nonzero
+fresh quotient in one common same-carrier lifted space:
+
+\[
+D_\infty^{fresh}\ne0.
+\tag{123}
+\]
+
+The zero-paid hypotheses force
+
+\[
+\partial_\sigma Z_\infty=0,
+\qquad
+Turnstile_\infty=0,
+\qquad
+Exchange_\infty=0,
+\qquad
+Covector_\infty=0.
+\tag{124}
+\]
+
+Then the dynamic-silent / parent-subtracted rigidity mechanism applies: with no
+scale derivative, no turnstile, no exchange, no covector motion, and no
+same-carrier mismatch, a fresh quotient is inherited parent transport; after
+parent subtraction it is zero:
+
+\[
+D_\infty^{fresh}=0,
+\tag{125}
+\]
+
+contradicting `(123)`.  This kills the tight same-carrier zero-cost branch.
+
+Second, no compact stopped same-carrier chart carries positive cycle mass.  The
+unit mass in `(122)` escapes into shrinking high-weight tubes:
+
+\[
+\mu_n(K)\to0
+\quad\text{for every compact stopped carrier class }K,
+\qquad
+\mu_n(\operatorname{Hist}(P_n))=1.
+\tag{126}
+\]
+
+All escape mechanisms except high-weight concentration are already paid:
+carrier mismatch, selector-chart loss, covector/frame escape, order-lock
+boundary, stop, and legal boundary enter the existing paid ledgers.  The
+remaining unproved line is therefore exactly:
+
+\[
+\mu_n(\operatorname{Esc}_M)
+\le
+C\int_{\operatorname{Esc}_M^*}
+\left(
+|\partial_\sigma Z|^2
++|Turnstile_\sigma|^2
++|Exchange_\sigma|^2
++|Covector_\sigma|^2
+\right)
++CR_{legal}
++o_M(1).
+\tag{127}
+\]
+
+This is `NoFreeHighWeightTubeEscapeCharge.A` / `ActiveWeightEscapeCarleson.A`.
+It says a unit of endpoint-invisible reversible-cycle mass cannot disappear
+into smaller and smaller high-weight tubes unless the original same-material
+history pays scale derivative, turnstile, exchange, covector, selector-boundary,
+or legal charge.
+
+Thomas-dialogue verdict:
+
+- Did this prove smoothness? No.  It proves the compact tight branch would be
+  contradictory, but it leaves the high-weight tube escape estimate `(127)`
+  open.
+- Is this the live object? Yes.  It is the same reversible-cycle birth problem
+  in compactness language.
+- Did it rename the hinge? It would be a rename if `(127)` is only called
+  "escape Carleson."  It is real progress only as a quantitative original-
+  history charge for escaping high-weight tubes.
+- Physical meaning? A reversible cycle can erase endpoint shape; the only way
+  to see its repeated birth is through the cost of moving the selected carrier
+  into smaller high-weight tubes.
+- Full coupled packet? Yes, only if `(127)` uses the original
+  pressure-viscosity-incompressibility-velocity material history, not a scalar
+  active-weight measure chosen after selection.
+- Already handled? The zero-cost rigidity branch is handled conditionally by
+  the dynamic-silent / parent-subtracted mechanism.  The high-weight escape
+  charge is explicitly open in the active-weight defect compactness audit.
+- Stronger insight? The live producer has only one remaining proof face:
+  high-weight tube escape must be charged by original-history derivative and
+  carrier-motion ledgers.  Minimal bad-chain compactness and descendant-tail
+  reserves do not supply a root-finite reservoir.
+
+Thus `(120)`--`(121)` is not a new independent theorem label.  It is equivalent
+to proving `(127)` for the reversible-cycle defect measure, together with the
+already identified zero-cost rigidity on the tight branch.
+
+## 25. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
@@ -2053,13 +2169,15 @@ parent-known critical lower-frame admission; the same-carrier metric-squeeze
 admission clause `(105)` is paid in the corrected currency by the material
 metric identity `(108)`--`(112)`.
 
-Conditional relay: proving the reversible-cycle birth/scale-descent packing
-line `(120)`--`(121)` gives `(106)` for the metric charges `(111)` and hence
-finite selected action.  Equivalently, any branch of `(70)` that supplies a
-noncircular positive-flux reserve gives `(59)`--`(60)`; that gives one-sided
-positive critical transfer, the parent-known critical capacity frame,
-`NativeBirthChargePacking.A`, selected compression root reserve, finite
-selected action, full same-material clock, and continuation.
+Conditional relay: proving the high-weight tube escape charge `(127)` plus the
+tight-branch zero-cost rigidity `(123)`--`(125)` gives the reversible-cycle
+birth/scale-descent packing line `(120)`--`(121)`; that gives `(106)` for the
+metric charges `(111)` and hence finite selected action.  Equivalently, any
+branch of `(70)` that supplies a noncircular positive-flux reserve gives
+`(59)`--`(60)`; that gives one-sided positive critical transfer, the
+parent-known critical capacity frame, `NativeBirthChargePacking.A`, selected
+compression root reserve, finite selected action, full same-material clock, and
+continuation.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
@@ -2085,6 +2203,9 @@ and undirected critical density are readouts unless they are tied to a
 same-carrier metric squeeze.  Positive metric-variation storage itself now
 also fails as a proof mechanism: reversible affine cycles can keep endpoint
 metric state and raw ledgers finite while \(\sum\rho_\gamma^{met}\) diverges.
+Minimal-bad-chain compactness also fails to produce a root reserve: it gives a
+normalized affine packet/defect package, while the escaping high-weight tube
+charge `(127)` remains unproved.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -2108,6 +2229,10 @@ root-finite packing/no-cycle `(106)`; after the admission pressure test,
 the root-finite packing/no-cycle of \(\rho_\gamma^{met}\); after the packing
 pressure test, that hinge is specifically a no-free-birth / scale-descent
 charge for endpoint-invisible reversible affine cycles.
+After the tight/escape pressure test, the cycle-birth charge is equivalent to
+`NoFreeHighWeightTubeEscapeCharge.A` / `ActiveWeightEscapeCarleson.A` on the
+escaping branch, with the tight branch handled by same-carrier zero-cost
+rigidity.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
@@ -2117,13 +2242,14 @@ production, selected return, critical reset, exchange, stop/legal event, and
 fresh native birth charge.  Equivalently, prove the selected-forest lift `(78)`,
 or show that failure of `(78)` produces `PositiveActiveCarlesonReserve.A` or a
 rigid Zeno source class.  In the current strict form, this means prove the
-reversible-cycle birth/scale-descent charge `(120)`--`(121)` from the original
-coupled Navier--Stokes history.  The admitted same-carrier positive variations
-must pack finitely because fresh endpoint-invisible affine cycles cannot be
-born at infinitely many smaller selected scales for free.  The older
-formulations `(83)`, `(90)`, and `(91)` are valid only insofar as they prove
-that cycle-birth/no-cycle clause; `(91)` remains sharpened to the
-positive-variation budget `(100)`, not merely bounded endpoint Cauchy--Green
-state.
+high-weight tube escape charge `(127)` from the original coupled Navier--Stokes
+history.  The admitted same-carrier positive variations must pack finitely
+because fresh endpoint-invisible affine cycles cannot keep escaping into
+smaller high-weight tubes without paying original-history scale derivative,
+turnstile, exchange, covector, selector-boundary, or legal charge.  The older
+formulations `(83)`, `(90)`, `(91)`, and `(120)`--`(121)` are valid only insofar
+as they prove that escape-charge/no-cycle clause; `(91)` remains sharpened to
+the positive-variation budget `(100)`, not merely bounded endpoint
+Cauchy--Green state.
 
 Partial, not Gold closed.
