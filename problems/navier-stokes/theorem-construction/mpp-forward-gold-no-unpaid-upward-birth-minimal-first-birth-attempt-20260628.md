@@ -1722,7 +1722,10 @@ summability or rigidity unproved.  Selected-forest complete-frame summability
 collapses to the weight-beating high-ratio tail law; complete-frame plus
 laminarity admits the critical half-tail `(85)` and therefore does not produce
 the strict good-lambda coefficient, bounded-below storage, or terminal
-half-tail Liouville theorem.
+half-tail Liouville theorem.  Terminal affine half-tail exclusion by endpoint
+Cauchy--Green state also fails: reversible affine stretch-return cycles can
+return the material metric near its initial state while accumulating positive
+selected metric variation.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -1736,7 +1739,10 @@ the angular-mixing pressure test, the first branch is specifically the
 neutral-transverse alignment exclusion / selected-forest complete-frame
 summability line `(78)`; after the half-tail strictness attempt, `(78)` is
 equivalent to the weight-beating tail law `(82)`, strict good-lambda `(83)`,
-bounded-below storage `(90)`, or terminal affine half-tail exclusion `(91)`.
+bounded-below storage `(90)`, or terminal affine half-tail exclusion `(91)`;
+after the reversible-cycle test, `(91)` is specifically a root-finite positive
+metric-variation / no-reversible-Zeno theorem for the original same-history
+selected forest.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
@@ -1746,6 +1752,8 @@ production, selected return, critical reset, exchange, stop/legal event, and
 fresh native birth charge.  Equivalently, prove the selected-forest lift `(78)`,
 or show that failure of `(78)` produces `PositiveActiveCarlesonReserve.A` or a
 rigid Zeno source class.  In the current strict form, this means prove `(83)`,
-`(90)`, or `(91)` from the original coupled Navier--Stokes history.
+`(90)`, or `(91)` from the original coupled Navier--Stokes history; with
+`(91)` now sharpened to the positive-variation budget `(100)`, not merely
+bounded endpoint Cauchy--Green state.
 
 Partial, not Gold closed.
