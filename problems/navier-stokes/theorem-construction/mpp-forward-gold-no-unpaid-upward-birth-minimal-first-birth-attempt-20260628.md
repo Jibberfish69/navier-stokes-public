@@ -2322,10 +2322,11 @@ and
 \tag{139}
 \]
 
-The proof is still partial.  The live producer has become sharper: construct
-\(\mathfrak C_P\), prove the adjoint admission, and prove the positive-
-metric-variation Bessel packing without letting \(\mathfrak C_P\) depend on the
-future selected tail.
+At this stage the proof is still partial.  The candidate producer is a
+parent-known capacity \(\mathfrak C_P\), an adjoint admission line, and
+positive-metric-variation Bessel packing, all built before the future selected
+tail is read.  The next test is whether that adjoint admission really sees the
+full Hodge--Stokes packet.
 
 ## 26. Adjoint admission pressure test: Hodge--Stokes graph, not raw Hessian
 
