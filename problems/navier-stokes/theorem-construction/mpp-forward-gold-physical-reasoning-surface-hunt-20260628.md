@@ -12,6 +12,7 @@ audits_hinge:
   - PrimitivePLSNoFreeUpcrossing.A
   - MovingLowHighInterfaceLowerEdge.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-fractional-transfer-reduction-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-physical-ontology-to-material-record-clock-exact-reduction-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-sample-energy-compatibility-test-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-annular-payback-physical-frame-completion-boundary-20260625.md
@@ -219,6 +220,18 @@ Equivalently:
 \int_0^{T^*}d[\log(1+\mathcal P_N^{mat})]_+<\infty .
 ```
 
+The analytic fractional-energy face of this same lower edge is
+`PositiveCriticalTransferBound.A`.  Testing the Leray-projected equation against
+\(\Lambda u\) makes the native reserve
+
+```math
+\nu\int_0^{T^*}\|\Lambda^{3/2}u(t)\|_2^2\,dt
+```
+
+finite exactly when the positive critical nonlinear transfer is absorbed with
+coefficient \(\theta<1\).  Small critical packets close by the standard estimate;
+arbitrary smooth data still requires that positive-transfer theorem.
+
 ## 4. Relation to the map \(\iota\)
 
 Once the lower-edge measure is proved, atomize the positive same-packet
@@ -259,5 +272,5 @@ recirculated reuse is itself paid PLS action, and fresh selected birth is a
 first positive event of the same moving low-high interface.  Infinite selected
 action can survive the installed physical reductions only as infinite one-way
 growth of the same material record.  The finite reserve theorem is precisely
-the no-free-upcrossing/lower-edge law forbidding that last one-way growth from
-the original packet.
+the positive critical transfer / no-free-upcrossing lower-edge law forbidding
+that last one-way growth from the original packet.
