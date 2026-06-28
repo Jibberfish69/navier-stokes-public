@@ -333,3 +333,132 @@ Thomas-dialogue verdict:
 
 Partial, not Gold closed. The next producer is the Schur-thin admission rule
 `(16)`, or else the same-witness endpoint-face consumption of its failure.
+
+## 7. First-passage attempt: Schur memory pays residence, not thin impulse
+
+Now test `(16)` by the most direct mechanism.  Follow one retained direction
+\(e\) and let \(h_e,q_e\) be as in `(11)`.  Stop the branch at the first time
+the accumulated Schur record becomes visible:
+
+\[
+\tau_\eta
+:=
+\inf\{t:\langle G_J^{-1}m_J,p_J\rangle_+
+\ge
+\eta\,H_w\|c_{\theta,J}^{+}\|_2^2\}.
+\tag{19}
+\]
+
+After \(\tau_\eta\), the event is Schur-thick and `(14)` pays it.  Before
+\(\tau_\eta\), the only possible payment from the Schur memory is the accumulated
+increase of \(h_e\).  That gives a first-passage \(L^1\) control, not the
+selected square bill.
+
+The obstruction is already visible in the scalar frozen-carrier model
+
+\[
+D_th=q,\qquad h(0)=0,\qquad q\ge0 .
+\tag{20}
+\]
+
+Choose disjoint pulses
+
+\[
+q_n(t)=n^3\,{\bf 1}_{I_n}(t),
+\qquad |I_n|=n^{-5}.
+\tag{21}
+\]
+
+Then
+
+\[
+\int_{I_n}q_n\,dt=n^{-2},
+\qquad
+\sum_n\int_{I_n}q_n\,dt<\infty,
+\tag{22}
+\]
+
+so the Schur record can have finite total growth, while
+
+\[
+\int_{I_n}q_n^2\,dt=n,
+\qquad
+\sum_n\int_{I_n}q_n^2\,dt=\infty .
+\tag{23}
+\]
+
+Thus first-passage Schur memory alone cannot prove `(16)`.  It pays residence
+after the record has had time to form; it does not pay arbitrarily thin
+positive impulses before residence.
+
+The missing line is therefore not another storage identity.  It is a
+same-carrier parabolic thickness estimate for Schur-thin blocks:
+
+\[
+\sum_{B\subset P:\ \chi_B<\eta}
+\int_B H_w\|c_{\theta,B}^{+}\|_2^2
+\le
+C_\eta\Big(
+E_{\rm fresh}(P)+E_{\rm motion}(P)+A^-_P
++Legal_P+Stop_P+CM_P^{end}
+\Big)
++\theta\nu\sum_{B\subset P}D_B ,
+\qquad \theta<1 .
+\tag{24}
+\]
+
+Here the left side is only over blocks that have failed Schur visibility.  The
+right side says such a block must be fresh onset, moving/reselected geometry,
+negative return, legal/stop, endpoint-face material, or genuinely viscous time
+thickness.  A positive selected source that is both retained and same-carrier
+cannot be an infinite family of square-large, record-small impulses unless the
+viscous/material-time part of the Navier--Stokes packet pays it.
+
+Paid line:
+
+\[
+\text{first-passage Schur memory}
+\Longrightarrow
+\text{Schur-thick payment after residence.}
+\tag{25}
+\]
+
+Failed line:
+
+\[
+\text{first-passage Schur memory alone}
+\not\Longrightarrow
+\text{Schur-thin selected square control, by `(21)'--`(23)'.}
+\tag{26}
+\]
+
+Sharper unproved line:
+
+\[
+\text{prove the parabolic time-thickness estimate `(24)' from the coupled
+material Navier--Stokes packet.}
+\tag{27}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It tries to prove the Schur-thin
+  branch `(16)`.
+- Did this prove smoothness? No.  It proves the residence part of the idea and
+  exposes the thin-impulse countermodel to Schur memory alone.
+- What does it mean physically? If the source stays, it writes a record and the
+  Schur pairing sees it.  If it fires too fast to write a record, the proof must
+  charge the material time scale, viscosity, carrier motion, or endpoint face.
+- Is this the full coupled packet or a scalar proxy? The countermodel is scalar
+  only as a failure test for Schur memory.  The required producer `(24)` is full
+  coupled packet work because only viscosity, pressure transport,
+  incompressibility, carrier motion, and legal/selector terms can rule out the
+  thin impulses.
+- Is this already handled in the repo? No.  Existing Bessel/motion/Schur
+  support handles fresh directions, moving directions, and residence after
+  visibility.  It does not prove `(24)`.
+- Did this create another alias? No.  It removes an alias: "Schur alignment"
+  by itself is too coarse.  The live producer is parabolic time thickness for
+  Schur-thin retained positive production.
+
+Partial, not Gold closed. The current sharp producer is `(24)`.
