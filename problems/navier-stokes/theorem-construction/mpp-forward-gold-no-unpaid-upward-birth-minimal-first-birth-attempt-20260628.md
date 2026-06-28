@@ -5176,7 +5176,123 @@ Thomas-dialogue verdict:
 - Did this create another alias? No.  It removes an alias: active graph
   coercivity is support, and the live producer is terminal no-atom storage.
 
-## 44. Truth ledger
+## 44. Horizon checklist and terminal no-waste pressure test
+
+The proof can close smoothness from this Gold hinge only if the following chain
+is paid in the original same-material packet:
+
+1. parent-known active Hodge--Stokes capacity with parent-announced active null
+   space, quotient projector, material connection, stop/legal terms, and
+   positive metric variation;
+2. same-carrier adjoint admission for the selected zoom bill \(a_Q\), with every
+   collar, reselection, reset, endpoint, and legal mismatch placed in \(e_Q\);
+3. positive-metric-variation Bessel packing for the parent stress-current
+   detectors, with replay counted only as fresh detector innovation or positive
+   parent-record variation;
+4. actual stopped selector capture: a counted child bill must be a
+   parent-subtracted first-exit increment, parent-bundled dust, stopped/legal
+   loss, or same-witness endpoint-face material;
+5. terminal full-packet no-atom storage for \(\Phi_P\), equivalently `(318)'--`(320)'
+   or the time-thickness form `(654)';
+6. if the terminal no-atom producer fails, same-witness endpoint-face admission
+   must consume that failure as a CM branch rather than counting it as Gold
+   closure.
+
+Items 1--4 are support in the current file after the active graph kernel audit.
+Item 5 is the remaining Gold producer.  Item 6 is the only lawful fallback for
+failure of item 5.
+
+Now pressure-test the last possible positive mechanism.  Suppose a fixed-core
+terminal atom survives:
+
+\[
+\limsup_{\rho\downarrow0}\sup_{z_0}
+\mu_P^{end}(T_\rho(z_0))\ge \eta>0 .
+\tag{323}
+\]
+
+A genuine no-waste proof must construct a root-fixed same-parent full-packet
+functional \(\mathcal L_P\), not a child-renormalized storage, with
+
+\[
+-d\mathcal L_P
+\ge
+c\,d\mu_P^{end}
+-d\lambda_P ,
+\qquad
+\lim_{\rho\downarrow0}\sup_{z_0}\lambda_P(T_\rho(z_0))=0,
+\tag{324}
+\]
+
+and the drops must be nonresettable on the original terminal layer stack:
+
+\[
+\sum_j
+\big[\mathcal L_P(t_j^-)-\mathcal L_P(t_j^+)\big]_+
+\le
+\mathcal L_P(t_0)-\inf\mathcal L_P
++R_{\rm legal}(P)+Stop(P)+E_{\rm paid}(P).
+\tag{325}
+\]
+
+Then `(323)` cannot occur for infinitely many retained selected terminal layers:
+each retained atom forces a fixed root-parent drop by `(324)`, while `(325)`
+allows only finite total drop.
+
+The same argument fails if the storage is rebuilt after zooming to each child:
+
+\[
+-d\mathcal L_Q
+\ge
+c\,d\mu_Q^{end}
+-d\lambda_Q .
+\tag{326}
+\]
+
+In `(326)` the same fixed terminal pulse can be paid once in each child
+coordinate without a single original-history functional seeing the sum of the
+drops.  That is exactly the old reset/rebase alias in no-waste language.
+
+Paid line:
+
+\[
+\text{root-fixed full-packet descent `(324)' + nonresettable layer accounting `(325)'}
+\Longrightarrow
+\text{terminal no-atom `(318)'--`(320)'.}
+\tag{327}
+\]
+
+Unproved line:
+
+\[
+\text{construct \(\mathcal L_P\) satisfying `(324)'--`(325)' from the coupled
+pressure--viscosity--incompressibility packet, or route `(323)' into the
+same-witness endpoint face.}
+\tag{328}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It attacks the terminal atom `(323)`,
+  not active graph coercivity, scalar endpoint mass, or finite reserve.
+- Did this prove smoothness? No.  It proves that a real no-waste proof must be
+  root-fixed and nonresettable; child-normalized Lyapunov drops only rename the
+  hinge.
+- What does it mean physically? The same material packet may not spend the same
+  terminal drop again after every zoom.  Either one parent history records the
+  cumulative loss, or the terminal atom is a same-witness endpoint failure.
+- Is this the full coupled packet or a scalar proxy? Full packet only if
+  \(\mathcal L_P\) is built before endpoint positive-part extraction from the
+  pressure, viscosity, incompressibility, strain, active pressure quotient,
+  selector, collar, and legal channels together.
+- Is this already handled in the repo? The consumer implication `(327)` is
+  standard from `(324)`--`(325)`.  The construction of the root-fixed
+  \(\mathcal L_P\) is not installed.
+- Did this create another alias? No.  It rejects the bounded-below-storage
+  alias unless the storage is original-history, full-packet, and nonresettable
+  across terminal layers.
+
+## 45. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
