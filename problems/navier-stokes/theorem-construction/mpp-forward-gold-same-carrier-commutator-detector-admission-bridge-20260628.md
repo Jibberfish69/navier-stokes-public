@@ -13,6 +13,8 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-dyadic-triad-exhaustion-hinge-attempt-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-dimensional-schur-motion-payment-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-adjoint-bessel-packing-under-parent-subtracted-novelty-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-low-high-high-material-adjoint-lift-split-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-high-bilinear-stress-parent-adjoint-lift-pressure-test-20260628.md
 completion_truth: partial; exact commutator admission theorem still open
 ---
 
@@ -244,17 +246,26 @@ T_{k\ell m}^+
 
 The low-high branch supplies the motion term by the commutator/cotangent-flow
 calculation above. Parent-subtracted novelty supplies the Bessel term once the
-triad has a legal parent representative. The high-low and high-high branches
-remain open precisely at the material adjoint lift: producing that parent-built
-representative and proving its inherited/fresh/motion split without using the
-future selected child value.
+triad has a legal parent representative. The high-low branch is reduced to a
+parent-low coefficient lift plus Leray/Hodge parent adjoint legality. The
+high-high branch is now sharpened to parent admission of the same-scale
+bilinear stress source
+
+\[
+B_{k\ell m}
+=
+\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u_k\otimes u_\ell).
+\]
+
+The remaining open act is producing that parent-built representative and proving
+its inherited/fresh/motion split without using the future selected child value.
 
 ## 7. Current conclusion
 
 The proof route has narrowed to one live obstruction:
 
 \[
-\text{Eulerian positive commutator triad}
+\text{same-scale bilinear stress source}
 \longrightarrow
 \text{parent-known same-carrier adjoint detector}.
 \]
