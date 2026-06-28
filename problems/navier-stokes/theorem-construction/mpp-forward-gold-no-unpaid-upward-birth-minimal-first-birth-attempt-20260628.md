@@ -1253,7 +1253,136 @@ The live producer has sharpened from `(59)`--`(60)` to the following fork:
 This is still not Gold closure.  It is the smallest current form of the
 noncircular positive-flux reserve.
 
-## 18. Truth ledger
+## 18. Terminal angular mixing pressure test
+
+The first branch of `(70)` is only a proof branch if it beats the
+neutral-transverse packet.  For a high packet carried by the low band, the
+WKB-level same-material equations have the form
+
+\[
+D_t\xi=-(\nabla u_{<j}^{loc})^T\xi,
+\qquad
+D_t\log|\xi|=-\widehat\xi\cdot S_{<j}^{loc}\widehat\xi
++\operatorname{Err}_{legal},
+\tag{71}
+\]
+
+and the selected amplitude feels
+
+\[
+D_t|a|^2
+=
+2\,a\cdot S_{<j}^{loc}a
+-2\nu|\xi|^2|a|^2
++\operatorname{Err}_{legal}.
+\tag{72}
+\]
+
+The desired angular-mixing payment would be
+
+\[
+\int |a|^2[\widehat a\cdot S_{<j}^{loc}\widehat a]_+
+\lesssim
+\int \nu|\xi|^2|a|^2
++\text{parent/legal/frame payment}.
+\tag{73}
+\]
+
+Trace-free strain and same-fluid transport do not prove `(73)`.  The local
+pressure-compatible affine normal form
+
+\[
+S=\lambda\,\operatorname{diag}(1,0,-1),
+\qquad
+\widehat a=e_1,
+\qquad
+\widehat\xi=e_2,
+\qquad
+a\perp\xi,
+\qquad \lambda>0,
+\tag{74}
+\]
+
+has positive selected stretching but no selected wavevector compression:
+
+\[
+[\widehat a\cdot S\widehat a]_+=\lambda,
+\qquad
+-\widehat\xi\cdot S\widehat\xi=0.
+\tag{75}
+\]
+
+This is not a Navier--Stokes counterexample.  It is a countermodel to the proof
+mechanism that tries to get terminal angular mixing from incompressibility,
+same-fluid transport, or selected-frequency drain alone.  The affine low field
+can be supported locally by the pressure; the positive high-packet source can
+ride a neutral transverse wavevector.
+
+The paid line is the complete-frame identity.  With
+\(n=\widehat a\times\widehat\xi\),
+
+\[
+[\widehat a\cdot S\widehat a]_+
+\le
+[-\widehat\xi\cdot S\widehat\xi]_+
++[-n\cdot S n]_+ .
+\tag{76}
+\]
+
+On one material ancestry line, `(76)` and the frame/deformation tax give
+
+\[
+\int_I |a|^2[\widehat a\cdot S\widehat a]_+
+\lesssim
+\operatorname{Var}_I\log|F\widehat\xi|
++\operatorname{Var}_I\log|Fn|
++\operatorname{Var}_I(\widehat\xi)
++\operatorname{Var}_I(n)
++R_{legal}.
+\tag{77}
+\]
+
+The exact unpaid line is the selected-forest lift
+
+\[
+\sum_{P\in\mathcal F_N}
+\int_{Q(P)}
+|w_{j_P}|^2
+[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}]_+
+\,dxdt
+\le
+C\rho_{inst,N}(\mathcal F_N)+o_N(1)
+\tag{78}
+\]
+
+from the complete-frame deformation payment, without replacing the root
+reserve by descendant-tail storage.  In the normal form `(74)`, the cost sits
+in the hidden transverse direction \(n=e_3\), not in the selected frequency
+direction \(\widehat\xi=e_2\).  Thus terminal angular mixing is real only if it
+proves that this hidden transverse Cauchy--Green cost is summable in the
+selected ancestry forest, or else that nonsummability produces the positive
+active Carleson reserve or a rigid Zeno source class.
+
+Thomas-dialogue verdict:
+
+- Did this prove smoothness? No.  It disproves a tempting proof mechanism and
+  isolates the missing branch.
+- What is the physical meaning? A packet can be stretched by an expanding
+  strain direction while its own wavevector is neutral; the payment is pushed
+  into the completing Hodge direction.
+- Is this the full coupled packet? It is a coupled pressure-strain-Hodge packet
+  pressure test, but it still needs the selected-forest lift to become a
+  theorem.
+- What is already paid? Single ancestry-line complete-frame deformation tax.
+- What is unproved? Global summability or rigidity of the hidden transverse
+  Cauchy--Green payment on the selected terminal forest.
+- What stronger insight did failure reveal? `TerminalAngularMixing.A` is not
+  an angular-mixing slogan.  It is a neutral-transverse alignment exclusion:
+  persistent selected stretching with neutral selected frequency must either
+  spend summable complete-frame deformation, create positive active reserve, or
+  collapse into a rigid Zeno residue class.
+
+## 19. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
