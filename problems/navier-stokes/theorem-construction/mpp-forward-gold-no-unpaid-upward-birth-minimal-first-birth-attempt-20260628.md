@@ -4015,7 +4015,11 @@ super-\(L^1\)/absorption inside the same endpoint packet.  The order-lock
 overlap audit `(217)`--`(230)` then splits the exact channel-first overlap:
 ordinary partner channels are paid or typed, while the surviving terminal faces
 are retained annular-return no-pulse `(227)` and terminal donor realization/no-
-Zeno `(228)`.
+Zeno `(228)`.  The no-free-zoom return audit `(231)`--`(239)` folds those two
+faces back into the supplied duality-and-packing packet: the terminal bill
+`(232)` must be admitted by parent-built active Hodge--Stokes detectors and
+Bessel-packed by the parent stress-current capacity with positive material
+variation.
 
 Conditional relay: proving the positive storage-trace anti-atom `(190)` by the
 order-locked endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)` supplies
@@ -4040,7 +4044,10 @@ action, full same-material clock, and continuation.
 The order-lock producer itself now relays through `(217)`--`(230)`: once the
 overlap is paid by oriented four-body channels plus terminal annular-return
 no-pulse and terminal donor realization/no-Zeno, the order-locked density enters
-the endpoint super-\(L^1\)/Hardy line.
+the endpoint super-\(L^1\)/Hardy line.  The duality-and-packing return audit
+`(231)`--`(239)` identifies the proof mechanism for those two terminal clauses:
+they must be detector-packable by the same parent stress current, with positive
+material variation counted before selected readout.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
@@ -4112,7 +4119,9 @@ activity only through true loss, retained negative current plus storage-jump
 consumption, or legal residual `(221)`--`(222)`.  The time/storage overlap
 survives as `(223)`--`(224)` until the annular return record has a terminal
 modulus `(227)`; the terminal donor chain survives until same-packet
-realization/no-Zeno `(228)` is proved or consumed by CM.
+realization/no-Zeno `(228)` is proved or consumed by CM.  Treating `(227)` and
+`(228)` as detached endpoint lemmas also fails: the current route requires
+their combined terminal bill `(232)` to be admitted and packed by `(234)`--`(235)`.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -4167,8 +4176,9 @@ density, harmonic pressure service, residue density/absorption, and no
 channel-first overlap pulse.  After the overlap audit, the channel-first pulse
 is equivalent to retained annular-return no-pulse `(227)` plus terminal donor
 realization/no-Zeno `(228)`, with ordinary overlap channels paid or typed.
-Failure of that upgrade is not another Gold producer, but the same-witness CM
-endpoint-face branch `(196)`.
+After the no-free-zoom return audit, `(227)` and `(228)` are equivalent to the
+single terminal detector-packing statement `(234)`--`(235)` for the bill `(232)`.
+Failure of that upgrade is the same-witness CM endpoint-face branch `(196)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
