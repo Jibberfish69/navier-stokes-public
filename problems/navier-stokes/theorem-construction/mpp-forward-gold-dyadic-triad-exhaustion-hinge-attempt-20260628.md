@@ -149,4 +149,10 @@ The next theorem target is therefore:
 \boxed{\text{same-carrier commutator detector admission for positive }H^{1/2}\text{ triads}.}
 \]
 
+The first bridge attempt is now recorded in
+`mpp-forward-gold-same-carrier-commutator-detector-admission-bridge-20260628.md`.
+It proves the low-high branch as a detector-motion term and leaves high-low /
+high-high interactions open exactly at the material adjoint lift and
+parent-subtracted novelty bound.
+
 That target is sharper than the previous positive-transfer statement. It names the exact object required to connect the abstract Schur and Bessel lemmas to the Navier-Stokes nonlinearity.
