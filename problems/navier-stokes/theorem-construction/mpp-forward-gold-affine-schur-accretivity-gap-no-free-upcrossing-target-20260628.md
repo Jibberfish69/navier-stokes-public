@@ -1970,3 +1970,91 @@ from the full pressure-viscosity-incompressibility-velocity packet.}
 
 Partial, not Gold closed. The current sharp producer is selected root-capacity
 exponent lift `(122)`--`(124)`.
+
+## 20. Exponent lift means stopped log-density square function
+
+The phrase "selected root-capacity exponent lift" is still only a label until
+the selected root density has a parent-known stopped logarithmic increment
+equation.  Let
+
+\[
+\mu_{\rm root}^{sel}(Q)=\omega_Q^{ret},
+\qquad
+\mathcal R_{\rm root}(Q)
+=
+\int_{\operatorname{Hist}(Q)}w|G_{\rm root}^{new}|^2
++R_{\rm legal}(Q)+Stop(Q),
+\tag{128}
+\]
+
+and set \(f_{\rm root}=d\mu_{\rm root}^{sel}/d\mathcal R_{\rm root}\).  The
+needed exponent lift is
+
+\[
+\sup_{P'\subset P}
+{1\over \mathcal R_{\rm root}(P')}
+\int_{P'}f_{\rm root}^{1+\varepsilon}\,d\mathcal R_{\rm root}
+\le C_N(u_0),
+\qquad \varepsilon>0.
+\tag{129}
+\]
+
+This follows by the stopped John--Nirenberg/Gehring consumer only after the
+original packet supplies
+
+\[
+\Delta_Q\log f_{\rm root}
+=
+\ell_Q(\Delta_QZ_{\rm root})
+-\psi_Q+e_Q+\Delta_Q^{lab},
+\qquad \|\ell_Q\|\le C,
+\tag{130}
+\]
+
+and
+
+\[
+\sup_{P'\subset P}
+{1\over \mathcal R_{\rm root}(P')}
+\sum_{Q\subset P'}
+\left(
+\|\Delta_QZ_{\rm root}\|_{\mathcal H_P}^2
++|e_Q|^2
++|\Delta_Q^{lab}|^2
+\right)\mathcal R_{\rm root}(Q)
+\le C_N(u_0)+R_{\rm legal}(P')+Stop(P').
+\tag{131}
+\]
+
+Here \(Z_{\rm root}\) must be the parent material source carrier: routed
+current, active pressure-Hodge quotient, visible/silent exchange, material
+metric variation, collar/covector/connection, viscosity, legal, and stop.  A
+carrier defined from descendant selected density is circular; raw root \(L^2\)
+capacity misses the exponent gap.
+
+Thus the current producer is
+
+\[
+\text{prove the parent-known stopped source-carrier log-density square function
+`(130)'--`(131)' for the actual selected root density.}
+\tag{132}
+\]
+
+If `(131)` fails on a fixed ancestry line, the original root reserve fails
+directly.  If `(131)` holds while `(129)` fails after paid label motion is
+removed, the survivor is the shrinking-core terminal atom of the same root
+history:
+
+\[
+\limsup_{\rho\downarrow0}
+{\mu_{\rm root}^{sel}(T_\rho(z_0))
+\over
+\mathcal R_{\rm root}(T_\rho(z_0))}
+=\infty .
+\tag{133}
+\]
+
+That is the endpoint time-thickness/no-atom wall in root-density language.
+
+Partial, not Gold closed. The current sharp producer is `(132)`, with failure
+of `(129)` routed to same-witness endpoint admission of `(133)`.
