@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: fixed-core-critical-no-residue-trace-storage-open
+status: terminal-storage-trace-hardy-or-cm-endpoint-face-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
