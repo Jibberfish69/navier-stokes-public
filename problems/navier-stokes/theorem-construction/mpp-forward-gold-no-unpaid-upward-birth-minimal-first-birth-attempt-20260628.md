@@ -4569,7 +4569,15 @@ record variation before it can count as new selected capacity.
 The record-variation admission audit `(250)`--`(260)` then shows that even
 positive record variation is only square payment until retained terminal events
 have selected inverse-weight admission `(254)` or inverse-weight packing
-`(256)`.
+`(256)`.  The same-carrier duality-and-packing audit `(261)`--`(277)` then
+installs the supplied proof shape explicitly: \(D_Q=(S,\Pi_Q\nabla^2p)\) is
+seen by the parent stress current, same-carrier adjoint admission gives the
+selected zoom bill once the detector sees it, positive metric variation
+Bessel-packs the detector capacities, and the high-normalized terminal branch
+is paid by `(271)`.  The remaining unproved support line is the stopped
+selector gate `(274)`: low-normalized terminal dust must be bundled, stopped,
+legal, or consumed by the endpoint face rather than retained as a new selected
+bill.
 
 Conditional relay: proving the positive storage-trace anti-atom `(190)` by the
 order-locked endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)` supplies
@@ -4604,6 +4612,9 @@ to fresh detector innovation or positive parent-record variation.  The
 record-variation audit `(250)`--`(260)` sharpens this again: parent-record
 variation pays harmonic square increments, and the live terminal admission line
 is the conversion of those square increments into the positive endpoint bill.
+The normalized selector audit `(261)`--`(277)` supplies that conversion on the
+high branch and proves that the open line is exactly low-dust exclusion by
+`(274)`.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
@@ -4683,7 +4694,9 @@ repeated inherited detectors `(243)`--`(244)`; the live form is the linearized
 no-replay currency `(245)`--`(247)`.  Treating record variation itself as
 linear terminal payment also fails: `(252)` is a square estimate, and `(253)`
 shows that square summability alone does not exclude infinite positive terminal
-bill.
+bill.  Treating retained selection as an automatic inverse-weight lower bound
+also fails: `(273)` gives finite square record payment with infinite positive
+terminal bill on the low-normalized dust branch.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -4745,7 +4758,10 @@ no-replay linearized terminal packing `(246)`--`(247)`: every counted terminal
 bill must be fresh detector innovation or positive parent-record variation.
 After the record-variation admission audit, `(246)`--`(247)` is equivalent to
 harmonic square record payment `(252)` plus selected inverse-weight admission
-`(254)` or inverse-weight packing `(256)` for retained terminal events.
+`(254)` or inverse-weight packing `(256)` for retained terminal events.  After
+the normalized selector audit, that fork is equivalent to the stopped terminal
+gate `(274)`: every retained terminal event is high-normalized, parent-bundled,
+stopped/legal, or same-witness endpoint-face consumed.
 Failure of that upgrade is the same-witness CM endpoint-face branch `(196)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
@@ -4761,8 +4777,9 @@ Hodge--Stokes/positive-metric quotient capacity \(\mathfrak C_{P,act}^{HS}\)
 with parent-announced \(\mathcal N^{act}\), \(\mathcal P^{act}\), \(H_{e^-}\),
 and connection \(\nabla^P\), then prove the terminal no-replay detector
 admission and record-variation packing `(246)`--`(247)` for the bill `(232)`,
-with the square-to-linear terminal admission `(254)` or `(256)` supplied by
-`(250)`--`(260)`.  That supplies `(234)`--`(235)`, the
+with the square-to-linear terminal admission supplied by the normalized stopped
+selector gate `(274)`, refining `(254)`/`(256)` through `(269)`--`(275)`.  That
+supplies `(234)`--`(235)`, the
 order-lock overlap terminal branch `(217)`--`(230)`, the order-locked full
 endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)`, `(192)`--`(194)`,
 fixed-core no-residue trace storage `(184)`--`(185)`, the terminal anti-atom
