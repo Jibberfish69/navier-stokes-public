@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-finite-state-no-free-upcrossing-20260627
-status: synthesis-reduces-root-upper-bound-to-affine-schur-no-free-upcrossing
+status: synthesis-corrected-to-affine-schur-identity-accretivity-gap-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected unit novelty / affine quotient root reserve
@@ -24,10 +24,12 @@ effect: >-
   Synthesizes the current fresh-root wall into a finite-state no-free-upcrossing
   theorem. The lower-triangular scale-memory split leaves only a two-affine-moment
   quotient. The active selected weight is inverse Gram geometry for that two-moment
-  block. Therefore infinite selected first-birth units with finite raw stress can
-  persist only by unbounded Schur records, negative return of the same affine
-  potential, or inverse-Gram/route-geometry variation. This is a sharper producer
-  target than raw root reserve. Partial, not Gold closed.
+  block. The original packet gives the affine Schur identity, but the finite
+  no-free-upcrossing inequality still requires selected positive production to
+  be accretive against the Schur gradient. Infinite selected first-birth units
+  with finite raw stress can still hide in orthogonal new affine directions
+  unless the Schur record, negative return, and inverse-Gram route variation are
+  bounded from original data. Partial, not Gold closed.
 ---
 
 # Affine Schur finite-state no-free-upcrossing
@@ -143,7 +145,18 @@ D_t\mathsf G_J
 \tag{8}
 \]
 
-Then completing the square in `(6)` gives the finite-state upcrossing inequality
+The finite-state upcrossing inequality would follow from `(6)` only under the
+accretive lower bound
+
+\[
+H_w\|c_{\theta,J}^{+}\|_{L_x^2}^2
+\lesssim
+\langle \mathsf G_J^{-1}m_J,p_J\rangle_+
++dR_{legal,J}+dStop_J .
+\tag{9}
+\]
+
+Under `(9)`, the structural inequality is
 
 \[
 dA_J^{+}
@@ -152,7 +165,7 @@ C\,d\mathfrak S_J^{+}
 +C\,dA_J^{-}
 +C\,\mathfrak S_J\,d\mathcal K_J
 +dR_{legal,J}+dStop_J ,
-\tag{9}
+\tag{10}
 \]
 
 where
@@ -161,7 +174,7 @@ where
 dA_J^{+}:=H_w\|c_{\theta,J}^{+}\|_{L_x^2}^2\,dt,
 \qquad
 dA_J^{-}:=H_w\|c_{\theta,J}^{-}\|_{L_x^2}^2\,dt,
-\tag{10}
+\tag{11}
 \]
 
 and
@@ -170,12 +183,14 @@ and
 d\mathcal K_J
 :=
 \|\mathsf G_J^{-1/2}d\mathsf G_J\mathsf G_J^{-1/2}\|_{\rm op,+}.
-\tag{11}
+\tag{12}
 \]
 
-This is the useful algebraic fact: selected positive affine quotient growth is
-not free.  It is Schur-record growth, negative return of the same affine
-potential, or inverse-Gram motion of the stopped route geometry.
+The useful algebraic fact is therefore conditional: selected positive affine
+quotient growth is Schur-record growth, negative return of the same affine
+potential, or inverse-Gram motion of the stopped route geometry only after the
+accretive lower bound `(9)` is proved. The original packet gives the signed
+pairing in `(6)`; it does not by itself force `(9)`.
 
 ## 3. The no-free-upcrossing theorem
 
@@ -192,10 +207,10 @@ removed,
 \le
 C_N(u_0)\mathcal R(P)
 +R_{legal}(P)+Stop(P).
-\tag{12}
+\tag{13}
 \]
 
-By `(9)`, it is enough to prove the root storage side
+By `(9)`--`(10)`, it is enough to prove the root storage side
 
 \[
 \sum_{J\subset P}\sup_t\mathfrak S_J(t)
@@ -205,7 +220,7 @@ By `(9)`, it is enough to prove the root storage side
 \sum_{J\subset P}\int \mathfrak S_J\,d\mathcal K_J
 \le
 C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P).
-\tag{13}
+\tag{14}
 \]
 
 This is more specific than `FreshNativeRootUpperBound.A`.  It identifies exactly
@@ -223,7 +238,7 @@ The raw half-tail has
 \sum_\ell \|F_\ell\|_{\mathcal H_{raw}}^2<\infty,
 \qquad
 \sum_\ell W_\ell\|F_\ell\|_{\mathcal H_{raw}}^2=\infty .
-\tag{14}
+\tag{15}
 \]
 
 In the old formulation \(W_\ell\) was an external selected weight, so raw Bessel
@@ -239,13 +254,14 @@ raw stress must force one of the following in the original material history:
 \sum_\ell\int dA_{J_\ell}^{-}=\infty,
 \qquad
 \sum_\ell\int\mathfrak S_{J_\ell}\,d\mathcal K_{J_\ell}=\infty .
-\tag{15}
+\tag{16}
 \]
 
 This is the sharper physical statement: the same material packet cannot keep
 creating unit selected affine quotient births unless the affine moment record
 grows, the packet returns negatively to reset that record, or the stopped route
-metric moves.
+metric moves, provided the selected positive production has the accretive
+coupling `(9)` to the current Schur record.
 
 ## 5. Relation to the existing branches
 
@@ -285,8 +301,9 @@ AffineSchurFiniteStateNoFreeUpcrossing.A
   => finite full same-material clock.
 ```
 
-It does not prove `(13)` from Navier-Stokes.  The new proof-bearing target is the
-root bound for the affine Schur storage, negative return, and inverse-Gram
-geometry variation of the same stopped participation current.
+It does not prove `(9)` or `(14)` from Navier-Stokes. The proof-bearing target is
+the accretive lower bound plus the root bound for the affine Schur storage,
+negative return, and inverse-Gram geometry variation of the same stopped
+participation current.
 
 Partial, not Gold closed.
