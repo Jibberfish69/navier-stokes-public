@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-predictable-high-high-detector-net-obstruction-20260628
-status: raw-predictable-net-fails; reduces-to-same-carrier-wave-packet-frame-with-finite-residence
+status: raw-predictable-net-fails; superseded-by-full-output-or-two-point-current-choice
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur accretivity edge
@@ -8,16 +8,29 @@ supports:
   - AffineSchurAccretivityGap.A
   - PositiveCriticalTransferDyadicFluxReduction.A
   - HighHighBilinearStressMaterialAdjointLiftAttempt.A
-completion_truth: predictable high-high detector admission not proved; raw version is false without finite parent wave-packet frame/residence
+source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-high-parent-current-admission-identity-attempt-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-high-full-output-stress-repo-wide-repair-20260628.md
+completion_truth: raw predictable input-coloured detector admission not proved; one-point route now uses full output-local stress, while input-coloured triads require a two-point parent-current frame
 ---
 
 # Predictable high-high detector net obstruction
 
+Supersession note. This note correctly shows that a post-child raw output net is
+not a free payment mechanism. Its input-coloured high-high target is not a
+one-point parent-current object. The replacement is now typed by carrier:
+full-output stress for the one-point route, or a two-point/product-carrier
+frame for retained input-coloured triads.
+
 ## 1. Target
 
-The previous high-high note reduced the remaining branch to a predictable detector admission theorem. For same-scale high-high positive transfer, the desired theorem was:
+The previous high-high note reduced the remaining branch to a predictable
+detector admission theorem. For input-coloured same-scale high-high positive
+transfer, the old desired theorem was:
 
-For each retained positive high-high triad output witness, there exists a parent-predictable material adjoint detector \(\psi_i^P\), chosen before child readout from a bounded-entropy parent frame, such that
+For each retained positive high-high triad output witness, there exists a
+parent-predictable material adjoint detector \(\psi_i^P\), chosen before child
+readout from a bounded-entropy parent frame, such that
 
 \[
 T_{HH,k\ell m}^+
