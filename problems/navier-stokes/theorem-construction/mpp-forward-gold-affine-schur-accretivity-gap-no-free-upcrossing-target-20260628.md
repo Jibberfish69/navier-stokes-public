@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: selected-root-capacity-exponent-lift-open
+status: same-carrier-high-high-admission-update-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -69,10 +69,12 @@ effect: >-
   questions are motion/legal/stop/endpoint, and fixed-core replay is admissible
   only through the parent-known harmonic return score. The retained lower edge
   is therefore a stopped-selector admission rule, not an independent PDE
-  estimate. The current open producer is the original-data selected root
-  capacity / exponent-lift bound for that harmonic root score; after it, the
-  Schur-thin gate gives finite original-data control of the Schur record,
-  negative return, and inverse-Gram route variation.
+  estimate. The live wall remains same-carrier high-high admission/update:
+  each positive high-high dyadic transfer must be admitted into the paid
+  same-carrier parent current, or routed to return, motion, viscosity, legal,
+  stop, or the same-witness endpoint face. The selected root-capacity and
+  stopped log-density square-function passages are mechanism attempts under
+  that wall; they do not replace it.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
@@ -1905,9 +1907,10 @@ G_{\rm root}^{new}
 \tag{121}
 \]
 
-Thus the true PDE producer is not "lower edge plus root reserve" as two
-unrelated doors.  The lower edge is the nonanticipatory admission rule, and the
-remaining theorem is the selected root-capacity bound
+Thus this mechanism attempt is not "lower edge plus root reserve" as two
+unrelated doors.  The lower edge is the nonanticipatory admission rule, and one
+possible route to the admission/update theorem is the selected root-capacity
+bound
 
 \[
 \int_{\operatorname{Hist}(P)}
@@ -1960,7 +1963,7 @@ Failed line:
 \tag{126}
 \]
 
-Current unproved line:
+Current unproved line inside this mechanism branch:
 
 \[
 \text{prove the parent-known selected root-capacity exponent lift `(122)'--`(124)'
@@ -1968,8 +1971,9 @@ from the full pressure-viscosity-incompressibility-velocity packet.}
 \tag{127}
 \]
 
-Partial, not Gold closed. The current sharp producer is selected root-capacity
-exponent lift `(122)`--`(124)`.
+Partial, not Gold closed. The live wall remains same-carrier high-high
+admission/update; selected root-capacity exponent lift `(122)`--`(124)` is a
+candidate mechanism under that wall.
 
 ## 20. Exponent lift means stopped log-density square function
 
@@ -2032,7 +2036,7 @@ metric variation, collar/covector/connection, viscosity, legal, and stop.  A
 carrier defined from descendant selected density is circular; raw root \(L^2\)
 capacity misses the exponent gap.
 
-Thus the current producer is
+Thus the current candidate mechanism under admission/update is
 
 \[
 \text{prove the parent-known stopped source-carrier log-density square function
@@ -2056,5 +2060,7 @@ history:
 
 That is the endpoint time-thickness/no-atom wall in root-density language.
 
-Partial, not Gold closed. The current sharp producer is `(132)`, with failure
-of `(129)` routed to same-witness endpoint admission of `(133)`.
+Partial, not Gold closed. The live wall remains same-carrier high-high
+admission/update. The stopped source-carrier log-density square function
+`(132)` is a candidate mechanism for that admission; failure of `(129)` routes
+to same-witness endpoint admission of `(133)`.
