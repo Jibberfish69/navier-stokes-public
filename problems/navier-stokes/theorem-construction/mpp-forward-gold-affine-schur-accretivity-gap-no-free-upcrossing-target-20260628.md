@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: full-output-upcrossing-viscous-margin-open
+status: full-output-material-state-storage-capacity-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -2506,3 +2506,87 @@ Thomas-dialogue audit:
 
 Partial, not Gold closed.  The strict producer is now the bounded-below
 full-output critical Bellman/upcrossing law `(160)`--`(161)`.
+
+## 25. The upcrossing storage must have independent material capacity
+
+The Bellman/upcrossing law in Section 24 is still incomplete until the storage
+is built from a finite same-material state.  A scalar storage made only from
+the critical energy and the current primitive repeats the target estimate.
+
+The closure requirements are:
+
+1. the selector is the net full-output \(B^{crit}\);
+2. positive retained reads update the paid parent current or route to fresh,
+   Schur, motion, return, legal, stop, or endpoint payment;
+3. \(\mathcal U_P\) has a lower bound from original-data material capacity;
+4. the inequality leaves a strict \(\theta<1\) viscous margin;
+5. every singularity-forcing retained history is captured by the same
+   full-output material state or by one of the paid routes.
+
+The scalar no-go is direct.  Let \(\mathcal U_P=F(E_c,q_{\rm pc})\).  In a
+sustained-refuel stress test,
+
+\[
+dE_c=0,
+\qquad
+dq_{\rm pc}=\nu D_c\,dt>0,
+\tag{164}
+\]
+
+with no motion, return, legal, stop, or endpoint payment.  The desired
+upcrossing inequality `(160)` forces
+
+\[
+-dF(E_c,q_{\rm pc})
+\ge
+(1-\theta)\nu D_c\,dt .
+\tag{165}
+\]
+
+If \(F\) does not decrease along \(q_{\rm pc}\), `(165)` fails.  If it does
+decrease along \(q_{\rm pc}\), then the lower bound for \(F\) is precisely an
+upper bound for the positive current accumulation:
+
+\[
+q_{\rm pc}(T)-q_{\rm pc}(0)
+\lesssim
+F(E_c(0),q_{\rm pc}(0))-\inf F .
+\tag{166}
+\]
+
+That is the missing estimate, not a proof of it.
+
+So the surviving affine object is not a scalar Bellman.  It must be
+
+\[
+\mathcal U_P=\mathcal U_P(\mathfrak M_P),
+\qquad
+\mathfrak M_P=(m,G,\text{paid frame},\text{carrier metric},\text{stopped route
+state}),
+\tag{167}
+\]
+
+with
+
+\[
+[dq_{\rm pc}]_+
+\le
+-d\mathcal U_P(\mathfrak M_P)
+dFresh+dSchur+dMotion+dReturn+\theta\nu D_c\,dt+dLegal+dStop+dEnd,
+\tag{168}
+\]
+
+\[
+\mathcal U_P(\mathfrak M_P(t))
+\ge
+-C_N(u_0)-R_{\rm legal}-Stop,
+\tag{169}
+\]
+
+and \(\mathfrak M_P\) transported and updated by the original coupled packet
+before selected readout.
+
+Partial, not Gold closed.  The live producer is finite-capacity same-material
+state storage `(167)`--`(169)`, not a scalar current Bellman.  The scalar
+current version either fails sustained refuel or hides the desired positive
+transfer bound inside its lower bound.
