@@ -22,6 +22,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-installed-support-axioms-half-tail-model-no-go-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-shell-transfer-reservoir-identity-and-rectified-recirculation-test-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-direct-full-clock-original-history-attempt-20260625.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-positive-transfer-reduction-20260628.md
 ---
 
 # Forward-native reserve birth-packing direct test
@@ -141,6 +142,40 @@ and
 C_N(u_0)\mathcal R(P)+R_{\rm legal}(P).
 \tag{7}
 ```
+
+The finite reserve in `(7)` is not raw viscous energy.  In physical fractional
+energy form, it contains the scale-native reserve
+
+```math
+\mathfrak R_{\rm nat}(T)
+\simeq
+\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt .
+\tag{7a}
+```
+
+Testing the Leray-projected coupled equation against \(\Lambda u\) shows that
+`(7a)` is finite after the positive nonlinear transfer satisfies
+
+```math
+\int_0^T
+\left(
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C(u_0)
++
+\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt,
+\qquad
+\theta<1 .
+\tag{7b}
+```
+
+The standard estimate gives `(7b)` only in the small critical-packet regime.
+For arbitrary data, `(7b)` is the same open native-birth packing problem in
+critical-transfer form.
 
 Equations `(5)`-`(7)` imply
 
