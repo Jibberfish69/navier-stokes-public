@@ -5097,7 +5097,11 @@ PDE line is actual-selector first-exit capture `(287)`.  The
 parent-subtracted replay audit `(291)`--`(300)` then rejects ordinary
 Lipschitz/no-loss stability as a proof of `(287)`: level stability controls
 changes in selected action, while Gold needs the actual selected bill to be a
-fresh parent-subtracted increment `(295)`.
+fresh parent-subtracted increment `(295)`.  The zero-increment pressure test
+`(301)`--`(310)` then shows that parent-subtracted algebra and stopped
+projection reduce any remaining failure of `(295)` to a positive selected
+critical packet in the active Hodge--Stokes graph kernel `(307)`.  The live
+unproved line is active graph coercivity `(305)`--`(308)`.
 
 Conditional relay: proving the positive storage-trace anti-atom `(190)` by the
 order-locked endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)` supplies
@@ -5140,7 +5144,10 @@ the actual selected packet's first exit from the parent active capacity ball.
 The parent-subtracted replay audit `(291)`--`(300)` refines that again: the
 actual selected packet must be replaceable by the increment `(294)` before its
 positive level is charged, with non-incremental replay bundled or consumed by
-the same-witness endpoint face.
+the same-witness endpoint face.  The zero-increment pressure test
+`(301)`--`(310)` then gives the relay criterion for that replacement: prove the
+active graph has no positive selected critical null packet after
+parent-announced quotienting.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
@@ -5230,6 +5237,10 @@ action.  Ordinary Lipschitz/no-loss stability of the selected level functional
 also fails as the proof of `(287)`: `(292)`--`(293)` shows that a repeated
 inherited positive level can have finite parent-distance variation and infinite
 selected bill unless the selector counts only the parent-subtracted increment.
+Parent-subtracted quotient algebra alone also fails as a closure proof: it
+kills replay current, but `(301)`--`(307)` shows that the remaining possible
+failure is a positive critical packet in the active graph kernel.  That is a
+coercivity problem for the full coupled packet, not another QR/Bessel theorem.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -5299,7 +5310,11 @@ first-exit audit, `(274)` is equivalent to actual-selector first-exit capture
 `(287)` / `(290)` in the parent active Hodge--Stokes capacity metric.  After
 the parent-subtracted replay audit, `(287)` is equivalent to actual stopped
 selector replacement by the fresh increment `(294)`--`(295)`: replay of an
-inherited positive level is not a new selected action.
+inherited positive level is not a new selected action.  After the
+zero-increment pressure test, `(295)` is equivalent to active Hodge--Stokes
+graph coercivity `(305)`--`(308)` on retained parent-announced charts: no
+positive selected critical packet may lie in the graph kernel after the
+zero-stretch pressure null space is quotiented.
 Failure of that upgrade is the same-witness CM endpoint-face branch `(196)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
@@ -5317,8 +5332,9 @@ and connection \(\nabla^P\), then prove the terminal no-replay detector
 admission and record-variation packing `(246)`--`(247)` for the bill `(232)`,
 with the square-to-linear terminal admission supplied by actual-selector
 first-exit capture `(287)` / `(290)`, now sharpened to parent-subtracted
-selector capture `(294)`--`(300)`, refining `(254)`/`(256)` through
-`(269)`--`(298)`.  That supplies `(234)`--`(235)`, the
+selector capture `(294)`--`(300)` and active graph coercivity `(305)`--`(308)`,
+refining `(254)`/`(256)` through `(269)`--`(310)`.  That supplies
+`(234)`--`(235)`, the
 order-lock overlap terminal branch `(217)`--`(230)`, the order-locked full
 endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)`, `(192)`--`(194)`,
 fixed-core no-residue trace storage `(184)`--`(185)`, the terminal anti-atom
