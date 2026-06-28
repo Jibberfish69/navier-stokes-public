@@ -153,24 +153,29 @@ up to negative return, viscous absorption, motion, legal, and stop errors. A
 zero current in that coordinate before the increment is the first-entry novelty
 case, not a retained perpendicular channel.
 
-The high-high residence inequality from the previous note is this same theorem in packet coordinates: the legal parent wave-packet frame gives a detector, but the retained same-scale source still needs an accretive response against the same-material Schur storage rather than only the standard critical estimate.
+The high-high residence inequality from the previous note is this same theorem
+in packet coordinates: the legal parent wave-packet frame gives a detector, but
+the retained same-scale source still has to be admitted as an increment of the
+paid same-material parent current rather than only as a legal stress readout.
 
 ## 5. Closure state
 
-This closes the current pressure test as an exact block, not as Gold closure. The installed machinery proves:
+This closes the current pressure test as a category-repaired reduction, not as
+Gold closure. The installed machinery proves:
 
 1. moving affine detector geometry is paid by positive metric variation;
 2. parent-subtracted fresh novelty Bessel-packs;
 3. high-high stress reads can be placed into parent detector coordinates under same-carrier wave-packet/Egorov control.
 
-It does not prove the accretive sign that converts retained positive production into Schur payment.
+It does not yet prove that every positive high-high dyadic transfer is admitted
+as a same-carrier parent-current increment.
 
 The Gold route therefore has one sharp remaining theorem:
 
 \[
-\text{retained same-carrier positive production}
+\text{positive dyadic same-carrier transfer}
 \Rightarrow
-\text{Schur-gradient accretivity or paid return/motion/viscous/legal exit}.
+\text{paid parent-current entry or paid return/motion/viscous/legal exit}.
 \]
 
 Without that theorem, the remaining unpaid profile is not "repeated
