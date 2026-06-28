@@ -241,7 +241,8 @@ The installed downstream relay consumes finite selected participation:
 For \(s>5/2\), the standard continuation criterion restarts the solution past
 the alleged first singular time.
 
-Therefore the proof closes after the source graph enforces the admission clause:
+Therefore the bounded-test channel closes after the source graph enforces the
+admission clause:
 
 ```text
 selected unit = bounded original-packet projection.
@@ -251,6 +252,12 @@ Any selected read whose original-packet test is unbounded is the fake fourth
 category. It is measuring-rule creation of participation, not participation of
 the fluid, and is removed from the retained Gold branch as stop, legal, donor,
 selector drift, or reselection.
+
+This does not close the scale-native zoom-birth channel.  A genuine retained
+scale-native birth is precisely the case where the rescaled unit test pulls back
+with unbounded original \(L^2\) stress-test norm.  That channel remains governed
+by `NativeBirthChargePacking.A / SelectedGeneratorStorageCoercivity.A`, whose
+direct analytic face is `PositiveCriticalTransferBound.A`.
 
 ## 8. Relation to the entropy-compensator diagnostic
 
