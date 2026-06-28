@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-same-carrier-wave-packet-high-high-residence-obstruction-20260628
-status: frame-algebra-admitted; critical-high-high-residence-gain-open
+status: frame-algebra-admitted; paid-parent-current-admission-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur accretivity edge
@@ -12,10 +12,17 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-high-bilinear-stress-parent-adjoint-lift-pressure-test-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-predictable-high-high-detector-net-obstruction-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-adjoint-bessel-packing-under-parent-subtracted-novelty-20260628.md
-completion_truth: partial; parent wave-packet frame gives the legal detector coordinate, but the critical residence gain/no-free high-high source inequality remains unproved
+completion_truth: partial; parent wave-packet frame gives the legal detector coordinate, but paid parent-current admission/update for positive high-high transfer remains unproved
 ---
 
 # Same-carrier wave-packet high-high residence obstruction
+
+Supersession note, 2026-06-28: the later paid-parent-current-span repair
+removes "inherited Schur response too small" as a standalone fourth obstruction.
+A zero-current direction is fresh relative to paid parent-current history and is
+Bessel-payable on entry; after admission, repeated same-coordinate production is
+Schur current work. The remaining high-high burden is therefore paid-current
+admission/update, not a separate repeated-perpendicular residence payment.
 
 ## 1. Intake
 
@@ -73,7 +80,8 @@ Frame/collar/carrier changes are charged to the already installed first-exit mot
 
 ## 3. What the frame does not prove
 
-The frame does not by itself give the needed strict gain. At fixed time the frame/Bessel estimate only gives
+The frame does not by itself prove paid-current admission. At fixed time the
+frame/Bessel estimate only gives
 
 \[
 \sum_{\gamma}|\langle B_{k\ell m},\phi_\gamma^P\rangle|^2
@@ -108,11 +116,17 @@ this becomes
 \frac{A_m}{\nu^2}D_m^\nu .
 \]
 
-Absorption into \(\theta D_m^\nu\), with \(\theta<1\), requires small \(A_m/\nu^2\). That is exactly the critical \(H^{1/2}\) obstruction. The parent frame has made the detector legal; it has not made the same-scale coefficient small.
+Absorption into \(\theta D_m^\nu\), with \(\theta<1\), requires small
+\(A_m/\nu^2\). That is the standard critical \(H^{1/2}\) fallback if the selected
+read is treated as a raw output norm. The paid-current repair changes the burden:
+the parent frame has made the detector legal, but it has not proved that a
+positive selected read is either first-entry novelty or an increment of an already
+paid parent-current coordinate.
 
 ## 4. Exact remaining theorem
 
-The high-high branch therefore closes only with a critical residence gain. In parent packet form, the required theorem is:
+The high-high branch therefore closes with paid-current admission/update. In
+parent packet form, the required theorem is:
 
 For every stopped parent packet \(P\), retained high-high scale family, and parent-declared same-carrier frame, the selected positive source reads satisfy
 
@@ -130,9 +144,15 @@ C\left(
 +legal+stop,
 \]
 
-with \(\theta<1\), where each \(\phi_i^P\) is declared before the child readout. The Schur term pays inherited same-material stress, the Bessel term pays parent-subtracted fresh directions, the \(\mathcal K\) and route terms pay motion, and the strict \(\theta D^\nu\) term is the only allowed viscous absorption.
+with \(\theta<1\), where each \(\phi_i^P\) is declared before the child readout.
+The Schur term pays already admitted same-material current, the Bessel term pays
+first-entry parent-current novelty, the \(\mathcal K\) and route terms pay motion,
+and the strict \(\theta D^\nu\) term is the only allowed raw viscous absorption.
 
-This is the exact no-free high-high source inequality. It is stronger than frame existence and weaker than restating global smoothness: it asks for a one-sided critical residence gain for retained same-carrier high-high stress.
+This is the exact no-free high-high source inequality. It is stronger than frame
+existence and weaker than restating global smoothness: it asks for positive
+same-carrier high-high transfer to be admitted into the paid parent-current
+ledger rather than left as an uncharged raw output norm.
 
 ## 5. Sharp obstruction if the theorem fails
 
@@ -141,11 +161,20 @@ A failure sequence has this form:
 1. \(B_i=\Lambda^{-1/2}P_{m_i}\mathbb P\nabla\cdot(u_{m_i}\otimes u_{m_i})\) produces positive selected \(H^{1/2}\) transfer.
 2. The selected output packets are legal parent-frame tests.
 3. Parent-subtracted novelty Bessel-packs and motion is charged.
-4. The inherited Schur response is too small.
-5. The remaining same-scale coefficient has large critical density \(A_{m_i}/\nu^2\), so the standard bound gives only \((A_{m_i}/\nu^2)D_{m_i}^\nu\), not \(\theta D_{m_i}^\nu\).
+4. The selected read is not admitted as first-entry novelty or as an increment of
+   an already paid parent-current coordinate.
+5. The remaining same-scale coefficient has large critical density
+   \(A_{m_i}/\nu^2\), so the fallback standard bound gives only
+   \((A_{m_i}/\nu^2)D_{m_i}^\nu\), not \(\theta D_{m_i}^\nu\).
 
-That sequence is not a missing fourth payment. It is the exact place where the current three-payment route still needs a genuine high-high residence/accretivity theorem.
+That sequence is not a missing fourth payment. It is the exact place where the
+current three-payment route still needs high-high paid-current admission.
 
 ## 6. Outcome
 
-The parent-declared same-carrier wave-packet frame is a valid admission coordinate, not closure. It proves that high-high source reads can be represented as parent-known stress-current tests under the same-carrier Egorov / Coifman--Meyer bound. The remaining open theorem is the critical residence gain above. Without that gain, the high-high branch falls back to the standard \(H^{1/2}\) energy obstruction.
+The parent-declared same-carrier wave-packet frame is a valid detector coordinate,
+not closure. It proves that high-high source reads can be represented as
+parent-known stress-current tests under the same-carrier Egorov / Coifman--Meyer
+bound. The remaining open theorem is paid parent-current admission/update for
+positive high-high transfer. Without that admission, the high-high branch falls
+back to the standard \(H^{1/2}\) energy obstruction.
