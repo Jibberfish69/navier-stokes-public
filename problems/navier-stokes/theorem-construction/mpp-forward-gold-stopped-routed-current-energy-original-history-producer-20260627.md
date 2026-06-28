@@ -1,16 +1,18 @@
 ---
 theorem_id: forward-gold-stopped-routed-current-energy-original-history-producer-20260627
-status: live-gold-producer-coupled-current-inequality-open
+status: routed-current-support-scale-native-reserve-producer-open
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 attacks_hinge:
+  - ScaleNativeActiveParticipationNativeReserveHinge.A
   - OriginalHistoryRoutedCurrentEnergyFinite.A
   - EnergyStableRoutedCurrentProjection.A
   - StoppedRoutedParticipationCurrentCarleson.A
   - StoppedPredictableRootGeometryCompensator.A
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-accretive-testing-current-factorization-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-routed-energy-noncircular-installation-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-routed-participation-current-carleson-direct-test-20260627.md
@@ -22,9 +24,10 @@ effect: >-
   as nu^S = D_A J^S + nu_stop^S + nu_legal^S.  Fixed-core return, strict reset,
   selector log amplification, parent drop, and full-clock finiteness are faces
   of derivative BV / square packing for the same current J^S, not separate
-  payments after scalar selected readout.  The live open producer is the single
-  original-history inequality bounding the stopped routed-current energy before
-  selection.  Partial, not Gold closed.
+  payments after scalar selected readout.  This is routed-current support for
+  reset/projection and current-motion ledgers.  It does not pay pure scale-native
+  zoom births by itself; the live open producer is the native-reserve /
+  scale-memory storage map.  Partial, not Gold closed.
 ---
 
 # Stopped routed-current energy from original history
@@ -185,9 +188,10 @@ StoppedSelectorTestingCarleson.A / OriginalHistoryHilbertBMOProducer.A
 is construction/testing machinery for the same current \(J^S\).  It is not the
 survivor replacing \(J^S\).
 
-## 5. Gold edge after the correction
+## 5. Current role after the scale-native correction
 
-The active theorem is:
+The routed-current theorem is support for current-motion, reset, and projection
+variation:
 
 ```text
 StoppedRoutedCurrentEnergyOriginalHistoryProducer.A:
@@ -197,7 +201,19 @@ StoppedRoutedCurrentEnergyOriginalHistoryProducer.A:
   before selected readout.
 ```
 
-Once this is proved, the downstream chain is bookkeeping:
+It does not pay pure scale-native selected zoom births by itself.  A unit
+rescaled read can have original pullback norm \(r^{-1/2}\), so finite raw
+current energy cannot be promoted into selected critical action without the
+native-reserve map.
+
+The current active Gold producer is:
+
+```text
+NativeBirthChargePacking.A / SelectedGeneratorStorageCoercivity.A.
+```
+
+Once that producer supplies finite selected action, the downstream chain is
+bookkeeping:
 
 ```text
 stopped routed-current square packing
@@ -207,6 +223,6 @@ stopped routed-current square packing
 -> H^s continuation.
 ```
 
-Partial, not Gold closed.  The remaining mathematical work is to prove the
-bounded stopped projection inequality `(4)` from the original Navier-Stokes
-participation law.
+Partial, not Gold closed.  The remaining mathematical work is the scale-native
+native-reserve/storage theorem from the original Navier-Stokes participation
+law.

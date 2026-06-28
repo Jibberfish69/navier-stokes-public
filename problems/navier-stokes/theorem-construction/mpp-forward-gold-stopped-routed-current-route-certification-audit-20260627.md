@@ -179,8 +179,10 @@ The exact remaining certification tasks are:
 1. Promote StoppedRoutedCurrentSquarePackingFromDerivativeBV.A
    with explicit finite stopped selector / first-exit / no-future-tail hypotheses.
 
-2. Promote OriginalHistoryRoutedCurrentEnergyFinite.A
-   by proving EnergyStableRoutedCurrentProjection.A as a subledger of the full material clock.
+2. Do not promote OriginalHistoryRoutedCurrentEnergyFinite.A through downstream
+   full-clock/subledger language.  Treat routed-current energy as support for
+   reset/projection/current-motion ledgers unless it is produced noncircularly
+   before selected readout.
 
 3. Promote SelectorCorrectLogAmplificationIdentity.A
    by defining selected density through stopped scores and recording legal/stop errors.
