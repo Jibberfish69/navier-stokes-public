@@ -2155,7 +2155,179 @@ Thus `(120)`--`(121)` is not a new independent theorem label.  It is equivalent
 to proving `(127)` for the reversible-cycle defect measure, together with the
 already identified zero-cost rigidity on the tight branch.
 
-## 25. Truth ledger
+## 25. Duality-and-packing form of `(*)`
+
+The proof mechanism for `(*)` should be duality and packing, not scalar
+after-the-fact accounting.
+
+Start with a stopped parent packet \(P\).  For each selected child packet
+\(Q\subset P\), the selected critical packet is
+
+\[
+D_Q=(S,\Pi_Q\nabla^2p),
+\qquad S=\nabla_{\mathrm{sym}}u,
+\tag{128}
+\]
+
+where \(\Pi_Q\nabla^2p\) is the pressure-Hessian part seen on the same
+selected carrier.  Its selected zoom bill is
+
+\[
+a_Q
+:=
+\|S\|_{L^{5/2}(Q)}^2
++
+\|\Pi_Q\nabla^2p\|_{L^{5/4}(Q)}^2 .
+\tag{129}
+\]
+
+The parent-known stress current is
+
+\[
+\mathfrak J_P(\psi)
+=
+\int_P
+u\cdot(-\partial_t\psi-\nu\Delta\psi)
++
+(u\otimes u):\nabla\psi
++
+p\,\nabla\cdot\psi
+\,dx\,dt .
+\tag{130}
+\]
+
+This is the original Navier--Stokes velocity, viscosity, pressure, and
+incompressibility packet tested against a parent-built adjoint field \(\psi\).
+For a selected \(Q\), let \(\mathcal A_Q(P)\) be the class of backward adjoint
+test fields built from the parent carrier and detecting \(Q\), and define
+
+\[
+\rho_Q
+:=
+\sup_{\psi\in\mathcal A_Q(P),\ \|\psi\|_{\mathfrak C_P}\le1}
+|\mathfrak J_P(\psi)|^2 .
+\tag{131}
+\]
+
+This is the parent-known same-carrier capacity of \(Q\).  The admission lemma is
+the duality step:
+
+\[
+a_Q
+\le
+C\rho_Q
++
+Ce_Q ,
+\tag{132}
+\]
+
+where \(e_Q\) records boundary, reselection, reset, stop, exchange, and legal
+terms produced when the dual critical detector is solved backward on the parent
+carrier and integrated by parts through `(130)`.
+
+The packing lemma is the Bessel/Carleson step.  For selected normalized
+detectors \(\psi_Q\),
+
+\[
+\sum_{Q\subset P}
+|\mathfrak J_P(\psi_Q)|^2
+\le
+C\|\mathfrak J_P\|_{\mathfrak C_P^\ast}^2
++
+CE_{\mathrm{paid}}(P),
+\tag{133}
+\]
+
+equivalently
+
+\[
+\sum_{Q\subset P}\rho_Q
+\le
+C\mathcal R(P)
++
+CE_{\mathrm{paid}}(P).
+\tag{134}
+\]
+
+The capacity norm \(\mathfrak C_P\) cannot store only endpoint deformation.
+It must see positive material variation.  With
+
+\[
+G=(\nabla_aX)^T\nabla_aX,
+\qquad
+K=G^{-1/2}D_tG\,G^{-1/2},
+\tag{135}
+\]
+
+a stretch followed by reverse-stretch can cancel in \(G(t_2)-G(t_1)\), but it
+does not cancel in the positive variation reserve
+
+\[
+\mathcal V_P
+:=
+\int_P |K|^2\,d\mu_P .
+\tag{136}
+\]
+
+Thus the combined no-free-zoom proof shape is
+
+\[
+\sum_{Q\subset P} a_Q
+\le
+C\sum_{Q\subset P}\rho_Q
++
+C\sum_{Q\subset P}e_Q
+\le
+C\mathcal R(P)
++
+CE_{\mathrm{paid}}(P)
+<\infty .
+\tag{137}
+\]
+
+Audit:
+
+- Paid line: this is the first form of `(*)` that uses the whole parent
+  Navier--Stokes packet as the currency.  The current is same-carrier and
+  coupled; pressure-Hessian is not a detached scalar reserve.
+- What the positive-variation correction fixes: section 23 only ruled out
+  endpoint storage and naked selected positive-variation storage.  It did not
+  rule out a parent-built dual capacity norm whose Bessel estimate counts
+  \(\mathcal V_P\).  Reversible affine cycles vanish from endpoint
+  Cauchy--Green state, but they remain visible to `(136)`.
+- Exact unproved admission line: prove `(132)` with \(\mathcal A_Q(P)\) built
+  before descendant selection and with all carrier mismatch, boundary, reset,
+  reselection, and stop terms landing in \(e_Q\).
+- Exact unproved packing line: prove `(133)`--`(134)` for the selected adjoint
+  detectors in a noncircular parent capacity space \(\mathfrak C_P\) whose
+  reserve includes `(136)` and whose dual norm is finite from the original
+  parent history.
+- High-weight escape status: `(127)` is not a separate new destination after
+  this reformulation.  It is the escaping branch of the Bessel proof for
+  `(133)`: detectors concentrating in shrinking high-weight tubes must be
+  charged by the same parent-known positive metric variation, carrier motion,
+  reset, exchange, stop, or legal terms.
+
+Thus the two real lemmas are:
+
+\[
+\text{same-carrier adjoint admission `(132)`}
+\tag{138}
+\]
+
+and
+
+\[
+\text{positive-metric-variation Bessel packing `(133)`--`(136)`.}
+\tag{139}
+\]
+
+The proof is still partial.  The live producer has become sharper: construct
+\(\mathfrak C_P\), prove the adjoint admission, and prove the positive-
+metric-variation Bessel packing without letting \(\mathfrak C_P\) depend on the
+future selected tail.
+
+## 26. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
