@@ -15,6 +15,7 @@ live_obligation:
   aliases:
     - CriticalFreshSourceTentCarleson.A
     - OriginalScaleMemoryStorageCoercivity.A
+    - CriticalPositiveTransferReserve.A
     - bounded-multiplicity native-reserve assignment
 completion_truth: partial-not-mpp-closed
 ---
@@ -90,7 +91,7 @@ C_N\rho_{\iota(\gamma)}
 \operatorname{mult}(\iota)\le C_N,
 \]
 
-and
+    and
 
 \[
 \sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}
@@ -100,8 +101,18 @@ C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
 \]
 
 This is equivalent, on the current Gold surfaces, to the scale-memory storage
-coercivity / critical fresh source tent Carleson producer. It is not discharged
-by the bounded-projection Bessel argument. If it is proved, the existing relay
-gives finite selected action, finite full same-material participation clock,
-bounded \(H^s\) for \(s>5/2\), and continuation past \(T^*\). Until it is proved,
-the route remains conditional.
+coercivity / critical fresh source tent Carleson producer.  The sharper physical
+form is the critical positive-transfer reserve:
+
+\[
+\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
+\]
+
+is finite once the positive nonlinear transfer in the Leray-projected
+\(\dot H^{1/2}\) identity is absorbed.  The standard estimate gives that only
+for small critical packet size; arbitrary data still requires the native
+reserve theorem.  It is not discharged by the bounded-projection Bessel
+argument. If it is proved, the existing relay gives finite selected action,
+finite full same-material participation clock, bounded \(H^s\) for \(s>5/2\),
+and continuation past \(T^*\). Until it is proved, the route remains
+conditional.
