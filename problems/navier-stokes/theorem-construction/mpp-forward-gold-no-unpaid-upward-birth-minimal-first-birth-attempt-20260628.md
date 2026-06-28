@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: terminal-detector-replay-innovation-or-return-open
+status: terminal-record-square-admission-lower-bound-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -4113,7 +4113,146 @@ Thomas-dialogue verdict:
   statement: no repeated terminal bill without fresh detector innovation or
   positive parent-record variation.
 
-## 38. Truth ledger
+## 38. Record-variation admission audit: square payment needs selected size
+
+Now test the currency in `(247)`.  The record-variation term is a square
+energy.  The terminal bill `(232)` is a positive endpoint bill unless the
+selector has already admitted each retained event into the same square currency.
+
+For a retained terminal record interval \(I_Q\), write the positive record
+change as
+
+\[
+\Delta_Q^+
+:=
+\left[\mathcal B_Q^{term}(s_+)-\mathcal B_Q^{term}(s_-)\right]_+,
+\tag{250}
+\]
+
+where \(\mathcal B_Q^{term}\) is the parent terminal annular-return/donor
+record whose positive increments generate \(b_Q^{term}\).  The parent
+connection identity gives only the harmonic square payment
+
+\[
+H_Q\left({\Delta_Q^+\over |I_Q|}\right)^2
+\le
+C\int_{I_Q}
+\left(|K|^2+\|\nabla^P b^{term}\|_{\mathfrak C}^2\right)d\mu_P
++Paid_Q .
+\tag{251}
+\]
+
+This is real support, but it is not yet the terminal no-pulse statement.  The
+countermodel is a sequence of retained positive record increments with
+
+\[
+\sum_Q
+H_Q\left({\Delta_Q^+\over |I_Q|}\right)^2
+<\infty,
+\qquad
+\sum_Q\Delta_Q^+=\infty .
+\tag{252}
+\]
+
+Thus square record variation does not control the positive terminal bill by
+itself.  The missing admission clause is that every retained selected terminal
+event is counted in the square currency.  One sufficient form is a selected
+lower bound
+
+\[
+\Delta_Q^+\ge \eta\,|I_Q|
+\quad\text{on retained terminal events,}
+\tag{253}
+\]
+
+which gives
+
+\[
+\Delta_Q^+
+\le
+\eta^{-1}
+H_Q\left({\Delta_Q^+\over |I_Q|}\right)^2
++Paid_Q .
+\tag{254}
+\]
+
+Another sufficient form is inverse-weight packing
+
+\[
+\sum_{Q\subset P}\int_{I_Q}H_Q^{-1}\,d\mu_P
+\le
+C\mathcal R(P)+Paid(P),
+\tag{255}
+\]
+
+which converts the square estimate `(251)` into a linear positive-bill bound by
+Cauchy over the retained stopped family.
+
+The refined admission and packing target is therefore
+
+\[
+b_Q^{term}
+\le
+C\left[
+|\langle\mathfrak J_P,d_Q\rangle|^2
++
+H_Q\left({\Delta_Q^+\over |I_Q|}\right)^2
+\right]
++Ce_Q^{paid},
+\tag{256}
+\]
+
+with
+
+\[
+\sum_{Q\subset P}
+H_Q\left({\Delta_Q^+\over |I_Q|}\right)^2
+\le
+C\int_P\left(|K|^2+\|\nabla^P b^{term}\|_{\mathfrak C}^2\right)d\mu_P
++CE_{\rm paid}(P).
+\tag{257}
+\]
+
+Paid line:
+
+\[
+\text{record derivative identity + weighted Cauchy}
+\Longrightarrow
+\text{harmonic square payment `(251)' and packing `(257)'.}
+\tag{258}
+\]
+
+Unproved line:
+
+\[
+\text{prove selected terminal admission `(253)' or inverse-weight packing
+`(255)' for retained annular-return and donor events.}
+\tag{259}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It attacks the exact gap left by
+  `(246)`--`(247)`: square record variation must become the positive terminal
+  bill.
+- Did this prove smoothness? No.  It pays the harmonic square record variation
+  and exposes the selected-size admission/inverse-weight packing line.
+- What does it mean physically? Tiny reversible or signed terminal record
+  motions may have finite square cost; they become a no-free-zoom bill only
+  when the stopped selector retains them at a definite normalized size or the
+  inverse record length packs.
+- Is this the full coupled packet or a scalar proxy? It is coupled only because
+  \(\mathcal B_Q^{term}\) is the parent annular-return/donor record inside the
+  active Hodge--Stokes packet.  A detached scalar BV statement is too weak.
+- Is this already handled in the repo? The fixed-score return note already pays
+  the harmonic square side.  The selected lower bound or inverse-weight packing
+  for terminal annular/donor records is still open.
+- Did this create another alias? No.  It collapses return BV, no-replay,
+  terminal no-pulse, and donor no-Zeno into one sharper requirement: retained
+  terminal events must be admitted into the square currency that the parent
+  record actually pays.
+
+## 39. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
@@ -4170,6 +4309,9 @@ variation.  The terminal detector Bessel audit `(240)`--`(249)` then sharpens
 the Bessel side: fresh detector innovations are paid by parent-subtracted QR,
 while inherited detector replay must be converted into positive terminal
 record variation before it can count as new selected capacity.
+The record-variation admission audit `(250)`--`(259)` then shows that even
+positive record variation is only square payment until retained terminal events
+have selected-size admission `(253)` or inverse-weight packing `(255)`.
 
 Conditional relay: proving the positive storage-trace anti-atom `(190)` by the
 order-locked endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)` supplies
@@ -4200,7 +4342,10 @@ they must be detector-packable by the same parent stress current, with positive
 material variation counted before selected readout.  The detector-packing audit
 `(240)`--`(249)` makes the necessary linearization explicit: `(235)` is false
 for replayed inherited near-extremizers unless new terminal bills are restricted
-to fresh detector innovation or positive parent-record variation.
+to fresh detector innovation or positive parent-record variation.  The
+record-variation audit `(250)`--`(259)` sharpens this again: parent-record
+variation pays harmonic square increments, and the live terminal admission line
+is the conversion of those square increments into the positive endpoint bill.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
@@ -4277,7 +4422,10 @@ realization/no-Zeno `(228)` is proved or consumed by CM.  Treating `(227)` and
 their combined terminal bill `(232)` to be admitted and packed by `(234)`--`(235)`.
 The raw supremum form `(233)` also fails as a proof mechanism if it allows
 repeated inherited detectors `(243)`--`(244)`; the live form is the linearized
-no-replay currency `(245)`--`(247)`.
+no-replay currency `(245)`--`(247)`.  Treating record variation itself as
+linear terminal payment also fails: `(251)` is a square estimate, and `(252)`
+shows that square summability alone does not exclude infinite positive terminal
+bill.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -4337,6 +4485,9 @@ single terminal detector-packing statement `(234)`--`(235)` for the bill `(232)`
 After the terminal detector Bessel audit, `(234)`--`(235)` is equivalent to
 no-replay linearized terminal packing `(246)`--`(247)`: every counted terminal
 bill must be fresh detector innovation or positive parent-record variation.
+After the record-variation admission audit, `(246)`--`(247)` is equivalent to
+harmonic square record payment `(251)` plus selected-size admission `(253)` or
+inverse-weight packing `(255)` for retained terminal events.
 Failure of that upgrade is the same-witness CM endpoint-face branch `(196)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
@@ -4351,8 +4502,9 @@ duality-and-packing version of `(*)`: construct the noncircular parent active
 Hodge--Stokes/positive-metric quotient capacity \(\mathfrak C_{P,act}^{HS}\)
 with parent-announced \(\mathcal N^{act}\), \(\mathcal P^{act}\), \(H_{e^-}\),
 and connection \(\nabla^P\), then prove the terminal no-replay detector
-admission and record-variation packing `(246)`--`(247)` for the bill `(232)`.
-That supplies `(234)`--`(235)`, the
+admission and record-variation packing `(246)`--`(247)` for the bill `(232)`,
+with the square-to-linear terminal admission `(253)` or `(255)` supplied by
+`(250)`--`(259)`.  That supplies `(234)`--`(235)`, the
 order-lock overlap terminal branch `(217)`--`(230)`, the order-locked full
 endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)`, `(192)`--`(194)`,
 fixed-core no-residue trace storage `(184)`--`(185)`, the terminal anti-atom
