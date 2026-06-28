@@ -1388,7 +1388,163 @@ Thomas-dialogue verdict:
   spend summable complete-frame deformation, create positive active reserve, or
   collapse into a rigid Zeno residue class.
 
-## 19. Truth ledger
+## 19. Selected-forest lift / half-tail strictness attempt
+
+The selected-forest lift `(78)` is not a new independent theorem.  In the
+high-ratio variables
+
+\[
+d\mu_j(t)=2^{2j}e_j(t)\,dt,
+\qquad
+\rho_j(t)=\frac{\Theta_j^{mat}(t)}{2^{2j}},
+\tag{79}
+\]
+
+with
+
+\[
+E_{j,\ell}=\{2^\ell\delta<\rho_j\le2^{\ell+1}\delta\},
+\qquad
+\nu_\ell=\sum_j\mu_j(E_{j,\ell}),
+\tag{80}
+\]
+
+the raw installed ledgers give only
+
+\[
+\sum_{\ell\ge0}\nu_\ell<\infty,
+\tag{81}
+\]
+
+while the selected full same-material action is
+
+\[
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty .
+\tag{82}
+\]
+
+Thus `(78)` is the weight-beating tail law `(82)` written in complete-frame
+selected-forest coordinates.
+
+The strict good-lambda form would be
+
+\[
+N_{L+1}\le\theta N_L+B_L,
+\qquad
+\theta<\frac12,
+\qquad
+\sum_{L\ge0}2^LB_L<\infty,
+\qquad
+N_L:=\sum_{\ell\ge L}\nu_\ell .
+\tag{83}
+\]
+
+The attempted mechanism is to use the complete-frame ancestry tax
+
+\[
+\sum_{\gamma\subset\mathcal A(a)}a_\gamma
+\lesssim
+\mathcal V_C(\mathcal A(a))
++\mathcal V_F(\mathcal A(a))
++R_{legal}(\mathcal A(a))
+\tag{84}
+\]
+
+and then sum `(84)` over the selected forest.  That proves `(82)` only after a
+global weighted reserve for \(\mathcal V_C+\mathcal V_F\) is supplied.  The
+installed support package does not supply that reserve.
+
+The exact countertest is the critical half-tail
+
+\[
+\nu_\ell=\frac{2^{-\ell}}{\ell+1},
+\qquad
+a_\ell:=2^\ell\nu_\ell=\frac1{\ell+1}.
+\tag{85}
+\]
+
+It satisfies finite raw mass and divergent selected action:
+
+\[
+\sum_{\ell\ge0}\nu_\ell<\infty,
+\qquad
+\sum_{\ell\ge0}a_\ell=\infty .
+\tag{86}
+\]
+
+It also satisfies the complete-frame payment and the one-line laminar tax by
+assigning the hidden transverse variation \(V_\ell=a_\ell\).  The localized
+affine matching audit shows why Navier--Stokes scaling alone does not remove
+this model: at heat scale \(r\), the raw energy, dissipation, pressure work,
+and collar work are order \(r\), while the normalized material action is order
+one.
+
+So the paid line is only this:
+
+\[
+\text{complete-frame payment + laminarity}
+\Longrightarrow
+\text{each selected visit has a same-history deformation payer.}
+\tag{87}
+\]
+
+The unproved line is the strict conversion
+
+\[
+\text{same-history deformation payer}
+\Longrightarrow
+\text{root-finite weighted selected-forest reserve.}
+\tag{88}
+\]
+
+Equivalently, the live producer is now one of the following three strict
+forms:
+
+\[
+\text{strict good-lambda }(83),
+\tag{89}
+\]
+
+\[
+d\mathscr A_N+c_N\,d\Omega_N^{full}\le dR_N^{legal},
+\qquad
+\mathscr A_N\ge -C_N(u_0),
+\qquad
+\int dR_N^{legal}<\infty,
+\tag{90}
+\]
+
+or a terminal half-tail Liouville theorem:
+
+\[
+\text{no original transported smooth Navier--Stokes history realizes a
+terminal affine half-tail with finite raw heat/collar/pressure ledgers and
+positive selected complete-frame defect.}
+\tag{91}
+\]
+
+Thomas-dialogue verdict:
+
+- Did the selected-forest lift prove smoothness? No.  It collapsed the
+  angular-mixing branch back to the already isolated weight-beating tail wall.
+- Did it rename the hinge? Yes unless it proves `(83)`, `(90)`, or `(91)`.
+- What does it mean physically? The fluid can pay every local stretching event
+  by hidden transverse compression while shrinking the raw physical scale fast
+  enough that energy, dissipation, pressure work, and collar work stay summable.
+- Is it full packet? The countertest is full enough to include divergence-free
+  matching, pressure, collar, and same-history complete-frame payment, but it
+  is still a proof-mechanism countermodel, not a constructed Navier--Stokes
+  blow-up.
+- Is it already handled? Yes as an obstruction: the half-tail barrier,
+  weighted laminar ancestry reserve audit, ratio-tail obstruction, and
+  localized affine matching audit already show this route is open.
+- What stronger insight did failure reveal? The remaining Gold producer is not
+  angular mixing, laminarity, or complete-frame payment.  It is strict
+  half-tail exclusion from the original coupled Navier--Stokes history, either
+  as a good-lambda coefficient below \(1/2\), a bounded-below same-material
+  storage, or a terminal affine half-tail Liouville/rigidity theorem.
+
+## 20. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
