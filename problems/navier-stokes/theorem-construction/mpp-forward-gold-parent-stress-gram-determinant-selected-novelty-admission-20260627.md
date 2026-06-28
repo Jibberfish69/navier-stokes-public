@@ -273,7 +273,7 @@ account.  In the parent Gram formulation, fresh directions are just unsaturated
 directions of the same parent stress record, measured against a fixed
 parent-known floor.
 
-This determinant branch is not the live Gold producer by itself. The live
+This determinant branch is support, not the active producer by itself. The active
 source-level currency is:
 
 \[

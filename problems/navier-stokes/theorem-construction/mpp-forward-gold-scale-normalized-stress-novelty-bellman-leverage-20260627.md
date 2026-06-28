@@ -129,8 +129,8 @@ controlled by the same material participation law. Then parent-subtracted fresh
 Bessel, projection-jump first-exit Carleson, and the leverage telescope give
 finite selected critical action.
 
-Thus this note does not define the live Gold producer after the source-currency
-installation. The live producer is `SelectedActionCurrencyBoundedOriginalPacketEnforcement.A`:
+Thus this note does not define the active producer after the source-currency
+installation. The active producer is `SelectedActionCurrencyBoundedOriginalPacketEnforcement.A`:
 retained selected action must be a bounded original-packet/Riesz read before
 scalar selected amplification, or it must be inherited/root current, paid
 stop/legal/reselection/selector drift, or an alias of those.
