@@ -83,6 +83,13 @@ and on parent-announced first-exit slabs with normalized widths / bounded overla
 
 This verifies that \(\int\|K\|^2\) is the correct currency for repeated inverse-Gram births caused by moving affine geometry, provided the births are first-exit events with a fixed logarithmic threshold and bounded-overlap slabs.
 
+The isolated finite-dimensional proof is now recorded in
+`mpp-forward-gold-finite-dimensional-schur-motion-payment-20260628.md`: for
+parent-known detectors, the normalized current response is bounded by Schur
+storage and the log inverse-Gram velocity is bounded by \(K\), so bounded-overlap
+first-exit motion births are paid by \(\int S\|K\|^2\) plus return/legal
+comparison errors.
+
 Boundary of the test: \(K\)-variation alone does not pay stationary-metric repeated production. If \(G\) is fixed, then \(K=0\), and repeated fresh production must be paid by Schur current storage \(S\), negative return, or parent-current capacity packing. Thus the finite-dimensional test supports the route only in the metric-motion branch. It does not by itself prove the accretive production alignment.
 
 ## 2. Second pressure test: parent-adjoint detector Bessel lemma
