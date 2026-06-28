@@ -1,11 +1,12 @@
 ---
 theorem_id: forward-gold-active-route-metric-carleson-stopping-admission-20260627
-status: constructive-reduction-insufficient-without-bellman-capacity
+status: support-reduction-insufficient-for-scale-native-native-reserve
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
 attacks_hinge:
+  - ScaleNativeActiveParticipationNativeReserveHinge.A
   - ScaleCriticalStoppedFrameCarlesonEmbedding.A
   - OriginalHistoryRoutedCurrentEnergyFinite.A
   - StoppedSelectorBoundedProjectionOriginalParticipationLaw.A
@@ -15,6 +16,7 @@ refines:
   - StoppedRoutedParticipationCurrentCarleson.A
   - ParentAnnouncedFirstExitResetVariation.A
 source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-frame-bessel-critical-weight-fork-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-routed-participation-current-carleson-direct-test-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-announced-reset-variation-to-routed-energy-reduction-20260627.md
@@ -168,12 +170,17 @@ C_N(u_0)+R_{\mathrm{legal}}(P)+Stop(P)
 
 by the material energy identity.
 
-This is a constructive reduction, not a closure.  It changes the missing line
-from a bare active-weight Bessel miracle into a stopped-selector admission
-problem.  The later Bellman pressure test sharpens this further: raw density
-stopping alone does not pay the normalized heat-scale count, and charging a
-nondominated packet to `Stop` is useful only when that stop is terminal for the
-retained Gold branch or carries a finite original-history capacity drop.  The
-current sharper target is therefore
-`RetainedActiveRawBellmanCapacity.A`, a telescoping capacity inequality for the
-retained active route metric.
+This is support, not closure.  Raw density stopping alone does not pay the
+normalized heat-scale count, and charging a nondominated packet to `Stop` is
+useful only when that stop is terminal for the retained Gold branch or carries a
+finite original-history capacity drop.  Bellman capacity is parent-reuse
+support after lawful admission, not the active producer.
+
+The current sharper target is therefore the scale-native native-reserve map:
+
+```text
+NativeBirthChargePacking.A / SelectedGeneratorStorageCoercivity.A
+```
+
+The retained zoom birth must be assigned to finite original-history native
+reserve with bounded multiplicity.
