@@ -9,6 +9,8 @@ refines:
   - PredictableActiveWeightTransitionCarleson.A
   - OriginalHistoryParentPredictableFreshInnovationCarleson.A
   - PositiveCriticalTransferBound.A
+continued_by:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-fixed-core-root-upcrossing-bv-payment-20260628.md
 completion_truth: partial-not-mpp-closed
 ---
 
@@ -155,7 +157,7 @@ and
 
 \[
 \text{fixed-core/root-upcrossing branch}
-\quad\text{equivalent to bounded-below same-material service storage.}
+\quad\text{paid by signed record/return BV, whose original-data finiteness is the service-storage producer.}
 \tag{10}
 \]
 
