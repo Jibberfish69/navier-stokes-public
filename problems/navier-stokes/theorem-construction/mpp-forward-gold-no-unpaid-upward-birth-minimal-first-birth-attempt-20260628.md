@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: parent-stress-current-terminal-detector-packing-open
+status: terminal-detector-replay-innovation-or-return-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -3966,7 +3966,154 @@ Thomas-dialogue verdict:
   no-pulse and terminal donor realization/no-Zeno into the same no-free-zoom
   admission-plus-packing mechanism.
 
-## 37. Truth ledger
+## 37. Terminal detector Bessel audit: no replay without innovation or return
+
+Now attack `(235)` directly.  A Bessel estimate applies to a chosen detector
+family, not to a bare list of suprema.  For each retained terminal child choose
+a near-extremizing parent-built detector
+
+\[
+h_Q\in \mathcal A_Q^{term}(P),
+\qquad
+\|h_Q\|_{\mathfrak C_{P,act}^{HS}}\le1,
+\qquad
+\rho_Q^{term}\le 2|\langle \mathfrak J_P,h_Q\rangle|^2 .
+\tag{240}
+\]
+
+The detector family must be linearized before positive selected readout.  Let
+\(\mathcal E_{Q^-}^{term}\) be the parent-announced terminal detector span
+already available before \(Q\) is read, and split
+
+\[
+h_Q=b_Q+d_Q+r_Q^{move},
+\qquad
+b_Q=\Pi_{\mathcal E_{Q^-}^{term}}h_Q,
+\qquad
+d_Q=(I-\Pi_{\mathcal E_{Q^-}^{term}})h_Q .
+\tag{241}
+\]
+
+The fresh part is the usual parent-subtracted Bessel object:
+
+\[
+\sum_{Q\subset P}|\langle\mathfrak J_P,d_Q\rangle|^2
+\le
+C\|\mathfrak J_P\|_{\mathfrak C_{P,act}^{HS,*}}^2
++CStop(P)+CR_{\rm legal}(P).
+\tag{242}
+\]
+
+This is paid by the same martingale-difference/QR mechanism as the
+parent-subtracted stress-test innovation notes, after replacing raw stress tests
+by active Hodge--Stokes terminal detectors.
+
+The obstruction is the inherited part.  If the same parent detector is replayed
+against infinitely many terminal children, Bessel gives no packing.  The toy
+model is
+
+\[
+h_{Q_n}=h_0,\qquad
+\rho_{Q_n}^{term}=|\langle\mathfrak J_P,h_0\rangle|^2>0
+\quad(n=1,2,\ldots),
+\tag{243}
+\]
+
+so
+
+\[
+\sum_n\rho_{Q_n}^{term}=\infty
+\quad\text{while}\quad
+\|\mathfrak J_P\|_{\mathfrak C_{P,act}^{HS,*}}<\infty .
+\tag{244}
+\]
+
+Thus `(235)` cannot be a plain Bessel theorem for the suprema `(233)`.  It must
+be a no-replay theorem: inherited detector reuse is allowed only as a retained
+parent record, and a new terminal bill is counted only by fresh detector
+innovation or by positive change of the retained detector/record.
+
+The corrected terminal packing currency is
+
+\[
+\rho_Q^{lin}
+:=
+|\langle\mathfrak J_P,d_Q\rangle|^2
++
+|\langle\mathfrak J_P,\nabla^P b_Q\rangle|^2
++
+Stop_Q+R_{{\rm legal},Q},
+\tag{245}
+\]
+
+where \(\nabla^P b_Q\) is the parent connection derivative of the retained
+terminal detector record.  Replayed inherited value itself is not new capacity.
+The terminal bill must satisfy the refined admission
+
+\[
+a_Q^{act}+b_Q^{term}
+\le
+C\rho_Q^{lin}
++Ce_Q^{paid}.
+\tag{246}
+\]
+
+The Bessel/variation packing then becomes
+
+\[
+\sum_{Q\subset P}\rho_Q^{lin}
+\le
+C\|\mathfrak J_P\|_{\mathfrak C_{P,act}^{HS,*}}^2
++C\int_P\left(|K|^2+\|\nabla^P b^{term}\|_{\mathfrak C}^2\right)d\mu_P
++CE_{\rm paid}(P).
+\tag{247}
+\]
+
+The positive material variation \(|K|^2\) sees real metric squeeze; the
+detector-record variation \(\|\nabla^P b^{term}\|_{\mathfrak C}^2\) sees
+turnstile, exchange, covector, endpoint gate, annular-return record motion, and
+donor-record motion.  A terminal event that has neither fresh innovation nor
+record variation is just the same parent readout replayed, and it cannot be
+charged as another selected zoom bill.
+
+Paid line:
+
+\[
+\text{fresh terminal detector innovations}
+\Longrightarrow
+\text{Bessel by parent-subtracted QR `(242)'.}
+\tag{248}
+\]
+
+Unproved line:
+
+\[
+\text{prove the no-replay admission `(246)' and record-variation packing
+`(247)' for terminal annular-return and donor records.}
+\tag{249}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It attacks the exact Bessel gap in
+  `(235)`: suprema do not pack until the terminal detectors are linearized.
+- Did this prove smoothness? No.  It pays the fresh detector part and exposes
+  inherited detector replay as the live obstruction.
+- What does it mean physically? The fluid cannot pay the same terminal readout
+  again and again unless something real changes in the carried record or a new
+  detector direction appears.
+- Is this the full coupled packet or a scalar proxy? Full coupled packet only
+  when \(h_Q\), \(b_Q\), \(d_Q\), \(\nabla^P b_Q\), \(K\), annular return, and
+  donor exchange are all built in the parent active Hodge--Stokes space.
+- Is this already handled in the repo? The fresh QR/Bessel part is handled by
+  the parent-subtracted stress-test innovation support.  The terminal no-replay
+  admission `(246)` and record-variation packing `(247)` are not installed.
+- Did this create another alias? No.  It collapses terminal annular-return
+  no-pulse, terminal donor no-Zeno, and endpoint detector packing into the same
+  statement: no repeated terminal bill without fresh detector innovation or
+  positive parent-record variation.
+
+## 38. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
@@ -4019,7 +4166,10 @@ Zeno `(228)`.  The no-free-zoom return audit `(231)`--`(239)` folds those two
 faces back into the supplied duality-and-packing packet: the terminal bill
 `(232)` must be admitted by parent-built active Hodge--Stokes detectors and
 Bessel-packed by the parent stress-current capacity with positive material
-variation.
+variation.  The terminal detector Bessel audit `(240)`--`(249)` then sharpens
+the Bessel side: fresh detector innovations are paid by parent-subtracted QR,
+while inherited detector replay must be converted into positive terminal
+record variation before it can count as new selected capacity.
 
 Conditional relay: proving the positive storage-trace anti-atom `(190)` by the
 order-locked endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)` supplies
@@ -4047,7 +4197,10 @@ no-pulse and terminal donor realization/no-Zeno, the order-locked density enters
 the endpoint super-\(L^1\)/Hardy line.  The duality-and-packing return audit
 `(231)`--`(239)` identifies the proof mechanism for those two terminal clauses:
 they must be detector-packable by the same parent stress current, with positive
-material variation counted before selected readout.
+material variation counted before selected readout.  The detector-packing audit
+`(240)`--`(249)` makes the necessary linearization explicit: `(235)` is false
+for replayed inherited near-extremizers unless new terminal bills are restricted
+to fresh detector innovation or positive parent-record variation.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
@@ -4122,6 +4275,9 @@ modulus `(227)`; the terminal donor chain survives until same-packet
 realization/no-Zeno `(228)` is proved or consumed by CM.  Treating `(227)` and
 `(228)` as detached endpoint lemmas also fails: the current route requires
 their combined terminal bill `(232)` to be admitted and packed by `(234)`--`(235)`.
+The raw supremum form `(233)` also fails as a proof mechanism if it allows
+repeated inherited detectors `(243)`--`(244)`; the live form is the linearized
+no-replay currency `(245)`--`(247)`.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -4178,6 +4334,9 @@ is equivalent to retained annular-return no-pulse `(227)` plus terminal donor
 realization/no-Zeno `(228)`, with ordinary overlap channels paid or typed.
 After the no-free-zoom return audit, `(227)` and `(228)` are equivalent to the
 single terminal detector-packing statement `(234)`--`(235)` for the bill `(232)`.
+After the terminal detector Bessel audit, `(234)`--`(235)` is equivalent to
+no-replay linearized terminal packing `(246)`--`(247)`: every counted terminal
+bill must be fresh detector innovation or positive parent-record variation.
 Failure of that upgrade is the same-witness CM endpoint-face branch `(196)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
@@ -4191,8 +4350,9 @@ rigid Zeno source class.  In the current strict form, this means prove the
 duality-and-packing version of `(*)`: construct the noncircular parent active
 Hodge--Stokes/positive-metric quotient capacity \(\mathfrak C_{P,act}^{HS}\)
 with parent-announced \(\mathcal N^{act}\), \(\mathcal P^{act}\), \(H_{e^-}\),
-and connection \(\nabla^P\), then prove the terminal detector admission and
-Bessel packing `(234)`--`(235)` for the bill `(232)`.  That supplies the
+and connection \(\nabla^P\), then prove the terminal no-replay detector
+admission and record-variation packing `(246)`--`(247)` for the bill `(232)`.
+That supplies `(234)`--`(235)`, the
 order-lock overlap terminal branch `(217)`--`(230)`, the order-locked full
 endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)`, `(192)`--`(194)`,
 fixed-core no-residue trace storage `(184)`--`(185)`, the terminal anti-atom
