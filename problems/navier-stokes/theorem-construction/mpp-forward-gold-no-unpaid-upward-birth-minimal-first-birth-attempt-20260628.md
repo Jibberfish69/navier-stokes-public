@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: strict-half-tail-exclusion-reduces-to-positive-metric-variation-no-cycle-open
+status: no-free-zoom-star-splits-admission-and-positive-variation-packing-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -1689,7 +1689,124 @@ Thomas-dialogue verdict:
   to run infinitely many selected affine stretch-return cycles with summable
   raw costs and divergent positive material action.
 
-## 21. Truth ledger
+## 21. No-free-zoom `(*)` audit
+
+The user attachment states the right organizing bridge, but it is not a proof
+yet.  Its content is the no-free-zoom law: once a selected squeeze is real, the
+original same-material packet must already carry a parent-known capacity charge
+for it.
+
+For a retained selected parabolic packet \(Q_\gamma\) of radius \(r_\gamma\),
+the selected critical action may be recorded as
+
+\[
+a_\gamma
+:=
+\int_{Q_\gamma}
+\left(
+|S|^{5/2}
++
+|\nabla^2p|^{5/4}
+\right)\,dx\,dt ,
+\qquad S=\nabla_{\mathrm{sym}}u .
+\tag{101}
+\]
+
+The exponents are critical under Navier--Stokes scaling, so \(a_\gamma\) is
+the quantity a zoom selector can see without the raw \(O(r_\gamma)\) discount.
+Let
+
+\[
+\rho_\gamma:=\mu_P(Q_\gamma)
+\tag{102}
+\]
+
+be a capacity charge built from the parent packet \(P\) before the descendant
+tail is read.  The proposed `(*)` inequality is
+
+\[
+a_\gamma
+\le
+C\rho_\gamma
++
+Ce_\gamma ,
+\qquad
+e_\gamma=\text{return/reset/exchange/stop/legal escape}.
+\tag{*}
+\]
+
+Summed over selected descendants of \(P\), this becomes
+
+\[
+\sum_{\gamma\subset P}a_\gamma
+\le
+C\sum_{\gamma\subset P}\rho_\gamma
++
+C\sum_{\gamma\subset P}e_\gamma .
+\tag{103}
+\]
+
+The packing side required to close it is
+
+\[
+\sum_{\gamma\subset P}\rho_\gamma
+\le
+C\,\mathcal R(P),
+\qquad \mathcal R(P)<\infty
+\text{ from the original smooth parent history.}
+\tag{104}
+\]
+
+Audit of `(*)`:
+
+- Live object? Yes.  It is the same no-unpaid upward-birth hinge in direct
+  no-free-zoom form.
+- Smoothness proved? No.  `(*)` states the missing bridge; it does not prove
+  either parent-known admission or root-finite packing.
+- Physical meaning? The selector may discover a tiny squeeze, but the same
+  velocity-pressure-viscosity-incompressibility history had to produce it.
+  There is no teleportation of fresh critical structure into a zoom window.
+- Full coupled packet? Only if \(\mu_P\) is built from the original
+  same-carrier pressure-viscosity-incompressibility-velocity packet.  A scalar
+  raw capacity fails by the \(O(r_\gamma)\) versus unit selected-action gap.
+- Already handled? The anchor has the admission language in `(32)` and the
+  critical frame in `(39)`--`(40)`; section 20 supplies the reversible-cycle
+  obstruction on the packing/no-cycle side.  `(*)` is the single bridge tying
+  those two clauses together.
+- Stronger insight? The two active annulus threads have clean proof roles:
+  one must prove same-carrier admission into \(\rho_\gamma\), and the other
+  must prove the admitted \(\rho_\gamma\)'s pack finitely through reversible
+  affine cycles.  Any branch that does not close one of those two clauses is
+  support.
+
+Thus the current live producer is not merely `(100)`.  The full producer is
+`(*)` with two noncircular clauses:
+
+\[
+\text{admission: }\quad
+a_\gamma>0
+\Rightarrow
+\rho_\gamma\gtrsim a_\gamma
+\text{ up to paid escape.}
+\tag{105}
+\]
+
+and
+
+\[
+\text{packing/no-cycle: }\quad
+\sum_{\gamma\subset P}\rho_\gamma
+\le C\mathcal R(P)+Paid(P).
+\tag{106}
+\]
+
+Section 20 explains why `(106)` cannot be endpoint Cauchy--Green storage:
+reversible affine cycles can return the endpoint metric while keeping positive
+selected action.  The remaining proof must build \(\mu_P\) from the original
+same-history packet so `(105)` is not future-tail selection and `(106)` is not
+an unbounded positive-variation primitive.
+
+## 22. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
@@ -1701,11 +1818,13 @@ endpoint-seed admission line; return and reset surfaces identify the right paid
 currencies; the upper critical-frame Bessel line is available after a
 parent-known critical lower-frame admission.
 
-Conditional relay: any branch of `(70)` that supplies a noncircular
-positive-flux reserve gives `(59)`--`(60)`; that gives one-sided positive
-critical transfer, the parent-known critical capacity frame,
-`NativeBirthChargePacking.A`, selected compression root reserve, finite
-selected action, full same-material clock, and continuation.
+Conditional relay: proving `(*)` with the admission clause `(105)` and the
+packing/no-cycle clause `(106)` gives finite selected action.  Equivalently,
+any branch of `(70)` that supplies a noncircular positive-flux reserve gives
+`(59)`--`(60)`; that gives one-sided positive critical transfer, the
+parent-known critical capacity frame, `NativeBirthChargePacking.A`, selected
+compression root reserve, finite selected action, full same-material clock, and
+continuation.
 
 Failed route: minimal first birth closes only in parent-relative language; it
 does not stop a shrinking chain whose first-birth status restarts after each
@@ -1742,7 +1861,9 @@ equivalent to the weight-beating tail law `(82)`, strict good-lambda `(83)`,
 bounded-below storage `(90)`, or terminal affine half-tail exclusion `(91)`;
 after the reversible-cycle test, `(91)` is specifically a root-finite positive
 metric-variation / no-reversible-Zeno theorem for the original same-history
-selected forest.
+selected forest; after the `(*)` audit, the live hinge is the two-clause
+no-free-zoom bridge: parent-known same-carrier admission `(105)` plus
+root-finite packing/no-cycle `(106)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
 obstruction showing that a retained positive upcascade can keep persistent
@@ -1751,9 +1872,13 @@ escaping descendant-tail storage, native carrier payment, zero-flux profile
 production, selected return, critical reset, exchange, stop/legal event, and
 fresh native birth charge.  Equivalently, prove the selected-forest lift `(78)`,
 or show that failure of `(78)` produces `PositiveActiveCarlesonReserve.A` or a
-rigid Zeno source class.  In the current strict form, this means prove `(83)`,
-`(90)`, or `(91)` from the original coupled Navier--Stokes history; with
-`(91)` now sharpened to the positive-variation budget `(100)`, not merely
-bounded endpoint Cauchy--Green state.
+rigid Zeno source class.  In the current strict form, this means prove `(*)`
+from the original coupled Navier--Stokes history: `(105)` must admit every real
+selected squeeze into a parent-known same-carrier material capacity, and
+`(106)` must pack those admitted capacities finitely through reversible affine
+cycles.  The older formulations `(83)`, `(90)`, and `(91)` are valid only insofar
+as they prove those two clauses; `(91)` remains sharpened to the
+positive-variation budget `(100)`, not merely bounded endpoint Cauchy--Green
+state.
 
 Partial, not Gold closed.
