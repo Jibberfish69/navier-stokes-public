@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-native-reserve-critical-fractional-transfer-reduction-20260628
-status: live-subhinge-positive-critical-transfer-open
+status: corrected-coordinate-face-not-standalone-cascade; native-birth-ledger-is-the-proof-object
 created_at: 2026-06-28T00:44:00Z
 problem: navier-stokes
 route: forward-gold same-material scale-native active participation
@@ -20,8 +20,101 @@ completion_truth: partial-not-mpp-closed
 
 # Native reserve as critical fractional transfer
 
-The finite native reserve inequality is a critical fractional energy estimate
-for the original coupled Navier-Stokes packet.
+## 0. Correction: this is only a coordinate face
+
+The previous reading of this note was too detached.  The half-derivative
+identity below is a valid coordinate face of the native reserve, but it is not
+the proof object and it must not be read as a generic statement that "the
+nonlinear term moves activity to small scales faster than viscosity drains it."
+
+Inside the Gold ontology, the positive transfer term is the same original
+transported pressure-viscosity-incompressibility-velocity transaction already
+handled by the physical surfaces:
+
+```math
+B_+
+\subset
+\text{parent-predictable transport}
++\text{changed reuse/reset}
++\text{annular payback}
++\text{PLS recirculation}
++\text{top-frequency regeneration}
++\text{fresh native birth}.
+\tag{0.1}
+```
+
+The installed branch meaning is:
+
+```math
+\text{parent-predictable transport}
+\Rightarrow
+A_{\rm sel}^{fresh}=0,
+\tag{0.2}
+```
+
+```math
+\text{changed reuse/reset}
+\Rightarrow
+\text{parent-announced first-exit derivative charge},
+\tag{0.3}
+```
+
+```math
+\text{annular payback}
+\Rightarrow
+\text{same-fluid Cauchy-stress transaction},
+\tag{0.4}
+```
+
+```math
+\text{PLS recirculation}
+\Rightarrow
+\text{bounded-record cycles / accelerated cycles / regeneration are paid},
+\tag{0.5}
+```
+
+and the remaining selected-scale event is
+
+```math
+\text{fresh native birth}
+\Rightarrow
+\text{first positive atom of the moving low-high same-packet interface}.
+\tag{0.6}
+```
+
+Therefore the real theorem is not a standalone positive nonlinear-transfer
+estimate.  The real theorem is the bounded-multiplicity native birth ledger:
+
+```math
+\iota:\Gamma_N(P)\to\mathcal R_N^{nat}(u_0;P),
+\qquad
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}
++R_{\rm legal}(\gamma)+Stop(\gamma),
+\qquad
+\operatorname{mult}(\iota)\le C_N,
+\tag{0.7}
+```
+
+with
+
+```math
+\sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}\rho
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{0.8}
+```
+
+The fractional identity below is the analytic shadow of `(0.7)`--`(0.8)`.
+It should be used only after the same-packet branch exhaustion has identified
+which part of \(B_+\) is inherited, reset-paid, annular-paid,
+recirculation-paid, or a first native birth.
+
+## 1. Coordinate identity
+
+The finite native reserve has a critical fractional-energy coordinate for the
+original coupled Navier-Stokes packet.
 
 Let
 
