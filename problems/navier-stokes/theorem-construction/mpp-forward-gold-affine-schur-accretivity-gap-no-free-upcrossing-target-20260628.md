@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: schur-thin-duality-packing-admission-open
+status: schur-thin-localized-green-current-admission-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -35,13 +35,18 @@ effect: >-
   equation for that detector. The scalar output heat equation is the wrong
   object because differentiating the product creates a critical cross-gradient
   forcing. The two-particle equation is the supplier form; the proof mechanism
-  must be same-carrier duality and packing. Each selected critical packet must
-  be admitted as a bounded parent-built adjoint read, then the selected reads
-  must Bessel/Carleson pack in a reserve that counts positive material-metric
-  variation, not merely endpoint deformation. This is the current open
-  producer for `(30)`, then the Schur-thin gate, then finite original-data
-  control of the Schur record, negative return, and inverse-Gram route
-  variation.
+  must be same-carrier duality and packing. The first duality pass exposed a
+  sharper obstruction: the raw weak-form current vanishes on compact interior
+  adjoint tests, so it cannot itself be the capacity that pays a positive
+  selected child zoom bill. The current open producer is localized Green-current
+  admission: construct the parent-collar/cutoff/material-boundary current,
+  solve the backward parent adjoint against the selected critical packet, and
+  prove that the resulting nonzero localized current admits the selected zoom
+  without selected-child lookahead. The admitted localized detectors must then
+  Bessel/Carleson pack in a reserve that counts positive material-metric
+  variation, not merely endpoint deformation. This is the current open producer
+  for `(30)`, then the Schur-thin gate, then finite original-data control of the
+  Schur record, negative return, and inverse-Gram route variation.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
@@ -1028,3 +1033,169 @@ Thomas-dialogue verdict:
 
 Partial, not Gold closed. The current sharp producer is same-carrier adjoint
 admission `(54)` plus positive-metric-variation Bessel packing `(55)`--`(58)`.
+
+## 12. Null-current pressure test: the parent capacity must be localized
+
+The admission inequality `(54)` still hides one mathematical lie if
+\(\mathfrak J_P\) is read as the raw weak-form current on interior adjoint
+tests.  Navier-Stokes itself makes that current vanish.
+
+For every smooth adjoint field \(\psi\) compactly supported in the interior of
+the parent packet \(P\), the weak formulation gives
+
+\[
+\mathfrak J_P(\psi)=0 .
+\tag{63}
+\]
+
+Thus an interior detector class would give
+
+\[
+\rho_Q
+=
+\sup_{\psi\in\mathcal A_Q(P),\ \|\psi\|_{\mathfrak C_P}\le1}
+|\mathfrak J_P(\psi)|^2
+=0,
+\tag{64}
+\]
+
+while the selected zoom bill \(a_Q\) can be positive.  In that reading,
+
+\[
+a_Q\le C\rho_Q+C e_Q
+\tag{65}
+\]
+
+is false unless the whole selected squeeze has already been hidden inside the
+error \(e_Q\).  That would only rename the selector-admission gap.
+
+The parent-known current has to be the localized Green current, not the raw
+interior weak-form current.  Choose a parent cutoff or stopped material carrier
+\(\chi_P\), form the global test \(\chi_P\psi\), and commute the weak equation
+through the parent localization.  Schematically,
+
+\[
+0
+=
+\mathfrak J(\chi_P\psi)
+=
+\mathfrak J_P^{int}(\psi)
++
+\mathfrak J_P^{loc}(\psi),
+\tag{66}
+\]
+
+where \(\mathfrak J_P^{int}(\psi)\) is the formal interior weak current and
+\(\mathfrak J_P^{loc}(\psi)\) is the parent-visible cutoff, collar, frame,
+material-boundary, reselection, and parabolic-bottom current.  Since
+\(\mathfrak J_P^{int}\) vanishes for true interior tests, the nonzero parent
+capacity must be built from \(\mathfrak J_P^{loc}\).
+
+The corrected capacity is therefore
+
+\[
+\rho_Q^{loc}
+:=
+\sup_{\psi\in\mathcal A_Q^{loc}(P),\ \|\psi\|_{\mathfrak C_P}\le1}
+|\mathfrak J_P^{loc}(\psi)|^2 .
+\tag{67}
+\]
+
+The admissible adjoint class \(\mathcal A_Q^{loc}(P)\) is no longer just
+"solve an adjoint that sees \(Q\)."  It must solve the parent backward problem
+with selected critical source, keep the detector parent-announced, and expose
+the source through the parent localization:
+
+\[
+\mathcal L_P^\ast\psi_Q=\mathcal E_Q(D_Q),
+\qquad
+\psi_Q\ \text{built on the stopped parent carrier before child readout}.
+\tag{68}
+\]
+
+The actual no-free-zoom admission line becomes
+
+\[
+a_Q
+\le
+C\rho_Q^{loc}
++
+C e_Q^{collar/reset/selector/legal}.
+\tag{69}
+\]
+
+This is a collar-observability statement for the full coupled packet.  It says:
+if the selected strain-pressure packet is real, then the parent backward
+adjoint must push a visible amount of that packet into parent-known
+collar/cutoff/material-boundary current, unless the packet is paid by
+reselection, legal stop, pressure-Hodge null cancellation, fresh onset, or
+same-witness endpoint-face material.
+
+The Bessel step must then pack the localized currents, not the null interior
+weak currents:
+
+\[
+\sum_{Q\subset P}(\rho_Q^{loc})^{nov}
+\le
+C\mathcal R_{loc}(P)
++
+C\int_P |K|^2\,d\mu_P
++
+C E_{\rm paid}(P).
+\tag{70}
+\]
+
+The positive metric-variation reserve still matters here, but it is not enough
+by itself.  It pays repeated motion of the parent detector geometry.  The
+localized Green current is what prevents the adjoint capacity from being zero.
+
+Paid line:
+
+\[
+\text{localized Green-current admission `(69)' plus localized-current packing `(70)'}
+\Longrightarrow
+\text{finite selected zoom bill `(59)'.}
+\tag{71}
+\]
+
+Failed line:
+
+\[
+\text{raw weak-form parent current on compact interior adjoint tests}
+\not\Longrightarrow
+\text{selected zoom admission, because the current is zero.}
+\tag{72}
+\]
+
+Sharper unproved line:
+
+\[
+\text{prove parent-localized adjoint observability `(69)' for the full
+strain--pressure packet, then pack the localized novelty currents by `(70)'.}
+\tag{73}
+\]
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It attacks the exact point where
+  "parent-known capacity" could be fake: the raw weak-form current is null on
+  interior tests.
+- Did this prove smoothness? No.  It rejects the raw-current admission and
+  replaces it with the sharper localized Green-current admission.
+- What does it mean physically? A child squeeze is paid only if the parent sees
+  it through its real collar, cutoff, material-boundary, bottom, frame, or
+  reselection current.  An interior test that vanishes by the equation has seen
+  nothing.
+- Is this the full coupled packet or a scalar proxy? It is full-packet only
+  when the localization keeps velocity, viscosity, pressure, incompressibility,
+  material frame, and pressure-Hodge null routing in the same Green identity.
+- Is this already handled in the repo? No.  Existing notes prove bounded Riesz
+  admission after a selected unit is already admitted and prove abstract Bessel
+  after parent-subtracted novelty.  They do not prove the localized Green
+  observability `(69)`.
+- Did this create another alias? No.  It removes one: raw parent adjoint
+  capacity is an alias unless it is the localized current produced by commuting
+  the parent weak form.
+
+Partial, not Gold closed. The current sharp producer is localized Green-current
+admission `(69)` plus localized novelty packing `(70)`.
