@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: full-output-root-fixed-ac-terminal-storage-open
+status: full-output-terminal-uniform-l1-service-storage-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -3085,18 +3085,20 @@ no-atom storage `(195)`--`(199)` for the same parent-known active
 Hodge--Stokes / positive-metric packet, or same-witness endpoint-face
 consumption if that storage fails.
 
-## 31. Root-fixed AC storage pays the no-jump clause
+## 31. Root-fixed terminal-uniform AC storage pays the no-jump clause
 
 The no-jump clause in `(198)` is not an extra reserve if the storage is really
-built from the original smooth preterminal packet.  For a fixed parent \(P\),
-root-fixed full-packet storage must have the form
+built from the original smooth preterminal packet with terminal-uniform service.
+Local AC on \([0,T-\varepsilon]\) is automatic and does not rule out a terminal
+atom.  For a fixed parent \(P\), root-fixed full-packet storage must have the
+form
 
 \[
 \mathcal L_P(t)
 =
 \mathcal L_P(t_0)+\int_{t_0}^{t}\ell_P(s)\,ds+Paid_P(t),
 \qquad
-\ell_P\in L^1,
+\int_{t_0}^{T}(\ell_P)_-\,dtdx\le C_N(u_0)+E_{\rm paid}(P),
 \tag{203}
 \]
 
@@ -3109,8 +3111,9 @@ C(\ell_P)_-\,dtdx+d\lambda_P+dPaid_P,
 \tag{204}
 \]
 
-where the un-paid part of \(\lambda_P\) is \(L^1\)-absolutely continuous on the
-same root history.  Then for every terminal cylinder \(T_\rho(z_0)\),
+where the un-paid part of \(\lambda_P\) is \(L^1\)-absolutely continuous with a
+terminal-uniform bound on the same root history.  Then for every terminal
+cylinder \(T_\rho(z_0)\),
 
 \[
 \mu_P^{end}(T_\rho(z_0))
@@ -3121,7 +3124,8 @@ C\int_{T_\rho(z_0)}(\ell_P)_-\,dtdx
 \tag{205}
 \]
 
-Absolute continuity of \(L^1\) integrals on the fixed root history gives
+Absolute continuity of terminal-uniform \(L^1\) integrals on the fixed root
+history gives
 
 \[
 \lim_{\rho\downarrow0}\sup_{z_0}\mu_P^{end}(T_\rho(z_0))=0
@@ -3133,13 +3137,15 @@ storage implies the terminal no-atom/no-jump condition.
 
 The remaining affine wall is the construction of `(203)`--`(204)` from the
 original pressure-viscosity-incompressibility-velocity packet.  A BV lower
-bound alone permits one terminal jump; a child-renormalized AC storage permits
-reset/rebase aliasing.  Root-fixed AC storage is the required object.
+bound alone permits one terminal jump; \(L^1_{\rm loc}\) preterminal AC allows
+service concentration at \(T\); a child-renormalized AC storage permits
+reset/rebase aliasing.  Root-fixed terminal-uniform AC storage is the required
+object.
 
 Physical reading: the same material packet can only spend through an actual
 integrable service density.  One terminal jump is a bookkeeping artifact unless
 the proof has abandoned the original AC packet and replaced it with an abstract
 BV counter.
 
-Partial, not Gold closed.  The strict affine producer is root-fixed absolutely
-continuous full-packet terminal storage `(203)`--`(204)`.
+Partial, not Gold closed.  The strict affine producer is root-fixed
+terminal-uniform \(L^1\) full-packet service storage `(203)`--`(204)`.
