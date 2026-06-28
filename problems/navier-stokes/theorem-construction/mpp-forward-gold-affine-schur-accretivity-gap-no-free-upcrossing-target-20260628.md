@@ -2157,10 +2157,12 @@ Failed line:
 \]
 
 Partial, not Gold closed. The category repair is installed; the live theorem is
-now actual-selected parent-current capture/admission: every positive high-high
-dyadic transfer must enter the paid same-carrier current as first-entry Bessel
-novelty or retained Schur work, or be routed to return, motion, viscosity,
-legal, stop, or same-witness endpoint material.
+now actual-selected parent-current capture/admission with the carrier typed:
+full output-local high-high stress must enter the one-point paid same-carrier
+current as first-entry Bessel novelty or retained Schur work, while
+input-coloured high-high transfer requires a two-point parent-current theorem,
+or the event is routed to return, motion, viscosity, legal, stop, or
+same-witness endpoint material.
 
 ## 22. High-high capture has a carrier choice: full output or two-point current
 
