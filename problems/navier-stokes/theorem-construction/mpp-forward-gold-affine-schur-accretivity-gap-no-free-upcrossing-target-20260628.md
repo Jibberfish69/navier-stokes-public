@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628
-status: schur-thin-parabolic-thickness-open
+status: schur-thin-source-variation-open
 created: 2026-06-28
 problem: navier-stokes
 route: forward-gold affine Schur scale-memory record / original packet storage
@@ -28,10 +28,12 @@ effect: >-
   be fresh onset, route motion, negative return, viscous/time-thickness loss,
   legal/stop, or same-witness endpoint-face material. A first-passage test
   proves that Schur memory pays residence after visibility but not arbitrarily
-  thin square-large impulses. The remaining theorem is the parabolic
-  time-thickness estimate `(24)` for Schur-thin retained production, followed by
-  finite original-data control of the Schur record, negative return, and
-  inverse-Gram route variation.
+  thin square-large impulses. A BV pressure test then identifies the exact
+  parent quantity that sees those impulses: material-time variation of the
+  same-carrier source detector. The remaining theorem is the differentiated
+  source-variation bound `(30)` without losing the critical coefficient,
+  followed by finite original-data control of the Schur record, negative return,
+  and inverse-Gram route variation.
 ---
 
 # Affine Schur accretivity gap for no-free-upcrossing
