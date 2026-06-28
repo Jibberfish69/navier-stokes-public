@@ -3177,9 +3177,15 @@ motion is strain-vorticity, viscous graph, connection, stop, or legal charge.
 The gap-normalized audit `(170)`--`(175)` then sharpens that charge: the
 principal spin-axis projector motion is pointwise controlled by positive
 material metric variation, and only angular viscous/connection/gap-loss residue
-remains outside the \(|K|^2\simeq|S|^2\) term.
+remains outside the \(|K|^2\simeq|S|^2\) term.  The critical-capacity
+compactness audit `(176)`--`(186)` shows that tight selected critical mass is
+killed by zero-payment rigidity and moving tube escape is paid by first-exit
+derivative machinery; the remaining live branch is fixed-core terminal
+anti-atom/no-residue trace storage.
 
-Conditional relay: proving the critical parent-capacity packing `(175)` supplies
+Conditional relay: proving fixed-core no-residue trace storage `(184)`--`(185)`
+supplies the terminal anti-atom `(186)`, hence tightness-or-paid-escape for the
+critical defect measure, hence critical parent-capacity packing `(175)`, hence
 the active-weight strain-vorticity/connection estimate `(169)`, hence the
 parent-announced active quotient projector bound `(163)`, hence the noncircular
 geometry needed for active Hodge--Stokes admission `(155)` and quotient
