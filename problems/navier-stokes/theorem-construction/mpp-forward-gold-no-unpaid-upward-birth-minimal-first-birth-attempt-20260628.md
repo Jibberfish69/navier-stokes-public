@@ -5312,7 +5312,7 @@ Thomas-dialogue verdict:
   \(\mathcal L_P\) is built before endpoint positive-part extraction from the
   pressure, viscosity, incompressibility, strain, active pressure quotient,
   selector, collar, and legal channels together.
-- Is this already handled in the repo? The consumer implication `(327)` is
+- Is this already handled in the repo? The consumer implication `(329)` is
   only the no-reuse implication.  The Gold implication is `(330)`, and the
   construction of a root-fixed \(\mathcal L_P\) with terminal no-jump is not
   installed.
