@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-no-unpaid-upward-birth-minimal-first-birth-attempt-20260628
-status: active-quotient-motion-reduced-to-critical-metric-capacity-open
+status: fixed-core-critical-no-residue-trace-storage-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material native reserve birth-spend
@@ -2957,12 +2957,197 @@ Thomas-dialogue verdict:
   critical positive-metric/primitive graph-driver capacity problem instead of
   making "strain-vorticity projector Carleson" a new frontier.
 
-The live producer is now `(175)`: prove the critical parent-capacity Bessel
-packing for positive material metric variation plus angular viscous/connection
-residue.  That supplies `(169)`, hence `(163)`, `(162)`, `(155)`--`(156)`, and
-then the duality-and-packing form of `(*)`.
+This stage exposes `(175)`: critical parent-capacity Bessel packing for
+positive material metric variation plus angular viscous/connection residue.
+The next audit tests how a failure of `(175)` can produce a genuine zero-cost
+packet rather than another selected half-tail.
 
-## 31. Truth ledger
+## 31. Critical-capacity compactness audit: the fixed core remains
+
+Now test `(175)` by minimal bad packet compactness.  A direct estimate from
+raw energy is circular: on a heat-scale packet of radius \(r\),
+
+\[
+\int_{Q_r}|S|^2\,dxdt\sim r,
+\qquad
+r^{-1}\int_{Q_r}|S|^2\,dxdt\sim1 .
+\tag{176}
+\]
+
+The critical capacity norm is exactly the missing scale weight.  Thus proving
+`(175)` cannot mean renaming raw positive metric variation; it must show that
+failure of the critical Bessel/Carleson bound produces an impossible
+same-carrier zero-payment object.
+
+Let a normalized failure produce the selected critical defect measure
+
+\[
+d\mu_n^{crit}
+=
+\sum_{Q\subset P_n}a_{Q,n}\,\delta_{\mathcal C(Q)},
+\qquad
+\mu_n^{crit}(\mathcal C_n)=1,
+\tag{177}
+\]
+
+with
+
+\[
+\mathcal R(P_n)+E_{\rm paid}(P_n)+R_{\rm legal}(P_n)+Stop(P_n)\to0 .
+\tag{178}
+\]
+
+Here \(\mathcal C(Q)\) records the normalized carrier data: material chart,
+metric frame, selector/collar/Hodge labels, gauge-reduced pressure-Hessian
+projection, adjoint source, parent filtration, and stopped legal chart.  For a
+compact exhaustion \(\mathcal C_M\Subset\mathcal C\), define
+
+\[
+K_{\rm esc}
+:=
+\lim_{M\to\infty}\limsup_{n\to\infty}
+\mu_n^{crit}(\mathcal C\setminus\mathcal C_M).
+\tag{179}
+\]
+
+If \(K_{\rm esc}<1\), a nonzero selected packet remains in a compact
+same-carrier class.  Passing to the limit gives
+
+\[
+\|D_\infty\|_{crit}=1,
+\qquad
+\mathfrak J_\infty(\psi)=0,
+\qquad
+K_\infty=0,
+\qquad
+R_{\rm legal}=Stop=0 .
+\tag{180}
+\]
+
+The already installed rigidity consumers apply to `(180)`: \(K_\infty=0\)
+forces \(S_\infty=0\), and the gauge-reduced active Hodge--Stokes quotient
+annihilates the remaining rigid-spin pressure curvature.  Hence
+\(D_\infty=0\), contradicting \(\|D_\infty\|_{crit}=1\).  The tight branch is
+therefore killed.
+
+If \(K_{\rm esc}=1\), selected critical mass has escaped to the boundary of
+the stopped carrier compactification.  Escape through detector shape,
+selector/collar/Hodge chart, covector/metric frame, terminal stop, or legal
+boundary is paid by the terms in `(178)`.  Escape through a moving first-exit
+representation is also paid: whenever
+
+\[
+D_Q^{crit}(t)
+=
+|I_Q|^{-1}
+\int_{I_Q}G_Q(\sigma,t)\,d\sigma
++Err_Q^{legal}(t),
+\tag{181}
+\]
+
+with \(I_Q\) parent-announced and
+
+\[
+G_Q
+=
+\partial_\sigma Z_Q
++\operatorname{turnstile}
++\operatorname{exchange}
++\operatorname{covector}
++\operatorname{frame}
++\operatorname{Hodge/collar}
++\operatorname{pressure},
+\tag{182}
+\]
+
+the existing Cauchy/high-weight tube mechanism gives
+
+\[
+\sum_{Q\subset P}^{first\text{-}exit}
+\int H_{I_Q}\|D_Q^{crit}\|_{\mathfrak H_P}^2
+\le
+C\int_{\operatorname{Hist}(P)}w\|G\|_{\mathfrak H_P}^2
++CR_{\rm legal}(P)+CStop(P).
+\tag{183}
+\]
+
+Thus the moving part of tube escape is not live.  The remaining branch is
+fixed-core pure tube escape: the same material carrier, selector chart,
+gauge-reduced pressure-Hessian projection, metric/covector frame, Hodge/collar
+chart, and legal/stop status remain compact, while the selected critical mass
+occupies smaller and smaller heat-scale tents.
+
+The exact producer for that branch is a no-residue trace storage.  For stopped
+parabolic tents \(T_\rho(z_0)\) in the parent material carrier, prove
+
+\[
+\mu_{P,fix}^{crit}(T_\rho(z_0))
+\le
+C\,\operatorname{Osc}_{T_{c\rho}(z_0)}\Phi_P
++
+C(E_{\rm paid}+R_{\rm legal}+Stop)(T_{c\rho}(z_0)),
+\tag{184}
+\]
+
+where \(\Phi_P\) is a parent-known full-packet capacity potential for the same
+selected carrier, and prove the no-terminal-jump condition
+
+\[
+\lim_{\rho\downarrow0}
+\sup_{z_0}
+\operatorname{Osc}_{T_{c\rho}(z_0)}\Phi_P
+=0
+\tag{185}
+\]
+
+outside paid terminal/legal channels.  Then the pure branch has no terminal
+critical atom:
+
+\[
+\lim_{\rho\downarrow0}
+\sup_{z_0}
+\mu_{P,fix}^{crit}(T_\rho(z_0))
+=0
+\tag{186}
+\]
+
+in the zero-payment regime `(178)`.
+
+The paid line is now exact.  Tight selected mass is killed by zero-cost
+rigidity.  Moving escape is paid by `(181)`--`(183)`.  The unproved line is
+fixed-core no-residue trace storage `(184)`--`(185)`.  A finite total storage
+is not enough, because a finite measure can still have a terminal atom; the
+storage must be continuous on shrinking same-carrier tents outside paid
+terminal/legal channels.
+
+Thomas-dialogue verdict:
+
+- Is this actually the live object? Yes.  It attacks `(175)`, the current
+  critical capacity producer, by asking what failure of that producer really
+  yields.
+- Did this prove smoothness? No.  It proves the tight/moving branches are not
+  the live obstruction and isolates the fixed-core trace atom.
+- What does it mean physically? Changing carrier data is work.  Re-reading the
+  same unchanged packet at smaller heat scales is not a reset; it must be
+  blocked by a no-terminal-atom storage law on that packet.
+- Is this the full coupled packet or a scalar proxy? Full coupled packet:
+  strain, active pressure-Hessian/Hodge, viscosity, incompressibility, material
+  metric, covectors, collar, selector, stop, and legal channels all stay in the
+  carrier record.
+- Is this already handled in the repo? Moving first-exit/reset pieces and
+  zero-cost rigidity are installed as consumers.  Fixed-core no-residue trace
+  storage `(184)`--`(185)` is not installed here.
+- Did this create another alias? No.  It rejects "critical capacity packing" as
+  a bare label and replaces it with the specific fixed-core terminal anti-atom
+  that must be proved.
+
+The live producer is now `(184)`--`(185)`: construct a parent-known full-packet
+capacity potential \(\Phi_P\) whose oscillation pays fixed-core selected
+critical mass and has no terminal jump on shrinking same-carrier tents.  That
+gives `(186)`, hence tightness-or-paid-escape, hence `(175)`, `(169)`, `(163)`,
+`(162)`, `(155)`--`(156)`, and the duality-and-packing form of `(*)`.
+
+## 32. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
