@@ -5525,7 +5525,11 @@ graph kernel closure `(311)`--`(316)` kills that interior kernel on retained
 parent-announced charts, so active graph coercivity is not the final live
 producer.  The survivor is fixed-core terminal concentration of the same full
 packet, measured by `(317)` and excluded only by terminal no-atom storage
-`(318)`--`(320)`.
+`(318)`--`(320)`.  Treating no-waste Lyapunov as child-local storage also fails:
+`(326)` can pay the same terminal pulse once after every zoom without a single
+original-history functional seeing the accumulated drop.  A no-waste mechanism
+counts only if it has root-fixed descent `(324)` and nonresettable layer
+accounting `(325)`.
 
 Equivalent hinge: the live issue is the root-relative nonresettable ancestry
 clause upgraded to a parent-known critical material-capacity frame inside
@@ -5599,7 +5603,10 @@ inherited positive level is not a new selected action.  After the active graph
 kernel closure, `(295)` passes the interior graph-kernel test by
 `(311)`--`(316)`, and the equivalent hinge is terminal full-packet no-atom
 storage `(318)`--`(320)`: exclusion of fixed-core endpoint atoms of the same
-parent-known packet.
+parent-known packet.  After the terminal no-waste pressure test, that hinge is
+equivalent on the positive route to root-fixed full-packet descent
+`(324)`--`(325)`, with child-renormalized descent `(326)` rejected as reset
+aliasing.
 Failure of that upgrade is the same-witness CM endpoint-face branch `(196)`.
 
 Live producer: prove one branch of `(70)`, or produce a specific same-material
@@ -5618,8 +5625,9 @@ admission and record-variation packing `(246)`--`(247)` for the bill `(232)`,
 with the square-to-linear terminal admission supplied by actual-selector
 first-exit capture `(287)` / `(290)`, sharpened through parent-subtracted
 selector capture `(294)`--`(300)`, active graph kernel closure
-`(311)`--`(316)`, and terminal full-packet no-atom storage `(318)`--`(320)`,
-refining `(254)`/`(256)` through `(269)`--`(322)`.  That supplies
+`(311)`--`(316)`, terminal full-packet no-atom storage `(318)`--`(320)`, and
+root-fixed no-waste descent `(324)`--`(325)` rather than child-renormalized
+storage `(326)`, refining `(254)`/`(256)` through `(269)`--`(328)`.  That supplies
 `(234)`--`(235)`, the
 order-lock overlap terminal branch `(217)`--`(230)`, the order-locked full
 endpoint super-\(L^1\)/Hardy producer `(204)`--`(216)`, `(192)`--`(194)`,
