@@ -3,6 +3,16 @@ version: 1
 problem_id: navier-stokes
 generated_at: '2026-06-27T23:52:39Z'
 status: exported
+manual_gold_correction:
+  updated_at: '2026-06-28T00:36:00Z'
+  status: exported-bundle-stale-against-current-gold-edge
+  current_gold_next_proof_unit: NativeBirthChargePacking.A / CriticalFreshSourceTentCarleson.A / OriginalScaleMemoryStorageCoercivity.A
+  correction: >-
+    Any generated positive-supplier / OriginalSmoothDataPackSurvival route in this
+    bundle is stale for the current Gold edge. Bounded original-packet / Riesz
+    selected action is an admitted-selector support channel. The live MPP-bearing
+    branch is bounded-multiplicity native-reserve packing for retained scale-native
+    high-ratio zoom births from the original coupled Navier-Stokes packet.
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
