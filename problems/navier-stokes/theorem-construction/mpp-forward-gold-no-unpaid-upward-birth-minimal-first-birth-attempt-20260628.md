@@ -1096,7 +1096,163 @@ prove `(59)`--`(60)`, or produce a genuine same-material obstruction in which a
 retained positive upcascade regenerates without descendant-tail storage, native
 carrier payment, zero-flux profile production, or paid exit.
 
-## 17. Truth ledger
+## 17. Donor / signed-saturation reserve attempt
+
+Try to construct \(B(Q)\) from the signed donor graph of the same material
+flux.
+
+For a selected positive terminal edge \(e=(D\to R)\), let \(d\pi^+(e)\) be the
+positive selected flux from donor to receiver after localization, one-sided
+weighting, same-fluid packet selection, and positive-part extraction.  The
+unlocalized dyadic exchange has a signed counter-edge, but the counter-edge is
+usable only when it survives the same selected terminal ledger.  The desired
+edgewise saturation is
+
+\[
+d\pi^+(e)
+\le
+d\pi^-(e^\ast)+d\mathcal D_{\rm legal}(e).
+\tag{62}
+\]
+
+If `(62)` is retained for every selected positive edge, finite donor graphs are
+paid.  A finite internal donor chain telescopes through local donor balance and
+entrance decay; a legal exit is paid by the legal/collar/cutoff ledger; a
+retained signed partner is paid in the same terminal ledger.  This supplies a
+finite-graph reserve \(B_{\rm fin}\).
+
+The paid line is therefore:
+
+\[
+\text{finite same-fluid donor graph}
+\Rightarrow
+\text{positive selected flux is signed-saturated or legal-paid.}
+\tag{63}
+\]
+
+The unproved line is the infinite terminal Zeno donor chain:
+
+\[
+r_m\downarrow0,\qquad
+d\pi^+(e_m)\simeq1,
+\qquad
+\sum_m \text{raw cost}(e_m)<\infty,
+\tag{64}
+\]
+
+with the signed counter-edge continually moving into the next terminal donor
+packet instead of remaining in the same selected ledger.  Defining
+
+\[
+B(Q)=\sum_{m:Q_m\subset Q}d\pi^+(e_m)
+\tag{65}
+\]
+
+would close `(59)`, but `(65)` is exactly the descendant positive-flux tail and
+is circular.
+
+So signed cancellation is not the producer.  It pays only finite donor graphs
+and turns the reserve problem into the no-free terminal Zeno donor-chain atom.
+That atom has three noncircular exits:
+
+1. source-control / positive-remainder depletion;
+2. independent positive active Carleson reserve;
+3. rigid Zeno source class plus residue Liouville.
+
+Work the source-control exit.  On a localized same-fluid terminal source packet,
+write the pre-Cauchy source as
+
+\[
+\mathcal N_{preCauchy}^{loc}
+=
+\partial_t\mathcal E_P
++\mathcal D_P
++\operatorname{div}_{\Phi}\mathcal J_P
++\mathcal R_P .
+\tag{66}
+\]
+
+The target depletion estimate would be
+
+\[
+\int_{Q(P)}[\mathcal R_P]_+
+\le
+\theta\int_{Q(P)}\mathcal D_P
++\operatorname{Drain}_{parent}(P)
++\operatorname{Loss}_{legal}(P),
+\qquad
+0<\theta<1 .
+\tag{67}
+\]
+
+The direct drain absorption fails on the principal positive remainder
+
+\[
+[\langle S_{<j}^{loc}w_j,w_j\rangle]_+
+=
+|w_j|^2[e_j\cdot S_{<j}^{loc}e_j]_+ .
+\tag{68}
+\]
+
+A trace-free strain can have an expanding eigendirection, and the selected high
+packet can align with it on a shrinking terminal window.  Signed dyadic
+cancellation happens before one-sided weighting, cutoff, same-fluid selection,
+and positive-part extraction.  Cauchy/Young bounds `(68)` by the active-square
+carrier, which is the target reserve again.  Reverse-Holder parent
+concentration is also unavailable because the positive mass may be diffuse
+over many legal parent pieces.
+
+Thus the source-control exit reduces to terminal angular mixing:
+
+\[
+\sum_{P\in\mathcal F_N}
+\int_{Q(P)}
+|w_{j_P}|^2
+[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}]_+
+\,dxdt
+\le
+C\rho_{inst,N}(\mathcal F_N)+o_N(1).
+\tag{69}
+\]
+
+Thomas-dialogue verdict:
+
+- Did the donor reserve prove smoothness? No.  It pays finite donor graphs and
+  isolates the infinite Zeno donor chain.
+- Did it rename the hinge? It would be a rename if `B` is `(65)`, the
+  descendant positive-flux tail.  A real reserve must be source-control,
+  active-Carleson, or rigid-Zeno, with root value bounded before selected tail.
+- What does it mean physically? The same pressure-Hodge-stress interface cannot
+  feed a receiver forever by moving the signed counter-edge into ever smaller
+  terminal donors unless angular alignment, active reserve, or a rigid residue
+  accounts for that motion.
+- Is it full packet? Yes only when the donor edge, counter-edge, legal exit,
+  source remainder, and angular alignment are all read from the same transported
+  pressure-viscosity-incompressibility packet.
+- Is it already handled? The finite graph and signed atom balance are handled.
+  The infinite terminal Zeno donor chain, positive-remainder depletion, terminal
+  angular mixing, and rigid-Zeno source class are not.
+- What stronger insight did failure reveal? The noncircular reserve is now
+  equivalent to preventing persistent positive alignment of the selected high
+  packet with expanding low-strain eigendirections on the same terminal
+  ancestry, or else proving that such persistence produces a rigid Zeno residue
+  class.
+
+The live producer has sharpened from `(59)`--`(60)` to the following fork:
+
+\[
+\text{TerminalAngularMixing.A / PositiveStrainDecorrelation.A}
+\quad\text{or}\quad
+\text{PositiveActiveCarlesonReserve.A}
+\quad\text{or}\quad
+\text{ZenoBoundedClass}_B+\text{ZenoResidueLiouville}_B .
+\tag{70}
+\]
+
+This is still not Gold closure.  It is the smallest current form of the
+noncircular positive-flux reserve.
+
+## 18. Truth ledger
 
 Proved consumer: selected-density Hilbert BMO and reverse Holder close after the
 weighted fresh-innovation/native-reserve producer is supplied.
