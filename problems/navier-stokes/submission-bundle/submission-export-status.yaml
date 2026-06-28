@@ -6,13 +6,15 @@ status: exported
 manual_gold_correction:
   updated_at: '2026-06-28T00:36:00Z'
   status: exported-bundle-stale-against-current-gold-edge
-  current_gold_next_proof_unit: NativeBirthChargePacking.A / CriticalFreshSourceTentCarleson.A / OriginalScaleMemoryStorageCoercivity.A
+  current_gold_next_proof_unit: PositiveCriticalTransferBound.A inside NativeBirthChargePacking.A
   correction: >-
     Any generated positive-supplier / OriginalSmoothDataPackSurvival route in this
     bundle is stale for the current Gold edge. Bounded original-packet / Riesz
     selected action is an admitted-selector support channel. The live MPP-bearing
-    branch is bounded-multiplicity native-reserve packing for retained scale-native
-    high-ratio zoom births from the original coupled Navier-Stokes packet.
+    branch is PositiveCriticalTransferBound.A: absorb the positive Leray-projected
+    critical nonlinear transfer in the H^{1/2} identity by C(u0) plus a strict
+    fraction of the native reserve. Native-reserve packing is the parent hinge;
+    the direct analytic face is this positive critical transfer theorem.
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
