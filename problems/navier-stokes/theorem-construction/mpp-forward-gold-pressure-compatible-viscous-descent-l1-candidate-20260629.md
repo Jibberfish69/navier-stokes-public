@@ -614,9 +614,11 @@ data.
 
 The pressure-compatible stopping-jet theorem would replace `(PVD.32)` by the
 stronger law `(PVD.11)` together with `(PVD.19)`, `(PVD.22)`, `(PVD.23)`, and
-the pressure-tail estimate `(PVD.29)`: a positive compatibility pulse cannot be
+the pressure-tail estimate `(PVD.29)`, now sharpened through the heat-lag
+finite-difference estimate `(PVD.31f)`: a positive compatibility pulse cannot be
 counted as selected service while the packet is falsely treated as at rest in
-velocity alone or while its pressure-parent tail only oscillates.
+velocity alone, while its pressure-parent tail only oscillates, or while its
+one-heat-time velocity/shear response is still pending.
 
 This is the missing \(L^1\) relationship suggested by the physical picture:
 
@@ -644,14 +646,17 @@ Installed repo surfaces prove:
    control.
 
 They do not yet prove `(PVD.11)` together with `(PVD.19)`, `(PVD.22)`,
-`(PVD.23)`, and `(PVD.29)`.  Proving the positive-service estimate together
-with the no-retained-stopping-tail, moving-frame-storage, and pressure-tail
-cancellation/damping statements is the concrete form of the Gold \(L^1\)
+`(PVD.23)`, `(PVD.29)`, and the heat-lag no-recount estimate `(PVD.31f)`.
+Proving the positive-service estimate together with the no-retained-stopping
+tail, moving-frame-storage, pressure-tail cancellation/damping, and weighted
+finite-difference response statements is the concrete form of the Gold \(L^1\)
 theorem.
 
 The pressure-tail good-lambda reduction records the exact final proof shape:
 prove a strict recurrence \(N_{L+1}\le\vartheta N_L+B_L\) with
-\(2\vartheta<1\).  That recurrence implies the weighted pressure-tail moment,
-which implies `(PVD.29)`, which then implies `(FGC.25)`.
+\(2\vartheta<1\), or equivalently prove the weighted heat-lag
+finite-difference no-recount estimate.  That recurrence/no-recount theorem
+implies the weighted pressure-tail moment, which implies `(PVD.29)`, which then
+implies `(FGC.25)`.
 
 Partial, not Gold closed.

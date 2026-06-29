@@ -301,7 +301,7 @@ finite-difference response of the centered NS tower gap:
 [\mathsf N_{\xi,k}]_+
 =
 {1\over2}[\mathsf G_{\xi,k}]_+ .
-\tag{PTG.24}
+\tag{PTG.20}
 \]
 
 On one dyadic heat window \(I\), the differentiated row gives
@@ -314,7 +314,7 @@ On one dyadic heat window \(I\), the differentiated row gives
 +\int_I[-\mathsf C_{\xi,k,\lambda}]_+
 +\int_I[\mathsf P_{\xi,k,\lambda}]_-
 +\int_I\mathsf{Paid}_{\xi,k,\lambda}.
-\tag{PTG.25}
+\tag{PTG.21}
 \]
 
 Thus the strict recurrence follows from the weighted heat-lag no-recount
@@ -373,7 +373,7 @@ Insert `(PTG.2)` into the row split
 +\mathsf V_{\xi,k}
 -{d\over dt}\mathcal B_{\xi,k}
 +\mathsf{Paid}_{\xi,k}.
-\tag{PTG.20}
+\tag{PTG.24}
 \]
 
 The pressure-parent positive part is finite by `(PTG.2)`.  The viscous part is
@@ -388,7 +388,7 @@ paid material.  Summing over selected rows gives
 \mathcal M_N(Y_N)_+\,da\,dt
 \le
 C_N(u_0).
-\tag{PTG.21}
+\tag{PTG.25}
 \]
 
 This is `(FGC.25)`.  The proof of smoothness follows from the already-installed

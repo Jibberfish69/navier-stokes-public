@@ -27,6 +27,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-derivative-tower-positive-service-l1-proof-attempt-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-compatible-viscous-descent-l1-candidate-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-tail-good-lambda-l1-proof-reduction-20260629.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-gap-finite-difference-l1-reduction-20260629.md
 ---
 
 # Gold full smoothness closure reconciliation
@@ -386,12 +387,16 @@ candidate, the storage derivative is the moving-frame correction:
 \(\mathsf C_{\xi,k}=-d\mathcal B_{\xi,k}/dt\).  The remaining \(L^1\)
 obstruction is oscillation of the pressure-parent tower: an infinite frequency
 tail could have zero signed endpoint while still producing infinite positive
-selected variation.  The needed pressure-tail theorem says every such frequency
-tail is admitted to a source parent packet and then either cancels by phase
-mixing or damps viscously, leaving no retained positive child-energy bill.
-The proof reduction is now the strict pressure-tail good-lambda recurrence
-\(N_{L+1}\le\vartheta N_L+B_L\) with \(2\vartheta<1\); this recurrence gives
-the weighted pressure-tail moment and hence the terminal-uniform \(L^1\) bound.
+selected variation.  The heat-lag correction centers the two tower readouts:
+\(\mathsf G_{\xi,k}:=\mathsf N_{\xi,k}-\mathsf D_{\xi,k+1}=2\mathsf N_{\xi,k}\).
+A far-packet pressure lead is not yet selected action while its one-heat-time
+velocity/shear response is pending.  The needed theorem is therefore weighted
+same-parent heat-lag finite-difference no-recount: the child response
+\(\Delta_IU_{\xi,k,\lambda}\) cannot be reread as fresh positive pressure service
+at every higher ratio level.  This is equivalent to the strict pressure-tail
+good-lambda recurrence \(N_{L+1}\le\vartheta N_L+B_L\) with \(2\vartheta<1\);
+it gives the weighted pressure-tail moment and hence the terminal-uniform
+\(L^1\) bound.
 
 ## 8. Smoothness closure status
 
