@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-full-smoothness-closure-reconciliation-20260629
-status: gold-route-reconciled-to-single-open-terminal-uniform-service-supplier
+status: gold-route-reconciled-to-terminal-uniform-service-supplier-slice-open
 created: 2026-06-29
 problem: navier-stokes
 route: forward-gold coupled pressure-viscosity-incompressibility participation law
@@ -34,7 +34,8 @@ source_surfaces:
 
 # Gold full smoothness closure reconciliation
 
-Gold closure is now a single coupled-packet question.
+This reconciliation organizes the Gold route around the coupled-packet service
+question.
 
 The repo has stopped treating pressure, viscosity, incompressibility, and
 selected high-high readout as independent payment accounts.  The physical
@@ -160,7 +161,8 @@ same-carrier production cannot remain perpendicular to the paid current.
 Thus the former "retained perpendicular unpaid channel" is not a physical fourth
 payment account.  It is an admission/update contradiction.
 
-This changes the Gold wall.  The wall is no longer:
+This changes the wall in this coupled-service reconciliation.  The wall is no
+longer:
 
 \[
 \text{where did this selected nonendpoint high-high square come from?}
@@ -420,6 +422,12 @@ control alone is too weak: the half-tail model has finite
 recurrence
 \(N_{L+1}\le\vartheta N_L+B_L\) with \(2\vartheta<1\); it gives the weighted
 pressure-tail moment and hence the terminal-uniform \(L^1\) bound.
+
+The heat-lag no-recount pushforward theorem now installs the formal implication
+from finite parent-weighted detector measure to `(GCR.10a)`: the selected weight
+is built into the same-parent detector before child clipping, first admission
+updates the parent current, and stopped transit overlap prevents later child
+readouts from being recounted as fresh pressure service.
 
 ## 8. Smoothness closure status
 

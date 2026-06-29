@@ -22,8 +22,8 @@ completion_truth: >-
   currency formula cannot by itself dominate the weighted linear heat-lag service
   bill.  Same-parent heat detection and parent-subtracted Bessel packing are real
   support, but they leave a fresh small-pulse half-tail: finite weighted square
-  mass and infinite weighted linear service.  The corrected Gold local theorem
-  must split retained reuse from fresh first entry. Retained reuse is Schur
+  mass and infinite weighted linear service.  The corrected local theorem in
+  this Gold slice must split retained reuse from fresh first entry. Retained reuse is Schur
   current work; fresh first entry requires a native/residence/Hardy-Carleson
   linear service charge, or a theorem proving that all uncharged fresh half-tail
   windows are forced into motion, return, viscosity, legal, or stop.
@@ -241,7 +241,7 @@ support.  It has not proved `(WLF.13)`--`(WLF.15)`.
 
 ## 5. Gold consequence
 
-After this audit, the noncircular Gold heat-lag burden is:
+After this audit, the noncircular heat-lag slice statement is:
 
 No retained fresh heat-lag linear half-tail after Schur reuse, motion, return,
 viscosity, legal, and stop are removed.
@@ -556,10 +556,10 @@ That is origin and admission, not closure.  The actual physical missing piece
 is `(WLF.26)`--`(WLF.27)`, equivalently `(WLF.27a)`--`(WLF.27b)`: the signed
 pressure/heat impulse must have finite selected one-sided variation in the
 original parent packet.  Energy and Bessel square packing control square mass.
-The Gold closure needs this stronger linear variation/overlap control for the
+This heat-lag/first-admission slice needs this stronger linear variation/overlap control for the
 same coupled push instruction before the child positive readout is counted.
 
-## 8. Direct Gold closure attempt after the coupled-row audit
+## 8. Direct selected-critical closure attempt after the coupled-row audit
 
 The shortest possible closure would prove `(WLF.26)`--`(WLF.27)` directly from
 the original coupled row.  The natural global coordinate is the critical
@@ -692,7 +692,7 @@ C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
 \tag{WLF.36}
 \]
 
-That is the exact Gold wall after the audit.  The corrected proof state is
+That is the exact wall in this heat-lag/first-admission slice after the audit.  The corrected proof state is
 therefore: same-parent origin/admission is proved; same-chain no-reuse is
 installed by spent-source projection; local selected-scale first admission is
 closed by zero-channel rigidity; retained reuse is Schur work; fresh square
@@ -781,7 +781,7 @@ return, motion, viscosity, legal, and stop are removed: any such bill is either
 one of the \(F_Q\)'s counted once in \(\mu_{P}^{adm,raw}\), or it has already
 fallen into a paid/removable bin.
 
-What this does not prove is the selected-critical Gold measure
+What this does not prove is the selected-critical weighted measure
 
 \[
 \mu_P^{adm,crit}(P)
@@ -959,3 +959,175 @@ cannot be recounted, and form the finite raw original-history Bessel measure
 `(WLF.36b)`--`(WLF.36e)`.  The unproved part of this
 first-admission/root-measure slice is the selected-critical weighted measure
 `(WLF.36f)`, i.e. the selected-critical root upper bound `(WLF.36)`.
+
+## 11. Formal no-recount pushforward theorem
+
+The parent/child language is now fixed.  The physical event is one
+same-parent pressure-viscosity-incompressibility participation event.  The
+parent role is the first-admitted original-history pulse record; the child role
+is any later selected readout of that same record.
+
+Let \(\mathcal A_P\) be the stopped set of legitimate first-admission native
+atoms in \(P\).  For \(a\in\mathcal A_P\), let \(F_a\) be the first unspent
+native coordinate `(WLF.36a)`, and let \(\mathcal D(a)\) be the selected
+heat-lag windows whose later readout descends from that first admission.  The
+first-admission map is
+
+\[
+\pi:\{I:\ I\text{ selected heat-lag readout in }P\}\to\mathcal A_P,
+\qquad
+\pi(I)=a .
+\tag{WLF.50}
+\]
+
+The parent-weighted detector is the detector built before child clipping:
+
+\[
+\Phi_I^P
+:=
+\omega_I\,\mathbf 1_I\,
+\mathcal H_{I}^{*,P}\xi_I ,
+\tag{WLF.51}
+\]
+
+where \(\mathcal H_I^{*,P}\) is the backward same-parent heat/pressure response
+operator on the original material packet.  Its pairing with the signed parent
+row current \(dK_P\) is the child finite difference:
+
+\[
+\Delta_IU_I
+=
+\langle dK_P,\Phi_I^P\rangle_P
++Err_I .
+\tag{WLF.52}
+\]
+
+The selected-critical weight is already inside \(\Phi_I^P\).  It is not
+multiplied onto the child after the positive part is clipped.
+
+First-admission update.  Order the retained readouts by stopped material time
+and ancestry.  Before \(I\), let \(\mathcal E_{<I}^P\) be the paid parent-current
+span.  Split
+
+\[
+\Phi_I^P
+=
+P_{\mathcal E_{<I}^P}\Phi_I^P
++
+(I-P_{\mathcal E_{<I}^P})\Phi_I^P .
+\tag{WLF.53}
+\]
+
+If the second term is nonzero and legal, it is admitted once:
+
+\[
+\mathcal E_{\le I}^P
+=
+\mathcal E_{<I}^P
+\oplus
+\operatorname{span}
+\{(I-P_{\mathcal E_{<I}^P})\Phi_I^P\}.
+\tag{WLF.54}
+\]
+
+Every later readout on the same carrier is then retained parent-current work,
+not a fresh source:
+
+\[
+J>I,\quad \pi(J)=\pi(I)
+\quad\Longrightarrow\quad
+(I-P_{\mathcal E_{\le I}^P})\Phi_J^P
+\text{ is paid motion/return/viscosity/legal/stop or zero.}
+\tag{WLF.55}
+\]
+
+This is the formal no-recount update.  It is exactly the weighted version of the
+Schur/Bessel admission rule: a zero-current channel is fresh once; after
+admission it becomes charged parent current.
+
+Bounded transit overlap.  For each \(a\in\mathcal A_P\), define
+\(\alpha_I(a)\) by
+
+\[
+\omega_I|\Delta_IU_I|
+\le
+\alpha_I(a)\,d\mu_P^{pw}(a)
++dPaid_I,
+\qquad a=\pi(I),
+\tag{WLF.56}
+\]
+
+where \(d\mu_P^{pw}\) is the parent-weighted first-admission pulse measure and
+\(dPaid_I\) consists only of retained Schur current, motion, return, viscosity,
+legal, and stop material.  The update `(WLF.54)` gives
+
+\[
+\sum_{I:\pi(I)=a}\alpha_I(a)
+\le C_N .
+\tag{WLF.57}
+\]
+
+Indeed, a selected heat-lag window can use the same admitted pulse in only one
+of two ways.  It is the first readout of \(a\), in which case it consumes the
+parent-weighted atom once, or it is a later readout, in which case `(WLF.55)`
+routes it to retained current or paid exits.  Stopped sibling windows have the
+usual finite retained-atlas overlap, so the multiplicity constant is \(C_N\),
+not a terminal or ratio-dependent quantity.
+
+Pushforward estimate.  Summing `(WLF.56)` and using `(WLF.57)` gives
+
+\[
+\sum_{I\subset P}\omega_I|\Delta_IU_I|
+\le
+C_N\mu_P^{pw}(P)
++Paid_P .
+\tag{WLF.58}
+\]
+
+Thus the child selected bill is the pushforward of the first-admitted
+parent-weighted pulse measure:
+
+\[
+(\pi_\#^{-1}\mu_P^{pw})(\text{selected child reads})
+\le
+C_N\mu_P^{pw}(P).
+\tag{WLF.59}
+\]
+
+There is no second child source in `(WLF.58)`.  The child is only a selected
+readout chart on an already admitted same-parent pulse.
+
+The analytic line needed for this slice is therefore exactly
+
+\[
+\mu_P^{pw}(P)
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,Visc_{P,N}
++Paid_P,
+\qquad 0<\theta<1 .
+\tag{WLF.60}
+\]
+
+If `(WLF.60)` holds, `(WLF.58)` gives the weighted heat-lag no-recount estimate
+`(PVD.31f)`.  Feeding `(PVD.31f)` into `(PVD.31e)` gives the pressure-tail
+good-lambda recurrence with strict margin, hence `(PVD.29)` and then the
+terminal-uniform service estimate
+
+\[
+\sup_{\tau<T_*}
+\int_0^\tau\int_P
+\mathcal M_N(Y_N)_+\,da\,dt
+\le C_N(u_0).
+\tag{WLF.61}
+\]
+
+This is the formal no-recount pushforward proof.
+
+The proof also identifies the exact non-formal point.  `(WLF.50)`--`(WLF.59)`
+are bookkeeping-free consequences of same-parent admission/update and stopped
+overlap.  The mathematical estimate that still has to come from the original
+coupled row in this slice is `(WLF.60)`: terminal-uniform finiteness of the
+parent-weighted detector measure.  Without `(WLF.60)`, the half-tail
+`(WLF.2)`--`(WLF.9)` remains a countermodel to replacing parent-weighted
+variation by raw Bessel square mass.

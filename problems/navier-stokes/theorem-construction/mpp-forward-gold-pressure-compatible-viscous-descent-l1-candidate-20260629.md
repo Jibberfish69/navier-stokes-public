@@ -298,7 +298,7 @@ measured by a rescaled tower such as
 
 The false terminal object is a packet whose velocity readout has come to rest
 while the first-order stopping tower still carries retained negative readout in
-acceleration, jerk, snap, or higher rungs.  Gold closure needs the
+acceleration, jerk, snap, or higher rungs.  This stopping-jet slice needs the
 no-retained-stopping-tail statement
 
 \[
@@ -631,6 +631,12 @@ work, finite native heat-lag linear service, or paid same-law exits.
 If `(PVD.31f)` is proved, then `(PVD.29)` follows by summing `(PVD.31e)` over
 the unexited transit windows and adding the already paid cancellation,
 residence, legal, stop, return, and endpoint branches.
+
+The formal no-recount pushforward theorem in the heat-lag note proves
+`(PVD.31f)` from the finite parent-weighted detector measure `(WLF.60)`: the
+first-admission update prevents the same pulse from being fresh twice, stopped
+transit overlap gives bounded pushforward multiplicity, and the child selected
+bill is pushed back to the original same-parent pulse before positive clipping.
 
 ## 4. Why this is the right missing relationship
 
