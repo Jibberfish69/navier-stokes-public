@@ -25,6 +25,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-tower-to-source-square-upgrade-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-retained-nonendpoint-invisible-square-bill-reduction-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-derivative-tower-positive-service-l1-proof-attempt-20260629.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-compatible-viscous-descent-l1-candidate-20260629.md
 ---
 
 # Gold full smoothness closure reconciliation
@@ -371,6 +372,13 @@ C_N\|Y_N\|_{X_{\rm crit}(P)}
 but the coefficient \(\|Y_N\|_{X_{\rm crit}}\) is not controlled by original
 energy data.  Replacing it by the desired selected-action or service bound is
 circular.
+
+The sharpened candidate mechanism is pressure-compatible viscous descent: the
+instantaneous pressure/time tower is the elliptic compatibility graph, while
+viscosity is the causal heat-time descent that turns those time rungs into
+lower velocity/energy rungs.  The missing \(L^1\) theorem is the finite positive
+service estimate for that conversion, not a separate pressure-only or
+viscosity-only account.
 
 ## 8. Smoothness closure status
 
