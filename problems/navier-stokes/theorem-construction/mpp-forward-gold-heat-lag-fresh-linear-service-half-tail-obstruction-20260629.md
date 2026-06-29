@@ -631,16 +631,40 @@ This closes the small critical packet case.  For arbitrary smooth data the
 coefficient \(\|u(t)\|_{\dot H^{1/2}}\) is itself critical, so `(WLF.33)` does
 not give the strict margin in `(WLF.31)`.
 
-In the physical heat-lag language, this is exactly the unresolved linear
-service point.  A far packet can receive a very small same-parent pressure /
-incompressibility push, and one heat time later the child can magnify that
-finite difference by its selected first-ratio weight.  The row identity proves
-that the push belongs to the original packet.  The fractional identity proves
-the signed coupled balance.  Neither identity alone proves that the positive
-selected linear reads have bounded overlap in the original parent history.
+In the physical heat-lag language, the no-reuse part is not the open issue.
+The adjacent spent-source projection theorem already proves the same-chain
+rule: a descendant cannot keep reading an already-spent same-parent source
+direction as fresh work.  Once the pulse is admitted, later same-direction
+reads are Schur reuse, return, motion, viscosity, legal, or stop.
 
-Thus the direct closure attempt lands on the same theorem, not on a new side
-condition:
+The adjacent fresh-native selected-scale lower-edge audit closes the local
+first-admission line.  A retained selected first entry with no same-packet
+native coordinate has a zero-channel blow-up limit and therefore zero selected
+action.  In the present heat-lag notation this is the local lower edge
+
+\[
+\omega_I|\Delta_IU_I|
+\le
+C_N\rho_I^{fresh}
++R_{\rm legal}(I)+Stop(I),
+\tag{WLF.33a}
+\]
+
+after spent-source reuse, carry, motion, return, legal, and stop are removed.
+Thus the first admitted heat-lag pulse is not locally too small to be native;
+the local selected-scale charge exists.
+
+The unresolved part is the root upper bound for all such first admissions.  A
+far packet can receive a very small same-parent pressure / incompressibility
+push, and one heat time later the child can magnify that finite difference by
+its selected first-ratio weight.  The row identity proves that the push belongs
+to the original packet.  The no-reuse theorem proves it cannot be repeatedly
+recounted after admission.  The lower-edge theorem proves the first admission
+has a selected-scale native atom.  The missing estimate is that all of those
+selected-scale first-entry atoms form a finite original-history root measure.
+
+Thus the direct closure attempt lands on the fresh native root upper bound, not
+on a new no-reuse or local first-admission side condition:
 
 \[
 (WLF.26)\text{--}(WLF.27)
@@ -659,8 +683,19 @@ Equivalently, construct the bounded-multiplicity native map
 \]
 
 from original same-parent heat-lag push variation, with finite mass and without
-using the future selected tail.  That is the exact Gold wall after the audit.
-The corrected proof state is therefore: same-parent origin/admission is proved;
-retained reuse is Schur work; fresh square novelty is Bessel support; the
-remaining unproved line is fresh linear native variation / positive critical
-transfer with a strict \(\theta<1\) margin for arbitrary data.
+using the future selected tail.  In discrete fresh-source notation this is
+
+\[
+\sum_{I\subset P}\rho_I^{fresh}
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{WLF.36}
+\]
+
+That is the exact Gold wall after the audit.  The corrected proof state is
+therefore: same-parent origin/admission is proved; same-chain no-reuse is
+installed by spent-source projection; local selected-scale first admission is
+closed by zero-channel rigidity; retained reuse is Schur work; fresh square
+novelty is Bessel support.  The remaining unproved line is the fresh native root
+upper bound / critical fresh source tent Carleson estimate, equivalently
+positive critical transfer with a strict \(\theta<1\) margin for arbitrary data.
