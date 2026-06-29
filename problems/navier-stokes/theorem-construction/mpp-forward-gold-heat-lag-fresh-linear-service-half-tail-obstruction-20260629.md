@@ -558,3 +558,109 @@ pressure/heat impulse must have finite selected one-sided variation in the
 original parent packet.  Energy and Bessel square packing control square mass.
 The Gold closure needs this stronger linear variation/overlap control for the
 same coupled push instruction before the child positive readout is counted.
+
+## 8. Direct Gold closure attempt after the coupled-row audit
+
+The shortest possible closure would prove `(WLF.26)`--`(WLF.27)` directly from
+the original coupled row.  The natural global coordinate is the critical
+fractional energy identity for the Leray-projected full packet:
+
+\[
+{1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
++
+\nu\|\Lambda^{3/2}u\|_2^2
+=
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle .
+\tag{WLF.30}
+\]
+
+This is not a decoupled pressure omission.  The pressure/incompressibility
+response is inside the Leray projection and the viscous descent is the
+\(\Lambda^{3/2}\) drain.  Thus the heat-lag push-variation measure would be
+finite if the positive part of the same coupled transfer obeyed
+
+\[
+\int_0^T
+\left(
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C(u_0)
++
+\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt,
+\qquad
+\theta<1 .
+\tag{WLF.31}
+\]
+
+Then `(WLF.27)` follows by taking the heat-lag coordinate face of this native
+reserve:
+
+\[
+\mu_P^{push}(P)
+\lesssim
+C_N(u_0)
++
+\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
++
+\mathsf{Paid}_{P,N}.
+\tag{WLF.32}
+\]
+
+The direct estimate available from standard critical calculus is only
+
+\[
+\left|
+\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right|
+\le
+C\|u(t)\|_{\dot H^{1/2}}\|\Lambda^{3/2}u(t)\|_2^2 .
+\tag{WLF.33}
+\]
+
+This closes the small critical packet case.  For arbitrary smooth data the
+coefficient \(\|u(t)\|_{\dot H^{1/2}}\) is itself critical, so `(WLF.33)` does
+not give the strict margin in `(WLF.31)`.
+
+In the physical heat-lag language, this is exactly the unresolved linear
+service point.  A far packet can receive a very small same-parent pressure /
+incompressibility push, and one heat time later the child can magnify that
+finite difference by its selected first-ratio weight.  The row identity proves
+that the push belongs to the original packet.  The fractional identity proves
+the signed coupled balance.  Neither identity alone proves that the positive
+selected linear reads have bounded overlap in the original parent history.
+
+Thus the direct closure attempt lands on the same theorem, not on a new side
+condition:
+
+\[
+(WLF.26)\text{--}(WLF.27)
+\quad\Longleftrightarrow\quad
+(WLF.31)
+\quad
+\text{on the original coupled pressure-viscosity-incompressibility packet.}
+\tag{WLF.34}
+\]
+
+Equivalently, construct the bounded-multiplicity native map
+
+\[
+\iota:\Gamma_N(P)\to\mathcal R_N^{nat}(u_0;P)
+\tag{WLF.35}
+\]
+
+from original same-parent heat-lag push variation, with finite mass and without
+using the future selected tail.  That is the exact Gold wall after the audit.
+The corrected proof state is therefore: same-parent origin/admission is proved;
+retained reuse is Schur work; fresh square novelty is Bessel support; the
+remaining unproved line is fresh linear native variation / positive critical
+transfer with a strict \(\theta<1\) margin for arbitrary data.
