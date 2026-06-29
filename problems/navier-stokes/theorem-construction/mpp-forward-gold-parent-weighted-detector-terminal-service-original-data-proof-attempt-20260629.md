@@ -2094,3 +2094,96 @@ readout.  The installed compactness and selector work proves that the meter
 cannot fake this assignment.  What is still not proved from arbitrary original
 data is the stopped accretive testing/native-birth packing theorem that would
 make this assignment quantitative with a strict \(\theta<1\) margin.
+
+## 21. Correct target after the Leray-clipping audit
+
+The scalar \(B_+\) inequality is not the native Gold producer.  It is the
+global critical readout after the original row has already been projected,
+tested, and clipped to its positive part.  Treating it as the producer repeats
+the decoupled-\(\mathbb P\) oversight: the proof then appears to have a
+positive nonlinear source on one side and viscosity as a separate payer on the
+other side.
+
+The repo-accurate object is the same parent material current before the child
+positive readout is taken:
+
+\[
+dK_P
+=
+dK_P^{press}
++dK_P^{visc}
++dK_P^{frame/Hodge}
++dK_P^{route/return}
++dK_P^{legal/stop}.
+\tag{ODP.144}
+\]
+
+For a selected child window \(I\), the detector must already be a parent-built
+test \(\Phi_I^P\), including the selected weight and carrier, before the
+positive part is applied:
+
+\[
+\mathcal S_P^+(Q)
+:=
+\sum_{I\subset Q}
+\bigl[
+\langle dK_P,\Phi_I^P\rangle_P
+\bigr]_+.
+\tag{ODP.145}
+\]
+
+The full-participation Gold target is therefore
+
+\[
+\mathcal S_P^+(Q)
+\le
+C_N(u_0)\mathcal R(Q)
++\theta\,Visc_P(Q)
+-\Delta_Q\mathcal B_P
++ReturnReset_P(Q)
++FrameHodge_P(Q)
++LegalStop_P(Q),
+\qquad
+\theta<1.
+\tag{ODP.146}
+\]
+
+This is the line that preserves the user's physical picture: pressure,
+viscosity, incompressibility, frame motion, return/reset, legal material, and
+stop are not separate laws competing after the fact.  They are components of
+one same-parent participation current.  The positive selected service is only
+allowed to become action after it has been admitted into that current.
+
+After `(ODP.146)` is proved, the Leray critical estimate is a consequence:
+
+\[
+(ODP.146)
+\Longrightarrow
+\int_0^\tau B_+(t)\,dt
+\le
+C_N(u_0)
++\theta\nu
+\int_0^\tau
+\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid.
+\tag{ODP.147}
+\]
+
+The reverse implication is not valid.  A scalar \(B_+\) bound can hide exactly
+the question the MPP route is asking: whether the positive selected child
+readout was admitted into the same original parent packet before it was counted
+as action.
+
+Thus the current Gold source target is
+
+\[
+\text{CoupledParentRowPositiveService.A}
+\quad\text{with}\quad
+(ODP.144)\text{--}(ODP.146),
+\tag{ODP.148}
+\]
+
+while `PositiveCriticalTransferBound.A` is demoted to a global diagnostic
+shadow of that target.  It remains a necessary check on the eventual closure,
+but it is not the primary producer and cannot be used first without splitting
+the one coupled pressure-viscosity-incompressibility participation law.
