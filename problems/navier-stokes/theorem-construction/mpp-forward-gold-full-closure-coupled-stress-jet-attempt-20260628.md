@@ -243,10 +243,10 @@ C
 \tag{FGC.14}
 ```
 
-The legal and stop terms are completed same-law ledgers.  They do not pay the
-endpoint separately; the endpoint is paid by the root-fixed whole-field
-viscous/jet-service density.  Since \(\sigma_P^{jet}\in L^1\) on the fixed root
-history with the uniform bound `(FGC.2)`,
+The legal and stop terms are completed same-law ledgers with their own admitted
+payments.  The endpoint payment is the root-fixed whole-field viscous/jet-service
+density.  Since \(\sigma_P^{jet}\in L^1\) on the fixed root history with the
+uniform bound `(FGC.2)`,
 
 ```math
 \lim_{\rho\downarrow0}
