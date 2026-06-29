@@ -699,3 +699,165 @@ closed by zero-channel rigidity; retained reuse is Schur work; fresh square
 novelty is Bessel support.  The remaining unproved line is the fresh native root
 upper bound / critical fresh source tent Carleson estimate, equivalently
 positive critical transfer with a strict \(\theta<1\) margin for arbitrary data.
+
+## 9. Root upper-bound proof attempt
+
+The desired root estimate is `(WLF.36)`.  The installed local lower edge sends
+each legitimate first-admission heat-lag atom to a fresh native charge
+\(\rho_I^{fresh}\).  In dyadic fresh-flux coordinates this is the same object as
+
+\[
+\int_0^{T_*}\sum_j2^j[\Pi_{j-1\to j}^{fresh}(t)]_+\,dt .
+\tag{WLF.37}
+\]
+
+The residence part is paid.  On a maximal fresh crossing interval \(I_j\), set
+
+\[
+M_j(I_j)
+:=
+\int_{I_j}[\Pi_{j-1\to j}^{fresh}(t)]_+\,dt .
+\tag{WLF.38}
+\]
+
+If
+
+\[
+\int_{I_j}\nu 2^{2j}E_j(t)\,dt
+\ge
+\varepsilon M_j(I_j),
+\tag{WLF.39}
+\]
+
+then
+
+\[
+2^jM_j(I_j)
+\le
+C_\varepsilon
+\int_{I_j}\nu 2^{3j}E_j(t)\,dt ,
+\tag{WLF.40}
+\]
+
+and bounded stopped overlap pays the contribution by the same parent viscous
+residence.
+
+The complement is transit.  The shell balance forces the unspent incoming mass
+to leave to the next shell:
+
+\[
+M_{j+1}(I_{j+1})
+\ge
+(1-\varepsilon)M_j(I_j)
+-\Delta E_j^+(I_j)
+-R_j^{legal/stop}(I_j).
+\tag{WLF.41}
+\]
+
+Thus the unpaid branch is one same-material transit thread, not a sequence of
+independent fresh births.  The stopped finite-band/reset reduction then packs a
+transit thread by endpoint/start energy, residence, return/reset, legal/stop,
+and first-exit reset/escape charge.
+
+The reset/escape charge is where the direct proof becomes circular if it is
+used without a new producer.  Its Cauchy estimate is
+
+\[
+\sum_e\int H_e(t)\|D_e^{fresh}(t)\|^2\,dt
+\le
+C_N\int_{\operatorname{Hist}(P)}
+w\|G\|^2
++CR_{legal}(P),
+\tag{WLF.42}
+\]
+
+where \(G\) is the original-history log-scale derivative / turnstile /
+exchange / covector generator.  The right side is not yet known from original
+data; it is the root generator-energy form of `(WLF.36)`.
+
+The lower-triangular scale-memory split isolates the exact survivor.  For the
+fresh one-sided scale primitive
+
+\[
+F^{fresh}(s,t)=(\mathcal V_\kappa \widetilde Z^{fresh})(s,t),
+\tag{WLF.43}
+\]
+
+the weighted split is
+
+\[
+\int_Iw\|F^{fresh}\|_{L_x^2}^2\,ds
+=
+\int_Iw\|(I-P_w)F^{fresh}\|_{L_x^2}^2\,ds
++
+H_w(t)\|c_F^{fresh}(t)\|_{L_x^2}^2 .
+\tag{WLF.44}
+\]
+
+The first term is exact in scale and is routed to derivative/collar/legal
+payments.  The second term is the affine quotient:
+
+\[
+c_F^{fresh}(t,x)
+=
+A_\kappa M_0^{fresh}(t,x)+B_\kappa M_1^{fresh}(t,x).
+\tag{WLF.45}
+\]
+
+The first-order signed scale descent gives
+
+\[
+Y^{fresh}
+=
+\partial_\sigma\Psi^{fresh}
++S^{spill}
++E,
+\tag{WLF.46}
+\]
+
+and therefore kills only the derivative part.  Against the affine kernel it
+leaves the stopped potential average
+
+\[
+\mathcal P_{avg}^{fresh}(t)
+:=
+{1\over |J|}
+\int_J\Psi^{fresh}(\sigma,t)\,d\sigma .
+\tag{WLF.47}
+\]
+
+So the root upper bound would follow from either of the two noncircular
+statements
+
+\[
+\int_0^{T_*}
+H_w(t)\|\mathcal P_{avg}^{fresh}(t)\|_{L_x^2}^2\,dt
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P),
+\tag{WLF.48}
+\]
+
+or a direct positive-stress second-order exactness formula
+
+\[
+\widetilde Z^{fresh}
+=
+(\partial_\sigma-1)\partial_\sigma G^{fresh}
++R^{fresh},
+\tag{WLF.49}
+\]
+
+with the corresponding affine-kernel residual bounded by original-history
+legal/stop/service terms.
+
+The repo does not currently prove `(WLF.48)` or `(WLF.49)`.  Poincare in
+\(\sigma\) would use the selected source square that `(WLF.36)` is trying to
+prove, and ordinary gauge normalization changes the potential average rather
+than paying it.  Thus the direct proof of `(WLF.36)` reduces exactly to stopped
+potential-average control / positive second-order scale exactness, or
+equivalently the fresh same-carrier identity plus selected overrun payment on
+the actual positive native carrier.
+
+Current truth state: the legitimate first-admission atoms are locally real and
+cannot be recounted, but their finite original-history root measure is not yet
+proved from the installed inputs.
