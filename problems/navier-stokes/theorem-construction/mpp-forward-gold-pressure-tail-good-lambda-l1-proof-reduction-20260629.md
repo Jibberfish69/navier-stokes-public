@@ -242,6 +242,62 @@ C_N(u_0)
 By the layer-cake representation of the positive pressure bill, `(PTG.16)`
 implies `(PTG.2)`.
 
+## 4.1. How to prove the recurrence
+
+The recurrence `(PTG.10)` is proved by decomposing \(E_{L+1}\) into paid exits
+and the unexited transit branch:
+
+\[
+E_{L+1}
+=
+E_{L+1}^{cz}
+\cup E_{L+1}^{legal}
+\cup E_{L+1}^{res}
+\cup E_{L+1}^{trans}.
+\tag{PTG.17}
+\]
+
+The first three pieces contribute to \(B_L\).  Thus the only required estimate
+is
+
+\[
+\mu(E_{L+1}^{trans})
+\le
+\vartheta\,\mu(E_L)
++B_L^{trans},
+\qquad 2\vartheta<1.
+\tag{PTG.18}
+\]
+
+Equivalently, every unexited pressure-transit thread must satisfy a strict
+compression inequality.  If \(\gamma\) is a same-source-parent thread of
+successive pressure lobes, the needed line estimate is
+
+\[
+d\mu_{L+1}^{\gamma}
+\le
+\left({1\over2}-\varepsilon_0\right)d\mu_L^{\gamma}
++dB_L^{\gamma}
+-d\Phi_\gamma ,
+\qquad \varepsilon_0>0,
+\tag{PTG.19}
+\]
+
+where \(\Phi_\gamma\) is a bounded-below pressure-phase/ancestry storage and
+\(\sum_L2^L\int dB_L^\gamma\) is already-paid material.  Summing `(PTG.19)`
+over all transit threads gives `(PTG.18)` with
+\(\vartheta=1/2-\varepsilon_0\).
+
+Physically, `(PTG.19)` says: a pressure oscillation that neither cancels, nor
+exits legally, nor resides long enough to damp cannot reproduce the same
+positive selected bill at the next ratio level.  To keep oscillating, it must
+spend pressure phase, Cauchy-Green deformation, frame rotation, source-parent
+threading, collar turnstile, or return/reset material.  If none of those drops,
+the lobe is just the critical one-child half-tail and the strict coefficient is
+false.
+
+So the proof of `(PTG.10)` is exactly the proof of `(PTG.19)`.
+
 ## 5. How this proves the \(L^1\) wall
 
 Insert `(PTG.2)` into the row split
@@ -253,7 +309,7 @@ Insert `(PTG.2)` into the row split
 +\mathsf V_{\xi,k}
 -{d\over dt}\mathcal B_{\xi,k}
 +\mathsf{Paid}_{\xi,k}.
-\tag{PTG.17}
+\tag{PTG.20}
 \]
 
 The pressure-parent positive part is finite by `(PTG.2)`.  The viscous part is
@@ -268,7 +324,7 @@ paid material.  Summing over selected rows gives
 \mathcal M_N(Y_N)_+\,da\,dt
 \le
 C_N(u_0).
-\tag{PTG.18}
+\tag{PTG.21}
 \]
 
 This is `(FGC.25)`.  The proof of smoothness follows from the already-installed
@@ -276,8 +332,8 @@ Gold closure reduction after `(PTG.10)` is proved.
 
 ## 6. Current proof status
 
-The algebra from `(PTG.10)` to `(PTG.18)` is complete.  The open mathematical
-content is exactly `(PTG.10)`: a strict pressure-tail good-lambda recurrence for
-the original same-material pressure-parent oscillation tail.
+The algebra from `(PTG.10)` to `(PTG.21)` is complete.  The open mathematical
+content is exactly `(PTG.19)`: a bounded-below pressure-phase/ancestry storage
+that gives a strict coefficient below the critical half-tail barrier.
 
 Partial, not Gold closed.
