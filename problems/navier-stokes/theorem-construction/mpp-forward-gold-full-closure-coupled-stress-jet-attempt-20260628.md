@@ -39,8 +39,9 @@ Let \(u\) be a smooth finite-energy Navier-Stokes solution on
 
 **Gold coupled stress-jet storage theorem.**  For the root-fixed stopped
 material packet \(P\), there are a full-packet storage \(\mathcal S_P^{jet}\),
-a nonnegative terminal endpoint measure \(\mu_P^{end}\), and a root-fixed
-service density \(\sigma_P^{jet}\in L^1([0,T_*]\times P)\) such that
+a selected terminal trace \(\mu_P^{end}\), and a root-fixed whole-field
+viscous/jet-service density
+\(\sigma_P^{jet}\in L^1([0,T_*]\times P)\) such that
 
 ```math
 d\mathcal S_P^{jet}
@@ -65,6 +66,12 @@ C_N(u_0),
 
 and with every retained selected child action admitted before squaring as a
 bounded original-packet read of the same coupled stress-response jet.
+
+Here \(R_P^{legal}\) and \(Stop_P\) are completed same-law ledgers: legal terms
+are already admitted coordinate/collar/frame payments, and stop terms are the
+completed stopping-time partition costs inside the same participation law.  The
+endpoint is not a third bucket.  It is the selected terminal trace paid by the
+root-fixed whole-field viscous/jet-service drain.
 
 Under `(FGC.1)`--`(FGC.2)`, the Gold smoothness relay closes.  The rest of this
 note proves that implication and then tests whether `(FGC.1)`--`(FGC.2)` follows
@@ -157,8 +164,9 @@ d_i=(I-\Pi_{E_{i-1}})a_i.
 \tag{FGC.8}
 ```
 
-The inherited part \(b_i\) is Schur current, route/motion/return, viscosity,
-legal, stop, or endpoint material.  The fresh part \(d_i\) Bessel-packs:
+The inherited part \(b_i\) is Schur current, route/motion/return, viscous
+service, completed legal ledger, or completed stop partition inside the same
+law.  The fresh part \(d_i\) Bessel-packs:
 
 ```math
 \sum_i
@@ -174,7 +182,7 @@ This proves the admission rule needed by Gold:
 \text{retained selected action}
 \Rightarrow
 \text{fresh Bessel coordinate, inherited Schur/current, route/motion/return,
-viscous service, legal, stop, or endpoint material}.
+viscous service, completed legal ledger, or completed stop partition}.
 \tag{FGC.10}
 ```
 
@@ -221,7 +229,8 @@ Classical local continuation from \(H^s\), \(s>5/2\), extends the solution past
 
 ## 4. Terminal no-jump from root-fixed \(L^1\) service
 
-The endpoint measure in `(FGC.1)` cannot have a terminal atom under `(FGC.2)`.
+The selected terminal trace in `(FGC.1)` carries no unpaid terminal atom under
+`(FGC.2)`.
 For any terminal parabolic cylinder \(Q_\rho(z_0,T_*)\),
 
 ```math
@@ -234,9 +243,10 @@ C
 \tag{FGC.14}
 ```
 
-The legal/stop terms are removed or consumed by their own endpoint-face rules.
-Since \(\sigma_P^{jet}\in L^1\) on the fixed root history with the uniform bound
-`(FGC.2)`,
+The legal and stop terms are completed same-law ledgers.  They do not pay the
+endpoint separately; the endpoint is paid by the root-fixed whole-field
+viscous/jet-service density.  Since \(\sigma_P^{jet}\in L^1\) on the fixed root
+history with the uniform bound `(FGC.2)`,
 
 ```math
 \lim_{\rho\downarrow0}
@@ -255,9 +265,10 @@ Hence
 \tag{FGC.16}
 ```
 
-This proves terminal no-jump.  The endpoint atom disappears only because the
-storage is root-fixed and terminal-uniform.  A bare bounded-below BV storage
-would still permit one terminal jump.
+This proves terminal no-jump.  The selected terminal trace is paid by the
+whole-field viscous/jet-service drain; root-fixed terminal-uniform \(L^1\)
+control is the mathematical form of that payment.  A bare bounded-below BV
+storage would still permit one terminal jump.
 
 ## 5. Attempt to construct \(\mathcal S_P^{jet}\)
 
@@ -316,15 +327,18 @@ To close `(FGC.1)`--`(FGC.2)`, one would need the accretive estimate
 \theta\nu\|Y_N\|_{\dot H^1(P)}^2
 +C_N(u_0)
 +\partial_t\mathcal B_P
-+legal+stop,
++dR_P^{legal}
++dStop_P,
 \qquad
 \theta<1,
 \tag{FGC.20}
 ```
 
-with \(\mathcal B_P\) bounded below on the root-fixed packet.  Then
-\(\sigma_P^{jet}\) would be the right-hand side service density, `(FGC.2)`
-would follow, and Sections 3--4 would close Gold.
+with \(\mathcal B_P\) bounded below on the root-fixed packet, \(dR_P^{legal}\)
+the completed admitted-coordinate ledger, and \(dStop_P\) the completed
+stopping-partition ledger.  Then \(\sigma_P^{jet}\) would be the right-hand side
+whole-field service density, `(FGC.2)` would follow, and Sections 3--4 would
+close Gold.
 
 ## 6. The exact failed line
 
@@ -369,10 +383,10 @@ C_N(u_0).
 \tag{FGC.23}
 ```
 
-Without `(FGC.23)`, an infinite sequence of legal admitted jet-service events
-may still concentrate into a shrinking terminal heat-time cascade.  That is not
-private child production, and it is not a decoupled \(\mathbb P\) oversight.  It
-is the real remaining MPP obstruction.
+Without `(FGC.23)`, an infinite sequence of same-law admitted jet-service
+events may still concentrate into a shrinking terminal heat-time cascade.  The
+remaining obstruction is the terminal-uniform domination of the selected
+terminal trace by the root-fixed whole-field viscous/jet-service drain.
 
 ## 7. Closure verdict
 
