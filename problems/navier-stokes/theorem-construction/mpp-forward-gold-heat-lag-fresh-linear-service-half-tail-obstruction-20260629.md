@@ -243,13 +243,8 @@ support.  It has not proved `(WLF.13)`--`(WLF.15)`.
 
 After this audit, the noncircular Gold heat-lag burden is:
 
-\[
-\boxed{
-\text{No retained fresh heat-lag linear half-tail after Schur reuse, motion,
-return, viscosity, legal, and stop are removed.}
-}
-\tag{WLF.16}
-\]
+No retained fresh heat-lag linear half-tail after Schur reuse, motion, return,
+viscosity, legal, and stop are removed.
 
 If `(WLF.13)` holds, then the weighted heat-lag no-recount estimate `(HLG.12)`
 follows, hence the strict pressure-tail recurrence, hence `(FGC.25)`.

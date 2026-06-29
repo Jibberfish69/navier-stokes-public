@@ -15,12 +15,14 @@ edge_effect: >-
   rescales coefficients of the same parent material jet. Positive selected
   high-high or far-annular action may be counted only after the selected detector is
   admitted as a bounded original-packet coordinate of that jet; fresh
-  parent-subtracted coordinates Bessel-pack, while inherited coordinates are
-  Schur current, route/motion/return, viscous service, completed legal ledger,
-  or completed stop partition inside the same participation law. This file
-  supplies the producer/admission input for the full closure packet;
-  terminal-uniform L1 storage for the same whole-field viscous/jet-service
-  density is the remaining MPP-bearing estimate.
+  parent-subtracted coordinates Bessel-pack as squares, while inherited
+  coordinates are Schur current, route/motion/return, viscous service, completed
+  legal ledger, or completed stop partition inside the same participation law.
+  The fresh square packing is not the weighted positive L1 service theorem; the
+  heat-lag/native linear service charge remains part of the terminal-uniform L1
+  storage estimate. This file supplies the producer/admission input for the full
+  closure packet; terminal-uniform L1 storage for the same whole-field
+  viscous/jet-service density is the remaining MPP-bearing estimate.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-leray-projection-one-participation-law-audit-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-traction-current-participation-law-20260627.md
@@ -284,7 +286,7 @@ stopped Gram-Schmidt family, so Bessel gives
 \tag{CSJ.17}
 ```
 
-This proves the no-free-zoom admission rule for the producer:
+This proves the square-packing admission rule for the producer:
 
 ```math
 \sum_i
@@ -294,10 +296,13 @@ This proves the no-free-zoom admission rule for the producer:
 \tag{CSJ.18}
 ```
 
-with zero residuals omitted.  The unnormalized form is obtained by multiplying
-each term by the retained selected weight.  A large child square may be counted
-only after it is one of these admitted coordinates or after it lands in the
-inherited/route/return/viscous/completed-legal/completed-stop categories.
+with zero residuals omitted.  This is a square statement.  It proves that a
+large child square may be counted only after it is one of these admitted
+coordinates or after it lands in the inherited/route/return/viscous/completed
+legal/completed stop categories.  It does not by itself prove the weighted
+positive \(L^1\) service bound for fresh small heat-lag first entries; that is
+the native/residence/Hardy-Carleson linear charge isolated in the later heat-lag
+audit.
 
 ## 5. Proof of the closure claim
 

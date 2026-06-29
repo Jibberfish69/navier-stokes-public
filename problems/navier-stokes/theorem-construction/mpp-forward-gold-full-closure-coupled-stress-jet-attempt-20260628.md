@@ -3,9 +3,10 @@ theorem_id: forward-gold-full-closure-coupled-stress-jet-attempt-20260628
 status: full-gold-closure-attempt-complete-blocked-at-terminal-uniform-jet-service
 logical_landing_node: full_gold_coupled_stress_jet_closure
 completion_truth: >-
-  Complete MPP-facing closure attempt. The producer, same-parent admission,
-  no-free-zoom rule, full-output high-high carrier choice, and terminal no-jump
-  implication are proved/reduced in one chain. The proof does not close
+  Complete MPP-facing closure attempt. The producer, same-parent admission before
+  squaring, fresh square-packing rule, full-output high-high carrier choice, and
+  terminal no-jump implication are proved/reduced in one chain. The proof does
+  not close
   Navier-Stokes global regularity because the needed terminal-uniform L1 bound
   for the root-fixed coupled stress-jet service density is not derived from
   original data; attempting to derive it from the same jet storage is circular
@@ -166,7 +167,7 @@ d_i=(I-\Pi_{E_{i-1}})a_i.
 
 The inherited part \(b_i\) is Schur current, route/motion/return, viscous
 service, completed legal ledger, or completed stop partition inside the same
-law.  The fresh part \(d_i\) Bessel-packs:
+law.  The fresh part \(d_i\) Bessel-packs as square novelty:
 
 ```math
 \sum_i
@@ -176,7 +177,7 @@ law.  The fresh part \(d_i\) Bessel-packs:
 \tag{FGC.9}
 ```
 
-This proves the admission rule needed by Gold:
+This proves the admission-before-squaring rule needed by Gold:
 
 ```math
 \text{retained selected action}
@@ -187,7 +188,10 @@ viscous service, completed legal ledger, or completed stop partition}.
 ```
 
 So the coupled stress-jet producer closes the decoupled-projection oversight and
-the no-free-zoom square-counting error.
+the no-free-zoom square-counting error.  It does not by itself prove the
+weighted positive \(L^1\) service theorem; fresh small heat-lag first entries
+still require the native/residence/Hardy-Carleson linear charge contained in
+`(FGC.20)`--`(FGC.25)`.
 
 ## 3. Full selected-action bound from terminal-uniform service
 
