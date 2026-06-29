@@ -202,9 +202,10 @@ The remaining problem is service currency.  A tiny response can be read at a
 large child ratio.  Squaring the response can be summable while the selected
 linear first-ratio bill is not.  Therefore the proof must show that a selected
 heat-lag pulse is not merely a small adjoint response; it is an admitted current
-update in the original packet.  Once admitted, first entry is Bessel novelty and
-reuse is Schur work.  Without that current-work conversion, the pulse can still
-half-tail through the linear positive bill.
+update in the original packet.  For square action, first entry is Bessel
+novelty.  For linear service, fresh first entry still needs
+\(d\mathcal N_I^{heat}\).  Reuse is Schur work.  Without that linear conversion,
+the pulse can still half-tail through the positive bill.
 
 ## 6. Current conclusion
 

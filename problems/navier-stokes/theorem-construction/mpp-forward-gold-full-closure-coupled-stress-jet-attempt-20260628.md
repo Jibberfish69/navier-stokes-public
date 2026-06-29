@@ -182,7 +182,7 @@ This proves the admission-before-squaring rule needed by Gold:
 ```math
 \text{retained selected action}
 \Rightarrow
-\text{fresh Bessel coordinate, inherited Schur/current, route/motion/return,
+\text{fresh square-packed coordinate, inherited Schur/current, route/motion/return,
 viscous service, completed legal ledger, or completed stop partition}.
 \tag{FGC.10}
 ```
