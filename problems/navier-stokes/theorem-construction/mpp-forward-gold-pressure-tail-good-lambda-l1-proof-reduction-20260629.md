@@ -13,14 +13,16 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-material-pressure-tower-same-packet-elliptic-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-pressure-hessian-partner-graph-normal-form-20260517.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-frequency-flux-residence-transit-dichotomy-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-gap-finite-difference-l1-reduction-20260629.md
 completion_truth: >-
   Shows the proof architecture for the oscillatory pressure-parent tail L1
   theorem.  The pressure tail must be controlled by retained Calderon-Zygmund
-  cancellation, viscous residence damping, source-parent admission, and a strict
-  good-lambda recurrence for the remaining transit tail.  The algebra below
-  proves that such a strict recurrence implies terminal-uniform L1 pressure-tail
-  control.  The file does not prove Gold closure because the strict good-lambda
-  recurrence remains the open mathematical lemma.
+  cancellation, viscous residence damping, source-parent admission, and the
+  heat-lag finite-difference response of the centered NS tower gap.  The algebra
+  below proves that a strict recurrence, or the equivalent weighted heat-lag
+  no-recount theorem, implies terminal-uniform L1 pressure-tail control.  The
+  file does not prove Gold closure because the strict recurrence / weighted
+  heat-lag telescoping theorem remains the open mathematical lemma.
 ---
 
 # Pressure-tail good-lambda \(L^1\) proof reduction
@@ -271,7 +273,8 @@ is
 
 Equivalently, every unexited pressure-transit thread must satisfy a strict
 compression inequality.  If \(\gamma\) is a same-source-parent thread of
-successive pressure lobes, the needed line estimate is
+successive pressure lobes, the pressure-phase form of the needed line estimate
+is
 
 \[
 d\mu_{L+1}^{\gamma}
@@ -284,19 +287,80 @@ d\mu_{L+1}^{\gamma}
 \]
 
 where \(\Phi_\gamma\) is a bounded-below pressure-phase/ancestry storage and
-\(\sum_L2^L\int dB_L^\gamma\) is already-paid material.  Summing `(PTG.19)`
-over all transit threads gives `(PTG.18)` with
-\(\vartheta=1/2-\varepsilon_0\).
+\(\sum_L2^L\int dB_L^\gamma\) is already-paid material.
 
-Physically, `(PTG.19)` says: a pressure oscillation that neither cancels, nor
-exits legally, nor resides long enough to damp cannot reproduce the same
-positive selected bill at the next ratio level.  To keep oscillating, it must
-spend pressure phase, Cauchy-Green deformation, frame rotation, source-parent
-threading, collar turnstile, or return/reset material.  If none of those drops,
-the lobe is just the critical one-child half-tail and the strict coefficient is
+The heat-lag gap formulation replaces the abstract storage by the concrete
+finite-difference response of the centered NS tower gap:
+
+\[
+\mathsf G_{\xi,k}
+:=
+\mathsf N_{\xi,k}-\mathsf D_{\xi,k+1}
+=2\mathsf N_{\xi,k},
+\qquad
+[\mathsf N_{\xi,k}]_+
+=
+{1\over2}[\mathsf G_{\xi,k}]_+ .
+\tag{PTG.24}
+\]
+
+On one dyadic heat window \(I\), the differentiated row gives
+
+\[
+\int_I[\mathsf P_{\xi,k,\lambda}]_+
+\le
+|\Delta_IU_{\xi,k,\lambda}|
++\int_I[-\mathsf V_{\xi,k,\lambda}]_+
++\int_I[-\mathsf C_{\xi,k,\lambda}]_+
++\int_I[\mathsf P_{\xi,k,\lambda}]_-
++\int_I\mathsf{Paid}_{\xi,k,\lambda}.
+\tag{PTG.25}
+\]
+
+Thus the strict recurrence follows from the weighted heat-lag no-recount
+theorem
+
+\[
+\sum_{\gamma\subset P}
+\sum_{I\in\gamma}
+\omega_I\,|\Delta_IU_{\xi,k,\lambda(I)}|
+\le
+C_N(u_0)
++C\,\mathsf{Visc}_{P,N}
++C\,\mathsf{Paid}_{P,N}.
+\tag{PTG.22}
+\]
+
+In recurrence form this is
+
+\[
+d\mu_{L+1}^{\gamma}
+\le
+\left({1\over2}-\varepsilon_0\right)d\mu_L^\gamma
++dB_L^\gamma
++dT_L^\gamma,
+\qquad
+\sum_L2^L\int dT_L^\gamma<\infty.
+\tag{PTG.23}
+\]
+
+Summing `(PTG.23)` over all transit threads gives `(PTG.18)` with
+\(\vartheta=1/2-\varepsilon_0\), after \(dT_L^\gamma\) is absorbed into the
+already finite weighted tail.
+
+Physically, the heat-lag version says: a pressure oscillation that neither
+cancels, nor exits legally, nor resides long enough to damp cannot be counted as
+selected action while the velocity/shear response over one heat-time window is
+still pending.  The far-packet pressure lead must become finite-difference
+velocity response, viscous/transverse incompressible compensation, pressure
+partner cancellation, frame/collar motion, return, legal, stop, or endpoint
+material.  If the same child response is repeatedly reread as a new pressure
+lead, the lobe is the critical one-child half-tail and the strict coefficient is
 false.
 
-So the proof of `(PTG.10)` is exactly the proof of `(PTG.19)`.
+So the proof of `(PTG.10)` is exactly the proof of `(PTG.19)` or, in the
+heat-lag formulation, the weighted finite-difference no-recount theorem
+`(PTG.22)`.
 
 ## 5. How this proves the \(L^1\) wall
 
@@ -328,12 +392,13 @@ C_N(u_0).
 \]
 
 This is `(FGC.25)`.  The proof of smoothness follows from the already-installed
-Gold closure reduction after `(PTG.10)` is proved.
+Gold closure reduction after `(PTG.10)` / `(PTG.22)` is proved.
 
 ## 6. Current proof status
 
-The algebra from `(PTG.10)` to `(PTG.21)` is complete.  The open mathematical
-content is exactly `(PTG.19)`: a bounded-below pressure-phase/ancestry storage
-that gives a strict coefficient below the critical half-tail barrier.
+The algebra from `(PTG.10)` to `(PTG.25)` is complete.  The open mathematical
+content is exactly `(PTG.22)`: weighted same-parent heat-lag finite-difference
+telescoping, equivalently the strict same-parent transit inequality below the
+critical half-tail barrier.
 
 Partial, not Gold closed.
