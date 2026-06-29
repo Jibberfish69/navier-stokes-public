@@ -26,6 +26,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-retained-nonendpoint-invisible-square-bill-reduction-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-derivative-tower-positive-service-l1-proof-attempt-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-compatible-viscous-descent-l1-candidate-20260629.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-tail-good-lambda-l1-proof-reduction-20260629.md
 ---
 
 # Gold full smoothness closure reconciliation
@@ -388,6 +389,9 @@ tail could have zero signed endpoint while still producing infinite positive
 selected variation.  The needed pressure-tail theorem says every such frequency
 tail is admitted to a source parent packet and then either cancels by phase
 mixing or damps viscously, leaving no retained positive child-energy bill.
+The proof reduction is now the strict pressure-tail good-lambda recurrence
+\(N_{L+1}\le\vartheta N_L+B_L\) with \(2\vartheta<1\); this recurrence gives
+the weighted pressure-tail moment and hence the terminal-uniform \(L^1\) bound.
 
 ## 8. Smoothness closure status
 

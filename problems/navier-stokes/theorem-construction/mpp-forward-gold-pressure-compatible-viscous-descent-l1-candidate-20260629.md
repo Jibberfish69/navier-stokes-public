@@ -14,6 +14,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-observability-gramian-logvariation-proof-check-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-complete-frame-tracefree-primitive-pls-payment-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-derivative-tower-positive-service-l1-proof-attempt-20260629.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-tail-good-lambda-l1-proof-reduction-20260629.md
 completion_truth: >-
   Isolates the terminal stopping-jet form of the missing L1 theorem.  This note
   does not prove Gold closure.  It corrects the physical reading: the terminal
@@ -554,5 +555,10 @@ They do not yet prove `(PVD.11)` together with `(PVD.19)`, `(PVD.22)`,
 with the no-retained-stopping-tail, moving-frame-storage, and pressure-tail
 cancellation/damping statements is the concrete form of the Gold \(L^1\)
 theorem.
+
+The pressure-tail good-lambda reduction records the exact final proof shape:
+prove a strict recurrence \(N_{L+1}\le\vartheta N_L+B_L\) with
+\(2\vartheta<1\).  That recurrence implies the weighted pressure-tail moment,
+which implies `(PVD.29)`, which then implies `(FGC.25)`.
 
 Partial, not Gold closed.
