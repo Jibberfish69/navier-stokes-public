@@ -24,6 +24,12 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-carrier-readout-or-paid-reselection-after-dynamic-silence-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-finite-score-or-paid-drift-proof-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-stratum-crossing-bv-closure-20260627.md
+  - problems/navier-stokes/theorem-construction/far-corona-cts-lpas-execution-program.md
+  - problems/navier-stokes/theorem-construction/volterra-scale-memory-formalization-note.md
+  - problems/navier-stokes/theorem-construction/lower-triangular-scale-memory-formalization-note.md
+  - problems/navier-stokes/theorem-construction/persistent-weighted-quotient-kill-note.md
+  - problems/navier-stokes/theorem-construction/persistent-weighted-quotient-kill-routes-audit.md
+  - problems/navier-stokes/theorem-construction/affine-quotient-kill-from-signed-scale-descent-audit.md
 completion_truth: >-
   The original material Navier-Stokes identity gives same-parent origin,
   admission before child clipping, signed service balance, and the critical
@@ -2261,3 +2267,235 @@ Thus the next proof attempt should not start from \(B(t)\), and it should not
 re-prove same-parent detection or spent-source nonreuse.  It should attack the
 two-frame statement `(ODP.151)`--`(ODP.152)` directly in the original
 pressure-viscosity-incompressibility material packet.
+
+## 23. Proceeding: same-parent Volterra quotient proof unit
+
+The checked far-corona and Volterra notes put `(ODP.151)`--`(ODP.152)` in the
+right physical order.  The same-parent pressure-compatible pulse has already
+entered the original packet before the child clips a positive readout.  The
+only remaining way to lose \(L^1\) control is for one admitted heat-lag
+response to keep presenting a new selected-scale positive face as the ratio
+changes.
+
+In continuum scale language that survivor is the fresh far-corona two-scale
+density
+
+\[
+\mathcal A_{\ell,r}^{fr}(t)
+:=
+\chi_{mid}(\log\ell)
+\int_{\mathbb R^3}
+\widetilde\Sigma_r^{fr}(x,t)\,
+\tau_\ell^{H^1,fr}[u](x,t)\,dx,
+\qquad r\ge c_1\ell ,
+\tag{ODP.153}
+\]
+
+with the explicit gap-kernel packet
+
+\[
+\Pi_{N,P}^{fr,far,L}
+\le
+C_L
+\int_0^{T_*}
+\int_0^{\ell_N}
+\int_{r\ge c_1\ell}
+{\ell\over r}\,
+\mathcal A_{\ell,r}^{fr}(t)
+{dr\over r}{d\ell\over \ell}\,dt
++Paid(P).
+\tag{ODP.154}
+\]
+
+Writing \(s=\log r\), \(I=[s_0,s_1]\), and
+\(\kappa=\log c_1\), this is the weighted lower-triangular response
+
+\[
+F(s,t)
+:=
+\int_{s_0}^{s-\kappa}
+\widetilde Z^{fr}(\sigma,t)\,d\sigma,
+\qquad
+w(s,t):=a(e^s,t),
+\tag{ODP.155}
+\]
+
+and the relevant square service is
+
+\[
+\mathrm{FCTS}^{fr}_P
+:=
+\int_0^{T_*}
+\int_I
+w(s,t)\|F(s,t)\|_{L_x^2}^2\,ds\,dt .
+\tag{ODP.156}
+\]
+
+The exact lower-triangular split gives
+
+\[
+\int_I w\|F\|_{L_x^2}^2\,ds
+=
+\int_I w\|(I-P_w)F\|_{L_x^2}^2\,ds
++
+H_w(t)\|c_F(t)\|_{L_x^2}^2,
+\tag{ODP.157}
+\]
+
+where
+
+\[
+H_w(t):={|I|^2\over\int_Iw(s,t)^{-1}\,ds},
+\qquad
+c_F(t):={1\over |I|}\int_I F(s,t)\,ds .
+\tag{ODP.158}
+\]
+
+So the exact proof unit has two parts, both inside the same original packet:
+
+\[
+\mathrm{DER}^{fr}_P:\quad
+\int_0^{T_*}\int_I
+w\|(I-P_w)F\|_{L_x^2}^2\,ds\,dt
+\le
+\eta\nu\int_0^{T_*}D_{P,N}(t)\,dt
++C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{ODP.159}
+\]
+
+and
+
+\[
+\mathrm{AQK}^{fr}_P:\quad
+\int_0^{T_*}
+H_w(t)\|c_F(t)\|_{L_x^2}^2\,dt
+\le
+\eta\nu\int_0^{T_*}D_{P,N}(t)\,dt
++C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{ODP.160}
+\]
+
+Together they imply
+
+\[
+\mathrm{DER}^{fr}_P+\mathrm{AQK}^{fr}_P
+\Longrightarrow
+\mathrm{FCTS}^{fr}_P
+\Longrightarrow
+\mathrm{Car}^{fr}_P
+\Longrightarrow
+(ODP.151)\text{--}(ODP.152)
+\Longrightarrow
+(ODP.147)
+\Longrightarrow
+FGC.25 .
+\tag{ODP.161}
+\]
+
+The derivative half `(ODP.159)` is the statement that the non-persistent scale
+response is real packet variation, hence exact-in-scale material motion with
+viscous, route, return, legal, and stop payment.  The persistent half
+`(ODP.160)` is the root pressure-memory question.
+
+Fubini identifies the persistent coefficient exactly:
+
+\[
+c_F(t)
+=
+\int_J
+\theta_\kappa(\sigma)\,
+\widetilde Z^{fr}(\sigma,t)\,d\sigma,
+\qquad
+J=[s_0,s_1-\kappa],
+\tag{ODP.162}
+\]
+
+where
+
+\[
+\theta_\kappa(\sigma)
+:=
+{(s_1-\kappa)-\sigma\over |I|}
+\mathbf 1_J(\sigma),
+\qquad
+\theta_\kappa''=0\quad\text{on }J .
+\tag{ODP.163}
+\]
+
+Thus the persistent root mode only sees the affine quotient of the fresh scale
+source.  The signed scale-descent identity gives only one scale derivative:
+
+\[
+\widetilde Z^{fr}
+=
+\partial_\sigma\Psi^{fr}
++S^{spill}+E .
+\tag{ODP.164}
+\]
+
+Substituting `(ODP.164)` into `(ODP.162)` gives
+
+\[
+c_F(t)
+=
+-\theta_\kappa(s_0)\Psi^{fr}(s_0,t)
++{1\over |I|}\int_J\Psi^{fr}(\sigma,t)\,d\sigma
++\mathcal C_\theta[S^{spill}](t)
++\mathcal C_\theta[E](t).
+\tag{ODP.165}
+\]
+
+This is the precise reason the first-order signed descent does not close the
+Gold \(L^1\) line: the affine quotient still sees the potential average.  The
+needed noncircular supplier is therefore one of the following original-packet
+statements.
+
+Second-order positive scale exactness:
+
+\[
+\widetilde Z^{fr}
+=
+(\partial_\sigma-1)\partial_\sigma G^{fr}
++R^{fr},
+\tag{ODP.166}
+\]
+
+with
+
+\[
+\int_0^{T_*}
+H_w(t)
+\|\mathcal C_\theta[R^{fr}](t)\|_{L_x^2}^2\,dt
+\le
+\eta\nu\int_0^{T_*}D_{P,N}(t)\,dt
++C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{ODP.167}
+\]
+
+or potential-average control:
+
+\[
+\int_0^{T_*}
+H_w(t)
+\left\|
+{1\over |I|}\int_J\Psi^{fr}(\sigma,t)\,d\sigma
+\right\|_{L_x^2}^2\,dt
+\le
+\eta\nu\int_0^{T_*}D_{P,N}(t)\,dt
++C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{ODP.168}
+\]
+
+Either `(ODP.166)`--`(ODP.167)` or `(ODP.168)`, together with paid spill/error
+control, proves `(ODP.160)`.  Then `(ODP.159)` and `(ODP.160)` feed through
+`(ODP.161)` to the terminal-uniform \(L^1\) service line.
+
+This is the current exact mathematical form of Thomas's physical picture.  The
+instant pressure-compatible pre-energy tower may arrive everywhere in the
+material clock, and viscosity may take heat time to convert that instruction
+into velocity-derived energy readout, but the same pulse cannot be counted as
+fresh positive service at every higher ratio unless its affine pressure-memory
+quotient survives the weighted root test `(ODP.160)`.  Killing that quotient by
+second-order scale exactness or by potential-average control is exactly the
+\(L^1\) relationship between the pressure-arrival tower and the
+viscous/velocity readout tower.
