@@ -20,23 +20,71 @@ source_surfaces:
 completion_truth: >-
   The original material Navier-Stokes identity gives same-parent origin,
   admission before child clipping, signed service balance, and the critical
-  half-derivative energy identity.  These imply the desired Gold relay once a
-  strict one-sided positive-service absorption is supplied.  The derivation from
-  currently installed original-data controls stops at the positive critical
-  transfer / stopped accretive testing line: standard estimates yield only
-  C||u||_{\dot H^{1/2}} times the viscous reserve, which is strict only on small
-  critical packets.  Continuing through the physical bad scenario reduces the
-  unexited branch to an affine pressure-memory transit survivor: a same-parent
-  pressure/strain potential average with finite raw square shadow and infinite
-  selected positive first moment.  Closing this attempt now requires
-  second-order scale exactness, potential-average control, or equivalent
-  stopped accretive testing from the original coupled packet.
+  half-derivative energy identity.  The physical object is the coupled
+  pressure-viscosity-incompressibility response itself: pressure supplies the
+  instant signed compatibility/pre-energy tower, viscosity acts on every rung of
+  the velocity-derivative tower over heat time, and incompressibility forbids a
+  compression backlog or independent pressure battery.  These facts imply the
+  desired Gold relay once they are made quantitative as a strict one-sided
+  positive-service absorption.  The derivation from currently installed
+  original-data controls stops at that quantitative line: standard estimates
+  yield only C||u||_{\dot H^{1/2}} times the viscous reserve, which is strict only
+  on small critical packets.  The formal audit of the physical picture reduces
+  the unexited transit branch to an affine pressure-memory survivor: a
+  same-parent pressure/strain potential average with finite raw square shadow
+  and infinite selected positive first moment.  Closing this attempt requires
+  second-order scale exactness, potential-average control, or equivalent stopped
+  accretive testing from the original coupled packet.
 ---
 
 # Parent-weighted detector / terminal service original-data proof attempt
 
 This note attempts the requested proof of the parent-weighted detector estimate
 from the original data.
+
+## 0. Physical picture before the estimate
+
+The physical object is the coupled material response of an incompressible
+viscous packet.  A push does not create a compressible backlog inside the packet.
+The pressure field is the whole-field compatibility instruction that tells every
+packet, immediately in the material clock, what signed acceleration-level and
+higher time-rung response is needed to keep volume fixed.
+
+That pressure-compatible tower is a pre-energy tower.  It is not kinetic energy
+already transported through space.  Energy is read from velocity and velocity
+differences.  The pressure tower is one rung earlier: acceleration, jerk, and
+higher material derivatives, tested against the moving packet frame.
+
+Viscosity is still part of the same participation law.  It acts on every rung of
+the velocity-derivative tower through the differentiated parabolic operator.  Its
+physical job in this split is not to carry the instantaneous compatibility signal
+across the field; its job is to convert and damp the locally received signed
+instruction over heat time, so the packet later has a readable velocity/strain
+finite difference and an energy-service readout.
+
+In the packet-rest picture, a positive velocity slowing toward rest carries an
+opposing acceleration tower.  Higher rungs can oscillate around that descent, but
+those oscillations are still signed material-row variation.  They have only three
+honest fates in the coupled law: cancel as pressure-compatible signed variation,
+descend into viscous heat/strain dissipation, or appear as frame motion,
+route/return, legal stopped material, or endpoint material in the same original
+packet.
+
+So the \(L^1\) estimate is not looking for a new source.  It is looking for the
+finite one-sided service of this same conversion:
+
+\[
+\text{instant pressure-compatible pre-energy tower}
+\quad\leadsto\quad
+\text{heat-lag velocity-derivative/energy readout}.
+\]
+
+The physical reason that service should be finite is exactly the no independent
+fuel principle.  Pressure has no separate battery, incompressibility has no
+compression bank, viscosity is monotone on spatial gradients, and the
+first-admission update prevents the same pressure-compatible pulse from being
+counted as fresh again at higher selected ratios.  What remains to prove is the
+strict quantitative version of that physical statement.
 
 The target detector estimate is
 
@@ -368,35 +416,39 @@ same missing one-sided service theorem: the original pressure-viscosity-
 incompressibility packet must turn signed same-parent impulse into finite
 positive selected service with strict viscous margin.
 
-## 6. Physical reading of the failed line
+## 6. Physical meaning of the \(L^1\) line
 
-The original data proves that pressure has no independent material source and
-that a selected far-packet heat-lag read belongs to the same parent event.  It
-also proves that viscosity is the irreversible drain.
+The original data proves that pressure has no independent material source, that
+a selected heat-lag read belongs to the same parent event, and that viscosity is
+the irreversible drain on the same differentiated row.  It also proves signed
+balance.
 
-The unproved statement is stronger.  It says that after all reuse, return,
-motion, legal, stop, and viscous residence have been removed, the pressure-tail
-cannot keep presenting fresh one-sided positive service at selected scales
-while its signed net and square mass remain finite.
+The missing quantitative step is stronger than signed balance.  It says that
+the positive one-sided readings of the same signed row cannot accumulate without
+being converted into viscous descent, signed pressure cancellation, bounded
+moving-frame storage, route/return material, legal stopped material, or endpoint
+material in that same packet.
 
-Physically, this is the "no pressure battery / no compression bank / no infinite
-fresh echo" principle.  The current equations express that principle as a
-signed balance.  The Gold estimate needs it as a strict one-sided \(L^1\)
-absorption.
+Physically, this is the no pressure battery / no compression bank / no infinite
+fresh echo principle in one sentence: after a pressure-compatible pulse is
+admitted into the original material history, later selected readings of that
+pulse are work of the already charged current, not new pressure fuel.
 
-## 7. Physical bad-scenario story
+## 7. Formal audit of that physical picture
 
-Suppose `(ODP.1)` fails after retained current, return, motion, viscosity,
-legal, and stop material are removed.  Then the bad physical picture is very
-specific.
+To test whether the physical picture has actually been proved, remove retained
+current, return, motion, viscosity, legal stopped material, and stop material
+from the same parent packet.  A surviving positive service tail would then have
+a precise formal shape.
 
-A same-parent pressure-compatible pulse reaches a selected packet.  The local
-velocity/shear readout is delayed by one heat time.  The child then magnifies
-that delayed finite difference and counts a positive service bill.  No-recount
-prevents the same admitted pulse from being fresh again, so an infinite bad
-bill cannot be repeated use of one charged carrier.  It must be an infinite
-train of first-admitted tiny pulses whose raw square mass is finite while the
-selected linear first moment is not.
+A same-parent pressure-compatible pulse is received first as a signed
+acceleration-level instruction.  The local velocity/shear readout becomes
+visible after one heat time.  The selected child coordinate magnifies that
+finite difference and counts a positive service bill.  No-recount prevents the
+same admitted pulse from being fresh again, so a surviving infinite bill cannot
+be repeated use of one charged carrier.  It would have to be an infinite train
+of first-admitted tiny same-parent pulses whose raw square mass is finite while
+the selected linear first moment is not.
 
 Formally, from a failing tail one can choose disjoint stopped blocks
 \(\mathcal T_m\) such that
@@ -422,12 +474,12 @@ P_{F_I}dK_P
 \tag{ODP.30}
 \]
 
-This is the precise mathematical version of the physical ghost-source
-picture: the original packet carries vanishing raw energy in the tail, but the
-selected heat-lag readout still sees order-one positive service.  That is only
-possible through a scale-critical defect measure.  The defect is not a new
-pressure source; it is a pressure-memory survivor created by the mismatch
-between raw \(L^2\) packet geometry and selected inverse-scale geometry.
+This is the precise mathematical audit of the apparent ghost-source picture: the
+original packet carries vanishing raw square content in the tail, but the
+selected heat-lag readout still sees order-one positive service.  That can only
+survive as a scale-critical defect measure.  The defect is not a new pressure
+source; it is a pressure-memory survivor created by the mismatch between raw
+\(L^2\) packet geometry and selected inverse-scale geometry.
 
 Each pulse in this train has one of four physical fates.
 
@@ -439,10 +491,10 @@ Each pulse in this train has one of four physical fates.
 4. It transits through the scale tower without residence, without cancellation,
    and without a paid exit.
 
-The first three fates are already in the paid side of `(ODP.1)`.  Therefore a
-genuine failure of `(ODP.1)` must be the fourth fate: an unexited transit thread
-whose selected pressure-memory survives the heat lag while carrying no raw
-square charge large enough to pay its selected first moment.
+The first three fates are already in the paid side of `(ODP.1)`.  A genuine
+failure of `(ODP.1)` is therefore exactly the fourth fate: an unexited transit
+thread whose selected pressure-memory survives the heat lag while carrying no
+raw square charge large enough to pay its selected first moment.
 
 ## 8. Transit-thread reduction to the affine pressure-memory survivor
 
@@ -496,8 +548,8 @@ the scale average
 \tag{ODP.34}
 \]
 
-This is the pressure-memory object behind the physical story.  A bad packet is
-not "pressure keeps injecting energy" in an undefined way.  It is:
+This is the pressure-memory object exposed by the audit.  A surviving transit
+readout is not "pressure keeps injecting energy" in an undefined way.  It is:
 
 \[
 \text{the affine average of the signed pressure/strain potential survives}
@@ -694,10 +746,10 @@ the original data.
 
 ## 11. What the continuation proves
 
-The physical story has now removed the vague "supplier" word.  The concrete
-bad object is an unexited same-parent pressure-memory transit thread whose
-affine potential average has finite raw square shadow and infinite selected
-positive first moment.
+The physical story has been put into the same-parent row instead of a vague
+inventory word.  The concrete formal survivor is an unexited same-parent
+pressure-memory transit thread whose affine potential average has finite raw
+square shadow and infinite selected positive first moment.
 
 The current original-data proof proves that every other branch is paid or
 reduced:
