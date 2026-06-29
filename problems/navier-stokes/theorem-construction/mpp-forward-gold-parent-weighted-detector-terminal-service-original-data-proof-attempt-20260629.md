@@ -25,10 +25,12 @@ completion_truth: >-
   currently installed original-data controls stops at the positive critical
   transfer / stopped accretive testing line: standard estimates yield only
   C||u||_{\dot H^{1/2}} times the viscous reserve, which is strict only on small
-  critical packets.  For arbitrary smooth data the parent-weighted detector
-  estimate remains equivalent to the nonlocal same-parent service storage law,
-  not a consequence of raw energy, raw Bessel square mass, or signed balance
-  alone.
+  critical packets.  Continuing through the physical bad scenario reduces the
+  unexited branch to an affine pressure-memory transit survivor: a same-parent
+  pressure/strain potential average with finite raw square shadow and infinite
+  selected positive first moment.  Closing this attempt now requires
+  second-order scale exactness, potential-average control, or equivalent
+  stopped accretive testing from the original coupled packet.
 ---
 
 # Parent-weighted detector / terminal service original-data proof attempt
@@ -382,7 +384,345 @@ fresh echo" principle.  The current equations express that principle as a
 signed balance.  The Gold estimate needs it as a strict one-sided \(L^1\)
 absorption.
 
-## 7. Outcome
+## 7. Physical bad-scenario story
+
+Suppose `(ODP.1)` fails after retained current, return, motion, viscosity,
+legal, and stop material are removed.  Then the bad physical picture is very
+specific.
+
+A same-parent pressure-compatible pulse reaches a selected packet.  The local
+velocity/shear readout is delayed by one heat time.  The child then magnifies
+that delayed finite difference and counts a positive service bill.  No-recount
+prevents the same admitted pulse from being fresh again, so an infinite bad
+bill cannot be repeated use of one charged carrier.  It must be an infinite
+train of first-admitted tiny pulses whose raw square mass is finite while the
+selected linear first moment is not.
+
+Formally, from a failing tail one can choose disjoint stopped blocks
+\(\mathcal T_m\) such that
+
+\[
+\sum_{I\in\mathcal T_m}
+\omega_I
+\left|
+\langle dK_P,\Phi_I^P\rangle_P
+\right|
+=1,
+\tag{ODP.29}
+\]
+
+while the raw parent square content goes to zero:
+
+\[
+\sum_{I\in\mathcal T_m}
+\left\|
+P_{F_I}dK_P
+\right\|_{\mathcal C_P}^2
+\longrightarrow 0.
+\tag{ODP.30}
+\]
+
+This is the precise mathematical version of the physical ghost-source
+picture: the original packet carries vanishing raw energy in the tail, but the
+selected heat-lag readout still sees order-one positive service.  That is only
+possible through a scale-critical defect measure.  The defect is not a new
+pressure source; it is a pressure-memory survivor created by the mismatch
+between raw \(L^2\) packet geometry and selected inverse-scale geometry.
+
+Each pulse in this train has one of four physical fates.
+
+1. It resides for one heat time at its frequency; then viscosity pays a fixed
+   fraction of it.
+2. It cancels with its Calderon-Zygmund pressure partner; then signed pressure
+   variation pays it.
+3. It changes route, returns, exits, becomes legal material, or stops.
+4. It transits through the scale tower without residence, without cancellation,
+   and without a paid exit.
+
+The first three fates are already in the paid side of `(ODP.1)`.  Therefore a
+genuine failure of `(ODP.1)` must be the fourth fate: an unexited transit thread
+whose selected pressure-memory survives the heat lag while carrying no raw
+square charge large enough to pay its selected first moment.
+
+## 8. Transit-thread reduction to the affine pressure-memory survivor
+
+The transit branch is not arbitrary.  In the lifted scale variable
+\(\sigma=\log \ell\), the signed scale-descent identity has the form
+
+\[
+Y^{fresh}
+=
+\partial_\sigma\Psi^{fresh}
++S^{spill}
++E .
+\tag{ODP.31}
+\]
+
+Here \(Y^{fresh}\) is the fresh signed pressure/strain scale source,
+\(\Psi^{fresh}\) is the cumulative signed commutator potential, and
+\(S^{spill}+E\) is threshold-local collar/spill/soft material.
+
+The selected affine kernel \(\theta_\kappa\) sees the coefficient
+
+\[
+\mathcal C_\theta[Y^{fresh}](t)
+:=
+\int_J\theta_\kappa(\sigma)Y^{fresh}(\sigma,t)\,d\sigma .
+\tag{ODP.32}
+\]
+
+Inserting `(ODP.31)` and integrating by parts gives
+
+\[
+\mathcal C_\theta[Y^{fresh}]
+=
+-\theta_\kappa(s_0)\Psi^{fresh}(s_0,t)
++{1\over |J|}
+\int_J\Psi^{fresh}(\sigma,t)\,d\sigma
++\mathcal C_\theta[S^{spill}]
++\mathcal C_\theta[E].
+\tag{ODP.33}
+\]
+
+The boundary, spill, and soft terms are paid only when their named collar/legal
+estimates are available.  After those are removed, the sole transit survivor is
+the scale average
+
+\[
+\mathcal P_{avg}^{fresh}(t)
+:=
+{1\over |J|}
+\int_J\Psi^{fresh}(\sigma,t)\,d\sigma .
+\tag{ODP.34}
+\]
+
+This is the pressure-memory object behind the physical story.  A bad packet is
+not "pressure keeps injecting energy" in an undefined way.  It is:
+
+\[
+\text{the affine average of the signed pressure/strain potential survives}
+\]
+
+with enough harmonic weight to create selected positive service:
+
+\[
+\int_0^{T_*}
+H_w(t)
+\|\mathcal P_{avg}^{fresh}(t)\|_{L_x^2}^2\,dt
+=\infty .
+\tag{ODP.35}
+\]
+
+Thus `(ODP.1)` is reduced, on the unexited transit branch, to killing
+`(ODP.35)`.
+
+## 9. Second proof attack: kill the affine survivor by another scale derivative
+
+The first scale derivative in `(ODP.31)` is one derivative short: the affine
+kernel is blind to exact second scale derivatives, not to first derivatives.
+The direct way to kill `(ODP.34)` is therefore to prove a second-order
+same-parent exactness formula
+
+\[
+Y^{fresh}
+=
+(\partial_\sigma-1)\partial_\sigma G^{fresh}
++R^{fresh},
+\tag{ODP.36}
+\]
+
+with
+
+\[
+\int_0^{T_*}
+H_w(t)
+\|\mathcal C_\theta[R^{fresh}](t)\|_{L_x^2}^2\,dt
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P).
+\tag{ODP.37}
+\]
+
+If `(ODP.36)`--`(ODP.37)` hold, then the affine survivor is paid:
+
+\[
+\int_0^{T_*}
+H_w(t)
+\|\mathcal P_{avg}^{fresh}(t)\|_{L_x^2}^2\,dt
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P).
+\tag{ODP.38}
+\]
+
+Then `(ODP.25)` holds; the selected-critical root upper bound follows; the
+parent-weighted detector estimate `(ODP.1)` follows by the already installed
+no-recount pushforward theorem; and `(ODP.3)` follows.
+
+The attempted derivation of `(ODP.36)` from the current signed scale-descent
+identity fails for a definite reason.  The signed identity gives only
+\(Y^{fresh}=\partial_\sigma\Psi^{fresh}+S^{spill}+E\).  To get `(ODP.36)`, one
+would need a same-parent equation for the potential itself,
+
+\[
+\Psi^{fresh}
+=
+(\partial_\sigma-1)G^{fresh}
++\widetilde R^{fresh},
+\tag{ODP.39}
+\]
+
+or a direct coercive decay estimate on the affine moments of
+\(\Psi^{fresh}\).  Current source-backed notes do not supply `(ODP.39)`.  They
+identify the surviving affine average exactly, but they do not prove it decays
+or becomes another scale derivative.
+
+## 10. Third proof attack: global signed LP balance
+
+The global signed LP balance removes one possible escape: the affine survivor is
+not produced by a bad choice of local scale charts.
+
+With one fixed continuous Littlewood-Paley family,
+
+\[
+P_{\le \ell}=\varphi(\ell D),
+\qquad
+Q_\ell=-\ell\partial_\ell P_{\le \ell},
+\tag{ODP.40}
+\]
+
+the signed lifted commutator density has a global balance
+
+\[
+\mathfrak c_\ell
+=
+(\ell\partial_\ell)\Psi_\ell
++\nabla_x\cdot J_\ell
++\partial_tR_\ell
++\mathcal S_\ell^{spill}
++\mathcal E_\ell .
+\tag{ODP.41}
+\]
+
+Thus the pressure-memory survivor is not a cocycle/gluing defect.  It is a
+quantitative boundary/residual problem after one global signed scale derivative
+has been taken.
+
+When `(ODP.41)` is inserted into the middle-band affine readout, the live
+pieces are:
+
+\[
+\mathfrak B_N^{upper}(t)
+:=
+\int(\partial_s\chi_{mid})(s)\Psi(s,t)\,ds,
+\tag{ODP.42}
+\]
+
+the finite-offset spill/near-corona packet, and the large-gap far-corona
+packet
+
+\[
+\Pi_N^{mid,far,L}(t)
+\le
+C_L
+\int_0^{\ell_N}
+\int_{r\ge c_1\ell}
+{\ell\over r}\,
+\mathcal A_{\ell,r}(t)
+{dr\over r}{d\ell\over \ell}.
+\tag{ODP.43}
+\]
+
+The same-scale boundary and near-corona pieces are finite-width multiplier
+stability problems.  They are not the physical pressure-tail half-tail.  The
+large-gap term `(ODP.43)` is the real transit carrier: low/mid material motion
+is feeding a higher stress/strain readout through the pressure-compatible
+coupled packet.
+
+The weighted enstrophy-tail identity records the same far-corona carrier as
+
+\[
+\int_0^T
+\sum_{k>N+M}
+2^k\,a_k(t)\,\mathcal D_k^\uparrow(t)\,dt,
+\tag{ODP.44}
+\]
+
+where \(a_k=2^{3k/2}\|\Delta_k u\|_2\) is the active lower/middle amplitude and
+\(\mathcal D_k^\uparrow\) is the upper dissipation queue.  Therefore the
+far-corona version of the same proof demand is a coercive tail theorem:
+
+\[
+\int_0^T
+\sum_{j>N}
+2^j\big(\mathcal T_j^\sigma(t)\big)^2\,dt
+\le
+C_*2^{-2\delta N},
+\tag{ODP.45}
+\]
+
+or an equivalent entropy inequality
+
+\[
+\partial_t\mathcal H_j^\sigma
++c\,2^j\big(\mathcal T_j^\sigma\big)^2
+\le
+\mathrm{Err}_j^\sigma .
+\tag{ODP.46}
+\]
+
+Physically, `(ODP.44)` is the last form of the pressure-memory survivor after
+the coupled law has done all available routing.  A lower/middle packet keeps
+pulling an upper tail along.  Viscosity sees the upper queue, but the selected
+bill sees the product of that queue with the active lower/middle carrier.  The
+Gold proof needs the coupled pressure-viscosity-incompressibility law to make
+that product coercive against the square of the upper queue, up to a bounded
+entropy/storage drop.
+
+This is a real continuation of the proof attempt:
+
+\[
+(ODP.1)
+\Longleftarrow
+(ODP.38)
+\Longleftarrow
+(ODP.36)\text{ or }(ODP.46).
+\tag{ODP.47}
+\]
+
+The current repo has the global signed identity and the far-corona carrier
+identity.  It does not yet have the coercive entropy inequality `(ODP.46)` from
+the original data.
+
+## 11. What the continuation proves
+
+The physical story has now removed the vague "supplier" word.  The concrete
+bad object is an unexited same-parent pressure-memory transit thread whose
+affine potential average has finite raw square shadow and infinite selected
+positive first moment.
+
+The current original-data proof proves that every other branch is paid or
+reduced:
+
+\[
+\begin{aligned}
+\text{same pulse reread} &\longrightarrow \text{admitted Schur current},\\
+\text{residence} &\longrightarrow \text{viscous heat descent},\\
+\text{oscillatory partner retained} &\longrightarrow \text{signed cancellation},\\
+\text{route/return/legal/stop} &\longrightarrow \text{paid material},\\
+\text{fresh raw square novelty} &\longrightarrow \text{Bessel support}.
+\end{aligned}
+\tag{ODP.48}
+\]
+
+The branch not killed by those mechanisms is the affine pressure-memory transit
+survivor, equivalently the far-corona lower-to-upper carrier `(ODP.44)`.  The
+next noncircular mathematical act is not another detector, another child
+account, or another raw square packing theorem.  It is either `(ODP.36)`
+second-order scale exactness, `(ODP.38)` potential-average control, `(ODP.46)`
+coercive tail entropy, or an equivalent stopped accretive testing theorem that
+forces the affine pressure-memory survivor into viscosity, cancellation, or
+paid packet motion.
+
+## 12. Outcome
 
 The proof from currently installed original-data controls does not close.
 
@@ -396,7 +736,7 @@ What is proved:
 \text{first admission and no-recount}
 \Longrightarrow
 \text{finite service after `(ODP.1)'}.
-\tag{ODP.27}
+\tag{ODP.49}
 \]
 
 What is not proved:
@@ -405,7 +745,7 @@ What is not proved:
 \text{original row and raw energy}
 \Longrightarrow
 (ODP.1).
-\tag{ODP.28}
+\tag{ODP.50}
 \]
 
 The exact mathematical line still needed is the strict one-sided positive
