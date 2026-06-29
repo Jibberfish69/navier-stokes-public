@@ -1536,3 +1536,202 @@ It does not by itself supply the selected critical root reserve
 \(\mathcal R^{native}\).  That reserve is the same object called
 `SelectedCompressionRootReserve.A` / `OriginalHistorySelectedLogAmplificationCarleson.A`
 in the June 27 active-route surfaces.
+
+## 17. Replace the placeholder reserve by projected original-history charge
+
+The previous section still left \(\mathcal R^{native}\) as a name.  The next
+noncircular move is to define it from the original coupled packet before any
+selected child readout.
+
+For a retained stopped transition edge \(e\subset P\), let \(H_{e^-}\) be the
+parent-known heat/active weight and let \(\mathcal P_{e^-}\) be the
+parent-predictable visible/silent/exchange span.  The only fresh part is the
+parent-subtracted projection
+
+\[
+D_e^{new}
+:=
+(I-\Pi_{\mathcal P_{e^-}})
+\int_{I_e}
+\Pi_{new}(e)
+\Big(
+[D_t,\mathcal L_A]w_e
++\operatorname{covector}_e
++\operatorname{frame}_e
++\operatorname{turnstile}_e
++\partial_\sigma Z_e
+\Big)\,d\tau
++R_e^{legal}.
+\tag{ODP.105}
+\]
+
+Define the explicit original-history projected-charge measure
+
+\[
+d\mathcal R_P^{proj}
+:=
+\sum_{e\subset P}
+H_{e^-}\|D_e^{new}\|_{\mathcal H_{vis}\oplus\mathcal H_{sil}\oplus\mathcal H_{ex}}^2
++dReturn_P+dReset_P+dStop_P+dLegal_P .
+\tag{ODP.106}
+\]
+
+This is the concrete candidate for the native reserve in `(ODP.98)`.  It is
+legal currency only because every factor in `(ODP.105)` is parent-known or
+projected from the original material derivative before the selected positive
+child clips the output.
+
+The active route measure is dominated by `(ODP.106)` if the following two
+representation/testing statements hold.
+
+First, the parent-subtracted endpoint/source current representation:
+
+\[
+M_{parent\text{-}sub}^{fresh}
+=
+D_AJ_{EP}^{new}
++M_{stop}^{fresh}+M_{legal}^{fresh}+M_{return}^{fresh},
+\tag{ODP.107}
+\]
+
+with
+
+\[
+\int_{\widehat Q}|J_{EP}^{new}|^2\,d\mathcal R
+\le
+C_N\,\mathcal R_P^{proj}(\widehat Q).
+\tag{ODP.108}
+\]
+
+Second, stopped endpoint accretive testing:
+
+\[
+\int H_w\,|M_{parent\text{-}sub}^{fresh}|^2
+\le
+C_N
+\int_{\widehat Q}|J_{EP}^{new}|^2\,d\mathcal R
++C_N\bigl(Return+Reset+Stop+Legal\bigr)(Q).
+\tag{ODP.109}
+\]
+
+Equations `(ODP.107)`--`(ODP.109)` give the missing domination
+
+\[
+\mu_A(\widehat Q)
+\le
+C_N\,\mathcal R_P^{proj}(\widehat Q),
+\tag{ODP.110}
+\]
+
+which is `(ODP.93)` with the placeholder removed.
+
+So the real root-Carleson line is now
+
+\[
+\sup_{Q\subset P}
+{\mathcal R_P^{proj}(\widehat Q)\over\mathcal R(Q)}
+\le
+C_N(u_0)+Paid(Q).
+\tag{ODP.111}
+\]
+
+If `(ODP.111)` holds, then `(ODP.110)` gives `(ODP.91)`, and the rest of the
+terminal \(L^1\) chain is formal.
+
+The proof attempt for `(ODP.111)` should be by contradiction.  If it fails, pick
+a bad sequence \(P_n\) and normalize
+
+\[
+\mathcal R_{P_n}^{proj}(\widehat {P_n})=1,
+\qquad
+C_N(u_0)\mathcal R(P_n)+Paid(P_n)\to0.
+\tag{ODP.112}
+\]
+
+After stopped rescaling, bounded-overlap extraction, and parent-frame
+compactness, the limit has a nonzero fresh projected route
+
+\[
+D_*^{new}\ne0,
+\tag{ODP.113}
+\]
+
+but every original projected charge vanishes:
+
+\[
+\Pi_{new}[D_t,\mathcal L_A]w_*=0,\quad
+\Pi_{new}\operatorname{covector}_*=0,\quad
+\Pi_{new}\operatorname{frame}_*=0,
+\tag{ODP.114}
+\]
+
+\[
+\Pi_{new}\operatorname{turnstile}_*=0,\quad
+\Pi_{new}\partial_\sigma Z_*=0,\quad
+Return_*=Reset_*=Stop_*=Legal_*=0.
+\tag{ODP.115}
+\]
+
+The installed zero-cost dynamic silent freshness rigidity kills the silent part
+of this profile after parent-predictable transport is removed:
+
+\[
+D_{*,sil}^{new}=0.
+\tag{ODP.116}
+\]
+
+The visible part is killed by the parent Schur/current projection, and the
+exchange part is killed by the vanished projected strain/frame/covector
+charges.  Thus the contradiction target is
+
+\[
+D_*^{new}=0,
+\tag{ODP.117}
+\]
+
+contradicting `(ODP.113)`.
+
+This is the correct compactness-rigidity proof shape.  The current repo already
+supplies `(ODP.116)` for the dynamic silent branch.  The two clauses still not
+installed at this level are:
+
+\[
+\text{stopped parent-frame compactness/tightness for the normalized bad sequence,}
+\tag{ODP.118}
+\]
+
+and
+
+\[
+\text{selector-carrier nondegeneracy or paid reselection for the limit readout.}
+\tag{ODP.119}
+\]
+
+Without `(ODP.118)` a bad sequence can lose the fresh route through a moving
+frame or escaping stopped window before the zero-cost rigidity applies.  Without
+`(ODP.119)` the selected scalar can keep changing while the fixed Hilbert
+carrier increment tends to zero, recreating the half-tail as reselection rather
+than as pressure/viscosity service.
+
+Thus the noncircular continuation is:
+
+\[
+(ODP.118)+(ODP.119)
+\Longrightarrow
+(ODP.117)
+\Longrightarrow
+(ODP.111)
+\Longrightarrow
+(ODP.91).
+\tag{ODP.120}
+\]
+
+This is sharper than the previous placeholder.  The missing size theorem is not
+"same-parent ownership"; it is a compactness-rigidity theorem for parent-framed
+projected charges plus selector nondegeneracy.  Physically, the only way the
+selected heat-lag pulse could remain large while every projected coupled charge
+vanishes would be for a packet to keep producing fresh pressure-compatible
+motion with no frame change, no covector motion, no strain/exchange, no return,
+no reset, no stop, and no legal exit.  The parent-subtracted rigidity says that
+is inherited transport, not fresh action.  The remaining work is making that
+rigidity survive the selected stopping/limit process.
