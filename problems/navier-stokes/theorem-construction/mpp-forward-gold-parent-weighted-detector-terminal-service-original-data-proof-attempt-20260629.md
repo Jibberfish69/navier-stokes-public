@@ -2499,3 +2499,157 @@ quotient survives the weighted root test `(ODP.160)`.  Killing that quotient by
 second-order scale exactness or by potential-average control is exactly the
 \(L^1\) relationship between the pressure-arrival tower and the
 viscous/velocity readout tower.
+
+## 24. Adjacent Schur/no-reuse audit: what it contributes to the quotient kill
+
+The adjacent paid-parent-current and affine Schur notes do not need to be
+reproved.  Their installed contribution is categorical: after first admission,
+a same-carrier positive direction cannot remain "perpendicular" to the paid
+parent current forever.  First entry is fresh Bessel novelty; retained
+production is Schur current work; route, return, metric motion, legal, and stop
+are paid packet geometry.
+
+Applied to `(ODP.160)`, that says the affine quotient must be represented as a
+paid parent-current state before the selected child reads it.  On a stopped
+scale interval \(J\), set
+
+\[
+b(s)=(1,s)^T,
+\qquad
+\mathsf G_J(t)=\int_J w_J(s,t)^{-1}b(s)b(s)^T\,ds,
+\tag{ODP.169}
+\]
+
+and
+
+\[
+m_J(t,x)=\int_J b(s)\widetilde Z^{S,new}(s,t,x)\,ds .
+\tag{ODP.170}
+\]
+
+Then every affine quotient readout satisfies
+
+\[
+H_w(t)\|c_\theta(t)\|_{L_x^2}^2
+\le
+C_\kappa
+\int
+\langle m_J(t,x),\mathsf G_J(t)^{-1}m_J(t,x)\rangle\,dx .
+\tag{ODP.171}
+\]
+
+The right side is the Schur storage
+
+\[
+\mathfrak S_J(t)
+:=
+\int
+\langle m_J,\mathsf G_J^{-1}m_J\rangle\,dx .
+\tag{ODP.172}
+\]
+
+Differentiating along the stopped material history gives
+
+\[
+D_t\mathfrak S_J
+=
+2\int\langle \mathsf G_J^{-1}m_J,D_tm_J\rangle\,dx
+-
+\int\langle
+\mathsf G_J^{-1}m_J,
+(D_t\mathsf G_J)\mathsf G_J^{-1}m_J
+\rangle\,dx .
+\tag{ODP.173}
+\]
+
+So the Schur storage would prove the affine quotient kill if the stopped
+transitions satisfy the accretive storage inequality
+
+\[
+c\,H_w\|c_\theta^+(t)\|_{L_x^2}^2\,dt
+d\mathfrak S_J(t)
+\le
+C\,H_w\|c_\theta^-(t)\|_{L_x^2}^2\,dt
+C\,\mathfrak S_J\,d\mathcal K_J^{geom}
+dFresh_J+dReturn_J+dLegal_J+dStop_J ,
+\tag{ODP.174}
+\]
+
+with
+
+\[
+d\mathcal K_J^{geom}
+:=
+\|\mathsf G_J^{-1/2}d\mathsf G_J\mathsf G_J^{-1/2}\|_{\rm op,+}.
+\tag{ODP.175}
+\]
+
+This is the exact place where the adjacent no-reuse proof attaches to the
+Gold \(L^1\) line.  It turns repeated admitted affine production into Schur
+storage work.  It does not by itself prove that every selected affine
+transition has been admitted into the paid parent-current state with a
+predictable weight.
+
+That admission is the remaining theorem shape:
+
+\[
+\mathcal C_\theta[Z_e]
+=
+B_e+D_e+R_e,
+\tag{ODP.176}
+\]
+
+where \(B_e\) is the parent-predictable inherited affine component, \(D_e\) is
+the lifted innovation orthogonal to the parent affine span in the parent-known
+weighted Hilbert space, and \(R_e\) is paid collar/selector/legal error.  The
+required Bessel square-packing is
+
+\[
+\int
+\left\|\sum_e D_e\right\|_{H_{e^-}}^2
+\lesssim
+\sum_e\int H_{e^-}(t)\|D_e(t)\|_{L_x^2}^2\,dt
++Paid(P),
+\tag{ODP.177}
+\]
+
+with every \(H_{e^-}\) parent-announced before child positive clipping.  After
+`(ODP.176)`--`(ODP.177)`, the predictable inherited part routes to the
+stopped primitive return/potential-average record, and the innovation part
+routes to the critical reset/log-scale-derivative carrier:
+
+\[
+\sum_{e\in\mathscr E_{\rm rep}}H_{e^-}\|B_e\|^2
+\le Return(P)+\text{potential-average storage}+Paid(P),
+\tag{ODP.178}
+\]
+
+\[
+\sum_{e\in\mathscr E_{\rm reset}}H_{e^-}\|D_e\|^2
+\le ResetBV(P)+LogScaleCarrier(P)+Paid(P).
+\tag{ODP.179}
+\]
+
+Thus the adjacent no-reuse proof solves the false "repeated perpendicular
+channel" and supplies the Schur algebra for retained admitted production.  The
+still-open Gold proof, in this quotient coordinate, is the admission/update and
+packing package
+
+\[
+(ODP.176)\text{--}(ODP.179)
+\Longrightarrow
+(ODP.174)
+\Longrightarrow
+(ODP.160)
+\Longrightarrow
+FGC.25 .
+\tag{ODP.180}
+\]
+
+Physically, this is the point: once the pressure-compatible pulse has a
+parent-current coordinate, repeated motion in that coordinate is no longer a
+new source.  It is either stored Schur current, negative return, reset/metric
+motion, viscosity, legal/stop material, or fresh Bessel novelty.  The only
+remaining mathematical proof is to show that the affine pressure-memory
+transitions enter that parent-current state with the weight fixed from the
+parent history before the selected child reads them.
