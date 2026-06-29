@@ -956,5 +956,6 @@ the actual positive native carrier.
 
 Current truth state: the legitimate first-admission atoms are locally real,
 cannot be recounted, and form the finite raw original-history Bessel measure
-`(WLF.36b)`--`(WLF.36e)`.  The unproved part is the selected-critical weighted
-measure `(WLF.36f)`, i.e. the Gold root upper bound `(WLF.36)`.
+`(WLF.36b)`--`(WLF.36e)`.  The unproved part of this
+first-admission/root-measure slice is the selected-critical weighted measure
+`(WLF.36f)`, i.e. the selected-critical root upper bound `(WLF.36)`.
