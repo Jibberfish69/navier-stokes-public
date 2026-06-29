@@ -342,7 +342,9 @@ This note changes the missing object from an abstract pressure-phase storage to
 a concrete heat-lag finite-difference no-recount theorem.  The row inequality
 `(HLG.9)` is an algebraic consequence of the differentiated Navier-Stokes row.
 The Gold proof still requires the noncircular weighted selected bill to
-weightless parent-current service theorem `(HLG.12a)`, which then gives
-`(HLG.12)`.
+weightless parent-current service theorem `(HLG.12a)`.  In the corrected form,
+retained reuse is Schur current work and fresh first entry is paid only by the
+native heat-lag linear charge \(d\mathcal N^{heat}\), not by Bessel square alone.
+That theorem then gives `(HLG.12)`.
 
 Partial, not Gold closed.

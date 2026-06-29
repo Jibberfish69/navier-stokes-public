@@ -378,7 +378,8 @@ alone permits the half-tail profile
 \]
 
 Thus `(PTG.22)` is equivalent to proving `(PTG.22a)` after same-parent heat
-detector admission, not to proving a weighted adjoint square estimate alone.
+detector admission, with the fresh native heat-lag linear charge included.  It
+is not equivalent to proving a weighted adjoint square estimate alone.
 
 In recurrence form this is
 
@@ -447,8 +448,8 @@ Gold closure reduction after `(PTG.10)` / `(PTG.22)` is proved.
 
 The algebra from `(PTG.10)` to `(PTG.25)` is complete.  The open mathematical
 content is exactly `(PTG.22a)`, hence `(PTG.22)`: the weighted selected
-heat-lag bill must be converted into weightless original-parent Schur/Bessel
-current work plus paid errors.  This is the strict same-parent transit
-inequality below the critical half-tail barrier.
+heat-lag bill must be converted into weightless original-parent Schur current
+work, finite native heat-lag linear service, or paid errors.  This is the strict
+same-parent transit inequality below the critical half-tail barrier.
 
 Partial, not Gold closed.
