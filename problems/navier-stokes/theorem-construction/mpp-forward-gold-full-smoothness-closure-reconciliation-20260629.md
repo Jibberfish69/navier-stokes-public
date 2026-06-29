@@ -382,7 +382,12 @@ terminal rest both sides of the subtraction vanish.  The missing \(L^1\)
 theorem is finite positive service for that coupled stopping jet, together with
 no retained negative stopping-tail after velocity alone appears quiet.  In this
 candidate, the storage derivative is the moving-frame correction:
-\(\mathsf C_{\xi,k}=-d\mathcal B_{\xi,k}/dt\).
+\(\mathsf C_{\xi,k}=-d\mathcal B_{\xi,k}/dt\).  The remaining \(L^1\)
+obstruction is oscillation of the pressure-parent tower: an infinite frequency
+tail could have zero signed endpoint while still producing infinite positive
+selected variation.  The needed pressure-tail theorem says every such frequency
+tail is admitted to a source parent packet and then either cancels by phase
+mixing or damps viscously, leaving no retained positive child-energy bill.
 
 ## 8. Smoothness closure status
 

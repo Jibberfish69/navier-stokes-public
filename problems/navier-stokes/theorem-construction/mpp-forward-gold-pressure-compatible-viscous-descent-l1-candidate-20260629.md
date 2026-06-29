@@ -26,8 +26,12 @@ completion_truth: >-
   pressure-viscosity side and the first-order derivative tower are equal and
   opposite up to \(T_*\), where both sides must vanish.  The storage term is
   the primitive of the moving-frame correction \(\mathsf C_{\xi,k}\), not a
-  generic paid residue.  The missing estimate is terminal-uniform L1 control of
-  positive selected service for that coupled stopping jet.
+  generic paid residue.  The remaining physical obstruction is oscillation of
+  the pressure-parent tower: infinite frequency injection could make higher
+  stopping rungs switch signs while the average packet motion slows.  The
+  missing estimate is terminal-uniform L1 control of the positive selected
+  pressure tail by cancellation or viscous damping, hence of the coupled
+  stopping jet.
 ---
 
 # Pressure-compatible terminal stopping-jet \(L^1\) candidate
@@ -405,6 +409,95 @@ This is the candidate \(L^1\) relationship: prove that a pressure-compatible
 parent pulse cannot outlive the one-way material stopping profile as a retained
 positive selected bill.
 
+## 3.3. Oscillatory pressure-parent tail
+
+The signed equality alone does not solve the \(L^1\) problem.  A pressure row
+can have zero net endpoint and still create infinite positive selected service
+by oscillating:
+
+\[
+\int_0^\tau \mathsf P_{\xi,k}(t)\,dt
+\quad\text{can stay bounded while}\quad
+\int_0^\tau [\mathsf P_{\xi,k}(t)]_+\,dt
+\quad\text{diverges.}
+\tag{PVD.27}
+\]
+
+That is the real storage obstruction.  The pressure-parent tower can inject a
+packet of frequencies whose average effect is to slow the selected packet, while
+particular frequencies resonate the pressure readout and force higher stopping
+rungs to switch sign.  To the selected packet this looks like a ghost source of
+extra velocity/energy oscillation inside an average deceleration.
+
+The source is not ghost material.  The pressure equation says it came from the
+same fluid, possibly from another parent packet \(Q\).  Schematically, for a
+selected packet \(P\),
+
+\[
+\mathsf P_{\xi,k}^P(t)
+=
+\sum_Q\sum_{\lambda}
+\mathsf K_{\xi,k,\lambda}^{P\leftarrow Q}(t)\,
+\mathsf S_{k,\lambda}^Q(t),
+\tag{PVD.28}
+\]
+
+where \(\lambda\) is frequency, \(\mathsf S_{k,\lambda}^Q\) is the differentiated
+pressure source in packet \(Q\), and \(\mathsf K^{P\leftarrow Q}\) is the
+elliptic pressure transfer kernel.  Positive selected service is legal only
+after this source packet is admitted into the same material record.
+
+The needed pressure-tail theorem is:
+
+\[
+\sup_{\tau<T_*}
+\int_0^\tau
+\Big[
+\sum_Q\sum_{\lambda\ge\Lambda}
+\mathsf K_{\xi,k,\lambda}^{P\leftarrow Q}(t)\,
+\mathsf S_{k,\lambda}^Q(t)
+\Big]_+\,dt
+\le
+\varepsilon(\Lambda)
++\theta\,\mathsf{Visc}_{P,N}(0,\tau)
++\mathsf{Paid}_{P,N}(0,\tau),
+\tag{PVD.29}
+\]
+
+with \(\varepsilon(\Lambda)\to0\) as \(\Lambda\to\infty\).  This is the
+``Eulerian bell curve'' statement: after the tail of an injected frequency
+pulse, each frequency either cancels by oscillatory phase mixing or is damped by
+the heat factor carried by viscosity.  No sign-switching pressure wave can
+remain as an unowned positive child-energy bill.
+
+Once `(PVD.29)` is proved, the \(L^1\) estimate follows directly.  Split the
+pressure parent pulse into low and high frequency parts:
+
+\[
+\int_0^\tau[\mathsf P_{\xi,k}]_+
+\le
+\int_0^\tau[\mathsf P_{\xi,k}^{<\Lambda}]_+
++
+\int_0^\tau[\mathsf P_{\xi,k}^{\ge\Lambda}]_+ .
+\tag{PVD.30}
+\]
+
+The low-frequency part is finite-depth, admitted same-packet material.  The
+high-frequency part is controlled by `(PVD.29)`.  Choosing \(\Lambda\) so that
+\(\varepsilon(\Lambda)\) is below the strict \(\theta<1\) margin gives
+
+\[
+\sup_{\tau<T_*}\int_0^\tau[\mathsf P_{\xi,k}(t)]_+\,dt
+\le
+C_N(u_0)
++\theta\,\mathsf{Visc}_{P,N}(0,\tau)
++\mathsf{Paid}_{P,N}(0,\tau),
+\tag{PVD.31}
+\]
+
+which is the pressure-parent part of `(PVD.11)` / `(PVD.23)`.  Summing the
+selected rows gives the terminal-uniform \(L^1\) service bound.
+
 ## 4. Why this is the right missing relationship
 
 The previous direct tower proof reached
@@ -417,7 +510,7 @@ C_N
 \|Y_N\|_{\dot H^1(P)}^2
 +dR_P^{legal}
 +dStop_P .
-\tag{PVD.27}
+\tag{PVD.32}
 \]
 
 That estimate sees the correct same-packet service, but it treats the pressure
@@ -425,10 +518,11 @@ compatibility and stopping-jet subtraction as a single critical product.  The
 coefficient \(\|Y_N\|_{X_{\rm crit}}\) is not controlled by original energy
 data.
 
-The pressure-compatible stopping-jet theorem would replace `(PVD.27)` by the
-stronger law `(PVD.11)` together with `(PVD.19)`, `(PVD.22)`, and `(PVD.23)`:
-a positive compatibility pulse cannot be counted as selected service while the
-packet is falsely treated as at rest in velocity alone.
+The pressure-compatible stopping-jet theorem would replace `(PVD.32)` by the
+stronger law `(PVD.11)` together with `(PVD.19)`, `(PVD.22)`, `(PVD.23)`, and
+the pressure-tail estimate `(PVD.29)`: a positive compatibility pulse cannot be
+counted as selected service while the packet is falsely treated as at rest in
+velocity alone or while its pressure-parent tail only oscillates.
 
 This is the missing \(L^1\) relationship suggested by the physical picture:
 
@@ -438,7 +532,7 @@ This is the missing \(L^1\) relationship suggested by the physical picture:
 \text{coherent material stopping jet}
 \quad\Longrightarrow\quad
 \text{finite positive selected service}.
-\tag{PVD.28}
+\tag{PVD.33}
 \]
 
 ## 5. Proof status
@@ -455,9 +549,10 @@ Installed repo surfaces prove:
    material tower, conditionally on stable no-return and same-packet envelope
    control.
 
-They do not yet prove `(PVD.11)` together with `(PVD.19)`, `(PVD.22)`, and
-`(PVD.23)`.  Proving the positive-service estimate together with the
-no-retained-stopping-tail and moving-frame-storage statements is the concrete
-form of the Gold \(L^1\) theorem.
+They do not yet prove `(PVD.11)` together with `(PVD.19)`, `(PVD.22)`,
+`(PVD.23)`, and `(PVD.29)`.  Proving the positive-service estimate together
+with the no-retained-stopping-tail, moving-frame-storage, and pressure-tail
+cancellation/damping statements is the concrete form of the Gold \(L^1\)
+theorem.
 
 Partial, not Gold closed.
