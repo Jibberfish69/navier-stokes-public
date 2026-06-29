@@ -3,7 +3,7 @@ theorem_id: forward-gold-pressure-compatible-viscous-descent-l1-candidate-202606
 status: candidate-l1-mechanism-isolated-terminal-stopping-jet-proof-open
 created: 2026-06-29
 problem: navier-stokes
-route: forward-gold pressure-compatible derivative tower / viscous descent
+route: forward-gold pressure-compatible derivative tower / terminal stopping-jet subtraction
 logical_landing_node: FGC.20_pressure_viscosity_mechanism_form
 supports:
   - FGC.20_accretive_same_parent_service_inequality
@@ -46,7 +46,7 @@ stopping, not a place into which velocity energy drains.
 The pressure/incompressibility tower supplies the instantaneous compatible
 whole-field time-jet.  The velocity derivative tower supplies the local material
 readout of whether the packet is actually coming to rest.  They are not separate
-payment accounts; they are two projections of the same coupled
+mechanisms; they are two projections of the same coupled
 pressure-viscosity-incompressibility stopping law.
 
 The desired estimate says that the coupled stopping jet cannot carry infinite
@@ -106,7 +106,7 @@ Rearrange `(PVD.2)` at depth \(k\):
 where \(\mathcal C_k(Y_k)\) contains only coefficient, frame, collar, Hodge, and
 lower-rung commutators from the same packet.
 
-Thus a pressure-compatible time rung is not a separate payment account.  In a
+Thus a pressure-compatible time rung is not a separate mechanism.  In a
 selected stopping direction it is one side of the same original NS balance,
 while the first-order material derivative tower is the other side.  Equivalently,
 subtract the original NS operator from its \(k\)-th differentiated tower:

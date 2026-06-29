@@ -373,14 +373,14 @@ but the coefficient \(\|Y_N\|_{X_{\rm crit}}\) is not controlled by original
 energy data.  Replacing it by the desired selected-action or service bound is
 circular.
 
-The sharpened candidate mechanism is pressure-compatible viscous descent.  The
-root material packet is the carrier parent, but inside that carrier the
-pressure-energy-derivative transport tower is the parent tower: the elliptic
-compatibility graph gives the whole-field time-rung immediately.  The
-viscosity-velocity-derivative tower is the child/descent tower: heat-time turns
-those parent time-rungs into lower velocity and energy readouts.  The missing
-\(L^1\) theorem is the finite positive service estimate for that parent-to-child
-conversion, not a separate pressure-only or viscosity-only account.
+The sharpened candidate mechanism is the terminal stopping-jet subtraction.  On
+one root material packet, subtract the original material NS operator from its
+differentiated tower.  The pressure-viscosity side and the first-order
+derivative tower are then equal and opposite.  A positive packet coming to rest
+has a positive velocity readout and negative first-order stopping rungs; at true
+terminal rest both sides of the subtraction vanish.  The missing \(L^1\)
+theorem is finite positive service for that coupled stopping jet, together with
+no retained negative stopping-tail after velocity alone appears quiet.
 
 ## 8. Smoothness closure status
 
