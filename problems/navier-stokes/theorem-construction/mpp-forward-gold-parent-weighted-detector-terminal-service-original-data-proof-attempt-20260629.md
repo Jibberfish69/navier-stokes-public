@@ -255,9 +255,10 @@ B(t)
 \tag{ODP.13}
 \]
 
-This is the same pressure-viscosity-incompressibility law in critical-transfer
-coordinates.  Pressure and incompressibility are inside the Leray projection;
-the viscous drain is \(\nu\|\Lambda^{3/2}u\|_2^2\).
+This is a compressed critical scalar identity obtained after Leray projection
+and testing by \(\Lambda u\).  Pressure and incompressibility are represented
+inside the projection, but the identity no longer exposes the pressure-arrival,
+heat-lag response, moving-frame correction, or same-parent no-recount split.
 
 The strict service estimate would follow from
 
@@ -270,10 +271,11 @@ C(u_0)
 \tag{ODP.14}
 \]
 
-Indeed, integrating `(ODP.12)` and using `(ODP.14)` absorbs the positive
-critical transfer into the viscous term with margin and yields the finite
-native reserve.  Through the already installed native-map/no-recount relay,
-that reserve gives `(ODP.1)` and then `(ODP.3)`.
+As a downstream scalar consequence, integrating `(ODP.12)` and using `(ODP.14)`
+would absorb the positive critical transfer into the viscous term with margin
+and yield the finite native reserve.  It does not identify the native
+same-parent mechanism that must make the selected heat-lag child bill legal
+before the scalar positive part is counted.
 
 ## 3. What the standard estimate proves
 
@@ -1977,8 +1979,9 @@ P_JCZ_J\bigl(\nu\nabla u\nabla u\bigr)
 \]
 
 The frame/collar term is already in paid material.  The principal term is the
-positive critical transfer face of the same coupled packet.  Testing the
-Leray-projected equation against \(\Lambda u\) gives
+compressed positive critical scalar face obtained after the coupled packet has
+been projected and tested.  Testing the Leray-projected equation against
+\(\Lambda u\) gives
 
 \[
 {1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
@@ -2015,11 +2018,11 @@ C_N(u_0)
 \]
 
 The second overreach was treating `(ODP.133)` and `(ODP.137)` as an installed
-equivalence.  The source surfaces say they are coordinate faces of the same
-hard block: selected-generator storage coercivity / positive critical transfer.
-They do not prove that the stopped heat-lag source Carleson estimate and the
-global positive critical transfer estimate are interchangeable without the
-stopped accretive testing data.
+equivalence.  The source surfaces say the stopped heat-lag source Carleson
+estimate, selected-generator storage coercivity, and positive critical transfer
+are different compressed/readout faces of the same hard block.  They do not
+prove that the stopped heat-lag parent/child admission estimate can be replaced
+by the global scalar positive-transfer estimate.
 
 The dyadic flux identity makes the same object visible without hiding pressure
 inside a scalar.  Let \(u_j=P_ju\), \(E_j={1\over2}\|u_j\|_2^2\), and
@@ -2095,95 +2098,93 @@ cannot fake this assignment.  What is still not proved from arbitrary original
 data is the stopped accretive testing/native-birth packing theorem that would
 make this assignment quantitative with a strict \(\theta<1\) margin.
 
-## 21. Correct target after the Leray-clipping audit
+## 21. Audit: the Leray scalar is the compression that hides the object
 
-The scalar \(B_+\) inequality is not the native Gold producer.  It is the
-global critical readout after the original row has already been projected,
-tested, and clipped to its positive part.  Treating it as the producer repeats
-the decoupled-\(\mathbb P\) oversight: the proof then appears to have a
-positive nonlinear source on one side and viscosity as a separate payer on the
-other side.
+The source audit does not install a new theorem named
+`CoupledParentRowPositiveService.A`.  That was an unaudited relabeling.
 
-The repo-accurate object is the same parent material current before the child
-positive readout is taken:
+The checked repo object is the heat-lag parent/child relation already written in
+`(HLG.12a)`, `(WPC.4)`, and `(WLF.25c)`: a selected child sees the weighted
+finite-difference bill
 
 \[
-dK_P
-=
-dK_P^{press}
-+dK_P^{visc}
-+dK_P^{frame/Hodge}
-+dK_P^{route/return}
-+dK_P^{legal/stop}.
+\omega_I|\Delta_IU_I|,
 \tag{ODP.144}
 \]
 
-For a selected child window \(I\), the detector must already be a parent-built
-test \(\Phi_I^P\), including the selected weight and carrier, before the
-positive part is applied:
+while the parent side is the original pressure-compatible material push
+instruction before it becomes a velocity-energy square:
 
 \[
-\mathcal S_P^+(Q)
-:=
-\sum_{I\subset Q}
-\bigl[
-\langle dK_P,\Phi_I^P\rangle_P
-\bigr]_+.
+\Delta_IU_I
+=
+\int_I
+\Big(
+\mathsf P_{\xi,k,\lambda}
++\mathsf V_{\xi,k,\lambda}
++\mathsf C_{\xi,k,\lambda}
++\mathsf{Paid}_{\xi,k,\lambda}
+\Big)(t)\,dt .
 \tag{ODP.145}
 \]
 
-The full-participation Gold target is therefore
+This is the physical object that the scalar
 
 \[
-\mathcal S_P^+(Q)
-\le
-C_N(u_0)\mathcal R(Q)
-+\theta\,Visc_P(Q)
--\Delta_Q\mathcal B_P
-+ReturnReset_P(Q)
-+FrameHodge_P(Q)
-+LegalStop_P(Q),
-\qquad
-\theta<1.
+B(t)
+:=
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
 \tag{ODP.146}
 \]
 
-This is the line that preserves the user's physical picture: pressure,
-viscosity, incompressibility, frame motion, return/reset, legal material, and
-stop are not separate laws competing after the fact.  They are components of
-one same-parent participation current.  The positive selected service is only
-allowed to become action after it has been admitted into that current.
+compresses away.  The scalar is a legitimate global critical identity after
+Leray projection and testing by \(\Lambda u\), but it has already collapsed the
+pressure-compatible arrival, one-heat-time velocity response, moving-frame
+storage, route/return/legal/stop material, and fresh-vs-retained parent-current
+split into one number.
 
-After `(ODP.146)` is proved, the Leray critical estimate is a consequence:
+So the audited correction is sharper than "prove \(B_+\)."  The local Gold line
+is the already-written currency inequality
 
 \[
-(ODP.146)
-\Longrightarrow
-\int_0^\tau B_+(t)\,dt
+\omega_I|\Delta_IU_I|
 \le
-C_N(u_0)
-+\theta\nu
-\int_0^\tau
-\|\Lambda^{3/2}u(t)\|_2^2\,dt
-+Paid.
+C[q_I\,dq_I]_+
++d\mathcal N_I^{heat}
++dMotion_I
++dReturn_I
++\theta dVisc_I
++dLegal_I
++dStop_I,
+\qquad \theta<1,
 \tag{ODP.147}
 \]
 
-The reverse implication is not valid.  A scalar \(B_+\) bound can hide exactly
-the question the MPP route is asking: whether the positive selected child
-readout was admitted into the same original parent packet before it was counted
-as action.
-
-Thus the current Gold source target is
+with the fresh branch controlled by the parent push-variation form
 
 \[
-\text{CoupledParentRowPositiveService.A}
-\quad\text{with}\quad
-(ODP.144)\text{--}(ODP.146),
+\omega_I
+\left|J_P(\psi_I^{fr})\right|
+\le
+\int_P\alpha_I\,d\mu_P^{push}
++\theta\,dVisc_I
++dMotion_I+dReturn_I+dLegal_I+dStop_I,
+\qquad
+\sum_I\alpha_I\le C_N.
 \tag{ODP.148}
 \]
 
-while `PositiveCriticalTransferBound.A` is demoted to a global diagnostic
-shadow of that target.  It remains a necessary check on the eventual closure,
-but it is not the primary producer and cannot be used first without splitting
-the one coupled pressure-viscosity-incompressibility participation law.
+Here pressure is the leading compatible push instruction, and viscosity is the
+one-heat-time material response/descent in the same differentiated row.  The
+child is the selected weighted finite-difference readout.  The proof must show
+that this child readout cannot recount the same pressure-compatible parent push
+as fresh positive service at every higher ratio level.
+
+`PositiveCriticalTransferBound.A` remains a compressed scalar face of this same
+hard block only after the heat-lag/no-recount admission has been accounted for.
+Using \(B_+\) as the primary object is exactly the compression error: it hides
+the actual same-parent pressure-arrival to viscous/velocity-response transport
+that the MPP route is trying to prove finite in \(L^1\).
