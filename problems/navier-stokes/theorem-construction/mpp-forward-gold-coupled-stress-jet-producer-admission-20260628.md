@@ -13,13 +13,14 @@ edge_effect: >-
   single pressure-viscosity-incompressibility stress-response jet. The theorem
   proves that parabolic zoom does not create a new child producer: it only
   rescales coefficients of the same parent material jet. Positive selected
-  high-high or far-annular action is legal only after the selected detector is
+  high-high or far-annular action may be counted only after the selected detector is
   admitted as a bounded original-packet coordinate of that jet; fresh
   parent-subtracted coordinates Bessel-pack, while inherited coordinates are
-  Schur current, route/motion/return, legal, stop, viscous service, or endpoint
-  material. This file supplies the producer/admission input for the full closure
-  packet; terminal-uniform L1 storage for the same jet-service density is the
-  remaining MPP-bearing estimate.
+  Schur current, route/motion/return, viscous service, completed legal ledger,
+  or completed stop partition inside the same participation law. This file
+  supplies the producer/admission input for the full closure packet;
+  terminal-uniform L1 storage for the same whole-field viscous/jet-service
+  density is the remaining MPP-bearing estimate.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-leray-projection-one-participation-law-audit-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-traction-current-participation-law-20260627.md
@@ -67,8 +68,8 @@ This closes the producer/admission identity:
 
 It is the producer line used by the full Gold closure attempt.  The remaining
 MPP-bearing theorem is a terminal-uniform \(L^1\) full-packet service storage
-bound for this same jet service measure, dominating the terminal endpoint
-measure.
+bound for this same whole-field viscous/jet-service density, dominating the
+selected terminal trace.
 
 ## 1. Material stress-response jet
 
@@ -188,8 +189,8 @@ For the pointwise kinetic energy, replace \(z_i z_j\) by
 \(\partial_t^iv(t_0)\cdot \partial_t^jv(t_0)\).  If the selected detector moves
 with the stopped route, the same formula holds with the additional terms
 coming from \(\partial_t^k\ell\); those terms are exactly route, frame, collar,
-legal, stop, or return terms in the parent packet.  They are not a new child
-producer.
+completed legal-ledger, completed stop-partition, or return terms in the parent
+packet.  They are not a new child producer.
 
 Thus the first nonzero object in a build-from-rest experiment is not energy.
 It is the compatible acceleration coefficient in \(Y_N\).  Energy is the Gram
@@ -248,8 +249,10 @@ z_Q(t)=\langle Y_N(t),a_Q(t)\rangle_{H_P},
 ```
 
 after all pressure-Hodge, cutoff, collar, material-frame, low/high routing,
-viscosity, legal, stop, and endpoint defects have been placed in the same
-identity.  For high-high transfer, \(a_Q\) is the full output-local stress
+viscous drain, completed legal-ledger, and completed stop-partition terms have
+been placed in the same identity.  Endpoint is handled in the companion closure
+file as the selected terminal trace paid by the whole-field drain.  For
+high-high transfer, \(a_Q\) is the full output-local stress
 detector after input colors recombine; an individual input-colored triad is not
 a one-point parent-current read unless a separate two-point product-current
 theory is deliberately installed.
@@ -266,8 +269,9 @@ d_i=(I-\Pi_{E_{i-1}})a_i.
 \tag{CSJ.16}
 ```
 
-The inherited part \(b_i\) is Schur current, route/motion, return, legal, stop,
-viscous service, or endpoint material.  It is not fresh child production.  The
+The inherited part \(b_i\) is Schur current, route/motion/return, viscous
+service, completed legal ledger, or completed stop partition inside the same
+law.  It is not fresh child production.  The
 fresh part \(d_i\) is the only new parent coordinate.  If \(d_i\ne0\), set
 \(e_i=d_i/\|d_i\|_{H_P}\).  By construction the \(e_i\) are orthonormal over a
 stopped Gram-Schmidt family, so Bessel gives
@@ -291,9 +295,9 @@ This proves the no-free-zoom admission rule for the producer:
 ```
 
 with zero residuals omitted.  The unnormalized form is obtained by multiplying
-each term by the retained selected weight.  A large child square is legal only
-after it is one of these admitted coordinates or after it lands in the
-inherited/route/return/legal/stop/viscous/endpoint categories.
+each term by the retained selected weight.  A large child square may be counted
+only after it is one of these admitted coordinates or after it lands in the
+inherited/route/return/viscous/completed-legal/completed-stop categories.
 
 ## 5. Proof of the closure claim
 
@@ -349,8 +353,9 @@ d\mathcal S_N^{jet}
 \tag{CSJ.20}
 ```
 
-with \(\sigma_N\,dt\) dominating the terminal endpoint measure of the same
-parent-known full packet.  Under `(CSJ.20)`, terminal no-jump follows by
-absolute continuity.  Without `(CSJ.20)`, this note is a closed producer theorem
-and an admission theorem, while the companion file records the full closure
-attempt and the exact unproved terminal-uniform service estimate.
+with \(\sigma_N\,dt\) the whole-field viscous/jet-service density dominating the
+selected terminal trace of the same parent-known full packet.  Under
+`(CSJ.20)`, terminal no-jump follows by absolute continuity of that drain.
+Without `(CSJ.20)`, this note is a closed producer theorem and an admission
+theorem, while the companion file records the full closure attempt and the exact
+unproved terminal-uniform service estimate.
