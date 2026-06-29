@@ -805,3 +805,162 @@ service absorption `(ODP.23)`, or its equivalent stopped accretive testing /
 potential-average / second-order scale-exactness form `(ODP.24)`--`(ODP.26)`.
 Without that line, claiming `(ODP.1)` from original data would hide the whole
 Gold \(L^1\) theorem inside the word "coupled."
+
+## 13. How the \(L^1\) quantity would be proved
+
+The \(L^1\) quantity is
+
+\[
+\sup_{\tau<T_*}
+\int_0^\tau\int_P
+\mathcal M_N(Y_N)_+\,da\,dt,
+\tag{ODP.51}
+\]
+
+or, in the heat-lag detector coordinates already installed,
+
+\[
+\sum_{I\subset P}\omega_I|\Delta_IU_I|.
+\tag{ODP.52}
+\]
+
+The proof has to run through the parent packet before positive clipping.  The
+installed pushforward already gives
+
+\[
+\sum_{I\subset P}\omega_I|\Delta_IU_I|
+\le
+C_N\mu_P^{pw}(P)+Paid_P .
+\tag{ODP.53}
+\]
+
+Thus the whole \(L^1\) theorem follows from the parent-weighted estimate
+
+\[
+\mu_P^{pw}(P)
+\le
+C_N(u_0)\mathcal R(P)+\theta Visc_{P,N}+Paid_P,
+\qquad 0<\theta<1.
+\tag{ODP.54}
+\]
+
+The residence, cancellation, route, return, legal, and stop pieces are already
+on the right side of `(ODP.54)`.  After those are removed, `(ODP.54)` is exactly
+the affine pressure-memory transit estimate
+
+\[
+\int_0^{T_*}
+H_w(t)\|\mathcal P_{avg}^{fresh}(t)\|_{L_x^2}^2\,dt
+\le
+C_N(u_0)\mathcal R(P)+\theta Visc_{P,N}+Paid_P .
+\tag{ODP.55}
+\]
+
+Here \(\mathcal P_{avg}^{fresh}\) is not a new physical source.  It is the
+affine average of the same signed pressure/strain potential that remains after
+one global scale derivative, boundary terms, spill, route, return, legal, and
+stop have been removed.
+
+So the direct proof is a stopped entropy proof.  Define the same-parent pressure
+memory entropy
+
+\[
+\mathcal H_P(t)
+:=
+\sum_{J\in\mathfrak T_P(t)}
+H_w(J,t)\,
+\|\mathcal P_{avg,J}^{fresh}(t)\|_{L_x^2}^2 ,
+\tag{ODP.56}
+\]
+
+where \(\mathfrak T_P(t)\) is the stopped transit atlas and the selected weight
+is the same one used in the parent detector, before child clipping.  The
+needed differential inequality is
+
+\[
+{d\over dt}\mathcal H_P(t)
++c\,d\mu_{P,trans}^{pw}(t)
++\bigl(1-\theta\bigr)dVisc_{P,N}(t)
+\le
+dPaid_P(t)+C_N(u_0)\,d\mathcal R_P(t),
+\tag{ODP.57}
+\]
+
+with \(c>0\), \(0<\theta<1\), and \(\mathcal H_P(t)\ge -C_N(u_0)\).
+Integrating `(ODP.57)` gives
+
+\[
+\mu_{P,trans}^{pw}(P)
+\le
+C_N(u_0)\mathcal R(P)+\theta Visc_{P,N}+Paid_P .
+\tag{ODP.58}
+\]
+
+Adding back the already classified residence, cancellation, motion, return,
+legal, and stop branches gives `(ODP.54)`.  Then `(ODP.53)` gives `(ODP.52)`,
+and summing the selected row service gives `(ODP.51)`.
+
+The whole proof therefore reduces to deriving `(ODP.57)` from the original
+material row.  The derivation must have this form:
+
+\[
+\partial_t\mathcal P_{avg,J}^{fresh}
+=
+-\nu\,\mathcal L_J\mathcal P_{avg,J}^{fresh}
++\mathcal C_J^{skew}
++\mathcal C_J^{frame}
++\mathcal C_J^{route/return}
++\mathcal C_J^{legal/stop},
+\tag{ODP.59}
+\]
+
+where the parabolic part is coercive in the stopped transit metric,
+
+\[
+2H_w
+\langle
+-\nu\,\mathcal L_J\mathcal P_{avg,J}^{fresh},
+\mathcal P_{avg,J}^{fresh}
+\rangle
+\le
+-c\,d\mu_{P,trans,J}^{pw}
+-\bigl(1-\theta\bigr)dVisc_{P,N,J},
+\tag{ODP.60}
+\]
+
+the pressure/incompressibility part is skew or sign-cancelling,
+
+\[
+2H_w
+\langle
+\mathcal C_J^{skew},
+\mathcal P_{avg,J}^{fresh}
+\rangle
+\le dPaid_J^{cancel},
+\tag{ODP.61}
+\]
+
+and the moving-frame derivative is the storage derivative,
+
+\[
+2H_w
+\langle
+\mathcal C_J^{frame},
+\mathcal P_{avg,J}^{fresh}
+\rangle
+=
+{d\over dt}\mathcal B_J+dPaid_J^{frame}.
+\tag{ODP.62}
+\]
+
+The physical content of `(ODP.59)`--`(ODP.62)` is the exact packet story: the
+instant pressure-compatible pre-energy tower has no source term after the same
+parent current is admitted; its only unexited evolution is parabolic conversion
+into velocity-gradient dissipation, skew pressure cancellation, moving-frame
+storage, or paid exits.
+
+This is the proof route for the \(L^1\) quantity.  It is also the audit line:
+the current installed notes contain the signed scale identity and the
+parent-detector/no-recount pushforward, but they do not yet contain the
+coercive stopped entropy derivation `(ODP.57)`--`(ODP.62)` from the original
+coupled material row.
