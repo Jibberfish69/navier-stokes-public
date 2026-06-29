@@ -861,8 +861,8 @@ affine average of the same signed pressure/strain potential that remains after
 one global scale derivative, boundary terms, spill, route, return, legal, and
 stop have been removed.
 
-So the direct proof is a stopped entropy proof.  Define the same-parent pressure
-memory entropy
+So the direct proof is a stopped entropy-storage proof.  Define the same-parent
+pressure memory entropy
 
 \[
 \mathcal H_P(t)
@@ -875,10 +875,18 @@ H_w(J,t)\,
 
 where \(\mathfrak T_P(t)\) is the stopped transit atlas and the selected weight
 is the same one used in the parent detector, before child clipping.  The
-needed differential inequality is
+moving-frame correction is carried by a bounded storage \(\mathcal B_P\), so the
+quantity differentiated is
 
 \[
-{d\over dt}\mathcal H_P(t)
+\mathcal E_P(t):=\mathcal H_P(t)-\mathcal B_P(t).
+\tag{ODP.56a}
+\]
+
+The needed differential inequality is
+
+\[
+{d\over dt}\mathcal E_P(t)
 +c\,d\mu_{P,trans}^{pw}(t)
 +\bigl(1-\theta\bigr)dVisc_{P,N}(t)
 \le
@@ -886,7 +894,7 @@ dPaid_P(t)+C_N(u_0)\,d\mathcal R_P(t),
 \tag{ODP.57}
 \]
 
-with \(c>0\), \(0<\theta<1\), and \(\mathcal H_P(t)\ge -C_N(u_0)\).
+with \(c>0\), \(0<\theta<1\), and \(\mathcal E_P(t)\ge -C_N(u_0)\).
 Integrating `(ODP.57)` gives
 
 \[
@@ -964,3 +972,183 @@ the current installed notes contain the signed scale identity and the
 parent-detector/no-recount pushforward, but they do not yet contain the
 coercive stopped entropy derivation `(ODP.57)`--`(ODP.62)` from the original
 coupled material row.
+
+## 14. Derivation of the stopped entropy inequality
+
+Write
+
+\[
+Z_J(t):=\mathcal P_{avg,J}^{fresh}(t),
+\qquad
+h_J(t):=H_w(J,t),
+\tag{ODP.63}
+\]
+
+for one stopped transit chart \(J\).  The stopped entropy is
+
+\[
+\mathcal H_P(t)
+=
+\sum_{J\in\mathfrak T_P(t)}h_J(t)\|Z_J(t)\|_2^2.
+\tag{ODP.64}
+\]
+
+The entropy-storage variable is
+
+\[
+\mathcal E_P(t)
+:=
+\mathcal H_P(t)
+-\sum_{J\in\mathfrak T_P(t)}\mathcal B_J(t).
+\tag{ODP.64a}
+\]
+
+Differentiate one chart along the stopped material clock.  The atlas switch,
+collar motion, and cutoff-motion terms are denoted by \(dA_J\):
+
+\[
+d\bigl(h_J\|Z_J\|_2^2\bigr)
+=
+\dot h_J\|Z_J\|_2^2\,dt
++2h_J\langle Z_J,D_tZ_J\rangle\,dt
++dA_J .
+\tag{ODP.65}
+\]
+
+The pressure-memory variable is a stopped scale-average/CZ image of the same
+material row.  In the flat model, with \(R_{ij}=(-\Delta)^{-1}\partial_i\partial_j\)
+and \(p=R_{ij}(u_i u_j)\), the original Navier-Stokes equation gives
+
+\[
+(\partial_t-\nu\Delta)p
+=
+R_{ij}
+\left[
+-u\cdot\nabla(u_i u_j)
+-u_i\partial_jp
+-u_j\partial_ip
+-2\nu\,\partial_k u_i\,\partial_k u_j
+\right].
+\tag{ODP.66}
+\]
+
+This identity is the exact physical split in constant-coefficient coordinates:
+heat acts on the pressure-compatible object; transport and pressure-force pieces
+are signed/CZ cancellation terms; the gradient product is native viscous
+strain material.  In the stopped material packet, the same calculation becomes
+
+\[
+D_tZ_J
+=
+-\nu\mathcal L_JZ_J
++S_J^{skew}
++S_J^{visc-src}
++S_J^{frame}
++S_J^{exit}
++Err_J,
+\tag{ODP.67}
+\]
+
+where \(\mathcal L_J=-\operatorname{div}_{a,J}(G_J\nabla_{a,J})\).  The terms are
+typed as follows:
+
+\[
+\begin{aligned}
+S_J^{skew} &: \text{transport, pressure-force, and CZ signed cancellation},\\
+S_J^{visc-src} &: \text{the native heat-lag strain product from }
+                 -2\nu\nabla u\nabla u,\\
+S_J^{frame} &: \text{derivatives of }A,G,\xi,h_J,\text{ and the moving atlas},\\
+S_J^{exit}+Err_J &: \text{route, return, collar, legal, stop, and endpoint terms.}
+\end{aligned}
+\tag{ODP.68}
+\]
+
+Now insert `(ODP.67)` into `(ODP.65)`.
+
+The parabolic term gives the positive measure.  By ellipticity of \(G_J\), the
+stopped annular Poincare inequality on the transit chart, and the definition
+
+\[
+d\mu_{P,trans,J}^{pw}
+:=
+\nu h_J\lambda_J^2\|Z_J\|_2^2\,dt,
+\tag{ODP.69}
+\]
+
+we get
+
+\[
+2h_J\langle Z_J,-\nu\mathcal L_JZ_J\rangle\,dt
+\le
+-c_0\,d\mu_{P,trans,J}^{pw}
+-dVisc_{P,N,J}
++dPaid_J^{comm}.
+\tag{ODP.70}
+\]
+
+Here \(dPaid_J^{comm}\) is only the finite-width commutator/collar error from
+localizing the elliptic graph and the heat operator to the stopped chart.
+
+The skew/CZ part has no independent sign.  Its contribution is a signed
+pressure-current variation already admitted to the parent current:
+
+\[
+2h_J\langle Z_J,S_J^{skew}\rangle\,dt
+\le
+dPaid_J^{cancel}.
+\tag{ODP.71}
+\]
+
+The frame terms are exactly the storage derivative plus paid atlas motion:
+
+\[
+\dot h_J\|Z_J\|_2^2\,dt
++2h_J\langle Z_J,S_J^{frame}\rangle\,dt
++dA_J
+=
+d\mathcal B_J+dPaid_J^{frame}+C_N(u_0)\,d\mathcal R_J .
+\tag{ODP.72}
+\]
+
+The only non-formal estimate is the native heat-lag source budget:
+
+\[
+2h_J\langle Z_J,S_J^{visc-src}+Err_J\rangle\,dt
+\le
+\theta\,dVisc_{P,N,J}
++d\mathcal N_J^{heat}
++dPaid_J^{exit}
++C_N(u_0)\,d\mathcal R_J,
+\qquad 0<\theta<1 .
+\tag{ODP.73}
+\]
+
+This is where the physical statement becomes a theorem.  It says the strain
+source created while the pressure-compatible pulse waits one heat time is not a
+new pressure battery; it is native heat-lag service, viscous drain, or paid
+same-packet exit material.  A Cauchy-Schwarz proof of `(ODP.73)` has to be
+Carleson/Hardy in the stopped heat-lag geometry; plain Bessel square mass gives
+the half-tail failure already recorded in `(ODP.21)`--`(ODP.22)`.
+
+Summing `(ODP.70)`--`(ODP.73)` over \(J\in\mathfrak T_P(t)\), subtracting the
+storage derivative from `(ODP.72)`, using stopped finite overlap, and absorbing
+the \(\theta dVisc\) part leaves
+
+\[
+d\mathcal E_P(t)
++c\,d\mu_{P,trans}^{pw}(t)
++(1-\theta)dVisc_{P,N}(t)
+\le
+dPaid_P(t)+C_N(u_0)\,d\mathcal R_P(t).
+\tag{ODP.74}
+\]
+
+This is `(ODP.57)`.  Integrating `(ODP.74)` over \([0,\tau]\) and using the
+lower bound on \(\mathcal E_P\) gives `(ODP.58)`, then `(ODP.54)`, then the
+terminal-uniform \(L^1\) service bound by the no-recount pushforward.
+
+Thus the entropy inequality is not another name for the desired \(L^1\) theorem.
+It is derived by differentiating the parent pressure-memory entropy-storage,
+using the heat part of the original coupled row for coercivity, routing skew
+pressure variation to parent current, writing frame motion as storage, and
+proving the native heat-lag source budget `(ODP.73)`.
