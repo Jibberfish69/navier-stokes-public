@@ -2567,10 +2567,13 @@ transitions satisfy the accretive storage inequality
 
 \[
 c\,H_w\|c_\theta^+(t)\|_{L_x^2}^2\,dt
++
 d\mathfrak S_J(t)
 \le
 C\,H_w\|c_\theta^-(t)\|_{L_x^2}^2\,dt
++
 C\,\mathfrak S_J\,d\mathcal K_J^{geom}
++
 dFresh_J+dReturn_J+dLegal_J+dStop_J ,
 \tag{ODP.174}
 \]
