@@ -301,7 +301,7 @@ This is not an upward drain.  It is the assertion that "the packet came to rest"
 means the whole material stopping jet relaxed, not just the zeroth velocity
 readout.
 
-## 3.2. Storage as pressure-parent backlog
+## 3.2. Storage as the moving-frame correction
 
 If pressure is separated once as the instantaneous actuator, the row is
 
@@ -328,9 +328,24 @@ where
 \]
 
 Together with `(PVD.7)`, this says the original NS side and the first-order
-stopping tower are the equal-opposite record of the same packet.  The storage
-is the possible backlog between a pressure-compatible parent pulse that has
-arrived instantly and the stopping-jet response that has not yet fully relaxed.
+stopping tower are the equal-opposite record of the same packet.
+
+The storage is not a generic paid residue.  It is the primitive of the moving
+material-frame correction:
+
+\[
+\mathsf C_{\xi,k}(t)
+=
+-{d\over dt}\mathcal B_{\xi,k}(t).
+\tag{PVD.22}
+\]
+
+Here \(\mathsf C_{\xi,k}\) is the correction created by differentiating the
+moving material record: \(A\), \(G\), transported \(\xi\), collar/frame/Hodge
+terms, and the associated product-rule commutators.  If
+\(\mathsf P_{\xi,k}\) and \(\mathsf V_{\xi,k}\) are defined with full product
+derivatives, most of this correction is absorbed into those two terms; what is
+left is exactly the storage derivative.
 
 The desired one-row inequality is therefore a positive-part statement of the
 form
@@ -342,18 +357,20 @@ form
 -{d\over dt}\mathcal B_{\xi,k}
 +\mathsf{Paid}_{\xi,k},
 \qquad 0<\theta<1,
-\tag{PVD.22}
+\tag{PVD.23}
 \]
 
-with \(\mathsf{Paid}_{\xi,k}\) containing the same-packet commutator, legal,
-stop, motion, return, and admitted current terms.  The point is not that
-\(\mathsf N_{\xi,k}\) is larger than \(\mathsf P_{\xi,k}+\mathsf V_{\xi,k}\) as
-a raw signed expression.  The raw row is equality.  The theorem sought is that
-after positive selection, the pressure parent pulse cannot leave an unbounded
-positive bill; it must appear as viscous descent, bounded storage drop, or
-already-admitted same-packet material.
+with \(\mathsf{Paid}_{\xi,k}\) containing only already-admitted same-packet
+material: legal, stop, motion, return, and admitted current terms.  The
+commutator/frame correction belongs to \(-d\mathcal B_{\xi,k}/dt\), not to this
+paid bucket.  The point is not that \(\mathsf N_{\xi,k}\) is larger than
+\(\mathsf P_{\xi,k}+\mathsf V_{\xi,k}\) as a raw signed expression.  The raw row
+is equality.  The theorem sought is that after positive selection, the pressure
+parent pulse cannot leave an unbounded positive bill; it must appear as viscous
+descent, the moving-frame storage drop, or already-admitted same-packet
+material.
 
-Integrating `(PVD.22)` gives
+Integrating `(PVD.23)` gives
 
 \[
 \int_0^\tau\big[\mathsf P_{\xi,k}(t)\big]_+\,dt
@@ -361,7 +378,7 @@ Integrating `(PVD.22)` gives
 \theta\int_0^\tau\mathsf{Desc}_{\xi,k}^{visc}(t)\,dt
 +\mathcal B_{\xi,k}(0)-\mathcal B_{\xi,k}(\tau)
 +\int_0^\tau\mathsf{Paid}_{\xi,k}(t)\,dt.
-\tag{PVD.23}
+\tag{PVD.24}
 \]
 
 The physical closure claim is that when the packet truly comes to rest at
@@ -372,7 +389,7 @@ The physical closure claim is that when the packet truly comes to rest at
 =
 \lim_{t\uparrow T_*}\mathsf D_{\xi,k+1}(t)
 =0
-\tag{PVD.24}
+\tag{PVD.25}
 \]
 
 and the storage has no retained terminal atom,
@@ -380,7 +397,7 @@ and the storage has no retained terminal atom,
 \[
 \lim_{\tau\uparrow T_*}\mathcal B_{\xi,k}(\tau)
 \quad\text{exists and is bounded below by original packet data.}
-\tag{PVD.25}
+\tag{PVD.26}
 \]
 
 This is the candidate \(L^1\) relationship: prove that a pressure-compatible
@@ -399,17 +416,18 @@ C_N
 \|Y_N\|_{\dot H^1(P)}^2
 +dR_P^{legal}
 +dStop_P .
-\tag{PVD.26}
+\tag{PVD.27}
 \]
 
 That estimate sees the correct same-packet service, but it treats the pressure
-compatibility and viscous descent as a single critical product.  The coefficient
-\(\|Y_N\|_{X_{\rm crit}}\) is not controlled by original energy data.
+compatibility and stopping-jet subtraction as a single critical product.  The
+coefficient \(\|Y_N\|_{X_{\rm crit}}\) is not controlled by original energy
+data.
 
-The pressure-compatible stopping-jet theorem would replace `(PVD.26)` by the
-stronger law `(PVD.11)` together with `(PVD.19)` and `(PVD.22)`: a positive
-compatibility pulse cannot be counted as selected service while the packet is
-falsely treated as at rest in velocity alone.
+The pressure-compatible stopping-jet theorem would replace `(PVD.27)` by the
+stronger law `(PVD.11)` together with `(PVD.19)`, `(PVD.22)`, and `(PVD.23)`:
+a positive compatibility pulse cannot be counted as selected service while the
+packet is falsely treated as at rest in velocity alone.
 
 This is the missing \(L^1\) relationship suggested by the physical picture:
 
@@ -419,7 +437,7 @@ This is the missing \(L^1\) relationship suggested by the physical picture:
 \text{coherent material stopping jet}
 \quad\Longrightarrow\quad
 \text{finite positive selected service}.
-\tag{PVD.27}
+\tag{PVD.28}
 \]
 
 ## 5. Proof status
@@ -436,9 +454,9 @@ Installed repo surfaces prove:
    material tower, conditionally on stable no-return and same-packet envelope
    control.
 
-They do not yet prove `(PVD.11)` together with `(PVD.19)` and `(PVD.22)`.
-Proving the positive-service estimate together with the no-retained-stopping-tail
-and no-retained-pressure-parent-backlog statements is the concrete form of the
-Gold \(L^1\) theorem.
+They do not yet prove `(PVD.11)` together with `(PVD.19)`, `(PVD.22)`, and
+`(PVD.23)`.  Proving the positive-service estimate together with the
+no-retained-stopping-tail and moving-frame-storage statements is the concrete
+form of the Gold \(L^1\) theorem.
 
 Partial, not Gold closed.
