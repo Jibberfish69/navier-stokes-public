@@ -422,19 +422,44 @@ S_I
 \]
 
 Thus the needed theorem is a no-recount theorem for the signed parent impulse
-variation.  It is enough to construct, on the original packet \(P\), a positive
-phase-space measure \(\mu_P^{push}\) and nonnegative detector densities
-\(\alpha_I\) such that
+variation.  The first audit correction is that the retained and fresh branches
+must not be merged.  Before the child clips the positive readout, split the
+same parent detector as
+
+\[
+\psi_I^P=\psi_I^{ret}+\psi_I^{fr},
+\qquad
+\psi_I^{ret}=P_{R_I}\psi_I^P,
+\qquad
+\psi_I^{fr}=P_{F_I}\psi_I^P,
+\tag{WLF.25a}
+\]
+
+where \(R_I\) is the already charged same-parent current span and \(F_I\) is
+the parent-subtracted first-entry span.  The retained branch is Schur work:
 
 \[
 \omega_I
-\left|J_P(P_{F_I}\psi_I^P)\right|
+\left|J_P(\psi_I^{ret})\right|
 \le
 C[q_I\,dq_I]_+
-+\int_P\alpha_I\,d\mu_P^{push}
 +\theta\,dVisc_I
 +dMotion_I+dReturn_I+dLegal_I+dStop_I ,
-\tag{WLF.25}
+\tag{WLF.25b}
+\]
+
+The fresh branch is not paid by that Schur coordinate.  It requires a coupled
+push-variation measure, constructed from the full row \(dK\), not from a
+pressure-only projection.  The required fresh inequality is
+
+\[
+\omega_I
+\left|J_P(\psi_I^{fr})\right|
+\le
+\int_P\alpha_I\,d\mu_P^{push}
++\theta\,dVisc_I
++dMotion_I+dReturn_I+dLegal_I+dStop_I ,
+\tag{WLF.25c}
 \]
 
 with bounded parent overlap
@@ -456,23 +481,57 @@ C_N(u_0)
 \tag{WLF.27}
 \]
 
+This \(\mu_P^{push}\) is not a new payment law.  It is the heat-lag realization
+of the existing scale-native active participation reserve.  Equivalently, it is
+the same open native-reserve / positive-critical-transfer hinge written in the
+far-packet finite-difference coordinates:
+
+\[
+\mu_P^{push}
+\quad\text{is a coordinate face of}\quad
+\mathcal R_N^{nat}(u_0;P),
+\tag{WLF.27a}
+\]
+
+and `(WLF.26)`--`(WLF.27)` are the heat-lag form of the bounded-multiplicity
+native map
+
+\[
+\iota:\Gamma_N(P)\to\mathcal R_N^{nat}(u_0;P),
+\qquad
+\omega_\gamma
+\le C_N\rho_{\iota(\gamma)}
++R_{\rm legal}(\gamma)+Stop(\gamma),
+\qquad
+\operatorname{mult}(\iota)\le C_N.
+\tag{WLF.27b}
+\]
+
+The detector density \(\alpha_I\) must contain the one-heat-time lag, the
+far-annular smallness of the pressure read, and the selected zoom weight.  The
+bounded-overlap estimate `(WLF.26)` is exactly the statement that the selected
+zoom can read a tiny far response once in the same parent history, but cannot
+turn that same weak response into infinitely many fresh positive heat-lag
+charges.
+
 Then the fresh linear service is finite:
 
 \[
 \sum_{I\in\mathcal F(P)}
 \omega_I
-\left|J_P(P_{F_I}\psi_I^P)\right|
+\left|J_P(\psi_I^{fr})\right|
 \le
-C\sum_{I\in\mathcal F(P)}[q_I\,dq_I]_+
-+C_N(u_0)
+C_N(u_0)
 +C\,\mathsf{Visc}_{P,N}
 +C\,\mathsf{Paid}_{P,N}.
 \tag{WLF.28}
 \]
 
-After the Schur term telescopes, `(WLF.28)` is `(WLF.13)`.
+This is `(WLF.13)`.  The retained branch is handled separately by
+`(WLF.25b)`, where the Schur current term telescopes before the full selected
+heat-lag bill is assembled.
 
-The physical meaning of `(WLF.25)`--`(WLF.27)` is direct.  A selected child is
+The physical meaning of `(WLF.25a)`--`(WLF.27)` is direct.  A selected child is
 allowed to read a pressure push instruction after one heat time.  It is not
 allowed to create a new parent charge by looking again at the same delayed
 instruction through a sharper positive window.  Either the read is already in a
@@ -494,8 +553,8 @@ The row identity itself proves only
 \]
 
 That is origin and admission, not closure.  The actual physical missing piece
-is `(WLF.26)`--`(WLF.27)`: the signed pressure/heat impulse must have finite
-selected one-sided variation in the original parent packet.  Energy and Bessel
-square packing control square mass.  The Gold closure needs this stronger
-linear variation/overlap control for the same push instruction before the child
-positive readout is counted.
+is `(WLF.26)`--`(WLF.27)`, equivalently `(WLF.27a)`--`(WLF.27b)`: the signed
+pressure/heat impulse must have finite selected one-sided variation in the
+original parent packet.  Energy and Bessel square packing control square mass.
+The Gold closure needs this stronger linear variation/overlap control for the
+same coupled push instruction before the child positive readout is counted.
