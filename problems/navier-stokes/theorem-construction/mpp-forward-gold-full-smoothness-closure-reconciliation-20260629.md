@@ -373,12 +373,14 @@ but the coefficient \(\|Y_N\|_{X_{\rm crit}}\) is not controlled by original
 energy data.  Replacing it by the desired selected-action or service bound is
 circular.
 
-The sharpened candidate mechanism is pressure-compatible viscous descent: the
-instantaneous pressure/time tower is the elliptic compatibility graph, while
-viscosity is the causal heat-time descent that turns those time rungs into
-lower velocity/energy rungs.  The missing \(L^1\) theorem is the finite positive
-service estimate for that conversion, not a separate pressure-only or
-viscosity-only account.
+The sharpened candidate mechanism is pressure-compatible viscous descent.  The
+root material packet is the carrier parent, but inside that carrier the
+pressure-energy-derivative transport tower is the parent tower: the elliptic
+compatibility graph gives the whole-field time-rung immediately.  The
+viscosity-velocity-derivative tower is the child/descent tower: heat-time turns
+those parent time-rungs into lower velocity and energy readouts.  The missing
+\(L^1\) theorem is the finite positive service estimate for that parent-to-child
+conversion, not a separate pressure-only or viscosity-only account.
 
 ## 8. Smoothness closure status
 

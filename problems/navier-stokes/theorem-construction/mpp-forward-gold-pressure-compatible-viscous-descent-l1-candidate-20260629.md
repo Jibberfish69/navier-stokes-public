@@ -27,14 +27,21 @@ completion_truth: >-
 # Pressure-compatible viscous-descent \(L^1\) candidate
 
 The missing \(L^1\) theorem should be read as a conversion law between two
-faces of the same participation packet.
+towers inside the same original material carrier.
 
-Pressure gives the whole-field compatible derivative tower immediately.
-Viscosity spends heat-time moving that derivative tower down into lower
-velocity rungs until a selected child can read it as energy/action.
+The pressure-energy-derivative transport tower is the parent tower: it is the
+instantaneous compatibility tower created by the pressure/incompressibility
+constraint.  The viscosity-velocity-derivative tower is the child tower: it is
+the causal heat-time descent through which the parent compatibility pulse
+becomes readable velocity and then readable energy/action.
 
 The desired estimate says that this conversion cannot have infinite positive
 service before \(T_*\).
+
+The word "parent" has two roles here.  The root material packet \(P\) is the
+carrier parent.  Inside that carrier, the pressure-compatible derivative tower
+is the parent side of the conversion, and the viscous velocity-derivative tower
+is the child/descent side.
 
 ## 1. Instantaneous pressure-compatible tower
 
@@ -90,10 +97,10 @@ Rearrange `(PVD.2)` at depth \(k\):
 where \(\mathcal C_k(Y_k)\) contains only coefficient, frame, collar, Hodge, and
 lower-rung commutators from the same packet.
 
-Thus a pressure-compatible time rung is not already readable energy.  It becomes
-readable only after the parabolic operator spends heat-time pushing it through
-the velocity tower.  The local energy identity for the \(k\)-th rung has the
-form
+Thus a pressure-compatible parent time rung is not already readable child
+energy.  It becomes readable only after the parabolic operator spends heat-time
+pushing it down through the velocity tower.  The local energy identity for the
+\(k\)-th velocity child rung has the form
 
 \[
 {1\over2}{d\over dt}\|\partial_t^kv\|_{L^2(P)}^2
@@ -105,8 +112,9 @@ form
 \tag{PVD.5}
 \]
 
-\(\mathsf{Compat}_k(Y_N)\) is the pressure-compatible source produced by
-`(PVD.3)` and `(PVD.4)`.  The viscous term is the time-spending/descent term.
+\(\mathsf{Compat}_k(Y_N)\) is the parent pressure-compatible source produced by
+`(PVD.3)` and `(PVD.4)`.  The viscous term is the child tower's
+time-spending/descent term.
 
 ## 3. The actual \(L^1\) theorem
 
@@ -145,11 +153,12 @@ Equivalently,
 \]
 
 This is `(FGC.20)` with its physical mechanism exposed.  The pressure side is
-the instantaneous compatible time tower.  The viscosity side is the heat-time
-descent through the velocity derivative tower.  The bounded storage
-\(\mathcal B_P\) must measure the remaining mismatch between a compatibility
-pulse already present in the pressure/time tower and the amount of heat-time
-viscous descent still required before that pulse is readable as selected energy.
+the parent instantaneous compatible time tower.  The viscosity side is the
+child heat-time descent through the velocity derivative tower.  The bounded
+storage \(\mathcal B_P\) must measure the remaining mismatch between a
+compatibility pulse already present in the parent pressure/time tower and the
+amount of child heat-time viscous descent still required before that pulse is
+readable as selected energy.
 
 ## 4. Why this is the right missing relationship
 
@@ -171,9 +180,9 @@ compatibility and viscous descent as a single critical product.  The coefficient
 \(\|Y_N\|_{X_{\rm crit}}\) is not controlled by original energy data.
 
 The pressure-compatible viscous-descent theorem would replace `(PVD.8)` by the
-stronger causal payment law `(PVD.6)`: a positive compatibility pulse is charged
-by the heat-time needed to descend through the velocity tower, plus a bounded
-same-parent storage drop.
+stronger causal payment law `(PVD.6)`: a positive parent compatibility pulse is
+charged by the heat-time needed to descend through the child velocity tower,
+plus a bounded storage drop on the original carrier.
 
 This is the missing \(L^1\) relationship suggested by the physical picture:
 
