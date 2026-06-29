@@ -301,6 +301,92 @@ This is not an upward drain.  It is the assertion that "the packet came to rest"
 means the whole material stopping jet relaxed, not just the zeroth velocity
 readout.
 
+## 3.2. Storage as pressure-parent backlog
+
+If pressure is separated once as the instantaneous actuator, the row is
+
+\[
+\mathsf D_{\xi,k+1}
+=
+\mathsf P_{\xi,k}
++\mathsf V_{\xi,k}
++\mathsf C_{\xi,k},
+\tag{PVD.20}
+\]
+
+where
+
+\[
+\mathsf P_{\xi,k}
+=
+-\xi\cdot\partial_t^k(A^\top\nabla_aq),
+\qquad
+\mathsf V_{\xi,k}
+=
+\nu\,\xi\cdot\partial_t^k\operatorname{div}_a(G\nabla_av).
+\tag{PVD.21}
+\]
+
+Together with `(PVD.7)`, this says the original NS side and the first-order
+stopping tower are the equal-opposite record of the same packet.  The storage
+is the possible backlog between a pressure-compatible parent pulse that has
+arrived instantly and the stopping-jet response that has not yet fully relaxed.
+
+The desired one-row inequality is therefore a positive-part statement of the
+form
+
+\[
+\big[\mathsf P_{\xi,k}\big]_+
+\le
+\theta\,\mathsf{Desc}_{\xi,k}^{visc}
+-{d\over dt}\mathcal B_{\xi,k}
++\mathsf{Paid}_{\xi,k},
+\qquad 0<\theta<1,
+\tag{PVD.22}
+\]
+
+with \(\mathsf{Paid}_{\xi,k}\) containing the same-packet commutator, legal,
+stop, motion, return, and admitted current terms.  The point is not that
+\(\mathsf N_{\xi,k}\) is larger than \(\mathsf P_{\xi,k}+\mathsf V_{\xi,k}\) as
+a raw signed expression.  The raw row is equality.  The theorem sought is that
+after positive selection, the pressure parent pulse cannot leave an unbounded
+positive bill; it must appear as viscous descent, bounded storage drop, or
+already-admitted same-packet material.
+
+Integrating `(PVD.22)` gives
+
+\[
+\int_0^\tau\big[\mathsf P_{\xi,k}(t)\big]_+\,dt
+\le
+\theta\int_0^\tau\mathsf{Desc}_{\xi,k}^{visc}(t)\,dt
++\mathcal B_{\xi,k}(0)-\mathcal B_{\xi,k}(\tau)
++\int_0^\tau\mathsf{Paid}_{\xi,k}(t)\,dt.
+\tag{PVD.23}
+\]
+
+The physical closure claim is that when the packet truly comes to rest at
+\(T_*\), the pressure-parent tower drains no later than the stopping tower:
+
+\[
+\lim_{t\uparrow T_*}\mathsf P_{\xi,k}(t)
+=
+\lim_{t\uparrow T_*}\mathsf D_{\xi,k+1}(t)
+=0
+\tag{PVD.24}
+\]
+
+and the storage has no retained terminal atom,
+
+\[
+\lim_{\tau\uparrow T_*}\mathcal B_{\xi,k}(\tau)
+\quad\text{exists and is bounded below by original packet data.}
+\tag{PVD.25}
+\]
+
+This is the candidate \(L^1\) relationship: prove that a pressure-compatible
+parent pulse cannot outlive the one-way material stopping profile as a retained
+positive selected bill.
+
 ## 4. Why this is the right missing relationship
 
 The previous direct tower proof reached
@@ -313,17 +399,17 @@ C_N
 \|Y_N\|_{\dot H^1(P)}^2
 +dR_P^{legal}
 +dStop_P .
-\tag{PVD.20}
+\tag{PVD.26}
 \]
 
 That estimate sees the correct same-packet service, but it treats the pressure
 compatibility and viscous descent as a single critical product.  The coefficient
 \(\|Y_N\|_{X_{\rm crit}}\) is not controlled by original energy data.
 
-The pressure-compatible stopping-jet theorem would replace `(PVD.20)` by the
-stronger law `(PVD.11)` together with `(PVD.19)`: a positive compatibility pulse
-cannot be counted as selected service while the packet is falsely treated as at
-rest in velocity alone.
+The pressure-compatible stopping-jet theorem would replace `(PVD.26)` by the
+stronger law `(PVD.11)` together with `(PVD.19)` and `(PVD.22)`: a positive
+compatibility pulse cannot be counted as selected service while the packet is
+falsely treated as at rest in velocity alone.
 
 This is the missing \(L^1\) relationship suggested by the physical picture:
 
@@ -333,7 +419,7 @@ This is the missing \(L^1\) relationship suggested by the physical picture:
 \text{coherent material stopping jet}
 \quad\Longrightarrow\quad
 \text{finite positive selected service}.
-\tag{PVD.21}
+\tag{PVD.27}
 \]
 
 ## 5. Proof status
@@ -350,8 +436,9 @@ Installed repo surfaces prove:
    material tower, conditionally on stable no-return and same-packet envelope
    control.
 
-They do not yet prove `(PVD.11)` together with `(PVD.19)`.  Proving the
-positive-service estimate together with the no-retained-stopping-tail statement
-is the concrete form of the Gold \(L^1\) theorem.
+They do not yet prove `(PVD.11)` together with `(PVD.19)` and `(PVD.22)`.
+Proving the positive-service estimate together with the no-retained-stopping-tail
+and no-retained-pressure-parent-backlog statements is the concrete form of the
+Gold \(L^1\) theorem.
 
 Partial, not Gold closed.
