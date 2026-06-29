@@ -2320,7 +2320,7 @@ w(s,t):=a(e^s,t),
 \tag{ODP.155}
 \]
 
-and the relevant square service is
+and the relevant square packet-work readout is
 
 \[
 \mathrm{FCTS}^{fr}_P
@@ -2488,16 +2488,16 @@ H_w(t)
 
 Either `(ODP.166)`--`(ODP.167)` or `(ODP.168)`, together with paid spill/error
 control, proves `(ODP.160)`.  Then `(ODP.159)` and `(ODP.160)` feed through
-`(ODP.161)` to the terminal-uniform \(L^1\) service line.
+`(ODP.161)` to the terminal-uniform \(L^1\) positive-coupled-work line.
 
 This is the current exact mathematical form of Thomas's physical picture.  The
 instant pressure-compatible pre-energy tower may arrive everywhere in the
 material clock, and viscosity may take heat time to convert that instruction
 into velocity-derived energy readout, but the same pulse cannot be counted as
-fresh positive service at every higher ratio unless its affine pressure-memory
-quotient survives the weighted root test `(ODP.160)`.  Killing that quotient by
-second-order scale exactness or by potential-average control is exactly the
-\(L^1\) relationship between the pressure-arrival tower and the
+fresh positive coupled work/readout at every higher ratio unless its affine
+pressure-memory quotient survives the weighted root test `(ODP.160)`.  Killing
+that quotient by second-order scale exactness or by potential-average control is
+exactly the \(L^1\) relationship between the pressure-arrival tower and the
 viscous/velocity readout tower.
 
 ## 24. Adjacent Schur/no-reuse audit: what it contributes to the quotient kill
