@@ -28,6 +28,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-compatible-viscous-descent-l1-candidate-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-tail-good-lambda-l1-proof-reduction-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-gap-finite-difference-l1-reduction-20260629.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-weightless-parent-current-admission-currency-test-20260629.md
 ---
 
 # Gold full smoothness closure reconciliation
@@ -393,10 +394,26 @@ A far-packet pressure lead is not yet selected action while its one-heat-time
 velocity/shear response is pending.  The needed theorem is therefore weighted
 same-parent heat-lag finite-difference no-recount: the child response
 \(\Delta_IU_{\xi,k,\lambda}\) cannot be reread as fresh positive pressure service
-at every higher ratio level.  This is equivalent to the strict pressure-tail
-good-lambda recurrence \(N_{L+1}\le\vartheta N_L+B_L\) with \(2\vartheta<1\);
-it gives the weighted pressure-tail moment and hence the terminal-uniform
-\(L^1\) bound.
+at every higher ratio level.  The selected bill is weighted, but the supplier
+must be the weightless original-parent current law.  Thus the sharp local form
+is
+
+\[
+\omega_I|\Delta_IU_I|
+\le
+C[q_I\,dq_I]_+
++C\|P_{F_I}j_P\|_{\mathcal C_P}^2
++dMotion_I+dReturn_I+\theta dVisc_I+dLegal_I+dStop_I .
+\tag{GCR.10a}
+\]
+
+The backward heat detector explains same-parentness.  The unproved part is the
+currency conversion in `(GCR.10a)`.  Weighted adjoint square control alone is too
+weak: the half-tail model has finite \(\sum\omega_\ell\nu_\ell^2\) and infinite
+\(\sum\omega_\ell\nu_\ell\).  Once `(GCR.10a)` is proved, it is equivalent to
+the strict pressure-tail good-lambda recurrence
+\(N_{L+1}\le\vartheta N_L+B_L\) with \(2\vartheta<1\); it gives the weighted
+pressure-tail moment and hence the terminal-uniform \(L^1\) bound.
 
 ## 8. Smoothness closure status
 
