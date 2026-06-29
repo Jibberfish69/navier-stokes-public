@@ -24,6 +24,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-mixed-derivative-tower-participation-law-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-tower-to-source-square-upgrade-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-retained-nonendpoint-invisible-square-bill-reduction-20260629.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-derivative-tower-positive-service-l1-proof-attempt-20260629.md
 ---
 
 # Gold full smoothness closure reconciliation
@@ -353,6 +354,23 @@ terminal no-replay, and probe admission/update surfaces are support or consumer
 machinery under the same wall.  They prevent false counting and organize
 admission, but they do not by themselves construct `(GCR.3)`, `(GCR.5)`, or
 `(GCR.10)`.
+
+The derivative-tower positive-service proof attempt records the same boundary
+in tower variables.  The tower identity proves same-packet generation of the
+service and yields the critical estimate
+
+\[
+|\mathcal I_N(Y_N)|
+\le
+C_N\|Y_N\|_{X_{\rm crit}(P)}
+\|Y_N\|_{\dot H^1(P)}^2
++dR_P^{legal}
++dStop_P,
+\]
+
+but the coefficient \(\|Y_N\|_{X_{\rm crit}}\) is not controlled by original
+energy data.  Replacing it by the desired selected-action or service bound is
+circular.
 
 ## 8. Smoothness closure status
 
