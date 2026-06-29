@@ -48,8 +48,8 @@ d\mathcal S_P^{jet}
 d\mu_P^{end}
 \le
 \sigma_P^{jet}\,dt\,da
-dR_P^{legal}
-dStop_P,
++dR_P^{legal}
++dStop_P,
 \tag{FGC.1}
 ```
 
@@ -190,7 +190,7 @@ tree gives
 \sum_{Q\subset P}\omega_Q
 \le
 C_N
-\int_0^{T_*}\int_P\sigma_P^{jet}\,da\,dt
++\int_0^{T_*}\int_P\sigma_P^{jet}\,da\,dt
 +R_P^{legal}
 +Stop_P .
 \tag{FGC.11}
@@ -228,7 +228,7 @@ For any terminal parabolic cylinder \(Q_\rho(z_0,T_*)\),
 \mu_P^{end}(Q_\rho(z_0,T_*))
 \le
 C
-\int_{Q_\rho(z_0,T_*)}\sigma_P^{jet}\,da\,dt
++\int_{Q_\rho(z_0,T_*)}\sigma_P^{jet}\,da\,dt
 +R_P^{legal}(Q_\rho)
 +Stop_P(Q_\rho).
 \tag{FGC.14}
