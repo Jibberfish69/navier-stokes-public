@@ -21,6 +21,8 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-below-same-material-service-storage-target-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-service-storage-equivalence-local-storage-no-go-20260628.md
   - problems/navier-stokes/theorem-construction/mcp-fullmovingsamematerialservicecarrierthetanl1-a-globalsamepacketfullclockfromoriginaldata-a-cee9b9b065.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-mixed-derivative-tower-participation-law-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-tower-to-source-square-upgrade-direct-test-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-retained-nonendpoint-invisible-square-bill-reduction-20260629.md
 ---
 
@@ -93,7 +95,45 @@ The bracket is not a bookkeeping bucket.  It is the same whole-field
 pressure-viscosity-incompressibility participation law, read as terminal-uniform
 service on one root-fixed parent packet.
 
-## 2. What the nonendpoint reconciliation contributes
+## 2. What the derivative-energy tower contributes
+
+The rescaled derivative-energy tower is the native origin of the coupled jet in
+`(GCR.1)`.  Under the heat scaling
+
+\[
+v_r(s,y)=r\,u(T+r^2s,x_*+ry),
+\qquad
+q_r(s,y)=r^2p(T+r^2s,x_*+ry),
+\]
+
+the mixed rungs
+
+\[
+W_{j,m,\alpha}:=\partial_s^m\partial_y^\alpha v_j,
+\qquad
+Q_{j,m,\alpha}:=\partial_s^m\partial_y^\alpha q_j
+\]
+
+are exactly the same pressure-viscosity-incompressibility law repeated through
+derivatives.  The localized energy balance at each rung is the derivative
+energy tower.  The material stress-response jet \(Y_N\) is the root-fixed
+same-packet version of this tower, including the coefficient/frame rungs
+\(A,G\).
+
+So the tower supplies the physical object being transported everywhere at once:
+the compatible derivative jet whose linear reads later become energy/action
+squares.  In this sense, the Gold service density does come from the rescaled
+derivative-energy tower.
+
+What the tower does not supply by identity alone is the terminal-uniform positive
+service bound.  The earlier tower-to-source-square audit records the exact gap:
+a tower identity or cross-cylinder coupling controls the equation of the
+packet, but it does not by itself prove the unweighted same-carrier square
+reserve across a terminal Zeno chain.  The missing theorem is the accretive or
+monotone law saying the positive service of that tower is absorbed by viscous
+drain plus bounded same-parent storage with a strict margin.
+
+## 3. What the nonendpoint reconciliation contributes
 
 The no-retained-nonendpoint invisible-square reduction removes the old
 bookkeeping ghost:
@@ -127,7 +167,7 @@ stress-response jet.  The wall is:
 \text{can that same coupled jet spend finite positive service up to }T_*?
 \]
 
-## 3. Exact remaining theorem
+## 4. Exact remaining theorem
 
 The companion full-closure attempt names the remaining theorem as `(FGC.25)`:
 
@@ -180,7 +220,7 @@ legal/stop material.
 
 No checked repo surface proves `(GCR.5)` from the original data.
 
-## 4. Equivalent names already reconciled
+## 5. Equivalent names already reconciled
 
 The service-storage equivalence note shows that these are not separate closure
 opportunities:
@@ -246,7 +286,7 @@ same-packet generation and fixed-collar or fixed-annulus \(L^1\) pieces, but not
 a bounded-below one-way inequality paying the positive moving participation
 service from original data.
 
-## 5. Endpoint, legal, and stop after reconciliation
+## 6. Endpoint, legal, and stop after reconciliation
 
 Legal and stop are completed partitions only when they are already estimated or
 absorbed by their installed finite ledgers.  They do not sit outside the
@@ -288,7 +328,7 @@ the same pulse in many clocks.
 So endpoint is paid exactly when `(GCR.10)` is constructed from the original
 coupled packet.
 
-## 6. Checked candidate suppliers that do not close Gold
+## 7. Checked candidate suppliers that do not close Gold
 
 The endpoint trace positive-AC criterion proves a no-jump implication after a
 uniform AC supplier exists.  It does not supply the uniform AC density.
@@ -314,7 +354,7 @@ machinery under the same wall.  They prevent false counting and organize
 admission, but they do not by themselves construct `(GCR.3)`, `(GCR.5)`, or
 `(GCR.10)`.
 
-## 7. Smoothness closure status
+## 8. Smoothness closure status
 
 The Gold route is reconciled as follows:
 
