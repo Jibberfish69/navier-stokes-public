@@ -1,12 +1,13 @@
 ---
 theorem_id: forward-gold-coupled-stress-jet-producer-admission-20260628
-status: proof-installed-producer-admission-identity-not-gold-closure
+status: proof-installed-producer-admission-identity-feeds-full-gold-closure-attempt
 logical_landing_node: coupled_stress_jet_producer_admission
 completion_truth: >-
   Closes the producer/admission identity behind the pre-energy tower: selected
   child action is a Gram readout of the rescaled same-parent stress-response jet
-  before it may be squared as Gold action. Does not close Gold smoothness; the
-  terminal-uniform L1 full-packet service storage theorem remains open.
+  before it may be squared as Gold action. The full Gold closure chain is now
+  written in the companion closure attempt; that chain remains blocked exactly at
+  the terminal-uniform L1 full-packet jet-service estimate.
 edge_effect: >-
   Replaces the decoupled Leray-projection/pressure-vs-viscosity picture by a
   single pressure-viscosity-incompressibility stress-response jet. The theorem
@@ -16,14 +17,16 @@ edge_effect: >-
   admitted as a bounded original-packet coordinate of that jet; fresh
   parent-subtracted coordinates Bessel-pack, while inherited coordinates are
   Schur current, route/motion/return, legal, stop, viscous service, or endpoint
-  material. The remaining Gold burden is terminal-uniform L1 storage for this
-  same jet-service density.
+  material. This file supplies the producer/admission input for the full closure
+  packet; terminal-uniform L1 storage for the same jet-service density is the
+  remaining MPP-bearing estimate.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-leray-projection-one-participation-law-audit-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-traction-current-participation-law-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-material-pressure-tower-same-packet-elliptic-readout-20260623.md
   - problems/navier-stokes/theorem-construction/parabolic-order-recursion-note.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-high-parent-current-admission-identity-attempt-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-closure-coupled-stress-jet-attempt-20260628.md
 ---
 
 # Coupled Stress-Jet Producer Admission
@@ -61,9 +64,10 @@ This closes the producer/admission identity:
 \tag{CSJ.2}
 ```
 
-It does not close the Gold route by itself.  The remaining theorem is still a
-terminal-uniform \(L^1\) full-packet service storage bound for this same jet
-service measure, dominating the terminal endpoint measure.
+It is the producer line used by the full Gold closure attempt.  The remaining
+MPP-bearing theorem is a terminal-uniform \(L^1\) full-packet service storage
+bound for this same jet service measure, dominating the terminal endpoint
+measure.
 
 ## 1. Material stress-response jet
 
@@ -279,17 +283,16 @@ This proves the no-free-zoom admission rule for the producer:
 
 ```math
 \sum_i
-|\langle Y_N,d_i\rangle_{H_P}|^2
+{|\langle Y_N,d_i\rangle_{H_P}|^2\over\|d_i\|_{H_P}^2}
 \le
-\|Y_N\|_{H_P}^2
-\sup_i\|d_i\|_{H_P}^2,
+\|Y_N\|_{H_P}^2,
 \tag{CSJ.18}
 ```
 
-with the harmless normalization absorbed into the selected-action weights.  A
-large child square is legal only after it is one of these admitted coordinates
-or after it lands in the inherited/route/return/legal/stop/viscous/endpoint
-categories.
+with zero residuals omitted.  The unnormalized form is obtained by multiplying
+each term by the retained selected weight.  A large child square is legal only
+after it is one of these admitted coordinates or after it lands in the
+inherited/route/return/legal/stop/viscous/endpoint categories.
 
 ## 5. Proof of the closure claim
 
@@ -317,10 +320,19 @@ parent payment categories.  Fresh novelty Bessel-packs by `(CSJ.17)`.  Therefore
 positive clipping and squaring are lawful only after same-parent jet admission.
 That is exactly the missing producer/admission identity.
 
-## 6. What remains open
+## 6. Full Gold handoff
 
 This theorem supplies the producer and closes the decoupled-participation
-oversight.  It does not supply the final Gold storage bound.
+oversight.  In the full Gold closure packet, it proves the first three arrows:
+
+```math
+\text{coupled stress-jet producer}
+\Longrightarrow
+\text{same-parent admission before squaring}
+\Longrightarrow
+\text{no-free-zoom and full-output high-high carrier}.
+\tag{CSJ.19}
+```
 
 The remaining required theorem is:
 
@@ -328,15 +340,16 @@ The remaining required theorem is:
 d\mathcal S_N^{jet}
 \le
 \sigma_N(t)\,dt
-dR^{legal}
-dStop,
++dR^{legal}
++dStop,
 \qquad
 \sup_{\tau<T_*}
 \int_0^\tau \sigma_N(t)\,dt<\infty,
-\tag{CSJ.19}
+\tag{CSJ.20}
 ```
 
 with \(\sigma_N\,dt\) dominating the terminal endpoint measure of the same
-parent-known full packet.  Under `(CSJ.19)`, terminal no-jump follows by
-absolute continuity.  Without `(CSJ.19)`, this note is a closed producer theorem
-and an admission theorem, not a Gold smoothness closure.
+parent-known full packet.  Under `(CSJ.20)`, terminal no-jump follows by
+absolute continuity.  Without `(CSJ.20)`, this note is a closed producer theorem
+and an admission theorem, while the companion file records the full closure
+attempt and the exact unproved terminal-uniform service estimate.
