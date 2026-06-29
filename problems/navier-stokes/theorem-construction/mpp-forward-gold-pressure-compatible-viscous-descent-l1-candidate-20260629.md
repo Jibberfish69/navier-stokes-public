@@ -24,9 +24,10 @@ completion_truth: >-
   the packet relaxes.  Subtracting the original material NS operator from its
   differentiated tower gives two sides of one equality: the original
   pressure-viscosity side and the first-order derivative tower are equal and
-  opposite up to \(T_*\), where both sides must vanish.  The missing estimate is
-  terminal-uniform L1 control of positive selected service for that coupled
-  stopping jet.
+  opposite up to \(T_*\), where both sides must vanish.  The storage term is
+  the primitive of the moving-frame correction \(\mathsf C_{\xi,k}\), not a
+  generic paid residue.  The missing estimate is terminal-uniform L1 control of
+  positive selected service for that coupled stopping jet.
 ---
 
 # Pressure-compatible terminal stopping-jet \(L^1\) candidate

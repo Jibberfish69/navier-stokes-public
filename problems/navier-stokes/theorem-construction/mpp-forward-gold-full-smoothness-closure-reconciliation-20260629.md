@@ -380,7 +380,9 @@ derivative tower are then equal and opposite.  A positive packet coming to rest
 has a positive velocity readout and negative first-order stopping rungs; at true
 terminal rest both sides of the subtraction vanish.  The missing \(L^1\)
 theorem is finite positive service for that coupled stopping jet, together with
-no retained negative stopping-tail after velocity alone appears quiet.
+no retained negative stopping-tail after velocity alone appears quiet.  In this
+candidate, the storage derivative is the moving-frame correction:
+\(\mathsf C_{\xi,k}=-d\mathcal B_{\xi,k}/dt\).
 
 ## 8. Smoothness closure status
 
