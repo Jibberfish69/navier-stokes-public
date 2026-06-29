@@ -16,6 +16,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-closure-coupled-stress-jet-attempt-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-fractional-transfer-reduction-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-critical-transfer-dyadic-flux-affine-threading-reduction-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-storage-coercivity-hard-block-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-weight-bad-profile-compactness-tightness-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-defect-tightness-concentration-compactness-20260627.md
@@ -1872,7 +1873,8 @@ and it is not a separate Gold producer.  It prevents the selected scalar from
 escaping a vanishing fixed carrier; the remaining size problem is the root
 original-history Carleson bound for the same full-exchange/native reserve.
 
-Combining this audit with `(ODP.120)`, the active route measure line becomes
+Combining this audit with `(ODP.120)`, the active route measure line is
+conditional on the original-history payment of the persistent quotient:
 
 \[
 (ODP.125)
@@ -1894,10 +1896,13 @@ pressure-memory quotient `(ODP.124)`, where a same-parent affine average still
 has to be forced into return, potential-average cancellation, reset/overrun
 payment, viscosity, or the selected-generator storage.
 
-## 19. Continuation: persistent affine quotient as the pressure-memory transit
+## 19. Backtrack: persistent affine quotient versus pressure-memory transit
 
-The persistent quotient `(ODP.124)` is the same object as the pressure-memory
-survivor isolated in `(ODP.34)`.  On each stopped transit chart,
+The previous continuation tried to identify the persistent quotient `(ODP.124)`
+with the pressure-memory survivor isolated in `(ODP.34)`.  That identification
+is not installed by the current sources.  It would require a stopped comparison
+lemma proving that the affine root quotient is a bounded readout of the
+same-parent pressure-memory average on the same carrier:
 
 \[
 \|D_e^{pers}\|^2
@@ -1907,10 +1912,14 @@ survivor isolated in `(ODP.34)`.  On each stopped transit chart,
 \tag{ODP.131}
 \]
 
-so the quotient payment `(ODP.125)` follows from the stopped pressure-memory
-entropy inequality `(ODP.74)` together with the reset/return BV charges.
+This was the first overreach.  `(ODP.131)` is not a consequence of the existing
+compactness, selector, or zero-cost rigidity notes.  Those notes say that after
+the derivative-exact, selector, carrier-mismatch, legal, and stop branches are
+removed, the survivor has the persistent quotient form `(ODP.124)`.  They do not
+prove that this quotient is already controlled by the pressure-memory entropy
+coordinate `(ODP.34)`.
 
-In the notation of Section 14, the desired producer is
+In the notation of Section 14, a valid producer would be
 
 \[
 d\mathcal E_P(t)
@@ -1923,16 +1932,17 @@ dPaid_P(t)+C_N(u_0)d\mathcal R_P(t),
 \tag{ODP.132}
 \]
 
-with \(\mathcal E_P\ge-C_N(u_0)\).  Integrating `(ODP.132)` gives `(ODP.125)`.
-Then `(ODP.130)` gives the active route Carleson estimate and the terminal
-\(L^1\) service bound.
+with \(\mathcal E_P\ge-C_N(u_0)\).  Integrating `(ODP.132)` would give
+`(ODP.125)`.  Then `(ODP.130)` would give the active route Carleson estimate and
+the terminal \(L^1\) service bound.
 
-The derivation of `(ODP.132)` is exactly the native heat-lag source budget
-already isolated in `(ODP.73)`--`(ODP.81)`.  The parabolic residence factor
-absorbs the pressure-memory part into viscosity, the fixed stopped-score return
-is BV-paid, and the moving-selector part is paid by `(ODP.127)`.  The only
-non-formal estimate left is the original-history Carleson bound for the native
-heat-lag source:
+The derivation of `(ODP.132)` is not already contained in the native heat-lag
+source budget `(ODP.73)`--`(ODP.81)`.  Those lines describe the entropy route
+once the stopped pressure-memory variable is the correct carrier.  The missing
+bridge is the admission/comparison from persistent affine root quotient to that
+carrier, without using the selected-critical root norm as an input.  After that
+bridge, the non-formal estimate would be the original-history Carleson bound for
+the native heat-lag source:
 
 \[
 \sup_{Q\subset P}
@@ -1946,9 +1956,141 @@ C_N(u_0)+Paid(Q).
 \tag{ODP.133}
 \]
 
-This is the same theorem previously named
+This is adjacent to the theorem previously named
 `SelectedGeneratorStorageCoercivity.A`, `PositiveCriticalTransferBound.A`, and
-the selected weighted root reserve.  It is the actual Gold producer.  The
-compactness/tightness audit above removes selector escape and localizes the bad
-sequence to the persistent affine pressure-memory quotient; it does not by
-itself prove `(ODP.133)` from arbitrary original data.
+the selected weighted root reserve.  The compactness/tightness audit above
+removes selector escape and localizes the bad sequence to the persistent affine
+quotient; it does not by itself prove the quotient-to-pressure-memory admission,
+`(ODP.132)`, or `(ODP.133)` from arbitrary original data.
+
+## 20. Backtrack: positive critical transfer is not a completed equivalence
+
+The source in `(ODP.133)` is not an extra forcing term.  In flat coordinates it
+is the Calderon-Zygmund image of the native viscous strain product:
+
+\[
+S_J
+=
+P_JCZ_J\bigl(\nu\nabla u\nabla u\bigr)
++S_J^{frame/collar}.
+\tag{ODP.134}
+\]
+
+The frame/collar term is already in paid material.  The principal term is the
+positive critical transfer face of the same coupled packet.  Testing the
+Leray-projected equation against \(\Lambda u\) gives
+
+\[
+{1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
++
+\nu\|\Lambda^{3/2}u\|_2^2
+=
+B(t),
+\tag{ODP.135}
+\]
+
+where
+
+\[
+B(t)
+=
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle .
+\tag{ODP.136}
+\]
+
+The intended comparison is to the positive-transfer absorption
+
+\[
+\int_0^\tau B_+(t)\,dt
+\le
+C_N(u_0)
++\theta\nu
+\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt,
+\qquad
+\theta<1.
+\tag{ODP.137}
+\]
+
+The second overreach was treating `(ODP.133)` and `(ODP.137)` as an installed
+equivalence.  The source surfaces say they are coordinate faces of the same
+hard block: selected-generator storage coercivity / positive critical transfer.
+They do not prove that the stopped heat-lag source Carleson estimate and the
+global positive critical transfer estimate are interchangeable without the
+stopped accretive testing data.
+
+The dyadic flux identity makes the same object visible without hiding pressure
+inside a scalar.  Let \(u_j=P_ju\), \(E_j={1\over2}\|u_j\|_2^2\), and
+
+\[
+{d\over dt}E_j(t)+\nu\|\nabla u_j(t)\|_2^2=\mathcal B_j(t).
+\tag{ODP.138}
+\]
+
+For the cumulative upward flux
+
+\[
+\Pi_j(t):=\sum_{k>j}\mathcal B_k(t),
+\tag{ODP.139}
+\]
+
+one has \(\mathcal B_j=\Pi_{j-1}-\Pi_j\), hence the critical transfer is the
+weighted one-sided upcascade:
+
+\[
+B_+(t)
+\lesssim
+\sum_j 2^j[\Pi_j(t)]_+
++R_{LP}(t).
+\tag{ODP.140}
+\]
+
+The dyadic reduction shows the target form of the same hard block:
+
+\[
+\int_0^\tau
+\sum_j2^j[\Pi_j(t)]_+\,dt
+\le
+C_N(u_0)
++\theta\nu
+\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid,
+\qquad
+\theta<1.
+\tag{ODP.141}
+\]
+
+The standard analytic estimate gives only
+
+\[
+|B(t)|
+\le
+C\|u(t)\|_{\dot H^{1/2}}
+\|\Lambda^{3/2}u(t)\|_2^2.
+\tag{ODP.142}
+\]
+
+This proves `(ODP.137)` on small critical packets.  For arbitrary data it is
+not strict because the coefficient is the same scale-critical quantity that the
+native reserve is trying to control.
+
+So the direct continuation does not close the compactness step.  It exposes the
+same unsupplied producer in another coordinate:
+
+\[
+\text{weighted no-free-upcascade/native-birth packing on stopped subtrees}
+\quad\text{would imply}\quad
+(ODP.141),(ODP.137),\text{ and }(ODP.133)
+\quad\text{after the stopped testing/admission bridges.}
+\tag{ODP.143}
+\]
+
+In the physical packet language, every positive upward refill must be assigned
+with bounded multiplicity to lower-band carry, same-history native birth,
+viscous residence, return/reset, legal material, or stop before selected
+readout.  The installed compactness and selector work proves that the meter
+cannot fake this assignment.  What is still not proved from arbitrary original
+data is the stopped accretive testing/native-birth packing theorem that would
+make this assignment quantitative with a strict \(\theta<1\) margin.
