@@ -15,6 +15,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-frequency-flux-residence-transit-dichotomy-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-gap-finite-difference-l1-reduction-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-weightless-parent-current-admission-currency-test-20260629.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-fresh-linear-service-half-tail-obstruction-20260629.md
 completion_truth: >-
   Shows the proof architecture for the oscillatory pressure-parent tail L1
   theorem.  The pressure tail must be controlled by retained Calderon-Zygmund
@@ -25,7 +26,8 @@ completion_truth: >-
   file does not prove Gold closure because the strict recurrence / weighted
   heat-lag telescoping theorem remains the open mathematical lemma.  The
   current sharp form of that lemma is a weighted-selected-bill to weightless
-  parent-current service conversion, not a naked weighted square/Bessel bound.
+  parent-current service conversion with a native heat-lag linear charge for
+  fresh first entry, not a naked weighted square/Bessel bound.
 ---
 
 # Pressure-tail good-lambda \(L^1\) proof reduction
@@ -341,7 +343,7 @@ weightless original-parent payment law.  The local noncircular form is
 \omega_I|\Delta_IU_I|
 \le
 C[q_I\,dq_I]_+
-+C\|P_{F_I}j_P\|_{\mathcal C_P}^2
++d\mathcal N_I^{heat}
 +dMotion_I
 +dReturn_I
 +\theta dVisc_I
@@ -350,8 +352,9 @@ C[q_I\,dq_I]_+
 \tag{PTG.22a}
 \]
 
-with \(q_I\), \(F_I\), and \(j_P\) built in the parent current geometry before
-the child positive readout.  The backward heat identity
+with \(q_I\) built in the parent current geometry before the child positive
+readout and \(d\mathcal N_I^{heat}\) the native/residence/Hardy-Carleson linear
+charge for fresh first-entry heat-lag pulses.  The backward heat identity
 
 \[
 \Delta_IU_I=J_P(\psi_I^P)+Err_I
@@ -359,7 +362,9 @@ the child positive readout.  The backward heat identity
 \]
 
 gives the same-parent detector.  It does not by itself pay the weighted linear
-bill.  Weighted Bessel square control alone permits the half-tail profile
+bill.  Fresh parent-subtracted Bessel remains only the square support
+\(\sum_I\|P_{F_I}j_P\|_{\mathcal C_P}^2<\infty\).  Weighted Bessel square control
+alone permits the half-tail profile
 
 \[
 \nu_\ell={2^{-\ell}\over \ell+1},

@@ -15,6 +15,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-adjoint-bessel-packing-under-parent-subtracted-novelty-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-paid-parent-current-span-perpendicular-category-repair-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-installed-support-axioms-half-tail-model-no-go-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-fresh-linear-service-half-tail-obstruction-20260629.md
 completion_truth: >-
   Sharpens the heat-lag no-recount target after the weightless-supplier
   correction.  The selected child bill is weighted because the child readout is
@@ -24,9 +25,12 @@ completion_truth: >-
   correct same-parent detector, but it does not by itself prove the weighted
   linear service bound.  The remaining theorem is the noncircular admission /
   currency inequality converting each weighted heat-lag finite difference into
-  same-parent current work before positive child clipping.  Weighted square
-  Bessel control alone is too weak; the half-tail model has finite weighted
-  square mass and infinite weighted linear service.
+  same-parent current work before positive child clipping.  The fresh branch is
+  sharper than the earlier WPC.4 wording: parent-subtracted Bessel pays fresh
+  square novelty only, so fresh first-entry heat-lag pulses require a native /
+  residence / Hardy-Carleson linear service charge. Weighted square Bessel
+  control alone is too weak; the half-tail model has finite weighted square mass
+  and infinite weighted linear service.
 ---
 
 # Weightless parent-current admission currency test
@@ -93,13 +97,14 @@ convert weighted square control into weighted linear service.
 
 ## 3. Currency theorem actually needed
 
-The missing local theorem is the admission/currency inequality
+The missing local theorem is the admission/currency inequality.  After the
+fresh-linear half-tail audit, the correct noncircular form is
 
 \[
 \omega_I|\Delta_IU_I|
 \le
 C\,[q_I\,dq_I]_+
-+C\|P_{F_I}j_P\|_{\mathcal C_P}^2
++d\mathcal N_I^{heat}
 +dMotion_I
 +dReturn_I
 +\theta\,dVisc_I
@@ -113,20 +118,34 @@ Here:
 
 - \(q_I\) is the retained Schur current coordinate of the same parent detector;
 - \(dq_I\) is the admitted same-carrier current update over the heat window;
-- \(F_I=(I-P_{R_{<I}})E_I\) is the parent-subtracted fresh detector space;
-- \(j_P\) is the Riesz vector of the original parent stress current;
+- \(d\mathcal N_I^{heat}\) is the missing native/residence/Hardy-Carleson
+  linear charge for fresh first-entry heat-lag pulses;
 - every term on the right is an original-parent account, not a child-weighted
   after-readout account.
 
-After `(WPC.4)`, the inherited terms telescope by Schur current work,
+The parent-subtracted fresh Bessel theorem remains true, but it is a square
+support statement:
+
+\[
+\sum_I\|P_{F_I}j_P\|_{\mathcal C_P}^2
+\le
+\|j_P\|_{\mathcal C_P}^2+\text{paid motion}.
+\tag{WPC.4a}
+\]
+
+It does not dominate the linear term
+\(\sum_I\omega_I|J_P(P_{F_I}\psi_I^P)|\).  That linear fresh branch is exactly
+\(d\mathcal N_I^{heat}\).
+
+After `(WPC.4)`, the retained terms telescope by Schur current work,
 
 \[
 \int q\,dq={1\over2}(q(t_1)^2-q(t_0)^2),
 \tag{WPC.5}
 \]
 
-the fresh terms pack by parent-subtracted Bessel orthogonality, and the remaining
-terms are already paid ledgers.  Summing `(WPC.4)` gives `(HLG.12)` /
+the fresh linear terms are finite by the native heat-lag charge, and the
+remaining terms are already paid ledgers.  Summing `(WPC.4)` gives `(HLG.12)` /
 `(PTG.22)`.
 
 ## 4. Why weighted Bessel square is not enough
@@ -169,8 +188,8 @@ But the weighted selected linear bill diverges:
 
 Thus an argument that proves only weighted adjoint/Bessel square control of the
 heat-lag response still permits the critical one-child half-tail.  The Gold
-line needs current work or a service normalization that pays the linear
-positive bill itself.
+line needs Schur current work for retained reuse and a native/residence /
+Hardy-Carleson charge that pays the fresh linear positive bill itself.
 
 ## 5. Physical meaning
 
@@ -198,8 +217,10 @@ Backward heat reciprocity supplies the correct parent detector:
 The parent-subtracted Bessel theorem supplies fresh square packing once the
 weighted detectors are parent-declared.
 
-The unresolved Gold theorem is `(WPC.4)`: the selected weighted heat-lag
-finite-difference bill must be converted into weightless original-parent current
-work plus paid errors.  This is the sharpened form of `(HLG.12)` / `(PTG.22)`.
+The fresh-linear half-tail audit shows that the unresolved Gold theorem is
+`(WPC.4)` with \(d\mathcal N_I^{heat}\): the selected weighted heat-lag
+finite-difference bill must be converted into Schur current work, finite native
+heat-lag linear service, or paid errors.  This is the sharpened form of
+`(HLG.12)` / `(PTG.22)`.
 
 Partial, not Gold closed.

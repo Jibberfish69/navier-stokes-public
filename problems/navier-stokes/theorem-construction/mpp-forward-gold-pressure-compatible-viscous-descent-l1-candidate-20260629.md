@@ -17,6 +17,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-tail-good-lambda-l1-proof-reduction-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-gap-finite-difference-l1-reduction-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-weightless-parent-current-admission-currency-test-20260629.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-fresh-linear-service-half-tail-obstruction-20260629.md
 completion_truth: >-
   Isolates the terminal stopping-jet form of the missing L1 theorem.  This note
   does not prove Gold closure.  It corrects the physical reading: the terminal
@@ -38,7 +39,8 @@ completion_truth: >-
   selected pressure tail by cancellation, viscous/transverse compensation, or
   weighted heat-lag finite-difference no-recount, hence of the coupled stopping
   jet.  The selected heat-lag bill is weighted, but the supplier must be the
-  weightless original-parent current/service law.
+  weightless original-parent current/service law; on the fresh first-entry
+  branch this requires a native heat-lag linear charge, not Bessel square alone.
 ---
 
 # Pressure-compatible terminal stopping-jet \(L^1\) candidate
