@@ -1152,3 +1152,200 @@ It is derived by differentiating the parent pressure-memory entropy-storage,
 using the heat part of the original coupled row for coercivity, routing skew
 pressure variation to parent current, writing frame motion as storage, and
 proving the native heat-lag source budget `(ODP.73)`.
+
+## 15. Hardy-Carleson proof of the native heat-lag source budget
+
+The half-tail survives when the selected readout is treated as a naked scalar
+sequence.  It is killed only after the same-parent heat-lag readout is factored
+into the two square quantities that the coupled packet actually supplies: pressure
+memory residence and native source residence.
+
+For one stopped heat-lag chart \(J\), put
+
+\[
+S_J:=S_J^{visc-src}+Err_J,\qquad
+\lambda_J:=\text{frequency of }J,\qquad
+\Delta t_J\simeq (\nu\lambda_J^2)^{-1}.
+\tag{ODP.75}
+\]
+
+The entropy source term is
+
+\[
+2h_J|\langle Z_J,S_J\rangle|\,dt .
+\tag{ODP.76}
+\]
+
+Insert the heat scale:
+
+\[
+A_J:=(\nu h_J)^{1/2}\lambda_J Z_J,
+\qquad
+B_J:=\left({h_J\over \nu\lambda_J^2}\right)^{1/2}S_J .
+\tag{ODP.77}
+\]
+
+Then
+
+\[
+2h_J|\langle Z_J,S_J\rangle|\,dt
+\le
+\varepsilon\|A_J\|_2^2\,dt
++\varepsilon^{-1}\|B_J\|_2^2\,dt .
+\tag{ODP.78}
+\]
+
+The first term is the pressure-memory residence term and is absorbed into
+viscosity/transit measure:
+
+\[
+\|A_J\|_2^2\,dt
+=
+\nu h_J\lambda_J^2\|Z_J\|_2^2\,dt
+=
+d\mu_{P,trans,J}^{pw}.
+\tag{ODP.79}
+\]
+
+The second term defines the native heat-lag source charge:
+
+\[
+d\mathcal N_J^{heat}
+:=
+C_\varepsilon
+{h_J\over \nu\lambda_J^2}
+\|S_J\|_2^2\,dt .
+\tag{ODP.80}
+\]
+
+Thus `(ODP.73)` follows from the Carleson estimate
+
+\[
+\boxed{
+\sup_{Q\subset P}
+{1\over \mathcal R(Q)}
+\sum_{J\subset Q}
+\int_{I_J}
+{h_J(t)\over \nu\lambda_J^2}
+\|S_J(t)\|_2^2\,dt
+\le
+C_N(u_0)+Paid(Q).
+}
+\tag{ODP.81}
+\]
+
+This is the Hardy-Carleson upgrade.  It is stronger than Bessel square packing
+because it tests every descendant subtree \(Q\) in the original material history
+and it measures the source at the heat residence scale before selected positive
+clipping.
+
+To see exactly why it beats the half-tail, write the selected scalar readout as
+
+\[
+\omega_J|\Delta_J|
+\le
+\|A_J\|_2\,\|B_J\|_2 .
+\tag{ODP.82}
+\]
+
+If both square measures
+
+\[
+\sum_{J\subset Q}\|A_J\|_2^2
+\quad\text{and}\quad
+\sum_{J\subset Q}\|B_J\|_2^2
+\tag{ODP.83}
+\]
+
+are Carleson on stopped subtrees, then Cauchy on every subtree gives a finite
+linear selected mass.  The model
+\(\Delta_\ell=2^{-\ell}/(\ell+1)\), \(\omega_\ell=2^\ell\) can have finite
+raw selected square mass, but it cannot also admit a same-parent heat-lag
+factorization `(ODP.82)` with both square factors satisfying `(ODP.83)`.  One of
+the two factors must carry a divergent square tail.  Physically, either the
+pressure memory resides and is viscously seen, or the source resides and is
+native heat-lag charge; the naked scalar half-tail hides that residence.
+
+It remains to prove `(ODP.81)` from the original coupled row.  The source has
+the material pressure form
+
+\[
+S_J
+=
+P_J\,CZ_J\bigl(\nu\nabla_A v\,\nabla_A v\bigr)
++S_J^{frame/collar}.
+\tag{ODP.84}
+\]
+
+The frame/collar part is paid by \(dPaid\).  For the principal part, decompose
+the strain product by input/output frequency:
+
+\[
+\nabla_Av\,\nabla_Av
+=
+(\nabla_Av)_{<J}(\nabla_Av)_J
++(\nabla_Av)_J(\nabla_Av)_{<J}
++\sum_{K\ge J-O(1)}
+(\nabla_Av)_K(\nabla_Av)_{K+O(1)}.
+\tag{ODP.85}
+\]
+
+The finite-width and high-high pieces are native square terms after parent
+subtraction and stopped overlap.  They contribute to \(d\mathcal N^{heat}\) or
+paid Bessel novelty.  The only dangerous part is the low/middle carrier times
+the upper heat queue.  In shell notation it has the form
+
+\[
+\sum_{k>N}
+2^k\,a_k(t)\,\mathcal D_k^\uparrow(t),
+\tag{ODP.86}
+\]
+
+where \(a_k=2^{3k/2}\|\Delta_k u\|_2\) is the active lower/middle amplitude and
+\(\mathcal D_k^\uparrow\) is the upper dissipation queue.
+
+The required Hardy step is the stopped tail inequality
+
+\[
+\sum_{J\subset Q}
+\int_{I_J}
+{h_J\over \nu\lambda_J^2}
+\|P_JCZ_J(\nu\nabla_Av\,\nabla_Av)\|_2^2\,dt
+\le
+\eta\,Visc(Q)
++C_\eta\,\mathcal A_{route}(Q)
++Paid(Q),
+\tag{ODP.87}
+\]
+
+with
+
+\[
+\mathcal A_{route}(Q)
+:=
+\sum_{k>N}
+\int_{T(Q)}
+2^k\,a_k(t)\,\mathcal D_k^\uparrow(t)\,dt .
+\tag{ODP.88}
+\]
+
+A discrete Hardy/Schur estimate controls the summation once the route measure
+is Carleson:
+
+\[
+\sup_{Q\subset P}{\mathcal A_{route}(Q)\over\mathcal R(Q)}
+\le
+C_N(u_0)+Paid(Q).
+\tag{ODP.89}
+\]
+
+Equations `(ODP.87)`--`(ODP.89)` imply `(ODP.81)`, hence `(ODP.73)`, hence the
+entropy inequality `(ODP.74)`, hence WLF.60 and terminal-uniform \(L^1\).
+
+The proof boundary is now exact.  The Hardy-Carleson embedding itself is
+standard once `(ODP.89)` is available: Cauchy at heat scale, parabolic
+square-function localization, stopped finite overlap, and discrete Hardy/Schur
+summation.  The non-formal theorem still needed is `(ODP.89)`: the active
+same-parent route measure must be an original-history Carleson measure.  That is
+the heat-lag version of the selected root reserve / active route metric
+Carleson theorem, not a new child source and not raw Bessel square packing.
