@@ -21,7 +21,7 @@ completion_truth: >-
   tower as an elliptic same-packet graph, while viscosity supplies the causal
   parabolic descent that turns those time-rungs into lower velocity/energy
   rungs.  The missing estimate is finite total positive service for that
-  pressure-to-viscous descent conversion on one root-fixed parent packet.
+  pressure-to-viscous descent conversion on one root-fixed carrier packet.
 ---
 
 # Pressure-compatible viscous-descent \(L^1\) candidate
@@ -137,7 +137,7 @@ terminal-uniform positive conversion estimate:
 \]
 
 for every \(\tau<T_*\), with \(0<\theta<1\) and
-\(\mathcal B_P(t)\ge -C_N(u_0)\) on the same root-fixed parent packet.
+\(\mathcal B_P(t)\ge -C_N(u_0)\) on the same root-fixed carrier packet.
 
 Equivalently,
 

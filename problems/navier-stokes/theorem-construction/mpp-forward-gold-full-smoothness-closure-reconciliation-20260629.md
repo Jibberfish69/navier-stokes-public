@@ -95,7 +95,7 @@ service theorem is supplied.
 
 The bracket is not a bookkeeping bucket.  It is the same whole-field
 pressure-viscosity-incompressibility participation law, read as terminal-uniform
-service on one root-fixed parent packet.
+service on one root-fixed carrier packet.
 
 ## 2. What the derivative-energy tower contributes
 
@@ -133,7 +133,7 @@ a tower identity or cross-cylinder coupling controls the equation of the
 packet, but it does not by itself prove the unweighted same-carrier square
 reserve across a terminal Zeno chain.  The missing theorem is the accretive or
 monotone law saying the positive service of that tower is absorbed by viscous
-drain plus bounded same-parent storage with a strict margin.
+drain plus bounded same-carrier storage with a strict margin.
 
 ## 3. What the nonendpoint reconciliation contributes
 
@@ -215,7 +215,7 @@ The local theorem that would prove `(GCR.3)` is `(FGC.20)`:
 \tag{GCR.5}
 \]
 
-with \(\mathcal B_P\) bounded below on the same root-fixed parent history.
+with \(\mathcal B_P\) bounded below on the same root-fixed carrier history.
 Integrating `(GCR.5)` absorbs the dangerous positive service into the viscous
 drain with a strict margin and leaves only bounded storage drop plus completed
 legal/stop material.
