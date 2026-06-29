@@ -15,6 +15,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-complete-frame-tracefree-primitive-pls-payment-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-derivative-tower-positive-service-l1-proof-attempt-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-tail-good-lambda-l1-proof-reduction-20260629.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-gap-finite-difference-l1-reduction-20260629.md
 completion_truth: >-
   Isolates the terminal stopping-jet form of the missing L1 theorem.  This note
   does not prove Gold closure.  It corrects the physical reading: the terminal
@@ -30,9 +31,12 @@ completion_truth: >-
   generic paid residue.  The remaining physical obstruction is oscillation of
   the pressure-parent tower: infinite frequency injection could make higher
   stopping rungs switch signs while the average packet motion slows.  The
-  missing estimate is terminal-uniform L1 control of the positive selected
-  pressure tail by cancellation or viscous damping, hence of the coupled
-  stopping jet.
+  heat-lag correction sharpens that obstruction: a far-packet pressure lead is
+  not selected action while its one-heat-time velocity/shear response is
+  pending.  The missing estimate is terminal-uniform L1 control of the positive
+  selected pressure tail by cancellation, viscous/transverse compensation, or
+  weighted heat-lag finite-difference no-recount, hence of the coupled stopping
+  jet.
 ---
 
 # Pressure-compatible terminal stopping-jet \(L^1\) candidate
@@ -498,6 +502,95 @@ C_N(u_0)
 
 which is the pressure-parent part of `(PVD.11)` / `(PVD.23)`.  Summing the
 selected rows gives the terminal-uniform \(L^1\) service bound.
+
+## 3.4. Heat-lag finite-difference correction
+
+The pressure-tail theorem can be sharpened by centering the two tower readouts.
+From `(PVD.7)`,
+
+\[
+\mathsf G_{\xi,k}
+:=
+\mathsf N_{\xi,k}-\mathsf D_{\xi,k+1}
+=2\mathsf N_{\xi,k}
+=-2\mathsf D_{\xi,k+1}.
+\tag{PVD.31a}
+\]
+
+Therefore a selected positive pressure-compatible account is only one face of
+the centered gap:
+
+\[
+[\mathsf N_{\xi,k}]_+
+=
+{1\over2}[\mathsf G_{\xi,k}]_+ .
+\tag{PVD.31b}
+\]
+
+This explains the half-tail barrier.  If the proof counts the pressure face at
+a far packet before the velocity/shear response has had one heat-time to appear,
+it counts a pending response as selected action.
+
+For dyadic frequency \(\lambda\), set
+
+\[
+h_\lambda\simeq {1\over\nu\lambda^2},
+\qquad
+U_{\xi,k,\lambda}(t)
+:=
+\xi(t)\cdot P_\lambda\partial_t^kv(t).
+\tag{PVD.31c}
+\]
+
+Integrating the row
+
+\[
+\partial_tU_{\xi,k,\lambda}
+=
+\mathsf P_{\xi,k,\lambda}
++\mathsf V_{\xi,k,\lambda}
++\mathsf C_{\xi,k,\lambda}
++\mathsf{Paid}_{\xi,k,\lambda}
+\tag{PVD.31d}
+\]
+
+over \(I=[t,t+h_\lambda]\) gives
+
+\[
+\int_I[\mathsf P_{\xi,k,\lambda}]_+
+\le
+|\Delta_IU_{\xi,k,\lambda}|
++\int_I[-\mathsf V_{\xi,k,\lambda}]_+
++\int_I[-\mathsf C_{\xi,k,\lambda}]_+
++\int_I[\mathsf P_{\xi,k,\lambda}]_-
++\int_I\mathsf{Paid}_{\xi,k,\lambda}.
+\tag{PVD.31e}
+\]
+
+This is the formal plank correction.  Incompressibility does not force the
+pushed line to translate as a rigid object.  If the far packet has a pressure
+account but not yet a velocity account, the response is still inside the
+heat-lag window and must become finite-difference velocity response, transverse
+divergence compensation, viscous shear, pressure cancellation, frame/collar
+motion, return, legal, stop, or endpoint material.
+
+The concrete replacement for the abstract pressure-phase storage is the
+weighted no-recount estimate
+
+\[
+\sum_{\gamma\subset P}
+\sum_{I\in\gamma}
+\omega_I|\Delta_IU_{\xi,k,\lambda(I)}|
+\le
+C_N(u_0)
++C\,\mathsf{Visc}_{P,N}
++C\,\mathsf{Paid}_{P,N}.
+\tag{PVD.31f}
+\]
+
+If `(PVD.31f)` is proved, then `(PVD.29)` follows by summing `(PVD.31e)` over
+the unexited transit windows and adding the already paid cancellation,
+residence, legal, stop, return, and endpoint branches.
 
 ## 4. Why this is the right missing relationship
 
