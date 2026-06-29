@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-pressure-compatible-viscous-descent-l1-candidate-20260629
-status: candidate-l1-mechanism-isolated-no-upward-drain-proof-open
+status: candidate-l1-mechanism-isolated-terminal-stopping-jet-proof-open
 created: 2026-06-29
 problem: navier-stokes
 route: forward-gold pressure-compatible derivative tower / viscous descent
@@ -15,44 +15,37 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-complete-frame-tracefree-primitive-pls-payment-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-derivative-tower-positive-service-l1-proof-attempt-20260629.md
 completion_truth: >-
-  Isolates the pressure-compatible / viscous-descent form of the missing L1
-  theorem.  This note does not prove Gold closure.  It states the sharper
-  mechanism: pressure supplies the instantaneous compatible time-derivative
-  tower as an elliptic same-packet graph, while viscosity supplies the causal
-  parabolic descent that turns those time-rungs into lower velocity/energy
-  rungs.  The missing estimate is finite total positive service for that
-  pressure-to-viscous descent conversion on one root-fixed carrier packet.
-  The candidate has been corrected against the false upward-drain reading:
-  viscosity does not drain the packet away from velocity into higher rungs.
-  Higher rungs can expose a retained pressure-compatible/top-tail readout, but
-  that readout is not a second payment route.  Closure requires the high-rung
-  top-tail to vanish or be absorbed by the same coupled viscous service.
+  Isolates the terminal stopping-jet form of the missing L1 theorem.  This note
+  does not prove Gold closure.  It corrects the physical reading: the terminal
+  question is not a second payment route and not an upward drain.  It is what it
+  means for one root-fixed material packet to come to rest.  A positive velocity
+  that slows requires negative acceleration; that acceleration must itself
+  relax; the jerk must relax; and so on through a sign-compatible,
+  scale-shrinking material time-jet.  The missing estimate is terminal-uniform
+  L1 control of positive selected service for that coupled stopping jet.
 ---
 
-# Pressure-compatible viscous-descent \(L^1\) candidate
+# Pressure-compatible terminal stopping-jet \(L^1\) candidate
 
-The missing \(L^1\) theorem should be read as a conversion law between two
-towers inside the same original material carrier.
+The missing \(L^1\) theorem should be read as a stopping law for the whole
+material time-jet inside the same original material carrier.
 
-The pressure-energy-derivative transport tower is the parent tower: it is the
-instantaneous compatibility tower created by the pressure/incompressibility
-constraint.  The viscosity-velocity-derivative tower is the child tower: it is
-the causal heat-time descent through which the parent compatibility pulse
-becomes readable velocity and then readable energy/action.
-
-The desired estimate says that this conversion cannot have infinite positive
-service before \(T_*\).
-
-The word "parent" has two roles here.  The root material packet \(P\) is the
-carrier parent.  Inside that carrier, the pressure-compatible derivative tower
-is the parent side of the conversion, and the viscous velocity-derivative tower
-is the child/descent side.
-
-This does not create an upward physical drain at the terminal face.  The final
-motion is still paid through the same viscous participation law.  Acceleration,
-strain, and higher derivative rungs can expose what remains pressure-compatible
-or unread, but they are not a separate reservoir into which velocity energy
+For a scalar material velocity component \(V(t)\), positive velocity cannot
+simply disappear.  If \(V(t)>0\) is coming to rest without rebound, then
+\(\partial_tV(t)<0\).  That negative acceleration must relax toward zero, so
+\(\partial_t^2V(t)>0\).  The jerk must relax, so
+\(\partial_t^3V(t)<0\), and so on in the rescaled stopping profile.  Higher
+rungs are the time-shape of stopping, not a place into which velocity energy
 drains.
+
+The pressure/incompressibility tower supplies the instantaneous compatible
+whole-field time-jet.  The velocity derivative tower supplies the local material
+readout of whether the packet is actually coming to rest.  They are not separate
+payment accounts; they are two projections of the same coupled
+pressure-viscosity-incompressibility stopping law.
+
+The desired estimate says that the coupled stopping jet cannot carry infinite
+positive selected service before \(T_*\).
 
 ## 1. Instantaneous pressure-compatible tower
 
@@ -171,53 +164,66 @@ compatibility pulse already present in the parent pressure/time tower and the
 amount of child heat-time viscous descent still required before that pulse is
 readable as selected energy.
 
-## 3.1. Terminal-order correction: no upward drain
+## 3.1. Terminal stopping jet
 
-The terminal-order issue is not a second physical drain direction.
+The terminal-order issue is what it means for a material packet to be physically
+at rest.
 
-Downward drain means the parent compatibility rung descends into child velocity
-and then into readable energy/action before it is dissipated.  This is the
-direct reading of `(PVD.6)`.
-
-It is possible for the readable velocity rung to become small while
-acceleration, strain, pressure-time, or higher compatibility rungs still show
-large service.  That does not mean energy has drained upward.  It means the
-same coupled pressure-viscosity-incompressibility law still has unresolved
-high-rung readout on the finite tower.
-
-On a finite tower truncation this unresolved readout appears as a top-tail
-defect.  Thus the complete finite-depth estimate is
+Fix a transported selected covector \(\xi(t)\) and set
 
 \[
-\sum_{k\le N}\int_0^\tau
-\big[\mathsf{Compat}_k(Y_N)(t)\big]_+\,dt
-\le
-\theta\nu\int_0^\tau
-\sum_{k\le N}\|\nabla_A\partial_t^kv\|_{L^2(P)}^2\,dt
-+C_N(u_0)
-+\mathcal B_P(0)-\mathcal B_P(\tau)
-+R_P^{legal}
-+Stop_P
-+\mathcal T_N^{top}(\tau),
+V_\xi(t)=\xi(t)\cdot v(a,t).
 \tag{PVD.8}
 \]
 
-where \(\mathcal T_N^{top}\) is the retained high-rung tail left outside the
-chosen finite depth.  Gold closure needs that tail to be nonretained:
+A one-way positive stopping profile has the alternating material-time sign
+pattern
 
 \[
-\lim_{N\to\infty}
-\sup_{\tau<T_*}\mathcal T_N^{top}(\tau)=0,
+V_\xi>0,\qquad
+\partial_tV_\xi<0,\qquad
+\partial_t^2V_\xi>0,\qquad
+\partial_t^3V_\xi<0,\qquad \ldots
 \tag{PVD.9}
 \]
 
-or an equivalent estimate saying the apparent top-tail is absorbed by the same
-coupled viscous service with summable tower weights.
+or, in compressed form,
 
-So the theorem is not "pressure parent always drains last," and it is also not
-"velocity energy drains upward."  The theorem is: every retained
-pressure-compatible positive service either descends into the viscous payment
-law or vanishes as a nonretained high-rung tail.
+\[
+(-1)^k\partial_t^kV_\xi\ge 0
+\quad\text{on the selected stopping segment.}
+\tag{PVD.10}
+\]
+
+The size part is just as important as the signs.  With terminal scale
+\(\ell(t)=T_*-t\), a coherent stopping jet is measured by a rescaled tower such
+as
+
+\[
+\mathsf S_{\xi,N}(t)
+=
+\sum_{k=0}^N w_k\,
+\big[\ell(t)^k(-1)^k\partial_t^kV_\xi(t)\big]_+ .
+\tag{PVD.11}
+\]
+
+The false terminal object is a packet whose velocity readout has come to rest
+while the stopping jet has retained positive mass in acceleration, jerk, snap,
+or higher rungs.  Gold closure needs the no-retained-stopping-tail statement
+
+\[
+\lim_{N\to\infty}\sup_{\tau<T_*}
+\int_0^\tau
+\sum_\xi\sum_{k>N} w_k\,
+\big[\ell(t)^k(-1)^k\partial_t^kV_\xi(t)\big]_+\,dt
+=0,
+\tag{PVD.12}
+\]
+
+with the selected covectors and weights matching the derivative-energy tower.
+This is not an upward drain.  It is the assertion that "the packet came to rest"
+means the whole material stopping jet relaxed, not just the zeroth velocity
+readout.
 
 ## 4. Why this is the right missing relationship
 
@@ -231,28 +237,27 @@ C_N
 \|Y_N\|_{\dot H^1(P)}^2
 +dR_P^{legal}
 +dStop_P .
-\tag{PVD.10}
+\tag{PVD.13}
 \]
 
 That estimate sees the correct same-packet service, but it treats the pressure
 compatibility and viscous descent as a single critical product.  The coefficient
 \(\|Y_N\|_{X_{\rm crit}}\) is not controlled by original energy data.
 
-The pressure-compatible viscous-descent theorem would replace `(PVD.10)` by the
-stronger causal payment law `(PVD.6)` / `(PVD.8)`: a positive parent
-compatibility pulse is charged by the heat-time needed to descend through the
-child velocity tower, plus a bounded storage drop on the original carrier, with
-no retained high-rung tail left outside the tower.
+The pressure-compatible stopping-jet theorem would replace `(PVD.13)` by the
+stronger law `(PVD.6)` together with `(PVD.12)`: a positive compatibility pulse
+cannot be counted as selected service while the packet is falsely treated as at
+rest in velocity alone.
 
 This is the missing \(L^1\) relationship suggested by the physical picture:
 
 \[
 \text{instantaneous pressure-compatible time-rung}
 \quad+\quad
-\text{viscous heat-time descent with no retained high-rung top-tail}
+\text{coherent material stopping jet}
 \quad\Longrightarrow\quad
 \text{finite positive selected service}.
-\tag{PVD.11}
+\tag{PVD.14}
 \]
 
 ## 5. Proof status
@@ -269,8 +274,8 @@ Installed repo surfaces prove:
    material tower, conditionally on stable no-return and same-packet envelope
    control.
 
-They do not yet prove `(PVD.6)` together with `(PVD.9)`.  Proving the
-descent/payment estimate plus the no-retained-high-rung-tail estimate is the
-concrete form of the Gold \(L^1\) theorem.
+They do not yet prove `(PVD.6)` together with `(PVD.12)`.  Proving the
+positive-service estimate together with the no-retained-stopping-tail statement
+is the concrete form of the Gold \(L^1\) theorem.
 
 Partial, not Gold closed.
