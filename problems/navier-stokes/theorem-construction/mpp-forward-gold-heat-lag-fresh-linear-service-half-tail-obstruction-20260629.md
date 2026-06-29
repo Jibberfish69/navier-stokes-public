@@ -251,3 +251,127 @@ follows, hence the strict pressure-tail recurrence, hence `(FGC.25)`.
 
 Without `(WLF.13)`, `(WPC.4)` / `(HLG.12a)` / `(PTG.22a)` / `(PVD.31g)` are still
 missing the actual fresh linear service producer.  Partial, not Gold closed.
+
+## 6. Physical-to-formal proof loop
+
+When the formal route stalls, the stalled quantity has to be read back as a
+packet mechanism before another theorem layer is added.
+
+For the present obstruction the stalled quantity is
+
+\[
+\mathsf{Lag}_P
+:=
+\sum_{I\in\mathcal F(P)}
+\omega_I
+\left|
+J_P(P_{F_I}\psi_I^P)
+\right| .
+\tag{WLF.16}
+\]
+
+Here \(I\) is a selected heat-lag window in the original parent packet \(P\),
+\(\psi_I^P\) is the backward heat detector for the later velocity finite
+difference, and \(P_{F_I}\) is the parent-subtracted first-entry projection.
+The physical statement is:
+
+The far packet may receive the pressure-compatible account before its local
+velocity/viscous response has become readable, but that micro-time gap is not a
+new parent at every higher ratio.  Once the pulse has entered the original
+packet, later reads of the same pulse must be charged as same-parent current
+reuse, pressure-tail cancellation, viscous heat descent, route motion, return,
+legal material, stop material, or finite native heat-lag reserve.
+
+Formally this says that every selected heat-lag window has a same-parent
+decomposition
+
+\[
+J_P(P_{F_I}\psi_I^P)
+=
+\Delta_I^{Schur}
++\Delta_I^{osc}
++\Delta_I^{visc}
++\Delta_I^{move}
++\Delta_I^{ret}
++\Delta_I^{legal}
++\Delta_I^{stop}
++\Delta_I^{nat}
++Err_I ,
+\tag{WLF.17}
+\]
+
+with the weighted positive read admitted before child clipping:
+
+\[
+\omega_I|J_P(P_{F_I}\psi_I^P)|
+\le
+C[q_I\,dq_I]_+
++dOsc_I^{heat}
++\theta\,dVisc_I
++dMotion_I
++dReturn_I
++dLegal_I
++dStop_I
++d\mathcal N_I^{heat}
++dErr_I ,
+\qquad \theta<1.
+\tag{WLF.18}
+\]
+
+The terms in `(WLF.18)` have the following non-optional meanings.
+
+- \(C[q_I\,dq_I]_+\) is reuse of a charged same-parent Schur coordinate.
+- \(dOsc_I^{heat}\) is cancellation of an oscillatory pressure-tail thread
+  before it becomes monotone positive service.
+- \(\theta dVisc_I\) is local heat descent through the viscosity tower, with a
+  strict margin.
+- \(dMotion_I,dReturn_I,dLegal_I,dStop_I\) are original-packet route, reset,
+  legal, and stopping material.
+- \(d\mathcal N_I^{heat}\) is the native first-entry heat-lag reserve; it is
+  the part not paid by square Bessel novelty.
+- \(dErr_I\) is admissible frame, collar, Hodge, and localization error already
+  dominated by the paid accounts.
+
+The finite \(L^1\) theorem is exactly:
+
+\[
+\sum_{I\in\mathcal F(P)}
+dOsc_I^{heat}
++
+\sum_{I\in\mathcal F(P)}
+d\mathcal N_I^{heat}
++
+\sum_{I\in\mathcal F(P)}
+dErr_I
+\le
+C_N(u_0)
++C\,\mathsf{Visc}_{P,N}
++C\,\mathsf{Paid}_{P,N}.
+\tag{WLF.19}
+\]
+
+Together, `(WLF.18)` and `(WLF.19)` imply `(WLF.13)`:
+
+\[
+\mathsf{Lag}_P
+\le
+C_N(u_0)
++C\,\mathsf{Visc}_{P,N}
++C\,\mathsf{Paid}_{P,N}.
+\tag{WLF.20}
+\]
+
+This is the written form of the physical rule.  A retained pulse cannot be
+fresh again; it becomes Schur current.  A sign-switching pressure wave cannot
+be counted as monotone positive service without leaving an oscillation
+variation charge.  A heat-lag pulse that genuinely becomes velocity response
+must descend through the viscous tower.  A pulse that changes the packet route,
+returns, or stops is charged to those original-packet accounts.  The only
+remaining branch is first-entry native heat-lag reserve, and `(WLF.19)` is the
+noncircular theorem needed to prove that this reserve is finite from the
+original coupled pressure-viscosity-incompressibility law.
+
+The half-tail countermodel `(WLF.2)`--`(WLF.9)` is precisely the warning that
+one cannot replace `(WLF.19)` by Bessel square packing.  Square novelty says the
+fresh directions are orthogonal; it does not by itself bound the weighted
+linear service of infinitely many tiny first entries.
