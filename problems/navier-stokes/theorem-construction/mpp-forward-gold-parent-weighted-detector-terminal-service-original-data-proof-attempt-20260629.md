@@ -1349,3 +1349,190 @@ summation.  The non-formal theorem still needed is `(ODP.89)`: the active
 same-parent route measure must be an original-history Carleson measure.  That is
 the heat-lag version of the selected root reserve / active route metric
 Carleson theorem, not a new child source and not raw Bessel square packing.
+
+## 16. Active same-parent route measure Carleson from the coupled packet
+
+The physical content of `(ODP.89)` is that a pressure-compatible heat-lag route
+cannot be read as fresh positive service at arbitrarily many selected scales
+unless the same original coupled packet actually carries the route.  The packet
+may carry it as viscous heat-scale service, legal/reselection service, stop, or
+native root reserve.  It may not carry it as a child-created positive readout
+after the selected weight has already magnified it.
+
+For a stopped parent \(P\), write the active route measure on a descendant tent
+\(\widehat Q\subset\widehat P\) as
+
+\[
+\mu_A(\widehat Q)
+:=
+\sum_{k>N}
+\int_{T(Q)}
+2^k a_k(t)\,\mathcal D_k^\uparrow(t)\,dt .
+\tag{ODP.90}
+\]
+
+The desired Carleson estimate is
+
+\[
+\sup_{Q\subset P}
+{\mu_A(\widehat Q)\over \mathcal R(Q)}
+\le
+C_N(u_0)+Paid(Q).
+\tag{ODP.91}
+\]
+
+The noncircular proof has to use an original-packet service measure
+
+\[
+d\Sigma_P
+:=
+dVisc_P+dPaid_P+dStop_P+d\mathcal R^{native}_P-d\mathcal B_P ,
+\tag{ODP.92}
+\]
+
+where \(\mathcal B_P\) is a bounded-below same-parent storage and
+\(\mathcal R^{native}_P\) is a root reserve defined before selected positive
+clipping.  If one proves the retained density domination
+
+\[
+\mu_A(\widehat Q)
+\le
+C_N\,\Sigma_P(\widehat Q)
+\qquad(Q\subset P\text{ retained}),
+\tag{ODP.93}
+\]
+
+and the original-packet Carleson bound
+
+\[
+\Sigma_P(\widehat Q)
+\le
+C_N(u_0)\mathcal R(Q)+Paid(Q),
+\tag{ODP.94}
+\]
+
+then `(ODP.91)` follows immediately.  This is the right proof shape: define the
+measure on the parent packet first, prove bounded stopped overlap for its
+pushforward, and only then allow the selected child to read it.
+
+The useful split is by the heat-lag absorption ratio
+
+\[
+\rho_k(t)
+:=
+{2^k a_k(t)\mathcal D_k^\uparrow(t)
+\over
+{dVisc_{k}^{heat}\over dt}+{dPaid_k\over dt}+0^+}.
+\tag{ODP.95}
+\]
+
+On the small-ratio set,
+
+\[
+\rho_k(t)\le \theta<1,
+\tag{ODP.96}
+\]
+
+one has the direct absorption
+
+\[
+d\mu_A^{small}
+\le
+\theta\,dVisc^{heat}+dPaid .
+\tag{ODP.97}
+\]
+
+The large-ratio set is the only real test.  The required same-parent admission
+statement is
+
+\[
+d\mu_A^{large}
+\le
+C_N\bigl(
+dStop+dPaid+d\mathcal R^{native}-d\mathcal B
+\bigr).
+\tag{ODP.98}
+\]
+
+In words: once the active coefficient is too large to be absorbed by the local
+heat-scale viscous service, the event is no longer an ordinary retained child
+readout.  It must be a parent-announced first exit, legal/reselection/reset, a
+bounded storage drop, or a native root-reserve atom of the original coupled
+packet.  Summing `(ODP.97)` and `(ODP.98)` gives
+
+\[
+\mu_A(\widehat Q)
+\le
+\theta\,Visc^{heat}(Q)
++C_N\bigl(
+Stop(Q)+Paid(Q)+\mathcal R^{native}(Q)
++\mathcal B(Q_0)-\mathcal B(Q)
+\bigr).
+\tag{ODP.99}
+\]
+
+If the same-packet reserve satisfies
+
+\[
+Visc^{heat}(Q)+Stop(Q)+\mathcal R^{native}(Q)
++\mathcal B(Q_0)-\mathcal B(Q)
+\le
+C_N(u_0)\mathcal R(Q)+Paid(Q),
+\tag{ODP.100}
+\]
+
+then `(ODP.91)` follows, and the chain
+
+\[
+(ODP.91)\Rightarrow(ODP.81)\Rightarrow(ODP.73)\Rightarrow(ODP.74)
+\Rightarrow WLF.60\Rightarrow FGC.25
+\tag{ODP.101}
+\]
+
+is formal.
+
+The direct Bessel/energy attempt does not prove `(ODP.98)`.  Let
+
+\[
+\mu_G(E)
+:=
+\int_E
+|\langle 2\nu S_A,k_\theta\rangle_{\mathfrak H_P}|^2\,
+d\mu_{raw}(\theta).
+\tag{ODP.102}
+\]
+
+The raw stopped frame gives
+
+\[
+\mu_G(\widehat P)
+\le
+C_N\|2\nu S_A\|_{\mathfrak H_P}^2
+\le
+C_N(u_0).
+\tag{ODP.103}
+\]
+
+This proves raw same-parent square packing.  It proves that first exits of the
+raw density
+
+\[
+{\mu_G(\widehat Q)\over \mathcal R(Q)}
+\tag{ODP.104}
+\]
+
+are finitely packable.  It does not prove that the active selected measure
+\(\mu_A\) is dominated by \(\mu_G\).  If \(\mu_G\) is redefined to include the
+active weight in \(\mu_A\), `(ODP.103)` becomes exactly `(ODP.91)`, the theorem
+being proved.  If \(\mu_G\) remains the raw parent square measure, the critical
+half-tail survives: finite raw square mass can still carry infinite selected
+linear route mass.
+
+Thus the proof of `(ODP.91)` from the original coupled packet is equivalent, in
+this notation, to proving the native large-ratio admission line `(ODP.98)` with
+a reserve satisfying `(ODP.100)`.  The known parent-current admission/no-recount
+machinery supplies origin, first-entry update, and no repeated fresh charging.
+It does not by itself supply the selected critical root reserve
+\(\mathcal R^{native}\).  That reserve is the same object called
+`SelectedCompressionRootReserve.A` / `OriginalHistorySelectedLogAmplificationCarleson.A`
+in the June 27 active-route surfaces.
