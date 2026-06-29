@@ -2188,3 +2188,76 @@ hard block only after the heat-lag/no-recount admission has been accounted for.
 Using \(B_+\) as the primary object is exactly the compression error: it hides
 the actual same-parent pressure-arrival to viscous/velocity-response transport
 that the MPP route is trying to prove finite in \(L^1\).
+
+## 22. Ownership audit: the repo already contains the native idea
+
+The source audit of the native-reserve surfaces shows that the live idea is
+already present in the repo and should not be rediscovered conversationally.
+
+The installed part is source attachment plus same-chain nonreuse.  A retained
+selected high-ratio birth is not detached from the original packet, and a strict
+descendant cannot keep rereading the same spent source direction for free.  In
+the heat-lag language, the first pressure-compatible push is a same-parent
+event, and later child finite-difference reads are not allowed to become new
+parents merely by changing zoom level.
+
+The non-installed line is the selected-scale native atom theorem.  Raw source
+attachment gives heat-scale mass; Gold needs selected-scale mass.  The repo
+states this as
+
+\[
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}
++R_{\rm legal}(\gamma)+Stop(\gamma),
+\qquad
+\operatorname{mult}(\iota)\le C_N,
+\tag{ODP.149}
+\]
+
+with
+
+\[
+\sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}
+\rho
+\le
+C_N(u_0)\mathcal R(P)
++R_{\rm legal}(P)+Stop(P).
+\tag{ODP.150}
+\]
+
+In the minimal-first-birth surface, the same theorem becomes the parent-known
+critical frame:
+
+\[
+\omega_\gamma
+\lesssim
+|\langle M_\gamma,\varphi_\gamma\rangle|^2
++Paid(\gamma),
+\qquad
+\|\varphi_\gamma\|_{\operatorname{Cap}_{crit,P}}\le C_N,
+\tag{ODP.151}
+\]
+
+and
+
+\[
+\sum_{\gamma\subset P}
+|\langle D_AJ,\varphi_\gamma\rangle|^2
+\le
+C_N\int_{\operatorname{Hist}(P)}|J|^2\,d\mathcal R_{crit}
++Paid(P).
+\tag{ODP.152}
+\]
+
+This is the exact bridge from the heat-lag \(L^1\) problem to the native-reserve
+Gold hinge.  `(WLF.25c)` asks for the fresh heat-lag child bill to consume
+parent push-variation with bounded selected overlap.  `(ODP.149)`--`(ODP.152)`
+are the root-native form of that same request: the fresh selected birth must
+have a parent-known critical atom of selected-scale size, and those atoms must
+pack with bounded multiplicity from original data.
+
+Thus the next proof attempt should not start from \(B(t)\), and it should not
+re-prove same-parent detection or spent-source nonreuse.  It should attack the
+two-frame statement `(ODP.151)`--`(ODP.152)` directly in the original
+pressure-viscosity-incompressibility material packet.
