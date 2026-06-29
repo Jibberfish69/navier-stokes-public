@@ -17,6 +17,12 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-fractional-transfer-reduction-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-storage-coercivity-hard-block-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-weight-bad-profile-compactness-tightness-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-defect-tightness-concentration-compactness-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-defect-tightness-original-ledger-correction-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-carrier-readout-or-paid-reselection-after-dynamic-silence-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-finite-score-or-paid-drift-proof-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-stratum-crossing-bv-closure-20260627.md
 completion_truth: >-
   The original material Navier-Stokes identity gives same-parent origin,
   admission before child clipping, signed service balance, and the critical
@@ -1735,3 +1741,214 @@ motion with no frame change, no covector motion, no strain/exchange, no return,
 no reset, no stop, and no legal exit.  The parent-subtracted rigidity says that
 is inherited transport, not fresh action.  The remaining work is making that
 rigidity survive the selected stopping/limit process.
+
+## 18. Compactness/tightness and selector nondegeneracy audit
+
+This section tests `(ODP.118)` and `(ODP.119)` against the installed June 27
+surfaces.  They are not equal gaps.
+
+The normalized bad sequence required for `(ODP.111)` is
+
+\[
+\mathcal R_{P_n}^{proj}(\widehat {P_n})=1,
+\qquad
+\int_{\operatorname{Hist}(P_n)}d\Lambda_{P_n}^{orig}
++R_{\rm legal}(P_n)+Stop(P_n)\to0,
+\tag{ODP.121}
+\]
+
+where \(d\Lambda^{orig}\) may contain only parent-known original-history
+derivative, exchange, covector, frame, selector, legal, and stop ledgers.  It
+may not contain the root clocks being produced.
+
+The compactness/tightness line would be the nonzero parent-frame extraction
+
+\[
+H_{e_n^-}^{1/2}D_{e_n}^{new}
+\rightharpoonup D_\infty\ne0
+\quad\text{in one stopped same-carrier Hilbert space.}
+\tag{ODP.122}
+\]
+
+The repo does not prove `(ODP.122)` as a free compactness fact.  The active-weight
+bad-profile note reduces it to
+
+\[
+\text{SameCarrierBadProfileExtraction.A}
++
+\text{ActiveWeightBlowupProjectionCompactness.A}.
+\tag{ODP.123}
+\]
+
+The concentration-compactness note sharpens the surviving loss further.  After
+vanishing, dichotomy, derivative-exact high-weight escape, carrier mismatch,
+selector drift, legal loss, and stop loss are removed, the only unclosed term is
+the persistent non-derivative affine/root quotient
+
+\[
+D_e^{pers}
+=
+(I-\Pi_{\mathcal P_{e^-}})
+\mathcal C_\theta[Z_e^{fresh}].
+\tag{ODP.124}
+\]
+
+The exact noncircular payment needed for that quotient is
+
+\[
+\sum_{e\subset P}
+\int H_{e^-}\|D_e^{pers}\|^2
+\le
+C_N(u_0)\mathcal R(P)
++C\operatorname{Return}_{-}(P)
++C\operatorname{PotAvg}(P)
++C\operatorname{Overrun}_{sel}(P)
++R_{\rm legal}(P)
++Stop(P).
+\tag{ODP.125}
+\]
+
+The fixed stopped-score return branch is installed relative to the root-geometry
+currency.  The fresh potential-average transfer and the strict reset/overrun
+Carleson payment are still original-history producer statements.  Thus the
+compactness/tightness step does not close by weak compactness alone; it closes
+only after `(ODP.125)`, equivalently after the selected-generator storage /
+positive critical transfer theorem that gives the original-history root reserve.
+
+The selector-carrier side is different.  On a retained finite stopped selector
+chart, the selected log readout is a Lipschitz function of the same parent
+carrier:
+
+\[
+|\Delta_e^{fixed}\log\rho_{\rm sel}|
+\le
+C_S\|D_e\|_{\mathcal H_{\rm lift}}
++C_S\|R_e\|_{\mathcal H_{\rm lift}}
++e_e^S .
+\tag{ODP.126}
+\]
+
+So if the fixed carrier increment tends to zero and the chart remains stopped,
+the selected scalar tends to zero with it.  The scalar cannot keep moving inside
+that chart.
+
+If the scalar keeps moving by changing label, aperture, pressure-Hodge
+coordinate, order-lock gap, collar, frame, or finite rung, the finite-score
+selector theorem and the selector-stratum BV closure charge it as paid drift,
+reselection, legal loss, or stopped full-exchange action:
+
+\[
+\sum_{e\subset P}
+|\Delta_e^{lab}\log\rho_{\rm sel}|^2\mathcal R(e)
+\le
+C_N
+\sum_{S\subseteq P}
+\bigl(
+\Omega_S^{strain/ex}+D_S^{vis/rad}
+\bigr)
++R_{\rm legal}(P).
+\tag{ODP.127}
+\]
+
+Equivalently, every retained selected transaction satisfies
+
+\[
+\text{finite parent-known stopped-score first exit}
+\quad\text{or}\quad
+\text{paid selector/collar/geometric/order-lock/legal/donor/reselection defect}.
+\tag{ODP.128}
+\]
+
+Therefore `(ODP.119)` is installed in its correct relative form:
+
+\[
+\text{SelectorCarrierNondegeneracyOrPaidReselection.A}
+\quad\text{relative to}\quad
+\text{StoppedFullExchangeActionCarleson.A}
+\tag{ODP.129}
+\]
+
+and it is not a separate Gold producer.  It prevents the selected scalar from
+escaping a vanishing fixed carrier; the remaining size problem is the root
+original-history Carleson bound for the same full-exchange/native reserve.
+
+Combining this audit with `(ODP.120)`, the active route measure line becomes
+
+\[
+(ODP.125)
++\text{StoppedFullExchangeActionCarleson.A}
+\Longrightarrow
+(ODP.111)
+\Longrightarrow
+(ODP.91)
+\Longrightarrow
+FGC.25.
+\tag{ODP.130}
+\]
+
+The physical picture is exact here.  The stopped selector is a meter attached to
+the parent packet.  While it stays attached, a zero carrier gives zero selected
+motion.  If the meter moves, that motion is real packet geometry and is paid.
+The unresolved Gold transit is not a meter trick; it is the persistent
+pressure-memory quotient `(ODP.124)`, where a same-parent affine average still
+has to be forced into return, potential-average cancellation, reset/overrun
+payment, viscosity, or the selected-generator storage.
+
+## 19. Continuation: persistent affine quotient as the pressure-memory transit
+
+The persistent quotient `(ODP.124)` is the same object as the pressure-memory
+survivor isolated in `(ODP.34)`.  On each stopped transit chart,
+
+\[
+\|D_e^{pers}\|^2
+\lesssim
+\|\mathcal P_{avg,J}^{fresh}\|_2^2
++R_e^{return}+R_e^{reset}+R_e^{legal}+Stop_e,
+\tag{ODP.131}
+\]
+
+so the quotient payment `(ODP.125)` follows from the stopped pressure-memory
+entropy inequality `(ODP.74)` together with the reset/return BV charges.
+
+In the notation of Section 14, the desired producer is
+
+\[
+d\mathcal E_P(t)
++c
+\sum_{e\subset P}
+H_{e^-}\|D_e^{pers}(t)\|^2
++(1-\theta)dVisc_{P,N}(t)
+\le
+dPaid_P(t)+C_N(u_0)d\mathcal R_P(t),
+\tag{ODP.132}
+\]
+
+with \(\mathcal E_P\ge-C_N(u_0)\).  Integrating `(ODP.132)` gives `(ODP.125)`.
+Then `(ODP.130)` gives the active route Carleson estimate and the terminal
+\(L^1\) service bound.
+
+The derivation of `(ODP.132)` is exactly the native heat-lag source budget
+already isolated in `(ODP.73)`--`(ODP.81)`.  The parabolic residence factor
+absorbs the pressure-memory part into viscosity, the fixed stopped-score return
+is BV-paid, and the moving-selector part is paid by `(ODP.127)`.  The only
+non-formal estimate left is the original-history Carleson bound for the native
+heat-lag source:
+
+\[
+\sup_{Q\subset P}
+{1\over \mathcal R(Q)}
+\sum_{J\subset Q}
+\int_{I_J}
+{h_J(t)\over \nu\lambda_J^2}
+\|S_J(t)\|_2^2\,dt
+\le
+C_N(u_0)+Paid(Q).
+\tag{ODP.133}
+\]
+
+This is the same theorem previously named
+`SelectedGeneratorStorageCoercivity.A`, `PositiveCriticalTransferBound.A`, and
+the selected weighted root reserve.  It is the actual Gold producer.  The
+compactness/tightness audit above removes selector escape and localizes the bad
+sequence to the persistent affine pressure-memory quotient; it does not by
+itself prove `(ODP.133)` from arbitrary original data.
