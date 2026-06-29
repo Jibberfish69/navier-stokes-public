@@ -16,6 +16,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-derivative-tower-positive-service-l1-proof-attempt-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-tail-good-lambda-l1-proof-reduction-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-gap-finite-difference-l1-reduction-20260629.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-weightless-parent-current-admission-currency-test-20260629.md
 completion_truth: >-
   Isolates the terminal stopping-jet form of the missing L1 theorem.  This note
   does not prove Gold closure.  It corrects the physical reading: the terminal
@@ -36,7 +37,8 @@ completion_truth: >-
   pending.  The missing estimate is terminal-uniform L1 control of the positive
   selected pressure tail by cancellation, viscous/transverse compensation, or
   weighted heat-lag finite-difference no-recount, hence of the coupled stopping
-  jet.
+  jet.  The selected heat-lag bill is weighted, but the supplier must be the
+  weightless original-parent current/service law.
 ---
 
 # Pressure-compatible terminal stopping-jet \(L^1\) candidate
@@ -588,6 +590,40 @@ C_N(u_0)
 \tag{PVD.31f}
 \]
 
+This estimate is not a request for a child-weighted supplier.  It says the
+weighted child bill must enter the original parent current before it is counted.
+The local service-currency form is
+
+\[
+\omega_I|\Delta_IU_I|
+\le
+C[q_I\,dq_I]_+
++C\|P_{F_I}j_P\|_{\mathcal C_P}^2
++dMotion_I
++dReturn_I
++\theta dVisc_I
++dLegal_I
++dStop_I ,
+\tag{PVD.31g}
+\]
+
+where the right side is the weightless same-parent account: Schur current work,
+fresh Bessel novelty, viscous drain, motion, return, legal, and stop.  The
+backward heat detector supplies same-parentness, but weighted adjoint square
+control alone does not prove `(PVD.31f)`.  The half-tail
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1},
+\qquad
+\omega_\ell=2^\ell
+\tag{PVD.31h}
+\]
+
+has \(\sum\omega_\ell\nu_\ell^2<\infty\) and
+\(\sum\omega_\ell\nu_\ell=\infty\), so the missing theorem is exactly the
+conversion from weighted selected finite difference to weightless parent
+current service.
+
 If `(PVD.31f)` is proved, then `(PVD.29)` follows by summing `(PVD.31e)` over
 the unexited transit windows and adding the already paid cancellation,
 residence, legal, stop, return, and endpoint branches.
@@ -646,9 +682,10 @@ Installed repo surfaces prove:
    control.
 
 They do not yet prove `(PVD.11)` together with `(PVD.19)`, `(PVD.22)`,
-`(PVD.23)`, `(PVD.29)`, and the heat-lag no-recount estimate `(PVD.31f)`.
-Proving the positive-service estimate together with the no-retained-stopping
-tail, moving-frame-storage, pressure-tail cancellation/damping, and weighted
+`(PVD.23)`, `(PVD.29)`, and the heat-lag no-recount estimate `(PVD.31f)` via
+the weightless parent-current currency inequality `(PVD.31g)`.  Proving the
+positive-service estimate together with the no-retained-stopping tail,
+moving-frame-storage, pressure-tail cancellation/damping, and weighted
 finite-difference response statements is the concrete form of the Gold \(L^1\)
 theorem.
 

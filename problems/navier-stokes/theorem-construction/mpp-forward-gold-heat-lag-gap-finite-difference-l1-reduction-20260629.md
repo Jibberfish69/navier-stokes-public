@@ -13,6 +13,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-compatible-viscous-descent-l1-candidate-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-tail-good-lambda-l1-proof-reduction-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-installed-support-axioms-half-tail-model-no-go-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-weightless-parent-current-admission-currency-test-20260629.md
 completion_truth: >-
   Formalizes the pressure-lead / velocity-response micro-time gap as a
   heat-scale finite-difference inequality for the centered Navier-Stokes tower
@@ -22,7 +23,10 @@ completion_truth: >-
   a first-ratio finite-difference telescoping theorem would imply the pressure
   tail estimate, the strict transit inequality, and FGC.25.  It does not claim
   Gold closure because the weighted heat-lag telescoping theorem is the
-  remaining noncircular PDE estimate.
+  remaining noncircular PDE estimate.  The weightless-supplier correction
+  sharpens that estimate further: the selected child bill is weighted, but the
+  supplier must be a weightless original-parent current/payment law.  Weighted
+  Bessel square control alone is too weak for the weighted linear service bill.
 ---
 
 # Heat-lag gap finite-difference \(L^1\) reduction
@@ -198,6 +202,51 @@ that pressure lobe.  This is the no-recount statement: the same heat-lag child
 response cannot be counted as fresh positive pressure service at every higher
 ratio level.
 
+The selected weight in `(HLG.12)` is the child bill, not the parent supplier.
+The supplier must remain weightless in the original-parent sense.  The lawful
+form is the parent-current admission/currency inequality
+
+\[
+\omega_I|\Delta_IU_I|
+\le
+C[q_I\,dq_I]_+
++C\|P_{F_I}j_P\|_{\mathcal C_P}^2
++dMotion_I
++dReturn_I
++\theta dVisc_I
++dLegal_I
++dStop_I ,
+\tag{HLG.12a}
+\]
+
+where \(q_I\) is the retained Schur coordinate of the same parent detector,
+\(F_I\) is the parent-subtracted fresh detector space, and all terms on the
+right are original-parent accounts.  The backward heat detector gives
+same-parentness,
+
+\[
+\Delta_IU_I=J_P(\psi_I^P)+Err_I,
+\tag{HLG.12b}
+\]
+
+but `(HLG.12a)` is the noncircular service-currency conversion.  Merely proving
+weighted square/Bessel control of \(\omega_I^{1/2}\psi_I^P\) still allows the
+half-tail
+
+\[
+\sum_\ell \omega_\ell\nu_\ell^2<\infty,
+\qquad
+\sum_\ell \omega_\ell\nu_\ell=\infty,
+\qquad
+\nu_\ell={2^{-\ell}\over \ell+1},
+\quad
+\omega_\ell=2^\ell .
+\tag{HLG.12c}
+\]
+
+Thus `(HLG.12)` is proved only after `(HLG.12a)` is proved, not from adjoint
+Bessel square packing alone.
+
 Equivalently, each unexited same-parent thread satisfies
 
 \[
@@ -283,7 +332,8 @@ This is `(FGC.25)`.
 This note changes the missing object from an abstract pressure-phase storage to
 a concrete heat-lag finite-difference no-recount theorem.  The row inequality
 `(HLG.9)` is an algebraic consequence of the differentiated Navier-Stokes row.
-The Gold proof still requires the noncircular weighted telescoping estimate
+The Gold proof still requires the noncircular weighted selected bill to
+weightless parent-current service theorem `(HLG.12a)`, which then gives
 `(HLG.12)`.
 
 Partial, not Gold closed.

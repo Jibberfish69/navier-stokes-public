@@ -14,6 +14,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-pressure-hessian-partner-graph-normal-form-20260517.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-frequency-flux-residence-transit-dichotomy-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-gap-finite-difference-l1-reduction-20260629.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-weightless-parent-current-admission-currency-test-20260629.md
 completion_truth: >-
   Shows the proof architecture for the oscillatory pressure-parent tail L1
   theorem.  The pressure tail must be controlled by retained Calderon-Zygmund
@@ -22,7 +23,9 @@ completion_truth: >-
   below proves that a strict recurrence, or the equivalent weighted heat-lag
   no-recount theorem, implies terminal-uniform L1 pressure-tail control.  The
   file does not prove Gold closure because the strict recurrence / weighted
-  heat-lag telescoping theorem remains the open mathematical lemma.
+  heat-lag telescoping theorem remains the open mathematical lemma.  The
+  current sharp form of that lemma is a weighted-selected-bill to weightless
+  parent-current service conversion, not a naked weighted square/Bessel bound.
 ---
 
 # Pressure-tail good-lambda \(L^1\) proof reduction
@@ -331,6 +334,47 @@ C_N(u_0)
 \tag{PTG.22}
 \]
 
+The weight in `(PTG.22)` belongs to the selected bill.  The supplier must be the
+weightless original-parent payment law.  The local noncircular form is
+
+\[
+\omega_I|\Delta_IU_I|
+\le
+C[q_I\,dq_I]_+
++C\|P_{F_I}j_P\|_{\mathcal C_P}^2
++dMotion_I
++dReturn_I
++\theta dVisc_I
++dLegal_I
++dStop_I ,
+\tag{PTG.22a}
+\]
+
+with \(q_I\), \(F_I\), and \(j_P\) built in the parent current geometry before
+the child positive readout.  The backward heat identity
+
+\[
+\Delta_IU_I=J_P(\psi_I^P)+Err_I
+\tag{PTG.22b}
+\]
+
+gives the same-parent detector.  It does not by itself pay the weighted linear
+bill.  Weighted Bessel square control alone permits the half-tail profile
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1},
+\qquad
+\omega_\ell=2^\ell,
+\qquad
+\sum_\ell\omega_\ell\nu_\ell^2<\infty,
+\qquad
+\sum_\ell\omega_\ell\nu_\ell=\infty .
+\tag{PTG.22c}
+\]
+
+Thus `(PTG.22)` is equivalent to proving `(PTG.22a)` after same-parent heat
+detector admission, not to proving a weighted adjoint square estimate alone.
+
 In recurrence form this is
 
 \[
@@ -397,8 +441,9 @@ Gold closure reduction after `(PTG.10)` / `(PTG.22)` is proved.
 ## 6. Current proof status
 
 The algebra from `(PTG.10)` to `(PTG.25)` is complete.  The open mathematical
-content is exactly `(PTG.22)`: weighted same-parent heat-lag finite-difference
-telescoping, equivalently the strict same-parent transit inequality below the
-critical half-tail barrier.
+content is exactly `(PTG.22a)`, hence `(PTG.22)`: the weighted selected
+heat-lag bill must be converted into weightless original-parent Schur/Bessel
+current work plus paid errors.  This is the strict same-parent transit
+inequality below the critical half-tail barrier.
 
 Partial, not Gold closed.
