@@ -374,4 +374,128 @@ original coupled pressure-viscosity-incompressibility law.
 The half-tail countermodel `(WLF.2)`--`(WLF.9)` is precisely the warning that
 one cannot replace `(WLF.19)` by Bessel square packing.  Square novelty says the
 fresh directions are orthogonal; it does not by itself bound the weighted
-linear service of infinitely many tiny first entries.
+linear service created when one delayed signed impulse is reread positively at
+too many selected heat-lag windows.
+
+## 7. Push-instruction derivation
+
+The linear service comes from the material row before it becomes an energy
+square.  For a selected heat-lag window \(I\), set
+
+\[
+U_I(t)=\xi_I(t)\cdot P_{\lambda(I)}\partial_t^k v(t).
+\tag{WLF.21}
+\]
+
+The differentiated material equation gives the signed row
+
+\[
+dK_I(t)
+:=
+\Big(
+\mathsf P_{\xi,k,\lambda(I)}
++\mathsf V_{\xi,k,\lambda(I)}
++\mathsf C_{\xi,k,\lambda(I)}
++\mathsf{Paid}_{\xi,k,\lambda(I)}
+\Big)(t)\,dt,
+\tag{WLF.22}
+\]
+
+and therefore
+
+\[
+\Delta_IU_I
+=
+\int_I dK_I .
+\tag{WLF.23}
+\]
+
+This is the exact physical source of the linear bill.  The pressure part of
+\(dK_I\) is the signed push instruction; the velocity-energy square has not yet
+been formed.  The selected child asks for the one-sided size
+
+\[
+S_I
+:=
+\omega_I\left|\int_I dK_I\right|.
+\tag{WLF.24}
+\]
+
+Thus the needed theorem is a no-recount theorem for the signed parent impulse
+variation.  It is enough to construct, on the original packet \(P\), a positive
+phase-space measure \(\mu_P^{push}\) and nonnegative detector densities
+\(\alpha_I\) such that
+
+\[
+\omega_I
+\left|J_P(P_{F_I}\psi_I^P)\right|
+\le
+C[q_I\,dq_I]_+
++\int_P\alpha_I\,d\mu_P^{push}
++\theta\,dVisc_I
++dMotion_I+dReturn_I+dLegal_I+dStop_I ,
+\tag{WLF.25}
+\]
+
+with bounded parent overlap
+
+\[
+\sum_{I\in\mathcal F(P)}\alpha_I(z)\le C_N
+\qquad\text{for \(\mu_P^{push}\)-a.e. }z,
+\tag{WLF.26}
+\]
+
+and finite parent impulse variation
+
+\[
+\mu_P^{push}(P)
+\le
+C_N(u_0)
++C\,\mathsf{Visc}_{P,N}
++C\,\mathsf{Paid}_{P,N}.
+\tag{WLF.27}
+\]
+
+Then the fresh linear service is finite:
+
+\[
+\sum_{I\in\mathcal F(P)}
+\omega_I
+\left|J_P(P_{F_I}\psi_I^P)\right|
+\le
+C\sum_{I\in\mathcal F(P)}[q_I\,dq_I]_+
++C_N(u_0)
++C\,\mathsf{Visc}_{P,N}
++C\,\mathsf{Paid}_{P,N}.
+\tag{WLF.28}
+\]
+
+After the Schur term telescopes, `(WLF.28)` is `(WLF.13)`.
+
+The physical meaning of `(WLF.25)`--`(WLF.27)` is direct.  A selected child is
+allowed to read a pressure push instruction after one heat time.  It is not
+allowed to create a new parent charge by looking again at the same delayed
+instruction through a sharper positive window.  Either the read is already in a
+charged Schur coordinate, or it consumes a bounded amount of the parent impulse
+variation \(\mu_P^{push}\), or it exits through viscosity, motion, return,
+legal, or stop.
+
+The row identity itself proves only
+
+\[
+\int_I[\mathsf P_{\xi,k,\lambda(I)}]_+
+\le
+|\Delta_IU_I|
++\int_I[-\mathsf V_{\xi,k,\lambda(I)}]_+
++\int_I[-\mathsf C_{\xi,k,\lambda(I)}]_+
++\int_I[\mathsf P_{\xi,k,\lambda(I)}]_-
++\int_I\mathsf{Paid}_{\xi,k,\lambda(I)}.
+\tag{WLF.29}
+\]
+
+That is origin and admission, not closure.  The actual physical missing piece
+is `(WLF.26)`--`(WLF.27)`: the signed pressure/heat impulse must have finite
+selected one-sided variation in the original parent packet.  Energy and Bessel
+square packing control square mass.  The Gold closure needs this stronger
+linear variation/overlap control for the same push instruction before the child
+positive readout is counted.
