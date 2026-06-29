@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-pressure-compatible-viscous-descent-l1-candidate-20260629
-status: candidate-l1-mechanism-isolated-proof-open
+status: candidate-l1-mechanism-isolated-with-drain-order-fork-proof-open
 created: 2026-06-29
 problem: navier-stokes
 route: forward-gold pressure-compatible derivative tower / viscous descent
@@ -22,6 +22,11 @@ completion_truth: >-
   parabolic descent that turns those time-rungs into lower velocity/energy
   rungs.  The missing estimate is finite total positive service for that
   pressure-to-viscous descent conversion on one root-fixed carrier packet.
+  The candidate has been sharpened by the drain-order fork: the proof cannot
+  assume the parent pressure-compatible tower is last to disappear.  If the
+  velocity/readable child rung drains first, the positive service may be routed
+  upward into higher derivative rungs; closure then requires that upward tower
+  flux to be viscously paid or to have vanishing terminal high-rung tail.
 ---
 
 # Pressure-compatible viscous-descent \(L^1\) candidate
@@ -42,6 +47,11 @@ The word "parent" has two roles here.  The root material packet \(P\) is the
 carrier parent.  Inside that carrier, the pressure-compatible derivative tower
 is the parent side of the conversion, and the viscous velocity-derivative tower
 is the child/descent side.
+
+This does not assume a one-way drain order at the terminal face.  The final
+motion can drain down toward readable velocity, or it can drain upward away from
+velocity into acceleration, strain, and higher derivative rungs.  The \(L^1\)
+theorem has to cover both.
 
 ## 1. Instantaneous pressure-compatible tower
 
@@ -160,6 +170,53 @@ compatibility pulse already present in the parent pressure/time tower and the
 amount of child heat-time viscous descent still required before that pulse is
 readable as selected energy.
 
+## 3.1. Drain-order fork
+
+There are two terminal drain orders.
+
+Downward drain means the parent compatibility rung descends into child velocity
+and then into readable energy/action before it is dissipated.  This is the
+direct reading of `(PVD.6)`.
+
+Upward drain means the readable velocity rung disappears before the acceleration
+or higher compatibility rungs disappear.  Then the apparent loss of child
+velocity is not automatically unpaid.  It may have been exported upward into
+strain, acceleration, pressure-time, or higher tower service and then paid by
+viscosity at that higher rung.
+
+On a finite tower truncation this upward route appears as a top-boundary flux.
+Thus the more complete finite-depth estimate is
+
+\[
+\sum_{k\le N}\int_0^\tau
+\big[\mathsf{Compat}_k(Y_N)(t)\big]_+\,dt
+\le
+\theta\nu\int_0^\tau
+\sum_{k\le N}\|\nabla_A\partial_t^kv\|_{L^2(P)}^2\,dt
++C_N(u_0)
++\mathcal B_P(0)-\mathcal B_P(\tau)
++R_P^{legal}
++Stop_P
++\mathcal U_N^{top}(\tau),
+\tag{PVD.8}
+\]
+
+where \(\mathcal U_N^{top}\) is the upward drain that exits the chosen finite
+depth.  Gold closure needs the top flux to be paid:
+
+\[
+\lim_{N\to\infty}
+\sup_{\tau<T_*}\mathcal U_N^{top}(\tau)=0,
+\tag{PVD.9}
+\]
+
+or an equivalent estimate saying the top flux is absorbed by high-rung viscous
+service with summable tower weights.
+
+So the theorem is not "pressure parent always drains last."  The theorem is:
+whichever direction the final drain takes, no positive service can escape both
+the child viscous descent and the high-rung upward drain.
+
 ## 4. Why this is the right missing relationship
 
 The previous direct tower proof reached
@@ -172,16 +229,17 @@ C_N
 \|Y_N\|_{\dot H^1(P)}^2
 +dR_P^{legal}
 +dStop_P .
-\tag{PVD.8}
+\tag{PVD.10}
 \]
 
 That estimate sees the correct same-packet service, but it treats the pressure
 compatibility and viscous descent as a single critical product.  The coefficient
 \(\|Y_N\|_{X_{\rm crit}}\) is not controlled by original energy data.
 
-The pressure-compatible viscous-descent theorem would replace `(PVD.8)` by the
-stronger causal payment law `(PVD.6)`: a positive parent compatibility pulse is
-charged by the heat-time needed to descend through the child velocity tower,
+The pressure-compatible viscous-descent theorem would replace `(PVD.10)` by the
+stronger causal payment law `(PVD.6)` / `(PVD.8)`: a positive parent
+compatibility pulse is charged by the heat-time needed to descend through the
+child velocity tower, or by upward high-rung drain that is itself viscously paid,
 plus a bounded storage drop on the original carrier.
 
 This is the missing \(L^1\) relationship suggested by the physical picture:
@@ -189,10 +247,10 @@ This is the missing \(L^1\) relationship suggested by the physical picture:
 \[
 \text{instantaneous pressure-compatible time-rung}
 \quad+\quad
-\text{viscous heat-time descent}
+\text{viscous heat-time descent or paid upward tower drain}
 \quad\Longrightarrow\quad
 \text{finite positive selected service}.
-\tag{PVD.9}
+\tag{PVD.11}
 \]
 
 ## 5. Proof status
@@ -209,7 +267,8 @@ Installed repo surfaces prove:
    material tower, conditionally on stable no-return and same-packet envelope
    control.
 
-They do not yet prove `(PVD.6)`.  Proving `(PVD.6)` is the concrete form of the
-Gold \(L^1\) theorem.
+They do not yet prove `(PVD.6)` together with `(PVD.9)`.  Proving the
+downward-descent estimate plus the no-escape/upward-drain estimate is the
+concrete form of the Gold \(L^1\) theorem.
 
 Partial, not Gold closed.
