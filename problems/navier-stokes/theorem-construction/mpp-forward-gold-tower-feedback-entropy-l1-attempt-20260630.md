@@ -8411,8 +8411,8 @@ the stopped current Carleson bound
 \tag{TFE.556}
 \]
 
-Thus the complete missing package is not one vague word.  It has four precise
-clauses:
+Thus the routed-current package at this layer is not one vague word.  It has
+four precise clauses:
 
 \[
 \begin{gathered}
@@ -9024,3 +9024,1081 @@ first-admission measure and no-recount pushforward.  Without `(TFE.595)`, the
 proof knows where every positive readout comes from, but it has not yet proved
 that the same annular transaction cannot oscillate with finite signed net and
 infinite positive terminal variation.
+
+## 60. Bounded-record cycling is removed; the missing story is one-way upcrossing
+
+The source audit after `(TFE.595)` sharpens the physical picture again.  The
+missing \(L^1\) theorem is not arbitrary pressure chatter on a fixed annulus.
+That branch is already removed by the fixed-annulus bounded-record lemma.  If
+one transported annulus has bounded continuation-depth material record and
+integrable same-packet material service, then its stress-work flux has finite
+variation:
+
+\[
+\operatorname{Var}_I F_\psi
+\le
+C_{\psi,N}(K)
+\left(
+|I|+\int_I\mathcal S_N^{mat}(t)\,dt
+\right).
+\tag{TFE.596}
+\]
+
+Consequently, a bounded-record transported stack cannot hide an independent
+infinite rectified annular action cycle.  Modulo legal residuals, the checked
+bounded-record and ontology reductions give
+
+\[
+\int_0^{T_*}d\Omega_N^{full}=\infty
+\quad\Longrightarrow\quad
+\int_0^{T_*}d[\log(1+\mathcal P_N^{mat})]_+=\infty .
+\tag{TFE.597}
+\]
+
+This is the clean form of the chess/entropy picture: after the pressure-heat-
+viscous packet has fixed the same material history, repeated cycling without
+material-record growth is not a live source of new states.  Infinite \(L^1\)
+can only be the same material record genuinely moving upward through infinitely
+many terminal-normalized states.
+
+That upward growth is not detached.  Differentiating the original material
+pressure-viscosity-incompressibility-velocity system gives the installed local
+accounting arrow
+
+\[
+d[\log(1+\mathcal P_N^{mat})]_+
+\le
+C_N\,d\Omega_N^{PLS}+dR_N^0 .
+\tag{TFE.598}
+\]
+
+So positive material-record growth is PLS participation.  The remaining
+question is whether the total positive PLS action is finite from original data.
+After graph-compatible pressure/collar replacement and recirculation routing,
+the surviving branch is the free-material one-way upcrossing measure
+
+\[
+\operatorname{Up}_N^{free}
+:=
+\int_0^{T_*}
+\sum_j [m_j^{PLS,free}(t)]_+\,dt .
+\tag{TFE.599}
+\]
+
+The exact weighted shell identity explains why this is the \(L^1\) wall:
+
+\[
+{d\over dt}E_w(t)+\nu D_w(t)=m_w^{PLS}(t),
+\tag{TFE.600}
+\]
+
+hence
+
+\[
+d(-E_w)+[m_w^{PLS}]_+\,dt
+=
+\nu D_w\,dt+[-m_w^{PLS}]_+\,dt .
+\tag{TFE.601}
+\]
+
+Signed same-material exchange pays net motion.  It does not bound the positive
+part until the negative/return side, or an equivalent reserve, is controlled.
+The recirculation notes pay the oscillatory return branch by bounded-record
+packing, high-shell viscosity, top-strain/frame service, annular/interface
+service, or legal residual.  What remains is not back-and-forth refund.  It is
+one-way upward access to higher ratio states:
+
+\[
+\operatorname{Up}_N^{free}
+\le
+C_N(u_0)
++\mathsf{Visc}_{N}
++\Omega_N^{top/strain}
++\Omega_N^{annular}
++R_N^{legal}
+\tag{TFE.602}
+\]
+
+with the right side independent of the target full clock.  This is
+`FreeMaterialNoFreeUpcrossing.A`.
+
+The complete-frame orientation law is real but still too weak.  For a retained
+divergence-free primitive packet with velocity polarization \(p\), wave
+covector \(\widehat\xi\), and packet-normal direction \(n\),
+
+\[
+p\cdot Sp+\widehat\xi\cdot S\widehat\xi+n\cdot Sn=0
+\tag{TFE.603}
+\]
+
+and therefore
+
+\[
+[p\cdot Sp]_+
+\le
+[-\widehat\xi\cdot S\widehat\xi]_+
++[-n\cdot Sn]_+ .
+\tag{TFE.604}
+\]
+
+This proves every selected positive primitive pump has a same-packet compression
+partner.  It does not prove the global weighted ancestry reserve.  The
+half-tail countertest is still the exact exponent defect:
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1},
+\qquad
+\sum_{\ell\ge0}\nu_\ell<\infty,
+\qquad
+\sum_{\ell\ge0}2^\ell\nu_\ell=\infty .
+\tag{TFE.605}
+\]
+
+Thus the physical theorem still missing is not ownership, attachment,
+fixed-annulus variation, pressure-time cancellation, or recirculation.  It is a
+global weighted state-deletion law: once a material ancestry line has already
+spent the return, compression, collar, turnstile, viscosity, annular, legal, and
+stop accounts, the same original packet cannot keep opening higher-ratio
+one-way selected states with only the raw \(\sum\nu_\ell\) reserve visible.
+
+A theorem-grade version can be stated as a strict good-lambda gain
+
+\[
+N_{L+1}\le \theta N_L+B_L,
+\qquad
+\theta<{1\over2},
+\qquad
+\sum_{L\ge0}2^LB_L<\infty,
+\tag{TFE.606}
+\]
+
+or equivalently as a forward native reserve / bounded-below Lyapunov law
+
+\[
+d\mathfrak R_N^{nat}
++d\mathfrak L_N
++c\,d\Omega_N^{full}
+\le
+dR_N,
+\qquad
+\mathfrak R_N^{nat}\ge0,
+\qquad
+\mathfrak L_N\ge-C_N(u_0),
+\qquad
+\int_0^{T_*}dR_N<\infty .
+\tag{TFE.607}
+\]
+
+This is the actual missing physical story needed to close \(L^1\): the
+pressure-viscosity-incompressibility packet gives the allowed state moves, and
+the already-installed routing pays returns and fake recounts; Gold still needs
+the weighted reserve proving that genuinely one-way upward state access has a
+finite original-history budget.
+
+The downstream closure chain is now:
+
+\[
+\text{`(TFE.606)' or `(TFE.607)'}
+\Longrightarrow
+\int_0^{T_*}d\Omega_N^{PLS}<\infty
+\Longrightarrow
+\int_0^{T_*}d[\log(1+\mathcal P_N^{mat})]_+<\infty
+\Longrightarrow
+\text{`(TFE.595)'}
+\Longrightarrow
+\text{terminal-uniform }L^1 .
+\tag{TFE.608}
+\]
+
+The fixed-\(H^s\) readout bridge is downstream and already conditional: finite
+positive material-record variation bounds the continuation-depth material
+record, hence the fixed-coordinate \(H^s\) norm for any chosen \(s>5/2\), and
+classical local theory relaunches the same solution.  The only unproved Gold
+input in this chain is the forward weighted no-free-upcrossing/native-reserve
+theorem `(TFE.606)'--`(TFE.607)` from the original coupled packet.
+
+## 61. The missing physical story is inherited-state return versus fresh critical reset
+
+The source audit under `(TFE.606)`--`(TFE.607)` removes one more layer of
+ambiguity.  The live half-tail is not a packet that keeps reusing the same
+pressure pulse after first admission.  It is the following sharper possibility:
+after all paid return, motion, viscosity, collar, turnstile, annular, legal, and
+stop accounts are removed, a material ancestry could keep presenting genuinely
+fresh smaller-scale selected children whose raw square sizes are summable while
+their selected first-ratio weights are not.
+
+In symbols, ordinary spent-source projection gives only
+
+\[
+\sum_{Q\subset P}\|F_Q\|_{\mathcal H_{raw}}^2
+\le
+C_N\|Z_P^{orig}\|_{\mathcal H_{raw}}^2+R_{legal}(P),
+\tag{TFE.609}
+\]
+
+where
+
+\[
+F_Q=(I-\Pi_{spent(<Q)})\Delta_Q Z_P^{orig}.
+\tag{TFE.610}
+\]
+
+The Gold line needs the selected-critical tent bound
+
+\[
+\sum_{Q\subset P}w(Q)\|F_Q\|_{\mathcal H_{raw}}^2
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P).
+\tag{TFE.611}
+\]
+
+The half-tail
+
+\[
+\|F_\ell\|_{\mathcal H_{raw}}^2={2^{-\ell}\over \ell+1}
+\tag{TFE.612}
+\]
+
+passes `(TFE.609)` and fails `(TFE.611)`.  This is the exact mathematical form
+of the physical problem: finite original square/current history does not by
+itself count how many selected heat-scale states the same packet can open unless
+the critical weight \(w(Q)\) is generated before the child clips the positive
+readout.
+
+The Cauchy scale-memory reduction says where that missing weight must come
+from.  If each fresh child is a parent-known endpoint difference over a
+log-scale witness interval \(I_Q\),
+
+\[
+F_Q=|I_Q|^{-1}\int_{I_Q}G_Q(\sigma,t)\,d\sigma+Err_Q^{legal},
+\tag{TFE.613}
+\]
+
+and
+
+\[
+W_Q(t)={|I_Q|^2\over \int_{I_Q}a(\sigma,t)^{-1}\,d\sigma},
+\tag{TFE.614}
+\]
+
+then weighted Cauchy gives
+
+\[
+W_Q\|F_Q\|^2
+\le
+C\int_{I_Q}a\|G_Q\|^2\,d\sigma+CR_Q^{legal}.
+\tag{TFE.615}
+\]
+
+The representation `(TFE.613)` is closed only under parent-known stopped
+absolute continuity, and the sparse overlap of the \(I_Q\) is closed only for
+maximal parent-known witnesses.  With those clauses, `(TFE.611)` reduces exactly
+to the original generator-energy estimate
+
+\[
+\int_{\operatorname{Hist}(P)}a(\sigma,t)\|G(\sigma,t)\|^2\,d\sigma dt
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P).
+\tag{TFE.616}
+\]
+
+This is the first missing theorem-grade producer:
+`OriginalScaleMemoryGeneratorEnergyBound.A`.  The natural source energy
+\(\langle w,L_Aw\rangle\) gives only a signed balance law; it does not give
+coercivity of \(a\|G\|^2\).  Thus `(TFE.616)` needs a parent-known storage or
+testing family satisfying
+
+\[
+a\|G_{sel}\|^2
+\le
+-D M_P+\Theta_{orig}^{vis/ex/sil}+R_{legal}+Stop,
+\qquad
+M_P\ge0,
+\qquad
+\sup M_P\le C_N(u_0)\mathcal R(P)+R_{legal}+Stop.
+\tag{TFE.617}
+\]
+
+Equivalently, the original coupled packet must supply
+`SelectedGeneratorStorageCoercivity.A / PositiveCriticalTransferBound.A`.  This
+is the real mathematical demand behind the physical sentence "the same packet
+cannot keep opening new states for free."
+
+The lower-triangular scale-memory split narrows `(TFE.617)` further.  The
+derivative-exact part of the generator is a consumer: it is paid by scale
+integration by parts, endpoint/legal terms, stopped derivative motion,
+turnstile, covector, and exchange channels.  The survivor is the affine
+scale quotient
+
+\[
+AQ(P):=
+\int_0^{T_*}H_w(t)\|c_F^{fresh}(t)\|_{L_x^2}^2\,dt,
+\tag{TFE.618}
+\]
+
+where \(c_F^{fresh}\) is the affine moment left by the one-sided scale primitive.
+The exact remaining transition theorem is
+
+\[
+AQ(P)
+\le
+C\int_{\mathcal F_{rep}(P)}
+\left(
+\operatorname{Rec}_\infty(\Psi_{\mathcal A})
++V_-^{return}(\Psi_{\mathcal A})
+\right)d\mathcal R_{ancestry}(\mathcal A)
++
+C\sum_{Q\subset P}\sum_{Q'\in ch_{stop}(Q)}J_{crit}(Q\to Q')
++R_{legal}(P).
+\tag{TFE.619}
+\]
+
+This is `AffineQuotientTransitionPayment.A`.  It is the physical parent-child
+split in exact variables:
+
+* no fresh parent-child reset means the child inherited the selected parent
+  state, so the positive readout is paid by a signed lift plus record and
+  negative return;
+* genuine fresh reset means the child changed state, so it must pay a
+  selected-critical reset charge generated by original log-scale derivative,
+  collar/turnstile, exchange, and covector motion.
+
+The inherited-state branch still needs a signed-channel lift.  The earlier
+one-channel name `PrimitivePLSDriverToSignedCommutatorIdentity.A` is stale after
+the source repair: the primitive PLS driver is a finite same-packet signed
+channel decomposition, not a single low-high commutator.  The corrected local
+form is
+
+\[
+d\Omega_S^{PLS,primitive,+}
+=
+[Y_{\kappa,S}]_+\,d\sigma dt+dR_{\kappa,S}^{paid},
+\tag{TFE.620}
+\]
+
+with
+
+\[
+Y_{\kappa,S}
+=
+\partial_\sigma\Psi_{\kappa,S}
++S_{\kappa,S}^{spill}
++E_{\kappa,S},
+\qquad
+\kappa\in\mathcal K_N,
+\tag{TFE.621}
+\]
+
+and then an oriented negative-return payment
+
+\[
+\int_0^{T_*}
+H_w(t)\|\mathcal C_\theta[Y_-](t)\|_{L_x^2}^2\,dt
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P).
+\tag{TFE.622}
+\]
+
+These are `PrimitivePLSSignedChannelDecomposition.A` and
+`StoppedNegativeReturnOrientedPayment.A`.  The scalar BV identity alone is not
+enough because the retained selected return must be admitted into the same
+original-history currency before clipping.
+
+The fresh-reset branch still needs the critical reset Carleson estimate
+
+\[
+\sum_{Q\subseteq P}\sum_{Q'\in ch_{stop}(Q)}
+J_{crit}(Q\to Q')
+\le
+C_N(u_0)+R_{legal}(P),
+\tag{TFE.623}
+\]
+
+with
+
+\[
+J_{crit}(Q\to Q')
+\simeq
+w(Q')\|\Delta Z_{Q\to Q'}^{fresh}\|_{\mathcal H_{raw}}^2
++J_{select/lock}^{crit}
++J_{collar/turn}^{crit}
++R_{legal}(Q).
+\tag{TFE.624}
+\]
+
+Its noncircular source is the log-scale reset derivative carrier bound
+
+\[
+\sum_{Q\subseteq P}\sum_{Q'\in ch_{stop}(Q)}
+w(Q')\|\Delta Z_{Q\to Q'}^{fresh}\|_{\mathcal H_{raw}}^2
+\le
+C\int_{\mathcal C(P)}
+\left(
+|\partial_\sigma Z|^2
++|\mathrm{turnstile}_\sigma|^2
++|\mathrm{exchange}_\sigma|^2
+\right)d\sigma dt
++R_{legal}(P).
+\tag{TFE.625}
+\]
+
+So the branch-payment package under the affine quotient payment is:
+
+\[
+\begin{aligned}
+&\text{`PrimitivePLSSignedChannelDecomposition.A'}\\
+&\quad+\text{`StoppedNegativeReturnOrientedPayment.A'}\\
+&\quad+\text{`CriticalWeightedParentChildResetCarleson.A'}\\
+&\quad+\text{`LogScaleResetDerivativeCarrierBound.A'}\\
+&\Longrightarrow
+\text{`AffineQuotientTransitionPayment.A'}\\
+&\Longrightarrow
+\text{`OriginalScaleMemoryGeneratorEnergyBound.A'}\\
+&\Longrightarrow
+\text{`CriticalFreshSourceTentCarleson.A'}\\
+&\Longrightarrow
+\text{`(TFE.606)' / `(TFE.607)'}\\
+&\Longrightarrow
+\text{terminal-uniform }L^1 .
+\end{aligned}
+\tag{TFE.626}
+\]
+
+At this branch-payment layer, this says the pressure feedback may re-coordinate the remaining
+packet state, self-advection may move that state through the material ancestry,
+and viscosity may delete future heat-lag possibilities, but every selected
+positive child readout is forced into one of two same-parent cases.  It either
+inherits the parent state and is a record/return event, or it changes state and
+must leave a critical weighted reset trace in the original coupled
+pressure-viscosity-incompressibility-velocity history.  The repo has not yet
+proved the four branch inputs in `(TFE.626)`, and the next section audits the
+additional square-packing geometry that must precede their use.
+
+## 62. Square-packing comes before the branch currencies
+
+The source surfaces sharpen `(TFE.626)` once more.  The branch-payment list is
+not yet the first theorem.  Before inherited-state return and fresh-reset
+charges can pay the affine quotient, the affine transition expansion has to be
+squared legally inside a parent-predictable lifted Hilbert geometry.
+
+The linear localization has the form
+
+\[
+\mathcal C_\theta[\widetilde Z_P^{fresh}]
+=
+\sum_{e\in\mathscr E(P)}
+\mathcal C_\theta[Z_e]
++R_{legal}(P),
+\qquad
+\mathscr E(P)=\mathscr E_{rep}(P)\cup\mathscr E_{reset}(P).
+\tag{TFE.627}
+\]
+
+The \(L^1\) route needs the square of this sum:
+
+\[
+\int H_w(t)
+\left\|
+\sum_{e\in\mathscr E(P)}\mathcal C_\theta[Z_e](t)
+\right\|_{L_x^2}^2dt .
+\tag{TFE.628}
+\]
+
+Laminarity, bounded overlap, and same-parent origin do not prove `(TFE.628)`.
+On one laminar chain, collinear pieces
+
+\[
+f_k=M^{-1/2}g,\qquad 1\le k\le M,
+\tag{TFE.629}
+\]
+
+satisfy
+
+\[
+\sum_{k=1}^M\|f_k\|_2^2=\|g\|_2^2,
+\qquad
+\left\|\sum_{k=1}^Mf_k\right\|_2^2=M\|g\|_2^2 .
+\tag{TFE.630}
+\]
+
+Thus the missing structure is not another payment label.  The packet must be
+split before positive selected readout into a predictable inherited component
+and an orthogonal innovation:
+
+\[
+\mathcal C_\theta[Z_e]
+=
+B_e+D_e+R_e,
+\tag{TFE.631}
+\]
+
+where
+
+\[
+B_e=\Pi_{\mathcal P_{e^-}}\mathcal C_\theta[Z_e],
+\qquad
+D_e=(I-\Pi_{\mathcal P_{e^-}})\mathcal C_\theta[Z_e],
+\tag{TFE.632}
+\]
+
+in a lifted visible/silent/exchange Hilbert space with parent-predictable active
+weight \(H_{e^-}\).  The innovation theorem is
+
+\[
+D_e\perp\mathcal P_{e^-}
+\quad\text{in}\quad
+L^2(H_{e^-}dt\,dx;\mathcal H_{lift}),
+\tag{TFE.633}
+\]
+
+with legal residual square-packing
+
+\[
+\sum_e\int H_{e^-}(t)\|R_e(t)\|_{L_x^2}^2dt
+\le
+R_{legal}(P).
+\tag{TFE.634}
+\]
+
+If `(TFE.631)`--`(TFE.634)` are produced from original stopped history, the
+Bessel consumer gives
+
+\[
+\int
+\left\|
+\sum_e D_e
+\right\|_{H_{e^-}}^2
+\lesssim
+\sum_e\int H_{e^-}(t)\|D_e(t)\|_{L_x^2}^2dt
++R_{legal}(P).
+\tag{TFE.635}
+\]
+
+This is the actual upstream square-packing input:
+
+\[
+\text{`PredictableWeightedStoppedAffineTransitionMartingale.A'}
+=
+\left\{
+\begin{array}{l}
+\text{`PredictableActiveWeightTransitionCarleson.A'},\\
+\text{`StoppedAffineTransitionLiftedMartingaleDifference.A'},\\
+\text{`StoppedLiftedTransitionBesselCarleson.A'}.
+\end{array}
+\right.
+\tag{TFE.636}
+\]
+
+The failed predictable-root closure attempt already shows the danger: declaring
+the parent root weight \(H_P\), parent affine spans, and selected-critical reset
+currency is circular.  They must be generated from original same-material
+history before terminal positive readout.  In physical terms, the proof must
+construct the packet's own measuring geometry before the child is allowed to
+present a positive bill.
+
+After `(TFE.636)`, the branch currencies regain their correct roles.  The
+predictable inherited part goes to
+
+\[
+\text{`InheritedAQRepToPrimitivePLSRecordReturn.A'}
+\Leftarrow
+\text{`PrimitivePLSSignedChannelDecomposition.A'}
++
+\text{`StoppedNegativeReturnOrientedPayment.A'},
+\tag{TFE.637}
+\]
+
+and the innovation/reset part goes to
+
+\[
+\text{`ResetLocalAffineBandToCriticalJumpCarrier.A'}
+\Leftarrow
+\text{`LogScaleResetDerivativeCarrierBound.A'}
++
+\text{`CriticalWeightedParentChildResetCarleson.A'}.
+\tag{TFE.638}
+\]
+
+The reset analytic Cauchy step itself is conditionally closed: if each strict
+reset edge is a parent-announced endpoint difference
+
+\[
+D_e
+=
+|I_e|^{-1}\int_{I_e}
+\left(
+\partial_\sigma Z
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
+\right)d\sigma
++Err_e^{legal},
+\tag{TFE.639}
+\]
+
+and the reset witness intervals/tubes have bounded stopped overlap, then the
+harmonic active weight cancels by Cauchy:
+
+\[
+H_{I_e}(t)\|D_e(t)\|^2
+\le
+\int_{I_e}w(\sigma,t)\|\mathcal G_e(\sigma,t)\|^2\,d\sigma
++R_e^{legal}(t).
+\tag{TFE.640}
+\]
+
+So the reset side's remaining producer is geometric/dynamical:
+
+\[
+\text{`StoppedSelectorTransitionAbsoluteContinuity.A'}
++
+\text{`AnnounceableResetStoppingTime.A'}
++
+\text{`ResetWitnessIntervalBoundedOverlap.A'}.
+\tag{TFE.641}
+\]
+
+The corrected dependency chain is therefore
+
+\[
+\begin{aligned}
+&\text{`PredictableWeightedStoppedAffineTransitionMartingale.A'}\\
+&\quad+\text{`InheritedAQRepToPrimitivePLSRecordReturn.A'}\\
+&\quad+\text{`ResetLocalAffineBandToCriticalJumpCarrier.A'}\\
+&\Longrightarrow
+\text{`AffineQuotientTransitionLocalization.A'}\\
+&\Longrightarrow
+\text{`AffineQuotientTransitionPayment.A'}\\
+&\Longrightarrow
+\text{`OriginalScaleMemoryGeneratorEnergyBound.A'}\\
+&\Longrightarrow
+\text{`CriticalFreshSourceTentCarleson.A'}\\
+&\Longrightarrow
+\text{terminal-uniform }L^1 .
+\end{aligned}
+\tag{TFE.642}
+\]
+
+This is the deeper missing physical story.  The pressure-heat-viscous packet is
+not merely deciding whether a child is inherited or fresh; it must first make
+the whole transition stack into a lawful parent-known martingale object.  Only
+then can inherited pieces be record/return and fresh pieces be reset.  Without
+that square-packing geometry, the same original packet may be linearly localized
+while its selected affine pieces still add coherently like `(TFE.630)`.
+
+## 63. The martingale square-packing is a consumer of root geometry, not the producer
+
+The next source audit prevents one more false closure.  The predictable
+martingale theorem in `(TFE.636)` is the correct square-packing language, but it
+is noncircular only after the original packet has already produced the parent
+root geometry.  Declaring the root weight \(H_P\), parent affine spans, or
+selected-critical reset currency imports the object the proof is trying to
+construct.
+
+The root geometry package is
+
+\[
+dA_P^{root}=dA_P^{wt}+dA_P^{conn}.
+\tag{TFE.643}
+\]
+
+Here \(dA_P^{wt}\) records admitted active-weight upcrossings, and
+\(dA_P^{conn}\) records the cost of comparing children in one parent-fixed
+frame: transported frame, covector, selector, collar, endpoint chart,
+turnstile, exchange, and legal drift.
+
+The producer estimate is
+
+\[
+\int_{\operatorname{Hist}(P')}dA_{P'}^{root}
++
+\sum_{e\subset P'}
+\int H_{e^-}(t)
+\|D_e^{vis}+D_e^{sil}+D_e^{ex}\|_{\mathcal H_{lift}}^2\,dt
+\le
+C_N(u_0)\mathcal R(P')
++R_{legal}(P')
++Stop(P').
+\tag{TFE.644}
+\]
+
+This is `StoppedPredictableRootGeometryCompensator.A`, equivalently
+
+\[
+\text{`StoppedPredictableActiveWeightCompensator.A'}
++
+\text{`ParentFixedConnectionAngleDriftCompensator.A'}.
+\tag{TFE.645}
+\]
+
+Once `(TFE.644)` is available, the martingale split is algebraic.  The common
+root Hilbert space is
+
+\[
+\mathfrak H_P
+=
+L^2(H_P^\ast\,dt\,dx;\mathcal H_{lift}),
+\qquad
+\mathcal H_{lift}
+=
+\mathcal H_{vis}\oplus\mathcal H_{sil}\oplus\mathcal H_{ex},
+\tag{TFE.646}
+\]
+
+and each transition piece is transported into this parent geometry:
+
+\[
+\widetilde Z_e=\mathsf U^P_{e\to P}\mathcal C_\theta[Z_e].
+\tag{TFE.647}
+\]
+
+Then projection gives
+
+\[
+\widetilde Z_e=B_e+D_e+R_e,
+\qquad
+B_e=\Pi_{\mathcal P_{e^-}}\widetilde Z_e,
+\qquad
+D_e=(I-\Pi_{\mathcal P_{e^-}})\widetilde Z_e,
+\tag{TFE.648}
+\]
+
+with
+
+\[
+D_e\perp \mathcal P_{e^-}.
+\tag{TFE.649}
+\]
+
+The Bessel step becomes a consumer:
+
+\[
+\left\|\sum_eD_e\right\|_{\mathfrak H_P}^2
+\le
+C\sum_e\|D_e\|_{\mathfrak H_P}^2
++R_{legal}(P)
++C\int dA_P^{conn}.
+\tag{TFE.650}
+\]
+
+The connection term is exactly why parent-fixed geometry is not free.  Child
+geometries can be individually orthogonal while their transported representatives
+in the parent frame rotate; \(dA_P^{conn}\) is the price of making those
+comparisons lawful.
+
+In active-weight language, the same producer is the stopped compensator.  Let
+\(H_P^\ast\) be the least stopped parent-predictable majorant of all admitted
+child harmonic weights:
+
+\[
+H_I\le H_P^\ast
+\quad\text{on retained announced edges}.
+\tag{TFE.651}
+\]
+
+Write its stopped Doob--Meyer/Bellman form as
+
+\[
+H_P^\ast=H_{P,0}+M_P^{wt}+A_P^{wt}.
+\tag{TFE.652}
+\]
+
+Predictability alone is not enough.  The theorem has to pay the increasing
+compensator:
+
+\[
+{1\over\mathcal R(P')}
+\left[
+\int_{\operatorname{Hist}(P')}dA_{P'}^{wt}
++
+\sum_{e\subset P'}
+\int H_{e^-}(t)
+\|D_e^{vis}+D_e^{sil}+D_e^{ex}\|_{\mathcal H_{lift}}^2\,dt
+\right]
+\le
+C_N(u_0)
++
+{R_{legal}(P')+Stop(P')\over\mathcal R(P')}.
+\tag{TFE.653}
+\]
+
+Without `(TFE.653)`, the half-tail survives with predictable weights:
+
+\[
+\sum_\ell\|D_\ell\|^2<\infty,
+\qquad
+\sum_\ell H_\ell\|D_\ell\|^2=\infty .
+\tag{TFE.654}
+\]
+
+The connection side has its own failure profile:
+
+\[
+\sum_e\|D_e\|^2<\infty,
+\qquad
+\sum_{e<f}
+|\langle\widetilde D_e,\widetilde D_f\rangle_{\mathfrak H_P}|=\infty .
+\tag{TFE.655}
+\]
+
+Thus the current nonduplicate producer is no longer the affine martingale
+consumer.  It is the original-history root geometry/storage law:
+
+\[
+\begin{aligned}
+&\text{`StoppedPredictableRootGeometryCompensator.A'}\\
+&\quad\text{or equivalently}\\
+&\text{`BoundedBelowSameMaterialServiceStorage.A'}
+/\text{`PositiveCriticalTransferBound.A'}\\
+&\Longrightarrow
+\text{`PredictableWeightedStoppedAffineTransitionMartingale.A'}\\
+&\Longrightarrow
+\text{`AffineQuotientTransitionPayment.A'}\\
+&\Longrightarrow
+\text{terminal-uniform }L^1 .
+\end{aligned}
+\tag{TFE.656}
+\]
+
+Physically, the missing object is the packet's own paid measuring frame.  The
+same coupled pressure-viscosity-incompressibility-velocity history must pay two
+things before any child can count positive action: the active scale weight that
+makes a small heat-lag child readable, and the connection motion that lets all
+children be compared in one parent frame.  If those are not paid from original
+history, the proof can own every child, route every child, and still fail
+\(L^1\) because the selected pieces can be legally owned but not square-packed
+in a common parent geometry.
+
+## 64. Root-defect tightness is the physical missing theorem
+
+The physical story now has a precise boundary.
+
+The parent is the stopped original material packet together with its coupled
+pressure-viscosity-incompressibility-velocity history, its active scale weight,
+and its transported comparison frame.  The child is a heat-lag/scale readout
+made inside that stopped parent geometry.  The feedback loop is not an external
+source: pressure re-coordinates the compatible velocity/strain state, viscosity
+deletes heat-scale futures, and self-advection moves the frame and packet
+geometry.  All three motions enter the same parent generator before any child
+positive part is clipped.
+
+In the root-geometry notation, that generator is
+
+\[
+\mathcal G_P^{root}
+=
+\Pi_{\rm new}^P
+\left(
+\partial_\sigma Z
++[D_t,\mathcal L_A]w
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
++\operatorname{frame}_\sigma
++\operatorname{collar/endpoint}_\sigma
+\right).
+\tag{TFE.657}
+\]
+
+The corresponding original-history ledger is
+
+\[
+d\Lambda_P^{root}
+=
+H_P^\ast\|\mathcal G_P^{root}\|^2\,d\sigma dt
++dA_P^{sel/chart}
++dR_{legal,P}
++dStop_P .
+\tag{TFE.658}
+\]
+
+So the root compensator proof is exactly the statement that the parent packet
+has enough paid geometry to compare its children:
+
+\[
+\int_{\operatorname{Hist}(P')}dA_{P'}^{root}
++
+\sum_{e\subset P'}
+\int H_{e^-}
+\|D_e^{vis}+D_e^{sil}+D_e^{ex}\|_{\mathcal H_{lift}}^2
+\le
+C_N(u_0)\mathcal R(P')+R_{legal}(P')+Stop(P').
+\tag{TFE.659}
+\]
+
+The direct source notes show why this is not yet proved.  The persistent
+affine/root quotient satisfies the formal identity
+
+\[
+D_e=(I-\Pi_{\mathcal P_{e^-}})\mathcal C_\theta[Z_e],
+\tag{TFE.660}
+\]
+
+but this does not give the derivative-average representation
+
+\[
+D_e
+=
+(I-\Pi_{\mathcal P_{e^-}})
+\int_{I_e}\mathcal G_P^{root}\,d\sigma
++R_e^{legal}.
+\tag{TFE.661}
+\]
+
+Asking for `(TFE.661)` directly assumes the selected-critical root bound already
+being proved.  This is the circular point.
+
+The noncircular route is a bad-profile compactness theorem.  Assume `(TFE.659)`
+fails and normalize a stopped family so that
+
+\[
+\mu_n^{root}(\mathcal E_n)
+:=
+\int dA_{P_n}^{root}
++
+\sum_{e\in\mathcal E_n}
+\int H_{e^-}\|D_e\|_{\mathcal H_{lift}}^2
+=1,
+\tag{TFE.662}
+\]
+
+while
+
+\[
+\int_{\operatorname{Hist}(P_n)}d\Lambda_{P_n}^{root}
++R_{legal}(P_n)+Stop(P_n)\to0 .
+\tag{TFE.663}
+\]
+
+There are exactly three ways for this unit selected root-defect to try to hide.
+It can hide in active weight:
+
+\[
+H_{e_\ell^-}\simeq 2^\ell,
+\qquad
+\|D_{e_\ell}\|^2\simeq {2^{-\ell}\over \ell+1},
+\tag{TFE.664}
+\]
+
+so raw square mass is finite but selected weighted mass diverges.  It can hide
+in connection angle drift:
+
+\[
+\sum_e\|D_e\|^2<\infty,
+\qquad
+\sum_{e<f}|\langle\widetilde D_e,\widetilde D_f\rangle|=\infty .
+\tag{TFE.665}
+\]
+
+Or it can hide as material-silent transport:
+
+\[
+A_{\rm sel}(f_e^{sil})>0,
+\qquad
+[D_t,\mathcal L_A]w_e=0,
+\qquad
+dA_e^{conn}=0 .
+\tag{TFE.666}
+\]
+
+The missing theorem is therefore
+
+\[
+\begin{aligned}
+\text{`RootDefectTightnessFromOriginalHistory.A'}
+&=
+\text{`SameCarrierRootDefectExtraction.A'}\\
+&\quad+
+\text{`ActiveWeightBlowupProjectionCompactness.A'}\\
+&\quad+
+\text{`ParentFixedConnectionTightness.A'} .
+\end{aligned}
+\tag{TFE.667}
+\]
+
+Its needed statement is
+
+\[
+\begin{gathered}
+\mu_n^{root}(\mathcal E_n)=1,\qquad
+\int d\Lambda_{P_n}^{root}+R_{legal}+Stop\to0
+\\
+\Longrightarrow
+\text{after a stopped subchain and root rescaling, }
+H_{e_n^-}^{1/2}D_{e_n}
+\rightharpoonup D_\infty\ne0
+\text{ in one same-carrier parent Hilbert space,}
+\\
+\text{unless the lost mass is charged by }
+dA^{wt}+dA^{conn}+d\Lambda^{root}+R_{legal}+Stop .
+\end{gathered}
+\tag{TFE.668}
+\]
+
+Once `(TFE.668)` is available, the contradiction is already installed by the
+zero-cost rigidity logic.  The vanishing original-history ledger gives
+
+\[
+\partial_\sigma Z_\infty=0,\quad
+[D_t,\mathcal L_A]w_\infty=0,\quad
+\operatorname{turnstile}_\infty=0,\quad
+\operatorname{exchange}_\infty=0,\quad
+\operatorname{covector}_\infty=0,\quad
+dA_\infty^{conn}=0,\quad
+dA_\infty^{wt}=0.
+\tag{TFE.669}
+\]
+
+Thus the survivor is inherited parent-predictable transport.  The fresh root
+defect was parent-subtracted:
+
+\[
+D_\infty=(I-\Pi_{\mathcal P_-})Z_\infty .
+\tag{TFE.670}
+\]
+
+Inherited parent transport lies in \(\mathcal P_-\), so
+
+\[
+D_\infty=0,
+\tag{TFE.671}
+\]
+
+contradicting the nonzero limit in `(TFE.668)`.
+
+This is the exact mathematical form of the physical entropy picture.  The
+fluid cannot gain more accessible future packet states from the
+pressure-heat-viscous feedback loop once the parent geometry is fixed and paid:
+pressure can re-coordinate the remaining state, viscosity can delete
+heat-scale futures, and advection can move the frame, but a child can count a
+positive \(L^1\) readout only through one of those paid parent motions.  A unit
+of positive selected action with vanishing parent motion would be a fresh
+state-change that comes from nowhere; `(TFE.668)` is the theorem that would
+force it to appear as a same-carrier zero-cost limit, and `(TFE.669)`--`(TFE.671)`
+then kill it.
+
+The current audited closure chain is therefore
+
+\[
+\begin{aligned}
+&\text{`RootDefectTightnessFromOriginalHistory.A'}\\
+&\Longrightarrow
+\text{`StoppedPredictableRootGeometryCompensator.A'}\\
+&\Longrightarrow
+\text{`PredictableWeightedStoppedAffineTransitionMartingale.A'}\\
+&\Longrightarrow
+\text{`AffineQuotientTransitionPayment.A'}\\
+&\Longrightarrow
+\text{parent-weighted first admission and no-recount pushforward}\\
+&\Longrightarrow
+\text{terminal-uniform }L^1 .
+\end{aligned}
+\tag{TFE.672}
+\]
+
+So everything still missing to close the \(L^1\) problem is concentrated in
+the root-defect tightness package `(TFE.667)`--`(TFE.668)`: extract the unit
+selected defect in one stopped same-parent geometry, prevent active-weight tube
+escape, prevent connection-angle loss, and prevent silent material transport
+from staying fresh after parent subtraction.  The downstream algebra is already
+a consumer of that physical theorem.
