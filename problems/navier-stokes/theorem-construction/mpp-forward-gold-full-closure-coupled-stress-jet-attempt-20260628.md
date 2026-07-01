@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-full-closure-coupled-stress-jet-attempt-20260628
-status: full-gold-closure-attempt-l1-source-supplied-pending-downstream-gold-consumption
+status: full-gold-closure-chain-installed-from-coupled-l1-source
 logical_landing_node: full_gold_coupled_stress_jet_closure
 completion_truth: >-
   Complete MPP-facing closure attempt with the former terminal-uniform L1
@@ -8,11 +8,11 @@ completion_truth: >-
   mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md, Sections
   238-242. The producer, same-parent admission before squaring, fresh
   square-packing rule, full-output high-high carrier choice, terminal no-jump
-  implication, and root-fixed terminal-uniform L1 service line now form one
-  closure chain inside this theorem surface. This file is not a
-  submission-ready full-smoothness certification by itself; the downstream Gold
-  bundle still has to consume the updated L1 source line and clear stale wrapper
-  targets.
+  implication, selected-action relay, finite full same-material clock relay,
+  and fixed-Hs continuation bridge now form one closure chain inside this
+  theorem surface. This file is not a submission-ready manuscript/export
+  certification by itself; it records the theorem-construction Gold chain after
+  the updated L1 source line is consumed.
 edge_effect: >-
   Writes the full Gold closure rather than leaving the MPP offstage. The theorem
   shows exactly what the coupled pre-energy stress-response jet solves: selected
@@ -21,8 +21,9 @@ edge_effect: >-
   jet-service storage. The former analytic estimate for that storage is now
   supplied by the same-parent Duhamel-Hodge pullback plus early source admission
   and retained heat-lag Poincare thickness in TFE2733-TFE2747. The current edge
-  is downstream route consumption, not a decoupled Leray/pressure oversight,
-  high-high input-color bookkeeping issue, or standalone terminal BV atom.
+  is manuscript/export refresh from the theorem-construction chain, not a
+  decoupled Leray/pressure oversight, high-high input-color bookkeeping issue,
+  or standalone terminal BV atom.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-stress-jet-producer-admission-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-below-same-material-service-storage-target-20260628.md
@@ -223,7 +224,7 @@ The installed downstream relay then gives finite full same-material clock.
 The fixed-\(H^s\) material-clock readout gives
 
 ```math
-\sup_{t<T_*}\|u(t)\|_{H^s(\mathbb R^3)}
+\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}
 \le
 C_s(u_0),
 \qquad s>{5\over2}.
@@ -242,16 +243,16 @@ For any terminal parabolic cylinder \(Q_\rho(z_0,T_*)\),
 ```math
 \mu_P^{end}(Q_\rho(z_0,T_*))
 \le
-C
-+\int_{Q_\rho(z_0,T_*)}\sigma_P^{jet}\,da\,dt
+C\int_{Q_\rho(z_0,T_*)}\sigma_P^{jet}\,da\,dt
 +R_P^{legal}(Q_\rho)
 +Stop_P(Q_\rho).
 \tag{FGC.14}
 ```
 
 The legal and stop terms are completed same-law ledgers with their own admitted
-payments.  The endpoint payment is the root-fixed whole-field viscous/jet-service
-density.  Since \(\sigma_P^{jet}\in L^1\) on the fixed root history with the
+payments and no unpaid terminal atom after admission.  The endpoint payment is
+the root-fixed whole-field viscous/jet-service density.  Since
+\(\sigma_P^{jet}\in L^1\) on the fixed root history with the
 uniform bound `(FGC.2)`,
 
 ```math
@@ -455,6 +456,14 @@ coupled Gold \(L^1\) source surface:
 The source reference is
 `mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md`,
 Sections 238--242, ending at `(TFE.2747)'.  Thus `(FGC.20)' and `(FGC.25)' are
-no longer open inside the Gold \(L^1\) source line.  This file now records the
-Gold closure handoff: downstream route surfaces must consume `(FGC.26)' without
-reintroducing the stale pressure-only or wrapper forms of the \(L^1\) wall.
+no longer open inside the Gold \(L^1\) source line.
+
+The downstream consumption has now been audited in
+`mpp-forward-gold-full-smoothness-closure-reconciliation-20260629.md`.  The
+consumption is the direct chain `(FGC.26)' -> `(FGC.14)'--`(FGC.16)' terminal
+no-jump -> `(FGC.11)'--`(FGC.12)' finite selected action -> corrected
+parent-subtracted finite full same-material clock -> fixed \(H^s(T^3)\)
+continuation and classical relaunch.  Thus `(FGC.24)' is installed as a
+theorem-construction Gold chain once `(TFE.2747)' is accepted as the coupled
+\(L^1\) source result.  Manuscript/PDF submission readiness remains a separate
+export refresh.

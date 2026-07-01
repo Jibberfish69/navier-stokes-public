@@ -4,16 +4,18 @@ problem_id: navier-stokes
 generated_at: '2026-06-28T18:49:47Z'
 status: exported
 manual_gold_correction:
-  updated_at: '2026-06-28T00:36:00Z'
-  status: exported-bundle-stale-against-current-gold-edge
-  current_gold_next_proof_unit: PositiveCriticalTransferBound.A inside NativeBirthChargePacking.A
-  correction: 'Any generated positive-supplier / OriginalSmoothDataPackSurvival route
-    in this bundle is stale for the current Gold edge. Bounded original-packet / Riesz
-    selected action is an admitted-selector support channel. The live MPP-bearing
-    branch is PositiveCriticalTransferBound.A: absorb the positive Leray-projected
-    critical nonlinear transfer in the H^{1/2} identity by C(u0) plus a strict fraction
-    of the native reserve. Native-reserve packing is the parent hinge; the direct
-    analytic face is this positive critical transfer theorem.'
+  updated_at: '2026-07-01T19:06:23Z'
+  status: exported-bundle-stale-against-gold-route-closure-chain
+  current_gold_next_proof_unit: submission/export refresh consuming TFE2747 downstream Gold closure chain
+  correction: 'The generated bundle is stale against the current theorem-construction
+    Gold chain. Sections 238-242 of mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
+    supply TFE2747, the root-fixed terminal-uniform selected L1 source line. The
+    downstream consumption audit in mpp-forward-gold-full-smoothness-closure-reconciliation-20260629.md
+    consumes that result into terminal no-jump, finite selected action, finite full
+    same-material clock, fixed H^s(T^3) continuation, and classical relaunch. The
+    bundle remains not submission-ready until the manuscript/export surfaces are
+    refreshed to state that chain without stale PositiveCriticalTransferBound.A or
+    old NativeBirthChargePacking.A next-proof-unit language.'
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
