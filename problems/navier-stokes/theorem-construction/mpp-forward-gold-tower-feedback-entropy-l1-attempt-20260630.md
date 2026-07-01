@@ -12306,7 +12306,7 @@ domination statement:
 d\mu_{\gamma}^{end}
 \le
 C\,\mathbf 1_{I_\gamma^{phys}}(t)b_P(t)\,dt
-dPaid_\gamma,
++dPaid_\gamma,
 \tag{TFE.835}
 \]
 
@@ -12524,3 +12524,553 @@ Gold proof closes only when its positive critical output is dominated by one
 root-fixed absolutely continuous parent density.  The unproved line is exactly
 `(TFE.839)`/`(TFE.840)`, or equivalently the bounded-below storage
 `(TFE.848)`--`(TFE.849)`, from the original coupled Navier--Stokes packet.
+
+## 75. Entropy capacity must be the strong root reserve
+
+This section answers the physical-state-count question without promoting it to
+a proof.  The entropy story is being used, but only in the following precise
+way: it has to become the same strong parent reserve \(M_P\) in
+`(TFE.848)`--`(TFE.849)`.  An entropy that counts passive heat smoothing, raw
+\(L^2\) stress mass, signed flux balance, or the already observed descendant
+tail is not the Gold producer.
+
+For one stopped parent material packet \(P\), let \(\mathcal H_P(t)\) denote
+the set of coupled pressure--Hodge--strain--frame histories still compatible
+with the readouts and participation law up to time \(t\).  A child selected
+read removes future possibilities only if it is admitted before positive
+clipping into the full parent packet.  The desired active entropy capacity is
+therefore a parent-known functional
+
+\[
+\mathcal C_P^{act}(t)
+=
+\operatorname{Ent}_{P}^{act}\!\left(
+\mathcal H_P(t);
+\text{pressure-Hodge/strain/frame/full-output stress detectors}
+\right),
+\tag{TFE.853}
+\]
+
+constructed from the original coupled packet before descendant selected values
+are read.  It must obey the root bound
+
+\[
+0\le \mathcal C_P^{act}(0)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.854}
+\]
+
+and the one-step deletion law
+
+\[
+\mathcal C_P^{act}(t_P)
+-\sum_{C\in ch(P)}\mathcal C_C^{act}(t_C)
+\ge
+c\sum_{\gamma\in Birth(P\to C)}
+w_\gamma\|F_\gamma\|_{\mathcal H_{\rm raw}}^2
+-\theta\nu\int_{I_P}D_{3/2}(t)\,dt
+-Paid(P),
+\qquad \theta<1.
+\tag{TFE.855}
+\]
+
+Equivalently,
+
+\[
+\mathcal C_P^{act}
+\quad\hbox{is an admissible model for}\quad
+M_P.
+\tag{TFE.856}
+\]
+
+So the entropy story does not add a new side theorem.  It gives a physical
+construction test for the existing storage wall: pressure feedback may
+re-coordinate the remaining compatible histories, but the full packet must lose
+active capacity whenever a retained selected child extracts positive critical
+action.
+
+The reason passive entropy is too weak is the half-tail.  If
+
+\[
+dA_{\rm sel}=f_\ell\,dR_\ell,
+\qquad
+R_\ell\simeq \nu_\ell,
+\qquad
+f_\ell\simeq 2^\ell,
+\tag{TFE.857}
+\]
+
+then raw square/heat capacity sees only
+
+\[
+\sum_\ell \nu_\ell,
+\tag{TFE.858}
+\]
+
+while selected \(L^1\) sees
+
+\[
+\sum_\ell 2^\ell\nu_\ell.
+\tag{TFE.859}
+\]
+
+The model
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1}
+\tag{TFE.860}
+\]
+
+has finite raw capacity and infinite selected \(L^1\).  Therefore finite
+initial energy, ordinary Bessel nonreuse, and passive heat smoothing do not by
+themselves prove the active entropy bound.  They exclude repeated sale of the
+same admitted direction; they do not bound the first-ratio count of genuinely
+new scale-native births.
+
+The root entropy that would beat `(TFE.860)` must control a logarithmic or
+reverse-Holder density of the selected readout relative to the parent active
+reserve:
+
+\[
+\int_P f_P\log f_P\,dR_P^{orig}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.861}
+\]
+
+or, equivalently, for stopped children,
+
+\[
+\log {f_Q\over f_{\operatorname{par}(Q)}}
+=
+\ell_Q(\Delta_Q Z^S)-\psi_Q+e_Q,
+\tag{TFE.862}
+\]
+
+with the source square function
+
+\[
+\sup_{P'\subseteq P}
+{1\over\mathcal R(P')}
+\sum_{S\subseteq P'}\sum_{Q\subseteq S}
+\left(\|\Delta_Q Z^S\|^2+|e_Q|^2\right)\mathcal R(Q)
+\le
+C_N(u_0)+{Paid(P')\over\mathcal R(P')}.
+\tag{TFE.863}
+\]
+
+The deterministic part is then standard in this coordinate: high-ratio
+children consume entropy drop, and the stopped tree telescopes:
+
+\[
+\sum_{Q\in ch_{\rm high}(P)} f_Q\mathcal R(Q)
++\sum_{Q\in ch(P)}\mathcal C_Q^{act}
+\le
+\mathcal C_P^{act}+Paid(P).
+\tag{TFE.864}
+\]
+
+Summing `(TFE.864)` gives terminal-uniform \(L^1\) after the root bound.  Thus
+the real PDE burden is not the entropy telescope; it is the production of
+`(TFE.861)`/`(TFE.863)` from the original full participation law.
+
+The physical package still missing is therefore exact:
+
+\[
+\begin{gathered}
+\text{full-output order-lock before child positive clipping,}\\
+\text{parent-known selected carrier }Z^S
+\text{ from pressure-Hodge/strain/frame/full stress,}\\
+\text{nondegenerate selected readout of that carrier,}\\
+\text{root Carleson/log-amplification bound `(TFE.863)`,}\\
+\text{or the equivalent positive critical transfer bound `(TFE.839)`.}
+\end{gathered}
+\tag{TFE.865}
+\]
+
+Each installed support surface has a precise but limited role:
+
+\[
+\begin{array}{ll}
+\text{full-output high-high repair} & \text{selects the legal one-point stress object;}\\
+\text{Schur/Bessel admission} & \text{prevents already admitted directions from being recounted;}\\
+\text{first-exit Cauchy} & \text{pays derivative-exact reset intervals;}\\
+\text{local shell energy} & \text{attaches signed flux to the packet but needs return control;}\\
+\text{compactness/rigidity} & \text{kills zero-cost profiles after tightness/storage is supplied.}
+\end{array}
+\tag{TFE.866}
+\]
+
+None of `(TFE.866)` constructs the root-finite active entropy capacity.  The
+remaining mathematical gap is the coercive supplier
+
+\[
+\text{original coupled packet}
+\Longrightarrow
+\mathcal C_P^{act}\ \text{satisfies `(TFE.854)` and `(TFE.855)`}.
+\tag{TFE.867}
+\]
+
+In physical terms, the missing story is not whether viscosity reaches the whole
+derivative tower or whether pressure alone carries the instantaneous
+compatibility response.  Both are coordinates of the same participation loop:
+
+\[
+\text{pressure-compatible coordination}
+\to
+\text{heat-lag velocity/strain readout}
+\to
+\text{updated frame and pressure compatibility}
+\to
+\text{next coordinated state}.
+\tag{TFE.868}
+\]
+
+The missing proof must show that this loop is state-deleting in the selected
+critical metric:
+
+\[
+\text{active future-state capacity after one loop}
+\le
+\text{active future-state capacity before the loop}
+-c\,\text{selected positive action}
++\theta\,\text{viscous critical drain}
++Paid.
+\tag{TFE.869}
+\]
+
+This is the rigorous form of the chess-picture intuition.  Each admitted move
+removes a family of future compatible packet histories.  Transpositions are
+allowed because pressure can re-coordinate the state, but they must be carried
+by the same parent capacity.  A selected child cannot reopen the deleted family
+as a fresh positive \(L^1\) event at the next ratio level.
+
+Equivalently, any attempted proof of the Gold \(L^1\) line must now pass this
+check:
+
+\[
+\begin{gathered}
+\text{Does it build a parent-known full-packet active capacity}\\
+\text{with root finiteness and one-step deletion before clipping?}
+\end{gathered}
+\tag{TFE.870}
+\]
+
+If the answer is no, it is a consumer, coordinate face, or no-go test.  If the
+answer is yes, it supplies `(TFE.847)` and hence the root-fixed \(L^1\) density
+by Section 74.
+
+## 76. The fourth branch is not a new force; the wall is critical packing
+
+The source-origin and native-reserve files clarify a possible wrong target in
+`(TFE.767)` and `(TFE.772)`.  The phrase "unpaid fourth branch" should not be
+read as a mysterious extra physical source.  Once the selected quantity is the
+full same-carrier material derivative of the coupled packet, the local branch
+exhaustion is algebraic.
+
+For a retained selected transition \(Q\to Q'\), write the active full-packet
+increment before positive clipping as
+
+\[
+d\mathsf a_{Q\to Q'}
+=
+d\mathsf a^{carry}
++d\mathsf a^{hodge}
++d\mathsf a^{strain/frame}
++d\mathsf a^{schur/collar}
++d\mathsf a^{annular}
++d\mathsf a^{freq}
++d\mathsf a^{selector/ol}
++d\mathsf a^{entr/stop/legal}.
+\tag{TFE.871}
+\]
+
+This is not a modeling choice.  The terms are the material derivative pieces
+of the same pressure--viscosity--incompressibility--velocity participation
+packet: inherited lower-band carry, material Hodge/projector motion,
+strain/frame/covector motion, normal pressure-collar Schur defect, annular
+stress work, frequency-local native birth, selector/order-lock motion, and
+entrance/stop/legal loss.
+
+Therefore a literal invisible fourth branch would satisfy
+
+\[
+d\mathsf a_{Q\to Q'}>0,
+\qquad
+d\mathsf a^{carry}
+=d\mathsf a^{hodge}
+=d\mathsf a^{strain/frame}
+=d\mathsf a^{schur/collar}
+=d\mathsf a^{annular}
+=d\mathsf a^{freq}
+=d\mathsf a^{selector/ol}
+=d\mathsf a^{entr/stop/legal}
+=0,
+\tag{TFE.872}
+\]
+
+which contradicts `(TFE.871)`.  So local source attachment is not the hard
+Gold theorem after the full packet has been differentiated correctly.  The
+hard theorem is that the attached source appears in a scale-critical original
+reserve atom large enough to pay the selected child read, and that the same
+atom cannot be spent with unbounded multiplicity.
+
+The exact split is:
+
+\[
+\text{source attachment}
+\quad\ne\quad
+\text{selected-size critical payment}.
+\tag{TFE.873}
+\]
+
+Source attachment says the selected birth belongs to one of the terms in
+`(TFE.871)`.  Critical payment asks for a parent-known assignment
+
+\[
+\iota:\Gamma_N(P)\to\mathcal R_N^{nat}(P)
+\tag{TFE.874}
+\]
+
+such that every retained selected birth satisfies the lower admission
+
+\[
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}
++Paid(\gamma),
+\tag{TFE.875}
+\]
+
+and the native reserve atoms satisfy the root packing and multiplicity bounds
+
+\[
+\sum_{\rho\in\mathcal R_N^{nat}(P)}\rho
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\qquad
+\operatorname{mult}(\iota)\le C_N.
+\tag{TFE.876}
+\]
+
+The half-tail shows why `(TFE.875)` is not automatic.  A source-channel atom can
+be locally attached but too small in original scale:
+
+\[
+\rho_{\rm raw}(Q_r)\simeq r,
+\qquad
+\omega(Q_r)\simeq1.
+\tag{TFE.877}
+\]
+
+Then the corrected critical atom would have to be
+
+\[
+\rho_{\rm crit}(Q_r)\simeq r^{-1}\rho_{\rm raw}(Q_r),
+\tag{TFE.878}
+\]
+
+and the real question is whether the original coupled packet has a finite
+root sum of those critical atoms:
+
+\[
+\sum_{Q\subset P}\rho_{\rm crit}(Q)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.879}
+\]
+
+But `(TFE.879)` is exactly `NativeBirthChargePacking.A`, equivalently
+`PositiveCriticalTransferBound.A` in the half-derivative energy coordinate.
+
+So the proof should no longer chase "where could an invisible force branch
+come from?"  The full derivative identity has already answered that locally:
+it cannot come from outside the participation packet.  The remaining physical
+problem is thinner and sharper:
+
+\[
+\boxed{
+\begin{gathered}
+\text{a retained high-ratio child read is attached to the parent packet;}\\
+\text{prove its selected size is comparable to a root-finite critical atom,}\\
+\text{and prove that atom is spent once or refunded through paid exchange.}
+\end{gathered}
+}
+\tag{TFE.880}
+\]
+
+This is the correct downstream effect of the entropy/state-count story.  The
+pressure-feedback loop does not create unlisted states.  It can only re-route
+the same coupled packet through `(TFE.871)`.  The \(L^1\) danger is that the
+same finite raw packet can be sampled through infinitely many higher-ratio
+critical lenses unless `(TFE.875)`--`(TFE.876)` force every such sample to burn
+one root-finite active state-capacity atom.
+
+Consequently the current Gold \(L^1\) wall has two nonduplicate clauses:
+
+\[
+\begin{aligned}
+&\text{SelectedSizeAtomLowerBound.A: prove `(TFE.875)` from the full packet;}\\
+&\text{CriticalNativeAtomPacking.A: prove `(TFE.876)` from original data.}
+\end{aligned}
+\tag{TFE.881}
+\]
+
+Together they imply `(TFE.879)`, then the active entropy capacity of Section
+75, then the root-fixed \(L^1\) density of Section 74.  Separately, each is
+insufficient: source attachment without `(TFE.875)` leaves the shrinking-core
+gap `(TFE.877)`, while atom nonreuse without `(TFE.876)` still permits sibling
+copying or an infinite critical half-tail.
+
+## 77. Bounded selected units are closed; scale-native units remain
+
+The selected-size lower-admission clause in `(TFE.881)` should also be read with
+the bounded-Riesz correction.  The repo has already closed the selected-size
+problem for bounded original-packet units.  On a stopped parent \(P\), the
+bounded channel has a parent-known functional
+
+\[
+\Lambda_Q:\mathfrak H_P\to\mathbb R,
+\qquad
+|\Lambda_Q(H)|\le C_N\|H\|_{\mathfrak H_P},
+\tag{TFE.882}
+\]
+
+where \(\mathfrak H_P=L^2(\operatorname{Hist}(P);\mathrm{Sym}_0)\).  Riesz
+gives
+
+\[
+\Lambda_Q(G)=\langle G,A_Q\rangle_{\mathfrak H_P},
+\qquad
+\|A_Q\|_{\mathfrak H_P}\le C_N,
+\tag{TFE.883}
+\]
+
+for the original material stress \(G=2\nu S_A\).  After parent subtraction,
+
+\[
+A_Q=\Pi_{E_{Q^-}}A_Q+(I-\Pi_{E_{Q^-}})A_Q
+=B_Q+F_Q.
+\tag{TFE.884}
+\]
+
+Exact inherited reuse is parent current, and fresh bounded pieces Bessel-pack:
+
+\[
+\sum_{Q\subset P}
+|\langle G,F_Q\rangle_{\mathfrak H_P}|^2
+\le
+C_N\|G\|_{\mathfrak H_P}^2
+\le
+C_N(u_0).
+\tag{TFE.885}
+\]
+
+Thus the bounded selected-unit channel already has the spend law
+
+\[
+\sum_{Q\subset P}^{bd}\omega_Q
+\le
+C_N(u_0)+Paid(P).
+\tag{TFE.886}
+\]
+
+This is important because it prevents a false remaining burden.  The live
+\(L^1\) wall is not "prove every selected unit is a bounded original-packet
+projection."  A pure scale-native heat-lag unit is physically allowed to be
+unbounded in the original Hilbert norm.  Under parabolic rescaling
+
+\[
+u_r(y,s)=r\,u(x_0+ry,t_0+r^2s),
+\qquad
+G_r(y,s)=r^2G(x_0+ry,t_0+r^2s),
+\tag{TFE.887}
+\]
+
+a unit rescaled test \(A_r\) pulls back to
+
+\[
+F_r(x,t)
+=
+r^{-3}A_r\!\left({x-x_0\over r},{t-t_0\over r^2}\right),
+\qquad
+\|F_r\|_{\mathfrak H_P}^2
+\simeq
+r^{-1}\|A_r\|_{L^2(dy\,ds)}^2.
+\tag{TFE.888}
+\]
+
+So a scale-native unit has original test norm \(r^{-1/2}\), not \(O(1)\).  It
+does not belong to `(TFE.882)`--`(TFE.886)`.
+
+Therefore the retained selected action splits as
+
+\[
+\sum_{Q\subset P}\omega_Q
+=
+\sum_{Q\subset P}^{bd}\omega_Q
++
+\sum_{\gamma\in\Gamma_N^{sn}(P)}\omega_\gamma
++Paid(P),
+\tag{TFE.889}
+\]
+
+where the first sum is closed by `(TFE.886)`.  The whole Gold problem is the
+scale-native sum:
+
+\[
+\sum_{\gamma\in\Gamma_N^{sn}(P)}\omega_\gamma
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.890}
+\]
+
+For that branch, selected-size lower admission and native atom packing cannot
+be separated cleanly.  A lawful scale-native atom must already include the
+critical weight:
+
+\[
+\omega_\gamma
+\le
+C_N\rho_\gamma^{sn,crit}+Paid(\gamma),
+\qquad
+\sum_{\gamma\subset P}^{sn}\rho_\gamma^{sn,crit}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.891}
+\]
+
+This is the exact form of the remaining native-birth theorem after bounded
+Riesz admission is removed.  In the fractional-energy coordinate it is
+equivalent to
+
+\[
+\int_0^\tau[B_{crit}(t)]_+\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(P),
+\qquad \theta<1.
+\tag{TFE.892}
+\]
+
+The bounded channel has a real finite-energy proof.  The scale-native channel
+is exactly the part finite energy does not see, because the missing factor is
+the critical \(r^{-1}\) weight from `(TFE.888)`.
+
+The current sharpened Gold statement is therefore
+
+\[
+\boxed{
+\text{prove `(TFE.891)' for scale-native retained births from the original
+coupled packet.}
+}
+\tag{TFE.893}
+\]
+
+Once `(TFE.891)` is proved, `(TFE.889)` gives finite selected action, Section 75
+gives active entropy deletion, Section 74 gives the root-fixed \(L^1\) density,
+and the installed full-clock/\(H^s\) relay applies.  Without `(TFE.891)`, the
+bounded-Riesz proof, source attachment, no-recount, and entropy telescope are
+all real but downstream of the same scale-native positive-transfer wall.
