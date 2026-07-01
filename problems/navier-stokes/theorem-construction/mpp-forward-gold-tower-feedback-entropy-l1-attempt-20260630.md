@@ -40299,19 +40299,20 @@ d\Xi_P^{loop,ret}
 \tag{TFE.2745}
 \]
 
-Thus the remaining operator clause in `(TFE.2732)' is supplied by the original
-coupled packet:
+Thus the remaining operator clause in `(TFE.2732)' has the correct original
+coupled-packet form, conditional on deriving the stopped propagator and parent
+detector bounds from the original packet before clipping:
 
 \[
 \boxed{
-\text{stopped Duhamel-Hodge pullback `(TFE.2733)'--`(TFE.2742)'}
+\text{derive the stopped Duhamel-Hodge pullback `(TFE.2733)'--`(TFE.2742)'}
 \Longrightarrow
 \text{parent-announced retained operator `(TFE.2700)'--`(TFE.2703)'.}
 }
 \tag{TFE.2746}
 \]
 
-Combining Sections 238--242 gives the \(L^1\) source line:
+Combining Sections 238--242 gives the conditional \(L^1\) source line:
 
 \[
 \boxed{
@@ -40328,12 +40329,14 @@ Combining Sections 238--242 gives the \(L^1\) source line:
 \tag{TFE.2747}
 \]
 
-The physical content is now exact.  Pressure/Hodge sends the compatibility
+The physical target is now exact.  Pressure/Hodge sends the compatibility
 response through the parent frame, viscosity supplies the heat-lag thickness,
-and the selected child readout is only a pulled-back covector test of that
-same transaction.  Once the sub-heat-lag first trace and zero modes are routed
-to their parent source accounts, a retained readout cannot be recounted as
-fresh positive pressure at higher ratio levels.
+and the selected child readout is only a pulled-back covector test of that same
+transaction.  The remaining proof burden is to derive those stopped propagator,
+detector, source-admission, and retained-quotient hypotheses from arbitrary
+original data.  After that derivation, the sub-heat-lag first trace and zero
+modes are in their parent source accounts, and a retained readout cannot be
+recounted as fresh positive pressure at higher ratio levels.
 
 Truth-state note.  `(TFE.2747)' is the current named/source-line Gold \(L^1\)
 target in this theorem surface, but the audit below classifies Sections

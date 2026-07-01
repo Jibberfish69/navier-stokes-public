@@ -25,7 +25,7 @@ consumes:
   - TFE.2430-TFE.2459
   - TFE.2654-TFE.2672
   - TFE.2680-TFE.2696
-  - TFE2748A.2-TFE2748A.21
+  - TFE2748A.2-TFE2748A.24
 produces:
   - TFE2748B strict-storage compactness/rigidity reduction
   - endpoint-admitted critical-source survivor statement
@@ -324,7 +324,7 @@ For `(TFE2748B.18)' to be a storage, \(\mathcal C_P^{crit}\) must be
 parent-fixed on the stopped history or have only paid positive variation:
 
 \[
-d\mathcal C_P^{crit}
+\bigl[d\mathcal C_P^{crit}\bigr]_+
 \le
 d\Theta_P^0+dPaid_P .
 \tag{TFE2748B.19}
@@ -709,6 +709,13 @@ possible ambiguity in the word "capacity."  Capacity is the original packet's
 available critical reserve; \(\mathcal E^{crit}\) is what the packet has spent;
 \(M^{crit}\) is what remains.
 
+This is a genuinely smaller theorem only after
+\(\mathfrak C_P^{root}\), \(\mathfrak S_{P,\tau}^{crit}\), and the paid geometry
+term are independently constructed from the stopped original packet.  Without
+that construction, `OriginalCriticalCapacityVariation.A' is just `(TFE2748A.5)'
+or `(TFE2748B.75)' in reserve notation: the same positive \(L^1\) storage wall
+with a different name.
+
 ## 11. Noncircular proof fork
 
 The preallocated-reserve normalization leaves exactly two possible proof
@@ -750,7 +757,7 @@ Assume `(TFE2748B.41)' fails.  After normalization there are stopped packets
 \[
 \bigl[d\,\mathfrak C_{P_n}^{root}
 (\mathfrak S_{P_n,\tau}^{crit})
-d\mathcal C_{P_n}^{geom}\bigr]_+=1,
++d\mathcal C_{P_n}^{geom}\bigr]_+=1,
 \qquad
 d\Theta_{P_n}^0+dPaid_{P_n}\to0 .
 \tag{TFE2748B.46}
@@ -860,9 +867,12 @@ So the direct BV fork does not create a third wall.  It reduces
 \tag{TFE2748B.52}
 \]
 
-This matches the older entropy-capacity chain: root entropy/log-amplification
-production is the PDE supplier; good-lambda, reverse Holder, Bellman deletion,
-no-recount, and terminal no-jump are consumers after that supplier is installed.
+This matches the older entropy-capacity chain as a coordinate reduction: root
+entropy/log-amplification is the proposed PDE supplier in the stopped-tree
+language; good-lambda, reverse Holder, Bellman deletion, no-recount, and
+terminal no-jump are consumers after that supplier is installed.  Section 15
+below restores the exact continuous parent-measure object and prevents this
+tree coordinate from being mistaken for the final bottom theorem.
 
 ## 13. Stopped-tree form of the same supplier
 
@@ -940,8 +950,8 @@ and endpoint terms.  This is the stopped-tree version of
 `(TFE2748B.51)'--`(TFE2748B.52)': the positive selected count is finite because
 high-ratio child reads spend parent entropy.
 
-The remaining original-data work is now not a Bellman or coarea problem.  It is
-exactly:
+In the stopped-tree coordinate, the remaining original-data work is no longer a
+Bellman or coarea problem.  It appears as:
 
 \[
 \boxed{
@@ -955,10 +965,12 @@ errors.}
 \tag{TFE2748B.59}
 \]
 
-This is equivalent, in stopped-tree language, to the parent active-score
-root-variation supplier `(TFE2748B.51)'.  Without `(TFE2748B.59)', a proposed
-capacity can still be the forbidden descendant-tail storage or a passive
-heat-square capacity defeated by the half-tail.
+This is the stopped-tree face of the parent active-score root-variation supplier
+`(TFE2748B.51)'.  Without `(TFE2748B.59)', a proposed capacity can still be the
+forbidden descendant-tail storage or a passive heat-square capacity defeated by
+the half-tail.  The later continuous-parent correction in Section 15 identifies
+the actual bottom source as exact critical-entry storage, with this stopped-tree
+carrier theorem only one coordinate route to that source.
 
 ## 14. Current-factorization pushdown of the stopped carrier theorem
 
@@ -1035,8 +1047,8 @@ with the \(e\)-terms Carleson-packed by paid material.  Combining
 `(TFE2748B.63)'--`(TFE2748B.65)' gives the root Carleson/log-amplification
 bound `(TFE2748B.55)'.
 
-The checked current-route surfaces therefore push `(TFE2748B.59)' one layer
-down to:
+The checked current-route surfaces give a further coordinate pushdown of
+`(TFE2748B.59)':
 
 \[
 \boxed{
@@ -1049,16 +1061,17 @@ down to:
 \tag{TFE2748B.66}
 \]
 
-The nonduplicate hard part is `(TFE2748B.64)' in the selected critical metric.
-In the existing source language it is the same theorem as
-`StoppedSelectorPredictableWeight.A' /
-`OriginalHistoryParentPredictableFreshInnovationCarleson.A' /
-`NativeBirthChargePacking.A': the active weight attached to a first selected
-birth must be parent-predictable before the fresh projected current increment
-is read, and those weighted fresh innovations must square-pack in the original
-material history.  Without that predictability/current-Carleson estimate, the
-half-tail remains possible in the proof language even though the formal
-Hilbert transform and martingale entropy consumers are available.
+At this coordinate level, `(TFE2748B.64)' is the apparent hard Carleson face in
+the selected critical metric.  Section 15 corrects that reading: routed-current
+Carleson, selector-carrier nondegeneracy, and paid reselection are consumers once
+the exact continuous parent critical-entry storage exists.  The real source
+language is that the active weight attached to a first selected birth must be
+parent-predictable before the fresh projected current increment is read, and the
+resulting weighted fresh innovations must be admitted into the original
+critical-entry storage before child clipping.  Without that continuous
+parent-entry storage, the half-tail remains possible in the proof language even
+though the formal Hilbert transform and martingale entropy consumers are
+available.
 
 ## 15. Continuous critical-entry storage replaces routed-current wording
 
