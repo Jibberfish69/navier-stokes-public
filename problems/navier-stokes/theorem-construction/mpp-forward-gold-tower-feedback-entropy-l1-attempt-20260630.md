@@ -20471,3 +20471,604 @@ has finite root active geometry reserve, with a retained-production admission
 rule strong enough to turn that square reserve into the positive selected
 \(L^1\) count.  That is narrower than the previous \(L^1\) wall, but it is
 still not proved from original data here.
+
+## 123. Missing physical story: full-output parent-state deletion
+
+The physical story needed to close the \(L^1\) problem is now exact enough to
+state as one missing theorem.
+
+The parent is the original coupled
+pressure-viscosity-incompressibility-velocity packet before positive selected
+readout.  The child is a heat-lag finite-difference readout of that same packet.
+The feedback loop is:
+
+\[
+\text{pressure-compatible whole-field coordination}
+\longrightarrow
+\text{heat-lag velocity/strain readout}
+\longrightarrow
+\text{updated material frame}
+\longrightarrow
+\text{new pressure-compatible coordination}.
+\tag{TFE.1385}
+\]
+
+Pressure can re-coordinate the remaining velocity state.  It cannot by itself
+create additional active future states.  Viscosity deletes high-frequency
+future states by heat-scale residence.  Self-advection and the moving frame can
+move or rotate the state counter, but that motion is root geometry:
+derivative, turnstile, exchange, covector, connection, collar, selector, return,
+legal, stop, or endpoint-face material.  Thus the \(L^1\) theorem is not a
+pressure-only theorem and not a viscosity-only theorem.  It is the statement
+that this whole coupled loop has a parent-known state-deletion counter before
+the child clips a positive readout.
+
+Use the lawful Gold selector, the recombined full-output critical transfer
+
+\[
+B^{crit}(t)
+=
+\sum_m2^m\mathcal B_m^{full}(t),
+\qquad
+\mathcal B_m^{full}
+=
+-\langle P_m\mathbb P(u\cdot\nabla u),u_m\rangle .
+\tag{TFE.1386}
+\]
+
+Input-coloured positive clipping is not part of this selector unless a
+two-point current theorem is deliberately installed.  The one-point same-parent
+current belongs to the full output-local stress.
+
+The missing physical theorem is the existence of a parent-known active
+state-deletion functional \(\mathcal M_P\) and a root active geometry density
+\(\Theta_P^{root}\), both built before child positive clipping, such that for
+every stopped parent packet \(P\)
+
+\[
+dA_P^{full,+}
+\le
+-d\mathcal M_P
++\theta\nu D_c(t)\,dt
++dPaid_P,
+\qquad
+\theta<1,
+\tag{TFE.1387}
+\]
+
+\[
+\mathcal M_P(t)\ge -C_N(u_0)-Paid_P,
+\qquad
+\int_{\operatorname{Hist}(P)}\Theta_P^{root}
+\le C_N(u_0)\mathcal R(P)+Paid_P,
+\tag{TFE.1388}
+\]
+
+and \(dPaid_P\) is exhausted by already admitted return, motion, viscosity,
+legal, stop, and endpoint-face charges of the same parent packet.
+
+Here \(dA_P^{full,+}\) is the positive child count of the recombined
+full-output critical transfer.  The clauses still missing from original data
+are the following.
+
+First, full-output parent admission must occur before clipping:
+
+\[
+dA_P^{full,+}
+\le
+[dq_{pc}^{full}]_+ + dPaid_P .
+\tag{TFE.1389}
+\]
+
+The detector, carrier, selected direction, and harmonic weight are
+parent-announced.  The child is allowed to read the packet; it is not allowed to
+choose the payer after the readout.
+
+Second, first admission/update must be a real current update:
+
+\[
+\langle a,g\rangle=0,\quad g=G^{-1}m,\quad dq=\delta a
+\Longrightarrow
+m\mapsto m+\delta a,\quad
+g\mapsto g+\delta G^{-1}a .
+\tag{TFE.1390}
+\]
+
+The first positive entry is Bessel novelty.  After `(TFE.1390)', repeated
+same-carrier production in that coordinate is Schur current work.  A channel
+that keeps looking perpendicular after repeated production was never admitted
+to the paid parent current.
+
+Third, the retained Schur-thin branch must be paid by material source
+variation or heat-scale thickness.  In Schur coordinates this is the missing
+accretive sign from `(TFE.1384)' plus the thin-pulse substitute:
+
+\[
+\sum_{\chi_B<\eta}
+\sup_B\|G_B^{-1/2}m_B\|\,
+{\rm Var}_B^P(G_B^{-1/2}p_B)
+\le
+\theta\nu\sum_BD_B
++C_\eta\int_{\operatorname{Hist}(P)}\Theta_P^{root}
++Paid_P .
+\tag{TFE.1391}
+\]
+
+Physically, a pulse too fast to leave Schur residence must turn on, turn off,
+oscillate, change direction, move the carrier, hit a collar/selector boundary,
+or become endpoint material.  That is exactly what
+\({\rm Var}_B^P(G_B^{-1/2}p_B)\) measures in the same material frame.  The
+remaining PDE content is to derive `(TFE.1391)' from the differentiated
+full-output pressure-Hodge/viscous/material stress-current equation with the
+strict \(\theta<1\) margin.
+
+Fourth, the fixed-core terminal readout must be no-replay/no-atom in the
+root-fixed parent packet:
+
+\[
+\lim_{\rho\downarrow0}\sup_{z_0}
+\mu_P^{end}(T_\rho(z_0))=0,
+\tag{TFE.1392}
+\]
+
+or, equivalently for the present route, a Hardy/time-thickness substitute
+
+\[
+\sup_P\int_{-1}^{0}(-s)^{-\alpha}\,d\mu_P^{end}(s)<\infty
+\qquad(\alpha>0).
+\tag{TFE.1393}
+\]
+
+This endpoint clause is not an unpaid bucket.  It says that after the final
+motions of the same packet have been drained, a fixed terminal trace cannot be
+replayed as fresh positive child action at every smaller heat window.
+
+These four clauses are equivalent to the root reserve/admission pair from
+Section 122:
+
+\[
+\text{full-output parent admission/update `(TFE.1389)'--`(TFE.1390)'}
++\text{ Schur-thin source thickness `(TFE.1391)'}
++\text{ terminal no-atom `(TFE.1392)'--`(TFE.1393)'}
+\Longleftrightarrow
+\text{`(TFE.1377)'--`(TFE.1378)' in full-output coordinates.}
+\tag{TFE.1394}
+\]
+
+Once `(TFE.1387)'--`(TFE.1394)' are proved, the terminal-uniform \(L^1\) line is
+immediate:
+
+\[
+\int_0^\tau [B^{crit}(t)]_+\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau D_c(t)\,dt
++Paid_P,
+\qquad \tau<T_* .
+\tag{TFE.1395}
+\]
+
+The critical energy identity then absorbs the strict margin:
+
+\[
+{1\over2}E_c(\tau)
++(1-\theta)\nu\int_0^\tau D_c(t)\,dt
+\le
+C_N(u_0)+Paid_P+LP_{legal/stop},
+\tag{TFE.1396}
+\]
+
+which feeds the root-fixed terminal \(L^1\) density, terminal no-jump, feedback
+entropy deletion, no-recount pushforward, and finally `(FGC.25)'.
+
+So the missing physical story is not "finite initial energy forbids infinite
+pulsing" by itself.  The correct statement is sharper:
+
+\[
+\text{finite smooth initial packet}
++\text{ one coupled participation law}
++\text{ parent-known active state-deletion counter}
+\Longrightarrow
+\text{no infinite positive selected \(L^1\) harvest.}
+\tag{TFE.1397}
+\]
+
+Finite energy supplies raw square mass.  The active state-deletion counter is
+the additional object that limits the number of future arrangements accessible
+to the same packet after pressure re-coordination and heat-lag viscous readout.
+
+Everything still missing is therefore concentrated in one full-output theorem:
+
+\[
+\mathsf{FullOutputParentStateDeletion.A}
+\Longleftrightarrow
+\text{derive `(TFE.1387)'--`(TFE.1394)' from the original coupled packet.}
+\tag{TFE.1398}
+\]
+
+This does not close Gold.  It removes the remaining ambiguity about what has to
+be proved.  The proof must construct the parent-known active state-deletion
+counter, prove full-output admission/update before clipping, prove Schur-thin
+parabolic source thickness with strict viscous margin, and prove terminal
+no-replay/no-atom for the same root packet.
+
+## 124. Clause audit: admission is support, upcrossing is the live source
+
+Section 123 deliberately listed the four clauses in the same physical packet.
+After checking the full-output and stress-jet surfaces, the first two clauses
+have to be typed more sharply.
+
+The full-output one-point current identity is installed at the carrier level:
+
+\[
+B^{crit}(t)\,dt
+=
+dq_{pc}^{full}
++dPaid_{\rm Hodge/collar/frame/motion/legal/stop}
++LP_{err}(t)\,dt .
+\tag{TFE.1399}
+\]
+
+The same-parent admission-before-squaring algebra is also installed for lawful
+full-output detectors.  In parent Hilbert packet notation,
+
+\[
+z_Q(t)=\langle Y_N(t),a_Q(t)\rangle_{H_P},
+\qquad
+\|a_Q(t)\|_{H_P}\le C_N,
+\tag{TFE.1400}
+\]
+
+and the parent-predictable split
+
+\[
+a_i=\Pi_{E_{i-1}}a_i+(I-\Pi_{E_{i-1}})a_i
+\tag{TFE.1401}
+\]
+
+puts inherited directions into Schur/current/motion/return/viscous/legal/stop
+payment and parent-orthogonal first entries into Bessel novelty.  The
+zero-current update law
+
+\[
+\langle a,g\rangle=0,\quad g=G^{-1}m,\quad dq=\delta a
+\Longrightarrow
+m\mapsto m+\delta a,\quad
+g\mapsto g+\delta G^{-1}a
+\tag{TFE.1402}
+\]
+
+is the corresponding current update.  So `(TFE.1389)'--`(TFE.1390)' are not the
+uninstalled \(L^1\) producer, once the selector is the recombined full-output
+stress.
+
+What remains open is the sign-to-positive step after this admission.  A signed
+parent current may have finite endpoint change and large positive variation.
+The nonendpoint live theorem is therefore:
+
+\[
+[dq_{pc}^{full}]_+
+\le
+-d\mathcal U_P
++dFresh_{\rm Bessel}^{pc}
++dSchur_{\rm retained}^{pc}
++dMotion+dReturn
++\theta\nu D_c\,dt
++dLegal+dStop+dEnd,
+\qquad
+\theta<1,
+\tag{TFE.1403}
+\]
+
+with
+
+\[
+\mathcal U_P(t)\ge -C_N(u_0)-Paid_P .
+\tag{TFE.1404}
+\]
+
+The Bellman envelope
+
+\[
+\mathcal U_P(t)
+:=
+\inf_{I\subset P,\ I\text{ starts at }t}
+\left[
+\theta\nu\int_I D_c(s)\,ds
++Paid(I)
+-\int_I[B^{crit}(s)]_+\,ds
+\right]
+\tag{TFE.1405}
+\]
+
+is the correct dynamic-programming shape, but it is noncircular only after it
+is bounded below by original-data material state.  Without that lower bound,
+`(TFE.1405)' merely restates the desired \(L^1\) estimate.
+
+Run the minimal-unpaid-interval argument.  If `(TFE.1404)' fails, choose the
+first stopped interval \(I_\ast\) where the deficit crosses a fixed threshold.
+By firstness and the installed admission/update clauses:
+
+\[
+\begin{aligned}
+&\text{fresh parent-orthogonal entries are Bessel-paid,}\\
+&\text{input-coloured positive clipping is absent,}\\
+&\text{motion, collar, Hodge, legal, stop, and endpoint exits are routed,}\\
+&\text{negative return is charged to the same parent score.}
+\end{aligned}
+\tag{TFE.1406}
+\]
+
+The surviving branch is retained same-carrier full-output positive current.
+For Schur-thick residence, the affine Schur identity gives the payment:
+
+\[
+H_w\|c_{\theta,J}^{+}\|_2^2
+\lesssim
+\langle \mathsf G_J^{-1}m_J,p_J\rangle_+
++dReturn+dMotion+dLegal+dStop+dEnd .
+\tag{TFE.1407}
+\]
+
+For Schur-thin residence, the current has not stayed long enough to be paid by
+Schur pairing.  Then the full-output detector must have material source
+variation:
+
+\[
+\sum_{\chi_B<\eta}
+\sup_B\|G_B^{-1/2}m_B\|\,
+{\rm Var}_B^P(G_B^{-1/2}p_B)
+\le
+\theta\nu\sum_BD_B
++C_\eta\int_{\operatorname{Hist}(P)}\Theta_P^{root}
++Paid_P .
+\tag{TFE.1408}
+\]
+
+This is the exact physical content of the nonendpoint \(L^1\) gap.  A positive
+full-output pulse that is already admitted and retained can evade Schur
+residence only by turning on, turning off, oscillating, changing direction,
+moving the parent carrier, hitting a boundary of the lawful selector, or
+becoming endpoint material.  The proof still has to derive `(TFE.1408)' from
+the differentiated full-output pressure-Hodge/viscous/material stress-current
+equation with the strict \(\theta<1\) margin.
+
+Thus the current full-output reduction is:
+
+\[
+\text{installed full-output admission/update}
++\text{ retained Schur-thick accretivity}
++\text{ Schur-thin source thickness}
++\text{ terminal no-atom}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\tag{TFE.1409}
+\]
+
+The installed support is the full-output admission/update and the Schur-thick
+case once visibility holds.  The unproved producer is the bounded-below
+material lower bound for the upcrossing storage, with `(TFE.1408)' as the
+nonendpoint analytic core and `(TFE.1392)'--`(TFE.1393)' as the endpoint core.
+
+## 125. Schur-thin pushes down to actual selected-density capture
+
+The older bounded-below service-storage note already pushes the Schur-thin
+nonendpoint branch below `(TFE.1408)'.  That pushdown should be kept in the
+current L1 frontier, because otherwise the proof keeps stopping one level too
+early.
+
+After full-output admission/update, write the retained positive coefficient as
+
+\[
+dq_i=b_i\,dt+dR_i,
+\qquad
+c_i=b_i^+ .
+\tag{TFE.1410}
+\]
+
+Split the positive read into current-visible and current-invisible pieces:
+
+\[
+V_i=\{q_i^+\ge \eta\nu^{-1}c_i\},
+\qquad
+Z_i=\{q_i^+< \eta\nu^{-1}c_i\}.
+\tag{TFE.1411}
+\]
+
+On \(V_i\), Schur pays the square:
+
+\[
+\nu^{-1}\int_{V_i}c_i^2\,dt
+\le
+\eta^{-1}\int_{V_i}q_i^+c_i\,dt .
+\tag{TFE.1412}
+\]
+
+The hard set is \(Z_i\).  There the positive full-output source is already
+admitted, but its current coordinate is too small to see the square.  The older
+descent proves the following: if a high-density invisible subinterval is a
+lawful retained same-carrier child, then repeated failure of a material time
+floor forces a nested retained chain.  Such a chain cannot accumulate at an
+interior time of a smooth preterminal solution, so it lands on the same-witness
+terminal face.  Equivalently,
+
+\[
+\text{retained invisible Schur-thin child}
+\Longrightarrow
+\text{time floor}
+\quad\text{or}\quad
+\text{same-witness endpoint face.}
+\tag{TFE.1413}
+\]
+
+With the time floor, Schur residence gives `(TFE.1408)'.  Without the time
+floor, the event is terminal material and belongs to `(TFE.1392)'--`(TFE.1393)'.
+
+So the real nonendpoint issue is not the descent itself.  It is the missing
+refinement admission that turns a raw invisible square density into a lawful
+same-carrier child before applying the descent:
+
+\[
+\begin{array}{c}
+\nu^{-1}\int_{Z_i}c_i^2\,dt\text{ remains after visible Schur payment,}\\
+\text{first-entry novelty, return, motion, viscosity, legal, and stop}\\
+\Longrightarrow\\
+\exists J\subset Z_i\text{ admitted as a retained same-carrier child,}\\
+\nu^{-1}\int_Jc_i^2\,dt\ge c\nu^{-1}\int_{Z_i}c_i^2\,dt,\\
+\text{or the failure is the same-witness endpoint face.}
+\end{array}
+\tag{TFE.1414}
+\]
+
+First-hit stopping removes the future-interval lookahead.  Define the parent
+square score
+
+\[
+A_i(t)=\nu^{-1}\int_{t_i}^{t}1_{Z_i}(\sigma)c_i(\sigma)^2\,d\sigma ,
+\tag{TFE.1415}
+\]
+
+and stop when \(A_i\) reaches the parent-declared quantum.  Then the interval is
+parent-announced.  The remaining defect is the cutoff trace:
+
+\[
+d(\chi_J\Psi)=\chi_J\,d\Psi+\Psi\,d\chi_J .
+\tag{TFE.1416}
+\]
+
+Thus the child-refinement theorem reduces to charging
+
+\[
+\sup_{\|\alpha\|_{L^2(J)}\le1}
+\nu^{-1}\left|\mathcal E_{i,J,\alpha}^{\partial J}\right|^2
+\le Paid_{i,J}+End_{i,J},
+\tag{TFE.1417}
+\]
+
+where the trace includes time cutoff, pressure-Hodge, material frame, collar,
+route, viscosity, legal, stop, and endpoint terms.
+
+The legal stopped interval has only three statuses.  It is a parent-announced
+first exit, a fixed-core replay of the same stopped score, or a changed
+question:
+
+\[
+\text{stopped invisible child}
+\Longrightarrow
+FE(P)\ \vee\ FC(P)\ \vee\
+Paid_{motion/route/legal/stop}+End.
+\tag{TFE.1418}
+\]
+
+The first-exit branch is paid by derivative representation and harmonic Cauchy.
+The fixed-core replay branch is admitted by the stopped score
+
+\[
+P_R=\Gamma_R Z^S,
+\tag{TFE.1419}
+\]
+
+and its selected bill is paid only after the same root record has moved by a
+selected quantum:
+
+\[
+\omega_J^{ret}
+\le
+C_NH_J\left({\Delta_J^-P_R\over |J|}\right)^2
++Paid(J),
+\tag{TFE.1420}
+\]
+
+followed by the original root-geometry payment
+
+\[
+H_J\left({\Delta_J^-P_R\over |J|}\right)^2
+\le
+\int_Jw|G_{\rm root}^{new}|^2+R_J^{legal},
+\tag{TFE.1421}
+\]
+
+where
+
+\[
+G_{\rm root}^{new}
+=
+\partial_\sigma Z^S
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
++\operatorname{conn}_\sigma .
+\tag{TFE.1422}
+\]
+
+Raw root square capacity still does not beat the half-tail.  The missing
+parent-state deletion has to give selected-density gain:
+
+\[
+d\mu_{\rm root}^{sel}
+\le
+C f_{pc}\,d\mathcal R_{\rm root}
++dPaid+dEnd,
+\tag{TFE.1423}
+\]
+
+with a parent-current log-density equation
+
+\[
+\Delta_Q\log f_{pc}
+=
+\ell_Q(\Delta_QZ_{pc})
+-\psi_Q+e_Q+\Delta_Q^{lab},
+\qquad
+\|\ell_Q\|\le C,
+\tag{TFE.1424}
+\]
+
+and square-function control from the original coupled packet:
+
+\[
+\sup_{P'\subset P}
+{1\over \mathcal R_{\rm root}(P')}
+\sum_{Q\subset P'}
+\left(
+\|\Delta_QZ_{pc}\|_{\mathcal H_P}^2
++|e_Q|^2
++|\Delta_Q^{lab}|^2
+\right)
+\mathcal R_{\rm root}(Q)
+\le C_N(u_0)+R_{\rm legal}(P')+Stop(P').
+\tag{TFE.1425}
+\]
+
+Then stopped John--Nirenberg/Gehring gives a reverse-Holder gain for
+\(f_{pc}\), transfers it to the actual selected density by `(TFE.1423)', and
+packs the selected root reserve.  This supplies the bounded-below material
+state behind `(TFE.1403)'--`(TFE.1405)'.
+
+The refined current edge is therefore:
+
+\[
+\begin{array}{c}
+\text{full-output admission/update is installed support;}\\
+\text{Schur-thick and Schur-thin nonendpoint reduce to stopped child admission;}\\
+\text{first-exit and fixed-score replay reduce to root geometry;}\\
+\text{raw root geometry needs selected-density exponent lift;}\\
+\text{the exponent lift needs `(TFE.1423)'--`(TFE.1425)' from original data;}\\
+\text{failure after that is terminal no-replay/no-atom.}
+\end{array}
+\tag{TFE.1426}
+\]
+
+Physically, this is the exact state-count mechanism Thomas was pointing at.
+The pressure-compatible field may keep re-coordinating the packet, and the
+viscous heat-lag readout may keep revealing the result, but the number of
+selected future states can decrease only if the parent packet produces a
+log-density record of which active possibilities were opened and then deleted.
+Raw energy says how much square mass exists.  The log-density square function
+says how many selected arrangements that mass is allowed to become before the
+same parent history runs out of admissible state changes.
+
+This still does not prove Gold.  It replaces the vague missing \(L^1\) story by
+the concrete original-data theorem `(TFE.1423)'--`(TFE.1425)' plus terminal
+no-atom.  Those are the objects that would make `(TFE.1395)' a theorem instead
+of a target inequality.
