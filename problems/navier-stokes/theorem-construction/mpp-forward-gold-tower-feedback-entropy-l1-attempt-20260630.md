@@ -10642,3 +10642,630 @@ upcrossings are finite only when each one consumes a root-visible critical
 endpoint resource or pays return/reset/exchange/legal/stop.  The proof is open
 exactly because the repo has not constructed that bounded original resource
 for arbitrary data.
+
+## 67. What the L1 proof is physically missing
+
+The source audit rules out the cheap meanings of \(B\).  It cannot be raw
+energy, outer-boundary stress work, a signed current, a local shell storage, or
+the descendant positive tail.  The physical object still missing is an active
+capacity of the same original packet: the finite stock of pressure-Hodge/strain
+arrangements that can still become selected heat-lag velocity/strain readouts
+after the pressure feedback loop has re-coordinated the packet.
+
+For a stopped parent material packet \(P\), the coupled law produces one
+parent signal
+
+\[
+Z_P(t)
+=
+\text{the pressure-Hodge-strain-frame state of the transported packet.}
+\tag{TFE.715}
+\]
+
+The pressure side is the instantaneous compatibility/co-ordination map
+
+\[
+Z_P(t)\longmapsto \mathcal C_P(t)Z_P(t),
+\tag{TFE.716}
+\]
+
+and the heat/viscous side is the delayed readable child map
+
+\[
+U_{P,\tau}(t)
+=
+e^{\nu\tau\Delta_P}\mathcal C_P(t)Z_P(t).
+\tag{TFE.717}
+\]
+
+A selected child readout is then
+
+\[
+R_Q
+=
+\left\langle U_{P,\tau_Q},\psi_Q\right\rangle,
+\qquad
+A_+(Q)=\omega_Q [R_Q]_+ .
+\tag{TFE.718}
+\]
+
+This is the exact point of the \(L^1\) problem.  The map
+\(Z_P\mapsto U_{P,\tau}\) is one continuum unfolding of one original signal,
+but the proof is selecting many positive readouts \(A_+(Q)\).  Finite square
+energy and parent ownership do not yet say that the positive selected reads
+cannot be counted forever.  The proof needs a parent-known active-capacity
+measure
+
+\[
+d\mathsf C_P^{act}
+\tag{TFE.719}
+\]
+
+on the endpoint/cocycle variables
+
+\[
+\alpha=(\text{carrier},x,t,\lambda,\tau,\xi,\text{selector state}),
+\tag{TFE.720}
+\]
+
+constructed before the child positive clipping in `(TFE.718)`.  The Bellman
+storage must be the remaining mass of this capacity,
+
+\[
+B(Q)=\mathsf C_Q^{act}(\mathcal A_Q),
+\tag{TFE.721}
+\]
+
+not the future sum of selected descendants.
+
+The theorem needed to close \(L^1\) is the active capacity-deletion inequality:
+for every retained parent \(Q\),
+
+\[
+\sum_{Q'\in ch(Q)}A_+(Q')
++
+\sum_{Q'\in ch(Q)}B(Q')
+\le
+B(Q)
++
+\theta\nu\int_{I_Q}\|\Lambda^{3/2}u(t)\|_2^2\,dt
++
+Paid_{\rm route}(Q),
+\qquad \theta<1.
+\tag{TFE.722}
+\]
+
+The root must be bounded from the original smooth data:
+
+\[
+B(Q_{\rm root})
+\le
+C_N(u_0)+Paid_{\rm route}(Q_{\rm root}).
+\tag{TFE.723}
+\]
+
+Along a single branch this reads
+
+\[
+dA^{sel,+}
+\le
+-dB
++
+\theta\nu\|\Lambda^{3/2}u(t)\|_2^2\,dt
++
+dPaid_{\rm route}.
+\tag{TFE.724}
+\]
+
+That is the mathematical form of the physical feedback story.  Pressure may
+re-coordinate the remaining velocity state instantly; self-advection may move
+the packet; viscosity may delay and smooth the readable child response.  But
+after the already paid motion, return, reset, exchange, legal, stop, and
+endpoint branches are removed, a positive selected readout is allowed only by
+deleting a parent-known active capacity atom of the same coupled packet, or by
+spending the strict \(\theta\)-fraction of viscous critical reserve.
+
+The affine half-tail shows why this capacity cannot be raw material mass.  A
+shrinking interior child can have
+
+\[
+A_+(Q_r)\simeq1,
+\qquad
+E_{\rm raw}(Q_r)+D_{\rm raw}(Q_r)+\text{outer boundary/collar cost}
+\lesssim r,
+\tag{TFE.725}
+\]
+
+so \(\sum r<\infty\) is compatible with infinitely many unit selected reads.
+The missing capacity must see scale-normalized interior pressure-Hodge/strain
+accessibility, not only physical volume, raw \(L^2\), or outer boundary flux.
+
+The feedback-loop theorem therefore has four noncircular clauses.
+
+First, parent-known construction:
+
+\[
+d\mathsf C_P^{act}
+=
+\mathcal F(A,G,q,v,\nabla_a v,\text{Hodge/collar/frame data})
+\tag{TFE.726}
+\]
+
+is measurable from the original transported packet before any child selector
+takes the positive part.
+
+Second, lower admission: every retained selected child readout has a
+scale-critical endpoint seed inside that capacity,
+
+\[
+A_+(Q)
+\le
+C_N\,\mathsf C_P^{act}(E_Q)
++
+Paid_{\rm route}(Q),
+\tag{TFE.727}
+\]
+
+where \(E_Q\) is the parent-announced endpoint/cocycle atom for \(Q\).
+
+Third, upper packing: genuinely fresh endpoint/cocycle atoms have bounded
+overlap in the original packet,
+
+\[
+\sum_{Q\subset P}\mathsf C_P^{act}(E_Q)
+\le
+B(P)+Paid_{\rm route}(P).
+\tag{TFE.728}
+\]
+
+Fourth, feedback monotonicity: pressure feedback can change the co-ordinate
+chart for the remaining state, but chart motion is a paid connection/return
+term and cannot increase the active capacity faster than the viscous deletion
+and route ledger:
+
+\[
+d\mathsf C_P^{act,+}
+\le
+\theta\nu\|\Lambda^{3/2}u(t)\|_2^2\,dt
++
+dReturn+dReset+dMotion+dExchange+dLegal+dStop.
+\tag{TFE.729}
+\]
+
+`(TFE.726)`--`(TFE.729)` are exactly the missing physical package behind
+`PositiveCriticalTransferDepletion.A`.  They are also the precise entropy
+version of the picture: not passive heat entropy, but active state
+accessibility.  The accessible future states shrink because the heat/viscous
+handoff assigns lifetimes to frequencies; pressure feedback is allowed to
+re-coordinate the remaining futures, but it must do so through the same
+parent-known connection/cocycle ledger.
+
+The existing repo pieces fit around this package as consumers:
+
+\[
+\begin{aligned}
+\text{first-exit derivative reset}
+&\Rightarrow \text{Cauchy payment},\\
+\text{Schur-thick retained current}
+&\Rightarrow \text{Schur storage payment},\\
+\text{fresh orthogonal first entry}
+&\Rightarrow \text{Bessel payment},\\
+\text{finite donor/refill graph}
+&\Rightarrow \text{donor telescope},\\
+\text{zero-cost retained limit}
+&\Rightarrow \text{rigidity after tightness}.
+\end{aligned}
+\tag{TFE.730}
+\]
+
+None of those constructs \(d\mathsf C_P^{act}\) with `(TFE.722)`--`(TFE.723)`.
+They close branches after active capacity has already admitted the event.
+
+So the exact closure chain is
+
+\[
+\text{ActiveCapacityDeletion.A}
+\Longrightarrow
+\text{PositiveCriticalTransferDepletion.A}
+\Longrightarrow
+\text{`(TFE.706)'--`(TFE.707)'}
+\Longrightarrow
+\text{terminal-uniform \(L^1\)}
+\tag{TFE.731}
+\]
+
+and then the already installed Gold relay continues the solution.
+
+Current status: `(TFE.726)`--`(TFE.729)` are not installed.  The repo has the
+right physical target and many branch consumers, but it still lacks the
+noncircular construction of the parent-known active capacity and its monotone
+deletion inequality from the original coupled Navier-Stokes packet.
+
+## 68. Entropy capacity is the exact deterministic L1 telescope
+
+The natural heat-square capacity is too weak.  If
+
+\[
+d\mathsf C_{P}^{heat}(Q)
+=
+\|\Delta_QZ_P\|_{\mathcal H_{\rm raw}}^2\,\mathcal R(Q),
+\tag{TFE.732}
+\]
+
+then raw Bessel/tent packing gives
+
+\[
+\sum_{Q\subset P}d\mathsf C_P^{heat}(Q)<\infty .
+\tag{TFE.733}
+\]
+
+But `(TFE.732)` still permits the critical half-tail
+
+\[
+d\mathsf C_P^{heat}(Q_\ell)
+=
+{2^{-\ell}\over \ell+1},
+\qquad
+A_+(Q_\ell)
+=
+2^\ell d\mathsf C_P^{heat}(Q_\ell)
+=
+{1\over \ell+1}.
+\tag{TFE.734}
+\]
+
+Thus
+
+\[
+\sum_\ell d\mathsf C_P^{heat}(Q_\ell)<\infty,
+\qquad
+\sum_\ell A_+(Q_\ell)=\infty .
+\tag{TFE.735}
+\]
+
+So the heat/tent square measure is only the square readout of the parent
+signal.  It is not the active capacity needed by `(TFE.722)`.
+
+The correct deterministic object is selected-density entropy.  Let
+\((\mathcal T,\mathcal R)\) be a retained parent-known material tree.  Let
+\(\mu_{sel}=f\,d\mathcal R\) be the selected positive readout measure after the
+pointwise material differential has been taken but before future descendant
+tail summation.  For a node \(P\), write
+
+\[
+f_P={1\over \mathcal R(P)}\int_P f\,d\mathcal R,
+\qquad
+r_Q={f_Q\over f_P}
+\quad (Q\in ch(P)).
+\tag{TFE.736}
+\]
+
+Define the parent entropy storage
+
+\[
+\mathsf H(P)
+=
+\int_P f\log {f\over f_P}\,d\mathcal R .
+\tag{TFE.737}
+\]
+
+This storage is parent-known once \(f\) is produced from a stopped
+same-material log-amplification carrier.  It is not parent-known if \(f\) is
+defined as the future selected descendant tail.
+
+For any child partition of \(P\), entropy has the exact chain rule
+
+\[
+\mathsf H(P)
+=
+\sum_{Q\in ch(P)}\mathsf H(Q)
++
+\sum_{Q\in ch(P)} f_Q\mathcal R(Q)\log r_Q .
+\tag{TFE.738}
+\]
+
+Therefore, on the retained high-ratio branch \(r_Q\ge2\),
+
+\[
+f_Q\mathcal R(Q)
+\le
+{1\over\log2}\,
+f_Q\mathcal R(Q)\log r_Q .
+\tag{TFE.739}
+\]
+
+Combining `(TFE.738)` and `(TFE.739)` gives the deterministic deletion
+inequality
+
+\[
+\sum_{\substack{Q\in ch(P)\\ r_Q\ge2}}
+f_Q\mathcal R(Q)
++
+{1\over\log2}\sum_{Q\in ch(P)}\mathsf H(Q)
+\le
+{1\over\log2}\mathsf H(P).
+\tag{TFE.740}
+\]
+
+With paid route terms restored, `(TFE.740)` is exactly `(TFE.722)` in entropy
+coordinates:
+
+\[
+\sum_{Q\in ch(P)}A_+(Q)
++
+\sum_{Q\in ch(P)}B_{\rm ent}(Q)
+\le
+B_{\rm ent}(P)+Paid(P),
+\tag{TFE.741}
+\]
+
+where
+
+\[
+B_{\rm ent}(P)={1\over\log2}\mathsf H(P),
+\qquad
+A_+(Q)\simeq f_Q\mathcal R(Q)\mathbf 1_{\{r_Q\ge2\}}
+\tag{TFE.742}
+\]
+
+after the lower-ratio, reuse, return, reset, motion, legal, stop, and endpoint
+pieces are routed by the already listed branch ledgers.
+
+Summing `(TFE.741)` over a stopped finite tree \(\mathcal T\) gives
+
+\[
+\sum_{Q\in\mathcal T}A_+(Q)
++
+\sum_{Q\in\partial\mathcal T}B_{\rm ent}(Q)
+\le
+B_{\rm ent}(Q_{\rm root})
++
+Paid(\mathcal T).
+\tag{TFE.743}
+\]
+
+Since \(B_{\rm ent}\ge0\), terminal exhaustion gives
+
+\[
+\sum_{Q\subset Q_{\rm root}}A_+(Q)
+\le
+B_{\rm ent}(Q_{\rm root})+Paid(Q_{\rm root}).
+\tag{TFE.744}
+\]
+
+Thus the \(L^1\) summation is no longer mysterious once parent-known entropy
+capacity is available.  The missing PDE theorem is exactly the root entropy
+production
+
+\[
+B_{\rm ent}(Q_{\rm root})
+\le
+C_N(u_0)+Paid(Q_{\rm root})
+\tag{TFE.745}
+\]
+
+from the original coupled packet.
+
+This is the same theorem as the repo's stopped selected log-amplification/BMO
+surface.  In that language, construct
+
+\[
+\log r_Q
+=
+\ell_Q(\Delta_QZ^S)-\psi_Q+e_Q
+\tag{TFE.746}
+\]
+
+with
+
+\[
+\sup_{P'\subseteq P}
+{1\over\mathcal R(P')}
+\sum_{Q\subseteq P'}
+\left(
+\|\Delta_QZ^S\|_{\mathcal H}^2+|e_Q|^2
+\right)\mathcal R(Q)
+\le
+C_N(u_0)+{R_{\rm legal}(P')\over\mathcal R(P')}.
+\tag{TFE.747}
+\]
+
+John--Nirenberg/Kazamaki or the martingale good-\(\lambda\) theorem then gives
+a reverse-Holder estimate
+
+\[
+\int_{P'} f^{1+\varepsilon}\,d\mathcal R
+\le
+C f_{P'}^{1+\varepsilon}\mathcal R(P'),
+\tag{TFE.748}
+\]
+
+which implies `(TFE.745)` and therefore `(TFE.744)` by the layer-cake estimate
+
+\[
+\sum_{\ell\ge0}2^\ell
+f_{P'}
+\mathcal R\{x\in P':f(x)>2^\ell f_{P'}\}
+\le
+C_\varepsilon f_{P'}\mathcal R(P').
+\tag{TFE.749}
+\]
+
+The physical meaning is now exact.  The number of accessible future states is
+not controlled by raw heat-square mass; it is controlled by the log of selected
+amplification relative to the parent packet.  Each high-ratio child readout
+uses up entropy of the parent-known selected-density process.  Pressure
+feedback may change the coordinates of that process, but those changes are
+visible as \(\Delta_QZ^S\), \(\psi_Q\), and \(e_Q\) in `(TFE.746)` before the
+child positive readout is counted.
+
+The remaining proof is therefore
+
+\[
+\boxed{
+\text{OriginalHistorySelectedLogAmplificationCarleson.A}
+\Longrightarrow
+\text{ActiveCapacityDeletion.A}
+\Longrightarrow
+\text{terminal-uniform \(L^1\)}.
+}
+\tag{TFE.750}
+\]
+
+The first implication is now deterministic by `(TFE.738)`--`(TFE.749)`.  The
+unproved line is only the PDE production of the stopped log-amplification
+carrier \(Z^S\) and its root Carleson bound `(TFE.747)` from the original
+pressure-viscosity-incompressibility-velocity packet.
+
+## 69. The PDE producer for the entropy carrier
+
+The stopped BMO surfaces show that `(TFE.747)` is not produced by formal
+adjoint solvability or by raw Hilbert freshness.  It is produced only after two
+same-packet estimates are proved.
+
+The first estimate is the source-origin Hilbert energy law.  The stopped
+carrier must split into the coupled pressure-visible, pressure-silent, and
+exchange pieces
+
+\[
+Z^S=Z^S_{\rm vis}\oplus Z^S_{\rm sil}\oplus Z^S_{\rm ex},
+\tag{TFE.751}
+\]
+
+where the three summands are constructed from the original transported
+pressure-Hodge/strain/frame packet, not from the future selected density.  The
+required energy inequality is
+
+\[
+d\mathcal B_N
++
+c\,d\mathcal E_N^{logamp}
+\le
+C\,d\Omega_N^{top\text{-}strain/exchange}
++
+C\,d\Omega_N^{selector/orderlock}
++
+dR_N^{legal}
++
+dStop_N,
+\qquad
+\mathcal B_N\ge -C_N(u_0),
+\tag{TFE.752}
+\]
+
+with
+
+\[
+d\mathcal E_N^{logamp}(P)
+\simeq
+\sum_{Q\subseteq P}
+\|\Delta_QZ^S\|_{\mathcal H}^2\,\mathcal R(Q).
+\tag{TFE.753}
+\]
+
+Integrating `(TFE.752)` over every stopped subtree gives the root square
+function part of `(TFE.747)`.
+
+The second estimate is selector-carrier nondegeneracy, or paid reselection.
+The selected scalar must be a controlled readout of the same carrier:
+
+\[
+|\log r_Q|
+\le
+C\|\Delta_QZ^S\|_{\mathcal H}
++
+e_Q^{sel}+e_Q^{ol}+e_Q^{legal},
+\tag{TFE.754}
+\]
+
+and the selector/order-lock errors must pack before the selected tail is known:
+
+\[
+\sum_{Q\subseteq P}
+\left(
+|e_Q^{sel}|^2+|e_Q^{ol}|^2+|e_Q^{legal}|^2
+\right)\mathcal R(Q)
+\le
+R_{paid}(P).
+\tag{TFE.755}
+\]
+
+If a selected label moves so that `(TFE.754)` would fail on a fixed carrier,
+the movement must be charged by a stopped reselection measure
+
+\[
+\sum_{Q\subseteq P}
+|\Delta_Q^{lab}\log f_{sel}|^2\mathcal R(Q)
+\le
+C_N(u_0)\mathcal R(P)+R_{stop}(P)+R_{legal}(P),
+\tag{TFE.756}
+\]
+
+where \(R_{stop}\) is parent-known and is not the future descendant action
+tail.
+
+Together, `(TFE.752)`--`(TFE.756)` imply `(TFE.747)`, hence `(TFE.750)`.  This
+is a proof-theoretic reduction, not a new name:
+
+\[
+\begin{aligned}
+&\text{SourceOriginHilbertEnergyDissipationForSelectedAmplification.A}\\
+&\quad+
+\text{SelectorCarrierNondegeneracyOrPaidReselection.A}\\
+&\Longrightarrow
+\text{OriginalHistorySelectedLogAmplificationCarleson.A}.
+\end{aligned}
+\tag{TFE.757}
+\]
+
+The stopped \(Tb\) / adjoint-testing route is equivalent at this point.  For
+each stopped packet \(P\), one would construct tests \(b_P\) for the
+same-material transform \(T_S\) with
+
+\[
+|\langle b_P\rangle_P|\ge c,
+\qquad
+\|b_P\|_{L^2(P,\mathcal R)}^2\le C\mathcal R(P),
+\tag{TFE.758}
+\]
+
+and
+
+\[
+\|T_S(b_P\nu^S)\|_{L^2(P,\mathcal R)}^2
+\le
+C\mathcal R(P)+Def_{test}(P)+C R_{legal}(P),
+\qquad
+\sum_{P\subseteq P_0}Def_{test}(P)
+\le
+C\mathcal R(P_0)+C R_{legal}(P_0).
+\tag{TFE.759}
+\]
+
+The adjoint equation can produce formal tests, but it does not by itself prove
+the nondegenerate mean in `(TFE.758)` or the testing-defect Carleson packing in
+`(TFE.759)`.  Those are the same physical requirements as `(TFE.752)` and
+`(TFE.754)`--`(TFE.756)`: the carrier must have original-history energy, and
+the selected scalar must remain attached to that carrier or pay reselection.
+
+Thus the \(L^1\) problem is now split cleanly:
+
+\[
+\boxed{
+\begin{gathered}
+\text{PDE producer: `(TFE.752)'--`(TFE.756)' or `(TFE.758)'--`(TFE.759)'}\\
+\Downarrow\\
+\text{entropy capacity: `(TFE.746)'--`(TFE.750)'}\\
+\Downarrow\\
+\text{active deletion: `(TFE.740)'--`(TFE.744)'}\\
+\Downarrow\\
+\text{terminal-uniform \(L^1\).}
+\end{gathered}
+}
+\tag{TFE.760}
+\]
+
+Current status: the deterministic entropy and active-deletion implications are
+installed in this note.  The PDE producer `(TFE.752)`--`(TFE.756)`, or
+equivalently the stopped adjoint testing package `(TFE.758)`--`(TFE.759)`, is
+not installed from original coupled data.
