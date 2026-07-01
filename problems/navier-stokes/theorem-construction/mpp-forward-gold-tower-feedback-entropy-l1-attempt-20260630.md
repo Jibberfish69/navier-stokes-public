@@ -3077,3 +3077,199 @@ The checked repo state does not prove `(TFE.184)` or `(TFE.188)` at theorem
 grade.  It proves the algebra after them, the local material-log placement
 before them, the residual/object-match passage around them, and the support
 orientation identities feeding them.
+
+## 25. Entropy-source audit: what the state count still has to get from the packet
+
+The entropy picture is now the correct parent object, but it is not an
+independent source of payment.  The parent capacity \(\Phi_P\) counts
+future same-material pressure--heat--viscous packet histories still accessible
+before selected child clipping.  Therefore its positive variation must be
+produced by actual motion of the same coupled material record:
+
+\[
+d[\Phi_P]_+
+\lesssim
+dA_{4B,N}^{ann}
++d[\log(1+\mathcal P_{P,N})]_+
++d\mathcal K_{iface}
++d\mathcal L_{4B,N}
++dPaid_P .
+\tag{TFE.190}
+\]
+
+This is the point of `(TFE.172)`--`(TFE.179)`: entropy loss is not abstract
+combinatorics.  It lives in the material map, pressure/Hodge frame, transported
+collar, strain/viscous tower, coefficient tower, and annular stress-work record
+of the same parent packet.  A selected child positive readout can be counted
+only after this parent record has either moved by a distinguishable amount or
+the branch has entered legal, stop, return, reselection, or endpoint-face
+material.
+
+The direct material tower calculation gives only the growth side of this
+record:
+
+\[
+dE_{N,P}
++dD_{N,P}^{vis}
++dD_{N,P}^{rad}
+\le
+C\,\Theta_{N,P}E_{N,P}\,dt+dR^0_{N,P},
+\tag{TFE.191}
+\]
+
+hence
+
+\[
+d[\log(1+E_{N,P})]_+
+\le
+C\,\Theta_{N,P}\,dt+dR^0_{N,P}.
+\tag{TFE.192}
+\]
+
+Here \(\Theta_{N,P}\) is not a pressure-only clock.  It is the same coupled
+pressure--viscosity--incompressibility--velocity service rate: material strain,
+coefficient/metric motion, pressure/Hodge motion, collar motion, annular
+stress-work, and viscous/tower loss in one transported packet.  Thus `(TFE.192)`
+says how the accessible-state count can grow; it does not prove the state count
+has finite positive variation.
+
+The local bounded-storage route fails for a concrete reason.  In the persistent
+affine-strain normal form
+
+\[
+E'(\sigma)=aE(\sigma),\qquad a>0,
+\tag{TFE.193}
+\]
+
+one has \(d[\log(1+E)]_+\simeq a\,d\sigma\) on large-record intervals.  A local
+bounded-below storage \(X\) paying this positive clock would imply
+
+\[
+dX+c\,a\,d\sigma\le dR,\qquad X\ge -C,\qquad \int dR<\infty .
+\tag{TFE.194}
+\]
+
+Integrating over a long affine-strain interval gives
+
+\[
+c\,aT
+\le
+X(0)-X(T)+\int_0^T dR
+\le
+X(0)+C+\int_0^T dR,
+\tag{TFE.195}
+\]
+
+which is impossible for arbitrarily long retained affine-strain service.  So
+the missing producer cannot be a purely local finite-tower cross-storage.  It
+has to be a nonlocal same-parent partner-retention theorem: every affine or
+root-average pressure-memory recoordination that opens future accessible states
+must retain its annular stress/strain, metric, collar, pressure/Hodge, and
+viscous partner as finite original-history full-clock mass, or the branch must
+exit through the same-witness endpoint/participation face.
+
+The exact nonlocal full-clock statement is
+
+\[
+\int_{\operatorname{Hist}(P)} d\Omega_{P,N}^{full}
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P),
+\tag{TFE.196}
+\]
+
+where
+
+\[
+d\Omega_{P,N}^{full}
+:=
+dA_{4B,N}^{ann}
++C_{log}d[\log(1+\mathcal P_{P,N})]_+
++d\mathcal K_{iface}
++d\mathcal L_{4B,N}.
+\tag{TFE.197}
+\]
+
+Equivalently, `(TFE.196)` is either a bounded-below signed same-packet
+symmetrizer
+
+\[
+\mathcal I_{N,P}
++dX_{P,N}
++c\,d\Omega_{P,N}^{full}
+\le
+\varepsilon dD_{N,P}^{vis}
++\varepsilon dD_{N,P}^{rad}
++dR^0_{N,P},
+\qquad X_{P,N}\ge -C_N(u_0),
+\tag{TFE.198}
+\]
+
+or an independently proved finite coupled service clock
+\(\int\Theta_{N,P}<\infty\) strong enough to imply `(TFE.196)`.  The checked
+`Coupled PLS` and signed-commutator construction attempts verify the one
+transaction identity, but they do not construct `(TFE.198)`; the Riccati/Gramian
+construction is circular unless no-return/full-clock finiteness is already
+known.
+
+The named \(\Theta_N\) and partner-retention surfaces confirm this source
+state.  `FullMovingSameMaterialServiceCarrierThetaNL1.A` and
+`FiniteTotalThetaNServiceCoordinateHardObstruction.A` identify
+\(\int_0^{T_*}\Theta_N(t)\,dt<\infty\) as exactly the full moving same-material
+clock estimate, not as an installed consequence of energy, fixed-collar
+service, annular stress-work attachment, Hodge correction, or top-strain
+storage.  `GlobalPressureStrainPartnerRetention.A` is a theorem-creation
+surface whose solver verdict reduces to
+`MovingLowHighPressureStrainPumpFiniteWork.A`; it is not an installed bridge.
+So the current source-audited form of `(TFE.196)`/`(TFE.198)` is: prove finite
+positive work of the moving low-high same-material pressure/strain pump below
+each active terminal shell, or route the survivor to the same-witness
+endpoint/participation face.
+
+The endpoint piece should be read through the same lens.  The uniform terminal
+annular-return argument is valid after same-packet admission and finite full
+clock:
+
+\[
+\widehat\rho_{A,P}\,ds
+\le
+C\,d\Omega_{P,N}^{full}+dR^0_{P,N},
+\qquad
+\int d\Omega_{P,N}^{full}<\infty .
+\tag{TFE.199}
+\]
+
+If a terminal strip keeps fixed normalized annular return, rescaling that strip
+creates a daughter heat-scale packet carrying fixed \(d\Omega^{full}\)-mass.
+The same-material dyadic overlap selection then contradicts finite
+`(TFE.196)`.  Thus endpoint no-atom for admitted annular return is downstream
+of the same full-clock producer; the Hardy/temporal regularity line `(TFE.188)`
+is one sufficient way to get the same no-terminal-strip conclusion, not a
+separate pressure-only payment account.
+
+For selected critical-density atoms, raw finite mass is still insufficient:
+\(\mu(B_r)\simeq r^\alpha\) gives a retained normalized density at every scale.
+Those atoms are excluded only by the same entropy deletion theorem
+`(TFE.165)`--`(TFE.167)`, by a terminal uniform-integrability improvement, or by
+same-witness endpoint/participation routing.  So the endpoint audit does not
+add a new Gold supplier; it says that admitted endpoint readouts are consumers
+of the same finite parent clock.
+
+The final audited Gold \(L^1\) chain is therefore:
+
+\[
+\text{nonlocal same-parent full-clock producer `(TFE.196)'/`(TFE.198)'}
+\Longrightarrow
+\text{entropy variation bound `(TFE.190)'}
+\Longrightarrow
+\text{state deletion `(TFE.165)'--`(TFE.167)'}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\tag{TFE.200}
+\]
+
+This is stricter than finite initial energy and stricter than same-parent
+ownership.  Finite smooth data gives finite entrance records.  Same-parent
+ownership prevents recount.  The \(L^1\) line additionally needs the original
+coupled packet to have finite positive full-clock variation while pressure
+feedback, viscous descent, metric motion, collar motion, and endpoint readout
+unfold through the same parent history.
