@@ -3749,3 +3749,339 @@ Therefore the entropy feedback proof now has a single parent form:
 The two-branch statement `(TFE.225)` is the branch decomposition of this parent
 reserve: no reset gives repeated-core record/return, and genuine reset gives the
 shrinking-core selected-capacity charge.
+
+## 29. Active-weight reset Cauchy: what part of the parent reserve is proved
+
+The reset countertest says the reset charge has to carry the selected active
+weight.  A raw fresh innovation square,
+
+\[
+\|\Delta Z_{Q\to Q'}^{fresh}\|_{\mathcal H_{raw}}^2,
+\tag{TFE.235}
+\]
+
+still admits the half-tail.  The corrected reset charge is critical-weighted:
+
+\[
+J_{crit}(Q\to Q')
+\simeq
+H_{I_e}(t)\|\Delta Z_e(t)\|_{\mathcal H_{lift}}^2
++J_{select/lock}^{crit}
++J_{collar/turn}^{crit}
++R_{legal}.
+\tag{TFE.236}
+\]
+
+The noncircular analytic part is available for derivative-exact reset
+increments.  Let the child scale interval \(I_e\) be announced by the stopped
+parent history and suppose the fresh reset innovation has the same-material
+representation
+
+\[
+D_e(t)=
+{1\over |I_e|}
+\int_{I_e}
+\mathcal G_e(\sigma,t)\,d\sigma
++Err_e^{legal}(t),
+\tag{TFE.237}
+\]
+
+where
+
+\[
+\mathcal G_e
+=
+\partial_\sigma Z
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma .
+\tag{TFE.238}
+\]
+
+With active scale density \(w(\sigma,t)\), the harmonic active weight is
+
+\[
+H_{I_e}(t)
+=
+{|I_e|^2\over\int_{I_e}w(\sigma,t)^{-1}\,d\sigma}.
+\tag{TFE.239}
+\]
+
+Cauchy--Schwarz gives
+
+\[
+\left\|\int_{I_e}\mathcal G_e(\sigma,t)\,d\sigma\right\|^2
+\le
+\left(\int_{I_e}w^{-1}\,d\sigma\right)
+\left(\int_{I_e}w\|\mathcal G_e\|^2\,d\sigma\right).
+\tag{TFE.240}
+\]
+
+Dividing by \(|I_e|^2\) and multiplying by `(TFE.239)` cancels the dual factor:
+
+\[
+H_{I_e}(t)\|D_e(t)\|^2
+\le
+\int_{I_e}w(\sigma,t)\|\mathcal G_e(\sigma,t)\|^2\,d\sigma
++R_e^{legal}(t).
+\tag{TFE.241}
+\]
+
+If the parent-announced intervals have stopped bounded overlap,
+
+\[
+\sum_{e\subset P}1_{I_e\times T_e}(\sigma,t)
+\le C_N+R_{legal},
+\tag{TFE.242}
+\]
+
+then summing `(TFE.241)` gives the derivative-exact reset Carleson estimate:
+
+\[
+\sum_{e\subset P}
+\int H_{I_e}(t)\|D_e(t)\|^2\,dt
+\le
+C_N\int_{\operatorname{Hist}(P)}
+w(\sigma,t)\|\mathcal G(\sigma,t)\|^2\,d\sigma dt
++CR_{legal}(P).
+\tag{TFE.243}
+\]
+
+This is the precise mathematical version of the entropy feedback handoff: a
+fresh child can carry a high selected weight only when its appearance is the
+announced average of original parent-history motion across the scale interval.
+The harmonic weight is then the reciprocal Cauchy weight, so the selected
+readout is not being counted again as a new source.
+
+The remaining producer is not `(TFE.241)`--`(TFE.243)`.  Those are proved
+consumer algebra.  The open representation theorem is:
+
+\[
+\text{AnnounceableResetDerivativeRepresentation.A}
+\tag{TFE.244}
+\]
+
+Every strict fresh reset innovation must have a parent-announced interval and a
+representation of the form `(TFE.237)` with stopped bounded overlap, or the
+non-derivative survivor must route to one of the already isolated parent
+mechanisms: repeated-core record/return, negative scale return, second-order
+exactness, parent-known affine span, selector/reselection/collar/legal loss, or
+a same-witness endpoint/participation face.
+
+The persistent affine quotient is exactly the part not automatically covered by
+`(TFE.237)`.  A coefficient of the form
+
+\[
+c_F^{fresh}(t)
+=
+\int_I\theta_I(\sigma)Z^{fresh}(\sigma,t)\,d\sigma
+\tag{TFE.245}
+\]
+
+is not a derivative average unless the proof first supplies scale descent,
+turnstile/covector/exchange motion, or signed second-order exactness.  Applying
+`(TFE.241)` directly to `(TFE.245)` would assume the selected-critical weighted
+source norm.
+
+Thus the current reset-reserve proof line is
+
+\[
+\begin{gathered}
+\text{AnnounceableResetDerivativeRepresentation.A}\\
++\ \text{persistent-affine-quotient routing}
+\end{gathered}
+\Longrightarrow
+\text{CriticalWeightedParentChildResetCarleson.A}
+\Longrightarrow
+\text{ParentChildSelectedResetReserve.A}.
+\tag{TFE.246}
+\]
+
+The half-tail now has a sharper failure description.  It is no longer merely
+"fresh selected children with finite raw square."  It is a parent-announced
+sequence of increasingly active child intervals whose raw innovation mass is
+summable, whose active-weighted mass diverges, and whose increments are not
+representable as bounded-overlap original derivative/current averages and are
+not routed back into any same-parent record, return, exactness, reset, legal, or
+endpoint/participation face.
+
+## 30. Source-audit correction: reset geometry is a consumer, parent entropy storage is the producer
+
+The reset-representation audit changes the location of the live burden.  Under
+the stopped finite-score construction, a strict reset is already a parent-known
+first-exit event.  If \(q_e\) is the active stopped score and
+\(I_e=[\sigma_{in},\sigma_{out}]\) is the first-exit interval, then
+
+\[
+D_e(t)
+=
+q_e(\sigma_{out},t)-q_e(\sigma_{in},t)+Err_e^{legal}(t)
+=
+\int_{I_e}\partial_\sigma q_e(\sigma,t)\,d\sigma
++Err_e^{legal}(t),
+\tag{TFE.247}
+\]
+
+and the material chain rule gives
+
+\[
+\partial_\sigma q_e
+=
+\partial_\sigma Z
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
++Err^{legal}.
+\tag{TFE.248}
+\]
+
+Maximal first-exit slabs in a finite stopped-score, laminar material tree have
+bounded overlap:
+
+\[
+\sum_{e\subset P}1_{I_e\times T_e}\le C_N+R_{legal}(P).
+\tag{TFE.249}
+\]
+
+Therefore `(TFE.247)`--`(TFE.249)` feed directly into the active-weight Cauchy
+estimate `(TFE.241)`--`(TFE.243)`.  The reset branch is reduced to the routed
+current energy:
+
+\[
+\sum_{e\subset P}
+\int H_{I_e}(t)\|D_e(t)\|^2\,dt
+\le
+C_N\mathcal E_{route}(P)+R_{legal}(P)+Stop(P),
+\tag{TFE.250}
+\]
+
+where
+
+\[
+\mathcal E_{route}(P)
+=
+\int_{\operatorname{Hist}(P)}
+w\left(
+|\partial_\sigma Z|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
+\right).
+\tag{TFE.251}
+\]
+
+Thus the phrase `AnnounceableResetDerivativeRepresentation.A' should no longer
+be read as a broad analytic mystery.  It is structurally proved for retained
+finite-score first-exit resets.  The unresolved producer is the original
+parent-side bound for the current energy that appears on the right of
+`(TFE.250)`.
+
+The same correction applies to the persistent affine quotient.  The quotient
+
+\[
+c_F^{fresh}(t)=\int_I\theta_I(\sigma)Z^{fresh}(\sigma,t)\,d\sigma
+\tag{TFE.252}
+\]
+
+is not a derivative-exact reset average.  But once a parent-known selected
+record
+
+\[
+\mathfrak Z^S=(Z^S,\Psi^S,\Lambda^S)
+\tag{TFE.253}
+\]
+
+is constructed from original stopped history, the persistent quotient becomes a
+readout of that same record: fixed-core return is a face of \(Z^S\), the affine
+average is a face of \(\Psi^S\), and reset/amplification motion is a face of
+\(\Lambda^S\).  The consumer statement is
+
+\[
+\sum_{e\subset P}
+\int H_{e^-}\|D_e^{pers}\|^2
+\le
+C_N\mathcal E_{SPA}(P)+R_{legal}(P)+Stop(P),
+\tag{TFE.254}
+\]
+
+with \(\mathcal E_{SPA}\) the selected-potential/amplification BV/testing norm
+of the parent-known record.  This removes the affine quotient as an independent
+fourth bill; it does not construct the parent-known record.
+
+The operator projection side of that construction is also already finite in the
+repo's current audit.  In a retained stopped chart, the stopped route map is a
+parent-known finite matrix from the original participation differential to the
+routed coordinates:
+
+\[
+\mathcal R_S:
+\mathfrak D_{\rm NS}
+\longmapsto
+(\partial_\sigma Z,T_\sigma,E_\sigma,C_\sigma),
+\tag{TFE.255}
+\]
+
+and compactness of the stopped aperture/order-lock class gives
+
+\[
+w\left(
+|\partial_\sigma Z|^2+|T_\sigma|^2+|E_\sigma|^2+|C_\sigma|^2
+\right)
+\le
+C\,\Theta_{\rm part}^{orig}
++dR_{legal}+dStop.
+\tag{TFE.256}
+\]
+
+The remaining \(L^1\) theorem is therefore the parent entropy/full-action
+storage estimate, not reset Cauchy, not bounded overlap, and not scalar
+affine-quotient bookkeeping:
+
+\[
+\int_{\operatorname{Hist}(P)}
+\Theta_{\rm part}^{orig}
+\le
+C_N(u_0)+R_{legal}(P)+Stop(P).
+\tag{TFE.257}
+\]
+
+Equivalently, there must be a bounded-below original material organization
+functional \(\mathfrak M_P\) such that
+
+\[
+\Theta_{\rm part}^{orig}
+\le
+-d\mathfrak M_P+dR_{legal}+dStop,
+\qquad
+\mathfrak M_P(\operatorname{root}P)\le C_N(u_0).
+\tag{TFE.258}
+\]
+
+This is the formal version of the entropy picture.  The parent packet carries a
+finite accessible-history capacity before child clipping.  Pressure/heat/viscous
+feedback may re-coordinate which future states remain accessible, but the same
+coupled material law must make that re-coordination a projection of
+\(\Theta_{\rm part}^{orig}\), not a new selected source.  Once `(TFE.257)` or
+`(TFE.258)` is installed, the chain is direct:
+
+\[
+\begin{gathered}
+\text{parent entropy/full-action storage `(TFE.257)' or `(TFE.258)'}\\
+\Longrightarrow
+\mathcal E_{route}(P)+\mathcal E_{SPA}(P)\le C_N(u_0)+R_{legal}+Stop\\
+\Longrightarrow
+\text{critical reset/affine quotient packing}\\
+\Longrightarrow
+\text{ParentChildSelectedResetReserve.A}\\
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\end{gathered}
+\tag{TFE.259}
+\]
+
+So the \(L^1\) problem is now pinpointed in the entropy language: prove that the
+original coupled pressure-viscosity-incompressibility-velocity packet has finite
+parent-side accessible-history variation in the active route metric.  A retained
+child readout can then delete or reveal states, but it cannot create an
+unbounded new positive count after the parent capacity has already assigned the
+event one material lifetime.
