@@ -37871,3 +37871,386 @@ log ratio.  A child readout with no parent baseline is admitted as a first
 endpoint seed.  After that admission, the same coordinate cannot be counted as
 fresh again; it is ordinary Schur/Bessel/no-recount material in the parent
 history.
+
+## 225. The zero-baseline branch lands on the same active-transit wall
+
+Section 224 identifies the zero-baseline atom.  It does not prove the
+endpoint-seed packing theorem from original data.  The endpoint-seed statement
+`(TFE.2216)' is still a source theorem until it is supplied by the same
+full-exchange active-transit storage isolated in `(TFE.2302)'--`(TFE.2303)' and
+`(TFE.2426)'.
+
+The corrected readout split is this.  On the stopped parent readout continuum
+\(\mathcal Q_P^{ret}\), with parent disintegration measure understood, the
+selected positive readout before clipping satisfies
+
+\[
+dA_{P}^{sel,+}
+\le
+C_N\,d\rho_{crit,P}^{ac}
++C_N\,d\rho_{crit,P}^{entry}
++dA_{P}^{bd}
++dPaid_P .
+\tag{TFE.2590}
+\]
+
+Here \(dA_P^{bd}\) is the bounded-detector branch from Section 223,
+\(d\rho_{crit,P}^{ac}\) is the positive-baseline log branch `(TFE.2581)', and
+\(d\rho_{crit,P}^{entry}\) is the zero-baseline singular first-entry branch
+`(TFE.2582)'.  The first and third terms are consumers of the stopped
+root-generator clock:
+
+\[
+\int_{\mathcal Q_P^{ret}}
+\bigl(dA_P^{bd}+d\rho_{crit,P}^{ac}\bigr)
+\le
+C_N\int_{\operatorname{Hist}(P)}d\Omega_P^{gen}
++Paid(P),
+\tag{TFE.2591}
+\]
+
+by the bounded root-geometry estimate `(TFE.2573)' and the log-carrier/root
+Carleson chain `(TFE.2557)'--`(TFE.2567)'.
+
+The zero-baseline term is different.  It is not a log-ratio estimate.  It is
+the first-entry endpoint-seed measure:
+
+\[
+\int_{\mathcal Q_P^{ret}}d\rho_{crit,P}^{entry}
+\le
+C_N\int d\mathcal E_P^{EP}
++Paid(P),
+\tag{TFE.2592}
+\]
+
+with equality up to the parabolic normalization and paid reselection on the
+retained first-entry fibres, as in `(TFE.2586)'.
+
+The endpoint-seed consumer chain from Sections 191--196 says that
+\(\int d\mathcal E_P^{EP}\) is controlled once the compressed coupled packet
+source is controlled:
+
+\[
+\int d\mathcal E_P^{EP}
+\le
+C_N\left(
+\mu_P^{Ent}
++\int_P dA_{4B,N}^{tower,+}
++\Pi_P^{crit}
+\right)
++Paid(P).
+\tag{TFE.2593}
+\]
+
+The selected-critical piece is supplied by the active low-high interface
+measure \(d\mathcal J_N\) exactly when the strict native-birth lower edge is
+proved:
+
+\[
+\Pi_P^{crit}
+\le
+C_N\int_Pd\mathcal J_N+Paid(P).
+\tag{TFE.2594}
+\]
+
+Thus `(TFE.2590)'--`(TFE.2594)' reduce the entire positive selected readout to
+one same-parent active-transit package:
+
+\[
+\int_{\mathcal Q_P^{ret}}dA_P^{sel,+}
+\le
+C_N\left[
+\int_{\operatorname{Hist}(P)}d\Omega_P^{gen}
++\mu_P^{Ent}
++\int_P dA_{4B,N}^{tower,+}
++\int_Pd\mathcal J_N
+\right]
++Paid(P).
+\tag{TFE.2595}
+\]
+
+The bracket is not future child action.  It is the original packet's
+before-clipping pressure/Hodge/current-frame, viscous/Stokes, self-advection,
+incompressibility, selector/collar, return/reset, and first-birth transit
+record.  The active-transit storage theorem says
+
+\[
+\mu_P^{Ent}
++\int_PdA_{4B,N}^{tower,+}
++\int_Pd\mathcal J_N
++\int_{\operatorname{Hist}(P)}d\Omega_P^{gen}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2596}
+\]
+
+One sufficient original-data form of `(TFE.2596)' is the full-exchange
+no-self-feeding storage `(TFE.2426)' together with the active-transit storage
+`(TFE.2303)' and first-entry/no-residue control `(TFE.2304)'.  Equivalently, in
+the exact parent-tail language, it is `(TFE.2470)' with the parent measure,
+heat thickness, selector pullback, and paid terms already built into the tail.
+
+Therefore the corrected implication is
+
+\[
+\boxed{
+\text{full-exchange active-transit storage `(TFE.2596)'}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+}
+\tag{TFE.2597}
+\]
+
+This is the downstream change caused by the zero-baseline audit.  The
+positive-baseline part is a log/BMO/root-generator consumer.  The zero-baseline
+part is a singular first-entry endpoint-seed consumer.  Both now land on the
+same original coupled packet storage.  In this route, the Gold \(L^1\) line is
+closed when `(TFE.2596)' is proved from arbitrary original Navier--Stokes packet
+data, without defining the parent storage by the selected positive readout it
+is supposed to dominate.
+
+## 226. Local differential form of the active-transit source
+
+Equation `(TFE.2596)' is the integrated source statement.  To prove it without
+creating another bookkeeping layer, it must be written locally in the same
+full-exchange variables as `(TFE.2426)'.
+
+The endpoint, tower, and low-high faces have to satisfy one same-parent
+differential inequality.  There must be a lower-bounded active-transit storage
+\(\mathscr S_P^{AT}\), constructed before child positive clipping, such that
+
+\[
+\begin{aligned}
+d\mathscr S_P^{AT}
+&+
+c_E\,d\mu_P^{Ent}
++c_A\,dA_{4B,N}^{tower,+}
++c_J\,d\mathcal J_N
+\\
+&\le
+C_N\,d\Xi_P^{FE}
++d\Theta_P^0
++\theta_A\,d\Omega_P^{gen}
++dPaid_P,
+\qquad 0\le\theta_A<\infty,
+\end{aligned}
+\tag{TFE.2598}
+\]
+
+with
+
+\[
+\mathscr S_P^{AT}(t)
+\ge
+-C_N(u_0)\mathcal R(P)-Paid(P).
+\tag{TFE.2599}
+\]
+
+This is not a fourth account.  It is `(TFE.2303)' written in the ledger of
+`(TFE.2426)'.  The three positive measures on the left are the three faces of
+one original packet:
+
+\[
+\begin{array}{ll}
+d\mu_P^{Ent}:&
+\text{left-entry / terminal inherited material, controlled by first-entry
+no-residue;}\\[1mm]
+dA_{4B,N}^{tower,+}:&
+\text{oriented pressure/Hodge/commutator and endpoint/tower action;}\\[1mm]
+d\mathcal J_N:&
+\text{selected low-high first-ratio transit, before child clipping.}
+\end{array}
+\tag{TFE.2600}
+\]
+
+The right side is the same original full-exchange clock:
+
+\[
+d\Xi_P^{FE}
+=
+|J_P^S|^2d\mathcal R_P
++dA_P^{collar/Hodge/frame}
++dA_P^{reselec/reset}
++dA_P^{crit,birth},
+\tag{TFE.2601}
+\]
+
+so `(TFE.2598)' says that endpoint inheritance, oriented tower motion, and
+selected first-ratio transit are all read from the parent full-exchange ledger,
+up to one absorbable amount of the parent generator clock.
+
+Now combine `(TFE.2598)' with `(TFE.2426)'.  The storage line in `(TFE.2426)'
+gives
+
+\[
+d\Xi_P^{FE}
+\le
+-dM_P+d\Theta_P^0+\vartheta\,d\Omega_P^{gen}+dPaid_P,
+\qquad C_N\vartheta<1.
+\tag{TFE.2602}
+\]
+
+Substituting `(TFE.2602)' into `(TFE.2598)' gives
+
+\[
+\begin{aligned}
+d\mathscr S_P^{AT}
+&+
+c_E\,d\mu_P^{Ent}
++c_A\,dA_{4B,N}^{tower,+}
++c_J\,d\mathcal J_N
+\\
+&\le
+-C_NdM_P
++C_Nd\Theta_P^0
++(C_N\vartheta+\theta_A)d\Omega_P^{gen}
++dPaid_P .
+\end{aligned}
+\tag{TFE.2603}
+\]
+
+The first line of `(TFE.2426)' and the same storage inequality already give
+the stopped generator Carleson bound:
+
+\[
+d\Omega_P^{gen}
+\le C_N\,d\Xi_P^{FE}+dPaid_P
+\quad\Longrightarrow\quad
+\int_{\operatorname{Hist}(P)}d\Omega_P^{gen}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2604}
+\]
+
+Integrating `(TFE.2603)' and using `(TFE.2604)', the lower bounds for \(M_P\)
+and \(\mathscr S_P^{AT}\), plus
+\(\int d\Theta_P^0\le C_N(u_0)\mathcal R(P)+Paid(P)\), yields
+
+\[
+\mu_P^{Ent}
++\int_PdA_{4B,N}^{tower,+}
++\int_Pd\mathcal J_N
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2605}
+\]
+
+Combining `(TFE.2605)' with the stopped generator Carleson consequence already
+recorded in `(TFE.2604)',
+
+\[
+\int_{\operatorname{Hist}(P)}d\Omega_P^{gen}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2606}
+\]
+
+is exactly `(TFE.2596)'.
+
+Thus the remaining source is not the integrated \(L^1\) bracket itself.  The
+remaining source is the local same-parent inequality `(TFE.2598)', with its
+generator-clock feedback controlled by the already isolated full-exchange
+no-self-feeding storage `(TFE.2426)'.  In physical terms: the packet may
+re-coordinate by pressure, descend by heat/viscosity, and update the selected
+low-high interface, but those three motions must all enter the same parent
+full-exchange ledger before any child readout can clip them as positive action.
+
+## 227. The local source has exactly three nonduplicate faces
+
+The local source inequality `(TFE.2598)' is still too large unless its three
+faces are typed separately.  The point of the split is not to create three
+fluids.  It is to prevent one face from being smuggled into another by name.
+
+The endpoint face is the no-residue / inherited-entry statement.  There is a
+lower-bounded endpoint storage \(\mathscr S_P^{E}\) such that
+
+\[
+d\mathscr S_P^{E}
++c_Ed\mu_P^{Ent}
+\le
+C_Nd\Theta_P^0+dPaid_P,
+\qquad
+\mathscr S_P^{E}\ge -C_N(u_0)\mathcal R(P)-Paid(P).
+\tag{TFE.2607}
+\]
+
+This is `(TFE.2304)' in local differential form: terminal or left-entry material
+has time thickness in the original parent clock, or it exits through paid
+endpoint/legal/stop material.
+
+The tower face is the signed-partner orientation statement.  There is a
+lower-bounded tower storage \(\mathscr S_P^{A}\) such that
+
+\[
+d\mathscr S_P^{A}
++c_AdA_{4B,N}^{tower,+}
+\le
+C_Nd\Xi_P^{FE}
++\theta_A^A d\Omega_P^{gen}
++dPaid_P,
+\qquad
+\mathscr S_P^{A}\ge -C_N(u_0)\mathcal R(P)-Paid(P).
+\tag{TFE.2608}
+\]
+
+This is the local form of `(TFE.2309)' / `(TFE.2300)': the positive
+pressure/Hodge/commutator and endpoint/tower lobe is counted only with its same
+signed partner retained, or with strict loss, legal, stop, and full-exchange
+motion already in \(d\Xi_P^{FE}\).
+
+The low-high face is the first-ratio transit statement.  There is a
+lower-bounded low-high storage \(\mathscr S_P^{J}\) such that
+
+\[
+d\mathscr S_P^{J}
++c_Jd\mathcal J_N
+\le
+C_Nd\Xi_P^{FE}
++\theta_A^Jd\Omega_P^{gen}
++dPaid_P,
+\qquad
+\mathscr S_P^{J}\ge -C_N(u_0)\mathcal R(P)-Paid(P).
+\tag{TFE.2609}
+\]
+
+This is the local form of `(TFE.2326)'--`(TFE.2333)': the selected first-ratio
+readout is first pulled back to a parent-known low-high detector, then controlled
+by the original root generator and the full-exchange depletion storage before
+positive clipping.
+
+Adding `(TFE.2607)'--`(TFE.2609)' with
+
+\[
+\mathscr S_P^{AT}
+:=
+\mathscr S_P^{E}+\mathscr S_P^{A}+\mathscr S_P^{J},
+\qquad
+\theta_A:=\theta_A^A+\theta_A^J,
+\tag{TFE.2610}
+\]
+
+gives `(TFE.2598)' exactly, after increasing the harmless constant on
+\(d\Xi_P^{FE}\) and absorbing paid residuals into \(dPaid_P\).  Conversely,
+failure of `(TFE.2598)' after `(TFE.2426)' can be normalized to a failure of at
+least one of `(TFE.2607)', `(TFE.2608)', or `(TFE.2609)', because the three
+positive measures \(d\mu_P^{Ent}\), \(dA_{4B,N}^{tower,+}\), and \(d\mathcal
+J_N\) are mutually named parent faces in `(TFE.2600)'.
+
+So the \(L^1\) wall has now been decomposed as far as this coordinate allows:
+
+\[
+\boxed{
+\text{endpoint no-residue}
++\text{tower signed-partner orientation}
++\text{low-high first-ratio parent pullback}
++\text{full-exchange no-self-feeding storage}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+}
+\tag{TFE.2611}
+\]
+
+The first three clauses are exactly the local proof obligations for
+`(TFE.2598)'; the fourth is `(TFE.2426)'.  No dyadic counting, endpoint seed
+alias, log-ratio zero-baseline convention, or child-selected positive tail is
+left as an independent source.
