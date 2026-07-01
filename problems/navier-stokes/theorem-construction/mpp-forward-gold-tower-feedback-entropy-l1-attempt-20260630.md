@@ -1429,3 +1429,235 @@ Putting `(TFE.77)`, `(TFE.83)`, and `(TFE.84)` into `(TFE.68)`, the active route
 The local augmented trace line is installed.  The remaining nonclosed line is
 global: prove `(TFE.82)`, or equivalently `(TFE.85)`, from the original coupled
 pressure-heat-viscous material history for arbitrary smooth finite-energy data.
+
+## 15. Current collapse of the full-feedback packing line
+
+The later native-birth and no-free-zoom audits sharpen `(TFE.85)` one level
+further.  Paid reselection/reset is support once stopped full exchange/root
+reserve is available.  The live producer is therefore the selected
+scale-native root reserve, equivalently a parent-known critical material
+capacity frame:
+
+\[
+\iota:\Gamma_N(P)\to\mathcal R_N^{nat}(u_0;P),
+\qquad
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}
++R_{\rm legal}(\gamma)+Stop(\gamma),
+\qquad
+\operatorname{mult}(\iota)\le C_N,
+\tag{TFE.88}
+\]
+
+\[
+\sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}\rho
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.89}
+\]
+
+The no-free-zoom audit gives the noncircular form of `(TFE.88)`--`(TFE.89)`.
+For a stopped parent \(P\), the selected child packet must be the active
+Hodge--Stokes graph packet
+
+\[
+D_Q^{act}:=\left(S,\Pi_Q^{act}\nabla_A^2p\right),
+\tag{TFE.90}
+\]
+
+where \(\Pi_Q^{act}\) is parent-announced before child readout.  Its null space
+removes zero-stretch skew-inertial pressure balance, so rigid spin pressure is
+not counted as selected squeeze.  The parent stress current is the original
+coupled packet:
+
+\[
+\mathfrak J_P(\psi)
+=
+\int_P
+u\cdot(-\partial_t\psi-\nu\Delta\psi)
++
+(u\otimes u):\nabla\psi
++
+p\,\nabla\cdot\psi .
+\tag{TFE.91}
+\]
+
+The no-free-zoom bridge is then:
+
+\[
+a_Q^{act}+b_Q^{term}
+\le
+C\rho_Q^{term}+Ce_Q^{paid},
+\tag{TFE.92}
+\]
+
+\[
+\sum_{Q\subset P}\rho_Q^{term}
+\le
+C\|\mathfrak J_P\|_{\mathfrak C_{P,act}^{HS,*}}^2
++C\mathcal V_P^{act}
++CE_{\rm paid}(P),
+\tag{TFE.93}
+\]
+
+with positive material variation
+
+\[
+\mathcal V_P^{act}
+=
+\int_P |K|^2\,d\mu_P,
+\qquad
+K=G^{-1/2}D_tG\,G^{-1/2},
+\qquad
+G=(\nabla_aX)^T\nabla_aX .
+\tag{TFE.94}
+\]
+
+This is exactly where reversible affine stretch-return cycles are supposed to
+be paid: they may erase endpoint \(G(t_2)-G(t_1)\), but they do not erase
+positive material variation when the detector family is parent-announced.
+
+The terminal detector audit adds the no-replay correction.  A terminal bill may
+not replay an inherited parent detector level.  It must be admitted as a fresh
+parent-subtracted increment
+
+\[
+\mathcal I_P(Q)
+=
+\left\|(I-\Pi_{\mathcal E_{Q^-}^{par}})\psi_Q^{act}\right\|_{\mathfrak C_P}^2
++
+{(\Delta_B^+)^2\over A_B^{inv}}
++
+\int_{I_B}
+\left(
+|K|^2
++\|\nabla^Pb^{term}\|_{\mathfrak C}^2
++\|\nabla^P\mathcal P^{act}\|_{\mathfrak C}^2
+\right)d\mu_P
++Paid_Q .
+\tag{TFE.95}
+\]
+
+The actual stopped-selector capture line is
+
+\[
+Q\notin Bundled_P\cup Stop_P\cup Legal_P\cup CM_P^{end}
+\Longrightarrow
+a_Q^{act}+b_Q^{term}
+\le
+C_N\mathcal I_P(Q).
+\tag{TFE.96}
+\]
+
+The fresh detector part of `(TFE.95)` is Bessel-paid.  The inherited detector
+record is paid only when it moves as a parent terminal record.  Low-normalized
+terminal dust is not counted eventwise; it stays bundled until a
+parent-announced first exit occurs:
+
+\[
+s_B^+
+=
+\inf\left\{
+s>s_B^-:
+\mathcal B^{term}(s)-\mathcal B^{term}(s_B^-)
+\ge
+\eta\int_{s_B^-}^{s}w^{-1}\,d\mu_P
+\right\}.
+\tag{TFE.97}
+\]
+
+On such first-exit blocks,
+
+\[
+\Delta_B^+
+\le
+\eta^{-1}{(\Delta_B^+)^2\over A_B^{inv}},
+\qquad
+{(\Delta_B^+)^2\over A_B^{inv}}
+\le
+C\int_{I_B}
+\left(|K|^2+\|\nabla^Pb^{term}\|_{\mathfrak C}^2\right)d\mu_P
++Paid_B .
+\tag{TFE.98}
+\]
+
+This pays square-to-linear terminal conversion for retained first exits.  The
+interior zero-increment kernel is also paid.  Indeed,
+
+\[
+D_tG=2F^TSF,\qquad
+K=G^{-1/2}D_tG\,G^{-1/2}=2O^TSO,
+\tag{TFE.99}
+\]
+
+so \(K=0\) forces \(S=0\).  The remaining pressure curvature is the rigid-spin
+inertial balance already removed by the active quotient.  Thus a retained
+parent-announced chart has no positive interior active graph packet with zero
+fresh detector increment, zero material metric motion, zero terminal-record
+motion, and zero active quotient motion.
+
+After these reductions, the only surviving Gold obstruction is fixed-core
+terminal concentration of the same full packet.  The required no-atom storage is
+
+\[
+\mu_{P,fix}^{crit}(T_\rho(z_0))
+\le
+C\,\operatorname{Osc}_{T_{c\rho}(z_0)}\Phi_P
++
+C(E_{\rm paid}+R_{\rm legal}+Stop)(T_{c\rho}(z_0)),
+\tag{TFE.100}
+\]
+
+\[
+\lim_{\rho\downarrow0}
+\sup_{z_0}
+\operatorname{Osc}_{T_{c\rho}(z_0)}\Phi_P
+=0 .
+\tag{TFE.101}
+\]
+
+A sufficient positive route is a root-fixed endpoint Hardy/no-jump modulus for
+the same full-packet storage:
+
+\[
+-d\mathcal L_P
+\ge
+c\,d\mu_P^{end}-d\lambda_P,
+\qquad
+\sum_j[\mathcal L_P(t_j^-)-\mathcal L_P(t_j^+)]_+
+\le
+\mathcal L_P(t_0)-\inf\mathcal L_P+Paid(P),
+\tag{TFE.102}
+\]
+
+\[
+\lim_{\rho\downarrow0}\sup_{z_0}
+\big[-\Delta_{T_\rho(z_0)}\mathcal L_P\big]_+=0
+\quad\text{or}\quad
+\sup_P\int_{-1}^{0}(-s)^{-\alpha}\,d(-\mathcal L_P)_+(s)<\infty .
+\tag{TFE.103}
+\]
+
+Child-renormalized descent does not prove this; it can pay the same terminal
+pulse once in every zoom coordinate.  The storage must be root-fixed on the
+original parent material history.
+
+Consequently the current \(L^1\) proof spine is:
+
+\[
+\text{root-fixed full-packet terminal no-jump `(TFE.100)`--`(TFE.103)`}
+\Longrightarrow
+\text{parent-current active graph no-free-zoom `(TFE.92)`--`(TFE.98)`}
+\Longrightarrow
+\text{native birth packing `(TFE.88)`--`(TFE.89)`}
+\Longrightarrow
+\text{stopped full exchange `(TFE.82)`/`(TFE.85)`}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\tag{TFE.104}
+\]
+
+If `(TFE.101)`--`(TFE.103)` fails, the surviving endpoint pulse is not a hidden
+Gold payment.  After same-witness admission it is the CM endpoint-face branch,
+not Gold closure.
