@@ -16036,3 +16036,678 @@ Then `(TFE.1088)' gives `(TFE.1080)', `(TFE.1080)' gives the no-free-pulse
 contradiction, and `(TFE.1081)' gives the terminal-uniform \(L^1\) line.  The
 local strong-convergence criterion and the lossless rigidity consumer are
 installed; `(TFE.1087)' is not installed.
+
+## 96. How the entropy story is being used in the L1 problem
+
+The entropy story is not being used as a metaphor after the fact.  It is the
+candidate parent-side monotone object.  The actual object is the active selected
+future-state density of the same coupled
+pressure-viscosity-incompressibility-velocity packet before child positive
+clipping.
+
+On a stopped parent packet \(P\), write the parent-known selected activity
+measure as
+
+\[
+d\mu_P^{act}
+=
+f_P\,dR_P^{orig},
+\tag{TFE.1089}
+\]
+
+where \(dR_P^{orig}\) is the original coupled-packet reserve and \(f_P\) is
+constructed from the retained full packet before any descendant selected tail is
+summed.  The entropy storage is
+
+\[
+\mathcal H(P)
+=
+\int_P
+f_P\log {f_P\over \langle f_P\rangle_P}\,dR_P^{orig}.
+\tag{TFE.1090}
+\]
+
+A high-ratio child read \(Q\subset P\) is then a real deletion of accessible
+future states only when the ratio
+
+\[
+r_Q={\langle f\rangle_Q\over \langle f\rangle_P}
+\tag{TFE.1091}
+\]
+
+is parent-known before the child read is clipped as positive action.  The
+deterministic chain rule for \(\mathcal H\) is already enough to control the
+selected \(L^1\) sum after `(TFE.1089)'--`(TFE.1091)' are produced from the
+original packet.  Thus the entropy story is exactly the no-recount mechanism:
+a child cannot be sold as a fresh positive state at every higher ratio unless
+the parent entropy drops at every higher ratio.
+
+The carrier-retention audit says where this entropy mechanism can still leak.
+Let
+
+\[
+\mathfrak K_P
+=
+\mathcal K_{sel/car}(P)
++\mathcal K_{sat}(P)
++\mathcal K_{end}(P)
++\mathcal K_{legal}(P)
+\tag{TFE.1092}
+\]
+
+be the total leakage of the selected positive carrier after the full packet,
+transport product, local pressure, visible viscosity, and finite selectors have
+already been retained or routed.  The four terms have precise physical meaning.
+
+First, \(\mathcal K_{sel/car}\) is movement of the measuring boundary itself:
+unbounded sign-selector complexity, collar drift, carrier drift, or
+parent-child polarity motion.  Finite selector graphs are closed by compactness.
+The remaining branch is paid only by a parent-predictable reselection/full-
+exchange Carleson charge,
+
+\[
+\mathcal K_{sel/car}(P)
+\le
+C\,\Lambda_P^{sel/car}
+\tag{TFE.1093}
+\]
+
+with \(\Lambda_P^{sel/car}\) built from selector, collar, covector, connection,
+turnstile, exchange, and frame motion before child clipping.
+
+Second, \(\mathcal K_{sat}\) is a surviving positive carrier whose signed
+partner is not retained.  The finite donor graph is already paid.  The only
+remaining signed branch is a terminal Zeno donor chain with inherited positive
+native source, so the entropy story closes it only if inherited source is forced
+to spend active entropy or first endpoint seed capacity at each descent:
+
+\[
+\mathcal K_{sat}(P)
+\le
+C\,\Lambda_P^{seed}
++C\,\Theta_P^{term}
++R_P^{legal}
++Stop_P .
+\tag{TFE.1094}
+\]
+
+Here \(\Lambda_P^{seed}\) is first native endpoint-seed packing, and
+\(\Theta_P^{term}\) is terminal strip thickness.
+
+Third, \(\mathcal K_{end}\) is a terminal endpoint atom or positive storage
+jump.  The endpoint no-jump note proves the consumer theorem: terminal strip
+uniform integrability of the positive full-packet trace plus legal terminal
+absolute continuity kills the atom.  What ordinary finite mass does not provide
+is terminal thickness.  The required upgrade is
+
+\[
+\Theta_P^{term}
+=
+\sup_{\theta>0}
+\theta^{-\alpha}
+\int_{T_*-\theta}^{T_*}
+[h_P^{full}(t)]_+\,dt
+\quad\text{or an }L_t^{1+\varepsilon}\text{/Hardy equivalent,}
+\tag{TFE.1095}
+\]
+
+uniformly on retained terminal packets.  Without `(TFE.1095)' a smooth
+preterminal density can concentrate into a terminal heat-scale pulse.
+
+Fourth, \(\mathcal K_{legal}\) is the same issue for legal/collar routing.
+Legal is exhaustive only at the level it is declared.  For the \(L^1\) Gold
+line, finite legal mass is not enough; legal/collar residue must be terminal-AC,
+summable on the selected tail, or charged to endpoint/stop in the same selected
+critical metric:
+
+\[
+\mathcal K_{legal}(P)
+\le
+C\,R_{P}^{legal,term\text{-}AC}
++C\,\Theta_P^{term}
++C\,Stop_P .
+\tag{TFE.1096}
+\]
+
+So the physical theorem still missing is one coupled production statement, not
+four unrelated side lemmas:
+
+\[
+\boxed{
+\begin{aligned}
+d\mathcal H_P
++c\,d\Omega_P^{sel,+}
+&\le
+C\,d\Lambda_P^{sel/car}
++C\,d\Lambda_P^{seed}
++C\,d\Theta_P^{term} \\
+&\quad
++dR_P^{legal,term\text{-}AC}
++dStop_P ,
+\qquad
+\mathcal H_P\ge -C_N(u_0).
+\end{aligned}
+}
+\tag{TFE.1097}
+\]
+
+The root side must also be finite:
+
+\[
+\boxed{
+\mathcal H(P_0)
++\Lambda^{sel/car}(P_0)
++\Lambda^{seed}(P_0)
++\Theta^{term}(P_0)
++R^{legal,term\text{-}AC}(P_0)
+\le
+C_N(u_0).
+}
+\tag{TFE.1098}
+\]
+
+Equations `(TFE.1097)'--`(TFE.1098)' imply `(TFE.1087)'.  Indeed the four carrier
+leaks in `(TFE.1092)' are then charged by parent-visible selector/collar motion,
+first native seed admission, terminal thickness, legal terminal-AC, or stop.
+With `(TFE.1087)' installed, `(TFE.1080)' follows; with `(TFE.1080)' installed,
+the no-free-pulse compactness contradiction follows; with `(TFE.1081)' installed,
+the terminal-uniform \(L^1\) estimate follows.
+
+This is the exact relation between the physical entropy picture and the
+mathematics.  Pressure feedback can re-coordinate the remaining velocity/strain
+state after each heat-lag readout, but that re-coordination must either move the
+parent-known active density, change the measuring boundary with a paid
+reselection/full-exchange charge, admit a first native seed, or lose terminal
+thickness to the endpoint ledger.  Viscosity deletes high-frequency futures, but
+the \(L^1\) proof needs the stronger statement that every selected positive
+state has a parent-known active-density lifetime before it is counted.
+
+So the complete missing package is:
+
+\[
+\boxed{
+\begin{gathered}
+\text{full-output order-lock before positive clipping,}\\
+\text{parent-known selected density }f_P\text{ from the original coupled packet,}\\
+\text{root Carleson/BMO control of selector/collar/full-exchange motion,}\\
+\text{first endpoint seed/native-birth packing with strict }\theta<1,\\
+\text{terminal strip }L^{1+\varepsilon}\text{/Hardy/Orlicz thickness,}\\
+\text{legal/collar terminal-AC in the same selected critical metric.}
+\end{gathered}
+}
+\tag{TFE.1099}
+\]
+
+These clauses are different faces of one participation law.  They say that the
+pressure-heat-viscous feedback loop is allowed to update the future state space,
+but it is not allowed to create fresh positive selected \(L^1\) count without a
+same-parent active-density deletion or a terminal-thickness payment.
+
+Current status:
+
+\[
+\boxed{
+\text{the deterministic entropy telescope is installed;}
+\quad
+\text{the branch consumers are installed;}
+\quad
+\text{the original-data producer `(TFE.1097)'--`(TFE.1099)' is not installed.}
+}
+\tag{TFE.1100}
+\]
+
+This is why the entropy story is the right story and also why it does not by
+itself close Gold.  It identifies the physical quantity that has to be finite:
+the parent-known active density of accessible selected packet futures, with
+terminal thickness, generated by the original coupled
+pressure-viscosity-incompressibility-velocity packet before clipping.
+
+## 97. Clause audit: what is still missing inside the active-density producer
+
+The source audit separates `(TFE.1099)' into installed consumers and uninstalled
+producers.  This matters because the \(L^1\) problem is not solved by saying the
+same parent packet owns the signal.  It is solved only after the parent packet
+produces a density, a lower edge for new selected seeds, and terminal thickness.
+
+The order-lock clause is a consumer/gate.  The four-body full-packet production
+step is installed for the order-locked scalar
+
+\[
+h_\sigma
+=
+\left\langle
+N_\sigma+P_\sigma+V_\sigma+T_\sigma+I_\sigma+L_\sigma+S_\sigma,
+\varphi_\sigma
+\right\rangle ,
+\qquad
+A_{sel}(\sigma)=\int[h_\sigma]_+ .
+\tag{TFE.1101}
+\]
+
+That proves the selected positive read must be taken after the whole
+pressure-viscosity-incompressibility-time-divergence packet recombines.  It
+does not by itself construct the parent entropy density \(f_P\) or its root
+Carleson/BMO bound.  Its role is:
+
+\[
+\text{channel-first positive read}
+\longrightarrow
+\text{order-locked full-packet read}
++\text{overlap/payment defects}.
+\tag{TFE.1102}
+\]
+
+The parent-known selected density clause is the first true producer.  The best
+current source surface is the visible/silent/exchange Hilbert lift.  It would
+represent selected log-amplification as
+
+\[
+\Delta_Q\log\rho_{sel}
+=
+\ell_Q(\Delta_Q Z)+e_Q,
+\qquad
+\|\ell_Q\|\le C,
+\tag{TFE.1103}
+\]
+
+with the root square-function bound
+
+\[
+\sum_{Q\subset Q_0}\|\Delta_QZ\|_{\mathcal H_{lift}}^2
+\le
+C_N(u_0)\mathcal R(Q_0)+R_{legal}(Q_0).
+\tag{TFE.1104}
+\]
+
+Then martingale John--Nirenberg gives the reverse Holder/entropy gain:
+
+\[
+\rho_{sel}\in L^{1+\varepsilon}(dR^{orig})
+\quad\Longrightarrow\quad
+\mathcal H(P_0)<\infty .
+\tag{TFE.1105}
+\]
+
+The audit result is exact:
+
+\[
+\boxed{
+\text{the Hilbert/BMO consequence is a consumer;}
+\quad
+\text{the selector-to-Hilbert lift `(TFE.1103)' and root bound `(TFE.1104)' are not installed.}
+}
+\tag{TFE.1106}
+\]
+
+The selector/collar/full-exchange Carleson clause is also not independently
+installed.  Parent-subtracted active-weight Bessel packing pays exact fresh
+orthogonal increments and avoids recounting inherited directions.  Changed
+inherited reuse is paid only after the stopped route metric is already an
+original-history Carleson/storage measure:
+
+\[
+\sum_{Q\subset P}\mathcal R(Q)|\Delta_QJ^{new}|^2
+\le
+C_N\|G\|_{\mathfrak H_P}^2
++C_N\mathcal E_{route}^{reset}(P)
++R_{legal}+Stop .
+\tag{TFE.1107}
+\]
+
+Thus parent subtraction is a no-recount repair, not the active metric producer.
+The stopped reselection surfaces reduce unpaid strict reselection to the same
+selected compression/root reserve:
+
+\[
+\sum_{Q\in\mathcal T_{sel}}A(Q)
+\le
+C_N(u_0)+R_{legal}.
+\tag{TFE.1108}
+\]
+
+The audit result is:
+
+\[
+\boxed{
+\text{selector/reselection motion is paid after active route metric/root reserve exists;}
+\quad
+\text{that route metric/root reserve is not installed.}
+}
+\tag{TFE.1109}
+\]
+
+The first endpoint seed/native-birth clause is the second true producer.  Source
+attachment is installed, but source attachment is too weak because a heat-scale
+selected unit can pull back to an original raw atom smaller by the critical
+scale factor.  The missing lower edge is
+
+\[
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}+R_{legal}(\gamma),
+\qquad
+\rho_{\iota(\gamma)}\gtrsim_N1
+\tag{TFE.1110}
+\]
+
+for every retained selected native birth atom, together with the root packing
+
+\[
+\sum_{\gamma\in\Gamma_N(P)}
+\rho_{\iota(\gamma)}
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P).
+\tag{TFE.1111}
+\]
+
+This is the same theorem as positive critical transfer in dyadic language:
+
+\[
+\int_0^T\sum_j2^j[\Pi_j(t)]_+\,dt
+\le
+C(u_0)
++\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
++R_{legal}+Stop,
+\qquad
+\theta<1 .
+\tag{TFE.1112}
+\]
+
+The audit result is:
+
+\[
+\boxed{
+\text{native source attachment is installed;}
+\quad
+\text{selected-scale lower edge/root packing `(TFE.1110)'--`(TFE.1112)' is not installed.}
+}
+\tag{TFE.1113}
+\]
+
+The terminal thickness clause is the third true producer.  Endpoint no-jump and
+Hardy/no-waste are installed as consumers:
+
+\[
+\text{terminal strip uniform integrability}
++\text{legal terminal AC}
+\Longrightarrow
+\text{no positive endpoint storage atom.}
+\tag{TFE.1114}
+\]
+
+But finite endpoint measure, finite legal routing, and ordinary \(L^1_s\)
+control all permit the terminal heat-scale pulse
+
+\[
+d\Lambda_m(s)
+=
+a\tau_m^{-1}\mathbf 1_{(-\tau_m,0]}(s)\,ds,
+\qquad
+\tau_m\downarrow0.
+\tag{TFE.1115}
+\]
+
+The exact smaller producer located in the temporal tower surfaces is
+FirstTimeRungEndpointProductControl.A:
+
+\[
+\int_{-1}^{0}\!\!\int_{\operatorname{collar}(\eta_m)}
+\left(
+|V_m|^2|\partial_sV_m|
++|\partial_sQ_m||V_m|
++|Q_m||\partial_sV_m|
+\right)\,dy\,ds
+\le
+C\left(D_S^{rad}+D_Q^w+D_G+R_{legal}\right).
+\tag{TFE.1116}
+\]
+
+Once `(TFE.1116)' is proved on the retained same carrier, it gives
+BV in terminal time for the positive full-packet trace, hence \(L_s^p\),
+Hardy thickness, and no terminal strip pulse.  Current tower normal forms do
+not prove `(TFE.1116)'.
+
+The audit result is:
+
+\[
+\boxed{
+\text{endpoint no-jump/Hardy consumers are installed;}
+\quad
+\text{first-time-rung endpoint product control and weighted legal policy are not installed.}
+}
+\tag{TFE.1117}
+\]
+
+So the active-density producer has exactly three uninstalled teeth:
+
+\[
+\boxed{
+\begin{gathered}
+\text{(A) selected-density Hilbert lift/root BMO from the original coupled packet,}\\
+\text{(B) selected-scale native-birth/positive-critical-transfer packing,}\\
+\text{(C) terminal first-time-rung product control / weighted legal endpoint policy.}
+\end{gathered}
+}
+\tag{TFE.1118}
+\]
+
+These are not separate physical laws.  They are the three places where the same
+pressure-heat-viscous feedback can still avoid becoming a finite parent-known
+active density: the density may fail to be attached to a Hilbert carrier, a
+genuinely new selected seed may have no selected-scale original reserve, or the
+remaining positive density may concentrate in the terminal heat strip.
+
+Therefore `(TFE.1097)' is equivalent, at the current repo resolution, to the
+combined production theorem
+
+\[
+\boxed{
+\text{(A)}+\text{(B)}+\text{(C)}
+\Longrightarrow
+d\mathcal H_P+c\,d\Omega_P^{sel,+}
+\le
+dR_P^{paid}+dStop_P,
+\qquad
+\mathcal H_P\ge -C_N(u_0).
+}
+\tag{TFE.1119}
+\]
+
+The physical story needed to close \(L^1\) is now exact.  The fluid may
+instantaneously re-coordinate pressure compatibility and may delay readable
+velocity/strain through heat time, but the active state count decreases only if
+the selected density is parent-known, every new selected seed has a
+selected-scale original reserve, and the endpoint trace has enough temporal
+thickness to prevent final heat-strip concentration.
+
+Current status:
+
+\[
+\boxed{
+\text{`(TFE.1119)' is not installed.  It is the next nonduplicate Gold \(L^1\) producer.}
+}
+\tag{TFE.1120}
+\]
+
+## 98. Tooth A: selected-density Hilbert lift reduces to root-defect tightness
+
+The selected-density Hilbert lift is not blocked by the old invisible-pressure
+picture.  The silent-source fork has already separated the carrier into
+visible, silent, and exchange pieces:
+
+\[
+Z^S
+=
+Z_{\rm vis}^S\oplus Z_{\rm sil}^S\oplus Z_{\rm ex}^S .
+\tag{TFE.1121}
+\]
+
+The noncircular density theorem asks for
+
+\[
+\Delta_Q\log\rho_{sel}
+=
+\ell_Q(\Delta_QZ^S)-\psi_Q+e_Q,
+\qquad
+\|\ell_Q\|\le C,
+\tag{TFE.1122}
+\]
+
+and
+
+\[
+\sup_{P'\subset P}
+{1\over\mathcal R(P')}
+\sum_{Q\subset P'}
+\left(\|\Delta_QZ^S\|_{\mathcal H_{lift}}^2+|e_Q|^2\right)\mathcal R(Q)
+\le
+C_N(u_0)+{R_{legal}(P')\over\mathcal R(P')}.
+\tag{TFE.1123}
+\]
+
+Once `(TFE.1122)'--`(TFE.1123)' are available, the stochastic-exponential /
+martingale \(BMO\) machinery is a consumer and gives the active entropy bound.
+The source files show that `(TFE.1122)' and `(TFE.1123)' are not one theorem
+but two linked production clauses.
+
+First, the selected scalar must stay attached to the fixed parent carrier or
+pay reselection.  In a stopped selector chart,
+
+\[
+\log\rho_{sel}(Q)
+=
+F_S(Z_Q^S,Y_S)+r_Q^S,
+\qquad
+\|D_ZF_S\|_{\mathcal H_{lift}^\ast}\le C_S.
+\tag{TFE.1124}
+\]
+
+Hence, for an edge \(e\) inside that chart,
+
+\[
+\left|\Delta_e^{fixed}\log\rho_{sel}\right|
+\le
+C_S\|D_e\|_{\mathcal H_{lift}}
++C_S\|R_e\|_{\mathcal H_{lift}}
++e_e^S.
+\tag{TFE.1125}
+\]
+
+If the chart, label, order-lock gap, pressure-Hodge coordinate, collar, or
+frame moves, the motion is a stopped reselection/full-exchange charge:
+
+\[
+\sum_{e\subset P}
+\left|\Delta_e^{lab}\log\rho_{sel}\right|^2\mathcal R(e)
+\le
+C\,\mathcal E_{ol}(P)
++C\,\Lambda_{sel}(P)
++C(K_{sel}+K_C^+)(P)
++R_{legal}(P).
+\tag{TFE.1126}
+\]
+
+The checked selector-carrier note therefore gives the relative theorem
+
+\[
+\sum_{e\subset P}
+\left|\Delta_e\log\rho_{sel}\right|^2\mathcal R(e)
+\le
+C\sum_{e\subset P}\|D_e\|_{\mathcal H_{lift}}^2\mathcal R(e)
++C\,\Omega_P^{full\text{-}exchange}
++R_{legal}(P).
+\tag{TFE.1127}
+\]
+
+This closes selector readout only relative to stopped full-exchange action and
+fresh-innovation packing.  It is not the root producer.
+
+Second, the fresh innovations themselves must square-pack in one root parent
+Hilbert geometry before selected readout.  The current sharp form is
+
+\[
+\sup_{P'\subseteq P}
+{1\over\mathcal R(P')}
+\sum_{e\subset P'}
+\int H_{e^-}(t)\|D_e(t)\|_{L_x^2}^2\,dt
+\le
+C_N(u_0)+{R_{legal}(P')\over\mathcal R(P')}.
+\tag{TFE.1128}
+\]
+
+The direct root-geometry attempt reduces `(TFE.1128)' to a compactness/tightness
+statement for the parent-subtracted root defect.  A normalized failure has
+
+\[
+\mu_n^{root}(\mathcal E_n)=1,
+\qquad
+\int d\Lambda_{P_n}^{root}+R_{legal,n}+Stop_n\to0.
+\tag{TFE.1129}
+\]
+
+The needed production theorem is
+
+\[
+\boxed{
+\begin{gathered}
+\text{from `(TFE.1129)' extract, after stopped rescaling,}\\
+H_{e_n^-}^{1/2}D_{e_n}
+\rightharpoonup D_\infty\ne0
+\text{ in one same-carrier parent Hilbert space,}\\
+\text{unless the escaping mass is charged by active weight, connection,}\\
+\text{root source, legal, or stop ledgers.}
+\end{gathered}
+}
+\tag{TFE.1130}
+\]
+
+With `(TFE.1130)', the contradiction is structural.  Vanishing root source,
+connection, turnstile, exchange, covector, frame, legal, and stop charges force
+the limit to be inherited parent transport.  But \(D_e\) is parent-subtracted:
+
+\[
+D_\infty=(I-\Pi_{\mathcal P_-})Z_\infty .
+\tag{TFE.1131}
+\]
+
+Inherited parent transport lies in \(\mathcal P_-\), so \(D_\infty=0\), which
+contradicts the nonzero limit in `(TFE.1130)'.
+
+Thus tooth A has the following exact status:
+
+\[
+\boxed{
+\begin{gathered}
+\text{fixed-chart selected readout is paid relative to carrier innovation;}\\
+\text{moving selector/chart/gap/frame is paid relative to stopped full exchange;}\\
+\text{the uninstalled producer is RootDefectTightnessFromOriginalHistory.A,}\\
+\text{equivalently parent-predictable fresh-innovation Carleson `(TFE.1128)'.}
+\end{gathered}
+}
+\tag{TFE.1132}
+\]
+
+Physically, this says that pressure can silently re-coordinate the packet and
+the selector can change what it notices, but no selected log-amplification is
+free.  Inside one stopped chart it is a Lipschitz read of a parent carrier.  If
+the chart changes, that change is full-exchange/reselection motion.  The only
+remaining way to keep a positive selected density without payment is for a
+parent-subtracted fresh innovation to survive in a shrinking/high-weight root
+geometry while every original-history motion ledger tends to zero.  That is
+exactly `(TFE.1130)'.
+
+So the updated first tooth in `(TFE.1118)' is
+
+\[
+\boxed{
+\text{RootDefectTightnessFromOriginalHistory.A}
++\text{StoppedFullExchangeActionCarleson.A}
+\Longrightarrow
+\text{selected-density Hilbert lift/root \(BMO\).}
+}
+\tag{TFE.1133}
+\]
+
+`(TFE.1133)' is a sharper reduction of tooth A, not a Gold closure.  It leaves
+the native-birth/positive-critical-transfer tooth and the terminal thickness
+tooth still active, and `(TFE.1130)' itself is not installed.
