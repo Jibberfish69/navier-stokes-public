@@ -39059,3 +39059,701 @@ producer is `(TFE.2659)'--`(TFE.2660)': build the positive-baseline log entropy
 source and the singular endpoint-seed source from the same original
 pressure-viscosity-incompressibility-velocity packet with a strict
 no-self-feeding margin.
+
+## 234. Entropy-contraction form of the critical-entry storage
+
+The storage `(TFE.2659)' should be proved as an entropy-contraction statement.
+The selected critical source must be the increment of a parent-announced
+filtration on one original packet, with no dependence on a future positive tail.
+
+Let \(dR_P^{root}\) be the root reserve measure from Section 221, and let
+\(\mathcal F_{P,\sigma}^{crit}\) be the stopped critical-entry filtration whose
+atoms are selected before child positive clipping.  Write
+
+\[
+dA_{P,\sigma}^{crit,+}
+=
+f_{P,\sigma}\,dR_P^{root},
+\qquad
+f_{P,\sigma}
+=
+\mathbb E_{R_P^{root}}(f_P\mid\mathcal F_{P,\sigma}^{crit})
+\tag{TFE.2663}
+\]
+
+on the positive-baseline part.  On an edge
+\(\sigma\to\sigma+d\sigma\), the absolutely continuous critical increment is
+
+\[
+d\rho_{crit,P}^{ac}
+=
+\int
+f_{P,\sigma+d\sigma}
+\log\!\left({f_{P,\sigma+d\sigma}\over f_{P,\sigma}}\right)_+
+dR_P^{root}.
+\tag{TFE.2664}
+\]
+
+The zero-baseline part is the singular entry increment
+
+\[
+d\rho_{crit,P}^{entry}
+=
+dR_P^{root}(E_{\sigma+d\sigma}^0)
+\|K_{\sigma+d\sigma}^{parent}\|_{\mathcal H_{root}^\ast}^2
+\tag{TFE.2665}
+\]
+
+up to legal, stop, and paid reselection.  Thus the critical source is one
+filtration entropy increment:
+
+\[
+d\rho_{crit,P}^{ac}
++d\rho_{crit,P}^{entry}
+\le
+d\mathcal E_P^{crit}
++dPaid_P,
+\tag{TFE.2666}
+\]
+
+where \(\mathcal E_P^{crit}\) is the parent critical entropy of the
+before-clipping selected density, including the singular first-entry atoms.
+This is the exact chain-rule content behind Sections 221--224.
+
+Now decompose the coupled packet evolution into:
+
+\[
+\text{volume-preserving pressure/advection coordination}
+\circ
+\text{viscous/Stokes heat step}
+\circ
+\text{selector/collar/frame projection}.
+\tag{TFE.2667}
+\]
+
+The first factor preserves \(dR_P^{root}\) because the material map is
+incompressible.  The viscous/Stokes factor is the parabolic Markov part and gives
+entropy dissipation:
+
+\[
+d\mathcal E_P^{crit}
++\nu\,d\mathcal I_P^{crit}
+\le
+d\mathcal D_P^{geom}
++dPaid_P,
+\tag{TFE.2668}
+\]
+
+where \(d\mathcal I_P^{crit}\) is the Fisher/Dirichlet critical dissipation and
+\(d\mathcal D_P^{geom}\) is the log-Jacobian / detector-distortion created by
+the selector, collar, Hodge, endpoint, and moving root frame.
+
+The strict no-self-feeding content is exactly the domination of that distortion
+by the original generator clock:
+
+\[
+d\mathcal D_P^{geom}
+\le
+d\Theta_P^0
++\vartheta\,d\Omega_P^{gen}
++dPaid_P,
+\qquad
+C_N\vartheta<1.
+\tag{TFE.2669}
+\]
+
+Define the remaining parent critical capacity by
+
+\[
+M_P^{crit}
+:=
+\mathcal C_P^{crit}
+-\mathcal E_P^{crit},
+\qquad
+0\le M_P^{crit}\le C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2670}
+\]
+
+where \(\mathcal C_P^{crit}\) is the root finite critical capacity supplied by
+the original packet and paid routing.  Combining `(TFE.2666)'--`(TFE.2669)' gives
+
+\[
+d\rho_{crit,P}^{ac}
++d\rho_{crit,P}^{entry}
+\le
+-dM_P^{crit}
++d\Theta_P^0
++\vartheta\,d\Omega_P^{gen}
++dPaid_P,
+\qquad
+C_N\vartheta<1,
+\tag{TFE.2671}
+\]
+
+which is `(TFE.2659)'.
+
+Thus `(TFE.2659)' is reduced to the following source package:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{parent-announced critical filtration `(TFE.2663)'}\\
++\text{entropy chain rule with singular entry `(TFE.2664)'--`(TFE.2666)'}\\
++\text{coupled entropy dissipation `(TFE.2668)'}\\
++\text{strict geometric distortion domination `(TFE.2669)'}
+\end{array}
+\Longrightarrow
+\text{critical-entry storage `(TFE.2659)'.}
+}
+\tag{TFE.2672}
+\]
+
+This is the physically correct source picture.  Pressure/incompressibility
+re-coordinates the parent measure with no volume gain.  Viscosity supplies
+entropy dissipation through the heat/Stokes step.  Positive selected critical
+mass can enter through selector/collar/frame distortion or through the singular
+first-entry endpoint seed, and those are exactly the terms measured by
+\(d\mathcal D_P^{geom}\) and \(d\rho_{crit}^{entry}\).  The Gold \(L^1\) proof
+closes once `(TFE.2669)' and the root capacity bound in `(TFE.2670)' are proved
+from arbitrary original smooth data.
+
+## 235. Bounded distortion is a consumer; singular entry is the source
+
+The distortion term in `(TFE.2669)' should not be treated as one new reservoir.
+After the exact critical source split, it has three pieces:
+
+\[
+d\mathcal D_P^{geom}
+=
+d\mathcal D_P^{bdd}
++d\mathcal D_P^{route}
++d\mathcal D_P^{entry?}.
+\tag{TFE.2673}
+\]
+
+Here \(d\mathcal D^{bdd}\) is the bounded stopped detector/log-carrier
+distortion, \(d\mathcal D^{route}\) is selector, collar, Hodge, frame,
+reselection, legal, and stop motion, and \(d\mathcal D^{entry?}\) is the apparent
+distortion created by a zero-baseline scale-native detector.
+
+The first two pieces are consumers.  The bounded detector branch is exactly
+Sections 223 and 230:
+
+\[
+d\mathcal D_P^{bdd}
+\le
+\vartheta_{bdd}\,d\Omega_P^{gen}
++dBadTop_P
++dPaid_P,
+\qquad
+C_N\vartheta_{bdd}<1,
+\tag{TFE.2674}
+\]
+
+where \(dBadTop_P\) is packed by the stopped same-parent bad-top packing
+`(TFE.2623)' and is therefore included in \(d\Theta_P^0+dPaid_P\).  The routed
+motion branch satisfies
+
+\[
+d\mathcal D_P^{route}
+\le
+d\Theta_P^0+dPaid_P
+\tag{TFE.2675}
+\]
+
+because its variation is precisely frame/collar/Hodge/covector/selector/legal
+or stop material in the original ledger.
+
+The third term is not allowed to stay inside distortion.  A zero-baseline
+scale-native detector has
+
+\[
+\|K_Q^{parent}\|_{\mathcal H_{root}^{\ast}}^2
+\simeq
+\lambda_Q^{-1},
+\tag{TFE.2676}
+\]
+
+so it fails the bounded-detector estimate `(TFE.2570)'--`(TFE.2573)'.  Section
+224 says this branch is a singular first-entry atom:
+
+\[
+d\mathcal D_P^{entry?}
+\quad\leadsto\quad
+d\rho_{crit,P}^{entry}.
+\tag{TFE.2677}
+\]
+
+Thus `(TFE.2669)' reduces to the already audited bounded/routed estimates plus
+the removal of the zero-baseline branch from geometric distortion:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{bounded stopped detector BMO packing `(TFE.2621)'--`(TFE.2623)'}\\
++\text{routed frame/collar/Hodge/selector payment}\\
++\text{zero-baseline branch admitted as \(d\rho_{crit}^{entry}\)}
+\end{array}
+\Longrightarrow
+d\mathcal D_P^{geom}
+\le
+d\Theta_P^0+\vartheta\,d\Omega_P^{gen}+dPaid_P .
+}
+\tag{TFE.2678}
+\]
+
+Consequently the nonconsumer part of `(TFE.2672)' is now narrower:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{construct the parent critical filtration;}\\
+\text{prove root capacity for \(d\rho_{crit}^{ac}+d\rho_{crit}^{entry}\);}\\
+\text{especially prove singular first-entry endpoint-seed packing.}
+\end{array}}
+\tag{TFE.2679}
+\]
+
+The positive-baseline log part is controlled once the stopped log-carrier square
+variation and bad-top packing are controlled by the parent generator clock.  The
+zero-baseline part is the actual source edge: the packet must prove that all
+singular first-entry endpoint seeds form a finite root critical capacity before
+clipping.  In the older notation this is exactly the selected-critical/native
+birth packing face of `(TFE.2550)' and `(TFE.2584)'.
+
+## 236. Singular entry is endpoint trace capacity
+
+The singular first-entry endpoint seed is not a new object beside the endpoint
+Hardy calculation from Sections 189--190.  It is the zero-baseline part of the
+same affine endpoint square.  The exact question is whether that first trace of
+the affine square is a projection of the before-clipping parent generator clock.
+
+Let \(\Gamma_P^{0,EP}\subset\Gamma_P^{EP,fr}\) be the retained endpoint fibres
+on which the parent baseline is zero.  On each such fibre use the same seed
+variable as `(TFE.2229)':
+
+\[
+m_\gamma(t)=K_\gamma(t)\overline Z_\gamma^{fresh,+}(t),
+\qquad
+B_\gamma(t)=\|m_\gamma(t)\|_{\mathcal H_\gamma}^{2}.
+\tag{TFE.2680}
+\]
+
+Define the singular endpoint trace-capacity measure by
+
+\[
+\begin{aligned}
+d\mathfrak C_P^{EP,0}
+&:=
+B_\gamma(a_\gamma)
+\left(\int_{a_\gamma}^{b_\gamma}H_\gamma(t)\,dt\right)
+d\eta_P^{EP}(\gamma)\\
+&\quad+
+\mathcal W_\gamma(t)
+[D_t^PB_\gamma(t)]_+\,dt\,d\eta_P^{EP}(\gamma),
+\qquad
+\mathcal W_\gamma(t):=\int_t^{b_\gamma}H_\gamma(s)\,ds .
+\end{aligned}
+\tag{TFE.2681}
+\]
+
+The one-dimensional first-entry identity `(TFE.2244)' gives, with no dyadic
+counting and no child-normalized unit sum,
+
+\[
+\int_{\Gamma_P^{0,EP}}\int_{a_\gamma}^{b_\gamma}
+H_\gamma(t)B_\gamma(t)\,dt\,d\eta_P^{EP}(\gamma)
+\le
+\int_{\Gamma_P^{0,EP}}d\mathfrak C_P^{EP,0}.
+\tag{TFE.2682}
+\]
+
+Using the parabolic first-entry normalization `(TFE.2586)', the singular
+critical capacity is exactly this endpoint trace object, up to paid
+reselection/legal/stop terms:
+
+\[
+\int_{\mathcal Q_P^{ret}}d\rho_{crit,P}^{entry}
+\le
+C_N\int_{\Gamma_P^{0,EP}}d\mathfrak C_P^{EP,0}
++dPaid_P .
+\tag{TFE.2683}
+\]
+
+Thus singular endpoint-seed packing is proved once the endpoint trace capacity
+is generated by the original packet.  The needed representation is
+
+\[
+D_t^Pm_\gamma
+=
+\Pi_\gamma^{EP}G_P^{root}
++E_\gamma^{route},
+\tag{TFE.2684}
+\]
+
+where \(G_P^{root}\) is the before-clipping coupled root generator from
+`(TFE.2401)'--`(TFE.2408)', and \(E_\gamma^{route}\) consists only of
+frame/collar/Hodge/covector/selector/legal/stop motion already measured in the
+original ledger.  The metric derivative in `(TFE.2247)' is included in this
+same routed term.
+
+Under `(TFE.2684)', Cauchy with the Hardy adjoint weight gives
+
+\[
+\mathcal W_\gamma(t)[D_t^PB_\gamma(t)]_+
+\;dt\,d\eta_P^{EP}(\gamma)
+\le
+\varepsilon H_\gamma(t)B_\gamma(t)
+\;dt\,d\eta_P^{EP}(\gamma)
++C_{\varepsilon}H_{P,EP}^{\ast}(t,\gamma)
+\|\Pi_\gamma^{EP}G_P^{root}(t)\|^2
+\;dt\,d\eta_P^{EP}(\gamma)
++d\Theta_P^0+dPaid_P .
+\tag{TFE.2685}
+\]
+
+Here \(H_{P,EP}^{\ast}\) is not a new child weight.  It is the parent Hardy
+adjoint weight already forced by \(\mathcal W_\gamma\) in `(TFE.2681)' and
+pulled back to the root generator clock.  Define the endpoint-trace generator
+projection by
+
+\[
+d\Omega_P^{EP,tr}
+:=
+H_{P,EP}^{\ast}\|\Pi_\gamma^{EP}G_P^{root}\|^2
+\,dt\,d\eta_P^{EP}(\gamma).
+\tag{TFE.2686}
+\]
+
+Taking \(\varepsilon\) small in `(TFE.2685)' and absorbing the first term through
+`(TFE.2682)' gives the trace-capacity domination
+
+\[
+\int_{\Gamma_P^{0,EP}}d\mathfrak C_P^{EP,0}
+\le
+C_N\int_{\operatorname{Hist}(P)}d\Omega_P^{EP,tr}
++C_N\int_{\operatorname{Hist}(P)}d\Theta_P^0
++dPaid_P .
+\tag{TFE.2687}
+\]
+
+Combining `(TFE.2683)' and `(TFE.2687)' gives
+
+\[
+\int_{\mathcal Q_P^{ret}}d\rho_{crit,P}^{entry}
+\le
+C_N\int_{\operatorname{Hist}(P)}d\Omega_P^{EP,tr}
++C_N\int_{\operatorname{Hist}(P)}d\Theta_P^0
++dPaid_P .
+\tag{TFE.2688}
+\]
+
+Therefore `(TFE.2584)' follows from the parent-clock inclusion
+
+\[
+d\Omega_P^{EP,tr}
+\le
+C_Nd\Omega_P^{gen}+dPaid_P
+\tag{TFE.2689}
+\]
+
+together with the full-exchange no-self-feeding storage `(TFE.2426)'.  More
+explicitly,
+
+\[
+\boxed{
+\begin{array}{c}
+\text{endpoint trace-generator representation `(TFE.2684)'}\\
++\text{Hardy adjoint parent-clock inclusion `(TFE.2689)'}\\
++\text{full-exchange no-self-feeding storage `(TFE.2426)'}
+\end{array}
+\Longrightarrow
+\text{singular endpoint-seed packing `(TFE.2584)'.}
+}
+\tag{TFE.2690}
+\]
+
+This demotes the singular entry branch to a precise endpoint trace-capacity
+projection.  It is not an independent dyadic sum, not a zero-baseline log
+convention, and not a pressure-only source.  The remaining arbitrary-data
+producer is now the parent-clock statement `(TFE.2684)'--`(TFE.2689)' together
+with `(TFE.2426)': the first visible affine endpoint square must be generated by
+the same original full-exchange clock, and that clock must have strict
+same-parent no-self-feeding storage.
+
+## 237. Heat-lag trace normalization gives the parent-clock inclusion
+
+The parent-clock inclusion `(TFE.2689)' is the place where the physical
+heat-lag matters.  The zero-baseline endpoint detector is unbounded if it is
+viewed as a naked child functional, because `(TFE.2676)' gives
+\(\|K_Q^{parent}\|^2\simeq\lambda_Q^{-1}\).  The endpoint trace is not naked:
+the first readable square is multiplied by the Hardy adjoint time thickness of
+the same heat-lag window.
+
+Write the endpoint trace projection as
+
+\[
+\Pi_{EP}^PF(\gamma,t)
+:=
+K_\gamma(t)\Pi_\gamma^{EP}F(t),
+\tag{TFE.2691}
+\]
+
+with \(F\) any parent-root generator field.  The exact trace-normalization
+claim is
+
+\[
+H_{P,EP}^{\ast}(t,\gamma)
+\|K_\gamma(t)\Pi_\gamma^{EP}F(t)\|^2
+\,dt\,d\eta_P^{EP}(\gamma)
+\le
+C_NH_P^\ast(t,\sigma)\|F(\sigma,t)\|^2\,d\sigma dt
++dPaid_P .
+\tag{TFE.2692}
+\]
+
+This is the continuous parent-measure version of the heat-scale cancellation:
+
+\[
+H_{P,EP}^{\ast}\sim \lambda_Q,
+\qquad
+\|K_Q^{parent}\|^2\sim\lambda_Q^{-1},
+\qquad
+H_{P,EP}^{\ast}\|K_Q^{parent}\|^2\sim 1,
+\tag{TFE.2693}
+\]
+
+with the remaining Jacobian, selector, collar, and stopped overlap already
+inside \(d\eta_P^{EP}\) and paid route terms.  Thus the apparent scale-native
+unboundedness is exactly balanced by the first heat-lag time thickness before
+the child readout is clipped.
+
+Integrating `(TFE.2692)' over the stopped endpoint family gives the desired
+parent-clock inclusion
+
+\[
+\int_{\operatorname{Hist}(P)}d\Omega_P^{EP,tr}
+\le
+C_N\int_{\operatorname{Hist}(P)}d\Omega_P^{gen}
++dPaid_P .
+\tag{TFE.2694}
+\]
+
+Therefore `(TFE.2689)' is not another \(L^1\) theorem.  It is the endpoint
+trace projection theorem:
+
+\[
+\boxed{
+\text{heat-lag trace normalization `(TFE.2692)'--`(TFE.2693)'}
+\Longrightarrow
+\text{endpoint parent-clock inclusion `(TFE.2689)'.}
+}
+\tag{TFE.2695}
+\]
+
+Combining `(TFE.2695)' with `(TFE.2690)' shows that singular first-entry
+endpoint-seed packing is a consumer once the endpoint trace detector is
+included in the root generator clock:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{endpoint trace detector is a bounded heat-normalized projection of }
+\mathcal G_P^{root}\\
++\text{full-exchange no-self-feeding storage `(TFE.2426)'}
+\end{array}
+\Longrightarrow
+\text{singular endpoint-seed packing `(TFE.2584)'.}
+}
+\tag{TFE.2696}
+\]
+
+The physical content is the exact one Thomas isolated: the pressure-compatible
+instantaneous endpoint trace is not counted as a real velocity/energy readout
+until the heat-lag window gives it thickness.  The singular detector carries
+the inverse heat scale, the first-readable trace carries the heat scale, and
+their product is a parent-clock density.  After that multiplication, repeated
+scale recounting is impossible unless the same full-exchange generator clock
+itself has infinite mass, which is precisely the remaining strict storage
+question `(TFE.2426)'.
+
+## 238. Full-exchange storage is a heat-lag feedback spectral gap
+
+After Sections 236--237, the strict storage `(TFE.2426)' can be stated one level
+lower.  The packet has no independent singular endpoint branch left.  A
+same-parent return that is still uncharged must be a feedback loop from the
+parent generator clock back into the parent generator clock.
+
+Let
+
+\[
+d\mu_P^{gen}:=H_P^\ast\,d\sigma\,dt,
+\qquad
+F_P:=\mathcal G_P^{root},
+\qquad
+d\Omega_P^{gen}=\|F_P\|_{\mathcal H_{root}}^2\,d\mu_P^{gen}
++dA_P^{sel/chart}.
+\tag{TFE.2697}
+\]
+
+After the endpoint trace, tower signed-partner, low-high detector, route,
+legal, and stop projections have been admitted, decompose the full-exchange
+ledger into an exact/telescoping part and an uncharged retained feedback part:
+
+\[
+d\Xi_P^{FE}
+=
+d\Xi_P^{exact}
++d\Xi_P^{loop}
++d\Theta_P^0
++dPaid_P .
+\tag{TFE.2698}
+\]
+
+The exact part is the reversible or already routed material.  It satisfies
+
+\[
+d\Xi_P^{exact}
+\le
+-dM_P^{loop}
++d\Theta_P^0
++dPaid_P,
+\qquad
+0\le M_P^{loop}\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2699}
+\]
+
+The only nonduplicate issue is \(d\Xi_P^{loop}\).  In the stopped parent frame
+it must be represented by a same-parent feedback operator applied before child
+positive clipping:
+
+\[
+d\Xi_P^{loop}
+\le
+\|\mathcal K_P^{ret}F_P\|_{\mathcal H_{root}}^2\,d\mu_P^{gen}
++dPaid_P .
+\tag{TFE.2700}
+\]
+
+The operator \(\mathcal K_P^{ret}\) has the coupled participation factorization
+
+\[
+\mathcal K_P^{ret}
+=
+\Pi_P^{ret}\,
+\mathcal U_P^{-1}\,
+\mathcal H_{\nu,P}^{lag}\,
+\mathcal U_P\,
+\Pi_P^{ret}
++\mathcal R_P^{paid}.
+\tag{TFE.2701}
+\]
+
+Here \(\mathcal U_P\) is the volume-preserving pressure/advection/incompressible
+transport plus frame re-coordination, with metric defects routed to
+\(d\Theta_P^0+dPaid_P\).  The projection \(\Pi_P^{ret}\) is the parent-announced
+selected detector after the heat-normalized endpoint trace and bounded
+low-high detector estimates.  The factor \(\mathcal H_{\nu,P}^{lag}\) is the
+viscous/Stokes heat-lag step on the retained scale-native quotient.
+
+The reversible factor is neutral in the parent measure:
+
+\[
+\|\mathcal U_PF\|_{\mathcal H_{root}}^2\,d\mu_P^{gen}
+\le
+\|F\|_{\mathcal H_{root}}^2\,d\mu_P^{gen}
++d\Theta_P^0+dPaid_P .
+\tag{TFE.2702}
+\]
+
+The retained detector is bounded only after the heat-lag/parent-measure
+normalizations from Sections 230 and 237:
+
+\[
+\|\Pi_P^{ret}F\|_{\mathcal H_{root}}^2\,d\mu_P^{gen}
+\le
+C_{\Pi,N}\|F\|_{\mathcal H_{root}}^2\,d\mu_P^{gen}
++dPaid_P .
+\tag{TFE.2703}
+\]
+
+The strict content is the heat-lag quotient gap.  On the uncharged retained
+quotient, zero-lag material has already been routed to inherited carry, endpoint
+trace, return/reset, legal, or stop.  Thus every remaining loop passes through
+a positive heat-time thickness:
+
+\[
+\|\mathcal H_{\nu,P}^{lag}F\|_{\mathcal H_{root}}^2
+\le
+q_N\|F\|_{\mathcal H_{root}}^2,
+\qquad
+0\le q_N<C_{\Pi,N}^{-2}C_N^{-1}.
+\tag{TFE.2704}
+\]
+
+Equivalently, on each retained scale-native fibre \(Q\),
+
+\[
+\nu\,\tau_Q|\xi_Q|^2\ge L_N,
+\qquad
+C_NC_{\Pi,N}^{2}e^{-2L_N}<1,
+\tag{TFE.2705}
+\]
+
+after all sub-heat-lag first traces have been placed in the endpoint trace
+capacity `(TFE.2681)'--`(TFE.2696)' or in paid route material.  This is exactly
+the mathematical form of "the instant pressure-compatible trace is not a
+readable energy event until heat lag gives it time thickness."
+
+Combining `(TFE.2701)'--`(TFE.2705)' gives the strict loop estimate
+
+\[
+d\Xi_P^{loop}
+\le
+\vartheta_N\,d\Omega_P^{gen}
++d\Theta_P^0
++dPaid_P,
+\qquad
+C_N\vartheta_N<1 .
+\tag{TFE.2706}
+\]
+
+Adding the exact part `(TFE.2699)' yields
+
+\[
+d\Xi_P^{FE}
+\le
+-dM_P^{loop}
++d\Theta_P^0
++\vartheta_N\,d\Omega_P^{gen}
++dPaid_P,
+\qquad
+C_N\vartheta_N<1,
+\tag{TFE.2707}
+\]
+
+which is the second line of `(TFE.2426)'.  The first line of `(TFE.2426)' is the
+already stated generator comparison \(d\Omega_P^{gen}\le C_Nd\Xi_P^{FE}+dPaid_P\).
+Therefore
+
+\[
+\boxed{
+\begin{array}{c}
+\text{exact/reversible material telescopes `(TFE.2699)'}\\
++\text{parent-announced retained feedback operator `(TFE.2700)'--`(TFE.2703)'}\\
++\text{strict heat-lag quotient gap `(TFE.2704)'--`(TFE.2705)'}
+\end{array}
+\Longrightarrow
+\text{full-exchange storage `(TFE.2426)'.}
+}
+\tag{TFE.2708}
+\]
+
+This is the next nonduplicate Gold \(L^1\) producer.  It does not split pressure
+and viscosity into separate accounts.  Pressure/advection/incompressibility are
+the reversible re-coordination in \(\mathcal U_P\); viscosity is the heat-lag
+factor that gives strict contraction only after endpoint and first-entry
+zero-lag material has been admitted to the same parent ledger.  The remaining
+arbitrary-data proof is therefore the strict heat-lag quotient gap for the
+retained full-exchange feedback operator, plus the checked boundedness of the
+parent-announced detector on that quotient.
