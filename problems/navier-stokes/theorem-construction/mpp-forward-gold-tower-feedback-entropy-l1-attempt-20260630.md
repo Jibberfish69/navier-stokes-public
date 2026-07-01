@@ -30079,3 +30079,737 @@ existing heat/route/legal/stop finite-overlap terms.  Thus the remaining
 continuous \(L^1\) producer splits cleanly into terminal-uniform parent entropy
 for high-ratio recount and terminal-uniform parent thickness for low-ratio
 residence, both built from the same coupled packet.
+
+## 174. Exact continuous \(L^1\) closure from parent thickness plus entropy
+
+After the dyadic correction, the deterministic \(L^1\) closure is a simple
+continuous Orlicz statement.  Let
+
+\[
+dA_{P,\tau}^{sel}
+=
+R_{P,\tau}\,d\Lambda_{P,\tau},
+\qquad
+d\Lambda_{P,\tau}
+=
+d\mathcal C_{P,\sigma,\tau}^{act}(z)\,d\sigma ,
+\tag{TFE.2057}
+\]
+
+where \(R_{P,\tau}\ge0\) is the selected readout density of the same parent
+packet before child clipping.  Split the exact parent integral into low and
+high density:
+
+\[
+\int R_{P,\tau}\,d\Lambda_{P,\tau}
+=
+\int_{\{R_{P,\tau}<2\}}R_{P,\tau}\,d\Lambda_{P,\tau}
++
+\int_{\{R_{P,\tau}\ge2\}}R_{P,\tau}\,d\Lambda_{P,\tau}.
+\tag{TFE.2058}
+\]
+
+The low part is only counting available parent thickness:
+
+\[
+\int_{\{R_{P,\tau}<2\}}R_{P,\tau}\,d\Lambda_{P,\tau}
+\le
+2\,\Lambda_{P,\tau}(\mathcal X_{P,\tau}).
+\tag{TFE.2059}
+\]
+
+The high part is exactly where entropy enters.  Since
+
+\[
+r\mathbf 1_{\{r\ge2\}}
+\le
+C\,\Phi(r),
+\qquad
+\Phi(r)=r\log r-r+1,
+\tag{TFE.2060}
+\]
+
+one has
+
+\[
+\int_{\{R_{P,\tau}\ge2\}}R_{P,\tau}\,d\Lambda_{P,\tau}
+\le
+C
+\int_{\mathcal X_{P,\tau}}
+\Phi(R_{P,\tau})\,d\Lambda_{P,\tau}.
+\tag{TFE.2061}
+\]
+
+Thus the exact continuous \(L^1\) theorem follows from the two parent-produced
+quantities
+
+\[
+\sup_{\tau<T_*}
+\Lambda_{P,\tau}(\mathcal X_{P,\tau})
+\le
+C_N(u_0)
+\tag{TFE.2062}
+\]
+
+and
+
+\[
+\sup_{\tau<T_*}
+\int_{\mathcal X_{P,\tau}}
+\Phi(R_{P,\tau})\,d\Lambda_{P,\tau}
+\le
+C_N(u_0).
+\tag{TFE.2063}
+\]
+
+Indeed `(TFE.2058)'--`(TFE.2061)' give
+
+\[
+\sup_{\tau<T_*}
+\int_{\mathcal X_{P,\tau}}
+R_{P,\tau}\,d\Lambda_{P,\tau}
+\le
+C_N(u_0).
+\tag{TFE.2064}
+\]
+
+This is `(TFE.2043)' without dyadic language.  Physically, `(TFE.2062)' says
+the parent packet has only finite active scale-time thickness available for
+low-amplification reads.  `(TFE.2063)' says high-amplification reads must spend
+finite parent active entropy.  Together they say the zoom continuum cannot
+manufacture extra count: small reads are limited by how much parent readout
+space exists, and large reads are limited by how much parent state-accessibility
+entropy exists.
+
+The heat and no-recount sections already prove the deterministic consumers of
+`(TFE.2063)' after the parent density exists:
+
+\[
+\text{heat deletion}
++
+\text{continuous first-admission/no-recount}
++
+\text{feedback data-processing}
+\Longrightarrow
+\text{no repeated high-ratio recount}.
+\tag{TFE.2065}
+\]
+
+Therefore the remaining Gold \(L^1\) producer can now be stated without
+dyadic shells:
+
+\[
+\boxed{
+\texttt{ContinuousParentActiveMeasureProducer.A:}
+\quad
+\text{construct }(\Lambda_{P,\tau},R_{P,\tau})
+\text{ from the original coupled packet and prove `(TFE.2062)'--`(TFE.2063)'.}
+}
+\tag{TFE.2066}
+\]
+
+In expanded physical terms, this producer is exactly the same-parent coupled
+active-capacity deletion law:
+
+\[
+d\Lambda_{P,\tau}
++d\!\left[\Phi(R_{P,\tau})\Lambda_{P,\tau}\right]
++dD_{\nu,heat}^{coup}
+\le
+-d\mathcal B_P^{coup}
++dPaid_{route/legal/stop/end},
+\tag{TFE.2067}
+\]
+
+integrated over the original parent history with
+\(\mathcal B_P^{coup}\) bounded below.  The pressure-compatible part can
+re-coordinate the readout space, the heat/viscous part can delete entropy, and
+the material-frame part can move the coordinates, but every term stays inside
+the same parent measure \(\Lambda_P\).
+
+So the continuous \(L^1\) problem is now sharply reduced:
+
+\[
+\text{terminal-uniform parent active thickness}
++
+\text{terminal-uniform parent active entropy}
+\Longrightarrow
+\text{Gold \(L^1\)}
+\tag{TFE.2068}
+\]
+
+for the exact measure constructed from the original coupled
+pressure--viscosity--incompressibility material packet.  This is not a
+completed proof from arbitrary data; it is the exact non-dyadic sufficient
+closure form
+that the remaining PDE estimate has to supply.
+
+## 175. Continuous BMO/log-carrier bridge to parent entropy
+
+The older selected log-amplification surfaces now have a precise continuous
+role.  They are not a replacement for the parent active measure.  They supply
+the entropy half of `(TFE.2062)'--`(TFE.2063)' once the same parent measure and
+scale-time thickness have already been constructed.
+
+Work on a parent-known active fibre \(E\subset\mathcal X_{P,\tau}\) with
+reference measure \(d\Lambda_E\).  Suppose the selected ratio has a
+parent-normalized log representation
+
+\[
+R_E
+=
+{\exp b_E\over \langle \exp b_E\rangle_E},
+\qquad
+\langle R_E\rangle_E=1,
+\tag{TFE.2069}
+\]
+
+where
+
+\[
+b_E
+=
+\ell_E(Z^S)-\psi_E+e_E
+\tag{TFE.2070}
+\]
+
+is fixed by the stopped original-history carrier before child clipping.  The
+continuous version of `OriginalHistoryHilbertBMOProducer.A' needed here is not
+bare finite BMO.  It is the stopped exponential-BMO / reverse-Holder output:
+
+\[
+\|b_E-\langle b_E\rangle_E\|_{BMO(d\Lambda_E)}
+\le
+K_N(u_0)
+\quad\text{and}\quad
+R_E\in RH_{1+\varepsilon_N}(d\Lambda_E)
+\tag{TFE.2071}
+\]
+
+together with finite-overlap packing of the fibres \(E\) in the parent
+scale-time measure.  The reverse-Holder clause may come from stopped
+small-BMO, Kazamaki, John--Nirenberg after a paid stopping decomposition, or an
+equivalent martingale good-\(\lambda\) theorem.  Finite BMO without this
+exponential stopping clause is not enough for the entropy estimate.
+
+Under `(TFE.2071)', there is an exponent \(\varepsilon=\varepsilon_N>0\) and a
+constant \(C_N\) such that
+
+\[
+\int_E R_E^{1+\varepsilon}\,d\Lambda_E
+\le
+C_N\,\Lambda_E(E).
+\tag{TFE.2072}
+\]
+
+Since
+
+\[
+\Phi(r)=r\log r-r+1
+\le
+C_\varepsilon(1+r^{1+\varepsilon}),
+\tag{TFE.2073}
+\]
+
+the entropy on each active fibre is bounded by the same parent thickness:
+
+\[
+\int_E \Phi(R_E)\,d\Lambda_E
+\le
+C_N\,\Lambda_E(E).
+\tag{TFE.2074}
+\]
+
+Summing over a parent-known finite-overlap fibre cover \(\mathcal E_{P,\tau}\)
+therefore gives
+
+\[
+\int_{\mathcal X_{P,\tau}}
+\Phi(R_{P,\tau})\,d\Lambda_{P,\tau}
+\le
+C_N
+\sum_{E\in\mathcal E_{P,\tau}}\Lambda_E(E)
+\le
+C_N\,\Lambda_{P,\tau}(\mathcal X_{P,\tau})
++Paid_{overlap/legal/stop}.
+\tag{TFE.2075}
+\]
+
+Thus the exact bridge is
+
+\[
+\text{parent active thickness `(TFE.2062)'}
++
+\text{continuous original-history exponential BMO/log carrier `(TFE.2069)'--`(TFE.2071)'}
+\Longrightarrow
+\text{parent active entropy `(TFE.2063)'}.
+\tag{TFE.2076}
+\]
+
+Combining `(TFE.2076)' with `(TFE.2068)' gives the sharpened continuous closure
+chain
+
+\[
+\begin{gathered}
+\text{terminal-uniform parent active thickness}\\
++
+\text{original-history stopped exponential BMO/log carrier}\\
+\Downarrow\\
+\text{terminal-uniform parent active entropy}\\
+\Downarrow\\
+\text{exact continuous selected \(L^1\).}
+\end{gathered}
+\tag{TFE.2077}
+\]
+
+This also clarifies what the stopped \(Tb\)/adjoint-testing surfaces do.  The
+testing theorem
+
+\[
+\texttt{StoppedSelectorTestingCarleson.A}
+\quad\text{or}\quad
+\texttt{OriginalHistoryHilbertBMOProducer.A}
+\tag{TFE.2078}
+\]
+
+is exactly the route to `(TFE.2071)'.  It must build \(Z^S\) from the routed
+same-material pressure-Hodge/strain/frame/exchange source with cancellation and
+Carleson testing defects, and it must include the stopping/Kazamaki/reverse-
+Holder step that turns the square-function carrier into the exponential density
+control used in `(TFE.2072)'.  It does not by itself prove `(TFE.2062)'; the
+active scale-time thickness of the parent measure must be supplied by the same
+coupled active-capacity deletion law or by terminal no-residue/time-thickness
+control.
+
+The live original-data producer is therefore smaller and cleaner than the old
+dyadic half-tail wall:
+
+\[
+\boxed{
+\begin{aligned}
+\texttt{ContinuousParentActiveMeasureProducer.A}
+\Leftarrow\;&
+\texttt{ParentActiveThicknessFromCoupledPacket.A}\\
+&+
+\texttt{OriginalHistoryExponentialBMOReverseHolderProducer.A}
+\end{aligned}
+}
+\tag{TFE.2079}
+\]
+
+with the second term routed through stopped selector testing/accretive
+same-material adjoint data plus exponential stopping, and the first term routed
+through the exact same-parent active-capacity/thickness measure.  The
+deterministic Orlicz part is now proved in `(TFE.2069)'--`(TFE.2077)' after
+the reverse-Holder clause; the unproved content is the original-data
+construction of those two parent objects.
+
+## 176. Parent active thickness is the critical endpoint metric upper edge
+
+The other half of `(TFE.2079)' is parent active thickness.  It is not raw
+Lebesgue time, raw heat-square mass, or finite initial energy by itself.  It is
+the amount of original parent critical metric that has been assigned to
+retained selected readout fibres before the child clips them.
+
+In the endpoint-state language already isolated in Section 151, let
+\(\mathcal H_{P,\mathrm{crit}}^{sel}\) be the parent-fixed critical selected
+metric and \(E_\gamma\) the endpoint/readout state attached to a retained
+active fibre \(\gamma\).  Define the thickness measure by
+
+\[
+d\Lambda_P^{thick}(\gamma)
+:=
+\|E_\gamma-E_{\operatorname{par}(\gamma)}
+\|_{\mathcal H_{P,\mathrm{crit}}^{sel}}^2
++dPaid_{route/legal/stop/end}(\gamma).
+\tag{TFE.2080}
+\]
+
+The lower edge says a selected low-amplification readout has to occupy this
+same parent metric before it is counted:
+
+\[
+dA^{base}_{sel}(\gamma)
+\le
+C_N\,d\Lambda_P^{thick}(\gamma).
+\tag{TFE.2081}
+\]
+
+This is the continuous version of `(TFE.1682)'.  It is also the exact
+order-lock requirement: the child cannot clip a velocity/strain readout before
+the coupled pressure-viscosity-incompressibility partner has recombined into
+the same parent state.
+
+The upper edge is the parent thickness bound:
+
+\[
+\sup_{\tau<T_*}
+\Lambda_{P,\tau}^{thick}(\mathcal X_{P,\tau})
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P).
+\tag{TFE.2082}
+\]
+
+This is `(TFE.2062)' in endpoint metric coordinates.  It is exactly the upper
+edge from `(TFE.1688)' plus the parent-fixed angle-drift Carleson bound
+`(TFE.1689)'.  Once `(TFE.2081)' and `(TFE.2082)' hold, low-ratio residence in
+`(TFE.2059)' is paid by real parent thickness rather than by a repeated
+refinement count.
+
+Terminal material needs the same measure to have no zero-thickness atom:
+
+\[
+\lim_{\delta\downarrow0}
+\sup_{\tau<T_*}
+\Lambda_P^{thick}\bigl(\mathcal X_{P,\tau}\cap\{T_*-\delta<t<T_*\}\bigr)
+=0,
+\tag{TFE.2083}
+\]
+
+or the equivalent absolute-continuity/Hardy endpoint modulus.  This is the
+continuous form of the terminal no-residue/time-thickness clause.  It does not
+add a side reservoir; it says the final readout is still measured by the same
+parent critical metric and cannot arrive as an \(L^1\) terminal atom with zero
+scale-time thickness.
+
+Therefore
+
+\[
+\boxed{
+\texttt{ParentActiveThicknessFromCoupledPacket.A}
+\equiv
+\texttt{ParentKnownEndpointStateEntropyDeletion.A}
++\texttt{FullOutputOrderLockBeforeClipping.A}
+}
+\tag{TFE.2084}
+\]
+
+in the continuous parent-measure language: construct the metric, prove the
+lower readout edge, prove the upper Carleson/thickness edge, and prove terminal
+no-residue, all from the original coupled packet before selected child
+clipping.
+
+Combining `(TFE.2079)' and `(TFE.2084)' gives the current exact Gold \(L^1\)
+producer:
+
+\[
+\begin{aligned}
+\texttt{ContinuousParentActiveMeasureProducer.A}
+\Leftarrow\;&
+\texttt{ParentKnownEndpointStateEntropyDeletion.A}\\
+&+
+\texttt{FullOutputOrderLockBeforeClipping.A}\\
+&+
+\texttt{OriginalHistoryExponentialBMOReverseHolderProducer.A}.
+\end{aligned}
+\tag{TFE.2085}
+\]
+
+This is sharper than the older package list.  The first two lines supply the
+parent active thickness and terminal no-residue.  The third line supplies the
+parent active entropy.  Sections 173--174 then turn those two continuous
+quantities into terminal-uniform selected \(L^1\).
+
+What remains unproved from arbitrary original data is now exactly `(TFE.2085)'.
+The deterministic part of the \(L^1\) problem has been converted to continuous
+measure, disintegration, Orlicz, and endpoint-metric statements; the live PDE
+content is the original-data construction of the parent critical metric,
+order-lock lower edge, upper thickness/no-residue edge, and exponential
+log-carrier.
+
+## 177. Full-output order-lock transfer and its two terminal subfaces
+
+The order-lock face in `(TFE.2085)' has a deterministic algebraic core.  Let
+\(n\) be the channel-first selected scalar and let
+
+\[
+h=n+b
+\tag{TFE.2086}
+\]
+
+be the full same-carrier pressure--viscosity--incompressibility scalar after
+the missing partner \(b\) has recombined.  The exact channel-first excess is
+
+\[
+\Delta^{ol}
+:=
+\bigl([n]_+-[h]_+\bigr)_+
+=
+\min\{[n]_+,[-b]_+\}.
+\tag{TFE.2087}
+\]
+
+Thus
+
+\[
+[n]_+
+\le
+[h]_+ + \Delta^{ol}.
+\tag{TFE.2088}
+\]
+
+If the selected readout is already order-locked, meaning
+
+\[
+n=h+r^{legal/stop},
+\tag{TFE.2089}
+\]
+
+then the positive-part map is \(1\)-Lipschitz and
+
+\[
+\bigl|[n]_+-[h]_+\bigr|
+\le
+|r^{legal/stop}|.
+\tag{TFE.2090}
+\]
+
+So the clean order-locked case transfers directly into the full-output parent
+measure:
+
+\[
+dA^{native}_{sel}
+\le
+dA^{full}_{sel}
++dPaid_{legal/stop}.
+\tag{TFE.2091}
+\]
+
+The only real issue is the channel-first gap `(TFE.2087)'.  Split the same
+parent partner into its coupled faces
+
+\[
+b=b^p+b^v+b^t+b^i+b^\ell+b^s,
+\tag{TFE.2092}
+\]
+
+for pressure/Hodge, viscosity, time/storage, incompressibility/donor,
+legal/collar, and selector/geometry.  Then
+
+\[
+\Delta^{ol}
+\le
+\sum_{\kappa\in\{p,v,t,i,\ell,s\}}
+\min\{[n]_+,[-b^\kappa]_+\}.
+\tag{TFE.2093}
+\]
+
+This is not a decoupling of the participation law.  The positive native factor
+stays inside every term; `(TFE.2093)' is only a way to ask where the discarded
+same-parent partner went.
+
+The nonterminal partner overlaps are routed by the existing full-output
+participation ledger:
+
+\[
+\begin{aligned}
+\min\{[n]_+,[-b^v]_+\}&\le dD_{\nu}^{ann}+dPaid_{cutoff/legal},\\
+\min\{[n]_+,[-b^p]_+\}&\le dA_{pressure/collar}^{full}+dPaid_{legal},\\
+\min\{[n]_+,[-b^\ell]_+\}+\min\{[n]_+,[-b^s]_+\}
+&\le dA_{selector/collar/geometry}^{full}+dPaid_{stop/legal}.
+\end{aligned}
+\tag{TFE.2094}
+\]
+
+The time/storage overlap has the surviving endpoint form
+
+\[
+d\Delta^{time}_{ol}
+\le
+C\left(dD_A+d|W_A|+dr_{stor}\right),
+\tag{TFE.2095}
+\]
+
+where \(D_A\) is annular strain dissipation, \(W_A\) is annular stress work,
+and \(r_{stor}\) is materiality/cutoff storage defect on the retained annular
+carrier.  It becomes Gold payment only with the terminal no-pulse modulus
+
+\[
+\lim_{\theta\downarrow0}
+\sup_P
+\int_{T_*-\theta}^{T_*}
+\left(dD_A+d|W_A|+dr_{stor}\right)
+=0
+\tag{TFE.2096}
+\]
+
+or an equivalent \(L^q\), Hardy, Orlicz, or \(W^{\beta,1}\) endpoint modulus.
+
+The incompressibility/donor overlap has the second surviving terminal face:
+
+\[
+d\Delta^{donor}_{ol}
+\le
+dA_{donor}^{same\text{-}packet}+dPaid_{legal/stop},
+\tag{TFE.2097}
+\]
+
+together with same-packet donor realization/no-Zeno:
+
+\[
+\sum_{\gamma\subset P}
+dA_{donor}^{same\text{-}packet}(\gamma)
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P),
+\qquad
+\text{no terminal zero-rank donor cycle.}
+\tag{TFE.2098}
+\]
+
+Combining `(TFE.2088)'--`(TFE.2098)' gives the exact order-lock transfer:
+
+\[
+dA^{native}_{sel}
+\le
+dA^{full}_{sel}
++d\Lambda_P^{thick}
++dPaid_{route/legal/stop/end},
+\tag{TFE.2099}
+\]
+
+where \(d\Lambda_P^{thick}\) is the same parent active thickness measure from
+`(TFE.2080)'.  This proves the deterministic part of
+`FullOutputOrderLockBeforeClipping.A': once annular return has no terminal
+pulse and terminal donors are realized on the same packet, channel-first
+positivity cannot create a new \(L^1\) bill outside the full-output parent
+measure.
+
+Therefore the order-lock face of the remaining producer is exactly
+
+\[
+\boxed{
+\texttt{FullOutputOrderLockBeforeClipping.A}
+\Leftarrow
+\texttt{AnnularReturnNoTerminalPulse.A}
++
+\texttt{SamePacketTerminalDonorNoZeno.A}
+}
+\tag{TFE.2100}
+\]
+
+plus the already routed pressure, viscous, selector, collar, legal, and stop
+partner terms.  This is not full Gold closure: `(TFE.2096)' and `(TFE.2098)'
+are still original-data endpoint theorems.  It does remove the ambiguity about
+what order-lock must prove inside the continuous \(L^1\) route.
+
+## 178. Annular return no-pulse is finite full-clock uniform continuity
+
+The first terminal subface in `(TFE.2100)' is the annular return no-pulse
+theorem.  On a retained heat-scale material packet, the same-packet annular
+return density is
+
+\[
+\widehat\rho_A(s)
+=
+2\nu\int \phi |S_y(V)|^2\,dy
++
+\left|
+\int V\cdot(-QI+2\nu S_y(V))\nabla_y\phi\,dy
+\right|.
+\tag{TFE.2101}
+\]
+
+This density is not an external endpoint reservoir.  The transported local
+energy identity places its viscous part into the same four-body loss clock and
+its stress-work part into the same annular pressure/strain/material-interface
+clock:
+
+\[
+\widehat\rho_A(s)\,ds
+\le
+C\,d\Omega_N^{full}(s)+dR_N^0(s),
+\tag{TFE.2102}
+\]
+
+where \(dR_N^0\) is paid residual/legal/stop material and
+
+\[
+d\Omega_N^{full}
+=
+dA_{4B,N}
++
+C\,d[\log(1+\mathcal P_N^{mat})]_+
++
+d\mathcal K_{\rm iface}
++
+d\mathcal L_{4B,N}.
+\tag{TFE.2103}
+\]
+
+Thus annular return no-pulse follows from a single uniform full-clock modulus:
+
+\[
+\lim_{\theta\downarrow0}
+\sup_P
+\Omega_{N,P}^{full}\bigl((T_*-\theta,T_*)\bigr)
+=0,
+\qquad
+\lim_{\theta\downarrow0}
+\sup_P
+R_{N,P}^0\bigl((T_*-\theta,T_*)\bigr)
+=0.
+\tag{TFE.2104}
+\]
+
+Indeed `(TFE.2102)'--`(TFE.2104)' give
+
+\[
+\lim_{\theta\downarrow0}
+\sup_P
+\int_{T_*-\theta}^{T_*}\widehat\rho_A(s)\,ds
+=0.
+\tag{TFE.2105}
+\]
+
+This is exactly `(TFE.2096)'.  The daughter-packet proof gives the same result
+in contradiction form.  If `(TFE.2105)' fails, then for some \(a>0\) there are
+terminal strips \(I_m=(T_*-\theta_m,T_*)\), \(\theta_m\downarrow0\), with
+
+\[
+\int_{I_m}\widehat\rho_{A,m}(s)\,ds\ge a.
+\tag{TFE.2106}
+\]
+
+The same-material annular-return attachment turns each such strip into a
+smaller retained daughter packet carrying a fixed amount of the full clock:
+
+\[
+\Omega_{N}^{full}(D_m)\ge c\,a-O(R_N^0(D_m)).
+\tag{TFE.2107}
+\]
+
+The daughter packets are nested or disjoint in the stopped heat-scale
+ancestry.  After extracting the standard disjoint/stopped subfamily, infinitely
+many such daughters force
+
+\[
+\int d\Omega_N^{full}=\infty,
+\tag{TFE.2108}
+\]
+
+contradicting finite full-clock mass.  Therefore
+
+\[
+\texttt{FiniteFullSamePacketClock.A}
++
+\texttt{SameMaterialAnnularReturnAdmission.A}
+\Longrightarrow
+\texttt{AnnularReturnNoTerminalPulse.A}.
+\tag{TFE.2109}
+\]
+
+The admission part `(TFE.2102)' is already the content of the transported
+annular identity on the retained prelimit packet.  The unproved original-data
+input is the uniform finite full clock
+
+\[
+\sup_P\Omega_{N,P}^{full}([0,T_*))
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P)
+\tag{TFE.2110}
+\]
+
+with the terminal modulus `(TFE.2104)'.  This is the same
+SignedSmoothSamePacketCommutatorCoercivity / full material-clock coercivity
+wall identified by the annular return files.  It is not a new L1 object; it is
+the annular-return endpoint face of the same parent active-thickness theorem.
