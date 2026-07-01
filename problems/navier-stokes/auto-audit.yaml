@@ -75,10 +75,10 @@ branch_audit:
     falsification_verdict: quarantine
     reasons:
     - This is a route branch rather than a local theorem bridge, so it stays quarantined.
-  authority_frontier_open: false
-  authority_frontier_count: 0
-  authority_blocking_count: 0
-  authority_status: silver-cm-exit-accepted-gold-context-quarantined
+  authority_frontier_open: true
+  authority_frontier_count: 1
+  authority_blocking_count: 1
+  authority_status: gold-l1-open-silver-context-quarantined
 downstream_overlay_drift:
   status: ok
   issue_id: downstream-overlay-drift
@@ -273,10 +273,10 @@ surface_snapshot:
     structural_only_count: 0
     structurally_supported_count: 0
     bridge_pending_count: 0
-    unresolved_count: 0
-    frontier_count: 0
-    blocking_count: 0
-    all_discharged: true
+    unresolved_count: 1
+    frontier_count: 1
+    blocking_count: 1
+    all_discharged: false
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
 issues:

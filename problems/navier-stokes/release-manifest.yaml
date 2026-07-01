@@ -61,7 +61,7 @@ source_summary:
     completion_tier_achieved: cm-referee-gate-passed-with-gold-silver-paths
   existing_assumption_ledger_status:
     ledger_status: blocked-cm-contrapositive-referee-audit
-    direct_live_authority_all_discharged: true
+    direct_live_authority_all_discharged: false
     cm_contrapositive_referee_gate_clear: false
     release_eligible: false
     release_gate: cm-contrapositive-referee-blocked

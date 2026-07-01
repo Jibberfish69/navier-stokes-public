@@ -8,7 +8,7 @@ identity:
     alignment
 status:
   ledger_status: blocked-cm-contrapositive-referee-audit
-  direct_live_authority_all_discharged: true
+  direct_live_authority_all_discharged: false
   cm_contrapositive_referee_gate_clear: false
   release_eligible: false
   release_gate: cm-contrapositive-referee-blocked

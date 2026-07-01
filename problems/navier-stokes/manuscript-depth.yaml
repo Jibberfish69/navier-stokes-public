@@ -15,6 +15,7 @@ metrics:
   summary_marker_count: 0
   source_realization_marker_count: 0
   source_anchor_count: 0
-submission_safe: true
-rationale: The manuscript is long enough and contains theorem/proof structure dense
-  enough to count as a real proof-bearing paper surface.
+submission_safe: false
+rationale: The manuscript is long enough and contains theorem/proof structure, but
+  manuscript depth is not submission safety while TFE2748B / OriginalCriticalCapacityVariation.A
+  remains open in theorem authority.

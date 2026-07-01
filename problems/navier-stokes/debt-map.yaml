@@ -10,7 +10,7 @@ source:
 posture:
   theorem_posture:
     theorem_target: Finite-obstruction inventory CM pass-or-exit closure
-    current_package_status: full-mpp-closure-ready
+    current_package_status: gold-l1-open-authority-supersedes-historical-debt
     support_basis: 'Terminal witness entry and Part/Field classification are
       reconciled by the finite-obstruction inventory: each promoted proof-bearing
       terminal row either passes into Member(Q) or fails a named witness supporting
@@ -19,7 +19,8 @@ posture:
 supporting_sections:
   reviewer_risks:
   - Historical debt rows are provenance only; current review, release, submission,
-    and audit surfaces agree on submission-candidate readiness.
+    and audit surfaces are blocked while TFE2748B / OriginalCriticalCapacityVariation.A
+    remains open.
   required_local_explanations: []
   post_release_theorem_upgrade_gaps: []
   promotion_rule:
@@ -112,24 +113,25 @@ summary:
   recommended_next_action: Do not respawn theorem work from this historical artifact;
     defer to the direct-live authority surfaces.
   recommended_debt_ids: []
-  current_live_blocking_count: 0
-  current_live_frontier_count: 0
+  current_live_blocking_count: 1
+  current_live_frontier_count: 1
   stale_surface_status: historical-context-only
-  blocking_or_unresolved_authority_count: 0
-  release_blocking_count: 0
-  all_discharged: true
-  current_package_status: full-mpp-closure-ready
+  blocking_or_unresolved_authority_count: 1
+  release_blocking_count: 1
+  all_discharged: false
+  current_package_status: gold-l1-open-authority-supersedes-historical-debt
   updated_at: '2026-06-08T07:25:06Z'
 current_authority_status:
-  status: superseded-by-direct-live-clearance
+  status: superseded-by-direct-live-open-frontier
   checked_at: '2026-06-08T07:57:59Z'
-  reason: Direct live authority reports no open theorem frontier; this artifact is
-    retained as historical theorem-work context and must not respawn a live blocker.
+  reason: Direct live authority now keeps Gold open at TFE2748B /
+    OriginalCriticalCapacityVariation.A; this artifact is retained as historical
+    theorem-work context and must not clear the live blocker.
   authority_summary:
     authority_mode: direct-live-surfaces
-    blocking_count: 0
-    frontier_count: 0
-    all_discharged: true
+    blocking_count: 1
+    frontier_count: 1
+    all_discharged: false
   controlling_surfaces:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/source-frontier.yaml
