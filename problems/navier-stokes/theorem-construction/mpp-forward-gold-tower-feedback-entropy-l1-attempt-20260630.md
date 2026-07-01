@@ -18435,3 +18435,355 @@ root-finite total cost and strict half-barrier gain.  This is the same Gold wall
 as SignedMovingPLSCoercivity.A / PositiveCriticalTransferBound.A, now expressed
 as the physical state-deletion law of the pressure-heat-viscous feedback loop.
 \tag{TFE.1246}
+
+## 112. Branch proof pushdown below the state-deletion law
+
+The two branches in `(TFE.1241)' are not equally mysterious.  Their consumer
+algebra is already sharp.  The repeated-core branch closes once the parent-fixed
+signed score exists.  The derivative-exact reset branch closes once the reset is
+a parent-announced first-exit average.  The remaining producer is the construction
+of that parent-known score/weight/capacity from the original coupled packet.
+
+For the repeated-core branch, assume the retained positive driver has been
+pushed down before child clipping to one parent-fixed signed score:
+
+\[
+Y\,d\sigma=d\Psi+dE,
+\qquad
+|dE|\le dR^{paid}.
+\tag{TFE.1247}
+\]
+
+Then, as measures on one stopped material ancestry line,
+
+\[
+[Y]_+\,d\sigma
+\le
+(d\Psi)_+ + |dE|.
+\tag{TFE.1248}
+\]
+
+The positive variation of a scalar signed measure is exactly record growth plus
+negative return:
+
+\[
+\int_I(d\Psi)_+
+=
+\Psi(t_1)-\Psi(t_0)+\int_I(d\Psi)_- .
+\tag{TFE.1249}
+\]
+
+Therefore every repeated-core positive read satisfies
+
+\[
+\int_I[Y]_+\,d\sigma
+\le
+\operatorname{Rec}_I(\Psi)
++\operatorname{Ret}_I^-(\Psi)
++R^{paid}(I).
+\tag{TFE.1250}
+\]
+
+This proves the scalar part of `(TFE.1242)'.  The PDE content is exactly the
+part not contained in `(TFE.1248)'--`(TFE.1250)':
+
+\[
+\boxed{
+\text{construct the stopped polar signed lift before clipping, and prove}\\
+\text{the negative return is charged by the same original parent score.}
+}
+\tag{TFE.1251}
+\]
+
+So the repeated-core branch is not waiting on a new summation trick.  It is
+waiting on the original-data realization of \(Y\,d\sigma=d\Psi+dE\) in the
+moving PLS interface and the root bound for \(\operatorname{Ret}^-(\Psi)\).
+
+For the shrinking-core branch, the derivative-exact part is also already paid.
+Let a strict reset edge \(e:Q\to Q'\) be announced by the parent stopped score
+before the child readout, with a log-scale interval \(I_e\) and
+
+\[
+D_e(t)
+=
+{1\over |I_e|}
+\int_{I_e}
+\mathcal G_e(\sigma,t)\,d\sigma
++Err_e(t),
+\tag{TFE.1252}
+\]
+
+where
+
+\[
+\mathcal G_e
+=
+\partial_\sigma Z
++T_\sigma
++E_\sigma
++C_\sigma
+\tag{TFE.1253}
+\]
+
+denotes the original derivative, turnstile, exchange, covector/frame/collar
+motion in the parent chart.  With active density \(w\), define
+
+\[
+H_{I_e}(t)
+=
+{|I_e|^2\over\int_{I_e}w(\sigma,t)^{-1}\,d\sigma}.
+\tag{TFE.1254}
+\]
+
+Cauchy gives the critical cancellation:
+
+\[
+H_{I_e}(t)\|D_e(t)\|^2
+\le
+\int_{I_e}w(\sigma,t)\|\mathcal G_e(\sigma,t)\|^2\,d\sigma
++R_e^{paid}(t).
+\tag{TFE.1255}
+\]
+
+If the parent-announced first-exit slabs have stopped bounded overlap, then
+
+\[
+\sum_e\int H_{I_e}(t)\|D_e(t)\|^2\,dt
+\le
+C_N
+\int_{\operatorname{Hist}(P)}
+w\|\mathcal G\|^2\,d\sigma dt
++R^{paid}(P).
+\tag{TFE.1256}
+\]
+
+Thus the physical reset-lag picture has a proved part: when the child is fresh
+because the parent score actually moved across a log-scale first-exit interval,
+the selected heat-scale weight is the reciprocal Cauchy weight of that original
+motion.  It cannot be recounted as a new pressure push at every descendant
+level.
+
+The surviving shrinking-core gap is narrower:
+
+\[
+\boxed{
+\text{prove every retained strict reset is derivative-exact as in `(TFE.1252)',}\\
+\text{or route the non-derivative survivor into the parent-fixed score,}\\
+\text{critical native birth, endpoint-thick material, legal, or stop.}
+}
+\tag{TFE.1257}
+\]
+
+Equivalently, the repo must construct a parent-known active capacity
+\(\mathcal C_P^{act}\) whose root value is finite from original data and whose
+one-step deletion dominates the two survivor measures:
+
+\[
+d\mathfrak M_P
++c\,d\Omega_P^{rep,+}
++c\,dJ_P^{crit,reset}
+\le
+\theta\,\nu D_P\,dt+dR_P^{paid},
+\qquad
+\mathfrak M_P\ge -C_N(u_0),
+\qquad
+\theta<1.
+\tag{TFE.1258}
+\]
+
+Here \(d\Omega_P^{rep,+}\) is the repeated-core positive motion after fixed
+score pushdown, and \(dJ_P^{crit,reset}\) is the derivative-exact/critical
+reset charge.  Integrating `(TFE.1258)' gives `(TFE.1244)'--`(TFE.1245)' and
+therefore terminal-uniform \(L^1\).
+
+This is the current most reduced physical statement:
+
+\[
+\text{the pressure-heat-viscous feedback loop is solved once the original}\\
+\text{packet supplies the parent-fixed score and active reset weight before}\\
+\text{the child clips positive motion.}
+\tag{TFE.1259}
+\]
+
+All other installed facts are now consumers of that supplier.  They prevent
+fake recounting, pay derivative-exact reset lag, and turn a parent-fixed score
+into BV control.  They do not yet construct \(\mathfrak M_P\) or the root-finite
+active capacity from arbitrary original Navier--Stokes data.
+
+## 113. Parent-capacity source audit: everything still missing
+
+The physical story has now become sharp enough to audit the missing object
+without changing it into a new name.  A parent packet carries a pressure-
+compatible active state: the legal acceleration/strain/Hodge/frame directions
+available to the current material history.  A heat-lag child readout makes one
+part of that state visible as velocity/strain action.  The updated velocity
+then recomputes pressure compatibility and the loop repeats.
+
+The \(L^1\) problem is not the existence of that loop.  It is whether this loop
+has a parent-known active capacity which decreases in the selected critical
+metric before the child is allowed to clip a positive readout.  In ratio-level
+language, after all paid gates are removed, the missing physical law is
+
+\[
+N_{L+1}^{act}(P)
+\le
+\theta N_L^{act}(P)+B_L(P),
+\qquad
+\theta<{1\over2},
+\qquad
+\sum_L2^LB_L(P)\le C_N(u_0)+Paid(P).
+\tag{TFE.1260}
+\]
+
+Here \(N_L^{act}(P)\) is not passive heat entropy or raw energy.  It is the
+amount of retained same-parent future selected action still accessible at
+ratio level \(L\) after order-lock, no-recount, Bessel first-entry, Schur
+current reuse, route, motion, return, legal, stop, and endpoint-thick material
+have been removed.  The half-tail
+
+\[
+\mu_L\sim {2^{-L}\over L+1},
+\qquad
+\sum_L\mu_L<\infty,
+\qquad
+\sum_L2^L\mu_L=\infty
+\tag{TFE.1261}
+\]
+
+is exactly the picture that finite raw energy cannot exclude: the original
+packet can look raw-finite while selected positive action is read at a growing
+critical multiplier.
+
+The parent capacity must therefore have two source clauses and one deletion
+clause.  First, it must construct the parent-fixed score and polarity before
+child clipping:
+
+\[
+Y_P\,d\sigma
+=
+d\Psi_P+dE_P,
+\qquad
+|dE_P|\le dR_P^{paid},
+\tag{TFE.1262}
+\]
+
+with \(\Psi_P\), the selected polarity, and the carrier \(Z^S\) all announced
+from the original coupled pressure-viscosity-incompressibility-velocity packet,
+not from the future selected tail.  This is the repeated-core source clause.
+
+Second, it must construct the critical reset/native-birth currency for
+shrinking-core escape:
+
+\[
+A_{\rm sel}(\gamma)
+\le
+C\,\rho_{\rm crit}(\gamma)+Paid(\gamma),
+\qquad
+\rho_{\rm crit}(\gamma)\simeq r_\gamma^{-1}\rho_{\rm raw}(\gamma),
+\tag{TFE.1263}
+\]
+
+and the root packing
+
+\[
+\sum_{\gamma\subset P}\rho_{\rm crit}(\gamma)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1264}
+\]
+
+This is the shrinking-core source clause.  The local lower edge says a retained
+zoom birth is a real original-packet event; the root upper edge says one
+original packet cannot pack infinitely many such critical births.
+
+The deletion clause is the storage form already isolated in `(TFE.1258)',
+rewritten with the two source clauses visible:
+
+\[
+d\mathfrak M_P
++c\,d\Omega_P^{rep,+}
++c\,d\rho_P^{crit,birth/reset}
+\le
+\theta\nu D_P\,dt+dR_P^{paid},
+\qquad
+\mathfrak M_P\ge -C_N(u_0),
+\qquad
+\theta<1 .
+\tag{TFE.1265}
+\]
+
+This is the exact physical quantity still missing.  Pressure feedback may
+rotate, re-coordinate, and reopen legal acceleration directions; viscosity may
+turn the result into delayed velocity/strain readout and drain high frequencies;
+self-advection transports the packet.  The proof still has to show that the
+combined loop cannot increase the parent-active selected state count faster
+than `(TFE.1265)' deletes it.
+
+The repo surfaces now sort cleanly against this audit.
+
+`OriginalHistorySelectedLogAmplificationCarleson.A` and
+`OriginalHistoryHilbertBMOProducer.A` are consumers once the parent carrier
+\(Z^S\) and its root Carleson bound exist.  They turn active entropy/log
+amplification into reverse Holder and selected \(L^1\), but they do not by
+themselves construct `(TFE.1262)'--`(TFE.1265)' from the coupled packet.
+
+`PositiveCriticalTransferBound.A`,
+`NativeBirthChargePacking.A`,
+`SelectedGeneratorStorageCoercivity.A`, and
+`BoundedBelowSameMaterialServiceStorage.A` are the same missing source in
+different coordinates.  Their common content is
+
+\[
+\int_0^\tau [B_{\rm crit}(t)]_+\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(\tau),
+\qquad
+\theta<1,
+\tag{TFE.1266}
+\]
+
+understood as a compressed face of the full pressure-viscosity-
+incompressibility-velocity packet before child positive clipping.
+
+The physical proof obligations left are therefore exactly these five:
+
+\[
+\begin{aligned}
+&\text{(i) full-output order/polar lock before clipping,}\\
+&\text{(ii) stopped parent-fixed signed lift `(TFE.1262)',}\\
+&\text{(iii) same-score negative-return charge for \(\Psi_P\),}\\
+&\text{(iv) critical reset/native-birth lower admission and root packing
+`(TFE.1263)'--`(TFE.1264)',}\\
+&\text{(v) bounded-below active-capacity deletion `(TFE.1265)' from original data.}
+\end{aligned}
+\tag{TFE.1267}
+\]
+
+They are not five unrelated reservoirs.  They are the five boundary conditions
+needed for one parent-known active capacity to be noncircular.
+
+Once `(TFE.1267)' is proved, the downstream chain is fixed:
+
+\[
+(TFE.1267)
+\Longrightarrow
+(TFE.1265)
+\Longrightarrow
+(TFE.1260)
+\Longrightarrow
+(TFE.1244)\text{--}(TFE.1245)
+\Longrightarrow
+\text{terminal-uniform }L^1
+\Longrightarrow
+FGC.25 .
+\tag{TFE.1268}
+\]
+
+What is missing is therefore no longer a physical picture.  The picture is:
+the pressure-heat-viscous feedback loop must delete active future states in the
+selected critical metric of the same original material packet.  The unproved
+mathematics is the construction of the root-finite, parent-known
+\(\mathfrak M_P\) that makes that deletion quantitative with a strict
+\(\theta<1\) margin for arbitrary smooth data.
