@@ -33949,3 +33949,449 @@ What remains unproved from arbitrary original data is the construction of the
 parent-known detector/testing package `(TFE.1738)'--`(TFE.1740)' or,
 equivalently, the non-self-feeding storage `(TFE.1735)'--`(TFE.1737)' with the
 strict native-reserve margin.
+
+## 200. Bottom-line chain: continuous active transit is supplied by same-parent depletion
+
+The source stack is now nonduplicate.  The continuous active-transit inequality
+`(TFE.2325)' is not downstream of one theorem called "testing" and another
+called "native birth" and another called "positive transfer."  Those are
+coordinates of the same original-data depletion law.
+
+The already-written chain is:
+
+\[
+\texttt{SameParentCriticalDepletionNoZeno.A}
+\Longrightarrow
+\texttt{NativeBirthChargePacking.A}
+\Longrightarrow
+\texttt{MaterialAdjointAccretiveTestingData.A}
+\Longrightarrow
+\text{parent-known state-deletion storage `(TFE.1735)'--`(TFE.1737)'.}
+\tag{TFE.2334}
+\]
+
+The first arrow is `(TFE.1771)'--`(TFE.1779)': genuine first births have a
+parent-known critical lower edge, that edge depletes a bounded parent storage
+with strict native-reserve margin, and endpoint no-Zeno prevents a terminal
+atom.  The second arrow is `(TFE.1748)'--`(TFE.1751)': first births are assigned
+with bounded multiplicity to finite native reserve atoms.  The third arrow is
+`(TFE.1744)'--`(TFE.1745)' and `(TFE.1738)'--`(TFE.1740)': once native births
+pack, the stopped testing defects and selected generator storage pack as
+consumer readouts of the same original ledger.
+
+Combining `(TFE.2334)' with the pullback bridge `(TFE.2326)'--`(TFE.2333)' gives
+
+\[
+\texttt{SameParentCriticalDepletionNoZeno.A}
+\Longrightarrow
+\text{continuous active-transit storage `(TFE.2325)'}
+\Longrightarrow
+\text{terminal-uniform selected }L^1.
+\tag{TFE.2335}
+\]
+
+Equivalently, using the tail form of Section 152,
+
+\[
+N_{L+1}(P)\le\theta N_L(P)+B_L(P),
+\qquad
+\theta<\frac12,
+\qquad
+\sum_L2^LB_L(P)\le C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2336}
+\]
+
+with \(N_L(P)\) built from the original critical carrier before child clipping,
+implies `(TFE.2325)' and hence the \(L^1\) line.  The continuous version is the
+tail contraction `(TFE.2322)' for
+\[
+N_P(\lambda)=\mathcal C_{N,P}^{LH}(\{R_{N,P}>\lambda\}).
+\tag{TFE.2337}
+\]
+
+Thus the route now has one remaining bottom theorem in two equivalent
+coordinates:
+
+\[
+\begin{array}{ll}
+\text{depletion coordinate:}
+&
+\texttt{SameParentCriticalDepletionNoZeno.A},\\[1mm]
+\text{tail coordinate:}
+&
+\text{strict same-parent critical good-lambda with }\theta<1/2.
+\end{array}
+\tag{TFE.2338}
+\]
+
+The unsolved arbitrary-data content is exactly the construction of the
+parent-known critical carrier `(TFE.1770)', the first-birth lower edge
+`(TFE.1771)', the bounded depletion storage `(TFE.1772)'--`(TFE.1773)', and the
+endpoint no-Zeno modulus `(TFE.1775)'--`(TFE.1776)' from the original coupled
+pressure-viscosity-incompressibility-velocity packet.  Once those are proved,
+the rest of the \(L^1\) closure is now mechanically written.
+
+## 201. Direct critical-transfer audit: the false local-absorption loop
+
+The direct critical-transfer files prove the correct coordinate identity but
+not the arbitrary-data Gold inequality.  In the compressed critical coordinate,
+set
+
+\[
+B_{crit}(t)
+:=
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle,
+\qquad
+D_{crit}(t):=\|\Lambda^{3/2}u(t)\|_2^2 .
+\tag{TFE.2339}
+\]
+
+The original coupled equation gives only the signed identity
+
+\[
+{1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
++\nu D_{crit}(t)
+=
+B_{crit}(t).
+\tag{TFE.2340}
+\]
+
+The Gold line would follow from the one-sided integrated absorption
+
+\[
+\int_0^\tau B_{crit,+}(t)\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau D_{crit}(t)\,dt
++Paid(P),
+\qquad
+\theta<1,
+\tag{TFE.2341}
+\]
+
+but `(TFE.2341)' is not a consequence of `(TFE.2340)' or of finite energy.  The
+reason is structural.  The critical trilinear form is not identically zero
+away from \(s=0\) skew cancellation, so pick a smooth divergence-free profile
+\(\phi\) with
+
+\[
+b_\phi
+:=
+-\left\langle
+\Lambda^{1/2}\mathbb P(\phi\cdot\nabla \phi),
+\Lambda^{1/2}\phi
+\right\rangle
+\ne0,
+\qquad
+d_\phi:=\|\Lambda^{3/2}\phi\|_2^2>0 .
+\tag{TFE.2342}
+\]
+
+Replacing \(\phi\) by \(-\phi\) if necessary makes \(b_\phi>0\).  For
+\(u=A\phi\),
+
+\[
+B_{crit,+}(A\phi)=A^3b_\phi,
+\qquad
+D_{crit}(A\phi)=A^2d_\phi .
+\tag{TFE.2343}
+\]
+
+Hence the instantaneous positive-transfer ratio satisfies
+
+\[
+{B_{crit,+}(A\phi)\over \nu D_{crit}(A\phi)}
+=
+{A\,b_\phi\over \nu d_\phi},
+\tag{TFE.2344}
+\]
+
+which is unbounded with the critical amplitude.  Therefore no fixed local
+quadratic storage, finite-energy counter, signed critical identity, or
+instantaneous Leray-projection estimate can supply a uniform strict
+\(\theta<1\) absorption for arbitrary data.  The standard estimate records the
+same obstruction:
+
+\[
+|B_{crit}(t)|
+\le
+C\|u(t)\|_{\dot H^{1/2}}D_{crit}(t),
+\tag{TFE.2345}
+\]
+
+so the coefficient is small only in the small-critical packet regime.  Using
+`(TFE.2345)' as though the coefficient were always below \(\nu\) is exactly the
+false direct-absorption loop.
+
+The lawful Gold replacement is a parent-known depletion inequality before child
+positive clipping:
+
+\[
+dA_{P,crit}^{birth,+}
+\le
+-d\mathcal B_P^{crit}
++\theta\,d\mathfrak R_P^{nat}
++dPaid_P,
+\qquad
+0\le\theta<1,
+\tag{TFE.2346}
+\]
+
+with
+
+\[
+0\le \mathcal B_P^{crit}(t),
+\qquad
+\mathcal B_P^{crit}(t_0)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2347}
+\]
+
+and with endpoint no-Zeno in the same root-fixed carrier.  On the retained
+native-birth face,
+
+\[
+dA_{P,crit}^{birth,+}
+=
+R_{N,P}\,d\mathcal C_{N,P}^{LH}
+\quad\text{on the retained face.}
+\tag{TFE.2348}
+\]
+
+The phrase "retained face" means after inherited current, Schur/Bessel,
+return, reset, motion, legal, stop, and endpoint-face material have been
+removed.
+
+Thus `(TFE.2346)' is the continuous parent-measure version of
+`(TFE.1772)' and `(TFE.2325)' on the selected-critical face.  If `(TFE.2346)'--
+`(TFE.2348)' hold, integration gives
+
+\[
+\int_0^\tau B_{crit,+}(t)\,dt
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathfrak R_P^{nat}(0,\tau)
++Paid(P),
+\tag{TFE.2349}
+\]
+
+and the signed critical identity `(TFE.2340)' absorbs the strict
+\(\theta<1\) reserve term:
+
+\[
+(1-\theta)\mathfrak R_P^{nat}(0,\tau)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2350}
+\]
+
+Then `(TFE.2325)' yields terminal-uniform selected \(L^1\).
+
+So the direct critical-transfer audit has a definite output.  The signed
+critical identity and finite energy are coordinates and consumers.  The
+producer is the parent-known depletion/no-Zeno storage `(TFE.2346)'--`(TFE.2348)'
+for the full coupled packet.  This is the same theorem as
+`SameParentCriticalDepletionNoZeno.A' / strict same-parent critical good-lambda,
+now protected against the repeated local-absorption mistake.
+
+## 202. No-Zeno transition-payment normalization
+
+The no-Zeno files show that the retained affine/critical tail has one remaining
+nonduplicate proof shape.  After heat-resident deletion, carrier-motion payment,
+Schur/Bessel admission, parent-current no-recount, return, reset/reselection,
+legal, stop, and endpoint-face routing have been removed, a minimal bad retained
+chain has only two ways to persist:
+
+\[
+P=Q_0\supset Q_1\supset Q_2\supset\cdots,
+\qquad
+\sum_k R_{raw}(Q_k)<\infty,
+\qquad
+\sum_k A_{sel}^{fresh}(Q_k)=\infty .
+\tag{TFE.2351}
+\]
+
+Either the child inherits the selected parent state and remains on a repeated
+material core, or the child performs a genuine fresh reset into a smaller
+transported core.  Thus the branch theorem should be stated as a single
+parent-child transition payment law, not as two unrelated suppliers:
+
+\[
+\boxed{\texttt{ParentChildTransitionPaymentLaw.A}.}
+\tag{TFE.2352}
+\]
+
+For one selected transition \(Q\to Q'\), the law says
+
+\[
+A_{sel}^{fresh}(Q')
+\le
+C_N\Big(
+A_{rep}(Q\to Q')
++J_{crit}(Q\to Q')
++R_{legal}(Q\to Q')
++Stop(Q\to Q')
+\Big),
+\tag{TFE.2353}
+\]
+
+where \(A_{rep}\) is the repeated-core record/return charge and \(J_{crit}\) is
+the critical weighted fresh-reset charge.  The required root estimate is
+
+\[
+\sum_{Q\subset P}
+\sum_{Q'\in ch_{stop}(Q)}
+\big(A_{rep}(Q\to Q')+J_{crit}(Q\to Q')\big)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2354}
+\]
+
+The repeated-core half has a signed form.  On a fixed stopped material chamber,
+the primitive low-high driver must be lifted before positive clipping:
+
+\[
+d\Omega_{S}^{PLS,primitive,+}
+=
+[\mathfrak c_S]_+\,d\sigma dt+dR_S^{paid},
+\tag{TFE.2355}
+\]
+
+where the same signed channel has the scale-cocycle form
+
+\[
+\mathfrak c_S
+=
+(\sigma\partial_\sigma)\Psi_S
++\nabla_x\cdot J_S
++\partial_tR_S
++\mathcal S_S^{spill}
++\mathcal E_S .
+\tag{TFE.2356}
+\]
+
+Then the one-dimensional record/return identity gives
+
+\[
+\sum_{Q_k\subset\mathcal A}
+A_{sel}^{fresh}(Q_k)
+\le
+C_N\big(
+\operatorname{Rec}_\infty(\Psi_\mathcal A)
++V_-^{return}(\Psi_\mathcal A)
++R_{legal}(\mathcal A)
+\big).
+\tag{TFE.2357}
+\]
+
+The missing repeated-core proof is therefore exactly
+
+\[
+\begin{array}{c}
+\texttt{PrimitivePLSDriverToSignedCommutatorIdentity.A}\\
++\texttt{StoppedNegativeReturnOrientedPayment.A}\\
+\Longrightarrow
+\texttt{RepeatedCoreRecordReturnStorageBound.A}.
+\end{array}
+\tag{TFE.2358}
+\]
+
+The shrinking-core half has a reset-weight form.  A genuinely fresh transition
+must carry the selected first-ratio weight in the reset charge:
+
+\[
+A_{sel}^{fresh}(Q')
+\le
+C_N\Big(
+\operatorname{Cap}_{PH}^{sel}(Q')
++\operatorname{Turn}_{collar}^{sel}(Q')
++J_{crit}(Q\to Q')
++R_{legal}(Q)
+\Big),
+\tag{TFE.2359}
+\]
+
+with
+
+\[
+\sum_{Q\subset P}\sum_{Q'\in ch_{stop}(Q)}
+J_{crit}(Q\to Q')
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2360}
+\]
+
+The noncircular analytic source currently visible for `(TFE.2360)' is the
+log-scale reset derivative carrier bound:
+
+\[
+\sum_{Q\subseteq P}\sum_{Q'\in ch_{stop}(Q)}
+w(Q')\|\Delta Z_{Q\to Q'}^{fresh}\|_{\mathcal H_{raw}}^2
+\le
+C_N\int_{\mathcal C(P)}
+\left(
+|\partial_\sigma Z|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
+\right)d\sigma dt
++Paid(P).
+\tag{TFE.2361}
+\]
+
+This is the exact place where the selected weight must enter.  A raw reset
+distance, raw Hilbert atom, or raw capacity bound repeats the half-tail mistake.
+
+Combining the two halves gives
+
+\[
+\begin{array}{c}
+\texttt{PrimitivePLSDriverToSignedCommutatorIdentity.A}\\
++\texttt{StoppedNegativeReturnOrientedPayment.A}\\
++\texttt{CriticalWeightedParentChildResetCarleson.A}
+\end{array}
+\Longrightarrow
+\texttt{ParentChildTransitionPaymentLaw.A}
+\Longrightarrow
+\texttt{NoZenoReuseEscapeDichotomyStrictCharge.A}.
+\tag{TFE.2362}
+\]
+
+By Sections 152, 198, and 200,
+
+\[
+\texttt{NoZenoReuseEscapeDichotomyStrictCharge.A}
+\Longrightarrow
+\text{strict same-parent critical good-lambda `(TFE.2336)'--`(TFE.2337)'}
+\Longrightarrow
+\text{continuous active-transit storage `(TFE.2325)'}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+\tag{TFE.2363}
+\]
+
+This also audits the material-record and moving-pump routes.  Material-record
+doubling identifies the physical meaning of a terminal failure: infinitely many
+same-history continuation-depth doublings.  The moving low-high
+pressure/strain pump identifies the continuation-strength coefficient.  Neither
+is a noncircular Gold producer until the transition payment law `(TFE.2353)'--
+`(TFE.2361)' is proved from original data.  Therefore the present bottom of the
+\(L^1\) proof is
+
+\[
+\boxed{
+\texttt{ParentChildTransitionPaymentLaw.A}
+=
+\texttt{signed primitive lift}
++\texttt{oriented negative return}
++\texttt{critical weighted reset Carleson}.
+}
+\tag{TFE.2364}
+\]
+
+This is still not Gold closure.  It is the current method-fit attack on the
+same parent-known depletion/no-Zeno storage, with dyadic moving-unit counts and
+continuation-strength pump imports both removed.
