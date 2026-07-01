@@ -17617,11 +17617,13 @@ The already-audited consumers are:
 These consumers do not produce `(TFE.1194)'.  They only say where a selected
 event goes after the parent packet has admitted it.
 
-The unproved suppliers are exactly:
+The remaining closure package, after separating the already-audited gate from
+the true active-capacity producers, is:
 
 \[
 \begin{array}{ll}
-\text{A.} & \text{Full-packet order-lock/carrier realization `(TFE.1192)'--`(TFE.1193)';}\\
+\text{A.} & \text{full-packet order-lock/admissibility `(TFE.1192)'--`(TFE.1193)'}\\
+& \qquad \text{with \(dR^{ol}\) routed to paid reselection or endpoint thickness;}\\
 \text{B.} & \text{parent-known selected log-amplification/root BMO Carleson,}\\
 & \qquad
 \displaystyle
@@ -17639,6 +17641,10 @@ The unproved suppliers are exactly:
 \end{array}
 \tag{TFE.1197}
 \]
+
+Clause A is an admissibility gate and residue policy, not the root producer of
+the \(L^1\) measure.  Clauses B--E are the actual missing producers once the
+selected object is the recombined full-output packet.
 
 The physical story behind `(TFE.1197)' is now precise.  The pressure response
 may coordinate the whole field instantly; viscosity and heat lag make the
@@ -17718,3 +17724,315 @@ the active capacity \(\mathscr A_P\), the carrier \(Z^S\), and the critical
 native birth measure from the original
 pressure-viscosity-incompressibility-velocity packet and prove
 `(TFE.1194)'--`(TFE.1197)' with \(\theta<1\).
+
+## 105. Order-lock audit: gate versus root producer
+
+The audit against the full-output high-high repair and the affine Schur
+upcrossing note corrects the supplier list in `(TFE.1197)'.  The lawful Gold
+selector is the net full-output critical transfer after input colours and
+packet channels recombine.  Therefore order-lock is already the rule that the
+child may not clip a pressure-only, viscosity-only, strain-only, or
+input-coloured channel as positive action before the whole
+pressure-viscosity-incompressibility-velocity packet has formed one same-parent
+readout.
+
+Formally, the installed gate has the shape
+
+\[
+d\Omega_P^{child,+}
+\le
+[h_P^{full}]_+\,dt+dR_P^{ol},
+\tag{TFE.1203}
+\]
+
+where \(h_P^{full}\) is the recombined full-output scalar from `(TFE.1192)' and
+\(dR_P^{ol}\) is not a new force source.  It must be paid as selector motion,
+reselection, legal/stop material, or endpoint-thick residue.  This removes the
+decoupled child-positive recount, but it does not make
+\([h_P^{full}]_+dt\) finite.
+
+The missing theorem is the parent-side production estimate for that full packet:
+
+\[
+[h_P^{full}]_+\,dt
+\le
+-d\mathscr A_P
++\theta\nu D_c(t)\,dt
++d\Lambda_P^{crit\ birth}
++d\Lambda_P^{Schur\ thin}
++dEnd_P^{ac}
++dPaid_P,
+\qquad \theta<1.
+\tag{TFE.1204}
+\]
+
+Here \(\mathscr A_P\) is the parent-known active capacity/entropy of the
+original stopped material packet; \(d\Lambda^{crit\ birth}\) is the selected
+critical first-birth capacity measure; \(d\Lambda^{Schur\ thin}\) is retained
+same-current source variation with parabolic thickness; and \(dEnd^{ac}\) is
+root-fixed endpoint absolute-continuity material.  This is the mathematical
+version of the physical story: pressure can instantly re-coordinate the whole
+field, heat/viscosity can make that coordination readable later as
+velocity/strain, and the material frame can feed the updated velocity state
+back into the next pressure problem; but each loop must delete selected future
+states or spend a root-visible critical state.
+
+The half-tail forces the word "critical" in `(TFE.1204)'.  A root-finite raw
+packet measure can have
+
+\[
+\sum_\ell R_\ell<\infty,
+\qquad
+\sum_\ell 2^\ell R_\ell=\infty,
+\tag{TFE.1205}
+\]
+
+so raw same-parent ownership, raw energy, and raw Bessel nonreuse do not
+control the positive selected \(L^1\) count.  The producer must see the same
+weight \(2^\ell\) before the child clips the readout.
+
+Thus the sharpened missing package is:
+
+\[
+\begin{array}{ll}
+\text{1.} & \text{parent-known full-output selected carrier before positive clipping;}\\
+\text{2.} & \text{root Carleson/BMO or Bellman active-capacity bound for that carrier;}\\
+\text{3.} & \text{critical first-birth lower admission and root packing;}\\
+\text{4.} & \text{Schur-thin retained-current parabolic thickness;}\\
+\text{5.} & \text{root-fixed endpoint absolute continuity/no-residue.}
+\end{array}
+\tag{TFE.1206}
+\]
+
+Items 2--5 are the true original-data suppliers.  Item 1 is the gate that keeps
+the supplier attached to the same coupled participation law.
+
+If `(TFE.1204)' and `(TFE.1206)' are proved from the original smooth coupled
+data, then
+
+\[
+\sup_{\tau<T_\ast}\int_0^\tau d\Omega_P^{child,+}
+\le
+C_N(u_0)+Paid(P)
++\theta\nu\int_0^\tau D_c(t)\,dt,
+\tag{TFE.1207}
+\]
+
+and the critical energy identity absorbs the strict \(\theta<1\) part to give
+the terminal-uniform \(L^1\) line.  Gold remains open exactly at the derivation
+of `(TFE.1204)' for arbitrary original data.
+
+## 106. The physical half-barrier that `(TFE.1204)' must beat
+
+The surviving bad object is no longer mysterious.  After full-packet
+order-lock, no-recount, Bessel first entry, Schur-thick residence, route,
+return, legal, stop, and endpoint-thick material are removed, a failure of
+`(TFE.1204)' produces one same-parent high-ratio tail of recombined full-output
+positive transfer.
+
+Let \(\mu_\ell(P)\) be the root-measured amount of retained full-output
+selected action born at heat/ratio level \(\ell\) under the stopped parent
+packet \(P\).  Raw original-history finiteness gives only
+
+\[
+\sum_{\ell\ge0}\mu_\ell(P)<\infty .
+\tag{TFE.1208}
+\]
+
+The \(L^1\) line needs the selected-critical weighted count
+
+\[
+\sum_{\ell\ge0}2^\ell\mu_\ell(P)<\infty .
+\tag{TFE.1209}
+\]
+
+Equivalently, for the retained tail
+
+\[
+N_L(P):=\sum_{\ell\ge L}\mu_\ell(P),
+\tag{TFE.1210}
+\]
+
+the needed condition is
+
+\[
+\sum_{L\ge0}2^L N_L(P)<\infty .
+\tag{TFE.1211}
+\]
+
+The half-tail
+
+\[
+\mu_\ell(P)\simeq {2^{-\ell}\over \ell+1},
+\qquad
+N_L(P)\simeq {2^{-L}\over L+1},
+\tag{TFE.1212}
+\]
+
+has finite raw mass and infinite selected \(L^1\).  It is the mathematical
+picture of pressure-compatible feedback repeatedly re-opening just enough
+higher-ratio selected futures after each heat/viscous readout that the raw
+energy keeps shrinking while the positive selected count never sums.
+
+Therefore the physical story required for Gold is the strict same-parent
+feedback contraction
+
+\[
+N_{L+1}(P)
+\le
+\theta N_L(P)+B_L(P),
+\qquad
+\theta<{1\over2},
+\qquad
+\sum_{L\ge0}2^L B_L(P)\le C_N(u_0)+Paid(P).
+\tag{TFE.1213}
+\]
+
+This is the state-deletion form of `(TFE.1204)'.  The constant \(1/2\) is not
+decorative: moving from ratio \(L\) to \(L+1\) doubles the selected weight.
+Any contraction with \(\theta\ge1/2\) still permits the critical half-tail.
+
+Indeed, multiplying `(TFE.1213)' by \(2^{L+1}\) and summing gives
+
+\[
+\sum_{L\ge0}2^{L+1}N_{L+1}
+\le
+2\theta\sum_{L\ge0}2^L N_L
++2\sum_{L\ge0}2^L B_L .
+\tag{TFE.1214}
+\]
+
+Since \(2\theta<1\), the tail term absorbs and yields
+
+\[
+\sum_{L\ge0}2^L N_L(P)
+\le
+C_N\bigl(N_0(P)+\sum_{L\ge0}2^L B_L(P)\bigr)
+\le
+C_N(u_0)+Paid(P).
+\tag{TFE.1215}
+\]
+
+By `(TFE.1211)', this is the selected \(L^1\) estimate.
+
+So the missing physical law can be stated without vague service language:
+for one original coupled packet, the pressure feedback may re-coordinate the
+remaining velocity/strain state, but after the heat/viscous delay has made that
+state readable, the next retained higher-ratio tail must be strictly smaller
+than the parabolic half-tail.  The errors \(B_L\) are precisely the already
+named paid exits: first native birth, Schur-thin parabolic thickness, route,
+return, selector/reselection motion, legal, stop, and endpoint absolute
+continuity.
+
+The open derivation from Navier--Stokes is now exactly
+
+\[
+\text{original full packet}
+\quad\Longrightarrow\quad
+\text{strict half-barrier `(TFE.1213)'}
+\quad\Longrightarrow\quad
+\text{`(TFE.1204)' and terminal-uniform \(L^1\).}
+\tag{TFE.1216}
+\]
+
+The repo has many consumers of `(TFE.1213)' and many equivalent coordinate
+faces of it.  It still needs the original-data proof that the same-parent
+pressure-heat-viscous feedback loop cannot sustain the half-tail `(TFE.1212)'.
+
+## 107. What physical record could prove the strict half-barrier
+
+The strict half-barrier cannot come from laminarity by itself.  Laminarity says
+that surviving high-ratio visits belong to one same-material ancestry; it does
+not say that the ancestry has finite weighted variation.  Complete-frame
+orientation says that a positive primitive pump has a compression partner; it
+does not say the total partner record is finite.  The missing supplier is the
+finite weighted variation of the actual parent records changed by the
+pressure-heat-viscous feedback loop.
+
+For a material ancestry line \(a\), let
+
+\[
+\mathcal V_a
+=
+[\log\sigma_{\max}F_a]_+
++[\log\sigma_{\max}F_a^{-1}]_+
++\operatorname{Var}(H_a)
++\operatorname{Var}(n_a)
++\operatorname{Turnstile}_a
++\operatorname{AnnularStress}_a ,
+\tag{TFE.1217}
+\]
+
+where \(F=D_aX\) is the material deformation, \(H_a\) is the transported
+Hodge/pressure frame, \(n_a\) is the collar or packet-normal frame, and the
+last two terms record annular exchange and stress work.  These are not new
+variables outside the participation law; they are the material coordinates in
+which pressure re-coordination, heat-lag velocity/strain readout, and frame
+feedback become visible.
+
+The lower-edge statement needed from the physical story is:
+
+\[
+2^{\ell_\gamma}\mu_\gamma
+\le
+C_N\,\Delta_\gamma \mathcal V_{a(\gamma)}
++Paid_\gamma
+\tag{TFE.1218}
+\]
+
+for every retained high-ratio full-output selected visit \(\gamma\).  In words:
+if the same packet survives to a higher selected ratio, some actual parent
+record must visibly change by the selected-critical amount.  A pressure update
+that only re-labels the child readout without moving deformation, Hodge frame,
+collar geometry, annular exchange, Schur current, endpoint trace, or viscous
+thickness is not a new state and cannot be counted again.
+
+The root upper-edge statement is:
+
+\[
+\int_{\mathcal F_P}d\mathcal V_a
+\le
+C_N(u_0)+Paid(P).
+\tag{TFE.1219}
+\]
+
+Together `(TFE.1218)'--`(TFE.1219)' imply
+
+\[
+\sum_{\gamma\subset P}2^{\ell_\gamma}\mu_\gamma
+\le
+C_N(u_0)+Paid(P),
+\tag{TFE.1220}
+\]
+
+which is exactly the selected \(L^1\) bound.  Equivalently, they imply the
+strict half-barrier `(TFE.1213)' by taking \(B_L\) to be the weighted
+\(\mathcal V\)-variation and paid exits on the \(L\)-th tail.
+
+This exposes the physical missing theorem more sharply than "entropy
+decreases."  The proof must show that the feedback loop cannot keep producing
+new selected child futures while all parent records in `(TFE.1217)' have finite
+weighted variation.  The dangerous half-tail is precisely a sequence in which
+the raw packet cost is summable while the selected-critical variation of those
+records is not.
+
+Thus the current original-data supplier can be named without changing the
+object:
+
+\[
+\boxed{
+\text{WeightedSameMaterialFeedbackVariationReserve.A}
+}
+\tag{TFE.1221}
+\]
+
+Statement: for one original smooth coupled
+pressure-viscosity-incompressibility-velocity material history, after
+order-lock and all paid exits are removed, retained full-output high-ratio
+selected visits satisfy the lower edge `(TFE.1218)' and the root upper edge
+`(TFE.1219)' with all terms built before child positive clipping.
+
+This is equivalent, at the current Gold edge, to the strict half-barrier,
+positive critical transfer, native-birth packing, and bounded-below
+same-material storage formulations.  It is not yet proved from the original
+Navier--Stokes equations.
