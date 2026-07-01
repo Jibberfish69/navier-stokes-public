@@ -11269,3 +11269,487 @@ Current status: the deterministic entropy and active-deletion implications are
 installed in this note.  The PDE producer `(TFE.752)`--`(TFE.756)`, or
 equivalently the stopped adjoint testing package `(TFE.758)`--`(TFE.759)`, is
 not installed from original coupled data.
+
+## 70. Source audit: the entropy carrier is full stopped exchange/root reserve
+
+The June 27 source files sharpen `(TFE.760)`.  The selector/readout half is not
+an independent wall after stopped full exchange is included.  Inside one
+stopped selector chart, the selected log readout is a Lipschitz read of the
+parent-predictable visible/silent/exchange carrier; when the chart, label,
+collar, pressure-Hodge coordinate, order-lock gap, or frame changes, the change
+is a stopped reselection/full-exchange charge before the child positive readout
+is counted.
+
+In the notation of the stopped selector audit, unpaid stop mass satisfies
+
+\[
+R_{\rm stop}^{unpaid}(P)
+\le
+C_N
+\sum_{S\subseteq P}
+\left(
+\Omega_S^{strain/ex}
++D_S^{vis/rad}
+\right)
++R_{\rm legal}(P).
+\tag{TFE.761}
+\]
+
+Thus the selector-carrier and reselection clauses `(TFE.754)`--`(TFE.756)` are
+consumers of the full stopped exchange estimate
+
+\[
+\sum_{S\subseteq P}
+\left(
+\Omega_S^{strain/ex}
++D_S^{vis/rad}
+\right)
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P).
+\tag{TFE.762}
+\]
+
+This is the current source form of
+`StoppedFullExchangeActionCarleson.A`.  In compression coordinates it is the
+root reserve
+
+\[
+\sum_{Q\in\mathcal T(P)}
+\left(
+\langle U_Q,\mathsf S_QU_Q\rangle
++\mathcal S_{\rm normal}(Q)
++\mathcal S_{\rm covector}(Q)
+\right)
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P),
+\tag{TFE.763}
+\]
+
+which is `SelectedCompressionRootReserve.A`.
+
+The stopped source-carrier test identifies the local lower-admission estimate
+needed to make `(TFE.763)` noncircular.  For stopped children \(S'\) of a
+stopped parent \(S\), with transported collar Dirichlet-to-Neumann forms
+\(\Lambda_S\) and \(\Lambda_{S'}\), the selected action must be admitted into
+the parent-stop-child Schur drop:
+
+\[
+\sum_{S'\in ch_{\rm stop}(S)}A(S')
+\le
+\left\langle
+U_S,
+\left(
+\Lambda_S-\bigoplus_{S'}\Lambda_{S'}
+\right)
+U_S
+\right\rangle
++R_{\rm stop}(S)+R_{\rm legal}(S).
+\tag{TFE.764}
+\]
+
+This is `StoppedSelectedActionTraceCoercivity.A`.  Capacity monotonicity alone
+only proves the nonnegative Schur drop; it does not prove that the selected
+child action is quantitatively lower-admitted into that drop.  This is exactly
+where raw heat-square mass is too weak for selected \(L^1\).
+
+The noncircular global way to prove `(TFE.762)`--`(TFE.764)` is the forward
+native reserve law
+
+\[
+d\mathfrak R_N^{nat}
++d\mathfrak L_N
++c\,d\Omega_N^{full}
+\le
+dR_N,
+\qquad
+\mathfrak R_N^{nat}\ge0,
+\qquad
+\mathfrak L_N\ge-C_N(u_0),
+\qquad
+\int_0^{T^*}dR_N<\infty,
+\tag{TFE.765}
+\]
+
+where \(\mathfrak R_N^{nat}\) is built from the original transported
+pressure-Hodge, strain/frame, Schur normal pressure-collar, annular stress,
+frequency-local native birth, route, legal, and stop ledgers.  It cannot be
+defined as the future descendant selected action tail.
+
+Integrating `(TFE.765)` over a stopped tree gives
+
+\[
+\sum_{Q\in\mathcal T(P)}A_{\rm sel}(Q)
+\le
+\mathfrak R_N^{nat}(P)
+-\mathfrak R_N^{nat}(\partial\mathcal T(P))
++C_N^{paid}(P)
++R_{\rm legal}(P),
+\tag{TFE.766}
+\]
+
+and therefore `(TFE.762)` and `(TFE.763)`.
+
+The physical content is the no-free-upward-transfer law.  Every retained
+selected high-ratio child action must have exactly one same-parent origin:
+
+1. lower-band carry already present in the selected parent and spent once;
+2. a new same-history birth visible to material Hodge/projector motion,
+   annular stress, strain-frame compression, Schur normal pressure-collar
+   defect, or frequency-local native reserve birth;
+3. entrance, nonlaminar, legal, stop, selector/order-lock, or reselection
+   material already routed into the full stopped exchange ledger.
+
+The forbidden branch is
+
+\[
+\text{unpaid selected high-ratio upward birth invisible to carry, full exchange,
+annular stress, Hodge/projector motion, pressure-collar defect, entrance, legal,
+and stop.}
+\tag{TFE.767}
+\]
+
+This branch is the physical shape of the \(L^1\) obstruction after the entropy
+telescope.  It is not a new force source.  It is a pressure-compatible
+recoordination of the same material packet that the child reads as fresh
+positive selected action at a higher ratio without spending an original-history
+reserve.
+
+The feedback loop is therefore:
+
+\[
+\text{pressure compatibility}
+\longrightarrow
+\text{heat/viscous readable child}
+\longrightarrow
+\text{updated velocity/strain/frame state}
+\longrightarrow
+\text{next pressure compatibility}.
+\tag{TFE.768}
+\]
+
+This loop is allowed.  It is the coupled participation law itself.  The Gold
+\(L^1\) theorem asks for the stronger fact that the loop cannot increase the
+number of accessible selected future states faster than the full stopped
+exchange/root reserve deletes them.  The entropy capacity `(TFE.737)`--`(TFE.744)`
+is the exact deterministic deletion telescope once the selected density is
+parent-known.  The PDE producer must prove that parent-known selected density
+from `(TFE.762)`--`(TFE.765)`.
+
+The half-tail remains the sharp audit model:
+
+\[
+dC_\ell\simeq {2^{-\ell}\over \ell+1},
+\qquad
+A_\ell\simeq 2^\ell dC_\ell={1\over \ell+1}.
+\tag{TFE.769}
+\]
+
+Raw square/heat capacity sees \(\sum_\ell dC_\ell<\infty\).  Selected positive
+\(L^1\) sees \(\sum_\ell A_\ell=\infty\).  Therefore finite initial energy and
+ordinary heat smoothing do not by themselves prove Gold \(L^1\).  They become
+enough only after the same packet supplies the selected-critical parent-known
+entropy/root-reserve counter that makes the high-ratio readings spend one
+finite original reserve.
+
+So the current closure chain is:
+
+\[
+\begin{aligned}
+&\text{ForwardNativeReserveBirthPaysFullPLS.A}\\
+&\Longrightarrow
+\text{SelectedCompressionRootReserve.A}\\
+&\Longrightarrow
+\text{StoppedFullExchangeActionCarleson.A}\\
+&\Longrightarrow
+\text{StoppedSourceCarrierAndPaidReselection.A}\\
+&\Longrightarrow
+\text{OriginalHistorySelectedLogAmplificationCarleson.A}\\
+&\Longrightarrow
+\text{terminal-uniform selected \(L^1\).}
+\end{aligned}
+\tag{TFE.770}
+\]
+
+Equivalently, in the earlier storage vocabulary,
+
+\[
+\text{ForwardNativeReserveBirthPaysFullPLS.A}
+\equiv
+\text{PositiveCriticalTransferBound.A}
+\equiv
+\text{BoundedBelowSameMaterialServiceStorage.A}
+\tag{TFE.771}
+\]
+
+at the level of the current Gold \(L^1\) producer.  These are not separate
+remaining walls; they are different coordinates on the same missing physical
+theorem.
+
+Thus everything still missing to close the \(L^1\) problem is concentrated in
+one original-data statement:
+
+\[
+\boxed{
+\begin{gathered}
+\text{construct the forward-native same-packet reserve from the coupled}\\
+\text{pressure-viscosity-incompressibility-velocity history, and prove}\\
+\text{no retained selected high-ratio birth can occur outside carry,}\\
+\text{visible full exchange/native birth, route, legal, stop, or paid reselection.}
+\end{gathered}
+}
+\tag{TFE.772}
+\]
+
+If `(TFE.772)` is proved, `(TFE.770)` gives the entropy carrier, the entropy
+carrier gives `(TFE.747)`, `(TFE.747)` gives the active capacity deletion
+telescope `(TFE.740)`--`(TFE.744)`, and the terminal-uniform \(L^1\) bound
+follows.  If `(TFE.772)` is not proved, the deterministic entropy story remains
+installed but Gold is still open at the forward-native reserve producer.
+
+## 71. Sharpest current producer: active graph admission plus terminal no-jump
+
+The no-unpaid-birth attempt pushes `(TFE.772)` one layer deeper.  The local
+first-birth line is paid: a retained first selected birth leaves a
+selected-size endpoint seed.  The failure is root-relative.  A child can rebase
+the stopped parent and make a descendant look fresh relative to the child even
+though it is not fresh relative to the original root packet.  Therefore the
+root tag must be the selected-metric endpoint state, not a raw source bucket.
+
+In the corrected currency, same-carrier metric squeeze is admitted by the
+material metric identity.  If \(F\) is the material deformation gradient,
+\(C=F^TF\), and \(q_\alpha=F\alpha/|F\alpha|\), then
+
+\[
+{d\over dt}\log(\alpha\cdot C\alpha)
+=
+2\,q_\alpha\cdot S q_\alpha,
+\qquad
+S=\nabla_{\rm sym}u.
+\tag{TFE.773}
+\]
+
+Thus a retained same-carrier selected squeeze
+
+\[
+a_\gamma^{sq}
+=
+\int_{I_\gamma}[q_\gamma(t)\cdot S(t)q_\gamma(t)]_+\,dt
+\tag{TFE.774}
+\]
+
+is paid by positive material-metric variation plus reset/turnstile/covector,
+collar, stop, and legal terms:
+
+\[
+a_\gamma^{sq}
+\le
+{1\over2}
+\operatorname{Var}_+
+\log(\alpha_\gamma\cdot C\alpha_\gamma;I_\gamma)
++Paid(\gamma).
+\tag{TFE.775}
+\]
+
+This settles the admission side only for the corrected object.  It also shows
+why the scalar packet
+
+\[
+|S|^{5/2}+|\nabla^2p|^{5/4}
+\tag{TFE.776}
+\]
+
+is not by itself the parent-known bill.  The pressure-Hessian component must be
+read through the same parent Hodge--Stokes graph.  In material coordinates,
+
+\[
+D_tS+S^2+\Omega^2+\nabla_A^2p
+=
+\nu\Delta_AS+\operatorname{Coef}_A(u,p),
+\tag{TFE.777}
+\]
+
+so selected pressure-Hessian admission has the graph form
+
+\[
+a_Q^{HS}
+\le
+C\rho_Q^{HS}
++C\Omega_Q^{top\text{-}strain/ex}
++CD_Q^{vis/rad}
++Ce_Q,
+\tag{TFE.778}
+\]
+
+where \(\rho_Q^{HS}\) is a parent-built active Hodge--Stokes detector capacity,
+not a future selected scalar Hessian norm.  The paired packing estimate would
+be
+
+\[
+\sum_{Q\subset P}
+\left(
+\rho_Q^{HS}
++\Omega_Q^{top\text{-}strain/ex}
++D_Q^{vis/rad}
+\right)
+\le
+C\mathcal R(P)+CE_{\rm paid}(P).
+\tag{TFE.779}
+\]
+
+The active graph must also quotient out zero-stretch skew-inertial pressure
+balance.  Rigid rotation has nonzero pressure Hessian but no selected squeeze,
+so raw \(\nabla^2p\) cannot be charged as active birth.  The legal graph
+capacity must be parent-announced: the active null space, active quotient
+projector, active weight, and connection are fixed before child selected
+readout, and projector motion is paid by strain-vorticity, viscous graph,
+connection, selector-boundary, stop, or legal terms.
+
+The packing problem is the reversible affine-cycle obstruction.  A packet can
+stretch one material direction, reverse the deformation, and return its
+endpoint Cauchy--Green state while retaining positive selected metric work:
+
+\[
+C_{final}\simeq C_{initial},
+\qquad
+\rho_k^{met}\simeq 1,
+\qquad
+E_k+D_k+P_k+Collar_k\lesssim r_k.
+\tag{TFE.780}
+\]
+
+A chain with \(\sum_k r_k<\infty\) can have finite raw ledgers and infinite
+positive metric variation.  Therefore endpoint shape storage, raw energy,
+ordinary pressure balance, local affine Liouville, and naked positive variation
+do not prove \(L^1\).  Positive variation must enter as a parent-known graph
+capacity with Bessel packing, not as the selected bill renamed as reserve.
+
+The strict parent-current detector form is:
+
+\[
+\mathfrak J_P(\psi)
+=
+\int_P
+u\cdot(-\partial_t\psi-\nu\Delta\psi)
++(u\otimes u):\nabla\psi
++p\,\nabla\cdot\psi
+\,dx\,dt,
+\tag{TFE.781}
+\]
+
+with selected child capacity
+
+\[
+\rho_Q
+:=
+\sup_{\psi\in\mathcal A_Q(P),\ \|\psi\|_{\mathfrak C_P}\le1}
+|\mathfrak J_P(\psi)|^2.
+\tag{TFE.782}
+\]
+
+The two proof-bearing detector clauses are same-carrier admission
+
+\[
+a_Q
+\le
+C\rho_Q+Ce_Q,
+\tag{TFE.783}
+\]
+
+and positive-metric-variation Bessel packing
+
+\[
+\sum_{Q\subset P}|\mathfrak J_P(\psi_Q)|^2
+\le
+C\|\mathfrak J_P\|_{\mathfrak C_P^\ast}^2
++CE_{\rm paid}(P).
+\tag{TFE.784}
+\]
+
+The later audit shows that `(TFE.783)`--`(TFE.784)` reduce every nonterminal
+defect to payment, parent-subtracted first exit, active graph coercivity, or
+zero-cost rigidity.  The surviving positive Gold branch is terminal:
+
+\[
+\mu_P^{end}(T_\rho(z_0))\not\to0
+\quad\text{for a fixed parent-known full packet.}
+\tag{TFE.785}
+\]
+
+To remove that branch by the positive route, one must construct a root-fixed
+full-packet functional \(\mathcal L_P\), not a child-renormalized storage, with
+
+\[
+-d\mathcal L_P
+\ge
+c\,d\mu_P^{end}
+-d\lambda_P,
+\qquad
+\lim_{\rho\downarrow0}\sup_{z_0}\lambda_P(T_\rho(z_0))=0,
+\tag{TFE.786}
+\]
+
+nonresettable layer accounting
+
+\[
+\sum_j[\mathcal L_P(t_j^-)-\mathcal L_P(t_j^+)]_+
+\le
+\mathcal L_P(t_0)-\inf\mathcal L_P
++R_{\rm legal}(P)+Stop(P)+E_{\rm paid}(P),
+\tag{TFE.787}
+\]
+
+and terminal no-jump or Hardy time-thickness:
+
+\[
+\lim_{\rho\downarrow0}\sup_{z_0}
+[-\Delta_{T_\rho(z_0)}\mathcal L_P]_+=0
+\tag{TFE.788}
+\]
+
+or
+
+\[
+\sup_P\int_{-1}^{0}(-s)^{-\alpha}\,d(-\mathcal L_P)_+(s)<\infty
+\qquad(\alpha>0).
+\tag{TFE.789}
+\]
+
+The child-normalized version
+
+\[
+-d\mathcal L_Q
+\ge
+c\,d\mu_Q^{end}
+-d\lambda_Q
+\tag{TFE.790}
+\]
+
+is rejected because it can pay the same terminal pulse once after every zoom.
+
+So the physical story at the bottom is this: pressure may coordinate the
+whole field instantly, viscosity may make the response readable through the
+heat/velocity tower, and the selected child may zoom into a real same-carrier
+metric squeeze.  The proof still needs one root-fixed parent packet to record
+that squeeze, its pressure-Hessian graph readout, any replay/return/reset, and
+its terminal endpoint behavior without rebuilding the accounting after each
+zoom.  Terminal rest or endpoint shape return is insufficient; the missing
+quantity is root-fixed full-packet no-jump/Hardy thickness for the terminal
+selected packet, after active Hodge--Stokes graph admission and Bessel packing.
+
+The complete current producer list is therefore:
+
+\[
+\begin{gathered}
+\text{parent-known active Hodge--Stokes/positive-metric graph capacity,}\\
+\text{same-carrier adjoint admission of the selected packet,}\\
+\text{positive-metric-variation Bessel packing for parent stress detectors,}\\
+\text{actual-selector first-exit / parent-subtracted no-replay capture,}\\
+\text{terminal full-packet no-atom storage by root-fixed no-jump or Hardy thickness.}
+\end{gathered}
+\tag{TFE.791}
+\]
+
+Those items imply `(TFE.772)`, then `(TFE.770)`, then the entropy telescope and
+terminal-uniform \(L^1\).  They are not installed as a proof from original data.
+If the terminal no-atom producer fails, the same-witness endpoint-face branch is
+a CM-facing fallback, not a Gold smoothness closure.
