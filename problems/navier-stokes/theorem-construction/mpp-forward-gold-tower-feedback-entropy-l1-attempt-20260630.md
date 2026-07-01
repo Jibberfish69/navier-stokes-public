@@ -21625,3 +21625,670 @@ negative return; if the child shrinks scale, it spends a parent-announced
 active generator interval; if it reaches the end, endpoint no-atom prevents
 replay.  The unproved part is proving that this signed record has finite
 active-metric size from arbitrary smooth initial data.
+
+## 128. Complete physical package: entropy telescope after active capacity source
+
+The entropy story is being used, but only in the following precise way.  It is
+the deterministic state-deletion telescope after the original coupled packet has
+already produced a parent-known active capacity.  It is not the source of that
+capacity.
+
+The physical loop is:
+
+\[
+\text{pressure-compatible parent coordination}
+\longrightarrow
+\text{heat-lag velocity/strain child readout}
+\longrightarrow
+\text{updated material frame}
+\longrightarrow
+\text{new pressure-compatible coordination.}
+\tag{TFE.1461}
+\]
+
+The \(L^1\) object is the total positive selected active state-count generated
+by that loop before the child performs positive clipping.  Write the recombined
+full-output selected scalar as \(h_P\).  The order-lock gate is
+
+\[
+d\Omega_{\rm child,+}
+\le
+[h_P]_+\,dt
++dR_{\rm ol},
+\tag{TFE.1462}
+\]
+
+where \(dR_{\rm ol}\) is paid by selector/collar/frame motion, legal/stop
+material, or endpoint-thick residue.  This gate is an admissibility condition;
+it prevents channel-first clipping.  It does not yet bound \([h_P]_+\).
+
+Once a parent-known density exists,
+
+\[
+dA_P^{sel}=f_P\,d\mathcal R_P^{orig},
+\qquad
+r_Q={f_Q\over f_P},
+\tag{TFE.1463}
+\]
+
+the entropy telescope is deterministic.  The chain-rule inequality
+
+\[
+\operatorname{Ent}_P(f)
+-
+\sum_{Q\subset P}\operatorname{Ent}_Q(f)
+\ge
+\sum_{Q\subset P} f_Q\mathcal R(Q)\log r_Q
+-Paid(P)
+\tag{TFE.1464}
+\]
+
+beats the half-tail because \(r_Q\ge 2^L\) forces \(L\log2\) units of parent
+entropy per selected unit.  Thus the entropy layer solves the counting problem
+after the density \(f_P\) and its root bound are produced.
+
+The original-data producer that must precede `(TFE.1463)' is an active
+capacity/deletion inequality.  In one-step form it asks for a parent-known
+capacity \(\mathcal C_P^{act}\), original root density \(\Theta_P^{orig}\), and
+strict \(\theta<1\) such that
+
+\[
+d[h_P]_+
+\le
+-d\mathcal C_P^{act}
++\theta\,d\mathfrak D_{\nu,P}^{crit}
++d\Theta_P^{orig}
++dPaid_P,
+\tag{TFE.1465}
+\]
+
+with
+
+\[
+0\le \mathcal C_P^{act}\le C_N(u_0)\mathcal R(P)+Paid(P),
+\qquad
+\int_{\operatorname{Hist}(P)}d\Theta_P^{orig}
+\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1466}
+\]
+
+Equivalently, in the dyadic high-ratio language, the same theorem is the strict
+half-barrier
+
+\[
+N_{L+1}(P)
+\le
+\theta N_L(P)+B_L(P),
+\qquad
+2\theta<1,
+\qquad
+\sum_{L\ge0}2^L B_L(P)
+\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1467}
+\]
+
+Summing `(TFE.1467)' gives terminal-uniform selected \(L^1\).  The half-tail
+\(\nu_L=2^{-L}/(L+1)\) is exactly the obstruction: raw square/root mass is
+finite, while \(\sum_L2^L\nu_L\) diverges.  The strict half-barrier is the
+mathematical form of the physical claim that pressure feedback cannot reopen
+selected future states as fast as the same coupled packet deletes, routes,
+returns, drains, stops, or terminates them.
+
+The active capacity source splits into three nonduplicate physical producers.
+
+First, the parent-known selected carrier must be built before clipping:
+
+\[
+Z_P^S=Z_{vis}^S+Z_{sil}^S+Z_{ex}^S,
+\qquad
+\log r_Q=\ell_Q(\Delta_QZ_P^S)-\psi_Q+e_Q,
+\tag{TFE.1468}
+\]
+
+with root Carleson/BMO control
+
+\[
+\sup_{P'\subset P}
+{1\over \mathcal R(P')}
+\sum_{Q\subset P'}
+\left(
+\|\Delta_QZ_P^S\|^2+|\psi_Q|^2+|e_Q|^2
+\right)\mathcal R(Q)
+\le C_N(u_0)+Paid(P').
+\tag{TFE.1469}
+\]
+
+This is the entropy-density producer.  Selector nondegeneracy, reselection, and
+full exchange are consumers relative to this carrier; without `(TFE.1469)' the
+entropy telescope has no original packet density to count.
+
+Second, the scale-native first-birth channel must have selected-critical lower
+admission and root packing.  For retained first native births \(\gamma\),
+
+\[
+\omega_\gamma
+\le C_N\rho_{\iota(\gamma)}+Paid(\gamma),
+\qquad
+\operatorname{mult}(\iota)\le C_N,
+\tag{TFE.1470}
+\]
+
+and
+
+\[
+\sum_{\rho\in\mathcal R_N^{nat}(P)}\rho
+\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1471}
+\]
+
+This is the scale-native atom theorem.  It is equivalent, in compressed
+critical-energy coordinates, to the positive critical transfer estimate
+
+\[
+\int_0^\tau
+\left(
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2dt
++Paid.
+\tag{TFE.1472}
+\]
+
+This coordinate face is not pressure-only.  The Leray scalar compresses the
+same full pressure-viscosity-incompressibility-velocity transaction.  The
+physical content is that a scale-native child can be locally fresh only when it
+spends one critical parent state exactly once.
+
+Third, the terminal face must have root-fixed time thickness:
+
+\[
+d\mu_P^{end}
+\le
+b_P(t)\,dt+dPaid_P,
+\qquad
+\int_0^{T_*} b_P(t)\,dt
+\le C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1473}
+\]
+
+or an equivalent Hardy/Orlicz/no-residue endpoint estimate.  Finite endpoint
+measure alone permits a heat-strip pulse; `(TFE.1473)' prevents a terminal atom
+from being read as fresh positive action at every shrinking child window.
+
+The repeated-core and derivative-reset branches are downstream of these source
+objects.
+
+On a fixed stopped core, the retained readout must be realized before clipping
+as a parent-fixed score
+
+\[
+P_R=\Gamma_R Z_P^S,
+\qquad
+A_{\rm rep}^{+}(e)
+\le C[P_R(Q')-P_R(Q)]_+ +Paid(e).
+\tag{TFE.1474}
+\]
+
+The signed lift
+
+\[
+Y=\partial_\sigma\Psi_P^S+S^{spill}+E
+\tag{TFE.1475}
+\]
+
+gives
+
+\[
+\int Y_+
+\le
+\operatorname{osc}\Psi_P^S+\int Y_-+\int |S^{spill}|+\int |E|.
+\tag{TFE.1476}
+\]
+
+Thus repeated positive visits are record growth plus negative return of the
+same score.  Negative return is not a new reservoir; it is derivative and
+connection motion of the same parent carrier.
+
+For strict first-exit/reset pieces, the child increment is paid when it is a
+parent-announced average
+
+\[
+D_e(t)
+=
+{1\over |I_e|}
+\int_{I_e}G_e(\sigma,t)\,d\sigma,
+\tag{TFE.1477}
+\]
+
+because the harmonic weight
+
+\[
+H_{I_e}(t)={|I_e|^2\over\int_{I_e}a_P(\sigma,t)^{-1}\,d\sigma}
+\tag{TFE.1478}
+\]
+
+gives
+
+\[
+H_{I_e}(t)\|D_e(t)\|^2
+\le
+\int_{I_e}a_P(\sigma,t)\|G_e(\sigma,t)\|^2\,d\sigma.
+\tag{TFE.1479}
+\]
+
+Maximal first-exit sparsity then sums `(TFE.1479)'.  The non-derivative
+affine/root quotient is exactly the part not represented by `(TFE.1477)';
+it must return to `(TFE.1468)'--`(TFE.1472)' or to the terminal thickness
+line `(TFE.1473)'.
+
+Therefore the complete current Gold \(L^1\) package is:
+
+\[
+\begin{gathered}
+\text{full-output order-lock before positive clipping `(TFE.1462)'};\\
+\text{parent-known selected density/log carrier and root BMO `(TFE.1468)'--`(TFE.1469)'};\\
+\text{scale-native first-birth lower admission and root packing `(TFE.1470)'--`(TFE.1472)'};\\
+\text{repeated-core signed lift and same-score return `(TFE.1474)'--`(TFE.1476)'};\\
+\text{parent-announced reset Cauchy and stopped overlap `(TFE.1477)'--`(TFE.1479)'};\\
+\text{root-fixed terminal thickness/no-residue `(TFE.1473)'}.
+\end{gathered}
+\tag{TFE.1480}
+\]
+
+Together these imply `(TFE.1465)' or `(TFE.1467)'.  Then entropy/reverse Holder
+gives terminal-uniform selected \(L^1\), and the critical identity absorbs the
+positive part with a strict viscous margin.
+
+What is still missing is not the entropy telescope, same-parent ownership,
+no-recount pushforward, raw Bessel packing, or the derivative-reset Cauchy
+calculation.  Those are consumers.  The missing physical theorem is the
+original-data construction of the parent-known active capacity in `(TFE.1480)'.
+In plain terms: prove that one original coupled
+pressure-viscosity-incompressibility-velocity history cannot keep producing
+selected-critical positive future states after all reuse, return, reset,
+native first-birth, terminal thickness, legal, and stop mechanisms have been
+charged to the same packet.
+
+This is the current source-level \(L^1\) closure target:
+
+\[
+\boxed{
+\text{CompleteActiveCapacitySource.A}
+\Longrightarrow
+\text{strict half-barrier}
+\Longrightarrow
+\text{terminal-uniform \(L^1\)}
+\Longrightarrow
+\text{`(FGC.25)'.}
+}
+\tag{TFE.1481}
+\]
+
+`CompleteActiveCapacitySource.A' is equivalent across the checked coordinates
+to `ParentKnownActiveDensityEntropy.A',
+`OriginalHistorySelectedLogAmplificationCarleson.A',
+`NativeBirthChargePacking.A',
+`SelectedGeneratorStorageCoercivity.A',
+`PositiveCriticalTransferBound.A', and
+`BoundedBelowSameMaterialServiceStorage.A'.  None of these equivalences closes
+Gold by itself; they name the same missing original-data source in different
+coordinates.
+
+## 129. Source-teeth audit: what is consumer, what is still source
+
+The package `(TFE.1480)' still contains clauses with different proof roles.  A
+new audit of the current source surfaces separates them as follows.
+
+The order-lock clause is an admissibility gate:
+
+\[
+d\Omega_{\rm child,+}
+\le [h_P]_+\,dt+dR_{\rm ol}.
+\tag{TFE.1482}
+\]
+
+It prevents the child from clipping a channel-first scalar before the full
+pressure-viscosity-incompressibility-velocity packet recombines.  Once
+\(h_P\) is the selected scalar, order-lock does not supply the \(L^1\) bound;
+it only says which scalar must be bounded.
+
+The repeated-core clause is a consumer after a parent-known stopped score is
+realized.  With
+
+\[
+P_R=\Gamma_R Z_P^S,\qquad
+Y=\partial_\sigma\Psi_P^S+S^{spill}+E,
+\tag{TFE.1483}
+\]
+
+the positive repeated read satisfies
+
+\[
+\int Y_+
+\le
+\operatorname{osc}\Psi_P^S+\int Y_-+\int |S^{spill}|+\int |E|.
+\tag{TFE.1484}
+\]
+
+This is scalar BV plus the signed lift.  The physical payment is record growth
+and negative return of the same score.  The source work is not BV; it is
+constructing \(Z_P^S,\Psi_P^S\) with root selected-critical control from the
+original packet.
+
+The derivative reset clause is also a consumer.  If the reset increment is
+already a parent-announced average,
+
+\[
+D_e(t)=|I_e|^{-1}\int_{I_e}G_e(\sigma,t)\,d\sigma,
+\tag{TFE.1485}
+\]
+
+then harmonic Cauchy gives
+
+\[
+H_{I_e}(t)\|D_e(t)\|^2
+\le
+\int_{I_e}a_P(\sigma,t)\|G_e(\sigma,t)\|^2\,d\sigma.
+\tag{TFE.1486}
+\]
+
+This pays derivative-exact reset pieces.  It does not pay the persistent
+non-derivative affine/root quotient, because applying `(TFE.1486)' there would
+assume the selected-critical root bound being proved.
+
+Zero-cost rigidity is likewise a consumer.  After a normalized bad profile has
+already been made tight in one same-carrier parent frame, vanishing derivative,
+turnstile, exchange, covector, frame, legal, and stop charges force the
+parent-subtracted fresh quotient to be zero:
+
+\[
+D_\infty^{fresh}=0.
+\tag{TFE.1487}
+\]
+
+The missing step is before rigidity: proving that a unit of active-weight bad
+mass cannot hide in shrinking high-weight tubes without appearing in the
+original ledger or in the critical native-birth reserve.
+
+Thus the nonduplicate source part of `(TFE.1480)' is smaller than the full list.
+It has three teeth.
+
+Tooth A is parent-known selected density/root Carleson:
+
+\[
+\log {f_Q\over f_{par(Q)}}
+=
+\ell_Q(\Delta_QZ^S)-\psi_Q+e_Q,
+\tag{TFE.1488}
+\]
+
+with
+
+\[
+\sup_{P'\subset P}
+{1\over\mathcal R(P')}
+\sum_{Q\subset P'}
+\left(
+\|\Delta_QZ^S\|^2+|\psi_Q|^2+|e_Q|^2
+\right)\mathcal R(Q)
+\le C_N(u_0)+Paid(P').
+\tag{TFE.1489}
+\]
+
+The stopped-selector BMO/testing surface shows that `(TFE.1489)' is not
+obtained by merely defining \(Z^S=T\nu^S\).  The routed source measure must
+have cancellation, accretive local testing, and Carleson testing defects before
+child readout:
+
+\[
+\sup_{P'\subset S}
+{1\over\mathcal R(P')}
+\|T_S(1_{P'}\nu^S)\|_{L^2(P',\mathcal R)}^2
+\le C_N(u_0)+Paid(P').
+\tag{TFE.1490}
+\]
+
+So Tooth A is source, not entropy decoration.  It is the PDE production of the
+selected log-density carrier.
+
+Tooth B is scale-native critical birth packing:
+
+\[
+\sum_{Q\subset P} w(Q)\|F_Q\|_{\mathcal H_{raw}}^2
+\le C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1491}
+\]
+
+where
+
+\[
+F_Q=(I-\Pi_{spent(<Q)})\Delta_QZ_P^{orig}.
+\tag{TFE.1492}
+\]
+
+The raw Bessel estimate gives only
+
+\[
+\sum_{Q\subset P}\|F_Q\|_{\mathcal H_{raw}}^2<\infty.
+\tag{TFE.1493}
+\]
+
+The half-tail
+
+\[
+\|F_\ell\|_{\mathcal H_{raw}}^2={2^{-\ell}\over \ell+1}
+\tag{TFE.1494}
+\]
+
+satisfies `(TFE.1493)' while violating `(TFE.1491)'.  This is the exact point
+where finite smooth energy, same-parent ownership, first-entry, and Bessel
+orthogonality stop.  The missing physical theorem is selected-critical weight
+production from the original coupled packet, equivalently
+
+\[
+\int_0^\tau
+\left(
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2dt
++Paid.
+\tag{TFE.1495}
+\]
+
+Tooth C is terminal root-fixed thickness:
+
+\[
+d\mu_P^{end}\le b_P(t)\,dt+dPaid_P,
+\qquad
+\int_0^{T_*}b_P(t)\,dt\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1496}
+\]
+
+The endpoint temporal-tower surface proves this for the order-locked
+same-carrier finite-jet part once the mixed tower controls one time rung in a
+Sobolev algebra.  It does not cover harmonic pressure memory, naked
+legal/selector/signed/terminal/geometry residues, or endpoint pulses.  Those
+channels need `(TFE.1496)' or an equivalent Hardy/Orlicz/no-residue policy.
+
+Therefore `CompleteActiveCapacitySource.A' reduces to:
+
+\[
+\begin{gathered}
+\text{Tooth A: parent-known selected log-density carrier/root testing
+`(TFE.1488)'--`(TFE.1490)';}\\
+\text{Tooth B: selected-critical native-birth/root packing or positive
+critical transfer `(TFE.1491)'--`(TFE.1495)';}\\
+\text{Tooth C: root-fixed terminal thickness/no-residue `(TFE.1496)'.}
+\end{gathered}
+\tag{TFE.1497}
+\]
+
+Order-lock, repeated-core BV, derivative-reset Cauchy, no-recount, Bessel
+first-entry, stopped full-exchange routing, and zero-cost rigidity are
+downstream consumers once these teeth exist.
+
+The physical meaning is now sharper.  Pressure compatibility can re-coordinate
+the packet, heat/viscosity can make a child readout visible, and the updated
+frame can feed the next pressure problem.  That loop closes selected \(L^1\)
+only if the original packet produces a parent-known active density, assigns
+each scale-native first birth to finite selected-critical reserve, and prevents
+the terminal trace from becoming a zero-thickness replay.  The repo has not
+proved those three source teeth from arbitrary smooth original data.
+
+## 130. Tooth B direct attack: signed critical identity versus depletion
+
+Tooth B has an exact analytic coordinate, but that coordinate is signed.  Let
+
+\[
+E_c(t)={1\over2}\|\Lambda^{1/2}u(t)\|_2^2,
+\qquad
+D_c(t)=\|\Lambda^{3/2}u(t)\|_2^2,
+\tag{TFE.1498}
+\]
+
+and
+
+\[
+B_c(t)
+=
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle .
+\tag{TFE.1499}
+\]
+
+The Leray-projected critical identity is
+
+\[
+E_c'(t)+\nu D_c(t)=B_c(t).
+\tag{TFE.1500}
+\]
+
+This is the compressed full-packet pressure-viscosity-incompressibility-velocity
+identity.  It is not pressure-only and not velocity-only; \(\mathbb P\) has
+already folded the pressure/incompressibility response into the material
+critical transfer.
+
+The desired Tooth B estimate is the one-sided positive line
+
+\[
+\int_0^\tau B_c(t)_+\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau D_c(t)\,dt
++Paid,
+\qquad
+\theta<1.
+\tag{TFE.1501}
+\]
+
+The signed identity alone gives only
+
+\[
+\int_0^\tau B_c(t)_+\,dt
+=
+E_c(\tau)-E_c(0)
++\nu\int_0^\tau D_c(t)\,dt
++\int_0^\tau B_c(t)_-\,dt.
+\tag{TFE.1502}
+\]
+
+Thus `(TFE.1500)' does not prove `(TFE.1501)'.  It records net critical
+motion.  The \(L^1\) problem asks for the positive route length before
+cancellation.  Any proof of `(TFE.1501)' must explain why the negative-return
+side and the viscous reserve cannot be replayed in a way that leaves infinitely
+many selected positive bursts.
+
+The standard estimate is local and amplitude-dependent:
+
+\[
+|B_c(t)|
+\le
+C\|u(t)\|_{\dot H^{1/2}}D_c(t).
+\tag{TFE.1503}
+\]
+
+It gives `(TFE.1501)' only when the critical packet is small.  For arbitrary
+data, replacing \(\|u\|_{\dot H^{1/2}}\) by a bounded strict constant assumes
+the missing theorem.
+
+The correct direct form of Tooth B is therefore a depletion storage.  Construct
+a parent-known native critical capacity \(\mathcal B_P^{nat}\), before child
+positive clipping, such that
+
+\[
+dA_{P,nat}^{+}
+\le
+-d\mathcal B_P^{nat}
++\theta\nu D_c(t)\,dt
++dPaid_P,
+\qquad
+0\le\mathcal B_P^{nat}\le C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1504}
+\]
+
+and such that \(dA_{P,nat}^{+}\) dominates retained scale-native first-birth
+selected action:
+
+\[
+\sum_{\gamma\subset P}\omega_\gamma
+\le
+C\int_{\operatorname{Hist}(P)}dA_{P,nat}^{+}
++Paid(P).
+\tag{TFE.1505}
+\]
+
+Integrating `(TFE.1504)' and using `(TFE.1505)' gives the native-birth packing
+line `(TFE.1470)'--`(TFE.1471)' and the positive critical transfer line
+`(TFE.1501)'.
+
+Physically, \(\mathcal B_P^{nat}\) is the missing finite reserve of accessible
+scale-native future states.  A pressure-compatible burst may arrive instantly
+and a heat-lag child may later read it as velocity/strain action.  Tooth B says
+that if this burst is genuinely new at the selected critical scale, it must
+lower \(\mathcal B_P^{nat}\) or be charged to the strict viscous fraction,
+route/return/reset/full-exchange motion, legal, stop, or terminal material.
+
+This is the exact place where the half-tail lives.  Raw Bessel/energy permits
+
+\[
+\|F_\ell\|_{\mathcal H_{raw}}^2={2^{-\ell}\over \ell+1},
+\qquad
+\sum_\ell\|F_\ell\|_{\mathcal H_{raw}}^2<\infty,
+\qquad
+\sum_\ell2^\ell\|F_\ell\|_{\mathcal H_{raw}}^2=\infty.
+\tag{TFE.1506}
+\]
+
+A depletion storage rules out `(TFE.1506)' only if the selected-critical weight
+\(2^\ell\) is already a parent-known cost before child clipping.  Choosing the
+weight from the descendant tail makes `(TFE.1504)' circular.
+
+So the direct Tooth B proof target is:
+
+\[
+\begin{gathered}
+\text{construct \(\mathcal B_P^{nat}\) from the original coupled packet;}\\
+\text{prove retained scale-native births enter \(dA_{P,nat}^{+}\)
+before clipping;}\\
+\text{prove the one-step depletion inequality `(TFE.1504)' with strict
+\(\theta<1\).}
+\end{gathered}
+\tag{TFE.1507}
+\]
+
+This is the same theorem as `PositiveCriticalTransferDepletion.A' /
+`NativeBirthChargePacking.A' in depletion coordinates.  It is strictly stronger
+than the signed critical identity and is not supplied by local energy,
+incompressibility, Leray projection, or raw same-parent Bessel packing.
