@@ -3,17 +3,20 @@
 ## Supersession
 
 These release notes are historical periodic-branch context, not current release
-authority. The current controlling release stack is the regenerated
-submission-candidate state:
+authority. The current controlling release stack is blocked by the July 1 Gold
+L1 authority audit:
 
 ```text
-release-decision: submission-candidate
-submission-verdict: ready
-release_eligible: true
-active blocker: none on the promoted proof-bearing rows
+release-decision: blocked
+submission-verdict: not-ready
+release_eligible: false
+active blocker: TFE2748B / OriginalCriticalCapacityVariation.A
 human/app-aligned track: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 codex track: papers/navier-stokes/manuscript/generated/main.tex
 ```
+
+The release stack may retain rendered PDF tracks and historical periodic-branch
+context, but it does not have current proof closure or submission readiness.
 
 ## Release scope
 

@@ -27,9 +27,18 @@ shared_bridge_interface:
   - 'localization lane: Navier-Stokes bridge memos, theorem construction, and solver-facing
     packet surfaces'
 shared_current_state:
+  manual_current_status:
+    updated_at: '2026-07-01T21:46:12Z'
+    status: historical-crosswalk-not-current-proof-readiness
+    correction: >-
+      This March crosswalk is retained as a V6/import synchronization map only.
+      It is not a current proof-readiness or submission-readiness surface. Current
+      live authority is the July Gold L1 audit in live-theorem-edge.yaml,
+      source-frontier.yaml, and theorem-packet.yaml; Gold remains open at TFE2748B
+      / OriginalCriticalCapacityVariation.A.
   monograph_v6_root_present: true
   direct_ns_v6_problem_folder_present: false
-  direct_proof_pack_ready: true
+  direct_proof_pack_ready: false
   source_grounded_loop_map_ready: true
   recent_observed_contributions:
   - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.20-SupportExtractionDescent.tex"

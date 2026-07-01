@@ -7,6 +7,21 @@ identity:
   generated_at: '2026-06-08T07:57:59Z'
   generator: system/runner/lib/authority_reconciliation_builder.rb
 active: false
+manual_supersession:
+  updated_at: '2026-07-01T21:46:12Z'
+  status: stale-inactive-snapshot-not-current-proof-authority
+  current_authority:
+  - problems/navier-stokes/live-theorem-edge.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  correction: >-
+    This generated reconciliation is inactive and predates the current Gold L1
+    audit. It must not be read as proof readiness or export readiness. Current
+    live authority keeps Gold open at TFE2748B /
+    OriginalCriticalCapacityVariation.A: the original coupled packet must still
+    preallocate critical capacity before child clipping and prove paid positive
+    capacity variation [dCcrit]_+ <= dTheta0 + dPaid. Submission/export readiness
+    remains blocked.
 inputs:
   proof_assembly: problems/navier-stokes/proof-assembly.yaml
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
@@ -15,10 +30,10 @@ inputs:
   review_verdict: problems/navier-stokes/review-verdict.yaml
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
 summary:
-  proof_ready: true
+  proof_ready: false
   theorem_authority_blocking_count: 0
   bridge_discharge_blocking_count: 0
-  theorem_packet_export_ready: true
+  theorem_packet_export_ready: false
   target_fidelity_terminal_safe: true
   target_fidelity_class: direct-target
   stale_blocker_count: 0
@@ -48,8 +63,9 @@ target_fidelity:
     current_route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
     bundle_route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
     bundle_surface_mismatch: false
-    open_theorem_authority: false
-    open_critical_referee_objections: []
+    open_theorem_authority: true
+    open_critical_referee_objections:
+    - TFE2748B / OriginalCriticalCapacityVariation.A open for Gold L1 source theorem
 superseded_blockers: []
 effective_review_alignment: {}
 rationale: No authority override is active because either proof-side readiness is

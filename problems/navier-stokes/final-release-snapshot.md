@@ -3,14 +3,21 @@
 ## Supersession
 
 This snapshot is superseded. Current live authority is the dual-track
-submission-candidate package, not this blocked periodic snapshot:
+submission bundle plus the July 1 Gold L1 authority audit, not this blocked
+periodic snapshot:
 
 ```text
 human/app-aligned track: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 codex track: papers/navier-stokes/manuscript/generated/main.tex
-release-decision: submission-candidate
-submission-verdict: submission-ready
+release-decision: blocked
+submission-verdict: not-ready
+gold-source-state: open at TFE2748B / OriginalCriticalCapacityVariation.A
 ```
+
+The rendered PDF tracks may exist, but rendered existence is not proof closure or
+submission readiness. Current authority keeps Gold open until the original
+coupled packet supplies a preallocated critical capacity before child clipping
+and proves paid positive capacity variation.
 
 ## Promotion packet
 
