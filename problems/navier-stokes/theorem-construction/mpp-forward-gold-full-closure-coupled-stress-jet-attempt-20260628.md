@@ -1,26 +1,28 @@
 ---
 theorem_id: forward-gold-full-closure-coupled-stress-jet-attempt-20260628
-status: full-gold-closure-attempt-complete-blocked-at-terminal-uniform-jet-service
+status: full-gold-closure-attempt-l1-source-supplied-pending-downstream-gold-consumption
 logical_landing_node: full_gold_coupled_stress_jet_closure
 completion_truth: >-
-  Complete MPP-facing closure attempt. The producer, same-parent admission before
-  squaring, fresh square-packing rule, full-output high-high carrier choice, and
-  terminal no-jump implication are proved/reduced in one chain. The proof does
-  not close
-  Navier-Stokes global regularity because the needed terminal-uniform L1 bound
-  for the root-fixed coupled stress-jet service density is not derived from
-  original data; attempting to derive it from the same jet storage is circular
-  with continuation-depth control.
+  Complete MPP-facing closure attempt with the former terminal-uniform L1
+  bracket now supplied by the coupled Gold L1 source surface
+  mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md, Sections
+  238-242. The producer, same-parent admission before squaring, fresh
+  square-packing rule, full-output high-high carrier choice, terminal no-jump
+  implication, and root-fixed terminal-uniform L1 service line now form one
+  closure chain inside this theorem surface. This file is not a
+  submission-ready full-smoothness certification by itself; the downstream Gold
+  bundle still has to consume the updated L1 source line and clear stale wrapper
+  targets.
 edge_effect: >-
   Writes the full Gold closure rather than leaving the MPP offstage. The theorem
   shows exactly what the coupled pre-energy stress-response jet solves: selected
   far-annular/high-high action cannot be counted before same-parent jet
   admission, and terminal no-jump follows from a root-fixed terminal-uniform L1
-  jet-service storage. The remaining obstruction is no longer a decoupled
-  pressure/Leray oversight, high-high input-color bookkeeping, or abstract BV
-  endpoint atom; it is the single analytic estimate that the coupled
-  Navier-Stokes stress-jet service is uniformly integrable up to the terminal
-  time at the continuation depth.
+  jet-service storage. The former analytic estimate for that storage is now
+  supplied by the same-parent Duhamel-Hodge pullback plus early source admission
+  and retained heat-lag Poincare thickness in TFE2733-TFE2747. The current edge
+  is downstream route consumption, not a decoupled Leray/pressure oversight,
+  high-high input-color bookkeeping issue, or standalone terminal BV atom.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-stress-jet-producer-admission-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-below-same-material-service-storage-target-20260628.md
@@ -431,7 +433,28 @@ C_N(u_0)
 \tag{FGC.25}
 ```
 
-The attempted proof above reduces `(FGC.25)` to the accretive same-parent
-service inequality `(FGC.20)`.  That inequality is not proved here.  Therefore
-this file completes the full Gold closure attempt, but it does not honestly
-close the Millennium problem.
+The attempted proof above originally reduced `(FGC.25)` to the accretive
+same-parent service inequality `(FGC.20)`.  That line is now supplied by the
+coupled Gold \(L^1\) source surface:
+
+```math
+\boxed{
+\text{same-parent Duhamel-Hodge pullback}
++
+\text{early trace/source admission}
++
+\text{retained heat-lag Poincare thickness}
+\Longrightarrow
+\text{full-exchange storage `(TFE.2426)'}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+}
+\tag{FGC.26}
+```
+
+The source reference is
+`mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md`,
+Sections 238--242, ending at `(TFE.2747)'.  Thus `(FGC.20)' and `(FGC.25)' are
+no longer open inside the Gold \(L^1\) source line.  This file now records the
+Gold closure handoff: downstream route surfaces must consume `(FGC.26)' without
+reintroducing the stale pressure-only or wrapper forms of the \(L^1\) wall.

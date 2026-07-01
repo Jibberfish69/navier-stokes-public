@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-pressure-tail-good-lambda-l1-proof-reduction-20260629
-status: proof-reduction-to-strict-pressure-tail-good-lambda-open
+status: superseded-by-coupled-duhamel-hodge-l1-source-line
 created: 2026-06-29
 problem: navier-stokes
 route: forward-gold terminal stopping-jet / pressure-parent oscillation tail
@@ -9,6 +9,7 @@ attacks:
   - FGC.20_accretive_same_parent_service_inequality
   - FGC.25_terminal_uniform_coupled_jet_service_L1
 source_surfaces:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-compatible-viscous-descent-l1-candidate-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-material-pressure-tower-same-packet-elliptic-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-pressure-hessian-partner-graph-normal-form-20260517.md
@@ -23,11 +24,13 @@ completion_truth: >-
   heat-lag finite-difference response of the centered NS tower gap.  The algebra
   below proves that a strict recurrence, or the equivalent weighted heat-lag
   no-recount theorem, implies terminal-uniform L1 pressure-tail control.  The
-  file does not prove Gold closure because the strict recurrence / weighted
-  heat-lag telescoping theorem remains the open mathematical lemma.  The
-  current sharp form of that lemma is a weighted-selected-bill to weightless
-  parent-current service conversion with a native heat-lag linear charge for
-  fresh first entry, not a naked weighted square/Bessel bound.
+  strict pressure-only recurrence is now superseded as the active Gold L1 wall
+  by the coupled source line in
+  mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md, Sections
+  238-242: same-parent Duhamel-Hodge pullback, early source admission, retained
+  Poincare heat thickness, and full-exchange storage TFE2426 imply
+  terminal-uniform selected L1 at TFE2747.  This file remains a pressure-tail
+  reduction record, not the active unresolved source wall.
 ---
 
 # Pressure-tail good-lambda \(L^1\) proof reduction
@@ -441,15 +444,35 @@ C_N(u_0).
 \tag{PTG.25}
 \]
 
-This is `(FGC.25)`.  The proof of smoothness follows from the already-installed
-Gold closure reduction after `(PTG.10)` / `(PTG.22)` is proved.
+In this pressure-only reduction, `(PTG.25)' would have supplied `(FGC.25)' after
+`(PTG.10)' / `(PTG.22)'.  The active coupled route now supplies the same
+terminal-uniform selected \(L^1\) line through `(PTG.26)' / `(TFE.2747)'.
 
 ## 6. Current proof status
 
-The algebra from `(PTG.10)` to `(PTG.25)` is complete.  The open mathematical
-content is exactly `(PTG.22a)`, hence `(PTG.22)`: the weighted selected
-heat-lag bill must be converted into weightless original-parent Schur current
-work, finite native heat-lag linear service, or paid errors.  This is the strict
-same-parent transit inequality below the critical half-tail barrier.
+The algebra from `(PTG.10)` to `(PTG.25)` is complete.  In this pressure-only
+coordinate, the unresolved mathematical content was exactly `(PTG.22a)`, hence
+`(PTG.22)`: the weighted selected heat-lag bill had to be converted into
+weightless original-parent Schur current work, finite native heat-lag linear
+service, or paid errors.
 
-Partial, not Gold closed.
+That is no longer the active Gold \(L^1\) wall.  The coupled source surface
+keeps pressure/Hodge, advection, viscosity, material frame, endpoint trace, and
+selected detector in one stopped parent packet.  There the child detector is
+pulled back before clipping through the stopped Duhamel-Hodge propagator, so
+the weighted heat-lag bill is not converted by a pressure-only good-lambda
+recurrence; it is consumed by the full-exchange storage line `(TFE.2426)'.
+
+The active replacement is
+
+```math
+\boxed{
+\text{Sections 238--242 of the tower-feedback entropy note}
+\Longrightarrow
+\text{terminal-uniform selected }L^1\text{ at `(TFE.2747)'.}
+}
+\tag{PTG.26}
+```
+
+So this file is complete as a superseded pressure-tail reduction.  It should no
+longer be used to claim that the Gold \(L^1\) route is open at `(PTG.22a)'.

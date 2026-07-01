@@ -39757,3 +39757,552 @@ zero-lag material has been admitted to the same parent ledger.  The remaining
 arbitrary-data proof is therefore the strict heat-lag quotient gap for the
 retained full-exchange feedback operator, plus the checked boundedness of the
 parent-announced detector on that quotient.
+
+## 239. The heat-lag gap follows from retained-action stopping
+
+The quotient gap `(TFE.2704)' should not be left as a mysterious spectral
+assumption.  It is forced once the proof refuses to count a sub-heat-lag
+pressure trace as retained velocity/energy action.
+
+Fix \(L_N>0\) so that
+
+\[
+C_NC_{\Pi,N}^{2}e^{-2c_PL_N}<1,
+\tag{TFE.2709}
+\]
+
+where \(c_P>0\) is the stopped parabolic Poincare constant on retained
+scale-native fibres after route, endpoint, lower-carry, and legal/stop pieces
+are removed.  Split the uncharged loop measure into early and retained pieces:
+
+\[
+d\Xi_P^{loop}
+=d\Xi_P^{early}+d\Xi_P^{ret,L},
+\tag{TFE.2710}
+\]
+
+where \(d\Xi^{early}\) is supported on fibres with
+\(\nu\tau_Q|\xi_Q|^2<L_N\), and \(d\Xi^{ret,L}\) is supported on fibres with
+\(\nu\tau_Q|\xi_Q|^2\ge L_N\).
+
+The participation law assigns the early piece to the parent trace ledger, not
+to loop action:
+
+\[
+d\Xi_P^{early}
+\le
+C_Nd\rho_{crit,P}^{entry}
++C_Nd\rho_{crit,P}^{ac}
++d\Theta_P^0
++dPaid_P .
+\tag{TFE.2711}
+\]
+
+This is exactly the ontology from Sections 233, 236, and 237.  A signal that
+has arrived as a pressure-compatible endpoint trace but has not yet crossed the
+heat-lag thickness \(L_N\) is still source/trace material.  It is not a
+retained same-parent feedback loop.
+
+On the retained part, let \(w(s)\) be the Stokes/heat-lag component of the
+same parent generator after reversible pressure/advection re-coordination.  In
+the stopped material frame,
+
+\[
+{d\over ds}\|w(s)\|_{\mathcal H_{root}}^2
++2\nu\|\nabla_Aw(s)\|_{\mathcal H_{root}}^2
+\le
+d\Theta_P^0+dPaid_P .
+\tag{TFE.2712}
+\]
+
+The retained quotient removes lower-carry, endpoint trace, and route modes, so
+the stopped parabolic Poincare inequality gives
+
+\[
+\|\nabla_Aw(s)\|_{\mathcal H_{root}}^2
+\ge
+c_P|\xi_Q|^2\|w(s)\|_{\mathcal H_{root}}^2
+-d\Theta_P^0-dPaid_P .
+\tag{TFE.2713}
+\]
+
+Gronwall on a retained heat-lag window then yields
+
+\[
+\|w(\tau_Q)\|_{\mathcal H_{root}}^2
+\le
+e^{-2c_P\nu\tau_Q|\xi_Q|^2}
+\|w(0)\|_{\mathcal H_{root}}^2
++d\Theta_P^0+dPaid_P
+\le
+e^{-2c_PL_N}\|w(0)\|_{\mathcal H_{root}}^2
++d\Theta_P^0+dPaid_P .
+\tag{TFE.2714}
+\]
+
+Combining `(TFE.2714)' with the bounded retained detector `(TFE.2703)' gives
+
+\[
+d\Xi_P^{ret,L}
+\le
+C_{\Pi,N}^2e^{-2c_PL_N}\,d\Omega_P^{gen}
++d\Theta_P^0
++dPaid_P .
+\tag{TFE.2715}
+\]
+
+By `(TFE.2709)', this is the strict gap `(TFE.2704)'--`(TFE.2706)' with
+\(\vartheta_N=C_{\Pi,N}^2e^{-2c_PL_N}\).  Therefore the heat-lag quotient gap
+is reduced to the no-early-promotion statement `(TFE.2711)' and the stopped
+parabolic Poincare estimate `(TFE.2713)' on the retained quotient:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{sub-heat-lag traces are source/trace material `(TFE.2711)'}\\
++\text{retained quotient has parabolic Poincare `(TFE.2713)'}
+\end{array}
+\Longrightarrow
+\text{strict heat-lag quotient gap `(TFE.2704)'.}
+}
+\tag{TFE.2716}
+\]
+
+This is the sharpest current form of the \(L^1\) producer.  The spectral
+estimate itself is ordinary heat dissipation on the retained quotient.  The
+real arbitrary-data burden is proving that the stopped quotient is honest:
+every sub-heat-lag readout is kept in the parent pressure/endpoint/log source
+ledger before clipping, and every retained loop has the Poincare thickness
+claimed in `(TFE.2713)'.
+
+## 240. No-early-promotion is the critical source split
+
+The no-early-promotion line `(TFE.2711)' is not an extra convention.  It is the
+critical-entry source split from Sections 221, 224, and 233, restricted to the
+sub-heat-lag part of the loop.
+
+On an early fibre \(Q\), pull both the child readout and its immediate parent
+baseline to the same root reserve:
+
+\[
+dA_Q^{early,+}=f_Q\,dR_P^{root},
+\qquad
+dA_{\pi Q}^{early,+}=f_{\pi Q}\,dR_P^{root}.
+\tag{TFE.2717}
+\]
+
+Split the fibre into positive-baseline, zero-baseline, and inherited pieces:
+
+\[
+E_Q
+=
+E_Q^{ac}\cup E_Q^0\cup E_Q^{inh},
+\qquad
+E_Q^{ac}=\{f_{\pi Q}>0,\ f_Q\ge2f_{\pi Q}\},
+\qquad
+E_Q^0=\{f_{\pi Q}=0,\ f_Q>0\}.
+\tag{TFE.2718}
+\]
+
+On \(E_Q^{ac}\), the deterministic entropy lower edge gives
+
+\[
+f_Q
+\le
+C\,f_Q\log\!\left({f_Q\over f_{\pi Q}}\right)_+,
+\tag{TFE.2719}
+\]
+
+so
+
+\[
+d\Xi_{P}^{early,ac}
+\le
+C_Nd\rho_{crit,P}^{ac}+dPaid_P .
+\tag{TFE.2720}
+\]
+
+On \(E_Q^0\), there is no ratio.  Section 224 identifies the readout as the
+singular endpoint detector and Sections 236--237 identify that detector with
+endpoint trace capacity:
+
+\[
+d\Xi_P^{early,0}
+\le
+C_Nd\rho_{crit,P}^{entry}+dPaid_P .
+\tag{TFE.2721}
+\]
+
+The remaining early piece has \(f_Q<2f_{\pi Q}\) with positive parent baseline.
+It is inherited parent material:
+
+\[
+d\Xi_P^{early,inh}
+\le
+C_NdA_{\pi Q}^{early,+}+dPaid_P,
+\tag{TFE.2722}
+\]
+
+and is routed to parent-current no-recount, return/reset, lower carry, legal,
+or stop.  It is not a fresh loop source.
+
+Adding `(TFE.2720)'--`(TFE.2722)' after inherited material is removed from
+\(d\Xi^{loop}\) gives exactly `(TFE.2711)':
+
+\[
+d\Xi_P^{early}
+\le
+C_Nd\rho_{crit,P}^{ac}
++C_Nd\rho_{crit,P}^{entry}
++d\Theta_P^0
++dPaid_P .
+\tag{TFE.2723}
+\]
+
+Thus the early part of the heat-lag split is already a consumer of the exact
+critical source measure:
+
+\[
+\boxed{
+\text{critical source split `(TFE.2718)'--`(TFE.2722)'}
+\Longrightarrow
+\text{no-early-promotion `(TFE.2711)'.}
+}
+\tag{TFE.2724}
+\]
+
+Combining `(TFE.2724)' with Section 239 leaves only the retained quotient
+thickness and feedback-operator representation:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{retained feedback operator representation `(TFE.2700)'--`(TFE.2703)'}\\
++\text{retained parabolic Poincare thickness `(TFE.2713)'}
+\end{array}
+\Longrightarrow
+\text{full-exchange storage `(TFE.2426)'.}
+}
+\tag{TFE.2725}
+\]
+
+This is a genuine narrowing.  The sub-heat-lag branch has been paid by the same
+parent source split before clipping.  The strict Gold \(L^1\) wall now sits on
+the retained quotient: prove that every loop that remains after source,
+endpoint, inherited baseline, route, legal, and stop removals has a parent-known
+feedback operator and positive parabolic thickness.
+
+## 241. Retained Poincare thickness is the scale-native quotient definition
+
+The retained Poincare estimate `(TFE.2713)' is also not an independent
+positive-transfer theorem.  It is the elliptic lower edge of the stopped
+scale-native quotient after all zero-mode carriers have been removed.
+
+Let \(\mathcal K_P^{0}\) be the parent-known kernel generated by lower carry,
+affine endpoint trace, inherited baseline, return/reset, legal, stop, and
+routed frame/collar/Hodge motion.  The retained loop field is
+
+\[
+w_Q
+=
+P_Q^{A_P}(I-\Pi_{\mathcal K_P^{0}})w,
+\tag{TFE.2726}
+\]
+
+where \(P_Q^{A_P}\) is the stopped material-frequency projector in the
+\(A_P,G_P\) frame.  By definition of a retained scale-native fibre,
+
+\[
+\operatorname{supp}\widehat{w_Q}\subset
+\{\xi:\ c_N|\xi_Q|\le |\xi|_{A_P}\le C_N|\xi_Q|\},
+\tag{TFE.2727}
+\]
+
+up to paid collar/selector leakage.
+
+The stopped material metric is uniformly elliptic on the retained parent frame
+after routed distortion is charged:
+
+\[
+c_N|\zeta|^2
+\le
+\zeta^TG_P\zeta
+\le
+C_N|\zeta|^2,
+\qquad
+d(\log C_N/c_N)\le d\Theta_P^0+dPaid_P .
+\tag{TFE.2728}
+\]
+
+Therefore the material Bernstein--Poincare inequality gives
+
+\[
+\|\nabla_Aw_Q\|_{\mathcal H_{root}}^2
+\ge
+c_N|\xi_Q|^2\|w_Q\|_{\mathcal H_{root}}^2
+-d\Theta_P^0-dPaid_P .
+\tag{TFE.2729}
+\]
+
+This is exactly `(TFE.2713)' after lowering \(c_N\) to the \(c_P\) used there.
+The zero modes that would break Poincare are not being ignored; they are the
+pieces already removed into \(\mathcal K_P^0\):
+
+\[
+\begin{array}{c}
+\text{constant / lower carry} \to \text{inherited baseline and no-recount},\\
+\text{affine endpoint zero-mode} \to d\rho_{crit}^{entry}
+\text{ and endpoint trace capacity},\\
+\text{frame/collar/Hodge motion} \to d\Theta_P^0+dPaid_P .
+\end{array}
+\tag{TFE.2730}
+\]
+
+Thus
+
+\[
+\boxed{
+\text{retained scale-native quotient `(TFE.2726)'--`(TFE.2730)'}
+\Longrightarrow
+\text{retained parabolic Poincare `(TFE.2713)'.}
+}
+\tag{TFE.2731}
+\]
+
+Combining `(TFE.2731)' with `(TFE.2725)' leaves one nonconsumer clause:
+
+\[
+\boxed{
+\text{parent-announced retained feedback operator representation
+`(TFE.2700)'--`(TFE.2703)'}
+\Longrightarrow
+\text{full-exchange storage `(TFE.2426)'}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+}
+\tag{TFE.2732}
+\]
+
+The current source edge is therefore no longer endpoint trace, early
+sub-heat-lag material, or Poincare thickness.  It is the same-parent operator
+realization: after all source, inherited, endpoint, route, legal, and stop
+parts are removed, the retained positive loop must be represented as a bounded
+parent-announced detector applied to the original coupled root generator before
+child clipping.
+
+## 242. The retained feedback operator is the stopped Duhamel-Hodge pullback
+
+It remains to remove one possible ambiguity in `(TFE.2732)'.  The retained
+feedback operator is not an extra supplier.  It is the ordinary stopped
+Duhamel map for the same coupled material packet, with the child detector
+pulled back to the parent before the positive part is taken.
+
+On a stopped parent packet \(P\), write the coupled material jet equation as
+
+\[
+(\partial_t+\mathcal L_P)Y_P
+=
+G_P^{root}+R_P^{route},
+\qquad
+\mathcal C_PY_P=0.
+\tag{TFE.2733}
+\]
+
+Here \(Y_P\) is the full velocity/strain/pressure-Hodge/material-frame jet,
+\(\mathcal C_PY_P=0\) is the stopped incompressibility constraint, and
+
+\[
+\mathcal L_P
+=
+\nu\mathcal A_P+\mathcal B_P+\mathcal H_P .
+\tag{TFE.2734}
+\]
+
+\(\mathcal A_P=-\operatorname{div}_a(G_P\nabla_a)\) is the material heat
+operator, \(\mathcal B_P\) is volume-preserving advection/frame transport, and
+\(\mathcal H_P\) is the material Hodge/pressure constraint operator.  The
+reversible part is neutral in the root energy up to routed metric defects:
+
+\[
+\|\mathcal U_P(t,s)f\|_{\mathcal H_{root}}^2
+\le
+\|e^{-\nu(t-s)\mathcal A_P}f\|_{\mathcal H_{root}}^2
++d\Theta_P^0+dPaid_P ,
+\tag{TFE.2735}
+\]
+
+where \(\mathcal U_P(t,s)\) is the stopped propagator generated by
+\(\mathcal L_P\).  This is where pressure belongs in the proof: not as a
+separate payment account, but as the Hodge part of the same coupled
+propagator.  It can re-coordinate the parent signal instantly; it does not
+create a second positive source after the parent generator has been fixed.
+
+Duhamel gives, for every retained child readout time \(t_Q\),
+
+\[
+Y_P(t_Q)
+=
+\mathcal U_P(t_Q,t_Q^-)\,Y_P(t_Q^-)
++
+\int_{t_Q^-}^{t_Q}
+\mathcal U_P(t_Q,s)G_P^{root}(s)\,ds
++
+R_Q^{route}.
+\tag{TFE.2736}
+\]
+
+The first term is inherited/exact material and was already put in
+`(TFE.2699)'.  The route term is \(d\Theta_P^0+dPaid_P\).  After applying the
+retained projection from Section 241, the only nonconsumer part of the child
+readout is therefore
+
+\[
+Z_Q^{ret}
+=
+\mathfrak d_Q^P
+P_Q^{A_P}(I-\Pi_{\mathcal K_P^0})
+\int_{t_Q^-}^{t_Q}
+\mathcal U_P(t_Q,s)G_P^{root}(s)\,ds ,
+\tag{TFE.2737}
+\]
+
+where \(\mathfrak d_Q^P\) is the selected finite-difference/covector detector
+written in the stopped parent frame.  Define
+
+\[
+\mathcal K_{ret,Q}F
+:=
+\mathfrak d_Q^P
+P_Q^{A_P}(I-\Pi_{\mathcal K_P^0})
+\int_{t_Q^-}^{t_Q}
+\mathcal U_P(t_Q,s)F(s)\,ds .
+\tag{TFE.2738}
+\]
+
+Then `(TFE.2737)' is exactly
+
+\[
+Z_Q^{ret}
+=
+\mathcal K_{ret,Q}G_P^{root},
+\tag{TFE.2739}
+\]
+
+which is the operator representation asserted in `(TFE.2700)'.  The detector
+is parent-announced because \(\mathfrak d_Q^P\), \(P_Q^{A_P}\), \(\Pi_{\mathcal
+K_P^0}\), and \(\mathcal U_P\) are all determined by the stopped parent
+geometry and selected covector before \(Z_Q^{ret}\) is clipped to its positive
+part.
+
+The same formula gives the factorization in `(TFE.2701)':
+
+\[
+\mathcal K_{ret,Q}
+=
+\mathfrak d_Q^P
+P_Q^{A_P}(I-\Pi_{\mathcal K_P^0})
+\mathcal R_P(t_Q,s)
+e^{-\nu(t_Q-s)\mathcal A_P}
++
+\mathcal E_Q^{paid},
+\tag{TFE.2740}
+\]
+
+with \(\mathcal R_P\) the volume-preserving pressure/advection/incompressibility
+re-coordination.  The stopped Hodge and material-frame estimates give
+
+\[
+\|\mathcal R_P(t,s)f\|_{\mathcal H_{root}}^2
+\le
+C_N\|f\|_{\mathcal H_{root}}^2
++d\Theta_P^0+dPaid_P ,
+\tag{TFE.2741}
+\]
+
+and Sections 236--237 plus the low-high detector routing give the parent
+square-function bound
+
+\[
+\sum_{Q\preceq P}
+\|\mathfrak d_Q^P
+P_Q^{A_P}(I-\Pi_{\mathcal K_P^0})h_Q\|^2
+\le
+C_{\Pi,N}^2
+\sum_{Q\preceq P}\|h_Q\|_{\mathcal H_{root}}^2
++d\Theta_P^0+dPaid_P .
+\tag{TFE.2742}
+\]
+
+This is `(TFE.2703)'.  It is not a dyadic recount of child units; it is a
+bounded parent square-function estimate for cotangent tests pulled back to the
+same root clock.
+
+Combining `(TFE.2739)'--`(TFE.2742)' yields the retained-loop domination
+
+\[
+d\Xi_{P,Q}^{loop,ret}
+\le
+C_{\Pi,N}^2
+\|e^{-\nu\tau_Q\mathcal A_P}G_{P,Q}^{root}\|_{\mathcal H_{root}}^2
++d\Theta_P^0+dPaid_P ,
+\tag{TFE.2743}
+\]
+
+with the heat factor evaluated on the retained quotient.  On that quotient,
+`(TFE.2713)' gives
+
+\[
+\|e^{-\nu\tau_Q\mathcal A_P}G_{P,Q}^{root}\|_{\mathcal H_{root}}^2
+\le
+e^{-2c_P\nu\tau_Q|\xi_Q|^2}
+d\Omega_{P,Q}^{gen}
++d\Theta_P^0+dPaid_P .
+\tag{TFE.2744}
+\]
+
+Section 239 turns `(TFE.2743)'--`(TFE.2744)' into the strict retained estimate
+
+\[
+d\Xi_P^{loop,ret}
+\le
+\vartheta_N\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P,
+\qquad C_N\vartheta_N<1.
+\tag{TFE.2745}
+\]
+
+Thus the remaining operator clause in `(TFE.2732)' is supplied by the original
+coupled packet:
+
+\[
+\boxed{
+\text{stopped Duhamel-Hodge pullback `(TFE.2733)'--`(TFE.2742)'}
+\Longrightarrow
+\text{parent-announced retained operator `(TFE.2700)'--`(TFE.2703)'.}
+}
+\tag{TFE.2746}
+\]
+
+Combining Sections 238--242 gives the \(L^1\) source line:
+
+\[
+\boxed{
+\text{same-parent Duhamel-Hodge pullback}
++
+\text{early trace/source admission}
++
+\text{retained Poincare heat thickness}
+\Longrightarrow
+\text{full-exchange storage `(TFE.2426)'}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+}
+\tag{TFE.2747}
+\]
+
+The physical content is now exact.  Pressure/Hodge sends the compatibility
+response through the parent frame, viscosity supplies the heat-lag thickness,
+and the selected child readout is only a pulled-back covector test of that
+same transaction.  Once the sub-heat-lag first trace and zero modes are routed
+to their parent source accounts, a retained readout cannot be recounted as
+fresh positive pressure at higher ratio levels.
