@@ -2239,3 +2239,401 @@ routed source.  Packetwise local payment proves size, not testing.  The missing
 mathematical fact is cancellation plus local testing plus Carleson packing for
 \(\nu^S\) before the child-selected positive readout is allowed to choose the
 detector.
+
+## 20. Parent-capacity drop: the exact \(L^1\) solve kernel
+
+The preceding reductions leave one theorem-shaped object, not a list of
+unrelated suppliers.  A retained selected child can be counted in \(L^1\) only
+when it is paid by a drop of a parent-known same-material capacity.  The exact
+one-step statement is the following.
+
+For every stopped parent \(P\), construct a nonnegative capacity
+\(\mathfrak C_P(Q)\) on the retained children \(Q\subset P\), built before
+positive child clipping from the original coupled
+pressure--viscosity--incompressibility material history, such that
+
+\[
+\sum_{Q'\in ch(Q)} A_{Q'}^{sel,+}
++
+\sum_{Q'\in ch(Q)}\mathfrak C_P(Q')
+\le
+\mathfrak C_P(Q)
++R_{legal}(Q)+Stop(Q).
+\tag{TFE.138}
+\]
+
+The root and terminal conditions are
+
+\[
+\mathfrak C_P(P)\le C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P),
+\tag{TFE.139}
+\]
+
+and
+
+\[
+\lim_{\theta\downarrow0}
+\sup_P
+\sum_{\substack{Q\subset P\\ Q\cap (T_*-\theta,T_*)\ne\varnothing}}
+\mathfrak C_P(Q)
+=0
+\tag{TFE.140}
+\]
+
+after legal, stop, and same-witness endpoint-face exits have been removed.
+Summing `(TFE.138)` over the stopped tree gives
+
+\[
+\sum_{Q\subset P}A_Q^{sel,+}
+\le
+\mathfrak C_P(P)
++R_{legal}(P)+Stop(P)
++\liminf_{\theta\downarrow0}
+\sum_{\substack{Q\subset P\\ Q\cap (T_*-\theta,T_*)\ne\varnothing}}
+\mathfrak C_P(Q).
+\tag{TFE.141}
+\]
+
+Using `(TFE.139)`--`(TFE.140)` gives `(TFE.105)`.  Thus `(TFE.138)` is the
+minimal algebraic solve kernel for the unweighted terminal \(L^1\) problem.
+
+The capacity cannot be just raw routed-current energy.  If
+
+\[
+\mathfrak C_P^{raw}(Q)
+=
+\int_{\widehat Q}|J^S|^2\,d\mathcal R,
+\tag{TFE.142}
+\]
+
+then the pressure-Hessian-balanced affine half-tail has
+
+\[
+A_{Q_k}^{sel,+}\simeq1,
+\qquad
+\mathfrak C_P^{raw}(Q_k)\lesssim r_k,
+\qquad
+\sum_k r_k<\infty .
+\tag{TFE.143}
+\]
+
+So raw current energy can satisfy
+\(\sum_k\mathfrak C_P^{raw}(Q_k)<\infty\) while
+\(\sum_kA_{Q_k}^{sel,+}=\infty\).  This is why bounded projection, finite
+energy, local pressure-Hodge testing, and post-admission BMO all remain
+downstream of the same missing first-ratio theorem.
+
+Therefore the capacity in `(TFE.138)` must have a scale-native part:
+
+\[
+\mathfrak C_P
+=
+\mathfrak C_P^{route}
++
+\mathfrak C_P^{nat}
++
+\mathfrak C_P^{test}
++
+\mathfrak C_P^{exit}.
+\tag{TFE.144}
+\]
+
+Here \(\mathfrak C^{route}\) is the same-material routed current capacity,
+\(\mathfrak C^{test}\) is the stopped testing/BMO defect capacity,
+\(\mathfrak C^{exit}\) is legal/stop/endpoint material, and
+\(\mathfrak C^{nat}\) is the native same-history reserve that must see the
+shrinking affine child in the original parent history.  The native part is the
+only term capable of turning the radius-weighted raw cost into unweighted
+selected \(L^1\) action.
+
+The exact native no-Zeno theorem is
+
+\[
+\sum_{Q'\in ch(Q)} A_{Q'}^{sel,+}
++
+\sum_{Q'\in ch(Q)}\mathfrak C_P^{nat}(Q')
+\le
+\mathfrak C_P^{nat}(Q)
++
+C\left(
+\mathfrak C_P^{route}(Q)-\sum_{Q'}\mathfrak C_P^{route}(Q')
+\right)_+
++Paid(Q).
+\tag{TFE.145}
+\]
+
+Equivalently, in birth-packing language, every retained scale-native child
+\(\gamma\) must be assigned to a bounded-multiplicity original-history reserve
+atom:
+
+\[
+\iota:\Gamma_N(P)\to\mathcal R_N^{nat}(u_0;P),
+\qquad
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}
++R_{legal}(\gamma)+Stop(\gamma),
+\qquad
+\operatorname{mult}(\iota)\le C_N,
+\tag{TFE.146}
+\]
+
+with
+
+\[
+\sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}\rho
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P).
+\tag{TFE.147}
+\]
+
+`(TFE.145)` and `(TFE.146)`--`(TFE.147)` are the same theorem in two
+coordinates.  In the critical fractional-energy coordinate they are the strict
+positive-transfer estimate
+
+\[
+\int_0^\tau
+\left(
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt,
+\qquad
+\theta<1 .
+\tag{TFE.148}
+\]
+
+`(TFE.148)` is not a pressure-only or velocity-only assertion.  It is the
+compressed Eulerian readout of the same coupled participation law.  The
+physical content is that pressure can re-coordinate the remaining state and
+heat can delay the readable child, but the feedback cannot create infinitely
+many new selected positive states unless the original same-history native
+capacity drops infinitely many times.
+
+The direct local route to `(TFE.145)` is exhausted by the affine profile:
+
+\[
+u(x,t)=A(t)x,\qquad \operatorname{tr}A(t)=0,\qquad
+p(x,t)=-{1\over2}x\cdot(\dot A(t)+A(t)^2)x,
+\tag{TFE.149}
+\]
+
+for which the local incompressible Navier--Stokes law holds and \(\Delta u=0\).
+Thus no local strain-equation, pressure-Hessian, or raw heat argument can prove
+the native drop.  The theorem must use the fact that all retained affine visits
+belong to one original transported material history:
+
+\[
+\text{one same-history laminar ancestry}
++\text{ pressure-Hessian-balanced affine visits}
+\Longrightarrow
+\sum_k A_{Q_k}^{sel,+}<\infty .
+\tag{TFE.150}
+\]
+
+This is the current exact Gold \(L^1\) wall:
+
+\[
+\text{GlobalSameHistoryAffineBurstNoZeno.A}
+\Longleftrightarrow
+\text{NativeBirthChargePacking.A}
+\Longleftrightarrow
+\text{ParentCapacityDrop `(TFE.138)'}
+\Longleftrightarrow
+\text{terminal-uniform \(L^1\) `(TFE.105)'} .
+\tag{TFE.151}
+\]
+
+The downstream proof after `(TFE.151)` is complete in this note: `(TFE.138)`
+telescopes to `(TFE.105)`, `(TFE.105)` gives the endpoint-uniform \(L^1\)
+line, and the existing full-clock/readout relay gives continuation.  The
+remaining unsolved mathematical producer is precisely the same-history
+native-capacity drop `(TFE.145)` for the affine half-tail; calling raw current
+energy, entropy, local pressure compatibility, or BMO testing a producer would
+reintroduce the already-audited half-tail gap.
+
+## 21. Direct attack below `(TFE.145)`: branch split and surviving trace atom
+
+The proof method below `(TFE.145)` is a minimal-bad-tree split.  Assume the
+native capacity drop fails after all parent reuse, fresh bounded-Riesz entry,
+Schur update, return, reset, reselection, legal, stop, and endpoint-face exits
+already listed above have been removed.  Then the retained selected mass has an
+extremal subtree with
+
+\[
+\sum_{Q\in\mathcal T_P}A_Q^{sel,+}=\infty .
+\tag{TFE.152}
+\]
+
+The monotone selected multiplier has no hidden extremizer: because
+\(A_Q^{sel,+}\ge0\), the maximal monotone test is the constant test.  Hence a
+failure of `(TFE.145)` has only two non-aliased branches.
+
+First, a reused material core carries divergent action on one laminar ancestry
+line,
+
+\[
+Q_0\supset Q_1\supset Q_2\supset\cdots,
+\qquad
+\sum_k A_{Q_k}^{sel,+}=\infty .
+\tag{TFE.153}
+\]
+
+The installed laminar/complete-frame tax pays each visit by positive
+Cauchy--Green deformation, Hodge-frame rotation, collar-normal separation, or
+annular turnstile variation on that same ancestry line:
+
+\[
+\sum_{Q_k\subset\mathcal A(a)}A_{Q_k}^{sel,+}
+\le
+C\,\mathcal V_{\rm core}(a)+R_{legal}(\mathcal A(a)).
+\tag{TFE.154}
+\]
+
+This is a real support theorem, but it is not a root bound.  The exact missing
+line in this branch is
+
+\[
+\int \mathcal V_{\rm core}(a)\,d\mathcal R_{\rm ancestry}(a)
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P).
+\tag{TFE.155}
+\]
+
+Second, every reused ancestry line has finite selected mass, but selected mass
+escapes through shrinking cores:
+
+\[
+r_k\downarrow0,\qquad
+A_{Q_k}^{sel,+}\simeq1,\qquad
+\sum_k r_k<\infty .
+\tag{TFE.156}
+\]
+
+This is exactly the pressure-Hessian-balanced affine half-tail.  A raw
+capacity, raw energy, local pressure-Hodge, or local strain-equation estimate
+cannot remove `(TFE.156)`, because the normalized child action is scale
+invariant while the raw matching cost is radius-weighted.
+
+The shrinking-core branch has a tight/escape compactness split.  Normalize a
+bad family by a selected critical defect measure
+
+\[
+\mu_n^{crit}(\mathcal C_n)=1,
+\qquad
+E_{\rm paid}(P_n)+R_{legal}(P_n)+Stop(P_n)\to0,
+\tag{TFE.157}
+\]
+
+where \(\mathcal C\) is the stopped carrier compactification: material chart,
+metric frame, selector/collar/Hodge labels, active pressure-Hessian quotient,
+parent filtration, and legal/stop chart.
+
+If a positive fraction of \(\mu_n^{crit}\) stays tight in one compact
+same-carrier class, then the zero-payment limit has
+
+\[
+\partial_\sigma Z_\infty=0,\qquad
+Turnstile_\infty=0,\qquad
+Exchange_\infty=0,\qquad
+Covector_\infty=0,
+\tag{TFE.158}
+\]
+
+while retaining a nonzero fresh selected quotient.  The parent-subtracted
+dynamic-silent / same-carrier rigidity installed in the route forces that fresh
+quotient to be inherited parent transport, hence zero after parent
+subtraction.  Thus the tight zero-cost branch is contradictory.
+
+If the mass escapes from every compact stopped carrier class, all escape except
+high-weight first-exit tubes is already legal/stop/selector/covector/exchange
+motion.  On parent-announced first-exit tubes \(W_e=I_e\times T_e\), the
+installed Cauchy estimate gives
+
+\[
+\sum_{e\in\mathcal E_{esc}}
+\int H_e(t)\|D_e^{fresh}(t)\|^2\,dt
+\le
+C_N\int_{\operatorname{Hist}(P)}
+w\left(
+|\partial_\sigma Z|^2
++|Turnstile_\sigma|^2
++|Exchange_\sigma|^2
++|Covector_\sigma|^2
+\right)
++CR_{legal}(P)+CStop(P).
+\tag{TFE.159}
+\]
+
+So moving high-weight tube escape is paid once the reset/escape is represented
+by a parent-announced first-exit derivative interval with bounded witness
+overlap.  The surviving branch is therefore not reset escape.  It is fixed-core
+pure terminal concentration: the same material carrier, selector chart,
+active quotient, metric/covector frame, Hodge/collar chart, and legal/stop
+status stay compact while the selected critical mass occupies smaller and
+smaller same-carrier heat tents.
+
+The exact remaining endpoint-native theorem is a parent-known no-residue trace
+storage.  For stopped parabolic tents \(T_\rho(z_0)\) inside a fixed parent
+carrier, prove
+
+\[
+\mu_{P,fix}^{crit}(T_\rho(z_0))
+\le
+C\,\operatorname{Osc}_{T_{c\rho}(z_0)}\Phi_P
++C(E_{\rm paid}+R_{legal}+Stop)(T_{c\rho}(z_0)),
+\tag{TFE.160}
+\]
+
+where \(\Phi_P\) is a parent-known full-packet capacity potential for the same
+selected carrier, and prove the no-terminal-jump modulus
+
+\[
+\lim_{\rho\downarrow0}\sup_{z_0}
+\operatorname{Osc}_{T_{c\rho}(z_0)}\Phi_P=0
+\tag{TFE.161}
+\]
+
+outside paid terminal/legal channels.  Then
+
+\[
+\lim_{\rho\downarrow0}\sup_{z_0}
+\mu_{P,fix}^{crit}(T_\rho(z_0))=0,
+\tag{TFE.162}
+\]
+
+so the fixed-core terminal atom cannot survive in Gold.  If `(TFE.160)`--
+`(TFE.161)` fails after same-witness admission, the failure is the CM endpoint
+face rather than a hidden Gold reserve.
+
+Thus the current proof state below `(TFE.145)` is:
+
+\[
+\begin{gathered}
+\text{reused-core root variation `(TFE.155)'}
+\\
++
+\text{fixed-core no-residue trace storage `(TFE.160)`--`(TFE.161)'}
+\\
+\Longrightarrow
+\text{same-history native-capacity drop `(TFE.145)'}
+\Longrightarrow
+\text{parent-capacity drop `(TFE.138)'}
+\Longrightarrow
+\text{terminal-uniform \(L^1\)} .
+\end{gathered}
+\tag{TFE.163}
+\]
+
+This is a real narrowing.  The high-weight reset/tube escape subcase is paid by
+`(TFE.159)` under its parent-announced first-exit hypotheses, and the tight
+same-carrier zero-cost subcase is killed by rigidity.  The two still-unproved
+positive-route producers are exactly the root variation bound for repeated
+cores `(TFE.155)` and the fixed-core terminal anti-atom/no-residue trace
+modulus `(TFE.160)`--`(TFE.161)`.  Those two are the remaining live \(L^1\)
+mathematics; everything else in the branch split is support, consumer, or
+already paid escape.
