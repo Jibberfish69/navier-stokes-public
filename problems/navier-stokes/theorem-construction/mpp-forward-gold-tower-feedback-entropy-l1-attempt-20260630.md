@@ -33390,16 +33390,9 @@ has
 
 Thus a recurrence with coefficient \(1/2\) still permits divergent selected
 \(L^1\) native birth.  The missing lower edge is precisely the strict
-half-barrier break:
-
-\[
-\boxed{
-\text{prove `(TFE.2291)' with }\theta<1/2
-\text{, or equivalently prove a bounded-below same-material Lyapunov law}
-\text{ for }d\mathcal J_N.
-}
-\tag{TFE.2295}
-\]
+half-barrier break: prove `(TFE.2291)' with \(\theta<1/2\), or equivalently
+prove a bounded-below same-material Lyapunov law for \(d\mathcal J_N\).
+\((TFE.2295)\)
 
 Combining `(TFE.2295)' with the selected atom admission `(TFE.2277)' gives
 `(TFE.2279)'.  Combining `(TFE.2279)' with the augmented tower producer
@@ -33480,14 +33473,8 @@ After reducing \(\theta\) inside the channel constants so that \(c-\theta>0\),
 \(\mathfrak L_{4B,N}\) gives `(TFE.2281)'.
 
 Therefore the augmented-tower half of the \(L^1\) source package is exactly:
-
-\[
-\boxed{
-\text{retain the signed pressure/Hodge-commutator partner after positive}
-\text{ selection, or pay it by strict same-carrier loss/legal stop.}
-}
-\tag{TFE.2300}
-\]
+retain the signed pressure/Hodge-commutator partner after positive selection,
+or pay it by strict same-carrier loss/legal stop. \((TFE.2300)\)
 
 This is not a pressure-only estimate.  It is a same-packet orientation theorem:
 pressure/Hodge, viscosity, commutators, endpoint channels, and transported
@@ -33495,3 +33482,470 @@ geometry remain one participation transaction until the signed partner is either
 kept, drained as strict loss, or legally removed.  Combined with the strict
 high-ratio good-lambda line `(TFE.2295)', this gives the two exact producer
 normal forms under `(TFE.2272)'.
+
+## 196. Single coupled active-transit criterion for the \(L^1\) wall
+
+Sections 193--195 split the proof currency only to prevent circularity.  They
+do not split the fluid.  The physical object is still one same-material
+pressure-viscosity-incompressibility-velocity packet.  The correct combined
+measure is the active transit of that packet before child positive clipping:
+
+\[
+d\mathcal T_P^{act}
+:=
+d\mu_P^{Ent}
++dA_{4B,N}^{tower,+}
++d\mathcal J_N.
+\tag{TFE.2301}
+\]
+
+Here \(d\mu_P^{Ent}\) is left-entry/terminal inherited material,
+\(dA_{4B,N}^{tower,+}\) is the oriented endpoint/tower product action, and
+\(d\mathcal J_N\) is the selected-scale moving low-high interface measure whose
+strict good-lambda tail pays first native birth.
+
+The single coupled source criterion is
+
+\[
+\mathcal T_P^{act}(P)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2302}
+\]
+
+A noncircular way to prove `(TFE.2302)' is a bounded-below active-transit
+storage:
+
+\[
+d\mathscr S_{N,P}
++c_1\,dA_{4B,N}^{tower,+}
++c_2\,d\mathcal J_N
+\le
+dR_N^{paid},
+\qquad
+\mathscr S_{N,P}(t)\ge -C_N(u_0)\mathcal R(P)-Paid(P),
+\tag{TFE.2303}
+\]
+
+together with the first-entry/no-residue boundary control
+
+\[
+\mu_P^{Ent}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2304}
+\]
+
+Integrating `(TFE.2303)' gives
+
+\[
+\int_PdA_{4B,N}^{tower,+}
++
+\int_Pd\mathcal J_N
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2305}
+\]
+
+Combining `(TFE.2305)' with `(TFE.2304)' gives `(TFE.2302)'.
+
+Now the consumer chain to \(L^1\) is exact.  The channel inclusion `(TFE.2269)'
+and the atom admission `(TFE.2277)' give
+
+\[
+\int_PdA_{4B,N}^{tower,+}
++
+\int_Pd\mathcal J_N
+\quad\Longrightarrow\quad
+\int_PdA_{4B,N}^{tower,+}
++
+\Pi_P^{crit},
+\tag{TFE.2306}
+\]
+
+up to paid terms.  Therefore `(TFE.2302)' implies the compressed source package
+
+\[
+\mu_P^{Ent}
++
+\int_PdA_{4B,N}^{tower,+}
++
+\Pi_P^{crit}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2307}
+\]
+
+which is `(TFE.2272)'.  Then `(TFE.2272)' implies `(TFE.2254)', `(TFE.2254)'
+implies the affine endpoint quotient bound by `(TFE.2245)', and the already
+installed endpoint-seed/native-reserve consumer chain gives terminal-uniform
+selected \(L^1\).
+
+Thus the \(L^1\) problem is fully reduced to the single original-data active
+transit inequality `(TFE.2302)' / `(TFE.2303)'.  Its two visible projections are
+not optional side lemmas:
+
+\[
+\begin{array}{ll}
+\text{tower projection:}
+&
+\text{signed pressure/Hodge-commutator partner retention `(TFE.2300)',}
+\\[2mm]
+\text{native-birth projection:}
+&
+\text{strict high-ratio good-lambda / bounded Lyapunov `(TFE.2295)'.}
+\end{array}
+\tag{TFE.2308}
+\]
+
+This is the repo-accurate one-participation-law form.  Gold closes at \(L^1\)
+exactly when the original coupled packet proves `(TFE.2302)' without importing
+future child action, selected-critical weight, continuation-depth regularity, or
+post-clipping positive readouts.
+
+## 197. Active-transit storage assembly algebra
+
+The active-transit storage in `(TFE.2303)' is not another new account.  It is
+the algebraic sum of the two same-packet storages exposed above, provided their
+residuals are paid in the same original ledger.
+
+The augmented tower side supplies, after signed-partner retention,
+
+\[
+d\mathfrak L_{4B,N}
++a\,dA_{4B,N}^{tower,+}
+\le
+dR_A^{paid},
+\qquad
+\mathfrak L_{4B,N}\ge -C_N(u_0)\mathcal R(P)-Paid(P),
+\tag{TFE.2309}
+\]
+
+where the material-record log channel and nonnegative loss terms from
+`(TFE.2299)' have been dropped from the left side.  The native-birth side
+supplies the moving low-high interface storage
+
+\[
+dZ_N+b\,d\mathcal J_N
+\le
+dR_J^{paid},
+\qquad
+Z_N\ge -C_N(u_0)\mathcal R(P)-Paid(P).
+\tag{TFE.2310}
+\]
+
+For any fixed \(0<\lambda\le1\), set
+
+\[
+\mathscr S_{N,P}:=\mathfrak L_{4B,N}+\lambda Z_N.
+\tag{TFE.2311}
+\]
+
+Adding `(TFE.2309)' and `(TFE.2310)' multiplied by \(\lambda\) gives
+
+\[
+d\mathscr S_{N,P}
++a\,dA_{4B,N}^{tower,+}
++\lambda b\,d\mathcal J_N
+\le
+dR_A^{paid}+\lambda dR_J^{paid}.
+\tag{TFE.2312}
+\]
+
+The lower bounds in `(TFE.2309)'--`(TFE.2310)' give
+
+\[
+\mathscr S_{N,P}
+\ge
+-C_N(u_0)\mathcal R(P)-Paid(P).
+\tag{TFE.2313}
+\]
+
+Thus `(TFE.2312)'--`(TFE.2313)' are exactly `(TFE.2303)' with
+\(c_1=a\), \(c_2=\lambda b\), and paid residual
+\(dR_N^{paid}=dR_A^{paid}+\lambda dR_J^{paid}\).  Integrating gives
+`(TFE.2305)', then `(TFE.2302)' after first-entry/no-residue.
+
+So the active-transit criterion is not a third theorem beside `(TFE.2295)' and
+`(TFE.2300)'.  It is their same-parent storage assembly: signed-partner tower
+storage plus strict low-high interface storage gives the single active-transit
+storage, and that gives \(L^1\). \((TFE.2314)\)
+
+The proof gap is now completely localized.  The algebra from the two storages
+to \(L^1\) is closed in `(TFE.2309)'--`(TFE.2314)'.  The unproved original-data
+content is the construction of those two same-parent storages from the coupled
+Navier-Stokes material packet without using the selected child readout as an
+input.
+
+## 198. Continuous parent-measure correction to the good-lambda edge
+
+Section 194 is only the dyadic normal form of the native-birth edge.  The
+actual \(L^1\) object is the continuous parent packet integral from Sections
+171--173.  The low-high interface must therefore be defined before dyadic
+banding.
+
+Let
+
+\[
+d\mathcal C_{N,P}^{LH}(\sigma,z)
+\tag{TFE.2315}
+\]
+
+be the parent-known continuous low-high interface capacity on logarithmic scale
+\(\sigma\) and fibre variable \(z\), constructed from the same transported
+pressure-viscosity-incompressibility packet before child positive clipping.  Let
+\(R_{N,P}(\sigma,z)\ge0\) be the selected first-ratio readout density.  The
+native-birth measure that enters `(TFE.2301)' is
+
+\[
+d\mathcal J_N
+:=
+R_{N,P}(\sigma,z)\,
+d\mathcal C_{N,P}^{LH}(\sigma,z).
+\tag{TFE.2316}
+\]
+
+Thus
+
+\[
+\Pi_P^{crit}
+\simeq
+\int R_{N,P}\,d\mathcal C_{N,P}^{LH}
+=
+\int d\mathcal J_N.
+\tag{TFE.2317}
+\]
+
+The dyadic quantities in Section 194 are only a finite-overlap layer-cake
+shadow of `(TFE.2317)'.  For a base \(\delta>0\),
+
+\[
+\nu_\ell(P)
+:=
+\mathcal C_{N,P}^{LH}
+\bigl(\{2^\ell\delta<R_{N,P}\le2^{\ell+1}\delta\}\bigr)
+\tag{TFE.2318}
+\]
+
+gives
+
+\[
+\int R_{N,P}\,d\mathcal C_{N,P}^{LH}
+\simeq
+\delta\sum_{\ell\ge0}2^\ell\nu_\ell(P),
+\tag{TFE.2319}
+\]
+
+but the right side is not a count of zoomed child units.  It is a quadrature of
+the parent integral `(TFE.2317)'.
+
+Equivalently, with the continuous distribution tail
+
+\[
+N_P(\lambda)
+:=
+\mathcal C_{N,P}^{LH}\bigl(\{R_{N,P}>\lambda\}\bigr),
+\tag{TFE.2320}
+\]
+
+the exact layer-cake identity is
+
+\[
+\int R_{N,P}\,d\mathcal C_{N,P}^{LH}
+=
+\int_0^\infty N_P(\lambda)\,d\lambda.
+\tag{TFE.2321}
+\]
+
+The strict half-barrier from `(TFE.2291)' is therefore the discretized form of
+the continuous contraction
+
+\[
+N_P(2\lambda)
+\le
+\theta N_P(\lambda)+B_P(\lambda),
+\qquad
+\theta< {1\over2},
+\qquad
+\int_0^\infty B_P(\lambda)\,d\lambda
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2322}
+\]
+
+Indeed, integrating `(TFE.2322)' in \(\lambda\) and changing variables gives
+
+\[
+{1\over2}
+\int_0^\infty N_P(s)\,ds
+\le
+\theta\int_0^\infty N_P(\lambda)\,d\lambda
++
+\int_0^\infty B_P(\lambda)\,d\lambda,
+\tag{TFE.2323}
+\]
+
+so \(\theta<1/2\) absorbs the left side and yields
+
+\[
+\int d\mathcal J_N
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2324}
+\]
+
+This is the continuous version of `(TFE.2295)'.  A dyadic good-lambda proof is
+lawful only when it is a finite-overlap proof of `(TFE.2322)' for the
+parent-measured tail `(TFE.2320)'.  A shell sum that treats each rescaled child
+view as a fresh unit proves a different statement.
+
+With this correction, the active-transit storage line `(TFE.2303)' should be
+read as
+
+\[
+d\mathscr S_{N,P}
++c_1\,dA_{4B,N}^{tower,+}
++c_2\,R_{N,P}\,d\mathcal C_{N,P}^{LH}
+\le
+dR_N^{paid},
+\tag{TFE.2325}
+\]
+
+with all Jacobians, scale weights, frame/covector motion, heat-lag pullback, and
+selected density already inside the parent measure and density.  This removes
+the moving-unit error.  The remaining hard theorem is unchanged but cleaner:
+construct `(TFE.2325)' from the original coupled material packet, not from a
+post-clipping child count.
+
+## 199. Pullback of the continuous low-high measure to the root generator
+
+The new continuous measure does not create a new producer beside the older
+original-ledger storage package.  It lets us state exactly what the older
+package must prove in the same coordinates as `(TFE.2325)'.
+
+After first-entry, no-recount, selector/reselection, return, legal, stop, and
+zero-cost inherited transport have been removed, the continuous low-high
+interface measure disintegrates over stopped first-exit tubes \(e\) as
+
+\[
+R_{N,P}\,d\mathcal C_{N,P}^{LH}
+\le
+C\sum_{e\subset P}
+H_{e^-}\|D_e^{fresh}\|_{\mathcal H_P}^2\,d\omega_e
++dR_{N}^{paid}.
+\tag{TFE.2326}
+\]
+
+Here \(D_e^{fresh}\) is the parent-subtracted fresh quotient from `(TFE.531)',
+and \(H_{e^-}\) is the parent-known active weight.  The point of `(TFE.2326)'
+is that the selected child readout has already been pulled back to the parent
+history; no child unit is being counted as a new unit of measure.
+
+The parent-known detector clause of `(TFE.1731)'--`(TFE.1734)' says each retained
+fresh quotient is a parent-announced scale average of the original root
+generator:
+
+\[
+D_e^{fresh}(t)
+=
+|I_e|^{-1}\int_{I_e}\mathcal G_P^{root}(\sigma,t)\,d\sigma
++Err_e^{paid}(t).
+\tag{TFE.2327}
+\]
+
+Weighted Cauchy on \(I_e\), followed by the stopped first-exit overlap bound,
+gives the continuous domination
+
+\[
+\int_P R_{N,P}\,d\mathcal C_{N,P}^{LH}
+\le
+C\int_{\operatorname{Hist}(P)}
+H_P^\ast\|\mathcal G_P^{root}\|^2\,d\sigma dt
++R_N^{paid}(P).
+\tag{TFE.2328}
+\]
+
+This is the exact anti-moving-unit bridge.  The selected low-high \(L^1\) readout
+is controlled by the original generator ledger once the detector is parent-known
+and the first-exit tubes overlap boundedly.
+
+Now insert the non-self-feeding original-ledger storage `(TFE.1736)':
+
+\[
+H_P^\ast\|\mathcal G_P^{root}\|^2\,d\sigma dt
++dA_P^{sel/chart}
++d\operatorname{Birth}_P^{act}
+\le
+-dM_P
++d\Theta_P^{orig}
++\theta\,d\mathfrak R_P^{nat}
++dR_{\rm legal,P}
++dStop_P,
+\qquad \theta<1.
+\tag{TFE.2329}
+\]
+
+Dropping the nonnegative chart and birth terms and combining with
+`(TFE.2328)' gives
+
+\[
+dM_P
++c\,R_{N,P}\,d\mathcal C_{N,P}^{LH}
+\le
+d\Theta_P^{orig}
++\theta\,d\mathfrak R_P^{nat}
++dR_N^{paid}.
+\tag{TFE.2330}
+\]
+
+The storage bound in `(TFE.1737)' gives
+
+\[
+0\le M_P\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2331}
+\]
+
+Thus the continuous low-high half of `(TFE.2325)' is proved by the older
+parent-known state-deletion package:
+
+\[
+\text{`(TFE.1731)'--`(TFE.1737)'}
+\Longrightarrow
+dZ_N+c\,R_{N,P}\,d\mathcal C_{N,P}^{LH}
+\le
+\theta\,d\mathfrak R_P^{nat}+dR_N^{paid},
+\qquad
+Z_N=M_P.
+\tag{TFE.2332}
+\]
+
+In the full active-transit inequality, the native reserve
+\(d\mathfrak R_P^{nat}\) is the same coupled viscous/critical reserve that
+appears in the augmented tower side.  When the tower storage contributes its
+own positive drain with coefficient larger than \(\theta\), the
+\(\theta\,d\mathfrak R_P^{nat}\) term in `(TFE.2332)' is absorbed into the
+\(c_1\,dA_{4B,N}^{tower,+}\) side of `(TFE.2325)'.  Therefore
+
+\[
+\begin{aligned}
+&\text{parent-known detector and first-exit Cauchy `(TFE.1731)'--`(TFE.1734)'}
+\\
+&\quad
++\text{non-self-feeding original-ledger storage `(TFE.1735)'--`(TFE.1737)'}
+\\
+&\quad
++\text{signed-partner augmented tower storage `(TFE.2309)'}
+\\
+&\Longrightarrow
+\text{continuous active-transit storage `(TFE.2325)'.}
+\end{aligned}
+\tag{TFE.2333}
+\]
+
+This proves the nonduplicate bridge.  The newest \(L^1\) target `(TFE.2325)' is
+not an additional theorem beyond the older original-ledger active feedback
+tightness/storage wall.  It is the continuous parent-measure form of that wall.
+What remains unproved from arbitrary original data is the construction of the
+parent-known detector/testing package `(TFE.1738)'--`(TFE.1740)' or,
+equivalently, the non-self-feeding storage `(TFE.1735)'--`(TFE.1737)' with the
+strict native-reserve margin.
