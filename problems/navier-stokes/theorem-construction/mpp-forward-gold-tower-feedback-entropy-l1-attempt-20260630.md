@@ -5729,3 +5729,326 @@ This is the narrowest current formulation of the \(L^1\) problem.  The entropy
 story has removed recounting and routed transit.  What is still mathematically
 unproved is the strict selected-capacity gain that turns finite raw parent
 capacity into finite selected first-ratio action for arbitrary smooth data.
+
+## 40. Entropy-density closure test: the state-count picture as a real
+half-tail theorem
+
+The state-count picture does give an exact \(L^1\) route.  It says that the
+selected child count must be the density of accessible future states inside one
+parent material history.  Let \(d\mathcal R_P\) be the finite raw/root native
+measure carried by a stopped parent packet \(P\), and let \(f_P\ge0\) be the
+parent-known selected amplification density before child positive clipping:
+
+\[
+dA_P^{sel}=f_P\,d\mathcal R_P.
+\tag{TFE.377}
+\]
+
+On dyadic amplification levels
+
+\[
+E_\ell(P)=\{2^\ell\le f_P<2^{\ell+1}\},\qquad
+\nu_\ell(P)=\mathcal R_P(E_\ell(P)),
+\tag{TFE.378}
+\]
+
+raw root control sees
+
+\[
+\sum_{\ell\ge0}\nu_\ell(P)<\infty,
+\tag{TFE.379}
+\]
+
+while the selected \(L^1\) action is
+
+\[
+A_P^{sel}(P)
+\simeq
+\sum_{\ell\ge0}2^\ell\nu_\ell(P).
+\tag{TFE.380}
+\]
+
+The half-tail
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1}
+\tag{TFE.381}
+\]
+
+is exactly the failure mode: `(TFE.379)` holds, but `(TFE.380)` diverges.
+
+The entropy/state-count cure is not an abstract metaphor.  Any parent-side
+Orlicz entropy bound
+
+\[
+\int_P f_P\log(e+f_P)\,d\mathcal R_P
+\le
+C_N(u_0)\mathcal R(P)+Paid(P)
+\tag{TFE.382}
+\]
+
+immediately gives the selected \(L^1\) bound, because
+
+\[
+\int_P f_P\,d\mathcal R_P
+\le
+e\,\mathcal R_P(P)
++\int_P f_P\log(e+f_P)\,d\mathcal R_P.
+\tag{TFE.383}
+\]
+
+Equivalently, any parent-side reverse-Holder/exponent lift
+
+\[
+\int_P f_P^{1+\varepsilon}\,d\mathcal R_P
+\le
+C_{\varepsilon,N}(u_0)\mathcal R_P(P)+Paid(P)
+\tag{TFE.384}
+\]
+
+also gives `(TFE.380)` by Holder.  This is the clean mathematical form of the
+physical statement that the pressure-heat-viscous feedback loop is deleting
+future accessible states rather than opening a fresh selected state budget at
+every ratio level.
+
+The passive-heat entropy identity would close this instantly for the wrong
+object.  If \(f\) were a passive scalar in the parent material chart,
+
+\[
+\partial_t f+U\cdot\nabla f-\nu\Delta f=0,\qquad \nabla\cdot U=0,
+\tag{TFE.385}
+\]
+
+then
+
+\[
+{d\over dt}\int \Phi(f)
++\nu\int \Phi''(f)|\nabla f|^2
+\le0,
+\qquad
+\Phi(s)=s\log(e+s).
+\tag{TFE.386}
+\]
+
+But \(f_P\) is not a passive scalar.  It is the selected amplification density
+of the coupled pressure-Hodge/strain/collar/selector state.  Its logarithmic
+increments have to be captured before clipping by an original-history process:
+
+\[
+\log {f_{Q'}\over f_Q}
+=
+\ell_Q(\Delta_Q Z^S)-\psi_Q+e_Q,
+\tag{TFE.387}
+\]
+
+with the root Carleson square bound
+
+\[
+\sup_{P'\subseteq P}{1\over\mathcal R(P')}
+\sum_{Q\subseteq P'}
+\left(
+\|\Delta_QZ^S\|_{\mathcal H}^2+|e_Q|^2
+\right)\mathcal R(Q)
+\le
+C_N(u_0)+Paid(P').
+\tag{TFE.388}
+\]
+
+Then the stopped John--Nirenberg/Kazamaki consumer gives `(TFE.384)`, hence
+`(TFE.380)`.  Thus the entropy proof closes the \(L^1\) half-tail exactly when
+the selected log-amplification process `(TFE.387)`--`(TFE.388)` is produced from
+the original coupled material packet.
+
+The normalized bad half-tail makes the point sharp.  For
+
+\[
+c_L^{-1}=\sum_{\ell=0}^{L}{1\over \ell+1},
+\qquad
+\nu_\ell^{(L)}=c_L\,{2^{-\ell}\over \ell+1},
+\tag{TFE.389}
+\]
+
+one has
+
+\[
+\sum_{\ell=0}^{L}2^\ell\nu_\ell^{(L)}=1,
+\qquad
+\sum_{\ell=0}^{L}\nu_\ell^{(L)}\to0,
+\tag{TFE.390}
+\]
+
+but
+
+\[
+\sum_{\ell=0}^{L}
+\ell\,2^\ell\nu_\ell^{(L)}
+\simeq {L\over\log L}\to\infty.
+\tag{TFE.391}
+\]
+
+So a unit selected \(L^1\) child action can disappear from raw capacity only by
+creating unbounded selected log-amplification entropy.  If `(TFE.387)`--`(TFE.388)`
+holds for the actual same-parent density, that unbounded entropy has to show up
+as parent-current square, selector/order-lock variation, collar/turnstile
+motion, strain/exchange motion, or legal/stop material.  The half-tail is then
+impossible.
+
+This gives the exact entropy version of `(TFE.373)`:
+
+\[
+\begin{aligned}
+&\text{original-history selected log-amplification Carleson `(TFE.387)'--`(TFE.388)'}\\
+&\Longrightarrow
+\text{parent entropy/exponent lift `(TFE.382)' or `(TFE.384)'}\\
+&\Longrightarrow
+\text{selected root reserve `(TFE.366)'}\\
+&\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\end{aligned}
+\tag{TFE.392}
+\]
+
+Conversely, a counterexample to the selected root reserve produces, after
+truncation and normalization as in `(TFE.389)`--`(TFE.391)`, a unit selected
+child action with vanishing raw root capacity and unbounded selected
+log-amplification entropy.  Therefore the entropy story has one precise
+noncircular input left:
+
+\[
+\text{produce `(TFE.387)'--`(TFE.388)' from the original
+pressure-viscosity-incompressibility-velocity packet.}
+\tag{TFE.393}
+\]
+
+This is the same mathematical object as the selected-capacity/root-reserve wall,
+but it is now expressed in the physical state-count language.  Pressure and
+self-advection can re-coordinate which future states are accessible; viscosity
+contracts the passive heat part; the selected \(L^1\) line closes only after
+the active selected density itself is captured by a parent-known entropy or
+log-amplification process before the child readout is counted.
+
+## 41. Where the selected entropy lives in the coupled packet
+
+The selected entropy is not a new scalar placed on top of Navier--Stokes.  In a
+material chart \(X(a,t)\), write
+
+\[
+F=\nabla_aX,\qquad G=F^\top F,\qquad \det F=1.
+\tag{TFE.394}
+\]
+
+Then
+
+\[
+D_tG=2F^\top S F,\qquad
+S={1\over2}(\nabla u+\nabla u^\top).
+\tag{TFE.395}
+\]
+
+For a transported material direction \(\xi\), the logarithmic stretch satisfies
+
+\[
+D_t\log |F\xi|
+=
+\widehat{F\xi}\cdot S\,\widehat{F\xi}.
+\tag{TFE.396}
+\]
+
+This is the physical state-count derivative.  Incompressibility gives only
+
+\[
+\sum_{i=1}^3D_t\log\sigma_i(F)=D_t\log\det F=0,
+\tag{TFE.397}
+\]
+
+so pressure/transport can reshuffle shape without changing bulk material
+volume.  It does not by itself bound the positive variation of one selected
+stretch direction.  The selected \(L^1\) bill is exactly that one-sided shape
+variation after heat-scale selection:
+
+\[
+dA_P^{sel}
+\lesssim
+\left[
+D_t\log |F\xi_Q|
++D_t\log \mathsf H_Q
++D_t\log \mathsf C_Q
++D_t\log \mathsf O_Q
+\right]_+d\mathcal R_P
++dPaid.
+\tag{TFE.398}
+\]
+
+Here \(\mathsf H_Q\) is the pressure-Hodge/current frame, \(\mathsf C_Q\) is the
+collar/turnstile state, and \(\mathsf O_Q\) is the selector/order-lock state.
+These are not extra accounts.  They are the coordinates of the same parent
+pressure-viscosity-incompressibility-velocity packet in which the child heat
+readout is later measured.
+
+Differentiating the material acceleration law in the same chart gives the
+pressure actuator and the viscous/transport descendants in the same derivative:
+
+\[
+D_t^{k+1}v
+=
+-D_t^k(A^\top\nabla_a q)
++\nu D_t^k\operatorname{div}_a(G\nabla_av)
++\mathcal C_k(A,G,v,q).
+\tag{TFE.399}
+\]
+
+Thus the pressure tower can re-coordinate the selected frame instantly, while
+the same material derivative also contains viscous descent, coefficient motion,
+and commutator/frame motion.  The log-density increment in `(TFE.387)` has to
+be made from this whole derivative:
+
+\[
+\Delta_QZ^S
+\sim
+\int_{I_Q}
+\Pi_Q^{par}
+\left(
+S,\ A^\top\nabla_a^2q,\ \nu\operatorname{div}_a(G\nabla_av),\
+D_tA,\ D_tG,\ D_t\mathsf H,\ D_t\mathsf C,\ D_t\mathsf O
+\right)dt.
+\tag{TFE.400}
+\]
+
+The finite-energy estimate gives a square integral of \(S\) and viscous
+derivatives, but the selected entropy asks for the parent-known square function
+of `(TFE.400)` after the active detector has followed the pressure-Hodge and
+collar frame:
+
+\[
+\sup_{P'\subseteq P}{1\over\mathcal R(P')}
+\sum_{Q\subseteq P'}
+\|\Delta_QZ^S\|_{\mathcal H}^2\,\mathcal R(Q)
+\le
+C_N(u_0)+Paid(P').
+\tag{TFE.401}
+\]
+
+Equation `(TFE.401)` is not automatic from `(TFE.395)`.  The trace-free identity
+`(TFE.397)` allows one direction to stretch while another contracts.  Ordinary
+viscous energy controls the square mass of strain, but the half-tail
+`(TFE.381)` shows square/raw mass can stay finite while selected positive
+first-ratio action diverges.  The missing strict gain is therefore precisely the
+parent-known capture of the active direction changes in `(TFE.400)`, before the
+child clips them into positive action.
+
+This also explains why uncoupling pressure and viscosity was the wrong mental
+shape.  Pressure-only language sees the instantaneous re-coordination but misses
+the material log-density budget.  Viscosity-only language sees the passive heat
+contraction but misses the selected frame that decides which future state is
+being counted.  The \(L^1\) theorem is the coupled statement
+
+\[
+\text{material log-stretch/pressure-Hodge/collar/order-lock increments
+`(TFE.400)' satisfy `(TFE.401)'.}
+\tag{TFE.402}
+\]
+
+Once `(TFE.402)` is proved, `(TFE.387)`--`(TFE.388)` follow, then the
+entropy/exponent lift `(TFE.382)` or `(TFE.384)`, then selected root reserve,
+then terminal-uniform \(L^1\).  Without `(TFE.402)`, the entropy picture is
+structurally correct but not yet a proof from original data.
