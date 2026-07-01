@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-parentdrop-full-clock-relay-from-square-packing-20260627
-status: relay-closed-for-parent-subtracted-current-given-original-route-energy-and-selector-identity
+status: superseded-square-packing-relay-needs-selected-entropy-margin
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / routed current square-packing
@@ -11,6 +11,14 @@ attacks_hinge:
 ---
 
 # Parent-drop / full-clock relay from stopped square-packing
+
+2026-07-01 audit.  This note overclaimed the selected-action step.  Stopped
+current square-packing plus the selector log identity gives log-square control
+of the selected density increment; it does not give selected positive \(L^1\)
+for arbitrary data.  The corrected relay is recorded in
+`mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md`,
+Sections 164--165: square-packing remains support, and the missing input is
+parent-known entropy/reverse-Holder control for the selected exponent.
 
 ## Inputs
 
@@ -48,19 +56,28 @@ Boundedness of \(\ell_Q\) and square-packing of \(e_Q\) give
 \tag{4}
 ```
 
-The selected first-ratio action satisfies
+The old relay asserted that the selected first-ratio action satisfies
 
 ```math
 A_{sel}(Q)\le C[\Delta_Q\lambda_{sel}]_+^2\mathcal R(Q)+CR_{legal}(Q)+CStop(Q).
 \tag{5}
 ```
 
-Therefore
+This is not valid as an arbitrary-data Gold \(L^1\) estimate.  A half-tail can
+have finite raw mass and finite log-square mass while the selected first-ratio
+sum diverges.  The selected-action step must be replaced by a strict
+entropy/reverse-Holder input such as
 
 ```math
-\sum_{Q\subseteq P}A_{sel}(Q)\le C(u_0)+CR_{legal}(P)+CStop(P).
+\sum_{Q\subseteq P}A_{sel}(Q)
+\le
+C\int f_P\log(e+f_P)\,d\mathcal R_P
++CR_{legal}(P)+CStop(P),
 \tag{6}
 ```
+
+with the entropy term proved from the same original parent packet before child
+positive clipping.
 
 ## Parent drop
 
@@ -72,7 +89,8 @@ Capacity monotonicity gives
 \tag{7}
 ```
 
-The selected-action estimate gives, in the routed-current Schur currency,
+With the corrected selected entropy/reverse-Holder input, the selected-action
+estimate gives, in the routed-current Schur currency,
 
 ```math
 \sum_{Q'\in ch(Q)}A(Q')
@@ -109,24 +127,27 @@ The installed continuation relay is
 \tag{11}
 ```
 
-Thus the same-material full clock is finite under the inputs `(1)`--`(3)`.
+Thus the same-material full clock is finite only after the selected entropy
+margin replacing `(5)'--`(6)' has been proved from original data.
 
 ## Result
 
-Relay closure:
+Conditional relay after the corrected selected-exponent input:
 
 ```math
 \boxed{
 \text{parent-subtracted stopped square-packing}
 +\text{finite original routed energy}
 +\text{selector log identity}
++\text{selected entropy/reverse-Holder margin}
 \Rightarrow
 \text{parent drop}
 \Rightarrow
 \text{finite full material clock}.}
 ```
 
-This note records the relay in the corrected currency.  Raw inherited child
-stress reads are not inputs: exact inherited reuse is removed before selected
-action is counted.  The remaining certification task is manuscript/source
-promotion with legal and stop ledgers explicit.
+This note is now a conditional relay surface, not a Gold closure surface.  Raw
+inherited child stress reads are not inputs: exact inherited reuse is removed
+before selected action is counted.  The missing certification is the selected
+entropy/reverse-Holder transit theorem from the original coupled parent packet,
+with legal, stop, and endpoint terms inside the same participation ledger.

@@ -28448,3 +28448,452 @@ meaning parent-known entropy/reverse-Holder control for the selected readout of
 that same current, before child positive clipping.  This is equivalent to the
 strict half-barrier `(TFE.1903)' and to the active state-deletion storage
 `(TFE.1892)' at the current Gold edge.
+
+## 165. Physical closure audit: the coupled feedback entropy transit theorem
+
+The physical story that would close the \(L^1\) line is now precise.  One
+finite original material signal is being unfolded.  Pressure/Hodge feedback can
+re-coordinate the remaining velocity state instantly, and heat/viscosity turns
+that re-coordinated state into delayed velocity/strain readouts.  The feedback
+loop is allowed to recur, but it may only recur on the state capacity that
+survived the previous heat-lag deletion.
+
+For a stopped parent packet \(P\), write the full coupled active state before
+child positive clipping as
+
+\[
+\mathfrak X_P
+=
+\bigl(A_P,G_P,\nabla_A q_P,\nabla_A v_P,J^{S}_P,
+\text{collar/turnstile/exchange/order-lock/frame}\bigr).
+\tag{TFE.1937}
+\]
+
+A child is not a new packet source.  It is a heat-lag finite-difference readout
+of this same stopped state:
+
+\[
+\mathrm{child}(Q)
+=
+\omega_Q\!\left(H_{\tau_Q}^{A_P}\mathfrak X_P\right),
+\qquad
+H_{\tau}^{A}=e^{\nu\tau\operatorname{div}_A(G\nabla_A)} .
+\tag{TFE.1938}
+\]
+
+After the readout, the pressure/Hodge/material-frame feedback updates the
+remaining parent state:
+
+\[
+\mathfrak X_Q
+=
+\mathcal F_Q\!\left(H_{\tau_Q}^{A_P}\mathfrak X_P,u_Q\right).
+\tag{TFE.1939}
+\]
+
+Here \(\mathcal F_Q\) is the coupled pressure-compatible recalculation: the
+elliptic Hodge pressure response, the material frame update, self-advection,
+collar/turnstile exchange, and the admitted parent current update.  It is not a
+pressure-only source and not a viscosity-only drain.
+
+The selected \(L^1\) object is a density-counting object.  If the selected
+active readout measure is
+
+\[
+d\mu_Q=f_Q\,d\mathcal R_Q,
+\qquad
+r_Q={f_Q\over f_{par(Q)}},
+\tag{TFE.1940}
+\]
+
+then the dangerous positive bill is modeled by
+
+\[
+A_{\rm sel}(Q)\simeq \int_Q r_Q\,d\mathcal R_Q .
+\tag{TFE.1941}
+\]
+
+The correction from Section 164 says exactly that
+
+\[
+\sum_Q(\log r_Q)^2\mathcal R(Q)<\infty
+\quad\not\Longrightarrow\quad
+\sum_Q\int_Q r_Q\,d\mathcal R_Q<\infty .
+\tag{TFE.1942}
+\]
+
+So the missing physical quantity is not more square energy.  It is a
+parent-known state-capacity/entropy that sees the number of still-accessible
+positive readout states:
+
+\[
+\mathcal S(P)
+=
+\operatorname{Ent}_{\mathcal R_P}(f_P)
++\mathcal V_{\rm metric}(P)
++\mathcal V_{\rm route}(P)
++\mathcal B_{\rm storage}(P).
+\tag{TFE.1943}
+\]
+
+The root input required from the original coupled packet is
+
+\[
+\mathcal S(P_0)\le C_N(u_0).
+\tag{TFE.1944}
+\]
+
+The local transit inequality that would close the \(L^1\) problem is
+
+\[
+\mathcal S(Q)
++c\int_Q r_Q\log(e+r_Q)\,d\mathcal R_Q
++c\,\mathcal D_{\rm heat}(P\to Q)
+\le
+\mathcal S(P)+\operatorname{Paid}(P\to Q).
+\tag{TFE.1945}
+\]
+
+This is the mathematical form of the physical picture: feedback can re-label
+or re-orient the remaining state, while heat/viscosity deletes accessibility,
+and the selected positive readout is charged before the child can clip it as a
+fresh positive event.
+
+Because \(r\lesssim 1+r\log(e+r)\) and the raw retained packet mass is already
+Carleson, `(TFE.1945)' gives
+
+\[
+\sum_{Q\subset P_0}A_{\rm sel}(Q)
+\le
+C\mathcal S(P_0)+C\sum_Q\operatorname{Paid}(Q)
+\le C_N(u_0).
+\tag{TFE.1946}
+\]
+
+Equivalently, in dyadic ratio layers,
+
+\[
+N_{L+1}\le \theta N_L+B_L,
+\qquad
+\theta<\frac12,
+\qquad
+\sum_L2^L B_L<\infty .
+\tag{TFE.1947}
+\]
+
+The half-tail from `(TFE.1929)' is excluded because it has infinite active
+entropy:
+
+\[
+\sum_\ell r_\ell\log(e+r_\ell)\nu_\ell
+\simeq
+\sum_\ell {\ell\over \ell+1}
+=\infty .
+\tag{TFE.1948}
+\]
+
+Thus the missing theorem has five clauses, all on the same coupled parent
+packet.
+
+First, the selected detector and density must be parent-known:
+
+\[
+\omega_Q,\ f_Q,\ r_Q
+\quad\text{are fixed from }\mathfrak X_P\text{ before }[\,\cdot\,]_+
+\text{ is applied.}
+\tag{TFE.1949}
+\]
+
+Second, feedback must be entropy-nonexpanding except for admitted parent
+current and exhaustive paid terms:
+
+\[
+\mathcal S(\mathcal F_Q Y)
+\le
+\mathcal S(Y)
++C\Delta\mathcal V_{J^S}(Q)
++C\,Legal(Q)+C\,Stop(Q).
+\tag{TFE.1950}
+\]
+
+Third, heat-lag must produce the actual deletion:
+
+\[
+\mathcal S(H_{\tau_Q}^{A_P}Y)
++c\int_Q r_Q\log(e+r_Q)\,d\mathcal R_Q
++c\,\mathcal D_{\rm heat}(P\to Q)
+\le
+\mathcal S(Y)+C\,Error_{\rm frame}(Q).
+\tag{TFE.1951}
+\]
+
+Fourth, first admission must update the parent state, so the same finite
+pressure-compatible push is not counted as fresh at the next ratio level:
+
+\[
+\mathfrak X_Q
+=
+\operatorname{Update}(\mathfrak X_P,\mu_Q^{adm}),
+\qquad
+r_{Q'}\text{ on the same carrier is measured relative to }f_Q .
+\tag{TFE.1952}
+\]
+
+Fifth, legal, stop, and endpoint terms must stay inside the same participation
+law.  Legal terms are the exhaustive finite commutator/frame/collar/Hodge
+regularity terms.  Stop terms are reset or boundary terms in the stopped
+partition, not escapes from the law.  Endpoint terms are the terminal limit of
+the same heat-time/viscous deletion and must be proved by source-square
+thickness or routed to the same-witness endpoint face:
+
+\[
+\sum_Q\bigl(Legal(Q)+Stop(Q)+Endpoint(Q)\bigr)\le C_N(u_0).
+\tag{TFE.1953}
+\]
+
+The exact theorem-name for this whole missing physical law is
+
+\[
+\texttt{CoupledFeedbackEntropyTransit.A}
+\Longleftrightarrow
+\text{`(TFE.1944)'--`(TFE.1953)'.}
+\tag{TFE.1954}
+\]
+
+Once `(TFE.1954)' is proved from original data, the chain is no longer a
+bookkeeping relay:
+
+\[
+\texttt{CoupledFeedbackEntropyTransit.A}
+\Longrightarrow
+\texttt{StoppedRoutedParticipationCurrentEntropyCarleson.A}
+\Longrightarrow
+\text{selected terminal-uniform }L^1
+\Longrightarrow
+\text{FGC.25}.
+\tag{TFE.1955}
+\]
+
+This is also the physical audit of what is missing.  The proof must construct a
+finite state-capacity for the original coupled packet, prove pressure feedback
+does not increase that capacity except through admitted parent motion, prove
+heat-lag deletes enough capacity to pay \(r\log r\), update the parent after
+first admission, and keep legal/stop/endpoint inside the same original
+participation ledger.  Ordinary energy, square-packing, same-parent ownership,
+and no-recount are each necessary support; none of them alone is the selected
+\(L^1\) theorem.
+
+## 166. Heat-lag entropy deletion subtheorem
+
+Clause `(TFE.1951)' has a genuine theorem underneath it.  Once the detector,
+child partition, reference measure, and material frame are fixed by the parent
+before clipping, the heat-lag part is just the entropy chain rule plus heat
+entropy dissipation.
+
+Let \((P,\mathcal R_P)\) be a stopped parent packet with normalized reference
+mass, and let \(F\ge0\) be the parent active density with
+
+\[
+\int_P F\,d\mathcal R_P=1.
+\tag{TFE.1956}
+\]
+
+For the frozen material frame \(A_P,G_P\), assume the heat-lag operator
+
+\[
+H_\tau^{A_P}=e^{\nu\tau\operatorname{div}_{A_P}(G_P\nabla_{A_P})}
+\tag{TFE.1957}
+\]
+
+is Markov and preserves \(\mathcal R_P\), up to the already isolated frame,
+collar, and endpoint errors.  Set
+
+\[
+F_\tau=H_\tau^{A_P}F.
+\tag{TFE.1958}
+\]
+
+Then the relative entropy
+
+\[
+\operatorname{Ent}_P(F)=\int_P F\log F\,d\mathcal R_P
+\tag{TFE.1959}
+\]
+
+satisfies the heat dissipation identity
+
+\[
+{d\over d\tau}\operatorname{Ent}_P(F_\tau)
+=
+-\nu\int_P
+{\langle G_P\nabla_{A_P}F_\tau,\nabla_{A_P}F_\tau\rangle\over F_\tau}
+\,d\mathcal R_P
++Err_{\rm frame}(\tau).
+\tag{TFE.1960}
+\]
+
+Hence
+
+\[
+\operatorname{Ent}_P(F_\tau)
++\nu\int_0^\tau\!\!\int_P
+{\langle G_P\nabla_{A_P}F_s,\nabla_{A_P}F_s\rangle\over F_s}
+\,d\mathcal R_P\,ds
+\le
+\operatorname{Ent}_P(F)+Err_{\rm frame}(P,\tau).
+\tag{TFE.1961}
+\]
+
+Now let \(\mathcal Q(P)\) be the parent-known retained child partition at heat
+lag \(\tau\).  Define the child visible density by conditional expectation:
+
+\[
+a_Q
+=
+\mathbb E_{\mathcal R_P}(F_\tau\mid Q),
+\qquad
+Q\in\mathcal Q(P).
+\tag{TFE.1962}
+\]
+
+For a retained edge \(P\to Q\), this \(a_Q\) is the density ratio \(r_Q\) after
+normalizing the parent mean to one:
+
+\[
+r_Q=a_Q.
+\tag{TFE.1963}
+\]
+
+The entropy chain rule gives the exact split
+
+\[
+\operatorname{Ent}_P(F_\tau)
+=
+\sum_{Q\in\mathcal Q(P)}\mathcal R_P(Q)a_Q\log a_Q
++
+\sum_{Q\in\mathcal Q(P)}
+\mathcal R_P(Q)a_Q\,
+\operatorname{Ent}_{Q}\!\left({F_\tau\over a_Q}\right).
+\tag{TFE.1964}
+\]
+
+Define the heat-residual child capacity by
+
+\[
+\mathcal S_{\rm heat}(Q)
+=
+\mathcal R_P(Q)a_Q\,
+\operatorname{Ent}_{Q}\!\left({F_\tau\over a_Q}\right).
+\tag{TFE.1965}
+\]
+
+Both the visible entropy sum and the residual child entropy sum are
+nonnegative.  Combining the entropy chain rule with `(TFE.1961)' gives the
+telescoping heat transit inequality
+
+\[
+\sum_{Q\in\mathcal Q(P)}\mathcal S_{\rm heat}(Q)
++
+\sum_{Q\in\mathcal Q(P)}
+\mathcal R_P(Q)r_Q\log r_Q
++
+\mathcal D_{\rm heat}(P,\tau)
+\le
+\operatorname{Ent}_P(F)+Err_{\rm frame}(P,\tau),
+\tag{TFE.1966}
+\]
+
+where
+
+\[
+\mathcal D_{\rm heat}(P,\tau)
+=
+\nu\int_0^\tau\!\!\int_P
+{\langle G_P\nabla_{A_P}F_s,\nabla_{A_P}F_s\rangle\over F_s}
+\,d\mathcal R_P\,ds .
+\tag{TFE.1967}
+\]
+
+Since \(\sum_Q\mathcal R_P(Q)r_Q=1\), the visible entropy can also be written
+with the nonnegative density
+
+\[
+\Phi(r)=r\log r-r+1,
+\qquad
+\sum_Q\mathcal R_P(Q)r_Q\log r_Q
+=
+\sum_Q\mathcal R_P(Q)\Phi(r_Q).
+\tag{TFE.1968}
+\]
+
+This proves the high-ratio selected \(L^1\) control on one heat-lag partition:
+
+\[
+\sum_{Q:r_Q\ge2}\mathcal R_P(Q)r_Q
+\le
+C\sum_Q\mathcal R_P(Q)\Phi(r_Q)
+\le
+C\operatorname{Ent}_P(F)+C\,Err_{\rm frame}(P,\tau).
+\tag{TFE.1969}
+\]
+
+The low-ratio part is raw mass:
+
+\[
+\sum_{Q:r_Q<2}\mathcal R_P(Q)r_Q\le2.
+\tag{TFE.1970}
+\]
+
+Thus, for parent-known heat-lag readouts,
+
+\[
+\sum_{Q\in\mathcal Q(P)}\mathcal S_{\rm heat}(Q)
++
+c\sum_{Q\in\mathcal Q(P)}
+A_{\rm sel}(Q)\mathbf 1_{\{r_Q\ge2\}}
++
+c\,\mathcal D_{\rm heat}(P,\tau)
+\lesssim
+\operatorname{Ent}_P(F)+Err_{\rm frame}(P,\tau),
+\tag{TFE.1971}
+\]
+
+This is the rigorous version of the physical deletion picture.  Heat-lag
+cannot create extra accessible states; it averages the parent signal.  The
+visible child state count and the hidden residual state count add up to the
+heat-lagged parent entropy, while the heat operator dissipates that entropy.
+
+The discharged part of `(TFE.1951)' is therefore
+
+\[
+\boxed{
+\text{parent-known detector}
++\text{Markov frozen-frame heat}
+\Longrightarrow
+\text{child residual entropy}
++\text{heat deletion}
++\text{selected high-ratio }L^1.
+}
+\tag{TFE.1972}
+\]
+
+What remains outside this subtheorem is exactly the coupled part: construct the
+root finite \(\mathcal S(P_0)\), prove pressure/Hodge/material feedback obeys
+the entropy-nonexpansion law `(TFE.1950)' in the same parent ledger, prove the
+first-admission update `(TFE.1952)' for the selected density itself, and prove
+the frame/collar/endpoint errors in `(TFE.1960)' are the exhaustive
+legal/stop/endpoint terms of `(TFE.1953)'.
+
+So `(TFE.1951)' is not the Gold obstruction anymore in its pure heat form.  The
+remaining obstruction is the same-parent coupled feedback transit around the
+heat theorem:
+
+\[
+\texttt{CoupledFeedbackEntropyTransit.A}
+\equiv
+\text{root }\mathcal S
++\text{feedback nonexpansion}
++\text{first-admission update}
++\text{paid frame/endpoint closure}.
+\tag{TFE.1973}
+\]
