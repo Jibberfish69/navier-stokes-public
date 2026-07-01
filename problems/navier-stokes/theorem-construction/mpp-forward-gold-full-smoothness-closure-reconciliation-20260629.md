@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-full-smoothness-closure-reconciliation-20260629
-status: gold-route-downstream-consumption-conditional-on-tfe2747
+status: gold-route-downstream-consumption-conditional-on-tfe2747-pending-tfe2748
 created: 2026-06-29
 problem: navier-stokes
 route: forward-gold coupled pressure-viscosity-incompressibility participation law
@@ -15,9 +15,11 @@ completion_truth: >-
   no-jump by absolute continuity; FGC.11-FGC.12 give finite selected action;
   the corrected parent-subtracted relay gives finite full same-material clock;
   and the installed material-clock-to-fixed-Hs bridge gives H^s continuation
-  and classical relaunch. This is not an independent proof of TFE2747 and is
-  not, by itself, a submission-ready smoothness proof. Submission/PDF export
-  surfaces remain separate.
+  and classical relaunch. The July 1 audit of the source note classifies
+  TFE2733-TFE2747 as conditional reductions and leaves TFE2748 as the open
+  original-data source theorem. This is not an independent proof of TFE2747 or
+  TFE2748 and is not, by itself, a submission-ready smoothness result.
+  Submission/PDF export surfaces remain separate.
 source_surfaces:
   - problems/navier-stokes/theorem-creation.yaml
   - problems/navier-stokes/source-frontier.yaml
@@ -595,6 +597,8 @@ H^s\text{ continuation}
 \]
 
 This proves downstream consumption of the coupled \(L^1\) result inside the
-Gold route, conditional on `(TFE.2747)`.  It does not independently prove
-`(TFE.2747)`, and submission/PDF readiness is a separate export/manuscript
-refresh question not asserted by this theorem-construction note.
+Gold route, conditional on `(TFE.2747)`.  The source-note audit now records
+`(TFE.2748)' as the open original-data theorem behind that premise.  This note
+does not independently prove `(TFE.2747)' or `(TFE.2748)', and submission/PDF
+readiness is a separate export/manuscript refresh question not asserted by this
+theorem-construction note.

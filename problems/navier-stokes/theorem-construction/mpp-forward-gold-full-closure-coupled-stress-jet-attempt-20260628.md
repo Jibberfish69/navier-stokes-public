@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-full-closure-coupled-stress-jet-attempt-20260628
-status: full-gold-closure-chain-conditional-on-tfe2747
+status: full-gold-closure-chain-conditional-on-tfe2747-premise-pending-tfe2748
 logical_landing_node: full_gold_coupled_stress_jet_conditional_closure_chain
 completion_truth: >-
   Conditional MPP-facing consumer chain with the former terminal-uniform L1
@@ -10,19 +10,22 @@ completion_truth: >-
   square-packing rule, full-output high-high carrier choice, terminal no-jump
   implication, selected-action relay, finite full same-material clock relay,
   and fixed-Hs continuation bridge form one theorem-construction Gold consumer
-  chain once that L1 source premise is accepted. This file does not independently
-  prove TFE2747 and is not a submission-ready manuscript/export certification by
-  itself.
+  chain assuming that L1 source premise. The July 1 audit of the source note
+  classifies TFE2733-TFE2747 as conditional reductions and leaves TFE2748 as
+  the open original-data source theorem. This file does not independently prove
+  TFE2747/TFE2748 and is not a submission-ready manuscript/export certification
+  by itself.
 edge_effect: >-
   Writes the full Gold consumer chain relative to the TFE2733-TFE2747 L1 source
   line and keeps the MPP-facing relay explicit. The theorem surface shows
-  exactly what the coupled pre-energy stress-response jet solves after that
-  source premise is accepted: selected far-annular/high-high action cannot be
+  exactly what the coupled pre-energy stress-response jet solves assuming that
+  source premise: selected far-annular/high-high action cannot be
   counted before same-parent jet admission, and terminal no-jump follows from a
   root-fixed terminal-uniform L1 jet-service storage. The source premise is the
-  same-parent Duhamel-Hodge pullback plus early source admission and retained
-  heat-lag Poincare thickness in TFE2733-TFE2747. Manuscript/export refresh
-  remains separate from this theorem-construction consumer chain.
+  conditional same-parent Duhamel-Hodge pullback plus early source admission and
+  retained heat-lag Poincare thickness in TFE2733-TFE2747; the open
+  original-data source theorem is TFE2748. Manuscript/export refresh remains
+  separate from this theorem-construction consumer chain.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-stress-jet-producer-admission-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-below-same-material-service-storage-target-20260628.md
@@ -454,9 +457,10 @@ relative to the coupled Gold \(L^1\) source surface:
 
 The source reference is
 `mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md`,
-Sections 238--242, ending at `(TFE.2747)'.  Thus `(FGC.20)' and `(FGC.25)' are
-consumer premises here only after `(TFE.2747)' is accepted as the Gold \(L^1\)
-source line.
+Sections 238--243.  The July 1 audit records `(TFE.2747)' as the conditional
+Gold \(L^1\) source premise and `(TFE.2748)' as the open original-data theorem.
+Thus `(FGC.20)' and `(FGC.25)' are consumer premises here only under that
+conditional source premise.
 
 The downstream consumption has now been audited in
 `mpp-forward-gold-full-smoothness-closure-reconciliation-20260629.md`.  The
@@ -464,7 +468,8 @@ consumption is the direct chain `(FGC.26)' -> `(FGC.14)'--`(FGC.16)' terminal
 no-jump -> `(FGC.11)'--`(FGC.12)' finite selected action -> corrected
 parent-subtracted finite full same-material clock -> fixed \(H^s(T^3)\)
 continuation and classical relaunch.  Thus `(FGC.24)' is installed as a
-theorem-construction Gold chain once `(TFE.2747)' is accepted as the coupled
+theorem-construction Gold chain assuming `(TFE.2747)' supplies the coupled
 \(L^1\) source result.  This theorem surface does not independently prove
-`(TFE.2747)' and does not certify submission-ready smoothness by itself.
+`(TFE.2747)' or the open original-data theorem `(TFE.2748)', and does not
+certify submission-ready smoothness by itself.
 Manuscript/PDF submission readiness remains a separate export refresh.

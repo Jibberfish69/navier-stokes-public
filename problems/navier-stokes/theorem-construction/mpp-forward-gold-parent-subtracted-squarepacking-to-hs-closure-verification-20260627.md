@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-parent-subtracted-squarepacking-to-hs-closure-verification-20260627
-status: downstream-relay-verified-conditional-on-route-energy-bound
+status: downstream-relay-verified-conditional-on-route-energy-bound; tfe2747-consumes-selected-action-branch-only
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -26,6 +26,10 @@ effect: >-
   current. The fresh QR residual is Bessel-paid and reset variation is routed into
   E_route by parent-announced first-exit slabs. The downstream H^s relay is
   verified only after E_route is bounded by the original material participation law.
+  July 1 audit caveat: the current TFE2747/TFE2748 Gold L1 chain does not prove
+  this older E_route producer. It may consume this note only from the selected
+  action / parent-drop / material-record / H^s relay onward once terminal-uniform
+  selected L1 supplies finite selected action.
 ---
 
 # Parent-subtracted square packing to \(H^s\) closure verification
@@ -171,3 +175,7 @@ parent-subtracted QR
 -> finite material record
 -> H^s continuation.
 ```
+
+For the current TFE2747/TFE2748 Gold L1 audit, the usable subchain starts at
+selected action.  The route-energy producer above remains a separate conditional
+route, not a consequence of the July 1 source-line audit.

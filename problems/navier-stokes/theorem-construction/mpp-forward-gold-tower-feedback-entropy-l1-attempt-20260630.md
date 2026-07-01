@@ -2,7 +2,7 @@
 theorem_id: TowerFeedbackEntropyL1Attempt.A
 date: 2026-06-30
 route: forward-gold
-status: conditional-source-line-claim; original-data-proof-not-installed
+status: conditional-source-line-target; original-data-proof-not-installed
 depends_on:
   - FGC.25_terminal_uniform_coupled_jet_service_L1
   - WLF.60_parent_weighted_detector_measure
@@ -40310,11 +40310,11 @@ same transaction.  Once the sub-heat-lag first trace and zero modes are routed
 to their parent source accounts, a retained readout cannot be recounted as
 fresh positive pressure at higher ratio levels.
 
-Truth-state note.  `(TFE.2747)' is the current claimed/source-line Gold \(L^1\)
-result in this theorem surface.  It reconciles and supersedes the older
-internal not-closed ledger language above, which records earlier reduction
-stages before Sections 238--242.  It is not by itself a submission-ready or
-independently referee-certified proof of smoothness.
+Truth-state note.  `(TFE.2747)' is the current named/source-line Gold \(L^1\)
+target in this theorem surface, but the audit below classifies Sections
+238--242 as conditional reductions rather than a completed proof from arbitrary
+original Navier--Stokes data.  It does not supersede the open original-data
+storage burden; it identifies where that burden must now be proved.
 
 ## 243. Authority audit of `(TFE.2747)'
 
@@ -40352,13 +40352,12 @@ of those grants:
 Thus the correct post-audit closure statement is
 
 \[
-\boxed{
 \begin{array}{c}
 \text{TFE2733--TFE2747 identify the correct coupled Gold \(L^1\) source line}\\
 \text{and prove the conditional reductions;}\\
 \text{the remaining Gold source theorem is the noncircular original-data}\\
 \text{proof of `(TFE.2748)'.}
-\end{array}}
+\end{array}
 \tag{TFE.2749}
 \]
 
