@@ -30813,3 +30813,322 @@ with the terminal modulus `(TFE.2104)'.  This is the same
 SignedSmoothSamePacketCommutatorCoercivity / full material-clock coercivity
 wall identified by the annular return files.  It is not a new L1 object; it is
 the annular-return endpoint face of the same parent active-thickness theorem.
+
+## 179. Terminal donor no-Zeno is total same-packet exchange plus the visible terminal branch
+
+The second terminal subface in `(TFE.2100)' is the donor chain.  This is not an
+extra pressure or viscosity account.  It is the same missing full-packet partner
+from `(TFE.2087)' being passed through same-solution donor edges after finite
+legal exits and retained partners have been removed.
+
+On a retained parent packet \(P\), let \(G_D(P)=(V_D,E_D)\) be the stabilized
+donor graph.  A node \(v\) carries donor mass \(m_v(s)\ge0\), and an edge
+\(e\) carries signed same-packet exchange \(J_e(s)\).  The terminal donor
+overlap decomposes as
+
+\[
+dA_{donor}^{same\text{-}packet}
+\le
+dZ_D^{rank}
++dZ_D^{0cyc}
++dZ_D^{zeno}
++dPaid_{legal/stop}.
+\tag{TFE.2111}
+\]
+
+The finite-rank part is already a telescoping same-packet balance.  Once the
+retained donor quotient has an acyclic rank
+\(\rho:V_D\to\mathbb N\), set
+
+\[
+\mathcal R_D(s)=\sum_{v\in V_D}\rho(v)m_v(s).
+\tag{TFE.2112}
+\]
+
+Local donor balance gives
+
+\[
+dZ_D^{rank}
+\le
+-d\mathcal R_D
++C\,dA_{4B}^{full}
++dPaid_{legal/stop}.
+\tag{TFE.2113}
+\]
+
+Since \(\mathcal R_D\ge0\), every finite donor chain is admitted into the full
+same-carrier four-body clock plus its initial rank storage:
+
+\[
+\int_I dZ_D^{rank}
+\le
+\mathcal R_D(\inf I)
++C\int_I dA_{4B}^{full}
++Paid(I).
+\tag{TFE.2114}
+\]
+
+Thus finite donor motion cannot create a new \(L^1\) source.  It ends in a
+retained signed partner, legal/stop material, or full same-packet exchange.
+
+The only finite-graph obstruction is a zero-rank directed cycle.  For such a
+cycle \(\mathcal C\),
+
+\[
+dZ_{\mathcal C}
+\le
+\sum_{e\in\mathcal C}[J_e]_+
+\le
+\sum_{e\in\mathcal C}|J_e|
+=:dA_{\mathcal C}^{tot}.
+\tag{TFE.2115}
+\]
+
+The net current around the cycle may cancel, but the total exchange does not
+disappear.  When the cycle is retained on the same full packet, the total
+exchange is a Body-III signed-current relay defect, selector/partner defect, or
+same-packet positive relay term, hence
+
+\[
+dA_{\mathcal C}^{tot}
+\le
+C\,dA_{4B}^{full}
++C\,d\Lambda_P^{thick}
++dPaid_{legal/stop}.
+\tag{TFE.2116}
+\]
+
+If the cycle is not retained as same-packet exchange, the selected native source
+has kept its positive receiver while the corresponding pressure--viscosity--
+incompressibility participation record has not stayed on the same carrier.  That
+is the typed same-witness Part boundary, not a hidden Gold-side donor reserve.
+
+It remains to locate an infinite terminal Zeno chain after finite rank descent
+and zero-rank total exchange have been removed.  The existing full
+Hodge--Stokes/tower audit gives the precise visibility fork:
+
+\[
+dZ_D^{zeno}
+\leadsto
+\left\{
+\begin{array}{ll}
+\text{endpoint UI/no terminal atom},\\
+\text{legal, jump, collar, pressure, viscous, or selector loss},\\
+\text{finite-rung, high-factor, height, source-square, or no-waste readout},\\
+\text{charged endpoint/profile branch.}
+\end{array}
+\right.
+\tag{TFE.2117}
+\]
+
+So the infinite donor chain is not invisible.  On the forward Gold branch, the
+third line of `(TFE.2117)' must be paid by the same parent active
+thickness/entropy producer already isolated in `(TFE.2085)', not by a separate
+donor theorem:
+
+\[
+dZ_D^{zeno}
+\le
+C\,d\Lambda_P^{thick}
++C\,d\mathsf Ent_P^{act}
++dA_{4B}^{full}
++dPaid_{legal/stop/end},
+\tag{TFE.2118}
+\]
+
+where the endpoint/profile alternatives are consumed by the declared endpoint
+branch rather than retained as Gold \(L^1\) material.
+
+Combining `(TFE.2111)'--`(TFE.2118)' gives the sharpened donor reduction:
+
+\[
+\begin{aligned}
+\texttt{SamePacketTerminalDonorNoZeno.A}
+\Leftarrow{}&
+\texttt{DonorRankDescentOrPartExit.A}\\
+&+\texttt{ZeroRankTotalExchangeAdmission.A}\\
+&+\texttt{TerminalZenoVisibleBranchConsumer.A}.
+\end{aligned}
+\tag{TFE.2119}
+\]
+
+The first two clauses are installed as branch logic in the four-body donor
+files: finite donor chains telescope, and zero-rank cycles are charged by total
+same-packet exchange when the full packet is retained.  The third clause is the
+same original-data producer already named by the continuous \(L^1\) route:
+terminal-uniform parent active thickness and entropy for the visible
+finite-rung/high-factor/source-square branch.
+
+Thus `(TFE.2100)' can be sharpened to
+
+\[
+\begin{aligned}
+\texttt{FullOutputOrderLockBeforeClipping.A}
+\Leftarrow{}&
+\texttt{AnnularReturnNoTerminalPulse.A}\\
+&+\texttt{TerminalZenoVisibleBranchConsumer.A}\\
+&+\texttt{DonorRankDescentOrPartExit.A}\\
+&+\texttt{ZeroRankTotalExchangeAdmission.A}.
+\end{aligned}
+\tag{TFE.2120}
+\]
+
+This removes the donor subface as an independent mystery.  What is still not
+proved from arbitrary original data is the common Gold-side producer behind the
+visible terminal branch: finite full same-packet clock with terminal modulus,
+parent active thickness/no-residue, and active entropy/reverse-Holder control.
+Those are the same clauses in `(TFE.2085)', not a new donor reservoir.
+
+## 180. The common producer is continuous native-reserve pushforward, not finite full-clock input
+
+The source-level audits force one more correction.  A finite full clock is not
+the smaller input to the \(L^1\) proof.  It is already continuation-strength
+material.  Complete-frame identities, annular return admission, Hodge-Stokes
+visibility, and donor realization show where selected action enters the same
+packet; they do not prove that the rectified total of that action is finite.
+
+The noncircular producer is the continuous version of the native birth-packing
+map.  Let \(\Gamma_P^{fr}\subset\mathcal X_P\) be the parent-known continuum of
+first selected high-ratio births below \(P\), after lower-band carry, inherited
+Schur/current reuse, order-lock partner terms, route/motion/return, legal, stop,
+and already admitted terminal material have been removed.  Let
+\(dA_{\Gamma,P}^{fr,+}\) be the selected positive measure on this first-birth
+continuum.
+
+Let \((\mathcal Y_P^{nat},d\rho_P^{nat})\) be the original-history native
+reserve space built before child positive clipping from the full coupled
+pressure--viscosity--incompressibility packet:
+
+\[
+\mathcal Y_P^{nat}
+=
+\{\text{Hodge/projector motion, strain-frame/covector motion, Schur pressure-
+collar defect, annular stress, frequency-native birth, viscous/radius loss,
+route/legal/stop entrance}\}.
+\tag{TFE.2121}
+\]
+
+The exact continuous native-reserve theorem is the existence of a parent-known
+measurable admission map
+
+\[
+\iota_P:\Gamma_P^{fr}\longrightarrow\mathcal Y_P^{nat}
+\tag{TFE.2122}
+\]
+
+with bounded pushforward density
+
+\[
+(\iota_P)_\#dA_{\Gamma,P}^{fr,+}
+\le
+C_N\,d\rho_P^{nat}
++dPaid_{route/legal/stop/end}^{nat}
+\tag{TFE.2123}
+\]
+
+and root reserve bound
+
+\[
+\rho_P^{nat}(\mathcal Y_P^{nat})
+\le
+C_N(u_0)\mathcal R(P)
++R_{legal}(P)+Stop(P).
+\tag{TFE.2124}
+\]
+
+This is the continuous form of bounded multiplicity.  It is not a sum over
+dyadic units.  It says that the selected first-birth measure, when pushed back
+to the original parent source coordinates that created it, is absolutely
+continuous with bounded density against the original native reserve measure.
+Consequently
+
+\[
+A_{\Gamma,P}^{fr,+}(\Gamma_P^{fr})
+\le
+C_N(u_0)\mathcal R(P)
++Paid(P).
+\tag{TFE.2125}
+\]
+
+Now decompose the exact selected continuum measure from Section 174 into three
+same-parent pieces:
+
+\[
+dA_{P}^{sel,+}
+\le
+dA_{P}^{reuse,+}
++dA_{\Gamma,P}^{fr,+}
++dA_{P}^{term,+}
++dPaid_{route/legal/stop}.
+\tag{TFE.2126}
+\]
+
+The reuse part is already handled by the parent disintegration/no-recount
+entropy chain rule in Section 173.  The fresh first-birth part is controlled by
+`(TFE.2123)'--`(TFE.2125)'.  The terminal part must be controlled by the same
+parent thickness measure:
+
+\[
+\lim_{\delta\downarrow0}
+\sup_P
+A_{P}^{term,+}\bigl((T_*-\delta,T_*)\bigr)
+=0,
+\tag{TFE.2127}
+\]
+
+or by an equivalent first-time-rung endpoint product, Hardy, Orlicz, or
+full-packet no-residue statement in the same selected metric.  This is not an
+endpoint side account; it is the terminal absolute-continuity clause of the
+same pushed native reserve.
+
+Therefore the current original-data producer can be rewritten without the
+circular finite-full-clock input:
+
+\[
+\begin{aligned}
+\texttt{ContinuousParentActiveMeasureProducer.A}
+\Leftarrow{}&
+\texttt{ContinuousNativeBirthReservePushforward.A}\\
+&+\texttt{OriginalHistoryExponentialBMOReverseHolderProducer.A}\\
+&+\texttt{TerminalFirstTimeRungNoResidue.A}.
+\end{aligned}
+\tag{TFE.2128}
+\]
+
+Here the first line supplies parent active thickness and fresh first-birth
+packing, the second line supplies high-ratio entropy on the admitted parent
+density, and the third line removes the zero-thickness terminal atom.  Sections
+173--175 then give the exact continuous selected \(L^1\) estimate.
+
+The finite full clock is downstream:
+
+\[
+\text{exact continuous selected \(L^1\)}
+\Longrightarrow
+\int_{\operatorname{Hist}(P)}d\Omega_N^{full}<\infty
+\Longrightarrow
+\text{fixed-depth continuation readout}.
+\tag{TFE.2129}
+\]
+
+Using \(\int d\Omega_N^{full}<\infty\) as an input for `(TFE.2128)' is circular.
+The proof-facing object is `(TFE.2123)' with `(TFE.2124)', plus the
+reverse-Holder/log-density producer and terminal no-residue in the same parent
+metric.
+
+Thus the current bottom of the Gold \(L^1\) route is:
+
+\[
+\boxed{
+\texttt{ContinuousNativeBirthReservePushforward.A}
++\texttt{OriginalHistoryExponentialBMOReverseHolderProducer.A}
++\texttt{TerminalFirstTimeRungNoResidue.A}.
+}
+\tag{TFE.2130}
+\]
+
+This is still not Gold closure.  It is the sharper non-dyadic closure target:
+construct the original parent native reserve measure, prove selected first
+births push forward into it with bounded density, prove the selected log-density
+has stopped exponential reverse-Holder control, and prove terminal no-residue
+for that same parent metric.
