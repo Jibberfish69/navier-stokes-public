@@ -14299,3 +14299,352 @@ freshness becomes the critical weighted reset/reselection packing.  Then
 `(TFE.969)' is exactly the active entropy deletion inequality, and the
 terminal-uniform \(L^1\) line follows by the already installed deterministic
 telescope.
+
+## 86. Source audit of `(TFE.978)': what physical law is still missing
+
+The source surfaces make the missing physical story precise.  The stopped score
+is not another reservoir.  It is the parent coordinate system in which the same
+pressure-compatible pulse is read without being counted again.  To close \(L^1\),
+the proof has to show that this parent coordinate system has finite original
+history variation in the selected critical metric.
+
+The actual parent carrier must be built before the child readout from the full
+coupled packet:
+
+\[
+Z^S
+=
+Z_{\rm vis}^S
+\oplus
+Z_{\rm sil}^S
+\oplus
+Z_{\rm ex}^S,
+\tag{TFE.979}
+\]
+
+where \(Z_{\rm vis}^S\) is the pressure-Hodge/Schur visible carrier,
+\(Z_{\rm sil}^S\) is the boundary-flat pressure-potential bubble carrier, and
+\(Z_{\rm ex}^S\) is the strain, frame, Hessian, and exchange carrier.  This is
+the repo-accurate version of the physical picture: pressure gives instantaneous
+compatibility, viscosity/heat gives delayed readable velocity and strain, and
+the new velocity/strain/frame state feeds back into the next pressure-compatible
+coordinate.  The parent object is the whole feedback coordinate, not pressure
+alone and not the future selected child tail.
+
+The deterministic entropy side already says what has to be supplied.  With
+selected density \(f\) and ratio
+
+\[
+r_Q={f_Q\over f_{\operatorname{par}(Q)}},
+\tag{TFE.980}
+\]
+
+the selected log-amplification must have a fixed parent-carrier representation
+
+\[
+\log r_Q
+=
+\ell_Q(\Delta_Q Z^S)-\psi_Q+e_Q,
+\tag{TFE.981}
+\]
+
+and the root Carleson/BMO bound
+
+\[
+\sup_{P\subseteq Q_0}
+{1\over \mathcal R(P)}
+\sum_{Q\subseteq P}
+\left(
+\|\Delta_Q Z^S\|_{\mathcal H_{\rm src}}^2+|e_Q|^2
+\right)\mathcal R(Q)
+\le
+C_N(u_0)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.982}
+\]
+
+Once `(TFE.981)'--`(TFE.982)' are available, the installed martingale
+good-lambda / reverse-Holder consumer gives selected uniform integrability,
+then the active entropy telescope gives terminal-uniform \(L^1\).  Thus the
+unproved part is not the Bellman telescope.  It is the original-history
+production of \(Z^S\), the readout `(TFE.981)', and the bound `(TFE.982)'.
+
+The source audit splits this production into three exact obligations:
+
+\[
+\begin{gathered}
+\text{IndependentRootHilbertCarrierBound.A:}\\
+\|Z_P^S\|_{\mathcal H_{\rm src}}^2
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P),
+\\[3pt]
+\text{SelectorCarrierNondegeneracyOrPaidReselection.A:}\\
+|\Delta_Q\log\rho_{\rm sel}|
+\le
+C\|\Delta_QZ^S\|_{\mathcal H_{\rm src}}
++e_Q^{\rm sel}+e_Q^{\rm ol}+e_Q^{\rm legal},
+\\[3pt]
+\text{StoppedPredictableRootGeometryCompensator.A:}\\
+\int_{\operatorname{Hist}(P')}dA_{P'}^{root}
++
+\sum_{e\subset P'}
+\int H_{e^-}\|D_e^{vis}+D_e^{sil}+D_e^{ex}\|_{\mathcal H_{\rm lift}}^2
+\le
+C_N(u_0)\mathcal R(P')+R_{\rm legal}(P')+Stop(P').
+\end{gathered}
+\tag{TFE.983}
+\]
+
+These are the formal versions of the missing physical statement.  A selected
+positive child read may not come from a coordinate that was chosen after the
+pressure/heat/viscous feedback already produced the readout.  The selected
+coordinate must either be a nondegenerate read of the same parent carrier
+\(Z^S\), or the coordinate change itself must pay as selector variation,
+order-lock gap, connection motion, reset, legal, or stop material before the
+positive part is clipped.
+
+The remaining compactness piece under `(TFE.983)' is the root-defect theorem.
+If the compensator bound fails, the direct root-geometry proof normalizes a
+stopped family so that
+
+\[
+\int dA_{P_n}^{root}
++
+\sum_{e\in\mathcal E_n}
+\int H_{e^-}\|D_e\|_{\mathcal H_{\rm lift}}^2
+=1,
+\qquad
+\int d\Lambda_{P_n}^{root}+R_{\rm legal}+Stop\to0.
+\tag{TFE.984}
+\]
+
+Closure then requires extracting, in one stopped parent Hilbert frame, a nonzero
+same-carrier limit
+
+\[
+H_{e_n^-}^{1/2}D_{e_n}\rightharpoonup D_\infty\ne0,
+\tag{TFE.985}
+\]
+
+unless the lost mass is charged by active weight, connection motion, original
+root source energy, legal, or stop.  With the extraction, zero source,
+zero connection, zero exchange, zero turnstile, and zero covector motion force
+the survivor to be inherited parent-predictable transport.  But the retained
+defect is parent-subtracted:
+
+\[
+D_\infty=(I-\Pi_{\mathcal P_-})Z_\infty,
+\tag{TFE.986}
+\]
+
+so inherited transport gives \(D_\infty=0\), contradicting `(TFE.985)'.  This is
+the exact mathematical form of the physical rule: the feedback loop can
+re-coordinate the remaining packet state, but it cannot keep producing selected
+positive amplification while leaving no motion in the original parent coordinate
+system.
+
+Thus the \(L^1\) closure route is now:
+
+\[
+\boxed{
+\text{RootDefectTightnessFromOriginalHistory.A}
+\Rightarrow
+\text{StoppedPredictableRootGeometryCompensator.A}
+\Rightarrow
+\text{OriginalHistorySelectedLogAmplificationCarleson.A}
+\Rightarrow
+\text{active entropy deletion}
+\Rightarrow
+\text{terminal-uniform }L^1.
+}
+\tag{TFE.987}
+\]
+
+Everything to the right of `OriginalHistorySelectedLogAmplificationCarleson.A'
+is already a consumer chain in the current notes.  Everything to the left is the
+real missing physical producer.  It says, in one sentence: the full coupled
+pressure-viscosity-incompressibility-velocity packet may change the child
+readout by changing the parent pressure-compatible coordinate, but the total
+selected-critical amount of that coordinate change must be finite from the
+original data before any child positive read is counted.
+
+Gold is therefore still not closed at this root-geometry layer.  The next source
+audit must look inside `RootDefectTightnessFromOriginalHistory.A' rather than
+letting that name become another abstraction.
+
+## 87. The physical bottom: first endpoint seeds must pack
+
+The older root-defect audits already push one layer deeper.  Same-carrier
+compactness, finite-band nonvanishing, first-exit reset escape, derivative-exact
+tail, heat-resident tail, frame/covector/turnstile/selector/legal/stop motion,
+and zero-cost rigidity are support or consumer pieces once the parent-known
+root ledgers are present.  The high-frequency root-defect tail reduces to one
+survivor:
+
+\[
+D_e^{pers}
+=
+(I-\Pi_{\mathcal P_{e^-}})
+\mathcal C_\theta[Z_e^{fresh}].
+\tag{TFE.988}
+\]
+
+This is the persistent non-derivative affine/root quotient.  It is the physical
+case where the child is not merely reading an old parent score, not merely
+resetting the measuring frame, and not merely carrying derivative/tower residue.
+It is claiming a genuinely retained positive scale-native birth.
+
+The noncircular payment target for this survivor is
+
+\[
+\sum_{e\subset P}\int H_{e^-}\|D_e^{pers}\|^2
+\le
+C_N(u_0)\mathcal R(P)
++C\operatorname{Return}_{-}(P)
++C\operatorname{PotAvg}(P)
++C\operatorname{Overrun}_{sel}(P)
++R_{\rm legal}(P)+Stop(P).
+\tag{TFE.989}
+\]
+
+The source audit says the fixed stopped-score return part is already only a
+consumer relative to root geometry.  What remains under `(TFE.989)' is fresh
+potential-average positive transfer and strict reset/overrun Carleson, which are
+the same scale-native positive-transfer problem in two packet faces.
+
+In the physical packet language, after lower-band carry, spent-source reuse,
+Schur return, reset, reselection, silent exchange, legal, stop, and annular
+payback have been removed, a retained first birth must leave a positive endpoint
+seed:
+
+\[
+M_\gamma(t,x)
+=
+\int_{J_\gamma}
+k_\gamma(\sigma)\,
+\widetilde Z_\gamma^{fresh,+}(\sigma,t,x)\,d\sigma,
+\qquad
+k_\gamma\ge0.
+\tag{TFE.990}
+\]
+
+The local admission line is
+
+\[
+\omega_\gamma
+\le
+C_N
+\left[
+\int_{I_\gamma}H_\gamma(t)\|M_\gamma(t)\|_2^2\,dt
++DER(\gamma)
++R_{\rm thread}(\gamma)
+\right]
++R_{\rm legal}(\gamma)+Stop(\gamma).
+\tag{TFE.991}
+\]
+
+This line is not the global \(L^1\) theorem.  It only says that a retained child
+read cannot be counted as first birth unless it leaves a real endpoint seed in
+the original packet.  The global missing theorem is the root packing of those
+first seeds:
+
+\[
+\sum_{\gamma\subset P}
+\left[
+\int_{I_\gamma}H_\gamma(t)\|M_\gamma(t)\|_2^2\,dt
++DER(\gamma)
++R_{\rm thread}(\gamma)
+\right]
+\le
+C_N(u_0)\mathcal R(P)
++R_{\rm legal}(P)+Stop(P)
++StoppedReturnBV(P)+CriticalResetBV(P).
+\tag{TFE.992}
+\]
+
+This is the physical statement Thomas was pointing at.  The same original
+transported packet cannot create infinitely many retained first endpoint seeds.
+The same seed cannot be first twice; a reused seed is Schur/return work; a moved
+seed is reset/reselection/frame motion; a vanished and reappearing seed is return
+plus a new endpoint atom.  The only remaining way to violate \(L^1\) is to create
+infinitely many genuine first endpoint atoms whose square-size packing is not
+controlled in the selected critical metric.
+
+In the compressed critical-energy coordinate, `(TFE.992)' is equivalent to the
+one-sided positive critical transfer bound.  With
+
+\[
+B_{\rm crit}(t)
+=
+-
+\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle ,
+\tag{TFE.993}
+\]
+
+the needed estimate is
+
+\[
+\int_0^T [B_{\rm birth}(t)]_+\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
++R_{\rm legal}+Stop+StoppedReturnBV+CriticalResetBV,
+\qquad \theta<1.
+\tag{TFE.994}
+\]
+
+Here \(B_{\rm birth}\) is not a pressure-only scalar.  It is the first-birth
+projection of the full coupled pressure-viscosity-incompressibility-velocity
+transaction after reuse, return, reset, route, legal, and stop have been removed.
+The Leray form `(TFE.993)' is only the compressed coordinate face of that
+transaction.
+
+Thus the full \(L^1\) problem now has the honest bottom:
+
+\[
+\boxed{
+\text{FirstEndpointSeedPacking.A}
+\equiv
+\text{NativeBirthChargePacking.A}
+\equiv
+\text{PositiveCriticalTransferBound.A}
+}
+\tag{TFE.995}
+\]
+
+and the already audited route is
+
+\[
+\begin{gathered}
+\text{FirstEndpointSeedPacking.A}\\
+\Rightarrow
+\text{persistent affine/root quotient payment}\\
+\Rightarrow
+\text{root-defect high-frequency tail charge}\\
+\Rightarrow
+\text{root-defect tightness}\\
+\Rightarrow
+\text{root-geometry compensator}\\
+\Rightarrow
+\text{original-history selected log-amplification Carleson}\\
+\Rightarrow
+\text{active entropy deletion}\\
+\Rightarrow
+\text{terminal-uniform }L^1 .
+\end{gathered}
+\tag{TFE.996}
+\]
+
+So the physical story needed to close \(L^1\) is not merely that the parent
+coordinate system has finite variation.  That is the root-geometry presentation.
+The bottom presentation is sharper: every retained first positive scale-native
+birth must leave one endpoint seed in the original coupled packet, and those
+first endpoint seeds must have a finite root packing bound from the original
+data with a strict \(\theta<1\) viscous margin.
+
+This theorem is not installed.  The repo has the local endpoint-seed admission
+and the consumer chain above it.  The unproved Gold/L1 producer is the global
+packing `(TFE.992)' / positive-transfer estimate `(TFE.994)' for arbitrary smooth
+data.
