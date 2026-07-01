@@ -6937,3 +6937,331 @@ This is still not a Gold closure claim.  It is the current smallest
 nonduplicate producer below the entropy \(L^1\) wall: prove root-defect
 tightness from the original coupled material packet, or exhibit the surviving
 defect as the exact obstruction.
+
+## 47. Source-audit correction: the entropy survivor is persistent affine
+scale-memory return
+
+The source audit sharpens `(TFE.467)`.  The broad phrase "root-defect
+tightness" is too coarse as the last live edge, because two of its apparent
+escape faces are already handled under their stopped hypotheses.
+
+First, a strict reset/high-weight tube is paid once it is a parent-announced
+first-exit derivative interval with stopped bounded-overlap witnesses:
+
+\[
+\sum_{e\in\mathcal E_{\rm esc}}
+\int H_e\|D_e^{fresh}\|^2
+\le
+C_N\int_{\operatorname{Hist}(P)}
+w\left(
+|\partial_\sigma Z|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
+\right)
++CR_{\rm legal}(P).
+\tag{TFE.468}
+\]
+
+Second, a tight same-carrier zero-cost reset is rigid.  In the stopped carrier
+coordinate \(q=\Gamma Z\), vanishing derivative, turnstile, exchange, covector,
+legal, and stop motion gives
+
+\[
+\partial_\sigma q_\infty=0,
+\qquad
+D_\infty^{fresh}
+=q_\infty(\sigma_1)-q_\infty(\sigma_0)=0.
+\tag{TFE.469}
+\]
+
+Thus the reset escape and zero-cost replay faces are not the entropy \(L^1\)
+survivor.  After those are removed, the remaining same-carrier object is the
+persistent affine/root quotient
+
+\[
+D_e^{pers}
+=
+(I-\Pi_{\mathcal P_{e^-}})
+\mathcal C_\theta[Z_e^{fresh}],
+\tag{TFE.470}
+\]
+
+where \(\mathcal C_\theta[Z_e^{fresh}]\) is not a parent-announced derivative
+average.  This is the place where the entropy/state-count story has to become
+a real parent scale-memory inequality.
+
+In a signed scale-memory coordinate, write
+
+\[
+Y=\partial_\sigma\Psi+S^{spill}+E,
+\qquad
+Y_+=Y+Y_-.
+\]
+
+For the affine kernel \(\mathcal C_\theta\), integration by parts gives
+
+\[
+\mathcal C_\theta[Y_+]
+=
+-\theta_\kappa(s_0)\Psi(s_0)
++{1\over |I|}\int_J\Psi(\sigma)\,d\sigma
++\mathcal C_\theta[Y_-]
++\mathcal C_\theta[S^{spill}]
++\mathcal C_\theta[E].
+\tag{TFE.471}
+\]
+
+This is the exact mathematical form of the physical feedback picture.  A
+positive selected affine readout on the same carrier is not a new state opened
+from nowhere.  It is the signed scale-memory motion plus the negative return
+needed to reset the scale potential before the next positive readout can be
+presented.  Therefore the persistent quotient is controlled precisely by
+potential average, negative return, selected overrun, and paid spill/error:
+
+\[
+\sum_{e\subset P}
+\int H_{e^-}\|D_e^{pers}\|^2
+\le
+C_N(u_0)\mathcal R(P)
++C\,\operatorname{PotAvg}_P(\Psi)
++C\,\operatorname{Return}_{-,P}(\Psi)
++C\,\operatorname{Overrun}_{sel}(P)
++R_{\rm legal}(P)+Stop(P).
+\tag{TFE.472}
+\]
+
+The noncircular Gold input is the parent estimate that makes those three
+scale-memory terms original-history finite with strict native-reserve margin:
+
+\[
+\operatorname{PotAvg}_P(\Psi)
++\operatorname{Return}_{-,P}(\Psi)
++\operatorname{Overrun}_{sel}(P)
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathfrak R_{nat}(P)
++R_{\rm legal}(P)+Stop(P),
+\qquad \theta<1.
+\tag{TFE.473}
+\]
+
+Equivalently, in the generator language of the same packet, this is the
+selected-generator storage/coercivity line
+
+\[
+\int_{\operatorname{Hist}(P)}
+a(\sigma,t)\|G_{\rm sel}(\sigma,t)\|^2\,d\sigma dt
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathfrak R_{nat}(P)
++R_{\rm legal}(P)+Stop(P),
+\qquad \theta<1.
+\tag{TFE.474}
+\]
+
+The critical Leray scalar face is only a coordinate shadow of `(TFE.474)`:
+
+\[
+\int_0^\tau B_+(t)\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt,
+\qquad \theta<1.
+\tag{TFE.475}
+\]
+
+The object behind `(TFE.475)` is still the coupled material increment
+`(TFE.400)`: pressure-Hodge/current frame, strain/log-stretch,
+viscous descent, collar/turnstile, selector/order-lock, and commutator motion
+inside one transported packet.  The scalar display must not be read as a
+pressure-only or velocity-only replacement for that packet.
+
+This is also the exact relation to the entropy density theorem.  The selected
+state count is the density \(f_P=dA_P^{sel}/d\mathcal R_P\).  The half-tail
+\(\nu_\ell=2^{-\ell}/(\ell+1)\) survives raw root capacity because
+\(\sum\nu_\ell<\infty\) while \(\sum2^\ell\nu_\ell=\infty\).  It is killed by
+parent \(L\log L\) entropy or reverse Holder only after the log-amplification
+increments are produced by the same original packet:
+
+\[
+\text{persistent affine scale-memory return/coercivity `(TFE.472)'--`(TFE.474)'}
+\Longrightarrow
+\text{selected log-amplification Carleson `(TFE.387)'--`(TFE.388)'}
+\tag{TFE.476}
+\]
+
+and then
+
+\[
+\text{selected entropy/exponent lift `(TFE.382)'--`(TFE.384)'}
+\Longrightarrow
+\text{selected root reserve `(TFE.366)'}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\tag{TFE.477}
+\]
+
+So the entropy story is being used in its repo-accurate form: every positive
+child readout must either delete/reveal an accessible future state in the
+parent scale-memory record, or pay the negative return/overrun needed to reset
+that record.  The remaining proof is not the broad root-defect wrapper; it is
+the accretive same-parent scale-memory inequality `(TFE.473)`/`(TFE.474)` for
+the original coupled pressure-viscosity-incompressibility-velocity packet.
+
+This is still not a Gold closure claim.  It is a sharper target replacement:
+
+\[
+\begin{gathered}
+\text{reset escape `(TFE.468)' and zero-cost replay `(TFE.469)' are handled under their stopped hypotheses,}\\
+\text{persistent affine scale-memory return/coercivity `(TFE.472)'--`(TFE.474)'}
+\Longrightarrow
+\text{root-geometry compensator `(TFE.457)'--`(TFE.461)'}\\
+\Longrightarrow
+\text{active-weight compensator `(TFE.438)'}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\end{gathered}
+\tag{TFE.478}
+\]
+
+## 48. Direct attack on `(TFE.473)`: entropy scalar closure versus coupled
+lift/return production
+
+The entropy story is the object being used here, not an analogy.  A selected
+readout reduces the family of future parent-packet histories still compatible
+with the coupled pressure-heat-viscous handoff.  Re-reading the same material
+core at a higher active weight can create positive \(L^1\) only by one of two
+state-count motions: the same scale-memory record rises, or the record first
+returns/resets and then rises again.
+
+This gives the decomposition
+
+\[
+\mathsf A_P^{pers}
+:=
+\sum_{e\subset P}
+\int H_{e^-}\|D_e^{pers}\|^2
+\le
+C_N(u_0)\mathcal R(P)
++C\operatorname{Rec}_P(\Psi)
++C\operatorname{Ret}_{-,P}(\Psi)
++C\operatorname{Overrun}_{sel}(P)
++R_{\rm legal}(P)+Stop(P),
+\tag{TFE.479}
+\]
+
+where \(\mathsf A_P^{pers}\) is the persistent same-core affine/root readout
+from `(TFE.470)`.  The scalar part of `(TFE.479)` is closed: along one stopped
+ancestry line,
+
+\[
+V_+(\Psi;I)
+=
+\Psi(\sigma_1)-\Psi(\sigma_0)+V_-(\Psi;I).
+\tag{TFE.480}
+\]
+
+Thus positive visits of the selected scale-memory coordinate are exactly record
+growth plus negative return, modulo already paid spill/error.  In the chess-state
+picture, a later compatible state is not a new game; it is reached either by
+advancing the same record or by moving backward enough that a later positive
+move is a return-read of the same record.
+
+The source audit shows precisely which parts of `(TFE.473)` are scalar and which
+parts are still PDE production:
+
+\[
+\begin{gathered}
+\text{scalar BV identity `(TFE.480)'}\\
++\text{endpoint-corrected record/potential-average consumer}\\
++\text{harmonic square return payment from the original packet}\\
++\text{selected admission/root-reserve lower bound}\\
++\text{polar-compatible signed lift before clipping}
+\end{gathered}
+\Longrightarrow
+\text{`(TFE.473)' and `(TFE.474)'.}
+\tag{TFE.481}
+\]
+
+The already installed original-packet return estimate is square, not raw linear:
+
+\[
+\sum_{I\subset P}
+H_I\left({\Delta_I^-P_R\over |I|}\right)^2
+\le
+C_N
+\int_{\operatorname{Hist}(P)}
+w\left(
+|\partial_\sigma Z^S|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
++|\operatorname{conn}_\sigma|^2
+\right)
++R_{\rm legal}(P)+Stop(P).
+\tag{TFE.482}
+\]
+
+To turn `(TFE.482)` into the linear negative-return term in `(TFE.479)`, each
+retained selected return must be admitted into the same harmonic currency:
+
+\[
+\Delta_I^-P_R\ge \eta |I|
+\quad\text{on retained selected returns,}
+\qquad\text{or}\qquad
+\sum_I\int_Iw^{-1}\,d\sigma
+\le C_N\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.483}
+\]
+
+This is exactly where the entropy story touches the \(L^1\) wall.  The scalar
+state-deletion law prevents a same-core positive readout from being counted as
+fresh at every scale.  The coupled PDE proof must still show that the returns
+and records seen by that scalar law are visible in the original
+pressure-viscosity-incompressibility-velocity packet before the child clips the
+positive part.
+
+Equivalently, the direct contradiction form is:
+
+\[
+\mathsf A_{P_n}^{pers}=1,
+\qquad
+\operatorname{Rec}_{P_n}(\Psi)
++\operatorname{Ret}_{-,P_n}(\Psi)
++\operatorname{Overrun}_{sel}(P_n)
++R_{\rm legal}(P_n)+Stop(P_n)\to0
+\tag{TFE.484}
+\]
+
+is impossible once the signed lift and selected return admission are installed.
+Indeed `(TFE.480)` then forces the positive scale-memory variation to vanish,
+while `(TFE.479)` says all persistent selected affine/root readout is made from
+that variation plus paid defects.  Any nonzero survivor in `(TFE.484)` is
+therefore not a new entropy state; it is a failure of one of the coupled
+production inputs in `(TFE.481)`.
+
+So the current proof state is sharp.  The entropy scalar theorem closes the
+counting problem after the coupled variables have been lifted into a signed
+same-parent scale-memory record.  Gold closure still requires the original
+coupled packet to produce that lift and the retained-return admission with a
+strict \(\theta<1\) margin:
+
+\[
+\operatorname{Rec}_P(\Psi)
++\operatorname{Ret}_{-,P}(\Psi)
++\operatorname{Overrun}_{sel}(P)
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathfrak R_{nat}(P)
++R_{\rm legal}(P)+Stop(P),
+\qquad \theta<1.
+\tag{TFE.485}
+\]
+
+When `(TFE.485)` is proved from the original
+pressure-viscosity-incompressibility-velocity packet, `(TFE.479)` gives the
+persistent affine/root contribution, `(TFE.476)` gives selected entropy
+Carleson, `(TFE.477)` gives the exponent lift/root reserve, and `(TFE.478)` gives
+terminal-uniform \(L^1\).  Without `(TFE.485)`, the note has a complete entropy
+reduction but not Gold closure.
