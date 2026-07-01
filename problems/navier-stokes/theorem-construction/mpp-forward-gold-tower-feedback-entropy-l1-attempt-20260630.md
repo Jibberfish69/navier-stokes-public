@@ -450,3 +450,183 @@ Equivalently, prove `(TFE.16)` from the original coupled
 pressure-viscosity-incompressibility packet.  Once `(TFE.16)` is proved,
 `(TFE.17)` gives the terminal-uniform \(L^1\) bound and feeds the existing Gold
 chain to `FGC.25`.
+
+## 9. How this \(L^1\) line would actually be solved
+
+The solution cannot be a bare energy statement.  It has to build a
+parent-known stopped record for the same coupled packet before selected child
+readout.  In the existing branch language this is
+
+```text
+StoppedRoutedSourceInnovationTesting.A
++ BranchPaidStoppedTestingDefects.A
+=> OriginalHistoryHilbertBMOProducer.A
+=> OriginalHistorySelectedPotentialAmplificationBV.A
+=> (TFE.16)
+=> (TFE.17).
+```
+
+The required construction is as follows.  For every stopped same-material region
+\(S\), decompose the routed original-history source into stopped innovations
+
+\[
+\nu^S
+=
+\sum_{Q\subset S}d\nu_Q^S+\nu^S_{stop/legal},
+\tag{TFE.29}
+\]
+
+where each retained increment is adapted to the stopped parent filtration and
+is built from the original coupled source channels:
+
+\[
+d\nu_Q^S
+=
+d\nu^S_{vis,Q}
++d\nu^S_{press/ex,Q}
++d\nu^S_{return,Q}
++d\nu^S_{reset,Q}
++d\nu^S_{legal,Q}.
+\tag{TFE.30}
+\]
+
+The first admission line is the martingale/innovation law
+
+\[
+\mathbb E(d\nu_Q^S\mid \mathcal F^S_{par(Q)})=0
+\quad\hbox{modulo root, legal, and stop mean defects.}
+\tag{TFE.31}
+\]
+
+Physically, `(TFE.31)` says that after the parent packet has already announced a
+pressure-compatible push, the child readout is not allowed to reintroduce that
+same push as a new mean force.  Any nonzero mean is not hidden; it is recorded
+as root, legal, or stop material.
+
+Let \(T_S\) be the stopped same-material Hilbert/Riesz/martingale transform that
+turns the routed source into the stopped record
+
+\[
+Z^S=T_S\nu^S.
+\tag{TFE.32}
+\]
+
+The proof-bearing estimate is the local stopped testing inequality
+
+\[
+\sum_{Q\subset P}
+\|T_Sd\nu_Q^S\|_{L^2(Q,\mathcal R)}^2
++
+\operatorname{Def}_{test}(P)
+\le
+C_N(u_0)\mathcal R(P)
++C R_{legal}(P)+C Stop(P)
++C\operatorname{Def}_{branch}(P),
+\tag{TFE.33}
+\]
+
+for every retained stopped subpacket \(P\subset S\).  The branch defect must then
+be exactly the finite return/reset variation already isolated elsewhere:
+
+\[
+\operatorname{Def}_{branch}(P)
+\le
+C\operatorname{RetBV}(P)
++C\operatorname{ResetBV}(P)
++C R_{legal}(P)+C Stop(P),
+\tag{TFE.34}
+\]
+
+and
+
+\[
+\operatorname{RetBV}(P)+\operatorname{ResetBV}(P)
+\le
+C_N(u_0)\mathcal R(P)
++C R_{legal}(P)+C Stop(P).
+\tag{TFE.35}
+\]
+
+Then stopped \(Tb\) / martingale-transform theory gives the parent-known BMO
+record:
+
+\[
+\sup_{P'\subseteq P}{1\over\mathcal R(P')}
+\left[
+\sum_{S'\subseteq P'}\sum_{Q\subseteq S'}
+\bigl(\|\Delta_Q Z^{S'}\|^2+|e_Q^{S'}|^2\bigr)\mathcal R(Q)
++Stop(P')
+\right]
+\le
+C_N(u_0)+{C R_{legal}(P')\over\mathcal R(P')}.
+\tag{TFE.36}
+\]
+
+This record carries the three coordinates needed by the \(L^1\) problem:
+
+\[
+\mathfrak Z^S=(Z^S,\Psi^S,\Lambda^S).
+\tag{TFE.37}
+\]
+
+The \(Z^S\) coordinate pays fixed-core inherited return; the \(\Lambda^S\)
+coordinate pays reset/overrun variation; the \(\Psi^S\) coordinate pays the
+affine/root pressure-memory average:
+
+\[
+\int_0^{T_*}
+H_w(t)
+\left\|
+{1\over |J|}\int_J\Psi^S(\sigma,t)\,d\sigma
+\right\|_{L_x^2}^2dt
+\le
+C_N(u_0)\mathcal R(P)+C R_{legal}(P)+C Stop(P).
+\tag{TFE.38}
+\]
+
+Now decompose the positive motion of the parent target \(Y\) on every selected
+edge \(e\):
+
+\[
+b_e(D_rY_e)_+\,dr
+\le
+\theta\,b_e(D_rW_e)_+\,dr
++d\mathcal S_e
++d\mathcal B_e
++d\mathcal R_e,
+\qquad \theta<1.
+\tag{TFE.39}
+\]
+
+Here \(d\mathcal S_e\) is Schur storage/current work on already admitted parent
+directions, \(d\mathcal B_e\) is the fresh Bessel/BMO increment from
+`(TFE.36)`--`(TFE.38)`, and \(d\mathcal R_e\) is return/reset/legal/stop
+variation.  Summing `(TFE.39)` over the stopped tree gives
+
+\[
+\sum_{\alpha\in\mathcal A_N}
+b_\alpha\int_0^{T_*}(D_rY_\alpha)_+\,dr
+\le
+\theta L_N+C_N(u_0)+Err_N,
+\tag{TFE.40}
+\]
+
+which is `(TFE.16)`.  Substitution into `(TFE.15)` gives
+
+\[
+L_N
+\le
+{1\over 1-\theta}
+\bigl(G_N(0)+Err_N+C_N(u_0)\bigr).
+\tag{TFE.41}
+\]
+
+This is the terminal-uniform \(L^1\) estimate.
+
+So the mathematical solution is exact: prove `(TFE.31)`--`(TFE.35)` from the
+original coupled Navier-Stokes packet.  The physical content is that pressure
+feedback may reorganize the remaining velocity state, but every reorganization
+has to enter the parent-known stopped innovation record before any child
+finite-difference readout can clip it as positive action.  Once that record has
+Carleson/BMO size, the continuum of heat-lag readouts is one dissipative
+unfolding of one original signal, not infinitely many new positive pushes.
