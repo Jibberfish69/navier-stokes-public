@@ -1,16 +1,15 @@
 ---
 theorem_id: forward-gold-clock-quantization-to-cm-final-assembly-20260623
-status: retained-normalized-branch-closed-cm-face-assembly-recorded
+status: superseded-conditional-consumer-record-finite-clock-not-installed
 logical_landing_node: clock_quantization_to_cm_final_assembly
 edge_effect: >-
-  Assembles the corrected clock-quantization result with the installed CM
-  terminal-witness route. The forward-gold retained normalized branch is closed:
-  finite full same-material clock prevents terminal-tail loss of Part on
-  normalized non-gauge packets, retained endpoint singular packets enter A_4B,
-  and finite A_4B forbids infinite recurrence. If the normalized same-material
-  record is absent, the branch is not an unresolved retained gold obstruction;
-  it is the Part/Field face already consumed by ClayTerminalWitnessInvalidation.A.
-  This records no remaining unclassified gold endpoint pulse in the repo route.
+  Supersession audit 2026-07-01: this assembly is a conditional consumer of a
+  finite full same-material clock, not a proof of that clock. Current Gold L1
+  authority keeps GlobalSamePacketFullClockFromOriginalData.A /
+  TFE2748B-OriginalCriticalCapacityVariation.A open until the strict
+  same-parent positive-variation storage estimate is proved from original data.
+  Under that finite-clock premise, clock quantization and CM terminal-witness
+  routing consume retained normalized endpoint packets as described below.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-same-packet-part-noexit-clock-quantization-direct-attempt-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-singularity-to-retained-material-critical-packet-direct-attempt-20260622.md
@@ -23,10 +22,12 @@ parents:
 
 Date: 2026-06-23
 
-## 0. Result
+## 0. Conditional result
 
-The corrected clock-quantization theorem removes the last retained forward-gold
-branch.
+Supersession audit 2026-07-01.  This note is not authority that the Gold finite
+full same-material clock has been proved.  It records the terminal consumer
+assembly that would apply after that clock is supplied by the current Gold L1
+source theorem.
 
 The terminal alternatives are now:
 
@@ -55,7 +56,8 @@ return, or interface defect outside the route.
 
 ## 1. Retained normalized branch
 
-The prelimit master balance gives the finite full same-material clock:
+The prelimit master balance is usable here only under the finite full
+same-material clock premise:
 
 ```math
 \int_{\sigma_0}^{\infty}

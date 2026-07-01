@@ -1499,3 +1499,76 @@ the signed local algebra remains gauge-compatible.  The missing theorem must
 retain the global same-parent pressure/strain partner or prove a finite
 same-material flux-variation clock; it cannot be obtained from a purely local
 smooth commutator calculation.
+
+## 18. Partner-retention surfaces confirm the same producer is open
+
+The global pressure/strain partner files do not give an independent closing
+estimate for `(TFE2748B.90)'.  They identify the same coupled parent transaction
+from another side.
+
+The theorem-creation surface for `GlobalPressureStrainPartnerRetention.A' says
+that pressure-Hessian partner retention and annular stress-work identify the
+carrier, but finite work of the moving low-high pump is the remaining primitive:
+
+\[
+\texttt{GlobalPressureStrainPartnerRetention.A}
+\quad\leadsto\quad
+\texttt{MovingLowHighPressureStrainPumpFiniteWork.A}.
+\tag{TFE2748B.92}
+\]
+
+The direct pressure/strain service attempt states the same point in clock
+language:
+
+\[
+\int_0^{T_*}d\Omega_N^{press/strain,partner}<\infty
+\quad\Longleftrightarrow\quad
+\sup_{t<T_*}\|u(t)\|_{H^s}<\infty
+\tag{TFE2748B.93}
+\]
+
+modulo the already legal lower-order residuals.  Thus the direct partner-service
+estimate is continuation-strength.  It is not a noncircular proof of finite
+positive service from original data.
+
+The pressure-Hessian partner-retention reduction gives the signed pressure-side
+classification:
+
+\[
+\text{positive pressure-Hessian service}
+\le
+\text{retained pressure cancellation}
++\text{legal pressure/collar service}
++d\Omega_N^{press,miss}.
+\tag{TFE2748B.94}
+\]
+
+This is real same-fluid accounting: a selected positive pressure lobe either
+retains its Calderon-Zygmund partner, exits through legal pressure/collar
+material, or becomes missing-partner pressure clock.  The reduction does not
+prove
+
+\[
+\int_0^{T_*}d\Omega_N^{press,miss}<\infty .
+\tag{TFE2748B.95}
+\]
+
+So the current non-PDF Gold source picture is one obstruction in several
+coordinate systems:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{rectified annular flux variation `(TFE2748B.90)'}\\
+\text{same-packet commutator/coercivity `SignedSmoothSamePacketCommutatorCoercivity.A'}\\
+\text{finite full service clock \(\int_0^{T_*}\Theta_N(t)\,dt<\infty\)}\\
+\text{global pressure/strain partner retention}\\
+\text{moving low-high pressure/strain pump finite work}
+\end{array}}
+\tag{TFE2748B.96}
+\]
+
+The installed surfaces prove the equivalence/reduction map around this object
+and the downstream consumers once it is granted.  They do not yet prove the
+strict same-parent positive-variation estimate from arbitrary original smooth
+data.
