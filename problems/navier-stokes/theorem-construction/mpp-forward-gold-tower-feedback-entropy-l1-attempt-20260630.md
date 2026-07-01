@@ -36538,20 +36538,25 @@ before child clipping, and that the stopped oscillation satisfies
 \tag{TFE.2506}
 \]
 
-with paid stopping on the exceptional subfibres.  Equivalently, by
-John--Nirenberg/Kazamaki, there are \(\alpha_N>0\) and \(C_N\) such that
+with paid stopping on the exceptional subfibres.  This finite BMO statement is
+not by itself the reverse-Holder supplier at the exponent used below.  The
+usable stopped output is an exponential-BMO/Kazamaki margin at some exponent
+strictly larger than one: there are \(\varepsilon_N>0\) and \(C_N\) such that
 
 \[
 {1\over\mathfrak m(E')}
 \int_{E'}
 \exp\!\left(
-\alpha_N|b_E-\langle b_E\rangle_{E'}|
+(1+\varepsilon_N)|b_E-\langle b_E\rangle_{E'}|
 \right)d\mathfrak m
 \le C_N
 \tag{TFE.2507}
 \]
 
-for every stopped \(E'\subseteq E\), up to paid exceptional pieces.
+for every stopped \(E'\subseteq E\), up to paid exceptional pieces.  In
+practice `(TFE.2507)' is obtained from `(TFE.2506)' only after a stopped
+small-BMO or Kazamaki decomposition; otherwise finite BMO would be another
+underpaid source.
 
 Define the normalized selected density
 
@@ -36562,7 +36567,7 @@ R_E
 \tag{TFE.2508}
 \]
 
-Choose \(0<\varepsilon_N<\alpha_N\).  Since
+Using the same \(\varepsilon_N\) as in `(TFE.2507)', and since
 \(\langle\exp b_E\rangle_E\ge \exp\langle b_E\rangle_E\) by Jensen,
 
 \[
@@ -36604,7 +36609,7 @@ So the exact replacement for
 \boxed{
 \begin{array}{c}
 \texttt{BeforeClippingSelectedLogCarrier.A: construct \(b_E\) as in `(TFE.2505)';}\\
-\texttt{StoppedParentLogCarrierBMO.A: prove `(TFE.2506)' or `(TFE.2507)'.}
+\texttt{StoppedParentLogCarrierExponentialBMO.A: prove `(TFE.2507)'.}
 \end{array}}
 \tag{TFE.2511}
 \]
@@ -36614,7 +36619,9 @@ selected ratio must be built from routed pressure-Hodge/current frame,
 viscous/Stokes descent, self-advection, collar/turnstile, selector/order-lock,
 return, legal, and stop material before clipping.  The second line is the
 root-square/Carleson packing theorem for that carrier.  Once those two are
-proved, the reverse-Holder and entropy estimates are deterministic.
+proved, the reverse-Holder and entropy estimates are deterministic.  A plain
+finite-BMO estimate `(TFE.2506)' is useful only insofar as the stopping
+argument upgrades it to `(TFE.2507)'.
 
 In the exact \(L^1\) chain this changes the open source list from
 
@@ -36634,7 +36641,7 @@ to
 \begin{array}{c}
 \texttt{ContinuousNativeBirthReservePushforward.A}\\
 +\texttt{BeforeClippingSelectedLogCarrier.A}\\
-+\texttt{StoppedParentLogCarrierBMO.A}\\
++\texttt{StoppedParentLogCarrierExponentialBMO.A}\\
 +\texttt{TerminalFirstTimeRungNoResidue.A}\\
 +\texttt{FullExchangeCriticalDepletionStorage.A.}
 \end{array}}
@@ -38254,3 +38261,119 @@ The first three clauses are exactly the local proof obligations for
 `(TFE.2598)'; the fourth is `(TFE.2426)'.  No dyadic counting, endpoint seed
 alias, log-ratio zero-baseline convention, or child-selected positive tail is
 left as an independent source.
+
+## 228. The three faces are consumers of one parent generator clock
+
+The split in Section 227 is useful only if each face is immediately pulled back
+to the same before-clipping parent clock.  Otherwise the split recreates the
+old mistake: endpoint, tower, and low-high language would sound like three
+different suppliers.  They are not.  They are three readouts of the same
+coupled pressure-Hodge/viscous/Stokes/self-advection/incompressibility packet.
+
+The endpoint face is discharged once endpoint inheritance is time-thick in the
+same root generator clock.  The measure \(d\mu_P^{Ent}\) is the left-entry /
+terminal inherited component defined in `(TFE.2256)'.  The needed local
+domination is the endpoint component of `(TFE.2539)':
+
+\[
+d\mu_P^{Ent}
+\le
+C_Nd\Omega_P^{gen}+dPaid_P .
+\tag{TFE.2612}
+\]
+
+Combining `(TFE.2612)' with the absorbed form of `(TFE.2426)',
+
+\[
+d\Omega_P^{gen}
+\le
+-dM_P+C_Nd\Theta_P^0+dPaid_P,
+\tag{TFE.2613}
+\]
+
+gives
+
+\[
+d\mu_P^{Ent}
+\le
+-C_N^{-1}dM_P+C_Nd\Theta_P^0+dPaid_P
+\]
+
+after changing constants.  Taking
+\(\mathscr S_P^E=C_N^{-1}M_P\) gives `(TFE.2607)'.  Thus endpoint no-residue is
+not an independent terminal account: it is exactly the statement that terminal
+or left-entry material has density with respect to the same time-thick parent
+generator clock.
+
+The tower face is discharged by the signed-partner storage already isolated in
+`(TFE.2309)'.  In the notation of Section 227, `(TFE.2309)' says
+
+\[
+d\mathfrak L_{4B,N}
++a\,dA_{4B,N}^{tower,+}
+\le
+dR_A^{paid},
+\qquad
+\mathfrak L_{4B,N}\ge -C_N(u_0)\mathcal R(P)-Paid(P).
+\tag{TFE.2614}
+\]
+
+Since `(TFE.2608)' allows the larger right side
+\(C_Nd\Xi_P^{FE}+\theta_A^Ad\Omega_P^{gen}+dPaid_P\), `(TFE.2614)' implies
+the tower face with \(\mathscr S_P^A=\mathfrak L_{4B,N}\).  The real content is
+therefore not a new tower reserve; it is the signed-partner retention theorem
+`(TFE.2298)' which constructs `(TFE.2614)' before positive clipping.
+
+The low-high face is discharged once the selected first-ratio density is a
+parent-known detector against the same root generator.  In continuous parent
+measure form this is
+
+\[
+d\mathcal J_N
+=
+R_{N,P}\,d\mathcal C_{N,P}^{LH}
+\le
+C_Nd\Omega_P^{gen}+dPaid_P ,
+\tag{TFE.2615}
+\]
+
+which is the local version of `(TFE.2326)'--`(TFE.2332)' after first-exit
+overlap and parent-known testing are installed.  Using the first line of
+`(TFE.2426)' gives
+
+\[
+d\mathcal J_N
+\le
+C_Nd\Xi_P^{FE}+dPaid_P,
+\tag{TFE.2616}
+\]
+
+so `(TFE.2609)' follows with \(\mathscr S_P^J=0\) and
+\(\theta_A^J=0\), or with the storage \(Z_N\) from `(TFE.2332)' when the
+native-reserve feedback term is retained explicitly.  The unproved source here
+is exactly the critical parent-capacity / strict tail theorem `(TFE.2550)' or
+`(TFE.2470)', not a separate child-scale summation.
+
+Consequently the local source line has the exact face-discharge form
+
+\[
+\boxed{
+\begin{array}{c}
+\text{time-thick endpoint domination `(TFE.2612)'}\\
++\text{signed-partner tower storage `(TFE.2614)'}\\
++\text{parent-known low-high detector domination `(TFE.2615)'}\\
++\text{full-exchange no-self-feeding storage `(TFE.2426)'}
+\end{array}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+}
+\tag{TFE.2617}
+\]
+
+This is the cleaned-up \(L^1\) picture.  The positive selected \(L^1\) measure
+is finite when every active readout is absolutely continuous with respect to
+the original parent generator clock and that clock has strict same-parent
+no-self-feeding storage.  The only remaining original-data work is proving
+`(TFE.2612)', `(TFE.2614)', `(TFE.2615)', and `(TFE.2426)' from the coupled
+Navier--Stokes packet without defining any one of them from the future
+child-selected positive tail.
