@@ -18787,3 +18787,918 @@ selected critical metric of the same original material packet.  The unproved
 mathematics is the construction of the root-finite, parent-known
 \(\mathfrak M_P\) that makes that deletion quantitative with a strict
 \(\theta<1\) margin for arbitrary smooth data.
+
+## 114. Active entropy capacity: exact deletion algebra and remaining source
+
+The noncircular candidate for \(\mathfrak M_P\) is not the future selected tail.
+It is the remaining active entropy of a parent-known selected density.  Let
+\(\mathcal R_P\) be the original same-material root measure on a stopped packet
+and suppose the coupled packet has already constructed, before child clipping,
+an active selected density
+
+\[
+dA_P^{act}=f_P\,d\mathcal R_P,
+\qquad
+f_P\ge0.
+\tag{TFE.1269}
+\]
+
+The active entropy capacity is
+
+\[
+\mathcal C_P^{ent}
+:=
+\int_P f_P\log(e+f_P)\,d\mathcal R_P .
+\tag{TFE.1270}
+\]
+
+This is the exact state-count object behind the physical picture.  If the
+retained children \(Q\subset P\) have averages
+
+\[
+f_Q={1\over\mathcal R(Q)}\int_Qf_P\,d\mathcal R,
+\qquad
+r_Q={f_Q\over f_P^{avg}},
+\qquad
+f_P^{avg}:={1\over\mathcal R(P)}\int_Pf_P\,d\mathcal R,
+\tag{TFE.1271}
+\]
+
+then the entropy chain rule gives
+
+\[
+\operatorname{Ent}_P(f)
+=
+\sum_{Q\subset P}\operatorname{Ent}_Q(f)
++
+\sum_{Q\subset P}A^{act}(Q)\log r_Q
++Paid(P),
+\tag{TFE.1272}
+\]
+
+where \(A^{act}(Q)=f_Q\mathcal R(Q)\).  Thus a child ratio \(r_Q\ge2^L\)
+spends at least
+
+\[
+A^{act}(Q)\log r_Q
+\ge
+L(\log2)\,A^{act}(Q)
+\tag{TFE.1273}
+\]
+
+of the parent active entropy before that child can count its positive readout.
+This is the literal "future states are deleted" calculation: high selected
+ratio is not merely owned by the same parent; it consumes parent entropy in
+proportion to its ratio level.
+
+The half-tail is then beaten by pure arithmetic.  Decompose
+
+\[
+E_L:=\{2^L\le f_P<2^{L+1}\},
+\qquad
+a_L:=\int_{E_L}f_P\,d\mathcal R_P .
+\tag{TFE.1274}
+\]
+
+For \(L\ge1\),
+
+\[
+\int_{E_L}f_P\log(e+f_P)\,d\mathcal R_P
+\ge
+c\,L\,a_L .
+\tag{TFE.1275}
+\]
+
+Therefore
+
+\[
+\sum_{L\ge1}a_L
+\le
+C\sum_{L\ge1}L\,a_L
+\le
+C\mathcal C_P^{ent}.
+\tag{TFE.1276}
+\]
+
+In the model half-tail \(f_L=2^L\) on mass
+\(\mu_L=2^{-L}/(L+1)\), one has
+
+\[
+\sum_La_L=\sum_L2^L\mu_L=\sum_L{1\over L+1}=\infty,
+\tag{TFE.1277}
+\]
+
+and also
+
+\[
+\mathcal C_P^{ent}
+\gtrsim
+\sum_LL\,2^L\mu_L
+=\infty .
+\tag{TFE.1278}
+\]
+
+So the active entropy capacity sees exactly the hidden multiplicity that raw
+energy misses.
+
+A stronger but equivalent usable form is a parent reverse-Holder estimate.  If
+for some \(\varepsilon>0\)
+
+\[
+\int_P f_P^{1+\varepsilon}\,d\mathcal R_P
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1279}
+\]
+
+then
+
+\[
+a_L
+\le
+2^{-\varepsilon L}
+\int_P f_P^{1+\varepsilon}\,d\mathcal R_P,
+\qquad
+\sum_La_L\le C_\varepsilon C_N(u_0)+Paid(P),
+\tag{TFE.1280}
+\]
+
+which is the geometric strict-barrier version of the same state deletion.
+
+Thus the deterministic part of the \(L^1\) solution is complete:
+
+\[
+\boxed{\text{parent-known active entropy or reverse Holder}}
+\Longrightarrow
+\text{weighted selected \(L^1\)}
+\Longrightarrow
+(TFE.1260)
+\Longrightarrow
+FGC.25 .
+\tag{TFE.1281}
+\]
+
+The remaining mathematical source is exactly the parent-known construction and
+root bound for \(f_P\).  The PDE must prove, from the original coupled
+pressure-viscosity-incompressibility-velocity packet,
+
+\[
+\mathcal C_P^{ent}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1282}
+\]
+
+or the reverse-Holder form `(TFE.1279)', before selected positive clipping.
+Equivalently, it must construct a stopped carrier \(Z^S\), compensator
+\(\psi\), and defect \(e\) with
+
+\[
+\log r_Q=\ell_Q(\Delta_QZ^S)-\psi_Q+e_Q,
+\qquad
+\sup_{P'\subseteq P}
+{1\over\mathcal R(P')}
+\sum_{Q\subseteq P'}
+\bigl(\|\Delta_QZ^S\|^2+|e_Q|^2\bigr)\mathcal R(Q)
+\le
+C_N(u_0)+Paid(P').
+\tag{TFE.1283}
+\]
+
+This is the same root source family as
+`OriginalHistorySelectedLogAmplificationCarleson.A`.  It is stronger than the
+bare linear face `PositiveCriticalTransferBound.A` unless the active-density
+bridge from linear positive transfer to entropy/reverse Holder is also proved.
+The important gain from this section is that the entropy/state-count part is no
+longer heuristic: once `(TFE.1282)' or `(TFE.1283)' is supplied from original
+data, the half-tail cannot survive and terminal-uniform \(L^1\) follows by the
+displayed chain.  A proof of the linear positive-transfer face can close \(L^1\)
+directly, but it should not be advertised as reverse Holder without that bridge.
+
+## 115. Source routes for the parent-known density
+
+There are now two lawful ways to supply the parent-known active capacity.  They
+share the same physical packet, but they are not the same estimate.
+
+The entropy route proves `(TFE.1282)' or `(TFE.1283)'.  It constructs the active
+density \(f_P\), proves stopped log-amplification Carleson/BMO, and then uses
+the deterministic entropy algebra `(TFE.1272)'--`(TFE.1281)' to close the
+selected \(L^1\) line.
+
+The linear route proves direct positive-transfer or native-birth packing:
+
+\[
+\int_0^\tau [B_{\rm crit}(t)]_+\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(\tau),
+\qquad
+\theta<1.
+\tag{TFE.1284}
+\]
+
+Equivalently, in stopped material atoms, it proves a bounded native-reserve map
+
+\[
+\iota:\Gamma_N(P)\to\mathcal R_N^{nat}(u_0;P),
+\qquad
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}+Paid(\gamma),
+\qquad
+\operatorname{mult}(\iota)\le C_N,
+\tag{TFE.1285}
+\]
+
+with
+
+\[
+\sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}\rho
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1286}
+\]
+
+Then
+
+\[
+\sum_{\gamma\subset P}\omega_\gamma
+\le
+C_N
+\sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}
+\operatorname{mult}(\rho)\rho
++Paid(P)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1287}
+\]
+
+which is already terminal-uniform \(L^1\) for the selected native-birth branch.
+This route does not need to prove reverse Holder first.
+
+The direct production tests show why neither route is currently installed.
+Entropy/log language is a consumer unless the root log-amplification carrier
+and Carleson bound are produced from the original packet.  Selector kinematics
+pays only moving-label defects.  Hilbert bubbles close only after their root
+energy is bounded independently of the future selected tail.  Raw
+pressure-Hodge or \(L^2\) energy has the radius discount
+
+\[
+\int_{Q_r}|\Sigma|^2\simeq r,
+\qquad
+\int_{Q_r}|\Sigma|^{5/2}\simeq1,
+\tag{TFE.1288}
+\]
+
+so it cannot dominate the selected critical birth along a summable-radius
+half-tail.
+
+The dynamic silent/exchange idea supplies the right generator shape.  A selected
+silent packet cannot persist through material motion without producing
+commutator, strain, turnstile, covector, exchange, reset, or legal motion:
+
+\[
+D_tf_Q
+=
+\mathcal L_A(D_tw_Q)+[D_t,\mathcal L_A]w_Q .
+\tag{TFE.1289}
+\]
+
+The remaining source problem is the root packing of that generated motion
+before positive scalar readout:
+
+\[
+\sum_{e\subset P}
+\int H_{e^-}\|D_e^{new}\|^2
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1290}
+\]
+
+where \(H_{e^-}\), the parent span, and the fresh projection are all
+parent-known.  If `(TFE.1290)' is proved with entropy-weighted increments, it
+feeds `(TFE.1283)'.  If it is proved with linear selected-native increments, it
+feeds `(TFE.1285)'--`(TFE.1287)' directly.
+
+Thus the next proof cannot be another statement that "entropy closes \(L^1\)" or
+"positive transfer closes \(L^1\)".  Both are now deterministic consumers.  The
+remaining PDE work is to prove one original-data root packing inequality:
+
+\[
+\text{original coupled packet}
+\Longrightarrow
+\text{parent-known fresh generator/root reserve packing `(TFE.1290)'}.
+\tag{TFE.1291}
+\]
+
+This is the physical bottom of the current \(L^1\) problem: pressure-compatible
+silent/exchange/fresh motion must become either parent-announced entropy
+capacity or native-reserve atom mass before any child-positive readout can count
+it.
+
+## 116. Critical-weight fork: what first-birth/no-reuse still does not prove
+
+The current candidate `(TFE.1290)' has one exact danger: replacing the selected
+critical weight by raw Bessel freshness.  For a stopped parent \(P\), write the
+fresh increment after spent-source projection as
+
+\[
+F_\gamma
+=
+(I-\Pi_{\rm spent(<\gamma)})\Delta_\gamma Z_P^{orig}.
+\tag{TFE.1292}
+\]
+
+Orthogonality and first-entry logic can prove the raw bound
+
+\[
+\sum_{\gamma\subset P}\|F_\gamma\|_{\mathcal H_{\rm raw}}^2
+\le
+C_N\|Z_P^{orig}\|_{\mathcal H_{\rm raw}}^2+Paid(P).
+\tag{TFE.1293}
+\]
+
+This is real no-reuse, but it is not the \(L^1\) producer.  Gold needs
+
+\[
+\sum_{\gamma\subset P}
+w_\gamma\|F_\gamma\|_{\mathcal H_{\rm raw}}^2
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\qquad
+w_\gamma\simeq r_\gamma^{-1}.
+\tag{TFE.1294}
+\]
+
+The half-tail separates them:
+
+\[
+\|F_\ell\|_{\mathcal H_{\rm raw}}^2
+=
+{2^{-\ell}\over \ell+1},
+\qquad
+w_\ell=2^\ell .
+\tag{TFE.1295}
+\]
+
+Then
+
+\[
+\sum_\ell\|F_\ell\|_{\mathcal H_{\rm raw}}^2<\infty,
+\qquad
+\sum_\ell w_\ell\|F_\ell\|_{\mathcal H_{\rm raw}}^2
+=
+\sum_\ell{1\over \ell+1}
+=\infty .
+\tag{TFE.1296}
+\]
+
+Thus first-birth and no-reuse are only the combinatorial half.  They say the
+same original increment is not sold twice.  They do not say that infinitely many
+genuinely fresh smaller increments have finite selected-critical weight.
+
+The noncircular analytic half must represent each retained fresh increment as a
+parent-announced average of an original generator:
+
+\[
+F_\gamma(t)
+=
+{1\over |I_\gamma|}
+\int_{I_\gamma}G(\sigma,t)\,d\sigma
++Err_\gamma^{paid}(t),
+\tag{TFE.1297}
+\]
+
+with a parent-known active weight
+
+\[
+W_\gamma(t)
+=
+{|I_\gamma|^2\over\int_{I_\gamma}a(\sigma,t)^{-1}\,d\sigma}.
+\tag{TFE.1298}
+\]
+
+Weighted Cauchy gives the local selected atom:
+
+\[
+W_\gamma(t)\|F_\gamma(t)\|^2
+\le
+C\int_{I_\gamma}a(\sigma,t)\|G(\sigma,t)\|^2\,d\sigma
++Paid_\gamma(t).
+\tag{TFE.1299}
+\]
+
+If the intervals/tubes are parent-announced and sparse, summing `(TFE.1299)'
+reduces `(TFE.1294)' to the root generator inequality
+
+\[
+\int_{\operatorname{Hist}(P)}
+a(\sigma,t)\|G(\sigma,t)\|^2\,d\sigma dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1300}
+\]
+
+This is the first proof line that can actually beat `(TFE.1296)'.  The weight
+\(a\), generator \(G\), and intervals \(I_\gamma\) must be constructed from the
+original pressure-viscosity-incompressibility-velocity history before selected
+readout.  If \(a\) is chosen from the descendant selected tail, `(TFE.1300)' is
+just the desired \(L^1\) theorem renamed.
+
+So the exact proof split below `(TFE.1291)' is:
+
+\[
+\begin{aligned}
+\text{source attachment + spent projection}
+&\Longrightarrow
+\text{raw no-reuse `(TFE.1293)'},\\
+\text{parent-announced generator average + root bound `(TFE.1300)'}
+&\Longrightarrow
+\text{critical weighted packing `(TFE.1294)'},\\
+\text{raw no-reuse + critical weighted packing}
+&\Longrightarrow
+\text{native-birth map `(TFE.1285)'--`(TFE.1287)'}.
+\end{aligned}
+\tag{TFE.1301}
+\]
+
+This is the sharpened missing work.  The physical story says every selected
+birth has to be a real same-packet pressure-Hodge/strain/exchange event.  The
+mathematics still has to prove the event is measured in the critical parent
+weight \(a\) with root-finite generator energy.  That is the current \(L^1\)
+producer, in its smallest nonduplicate form.
+
+## 117. Minimal-bad audit for the root generator inequality
+
+The remaining proof cannot be closed by saying that the child is same-parent.
+Same-parent origin gives ownership.  The \(L^1\) problem needs a parent-known
+critical weight that is already present before the child clips the positive
+readout.  In physical terms, the missing object is the active generator capacity
+of the same pressure-heat-viscous packet: the amount of future selected motion
+that the original parent history can still make accessible at critical scale.
+
+The exact theorem now needed is:
+
+\[
+\text{SameMaterialWeightedFreshGeneratorPacking.A}
+\tag{TFE.1302}
+\]
+
+For every retained stopped parent \(P\), after source attachment, spent-source
+projection, Schur/current reuse, Bessel first entry, derivative-exact reset,
+return, route, motion, legal, stop, and endpoint-face exits are removed, each
+retained fresh child \(\gamma\) has a parent-announced representation
+
+\[
+F_\gamma(t)
+=
+{1\over |I_\gamma|}
+\int_{I_\gamma}G_P(\sigma,t)\,d\sigma
++Err_\gamma^{paid}(t),
+\tag{TFE.1303}
+\]
+
+with \(I_\gamma\), the polarity, and the active weight
+
+\[
+W_\gamma(t)
+=
+{|I_\gamma|^2\over\int_{I_\gamma}a_P(\sigma,t)^{-1}\,d\sigma}
+\tag{TFE.1304}
+\]
+
+all announced in the parent stopped history before positive child clipping, and
+with the root generator bound
+
+\[
+\int_{\operatorname{Hist}(P)}
+a_P(\sigma,t)\|G_P(\sigma,t)\|^2\,d\sigma dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1305}
+\]
+
+Then weighted Cauchy and stopped sparse overlap give
+
+\[
+\sum_{\gamma\subset P}W_\gamma\|F_\gamma\|^2
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1306}
+\]
+
+which is exactly `(TFE.1294)' and hence the native-birth \(L^1\) map.
+
+To see that `(TFE.1305)' is the real wall, assume it fails after every paid
+branch above has been removed.  Then there is a normalized retained block
+\(B_m\subset P\) with
+
+\[
+\sum_{\gamma\in B_m}W_\gamma\|F_\gamma\|^2=1,
+\qquad
+\int_{\operatorname{Hist}(B_m)}
+a_P\|G_P\|^2+dPaid(P)\to0.
+\tag{TFE.1307}
+\]
+
+If `(TFE.1303)' and parent-known sparse overlap are valid, `(TFE.1299)' summed
+over \(B_m\) contradicts `(TFE.1307)'.  Therefore any surviving bad profile must
+violate one of the following source facts:
+
+\[
+\begin{aligned}
+&\text{(i) the generator is not parent-announced before child clipping,}\\
+&\text{(ii) the active weight \(a_P\) is being chosen from the descendant
+selected tail,}\\
+&\text{(iii) the retained windows are not stopped-sparse in the parent
+history,}\\
+&\text{(iv) the child is not a derivative-exact scale-memory average,}\\
+&\text{(v) a non-derivative affine/root quotient remains.}
+\end{aligned}
+\tag{TFE.1308}
+\]
+
+The first two are circularity failures, not proofs.  The third is paid by
+stopped first-exit, reset, return, legal, stop, or endpoint routing once the
+window is parent-announced.  The fourth is the DER branch already paid by real
+scale motion.  Thus the only nonduplicate retained survivor is the fifth item:
+the persistent affine/root quotient of the same-material scale-memory source.
+
+This is exactly the lower-prefix / upper-active paired-carrier form.  In dyadic
+coordinates the missing estimate is
+
+\[
+\int_0^{T_*}
+\sum_{k>N+M}2^k
+a_k^{fresh}(t)\,
+\mathcal D_k^{\uparrow,fresh}(t)\,dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1309}
+\]
+
+where the lower-prefix fresh source and the upper-active queue are both
+generated by the same original material history.  Equivalently, after the
+lower-triangular split
+
+\[
+\mathrm{FCTS}^{fr}_P
+=
+\mathrm{DER}^{fr}_P+\mathrm{AQK}^{fr}_P,
+\tag{TFE.1310}
+\]
+
+the remaining theorem is the affine quotient payment
+
+\[
+\mathrm{AQK}^{fr}_P
+=
+\int_0^{T_*}H_w(t)\|c_F(t)\|_2^2\,dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1311}
+\]
+
+The physical picture is now precise.  Pressure compatibility can instantly
+re-coordinate the packet, viscosity can delay and drain the readable
+velocity/strain child, and self-advection carries the material history.  A bad
+\(L^1\) profile is a same-history sequence where each smaller heat-scale child
+looks like one positive selected unit, while the raw parent cost is summable
+and the active critical weight was never generated on the parent side.  That is
+not a new force and not a pressure-only oscillator.  It is a missing
+same-history active-generator capacity.
+
+So the proof has to supply one of two noncircular sources:
+
+\[
+\begin{aligned}
+&\text{OriginalHistorySelectedPotentialAmplificationBV.A}\\
+&\qquad\text{with parent-known \(H_w\), endpoint-corrected
+\(\Psi^\sharp\), and stopped testing/BMO root control,}
+\end{aligned}
+\tag{TFE.1312}
+\]
+
+or
+
+\[
+\widetilde Z^{fresh}
+=
+(\partial_\sigma-1)\partial_\sigma G^{fresh}
++R^{fresh},
+\qquad
+\int H_w\|\mathcal C_\theta[R^{fresh}]\|_2^2
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1313}
+\]
+
+The first route builds the parent-known active entropy/log-amplification
+carrier.  The second route proves second-order scale exactness for the positive
+fresh stress source and kills the affine quotient directly.  Both are
+statements about the original coupled pressure-viscosity-incompressibility-
+velocity packet before child clipping.
+
+Once either source is proved, the downstream chain is fixed:
+
+\[
+\begin{gathered}
+\text{`(TFE.1312)' or `(TFE.1313)'}
+\Longrightarrow
+\text{`(TFE.1311)'}
+\Longrightarrow
+\text{`(TFE.1305)'}
+\Longrightarrow
+\text{`(TFE.1306)'}
+\\
+\Longrightarrow
+\text{native-birth map `(TFE.1285)'--`(TFE.1287)'}
+\Longrightarrow
+\text{terminal-uniform \(L^1\)}
+\Longrightarrow
+FGC.25 .
+\end{gathered}
+\tag{TFE.1314}
+\]
+
+What this audit contributes to the repo is the exact missing physical story:
+finite initial energy, same-parent ownership, and no-reuse are not wrong; they
+are one level too coarse.  The \(L^1\) proof needs the parent packet to carry a
+root-finite active generator/affine-quotient capacity in the critical selected
+metric.  That capacity is the mathematical version of the feedback mechanism
+that cuts off future accessible states over time.
+
+## 118. Scale-native physical law: what is still missing
+
+The physical story is not pressure as a separate parent and viscosity as a
+separate child.  The parent is the original coupled
+pressure-viscosity-incompressibility-velocity history before selected positive
+clipping.  The child is a selected heat-lag finite-difference readout of that
+same history.  The feedback is the update of the material frame after that
+readout, followed by the next pressure-compatible re-coordination of the same
+fluid packet.
+
+The loop is:
+
+\[
+\text{pressure-compatible active state}
+\longrightarrow
+\text{heat-lag velocity/strain readout}
+\longrightarrow
+\text{updated material frame}
+\longrightarrow
+\text{new pressure-compatible active state}.
+\tag{TFE.1315}
+\]
+
+The \(L^1\) problem is the total positive count of selected active states
+opened by this loop.  Finite energy controls raw square mass.  It does not by
+itself control the selected-critical count of how many future states the loop
+can still make accessible at smaller heat scales.
+
+Three parts of the story are already installed as consumers.
+
+First, the bounded original-packet channel is closed.  If a selected stress
+functional is continuous in the original stopped material stress Hilbert space,
+
+\[
+|\Lambda_Q(H)|
+\le
+C_N\|H\|_{\mathfrak H_P},
+\tag{TFE.1316}
+\]
+
+then Riesz gives a parent-known bounded representative
+\(A_Q\in\mathfrak H_P\).  Fresh parent-subtracted pieces are Bessel-paid, exact
+inherited reuse is parent current, and changed reuse is reset, stop, legal,
+donor, reselection, or selector motion.  Thus a retained child in this channel
+is not free to recount the same original packet indefinitely.
+
+Second, stopped routed-current square packing is a consumer after the routed
+current energy is finite.  The source factorization is
+
+\[
+\nu^S
+=
+D_AJ^S+\nu^S_{\rm stop}+\nu^S_{\rm legal},
+\tag{TFE.1317}
+\]
+
+and fixed-core return plus strict reset defects are faces of the same routed
+derivative current.  Once
+
+\[
+\mathcal E_{\rm route}(P)
+\le
+C_N(u_0)+Paid(P)
+\tag{TFE.1318}
+\]
+
+is available in the active metric, the fixed and reset branches square-pack by
+derivative BV and weighted Cauchy.  Raw current \(L^2\) is not enough, because
+the active selected weight is the missing scale-critical part.
+
+Third, the entropy/state-count algebra is deterministic after the parent
+active density exists.  If the original coupled packet supplies
+
+\[
+dA_P^{act}=f_P\,d\mathcal R_P
+\tag{TFE.1319}
+\]
+
+before child clipping, then the entropy capacity
+
+\[
+\mathcal C_P^{ent}
+=
+\int_P f_P\log(e+f_P)\,d\mathcal R_P
+\tag{TFE.1320}
+\]
+
+beats the half-tail and gives terminal-uniform selected \(L^1\).  This is not a
+new PDE source.  It is the state-deletion accounting once the PDE has produced
+the parent-known active density.
+
+The remaining channel is the pure scale-native selected birth.  In a packet of
+radius \(r\), a unit rescaled test pulls back to the original material stress
+space with norm
+
+\[
+\|F_r\|_{\mathfrak H_P}^2
+=
+r^{-1}\|A_r\|_{L^2(dy\,ds)}^2 .
+\tag{TFE.1321}
+\]
+
+So a child can be physically meaningful as a unit heat-lag readout while failing
+the bounded-Riesz admission test in the original \(L^2\) stress metric.  This
+is exactly the channel that raw finite energy, raw Bessel, and no-reuse do not
+pay.
+
+The exact missing theorem is therefore the scale-native active-capacity law:
+for every stopped parent \(P\), retained scale-native births \(\gamma\) must be
+assigned to original-history native reserve atoms with bounded multiplicity,
+
+\[
+\iota:\Gamma_N(P)\to\mathcal R_N^{nat}(u_0;P),
+\qquad
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}+Paid(\gamma),
+\qquad
+\operatorname{mult}(\iota)\le C_N,
+\tag{TFE.1322}
+\]
+
+and
+
+\[
+\sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}\rho
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1323}
+\]
+
+Equivalently, each fresh child must have a parent-announced generator average
+
+\[
+F_\gamma(t)
+=
+{1\over |I_\gamma|}
+\int_{I_\gamma}G_P(\sigma,t)\,d\sigma
++Err_\gamma^{paid}(t),
+\tag{TFE.1324}
+\]
+
+with harmonic active weight
+
+\[
+W_\gamma(t)
+=
+{|I_\gamma|^2\over\int_{I_\gamma}a_P(\sigma,t)^{-1}\,d\sigma},
+\tag{TFE.1325}
+\]
+
+and the original-history root bound
+
+\[
+\int_{\operatorname{Hist}(P)}
+a_P(\sigma,t)\|G_P(\sigma,t)\|^2\,d\sigma dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1326}
+\]
+
+The active weight \(a_P\), the intervals \(I_\gamma\), and the generator \(G_P\)
+must be parent-known before the child clips the positive readout.  Choosing
+them from the descendant selected tail is circular.
+
+The same missing law has a positive critical-transfer coordinate:
+
+\[
+\int_0^\tau
+\left(
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C(u_0)
++\theta\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(\tau),
+\qquad
+\theta<1.
+\tag{TFE.1327}
+\]
+
+Pressure and incompressibility remain inside the Leray projection here; this is
+not a pressure-only or velocity-only estimate.  It is a coordinate face of the
+same coupled packet.  The standard estimate supplies only a coefficient
+depending on \(\|u\|_{\dot H^{1/2}}\), so for arbitrary data `(TFE.1327)' is
+the same open scale-native active-capacity theorem.
+
+The sharp obstruction is the half-tail.  A retained chain can have raw masses
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1}
+\tag{TFE.1328}
+\]
+
+with
+
+\[
+\sum_\ell\nu_\ell<\infty,
+\qquad
+\sum_\ell2^\ell\nu_\ell=\infty .
+\tag{TFE.1329}
+\]
+
+The physical meaning is: each smaller heat-scale child has a real same-history
+bill, and the raw bills shrink fast enough for finite energy, but the
+pressure-compatible feedback loop keeps reopening selected active futures at
+the critical rate.  Closing \(L^1\) means proving the original coupled packet
+has a parent-side state-deletion law that forbids this retained half-tail.
+
+One equivalent strict form is
+
+\[
+N_{L+1}\le\theta N_L+B_L,
+\qquad
+2\theta<1,
+\qquad
+\sum_L2^LB_L<\infty .
+\tag{TFE.1330}
+\]
+
+Another equivalent source form is parent-known active entropy or reverse
+Holder for \(f_P\).  Another is `(TFE.1322)'--`(TFE.1326)'.  Another is the
+positive critical-transfer inequality `(TFE.1327)'.  These are not separate
+physical payments.  They are different coordinates for the same missing law:
+the original coupled packet must lose accessible selected states faster than
+pressure feedback can re-coordinate new scale-native positive births.
+
+The audit of the two routes in `(TFE.1312)'--`(TFE.1313)' now has this status.
+The second-order exactness route is still open because the signed second-order
+identity does not automatically survive positive clipping; the positive stress
+carrier can erase the cancellation needed to kill the affine quotient.  The
+potential/BMO route is not an arbitrary transform miracle: after
+\(\nu^S=D_AJ^S+\nu^S_{\rm stop}+\nu^S_{\rm legal}\), the transform side is a
+bounded projection of the same current, and the hard part is the active-metric
+root Carleson/Bessel embedding before selected readout.
+
+So everything still missing to close \(L^1\) is one original-data theorem with
+the following five clauses:
+
+\[
+\begin{aligned}
+&\text{(i) parent-known scale-native admission before child clipping,}\\
+&\text{(ii) a critical active weight generated by the parent history,}\\
+&\text{(iii) a root-finite generator/native-reserve bound in that weight,}\\
+&\text{(iv) strict half-tail contraction or equivalent active entropy,}\\
+&\text{(v) no endpoint residue outside the same finite packet.}
+\end{aligned}
+\tag{TFE.1331}
+\]
+
+Once `(TFE.1331)' is proved from the original smooth coupled data, the
+downstream chain is already fixed:
+
+\[
+\text{scale-native active capacity}
+\Longrightarrow
+\text{weighted native-birth packing}
+\Longrightarrow
+\text{terminal-uniform selected \(L^1\)}
+\Longrightarrow
+FGC.25 .
+\tag{TFE.1332}
+\]
+
+This is the current exact physical story.  The fluid is not being asked to
+invent energy.  It is being asked to prove that a finite original coupled
+pressure-heat-viscous history cannot be read as infinitely many fresh
+scale-native positive states after the same history has already supplied the
+pressure coordination, heat-lag readout, material-frame update, and viscous
+drain.
