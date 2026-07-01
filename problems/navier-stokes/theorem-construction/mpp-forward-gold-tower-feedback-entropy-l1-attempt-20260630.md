@@ -7265,3 +7265,333 @@ persistent affine/root contribution, `(TFE.476)` gives selected entropy
 Carleson, `(TFE.477)` gives the exponent lift/root reserve, and `(TFE.478)` gives
 terminal-uniform \(L^1\).  Without `(TFE.485)`, the note has a complete entropy
 reduction but not Gold closure.
+
+## 49. Linear currency split: what `(TFE.485)` must prove after entropy
+
+The source audit also corrects the currency of `(TFE.485)`.  The fixed stopped
+channel already has a signed scale-potential lift under its proper hypothesis:
+for a parent-known stopped channel \(\Gamma_R\),
+
+\[
+P_R=\Gamma_R Z^S,
+\qquad
+\partial_\sigma P_R
+=\Gamma_R(\partial_\sigma Z^S)+(\partial_\sigma\Gamma_R)Z^S,
+\tag{TFE.486}
+\]
+
+and the derivative is controlled by original-history scale, turnstile, exchange,
+covector, connection, legal, and stop motion.  Thus the fixed-channel signed lift
+is not the present missing term.  The missing term is the conversion of retained
+positive selected reads into the right original-parent currency before the child
+clips the positive part.
+
+For a heat-lag or scale-memory selected interval \(I\), write the same-parent
+detector identity as
+
+\[
+\Delta_I U_I
+=J_P(\psi_I^P)+Err_I,
+\qquad
+\widetilde\psi_I^P=\omega_I^{1/2}\psi_I^P,
+\tag{TFE.487}
+\]
+
+where the weighted detector is parent-declared before the selected child value is
+used.  The linear \(L^1\) bill is
+
+\[
+\mathsf L_P^{ret}
+:=
+\sum_{I\subset P}\omega_I|\Delta_IU_I|_+ .
+\tag{TFE.488}
+\]
+
+Parent declaration and parent subtraction split each retained read into three
+currencies:
+
+\[
+\omega_I|\Delta_IU_I|_+
+\le
+C[q_I\,dq_I]_+
++d\mathcal N_I^{heat/native}
++dMotion_I+dReturn_I+dLegal_I+dStop_I .
+\tag{TFE.489}
+\]
+
+Here \(q_I\) is the charged same-parent Schur/current coordinate, so reuse is not
+fresh child action; \(d\mathcal N_I^{heat/native}\) is the genuinely new
+scale-native heat-lag/native-birth charge; and the remaining terms are actual
+movement of the stopped material frame, return/reset, legal synchronization, or
+stopping.
+
+The first term is exactly where the entropy/record-return story applies.  On a
+fixed stopped ancestry line,
+
+\[
+\sum_I [q_I\,dq_I]_+
+\le
+C\operatorname{Rec}_P(q^2)
++C\operatorname{Ret}_{-,P}(q^2)
++R_{\rm legal}(P)+Stop(P),
+\tag{TFE.490}
+\]
+
+and `(TFE.480)` is the scalar reason: positive same-current reads are record
+growth plus the negative return needed to reset the record.  This kills recount
+of the same parent push.
+
+The bounded-Riesz/fresh-Bessel channel gives only square novelty:
+
+\[
+\sum_{I\subset P}
+\left|J_P\!\left(
+(I-\Pi_{\mathcal P_{I^-}})\widetilde\psi_I^P
+\right)\right|^2
+\le C_N(u_0)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.491}
+\]
+
+That is necessary and installed for bounded original-packet tests, but it does
+not imply `(TFE.488)`.  The half-tail
+\(\nu_\ell=2^{-\ell}/(\ell+1)\), \(\omega_\ell=2^\ell\) still has finite weighted
+square mass while the weighted linear bill diverges:
+
+\[
+\sum_\ell\omega_\ell\nu_\ell^2<\infty,
+\qquad
+\sum_\ell\omega_\ell\nu_\ell=\infty.
+\tag{TFE.492}
+\]
+
+Therefore the actual linear producer required by `(TFE.489)` is
+
+\[
+\sum_{I\subset P} d\mathcal N_I^{heat/native}
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathfrak R_{nat}(P)
++R_{\rm legal}(P)+Stop(P),
+\qquad \theta<1.
+\tag{TFE.493}
+\]
+
+This is the same object called `NativeBirthChargePacking.A`,
+`SelectedGeneratorStorageCoercivity.A`, `OriginalScaleMemoryStorageCoercivity.A`,
+or `PositiveCriticalTransferBound.A` in different coordinates.  It is not a
+pressure-only theorem and not a viscosity-only theorem.  It says that a fresh
+scale-native heat-lag read, once selected as positive linear action, must be a
+finite original-history native increment of the same coupled
+pressure-viscosity-incompressibility-velocity packet.
+
+Combining the installed same-parent detector, the record-return scalar law, the
+fixed-channel lift, and `(TFE.493)` gives the desired parent estimate:
+
+\[
+\mathsf L_P^{ret}
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathfrak R_{nat}(P)
++R_{\rm legal}(P)+Stop(P),
+\qquad \theta<1.
+\tag{TFE.494}
+\]
+
+Then `(TFE.494)` implies `(TFE.485)` by identifying the persistent affine
+scale-memory readout with the retained heat/native intervals in `(TFE.488)` and
+charging the record/return/overrun terms through `(TFE.490)` and `(TFE.493)`.
+The downstream chain remains
+
+\[
+\text{`(TFE.494)'}
+\Longrightarrow
+\text{`(TFE.485)'}
+\Longrightarrow
+\text{`(TFE.479)'}
+\Longrightarrow
+\text{selected entropy Carleson}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\tag{TFE.495}
+\]
+
+The normal-form contradiction for the remaining open part is now:
+
+\[
+\mathsf L_{P_n}^{ret}=1,
+\qquad
+\sum_I[q_I\,dq_I]_+
++\sum_I d\mathcal N_I^{heat/native}
++Paid(P_n)\to0.
+\tag{TFE.496}
+\]
+
+The entropy part rules out the first summand vanishing with nonzero repeated
+same-parent action.  Bounded-Riesz/Bessel rules out bounded fresh square novelty
+being recounted as unit selected action.  Any survivor in `(TFE.496)` is
+therefore a scale-native heat-lag/native-birth event whose selected linear read
+has not been admitted to original coupled packet currency.  That survivor is
+exactly `(TFE.493)`, not another scalar BV issue.
+
+## 50. Pushforward form of `(TFE.493)` and the exact PDE wall
+
+The heat-lag audit proves one more structural step below `(TFE.493)`.  The
+legitimate first-admission atoms already form a finite raw original-history
+measure.  For a stopped parent packet \(P\), let
+
+\[
+F_Q
+:=
+(I-\Pi_{\mathcal S_{<Q}})\Delta_QZ_P^{orig}
+\tag{TFE.497}
+\]
+
+be the first unspent native coordinate of a legitimate first-admission child
+after carry, reuse, motion, return, viscosity, legal, and stop have been removed.
+Then Bessel/orthogonality gives the raw parent measure
+
+\[
+\mu_P^{adm,raw}(P')
+:=
+\sum_{Q\subset P'}\|F_Q\|_{\mathcal H_P^{raw}}^2
+\le
+C_N\|Z_{P'}^{orig}\|_{\mathcal H_{P'}^{raw}}^2
++R_{\rm legal}(P')+Stop(P').
+\tag{TFE.498}
+\]
+
+This proves the weightless first-admission fact: there is no retained
+nonendpoint invisible square bill after first entry, return, motion, viscosity,
+legal, and stop are removed.  Every legitimate first entry is counted once in
+the original parent Hilbert record.
+
+The selected-critical \(L^1\) wall is the weighted version:
+
+\[
+\mu_P^{adm,crit}(P)
+:=
+\sum_{Q\subset P}w(Q)\|F_Q\|_{\mathcal H_P^{raw}}^2
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.499}
+\]
+
+The half-tail is exactly the gap between `(TFE.498)` and `(TFE.499)`.  Raw
+first-admission measure is finite; selected-critical first-admission measure is
+not finite unless the original coupled packet supplies an additional
+scale-native root upper bound.
+
+The formal no-recount pushforward theorem isolates the remaining PDE estimate.
+Let \(\mathcal A_P\) be the stopped set of legitimate first-admission native
+atoms and let
+
+\[
+\pi:\{I:\ I\text{ selected heat-lag readout below }P\}\to\mathcal A_P
+\tag{TFE.500}
+\]
+
+send each selected child read to its first-admitted parent pulse.  The
+parent-weighted detector is built before child clipping:
+
+\[
+\Phi_I^P
+:=
+\omega_I\,\mathbf 1_I\,\mathcal H_I^{*,P}\xi_I .
+\tag{TFE.501}
+\]
+
+After first admission the parent-current span is updated by
+
+\[
+\mathcal E_{\le I}^P
+=
+\mathcal E_{<I}^P
+\oplus
+\operatorname{span}\{(I-P_{\mathcal E_{<I}^P})\Phi_I^P\},
+\tag{TFE.502}
+\]
+
+so later reads of the same carrier are retained Schur work or paid motion,
+return, viscosity, legal, or stop.  Therefore the selected child bill is a
+bounded-overlap pushforward of the parent-weighted first-admission measure:
+
+\[
+\sum_{I\subset P}\omega_I|\Delta_IU_I|
+\le
+C_N\mu_P^{pw}(P)+Paid_P.
+\tag{TFE.503}
+\]
+
+Consequently `(TFE.493)` is equivalent in the heat-lag coordinates to
+
+\[
+\mu_P^{pw}(P)
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathsf{Visc}_{P,N}
++Paid_P,
+\qquad 0<\theta<1 .
+\tag{TFE.504}
+\]
+
+This is the same theorem as `(TFE.499)` after translating the selected-critical
+weight into the parent heat-lag detector measure.  It is also the same theorem
+as the positive critical transfer coordinate
+
+\[
+\int_0^T
+\left(
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C(u_0)
++\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt,
+\qquad \theta<1 .
+\tag{TFE.505}
+\]
+
+The direct residence/transit proof gets to the same wall.  Residence is paid by
+viscous scale time.  Transit is one same-material thread.  Reset/escape Cauchy
+reduces to the original root generator-energy bound
+
+\[
+\int_{\operatorname{Hist}(P)}w\|G\|^2
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P),
+\tag{TFE.506}
+\]
+
+and the lower-triangular scale split leaves the affine quotient.  Thus the root
+upper bound follows only after one of the two noncircular affine producer lines:
+
+\[
+\int_0^{T_*}
+H_w(t)\|\mathcal P_{avg}^{fresh}(t)\|_{L_x^2}^2\,dt
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P),
+\tag{TFE.507}
+\]
+
+or
+
+\[
+\widetilde Z^{fresh}
+=
+(\partial_\sigma-1)\partial_\sigma G^{fresh}
++R^{fresh}
+\tag{TFE.508}
+\]
+
+with the affine-kernel residual bounded by original-history paid terms.
+
+The repo does not currently prove `(TFE.507)` or `(TFE.508)`.  Poincare in
+\(\sigma\) would use the selected source square that `(TFE.499)` is trying to
+prove, and ordinary gauge normalization changes the potential average rather
+than paying it.  Thus the exact current wall is not no-recount, not raw
+first-admission, not local lower edge, and not scalar entropy.  It is the
+selected-critical parent-weighted first-admission root upper bound
+`(TFE.504)`, equivalently `(TFE.505)`, equivalently the affine producer
+`(TFE.507)`/`(TFE.508)`.
