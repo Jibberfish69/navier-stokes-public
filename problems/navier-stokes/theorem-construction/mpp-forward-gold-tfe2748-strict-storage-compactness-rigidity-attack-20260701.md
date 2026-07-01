@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701
-status: strict-storage-reduction-critical-source-storage-open
+status: strict-storage-reduction-critical-capacity-storage-open
 created: 2026-07-01
 problem: navier-stokes
 route: forward-gold coupled pressure-viscosity-incompressibility participation law
@@ -12,6 +12,10 @@ completion_truth: >-
   After those removals, the surviving nonconsumer source is the strict
   original-data storage of the parent critical-entry source: the positive
   baseline log entropy plus the singular zero-baseline endpoint-seed capacity.
+  The July 1 continuation audit further corrects the storage wording: a finite
+  root critical capacity bound is not enough; the capacity must be parent-fixed
+  or have paid variation so that Mcrit=Ccrit-Ecrit is a true bounded-below
+  storage derivative.
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-original-data-source-theorem-attack-20260701.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
@@ -287,7 +291,11 @@ d\mathcal D_P^{geom}
 \tag{TFE2748B.16}
 \]
 
-The strict no-self-feeding theorem still open from arbitrary original data is
+The distortion theorem is mostly a consumer once the component audit is used:
+bounded stopped-detector/log-carrier distortion is packed by the parent generator
+clock, routed frame/collar/Hodge/selector motion is in \(d\Theta^0+dPaid\), and
+the zero-baseline scale-native detector has been admitted as
+\(d\rho_{crit}^{entry}\).  In that audited setting the required distortion line is
 
 \[
 d\mathcal D_P^{geom}
@@ -299,7 +307,8 @@ d\Theta_P^0
 \tag{TFE2748B.17}
 \]
 
-together with the root critical capacity bound
+The remaining nonconsumer clause is stronger than a root critical capacity
+bound.  Define
 
 \[
 M_P^{crit}
@@ -311,7 +320,30 @@ M_P^{crit}
 \tag{TFE2748B.18}
 \]
 
-Equations `(TFE2748B.15)'--`(TFE2748B.18)' imply
+For `(TFE2748B.18)' to be a storage, \(\mathcal C_P^{crit}\) must be
+parent-fixed on the stopped history or have only paid positive variation:
+
+\[
+d\mathcal C_P^{crit}
+\le
+d\Theta_P^0+dPaid_P .
+\tag{TFE2748B.19}
+\]
+
+The actual open source theorem is therefore
+
+\[
+\boxed{
+\begin{array}{c}
+\text{construct \(\mathcal F_{P,\sigma}^{crit}\) and \(\mathcal C_P^{crit}\)
+from the original packet before clipping,}\\
+\text{prove `(TFE2748B.17)' as a component/entry-admission consumer,}\\
+\text{and prove the capacity variation law `(TFE2748B.19)'.}
+\end{array}}
+\tag{TFE2748B.20}
+\]
+
+Equations `(TFE2748B.15)'--`(TFE2748B.20)' imply
 `(TFE2748B.12)'.  With the component removals in Section 3 and the admissions in
 Section 4, `(TFE2748B.12)' implies the endpoint-admitted strict storage
 `(TFE2748B.2)'.
@@ -326,7 +358,7 @@ remaining theorem is a sequence with
 \int(d\rho_{crit,P_n}^{ac}+d\rho_{crit,P_n}^{entry})=1,
 \qquad
 \int(d\Theta_{P_n}^0+dPaid_{P_n}+dR_{{\rm legal},P_n}+dStop_{P_n})\to0,
-\tag{TFE2748B.19}
+\tag{TFE2748B.21}
 \]
 
 and
@@ -339,7 +371,7 @@ d\rho_{crit,P_n}^{ac}
 -\vartheta_{crit}d\Omega_{P_n}^{gen}
 \right)
 \ge \eta_0>0 .
-\tag{TFE2748B.20}
+\tag{TFE2748B.22}
 \]
 
 The needed compactness theorem is not another silent-source theorem.  It is
@@ -350,11 +382,11 @@ trace, and the parent root capacity:
 (P_n,\mathcal F_{P_n,\sigma}^{crit},d\mathfrak Z_{P_n}^{crit})
 \Longrightarrow
 (P_\infty,\mathcal F_{\infty,\sigma}^{crit},d\mathfrak Z_\infty^{crit}),
-\tag{TFE2748B.21}
+\tag{TFE2748B.23}
 \]
 
 with the entropy-contraction and distortion inequalities passing to the limit.
-Then `(TFE2748B.17)'--`(TFE2748B.18)' contradict `(TFE2748B.20)'.
+Then `(TFE2748B.17)'--`(TFE2748B.19)' contradict `(TFE2748B.22)'.
 
 So the compactness formulation and the direct storage formulation have the same
 remaining content:
@@ -363,13 +395,13 @@ remaining content:
 \boxed{
 \begin{array}{c}
 \text{parent critical filtration tightness}\\
-+\text{root critical capacity bound}\\
++\text{root critical capacity paid-variation law}\\
 +\text{strict geometric-distortion domination}
 \end{array}
 \Longleftrightarrow
 \text{critical-source storage `(TFE2748B.12)'.}
 }
-\tag{TFE2748B.22}
+\tag{TFE2748B.24}
 \]
 
 The direct storage form is more honest for the current proof surface because it
@@ -390,12 +422,119 @@ The remaining Gold source theorem is:
 \[
 \boxed{
 \begin{array}{c}
-\text{prove `(TFE2748B.17)' and `(TFE2748B.18)' from the original coupled}\\
-\text{pressure-viscosity-incompressibility packet, before child clipping;}\\
+\text{prove the parent critical filtration and capacity variation law}\\
+\text{`(TFE2748B.19)' from the original coupled packet, before child clipping;}\\
+\text{use the component audit to supply `(TFE2748B.17)';}\\
 \text{then `(TFE2748B.12)' gives `(TFE2748A.5)', hence terminal-uniform }L^1.
 \end{array}}
-\tag{TFE2748B.23}
+\tag{TFE2748B.25}
 \]
 
 Gold smoothness remains conditional on this source theorem.  This file is a
 strict reduction of the MPP wall, not a closure claim.
+
+## 8. Capacity-variation pressure test
+
+The reason `(TFE2748B.19)' is now explicit is simple.  The entropy chain gives
+
+\[
+d\rho_{crit}^{ac}+d\rho_{crit}^{entry}
+\le d\mathcal E_P^{crit}+dPaid_P .
+\tag{TFE2748B.26}
+\]
+
+The heat/participation step plus component distortion audit gives
+
+\[
+d\mathcal E_P^{crit}
+\le
+d\Theta_P^0+\vartheta d\Omega_P^{gen}+dPaid_P .
+\tag{TFE2748B.27}
+\]
+
+This proves a raw positive-source estimate, but it does not yet provide the
+bounded-below storage derivative in `(TFE2748B.12)'.  If
+
+\[
+M_P^{crit}:=\mathcal C_P^{crit}-\mathcal E_P^{crit},
+\tag{TFE2748B.28}
+\]
+
+then
+
+\[
+d\mathcal E_P^{crit}
+=
+-dM_P^{crit}
++d\mathcal C_P^{crit}.
+\tag{TFE2748B.29}
+\]
+
+Substituting `(TFE2748B.29)' into `(TFE2748B.26)' gives the desired storage only
+after the extra capacity term is paid:
+
+\[
+d\rho_{crit}^{ac}+d\rho_{crit}^{entry}
+\le
+-dM_P^{crit}
++d\mathcal C_P^{crit}
++dPaid_P .
+\tag{TFE2748B.30}
+\]
+
+So a finite bound
+
+\[
+0\le \mathcal C_P^{crit}\le C_N(u_0)\mathcal R(P)+Paid(P)
+\tag{TFE2748B.31}
+\]
+
+is not enough by itself.  The proof also needs
+
+\[
+[d\mathcal C_P^{crit}]_+
+\le
+d\Theta_P^0+dPaid_P,
+\tag{TFE2748B.32}
+\]
+
+or the stronger stopped-history statement that \(\mathcal C_P^{crit}\) is fixed
+by the original parent packet before the critical filtration is read.  This is
+the exact mathematical form of "the parent packet supplies the state counter."
+
+Three tempting shortcuts are circular:
+
+\[
+\begin{array}{ll}
+\text{future selected tail:}
+&\mathcal C(t)=\int_t^{T_*}d\rho_{crit}^{+}
+\quad\text{defines the desired \(L^1\) bound as storage;}\\[1mm]
+\text{future generator clock:}
+&\mathcal C(t)=\int_t^{T_*}d\Omega^{gen}
+\quad\text{uses the storage theorem being proved;}\\[1mm]
+\text{raw energy reserve:}
+&\mathcal C(t)=E_0
+\quad\text{misses the scale-native half-tail unless critical atoms are packed.}
+\end{array}
+\tag{TFE2748B.33}
+\]
+
+Thus the sharpened noncircular theorem is:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{OriginalCriticalCapacityVariation.A:}\\
+\text{construct a parent-known critical capacity before clipping, prove}
+\ [d\mathcal C^{crit}]_+\le d\Theta^0+dPaid,\\
+\text{and prove the zero-baseline/positive-baseline critical atoms are measured
+by that same capacity.}
+\end{array}}
+\tag{TFE2748B.34}
+\]
+
+This is smaller than the Gold \(L^1\) theorem but still not supplied by standard
+energy or by endpoint admission alone.  Endpoint admission says the endpoint
+seed belongs in the ledger.  `(TFE2748B.34)' says the original ledger has a
+bounded-below capacity whose positive variation pays the creation of those
+critical states.

@@ -148,9 +148,10 @@ positive service bound.  The earlier tower-to-source-square audit recorded the
 exact gap: a tower identity or cross-cylinder coupling controls the equation of
 the packet, but it does not by itself prove the unweighted same-carrier square
 reserve across a terminal Zeno chain.  Sections 238--242 of the tower-feedback
-entropy note now supply that extra accretive/monotone law through the stopped
-Duhamel-Hodge pullback, early source admission, retained Poincare thickness, and
-full-exchange storage.
+entropy note identify that extra accretive/monotone law conditionally through
+the stopped Duhamel-Hodge pullback, early source admission, retained Poincare
+thickness, and full-exchange storage; the July 1 audit keeps the actual
+original-data supplier open at TFE2748B / OriginalCriticalCapacityVariation.A.
 
 ## 3. What the nonendpoint reconciliation contributes
 
@@ -479,11 +480,12 @@ good-lambda recurrence
 \(N_{L+1}\le\vartheta N_L+B_L\) with \(2\vartheta<1\); it gives the weighted
 pressure-tail moment and hence the terminal-uniform \(L^1\) bound.
 
-Sections 238--242 supply this conversion in coupled form: the selected detector
-is pulled back through the stopped Duhamel-Hodge parent propagator before child
-clipping, first/early source material is admitted into the parent source
-accounts, and retained heat-lag Poincare thickness gives the strict
-no-self-feeding margin.
+Sections 238--242 give this conversion only under the TFE2747/TFE2748
+premise: the selected detector is pulled back through the stopped Duhamel-Hodge
+parent propagator before child clipping, first/early source material is admitted
+into the parent source accounts, and retained heat-lag Poincare thickness gives
+the strict no-self-feeding margin.  The current source audit leaves the
+original-data supplier open at TFE2748B / OriginalCriticalCapacityVariation.A.
 
 ## 8. Downstream consumption proof
 

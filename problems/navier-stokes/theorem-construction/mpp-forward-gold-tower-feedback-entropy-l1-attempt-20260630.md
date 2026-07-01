@@ -39177,8 +39177,29 @@ M_P^{crit}
 \tag{TFE.2670}
 \]
 
-where \(\mathcal C_P^{crit}\) is the root finite critical capacity supplied by
-the original packet and paid routing.  Combining `(TFE.2666)'--`(TFE.2669)' gives
+where \(\mathcal C_P^{crit}\) is the candidate root finite critical capacity
+supplied by the original packet and paid routing.  The July 1 storage audit
+corrects this step: boundedness of \(\mathcal C_P^{crit}\) is not enough by
+itself.  Since
+
+\[
+d\mathcal E_P^{crit}
+=
+-dM_P^{crit}
++d\mathcal C_P^{crit},
+\tag{TFE.2670a}
+\]
+
+the positive variation of \(\mathcal C_P^{crit}\) must be parent-fixed or paid,
+
+\[
+[d\mathcal C_P^{crit}]_+
+\le
+d\Theta_P^0+dPaid_P .
+\tag{TFE.2670b}
+\]
+
+Combining `(TFE.2666)'--`(TFE.2669)' with `(TFE.2670b)' gives
 
 \[
 d\rho_{crit,P}^{ac}
@@ -39203,7 +39224,8 @@ Thus `(TFE.2659)' is reduced to the following source package:
 \text{parent-announced critical filtration `(TFE.2663)'}\\
 +\text{entropy chain rule with singular entry `(TFE.2664)'--`(TFE.2666)'}\\
 +\text{coupled entropy dissipation `(TFE.2668)'}\\
-+\text{strict geometric distortion domination `(TFE.2669)'}
++\text{strict geometric distortion domination `(TFE.2669)'}\\
++\text{parent-fixed or paid-variation critical capacity `(TFE.2670b)'}
 \end{array}
 \Longrightarrow
 \text{critical-entry storage `(TFE.2659)'.}
@@ -39216,9 +39238,10 @@ re-coordinates the parent measure with no volume gain.  Viscosity supplies
 entropy dissipation through the heat/Stokes step.  Positive selected critical
 mass can enter through selector/collar/frame distortion or through the singular
 first-entry endpoint seed, and those are exactly the terms measured by
-\(d\mathcal D_P^{geom}\) and \(d\rho_{crit}^{entry}\).  The Gold \(L^1\) proof
-closes once `(TFE.2669)' and the root capacity bound in `(TFE.2670)' are proved
-from arbitrary original smooth data.
+\(d\mathcal D_P^{geom}\) and \(d\rho_{crit}^{entry}\).  The Gold \(L^1\) source
+line closes only once `(TFE.2669)' is supplied as a component/entry-admission
+consumer and the critical capacity has the paid-variation property
+`(TFE.2670b)' from arbitrary original smooth data.
 
 ## 235. Bounded distortion is a consumer; singular entry is the source
 
@@ -39311,7 +39334,8 @@ Consequently the nonconsumer part of `(TFE.2672)' is now narrower:
 \boxed{
 \begin{array}{c}
 \text{construct the parent critical filtration;}\\
-\text{prove root capacity for \(d\rho_{crit}^{ac}+d\rho_{crit}^{entry}\);}\\
+\text{prove parent-fixed or paid-variation critical capacity}\\
+\text{for \(d\rho_{crit}^{ac}+d\rho_{crit}^{entry}\);}\\
 \text{especially prove singular first-entry endpoint-seed packing.}
 \end{array}}
 \tag{TFE.2679}
@@ -39320,9 +39344,10 @@ Consequently the nonconsumer part of `(TFE.2672)' is now narrower:
 The positive-baseline log part is controlled once the stopped log-carrier square
 variation and bad-top packing are controlled by the parent generator clock.  The
 zero-baseline part is the actual source edge: the packet must prove that all
-singular first-entry endpoint seeds form a finite root critical capacity before
-clipping.  In the older notation this is exactly the selected-critical/native
-birth packing face of `(TFE.2550)' and `(TFE.2584)'.
+singular first-entry endpoint seeds form a finite root critical capacity whose
+positive variation is parent-fixed or paid before clipping.  In the older
+notation this is exactly the selected-critical/native birth packing face of
+`(TFE.2550)' and `(TFE.2584)'.
 
 ## 236. Singular entry is endpoint trace capacity
 

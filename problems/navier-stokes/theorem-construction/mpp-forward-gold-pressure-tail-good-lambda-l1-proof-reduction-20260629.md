@@ -85,18 +85,22 @@ Here \(P\) is the selected receiver packet, \(Q\) is the source parent packet,
 and \(\mathsf S\) is the differentiated pressure source from the same fluid
 history.
 
-Every positive selected pressure lobe has exactly four possible fates.
+In this superseded pressure-coordinate reduction, every positive selected
+pressure lobe was decomposed into four coordinate projections of the same
+full-exchange participation law.
 
 1. Its Calderon-Zygmund cancellation partner remains in the selected ledger.
-2. The partner exits through collar, cutoff, harmonic pressure, legal geometry,
-   stop, or return.
+2. The partner is routed through collar, cutoff, harmonic pressure, legal
+   geometry, stop, or return.
 3. The lobe resides at frequency long enough for heat damping to pay it.
 4. The lobe transits upward through frequency without residence and without a
    legal exit.
 
-The first three fates are not the hard branch.  The retained partner is paid by
-kernel cancellation plus the one-sided weight/projection error.  Legal exits are
-paid by the legal/stop/collar ledger.  Residence is paid by the viscous term.
+The first three projections were not the hard branch in this coordinate note.
+The retained partner is paid by kernel cancellation plus the one-sided
+weight/projection error.  Legal, stop, collar, endpoint, and return material are
+paid only as projections of the same coupled parent ledger.  Residence is the
+viscous/heat-time projection of that same transaction.
 For a stopped pressure-tail lobe, set
 
 \[
@@ -401,15 +405,15 @@ Summing `(PTG.23)` over all transit threads gives `(PTG.18)` with
 \(\vartheta=1/2-\varepsilon_0\), after \(dT_L^\gamma\) is absorbed into the
 already finite weighted tail.
 
-Physically, the heat-lag version says: a pressure oscillation that neither
-cancels, nor exits legally, nor resides long enough to damp cannot be counted as
-selected action while the velocity/shear response over one heat-time window is
-still pending.  The far-packet pressure lead must become finite-difference
-velocity response, viscous/transverse incompressible compensation, pressure
-partner cancellation, frame/collar motion, return, legal, stop, or endpoint
-material.  If the same child response is repeatedly reread as a new pressure
-lead, the lobe is the critical one-child half-tail and the strict coefficient is
-false.
+Physically, the heat-lag version says: a pressure-coordinate oscillation that
+does not cancel or reside long enough to damp cannot be counted as selected
+action while the velocity/shear response over one heat-time window is still
+pending.  The far-packet pressure lead must be read as one same-parent
+full-exchange event: finite-difference velocity response, viscous/transverse
+incompressible compensation, pressure partner cancellation, frame/collar
+motion, return, legal, stop, and endpoint trace are coordinate projections
+inside that event.  If the same child response is repeatedly reread as a new
+pressure lead, the pressure-only recurrence has lost the parent ledger.
 
 So the proof of `(PTG.10)` is exactly the proof of `(PTG.19)` or, in the
 heat-lag formulation, the weighted finite-difference no-recount theorem
@@ -445,8 +449,10 @@ C_N(u_0).
 \]
 
 In this pressure-only reduction, `(PTG.25)' would have supplied `(FGC.25)' after
-`(PTG.10)' / `(PTG.22)'.  The active coupled route now supplies the same
-terminal-uniform selected \(L^1\) line through `(PTG.26)' / `(TFE.2747)'.
+`(PTG.10)' / `(PTG.22)'.  The active coupled route reduces the same
+terminal-uniform selected \(L^1\) line to `(PTG.26)' / `(TFE.2747)' and, under
+the July 1 audit, to the still-open original-data supplier
+TFE2748B / OriginalCriticalCapacityVariation.A.
 
 ## 6. Current proof status
 

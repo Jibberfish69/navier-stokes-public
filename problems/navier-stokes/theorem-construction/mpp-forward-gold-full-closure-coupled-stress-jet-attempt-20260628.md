@@ -392,10 +392,10 @@ C_N(u_0).
 \tag{FGC.23}
 ```
 
-Without `(FGC.23)`, an infinite sequence of same-law admitted jet-service
-events may still concentrate into a shrinking terminal heat-time cascade.  The
-remaining obstruction is the terminal-uniform domination of the selected
-terminal trace by the root-fixed whole-field viscous/jet-service drain.
+Without `(FGC.23)`, terminal-uniform \(L^1\) remains open.  In the current Gold
+source surface, the selected terminal trace is routed into the endpoint-admitted
+full-exchange ledger.  The remaining source wall is strict original-data
+storage for that ledger.
 
 ## 7. Closure verdict
 
