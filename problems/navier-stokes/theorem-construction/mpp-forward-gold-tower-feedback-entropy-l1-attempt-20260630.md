@@ -31628,3 +31628,838 @@ quotient phrase.  It is the stopped square-packing/localization of the affine
 quotient into a predictable root martingale geometry, plus the two typed branch
 payments `(TFE.2159)' and `(TFE.2161)', plus terminal no-residue in the same
 parent metric.
+
+## 184. Root geometry is the producer beneath affine square-packing
+
+The stopped square-packing line in Section 183 must be read through the
+continuous parent-measure correction of Sections 171--172.  The transition
+edges \(e\subset P\) are not new parent units.  They are a stopped partition of
+one parent-root active measure.  A discrete edge sum is lawful only when it is
+the shadow of an integral over the parent root geometry:
+
+\[
+\sum_{e\subset P}
+\int H_{e^-}(t)\|D_e(t)\|_{\mathcal H_{lift}}^2\,dt
+\quad\rightsquigarrow\quad
+\int_{\operatorname{Hist}(P)}
+\|D_P(\sigma,t,x)\|_{\mathcal H_{lift}}^2\,d\nu_P(\sigma,t,x).
+\tag{TFE.2166}
+\]
+
+Here \(d\nu_P\) must be chosen before child positive clipping.  The checked root
+geometry surfaces identify it as
+
+\[
+d\nu_P
+=
+H_P^\ast\,d\sigma dt\,dx,
+\qquad
+\mathfrak H_P
+=
+L^2(d\nu_P;\mathcal H_{lift}),
+\qquad
+\mathcal H_{lift}
+=
+\mathcal H_{vis}\oplus\mathcal H_{sil}\oplus\mathcal H_{ex}.
+\tag{TFE.2167}
+\]
+
+The martingale/Bessel split is therefore a consumer, not the producer.  Once
+\(\mathfrak H_P\) and the parent-fixed connection are constructed from stopped
+original history, the split
+
+\[
+\widetilde Z_e
+=
+B_e+D_e+R_e,
+\qquad
+B_e=\Pi_{\mathcal P_{e^-}}\widetilde Z_e,
+\qquad
+D_e=(I-\Pi_{\mathcal P_{e^-}})\widetilde Z_e
+\tag{TFE.2168}
+\]
+
+is only orthogonal projection in the parent Hilbert space.  Bessel then squares
+the \(D_e\) family; record/return handles \(B_e\); legal/stop handles \(R_e\).
+Thus `(TFE.2165)' is sharpened to the root producer
+
+\[
+\boxed{
+\texttt{StoppedPredictableRootGeometryCompensator.A}
+}
+\tag{TFE.2169}
+\]
+
+with
+
+\[
+\texttt{StoppedPredictableRootGeometryCompensator.A}
+=
+\texttt{StoppedPredictableActiveWeightCompensator.A}
++
+\texttt{ParentFixedConnectionAngleDriftCompensator.A}.
+\tag{TFE.2170}
+\]
+
+The compensator statement is
+
+\[
+\int_{\operatorname{Hist}(P')}dA_{P'}^{root}
++
+\sum_{e\subset P'}
+\int H_{e^-}\|D_e^{vis}+D_e^{sil}+D_e^{ex}\|_{\mathcal H_{lift}}^2
+\le
+C_N(u_0)\mathcal R(P')
++Legal(P')+Stop(P'),
+\tag{TFE.2171}
+\]
+
+where
+
+\[
+dA_P^{root}=dA_P^{wt}+dA_P^{conn}.
+\tag{TFE.2172}
+\]
+
+The active-weight part pays newly admitted upcrossings of the parent-predictable
+harmonic weight \(H_P^\ast\).  The connection part pays the material transport
+needed to compare all lifted increments in one parent-fixed fibre:
+
+\[
+dA_P^{conn}
+=
+H_P^\ast\|\mathcal K_P^{new}\|_{\operatorname{op}}^2\,d\sigma dt
++dA_P^{sel/chart}+Legal+Stop.
+\tag{TFE.2173}
+\]
+
+The noncircular source behind `(TFE.2171)' is the parent-known original root
+generator
+
+\[
+\mathcal G_P^{root}
+=
+\Pi_{\rm new}^P
+\left(
+\partial_\sigma Z
++[D_t,\mathcal L_A]w
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
++\operatorname{frame}_\sigma
++\operatorname{collar/endpoint}_\sigma
+\right).
+\tag{TFE.2174}
+\]
+
+The proof-bearing storage line is therefore
+
+\[
+H_P^\ast\|\mathcal G_P^{root}\|^2\,d\sigma dt
++dA_P^{sel/chart}
+\le
+-D_{\sigma,t}M_P
++d\Theta_P^{orig}
++Legal+Stop,
+\tag{TFE.2175}
+\]
+
+with
+
+\[
+0\le M_P\le C_N(u_0)\mathcal R(P)+Legal(P)+Stop(P),
+\qquad
+\int_{\operatorname{Hist}(P)}d\Theta_P^{orig}
+\le C_N(u_0)\mathcal R(P)+Legal(P)+Stop(P).
+\tag{TFE.2176}
+\]
+
+This is the same storage/coercivity line previously named
+`SelectedGeneratorStorageCoercivity.A' / `OriginalScaleMemoryStorageCoercivity.A',
+now written in the root-geometry coordinates required by affine
+square-packing.
+
+The compactness audit below `(TFE.2171)' is also settled more sharply.  A
+normalized failure of `(TFE.2171)' cannot charge escaped mass to
+\(dA^{wt}+dA^{conn}\), because those clocks are on the left side.  Escape may
+be charged only to parent-known original-history generator, legal, or stop
+currency.  The corrected tightness statement is
+
+\[
+\begin{gathered}
+\mu_n^{root}(\mathscr E_n)=1,\qquad
+\int d\Lambda_{P_n}^{orig}+Legal(P_n)+Stop(P_n)\to0\\
+\Longrightarrow
+\text{after stopped carrier extraction and root rescaling, }
+H_{e_n^-}^{1/2}D_{e_n}\to D_\infty\ne0
+\text{ in a same-carrier finite-band limit.}
+\end{gathered}
+\tag{TFE.2177}
+\]
+
+Finite-band nonvanishing is already a consumer once the high-frequency tail is
+paid:
+
+\[
+\sum_{e\subset P}
+\int H_{e^-}
+\|\Pi_{>M}^PD_e\|_{\mathcal H_{lift}}^2
+\le
+\varepsilon_M
+\sum_{e\subset P}
+\int H_{e^-}\|D_e\|_{\mathcal H_{lift}}^2
++C_M\int_{\operatorname{Hist}(P)}d\Theta_P^{tower/root}
++Legal+Stop,
+\qquad
+\varepsilon_M\to0.
+\tag{TFE.2178}
+\]
+
+The direct high-frequency audit pays derivative-exact, heat-resident,
+connection, frame, covector, turnstile, selector, legal, and stopped high-band
+pieces from parent-known tower/root currency.  The survivor is the persistent
+non-derivative affine/root quotient
+
+\[
+D_e^{pers}
+=
+(I-\Pi_{\mathcal P_{e^-}})
+\mathcal C_\theta[Z_e^{fresh}],
+\tag{TFE.2179}
+\]
+
+because charging
+
+\[
+\int H_{e^-}\|Z_e^{fresh}\|^2
+\tag{TFE.2180}
+\]
+
+would use the selected-critical root bound being produced.  Thus
+`RootDefectHighFrequencyTailCharge.A' is reduced to the persistent root affine
+quotient storage/payment theorem
+
+\[
+\boxed{
+\texttt{PersistentRootAffineQuotientReturnPayment.A}
+}
+\quad\text{equivalently}\quad
+\boxed{
+\texttt{SelectedGeneratorStorageCoercivity.A}.
+}
+\tag{TFE.2181}
+\]
+
+The zero-cost rigidity piece is closed after tightness: no scale derivative, no
+turnstile, no exchange, no covector motion, no connection cost, and no legal
+mismatch leave only inherited parent transport, and the fresh quotient
+\((I-\Pi_{\mathcal P_-})\) kills inherited transport.  The root geometry audit
+therefore lands the current \(L^1\) source at `(TFE.2175)' / `(TFE.2181)':
+construct the original-ledger storage/coercivity for the persistent affine/root
+quotient of the same coupled packet.  All dyadic, stopped-edge, martingale,
+Bessel, reset, and record/return formulas are consumers of that continuous
+parent-root measure, not independent unit counts.
+
+## 185. Accretive testing and routed current loop back to the same storage
+
+The root-generator storage line `(TFE.2175)' has an equivalent stopped testing
+form.  Let \(T_S\) be the stopped same-material transform whose output is the
+visible/silent/exchange root carrier.  A stopped testing family \(b_P\) would
+give
+
+\[
+|\langle b_P\rangle_P|\ge c,
+\qquad
+\|b_P\|_{L^2(P,\mathcal R)}^2\le C\mathcal R(P),
+\tag{TFE.2182}
+\]
+
+and
+
+\[
+\|T_S(b_P\nu^S)\|_{L^2(P,\mathcal R)}^2
+\le C\mathcal R(P)+Legal(P)+Stop(P),
+\tag{TFE.2183}
+\]
+
+with stopped testing defects packing Carleson:
+
+\[
+\sum_{P\subseteq P_0}Def_{test}(P)
+\le C\mathcal R(P_0)+Legal(P_0)+Stop(P_0).
+\tag{TFE.2184}
+\]
+
+The checked equivalence is
+
+\[
+\texttt{MaterialAdjointAccretiveTestingData.A}
+\Longrightarrow
+\texttt{SelectedGeneratorStorageCoercivity.A}.
+\tag{TFE.2185}
+\]
+
+The accretive reference part is partly discharged.  For selected stopped
+support \(S_P\subset P\), set
+
+\[
+\theta_P={\mathcal R(S_P)\over \mathcal R(P)}.
+\tag{TFE.2186}
+\]
+
+On the thick branch \(\theta_P\ge\theta_\ast>0\),
+
+\[
+b_P^0={\mathbf 1_{S_P}\over \theta_P}
+\tag{TFE.2187}
+\]
+
+has mean one and
+
+\[
+\|b_P^0\|_{L^2(P,\mathcal R)}^2
+=\theta_P^{-1}\mathcal R(P)
+\le \theta_\ast^{-1}\mathcal R(P).
+\tag{TFE.2188}
+\]
+
+So thick selector support supplies the local accretive reference state.  Thin
+support is not a mystery pressure term; it is the explicit selector-thickness
+defect
+
+\[
+Def_{thin}(P)
+=
+\left(\theta_P^{-1}-\theta_\ast^{-1}\right)_+\mathcal R(P),
+\tag{TFE.2189}
+\]
+
+which must pack over the stopped tree:
+
+\[
+\sum_{P\subseteq P_0}Def_{thin}(P)
+\le C\mathcal R(P_0)+Legal(P_0)+Stop(P_0).
+\tag{TFE.2190}
+\]
+
+For the transform side, the stopped source is not arbitrary.  The current
+factorization surface gives
+
+\[
+\nu^S
+=D_AJ^S+\nu^S_{stop}+\nu^S_{legal},
+\tag{TFE.2191}
+\]
+
+with \(J^S\) the same-material routed participation current of the coupled
+packet before scalar positive selection.  Then
+
+\[
+T_S(D_AJ^S)=\Pi_{\nabla,A}J^S,
+\tag{TFE.2192}
+\]
+
+and cutoff commutators are collar/legal/stop terms.  Thus `(TFE.2183)' is a
+consumer of the stopped current estimate
+
+\[
+\sup_{P\subseteq P_0}
+{1\over\mathcal R(P)}
+\left[
+\int_{\widehat P}|J^S|^2\,d\mathcal R
++Legal(\widehat P)+Stop(\widehat P)
+\right]
+\le C_N(u_0).
+\tag{TFE.2193}
+\]
+
+The current-Carleson estimate itself reduces to stopped square-packing of the
+routed current increments:
+
+\[
+\sum_{Q\subseteq P}
+\left[
+\int_{\widehat Q}|J^S|^2\,d\mathcal R
++Stop(Q)
+\right]
+\le C_N(u_0)\mathcal R(P)+Legal(P),
+\tag{TFE.2194}
+\]
+
+and the branch assembly shows that fixed-core return and strict reset are paid
+by the same routed derivative packet
+
+\[
+\mathcal E_{route}(P)
+=
+\int_{\operatorname{Hist}(P)}
+w\left(
+|\partial_\sigma Z|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
+\right).
+\tag{TFE.2195}
+\]
+
+The noncircular current-energy clause is the subledger domination
+
+\[
+w\left(
+|\partial_\sigma Z|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
+\right)d\sigma dt
+\le
+C\,\Theta_{full}+Legal+Stop,
+\tag{TFE.2196}
+\]
+
+which would give
+
+\[
+\mathcal E_{route}(P)\le C_N(u_0)+Legal(P)+Stop(P).
+\tag{TFE.2197}
+\]
+
+This current route is essential, but it is not the full source of
+`(TFE.2175)'.  It pays current motion, fixed-core return, strict reset,
+selector/collar transport, and Hodge transform testing.  The corrected
+routed-current producer surface says it does not pay pure scale-native selected
+zoom births by itself, because a unit child read can have original pullback
+size \(r^{-1/2}\).  The persistent affine/root quotient `(TFE.2179)' is exactly
+the piece left after routed current motion and derivative-exact reset have been
+removed.
+
+Therefore the testing/current audit has this shape:
+
+\[
+\begin{aligned}
+&\texttt{SelectorThicknessDefectCarlesonFromOriginalHistory.A}\\
+&+\texttt{TestingDefectChargeToInstalledLedgers.A}\\
+&+\texttt{RoutedCurrentEnergySubledgerOfFullMaterialClock.A}\\
+&+\texttt{NativeBirthChargePacking.A / SelectedGeneratorStorageCoercivity.A}
+\\
+&\qquad\Longrightarrow
+\texttt{MaterialAdjointAccretiveTestingData.A}
+\Longrightarrow
+\texttt{SelectedGeneratorStorageCoercivity.A}.
+\end{aligned}
+\tag{TFE.2198}
+\]
+
+The first three lines are support clauses for the stopped testing/current
+machinery.  The fourth line is the source clause for the pure scale-native
+persistent quotient.  This is why the proof cannot stop at current
+factorization, at a \(Tb\) theorem, or at routed-current square-packing.  Those
+surfaces keep the coupled packet honest, but the \(L^1\) producer still has to
+construct the selected-generator storage/coercivity/native-birth measure from
+the original pressure-viscosity-incompressibility material law before child
+clipping.
+
+## 186. Endpoint threading proves admission, not packing
+
+The native-birth surfaces separate the source line into two different facts.
+The first fact is local admission: a retained first selected birth must leave a
+positive endpoint seed in the original coupled packet.  After the DER/AQK split,
+the positive affine survivor is
+
+\[
+c_\gamma^{fresh}(t,x)
+=
+\int_{J_\gamma}
+k_\gamma(\sigma)\widetilde Z_\gamma^{fresh,+}(\sigma,t,x)\,d\sigma
++DER_\gamma(t,x),
+\qquad
+k_\gamma\ge0.
+\tag{TFE.2199}
+\]
+
+Thus the natural endpoint seed is
+
+\[
+M_\gamma(t,x)
+:=
+\int_{J_\gamma}
+k_\gamma(\sigma)\widetilde Z_\gamma^{fresh,+}(\sigma,t,x)\,d\sigma,
+\tag{TFE.2200}
+\]
+
+and retained unit selected readout gives, by Cauchy on the seed window,
+
+\[
+\omega_\gamma
+\le
+C_N
+\int_{I_\gamma}H_\gamma(t)\|M_\gamma(t)\|_2^2\,dt
++DER(\gamma)+Legal(\gamma)+Stop(\gamma).
+\tag{TFE.2201}
+\]
+
+This is an installed admission shape, not the global \(L^1\) producer.  In
+stopped-partition shorthand, the global producer is endpoint-seed packing:
+
+\[
+\sum_{\gamma\subset P}
+\left[
+\int_{I_\gamma}H_\gamma(t)\|M_\gamma(t)\|_2^2\,dt
++DER(\gamma)+R_{thread}(\gamma)
+\right]
+\le
+C_N(u_0)\mathcal R(P)+Legal(P)+Stop(P)
++C\,Return(P)+C\,Reset(P).
+\tag{TFE.2202}
+\]
+
+Equations `(TFE.2201)'--`(TFE.2202)' are exactly the endpoint-threaded form of
+
+\[
+\texttt{NativeBirthChargePacking.A}
+\quad\Longleftrightarrow\quad
+\texttt{PositiveCriticalTransferBound.A}
+\quad\Longleftrightarrow\quad
+\texttt{SelectedGeneratorStorageCoercivity.A}.
+\tag{TFE.2203}
+\]
+
+The audited endpoint-threading attempts do not prove `(TFE.2202)'.  The absorbed
+shell-pair estimate controls a signed commutator packet,
+
+\[
+\sum_{m,j}
+\left|
+2^{2j}
+\langle[\Delta_j,\Delta_m u\cdot\nabla]\Delta_j u,\Delta_j u\rangle
+\right|
+\le
+\varepsilon\nu D_N+C_{\varepsilon}\widetilde\Lambda_N^\sharp E_N,
+\tag{TFE.2204}
+\]
+
+while `(TFE.2202)' controls a nonnegative accumulated endpoint mass.  A signed
+commutator estimate does not dominate a positive endpoint square unless an
+additional coercive comparison is proved:
+
+\[
+H_\gamma\|M_\gamma\|_2^2
+\lesssim
+\sum_{m,j}
+\left|
+2^{2j}
+\langle[\Delta_j,\Delta_m u\cdot\nabla]\Delta_j u,\Delta_j u\rangle
+\right|
++Paid.
+\tag{TFE.2205}
+\]
+
+No checked surface installs `(TFE.2205)'.  The direct finite-band bilinear
+packet and the \(\mu_N\) measure route are likewise support interfaces until
+they independently produce the endpoint mass bound.
+
+The terminal-window sibling route also does not close by a diagonal selection.
+The two available facts have the form
+
+\[
+\nu_N([t,T))\to0\quad(t\uparrow T)\quad\text{for fixed }N,
+\tag{TFE.2206}
+\]
+
+and
+
+\[
+E_N(t)\to0\quad(N\to\infty)\quad\text{for fixed }t<T.
+\tag{TFE.2207}
+\]
+
+These do not imply a single \(N\)-dependent terminal family \(t_N\uparrow T\)
+with both
+
+\[
+\nu_N([t_N,T))\le\varepsilon_\ast,
+\qquad
+E_N(t_N)\to0.
+\tag{TFE.2208}
+\]
+
+The implication fails even in the scalar model \(T=1\).  Let
+
+\[
+\widetilde\Lambda_N(t)=N^2\mathbf 1_{(1-1/N,1)}(t),
+\qquad
+E_N(t)=\mathbf 1_{(1-1/N,1)}(t).
+\tag{TFE.2209}
+\]
+
+Then `(TFE.2206)' and `(TFE.2207)' both hold.  But for \(0<\varepsilon_\ast<1\),
+the condition
+
+\[
+\int_{t_N}^1\widetilde\Lambda_N(t)\,dt\le\varepsilon_\ast
+\tag{TFE.2210}
+\]
+
+forces \(t_N\ge1-\varepsilon_\ast/N^2\), hence \(E_N(t_N)=1\).  So terminal
+\(\nu_N\)-smallness and preterminal high-frequency seed smallness do not
+synchronize without a genuine uniform theorem.  This countermodel is not an NS
+counterexample; it proves that the available hypotheses are logically
+insufficient.
+
+After removing reuse, return, reset, current motion, legal loss, stop loss, and
+terminal-window aliases, a normalized failure of `(TFE.2202)' has the exact
+minimal form
+
+\[
+\sum_{\gamma\subset P}
+\int_{I_\gamma}H_\gamma\|M_\gamma\|_2^2=1,
+\qquad
+\int d\Theta_P^{orig}+Return(P)+Reset(P)+Legal(P)+Stop(P)\to0.
+\tag{TFE.2211}
+\]
+
+The required contradiction is not local invisibility.  It is:
+
+\[
+\text{a nonzero retained first endpoint seed cannot remain after all same-parent
+original-history motion, return, reset, legal, and stop charges vanish.}
+\tag{TFE.2212}
+\]
+
+Proving `(TFE.2212)' in a compactness/rigidity form would close
+`(TFE.2202)'.  In analytic coordinates it is the same strict one-sided
+positive-transfer theorem:
+
+\[
+\int_0^\tau B_{birth,+}(t)\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Return+Reset+Legal+Stop,
+\qquad
+\theta<1.
+\tag{TFE.2213}
+\]
+
+Thus endpoint threading contributes the correct physical atom and the correct
+minimal bad profile.  It does not by itself supply the \(L^1\) source.  The live
+producer is now the endpoint-seed packing / positive-transfer rigidity theorem
+`(TFE.2202)'--`(TFE.2213)' from the original coupled packet.
+
+## 187. Endpoint-seed packing must be a continuous parent-measure statement
+
+The dyadic correction from Sections 171--173 also applies to `(TFE.2202)'.
+The index \(\gamma\) is not an ontology of many independent zoom units.  It is
+a stopped partition coordinate on one continuous parent endpoint-seed measure.
+
+Let \(\Gamma_P^{EP,fr}\subset\mathcal X_P\) be the parent-known continuum of
+first endpoint seeds after reuse, derivative-exact route, reset, return, legal,
+stop, and already admitted terminal material have been removed.  Let
+
+\[
+d\eta_P^{EP}(\gamma)
+\tag{TFE.2214}
+\]
+
+be the parent disintegration measure induced from the continuous active
+parent-root measure \(d\mathcal C_P^{act}\).  The endpoint seed is the field
+\(M(\gamma,t)\) defined by `(TFE.2200)' on this continuum, and the actual
+endpoint-seed measure is
+
+\[
+d\mathcal E_P^{EP}(\gamma,t)
+:=
+H_\gamma(t)\|M(\gamma,t)\|_2^2\,dt\,d\eta_P^{EP}(\gamma).
+\tag{TFE.2215}
+\]
+
+Thus the continuous form of endpoint-seed packing is
+
+\[
+\int_{\Gamma_P^{EP,fr}}
+\int_{I_\gamma}
+H_\gamma(t)\|M(\gamma,t)\|_2^2\,dt\,d\eta_P^{EP}(\gamma)
++
+\int_{\Gamma_P^{EP,fr}}
+\bigl(DER+R_{thread}\bigr)\,d\eta_P^{EP}
+\le
+C_N(u_0)\mathcal R(P)+Legal(P)+Stop(P)+C\,Return(P)+C\,Reset(P).
+\tag{TFE.2216}
+\]
+
+The discrete formula `(TFE.2202)' is lawful only for a stopped finite-overlap
+partition \(\Pi\) of \(\Gamma_P^{EP,fr}\), where each atom \(\gamma\in\Pi\)
+means the measure of its parent cell, not a unit count.  In that case
+
+\[
+c\int d\mathcal E_P^{EP}
+\le
+\sum_{\gamma\in\Pi}
+\int_{I_\gamma}H_\gamma\|M_\gamma\|_2^2\,dt
+\le
+C\int d\mathcal E_P^{EP}
+\tag{TFE.2217}
+\]
+
+with constants depending only on the stopped finite-overlap construction.  A
+raw point-sum over ever smaller zoom units is not an admissible approximation
+to `(TFE.2216)'.
+
+The corrected minimal bad profile is therefore not the sequence
+\(\sum_\gamma=1\) as a literal count.  It is the integral profile
+
+\[
+\int d\mathcal E_{P_n}^{EP}=1,
+\qquad
+\int d\Theta_{P_n}^{orig}+Return(P_n)+Reset(P_n)+Legal(P_n)+Stop(P_n)\to0.
+\tag{TFE.2218}
+\]
+
+After this correction, the same rigidity line `(TFE.2212)' becomes sharper:
+
+\[
+\text{no nonzero retained endpoint-seed measure can survive as a same-parent
+absolutely continuous child of }d\mathcal C_P^{act}
+\text{ when all original-history charges vanish.}
+\tag{TFE.2219}
+\]
+
+This removes the moving-unit error from the endpoint route.  The proof may use
+dyadic shells, stopped trees, or endpoint atoms as harmonic-analysis
+coordinates, but every such sum must pull back to `(TFE.2216)' with the parent
+measure and its finite-overlap constants intact.  The remaining Gold \(L^1\)
+producer is therefore the continuous endpoint-seed measure bound `(TFE.2216)',
+equivalently the continuous native-reserve pushforward / positive critical
+transfer estimate from the original coupled packet.
+
+## 188. Endpoint seed is the affine zero-mode, not the derivative-exact scale part
+
+The scale-memory Cauchy reduction in Section 181 does not by itself prove
+`(TFE.2216)'.  It controls the derivative-exact part of a fresh scale interval.
+The endpoint seed is the affine scale-average mode left after that derivative
+part is removed.
+
+For one stopped scale interval \(J_\gamma\), write
+
+\[
+Z_\gamma(\sigma,t,x)
+=
+\overline Z_\gamma(t,x)
++Z_\gamma^\perp(\sigma,t,x),
+\qquad
+\overline Z_\gamma
+:=
+|J_\gamma|^{-1}\int_{J_\gamma}Z_\gamma(\sigma,t,x)\,d\sigma .
+\tag{TFE.2220}
+\]
+
+The derivative-exact estimate gives only the Poincare part
+
+\[
+\int_{J_\gamma}\|Z_\gamma^\perp(\sigma,t)\|_2^2\,d\sigma
+\lesssim
+|J_\gamma|^2
+\int_{J_\gamma}\|\partial_\sigma Z_\gamma(\sigma,t)\|_2^2\,d\sigma
++Legal(\gamma)+Stop(\gamma).
+\tag{TFE.2221}
+\]
+
+The endpoint seed is instead
+
+\[
+M_\gamma(t)
+=
+\int_{J_\gamma}k_\gamma(\sigma)Z_\gamma^{fresh,+}(\sigma,t)\,d\sigma
+=
+K_\gamma \overline Z_\gamma^{fresh,+}(t)
++M_\gamma^\perp(t),
+\tag{TFE.2222}
+\]
+
+with \(K_\gamma=\int_{J_\gamma}k_\gamma(\sigma)\,d\sigma\).  The
+\(M_\gamma^\perp\) term is derivative-exact and is covered by `(TFE.2221)' plus
+route/legal/stop terms.  The \(K_\gamma\overline Z_\gamma\) term is the
+persistent affine/root quotient.
+
+The scalar zero-mode test shows the obstruction.  If
+
+\[
+Z_\gamma(\sigma,t,x)=Z_0(t,x)
+\quad\text{on }J_\gamma,
+\tag{TFE.2223}
+\]
+
+then
+
+\[
+\partial_\sigma Z_\gamma=0,
+\qquad
+Z_\gamma^\perp=0,
+\qquad
+M_\gamma=K_\gamma Z_0 .
+\tag{TFE.2224}
+\]
+
+Thus a derivative scale-memory estimate can be zero while the endpoint seed is
+nonzero.  This is not a Navier--Stokes counterexample; it is the exact
+functional-analytic reason the endpoint seed cannot be paid by the
+derivative-exact Cauchy/overlap argument alone.
+
+Therefore `(TFE.2216)' splits into a derivative-exact consumer plus an affine
+endpoint quotient:
+
+\[
+\int d\mathcal E_P^{EP}
+\le
+C\,DER_P^{scale}
++
+C\,AQ_P^{EP}
++Legal(P)+Stop(P),
+\tag{TFE.2225}
+\]
+
+where
+
+\[
+AQ_P^{EP}
+:=
+\int_{\Gamma_P^{EP,fr}}
+\int_{I_\gamma}
+H_\gamma(t)\|K_\gamma\overline Z_\gamma^{fresh,+}(t)\|_2^2\,dt\,
+d\eta_P^{EP}(\gamma).
+\tag{TFE.2226}
+\]
+
+The derivative term \(DER_P^{scale}\) is already routed by the scale-memory
+representation, sparse overlap, and original generator-energy consumers when
+those hypotheses are present.  The actual unproved endpoint producer is
+
+\[
+AQ_P^{EP}
+\le
+C_N(u_0)\mathcal R(P)
++Legal(P)+Stop(P)+C\,Return(P)+C\,Reset(P).
+\tag{TFE.2227}
+\]
+
+This is the continuous endpoint form of the persistent affine/root quotient
+`(TFE.2179)' and the positive-transfer line `(TFE.2213)'.  A proof of
+`(TFE.2227)' must provide a parent-known storage or accretive test for the
+affine zero-mode before child positive clipping:
+
+\[
+H_\gamma\|K_\gamma\overline Z_\gamma^{fresh,+}\|_2^2\,dt\,d\eta_P^{EP}
+\le
+-dM_P^{EP}
++d\Theta_P^{orig}
++dReturn+dReset+dLegal+dStop,
+\tag{TFE.2228}
+\]
+
+with \(M_P^{EP}\) bounded below and \(\int d\Theta_P^{orig}\le C_N(u_0)\mathcal R(P)\).
+This is not a new side theorem.  It is exactly
+`SelectedGeneratorStorageCoercivity.A' / `PositiveCriticalTransferBound.A' in
+the endpoint-affine coordinates.  Once `(TFE.2228)' is proved, `(TFE.2227)',
+`(TFE.2216)', continuous native-reserve pushforward, and terminal-uniform
+selected \(L^1\) follow by the already written consumer chain.  Without
+`(TFE.2228)', the endpoint seed remains the same Gold \(L^1\) wall, now written
+without dyadic moving-unit error.
