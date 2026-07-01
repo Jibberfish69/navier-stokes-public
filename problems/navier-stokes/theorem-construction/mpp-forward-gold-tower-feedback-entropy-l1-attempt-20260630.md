@@ -13063,8 +13063,10 @@ The current sharpened Gold statement is therefore
 
 \[
 \boxed{
-\text{prove `(TFE.891)' for scale-native retained births from the original
-coupled packet.}
+\begin{gathered}
+\text{prove `(TFE.891)' for scale-native retained births}\\
+\text{from the original coupled packet.}
+\end{gathered}
 }
 \tag{TFE.893}
 \]
@@ -13074,3 +13076,327 @@ gives active entropy deletion, Section 74 gives the root-fixed \(L^1\) density,
 and the installed full-clock/\(H^s\) relay applies.  Without `(TFE.891)`, the
 bounded-Riesz proof, source attachment, no-recount, and entropy telescope are
 all real but downstream of the same scale-native positive-transfer wall.
+
+## 78. The scale-native wall is the weight-beating tail
+
+The scale-native estimate `(TFE.891)` is the current form of the older
+weight-beating tail theorem.  This gives a useful final pressure test for the
+physical story: any proposed closure must beat the first-ratio tail, not merely
+show source attachment, local energy finiteness, or CKN-type raw-scale control.
+
+In dyadic material-rate coordinates, write
+
+\[
+d\mu_j(t)=2^{2j}e_j(t)\,dt,
+\qquad
+\rho_j(t)={\Theta_j^{mat}(t)\over 2^{2j}},
+\tag{TFE.894}
+\]
+
+where \(\Theta_j^{mat}\) is the full graph-compatible same-material rate after
+the branch reductions.  The scale-native selected action is
+
+\[
+\mathcal T_N(P)
+:=
+\sum_j\int_{\{\rho_j>\delta\}}\rho_j\,d\mu_j.
+\tag{TFE.895}
+\]
+
+For level sets
+
+\[
+E_{j,\ell}
+=
+\{2^\ell\delta<\rho_j\le2^{\ell+1}\delta\},
+\qquad
+\nu_\ell=\sum_j\mu_j(E_{j,\ell}),
+\tag{TFE.896}
+\]
+
+finite selected scale-native action is exactly
+
+\[
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty.
+\tag{TFE.897}
+\]
+
+The raw installed currencies give only
+
+\[
+\sum_{\ell\ge0}\nu_\ell<\infty.
+\tag{TFE.898}
+\]
+
+The half-tail
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1}
+\tag{TFE.899}
+\]
+
+satisfies `(TFE.898)` but violates `(TFE.897)`.  It also satisfies the support
+reductions that only attach the selected birth to a source channel, orient it
+inside a complete frame, or charge a single ancestry line conditionally.  Those
+support facts do not create the missing \(2^\ell\) weight.
+
+Equivalently, a good-\(\lambda\) proof has to beat the half barrier.  If
+
+\[
+N_L=\sum_{\ell\ge L}\nu_\ell,
+\tag{TFE.900}
+\]
+
+then the half-tail gives \(N_{L+1}/N_L\to1/2\).  A proof from raw mass alone can
+at best reach the borderline recurrence.  The needed recurrence has strict
+gain
+
+\[
+N_{L+1}\le\theta N_L+B_L,
+\qquad
+2\theta<1,
+\qquad
+\sum_{L\ge0}2^LB_L<\infty.
+\tag{TFE.901}
+\]
+
+This is the same theorem as `(TFE.891)`.  It can also be written as a
+bounded-below same-material storage
+
+\[
+d\mathscr A_N+c_N\,d\Omega_N^{full}
+\le
+dR_N^{legal},
+\qquad
+\mathscr A_N\ge-C_N(u_0),
+\qquad
+\int dR_N^{legal}<\infty.
+\tag{TFE.902}
+\]
+
+The local Navier--Stokes structure does not by itself produce `(TFE.897)`.
+The local affine incompressible packet
+
+\[
+u(x,t)=B(t)x,
+\qquad
+\operatorname{tr}B(t)=0,
+\qquad
+B(t)=B(t)^T,
+\tag{TFE.903}
+\]
+
+with pressure
+
+\[
+p(x,t)=-{1\over2}x\cdot(\dot B+B^2)x
+\tag{TFE.904}
+\]
+
+is an exact local material model for non-gauge strain action.  After
+localization, the raw physical cost remains radius-weighted while normalized
+material action can stay order one.  Thus a local material-jet rigidity theorem
+or a raw local-energy/CKN consumer cannot be the missing producer.
+
+The missing physical theorem must therefore use the global original transported
+history, its all-scale pressure--Hodge--strain--viscous coupling, or an
+equivalent bounded-below action reservoir:
+
+\[
+\boxed{
+\text{original coupled history}
+\Longrightarrow
+\text{weight-beating tail `(TFE.897)' / storage `(TFE.902)'.}
+}
+\tag{TFE.905}
+\]
+
+This is the current sharpest statement of what is still physically missing.
+The pressure-feedback loop explains why the same packet can be re-coordinated
+across scales.  The unresolved Gold theorem is the global law preventing that
+re-coordination from appearing as an infinite sequence of scale-native
+selected positive births with finite raw mass and divergent first-ratio action.
+
+## 79. What the physical story still has to prove
+
+The physical story is now precise enough to separate source ownership from the
+missing \(L^1\) theorem.  Nothing outside the coupled
+pressure--viscosity--incompressibility--velocity packet is being introduced.
+The whole issue is that a child heat-lag read can be formed in the wrong order:
+the child clips a scale-native positive read before the original packet has
+recombined pressure coordination, viscous descent, self-advection, Hodge
+projection, frame/collar motion, and return.
+
+For a retained scale-native event \(\gamma\), write the parent full scalar as
+
+\[
+h_\gamma
+=
+\langle
+N+P+V+T+I+L+S,\Phi_\gamma^P
+\rangle
+-c\,D_\nu(\gamma),
+\tag{TFE.906}
+\]
+
+where \(N\) is material acceleration/transport, \(P\) is pressure-compatible
+Hodge response, \(V\) is viscous heat-lag descent, \(T,I,L,S\) denote the
+transport/frame, incompressibility/Hodge, legal/return, and selector/stop
+channels, and \(\Phi_\gamma^P\) is chosen from parent history before the child
+positive readout.  The dangerous child scalar is \(n_\gamma\).  The only real
+order-lock gap is
+
+\[
+\Delta_\gamma^{ol}
+=
+\big([n_\gamma]_+-[h_\gamma]_+\big)_+ .
+\tag{TFE.907}
+\]
+
+Thus the first missing clause is not another payment channel.  It is full-packet
+order before clipping:
+
+\[
+\sum_{\gamma\subset P}\Delta_\gamma^{ol}
+\le
+Paid(P).
+\tag{TFE.908}
+\]
+
+After `(TFE.908)`, every retained positive child read is a read of the parent
+full packet.  The bounded part is already handled by `(TFE.886)`.  The
+remaining scale-native part needs a parent-known active capacity in the
+critical metric, not the raw \(L^2\) Hilbert metric.  Equivalently, there must
+be a root-known density \(f_P\) with respect to an original coupled-packet
+reserve \(dR_P^{orig}\) such that
+
+\[
+d\Omega_P^{sn}
+\le
+f_P\,dR_P^{orig}+Paid(P),
+\qquad
+\int_P \Phi(f_P)\,dR_P^{orig}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.909}
+\]
+
+where \(\Phi\) is strong enough to beat the half-tail, for example an
+\(L\log L\), reverse-Holder, Hardy, or bounded-below Bellman capacity form.
+In dyadic language `(TFE.909)` is exactly
+
+\[
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty,
+\tag{TFE.910}
+\]
+
+not merely \(\sum_\ell\nu_\ell<\infty\).
+
+This is the state-count correction.  The set of accessible future packet
+histories is not deleted just by passive heat entropy.  It is deleted only by
+the active feedback capacity built from the same full packet:
+
+\[
+\mathcal C_P^{act}(t)
+=
+\int \Phi(f_P(t))\,dR_P^{orig}.
+\tag{TFE.911}
+\]
+
+The required one-loop deletion inequality is
+
+\[
+d\mathcal C_P^{act}
++c_N\,d\Omega_P^{sn}
+\le
+\theta\,dR_P^{nat}
++dPaid_P,
+\qquad
+\theta<1,
+\tag{TFE.912}
+\]
+
+with \(\mathcal C_P^{act}\ge -C_N(u_0)\mathcal R(P)-Paid(P)\).  Here
+\(dR_P^{nat}\) is the native viscous/critical reserve appearing in the original
+coupled fractional-energy identity.  Combining `(TFE.912)` with that identity
+is the physical "feedback cannot create more future states than viscosity
+deletes" law.
+
+In the compressed Fourier coordinate this same missing deletion law is the
+one-sided positive critical transfer estimate
+
+\[
+\int_0^\tau [B_{crit}(t)]_+\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(P),
+\qquad
+\theta<1.
+\tag{TFE.913}
+\]
+
+The equation
+
+\[
+{1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
++\nu\|\Lambda^{3/2}u\|_2^2
+=
+B_{crit}(t)
+\tag{TFE.914}
+\]
+
+then gives terminal-uniform native reserve and hence `(TFE.910)`.
+
+The exact missing package for closing \(L^1\) is therefore:
+
+\[
+\begin{gathered}
+\text{full-packet order-lock before child positive clipping `(TFE.908)',}\\
+\text{parent-known active density/capacity in the critical metric `(TFE.909)',}\\
+\text{one-loop state deletion with strict margin `(TFE.912)',}\\
+\text{root-fixed terminal no-jump/Hardy thickness after the density is built.}
+\end{gathered}
+\tag{TFE.915}
+\]
+
+The source audit says why each clause is genuinely missing.  Local affine
+incompressible packets `(TFE.903)`--`(TFE.904)` can carry normalized material
+action with radius-weighted raw cost, so local smoothness, local Liouville, and
+raw CKN/local energy do not supply `(TFE.912)`.  Bounded Riesz/Bessel admission
+closes only \(O(1)\) parent tests, while scale-native unit tests have original
+size \(r^{-1/2}\).  No-recount and first-entry laws prevent the same admitted
+pulse from being renamed; they do not supply the critical lower atom
+\(\rho_\gamma^{sn,crit}\) or its root packing.
+
+So the physical picture contributes this exact mathematical target:
+
+\[
+\boxed{
+\begin{gathered}
+\text{construct root-known active feedback capacity }\mathcal C_P^{act}
+\text{ from the original coupled packet,}\\
+\text{and prove the strict deletion law }(TFE.912).
+\end{gathered}
+}
+\tag{TFE.916}
+\]
+
+Once `(TFE.916)` is proved, the rest of the Gold \(L^1\) chain is mechanical:
+
+\[
+\mathrm{TFE.916}
+\Longrightarrow
+\text{weight-beating tail TFE.910}
+\Longrightarrow
+\text{native-birth packing TFE.891}
+\Longrightarrow
+\text{root-fixed }L^1\text{ density and terminal no-jump}
+\Longrightarrow
+\text{terminal-uniform }L^1.
+\tag{TFE.917}
+\]
+
+This is not yet a proof of smoothness.  It is the cleanest current description
+of what has to be proved from the physical pressure--heat--viscous feedback
+story, with the false alternatives removed.
