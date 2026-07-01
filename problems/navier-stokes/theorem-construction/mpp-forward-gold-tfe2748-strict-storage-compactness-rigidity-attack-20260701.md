@@ -2079,8 +2079,12 @@ D_t^PZ_P
 
 where \(\mathcal H_P^{press}\) contains the Leray/Hodge pressure response and
 \(\mathcal C_P^{mat}\) contains self-advection, frame, collar, covector,
-commutator, selector, and endpoint chart motion.  Differentiating the selected
-density gives
+commutator, selector, and endpoint chart motion.  Here
+\(\mathcal L_P^{Stokes}\) is written with the heat-generator convention: after
+integration by parts, the first line of `(TFE2748B.128)' contributes the
+dissipative term \(-\nu\,d\mathcal I_P^{crit}\), up to paid boundary, chart, and
+stopping defects.  Differentiating the selected density gives
+
 
 \[
 D_t^Pf_P
