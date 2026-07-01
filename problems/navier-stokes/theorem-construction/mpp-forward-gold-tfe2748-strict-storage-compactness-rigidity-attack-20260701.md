@@ -34,7 +34,12 @@ completion_truth: >-
   route, legal, and stop pieces all treated as consumers. The direct
   active-density test below then isolates the remaining non-Markov residue:
   pressure/Hodge/commutator motion is sign-changing and becomes entropy
-  dissipative only after its same-parent signed partner is retained or paid.
+  dissipative only after its same-parent signed partner is retained or paid. The
+  July 1 minimal-counterexample/descent audit then proves the deterministic
+  lower-edge conversion: finite parent active thickness plus parent active
+  log-density/entropy controls the positive zero-source cycle, so the remaining
+  PDE supplier is exactly the stopped selector testing/current Carleson producer
+  for that log-density from arbitrary original data.
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-original-data-source-theorem-attack-20260701.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
@@ -2399,3 +2404,141 @@ original ledger, `(TFE.2434)' gives the storage drop, and `(TFE2748B.120)' /
 `(TFE2748B.130)' remain conditional consumers.  This is not a new downstream
 wall: it is the same arbitrary-original-data source theorem in the minimal
 zero-profit-cycle form.
+
+## 25. Minimal counterexample test: entropy is the lower-edge conversion
+
+The no-positive-zero-source-cycle form `(TFE2748B.143)' can be attacked by
+minimal counterexample rather than by another pointwise estimate.  Suppose a
+retained zero-source cycle survives after the component removals in
+`(TFE2748B.144)'.  Write its positive profit in the exact parent continuum
+measure as
+
+\[
+d\Pi_P^+
+=F_P\,d\mathfrak m_P,
+\qquad
+d\Pi_P=d\Xi^{FE}-\vartheta d\Omega^{gen}-dE^0 .
+\tag{TFE2748B.147}
+\]
+
+Here \(d\mathfrak m_P\) is the parent active readout measure of
+`(TFE2748B.118)' / `(TFE.2033)', not a dyadic child count.  The deterministic
+lower-edge fact is:
+
+\[
+\begin{array}{c}
+\mathfrak m_P(\{F_P>0\})\le T_P,\\[1mm]
+\displaystyle
+\int \Phi(F_P)\,d\mathfrak m_P
+\le E_P,
+\qquad
+\Phi(s)=s\log(e+s)
+\end{array}
+\quad\Longrightarrow\quad
+\int F_P\,d\mathfrak m_P<\infty .
+\tag{TFE2748B.148}
+\]
+
+Indeed, for any \(K>1\),
+
+\[
+\int F_P\,d\mathfrak m_P
+\le
+K\,T_P
++
+{1\over \log(e+K)}
+\int \Phi(F_P)\,d\mathfrak m_P .
+\tag{TFE2748B.149}
+\]
+
+Thus a retained positive zero-source cycle cannot survive once the same parent
+packet supplies finite active thickness and parent active entropy.  This is the
+continuous-integral version of the strict tail recurrence `(TFE2748B.119)'.
+The half-tail can only survive by making the log-density/entropy side infinite:
+
+\[
+\int F_P\,d\mathfrak m_P=\infty,
+\qquad
+\int \Phi(F_P)\,d\mathfrak m_P=\infty
+\quad
+\text{on the retained zero-source face.}
+\tag{TFE2748B.150}
+\]
+
+So the minimal bad object is not a mysterious fourth account.  It is exactly a
+same-parent active density whose raw parent thickness is finite while its
+selected log-amplification is not controlled by the original packet.
+
+The PDE supplier that would rule this out is the already-isolated stopped
+log-density carrier/testing theorem.  One lawful form is: construct, before
+positive child clipping, a stopped same-material carrier \(Z_P^S\), a selected
+log-density representation
+
+\[
+\log {F_Q\over F_{\operatorname{par}(Q)}}
+=
+\ell_Q(\Delta_Q Z_P^S)-\psi_Q+e_Q,
+\tag{TFE2748B.151}
+\]
+
+and a root square-function/testing bound
+
+\[
+\sup_{P'\subseteq P}{1\over\mathcal R(P')}
+\left[
+\sum_{Q\subseteq P'}
+\bigl(\|\Delta_Q Z_P^S\|_{\mathfrak H_P}^2+|e_Q|^2\bigr)
+\mathcal R(Q)
++Stop(P')
+\right]
+\le
+C_N(u_0)+{R_{\rm legal}(P')\over \mathcal R(P')}.
+\tag{TFE2748B.152}
+\]
+
+Martingale John--Nirenberg / reverse-Holder, or the equivalent active entropy
+chain rule, then gives
+
+\[
+\int \Phi(F_P)\,d\mathfrak m_P
+\le
+C_N(u_0)\mathcal R(P)+Paid(P)+Stop(P)
+\tag{TFE2748B.153}
+\]
+
+and `(TFE2748B.148)'--`(TFE2748B.149)' give the selected \(L^1\) bound.  In
+storage language this supplies `(TFE2748B.120)'; in Bellman language it says the
+positive profit measure \(d\Pi_P^+\) has no zero-source cycle.
+
+The point of `(TFE2748B.151)'--`(TFE2748B.152)' is that the log-density carrier
+must be built from the same original pressure-viscosity-incompressibility-
+velocity packet:
+
+\[
+\nu_P^S=D_AJ_P^S+dStop_P+dR_{\rm legal,P},
+\qquad
+Z_P^S=T_P\nu_P^S,
+\tag{TFE2748B.154}
+\]
+
+with cancellation, local testing, and testing-defect Carleson bounds for the
+stopped Hodge/Riesz/martingale transform before the child selected positive
+readout is clipped.  Defining \(F_P\), \(Z_P^S\), or the testing tree from the
+future selected tail makes `(TFE2748B.153)' circular.
+
+This section proves the deterministic lower-edge conversion and identifies the
+minimal counterexample's only remaining source failure:
+
+\[
+\texttt{StoppedSelectorTestingCarleson.A}
+\quad\text{or equivalently}\quad
+\texttt{OriginalHistoryHilbertBMOProducer.A}
+\tag{TFE2748B.155}
+\]
+
+for the active log-density carrier of the same parent packet.  It is not a new
+Gold wall and not a local symmetrizer.  It is `(TFE2748B.143)' expressed as the
+entropy/log-density source theorem: parent active thickness plus active entropy
+prevents the zero-source half-tail; the unproved arbitrary-data step is
+constructing that entropy carrier and its testing Carleson bound from the
+original coupled packet.
