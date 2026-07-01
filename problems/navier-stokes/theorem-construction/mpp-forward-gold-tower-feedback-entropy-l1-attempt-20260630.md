@@ -36514,7 +36514,7 @@ pressure-viscosity-incompressibility-velocity packet.  Once those are proved,
 `(TFE.2502)' gives `(TFE.2485)', `(TFE.2485)' plus full-exchange depletion gives
 `(TFE.2490)', and Section 213 gives terminal-uniform selected \(L^1\).
 
-## 216. Reverse-Holder is a consumer of stopped parent log-carrier BMO
+## 216. Reverse-Holder is a consumer of stopped parent log-carrier exponential BMO
 
 The reverse-Holder clause `(TFE.2496)' should also be split.  It is not a
 separate Navier--Stokes source once the selected log carrier \(b_E\) is
@@ -36650,10 +36650,10 @@ to
 
 This is not more work than before.  It removes a misleading analytic label:
 reverse Holder is the consequence of a parent-known log carrier with stopped
-BMO/exponential control.  The remaining mathematical burden is to build that
-carrier and its BMO/Carleson bound from the same original coupled packet that
-also supplies native pushforward, terminal no-residue, and strict full-exchange
-depletion.
+exponential-BMO/Kazamaki control.  The remaining mathematical burden is to build
+that carrier and its exponential-BMO/Carleson stopping margin from the same
+original coupled packet that also supplies native pushforward, terminal
+no-residue, and strict full-exchange depletion.
 
 ## 217. Native pushforward is an exact parent scale-memory integral
 
@@ -36823,7 +36823,7 @@ Consequently the current open source list after consuming native pushforward is
 \begin{array}{c}
 \texttt{OriginalScaleMemoryGeneratorEnergyBound.A}\\
 +\texttt{BeforeClippingSelectedLogCarrier.A}\\
-+\texttt{StoppedParentLogCarrierBMO.A}\\
++\texttt{StoppedParentLogCarrierExponentialBMO.A}\\
 +\texttt{TerminalFirstTimeRungNoResidue.A}\\
 +\texttt{FullExchangeCriticalDepletionStorage.A.}
 \end{array}}
@@ -36833,7 +36833,8 @@ Consequently the current open source list after consuming native pushforward is
 This list still is not Gold closure, but it is now exact about the rescaling
 ontology.  The half-tail cannot be produced by summing moving child units; it
 can survive only as failure of the original coupled packet to provide the
-weighted generator measure, the before-clipping log carrier/BMO control,
+weighted generator measure, the before-clipping log carrier with stopped
+exponential-BMO/Kazamaki control,
 terminal no-residue, or strict full-exchange depletion.
 
 ## 218. Generator energy is a component of the full-exchange clock
@@ -36932,7 +36933,7 @@ remaining open source package is
 \begin{array}{c}
 \texttt{FullExchangeCriticalDepletionStorage.A}\\
 +\texttt{BeforeClippingSelectedLogCarrier.A}\\
-+\texttt{StoppedParentLogCarrierBMO.A}\\
++\texttt{StoppedParentLogCarrierExponentialBMO.A}\\
 +\texttt{TerminalFirstTimeRungNoResidue.A.}
 \end{array}}
 \tag{TFE.2531}
@@ -38377,3 +38378,419 @@ no-self-feeding storage.  The only remaining original-data work is proving
 `(TFE.2612)', `(TFE.2614)', `(TFE.2615)', and `(TFE.2426)' from the coupled
 Navier--Stokes packet without defining any one of them from the future
 child-selected positive tail.
+
+## 229. The exponential-BMO margin is a stopped same-parent packing theorem
+
+The corrected reverse-Holder source from Section 216 still needs one more
+noncircular reduction.  A finite BMO norm for the selected log carrier is not
+the right source object.  The source object is a stopped same-parent square
+variation for that carrier, plus a paid stopping rule for the pieces where the
+oscillation is not yet small enough for the exponential estimate.
+
+Fix a stopped active parent fibre \(E\) and the before-clipping selected log
+carrier
+
+\[
+b_E=\ell_E(Z^S)-\psi_E+e_E
+\tag{TFE.2618}
+\]
+
+from `(TFE.2505)'.  Let \(d\langle b_E\rangle_P\) denote its stopped parent
+quadratic-variation measure in the same material filtration used by the
+selected detector.  The required parent-side estimate is
+
+\[
+\int_{\operatorname{Tent}(F)}
+d\langle b_E\rangle_P
+\le
+C_N\int_{\operatorname{Tent}(F)}d\Omega_P^{gen}
++dPaid_P(F)
+\tag{TFE.2619}
+\]
+
+for every stopped subfibre \(F\subseteq E\), before child clipping.  This says
+that oscillation of the selected log ratio is motion of the same parent
+generator clock, not a new selected source.
+
+The deterministic stopping lemma is the following.  Choose
+\(\kappa_N>0\) below the John--Nirenberg threshold for the exponent
+\(1+\varepsilon_N\).  Stop \(E\) at maximal subfibres \(G\subseteq E\) where
+
+\[
+{1\over \mathfrak m(G)}
+\int_{\operatorname{Tent}(G)}
+d\langle b_E\rangle_P
+>
+\kappa_N^2 .
+\tag{TFE.2620}
+\]
+
+with the stopped tents chosen in the parent filtration so that their overlap is
+bounded by a constant depending only on the admissible stopping geometry.
+
+On each remaining good stopped fibre \(F\), the square-function/BMO comparison
+gives
+
+\[
+\|b_E-\langle b_E\rangle_F\|_{BMO(F)}
+\le
+C_N\kappa_N ,
+\tag{TFE.2621}
+\]
+
+and therefore, by John--Nirenberg/Kazamaki with
+\((1+\varepsilon_N)C_N\kappa_N\) below threshold,
+
+\[
+{1\over\mathfrak m(F)}
+\int_F
+\exp\!\left(
+(1+\varepsilon_N)|b_E-\langle b_E\rangle_F|
+\right)d\mathfrak m
+\le C_N .
+\tag{TFE.2622}
+\]
+
+The stopped bad tops are not discarded.  They are paid against the same parent
+clock:
+
+\[
+\sum_{G\in\mathcal S_\kappa(E)}\mathfrak m(G)
+\le
+C_N\kappa_N^{-2}
+\int_{\operatorname{Tent}(E)}d\langle b_E\rangle_P
+\le
+C_N\kappa_N^{-2}
+\int_{\operatorname{Tent}(E)}d\Omega_P^{gen}
++Paid(E).
+\tag{TFE.2623}
+\]
+
+Thus `(TFE.2507)' follows in the stopped, paid sense once `(TFE.2619)' is
+available and the generator clock has the local Carleson consequence of
+`(TFE.2426)'.  More explicitly,
+
+\[
+\boxed{
+\begin{array}{c}
+\text{before-clipping log carrier `(TFE.2618)'}\\
++\text{same-parent quadratic variation domination `(TFE.2619)'}\\
++\text{paid bad-top packing `(TFE.2623)'}\\
++\text{local generator Carleson from `(TFE.2426)'}
+\end{array}
+\Longrightarrow
+\text{stopped exponential-BMO margin `(TFE.2507)'.}
+}
+\tag{TFE.2624}
+\]
+
+This removes the last analytic shortcut in the reverse-Holder branch.  The
+real PDE work is now exact: build \(b_E\) from the coupled parent packet and
+prove `(TFE.2619)' for its stopped quadratic variation, with every bad top
+charged to \(d\Omega_P^{gen}\), legal, stop, endpoint, or full-exchange
+material before the selected child can clip a positive density.  Once this is
+combined with `(TFE.2612)', `(TFE.2614)', `(TFE.2615)', and `(TFE.2426)',
+the deterministic \(L^1\) consumer chain in `(TFE.2617)' applies.
+
+## 230. The log-carrier square variation is detector geometry plus first entry
+
+The new line `(TFE.2619)' should not be left as another analytic black box.  In
+the coupled packet, the selected log carrier changes only through a
+parent-announced detector applied to the root generator, plus baseline,
+error, legal, stop, and first-entry terms.  On a stopped edge \(e\),
+
+\[
+\partial_\sigma b_E
+=
+\langle K_e,G_P^{root}\rangle
+-\partial_\sigma\psi_e
++\varepsilon_e
++\mathsf{Entry}_e
++\mathsf{Paid}_e .
+\tag{TFE.2625}
+\]
+
+Here \(G_P^{root}\) is the same pressure-Hodge/viscous/Stokes/self-advection/
+incompressibility generator whose square is part of \(d\Omega_P^{gen}\), and
+\(K_e\) is the selected cotangent detector announced before clipping.  Thus the
+square variation of \(b_E\) is bounded by
+
+\[
+\int_{\operatorname{Tent}(F)}
+d\langle b_E\rangle_P
+\le
+C_N\sum_{e\prec F}
+\int_{I_e}
+|\langle K_e,G_P^{root}\rangle|^2\,d\sigma
++d\Psi_E(F)+dErr_E(F)+dEntry_E(F)+dPaid_E(F).
+\tag{TFE.2626}
+\]
+
+For the bounded-detector branch, the parent geometry supplies weights
+\(\alpha_e\) with
+
+\[
+|\langle K_e,H\rangle|^2
+\le
+\alpha_e\,H_P^*\,\|H\|^2,
+\qquad
+\sum_{e\prec F}\alpha_e{\bf 1}_{I_e}\le C_N .
+\tag{TFE.2627}
+\]
+
+Cauchy and stopped overlap then give
+
+\[
+\sum_{e\prec F}
+\int_{I_e}|\langle K_e,G_P^{root}\rangle|^2\,d\sigma
+\le
+C_N\int_{\operatorname{Tent}(F)}
+H_P^*\|G_P^{root}\|^2\,d\sigma
+\le
+C_N\int_{\operatorname{Tent}(F)}d\Omega_P^{gen}.
+\tag{TFE.2628}
+\]
+
+The baseline and error pieces are admissible only when they are routed into the
+same parent clock:
+
+\[
+d\Psi_E(F)+dErr_E(F)
+\le
+C_N\int_{\operatorname{Tent}(F)}d\Omega_P^{gen}+dPaid_P(F).
+\tag{TFE.2629}
+\]
+
+The unbounded branch is exactly the scale-native first-entry detector.  In that
+case `(TFE.2627)' fails because the detector norm carries the physical
+heat/zoom factor, so it must enter through parent capacity before the log
+branch is allowed to count it:
+
+\[
+dEntry_E(F)
+\le
+C_Nd\mu_P^{Ent}(F)+C_Nd\mathcal J_N(F)+dPaid_P(F).
+\tag{TFE.2630}
+\]
+
+Using the endpoint and low-high parent-clock dominations `(TFE.2612)' and
+`(TFE.2615)' in `(TFE.2630)' yields
+
+\[
+dEntry_E(F)
+\le
+C_N\int_{\operatorname{Tent}(F)}d\Omega_P^{gen}+dPaid_P(F).
+\tag{TFE.2631}
+\]
+
+Combining `(TFE.2626)'--`(TFE.2631)' gives the desired square-variation
+domination
+
+\[
+\int_{\operatorname{Tent}(F)}
+d\langle b_E\rangle_P
+\le
+C_N\int_{\operatorname{Tent}(F)}d\Omega_P^{gen}
++dPaid_P(F),
+\tag{TFE.2632}
+\]
+
+which is `(TFE.2619)'.  Thus the exponential-BMO source is not independent:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{parent-announced bounded detector geometry `(TFE.2627)'}\\
++\text{baseline/error routing `(TFE.2629)'}\\
++\text{scale-native first-entry admission `(TFE.2630)'}\\
++\text{endpoint and low-high clock domination `(TFE.2612)', `(TFE.2615)'}
+\end{array}
+\Longrightarrow
+\text{log-carrier square-variation domination `(TFE.2619)'.}
+}
+\tag{TFE.2633}
+\]
+
+The remaining nonconsumer content is therefore the same as the active-transit
+source in Section 228: prove the parent-clock dominations for endpoint,
+low-high first entry, signed-partner tower action, and full-exchange
+no-self-feeding storage from the original coupled packet.  Bounded detector
+BMO and reverse Holder are downstream consequences once those parent entries
+are admitted before clipping.
+
+## 231. The parent-clock dominations are one full-exchange active-transit ledger
+
+Sections 228--230 still list endpoint, tower, low-high, and full-exchange
+storage as separate clauses.  That list is useful for auditing, but it should
+not become four different physical suppliers.  The correct source object is one
+before-clipping full-exchange active-transit ledger whose components include
+the three faces as projections.
+
+For a stopped parent packet \(P\), call \(d\Xi_P^{FE,act}\) an admissible
+active-transit full-exchange ledger when it is built from the original coupled
+packet before clipping and decomposes as
+
+\[
+d\Xi_P^{FE,act}
+=
+d\Xi_P^{root}
++d\Xi_P^{Ent}
++d\Xi_P^{tower}
++d\Xi_P^{LH}
++d\Xi_P^{route}
++dPaid_P ,
+\tag{TFE.2634}
+\]
+
+where \(d\Xi_P^{root}\) contains the root generator and selected chart action,
+\(d\Xi_P^{Ent}\) contains time-thick left-entry / terminal inherited material,
+\(d\Xi_P^{tower}\) contains the signed-partner pressure-Hodge/tower current,
+\(d\Xi_P^{LH}\) contains the parent-known low-high first-entry detector, and
+\(d\Xi_P^{route}\) contains frame, collar, Hodge, reset, reselection, return,
+legal, and stop routing material.
+
+The endpoint projection is the ledger inclusion
+
+\[
+d\mu_P^{Ent}
+\le
+C_Nd\Xi_P^{Ent}+dPaid_P .
+\tag{TFE.2635}
+\]
+
+The tower projection is the signed-partner inclusion with storage
+\(\mathfrak L_{4B,N}\):
+
+\[
+d\mathfrak L_{4B,N}
+a\,dA_{4B,N}^{tower,+}
+\le
+C_Nd\Xi_P^{tower}
+\theta_A\,d\Omega_P^{gen}
+dPaid_P,
+\qquad
+\mathfrak L_{4B,N}\ge -C_N(u_0)\mathcal R(P)-Paid(P).
+\tag{TFE.2636}
+\]
+
+The low-high projection is the parent-known detector inclusion
+
+\[
+d\mathcal J_N
+=
+R_{N,P}\,d\mathcal C_{N,P}^{LH}
+\le
+C_Nd\Xi_P^{LH}+dPaid_P .
+\tag{TFE.2637}
+\]
+
+The generator comparison and strict no-self-feeding storage are
+
+\[
+d\Omega_P^{gen}
+\le
+C_Nd\Xi_P^{FE,act}+dPaid_P ,
+\tag{TFE.2638}
+\]
+
+and
+
+\[
+d\Xi_P^{FE,act}
+\le
+-dM_P
++d\Theta_P^0
++\vartheta\,d\Omega_P^{gen}
++dPaid_P,
+\qquad
+C_N\vartheta<1,
+\qquad
+0\le M_P\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2639}
+\]
+
+Now `(TFE.2635)'--`(TFE.2637)' give the three local faces in `(TFE.2598)'.
+Indeed, take
+
+\[
+\mathscr S_P^{AT}:=\mathfrak L_{4B,N}
+\tag{TFE.2640}
+\]
+
+and add the endpoint, tower, and low-high inclusions.  Since
+\(d\Xi_P^{Ent}+d\Xi_P^{tower}+d\Xi_P^{LH}\le d\Xi_P^{FE,act}\) up to paid
+routing, one obtains
+
+\[
+d\mathscr S_P^{AT}
++c_Ed\mu_P^{Ent}
++c_AdA_{4B,N}^{tower,+}
++c_Jd\mathcal J_N
+\le
+C_Nd\Xi_P^{FE,act}
++\theta_A d\Omega_P^{gen}
++dPaid_P ,
+\tag{TFE.2641}
+\]
+
+with \(\mathscr S_P^{AT}\) bounded below.  This is `(TFE.2598)' with the
+full-exchange ledger written explicitly.
+
+Combining `(TFE.2638)'--`(TFE.2639)' gives
+
+\[
+d\Omega_P^{gen}
+\le
+-C_NdM_P
++C_Nd\Theta_P^0
++C_N\vartheta\,d\Omega_P^{gen}
++dPaid_P .
+\tag{TFE.2642}
+\]
+
+Since \(C_N\vartheta<1\), absorption gives the stopped generator Carleson
+bound
+
+\[
+\int_{\operatorname{Hist}(P)}d\Omega_P^{gen}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2643}
+\]
+
+Then `(TFE.2641)' integrates to the active-transit bracket
+
+\[
+\mu_P^{Ent}
++\int_PdA_{4B,N}^{tower,+}
++\int_Pd\mathcal J_N
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2644}
+\]
+
+and Sections 225--230 consume this bracket into terminal-uniform selected
+\(L^1\).
+
+Thus the newest source package has the nonduplicate form
+
+\[
+\boxed{
+\begin{array}{c}
+\text{construct an admissible before-clipping ledger `(TFE.2634)'}\\
++\text{prove the three projection inclusions `(TFE.2635)'--`(TFE.2637)'}\\
++\text{prove strict no-self-feeding storage `(TFE.2638)'--`(TFE.2639)'}
+\end{array}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+}
+\tag{TFE.2645}
+\]
+
+This is the same object as `(TFE.2302)'--`(TFE.2303)' and `(TFE.2426)', now
+written in the endpoint/tower/low-high language of Sections 228--230.  The
+work still not supplied by the repo is the arbitrary-original-data construction
+of \(d\Xi_P^{FE,act}\) with the strict margin \(C_N\vartheta<1\), especially
+on the scale-native first-entry / selected-critical part.  The bounded
+detector, reverse-Holder, dyadic, entropy, and log-carrier steps are consumers
+after this ledger exists.
