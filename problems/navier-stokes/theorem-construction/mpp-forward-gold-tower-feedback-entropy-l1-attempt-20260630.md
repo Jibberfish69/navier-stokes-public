@@ -15106,3 +15106,327 @@ that the full coupled current has finite root Carleson size for those logged
 increments.  That is the same Gold wall as `SelectedGeneratorStorageCoercivity.A'
 and `PositiveCriticalTransferBound.A', now written in the exact entropy
 lower-edge currency.
+
+## 90. What the physical story still needs: parent-predictable active weight
+
+The source audit gives a more exact answer to the question "what are we still
+missing physically?"  Entropy tells us what must be deleted, and the stopped
+current tells us what physical material can delete it.  The remaining bridge is
+causality of the selected weight: the parent packet must determine the
+heat-scale/log-amplification price before the fresh child increment is read.
+
+For a stopped retained edge \(e\), let
+
+\[
+\mathcal F^P_{e^-}
+=
+\sigma\left(
+Z^S_{\le e^-},A_{\le e^-},G_{\le e^-},\xi_{\le e^-},
+\Pi_{\rm spent(<e)},\text{ route, stop, legal, reselection data}
+\right)
+\tag{TFE.1029}
+\]
+
+be the parent material information available just before the child positive
+readout.  The fresh projected current increment is
+
+\[
+F_e
+=
+\Pi_e^{\rm fresh}
+\left(
+[D_t,\mathcal L_A]w
++\operatorname{cov}_e
++\operatorname{frame}_e
++\operatorname{turn}_e
++\partial_\sigma Z_e
+\right),
+\tag{TFE.1030}
+\]
+
+where the projection removes the already-spent same-parent Schur/Bessel/current
+span.  The selected active weight is
+
+\[
+H_{e^-}
+=
+\text{the heat-scale/log-amplification price assigned by the parent packet at }e^- .
+\tag{TFE.1031}
+\]
+
+The missing theorem is not merely that \(F_e\) is square-summable.  It is that
+the weight is parent-predictable and its weighted square packing is produced by
+the original routed current:
+
+\[
+H_{e^-}\in\mathcal F^P_{e^-},
+\qquad
+\sum_{e\subset P'}
+H_{e^-}\|F_e\|_{\mathcal H_{\rm orig}}^2
+\le
+C_N(u_0)\mathcal R(P')
++R_{\rm legal}(P')
++Stop(P')
+\tag{TFE.1032}
+\]
+
+for every stopped \(P'\subset P\).  This is the physical content of
+`StoppedSelectorPredictableWeight.A' / `OriginalHistoryParentPredictableFreshInnovationCarleson.A'.
+
+Once `(TFE.1032)' is proved, the log-amplification carrier has the needed
+noncircular readout:
+
+\[
+|\Delta_e\log r|
+\le
+C\,H_{e^-}^{1/2}\|F_e\|_{\mathcal H_{\rm orig}}
++e_e^{sel}
++e_e^{ol}
++e_e^{legal},
+\tag{TFE.1033}
+\]
+
+with the error terms paid by selector/reselection, order-lock, stop, and legal
+motion before reverse Holder is used.  Squaring and summing gives the root
+Carleson log-amplification estimate
+
+\[
+\sup_{P'\subset P}
+{1\over\mathcal R(P')}
+\sum_{e\subset P'}
+|\Delta_e\log r|^2\mathcal R(e)
+\le
+C_N(u_0)
++R_{\rm legal}(P')
++Stop(P'),
+\tag{TFE.1034}
+\]
+
+which is the same estimate as `(TFE.1020)' in active-weight coordinates.
+Then `(TFE.1028)' gives terminal-uniform \(L^1\).
+
+This is exactly where the half-tail lives.  If \(H_{e^-}\) is chosen after
+seeing \(F_e\), one may place large weights on tiny fresh charges:
+
+\[
+\|F_\ell\|^2\mathcal R_\ell
+\simeq {2^{-\ell}\over\ell+1},
+\qquad
+H_\ell\simeq 2^\ell,
+\tag{TFE.1035}
+\]
+
+so the raw square current is finite while
+
+\[
+\sum_\ell H_\ell\|F_\ell\|^2\mathcal R_\ell
+\simeq
+\sum_\ell {1\over\ell+1}
+=\infty.
+\tag{TFE.1036}
+\]
+
+Parent predictability rules out exactly that future-tuned selection.  A large
+active weight must already be visible as pressure-Hodge/strain/frame/covector/
+turnstile/scale motion of the same parent packet before the child clips the
+positive read.  If it is not visible there, the read is inherited record,
+return, reset/reselection, stop/legal material, or zero fresh selected action.
+
+So the physical story is now complete enough to state the exact missing proof
+without vague storage language.  The pressure signal may arrive first, the
+viscous/heat child readout may arrive later, and feedback may re-coordinate the
+remaining velocity state, but the selected heat-scale price cannot be chosen
+after the later oscillatory crest appears.  The parent packet must announce the
+price from its own coupled current.  Proving `(TFE.1032)' is precisely the
+current-Carleson/native-birth packing theorem that closes the \(L^1\) problem;
+without it, entropy identifies the correct bill but does not yet pay it.
+
+## 91. Auditing \(TFE.1032\): measurability is not packing
+
+The predictable-weight source surfaces sharpen `(TFE.1032)' again.  A
+parent-known envelope for the active weight repairs causality, but it does not
+prove the weighted \(L^1\) bound.  The same half-tail survives with the weight
+announced in advance:
+
+\[
+\|D_\ell\|^2\simeq {2^{-\ell}\over \ell+1},
+\qquad
+H_\ell\simeq 2^\ell,
+\qquad
+\sum_\ell\|D_\ell\|^2<\infty,
+\qquad
+\sum_\ell H_\ell\|D_\ell\|^2=\infty.
+\tag{TFE.1037}
+\]
+
+So the physical producer is not just "the parent knew the weight."  The parent
+must know why a high weight is allowed.  High heat-scale price is legal only
+when it is announced by original route motion, inherited as fixed record/return,
+or charged as stop/legal/reselection.
+
+For each retained edge, split the parent-subtracted fresh quotient before
+positive readout:
+
+\[
+F_e
+=
+F_e^{der}
++F_e^{rec}
++F_e^{pers}
++F_e^{legal}.
+\tag{TFE.1038}
+\]
+
+The derivative/reset part is the paid branch.  On an announced first-exit
+interval,
+
+\[
+F_e^{der}
+=
+{|I_e|}^{-1}
+\int_{I_e}
+G_e(\sigma,t)\,d\sigma
++Err_e^{legal},
+\tag{TFE.1039}
+\]
+
+where
+
+\[
+G_e
+=
+\partial_\sigma Z
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
++\operatorname{frame}_\sigma .
+\tag{TFE.1040}
+\]
+
+The harmonic active weight is exactly the Cauchy weight:
+
+\[
+H_e
+=
+{|I_e|^2\over \int_{I_e}w(\sigma,t)^{-1}\,d\sigma}.
+\tag{TFE.1041}
+\]
+
+Therefore
+
+\[
+H_e\|F_e^{der}\|^2
+\le
+C\int_{I_e}w(\sigma,t)\|G_e(\sigma,t)\|^2\,d\sigma
++CR_e^{legal}.
+\tag{TFE.1042}
+\]
+
+The stopped first-exit witness intervals have bounded overlap, so summing
+`(TFE.1042)' pays the strict derivative-reset/high-weight escape branch:
+
+\[
+\sum_{e\in\mathcal E_{der}(P')}
+H_e\|F_e^{der}\|^2
+\le
+C\int_{\operatorname{Hist}(P')}w\|G\|^2
++R_{\rm legal}(P')
++Stop(P').
+\tag{TFE.1043}
+\]
+
+The zero-cost same-carrier rigidity branch is also a consumer once compactness
+has produced a same-carrier limit.  If all original announcement charges vanish,
+then for the stopped transition coordinate
+
+\[
+q=\Gamma Z
+\tag{TFE.1044}
+\]
+
+one has
+
+\[
+\partial_\sigma q
+=
+\Gamma(\partial_\sigma Z)
++(\partial_\sigma\Gamma)Z
+=0,
+\tag{TFE.1045}
+\]
+
+because \(\partial_\sigma Z\) and the frame/covector/turnstile/exchange
+motion all vanish.  Hence the parent-subtracted endpoint quotient is
+
+\[
+D_\infty^{fresh}
+=
+q(\sigma_1)-q(\sigma_0)
+=
+\int_{\sigma_0}^{\sigma_1}\partial_\sigma q\,d\sigma
+=0.
+\tag{TFE.1046}
+\]
+
+Thus a zero-cost same-carrier reset cannot be fresh.  It is inherited parent
+transport, and parent transport has already been subtracted.
+
+The only remaining unpaid part of `(TFE.1032)' is the persistent non-derivative
+root/affine quotient:
+
+\[
+F_e^{pers}
+=
+(I-\Pi_{\mathcal P_{e^-}})
+\mathcal C_\theta[Z_e^{fresh}],
+\tag{TFE.1047}
+\]
+
+which is not already an announced derivative average.  Applying `(TFE.1042)' to
+`(TFE.1047)' would require
+
+\[
+\int_{I_e}w\|Z_e^{fresh}\|^2,
+\tag{TFE.1048}
+\]
+
+which is exactly the selected-critical root bound being proved, so that route
+is circular.
+
+The current first unproved theorem is therefore the persistent quotient
+return-payment line:
+
+\[
+\sum_{e\subset P'}
+H_{e^-}\|F_e^{pers}\|^2
+\le
+C_N(u_0)\mathcal R(P')
++C\,Return_-(P')
++C\,PotAvg(P')
++C\,Overrun_{sel}(P')
++R_{\rm legal}(P')
++Stop(P').
+\tag{TFE.1049}
+\]
+
+Equivalently, a normalized bad sequence with
+
+\[
+\sum_e H_{e^-}\|F_e^{pers}\|^2=1,
+\qquad
+\int d\Lambda^{orig}+R_{\rm legal}+Stop\to0
+\tag{TFE.1050}
+\]
+
+must either extract a nonzero same-carrier zero-cost limit, which is killed by
+`(TFE.1046)', or pay one of the original-ledger bills in `(TFE.1049)'.
+
+This is the precise physical survivor.  A derivative-exact reset is paid by
+Cauchy.  A zero-cost reset is inherited and vanishes after parent subtraction.
+The remaining possible obstruction is a non-derivative pressure/affine memory
+on the same carrier that keeps being sampled at higher active weight without
+showing route motion.  To close \(L^1\), that survivor must be proved to be
+fixed record/return, potential-average growth, selected overrun, legal/stop, or
+an announced derivative motion.  That statement is
+`PersistentRootAffineQuotientReturnPayment.A', the sharpened form of the
+carrier-stable compactness gap inside `(TFE.1032)'.
