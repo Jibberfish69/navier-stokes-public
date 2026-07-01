@@ -362,17 +362,41 @@ the compactness/rigidity proof or the direct bounded-below storage proof for
 
 The sharpened capacity language is the preallocated-reserve normalization in
 `mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md',
-`(TFE2748B.38)'--`(TFE2748B.59)'.  In this note's full-exchange notation, that
+`(TFE2748B.38)'--`(TFE2748B.77)'.  In this note's full-exchange notation, that
 normalization says \(M_P\) is the unspent part of a parent reserve constructed
 before child clipping.  The child-visible critical entries spend that reserve;
 they do not define the reserve.  Sections 12--13 of the strict-storage note add
 the exact source form of that reserve: either prove the weighted positive
 root-variation bound for a parent-announced active score, or equivalently build
 the full-packet stopped carrier \(Z^S\), prove the log-amplification
-representation, and prove the root Carleson bound.  With that identification,
-the direct storage option in `(TFE2748A.20)' is exactly the proof of paid
-parent-window variation, and the compactness/rigidity option is exactly the
-no-free-window-opening contradiction for a frozen stopped parent frame.
+representation, and prove the root Carleson bound.  Section 14 pushes the
+carrier theorem down to the same-material routed current: after
+\(\nu^S=D_AJ^S+\nu_{\rm stop}^S+\nu_{\rm legal}^S\), the transform side is a
+bounded Hodge projection, and the remaining supplier is stopped
+routed-current Carleson plus selector-carrier nondegeneracy or paid
+reselection.  Section 15 then corrects that wording one level further:
+routed-current Carleson and selector nondegeneracy are consumers once the exact
+continuous parent critical-entry storage exists.  The remaining arbitrary-data
+source theorem is strict storage for
+\(d\rho_{crit}^{ac}+d\rho_{crit}^{entry}\), with positive-baseline log entropy
+and zero-baseline endpoint-seed material already inside the parent ledger:
+
+\[
+d\rho_{crit,P}^{ac}
++d\rho_{crit,P}^{entry}
+\le
+-dM_P^{crit}
++d\Theta_P^0
++\vartheta\,d\Omega_P^{gen}
++dPaid_P,
+\qquad C_N\vartheta<1.
+\tag{TFE2748A.21}
+\]
+
+With that identification, the direct storage option in `(TFE2748A.20)' is
+exactly the proof of paid parent critical-entry variation, and the
+compactness/rigidity option is exactly the no-free critical-entry contradiction
+for a frozen stopped parent frame.
 
 ## 6. Current truth state
 
@@ -388,5 +412,5 @@ storage for the endpoint-admitted full-exchange ledger.
 \text{TFE2748 strict original-data storage `(TFE2748A.5)': open;}\\
 \text{Gold smoothness closure: conditional, not proved here.}
 \end{array}
-\tag{TFE2748A.21}
+\tag{TFE2748A.22}
 \]
