@@ -29287,17 +29287,26 @@ spine already isolated in the older producer notes:
 \tag{TFE.2003}
 \]
 
-This still does not close selected \(L^1\).  The half-tail
+This still does not close selected \(L^1\).  The following half-tail is not a
+physical sum over packets.  It is a dyadic layer-cake countertest for the
+continuum parent active measure.  If \(I_\ell\) is the ratio band
+\(r\sim2^\ell\), then \(\nu_\ell\) means the actual parent active measure of
+that band:
 
 \[
-\nu_\ell={2^{-\ell}\over \ell+1},
+\nu_\ell
+=
+\mu_P^{act}(I_\ell)
+={2^{-\ell}\over \ell+1},
 \qquad
 r_\ell=2^\ell
 \tag{TFE.2004}
 \]
 
-has finite raw mass and finite log-square mass but divergent selected
-first-ratio mass:
+and the displayed sums below mean sums of band integrals, not sums of
+point-readouts with artificial unit width.  This countertest has finite raw
+parent measure and finite log-square shadow but divergent selected first-ratio
+integral:
 
 \[
 \sum_\ell \nu_\ell<\infty,
@@ -29672,3 +29681,110 @@ The proof still has to construct \(\mathcal B_P^{coup}\) and
 So the missing \(L^1\) theorem is not pressure acting first, viscosity acting
 later, and endpoint being paid separately.  It is the same coupled law read
 before clipping, at first scale-native visibility, and at terminal time.
+
+## 171. Dyadic shadow correction: the physical object is a continuum integral
+
+The dyadic half-tail language must be read only as a discretized layer-cake
+test.  It is not the ontology of the \(L^1\) object.  The physical object is a
+continuum integral over the parent-known active state space of one coupled
+packet.
+
+Let
+
+\[
+\mathcal X_P
+=
+\{(x,\rho,\tau,\xi,\alpha):\text{position, scale, heat-lag, direction, active coordinate}\}
+\tag{TFE.2031}
+\]
+
+be the parent packet's continuous active readout space at the stopped parent
+time.  The coupled participation law must construct a measure
+
+\[
+d\mathcal C_P^{act}
+\quad\text{on}\quad
+\mathcal X_P
+\tag{TFE.2032}
+\]
+
+from the original pressure--viscosity--incompressibility material state before
+child clipping.  The actual selected \(L^1\) quantity is
+
+\[
+A_{\rm sel,+}(P)
+=
+\int_{\mathcal X_P}
+\bigl[R_P(x,\rho,\tau,\xi,\alpha)\bigr]_+
+\,d\mathcal C_P^{act}(x,\rho,\tau,\xi,\alpha).
+\tag{TFE.2033}
+\]
+
+Here \(R_P\) is the selected readout density of the same parent packet.  It is
+not a count of scale labels.
+
+A dyadic decomposition is lawful only after this measure exists.  If
+\(\mathcal X_{P,\ell}=\{R_P\sim2^\ell\}\), then
+
+\[
+A_{\rm sel,+}(P)
+\simeq
+\sum_\ell
+\int_{\mathcal X_{P,\ell}}
+R_P\,d\mathcal C_P^{act}.
+\tag{TFE.2034}
+\]
+
+Equivalently,
+
+\[
+\nu_\ell=\mathcal C_P^{act}(\mathcal X_{P,\ell}),
+\qquad
+\sum_\ell 2^\ell\nu_\ell
+\quad\text{is shorthand for}\quad
+\sum_\ell\int_{\mathcal X_{P,\ell}}R_P\,d\mathcal C_P^{act}.
+\tag{TFE.2035}
+\]
+
+So the dyadic sum is a shadow of a continuum integral.  It is a category error
+to replace `(TFE.2033)' by a sum of point samples
+
+\[
+\sum_\ell R_P(\rho_\ell)
+\tag{TFE.2036}
+\]
+
+or by a sum in which the scale bands are treated as though every infinitesimal
+readout had unit width.  The infinitesimal scale width and the active packet
+measure live inside \(d\mathcal C_P^{act}\).
+
+Under this correction, the half-tail model has a precise and limited role.  It
+does not say the fluid has infinitely many same-time packets.  It says a
+candidate proof measure is wrong if its dyadic shadow permits
+
+\[
+\sum_\ell \nu_\ell<\infty,
+\qquad
+\sum_\ell 2^\ell\nu_\ell=\infty,
+\tag{TFE.2037}
+\]
+
+while claiming to represent the same parent continuum integral.  The fix is
+not to "sum harder."  The fix is to prove that \(d\mathcal C_P^{act}\) is the
+right parent-known continuum measure and that \(R_P\in L^1(d\mathcal C_P^{act})\).
+
+Thus the corrected \(L^1\) target is
+
+\[
+\sup_{\tau<T_*}
+\int_{\mathcal X_{P,\tau}}
+\bigl[R_P\bigr]_+\,d\mathcal C_{P,\tau}^{act}
+\le
+C_N(u_0),
+\tag{TFE.2038}
+\]
+
+with dyadic bands allowed only as a finite-overlap discretization of this
+integral.  This is the \(H^s\to L^p\) continuum viewpoint applied to the Gold
+packet: the Fourier/heat-scale banding is a coordinate chart on the continuum
+state space, not the state space itself.
