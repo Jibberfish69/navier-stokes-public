@@ -14648,3 +14648,461 @@ This theorem is not installed.  The repo has the local endpoint-seed admission
 and the consumer chain above it.  The unproved Gold/L1 producer is the global
 packing `(TFE.992)' / positive-transfer estimate `(TFE.994)' for arbitrary smooth
 data.
+
+## 88. Using the entropy story correctly: active states must have a lower edge
+
+The entropy/state-count picture is not a passive count of all Fourier
+possibilities.  It is the active count of packet futures still reachable by the
+same coupled pressure-viscosity-incompressibility-velocity history before a
+child clips a positive readout.
+
+Pressure supplies the instantaneous compatibility re-coordination of the whole
+packet.  Heat/viscosity turns that compatibility change into delayed readable
+velocity/strain and deletes high-frequency futures.  Self-advection moves the
+packet and changes the measuring frame.  The feedback loop is real: after a
+velocity/strain readout updates the material frame, the next pressure-compatible
+coordination is computed from that updated same packet.  The loop is not a new
+source.  It is one parent history repeatedly changing which child states remain
+accessible.
+
+Thus the \(L^1\) closure question is:
+
+\[
+\text{can a selected unit of positive action be counted without deleting, moving,
+or first-admitting a selected-size state of the parent packet?}
+\tag{TFE.997}
+\]
+
+The source audit says no part of the already-installed machinery answers this
+by itself.  It splits the live selected read into two physical branches.
+
+For a parent-announced first-exit/reset edge \(e\), the fresh derivative has the
+same-material average form
+
+\[
+D_e(t)
+=
+|I_e|^{-1}
+\int_{I_e}
+G_e(\sigma,t)\,d\sigma
++Err_e^{legal}(t),
+\tag{TFE.998}
+\]
+
+where \(G_e\) is built from the same coupled packet:
+
+\[
+G_e
+=
+\partial_\sigma Z
++\operatorname{turnstile}
++\operatorname{exchange}
++\operatorname{covector}
++\operatorname{frame}.
+\tag{TFE.999}
+\]
+
+The harmonic active weight is then exactly the Cauchy dual weight:
+
+\[
+H_{e^-}(t)\|D_e(t)\|_2^2
+\le
+C\int_{I_e}w(\sigma,t)\|G_e(\sigma,t)\|_2^2\,d\sigma
++CR_e^{legal}(t).
+\tag{TFE.1000}
+\]
+
+Since stopped first-exit slabs have bounded overlap, this branch is an active
+state deletion theorem already reduced to original packet motion.  A new
+first-exit selected state costs derivative/current/turnstile/exchange/covector
+motion in the parent history before the child readout.
+
+The unsolved branch is fixed-core or shrinking-core retention.  There the child
+is not receiving a new parent-announced derivative interval.  It is rereading a
+same stopped score
+
+\[
+P_R=\Gamma_R Z^S,
+\tag{TFE.1001}
+\]
+
+with
+
+\[
+\partial_\sigma P_R
+=
+\Gamma_R\partial_\sigma Z^S
++(\partial_\sigma\Gamma_R)Z^S .
+\tag{TFE.1002}
+\]
+
+The later storage audit corrects the older BV overclaim.  The original packet
+pays this branch in harmonic square currency:
+
+\[
+\sum_{I\subset P}
+H_I
+\left({\Delta_I^-P_R\over |I|}\right)^2
+\le
+C_N
+\int_{\operatorname{Hist}(P)}
+w|G_{\rm root}^{new}|^2
++R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1003}
+\]
+
+It does not automatically pay raw linear selected return:
+
+\[
+\sum_I \Delta_I^-P_R
+\le C_N(u_0)+R_{\rm legal}+Stop .
+\tag{TFE.1004}
+\]
+
+Equation `(TFE.1004)' is exactly where a false \(L^1\) closure can be smuggled
+in.  Finite square return still allows infinitely many tiny retained returns
+unless a retained selected unit has a lower edge in the same parent geometry:
+
+\[
+\omega_I^{ret}
+\le
+C_N
+H_I
+\left({\Delta_I^-P_R\over |I|}\right)^2
++Paid(I),
+\tag{TFE.1005}
+\]
+
+or equivalently, after root normalization,
+
+\[
+\Delta_I^-P_R\ge \eta |I|
+\quad\text{on retained selected returns.}
+\tag{TFE.1006}
+\]
+
+This is the rigorous form of the physical entropy cutoff.  The number of
+accessible selected future states can decrease only when the parent packet
+actually moves by a selected-size amount, first-exits through an announced
+derivative interval, returns/reset/reselects with paid motion, or admits a
+genuinely new endpoint seed.  A child selector cannot manufacture entropy
+deletion by slicing one tiny parent movement into infinitely many selected
+positive units.
+
+For the genuinely new endpoint seed branch, the corresponding lower edge is
+the local endpoint admission from `(TFE.991)' and the global root packing
+from `(TFE.992)'.  Written in the same active-state language, the needed
+capacity is a parent-known measure \(\mathcal C_P^{act}\) satisfying
+
+\[
+\sum_{Q\in Ch(P)}
+A_Q^{sel,+}
++
+\sum_{Q\in Ch(P)}\mathcal C_Q^{act}
+\le
+\mathcal C_P^{act}
++
+\theta\,\mathfrak R_{\rm nat}(P)
++Paid(P),
+\qquad \theta<1,
+\tag{TFE.1007}
+\]
+
+with the root bound
+
+\[
+\mathcal C_{P_0}^{act}
++
+\sum_{\gamma\subset P_0}
+\int_{I_\gamma}H_\gamma\|M_\gamma\|_2^2
+\le
+C_N(u_0)+Paid(P_0).
+\tag{TFE.1008}
+\]
+
+Here
+
+\[
+\mathfrak R_{\rm nat}(P)
+\simeq
+\nu\int_P\|\Lambda^{3/2}u(t)\|_2^2\,dt
+\tag{TFE.1009}
+\]
+
+is the scale-native viscous reserve, but the capacity \(\mathcal C_P^{act}\) is
+not viscosity alone and not pressure alone.  It is the parent-fixed active
+record of the full pressure-Hodge/strain/frame/collar/current packet before
+positive clipping.
+
+Equations `(TFE.1005)'--`(TFE.1008)' are exactly what was missing from the
+physical story.  Finite smooth initial energy does rule out infinitely many
+independent fresh physical pulses, but the Gold \(L^1\) proof needs the stronger
+selected-critical statement: every retained positive unit must consume one
+selected-size deletion/motion/first-admission of the same parent state.  Raw
+energy, same-parent origin, square Bessel packing, and first-entry no-reuse do
+not by themselves supply that selected-size lower edge.
+
+So the complete unclosed package is:
+
+\[
+\begin{gathered}
+\text{parent-fixed polar/signed lift before clipping}\\
++\text{retained-return lower edge `(TFE.1005)'--`(TFE.1006)'}\\
++\text{critical weighted reset/reselection packing `(TFE.1000)'}\\
++\text{first endpoint seed packing `(TFE.992)'}\\
++\text{active capacity deletion `(TFE.1007)'--`(TFE.1008)'}\\
+\Longrightarrow
+\text{terminal-uniform }L^1 .
+\end{gathered}
+\tag{TFE.1010}
+\]
+
+This uses Thomas's entropy picture directly: the parent-child feedback loop must
+strictly reduce the selected active future-state count in the parent packet.
+What remains unproved is the lower-edge theorem that turns that physical
+deletion into a root Carleson/positive-critical-transfer estimate from the
+original coupled data.
+
+## 89. The lower edge is selected log-amplification entropy
+
+The source audit now makes the lower-edge problem precise enough to remove one
+more false branch.  A retained return or shrinking-core reset is not selected
+because a scalar score moved a little.  It is selected because the child readout
+has become a high-ratio active state relative to the parent packet.  Therefore
+the correct lower-edge object is the parent-known selected density ratio before
+positive clipping.
+
+Let \(dR_P^{orig}\) be the original coupled-packet reserve measure on a stopped
+root \(P\).  Write the retained scale-native positive readout as
+
+\[
+d\Omega_P^{sn}
+\le
+f_P\,dR_P^{orig}+dPaid_P,
+\tag{TFE.1011}
+\]
+
+where \(f_P\) is parent-known before the child clips the positive read.  For a
+child \(Q\subset P\), set
+
+\[
+r_Q={f_Q\over f_P}.
+\tag{TFE.1012}
+\]
+
+The deterministic entropy capacity is
+
+\[
+\mathcal H(P)
+=
+\int_P f_P\log\left({f_P\over \langle f_P\rangle_P}\right)\,dR_P^{orig}.
+\tag{TFE.1013}
+\]
+
+On a stopped tree, the entropy chain rule gives
+
+\[
+\mathcal H(P)
+=
+\sum_{Q\in Ch(P)}\mathcal H(Q)
++
+\sum_{Q\in Ch(P)}
+f_QR(Q)\log r_Q
++Err_{stop/legal}.
+\tag{TFE.1014}
+\]
+
+Hence every high-ratio retained child, for instance \(r_Q\ge2\), obeys the
+lower edge
+
+\[
+f_QR(Q)
+\le
+{1\over\log2}
+\left[
+\mathcal H(P)-\sum_{Q\in Ch(P)}\mathcal H(Q)
++Err_{stop/legal}
+\right].
+\tag{TFE.1015}
+\]
+
+Summing `(TFE.1015)' over the stopped tree proves the \(L^1\) bound from a root
+entropy bound:
+
+\[
+\sum_{Q\subset P}^{r_Q\ge2}A_Q^{sel,+}
+\le
+C\,\mathcal H(P)+Paid(P).
+\tag{TFE.1016}
+\]
+
+This is the exact mathematical version of the active-state deletion picture.
+The child cannot be counted as a fresh selected state at every higher ratio
+unless the parent entropy capacity drops at every higher ratio.  A reused same
+state has \(r_Q\) already admitted into the parent density; a moved state is
+reset/reselection/frame/turnstile/exchange material; a genuinely new state
+appears as a new entropy increment.
+
+The harmonic-square retained-return lower edge from `(TFE.1005)' is a coordinate
+face of this entropy lower edge.  If the selected log ratio is represented by a
+parent-fixed score,
+
+\[
+\log r_I
+=
+\ell_I(\Delta_I Z^S)-\psi_I+e_I,
+\qquad \psi_I\ge0,
+\tag{TFE.1017}
+\]
+
+and the score increment is the fixed-core return score
+
+\[
+\Delta_I Z^S
+\simeq
+{\Delta_I^-P_R\over |I|}
+\quad\text{in the harmonic parent metric,}
+\tag{TFE.1018}
+\]
+
+then the martingale square/John--Nirenberg step gives
+
+\[
+\sum_{I\subset P}
+H_I\left({\Delta_I^-P_R\over |I|}\right)^2
+\le C_N(u_0)\mathcal R(P)+Paid(P)
+\Longrightarrow
+\sum_I\omega_I^{ret}\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1019}
+\]
+
+So the missing lower edge is not raw BV.  It is the selected log-amplification
+admission `(TFE.1017)' plus the parent root Carleson bound
+
+\[
+\sup_{P'\subset P}
+{1\over\mathcal R(P')}
+\sum_{Q\subset P'}
+\left(
+\|\Delta_QZ^S\|_{\mathcal H_P}^2+|e_Q|^2
+\right)\mathcal R(Q)
+\le
+C_N(u_0)+R_{\rm legal}(P')+Stop(P').
+\tag{TFE.1020}
+\]
+
+Once `(TFE.1017)'--`(TFE.1020)' hold, the half-tail is impossible.  Indeed the
+model
+
+\[
+R_\ell={2^{-\ell}\over \ell+1},
+\qquad
+f_\ell=2^\ell
+\tag{TFE.1021}
+\]
+
+has finite raw mass
+
+\[
+\sum_\ell R_\ell<\infty,
+\tag{TFE.1022}
+\]
+
+and divergent selected \(L^1\)
+
+\[
+\sum_\ell f_\ell R_\ell
+=
+\sum_\ell {1\over \ell+1}
+=\infty,
+\tag{TFE.1023}
+\]
+
+but it also has divergent active entropy
+
+\[
+\sum_\ell f_\ell R_\ell\log f_\ell
+\simeq
+\sum_\ell {\ell\over \ell+1}
+=\infty.
+\tag{TFE.1024}
+\]
+
+Thus entropy is not decorative.  It is exactly the missing detector for the
+selected first-ratio multiplicity that raw energy and raw square packing cannot
+see.
+
+The PDE producer is therefore no longer vague.  One must build the parent
+carrier \(Z^S\) from the original coupled current, not from the future selected
+tail:
+
+\[
+\nu^S
+=
+D_AJ^S+\nu^S_{stop}+\nu^S_{legal},
+\tag{TFE.1025}
+\]
+
+with
+
+\[
+\sup_{P'\subset P}
+{1\over\mathcal R(P')}
+\left[
+\int_{\widehat P'}|J^S|^2\,d\mathcal R
++Stop(\widehat P')
++R_{\rm legal}(\widehat P')
+\right]
+\le
+C_N(u_0).
+\tag{TFE.1026}
+\]
+
+The transform/testing side is already a consumer: `(TFE.1025)' and `(TFE.1026)'
+give stopped accretive testing, stopped Hilbert/BMO, reverse Holder, entropy
+capacity, active deletion, and the retained-return lower edge.  The source-side
+hard theorem is `(TFE.1026)' itself: the stopped routed participation current
+must have root Carleson \(L^2\) control from the original
+pressure-viscosity-incompressibility-velocity packet before selected positive
+readout.
+
+Therefore the current exact solve condition is
+
+\[
+\boxed{
+\begin{gathered}
+\text{prove `OriginalHistorySelectedLogAmplificationCarleson.A'}\\
+\text{by constructing }Z^S\text{ from the same-material current }J^S\\
+\text{and proving the current Carleson bound `(TFE.1026)' from original data.}
+\end{gathered}
+}
+\tag{TFE.1027}
+\]
+
+Then the already-installed deterministic chain is
+
+\[
+\begin{gathered}
+\text{current Carleson `(TFE.1026)'}\\
+\Rightarrow
+\text{selected log-amplification Carleson `(TFE.1020)'}\\
+\Rightarrow
+\text{entropy lower edge `(TFE.1015)'}\\
+\Rightarrow
+\text{retained-return and shrinking-core selected \(L^1\) control}\\
+\Rightarrow
+\text{active capacity deletion `(TFE.1007)'--`(TFE.1008)'}\\
+\Rightarrow
+\text{terminal-uniform }L^1 .
+\end{gathered}
+\tag{TFE.1028}
+\]
+
+Physically: pressure can re-coordinate the whole packet instantly, viscosity can
+make that coordination readable over heat time, and self-advection can update
+the frame, but a child cannot become a new selected state unless the parent
+current has created a logged active-density increment.  The missing proof is
+that the full coupled current has finite root Carleson size for those logged
+increments.  That is the same Gold wall as `SelectedGeneratorStorageCoercivity.A'
+and `PositiveCriticalTransferBound.A', now written in the exact entropy
+lower-edge currency.
