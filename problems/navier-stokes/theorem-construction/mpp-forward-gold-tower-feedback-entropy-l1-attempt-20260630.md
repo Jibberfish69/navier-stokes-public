@@ -987,3 +987,380 @@ same-fluid terminal ancestry that keeps producing affine/high-ratio selected
 action while all weighted native-reserve traces on the inherited annular,
 Hodge/projector, strain-frame, collar, return, reset, legal, and stop channels
 stay summable.
+
+## 13. Branch proof audit of the same-history no-Zeno line
+
+`ScaleNativeSameHistoryNoZenoReserve.A` is still too opaque unless the two ways
+an infinite laminar ancestry can persist are separated.
+
+Let \(\mathcal A(P)\) be the retained laminar terminal ancestry after all
+bounded-current, parent-reuse, Bessel-fresh, selector/reselection, return,
+reset, legal, stop, nonlaminar, and subheat branches have been removed.  Each
+retained visit \(\gamma\subset\mathcal A(P)\) has a transported material core
+\(K_\gamma\), a selected action \(A_\gamma^{sel,+}\), and a selected ratio
+level.  Laminarity gives the structural dichotomy:
+
+1. a repeated-core subfamily, where infinitely many retained visits reuse one
+   persistent material core or nested core with the same material identity; or
+2. a shrinking-core escape subfamily, where retained unit visits restart on
+   smaller transported cores and no fixed material core carries infinite
+   selected multiplicity.
+
+This dichotomy is just the tree alternative for a nested laminar ancestry.  It
+is a proved structural split, not the \(L^1\) estimate itself.
+
+### Repeated-core branch
+
+On a repeated material core, the required first PDE input is a signed
+scale-potential lift before positive clipping:
+
+\[
+Y=\partial_\sigma\Psi+S^{spill}+E,
+\qquad
+Y_+=Y+Y_- .
+\tag{TFE.63}
+\]
+
+Once `(TFE.63)` is constructed from the same material packet, the scalar BV
+identity gives the record/return estimate
+
+\[
+\sum_{\gamma\subset\mathcal A_{rep}}
+A_\gamma^{sel,+}
+\le
+C_N\Bigl(
+\operatorname{Rec}_\infty(\Psi_{\mathcal A})
++V_-^{return}(\Psi_{\mathcal A})
+\Bigr)
++Paid(\mathcal A_{rep}).
+\tag{TFE.64}
+\]
+
+This is the rigorous content of the physical claim that the same material core
+cannot be pushed upward again without either making a new record in its
+pressure-Hodge/strain/collar state or first returning downward.  The algebraic
+descent after the lift is real.  The PDE theorems still needed for this branch
+are the lift `(TFE.63)` and the root bound
+
+\[
+\int_{\mathcal F_{rep}}
+\Bigl(
+\operatorname{Rec}_\infty(\Psi_{\mathcal A})
++V_-^{return}(\Psi_{\mathcal A})
+\Bigr)\,
+d\mathcal R_{\mathcal A}
+\le
+C_N(u_0)+Paid(P).
+\tag{TFE.65}
+\]
+
+This is the precise repeated-core part of the original-history entropy loss:
+records and returns must be finite from the original coupled packet, not from
+the future selected tail.
+
+### Shrinking-core escape branch
+
+On the escaping subfamily, a one-core record storage can reset at every new
+core.  The pressure-visible/null and complete-frame routing still give the
+branch-local selected lower bound
+
+\[
+A_\gamma^{sel,+}
+\le
+C_N\Bigl(
+\operatorname{Cap}^{sel}_{PH}(\gamma)
++\operatorname{Turn}^{sel}_{collar}(\gamma)
+\Bigr)
++Paid(\gamma).
+\tag{TFE.66}
+\]
+
+The word `selected` is essential.  Raw heat, raw pressure-Hodge capacity, raw
+collar area, raw viscous cost, and raw material volume can all scale like the
+child radius \(r_\gamma\), while \(A_\gamma^{sel,+}\simeq1\).  Therefore the
+shrinking branch closes only from the root packing theorem
+
+\[
+\sum_{\gamma\subset\mathcal A_{esc}}
+\Bigl(
+\operatorname{Cap}^{sel}_{PH}(\gamma)
++\operatorname{Turn}^{sel}_{collar}(\gamma)
+\Bigr)
+\le
+C_N(u_0)+Paid(P).
+\tag{TFE.67}
+\]
+
+This is the selected-capacity no-escape theorem.  It is exactly the place where
+the physical state-space picture becomes mathematical: every restart on a
+smaller core must delete a definite amount of future accessible same-history
+configuration, or the child has not been admitted as a real selected unit.
+
+Combining the branch estimates gives the nonopaque form of
+`ScaleNativeSameHistoryNoZenoReserve.A`:
+
+\[
+\begin{gathered}
+\text{signed scale-potential lift}
++\text{record/return root bound `(TFE.65)`}
+\\
++\text{selected-capacity escape packing `(TFE.67)`}
+\Longrightarrow
+\text{same-history no-Zeno reserve `(TFE.60)`--`(TFE.61)`.}
+\end{gathered}
+\tag{TFE.68}
+\]
+
+Equivalently, the entropy/accessibility functional must be an original-history
+ancestry storage
+
+\[
+\mathcal E_N(P)
+=
+\mathcal R_N^{nat}(P)
++\int_{\mathcal F_{rep}}
+\bigl(\operatorname{Rec}_\infty+V_-^{return}\bigr)\,d\mathcal R_{\mathcal A}
++\sum_{\gamma\subset\mathcal A_{esc}}
+\bigl(\operatorname{Cap}^{sel}_{PH}
++\operatorname{Turn}^{sel}_{collar}\bigr),
+\tag{TFE.69}
+\]
+
+with the differential loss law
+
+\[
+d\mathcal E_N
++c_N\,dA^{sel,+}
+\le
+dPaid_N,
+\qquad
+\mathcal E_N\ge0,
+\qquad
+\mathcal E_N(0)\le C_N(u_0).
+\tag{TFE.70}
+\]
+
+This is the exact mathematical version of the finite-state feedback picture.
+Pressure feedback can re-coordinate the remaining velocity state, but every
+positive selected re-coordination must either consume repeated-core
+record/return storage or consume shrinking-core selected capacity.  If neither
+storage decreases, the child readout is recounting the same parent event rather
+than producing new admissible \(L^1\) action.
+
+The current proof state is therefore sharper than `(TFE.62)`: the laminar
+same-history dichotomy is installed support, and the scalar BV record/return
+algebra is available after the signed lift.  The exact remaining PDE inputs are
+the lift `(TFE.63)`, the record/return root bound `(TFE.65)`, and the
+selected-capacity escape packing `(TFE.67)`.  Together they imply `(TFE.70)`,
+then `(TFE.16)`, then `(TFE.17)`, and hence `FGC.25`.
+
+## 14. Current reduction of the branch PDE inputs
+
+The branch inputs in `(TFE.63)`, `(TFE.65)`, and `(TFE.67)` are not equally
+open.  The current repo surfaces separate what is already an identity from what
+still needs a noncircular original-data reserve.
+
+### Fixed stopped-channel lift
+
+For a truly fixed stopped channel, the signed lift is constructed.  With
+parent-known readout \(\Gamma_R\) and stopped routed carrier \(Z^S\), define
+
+\[
+P_R:=\Gamma_R Z^S .
+\tag{TFE.71}
+\]
+
+Then the retained fixed-core increment satisfies
+
+\[
+A_{sel}(e)
+\le
+C[P_R(Q')-P_R(Q)]_+
++C R_{legal}(Q),
+\tag{TFE.72}
+\]
+
+and
+
+\[
+|\partial_\sigma P_R|
+\le
+C\bigl(
+|\partial_\sigma Z^S|
++|\operatorname{turnstile}_\sigma|
++|\operatorname{exchange}_\sigma|
++|\operatorname{covector}_\sigma|
++|\operatorname{conn}_\sigma|
+\bigr)
++Err_{legal}.
+\tag{TFE.73}
+\]
+
+Thus `(TFE.63)` is installed only on the fixed stopped-channel branch.  If the
+readout \(\Gamma_R\) changes by future child selection, the branch exits to
+reselection/reset/legal material rather than remaining a fixed-core lift.
+
+### Return BV is a square-reserve/admission problem
+
+For a return interval \(I\), the original packet gives the weighted square
+return estimate
+
+\[
+H_I
+\left({\Delta_I^-P_R\over |I|}\right)^2
+\le
+C\int_I w\bigl(
+|\partial_\sigma Z^S|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
++|\operatorname{conn}_\sigma|^2
+\bigr)
++R_I^{legal}.
+\tag{TFE.74}
+\]
+
+Summing fixed-core returns is therefore controlled in harmonic square currency:
+
+\[
+\sum_{I\subset P}
+H_I
+\left({\Delta_I^-P_R\over |I|}\right)^2
+\le
+C_N\mathfrak G_{root}(P)+R_{legal}(P)+Stop(P),
+\tag{TFE.75}
+\]
+
+where \(\mathfrak G_{root}\) is the original routed-current/root-geometry square
+reserve.
+
+The missing step is not another scalar BV identity.  Linear negative return
+requires selected admission into this square currency:
+
+\[
+\Delta_I^-P_R\ge \eta |I|
+\quad\hbox{on retained selected returns}
+\tag{TFE.76a}
+\]
+
+or an equivalent inverse-weight length bound
+
+\[
+\sum_I\int_I w^{-1}\,d\sigma
+\le
+C_N\mathcal R(P)+R_{legal}(P)+Stop(P).
+\tag{TFE.76b}
+\]
+
+With `(TFE.76a)` or `(TFE.76b)`, `(TFE.75)` implies the repeated-core root
+bound `(TFE.65)`.  Without one of these selected-admission clauses, square
+return control still permits infinitely many tiny selected returns.
+
+So the repeated-core branch is reduced to:
+
+\[
+\begin{gathered}
+\text{fixed-channel lift `(TFE.71)`--`(TFE.73)`}
++\text{root-geometry square reserve `(TFE.75)`}
+\\
++\text{selected return admission `(TFE.76a)` or `(TFE.76b)`}
+\Longrightarrow
+\text{record/return root bound `(TFE.65)`.}
+\end{gathered}
+\tag{TFE.77}
+\]
+
+This is a strict improvement over saying "prove return BV": the only unsupplied
+piece is the selected root-geometry reserve/admission theorem, the same object
+called `SelectedGeneratorStorageCoercivity.A` in the native-reserve notes.
+
+### Shrinking-core escape is trace coercivity plus reselection no-escape
+
+For a stopped parent \(S\) with stopped children \(S'\), the parent-stop-child
+Dirichlet-to-Neumann Schur complement is
+
+\[
+\mathsf S_S^{stop}
+:=
+\Lambda_S-\bigoplus_{S'\in ch_{stop}(S)}\Lambda_{S'} .
+\tag{TFE.78}
+\]
+
+Capacity monotonicity gives only nonnegativity of this Schur complement.  The
+selected shrinking-core branch needs the stronger trace coercivity
+
+\[
+\sum_{S'\in ch_{stop}(S)}A(S')
+\le
+\langle U_S,\mathsf S_S^{stop}U_S\rangle
++R_{stop}(S)+R_{legal}(S).
+\tag{TFE.79}
+\]
+
+This is the stopped selected-action trace coercivity form of the selected
+capacity lower bound.  It pays genuine source-root / capacity-drop children.
+
+The other shrinking mechanism is strict retained subset reselection.  A smaller
+child can avoid material collar compression by selecting a smaller high-action
+subset.  That case needs the reselection tax
+
+\[
+A(Q_{k+1})\simeq1,\quad Q_{k+1}\subsetneq Q_k,
+\quad\hbox{no dyadic material compression}
+\Longrightarrow
+\mathcal B_{select}(Q_k,Q_{k+1})\ge c_0,
+\tag{TFE.80}
+\]
+
+with the taxes summable from original stopped history:
+
+\[
+\sum_k\mathcal B_{select}(Q_k,Q_{k+1})
+\le
+C_N(u_0)+R_{legal}(P)+Stop(P).
+\tag{TFE.81}
+\]
+
+Thus shrinking-core escape is reduced to
+
+\[
+\text{stopped selected trace coercivity `(TFE.79)`}
++
+\text{retained reselection no-escape `(TFE.80)`--`(TFE.81)`}
+\Longrightarrow
+\text{selected-capacity escape packing `(TFE.67)`.}
+\tag{TFE.82}
+\]
+
+Putting `(TFE.77)` and `(TFE.82)` into `(TFE.68)`, the current \(L^1\) closure
+target is the single original-data reserve/admission package:
+
+\[
+\boxed{
+\text{SelectedGeneratorStorageCoercivity.A}
++\text{StoppedSelectedActionTraceCoercivity.A}
++\text{StoppedReselectionNoEscape.A}
+}
+\tag{TFE.83}
+\]
+
+in the coupled original packet.  The first item supplies the repeated-core
+root-geometry reserve/admission, while the second and third supply the
+shrinking-core escape payment.  These three are not new mechanisms outside the
+participation law; they are the exact places where the pressure-heat-viscous
+feedback must show that each selected positive child readout consumes a finite
+piece of the same original-history state space.
+
+Consequently the active mathematical wall is narrower than the phrase
+"prove \(L^1\)" but still not discharged:
+
+\[
+\text{`(TFE.83)` from original data}
+\Longrightarrow
+\text{`(TFE.70)`}
+\Longrightarrow
+\text{`(TFE.16)`}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\tag{TFE.84}
+\]
