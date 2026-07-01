@@ -13400,3 +13400,634 @@ Once `(TFE.916)` is proved, the rest of the Gold \(L^1\) chain is mechanical:
 This is not yet a proof of smoothness.  It is the cleanest current description
 of what has to be proved from the physical pressure--heat--viscous feedback
 story, with the false alternatives removed.
+
+## 80. Scalar energy sees the signed trip, not the positive route length
+
+The direct critical identity shows exactly why the \(L^1\) problem is not
+settled by saying that the finite initial pulse eventually runs out of energy.
+Let
+
+\[
+E(t)={1\over2}\|\Lambda^{1/2}u(t)\|_2^2,
+\qquad
+D(t)=\|\Lambda^{3/2}u(t)\|_2^2,
+\qquad
+B(t)=B_{crit}(t).
+\tag{TFE.918}
+\]
+
+Then `(TFE.914)` is
+
+\[
+E'(t)+\nu D(t)=B(t).
+\tag{TFE.919}
+\]
+
+Integrating gives a signed balance,
+
+\[
+\int_0^\tau B(t)\,dt
+=
+E(\tau)-E(0)+\nu\int_0^\tau D(t)\,dt.
+\tag{TFE.920}
+\]
+
+The \(L^1\) quantity is not the left side of `(TFE.920)`.  It is the positive
+variation
+
+\[
+\int_0^\tau B_+(t)\,dt
+=
+E(\tau)-E(0)+\nu\int_0^\tau D(t)\,dt
++\int_0^\tau B_-(t)\,dt .
+\tag{TFE.921}
+\]
+
+Thus scalar critical energy records the net displacement of the pressure--heat
+handoff.  It does not record the route length of the positive lobes.  A packet
+can move forward, return, move forward again, and have small net critical
+energy change while the positive route length is large.  This is the precise
+mathematical form of pressure-memory chatter after the same-parent ownership
+problem has already been fixed.
+
+This also rules out the most tempting scalar storage repair.  If
+\(M(t)=F(E(t))\), then
+
+\[
+M'(t)=F'(E(t))(B(t)-\nu D(t)).
+\tag{TFE.922}
+\]
+
+A differential deletion inequality of the form
+
+\[
+M'(t)+c\,B_+(t)
+\le
+\theta\nu D(t)+Paid(t),
+\qquad
+\theta<1,
+\tag{TFE.923}
+\]
+
+would have to work on both positive-transfer and negative-return phases.  On a
+positive lobe it forces \(F'(E)\) to be negative enough to pay \(B_+\).  On a
+negative lobe the same sign makes \(M'\) positive and can be arbitrarily large
+relative to \(D\).  No scalar function of \(E\) can distinguish a new positive
+pressure-compatible push from the negative return that hides it in the signed
+balance.
+
+Therefore the missing capacity in `(TFE.912)` must be an oriented parent-record
+capacity, not a scalar energy of the current child state.  It must be built
+before clipping from the same parent-known pressure--Hodge--strain--frame
+record that distinguishes:
+
+\[
+\text{new scale-native positive birth}
+\quad\text{from}\quad
+\text{return/reversal/reuse of an already admitted parent record}.
+\tag{TFE.924}
+\]
+
+In that language the active deletion law says
+
+\[
+d\mathcal C_P^{act}
++c_N\,d\Omega_P^{sn,+}
+\le
+\theta\,\nu D(t)\,dt+dPaid_P,
+\tag{TFE.925}
+\]
+
+where \(d\Omega_P^{sn,+}\) is the positive route length after full-packet
+order-lock.  If `(TFE.925)` is integrated and
+\(\mathcal C_P^{act}\) is root-bounded below, it gives `(TFE.913)`.  Conversely,
+`(TFE.913)` gives the terminal \(L^1\) bound, but it does not by itself
+construct the noncircular parent capacity.  The capacity is the proof device;
+the one-sided positive critical transfer estimate is the integrated theorem it
+has to produce.
+
+This is the exact place where the physical state-count picture has mathematical
+content.  Finite initial energy bounds the signed/end-state budget.  The Gold
+\(L^1\) line needs a finite oriented count of active state changes.  The
+oriented count must come from the original coupled packet's parent record, with
+return and reuse subtracted before the child positive readout is counted.
+
+The current proof target is sharpened one step further:
+
+\[
+\boxed{
+\begin{gathered}
+\text{construct an oriented parent-record capacity }
+\mathcal C_P^{act}\text{,}\\
+\text{prove `(TFE.925)' from the coupled packet,}\\
+\text{and verify that its integrated form is `(TFE.913)'.}
+\end{gathered}
+}
+\tag{TFE.926}
+\]
+
+This prevents a false closure by scalar energy.  It also prevents a false new
+wall: `(TFE.925)` is not another theorem beside positive critical transfer.
+It is the noncircular differential mechanism that would prove positive critical
+transfer from the pressure--heat--viscous feedback record.
+
+## 81. The oriented record has two branches, not one
+
+The parent-record capacity in `(TFE.926)` cannot be a single scalar record
+attached to one material core.  The current source audit splits the construction
+into two different physical ways a selected scale-native positive read can
+survive after bounded tests and Schur/Bessel admission are removed.
+
+The first branch is repeated-core motion.  A fixed stopped material core is read
+again through the same parent record.  On that branch the right primitive is a
+stopped signed record
+
+\[
+\mathfrak Z^S=(Z^S,\Psi^S,\Lambda^S),
+\tag{TFE.927}
+\]
+
+where \(Z^S\) is the routed carrier, \(\Psi^S\) is the signed scale potential,
+and \(\Lambda^S\) is the selected amplification coordinate.  The needed
+repeated-core estimate is
+
+\[
+\operatorname{Var}_{crit}^{stop}(\Lambda^S;P)
++
+\int H_w(t)
+\left\|
+{1\over |J|}\int_J\Psi^S(\sigma,t)\,d\sigma
+\right\|_{L_x^2}^2dt
++
+\sup_{P'\subseteq P}
+{1\over\mathcal R(P')}
+\sum_{Q\subseteq P'}
+\|\Delta_QZ^S\|_{\mathfrak H_P}^2\mathcal R(Q)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.928}
+\]
+
+If `(TFE.928)` is proved from original history, then same-core positive reads
+are records, negative returns, or paid reset/selector/legal terms.  The scalar
+BV skeleton is elementary:
+
+\[
+\sum_{Q_k\subset\mathcal A}A_{sel}^{fresh}(Q_k)
+\lesssim
+\operatorname{Rec}_\infty(\Psi_{\mathcal A})
++V_-^{return}(\Psi_{\mathcal A})
++Paid(\mathcal A).
+\tag{TFE.929}
+\]
+
+The theorem work is not `(TFE.929)`.  The theorem work is the stopped polar
+signed lift and the original-history charge for negative return:
+
+\[
+d\Omega_N^{PLS,+}
+=
+[\partial_\sigma\Psi^S+S^{spill}+E]_+\,d\sigma dt+dPaid,
+\tag{TFE.930}
+\]
+
+and
+
+\[
+\int H_w(t)\|\mathcal C_\theta[Y_-](t)\|_{L_x^2}^2dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.931}
+\]
+
+The second branch is shrinking-core escape.  The read is not repeatedly using
+one fixed material core; it restarts on smaller transported cores.  A
+single-core record/return capacity does not sum that family.  The required
+estimate is a scale-critical lower admission and packing law:
+
+\[
+\omega_\gamma
+\le
+C_N\rho_\gamma^{sn,crit}+Paid(\gamma),
+\qquad
+\sum_{\gamma\subset P}^{sn}\rho_\gamma^{sn,crit}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.932}
+\]
+
+This is the same native-birth/positive-critical-transfer line as `(TFE.891)`.
+So the oriented parent-record program must be stated as
+
+\[
+\mathcal C_P^{act}
+=
+\mathcal C_P^{rep}
++
+\mathcal C_P^{esc},
+\tag{TFE.933}
+\]
+
+with
+
+\[
+d\mathcal C_P^{rep}
++c\,d\Omega_P^{rep,+}
+\le
+\theta\,\nu D(t)\,dt+dPaid_P
+\tag{TFE.934}
+\]
+
+coming from `(TFE.928)`--`(TFE.931)`, and
+
+\[
+d\mathcal C_P^{esc}
++c\,d\Omega_P^{esc,+}
+\le
+\theta\,\nu D(t)\,dt+dPaid_P
+\tag{TFE.935}
+\]
+
+coming from `(TFE.932)`.
+
+The stopped testing/BMO route gives a concrete way to build the repeated-core
+side without inventing an abstract singular-integral problem.  The routed
+selected source must factor as
+
+\[
+\nu^S=D_AJ^S+\nu^S_{stop}+\nu^S_{legal},
+\tag{TFE.936}
+\]
+
+and the transform side then reduces to the current Carleson estimate
+
+\[
+\sup_{P\subseteq P_0}
+{1\over\mathcal R(P)}
+\left[
+\int_{\widehat P}|J^S|^2\,d\mathcal R
++Stop(\widehat P)
++R_{legal}(\widehat P)
+\right]
+\le
+C_N(u_0).
+\tag{TFE.937}
+\]
+
+In martingale language this asks for stopped source innovations
+\(d\nu_Q^S\) with parent-known cancellation,
+
+\[
+\mathbb E(d\nu_Q^S\mid\mathcal F_{par(Q)}^S)=0
+\tag{TFE.938}
+\]
+
+up to the return/reset BV defects `(TFE.930)`--`(TFE.931)` and `(TFE.932)`.
+Thus stopped \(Tb\)/BMO is a consumer after the same two branch payments are
+made; it is not the missing physical producer by itself.
+
+The corrected construction target is therefore
+
+\[
+\boxed{
+\begin{gathered}
+\text{prove the stopped signed lift and negative-return charge for }
+\mathcal C_P^{rep},\\
+\text{prove scale-critical lower admission and packing for }
+\mathcal C_P^{esc},\\
+\text{then combine them into `(TFE.925)'.}
+\end{gathered}
+}
+\tag{TFE.939}
+\]
+
+This is a real narrowing of the \(L^1\) problem.  The repeated-core side is now
+a signed-lift/return-charge theorem.  The shrinking-core side is exactly the
+critical native-birth packing theorem.  Both are coordinates of the same
+coupled pressure--heat--viscous feedback law, but they cannot be paid by the
+same scalar record.
+
+## 82. Repeated-core conditional proof and the exact missing pushdown
+
+The repeated-core branch can be proved conditionally by a one-dimensional BV
+argument once the stopped signed lift is available.  This is worth writing
+because it shows what is already mathematical content and what is still PDE
+content.
+
+Fix one stopped material ancestry line \(\mathcal A\).  Assume the selected
+positive primitive driver admits the stopped polar-compatible signed lift
+
+\[
+d\Omega_{\mathcal A}^{rep,+}
+\le
+[\partial_\sigma\Psi_{\mathcal A}+S_{\mathcal A}^{spill}
++E_{\mathcal A}]_+\,d\sigma dt
++dPaid_{\mathcal A}.
+\tag{TFE.940}
+\]
+
+Let
+
+\[
+Y_{\mathcal A}
+=
+\partial_\sigma\Psi_{\mathcal A}+S_{\mathcal A}^{spill}+E_{\mathcal A}.
+\tag{TFE.941}
+\]
+
+On each ordered stopped scale interval \(I\subset\mathcal A\),
+
+\[
+\int_I [Y_{\mathcal A}]_+\,d\sigma
+=
+\Psi_{\mathcal A}(\sup I)-\Psi_{\mathcal A}(\inf I)
++\int_I [Y_{\mathcal A}]_-\,d\sigma .
+\tag{TFE.942}
+\]
+
+Summing over the retained repeated-core intervals and splitting the positive
+endpoint increments into records gives
+
+\[
+\Omega_{\mathcal A}^{rep,+}
+\le
+\operatorname{Rec}_{\mathcal A}(\Psi)
++V_{\mathcal A}^{-}(Y)
++Paid(\mathcal A).
+\tag{TFE.943}
+\]
+
+Thus repeated-core \(L^1\) follows from two parent-history estimates:
+
+\[
+\sum_{\mathcal A\subset P}
+\operatorname{Rec}_{\mathcal A}(\Psi)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.944}
+\]
+
+and
+
+\[
+\sum_{\mathcal A\subset P}
+V_{\mathcal A}^{-}(Y)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.945}
+\]
+
+Then
+
+\[
+\Omega_P^{rep,+}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.946}
+\]
+
+The signed lifted-band source does not yet prove `(TFE.940)`.  It proves the
+right signed commutator-layer shape:
+
+\[
+\mathfrak c_\ell
+=
+(\ell\partial_\ell)\Psi_\ell
++\nabla_x\cdot J_\ell
++\partial_tR_\ell
++\mathcal S_\ell^{spill}
++\mathcal E_\ell.
+\tag{TFE.947}
+\]
+
+To turn `(TFE.947)` into `(TFE.940)`, three pushdown facts are still needed:
+
+\[
+\begin{gathered}
+\text{signed potentials glue across stopped scale windows,}\\
+\text{scale/time boundary and residual terms obey the barrier estimate,}\\
+\text{the polar selected PLS driver is represented before positive clipping.}
+\end{gathered}
+\tag{TFE.948}
+\]
+
+Without `(TFE.948)`, taking the positive part may destroy the signed exactness.
+The selected child could be reading a polar frame change, a collar spill, a
+transportable mismatch, or a boundary remainder as though it were a fresh
+positive primitive driver.  Those pieces must be routed into paid terms before
+the BV identity `(TFE.942)` is allowed to count the event.
+
+The negative-return estimate `(TFE.945)` is also not automatic.  A bounded
+primitive record can oscillate with finite range and infinite total negative
+variation.  The required PDE statement is
+
+\[
+V_{\mathcal A}^{-}(Y)
+\le
+C\int_{\mathcal A}\mathcal R_{return}\,dt
++Paid(\mathcal A),
+\qquad
+\sum_{\mathcal A\subset P}\int_{\mathcal A}\mathcal R_{return}\,dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.949}
+\]
+
+Here \(\mathcal R_{return}\) must be an original coupled-packet return event:
+same-material strain/exchange reversal, selector/reselection or polar-frame
+rotation, collar/spill separation, donor/order-lock repayment, recirculation
+already typed as return, legal loss, or stop.  It cannot be defined as the
+future negative variation of \(\Psi\) itself.
+
+So the repeated-core side is conditionally discharged by
+
+\[
+\boxed{
+\text{`(TFE.940)' + `(TFE.944)' + `(TFE.949)'}
+\Longrightarrow
+\text{repeated-core \(L^1\) bound `(TFE.946)'.}
+}
+\tag{TFE.950}
+\]
+
+The current source audit proves only the signed-layer methodology `(TFE.947)`,
+not the stopped polar pushdown `(TFE.948)` and not the original-data negative
+return charge `(TFE.949)`.  Therefore repeated-core is no longer a conceptual
+unknown; it is a precise two-input PDE theorem:
+
+\[
+\boxed{
+\text{StoppedPrimitivePLSSignedScalePotentialLift.A}
++
+\text{StoppedNegativeScaleReturnCharge.A}.
+}
+\tag{TFE.951}
+\]
+
+Once `(TFE.951)` is proved, \(\mathcal C_P^{rep}\) supplies `(TFE.934)`.
+The remaining \(L^1\) burden then sits entirely in the shrinking-core
+scale-critical branch `(TFE.932)` / `(TFE.935)`.
+
+## 83. Shrinking-core conditional proof and the source of the weight
+
+After repeated-core record/return is removed, a retained child event can still
+restart on a smaller transported core.  That is the shrinking-core branch.  Its
+proof has the same shape as the repeated-core branch: easy after the right
+parent charge exists, impossible from raw energy or raw reset distance.
+
+For a parent-child reset \(Q\to Q'\), a raw charge has the form
+
+\[
+J_{\rm raw}(Q\to Q')
+\simeq
+\|\Delta Z_{Q\to Q'}^{fresh}\|_{\mathcal H_{\rm raw}}^2
++J_{\rm collar/select}^{raw}
++Paid(Q).
+\tag{TFE.952}
+\]
+
+This charge is too weak.  The half-tail
+
+\[
+\|\Delta Z_\ell^{fresh}\|_{\mathcal H_{\rm raw}}^2
+=
+\nu_\ell
+=
+{2^{-\ell}\over \ell+1}
+\tag{TFE.953}
+\]
+
+has
+
+\[
+\sum_\ell J_{\rm raw,\ell}<\infty,
+\qquad
+\sum_\ell A_\ell^{sel}
+\simeq
+\sum_\ell 2^\ell\nu_\ell
+=
+\infty.
+\tag{TFE.954}
+\]
+
+This is a genuinely fresh-direction countertest; it is not killed by
+same-direction nonreuse or parent-subtracted Bessel packing.  The missing
+factor is the selected heat-scale weight.
+
+The correct shrinking-core charge is therefore
+
+\[
+J_{\rm crit}(Q\to Q')
+\simeq
+w(Q')\|\Delta Z_{Q\to Q'}^{fresh}\|_{\mathcal H_{\rm raw}}^2
++J_{\rm select/lock}^{crit}
++J_{\rm collar/turn}^{crit}
++Paid(Q).
+\tag{TFE.955}
+\]
+
+The local lower edge asks for
+
+\[
+A_{\rm sel}^{fresh}(Q')
+\le
+C\,J_{\rm crit}(Q\to Q')
++Paid(Q\to Q').
+\tag{TFE.956}
+\]
+
+The root theorem asks for
+
+\[
+\sum_{Q\subseteq P}\sum_{Q'\in ch_{\rm stop}(Q)}
+J_{\rm crit}(Q\to Q')
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.957}
+\]
+
+Together they give the shrinking-core contribution:
+
+\[
+\Omega_P^{esc,+}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.958}
+\]
+
+The proof-bearing question is where \(w(Q')\) comes from.  It cannot be inserted
+after the selected child is seen.  The only noncircular source currently
+identified in the repo is log-scale motion of the original parent-child record:
+
+\[
+\Delta Z_{Q\to Q'}^{fresh}
+\approx
+\int_{\log r(Q')}^{\log r(Q)}
+\partial_\sigma Z(\sigma)\,d\sigma
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++Paid.
+\tag{TFE.959}
+\]
+
+The needed weighted Cauchy/Carleson estimate is
+
+\[
+\sum_{Q\subseteq P}\sum_{Q'\in ch_{\rm stop}(Q)}
+w(Q')\|\Delta Z_{Q\to Q'}^{fresh}\|_{\mathcal H_{\rm raw}}^2
+\le
+C
+\int_{\mathcal C(P)}
+\left(
+|\partial_\sigma Z|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
+\right)d\sigma dt
++Paid(P).
+\tag{TFE.960}
+\]
+
+The right side must be controlled by the original coupled packet, not by the
+future selected descendant tail.  In interface language this is the same
+statement as the moving low-high pressure-stress/collar lower edge:
+
+\[
+dZ_N+c_N\,d\mathcal J_N
+\le
+dR_N^{paid},
+\qquad
+Z_N(t)\ge -C_N(u_0),
+\tag{TFE.961}
+\]
+
+where \(d\mathcal J_N\) is the selected-scale positive contribution of the
+joint low-high interface, not raw Hodge energy, raw annular energy, raw collar
+energy, or raw frequency mass.
+
+Thus the shrinking-core branch is conditionally discharged by
+
+\[
+\boxed{
+\text{`(TFE.956)' + `(TFE.957)'}
+\Longrightarrow
+\text{shrinking-core \(L^1\) bound `(TFE.958)'.}
+}
+\tag{TFE.962}
+\]
+
+The exact remaining PDE theorem is
+
+\[
+\boxed{
+\text{CriticalWeightedParentChildResetCarleson.A}
+\quad\text{or equivalently}\quad
+\text{MovingLowHighInterfaceLowerEdge.A}.
+}
+\tag{TFE.963}
+\]
+
+This is the escape side of the same positive critical transfer theorem.  In the
+compressed fractional coordinate it is `(TFE.913)`.  In material geometry it is
+the production of the selected heat-scale weight from log-scale derivative,
+turnstile, exchange, collar, and pressure-Hodge interface motion of the original
+coupled packet.
