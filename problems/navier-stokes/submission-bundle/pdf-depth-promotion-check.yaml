@@ -1,8 +1,8 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-07-01T22:00:05Z'
-started_at: '2026-07-01T22:00:01Z'
+generated_at: '2026-07-01T22:03:13Z'
+started_at: '2026-07-01T22:03:05Z'
 status: failed
 purpose: Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into
   the human/app-aligned TeX/PDF path, export the separate Codex Clay-facing paper,
@@ -24,14 +24,62 @@ commands:
   - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
   - problems/navier-stokes/tools/build_current_material_coverage.rb
   - "--check"
+  success: true
+  exitstatus: 0
+  stdout_tail: CURRENT_MATERIAL_COVERAGE_CHECK 2119
+  stderr_tail: ''
+- label: surPart/Field derivation appendix check
+  argv:
+  - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
+  - problems/navier-stokes/tools/build_surface_derivation_appendix.rb
+  - "--check"
+  success: true
+  exitstatus: 0
+  stdout_tail: SURFACE_DERIVATION_APPENDIX_CHECK certificates=1944 quarantine=3305
+    current_material=2119
+  stderr_tail: ''
+- label: Gold L1 authority overclaim
+  argv:
+  - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
+  - problems/navier-stokes/tools/check_gold_l1_authority_overclaim.rb
+  success: true
+  exitstatus: 0
+  stdout_tail: GOLD_L1_AUTHORITY_OVERCLAIM OK
+  stderr_tail: ''
+- label: PDF argument hygiene
+  argv:
+  - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
+  - problems/navier-stokes/tools/check_pdf_argument_hygiene.rb
+  success: true
+  exitstatus: 0
+  stdout_tail: 'PDF_ARGUMENT_HYGIENE OK: current reader-facing source architecture
+    is anchored and scan-clean.'
+  stderr_tail: ''
+- label: PDF output topology
+  argv:
+  - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
+  - problems/navier-stokes/tools/check_pdf_output_topology.rb
   success: false
   exitstatus: 1
   stdout_tail: ''
-  stderr_tail: current-material coverage audit is stale; rerun problems/navier-stokes/tools/build_current_material_coverage.rb
+  stderr_tail: |-
+    pdfinfo failed for problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf: Syntax Error: Invalid XRef entry 0
+    Syntax Error: Missing 'endstream' or incorrect stream length
+    Syntax Error: Couldn't find trailer dictionary
+    Syntax Error: Invalid XRef entry 0
+    Syntax Error: Missing 'endstream' or incorrect stream length
+    Syntax Error: Couldn't find trailer dictionary
+    Syntax Error: Couldn't read xref table
 export_result:
 gates:
 - gate_id: runner-exception
   status: failed
   errors:
-  - 'current material coverage check failed: current-material coverage audit is stale;
-    rerun problems/navier-stokes/tools/build_current_material_coverage.rb'
+  - |-
+    PDF output topology failed: pdfinfo failed for problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf: Syntax Error: Invalid XRef entry 0
+    Syntax Error: Missing 'endstream' or incorrect stream length
+    Syntax Error: Couldn't find trailer dictionary
+    Syntax Error: Invalid XRef entry 0
+    Syntax Error: Missing 'endstream' or incorrect stream length
+    Syntax Error: Couldn't find trailer dictionary
+    Syntax Error: Couldn't read xref table

@@ -154,6 +154,10 @@ preferred_pdf = export_status["preferred_pdf"].to_s
 errors << "submission export status preferred_pdf points to #{preferred_pdf.empty? ? '(none)' : preferred_pdf}, expected #{relative(HUMAN_SUBMISSION_PDF)}" unless preferred_pdf == relative(HUMAN_SUBMISSION_PDF)
 errors << "submission export status does not mark pdf_tracks_rendered=true for the two required tracks" unless export_status["pdf_tracks_rendered"] == true
 errors << "submission export status lacks separate rendered pdf_render_status" unless export_status.dig("pdf_render_status", "status").to_s == "rendered"
+readiness_evidence_pdf_render_status = export_status.dig("readiness_evidence", "pdf_render_status")
+unless readiness_evidence_pdf_render_status.is_a?(Hash) && readiness_evidence_pdf_render_status["status"].to_s == "rendered"
+  errors << "submission export status has stale or missing nested readiness evidence pdf_render_status"
+end
 errors << "missing reader-facing source-field rubric #{relative(RUBRIC)}" unless RUBRIC.file?
 
 problem_pdfs = Dir.glob(ROOT.join("problems/navier-stokes/**/*.pdf").to_s).sort

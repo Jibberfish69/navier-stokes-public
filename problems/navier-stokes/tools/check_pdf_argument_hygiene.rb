@@ -11,6 +11,7 @@ PROOF_ATTEMPT_APPENDIX = BUNDLE_ROOT.join("proof-attempt-failure-appendix.tex")
 SOURCE_FIELD_APPENDIX = BUNDLE_ROOT.join("source-field-reader-appendix.tex")
 SURFACE_APPENDIX = BUNDLE_ROOT.join("surface-derivation-appendix.tex")
 SOURCE_FORENSICS_ROOT = ROOT.join("problems/navier-stokes/source-forensics")
+CODEX_MAIN_TEX = ROOT.join("papers/navier-stokes/manuscript/generated/main.tex")
 PROOF_ATTEMPT_MIN_SOURCE_WORDS = 10_000
 SOURCE_FIELD_MIN_SOURCE_WORDS = 300_000
 SECRET_TOKEN_PATTERN = /\b(?:sk-(?:proj-)?[A-Za-z0-9_-]{20,}|OPENAI_API_KEY=(?:"sk-[^"\s]+"|'sk-[^'\s]+'))\b/.freeze
@@ -38,6 +39,14 @@ SOURCE_HYGIENE_PATTERNS = {
   "raw source-storage language" => /\bon disk\b/i,
   "glued source sentence residue" => /\b(?:first-rungledger|viscousfirst|notapressure|isalgebraically)\b/i
 }.freeze
+
+UNFINISHED_PROOF_WORDING = {
+  "unfinished proof wording" => /\b(?:proof still needs|record still needs)\b/i
+}.freeze
+
+CODEX_DEFENSIVE_SECTION_TITLE = /\\section\{(?:Referee Proof Details|Proof Attempts And Failures To Prove Smoothness)[^}]*\}/i.freeze
+CODEX_DEFENSIVE_LEAD_PATTERN = /\b(?:This appendix records|This dossier records|If smoothness fails at a finite time|The proof fails only if)\b/i.freeze
+CODEX_PROOF_DETAIL_INPUT_PATTERN = /\\input\{referee-proof-(?:details|expansion)(?:\.tex)?\}/i.freeze
 
 def relative(path)
   Pathname.new(path).expand_path.relative_path_from(ROOT).to_s
@@ -133,6 +142,21 @@ def scan_for_secret_literals(root, errors)
   end
 end
 
+def scan_codex_machine_paper_voice(errors)
+  return unless CODEX_MAIN_TEX.file?
+
+  raw = CODEX_MAIN_TEX.read
+  if raw.match?(CODEX_PROOF_DETAIL_INPUT_PATTERN)
+    errors << "#{relative(CODEX_MAIN_TEX)}: Codex machine paper imports accreted proof-detail appendix"
+  end
+
+  visible = visible_source(CODEX_MAIN_TEX, expand: false)
+  scan_patterns(CODEX_MAIN_TEX, visible, {
+    "CODEX_DEFENSIVE_SECTION_TITLE" => CODEX_DEFENSIVE_SECTION_TITLE,
+    "Codex section leads open defensively" => CODEX_DEFENSIVE_LEAD_PATTERN
+  }, errors)
+end
+
 def require_patterns(path, text, patterns, label, errors)
   positions = patterns.map { |pattern| [pattern, text =~ pattern] }
   positions.each do |pattern, position|
@@ -148,13 +172,16 @@ end
 
 errors = []
 scan_for_secret_literals(SOURCE_FORENSICS_ROOT, errors)
+scan_codex_machine_paper_voice(errors)
 
 unless MAIN_TEX.file?
   errors << "missing main TeX source #{relative(MAIN_TEX)}"
 else
   main_visible = visible_source(MAIN_TEX, expand: true)
+  main_source = visible_source(MAIN_TEX, expand: false)
   require_patterns(MAIN_TEX, main_visible, CURRENT_FRONT_PAGE_ANCHORS, "current front-page", errors)
   scan_patterns(MAIN_TEX, main_visible, SOURCE_HYGIENE_PATTERNS, errors)
+  scan_patterns(MAIN_TEX, main_source, UNFINISHED_PROOF_WORDING, errors)
   errors << "#{relative(MAIN_TEX)}: missing proof-attempt appendix input" unless MAIN_TEX.read.include?("proof-attempt-failure-appendix.tex")
   errors << "#{relative(MAIN_TEX)}: missing source-field reader appendix input" unless MAIN_TEX.read.include?("source-field-reader-appendix.tex")
 end
@@ -165,6 +192,7 @@ else
   front_visible = strip_tex_disabled_blocks(strip_comments(FRONT_PAGES.read))
   require_patterns(FRONT_PAGES, front_visible, CURRENT_FRONT_PAGE_ANCHORS, "current front-page", errors)
   scan_patterns(FRONT_PAGES, front_visible, SOURCE_HYGIENE_PATTERNS, errors)
+  scan_patterns(FRONT_PAGES, front_visible, UNFINISHED_PROOF_WORDING, errors)
 end
 
 unless PROOF_ATTEMPT_APPENDIX.file?
@@ -175,6 +203,7 @@ else
   errors << "#{relative(PROOF_ATTEMPT_APPENDIX)}: proof-attempt appendix is too shallow: #{words} source words, minimum #{PROOF_ATTEMPT_MIN_SOURCE_WORDS}" if words < PROOF_ATTEMPT_MIN_SOURCE_WORDS
   require_patterns(PROOF_ATTEMPT_APPENDIX, proof_visible, PROOF_ATTEMPT_ANCHORS, "proof-attempt", errors)
   scan_patterns(PROOF_ATTEMPT_APPENDIX, proof_visible, SOURCE_HYGIENE_PATTERNS, errors)
+  scan_patterns(PROOF_ATTEMPT_APPENDIX, proof_visible, UNFINISHED_PROOF_WORDING, errors)
 end
 
 unless SOURCE_FIELD_APPENDIX.file?
@@ -192,6 +221,7 @@ else
   surface_visible = strip_tex_disabled_blocks(strip_comments(SURFACE_APPENDIX.read))
   require_patterns(SURFACE_APPENDIX, surface_visible, SURFACE_APPENDIX_ANCHORS, "mathematical appendix", errors)
   scan_patterns(SURFACE_APPENDIX, surface_visible, SOURCE_HYGIENE_PATTERNS, errors)
+  scan_patterns(SURFACE_APPENDIX, surface_visible, UNFINISHED_PROOF_WORDING, errors)
 end
 
 if errors.empty?

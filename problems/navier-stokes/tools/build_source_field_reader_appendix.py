@@ -345,6 +345,7 @@ def clean_math_block(text: str) -> str | None:
     text = re.sub(r"\\tag\{[^}]*\}", "", text)
     text = text.replace(r"\Chi", r"\chi")
     text = text.replace(r"\Alpha", r"\alpha")
+    text = re.sub(r"\\eps\b", r"\\varepsilon", text)
     text = text.replace(r"\fint", r"\int")
     text = text.replace(r"\mathscr", r"\mathcal")
     text = text.replace(r"\centernot\Longrightarrow", r"\not\Longrightarrow")
@@ -353,7 +354,13 @@ def clean_math_block(text: str) -> str | None:
     text = text.replace("Jump_{avg}", r"\mathrm{Jump}_{\mathrm{avg}}")
     text = text.replace("Field_{avg}", r"\mathrm{Field}_{\mathrm{avg}}")
     text = text.replace("r_{good}", r"r_{\mathrm{good}}")
-    if FORBIDDEN.search(text) or PROCESS_RESIDUE.search(text) or EARLY_NON_NS.search(text):
+    if (
+        FORBIDDEN.search(text)
+        or PROCESS_RESIDUE.search(text)
+        or CONTRACT_RESIDUE.search(text)
+        or BROAD_EULER_RESIDUE.search(text)
+        or EARLY_NON_NS.search(text)
+    ):
         return None
     if "?" in text or "`" in text or "\\texttt" in text or "\\verb" in text or "\\textbf" in text:
         return None
