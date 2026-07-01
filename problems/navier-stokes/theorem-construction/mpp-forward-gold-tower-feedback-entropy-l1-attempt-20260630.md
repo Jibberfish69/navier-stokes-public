@@ -24333,3 +24333,722 @@ recirculation are consumers once the graph-compatible full clock is finite.
 The remaining source is the original-data proof of `(TFE.1635)': construct a
 bounded-below same-material entropy/storage whose drop pays the positive
 primitive PLS driver without charging \(d\Omega_N^{PLS,primitive}\) to itself.
+
+## 142. Ratio-tail form of the missing primitive PLS entropy
+
+The primitive PLS theorem `(TFE.1635)' can be written without the word
+"service."  On an active material shell \(j\), let
+
+\[
+e_j(t)={1\over2}w_j\|v_j(t)\|_2^2,
+\qquad
+d\mu_j(t):=2^{2j}e_j(t)\,dt,
+\tag{TFE.1638}
+\]
+
+where \(d\mu_j\) is the same-shell heat/viscous residence measure, up to the
+fixed material metric and legal commutator constants.  Let
+
+\[
+\Theta_j^{mat}
+=
+\Theta_j^{strain}
++\Theta_j^{press}
++\Theta_j^{coef}
++\Theta_j^{collar},
+\qquad
+\rho_j(t):={\Theta_j^{mat}(t)\over 2^{2j}}.
+\tag{TFE.1639}
+\]
+
+The ratio \(\rho_j\) is the physical speed comparison: how fast the same
+pressure-strain-coefficient-collar material interface is moving compared with
+the heat rate of the child shell.  The surviving superheat residence is
+
+\[
+\mathcal R_{sh,N}(t)
+=
+\sum_j
+\Theta_j^{mat}(t)e_j(t)
+\mathbf 1_{\{\Theta_j^{mat}(t)>\delta2^{2j}\}},
+\tag{TFE.1640}
+\]
+
+and therefore
+
+\[
+\int_0^{T_*}\mathcal R_{sh,N}(t)\,dt
+\simeq
+\sum_j
+\int_{\{\rho_j>\delta\}}\rho_j\,d\mu_j.
+\tag{TFE.1641}
+\]
+
+This is the exact \(L^1\) quantity: the first moment of the material-rate /
+heat-rate ratio over the finite heat-residence measure.  The energy inequality
+supplies only
+
+\[
+\sum_j\int_0^{T_*}d\mu_j(t)<\infty,
+\tag{TFE.1642}
+\]
+
+which is the zeroth moment.  It does not imply `(TFE.1641)'.
+
+Equivalently, decompose the superheat set into ratio bands
+
+\[
+E_{j,\ell}
+=
+\{2^\ell\delta<\rho_j\le 2^{\ell+1}\delta\},
+\qquad \ell\ge0.
+\tag{TFE.1643}
+\]
+
+The missing finite-action law is the weighted tail
+
+\[
+\boxed{
+\sum_{\ell\ge0}2^\ell
+\sum_j\mu_j(E_{j,\ell})
+<\infty .
+}
+\tag{TFE.1644}
+\]
+
+Raw viscous residence gives only the unweighted tail
+
+\[
+\sum_{\ell\ge0}
+\sum_j\mu_j(E_{j,\ell})
+<\infty .
+\tag{TFE.1645}
+\]
+
+This is the mathematical reason finite energy does not settle the \(L^1\)
+problem.  It rules out infinite total heat residence, but it does not rule out
+an infinite sequence of very small heat-residence windows whose material
+interface speed is larger by a compensating factor \(2^\ell\).
+
+The acceleration/BV route asks for the stronger second ratio moment
+
+\[
+\sum_j
+\int_{\{\rho_j>\delta\}}\rho_j^2\,d\mu_j
+<\infty .
+\tag{TFE.1646}
+\]
+
+Then `(TFE.1641)' follows from Cauchy--Schwarz and `(TFE.1642)'.  The current
+same-interface variation calculation proves only that recirculation sign
+changes are admitted into this stronger acceleration clock; it does not prove
+`(TFE.1646)' from original energy or signed annular payback.
+
+So the exact physical missing story is now this.  Subheat packet motion is
+deleted by viscosity.  Retained superheat packet motion is killed by
+same-carrier compactness/no-self-birth.  The only surviving picture is a
+nonretained faster-than-heat recurrence: the same material interface keeps
+moving too fast for the child heat scale on smaller and smaller terminal
+windows, with finite total heat residence but infinite ratio-weighted travel.
+The reduced dyadic unit-burst model realizes precisely that gap:
+
+\[
+\sum_{\ell,j}\mu_j(E_{j,\ell})<\infty,
+\qquad
+\sum_{\ell\ge0}2^\ell\sum_j\mu_j(E_{j,\ell})=\infty.
+\tag{TFE.1647}
+\]
+
+That model is not asserted to solve Navier--Stokes.  Its job is to show which
+installed facts are insufficient: scalar shell energy, complete-frame
+trace-free admission, finite log-strain storages, pressure/collar graph
+compatibility, subheat absorption, Volterra attachment, and recirculation
+closure do not by themselves forbid `(TFE.1647)'.
+
+Therefore `(TFE.1635)' is equivalent to the following non-scalar
+Navier--Stokes structural theorem:
+
+\[
+\boxed{
+\texttt{SameMaterialSuperheatRatioTailLaw.A:}\quad
+\sum_{\ell\ge0}2^\ell
+\sum_j\mu_j(E_{j,\ell})
+\le C_N(u_0)+R_{\rm legal}.
+}
+\tag{TFE.1648}
+\]
+
+A stronger acceptable route is
+
+\[
+\boxed{
+\texttt{NoFreeSameInterfaceAcceleration.A:}\quad
+\sum_j
+\int_{\{\rho_j>\delta\}}\rho_j^2\,d\mu_j
+\le C_N(u_0)+R_{\rm legal}.
+}
+\tag{TFE.1649}
+\]
+
+Either theorem supplies the bounded-below primitive PLS entropy after the
+already-installed sector reductions:
+
+\[
+\texttt{`(TFE.1648)' or `(TFE.1649)'}
+\Longrightarrow
+\texttt{PrimitivePLSNoFreeUpcrossing.A `(TFE.1635)'}.
+\tag{TFE.1650}
+\]
+
+The remaining work is not to identify the parent packet again.  It is to prove
+one of `(TFE.1648)' or `(TFE.1649)' from the full original
+Navier--Stokes coupling, using a structural constraint absent from the dyadic
+reduced model.  In physical terms: prove that an incompressible viscous fluid
+cannot run an infinite train of faster-than-heat pressure-strain-coefficient
+interface bursts on the same original material history while spending only a
+finite amount of heat residence.
+
+## 143. The half-barrier makes the missing law global, not local
+
+The ratio-tail theorem has a sharp good-lambda threshold.  Put
+
+\[
+N_L:=\sum_{\ell\ge L}\sum_j\mu_j(E_{j,\ell}).
+\tag{TFE.1651}
+\]
+
+The finite first-ratio action `(TFE.1644)' is equivalent to
+
+\[
+\sum_{L\ge0}2^L N_L<\infty.
+\tag{TFE.1652}
+\]
+
+A good-lambda recurrence
+
+\[
+N_{L+1}\le \theta N_L+B_L
+\tag{TFE.1653}
+\]
+
+closes `(TFE.1652)' only when
+
+\[
+\theta<{1\over2},
+\qquad
+\sum_{L\ge0}2^LB_L<\infty .
+\tag{TFE.1654}
+\]
+
+The half-tail
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1},
+\qquad
+N_L\simeq {2^{-L}\over L+1},
+\qquad
+{N_{L+1}\over N_L}\to {1\over2},
+\tag{TFE.1655}
+\]
+
+has finite raw heat mass and infinite first-ratio action.  Therefore any
+closure at the Gold edge must supply a strict spare exponent, a second
+ratio-moment estimate, or a bounded-below history storage.  Same-parent
+ownership, trace-free admission, and raw dissipation are exactly at the
+wrong strength.
+
+The possible local profile exclusion also fails.  In a local material-time
+core, take
+
+\[
+u(x,t)=B(t)x,\qquad B(t)=B(t)^\top,\qquad \operatorname{tr}B(t)=0,
+\tag{TFE.1656}
+\]
+
+and
+
+\[
+p(x,t)=-{1\over2}x\cdot(\dot B+B^2)x.
+\tag{TFE.1657}
+\]
+
+Then
+
+\[
+\partial_tu+(u\cdot\nabla)u+\nabla p-\nu\Delta u=0,
+\qquad
+\nabla\cdot u=0
+\tag{TFE.1658}
+\]
+
+on the affine core.  If \(B\ne0\), this is not a gauge packet; it is genuine
+trace-free strain action with zero local heat-time mass.  Periodic
+divergence-free localization and collar matching keep the raw physical cost at
+radius scale while the normalized material action remains order one:
+
+\[
+\text{raw physical cost}\simeq O(r),
+\qquad
+\text{normalized selected material action}\simeq O(1).
+\tag{TFE.1659}
+\]
+
+Thus a terminal chain with \(\sum_k r_k<\infty\) is compatible with finite raw
+cost and infinitely many unit normalized affine material-time visits at the
+level of the current local tests.  Local pressure Hessian placement, local
+Navier--Stokes identity, complete-frame trace-free payment, and local
+Cauchy--Green deformation do not exclude the critical half-tail.
+
+This also rules out the tempting local storage construction.  Along
+
+\[
+B(t)=\lambda(t)E,\qquad \operatorname{tr}E=0,\qquad E=E^\top,
+\tag{TFE.1660}
+\]
+
+a stretched material direction satisfies
+
+\[
+{d\over dt}\log|F(t)\xi|=\lambda(t).
+\tag{TFE.1661}
+\]
+
+Any local finite-depth state primitive \(\mathscr A_{loc}\) that pays the
+one-way action would obey, on the affine core,
+
+\[
+d\mathscr A_{loc}
++c\,\lambda_+(t)\,dt
+\le dR_{loc}^{legal}.
+\tag{TFE.1662}
+\]
+
+After shrinking the localization radius, the normalized core action dominates
+the legal/collar residual, so `(TFE.1662)' forces
+
+\[
+\mathscr A_{loc}(t_1)-\mathscr A_{loc}(t_0)
+\le
+-c\int_{t_0}^{t_1}\lambda_+(t)\,dt.
+\tag{TFE.1663}
+\]
+
+Long or concatenated one-way stretch histories drive the right side below
+every fixed lower bound.  Therefore no local pressure, Hodge, Cauchy--Green,
+strain-log, shell-energy, or finite-depth material-state primitive can be the
+bounded-below reservoir in `(TFE.1635)'.
+
+The missing physical story is consequently global.  The surviving theorem is:
+
+\[
+\boxed{
+\texttt{GlobalCriticalHalfTailPackingExclusion.A:}
+}
+\tag{TFE.1664}
+\]
+
+for one original smooth incompressible Navier--Stokes material history, an
+infinite terminal sequence of localized affine/high-ratio material-time visits
+with unit normalized primitive PLS action cannot be packed with summable raw
+heat, viscous, collar, and legal cost.  Equivalently, the original history must
+satisfy one of
+
+\[
+N_{L+1}\le\theta N_L+B_L,
+\qquad
+\theta<{1\over2},
+\qquad
+\sum_L2^LB_L<\infty,
+\tag{TFE.1665}
+\]
+
+or
+
+\[
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty,
+\tag{TFE.1666}
+\]
+
+or a bounded-below global same-material history functional whose drop pays
+`(TFE.1666)' directly.  This is the precise physical thing still missing to
+close the \(L^1\) problem: a global no-Zeno packing law for faster-than-heat
+same-interface bursts on the original transported material history.
+
+## 144. Root-selected endpoint cocycle form of the global packing law
+
+The global packing law becomes smaller once written in endpoint-state
+coordinates.  A retained high-ratio birth is not allowed to be "fresh" only
+relative to the current stopped child.  Freshness must be measured against the
+original root packet in the selected metric.  The forbidden fourth branch is
+
+\[
+\text{parent-fresh in the local stopped metric}
+\quad+\quad
+\text{old in the root selected endpoint metric}
+\quad+\quad
+\text{no return/reset/exchange charge.}
+\tag{TFE.1667}
+\]
+
+Physically, this is the exact rebasing loophole.  The child is not creating
+new material; it is rereading the same original pressure-viscosity-
+incompressibility packet through a changed endpoint window.  Same endpoint
+means return/reuse.  Changed endpoint means the material frame, covector,
+turnstile, collar, Hodge coordinate, or exchange geometry moved.  Genuinely new
+endpoint state means a fresh root endpoint atom was born.
+
+For a retained birth \(\gamma\), define its root endpoint state by pulling the
+weighted endpoint seed back to the original stopped parent:
+
+\[
+E_\gamma
+:=
+H_\gamma^{1/2}M_\gamma
+\quad\text{with frame/covector/turnstile/exchange/collar coordinates.}
+\tag{TFE.1668}
+\]
+
+The desired same-root cocycle is
+
+\[
+E_{\gamma'}
+=
+E_\gamma
++\Delta_{\rm ret}E_{\gamma\to\gamma'}
++\Delta_{\rm reset}E_{\gamma\to\gamma'}
++\Delta_{\rm fresh}E_{\gamma'}.
+\tag{TFE.1669}
+\]
+
+The three terms correspond to the only allowed physical histories:
+
+\[
+\Delta_{\rm ret}E_{\gamma\to\gamma'}
+\quad\text{is return/reuse in the same selected endpoint state,}
+\tag{TFE.1670}
+\]
+
+\[
+\Delta_{\rm reset}E_{\gamma\to\gamma'}
+\quad\text{is root-visible change of selected endpoint state,}
+\tag{TFE.1671}
+\]
+
+and
+
+\[
+\Delta_{\rm fresh}E_{\gamma'}
+\quad\text{is a genuinely new root endpoint atom.}
+\tag{TFE.1672}
+\]
+
+The local paid line is already only the endpoint lower edge:
+
+\[
+\omega_{\gamma}
+\lesssim
+\int_{I_\gamma}
+H_\gamma(t)\|M_\gamma(t)\|_2^2\,dt
++DER(\gamma)+R_{\rm legal}(\gamma)+Stop(\gamma).
+\tag{TFE.1673}
+\]
+
+What is missing is the root selected-metric upper edge:
+
+\[
+\boxed{
+\sum_{\gamma\subset P}
+\|E_\gamma-E_{\operatorname{par}(\gamma)}\|_{\mathcal H_{\rm root,sel}}^2
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+}
+\tag{TFE.1674}
+\]
+
+Raw endpoint variation is not enough, because the half-tail is exactly
+
+\[
+\|E_\gamma-E_{\operatorname{par}(\gamma)}\|_{\mathcal H_{\rm raw}}^2
+\simeq r_\gamma,
+\qquad
+\|E_\gamma-E_{\operatorname{par}(\gamma)}\|_{\mathcal H_{\rm root,sel}}^2
+\simeq1.
+\tag{TFE.1675}
+\]
+
+Thus a root ancestry label does not close the proof.  The selected endpoint
+state must live in one parent-known critical material metric that sees the
+endpoint atom, return square, and reset derivative before child positive
+clipping.
+
+The proof package below `(TFE.1664)' is therefore:
+
+\[
+\boxed{
+\texttt{RootSelectedEndpointCocycleCarleson.A}
+}
+\tag{TFE.1676}
+\]
+
+with six producer requirements:
+
+\[
+\begin{array}{ll}
+\text{(i)}&
+\text{endpoint lower edge: retained first birth has selected-size endpoint mass;}
+\\
+\text{(ii)}&
+\text{fresh endpoint atoms obey root Carleson packing;}
+\\
+\text{(iii)}&
+\text{repeated endpoint reads are return-paid in selected square currency;}
+\\
+\text{(iv)}&
+\text{endpoint-state changes have critical weighted reset BV;}
+\\
+\text{(v)}&
+\text{the root selected metric is parent-known, not raw and not future-tail;}
+\\
+\text{(vi)}&
+\text{endpoint atom, return square, and reset derivative share that metric.}
+\end{array}
+\tag{TFE.1677}
+\]
+
+If `(TFE.1676)' holds, locally parent-fresh selected units cannot restart at
+every child scale.  They either reuse a root endpoint state, change endpoint
+state with reset/return/exchange payment, or spend a genuinely fresh endpoint
+atom with root Carleson packing.  Consequently
+
+\[
+\texttt{RootSelectedEndpointCocycleCarleson.A}
+\Longrightarrow
+\texttt{GlobalCriticalHalfTailPackingExclusion.A}
+\Longrightarrow
+\texttt{SameMaterialSuperheatRatioTailLaw.A `(TFE.1648)'}
+\Longrightarrow
+\texttt{PrimitivePLSNoFreeUpcrossing.A `(TFE.1635)'}.
+\tag{TFE.1678}
+\]
+
+This is the closest current physical form of the \(L^1\) problem.  The one
+participation law already attaches every event to the original packet.  Closure
+now requires proving that the selected endpoint state of that packet cannot be
+rebased infinitely often without a root-visible fresh, return, reset, exchange,
+legal, or stop charge in the same selected critical metric.
+
+## 145. What the entropy story actually has to prove
+
+The physical story is not an abstract count of possible histories.  It is the
+internal count of remaining endpoint states of one original coupled material
+packet as pressure, heat lag, viscosity, self-advection, and incompressibility
+keep handing the same signal forward.
+
+The parent packet is the root coupled history before child clipping.  The child
+is one selected heat-lag readout of an endpoint transition.  The feedback loop
+is pressure/incompressibility re-coordinating the remaining velocity/strain
+state after earlier viscous deletion.  That feedback is allowed to rotate or
+change the selected endpoint coordinates, but it is not allowed to create a
+new future state for free.  Every such re-coordinate must be visible as return,
+reset, exchange, or a fresh endpoint atom in one parent-known critical material
+metric.
+
+Thus the entropy variable is not
+
+\[
+\log\#\{\text{raw states compatible with partial samples}\}.
+\tag{TFE.1679}
+\]
+
+The useful object is the parent-known endpoint-state entropy
+
+\[
+\mathsf S_P(t,\varepsilon)
+=
+\log N_\varepsilon
+\left(
+\mathcal E_P(t),
+\mathcal H_{P,\mathrm{crit}}^{\mathrm{sel}}
+\right),
+\tag{TFE.1680}
+\]
+
+where \(\mathcal E_P(t)\) is the set of root endpoint states still compatible
+with the coupled material history of \(P\) up to time \(t\), and
+\(\mathcal H_{P,\mathrm{crit}}^{\mathrm{sel}}\) is chosen from the original
+parent packet before the selected child tail is clipped.
+
+The required deletion law is:
+
+\[
+\boxed{
+\mathsf S_P(\tau,\varepsilon)
++c_N
+\sum_{\gamma\subset P,\ t_\gamma<\tau}
+\|E_\gamma-E_{\operatorname{par}(\gamma)}
+\|_{\mathcal H_{P,\mathrm{crit}}^{\mathrm{sel}}}^2
+\le
+\mathsf S_P(0,\varepsilon)
++C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+}
+\tag{TFE.1681}
+\]
+
+This is the rigorous version of the chess-board picture.  A legal move of the
+fluid knocks out future endpoint arrangements.  Pressure feedback can
+re-coordinate the board, but the re-coordinate itself is a move in
+\(\mathcal H_{P,\mathrm{crit}}^{\mathrm{sel}}\).  Viscosity and the full
+participation law provide the finite original-history budget for those moves.
+
+The local child readout is then only a lower frame:
+
+\[
+\omega_\gamma
+\le
+C_N
+\|E_\gamma-E_{\operatorname{par}(\gamma)}
+\|_{\mathcal H_{P,\mathrm{crit}}^{\mathrm{sel}}}^2
++Paid(\gamma).
+\tag{TFE.1682}
+\]
+
+Combining `(TFE.1681)' and `(TFE.1682)' gives the terminal-uniform positive
+readout bound:
+
+\[
+\sum_{\gamma\subset P,\ t_\gamma<\tau}\omega_\gamma
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P),
+\qquad
+\sup_{\tau<T_*}\sum_{\gamma:t_\gamma<\tau}\omega_\gamma<\infty.
+\tag{TFE.1683}
+\]
+
+In continuous notation `(TFE.1683)' is exactly the missing \(L^1\) service line:
+
+\[
+\sup_{\tau<T_*}
+\int_0^\tau\int_P \mathcal M_N(Y_N)_+
+\le C_N(u_0).
+\tag{TFE.1684}
+\]
+
+The repo audit shows why `(TFE.1681)' is still a real theorem and not already
+installed.  The endpoint lower edge is local and paid:
+
+\[
+\omega_\gamma
+\lesssim
+\int_{I_\gamma}H_\gamma\|M_\gamma\|_2^2
++DER(\gamma)+R_{\rm legal}(\gamma)+Stop(\gamma).
+\tag{TFE.1685}
+\]
+
+Return and reset surfaces are also real consumers, but only after the endpoint
+state has already been admitted into the same parent metric:
+
+\[
+\text{same endpoint state}\Rightarrow \text{selected-square return payment,}
+\tag{TFE.1686}
+\]
+
+\[
+\text{changed endpoint state}\Rightarrow \text{critical weighted reset BV.}
+\tag{TFE.1687}
+\]
+
+The noncircular source is therefore the shared metric construction and its
+upper edge:
+
+\[
+\boxed{
+\sum_{\gamma\subset P}
+\|E_\gamma-E_{\operatorname{par}(\gamma)}
+\|_{\mathcal H_{P,\mathrm{crit}}^{\mathrm{sel}}}^2
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+}
+\tag{TFE.1688}
+\]
+
+Equivalently, the proof must construct a parent-fixed Hilbert geometry before
+descendant selected readout and pay all angle drift:
+
+\[
+\sum_{i<j}
+\left|
+\left\langle
+\widetilde J_i,\widetilde J_j
+\right\rangle_{\mathcal H_{P,\mathrm{crit}}^{\mathrm{sel}}}
+\right|
+\le
+C_N(u_0)\mathcal R(P)+Reset(P)+Exchange(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1689}
+\]
+
+This is exactly the place where the feedback-loop picture contributes new
+precision.  Pressure feedback is not a separate source and not a free return
+from viscosity back into pressure.  It is the endpoint-coordinate motion of the
+same remaining material state.  If that motion is parent-known, `(TFE.1689)'
+pays it.  If it is chosen after the child tail is seen, the proof is circular.
+
+So the six requirements in `(TFE.1677)' collapse to one exact producer:
+
+\[
+\boxed{
+\texttt{ParentKnownEndpointStateEntropyDeletion.A}
+}
+\tag{TFE.1690}
+\]
+
+Statement: from the original smooth coupled Navier--Stokes packet \(P\), before
+positive child clipping, construct the critical selected endpoint metric
+\(\mathcal H_{P,\mathrm{crit}}^{\mathrm{sel}}\), the endpoint cocycle
+\(E_\gamma\), and the endpoint entropy \(\mathsf S_P\), and prove
+`(TFE.1681)'--`(TFE.1689)'.
+
+Once `(TFE.1690)' is proved,
+
+\[
+\texttt{ParentKnownEndpointStateEntropyDeletion.A}
+\Longrightarrow
+\texttt{RootSelectedEndpointCocycleCarleson.A}
+\Longrightarrow
+\texttt{PrimitivePLSNoFreeUpcrossing.A}
+\Longrightarrow
+\texttt{FGC.25}.
+\tag{TFE.1691}
+\]
+
+What is missing, physically, is therefore not another pressure-only estimate,
+not finite energy, and not another no-recount identity.  Finite smooth initial
+energy gives finite raw material.  No-recount gives ownership.  The unproved
+claim is that the pressure-heat-viscous feedback cannot keep opening
+selected endpoint states faster than the original packet deletes them in the
+parent-known critical endpoint metric.
+
+The exact hard mathematical gap is:
+
+\[
+\boxed{
+\text{construct the parent-known critical endpoint metric and prove its
+entropy/angle-drift Carleson upper edge from original coupled data.}
+}
+\tag{TFE.1692}
+\]
+
+Without `(TFE.1692)', the half-tail remains possible in the proof language:
+
+\[
+\|E_\gamma-E_{\operatorname{par}(\gamma)}\|_{\rm raw}^2\simeq r_\gamma,
+\qquad
+\omega_\gamma\simeq1,
+\qquad
+\sum r_\gamma<\infty,\quad
+\sum\omega_\gamma=\infty.
+\tag{TFE.1693}
+\]
+
+With `(TFE.1692)', that branch is impossible because each unit selected child
+readout is already one unit of endpoint-state deletion in the original parent
+history.
