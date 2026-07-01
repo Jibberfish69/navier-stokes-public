@@ -3273,3 +3273,179 @@ ownership prevents recount.  The \(L^1\) line additionally needs the original
 coupled packet to have finite positive full-clock variation while pressure
 feedback, viscous descent, metric motion, collar motion, and endpoint readout
 unfold through the same parent history.
+
+## 26. Moving low-high pump: the strict half-barrier and record/return route
+
+The source-audited primitive inside `(TFE.196)` is the stopped moving low-high
+same-material pressure/strain pump.  In dyadic shell form it is
+
+\[
+d\Omega_N^{PLS,primitive}
+\simeq
+\sum_j w_j
+\left[
+\left\langle
+H_{j,N},
+\mathcal M_{<j-C,N}H_{j,N}
+\right\rangle
+\right]_+dt
++dR_N^{paid},
+\tag{TFE.201}
+\]
+
+where \(H_{j,N}\) is the active high shell of the same material packet and
+\(\mathcal M_{<j-C,N}\) is the moving lower-band coefficient made from strain,
+pressure Hessian through
+
+\[
+D_tS+S^2+\Omega^2+\nabla^2p=\nu\Delta S,
+\tag{TFE.202}
+\]
+
+material coefficient/frame motion, Hodge/Stokes projection motion, transported
+collar motion, annular stress-work, and viscous graph service.  This is the
+same participation-law object as the full clock, not a pressure-only partner
+and not a detached shell source.
+
+The ratio variables isolate the exact \(L^1\) obstruction.  Let
+
+\[
+d\mu_j(t):=2^{2j}e_j(t)\,dt,\qquad
+\rho_j(t):={\Theta_j^{mat}(t)\over 2^{2j}},
+\tag{TFE.203}
+\]
+
+and define ratio bands
+
+\[
+E_{j,\ell}:=\{2^\ell\delta<\rho_j\le2^{\ell+1}\delta\},
+\qquad
+\nu_\ell:=\sum_j\mu_j(E_{j,\ell}).
+\tag{TFE.204}
+\]
+
+Energy, raw stress-work, subheat absorption, and support routing supply only
+the zeroth moment
+
+\[
+\sum_{\ell\ge0}\nu_\ell<\infty .
+\tag{TFE.205}
+\]
+
+The full moving pump clock requires the weighted first moment
+
+\[
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty .
+\tag{TFE.206}
+\]
+
+Equivalently, with \(N_L:=\sum_{\ell\ge L}\nu_\ell\), `(TFE.206)` follows from
+a strict good-lambda recurrence
+
+\[
+N_{L+1}\le\theta N_L+B_L,\qquad
+\theta<{1\over2},\qquad
+\sum_{L\ge0}2^LB_L<\infty .
+\tag{TFE.207}
+\]
+
+The threshold \(\theta<1/2\) is sharp.  The half-tail
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1}
+\tag{TFE.208}
+\]
+
+has finite raw mass but divergent full action:
+
+\[
+\sum_\ell\nu_\ell<\infty,\qquad
+\sum_\ell2^\ell\nu_\ell=\sum_\ell {1\over \ell+1}=\infty .
+\tag{TFE.209}
+\]
+
+It also satisfies \(N_{L+1}/N_L\to1/2\).  Therefore any recurrence with
+\(\theta=1/2\) still admits the bad \(L^1\) tail.  This is the exact
+mathematical meaning of the physical picture: finite original energy and
+same-parent ownership prevent independent new pulses, but they do not by
+themselves prevent a single same-parent pump from being harvested at the
+critical half-tail rate.
+
+The checked direct attacks do not beat this barrier.  Pointwise incompressibility
+and trace-free strain only give a same-packet compression partner:
+
+\[
+[p\cdot Sp]_+
+\le
+[-\widehat\xi\cdot S\widehat\xi]_+
++[-n\cdot Sn]_+ .
+\tag{TFE.210}
+\]
+
+Laminar ancestry says surviving visits lie on same-material lines and spend
+Cauchy--Green, complete-frame, collar, or turnstile variation on those lines.
+Volterra heat lag absorbs the subheat branch
+\(\Theta_j^{mat}\le\delta2^{2j}\).  Annular payback attaches center motion to
+same-material stress/strain return.  These are real support facts, but all are
+compatible with `(TFE.208)` unless they create the missing strict factor in
+`(TFE.207)`.
+
+The nonduplicate proof route is therefore the stopped record/return descent.
+After paid selector/reselection, entrance/legal, silent-source, nonlaminar,
+subheat, recirculation, and support exits have been removed, one must construct
+a polar-compatible signed scale-potential lift
+
+\[
+Y=\partial_\sigma\Psi+S^{spill}+E,\qquad
+Y_+=Y+Y_-,
+\tag{TFE.211}
+\]
+
+where \(Y_+\) is the selected positive primitive source and \(Y_-\) is the
+negative return needed to reset the same scale potential.  On one stopped
+material ancestry line,
+
+\[
+V_+(\Psi;I_M)
+=
+\Psi(t_M)-\Psi(t_0)+V_-(\Psi;I_M).
+\tag{TFE.212}
+\]
+
+Thus repeated selected positive pump births have only two non-support escapes:
+unbounded scale-potential records/average, or paid negative scale return.  The
+theorem-grade statement is
+
+\[
+\begin{aligned}
+&\int_0^T H_w(t)
+\left\|
+{1\over |J|}\int_J\Psi(\sigma,t)\,d\sigma
+\right\|_{L_x^2}^2dt
++\int_0^T H_w(t)\|\mathcal C_\theta[Y_-](t)\|_{L_x^2}^2dt\\
+&\qquad\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P).
+\end{aligned}
+\tag{TFE.213}
+\]
+
+Together with the signed lift `(TFE.211)` and the spill/error absorptions,
+`(TFE.213)` implies the strict half-barrier break `(TFE.207)`, hence the moving
+low-high pump clock `(TFE.206)`, hence the full-clock producer `(TFE.196)`, and
+then the entropy \(L^1\) chain `(TFE.200)`.
+
+So the current exact Gold \(L^1\) finish is no longer an undefined "finite
+service" slogan.  It is:
+
+\[
+\boxed{
+\text{prove the stopped primitive PLS signed lift plus potential-record /
+negative-return bound `(TFE.211)'--`(TFE.213)'.}
+}
+\tag{TFE.214}
+\]
+
+If this record/return theorem fails on a retained same-witness branch after all
+paid exits are removed, the survivor is not a hidden Gold bill.  It is a
+same-witness endpoint/participation face candidate: a terminal retained
+positive pump with no signed lift, no bounded record, and no paid return.
