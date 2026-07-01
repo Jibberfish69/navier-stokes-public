@@ -610,6 +610,7 @@ begin
     sync_submission_export_status!
   end
 
+  run_command!(commands, "Gold L1 authority overclaim", RbConfig.ruby, "problems/navier-stokes/tools/check_gold_l1_authority_overclaim.rb")
   run_command!(commands, "PDF argument hygiene", RbConfig.ruby, "problems/navier-stokes/tools/check_pdf_argument_hygiene.rb")
   run_command!(commands, "PDF output topology", RbConfig.ruby, "problems/navier-stokes/tools/check_pdf_output_topology.rb")
 
