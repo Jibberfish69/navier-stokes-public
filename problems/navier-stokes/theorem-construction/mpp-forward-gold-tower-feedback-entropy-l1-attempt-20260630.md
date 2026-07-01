@@ -6581,3 +6581,359 @@ The smoothness-bearing input is the fixed-core/root-upcrossing inequality
 velocity packet.  Once `(TFE.438)` is proved, it supplies the fresh
 endpoint-current Carleson estimate `(TFE.425)` on the only branch not already
 covered by `(TFE.435)`, then `(TFE.428)` gives terminal-uniform \(L^1\).
+
+## 45. Fixed-core replay: square return is installed, linear return still needs
+selected admission
+
+The fixed-core part of `(TFE.438)` is not a new selector effect.  After
+first-exit/reset and fresh orthogonal innovation are removed, the selector is
+reading the same material core again.  Let \(\mathfrak A(P)\) be the stopped
+laminar family of such retained fixed cores and write
+
+\[
+dU_{\mathcal A}
+\simeq
+\sum_{e\subset\mathcal A}dA_e^{wt}
++
+\sum_{e\subset\mathcal A}
+H_{e^-}\|B_e^{rep}\|_{\mathcal H_{\rm lift}}^2\,dt ,
+\tag{TFE.441}
+\]
+
+where \(B_e^{rep}\) is the parent-predictable repeated-core component.  The
+right signed object is a stopped stress-work potential
+\(\Psi_{\mathcal A}\) built from the same transported material packet.  In
+material variables,
+
+\[
+v=u\circ X,\qquad
+q=p\circ X,\qquad
+A=(D_aX)^{-1},\qquad
+\mathcal T=-qI+2\nu S(u)\circ X,
+\tag{TFE.442}
+\]
+
+and the model fixed-core channel is
+
+\[
+F_{\psi_{\mathcal A}}(t)
+=
+\int
+v_i\mathcal T_{ij}A_{\ell j}\partial_{a_\ell}\psi_{\mathcal A}\,da .
+\tag{TFE.443}
+\]
+
+The fixed-core lift asks for
+
+\[
+dU_{\mathcal A}
+\le
+C_N(d\Psi_{\mathcal A})_+
++dR_{\mathcal A}^{legal}
++dStop_{\mathcal A}.
+\tag{TFE.444}
+\]
+
+Once `(TFE.444)` is available, the scalar part is complete.  On every stopped
+subinterval \(I\),
+
+\[
+(d\Psi_{\mathcal A})_+(I)
+\le
+\operatorname{Rec}_{I}(\Psi_{\mathcal A})
++V_-^{return}(\Psi_{\mathcal A};I),
+\tag{TFE.445}
+\]
+
+so laminar summation gives
+
+\[
+U_{\rm fixed}(P)
+\le
+C_N
+\int_{\mathfrak A(P)}
+\left(
+\operatorname{Rec}_\infty(\Psi_{\mathcal A})
++V_-^{return}(\Psi_{\mathcal A})
+\right)d\mu_P(\mathcal A)
++R_{\rm legal}(P)+Stop(P).
+\tag{TFE.446}
+\]
+
+Thus fixed-core replay is paid once the same original packet supplies finite
+record and finite negative return for this stopped potential.
+
+The repo has the correct original-packet source for the return score.  With
+\[
+P_R=\Gamma_RZ^S,
+\tag{TFE.447}
+\]
+
+where \(\Gamma_R\) is parent/root-known and \(Z^S\) is the routed carrier
+coordinate of the same coupled packet,
+
+\[
+\partial_\sigma P_R
+=
+\Gamma_R(\partial_\sigma Z^S)
++(\partial_\sigma\Gamma_R)Z^S,
+\tag{TFE.448}
+\]
+
+and therefore
+
+\[
+|\partial_\sigma P_R|
+\le
+C\left(
+|\partial_\sigma Z^S|
++|\operatorname{turnstile}_\sigma|
++|\operatorname{exchange}_\sigma|
++|\operatorname{covector}_\sigma|
++|\operatorname{conn}_\sigma|
+\right)
++Err_{\rm legal}.
+\tag{TFE.449}
+\]
+
+For a stopped return interval \(I\), with
+\[
+\Delta_I^-P_R=[P_R(\sigma_-)-P_R(\sigma_+)]_+,
+\qquad
+H_I={|I|^2\over\int_Iw^{-1}\,d\sigma},
+\tag{TFE.450}
+\]
+
+weighted Cauchy gives the installed square return payment
+
+\[
+\sum_{I\subset P}
+H_I\left({\Delta_I^-P_R\over |I|}\right)^2
+\le
+C_N
+\int_{\operatorname{Hist}(P)}
+w\left(
+|\partial_\sigma Z^S|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
++|\operatorname{conn}_\sigma|^2
+\right)
++R_{\rm legal}(P)+Stop(P).
+\tag{TFE.451}
+\]
+
+This is the exact physical/mathematical distinction.  The original packet pays
+square return in the harmonic active-weight currency.  It does not by itself
+prove raw linear negative variation
+
+\[
+\sum_I\Delta_I^-P_R<\infty .
+\tag{TFE.452}
+\]
+
+Linear return follows only after retained selected returns are admitted into the
+same harmonic currency, for example through either
+
+\[
+\Delta_I^-P_R\ge\eta |I|
+\quad\text{on retained selected returns,}
+\tag{TFE.453}
+\]
+
+or the bounded inverse-weight length condition
+
+\[
+\sum_I\int_Iw^{-1}\,d\sigma
+\le
+C_N\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.454}
+\]
+
+With `(TFE.453)`, `(TFE.451)` gives
+
+\[
+\sum_I\Delta_I^-P_R
+\le
+\eta^{-1}
+\sum_I
+H_I\left({\Delta_I^-P_R\over |I|}\right)^2
++R_{\rm legal}(P),
+\tag{TFE.455}
+\]
+
+and `(TFE.454)` gives the same conclusion by Cauchy in the stopped sum.
+
+Therefore the fixed-core part of `(TFE.438)` has a precise noncircular
+reduction:
+
+\[
+\begin{gathered}
+\text{fixed-core signed stress-work lift `(TFE.444)'}\\
++\text{record bound and square return `(TFE.446)'--`(TFE.451)'}\\
++\text{retained-return admission `(TFE.453)' or `(TFE.454)'}\\
+\Longrightarrow
+\text{fixed-core active-weight compensator `(TFE.438)'.}
+\end{gathered}
+\tag{TFE.456}
+\]
+
+So the current \(L^1\) edge is even narrower.  First-exit/reset is paid by
+`(TFE.435)`.  Fixed-core replay is paid by `(TFE.456)` once the retained returns
+are admitted into the harmonic square currency of the original coupled packet.
+The missing theorem is not raw scalar BV and not another Bessel projection; it
+is the selected admission/root-reserve lower bound that turns the installed
+square return payment into the linear \(L^1\) return bound required by
+`(TFE.438)`.
+
+## 46. Root-geometry currency: the next noncircular producer below retained
+return admission
+
+The apparent tension between the fixed-score closure note and the return-BV
+producer test is resolved by typing the currency.  The fixed stopped-score
+argument closes repeated-core return only relative to a parent-known
+root-geometry currency.  The return-BV test correctly says that this currency
+still has to be produced from original data; otherwise square return has merely
+been named, not bounded.
+
+The root currency combines active-weight upcrossing and connection/angle drift:
+
+\[
+dA_P^{root}=dA_P^{wt}+dA_P^{conn}.
+\tag{TFE.457}
+\]
+
+The needed root-geometry estimate is
+
+\[
+\int_{\operatorname{Hist}(P')}dA_{P'}^{root}
++
+\sum_{e\subset P'}
+\int H_{e^-}
+\|D_e^{vis}+D_e^{sil}+D_e^{ex}\|_{\mathcal H_{\rm lift}}^2
+\le
+C_N(u_0)\mathcal R(P')
++R_{\rm legal}(P')+Stop(P')
+\tag{TFE.458}
+\]
+
+for every stopped \(P'\subseteq P\), with all objects chosen before selected
+positive child readout.
+
+The only admissible generator for `(TFE.458)` is the parent-subtracted
+root-material generator
+
+\[
+\mathcal G_P^{root}
+=
+\Pi_{\rm new}^{P}
+\left(
+\partial_\sigma Z
++[D_t,\mathcal L_A]w
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
++\operatorname{frame}_\sigma
++\operatorname{collar/endpoint}_\sigma
+\right).
+\tag{TFE.459}
+\]
+
+A noncircular proof of `(TFE.458)` would come from a bounded parent storage and
+root ledger
+
+\[
+dA_P^{root}
++a_P\|\mathcal G_P^{root}\|^2\,d\sigma dt
+\le
+-D_{\sigma,t}M_P
++d\Lambda_P^{root},
+\tag{TFE.460}
+\]
+
+with
+
+\[
+0\le M_P\le C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P),
+\qquad
+\int_{\operatorname{Hist}(P)}d\Lambda_P^{root}
+\le C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.461}
+\]
+
+Derivative-exact pieces of `(TFE.459)` are already compatible with the
+first-exit Cauchy argument `(TFE.429)`--`(TFE.435)`.  The remaining obstruction
+is the persistent affine/root quotient: a fresh selected root defect can be
+represented formally as
+
+\[
+D_e=(I-\Pi_{\mathcal P_{e^-}})\mathcal C_\theta[Z_e],
+\tag{TFE.462}
+\]
+
+but this is not yet the same as a parent-announced interval average of
+\(\mathcal G_P^{root}\).  Applying Cauchy directly to \(Z_e\) would require the
+selected-critical root bound already being proved.
+
+Thus the next noncircular theorem is the root-defect tightness statement:
+
+\[
+\text{a normalized parent-subtracted root defect cannot carry unit selected
+active weight while }d\Lambda_P^{root},R_{\rm legal},Stop\to0.
+\tag{TFE.463}
+\]
+
+Equivalently, if a bad sequence satisfies
+
+\[
+\int dA_{P_n}^{root}
++
+\sum_{e\in\mathcal E_n}
+\int H_{e^-}\|D_e\|_{\mathcal H_{\rm lift}}^2
+=1,
+\tag{TFE.464}
+\]
+
+and
+
+\[
+\int_{\operatorname{Hist}(P_n)}d\Lambda_{P_n}^{root}
++R_{\rm legal}(P_n)+Stop(P_n)\to0,
+\tag{TFE.465}
+\]
+
+then after stopping and passing to the parent frame, every possible survivor is
+inherited parent-affine transport rather than fresh selected action:
+
+\[
+D_\infty=0.
+\tag{TFE.466}
+\]
+
+This is the compactness form of the entropy story.  A selected state can only
+remain accessible by moving the root geometry, changing the active weight,
+changing connection/angle, or producing a true fresh quotient.  If all those
+root motions vanish in `(TFE.465)`, the child is only the parent state carried
+forward, so it cannot be counted as fresh positive \(L^1\) action.
+
+The current reduction is therefore
+
+\[
+\begin{gathered}
+\text{root-defect tightness `(TFE.463)'--`(TFE.466)'}\\
+\Longrightarrow
+\text{root-geometry compensator `(TFE.457)'--`(TFE.461)'}\\
+\Longrightarrow
+\text{retained-return admission/root reserve `(TFE.453)'--`(TFE.456)'}\\
+\Longrightarrow
+\text{active-weight compensator `(TFE.438)'}\\
+\Longrightarrow
+\text{terminal-uniform \(L^1\) by `(TFE.428)'.}
+\end{gathered}
+\tag{TFE.467}
+\]
+
+This is still not a Gold closure claim.  It is the current smallest
+nonduplicate producer below the entropy \(L^1\) wall: prove root-defect
+tightness from the original coupled material packet, or exhibit the surviving
+defect as the exact obstruction.
