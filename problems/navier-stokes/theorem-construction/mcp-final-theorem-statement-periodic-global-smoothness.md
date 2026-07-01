@@ -1,10 +1,22 @@
-# Final Theorem Statement: Periodic 3D Navier-Stokes Global Smoothness
+# Conditional Theorem Statement: Periodic 3D Navier-Stokes Global Smoothness
 
 ## Status
 
-Closed theorem-statement surface for the periodic branch.
+Stale closure wording corrected on 2026-07-01.
+
+This surface records the downstream conditional implication from the current
+Gold source theorem to the periodic relaunch conclusion.  Current Gold
+authority keeps TFE2748B / OriginalCriticalCapacityVariation.A open: the
+missing input is the arbitrary-original-data Gold \(L^1\) source theorem, now
+sharpened to paid parent root measuring geometry / strict critical-storage
+depletion before child positive readout.
 
 ## Theorem
+
+Conditional on TFE2748B / OriginalCriticalCapacityVariation.A, equivalently the
+terminal-uniform Gold \(L^1\) producer for the original coupled
+pressure-viscosity-incompressibility packet, the following periodic conclusion
+is obtained by the downstream consumer chain.
 
 Let `nu>0`. Let
 
@@ -38,7 +50,7 @@ with the pressure gauge fixed by
 
 ## Internal theorem package hidden behind named lemmas
 
-The proof uses the following named internal lemmas:
+This older generated surface used the following stale named internal lemmas:
 
 ```text
 PCTP.hard terminal-tail uniformization
@@ -51,15 +63,27 @@ READ.END pointwise endpoint recovery
 ECQ.A continuation bridge
 ```
 
-These lemmas collectively supply
+Read against current authority, these names do not collectively supply an
+unconditional theorem.  They are superseded by the Gold \(L^1\) consumer chain
+and require the still-open TFE2748B / OriginalCriticalCapacityVariation.A
+producer.  With that producer granted, the downstream implication is
 
 ```math
-OriginalSmoothData\Longrightarrow\text{absence of finite classical endpoint}.
+TFE2748B
+\Longrightarrow
+\text{terminal-uniform selected }L^1
+\Longrightarrow
+\text{absence of finite classical endpoint}.
 ```
 
 ## Proof skeleton
 
-Let `(u,p)` be the maximal classical solution on `[0,T_*)`. Suppose `T_*<\infty`. The `PCTP.hard` package gives the terminal-tail class-membership readout and removes every terminal endpoint face. The readout package gives the pointwise endpoint closure `End_NS`. The continuation bridge `ECQ.A` then implies a uniform `H^s(T^3)` bound for some `s>5/2` on `[0,T_*)`.
+Assume the current open Gold \(L^1\) source theorem TFE2748B /
+OriginalCriticalCapacityVariation.A.  Let `(u,p)` be the maximal classical
+solution on `[0,T_*)` and suppose `T_*<\infty`.  The terminal-uniform selected
+\(L^1\) density gives terminal no-jump by absolute continuity, finite selected
+action, finite full same-material clock, and then a uniform `H^s(T^3)` bound for
+some `s>5/2` on `[0,T_*)`.
 
 Set \(M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}\).  Periodic \(H^s\) local
 well-posedness gives a lifespan \(\tau=\tau(\nu,s,M_s)>0\) for every datum with
@@ -68,8 +92,11 @@ solution relaunched from \(u(t_j)\) exists beyond \(T_*\), and uniqueness
 identifies it with the original solution on the overlap. This contradicts
 maximality, so `T_*=\infty`.
 
-Smoothness for all positive time and preservation of smoothness follow from the classical periodic Navier-Stokes regularity theory applied on each finite interval.
+Smoothness for all positive time and preservation of smoothness then follow
+from the classical periodic Navier-Stokes regularity theory applied on each
+finite interval.
 
 ## Scope
 
-This final theorem is explicitly the periodic `T^3` theorem. The whole-space `R^3` statement requires a separately named export theorem.
+This conditional theorem statement is explicitly periodic `T^3`.  It is not a
+whole-space `R^3` export and not a current Gold closure claim.

@@ -22,7 +22,19 @@ completion_truth: >-
   the storage only after the selected critical density is represented by a
   parent-announced positive Markov active-density equation; the current source
   surfaces prove the deterministic consumers but not that original-data
-  positivity/nonanticipation equation.
+  positivity/nonanticipation equation. The July 1 no-free-upcrossing
+  reconciliation pushes the same source one level lower: weighted fresh packing
+  is not produced by predictability, Bessel, martingale language, or rectified
+  annular flux admission. The nonconsumer source is the original packet's paid
+  root measuring geometry: active weight plus parent-frame connection, generated
+  before any child positive readout is clipped. The active-capacity audit below
+  then lowers that phrase to its actual source theorem: a continuous
+  parent-measure critical depletion/no-Zeno law for the same coupled packet,
+  with derivative-exact reset, finite-band compactness, Schur/Bessel, return,
+  route, legal, and stop pieces all treated as consumers. The direct
+  active-density test below then isolates the remaining non-Markov residue:
+  pressure/Hodge/commutator motion is sign-changing and becomes entropy
+  dissipative only after its same-parent signed partner is retained or paid.
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-original-data-source-theorem-attack-20260701.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
@@ -1660,9 +1672,12 @@ C_N(u_0)\mathcal R(P')+Paid(P'),
 where \(H_{e^-}\) is the active heat-scale/log-amplification weight announced by
 the parent history before the fresh increment is read.  If \(H_{e^-}\) is chosen
 after seeing \(\Pi_e^{fresh}F_e\), `(TFE2748B.103)' is exactly the forbidden
-future-selected tail.  If \(H_{e^-}\) is genuinely parent-predictable in the same
-stopped filtration as \(\Pi_e^{fresh}\), then weighted martingale/Bessel packing
-is the correct mechanism.
+future-selected tail.  Parent-predictability is necessary, but it is only the
+causality gate.  It prevents the child from choosing the weight after seeing the
+crest; it does not by itself prove `(TFE2748B.103)'.  A predictable half-tail can
+still have finite raw Hilbert mass and infinite selected-critical mass unless
+the original packet supplies the weighted generator energy in the announced
+parent metric.
 
 The sharpened source theorem is therefore:
 
@@ -1671,19 +1686,597 @@ The sharpened source theorem is therefore:
 \begin{array}{c}
 \texttt{ParentPredictableWeightedFreshGeneratorPacking.A:}\\
 \text{construct \(H_{e^-}\), the fresh projection, and \(F_e\) from the original
-stopped packet before clipping,}\\
-\text{prove `(TFE2748B.103)' from original-history commutator/covector/frame/
-turnstile/scale charges,}\\
-\text{and route all failures to reset, reselection, legal, stop, or endpoint
-no-residue material.}
+stopped packet before clipping as a causality/detector clause,}\\
+\text{represent retained fresh increments by parent scale-memory source and
+maximal stopped sparse witnesses,}\\
+\text{prove `(TFE2748B.103)' from original weighted generator energy/full-exchange
+critical depletion storage,}\\
+\text{and route all future-fitted, uncharged motion, reset, reselection, legal,
+stop, and terminal residue failures.}
 \end{array}}
 \tag{TFE2748B.104}
 \]
 
-This is the same source as `StoppedSelectorPredictableWeight.A' /
-`OriginalHistoryParentPredictableFreshInnovationCarleson.A' / the critical
-fresh-source tent bound / `PositiveCriticalTransferBound.A', but expressed in
-the current continuous parent-capacity coordinates.  Proving `(TFE2748B.104)'
-would supply `(TFE2748B.55)', then the entropy deletion `(TFE2748B.97)'--`(TFE2748B.100)',
-then the critical-entry storage `(TFE2748B.75)'.  The repo does not yet prove
-`(TFE2748B.104)' from arbitrary original smooth data.
+In older labels this source package factors as the parent-predictable detector
+plus `FreshSourceScaleMemoryRepresentation.A',
+`FreshSourceWitnessSparsePacking.A', and
+`OriginalScaleMemoryGeneratorEnergyBound.A'; after the later deduplication the
+last clause is the full-exchange critical depletion storage.  Weighted
+martingale/Bessel packing is a consumer once those parent objects are fixed, not
+the PDE producer by itself.  Proving `(TFE2748B.104)' would supply
+`(TFE2748B.55)', then the entropy deletion
+`(TFE2748B.97)'--`(TFE2748B.100)', then the critical-entry storage
+`(TFE2748B.75)'.  The repo does not yet prove `(TFE2748B.104)' from arbitrary
+original smooth data.
+
+## 20. No-free-upcrossing reconciliation: the parent measuring frame is the source
+
+The tower-feedback surface already sharpened the rectified flux wall.  A fixed
+transported annulus is not the remaining physical enemy: once the same
+continuation-depth material record and same-packet service clock are bounded,
+its stress-work flux has finite variation.  So arbitrary fixed-annulus pressure
+chatter is routed.  The surviving branch is one-way access to higher selected
+heat-scale states after return, reset, collar, turnstile, viscosity, legal, and
+stop material have been removed.
+
+In the notation of that surface, the free upcrossing measure is
+
+\[
+\operatorname{Up}_N^{free}
+:=
+\int_0^{T_*}
+\sum_j [m_j^{PLS,free}(t)]_+\,dt .
+\tag{TFE2748B.105}
+\]
+
+The weighted shell identity is the exact place where signed exchange stops
+being enough:
+
+\[
+{d\over dt}E_w(t)+\nu D_w(t)=m_w^{PLS}(t),
+\tag{TFE2748B.106}
+\]
+
+and hence
+
+\[
+d(-E_w)+[m_w^{PLS}]_+\,dt
+=
+\nu D_w\,dt+[-m_w^{PLS}]_+\,dt .
+\tag{TFE2748B.107}
+\]
+
+This pays signed motion and return.  It does not by itself pay the positive
+selected first moment.  The half-tail profile
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1},
+\qquad
+\sum_{\ell\ge0}\nu_\ell<\infty,
+\qquad
+\sum_{\ell\ge0}2^\ell\nu_\ell=\infty
+\tag{TFE2748B.108}
+\]
+
+is still the exact obstruction to replacing weighted selected \(L^1\) by raw
+square/current mass.
+
+Thus `(TFE2748B.104)' should be read as a detector-plus-source package, not as
+the bottom producer.  The source side is the strict good-lambda/native-reserve
+law
+
+\[
+N_{L+1}\le \theta N_L+B_L,
+\qquad
+\theta<{1\over2},
+\qquad
+\sum_{L\ge0}2^LB_L<\infty,
+\tag{TFE2748B.109}
+\]
+
+or equivalently a bounded-below root/native storage
+
+\[
+d\mathfrak R_N^{nat}
++d\mathfrak L_N
++c\,d\Omega_N^{full}
+\le
+dR_N,
+\qquad
+\mathfrak R_N^{nat}\ge0,
+\qquad
+\mathfrak L_N\ge-C_N(u_0),
+\qquad
+\int_0^{T_*}dR_N<\infty .
+\tag{TFE2748B.110}
+\]
+
+The repo's source audit then lowers `(TFE2748B.109)'--`(TFE2748B.110)' through
+the affine transition stack.  Raw spent-source geometry gives only
+
+\[
+\sum_{Q\subset P}\|F_Q\|_{\mathcal H_{raw}}^2
+\le
+C_N\|Z_P^{orig}\|_{\mathcal H_{raw}}^2+R_{legal}(P),
+\tag{TFE2748B.111}
+\]
+
+while Gold needs the selected-critical tent bound
+
+\[
+\sum_{Q\subset P}w(Q)\|F_Q\|_{\mathcal H_{raw}}^2
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P).
+\tag{TFE2748B.112}
+\]
+
+Parent-known scale-memory representation and sparse witness packing are
+consumer steps reducing `(TFE2748B.112)' to weighted generator energy.  The
+noncircular producer is the parent root geometry/storage law.  In the notation
+of the tower-feedback surface,
+
+\[
+dA_P^{root}=dA_P^{wt}+dA_P^{conn},
+\tag{TFE2748B.113}
+\]
+
+where \(dA_P^{wt}\) pays admitted active-weight upcrossings and
+\(dA_P^{conn}\) pays comparison in one parent frame: transported frame,
+covector, selector, collar, endpoint chart, turnstile, exchange, and legal
+motion.  The producer estimate is
+
+\[
+\int_{\operatorname{Hist}(P')}dA_{P'}^{root}
++
+\sum_{e\subset P'}
+\int H_{e^-}(t)
+\|D_e^{vis}+D_e^{sil}+D_e^{ex}\|_{\mathcal H_{lift}}^2\,dt
+\le
+C_N(u_0)\mathcal R(P')
++R_{legal}(P')
++Stop(P').
+\tag{TFE2748B.114}
+\]
+
+This is `StoppedPredictableRootGeometryCompensator.A', equivalently the
+original-history bounded-below same-material service storage /
+positive-critical-transfer source.  Once `(TFE2748B.114)' is available, the
+parent-predictable martingale split, Bessel square packing, affine quotient
+payment, branch return/reset payments, entropy deletion, and rectified flux
+variation are consumers:
+
+\[
+\begin{aligned}
+&\text{root geometry/storage `(TFE2748B.114)'}\\
+&\quad\Longrightarrow
+\text{weighted fresh generator packing `(TFE2748B.103)'}\\
+&\quad\Longrightarrow
+\text{active entropy deletion `(TFE2748B.97)'--`(TFE2748B.100)'}\\
+&\quad\Longrightarrow
+\text{critical capacity storage `(TFE2748B.75)'}\\
+&\quad\Longrightarrow
+\text{terminal-uniform }L^1 .
+\end{aligned}
+\tag{TFE2748B.115}
+\]
+
+This resolves the apparent split between the rectified annular flux wall and
+the parent-weighted detector wall.  The flux derivative calculation proves that
+the positive traffic is attached to the same coupled packet, and the
+parent-predictable detector proves the child cannot choose the weight after
+seeing the crest.  The still-open Gold source is stronger: the original
+pressure-viscosity-incompressibility-velocity history must itself pay the
+active scale weight and the parent-frame connection before the child is read.
+Without that paid measuring frame, all children can be same-parent and still
+fail the weighted \(L^1\) count by `(TFE2748B.108)'.
+
+The current mathematical truth is therefore:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{same-parent admission, no-recount, signed net energy, fixed-annulus
+variation,}\\
+\text{parent-predictable weights, martingale/Bessel packing, and entropy
+deletion are consumers;}\\
+\text{the unproved source is `(TFE2748B.114)' from arbitrary original smooth
+data.}
+\end{array}}
+\tag{TFE2748B.116}
+\]
+
+## 21. Active capacity audit: root geometry reduces to critical depletion/no-Zeno
+
+The phrase "paid root measuring geometry" is still too high-level unless its
+source currency is fixed.  The tower-feedback audit identifies the exact split:
+first-exit and derivative-announced reset branches really are paid by a
+parent-announced interval average plus weighted Cauchy, but the fixed-core
+root-upcrossing branch has no derivative average.  Predictability of the weight
+therefore does not kill the half-tail `(TFE2748B.108)'.  It only prevents the
+child from choosing the weight after seeing the crest.
+
+The nonconsumer object is the continuous parent-measured critical birth/readout
+
+\[
+dA_{P,crit}^{birth,+}
+ =
+R_{N,P}^{crit,+}\,dm_{P}^{crit},
+\tag{TFE2748B.117}
+\]
+
+where \(dm_P^{crit}\) already contains the parent pullback: scale width, heat
+thickness, material Jacobian, stopped overlap, selector/covector comparison, and
+the low-high interface measure before positive clipping.  Equivalently,
+
+\[
+A_{P,crit}^{birth,+}
+=
+\int_{\mathfrak S_P}R_{N,P}^{crit,+}\,dm_P^{crit}
+=
+\int_0^\infty N_P(\lambda)\,d\lambda .
+\tag{TFE2748B.118}
+\]
+
+Dyadic shells are lawful only as finite-overlap quadrature of `(TFE2748B.118)'.
+They are not physical child-count units.
+
+The strict tail form is
+
+\[
+N_P(2\lambda)
+\le
+\theta N_P(\lambda)+B_P(\lambda),
+\qquad
+\theta<{1\over2},
+\qquad
+\int_0^\infty B_P(\lambda)\,d\lambda
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE2748B.119}
+\]
+
+Integrating `(TFE2748B.119)' gives a finite bound for the layer-cake object in
+`(TFE2748B.118)' by absorption.  The storage form is the same theorem written
+before layer-cake:
+
+\[
+dA_{P,crit}^{birth,+}
+\le
+-d\mathcal B_P^{crit}
++
+\theta\,dR_P^{nat}
++
+d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+\mathcal B_P^{crit}\ge -C_N(u_0),
+\tag{TFE2748B.120}
+\]
+
+with the endpoint no-Zeno/no-residue clause in the same parent carrier.  This is
+the active capacity/depletion statement behind
+`SameParentCriticalDepletionNoZeno.A',
+`PositiveCriticalTransferDepletion.A',
+`NativeBirthChargePacking.A', and
+`PositiveCriticalTransferBound.A'.  In the original-ledger/full-exchange
+coordinates it is the same source as `ActiveCapacityDeletion.A',
+`FullExchangeCriticalDepletionStorage.A', `TFE.2426', and the strict
+parent-measured tail law `TFE.2470'.
+
+The direct critical identity is only signed:
+
+\[
+{1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
++
+\nu\|\Lambda^{3/2}u\|_2^2
+=
+-
+\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle .
+\tag{TFE2748B.121}
+\]
+
+It supplies the native reserve coordinate
+\(dR_P^{nat}\sim\nu\|\Lambda^{3/2}u\|_2^2\,dt\), but it does not supply
+`(TFE2748B.120)'.  The scaling \(u=A\phi\) makes the positive critical transfer
+cubic while the viscous critical reserve is quadratic, so no fixed local
+finite-energy or signed-balance absorption can produce a uniform
+\(\theta<1\) for arbitrary data.
+
+The compactness attack now has an exact failure form.  If `(TFE2748B.120)' fails,
+there is a stopped same-parent sequence with
+
+\[
+A_{P_n,crit}^{birth,+}=1,
+\qquad
+\int d\Theta_{P_n}^{0}
++Paid(P_n)+Stop(P_n)\to0,
+\tag{TFE2748B.122}
+\]
+
+and with the retained critical birth escaping every claimed bounded-below
+storage/depletion account.  Existing component results remove the derivative
+average branch, finite-band branch, inherited transport branch, Schur/Bessel
+fresh-square branch, route/return, legal, and stop material.  What remains is a
+nonzero fixed-core critical endpoint-capacity defect in the same parent frame.
+
+Thus the zero-cost rigidity needed for the normalized failure is precisely:
+
+\[
+\text{zero original source in the stopped parent frame}
+\quad\Longrightarrow\quad
+dA_{P,crit}^{birth,+}
+\le
+\theta\,dR_P^{nat}
+\quad\text{on the retained face,}
+\tag{TFE2748B.123}
+\]
+
+with endpoint no-Zeno/no-residue in that same carrier.  The compactness route
+proves `(TFE2748B.120)' only after the normalized bad sequence is made tight in
+one stopped parent frame and the zero-cost retained face satisfies
+`(TFE2748B.123)'; equivalently, this is the
+`FullExchangeCriticalCompactness.A' plus
+`ZeroCostFullExchangeCriticalRigidity.A' no-arbitrage package, with the existing
+component rigidity results serving as support.  With that package installed,
+`(TFE2748B.120)' gives `(TFE2748B.119)' and the continuous \(L^1\) bound for
+`(TFE2748B.118)'.  Without it, the compactness route only restates the missing
+source theorem.
+
+So the corrected proof chain is:
+
+\[
+\begin{aligned}
+&\text{active critical depletion/no-Zeno `(TFE2748B.120)'--`(TFE2748B.123)'}\\
+&\quad\Longrightarrow
+\text{continuous parent-measured critical birth bound `(TFE2748B.118)'}\\
+&\quad\Longrightarrow
+\text{root measuring geometry/storage `(TFE2748B.114)'}\\
+&\quad\Longrightarrow
+\text{weighted fresh generator packing `(TFE2748B.103)'}\\
+&\quad\Longrightarrow
+\text{active entropy deletion and terminal-uniform }L^1 .
+\end{aligned}
+\tag{TFE2748B.124}
+\]
+
+The mathematical status after this audit is exact: the deterministic counting,
+continuous-measure correction, first-exit Cauchy payment, no-recount/admission,
+Schur/Bessel packing, component compactness, endpoint consumers, and downstream
+Gold relays are installed as reductions or consumers.  The arbitrary-data PDE
+producer still missing is the parent-known critical active-capacity
+depletion/no-Zeno theorem `(TFE2748B.120)'--`(TFE2748B.123)' for the original
+coupled pressure-viscosity-incompressibility-velocity packet before child
+clipping.
+
+## 22. Direct active-density test: the pressure-Hodge residue is not Markov
+
+The remaining source theorem cannot be obtained by declaring the selected
+critical readout to be a passive scalar density.  In a stopped parent frame let
+\(Z_P\) denote the coupled pressure-Hodge/strain/frame carrier and let
+
+\[
+f_P=\Phi_P(Z_P)\ge0
+\tag{TFE2748B.125}
+\]
+
+be the before-clipping selected active density.  The material equation has the
+schematic parent form
+
+\[
+D_t^PZ_P
+=
+\nu\mathcal L_P^{Stokes}Z_P
++
+\mathcal H_P^{press}Z_P
++
+\mathcal C_P^{mat}Z_P
++
+\mathcal R_P^{paid},
+\tag{TFE2748B.126}
+\]
+
+where \(\mathcal H_P^{press}\) contains the Leray/Hodge pressure response and
+\(\mathcal C_P^{mat}\) contains self-advection, frame, collar, covector,
+commutator, selector, and endpoint chart motion.  Differentiating the selected
+density gives
+
+\[
+D_t^Pf_P
+=
+D\Phi_P(Z_P)[D_t^PZ_P]
++(D_t^P\Phi_P)(Z_P).
+\tag{TFE2748B.127}
+\]
+
+Substituting `(TFE2748B.126)' into the entropy derivative yields
+
+\[
+\begin{aligned}
+D_t^P\int f_P\log f_P\,dR_P^{root}
+&=
+\nu\int (1+\log f_P)
+D\Phi_P(Z_P)[\mathcal L_P^{Stokes}Z_P]\,dR_P^{root}\\
+&\quad+
+\int (1+\log f_P)
+D\Phi_P(Z_P)[\mathcal H_P^{press}Z_P+\mathcal C_P^{mat}Z_P]\,dR_P^{root}\\
+&\quad+
+\int (1+\log f_P)(D_t^P\Phi_P)(Z_P)\,dR_P^{root}
++
+dPaid_P .
+\end{aligned}
+\tag{TFE2748B.128}
+\]
+
+The first line becomes the Fisher-dissipative term in `(TFE2748B.79)' only if
+\(\Phi_P\) is already compatible with a positive Markov/Stokes density
+evolution.  The second line is the obstruction.  The pressure/Hodge operator is
+a Calderon-Zygmund/Leray projection face of the same vector packet; its kernel
+is signed, not positivity preserving.  The commutator and moving-frame terms are
+also signed.  Therefore `(TFE2748B.128)' does not imply the Markov entropy
+inequality unless the positive part of that signed line keeps its opposite
+same-parent partner.
+
+Define the exact non-Markov residue
+
+\[
+d\mathfrak P_P^{+}
+:=
+\left[
+\int (1+\log f_P)
+D\Phi_P(Z_P)[\mathcal H_P^{press}Z_P+\mathcal C_P^{mat}Z_P]\,dR_P^{root}
++\int (1+\log f_P)(D_t^P\Phi_P)(Z_P)\,dR_P^{root}
+\right]_+dt .
+\tag{TFE2748B.129}
+\]
+
+The entropy route closes only if this residue satisfies the same-parent
+orientation inequality
+
+\[
+d\mathfrak P_P^{+}
+\le
+d\mathfrak P_P^{ret,-}
++
+\theta\,d\Omega_P^{gen}
++
+d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+C_N\theta<1,
+\tag{TFE2748B.130}
+\]
+
+where \(d\mathfrak P_P^{ret,-}\) is the retained opposite signed partner of the
+same pressure/Hodge/material exchange before clipping.  This is the active
+density version of the signed-partner retention inequality `(TFE.2298)' and the
+rectified flux-variation Carleson line `(TFE2748B.90)'.
+
+With `(TFE2748B.130)' in hand, `(TFE2748B.128)' becomes
+
+\[
+d\mathcal E_P^{crit}
++\nu\,d\mathcal I_P^{crit}
+\le
+d\mathfrak P_P^{ret,-}
++
+\theta\,d\Omega_P^{gen}
++
+d\Theta_P^0+dPaid_P+dStop_P.
+\tag{TFE2748B.131}
+\]
+
+The retained negative partner is a return/depletion term in the same parent
+current.  Absorbing the strict \(\theta d\Omega_P^{gen}\) part gives the
+critical storage `(TFE2748B.120)' after adding the zero-baseline endpoint-seed
+entry and paid capacity variation.  Conversely, without `(TFE2748B.130)', the
+direct entropy proof has replaced the coupled pressure-Hodge field by a passive
+positive density and has assumed the missing storage mechanism.
+
+The direct original-data attack has therefore reached the following exact
+normal form:
+
+\[
+\begin{aligned}
+&\text{parent-announced active density \(f_P=\Phi_P(Z_P)\)}\\
+&\quad+
+\text{signed-partner retention for the pressure-Hodge/material residue
+`(TFE2748B.130)'}\\
+&\quad+
+\text{paid capacity variation and endpoint no-Zeno}\\
+&\Longrightarrow
+\text{critical active-capacity storage `(TFE2748B.120)'.}
+\end{aligned}
+\tag{TFE2748B.132}
+\]
+
+This is still not a proof from arbitrary original smooth data.  It is the
+noncircular source equation that must be proved: the selected active density may
+be treated as entropy-deleting only after the same parent packet supplies the
+signed pressure-Hodge/material partner retention before any positive child
+readout is clipped.
+
+## 23. Endpoint Hardy test: cancellation must be supplied by the parent packet
+
+The endpoint singular-integral route does not change the source theorem.  It
+only gives the correct analytic language for `(TFE2748B.130)'.  Let the signed
+pre-clipping pressure-Hodge/material residue be
+
+\[
+d\mathfrak P_P
+:=
+\left[
+\int (1+\log f_P)
+D\Phi_P(Z_P)[\mathcal H_P^{press}Z_P+\mathcal C_P^{mat}Z_P]\,dR_P^{root}
++\int (1+\log f_P)(D_t^P\Phi_P)(Z_P)\,dR_P^{root}
+\right]dt .
+\tag{TFE2748B.133}
+\]
+
+The Hodge/Leray operator is Calderon-Zygmund in the stopped parent chart.  Such
+operators are not strong \(L^1\) maps on arbitrary positive mass.  Their
+endpoint \(L^1\) control comes from Hardy cancellation: the source must already
+be written before clipping as a sum of same-parent mean-zero atoms plus paid
+defects,
+
+\[
+d\mathfrak P_P
+=
+\sum_{\alpha\in\mathcal A(P)}c_\alpha a_\alpha
++d\mathfrak P_P^{paid}
++d\mathfrak P_P^{stop},
+\qquad
+\int a_\alpha\,dR_P^{root}=0,
+\tag{TFE2748B.134}
+\]
+
+with atom supports, atom tests, and stopping charts all announced by the same
+parent packet before the selected child readout clips the positive part.  The
+needed coefficient bound is the strict parent-current form
+
+\[
+\sum_{\alpha\in\mathcal A(P)}|c_\alpha|
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\Omega_P^{gen}
++\Theta_P^0+Paid_P+Stop_P,
+\qquad C_N\theta<1 .
+\tag{TFE2748B.135}
+\]
+
+Then the endpoint theorem gives
+
+\[
+\|T_P d\mathfrak P_P\|_{L^1(P)}
+\le
+C\sum_{\alpha\in\mathcal A(P)}|c_\alpha|
++C(Paid_P+Stop_P),
+\tag{TFE2748B.136}
+\]
+
+and each atom's mean-zero cancellation keeps its positive lobe attached to its
+opposite same-parent signed partner, up to the stopped boundary and paid
+defects.  In this form `(TFE2748B.136)' supplies `(TFE2748B.130)' and hence the
+critical storage `(TFE2748B.120)'.
+
+The audit of the older tower-feedback surface matches this exactly.  The
+stopped Hilbert/Riesz/BMO transform, stopped \(Tb\) testing, selected
+log-amplification Carleson, and current-factorization lines are consumers once
+`(TFE2748B.134)'--`(TFE2748B.135)' are supplied.  They do not construct the
+Hardy atoms, their cancellation, the accretive tests, or the coefficient
+Carleson norm from arbitrary original smooth data.  Thus the endpoint route has
+one noncircular source theorem:
+
+\[
+\boxed{
+\texttt{ParentHardyAtomicPressureHodgePartnerRetention.A}
+}
+\tag{TFE2748B.137}
+\]
+
+construct the signed same-parent atomic decomposition of the full coupled
+pressure-Hodge/material residue before clipping and prove its strict coefficient
+bound from the original pressure-viscosity-incompressibility-velocity packet.
+This is `(TFE2748B.130)' / `(TFE.2298)' / `(TFE.557)' in Hardy endpoint
+coordinates, not an additional downstream wall and not an independent proof of
+smoothness.
