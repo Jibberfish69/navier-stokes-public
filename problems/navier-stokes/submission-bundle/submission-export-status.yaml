@@ -4,15 +4,17 @@ problem_id: navier-stokes
 generated_at: '2026-06-28T18:49:47Z'
 status: exported
 manual_gold_correction:
-  updated_at: '2026-07-01T19:06:23Z'
-  status: exported-bundle-stale-not-submission-ready-pending-tfe2748-original-data-proof
-  current_gold_next_proof_unit: prove TFE2748 original-data Gold L1 source theorem before submission/export readiness claim
-  correction: 'The bundle remains stale and not submission-ready. The theorem-construction
-    state now has an audited conditional TFE2747 Gold L1 source line and a downstream
-    conditional consumption chain. Before any submission/export refresh can claim
-    readiness, TFE2748 must prove the original-data parent detector/propagator
-    bounds, zero-baseline endpoint admission, and strict full-exchange storage
-    without circular use of TFE2426.'
+  updated_at: '2026-07-01T20:01:37Z'
+  status: exported-bundle-stale-not-submission-ready-pending-tfe2748b-original-critical-capacity-variation
+  current_gold_next_proof_unit: prove TFE2748B / OriginalCriticalCapacityVariation.A paid positive capacity variation before submission/export readiness claim
+  correction: 'The bundle remains stale and not submission-ready. TFE2748A has
+    installed endpoint admission into an endpoint-admitted ledger. TFE2748B narrows
+    the remaining Gold L1 source theorem to OriginalCriticalCapacityVariation.A:
+    critical capacity must be parent-fixed or have paid positive variation,
+    schematically [dCcrit]_+ <= dTheta0 + dPaid, so Mcrit=Ccrit-Ecrit supplies
+    a true bounded-below storage derivative. Future selected tail, future generator
+    clock, and raw energy reserve are circular/too weak as source closures. Gold
+    remains open; there is no proof of smoothness and no submission-ready claim.'
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
