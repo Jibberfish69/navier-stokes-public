@@ -1,20 +1,23 @@
 ---
 theorem_id: forward-gold-full-smoothness-closure-reconciliation-20260629
-status: gold-route-downstream-consumption-proved-from-tfe2747
+status: gold-route-downstream-consumption-conditional-on-tfe2747
 created: 2026-06-29
 problem: navier-stokes
 route: forward-gold coupled pressure-viscosity-incompressibility participation law
-logical_landing_node: gold_route_smoothness_closure_from_tfe2747
+logical_landing_node: gold_route_conditional_smoothness_relay_from_tfe2747
 completion_truth: >-
-  Gold-only downstream consumption installed. The coupled L1 source surface
+  Gold-only downstream consumption is proved relative to TFE2747. The coupled L1 source surface
   mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md, Sections
-  238-242, supplies terminal-uniform selected L1 at TFE2747. This note proves
-  that the rest of the Gold chain consumes that result: TFE2747 gives the
+  238-242, is the source premise for terminal-uniform selected L1 at TFE2747.
+  This note proves that the rest of the Gold chain consumes that premise:
+  TFE2747 gives the
   root-fixed terminal-uniform service density; FGC.14-FGC.16 give terminal
   no-jump by absolute continuity; FGC.11-FGC.12 give finite selected action;
   the corrected parent-subtracted relay gives finite full same-material clock;
   and the installed material-clock-to-fixed-Hs bridge gives H^s continuation
-  and classical relaunch. Submission/PDF export surfaces remain separate.
+  and classical relaunch. This is not an independent proof of TFE2747 and is
+  not, by itself, a submission-ready smoothness proof. Submission/PDF export
+  surfaces remain separate.
 source_surfaces:
   - problems/navier-stokes/theorem-creation.yaml
   - problems/navier-stokes/source-frontier.yaml
@@ -182,7 +185,7 @@ stress-response jet.  The wall is:
 \text{can that same coupled jet spend finite positive service up to }T_*?
 \]
 
-## 4. Source theorem supplied by TFE2747
+## 4. TFE2747 source premise for downstream consumption
 
 The companion full-closure attempt names the old bracket as `(FGC.25)`:
 
@@ -233,8 +236,9 @@ Integrating `(GCR.5)` absorbs the dangerous positive service into the viscous
 drain with a strict margin and leaves only bounded storage drop plus completed
 legal/stop material.
 
-Sections 238--242 of the tower-feedback entropy note supply this source line in
-the same root-fixed packet coordinates.  In that note, full-exchange storage is
+Sections 238--242 of the tower-feedback entropy note are the named source surface
+for this premise in the same root-fixed packet coordinates.  In that note,
+full-exchange storage is
 
 \[
 \begin{aligned}
@@ -271,9 +275,10 @@ heat-lag Poincare thickness give the final source line
 \tag{GCR.5c}
 \]
 
-Thus `(GCR.3)`/`(GCR.5)` are no longer open inside this Gold source line.  The
-object being consumed downstream is the root-fixed terminal-uniform service
-measure supplied by `(TFE.2747)`, written in `(FGC.1)`--`(FGC.2)` as
+Thus this reconciliation treats `(GCR.3)`/`(GCR.5)` as discharged only relative
+to accepting `(TFE.2747)` as the Gold source line.  The object being consumed
+downstream is the root-fixed terminal-uniform service measure supplied by that
+premise, written in `(FGC.1)`--`(FGC.2)` as
 \(\sigma_P^{jet}\,dt\,da\).
 
 ## 5. Equivalent names already reconciled
@@ -480,8 +485,8 @@ no-self-feeding margin.
 
 ## 8. Downstream consumption proof
 
-Assume the supplied \(L^1\) source line `(TFE.2747)` and use the notation of the
-full closure attempt:
+Assume `(TFE.2747)` as the supplied coupled \(L^1\) source premise and use the
+notation of the full closure attempt:
 
 \[
 \sup_{\tau<T_*}
@@ -570,7 +575,7 @@ Classical periodic \(H^s\) local theory then relaunches the same solution past
 \(T_*\).  A first finite classical breakdown time is impossible under
 `(TFE.2747)`.
 
-The consumed Gold chain is therefore:
+The downstream conditional Gold chain is therefore:
 
 \[
 \boxed{
@@ -590,5 +595,6 @@ H^s\text{ continuation}
 \]
 
 This proves downstream consumption of the coupled \(L^1\) result inside the
-Gold route.  Submission/PDF readiness is a separate export/manuscript refresh
-question and is not asserted by this theorem-construction note.
+Gold route, conditional on `(TFE.2747)`.  It does not independently prove
+`(TFE.2747)`, and submission/PDF readiness is a separate export/manuscript
+refresh question not asserted by this theorem-construction note.

@@ -2,7 +2,7 @@
 theorem_id: TowerFeedbackEntropyL1Attempt.A
 date: 2026-06-30
 route: forward-gold
-status: proof-attempt; reduction-sharpened-not-closed
+status: conditional-source-line-claim; original-data-proof-not-installed
 depends_on:
   - FGC.25_terminal_uniform_coupled_jet_service_L1
   - WLF.60_parent_weighted_detector_measure
@@ -11,11 +11,14 @@ depends_on:
   - ODP.160_affine_root_pressure_memory_quotient
   - ODP.176_ODP.179_parent_weighted_affine_transition_admission_update
 verdict: >
-  The pressure-heat-viscous feedback loop gives the correct tower-rescaled
-  object for the Gold L1 problem. It proves the local damped-gap identity and
-  identifies the needed strict feedback-transit inequality. It does not by
-  itself close Gold, because kinetic energy cancellation for pressure/transport
-  is not a one-sided variation bound for selected child readouts.
+  TFE.2747 is the current named/source-line Gold L1 target in this theorem
+  surface, but the audit after Sections 238-242 shows that it is still
+  conditional. The local split, heat-lag/Poincare calculation, and formal
+  Duhamel-Hodge pullback identify the correct coupled object, but the note does
+  not yet prove from arbitrary original data the parent-announced bounded
+  detector/propagator estimates, the noncircular zero-baseline endpoint source
+  admission, and the strict full-exchange no-self-feeding storage. It is not a
+  submission-ready or independently referee-certified proof of smoothness.
 ---
 
 # Tower feedback entropy attempt for the Gold L1 line
@@ -40306,3 +40309,59 @@ and the selected child readout is only a pulled-back covector test of that
 same transaction.  Once the sub-heat-lag first trace and zero modes are routed
 to their parent source accounts, a retained readout cannot be recounted as
 fresh positive pressure at higher ratio levels.
+
+Truth-state note.  `(TFE.2747)' is the current claimed/source-line Gold \(L^1\)
+result in this theorem surface.  It reconciles and supersedes the older
+internal not-closed ledger language above, which records earlier reduction
+stages before Sections 238--242.  It is not by itself a submission-ready or
+independently referee-certified proof of smoothness.
+
+## 243. Authority audit of `(TFE.2747)'
+
+The audit of Sections 238--242 gives a sharper truth state.  `(TFE.2747)' is the
+right named source-line target, not a completed original-data theorem in this
+file.
+
+The proved pieces are conditional consumers.  The positive-baseline early split
+is a deterministic entropy admission once the parent root density exists.  The
+retained heat estimate is ordinary parabolic decay once the retained quotient
+has already removed endpoint, inherited, zero-mode, route, legal, and stop
+material.  The Duhamel formula gives the correct same-parent representation once
+the stopped coupled propagator and parent detector are granted.
+
+The unproved source part is exactly the noncircular original-data construction
+of those grants:
+
+\[
+\begin{array}{ll}
+\text{(i)}&
+\text{derive the stopped Duhamel-Hodge propagator and bounded parent detector}\\
+&\text{estimates `(TFE.2735)', `(TFE.2741)', and `(TFE.2742)' from the original}\\
+&\text{coupled packet before child clipping;}\\[2mm]
+\text{(ii)}&
+\text{prove zero-baseline endpoint/source admission without using}\\
+&\text{the full-exchange storage `(TFE.2426)' that the same chain is trying}\\
+&\text{to prove;}\\[2mm]
+\text{(iii)}&
+\text{prove the strict no-self-feeding storage `(TFE.2426)' from arbitrary}\\
+&\text{original data, rather than using it as an input to endpoint packing.}
+\end{array}
+\tag{TFE.2748}
+\]
+
+Thus the correct post-audit closure statement is
+
+\[
+\boxed{
+\begin{array}{c}
+\text{TFE2733--TFE2747 identify the correct coupled Gold \(L^1\) source line}\\
+\text{and prove the conditional reductions;}\\
+\text{the remaining Gold source theorem is the noncircular original-data}\\
+\text{proof of `(TFE.2748)'.}
+\end{array}}
+\tag{TFE.2749}
+\]
+
+The downstream no-jump/full-clock/\(H^s\) relays may consume `(TFE.2747)' as a
+premise, but this source note has not yet promoted that premise into a completed
+proof from the original Navier--Stokes data.

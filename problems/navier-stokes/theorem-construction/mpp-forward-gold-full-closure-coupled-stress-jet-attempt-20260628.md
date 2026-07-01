@@ -1,29 +1,28 @@
 ---
 theorem_id: forward-gold-full-closure-coupled-stress-jet-attempt-20260628
-status: full-gold-closure-chain-installed-from-coupled-l1-source
-logical_landing_node: full_gold_coupled_stress_jet_closure
+status: full-gold-closure-chain-conditional-on-tfe2747
+logical_landing_node: full_gold_coupled_stress_jet_conditional_closure_chain
 completion_truth: >-
-  Complete MPP-facing closure attempt with the former terminal-uniform L1
-  bracket now supplied by the coupled Gold L1 source surface
+  Conditional MPP-facing consumer chain with the former terminal-uniform L1
+  bracket treated as the TFE2747 coupled Gold L1 source premise from
   mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md, Sections
   238-242. The producer, same-parent admission before squaring, fresh
   square-packing rule, full-output high-high carrier choice, terminal no-jump
   implication, selected-action relay, finite full same-material clock relay,
-  and fixed-Hs continuation bridge now form one closure chain inside this
-  theorem surface. This file is not a submission-ready manuscript/export
-  certification by itself; it records the theorem-construction Gold chain after
-  the updated L1 source line is consumed.
+  and fixed-Hs continuation bridge form one theorem-construction Gold consumer
+  chain once that L1 source premise is accepted. This file does not independently
+  prove TFE2747 and is not a submission-ready manuscript/export certification by
+  itself.
 edge_effect: >-
-  Writes the full Gold closure rather than leaving the MPP offstage. The theorem
-  shows exactly what the coupled pre-energy stress-response jet solves: selected
-  far-annular/high-high action cannot be counted before same-parent jet
-  admission, and terminal no-jump follows from a root-fixed terminal-uniform L1
-  jet-service storage. The former analytic estimate for that storage is now
-  supplied by the same-parent Duhamel-Hodge pullback plus early source admission
-  and retained heat-lag Poincare thickness in TFE2733-TFE2747. The current edge
-  is manuscript/export refresh from the theorem-construction chain, not a
-  decoupled Leray/pressure oversight, high-high input-color bookkeeping issue,
-  or standalone terminal BV atom.
+  Writes the full Gold consumer chain relative to the TFE2733-TFE2747 L1 source
+  line and keeps the MPP-facing relay explicit. The theorem surface shows
+  exactly what the coupled pre-energy stress-response jet solves after that
+  source premise is accepted: selected far-annular/high-high action cannot be
+  counted before same-parent jet admission, and terminal no-jump follows from a
+  root-fixed terminal-uniform L1 jet-service storage. The source premise is the
+  same-parent Duhamel-Hodge pullback plus early source admission and retained
+  heat-lag Poincare thickness in TFE2733-TFE2747. Manuscript/export refresh
+  remains separate from this theorem-construction consumer chain.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-stress-jet-producer-admission-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-below-same-material-service-storage-target-20260628.md
@@ -397,7 +396,7 @@ terminal trace by the root-fixed whole-field viscous/jet-service drain.
 
 ## 7. Closure verdict
 
-The complete Gold chain is now:
+The downstream conditional Gold chain is:
 
 ```math
 \text{coupled stress-jet producer}
@@ -421,7 +420,7 @@ H^s\text{ continuation}
 ```
 
 Everything outside the bracket is proved or already installed as a downstream
-relay.  The bracket is the full MPP-bearing theorem:
+relay.  The bracket is the \(L^1\) source premise consumed by that relay:
 
 ```math
 \boxed{
@@ -435,8 +434,8 @@ C_N(u_0)
 ```
 
 The attempted proof above originally reduced `(FGC.25)` to the accretive
-same-parent service inequality `(FGC.20)`.  That line is now supplied by the
-coupled Gold \(L^1\) source surface:
+same-parent service inequality `(FGC.20)`.  This file now treats that line
+relative to the coupled Gold \(L^1\) source surface:
 
 ```math
 \boxed{
@@ -456,7 +455,8 @@ coupled Gold \(L^1\) source surface:
 The source reference is
 `mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md`,
 Sections 238--242, ending at `(TFE.2747)'.  Thus `(FGC.20)' and `(FGC.25)' are
-no longer open inside the Gold \(L^1\) source line.
+consumer premises here only after `(TFE.2747)' is accepted as the Gold \(L^1\)
+source line.
 
 The downstream consumption has now been audited in
 `mpp-forward-gold-full-smoothness-closure-reconciliation-20260629.md`.  The
@@ -465,5 +465,6 @@ no-jump -> `(FGC.11)'--`(FGC.12)' finite selected action -> corrected
 parent-subtracted finite full same-material clock -> fixed \(H^s(T^3)\)
 continuation and classical relaunch.  Thus `(FGC.24)' is installed as a
 theorem-construction Gold chain once `(TFE.2747)' is accepted as the coupled
-\(L^1\) source result.  Manuscript/PDF submission readiness remains a separate
-export refresh.
+\(L^1\) source result.  This theorem surface does not independently prove
+`(TFE.2747)' and does not certify submission-ready smoothness by itself.
+Manuscript/PDF submission readiness remains a separate export refresh.
