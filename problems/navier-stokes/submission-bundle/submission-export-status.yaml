@@ -5,13 +5,14 @@ generated_at: '2026-06-28T18:49:47Z'
 status: exported
 manual_gold_correction:
   updated_at: '2026-07-01T19:06:23Z'
-  status: exported-bundle-stale-not-submission-ready-pending-tfe2747-source-audit
-  current_gold_next_proof_unit: reconcile/audit TFE2747 source-line status against source file and live authority edge before submission/export proof-readiness claim
+  status: exported-bundle-stale-not-submission-ready-pending-tfe2748-original-data-proof
+  current_gold_next_proof_unit: prove TFE2748 original-data Gold L1 source theorem before submission/export readiness claim
   correction: 'The bundle remains stale and not submission-ready. The theorem-construction
-    state currently has a claimed TFE2747 Gold L1 source line and a downstream
+    state now has an audited conditional TFE2747 Gold L1 source line and a downstream
     conditional consumption chain. Before any submission/export refresh can claim
-    proof readiness, the TFE2747/source-line status must be reconciled and audited
-    against the source file and the live authority edge.'
+    readiness, TFE2748 must prove the original-data parent detector/propagator
+    bounds, zero-baseline endpoint admission, and strict full-exchange storage
+    without circular use of TFE2426.'
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
