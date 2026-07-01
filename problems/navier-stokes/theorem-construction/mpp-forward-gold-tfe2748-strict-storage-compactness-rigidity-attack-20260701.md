@@ -1000,7 +1000,7 @@ legal, and stop errors:
 \|\Delta_QZ^S\|_{\mathcal H}^2 R_P^{orig}(Q)
 \le
 C\int_{\widehat P'}|J^S|^2\,dR_P^{orig}
-CStop(\widehat P')+CR_{\rm legal}(\widehat P').
++CStop(\widehat P')+CR_{\rm legal}(\widehat P').
 \tag{TFE2748B.63}
 \]
 
@@ -1059,3 +1059,169 @@ is read, and those weighted fresh innovations must square-pack in the original
 material history.  Without that predictability/current-Carleson estimate, the
 half-tail remains possible in the proof language even though the formal
 Hilbert transform and martingale entropy consumers are available.
+
+## 15. Continuous critical-entry storage replaces routed-current wording
+
+The current-route phrase in `(TFE2748B.64)' is still too coarse unless it is
+read in the exact parent-measure sense.  The selected \(L^1\) object is not a
+sum of child-normalized units.  For a stopped parent \(P\), there is one
+parent-pulled active space \(\mathfrak S_P\), one parent measure
+\(d\mathfrak m_P\), and one before-clipping selected readout \(R_P^+\):
+
+\[
+A_P^{sel,+}
+=
+\int_{\mathfrak S_P}R_P^+\,d\mathfrak m_P .
+\tag{TFE2748B.67}
+\]
+
+With
+
+\[
+N_P(\lambda)
+=
+\mathfrak m_P(\{R_P^+>\lambda\}),
+\tag{TFE2748B.68}
+\]
+
+this is equivalently the layer-cake identity
+
+\[
+A_P^{sel,+}
+=
+\int_0^\infty N_P(\lambda)\,d\lambda .
+\tag{TFE2748B.69}
+\]
+
+Dyadic shells, stopped trees, and endpoint atom sums are lawful only as
+finite-overlap quadrature of `(TFE2748B.67)'.  The parent measure, heat
+thickness, Jacobian, selected density, and critical scale weight must already be
+inside \(d\mathfrak m_P\).  A raw sum over zoomed child units is a moving-unit
+error.
+
+The exact before-clipping ledger is the full-exchange active-transit measure
+
+\[
+d\Xi_P^{FE,act}
+=
+d\Xi_P^{root}
++d\Xi_P^{Ent}
++d\Xi_P^{tower}
++d\Xi_P^{LH}
++d\Xi_P^{route}
++dPaid_P ,
+\tag{TFE2748B.70}
+\]
+
+where the components are, respectively, the root generator/selected chart
+action, time-thick endpoint or inherited material, signed tower partner,
+low-high first-entry detector, and routed frame/collar/Hodge/reset/reselection/
+return/legal/stop material.  The generator comparison and strict storage are
+
+\[
+d\Omega_P^{gen}
+\le
+C_Nd\Xi_P^{FE,act}+dPaid_P ,
+\tag{TFE2748B.71}
+\]
+
+and
+
+\[
+d\Xi_P^{FE,act}
+\le
+-dM_P
++d\Theta_P^0
++\vartheta\,d\Omega_P^{gen}
++dPaid_P,
+\qquad
+C_N\vartheta<1,
+\qquad
+0\le M_P\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE2748B.72}
+\]
+
+Absorbing `(TFE2748B.71)'--`(TFE2748B.72)' gives the local stopped generator
+Carleson estimate
+
+\[
+\int_{\operatorname{Hist}(P')}d\Omega_{P'}^{gen}
+\le
+C_N(u_0)\mathcal R(P')+Paid(P')
+\qquad(P'\preceq P).
+\tag{TFE2748B.73}
+\]
+
+Then `(TFE2748B.64)' is a projection of `(TFE2748B.73)', and
+`(TFE2748B.65)' is a selected-log readout consumer: fixed stopped charts read
+the parent carrier, and moving chart/label/order-lock failures are paid by
+full-exchange, reselection, legal, or stop material.  Thus `(TFE2748B.64)' and
+`(TFE2748B.65)' are not independent bottom theorems after the continuous parent
+measure has been restored.
+
+The strict-margin failure of `(TFE2748B.72)' is forced onto the exact
+critical-entry source.  Split the retained critical-entry measure as
+
+\[
+d\mathfrak Z_P^{crit}
+:=
+d\rho_{crit,P}^{ac}
++d\rho_{crit,P}^{entry}
++d\Theta_P^0
++dPaid_P .
+\tag{TFE2748B.74}
+\]
+
+Here \(d\rho_{crit}^{ac}\) is the positive-baseline log-ratio entropy source,
+and \(d\rho_{crit}^{entry}\) is the zero-baseline singular endpoint-seed source.
+Once these two source measures are in the parent ledger, zero-source rigidity is
+immediate: \(d\mathfrak Z_P^{crit}=0\) forces the retained critical-entry
+measure to vanish.
+
+Therefore the actual arbitrary-data source theorem is the strict storage
+
+\[
+d\rho_{crit,P}^{ac}
++d\rho_{crit,P}^{entry}
+\le
+-dM_P^{crit}
++d\Theta_P^0
++\vartheta\,d\Omega_P^{gen}
++dPaid_P,
+\qquad
+C_N\vartheta<1,
+\tag{TFE2748B.75}
+\]
+
+with
+
+\[
+0\le M_P^{crit}\le C_N(u_0)\mathcal R(P)+Paid(P),
+\qquad
+\int_{\operatorname{Hist}(P)}d\Theta_P^0
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE2748B.76}
+\]
+
+Equivalently, the source package is:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{construct the parent-announced critical filtration before clipping,}\\
+\text{prove the entropy chain rule with singular first entry,}\\
+\text{prove coupled entropy dissipation for the pressure-heat-viscous packet,}\\
+\text{dominate detector/frame/Hodge/collar distortion by }d\Theta^0+\vartheta d\Omega^{gen}+dPaid,\\
+\text{and prove the critical capacity has parent-fixed or paid positive variation.}
+\end{array}}
+\tag{TFE2748B.77}
+\]
+
+This is the sharpened TFE2748B wall.  The pressure/incompressibility part
+re-coordinates the parent measure without volume gain; the heat/Stokes part
+dissipates the parent entropy; and the remaining positive selected critical
+entry must be either positive-baseline log entropy or zero-baseline endpoint
+seed material already present in the same parent ledger.  Gold remains open
+until `(TFE2748B.75)'--`(TFE2748B.77)' are proved from arbitrary original smooth
+data.
