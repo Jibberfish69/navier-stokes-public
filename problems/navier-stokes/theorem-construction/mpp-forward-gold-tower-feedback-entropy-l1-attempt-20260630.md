@@ -9965,7 +9965,7 @@ fails and normalize a stopped family so that
 while
 
 \[
-\int_{\operatorname{Hist}(P_n)}d\Lambda_{P_n}^{root}
+\int_{\operatorname{Hist}(P_n)}d\Lambda_{P_n}^{orig}
 +R_{legal}(P_n)+Stop(P_n)\to0 .
 \tag{TFE.663}
 \]
@@ -10021,16 +10021,13 @@ Its needed statement is
 \[
 \begin{gathered}
 \mu_n^{root}(\mathcal E_n)=1,\qquad
-\int d\Lambda_{P_n}^{root}+R_{legal}+Stop\to0
+\int d\Lambda_{P_n}^{orig}+R_{legal}+Stop\to0
 \\
 \Longrightarrow
 \text{after a stopped subchain and root rescaling, }
 H_{e_n^-}^{1/2}D_{e_n}
 \rightharpoonup D_\infty\ne0
-\text{ in one same-carrier parent Hilbert space,}
-\\
-\text{unless the lost mass is charged by }
-dA^{wt}+dA^{conn}+d\Lambda^{root}+R_{legal}+Stop .
+\text{ in one same-carrier parent Hilbert space.}
 \end{gathered}
 \tag{TFE.668}
 \]
@@ -10044,8 +10041,7 @@ zero-cost rigidity logic.  The vanishing original-history ledger gives
 \operatorname{turnstile}_\infty=0,\quad
 \operatorname{exchange}_\infty=0,\quad
 \operatorname{covector}_\infty=0,\quad
-dA_\infty^{conn}=0,\quad
-dA_\infty^{wt}=0.
+\operatorname{frame/collar/endpoint}_\infty=0.
 \tag{TFE.669}
 \]
 
@@ -10096,9 +10092,553 @@ The current audited closure chain is therefore
 \tag{TFE.672}
 \]
 
-So everything still missing to close the \(L^1\) problem is concentrated in
-the root-defect tightness package `(TFE.667)`--`(TFE.668)`: extract the unit
-selected defect in one stopped same-parent geometry, prevent active-weight tube
-escape, prevent connection-angle loss, and prevent silent material transport
-from staying fresh after parent subtraction.  The downstream algebra is already
-a consumer of that physical theorem.
+At this root-geometry layer, the needed compactness package is
+`(TFE.667)`--`(TFE.668)`: extract the unit selected defect in one stopped
+same-parent geometry, prevent active-weight tube escape, prevent
+connection-angle loss, and prevent silent material transport from staying fresh
+after parent subtraction.  The next section audits the older root-defect notes
+and shows that this compactness package reduces further to the critical
+native-birth payment.
+
+This statement is the noncircular root-defect form only after one correction:
+escaped mass may not be paid by \(dA^{wt}+dA^{conn}\), because those are the
+root clocks being produced on the left side of `(TFE.659)`.  The escape side is
+only the parent-known original-history ledger \(d\Lambda^{orig}\), legal, and
+stop.  With that correction, the older root-defect audits sharpen
+`RootDefectTightnessFromOriginalHistory.A` further rather than leaving it as
+the final named wall.
+
+## 65. Root-defect reduces to the critical native-birth payment
+
+The root-defect compactness machinery has already split into paid and unpaid
+pieces in the repo.  The paid or consumer pieces are:
+
+\[
+\begin{aligned}
+&\text{derivative-exact reset/high-weight tube escape}\\
+&\quad\text{paid by stopped first-exit derivative representation and bounded
+witness overlap,}
+\tag{TFE.673}
+\\
+&\text{same-carrier zero-cost limit}\\
+&\quad\text{killed by parent subtraction and dynamic-silent rigidity,}
+\tag{TFE.674}
+\\
+&\text{finite-band compactness}\\
+&\quad\text{proved after projecting to a finite parent-fixed root band.}
+\tag{TFE.675}
+\end{aligned}
+\]
+
+The finite-band split is
+
+\[
+D_e=\Pi_{\le M}^P D_e+\Pi_{>M}^P D_e.
+\tag{TFE.676}
+\]
+
+The compact part is elementary once the high-band tail is controlled.  The
+required tail theorem is
+
+\[
+\sum_{e\subset P}
+\int H_{e^-}\|\Pi_{>M}^PD_e\|_{\mathcal H_{lift}}^2
+\le
+\varepsilon_M
+\sum_{e\subset P}\int H_{e^-}\|D_e\|_{\mathcal H_{lift}}^2
++
+C_M\int_{\operatorname{Hist}(P)}d\Theta_P^{tower/root}
++
+R_{legal}(P)+Stop(P),
+\qquad
+\varepsilon_M\downarrow0.
+\tag{TFE.677}
+\]
+
+Derivative-exact, heat-resident, connection, frame, covector, turnstile,
+selector, legal, and stopped high-band pieces satisfy `(TFE.677)` by the
+parent-known tower/root ledger.  The sole high-band survivor is the persistent
+non-derivative affine/root quotient
+
+\[
+D_e^{pers}
+=
+(I-\Pi_{\mathcal P_{e^-}})
+\mathcal C_\theta[Z_e^{fresh}].
+\tag{TFE.678}
+\]
+
+Trying to estimate `(TFE.678)` by
+
+\[
+\int_{I_e}H_{e^-}\|Z_e^{fresh}\|^2
+\tag{TFE.679}
+\]
+
+is circular, because `(TFE.679)` is the selected-critical root norm being
+proved.  The persistent quotient is controlled only after it is represented as
+one parent-known selected record/current:
+
+\[
+\mathfrak Z^S=(Z^S,\Psi^S,\Lambda^S),
+\tag{TFE.680}
+\]
+
+or, in the newer coupled-current language,
+
+\[
+\nu^S=D_AJ^S+\nu^S_{stop}+\nu^S_{legal}.
+\tag{TFE.681}
+\]
+
+The record/current unifies fixed return, fresh affine potential average, strict
+reset, selector amplification, and root-geometry comparison.  It is proof-bearing
+only if it is built before descendant selected readout and satisfies the
+original-history bound
+
+\[
+\mathcal E_{SPA}(P)
++\mathcal E_{route}(P)
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P).
+\tag{TFE.682}
+\]
+
+The route then reaches the scale-native catch.  Raw original-packet \(L^2\)
+control pays bounded tests, but a unit rescaled selected test on a heat-scale
+packet of radius \(r\) pulls back to original norm \(r^{-1/2}\).  Equivalently,
+a raw endpoint packet can have
+
+\[
+\rho_{\rm raw}(Q_r)\simeq r,
+\qquad
+A_{\rm sel}(Q_r)\simeq1.
+\tag{TFE.683}
+\]
+
+Thus the missing feedback cutoff is not finite energy and not ordinary Bessel.
+It is a root-selected critical capacity/native-birth frame.  For each retained
+first scale-native birth \(\gamma\), the endpoint seed is
+
+\[
+M_\gamma(t,x)
+=
+\int_{J_\gamma}
+k_\gamma(\sigma)\widetilde Z_\gamma^{fresh,+}(\sigma,t,x)\,d\sigma,
+\qquad
+k_\gamma\ge0,
+\tag{TFE.684}
+\]
+
+and the local lower edge is
+
+\[
+\omega_\gamma
+\le
+C_N
+\int_{I_\gamma}H_\gamma(t)\|M_\gamma(t)\|_2^2\,dt
++
+DER(\gamma)+R_{legal}(\gamma)+Stop(\gamma).
+\tag{TFE.685}
+\]
+
+That local line does not close \(L^1\).  The global missing theorem is the
+root-selected endpoint cocycle/capacity packing:
+
+\[
+\sum_{\gamma\subset P}
+\int_{I_\gamma}H_\gamma(t)\|M_\gamma^{fresh}(t)\|_2^2\,dt
+\le
+C_N(u_0)\mathcal R(P)
++
+R_{legal}(P)+Stop(P)
++
+StoppedReturnBV(P)+CriticalResetBV(P).
+\tag{TFE.686}
+\]
+
+Equivalently, there must be a parent-known critical material capacity frame
+\(\operatorname{Cap}_{crit,P}\) such that
+
+\[
+\omega_\gamma
+\le
+C_N\|M_\gamma\|_{\operatorname{Cap}_{crit,P}^{-1}}^2
++Paid(\gamma),
+\tag{TFE.687}
+\]
+
+and
+
+\[
+\sum_{\gamma\subset P}
+\|M_\gamma^{fresh}\|_{\operatorname{Cap}_{crit,P}^{-1}}^2
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.688}
+\]
+
+In dual current language, the same requirement is the lower/upper frame pair
+
+\[
+\omega_\gamma
+\lesssim
+|\langle M_\gamma,\varphi_\gamma\rangle|^2+Paid(\gamma),
+\qquad
+\|\varphi_\gamma\|_{\operatorname{Cap}_{crit,P}}\le C_N,
+\tag{TFE.689}
+\]
+
+and
+
+\[
+\sum_{\gamma\subset P}
+|\langle D_AJ,\varphi_\gamma\rangle|^2
+\le
+C_N\int_{\operatorname{Hist}(P)}|J|^2\,d\mathcal R_{crit}
++Paid(P).
+\tag{TFE.690}
+\]
+
+The upper Bessel side `(TFE.690)` is available once the critical representatives
+are parent-known.  The actual producer is the lower critical admission plus
+finite critical reserve for arbitrary data.
+
+The critical reserve is the native fractional reserve
+
+\[
+\mathfrak R_{\rm nat}(T)
+\simeq
+\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt.
+\tag{TFE.691}
+\]
+
+The original coupled equation gives the signed identity
+
+\[
+{1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
++
+\nu\|\Lambda^{3/2}u\|_2^2
+=
+-
+\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle .
+\tag{TFE.692}
+\]
+
+Therefore the exact remaining \(L^1\) theorem is the one-sided positive
+critical transfer bound
+
+\[
+\int_0^T
+\left(
+-
+\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C(u_0)
++
+\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2dt,
+\qquad
+\theta<1,
+\tag{TFE.693}
+\]
+
+or its equivalent dyadic no-free-upcascade form
+
+\[
+\int_0^T\sum_j2^j[\Pi_j(t)]_+\,dt
+\le
+C(u_0)
++
+\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2dt
++Paid,
+\qquad
+\theta<1.
+\tag{TFE.694}
+\]
+
+The physical meaning is the state-pruning feedback law in its sharp form.  The
+same original packet may re-coordinate through pressure, delete heat-scale
+futures through viscosity, and move its frame by self-advection.  A rebased
+child is allowed to look locally fresh only when the root-selected endpoint
+state has genuinely changed.  That change must be one of:
+
+\[
+\begin{aligned}
+&\text{reuse/return of an existing endpoint state,}\\
+&\text{critical reset/reselection/exchange/frame motion,}\\
+&\text{legal or stop loss,}\\
+&\text{or a genuinely new scale-native endpoint atom paid once by }
+\operatorname{Cap}_{crit,P}.
+\end{aligned}
+\tag{TFE.695}
+\]
+
+The forbidden branch is
+
+\[
+\text{new parent-fresh selected unit}
++
+\text{old root endpoint state}
++
+\text{no selected-scale rebase tax}.
+\tag{TFE.696}
+\]
+
+Thus the current honest chain is
+
+\[
+\begin{aligned}
+&\text{`PositiveCriticalTransferBound.A'}
+/\text{`NativeBirthChargePacking.A'}\\
+&\Longleftrightarrow
+\text{critical endpoint capacity frame `(TFE.687)`--`(TFE.690)'}\\
+&\Longrightarrow
+\text{persistent affine quotient payment}\\
+&\Longrightarrow
+\text{root-defect high-frequency tail charge}\\
+&\Longrightarrow
+\text{root-defect carrier-stable compactness}\\
+&\Longrightarrow
+\text{stopped root-geometry compensator}\\
+&\Longrightarrow
+\text{affine martingale / affine quotient payment}\\
+&\Longrightarrow
+\text{terminal-uniform }L^1 .
+\end{aligned}
+\tag{TFE.697}
+\]
+
+This replaces the earlier apparent frontier `(TFE.667)`--`(TFE.668)`.  Root
+defect is a necessary compactness consumer, but the \(L^1\)-finishing physical
+theorem is the critical native-birth payment: prove that the original coupled
+packet supplies a parent-known critical endpoint capacity whose lower admission
+and upper packing rule out `(TFE.696)` for arbitrary smooth data.
+
+## 66. The last proof shape is monotone positive-flux depletion
+
+The current-Carleson surface suggests the weighted fresh-innovation estimate
+
+\[
+\sum_{e\subset P'}
+H_{e^-}\|\Pi_e^{fresh}F_e\|^2
+\le
+C_N\int_{\operatorname{Hist}(P')}w|F|^2+R_{legal}(P').
+\tag{TFE.698}
+\]
+
+The first-exit branch proves this in the right way.  On a parent-announced
+first-exit interval \(I_e\),
+
+\[
+H_{e^-}(t)
+=
+{|I_e|^2\over\int_{I_e}w(\sigma,t)^{-1}\,d\sigma},
+\tag{TFE.699}
+\]
+
+and the fresh endpoint derivative is
+
+\[
+D_e^{fresh}(t)
+=
+|I_e|^{-1}\int_{I_e}G_e(\sigma,t)\,d\sigma+Err_e^{legal}(t).
+\tag{TFE.700}
+\]
+
+Cauchy gives
+
+\[
+H_{e^-}(t)\|D_e^{fresh}(t)\|_2^2
+\le
+C\int_{I_e}w(\sigma,t)\|G_e(\sigma,t)\|_2^2\,d\sigma
++CR_e^{legal}(t),
+\tag{TFE.701}
+\]
+
+and stopped bounded overlap sums `(TFE.701)` over the retained first-exit
+branch.  This is the honest case where a large child read forces original
+material derivative/current energy on the same announced interval.
+
+The fixed-core/root-upcrossing branch has no derivative average `(TFE.700)`.
+For that branch, predictability of \(H_{e^-}\) is not enough.  The predictable
+half-tail still exists:
+
+\[
+\sum_\ell\|D_\ell\|^2<\infty,
+\qquad
+H_\ell\simeq2^\ell,
+\qquad
+\sum_\ell H_\ell\|D_\ell\|^2=\infty .
+\tag{TFE.702}
+\]
+
+So the final proof cannot be merely "make the selector weight predictable."
+It must prove that each new upcrossing of the predictable weight is a depletion
+of an original root-selected critical resource.
+
+The endpoint-state form is the clean physical object.  For a retained birth
+\(\gamma\), let
+
+\[
+E_\gamma:=H_\gamma^{1/2}M_\gamma
+\tag{TFE.703}
+\]
+
+with the transported frame, covector, turnstile, and exchange coordinates
+included.  The needed root cocycle is
+
+\[
+E_{\gamma'}
+=
+E_\gamma
++\Delta_{\rm ret}E_{\gamma\to\gamma'}
++\Delta_{\rm reset}E_{\gamma\to\gamma'}
++\Delta_{\rm fresh}E_{\gamma'} .
+\tag{TFE.704}
+\]
+
+To make `(TFE.704)` proof-bearing, all three terms must live in the same
+parent-known critical metric:
+
+\[
+\sum_{\gamma\subset P}
+\left(
+\|\Delta_{\rm ret}E_\gamma\|^2
++\|\Delta_{\rm reset}E_\gamma\|^2
++\|\Delta_{\rm fresh}E_\gamma\|^2
+\right)_{\operatorname{Cap}_{crit,P}^{-1}}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.705}
+\]
+
+`(TFE.705)` is exactly the capacity-frame line `(TFE.687)`--`(TFE.690)` in
+cocycle form.  It says a locally parent-fresh child cannot be old in the root
+selected endpoint state without paying return or reset, and cannot be new
+without spending a fresh endpoint atom.
+
+The equivalent depletion/Bellman form is sharper for proving \(L^1\).  For
+each retained root \(Q\), construct a parent-known storage \(B(Q)\ge0\) such
+that
+
+\[
+\sum_{Q'\in ch(Q)}A_+(Q')
++
+\sum_{Q'\in ch(Q)}B(Q')
+\le
+B(Q)+Paid(Q),
+\tag{TFE.706}
+\]
+
+with root bound
+
+\[
+B(Q_{\rm root})
+\le
+C_N(u_0)+Paid(Q_{\rm root}).
+\tag{TFE.707}
+\]
+
+Here \(A_+(Q')\) is the retained scale-native positive critical action of the
+child.  The storage is illegal if it is the descendant tail
+
+\[
+B_\ast(Q)=\sum_{R\subsetneq Q}A_+(R)+Paid(R),
+\tag{TFE.708}
+\]
+
+because `(TFE.708)` is exactly the \(L^1\) theorem being proved.  \(B\) must be
+an original-history positive-flux/native-capacity resource of the same coupled
+pressure-viscosity-incompressibility-velocity packet.
+
+If `(TFE.706)`--`(TFE.707)` hold, the \(L^1\) proof is a telescope.  Summing
+`(TFE.706)` over a stopped finite tree \(\mathcal T\) gives
+
+\[
+\sum_{Q\in\mathcal T}A_+(Q)
++
+\sum_{Q\in\partial\mathcal T}B(Q)
+\le
+B(Q_{\rm root})+\sum_{Q\in\mathcal T}Paid(Q).
+\tag{TFE.709}
+\]
+
+Since \(B\ge0\),
+
+\[
+\sum_{Q\in\mathcal T}A_+(Q)
+\le
+C_N(u_0)+Paid(\mathcal T).
+\tag{TFE.710}
+\]
+
+Terminal exhaustion of stopped trees gives terminal-uniform \(L^1\).
+
+The original coupled critical identity supplies only the signed balance
+
+\[
+{1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
++
+\nu\|\Lambda^{3/2}u\|_2^2
+=
+B(t),
+\tag{TFE.711}
+\]
+
+where
+
+\[
+B(t)
+=
+-
+\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle .
+\tag{TFE.712}
+\]
+
+The signed balance controls \(B\) after cancellation.  The \(L^1\) line needs
+the rectified positive part \(B_+\), or equivalently the selected weighted
+positive dyadic flux.  The direct estimate
+
+\[
+|B(t)|
+\le
+C\|u(t)\|_{\dot H^{1/2}}\|\Lambda^{3/2}u(t)\|_2^2
+\tag{TFE.713}
+\]
+
+closes only in the small critical-packet regime.  For arbitrary smooth data,
+`(TFE.713)` puts the critical amplitude back on the wrong side of the estimate.
+
+Therefore the missing proof is now exactly:
+
+\[
+\boxed{
+\text{`PositiveCriticalTransferDepletion.A'}
+\equiv
+\text{construct \(B\) satisfying `(TFE.706)`--`(TFE.707)` from original data.}
+}
+\tag{TFE.714}
+\]
+
+Equivalently, prove `PositiveCriticalTransferBound.A`,
+`NativeBirthChargePacking.A`, or the critical endpoint capacity frame, but the
+object cannot be another alias.  It must supply the monotone depletion resource
+that makes `(TFE.709)` telescope.
+
+Physically, this is the missing feedback cutoff in the state-count picture.
+Pressure can instantly re-coordinate the possible future packet states, and
+viscosity can delete heat-scale futures, but repeated positive selected
+upcrossings are finite only when each one consumes a root-visible critical
+endpoint resource or pays return/reset/exchange/legal/stop.  The proof is open
+exactly because the repo has not constructed that bounded original resource
+for arbitrary data.
