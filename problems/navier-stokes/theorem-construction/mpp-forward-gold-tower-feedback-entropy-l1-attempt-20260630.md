@@ -4458,3 +4458,485 @@ recount is not the issue after admission; the remaining issue is first-birth
 selected-size endpoint current and Schur-thin parabolic thickness, both in the
 same original coupled packet and both with a strict \(\theta<1\) viscous
 margin.
+
+## 33. Phase-volume feedback audit: what the entropy story really supplies
+
+The entropy picture has a precise finite-dimensional backbone.  Truncate the
+original incompressible equation to divergence-free Leray modes \(|k|\le K\) and
+write the Galerkin coefficients as \(a_K(t)\).  In fixed Leray coordinates,
+
+\[
+\dot a_K
+=
+\mathcal N_K(a_K)-\nu L_Ka_K ,
+\tag{TFE.287}
+\]
+
+where \(L_K\) is the positive diagonal Stokes matrix.  The nonlinear
+Euler-pressure part is phase-volume preserving:
+
+\[
+\operatorname{div}_{a_K}\mathcal N_K=0,
+\qquad
+\operatorname{div}_{a_K}(-\nu L_Ka_K)
+=-\nu\operatorname{Tr}L_K .
+\tag{TFE.288}
+\]
+
+Thus for any smooth packet of Galerkin states transported by the truncated flow,
+
+\[
+{d\over dt}\log \operatorname{Vol}_K(t)
+=
+-\nu\operatorname{Tr}L_K .
+\tag{TFE.289}
+\]
+
+This is the rigorous version of the physical feedback statement: the
+pressure-incompressibility/nonlinear part re-coordinates the state, while
+viscosity deletes phase volume.  Pressure is not a detached source of new state
+volume.
+
+The Gold \(L^1\) readout is not this bulk volume contraction.  It is a selected
+one-sided path trace through a moving parent-child packet frame.  If the active
+metric, Hodge frame, material chart, collar, and selector projection are denoted
+by \(G_K(t)\), \(\Pi_K(t)\), and \(e_\gamma(t)\), then the same finite
+calculation in the moving active coordinates gives
+
+\[
+d\Phi_{P,K}^{act}
+\le
+-\nu\,\operatorname{Tr}_{act,K}(L_K)\,dt
++d\operatorname{Conn}_{P,K}^{act}
++dPaid_P ,
+\tag{TFE.290}
+\]
+
+where the connection term is the actual parent-frame motion:
+
+\[
+d\operatorname{Conn}_{P,K}^{act}
+\simeq
+{1\over2}\left|d\log\det G_{act,K}\right|
++\|\dot\Pi_K\|_{HS}\,dt
++d{\rm Var}_P(e_\gamma,\text{Hodge},\text{collar},\text{material frame})
++dR_{legal}+dStop .
+\tag{TFE.291}
+\]
+
+So the feedback loop gives the right sign only after the selected detector is
+read in the same parent coordinates.  The selected positive action has the form
+
+\[
+A_{\gamma}^{sel,+}
+\sim
+\int_{I_\gamma}
+\left(d\langle Z_{P,K}(t),e_\gamma(t)\rangle_{G_K}\right)_+ .
+\tag{TFE.292}
+\]
+
+A determinant contraction does not by itself bound `(TFE.292)`.  The elementary
+countermodel is a contracting two-dimensional state with a rotating active
+detector:
+
+\[
+z(t)=r(t)(\cos\phi(t),\sin\phi(t)),
+\qquad
+r'(t)=-r(t).
+\tag{TFE.293}
+\]
+
+The area contracts monotonically, but a fixed selected coordinate can have
+arbitrarily large one-sided positive variation if the angle \(\phi(t)\) has
+unbounded positive variation.  In the fluid packet, that angle is not a toy
+variable: it is the pressure/Hodge frame, Cauchy--Green metric, collar, route
+projection, and high-high parent-current detector moving inside the same
+coupled material law.  Therefore the active connection term `(TFE.291)` is the
+place where the \(L^1\) problem actually lives.
+
+The exact bridge from entropy contraction to the Gold line is the active
+trace/connection theorem
+
+\[
+\sum_{\gamma\subset P}
+A_{\gamma}^{sel,+}
+\le
+C\left(
+\Phi_{P,K}^{act}(\operatorname{root})
+-\Phi_{P,K}^{act}(\operatorname{terminal})
++\int_{\operatorname{Hist}(P)}d\operatorname{Conn}_{P,K}^{act}
+\right)
++Paid(P),
+\tag{TFE.294}
+\]
+
+uniformly as \(K\to\infty\), together with the native-reserve domination
+
+\[
+\sup_K\left[
+\Phi_{P,K}^{act}(\operatorname{root})
++\int_{\operatorname{Hist}(P)}d\operatorname{Conn}_{P,K}^{act}
+\right]
+\le
+C_N(u_0)
++\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(P),
+\qquad \theta<1 .
+\tag{TFE.295}
+\]
+
+If `(TFE.294)`--`(TFE.295)` hold, then `(TFE.269)` follows.  Then
+`(TFE.265)` follows, and `(TFE.266)` gives terminal-uniform native reserve and
+the desired \(L^1\) control.
+
+This audit also explains why the previous endpoint-current and Schur-thin
+surfaces are not separate problems.  The endpoint seed Carleson estimate
+`(TFE.279)` is the active trace theorem `(TFE.294)` for first-birth endpoint
+seeds.  The Schur-thin material source-variation estimate `(TFE.284)` is the
+native-reserve domination `(TFE.295)` for the moving pressure/Hodge/current
+connection before Schur residence has time to form.  For the full-output route
+the connection is read through
+
+\[
+B_m^{full}
+=
+\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u\otimes u),
+\tag{TFE.296}
+\]
+
+which has the one-point parent-current identity.  Individual input-coloured
+high-high triads still require a two-point current because their moving detector
+is not the one-point full-output connection.
+
+Thus the entropy story contributes a real mathematical sign law: the coupled
+pressure/transport part cannot create active phase volume; selected \(L^1\)
+growth can only come from active connection/frame motion or from fresh native
+reserve.  The next section audits `(TFE.294)`--`(TFE.295)` against the stopped
+selector surfaces and corrects this compressed reading: parent-reuse is already
+paid by the parent-Gram entropy telescope, while first birth must enter the
+native-reserve term.
+
+## 34. Active trace correction: parent-reuse is proved, first birth is the
+native-reserve term
+
+The source audit shows that `(TFE.294)` is too compressed if it is read as a
+single trace theorem.  There are two different selected actions inside it:
+parent-reuse action and first-birth action.  They share the same parent packet,
+but they are not paid by the same one-step algebra.
+
+Split the retained positive selected reads into
+
+\[
+\Gamma(P)
+=
+\Gamma_{\rm reuse}(P)
+\dot\cup
+\Gamma_{\rm birth}(P)
+\dot\cup
+\Gamma_{\rm paid}(P),
+\tag{TFE.297}
+\]
+
+where \(\Gamma_{\rm paid}\) contains reset, return, reselection, legal, stop,
+donor, and endpoint-face exits already routed before the selected positive part.
+
+For \(\gamma\in\Gamma_{\rm reuse}\), the stopped selector notes give a
+parent-known finite score identity
+
+\[
+\Delta_\gamma\lambda_{\rm sel}
+=
+\ell_\gamma(Y_\gamma)-\psi_\gamma+e_\gamma,
+\qquad
+\psi_\gamma\ge0,
+\tag{TFE.298}
+\]
+
+but the bare linear identity is not enough: a square-summable sequence can still
+have infinite positive linear variation.  The parent-Gram correction supplies the
+missing entropy loss.  With parent record
+
+\[
+\mathsf C_{\gamma^-}
+=
+\lambda_P I+\sum_{\rho<\gamma}\alpha_\rho e_\rho\otimes e_\rho
++\mathsf C_P^{inh},
+\qquad
+\tau_\gamma
+=
+\alpha_\gamma
+\langle e_\gamma,\mathsf C_{\gamma^-}^{-1}e_\gamma\rangle ,
+\tag{TFE.299}
+\]
+
+the self-normalized selector theorem gives
+
+\[
+[\Delta_\gamma\lambda_{\rm sel}]_+
+\le
+C_N\log(1+\tau_\gamma)
++R_\gamma^{reset}
++R_\gamma^{legal}
++Stop_\gamma .
+\tag{TFE.300}
+\]
+
+The determinant increment is
+
+\[
+\Delta_\gamma\mathcal B_{\rm Gram}
+=
+\log(1+\tau_\gamma),
+\tag{TFE.301}
+\]
+
+so summing over \(\Gamma_{\rm reuse}\) telescopes:
+
+\[
+\sum_{\gamma\in\Gamma_{\rm reuse}(P)}A_\gamma^{sel,+}
+\le
+C_N\left(
+\mathcal B_{\rm Gram}(P_{\rm root})
+-\sum_{\eta\in{\rm term}(P)}\mathcal B_{\rm Gram}(\eta)
+\right)
++C_N\int_{\operatorname{Hist}(P)}d\operatorname{Conn}_{P}^{act}
++Paid(P).
+\tag{TFE.302}
+\]
+
+This proves the parent-reuse part of the active trace theorem.  The proof uses
+only parent-known stopped scores, the self-normalized determinant loss, bounded
+projection of the original participation law, and paid route/selector drift.  It
+does not spend future child clipping.
+
+For \(\gamma\in\Gamma_{\rm birth}\), the determinant leverage record has no
+previous paid coordinate to telescope through.  The correct admission line is
+instead the bounded original-packet selected projection:
+
+\[
+A_\gamma^{sel,+}
+\le
+C_N\,d\operatorname{Birth}_{P}^{act}(\gamma)
++Paid(\gamma),
+\tag{TFE.303}
+\]
+
+where \(d\operatorname{Birth}_{P}^{act}\) is the endpoint-current/native-reserve
+measure of the first selected unit in the original packet.  In the endpoint seed
+notation this is exactly
+
+\[
+d\operatorname{Birth}_{P}^{act}(\gamma)
+\simeq
+\int_{I_\gamma}H_\gamma(t)\|M_\gamma(t)\|_2^2\,dt,
+\qquad
+M_\gamma=D_AJ_\gamma+M_{\gamma,stop}+M_{\gamma,legal}
++M_{\gamma,reset}+M_{\gamma,return}.
+\tag{TFE.304}
+\]
+
+Thus the corrected active trace theorem is
+
+\[
+\sum_{\gamma\subset P}A_\gamma^{sel,+}
+\le
+C_N\left(
+\Phi_{P}^{act}(\operatorname{root})
+-\Phi_{P}^{act}(\operatorname{terminal})
++\int_{\operatorname{Hist}(P)}d\operatorname{Conn}_{P}^{act}
++\int_{\operatorname{Hist}(P)}d\operatorname{Birth}_{P}^{act}
+\right)
++Paid(P).
+\tag{TFE.305}
+\]
+
+The parent-reuse contribution to `(TFE.305)` is now installed by
+`(TFE.298)`--`(TFE.302)`.  The first-birth contribution is not a new mysterious
+source; it is the endpoint-current Carleson/native-birth theorem `(TFE.279)`.
+
+Consequently `(TFE.295)` must be read with the birth term included:
+
+\[
+\Phi_{P}^{act}(\operatorname{root})
++\int_{\operatorname{Hist}(P)}d\operatorname{Conn}_{P}^{act}
++\int_{\operatorname{Hist}(P)}d\operatorname{Birth}_{P}^{act}
+\le
+C_N(u_0)
++\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(P),
+\qquad \theta<1 .
+\tag{TFE.306}
+\]
+
+Now the Gold \(L^1\) line has a sharper two-step form:
+
+\[
+\text{active trace `(TFE.305)'}
++\text{native-reserve domination `(TFE.306)'}
+\Longrightarrow
+\text{state-count packing `(TFE.269)'}
+\Longrightarrow
+\text{terminal-uniform \(L^1\)}.
+\tag{TFE.307}
+\]
+
+The remaining unproved content is therefore no longer the whole active trace
+line.  It is the same-parent native-reserve domination `(TFE.306)`, whose
+unproved analytic faces are exactly:
+
+\[
+\text{endpoint-current first-birth Carleson `(TFE.279)'}
+\quad+\quad
+\text{Schur-thin material source-variation `(TFE.284)'}.
+\tag{TFE.308}
+\]
+
+Physically: pressure/transport can turn the active detector, and viscosity
+contracts bulk phase volume.  Reusing an already admitted detector is now paid by
+the parent-Gram entropy telescope.  A genuinely first selected detector has to
+leave a native endpoint current in the original coupled packet; proving that
+those first-birth currents Carleson-pack with strict viscous margin is the
+remaining \(L^1\) theorem.
+
+## 35. Schur-thin correction: retained non-endpoint thinness descends to
+endpoint, so Gold still needs terminal no-atom storage
+
+The older same-material storage note contains a stronger Schur-thin reduction
+than `(TFE.308)` records.  Once first entry, reuse, return, motion, legal, stop,
+and endpoint-face exits have been separated, the retained Schur-thin branch has
+the frozen same-detector normal form
+
+\[
+D_th=q(t)\ge0,
+\qquad
+\Omega_B=\int_{I_B}H_Bq(t)^2\,dt .
+\tag{TFE.309}
+\]
+
+The only way Schur storage can fail to see this impulse is loss of material
+retention time:
+
+\[
+\Theta_B
+:=
+{(\int_{I_B}q\,dt)^2
+\over
+|I_B|\int_{I_B}q^2\,dt}
+\ll1 .
+\tag{TFE.310}
+\]
+
+If \(\Theta_B\ge\kappa>0\), the same detector has enough residence time to write
+into the Schur record, and the square-positive read is paid by the same parent
+current:
+
+\[
+\int_{I_B}H_Bq^2\,dt
+\le
+C_\kappa H_B|I_B|^{-1}
+\bigl(h_B(t_1)^2-h_B(t_0)^2\bigr)
++Paid_B .
+\tag{TFE.311}
+\]
+
+If `(TFE.310)` fails, the density-selection descent gives a smaller retained
+child interval carrying a fixed fraction of the same selected square bill:
+
+\[
+B_0\supset B_1\supset B_2\supset\cdots,
+\qquad
+|I_{B_{n+1}}|\le\lambda |I_{B_n}|,
+\qquad
+\Omega_{B_{n+1}}\ge c\,\Omega_{B_n}.
+\tag{TFE.312}
+\]
+
+This descent cannot accumulate at any interior time \(t<T_*\), because the
+original solution is smooth on compact preterminal intervals and the selected
+critical bill on shrinking parabolic cylinders tends to zero there.  Therefore
+loss of retention time is not retained non-endpoint Gold fuel:
+
+\[
+\text{retained Schur-thin nonendpoint}
+\Longrightarrow
+\text{Schur time-floor payment}
+\quad\text{or}\quad
+\text{same-witness terminal endpoint face}.
+\tag{TFE.313}
+\]
+
+This corrects the role of `(TFE.284)`.  Its retained nonendpoint part is a
+consumer theorem: time-floor gives Schur payment, and no-time-floor descends to
+endpoint.  The CM route may consume that endpoint face as a Pack/Part/Field exit
+after same-witness admission, but a forward Gold \(L^1\) proof cannot count CM
+endpoint consumption as smoothness closure.  Gold has to remove the endpoint
+face by constructing terminal-uniform full-packet no-atom storage.
+
+The needed forward Gold endpoint storage is the root-fixed absolutely continuous
+same-parent functional
+
+\[
+\mathcal L_P(t)
+=
+\mathcal L_P(t_0)
++\int_{t_0}^{t}\ell_P(s)\,ds
++Paid_P(t),
+\qquad
+\int_{t_0}^{T_*}(\ell_P)_-\,dtdx
+\le
+C_N(u_0)+E_{\rm paid}(P),
+\tag{TFE.314}
+\]
+
+together with same-parent domination of terminal endpoint measure,
+
+\[
+d\mu_P^{end}
+\le
+C(\ell_P)_-\,dtdx
++d\lambda_P
++dPaid_P,
+\tag{TFE.315}
+\]
+
+where \(\lambda_P\) has an \(L^1\) space-time density or is already legal, stop,
+or endpoint-face material.  Then terminal no-atom follows by absolute
+continuity:
+
+\[
+\lim_{\rho\downarrow0}\sup_{z_0}
+\mu_P^{end}(T_\rho(z_0))
+=0 .
+\tag{TFE.316}
+\]
+
+Thus `(TFE.306)` should now be read as the native-reserve domination line with
+three non-replay components:
+
+\[
+\begin{gathered}
+\text{parent-reuse trace: installed by the Gram entropy telescope,}\\
+\text{retained Schur-thin nonendpoint: paid by time-floor Schur descent,}\\
+\text{forward Gold endpoint: still needs `(TFE.314)`--`(TFE.315)`}.
+\end{gathered}
+\tag{TFE.317}
+\]
+
+Equivalently, the current forward Gold \(L^1\) producer is narrower than
+`(TFE.308)`:
+
+\[
+\text{first-birth endpoint-current Carleson `(TFE.279)'}
++
+\text{root-fixed terminal-uniform no-atom storage `(TFE.314)`--`(TFE.315)'}
+\Longrightarrow
+\text{native-reserve domination `(TFE.306)'}.
+\tag{TFE.318}
+\]
+
+This is exactly where the entropy story remains active.  Parent phase volume is
+contracting, and retained Schur-thin nonendpoint reads cannot keep opening new
+states.  The only forward Gold object left after that correction is the
+terminal-uniform \(L^1\) density of the same coupled pressure-viscosity-
+incompressibility-strain packet, strong enough to prevent a terminal atom of
+first-birth endpoint current.
