@@ -4229,3 +4229,232 @@ remaining large-data theorem.  All reset, affine-quotient, Schur/Bessel,
 bounded projection, and first-exit overlap work are consumers once `(TFE.268)`--
 `(TFE.269)` are installed; none of them by itself proves the parent entropy
 cutoff in the scale-native active metric.
+
+## 32. No-reuse audit: what it pays, and where first birth still survives
+
+The no-reuse mechanism is real, but it does not by itself create the
+scale-native reserve.  On a stopped parent \(P\), let \(Z_P\) be the
+same-material source carrier and define the spent-source projection
+
+\[
+F_Q
+=
+(I-\Pi_{\mathcal S_{<Q}})\Delta_Q Z_P .
+\tag{TFE.270}
+\]
+
+The installed nonreuse line is:
+
+\[
+\text{strict retained selected birth}
+\Longrightarrow
+\text{fresh source increment }F_Q
+\text{ or paid carry/reselection/silent-exchange/legal/stop.}
+\tag{TFE.271}
+\]
+
+In raw Hilbert currency this gives
+
+\[
+\sum_{Q\subset P}\|F_Q\|_{\mathcal H_{src}}^2
+\le
+C_N\|Z_P\|_{\mathcal H_{src}}^2+R_{legal}(P).
+\tag{TFE.272}
+\]
+
+This closes the repeated-use loophole: an already-spent source atom cannot keep
+being counted as fresh down the same retained chain unless the event is carry,
+return, reset, exchange, legal, or stop.  The open line is the selected-scale
+lower edge
+
+\[
+\omega_Q^{fresh}
+\le
+C_N\|F_Q\|_{\mathcal H_{src,active}}^2+R_{paid}(Q),
+\qquad
+\sum_{Q\subset P}\|F_Q\|_{\mathcal H_{src,active}}^2
+\le C_N(u_0)+R_{legal}+Stop .
+\tag{TFE.273}
+\]
+
+The active norm in `(TFE.273)` cannot be the raw norm in `(TFE.272)`.  The
+half-tail
+
+\[
+\sum_\ell \|F_\ell\|_{\mathcal H_{raw}}^2<\infty,
+\qquad
+\sum_\ell H_\ell\|F_\ell\|_{\mathcal H_{raw}}^2=\infty
+\tag{TFE.274}
+\]
+
+survives raw nonreuse.  Thus no-reuse is a gate after a root-native atom has
+been created; it is not the producer of the selected-size root-native atom.
+
+The physical first-birth form of the missing producer is the endpoint-seed
+packing theorem.  After lower-band carry, spent-source reuse, reset,
+reselection, silent exchange, legal, stop, and annular payback are removed, a
+retained first native birth \(\gamma\) must leave a positive endpoint seed
+
+\[
+M_\gamma(t,x)
+=
+\int_{J_\gamma}
+k_\gamma(\sigma)\,
+\widetilde Z_\gamma^{fresh,+}(\sigma,t,x)\,d\sigma,
+\qquad k_\gamma\ge0 .
+\tag{TFE.275}
+\]
+
+The local admission line is
+
+\[
+\omega_\gamma
+\lesssim
+\int_{I_\gamma}H_\gamma(t)\|M_\gamma(t)\|_2^2\,dt
++DER(\gamma)+R_{legal}(\gamma)+Stop(\gamma).
+\tag{TFE.276}
+\]
+
+This is the part of the physical story where the child cannot be only a label:
+retained first selected action has to leave a material endpoint seed in the
+original pressure-viscosity-incompressibility packet.
+
+The global line still missing is
+
+\[
+\sum_{\gamma\subset P}
+\int_{I_\gamma}H_\gamma(t)\|M_\gamma(t)\|_2^2\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(P),
+\qquad \theta<1 .
+\tag{TFE.277}
+\]
+
+Equivalently, the endpoint seed must be a parent-localized current of the
+original coupled packet:
+
+\[
+M_\gamma
+=
+D_AJ_\gamma
++M_{\gamma,stop}
++M_{\gamma,legal}
++M_{\gamma,reset}
++M_{\gamma,return},
+\tag{TFE.278}
+\]
+
+and the endpoint currents must satisfy the Carleson/native-reserve estimate
+
+\[
+\sum_{\gamma\subset P}
+\int |J_\gamma|^2\,d\mathcal R_\gamma
+\le
+C_N(u_0)
++\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(P),
+\qquad \theta<1 .
+\tag{TFE.279}
+\]
+
+The compactness proof attempt does not remove `(TFE.279)`.  A failed endpoint
+packing sequence normalizes to a nonzero retained endpoint current, not to a
+seed with zero current.  Thus the rigidity theorem needed there is the same
+one-sided positive-transfer/native-reserve theorem in compactness language.
+
+The Schur/upcrossing audit says the same thing from the retained-current side.
+Once the first birth is admitted into the paid parent-current span, repeated
+same-carrier production is Schur work.  A geometrically known direction with
+zero current is not already paid; first entry is Bessel novelty:
+
+\[
+m\mapsto m+\delta a,
+\qquad
+g=G^{-1}m\mapsto g+\delta G^{-1}a .
+\tag{TFE.280}
+\]
+
+After `(TFE.280)`, repeated production in that coordinate is no longer
+perpendicular in the payment sense.  So the old repeated-perpendicular channel
+is gone.
+
+The surviving Schur-thin obstruction is different.  A source can be too thin in
+material time to build visible Schur residence before its selected square bill
+is large.  In a scalar retained coordinate,
+
+\[
+D_th=q,\qquad h(0)=0,
+\tag{TFE.281}
+\]
+
+thin pulses can satisfy
+
+\[
+\sum_n\int q_n\,dt<\infty,
+\qquad
+\sum_n\int q_n^2\,dt=\infty .
+\tag{TFE.282}
+\]
+
+Schur memory pays residence after the record has time to form; it does not pay
+arbitrarily thin impulses by itself.  Integration by parts identifies the parent
+quantity that sees the thin pulse:
+
+\[
+\int_B q^2\,dt
+=
+[hq]_{\partial B}
+-
+\int_B h\,dq .
+\tag{TFE.283}
+\]
+
+Thus Schur-thin blocks are paid only after a material source-variation /
+parabolic-thickness theorem:
+
+\[
+\sum_{B:\chi_B<\eta}
+\sup_B\|G_B^{-1/2}m_B\|\,
+{\rm Var}_B^P(G_B^{-1/2}p_B)
+\le
+\theta\nu\sum_BD_B
++C_\eta(E_{fresh}+E_{motion}+A^-+Legal+Stop+End),
+\tag{TFE.284}
+\]
+
+with \(\theta<1\).  The source variation in `(TFE.284)` must be differentiated
+inside the same coupled material law.  For the full-output route, the high-high
+object is
+
+\[
+B_m^{full}
+=
+\Lambda^{-1/2}P_m\mathbb P\nabla\cdot(u\otimes u),
+\tag{TFE.285}
+\]
+
+because this has the one-point parent-current identity.  Individual
+input-coloured high-high triads are two-point bilinear currents and cannot be
+admitted into the installed one-point parent current without adding a new
+two-particle theory.
+
+Therefore the narrowed L1 producer is:
+
+\[
+\begin{gathered}
+\text{full-output parent-current admission/update}\\
++\ \text{first-birth endpoint-current Carleson `(TFE.279)'}\\
++\ \text{Schur-thin material source-variation estimate `(TFE.284)'}\\
+\Longrightarrow
+\text{NativeBirthChargePacking.A / PositiveCriticalTransferBound.A}.
+\end{gathered}
+\tag{TFE.286}
+\]
+
+This is the exact contribution of the entropy/no-reuse picture.  It proves that
+recount is not the issue after admission; the remaining issue is first-birth
+selected-size endpoint current and Schur-thin parabolic thickness, both in the
+same original coupled packet and both with a strict \(\theta<1\) viscous
+margin.
