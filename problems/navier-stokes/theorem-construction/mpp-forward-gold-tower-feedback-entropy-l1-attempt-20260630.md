@@ -2637,3 +2637,146 @@ cores `(TFE.155)` and the fixed-core terminal anti-atom/no-residue trace
 modulus `(TFE.160)`--`(TFE.161)`.  Those two are the remaining live \(L^1\)
 mathematics; everything else in the branch split is support, consumer, or
 already paid escape.
+
+## 22. Entropy solution test: the exact noncircular closure form
+
+The state-count picture solves the \(L^1\) problem only if the state count is
+constructed before child clipping from the original parent packet.  Let
+\(\mathscr A_{P,Q}\) be the set of same-parent coupled
+pressure--heat--viscous packet histories still accessible below a retained
+child \(Q\), measured in the stopped full-packet metric that includes the
+material chart, Cauchy--Green metric, Hodge/pressure frame, selector/collar
+chart, heat-lag child readout, and legal/stop labels.  A parent-known entropy
+capacity has the form
+
+\[
+\Phi_P(Q)
+:=
+\log N_{\varepsilon(Q)}
+\bigl(\mathscr A_{P,Q},d_{P,Q}^{full}\bigr)
++\mathcal K_P(Q),
+\tag{TFE.164}
+\]
+
+where \(\mathcal K_P\) is the announced same-parent correction for Schur
+current, fresh Bessel entry, return, reset/reselection, legal, stop, and
+endpoint-face exits.  The metric and the correction must be fixed by the parent
+history before the child-positive part is taken.
+
+The noncircular entropy theorem is the one-step state-deletion inequality
+
+\[
+\sum_{Q'\in ch(Q)} A_{Q'}^{sel,+}
++\sum_{Q'\in ch(Q)}\Phi_P(Q')
+\le
+\Phi_P(Q)
++R_{legal}(Q)+Stop(Q),
+\tag{TFE.165}
+\]
+
+with the root and terminal bounds
+
+\[
+\Phi_P(P)
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P),
+\tag{TFE.166}
+\]
+
+and
+
+\[
+\lim_{\theta\downarrow0}
+\sup_P
+\sum_{\substack{Q\subset P\\Q\cap(T_*-\theta,T_*)\ne\varnothing}}
+\Phi_P(Q)
+=0
+\tag{TFE.167}
+\]
+
+outside legal, stop, and same-witness endpoint-face exits.  Summing
+`(TFE.165)` over the stopped tree gives
+
+\[
+\sum_{Q\subset P}A_Q^{sel,+}
+\le
+\Phi_P(P)
++R_{legal}(P)+Stop(P)
++\liminf_{\theta\downarrow0}
+\sum_{\substack{Q\subset P\\Q\cap(T_*-\theta,T_*)\ne\varnothing}}
+\Phi_P(Q),
+\tag{TFE.168}
+\]
+
+so `(TFE.166)`--`(TFE.167)` imply the terminal-uniform \(L^1\) line.  Thus
+`(TFE.165)`--`(TFE.167)` are exactly `(TFE.138)`--`(TFE.140)` written in the
+entropy/state-pruning coordinate.
+
+The entropy construction has a built-in failure test.  If \(d_{P,Q}^{full}\)
+does not charge complete-frame motion, then the affine profile `(TFE.149)` can
+rotate the selected readout through many positive child faces while the raw
+state count stays essentially unchanged.  That reproduces the finite-dimensional
+skew example `(TFE.21)`--`(TFE.23)` inside the pressure-Hessian-balanced affine
+tail.  Therefore the entropy metric must contain the repeated-core variation
+record, and `(TFE.165)` reduces on reused cores to
+
+\[
+\sum_{Q_k\subset\mathcal A(a)}A_{Q_k}^{sel,+}
+\le
+C\,\mathcal V_{\rm core}(a)+R_{legal}(\mathcal A(a)),
+\qquad
+\int\mathcal V_{\rm core}(a)\,d\mathcal R_{\rm ancestry}(a)
+\le C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P).
+\tag{TFE.169}
+\]
+
+The first inequality in `(TFE.169)` is installed as the complete-frame/laminar
+tax `(TFE.154)`.  The second inequality is exactly the reused-core root
+variation theorem `(TFE.155)`.  This is where the physical "number of future
+states is decreasing" idea has to become a quantitative root bound: every
+pressure-feedback recoordination that lets the same material core be read as a
+new positive child must spend finite original-history variation of the metric,
+pressure frame, collar, or turnstile.
+
+If the full stopped carrier does not move, `(TFE.169)` has no variation left to
+spend.  The only possible survivor is then fixed-core terminal concentration.
+In that branch the entropy theorem becomes the no-residue trace modulus
+
+\[
+\mu_{P,fix}^{crit}(T_\rho(z_0))
+\le
+C\,\operatorname{Osc}_{T_{c\rho}(z_0)}\Phi_P
++C(E_{\rm paid}+R_{legal}+Stop)(T_{c\rho}(z_0)),
+\qquad
+\sup_{z_0}\operatorname{Osc}_{T_{c\rho}(z_0)}\Phi_P\to0.
+\tag{TFE.170}
+\]
+
+This is exactly `(TFE.160)`--`(TFE.161)`.  In physical terms, once the material
+carrier, selected frame, pressure-Hodge quotient, collar, and legal/stop status
+are fixed, a smaller heat tent cannot keep carrying one new positive unit unless
+the parent capacity has a real terminal jump.  A real terminal jump is not Gold
+payment; after same-witness admission it is the endpoint-face branch.
+
+Therefore the entropy/state-pruning idea is now well-defined, but it is a
+closure theorem rather than a free consequence of finite energy.  The complete
+Gold \(L^1\) solve is:
+
+\[
+\text{prove `(TFE.169)' and `(TFE.170)' from the original coupled material
+history}
+\Longrightarrow
+\text{`(TFE.165)'--`(TFE.167)'}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\tag{TFE.171}
+\]
+
+The direct proof cannot replace `(TFE.169)` by physical drain alone, because
+drain gives the radius-weighted estimate `(TFE.106)` and misses the affine
+half-tail `(TFE.143)`.  It cannot replace `(TFE.170)` by preterminal smoothness
+alone, because a smooth preterminal density can converge to a terminal atom as
+in `(TFE.111)`.  The noncircular solution has to prove the parent-known
+complete-frame root variation bound and the fixed-core no-residue trace
+modulus.  Once those are proved, the \(L^1\) algebra is already closed by
+telescoping.
