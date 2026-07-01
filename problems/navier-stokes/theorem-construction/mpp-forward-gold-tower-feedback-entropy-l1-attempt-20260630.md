@@ -8438,3 +8438,589 @@ The repo has reductions to `(TFE.557)`, not a proof of `(TFE.557)`.  Closing the
 \(L^1\) problem now means proving `(TFE.556)` together with the cancellation and
 accretive testing construction from the original coupled
 pressure-viscosity-incompressibility-velocity packet.
+
+## 56. Direct current-Carleson attack and the missing physical theorem
+
+The physical feedback picture has to be read as an active state-access law.  A
+packet can be re-coordinated by the pressure/Hodge constraint after the velocity
+and strain field have changed, so the pressure-heat-viscous loop can revisit the
+same material history.  It is still one same-parent loop: a later child readout
+is new only if the original parent packet has recorded material motion, a
+first-entry native endpoint birth, return, reset, legal, or stop material before
+the positive part is clipped.
+
+In stopped current language this first splits the routed participation current
+into the part already seen by the installed bounded-projection machinery and the
+active no-Zeno part:
+
+\[
+J^S=J^{proj,S}+J^{act,S}+J^{paid,S}.
+\tag{TFE.558}
+\]
+
+Here \(J^{proj,S}\) contains inherited parent current, bounded original-packet
+Riesz projections, Schur/current reuse already admitted into the parent current,
+and derivative-exact first exits whose parent intervals and witness tubes are
+announced before child readout.  \(J^{paid,S}\) contains legal, stop,
+reselection, already-charged frame/collar motion, and already-charged return.
+The checked June 27 projection and first-exit surfaces give
+
+\[
+\sup_{P'\subseteq P}
+{1\over\mathcal R(P')}
+\left[
+\int_{\widehat P'}|J^{proj,S}|^2\,d\mathcal R
++Stop(\widehat P')+R_{\rm legal}(\widehat P')
+\right]
+\le C_N(u_0).
+\tag{TFE.559}
+\]
+
+The direct current-Carleson proof therefore has one active no-Zeno branch, but
+that branch has two physical subbranches:
+
+\[
+J^{act,S}=J^{rep,S}+J^{esc,S}.
+\tag{TFE.560}
+\]
+
+\(J^{rep,S}\) is repeated-core active readout: the same material ancestry is
+read again after the signed scale-potential lift.  \(J^{esc,S}\) is
+shrinking-core escape: the selected readout restarts on smaller transported
+cores so no single core sees infinite multiplicity.
+
+The repeated-core branch is controlled only after the selected positive
+primitive driver has the signed form
+
+\[
+Y_+=\partial_\sigma\Psi+Y_-+S^{spill}+E,
+\qquad
+V_+(\Psi)=\operatorname{Rec}(\Psi)+V_-^{return}(\Psi)+O(Paid),
+\tag{TFE.561}
+\]
+
+and after the record and negative-return terms are admitted into a bounded
+root-geometry currency.  The source audit shows this is not the same as raw
+bounded projection: retained selected returns still need the selected
+admission/root-reserve lower bound before the linear \(L^1\) read is paid.
+
+The shrinking-core branch is the pure scale-native first-birth/current part.  A
+unit child detector at radius \(r\) pulls back to the original packet with
+\(L^2\)-size \(r^{-1/2}\), so raw original current energy controls only the
+unweighted square shadow.  The selected \(L^1\) line asks for the active weight:
+
+\[
+\sum_{\gamma\subset P} H_\gamma
+\int_{\widehat \gamma}|J^{esc,S}_\gamma|^2\,d\mathcal R.
+\tag{TFE.562}
+\]
+
+The half-tail remains the exact countertest:
+
+\[
+\int_{\widehat\gamma_\ell}|J^{esc,S}_{\gamma_\ell}|^2\,d\mathcal R
+\sim {2^{-\ell}\over \ell+1},
+\qquad
+H_{\gamma_\ell}\sim 2^\ell .
+\tag{TFE.563}
+\]
+
+Then the raw square mass is finite while `(TFE.562)` diverges.  This is why
+finite initial energy and bounded stopped projection do not yet prove the
+\(L^1\) line.  They prove that the signal has one parent and no fake recount
+after admission; they do not prove that every retained repeated-core positive
+return or every shrinking-core first admission has parent-side active density.
+
+The noncircular physical theorem needed for closure is therefore:
+
+\[
+\int_P f_P\log(1+f_P)\,d\lambda_P^{orig}
++
+\sup_{P'\subseteq P}{1\over\mathcal R(P')}
+\int_{\widehat P'}\left(|J^{rep,S}|^2+|J^{esc,S}|^2\right)d\mathcal R
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathsf{Visc}_{P,N}
++R_{\rm legal}(P)+Stop(P),
+\quad \theta<1,
+\tag{TFE.564}
+\]
+
+where \(f_P=d\mu_P^{act}/d\lambda_P^{orig}\) is built before child clipping from
+the same coupled material record: deformation metric, pressure/Hodge frame,
+strain/current frame, collar and turnstile motion, self-advection, viscous
+descent, and native endpoint currents.  This is the active entropy/current
+Carleson theorem, not a passive heat-entropy identity.
+
+Equivalently, there must be a parent-known active capacity
+\(\mathfrak E_P^{act}\) satisfying the one-step state-deletion inequality
+
+\[
+d\mu_P^{act}
+\le
+-d\mathfrak E_P^{act}
++\theta\,d\mathsf{Visc}_{P,N}
++dR_{\rm legal,P}+dStop_P,
+\qquad 0<\theta<1,
+\tag{TFE.565}
+\]
+
+with \(\mathfrak E_P^{act}\) bounded from the original data and with the active
+detector, signed lift, and endpoint-current admission all constructed in the
+stopped parent frame before the selected child reads the positive part.  This is
+the formal version of the physical claim that pressure feedback may rearrange
+the remaining possible states, but it cannot increase the accessible future
+state count faster than the same material history records motion or viscosity
+deletes it.
+
+A contradiction proof of `(TFE.564)` has an exact shape.  Suppose the normalized
+bad sequence has
+
+\[
+\mu_{P_n}^{act}(P_n)=1,
+\qquad
+\lambda_{P_n}^{orig}(P_n)
++\mathsf{Visc}_{P_n,N}
++R_{\rm legal}(P_n)+Stop(P_n)\to0.
+\tag{TFE.566}
+\]
+
+The bounded projection branch `(TFE.559)` vanishes after parent subtraction.
+The installed zero-cost rigidity kills any nonzero same-carrier limit once
+tightness has been extracted: with no current motion, no turnstile/collar/frame
+motion, no reset, no legal, and no stop material, the stopped readout is
+inherited parent transport and the parent-subtracted native birth is zero.  The
+bad sequence can avoid that contradiction in only two ways: repeated-core
+positive return that has not been admitted into the root geometry, or
+shrinking-core escape into high-weight tubes before a nonzero parent-frame limit
+exists.  The second escape is exactly the half-tail `(TFE.563)`.
+
+Thus all missing pieces for the \(L^1\) problem are now localized to one
+no-Zeno active-state theorem:
+
+\[
+\begin{gathered}
+\text{parent-known active detector before child clipping,}\\
+\text{signed lift/stopped innovation for the feedback loop,}\\
+\text{selected admission/root reserve for repeated-core record/return,}\\
+\text{same-parent endpoint-current admission for shrinking-core births,}\\
+\text{Carleson or }L\log L\text{ packing of that active density,}\\
+\text{strict }\theta<1\text{ absorption by the coupled viscous descent.}
+\end{gathered}
+\tag{TFE.567}
+\]
+
+With `(TFE.564)` or `(TFE.565)` installed, `(TFE.544)` follows, hence
+`(TFE.550)`, the parent-weighted first-admission measure, the no-recount
+pushforward, and terminal-uniform \(L^1\).  Without that active-state theorem,
+the repo has a complete reduction and a sharp physical target, but not Gold
+closure.
+
+## 57. What the physical story still has to prove
+
+The current repo search rules out the tempting shortcut: local material
+smoothness does not give no-Zeno.  The material record doubling test gives only
+
+\[
+{dY\over dt}\le C\,Y^{1+a},
+\qquad
+\Delta t(Y\to2Y)\gtrsim Y^{-a},
+\tag{TFE.568}
+\]
+
+so dyadic growth can still have summable physical gaps.  A packet being one
+smooth original history is not yet enough.  The proof needs a global signed
+state-deletion law, not a local time-gap law.
+
+The material-log identity gives the right location for that law.  For the
+deformation gradient \(F=D_aX\),
+
+\[
+{d\over dt}\log|F\xi|
+\le \|S(u)\|_{L^\infty(\widehat A(t))},
+\tag{TFE.569}
+\]
+
+and the full tower record satisfies
+
+\[
+d[\log(1+\mathcal P_N)]_+
+\le C\,dA_{4B,N}^{ann}.
+\tag{TFE.570}
+\]
+
+This says active state creation lives in the full same-carrier annular
+pressure-viscosity-incompressibility-velocity activity: metric stretch,
+pressure/Hodge motion, commutators, collar/turnstile changes, viscous/collar
+descent, radial exchange, selector/collar motion, and oriented exchange.  It
+does not prove the needed \(L^1\) theorem until the same enlarged activity has a
+root-finite, terminal-uniform reserve.
+
+Combining the no-Zeno branch audit with the endpoint-current boundary gives the
+exact remaining proof package:
+
+\[
+\begin{aligned}
+d\mu_P^{act}
+\le{}&
+d\operatorname{Rec}_P^{root}
++d\operatorname{Return}_P^{root}
++d\operatorname{Cap}_{PH,P}^{sel}
++d\operatorname{CollarTurnstile}_{P}^{sel}\\
+&+dA_P^{conn}
++\theta\,d\mathsf{Visc}_{P,N}
++dR_{\rm legal,P}+dStop_P .
+\end{aligned}
+\tag{TFE.571}
+\]
+
+The repeated-core terms in `(TFE.571)` require the signed scale-potential lift
+and the root-geometry admission of record/negative-return before clipping.  The
+shrinking-core terms require selected pressure-Hodge/collar-turnstile capacity,
+or equivalently stopped endpoint-current testing plus a parent-known common
+Hilbert geometry and paid angle drift:
+
+\[
+\begin{gathered}
+\text{StoppedEndpointAccretiveTestingData.A,}\\
+\text{StoppedRoutedParticipationCurrentCarleson.A,}\\
+\text{CommonParentKnownHilbertGeometry.A,}\\
+\text{EndpointInnovationOrthogonalityOrPaidAngleDrift.A.}
+\end{gathered}
+\tag{TFE.572}
+\]
+
+So the physical story is now complete enough to specify the proof, but it is
+not yet a proof.  Pressure feedback can re-coordinate the remaining packet
+state; viscosity and self-advection can delete or move accessible states; and a
+child readout cannot be recounted after admission.  The missing mathematical
+fact is that the two active no-Zeno escape modes in `(TFE.571)` have a bounded
+original-history reserve with strict \(\theta<1\).  Proving `(TFE.571)` from the
+full coupled material packet is exactly the \(L^1\) closure theorem.
+
+## 58. Full-annular reserve audit: the entropy story in tower coordinates
+
+The full-annular/four-body surfaces explain why the entropy story cannot be
+closed by a local metric primitive.  The active state count is not controlled by
+the fact that one material packet has a material metric.  It is controlled only
+if the whole moving pressure-viscosity-incompressibility-velocity packet supplies
+a bounded-below signed storage before the selected positive part is separated.
+
+The checked full-tower channel identity gives placement:
+
+\[
+d[\log(1+\mathcal P_{N,P}^{mat})]_+
+\le
+C\,dA_{4B,N,P}^{ann}.
+\tag{TFE.573}
+\]
+
+Here \(dA_{4B,N,P}^{ann}\) is the enlarged same-carrier activity containing
+metric/coefficient growth, pressure/Hodge motion, differentiated commutators,
+viscous/collar descent, geometry, radial spend, selector/collar motion, and the
+adjacent signed exchanges.  This is exactly the tower-coordinate version of the
+active entropy detector: the number of accessible future packet states changes
+only when this full coupled material record changes.
+
+The repo audit also proves what this placement does not give.  The algebraic
+four-body summation is installed:
+
+\[
+A_1+E_{12}\le E_{41}-\partial_\sigma\Phi_1,\quad
+A_2+E_{23}\le E_{12}-\partial_\sigma\Phi_2,\quad
+A_3+E_{34}\le E_{23}-\partial_\sigma\Phi_3,\quad
+A_4+E_{41}\le E_{34}-\partial_\sigma\Phi_4
+\tag{TFE.574}
+\]
+
+would imply
+
+\[
+\int A_{4B,N}^{tower}\,d\sigma
+\le
+\Phi_{4B}(\sigma_0)-\inf\Phi_{4B},
+\qquad
+\Phi_{4B}:=\sum_{i=1}^4\Phi_i.
+\tag{TFE.575}
+\]
+
+But the theorem-grade content is not the summation.  It is the orientation and
+bounded-below capacity for every generated tower channel.  The current
+full-tower audit says
+
+\[
+\texttt{FullTowerFourBodyCancellation.A}
+\quad\Longleftrightarrow\quad
+\text{channel orientation}
++
+\text{bounded-below full-tower capacity},
+\tag{TFE.576}
+\]
+
+and this is not installed for the enlarged channel list.  The later metric
+capacity audit sharpens the irreducible obstruction to the
+metric/coefficient-moving-frame channel.
+
+The obstruction is physical, not terminological.  For the material map
+\(X(a,t)\), \(F=D_aX\), \(C=F^TF\),
+
+\[
+\partial_t C=2F^T S F,
+\qquad
+{d\over dt}\log |F\xi|
+=
+{F\xi\cdot S F\xi\over |F\xi|^2}.
+\tag{TFE.577}
+\]
+
+In the affine strain normal form
+
+\[
+u(x)=Ax,\qquad
+p(x)=-{1\over2}x\cdot A^2x,\qquad
+(u\cdot\nabla)u+\nabla p=0,\qquad \Delta u=0,
+\tag{TFE.578}
+\]
+
+with \(A=\operatorname{diag}(\lambda,-\lambda/2,-\lambda/2)\), a line element
+stretches with
+
+\[
+{d\over dt}\log |D_aX(t)e_1|=\lambda .
+\tag{TFE.579}
+\]
+
+Any local bounded-below primitive paying \(c\lambda\,dt\) for arbitrary affine
+duration would integrate to
+
+\[
+c\lambda T
+\le
+\Phi_{metric}(0)-\Phi_{metric}(T)+C_R
+\le
+\Phi_{metric}(0)+C+C_R,
+\tag{TFE.580}
+\]
+
+which fails for long \(T\).  Therefore the metric/coefficient part of the
+active state count cannot be paid by a local Cauchy-Green storage or by local
+annular stress-work with a chosen sign.  Local strain can open state directions;
+the missing \(L^1\) theorem has to say that the global same-material loop cannot
+keep those opened directions as endlessly recountable positive child actions.
+
+The noncircular replacement is the finite full service-coordinate theorem.  Let
+\(\Theta_{N,P}\) denote the full moving same-material coordinate containing the
+pressure/Hodge, cubic strain, metric/coefficient, commutator, viscous/collar,
+geometry, and radial exchange pieces on the stopped parent packet.  The needed
+signed pre-rectification estimate is
+
+\[
+dX_{comm,P}
++c\,d[\log(1+\mathcal P_{N,P}^{mat})]_+
++d\mathcal I_{N,P}
+\le
+\varepsilon\,dD_{N,P}^{vis}
++\varepsilon\,dD_{N,P}^{rad}
++dR_{N,P}^{0},
+\qquad
+X_{comm,P}\ge -C_N(u_0),
+\tag{TFE.581}
+\]
+
+or equivalently
+
+\[
+\int_0^\tau \Theta_{N,P}(t)\,dt
+\le
+C_N(u_0)
++\theta\,\mathsf{Visc}_{P,N}(0,\tau)
++R_{\rm legal,P}(0,\tau)+Stop_P(0,\tau),
+\qquad \theta<1 .
+\tag{TFE.582}
+\]
+
+This is the same physical theorem as `(TFE.571)` in full-tower coordinates.  It
+keeps the signed pressure/Hodge/cubic-strain/metric partner inside the same
+parent packet until the bounded-below storage and viscous/radial drains have
+acted.  Only after that can the selected positive child readout be counted.
+
+Thus the entropy/state-count story solves the \(L^1\) problem exactly if
+`SignedSmoothSamePacketCommutatorCoercivity.A` /
+`FiniteTotalThetaNServiceCoordinate.A` is proved:
+
+\[
+\text{signed full service coordinate}
+\Longrightarrow
+\text{full-annular root-finite reserve}
+\Longrightarrow
+\text{active no-Zeno inequality `(TFE.571)`}
+\Longrightarrow
+\text{parent-weighted first admission}
+\Longrightarrow
+\text{no-recount pushforward}
+\Longrightarrow
+\text{terminal-uniform }L^1 .
+\tag{TFE.583}
+\]
+
+The physical story is therefore not missing a new kind of packet.  It is
+missing the theorem that pressure feedback, moving metric/frame growth,
+self-advection, and viscous descent form one signed global state-deletion law
+before rectification.  Without `(TFE.581)` or `(TFE.582)`, the repo has the
+right entropy ontology and the right branch split, but not the \(L^1\) closure.
+
+## 59. Rectified annular flux variation is the concrete \(L^1\) object
+
+The previous section identifies the missing signed full-service coordinate.  In
+the annular payback variables, that coordinate has a concrete physical readout:
+the total variation of the same transported annular stress-work flux.  This is
+the part of the entropy picture that was still too vague.  \(L^1\) is not
+counting an abstract service word; it is counting how many times the same
+annular stress-work transaction is allowed to reverse, reappear, or be
+positively clipped before the parent packet has spent a root-visible change.
+
+On a gauge-reduced transported annulus, set
+
+\[
+T^\sharp=-PI+2\nu S(U),
+\qquad
+D_sU=\nabla\cdot T^\sharp,
+\qquad
+D_s\phi=0,
+\tag{TFE.584}
+\]
+
+and define the same-packet annular stress-work flux
+
+\[
+F_\phi^\sharp(s)
+=
+\int U_iT^\sharp_{ij}\partial_j\phi\,dy .
+\tag{TFE.585}
+\]
+
+The transported local energy identity pays the signed net flux:
+
+\[
+{d\over ds}M_\phi^\sharp(s)+D_\phi^\sharp(s)
+=-F_\phi^\sharp(s).
+\tag{TFE.586}
+\]
+
+For each normalized interval \(J\), the exact scalar rectification lemma gives
+
+\[
+\int_J |F_\phi^\sharp(s)|\,ds
+\le
+\left|\int_J F_\phi^\sharp(s)\,ds\right|
++
+\int_J |(F_\phi^\sharp)'(s)|\,ds .
+\tag{TFE.587}
+\]
+
+The first term is storage plus viscous strain loss by `(TFE.586)`.  The second
+term is the actual positive \(L^1\) remainder: oscillatory back-and-forth
+annular stress-work that has zero or small signed net but large one-way
+positive traffic.  In the entropy/state-count language, this is exactly a
+packet-history branch being reopened after the signed net account has already
+cancelled.
+
+Differentiating `(TFE.585)` stays inside the same coupled packet:
+
+\[
+{d\over ds}F_\phi^\sharp
+=I_1+I_2+I_3,
+\tag{TFE.588}
+\]
+
+where
+
+\[
+I_1=\int(\partial_kT^\sharp_{ik})T^\sharp_{ij}\partial_j\phi\,dy,
+\tag{TFE.589}
+\]
+
+\[
+I_2=\int U_i(D_sT^\sharp_{ij})\partial_j\phi\,dy,
+\qquad
+I_3=-\int U_iT^\sharp_{ij}(\partial_jU_k)(\partial_k\phi)\,dy .
+\tag{TFE.590}
+\]
+
+The sign test is sharp.  The apparently coercive term \(I_1\) is not a
+nonnegative bulk after integration by parts:
+
+\[
+\begin{aligned}
+I_1
+= {}&
+{1\over2}\int |T^\sharp|^2\Delta\phi\,dy \\
+&-\int
+T^\sharp_{ik}
+\left(\partial_kT^\sharp_{ij}-\partial_jT^\sharp_{ik}\right)
+\partial_j\phi\,dy\\
+&-\int T^\sharp_{ik}T^\sharp_{ij}\partial_{kj}\phi\,dy .
+\end{aligned}
+\tag{TFE.591}
+\]
+
+So the flux derivative has no hidden free sign.  Its pieces are pressure
+service, strain/stress derivatives, transported collar geometry, metric/frame
+commutators, velocity-gradient products, and viscous terms on the same packet.
+This proves admission into the coupled packet; it does not prove finite
+variation.
+
+The heat-scale normalization shows why physical energy still misses the
+unweighted terminal count.  If
+
+\[
+t=t_r+r^2s,\qquad x=x_r+ry,\qquad
+V_r=r u,\qquad Q_r=r^2p,
+\tag{TFE.592}
+\]
+
+then
+
+\[
+F_r^{norm}(s)=rF_r^{phys}(t),
+\qquad
+{d\over ds}F_r^{norm}(s)=r^3{d\over dt}F_r^{phys}(t),
+\tag{TFE.593}
+\]
+
+and hence
+
+\[
+\int_{-1}^0 |(F_r^{norm})'(s)|\,ds
+=
+r\int_{t_r-r^2}^{t_r}|(F_r^{phys})'(t)|\,dt .
+\tag{TFE.594}
+\]
+
+A genuine normalized unit event therefore has physical flux variation of order
+\(r^{-1}\) over a physical interval of length \(r^2\).  Multiplying by \(r\)
+returns order one.  That is the same exponent defect as the selected \(L^1\)
+half-tail: physical energy sees a radius-weighted mass, while the terminal
+Gold clock needs the unweighted normalized count.
+
+Thus `(TFE.582)` has the following exact annular-flux form:
+
+\[
+\sum_{\gamma\subset P}
+\int_{J_\gamma}
+|(F_{\phi_\gamma}^{\sharp})'(s)|\,ds
+\le
+C_N(u_0)
++\theta\,\mathsf{Visc}_{P,N}
++R_{\rm legal,P}+Stop_P,
+\qquad \theta<1 .
+\tag{TFE.595}
+\]
+
+This is not a new supplier.  It is `SignedSmoothSamePacketCommutatorCoercivity.A`
+written in the variables where the missing \(L^1\) traffic is visible.  Proving
+`(TFE.595)` gives `(TFE.582)`, then `(TFE.571)`, then the parent-weighted
+first-admission measure and no-recount pushforward.  Without `(TFE.595)`, the
+proof knows where every positive readout comes from, but it has not yet proved
+that the same annular transaction cannot oscillate with finite signed net and
+infinite positive terminal variation.
