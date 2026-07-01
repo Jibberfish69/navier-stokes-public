@@ -15793,3 +15793,246 @@ original coupled packet.  The unproved mathematical producer is exactly the
 construction of that parent-known active capacity and seed/derivative packing
 from arbitrary smooth original data.  That is the current \(L^1\) closure line,
 not a completed smoothness proof.
+
+## 94. No-free-pulse production: the compactness fork is a carrier-measure theorem
+
+The active-capacity fork has an equivalent compactness form.  After derivative
+reset, fixed-score return, legal/stop/reselection, and first-entry ownership are
+removed, a bad sequence for `(TFE.1072)' has
+
+\[
+\int d\Omega_{n}^{sel,+}=1,
+\qquad
+\int d\Lambda_{n}^{der/connection}
++\int d\Lambda_{n}^{birth}
++\int d\mathcal L_{n}^{full}
++R_{{\rm legal},n}
++Stop_n
+\longrightarrow0.
+\tag{TFE.1074}
+\]
+
+This is the normalized no-free-pulse test.  It says: one unit of selected
+positive heat-scale action remains, while the parent score does not move, no
+reset or connection motion is paid, no new native seed is charged, the full
+viscous/Hodge-Stokes packet loss vanishes, and legal/stop loss vanishes.
+
+The compactness-rigidity principle already proves the abstract implication:
+
+\[
+\text{compact same-carrier packet}
++\text{selected activity persistence}
++\text{lower semicontinuity of full loss}
++\text{zero-loss rigidity}
+\Longrightarrow
+\text{strict payment quantum}.
+\tag{TFE.1075}
+\]
+
+The installed lossless full Hodge-Stokes rigidity supplies the last clause.  A
+zero-loss full packet has only Galilean velocity plus affine pressure gauge, so
+any gauge-invariant singular participation readout vanishes:
+
+\[
+\mathcal L_{full}(Y_\infty)=0
+\Longrightarrow
+A_{sel}(Y_\infty)=0.
+\tag{TFE.1076}
+\]
+
+Thus the noncircular compactness proof of `(TFE.1072)' must produce a strong
+same-carrier limit from `(TFE.1074)':
+
+\[
+Y_n\to Y_\infty
+\quad\text{in the full selected participation density,}
+\tag{TFE.1077}
+\]
+
+with the nonnegative selected carrier retained:
+
+\[
+\mu_n^+
+:=
+[h(Y_n)]_+\,d\zeta_n
+\stackrel{*}{\rightharpoonup}
+\mu_\infty^+
+=
+[h(Y_\infty)]_+\,d\zeta_\infty,
+\qquad
+\mu_\infty^+(\mathcal C)\ge c_0>0 .
+\tag{TFE.1078}
+\]
+
+Then `(TFE.1074)' gives \(\mathcal L_{full}(Y_\infty)=0\), `(TFE.1076)' gives
+\(\mu_\infty^+(\mathcal C)=0\), and `(TFE.1078)' contradicts \(c_0>0\).
+
+The reason this is still a theorem-grade producer is the positive carrier
+measure.  Signed-current convergence alone is too weak:
+
+\[
+\delta_{1/n}-\delta_{-1/n}\rightharpoonup0,
+\qquad
+(\delta_{1/n}-\delta_{-1/n})^+(\mathcal C)=1 .
+\tag{TFE.1079}
+\]
+
+So the compact packet must retain the nonnegative selected carrier measure
+\(\mu_n^+\), or charge its escape to selector, connection, reset, legal, stop,
+or birth motion before the child positive readout is counted.
+
+This turns the physical story into one exact production theorem:
+
+\[
+\begin{aligned}
+&\text{vanishing parent-score/reset/birth/full-loss/legal/stop payment}
++\text{normalized selected positive action} \\
+&\qquad\Longrightarrow
+\text{strong same-carrier convergence of the full coupled packet}
+\text{ and retention of }\mu_n^+ .
+\end{aligned}
+\tag{TFE.1080}
+\]
+
+Equivalently, the entropy route asks for a present-time bounded-below
+participation functional
+
+\[
+\mathscr A_N(t)\ge -C_N(u_0),
+\qquad
+d\mathscr A_N+c_N\,d\Omega_N^{sel,+}
+\le
+d\Lambda_N^{der/connection}
++d\Lambda_N^{birth}
++d\mathcal L_N^{full}
++dR_{\rm legal}
++dStop .
+\tag{TFE.1081}
+\]
+
+A future Gramian or descendant-tail definition of \(\mathscr A_N\) is circular:
+
+\[
+\mathscr A_N(t)
+=
+\int_t^{T_*}d\Omega_N^{sel,+}
+\tag{TFE.1082}
+\]
+
+has the right derivative only after the \(L^1\) theorem is already known.  A
+valid \(\mathscr A_N\) has to be built from the present original transported
+pressure-viscosity-incompressibility-velocity packet.
+
+So the \(L^1\) closure problem has now been reduced without changing objects:
+
+\[
+\boxed{
+\text{prove `(TFE.1080)' or construct `(TFE.1081)' from original smooth data.}
+}
+\tag{TFE.1083}
+\]
+
+Both forms say the same physical thing.  A terminal heat-scale selected pulse
+cannot be free: either it is retained as a nonnegative full-packet carrier and
+rigidity kills it in the lossless limit, or it leaves a parent-visible motion,
+reset, connection, native birth, legal, or stop charge.  What is still not
+installed is the production of that carrier retention / present-time entropy
+from arbitrary original data.
+
+## 95. What remains inside carrier retention
+
+The full Hodge-Stokes no-loss attempt narrows `(TFE.1080)' further.  On a fixed
+same-carrier packet, the following strong convergence criterion is already a
+consumer theorem:
+
+\[
+\begin{gathered}
+V_n\to V\text{ in }L^3,
+\qquad
+Q_n\to Q\text{ in }L^{3/2},
+\qquad
+\nabla V_n\to\nabla V\text{ in }L^2,\\
+\chi_n,\Phi_n,\mathcal S_n\to\chi,\Phi,\mathcal S
+\text{ on the same carrier,}
+\qquad
+R_n^{legal}\to R^{legal}\text{ in total variation}
+\end{gathered}
+\tag{TFE.1084}
+\]
+
+implies full packet convergence and hence
+
+\[
+[h(Y_n)]_+\to[h(Y_\infty)]_+
+\quad\text{in }L^1,
+\qquad
+\mu_n^+\to\mu_\infty^+
+\quad\text{in total variation.}
+\tag{TFE.1085}
+\]
+
+This uses only the \(1\)-Lipschitz property of the positive part after the full
+same-carrier density \(h(Y_n)\) has been retained.
+
+Standard suitable-solution compactness is weaker.  It passes the equation and
+gives lower semicontinuity, but it does not by itself produce `(TFE.1085)'.
+After the transport product, local pressure trace, viscous defect, and finite
+selector subcases are routed, failure of `(TFE.1085)' has only four remaining
+forms:
+
+\[
+\begin{array}{ll}
+\text{(C1)}&\text{unbounded positive-part selector complexity or collar/carrier drift,}\\
+\text{(C2)}&\text{a surviving positive carrier whose signed partner is not retained,}\\
+\text{(C3)}&\text{terminal endpoint atom or endpoint storage jump,}\\
+\text{(C4)}&\text{legal/collar routing not uniformly terminal-AC or not summable.}
+\end{array}
+\tag{TFE.1086}
+\]
+
+Thus `(TFE.1080)' is equivalent to proving that every defect in `(TFE.1086)' is
+already charged by the same parent-visible ledgers:
+
+\[
+\mathcal K_{sel/car}
++\mathcal K_{sat}
++\mathcal K_{end}
++\mathcal K_{legal}
+\le
+C\big(
+\Lambda^{der/connection}
++\Lambda^{birth}
++\mathcal L^{full}
++R_{\rm legal}
++Stop
+\big).
+\tag{TFE.1087}
+\]
+
+If `(TFE.1087)' holds, then a sequence satisfying `(TFE.1074)' has none of the
+four carrier-loss defects.  The strong same-carrier criterion `(TFE.1084)' gives
+carrier retention `(TFE.1085)', and lossless rigidity contradicts the normalized
+positive action.
+
+This is the physical bottom of the current \(L^1\) problem.  The pulse is not
+allowed to disappear as a signed cancellation, because the nonnegative carrier
+must persist.  It is not allowed to hide in viscosity, because visible viscous
+defect is full-packet loss.  It is not allowed to hide in pressure memory,
+because local pressure converges with the transport product and harmonic pressure
+is collar/legal/terminal routing.  What remains to prove is exactly that
+selector/collar drift, missing signed partner, terminal atom/storage jump, and
+legal tail are all parent-paid in the same selected critical metric.
+
+So the smallest current production theorem is
+
+\[
+\boxed{
+\text{prove `(TFE.1087)' from the original coupled packet.}
+}
+\tag{TFE.1088}
+\]
+
+Then `(TFE.1088)' gives `(TFE.1080)', `(TFE.1080)' gives the no-free-pulse
+contradiction, and `(TFE.1081)' gives the terminal-uniform \(L^1\) line.  The
+local strong-convergence criterion and the lossless rigidity consumer are
+installed; `(TFE.1087)' is not installed.
