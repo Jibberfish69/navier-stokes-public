@@ -14031,3 +14031,271 @@ compressed fractional coordinate it is `(TFE.913)`.  In material geometry it is
 the production of the selected heat-scale weight from log-scale derivative,
 turnstile, exchange, collar, and pressure-Hodge interface motion of the original
 coupled packet.
+
+## 84. What is still missing in the physical story
+
+The physical story is now sharper than "pressure transports and viscosity
+drains."  One original material signal is being unfolded.  The pressure-Hodge
+part instantly re-coordinates the compatible whole-field packet; the viscous
+part makes that coordinated signal readable through delayed velocity, strain,
+and higher derivative rungs; the new velocity/strain state then feeds back into
+the next pressure-compatible coordinate.  The loop is
+
+\[
+\text{pressure-compatible parent coordination}
+\to
+\text{heat-lag velocity/strain child readout}
+\to
+\text{updated material frame and pressure compatibility}.
+\tag{TFE.964}
+\]
+
+The \(L^1\) problem is not the existence of this loop.  The problem is proving
+that this loop deletes active future states in the selected critical metric
+before the child readout takes its positive part.  A pressure feedback may rotate
+the measuring direction, change a collar, cross an order-lock surface, or restart
+on a smaller transported core.  Those are not new sources.  They are motions of
+the same coupled packet's parent record.
+
+Thus every retained selected positive read must enter exactly one of the
+following parent-known mechanisms before clipping:
+
+\[
+\begin{array}{ll}
+\text{fixed repeated core:}
+& \text{a parent-fixed polar scalar enters a signed BV record;}\\
+\text{negative return:}
+& \text{the same signed record spends original-history return variation;}\\
+\text{shrinking/reset core:}
+& \text{the child carries a critical-weight first-exit/reset charge;}\\
+\text{selector/frame motion:}
+& \text{the measuring direction itself pays parent-known variation;}\\
+\text{legal/stop/endpoint:}
+& \text{the event exits through already typed same-packet material.}
+\end{array}
+\tag{TFE.965}
+\]
+
+This is the missing physical package.  The words "same parent" only identify the
+source history.  They do not by themselves prove that the child used a
+parent-fixed measuring direction.  The extra gate is polar pushdown before
+clipping.
+
+Let \(Y_\gamma\) be the full coupled primitive driver on a retained child
+transaction \(\gamma\), and let \(e_\gamma\) be the child's selected polar
+direction.  The parent record may use only a direction \(e_P\) announced by the
+stopped parent before the child positive readout.  Splitting
+
+\[
+e_\gamma=e_P+\Delta e_\gamma
+\tag{TFE.966}
+\]
+
+gives the exact algebraic boundary:
+
+\[
+[e_\gamma\cdot Y_\gamma]_+
+\le
+[e_P\cdot Y_\gamma]_+
++
+|\Delta e_\gamma|\,|Y_\gamma|.
+\tag{TFE.967}
+\]
+
+The first term is the repeated-core signed BV branch.  It can be pushed through
+`(TFE.940)'--`(TFE.946)' after the parent-fixed signed lift and its finite-return
+derivative bound are proved.  The second term is not allowed to remain as fresh
+positive action.  It is exactly selector, polar-frame, collar, covector, order-lock,
+turnstile, exchange, reset, legal, or stop motion.  Its root estimate is the
+critical weighted parent-child/reselection Carleson estimate:
+
+\[
+\sum_{\gamma\subset P}
+|\Delta e_\gamma|\,|Y_\gamma|
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.968}
+\]
+
+with the scale weight produced from the original log-scale motion as in
+`(TFE.959)'--`(TFE.960)', not inserted after the selected child is found.
+
+This also explains why the entropy/chess picture matters.  A child readout is a
+move in the compatible-history game only when `(TFE.966)'--`(TFE.968)' have
+already put its measuring direction into the parent record.  Then the active
+entropy capacity loses the family of future histories opened by that move:
+
+\[
+\mathcal C_P^{act}
+-\sum_{C\in ch(P)}\mathcal C_C^{act}
+\ge
+c\,d\Omega_P^{+}
+-\theta\nu D\,dt
+-dPaid_P,
+\qquad \theta<1.
+\tag{TFE.969}
+\]
+
+If the selected polarity is chosen after the child readout, the same signed
+oscillation of the parent packet can be clipped as positive at many ratio levels.
+That is the half-tail failure in physical form: the fluid has not created new
+energy, but the proof has let the measuring coordinate move without paying for
+the motion, so finite square mass can still produce infinite selected positive
+route length.
+
+Therefore the complete current \(L^1\) closure package is:
+
+\[
+\begin{gathered}
+\text{full-output order-lock before positive clipping,}\\
+\text{parent-known carrier }Z^S\text{ from the coupled pressure-Hodge-strain-frame packet,}\\
+\text{parent-fixed polar pushdown `(TFE.966)'--`(TFE.968)',}\\
+\text{finite return as negative variation of that same parent-fixed score,}\\
+\text{critical weighted reset/reselection packing `(TFE.956)'--`(TFE.957)',}\\
+\text{active entropy deletion `(TFE.969)' with root bound `(TFE.854)'.}
+\end{gathered}
+\tag{TFE.970}
+\]
+
+These are not six unrelated walls.  They are the six faces of one physical
+statement: the coupled pressure-viscosity-incompressibility-velocity packet may
+re-coordinate its remaining futures, but every such re-coordinate is either a
+parent-fixed signed record, a finite return, a critical reset/reselection charge,
+or typed same-packet exit material before any child positive \(L^1\) read is
+counted.  Proving `(TFE.970)' from the original data would prove `(TFE.925)',
+then `(TFE.913)', then terminal-uniform \(L^1\).  The repo has conditional
+consumer proofs for each downstream implication; the uninstalled mathematical
+producer is exactly `(TFE.970)'.
+
+## 85. Source audit correction: return and reset are consumers of the parent-fixed score
+
+The source audit sharpens `(TFE.970)`.  Negative return and reset should not be
+left sounding like independent reservoirs.  They are consumers once the
+parent-known stopped score and root-geometry currency exist.
+
+On a fixed stopped core, the already written fixed-score closure uses a
+parent-known channel \(\Gamma_R\) and routed carrier \(Z^S\), and defines
+
+\[
+P_R=\Gamma_R Z^S.
+\tag{TFE.971}
+\]
+
+The selected positive read is then positive variation of this pre-existing
+score:
+
+\[
+A_{\rm sel}(Q_k\to Q_{k+1})
+\lesssim
+[P_R(Q_{k+1})-P_R(Q_k)]_+
++R_{\rm legal}.
+\tag{TFE.972}
+\]
+
+The negative return is paid by the same score derivative:
+
+\[
+\partial_\sigma P_R
+=
+\Gamma_R(\partial_\sigma Z^S)
++(\partial_\sigma\Gamma_R)Z^S,
+\tag{TFE.973}
+\]
+
+where \((\partial_\sigma\Gamma_R)Z^S\) is selector, frame, connection,
+turnstile, exchange, covector, order-lock, collar, or legal motion.  Thus,
+relative to the parent-known root geometry/current currency,
+
+\[
+\operatorname{Var}^-(P_R)
+\le
+C
+\int_{\operatorname{Hist}(P)}
+w\left(
+|\partial_\sigma Z^S|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
++|\operatorname{conn}_\sigma|^2
+\right)
++Paid(P).
+\tag{TFE.974}
+\]
+
+So `StoppedNegativeScaleReturnCharge.A' is not an additional Gold wall after the
+parent-fixed score is produced.  It is the negative-variation face of the same
+root-geometry estimate.
+
+The reset side has the same structure.  For a strict reset edge \(e\), the
+announced-reset Cauchy reduction requires a parent-announced interval \(I_e\) and
+
+\[
+D_e
+=
+{|I_e|}^{-1}
+\int_{I_e}
+\left(
+\partial_\sigma Z
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
+\right)d\sigma
++Err_e^{legal}.
+\tag{TFE.975}
+\]
+
+With the harmonic active weight \(H_{I_e}\), Cauchy cancels the dangerous dual
+factor and gives
+
+\[
+H_{I_e}\|D_e\|^2
+\le
+\int_{I_e}
+w\left|
+\partial_\sigma Z
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
+\right|^2d\sigma
++Paid_e.
+\tag{TFE.976}
+\]
+
+The reset-witness overlap note proves the summation once the witnesses are
+maximal parent-announced first-exit slabs from a finite stopped-score system:
+
+\[
+\sum_{e\subset P}1_{I_e\times T_e}
+\le
+C_{\rm score}C_{\rm lam}+R_{\rm legal}.
+\tag{TFE.977}
+\]
+
+Thus the reset half-tail is killed after two structural facts are available:
+the reset is announced by a parent-known finite score, and the parent score
+derivative is original-history material.  Arbitrary future-selected reset
+intervals are still false, but they are no longer the object.
+
+The corrected missing producer is therefore narrower than `(TFE.970)' makes it
+look if read as a list.  What remains to be produced from the original coupled
+Navier--Stokes packet is
+
+\[
+\boxed{
+\begin{gathered}
+\text{a parent-known finite stopped-score / polar-frame system,}\\
+\text{a root Carleson bound for its derivative, connection, and log-amplification}\\
+\text{in the selected critical metric,}\\
+\text{and full-output order-lock before child positive clipping.}
+\end{gathered}
+}
+\tag{TFE.978}
+\]
+
+Once `(TFE.978)' is proved, fixed-core positive reads become score variation
+with finite return, strict resets become first-exit derivative averages with
+bounded overlap, moving polarity becomes paid connection motion, and shrinking
+freshness becomes the critical weighted reset/reselection packing.  Then
+`(TFE.969)' is exactly the active entropy deletion inequality, and the
+terminal-uniform \(L^1\) line follows by the already installed deterministic
+telescope.
