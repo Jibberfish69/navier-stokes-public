@@ -22655,3 +22655,598 @@ If `(TFE.1529)' is proved, the compactness tree closes `(TFE.1516)', hence
 `(TFE.1517)' gives terminal-uniform \(L^1\) and FGC.25.  The repo does not yet
 prove `(TFE.1529)'.  This is the current smallest source wall exposed by the
 physical pressure-heat-viscous feedback story.
+
+## 133. What TFE.1529 is really missing physically
+
+Audit `(TFE.1529)' against the root-defect, affine-quotient, native-reserve,
+and positive-critical-transfer surfaces.  The two displayed clauses
+`(TFE.1525)' and `(TFE.1527)' are not two independent physical reservoirs.
+They are two ways the same missing parent-state counter can fail to see a
+retained selected positive future.
+
+The high-frequency tower-tail side has already been reduced.  Derivative-exact
+tail is paid by one extra parent tower rung; heat-resident tail is paid by
+viscous residence; connection, frame, covector, turnstile, selector, legal,
+and stop tails are route/material motion.  The only high-band piece not paid by
+those mechanisms is the persistent non-derivative affine/root quotient:
+
+\[
+D_e^{pers}
+=
+(I-\Pi_{\mathcal P_{e^-}})
+\mathcal C_\theta[Z_e^{fresh}].
+\tag{TFE.1530}
+\]
+
+Thus `(TFE.1525)' is not asking for a new generic compactness theorem.  It asks
+for a parent-known tower/root density strong enough to force every surviving
+tail into the same persistent quotient class, and then to route that quotient
+into the active parent counter rather than into a descendant-selected tail.
+
+The affine/root quotient side has also already been reduced.  The exact
+scale-derivative part is a consumer.  Repeated-core motion is a signed
+parent-score problem: once the stopped score is realized before clipping,
+positive motion is record growth plus same-score negative return.  Strict
+first-exit reset is a parent-announced Cauchy average.  What remains is the
+positive affine quotient average
+
+\[
+c_F^{fresh}
+=
+A_\kappa M_0^{fresh}+B_\kappa M_1^{fresh},
+\qquad
+M_i^{fresh}
+=
+\int_J \sigma^i\widetilde Z^{fresh}(\sigma,t,x)\,d\sigma ,
+\quad i=0,1.
+\tag{TFE.1531}
+\]
+
+This quotient is the mathematical form of the physical worry: the pressure
+front can re-coordinate the same packet state before velocity/strain readout is
+large, and later heat-lag children can see positive pieces of that
+recoordination at higher ratios.  Raw energy sees square mass.  The \(L^1\)
+count sees how many selected future states were opened.  A persistent affine
+quotient is dangerous exactly when it changes that state count without a
+parent log/current record, without a scale-native first-birth debit, and
+without terminal time thickness.
+
+Therefore the real source theorem below `(TFE.1529)' is the following
+consolidated parent-capacity statement.
+
+\[
+\begin{gathered}
+\texttt{ParentActiveCapacityThreeToothSource.A:}\\
+\text{construct, before child positive clipping, a parent selected
+current/density record}\\
+\text{\(J_P^S,Z_P^S,f_P\), a native depletion storage
+\(\mathcal B_P^{nat}\),}\\
+\text{and a root-fixed endpoint density \(b_P(t)\) from the original coupled
+packet,}\\
+\text{such that every retained full-output selected positive action satisfies}
+\end{gathered}
+\tag{TFE.1532}
+\]
+
+\[
+dA_{P,act}^{+}
+\le
+dA_{P,log}^{+}
++dA_{P,nat}^{+}
++b_P(t)\,dt
++dPaid_P,
+\tag{TFE.1533}
+\]
+
+with the three source teeth
+
+\[
+\begin{gathered}
+dA_{P,log}^{+}
+\le
+f_P\,d\mathcal R_P^{orig},\\
+\log {f_Q\over f_{\operatorname{par}(Q)}}
+=
+\ell_Q(\Delta_QZ_P^S)-\psi_Q+e_Q,\\
+\sup_{Q\subset P}
+{1\over\mathcal R(Q)}
+\sum_{Q'\subset Q}
+\left(\|\Delta_{Q'}Z_P^S\|^2+|\psi_{Q'}|^2+|e_{Q'}|^2\right)
+\mathcal R(Q')
+\le C_N(u_0)+Paid(Q),
+\end{gathered}
+\tag{TFE.1534}
+\]
+
+\[
+\begin{gathered}
+dA_{P,nat}^{+}
+\le
+-d\mathcal B_P^{nat}
++\theta\nu D_c(t)\,dt
++dPaid_P,
+\qquad
+0\le\mathcal B_P^{nat}\le C_N(u_0)\mathcal R(P)+Paid(P),\\
+\sum_{\gamma\subset P}\omega_\gamma
+\le
+C\int_{\operatorname{Hist}(P)}dA_{P,nat}^{+}+Paid(P),
+\qquad
+\theta<1,
+\end{gathered}
+\tag{TFE.1535}
+\]
+
+and
+
+\[
+d\mu_P^{end}
+\le
+b_P(t)\,dt+dPaid_P,
+\qquad
+\int_0^{T_*}b_P(t)\,dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1536}
+\]
+
+Here \(dA_{P,log}^{+}\) is the selected log/current-density face, not an
+entropy decoration.  It records which future packet states became accessible.
+The native tooth is the first-birth/positive-critical-transfer face; it says a
+new selected scale-native state spends critical parent reserve exactly once.
+The endpoint tooth is the terminal no-replay face; it prevents a root-fixed
+zero-thickness terminal trace from being counted at every smaller heat window.
+
+The missing exhaustion clause is that the persistent quotient `(TFE.1530)'--`(TFE.1531)'
+has no fourth location:
+
+\[
+D_e^{pers}
+\Longrightarrow
+dA_{P,log}^{+}
+\quad\text{or}\quad
+dA_{P,nat}^{+}
+\quad\text{or}\quad
+b_P(t)\,dt
+\quad\text{or}\quad
+dPaid_P .
+\tag{TFE.1537}
+\]
+
+This is the physical content that was still missing from the \(L^1\) story.
+The pressure-compatible part may arrive first and may be the last part to be
+resolved in the child readout, but its ability to re-coordinate future states
+must be visible in the parent state counter before the child measures positive
+action.  Viscosity does not have to transport the instantaneous response; it
+supplies the heat-scale descent and strict critical margin once a selected
+future has been admitted to the parent counter.  Incompressibility is not a
+separate variable to be paid after the fact; it is part of the same
+pressure-Hodge/current record \(J_P^S\) whose selected density is measured by
+`(TFE.1534)'.
+
+If `(TFE.1532)'--`(TFE.1537)' hold, then `(TFE.1525)' and `(TFE.1527)' follow.
+Indeed, all derivative, heat-resident, motion, reset, return, legal, and stop
+pieces are already consumers.  The only survivor is \(D_e^{pers}\), and
+`(TFE.1537)' routes it into one of the three parent source teeth.  The
+log-density tooth gives the entropy/reverse-Holder root bound, the native
+tooth gives the strict positive-critical margin, and the endpoint tooth gives
+terminal uniform integrability.  Hence
+
+\[
+\begin{gathered}
+\text{`(TFE.1532)'--`(TFE.1537)'}\\
+\Longrightarrow
+\text{`(TFE.1525)' + `(TFE.1527)'}\\
+\Longrightarrow
+\text{`(TFE.1528)'}\\
+\Longrightarrow
+\text{`(TFE.1516)'}\\
+\Longrightarrow
+\text{terminal-uniform \(L^1\) and `(FGC.25)'.}
+\end{gathered}
+\tag{TFE.1538}
+\]
+
+The downstream absorption is the same strict-margin algebra as before.  The
+selected full-output critical readout satisfies
+
+\[
+\int_0^\tau [B^{crit}(t)]_+\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau D_c(t)\,dt
++Paid,
+\qquad
+\theta<1,
+\tag{TFE.1539}
+\]
+
+and the critical identity gives
+
+\[
+E_c' + \nu D_c = B^{crit}.
+\tag{TFE.1540}
+\]
+
+Therefore
+
+\[
+E_c(\tau)
++(1-\theta)\nu\int_0^\tau D_c(t)\,dt
+\le
+C_N(u_0)+Paid,
+\qquad
+\tau<T_*,
+\tag{TFE.1541}
+\]
+
+so the positive selected \(L^1\) bill is terminal-uniform.
+
+This section does not prove Gold.  It identifies everything still physically
+missing at the bottom of the \(L^1\) problem: the original coupled packet must
+produce a before-clipping parent active state counter with log/current density,
+strict scale-native depletion, and terminal time-thickness, and it must prove
+that the persistent affine/root quotient cannot survive outside those three
+teeth.  That is the exact mathematical version of the physical story: the
+number of accessible future states can decrease only if the parent packet
+actually carries the state-deletion record before the child readout turns it
+into positive action.
+
+## 134. Pushdown of the three teeth to two source records
+
+The three teeth in `(TFE.1534)'--`(TFE.1536)' still mix source statements with
+consumer consequences.  The checked older surfaces sharpen the bottom one more
+step.
+
+The selected log/current-density tooth is a source only until the stopped
+routed participation current has been constructed with a Carleson square
+packing bound.  Once
+
+\[
+\nu_P^S
+=
+D_AJ_P^S+\nu_{P,stop}^S+\nu_{P,legal}^S
+\tag{TFE.1542}
+\]
+
+and
+
+\[
+\sup_{Q\subset P}
+{1\over \mathcal R(Q)}
+\left[
+\int_{\widehat Q}|J_P^S|^2\,d\mathcal R
++Stop(\widehat Q)+R_{\rm legal}(\widehat Q)
+\right]
+\le C_N(u_0)
+\tag{TFE.1543}
+\]
+
+are proved from original history before child clipping, the Hilbert/Hodge/BMO
+carrier is downstream:
+
+\[
+T_S(D_AJ_P^S)=\Pi_{\nabla,A}J_P^S,
+\qquad
+\log {f_Q\over f_{\operatorname{par}(Q)}}
+=
+\ell_Q(\Delta_QZ_P^S)-\psi_Q+e_Q .
+\tag{TFE.1544}
+\]
+
+So the log-density tooth is not a free entropy source.  It is the visible
+state-counter face of a same-material current record.  The real current source
+record is
+
+\[
+\mathsf{Cur}_P
+:=
+(J_P^S,Z_P^S,\Psi_P^S,\Lambda_P^S)
+\tag{TFE.1545}
+\]
+
+with stopped square packing, accretive testing, and selected-chart
+nondegeneracy built before child positive readout.  Repeated-core return,
+selector log amplification, strict derivative reset, and the persistent
+affine/root quotient are then faces of this one record, provided the quotient
+is not a genuinely first scale-native birth.
+
+The direct current test shows why `(TFE.1543)' is still not raw \(L^2\).
+Finite current energy permits the half-tail
+
+\[
+|J_\ell|^2\mathcal R(Q_\ell)
+\simeq {2^{-\ell}\over \ell+1},
+\qquad
+\sum_\ell |J_\ell|^2\mathcal R(Q_\ell)<\infty,
+\qquad
+\sum_\ell 2^\ell |J_\ell|^2\mathcal R(Q_\ell)=\infty.
+\tag{TFE.1546}
+\]
+
+Thus `(TFE.1543)' must come from stopped square packing of the same current,
+not from total current size:
+
+\[
+\sum_{Q\subset P}
+\left[
+\int_{\widehat Q}|J_P^S|^2\,d\mathcal R+Stop(Q)
+\right]
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P).
+\tag{TFE.1547}
+\]
+
+The older branch audit reduces failures of `(TFE.1547)' to fixed-core return
+and strict reset defects.  In the present notation:
+
+\[
+\operatorname{Def}_{cur}(P)
+\le
+C\,RetBV(P)+C\,ResetBV(P)+R_{\rm legal}(P).
+\tag{TFE.1548}
+\]
+
+These are consumers after the current record is realized.  Fixed return is
+signed score variation of \(Z_P^S\); strict derivative reset is the
+parent-announced Cauchy average.  A reset that is not derivative-exact is not a
+current-square-packing defect any more.  It is a first scale-native birth and
+must enter the native record below.
+
+The second source record is the first-birth endpoint/native record.  The
+native-birth audit identifies the selected-scale atom as a fresh positive
+affine endpoint-mass window.  For a first retained scale-native birth
+\(\gamma\), after spent-source projection and paid removals, the positive
+affine quotient has
+
+\[
+0\le c_{F,\gamma}^{fresh}(t,x)
+\le
+C\,M_{0,\gamma}^{fresh}(t,x),
+\qquad
+M_{0,\gamma}^{fresh}
+=
+\int_{J_\gamma}\widetilde Z_\gamma^{fresh}(\sigma,t,x)\,d\sigma .
+\tag{TFE.1549}
+\]
+
+Define the endpoint-threaded native atom
+
+\[
+\rho_\gamma^{EP}
+:=
+\int_{I_\gamma}
+H_{w,\gamma}(t)
+\|M_{0,\gamma}^{fresh}(t)\|_{L_x^2}^2\,dt
++DER(\gamma)+R_{\rm thread}(\gamma).
+\tag{TFE.1550}
+\]
+
+The lower admission and packing theorem needed for the native tooth becomes
+
+\[
+\omega_\gamma
+\le
+C_N\rho_\gamma^{EP}+R_{\rm legal}(\gamma),
+\tag{TFE.1551}
+\]
+
+and
+
+\[
+\sum_{\gamma\subset P}\rho_\gamma^{EP}
+\le
+C_N(u_0)\mathcal R(P)
++R_{\rm legal}(P)
++C\,RetBV(P)
++C\,CriticalResetBV(P).
+\tag{TFE.1552}
+\]
+
+After `(TFE.1548)', the return/reset terms in `(TFE.1552)' are already routed
+back to the current record or to derivative reset Cauchy.  The remaining
+nonconsumer part is the fresh positive endpoint-mass estimate itself:
+
+\[
+\int_0^{T_*}H_w(t)\|M_0^{fresh}(t)\|_2^2\,dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1553}
+\]
+
+This is the native scale-critical source in endpoint-threaded form.  It is the
+same object as positive critical transfer, but it names the physical atom more
+accurately: a first selected pressure-compatible birth leaves a positive
+endpoint seed that is spent once, returned, reset-paid, or terminated.
+
+The terminal tooth is not a third unrelated reservoir.  It is the time-face
+regularity of the endpoint/native record.  Direct terminal anti-atom attempts
+show that finite \(L^1\) source mass alone allows
+
+\[
+g_m(s)=m\,1_{(-1/m,0]}(s)
+\rightharpoonup \delta_{s=0}.
+\tag{TFE.1554}
+\]
+
+Therefore the endpoint record must satisfy a real time-thickness/no-residue
+line, either
+
+\[
+d\mu_P^{end}\le b_P(t)\,dt+dPaid_P,
+\qquad
+\int_0^{T_*}b_P(t)\,dt\le C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1555}
+\]
+
+or the full-packet no-residue inequality
+
+\[
+\left[\mathcal C_\sigma^{full}\right]_{\mathcal S,+}
+\le
+\varepsilon\nu D_\sigma
+-\partial_\sigma\Phi_\sigma
++T_\sigma
++R_{\rm legal}(\sigma),
+\qquad
+\inf_\sigma\Phi_\sigma>-\infty,
+\quad
+T_\sigma,R_{\rm legal}\in L^1_\sigma .
+\tag{TFE.1556}
+\]
+
+The second form keeps the whole Hodge-Stokes participation packet intact at
+the terminal face.  It prevents the scalar source-square residue from being
+created by splitting pressure, viscosity, transport, divergence, cutoff, and
+sign channels before the positive selected readout has been paid.
+
+Thus the three-tooth source theorem reduces to two source records:
+
+\[
+\begin{gathered}
+\texttt{CurrentRecordSquarePacking.A: prove `(TFE.1542)'--`(TFE.1548)'
+from original history;}\\
+\texttt{EndpointThreadedNativeNoResidue.A: prove `(TFE.1549)'--`(TFE.1556)'
+from original history.}
+\end{gathered}
+\tag{TFE.1557}
+\]
+
+The no-fourth-location clause becomes sharper:
+
+\[
+D_e^{pers}
+\Longrightarrow
+\begin{cases}
+\text{same-current record motion, paid by `(TFE.1542)'--`(TFE.1548)';}\\
+\text{first endpoint/native seed, paid by `(TFE.1549)'--`(TFE.1553)';}\\
+\text{root-fixed terminal no-residue/time-thickness, paid by `(TFE.1555)' or `(TFE.1556)';}\\
+\text{legal/stop/selector/collar/full-exchange material.}
+\end{cases}
+\tag{TFE.1558}
+\]
+
+Physically, this is the cleanest current picture.  One part of the parent
+packet records how the same selected state is reoriented through pressure,
+strain, frame, and heat-lag readout.  The other part records genuinely new
+scale-native endpoint seeds.  Terminal thickness is the statement that the
+endpoint seed cannot be replayed at zero time as infinitely many fresh child
+windows.  Viscosity supplies the heat-residence descent and the strict critical
+absorption after these records exist; it is not the actuator of instantaneous
+compatibility propagation.
+
+If `(TFE.1557)' and `(TFE.1558)' are proved, then the section 133 theorem
+`(TFE.1532)'--`(TFE.1537)' follows, hence `(TFE.1538)'--`(TFE.1541)' give the
+terminal-uniform \(L^1\) line.  The repo has many consumer pieces of
+`(TFE.1557)', including fixed-score return, derivative reset Cauchy, current
+projection, and lossless full-packet rigidity.  It does not yet prove the two
+source records from arbitrary smooth original data.
+
+## 135. Current-record noncircularity audit
+
+The first record in `(TFE.1557)' still has a noncircularity trap.  The transform
+side is settled once the selected source is kept as a divergence of the
+same-material participation current:
+
+\[
+T_S(D_AJ_P^S)=\Pi_{\nabla,A}J_P^S.
+\tag{TFE.1559}
+\]
+
+Thus stopped Hilbert/BMO testing is not an independent obstruction after the
+current factorization.  The remaining estimate is the current Carleson bound
+`(TFE.1543)' or its square-packing form `(TFE.1547)'.
+
+The natural route is to dominate the stopped routed current by an original
+full-packet material density.  Write
+
+\[
+(\partial_\sigma Z,T_\sigma,E_\sigma,C_\sigma)
+=
+\mathcal R_{stop}\mathfrak D_{full}+Err_{\rm legal}+Err_{\rm stop},
+\tag{TFE.1560}
+\]
+
+with the bounded stopped projection estimate
+
+\[
+\|\mathcal R_{stop}v\|_w^2
+\le
+C_R\|v\|_{\Theta_{full}}^2 .
+\tag{TFE.1561}
+\]
+
+Then
+
+\[
+\mathcal E_{route}(P)
+\le
+C_R\int_{\operatorname{Hist}(P)}\Theta_{full}
++R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1562}
+\]
+
+This is noncircular only when
+
+\[
+\int_{\operatorname{Hist}(P)}\Theta_{full}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P)
+\tag{TFE.1563}
+\]
+
+is already produced from original same-material history before selected
+first-ratio action is used.  If `(TFE.1563)' is the full-clock/L1 conclusion
+being proved by the selected-current route, then `(TFE.1562)' is only a
+subledger after closure, not a source.
+
+Therefore `CurrentRecordSquarePacking.A' has two lawful source routes:
+
+\[
+\begin{gathered}
+\text{Route I: independent full-packet material clock `(TFE.1560)'--`(TFE.1563)';}\\
+\text{Route II: direct stopped current square packing `(TFE.1547)' with
+defects paid by `(TFE.1548)'.}
+\end{gathered}
+\tag{TFE.1564}
+\]
+
+Route I is clean but requires an independently produced full packet clock.
+Route II is the direct current route, and the checked branch audit says:
+
+\[
+\begin{gathered}
+\text{fixed-core return is closed relative to the parent current/root weight;}\\
+\text{derivative-exact reset is closed by parent-announced Cauchy;}\\
+\text{non-derivative reset is not a current defect; it is a first
+scale-native birth.}
+\end{gathered}
+\tag{TFE.1565}
+\]
+
+So the current record does not produce the selected-critical weight by itself.
+It organizes inherited/repeated/current-motion state changes, and it routes
+non-derivative freshness into the endpoint/native record.
+
+The source package after this audit is:
+
+\[
+\begin{gathered}
+\texttt{CurrentRecordSquarePacking.A}\\
+\text{from an independent full-packet clock or direct current Carleson;}\\
++\\
+\texttt{EndpointThreadedNativeNoResidue.A}\\
+\text{for first scale-native endpoint seeds and terminal time-thickness.}
+\end{gathered}
+\tag{TFE.1566}
+\]
+
+The second line is the only place where the half-tail selected-critical weight
+can still enter after fixed return, derivative reset, Schur/Bessel first entry,
+and no-recount are removed.  In physical terms, the current record tells which
+same packet state is being reoriented; the endpoint/native record tells whether
+a genuinely new future state has been born and whether it can survive to the
+terminal face without time thickness.
+
+This keeps the proof from making the old mistake of treating routed-current
+energy as an original source when it is only a bounded projection of a full
+packet clock that still needs to be produced.
