@@ -21072,3 +21072,556 @@ This still does not prove Gold.  It replaces the vague missing \(L^1\) story by
 the concrete original-data theorem `(TFE.1423)'--`(TFE.1425)' plus terminal
 no-atom.  Those are the objects that would make `(TFE.1395)' a theorem instead
 of a target inequality.
+
+## 126. What the entropy story is actually being used for
+
+The entropy story is the state-counter part of the physical picture, not a
+separate proof source.  The parent packet is carrying the finite list of
+selected futures still accessible to the same coupled
+pressure-viscosity-incompressibility-velocity history.  Pressure can
+re-coordinate that list instantly after each material-frame update; heat and
+viscosity decide when a child readout becomes visible; self-advection moves the
+frame in which the next pressure problem is solved.  The \(L^1\) theorem asks
+whether this feedback loop deletes selected futures fast enough before the
+child clips positive action.
+
+Mathematically, the current state counter is the parent-current selected
+density \(f_{pc}\) from `(TFE.1423)'--`(TFE.1425)'.  Once it exists with root
+square-function control, the deterministic deletion algebra is finished.  For
+children \(Q\subset P\), set
+
+\[
+r_Q={f_{pc,Q}\over f_{pc,P}}.
+\tag{TFE.1427}
+\]
+
+The entropy drop contains the high-ratio selected count:
+
+\[
+\operatorname{Ent}_P(f_{pc})
+-
+\sum_{Q\subset P}\operatorname{Ent}_Q(f_{pc})
+\ge
+\sum_{Q\subset P}f_{pc,Q}\mathcal R(Q)\log r_Q
+-Paid(P).
+\tag{TFE.1428}
+\]
+
+Therefore a child that becomes selected at ratio \(r_Q\ge 2^L\) must spend at
+least \(L\log2\) units of parent active entropy per unit selected mass:
+
+\[
+f_{pc,Q}\mathcal R(Q)
+\le
+{1\over L\log2}
+\left[
+\operatorname{Ent}_P(f_{pc})
+-
+\sum_{Q\subset P}\operatorname{Ent}_Q(f_{pc})
++Paid(P)
+\right].
+\tag{TFE.1429}
+\]
+
+This is exactly Thomas's chess-state picture in packet form.  Each real
+selected readout removes a family of future possibilities from the parent
+packet.  A replayed same state has already been admitted to the parent density;
+a moved state is route/frame/selector/return/legal/stop material; a genuinely
+new state must appear as a new log-density increment.  The half-tail is
+precisely the case where raw square mass is finite but this active entropy is
+not.
+
+Thus the current closure chain is:
+
+\[
+\begin{gathered}
+\text{selected-density capture `(TFE.1423)'}\\
++\text{log-density representation `(TFE.1424)'}\\
++\text{root square-function bound `(TFE.1425)'}\\
+\Longrightarrow
+\text{reverse Holder / active entropy root bound}\\
+\Longrightarrow
+\text{strict selected-state deletion}\\
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\end{gathered}
+\tag{TFE.1430}
+\]
+
+So the entropy layer is not what is missing.  What is missing is the original
+Navier--Stokes source that produces `(TFE.1423)'--`(TFE.1425)' for the same
+parent packet before child positive clipping.
+
+The source of `(TFE.1423)' is actual selected-density capture:
+
+\[
+d\mu_{\rm root}^{sel}
+\le
+C f_{pc}\,d\mathcal R_{\rm root}
++dPaid+dEnd .
+\tag{TFE.1431}
+\]
+
+Physically, this says the selected meter is not allowed to invent a child
+population after the readout.  The population counted by the child must already
+be visible as parent active density, or it must be paid by motion, return,
+route, legal, stop, or endpoint material.  The installed full-output
+admission/no-recount algebra is support for this line, but the density
+domination itself still has to be proved in the selected-critical metric.
+
+The source of `(TFE.1424)' is the parent-current log record:
+
+\[
+\Delta_Q\log f_{pc}
+=
+\ell_Q(\Delta_QZ_{pc})
+-\psi_Q+e_Q+\Delta_Q^{lab}.
+\tag{TFE.1432}
+\]
+
+Physically, this is the pressure-heat-viscous feedback written as a measurable
+state update.  \(\Delta_QZ_{pc}\) is the real parent-current change; \(\psi_Q\)
+is the monotone compensator saying a previously opened state was deleted;
+\(e_Q\) is paid analytic error; \(\Delta_Q^{lab}\) is paid movement of the
+selector/frame/label.  The representation fails exactly when a child selected
+crest changes the count without any parent-current log record.
+
+The source of `(TFE.1425)' is the root finite square function:
+
+\[
+\sup_{P'\subset P}
+{1\over \mathcal R_{\rm root}(P')}
+\sum_{Q\subset P'}
+\left(
+\|\Delta_QZ_{pc}\|_{\mathcal H_P}^2
++|e_Q|^2
++|\Delta_Q^{lab}|^2
+\right)
+\mathcal R_{\rm root}(Q)
+\le C_N(u_0)+R_{\rm legal}(P')+Stop(P').
+\tag{TFE.1433}
+\]
+
+Physically, this is the finite state-motion budget.  Pressure feedback may
+keep re-solving compatibility, but every time it changes the selected active
+state counter, that change must be seen as square-summable parent-current
+motion, paid label/frame movement, legal/stop material, or endpoint material.
+This is the exact place where finite raw energy is too weak: it controls
+unweighted square mass, while `(TFE.1433)' controls the log-density increments
+that count selected future arrangements.
+
+Below `(TFE.1431)'--`(TFE.1433)' the missing proof splits into the two physical
+branches already isolated in the repo.
+
+Repeated-core branch:
+
+\[
+Y_P\,d\sigma=d\Psi_P+dE_P,
+\qquad
+|dE_P|\le dPaid_P,
+\qquad
+\Psi_P\ge -C_N(u_0)-Paid_P.
+\tag{TFE.1434}
+\]
+
+The same parent-fixed score is being pushed again.  Closing this branch means
+constructing \(\Psi_P\) before child clipping and proving that positive motion
+of the score is paid by bounded record growth plus negative return of the same
+score.  This supplies the repeated-core part of \(\Delta_QZ_{pc}\) and its
+square function.
+
+Shrinking-core branch:
+
+\[
+F_\gamma(t)
+=
+{1\over |I_\gamma|}
+\int_{I_\gamma}G_P(\sigma,t)\,d\sigma
++Err_\gamma^{paid}(t),
+\qquad
+W_\gamma(t)
+=
+{|I_\gamma|^2\over\int_{I_\gamma}a_P(\sigma,t)^{-1}\,d\sigma}.
+\tag{TFE.1435}
+\]
+
+Weighted Cauchy gives the critical payment
+
+\[
+W_\gamma\|F_\gamma\|^2
+\le
+C\int_{I_\gamma}a_P\|G_P\|^2+dPaid_\gamma,
+\tag{TFE.1436}
+\]
+
+and the root bound needed is
+
+\[
+\int_{\operatorname{Hist}(P)}
+a_P(\sigma,t)\|G_P(\sigma,t)\|^2\,d\sigma dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1437}
+\]
+
+This is the heat-lag finite-difference version of the same physical point.  A
+smaller child packet can count as fresh only when the parent history already
+announced the active weight, the averaging interval, and the generator.  If
+those are chosen after the child crest is seen, the proof has recounted the
+same pressure-compatible pulse as new positive action.
+
+Endpoint branch:
+
+\[
+\lim_{\rho\downarrow0}\sup_{z_0}
+\mu_P^{end}(T_\rho(z_0))=0
+\quad\text{or}\quad
+\sup_P\int_{-1}^{0}(-s)^{-\alpha}\,d\mu_P^{end}(s)<\infty.
+\tag{TFE.1438}
+\]
+
+This is not a leftover bucket.  It is the terminal version of the same state
+counter: after the last heat-lag readouts of the same packet, no zero-thickness
+terminal trace may be replayed as new positive selected action at every smaller
+window.
+
+Everything still missing to close \(L^1\) is therefore the following original
+coupled source theorem:
+
+\[
+\boxed{
+\begin{gathered}
+\text{construct \(f_{pc}\), \(Z_{pc}\), \(\psi\), and the active root measure
+from the original}\\
+\text{pressure-viscosity-incompressibility-velocity packet before child
+positive clipping,}\\
+\text{prove selected-density capture `(TFE.1431)', log-record representation
+`(TFE.1432)',}\\
+\text{root square-function bound `(TFE.1433)', repeated-core signed lift
+`(TFE.1434)',}\\
+\text{shrinking-core active generator bound `(TFE.1435)'--`(TFE.1437)', and
+endpoint no-atom `(TFE.1438)'.}
+\end{gathered}}
+\tag{TFE.1439}
+\]
+
+With `(TFE.1439)' installed, the downstream proof is no longer open:
+
+\[
+\begin{gathered}
+\text{`(TFE.1439)'}\\
+\Longrightarrow
+\text{`(TFE.1423)'--`(TFE.1425)'}\\
+\Longrightarrow
+\text{active entropy / reverse Holder}\\
+\Longrightarrow
+\sum_Q A_Q^{full,+}\le C_N(u_0)+Paid\\
+\Longrightarrow
+\sup_{\tau<T_*}\int_0^\tau [B^{crit}(t)]_+\,dt
+\le C_N(u_0)+\theta\nu\int_0^\tau D_c(t)\,dt+Paid\\
+\Longrightarrow
+\text{`(FGC.25)'.}
+\end{gathered}
+\tag{TFE.1440}
+\]
+
+This is the rigorous version of the physical story.  Finite initial energy is
+the raw square budget.  The entropy/log-density root square function is the
+state-count budget.  The remaining mathematical work is proving that the one
+coupled pressure-heat-viscous feedback law really produces that state-count
+budget from the original data, rather than letting selected children harvest a
+half-tail of positive action after the parent packet has already spent the
+same physical pulse.
+
+## 127. Source pushdown below `(TFE.1439)': signed record first, active metric second
+
+The next audit shows that `(TFE.1439)' still groups one consumer branch with
+the live source.  The repeated-core branch is not an independent producer once
+the parent-known root geometry/current record has been constructed.  The
+shrinking-core affine quotient is the true place where the source theorem must
+produce the selected-critical weight from the original packet.
+
+The common source candidate is a stopped selected record
+
+\[
+\mathfrak Z_P^S=(Z_P^S,\Psi_P^S,\Lambda_P^S)
+\tag{TFE.1441}
+\]
+
+built from the original same-material
+pressure-viscosity-incompressibility-velocity history before child positive
+clipping.  Its three faces are:
+
+\[
+\begin{array}{ll}
+Z_P^S &: \text{stopped routed current / fixed score carrier,}\\
+\Psi_P^S &: \text{signed scale potential for fresh affine quotient,}\\
+\Lambda_P^S &: \text{selected amplification / reset chart coordinate.}
+\end{array}
+\tag{TFE.1442}
+\]
+
+The active metric is not the raw energy metric.  It is the parent-known
+selected-critical metric in which the child would otherwise gain the half-tail.
+The source theorem must prove
+
+\[
+\begin{aligned}
+\mathcal E_{SPA}^{act}(P)
+:={}&
+\sup_{P'\subset P}
+{1\over \mathcal R(P')}
+\sum_{Q\subset P'}
+\|\Delta_QZ_P^S\|_{\mathcal H_P}^2\mathcal R(Q)
+\\
+&+
+\int_0^{T_*}H_w(t)
+\left\|
+{1\over |J|}\int_J\Psi_P^S(\sigma,t)\,d\sigma
+\right\|_2^2dt
+\\
+&+
+\operatorname{Var}_{crit}^{stop}(\Lambda_P^S;P)
++\operatorname{TestDef}_S(P)+Stop(P)
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P).
+\end{aligned}
+\tag{TFE.1443}
+\]
+
+This is the active-state source form of
+`OriginalHistorySelectedPotentialAmplificationBV.A' /
+`OriginalHistoryHilbertBMOProducer.A'.  It is parent-known: none of
+\(Z_P^S,\Psi_P^S,\Lambda_P^S,H_w\), the stopped chambers, or the root measure
+may be chosen from the future selected tail.
+
+### Repeated core
+
+On a fixed stopped core the selected channel is a parent-known functional
+\(\Gamma_R\).  Define
+
+\[
+P_R=\Gamma_R Z_P^S .
+\tag{TFE.1444}
+\]
+
+For a retained repeated-core transaction \(e:Q\to Q'\),
+
+\[
+A_{\rm sel}^{rep}(e)
+\le
+C\,[P_R(Q')-P_R(Q)]_+ +R_{\rm legal}(e).
+\tag{TFE.1445}
+\]
+
+The score is absolutely continuous in the same stopped material/log-scale
+history:
+
+\[
+\partial_\sigma P_R
+=
+\Gamma_R\,\partial_\sigma Z_P^S
++(\partial_\sigma\Gamma_R)Z_P^S .
+\tag{TFE.1446}
+\]
+
+The second term is selector/frame/covector/connection motion, not a new source.
+Therefore
+
+\[
+\operatorname{Var}(P_R;P)
+\lesssim
+\int_{\operatorname{Hist}(P)}
+w\left(
+|\partial_\sigma Z_P^S|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
++|\operatorname{conn}_\sigma|^2
+\right)
++R_{\rm legal}(P).
+\tag{TFE.1447}
+\]
+
+Combining `(TFE.1445)'--`(TFE.1447)' gives
+
+\[
+\sum_{e\subset P}A_{\rm sel}^{rep}(e)
+\le
+C\,\mathcal E_{SPA}^{act}(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1448}
+\]
+
+So the repeated-core part of `(TFE.1434)' is a consumer of `(TFE.1443)'.  It
+does not add a new Gold source.  Physically, the same dial may go up many
+times, but only by moving the pre-existing parent score \(P_R\); its up-and-down
+variation is then variation of the original routed current and connection
+record.
+
+### Derivative-exact shrinking core
+
+A strict reset or shrinking-core escape is paid whenever the child increment is
+a parent-announced scale-memory average:
+
+\[
+F_\gamma(t)
+=
+{1\over |I_\gamma|}
+\int_{I_\gamma}G_P(\sigma,t)\,d\sigma
++Err_\gamma^{paid}(t),
+\tag{TFE.1449}
+\]
+
+with active weight
+
+\[
+W_\gamma(t)
+=
+{|I_\gamma|^2\over \int_{I_\gamma}a_P(\sigma,t)^{-1}\,d\sigma}.
+\tag{TFE.1450}
+\]
+
+Weighted Cauchy gives
+
+\[
+W_\gamma\|F_\gamma\|^2
+\le
+C\int_{I_\gamma}a_P\|G_P\|^2+dPaid_\gamma .
+\tag{TFE.1451}
+\]
+
+Stopped first-exit sparsity then gives
+
+\[
+\sum_{\gamma\subset P}^{DER}
+W_\gamma\|F_\gamma\|^2
+\le
+C\int_{\operatorname{Hist}(P)}a_P\|G_P\|^2
++Paid(P).
+\tag{TFE.1452}
+\]
+
+Thus the derivative-exact reset part is also a consumer after the parent has
+announced the active weight and generator.  The remaining shrinking-core
+survivor is the non-derivative affine quotient.
+
+### Affine quotient survivor
+
+The signed continuous-scale identity gives a parent-side signed source
+
+\[
+Y=\partial_\sigma\Psi_P^S+S^{spill}+E .
+\tag{TFE.1453}
+\]
+
+Positive selection does not preserve this signed exactness by itself.  The
+correct one-sided identity is
+
+\[
+Y_+=Y+Y_- .
+\tag{TFE.1454}
+\]
+
+Apply the affine quotient functional \(\mathcal C_\theta\).  Integration by
+parts in scale gives
+
+\[
+\mathcal C_\theta[Y_+]
+=
+-\theta_\kappa(s_0)\Psi_P^S(s_0,t)
++{1\over |J|}\int_J\Psi_P^S(\sigma,t)\,d\sigma
++\mathcal C_\theta[Y_-]
++\mathcal C_\theta[S^{spill}]
++\mathcal C_\theta[E].
+\tag{TFE.1455}
+\]
+
+This is the exact algebraic replacement for a missing second derivative.  The
+positive affine quotient is controlled by:
+
+\[
+\begin{array}{ll}
+\text{(a)} & \text{the potential average of the same parent record
+\(\Psi_P^S\),}\\
+\text{(b)} & \text{the negative return \(Y_-\) needed to reset that record,}\\
+\text{(c)} & \text{spill/error terms already routed to collar, legal, stop, or
+endpoint material.}
+\end{array}
+\tag{TFE.1456}
+\]
+
+Consequently the non-derivative affine quotient is paid if the active record
+theorem supplies
+
+\[
+\int_0^{T_*}H_w(t)
+\left\|
+{1\over |J|}\int_J\Psi_P^S(\sigma,t)\,d\sigma
+\right\|_2^2dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1457}
+\]
+
+and
+
+\[
+\int_0^{T_*}H_w(t)\|\mathcal C_\theta[Y_-](t)\|_2^2dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1458}
+\]
+
+The first line is potential-average/root record control.  The second line is
+same-score negative-return charge.  Both must be original-history quantities.
+Defining either one from the future selected child tail is circular.
+
+Thus the source theorem below `(TFE.1439)' is sharpened to:
+
+\[
+\boxed{
+\begin{gathered}
+\text{construct the parent-known signed record \(\mathfrak Z_P^S\) from the
+original coupled packet;}\\
+\text{prove the active-metric record bound `(TFE.1443)';}\\
+\text{prove the selected-positive signed lift `(TFE.1453)'--`(TFE.1455)'
+before clipping;}\\
+\text{prove same-record negative return `(TFE.1458)' and endpoint no-atom.}
+\end{gathered}}
+\tag{TFE.1459}
+\]
+
+With `(TFE.1459)', the current source chain becomes
+
+\[
+\begin{gathered}
+\text{`(TFE.1459)'}\\
+\Longrightarrow
+\text{repeated-core payment `(TFE.1448)' and derivative-reset payment
+`(TFE.1452)'}\\
+\Longrightarrow
+\text{affine quotient payment by `(TFE.1455)'--`(TFE.1458)'}\\
+\Longrightarrow
+\text{root square-function/log-density source `(TFE.1431)'--`(TFE.1433)'}\\
+\Longrightarrow
+\text{terminal-uniform \(L^1\) by `(TFE.1440)'.}
+\end{gathered}
+\tag{TFE.1460}
+\]
+
+This is a real narrowing.  The repeated-core branch is no longer a separate
+physical mystery.  The child cannot keep pushing the same fixed score upward
+without moving \(Z_P^S\) or the parent frame.  The only nonduplicate analytic
+source is the active-metric construction of \(\mathfrak Z_P^S\), especially the
+potential-average and negative-return bounds for the positive affine quotient,
+plus endpoint no-atom.
+
+The physical picture is now: pressure feedback may re-open legal acceleration
+directions, heat-lag readout may reveal them later, and viscosity may drain the
+velocity tower, but every selected-positive reopening must be written into one
+parent-known signed scale record before the child clips it.  If the record goes
+up, it spends record capacity; if it goes down and comes back up, it spends
+negative return; if the child shrinks scale, it spends a parent-announced
+active generator interval; if it reaches the end, endpoint no-atom prevents
+replay.  The unproved part is proving that this signed record has finite
+active-metric size from arbitrary smooth initial data.
