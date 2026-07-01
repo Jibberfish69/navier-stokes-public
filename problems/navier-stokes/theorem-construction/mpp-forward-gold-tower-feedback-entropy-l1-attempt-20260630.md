@@ -18036,3 +18036,402 @@ This is equivalent, at the current Gold edge, to the strict half-barrier,
 positive critical transfer, native-birth packing, and bounded-below
 same-material storage formulations.  It is not yet proved from the original
 Navier--Stokes equations.
+
+## 108. Audit of the variation reserve: raw variation is not the supplier
+
+The record \(\mathcal V_a\) in `(TFE.1217)' is the correct place where the
+physical event becomes visible.  It is not, by itself, a bounded reservoir.
+This distinction matters because otherwise `(TFE.1219)' silently assumes the
+Gold theorem.
+
+For Cauchy--Green deformation,
+
+\[
+F=D_aX,\qquad C=F^\top F,\qquad \det F=1,
+\tag{TFE.1222}
+\]
+
+and
+
+\[
+\partial_tF=(\nabla u)(X,t)F,\qquad
+\partial_t C=2F^\top S F.
+\tag{TFE.1223}
+\]
+
+Thus for a material direction \(\xi\),
+
+\[
+{d\over dt}\log |F\xi|
+=
+{F\xi\cdot S F\xi\over |F\xi|^2}.
+\tag{TFE.1224}
+\]
+
+This proves that material stretch records the high-ratio event.  To pay the
+positive part by storage, the natural primitive is
+
+\[
+X_\xi=-c\log |F\xi|.
+\tag{TFE.1225}
+\]
+
+It has the right derivative sign on a stretching history, but it is bounded
+below exactly when the stretch \(|F\xi|\) is already bounded.  The bounded-below
+orientation \(+\log|F\xi|\) has the wrong sign.  Saturating the negative
+primitive either loses payment at large stretch or again becomes unbounded
+below.
+
+The same obstruction applies to the other components of `(TFE.1217)'.  Hodge
+frame rotation, collar-normal variation, annular turnstile, and annular stress
+are lawful parent records.  Their raw total positive variation is not known to
+be finite from the energy inequality.  A localized affine strain packet already
+shows why: pressure and incompressibility can realize material-time strain with
+zero affine-core viscous cost, while periodic collar localization makes the raw
+cost summable at heat scale.
+
+Therefore `(TFE.1218)' is a valid lower-edge admission statement, but
+`(TFE.1219)' is not an installed upper edge.  The corrected supplier must be
+signed and bounded below:
+
+\[
+d\mathscr A_P
++c\,d\mathcal V_P^{sel,+}
+\le
+dR_P^{paid},
+\qquad
+\mathscr A_P(t)\ge -C_N(u_0)-Paid(P),
+\tag{TFE.1226}
+\]
+
+where \(d\mathcal V_P^{sel,+}\) is the selected-critical part of the same
+material records in `(TFE.1217)', after order-lock and paid exits.  Equivalently,
+one must prove the strict half-barrier `(TFE.1213)' or the positive critical
+transfer estimate `(TFE.1204)'.
+
+So the physical conclusion is sharper:
+
+\[
+\boxed{
+\begin{gathered}
+\text{material records identify where the selected event happened;}\\
+\text{only a bounded-below signed parent storage can prove it cannot happen}\\
+\text{infinitely often at the critical weight.}
+\end{gathered}}
+\tag{TFE.1227}
+\]
+
+`WeightedSameMaterialFeedbackVariationReserve.A' is therefore admissible only
+in its signed bounded-below form `(TFE.1226)'.  A naked finite-BV version of
+`(TFE.1219)' is circular: it is the weight-beating tail law restated as a
+variation bound.
+
+## 109. Audit of the signed-storage candidate
+
+The signed version `(TFE.1226)' is the correct shape, but it is not installed
+by the existing four-body or monotone-budget surfaces.  The current installed
+inputs give:
+
+\[
+\begin{gathered}
+\text{same-fluid annular stress/strain attachment,}\\
+\text{fixed-annulus and fixed-collar \(L^1\) ledgers,}\\
+\text{top-strain/coefficient/base-collar logarithmic storage,}\\
+\text{Hodge/Stokes pressure-constraint correction,}\\
+\text{full pressure-viscosity-incompressibility generation of the moving interface.}
+\end{gathered}
+\tag{TFE.1228}
+\]
+
+These are real participation-law facts.  They prove that the positive selected
+event belongs to the same original packet.  They do not prove the one-way
+finite-total inequality
+
+\[
+d\mathfrak L_P
++c\,d\Omega_P^{PLS,+}
+\le
+dR_P^{orig},
+\qquad
+\mathfrak L_P(t)\ge -C_N(u_0),
+\qquad
+\int dR_P^{orig}\le C_N(u_0)+Paid(P).
+\tag{TFE.1229}
+\]
+
+Here \(d\Omega_P^{PLS,+}\) is the remaining moving
+participation-law-strain interface after fixed-collar, fixed-annulus,
+top-strain, Hodge, legal, stop, endpoint, return, and recirculation pieces are
+removed.  It is the same object seen in the previous sections as the strict
+half-barrier tail, positive critical transfer, native-birth packing, and
+bounded-below full-output parent storage.
+
+The reason `(TFE.1228)' does not imply `(TFE.1229)' is exact.  The material
+record inequality has the direction
+
+\[
+d[\log(1+\mathcal P_N^{mat})]_+
+\le
+C_N\,d\Omega_P^{PLS,+}+dR_P^0 ,
+\tag{TFE.1230}
+\]
+
+so the service clock controls record growth; it does not bound the service
+clock.  The local energy and annular stress identities are signed and require
+rectification; differentiating that rectification returns pressure Hessian,
+strain/cubic, transported collar, Hodge/projector, frame, and coefficient
+terms, which are exactly \(d\Omega_P^{PLS,+}\).  The top-strain and Hodge
+storages pay their own coordinates, but the moving selected interface remains.
+
+Thus the full monotone-budget route has been reduced to the subprimitive
+
+\[
+\boxed{
+\text{SignedMovingPLSCoercivity.A}
+}
+\tag{TFE.1231}
+\]
+
+Statement: construct \(\mathfrak L_P\) and \(R_P^{orig}\) from the original
+same material packet, before child clipping, so that `(TFE.1229)' holds for the
+remaining moving participation-law-strain interface.
+
+This is not a new sibling burden.  It is the signed-storage form of the same
+\(L^1\) wall:
+
+\[
+\text{SignedMovingPLSCoercivity.A}
+\Longleftrightarrow
+\text{strict half-barrier}
+\Longleftrightarrow
+\text{positive critical transfer / native-birth packing}
+\tag{TFE.1232}
+\]
+
+at the current Gold edge.  The next proof attempt must attack `(TFE.1229)'
+directly or derive a contradiction from a minimal same-parent half-tail that
+violates it.
+
+## 110. Minimal half-tail contradiction audit
+
+The contradiction route starts correctly.  If `(TFE.1229)' fails after all paid
+exits are removed, one may select a retained same-parent laminar chain
+\(Q_0\supset Q_1\supset\cdots\) with
+
+\[
+A(Q_k)\ge c_0>0,
+\qquad
+E_{\rm raw}(Q_k)+D_{\rm raw}(Q_k)+R_{\rm fixed\ collar}(Q_k)
+\lesssim r_k,
+\qquad
+\sum_k r_k<\infty .
+\tag{TFE.1233}
+\]
+
+This is the half-tail in packet form: each child has order-one normalized
+selected action, while its raw original-history cost is radius-weighted and
+summable.
+
+Rescaling \(Q_k\) to a unit heat packet gives
+
+\[
+V_k(s,y)=r_k u(t_k+r_k^2s,x_k+r_ky),
+\qquad
+Q_k^p(s,y)=r_k^2p(t_k+r_k^2s,x_k+r_ky).
+\tag{TFE.1234}
+\]
+
+Compactness can produce a local suitable packet, with the remaining global
+matching stored in collar or terminal boundary defects.  That limit is not
+forced to be zero.  The local affine strain normal form
+
+\[
+V(s,y)=A(s)y,\qquad \operatorname{tr}A(s)=0,\qquad A(s)=A(s)^\top,
+\tag{TFE.1235}
+\]
+
+with pressure
+
+\[
+Q^p(s,y)=-{1\over2}y\cdot(\dot A+A^2)y
+\tag{TFE.1236}
+\]
+
+satisfies the local pressure-viscosity-incompressibility-velocity law and has
+zero affine-core viscous Laplacian while retaining nonzero material strain
+action.  Periodic localization and divergence-free collar matching restore the
+global equation at raw cost \(O(r_k)\), which is summable in `(TFE.1233)'.
+
+Therefore a minimal same-parent half-tail is not contradicted by:
+
+\[
+\begin{gathered}
+\text{local pressure compatibility,}\\
+\text{incompressibility and complete-frame orientation,}\\
+\text{same-packet annular attachment,}\\
+\text{raw viscous/energy finiteness,}\\
+\text{retained compactness or frozen lower semicontinuity.}
+\end{gathered}
+\tag{TFE.1237}
+\]
+
+Those facts keep the bad object inside the coupled participation law; they do
+not bound the weighted count of its repeated retained visits.
+
+The contradiction route would need the extra global assertion
+
+\[
+\sum_k A(Q_k)\le C_N(u_0)+Paid(P),
+\tag{TFE.1238}
+\]
+
+or the equivalent strict half-barrier `(TFE.1213)' / signed storage
+`(TFE.1229)'.  But `(TFE.1238)' is exactly the Gold \(L^1\) theorem on the
+minimal chain.  A descendant-tail Bellman that sums future \(A(Q_k)\) is
+circular unless its root finiteness is proved from original data.
+
+Thus local compactness and local Liouville methods are exhausted for this
+edge.  The only remaining nonduplicate proof method is global same-history
+packing:
+
+\[
+\boxed{
+\text{one original material history cannot pack the half-tail `(TFE.1233)'}\\
+\text{with finite raw cost unless a bounded-below parent storage drops.}
+}
+\tag{TFE.1239}
+\]
+
+This is the physical content of the unsolved \(L^1\) line.  The pressure front,
+heat/viscous readout, and frame feedback are one participation law; the missing
+theorem is the global same-history packing law that prevents that one law from
+reopening selected high-ratio futures at the parabolic half-tail rate forever.
+
+## 111. Same-history packing audit: the missing physical story
+
+The physical story that would close the line is now exact.  The pressure side
+does not send a separate payment source, and viscosity does not act as an
+outside accountant.  The same coupled packet runs one loop:
+
+\[
+\text{pressure-compatible coordination}
+\longrightarrow
+\text{heat-lag velocity/strain readout}
+\longrightarrow
+\text{updated material frame and pressure compatibility}.
+\tag{TFE.1240}
+\]
+
+The \(L^1\) problem is whether this loop is state-deleting before the child
+positive readout is clipped.  A selected child may see one more upward move, but
+that move must either use up parent-known active capacity or be routed to paid
+return, motion, legal, stop, endpoint-thick material, or viscosity.  Same-parent
+ownership only says that the move belongs to the original history.  It does not
+say that the history has lost a root-finite amount of future capacity.
+
+After the installed gates are removed, every surviving half-tail visit must
+fall into exactly two physical branches:
+
+\[
+\begin{array}{ll}
+\text{repeated core:} &
+\text{the same parent-fixed score is pushed upward again;}\\[2mm]
+\text{shrinking core:} &
+\text{the selected score escapes to a smaller heat packet.}
+\end{array}
+\tag{TFE.1241}
+\]
+
+The repeated-core branch can be closed only by a parent-fixed signed lift.  For
+the retained full-output driver \(Y_P\), one needs a parent-announced score
+\(\Psi_P\) and carrier \(Z_P^S\), built from the original coupled packet before
+child selection, such that on the repeated core
+
+\[
+Y_P\,d\sigma
+=
+d\Psi_P+dE_P,
+\qquad
+\int [Y_P]_+
+\le
+\Psi_P(0)-\inf\Psi_P
+\,+\,\int [Y_P]_-
+\,+\,Paid(P).
+\tag{TFE.1242}
+\]
+
+This is the precise form of "the same dial cannot keep moving upward for free."
+The negative motion in `(TFE.1242)' must be negative return of the same
+parent-fixed score, not future negative variation selected after the child is
+known.  Existing signed-current and Schur/Bessel records give the right
+coordinates, but the stopped polar lift and original-history negative-return
+charge are not installed unconditionally for the remaining moving PLS interface.
+
+The shrinking-core branch can be closed only by a critical reset charge.  If a
+child \(Q'\subset Q\) gets order-one selected action by rebasing to a smaller
+heat packet, the original parent must spend a critical weighted reset,
+turnstile, collar, pressure-Hodge, covector, or exchange charge:
+
+\[
+A(Q')
+\le
+C\,J_{\rm crit}(Q\to Q')+Paid(Q\to Q'),
+\qquad
+\sum_{Q\to Q'}J_{\rm crit}(Q\to Q')
+\le
+C_N(u_0)+Paid(P).
+\tag{TFE.1243}
+\]
+
+The critical weight in \(J_{\rm crit}\) is the whole issue.  The raw reset
+distance or raw collar/energy cost scales like the child radius and is defeated
+by the half-tail `(TFE.1212)'.  The charge must be parent-known at the moment of
+reset and must carry the selected heat-scale weight before the child calls the
+readout fresh.
+
+Together, `(TFE.1242)' and `(TFE.1243)' would supply the missing root capacity.
+They imply a same-parent active-capacity deletion law
+
+\[
+A(Q')+\mathcal C^{act}(Q')
+\le
+\theta\,\mathcal C^{act}(Q)
++dB(Q\to Q'),
+\qquad
+\theta<{1\over2},
+\tag{TFE.1244}
+\]
+
+with
+
+\[
+\mathcal C^{act}(Q_{\rm root})\le C_N(u_0)+Paid(P),
+\qquad
+\sum 2^L B_L<\infty .
+\tag{TFE.1245}
+\]
+
+Summing `(TFE.1244)' over the retained laminar tree gives the strict half
+barrier `(TFE.1213)', hence `(TFE.1214)'--`(TFE.1215)' and terminal-uniform
+\(L^1\).
+
+This audit also explains exactly why the current support package does not close
+the theorem.  Laminarity says the visits are on one history.  No-recount says
+the same admitted child cannot be billed twice.  Bessel/Schur says fresh
+bounded directions and current-visible residence are paid.  Compactness says a
+minimal failure has an affine/root survivor.  None of those facts proves
+`(TFE.1242)' or `(TFE.1243)' from the original data.
+
+So the complete missing physical theorem is:
+
+\[
+\text{the original coupled pressure-viscosity-incompressibility-velocity packet}
+\]
+
+constructs a parent-known active capacity before child clipping, and every
+retained positive high-ratio visit either decreases the repeated-core
+parent-fixed score or spends a critical shrinking-core reset charge, with
+root-finite total cost and strict half-barrier gain.  This is the same Gold wall
+as SignedMovingPLSCoercivity.A / PositiveCriticalTransferBound.A, now expressed
+as the physical state-deletion law of the pressure-heat-viscous feedback loop.
+\tag{TFE.1246}
