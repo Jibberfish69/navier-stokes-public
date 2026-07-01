@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701
-status: strict-storage-reduction-critical-capacity-storage-open
+status: strict-storage-reduction-critical-capacity-variation-open
 created: 2026-07-01
 problem: navier-stokes
 route: forward-gold coupled pressure-viscosity-incompressibility participation law
@@ -15,7 +15,9 @@ completion_truth: >-
   The July 1 continuation audit further corrects the storage wording: a finite
   root critical capacity bound is not enough; the capacity must be parent-fixed
   or have paid variation so that Mcrit=Ccrit-Ecrit is a true bounded-below
-  storage derivative.
+  storage derivative. The July 1 continuation audit also records the
+  detector/frame/Hodge/collar distortion line as a component consumer after the
+  zero-baseline endpoint branch is admitted into the critical-entry source.
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-original-data-source-theorem-attack-20260701.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
@@ -291,11 +293,12 @@ d\mathcal D_P^{geom}
 \tag{TFE2748B.16}
 \]
 
-The distortion theorem is mostly a consumer once the component audit is used:
+The distortion theorem is a consumer once the component audit is used:
 bounded stopped-detector/log-carrier distortion is packed by the parent generator
 clock, routed frame/collar/Hodge/selector motion is in \(d\Theta^0+dPaid\), and
 the zero-baseline scale-native detector has been admitted as
-\(d\rho_{crit}^{entry}\).  In that audited setting the required distortion line is
+\(d\rho_{crit}^{entry}\).  This is exactly `(TFE.2673)'--`(TFE.2678)' in the
+tower-feedback source file.  The resulting distortion line is
 
 \[
 d\mathcal D_P^{geom}
@@ -337,7 +340,7 @@ The actual open source theorem is therefore
 \begin{array}{c}
 \text{construct \(\mathcal F_{P,\sigma}^{crit}\) and \(\mathcal C_P^{crit}\)
 from the original packet before clipping,}\\
-\text{prove `(TFE2748B.17)' as a component/entry-admission consumer,}\\
+\text{use the component/entry-admission audit to supply `(TFE2748B.17)',}\\
 \text{and prove the capacity variation law `(TFE2748B.19)'.}
 \end{array}}
 \tag{TFE2748B.20}
@@ -395,8 +398,8 @@ remaining content:
 \boxed{
 \begin{array}{c}
 \text{parent critical filtration tightness}\\
-+\text{root critical capacity paid-variation law}\\
-+\text{strict geometric-distortion domination}
++\text{component distortion consumer `(TFE2748B.17)'}\\
++\text{root critical capacity paid-variation law}
 \end{array}
 \Longleftrightarrow
 \text{critical-source storage `(TFE2748B.12)'.}
@@ -422,9 +425,10 @@ The remaining Gold source theorem is:
 \[
 \boxed{
 \begin{array}{c}
-\text{prove the parent critical filtration and capacity variation law}\\
-\text{`(TFE2748B.19)' from the original coupled packet, before child clipping;}\\
+\text{construct the parent critical filtration and capacity}\\
+\text{from the original coupled packet, before child clipping;}\\
 \text{use the component audit to supply `(TFE2748B.17)';}\\
+\text{prove the paid positive-variation law `(TFE2748B.19)';}\\
 \text{then `(TFE2748B.12)' gives `(TFE2748A.5)', hence terminal-uniform }L^1.
 \end{array}}
 \tag{TFE2748B.25}
@@ -1225,7 +1229,7 @@ Equivalently, the source package is:
 \text{construct the parent-announced critical filtration before clipping,}\\
 \text{prove the entropy chain rule with singular first entry,}\\
 \text{prove coupled entropy dissipation for the pressure-heat-viscous packet,}\\
-\text{dominate detector/frame/Hodge/collar distortion by }d\Theta^0+\vartheta d\Omega^{gen}+dPaid,\\
+\text{insert the component distortion consumer `(TFE2748B.17)',}\\
 \text{and prove the critical capacity has parent-fixed or paid positive variation.}
 \end{array}}
 \tag{TFE2748B.77}
