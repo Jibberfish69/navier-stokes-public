@@ -1661,3 +1661,476 @@ Consequently the current \(L^1\) proof spine is:
 If `(TFE.101)`--`(TFE.103)` fails, the surviving endpoint pulse is not a hidden
 Gold payment.  After same-witness admission it is the CM endpoint-face branch,
 not Gold closure.
+
+## 16. Terminal producer audit: what would actually solve the \(L^1\) problem
+
+The July 1 audit checks the only remaining place where a false closure can hide.
+The physical statement "finite initial energy is drained by viscosity" is true
+in the original energy currency, but the selected terminal \(L^1\) bill is an
+unweighted heat-scale readout.  Gold closure needs the theorem that removes this
+weight inside the same root-fixed parent packet.
+
+Let \(\mathcal Q_P^{term}\) be the retained terminal heat-scale children of a
+root parent \(P\), after parent reuse, fresh Bessel entry, Schur update, return,
+motion, reset, legal, stop, and CM endpoint-face exits have been removed.  Write
+\(A_Q^{sel,+}\) for the selected normalized positive action of \(Q\).  The
+terminal \(L^1\) line is equivalent to the unweighted parent-packet reserve
+
+\[
+\sum_{Q\in\mathcal Q_P^{term}} A_Q^{sel,+}
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.105}
+\]
+
+The original physical energy and viscous drain only give weighted estimates of
+the schematic form
+
+\[
+\sum_{Q\in\mathcal Q_P^{term}}
+r_Q^\beta A_Q^{sel,+}
+\le
+C_N(u_0)+R_{\rm legal}(P)+Stop(P),
+\qquad
+\beta>0,
+\tag{TFE.106}
+\]
+
+because parabolic normalization divides out powers of the child radius.  Thus
+the model terminal family
+
+\[
+r_Q=2^{-Q},
+\qquad
+A_Q^{sel,+}\simeq 1
+\tag{TFE.107}
+\]
+
+is invisible to `(TFE.106)` since \(\sum_Q r_Q^\beta<\infty\), but it defeats
+`(TFE.105)` since \(\sum_Q A_Q^{sel,+}=\infty\).  This is the exact mathematical
+form of the terminal heat-scale pulse obstruction.  It is not a new force and
+not a decoupled pressure channel; it is the same coupled pressure--heat--
+viscous packet being read in the child normalization without an unweighted
+root reserve.
+
+Equivalently, every attempted storage proof must prove a root-fixed domination
+measure
+
+\[
+d\mu_{P,fix}^{crit}
+:=
+\sum_{Q\in\mathcal Q_P^{term}} A_Q^{sel,+}\,\delta_Q
+\le
+C\,d(-\mathcal L_P)_+
++d\lambda_P,
+\tag{TFE.108}
+\]
+
+where \(\mathcal L_P\) is an original-history storage, bounded below on the
+root parent, and \(d\lambda_P\) is already paid legal/stop/exit material.  The
+terminal no-jump part is then the uniform tail condition
+
+\[
+\lim_{\theta\downarrow0}
+\sup_{P}
+\left(
+\int_{T_*-\theta}^{T_*}d(-\mathcal L_P)_+
++\int_{T_*-\theta}^{T_*}d\lambda_P
+\right)
+=0 .
+\tag{TFE.109}
+\]
+
+`(TFE.108)` plus `(TFE.109)` implies `(TFE.100)`--`(TFE.103)` and hence the
+terminal-uniform \(L^1\) estimate.  Conversely, `(TFE.100)`--`(TFE.103)` imply
+`(TFE.108)`--`(TFE.109)` after replacing \(\mathcal L_P\) by the oscillation
+envelope \(\Phi_P\) and absorbing the paid terms.  So this is not another
+support lemma; it is the same Gold wall in non-aliased measure language.
+
+The older endpoint \(L^p\) and Hardy routes fit exactly here.  If the retained
+terminal density satisfies, for some \(p>1\),
+
+\[
+\sup_{Q\in\mathcal Q_P^{term}}\|\rho_Q\|_{L_s^p(-1,0)}<\infty,
+\tag{TFE.110}
+\]
+
+or satisfies a uniform Hardy moment, then Holder or Hardy gives `(TFE.109)`.
+But `(TFE.110)` is not supplied by finite \(L^1_s\) mass or by preterminal
+smooth density.  The pulse
+
+\[
+\rho_m(s)={a\over \theta_m}\mathbf 1_{(-\theta_m,0]}(s),
+\qquad
+\theta_m\downarrow0,
+\tag{TFE.111}
+\]
+
+is smooth before the endpoint, has fixed \(L^1_s\) mass, converges to a terminal
+atom, and has \(\|\rho_m\|_{L_s^p}\to\infty\) for every \(p>1\).  Therefore a
+proof that uses only local preterminal absolute continuity, finite legal mass,
+finite physical energy, or weighted viscous drain has not solved the \(L^1\)
+problem.
+
+The endpoint \(L^p\) route therefore has the exact producer split
+
+\[
+\begin{gathered}
+\text{full-packet-first order lock}
+\text{ or super-}L^1\text{ payment of the order-lock gap}
+\\
++
+\text{finite-jet temporal tower }W_s^{1,1}
++
+\text{annular harmonic pressure super-}L^1
++
+\text{residue density/absorption policy}
+\\
+\Longrightarrow
+\text{`(TFE.110)'}
+\Longrightarrow
+\text{`(TFE.109)'} .
+\end{gathered}
+\tag{TFE.112a}
+\]
+
+The finite-jet tower piece is a real consumer theorem: a \(W_s^{1,1}\) bound
+rules out the pulse because the pulse has unbounded time variation.  It is not
+the full producer.  The order-lock gap, harmonic pressure memory, and residue
+channels are exactly where a naked terminal \(L^1\) pulse can still enter.
+
+The exact solve criterion is now:
+
+\[
+\boxed{
+\text{prove `(TFE.105)`, equivalently `(TFE.108)`--`(TFE.109)`, from the
+original coupled pressure--viscosity--incompressibility material history.}
+}
+\tag{TFE.112}
+\]
+
+In physical terms: pressure can put the compatibility signal everywhere at
+once, viscosity can drain the readable velocity/strain response through heat
+time, and incompressibility keeps this as one participation law.  The missing
+Gold theorem is the unweighted statement that this same transaction cannot be
+recounted as one fresh unit of selected terminal action at every smaller
+heat-scale child while the original parent only spends the radius-weighted
+physical drain.  Proving that unweighted upgrade is the \(L^1\) solution.
+Failure of that upgrade is exactly the retained terminal endpoint pulse already
+typed as a same-witness CM endpoint-face branch; it is not Gold closure.
+
+## 17. Minimal-bad solve test for the unweighted terminal line
+
+The clean way to attack `(TFE.105)` is by contradiction.  Assume the
+root-fixed unweighted reserve fails for one original parent packet \(P\).  Then
+there are retained terminal blocks \(B_m\subset\mathcal Q_P^{term}\) such that,
+after normalizing the selected bill,
+
+\[
+\sum_{Q\in B_m}A_Q^{sel,+}=1,
+\qquad
+\sum_{Q\in B_m}r_Q^\beta A_Q^{sel,+}\to0,
+\qquad
+\lambda_P(B_m)\to0 .
+\tag{TFE.113}
+\]
+
+The second condition says that the ordinary heat-radius weighted physical drain
+does not see the block.  The third says that legal, stop, reset, and already
+routed endpoint material have been removed.  The only possible survivor is
+therefore a unit selected terminal train whose physical radius tends to zero
+faster than the root parent spends unweighted material.
+
+The installed admission gates let the block be chosen so that all fake
+offspring have already been removed:
+
+\[
+B_m\cap
+\big(
+Reuse_P\cup Bessel_P\cup Schur_P\cup Return_P\cup Motion_P
+\cup Reset_P\cup Legal_P\cup Stop_P\cup CM_P^{end}
+\big)
+=\varnothing
+\tag{TFE.114}
+\]
+
+up to terms whose total selected mass tends to zero.  This is the formal
+meaning of "no recount": retained mass is not old Schur current, not fresh
+Bessel entry, not a return, not selector motion, not legal/stop material, and
+not already a same-witness endpoint face.
+
+The terminal-overlap and order-lock notes solve the next step only after
+same-carrier admission.  On a fixed transported annular atlas they give
+
+\[
+\int_{-\theta_j}^{0} C_j(s)\,ds
+\le
+C\int_{J_j}A_{4B}(\sigma)\,d\sigma,
+\qquad
+\sum_j{\bf 1}_{J_j}\le K .
+\tag{TFE.115}
+\]
+
+Thus a terminal pulse cannot repeat infinitely often after it has entered the
+unweighted four-body activity \(A_{4B}\).  Bounded overlap is not the reserve
+upgrade.  It is the no-double-counting argument after the reserve admission has
+already happened.
+
+Consequently a normalized bad block satisfying `(TFE.113)`--`(TFE.114)` must
+leave one of the following non-aliased residuals:
+
+\[
+1
+\le
+C\liminf_{m\to\infty}
+\sum_{Q\in B_m}
+\left(
+\Delta_Q^{ol}
++F_Q^{jet}
++H_Q^{har}
++R_Q^{res}
++C_Q^{crit}
+\right).
+\tag{TFE.116}
+\]
+
+Here \(\Delta_Q^{ol}\) is the full-packet order-lock overlap gap,
+\(F_Q^{jet}\) is unbounded temporal variation in the finite derivative tower,
+\(H_Q^{har}\) is the harmonic pressure-memory collar tail, \(R_Q^{res}\) is
+unabsorbed endpoint residue density, and \(C_Q^{crit}\) is the parent-known
+critical active Hodge-Stokes/native-reserve charge.  These are not separate
+physical laws.  They are the possible coordinates in which the one coupled
+pressure--heat--viscous packet can fail to be admitted into the root-fixed
+unweighted parent reserve.
+
+The exact closure theorem is therefore the following exhaustion with a root
+bound:
+
+\[
+\sum_{Q\subset P}
+\left(
+\Delta_Q^{ol}
++F_Q^{jet}
++H_Q^{har}
++R_Q^{res}
++C_Q^{crit}
+\right)
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P),
+\tag{TFE.117}
+\]
+
+with any failure of a listed channel routed to the same-witness CM endpoint
+face rather than retained as Gold mass.  Combining `(TFE.116)` and `(TFE.117)`
+contradicts `(TFE.113)`, hence proves `(TFE.105)`.
+
+So the physical state-space picture becomes a sharp mathematical test:
+pressure feedback may re-coordinate the future velocity state, and heat may
+delay when that re-coordination becomes readable, but a retained selected unit
+must delete one unit of root-fixed future accessibility in one of the five
+coordinates in `(TFE.116)`.  If the selected unit deletes nothing in the
+original parent history, it is a recount.  If it deletes something, `(TFE.117)`
+is the finite root budget.  The current repo proves several admissions and the
+post-admission bounded-overlap step, but the full root bound `(TFE.117)` is the
+actual unweighted \(L^1\) solve line.
+
+## 18. Collapse of `(TFE.117)` to the critical native / affine quotient root bound
+
+The five terms in `(TFE.117)` are not five independent physical suppliers.  The
+source audit gives the following reduction.
+
+Once the selected packet is order-locked to the full same-carrier four-body
+activity, the order-lock gap is a channel admission term:
+
+\[
+\sum_Q\Delta_Q^{ol}
+\le
+C\sum_Q A_{4B}(Q)
++Paid(P)
++EndpointFace(P).
+\tag{TFE.118}
+\]
+
+The terminal-overlap no-jump note then gives bounded-overlap summation after
+this admission.  So \(\Delta^{ol}\) is not a separate producer of unweighted
+\(L^1\).  It is the name for failure to enter the same \(A_{4B}\) packet, and
+that failure is selector/collar/legal/endpoint material.
+
+The finite-jet temporal tower has the same status.  On a fixed stopped channel,
+the signed primitive
+
+\[
+P_R=\Gamma_R Z^S
+\tag{TFE.119}
+\]
+
+has positive increment control and derivative domination by the original routed
+current, frame, turnstile, covector, and exchange variation.  Thus the
+finite-jet term is paid on fixed stopped channels and exits to reset/legal when
+the channel is not parent-known:
+
+\[
+\sum_Q F_Q^{jet}
+\le
+C\int_{\operatorname{Hist}(P)}
+\left(
+|\partial_\sigma Z^S|
++|\operatorname{turnstile}_\sigma|
++|\operatorname{exchange}_\sigma|
++|\operatorname{covector}_\sigma|
++|\operatorname{conn}_\sigma|
+\right)
++Paid(P).
+\tag{TFE.120}
+\]
+
+This is a derivative/variation readout of the same packet, not an independent
+terminal reserve.
+
+The harmonic pressure-memory term is also routed rather than producer-grade.
+After the local pressure trace has passed, the harmonic part enters the
+localized packet only through the cutoff/collar pressure flux.  Hence
+
+\[
+\sum_Q H_Q^{har}
+\le
+CollarPressFlux(P)+SelectorCollar(P)+EndpointFace(P)+Paid(P).
+\tag{TFE.121}
+\]
+
+Uniform terminal absolute continuity of that collar flux is a consumer route;
+concentration of it is the endpoint face, not a hidden Gold payment.
+
+Endpoint residues behave the same way.  The endpoint-uniform-integrability
+notes prove that finite \(L^1\), finite BV, finite routing, or visible terminal
+classification does not kill the terminal pulse.  A residue contributes to Gold
+only after it is made density-level with a super-\(L^1\)/Hardy/Orlicz modulus or
+absorbed into the same full packet:
+
+\[
+\sum_Q R_Q^{res}
+\le
+EUI_P^{res}
++EndpointFace(P)+Paid(P),
+\tag{TFE.122}
+\]
+
+where \(EUI_P^{res}\) means an actually proved endpoint-uniform-integrability
+modulus for the residue density.  Without that modulus, the residue is routed
+to the same-witness endpoint face rather than retained in Gold.
+
+Therefore `(TFE.117)` reduces, on the no-endpoint-face Gold branch, to the
+critical selected native/root charge:
+
+\[
+\sum_{Q\subset P}
+\left(
+\Delta_Q^{ol}+F_Q^{jet}+H_Q^{har}+R_Q^{res}+C_Q^{crit}
+\right)
+\le
+C\sum_{Q\subset P} C_Q^{crit}
++Paid(P),
+\tag{TFE.123}
+\]
+
+with the understanding that any failure of `(TFE.118)`--`(TFE.122)` has already
+left the retained Gold branch.
+
+The remaining root theorem is exactly the native reserve map:
+
+\[
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}
++R_{\rm legal}(\gamma)+Stop(\gamma),
+\qquad
+\operatorname{mult}(\iota)\le C_N,
+\tag{TFE.124}
+\]
+
+\[
+\sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}
+\rho
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.125}
+\]
+
+Equivalently, in the heat-lag/Volterra coordinate this is the parent-known
+critical-frame pair `(ODP.151)`--`(ODP.152)`.  The lower-triangular split shows
+why the usual first-order scale descent does not prove it.  The fresh far-corona
+response splits into a derivative half and a persistent affine quotient:
+
+\[
+\mathrm{FCTS}^{fr}_P
+=
+\mathrm{DER}^{fr}_P+\mathrm{AQK}^{fr}_P.
+\tag{TFE.126}
+\]
+
+The derivative half is paid by real scale motion, route/return, legal, stop, and
+viscous packet variation.  The persistent half is
+
+\[
+\mathrm{AQK}^{fr}_P
+=
+\int_0^{T_*}H_w(t)\|c_F(t)\|_{L_x^2}^2\,dt,
+\tag{TFE.127}
+\]
+
+where \(c_F\) is the affine scale quotient of the fresh source.  First-order
+signed scale descent gives
+
+\[
+c_F(t)
+=
+-\theta_\kappa(s_0)\Psi(s_0,t)
++{1\over |I|}\int_J\Psi(\sigma,t)\,d\sigma
++\mathcal C_\theta[S^{spill}](t)
++\mathcal C_\theta[E](t).
+\tag{TFE.128}
+\]
+
+The endpoint and spill terms are routed.  The surviving term is the weighted
+potential average
+
+\[
+\int_0^{T_*}
+H_w(t)
+\left\|
+{1\over |I|}\int_J\Psi(\sigma,t)\,d\sigma
+\right\|_{L_x^2}^2dt .
+\tag{TFE.129}
+\]
+
+Current sources prove a consumer estimate for `(TFE.129)` only after an
+endpoint-corrected parent-known stopped potential record has already been built
+from original history.  They do not build that record.  The two noncircular
+ways to finish the Gold \(L^1\) line are therefore:
+
+\[
+\text{OriginalHistorySelectedPotentialAmplificationBV.A}
+\tag{TFE.130a}
+\]
+
+with parent-known \(H_w\) and endpoint-corrected \(\Psi^\sharp\), or
+
+\[
+\widetilde Z^{fresh}
+=
+(\partial_\sigma-1)\partial_\sigma G^{fresh}
++R^{fresh}
+\tag{TFE.130b}
+\]
+
+with the remainder controlled in the same root packet.
+
+This is the sharpened answer to the physical question.  The possible number of
+future packet states is controlled only after selected amplification has a
+parent-known log-scale record.  Pressure feedback can rearrange the remaining
+state, but it cannot be counted as new \(L^1\) action once its affine quotient
+has entered that record.  The repo has the post-admission no-recount and
+bounded-overlap machinery.  The remaining mathematical producer is the
+original-history construction of that selected amplification / affine quotient
+record, or an equivalent second-order exactness theorem for the positive fresh
+stress source.
