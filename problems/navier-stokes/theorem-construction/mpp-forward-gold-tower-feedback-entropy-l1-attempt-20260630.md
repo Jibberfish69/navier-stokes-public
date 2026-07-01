@@ -25691,3 +25691,1156 @@ the non-self-feeding storage `(TFE.1735)'--`(TFE.1737)', for arbitrary smooth
 data.  In the compressed critical-energy face this is the same strict positive
 transfer theorem as `(TFE.1715)'.  The repo has not proved that final accretive
 parent-known storage; it has now isolated exactly what it must prove.
+
+## 149. Source collapse below the testing package
+
+The audit of the stopped testing surfaces pushes `(TFE.1738)' one layer lower.
+The stopped \(Tb\) package is a detector construction.  It does not create the
+root reserve; it can only read a reserve that is already present in the original
+same-material exchange ledger.
+
+The selector-thinning branch is not open.  It is a stopped corona rebase:
+thin selected support creates a selected child with rebased reference measure,
+and the stop masses pack geometrically,
+
+\[
+\sum_{P\subseteq P_0}Stop_{\rm thin}(P)
+\le
+C_{\theta_\ast}\mathcal R(P_0)
++C R_{\rm legal}(P_0)+CStop(P_0).
+\tag{TFE.1742}
+\]
+
+On thick or rebased stopped packets, the testing defect is locally charged by
+Schur, exchange/material, reset, stop, and legal pieces:
+
+\[
+\sum_{P\subseteq P_0}Def_{\rm test}(P)
+\le
+C B_{\rm Schur}(P_0)
++C R_{\rm legal}(P_0)
++CStop(P_0)
++C\sum_{P\subseteq P_0}
+\left(
+E_{\rm top\text{-}ex}(P)
++S_{\rm material}(P)
++Reset(P)
+\right).
+\tag{TFE.1743}
+\]
+
+The Schur, legal, and thinning terms already telescope or pack.  Paid
+reselection/reset is support after the same full-exchange/root-reserve estimate
+exists.  Therefore the real source under the testing package is
+
+\[
+\boxed{
+\sum_{S\subseteq P}
+\left(
+\Omega_S^{strain/ex}
++D_S^{vis/rad}
+\right)
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P)
+}
+\tag{TFE.1744}
+\]
+
+which is `StoppedFullExchangeActionCarleson.A'.  In compression coordinates the
+same theorem is
+
+\[
+\boxed{
+\sum_{Q\in\mathcal T(P)}
+\left(
+\langle U_Q,\mathsf S_QU_Q\rangle
++\mathcal S_{\rm normal}(Q)
++\mathcal S_{\rm covector}(Q)
+\right)
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+}
+\tag{TFE.1745}
+\]
+
+This is `SelectedCompressionRootReserve.A'.  The stopped visible/silent/exchange
+compensator proves the local lower bounds feeding `(TFE.1745)', but it does not
+prove the root summability.  Raw original-history stress or strain ledgers still
+admit the half-tail
+
+\[
+\sum_\ell\nu_\ell<\infty,
+\qquad
+\sum_\ell2^\ell\nu_\ell=\infty.
+\tag{TFE.1746}
+\]
+
+So the root-reserve theorem is equivalent to the native birth-packing map:
+
+\[
+\boxed{
+\texttt{NativeBirthChargePacking.A}.
+}
+\tag{TFE.1747}
+\]
+
+Precisely, after lower-band carry, entrance, nonlaminar loss,
+selector/order-lock drift, already-paid exchange, legal, and stop are removed,
+let \(\Gamma_N^{birth}(P)\) be the retained first scale-native birth atoms.
+There must be a parent-known finite native reserve family
+\(\mathcal R_N^{nat}(u_0;P)\), built from original-history Hodge/projector
+motion, annular stress, strain-frame compression, Schur normal pressure-collar
+defect, viscous/radius loss, and finite-depth entrance, and a bounded
+multiplicity map
+
+\[
+\iota:\Gamma_N^{birth}(P)\to\mathcal R_N^{nat}(u_0;P)
+\tag{TFE.1748}
+\]
+
+such that
+
+\[
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}
++R_{\rm legal}(\gamma)+Stop(\gamma),
+\qquad
+\operatorname{mult}(\iota)\le C_N,
+\tag{TFE.1749}
+\]
+
+and
+
+\[
+\sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}\rho
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1750}
+\]
+
+Then
+
+\[
+\sum_{\gamma\in\Gamma_N^{birth}(P)}\omega_\gamma
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P),
+\tag{TFE.1751}
+\]
+
+which proves `(TFE.1745)', hence `(TFE.1744)', hence the testing package
+`(TFE.1738)'--`(TFE.1740)' and the scale-native \(L^1\) chain `(TFE.1741)'.
+
+The physical content is the first-birth/no-reuse law.  The first time a selected
+scale-native child sees unit positive action, the parent packet must create a
+native reserve atom.  A descendant either carries the already-created atom,
+which is not a fresh birth, or it changes/reset/reselects the carrier and pays
+full exchange, legal, or stop.  A reserve atom cannot be spent by infinitely
+many retained children unless that recirculation appears in the full-exchange
+clock.  Thus the missing theorem is exactly the bounded-multiplicity assignment
+`(TFE.1748)'--`(TFE.1750)' from original coupled data.
+
+In the compressed critical-energy face, `(TFE.1747)' is still the strict
+positive-transfer inequality `(TFE.1715)'.  The standard critical estimate
+proves it only for small critical packets.  For arbitrary smooth data, the repo
+has not yet proved the native birth-packing map; it has reduced the \(L^1\)
+problem to that map and removed the higher detector layers as independent
+walls.
+
+## 150. Direct critical-frame attack on native birth packing
+
+The most direct remaining attack is to convert first native births into a
+parent-known critical material frame.
+
+For a retained first scale-native birth \(\gamma\), the already installed local
+admission line says that the child cannot manufacture the event as a detached
+scalar.  After lower-band carry, spent-source reuse, reset, reselection,
+silent exchange, legal, stop, and annular payback are removed, it leaves an
+endpoint seed
+
+\[
+M_\gamma
+=
+D_AJ_\gamma
++M_{\gamma,stop}
++M_{\gamma,legal}
++M_{\gamma,reset}
++M_{\gamma,return},
+\tag{TFE.1752}
+\]
+
+where \(J_\gamma\) is built from the original transported
+pressure-viscosity-incompressibility-velocity stress/current packet.  The paid
+pieces in `(TFE.1752)' are already routed.  The unproved root line is the
+summation of the fresh seed term
+
+\[
+\sum_{\gamma\subset P}
+\int_{I_\gamma}H_\gamma(t)\|M_\gamma(t)\|_2^2\,dt.
+\tag{TFE.1753}
+\]
+
+The critical-frame form of the desired theorem is:
+
+\[
+\boxed{
+\omega_\gamma
+\le
+C_N|\langle M_\gamma,\varphi_\gamma\rangle|^2
++Paid(\gamma),
+\qquad
+\|\varphi_\gamma\|_{\operatorname{Cap}_{crit,P}}\le C_N,
+}
+\tag{TFE.1754}
+\]
+
+with the tests \(\varphi_\gamma\) chosen from the original parent packet before
+future selected readout.  This is the lower frame: the selected child unit must
+be visible to a parent-known critical endpoint test.
+
+The upper frame is:
+
+\[
+\boxed{
+\sum_{\gamma\subset P}
+|\langle D_AJ,\varphi_\gamma\rangle|^2
+\le
+C_N\int_{\operatorname{Hist}(P)}
+|J|^2\,d\mathcal R_{crit}
++Paid(P).
+}
+\tag{TFE.1755}
+\]
+
+If `(TFE.1754)'--`(TFE.1755)' hold, then the native birth-packing map follows.
+Indeed, define the reserve atom
+
+\[
+\rho_\gamma
+:=
+|\langle D_AJ,\varphi_\gamma\rangle|^2
++Paid(\gamma).
+\tag{TFE.1756}
+\]
+
+The lower frame gives \(\omega_\gamma\le C_N\rho_\gamma+Paid(\gamma)\), and the
+upper frame gives
+
+\[
+\sum_{\gamma\subset P}\rho_\gamma
+\le
+C_N\int_{\operatorname{Hist}(P)}
+|J|^2\,d\mathcal R_{crit}
++Paid(P).
+\tag{TFE.1757}
+\]
+
+Thus `(TFE.1748)'--`(TFE.1750)' are proved once the critical current energy is
+bounded from original data with the strict native-reserve margin:
+
+\[
+\int_{\operatorname{Hist}(P)}
+|J|^2\,d\mathcal R_{crit}
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathfrak R_P^{nat}
++R_{\rm legal}(P)+Stop(P),
+\qquad \theta<1.
+\tag{TFE.1758}
+\]
+
+The upper frame has a clear Hilbert mechanism after the lower frame is
+parent-known.  Put
+
+\[
+\psi_\gamma=D_A^*\varphi_\gamma
+\in L^2(\operatorname{Hist}(P),d\mathcal R_{crit})
+\tag{TFE.1759}
+\]
+
+and split against the parent-known spent span:
+
+\[
+\psi_\gamma
+=
+\Pi_{E_{\gamma^-}}\psi_\gamma
++(I-\Pi_{E_{\gamma^-}})\psi_\gamma
+=b_\gamma+f_\gamma.
+\tag{TFE.1760}
+\]
+
+The inherited part \(b_\gamma\) is parent current/reuse and is paid by the
+Schur/Gram determinant or by return/reset/selector motion.  The fresh residuals
+\(f_\gamma\) are Bessel/Carleson in the parent critical Hilbert space:
+
+\[
+\sum_{\gamma\subset P}
+|\langle J,f_\gamma\rangle|^2
+\le
+C_N\int_{\operatorname{Hist}(P)}
+|J|^2\,d\mathcal R_{crit}
++Paid(P).
+\tag{TFE.1761}
+\]
+
+So the upper-frame algebra is not the hard part after parent-known lower
+admission.  The hard part is constructing the critical tests and proving
+`(TFE.1758)' from original data.  Raw capacity fails: a shrinking heat-scale
+seed can have
+
+\[
+\|M_r\|_{\operatorname{Cap}_{raw,P}^{-1}}^2\sim r,
+\qquad
+\omega_r\sim1.
+\tag{TFE.1762}
+\]
+
+Therefore the capacity must be critical, and its original-data finiteness is
+exactly the scale-native reserve:
+
+\[
+\mathfrak R_P^{nat}
+\simeq
+\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt.
+\tag{TFE.1763}
+\]
+
+The original coupled equation gives only the signed critical identity
+
+\[
+{1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
++
+\nu\|\Lambda^{3/2}u\|_2^2
+=
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle.
+\tag{TFE.1764}
+\]
+
+The critical-frame proof closes exactly when the positive part of the right
+side satisfies
+
+\[
+\int_0^T
+\left(
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C_N(u_0)
++\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(P),
+\qquad \theta<1.
+\tag{TFE.1765}
+\]
+
+Thus the direct frame attack proves the equivalence:
+
+\[
+\boxed{
+\text{parent-known critical lower frame}
++
+\text{critical current upper packing}
++
+\text{strict positive transfer `(TFE.1765)'}
+\Longrightarrow
+\texttt{NativeBirthChargePacking.A}.
+}
+\tag{TFE.1766}
+\]
+
+The first two clauses are the correct formalization of the physical
+first-birth picture.  The last clause is the remaining arbitrary-data analytic
+producer.  The signed identity `(TFE.1764)' does not imply `(TFE.1765)' because
+negative transfer can occur in a different shell, orientation, or material
+readout while the selected child counts only the positive upward birth.  That
+is the exact mathematical content still missing from the \(L^1\) close.
+
+## 151. Physical depletion story for the missing \(L^1\) theorem
+
+The physical story needed for the \(L^1\) close is this: pressure may
+re-coordinate the whole incompressible packet at once, heat/viscosity may make
+that coordination readable only after a heat-scale lag, and the updated velocity
+then feeds the next pressure-compatible coordination.  The loop is real, but it
+is one original material history.  A selected child is not allowed to count that
+same history as new positive action unless the parent history changes in the
+critical selected metric before the child clips the sign.
+
+The only surviving bad picture is therefore a Zeno train of first scale-native
+births.  There are retained children \(\gamma_k\) with
+
+\[
+\omega_{\gamma_k}\simeq1,
+\qquad
+\sum_k
+\left(
+R_{\rm raw}(\gamma_k)
++R_{\rm collar}(\gamma_k)
++R_{\rm legal}(\gamma_k)
++Stop(\gamma_k)
+\right)<\infty,
+\tag{TFE.1767}
+\]
+
+but
+
+\[
+\sum_k\omega_{\gamma_k}=\infty.
+\tag{TFE.1768}
+\]
+
+This is not an unknown force source.  It is the same pressure-heat-viscous
+packet being read through smaller and smaller critical heat windows.  Raw
+energy can see the \(R_{\rm raw}\)-side of `(TFE.1767)' and still miss the
+selected count `(TFE.1768)'.  The missing theorem must prove that this train
+cannot be made of genuine first births in the same original packet.
+
+The exact closure package is therefore:
+
+\[
+\boxed{\texttt{SameParentCriticalDepletionNoZeno.A}.}
+\tag{TFE.1769}
+\]
+
+It has four clauses.
+
+First, the selected critical carrier is chosen by the parent before clipping:
+
+\[
+\mathfrak C_P^{crit}
+=
+\left(
+Z_P^S,\Psi_P^S,H_P^{act},\mathcal N_P^{act},
+\mathcal P_P^{act},\nabla^P
+\right),
+\tag{TFE.1770}
+\]
+
+with every entry built from the transported pressure-viscosity-incompressibility
+packet, the stopped collar/Hodge graph, and the root material frame on \(P\).
+No object in `(TFE.1770)' may be fitted after the descendant positive readout
+is known.
+
+Second, every retained first birth has a parent lower edge in that carrier:
+
+\[
+\omega_\gamma
+\le
+C_N\,dA_{P,crit}^{birth,+}(\gamma)
++Paid(\gamma),
+\qquad
+\gamma\in\Gamma_N^{birth}(P).
+\tag{TFE.1771}
+\]
+
+Here \(dA_{P,crit}^{birth,+}\) is not a descendant tail.  It is the positive
+variation of the parent-known active pressure-Hodge/strain/current record after
+lower-band carry, parent-current reuse, Schur payment, return, reset,
+reselection, exchange, legal, and stop have already been stripped.
+
+Third, that positive variation depletes a bounded parent storage with a strict
+viscous margin:
+
+\[
+dA_{P,crit}^{birth,+}
+\le
+-d\mathcal B_P^{crit}
++\theta\,d\mathfrak R_P^{nat}
++dPaid_P,
+\qquad
+0\le\theta<1,
+\tag{TFE.1772}
+\]
+
+where
+
+\[
+\mathcal B_P^{crit}(t)\ge0,
+\qquad
+\mathcal B_P^{crit}(t_0)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1773}
+\]
+
+and
+
+\[
+\mathfrak R_P^{nat}
+\simeq
+\nu\int_{I_P}\|\Lambda^{3/2}u(t)\|_2^2\,dt
+\tag{TFE.1774}
+\]
+
+in the critical full-output coordinate.  The storage \(\mathcal B_P^{crit}\)
+is the mathematical form of "accessibility being used up": once a pressure
+coordination becomes a heat-lag readable state at the selected critical scale,
+the original packet has less remaining parent-known active capacity unless the
+event is paid by the strict viscous/native reserve or by a routed branch.
+
+Fourth, the terminal Zeno branch has no unspent atom:
+
+\[
+\mu_{P,crit}^{birth}
+\left(\{T_\ast\}\right)=0
+\quad\text{after legal, stop, endpoint-face, and same-witness routing,}
+\tag{TFE.1775}
+\]
+
+or, equivalently, the root-fixed endpoint trace has a Hardy/time-thickness
+modulus in the same critical carrier:
+
+\[
+\sup_{\tau<T_\ast}
+\int_\tau^{T_\ast}
+\frac{d\mu_{P,crit}^{birth}(t)}
+{(T_\ast-t)^{1-\varepsilon}}
+\le
+C_N(u_0)+Paid(P)
+\tag{TFE.1776}
+\]
+
+for some packet-fixed \(\varepsilon>0\) on the retained Gold branch.  This is
+the statement that the pressure-compatible part may be the first to arrive and
+the last to be readable, but it cannot remain as a zero-thickness positive
+selected atom outside the same finite parent ledger.
+
+These four clauses close the \(L^1\) line.  Indeed, summing `(TFE.1771)' and
+using `(TFE.1772)' gives, for every \(\tau<T_\ast\),
+
+\[
+\sum_{\gamma\subset P,\ I_\gamma\subset(0,\tau)}
+\omega_\gamma
+\le
+C_N\left(\mathcal B_P^{crit}(0)-\mathcal B_P^{crit}(\tau)\right)
++C_N\theta\,\mathfrak R_P^{nat}(0,\tau)
++Paid(P).
+\tag{TFE.1777}
+\]
+
+By `(TFE.1773)' this becomes
+
+\[
+\sum_{\gamma\subset P,\ I_\gamma\subset(0,\tau)}
+\omega_\gamma
+\le
+C_N(u_0)\mathcal R(P)
++C_N\theta\,\mathfrak R_P^{nat}(0,\tau)
++Paid(P).
+\tag{TFE.1778}
+\]
+
+Combining `(TFE.1778)' with the critical energy identity `(TFE.1764)' absorbs
+the \(\theta<1\) native-reserve term into viscosity and yields
+
+\[
+\sup_{\tau<T_\ast}
+\int_0^\tau\int_P
+\mathcal M_N(Y_N)_+
+\le
+C_N(u_0)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1779}
+\]
+
+The terminal clause `(TFE.1775)'--`(TFE.1776)' prevents the same estimate from
+leaving a retained endpoint atom after the supremum is taken.  Thus
+`SameParentCriticalDepletionNoZeno.A' implies `(TFE.1765)',
+`NativeBirthChargePacking.A', and the terminal-uniform \(L^1\) Gold line.
+
+The audit is now exact about what is missing.  Already paid are source
+attachment, bounded-Riesz Bessel/Schur directions, parent-current no-recount,
+first-admission update after a channel is charged, derivative-exact reset
+Cauchy, selector thinning, legal, stop, and local endpoint seed identity.
+Still missing is not another detector and not a pressure-only or viscosity-only
+estimate.  The missing PDE theorem is the original-data construction of
+`(TFE.1770)'--`(TFE.1776)': a parent-known critical active carrier, a lower edge
+for genuine first births, a bounded-below depletion storage with strict
+\(\theta<1\) native-reserve margin, and the no-Zeno endpoint modulus, all for
+the full coupled pressure-viscosity-incompressibility-velocity packet before
+positive child clipping.
+
+## 152. Good-lambda form of the same depletion law
+
+The depletion package `(TFE.1769)' has an equivalent tail form that is closer to
+the physical state-count picture.  Let \(\nu_L(P)\) be the original-ledger
+native reserve mass of retained first births whose selected critical
+amplification lies in the \(L\)-th ratio band.  Thus an event in band \(L\)
+costs raw parent mass \(\nu_L\) but presents selected \(L^1\) action
+comparable to \(2^L\nu_L\).  The target is
+
+\[
+\sum_{L\ge0}2^L\nu_L(P)<\infty .
+\tag{TFE.1780}
+\]
+
+Define the parent-known raw tail
+
+\[
+N_L(P):=\sum_{\ell\ge L}\nu_\ell(P).
+\tag{TFE.1781}
+\]
+
+The exact no-Zeno recurrence is
+
+\[
+N_{L+1}(P)
+\le
+\theta N_L(P)+B_L(P),
+\qquad
+\theta<\frac12,
+\tag{TFE.1782}
+\]
+
+with original-data paid error
+
+\[
+\sum_{L\ge0}2^LB_L(P)
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1783}
+\]
+
+Then `(TFE.1780)' follows.  Indeed, multiply `(TFE.1782)' by \(2^{L+1}\) and
+sum from \(L=0\) to \(M\):
+
+\[
+\sum_{K=1}^{M+1}2^KN_K
+\le
+2\theta\sum_{L=0}^M2^LN_L
++2\sum_{L=0}^M2^LB_L.
+\tag{TFE.1784}
+\]
+
+After moving the common terms to the left,
+
+\[
+(1-2\theta)\sum_{K=1}^{M}2^KN_K
+\le
+2\theta N_0
++2\sum_{L=0}^M2^LB_L
++2^{M+1}N_{M+1}.
+\tag{TFE.1785}
+\]
+
+The boundary term is harmless after truncation and monotone convergence in the
+retained stopped tree.  Hence
+
+\[
+\sum_{L\ge0}2^LN_L(P)
+\le
+C_\theta
+\left(
+N_0(P)+\sum_{L\ge0}2^LB_L(P)
+\right),
+\tag{TFE.1786}
+\]
+
+and since \(\nu_L\le N_L\), `(TFE.1780)' follows from `(TFE.1783)'.
+
+This is the precise reason the coefficient has to beat one half.  Going from
+ratio \(L\) to ratio \(L+1\) doubles the selected weight.  If one half of the
+raw parent reserve can survive into the next ratio level forever, the doubled
+selected weight can keep the \(L^1\) bill alive.  The model
+
+\[
+\nu_L={2^{-L}\over L+1}
+\tag{TFE.1787}
+\]
+
+has finite raw reserve but infinite selected action, and its tail ratio tends
+to the half barrier.  Therefore any proof that only gives
+\(N_{L+1}\le\frac12N_L+\text{paid}\) is still critical; Gold needs a strict
+gap, or an equivalent bounded depletion storage.
+
+The physical meaning of `(TFE.1782)' is direct.  After the pressure-compatible
+parent state has passed through one heat-lag/viscous readout, more than half of
+the parent raw reserve must be deleted from the next higher selected-ratio
+class unless the survivor has paid by route motion, Schur/current update,
+reset/reselection, legal, stop, endpoint thickness, or a genuinely new native
+birth atom.  Pressure feedback can re-coordinate the remaining state; it cannot
+let exactly the critical half of the old accessible state keep climbing the
+selected ratio ladder without leaving an original-ledger payment.
+
+Thus `(TFE.1769)' and `(TFE.1782)' are the same proof obligation in two
+coordinates:
+
+\[
+\boxed{
+\texttt{SameParentCriticalDepletionNoZeno.A}
+\Longleftrightarrow
+\texttt{SameParentCriticalGoodLambdaTail.A}.
+}
+\tag{TFE.1788}
+\]
+
+The direction from depletion to good-lambda uses `(TFE.1772)' on the retained
+tail set \(\{\ell\ge L\}\).  The direction from good-lambda to depletion uses
+the finite weighted tail `(TFE.1786)' to build a noncircular parent storage by
+level envelopes:
+
+\[
+\mathcal B_P^{crit,L}
+:=
+\sum_{m\ge L}2^{m-L}N_m(P),
+\qquad
+\mathcal B_P^{crit}:=\mathcal B_P^{crit,0},
+\tag{TFE.1789}
+\]
+
+with `(TFE.1782)' giving the one-step drop and `(TFE.1783)' giving the root
+bound.  This is allowed only when \(N_m(P)\) is parent-known from the original
+critical carrier `(TFE.1770)' before child positive clipping.  If \(N_m\) is
+defined from the future selected descendant tail, `(TFE.1789)' is just the
+circular Bellman reserve rejected earlier.
+
+So the next actual proof burden is narrower than "find an \(L^1\) estimate."
+It is:
+
+\[
+\boxed{
+\text{construct the parent-known tails \(N_L(P)\) from original coupled data
+and prove the strict recurrence `(TFE.1782)' with `(TFE.1783)'.}
+}
+\tag{TFE.1790}
+\]
+
+The already-paid local mechanisms supply the \(B_L\) terms.  The only term not
+yet supplied is the strict contraction of the retained same-carrier
+pressure-heat-viscous tail itself.
+
+## 153. First contraction split for the retained tail
+
+The retained tail in `(TFE.1790)' has three physical exits.
+
+The first exit is heat-resident deletion.  If a birth remains in the same
+parent carrier for a full heat-scale window and its affine pressure-balanced
+part is absent, parabolic residence gives a strict loss:
+
+\[
+N_{L+1}^{heat}(P)
+\le
+\theta_{heat}N_L(P)+B_L^{heat}(P),
+\qquad
+\theta_{heat}<\frac12
+\tag{TFE.1791}
+\]
+
+after taking the ratio step wide enough if necessary.  The paid error
+\(B_L^{heat}\) is the ordinary viscous/native reserve contribution and is
+weighted-summable by the raw heat ledger.
+
+The second exit is carrier motion.  If the selected ratio rises because the
+frame, transported covector, collar/Hodge projector, endpoint chart, Schur
+direction, or order-lock relation moves, the event is not a free same-carrier
+survival.  It is paid by the already routed geometry/error family:
+
+\[
+\sum_L2^L B_L^{motion}(P)
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1792}
+\]
+
+This includes derivative-exact reset Cauchy, selector thinning, legal/stop,
+Schur-visible update, return, and parent-current no-recount.
+
+The third branch is the real survivor.  It is root-fixed, same-carrier,
+non-derivative, affine/pressure-balanced, and faster than heat.  In that branch
+there is no heat-resident strict loss and no charged carrier motion.  A local
+model is the trace-free affine material packet
+
+\[
+u(x,t)=A(t)x,
+\qquad
+\operatorname{tr}A(t)=0,
+\qquad
+\nabla^2p=-(\dot A+A^2),
+\tag{TFE.1793}
+\]
+
+localized into a small heat window.  It can have raw cost \(O(r)\) and selected
+critical action \(O(1)\).  Therefore no local heat estimate, local pressure
+Poisson attachment, fixed quadratic Sobolev counter, or child-renormalized
+Bellman storage proves `(TFE.1782)' on this branch.
+
+The retained affine-balanced branch must be killed globally:
+
+\[
+N_{L+1}^{aff}(P)
+\le
+\theta_{aff}N_L(P)+B_L^{aff}(P),
+\qquad
+\theta_{aff}<\frac12,
+\tag{TFE.1794}
+\]
+
+with
+
+\[
+\sum_L2^LB_L^{aff}(P)
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P)+End(P).
+\tag{TFE.1795}
+\]
+
+Equation `(TFE.1794)' is exactly the unsolved part of `(TFE.1790)'.  It says
+that the original coupled packet cannot run an infinite root-fixed affine
+pressure-balanced half-tail whose pressure compatibility keeps re-coordinating
+the selected state while viscosity only pays the summable raw \(O(r)\) costs.
+Equivalently, the endpoint/no-Zeno clause `(TFE.1775)'--`(TFE.1776)' must prove
+that such a branch either has time thickness, pays the endpoint face, or
+vanishes as a retained Gold birth.
+
+Thus the current proof state is:
+
+\[
+\text{heat-resident branch}
++\text{carrier-motion branch}
++\text{affine-balanced no-Zeno branch}
+\Longrightarrow
+\text{good-lambda tail `(TFE.1782)'.}
+\tag{TFE.1796}
+\]
+
+The first two branches are installed as consumers/support.  The third branch is
+the only remaining mathematical content of the \(L^1\) problem after the
+physical story is made exact.
+
+## 154. Affine-balanced branch: root-fixed no-Zeno fork
+
+The affine-balanced branch cannot be killed by instantaneous pressure
+nonlocality alone.  On each time slice, pressure attaches the affine visit to
+the incompressible packet through
+
+\[
+-\Delta p=\partial_i\partial_j(u_i u_j).
+\tag{TFE.1797}
+\]
+
+That is real same-field participation, but it is not a time-history tax.  Two
+affine visits that occur on separated heat windows have no elliptic cross term;
+overlapping visits have signed pressure-Hodge interaction rather than a
+positive lower bound after selected clipping.  Therefore the needed object is
+not "pressure remembers everything" as a static Poisson estimate.  It is a
+root-fixed time-history functional that records positive affine state variation
+inside the same original packet.
+
+Let \(d\mu_P^{aff}\) be the retained affine-balanced selected birth measure
+after heat-resident deletion, carrier-motion payment, Schur/current update,
+return, reset/reselection, legal, stop, and endpoint-face routing have been
+removed.  The required root-fixed no-Zeno functional is
+
+\[
+\mathcal L_P^{aff}(t)
+\quad\text{built from the original transported full packet before child
+clipping,}
+\tag{TFE.1798}
+\]
+
+with
+
+\[
+-d\mathcal L_P^{aff}
+\ge
+c\,d\mu_P^{aff}
+-d\lambda_P^{aff},
+\tag{TFE.1799}
+\]
+
+where the residual is terminally thin in the same root frame:
+
+\[
+\lim_{\rho\downarrow0}\sup_{z_0}
+\lambda_P^{aff}(T_\rho(z_0))=0.
+\tag{TFE.1800}
+\]
+
+The drop must be nonresettable across descendant heat windows:
+
+\[
+\sum_j
+\big[
+\mathcal L_P^{aff}(t_j^-)-\mathcal L_P^{aff}(t_j^+)
+\big]_+
+\le
+\mathcal L_P^{aff}(t_0)-\inf\mathcal L_P^{aff}
++Paid(P).
+\tag{TFE.1801}
+\]
+
+Finally, the same root-fixed functional must have no terminal jump, or a Hardy
+time-thickness substitute:
+
+\[
+\lim_{\rho\downarrow0}\sup_{z_0}
+\big[-\Delta_{T_\rho(z_0)}\mathcal L_P^{aff}\big]_+
+=0,
+\tag{TFE.1802}
+\]
+
+or
+
+\[
+\sup_P\int_{-1}^{0}
+(-s)^{-\alpha}\,d(-\mathcal L_P^{aff})_+(s)
+\le C_N(u_0)
+\qquad(\alpha>0).
+\tag{TFE.1803}
+\]
+
+Then the affine tail packs.  Indeed, `(TFE.1799)'--`(TFE.1801)' prevent the
+same affine pulse from being paid once in every child coordinate, and
+`(TFE.1802)' or `(TFE.1803)' prevents the remaining finite drop from sitting as
+a zero-thickness terminal atom.  Consequently
+
+\[
+\sum_{\gamma\in\Gamma_N^{aff}(P)}\omega_\gamma
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1804}
+\]
+
+which gives `(TFE.1794)'--`(TFE.1795)' and hence the good-lambda contraction
+`(TFE.1782)'.
+
+The known candidate for producing \(\mathcal L_P^{aff}\) is the stopped
+pressure/operator-collar symmetrizer.  In its noncircular form, one must build
+a bounded-below parent functional
+
+\[
+\widetilde{\mathscr A}_N^{press/op+collar}\ge -C_N(u_0)
+\tag{TFE.1805}
+\]
+
+such that, after paid annular stress, selector/order-lock, recirculation, legal,
+and stop terms are removed,
+
+\[
+d\widetilde{\mathscr A}_N^{press/op+collar}
++c_N
+\left(
+d\Omega_N^{press/RHS}
++d\Omega_N^{collar}
++d\Omega_N^{src,Hilbert}
++d\Omega_N^{stop}
+\right)
+\le
+dR_N^{legal}.
+\tag{TFE.1806}
+\]
+
+The fixed-carrier martingale/reverse-Holder machinery is a consumer after
+`(TFE.1805)'--`(TFE.1806)'.  It beats the half-tail by giving the strict
+good-lambda gain.  The natural pressure/operator-collar energy, however, is
+not an allowed input:
+
+\[
+\mathscr A_N^{nat}\ge -C_N(u_0)
+\Longleftrightarrow
+E_{p,N}(t)+E_{coll,N}(t)\le C_N(u_0),
+\tag{TFE.1807}
+\]
+
+because that upper bound is the same continuation-depth record the Gold proof is
+trying to construct.  Using `(TFE.1807)' as a premise is circular.
+
+Thus the affine branch is now reduced to one honest fork:
+
+\[
+\boxed{
+\begin{array}{ll}
+\text{Gold branch:}&
+\text{construct `(TFE.1798)'--`(TFE.1803)' from original coupled data,}\\
+&\text{or equivalently the bounded-below symmetrizer `(TFE.1805)'--`(TFE.1806)';}\\[1mm]
+\text{endpoint branch:}&
+\text{if a terminal affine atom survives, same-witness endpoint admission}\\
+&\text{routes it out of Gold rather than paying it as finite \(L^1\).}
+\end{array}
+}
+\tag{TFE.1808}
+\]
+
+This is the exact physical meaning of the last gap.  Pressure can coordinate
+the affine response instantly, and viscosity can make the raw heat/collar cost
+summable on shrinking windows.  The missing theorem says one original parent
+history still has to remember the positive affine variation in a root-fixed
+clock that cannot be reset by zooming.  Without that root-fixed memory or a
+Hardy no-jump substitute, the proof has not beaten the \(L^1\) half-tail.
+
+## 155. Relative-Schur correction: what the entropy story still must prove
+
+The audit of the pressure/operator-collar files changes the wording of the
+fork in Section 154.  The physical picture is not that a pressure-only storage
+has to remember every affine visit.  Pressure and collar lie on the exact
+coupled graph of the material packet, and only the motion off that graph is
+paid by the relative Schur defect.
+
+Write the pressure/collar variables as
+
+\[
+Z_N=(q,C_N),
+\qquad
+Z_N=\Gamma_N(Y_N)+W_N,
+\tag{TFE.1809}
+\]
+
+where \(Y_N\) is the free transported packet data and
+\(\Gamma_N(Y_N)\) is the elliptic/collar graph forced by the same material
+state.  The noncircular Schur storage is
+
+\[
+\mathscr S_N^{pc}
+:=
+-\frac12\|W_N\|_{pc,N}^2 .
+\tag{TFE.1810}
+\]
+
+It can pay only the normal graph defect:
+
+\[
+d\mathscr S_N^{pc}
++c_N\,d\Omega_N^{rel.defect}
+\le
+dR_N^{paid}.
+\tag{TFE.1811}
+\]
+
+It cannot pay graph-parallel pressure feedback, because that feedback can be
+present when \(W_N=0\).  The correct split is therefore
+
+\[
+d\Omega_N^{pc,raw}
+\le
+C_N\,d\Omega_N^{rel.defect}
++C_N\,d\Omega_N^{graph.driver}
++dR_N^{paid}.
+\tag{TFE.1812}
+\]
+
+The graph driver is the moving low-high pressure-strain / cubic-collar
+interface, equivalently the primitive full-packet feedback driver.  In shell
+coordinates it contains the same-depth term
+
+\[
+\sum_j w_j
+\Big[
+\big\langle
+H_{j,N},
+\mathcal M_{<j-C,N}H_{j,N}
+\big\rangle
+\Big]_+\,dt
+\tag{TFE.1813}
+\]
+
+together with the wave-covector, annular/collar-normal, frame, Hodge, and
+viscous/radial components of the same transported packet.  This is the exact
+place where the entropy picture has to do work.  Pressure feedback may
+re-coordinate which future packet states are accessible, but the proof must
+show that this re-coordination cannot reopen positive selected state changes
+faster than the coupled packet deletes them.
+
+Thus the full parent action clock is
+
+\[
+d\Omega_N^{full}
+:=
+d\Omega_N^{graph.driver}
++d\Omega_N^{rel.defect}
++d\Omega_N^{recirc,finite}.
+\tag{TFE.1814}
+\]
+
+The entropy/state-count theorem needed for the Gold \(L^1\) line is the
+existence, before child clipping, of a parent-known critical state capacity
+\(\mathfrak S_P\) and a finite original-history density
+\(d\Theta_{P,N}^{orig}\) such that, after normalizing the full clock,
+
+\[
+d\mathfrak S_P
++d\Omega_N^{full,+}
+\le
+\theta\,d\Omega_N^{full,+}
++d\Theta_{P,N}^{orig}
++dR_N^{paid},
+\qquad
+\theta<\frac12,
+\tag{TFE.1815}
+\]
+
+with
+
+\[
+\sup_{\tau<T_*}
+\int_{t_0}^{\tau}d\Theta_{P,N}^{orig}
+\le
+C_N(u_0)\mathcal R(P)+Legal(P)+Stop(P).
+\tag{TFE.1816}
+\]
+
+The strict half in `(TFE.1815)' is the quantitative form of "future states are
+being deleted."  It gives the good-lambda recurrence
+
+\[
+N_{L+1}^{full}(P)
+\le
+\theta N_L^{full}(P)+B_L(P),
+\qquad
+\sum_L2^L B_L(P)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1817}
+\]
+
+and therefore
+
+\[
+\sum_L2^L\nu_L^{full}(P)<\infty .
+\tag{TFE.1818}
+\]
+
+This is the \(L^1\) close after the deterministic entropy telescope is already
+installed.  The telescope says that a selected child readout at ratio \(2^L\)
+consumes \(L\)-scale parent entropy once the parent-known density exists.  The
+PDE wall is constructing that density from the original coupled packet without
+placing the same positive graph-driver clock on both sides of the estimate.
+
+The complete-frame Hodge assembly is the current candidate mechanism for the
+graph-driver part: pressure is the normal constraint multiplier, Schur pays
+normal pressure/collar defect, and trace-free strain forces a positive
+velocity-direction pump into wave-covector or annular/collar-normal compression.
+But those transverse compression records are still components of
+\(d\Omega_N^{full}\).  Therefore complete-frame orientation is an admission and
+routing theorem, not by itself the bounded-below entropy storage.
+
+Everything still missing for the \(L^1\) close is now this package:
+
+\[
+\begin{array}{ll}
+\text{(i)}&
+\text{construct the parent-known critical capacity }\mathfrak S_P
+\text{ before child clipping;}\\
+\text{(ii)}&
+\text{prove selected first births have a lower edge in }
+d\Omega_N^{full,+};\\
+\text{(iii)}&
+\text{prove the non-self-feeding inequality `(TFE.1815)' with }
+\theta<\frac12;\\
+\text{(iv)}&
+\text{prove terminal no-atom/Hardy thickness for the same root capacity.}
+\end{array}
+\tag{TFE.1819}
+\]
+
+Physically, this is the completed version of the entropy feedback story.  The
+parent packet is not a static energy amount and not a pressure-only signal.  It
+is the coupled pressure-viscosity-incompressibility-velocity history whose
+pressure side instantly re-coordinates the available future states while the
+viscous/strain/frame side deletes them over heat time.  The Gold \(L^1\) problem
+is to prove that the re-coordination has finite one-way positive variation in
+that same parent history.  The repo has the deterministic counting telescope
+after such a parent density exists; it still does not have the original-data
+proof of `(TFE.1815)'--`(TFE.1819)'.
