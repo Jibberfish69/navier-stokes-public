@@ -23250,3 +23250,593 @@ terminal face without time thickness.
 This keeps the proof from making the old mistake of treating routed-current
 energy as an original source when it is only a bounded projection of a full
 packet clock that still needs to be produced.
+
+## 136. Affine-transition admission and the real heat-lag source line
+
+The two records in `(TFE.1566)' meet at one physical object.  A
+pressure-compatible parent pulse can re-coordinate the packet before the
+velocity/strain child has a readable energy.  Across the heat-lag continuum,
+the child sees a lower-triangular response
+
+\[
+F(s,t)
+=
+\int_{s_0}^{s-\kappa}
+\widetilde Z^{fr}(\sigma,t)\,d\sigma ,
+\qquad
+w(s,t)=a(e^s,t).
+\tag{TFE.1567}
+\]
+
+The exact weighted split is
+
+\[
+\int_I w\|F\|_2^2\,ds
+=
+\int_I w\|(I-P_w)F\|_2^2\,ds
++H_w(t)\|c_F(t)\|_2^2,
+\tag{TFE.1568}
+\]
+
+with
+
+\[
+c_F(t)
+=
+\int_J\theta_\kappa(\sigma)\widetilde Z^{fr}(\sigma,t)\,d\sigma,
+\qquad
+\theta_\kappa''=0\quad\text{on }J .
+\tag{TFE.1569}
+\]
+
+The derivative half in `(TFE.1568)' is already the exact-in-scale/material
+variation side: derivative-exact response, frame/covector/turnstile/exchange,
+route, return, legal, and stop material.  The persistent half is `(TFE.1569)'.
+It is the affine pressure-memory quotient: the part of the pressure-compatible
+transition that a first scale derivative does not see.
+
+The adjacent Schur/no-reuse repair says what repeated admitted production would
+mean after the quotient has entered the parent current.  For
+\(b(s)=(1,s)^T\), set
+
+\[
+\mathsf G_J(t)
+=
+\int_J w_J(s,t)^{-1}b(s)b(s)^T\,ds,
+\qquad
+m_J(t,x)
+=
+\int_J b(s)\widetilde Z^{S,new}(s,t,x)\,ds .
+\tag{TFE.1570}
+\]
+
+Then the affine readout is bounded by Schur storage:
+
+\[
+H_w(t)\|c_F(t)\|_2^2
+\le
+C_\kappa
+\int
+\langle m_J,\mathsf G_J^{-1}m_J\rangle\,dx
+=
+C_\kappa\mathfrak S_J(t).
+\tag{TFE.1571}
+\]
+
+Thus no-reuse does not merely say "same parent."  It gives the algebraic
+storage that would pay repeated affine production after admission.  The missing
+admission/update theorem is the before-clipping transition split
+
+\[
+\mathcal C_\theta[Z_e]
+=
+B_e+D_e+R_e,
+\tag{TFE.1572}
+\]
+
+where \(B_e\) is the parent-predictable inherited affine component, \(D_e\) is
+orthogonal to the parent affine span in the parent-known weighted lifted space,
+and \(R_e\) is paid collar/selector/legal material.  The required packing is
+
+\[
+\int
+\left\|\sum_e D_e\right\|_{H_{e^-}}^2
+\lesssim
+\sum_e\int H_{e^-}(t)\|D_e(t)\|_2^2\,dt
++Paid(P),
+\tag{TFE.1573}
+\]
+
+with \(H_{e^-}\) fixed from parent history before the child clips a positive
+readout.  If the weight is chosen after the child crest is seen, this is exactly
+the old half-tail in a new coordinate.
+
+Once `(TFE.1572)'--`(TFE.1573)' are available, the inherited part is Schur
+current/return work and the innovation part is Bessel/reset or first native
+birth:
+
+\[
+\sum_{e\in\mathscr E_{\rm rep}}H_{e^-}\|B_e\|^2
+\le
+Return(P)+PotAvg(P)+Paid(P),
+\tag{TFE.1574}
+\]
+
+\[
+\sum_{e\in\mathscr E_{\rm reset}}H_{e^-}\|D_e\|^2
+\le
+ResetBV(P)+LogScaleCarrier(P)+Paid(P).
+\tag{TFE.1575}
+\]
+
+The endpoint/native record is the part of `(TFE.1575)' that is not
+derivative-exact reset.  It is the native heat-lag source seen in the
+pressure-memory equation.  For one stopped heat-lag chart \(J\),
+
+\[
+D_tZ_J
+=
+-\nu\mathcal L_JZ_J
++S_J^{skew}
++S_J^{visc-src}
++S_J^{frame}
++S_J^{exit}
++Err_J .
+\tag{TFE.1576}
+\]
+
+The parabolic term supplies residence, the skew part is signed parent-current
+variation, the frame part is storage, and the source/error part must satisfy
+the Hardy-Carleson heat-lag estimate
+
+\[
+\sup_{Q\subset P}
+{1\over\mathcal R(Q)}
+\sum_{J\subset Q}
+\int_{I_J}
+{h_J(t)\over\nu\lambda_J^2}
+\|S_J^{visc-src}(t)+Err_J(t)\|_2^2\,dt
+\le
+C_N(u_0)+Paid(Q).
+\tag{TFE.1577}
+\]
+
+This is the exact \(L^1\) relationship between the pressure-arrival tower and
+the viscous/velocity readout tower.  The Cauchy factorization is
+
+\[
+2h_J|\langle Z_J,S_J\rangle|
+\le
+\varepsilon\,\nu h_J\lambda_J^2\|Z_J\|_2^2
++C_\varepsilon {h_J\over\nu\lambda_J^2}\|S_J\|_2^2.
+\tag{TFE.1578}
+\]
+
+The first term is pressure-memory residence, and the second term is the native
+heat-lag source charge.  A naked scalar half-tail can have finite square mass
+and infinite linear count; a same-parent heat-lag factorization with both
+square factors Carleson cannot.
+
+Terminal replay is the time-face version of the same problem.  The native
+endpoint seed must have thickness
+
+\[
+d\mu_P^{end}
+\le
+b_P(t)\,dt+dPaid_P,
+\qquad
+\int_0^{T_*}b_P(t)\,dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1579}
+\]
+
+or the full-packet no-residue inequality `(TFE.1556)'.  Finite \(L^1\) mass by
+itself still permits a zero-thickness terminal atom, so `(TFE.1579)' is not
+bookkeeping.  It is the terminal face of the same parent-predictable
+state-deletion law.
+
+The complete noncircular close condition exposed by the physical story is
+
+\[
+\begin{gathered}
+\texttt{AffineTransitionParentAdmission.A: `(TFE.1572)'--`(TFE.1575)';}\\
+\texttt{NativeHeatLagHardyCarleson.A: `(TFE.1577)'--`(TFE.1578)';}\\
+\texttt{EndpointNativeTimeThickness.A: `(TFE.1579)' or `(TFE.1556)'.}
+\end{gathered}
+\tag{TFE.1580}
+\]
+
+Under `(TFE.1580)', the persistent affine quotient has no fourth location:
+
+\[
+D_e^{pers}
+\Longrightarrow
+\begin{cases}
+\text{admitted Schur current/return by `(TFE.1571)' and `(TFE.1574)';}\\
+\text{fresh orthogonal/reset or first native birth by `(TFE.1573)' and `(TFE.1575)';}\\
+\text{native heat-lag source charge by `(TFE.1577)';}\\
+\text{terminal endpoint thickness/no-residue by `(TFE.1579)' or `(TFE.1556)';}\\
+\text{legal, stop, selector, collar, or full-exchange material.}
+\end{cases}
+\tag{TFE.1581}
+\]
+
+Then the deterministic absorption chain is formal:
+
+\[
+\begin{gathered}
+\text{`(TFE.1580)' and `(TFE.1581)'}\\
+\Longrightarrow
+\text{`(TFE.1557)'--`(TFE.1558)'}\\
+\Longrightarrow
+\text{`(TFE.1532)'--`(TFE.1537)'}\\
+\Longrightarrow
+\text{`(TFE.1539)'--`(TFE.1541)'}\\
+\Longrightarrow
+\text{terminal-uniform \(L^1\) and `(FGC.25)'.}
+\end{gathered}
+\tag{TFE.1582}
+\]
+
+This section sharpens what is still missing.  The physical story is not short
+of a new metaphor.  It needs the parent packet to build the selected weight and
+affine transition state before child positive clipping; it needs the native
+heat-lag source to be Hardy-Carleson at residence scale; and it needs endpoint
+time thickness.  Those three statements are exactly what would make the number
+of accessible future states decrease under the pressure-heat-viscous feedback
+loop instead of being recounted as fresh positive child action.
+
+The repo has Schur no-reuse, Bessel first-entry language, derivative reset
+Cauchy, selector nondegeneracy relative to paid reselection, signed scale
+descent, and the deterministic entropy telescope.  It does not yet prove
+`(TFE.1580)' from arbitrary original smooth coupled data.  Therefore this is
+not Gold closure; it is the current exact close condition for the \(L^1\)
+problem.
+
+## 137. Bessel consumer discharged after parent root geometry
+
+The first clause of `(TFE.1580)' contains one algebraic consumer and one real
+PDE producer.  The algebraic consumer is the Bessel/Pythagoras square packing
+of fresh affine innovations.  It is not the source of Gold once the parent
+root geometry has already been constructed.
+
+Assume a retained stopped root \(P\) carries a parent-known root measure
+
+\[
+d\nu_P=H_P(t,x)\,dt\,dx
+\tag{TFE.1583}
+\]
+
+and one lifted same-packet Hilbert space
+
+\[
+\mathfrak H_P
+=
+L^2(d\nu_P;\mathcal H_{\rm vis}\oplus\mathcal H_{\rm sil}\oplus\mathcal H_{\rm ex})
+\tag{TFE.1584}
+\]
+
+fixed before scalar positive selected readout.  Edge weights may be used only
+as parent-predictable multipliers comparable to \(H_P\), or through a bounded
+parent-predictable martingale transform into `(TFE.1584)'.
+
+Transport every stopped affine transition into this common parent geometry:
+
+\[
+\widetilde Z_e^P
+=
+\mathsf U_{e\to P}\mathcal C_\theta[Z_e],
+\tag{TFE.1585}
+\]
+
+where the connection cost of \(\mathsf U_{e\to P}\) is already charged to the
+parent root geometry ledger.  Let \(\mathcal P_{e^-}\subset\mathfrak H_P\) be
+the closed span of inherited parent affine transport, old exchange/covector
+motion, earlier announced innovations, and stopped selector score data.  Define
+
+\[
+B_e:=\Pi_{\mathcal P_{e^-}}\widetilde Z_e^P,
+\qquad
+D_e:=(I-\Pi_{\mathcal P_{e^-}})\widetilde Z_e^P,
+\qquad
+R_e:=\mathcal C_\theta[Z_e]-\mathsf U_{P\to e}(B_e+D_e).
+\tag{TFE.1586}
+\]
+
+If the stopped transition filtration is laminar, siblings are disjoint up to
+legal overlap, and descendants include earlier fresh increments in their parent
+span, then
+
+\[
+\langle D_e,D_f\rangle_{\mathfrak H_P}=0
+\qquad(e\ne f)
+\tag{TFE.1587}
+\]
+
+modulo legal overlap.  Hence Pythagoras gives
+
+\[
+\left\|\sum_{e\subset P}D_e\right\|_{\mathfrak H_P}^2
+\le
+C\sum_{e\subset P}\|D_e\|_{\mathfrak H_P}^2
++C\,R_{\rm legal}(P)+C\,Stop(P).
+\tag{TFE.1588}
+\]
+
+This proves the Bessel part of `(TFE.1573)' under common parent root geometry.
+It is not a Navier--Stokes estimate; it is Hilbert-space bookkeeping after the
+geometry exists.
+
+The remaining source is exactly the construction and Carleson bound for that
+geometry from the original coupled packet.  Define the root geometry charge
+
+\[
+\begin{aligned}
+d\Gamma_P^{root}
+:={}&
+H_P^\ast
+\left\|
+\Pi_{\rm new}^P
+\left(
+\partial_\sigma Z
++[D_t,\mathcal L_A]w
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
++\operatorname{frame}_\sigma
+\right)
+\right\|_{\mathcal H_{\rm lift}}^2\,d\sigma dt\\
+&\quad
++dA_P^{sel/chart}
++dR_{\rm legal,P}
++dStop_P .
+\end{aligned}
+\tag{TFE.1589}
+\]
+
+All weights, projections, parent spans, and connections in `(TFE.1589)' must be
+chosen from stopped parent history before the selected child clips its positive
+readout.  The noncircular producer is
+
+\[
+\boxed{
+\sup_{Q\subset P}
+{\Gamma_P^{root}(\widehat Q)\over\mathcal R(Q)}
+\le
+C_N(u_0)+Paid(Q).
+}
+\tag{TFE.1590}
+\]
+
+If `(TFE.1590)' holds, then the common parent geometry exists with finite
+connection drift, `(TFE.1586)' is a legitimate before-clipping projection split,
+and `(TFE.1588)' gives the fresh innovation square packing.  The inherited
+pieces route to Schur/current record and negative return; derivative-exact
+strict resets route by the harmonic Cauchy step; non-derivative reset remains a
+first native endpoint birth.  Therefore
+
+\[
+\text{`(TFE.1590)' + branch routing}
+\Longrightarrow
+\texttt{AffineTransitionParentAdmission.A}.
+\tag{TFE.1591}
+\]
+
+This also identifies the exact failure profile for the first clause of
+`(TFE.1580)'.  A bad sequence cannot be blamed on Bessel once it is written in a
+fixed parent Hilbert space.  It must escape through one of two producer faces:
+
+\[
+\sum_\ell\|D_\ell\|_{\mathfrak H_P}^2<\infty,
+\qquad
+\sum_\ell H_\ell\|D_\ell\|^2=\infty
+\tag{TFE.1592}
+\]
+
+for active-weight upcrossing, or
+
+\[
+\sum_e\|D_e\|^2<\infty,
+\qquad
+\sum_{e<f}
+|\langle \widetilde D_e,\widetilde D_f\rangle_{\mathfrak H_P}|=\infty
+\tag{TFE.1593}
+\]
+
+for unpaid parent-fixed angle drift.  In physical terms, `(TFE.1592)' is a
+future-selected meter using higher and higher heat-ratio weights without a
+parent-announced scale/turnstile/exchange cost.  `(TFE.1593)' is the meter
+rotating through frame, covector, pressure-Hodge coordinate, collar, or
+exchange motion without that rotation being charged to the original packet.
+Both are precisely parts of `(TFE.1589)'.
+
+Thus the first part of `(TFE.1580)' is sharpened to
+
+\[
+\boxed{
+\texttt{ParentRootGeometryCarleson.A `(TFE.1590)'}
++\text{branch routing}
+\Longrightarrow
+\texttt{AffineTransitionParentAdmission.A}.
+}
+\tag{TFE.1594}
+\]
+
+The algebraic Bessel consumer is discharged relative to `(TFE.1590)'.  What is
+still not proved is `(TFE.1590)' from arbitrary original smooth coupled data.
+That is the exact parent-geometry face of the physical state-deletion problem:
+the selected weight and the selected affine coordinate must be announced by
+real pressure-viscosity-incompressibility material motion before the child can
+count a positive heat-lag readout.
+
+## 138. Parent root geometry reduces to original scale-memory storage
+
+The entropy/state-deletion picture now has only one noncircular mathematical
+place to enter.  It cannot enter as an after-the-fact count of selected child
+states.  It must enter as a parent-known storage for the original packet motion
+that changes the selected meter itself: scale, frame, covector, pressure-Hodge
+coordinate, collar, endpoint, turnstile, and exchange motion.
+
+For a stopped parent \(P\), the original root generator is
+
+\[
+\mathcal G_P^{root}
+=
+\Pi_{\rm new}^{P}
+\left(
+\partial_\sigma Z
++[D_t,\mathcal L_A]w
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
++\operatorname{frame}_\sigma
++\operatorname{collar/endpoint}_\sigma
+\right).
+\tag{TFE.1595}
+\]
+
+The only proof-bearing original ledger for the root geometry is
+
+\[
+d\Lambda_P^{orig}
+=
+H_P^\ast\|\mathcal G_P^{root}\|_{\mathcal H_{\rm lift}}^2\,d\sigma dt
++dA_P^{sel/chart}
++dR_{\rm legal,P}
++dStop_P,
+\tag{TFE.1596}
+\]
+
+with \(H_P^\ast\), \(\Pi_{\rm new}^{P}\), the connection, and the selected chart
+all chosen from stopped parent history before descendant positive readout.
+The measures \(dA_P^{wt}\) and \(dA_P^{conn}\) are not allowed on the right
+side of this ledger.  They are exactly the active-weight and connection clocks
+being produced.
+
+Thus the required physical entropy law is the original scale-memory storage
+coercivity estimate
+
+\[
+\boxed{
+H_P^\ast\|\mathcal G_P^{root}\|_{\mathcal H_{\rm lift}}^2\,d\sigma dt
++dA_P^{sel/chart}
+\le
+-D_{\sigma,t}\mathcal M_P
++d\Theta_P^{orig}
++dR_{\rm legal,P}
++dStop_P ,
+}
+\tag{TFE.1597}
+\]
+
+where
+
+\[
+0\le \mathcal M_P
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P),
+\qquad
+\int_{\operatorname{Hist}(P)}d\Theta_P^{orig}
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1598}
+\]
+
+Physically, \(\mathcal M_P\) is not a second energy.  It is the parent packet's
+remaining state-access storage: the amount of pressure-compatible
+heat-lag/viscous re-coordination still able to change the selected meter.
+The density \(d\Theta_P^{orig}\) is the actual original packet motion that
+deletes or re-coordinates future compatible states.  Viscosity deletes fine
+heat-scale states; pressure and incompressibility re-coordinate the remaining
+state set; self-advection and material-frame motion move the meter.  The law
+above says that this whole feedback loop has finite original-history variation
+before any child is allowed to clip a positive readout.
+
+Integrating `(TFE.1597)' gives
+
+\[
+\int_{\operatorname{Hist}(P)}
+H_P^\ast\|\mathcal G_P^{root}\|_{\mathcal H_{\rm lift}}^2\,d\sigma dt
++A_P^{sel/chart}(\operatorname{Hist}(P))
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1599}
+\]
+
+Since `(TFE.1589)' is the same generator ledger with the legal and stop
+material included, `(TFE.1599)' gives the needed parent root geometry bound:
+
+\[
+\text{`(TFE.1597)'--`(TFE.1599)'}
+\Longrightarrow
+\texttt{ParentRootGeometryCarleson.A `(TFE.1590)'.}
+\tag{TFE.1600}
+\]
+
+The compactness form is the same statement with the circular escape removed.
+If `(TFE.1590)' fails, normalize a stopped bad sequence by
+
+\[
+\mu_n^{root}(\mathcal E_n)
+=
+\int dA_{P_n}^{root}
++\sum_{e\in\mathcal E_n}\int H_{e^-}\|D_e\|_{\mathcal H_{\rm lift}}^2
+=1
+\tag{TFE.1601}
+\]
+
+and assume the allowed original ledger tends to zero:
+
+\[
+\int_{\operatorname{Hist}(P_n)}d\Lambda_{P_n}^{orig}
++R_{\rm legal}(P_n)+Stop(P_n)\to0.
+\tag{TFE.1602}
+\]
+
+Original-ledger tightness then extracts a nonzero same-carrier limit in one
+stopped parent Hilbert space.  But zero original ledger forces
+
+\[
+\partial_\sigma Z_\infty
+=[D_t,\mathcal L_A]w_\infty
+=\operatorname{turnstile}_\infty
+=\operatorname{exchange}_\infty
+=\operatorname{covector}_\infty
+=\operatorname{frame/collar/endpoint}_\infty
+=0.
+\tag{TFE.1603}
+\]
+
+The limit is inherited parent transport.  After parent subtraction,
+
+\[
+D_\infty=(I-\Pi_{\mathcal P_-})Z_\infty=0,
+\tag{TFE.1604}
+\]
+
+contradicting the nonzero extracted root defect.  Thus root-defect compactness
+is a consumer after `(TFE.1597)'; it is not itself the source.
+
+This exposes the exact remaining wall without losing the physical picture:
+
+\[
+\boxed{
+\texttt{OriginalScaleMemoryStorageCoercivity.A / SelectedGeneratorStorageCoercivity.A}
+\Longrightarrow
+\texttt{ParentRootGeometryCarleson.A}
+\Longrightarrow
+\texttt{AffineTransitionParentAdmission.A}
+\Longrightarrow
+\text{terminal-uniform \(L^1\) and `(FGC.25)'.}
+}
+\tag{TFE.1605}
+\]
+
+The natural material energy identity does not prove `(TFE.1597)'.  It gives a
+signed balance between the generator and the current storage variables.  A
+signed pairing can cancel while the selected root-generator square remains
+large.  Therefore the missing theorem is not another no-recount statement and
+not another entropy telescope.  It is the original-data coercive testing law
+that makes the parent packet's own pressure-heat-viscous feedback variation
+control the selected root-generator square before positive child readout.
