@@ -38663,11 +38663,11 @@ The tower projection is the signed-partner inclusion with storage
 
 \[
 d\mathfrak L_{4B,N}
-a\,dA_{4B,N}^{tower,+}
++a\,dA_{4B,N}^{tower,+}
 \le
 C_Nd\Xi_P^{tower}
-\theta_A\,d\Omega_P^{gen}
-dPaid_P,
++\theta_A\,d\Omega_P^{gen}
++dPaid_P,
 \qquad
 \mathfrak L_{4B,N}\ge -C_N(u_0)\mathcal R(P)-Paid(P).
 \tag{TFE.2636}
@@ -38794,3 +38794,268 @@ of \(d\Xi_P^{FE,act}\) with the strict margin \(C_N\vartheta<1\), especially
 on the scale-native first-entry / selected-critical part.  The bounded
 detector, reverse-Holder, dyadic, entropy, and log-carrier steps are consumers
 after this ledger exists.
+
+## 232. Strict-margin failure lands on a zero-source scale-native critical face
+
+Once the admissible ledger in Section 231 is the source object, a failure of
+Gold \(L^1\) is no longer allowed to hide in BMO, dyadic shells, entropy
+counting, or child clipping.  It must be a failure of the strict margin inside
+that same parent ledger.
+
+Assume the ledger decomposition and projection inclusions
+`(TFE.2634)'--`(TFE.2638)' are available, but the strict storage
+`(TFE.2639)' fails.  The Bellman normalization from `(TFE.2436)' gives stopped
+parent packets \(P_j\) with
+
+\[
+\int_{\operatorname{Hist}(P_j)}d\Xi_{P_j}^{FE,act}=1,
+\qquad
+\int_{\operatorname{Hist}(P_j)}(d\Theta_{P_j}^0+dPaid_{P_j})\to0,
+\tag{TFE.2646}
+\]
+
+and
+
+\[
+\int_{\operatorname{Hist}(P_j)}
+\bigl(d\Xi_{P_j}^{FE,act}
+-\vartheta\,d\Omega_{P_j}^{gen}\bigr)
+\ge\eta_0>0 .
+\tag{TFE.2647}
+\]
+
+The component support the repo already has then removes every component whose
+existence requires independent motion.  In the stopped parent limit,
+
+\[
+\begin{array}{c}
+d\Xi^{route}=0
+\quad\text{after legal, stop, return, reset, frame, collar, and Hodge motion vanish,}\\
+d\Xi^{Ent}=0
+\quad\text{after time-thick endpoint/no-residue domination vanishes,}\\
+d\Xi^{tower}=0
+\quad\text{unless the signed partner survives in the same ledger,}\\
+d\Xi^{LH,bdd}=0
+\quad\text{after bounded detector Cauchy/overlap is charged to }d\Omega^{gen}.
+\end{array}
+\tag{TFE.2648}
+\]
+
+Thus any retained violating limit has the form
+
+\[
+d\Xi_\infty^{FE,act}
+=
+d\Xi_\infty^{crit,entry},
+\qquad
+\int d\Xi_\infty^{crit,entry}=1,
+\qquad
+d\Theta_\infty^0+dPaid_\infty=0,
+\tag{TFE.2649}
+\]
+
+and still satisfies
+
+\[
+\int
+\bigl(d\Xi_\infty^{crit,entry}
+-\vartheta\,d\Omega_\infty^{gen}\bigr)
+\ge\eta_0 .
+\tag{TFE.2650}
+\]
+
+This is the exact remaining bad picture in this coordinate: a retained
+scale-native first-entry critical readout survives with no route motion, no
+endpoint thickness, no signed tower partner, no legal/stop outlet, and no
+bounded detector source, while still producing more full-exchange action than
+the allowed same-parent generator feedback fraction.
+
+Therefore the strict-margin producer may be stated in its sharp normalized
+form:
+
+\[
+\texttt{ScaleNativeCriticalEntryZeroSourceRigidity.A:}\qquad
+d\Theta^0+dPaid=0,\quad
+d\Xi^{FE,act}=d\Xi^{crit,entry}
+\Longrightarrow
+d\Xi^{crit,entry}
+\le
+\vartheta\,d\Omega^{gen}.
+\tag{TFE.2651}
+\]
+
+Together with stopped compactness of the admissible ledger,
+
+\[
+(P_j,d\Xi_{P_j}^{FE,act},d\Omega_{P_j}^{gen})
+\longrightarrow
+(P_\infty,d\Xi_\infty^{FE,act},d\Omega_\infty^{gen}),
+\tag{TFE.2652}
+\]
+
+the rigidity `(TFE.2651)' contradicts `(TFE.2650)'.  Hence
+
+\[
+\boxed{
+\begin{array}{c}
+\text{admissible active-transit ledger compactness `(TFE.2652)'}\\
++\text{zero-source scale-native critical-entry rigidity `(TFE.2651)'}
+\end{array}
+\Longrightarrow
+\text{strict storage `(TFE.2639)'}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+}
+\tag{TFE.2653}
+\]
+
+This section does not add a new physical supplier.  It removes the last
+ambiguous failure language: after all parent-clock projections are admitted,
+the only strict-margin failure left in the Gold \(L^1\) coordinate is a
+zero-source scale-native critical-entry loop.  The next section resolves what
+"zero-source" must mean there: it must include the exact positive-baseline log
+source and the singular endpoint-seed source, both read from the original
+coupled packet before clipping.
+
+## 233. The zero-source rigidity is a consumer of the exact critical-entry source
+
+Section 232 is still too compressed unless "zero source" names the actual
+critical-entry source measure.  The retained scale-native first-entry face has
+two mutually exclusive pieces:
+
+\[
+d\Xi_P^{crit,entry}
+=
+d\Xi_P^{crit,ac}
++d\Xi_P^{crit,0},
+\tag{TFE.2654}
+\]
+
+where \(d\Xi^{crit,ac}\) is the positive-baseline log-ratio branch from
+`(TFE.2581)' and \(d\Xi^{crit,0}\) is the zero-baseline singular first-entry
+branch from `(TFE.2582)'.
+
+The exact parent critical-entry source is therefore
+
+\[
+d\mathfrak Z_P^{crit}
+:=
+d\rho_{crit,P}^{ac}
++d\rho_{crit,P}^{entry}
++d\Theta_P^0
++dPaid_P .
+\tag{TFE.2655}
+\]
+
+This is still a before-clipping parent object.  On the positive-baseline branch,
+\(d\rho_{crit}^{ac}\) is the log-amplification entropy
+\[
+f_Q\log\!\left({f_Q\over f_{\pi Q}}\right)_+dR_P^{root};
+\]
+on the zero-baseline branch, \(d\rho_{crit}^{entry}\) is the singular detector
+energy
+\[
+dR_P^{root}(E_Q^0)\|K_Q^{parent}\|_{\mathcal H_{root}^\ast}^2 .
+\]
+
+The admission inequalities are deterministic once this source is present:
+
+\[
+d\Xi_P^{crit,ac}
+\le C_Nd\rho_{crit,P}^{ac}+dPaid_P,
+\qquad
+d\Xi_P^{crit,0}
+\le C_Nd\rho_{crit,P}^{entry}+dPaid_P .
+\tag{TFE.2656}
+\]
+
+The first inequality is the high-ratio entropy lower edge `(TFE.2555)'--`(TFE.2556)'.
+The second is the singular first-entry admission `(TFE.2583)'.  Hence
+
+\[
+d\mathfrak Z_P^{crit}=0
+\quad\Longrightarrow\quad
+d\Xi_P^{crit,entry}=0 .
+\tag{TFE.2657}
+\]
+
+This proves the normalized zero-source rigidity in its correct form:
+
+\[
+\texttt{ExactCriticalEntrySourceZeroRigidity.A:}\qquad
+d\mathfrak Z^{crit}=0,\quad
+d\Xi^{FE,act}=d\Xi^{crit,entry}
+\Longrightarrow
+d\Xi^{FE,act}=0
+\le
+\vartheta\,d\Omega^{gen}.
+\tag{TFE.2658}
+\]
+
+So `(TFE.2651)' is not a separate physical supplier once the source measure is
+exact.  It is a consumer of the positive-baseline log source and the singular
+first-entry endpoint-source admission.  The real source theorem is the bounded
+same-parent storage of that exact source:
+
+\[
+d\rho_{crit,P}^{ac}
++d\rho_{crit,P}^{entry}
+\le
+-dM_P^{crit}
++d\Theta_P^0
++\vartheta\,d\Omega_P^{gen}
++dPaid_P,
+\qquad
+C_N\vartheta<1,
+\tag{TFE.2659}
+\]
+
+with
+
+\[
+0\le M_P^{crit}\le C_N(u_0)\mathcal R(P)+Paid(P),
+\qquad
+\int_{\operatorname{Hist}(P)}d\Theta_P^0
+\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2660}
+\]
+
+Equivalently, the parent packet must supply, before clipping, the exact active
+capacity that makes both first-entry forms finite:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{positive-baseline log entropy source}\\
++\text{singular zero-baseline endpoint-seed source}\\
++\text{strict same-parent storage `(TFE.2659)'--`(TFE.2660)'}
+\end{array}
+\Longrightarrow
+\text{zero-source rigidity `(TFE.2658)'} .
+}
+\tag{TFE.2661}
+\]
+
+Combining this with Section 232 yields the sharpened close line:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{construct \(d\mathfrak Z_P^{crit}\) from the original coupled packet}\\
++\text{prove its strict storage `(TFE.2659)'--`(TFE.2660)'}\\
++\text{use Section 231 projection inclusions}
+\end{array}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+}
+\tag{TFE.2662}
+\]
+
+This corrects the wording at the bottom of Section 232.  The Gold \(L^1\) wall is
+not "prove a mysterious zero-source critical-entry loop is impossible" as a
+free-standing theorem.  Once the exact critical-entry source is in the parent
+ledger, zero-source rigidity is immediate.  The unresolved arbitrary-data
+producer is `(TFE.2659)'--`(TFE.2660)': build the positive-baseline log entropy
+source and the singular endpoint-seed source from the same original
+pressure-viscosity-incompressibility-velocity packet with a strict
+no-self-feeding margin.
