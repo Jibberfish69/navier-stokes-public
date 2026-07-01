@@ -27166,3 +27166,890 @@ descendant tail.  Physically, this is the same pressure-feedback picture in its
 sharpest analytic form: the lower-prefix memory created by the coupled
 pressure/strain/collar history must pair with the upper heat queue with finite
 active-square cost.
+
+## 158. Physical missing piece: terminal heat-time modulus for the residual refill
+
+The entropy picture from Sections 154--157 has a precise physical limit.  It
+explains why a selected child readout cannot recount the same parent push as new
+history once the parent scale-memory density and generator energy are known.  It
+does not by itself prove that density and generator energy.
+
+The surviving bad object is not raw high-frequency heat decay and not a hidden
+pressure source.  After exact heat descendants, through-flow, legal losses,
+spent-source reuse, recirculation, selector reselection, and same-parent
+admission have been removed, the only remaining positive branch is a
+source-balanced residual refill pulse on a terminal heat window.  In normalized
+time \(s=(t-T_m)/r_m^2\), its scalar model is
+
+\[
+a_m(s)=\tau_m^{-1}\mathbf 1_{(-\tau_m,0]}(s),
+\qquad \tau_m\downarrow0 .
+\tag{TFE.1843}
+\]
+
+This has finite first moment but no endpoint modulus:
+
+\[
+\int_{-1}^{0}a_m(s)\,ds=1,
+\qquad
+\lim_{\theta\downarrow0}\limsup_m
+\int_{-\theta}^{0}a_m(s)\,ds=1.
+\tag{TFE.1844}
+\]
+
+Thus finite source mass, finite physical energy, and same-parent ownership do
+not yet give the needed terminal-uniform \(L^1\) control.  They see the pulse
+and locate its parent, but they do not force it to spread in time.
+
+This is exactly where the pressure/heat/viscosity physical story becomes
+load-bearing.  Pressure is elliptic in space and instantaneous in time:
+
+\[
+p(t)=R_iR_j(u_i u_j)(t).
+\tag{TFE.1845}
+\]
+
+For a separated terminal packet \(u_m(t,x)=b_m(t)U_m(x)\), the nonlinear
+pressure has the same time support:
+
+\[
+p_m(t,x)-p_{m,h}(t,x)
+=
+b_m(t)^2R_iR_j(U_{m,i}U_{m,j})(x).
+\tag{TFE.1846}
+\]
+
+So pressure can re-coordinate the whole spatial packet at a time slice, but it
+does not create a positive terminal time thickness.  Viscosity supplies
+parabolic heat time after a source is present, but a source inserted in the last
+\(\tau_m r_m^2\) of the heat window has vanishing remaining heat residence as
+\(\tau_m\downarrow0\):
+
+\[
+\int_{T_m-\tau_m r_m^2}^{T_m}
+e^{\nu(T_m-s)\Delta}\mathbb P\nabla\cdot(u\otimes u)(s)\,ds .
+\tag{TFE.1847}
+\]
+
+The missing physical law is therefore not "pressure transports the signal" and
+not "viscosity drains the signal" separately.  It is the coupled statement that
+a first-created residual pressure-compatible refill cannot arrive at the
+terminal face with zero heat-time thickness unless it has already created an
+unweighted same-carrier square/action reserve, or unless the retained pulse is
+routed as a terminal same-witness readout outside the forward Gold payment
+branch.
+
+Formally, the forward Gold version is an endpoint uniform-integrability or
+source-square domination theorem on the actual selected carrier:
+
+\[
+a_m(s)\le C_{\square}G_m(s)+\ell_m(s),
+\qquad
+\sup_m\int_{-1}^{0}G_m(s)^2\,ds\le C_G,
+\tag{TFE.1848}
+\]
+
+with legal endpoint residue
+
+\[
+\lim_{\theta\downarrow0}\limsup_m
+\int_{-\theta}^{0}\ell_m(s)\,ds=0.
+\tag{TFE.1849}
+\]
+
+Then Cauchy--Schwarz gives the terminal time modulus
+
+\[
+\int_{-\theta}^{0}a_m(s)\,ds
+\le
+C_{\square}C_G^{1/2}\theta^{1/2}
++
+\int_{-\theta}^{0}\ell_m(s)\,ds
+\longrightarrow0 .
+\tag{TFE.1850}
+\]
+
+This is the exact analytic meaning of "the total number of accessible future
+states decreases."  It is not a count of raw possible configurations.  It is a
+same-carrier terminal time modulus: once the pressure-compatible parent signal
+has been admitted and heat descendants have been removed, any remaining
+positive residual refill must either occupy enough heat time to have a
+source-square cost, or be terminal residue.
+
+The equivalent no-waste form is a bounded-below rescaled functional on the same
+selected carrier:
+
+\[
+-\frac{d}{ds}L_m(s)\ge c\,a_m(s)-\operatorname{legal}_m(s),
+\qquad
+L_m(s)\ge-C .
+\tag{TFE.1851}
+\]
+
+Integrating `(TFE.1851)' over \((-\theta,0]\) gives the same terminal modulus
+only when the legal term has its own endpoint modulus.  Existing local energy,
+pressure correction, compact recurrence, Volterra memory, finite donor balance,
+and first-moment dissipation give visibility or finite mass, not `(TFE.1848)'
+or `(TFE.1851)'.
+
+So the L1 problem is now physically exact:
+
+\[
+\begin{array}{c}
+\text{same-parent no-recount + entropy telescope}\\
+\text{closes the counting once a terminal time modulus/source-square reserve exists,}\\[3pt]
+\text{but the original coupled packet must still prove that a first-created}\\
+\text{residual refill pulse cannot have zero terminal heat-time thickness}\\
+\text{without source-square/no-waste charge or terminal same-witness routing.}
+\end{array}
+\tag{TFE.1852}
+\]
+
+In the notation of the current route, `(TFE.1852)' is the physical content of
+the open source theorem
+
+\[
+\text{SourceSquareReserve.A / SelectedCarrierEndpointUI.A /}
+\quad
+\text{StrictRescaledNoWasteLyapunov.A}
+\tag{TFE.1853}
+\]
+
+on the actual selected positive carrier, equivalently
+`(TFE.1842)' for the one-sided scale-memory carrier.  This is why the entropy
+story is necessary but not yet sufficient: it identifies the decreasing state
+count as a terminal heat-time modulus, and it also shows that the unresolved
+producer is precisely the source-square/no-waste law for the first-created
+residual pulse.
+
+## 159. Terminal residual refill: Gold pass or same-witness consumption
+
+Section 158 leaves one physical object on the table: the first-created residual
+pressure-compatible refill can concentrate into the last heat-time layer unless
+the original coupled packet gives source-square/no-waste thickness on the
+selected carrier.  The adjacent terminal-source surfaces give the complementary
+contrapositive branch, and the two branches must stay separated.
+
+Let
+
+\[
+d\mu_m(s)=a_m(s)\,ds,
+\qquad
+\sup_m\mu_m((-1,0])<\infty .
+\tag{TFE.1854}
+\]
+
+The terminal source-curve compactness lemma gives the exact dichotomy
+
+\[
+\lim_{\theta\downarrow0}\limsup_m\mu_m((-\theta,0])=0
+\tag{TFE.1855}
+\]
+
+or, after passing to a subsequence,
+
+\[
+\mu_m\rightharpoonup^\ast\mu,
+\qquad
+\mu(\{0\})>0 .
+\tag{TFE.1856}
+\]
+
+The first branch is the forward Gold endpoint branch.  It is exactly the
+terminal heat-time modulus in `(TFE.1850)', equivalently
+`SelectedCarrierEndpointUI.A', `SourceSquareReserve.A', or
+`StrictRescaledNoWasteLyapunov.A'.  On that branch the entropy/state-deletion
+argument has the missing time thickness and can feed the terminal-uniform
+\(L^1\) line.
+
+The second branch is not a hidden fourth payment.  Before same-witness
+admission it is only a terminal support/readout.  After same-witness admission
+and uniform service-topology certification, the terminal atom is consumed by
+the CM witness faces:
+
+\[
+\mu(\{0\})>0
+\quad\Longrightarrow\quad
+\neg \operatorname{Part}_{N,Q}
+\quad\text{or}\quad
+\forall r>0\ \neg \operatorname{Field}_{N,r,Q}.
+\tag{TFE.1857}
+\]
+
+The Pack boundary sits one step earlier:
+
+\[
+\begin{array}{ll}
+\text{no same-fluid carrier or no original participation record}
+&\Longrightarrow\ \neg \operatorname{Pack}_Q,\\[3pt]
+\text{retained carrier plus raw unpaid terminal source residue}
+&\Longrightarrow\ \neg \operatorname{Part}_{N,Q},\\[3pt]
+\text{Pack/Part retained plus terminal trace atom or no-jump failure}
+&\Longrightarrow\ \forall r>0\ \neg \operatorname{Field}_{N,r,Q}.
+\end{array}
+\tag{TFE.1858}
+\]
+
+Thus the precise terminal-refill theorem now has a pass-or-consumption form:
+
+\[
+\begin{array}{c}
+\text{finite same-parent selected terminal source mass}\\[2pt]
+\Longrightarrow\\[2pt]
+\text{Gold endpoint time modulus on the selected carrier}\\
+\text{or}\\
+\text{same-witness Pack/Part/Field consumption of the terminal atom.}
+\end{array}
+\tag{TFE.1859}
+\]
+
+This is the rigorous version of the physical picture.  Pressure may coordinate
+the packet instantly at a time slice; heat/viscosity gives the pressure pulse a
+readable velocity/strain lifetime only through positive heat-time residence;
+feedback from the remaining velocity state may re-coordinate pressure, but a
+terminal refill with zero heat-time thickness has only two lawful statuses.  It
+either leaves source-square/no-waste thickness on the selected carrier, or it
+is a terminal same-witness atom and cannot remain an admitted in-class smooth
+continuation branch.
+
+Consequently the entropy/feedback story now solves the endpoint escape at the
+fork level:
+
+\[
+\begin{array}{c}
+\text{same-parent no-recount}
++\text{ entropy/state deletion}
++\text{ endpoint modulus/source-square/no-waste}\\[2pt]
+\Longrightarrow
+\text{ terminal-uniform selected \(L^1\),}
+\end{array}
+\tag{TFE.1860}
+\]
+
+while failure of the endpoint modulus is routed by `(TFE.1856)'--`(TFE.1858)'
+to same-witness terminal consumption in the CM pass-or-exit route.  This does
+not prove the forward-positive Gold \(L^1\) theorem by itself.  It proves that
+the terminal residual refill is no longer an unclassified in-class escape: the
+remaining forward Gold burden is exactly the endpoint
+source-square/no-waste/time-modulus theorem from the original coupled packet.
+
+## 160. Last forward branch: selected coefficient-overrun, not a generic source-square wall
+
+The endpoint source-square wall in Sections 158--159 is not one undifferentiated
+object.  The existing selected source-square carrier split isolates the only
+unpaid forward branch after the same-carrier identity is in force.
+
+On a selected shell with \(r_j=2^{-j}\), write the actual positive native
+carrier as
+
+\[
+a_j(s)
+=
+C_{LP}r_j^{1/2}
+\int_{\Omega_j(T_j+r_j^2s)}
+|w_j|^2
+\left[
+e_j\cdot S^{loc}_{<j}e_j
+\right]_+dx
++\ell_j(s),
+\tag{TFE.1861}
+\]
+
+where \(\ell_j\) denotes the already routed legal/collar/selector residue.  For
+a fixed threshold \(K\), split
+
+\[
+\Omega_{j,K}^{bd}
+=
+\left\{
+\left[e_j\cdot S^{loc}_{<j}e_j\right]_+
+\le K\nu r_j^{-2}
+\right\},
+\qquad
+\Omega_{j,K}^{over}
+=
+\left\{
+\left[e_j\cdot S^{loc}_{<j}e_j\right]_+
+> K\nu r_j^{-2}
+\right\}.
+\tag{TFE.1862}
+\]
+
+Then the bounded-coefficient branch is already a source-square consumer:
+
+\[
+a_j^{bd}(s)
+\le
+C_KG_{k(j)}(s)+\ell_{j,K}^{bd}(s),
+\qquad
+G_{k}(s)=2^{-k/2}T_k(T_j+2^{-2k}s),
+\tag{TFE.1863}
+\]
+
+and therefore, under the source-square \(L^2_s\) bound for \(G_k\) and endpoint
+legal modulus, Cauchy--Schwarz gives endpoint uniform integrability for
+\(a_j^{bd}\).
+
+Thus, after the parent source-square \(L_s^2\) reserve is taken as the tested
+currency, failure of carrier domination has only two exact locations:
+
+\[
+\boxed{
+\text{same-carrier identity failure}
+\quad\text{or}\quad
+\text{selected coefficient-overrun.}
+}
+\tag{TFE.1864}
+\]
+
+The overrun term is
+
+\[
+a_{j,K}^{over}(s)
+=
+C_{LP}r_j^{1/2}
+\int_{\Omega_{j,K}^{over}(T_j+r_j^2s)}
+|w_j|^2
+\left[
+e_j\cdot S^{loc}_{<j}e_j
+\right]_+dx .
+\tag{TFE.1865}
+\]
+
+Physically this is the last genuine forward-Gold branch: the same packet's
+pressure/strain/coefficient feedback is moving faster than the heat-clock rate
+on the selected carrier.  It is not pressure acting alone and not viscosity
+acting alone.  It is the coupled material coefficient outrunning the local
+parabolic descent at the exact place where the selected positive readout is
+taken.
+
+The exact critical-density domination is the Holder pair
+
+\[
+\left[
+\langle \Sigma W,W\rangle
+\right]_+
+\le
+|\Sigma|\,|W|^2
+\le
+{2\over5}|\Sigma|^{5/2}
++{3\over5}|W|^{10/3},
+\tag{TFE.1866}
+\]
+
+with \(\Sigma\) the normalized local pressure/strain/coefficient state and
+\(W\) the selected high packet.  Hence a same-carrier terminal-tail depletion
+for
+
+\[
+H_{\Sigma,W}:=|\Sigma|^{5/2}+|W|^{10/3}
+\tag{TFE.1867}
+\]
+
+would directly pay the overrun endpoint branch:
+
+\[
+\lim_{\theta\downarrow0}\limsup_j
+\int_{-\theta}^{0}
+\int_{\Omega_{j,K}^{over}(s)}
+H_{\Sigma_j,W_j}(s,y)\,dy\,ds
+=0
+\quad\Longrightarrow\quad
+\lim_{\theta\downarrow0}\limsup_j
+\int_{-\theta}^{0}a_{j,K}^{over}(s)\,ds=0.
+\tag{TFE.1868}
+\]
+
+Combining `(TFE.1863)' and `(TFE.1868)' gives the forward endpoint branch:
+
+\[
+\begin{array}{c}
+\text{same-carrier identity}
++\text{ source-square \(L_s^2\) bound for the bounded coefficient piece}\\
++\text{ critical-density terminal-tail depletion for the overrun piece}\\[2pt]
+\Longrightarrow
+\text{SelectedCarrierEndpointUI.A}
+\Longrightarrow
+\text{terminal-uniform selected \(L^1\).}
+\end{array}
+\tag{TFE.1869}
+\]
+
+This is the noncircular forward supplier if it can be proved from original
+data.  The existing surfaces show it is not produced by ordinary energy, local
+energy, pressure recovery, CKN visibility, or first-moment dissipation.  Those
+inputs see the carrier but leave the heat-scale half-power gap.
+
+If the parent source-square \(L_s^2\) reserve or the overrun tail depletion in
+`(TFE.1868)' fails on a same-witness terminal branch, the failure is no longer
+hidden.  It is a retained selected scale-critical density/source-reserve failure
+on the active CM ledger.  The installed selected Carleson failure diagnostic
+gives
+
+\[
+\neg_{sel}\operatorname{ScaleCriticalTreeCarleson.A}(Q)
+\Longrightarrow
+\neg \operatorname{Pack}_Q
+\vee
+\neg \operatorname{Part}_{N,Q}
+\vee
+\forall r>0\ \neg \operatorname{Field}_{N,r,Q},
+\tag{TFE.1870}
+\]
+
+after legal, readout, and nonselected alternatives are removed.  Under retained
+Pack and Part, the terminal positive source-reserve tree produces a normalized
+neighboring-field defect at every smaller parabolic scale, contradicting the
+Field row.
+
+Therefore the last forward branch has the same pass-or-consumption shape as the
+terminal residual refill, but with the hidden producer now identified:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{selected coefficient-overrun}\\[2pt]
+\Longrightarrow\\[2pt]
+\text{critical-density/source-square terminal-tail depletion}\\
+\text{or}\\
+\text{selected scale-critical source-reserve failure sorted to Pack/Part/Field.}
+\end{array}
+}
+\tag{TFE.1871}
+\]
+
+This is a real narrowing of the \(L^1\) problem.  The forward Gold theorem still
+needs `(TFE.1868)' or an equivalent overrun no-waste theorem from the original
+coupled packet.  The contrapositive side already knows how to consume the
+failure after same-witness admission: it is no longer an untyped pressure
+memory ghost, but a selected scale-critical source-reserve failure on the same
+carrier.
+
+## 161. Overrun tail equals the weight-beating first-ratio law
+
+Section 160 identifies the last forward branch as selected coefficient-overrun.
+The existing capacity/good-lambda audits show that this branch is not a new
+currency.  In the overrun variables it is exactly the weight-beating
+material-rate / heat-rate tail.
+
+Let
+
+\[
+d\mu_j(t)=2^{2j}e_j(t)\,dt,
+\qquad
+\rho_j(t)={\Theta_j^{mat}(t)\over 2^{2j}},
+\tag{TFE.1872}
+\]
+
+where \(e_j\) is the selected shell heat-residence density and
+\(\Theta_j^{mat}\) is the graph-compatible pressure/strain/coefficient/collar
+material rate on the same selected carrier.  The overrun set is the positive
+ratio region
+
+\[
+\rho_j(t)>\delta .
+\tag{TFE.1873}
+\]
+
+The terminal overrun \(L^1\) action is
+
+\[
+\int dA_{over}
+\simeq
+\sum_j\int_{\{\rho_j>\delta\}}\rho_j\,d\mu_j .
+\tag{TFE.1874}
+\]
+
+Dyadically, with
+
+\[
+E_{j,\ell}=\{2^\ell\delta<\rho_j\le2^{\ell+1}\delta\},
+\qquad
+\nu_\ell=\sum_j\mu_j(E_{j,\ell}),
+\tag{TFE.1875}
+\]
+
+the forward \(L^1\) target becomes
+
+\[
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty .
+\tag{TFE.1876}
+\]
+
+Raw energy/viscous/tower residence gives only the zeroth tail
+
+\[
+\sum_{\ell\ge0}\nu_\ell<\infty .
+\tag{TFE.1877}
+\]
+
+The half-tail
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1}
+\tag{TFE.1878}
+\]
+
+passes `(TFE.1877)' and fails `(TFE.1876)'.  This is the same half-power gap
+seen in the heat-scale source-square pulse and the same half-barrier in the
+good-lambda recurrence.  If \(N_L=\sum_{\ell\ge L}\nu_\ell\), a recurrence
+
+\[
+N_{L+1}\le\theta N_L+B_L
+\tag{TFE.1879}
+\]
+
+implies `(TFE.1876)' only when
+
+\[
+2\theta<1,
+\qquad
+\sum_{L\ge0}2^LB_L<\infty .
+\tag{TFE.1880}
+\]
+
+Thus `(TFE.1868)' is supplied, at the current Gold resolution, by the
+weight-beating tail law
+
+\[
+\boxed{
+\texttt{GlobalSamePacketFullWeightBeatingTail.A}
+}
+\tag{TFE.1881}
+\]
+
+or to a bounded-below same-material storage
+
+\[
+d\mathscr A_N
++c_N\,d\Omega_N^{full}
+\le dR_N^{legal},
+\qquad
+\mathscr A_N\ge -C_N(u_0).
+\tag{TFE.1882}
+\]
+
+The physical meaning is now exact.  The overrun branch says: the pressure
+compatible material coefficient can keep outrunning the heat clock only if the
+original material history keeps creating high-ratio selected bursts.  Finite
+energy says the packet has finite heat residence; it does not say the ratio of
+material-rate to heat-rate has finite first moment.
+
+The same-history no-Zeno audits split `(TFE.1881)' into two physical branches.
+On a repeated material core, a positive overrun burst must spend positive
+variation of the reused material record:
+
+\[
+\log\sigma_i(D_aX),
+\qquad
+\text{pressure-Hodge projective frame},
+\qquad
+\text{collar-normal / annular turnstile record}.
+\tag{TFE.1883}
+\]
+
+The needed root estimate is
+
+\[
+\boxed{
+\texttt{RepeatedCorePositiveVariationRootBound.A}
+}
+\tag{TFE.1884}
+\]
+
+meaning
+
+\[
+\int \mathcal V_{core}(a)\,da
+\le C_N(u_0)+R_{legal}.
+\tag{TFE.1885}
+\]
+
+On the escaping-core branch, the selected bursts move to shrinking material
+cores \(Q_k\) with \(r_k\downarrow0\).  Raw pressure-Hodge/collar/turnstile
+capacity scales like \(r_k\), so
+
+\[
+\sum_k r_k<\infty
+\quad\text{can coexist with}\quad
+\sum_k A(Q_k)=\infty .
+\tag{TFE.1886}
+\]
+
+The needed theorem is therefore
+
+\[
+\boxed{
+\texttt{ScaleInvariantSelectedCapacityNoEscape.A}
+}
+\tag{TFE.1887}
+\]
+
+meaning that one original smooth material history cannot carry infinitely many
+shrinking cores with unit selected pressure-Hodge / critical-strain action
+while every raw capacity cost remains summable.
+
+Consequently the forward \(L^1\) producer has the exact branch form
+
+\[
+\boxed{
+\begin{array}{c}
+\text{weight-beating first-ratio tail `(TFE.1876)'}\\[2pt]
+\Longrightarrow\\[2pt]
+\text{selected coefficient-overrun terminal-tail depletion}\\[2pt]
+\Longleftarrow\\[2pt]
+\texttt{RepeatedCorePositiveVariationRootBound.A}
+\quad\text{and}\quad
+\texttt{ScaleInvariantSelectedCapacityNoEscape.A}.
+\end{array}
+}
+\tag{TFE.1888}
+\]
+
+These two branch theorems are not installed from the present inputs.  They are
+the physical content still missing from the forward Gold proof: repeated
+overrun must spend nonreusable same-history deformation/frame/turnstile
+variation, and escaping overrun must spend a scale-invariant selected capacity,
+not merely raw energy, raw collar area, or raw elliptic capacity.
+
+## 162. Physical missing package: active state deletion before child clipping
+
+The physical story now has a precise mathematical job.  One finite smooth
+initial pulse does not authorize infinitely many independent pushes.  The
+remaining \(L^1\) danger is subtler: the same pressure-compatible material
+signal can be read at higher and higher heat-lag ratios, with raw heat residence
+shrinking while the selected positive count stays critical.  Finite energy sees
+the shrinking raw residence; Gold \(L^1\) sees the one-way selected count.
+
+The parent object is the coupled active state of the original material packet,
+before the child has clipped the positive readout:
+
+\[
+Z_P(t)
+=
+\bigl(
+G_P,\ \mathsf H_P,\ \Sigma_P,\ \mathsf C_P,\ \mathsf T_P,\ \mathsf m_P
+\bigr)(t),
+\tag{TFE.1889}
+\]
+
+where \(G_P\) is the material metric/Cauchy--Green record, \(\mathsf H_P\) is
+the pressure-Hodge/projective frame, \(\Sigma_P\) is the local stress/strain
+coefficient, \(\mathsf C_P\) is the transported collar/normal state,
+\(\mathsf T_P\) is the annular turnstile/exchange record, and \(\mathsf m_P\)
+is the admitted parent current/carrier.  A child packet \(Q\subset P\) is a
+heat-lag finite-difference readout of this same state:
+
+\[
+Z_P
+\xrightarrow{\text{pressure-compatible coordination}}
+\mathcal R_Q Z_P
+\xrightarrow{\text{heat/viscous residence}}
+U_Q
+\xrightarrow{\text{selected velocity/strain readout}}
+A(Q).
+\tag{TFE.1890}
+\]
+
+The feedback loop is the updated material frame and pressure compatibility
+after \(U_Q\) has been read:
+
+\[
+Z_{Q}^{+}=\Phi_Q(Z_P,U_Q).
+\tag{TFE.1891}
+\]
+
+Thus the entropy/state-accessibility picture is not a free counting metaphor.
+It says that the map \(Z_P\mapsto Z_Q^+\) must delete active future states in a
+parent-known critical metric before \(A(Q)\) is clipped as positive action.
+
+The noncircular closure theorem therefore has the following shape.  Construct a
+parent-known active capacity \(\mathfrak C(P)\), or an equivalent bounded-below
+signed storage, from \(Z_P\) before descendant selected readout, such that
+
+\[
+\sum_{Q\in ch(P)} A(Q)
++\sum_{Q\in ch(P)}\mathfrak C(Q)
+\le
+\mathfrak C(P)+R_{paid}(P),
+\tag{TFE.1892}
+\]
+
+with
+
+\[
+\mathfrak C(P_{\rm root})
+\le C_N(u_0)+R_{legal}+R_{stop}.
+\tag{TFE.1893}
+\]
+
+Then the tree telescope gives
+
+\[
+\sum_{Q\subset P_{\rm root}} A(Q)
+\le C_N(u_0)+R_{legal}+R_{stop}.
+\tag{TFE.1894}
+\]
+
+For the overrun notation of `(TFE.1872)'--`(TFE.1876)', this is exactly
+
+\[
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty,
+\tag{TFE.1895}
+\]
+
+which is the terminal-uniform selected \(L^1\) line.
+
+The repo audits show why the capacity cannot be a raw-volume or raw-energy
+count.  On a heat-scale child \(Q_r\), raw pressure-Hodge/collar/viscous cost
+can scale like \(r\), while selected critical action satisfies
+
+\[
+R_{raw}(Q_r)\sim r,
+\qquad
+A(Q_r)\sim 1.
+\tag{TFE.1896}
+\]
+
+This is the exact mathematical version of the physical problem: the child can
+be tiny in raw heat residence while still being a full selected state-change
+event.  The missing theorem must therefore prove selected active-state deletion,
+not just finite raw energy.
+
+The two branch obligations are now explicit.
+
+For a reused material core, every retained selected burst must move the same
+parent record:
+
+\[
+A(Q)
+\lesssim
+dV^{+}_{core}(Q)
++dR^-_{\rm return}(Q)
++dR_{paid}(Q),
+\tag{TFE.1897}
+\]
+
+where \(V_{core}\) is the selected positive variation of the Cauchy--Green
+stretch/compression, pressure-Hodge frame, collar-normal, annular turnstile,
+and admitted current record on that reused history.  The noncircular upper edge
+is not raw \(BV\).  It is a bounded-below signed parent storage:
+
+\[
+d\mathfrak C_{\rm rep}
++c\,dA_{\rm rep}
+\le dR_{paid},
+\qquad
+\mathfrak C_{\rm rep}\ge -C_N(u_0).
+\tag{TFE.1898}
+\]
+
+This is the formal version of: a packet cannot keep reopening new future states
+on the same score unless its actual coupled material record moves, returns, or
+spends paid material.
+
+For shrinking-core escape, every strict reset or native birth must carry
+scale-invariant selected capacity:
+
+\[
+A(Q_r)
+\lesssim
+\operatorname{Cap}^{sel}_{act}(Q_r),
+\tag{TFE.1899}
+\]
+
+and that selected capacity must have root Carleson packing from the original
+packet:
+
+\[
+\sum_{Q\subset P_{\rm root}}
+\operatorname{Cap}^{sel}_{act}(Q)
+\le C_N(u_0)+R_{legal}+R_{stop}.
+\tag{TFE.1900}
+\]
+
+Equivalently, the selected density \(dA_{act}=f_P\,dR_P\) must satisfy a
+parent-known entropy/reverse-Holder or source-square reserve such as
+
+\[
+\int f_P\log(e+f_P)\,dR_P
+\le C_N(u_0)+R_{legal}+R_{stop},
+\tag{TFE.1901}
+\]
+
+or the linear native-reserve analogue
+
+\[
+\sum_Q A(Q)
+\le
+C_N(u_0)+R_{legal}+R_{stop}
+\tag{TFE.1902}
+\]
+
+proved directly from original pressure-viscosity-incompressibility-velocity
+data before child clipping.  This is the rigorous form of the state-count
+feedback idea: pressure may re-coordinate the remaining state, but it cannot
+increase selected future accessibility at the same rate that heat/viscosity,
+return, reset, and paid material delete it.
+
+The strict half-barrier form of the same theorem is
+
+\[
+N_{L+1}
+\le
+\theta N_L+B_L,
+\qquad
+\theta<\frac12,
+\qquad
+\sum_{L\ge0}2^L B_L<\infty.
+\tag{TFE.1903}
+\]
+
+Indeed `(TFE.1903)' implies
+
+\[
+\sum_{L\ge0}2^L N_L<\infty,
+\tag{TFE.1904}
+\]
+
+and hence `(TFE.1895)'.  Conversely the half-tail
+\(\nu_\ell=2^{-\ell}/(\ell+1)\) shows that raw residence alone gives only the
+borderline \(\theta=1/2\) behavior and cannot close selected \(L^1\).
+
+Thus everything still missing for the forward Gold \(L^1\) proof is the
+original-data source of `(TFE.1892)'--`(TFE.1903)':
+
+1. a parent-known full-output carrier/density before child positive clipping;
+2. lower admission of each retained selected readout into that carrier;
+3. repeated-core bounded-below signed storage or same-score negative-return
+   charge;
+4. shrinking-core selected-capacity/native-birth root packing with the critical
+   weight included;
+5. terminal heat-time/source-square/no-atom thickness for any last-window
+   residue.
+
+If these five clauses are proved from the original coupled packet, the
+downstream chain is immediate:
+
+\[
+\text{active state deletion}
+\Longrightarrow
+\text{strict half-barrier}
+\Longrightarrow
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty
+\Longrightarrow
+\text{overrun terminal-tail depletion}
+\Longrightarrow
+\text{SelectedCarrierEndpointUI}
+\Longrightarrow
+\text{FGC.25}.
+\tag{TFE.1905}
+\]
+
+Current truth: the physical story is now pinned to a single mathematical
+producer.  Existing notes install same-parent ownership, no-recount,
+Schur/Bessel admission, deterministic entropy telescoping, repeated/shrinking
+branch splitting, and the endpoint fork.  They do not yet construct the
+parent-known active capacity/root storage `(TFE.1892)'--`(TFE.1903)' from
+arbitrary original Navier--Stokes data.  That construction is the Gold \(L^1\)
+problem.
