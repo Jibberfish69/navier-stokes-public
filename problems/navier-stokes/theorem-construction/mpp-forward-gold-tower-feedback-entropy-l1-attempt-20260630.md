@@ -11753,3 +11753,774 @@ Those items imply `(TFE.772)`, then `(TFE.770)`, then the entropy telescope and
 terminal-uniform \(L^1\).  They are not installed as a proof from original data.
 If the terminal no-atom producer fails, the same-witness endpoint-face branch is
 a CM-facing fallback, not a Gold smoothness closure.
+
+## 72. Endpoint hard stop: finite terminal service is not Hardy service
+
+The terminal/no-jump source files sharpen `(TFE.791)` again.  They prove the
+consumer theorem and identify the exact endpoint producer that is still absent.
+
+For a retained normalized Hodge--Stokes packet, the local storage identity is
+
+\[
+M_m(b)-M_m(a)+D_m(a,b)
+=
+\int_a^b H_m(s)\,ds+L_m(a,b),
+\tag{TFE.792}
+\]
+
+where \(H_m\) is the selected positive full-packet trace and \(L_m\) contains
+legal, collar, selector, signed, geometry, and terminal residues.  Hence
+
+\[
+[M_m(0)-M_m(-\theta)]_+
+\le
+\int_{-\theta}^{0}[H_m(s)]_+\,ds
++L_m^+(-\theta,0).
+\tag{TFE.793}
+\]
+
+Therefore terminal no-jump follows from terminal strip uniform integrability:
+
+\[
+\lim_{\theta\downarrow0}\limsup_m
+\left(
+\int_{-\theta}^{0}[H_m(s)]_+\,ds
++L_m^+(-\theta,0)
+\right)=0.
+\tag{TFE.794}
+\]
+
+This implication is exact.  It is not the missing PDE theorem.
+
+The Hardy sufficient form is also exact.  If
+
+\[
+d\mu_m=dR_m+d(-L_{4B,m})_+
+\tag{TFE.795}
+\]
+
+and, for some \(\alpha\in(0,1)\),
+
+\[
+\sup_m\int_{-1}^{0}(-s)^{-\alpha}\,d\mu_m(s)<\infty,
+\tag{TFE.796}
+\]
+
+then
+
+\[
+\mu_m((-\theta,0])
+\le
+\theta^\alpha
+\int_{-\theta}^{0}(-s)^{-\alpha}\,d\mu_m(s)
+\le
+C\theta^\alpha,
+\tag{TFE.797}
+\]
+
+so the endpoint atom vanishes.
+
+The production problem is the upgrade from finite endpoint service to
+super-\(L^1\), \(L_s^p\), Hardy, Orlicz, or another uniformly integrable
+endpoint density.  The terminal pulse
+
+\[
+a_m(s)=a\,\tau_m^{-1}\mathbf 1_{(-\tau_m,0]}(s),
+\qquad
+\tau_m\downarrow0,
+\tag{TFE.798}
+\]
+
+has fixed \(L_s^1\) mass but
+
+\[
+\int_{-1}^{0}(-s)^{-\alpha}a_m(s)\,ds
+=
+{a\over 1-\alpha}\tau_m^{-\alpha}\to\infty
+\tag{TFE.799}
+\]
+
+and \(\|a_m\|_{L_s^p}\to\infty\) for every \(p>1\).  This is the same endpoint
+heat-scale pulse that finite physical energy and finite legal routing do not
+exclude.
+
+The endpoint trace \(L^p\) route splits the full packet into three producer
+pieces:
+
+\[
+\begin{array}{ll}
+(1)&\text{gauge-fixed velocity/local-pressure endpoint trace }L_s^p,\\
+(2)&\text{harmonic pressure-memory endpoint trace }L_s^p,\\
+(3)&\text{weighted endpoint moments or density control for legal, signed,}\\
+&\text{selector, terminal, and geometry measures.}
+\end{array}
+\tag{TFE.800}
+\]
+
+The first piece is conditional on gauge-fixed local energy storage.  With
+\(U_m=V_m-\langle V_m\rangle_{\eta_m}\), one wants
+
+\[
+\|U_m\|_{L_s^\infty L_y^2}^2
++\|\nabla_yU_m\|_{L^2_{s,y}}^2
+\le
+C\,L_{4B,m}^{gq}+R_{\rm legal}.
+\tag{TFE.801}
+\]
+
+The current four-body drain gives only integrated gradient control.  The model
+
+\[
+U_m(s,y)=\tau_m^{-1/2}\mathbf 1_{(-\tau_m,0]}(s)\phi(y)
+\tag{TFE.802}
+\]
+
+has bounded \(\int|\nabla U_m|^2\) and unbounded
+\(\|U_m\|_{L_s^\infty L_y^2}^2\).  Thus integrated drain plus Galilean quotient
+does not produce `(TFE.801)`.  Enlarging the storage by
+
+\[
+M_m^{gq}(s)={1\over2}\int\eta_m^2|U_m(s)|^2\,dy
+\tag{TFE.803}
+\]
+
+is legitimate only if the derivative boundary flux of \(M_m^{gq}\) itself has
+the endpoint \(L_s^p\)/Hardy control.  Otherwise it just moves the same terminal
+pulse into the added storage flux.
+
+The harmonic pressure-memory piece is also conditional.  The harmonic collar
+trace is
+
+\[
+H_m^{p,H}(s)
+=
+\int (Q_m^H-\Pi_{aff}Q_m^H)U_m\cdot\nabla(\eta_m^2)\,dy.
+\tag{TFE.804}
+\]
+
+Harmonic estimates reduce it to annular pressure service:
+
+\[
+|H_m^{p,H}(s)|
+\le
+C
+\|Q_m^H-\Pi_{aff}Q_m^H\|_{L_y^{3/2}(A)}
+\|U_m\|_{L_y^3(C)}
++R_{\rm gauge/legal}.
+\tag{TFE.805}
+\]
+
+Therefore an \(L_s^p\), \(p>1\), trace follows from
+
+\[
+Q_m^H-\Pi_{aff}Q_m^H\in L_s^aL_y^{3/2}(A),
+\qquad
+U_m\in L_s^bL_y^3(C),
+\qquad
+{1\over a}+{1\over b}<1.
+\tag{TFE.806}
+\]
+
+Current harmonic-pressure routing gives collar/terminal/legal visibility and
+finite measure control, not `(TFE.806)`.  The annular pressure-tower note proves
+the positive conditional branch:
+
+\[
+\text{annular velocity-pressure mixed tower radius survives}
+\Longrightarrow
+[H_m^{p,H}]_+\in L_s^\infty
+\Longrightarrow
+\int_{-\theta}^{0}[H_m^{p,H}]_+\,ds\le C\theta.
+\tag{TFE.807}
+\]
+
+Failure of that branch is annular pressure-tower radius collapse, annular
+carrier/collar drift, or unabsorbed endpoint residue; it is not local
+Calderon-Zygmund pressure failure.
+
+The residue policy is an admission rule, not an analytic supplier.  A residue
+measure may remain inside the Gold endpoint measure only when it is represented
+as a uniformly endpoint-integrable density, has an explicit Hardy/Orlicz/BV
+terminal modulus, or is absorbed before endpoint measure formation:
+
+\[
+d\Lambda_{j,m}=f_{j,m}(s)\,ds+d\Lambda_{j,m}^{sing},
+\qquad
+\{f_{j,m}\}_m \text{ uniformly endpoint-integrable},
+\qquad
+\Lambda_{j,m}^{sing}((-\theta,0])\to0,
+\tag{TFE.808}
+\]
+
+for
+
+\[
+j\in\{legal,selector,signed,terminal,geometry\}.
+\tag{TFE.809}
+\]
+
+A naked finite endpoint measure is not a Gold payment.  It is a typed terminal
+face, collar/selector drift, donor/saturation face, geometry/Field face, or
+same-witness endpoint-face branch.
+
+Thus the current endpoint producer is the single upgrade
+
+\[
+\boxed{
+\texttt{EndpointLpUpgradeFromFullNSPacket.A}
+}
+\tag{TFE.810}
+\]
+
+with content:
+
+\[
+\boxed{
+\text{the full same-carrier Navier--Stokes packet upgrades every endpoint}
+\atop
+\text{trace/flux/defect measure from finite \(L^1\) or finite mass to \(L_s^p\),}
+\text{ \(p>1\), Hardy-weighted, Orlicz, or terminal-uniform AC control.}
+}
+\tag{TFE.811}
+\]
+
+When `(TFE.810)` holds, the chain is
+
+\[
+\texttt{EndpointLpUpgradeFromFullNSPacket.A}
+\Longrightarrow
+\texttt{FourBodyEndpointTraceLpProducer.A}
+\Longrightarrow
+\texttt{TerminalHardyNoWaste.A}
+\Longrightarrow
+\texttt{FullHodgeStokesEndpointNoJump.A}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\tag{TFE.812}
+\]
+
+This is the exact endpoint face of `(TFE.791)`.  It does not replace active
+Hodge--Stokes graph admission and Bessel packing; it is what remains after
+those support gates have reduced the obstruction to a fixed-core terminal
+packet.  Physically, the fluid may have a perfectly visible pressure-viscosity-
+incompressibility participation trace near the endpoint, but Gold needs that
+trace to have terminal time thickness.  A finite amount of service can still be
+delivered in a shrinking last heat-time layer.  The missing theorem says the
+whole same-carrier packet upgrades that finite service into a nonconcentrating
+endpoint density, or the branch leaves Gold through a typed endpoint face.
+
+## 73. What the physical story is still missing
+
+The order-lock and endpoint files make the remaining physical picture exact.
+The issue is not whether the pressure front, heat lag, viscosity, and
+self-advection are one participation law.  They are.  The issue is where the
+one-sided selected readout is allowed to take its positive part.
+
+On a retained normalized endpoint packet, write the full same-carrier scalar as
+
+\[
+h_m(s)
+=
+\left\langle
+N_m+P_m+V_m+T_m+I_m+L_m+S_m,\Phi_m
+\right\rangle
+-cD_m^\nu(s),
+\tag{TFE.813}
+\]
+
+where \(N,P,V,T,I,L,S\) are respectively the transport/nonlinear, pressure,
+viscous, time, incompressibility, legal/collar, and selector/sign/geometry
+channels on the same retained packet.  If a child selector first reads only
+the native channel
+
+\[
+n_m(s)=\langle N_m,\Phi_m\rangle,
+\qquad
+b_m(s)=h_m(s)-n_m(s),
+\tag{TFE.814}
+\]
+
+then the channel-first positive density is
+
+\[
+\rho_m^{cf}(s)=[n_m(s)]_+.
+\tag{TFE.815}
+\]
+
+The exact order-lock error is
+
+\[
+\Delta_m^{ol}(s)
+:=
+\big([n_m(s)]_+-[h_m(s)]_+\big)_+
+=
+\min\{[n_m(s)]_+,[-b_m(s)]_+\}.
+\tag{TFE.816}
+\]
+
+This formula is the missing physical boundary in algebraic form.  It says that
+a child can create extra positive \(L^1\) only by clipping a native readout
+before the simultaneous pressure-viscosity-incompressibility partner has been
+recombined.  The partner is not a side payment.  It is the rest of the same
+participation event.
+
+Thus the full-packet order-lock theorem needed by the \(L^1\) route is
+
+\[
+\rho_m(s)
+\le
+[h_m(s)]_+
++R_m^{ol}(s),
+\qquad
+\sup_m\|R_m^{ol}\|_{L_s^q(-1,0)}<\infty
+\quad(q>1),
+\tag{TFE.817}
+\]
+
+or the identical Hardy/Orlicz terminal-uniform-integrability version.  In
+equivalent gap form,
+
+\[
+\Delta_m^{ol}
+\in L_s^q \text{ uniformly}
+\quad\text{or}\quad
+\Delta_m^{ol} \text{ has a Hardy/Orlicz terminal modulus}.
+\tag{TFE.818}
+\]
+
+The endpoint pulse countertest becomes
+
+\[
+n_m(s)=a\tau_m^{-1}\mathbf 1_{(-\tau_m,0]}(s),
+\qquad
+b_m(s)=-n_m(s),
+\qquad
+\tau_m\downarrow0.
+\tag{TFE.819}
+\]
+
+Then \(h_m=0\), while
+
+\[
+\rho_m^{cf}(s)=a\tau_m^{-1}\mathbf 1_{(-\tau_m,0]}(s),
+\qquad
+\|\rho_m^{cf}\|_{L_s^1}=a,
+\qquad
+\|\rho_m^{cf}\|_{L_s^q}\to\infty
+\quad(q>1).
+\tag{TFE.820}
+\]
+
+This is a diagnostic model for the theorem gap.  It is not being promoted as a
+physical Navier--Stokes solution.  It proves that the current formal
+assumptions do not yet force the child to wait for full recombination before
+clipping, and do not yet force terminal time thickness after clipping.
+
+The physical feedback loop Thomas is pointing at is therefore:
+
+\[
+\text{pressure-compatible full-field coordination}
+\longrightarrow
+\text{heat-lag readable velocity/strain response}
+\longrightarrow
+\text{updated material frame and pressure compatibility}
+\tag{TFE.821}
+\]
+
+with self-advection, collar motion, selector motion, and incompressibility
+inside the same loop.  For \(L^1\), the loop must act as a state-deleting
+monovariant: every positive selected child readout must either consume a
+parent-known state, be admitted as fresh same-carrier critical capacity, return
+to the parent record, move through paid frame/selector/collar motion, or enter
+legal/stop material before positive endpoint density is formed.
+
+The formal parent entropy version is the density statement
+
+\[
+dA_P^{sel}=f_P\,dR_P^{orig},
+\qquad
+\mathcal H(P)
+=
+\int_P f_P\log {f_P\over (f_P)_P}\,dR_P^{orig},
+\tag{TFE.822}
+\]
+
+where \(dR_P^{orig}\) is the original coupled-packet reserve, not a child
+renormalized reserve.  For children \(Q\subset P\), set
+
+\[
+r_Q={ (f_P)_Q\over (f_P)_P}.
+\tag{TFE.823}
+\]
+
+The deterministic entropy deletion already proved earlier is
+
+\[
+r_Q\ge2
+\quad\Longrightarrow\quad
+(f_P)_Q R_P^{orig}(Q)
+\le
+C\big(\mathcal H(P)-\sum_{Q'\subset P}\mathcal H(Q')\big)
+\tag{TFE.824}
+\]
+
+after the accepted stopped-tree normalization.  This kills the half-tail once
+the root entropy is produced from the original packet.
+
+The missing PDE producer is therefore the parent-known feedback entropy bound
+
+\[
+\mathcal H(P)
+\le
+C_N(u_0)
++\theta\,\nu\int_P |\Lambda^{3/2}u|^2
++Paid(P),
+\qquad
+\theta<1,
+\tag{TFE.825}
+\]
+
+with \(f_P\) built from the full scalar \(h_m\) before positive clipping and
+with order-lock error controlled by `(TFE.817)` or `(TFE.818)`.  In the
+stopped-source representation this is the same as constructing
+
+\[
+\log r_Q
+=
+\ell_Q(\Delta_Q Z^S)-\psi_Q+e_Q,
+\tag{TFE.826}
+\]
+
+with
+
+\[
+\sum_{Q\subset P}
+\left(
+|\Delta_QZ^S|^2+|\psi_Q|+|e_Q|
+\right)
+\le
+C_N(u_0)
++\theta\,\nu\int_P|\Lambda^{3/2}u|^2
++Paid(P),
+\tag{TFE.827}
+\]
+
+where \(Z^S\) is the stopped selected record of the original coupled
+pressure-Hodge-strain-frame packet, not a descendant selected tail.
+
+Finally, the endpoint version must give the terminal thickness
+
+\[
+d\mu_m=\rho_m(s)\,ds,
+\qquad
+\sup_m\|\rho_m\|_{L_s^{1+\varepsilon}(-1,0)}<\infty
+\tag{TFE.828}
+\]
+
+or
+
+\[
+\sup_m\int_{-1}^{0}(-s)^{-\alpha}\,d\mu_m(s)<\infty,
+\qquad
+\alpha>0.
+\tag{TFE.829}
+\]
+
+Then
+
+\[
+\lim_{\theta\downarrow0}\sup_m\mu_m((-\theta,0])=0,
+\tag{TFE.830}
+\]
+
+so the terminal pulse `(TFE.819)` cannot survive in Gold.
+
+Thus everything still missing to close the \(L^1\) problem is one package:
+
+\[
+\boxed{
+\begin{gathered}
+\text{full-packet order-lock before positive clipping,}\\
+\text{parent-known feedback entropy from the original coupled packet,}\\
+\text{fresh critical capacity/native-birth admission with strict }\theta<1,\\
+\text{terminal \(L_s^{1+\varepsilon}\), Hardy, Orlicz, or uniform-AC thickness.}
+\end{gathered}
+}
+\tag{TFE.831}
+\]
+
+The downstream proof is already fixed:
+
+\[
+\text{(TFE.831)}
+\Longrightarrow
+\text{parent entropy deletion}
+\Longrightarrow
+\text{active capacity deletion}
+\Longrightarrow
+\text{no-recount pushforward}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\tag{TFE.832}
+\]
+
+What the repo does not yet contain is the original-data derivation of
+`(TFE.825)` together with `(TFE.817)` and `(TFE.828)`/`(TFE.829)`.  That is the
+mathematical form of the physical assertion that the pressure-feedback loop
+can re-coordinate the remaining fluid state but cannot create new accessible
+future states faster than viscosity, return, paid motion, and terminal
+thickness delete them.
+
+## 74. Root-fixed \(L^1\) domination is the endpoint thickness
+
+The latest source audit sharpens the endpoint part of `(TFE.831)`.  The
+super-\(L^1\), Hardy, and Orlicz forms in `(TFE.828)`--`(TFE.829)` are strong
+sufficient child-side forms.  They are not the only way to get terminal
+no-jump.  The physically correct route is root-fixed domination by one
+original-parent absolutely continuous \(L^1(dt)\) measure.
+
+The distinction is simple.  A sequence of child-renormalized densities
+
+\[
+a_m(s)=a\tau_m^{-1}\mathbf 1_{(-\tau_m,0]}(s)
+\tag{TFE.833}
+\]
+
+can have fixed \(L_s^1\) mass and no uniform terminal modulus.  But one fixed
+parent density \(b(t)\in L^1(0,T_*)\) cannot put order-one mass in every
+shrinking terminal heat window:
+
+\[
+\lim_{\delta\downarrow0}
+\sup_{|I|\le\delta}\int_I b(t)\,dt=0.
+\tag{TFE.834}
+\]
+
+This is ordinary absolute continuity of the Lebesgue integral.  It is exactly
+what child-rebased endpoint bookkeeping loses.
+
+Therefore the endpoint no-jump theorem follows from a root-fixed parent
+domination statement:
+
+\[
+d\mu_{\gamma}^{end}
+\le
+C\,\mathbf 1_{I_\gamma^{phys}}(t)b_P(t)\,dt
+dPaid_\gamma,
+\tag{TFE.835}
+\]
+
+where \(b_P\) is fixed by the original parent packet before descendant
+selection, \(I_\gamma^{phys}\) is the physical terminal heat window of the
+child, and
+
+\[
+\int_0^{T_*}b_P(t)\,dt
+\le
+C_N(u_0)+Paid(P).
+\tag{TFE.836}
+\]
+
+Then for every terminal family whose physical heat windows shrink,
+
+\[
+\lim_{\theta\downarrow0}
+\sup_\gamma
+\mu_{\gamma}^{end}(I_{\gamma,\theta}^{phys})
+=0
+\tag{TFE.837}
+\]
+
+after the already paid stop/legal/reselection terms are removed.  This is the
+root-fixed endpoint-thickness form of `(TFE.828)`--`(TFE.830)`.
+
+The remaining question is what \(b_P\) is.  The checked producer sources reduce
+it to the full-output positive critical transfer density of the original
+coupled packet.  In the compressed Leray coordinate,
+
+\[
+B_{crit}(t)
+=
+-
+\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle ,
+\tag{TFE.838}
+\]
+
+but this is only a coordinate face.  The object is the full coupled
+pressure-viscosity-incompressibility-velocity stress transaction before
+selected child clipping.  The needed one-sided estimate is
+
+\[
+\int_0^\tau [B_{crit}(t)]_+\,dt
+\le
+C_N(u_0)
++\theta\,\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(P),
+\qquad
+\theta<1,
+\tag{TFE.839}
+\]
+
+or the same statement in full-output dyadic flux form,
+
+\[
+\int_0^\tau\sum_j2^j[\Pi_j(t)]_+\,dt
+\le
+C_N(u_0)
++\theta\,\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(P).
+\tag{TFE.840}
+\]
+
+Once `(TFE.839)` holds, the critical identity gives finite root density.  From
+
+\[
+{1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
++\nu\|\Lambda^{3/2}u\|_2^2
+=B_{crit}(t),
+\tag{TFE.841}
+\]
+
+integrating to \(\tau<T_*\) and using \(B_{crit}\le [B_{crit}]_+\) gives
+
+\[
+E_{1/2}(\tau)+\nu D_{3/2}(\tau)
+\le
+E_{1/2}(0)+\int_0^\tau[B_{crit}(t)]_+\,dt.
+\tag{TFE.842}
+\]
+
+Combining `(TFE.839)` and `(TFE.842)` yields
+
+\[
+(1-\theta)\nu D_{3/2}(\tau)
+\le
+E_{1/2}(0)+C_N(u_0)+Paid(P),
+\tag{TFE.843}
+\]
+
+and hence
+
+\[
+\sup_{\tau<T_*}
+\left(
+\nu D_{3/2}(\tau)
++\int_0^\tau[B_{crit}(t)]_+\,dt
+\right)
+\le
+C_N(u_0)+Paid(P).
+\tag{TFE.844}
+\]
+
+Thus
+
+\[
+b_P(t):=[B_{crit}(t)]_+ + b_{paid}(t)
+\in L^1(0,T_*),
+\tag{TFE.845}
+\]
+
+root-fixed and absolutely continuous in physical time.  This proves the
+terminal no-jump consumer `(TFE.837)` and the \(L^1\) service line, provided
+full-packet order-lock has already placed child endpoint readouts under this
+same parent density:
+
+\[
+\rho_m(s)
+\le
+[h_m(s)]_+
++R_m^{ol}(s),
+\qquad
+R_m^{ol}\text{ root-paid or endpoint-AC}.
+\tag{TFE.846}
+\]
+
+So the endpoint \(L^1\) problem has now collapsed to the following single
+original-data producer:
+
+\[
+\boxed{
+\text{full-output one-sided positive critical transfer / bounded-below}
+\atop
+\text{same-material service storage before child positive clipping.}
+}
+\tag{TFE.847}
+\]
+
+The equivalent storage form is
+
+\[
+0\le M_P\le C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.848}
+\]
+
+with one-step drop
+
+\[
+M_P-\sum_{C\in ch(P)}M_C
+\ge
+c\sum_{\gamma\in Birth(P\to C)}
+w_\gamma\|F_\gamma\|_{\mathcal H_{\rm raw}}^2
+-Paid(P).
+\tag{TFE.849}
+\]
+
+Here \(M_P\) must be built from parent-known pressure-Hodge/material stress
+data, not from the descendant selected tail.  If it is built from the
+descendant tail, `(TFE.849)` is circular.  If it is built only from raw
+\(L^2\) stress energy, the critical half-tail
+
+\[
+\sum_\ell\nu_\ell<\infty,
+\qquad
+\sum_\ell2^\ell\nu_\ell=\infty
+\tag{TFE.850}
+\]
+
+defeats it.  The selected critical weight must be produced by the same
+root-fixed drop.
+
+The compactness/rigidity attempt also reduces to `(TFE.847)`.  Failure of the
+endpoint seed absorption estimate gives, after normalization, a nonzero
+endpoint current
+
+\[
+M_\infty=D_{A_\infty}J_\infty,
+\qquad
+\int H_\infty|M_\infty|^2=1,
+\qquad
+\int |J_\infty|^2\,d\mathcal R_\infty\simeq1,
+\tag{TFE.851}
+\]
+
+not a zero-current contradiction.  Zero-cost rigidity kills the profile only
+after a quantitative reserve has forced the remaining current to vanish or
+routed it to paid material.  Therefore rigidity is a consumer of the same
+positive-transfer/depletion theorem, not the producer.
+
+The current final chain is now:
+
+\[
+\text{(TFE.847)}
+\Longrightarrow
+\text{root-fixed parent \(L^1(dt)\) density}
+\Longrightarrow
+\text{terminal no-jump}
+\Longrightarrow
+\text{parent feedback entropy deletion}
+\Longrightarrow
+\text{no-recount pushforward}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\tag{TFE.852}
+\]
+
+This is the strongest current mathematical answer to the physical story.  The
+pressure-feedback loop is allowed to re-coordinate the remaining state, but the
+Gold proof closes only when its positive critical output is dominated by one
+root-fixed absolutely continuous parent density.  The unproved line is exactly
+`(TFE.839)`/`(TFE.840)`, or equivalently the bounded-below storage
+`(TFE.848)`--`(TFE.849)`, from the original coupled Navier--Stokes packet.
