@@ -37159,12 +37159,14 @@ with
 For bounded parent projections this contradicts `(TFE.2537)'.  Thus BMO can fail
 only when the selected log ratio is not represented by a bounded parent operator
 before clipping.  The unrepresented part is precisely the scale-native detector:
-a child unit detector whose original norm grows like \(r^{-1/2}\):
+a child unit detector whose original norm grows like \(\lambda_Q^{-1/2}\), where
+\(\lambda_Q\) is the physical zoom/heat-scale ratio, not the density ratio
+\(r_Q=f_Q/f_{\pi Q}\):
 
 \[
 \|\psi_Q^{child}\|_{\mathcal H_{child}}\simeq1,
 \qquad
-\|\psi_Q^{parent}\|_{\mathcal H_{parent}}\simeq r_Q^{-1/2}.
+\|\psi_Q^{parent}\|_{\mathcal H_{parent}}\simeq \lambda_Q^{-1/2}.
 \tag{TFE.2547}
 \]
 
@@ -37256,10 +37258,15 @@ the first moment.  A critical parent atom has to see the ratio by which the chil
 readout exceeds the parent-carried baseline before clipping.
 
 Let \(dR_P^{root}\) be the root-known parent reserve measure on the scale-native
-endpoint/cocycle space, and let \(f_P\) be the before-clipping selected density:
+endpoint/cocycle space.  For each stopped child \(Q\preceq P\), let \(f_Q\) be
+the before-clipping selected density of \(Q\), pulled back to this same root
+measure, and let \(f_{\pi Q}\) be the immediate parent baseline density on the
+same fibre:
 
 \[
-dA_P^{sel,+}=f_P\,dR_P^{root}.
+dA_Q^{sel,+}=f_Q\,dR_P^{root},
+\qquad
+dA_{\pi Q}^{sel,+}=f_{\pi Q}\,dR_P^{root}.
 \tag{TFE.2552}
 \]
 
@@ -37284,12 +37291,14 @@ The scale-native critical capacity atom is then
 \rho_{crit,P}(E_Q)
 :=
 \int_{E_Q}
-f_P\log\!\left({f_P\over f_{\pi P}}\right)_+\,dR_P^{root}.
+f_Q\log\!\left({f_Q\over f_{\pi Q}}\right)_+\,dR_P^{root}.
 \tag{TFE.2554}
 \]
 
 This is not defined from a future descendant tail.  It is a function of the
-before-clipping density \(f_P\) and the parent-root reserve \(dR_P^{root}\).
+before-clipping child density \(f_Q\), the immediate parent baseline
+\(f_{\pi Q}\), and the parent-root reserve \(dR_P^{root}\), all pulled to the
+same original fibre before clipping.
 
 The lower admission is deterministic.  On the fresh high-ratio face \(r_Q\ge2\),
 
@@ -37371,3 +37380,494 @@ must carry a parent-visible log-amplification scar in the pressure-Hodge,
 viscous/Stokes, strain/frame, turnstile/exchange, covector/collar, selector,
 legal, or stop record.  The entropy atom \(r\log r\) is exactly the cost of
 calling that amplified readout fresh.
+
+## 222. Log-ratio chain rule reduces the source to a bounded critical projection
+
+The log ratio in `(TFE.2553)' has an exact measure-theoretic part and one
+analytic source part.  The exact part is the Radon--Nikodym chain rule along
+the stopped parent ancestry.  Let
+
+\[
+P=Q_0\succ Q_1\succ\cdots\succ Q_m=Q
+\]
+
+be the stopped ancestry of a retained active child, and let \(e_k\) denote the
+edge \(Q_{k-1}\to Q_k\).  On the positive-baseline active fibre, all densities
+are pulled back to the same \(dR_P^{root}\)-space and
+
+\[
+R_{P\to Q}
+:=
+{f_Q\over f_P}
+=
+\prod_{k=1}^m r_{e_k},
+\qquad
+r_{e_k}:={f_{Q_k}\over f_{Q_{k-1}}},
+\qquad
+\log R_{P\to Q}
+=
+\sum_{k=1}^m\log r_{e_k}.
+\tag{TFE.2561}
+\]
+
+Fibres with \(f_{Q_{k-1}}=0\) and \(f_{Q_k}>0\) are not ratio fibres.  They are
+first-entry atoms and must be admitted directly into the root reserve, legal,
+or stop record before the log-ratio branch is used.  Thus `(TFE.2561)' is not a
+future-tail definition; it is the ordinary chain rule on the portion where the
+parent baseline already exists.
+
+For a single edge \(e\), the ratio is the Jacobian of the same selected detector
+as that detector is transported through the coupled pressure-Hodge/Stokes,
+viscous, self-advection, frame, collar, selector, legal, and stop coordinates.
+Before clipping, differentiating the selected density in the stopped
+scale-memory coordinate gives
+
+\[
+\partial_\sigma\log f_\sigma
+=
+\left\langle K_e(\sigma,t),\mathcal G_P^{root}(\sigma,t)\right\rangle
+-\partial_\sigma\psi_e(\sigma,t)
++\varepsilon_e(\sigma,t),
+\tag{TFE.2562}
+\]
+
+where \(\mathcal G_P^{root}\) is the original coupled root generator from
+`(TFE.2401)', \(K_e\) is the parent-announced cotangent detector for this edge,
+\(\psi_e\) is the connection/normalization correction, and \(\varepsilon_e\)
+is legal, stop, or paid.  Integrating `(TFE.2562)' over the edge interval
+\(I_e\) gives
+
+\[
+\log r_e
+=
+\int_{I_e}
+\left\langle K_e,\mathcal G_P^{root}\right\rangle\,d\sigma dt
+-\psi_e+e_e
+=
+\ell_e(\Delta_e Z_P^S)-\psi_e+e_e .
+\tag{TFE.2563}
+\]
+
+For the immediate retained child \(Q\), `(TFE.2563)' is exactly the
+before-clipping log-ratio representation `(TFE.2553)'.  For a deeper descendant,
+`(TFE.2561)' sums the edge identities and gives the same formula with the
+ancestral cocycle correction:
+
+\[
+\text{Radon--Nikodym chain rule}
++\text{edge derivative identity `(TFE.2563)'}
+\Longrightarrow
+\text{before-clipping log-ratio representation `(TFE.2553)'.}
+\tag{TFE.2564}
+\]
+
+The analytic source is therefore not the chain rule.  It is the boundedness of
+the critical log-derivative projection against the original root generator.  In
+the stopped local form, for every stopped \(P'\preceq P\) and every parent-root
+field \(F\),
+
+\[
+\sum_{e\subset P'}
+\left|
+\int_{I_e}
+\left\langle K_e(\sigma,t),F(\sigma,t)\right\rangle\,d\sigma dt
+\right|^2
+dR_{P'}^{root}(E_e)
+\le
+C_N
+\int_{\operatorname{Hist}(P')}
+H_{P'}^\ast\|F\|_{\mathcal H_{root}}^2\,d\sigma dt
++Paid_F(P').
+\tag{TFE.2565}
+\]
+
+This is the precise bounded critical log-derivative projection.  It says the
+selected edge detector has already been announced as a bounded parent-root
+cotangent object, with stopped finite overlap, before the child takes a
+positive part.  It is the mathematical form of "the child cannot choose a new
+unit detector after the parent packet has been measured."
+
+Putting \(F=\mathcal G_P^{root}\) in `(TFE.2565)' gives
+
+\[
+\sum_{e\subset P'}
+\left|\ell_e(\Delta_e Z_P^S)-\psi_e\right|^2
+dR_{P'}^{root}(E_e)
+\le
+C_N
+\int_{\operatorname{Hist}(P')}
+H_{P'}^\ast\|\mathcal G_{P'}^{root}\|^2\,d\sigma dt
++Paid(P').
+\tag{TFE.2566}
+\]
+
+Thus the root Carleson square bound `(TFE.2557)' follows once the same stopped
+parent root-generator clock is controlled by the original-ledger/full-exchange
+storage estimate:
+
+\[
+\text{bounded critical log-derivative projection `(TFE.2565)'}
++
+\text{stopped root-generator storage}
+\Longrightarrow
+\text{root Carleson bound `(TFE.2557)'.}
+\tag{TFE.2567}
+\]
+
+Combining `(TFE.2564)' and `(TFE.2567)' with Section 221 gives the full
+consumer chain
+
+\[
+\boxed{
+\begin{array}{c}
+\text{bounded critical log-derivative projection}\\
++\text{stopped original-ledger/root-generator storage}\\
++\text{zero-baseline first-entry admission into the root reserve}
+\end{array}}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+\tag{TFE.2568}
+\]
+
+This section also locates the exact possible failure.  A bounded-channel
+selected detector satisfies `(TFE.2565)' by parent-root Cauchy and stopped
+overlap.  A legal, stop, return, reset, collar, or reselection detector is paid
+outside the retained log branch.  The only nonconsumer case is a scale-native
+edge whose child-normalized detector has parent critical norm growing like the
+forbidden \(\lambda_e^{-1/2}\) physical zoom factor and has not been admitted as
+a first-entry root atom.  That is the same survivor already isolated in
+`(TFE.2549)'.
+
+So `(TFE.2553)' is now reduced to an exact chain-rule identity plus paid
+zero-baseline entry, and `(TFE.2557)' is reduced to the single projection
+estimate `(TFE.2565)' together with stopped original-ledger storage.  Gold
+\(L^1\) is therefore not waiting on a dyadic count, a separate entropy miracle,
+or a pressure-only oscillation estimate.  It is waiting on proving `(TFE.2565)'
+and the stopped root-generator storage from the same original coupled packet,
+with no future selected positive tail used in either definition.
+
+## 223. Bounded log-detector projection is a root-geometry consumer
+
+The estimate `(TFE.2565)' is not a new analytic theorem for the bounded
+detector branch.  It is the parent-root Cauchy estimate in the predictable root
+geometry from `(TFE.2167)'--`(TFE.2173)'.  The only point that can fail is
+whether a selected edge detector has actually been announced in that geometry
+before clipping.
+
+For each stopped edge \(e\subset P'\), write its pulled-back cotangent detector
+as
+
+\[
+K_e(\sigma,t)
+=
+\mathbf 1_{I_e}(\sigma,t)\,
+\mathsf C_e(\sigma,t)^\ast k_e,
+\qquad
+\|k_e\|_{\mathcal K_e^\ast}\le1,
+\tag{TFE.2569}
+\]
+
+where \(\mathsf C_e\) is the parent-fixed comparison map from the original root
+fibre \(\mathcal H_{root}\) to the selected edge fibre \(\mathcal K_e\).  The
+detector is parent-announced precisely when the selected edge mass is included
+in the parent-root operator norm.  That is, there is a nonnegative stopped
+overlap density \(\alpha_e\) with
+
+\[
+dR_{P'}^{root}(E_e)
+\int_{I_e}
+{\|\mathsf C_e(\sigma,t)^\ast k_e\|_{\mathcal H_{root}^\ast}^2
+\over
+\alpha_e(\sigma,t)H_{P'}^\ast(\sigma,t)}
+\,d\sigma dt
+\le C_N ,
+\tag{TFE.2570}
+\]
+
+and the stopped edge tents have bounded overlap in the parent measure:
+
+\[
+\sum_{e\subset P'}\alpha_e(\sigma,t)\mathbf 1_{I_e}(\sigma,t)
+\le C_N
+\qquad\text{outside legal/stop/reselection pieces.}
+\tag{TFE.2571}
+\]
+
+Then for every parent-root field \(F\),
+
+\[
+\begin{aligned}
+dR_{P'}^{root}(E_e)
+\left|
+\int_{I_e}\langle K_e,F\rangle\,d\sigma dt
+\right|^2
+&\le
+\left(
+dR_{P'}^{root}(E_e)
+\int_{I_e}
+{\|K_e\|_{\mathcal H_{root}^\ast}^2\over
+\alpha_e H_{P'}^\ast}
+\,d\sigma dt
+\right)
+\left(
+\int_{I_e}
+\alpha_e H_{P'}^\ast\|F\|_{\mathcal H_{root}}^2\,d\sigma dt
+\right)\\
+&\le
+C_N
+\int_{I_e}
+\alpha_e H_{P'}^\ast\|F\|_{\mathcal H_{root}}^2\,d\sigma dt .
+\end{aligned}
+\tag{TFE.2572}
+\]
+
+Summing `(TFE.2572)' over a stopped family and using `(TFE.2571)' gives
+
+\[
+\sum_{e\subset P'}
+\left|
+\int_{I_e}\langle K_e,F\rangle\,d\sigma dt
+\right|^2
+dR_{P'}^{root}(E_e)
+\le
+C_N
+\int_{\operatorname{Hist}(P')}
+H_{P'}^\ast\|F\|_{\mathcal H_{root}}^2\,d\sigma dt
++Paid_F(P'),
+\tag{TFE.2573}
+\]
+
+which is `(TFE.2565)'.
+
+The root-geometry interpretation of the hypotheses is exactly the earlier
+compensator package.  The active-weight part of `(TFE.2170)' supplies the
+dominating \(H_{P'}^\ast\) weight in `(TFE.2570)'.  The parent-fixed connection
+angle drift in `(TFE.2173)' pays the change of fibre needed to compare all
+\(\mathsf C_e\) in one root Hilbert space.  Stopped predictable overlap gives
+`(TFE.2571)'.  Thus
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{StoppedPredictableRootGeometryCompensator.A}\\
++\texttt{ParentFixedConnectionAngleDriftCompensator.A}\\
++\texttt{paid reselection/legal/stop routing}
+\end{array}}
+\Longrightarrow
+\text{bounded-detector branch of `(TFE.2565)'.}
+\tag{TFE.2574}
+\]
+
+This removes another false source.  A pressure-Hodge, viscous/Stokes,
+self-advection, frame, collar, selector, routed-current, reset, return, legal,
+or stopped detector that is already represented by `(TFE.2569)'--`(TFE.2571)'
+cannot produce the half-tail.  Its log-amplification square is a finite
+projection of the same root generator.
+
+The only branch not covered by `(TFE.2574)' is the scale-native zero-baseline
+edge.  There the detector is not of bounded parent-root size before admission:
+
+\[
+\|K_e^{child}\|_{\mathcal K_e^\ast}\simeq1,
+\qquad
+\|K_e^{parent}\|_{\mathcal H_{root}^\ast}\simeq \lambda_e^{-1/2},
+\tag{TFE.2575}
+\]
+
+so `(TFE.2570)' fails unless the edge has already been converted into a
+root-known critical first-entry atom.  The required admission theorem is
+
+\[
+dR_{P'}^{root}(E_e)\,\|K_e^{parent}\|_{\mathcal H_{root}^\ast}^2
+\le
+C_N\,d\rho_{crit,P'}(E_e)+Paid(e),
+\tag{TFE.2576}
+\]
+
+with the \(\rho_{crit}\)-atoms packing as in `(TFE.2550)'.
+
+Consequently the current source is no longer `(TFE.2565)' as a whole.  Its
+bounded part is a consumer of the predictable root geometry.  The nonconsumer
+piece is exactly the scale-native first-entry admission/packing line
+`(TFE.2576)', together with the stopped original-ledger storage `(TFE.2532)'--
+`(TFE.2535)' that bounds the root generator clock after admission:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{scale-native first-entry detector admission `(TFE.2576)'}\\
++\text{critical atom packing `(TFE.2550)'}\\
++\text{stopped full-exchange root-generator storage}
+\end{array}}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+\tag{TFE.2577}
+\]
+
+This is the same bottom as `(TFE.2549)' but now expressed at the detector level.
+The fluid picture is also sharper: an already announced packet-direction can be
+read at any heat-lag/scale level without becoming new work, because the parent
+root geometry gives the Cauchy bound.  The only possible new positive count is
+the first moment when a child-normalized scale-native direction appears with no
+positive parent baseline.  That moment must be entered into the original root
+reserve before clipping; after entry it is no longer perpendicular/new and the
+Schur/Bessel/no-recount machinery applies.
+
+## 224. Zero-baseline entry is singular capacity, not an ordinary log ratio
+
+Section 221 used the absolutely continuous log atom
+
+\[
+\int f_Q\log\left({f_Q\over f_{\pi Q}}\right)_+\,dR_P^{root}.
+\tag{TFE.2578}
+\]
+
+That is the correct atom on the fibre where \(f_{\pi Q}>0\).  It is not the
+right language for a true first-entry fibre.  On
+
+\[
+E_Q^{0}:=\{f_{\pi Q}=0,\ f_Q>0\},
+\tag{TFE.2579}
+\]
+
+there is no parent density ratio to take.  The child has produced a singular
+piece relative to the immediate selected parent baseline.  In the usual
+relative-entropy convention this piece has infinite cost; in the Gold packet
+ledger it must therefore be admitted as a separate first-entry root atom before
+any child positive clipping is counted.
+
+Thus the critical capacity has two pieces:
+
+\[
+\rho_{crit,P}(E_Q)
+=
+\rho_{crit,P}^{ac}(E_Q)
++
+\rho_{crit,P}^{entry}(E_Q),
+\tag{TFE.2580}
+\]
+
+where
+
+\[
+\rho_{crit,P}^{ac}(E_Q)
+:=
+\int_{E_Q\cap\{f_{\pi Q}>0\}}
+f_Q\log\left({f_Q\over f_{\pi Q}}\right)_+\,dR_P^{root},
+\tag{TFE.2581}
+\]
+
+and the singular entry atom is the parent-root detector energy of the first
+scale-native endpoint seed:
+
+\[
+\rho_{crit,P}^{entry}(E_Q)
+:=
+dR_P^{root}(E_Q^0)\,
+\|K_Q^{parent}\|_{\mathcal H_{root}^\ast}^{2}
+\simeq
+\lambda_Q^{-1}\,dR_P^{root}(E_Q^0),
+\tag{TFE.2582}
+\]
+
+up to legal, stop, and paid reselection.  The symbol \(\lambda_Q\) is the
+physical heat/zoom ratio.  It is not the density ratio \(r_Q=f_Q/f_{\pi Q}\).
+
+With this definition, the detector admission line `(TFE.2576)' is no longer a
+new mystery.  It is the statement that the singular entry part has been entered
+in the critical capacity before clipping:
+
+\[
+dR_{P'}^{root}(E_Q^0)\,
+\|K_Q^{parent}\|_{\mathcal H_{root}^\ast}^{2}
+\le
+C_N\rho_{crit,P'}^{entry}(E_Q)+Paid(Q).
+\tag{TFE.2583}
+\]
+
+The real PDE content is not `(TFE.2583)' after the definition.  The real PDE
+content is packing the singular entry atoms from the original coupled packet:
+
+\[
+\sum_{Q\subset P}
+\rho_{crit,P}^{entry}(E_Q)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2584}
+\]
+
+This is exactly the continuous endpoint-seed/native-birth packing theorem from
+Sections 186--192.  The local admission is `(TFE.2201)': a retained unit selected
+first birth leaves an endpoint seed \(M_\gamma\) in the original packet.  The
+continuous packing statement is `(TFE.2216)':
+
+\[
+\int d\mathcal E_P^{EP}
+\le C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2585}
+\]
+
+after derivative-exact route, reset, return, legal, and stop material are
+routed.  Under the parabolic first-entry normalization, the singular detector
+capacity and the endpoint-seed measure are the same parent object:
+
+\[
+\rho_{crit,P}^{entry}
+\simeq
+d\mathcal E_P^{EP}
+\quad
+\text{on retained scale-native first-entry fibres.}
+\tag{TFE.2586}
+\]
+
+Thus
+
+\[
+\text{continuous endpoint-seed packing `(TFE.2216)'}
+\Longrightarrow
+\text{singular detector packing `(TFE.2584)'}
+\Longrightarrow
+\text{first-entry detector admission `(TFE.2576)'.}
+\tag{TFE.2587}
+\]
+
+Sections 189--192 already reduce `(TFE.2216)' to the same coupled square
+variation and native-birth package:
+
+\[
+\mu_P^{Ent}
++
+\int_P dA_{4B,N}^{tower,+}
++
+\Pi_P^{crit}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2588}
+\]
+
+Consequently the correct current bottom is not "prove a logarithmic estimate at
+zero baseline."  The log estimate is the absolutely continuous branch.  The
+zero-baseline branch is the singular first-entry endpoint seed, and its packing
+is precisely the selected-critical/native-birth part of `(TFE.2588)' plus the
+same stopped full-exchange root-generator storage.  Combining the absolutely
+continuous log branch with the singular entry branch gives the corrected
+capacity implication
+
+\[
+\boxed{
+\begin{array}{c}
+\text{positive-baseline log entropy `(TFE.2581)'}\\
++\text{singular first-entry endpoint-seed packing `(TFE.2584)'}\\
++\text{stopped full-exchange root-generator storage}
+\end{array}}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+\tag{TFE.2589}
+\]
+
+This is the exact reconciliation of the log-amplification picture with the
+first-entry picture.  A child readout with a parent baseline pays through the
+log ratio.  A child readout with no parent baseline is admitted as a first
+endpoint seed.  After that admission, the same coordinate cannot be counted as
+fresh again; it is ordinary Schur/Bessel/no-recount material in the parent
+history.
