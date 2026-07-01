@@ -2284,3 +2284,118 @@ bound from the original pressure-viscosity-incompressibility-velocity packet.
 This is `(TFE2748B.130)' / `(TFE.2298)' / `(TFE.557)' in Hardy endpoint
 coordinates, not an additional downstream wall and not an independent proof of
 smoothness.
+
+## 24. Local affine no-go: the source theorem is nonlocal no-arbitrage
+
+The Bellman, Hardy, and active-density rewritings above all expose the same
+source theorem.  They do not prove it by localizing the coupled
+pressure-Hodge/material packet, because the local coupled Navier-Stokes law has
+legal affine survivors.
+
+In the affine strain normal form
+
+\[
+u(x)=Ax,\qquad
+p(x)=-{1\over2}x\cdot A^2x,\qquad
+A=A^\top,\qquad \operatorname{tr}A=0,
+\tag{TFE2748B.138}
+\]
+
+one has the exact local coupled balance
+
+\[
+(u\cdot\nabla)u+\nabla p=0,\qquad
+\Delta u=0,\qquad
+\nabla\cdot u=0 .
+\tag{TFE2748B.139}
+\]
+
+For \(A=\operatorname{diag}(\lambda,-\lambda/2,-\lambda/2)\),
+
+\[
+{d\over dt}\log |D_aX(t)e_1|=\lambda .
+\tag{TFE2748B.140}
+\]
+
+Thus a local bounded-below storage \(X_{loc}\) paying the selected affine action
+would have to imply, modulo finite legal/stop residual,
+
+\[
+dX_{loc}+c\lambda\,dt\le dR(t),
+\qquad
+X_{loc}\ge -C,
+\qquad
+\int_0^T dR<\infty .
+\tag{TFE2748B.141}
+\]
+
+Integrating gives
+
+\[
+c\lambda T
+\le
+X_{loc}(0)-X_{loc}(T)+\int_0^T dR
+\le
+X_{loc}(0)+C+\int_0^T dR .
+\tag{TFE2748B.142}
+\]
+
+This is false on arbitrarily long persistent affine-strain windows.  The
+pressure Hessian in `(TFE2748B.138)' is not missing participation; it is the
+same coupled participation law balancing convection in a local tangent packet.
+What is missing from a local proof is the original-history fact that such a
+packet cannot be harvested as fresh positive critical action without either
+using up same-parent capacity, returning through the surrounding material
+history, or becoming a lawful class-exit witness in a different proof program.
+
+Consequently the noncircular Gold source cannot be a purely local Hodge,
+Hardy, affine, or finite-jet symmetrizer.  The exact minimal source theorem is
+the same-parent no-arbitrage form:
+
+\[
+\boxed{\texttt{GlobalSameParentCriticalNoArbitrage.A}}
+\tag{TFE2748B.143}
+\]
+
+For every stopped parent packet \(P\), no normalized same-parent sequence may
+satisfy
+
+\[
+\int_P d\Xi^{FE}=1,\qquad
+\int_P dE^0\to0,\qquad
+\int_P\bigl(d\Xi^{FE}-\vartheta\,d\Omega^{gen}-dE^0\bigr)_+
+\ge \eta_0>0
+\tag{TFE2748B.144}
+\]
+
+while all silent, reset, route, return, legal, stop, and paid motion components
+have vanished or been charged in the same stopped parent frame.  Equivalently,
+after stopped-frame compactness the retained zero-original-source face must
+obey
+
+\[
+d\Xi^{crit}+d\Xi^{endpoint}
+\le
+\vartheta\,d\Omega^{gen}
+\tag{TFE2748B.145}
+\]
+
+as a same-parent measure inequality on the retained face.  In Bellman language,
+the profit measure
+
+\[
+d\Pi_P:=d\Xi^{FE}-\vartheta\,d\Omega^{gen}-dE^0
+\tag{TFE2748B.146}
+\]
+
+has no positive zero-source cycle in the original parent history.  A positive
+cycle would be exactly the retained fixed-core critical endpoint-capacity defect
+recorded in `(TFE2748B.122)'--`(TFE2748B.123)'.
+
+If `(TFE2748B.143)' is proved, the Bellman value `(TFE.2432)' is bounded by the
+original ledger, `(TFE.2434)' gives the storage drop, and `(TFE2748B.120)' /
+`(TFE.2426)' follow.  If it is not proved, the endpoint Hardy theorem
+`(TFE2748B.137)' and the active-density orientation inequality
+`(TFE2748B.130)' remain conditional consumers.  This is not a new downstream
+wall: it is the same arbitrary-original-data source theorem in the minimal
+zero-profit-cycle form.
