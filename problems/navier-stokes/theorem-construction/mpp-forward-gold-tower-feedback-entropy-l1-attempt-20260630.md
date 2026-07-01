@@ -2134,3 +2134,108 @@ bounded-overlap machinery.  The remaining mathematical producer is the
 original-history construction of that selected amplification / affine quotient
 record, or an equivalent second-order exactness theorem for the positive fresh
 stress source.
+
+## 19. The amplification record is a stopped testing theorem, not a new name
+
+The next source audit goes one level below `(TFE.130a)`.  The file
+`mpp-forward-gold-original-history-selected-potential-amplification-bv-producer-20260627.md`
+does not construct the record; it proves that fresh potential-average kill and
+critical reset/overrun BV are two projections of one parent-known stopped
+record
+
+\[
+\mathfrak Z^S=(Z^S,\Psi^S,\Lambda^S).
+\tag{TFE.131}
+\]
+
+The desired record estimate is
+
+\[
+\mathcal E_{SPA}(P)
+\le
+C_N(u_0)+C R_{legal}(P),
+\tag{TFE.132}
+\]
+
+where \(\mathcal E_{SPA}\) contains the weighted stopped potential average,
+critical stopped variation of the selected amplification coordinate, the
+stopped square function of \(\Delta_QZ^S\), testing defects, and stop material.
+If `(TFE.132)` is available, `(TFE.130a)` follows.
+
+The direct production test shows that `(TFE.132)` is not produced by entropy
+language, selector kinematics, or the Hilbert bubble lift alone.  Entropy is a
+super-\(L^1\) consumer; selector kinematics pays moving-label error; the Hilbert
+lift is circular unless its root energy is bounded from original history rather
+than from the future selected tail.
+
+The noncircular bottom form is the stopped BMO/testing theorem.  Construct a
+stopped routed source measure \(\nu^S\) and a stopped same-material
+Hilbert/Riesz/martingale transform \(T_S\) such that
+
+\[
+Z^S=T_S\nu^S
+\tag{TFE.133}
+\]
+
+and prove the testing estimate
+
+\[
+\sup_{P\subseteq S}
+{1\over\mathcal R(P)}
+\|T_S(1_P\nu^S)\|_{L^2(P,\mathcal R)}^2
+\le
+C_N(u_0)+{R_{legal}(P)\over\mathcal R(P)} ,
+\tag{TFE.134}
+\]
+
+with cancellation defects and testing defects Carleson over the stopped tree:
+
+\[
+\sum_{P\subseteq P_0}Def_{test}(P)
+\le
+C_N(u_0)\mathcal R(P_0)+C R_{legal}(P_0).
+\tag{TFE.135}
+\]
+
+Then stopped \(T1/Tb\) or martingale-transform theory gives the BMO
+square-function bound
+
+\[
+\sup_{P'\subseteq P}
+{1\over\mathcal R(P')}
+\sum_{Q\subseteq P'}
+\|\Delta_QZ^S\|^2\mathcal R(Q)
+\le
+C_N(u_0)+{R_{legal}(P')\over\mathcal R(P')}.
+\tag{TFE.136}
+\]
+
+This gives the selected log-amplification Carleson estimate, hence the
+endpoint-uniform-integrability consumer, hence the unweighted terminal \(L^1\)
+line.
+
+So the proof spine is now:
+
+\[
+\begin{gathered}
+\text{StoppedAccretiveTestingData.A / OriginalHistoryHilbertBMOProducer.A}
+\\
+\Longrightarrow
+\text{OriginalHistorySelectedPotentialAmplificationBV.A}
+\\
+\Longrightarrow
+\text{AQK / critical native root bound}
+\Longrightarrow
+\text{`(TFE.117)'}
+\Longrightarrow
+\text{`(TFE.105)'} .
+\end{gathered}
+\tag{TFE.137}
+\]
+
+The honest obstruction is therefore no longer a vague \(L^1\) service problem.
+It is the stopped accretive testing problem for the original same-material
+routed source.  Packetwise local payment proves size, not testing.  The missing
+mathematical fact is cancellation plus local testing plus Carleson packing for
+\(\nu^S\) before the child-selected positive readout is allowed to choose the
+detector.
