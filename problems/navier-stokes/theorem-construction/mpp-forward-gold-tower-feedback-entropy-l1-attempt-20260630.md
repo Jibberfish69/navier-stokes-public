@@ -1979,7 +1979,7 @@ C\int_{\operatorname{Hist}(P)}
 +|\operatorname{exchange}_\sigma|
 +|\operatorname{covector}_\sigma|
 +|\operatorname{conn}_\sigma|
-\right)
+\right)d\sigma dt
 +Paid(P).
 \tag{TFE.120}
 \]
@@ -34292,7 +34292,7 @@ The missing repeated-core proof is therefore exactly
 
 \[
 \begin{array}{c}
-\texttt{PrimitivePLSDriverToSignedCommutatorIdentity.A}\\
+\texttt{PrimitivePLSSignedChannelDecomposition.A}\\
 +\texttt{StoppedNegativeReturnOrientedPayment.A}\\
 \Longrightarrow
 \texttt{RepeatedCoreRecordReturnStorageBound.A}.
@@ -34349,7 +34349,7 @@ Combining the two halves gives
 
 \[
 \begin{array}{c}
-\texttt{PrimitivePLSDriverToSignedCommutatorIdentity.A}\\
+\texttt{PrimitivePLSSignedChannelDecomposition.A}\\
 +\texttt{StoppedNegativeReturnOrientedPayment.A}\\
 +\texttt{CriticalWeightedParentChildResetCarleson.A}
 \end{array}
@@ -34385,7 +34385,7 @@ is a noncircular Gold producer until the transition payment law `(TFE.2353)'--
 \boxed{
 \texttt{ParentChildTransitionPaymentLaw.A}
 =
-\texttt{signed primitive lift}
+\texttt{finite signed-channel decomposition}
 +\texttt{oriented negative return}
 +\texttt{critical weighted reset Carleson}.
 }
@@ -34395,3 +34395,988 @@ is a noncircular Gold producer until the transition payment law `(TFE.2353)'--
 This is still not Gold closure.  It is the current method-fit attack on the
 same parent-known depletion/no-Zeno storage, with dyadic moving-unit counts and
 continuation-strength pump imports both removed.
+
+## 203. Signed-channel decomposition: installed fixed-channel lift and remaining barriers
+
+Section 202 used the repeated-core signed input.  The signed-channel repair
+shows the correct object is not one transport commutator carrying the whole
+primitive PLS transaction.  The coupled stopped packet has finitely many signed
+coordinates:
+
+\[
+d\Omega_S^{PLS,primitive,+}
+\le
+C_N\sum_{\kappa\in\mathcal K_N}
+[Y_{\kappa,S}]_+\,d\sigma dt
++
+dR_S^{paid},
+\tag{TFE.2365}
+\]
+
+with
+
+\[
+Y_{\kappa,S}
+=
+\partial_\sigma\Psi_{\kappa,S}
++S_{\kappa,S}^{spill}
++E_{\kappa,S}.
+\tag{TFE.2366}
+\]
+
+Here \(\mathcal K_N\) is finite at fixed tower depth and consists of same-packet
+coordinates: strain/eigenframe, pressure-Hessian through the strain equation,
+Hodge/Stokes projector motion, coefficient/frame motion, transported collar,
+annular interface stress work, viscous/radius graph service, and low-high
+transport commutator.  These are coordinates of one coupled participation law,
+not separate suppliers.
+
+One piece is installed on a fixed stopped channel.  Let
+\(\Gamma_{\kappa,R}\) be the parent-known signed readout on a stopped chamber
+and \(Z_{\kappa}^{S}\) the corresponding same-material carrier.  Define
+
+\[
+P_{\kappa,R}:=\Gamma_{\kappa,R}Z_{\kappa}^{S}.
+\tag{TFE.2367}
+\]
+
+If \(e:Q\to Q'\) is a retained fixed-channel transition, the stopped selector
+cone gives
+
+\[
+\|D_e\|_{sel}
+\le
+C[\Gamma_{\kappa,R}(D_e)]_+
++C R_{legal}(Q),
+\tag{TFE.2368}
+\]
+
+and fixed-channel parent subtraction gives
+
+\[
+D_e
+=
+Z_{\kappa}^{S}(Q')-Z_{\kappa}^{S}(Q)
++Err_e^{legal}.
+\tag{TFE.2369}
+\]
+
+Therefore
+
+\[
+A_{sel}(e)
+\le
+C\,[P_{\kappa,R}(Q')-P_{\kappa,R}(Q)]_+
++C R_{legal}(Q).
+\tag{TFE.2370}
+\]
+
+The same fixed-channel potential has original-history derivative control:
+
+\[
+\partial_\sigma P_{\kappa,R}
+=
+\Gamma_{\kappa,R}(\partial_\sigma Z_{\kappa}^{S})
++(\partial_\sigma\Gamma_{\kappa,R})Z_{\kappa}^{S},
+\tag{TFE.2371}
+\]
+
+so
+
+\[
+|\partial_\sigma P_{\kappa,R}|
+\le
+C_N\big(
+|\partial_\sigma Z_{\kappa}^{S}|
++|\operatorname{turnstile}_\sigma|
++|\operatorname{exchange}_\sigma|
++|\operatorname{covector}_\sigma|
++|\operatorname{frame/collar}_\sigma|
+\big)
++Err^{legal}.
+\tag{TFE.2372}
+\]
+
+Thus the fixed-channel positive-increment part of the signed lift is proved:
+
+\[
+\text{parent-known fixed selector channel}
+\Longrightarrow
+\text{primitive positive increments are record increments with derivative
+controlled by original carrier motion.}
+\tag{TFE.2373}
+\]
+
+What remains in the repeated-core half is not this scalar lift.  The remaining
+barriers are the three nonduplicate steps needed to pass from fixed-channel
+increments to full repeated-core storage:
+
+\[
+\begin{array}{ll}
+\text{channel decomposition:}
+&
+\text{derive `(TFE.2365)' for every }\kappa\in\mathcal K_N
+\text{ from the coupled material law;}\\[1mm]
+\text{cocycle/boundary:}
+&
+\text{glue the stopped potentials or pay all mismatch and upper-boundary
+remainders;}\\[1mm]
+\text{return payment:}
+&
+\text{prove finite negative variation of }P_{\kappa,R}
+\text{ in original return currency.}
+\end{array}
+\tag{TFE.2374}
+\]
+
+In theorem names, the repeated-core input is therefore
+
+\[
+\texttt{PrimitivePLSSignedChannelDecomposition.A}
++\texttt{SignedScaleCocycleTriviality/BoundaryRemainderBarrier.A}
++\texttt{StoppedNegativeReturnOrientedPayment.A}.
+\tag{TFE.2375}
+\]
+
+Once `(TFE.2374)'--`(TFE.2375)' are proved, record/return runs channelwise:
+
+\[
+\sum_{Q_k\subset\mathcal A}A_{sel}^{fresh}(Q_k)
+\le
+C_N\sum_{\kappa\in\mathcal K_N}
+\left(
+\operatorname{Rec}_\infty(\Psi_{\kappa,\mathcal A})
++V_-^{return}(\Psi_{\kappa,\mathcal A})
+\right)
++R_{legal}(\mathcal A).
+\tag{TFE.2376}
+\]
+
+The root estimate still has to be proved:
+
+\[
+\int_{\mathcal F_{\rm lam}}
+\sum_{\kappa\in\mathcal K_N}
+\left(
+\operatorname{Rec}_\infty(\Psi_{\kappa,\mathcal A})
++V_-^{return}(\Psi_{\kappa,\mathcal A})
+\right)
+d\mathcal R_{\rm ancestry}(\mathcal A)
+\le
+C_N(u_0)+R_{legal}.
+\tag{TFE.2377}
+\]
+
+This section therefore discharges only the fixed stopped-channel scalar lift.
+It also corrects the repeated-core target: one commutator channel is a model
+coordinate, while the Gold \(L^1\) route needs the finite signed-channel
+decomposition of the whole coupled pressure-viscosity-incompressibility-
+velocity packet plus the cocycle/boundary and negative-return payments.
+
+## 204. Dyadic-free transition measure: no moving units in the no-Zeno branch
+
+The transition-payment law in Section 202 must also be read in the exact
+parent-scale measure, not as a count of dyadic descendants.  The stopped
+parent packet carries a continuous transition space
+
+\[
+\mathcal E_P
+=
+\{(S,\sigma,z,\eta):\text{stopped chamber, scale, active point, retained
+transition coordinate}\},
+\tag{TFE.2378}
+\]
+
+with a parent-pulled transition measure
+
+\[
+d\Theta_P^{tr}
+=
+d\Theta_{P,\sigma}^{tr}(z,\eta)\,d\sigma .
+\tag{TFE.2379}
+\]
+
+All parabolic scale weights, transported-frame Jacobians, selector weights, and
+heat-lag thickness factors are part of \(d\Theta_P^{tr}\).  Thus the selected
+fresh transition action is the integral
+
+\[
+A_{sel}^{fresh}(P)
+=
+\int_{\mathcal E_P}
+R_P^{tr,+}(S,\sigma,z,\eta)\,d\Theta_P^{tr},
+\tag{TFE.2380}
+\]
+
+not a raw sum over rescaled children.  A stopped tree or dyadic shell can only
+be a finite-overlap partition of `(TFE.2380)':
+
+\[
+A_{sel}^{fresh}(P)
+\simeq
+\sum_{\mathcal Q\in\mathfrak P}
+\int_{\mathcal E_P(\mathcal Q)}
+R_P^{tr,+}\,d\Theta_P^{tr},
+\tag{TFE.2381}
+\]
+
+where the constants depend only on the bounded overlap of the partition and not
+on terminal time.  If the summand is replaced by the child-normalized value
+\(R_P^{tr,+}(\mathcal Q)\) with unit weight, the argument has changed objects.
+
+In this exact form, the branch split is a disintegration of the same measure:
+
+\[
+d\Theta_P^{tr}
+=
+d\Theta_P^{rep}+d\Theta_P^{reset}+d\Theta_P^{paid},
+\tag{TFE.2382}
+\]
+
+and
+
+\[
+\int_{\mathcal E_P}R_P^{tr,+}\,d\Theta_P^{tr}
+\le
+C_N\left(
+\int R_P^{rep,+}\,d\Theta_P^{rep}
++
+\int R_P^{reset,+}\,d\Theta_P^{reset}
+\right)
++Paid(P).
+\tag{TFE.2383}
+\]
+
+The repeated-core integral is controlled only after the finite signed-channel
+decomposition and return orientation:
+
+\[
+\int R_P^{rep,+}\,d\Theta_P^{rep}
+\le
+C_N
+\int_{\mathcal F_{\rm lam}}
+\sum_{\kappa\in\mathcal K_N}
+\left(
+\operatorname{Rec}_\infty(\Psi_{\kappa,\mathcal A})
++V_-^{return}(\Psi_{\kappa,\mathcal A})
+\right)
+d\mathcal R_{\rm ancestry}(\mathcal A)
++Paid(P).
+\tag{TFE.2384}
+\]
+
+The reset integral is controlled only when the selected first-ratio weight is
+already inside the parent transition measure:
+
+\[
+\int R_P^{reset,+}\,d\Theta_P^{reset}
+\le
+C_N
+\int_{\mathcal C(P)}
+\left(
+|\partial_\sigma Z|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
+\right)d\sigma dt
++Paid(P).
+\tag{TFE.2385}
+\]
+
+Therefore the exact no-Zeno theorem is the continuous transition estimate
+
+\[
+\sup_{\tau<T_*}
+\int_{\mathcal E_{P,\tau}}
+R_P^{tr,+}\,d\Theta_{P,\tau}^{tr}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2386}
+\]
+
+Dyadic language is admissible only as a way to prove `(TFE.2384)' or
+`(TFE.2385)' through finite-overlap partitions.  It is not part of the
+definition of the selected \(L^1\) quantity.  The continuous parent measure is
+the object; the dyadic tree is a coordinate chart.
+
+Combining `(TFE.2383)'--`(TFE.2386)' with Section 201 gives the current exact
+route:
+
+\[
+\begin{array}{c}
+\text{finite signed-channel record/return}\\
++\text{critical weighted reset Carleson}\\
++\text{terminal no-residue in the same parent measure}
+\end{array}
+\Longrightarrow
+\text{continuous transition }L^1
+\Longrightarrow
+\text{strict same-parent active-transit storage}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+\tag{TFE.2387}
+\]
+
+This removes the motivation for a raw dyadic counting proof of the no-Zeno
+branch.  What remains is the original-data construction of the continuous
+transition measure and the two weighted estimates `(TFE.2384)'--`(TFE.2385)'
+from the coupled material packet.
+
+## 205. Common transition-derivative producer for repeated core and reset
+
+The source audit shows that `(TFE.2384)' and `(TFE.2385)' are not two separate
+physical suppliers.  They are two readouts of one stopped transition-derivative
+measure of the original packet.
+
+For the repeated-core branch, the fixed stopped-channel lift gives
+
+\[
+A_{sel}(e)
+\le
+C[P_{\kappa,R}(Q')-P_{\kappa,R}(Q)]_+
++CR_{legal}(Q),
+\qquad
+P_{\kappa,R}=\Gamma_{\kappa,R}Z_{\kappa}^{S}.
+\tag{TFE.2388}
+\]
+
+Since \(P_{\kappa,R}\) is a parent-known same-material potential,
+
+\[
+\partial_\sigma P_{\kappa,R}
+=
+\Gamma_{\kappa,R}(\partial_\sigma Z_{\kappa}^{S})
++(\partial_\sigma\Gamma_{\kappa,R})Z_{\kappa}^{S},
+\tag{TFE.2389}
+\]
+
+and therefore a stopped finite-overlap transition family satisfies
+
+\[
+\int R_P^{rep,+}\,d\Theta_P^{rep}
+\le
+C_N
+\sum_{\kappa\in\mathcal K_N}
+\int_{\operatorname{Hist}(P)}
+\left(
+|\partial_\sigma Z_{\kappa}^{S}|
++|\operatorname{turnstile}_\sigma|
++|\operatorname{exchange}_\sigma|
++|\operatorname{covector}_\sigma|
++|\operatorname{frame/collar}_\sigma|
+\right)d\sigma dt
++Paid(P).
+\tag{TFE.2390}
+\]
+
+This is the precise meaning of negative return in the continuous version:
+return is not a free extra bin; infinite repeated positive readout would force
+infinite original-history variation of the same stopped potential.
+
+For the strict reset branch, the announceable active-weight Cauchy reduction
+has the form
+
+\[
+D_e(t)
+=
+{|I_e|}^{-1}
+\int_{I_e}\mathcal G_e(\sigma,t)\,d\sigma
++Err_e^{legal}(t),
+\tag{TFE.2391}
+\]
+
+where
+
+\[
+\mathcal G_e
+=
+\partial_\sigma Z
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma .
+\tag{TFE.2392}
+\]
+
+With the harmonic active weight
+
+\[
+H_{I_e}(t)
+=
+{|I_e|^2\over \int_{I_e}w(\sigma,t)^{-1}\,d\sigma},
+\tag{TFE.2393}
+\]
+
+Cauchy--Schwarz cancels the active weight:
+
+\[
+H_{I_e}(t)\|D_e(t)\|^2
+\le
+\int_{I_e}
+w(\sigma,t)\|\mathcal G_e(\sigma,t)\|^2\,d\sigma
++R_e^{legal}(t).
+\tag{TFE.2394}
+\]
+
+If the announced reset intervals have stopped bounded overlap, then
+
+\[
+\int R_P^{reset,+}\,d\Theta_P^{reset}
+\le
+C_N
+\int_{\operatorname{Hist}(P)}
+w(\sigma,t)
+\left(
+|\partial_\sigma Z|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
+\right)d\sigma dt
++Paid(P).
+\tag{TFE.2395}
+\]
+
+Thus the two branches reduce to one original-history transition derivative
+measure
+
+\[
+d\Lambda_P^{tr}
+=
+\sum_{\kappa\in\mathcal K_N}
+\left(
+|\partial_\sigma Z_{\kappa}^{S}|
++|\operatorname{turnstile}_\sigma|
++|\operatorname{exchange}_\sigma|
++|\operatorname{covector}_\sigma|
++|\operatorname{frame/collar}_\sigma|
+\right)d\sigma dt
++w\left(
+|\partial_\sigma Z|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
+\right)d\sigma dt .
+\tag{TFE.2396}
+\]
+
+The abstract continuous transition lemma is now:
+
+\[
+\int_{\mathcal E_P}
+R_P^{tr,+}\,d\Theta_P^{tr}
+\le
+C_N\int_{\operatorname{Hist}(P)}d\Lambda_P^{tr}
++Paid(P).
+\tag{TFE.2397}
+\]
+
+Consequently, the exact remaining original-data theorem is
+
+\[
+\sup_{\tau<T_*}
+\int_{\operatorname{Hist}(P_\tau)}d\Lambda_{P_\tau}^{tr}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2398}
+\]
+
+Call this
+
+\[
+\boxed{\texttt{OriginalHistoryTransitionDerivativeCarleson.A}.}
+\tag{TFE.2399}
+\]
+
+This is a better bottom for the no-Zeno branch than dyadic summation, negative
+return as a side bin, or reset weight as a separate currency.  Physically it
+says: every retained transition that is not already inherited must be an
+announced motion of the same original pressure-viscosity-incompressibility-
+velocity packet.  The \(L^1\) count is finite once the total announced
+transition motion of that packet is finite in the parent metric:
+
+\[
+\texttt{OriginalHistoryTransitionDerivativeCarleson.A}
+\Longrightarrow
+\texttt{ParentChildTransitionPaymentLaw.A}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+\tag{TFE.2400}
+\]
+
+Gold is still open at `(TFE.2398)'.  The consumer algebra from transition
+derivatives to selected \(L^1\) is now explicit; the remaining mathematical
+content is proving the terminal-uniform bound on \(d\Lambda_P^{tr}\) from the
+original coupled Navier--Stokes material packet without importing future child
+readouts.
+
+## 206. Transition derivative is a projection of the original root generator
+
+The transition-derivative producer in Section 205 is not an independent bottom
+theorem.  The original-ledger root geometry files already identify the
+parent-known generator
+
+\[
+\mathcal G_P^{root}
+=
+\Pi_{\rm new}^P
+\left(
+\partial_\sigma Z
++[D_t,\mathcal L_A]w
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
++\operatorname{frame}_\sigma
++\operatorname{collar/endpoint}_\sigma
+\right),
+\tag{TFE.2401}
+\]
+
+with original ledger
+
+\[
+d\Lambda_P^{orig}
+=
+H_P^\ast\|\mathcal G_P^{root}\|^2\,d\sigma dt
++dA_P^{sel/chart}
++dR_{\rm legal,P}
++dStop_P .
+\tag{TFE.2402}
+\]
+
+The transition derivative measure `(TFE.2396)' is obtained by applying stopped
+transition coordinate functionals to `(TFE.2401)'.  Write
+
+\[
+\mathcal G_P^{tr}
+=
+\Pi_{tr}^P\mathcal G_P^{root},
+\tag{TFE.2403}
+\]
+
+where \(\Pi_{tr}^P\) is the finite family of parent-known readouts used by the
+fixed-channel records and announced reset intervals.  Parent-known selector
+choice, stopped finite channel depth, and bounded overlap give
+
+\[
+\|\Pi_{tr}^P F\|_{\mathcal H_{tr}}^2
+\le
+C_N\|F\|_{\mathcal H_{root}}^2
++dA_P^{sel/chart}(F)
++dR_{\rm legal,P}
++dStop_P .
+\tag{TFE.2404}
+\]
+
+The active reset weight is lawful only when it is dominated by the same
+parent-root weight:
+
+\[
+w_{tr}(\sigma,t)
+\le
+C_NH_P^\ast(\sigma,t)
++R_{\rm legal}
++Stop .
+\tag{TFE.2405}
+\]
+
+Then the transition derivative measure is subordinate to the original ledger:
+
+\[
+d\Lambda_P^{tr}
+\le
+C_Nd\Lambda_P^{orig}.
+\tag{TFE.2406}
+\]
+
+Indeed, the repeated-core part of `(TFE.2396)' is the finite-channel
+total-variation readout of \(P_{\kappa,R}=\Gamma_{\kappa,R}Z_\kappa^S\), whose
+derivative is one component of `(TFE.2403)' plus frame/collar/covector terms.
+The reset part is the Cauchy-weighted square of the same generator components.
+Both are parent-root projections before child positive readout; neither may be
+defined from a future child-selected weight.
+
+Therefore the original-ledger storage/coercivity inequality
+
+\[
+H_P^\ast\|\mathcal G_P^{root}\|^2\,d\sigma dt
++dA_P^{sel/chart}
+\le
+-D_{\sigma,t}M_P
++d\Theta_P^{orig}
++dR_{\rm legal,P}
++dStop_P ,
+\tag{TFE.2407}
+\]
+
+with
+
+\[
+0\le M_P\le C_N(u_0)\mathcal R(P)+Paid(P),
+\qquad
+\int_{\operatorname{Hist}(P)}d\Theta_P^{orig}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2408}
+\]
+
+implies the transition derivative theorem:
+
+\[
+\sup_{\tau<T_*}
+\int_{\operatorname{Hist}(P_\tau)}d\Lambda_{P_\tau}^{tr}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2409}
+\]
+
+Combining `(TFE.2409)' with `(TFE.2397)' gives continuous transition \(L^1\),
+hence `(TFE.2400)'.
+
+So the cleaned-up dependency chain is
+
+\[
+\begin{array}{c}
+\texttt{SelectedGeneratorStorageCoercivity.A}\\
+\text{or equivalently}\\
+\texttt{MaterialAdjointAccretiveTestingData.A / PositiveCriticalTransferBound.A}
+\end{array}
+\Longrightarrow
+\texttt{OriginalHistoryTransitionDerivativeCarleson.A}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+\tag{TFE.2410}
+\]
+
+This prevents the transition derivative label from becoming another proxy
+closure.  The transition measure is a consumer projection of the original
+root-generator ledger.  Gold remains open at the original-ledger
+storage/coercivity theorem `(TFE.2407)'--`(TFE.2408)', not at dyadic counting,
+not at reset Cauchy, and not at fixed-channel scalar variation.
+
+## 207. Final no-self-feeding storage form
+
+The last theorem must be stated so that it cannot pay the selected generator
+clock by the same selected generator clock.  Define
+
+\[
+d\Omega_P^{gen}
+:=
+H_P^\ast\|\mathcal G_P^{root}\|^2\,d\sigma dt
++dA_P^{sel/chart}.
+\tag{TFE.2411}
+\]
+
+The storage theorem needed for Gold \(L^1\) is the strict non-self-feeding
+inequality
+
+\[
+d\Omega_P^{gen}
+\le
+-dM_P
++d\Theta_P^{0}
++\theta\,d\Omega_P^{gen}
++dR_{\rm legal,P}
++dStop_P,
+\qquad
+0\le\theta<1,
+\tag{TFE.2412}
+\]
+
+where
+
+\[
+0\le M_P\le C_N(u_0)\mathcal R(P)+Paid(P),
+\qquad
+\int_{\operatorname{Hist}(P)}d\Theta_P^{0}
+\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2413}
+\]
+
+Absorbing the strict fraction gives
+
+\[
+\int_{\operatorname{Hist}(P)}d\Omega_P^{gen}
+\le
+{1\over 1-\theta}
+\left(
+C_N(u_0)\mathcal R(P)+Paid(P)
+\right).
+\tag{TFE.2414}
+\]
+
+Then `(TFE.2406)' gives \(d\Lambda_P^{tr}\), `(TFE.2397)' gives continuous
+transition \(L^1\), Sections 171--174 give continuous no-recount/entropy
+counting, and `(TFE.2038)' gives terminal-uniform selected \(L^1\).
+
+Thus the full Gold \(L^1\) chain is now the single implication
+
+\[
+\boxed{
+\texttt{StrictOriginalLedgerGeneratorStorage.A}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+}
+\tag{TFE.2415}
+\]
+
+The theorem `StrictOriginalLedgerGeneratorStorage.A' is exactly
+`SelectedGeneratorStorageCoercivity.A' with the no-self-feeding margin
+displayed.
+
+The checked source notes identify three required clauses:
+
+\[
+\begin{array}{ll}
+\text{accretive reference:}
+&
+\|G_{sel}\|^2
+\le
+C\langle G,K_PG\rangle
++C(R_{\rm legal}+Stop);\\[1mm]
+\text{testing data:}
+&
+|\langle b_P\rangle_P|\ge c,\quad
+\|b_P\|_2^2\le C\mathcal R(P),\quad
+\|T_P(b_P\nu^P)\|_2^2\le C\mathcal R(P)+Paid(P);\\[1mm]
+\text{defect packing:}
+&
+\displaystyle
+\sum_{P'\subseteq P}Def_{test}(P')
+\le C_N(u_0)\mathcal R(P)+Paid(P).
+\end{array}
+\tag{TFE.2416}
+\]
+
+All three clauses must be built from the original coupled material history:
+pressure/Hodge compatibility, viscous/Stokes smoothing, self-advection,
+incompressibility frame motion, collar/endpoint motion, legal loss, and stop.
+They cannot be built from the child-selected positive tail.
+
+The natural energy/storage identity gives only a signed balance:
+
+\[
+D M_P
+=
+\text{signed pairings of }
+\mathcal G_P^{root}
+\text{ with the stopped packet variables and frame terms}.
+\tag{TFE.2417}
+\]
+
+This is not `(TFE.2412)'.  Signed pairings can cancel while
+\(d\Omega_P^{gen}\) stays large.  In critical Eulerian coordinates this is the
+same obstruction as
+
+\[
+\int_0^\tau B_+(t)\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt,
+\qquad \theta<1,
+\tag{TFE.2418}
+\]
+
+where the standard estimate gives only a coefficient depending on the critical
+packet size, not a uniform \(\theta<1\) for arbitrary data.
+
+So the exact mathematical wall is not a missing dyadic summation, not an
+unproved reset Cauchy step, and not the scalar record/return algebra.  It is
+the construction of a parent-known accretive storage/test for the original
+coupled generator with a strict no-self-feeding margin:
+
+\[
+\boxed{
+\texttt{StrictOriginalLedgerGeneratorStorage.A}
+=
+\texttt{MaterialAdjointAccretiveTestingData.A}
++\texttt{BeforeClippingSelectorCarrierComparison.A}
++\texttt{TestingDefectChargeToOriginalLedgers.A}.
+}
+\tag{TFE.2419}
+\]
+
+Proving `(TFE.2419)' from arbitrary original smooth data closes the Gold
+\(L^1\) route.  Without `(TFE.2419)', every downstream object in this note is a
+consumer, coordinate projection, or conditional reduction.
+
+## 208. The three-clause storage wall collapses to one producer
+
+The three names in `(TFE.2419)' should not be read as three independent fluids
+or three independent sources of payment.  Once the carrier is the original
+root generator \(\mathcal G_P^{root}\), the selector comparison and testing
+defect clauses are consumer estimates.  The only producer is the same-parent
+full-exchange/critical-depletion storage that prevents the selected generator
+clock from paying itself.
+
+Let \(d\Xi_P^{FE}\) be the parent-known full-exchange critical ledger generated
+before child clipping:
+
+\[
+d\Xi_P^{FE}
+:=
+|J_P^S|^2\,d\mathcal R_P
++dA_P^{collar/Hodge/frame}
++dA_P^{reselec/reset}
++dA_P^{crit,birth}.
+\tag{TFE.2420}
+\]
+
+Here \(J_P^S\) is the routed same-material participation current from
+`(TFE.1906)', the collar/Hodge/frame part contains transported-pressure,
+covector, selector, and material-chart motion, the reset part contains genuine
+parent-announced reselection, and \(dA_P^{crit,birth}\) is the first selected
+critical native-birth edge.  All four pieces are original-history ledgers.  No
+term is defined by the future child positive tail.
+
+The selector-carrier comparison is then just the bounded before-clipping
+readout of this carrier.  The finite stopped-channel family gives
+
+\[
+dA_P^{sel/chart}
+\le
+C_N\,d\Xi_P^{FE}
++dR_{\rm legal,P}
++dStop_P .
+\tag{TFE.2421}
+\]
+
+This is the continuous-parent version of `(TFE.2404)'--`(TFE.2406)'.  It is not
+a producer: it says the child meter is reading the parent carrier with bounded
+operator norm.
+
+The testing-defect clause also reduces to the same ledger.  The selector
+reference branch is already controlled after stopped rebase/capping, and the
+local testing-defect charge has the form
+
+\[
+Def_{\rm test}(P)
+\le
+C\Bigl(
+B_{\rm Schur}(P)
++E_{\rm top\text{-}ex}(P)
++S_{\rm material}(P)
++Reset(P)
++Stop(P)
++R_{\rm legal}(P)
+\Bigr).
+\tag{TFE.2422}
+\]
+
+Schur, legal, and stop telescope or pack in the original ledger, while
+\(E_{\rm top\text{-}ex}\), \(S_{\rm material}\), and \(Reset\) are precisely
+the full-exchange/reset pieces of \(d\Xi_P^{FE}\).  Therefore
+
+\[
+\sum_{P'\subseteq P}Def_{\rm test}(P')
+\le
+C_N\int_{\operatorname{Hist}(P)}d\Xi_P^{FE}
++C_NR_{\rm legal}(P)
++C_NStop(P).
+\tag{TFE.2423}
+\]
+
+Thus `TestingDefectChargeToOriginalLedgers.A' is not another source once
+\(d\Xi_P^{FE}\) is fixed.  It is a packing readout of the same full-exchange
+critical ledger.
+
+Similarly, the stopped material adjoint transform is controlled by the routed
+current factorization
+
+\[
+\nu_P^S=D_AJ_P^S+\nu_{\rm legal}^S+\nu_{\rm stop}^S,
+\qquad
+T_S(D_AJ_P^S)=\Pi_{\nabla,A}J_P^S,
+\tag{TFE.2424}
+\]
+
+so the transform testing energy satisfies
+
+\[
+\|T_S(b_P\nu_P^S)\|_{L^2(P,\mathcal R)}^2
+\le
+C_N\int_{\widehat P}d\Xi_P^{FE}
++C_NR_{\rm legal}(\widehat P)
++C_NStop(\widehat P)
++Def_{\rm test}(P).
+\tag{TFE.2425}
+\]
+
+The accretive reference state is therefore a consumer after stopped rebase and
+`(TFE.2423)'--`(TFE.2425)'.  The nonduplicate theorem under
+`MaterialAdjointAccretiveTestingData.A' is exactly the construction and
+strict storage of \(d\Xi_P^{FE}\).
+
+The final producer can be stated without the duplicate wrappers:
+
+\[
+\boxed{
+\begin{aligned}
+d\Omega_P^{gen}
+&\le C_Nd\Xi_P^{FE}+dR_{\rm legal,P}+dStop_P,\\
+d\Xi_P^{FE}
+&\le
+-dM_P
++d\Theta_P^0
++\vartheta\,d\Omega_P^{gen}
++dR_{\rm legal,P}
++dStop_P,
+\qquad C_N\vartheta<1,\\
+0&\le M_P\le C_N(u_0)\mathcal R(P)+Paid(P),\\
+\int_{\operatorname{Hist}(P)}d\Theta_P^0
+&\le C_N(u_0)\mathcal R(P)+Paid(P).
+\end{aligned}}
+\tag{TFE.2426}
+\]
+
+The smallness in `(TFE.2426)' is not small initial data.  It is a strict
+same-parent no-self-feeding margin: after the original packet's full exchange,
+reset, collar/Hodge/frame motion, and first critical births are recorded, at
+most a fixed fraction of the generator clock can return as the same generator
+clock.
+
+Combining the two lines in `(TFE.2426)' gives
+
+\[
+d\Omega_P^{gen}
+\le
+-C_NdM_P
++C_Nd\Theta_P^0
++C_N\vartheta\,d\Omega_P^{gen}
++dR_{\rm legal,P}
++dStop_P.
+\tag{TFE.2427}
+\]
+
+Since \(C_N\vartheta<1\), absorption yields
+
+\[
+\int_{\operatorname{Hist}(P)}d\Omega_P^{gen}
+\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2428}
+\]
+
+Then `(TFE.2406)' gives the transition derivative bound, `(TFE.2397)' gives
+continuous transition \(L^1\), Sections 171--174 give the continuous
+no-recount/entropy count, and `(TFE.2038)' gives terminal-uniform selected
+\(L^1\).
+
+So `(TFE.2419)' has the following audited normal form:
+
+\[
+\boxed{
+\texttt{FullExchangeCriticalDepletionStorage.A}
+\Longleftrightarrow
+\texttt{StrictOriginalLedgerGeneratorStorage.A}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+}
+\tag{TFE.2429}
+\]
+
+This is the exact physical picture in one line: pressure/Hodge can
+re-coordinate the packet, viscosity/Stokes can make delayed velocity and strain
+readouts, self-advection and frame motion can move the carrier, and the selector
+can reset; all of those motions are one same-parent full-exchange ledger.  Gold
+\(L^1\) closes when that ledger has a bounded-below depletion storage with a
+strict no-self-feeding margin.  Dyadic shells, stopped trees, testing defects,
+and child readouts are lawful only as weighted projections of that continuous
+original-history ledger.
