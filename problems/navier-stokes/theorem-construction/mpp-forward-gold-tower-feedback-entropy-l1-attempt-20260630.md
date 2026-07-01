@@ -2780,3 +2780,300 @@ in `(TFE.111)`.  The noncircular solution has to prove the parent-known
 complete-frame root variation bound and the fixed-core no-residue trace
 modulus.  Once those are proved, the \(L^1\) algebra is already closed by
 telescoping.
+
+## 23. Material-log comparison: what the entropy capacity must be
+
+The entropy capacity in `(TFE.164)` cannot be an abstract count.  On a retained
+parent packet it has to be represented by the material record of the same
+coupled pressure--heat--viscous history.  Let
+
+\[
+\mathcal P_{P,N}
+=
+1+\Gamma_P+E_{P,N}^{v}+E_{P,N}^{A,G}+R_{P,N}^{full}
+\tag{TFE.172}
+\]
+
+where \(\Gamma_P\) records the material map, inverse material map,
+Cauchy--Green metric, transported collar thickness, Hodge/pressure frame, and
+selector chart; \(E^v\) and \(E^{A,G}\) are the velocity and coefficient towers;
+and \(R^{full}\) is the cumulative same-carrier pressure, viscous/collar,
+coefficient, metric, geometry, radius-spend, selector/collar, and exchange
+activity.  This is the material version of the state-accessibility count: two
+candidate histories are no longer the same accessible state once this record
+has changed by a distinguishable amount in the stopped full-packet metric.
+
+The material equations give the positive log-growth channel
+
+\[
+d[\log(1+\mathcal P_{P,N})]_+
+\le
+C\,dA_{4B,N}^{ann}(P)+dPaid_P,
+\tag{TFE.173}
+\]
+
+where \(dA_{4B,N}^{ann}\) is the full tower-level annular activity: metric,
+coefficient, commutator, pressure, viscous/collar, geometry, radius-spend,
+selector/collar, and exchange channels on the same transported packet.  This is
+not a new estimate: it is the material-normal-form identity obtained by
+differentiating the coupled material equations.  It is valid only for the full
+tower-level object, not for lower-order raw energy or raw dissipation.
+
+Consequently the reused-core variation in `(TFE.169)` is controlled by the
+same log-growth channel:
+
+\[
+\mathcal V_{\rm core}(a)
+\le
+C\int_{\mathcal A(a)}d[\log(1+\mathcal P_{P,N})]_+
++R_{legal}(\mathcal A(a))+Stop(\mathcal A(a)).
+\tag{TFE.174}
+\]
+
+Integrating `(TFE.174)` and using `(TFE.173)` shows that `(TFE.155)` follows
+from the root full-annular-clock bound
+
+\[
+\int_{\operatorname{Hist}(P)}dA_{4B,N}^{ann}
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P).
+\tag{TFE.175}
+\]
+
+This is the precise mathematical form of the physical claim that the feedback
+loop reduces the number of accessible future packet states.  Pressure may
+re-coordinate the remaining velocity state, but every recoordination that later
+appears as a new positive selected child has to move the material map, pressure
+frame, collar, coefficient tower, or exchange record.  The amount of such
+motion is exactly \(dA_{4B,N}^{ann}\).
+
+The fixed-core branch gives the matching terminal condition.  If the fixed-core
+critical selected measure is dominated by the same full-annular clock,
+
+\[
+d\mu_{P,fix}^{crit}
+\le
+C\,dA_{4B,N}^{ann}
++dPaid_P,
+\tag{TFE.176}
+\]
+
+and the root packet has a terminal-uniform no-atom tail
+
+\[
+\lim_{\theta\downarrow0}\sup_P
+\int_{\operatorname{Hist}(P)\cap(T_*-\theta,T_*)}
+dA_{4B,N}^{ann}
+=0
+\tag{TFE.177}
+\]
+
+outside legal, stop, and same-witness endpoint-face exits, then `(TFE.170)`
+follows.  Indeed, on a fixed carrier the oscillation of \(\Phi_P\) over a
+small heat tent is bounded by the \(A_{4B,N}^{ann}\)-mass of the tent plus paid
+terms, so `(TFE.176)`--`(TFE.177)` give the no-residue trace modulus
+`(TFE.160)`--`(TFE.161)`.
+
+Thus the entropy story collapses the two surviving branches to one exact
+producer:
+
+\[
+\boxed{
+\text{full tower annular activity has root-finite mass and terminal-uniform
+tail zero on the original coupled material history.}
+}
+\tag{TFE.178}
+\]
+
+Under `(TFE.175)` and `(TFE.177)`, the chain is complete:
+
+\[
+\begin{gathered}
+\text{material-log entropy comparison `(TFE.173)`--`(TFE.176)'}
+\\
++\text{root/tail full-annular-clock bound `(TFE.175)`, `(TFE.177)'}
+\\
+\Longrightarrow
+\text{reused-core `(TFE.169)' and fixed-core `(TFE.170)'}
+\\
+\Longrightarrow
+\text{entropy state deletion `(TFE.165)'--`(TFE.167)'}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\end{gathered}
+\tag{TFE.179}
+\]
+
+The audit also shows the exact nonclosure point.  `(TFE.173)` is a derived
+identity: it says where entropy loss lives.  `(TFE.175)` and `(TFE.177)` are
+the true finite-production statements.  Finite kinetic energy, raw viscous
+drain, complete-frame orientation, Cauchy--Green attachment, Hodge pressure
+coupling, and BKM/Serrin-style continuation criteria are consumers or
+coordinates unless they prove this same full-annular-clock root/tail bound.
+
+Equivalently, the \(L^1\) problem is now the following single material-clock
+question:
+
+\[
+\text{Can the original coupled pressure--viscosity--incompressibility packet
+produce infinite full-annular activity while raw physical energy and weighted
+viscous drain remain finite?}
+\tag{TFE.180}
+\]
+
+If yes, Gold positive closure fails at this route and the retained object must
+be routed to the same-witness CM endpoint/participation face.  If no, then
+`(TFE.175)`--`(TFE.177)` install the entropy capacity, and the \(L^1\) proof is
+closed by `(TFE.179)`.
+
+## 24. Four-body audit of the full-annular-clock producer
+
+The checked four-body surfaces show that `(TFE.175)` and `(TFE.177)` are not
+the same production statement.  Root finiteness of the full annular clock is a
+signed same-packet coercivity theorem.  Terminal tail zero is a same-carrier
+no-atom/temporal-regularity theorem.
+
+For root finiteness, the needed smooth/prelimit master balance is
+
+\[
+d\mathfrak L_{4B,N}
++c\left(
+dA_{4B,N}^{ann}
++C_{log}d[\log(1+\mathcal P_{P,N})]_+
++d\mathcal K_{iface}
+\right)
++d\mathcal L_{4B,N}
+\le
+dR_{4B,N},
+\qquad
+\int dR_{4B,N}<\infty,
+\tag{TFE.181}
+\]
+
+with \(\mathfrak L_{4B,N}\) bounded below.  If `(TFE.181)` is proved for the
+same transported packet, then integration gives
+
+\[
+\int_{\operatorname{Hist}(P)}dA_{4B,N}^{ann}
++\int_{\operatorname{Hist}(P)}d[\log(1+\mathcal P_{P,N})]_+
++\int_{\operatorname{Hist}(P)}d\mathcal K_{iface}
+\le C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P),
+\tag{TFE.182}
+\]
+
+so `(TFE.175)` follows.
+
+The limit-passage gates around `(TFE.181)` are largely support, not the
+producer.  The legal-residual normal form proves that \(dR_{4B,N}\) is finite
+after all scale-neutral/top-order positive terms have already been placed into
+clock or loss.  The relaxed object match says the terminal clock must be the
+weak-star limit of the prelimit positive clock, with
+
+\[
+d\mu_{clock}
+=dA_{4B,N}^{ann}
++C_{log}d[\log(1+\mathcal P_{P,N})]_+
++d\mathcal K_{iface}.
+\tag{TFE.183}
+\]
+
+These are correct passage rules.  They do not derive the left-side clock in
+`(TFE.181)`.
+
+The local producer for `(TFE.181)` is the signed same-packet symmetrizer
+inequality
+
+\[
+-\left\langle
+Z,
+\left(
+\partial_\sigma H_\sigma
++H_\sigma L_\sigma
++L_\sigma^\ast H_\sigma
+\right)Z
+\right\rangle
+\ge
+c\,W_{clock,\sigma}(Z)
++M_{loss,\sigma}(Z)
+-R_\sigma(Z),
+\tag{TFE.184}
+\]
+
+where
+
+\[
+W_{clock,\sigma}\,d\sigma
+=dA_{4B,N}^{ann}
++C_{log}d[\log(1+\mathcal P_{P,N})]_+
++d\mathcal K_{iface}.
+\tag{TFE.185}
+\]
+
+The installed interface envelope is weaker:
+
+\[
+dK_{orient}^+
+\le
+dD_S^{rad}+dD_Q^w+d\mathcal K_{iface}+dR_{legal}.
+\tag{TFE.186}
+\]
+
+It identifies where the defects live, but it is unsigned.  It does not construct
+the positive off-diagonal \(H_\sigma=I+K_\sigma\) whose commutator puts those
+defects on the negative side of \(d\mathfrak L_{4B,N}\).  Thus `(TFE.184)` is
+not installed by the current interface-envelope surfaces.
+
+The full-tower cancellation audit says the same thing in channel language.  The
+algebraic cancellation of four oriented body inequalities is proved, but the
+enlarged channel list still needs an orientation/capacity theorem for the
+metric and coefficient tower:
+
+\[
+\partial_tA=-A(\nabla u)\circ X\,A,
+\qquad
+\partial_tG=-2ASA^\top .
+\tag{TFE.187}
+\]
+
+Positive growth of these material coefficients is generated by the same fluid
+packet, but generation is eligibility, not payment.  Payment requires a
+Body-IV or adjacent exchange capacity that is bounded below without already
+assuming bounded material record.
+
+For terminal tail zero, even `(TFE.181)` gives only finite \(L^1\) clock mass.
+Finite \(L^1\) mass does not exclude a terminal strip pulse uniformly over a
+selected family.  The no-residue part `(TFE.177)` therefore needs a same-carrier
+temporal regularity or Hardy modulus such as
+
+\[
+\|[H_P]_+\|_{W_s^{\beta,1}(-1,0)}
+\le
+C\left(
+D_S^{rad}+D_Q^w+D_G+R_{legal}
+\right),
+\qquad
+\beta>0,
+\tag{TFE.188}
+\]
+
+on the same retained packet.  This is the endpoint trace temporal tower
+regularity input: it upgrades finite clock mass to the no-terminal-atom tail
+needed by `(TFE.177)`.
+
+Thus the entropy route now has the exact theorem-grade finish condition:
+
+\[
+\boxed{
+\text{`(TFE.184)' for root clock mass}
+\quad+\quad
+\text{`(TFE.188)' for endpoint tail/no-atom}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+}
+\tag{TFE.189}
+\]
+
+The checked repo state does not prove `(TFE.184)` or `(TFE.188)` at theorem
+grade.  It proves the algebra after them, the local material-log placement
+before them, the residual/object-match passage around them, and the support
+orientation identities feeding them.
