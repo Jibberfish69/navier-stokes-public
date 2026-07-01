@@ -17,7 +17,12 @@ completion_truth: >-
   or have paid variation so that Mcrit=Ccrit-Ecrit is a true bounded-below
   storage derivative. The July 1 continuation audit also records the
   detector/frame/Hodge/collar distortion line as a component consumer after the
-  zero-baseline endpoint branch is admitted into the critical-entry source.
+  zero-baseline endpoint branch is admitted into the critical-entry source. The
+  July 1 Markov-entropy pressure test shows that entropy dissipation would prove
+  the storage only after the selected critical density is represented by a
+  parent-announced positive Markov active-density equation; the current source
+  surfaces prove the deterministic consumers but not that original-data
+  positivity/nonanticipation equation.
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-original-data-source-theorem-attack-20260701.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
@@ -1242,3 +1247,161 @@ entry must be either positive-baseline log entropy or zero-baseline endpoint
 seed material already present in the same parent ledger.  Gold remains open
 until `(TFE2748B.75)'--`(TFE2748B.77)' are proved from arbitrary original smooth
 data.
+
+## 16. Markov-entropy pressure test for the storage proof
+
+There is one clean way the critical-capacity storage would follow.  The
+before-clipping selected critical density would have to be an honest positive
+parent density, not a density created after a child has already clipped a
+positive readout.
+
+Let \(f_t\ge0\) be the parent-announced selected critical density on the fixed
+root reserve \((X_P,dR_P^{root})\), including the singular endpoint entry as the
+measure part of \(f_t\,dR_P^{root}\).  Suppose the coupled packet produced the
+active-density equation
+
+\[
+d(f_t\,dR_P^{root})
+=
+-\operatorname{div}_{R}(b_t f_t)\,dR_P^{root}dt
++\operatorname{div}_{R}(A_t\nabla_R f_t)\,dR_P^{root}dt
++d\sigma_P^{paid}
+-d\sigma_P^{spent},
+\tag{TFE2748B.78}
+\]
+
+where \(b_t\) is \(R_P^{root}\)-divergence free, \(A_t\ge0\) is the heat/Stokes
+part on the retained critical quotient, and every defect in the moving Hodge,
+collar, covector, selector, endpoint, route, legal, and stop structure is in
+\(d\sigma_P^{paid}\).  Then the usual entropy calculation is exact:
+
+\[
+d\int_{X_P} f_t\log f_t\,dR_P^{root}
++\int_{X_P}{\langle A_t\nabla_R f_t,\nabla_R f_t\rangle\over f_t}\,dR_P^{root}dt
+\le d\sigma_P^{paid}.
+\tag{TFE2748B.79}
+\]
+
+The transport term drops because \(b_t\) preserves the parent measure, and the
+parabolic term is dissipative.  With the singular first-entry Hardy term added
+to the same entropy, `(TFE2748B.79)' would give
+
+\[
+d\mathcal E_P^{crit}
++\nu\,d\mathcal I_P^{crit}
+\le
+d\Theta_P^0+dPaid_P.
+\tag{TFE2748B.80}
+\]
+
+If the root critical capacity is fixed in this parent measure, or if its positive
+variation is paid,
+
+\[
+[d\mathcal C_P^{crit}]_+
+\le d\Theta_P^0+dPaid_P,
+\tag{TFE2748B.81}
+\]
+
+then \(M_P^{crit}=\mathcal C_P^{crit}-\mathcal E_P^{crit}\) satisfies
+
+\[
+d\rho_{crit,P}^{ac}
++d\rho_{crit,P}^{entry}
+\le
+-dM_P^{crit}
++d\Theta_P^0
++\vartheta\,d\Omega_P^{gen}
++dPaid_P,
+\qquad C_N\vartheta<1,
+\tag{TFE2748B.82}
+\]
+
+after inserting the already-audited component distortion consumer
+`(TFE2748B.17)' and absorbing the retained generator comparison.  Thus the
+Markov-density theorem `(TFE2748B.78)' plus paid capacity variation
+`(TFE2748B.81)' would prove the target storage line `(TFE2748B.75)'.
+
+The current repo does not prove `(TFE2748B.78)' from arbitrary original smooth
+data.  The Navier--Stokes velocity/strain jet is governed by the coupled
+pressure-Hodge-viscous-material equation, but the selected critical density is a
+nonlinear readout of that jet.  The heat/Stokes factor is positivity preserving
+on a passive density; the Leray/Hodge pressure re-coordinates the coupled field
+with a sign-changing operator; and the selected density is defined through
+critical detectors, endpoint traces, and before-clipping readout geometry.  The
+installed estimates prove that bounded detector distortion, endpoint heat-lag
+normalization, no-recount, Bessel/Schur admission, and retained Poincare are
+consumers.  They do not yet prove that the full selected critical density itself
+evolves by the positive parent Markov equation `(TFE2748B.78)'.
+
+The closest original NS identity is the local energy balance for a smooth
+solution,
+
+\[
+\partial_t e+\nabla\cdot((e+p)u)
+=
+\nu\Delta e-\nu|\nabla u|^2,
+\qquad e={1\over2}|u|^2,\qquad \nabla\cdot u=0.
+\tag{TFE2748B.84}
+\]
+
+On the whole torus, the pressure flux integrates out and viscosity dissipates.
+On a selected critical parent window \(\mathfrak S_t\), however, `(TFE2748B.84)'
+gives schematically
+
+\[
+d\int_{\mathfrak S_t}e\,dR_P^{root}
+=
+-\nu\int_{\mathfrak S_t}|\nabla u|^2\,dR_P^{root}dt
++\int_{\partial\mathfrak S_t}
+\left(\nu\nabla e-(e+p)(u-v_{\mathfrak S})\right)\cdot n_{\mathfrak S}\,d\sigma dt
++dPaid_P .
+\tag{TFE2748B.85}
+\]
+
+This is the physical place where pressure acts in the same coupled packet.  It
+does not create volume, but it can push energy/strain information through the
+boundary of the selected active window.  The positive part of that boundary flux
+is exactly what a child readout would like to count as new critical entry.  The
+critical-capacity storage theorem is therefore equivalent to the one-sided
+window-flux bound
+
+\[
+\left[
+\int_{\partial\mathfrak S_t}
+\left(\nu\nabla e-(e+p)(u-v_{\mathfrak S})\right)\cdot n_{\mathfrak S}\,d\sigma dt
+\right]_+
+\le
+d\Theta_P^0+\vartheta\,d\Omega_P^{gen}+dPaid_P,
+\qquad C_N\vartheta<1,
+\tag{TFE2748B.86}
+\]
+
+with \(\mathfrak S_t\) parent-announced before clipping.  The repo has proved
+many routes and consumer estimates that identify which boundary motions are
+paid.  It has not proved `(TFE2748B.86)' for arbitrary original smooth data.
+That is the local-energy/flux form of `(TFE2748B.81)'--`(TFE2748B.83)'.
+
+This is not a new wall beside TFE2748B.  It is the exact positive-density form of
+the same wall:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{construct a parent-announced positive active density \(f_t\) for}
+\\
+\text{\(d\rho_{crit}^{ac}+d\rho_{crit}^{entry}\) before clipping,}
+\\
+\text{prove its coupled pressure-Hodge-viscous evolution has the}
+\\
+\text{Markov entropy inequality `(TFE2748B.79)' with paid defects,}
+\\
+\text{and prove the parent critical capacity is fixed or has paid positive
+variation.}
+\end{array}}
+\tag{TFE2748B.83}
+\]
+
+Without `(TFE2748B.83)', an entropy proof would silently replace the selected
+critical readout by a passive scalar density.  With `(TFE2748B.83)', the
+capacity-variation line `(TFE2748B.75)' follows by the displayed calculation.
