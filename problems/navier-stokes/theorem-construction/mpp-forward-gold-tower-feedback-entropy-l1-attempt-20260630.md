@@ -31132,3 +31132,499 @@ construct the original parent native reserve measure, prove selected first
 births push forward into it with bounded density, prove the selected log-density
 has stopped exponential reverse-Holder control, and prove terminal no-residue
 for that same parent metric.
+
+## 181. Native pushforward equals the scale-memory fresh-source bound
+
+Section 180 names the correct continuous object.  The older native-reserve and
+critical fresh-source surfaces identify what the first clause actually is.  It
+is not the fact that a first birth has some source channel.  It is the
+selected-critical factor between the raw parent source increment and the child
+readout, before the child clips the positive part.
+
+For a retained fresh point \(\gamma\in\Gamma_P^{fr}\), let
+
+\[
+F_\gamma
+=
+(I-\Pi_{\operatorname{spent}(<\gamma)})
+\Delta_\gamma Z_P^{orig}
+\tag{TFE.2131}
+\]
+
+be the parent-fresh original-history source increment after inherited Schur
+current, lower-band carry, paid exchange, legal, stop, and already admitted
+terminal material have been removed.  Raw Hilbert/Bessel geometry gives only
+
+\[
+\int_{\Gamma_P^{fr}}
+\|F_\gamma\|_{\mathcal H_{raw}}^2\,d\eta_P(\gamma)
+\le
+C_N\|Z_P^{orig}\|_{\mathcal H_{raw}}^2+Paid(P).
+\tag{TFE.2132}
+\]
+
+The continuous native-reserve pushforward asks for the weighted estimate
+
+\[
+\int_{\Gamma_P^{fr}}
+W_\gamma\|F_\gamma\|_{\mathcal H_{raw}}^2\,d\eta_P(\gamma)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2133}
+\]
+
+where \(W_\gamma\) is the selected heat-scale / first-ratio weight pulled back
+to the parent packet.  Equation `(TFE.2133)' is exactly `(TFE.2123)'--`(TFE.2125)'
+in operator form.  It is also the continuous version of
+`CriticalFreshSourceTentCarleson.A', `NativeBirthChargePacking.A', and
+`PositiveCriticalTransferBound.A'.
+
+The noncircular way for \(W_\gamma\) to enter is the scale-memory handoff.  For
+each fresh witness, prove a parent-known representation
+
+\[
+F_\gamma(t)
+=
+|I_\gamma|^{-1}
+\int_{I_\gamma}G_\gamma(\sigma,t)\,d\sigma
+Err_\gamma^{legal}(t),
+\tag{TFE.2134}
+\]
+
+where \(G_\gamma\) is built from original same-material scale derivative,
+frame/turnstile motion, exchange motion, covector motion, and dynamic
+visible/silent/exchange source terms.  Given an original parent density
+\(a(\sigma,t)>0\), define
+
+\[
+W_\gamma(t)
+=
+\frac{|I_\gamma|^2}
+{\int_{I_\gamma}a(\sigma,t)^{-1}\,d\sigma}.
+\tag{TFE.2135}
+\]
+
+Then weighted Cauchy gives the local parent-side conversion
+
+\[
+W_\gamma(t)\|F_\gamma(t)\|_{\mathcal H_{raw}}^2
+\le
+C\int_{I_\gamma}
+a(\sigma,t)\|G_\gamma(\sigma,t)\|_{\mathcal H_{raw}}^2\,d\sigma
++C\,Err_\gamma^{legal}(t).
+\tag{TFE.2136}
+\]
+
+Thus the selected weight is not attached after zooming.  It is the parent price
+of resolving an original scale-memory average into the heat-lag child readout.
+This is the exact mathematical form of the physical handoff: the coupled
+pressure/Hodge/material response re-coordinates the packet, and the
+viscous/strain/frame side supplies the time-thick parent memory that makes the
+child readout measurable.
+
+Therefore `(TFE.2133)' follows from two parent facts:
+
+\[
+\sum_{\gamma\in\Gamma_P^{fr}}
+\mathbf 1_{I_\gamma\times T_\gamma}
+\le
+C_N+Paid(P),
+\tag{TFE.2137}
+\]
+
+and
+
+\[
+\int_{\operatorname{Hist}(P)}
+a(\sigma,t)\|G(\sigma,t)\|_{\mathcal H_{raw}}^2\,d\sigma\,dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2138}
+\]
+
+Indeed, sum `(TFE.2136)' over the continuous first-birth family and use
+`(TFE.2137)'--`(TFE.2138)' to obtain `(TFE.2133)'.
+
+This also clarifies the role of the stopped exponential-BMO/reverse-Holder
+line in `(TFE.2130)'.  On the fresh branch, `(TFE.2133)' is the PDE source that
+supplies the parent-known selected density; the reverse-Holder step is the
+consumer that turns that parent density into the high-ratio \(L^1\) bound.  It
+is not an independent reservoir and cannot replace `(TFE.2133)'.
+
+In compressed Eulerian critical coordinates, `(TFE.2133)' is the same full-output
+positive critical transfer estimate
+
+\[
+\int_0^\tau [B_{\rm full,crit}(t)]_+\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(\tau),
+\qquad \theta<1,
+\tag{TFE.2139}
+\]
+
+where \(B_{\rm full,crit}\) is the recombined pressure--viscosity--
+incompressibility--velocity transfer before selected child clipping, not a
+pressure-only scalar.
+
+Failure of the first clause in `(TFE.2130)' is now forced into a smaller
+three-part failure.  After normalizing a bad retained family so that
+
+\[
+\int_{\Gamma_P^{fr}}
+W_\gamma\|F_\gamma\|_{\mathcal H_{raw}}^2\,d\eta_P(\gamma)=1,
+\tag{TFE.2140}
+\]
+
+one of the following must fail:
+
+\[
+\begin{array}{ll}
+\text{(A)}&
+\text{parent-known scale-memory representation `(TFE.2134)';}\\
+\text{(B)}&
+\text{parent-frame sparse overlap `(TFE.2137)';}\\
+\text{(C)}&
+\text{original generator energy `(TFE.2138)'.}
+\end{array}
+\tag{TFE.2141}
+\]
+
+If `(A)'--`(C)' all hold, `(TFE.2136)' sums to `(TFE.2133)', contradicting
+`(TFE.2140)'.  Thus the continuous Gold \(L^1\) problem has been pushed below
+dyadic counting and below first-birth naming to this exact original-data PDE
+package:
+
+\[
+\boxed{
+\texttt{FreshSourceScaleMemoryRepresentation.A}
++
+\texttt{FreshSourceWitnessSparsePacking.A}
++
+\texttt{OriginalScaleMemoryGeneratorEnergyBound.A}
+}
+\tag{TFE.2142}
+\]
+
+together with the terminal no-residue clause of `(TFE.2127)' in the same parent
+metric.  Proving `(TFE.2142)' from the original coupled packet gives
+`(TFE.2133)', hence the continuous native-reserve pushforward, hence the fresh
+part of terminal-uniform selected \(L^1\).  Without `(TFE.2142)', the half-tail
+remains a legal counterprofile in the proof language: finite raw fresh mass,
+finite energy shadow, but infinite selected-critical parent weight.
+
+## 182. Discharge the representation and overlap consumers
+
+The source surfaces below `(TFE.2142)' separate the three clauses.  Two are
+consumer geometry once the stopped parent construction is fixed.
+
+First, `FreshSourceScaleMemoryRepresentation.A' is the fundamental theorem of
+calculus on a parent-known stopped scale coordinate.  If
+\(Z_P^{orig}(\sigma)\) is absolutely continuous along the same-material
+log-scale history and the spent-source projection is parent-known and piecewise
+absolutely continuous on \(I_\gamma\), then
+
+\[
+Y_\gamma(\sigma)
+=
+(I-\Pi_{\operatorname{spent}(<\gamma)}(\sigma))Z_P^{orig}(\sigma)
+\tag{TFE.2143}
+\]
+
+satisfies
+
+\[
+F_\gamma
+=
+Y_\gamma(\sigma_1)-Y_\gamma(\sigma_0)+Err_\gamma^{legal}
+=
+\int_{I_\gamma}\partial_\sigma Y_\gamma(\sigma)\,d\sigma
++Err_\gamma^{legal},
+\tag{TFE.2144}
+\]
+
+with
+
+\[
+\partial_\sigma Y_\gamma
+=
+(I-\Pi_{\operatorname{spent}})\partial_\sigma Z_P^{orig}
+-(\partial_\sigma\Pi_{\operatorname{spent}})Z_P^{orig}.
+\tag{TFE.2145}
+\]
+
+The second term is exactly projection/stratum motion: turnstile, exchange,
+covector, legal, or stop.  Thus `(TFE.2134)' is closed for parent-known
+absolutely continuous stopped carriers.  If a "fresh" increment is selected
+only after the child readout, or if the spent projection jumps without a
+turnstile/exchange/covector/legal charge, then it is not an admissible retained
+fresh source.
+
+Second, `FreshSourceWitnessSparsePacking.A' is closed for maximal parent-known
+witness intervals and laminar retained material tubes.  On one material ancestry,
+maximal slabs for a fixed stopped score/projection state have disjoint
+log-scale interiors:
+
+\[
+\sum_{\gamma\text{ on one ancestry}}
+\mathbf 1_{I_\gamma}(\sigma)
+\le
+C_{\operatorname{score}}.
+\tag{TFE.2146}
+\]
+
+Across siblings, retained material tubes are disjoint except for legal/stop
+overlap:
+
+\[
+\sum_{\gamma'\in ch(\gamma)}
+\mathbf 1_{T_{\gamma'}}(t,x)
+\le
+1+Legal(\gamma)+Stop(\gamma).
+\tag{TFE.2147}
+\]
+
+Consequently, for every nonnegative original-history density \(H\),
+
+\[
+\sum_{\gamma\subset P}
+\int_{I_\gamma\times T_\gamma}H
+\le
+C_N\int_{\operatorname{Hist}(P)}H
++C\,Legal(P)+C\,Stop(P),
+\tag{TFE.2148}
+\]
+
+which is `(TFE.2137)'.  Sparse packing fails only for future-fitted or
+nonmaximal witness choices; those choices are outside the parent-known
+construction and route to legal/stop/reselection.
+
+Therefore `(TFE.2142)' reduces to one source estimate:
+
+\[
+\boxed{
+\texttt{OriginalScaleMemoryGeneratorEnergyBound.A}
+}
+\tag{TFE.2149}
+\]
+
+with terminal no-residue still required in the same parent metric.
+
+The generator-energy note identifies why `(TFE.2149)' is not already proved.
+The natural original scale-memory storage gives a signed balance, not square
+coercivity:
+
+\[
+D M_P
+=
+\text{pairings of }G,Z,D_tZ,\text{ metric/frame terms},
+\tag{TFE.2150}
+\]
+
+so cancellation of the pairing does not control \(a\|G\|^2\).  The exact
+noncircular storage line would be
+
+\[
+a\|G\|^2
+\le
+-\partial_\sigma M_P-\partial_tM_P
++\Theta_{orig}^{vis/ex/sil}
++Legal+Stop,
+\tag{TFE.2151}
+\]
+
+with bounded-below parent storage and original-history control of
+\(\Theta_{orig}^{vis/ex/sil}\).  In compressed physical variables this is the
+same strict positive critical transfer line `(TFE.2139)'.
+
+The lower-triangular scale-memory split makes `(TFE.2149)' smaller.  On each
+fresh scale interval,
+
+\[
+\int_I w\|F\|_{L_x^2}^2\,ds
+=
+\int_I w\|\partial_sS_w\|_{L_x^2}^2\,ds
++H_w(t)\|c_F(t)\|_{L_x^2}^2,
+\tag{TFE.2152}
+\]
+
+where the first term is derivative-exact and the second term is the persistent
+affine scale quotient.  The derivative-exact term routes through scale
+integration by parts, endpoint/legal terms, and stopped derivative/turnstile/
+covector/exchange payments.  The survivor is
+
+\[
+AQ(P)
+:=
+\int_0^{T_*}H_w(t)\|c_F^{fresh}(t)\|_{L_x^2}^2\,dt.
+\tag{TFE.2153}
+\]
+
+Thus the active \(L^1\) bottom is sharpened to
+
+\[
+\boxed{
+\texttt{AffineQuotientTransitionPayment.A}
+}
+\tag{TFE.2154}
+\]
+
+plus terminal no-residue.  The payment theorem says the persistent affine
+moment cannot keep producing selected-positive weight unless it is paid by the
+same-parent affine Schur record, negative return, route/reset motion, or legal/
+stop loss.  The already-written derivative-exact, representation, and sparse
+packing lines are consumers feeding this affine quotient; they are not the
+remaining PDE source.
+
+## 183. Affine quotient payment first needs stopped square-packing
+
+The affine quotient payment surface has one more hidden type conversion.  The
+quotient
+
+\[
+AQ(P)
+=
+\int_0^{T_*}
+H_w(t)\|\mathcal C_\theta[Z_P^{fresh}](t)\|_{L_x^2}^2\,dt
+\tag{TFE.2155}
+\]
+
+is a scale-band \(L^2\) readout.  The proposed payments live on stopped
+parent-child transition events: inherited chambers, repeated-core records,
+negative returns, and reset jumps.  Those event ledgers do not touch
+`(TFE.2155)' until the scale-band readout is localized into them before
+squaring.
+
+The needed bridge is
+
+\[
+\boxed{
+\texttt{StoppedAffineQuotientTransitionSquarePacking.A}
+}
+\tag{TFE.2156}
+\]
+
+in the following form.  In the stopped parent frame,
+
+\[
+\mathcal C_\theta[Z_P^{fresh}]
+=
+\sum_{\mathcal A\in Rep(P)}
+\mathcal C_\theta[Y_{\mathcal A}^{rep}]
++
+\sum_{Q\to Q'\in Reset(P)}
+\mathcal C_\theta[\Delta Z_{Q\to Q'}]
++R_{legal},
+\tag{TFE.2157}
+\]
+
+and the square of this expansion obeys
+
+\[
+AQ(P)
+\le
+C\,AQ_{rep}(P)+C\,AQ_{reset}(P)+Legal(P)+Stop(P).
+\tag{TFE.2158}
+\]
+
+The point of `(TFE.2158)' is the same as the correction to dyadic counting: the
+linear decomposition is not enough.  Cross terms must be controlled by
+laminarity, orthogonality, a stopped martingale difference structure, or
+Carleson packing in the parent Hilbert geometry.
+
+After `(TFE.2158)' the two branch consumers have the right type.  The inherited
+piece must satisfy
+
+\[
+AQ_{rep}(P)
+\le
+C\int_{\mathcal F_{rep}(P)}
+\sum_{\kappa\in\mathcal K_N}
+\left(
+\operatorname{Rec}_\infty(\Psi_{\kappa,\mathcal A})
++V_-^{return}(\Psi_{\kappa,\mathcal A})
+\right)
+d\mathcal R_{ancestry}(\mathcal A)
++Paid(P),
+\tag{TFE.2159}
+\]
+
+which is the `InheritedAQRepToPrimitivePLSRecordReturn.A' consumer.  It needs
+the repaired finite same-packet signed-channel decomposition and oriented
+negative-return payment:
+
+\[
+\texttt{PrimitivePLSSignedChannelDecomposition.A}
++
+\texttt{StoppedNegativeReturnOrientedPayment.A}.
+\tag{TFE.2160}
+\]
+
+The reset piece must satisfy
+
+\[
+AQ_{reset}(P)
+\le
+C\sum_{Q\subset P}\sum_{Q'\in ch_{stop}(Q)}
+J_{crit}(Q\to Q')
++Paid(P),
+\tag{TFE.2161}
+\]
+
+where the reset charge is critical-weighted before any future selected tail is
+formed:
+
+\[
+J_{crit}(Q\to Q')
+\simeq
+w(Q')\|\Delta Z_{Q\to Q'}^{fresh}\|_{\mathcal H_{raw}}^2
++J_{selector/collar/turn}^{crit}
++Paid.
+\tag{TFE.2162}
+\]
+
+This is the `ResetLocalAffineBandToCriticalJumpCarrier.A' consumer, fed by
+
+\[
+\texttt{LogScaleResetDerivativeCarrierBound.A}
++
+\texttt{CriticalWeightedParentChildResetCarleson.A}.
+\tag{TFE.2163}
+\]
+
+Thus `(TFE.2154)' decomposes as
+
+\[
+\begin{aligned}
+\texttt{AffineQuotientTransitionPayment.A}
+\Leftarrow{}&
+\texttt{StoppedAffineQuotientTransitionSquarePacking.A}\\
+&+\texttt{InheritedAQRepToPrimitivePLSRecordReturn.A}\\
+&+\texttt{ResetLocalAffineBandToCriticalJumpCarrier.A}.
+\end{aligned}
+\tag{TFE.2164}
+\]
+
+The repeated-core projection note shows that `(TFE.2159)' is a consumer once a
+common predictable root Hilbert geometry and parent affine projection structure
+are already built from original same-material history.  In that geometry,
+record increments are Pythagorean and return intervals are parent-known
+downcrossing slabs.  The assembly theorem below both branch consumers is
+
+\[
+\boxed{
+\texttt{PredictableRootWeightMartingaleRealization.A}
+}
+\tag{TFE.2165}
+\]
+
+which must supply the common root measure, parent spans, finite-score selector/
+reset realization, projection record/return payment, fresh innovation
+martingale difference, and Bessel consumer before child positive clipping.
+
+So the current fresh-source \(L^1\) bottom is no longer the broad affine
+quotient phrase.  It is the stopped square-packing/localization of the affine
+quotient into a predictable root martingale geometry, plus the two typed branch
+payments `(TFE.2159)' and `(TFE.2161)', plus terminal no-residue in the same
+parent metric.
