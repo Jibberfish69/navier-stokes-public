@@ -16711,3 +16711,645 @@ So the updated first tooth in `(TFE.1118)' is
 `(TFE.1133)' is a sharper reduction of tooth A, not a Gold closure.  It leaves
 the native-birth/positive-critical-transfer tooth and the terminal thickness
 tooth still active, and `(TFE.1130)' itself is not installed.
+
+## 99. Tooth B: first native birth is global selected-critical packing
+
+The native-birth tooth is not a local source-attachment problem anymore.  The
+fresh selected-scale lower edge is already isolated by zero-channel rigidity:
+
+\[
+\omega_Q
+\le
+C_N\rho_Q^{fresh}
++R_{\rm legal}(Q),
+\qquad
+\omega_Q\simeq A_{\rm sel}(Q).
+\tag{TFE.1134}
+\]
+
+Here \(\rho_Q^{fresh}\) is the same transported packet's visible Schur,
+silent/exchange, material Hodge/projector, annular, viscous/radius, and
+frequency-native source coordinate after carry, entrance, legal, selector
+motion, exchange, and spent-source reuse have been removed.  Thus a retained
+selected first birth has a nonzero same-packet native coordinate.  That is the
+installed local admission line.
+
+The missing theorem is the root upper bound:
+
+\[
+\sum_{Q\subset P}\rho_Q^{fresh}
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1135}
+\]
+
+Spent-source projection gives the raw nonreuse/Bessel estimate.  With
+
+\[
+F_Q=(I-\Pi_{\rm spent(<Q)})\Delta_QZ_{\rm src}^{orig},
+\tag{TFE.1136}
+\]
+
+one has raw square packing along the stopped material tree.  But the retained
+selected atom is measured in the selected-critical metric:
+
+\[
+\rho_Q^{fresh}
+\simeq
+w(Q)\|F_Q\|_{\mathcal H_{\rm raw}}^2,
+\qquad
+w(Q)\sim2^{\ell(Q)} .
+\tag{TFE.1137}
+\]
+
+That weight is exactly where finite raw square mass fails to imply selected
+positive \(L^1\).  The fresh orthogonal half-tail is
+
+\[
+\|F_\ell\|_{\mathcal H_{\rm raw}}^2
+=
+{2^{-\ell}\over \ell+1},
+\qquad
+\sum_\ell\|F_\ell\|_{\mathcal H_{\rm raw}}^2<\infty,
+\qquad
+\sum_\ell2^\ell\|F_\ell\|_{\mathcal H_{\rm raw}}^2=\infty .
+\tag{TFE.1138}
+\]
+
+This model does not reuse a spent direction.  It is the precise reason that
+Bessel, Schur, and first-admission logic do not close the selected \(L^1\)
+line by themselves.
+
+The sharpened tooth-B producer is therefore
+
+\[
+\boxed{
+\sup_{P'\subset P}{1\over\mathcal R(P')}
+\sum_{Q\subset P'}
+w(Q)\|F_Q\|_{\mathcal H_{\rm raw}}^2
+\le
+C_N(u_0)+{R_{\rm legal}(P')+Stop(P')\over\mathcal R(P')}.
+}
+\tag{TFE.1139}
+\]
+
+This is `CriticalFreshSourceTentCarleson.A' /
+`FreshSourceCriticalScaleMemoryBound.A'.  It must be built from the original
+pressure-Hodge, strain/frame, Schur collar, annular stress, frequency-native,
+route, legal, and stop ledgers before the child selected tail is clipped.
+
+Equivalently, in native-birth ledger language, there must be a bounded
+multiplicity map
+
+\[
+\iota:\Gamma_N(P)\to\mathcal R_N^{nat}(u_0;P),
+\qquad
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}+R_{\rm legal}(\gamma)+Stop(\gamma),
+\tag{TFE.1140}
+\]
+
+with
+
+\[
+\sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}\rho
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1141}
+\]
+
+The compressed Leray critical-transfer inequality is only a coordinate face of
+this same coupled ledger after the branches have been exhausted:
+
+\[
+\int_0^T
+\left(
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C(u_0)
++\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2dt,
+\qquad
+\theta<1 .
+\tag{TFE.1142}
+\]
+
+Read literally as a scalar nonlinear estimate, `(TFE.1142)' hides the packet.
+Read after the full branch split, it is `PositiveCriticalTransferBound.A':
+fresh selected first births must be paid by one finite original-history native
+reserve, not by the future selected child tail.
+
+Physically, tooth B is the place where the entropy picture becomes a counting
+theorem.  Pressure can open a new compatible selected direction and heat can
+make that direction readable later, but a first selected-size birth must delete
+one selected-size future state from the original coupled packet.  The repo has
+the local fact that the birth is real.  It still lacks the global fact that all
+such first births form a finite selected-critical root measure.
+
+Thus tooth B has the exact status
+
+\[
+\boxed{
+\begin{gathered}
+\text{selected-scale lower edge is installed;}\\
+\text{raw fresh Bessel/nonreuse is installed;}\\
+\text{global selected-critical fresh-source tent Carleson / PCT is not installed.}
+\end{gathered}
+}
+\tag{TFE.1143}
+\]
+
+## 100. Tooth C: terminal thickness is endpoint product control or no-residue
+
+The terminal tooth is not finite endpoint mass.  Finite mass still permits the
+endpoint heat-strip pulse
+
+\[
+d\Lambda_m(s)
+=
+a\tau_m^{-1}{\bf 1}_{(-\tau_m,0]}(s)\,ds,
+\qquad
+\tau_m\downarrow0,
+\tag{TFE.1144}
+\]
+
+which has fixed total mass and no positive terminal time thickness.
+
+The installed Hardy/no-waste consumer is exact.  If
+
+\[
+d\mu_m=dR_m+d(-L_{4B,m})_+
+\tag{TFE.1145}
+\]
+
+satisfies, for some \(\alpha>0\),
+
+\[
+\sup_m\int_{-1}^{0}(-s)^{-\alpha}\,d\mu_m(s)<\infty,
+\tag{TFE.1146}
+\]
+
+then
+
+\[
+\lim_{\theta\downarrow0}\limsup_m\mu_m((-\theta,0])=0,
+\tag{TFE.1147}
+\]
+
+and the terminal positive endpoint jump is excluded.  `(TFE.1146)' kills
+exactly the pulse in `(TFE.1144)'.
+
+For the smooth full-packet trace, the temporal-tower reduction identifies the
+smaller same-carrier product estimate.  With
+
+\[
+H_m(s)
+=
+\int
+\left(
+{1\over2}|V_m|^2V_m\cdot\nabla(\eta_m^2)
++Q_mV_m\cdot\nabla(\eta_m^2)
+\right)dy
++R_m^{trace/legal}(s),
+\tag{TFE.1148}
+\]
+
+one needs
+
+\[
+\int_{-1}^{0}\!\!\int_{\operatorname{collar}(\eta_m)}
+\left(
+|V_m|^2|\partial_sV_m|
++|\partial_sQ_m||V_m|
++|Q_m||\partial_sV_m|
+\right)dyds
++\operatorname{Var}_sR_m^{trace/legal}
+\le
+C(D_S^{rad}+D_Q^w+D_G+R_{\rm legal}).
+\tag{TFE.1149}
+\]
+
+Then \(H_m\) has bounded variation in terminal time, so
+
+\[
+[H_m]_+\in BV_s(-1,0)
+\hookrightarrow W_s^{\beta,1}(-1,0)
+\hookrightarrow L_s^p(-1,0)
+\quad(p>1),
+\tag{TFE.1150}
+\]
+
+and Hölder gives a Hardy moment for the smooth terminal trace.  The installed
+mixed tower has the right formal time rungs, but it does not yet prove
+`(TFE.1149)' on the retained endpoint carrier.
+
+The other endpoint measures need the same kind of terminal thickness:
+
+\[
+\Lambda_j\in
+\{\Lambda_{\rm legal},\Lambda_{\rm term},\Lambda_{\rm sgn},
+\Lambda_{\rm sel},\Lambda_{\rm geom}\}
+\tag{TFE.1151}
+\]
+
+must be absolutely continuous with an \(L_s^p\), \(p>1\), density on the
+retained terminal family, or must carry an explicit Hardy moment.  Finite
+legal, terminal, signed, selector, and geometry routing is a consumer and
+classifier; it is not this weighted producer.
+
+There is an equivalent full-packet compactness/rigidity form.  The lossless
+Hodge-Stokes rigidity half is installed:
+
+\[
+\text{lossless full Hodge-Stokes packet}
+\Longrightarrow
+A_{\rm sel}=0.
+\tag{TFE.1152}
+\]
+
+The missing production half is either the no-residue inequality
+
+\[
+\left[\mathcal C_\sigma^{full}\right]_{\mathcal S,+}
+\le
+\varepsilon\nu D_\sigma-\partial_\sigma\Phi_\sigma
++T_\sigma+R_{\rm legal}(\sigma),
+\qquad
+\inf_\sigma\Phi_\sigma>-\infty,
+\tag{TFE.1153}
+\]
+
+or the compactness equivalent
+
+\[
+\text{positive selected terminal readout}
++\text{vanishing full-cycle payment}
+\Longrightarrow
+\text{strong same-carrier lossless full-packet limit}.
+\tag{TFE.1154}
+\]
+
+Physically, tooth C is the final version of the same pressure-heat-viscous
+handoff.  At the terminal end the pressure-compatible packet cannot be allowed
+to remain as an infinitely thin final compatibility residue after the velocity
+readout has been drained.  It must either have terminal time thickness and be
+seen by Hardy/\(L_s^p\)/BV control, or it must be a no-residue full-packet
+limit killed by lossless Hodge-Stokes rigidity, or it must land as a typed
+endpoint exit rather than Gold closure.
+
+Thus tooth C has the exact status
+
+\[
+\boxed{
+\begin{gathered}
+\text{Hardy/no-jump and lossless rigidity consumers are installed;}\\
+\text{FirstTimeRungEndpointProductControl.A is not installed;}\\
+\text{WeightedLegalSelectorSignedGeometryEndpointPolicy.A is not installed;}\\
+\text{TerminalFullPacketNoResiduePayment.A is not installed.}
+\end{gathered}
+}
+\tag{TFE.1155}
+\]
+
+## 101. Complete physical missing package for the \(L^1\) problem
+
+The physical object is now pinned down.  The \(L^1\) quantity is not energy and
+not pressure alone.  It is the total positive selected active state-count of
+the same coupled pressure-viscosity-incompressibility-velocity packet before
+child positive clipping.  Pressure re-coordinates compatibility instantly,
+heat/viscosity makes delayed velocity/strain readouts, the material frame is
+updated, and the next pressure compatibility problem is solved in that updated
+frame.  The loop can close only when that feedback deletes active future states
+faster than selected positive child readouts can recount them.
+
+Formally, the desired active entropy deletion inequality is
+
+\[
+d\mathcal H_P
++c\,d\Omega_P^{sel,+}
+\le
+dR_P^{paid}+dStop_P,
+\qquad
+\mathcal H_P\ge -C_N(u_0).
+\tag{TFE.1156}
+\]
+
+The deterministic telescope from `(TFE.1156)' to terminal-uniform \(L^1\) is a
+consumer.  The producer needed from the original coupled packet is exactly the
+three-tooth package:
+
+\[
+\boxed{
+\begin{aligned}
+\text{(A)}\;&
+\text{RootDefectTightnessFromOriginalHistory.A}
++\text{StoppedFullExchangeActionCarleson.A},\\
+\text{(B)}\;&
+\text{CriticalFreshSourceTentCarleson.A}
+\simeq
+\text{NativeBirthChargePacking.A}
+\simeq
+\text{PositiveCriticalTransferBound.A},\\
+\text{(C)}\;&
+\text{FirstTimeRungEndpointProductControl.A}
++\text{WeightedLegalSelectorSignedGeometryEndpointPolicy.A}\\
+&\quad
+\text{or TerminalFullPacketNoResiduePayment.A.}
+\end{aligned}
+}
+\tag{TFE.1157}
+\]
+
+In the physical story, `(TFE.1157)' says:
+
+\[
+\boxed{
+\begin{gathered}
+\text{the selected meter is parent-known before clipping;}\\
+\text{each first selected birth spends one selected-scale original state;}\\
+\text{the final terminal trace has time thickness or no-residue.}
+\end{gathered}
+}
+\tag{TFE.1158}
+\]
+
+Those are not three different fluid laws.  They are three boundary tests for
+one participation loop: the meter cannot move after the pulse, the first birth
+cannot be counted without a selected-size parent reserve, and the last trace
+cannot collapse into a zero-thickness terminal atom.
+
+Current closure status:
+
+\[
+\boxed{
+\text{Gold \(L^1\) is not closed until `(TFE.1157)' is proved from original smooth coupled data.}
+}
+\tag{TFE.1159}
+\]
+
+## 102. Tooth B pressure test: critical capacity frame and positive-flux reserve
+
+The deeper tooth-B audit shows that the selected-critical birth theorem is not
+blocked at zero-current compactness.  The local first-birth admission already
+says a retained selected unit has a same-packet endpoint/current seed.  The
+surviving bad profile has nonzero current energy; the missing theorem is that
+this current energy is bounded by a parent-known critical capacity with a
+one-sided depletion margin.
+
+For a stopped parent packet \(P\), write the critical material capacity of an
+endpoint seed \(M\) as
+
+\[
+\|M\|_{\operatorname{Cap}_{crit,P}^{-1}}^2
+:=
+\inf_{D_AJ=M+paid}
+\int_{\operatorname{Hist}(P)}|J|^2\,d\mathcal R_{crit}
++Paid(P).
+\tag{TFE.1160}
+\]
+
+The capacity frame would close the fresh-birth side if it supplied both lower
+admission
+
+\[
+\omega_\gamma
+\le
+C_N\|M_\gamma\|_{\operatorname{Cap}_{crit,P}^{-1}}^2
++Paid(\gamma),
+\tag{TFE.1161}
+\]
+
+and upper packing
+
+\[
+\sum_{\gamma\subset P}
+\|M_\gamma^{fresh}\|_{\operatorname{Cap}_{crit,P}^{-1}}^2
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1162}
+\]
+
+The same statement in dual testing form is: choose parent-known critical tests
+\(\varphi_\gamma\) before descendant positive readout so that
+
+\[
+\omega_\gamma
+\lesssim
+|\langle M_\gamma,\varphi_\gamma\rangle|^2+Paid(\gamma),
+\qquad
+\|\varphi_\gamma\|_{\operatorname{Cap}_{crit,P}}\le C_N,
+\tag{TFE.1163}
+\]
+
+and
+
+\[
+\sum_{\gamma\subset P}
+|\langle D_AJ,\varphi_\gamma\rangle|^2
+\le
+C_N\int_{\operatorname{Hist}(P)}|J|^2\,d\mathcal R_{crit}
++Paid(P).
+\tag{TFE.1164}
+\]
+
+The upper frame is available after the tests are genuinely parent-known.  With
+\(\psi_\gamma=D_A^*\varphi_\gamma\), split
+
+\[
+\psi_\gamma
+=
+\Pi_{E_{\gamma^-}}\psi_\gamma
++(I-\Pi_{E_{\gamma^-}})\psi_\gamma
+=b_\gamma+f_\gamma.
+\tag{TFE.1165}
+\]
+
+Exact inherited pieces \(b_\gamma\) are parent current, return, reset, or
+selector/collar motion.  For the fresh residuals \(f_\gamma\), parent-known QR
+gives
+
+\[
+\sum_{\gamma\subset P}
+|\langle J,f_\gamma\rangle|^2
+\le
+C_N\int_{\operatorname{Hist}(P)}|J|^2\,d\mathcal R_{crit}
++Paid(P).
+\tag{TFE.1166}
+\]
+
+Thus the capacity-frame audit proves an important reduction: the hard part is
+not Bessel once the critical tests are legal.  The hard part is producing the
+critical metric and the lower admission from the original coupled packet
+without choosing the metric from the future selected tail.
+
+For scale-native births, this critical metric is the native fractional reserve
+
+\[
+\mathfrak R_{nat}(T)
+\simeq
+\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt.
+\tag{TFE.1167}
+\]
+
+The original coupled critical identity is signed:
+
+\[
+{1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
++\nu\|\Lambda^{3/2}u\|_2^2
+=
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle .
+\tag{TFE.1168}
+\]
+
+The missing line is the one-sided positive transfer/depletion estimate
+
+\[
+\int_0^T
+\left(
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C(u_0)
++\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid,
+\qquad
+\theta<1 .
+\tag{TFE.1169}
+\]
+
+Equivalently, in full-output dyadic flux form,
+
+\[
+\int_0^T\sum_j2^j[\Pi_j(t)]_+\,dt
+\le
+C(u_0)
++\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid.
+\tag{TFE.1170}
+\]
+
+The compactness route does not remove `(TFE.1169)'--`(TFE.1170)'.  Failure of
+the endpoint/current absorption can normalize to
+
+\[
+\sum_\gamma\int H_\gamma\|M_\gamma\|_2^2=1,
+\qquad
+\sum_\gamma\int |J_\gamma|^2\,d\mathcal R_\gamma\simeq1,
+\tag{TFE.1171}
+\]
+
+with lower-order paid terms vanishing.  This is not a zero-current profile, so
+the installed zero-cost rigidity has no contradiction to apply.  It is a
+nonzero same-material current with no available original-data reserve left to
+spend.
+
+The noncircular reserve form is therefore a Bellman/depletion law: construct
+\(B(Q)\ge0\), before descendant selected-tail readout, such that
+
+\[
+\sum_{Q'\in ch(Q)}A_+(Q')
++\sum_{Q'\in ch(Q)}B(Q')
+\le
+B(Q)+Paid(Q),
+\tag{TFE.1172}
+\]
+
+and
+
+\[
+B(Q_{root})
+\le
+C_N(u_0)+Paid(Q_{root}).
+\tag{TFE.1173}
+\]
+
+The illegal storage is the descendant tail
+
+\[
+B_\ast(Q)=\sum_{R\subsetneq Q}A_+(R)+Paid(R),
+\tag{TFE.1174}
+\]
+
+because root finiteness of \(B_\ast\) is exactly the \(L^1\) theorem.
+
+The donor/signed-saturation route pays finite same-fluid donor graphs, but its
+unpaid branch is an infinite terminal Zeno donor chain.  The angular-mixing
+route pays one material ancestry line by complete-frame deformation, but the
+selected-forest lift is exactly the weight-beating tail law
+
+\[
+\sum_{\ell\ge0}\nu_\ell<\infty
+\quad\Longrightarrow\quad
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty,
+\tag{TFE.1175}
+\]
+
+which is false without extra structure.  The strict form needed is a
+good-lambda inequality
+
+\[
+N_{L+1}\le\theta N_L+B_L,
+\qquad
+\theta<{1\over2},
+\qquad
+\sum_{L\ge0}2^LB_L<\infty,
+\tag{TFE.1176}
+\]
+
+or the bounded-below same-material storage
+
+\[
+d\mathscr A_N+c_Nd\Omega_N^{full}\le dR_N^{legal},
+\qquad
+\mathscr A_N\ge-C_N(u_0),
+\qquad
+\int dR_N^{legal}<\infty,
+\tag{TFE.1177}
+\]
+
+or a terminal affine half-tail rigidity theorem excluding original transported
+smooth histories with finite raw heat/collar/pressure ledgers and divergent
+positive selected complete-frame defect.
+
+The reversible affine-cycle pressure test explains why endpoint state storage
+is too weak.  A local incompressible affine strain can stretch one direction,
+then reverse and return the endpoint Cauchy-Green state, while the positive
+selected variation has already accumulated.  The unproved line is root-finite
+positive metric variation:
+
+\[
+\operatorname{Var}_+
+(\log C\text{ on selected complete-frame directions})
+\le
+C_N(u_0)+Paid.
+\tag{TFE.1178}
+\]
+
+Physical conclusion for tooth B:
+
+\[
+\boxed{
+\begin{gathered}
+\text{local first-birth admission is installed;}\\
+\text{upper Bessel/QR packing is a consumer once critical tests are parent-known;}\\
+\text{the missing producer is a noncircular positive-flux reserve/depletion law,}\\
+\text{equivalently strict half-tail exclusion or root-finite positive metric variation.}
+\end{gathered}
+}
+\tag{TFE.1179}
+\]
+
+This sharpens the B-clause in `(TFE.1157)' but does not close it.  Gold \(L^1\)
+still needs `(TFE.1169)'--`(TFE.1173)' or one of the equivalent strict
+half-tail exclusion forms from the original coupled
+pressure-viscosity-incompressibility-velocity packet.
