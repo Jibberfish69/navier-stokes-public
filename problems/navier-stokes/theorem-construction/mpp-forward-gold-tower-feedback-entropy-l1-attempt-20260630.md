@@ -35854,3 +35854,520 @@ actual work.  The remaining full-exchange compactness source is the same
 coupled pressure-viscosity-incompressibility-velocity packet supplying a
 parent-known selected-critical metric, endpoint thickness/no-residue, and then
 the strict zero-cost margin in `(TFE.2439)'.
+
+## 212. Exact scale integral custody: dyadic shells are coordinates, not units
+
+The correction from Sections 198 and 204 must be carried into the newest
+full-exchange compactness language.  The physical packet does not generate one
+new countable unit each time a child zoom renormalizes its own radius to one.
+The parent packet carries one continuous scale/transition space, and the
+selected \(L^1\) quantity is the integral of the selected readout against that
+parent-pulled measure.
+
+For any of the critical, transition, or endpoint faces, write the exact parent
+scale space as \(\mathfrak S_P\), the parent-pulled measure as \(d\mathfrak m_P\),
+and the selected positive readout density as \(R_P^+\).  The object is
+
+\[
+A_P^{sel,+}
+=
+\int_{\mathfrak S_P}R_P^+\,d\mathfrak m_P .
+\tag{TFE.2459}
+\]
+
+Equivalently, with the parent-measured distribution tail
+
+\[
+N_P(\lambda)
+:=
+\mathfrak m_P(\{R_P^+>\lambda\}),
+\tag{TFE.2460}
+\]
+
+one has the exact layer-cake identity
+
+\[
+A_P^{sel,+}
+=
+\int_0^\infty N_P(\lambda)\,d\lambda .
+\tag{TFE.2461}
+\]
+
+A dyadic shell is only a quadrature of `(TFE.2461)'.  If
+
+\[
+E_\ell(P)=\{2^\ell\delta<R_P^+\le2^{\ell+1}\delta\},
+\qquad
+\nu_\ell(P)=\mathfrak m_P(E_\ell(P)),
+\tag{TFE.2462}
+\]
+
+then finite-overlap layer-cake gives
+
+\[
+\int R_P^+\,d\mathfrak m_P
+\simeq
+\sum_{\ell\ge0}2^\ell\delta\,\nu_\ell(P).
+\tag{TFE.2463}
+\]
+
+The factor \(\delta\,\nu_\ell(P)\) is not optional.  It is the original parent
+scale width and parent measure of that shell.  Replacing `(TFE.2463)' by a raw
+sum of child-normalized unit readouts changes the mathematical object:
+
+\[
+\sum_{\ell}2^\ell
+\quad\text{or}\quad
+\sum_{Q}R_Q^{child}
+\tag{TFE.2464}
+\]
+
+is not an \(L^1\) integral unless each term has already been pulled back with
+its parent measure/Jacobian/heat-thickness weight.  Child normalization may set
+the inspected child radius to one inside that chart; it does not make every
+chart a new physical unit of mass.
+
+Thus any stopped tree, dyadic annulus, or child selection \(\mathfrak P\) is
+lawful only in the form
+
+\[
+\int_{\mathfrak S_P}R_P^+\,d\mathfrak m_P
+\simeq
+\sum_{Q\in\mathfrak P}
+\int_{\mathfrak S_P(Q)}R_P^+\,d\mathfrak m_P,
+\tag{TFE.2465}
+\]
+
+with bounded parent overlap.  The shorthand
+
+\[
+\sum_{Q\subset P}\rho_Q^{fresh}
+\tag{TFE.2466}
+\]
+
+therefore means
+
+\[
+\rho_Q^{fresh}
+:=
+\int_{\mathfrak S_P(Q)}
+R_P^{crit,+}\,d\mathfrak m_P^{crit},
+\qquad
+\sum_Q\mathbf 1_{\mathfrak S_P(Q)}\le C_N,
+\tag{TFE.2467}
+\]
+
+not a count of zoom-normalized critical children.  With this convention,
+`(TFE.2452)' is only a finite-overlap discretization of the authoritative
+continuous statement `(TFE.2453)'.
+
+The same correction applies to endpoint seed and reset current language.  A
+quantity such as
+
+\[
+\sum_{\gamma\subset P}\int |J_\gamma|^2\,d\mathcal R_\gamma
+\tag{TFE.2468}
+\]
+
+is admissible only when \(d\mathcal R_\gamma\) is the restriction or lawful
+disintegration of the original parent route/current measure.  It is not a
+separate sum of endpoint child accounts after each endpoint chart has declared
+itself unit-sized.
+
+Therefore the exact downstream reading of `(TFE.2458)' is:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{Gold \(L^1\) is an exact parent-scale integral problem;}\\
+\text{dyadic shells are allowed only as finite-overlap quadrature;}\\
+\text{the remaining theorem is construction of \(d\mathfrak m_P\), \(R_P\),}\\
+\text{and the strict parent-tail/storage inequality from the original coupled packet.}
+\end{array}}
+\tag{TFE.2469}
+\]
+
+This removes a fake source of divergence.  A proof may still use dyadic
+notation for localization, but the theorem cannot count the same original
+packet repeatedly by moving the unit under rescaling.  After this correction,
+the unsolved \(L^1\) content is precisely the strict parent-measured tail law
+
+\[
+N_P(2\lambda)
+\le
+\theta N_P(\lambda)+B_P(\lambda),
+\qquad
+\theta<\frac12,
+\qquad
+\int_0^\infty B_P(\lambda)\,d\lambda
+\le C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2470}
+\]
+
+or the equivalent bounded-below full-exchange storage inequality in the same
+parent measure.  This is not a dyadic counting problem; it is the exact
+one-packet pressure-heat-viscous unfolding measured before child clipping.
+
+## 213. Exact deterministic closure: parent thickness plus active entropy
+
+The previous section should not accidentally make the strict good-\(\lambda\)
+recurrence look like the only possible continuum proof.  The invariant object
+is the parent-scale integral `(TFE.2459)'.  A good-\(\lambda\) recurrence such
+as `(TFE.2470)' is one sufficient tail form.  The exact continuum form is the
+parent active thickness plus parent active entropy theorem already isolated in
+Sections 40 and 174.
+
+Let
+
+\[
+dA_{P,\tau}^{sel,+}
+=
+R_{P,\tau}^+\,d\mathfrak m_{P,\tau}
+\tag{TFE.2471}
+\]
+
+be the exact selected readout of one stopped parent packet at terminal cut
+\(\tau<T_*\), before any child positive clipping is allowed to become a
+separate account.  Suppose the original coupled packet supplies the two
+terminal-uniform parent quantities
+
+\[
+\sup_{\tau<T_*}
+\mathfrak m_{P,\tau}(\mathfrak S_{P,\tau})
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2472}
+\]
+
+and
+
+\[
+\sup_{\tau<T_*}
+\int_{\mathfrak S_{P,\tau}}
+\Phi(R_{P,\tau}^+)\,d\mathfrak m_{P,\tau}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\qquad
+\Phi(r)=r\log(e+r).
+\tag{TFE.2473}
+\]
+
+Then the selected \(L^1\) line follows directly.  Indeed,
+
+\[
+r
+\le
+e+\Phi(r)
+\qquad(r\ge0),
+\tag{TFE.2474}
+\]
+
+so
+
+\[
+\begin{aligned}
+\sup_{\tau<T_*}
+\int_{\mathfrak S_{P,\tau}}
+R_{P,\tau}^+\,d\mathfrak m_{P,\tau}
+&\le
+e\,\sup_{\tau<T_*}\mathfrak m_{P,\tau}(\mathfrak S_{P,\tau})\\
+&\quad+
+\sup_{\tau<T_*}
+\int_{\mathfrak S_{P,\tau}}
+\Phi(R_{P,\tau}^+)\,d\mathfrak m_{P,\tau}\\
+&\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\end{aligned}
+\tag{TFE.2475}
+\]
+
+This proves the deterministic continuum closure:
+
+\[
+\boxed{
+\text{parent active thickness `(TFE.2472)'}
++
+\text{parent active entropy `(TFE.2473)'}
+\Longrightarrow
+\text{terminal-uniform selected \(L^1\).}
+}
+\tag{TFE.2476}
+\]
+
+In distribution-tail language, `(TFE.2473)' says more than finite raw mass.  It
+gives the weighted tail identity
+
+\[
+\int_{\mathfrak S_P}\Phi(R_P^+)\,d\mathfrak m_P
+\simeq
+\int_0^\infty
+\log(e+\lambda)\,N_P(\lambda)\,d\lambda
+\tag{TFE.2477}
+\]
+
+up to the harmless low-\(\lambda\) thickness term.  The half-tail
+\(\nu_\ell=2^{-\ell}/(\ell+1)\) fails exactly here:
+
+\[
+\sum_\ell \nu_\ell<\infty,
+\qquad
+\sum_\ell 2^\ell\nu_\ell=\infty,
+\qquad
+\sum_\ell \ell\,2^\ell\nu_\ell=\infty.
+\tag{TFE.2478}
+\]
+
+Thus the entropy condition kills the same half-tail that the strict
+good-\(\lambda\) recurrence kills, but it does so through the exact continuous
+integral rather than through a shell recurrence.  The two lawful continuum
+consumer routes are therefore
+
+\[
+\begin{array}{ccc}
+\text{strict parent-tail contraction `(TFE.2470)'}&\Longrightarrow&
+\int R_P^+\,d\mathfrak m_P<\infty,\\[1mm]
+\text{parent thickness + active entropy `(TFE.2472)'--`(TFE.2473)'}&\Longrightarrow&
+\int R_P^+\,d\mathfrak m_P<\infty.
+\end{array}
+\tag{TFE.2479}
+\]
+
+Neither route is allowed to define \(\mathfrak m_P\) from a future selected
+tail.  The parent measure and density must be constructed from the same
+original pressure-Hodge, viscous/Stokes, self-advection, incompressibility,
+collar, frame, selector, return, legal, and stop record before child clipping.
+
+A reverse-Holder version is equivalent for this purpose.  If for some
+\(\varepsilon>0\)
+
+\[
+\sup_{\tau<T_*}
+\int_{\mathfrak S_{P,\tau}}
+(R_{P,\tau}^+)^{1+\varepsilon}\,d\mathfrak m_{P,\tau}
+\le
+C_{\varepsilon,N}(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2480}
+\]
+
+and `(TFE.2472)' holds, then Holder gives
+
+\[
+\int R_{P,\tau}^+\,d\mathfrak m_{P,\tau}
+\le
+\left(
+\int (R_{P,\tau}^+)^{1+\varepsilon}\,d\mathfrak m_{P,\tau}
+\right)^{1/(1+\varepsilon)}
+\mathfrak m_{P,\tau}(\mathfrak S_{P,\tau})^{\varepsilon/(1+\varepsilon)},
+\tag{TFE.2481}
+\]
+
+and again terminal-uniform selected \(L^1\) follows.
+
+So the algebraic \(L^1\) part is now closed in exact continuum form.  The
+remaining PDE producer is the construction of `(TFE.2472)' plus either
+`(TFE.2473)' or `(TFE.2480)' from the original coupled packet.  In the older
+storage language this is exactly the no-self-feeding full-exchange storage
+wall:
+
+\[
+\texttt{FullExchangeCriticalDepletionStorage.A}
+\Longrightarrow
+\text{`(TFE.2472)' + `(TFE.2473)' or `(TFE.2480)'}
+\Longrightarrow
+\text{terminal-uniform selected \(L^1\).}
+\tag{TFE.2482}
+\]
+
+The implication from full-exchange storage to parent thickness/entropy is the
+actual theorem still to prove.  It has the concrete form
+
+\[
+d\mathfrak m_P
++
+d\!\left[\Phi(R_P^+)\mathfrak m_P\right]
+\le
+-d\mathcal M_P
++d\Theta_P^0
++\theta\,d\Omega_P^{gen}
++dR_{\rm legal,P}
++dStop_P,
+\qquad
+\theta<1,
+\tag{TFE.2483}
+\]
+
+with \(\mathcal M_P\) bounded below and \(\Theta_P^0\) finite from original
+data.  Absorbing the \(\theta d\Omega_P^{gen}\) term through the same native
+viscous/critical reserve gives `(TFE.2472)'--`(TFE.2473)'.  Without
+`(TFE.2483)', saying "entropy decreases" is only a physical picture; with
+`(TFE.2483)', the picture is an \(L^1\) proof.
+
+Thus the current exact close line is:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{construct the parent active measure and selected density before clipping;}\\
+\text{prove the no-self-feeding active entropy/thickness inequality `(TFE.2483)';}\\
+\text{apply `(TFE.2475)' or `(TFE.2481)' to get terminal-uniform selected \(L^1\).}
+\end{array}}
+\tag{TFE.2484}
+\]
+
+This section closes the deterministic continuum \(L^1\) counting problem.  It
+does not prove the arbitrary-data Navier--Stokes source theorem `(TFE.2483)'.
+The hard mathematical content left is the same coupled original-data producer
+already named by `StrictOriginalLedgerGeneratorStorage.A' /
+`SelectedGeneratorStorageCoercivity.A' /
+`MaterialAdjointAccretiveTestingData.A', now written in the exact
+parent-scale entropy variables.
+
+## 214. Source-theorem collapse: TFE2483 is the entropy coordinate of full-exchange storage
+
+The inequality `(TFE.2483)' must not become another theorem name floating beside
+`(TFE.2426)'.  It is the exact parent-entropy coordinate of the same
+no-self-feeding full-exchange storage, provided the active measure and selected
+density are constructed from the original ledger before clipping.
+
+The bridge has three clauses.  First, the parent active thickness and entropy
+must be read by the generator clock:
+
+\[
+d\mathfrak m_P
++
+d\!\left[\Phi(R_P^+)\mathfrak m_P\right]
+\le
+C_N\,d\Omega_P^{gen}
++dR_{\rm legal,P}
++dStop_P .
+\tag{TFE.2485}
+\]
+
+Second, the selected generator clock must be read from the full-exchange
+critical ledger:
+
+\[
+d\Omega_P^{gen}
+\le
+C_N\,d\Xi_P^{FE}
++dR_{\rm legal,P}
++dStop_P .
+\tag{TFE.2486}
+\]
+
+This is `(TFE.2421)' in entropy variables.  It says the child meter is a
+bounded before-clipping readout of the parent carrier.  Third, the
+full-exchange ledger has the no-self-feeding depletion storage:
+
+\[
+d\Xi_P^{FE}
+\le
+-dM_P
++d\Theta_P^0
++\vartheta\,d\Omega_P^{gen}
++dR_{\rm legal,P}
++dStop_P,
+\qquad
+C_N\vartheta<1,
+\tag{TFE.2487}
+\]
+
+with
+
+\[
+0\le M_P\le C_N(u_0)\mathcal R(P)+Paid(P),
+\qquad
+\int d\Theta_P^0\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2488}
+\]
+
+Combining `(TFE.2485)'--`(TFE.2487)' gives
+
+\[
+d\mathfrak m_P
++
+d\!\left[\Phi(R_P^+)\mathfrak m_P\right]
+\le
+-C_NdM_P
++C_Nd\Theta_P^0
++C_N\vartheta\,d\Omega_P^{gen}
++dR_{\rm legal,P}
++dStop_P .
+\tag{TFE.2489}
+\]
+
+Absorb \(C_N\vartheta d\Omega_P^{gen}\) by the first line of `(TFE.2426)' and
+then by `(TFE.2428)'.  Integrating up to \(\tau<T_*\) yields
+
+\[
+\sup_{\tau<T_*}
+\left[
+\mathfrak m_{P,\tau}(\mathfrak S_{P,\tau})
++
+\int_{\mathfrak S_{P,\tau}}\Phi(R_{P,\tau}^+)\,d\mathfrak m_{P,\tau}
+\right]
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2490}
+\]
+
+Thus
+
+\[
+\boxed{
+\texttt{FullExchangeCriticalDepletionStorage.A}
++
+\texttt{BeforeClippingActiveDensityComparison.A}
+\Longrightarrow
+\text{`(TFE.2472)'--`(TFE.2473)'}
+\Longrightarrow
+\text{terminal-uniform selected \(L^1\).}
+}
+\tag{TFE.2491}
+\]
+
+The new name in `(TFE.2491)' is not an additional physical supplier.  It is the
+coordinate-change clause `(TFE.2485)': prove that the entropy density
+\(R_P^+\) and the parent measure \(d\mathfrak m_P\) are built from the same
+root generator \(\mathcal G_P^{root}\), routed current \(J_P^S\), pressure-Hodge
+frame, viscous/Stokes descent, self-advection, collar/frame/selector motion,
+return, legal, and stop record that already define \(d\Xi_P^{FE}\).  If that
+comparison is not proved before clipping, then `(TFE.2483)' is only a renamed
+future selected tail.
+
+Conversely, a proof of `(TFE.2483)' from arbitrary original data gives the
+integrated thickness/entropy bound `(TFE.2490)' and hence terminal-uniform
+selected \(L^1\) by Section 213, but it does not automatically reconstruct
+every component of \(d\Xi_P^{FE}\).  So the clean logical relation is not a
+two-way identity of labels.  It is this:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{full-exchange storage + before-clipping active-density comparison}\\
+\text{is a noncircular sufficient source theorem for TFE2483;}\\
+\text{TFE2483 is the exact entropy-coordinate target consumed by the \(L^1\) proof.}
+\end{array}}
+\tag{TFE.2492}
+\]
+
+This removes one more duplicated wall.  The route now has no independent
+"entropy source" beside the coupled participation packet.  What remains to be
+proved from arbitrary smooth data is the same original-data statement in its
+sharpest form:
+
+\[
+\boxed{
+\begin{gathered}
+\text{construct the before-clipping active density comparison `(TFE.2485)',}\\
+\text{construct the full-exchange depletion storage `(TFE.2487)' with strict margin,}\\
+\text{then integrate to obtain parent thickness/entropy and terminal-uniform \(L^1\).}
+\end{gathered}}
+\tag{TFE.2493}
+\]
+
+Physically, this says the pressure-heat-viscous packet may re-coordinate and
+delay readouts, but the active density that measures those readouts must be
+made out of the same full-exchange ledger before any child can clip positive
+action.  Once that same ledger has a bounded-below no-self-feeding storage, the
+exact \(L^1\) integral is finite by Section 213.
