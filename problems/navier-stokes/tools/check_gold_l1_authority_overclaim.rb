@@ -45,6 +45,10 @@ REQUIRED_CURRENT_AUTHORITY = %w[
   problems/navier-stokes/submission-bundle/submission-export-status.yaml
 ].freeze
 
+THEOREM_CONSTRUCTION_OVERCLAIM_PATHS = %w[
+  problems/navier-stokes/theorem-construction/mcp-final-theorem-statement-periodic-global-smoothness.md
+].freeze
+
 FORBIDDEN_ACTIVE_CLAIMS = {
   "installed full-MPP closure" => /full-mpp-closure-math-installed/i,
   "unconditional Clay claim" => /unconditional_clay_claim_supported:\s*true/i,
@@ -78,6 +82,45 @@ FORBIDDEN_ACTIVE_CLAIMS = {
   "direct live clearance" => /superseded-by-direct-live-clearance|Direct live authority reports no open theorem frontier/i
 }.freeze
 
+FORBIDDEN_THEOREM_CONSTRUCTION_CLAIMS = {
+  "closed theorem statement surface" => /closed theorem[- ]statement surface/i,
+  "unconditional final theorem title" => /^#\s+Final Theorem Statement:/i,
+  "unconditional periodic global smoothness theorem" => /Then the incompressible Navier-Stokes system.*has a unique global smooth solution/i,
+  "original data implies endpoint absence without TFE2748B" => /OriginalSmoothData\\Longrightarrow\\text\{absence of finite classical endpoint\}/i
+}.freeze
+
+CONSUMER_OR_DETECTOR_PHRASES = /
+  active\s+entropy\s+deletion|
+  entropy\s+deletion|
+  parent[-\s]predictab(?:le|ility)(?:\s+(?:detector|weight|gate))?|
+  detector|
+  no[-\s]recount|
+  duhamel[-\s]hodge(?:\s+(?:pullback|line|retained[-\s]operator))?|
+  routed[-\s]current\s+carleson|
+  selector[-\s]carrier\s+nondegeneracy|
+  bmo\/reverse[-\s]holder
+/ix.freeze
+
+SOURCE_PRODUCER_PROMOTION = /
+  (?:
+    (?:#{CONSUMER_OR_DETECTOR_PHRASES})
+    (?![^\n.;,]*\bonly\b[^\n.;,]*(?:producer|source|supply|theorem|proof))
+    [^\n.;,]*
+    (?:
+      (?:supplies|proves|closes|discharges|installs)
+      |
+      (?:is|are|becomes|serves\s+as)\s+(?:the\s+)?(?:installed\s+|completed\s+)?
+    )
+    [^\n.;,]*
+    (?:producer|source\s+producer|pde\s+producer|source\s+proof|source\s+theorem|gold\s+l1\s+source|arbitrary[-\s]data\s+supply)
+  )
+/ix.freeze
+
+FORBIDDEN_SOURCE_PRODUCER_PROMOTIONS = {
+  "Gold L1 consumer/detector promoted to source producer" => SOURCE_PRODUCER_PROMOTION,
+  "parent-known density asserted from original data" => /parent[-\s]known\s+density\s+(?:exists|is\s+constructed|is\s+proved|is\s+supplied)\s+from\s+original\s+data/i
+}.freeze
+
 REQUIRED_MARKERS = [
   "TFE2748B",
   "OriginalCriticalCapacityVariation.A"
@@ -104,6 +147,30 @@ def scan_file(path)
       preview = line.gsub(/\s+/, " ").strip
       violations << "#{relative(path)}:#{line_no}: #{label}: #{preview}"
     end
+    FORBIDDEN_SOURCE_PRODUCER_PROMOTIONS.each do |label, pattern|
+      next unless line.match?(pattern)
+
+      preview = line.gsub(/\s+/, " ").strip
+      violations << "#{relative(path)}:#{line_no}: #{label}: #{preview}"
+    end
+  end
+  violations
+rescue ArgumentError
+  []
+end
+
+def scan_theorem_construction_overclaim(path)
+  violations = []
+  text = path.read
+  FORBIDDEN_THEOREM_CONSTRUCTION_CLAIMS.each do |label, pattern|
+    next unless text.match?(pattern)
+
+    line_no = text[0...text.match(pattern).begin(0)].count("\n") + 1
+    line = text.lines[line_no - 1].to_s.gsub(/\s+/, " ").strip
+    violations << "#{relative(path)}:#{line_no}: #{label}: #{line}"
+  end
+  unless text.include?("TFE2748B") && text.include?("OriginalCriticalCapacityVariation.A")
+    violations << "#{relative(path)}: missing conditional TFE2748B / OriginalCriticalCapacityVariation.A marker"
   end
   violations
 rescue ArgumentError
@@ -120,6 +187,16 @@ ACTIVE_PATHS.each do |relative_path|
   end
 
   violations.concat(scan_file(path))
+end
+
+THEOREM_CONSTRUCTION_OVERCLAIM_PATHS.each do |relative_path|
+  path = ROOT.join(relative_path)
+  unless path.file?
+    violations << "#{relative_path}: missing theorem-construction overclaim guard surface"
+    next
+  end
+
+  violations.concat(scan_theorem_construction_overclaim(path))
 end
 
 REQUIRED_CURRENT_AUTHORITY.each do |relative_path|
