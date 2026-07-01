@@ -780,3 +780,282 @@ construction `(TFE2748B.44)'--`(TFE2748B.45)' from the original coupled packet, 
 prove the compactness/tightness contradiction `(TFE2748B.46)'--`(TFE2748B.47)'.
 Either route supplies `(TFE2748B.41)', then `(TFE2748B.42)', then the
 terminal-uniform Gold \(L^1\) line.
+
+## 12. BV/coarea reduction to the root entropy producer
+
+The direct BV fork becomes noncircular only after the parent window is represented
+by a parent-announced score.  Write
+
+\[
+\mathfrak S_{P,\lambda}^{crit}(t)
+=
+\{z\in X_P:\ a_P(t,z)>\lambda\},
+\qquad
+\mathcal C_{P,\lambda}^{crit}(t)
+=
+\int_{X_P}\mathbf 1_{\{a_P(t,z)>\lambda\}}\,dR_P^{root}(z),
+\tag{TFE2748B.48}
+\]
+
+where \(X_P\), \(dR_P^{root}\), and \(a_P\) are fixed by the stopped original
+coupled packet before the child positive part is read.  The coarea/transport
+formula gives, modulo paid chart/collar/Hodge/selector motion,
+
+\[
+\bigl[d\mathcal C_{P,\lambda}^{crit}\bigr]_+
+\le
+\int_{\{a_P=\lambda\}}
+{(D_t^Pa_P)_+\over |\nabla_{R}a_P|}
+\,d\sigma_{R}
++d\Theta_P^0+dPaid_P .
+\tag{TFE2748B.49}
+\]
+
+Layer-cake with the critical selected weight \(w(\lambda)\) then yields
+
+\[
+\int_0^\infty
+w(\lambda)\bigl[d\mathcal C_{P,\lambda}^{crit}\bigr]_+\,d\lambda
+\le
+\int_{X_P}w(a_P)(D_t^Pa_P)_+\,dR_P^{root}
++d\Theta_P^0+dPaid_P .
+\tag{TFE2748B.50}
+\]
+
+Thus BV geometry itself is only the conversion from window motion to a parent
+score-variation integral.  The actual PDE input is the strict root variation
+bound
+
+\[
+\int_{X_P}w(a_P)(D_t^Pa_P)_+\,dR_P^{root}
+\le d\Theta_P^0+dPaid_P ,
+\tag{TFE2748B.51}
+\]
+
+or equivalently the root Carleson/BMO/log-amplification theorem that gives the
+selected-density entropy telescope.  This is the same producer isolated in the
+active-capacity and entropy-capacity surfaces: deterministic Bellman deletion
+starts after `(TFE2748B.51)' supplies the parent score with finite root
+variation.
+
+The circularity test is now exact.  If \(a_P\) is defined as the child-selected
+positive readout, then \(D_t^Pa_P\) is the source measure
+\(d\rho_{crit,P}^{ac}+d\rho_{crit,P}^{entry}\), and `(TFE2748B.50)' simply
+rewrites the \(L^1\) bill being proved.  If \(a_P\) is a parent carrier built
+from the full coupled packet, then `(TFE2748B.51)' is a genuine original-data
+PDE theorem: it must prove that positive active-window opening is root-recorded
+material motion, not a fresh child-created capacity.
+
+So the direct BV fork does not create a third wall.  It reduces
+`PreallocatedParentCriticalReserve.A' to:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{construct a parent-announced active score }a_P\text{ for the coupled packet,}\\
+\text{prove the weighted positive root-variation bound `(TFE2748B.51)',}\\
+\text{then use coarea/layer-cake `(TFE2748B.48)'--`(TFE2748B.50)' to obtain}
+\ (TFE2748B.41).
+\end{array}}
+\tag{TFE2748B.52}
+\]
+
+This matches the older entropy-capacity chain: root entropy/log-amplification
+production is the PDE supplier; good-lambda, reverse Holder, Bellman deletion,
+no-recount, and terminal no-jump are consumers after that supplier is installed.
+
+## 13. Stopped-tree form of the same supplier
+
+The differential score-variation line `(TFE2748B.51)' has a stopped-tree form.
+Let the selected full-packet density before descendant tail summation be
+
+\[
+dA_P^{sel}=f_P\,dR_P^{orig},
+\qquad
+a_Q=\log {f_Q\over f_{\operatorname{par}(Q)}} .
+\tag{TFE2748B.53}
+\]
+
+The parent active score is noncircular only if the log-ratio \(a_Q\) is carried
+by a stopped record of the original coupled packet:
+
+\[
+a_Q
+=
+\ell_Q(\Delta_QZ^S)-\psi_Q+e_Q,
+\tag{TFE2748B.54}
+\]
+
+where \(Z^S\) is the parent-known selected record of the full
+pressure-Hodge-strain-frame/full-output stress packet before positive clipping.
+The source theorem is the root Carleson/log-amplification bound
+
+\[
+\sup_{P'\subseteq P}
+{1\over R_P^{orig}(P')}
+\sum_{Q\subseteq P'}
+\left(\|\Delta_QZ^S\|_{\mathcal H}^2+|e_Q|^2\right)R_P^{orig}(Q)
+\le
+C_N(u_0)+{Paid(P')\over R_P^{orig}(P')}.
+\tag{TFE2748B.55}
+\]
+
+Once `(TFE2748B.55)' is proved, the deterministic entropy chain is already
+available.  With
+
+\[
+\mathcal H(P)
+=
+\int_P f_P\log {f_P\over (f_P)_P}\,dR_P^{orig},
+\tag{TFE2748B.56}
+\]
+
+the exact martingale chain rule gives
+
+\[
+\mathcal H(P)
+=
+\sum_{Q\in ch(P)}\mathcal H(Q)
++
+\sum_{Q\in ch(P)}
+f_QR_P^{orig}(Q)
+\log {f_Q\over f_P}.
+\tag{TFE2748B.57}
+\]
+
+Therefore the high-ratio selected part satisfies
+
+\[
+\sum_{\substack{Q\in ch(P)\\ f_Q\ge2f_P}}
+f_QR_P^{orig}(Q)
++
+{1\over\log2}\sum_{Q\in ch(P)}\mathcal H(Q)
+\le
+{1\over\log2}\mathcal H(P),
+\tag{TFE2748B.58}
+\]
+
+up to the already routed lower-ratio, reuse, return, reset, motion, legal, stop,
+and endpoint terms.  This is the stopped-tree version of
+`(TFE2748B.51)'--`(TFE2748B.52)': the positive selected count is finite because
+high-ratio child reads spend parent entropy.
+
+The remaining original-data work is now not a Bellman or coarea problem.  It is
+exactly:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{construct the full-packet stopped carrier }Z^S\text{ from the coupled NS
+packet,}\\
+\text{prove the log-amplification representation `(TFE2748B.54)',}\\
+\text{prove the root Carleson bound `(TFE2748B.55)' with paid selector/order-lock
+errors.}
+\end{array}}
+\tag{TFE2748B.59}
+\]
+
+This is equivalent, in stopped-tree language, to the parent active-score
+root-variation supplier `(TFE2748B.51)'.  Without `(TFE2748B.59)', a proposed
+capacity can still be the forbidden descendant-tail storage or a passive
+heat-square capacity defeated by the half-tail.
+
+## 14. Current-factorization pushdown of the stopped carrier theorem
+
+The stopped carrier theorem `(TFE2748B.59)' is not an abstract Hilbert/BMO
+problem once the selected source is kept as a same-material current.  On a
+stopped packet \(S\), the noncircular source form is
+
+\[
+\nu^S
+=
+D_AJ^S+\nu^S_{\rm stop}+\nu^S_{\rm legal},
+\tag{TFE2748B.60}
+\]
+
+where \(J^S\) is the routed participation current of the original coupled
+pressure-viscosity-incompressibility-velocity packet before scalar positive
+selection.  Its coordinates include the pressure-visible current,
+silent/exchange current, reset/order-lock current, collar/turnstile/covector
+current, and legal lower-order current.  The stopped pressure-Hodge lift is
+
+\[
+Z^S=T_S\nu^S,\qquad T_S=\nabla_A L_A^{-1}
+\tag{TFE2748B.61}
+\]
+
+or the equivalent stopped martingale/Hodge transform.  If `(TFE2748B.60)' is
+available, then
+
+\[
+T_S(D_AJ^S)=\Pi_{\nabla,A}J^S,
+\tag{TFE2748B.62}
+\]
+
+so the transform side is a bounded Hodge projection, up to cutoff collar,
+legal, and stop errors:
+
+\[
+\sum_{Q\subseteq P'}
+\|\Delta_QZ^S\|_{\mathcal H}^2 R_P^{orig}(Q)
+\le
+C\int_{\widehat P'}|J^S|^2\,dR_P^{orig}
+CStop(\widehat P')+CR_{\rm legal}(\widehat P').
+\tag{TFE2748B.63}
+\]
+
+Thus defining \(Z^S=T_S\nu^S\) is lawful only after the source has been routed
+as `(TFE2748B.60)'.  It does not by itself prove `(TFE2748B.55)'.  The remaining
+current theorem is
+
+\[
+\sup_{P'\subseteq P}
+{1\over R_P^{orig}(P')}
+\left[
+\int_{\widehat P'}|J^S|^2\,dR_P^{orig}
++Stop(\widehat P')+R_{\rm legal}(\widehat P')
+\right]
+\le C_N(u_0).
+\tag{TFE2748B.64}
+\]
+
+There is still a separate selected-readout condition.  The selected density
+must be a nondegenerate readout of that same carrier, or the readout failure
+must be paid by selector motion, order-lock gap, reselection, legal, or stop:
+
+\[
+\left|\log {f_Q\over f_{\operatorname{par}(Q)}}\right|
+\le
+C\|\Delta_QZ^S\|_{\mathcal H}
++e_Q^{sel}+e_Q^{ol}+e_Q^{legal},
+\tag{TFE2748B.65}
+\]
+
+with the \(e\)-terms Carleson-packed by paid material.  Combining
+`(TFE2748B.63)'--`(TFE2748B.65)' gives the root Carleson/log-amplification
+bound `(TFE2748B.55)'.
+
+The checked current-route surfaces therefore push `(TFE2748B.59)' one layer
+down to:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{route the selected source as the same-material divergence current
+`(TFE2748B.60)',}\\
+\text{prove stopped routed-current Carleson `(TFE2748B.64)' from original data,}\\
+\text{prove selector-carrier nondegeneracy or paid reselection `(TFE2748B.65)'.}
+\end{array}}
+\tag{TFE2748B.66}
+\]
+
+The nonduplicate hard part is `(TFE2748B.64)' in the selected critical metric.
+In the existing source language it is the same theorem as
+`StoppedSelectorPredictableWeight.A' /
+`OriginalHistoryParentPredictableFreshInnovationCarleson.A' /
+`NativeBirthChargePacking.A': the active weight attached to a first selected
+birth must be parent-predictable before the fresh projected current increment
+is read, and those weighted fresh innovations must square-pack in the original
+material history.  Without that predictability/current-Carleson estimate, the
+half-tail remains possible in the proof language even though the formal
+Hilbert transform and martingale entropy consumers are available.
