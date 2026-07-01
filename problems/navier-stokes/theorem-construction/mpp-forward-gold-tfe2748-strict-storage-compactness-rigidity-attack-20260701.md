@@ -1405,3 +1405,97 @@ variation.}
 Without `(TFE2748B.83)', an entropy proof would silently replace the selected
 critical readout by a passive scalar density.  With `(TFE2748B.83)', the
 capacity-variation line `(TFE2748B.75)' follows by the displayed calculation.
+
+## 17. Signed local energy gives net flux, not rectified positive flux
+
+The local energy identity cannot be used one more time to hide the one-sided
+problem.  It controls the signed net boundary exchange.  The Gold storage line
+needs the positive part of the same exchange after the parent window has been
+selected.
+
+For a gauge-reduced selected parent window set
+
+\[
+\mathcal F_{\mathfrak S}^{\sharp}(t)
+:=
+\int_{\partial\mathfrak S_t}
+\left(\nu\nabla e^\sharp
+-(e^\sharp+p^\sharp)(u^\sharp-v_{\mathfrak S})\right)
+\cdot n_{\mathfrak S}\,d\sigma ,
+\tag{TFE2748B.87}
+\]
+
+with the sign convention inherited from `(TFE2748B.85)'.  On every stopped
+interval \(J\), scalar rectification gives
+
+\[
+\int_J[\mathcal F_{\mathfrak S}^{\sharp}(t)]_+\,dt
+\le
+\left|\int_J\mathcal F_{\mathfrak S}^{\sharp}(t)\,dt\right|
++\int_J |(\mathcal F_{\mathfrak S}^{\sharp})'(t)|\,dt .
+\tag{TFE2748B.88}
+\]
+
+The first term is the part paid by the transported local energy identity:
+
+\[
+\left|\int_J\mathcal F_{\mathfrak S}^{\sharp}(t)\,dt\right|
+\le
+\Delta_J\int_{\mathfrak S_t} e^\sharp\,dR_P^{root}
++\nu\int_J\int_{\mathfrak S_t}|\nabla u^\sharp|^2\,dR_P^{root}dt
++dPaid_P .
+\tag{TFE2748B.89}
+\]
+
+Thus signed local energy pays net exchange and viscous drain.  The second term
+in `(TFE2748B.88)' is the unspent positive-variation part:
+
+\[
+\sum_{\mathfrak S\preceq P}
+\int_{J_{\mathfrak S}}
+|(\mathcal F_{\mathfrak S}^{\sharp})'(t)|\,dt
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\int_{\operatorname{Hist}(P)}d\Omega_P^{gen}
++dPaid_P,
+\qquad C_N\theta<1.
+\tag{TFE2748B.90}
+\]
+
+This is exactly the gauge-reduced rectified annular flux variation theorem
+already isolated as `(TFE.595)' / `SignedSmoothSamePacketCommutatorCoercivity.A'
+in the tower-feedback surface.  In that notation, differentiating the reduced
+annular stress-work flux produces only same-packet pressure, strain/stress,
+metric/frame, collar, velocity-gradient, and viscous terms, but the sign test
+finds no hidden nonnegative bulk.  Admission is proved; finite positive
+variation is not.
+
+Combining `(TFE2748B.88)'--`(TFE2748B.90)' gives the one-sided window-flux bound
+`(TFE2748B.86)', hence the Markov-entropy storage `(TFE2748B.82)'.  Conversely,
+without `(TFE2748B.90)', the local energy identity only says that positive and
+negative pressure/stress flux cancel in the net account.  It does not prevent
+the same parent transaction from oscillating with finite signed net and
+unbounded positive selected variation.
+
+The current proof state is therefore:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{transported local energy signed net flux `(TFE2748B.89)': available as a
+consumer;}\\
+\text{gauge-reduced rectified flux variation Carleson `(TFE2748B.90)': not
+proved from arbitrary data;}\\
+\text{critical-capacity storage `(TFE2748B.75)': follows once `(TFE2748B.90)' is
+proved.}
+\end{array}}
+\tag{TFE2748B.91}
+\]
+
+The affine-strain local no-go explains why `(TFE2748B.90)' cannot be replaced by
+a finite local commutator storage built only from the finite material tower.  A
+local affine strain can make the positive material-record log clock grow while
+the signed local algebra remains gauge-compatible.  The missing theorem must
+retain the global same-parent pressure/strain partner or prove a finite
+same-material flux-variation clock; it cannot be obtained from a purely local
+smooth commutator calculation.
