@@ -25052,3 +25052,642 @@ Without `(TFE.1692)', the half-tail remains possible in the proof language:
 With `(TFE.1692)', that branch is impossible because each unit selected child
 readout is already one unit of endpoint-state deletion in the original parent
 history.
+
+## 146. Branch split inside the endpoint entropy metric
+
+The audit of the determinant/Riesz surfaces makes `(TFE.1692)' smaller.  There
+are two different selected endpoint motions, and only one of them is still
+open.
+
+First, the bounded original-packet branch is already paid.  On a stopped parent
+history \(P\), use the original stress Hilbert space
+
+\[
+\mathfrak H_P
+=
+L^2(\operatorname{Hist}(P);\mathrm{Sym}_0),
+\qquad
+G=2\nu S_A .
+\tag{TFE.1694}
+\]
+
+The energy law gives
+
+\[
+\|G\|_{\mathfrak H_P}^2\le C_\nu\|u_0\|_2^2.
+\tag{TFE.1695}
+\]
+
+If a selected endpoint unit has a parent-known Riesz representative
+
+\[
+\Lambda_Q(G)=\langle G,A_Q\rangle_{\mathfrak H_P},
+\qquad
+\|A_Q\|_{\mathfrak H_P}\le C_N,
+\tag{TFE.1696}
+\]
+
+before scalar positive readout, then the parent split
+
+\[
+A_Q
+=
+\Pi_{E_{Q^-}}A_Q
++(I-\Pi_{E_{Q^-}})A_Q
+=B_Q+F_Q
+\tag{TFE.1697}
+\]
+
+has only the standard outcomes:
+
+\[
+F_Q=0
+\quad\Rightarrow\quad
+\text{exact inherited parent current,}
+\tag{TFE.1698}
+\]
+
+\[
+F_Q\ne0
+\quad\Rightarrow\quad
+\sum_Q|\langle G,F_Q\rangle_{\mathfrak H_P}|^2
+\le C_N\|G\|_{\mathfrak H_P}^2,
+\tag{TFE.1699}
+\]
+
+and changed inherited projection is reset, angle, selector, collar, legal, or
+stop motion.  The determinant/log-Bellman record pays the inherited part:
+
+\[
+\sum_Q
+\log\left(
+1+{\mu_G(\widehat Q)\over s_{Q^-}}
+\right)
+\le C_N(u_0)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1700}
+\]
+
+Therefore the bounded-Riesz endpoint entropy branch closes:
+
+\[
+\sum_{Q\subset P}^{\rm bounded\ Riesz}\omega_Q
+\le
+C_N(u_0)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1701}
+\]
+
+This is not a new proof assumption.  It is the installed source-currency rule:
+retained bounded-test selected action is a bounded original-packet projection;
+fresh bounded tests Bessel-pack; exact reuse is parent current; changed reuse
+is paid first-exit motion.
+
+The survivor is the scale-native branch.  Under Navier--Stokes rescaling
+
+\[
+u_r(y,s)=r\,u(x_0+ry,t_0+r^2s),
+\qquad
+p_r(y,s)=r^2p(x_0+ry,t_0+r^2s),
+\tag{TFE.1702}
+\]
+
+the rescaled stress satisfies
+
+\[
+G_r(y,s)=r^2G(x_0+ry,t_0+r^2s).
+\tag{TFE.1703}
+\]
+
+If \(A_r\) is unit size in the rescaled selected packet, its pullback
+
+\[
+F_r(x,t)
+=
+r^{-3}A_r\!\left({x-x_0\over r},{t-t_0\over r^2}\right)
+\tag{TFE.1704}
+\]
+
+has original stress-test norm
+
+\[
+\|F_r\|_{\mathfrak H_P}^2
+=
+r^{-1}\|A_r\|_2^2.
+\tag{TFE.1705}
+\]
+
+So a unit selected zoom read is not generally a bounded original-packet
+projection.  Plain finite energy sees only the raw packet cost
+
+\[
+\int_Q |G|^2\,dx\,dt\sim r,
+\tag{TFE.1706}
+\]
+
+while the child selected read is normalized as
+
+\[
+\omega_Q\sim1.
+\tag{TFE.1707}
+\]
+
+This proves a no-go statement for the broad endpoint entropy metric:
+
+\[
+\boxed{
+\text{No parent metric controlled only by finite original }L^2
+\text{ stress energy can prove `(TFE.1688)' for scale-native units.}
+}
+\tag{TFE.1708}
+\]
+
+The needed metric must be critical.  A scale-native endpoint unit must be
+charged to a native reserve that is order one on the rescaled packet:
+
+\[
+\rho_Q^{nat}\sim
+\nu\int_{I_Q}
+\|\Lambda^{3/2}u(t)\|_{L^2(Q)}^2\,dt
+\quad\text{in scale-critical coordinates.}
+\tag{TFE.1709}
+\]
+
+Equivalently, after all bounded-Riesz, reuse, reset, legal, and stop branches
+are removed, the remaining theorem is exactly
+
+\[
+\boxed{
+\texttt{NativeBirthChargePacking.A}
+/
+\texttt{SelectedGeneratorStorageCoercivity.A}
+/
+\texttt{PositiveCriticalTransferBound.A}.
+}
+\tag{TFE.1710}
+\]
+
+For every stopped parent \(P\), if \(\Gamma_N^{sn}(P)\) is the set of retained
+scale-native endpoint births, construct a parent-known native reserve
+\(\mathcal R_N^{nat}(P)\) and a bounded-multiplicity assignment
+
+\[
+\iota:\Gamma_N^{sn}(P)\to\mathcal R_N^{nat}(P)
+\tag{TFE.1711}
+\]
+
+with
+
+\[
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}
++R_{\rm legal}(\gamma)+Stop(\gamma),
+\qquad
+\operatorname{mult}(\iota)\le C_N,
+\tag{TFE.1712}
+\]
+
+and
+
+\[
+\sum_{\rho\in\mathcal R_N^{nat}(P)}\rho
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1713}
+\]
+
+Then
+
+\[
+\sum_{\gamma\in\Gamma_N^{sn}(P)}\omega_\gamma
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P),
+\tag{TFE.1714}
+\]
+
+and combining `(TFE.1701)' with `(TFE.1714)' gives `(TFE.1683)' and hence
+`(TFE.1684)'.
+
+In the compressed Eulerian critical-energy face, `(TFE.1710)' is the strict
+positive-transfer inequality
+
+\[
+\int_0^\tau
+\left(
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C(u_0)
++\theta\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt,
+\qquad
+\theta<1.
+\tag{TFE.1715}
+\]
+
+The standard critical estimate gives only a small-packet version of
+`(TFE.1715)'.  For arbitrary smooth data, `(TFE.1715)' is the same hard
+scale-native reserve theorem as `(TFE.1711)'--`(TFE.1713)'.
+
+Thus the endpoint entropy story has now been reduced to its true remaining
+physical content:
+
+\[
+\boxed{
+\text{pressure feedback may re-coordinate the bounded-test endpoint state,}
+\quad
+\text{but genuine unit zoom births must spend critical native reserve.}
+}
+\tag{TFE.1716}
+\]
+
+The bounded-test endpoint state is paid by parent Riesz/Bessel/determinant
+machinery.  The unfinished Gold line is the scale-native critical native
+reserve: prove that no retained unit zoom birth can recur with finite raw
+energy cost unless it spends a finite, parent-known critical reserve from the
+original coupled packet.
+
+## 147. Minimal scale-native bad profile route
+
+After `(TFE.1716)' the direct estimate route is exhausted.  The positive
+critical transfer identity gives small-critical absorption, but arbitrary data
+can make the critical coefficient large.  The next proof method is therefore a
+minimal-bad profile argument for the remaining scale-native births.
+
+Assume the native reserve map `(TFE.1711)'--`(TFE.1713)' fails.  Then there is
+a stopped parent sequence \(P_m\) and retained scale-native births
+\(\gamma\in\Gamma_N^{sn}(P_m)\) such that, after bounded-Riesz reads,
+parent-current reuse, determinant leverage, derivative-exact reset,
+selector/collar drift, legal, and stop have been removed,
+
+\[
+\sum_{\gamma\in\Gamma_N^{sn}(P_m)}
+\omega_\gamma=1,
+\tag{TFE.1717}
+\]
+
+while every original-history candidate native charge vanishes:
+
+\[
+\int_{\operatorname{Hist}(P_m)}
+\left(
+|\partial_\sigma Z|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
++|\operatorname{reset}_\sigma|^2
++d\mathfrak R_N^{nat}
+\right)
++R_{\rm legal}(P_m)+Stop(P_m)
+\to0.
+\tag{TFE.1718}
+\]
+
+The half-tail model says the mass in `(TFE.1717)' can hide inside shrinking
+high-active-weight tubes:
+
+\[
+H_{e_\ell^-}\simeq 2^\ell,
+\qquad
+\|D_{e_\ell}^{fresh}\|^2\simeq {2^{-\ell}\over \ell+1},
+\qquad
+\sum_\ell H_{e_\ell^-}\|D_{e_\ell}^{fresh}\|^2=\infty
+\tag{TFE.1719}
+\]
+
+even though the unweighted geometry appears summable.  So ordinary weak
+compactness in the original material metric loses the numerator.  The correct
+compactness object is the active-weight quotient
+
+\[
+W_e:=H_{e^-}^{1/2}D_e^{fresh}
+\tag{TFE.1720}
+\]
+
+pulled into a parent-fixed same-carrier Hilbert space before child positive
+readout.
+
+The required compactness theorem is:
+
+\[
+\boxed{
+\texttt{ScaleNativeActiveWeightProfileCompactness.A}
+}
+\tag{TFE.1721}
+\]
+
+For every normalized bad sequence satisfying `(TFE.1717)'--`(TFE.1718)', after
+passing to a stopped subchain and rescaling each active-weight tube, either
+
+\[
+W_{e_m}\rightharpoonup W_\infty\ne0
+\quad\text{in one same-carrier parent-fixed Hilbert geometry,}
+\tag{TFE.1722}
+\]
+
+or the lost mass is charged to turnstile, exchange, covector, reset derivative,
+selector mismatch, legal, or stop.  In the second case `(TFE.1718)' is
+contradicted.  Thus a true bad sequence must produce the nonzero limit
+`(TFE.1722)'.
+
+The rigidity theorem for that limit is:
+
+\[
+\boxed{
+\texttt{ZeroCostScaleNativeProfileRigidity.A}
+}
+\tag{TFE.1723}
+\]
+
+If `(TFE.1722)' holds and all original-history derivative, exchange, covector,
+reset, legal, and stop charges vanish, then the coupled packet limit is
+inherited parent-predictable transport:
+
+\[
+\partial_\sigma Z_\infty=0,\qquad
+\operatorname{turnstile}_\infty=0,\qquad
+\operatorname{exchange}_\infty=0,\qquad
+\operatorname{covector}_\infty=0.
+\tag{TFE.1724}
+\]
+
+But inherited parent-predictable transport is removed by the parent-subtracted
+definition of \(D^{fresh}\):
+
+\[
+D_\infty^{fresh}
+=
+(I-\Pi_{\mathcal P_-})Z_\infty
+=0.
+\tag{TFE.1725}
+\]
+
+Since \(W_\infty=H_\infty^{1/2}D_\infty^{fresh}\), `(TFE.1725)' contradicts
+`(TFE.1722)'.  Therefore `(TFE.1721)' plus `(TFE.1723)' proves the native
+reserve map:
+
+\[
+\texttt{ScaleNativeActiveWeightProfileCompactness.A}
++
+\texttt{ZeroCostScaleNativeProfileRigidity.A}
+\Longrightarrow
+\texttt{NativeBirthChargePacking.A}.
+\tag{TFE.1726}
+\]
+
+The second theorem is already the easier part in the existing root-defect
+compactness notes: zero-cost same-carrier limits are inherited parent
+transport and vanish after parent subtraction.  The first theorem is the real
+compactness wall.  It must prevent a unit of active-weight selected numerator
+from disappearing into a shrinking tube while all parent-known geometric
+charges vanish.
+
+Physically, this is the last form of the user's entropy picture.  Pressure
+feedback may keep re-coordinating the packet, but nonzero re-coordination has
+turnstile/covector/exchange/reset cost.  If those costs vanish, the feedback
+loop has stopped changing the endpoint state.  A child cannot then keep seeing
+fresh scale-native action; it is rereading inherited parent transport, and
+parent subtraction deletes it.
+
+So the current proof route is:
+
+\[
+\boxed{
+\texttt{ScaleNativeActiveWeightProfileCompactness.A}
+\Longrightarrow
+\texttt{NativeBirthChargePacking.A}
+\Longrightarrow
+\texttt{terminal-uniform }L^1.
+}
+\tag{TFE.1727}
+\]
+
+This is strictly smaller than the previous \(L^1\) statement.  It is a
+renormalized compactness/tightness theorem for the active-weight quotient of
+same-parent scale-native births, after all bounded-test and paid feedback
+motion has already been removed.
+
+## 148. What is actually missing for the \(L^1\) close
+
+The physical story is now precise enough to separate consumers from the real
+producer.
+
+The parent object is the original coupled pressure-heat-viscous material signal
+together with its stopped Hodge/collar/selector/root frame.  The child object is
+one heat-scale finite-difference readout of that same signal after the stopped
+detector has been chosen.  The feedback loop is not a second source.  It is the
+motion of the parent signal and of the detector frame: pressure re-coordinates
+the incompressible state, heat/viscosity make it readable as velocity/strain
+energy, and every change of carrier, covector, collar, Hodge frame, selector, or
+reset interval is part of the same original material history.
+
+Thus the \(L^1\) quantity is not raw energy and not raw entropy.  It is the
+positive selected state-change count
+
+\[
+\mathcal A_{P,N}^{sn,+}
+:=
+\sum_{\gamma\in\Gamma_N^{sn}(P)}\omega_\gamma
+\tag{TFE.1728}
+\]
+
+after bounded-Riesz reads, parent-current reuse, determinant/Bellman leverage,
+return, derivative-exact reset, selector drift, legal, and stop have already
+been removed.  It closes only if each remaining child unit is already a unit of
+parent-known critical state motion before the child clips the positive readout.
+
+The installed or conditional consumers are:
+
+\[
+\begin{array}{ll}
+\text{bounded original-packet Riesz reads} & \text{paid by Bessel/Schur/Gram;}\\
+\text{parent-current reuse} & \text{paid by no-recount and determinant storage;}\\
+\text{zero-cost same-carrier feedback} & \text{rigid: inherited parent transport only;}\\
+\text{derivative-exact high-weight reset tubes} &
+\text{paid by parent-announced Cauchy plus bounded overlap.}
+\end{array}
+\tag{TFE.1729}
+\]
+
+These do not by themselves produce the \(L^1\) theorem.  They say what happens
+after the original parent detector and original parent ledger have already been
+constructed.
+
+The missing package is:
+
+\[
+\boxed{
+\texttt{ParentKnownScaleNativeStateDeletionPackage.A}
+}
+\tag{TFE.1730}
+\]
+
+It has four nonduplicate clauses.
+
+First, construct the stopped parent detector before child clipping:
+
+\[
+\mathcal D_P^{root}
+=
+\left(
+Z_P,\Pi_P^{new},H_P^\ast,
+\text{Hodge/collar/covector/selector frame}
+\right),
+\tag{TFE.1731}
+\]
+
+all chosen from original parent history.  This is the common-selector/no-loss
+gate: an apparent selected child unit must either use this detector or pay
+reselection, order-lock, collar, legal, or stop loss before it is counted.
+
+Second, represent every retained scale-native fresh child readout as a
+parent-announced first-exit derivative average:
+
+\[
+D_e^{fresh}(t)
+=
+|I_e|^{-1}
+\int_{I_e}
+\mathcal G_P^{root}(\sigma,t)\,d\sigma
++Err_e^{paid}(t),
+\tag{TFE.1732}
+\]
+
+where
+
+\[
+\mathcal G_P^{root}
+=
+\Pi_P^{new}
+\left(
+\partial_\sigma Z
++[D_t,\mathcal L_A]w
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
++\operatorname{frame/collar}_\sigma
+\right).
+\tag{TFE.1733}
+\]
+
+Once `(TFE.1732)' is available, the high-weight tube problem is no longer a
+mystery.  Harmonic Cauchy gives
+
+\[
+H_e\|D_e^{fresh}\|^2
+\le
+C\int_{I_e}
+w\,\|\mathcal G_P^{root}\|^2\,d\sigma
++C\,Err_e^{paid},
+\tag{TFE.1734}
+\]
+
+and maximal first-exit overlap sums `(TFE.1734)' over the stopped tree.
+
+Third, prove the non-self-feeding original-ledger storage:
+
+\[
+\int_{\operatorname{Hist}(P)}
+H_P^\ast\|\mathcal G_P^{root}\|^2
++dA_P^{sel/chart}
++d\operatorname{Birth}_P^{act}
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathfrak R_P^{nat}
++R_{\rm legal}(P)+Stop(P),
+\qquad \theta<1.
+\tag{TFE.1735}
+\]
+
+Equivalently, in differential storage form,
+
+\[
+H_P^\ast\|\mathcal G_P^{root}\|^2
++dA_P^{sel/chart}
++d\operatorname{Birth}_P^{act}
+\le
+-D_{\sigma,t}M_P
++d\Theta_P^{orig}
++\theta\,d\mathfrak R_P^{nat}
++dR_{\rm legal,P}
++dStop_P,
+\tag{TFE.1736}
+\]
+
+with
+
+\[
+0\le M_P\le C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P),
+\qquad
+\int d\Theta_P^{orig}
+\le C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1737}
+\]
+
+The right side of `(TFE.1735)' may not contain the active-weight clock being
+produced except through the strict \(\theta<1\) native-reserve term.  This is the
+noncircular version of the entropy/state-deletion story: the parent packet may
+re-coordinate its remaining states, but positive selected state creation must
+decrease bounded storage, spend original root-generator motion, spend native
+viscous reserve with a strict margin, or land in legal/stop.
+
+Fourth, construct the accretive testing data that supplies `(TFE.1735)' from
+the original coupled packet.  In stopped \(Tb\) language this is
+
+\[
+\boxed{
+\texttt{MaterialAdjointAccretiveTestingData.A}
+}
+\tag{TFE.1738}
+\]
+
+with parent-known tests \(b_P\) satisfying
+
+\[
+|\langle b_P\rangle_P|\ge c,
+\qquad
+\|b_P\|_{L^2(P,\mathcal R)}^2\le C\mathcal R(P),
+\tag{TFE.1739}
+\]
+
+\[
+\|T_P(b_P\nu^P)\|_{L^2(P,\mathcal R)}^2
++\sum_{P'\subseteq P}Def_{test}(P')
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1740}
+\]
+
+This is the same theorem as
+`SelectedGeneratorStorageCoercivity.A / OriginalScaleMemoryStorageCoercivity.A'
+written in testing coordinates.  It is not a separate route beside the physical
+packet story; it is the construction of the parent-known detector and storage
+for that story.
+
+With `(TFE.1730)' in hand, the close is mechanical.  Equation `(TFE.1734)' and
+bounded first-exit overlap give `ScaleNativeActiveWeightProfileCompactness.A'.
+The zero-cost same-carrier profile is then inherited parent transport and
+vanishes after parent subtraction by `(TFE.1723)'--`(TFE.1725)'.  Hence
+
+\[
+\texttt{ParentKnownScaleNativeStateDeletionPackage.A}
+\Longrightarrow
+\texttt{ScaleNativeActiveWeightProfileCompactness.A}
+\Longrightarrow
+\texttt{NativeBirthChargePacking.A}
+\Longrightarrow
+\sup_{\tau<T_\ast}\mathcal A_{P,N}^{sn,+}(\tau)<\infty.
+\tag{TFE.1741}
+\]
+
+Together with the bounded-Riesz branch `(TFE.1701)', `(TFE.1741)' gives the
+terminal-uniform \(L^1\) line `(TFE.1683)'--`(TFE.1684)'.
+
+Therefore the current \(L^1\) wall is not ownership, no-recount, or high-weight
+Cauchy.  Those are already consumers once the detector is parent-known.  The
+wall is the original-data construction of `(TFE.1738)'--`(TFE.1740)', equivalently
+the non-self-feeding storage `(TFE.1735)'--`(TFE.1737)', for arbitrary smooth
+data.  In the compressed critical-energy face this is the same strict positive
+transfer theorem as `(TFE.1715)'.  The repo has not proved that final accretive
+parent-known storage; it has now isolated exactly what it must prove.
