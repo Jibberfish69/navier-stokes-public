@@ -785,8 +785,8 @@ summary:
   bridge_not_discharged_count: 0
   full_claim_lane_blocked: false
   blocking_basis: []
-  current_live_blocking_count: 0
-  current_live_frontier_count: 0
+  current_live_blocking_count: 1
+  current_live_frontier_count: 1
   stale_surface_status: historical-context-only
 auxiliary_theorem_tracks:
 - track_id: projected-nc-flow-d-route
@@ -818,10 +818,11 @@ auxiliary_theorem_tracks:
     internal branch. It does not by itself discharge a whole-space Euclidean endpoint.'
 warrant_boundary:
   status: cm-referee-gate-passed-with-gold-silver-paths
-  terminal_safe: true
-  required_before_terminal_release: []
-  rule: Direct live CM authority controls this surface. Positive packet-survival/no-exit
-    language is support only and cannot respawn from this warrant.
+  terminal_safe: false
+  required_before_terminal_release:
+  - Prove TFE2748B / OriginalCriticalCapacityVariation.A for Gold L1 source closure.
+  rule: Direct live authority keeps Gold open at TFE2748B / OriginalCriticalCapacityVariation.A.
+    CM warrant language is support only and cannot clear Gold terminal/release safety.
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight: *2
 target_lock_schema: *3
@@ -834,15 +835,16 @@ exact_live_theorem_grade_burden: *1
 release_or_respawn_consequence: *9
 forward_positive_surface_quarantine: *10
 current_authority_status:
-  status: superseded-by-direct-live-clearance
+  status: superseded-by-direct-live-open-frontier
   checked_at: '2026-06-08T07:57:59Z'
-  reason: Direct live authority reports no open theorem frontier; this artifact is
-    retained as historical theorem-work context and must not respawn a live blocker.
+  reason: Direct live authority now keeps Gold open at TFE2748B /
+    OriginalCriticalCapacityVariation.A; this artifact is retained as historical
+    theorem-work context and must not clear the live blocker.
   authority_summary:
     authority_mode: direct-live-surfaces
-    blocking_count: 0
-    frontier_count: 0
-    all_discharged: true
+    blocking_count: 1
+    frontier_count: 1
+    all_discharged: false
   controlling_surfaces:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/source-frontier.yaml

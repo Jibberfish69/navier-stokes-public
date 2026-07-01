@@ -8,15 +8,16 @@ identity:
   generator: system/runner/workers/theorem_repair_worker.rb
 authority_sync_gate:
   authority_mode: direct-live-surfaces
-  all_discharged: true
-  blocking_count: 0
-  frontier_count: 0
+  all_discharged: false
+  blocking_count: 1
+  frontier_count: 1
   truth_priority:
   - live-theorem-edge.yaml
   - source-frontier.yaml
   - theorem-packet.yaml
   - generated crank/status surfaces
-  unresolved_entries: []
+  unresolved_entries:
+  - TFE2748B / OriginalCriticalCapacityVariation.A open for Gold L1 source theorem
   demoted_gold_context_entries:
   - obligation_id: global-same-packet-full-material-clock
     kind: gold-counterpart-frontier
