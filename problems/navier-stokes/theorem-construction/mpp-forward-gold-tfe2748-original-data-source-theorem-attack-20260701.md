@@ -360,6 +360,16 @@ retained Poincare, and downstream consumption.  It does not yet contain either
 the compactness/rigidity proof or the direct bounded-below storage proof for
 `(TFE2748A.5)' from arbitrary original data.
 
+The sharpened capacity language is the preallocated-reserve normalization in
+`mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md',
+`(TFE2748B.38)'--`(TFE2748B.43)'.  In this note's full-exchange notation, that
+normalization says \(M_P\) is the unspent part of a parent reserve constructed
+before child clipping.  The child-visible critical entries spend that reserve;
+they do not define the reserve.  With that identification, the direct storage
+option in `(TFE2748A.20)' is exactly the proof of paid parent-window variation,
+and the compactness/rigidity option is exactly the no-free-window-opening
+contradiction for a frozen stopped parent frame.
+
 ## 6. Current truth state
 
 This note advances the Gold \(L^1\) source line in one precise way: the

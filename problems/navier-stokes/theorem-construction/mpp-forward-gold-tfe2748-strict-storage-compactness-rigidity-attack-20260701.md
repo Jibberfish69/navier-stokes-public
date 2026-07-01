@@ -538,3 +538,245 @@ energy or by endpoint admission alone.  Endpoint admission says the endpoint
 seed belongs in the ledger.  `(TFE2748B.34)' says the original ledger has a
 bounded-below capacity whose positive variation pays the creation of those
 critical states.
+
+## 9. Integrated diagnostic audit
+
+The current repo state is now clean at the level of proof topology.  The live
+source theorem is exactly `(TFE2748B.34)'.  No checked surface proves it from
+arbitrary original data.  The installed support has the following roles:
+
+\[
+\begin{array}{ll}
+\text{endpoint admission:}
+&\text{the zero-baseline endpoint trace is entered into }d\Xi_P^{FE,\ast}
+\text{ before storage is invoked;}\\[1mm]
+\text{exact parent scale:}
+&d\Xi_P^{FE,\ast}\text{ is the integral `(TFE2748B.1)', not a child-unit sum;}\\[1mm]
+\text{distortion / route / reset / stop:}
+&\text{consumer terms paid by }d\Theta_P^0+dPaid_P;\\[1mm]
+\text{downstream closure:}
+&\text{terminal no-jump, finite selected action, full clock, fixed }H^s
+\text{ continuation,}\\
+&\text{and classical relaunch consume terminal-uniform }L^1
+\text{ conditionally.}
+\end{array}
+\tag{TFE2748B.35}
+\]
+
+Thus there is no second downstream Gold wall hiding behind `(TFE2748B.34)'.
+Assuming `(TFE2748B.34)' as an original-data theorem, the downstream chain is
+already a consumer chain.  The obstruction is upstream and singular:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{prove, before child clipping, that the original parent packet supplies}\\
+\text{a critical capacity whose positive opening is only material motion or paid
+route/ledger motion:}\\[1mm]
+[d\mathcal C_P^{crit}]_+
+\le d\Theta_P^0+dPaid_P .
+\end{array}}
+\tag{TFE2748B.36}
+\]
+
+Equivalently, in the full-exchange language, prove the strict no-self-feeding
+storage for the endpoint-admitted ledger:
+
+\[
+\begin{aligned}
+d\Omega_P^{gen}
+&\le C_Nd\Xi_P^{FE,\ast}+dR_{\rm legal,P}+dStop_P,\\
+d\Xi_P^{FE,\ast}
+&\le
+-dM_P+d\Theta_P^0+\vartheta d\Omega_P^{gen}
++dR_{\rm legal,P}+dStop_P,
+\qquad C_N\vartheta<1 .
+\end{aligned}
+\tag{TFE2748B.37}
+\]
+
+These are the same remaining source theorem seen in two coordinates.  The
+capacity coordinate says that the state counter cannot open for free.  The
+full-exchange coordinate says the same coupled packet cannot feed its own
+selected generator clock with a unit return after endpoint, inherited baseline,
+route, reset, legal, and stop material have been removed.
+
+The physical picture is therefore: pressure/Hodge may re-coordinate the whole
+parent signal immediately, viscosity/Stokes gives heat-time thickness before a
+velocity/strain readout is counted, and selected child tests are lawful only as
+pulled-back parent covectors.  What is still unproved is the strict one-way
+inequality saying that this same coupled transaction has no zero-cost retained
+feedback loop.  No dyadic counting correction, endpoint admission, Schur/Bessel
+no-recount, or downstream no-jump relay supplies that inequality by itself.
+
+## 10. Preallocated-reserve normalization
+
+The capacity in \(M_P^{crit}=\mathcal C_P^{crit}-\mathcal E_P^{crit}\) must be a
+preallocated parent reserve, not the cumulative amount of selected critical
+material already observed.  If \(\mathcal C_P^{crit}\) is defined as the
+accumulated selected entries, then \(d\mathcal C_P^{crit}\) is just the source
+being estimated and `(TFE2748B.36)' becomes circular.
+
+The noncircular normalization is:
+
+\[
+\mathcal C_P^{crit}(\tau)
+:=
+\mathfrak C_P^{root}\bigl(\mathfrak S_{P,\tau}^{crit}\bigr)
++\mathcal C_P^{geom}(\tau),
+\tag{TFE2748B.38}
+\]
+
+where \(\mathfrak C_P^{root}\) is a parent-root critical capacity measure built
+from the original coupled packet before child clipping, \(\mathfrak
+S_{P,\tau}^{crit}\) is the parent-announced critical window in the stopped
+material frame, and \(\mathcal C_P^{geom}\) records only paid changes of chart,
+collar, Hodge frame, selector, stop, legal, or reselection geometry.  The spent
+critical material is not added to \(\mathcal C_P^{crit}\); it is recorded in
+\(\mathcal E_P^{crit}\).  Thus
+
+\[
+M_P^{crit}
+=
+\mathcal C_P^{crit}-\mathcal E_P^{crit}
+\tag{TFE2748B.39}
+\]
+
+is literally the unspent selected-critical reserve of the same parent packet.
+
+With this normalization, `(TFE2748B.36)' follows from two smaller statements.
+First, every positive-baseline log atom and zero-baseline endpoint-seed atom must
+be admitted to the fixed parent reserve before clipping:
+
+\[
+d\rho_{crit,P}^{ac}
++d\rho_{crit,P}^{entry}
+\le
+d\mathcal E_P^{crit}
++dPaid_P,
+\qquad
+0\le \mathcal E_P^{crit}\le \mathcal C_P^{crit}+Paid_P .
+\tag{TFE2748B.40}
+\]
+
+Second, the parent critical window cannot open except by visible material motion:
+
+\[
+\bigl[d\,\mathfrak C_P^{root}(\mathfrak S_{P,\tau}^{crit})
++d\mathcal C_P^{geom}(\tau)\bigr]_+
+\le
+d\Theta_P^0+dPaid_P .
+\tag{TFE2748B.41}
+\]
+
+Then
+
+\[
+d\mathcal E_P^{crit}
+=
+-dM_P^{crit}+d\mathcal C_P^{crit}
+\le
+-dM_P^{crit}+d\Theta_P^0+dPaid_P,
+\tag{TFE2748B.42}
+\]
+
+which is the bounded-below storage derivative needed in `(TFE2748B.12)'.
+
+So the proof is not looking for a moving child count.  It is looking for an
+original parent reserve measure \(\mathfrak C_P^{root}\) whose window is fixed in
+the stopped material frame up to paid geometry.  First entries spend that reserve
+by increasing \(\mathcal E_P^{crit}\); they do not open new capacity.  Any proof
+that lets a child-selected event enlarge \(\mathcal C_P^{crit}\) after the
+positive part is read has put the parent package on the wrong side of the
+equation.
+
+The sharpened source theorem is therefore:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{PreallocatedParentCriticalReserve.A:}\\
+\text{construct \(\mathfrak C_P^{root}\) before child clipping, prove the atom
+admission `(TFE2748B.40)',}\\
+\text{and prove the paid-window-variation law `(TFE2748B.41)' from the original
+coupled packet.}
+\end{array}}
+\tag{TFE2748B.43}
+\]
+
+This is equivalent to `OriginalCriticalCapacityVariation.A' but removes the last
+possible ambiguity in the word "capacity."  Capacity is the original packet's
+available critical reserve; \(\mathcal E^{crit}\) is what the packet has spent;
+\(M^{crit}\) is what remains.
+
+## 11. Noncircular proof fork
+
+The preallocated-reserve normalization leaves exactly two possible proof
+methods.  Both have to keep the selected child readout downstream of the parent
+reserve.
+
+The direct method is a BV chain-rule construction.  Build a parent map
+\(\Phi_P\) and a root measure \(dR_P^{root}\), both determined by the stopped
+original coupled packet, so that
+
+\[
+\mathfrak C_P^{root}(\mathfrak S_{P,\tau}^{crit})
+=
+R_P^{root}\bigl(\Phi_P^{-1}\mathfrak S_{P,\tau}^{crit}\bigr)
+\tag{TFE2748B.44}
+\]
+
+and the critical window moves only by material/frame/collar/Hodge/selector
+motion already measured by \(d\Theta_P^0+dPaid_P\).  Then the BV transport
+formula gives
+
+\[
+\bigl[d\,\mathfrak C_P^{root}(\mathfrak S_{P,\tau}^{crit})\bigr]_+
+\le
+R_P^{root}\bigl(|D_t^P\mathbf 1_{\Phi_P^{-1}\mathfrak S_{P,\tau}^{crit}}|_+\bigr)
+\le d\Theta_P^0+dPaid_P .
+\tag{TFE2748B.45}
+\]
+
+This proves `(TFE2748B.41)' only if \(\Phi_P\), \(R_P^{root}\), and
+\(\mathfrak S_{P,\tau}^{crit}\) are all parent-announced before positive
+clipping.  Defining any one of them from the set of children whose positive
+readout has already fired makes `(TFE2748B.45)' circular.
+
+The compactness method is the corresponding no-free-window-opening contradiction.
+Assume `(TFE2748B.41)' fails.  After normalization there are stopped packets
+\(P_n\) such that
+
+\[
+\bigl[d\,\mathfrak C_{P_n}^{root}
+(\mathfrak S_{P_n,\tau}^{crit})
+d\mathcal C_{P_n}^{geom}\bigr]_+=1,
+\qquad
+d\Theta_{P_n}^0+dPaid_{P_n}\to0 .
+\tag{TFE2748B.46}
+\]
+
+A successful compactness proof must extract a stopped parent limit in which the
+root measure and critical windows still carry positive opening.  But the
+vanishing motion term freezes the parent map and window in that limit, so a
+parent-announced reserve has no positive variation:
+
+\[
+D_t^P\Phi_P=0,\qquad
+D_t^P\mathfrak S_{P,\tau}^{crit}=0
+\quad\Longrightarrow\quad
+d\,\mathfrak C_P^{root}(\mathfrak S_{P,\tau}^{crit})=0 .
+\tag{TFE2748B.47}
+\]
+
+Thus the only compactness gap is tightness/nondegeneracy of the selected parent
+windows: the normalized positive opening must not disappear into a zero-thickness
+or escaping high-weight detector while the fixed parent carrier converges to
+zero.  That tightness is the compactness form of the same preallocated-reserve
+theorem, not an independent downstream Gold wall.
+
+So the current proof attack is exact.  Prove either the direct BV chain-rule
+construction `(TFE2748B.44)'--`(TFE2748B.45)' from the original coupled packet, or
+prove the compactness/tightness contradiction `(TFE2748B.46)'--`(TFE2748B.47)'.
+Either route supplies `(TFE2748B.41)', then `(TFE2748B.42)', then the
+terminal-uniform Gold \(L^1\) line.

@@ -1,10 +1,16 @@
 ---
 theorem_id: forward-gold-selected-density-martingale-square-function-governing-edge-20260627
-status: governing-edge-realigned-to-stopped-selected-log-amplification-open
+status: superseded-support-open-under-tfe2748b-critical-capacity-variation
 created: 2026-06-27
 problem: navier-stokes
 route: forward-gold same-material selected-density / critical half-tail exclusion
 logical_landing_node: GlobalSamePacketFullClockFromOriginalData.A
+continuation_audit_20260701: >-
+  This note is support, not the current governing Gold edge. The July 1 TFE2748
+  audit keeps TFE2733-TFE2747 as conditional reductions, records TFE2748A as
+  endpoint admission into the endpoint-admitted ledger, and narrows the open
+  source theorem to TFE2748B / OriginalCriticalCapacityVariation.A: parent-fixed
+  or paid positive critical-capacity variation before critical atoms are counted.
 governing_hinge:
   - OriginalHistorySelectedLogAmplificationCarleson.A
   - StoppedSelectorCorrectHilbertBMOProducer.A
@@ -38,11 +44,11 @@ edge_effect: >-
 downstream_consequence: >-
   Relay and goal-loop surfaces should not reselect pressure observability, raw
   capacity, endpoint atom exclusion, or the record/return-vs-reset split as the
-  global producer. They are support or proof mechanisms. The current proof
-  object is OriginalHistorySelectedLogAmplificationCarleson.A / StoppedSelectorCorrectHilbertBMOProducer.A,
-  with source-origin normal form as the local invisible-source classification
-  needed to construct the stopped lifted carrier and then derive the
-  square-function / entropy consequence.
+  global producer. They are support or proof mechanisms. In the current July 1
+  audit, OriginalHistorySelectedLogAmplificationCarleson.A /
+  StoppedSelectorCorrectHilbertBMOProducer.A are earlier coordinates of the
+  source problem; the active source object is TFE2748B /
+  OriginalCriticalCapacityVariation.A.
 ---
 
 # Selected-Density Martingale / Log-Amplification Governing Edge
@@ -436,7 +442,8 @@ The already verified downstream relay is:
 \text{restart past }T^*.
 ```
 
-So the Gold proof of smoothness now has this shape:
+This support route would feed the Gold continuation chain only after its source
+theorem is supplied:
 
 ```text
 finite initial data
