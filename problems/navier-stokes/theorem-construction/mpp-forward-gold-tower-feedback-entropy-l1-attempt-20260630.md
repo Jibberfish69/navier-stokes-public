@@ -32463,3 +32463,357 @@ the endpoint-affine coordinates.  Once `(TFE.2228)' is proved, `(TFE.2227)',
 selected \(L^1\) follow by the already written consumer chain.  Without
 `(TFE.2228)', the endpoint seed remains the same Gold \(L^1\) wall, now written
 without dyadic moving-unit error.
+
+## 189. First-entry time-Hardy reduction for the affine endpoint quotient
+
+Section 188 isolates the affine endpoint zero-mode.  The only nonstatic way to
+pay that mode is through the time history of the same parent packet.  A constant
+affine mode is invisible to scale differentiation; it is not invisible to the
+parent history unless it was already present at the left edge of the retained
+window or survives as terminal residue.
+
+For a retained endpoint seed \(\gamma\), set
+
+\[
+m_\gamma(t)
+:=
+K_\gamma(t)\overline Z_\gamma^{fresh,+}(t),
+\qquad
+I_\gamma=[a_\gamma,b_\gamma],
+\tag{TFE.2229}
+\]
+
+where \(D_t^P\) denotes the material time derivative in the stopped parent
+frame, including the product derivatives of the transported frame, covector,
+selector, Hodge/collar data, and the coefficient \(K_\gamma\).  If \(\gamma\)
+is a true first-entry window in that same parent frame, then
+
+\[
+m_\gamma(a_\gamma)=0.
+\tag{TFE.2230}
+\]
+
+For \(m_\gamma\in W^{1,2}(I_\gamma;\mathcal H_\gamma)\), the fundamental theorem
+of calculus gives
+
+\[
+m_\gamma(t)
+=
+\int_{a_\gamma}^{t}D_s^Pm_\gamma(s)\,ds .
+\tag{TFE.2231}
+\]
+
+Thus, for every nonnegative parent weight \(H_\gamma(t)\),
+
+\[
+\int_{a_\gamma}^{b_\gamma}
+H_\gamma(t)\|m_\gamma(t)\|_{\mathcal H_\gamma}^{2}\,dt
+\le
+\int_{a_\gamma}^{b_\gamma}
+\mathfrak H_\gamma(s)
+\|D_s^Pm_\gamma(s)\|_{\mathcal H_\gamma}^{2}\,ds,
+\tag{TFE.2232}
+\]
+
+where
+
+\[
+\mathfrak H_\gamma(s)
+:=
+\int_s^{b_\gamma}(t-a_\gamma)H_\gamma(t)\,dt .
+\tag{TFE.2233}
+\]
+
+This is just Cauchy in time:
+\(\|m(t)\|^2\le (t-a)\int_a^t\|D_sm(s)\|^2ds\), followed by Fubini.  No scale
+sum is being used.
+
+If the first-entry trace is not zero, the exact inequality is instead
+
+\[
+\begin{aligned}
+\int_{a_\gamma}^{b_\gamma}
+H_\gamma\|m_\gamma\|^2\,dt
+&\le
+2\|m_\gamma(a_\gamma)\|^2
+\int_{a_\gamma}^{b_\gamma}H_\gamma(t)\,dt\\
+&\quad
++2\int_{a_\gamma}^{b_\gamma}
+\mathfrak H_\gamma(s)\|D_s^Pm_\gamma(s)\|^2\,ds .
+\end{aligned}
+\tag{TFE.2234}
+\]
+
+Therefore the affine endpoint quotient splits exactly as
+
+\[
+AQ_P^{EP}
+\le
+C\,Entry_P^{EP}
++C\,THD_P^{EP},
+\tag{TFE.2235}
+\]
+
+with
+
+\[
+Entry_P^{EP}
+:=
+\int_{\Gamma_P^{EP,fr}}
+\|m_\gamma(a_\gamma)\|^2
+\left(\int_{a_\gamma}^{b_\gamma}H_\gamma(t)\,dt\right)
+d\eta_P^{EP}(\gamma),
+\tag{TFE.2236}
+\]
+
+and
+
+\[
+THD_P^{EP}
+:=
+\int_{\Gamma_P^{EP,fr}}
+\int_{a_\gamma}^{b_\gamma}
+\mathfrak H_\gamma(s)
+\|D_s^Pm_\gamma(s)\|^2\,ds\,d\eta_P^{EP}(\gamma).
+\tag{TFE.2237}
+\]
+
+The derivative \(D_t^Pm_\gamma\) is a full coupled derivative.  In coordinates it
+has the form
+
+\[
+D_t^Pm_\gamma
+=
+\mathbf 1_{\{\ell_\gamma\overline Z_\gamma>0\}}
+\left[
+(D_t^PK_\gamma)\ell_\gamma\overline Z_\gamma
++K_\gamma D_t^P(\ell_\gamma\overline Z_\gamma)
+\right]
++Err_\gamma^{sel/collar},
+\tag{TFE.2238}
+\]
+
+and \(D_t^P(\ell_\gamma\overline Z_\gamma)\) contains the recombined
+pressure/Hodge, viscous/Stokes, self-advection, incompressibility, material
+frame, covector, and collar terms of the same parent packet.  The positive-part
+map is only a Lipschitz readout after this parent derivative exists; it is not a
+new source.
+
+Consequently the endpoint affine zero-mode is discharged by the pair
+
+\[
+Entry_P^{EP}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\qquad
+THD_P^{EP}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2239}
+\]
+
+Then `(TFE.2235)' gives `(TFE.2227)', hence `(TFE.2216)' and the continuous
+native-reserve pushforward consumer chain.
+
+This proves exactly what the first-entry picture can prove.  A retained affine
+endpoint pulse cannot be repeatedly recounted by refining scale, because the
+continuous parent measure is fixed.  A retained affine endpoint pulse also
+cannot be both fresh and time-static: if \(D_t^Pm_\gamma=0\), then
+`(TFE.2231)' forces \(m_\gamma\equiv0\) on a true first-entry window.  Any
+nonzero time-static affine mode must enter through `Entry_P^{EP}' as inherited
+parent material or through a terminal no-residue failure; it is not a hidden
+third currency.
+
+Thus `(TFE.2239)' is a sufficient original-data production line: same-parent
+first-entry/no-residue for the left trace, and terminal-uniform weighted
+\(L_t^2\) control of the full coupled parent-time derivative in `(TFE.2237)'.
+Section 190 sharpens this to the weaker square-variation form that matches the
+endpoint first-time-rung product estimates.  In either form, the issue is not
+dyadic counting and not a pressure-only or viscosity-only theorem.
+
+## 190. The exact time-Hardy currency is square variation, not \(L_t^2\) derivative size
+
+The \(L_t^2\) derivative estimate in `(TFE.2232)' is a valid sufficient Hardy
+bound, but it is stronger than the endpoint tower surfaces naturally supply.
+The first-time-rung endpoint estimates control the time variation of an endpoint
+square, not the square of the time derivative.  That is the correct currency
+for the affine endpoint quotient.
+
+Set
+
+\[
+B_\gamma(t):=\|m_\gamma(t)\|_{\mathcal H_\gamma}^{2}.
+\tag{TFE.2240}
+\]
+
+If \(m_\gamma(a_\gamma)=0\), then \(B_\gamma(a_\gamma)=0\), and for every
+\(t\in I_\gamma\)
+
+\[
+B_\gamma(t)
+=
+\int_{a_\gamma}^{t}D_s^PB_\gamma(s)\,ds
+\le
+\int_{a_\gamma}^{t}[D_s^PB_\gamma(s)]_+\,ds .
+\tag{TFE.2241}
+\]
+
+Therefore, with
+
+\[
+\mathcal W_\gamma(s):=\int_s^{b_\gamma}H_\gamma(t)\,dt,
+\tag{TFE.2242}
+\]
+
+Fubini gives the exact one-dimensional bound
+
+\[
+\int_{a_\gamma}^{b_\gamma}H_\gamma(t)B_\gamma(t)\,dt
+\le
+\int_{a_\gamma}^{b_\gamma}
+\mathcal W_\gamma(s)[D_s^PB_\gamma(s)]_+\,ds .
+\tag{TFE.2243}
+\]
+
+If the left trace is nonzero, the exact inequality is
+
+\[
+\int_{a_\gamma}^{b_\gamma}H_\gamma B_\gamma\,dt
+\le
+B_\gamma(a_\gamma)\int_{a_\gamma}^{b_\gamma}H_\gamma(t)\,dt
++
+\int_{a_\gamma}^{b_\gamma}
+\mathcal W_\gamma(s)[D_s^PB_\gamma(s)]_+\,ds .
+\tag{TFE.2244}
+\]
+
+Thus `(TFE.2227)' follows from
+
+\[
+AQ_P^{EP}
+\le
+Entry_P^{EP}
++
+SV_P^{EP},
+\tag{TFE.2245}
+\]
+
+where \(Entry_P^{EP}\) is as in `(TFE.2236)' and
+
+\[
+SV_P^{EP}
+:=
+\int_{\Gamma_P^{EP,fr}}
+\int_{a_\gamma}^{b_\gamma}
+\mathcal W_\gamma(t)
+[D_t^P\|m_\gamma(t)\|_{\mathcal H_\gamma}^{2}]_+
+\,dt\,d\eta_P^{EP}(\gamma).
+\tag{TFE.2246}
+\]
+
+This is the exact first-entry version of "the packet comes to rest" for the
+affine endpoint square.  A positive square can appear after first entry only by
+positive variation of the same parent square.  A later negative variation is
+drain/return; it cannot be used to create a second positive birth by changing
+scale labels.
+
+The derivative of the square is the coupled product
+
+\[
+D_t^P\|m_\gamma\|^2
+=
+2\langle m_\gamma,D_t^Pm_\gamma\rangle_{\mathcal H_\gamma}
++D_t^P\langle\cdot,\cdot\rangle_{\mathcal H_\gamma}(m_\gamma,m_\gamma).
+\tag{TFE.2247}
+\]
+
+The metric derivative term in `(TFE.2247)' is not a side account; it is the
+transported material-frame/covector/Hodge/collar contribution of the same
+parent packet.  In endpoint tower coordinates, the finite-jet part of
+`(TFE.2247)' has exactly the product form
+
+\[
+|V|^2|\partial_sV|
++|\partial_sQ||V|
++|Q||\partial_sV|
++\text{cutoff/selector/frame products}.
+\tag{TFE.2248}
+\]
+
+Consequently `FirstTimeRungEndpointProductControl.A' is the right consumer for
+the local finite-jet component of \(SV_P^{EP}\).  The already audited endpoint
+sources give the following exact split:
+
+\[
+SV_P^{EP}
+\le
+C\,SV_{jet}^{EP}
++C\,SV_{harm}^{EP}
++C\,SV_{res}^{EP}
++C\,SV_{crit}^{EP}
++Paid(P).
+\tag{TFE.2249}
+\]
+
+Here:
+
+\[
+SV_{jet}^{EP}
+\text{ is controlled by the mixed finite-jet temporal tower if }
+\texttt{FirstTimeRungEndpointProductControl.A}
+\text{ holds;}
+\tag{TFE.2250}
+\]
+
+\[
+SV_{harm}^{EP}
+\text{ is controlled only under annular velocity-pressure mixed tower radius}
+\text{ / annular pressure-service }L^p\text{ control;}
+\tag{TFE.2251}
+\]
+
+\[
+SV_{res}^{EP}
+\text{ is controlled only by a weighted legal/selector/signed/terminal/geometry}
+\text{ endpoint density or Hardy policy;}
+\tag{TFE.2252}
+\]
+
+and
+
+\[
+SV_{crit}^{EP}
+\text{ is the selected-critical native-birth/root packing part, equivalently}
+\text{ PositiveCriticalTransferBound / NativeBirthChargePacking.}
+\tag{TFE.2253}
+\]
+
+The full-tower notes add one more requirement before `(TFE.2249)' can be used
+as a Gold proof: signed material tower identities must be oriented into
+nonnegative adjacent exchange inequalities.  The installed material law gives
+the mixed pressure-viscosity-incompressibility time tower and signed exchange
+identities.  It does not yet prove that the positive square variation in
+`(TFE.2246)' is retained by a lower-bounded four-body storage.  That missing
+orientation is the `LawBearingExchangeOrientation.A' /
+`FullTowerSignedTotalExchangeRetention.A' content.
+
+Therefore the sharp producer below `(TFE.2239)' is the square-variation theorem
+
+\[
+\boxed{
+Entry_P^{EP}
++
+SV_P^{EP}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P)
+}
+\tag{TFE.2254}
+\]
+
+with \(SV_P^{EP}\) defined on the continuous parent endpoint measure, not on
+dyadic units.  If `(TFE.2254)' is proved from the original coupled packet, then
+`(TFE.2245)' gives `(TFE.2227)', then `(TFE.2216)', then the continuous
+native-reserve pushforward and terminal-uniform selected \(L^1\).  Current
+installed sources prove only the consumer pieces listed in `(TFE.2250)'--
+`(TFE.2253)' under their stated producer hypotheses; they do not yet prove
+`(TFE.2254)' from arbitrary original data.
