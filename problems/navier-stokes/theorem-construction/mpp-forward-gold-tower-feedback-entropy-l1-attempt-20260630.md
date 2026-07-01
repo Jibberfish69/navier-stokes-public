@@ -28053,3 +28053,398 @@ branch splitting, and the endpoint fork.  They do not yet construct the
 parent-known active capacity/root storage `(TFE.1892)'--`(TFE.1903)' from
 arbitrary original Navier--Stokes data.  That construction is the Gold \(L^1\)
 problem.
+
+## 163. Source of the active capacity: stopped participation current
+
+The active capacity in `(TFE.1892)' cannot be a detached entropy counter.  It
+has to be produced by the same coupled packet before selected positive
+clipping.  The checked source surfaces reduce that production to a stopped
+same-material current statement.
+
+Let \(\nu^S\) be the routed selected source measure on a stopped material region
+\(S\).  The physical source-origin statement is
+
+\[
+\nu^S
+=
+D_AJ^S
++\nu^S_{\rm stop}
++\nu^S_{\rm legal},
+\qquad
+D_A=\operatorname{div}_a(A\cdot),
+\tag{TFE.1906}
+\]
+
+where \(J^S\) is the routed participation current of the full packet: pressure
+visible Schur current, pressure-silent commutator/exchange current,
+reset/order-lock current, collar/turnstile current, material-frame/covector
+current, and legal lower-order current.  This is the formal version of the
+physical point that pressure compatibility is not a free positive pulse.  Once
+the coupled law is kept whole, selected source appears as the divergence of a
+same-material current plus already paid stop/legal terms.
+
+For the stopped pressure-Hodge/Hilbert lift
+
+\[
+T_S\nu=\nabla_A L_A^{-1}\nu,
+\tag{TFE.1907}
+\]
+
+the current factorization gives
+
+\[
+T_S(D_AJ^S)=\Pi_{\nabla,A}J^S.
+\tag{TFE.1908}
+\]
+
+After cutoff commutators are charged to collar/stop/legal material, every
+stopped testing packet \(P\subset S\) satisfies
+
+\[
+\|T_S(1_P\nu^S)\|_{L^2(P,\mathcal R)}^2
+\le
+C\int_{\widehat P}|J^S|^2\,d\mathcal R
++CStop(\widehat P)
++CR_{\rm legal}(\widehat P).
+\tag{TFE.1909}
+\]
+
+Thus the singular-transform side is not the hard part.  The hard part is the
+root current packing:
+
+\[
+\sup_{P\subseteq P_0}
+\frac1{\mathcal R(P)}
+\left[
+\int_{\widehat P}|J^S|^2\,d\mathcal R
++Stop(\widehat P)
++R_{\rm legal}(\widehat P)
+\right]
+\le C_N(u_0).
+\tag{TFE.1910}
+\]
+
+If `(TFE.1910)' holds, stopped \(T1/Tb\) or martingale testing gives a
+parent-known BMO carrier
+
+\[
+Z^S=T_S\nu^S
+\tag{TFE.1911}
+\]
+
+with square-function packing
+
+\[
+\sup_{P_0}
+\frac1{\mathcal R(P_0)}
+\sum_{Q\subset P_0}
+\|\Delta_QZ^S\|_{\mathfrak H_P}^2\mathcal R(Q)
+\le C_N(u_0)+R_{\rm legal}+Stop.
+\tag{TFE.1912}
+\]
+
+The selected readout must then be a nondegenerate child reading of this carrier:
+
+\[
+\log\frac{f_Q}{f_{par(Q)}}
+=
+\ell_Q(\Delta_QZ^S)-\psi_Q+e_Q,
+\tag{TFE.1913}
+\]
+
+with \(\psi_Q\), \(e_Q\), reselection, order-lock, legal, and stop errors
+Carleson.  If the stopped BMO square-packing has a strict exponential margin at
+the selected readout exponent, or if it is upgraded directly to the
+entropy-weighted active measure, John--Nirenberg / dyadic good-lambda then turns
+`(TFE.1912)' into the parent-known entropy or reverse-Holder bound
+
+\[
+\int f_P\log(e+f_P)\,d\mathcal R_P
+\le C_N(u_0)+R_{\rm legal}+Stop,
+\tag{TFE.1914}
+\]
+
+which is exactly the active capacity/root bound needed in `(TFE.1892)'--`(TFE.1901)'.
+The strict exponential/entropy upgrade is essential; unweighted square-packing
+of \(\Delta_QZ^S\) is only logarithmic control.
+
+Therefore the active capacity source chain is
+
+\[
+\boxed{
+\begin{array}{c}
+\nu^S=D_AJ^S+\text{paid stop/legal}\\
++\text{stopped }L^2\text{-Carleson packing of }J^S\\
++\text{nondegenerate selected readout}\\
++\text{strict entropy/reverse-Holder margin}\\[2pt]
+\Longrightarrow\\[2pt]
+\text{OriginalHistoryHilbertBMOProducer}\\
+\Longrightarrow
+\text{active entropy/reverse Holder}\\
+\Longrightarrow
+\text{strict half-barrier and terminal }L^1 .
+\end{array}}
+\tag{TFE.1915}
+\]
+
+The repo surfaces also identify the only noncircular way presently known to
+produce `(TFE.1910)'.  The stopped root generator is
+
+\[
+\mathcal G^{root}_P
+=
+\partial_\sigma Z_P
++[D_t,L_A]w
++\operatorname{turnstile}
++\operatorname{exchange}
++\operatorname{covector}
++\operatorname{frame}
++\operatorname{collar/endpoint}
+\tag{TFE.1916}
+\]
+
+after parent subtraction and before child positive readout.  The required
+storage/coercivity inequality is
+
+\[
+H_P^\ast\|\mathcal G^{root}_P\|^2\,d\sigma dt
++dA_P^{sel/chart}
+\le
+-D_{\sigma,t}M_P
++d\Theta_P^{orig}
++dR_{\rm legal}
++dStop,
+\tag{TFE.1917}
+\]
+
+with
+
+\[
+M_P\ge -C_N(u_0),
+\qquad
+\int d\Theta_P^{orig}
+\le C_N(u_0)+R_{\rm legal}+Stop.
+\tag{TFE.1918}
+\]
+
+Integrating `(TFE.1917)' gives the current/root-generator packing `(TFE.1910)'.
+This is the precise PDE source theorem:
+
+\[
+\texttt{OriginalScaleMemoryStorageCoercivity.A}
+\quad\Longleftrightarrow\quad
+\texttt{StoppedRoutedParticipationCurrentCarleson.A}
+\tag{TFE.1919}
+\]
+
+at the current Gold edge.
+
+The thick/thin stopped-testing audit says that the reference-state part is
+already clean on thick selected supports.  The remaining testing defects are
+exactly
+
+\[
+Def_{\rm thin}(P)
+=
+\bigl(\theta_P^{-1}-\theta_\ast^{-1}\bigr)_+\mathcal R(P),
+\qquad
+\theta_P=\frac{\mathcal R(S_P)}{\mathcal R(P)},
+\tag{TFE.1920}
+\]
+
+and local testing excess after the routed-current decomposition.  They must
+pack:
+
+\[
+\sum_{P\subset P_0}Def_{\rm thin}(P)
++\sum_{P\subset P_0}Def_{\rm test}(P)
+\le
+C_N(u_0)\mathcal R(P_0)+R_{\rm legal}+Stop.
+\tag{TFE.1921}
+\]
+
+So the current bottom of the \(L^1\) problem is not an abstract \(L^1\) theorem,
+not pressure-only transport, and not viscosity-only drain.  It is the following
+same-packet current/storage theorem:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{construct the routed participation current }J^S\text{ before clipping,}\\
+\text{prove its stopped }L^2\text{ Carleson packing from }(TFE.1917),\\
+\text{prove selector-thin and testing defects pack,}\\
+\text{and prove selected readout nondegeneracy }(TFE.1913).
+\end{array}}
+\tag{TFE.1922}
+\]
+
+If `(TFE.1922)' is proved from arbitrary original data, it supplies the active
+capacity in `(TFE.1892)', hence `(TFE.1905)'.  If it fails, the failure is now
+localized: either the routed source is not a same-material divergence current,
+the participation current lacks original-history Carleson packing, selector
+thin/testing defects do not pack, or terminal source mass lacks the endpoint
+thickness already isolated in Section 159--160.  Existing notes do not prove
+these failures impossible; they only show that all other apparent \(L^1\)
+branches are consumers or coordinates of this current/storage law.
+
+## 164. Routed-current relay correction: log-square is not selected \(L^1\)
+
+The routed-current promotion surfaces contain a tempting local spine:
+
+\[
+\text{current square-packing}
++\text{selector log identity}
+\Longrightarrow
+\text{selected first-ratio action}.
+\tag{TFE.1923}
+\]
+
+That implication needs an additional entropy/reverse-Holder margin.  Plain
+square-packing of the log readout does not pay the Gold \(L^1\) quantity.
+
+The selector identity has the form
+
+\[
+\Delta_Q\lambda_{\rm sel}
+=
+\ell_Q(\Delta_QJ^S)-\psi_Q+e_Q,
+\qquad
+\psi_Q\ge0,
+\tag{TFE.1924}
+\]
+
+and current square-packing gives, at best,
+
+\[
+\sum_Q |\Delta_Q\lambda_{\rm sel}|^2\,\mathcal R(Q)
+\le C_N(u_0)+R_{\rm legal}+Stop.
+\tag{TFE.1925}
+\]
+
+But the selected first-ratio action is exponential in this log increment.  If
+
+\[
+r_Q=\exp(\Delta_Q\lambda_{\rm sel})
+=\frac{f_Q}{f_{par(Q)}},
+\tag{TFE.1926}
+\]
+
+then the Gold \(L^1\) mass is modeled by
+
+\[
+\sum_Q r_Q\,\mathcal R(Q),
+\tag{TFE.1927}
+\]
+
+or, in dyadic ratio layers, by
+
+\[
+\sum_{\ell\ge0}2^\ell\nu_\ell.
+\tag{TFE.1928}
+\]
+
+The half-tail defeats the log-square relay:
+
+\[
+r_\ell=2^\ell,
+\qquad
+\nu_\ell=\frac{2^{-\ell}}{\ell+1}.
+\tag{TFE.1929}
+\]
+
+Then
+
+\[
+\sum_{\ell\ge0}\nu_\ell<\infty,
+\qquad
+\sum_{\ell\ge0}(\log r_\ell)^2\nu_\ell
+\simeq
+\sum_{\ell\ge0}\ell^2\frac{2^{-\ell}}{\ell+1}
+<\infty,
+\tag{TFE.1930}
+\]
+
+while
+
+\[
+\sum_{\ell\ge0}r_\ell\nu_\ell
+=
+\sum_{\ell\ge0}\frac1{\ell+1}
+=\infty.
+\tag{TFE.1931}
+\]
+
+So the local relay line
+
+\[
+A_{\rm sel}(Q)
+\lesssim
+[\Delta_Q\lambda_{\rm sel}]_+^2\mathcal R(Q)
++R_{\rm legal}+Stop
+\tag{TFE.1932}
+\]
+
+is not a valid Gold \(L^1\) estimate for arbitrary data.  It is valid only for
+a different square readout, or after a separate theorem gives a bounded
+density, a small enough BMO norm, a reverse-Holder exponent at the selected
+scale, or the active entropy bound.
+
+The correct relay is therefore
+
+\[
+\text{current square-packing}
++\text{selector log identity}
++\text{strict exponential margin}
+\Longrightarrow
+\text{selected }L^1.
+\tag{TFE.1933}
+\]
+
+Equivalently, replace unweighted current packing by active entropy/current
+packing:
+
+\[
+\int f_P\log(e+f_P)\,d\mathcal R_P
+\le C_N(u_0)+R_{\rm legal}+Stop,
+\tag{TFE.1934}
+\]
+
+or by a strict reverse-Holder/good-lambda estimate strong enough to beat
+\(\theta=1/2\).
+
+This is the physical correction.  A parent current can prove where the selected
+read came from, and ordinary square-packing can prove the log-score does not
+oscillate too much in an \(L^2\) sense.  The \(L^1\) problem asks for something
+stronger: the pressure-heat-viscous feedback loop must prevent exponentially
+many high-ratio positive child reads from remaining accessible.  That is an
+entropy or strict good-lambda statement, not a plain square-current statement.
+
+Thus the stopped routed-current route has the following audited status:
+
+\[
+\boxed{
+\begin{array}{c}
+\nu^S=D_AJ^S+\text{paid terms}
+\quad\text{is source-origin support;}\\
+\text{ordinary }J^S\text{ square-packing is logarithmic/BMO support;}\\
+\text{Gold }L^1\text{ still needs entropy-weighted current packing}\\
+\text{or a strict reverse-Holder/good-lambda margin.}
+\end{array}}
+\tag{TFE.1935}
+\]
+
+The live bottom is therefore sharper than `(TFE.1922)'.  The current/storage
+theorem must prove not only stopped \(L^2\) Carleson packing of \(J^S\), but the
+selected-exponent strengthening
+
+\[
+\boxed{
+\texttt{StoppedRoutedParticipationCurrentEntropyCarleson.A}
+}
+\tag{TFE.1936}
+\]
+
+meaning parent-known entropy/reverse-Holder control for the selected readout of
+that same current, before child positive clipping.  This is equivalent to the
+strict half-barrier `(TFE.1903)' and to the active state-deletion storage
+`(TFE.1892)' at the current Gold edge.
