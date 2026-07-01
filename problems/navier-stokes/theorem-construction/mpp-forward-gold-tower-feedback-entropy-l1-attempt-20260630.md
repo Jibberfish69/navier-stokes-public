@@ -31187,7 +31187,7 @@ F_\gamma(t)
 =
 |I_\gamma|^{-1}
 \int_{I_\gamma}G_\gamma(\sigma,t)\,d\sigma
-Err_\gamma^{legal}(t),
++Err_\gamma^{legal}(t),
 \tag{TFE.2134}
 \]
 
@@ -36371,3 +36371,568 @@ delay readouts, but the active density that measures those readouts must be
 made out of the same full-exchange ledger before any child can clip positive
 action.  Once that same ledger has a bounded-below no-self-feeding storage, the
 exact \(L^1\) integral is finite by Section 213.
+
+## 215. Before-clipping active-density comparison reduces to thickness, no-residue, and exponential carrier
+
+The comparison `(TFE.2485)' also has a precise internal split.  It is not one
+more black-box estimate.  It is the continuous parent-measure version of
+`(TFE.2079)', `(TFE.2085)', and `(TFE.2130)'.
+
+Let the parent active space be covered by stopped active fibres \(E\in\mathcal E_P\)
+with bounded overlap:
+
+\[
+\sum_{E\in\mathcal E_P}\mathbf 1_E\le C_N.
+\tag{TFE.2494}
+\]
+
+On each fibre write the selected density before clipping as
+
+\[
+R_E
+=
+{\exp b_E\over\langle\exp b_E\rangle_E},
+\qquad
+b_E=\ell_E(Z^S)-\psi_E+e_E,
+\tag{TFE.2495}
+\]
+
+where \(Z^S,\psi_E,e_E\) are parent-known original-history quantities: routed
+pressure-Hodge/strain/current frame, collar/selector/order-lock correction,
+and paid error.  If the stopped original-history carrier gives a
+reverse-Holder gain
+
+\[
+\int_E R_E^{1+\varepsilon}\,d\mathfrak m_E
+\le
+C_{\varepsilon,N}\mathfrak m_E(E)+Paid(E),
+\tag{TFE.2496}
+\]
+
+then
+
+\[
+\int_E\Phi(R_E)\,d\mathfrak m_E
+\le
+C_{\varepsilon,N}\mathfrak m_E(E)+Paid(E),
+\qquad
+\Phi(r)=r\log(e+r).
+\tag{TFE.2497}
+\]
+
+Summing over fibres with `(TFE.2494)' gives
+
+\[
+\int_{\mathfrak S_P}\Phi(R_P^+)\,d\mathfrak m_P
+\le
+C_N\mathfrak m_P(\mathfrak S_P)+Paid(P).
+\tag{TFE.2498}
+\]
+
+Thus the entropy half of `(TFE.2485)' is a deterministic consumer once the
+parent measure is built and the exponential carrier `(TFE.2496)' is proved.
+The thickness half asks for that same parent measure to be dominated by
+original native/full-exchange material:
+
+\[
+\mathfrak m_P(\mathfrak S_P)
+\le
+C_N
+\int_{\operatorname{Hist}(P)}d\Xi_P^{FE}
++Paid(P).
+\tag{TFE.2499}
+\]
+
+In the fresh native-birth coordinates this is the continuous pushforward
+statement
+
+\[
+dA_{\Gamma,P}^{fr,+}
+\ll
+d\rho_P^{nat},
+\qquad
+{dA_{\Gamma,P}^{fr,+}\over d\rho_P^{nat}}\le C_N,
+\qquad
+\int d\rho_P^{nat}\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2500}
+\]
+
+In the endpoint coordinates it is terminal no-residue in the same measure:
+
+\[
+\lim_{\delta\downarrow0}
+\sup_{\tau<T_*}
+\mathfrak m_{P,\tau}\bigl(\mathfrak S_{P,\tau}\cap\{T_*-\delta<t<T_*\}\bigr)
+=0.
+\tag{TFE.2501}
+\]
+
+Combining `(TFE.2498)' and `(TFE.2499)' gives the integrated form of
+`(TFE.2485)':
+
+\[
+\mathfrak m_P(\mathfrak S_P)
++
+\int_{\mathfrak S_P}\Phi(R_P^+)\,d\mathfrak m_P
+\le
+C_N
+\int_{\operatorname{Hist}(P)}d\Xi_P^{FE}
++Paid(P),
+\tag{TFE.2502}
+\]
+
+with terminal atom excluded by `(TFE.2501)'.  Therefore
+
+\[
+\boxed{
+\begin{aligned}
+\texttt{BeforeClippingActiveDensityComparison.A}
+\Leftarrow{}&
+\texttt{ContinuousNativeBirthReservePushforward.A}\\
+&+\texttt{OriginalHistoryExponentialBMOReverseHolderProducer.A}\\
+&+\texttt{TerminalFirstTimeRungNoResidue.A}.
+\end{aligned}}
+\tag{TFE.2503}
+\]
+
+This is the same three-clause bottom already reached in `(TFE.2130)', now
+installed directly under the final source theorem `(TFE.2493)'.  It also shows
+which parts are deterministic consumers:
+
+\[
+\begin{array}{c}
+\text{reverse Holder } \Rightarrow \text{ entropy by `(TFE.2497)';}\\
+\text{bounded fibre overlap } \Rightarrow \text{ summed entropy by `(TFE.2498)';}\\
+\text{native pushforward/thickness/no-residue } \Rightarrow \text{ parent measure finiteness.}
+\end{array}
+\tag{TFE.2504}
+\]
+
+The only pieces not proved by this section are the original-data construction
+of `(TFE.2496)', `(TFE.2500)', and `(TFE.2501)' for the same coupled
+pressure-viscosity-incompressibility-velocity packet.  Once those are proved,
+`(TFE.2502)' gives `(TFE.2485)', `(TFE.2485)' plus full-exchange depletion gives
+`(TFE.2490)', and Section 213 gives terminal-uniform selected \(L^1\).
+
+## 216. Reverse-Holder is a consumer of stopped parent log-carrier BMO
+
+The reverse-Holder clause `(TFE.2496)' should also be split.  It is not a
+separate Navier--Stokes source once the selected log carrier \(b_E\) is
+constructed from the parent packet.  The PDE source is the before-clipping
+carrier and its stopped square/BMO control; the reverse-Holder conclusion is
+standard martingale/exponential-BMO bookkeeping.
+
+For every stopped active fibre \(E\), assume the parent history supplies
+
+\[
+b_E=\ell_E(Z^S)-\psi_E+e_E
+\tag{TFE.2505}
+\]
+
+before child clipping, and that the stopped oscillation satisfies
+
+\[
+\|b_E-\langle b_E\rangle_{E'}\|_{BMO(d\mathfrak m_{E'})}
+\le K_N(u_0)
+\qquad\text{for every stopped subfibre }E'\subseteq E,
+\tag{TFE.2506}
+\]
+
+with paid stopping on the exceptional subfibres.  Equivalently, by
+John--Nirenberg/Kazamaki, there are \(\alpha_N>0\) and \(C_N\) such that
+
+\[
+{1\over\mathfrak m(E')}
+\int_{E'}
+\exp\!\left(
+\alpha_N|b_E-\langle b_E\rangle_{E'}|
+\right)d\mathfrak m
+\le C_N
+\tag{TFE.2507}
+\]
+
+for every stopped \(E'\subseteq E\), up to paid exceptional pieces.
+
+Define the normalized selected density
+
+\[
+R_E
+=
+{\exp b_E\over\langle \exp b_E\rangle_E}.
+\tag{TFE.2508}
+\]
+
+Choose \(0<\varepsilon_N<\alpha_N\).  Since
+\(\langle\exp b_E\rangle_E\ge \exp\langle b_E\rangle_E\) by Jensen,
+
+\[
+\begin{aligned}
+{1\over\mathfrak m(E)}
+\int_E R_E^{1+\varepsilon_N}\,d\mathfrak m
+&=
+{1\over\mathfrak m(E)}
+{ \int_E e^{(1+\varepsilon_N)b_E}\,d\mathfrak m
+\over
+\langle e^{b_E}\rangle_E^{1+\varepsilon_N}
+}\\
+&\le
+{1\over\mathfrak m(E)}
+\int_E
+e^{(1+\varepsilon_N)(b_E-\langle b_E\rangle_E)}
+d\mathfrak m\\
+&\le C_N .
+\end{aligned}
+\tag{TFE.2509}
+\]
+
+Thus
+
+\[
+\int_E R_E^{1+\varepsilon_N}\,d\mathfrak m_E
+\le
+C_N\,\mathfrak m_E(E)+Paid(E),
+\tag{TFE.2510}
+\]
+
+which is `(TFE.2496)'.  Then `(TFE.2497)'--`(TFE.2498)' give the entropy half
+of `(TFE.2485)'.
+
+So the exact replacement for
+`OriginalHistoryExponentialBMOReverseHolderProducer.A' is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{BeforeClippingSelectedLogCarrier.A: construct \(b_E\) as in `(TFE.2505)';}\\
+\texttt{StoppedParentLogCarrierBMO.A: prove `(TFE.2506)' or `(TFE.2507)'.}
+\end{array}}
+\tag{TFE.2511}
+\]
+
+The first line is a coupled-packet representation theorem: the logarithmic
+selected ratio must be built from routed pressure-Hodge/current frame,
+viscous/Stokes descent, self-advection, collar/turnstile, selector/order-lock,
+return, legal, and stop material before clipping.  The second line is the
+root-square/Carleson packing theorem for that carrier.  Once those two are
+proved, the reverse-Holder and entropy estimates are deterministic.
+
+In the exact \(L^1\) chain this changes the open source list from
+
+\[
+\texttt{ContinuousNativeBirthReservePushforward.A}
++
+\texttt{OriginalHistoryExponentialBMOReverseHolderProducer.A}
++
+\texttt{TerminalFirstTimeRungNoResidue.A}
+\tag{TFE.2512}
+\]
+
+to
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{ContinuousNativeBirthReservePushforward.A}\\
++\texttt{BeforeClippingSelectedLogCarrier.A}\\
++\texttt{StoppedParentLogCarrierBMO.A}\\
++\texttt{TerminalFirstTimeRungNoResidue.A}\\
++\texttt{FullExchangeCriticalDepletionStorage.A.}
+\end{array}}
+\tag{TFE.2513}
+\]
+
+This is not more work than before.  It removes a misleading analytic label:
+reverse Holder is the consequence of a parent-known log carrier with stopped
+BMO/exponential control.  The remaining mathematical burden is to build that
+carrier and its BMO/Carleson bound from the same original coupled packet that
+also supplies native pushforward, terminal no-residue, and strict full-exchange
+depletion.
+
+## 217. Native pushforward is an exact parent scale-memory integral
+
+The native-birth clause `(TFE.2500)' should be read in the exact integral
+sense from Section 212.  It is not a dyadic count of zoomed units.  The parent
+packet supplies one scale-memory history, and a selected first birth is admitted
+only through the pushforward of that original history measure.
+
+The legitimate reason dyadic scales appeared earlier is the Littlewood--Paley
+translation between the \(H^s\) and \(L^p\) sides of the same signal.  Sobolev
+energy is square-summed over scales,
+
+\[
+\|f\|_{\dot H^s}^2
+\sim
+\sum_j2^{2sj}\|P_jf\|_2^2,
+\]
+
+while Bernstein converts one band at a time,
+
+\[
+\|P_jf\|_p
+\lesssim
+2^{3j(1/2-1/p)}\|P_jf\|_2
+\qquad (3D).
+\]
+
+Thus the dyadic index is a lawful scale coordinate for comparing square
+Sobolev energy to \(L^p\) readout.  The \(L^1\) obstruction appears because
+selected positive variation is linear across scale while Sobolev energy is
+square across scale.  The dyadic decomposition exposes that
+\(\ell^2\)-versus-\(\ell^1\) gap; it does not license treating every rescaled
+child coordinate as a new physical unit.
+
+Let \(\mathfrak K_P^{fr}\) be the stopped parent space of retained fresh
+witnesses with coordinates \((\gamma,\sigma,t)\), where
+\(\sigma\in I_\gamma\) is the parent scale-memory coordinate and \(t\in T_\gamma\)
+is the same material time.  The projection
+
+\[
+\pi_P^{fr}:\mathfrak K_P^{fr}\to\Gamma_P^{fr},
+\qquad
+\pi_P^{fr}(\gamma,\sigma,t)=\gamma,
+\tag{TFE.2514}
+\]
+
+forgets only the internal scale-memory coordinate.  It does not create a new
+physical unit at each scale.  Define the original native parent measure by
+
+\[
+d\rho_P^{nat}
+=
+a(\sigma,t)\|G_\gamma(\sigma,t)\|_{\mathcal H_{raw}}^2
+\,d\sigma\,dt\,d\eta_P(\gamma)
++dPaid_P^{legal/stop},
+\tag{TFE.2515}
+\]
+
+on \(\mathfrak K_P^{fr}\), modulo the bounded-overlap identification of
+same-material copies.  The selected fresh action measure is
+
+\[
+\int_{\Gamma_P^{fr}}\varphi(\gamma)\,dA_{\Gamma,P}^{fr,+}(\gamma)
+:=
+\int_{\Gamma_P^{fr}}
+\varphi(\gamma)\,
+W_\gamma\|F_\gamma\|_{\mathcal H_{raw}}^2\,d\eta_P(\gamma)
++Paid_\varphi(P),
+\tag{TFE.2516}
+\]
+
+for nonnegative parent-known tests \(\varphi\).
+
+Using the parent-known scale-memory representation `(TFE.2134)' and the
+definition of \(W_\gamma\) in `(TFE.2135)', Cauchy's inequality gives, for
+every nonnegative parent-known \(\varphi\),
+
+\[
+\begin{aligned}
+\int_{\Gamma_P^{fr}}\varphi\,dA_{\Gamma,P}^{fr,+}
+&\le
+C
+\int_{\mathfrak K_P^{fr}}
+\varphi(\pi_P^{fr}(\gamma,\sigma,t))\,
+a(\sigma,t)\|G_\gamma(\sigma,t)\|_{\mathcal H_{raw}}^2
+\,d\sigma\,dt\,d\eta_P(\gamma)\\
+&\qquad + Paid_\varphi(P).
+\end{aligned}
+\tag{TFE.2517}
+\]
+
+Equivalently,
+
+\[
+dA_{\Gamma,P}^{fr,+}
+\le
+C\,(\pi_P^{fr})_\#d\rho_P^{nat}+dPaid_P.
+\tag{TFE.2518}
+\]
+
+This is the exact parent-measure form of first admission.  A child readout may
+use a dyadic or stopped label to locate \(\gamma\), but its size has already
+been pulled back through \(W_\gamma\), \(I_\gamma\), \(a\), and \(G_\gamma\)
+before the positive part is counted.
+
+The bounded-overlap/laminar witness statement `(TFE.2137)' is now only the
+finite-multiplicity step that removes duplicate parametrizations of the same
+parent material.  It gives
+
+\[
+\int_{\Gamma_P^{fr}}\varphi\,dA_{\Gamma,P}^{fr,+}
+\le
+C_N
+\int_{\operatorname{Hist}(P)}
+\varphi^\sharp(\sigma,t)\,
+a(\sigma,t)\|G(\sigma,t)\|_{\mathcal H_{raw}}^2\,d\sigma\,dt
++Paid_\varphi(P),
+\tag{TFE.2519}
+\]
+
+where \(\varphi^\sharp\) is the parent pullback of the selected test.  Taking
+\(\varphi\equiv1\) and using the original generator-energy bound `(TFE.2138)'
+gives
+
+\[
+\int_{\Gamma_P^{fr}}dA_{\Gamma,P}^{fr,+}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2520}
+\]
+
+which is `(TFE.2500)'.
+
+Thus the continuous native pushforward clause is not an independent PDE source
+once three parent facts are present:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{FreshSourceScaleMemoryRepresentation.A}\\
++\texttt{FreshSourceWitnessSparsePacking.A}\\
++\texttt{OriginalScaleMemoryGeneratorEnergyBound.A}
+\end{array}}
+\Longrightarrow
+\texttt{ContinuousNativeBirthReservePushforward.A.}
+\tag{TFE.2521}
+\]
+
+The first two are exact-coordinate consumers: a fundamental theorem of calculus
+along the parent scale-memory coordinate and a finite-overlap theorem for
+parent-known witnesses.  The real source estimate is still
+
+\[
+\boxed{\texttt{OriginalScaleMemoryGeneratorEnergyBound.A}}
+\tag{TFE.2522}
+\]
+
+in the same coupled pressure-Hodge, viscous/Stokes, self-advection,
+incompressibility, frame/collar/selector, return, legal, and stop packet.
+Sections 182 and 210 already identify this source with the strict original
+ledger/full-exchange storage line `(TFE.2151)' / `(TFE.2426)'.
+
+Consequently the current open source list after consuming native pushforward is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{OriginalScaleMemoryGeneratorEnergyBound.A}\\
++\texttt{BeforeClippingSelectedLogCarrier.A}\\
++\texttt{StoppedParentLogCarrierBMO.A}\\
++\texttt{TerminalFirstTimeRungNoResidue.A}\\
++\texttt{FullExchangeCriticalDepletionStorage.A.}
+\end{array}}
+\tag{TFE.2523}
+\]
+
+This list still is not Gold closure, but it is now exact about the rescaling
+ontology.  The half-tail cannot be produced by summing moving child units; it
+can survive only as failure of the original coupled packet to provide the
+weighted generator measure, the before-clipping log carrier/BMO control,
+terminal no-residue, or strict full-exchange depletion.
+
+## 218. Generator energy is a component of the full-exchange clock
+
+Section 217 still lists `OriginalScaleMemoryGeneratorEnergyBound.A' next to
+`FullExchangeCriticalDepletionStorage.A'.  These are not separate physical
+sources.  The scale-memory generator energy is the native-birth component of
+the same full-exchange generator clock used in `(TFE.2411)'--`(TFE.2426)'.
+
+Write the generator clock as
+
+\[
+d\Omega_P^{gen}
+=
+a(\sigma,t)\|G_P^{root}(\sigma,t)\|_{\mathcal H_{raw}}^2
+\,d\sigma\,dt
++dA_P^{sel/chart}
++dPaid_P,
+\tag{TFE.2524}
+\]
+
+where \(G_P^{root}\) is the parent-known coupled scale-memory/root generator:
+routed pressure-Hodge/current frame, viscous/Stokes descent, self-advection,
+incompressibility frame, collar/selector motion, return, legal, and stop
+coordinates before clipping.  The native generator in `(TFE.2515)' is a
+projection of this root generator, so for the fresh subspace
+
+\[
+a\|G_\gamma\|_{\mathcal H_{raw}}^2\,d\sigma\,dt\,d\eta_P(\gamma)
+\le
+C_N\,d\Omega_P^{gen}+dPaid_P.
+\tag{TFE.2525}
+\]
+
+The strict full-exchange storage theorem has the form
+
+\[
+d\Omega_P^{gen}
+\le
+C_N\,d\Xi_P^{FE}+dPaid_P,
+\tag{TFE.2526}
+\]
+
+and
+
+\[
+d\Xi_P^{FE}
+\le
+-dM_P+d\Theta_P^0+\vartheta_N d\Omega_P^{gen}+dPaid_P,
+\qquad
+C_N\vartheta_N<1,
+\tag{TFE.2527}
+\]
+
+with \(M_P\) bounded below and \(\int d\Theta_P^0\le C_N(u_0)\mathcal R(P)\).
+Integrating `(TFE.2526)'--`(TFE.2527)' and absorbing gives
+
+\[
+\int_{\operatorname{Hist}(P)}d\Omega_P^{gen}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2528}
+\]
+
+Combining `(TFE.2525)' with `(TFE.2528)' gives the source estimate needed in
+Section 217:
+
+\[
+\int_{\operatorname{Hist}(P)}
+a(\sigma,t)\|G(\sigma,t)\|_{\mathcal H_{raw}}^2\,d\sigma\,dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2529}
+\]
+
+which is `OriginalScaleMemoryGeneratorEnergyBound.A' / `(TFE.2138)'.
+
+Therefore the native-pushforward chain is
+
+\[
+\boxed{
+\texttt{FullExchangeCriticalDepletionStorage.A}
+\Longrightarrow
+\texttt{OriginalScaleMemoryGeneratorEnergyBound.A}
+\Longrightarrow
+\texttt{ContinuousNativeBirthReservePushforward.A}.
+}
+\tag{TFE.2530}
+\]
+
+This removes one duplicate source name from the current \(L^1\) wall.  The
+remaining open source package is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{FullExchangeCriticalDepletionStorage.A}\\
++\texttt{BeforeClippingSelectedLogCarrier.A}\\
++\texttt{StoppedParentLogCarrierBMO.A}\\
++\texttt{TerminalFirstTimeRungNoResidue.A.}
+\end{array}}
+\tag{TFE.2531}
+\]
+
+This is still not Gold closure.  It says the first-birth/native-reserve half of
+the \(L^1\) problem is no longer a separate counting theorem after the exact
+parent pushforward is installed.  It is paid by the same strict full-exchange
+storage theorem that must also prevent the original coupled packet from
+self-feeding active generator clock near terminal time.

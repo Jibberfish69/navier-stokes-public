@@ -7,6 +7,46 @@ For the folder-wide layer map that separates route authority, live frontier,
 modern overlays, sidecars, and stale generated surfaces, see
 [ns-layered-route-graph.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/ns-layered-route-graph.md).
 
+## Above-Route Gold/Silver Analogy
+
+Within the analogy, Gold is tautology-style propagation:
+
+\[
+\forall u_0\in X,\quad \text{regularity/controlled evolution holds}.
+\]
+
+Every admissible starting case satisfies the forward claim:
+
+\[
+\text{all valid inputs propagate regularity}.
+\]
+
+Silver is unsatisfiability-style obstruction exclusion:
+
+\[
+\nexists w,\quad \text{admissible blowup witness } w \text{ exists},
+\]
+
+equivalently,
+
+\[
+\forall w,\quad \text{candidate blowup witness } w \text{ fails admissibility}.
+\]
+
+Silver says:
+
+\[
+\text{the counterexample space is empty}.
+\]
+
+Gold proves the desired world directly. Silver proves the obstruction-world has
+no valid inhabitant.
+
+Clean labels:
+
+- Gold = tautology-style propagation.
+- Silver = unsatisfiability-style obstruction exclusion.
+
 ## Route Summary
 
 - Working target: the manuscript opens from the CM contrapositive class-exit proof program: finite Clay terminal witness entry, Silver Part/Field finite-failure exhaustion after live-object participation is typed, outside-CM participation-field/window original-participation audit where needed, and `Exit(Q):=not Member(Q)`.
