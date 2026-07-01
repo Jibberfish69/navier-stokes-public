@@ -1572,3 +1572,118 @@ The installed surfaces prove the equivalence/reduction map around this object
 and the downstream consumers once it is granted.  They do not yet prove the
 strict same-parent positive-variation estimate from arbitrary original smooth
 data.
+
+## 19. Entropy deletion is deterministic; the PDE source is weighted fresh packing
+
+The active-entropy calculation is not the missing proof.  It is the deterministic
+consumer that explains exactly why the half-tail would die after the parent
+packet supplies a before-clipping active density.
+
+Let \(f_P\,d\mathcal R_P\) be a parent-known selected active density on the
+original stopped packet, and set
+
+\[
+\mathcal C_P^{ent}
+:=
+\int_P f_P\log(e+f_P)\,d\mathcal R_P .
+\tag{TFE2748B.97}
+\]
+
+For the level pieces
+
+\[
+E_L=\{2^L\le f_P<2^{L+1}\},
+\qquad
+a_L=\int_{E_L}f_P\,d\mathcal R_P ,
+\tag{TFE2748B.98}
+\]
+
+one has, for \(L\ge1\),
+
+\[
+\int_{E_L}f_P\log(e+f_P)\,d\mathcal R_P
+\ge cL\,a_L,
+\qquad
+\sum_{L\ge1}a_L
+\le C\mathcal C_P^{ent}.
+\tag{TFE2748B.99}
+\]
+
+Thus a model half-tail \(f_L=2^L\) on mass \(\mu_L=2^{-L}/(L+1)\) has infinite
+selected \(L^1\) mass and infinite active entropy:
+
+\[
+\sum_L 2^L\mu_L=\infty,
+\qquad
+\sum_L L\,2^L\mu_L=\infty.
+\tag{TFE2748B.100}
+\]
+
+This proves the state-count deletion algebra: parent-known \(L\log L\), or any
+stronger reverse-Holder bound, controls the positive selected count.  What it
+does not prove is that the original coupled Navier--Stokes packet actually
+produces such an \(f_P\) with root-finite entropy before the child readout is
+clipped.
+
+The current PDE source therefore sits one layer lower.  After inherited record,
+spent source, return, reset, selector motion, legal, and stop material are
+removed, write each fresh coupled generator increment as
+
+\[
+D_e^{new}
+=
+\Pi_e^{fresh}
+\bigl(D_e^{comm}+D_e^{cov}+D_e^{frame}+D_e^{turn}+D_e^{scale}\bigr)
++D_e^{legal}+D_e^{stop}.
+\tag{TFE2748B.101}
+\]
+
+Raw parent-subtracted orthogonality gives only
+
+\[
+\sum_{e\subset P'}\int
+\|\Pi_e^{fresh}F_e(t)\|_{\mathcal H_{orig}}^2\,dt
+\le C_N\|F\|_{\mathcal H_{orig}}^2+Paid(P').
+\tag{TFE2748B.102}
+\]
+
+Gold needs the selected-critical weighted form
+
+\[
+\sum_{e\subset P'}\int
+H_{e^-}(t)\|\Pi_e^{fresh}F_e(t)\|_{\mathcal H_{orig}}^2\,dt
+\le
+C_N(u_0)\mathcal R(P')+Paid(P'),
+\tag{TFE2748B.103}
+\]
+
+where \(H_{e^-}\) is the active heat-scale/log-amplification weight announced by
+the parent history before the fresh increment is read.  If \(H_{e^-}\) is chosen
+after seeing \(\Pi_e^{fresh}F_e\), `(TFE2748B.103)' is exactly the forbidden
+future-selected tail.  If \(H_{e^-}\) is genuinely parent-predictable in the same
+stopped filtration as \(\Pi_e^{fresh}\), then weighted martingale/Bessel packing
+is the correct mechanism.
+
+The sharpened source theorem is therefore:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{ParentPredictableWeightedFreshGeneratorPacking.A:}\\
+\text{construct \(H_{e^-}\), the fresh projection, and \(F_e\) from the original
+stopped packet before clipping,}\\
+\text{prove `(TFE2748B.103)' from original-history commutator/covector/frame/
+turnstile/scale charges,}\\
+\text{and route all failures to reset, reselection, legal, stop, or endpoint
+no-residue material.}
+\end{array}}
+\tag{TFE2748B.104}
+\]
+
+This is the same source as `StoppedSelectorPredictableWeight.A' /
+`OriginalHistoryParentPredictableFreshInnovationCarleson.A' / the critical
+fresh-source tent bound / `PositiveCriticalTransferBound.A', but expressed in
+the current continuous parent-capacity coordinates.  Proving `(TFE2748B.104)'
+would supply `(TFE2748B.55)', then the entropy deletion `(TFE2748B.97)'--`(TFE2748B.100)',
+then the critical-entry storage `(TFE2748B.75)'.  The repo does not yet prove
+`(TFE2748B.104)' from arbitrary original smooth data.
