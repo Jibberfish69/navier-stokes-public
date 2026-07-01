@@ -9,14 +9,20 @@ ACTIVE_PATHS = %w[
   problems/navier-stokes/assumption-ledger.yaml
   problems/navier-stokes/authority-reconciliation.yaml
   problems/navier-stokes/auto-audit.yaml
+  problems/navier-stokes/artifact-self-repair.yaml
   problems/navier-stokes/campaign-status.yaml
+  problems/navier-stokes/cm-convergence-atlas.yaml
+  problems/navier-stokes/current-route-reproducibility-bundle.yaml
   problems/navier-stokes/debt-map.yaml
   problems/navier-stokes/final-release-snapshot.md
+  problems/navier-stokes/full-proof-campaign.yaml
+  problems/navier-stokes/layered-route-graph.yaml
   problems/navier-stokes/live-theorem-edge.yaml
   problems/navier-stokes/manuscript-depth.yaml
   problems/navier-stokes/marvin-v6-tandem-crosswalk.yaml
   problems/navier-stokes/paper-quality-verdict.yaml
   problems/navier-stokes/pipeline-state.yaml
+  problems/navier-stokes/post-release-plan.yaml
   problems/navier-stokes/promotion-blocker-ledger.yaml
   problems/navier-stokes/release-decision.yaml
   problems/navier-stokes/release-manifest.yaml
@@ -45,6 +51,11 @@ FORBIDDEN_ACTIVE_CLAIMS = {
   "ready submission verdict prose" => /submission-verdict:\s*(?:submission-)?ready\b/i,
   "submission-candidate release decision" => /release-decision:\s*submission-candidate\b/i,
   "release eligible true" => /release_eligible:\s*true\b/i,
+  "submission candidate disposition" => /(?:disposition|current_posture|current_release_status|recommended_next_stage|reopen_next_stage):\s*submission-candidate\b/i,
+  "submission candidate status prose" => /current status:\s*.*submission-candidate/i,
+  "export ready release posture" => /release_posture:\s*export-ready\b/i,
+  "full MPP closure achieved" => /completion_tier_achieved:\s*full-mpp-closure\b/i,
+  "full MPP closure submission prose" => /full-MPP closure submission candidate/i,
   "proof ready true" => /proof_ready:\s*true\b/i,
   "theorem packet export ready true" => /theorem_packet_export_ready:\s*true\b/i,
   "direct proof pack ready true" => /direct_proof_pack_ready:\s*true\b/i,

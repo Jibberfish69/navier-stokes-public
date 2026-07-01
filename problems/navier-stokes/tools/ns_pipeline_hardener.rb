@@ -5,6 +5,8 @@ require "pathname"
 require "time"
 require "yaml"
 require "digest"
+require "open3"
+require "rbconfig"
 
 require_relative "../../../system/runner/lib/paper_factory_workspace"
 require_relative "../../../system/runner/lib/mpp_pdf_contract_gate_support"
@@ -48,6 +50,7 @@ SUBMISSION_BUNDLE_MAIN_TEX_PATH = SUBMISSION_BUNDLE_ROOT.join("navier-stokes-sub
 HUMAN_SUBMISSION_PDF_PATH = SUBMISSION_BUNDLE_ROOT.join("navier-stokes-human-submission.pdf").freeze
 CODEX_MACHINE_MAIN_TEX_PATH = ROOT.join("papers/navier-stokes/manuscript/generated/main.tex").freeze
 CODEX_MACHINE_PDF_PATH = ROOT.join("papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf").freeze
+GOLD_L1_AUTHORITY_GUARD_PATH = PROBLEM_ROOT.join("tools/check_gold_l1_authority_overclaim.rb").freeze
 CURRENT_GRADIENT_CONTROL_SURFACE = "problems/navier-stokes/theorem-construction/gradient-control-bridge-discharge.md"
 
 TARGET_OPERATING_CONTRACT = YAML.load_file(TARGET_OPERATING_CONTRACT_PATH.to_s).freeze
@@ -82,19 +85,19 @@ CURRENT_SOURCE_WALL_ROOT_SUMMARY = [
   "The forward-positive quarantine index keeps #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} scanned surfaces out of CM authority unless a named bridge lands the exact result in Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence, or proves the outside-CM participation-field/window original-participation audit needed before not Pack_Q can be spent."
 ].compact.join(" ").freeze
 CURRENT_THEOREM_STATUS = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status").freeze
-CURRENT_PACKAGE_STATUS = "cm-referee-gate-passed-with-gold-silver-paths"
-CURRENT_LOWEST_SAFE_CLAIM = "The single terminal/referee gate is cleared by CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A. Gold names the forward-positive path; Silver is the accepted CM resolution. Submission/PDF readiness remains a separate review-refresh question."
+CURRENT_PACKAGE_STATUS = "gold-l1-open-tfe2748b-blocked"
+CURRENT_LOWEST_SAFE_CLAIM = "Gold remains open at TFE2748B / OriginalCriticalCapacityVariation.A; no proof of smoothness, terminal safety, release eligibility, or submission readiness is installed until that source theorem is proved."
 CURRENT_ROUTE_SUMMARY = [
-  "The corrected active gate is one referee gate with Gold/Silver paths, not two gates.",
-  "Gold names the tried forward-positive supplier path to TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A.",
-  "Silver is the accepted exhaustive CM contrapositive branch-table resolution through CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A."
+  "The corrected active Gold edge is the original-data L1 source theorem TFE2748B / OriginalCriticalCapacityVariation.A.",
+  "Downstream no-jump, terminal safety, release, and submission surfaces remain blocked while that theorem is open.",
+  "CM/Silver material remains support context and does not clear the Gold source theorem."
 ].join(" ").freeze
 CURRENT_WITNESS_FORM = "finite same-surface terminal CM witness: CM-test entry followed by not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, which supports Exit(Q):=not Member(Q)"
 CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE = {
-  "disposition" => "gate-cleared-review-refresh-required",
-  "next_cell_type" => "review-refresh",
-  "next_stage" => "submission-and-pdf-readiness-refresh",
-  "next_action" => "Refresh downstream review/submission mirrors from the accepted single-gate CM referee resolution; do not respawn TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A as the active blocker."
+  "disposition" => "blocked",
+  "next_cell_type" => "theorem-upgrade",
+  "next_stage" => "gold-l1-source-theorem",
+  "next_action" => "Prove TFE2748B / OriginalCriticalCapacityVariation.A before restoring downstream release or submission readiness."
 }.freeze
 FORWARD_GOLD_ACTIVE_OBLIGATION = {
   "obligation_id" => "unweighted-terminal-critical-action-reserve",
@@ -129,6 +132,18 @@ TERMINAL_PROMOTION_LABEL = "Periodic Clay terminal-promotion bridge: prove that 
 
 def utc_now
   Time.now.utc.iso8601
+end
+
+def run_gold_l1_authority_guard!
+  stdout, stderr, status = Open3.capture3(
+    { "NS_GOLD_L1_GUARD_ROOT" => ROOT.to_s },
+    RbConfig.ruby,
+    GOLD_L1_AUTHORITY_GUARD_PATH.to_s
+  )
+  return stdout if status.success?
+
+  warn stderr
+  raise "Gold L1 authority overclaim guard failed"
 end
 
 def load_yaml(path)
@@ -1900,6 +1915,7 @@ def refresh!
     WARRANT_COMPILATION_PATH,
     build_warrant_compilation(route_lock, warrant, campaign, proof_assembly)
   )
+  run_gold_l1_authority_guard!
 
   "REFRESH_OK_DIRECT_LIVE"
 end
