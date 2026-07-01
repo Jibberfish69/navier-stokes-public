@@ -29470,3 +29470,205 @@ selected birth must spend one critical native state of the original packet; and
 the terminal trace must have real time thickness or no residue.  Without those
 three clauses, the half-tail remains a legal countermodel to the proposed
 \(L^1\) estimate inside the proof language.
+
+## 170. Ontology audit: the three clauses are one coupled participation law
+
+Section 169 identifies the right mathematical package, but its prose still has
+one dangerous residue: it can sound as if the parent-known meter, the critical
+first-birth reserve, and terminal thickness/no-residue are three separate
+accounts.  Physically they are not.  They are three coordinate readouts of one
+same-material pressure--viscosity--incompressibility transaction.
+
+The parent object is therefore not "pressure" and not a reserve ledger attached
+after the fact.  It is the original coupled participation state
+
+\[
+\mathfrak P_P
+=
+\left(
+\text{pressure-compatible whole-field response},
+\text{viscous/heat-lag velocity-strain readout},
+\text{material frame/metric},
+\text{self-advection},
+\text{collar/turnstile/exchange/order-lock}
+\right)_P
+\tag{TFE.2017}
+\]
+
+before the selected child clips a positive read.  A child is only a heat-lag,
+scale, or finite-difference readout of \(\mathfrak P_P\):
+
+\[
+Child(Q)=Read_Q\bigl(\mathfrak P_P\bigr).
+\tag{TFE.2018}
+\]
+
+Feedback is the same coupled law being recomputed in the updated material
+frame:
+
+\[
+\mathfrak P_P
+\longmapsto
+Read_Q(\mathfrak P_P)
+\longmapsto
+\mathfrak P_Q .
+\tag{TFE.2019}
+\]
+
+So the physical \(L^1\) theorem should not be read as:
+
+\[
+\text{pressure meter}
++\text{native reserve}
++\text{endpoint add-on}.
+\tag{TFE.2020}
+\]
+
+The correct reading is:
+
+\[
+\text{one parent-known coupled active capacity}
+\quad\text{viewed in three places:}
+\tag{TFE.2021}
+\]
+
+1. before clipping, as the selected meter;
+2. at first scale-native visibility, as critical first-birth charge;
+3. at terminal time, as same-packet time thickness/no-residue.
+
+Equivalently, `(TFE.2012)' should be compressed to one same-parent active
+capacity inequality.  There must be a bounded-below coupled storage
+\(\mathcal B_P^{coup}\) and a same-packet active capacity measure
+\(d\mathcal C_P^{act}\), both constructed from \(\mathfrak P_P\), such that
+for each retained readout
+
+\[
+dA_{{\rm sel},+}(Q)
++d\mathcal C_Q^{act}
++dD_{\nu,heat}^{coup}(P,Q)
+\le
+d\mathcal C_P^{act}
+-d\mathcal B_P^{coup}
++dPaid_{route/legal/stop}(P,Q).
+\tag{TFE.2022}
+\]
+
+This is the fully coupled version of the physical story.  The pressure part is
+the instantaneous compatibility re-coordinate; the viscous part is the
+heat-lag descent into velocity/strain readout; incompressibility is the
+constraint that makes the re-coordinate whole-field; self-advection and the
+moving material frame decide which child readout is being sampled.  None of
+these pieces is allowed to become an independent positive source.
+
+Under this ontology, the three clauses in `(TFE.2012)' become consequences or
+faces of `(TFE.2022)'.
+
+The parent-known meter is the causality face:
+
+\[
+F_P={d\mu_P^{act}\over d\mathcal C_P^{act}}
+\quad\text{exists before }Read_Q(\mathfrak P_P)_+\text{ is clipped.}
+\tag{TFE.2023}
+\]
+
+The critical first-birth reserve is the scale-native lower face:
+
+\[
+Read_Q(\mathfrak P_P)_+\simeq 1
+\quad\Longrightarrow\quad
+\Delta\mathcal C_P^{act}(Q)\gtrsim 1
+\tag{TFE.2024}
+\]
+
+after carry, Schur/current reuse, return/reset, route, legal, and stop have
+been removed.  This is not a new pulse.  It is the first selected visibility of
+state that was already inside the coupled parent transaction.
+
+The terminal thickness/no-residue clause is the final-time face:
+
+\[
+d\mu_P^{end}
+\ll dt
+\quad\text{with density controlled by the same }d\mathcal C_P^{act},
+\tag{TFE.2025}
+\]
+
+or else the terminal trace leaves Gold through the endpoint face rather than
+being counted as retained \(L^1\) mass.  Physically, the final endpoint is not
+a side payment.  It is the last readout of the same viscous descent of the
+whole field.  The theorem still has to prove the time-density/no-residue
+statement, because finite endpoint measure alone permits a heat-strip pulse in
+the proof model.
+
+The half-tail is now interpreted more sharply.  The model
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1},
+\qquad
+r_\ell=2^\ell
+\tag{TFE.2026}
+\]
+
+is not "many independent pulses from finite initial energy."  It is the proof
+language failing to enforce that all selected reads are one coupled unfolding
+of the same parent packet.  It becomes possible only when the selected ratio
+\(r_\ell\) is attached after the child read instead of being a parent-known
+density of \(d\mathcal C_P^{act}\).
+
+Thus the actual physical solve line is a strict same-parent feedback
+contraction for active state accessibility:
+
+\[
+N_{L+1}^{coup}(P)
+\le
+\theta N_L^{coup}(P)
++B_L^{route/legal/stop/end}(P),
+\qquad
+\theta<{1\over2},
+\qquad
+\sum_L2^LB_L^{route/legal/stop/end}(P)<\infty .
+\tag{TFE.2027}
+\]
+
+This is the same theorem as `(TFE.2022)' in good-lambda form.  It says the
+coupled feedback loop may re-coordinate the remaining future states, but it
+cannot open high-ratio selected futures as fast as the same coupled
+heat-viscous/material law deletes or spends them.
+
+The downstream relation is therefore:
+
+\[
+\text{same-parent coupled active-capacity deletion `(TFE.2022)'}
+\Longrightarrow
+\text{three faces in `(TFE.2012)'}
+\Longrightarrow
+\text{entropy/no-recount telescope}
+\Longrightarrow
+\text{terminal-uniform }L^1 .
+\tag{TFE.2028}
+\]
+
+This corrects the ontology of Section 169.  `GoldL1OriginalPacketProducer.A'
+should be treated as a coordinate bundle for `(TFE.2022)', not as an additive
+list of unrelated suppliers:
+
+\[
+\texttt{GoldL1OriginalPacketProducer.A}
+\equiv
+\texttt{SameParentCoupledActiveCapacityDeletion.A}
+\quad\text{viewed through meter/birth/terminal faces.}
+\tag{TFE.2029}
+\]
+
+The proof still has to construct \(\mathcal B_P^{coup}\) and
+\(d\mathcal C_P^{act}\) from arbitrary original smooth coupled data:
+
+\[
+\text{one coupled participation law must make active state-accessibility}
+\text{ monotone enough to beat the selected half-tail.}
+\tag{TFE.2030}
+\]
+
+So the missing \(L^1\) theorem is not pressure acting first, viscosity acting
+later, and endpoint being paid separately.  It is the same coupled law read
+before clipping, at first scale-native visibility, and at terminal time.
