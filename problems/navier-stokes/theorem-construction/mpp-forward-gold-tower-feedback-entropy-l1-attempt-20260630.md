@@ -7595,3 +7595,846 @@ first-admission, not local lower edge, and not scalar entropy.  It is the
 selected-critical parent-weighted first-admission root upper bound
 `(TFE.504)`, equivalently `(TFE.505)`, equivalently the affine producer
 `(TFE.507)`/`(TFE.508)`.
+
+## 51. Entropy feedback audit of the affine producer
+
+The entropy/state-count story is not a separate metaphor.  In the active
+heat-lag picture it says this: once a pressure-compatible parent pulse has been
+admitted, later pressure feedback may re-coordinate the remaining velocity state,
+but every admissible re-coordination must either be a record of the same stopped
+parent packet, a return/reset needed to make another positive visit, or paid
+material/frame/legal/stop motion.  The child readout cannot enlarge the set of
+future compatible states after the parent packet has already assigned that
+state one dissipative lifetime.
+
+The checked repo sources make this precise.  The scalar part is already a
+record/return identity:
+
+\[
+V_+(\Psi;I_M)
+=
+\Psi(t_M)-\Psi(t_0)+V_-(\Psi;I_M).
+\tag{TFE.509}
+\]
+
+So, after a signed lift before positive clipping, repeated positive same-core
+visits obey
+
+\[
+\sum_{m\le M}a_m
+\lesssim
+\operatorname{Rec}_M(\Psi)
++V_-^{return}(\Psi;I_M)
++R_M^{spill/legal}.
+\tag{TFE.510}
+\]
+
+This is the formal state-deletion law: a repeated selected positive read either
+raises the parent record or spends the negative return needed to reset that
+record.  It kills recount only after the positive selected source has been
+lifted to a parent-known signed scale-potential coordinate before clipping.
+
+The feedback object that can still survive is the parent-known selected
+potential/amplification record
+
+\[
+\mathfrak Z_P^S=(Z^S,\Psi^S,\Lambda^S),
+\tag{TFE.511}
+\]
+
+where \(Z^S\) is the stopped routed carrier, \(\Psi^S\) is the scale potential
+left by the affine quotient, and \(\Lambda^S\) is the selected amplification /
+reset coordinate.  The noncircular norm needed from original history is
+
+\[
+\begin{aligned}
+\mathcal E_{SPA}(P)
+:={}&
+\int_0^{T_*}
+H_w(t)
+\left\|
+{1\over |J|}\int_J\Psi^S(\sigma,t)\,d\sigma
+\right\|_{L_x^2}^2dt
+\\
+&+\operatorname{Var}_{crit}^{stop}(\Lambda^S;P)
++\sup_{P'\subseteq P}
+{1\over \mathcal R(P')}
+\sum_{Q\subseteq P'}
+\|\Delta_Q Z^S\|_{\mathfrak H_P}^2\mathcal R(Q)
+\\
+&+\operatorname{TestDef}_S(P)+Stop(P).
+\end{aligned}
+\tag{TFE.512}
+\]
+
+The exact original-data theorem that would make the entropy picture a proof is
+
+\[
+\mathcal E_{SPA}(P)
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathsf{Visc}_{P,N}
++R_{\rm legal}(P)+Stop(P),
+\qquad 0<\theta<1.
+\tag{TFE.513}
+\]
+
+This is the parent-known feedback entropy inequality.  It is stronger than the
+scalar BV identity `(TFE.509)` and weaker than restating full smoothness: it only
+asks that the pressure/heat/viscous feedback coordinate visible to selected
+children was already a finite original-history packet record before the child
+positive readout was clipped.
+
+If `(TFE.513)` holds, the affine producer lines follow.  The affine quotient
+identity gives
+
+\[
+\mathcal C_\theta[Y_+]
+=
+-\theta_\kappa(s_0)\Psi^S(s_0,t)
++{1\over |J|}\int_J\Psi^S(\sigma,t)\,d\sigma
++\mathcal C_\theta[Y_-]
++\mathcal C_\theta[S^{spill}]
++\mathcal C_\theta[E].
+\tag{TFE.514}
+\]
+
+The endpoint term is parent-predictable or paid as reset/overrun/legal loss.
+The average term is the first line of `(TFE.512)`.  The negative-return and reset
+terms are controlled by \(\operatorname{Var}_{crit}^{stop}(\Lambda^S;P)\) and by
+the stopped return branch after selected admission.  The spill/error terms are
+already routed support.  Consequently
+
+\[
+\int_0^{T_*}
+H_w(t)\|\mathcal P_{avg}^{fresh}(t)\|_{L_x^2}^2dt
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathsf{Visc}_{P,N}
++R_{\rm legal}(P)+Stop(P),
+\tag{TFE.515}
+\]
+
+which is `(TFE.507)` with the strict viscous margin needed for `(TFE.504)`.
+Equivalently, the same conclusion is obtained from `(TFE.508)` when the affine
+kernel residual is bounded by the last three lines of `(TFE.512)`.
+
+Thus the entropy feedback route closes the \(L^1\) half-tail under one exact
+producer theorem:
+
+\[
+\text{parent-known feedback record inequality `(TFE.513)`}
+\Longrightarrow
+\text{affine producer `(TFE.515)`}
+\Longrightarrow
+\text{parent-weighted first-admission bound `(TFE.504)`}
+\Longrightarrow
+\text{terminal-uniform \(L^1\) control}.
+\tag{TFE.516}
+\]
+
+The normalized failure test is now sharp.  Suppose `(TFE.504)` fails while
+first admission, no-recount, Schur reuse, raw Bessel novelty, return, motion,
+viscosity, legal, and stop have all been removed.  Normalize
+
+\[
+\mu_{P_n}^{pw}(P_n)=1,\qquad
+\mathcal R(P_n)+Paid(P_n)+Stop(P_n)\to0.
+\tag{TFE.517}
+\]
+
+The derivative-exact part is paid by the stopped scale derivative / Cauchy
+branch, so the only survivor is the affine feedback coefficient in `(TFE.514)`.
+If `(TFE.513)` also vanished on this sequence, `(TFE.515)` would force that
+coefficient to vanish, contradicting `(TFE.517)`.  Therefore every remaining
+bad sequence is exactly a failure of the original-data feedback record
+inequality `(TFE.513)`: pressure feedback is being read as fresh selected
+positive work without first appearing as finite parent-known record growth,
+return/reset variation, routed carrier square, testing defect, legal material,
+or stop material.
+
+This is the precise \(L^1\) meaning of the entropy story.  The possible-state
+set is pruned by the same coupled pressure-viscosity-incompressibility-velocity
+packet through \(\mathfrak Z_P^S\).  The proof is open only at the point where
+the repo must construct and bound that parent-known feedback record from the
+original coupled data.  The checked surfaces do not currently prove
+`(TFE.513)`: the endpoint-corrected potential-average note is a consumer after
+the record exists, the signed scale-descent audit is one derivative short, and
+the original-history selected potential/amplification note explicitly leaves the
+record construction/testing as the unpaid producer.
+
+## 52. What the physical story still has to supply
+
+The missing physical story is the finite active-state feedback law.  A finite
+smooth initial pulse does not mean every selected \(L^1\) readout is automatically
+finite; it means there is only one coupled packet history available to unfold.
+Pressure can instantly re-coordinate that history through incompressibility, and
+self-advection can transport the coordinates, but neither operation creates new
+material state volume.  Viscosity is the irreversible part: it removes accessible
+high-frequency/heat-lag futures from the same packet.  The \(L^1\) theorem needs
+the quantitative version of that sentence for the active selected readout.
+
+At the finite tower level, let \(\mathcal H_{P,N}(t)\) be the set of coupled
+pressure-heat-viscous packet histories still compatible with the parent packet
+\(P\), the stopped frame, and the readouts up to time \(t\).  The entropy
+quantity cannot be passive heat entropy alone, because the selected child
+detector moves with pressure-Hodge, strain, collar, and frame choices.  The
+right finite-dimensional object is an active feedback entropy
+
+\[
+\mathsf Ent_{P,N}(t)
+:=
+\log N_{\varepsilon_N}
+\big(
+\mathcal H_{P,N}(t),
+d_{P,N}^{act}(t)
+\big),
+\tag{TFE.518}
+\]
+
+where \(d_{P,N}^{act}\) is the parent-known metric induced by the stopped record
+\(\mathfrak Z_P^S=(Z^S,\Psi^S,\Lambda^S)\), not a metric chosen after the child
+positive readout.  In density language this is the same demand as an
+\(L\log L\) or reverse-Holder lift for the active selected density before
+clipping:
+
+\[
+\int_P
+\rho_{P,N}^{act}\log(1+\rho_{P,N}^{act})\,d\mathcal R_P
+\le
+C_N(u_0)+Paid_P.
+\tag{TFE.519}
+\]
+
+This is exactly the place where the half-tail dies.  The model
+\(\nu_\ell=2^{-\ell}/(\ell+1)\) has finite raw square mass
+\(\sum_\ell\nu_\ell<\infty\), but selected first moment
+\(\sum_\ell2^\ell\nu_\ell=\infty\).  It also has infinite active entropy:
+
+\[
+\sum_\ell
+2^\ell\nu_\ell\log(1+2^\ell)
+=
+\sum_\ell
+{\log(1+2^\ell)\over \ell+1}
+=\infty .
+\tag{TFE.520}
+\]
+
+So the missing theorem is not "finite energy beats \(L^1\)" in the raw
+Sobolev sense.  It is "finite original coupled packet entropy beats the selected
+half-tail before the child can recount it."
+
+The closure inequality should be a monotone active-history balance:
+
+\[
+d\mathsf Ent_{P,N}(t)
++c\,d\mu_P^{pw}(t)
+\le
+\theta\,d\mathsf{Visc}_{P,N}(t)
++d\mathsf{Motion}_{P,N}(t)
++d\mathsf{Return}_{P,N}(t)
++dR_{\rm legal}(t)+dStop(t),
+\quad 0<\theta<1.
+\tag{TFE.521}
+\]
+
+Here \(d\mu_P^{pw}\) is the parent-weighted first-admission measure from
+`(TFE.504)`.  The terms on the right have physical meanings:
+
+- \(d\mathsf{Visc}_{P,N}\) is parabolic heat-lag deletion of accessible futures;
+- \(d\mathsf{Motion}_{P,N}\) is actual material/frame/collar/turnstile motion;
+- \(d\mathsf{Return}_{P,N}\) is the negative scale return needed to make another
+  positive same-core visit;
+- legal and stop are the already finite synchronization and stopping material.
+
+Integrating `(TFE.521)` gives
+
+\[
+\mu_P^{pw}(P)
+\le
+C_N\big(\mathsf Ent_{P,N}(0)-\inf_t\mathsf Ent_{P,N}(t)\big)
++\theta\,\mathsf{Visc}_{P,N}
++Paid_P.
+\tag{TFE.522}
+\]
+
+Smooth initial data supplies the finite initial active entropy once
+\(\mathfrak Z_P^S\) is constructed from the original packet.  The entropy is
+bounded below because it counts compatible histories.  Therefore `(TFE.522)`
+is `(TFE.504)`.
+
+The proof still needs four exact physical-to-formal inputs.
+
+First, the parent record must exist before selection:
+
+\[
+\mathfrak Z_P^S=(Z^S,\Psi^S,\Lambda^S)
+=
+\mathcal F_{P,N}^{orig}
+\big(
+u,\nabla u,q,\nabla q,A,G,\text{collar/frame/Hodge data}
+\big),
+\tag{TFE.523}
+\]
+
+with no dependence on future child clipping.  This is the construction part of
+`OriginalHistorySelectedPotentialAmplificationBV.A /
+OriginalHistoryHilbertBMOProducer.A`.
+
+Second, the active selected source must have a signed parent lift before the
+positive part is taken:
+
+\[
+Y_+
+=
+\big[
+\partial_\sigma\Psi^S
++S^{spill}
++E
+\big]_+
++Paid_{polar/frame/reselect}.
+\tag{TFE.524}
+\]
+
+Without `(TFE.524)`, positive clipping can erase the return side of the motion
+and the entropy law has no sign memory.
+
+Third, pressure feedback must be accretive only through the active parent
+metric.  In physical words: pressure may coordinate the remaining velocity state,
+but the coordinate change must register as finite motion of \(Z^S,\Psi^S\), or
+\(\Lambda^S\).  Formally this is the testing inequality
+
+\[
+\mathcal E_{SPA}(P)
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathsf{Visc}_{P,N}
++R_{\rm legal}(P)+Stop(P),
+\tag{TFE.525}
+\]
+
+which is `(TFE.513)`.
+
+Fourth, zero-cost feedback must be rigid.  A normalized bad sequence with unit
+parent-weighted selected measure and vanishing viscous drain, material motion,
+return, legal, and stop must converge in the stopped parent frame to a feedback
+mode with no allowed physical motion:
+
+\[
+\mu_{P_n}^{pw}(P_n)=1,
+\qquad
+\mathsf{Visc}_{P_n,N}+Motion_{P_n,N}+Return_{P_n,N}
++R_{\rm legal}(P_n)+Stop(P_n)\to0.
+\tag{TFE.526}
+\]
+
+The needed rigidity conclusion is
+
+\[
+\text{zero-cost coupled feedback mode}
+\quad\Longrightarrow\quad
+\mu_{\infty}^{pw}=0.
+\tag{TFE.527}
+\]
+
+This is the physical contradiction: if viscosity removes no heat-lag futures,
+the material frame does not move, the scale potential does not return, and no
+legal/stop loss occurs, then pressure has only re-labelled the same compatible
+state.  It has not produced a fresh positive selected \(L^1\) readout.
+
+Thus the missing closure package is:
+
+\[
+\begin{gathered}
+\text{parent-known feedback record `(TFE.523)`,}\\
+\text{signed lift before clipping `(TFE.524)`,}\\
+\text{active feedback entropy/testing inequality `(TFE.521)`/`(TFE.525)`,}\\
+\text{zero-cost feedback rigidity `(TFE.527)`.}
+\end{gathered}
+\tag{TFE.528}
+\]
+
+Together these prove `(TFE.504)` and hence terminal-uniform \(L^1\).  The
+current repo has pieces of this package: fixed stopped-channel lift, scalar
+record/return BV, no-recount pushforward, raw first-admission Bessel packing,
+and consumer potential-average Poincare after the record exists.  The missing
+physical theorem is the active feedback entropy/testing inequality from the
+original coupled packet, plus the zero-cost rigidity argument that prevents
+pressure feedback from appearing as free selected positive action.
+
+## 53. Zero-cost feedback rigidity audit
+
+The zero-cost part of `(TFE.528)` is sharper after checking the existing
+rigidity surfaces.  The repo already has the correct branch-level rigidity once
+a same-carrier zero-cost limit has been extracted.  What is not automatic is the
+extraction/tightness step that keeps the active-weight numerator visible while
+all original-history charges vanish.
+
+The normalized zero-cost feedback failure has the form
+
+\[
+\mu_n^{act}
+:=
+\sum_{e\in\mathcal E_n}
+H_{e^-}\|D_e^{fresh}\|_{\mathcal H_P}^2
+=1,
+\tag{TFE.529}
+\]
+
+while the original parent ledger tends to zero:
+
+\[
+\int_{\operatorname{Hist}(P_n)}
+\left(
+\|\partial_\sigma Z^S\|^2
++\|\Pi_{\rm new}[D_t,\mathcal L_A]w\|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
++|\operatorname{frame/collar}_\sigma|^2
+\right)
++R_{\rm legal}(P_n)+Stop(P_n)
+\to0 .
+\tag{TFE.530}
+\]
+
+Here \(D_e^{fresh}\) is the parent-subtracted fresh quotient after inherited
+parent transport has been removed:
+
+\[
+D_e^{fresh}
+=
+(I-\Pi_{\mathcal P_{e^-}})
+\big(q_e(\sigma_1)-q_e(\sigma_0)\big),
+\qquad
+q_e(\sigma)=\Gamma_e(\sigma)Z_e^S(\sigma).
+\tag{TFE.531}
+\]
+
+The branch-level rigidity is now clear.  Suppose a stopped subchain and active
+weight blow-up produce a nonzero same-carrier limit
+
+\[
+H_{e_n^-}^{1/2}D_{e_n}^{fresh}
+\rightharpoonup
+D_\infty^{fresh}\ne0
+\tag{TFE.532}
+\]
+
+in one parent Hilbert geometry.  The vanishing ledger `(TFE.530)` gives
+
+\[
+\partial_\sigma Z_\infty^S=0,\qquad
+[D_t,\mathcal L_A]w_\infty=0,\qquad
+\operatorname{turnstile}_\infty
+=\operatorname{exchange}_\infty
+=\operatorname{covector}_\infty
+=\operatorname{frame/collar}_\infty
+=0 .
+\tag{TFE.533}
+\]
+
+Differentiating the stopped readout gives
+
+\[
+\partial_\sigma q_\infty
+=
+\Gamma_\infty\partial_\sigma Z_\infty^S
++(\partial_\sigma\Gamma_\infty)Z_\infty^S .
+\tag{TFE.534}
+\]
+
+The second term in `(TFE.534)` is exactly frame/covector/turnstile/exchange
+motion.  Thus `(TFE.533)` implies \(\partial_\sigma q_\infty=0\).  Therefore
+
+\[
+D_\infty^{fresh}
+=
+(I-\Pi_{\mathcal P_-})
+\big(q_\infty(\sigma_1)-q_\infty(\sigma_0)\big)
+=0,
+\tag{TFE.535}
+\]
+
+contradicting `(TFE.532)`.  This proves the zero-cost feedback rigidity
+conditional on a same-carrier nonzero limit.
+
+So the physical picture should be adjusted.  Pressure feedback with no viscous
+deletion, no frame/material motion, no scale return, and no legal/stop loss is
+only inherited parent transport after subtraction.  It cannot create fresh
+selected \(L^1\) action.  The proof does not get stuck on that rigidity.  It
+gets stuck one step earlier: a unit of active-weight fresh quotient can try to
+hide in shrinking high-weight tubes, so the same-carrier limit `(TFE.532)` is
+not free from raw compactness.
+
+The exact remaining compactness/tightness theorem is
+
+\[
+\boxed{
+\begin{gathered}
+\mu_n^{act}=1,\qquad
+\Lambda_n^{orig}:=\int d\Lambda_{P_n}^{orig}
++R_{\rm legal}(P_n)+Stop(P_n)\to0
+\\
+\Longrightarrow
+\text{after stopped subchain extraction and active-weight rescaling,}
+\\
+H_{e_n^-}^{1/2}D_{e_n}^{fresh}
+\rightharpoonup D_\infty^{fresh}\ne0
+\text{ in one same-carrier parent Hilbert space,}
+\\
+\text{or the lost mass is charged to }
+\Lambda_n^{orig}+R_{\rm legal}(P_n)+Stop(P_n).
+\end{gathered}}
+\tag{TFE.536}
+\]
+
+Crucially, the escape side in `(TFE.536)` cannot include
+\(dA^{wt}+dA^{conn}\), because those are part of the root/action clock being
+produced.  The only proof-bearing escape ledger is the parent-known original
+generator:
+
+\[
+d\Lambda_P^{orig}
+=
+H_P^\ast\|\mathcal G_P^{root}\|^2\,d\sigma dt
++dA_P^{sel/chart}
++dR_{\rm legal,P}
++dStop_P,
+\tag{TFE.537}
+\]
+
+with
+
+\[
+\mathcal G_P^{root}
+=
+\Pi_{\rm new}^P
+\left(
+\partial_\sigma Z^S
++[D_t,\mathcal L_A]w
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
++\operatorname{frame/collar/endpoint}_\sigma
+\right).
+\tag{TFE.538}
+\]
+
+Thus `(TFE.536)` is not a separate fourth obstruction.  It is the compactness
+face of the same active feedback entropy/testing inequality `(TFE.521)`:
+
+\[
+\int_{\operatorname{Hist}(P)}d\Lambda_P^{orig}
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathsf{Visc}_{P,N}
++R_{\rm legal}(P)+Stop(P).
+\tag{TFE.539}
+\]
+
+With `(TFE.539)`, active-weight loss cannot disappear into a zero-size tube:
+the lost numerator either produces the same-carrier zero-cost limit killed by
+`(TFE.535)`, or it is already paid by the original feedback ledger.  Therefore
+the refined missing package is
+
+\[
+\text{parent-known record construction}
++\text{signed lift before clipping}
++\text{original-ledger active feedback tightness `(TFE.536)`/`(TFE.539)`.}
+\tag{TFE.540}
+\]
+
+Zero-cost rigidity itself is a consumer after tightness, not the producer.  The
+producer is still the original coupled packet storage/testing inequality that
+keeps the active selected numerator visible and finite before child clipping.
+
+## 54. Density form of original-ledger active feedback tightness
+
+The physical story now has a precise mathematical shape.  A bad \(L^1\) tail is
+not a new pressure source and not a failure of same-parent ownership.  It is the
+possibility that the same coupled packet produces active child numerators inside
+smaller and smaller parent windows, while the original parent ledger records only
+a finite raw square shadow.  The missing theorem must therefore control the
+density of active selected numerator with respect to the original coupled-packet
+ledger before any child readout is clipped as positive action.
+
+Let the active numerator measure on a stopped parent \(P\) be
+
+\[
+d\mu_P^{act}
+:=
+\sum_{e\subset P}
+H_{e^-}\|D_e^{fresh}\|_{\mathcal H_P}^2\,
+d\omega_e,
+\tag{TFE.541}
+\]
+
+where \(D_e^{fresh}\) is the parent-subtracted visible/silent/exchange quotient
+from `(TFE.531)`, \(H_{e^-}\) is the stopped parent-known active weight, and
+\(d\omega_e\) is the edge/history measure on the announced heat-lag tube.
+Let the allowed original-history ledger be
+
+\[
+d\lambda_P^{orig}
+:=
+H_P^\ast\|\mathcal G_P^{root}\|^2\,d\sigma dt
++dA_P^{sel/chart}
++dR_{\rm legal,P}
++dStop_P,
+\tag{TFE.542}
+\]
+
+with \(\mathcal G_P^{root}\) as in `(TFE.538)`.  This is the coupled physical
+ledger: material scale derivative, dynamic pressure-Hodge commutator,
+turnstile/exchange/covector/frame/collar motion, legal loss, and stop loss.
+
+The tightness theorem needed below `(TFE.539)` is stronger than finite total
+mass.  It is the parent-known absolute-continuity and uniform-integrability
+statement
+
+\[
+d\mu_P^{act}\ll d\lambda_P^{orig},
+\qquad
+f_P:={d\mu_P^{act}\over d\lambda_P^{orig}},
+\tag{TFE.543}
+\]
+
+and either
+
+\[
+\int_{\operatorname{Hist}(P)}
+f_P\log(1+f_P)\,d\lambda_P^{orig}
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathsf{Visc}_{P,N}
++R_{\rm legal}(P)+Stop(P),
+\qquad \theta<1,
+\tag{TFE.544}
+\]
+
+or a stronger reverse-Holder form on stopped subpackets,
+
+\[
+\left(
+{1\over \lambda_P^{orig}(P')}
+\int_{P'} f_P^{1+\varepsilon}\,d\lambda_P^{orig}
+\right)^{1/(1+\varepsilon)}
+\le
+C\,{1\over \lambda_P^{orig}(P')}
+\int_{P'} f_P\,d\lambda_P^{orig}
++C\,{\operatorname{Paid}(P')\over \lambda_P^{orig}(P')}.
+\tag{TFE.545}
+\]
+
+This is exactly the entropy/state-count theorem in measure form.  \(f_P\) counts
+how many active selected futures the child detector is trying to read per unit
+of original coupled-packet motion.  Finite energy gives finite raw square shadow;
+finite \(L\log L\) says the active state count itself cannot concentrate in
+smaller windows without appearing in the original ledger.
+
+The half-tail obstruction is killed by `(TFE.544)`.  On disjoint active tubes,
+take
+
+\[
+\lambda_\ell\sim {2^{-\ell}\over \ell+1},
+\qquad
+f_\ell\sim 2^\ell.
+\tag{TFE.546}
+\]
+
+Then
+
+\[
+\sum_\ell f_\ell\lambda_\ell
+=\sum_\ell {1\over \ell+1}
+=\infty,
+\qquad
+\sum_\ell \lambda_\ell<\infty,
+\tag{TFE.547}
+\]
+
+so the raw parent ledger can stay finite while selected positive \(L^1\)
+diverges.  But
+
+\[
+\sum_\ell f_\ell\log(1+f_\ell)\lambda_\ell
+\simeq
+\sum_\ell {\ell\over \ell+1}
+=\infty.
+\tag{TFE.548}
+\]
+
+Thus parent-side \(L\log L\) entropy is exactly the missing mathematical object:
+it detects the hidden active multiplicity that square/Bessel/raw-energy control
+does not detect.
+
+The checked June 27 surfaces align with this reduction.  The selected-density
+martingale note states that entropy or reverse-Holder control kills the critical
+half-tail, but leaves the stopped log-amplification/BMO producer open.  The
+stopped-selector BMO note says the producer is a cancellation and local-testing
+theorem for the stopped same-material transform \(T_S\nu^S\), not the definition
+of \(Z^S=T_S\nu^S\).  The scale-memory storage notes say the natural energy gives
+a signed balance only; the missing piece is accretive parent-known
+testing/storage coercivity.  In the present notation, these are the same
+producer family after the already-written downstream relays:
+
+\[
+\boxed{
+\text{ParentKnownActiveDensityEntropy.A}
+\equiv
+\text{OriginalHistoryHilbertBMOProducer.A}
+\equiv
+\text{SelectedGeneratorStorageCoercivity.A}
+\equiv
+\text{PositiveCriticalTransferBound.A}
+}
+\tag{TFE.549}
+\]
+
+up to the already-written downstream relays.
+
+The implication chain is now short.  `(TFE.544)` gives the active feedback
+tightness needed in `(TFE.536)`: a normalized bad sequence with
+\(\mu_P^{act}=1\) and \(\lambda_P^{orig}\to0\) would force the density entropy
+to blow up, contradicting `(TFE.544)`.  With tightness, the same-carrier
+zero-cost limit exists or the lost mass is paid.  The zero-cost limit is killed
+by `(TFE.535)`.  Therefore
+
+\[
+\mu_P^{act}(P)
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathsf{Visc}_{P,N}
++R_{\rm legal}(P)+Stop(P),
+\tag{TFE.550}
+\]
+
+which is `(TFE.539)` in density form.  Feeding `(TFE.550)` into `(TFE.504)` gives
+the parent-weighted first-admission measure, the no-recount pushforward, and
+then the terminal-uniform \(L^1\) line.
+
+So the physical thing still missing is not another child bookkeeping rule.  It
+is a parent-known active entropy law for the full pressure-viscosity-
+incompressibility-velocity packet: pressure may instantly re-coordinate the
+possible futures of a packet, self-advection moves the packet, and viscosity
+deletes futures through heat-lag descent, but the number of active child futures
+made readable per unit original material motion must have \(L\log L\) control
+before positive clipping.  Proving that from the original coupled data is the
+current unsolved \(L^1\) producer; all no-recount, Bessel, Schur, return, reset,
+legal, and stop mechanisms are downstream consumers once this density law is in
+place.
+
+## 55. Source audit: all remaining names for the same missing producer
+
+The density theorem in `(TFE.544)` still has several repo names because earlier
+attempts viewed the same physical object from different coordinates.  The audit
+settles their jurisdiction.
+
+The root-generator/storage surface installs the equivalence
+
+\[
+\text{parent-known root generator storage}
+\Longleftrightarrow
+\text{stopped accretive testing/Hilbert-BMO producer},
+\tag{TFE.551}
+\]
+
+but it explicitly leaves the construction of accretive reference states and
+testing-defect Carleson packing open from original material history.
+
+The stopped routed-source innovation surface says the selected source must be an
+adapted stopped innovation measure before scalar selected-tail readout:
+
+\[
+\nu^S
+=
+\sum_{Q\subset S}d\nu_Q^S+\nu_{\rm stop/legal}^S,
+\qquad
+\mathbb E(d\nu_Q^S\mid\mathcal F_{\operatorname{par}(Q)}^S)=0
+\tag{TFE.552}
+\]
+
+up to paid root/stop/legal mean defects.  That is the cancellation half of the
+entropy law.  It is not proved by packetwise source payment, because packetwise
+payment gives size without stopped cancellation, accretive tests, or BMO.
+
+The stopped adjoint-testing surface tries to construct tests \(b_P\) from the
+same-material adjoint equation.  Its open line is independent accretivity and
+energy:
+
+\[
+|\langle b_P\rangle_P|\ge c,
+\qquad
+\|b_P\|_{L^2(P,\mathcal R)}^2\le C\mathcal R(P),
+\qquad
+\|T_S(b_P\nu^S)\|_{L^2(P,\mathcal R)}^2
+\le C\mathcal R(P)+CR_{\rm legal}(P),
+\tag{TFE.553}
+\]
+
+with testing defects packing Carleson.  Formal adjoint solvability is therefore
+only a candidate construction; it can still concentrate on the same selected
+density being estimated.
+
+The stopped current-factorization surface removes the abstract singular-integral
+part.  If the routed selected source has same-material divergence form
+
+\[
+\nu^S=D_AJ^S+\nu_{\rm stop}^S+\nu_{\rm legal}^S,
+\tag{TFE.554}
+\]
+
+then the stopped Hodge/Hilbert lift is controlled by the current:
+
+\[
+\|T_S(1_P\nu^S)\|_{L^2(P,\mathcal R)}^2
+\le
+C\int_{\widehat P}|J^S|^2\,d\mathcal R
++CStop(\widehat P)+CR_{\rm legal}(\widehat P).
+\tag{TFE.555}
+\]
+
+So the transform itself is not the hard object once the source is kept as a
+divergence of the same coupled participation current.  The remaining theorem is
+the stopped current Carleson bound
+
+\[
+\sup_{P\subseteq P_0}
+{1\over\mathcal R(P)}
+\left[
+\int_{\widehat P}|J^S|^2\,d\mathcal R
++Stop(\widehat P)+R_{\rm legal}(\widehat P)
+\right]
+\le C_N(u_0).
+\tag{TFE.556}
+\]
+
+Thus the complete missing package is not one vague word.  It has four precise
+clauses:
+
+\[
+\begin{gathered}
+\text{same-material divergence/current factorization `(TFE.554)`,}\\
+\text{stopped innovation/cancellation before child readout `(TFE.552)`,}\\
+\text{accretive testing data with Carleson defects `(TFE.553)`,}\\
+\text{stopped routed participation-current Carleson from original data `(TFE.556)`.}
+\end{gathered}
+\tag{TFE.557}
+\]
+
+These clauses are exactly the physical story in proof form.  The pressure
+actuator can re-coordinate a packet instantly, but the re-coordination must enter
+as a divergence of the same coupled participation current.  Self-advection,
+frame, collar, reset, and commutator motion determine whether that current is a
+new stopped innovation or inherited parent transport.  Viscosity supplies the
+strict sink.  The \(L^1\) closure is obtained only when the current has stopped
+Carleson \(L^2\) control from original data, because that control gives the
+parent-side \(L\log L\) density bound `(TFE.544)` and kills the hidden active
+state-count half-tail before selected clipping.
+
+The repo has reductions to `(TFE.557)`, not a proof of `(TFE.557)`.  Closing the
+\(L^1\) problem now means proving `(TFE.556)` together with the cancellation and
+accretive testing construction from the original coupled
+pressure-viscosity-incompressibility-velocity packet.
