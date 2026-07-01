@@ -36936,3 +36936,438 @@ the \(L^1\) problem is no longer a separate counting theorem after the exact
 parent pushforward is installed.  It is paid by the same strict full-exchange
 storage theorem that must also prevent the original coupled packet from
 self-feeding active generator clock near terminal time.
+
+## 219. Full-strength \(L^1\) source means local stopped storage
+
+The phrase "parent-scale-memory inequality" is only accurate if it is read in
+the stopped local sense.  A single global estimate such as `(TFE.2528)' is too
+weak by itself: it gives total generator mass for one parent packet, but it does
+not give the stopped subfibre BMO control needed for the selected log carrier,
+and it does not by itself exclude a naked terminal atom.  The \(L^1\) source has
+to be local before child positive clipping.
+
+The full-strength source package is the following statement.  For every stopped
+parent subpacket \(P'\preceq P\), the same original coupled
+pressure-Hodge/viscous/Stokes/self-advection/incompressibility/collar/selector
+packet constructs \(d\Omega_{P'}^{gen}\), \(d\Xi_{P'}^{FE}\), and \(M_{P'}\)
+before selected child clipping, with
+
+\[
+d\Omega_{P'}^{gen}
+\le
+C_N\,d\Xi_{P'}^{FE}
++dPaid_{P'},
+\tag{TFE.2532}
+\]
+
+\[
+d\Xi_{P'}^{FE}
+\le
+-dM_{P'}
++d\Theta_{P'}^0
++\vartheta\,d\Omega_{P'}^{gen}
++dPaid_{P'},
+\qquad C_N\vartheta<1,
+\tag{TFE.2533}
+\]
+
+and
+
+\[
+0\le M_{P'}\le C_N(u_0)\mathcal R(P')+Paid(P'),
+\qquad
+\int_{\operatorname{Hist}(P')}d\Theta_{P'}^0
+\le C_N(u_0)\mathcal R(P')+Paid(P').
+\tag{TFE.2534}
+\]
+
+Absorption gives the local stopped generator Carleson bound
+
+\[
+\int_{\operatorname{Hist}(P')}d\Omega_{P'}^{gen}
+\le
+C_N(u_0)\mathcal R(P')+Paid(P')
+\qquad(P'\preceq P).
+\tag{TFE.2535}
+\]
+
+This is the form needed by the selected log-density branch.  On each stopped
+active fibre \(E\subset P'\), the before-clipping selected log carrier must be a
+bounded parent projection of the same root generator:
+
+\[
+b_E
+=
+\int_E K_E\,dG_{P'}^{root}
+-\psi_E+e_E,
+\qquad
+\|K_E\|_{\operatorname{op}}\le C_N,
+\tag{TFE.2536}
+\]
+
+with quadratic variation dominated by the same generator clock,
+
+\[
+d\langle b_E\rangle
+\le
+C_N\,d\Omega_{P'}^{gen}+dPaid_{P'} .
+\tag{TFE.2537}
+\]
+
+Then `(TFE.2535)' gives, for every stopped subfibre \(E'\subseteq E\),
+
+\[
+{1\over \mathfrak m(E')}
+\int_{\operatorname{Tent}(E')}d\langle b_E\rangle
+\le C_N,
+\tag{TFE.2538}
+\]
+
+up to paid exceptional pieces.  Martingale John--Nirenberg/Kazamaki gives the
+BMO and reverse-Holder estimates `(TFE.2506)'--`(TFE.2510)', hence the active
+entropy estimate `(TFE.2497)'--`(TFE.2498)'.
+
+The same local reading also identifies exactly what terminal no-residue requires.
+The terminal measure must be time-thick relative to the same generator clock:
+
+\[
+d\mathfrak m_{P'}+dA_{P'}^{sel/chart}
+\le
+C_N\,d\Omega_{P'}^{gen}+dPaid_{P'},
+\qquad
+d\Omega_{P'}^{gen}=\omega_{P'}(t,\sigma)\,dt\,d\sigma+dPaid_{P'}^{ac}.
+\tag{TFE.2539}
+\]
+
+With \(\omega_{P'}\in L^1([0,T_*))\) from `(TFE.2535)' and with legal/stop paid
+as no-atom or routed stop material, absolute continuity gives
+
+\[
+\lim_{\delta\downarrow0}
+\sup_{\tau<T_*}
+\bigl(d\mathfrak m_{P',\tau}+dA_{P',\tau}^{sel/chart}\bigr)
+\bigl(\{T_*-\delta<t<T_*\}\bigr)
+=0.
+\tag{TFE.2540}
+\]
+
+Thus terminal no-residue is not a separate physical reservoir once the endpoint
+readout is dominated by the same time-thick full-exchange generator clock.  It
+is separate only when endpoint material is allowed to remain a naked measure
+outside the original time-thick packet.
+
+Combining `(TFE.2535)'--`(TFE.2540)' with Sections 213--216 gives the exact
+full-strength implication:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{local stopped full-exchange no-self-feeding storage}\\
++\text{before-clipping selected log-carrier representation}\\
++\text{time-thick domination in the same parent clock}
+\end{array}}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+\tag{TFE.2541}
+\]
+
+This is the honest meaning of "discharge the \(L^1\) obstruction."  A weak
+global parent-scale-memory estimate would not discharge it.  The full-strength
+local package `(TFE.2532)'--`(TFE.2540)' would discharge the \(L^1\) obstruction
+because it supplies all three missing pieces at once: finite parent thickness,
+selected entropy/reverse Holder before clipping, and terminal no-residue in the
+same time-thick parent measure.  The still-unproved arbitrary-data content is
+constructing `(TFE.2532)'--`(TFE.2537)' and `(TFE.2539)' from the original
+Navier--Stokes packet without defining any term from the future selected
+positive tail.
+
+## 220. Minimal bad local package leaves only the scale-native terminal carrier
+
+Now run the proof by contradiction on the local source package itself.  Suppose
+`(TFE.2532)'--`(TFE.2539)' fails after inherited carry, Schur/Bessel admission,
+parent-current no-recount, derivative-announced reset, return, exchange,
+reselection, legal, and stop have been routed.  Choose a minimal stopped parent
+subpacket \(P_j\preceq P\), normalize the remaining active numerator, and let
+the independent original ledger vanish:
+
+\[
+\int_{\operatorname{Hist}(P_j)}d\Omega_{P_j}^{gen}=1,
+\qquad
+\int_{\operatorname{Hist}(P_j)}d\Theta_{P_j}^{0}
++Paid(P_j)\longrightarrow0.
+\tag{TFE.2542}
+\]
+
+There are only three possible failures.
+
+First, the stopped generator Carleson bound can fail.  Then, after compactness
+in the stopped parent frame, one obtains a nonzero limit generator
+
+\[
+G_\infty^{root}\ne0,
+\qquad
+d\Theta_\infty^0=0,
+\qquad
+dPaid_\infty=0.
+\tag{TFE.2543}
+\]
+
+For the bounded-channel part this is impossible.  The root generator has the
+parent-subtracted form
+
+\[
+G^{root}
+=
+\Pi_{\rm new}^P
+\left(
+\partial_\sigma Z
++[D_t,\mathcal L_A]w
++\operatorname{turnstile}_\sigma
++\operatorname{exchange}_\sigma
++\operatorname{covector}_\sigma
++\operatorname{frame/collar}_\sigma
+\right),
+\tag{TFE.2544}
+\]
+
+so zero source, zero exchange, zero covector/frame/collar motion, and zero
+legal/stop leave only inherited parent transport.  The parent subtraction in
+\(\Pi_{\rm new}^P\) kills inherited transport.  Hence the bounded-channel limit
+has
+
+\[
+G_{\infty,bdd}^{root}=0.
+\tag{TFE.2545}
+\]
+
+This is exactly the existing zero-cost rigidity mechanism, but now used only for
+the bounded local-source branch.  It does not prove the scale-native branch.
+
+Second, the selected log-carrier BMO estimate can fail while `(TFE.2535)' holds.
+Then the normalized failure has a sequence of stopped fibres \(E_j'\subset E_j\)
+with
+
+\[
+{1\over \mathfrak m(E_j')}
+\int_{\operatorname{Tent}(E_j')}d\langle b_{E_j}\rangle
+\longrightarrow\infty,
+\qquad
+\int_{\operatorname{Tent}(E_j')}d\Omega_{P_j}^{gen}\le C.
+\tag{TFE.2546}
+\]
+
+For bounded parent projections this contradicts `(TFE.2537)'.  Thus BMO can fail
+only when the selected log ratio is not represented by a bounded parent operator
+before clipping.  The unrepresented part is precisely the scale-native detector:
+a child unit detector whose original norm grows like \(r^{-1/2}\):
+
+\[
+\|\psi_Q^{child}\|_{\mathcal H_{child}}\simeq1,
+\qquad
+\|\psi_Q^{parent}\|_{\mathcal H_{parent}}\simeq r_Q^{-1/2}.
+\tag{TFE.2547}
+\]
+
+Therefore the BMO failure is not a fourth source.  It is the same
+scale-native first-birth/terminal carrier failing to enter the parent-known
+critical capacity before clipping.
+
+Third, terminal no-residue can fail.  Then there are \(\delta_j\downarrow0\)
+and stopped packets \(P_j\) such that
+
+\[
+\bigl(d\mathfrak m_{P_j,\tau_j}
++dA_{P_j,\tau_j}^{sel/chart}\bigr)
+\bigl(\{T_*-\delta_j<t<T_*\}\bigr)
+\ge c_0>0.
+\tag{TFE.2548}
+\]
+
+If the domination `(TFE.2539)' is time-thick, absolute continuity of
+\(\omega_{P_j}(t,\sigma)\,dt\,d\sigma\) contradicts `(TFE.2548)'.  Thus a
+terminal failure is possible only when some endpoint readout is a naked terminal
+measure outside the same full-exchange generator clock.  After legal/stop and
+endpoint routing are removed, the remaining naked terminal material is again the
+first-time scale-native endpoint carrier.
+
+Consequently the minimal bad local package has a single surviving branch:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{a scale-native first-birth/terminal endpoint carrier}\\
+\text{whose selected unit readout is not yet dominated by}\\
+\text{a root-known critical parent capacity before clipping.}
+\end{array}}
+\tag{TFE.2549}
+\]
+
+All bounded-channel generator mass, all bounded selected log-carrier oscillation,
+and all time-thick endpoint material are consumers of the local stopped package.
+They cannot be the final obstruction.  The exact remaining source theorem is the
+critical parent-capacity lower/upper edge for `(TFE.2549)':
+
+\[
+A_{sel}^{native}(Q)
+\le
+C_N\,\rho_{crit,P}(E_Q)+Paid(Q),
+\qquad
+\sum_{Q\subset P}\rho_{crit,P}(E_Q)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2550}
+\]
+
+with \(E_Q\) announced in the original coupled packet before child positive
+clipping and with terminal endpoint atoms dominated by the same
+\(\rho_{crit,P}\)-clock.  This is the same physical content previously called
+`NativeBirthChargePacking.A', `PositiveCriticalTransferBound.A', or
+`SameParentCriticalDepletionNoZeno.A', but `(TFE.2550)' is the nonduplicate
+form inside the local stopped source package.
+
+If `(TFE.2550)' is proved, then `(TFE.2549)' is impossible.  The bounded-channel
+and BMO branches are already killed by `(TFE.2545)'--`(TFE.2547)', and the
+terminal branch is killed by `(TFE.2539)'--`(TFE.2540)'.  Thus
+
+\[
+\boxed{
+\text{critical parent-capacity lower/upper edge `(TFE.2550)'}
+\Longrightarrow
+\text{local stopped source package `(TFE.2532)'--`(TFE.2539)'}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+}
+\tag{TFE.2551}
+\]
+
+This is the current mathematical bottom.  The repo has reduced the \(L^1\)
+problem to proving `(TFE.2550)' from the original coupled
+pressure-viscosity-incompressibility-velocity packet.  The proof cannot use raw
+\(L^2\), raw heat-square capacity, scalar signed critical energy, or future
+selected descendants; the half-tail model has already ruled those out.  It must
+construct the critical parent capacity itself and prove that every retained
+scale-native endpoint birth spends one of its root-known atoms exactly once.
+
+## 221. Critical parent capacity is selected log-amplification entropy
+
+The candidate for \(\rho_{crit,P}\) in `(TFE.2550)' is forced by the half-tail.
+Raw square capacity counts the zeroth moment of the selected ratio and misses
+the first moment.  A critical parent atom has to see the ratio by which the child
+readout exceeds the parent-carried baseline before clipping.
+
+Let \(dR_P^{root}\) be the root-known parent reserve measure on the scale-native
+endpoint/cocycle space, and let \(f_P\) be the before-clipping selected density:
+
+\[
+dA_P^{sel,+}=f_P\,dR_P^{root}.
+\tag{TFE.2552}
+\]
+
+For a retained scale-native child \(Q\), write the parent-announced ratio as
+
+\[
+r_Q
+:=
+{f_Q\over f_{\pi Q}},
+\qquad
+\log r_Q
+=
+\ell_Q(\Delta_QZ_P^S)-\psi_Q+e_Q,
+\tag{TFE.2553}
+\]
+
+where \(Z_P^S\) is the original coupled selected carrier, \(\psi_Q\) is the
+parent-known normalization/connection correction, and \(e_Q\) is legal/stop/paid.
+The scale-native critical capacity atom is then
+
+\[
+\rho_{crit,P}(E_Q)
+:=
+\int_{E_Q}
+f_P\log\!\left({f_P\over f_{\pi P}}\right)_+\,dR_P^{root}.
+\tag{TFE.2554}
+\]
+
+This is not defined from a future descendant tail.  It is a function of the
+before-clipping density \(f_P\) and the parent-root reserve \(dR_P^{root}\).
+
+The lower admission is deterministic.  On the fresh high-ratio face \(r_Q\ge2\),
+
+\[
+r_Q
+\le
+{2\over\log 2}\,r_Q\log r_Q,
+\tag{TFE.2555}
+\]
+
+so
+
+\[
+A_{sel}^{native}(Q)
+=
+\int_{E_Q} f_Q\,dR_P^{root}
+\le
+C\,\rho_{crit,P}(E_Q)+Paid(Q).
+\tag{TFE.2556}
+\]
+
+On \(r_Q<2\), the child has not created a scale-native high-ratio birth.  That
+piece is inherited/repeated-core material and is routed to parent-current
+no-recount, signed record/return, or reset/reselection payment already separated
+above.  Thus `(TFE.2556)' is exactly the selected-size lower edge in
+`(TFE.2550)'.
+
+The root packing side is also deterministic once the selected log carrier has a
+root Carleson square bound.  If
+
+\[
+\sum_{Q\subset P}
+\left|\ell_Q(\Delta_QZ_P^S)-\psi_Q\right|^2
+dR_P^{root}(E_Q)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2557}
+\]
+
+with the \(E_Q\) chosen as a stopped, bounded-overlap family before clipping,
+then John--Nirenberg/good-\(\lambda\) gives the entropy packing
+
+\[
+\sum_{Q\subset P}\rho_{crit,P}(E_Q)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2558}
+\]
+
+This proves `(TFE.2550)' from the selected log-amplification Carleson estimate:
+
+\[
+\boxed{
+\text{before-clipping log-ratio representation `(TFE.2553)'}
++
+\text{root Carleson bound `(TFE.2557)'}
+\Longrightarrow
+\text{critical parent-capacity lower/upper edge `(TFE.2550)'.}
+}
+\tag{TFE.2559}
+\]
+
+Combining with `(TFE.2551)' gives
+
+\[
+\text{`(TFE.2553)' + `(TFE.2557)'}
+\Longrightarrow
+\text{local stopped source package}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+\tag{TFE.2560}
+\]
+
+So the sharp remaining PDE claim is no longer a vague positive \(L^1\) estimate.
+It is the construction of the before-clipping scale-native log ratio
+`(TFE.2553)' and its root Carleson square bound `(TFE.2557)' from the original
+coupled packet.  Physically, this says each retained scale-native endpoint birth
+must carry a parent-visible log-amplification scar in the pressure-Hodge,
+viscous/Stokes, strain/frame, turnstile/exchange, covector/collar, selector,
+legal, or stop record.  The entropy atom \(r\log r\) is exactly the cost of
+calling that amplified readout fresh.
