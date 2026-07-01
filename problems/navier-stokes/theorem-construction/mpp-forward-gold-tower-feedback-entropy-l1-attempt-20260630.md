@@ -4940,3 +4940,792 @@ states.  The only forward Gold object left after that correction is the
 terminal-uniform \(L^1\) density of the same coupled pressure-viscosity-
 incompressibility-strain packet, strong enough to prevent a terminal atom of
 first-birth endpoint current.
+
+## 36. Terminal \(L^1\) construction audit: projected original-history charge is
+the noncircular storage input
+
+The storage in `(TFE.314)`--`(TFE.315)` is not produced by local absolute
+continuity and it is not produced by a bare BV lower bound.  The closest
+noncircular construction in the repo is the heat-lag entropy route.  Its source
+term is the active same-parent route measure
+
+\[
+\mu_A(\widehat Q)
+:=
+\sum_{k>N}
+\int_{T(Q)}
+2^k a_k(t)\mathcal D_k^\uparrow(t)\,dt ,
+\tag{TFE.319}
+\]
+
+and the heat-lag entropy inequality closes if \(\mu_A\) is Carleson on stopped
+subtrees:
+
+\[
+\sup_{Q\subset P}{\mu_A(\widehat Q)\over \mathcal R(Q)}
+\le C_N(u_0)+Paid(Q).
+\tag{TFE.320}
+\]
+
+Indeed, the native heat-lag source term factors at heat scale as
+
+\[
+2h_J|\langle Z_J,S_J\rangle|\,dt
+\le
+\varepsilon\,\nu h_J\lambda_J^2\|Z_J\|_2^2\,dt
++C_\varepsilon {h_J\over\nu\lambda_J^2}\|S_J\|_2^2\,dt .
+\tag{TFE.321}
+\]
+
+The first square is pressure-memory residence and is absorbed by viscous
+heat-scale service.  The second square is the native source residence.  Carleson
+control of that second square on every stopped subtree is exactly `(TFE.320)`.
+Then the parent entropy inequality gives
+
+\[
+d\mathcal E_P
++c\,d\mu_{P,trans}^{pw}
++(1-\theta)dVisc_{P,N}
+\le
+dPaid_P+C_N(u_0)d\mathcal R_P,
+\tag{TFE.322}
+\]
+
+and integrating `(TFE.322)` supplies the root-fixed terminal-uniform \(L^1\)
+density needed in `(TFE.314)`.
+
+The noncircular parent-side candidate for `(TFE.320)` is not the raw Bessel
+stress square.  It is the projected original-history charge
+
+\[
+D_e^{new}
+:=
+(I-\Pi_{\mathcal P_{e^-}})
+\int_{I_e}\Pi_{new}(e)
+\Big(
+[D_t,\mathcal L_A]w_e
++\operatorname{covector}_e
++\operatorname{frame}_e
++\operatorname{turnstile}_e
++\partial_\sigma Z_e
+\Big)\,d\tau
++R_e^{legal},
+\tag{TFE.323}
+\]
+
+\[
+\mathcal R_P^{proj}(\widehat Q)
+:=
+\sum_{e\subset Q}
+H_{e^-}\|D_e^{new}\|_{\mathcal H_{vis}\oplus\mathcal H_{sil}\oplus\mathcal H_{ex}}^2
++Return(Q)+Reset(Q)+Stop(Q)+Legal(Q).
+\tag{TFE.324}
+\]
+
+The exact sufficient root line is
+
+\[
+\sup_{Q\subset P}
+{\mathcal R_P^{proj}(\widehat Q)\over\mathcal R(Q)}
+\le C_N(u_0)+Paid(Q).
+\tag{TFE.325}
+\]
+
+If `(TFE.325)` holds, the stopped endpoint representation and accretive testing
+give
+
+\[
+M_{parent-sub}^{fresh}
+=D_AJ_{EP}^{new}
++M_{stop}^{fresh}+M_{legal}^{fresh}+M_{return}^{fresh},
+\tag{TFE.326}
+\]
+
+\[
+\int H_w|M_{parent-sub}^{fresh}|^2
+\le
+C_N\int |J_{EP}^{new}|^2\,d\mathcal R
++C_N(Return+Reset+Stop+Legal),
+\tag{TFE.327}
+\]
+
+and hence both first-birth endpoint-current Carleson `(TFE.279)` and terminal
+measure domination `(TFE.315)`.  Therefore
+
+\[
+\boxed{
+\text{projected-charge Carleson `(TFE.325)'}
+\Longrightarrow
+\text{`(TFE.279)' + `(TFE.314)'--`(TFE.315)'}
+\Longrightarrow
+\text{native-reserve domination `(TFE.306)'.}
+}
+\tag{TFE.328}
+\]
+
+This proves the formal construction route into the \(L^1\) theorem.  The remaining
+question is whether `(TFE.325)` follows from the original coupled packet.
+Concentration-compactness has already removed vanishing, carrier dichotomy,
+derivative-exact high-weight tube escape, selector drift, legal loss, stop loss,
+and zero-cost silent freshness.  The surviving term is the persistent
+nonderivative affine/root quotient
+
+\[
+D_e^{pers}
+=
+(I-\Pi_{\mathcal P_{e^-}})
+\mathcal C_\theta[Z_e^{fresh}].
+\tag{TFE.329}
+\]
+
+The required payment for this quotient is
+
+\[
+\sum_{e\subset P}
+\int H_{e^-}\|D_e^{pers}\|^2
+\le
+C_N(u_0)\mathcal R(P)
++C\,Return_-(P)
++C\,PotAvg(P)
++C\,Overrun_{sel}(P)
++Legal(P)+Stop(P).
+\tag{TFE.330}
+\]
+
+The fixed stopped-score return branch is installed relative to the parent
+root-geometry currency.  The two still-open original-history inputs are the
+fresh potential-average positive-transfer bound and the strict reset/overrun
+Carleson bound:
+
+\[
+PotAvg(P)
++Overrun_{sel}(P)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.331}
+\]
+
+Thus the current construction state is:
+
+\[
+\text{`(TFE.331)'}
+\Longrightarrow
+\text{`(TFE.330)'}
+\Longrightarrow
+\text{`(TFE.325)'}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\tag{TFE.332}
+\]
+
+Physically, this is the last pressure-memory backlog.  A pressure-compatible
+instruction may arrive before the velocity-energy readout is visible, and the
+heat-lag entropy factorization prevents the same read from being recounted at
+every scale.  What remains is the nonderivative affine average of that instruction
+while it is still parent-subtracted.  If that average has scale derivative, route
+motion, frame/covector/turnstile motion, return, reset, legal, or stop, it is
+paid.  If it has none of those, the proof must show it is inherited parent
+transport rather than fresh \(L^1\) action.  That is exactly the content of
+`(TFE.331)`, and it is the remaining noncircular input, not a separate pressure
+law and not a child-created storage.
+
+## 37. Selected-record reduction of `(TFE.331)`
+
+The two terms in `(TFE.331)` are not two independent scalar estimates.  The
+existing selected-record audit identifies them as two faces of one parent-known
+record on the original stopped material history:
+
+\[
+\mathfrak Z^S
+=
+(Z^S,\Psi^S,\Lambda^S).
+\tag{TFE.333}
+\]
+
+Here \(Z^S\) is the stopped signed routed carrier, \(\Psi^S\) is the affine
+scale-potential coordinate left by the fresh Volterra/DER-AQK quotient, and
+\(\Lambda^S\) is the selected amplification/reset coordinate.  The record is
+allowed to be built from original scale derivative, pressure-Hodge/current
+motion, turnstile/exchange/covector/frame motion, selector or reselection loss,
+legal loss, and stop loss.  It is not allowed to be defined from the future
+selected tail or from the terminal \(L^1\) quantity being proved.
+
+Define the stopped selected potential/amplification size by
+
+\[
+\begin{aligned}
+\mathcal E_{SPA}(P)
+:={}&
+\int_0^{T^\ast}
+H_w(t)
+\left\|
+{1\over |J|}\int_J\Psi^S(\sigma,t)\,d\sigma
+\right\|_{L_x^2}^2\,dt
+\\
+&+
+\operatorname{Var}_{crit}^{stop}(\Lambda^S;P)
+\\
+&+
+\sup_{P'\subseteq P}
+{1\over \mathcal R(P')}
+\sum_{Q\subseteq P'}
+\|\Delta_QZ^S\|_{\mathfrak H_P}^2\mathcal R(Q)
+\\
+&+
+\operatorname{TestDef}_S(P)
++Legal(P)+Stop(P).
+\end{aligned}
+\tag{TFE.334}
+\]
+
+The exact selected-record Carleson statement is
+
+\[
+\mathcal E_{SPA}(P)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.335}
+\]
+
+This statement implies `(TFE.331)`.  Indeed, the fresh affine quotient has the
+signed scale-descent form
+
+\[
+Y=\partial_\sigma\Psi^S+S^{spill}+E,
+\tag{TFE.336}
+\]
+
+and pairing against the affine quotient weight leaves
+
+\[
+\mathcal P_{avg}^{fresh}(t)
+=
+{1\over |J|}\int_J\Psi^S(\sigma,t)\,d\sigma
+\tag{TFE.337}
+\]
+
+after the scale-derivative, spill, frame, selector, return, and legal pieces
+are routed.  Therefore
+
+\[
+PotAvg(P)
+\le
+C
+\int_0^{T^\ast}
+H_w(t)
+\|\mathcal P_{avg}^{fresh}(t)\|_{L_x^2}^2\,dt
++Paid(P).
+\tag{TFE.338}
+\]
+
+For a strict reset \(Q\to Q'\), the child selected coefficient is compared to
+the parent coefficient transported into the child chart:
+
+\[
+\Delta_{reset}\Lambda^S(Q,Q')
+=
+\Lambda^S_{new}(Q')
+-
+\Lambda^S_{old\to new}(Q).
+\tag{TFE.339}
+\]
+
+The reset overrun is the positive critical variation of the same record:
+
+\[
+\Omega_{reset}(Q,Q')
+\le
+C\,\omega(Q,Q')
+[\Delta_{reset}\Lambda^S(Q,Q')]_+
++Paid(Q,Q').
+\tag{TFE.340}
+\]
+
+Summing stopped reset edges gives
+
+\[
+Overrun_{sel}(P)
+\le
+C\,\operatorname{Var}_{crit}^{stop}(\Lambda^S;P)+Paid(P).
+\tag{TFE.341}
+\]
+
+Combining `(TFE.338)` and `(TFE.341)`,
+
+\[
+\text{`(TFE.335)'}
+\Longrightarrow
+PotAvg(P)+Overrun_{sel}(P)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.342}
+\]
+
+which is `(TFE.331)`.
+
+This is the formal version of the entropy feedback picture.  A retained child
+readout cannot keep recounting the same pressure-compatible push as fresh
+positive work once \(\mathfrak Z^S\) is fixed parent-side.  Reuse changes the
+\(Z^S\)-score and is paid by the stopped-score/Gram telescope.  A fresh affine
+average changes the \(\Psi^S\)-coordinate.  A genuine reset changes the
+\(\Lambda^S\)-coordinate.  A child readout that is not charted by those
+coordinates has left the retained same-record transaction class and pays
+selector, reselection, legal, stop, or connection loss.
+
+So `(TFE.331)` is no longer two loose bills.  It is the selected-record face of
+the entropy law:
+
+\[
+\text{parent-known selected-record Carleson `(TFE.335)'}
+\Longrightarrow
+\text{persistent quotient payment `(TFE.330)'}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\tag{TFE.343}
+\]
+
+The scalar selected record is still not the full parent packet.  The parent
+packet is the coupled stopped routed participation current plus the scale-native
+native reserve.  In current form, the source is
+
+\[
+\nu^S
+=
+D_AJ^S+\nu^S_{stop}+\nu^S_{legal},
+\tag{TFE.344}
+\]
+
+and the current-side Carleson input is
+
+\[
+\sup_{Q\subset P}
+{1\over\mathcal R(Q)}
+\left[
+\int_{\widehat Q}|J^S|^2\,d\mathcal R
++Stop(\widehat Q)+Legal(\widehat Q)
+\right]
+\le C_N(u_0).
+\tag{TFE.345}
+\]
+
+This current input pays stopped testing, pressure-Hodge projection, fixed
+return, reset chart motion, and selected-record construction.  It does not, by
+itself, pay pure scale-native zoom births.  Those are supplied by the native
+reserve map
+
+\[
+\iota:\Gamma_N(P)\to\mathcal R_N^{nat}(u_0;P),
+\tag{TFE.346}
+\]
+
+with
+
+\[
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}
++Paid(\gamma),
+\qquad
+\operatorname{mult}(\iota)\le C_N,
+\tag{TFE.347}
+\]
+
+and
+
+\[
+\sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}\rho
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.348}
+\]
+
+Thus the coupled supplier for `(TFE.335)` is the pair
+
+\[
+\text{stopped routed-current Carleson `(TFE.345)'}
++
+\text{native-birth reserve `(TFE.346)'--`(TFE.348)'}.
+\tag{TFE.349}
+\]
+
+With `(TFE.349)`, the stopped Hilbert/BMO/testing machinery constructs
+\(\mathfrak Z^S\) before descendant selected clipping and proves `(TFE.335)`.
+Then `(TFE.343)` gives the terminal-uniform \(L^1\) line.  Without the
+scale-native reserve, `(TFE.345)` only controls bounded original-packet
+projections; it does not stop a unit rescaled child detector whose original
+pullback has size \(r^{-1/2}\).  This is why finite raw energy and raw current
+packing are not enough for the Gold \(L^1\) quantity.
+
+The current unresolved Gold assertion is therefore the coupled original-history
+supplier
+
+\[
+\boxed{
+\text{`(TFE.349)' from the original pressure-viscosity-incompressibility-
+velocity packet.}
+}
+\tag{TFE.350}
+\]
+
+It is exactly the entropy story with healthy boundaries: the parent packet is
+the original coupled current/native-reserve object; the child is the selected
+heat-lag readout; the feedback loop is the parent-known record
+\(\mathfrak Z^S\) that tracks which future selected states remain accessible
+before the child can clip them as positive \(L^1\).
+
+## 38. Audit of the coupled supplier `(TFE.350)`
+
+The coupled supplier `(TFE.350)` has two different jobs.  The stopped routed
+current job is a source-origin/testing job: keep the selected source as
+
+\[
+\nu^S=D_AJ^S+\nu^S_{stop}+\nu^S_{legal}
+\tag{TFE.351}
+\]
+
+and prove stopped Carleson square packing for \(J^S\).  This pays pressure-Hodge
+testing, fixed-core return, strict reset chart motion, and the scalar
+selected-record estimate `(TFE.335)`.
+
+The native-reserve job is different.  It pays scale-native births whose unit
+child detector is not a bounded original-packet test.  In a packet of radius
+\(r\), a unit rescaled detector pulls back with original \(L^2\) size
+\(r^{-1/2}\).  Therefore raw current energy and raw finite energy cannot by
+themselves bound the selected critical count.
+
+The native-reserve theorem is the bounded-multiplicity first-birth map
+
+\[
+\iota:\Gamma_N(P)\to\mathcal R_N^{nat}(u_0;P),
+\tag{TFE.352}
+\]
+
+\[
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}+Paid(\gamma),
+\qquad
+\operatorname{mult}(\iota)\le C_N,
+\tag{TFE.353}
+\]
+
+\[
+\sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}\rho
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.354}
+\]
+
+This is the exact state-deletion statement for first native births.  Once a
+birth atom is admitted, repeated use is parent-reuse, reset, return, legal, or
+stop.  The first admission itself must create a reserve atom that descendants
+cannot spend again with unbounded multiplicity.
+
+The analytic coordinate of `(TFE.352)`--`(TFE.354)` is the critical fractional
+reserve
+
+\[
+\mathfrak R_{nat}(T)
+\simeq
+\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt.
+\tag{TFE.355}
+\]
+
+Testing the coupled Leray-projected equation against \(\Lambda u\) gives
+
+\[
+{1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
++
+\nu\|\Lambda^{3/2}u\|_2^2
+=
+-
+\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle .
+\tag{TFE.356}
+\]
+
+Thus the native reserve closes if the positive transfer obeys
+
+\[
+\int_0^T
+\left(
+-
+\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C(u_0)
++
+\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt,
+\qquad
+\theta<1.
+\tag{TFE.357}
+\]
+
+This is the same theorem as selected-generator storage coercivity:
+
+\[
+\int_{\operatorname{Hist}(P)}a\|G_{sel}\|^2
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.358}
+\]
+
+The natural scale-memory storage
+
+\[
+M=\langle w,L_Aw\rangle
+\simeq
+\int|\nabla_Aw|^2
+\tag{TFE.359}
+\]
+
+only gives a signed balance identity after material differentiation.  It does
+not give `(TFE.358)` by itself, because signed pairings can cancel while the
+selected square norm remains large.  A true proof of `(TFE.358)` needs a
+parent-known accretive test or symmetrizer \(K_P\):
+
+\[
+\|G_{sel}\|^2
+\le
+C\langle G,K_PG\rangle+Paid(P),
+\tag{TFE.360}
+\]
+
+with the right side controlled by original material-history quantities and
+packing over stopped subtrees.
+
+So the entropy story contributes the correct monovariant only after the native
+reserve map exists.  The decreasing object is not raw kinetic energy and not
+bulk phase volume.  It is the parent-side accessible-state capacity measured by
+stopped current motion plus native first-birth reserve.  Pressure/transport may
+re-coordinate that capacity; viscosity supplies the critical reserve only after
+positive transfer satisfies `(TFE.357)` or equivalently after the native
+birth-packing map `(TFE.352)`--`(TFE.354)` is built.
+
+Therefore the current completion line for the \(L^1\) problem is
+
+\[
+\boxed{
+\text{`(TFE.352)'--`(TFE.354)'}
+\Longleftrightarrow
+\text{`(TFE.357)' / `(TFE.358)'}
+\Longrightarrow
+\text{`(TFE.350)'}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+}
+\tag{TFE.361}
+\]
+
+The existing repo surfaces prove the downstream arrows in `(TFE.361)` and the
+record projection `(TFE.333)`--`(TFE.343)`.  They do not yet prove the first
+native-reserve/positive-transfer arrow for arbitrary smooth data.  That is the
+actual remaining mathematical content of the Gold \(L^1\) problem after the
+entropy-feedback audit.
+
+## 39. First-arrow proof-method audit: upcascade transit is routed, strict
+selected-capacity gain remains
+
+The first arrow in `(TFE.361)` is not an arbitrary frequency-cascade problem.
+The dyadic positive-transfer form is
+
+\[
+\int_0^T\sum_j2^j[\Pi_{j-1\to j}^{fresh}(t)]_+\,dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.362}
+\]
+
+or, with absorption language, the same bound with a strict
+\(\theta\,\mathfrak R_{nat}(T)\) term on the right.  This is the concrete
+frequency face of `(TFE.357)`.
+
+The residence/transit split already pays the residence part.  On a fresh
+crossing interval \(I_j\),
+
+\[
+\int_{I_j}\nu2^{2j}E_j(t)\,dt
+\ge
+\varepsilon
+\int_{I_j}[\Pi_{j-1\to j}^{fresh}(t)]_+\,dt
+\tag{TFE.363}
+\]
+
+implies
+
+\[
+2^j\int_{I_j}[\Pi_{j-1\to j}^{fresh}]_+\,dt
+\le
+C_\varepsilon
+\int_{I_j}\nu2^{3j}E_j(t)\,dt.
+\tag{TFE.364}
+\]
+
+Thus residence is native viscous cost, not a new source.
+
+The complement is transit: the incoming fresh flux leaves the shell before
+residing.  The threaded-cascade reduction shows that this transit is coherent
+same-material motion, not a fresh birth at every level.  For maximal transit
+threads \(\gamma\),
+
+\[
+\sum_{\gamma\subset P}
+\sum_{j\in\gamma}2^jM_j^\gamma
+\le
+C_NE_{root}(P)
++C\,Res(P)
++C\,ResetEscape(P)
++C\,ReturnBV(P)
++Paid(P).
+\tag{TFE.365}
+\]
+
+Finite-band parent-predictable transit telescopes.  Parent-predictable transit
+has no fresh selected differential.  Top outflux is a first-exit reset/escape.
+Return to an old stopped core is return/BV.  Therefore the open first-arrow
+problem is no longer "can a pulse climb forever by transit?" in that loose
+sense.  That branch is routed into the parent-child transition faces already
+appearing in `(TFE.333)`--`(TFE.343)`.
+
+After this routing, the nonduplicate first-arrow object is the selected root
+reserve itself:
+
+\[
+\sum_{Q\in\mathcal T_{sel}}A(Q)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.366}
+\]
+
+Equivalently, by finite laminar-tree duality, for every monotone ancestry
+multiplier
+
+\[
+0\le \alpha_{Q'}\le\alpha_Q\le1,
+\qquad Q'\in ch(Q),
+\tag{TFE.367}
+\]
+
+one must prove
+
+\[
+\sum_{Q\in\mathcal T_{sel}}\alpha_QA(Q)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.368}
+\]
+
+The constant multiplier \(\alpha_Q\equiv1\) is admissible, so `(TFE.368)` is not
+a weaker sparse test.  It is the adjoint certificate for the whole selected
+first-ratio action.
+
+In PDE terms, `(TFE.368)` is the laminar adjoint stress-test estimate.  Given
+\(\alpha\), form the selected stress carrier
+
+\[
+\mathcal M_\alpha
+=
+\sum_{Q\in\mathcal T_{sel}}\alpha_Q\mu_Q^{sel}.
+\tag{TFE.369}
+\]
+
+The needed estimate is that the backward pressure-Hodge / critical-strain
+adjoint response to \(\mathcal M_\alpha\) has legal original-data energy with a
+strict selected-capacity gain.  Linear backward Stokes/Hodge energy reaches only
+raw capacity:
+
+\[
+\sum_\ell\nu_\ell<\infty.
+\tag{TFE.370}
+\]
+
+The Gold first-ratio action asks for
+
+\[
+\sum_\ell2^\ell\nu_\ell<\infty.
+\tag{TFE.371}
+\]
+
+The half-tail
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1}
+\tag{TFE.372}
+\]
+
+has `(TFE.370)` but violates `(TFE.371)`.  Ordinary heat/Stokes smoothing,
+pressure-Hodge order-zero boundedness, raw energy, and raw current packing see
+only `(TFE.370)`.  They do not supply the strict selected-capacity gain.
+
+Thus the first arrow in `(TFE.361)` is sharpened to the following equivalent
+forms:
+
+\[
+\begin{aligned}
+&\text{native-birth reserve `(TFE.352)'--`(TFE.354)'}\\
+&\Longleftrightarrow
+\text{positive critical transfer `(TFE.357)'}\\
+&\Longleftrightarrow
+\text{selected root reserve `(TFE.366)'}\\
+&\Longleftrightarrow
+\text{laminar adjoint selected-capacity gain `(TFE.368)'--`(TFE.369)'}.
+\end{aligned}
+\tag{TFE.373}
+\]
+
+The fresh affine endpoint surfaces give a useful child coordinate of the same
+gain.  On the positive fresh carrier, the affine quotient satisfies
+
+\[
+0\le c_F^{fresh}(t,x)
+\le
+C\,M_0^{fresh}(t,x),
+\qquad
+M_0^{fresh}(t,x)=\int_J\widetilde Z^{fresh}(\sigma,t,x)\,d\sigma,
+\tag{TFE.374}
+\]
+
+so the positive affine branch reduces to the endpoint-mass threading estimate
+
+\[
+\int_0^{T^\ast}
+H_w(t)\|M_0^{fresh}(t)\|_{L_x^2}^2\,dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.375}
+\]
+
+But `(TFE.375)` is a coordinate face of the same selected-capacity gain, not a
+separate source of it.  The direct endpoint threading attempts leave exactly the
+same need: a Carleson/synchronization or full-packet rigidity theorem that beats
+the coherent positive endpoint half-tail for the same selected carrier.
+
+The proof-method audit is therefore:
+
+\[
+\text{local storage}
+\quad
+\text{compactness/Liouville}
+\quad
+\text{raw tree counting}
+\quad
+\text{linear adjoint Stokes}
+\tag{TFE.376}
+\]
+
+all stop at raw capacity or local attachment.  They do not prove `(TFE.373)`.
+The remaining possible proof methods are exactly the nonlinear same-history
+ones: an accretive selected-capacity test, a bounded-below root-positive-flux
+reserve, a depletion law for positive critical transfer, or a critical-element
+rigidity theorem that rules out the half-tail while preserving the full coupled
+pressure-viscosity-incompressibility-velocity participation law.
+
+This is the narrowest current formulation of the \(L^1\) problem.  The entropy
+story has removed recounting and routed transit.  What is still mathematically
+unproved is the strict selected-capacity gain that turns finite raw parent
+capacity into finite selected first-ratio action for arbitrary smooth data.
