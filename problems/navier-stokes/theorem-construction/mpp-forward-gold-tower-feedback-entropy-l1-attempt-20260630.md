@@ -17353,3 +17353,368 @@ This sharpens the B-clause in `(TFE.1157)' but does not close it.  Gold \(L^1\)
 still needs `(TFE.1169)'--`(TFE.1173)' or one of the equivalent strict
 half-tail exclusion forms from the original coupled
 pressure-viscosity-incompressibility-velocity packet.
+
+## 103. Entropy-to-Bellman bridge: what the physical story must prove
+
+The entropy story is being used, but only in the parent-side sense that matters
+for \(L^1\).  It is not a passive count of Fourier histories after the child
+readout.  It is the parent-known active capacity of the coupled
+pressure-viscosity-incompressibility-velocity packet before the selected
+positive part is clipped.
+
+On a stopped material packet \(P\), let
+
+\[
+\mathfrak M_P(t)
+=
+(m_P(t),G_P(t),C_P(t),\text{carrier/route/Hodge/collar state},
+\text{terminal clocks})
+\tag{TFE.1180}
+\]
+
+be the parent material state.  The entropy-capacity form of the Bellman storage
+has to be a bounded-below functional of this state,
+
+\[
+\mathcal U_P(t)=\mathcal U(\mathfrak M_P(t)),
+\qquad
+\mathcal U_P(t)\ge -C_N(u_0)-Legal(P)-Stop(P),
+\tag{TFE.1181}
+\]
+
+and it must be defined before any child selected positive readout is counted.
+The physical content is this: pressure feedback may re-coordinate the remaining
+velocity state and solve the next compatibility problem in the updated frame,
+but it cannot create a new population of selectable future states unless the
+full coupled packet has actually moved, returned, stopped, hit endpoint
+material, created first-entry novelty, or spent viscous reserve.
+
+Thus the entropy story becomes the same local one-sided Bellman line as the
+full-output upcrossing surface:
+
+\[
+[dq_{pc}]_+
+\le
+-d\mathcal U_P
++dFresh_{\rm Bessel}^{pc}
++dSchur_{\rm retained}^{pc}
++dMotion+dReturn
++\theta\nu D_c\,dt
++dLegal+dStop+dEnd ,
+\qquad
+\theta<1 .
+\tag{TFE.1182}
+\]
+
+Here \(q_{pc}\) is the signed full-output parent current and \(D_c\) is the
+critical viscous descent.  The entropy word is justified only if
+\(\mathcal U_P\) measures the remaining accessible selected state-capacity of
+the same parent packet, so that a positive selected upcrossing is a deletion of
+available parent capacity rather than a fresh child event.
+
+The strict half-tail form of the same statement is:
+
+\[
+N_{L+1}(P)
+\le
+\theta N_L(P)+B_L(P),
+\qquad
+\theta<{1\over2},
+\qquad
+\sum_{L\ge0}2^LB_L(P)
+\le C_N(u_0)+Paid(P).
+\tag{TFE.1183}
+\]
+
+This is the scale-state version of `(TFE.1182)'.  \(N_L(P)\) counts active
+selected future states still available at depth \(L\) in the same parent
+history.  The factor \(\theta<1/2\) is the mathematical version of the physical
+claim that the feedback loop cannot open selected states at the same rate that
+the heat/viscous handoff and paid exits delete them.  Without the strict factor,
+the harmonic half-tail survives.
+
+The already-installed pieces feed into this bridge as consumers, not as the
+producer:
+
+\[
+\begin{aligned}
+&\text{full-output one-point current identity}\\
+&\quad+
+\text{paid-current category repair}\\
+&\quad+
+\text{first-entry Bessel/no-recount update}\\
+&\quad+
+\text{route, motion, return, legal, stop, endpoint ledgers}
+\\[1mm]
+&\Longrightarrow
+\text{only retained same-carrier full-output positive current remains.}
+\end{aligned}
+\tag{TFE.1184}
+\]
+
+The remaining producer is the entropy-capacity monotonicity theorem:
+
+\[
+d\Omega_P^{sel}
+\le
+-d\mathcal U_P(\mathfrak M_P)
++\theta\nu D_c\,dt
++dFresh+dSchur+dMotion+dReturn+dLegal+dStop+dEnd ,
+\tag{TFE.1185}
+\]
+
+where \(d\Omega_P^{sel}\) is the parent-known positive active selected
+state-deletion measure for the full-output current.  The prose theorem must not
+be presented as "entropy closes \(L^1\)" unless `(TFE.1185)' is actually proved
+from the original coupled packet.
+
+The hard subclauses of `(TFE.1185)' are exactly the pieces that Section 102
+isolated:
+
+\[
+\begin{array}{ll}
+\text{A.} & \text{same-history parent-known critical capacity/lower admission,}\\
+\text{B.} & \text{root-finite positive metric variation or strict half-tail exclusion,}\\
+\text{C.} & \text{retained Schur-thin source-variation/parabolic-thickness payment,}\\
+\text{D.} & \text{terminal no-atom/no-residue or first-time-rung endpoint thickness.}
+\end{array}
+\tag{TFE.1186}
+\]
+
+If `(TFE.1185)' holds, then `(TFE.1182)' integrates to
+
+\[
+\int_0^\tau [B^{crit}(t)]_+\,dt
+\le
+C_N(u_0)+Paid(P)
++\theta\nu\int_0^\tau D_c(t)\,dt ,
+\qquad \tau<T_\ast,
+\tag{TFE.1187}
+\]
+
+and the remaining viscous margin gives the terminal-uniform \(L^1\) line.
+
+Status after the entropy audit:
+
+\[
+\begin{gathered}
+\text{The physical entropy picture identifies the correct Bellman storage;}\\
+\text{the current identity, no-recount, and paid-route pieces are support;}\\
+\text{Gold \(L^1\) still requires `(TFE.1185)' from original coupled data.}
+\end{gathered}
+\tag{TFE.1188}
+\]
+
+## 104. Minimal physical closure package for \(TFE.1185\)
+
+The source audit shows that `(TFE.1185)' has two different parts, and only one
+of them is still mathematical work.
+
+The deterministic part is installed.  If the selected active density is
+parent-known before clipping,
+
+\[
+d\Omega_P^{sel}=f_P\,dR_P^{orig}+dPaid_P,
+\tag{TFE.1189}
+\]
+
+then the entropy storage
+
+\[
+\mathcal H(P)
+=
+\int_P f_P\log {f_P\over \langle f_P\rangle_P}\,dR_P^{orig}
+\tag{TFE.1190}
+\]
+
+has the chain-rule drop
+
+\[
+\sum_{Q\in ch_{hi}(P)}f_QR_P^{orig}(Q)
++\sum_{Q\in ch(P)}\mathcal H(Q)
+\le
+\mathcal H(P)+Paid(P),
+\tag{TFE.1191}
+\]
+
+where \(ch_{hi}(P)\) are the retained high-ratio children.  Summing the stopped
+tree gives terminal-uniform \(L^1\) from the root entropy bound.  Thus the
+entropy telescope is no longer the missing proof.
+
+The missing PDE part is the production of the parent-known density and its root
+entropy from the original coupled packet.  In full-packet order-lock form, the
+selected child may take a positive part only after the simultaneous
+transport-pressure-viscosity-incompressibility-selector scalar has recombined:
+
+\[
+h_P
+=
+\langle N_P+P_P+V_P+T_P+I_P+L_P+S_P,\Phi_P\rangle
+-cD_P^\nu,
+\tag{TFE.1192}
+\]
+
+and
+
+\[
+d\Omega_P^{sel,+}
+\le
+[h_P]_+\,dt+dR_P^{ol},
+\tag{TFE.1193}
+\]
+
+with \(dR_P^{ol}\) routed to paid selector/order-lock/reselection material or
+to endpoint-uniformly-integrable residue.  Without `(TFE.1193)', a child can
+clip one channel before its pressure-viscosity-incompressibility partner has
+arrived in the same readout.
+
+The active-capacity form of the PDE supplier is the present-time inequality
+
+\[
+d\mathscr A_P
++c\,d\Omega_P^{sel,+}
+\le
+\theta\nu D_c\,dt
++d\Lambda_P^{der/conn}
++d\Lambda_P^{birth}
++dR_{legal,P}
++dStop_P
++dEnd_P,
+\qquad
+\theta<1,
+\tag{TFE.1194}
+\]
+
+with
+
+\[
+\mathscr A_P(t)\ge -C_N(u_0)-Paid(P),
+\tag{TFE.1195}
+\]
+
+and with every term built from the same stopped parent packet before the child
+positive readout.  This is `(TFE.1185)' with the physical accounts separated:
+\(d\Lambda^{der/conn}\) is fixed-score motion, reset derivative motion,
+turnstile, exchange, covector, frame, and collar movement; \(d\Lambda^{birth}\)
+is first native endpoint/critical capacity birth; \(dEnd\) is root-fixed
+terminal material.
+
+The already-audited consumers are:
+
+\[
+\begin{array}{ll}
+\text{fixed-score return:} &
+\partial_\sigma(\Gamma Z^S)\text{ plus bounded downcrossing overlap},\\
+\text{derivative reset:} &
+\text{announced first-exit average plus harmonic Cauchy},\\
+\text{Schur-thick retention:} & \text{paid parent-current Schur storage},\\
+\text{fresh orthogonal first entry:} & \text{parent-subtracted Bessel novelty},\\
+\text{zero-cost same-carrier limit:} & \text{lossless rigidity after tightness}.
+\end{array}
+\tag{TFE.1196}
+\]
+
+These consumers do not produce `(TFE.1194)'.  They only say where a selected
+event goes after the parent packet has admitted it.
+
+The unproved suppliers are exactly:
+
+\[
+\begin{array}{ll}
+\text{A.} & \text{Full-packet order-lock/carrier realization `(TFE.1192)'--`(TFE.1193)';}\\
+\text{B.} & \text{parent-known selected log-amplification/root BMO Carleson,}\\
+& \qquad
+\displaystyle
+\sup_{P'\subset P}{1\over R(P')}
+\sum_{Q\subset P'}
+\big(\|\Delta_Q Z^S\|_{\mathcal H_P}^2+|e_Q|^2\big)R(Q)<\infty;\\
+\text{C.} & \text{native-birth/positive-critical-transfer packing,}\\
+& \qquad
+\displaystyle
+\sum_{\gamma\subset P}
+\|M_\gamma^{fresh}\|_{\operatorname{Cap}_{crit,P}^{-1}}^2
+\le C_N(u_0)R(P)+Paid(P);\\
+\text{D.} & \text{retained Schur-thin source-variation/parabolic-thickness payment;}\\
+\text{E.} & \text{root-fixed endpoint no-atom/no-residue or endpoint \(L^1(dt)\) domination.}
+\end{array}
+\tag{TFE.1197}
+\]
+
+The physical story behind `(TFE.1197)' is now precise.  The pressure response
+may coordinate the whole field instantly; viscosity and heat lag make the
+response readable as velocity/strain; self-advection and the material frame
+move the packet; then pressure coordinates the updated state again.  That loop
+is allowed.  The \(L^1\) theorem needs the loop to be state-deleting in the
+selected critical metric: a positive child readout either uses an already
+admitted parent state, moves the parent score, resets the chamber, first-admits
+a new native endpoint seed, reaches terminal material, or is absorbed by the
+strict viscous margin.
+
+The half-tail is the exact obstruction to any weaker story:
+
+\[
+R_\ell\simeq {2^{-\ell}\over \ell+1},
+\qquad
+f_\ell\simeq2^\ell,
+\tag{TFE.1198}
+\]
+
+so
+
+\[
+\sum_\ell R_\ell<\infty,
+\qquad
+\sum_\ell f_\ell R_\ell=\infty,
+\qquad
+\sum_\ell f_\ell\log(1+f_\ell)R_\ell=\infty.
+\tag{TFE.1199}
+\]
+
+Raw energy, raw square Bessel packing, and same-parent ownership see only the
+first sum.  Parent-known selected entropy or positive critical transfer sees the
+third sum, and therefore kills the divergent selected \(L^1\) middle sum.
+
+If `(TFE.1194)'--`(TFE.1197)' are proved, then integrating `(TFE.1194)' gives
+
+\[
+c\int_0^\tau d\Omega_P^{sel,+}
+\le
+\mathscr A_P(0)-\mathscr A_P(\tau)
++\theta\nu\int_0^\tau D_c(t)\,dt
++\int_0^\tau(d\Lambda_P^{der/conn}+d\Lambda_P^{birth}+dR_{legal}+dStop+dEnd).
+\tag{TFE.1200}
+\]
+
+The consumer estimates in `(TFE.1196)' and the root bounds in `(TFE.1197)'
+then yield
+
+\[
+\sup_{\tau<T_\ast}\int_0^\tau d\Omega_P^{sel,+}
+\le
+C_N(u_0)+Paid(P)
++\theta\nu\int_0^\tau D_c(t)\,dt.
+\tag{TFE.1201}
+\]
+
+Combining `(TFE.1201)' with the critical energy identity leaves the strict
+viscous margin and gives terminal-uniform \(L^1\).
+
+So the minimal closure package is:
+
+\[
+\begin{gathered}
+\text{full packet first, before positive clipping;}\\
+\text{parent-known log-amplification entropy/root BMO;}\\
+\text{native-birth/positive-critical transfer packing;}\\
+\text{Schur-thin parabolic thickness;}\\
+\text{root-fixed endpoint no-atom or endpoint \(L^1(dt)\) domination.}
+\end{gathered}
+\tag{TFE.1202}
+\]
+
+This section does not close Gold.  It prevents a duplicate failure: saying
+"entropy should decrease" is not yet a proof.  The actual proof must construct
+the active capacity \(\mathscr A_P\), the carrier \(Z^S\), and the critical
+native birth measure from the original
+pressure-viscosity-incompressibility-velocity packet and prove
+`(TFE.1194)'--`(TFE.1197)' with \(\theta<1\).
