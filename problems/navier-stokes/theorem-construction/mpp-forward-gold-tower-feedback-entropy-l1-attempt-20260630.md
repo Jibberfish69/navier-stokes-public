@@ -22292,3 +22292,366 @@ This is the same theorem as `PositiveCriticalTransferDepletion.A' /
 `NativeBirthChargePacking.A' in depletion coordinates.  It is strictly stronger
 than the signed critical identity and is not supplied by local energy,
 incompressibility, Leray projection, or raw same-parent Bessel packing.
+
+## 131. Tooth A current-factorization attack and the complete missing physical source
+
+Tooth A is not an independent entropy miracle.  It is the log-density face of
+the same parent-known active source.  The stopped selected measure must first
+be represented, before child positive clipping, as
+
+\[
+\nu_P^S
+=D_AJ_P^S+\nu_{P,stop}^S+\nu_{P,legal}^S,
+\tag{TFE.1508}
+\]
+
+where \(J_P^S\) is the same-material routed participation current of the
+coupled pressure-viscosity-incompressibility-velocity packet.  Its components
+are pressure-compatible Schur current, viscous/strain current, silent
+exchange, turnstile/frame/covector motion, collar/reset current, and already
+paid legal current.
+
+Once `(TFE.1508)' is available with paid stop/legal collars, the pressure-Hodge
+or Hilbert lift is a bounded projection of the current:
+
+\[
+T_S(D_AJ_P^S)=\Pi_{\nabla,A}J_P^S,
+\tag{TFE.1509}
+\]
+
+and hence
+
+\[
+\|T_S(1_Q\nu_P^S)\|_{L^2(Q,\mathcal R)}^2
+\le
+C\int_{\widehat Q}|J_P^S|^2\,d\mathcal R
++CStop(\widehat Q)+CR_{\rm legal}(\widehat Q).
+\tag{TFE.1510}
+\]
+
+Thus the transform side of Tooth A is a consumer.  The actual source line is
+the stopped current Carleson bound
+
+\[
+\sup_{Q\subset P}
+{1\over \mathcal R(Q)}
+\left[
+\int_{\widehat Q}|J_P^S|^2\,d\mathcal R
++Stop(\widehat Q)+R_{\rm legal}(\widehat Q)
+\right]
+\le C_N(u_0).
+\tag{TFE.1511}
+\]
+
+If `(TFE.1511)' holds, martingale/Hodge \(T1/Tb\) gives a parent-known carrier
+\(Z_P^S\) with
+
+\[
+\log {f_Q\over f_{\operatorname{par}(Q)}}
+=
+\ell_Q(\Delta_Q Z_P^S)-\psi_Q+e_Q,
+\qquad
+\sup_{Q\subset P}
+{1\over\mathcal R(Q)}
+\sum_{Q'\subset Q}
+\left(\|\Delta_{Q'}Z_P^S\|^2+|e_{Q'}|^2\right)\mathcal R(Q')
+\le C_N(u_0).
+\tag{TFE.1512}
+\]
+
+Then the entropy/reverse-Holder step is deterministic:
+
+\[
+dA_{P,sel}=f_P\,d\mathcal R_P^{orig},
+\qquad
+\int_P f_P\log(e+f_P)\,d\mathcal R_P^{orig}
+\le C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1513}
+\]
+
+and the critical half-tail cannot be counted as infinitely many fresh positive
+states.  The selected positive \(L^1\) count is now subordinated to one
+parent-known density, not to descendant-selected postselection.
+
+So Tooth A reduces to `(TFE.1508)' plus `(TFE.1511)'.  The source of
+`(TFE.1511)' is not raw current \(L^2\).  Raw current energy still permits the
+half-tail.  The source has to be the same active-state deletion law as Tooth B,
+seen in current coordinates:
+
+\[
+dA_{P,act}^{+}
+\le
+-d\mathcal M_P
++\theta\nu D_c(t)\,dt
++dR_{P,cur}
++dPaid_P,
+\qquad
+\theta<1,
+\qquad
+0\le\mathcal M_P\le C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1514}
+\]
+
+with \(dR_{P,cur}\) containing only parent-announced route motion, full-exchange
+motion, derivative-exact reset Cauchy, same-score negative return, legal, stop,
+and terminal material.  This is `PositiveCriticalTransferDepletion.A' /
+`NativeBirthChargePacking.A' / `StoppedRoutedParticipationCurrentCarleson.A' in
+one notation.
+
+The remaining terminal clause is not a separate endpoint currency.  It says
+that a retained root-fixed terminal child cannot become a zero-thickness
+replay of the same active density:
+
+\[
+\lim_{\tau\uparrow T^\ast}
+A_{P,act}^{+}([\,\tau,T^\ast\,))
+=0
+\quad\text{unless the mass enters }dA_{P,act}^{+},\,dPaid_P,\text{ or }Stop.
+\tag{TFE.1515}
+\]
+
+Equivalently, the parent density in `(TFE.1513)' must be uniformly integrable
+at the terminal face.  Finite temporal jets give this only for finite-jet
+endpoint material.  The Gold terminal line still has to exclude harmonic
+pressure-memory residue, selector/collar residue, signed-return residue, and
+geometry residue on the same carrier after all nonterminal branches are removed.
+
+This gives the complete missing physical story.  Pressure-compatible
+coordination can open or re-coordinate the remaining packet state instantly;
+the heat-lag/viscous child makes part of that state readable as velocity/strain
+action; self-advection and the moving material frame feed that readout back
+into the next pressure-compatible coordination.  The number of future states
+does decrease only when the original coupled packet supplies the parent-known
+active counter \(\mathcal M_P\) and density \(f_P\) before the child clips
+positive action.
+
+The full L1 closure theorem is therefore:
+
+\[
+\begin{gathered}
+\text{construct \(J_P^S,Z_P^S,f_P,\mathcal M_P\) from the original coupled
+packet;}\\
+\text{prove selected admission before clipping, stopped current Carleson
+`(TFE.1511)',}\\
+\text{native depletion `(TFE.1514)' with strict \(\theta<1\), and terminal
+uniform integrability `(TFE.1515)'.}
+\end{gathered}
+\tag{TFE.1516}
+\]
+
+Once `(TFE.1516)' is proved, the downstream chain is forced:
+
+\[
+\begin{gathered}
+\text{stopped current Carleson}
+\Rightarrow
+\text{log-density/BMO carrier}
+\Rightarrow
+\text{entropy/reverse Holder}\\
+\Rightarrow
+\text{strict half-tail contraction}
+\Rightarrow
+\sup_{\tau<T^\ast}\int_0^\tau dA_{P,act}^{+}<\infty
+\Rightarrow
+\text{FGC.25.}
+\end{gathered}
+\tag{TFE.1517}
+\]
+
+The repo has the consumers in this chain.  It does not yet have `(TFE.1516)'
+from arbitrary smooth original data.  Finite initial energy, same-parent
+ownership, no-recount, raw Bessel, Leray projection, and the signed critical
+identity all remain necessary support; none supplies the parent-known active
+state-deletion source by itself.
+
+## 132. Minimal-bad compactness attack on the source theorem
+
+Now attack `(TFE.1516)' by contradiction instead of by another direct
+positive-transfer estimate.  Suppose the parent-known active source theorem
+fails after all already-paid branches have been removed.  Then there is a
+sequence of stopped parents \(P_m\) and retained selected children with
+normalized positive active numerator
+
+\[
+A_m^{act,+}(P_m)=1,
+\tag{TFE.1518}
+\]
+
+while every parent-known source term currently available tends to zero:
+
+\[
+\mathcal S_m^{orig}
+:=
+\int_{\operatorname{Hist}(P_m)}
+\Bigl(
+|\partial_\sigma Z|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
+\Bigr)
++R_{\rm legal}(P_m)+Stop(P_m)
+\to0.
+\tag{TFE.1519}
+\]
+
+Here `(TFE.1519)' is not allowed to include the future selected tail or the
+active density being produced.  It contains only original coupled packet
+motion, route/frame/covector/exchange motion, legal material, and stop
+material.
+
+The compactness tree has four branches.
+
+First, the selected mass may stay tight in one parent-fixed stopped carrier and
+one finite band of the lifted Hilbert geometry.  Then a subsequence has a
+nonzero same-carrier active quotient:
+
+\[
+D_{\infty}^{fresh}\ne0.
+\tag{TFE.1520}
+\]
+
+Since `(TFE.1519)' tends to zero, the limiting route, exchange, covector, frame,
+and scale-derivative charges vanish.  The installed zero-cost freshness
+rigidity then gives
+
+\[
+D_{\infty}^{fresh}=0,
+\tag{TFE.1521}
+\]
+
+contradicting `(TFE.1520)'.  Thus the tight finite-band branch cannot carry the
+bad mass.
+
+Second, the selected mass may leave the stopped carrier chart through selector,
+covector, frame, collar, legal, or stop motion.  That is not a new source.  It
+is exactly routed-current motion in `(TFE.1519)' or paid stop/legal material.
+Under the normalized failure `(TFE.1519)', this branch has zero limiting mass.
+
+Third, the mass may concentrate in high-weight shrinking reset tubes.  The
+installed no-free-tube argument handles the derivative-exact case: if each reset
+quotient has a parent-announced first-exit interval \(I_e\),
+
+\[
+D_e^{fresh}(t)
+=
+{|I_e|}^{-1}\int_{I_e}G_e(\sigma,t)\,d\sigma
++Err_e^{paid}(t),
+\tag{TFE.1522}
+\]
+
+and harmonic active weight
+
+\[
+H_e(t)
+=
+{|I_e|^2\over\int_{I_e}w(\sigma,t)^{-1}\,d\sigma},
+\tag{TFE.1523}
+\]
+
+then weighted Cauchy gives
+
+\[
+\int H_e\|D_e^{fresh}\|^2
+\le
+C\int_{I_e}w\|G_e\|^2
++Paid(e).
+\tag{TFE.1524}
+\]
+
+Stopped sparse overlap sums `(TFE.1524)' and charges the branch to
+`(TFE.1519)'.  Thus derivative-exact reset escape is already a consumer once
+the interval is parent-announced.
+
+Fourth, the normalized active numerator may remain in one carrier but escape
+to infinite lifted frequency or to a non-derivative affine/root quotient.  This
+is the real survivor.  Same-carrier weak compactness alone cannot see it:
+orthonormal high bands can have unit norm and weak limit zero.  The missing
+tail theorem is
+
+\[
+\sum_{e\subset P}
+\int
+H_{e^-}\|\Pi_{>M}^{P}D_e\|_{\mathcal H_{lift}}^2
+\le
+\varepsilon_M
+\sum_{e\subset P}\int H_{e^-}\|D_e\|_{\mathcal H_{lift}}^2
++C_M\int_{\operatorname{Hist}(P)}d\Theta_P^{tower/root}
++Paid(P),
+\tag{TFE.1525}
+\]
+
+with \(\varepsilon_M\to0\), where \(d\Theta_P^{tower/root}\) is a
+parent-known original-history tower/root density.  It cannot contain the active
+selected numerator being produced.
+
+After `(TFE.1525)', the finite-band part carries a nonzero tight limit and the
+zero-cost rigidity contradiction applies.  Without `(TFE.1525)', a half-tail can
+hide as high-frequency same-carrier mass.
+
+The non-derivative part of the same survivor is the affine/root quotient:
+
+\[
+\mathrm{FCTS}^{fr}_P
+=
+\mathrm{DER}^{fr}_P+\mathrm{AQK}^{fr}_P.
+\tag{TFE.1526}
+\]
+
+The derivative piece \(\mathrm{DER}^{fr}_P\) is paid by the Cauchy/reset
+mechanism above.  The quotient piece requires a parent-known potential or
+positive critical-transfer depletion:
+
+\[
+\mathrm{AQK}^{fr}_P
+=
+\int_0^{T_*}H_w(t)\|c_F(t)\|_2^2\,dt
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1527}
+\]
+
+This is the compactness version of the same source wall as `(TFE.1514)' and
+`(TFE.1516)'.
+
+So the contradiction proof proves the following conditional closure:
+
+\[
+\begin{gathered}
+\text{parent-known admission before clipping}
++\text{ route/selector escape payment}
++\text{ derivative reset Cauchy}\\
++\text{ high-frequency tower tail charge `(TFE.1525)'}
++\text{ affine/root quotient depletion `(TFE.1527)'}\\
+\Longrightarrow
+\text{no normalized bad profile `(TFE.1518)'--`(TFE.1519)'}\\
+\Longrightarrow
+\text{parent-known active source theorem `(TFE.1516)'.}
+\end{gathered}
+\tag{TFE.1528}
+\]
+
+The physical reading is exact.  A bad \(L^1\) packet has to put one unit of
+selected positive future-state count somewhere.  Tight visible mass contradicts
+zero-cost freshness.  Moving mass pays route/frame/selector/collar material.
+Derivative-exact shrinking tubes pay by harmonic Cauchy.  The only remaining
+place for the unit count to hide is a same-carrier high-frequency or affine
+quotient tail that the parent active counter has not yet measured.
+
+Thus the next nonduplicate source theorem is not generic compactness and not
+raw finite energy.  It is:
+
+\[
+\begin{gathered}
+\texttt{ParentActiveTowerTailAndAffineQuotientDepletion.A:}\\
+\text{prove `(TFE.1525)' and `(TFE.1527)' from the original coupled}\\
+\text{pressure-viscosity-incompressibility-velocity packet, before child
+positive clipping,}\\
+\text{with strict \(\theta<1\) against the native viscous reserve.}
+\end{gathered}
+\tag{TFE.1529}
+\]
+
+If `(TFE.1529)' is proved, the compactness tree closes `(TFE.1516)', hence
+`(TFE.1517)' gives terminal-uniform \(L^1\) and FGC.25.  The repo does not yet
+prove `(TFE.1529)'.  This is the current smallest source wall exposed by the
+physical pressure-heat-viscous feedback story.
