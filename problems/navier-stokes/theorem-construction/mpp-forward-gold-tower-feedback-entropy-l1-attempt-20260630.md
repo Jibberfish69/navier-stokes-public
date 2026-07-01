@@ -19702,3 +19702,534 @@ pressure-heat-viscous history cannot be read as infinitely many fresh
 scale-native positive states after the same history has already supplied the
 pressure coordination, heat-lag readout, material-frame update, and viscous
 drain.
+
+## 119. Finite energy versus finite active states
+
+The tempting physical sentence is:
+
+\[
+\text{finite initial energy should mean only finitely many future states.}
+\tag{TFE.1333}
+\]
+
+The correct mathematical sentence is narrower.  Finite energy says the total
+raw square mass is finite and decreases.  It does not by itself order how the
+remaining square mass may be rearranged across smaller heat scales before it is
+viscously deleted.  The \(L^1\) theorem needs exactly that missing ordering.
+
+Use a Littlewood--Paley decomposition and write
+
+\[
+e_j(t)=\|P_ju(t)\|_2^2 .
+\tag{TFE.1334}
+\]
+
+The unweighted energy law has the schematic shell form
+
+\[
+{1\over2}{d\over dt}\sum_je_j(t)
++\nu\sum_j2^{2j}e_j(t)
+=0,
+\tag{TFE.1335}
+\]
+
+because the nonlinear term redistributes energy but does not create total
+\(L^2\) energy.  This is the real viscous drain: the total raw square budget is
+deleted.
+
+The scale-native selected count is weighted.  In the critical coordinate it has
+the form
+
+\[
+A_{\rm crit}(t)
+\simeq
+\sum_j2^j e_j(t)
+\tag{TFE.1336}
+\]
+
+or, in the stopped packet language, the corresponding selected active density
+\(f_P\,d\mathcal R_P\).  Differentiating a weighted shell quantity gives
+
+\[
+{1\over2}{d\over dt}\sum_j2^j e_j(t)
++\nu\sum_j2^{3j}e_j(t)
+=
+\sum_j2^jT_j(t)+Err_{\rm comm}(t),
+\tag{TFE.1337}
+\]
+
+where \(T_j\) is the nonlinear pressure-Hodge/self-advection transfer into shell
+\(j\), with pressure and incompressibility already included through the
+projected equation.  The right-hand side is a redistribution term with a weight.
+The unweighted cancellation behind `(TFE.1335)' does not make the weighted
+positive part small.
+
+The desired \(L^1\) line is not control of the signed sum in `(TFE.1337)'.  It
+is control of the one-way positive count
+
+\[
+\int_0^\tau
+\left[
+\sum_j2^jT_j(t)+Err_{\rm comm}(t)
+\right]_+dt
+\tag{TFE.1338}
+\]
+
+or its stopped same-parent packet version.  This is exactly the same object as
+`(TFE.1327)' and `(TFE.1330)'.
+
+The half-tail explains the distinction without metaphor.  Let
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1}.
+\tag{TFE.1339}
+\]
+
+Then
+
+\[
+\sum_\ell\nu_\ell<\infty
+\tag{TFE.1340}
+\]
+
+is the finite raw square story, while
+
+\[
+\sum_\ell2^\ell\nu_\ell
+=
+\sum_\ell{1\over \ell+1}
+=\infty
+\tag{TFE.1341}
+\]
+
+is the failed selected-critical \(L^1\) story.  Smooth initial data can make all
+high Sobolev quantities finite at the initial time.  The theorem still needs a
+terminal-uniform rule saying the coupled evolution cannot rearrange the
+remaining energy into a retained half-tail before viscosity deletes it.
+
+So the chess-state intuition becomes precise only after adding a monovariant.
+Let \(\mathcal H_t\) be the set of parent packet futures still accessible to
+the coupled pressure-heat-viscous history after the readouts up to time \(t\).
+The proof does not need the literal cardinality of \(\mathcal H_t\).  It needs
+a parent-known active capacity
+
+\[
+\mathfrak S_P(t)
+\tag{TFE.1342}
+\]
+
+with root bound
+
+\[
+\mathfrak S_P(0)\le C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.1343}
+\]
+
+and differential deletion law
+
+\[
+dA_P^{sel,+}
++d\mathfrak S_P^{future}
+\le
+d\mathfrak S_P
++\theta\nu\|\Lambda^{3/2}u(t)\|_2^2\,dt
++dPaid_P,
+\qquad
+\theta<1.
+\tag{TFE.1344}
+\]
+
+Here \(dA_P^{sel,+}\) is the selected positive scale-native count before child
+recount, and \(d\mathfrak S_P^{future}\) is the remaining active capacity of
+the children.  Summing `(TFE.1344)' over a stopped tree telescopes:
+
+\[
+\sum_{Q\subset P}A_Q^{sel,+}
+\le
+\mathfrak S_P(0)
++\theta\nu\int_{\operatorname{Hist}(P)}
+\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(P).
+\tag{TFE.1345}
+\]
+
+Combined with the critical energy identity, `(TFE.1345)' is the terminal-uniform
+\(L^1\) line.  In entropy coordinates \(\mathfrak S_P\) is
+\(\int f_P\log(e+f_P)\,d\mathcal R_P\).  In native-reserve coordinates it is
+the bounded-multiplicity reserve map `(TFE.1322)'--`(TFE.1323)'.  In critical
+transfer coordinates it is `(TFE.1327)'.  These are coordinate descriptions of
+the same monovariant.
+
+This also shows what the finite-energy story is missing physically.  Viscosity
+deletes energy.  Pressure and incompressibility re-coordinate the remaining
+state instantly.  Self-advection transports and folds the packet.  Those three
+facts do not automatically imply that the number of selected future states is
+monotone.  They imply a monotone active-state count only after the pressure
+feedback motion is proved to spend parent-known capacity when it opens a new
+scale-native selected future.
+
+The current repo has many pieces that are downstream of this monovariant:
+
+\[
+\begin{aligned}
+\text{bounded original-packet readout}
+&\Rightarrow \text{Riesz/Bessel packing},\\
+\text{parent-announced reset interval}
+&\Rightarrow \text{weighted Cauchy payment},\\
+\text{fixed admitted score}
+&\Rightarrow \text{record/negative-return BV},\\
+\text{parent active density}
+&\Rightarrow \text{entropy deletion and half-tail exclusion}.
+\end{aligned}
+\tag{TFE.1346}
+\]
+
+The repo does not yet have the upstream construction
+
+\[
+\text{original coupled packet}
+\Longrightarrow
+\text{parent-known active-state monovariant `(TFE.1342)'--`(TFE.1344)'}.
+\tag{TFE.1347}
+\]
+
+This is the exact mathematical answer to what governs the possible number of
+states over time.  The governing object must be a monotone active capacity of
+the same original packet.  Ordinary energy is only the raw fuel budget; it does
+not by itself count or order the future arrangements that the
+pressure-heat-viscous feedback loop can still make accessible at selected
+critical scale.
+
+## 120. Fixed quadratic scale counters cannot be the monovariant
+
+The next tempting candidate is a fixed Sobolev, heat, or Orlicz multiplier.  It
+has the right flavor: put larger weight on smaller scales and try to use its
+decay as the active-state counter.  This fails for a structural reason.
+
+Let \(M=m(D)\) be a positive self-adjoint Fourier multiplier and set
+
+\[
+\mathcal Q_m(u)
+=
+{1\over2}\langle Mu,u\rangle
+=
+{1\over2}\int m(\xi)|\widehat u(\xi)|^2\,d\xi .
+\tag{TFE.1348}
+\]
+
+For Navier--Stokes,
+
+\[
+{d\over dt}\mathcal Q_m(u)
++\nu\langle M\Lambda u,\Lambda u\rangle
+=
+-\langle M u,\mathbb P(u\cdot\nabla u)\rangle .
+\tag{TFE.1349}
+\]
+
+For \(m(\xi)=1\), the right side vanishes by the usual \(L^2\) skew symmetry.
+This is the raw energy law.  For a nonconstant multiplier, the right side is a
+weighted transport flux.  It is exactly the kind of term whose positive part is
+the \(L^1\) problem.
+
+In Euler variables, where the viscous term is absent, `(TFE.1349)' becomes
+
+\[
+{d\over dt}\mathcal Q_m(u)
+=
+-\langle M u,\mathbb P(u\cdot\nabla u)\rangle .
+\tag{TFE.1350}
+\]
+
+If \(m\) is not constant on interacting modes, this cubic form is not
+sign-definite.  On a divergence-free trigonometric triad
+
+\[
+k+p+q=0,
+\qquad
+k\cdot a_k=p\cdot a_p=q\cdot a_q=0,
+\tag{TFE.1351}
+\]
+
+the cubic contribution has coefficients involving differences of the weights
+\(m(k),m(p),m(q)\).  A nonconstant \(m\) admits a triad and polarizations for
+which the coefficient is nonzero.  Changing one phase changes the sign of the
+cubic contribution while preserving \(\mathcal Q_m\).  Thus
+
+\[
+\exists u:\quad {d\over dt}\mathcal Q_m(u)>0,
+\qquad
+\exists \tilde u:\quad {d\over dt}\mathcal Q_m(\tilde u)<0 .
+\tag{TFE.1352}
+\]
+
+Therefore no fixed nonconstant quadratic multiplier is a one-way state counter
+for the coupled transport/pressure law.  The only fixed quadratic multiplier
+with exact sign cancellation is the unweighted energy, and that multiplier does
+not see the selected-critical half-tail.
+
+Viscosity does not rescue a fixed scale counter for arbitrary data.  At one
+time,
+
+\[
+{d\over dt}\mathcal Q_m(u)
+=
+\text{cubic transfer}(u)-\nu\,\text{quadratic drain}(u).
+\tag{TFE.1353}
+\]
+
+Rescaling amplitude \(u\mapsto A u\) makes the transfer scale like \(A^3\) and
+the viscous drain like \(A^2\).  For arbitrary smooth data, a sign-indefinite
+cubic transfer cannot be turned into a strict monotone law by a fixed
+quadratic multiplier.
+
+This includes the obvious candidates:
+
+\[
+m(\xi)=|\xi|,
+\qquad
+m(\xi)=|\xi|\log(e+|\xi|),
+\qquad
+m_\tau(\xi)=e^{-2\nu\tau|\xi|^2}|\xi|^{2s},
+\tag{TFE.1354}
+\]
+
+and any fixed mixture of such weights.  They can be useful coordinates or
+diagnostics.  Their derivatives still expose weighted nonlinear transfer.  They
+do not prove the rectified positive \(L^1\) bound.
+
+For \(m(\xi)=|\xi|\), `(TFE.1349)' is exactly the critical identity
+
+\[
+{1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
++\nu\|\Lambda^{3/2}u\|_2^2
+=
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle .
+\tag{TFE.1355}
+\]
+
+So the fixed quadratic counter is not a solution to `(TFE.1327)'.  It is the
+identity that reveals why `(TFE.1327)' is needed.
+
+The same obstruction appears in entropy language.  A fixed heat entropy of the
+Fourier spectrum measures damping under the heat semigroup, but the
+Navier--Stokes evolution also transports and re-coordinates the spectrum by the
+pressure-Hodge/self-advection term.  Without a parent-known selected density
+and stopped chain rule, the derivative of a fixed spectral entropy contains
+the same sign-indefinite weighted transfer.
+
+Thus the active-state monovariant in `(TFE.1342)' cannot be:
+
+\[
+\text{a fixed Sobolev norm, fixed heat norm, fixed spectral entropy, or fixed quadratic Gram functional.}
+\tag{TFE.1356}
+\]
+
+It must be built from the stopped parent packet and the admitted selected
+future states themselves, before positive child clipping.  Equivalently, it has
+to be one of the genuinely adaptive objects:
+
+\[
+\begin{aligned}
+&\text{parent-known active density }f_P\,d\mathcal R_P
+\text{ with entropy/reverse Holder root bound},\\
+&\text{bounded-multiplicity native-reserve assignment for scale-native births},\\
+&\text{stopped accretive testing/BMO carrier for selected log amplification},\\
+&\text{positive critical-transfer depletion storage tied to same-parent events.}
+\end{aligned}
+\tag{TFE.1357}
+\]
+
+This is a real narrowing of the \(L^1\) problem.  The missing capacity is not a
+better fixed functional on \(u(t)\).  It is a stopped same-parent accounting
+object that records which scale-native futures have actually been made
+accessible by the coupled pressure-heat-viscous packet and proves that each
+newly accessible positive future either consumes that object, is Bessel/Schur
+admitted, or is paid by return, reset, motion, legal, stop, or endpoint
+material.
+
+## 121. Adaptive capacity candidates collapse to one source law
+
+The remaining candidates in `(TFE.1357)' are not four independent physical
+mechanisms.  They are four coordinate systems for the same parent-state
+deletion law.
+
+The physical object is the original coupled packet before positive child
+clipping.  Pressure-compatible feedback can re-coordinate the remaining state,
+heat lag can make a selected velocity/strain readout visible, and viscosity can
+drain the actual motion.  The \(L^1\) problem asks whether that feedback loop
+can keep opening selected future states without spending a parent-known
+capacity of the same original packet.
+
+The log-amplification/BMO coordinate says: construct a stopped parent carrier
+\(Z_P^S\) from the original pressure-viscosity-incompressibility-velocity
+history, before the selected child clips positive action, so that
+
+\[
+\Delta_Q\lambda_{\rm sel}
+=
+\ell_Q(\Delta_Q Z_P^S)-\psi_Q+e_Q
+\tag{TFE.1358}
+\]
+
+and
+
+\[
+\sup_{P'\subseteq P}
+{1\over\mathcal R(P')}
+\sum_{Q\subseteq P'}
+\left(
+\|\Delta_Q Z_P^S\|_{\mathcal H}^2
++|e_Q|^2
++Def_{\rm test}(Q)
+\right)\mathcal R(Q)
+\le
+C_N(u_0)
++{Paid(P')\over\mathcal R(P')}.
+\tag{TFE.1359}
+\]
+
+Once `(TFE.1358)'--`(TFE.1359)' are present, the stochastic-exponential,
+reverse-Holder, and entropy arguments are consumers.  They turn the carrier
+bound into active-density deletion and beat the half-tail.  They do not produce
+the parent carrier.
+
+The stopped accretive-testing coordinate says the selected source is not an
+arbitrary singular-integral input.  It must factor through the same-material
+participation current:
+
+\[
+\nu_P^S
+=
+D_AJ_P^S+\nu_{\rm stop}^S+\nu_{\rm legal}^S.
+\tag{TFE.1360}
+\]
+
+Then the pressure-Hodge/testing transform is controlled by the current:
+
+\[
+\|T_S(1_{P'}\nu_P^S)\|_{L^2(P',\mathcal R)}^2
+\lesssim
+\int_{\widehat P'} |J_P^S|^2\,d\mathcal R
++Stop(\widehat P')
++R_{\rm legal}(\widehat P').
+\tag{TFE.1361}
+\]
+
+Thus the Hilbert/BMO side is discharged after current factorization.  The
+source theorem is the current Carleson bound
+
+\[
+\sup_{P'\subseteq P}
+{1\over\mathcal R(P')}
+\left[
+\int_{\widehat P'} |J_P^S|^2\,d\mathcal R
++Stop(\widehat P')
++R_{\rm legal}(\widehat P')
+\right]
+\le
+C_N(u_0),
+\tag{TFE.1362}
+\]
+
+with \(J_P^S\) built from the original coupled packet rather than from the
+future selected tail.
+
+The root-generator/storage coordinate is the same source law written without
+the transform:
+
+\[
+H_P^\ast\|\mathcal G_P^{root}\|^2\,d\sigma dt
++dA_P^{sel/chart}
+\le
+-D_{\sigma,t}M_P
++d\Theta_P^{orig}
++dR_{\rm legal,P}
++dStop_P .
+\tag{TFE.1363}
+\]
+
+Here the storage drop is not a separate account from the physical feedback
+story.  It is the measured loss of accessible parent futures when the coupled
+packet opens, routes, updates, or deletes a selected scale-native child state.
+
+The native-reserve/positive-transfer coordinate writes the same requirement in
+the language of selected first births.  A fresh selected child is legitimate
+only when the parent has already announced a generator average and active
+weight:
+
+\[
+A_Q^{sel,+}
+\le
+\int_{I_Q} H_Q(t)\,|G_P(t)|\,dt
++Paid(Q),
+\tag{TFE.1364}
+\]
+
+with stopped overlap and root control
+
+\[
+\sum_{Q\subseteq P}
+\int_{I_Q} H_Q(t)^2\,dt
+\le C\mathcal R(P),
+\qquad
+\int_{\operatorname{Hist}(P)} |G_P(t)|^2\,dt
+\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.1365}
+\]
+
+Then weighted Cauchy gives the selected \(L^1\) packing.  This is the same
+physical assertion as `(TFE.1359)' or `(TFE.1362)': the selected child cannot
+choose its weight after seeing the future tail; the weight and generator must
+already be parent-known.
+
+Therefore the exact missing package is one source theorem:
+
+\[
+\text{original coupled packet}
+\Longrightarrow
+\text{parent-known stopped active capacity/current before child clipping}.
+\tag{TFE.1366}
+\]
+
+In expanded form, `(TFE.1366)' must provide all of the following from original
+smooth data:
+
+\[
+\begin{gathered}
+\text{parent-known carrier/current construction }(Z_P^S\text{ or }J_P^S),\\
+\text{selected lower edge }(TFE.1358),\\
+\text{root Carleson or entropy bound }(TFE.1359)\text{ or }(TFE.1362),\\
+\text{first-admission/update so the same pulse cannot be recounted},\\
+\text{strict active-state deletion with }\theta<1.
+\end{gathered}
+\tag{TFE.1367}
+\]
+
+Once `(TFE.1367)' holds, the downstream chain is deterministic:
+
+\[
+\text{parent-known active capacity}
+\Longrightarrow
+\text{reverse Holder/entropy or native-reserve packing}
+\Longrightarrow
+\text{strict half-tail contraction}
+\Longrightarrow
+\text{terminal-uniform selected }L^1
+\Longrightarrow
+(FGC.25).
+\tag{TFE.1368}
+\]
+
+This identifies everything still missing.  The repo already has no-recount,
+first-admission bookkeeping, Schur/Bessel ownership, entropy telescoping,
+reset Cauchy consumers, stopped testing reductions, and fixed-counter no-go
+evidence.  What it does not yet have is the original-data proof of
+`(TFE.1366)'--`(TFE.1367)'.  In the physical picture, that is the theorem that
+the pressure-heat-viscous feedback loop cannot increase the selected number of
+future accessible states faster than the same original packet spends its
+stopped active capacity.  Until that source law is proved, the \(L^1\) problem
+is narrowed but not closed.
