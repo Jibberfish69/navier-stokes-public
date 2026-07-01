@@ -3390,7 +3390,7 @@ same-material stress/strain return.  These are real support facts, but all are
 compatible with `(TFE.208)` unless they create the missing strict factor in
 `(TFE.207)`.
 
-The nonduplicate proof route is therefore the stopped record/return descent.
+The repeated-core proof route is therefore the stopped record/return descent.
 After paid selector/reselection, entrance/legal, silent-source, nonlaminar,
 subheat, recirculation, and support exits have been removed, one must construct
 a polar-compatible signed scale-potential lift
@@ -3430,22 +3430,322 @@ C_N(u_0)\mathcal R(P)+R_{legal}(P).
 \]
 
 Together with the signed lift `(TFE.211)` and the spill/error absorptions,
-`(TFE.213)` implies the strict half-barrier break `(TFE.207)`, hence the moving
-low-high pump clock `(TFE.206)`, hence the full-clock producer `(TFE.196)`, and
-then the entropy \(L^1\) chain `(TFE.200)`.
+`(TFE.213)` kills the repeated-core half-tail.  It does not by itself kill the
+shrinking-core escape branch, because a selected packet can leave one stopped
+core and restart on smaller transported cores.  The exact Gold \(L^1\) finish is
+therefore the two-branch no-Zeno statement sharpened below, not record/return
+alone.
 
-So the current exact Gold \(L^1\) finish is no longer an undefined "finite
-service" slogan.  It is:
+If record/return fails on a retained same-witness repeated-core branch after all
+paid exits are removed, the survivor is not a hidden Gold bill.  It is a
+same-witness endpoint/participation face candidate: a terminal retained positive
+pump with no signed lift, no bounded record, and no paid return.
+
+## 27. Entropy branch correction: repeated core and shrinking core
+
+The entropy picture is parent-side state accessibility.  Once a selected child
+readout has been admitted into the parent packet, the same original coupled
+history can lose future states in two different ways.  It can keep revisiting
+one stopped material core, where the same scale potential must record or return.
+Or it can abandon that core and restart on smaller transported cores, where the
+restart must pay selected pressure-Hodge capacity, collar/turnstile motion, or
+parent-child reset.  These are different state-deletion mechanisms inside the
+same parent packet.
+
+After all installed paid exits have been removed, a failed strict half-barrier
+has a minimal stopped one-material chain
 
 \[
-\boxed{
-\text{prove the stopped primitive PLS signed lift plus potential-record /
-negative-return bound `(TFE.211)'--`(TFE.213)'.}
-}
+P=Q_0\supset Q_1\supset Q_2\supset\cdots,\qquad
+\sum_k R_{raw}(Q_k)<\infty,\qquad
+\sum_k A_{sel}^{fresh}(Q_k)=\infty .
 \tag{TFE.214}
 \]
 
-If this record/return theorem fails on a retained same-witness branch after all
-paid exits are removed, the survivor is not a hidden Gold bill.  It is a
-same-witness endpoint/participation face candidate: a terminal retained
-positive pump with no signed lift, no bounded record, and no paid return.
+The chain splits into repeated-core and shrinking-core pieces:
+
+\[
+\mathcal C_{bad}
+=
+\mathcal C_{rep}\dot\cup\mathcal C_{esc}
++\mathcal C_{paid}.
+\tag{TFE.215}
+\]
+
+On the repeated-core piece the selector, order-lock, and signed primitive
+channel are stopped before positive clipping.  The source-checked fixed-channel
+lift is
+
+\[
+P_R=\Gamma_R Z^S,
+\tag{TFE.216}
+\]
+
+with \(\Gamma_R\) parent-known.  For each retained repeated-core transaction,
+the needed positive-increment realization is
+
+\[
+A_{sel}^{fresh}(Q_{k+1})
+\le
+C\,[P_R(Q_{k+1})-P_R(Q_k)]_+
++CR_{legal}(Q_k).
+\tag{TFE.217}
+\]
+
+The checked lift note proves this only for a truly fixed stopped channel.  If
+\(\Gamma_R\) is reselected from future child information, the transaction has
+left this branch and is paid as reset, overrun, collar, selector/reselection, or
+legal loss.
+
+Once `(TFE.217)` holds, scalar variation gives
+
+\[
+\sum_{Q_k\in\mathcal C_{rep}}A_{sel}^{fresh}(Q_k)
+\le
+C\operatorname{Rec}_\infty(\Psi_{\mathcal A})
++CV_-^{return}(\Psi_{\mathcal A})
++CR_{legal}(\mathcal A).
+\tag{TFE.218}
+\]
+
+The potential-record average is a consumer once the parent-known record and its
+scale derivative have been built.  With
+\(\Psi^\sharp(\sigma,t)=\Psi(\sigma,t)-\Psi(\sigma_0,t)\),
+
+\[
+\int_0^{T^*}H_w(t)
+\left\|
+{1\over |J|}\int_J\Psi^\sharp(\sigma,t)\,d\sigma
+\right\|_{L_x^2}^2dt
+\le
+|J|\int_0^{T^*}H_w(t)\int_J
+\|\partial_\sigma\Psi^\sharp(\sigma,t)\|_{L_x^2}^2\,d\sigma dt .
+\tag{TFE.219}
+\]
+
+The derivative side is original-history currency only after
+\(\partial_\sigma P_R=\Gamma_R\partial_\sigma Z^S+(\partial_\sigma\Gamma_R)Z^S\)
+is charged to routed-current, turnstile, exchange, covector, connection, and
+legal variation.  Thus `(TFE.219)` does not construct the record; it consumes
+the record once the stopped parent channel exists.
+
+The negative-return half is the genuine no-free-oscillation theorem:
+
+\[
+\int_0^{T^*}H_w(t)\|\mathcal C_\theta[Y_-](t)\|_{L_x^2}^2dt
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P).
+\tag{TFE.220}
+\]
+
+Bounded record oscillation alone does not imply `(TFE.220)`: a bounded scalar
+record can oscillate with infinite negative variation.  The return must be a
+real same-material event charged to strain/exchange reversal, selector or
+polar-frame rotation, collar/spill separation, donor/order-lock repayment,
+recirculation already classified as return, or legal synchronization loss.
+
+The repeated-core branch is therefore finite exactly under
+
+\[
+\text{stopped signed lift}
++\text{parent-record derivative bound}
++\text{negative-return charge}
+\Longrightarrow
+\sum_{Q_k\in\mathcal C_{rep}}A_{sel}^{fresh}(Q_k)
+\le C_N(u_0)+R_{legal}.
+\tag{TFE.221}
+\]
+
+The shrinking-core branch needs a different estimate.  A single-core
+record/return potential can restart at every smaller core, so the theorem must
+charge the restarts themselves:
+
+\[
+\sum_{Q_k\in\mathcal C_{esc}}A_{sel}^{fresh}(Q_k)
+\le
+C_N\sum_{Q_k\in\mathcal C_{esc}}
+\left(
+\operatorname{Cap}_{PH}^{sel}(Q_k)
++\operatorname{CollarTurnstile}^{sel}(Q_k)
++\operatorname{Reset}^{sel}(Q_k)
++R_{legal}(Q_k)
+\right).
+\tag{TFE.222}
+\]
+
+The word selected is essential.  Raw heat capacity can be summable while the
+normalized selected action remains order one at each restart.  The missing
+packing theorem is
+
+\[
+\sum_{Q_k\in\mathcal C_{esc}}
+\left(
+\operatorname{Cap}_{PH}^{sel}(Q_k)
++\operatorname{CollarTurnstile}^{sel}(Q_k)
++\operatorname{Reset}^{sel}(Q_k)
+\right)
+\le
+C_N(u_0)+R_{legal}.
+\tag{TFE.223}
+\]
+
+Combining the repeated-core bound `(TFE.221)` and the shrinking-core packing
+bound `(TFE.223)` gives the no-Zeno strict half-barrier:
+
+\[
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty .
+\tag{TFE.224}
+\]
+
+Then `(TFE.224)` gives the moving low-high pump clock `(TFE.206)`, the full
+parent clock `(TFE.196)`, the entropy variation bound `(TFE.190)`, the state
+deletion inequalities `(TFE.165)`--`(TFE.167)`, and terminal-uniform \(L^1\).
+
+The current audited closure condition is therefore
+
+\[
+\begin{gathered}
+\text{RepeatedCoreRecordReturnStorageBound.A}\\
++\\
+\text{ShrinkingCoreEscapeCapacityLowerBound.A}
+\end{gathered}
+\Longrightarrow
+\text{Gold terminal-uniform \(L^1\).}
+\tag{TFE.225}
+\]
+
+Installed status after source check: the fixed stopped-channel signed lift is
+available only when the channel is parent-known; the potential-average bound is
+a consumer of that record; the negative-return charge and the selected
+shrinking-core capacity lower bound are not discharged by the checked surfaces.
+Thus the entropy story is being used, but it closes \(L^1\) only after both
+state-deletion mechanisms are proved from the original coupled material
+history.
+
+## 28. Parent-child reset reserve: the entropy feedback form
+
+The shrinking-core audit shows that ordinary capacity is on the wrong side of
+the equation.  A child core of radius \(r\) can have raw pressure-Hodge/collar
+cost of size \(r\) while its normalized selected action is order one:
+
+\[
+R_{raw}(Q_r)\sim r,\qquad A_{sel}(Q_r)\sim1.
+\tag{TFE.226}
+\]
+
+So the feedback mechanism cannot say that every small child is expensive at its
+own raw scale.  It has to say that a child is either not fresh, because it
+inherits the same selected parent state and returns to the repeated-core
+record/return branch, or it is genuinely fresh and pays a parent-child reset
+charge in selected currency.
+
+The branch-unifying reserve is the selected compression root reserve:
+
+\[
+\sum_{Q\in\mathcal T_{sel}(P)}
+\left(
+\langle U_Q,\mathsf S_QU_Q\rangle
++\mathcal S_{normal}(Q)
++\mathcal S_{covector}(Q)
++\mathcal B_{select}(Q)
+\right)
+\le
+C_N(u_0)+R_{legal}(P).
+\tag{TFE.227}
+\]
+
+Equivalently, build a parent-known Bellman reserve \(B(Q)\ge0\) and a
+parent-child reset charge \(J_{reset}(Q\to Q')\ge0\) so that every stopped
+transition satisfies
+
+\[
+\sum_{Q'\in ch_{stop}(Q)}A_{sel}^{fresh}(Q')
++\sum_{Q'\in ch_{stop}(Q)}B(Q')
+\le
+B(Q)
++\sum_{Q'\in ch_{stop}(Q)}J_{reset}(Q\to Q')
++R_{legal}(Q),
+\tag{TFE.228}
+\]
+
+with root control
+
+\[
+B(P)
++\sum_{Q\subseteq P}\sum_{Q'\in ch_{stop}(Q)}
+J_{reset}(Q\to Q')
+\le
+C_N(u_0)+R_{legal}(P).
+\tag{TFE.229}
+\]
+
+Tree summation of `(TFE.228)` and `(TFE.229)` gives
+
+\[
+\sum_{Q\in\mathcal T_{sel}(P)}A_{sel}^{fresh}(Q)
+\le
+C_N(u_0)+R_{legal}(P).
+\tag{TFE.230}
+\]
+
+The noncircular content is the reset-or-repeated-core dichotomy.  For a retained
+child \(Q'\subset Q\) with \(A_{sel}^{fresh}(Q')\simeq1\), either the selected
+pressure-Hodge, collar, selector, and strain-exchange state is inherited from
+\(Q\), in which case \(Q'\) belongs to the repeated-core record/return branch,
+or
+
+\[
+J_{reset}(Q\to Q')\gtrsim1.
+\tag{TFE.231}
+\]
+
+A carrier-observability form of the same statement is
+
+\[
+\begin{aligned}
+A_{sel}^{fresh}(Q')
+&\le
+C\langle U_Q,\mathsf S_Q^{stop}U_Q\rangle
++C\Omega_Q^{strain/ex}
++CD_Q^{vis/rad}\\
+&\qquad
++CJ_{reset}(Q\to Q')
++R_{legal}(Q).
+\end{aligned}
+\tag{TFE.232}
+\]
+
+Thus a selected child with no Schur defect, no strain/exchange motion, no
+viscous/radius service, no legal/reselection loss, and no reset is not a fresh
+child.  It remains inside the same parent state and must be paid by repeated-core
+record/return.
+
+The root side is the selected change-of-measure or exponent-lift statement:
+
+\[
+f_{sel}\in RH_{1+\varepsilon}(d\mathcal R_{raw})
+\quad\text{or}\quad
+S_{mart}(f_{sel})\in L^2(d\mathcal R_{raw}),
+\tag{TFE.233}
+\]
+
+constructed from the original coupled material history before child selected
+readout.  This is the analytic content that makes the Bellman reserve
+non-tautological; without it, \(B\) can collapse into the future selected tail.
+
+Therefore the entropy feedback proof now has a single parent form:
+
+\[
+\text{ParentChildSelectedResetReserve.A}
+\Longrightarrow
+\text{selected root reserve `(TFE.227)'}
+\Longrightarrow
+\text{strict half-barrier `(TFE.224)'}
+\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\tag{TFE.234}
+\]
+
+The two-branch statement `(TFE.225)` is the branch decomposition of this parent
+reserve: no reset gives repeated-core record/return, and genuine reset gives the
+shrinking-core selected-capacity charge.
