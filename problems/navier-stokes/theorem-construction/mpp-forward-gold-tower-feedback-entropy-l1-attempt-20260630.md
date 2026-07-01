@@ -623,10 +623,367 @@ L_N
 
 This is the terminal-uniform \(L^1\) estimate.
 
-So the mathematical solution is exact: prove `(TFE.31)`--`(TFE.35)` from the
-original coupled Navier-Stokes packet.  The physical content is that pressure
-feedback may reorganize the remaining velocity state, but every reorganization
-has to enter the parent-known stopped innovation record before any child
-finite-difference readout can clip it as positive action.  Once that record has
-Carleson/BMO size, the continuum of heat-lag readouts is one dissipative
-unfolding of one original signal, not infinitely many new positive pushes.
+So the mathematical solution is exact only after the stopped record includes
+the scale-native selected generator, not merely the bounded-current part of the
+route.  The physical content is that pressure feedback may reorganize the
+remaining velocity state, but every reorganization has to enter the parent-known
+stopped innovation/native-reserve record before any child finite-difference
+readout can clip it as positive action.  Once that record has Carleson/BMO size
+and native-reserve square coercivity, the continuum of heat-lag readouts is one
+dissipative unfolding of one original signal, not infinitely many new positive
+pushes.
+
+## 10. Scale-native audit of the stopped-record solve chain
+
+The stopped-current/BMO route is not allowed to hide the pure scale-native zoom
+births.  The repo has already corrected the overstrong reading of bounded
+original-packet projection: a unit rescaled selected test has original material
+\(L^2\) pullback size \(r^{-1/2}\), so raw bounded-current energy does not pay
+every retained high-ratio child readout.
+
+Thus `(TFE.31)`--`(TFE.35)` must be read with the decomposition
+
+\[
+\nu^S
+=
+D_AJ^S
++\nu^{nat,S}
++\nu^S_{stop/legal},
+\tag{TFE.42}
+\]
+
+where \(D_AJ^S\) is the bounded routed participation current and
+\(\nu^{nat,S}\) is the scale-native selected-generator part.  The transform side
+of \(D_AJ^S\) is a bounded Hodge projection, and its testing defects reduce to
+current square packing.  The native term needs its own reserve map.
+
+Let \(\Gamma_N(P)\) be the retained scale-native feedback/readout births after
+parent reuse, bounded fresh Bessel directions, return, reset, reselection,
+legal, and stop material have been removed.  The noncircular native line is
+
+\[
+\iota:\Gamma_N(P)\to\mathcal R_N^{nat}(u_0;P),
+\qquad
+\omega_\gamma
+\le
+C_N\rho_{\iota(\gamma)}
++R_{legal}(\gamma)+Stop(\gamma),
+\tag{TFE.43}
+\]
+
+with bounded multiplicity and finite original-history native reserve
+
+\[
+\operatorname{mult}(\iota)\le C_N,
+\qquad
+\sum_{\rho\in\mathcal R_N^{nat}(u_0;P)}\rho
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P).
+\tag{TFE.44}
+\]
+
+Equivalently, in the selected-generator storage form, one needs
+
+\[
+\int_{\operatorname{Hist}(P)}
+a\,\|G_{sel}\|^2
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P),
+\tag{TFE.45}
+\]
+
+from parent-known accretive testing/storage data, not from future selected
+tail normalization.  In the compressed critical-transfer face this is the
+strict one-sided inequality
+
+\[
+\int_0^T
+\left(
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle
+\right)_+dt
+\le
+C(u_0)
++\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2dt,
+\qquad
+\theta<1.
+\tag{TFE.46}
+\]
+
+The standard critical estimate proves `(TFE.46)` only for small
+\(\dot H^{1/2}\) packets.  For arbitrary smooth data, `(TFE.43)`--`(TFE.45)` are
+the scale-native part of the \(L^1\) theorem.
+
+Consequently the full \(L^1\) solution chain is
+
+\[
+\begin{gathered}
+\text{bounded routed-current square packing}
++
+\text{scale-native reserve/storage coercivity}
+\\
+\Longrightarrow
+\text{parent-known stopped innovation/native record}
+\\
+\Longrightarrow
+\text{strict feedback transit `(TFE.16)`}
+\Longrightarrow
+\text{terminal-uniform \(L^1\) `(TFE.17)`.}
+\end{gathered}
+\tag{TFE.47}
+\]
+
+This is the accurate resolution of the parent/child/feedback picture: the
+feedback loop is one coupled participation law, but it has two mathematical
+faces before child clipping.  The bounded-current face pays admitted routed
+motion.  The scale-native face pays the high-ratio selected generator that raw
+current energy cannot see at bounded original-packet norm.  Gold closes only
+when both faces are proved from the original coupled packet.
+
+## 11. Minimal-bad profile for the remaining native line
+
+The direct positive-transfer estimate stalls at arbitrary critical size, so the
+nonpositive-forward attack is a minimal-bad reduction.  Failure of
+`(TFE.43)`--`(TFE.45)` is equivalent to failure of the weight-beating tail
+
+\[
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty
+\tag{TFE.48}
+\]
+
+while the raw tail remains finite:
+
+\[
+\sum_{\ell\ge0}\nu_\ell<\infty .
+\tag{TFE.49}
+\]
+
+Choose terminal blocks \(B_m\) with ratio levels \(\ell\ge L_m\to\infty\) such
+that
+
+\[
+\sum_{(j,\ell)\in B_m}2^\ell\mu_j(E_{j,\ell}\cap B_m)=1,
+\qquad
+\sum_{(j,\ell)\in B_m}\mu_j(E_{j,\ell}\cap B_m)\to0 .
+\tag{TFE.50}
+\]
+
+After removing parent reuse, bounded Bessel directions, return, reset,
+reselection, legal, stop, lower-band carry, and bounded routed-current
+square-packing, the surviving block has:
+
+\[
+A_m^{sel,+}=1,
+\qquad
+R_m^{raw}+R_m^{current}+R_m^{paid}\to0 .
+\tag{TFE.51}
+\]
+
+Use material time on each selected band:
+
+\[
+d\tau=\Theta_j^{mat}(t)\,dt,
+\qquad
+{2^{2j}\over\Theta_j^{mat}}\simeq 2^{-\ell}\to0 .
+\tag{TFE.52}
+\]
+
+Thus the normalized bad block loses heat-time coercivity in the limit.  What
+remains is not a detached source; it is a zero-heat-coefficient
+material-time profile of the same pressure-viscosity-incompressibility packet.
+In the notation of the selected readout differential, a retained selected
+coordinate \(a_m\) still satisfies the exact material chain rule
+
+\[
+da_m
+=
+dC_m^{carry}
++dB_m^{hodge/projector}
++dB_m^{strain/frame}
++dB_m^{schur/collar}
++dB_m^{annular}
++dB_m^{freq}
++dR_m^{entr/stop/reset/legal}
+-d\mathfrak S_m^{spent}.
+\tag{TFE.53}
+\]
+
+The minimal-bad normalization forces all already-paid terms in `(TFE.53)` to
+vanish in total mass, while
+
+\[
+\int [da_m]_+ \to 1 .
+\tag{TFE.54}
+\]
+
+Therefore the exact rigidity theorem that would finish the \(L^1\) problem is:
+
+```text
+ScaleNativeMinimalBadProfileRigidity.A
+```
+
+No tangent profile obtained from `(TFE.50)`--`(TFE.54)` can have unit positive
+selected material differential while every original-history channel in
+`(TFE.53)` has zero limiting native reserve, zero bounded-current square mass,
+and zero paid return/reset/legal/stop mass.
+
+Equivalently, for every such minimal-bad profile there is a lower bound
+
+\[
+1
+\le
+C_N
+\liminf_m
+\left(
+\sum_{\rho\in\mathcal R_N^{nat}(B_m)}\rho
++R_m^{current}
++R_m^{paid}
+\right).
+\tag{TFE.55}
+\]
+
+This is exactly the missing native-reserve coercivity in profile form.  It is
+strictly sharper than saying "a selected birth has a source channel": the
+source-channel statement is pointwise and already follows by differentiating
+the selected readout before clipping.  `(TFE.55)` is the global lower
+semicontinuity/packing statement saying that a unit positive material-time
+selected differential cannot survive as a zero-reserve limit.
+
+The physical reading is clean.  A failed \(L^1\) proof would have to produce a
+sequence of smaller and smaller heat-scale children that still show one unit of
+positive selected action, while heat, routed current, return, reset, exchange,
+legal, stop, and every native-reserve atom disappear in the original packet.
+The remaining theorem says that such a profile is impossible inside one coupled
+pressure-viscosity-incompressibility law: the unit positive readout must leave a
+nonzero original-history native reserve trace.
+
+Thus the live route is now:
+
+\[
+\text{ScaleNativeMinimalBadProfileRigidity.A}
+\Longrightarrow
+\text{native reserve `(TFE.43)`--`(TFE.45)`}
+\Longrightarrow
+\text{strict feedback transit `(TFE.16)`}
+\Longrightarrow
+FGC.25 .
+\tag{TFE.56}
+\]
+
+This is not yet a proof of Gold.  It is the current irreducible profile theorem
+for the \(L^1\) problem after all installed no-recount, Schur/Bessel,
+stopped-current, reset, return, and local no-fourth-branch mechanisms have been
+consumed.
+
+## 12. Affine audit: the profile theorem is same-history, not local
+
+The previous paragraph must not be read as a local Liouville theorem.  The local
+affine material jet
+
+\[
+u(t,x)=A(t)x,\qquad \operatorname{tr}A(t)=0,
+\tag{TFE.57}
+\]
+
+is compatible with the local Navier-Stokes material equations after pressure
+chooses
+
+\[
+p(t,x)
+=
+-{1\over2}x\cdot(\dot A(t)+A(t)^2)x .
+\tag{TFE.58}
+\]
+
+So a local trace-free affine strain profile can carry positive material-time
+selected action while satisfying pressure compatibility, incompressibility, and
+the material acceleration law.  Local pressure/strain compatibility therefore
+does not prove `(TFE.55)`.
+
+The global matching audit also rules out the scaling shortcut.  A localized
+divergence-free affine packet at radius \(r\) can have normalized material
+action of order one while its raw kinetic energy, raw viscous heat-window cost,
+pressure work, convective work, and collar matching cost are all \(O(r)\).
+Thus a dyadic chain may satisfy
+
+\[
+\sum_k r_k<\infty,
+\qquad
+\sum_k A_k^{sel,+}=\infty .
+\tag{TFE.59}
+\]
+
+Therefore the actual profile theorem is not
+
+```text
+no local affine material-time packet exists.
+```
+
+The actual theorem is:
+
+```text
+ScaleNativeSameHistoryNoZenoReserve.A
+```
+
+For one original smooth incompressible Navier-Stokes material history, a
+laminar terminal ancestry of affine/high-ratio material-time visits with
+summable raw heat, bounded-current, and collar/matching cost cannot have
+divergent normalized selected action unless it leaves a weighted native-reserve
+trace on that same ancestry.
+
+Equivalently, for the laminar ancestry \(\mathcal A(P)\),
+
+\[
+\sum_{\gamma\subset \mathcal A(P)}A_\gamma^{sel,+}
+\le
+C_N
+\int_{\mathcal A(P)}
+\bigl(
+dV_C+dV_F+dV_{collar}+dV_{hodge}+dV_{annular}
+\bigr)
++R_{legal}(P)+Stop(P),
+\tag{TFE.60}
+\]
+
+and the right-hand side must be bounded by an original-history weighted
+native-reserve measure, not by ordinary volume or raw energy:
+
+\[
+\int_{\mathcal A(P)}
+\bigl(
+dV_C+dV_F+dV_{collar}+dV_{hodge}+dV_{annular}
+\bigr)
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P).
+\tag{TFE.61}
+\]
+
+Equations `(TFE.60)`--`(TFE.61)` are the same content as `(TFE.55)`, but with
+the missing same-history inheritance made explicit.  They say that each
+order-one affine/high-ratio visit must either spend already-born native reserve,
+create a new native reserve atom with bounded multiplicity, or exit through a
+paid collar, Hodge/projector, annular, return, reset, legal, or stop channel.
+
+The remaining \(L^1\) proof is therefore sharpened one more step:
+
+\[
+\text{ScaleNativeSameHistoryNoZenoReserve.A}
+\Longrightarrow
+\text{ScaleNativeMinimalBadProfileRigidity.A}
+\Longrightarrow
+\text{native reserve}
+\Longrightarrow
+\text{strict feedback transit}
+\Longrightarrow
+FGC.25 .
+\tag{TFE.62}
+\]
+
+This removes the overstrong local-profile reading.  The impossible object is
+not an affine packet in isolation.  The impossible object must be a whole
+same-fluid terminal ancestry that keeps producing affine/high-ratio selected
+action while all weighted native-reserve traces on the inherited annular,
+Hodge/projector, strain-frame, collar, return, reset, legal, and stop channels
+stay summable.
