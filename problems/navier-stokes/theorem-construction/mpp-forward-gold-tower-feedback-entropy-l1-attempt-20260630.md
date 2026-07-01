@@ -15430,3 +15430,366 @@ fixed record/return, potential-average growth, selected overrun, legal/stop, or
 an announced derivative motion.  That statement is
 `PersistentRootAffineQuotientReturnPayment.A', the sharpened form of the
 carrier-stable compactness gap inside `(TFE.1032)'.
+
+## 92. Persistent quotient branch: record/return or reset/overrun
+
+The persistent quotient source files split `(TFE.1049)' into two physical
+branches.  There is no remaining elliptic ghost branch after the silent-source
+normal form.  A retained persistent high-ratio memory either stays on one
+stopped material chamber, or it changes chamber.
+
+On one stopped chamber, the selected positive scalar has a signed lift
+
+\[
+Y_+=[Y]_+,
+\qquad
+Y_+=Y+Y_-,
+\qquad
+Y_-=[-Y]_+ .
+\tag{TFE.1051}
+\]
+
+The signed scale descent has
+
+\[
+Y
+=
+\partial_\sigma\Psi
++S^{spill}
++E .
+\tag{TFE.1052}
+\]
+
+Applying the affine quotient functional \(\mathcal C_\theta\) gives
+
+\[
+\mathcal C_\theta[Y_+]
+=
+-\theta(\sigma_0)\Psi(\sigma_0)
++{|J|}^{-1}\int_J\Psi(\sigma)\,d\sigma
++\mathcal C_\theta[Y_-]
++\mathcal C_\theta[S^{spill}]
++\mathcal C_\theta[E].
+\tag{TFE.1053}
+\]
+
+This is the exact one-dimensional scale-memory identity.  Positive selected
+memory is not a new source; it is signed scale motion plus the negative return
+needed to reset the primitive after positive production.
+
+The potential-average consumer is endpoint-corrected.  With
+
+\[
+\Psi^\sharp(\sigma)=\Psi(\sigma)-\Psi(\sigma_0),
+\tag{TFE.1054}
+\]
+
+Poincare gives
+
+\[
+H_w
+\left\|
+{|J|}^{-1}\int_J\Psi^\sharp(\sigma)\,d\sigma
+\right\|_2^2
+\le
+C\,H_w |J|
+\int_J\|\partial_\sigma\Psi^\sharp(\sigma)\|_2^2\,d\sigma .
+\tag{TFE.1055}
+\]
+
+Thus the fixed-chamber branch closes only after the original history supplies
+the stopped signed potential record and its negative return:
+
+\[
+\sum_{\mathcal A\subset P'}
+H_{\mathcal A}
+\|\mathcal C_\theta[Y_{+,\mathcal A}]\|_2^2
+\le
+C\,PotAvg(P')
++C\,Return_-(P')
++R_{\rm legal}(P')
++Stop(P').
+\tag{TFE.1056}
+\]
+
+The potential average is a consumer once the parent-known stopped record exists;
+the negative return is still the real no-free-oscillation/BV theorem for that
+record:
+
+\[
+Var^-(\Psi;\text{stopped chamber})
+\le
+C_N(u_0)\mathcal R(P')
++R_{\rm legal}(P')
++Stop(P').
+\tag{TFE.1057}
+\]
+
+If the persistent quotient does not stay on one stopped chamber, it is a strict
+reset/overrun event.  The selected source, upper active queue, and positive
+native carrier must be refined to one stopped same-material transaction before
+the positive part is counted.  After that common-selector refinement, the
+overrun product is the same-layer quantity
+
+\[
+\Sigma_j^+|W_j|^2,
+\qquad
+\Sigma_j^+>K\nu
+\tag{TFE.1058}
+\]
+
+in normalized variables.  The reset/overrun branch requires
+
+\[
+\sum_{Q\subset P'}\Omega_{reset/overrun}(Q)
+\le
+C_N(u_0)\mathcal R(P')
++R_{\rm legal}(P')
++Stop(P'),
+\tag{TFE.1059}
+\]
+
+where the charge is produced by same-carrier overrun tail depletion, critical
+weighted reset derivative, legal terminal source-curve exit, or paid
+reselection.
+
+Therefore the persistent quotient theorem is exactly the dichotomy
+
+\[
+\begin{aligned}
+\sum_{e\subset P'}
+H_{e^-}\|F_e^{pers}\|^2
+&\le
+C\,\mathcal R_{record/return}(P')
++C\,\mathcal R_{reset/overrun}(P')  \\
+&\quad
++R_{\rm legal}(P')
++Stop(P'),
+\end{aligned}
+\tag{TFE.1060}
+\]
+
+with
+
+\[
+\mathcal R_{record/return}
+\lesssim
+PotAvg+Return_-+spill/legal,
+\tag{TFE.1061}
+\]
+
+and
+
+\[
+\mathcal R_{reset/overrun}
+\lesssim
+\text{same-carrier overrun UI}
++\text{critical weighted reset derivative}
++\text{legal/reselection/terminal exit}.
+\tag{TFE.1062}
+\]
+
+Physically, this is the answer to the oscillating pressure-memory picture.  If
+the oscillation stays on the same material chamber, repeated positive crests
+must be accompanied by signed potential growth or by the negative return that
+brings the primitive back down.  If the oscillation changes chamber, the change
+is a reset/overrun and must be paid by the actual route motion or terminal/legal
+loss.  The remaining \(L^1\) proof is now the two-branch theorem
+`FreshSourceRecordReturnOrResetDichotomy.A' plus the two original-history
+payments `(TFE.1057)' and `(TFE.1059)'.
+
+## 93. Fixed chamber correction: return is a consumer after parent-score realization
+
+The older stopped-core notes correct one sentence in Section 92.  Negative
+return is not an independent physical reservoir once the stopped chamber is
+genuinely fixed.  The fixed chamber has to produce a parent-known score before
+positive clipping:
+
+\[
+P_R(\sigma,t)
+=
+\Gamma_R(\sigma,t)Z^S(\sigma,t),
+\tag{TFE.1063}
+\]
+
+where \(Z^S\) is the stopped same-material coupled packet coordinate and
+\(\Gamma_R\) is the parent-known selector/frame functional on that stopped
+chamber.  The selected repeated-core crest is then admissible only in the form
+
+\[
+A_e^{rep}(t)
+\le
+C\,[P_R(\sigma_1,t)-P_R(\sigma_0,t)]_+
++Paid_e(t),
+\tag{TFE.1064}
+\]
+
+with `(TFE.1064)' installed before the child positive readout is summed.  This
+is the stopped-core realization theorem; without it, the selected action is only
+near a record and can still be a renamed selected tail.
+
+Once `(TFE.1063)'--`(TFE.1064)' hold, return is ordinary signed motion of that
+same parent score.  The material derivative is
+
+\[
+\partial_\sigma P_R
+=
+\Gamma_R\,\partial_\sigma Z^S
++(\partial_\sigma\Gamma_R)Z^S,
+\tag{TFE.1065}
+\]
+
+and the connection term is exactly the coupled frame/turnstile/exchange/covector
+motion:
+
+\[
+\|\partial_\sigma P_R\|
+\le
+C\Big(
+\|\partial_\sigma Z^S\|
++\|\operatorname{turnstile}_\sigma\|
++\|\operatorname{exchange}_\sigma\|
++\|\operatorname{covector}_\sigma\|
++\|\operatorname{frame}_\sigma\|
+\Big)
++Paid .
+\tag{TFE.1066}
+\]
+
+For every maximal downcrossing interval \(I^-_e\),
+
+\[
+D^-_e
+=
+{|I^-_e|}^{-1}
+\int_{I^-_e}
+\partial_\sigma P_R(\sigma,t)\,d\sigma,
+\tag{TFE.1067}
+\]
+
+so the same harmonic active weight gives
+
+\[
+H_{I^-_e}\|D^-_e\|^2
+\le
+C
+\int_{I^-_e}
+w(\sigma,t)
+\Big(
+\|\partial_\sigma Z^S\|^2
++\|\operatorname{turnstile}_\sigma\|^2
++\|\operatorname{exchange}_\sigma\|^2
++\|\operatorname{covector}_\sigma\|^2
++\|\operatorname{frame}_\sigma\|^2
+\Big)d\sigma
++Paid_e .
+\tag{TFE.1068}
+\]
+
+The stopped downcrossing slabs are maximal first-exit slabs for a finite
+parent-known score family, hence have bounded overlap.  Therefore
+
+\[
+\sum_{e\subset P'}
+\int H_{I^-_e}\|D^-_e(t)\|^2\,dt
+\le
+C
+\int_{\operatorname{Hist}(P')}
+w\|G^S\|^2
++R_{\rm legal}(P')
++Stop(P'),
+\tag{TFE.1069}
+\]
+
+where \(G^S\) abbreviates the five coupled derivative/connection terms in
+`(TFE.1066)'.
+
+This is the physical meaning of "no free oscillation."  A packet staying on the
+same chamber cannot create fresh positive pressure-memory crests unless the
+same parent score actually moves.  A downward return is not another bill; it is
+the motion that made the later upward crest possible, and its cost is the
+derivative/connection variation of the same score.
+
+The fixed-chamber branch is therefore not missing a separate return reservoir.
+It is missing the realization and root geometry that make the selected dial
+parent-known before clipping:
+
+\[
+\text{PrimitivePLSSignedChannelRealization.A}
++
+\text{parent-fixed polar pushdown}
++
+\text{root Hilbert/record geometry}
+\Longrightarrow
+\mathcal R_{record/return}
+\le
+C\int_{\operatorname{Hist}(P')}w\|G^S\|^2
++R_{\rm legal}
++Stop .
+\tag{TFE.1070}
+\]
+
+The remaining moving-chamber branch is different.  If the selected dial changes
+carrier, selector, collar, covector, or heat-scale chamber, then it is not a
+fixed-score return.  It must be a parent-announced first-exit/reset interval or
+a first native endpoint seed.  In the first case the derivative-average Cauchy
+estimate `(TFE.1042)' applies; in the second case the first birth must leave a
+selected-size parent seed:
+
+\[
+A_e^{birth}
+\le
+C\,H_{e^-}\|M_e^{parent}\|^2
++Paid_e,
+\qquad
+\sum_{e\subset P'}H_{e^-}\|M_e^{parent}\|^2
+\le
+C_N(u_0)\mathcal R(P')
++Paid(P').
+\tag{TFE.1071}
+\]
+
+This is the root packing/positive critical transfer theorem in physical form:
+each genuinely new selected state must be admitted once into the original
+coupled packet, and the admitted seeds must form a finite root measure.
+
+The active entropy picture now has the exact inequality it has to become:
+
+\[
+d\mathfrak C_P^{act}
++c\,d\Omega_P^{sel,+}
+\le
+C\,d\Lambda_P^{der/connection}
++C\,d\Lambda_P^{birth}
++dR_{\rm legal}
++dStop,
+\tag{TFE.1072}
+\]
+
+where \(\mathfrak C_P^{act}\) is the parent-known active state capacity before
+child clipping, \(d\Omega_P^{sel,+}\) is the selected positive \(L^1\) readout,
+\(d\Lambda_P^{der/connection}\) is the fixed-score/reset derivative current, and
+\(d\Lambda_P^{birth}\) is the first-admission native birth measure.  Integrating
+`(TFE.1072)' and using the bounded-below/root-finite capacity gives
+
+\[
+\sup_{\tau<T_*}
+\int_0^\tau
+\int_P
+\mathcal M_N(Y_N)_+
+\le
+C_N(u_0)
++R_{\rm legal}(P)
++Stop(P).
+\tag{TFE.1073}
+\]
+
+So the missing physical story is now precise.  Pressure feedback may
+instantaneously re-coordinate the remaining velocity/strain state, and viscosity
+may give the delayed heat-lag readout, but the feedback loop cannot multiply
+future accessible states unless it either moves the same parent-known score,
+changes chamber through a paid reset, or first-admits a new native seed into the
+original coupled packet.  The unproved mathematical producer is exactly the
+construction of that parent-known active capacity and seed/derivative packing
+from arbitrary smooth original data.  That is the current \(L^1\) closure line,
+not a completed smoothness proof.
