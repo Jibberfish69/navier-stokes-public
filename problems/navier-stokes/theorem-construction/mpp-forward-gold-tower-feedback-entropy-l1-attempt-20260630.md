@@ -4085,3 +4085,147 @@ parent-side accessible-history variation in the active route metric.  A retained
 child readout can then delete or reveal states, but it cannot create an
 unbounded new positive count after the parent capacity has already assigned the
 event one material lifetime.
+
+## 31. Entropy cutoff versus finite energy: the native-reserve obstruction
+
+The physical entropy picture says that a finite initial packet cannot open an
+unbounded number of future distinguishable states.  The mathematical caveat is
+which metric counts distinguishable states.  The raw energy metric gives
+
+\[
+\|u(t)\|_2^2
++2\nu\int_0^t\|\nabla u(s)\|_2^2\,ds
+=
+\|u_0\|_2^2.
+\tag{TFE.260}
+\]
+
+This controls the unweighted strain history.  It does not control the
+scale-native active count.  On a packet of radius \(r\), a unit selected
+rescaled read pulls back with original \(L^2\) size \(r^{-1/2}\).  Thus a chain
+can have finite raw energy while the selected critical count sees
+
+\[
+\sum_\ell \nu_\ell<\infty,
+\qquad
+\sum_\ell 2^\ell\nu_\ell=\infty .
+\tag{TFE.261}
+\]
+
+So finite energy is the wrong entropy cutoff for the Gold \(L^1\) quantity.  It
+limits raw arrangements, but the selected child is asking how many
+scale-critical arrangements remain accessible after pressure/heat/viscous
+feedback has re-coordinated the packet.
+
+The correct parent-side entropy metric is the scale-native reserve
+
+\[
+\mathfrak R_{nat}(T)
+\simeq
+\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt.
+\tag{TFE.262}
+\]
+
+This is exactly the active-route count of high-ratio states.  Testing the
+original coupled equation in the critical half-derivative coordinate gives
+
+\[
+{1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
++
+\nu\|\Lambda^{3/2}u\|_2^2
+=
+B(t),
+\tag{TFE.263}
+\]
+
+where
+
+\[
+B(t)
+=
+-\left\langle
+\Lambda^{1/2}\mathbb P(u\cdot\nabla u),
+\Lambda^{1/2}u
+\right\rangle .
+\tag{TFE.264}
+\]
+
+Here \(\mathbb P\) is only the compressed coordinate of the full
+pressure-incompressibility response.  The term \(B_+\) is not pressure-only and
+not a detached scalar source; it is the critical face of the same
+pressure-viscosity-incompressibility-velocity participation packet.
+
+Therefore the parent entropy cutoff is equivalent to the strict one-sided
+positive-transfer estimate
+
+\[
+\int_0^T B_+(t)\,dt
+\le
+C_N(u_0)
++
+\theta\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt,
+\qquad
+\theta<1.
+\tag{TFE.265}
+\]
+
+If `(TFE.265)` holds, then `(TFE.263)` gives
+
+\[
+(1-\theta)\nu\int_0^T\|\Lambda^{3/2}u(t)\|_2^2\,dt
+\le
+C_N(u_0)+\|\Lambda^{1/2}u_0\|_2^2
++R_{legal}+Stop,
+\tag{TFE.266}
+\]
+
+so the native reserve `(TFE.262)` is finite.  Combining `(TFE.262)` with the
+parent-child reset reserve `(TFE.259)` gives terminal-uniform \(L^1\).
+
+The standard estimate gives only
+
+\[
+|B(t)|
+\le
+C\|u(t)\|_{\dot H^{1/2}}
+\|\Lambda^{3/2}u(t)\|_2^2,
+\tag{TFE.267}
+\]
+
+which closes when the critical packet is small.  For arbitrary smooth data, the
+coefficient in `(TFE.267)` is the critical state-count itself.  Using finite raw
+energy to replace it would be the same exponent mistake as using
+\(\sum\nu_\ell<\infty\) to infer \(\sum2^\ell\nu_\ell<\infty\).
+
+Thus the entropy story does not remove the Gold wall; it identifies it without
+the misleading scalar labels.  The state-count feedback theorem needed for
+\(L^1\) is:
+
+\[
+\begin{gathered}
+\text{each retained scale-native positive child read is either inherited,}\\
+\text{first-exit/reset-paid, record/return-paid, legal/stop-paid,}\\
+\text{or assigned with bounded multiplicity to }\mathfrak R_{nat}.
+\end{gathered}
+\tag{TFE.268}
+\]
+
+Equivalently,
+
+\[
+\omega_\gamma
+\le C_N\rho_{\iota(\gamma)}
++R_{legal}(\gamma)+Stop(\gamma),
+\qquad
+\sum_\rho\rho\le C_N(u_0)+R_{legal}+Stop,
+\qquad
+\operatorname{mult}(\iota)\le C_N.
+\tag{TFE.269}
+\]
+
+This is the entropy-feedback form of
+`NativeBirthChargePacking.A` / `PositiveCriticalTransferBound.A`.  It is the
+remaining large-data theorem.  All reset, affine-quotient, Schur/Bessel,
+bounded projection, and first-exit overlap work are consumers once `(TFE.268)`--
+`(TFE.269)` are installed; none of them by itself proves the parent entropy
+cutoff in the scale-native active metric.
