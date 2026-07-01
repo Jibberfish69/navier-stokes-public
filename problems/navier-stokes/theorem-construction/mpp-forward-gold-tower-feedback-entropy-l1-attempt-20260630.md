@@ -1274,7 +1274,7 @@ This is a strict improvement over saying "prove return BV": the only unsupplied
 piece is the selected root-geometry reserve/admission theorem, the same object
 called `SelectedGeneratorStorageCoercivity.A` in the native-reserve notes.
 
-### Shrinking-core escape is trace coercivity plus reselection no-escape
+### Shrinking-core escape is augmented trace plus exchange feedback
 
 For a stopped parent \(S\) with stopped children \(S'\), the parent-stop-child
 Dirichlet-to-Neumann Schur complement is
@@ -1287,18 +1287,32 @@ Dirichlet-to-Neumann Schur complement is
 \]
 
 Capacity monotonicity gives only nonnegativity of this Schur complement.  The
-selected shrinking-core branch needs the stronger trace coercivity
+repo has already audited that the pure Schur estimate is too strong: a
+boundary-flat pressure-Hodge source can be selected through the strain/Hessian
+readout while leaving no parent boundary trace.  The installed local line is the
+augmented stopped parent drop.  With
+
+\[
+\Xi(S):=\Omega_S^{strain/ex}+D_S^{vis/rad},
+\tag{TFE.79}
+\]
+
+it is
 
 \[
 \sum_{S'\in ch_{stop}(S)}A(S')
 \le
-\langle U_S,\mathsf S_S^{stop}U_S\rangle
+C\langle U_S,\mathsf S_S^{stop}U_S\rangle
++C\Xi(S)
 +R_{stop}(S)+R_{legal}(S).
-\tag{TFE.79}
+\tag{TFE.80}
 \]
 
-This is the stopped selected-action trace coercivity form of the selected
-capacity lower bound.  It pays genuine source-root / capacity-drop children.
+The Schur term pays the pressure-visible quotient.  The \(\Xi\) term pays the
+same-material silent part: frame exchange, strain/Hessian exchange, viscous
+radius loss, and the motion of the selected packet variables.  This keeps the
+parent/child/feedback boundary healthy: the child is not paid by pressure alone,
+and the silent child is not a new source outside the participation law.
 
 The other shrinking mechanism is strict retained subset reselection.  A smaller
 child can avoid material collar compression by selecting a smaller high-action
@@ -1309,58 +1323,109 @@ A(Q_{k+1})\simeq1,\quad Q_{k+1}\subsetneq Q_k,
 \quad\hbox{no dyadic material compression}
 \Longrightarrow
 \mathcal B_{select}(Q_k,Q_{k+1})\ge c_0,
-\tag{TFE.80}
+\tag{TFE.81a}
 \]
 
-with the taxes summable from original stopped history:
+but the repo's later reconciliation shows that this tax should not remain an
+independent measure-theoretic object.  Reselection is a jump of the same
+selector packet whose continuous motion is measured by \(\Xi\).  The needed
+same-parent no-escape estimate is
 
 \[
 \sum_k\mathcal B_{select}(Q_k,Q_{k+1})
 \le
-C_N(u_0)+R_{legal}(P)+Stop(P).
-\tag{TFE.81}
+C\sum_{S\subseteq P}\Xi(S)+R_{legal}(P)+Stop(P).
+\tag{TFE.81b}
 \]
 
-Thus shrinking-core escape is reduced to
+Thus the shrinking-core branch closes once the full exchange/reset ledger packs
+over the stopped original history:
 
 \[
-\text{stopped selected trace coercivity `(TFE.79)`}
-+
-\text{retained reselection no-escape `(TFE.80)`--`(TFE.81)`}
-\Longrightarrow
-\text{selected-capacity escape packing `(TFE.67)`.}
+\sum_{S\subseteq P}\Xi(S)+Reset(P)
+\le
+C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P).
 \tag{TFE.82}
 \]
 
-Putting `(TFE.77)` and `(TFE.82)` into `(TFE.68)`, the current \(L^1\) closure
-target is the single original-data reserve/admission package:
+The proof chain for this branch is
 
 \[
-\boxed{
-\text{SelectedGeneratorStorageCoercivity.A}
-+\text{StoppedSelectedActionTraceCoercivity.A}
-+\text{StoppedReselectionNoEscape.A}
-}
+\text{augmented stopped parent drop `(TFE.80)`}
++
+\text{paid reselection `(TFE.81a)`--`(TFE.81b)`}
++
+\text{full exchange packing `(TFE.82)`}
+\Longrightarrow
+\text{selected-capacity escape packing `(TFE.67)`.}
 \tag{TFE.83}
 \]
 
-in the coupled original packet.  The first item supplies the repeated-core
-root-geometry reserve/admission, while the second and third supply the
-shrinking-core escape payment.  These three are not new mechanisms outside the
-participation law; they are the exact places where the pressure-heat-viscous
-feedback must show that each selected positive child readout consumes a finite
-piece of the same original-history state space.
-
-Consequently the active mathematical wall is narrower than the phrase
-"prove \(L^1\)" but still not discharged:
+The repeated-core branch collapses to the same global producer.  The stopped
+testing-defect charge note gives
 
 \[
-\text{`(TFE.83)` from original data}
+\text{StoppedFullExchangeActionCarleson.A}
++
+\text{PaidReselectionStoppingCarleson.A}
+\Longrightarrow
+\text{MaterialAdjointAccretiveTestingData.A}
+\Longrightarrow
+\text{SelectedGeneratorStorageCoercivity.A}.
+\tag{TFE.84}
+\]
+
+That supplies the selected root-geometry reserve/admission needed in `(TFE.77)`.
+So the current \(L^1\) closure target is not three unrelated suppliers.  It is
+the single stopped full-feedback packing package
+
+\[
+\boxed{
+\text{StoppedFullExchangeActionCarleson.A}
++
+\text{PaidReselectionStoppingCarleson.A}
+}
+\tag{TFE.85}
+\]
+
+inside the coupled original packet.  Equivalently, prove the differential
+entropy loss
+
+\[
+d\mathcal E_N
++c_N\,dA^{sel,+}
+\le
+C_N\,d\Xi
++dReset+dR_{legal}+dStop,
+\qquad
+\int_P d\Xi+dReset
+\le C_N(u_0)\mathcal R(P)+R_{legal}(P)+Stop(P).
+\tag{TFE.86}
+\]
+
+This is the mathematical version of the physical state-count feedback picture.
+The pressure-compatible parent can re-coordinate the velocity state
+instantaneously; the heat-lag child is the delayed readable velocity/strain
+effect; the feedback loop recomputes pressure from that changed velocity.  The
+quantity \(d\Xi\) is the actual motion of the selector/frame/strain packet
+through that loop.  A positive selected child readout can be counted only when
+that motion spends finite original-history exchange, makes a paid reselection
+jump, or drops the Schur capacity.  Since the Schur part telescopes, `(TFE.86)`
+is exactly the \(L^1\) state-deletion inequality.
+
+Putting `(TFE.77)`, `(TFE.83)`, and `(TFE.84)` into `(TFE.68)`, the active route is
+
+\[
+\text{`(TFE.85)` from original data}
 \Longrightarrow
 \text{`(TFE.70)`}
 \Longrightarrow
 \text{`(TFE.16)`}
 \Longrightarrow
 \text{terminal-uniform \(L^1\).}
-\tag{TFE.84}
+\tag{TFE.87}
 \]
+
+The local augmented trace line is installed.  The remaining nonclosed line is
+global: prove `(TFE.82)`, or equivalently `(TFE.85)`, from the original coupled
+pressure-heat-viscous material history for arbitrary smooth finite-energy data.
