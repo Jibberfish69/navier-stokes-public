@@ -349,6 +349,8 @@ def clean_math_block(text: str) -> str | None:
     text = text.replace(r"\fint", r"\int")
     text = text.replace(r"\mathscr", r"\mathcal")
     text = text.replace(r"\centernot\Longrightarrow", r"\not\Longrightarrow")
+    text = text.replace(r"\llbracket", r"\left[")
+    text = text.replace(r"\rrbracket", r"\right]")
     text = text.replace("_{fullSCF}", r"_{\mathrm{fullSCF}}")
     text = text.replace("SCF_{base}", r"\mathrm{SCF}_{\mathrm{base}}")
     text = text.replace("Jump_{avg}", r"\mathrm{Jump}_{\mathrm{avg}}")

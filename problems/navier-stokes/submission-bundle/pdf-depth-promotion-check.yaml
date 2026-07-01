@@ -1,9 +1,9 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-07-01T22:03:13Z'
-started_at: '2026-07-01T22:03:05Z'
-status: failed
+generated_at: '2026-07-01T22:16:31Z'
+started_at: '2026-07-01T22:16:18Z'
+status: passed
 purpose: Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into
   the human/app-aligned TeX/PDF path, export the separate Codex Clay-facing paper,
   and fail unless both required PDF tracks visibly carry their distinct proof roles.
@@ -59,27 +59,32 @@ commands:
   argv:
   - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
   - problems/navier-stokes/tools/check_pdf_output_topology.rb
-  success: false
-  exitstatus: 1
-  stdout_tail: ''
-  stderr_tail: |-
-    pdfinfo failed for problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf: Syntax Error: Invalid XRef entry 0
-    Syntax Error: Missing 'endstream' or incorrect stream length
-    Syntax Error: Couldn't find trailer dictionary
-    Syntax Error: Invalid XRef entry 0
-    Syntax Error: Missing 'endstream' or incorrect stream length
-    Syntax Error: Couldn't find trailer dictionary
-    Syntax Error: Couldn't read xref table
+  success: true
+  exitstatus: 0
+  stdout_tail: 'PDF_OUTPUT_TOPOLOGY OK: human/app-aligned PDF problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    and papers/Codex PDF papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    are both present, separate, and topology-valid.'
+  stderr_tail: ''
 export_result:
 gates:
-- gate_id: runner-exception
-  status: failed
-  errors:
-  - |-
-    PDF output topology failed: pdfinfo failed for problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf: Syntax Error: Invalid XRef entry 0
-    Syntax Error: Missing 'endstream' or incorrect stream length
-    Syntax Error: Couldn't find trailer dictionary
-    Syntax Error: Invalid XRef entry 0
-    Syntax Error: Missing 'endstream' or incorrect stream length
-    Syntax Error: Couldn't find trailer dictionary
-    Syntax Error: Couldn't read xref table
+- gate_id: current-material-coverage-complete
+  status: passed
+  checked_text_files_outside_existing_union: 2119
+  family_count_sum: 2119
+  errors: []
+- gate_id: source-depth-appendices-materialized-in-tex
+  status: passed
+  source_field_word_count: 662537
+  surface_derivation_expansion_rows: 5255
+  main_tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  errors: []
+- gate_id: dual-pdf-track-rendered-depth-readback
+  status: passed
+  preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  pdf_tracks:
+    human_app_aligned: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    codex_machine_paper: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  papers_pdf_pages: 20
+  human_pdf_pages: 1668
+  sha256: be6c9b43dbb8ef28e3880a819bbed86524086d775fc42b08f004fd81fe6339e1
+  errors: []

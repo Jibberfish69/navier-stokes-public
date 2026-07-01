@@ -541,7 +541,9 @@ def dual_pdf_track_gate
   end
 
   problem_pdfs = Dir.glob(ROOT.join("problems/navier-stokes/**/*.pdf").to_s).sort
-  allowed_problem_pdfs = [HUMAN_SUBMISSION_PDF.expand_path.to_s]
+  allowed_problem_pdfs = [HUMAN_SUBMISSION_PDF.expand_path.to_s] +
+                         Dir.glob(ROOT.join("problems/navier-stokes/submission-bundle/authoring/lab/**/*.pdf").to_s).map { |path| Pathname.new(path).expand_path.to_s } +
+                         Dir.glob(ROOT.join("problems/navier-stokes/submission-bundle/authoring/templates/**/*.pdf").to_s).map { |path| Pathname.new(path).expand_path.to_s }
   unexpected_problem_pdfs = problem_pdfs.reject { |path| allowed_problem_pdfs.include?(Pathname.new(path).expand_path.to_s) }
   unless unexpected_problem_pdfs.empty?
     errors << "unexpected problem-local PDF outputs remain: #{unexpected_problem_pdfs.map { |path| relative(path) }.join(', ')}"

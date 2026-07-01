@@ -1,42 +1,43 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-28T18:49:47Z'
+generated_at: '2026-07-01T22:13:49Z'
 status: exported
 manual_gold_correction:
   updated_at: '2026-07-01T20:01:37Z'
   status: exported-bundle-stale-not-submission-ready-pending-tfe2748b-original-critical-capacity-variation
-  current_gold_next_proof_unit: prove TFE2748B / OriginalCriticalCapacityVariation.A paid positive capacity variation before submission/export readiness claim
-  correction: 'The bundle remains stale and not submission-ready. TFE2748A has
-    installed endpoint admission into an endpoint-admitted ledger. TFE2748B narrows
-    the remaining Gold L1 source theorem to OriginalCriticalCapacityVariation.A:
-    critical capacity must be parent-fixed or have paid positive variation,
-    schematically [dCcrit]_+ <= dTheta0 + dPaid, so Mcrit=Ccrit-Ecrit supplies
-    a true bounded-below storage derivative. Future selected tail, future generator
-    clock, and raw energy reserve are circular/too weak as source closures. Gold
-    remains open; there is no proof of smoothness and no submission-ready claim.'
+  current_gold_next_proof_unit: prove TFE2748B / OriginalCriticalCapacityVariation.A
+    paid positive capacity variation before submission/export readiness claim
+  correction: 'The bundle remains stale and not submission-ready. TFE2748A has installed
+    endpoint admission into an endpoint-admitted ledger. TFE2748B narrows the remaining
+    Gold L1 source theorem to OriginalCriticalCapacityVariation.A: critical capacity
+    must be parent-fixed or have paid positive variation, schematically [dCcrit]_+
+    <= dTheta0 + dPaid, so Mcrit=Ccrit-Ecrit supplies a true bounded-below storage
+    derivative. Future selected tail, future generator clock, and raw energy reserve
+    are circular/too weak as source closures. Gold remains open; there is no proof
+    of smoothness and no submission-ready claim.'
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
 bundle_dir: problems/navier-stokes/submission-bundle
 preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
 pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-pdf_tracks:
+pdf_tracks: &3
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-    present: true
-    sha1: 39d2e518108af126e7d58b1f59bcedc8f57a8926
-    bytes: 4541983
-    manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
     role: preferred problems/** app-aligned human submission track
+    present: true
+    bytes: 6153366
+    sha1: 5238b71dd00649288f28c3c9272c43a5d6fd37d1
     required_for_clay_submission: true
+    manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   codex_machine_paper:
     path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    role: papers/** Codex-owned Clay-facing submission paper track
     present: true
-    sha1: b1b00ffb0490c197b2936153e7852f6aa822032b
-    bytes: 360725
-    manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
-    role: papers/** Codex-owned machine paper track
+    bytes: 360733
+    sha1: 399397958aeba14918e4dd3dd9dba4e9c2dfd576
     required_for_clay_submission: true
+    manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 compiler: "/Library/TeX/texbin/pdflatex"
 source_metrics:
   source_word_count: 13442
@@ -48,10 +49,9 @@ authoritative_content_included: true
 authoritative_supplements: []
 codex_machine_manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
 submission_ready: false
-readiness_blocker: 'Navier-Stokes completion readiness is blocked by 6 unresolved
-  candidate(s): pdf-reader-proof-integration, contract-readiness-after-manuscript-expansion,
-  clay-readiness-not-claimed, source-frontier:primary_math_obligation, source-frontier:additional_context_obligations,
-  source-frontier:active_frontier_labels.'
+readiness_blocker: 'Completion readiness still has 6 candidate(s): pdf-reader-proof-integration,
+  contract-readiness-after-manuscript-expansion, clay-readiness-not-claimed, source-frontier:primary_math_obligation,
+  source-frontier:additional_context_obligations, source-frontier:active_frontier_labels.'
 active_supplier_blocker: none-for-silver-cm-exit-gold-counterpart-thread-active
 manuscript_tex_sha1: 65dbb7938137f11e7548582226d6dc11f540215c
 completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260628-iteration-2.yaml
@@ -59,7 +59,7 @@ readiness_evidence:
   source_frontier_clear: false
   open_d8_proof_blockers: 0
   completion_candidate_count: 6
-  completion_candidates:
+  completion_candidates: &1
   - candidate_id: pdf-reader-proof-integration
     kind: d8_resolved_blocker_state
     surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -128,71 +128,7 @@ readiness_evidence:
     status: blocked
     submission_ready: false
     candidate_count: 6
-    candidates:
-    - candidate_id: pdf-reader-proof-integration
-      kind: d8_resolved_blocker_state
-      surface: problems/navier-stokes/d8-completion-route-map.yaml
-      evidence: state=open-release-exactness-and-manuscript-refresh
-      required_action: 'Both required PDF tracks have rendered artifacts, but rendered
-        existence and proof-surface integration are not release readiness. The compact
-        paper and submission surfaces must be refreshed so they state the accepted
-        Silver CM rowwise consumption and do not treat NoGenuineExitFromSmoothData.A
-        as a Silver blocker. Positive supplier work may still track: FirstExitPackSurvivalMechanismSearch.A
-        / OriginalSmoothDataPackSurvival.A through a non-alias bridge, after PositiveEndpointStressObservability.A,
-        PositiveStressSignedExactnessTransfer.A, EndpointMassFromShellPairCommutator.A,
-        TerminalNuNWindowSeedSynchronization.A, TerminalFiniteCollarSeedToIntervalControl.A,
-        RetainedFiniteBandAmplitudeSmallness.A, DirectFiniteBandBilinear8j11.A, RetainedEndpointMassShellPairThreading.A,
-        no-incoming / backward uniqueness, PositiveSourceTraceAC_{B_ASAC}.A, NativePositiveSourceUniformIntegrability_{B_ASAC}.A,
-        source-density/CKN/source-time aliases, retained carrier compactness, lifted-band
-        flux, affine quotient, and mu_N endpoint routes all failed or cycled, after
-        the retained positive-scale reserve-birth / B_ASAC terminal source atom routes
-        exhausted into a source-time alias cycle, the h/F terminal mass route reduced
-        to the selector-normal quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad
-        remain alternate unproved upgrade routes, the CN.13j pass reduced the exact
-        missing lower link to polarity/amplitude-floor or small-moment absorption,
-        the lower-link pass reduced polarity to tangent linearization/coercivity of
-        the exact anchored observable, and the DG-Cal pass reduced that condition
-        to a local exact packet formula plus readout Gram lower bound, the formula
-        pass installed the canonical local projective channels while leaving actual
-        pair-defect realization open, and the realization pass reduced the unpaid
-        side to selector-shape normalization, and the PTC-shape pass reduced selector-shape
-        normalization to diagonal-density source oscillation, then the diagonal-density
-        pass showed center lower-density is supplied by density-selected centers,
-        and the Holder/stopping retained-mass follow-up paid the finite retained-intersection
-        lemma, and the density-stopping loss-budget pass showed retained measure does
-        not yet prove entrance-sector/core-cap coverage for the finite-frame route.'
-    - candidate_id: contract-readiness-after-manuscript-expansion
-      kind: d8_resolved_blocker_state
-      surface: problems/navier-stokes/d8-completion-route-map.yaml
-      evidence: state=open-release-exactness-and-manuscript-refresh
-      required_action: 'Blocked by release/exactness refresh: the compact manuscript
-        and generated submission surfaces must be updated to carry the accepted Silver
-        CM rowwise consumption without resurrecting NoGenuineExitFromSmoothData.A
-        as a Silver blocker.'
-    - candidate_id: clay-readiness-not-claimed
-      kind: d8_resolved_blocker_state
-      surface: problems/navier-stokes/d8-completion-route-map.yaml
-      evidence: state=open-release-exactness-and-manuscript-refresh
-      required_action: Release readiness must not be claimed until exactness/manuscript
-        surfaces are synchronized with the accepted Silver CM rowwise consumption.
-    - candidate_id: source-frontier:primary_math_obligation
-      kind: source_frontier
-      surface: problems/navier-stokes/source-frontier.yaml
-      evidence: nonempty primary_math_obligation
-      required_action: Clear or demote the source-frontier primary_math_obligation
-        before submission readiness.
-    - candidate_id: source-frontier:additional_context_obligations
-      kind: source_frontier
-      surface: problems/navier-stokes/source-frontier.yaml
-      evidence: nonempty additional_context_obligations
-      required_action: Clear or demote the source-frontier additional_context_obligations
-        before submission readiness.
-    - candidate_id: source-frontier:active_frontier_labels
-      kind: source_frontier
-      surface: problems/navier-stokes/source-frontier.yaml
-      evidence: nonempty active_frontier_labels
-      required_action: Clear or demote the source-frontier active_frontier_labels
-        before submission readiness.
+    candidates: *1
     checks:
       route_candidates: 0
       d8_candidates: 3
@@ -209,22 +145,22 @@ readiness_evidence:
       clay_closing_gap_candidates: 0
       stale_readiness_ref_candidates: 0
     pdf_tracks_rendered: true
-    pdf_render_status:
+    pdf_render_status: &2
       status: rendered
       rendered: true
       tracks:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: 39d2e518108af126e7d58b1f59bcedc8f57a8926
-          bytes: 4541983
+          sha1: 5238b71dd00649288f28c3c9272c43a5d6fd37d1
+          bytes: 6153366
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
           path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
           present: true
-          sha1: b1b00ffb0490c197b2936153e7852f6aa822032b
-          bytes: 360725
+          sha1: 399397958aeba14918e4dd3dd9dba4e9c2dfd576
+          bytes: 360733
           manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
           required_for_clay_submission: true
       preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
@@ -291,64 +227,13 @@ readiness_evidence:
         active_pdf_criticism_candidates: 0
   pdf_tracks_present: true
   pdf_tracks_rendered: true
-  pdf_render_status:
-    status: rendered
-    rendered: true
-    tracks:
-      human_app_aligned:
-        path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-        present: true
-        sha1: 39d2e518108af126e7d58b1f59bcedc8f57a8926
-        bytes: 4541983
-        manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-        required_for_clay_submission: true
-      codex_machine_paper:
-        path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-        present: true
-        sha1: b1b00ffb0490c197b2936153e7852f6aa822032b
-        bytes: 360725
-        manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
-        required_for_clay_submission: true
-    preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-  pdf_tracks:
-    human_app_aligned:
-      path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-      present: true
-      sha1: 39d2e518108af126e7d58b1f59bcedc8f57a8926
-      bytes: 4541983
-      manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-      role: preferred problems/** app-aligned human submission track
-      required_for_clay_submission: true
-    codex_machine_paper:
-      path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-      present: true
-      sha1: b1b00ffb0490c197b2936153e7852f6aa822032b
-      bytes: 360725
-      manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
-      role: papers/** Codex-owned machine paper track
-      required_for_clay_submission: true
-readiness_note: 'Both required Navier-Stokes PDF tracks are separate Clay-facing outputs:
-  the problems/** app-aligned human track and the papers/** Codex-owned machine track.'
+  pdf_render_status: *2
+  pdf_tracks: *3
+readiness_note: PDF rendering is tracked separately from submission readiness; both
+  required Navier-Stokes PDF tracks can be rendered while proof/manuscript/app agreement
+  remains blocked.
 pdf_tracks_rendered: true
-pdf_render_status:
-  status: rendered
-  rendered: true
-  tracks:
-    human_app_aligned:
-      path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-      present: true
-      sha1: 39d2e518108af126e7d58b1f59bcedc8f57a8926
-      bytes: 4541983
-      manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-      required_for_clay_submission: true
-    codex_machine_paper:
-      path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-      present: true
-      sha1: b1b00ffb0490c197b2936153e7852f6aa822032b
-      bytes: 360725
-      manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
-      required_for_clay_submission: true
-  preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+pdf_render_status: *2
 source_wall_root_cm_status: 'The original acceptance gate had treated Gold forward-positive
   proof as the only acceptance mode. The corrected single gate accepts Silver as the
   CM contrapositive discharge: once the alleged terminal witness is admitted to the
@@ -371,8 +256,8 @@ source_wall_root_cm_status: 'The original acceptance gate had treated Gold forwa
   face after carrier admission and original-participation typing. Gold counterpart
   obligations remain active outside this Silver closure and do not block the Silver
   CM-exit route.'
-submission_posture: not-ready
-readiness_status: silver-cm-exit-accepted-release-refresh-open
+submission_posture: blocked
+readiness_status: blocked
 manuscript_scaffold_status: human/app submission scaffold repaired as a paper-local
   CM proof surface; papers/** generated main.tex remains an independent manuscript
   surface requiring separate hygiene repair
@@ -388,6 +273,3 @@ blockers:
   outside the Silver route patch.'
 required_before_submission:
 - release-exactness-and-manuscript-refresh
-stdout: ''
-stderr: ''
-fallback: 
