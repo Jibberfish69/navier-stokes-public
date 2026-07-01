@@ -23840,3 +23840,496 @@ large.  Therefore the missing theorem is not another no-recount statement and
 not another entropy telescope.  It is the original-data coercive testing law
 that makes the parent packet's own pressure-heat-viscous feedback variation
 control the selected root-generator square before positive child readout.
+
+## 139. No-self-feeding form of the coercive storage law
+
+The storage law `(TFE.1597)' closes the \(L^1\) route only if its right side is
+not secretly the same selected clock under another name.  The exact object to
+control is
+
+\[
+d\Omega_P^{gen}
+:=
+H_P^\ast\|\mathcal G_P^{root}\|_{\mathcal H_{\rm lift}}^2\,d\sigma dt
++dA_P^{sel/chart}.
+\tag{TFE.1606}
+\]
+
+The noncircular solve form is the strict no-self-feeding inequality
+
+\[
+\boxed{
+d\Omega_P^{gen}
+\le
+-D_{\sigma,t}\mathcal M_P
++\theta\,d\Omega_P^{gen}
++d\Theta_P^{0}
++dR_{\rm legal,P}
++dStop_P,
+\qquad
+0\le\theta<1,
+}
+\tag{TFE.1607}
+\]
+
+with
+
+\[
+0\le\mathcal M_P
+\le C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P),
+\qquad
+\int_{\operatorname{Hist}(P)}d\Theta_P^{0}
+\le C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1608}
+\]
+
+Absorbing the strict fraction gives
+
+\[
+(1-\theta)d\Omega_P^{gen}
+\le
+-D_{\sigma,t}\mathcal M_P
++d\Theta_P^{0}
++dR_{\rm legal,P}
++dStop_P,
+\tag{TFE.1609}
+\]
+
+and hence `(TFE.1599)' after integration.  This is the mathematical form of the
+physical statement: pressure/incompressibility may re-coordinate the remaining
+packet state, but the same re-coordination loop cannot recreate the full
+selected meter it is supposed to pay.  A strict part must be deleted by the
+viscous/heat-scale descent or by a bounded parent storage drop.
+
+The stopped testing/Hilbert-BMO surfaces show how `(TFE.1607)' must be proved.
+The selected source is not an arbitrary singular-integral measure.  In the
+same-material row it must have the divergence-current normal form
+
+\[
+\nu_P^S
+=
+D_AJ_P^S+\nu_{P,stop}^S+\nu_{P,legal}^S,
+\tag{TFE.1610}
+\]
+
+where \(J_P^S\) is the routed participation current built before child positive
+readout: pressure-visible Schur current, silent commutator/exchange current,
+collar current, reset/order-lock current, and legal lower-order current.  The
+pressure-Hodge transform side is then a bounded projection:
+
+\[
+\|T_P(1_Q\nu_P^S)\|_{L^2(Q)}^2
+\lesssim
+\int_{\widehat Q}|J_P^S|^2\,d\mathcal R
++Stop(\widehat Q)+R_{\rm legal}(\widehat Q).
+\tag{TFE.1611}
+\]
+
+Thus abstract stopped testing is not the wall once `(TFE.1610)' is installed.
+The wall is the current Carleson/symmetrizer bound that supplies
+\(J_P^S\) from original material history:
+
+\[
+\boxed{
+d\mathscr A_P^{press/op+collar}
++c\,d\Omega_P^{cur}
+\le
+\theta\,d\Omega_P^{gen}
++d\Theta_P^{0}
++dR_{\rm legal,P}
++dStop_P,
+\qquad
+\mathscr A_P^{press/op+collar}\ge -C_N(u_0)\mathcal R(P).
+}
+\tag{TFE.1612}
+\]
+
+Here
+
+\[
+d\Omega_P^{cur}
+:=
+|J_P^S|^2\,d\mathcal R
++dA_P^{sel/chart}
++dA_P^{stop/reselect}.
+\tag{TFE.1613}
+\]
+
+The selector/carrier comparison must be built before clipping:
+
+\[
+d\Omega_P^{gen}
+\le
+C\,d\Omega_P^{cur}
++dR_{\rm legal,P}
++dStop_P.
+\tag{TFE.1614}
+\]
+
+Combining `(TFE.1612)' with `(TFE.1614)' gives `(TFE.1607)' after reducing
+\(c\) and increasing the paid constants.  Therefore the next exact producer is
+
+\[
+\boxed{
+\texttt{RoutedSelectedSourceDivergenceForm.A}
++
+\texttt{StoppedPressOpCollarCarrierSymmetrizer.A}
++
+\texttt{SelectorCarrierNondegeneracyOrPaidReselection.A}
+\Longrightarrow
+\texttt{SelectedGeneratorStorageCoercivity.A}.
+}
+\tag{TFE.1615}
+\]
+
+The first item is mostly source-origin/admission: the selected source must be a
+same-material divergence current before child clipping.  The second item is
+the real storage producer: a bounded-below pressure/operator/collar
+symmetrizer whose drop controls the routed current and stop/reselection
+motion.  The third item prevents a moving selected scalar from escaping the
+fixed carrier; if the selector moves, that movement is paid as
+stop/reselection/chart material.
+
+In positive critical transfer coordinates, the same strict no-self-feeding law
+is
+
+\[
+\int_0^\tau B_{crit,+}(t)\,dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(\tau),
+\qquad \theta<1.
+\tag{TFE.1616}
+\]
+
+The compressed critical identity gives only
+
+\[
+{1\over2}{d\over dt}\|\Lambda^{1/2}u\|_2^2
++\nu\|\Lambda^{3/2}u\|_2^2
+=B_{crit}(t),
+\tag{TFE.1617}
+\]
+
+which is signed.  It does not prevent a long chain of positive selected
+readouts cancelled by negative return in the signed scalar balance.  The
+coercive law above is exactly the missing upgrade from signed balance to
+one-sided root-generator square control.
+
+So the physical story has become mathematically sharp.  The pressure front is
+the whole-field actuator that changes which future heat-lag states are
+compatible; viscosity is the parabolic deletion of fine heat-scale futures;
+self-advection and the moving material frame carry the meter.  \(L^1\) closure
+requires a bounded-below same-parent symmetrizer proving that this actuator
+loop cannot use its own selected meter as fuel.  Without `(TFE.1612)'--`(TFE.1614)',
+the half-tail remains possible in the proof logic even though every readout is
+same-parent and no-recount has been enforced.
+
+## 140. Selector/reselection is not an independent producer
+
+The selector-carrier clause in `(TFE.1614)' is not a separate Gold source once
+the selected chart is stopped before child readout.  On a stopped chart \(S\),
+the selected scalar splits into fixed-chart readout plus moving-label readout:
+
+\[
+\Delta_e\log\rho_{\rm sel}
+=
+\Delta_e^{fixed}\log\rho_{\rm sel}
++\Delta_e^{lab}\log\rho_{\rm sel}.
+\tag{TFE.1618}
+\]
+
+The fixed-chart part is a Lipschitz readout of the parent carrier innovation:
+
+\[
+\sum_{e\subset S}
+|\Delta_e^{fixed}\log\rho_{\rm sel}|^2\mathcal R(e)
+\le
+C_S\sum_{e\subset S}\|D_e\|_{\mathcal H_{\rm lift}}^2\mathcal R(e)
++C_SR_{\rm legal}(S)
++C_S\sum_{e\subset S}|e_e^S|^2\mathcal R(e).
+\tag{TFE.1619}
+\]
+
+The moving-label part is exactly selector/order-lock/collar/pressure-Hodge
+coordinate motion.  Its stopped charge is
+
+\[
+\sum_{e\subset P}
+|\Delta_e^{lab}\log\rho_{\rm sel}|^2\mathcal R(e)
+\le
+C_N
+\sum_{S\subseteq P}
+\left(
+\Omega_S^{strain/ex}
++D_S^{vis/rad}
+\right)
++R_{\rm legal}(P).
+\tag{TFE.1620}
+\]
+
+Thus selector motion is not free amplification.  It is either absent inside a
+fixed stopped chart or paid by the same full-exchange/reselection clock that
+moves the material frame, pressure-Hodge coordinate, order-lock gap, collar,
+and selected carrier.
+
+The stopped reselection audit pushes this one step further.  An unpaid strict
+reselection chain
+
+\[
+S_{k+1}\subsetneq S_k,
+\qquad
+A(S_{k+1})\simeq1
+\tag{TFE.1621}
+\]
+
+is not a new branch.  It is the selected compression/root-reserve half-tail in
+stopped coordinates:
+
+\[
+\sum_{Q\subseteq P}A(Q)<\infty
+\quad\Longleftrightarrow\quad
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty .
+\tag{TFE.1622}
+\]
+
+Therefore the selector/reselection side is discharged once the root reserve
+controls the full-exchange clock:
+
+\[
+\sum_{S\subseteq P}
+\left(
+\Omega_S^{strain/ex}
++D_S^{vis/rad}
+\right)
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE.1623}
+\]
+
+The nonduplicate producer below `(TFE.1615)' is consequently one fused
+symmetrizer/root-reserve law:
+
+\[
+\boxed{
+d\mathscr A_P^{press/op+collar}
++c\left(
+d\Omega_P^{cur}
++\sum_{S\subseteq P}
+\left(
+d\Omega_S^{strain/ex}
++dD_S^{vis/rad}
+\right)
+\right)
+\le
+\theta\,d\Omega_P^{gen}
++d\Theta_P^0
++dR_{\rm legal,P}
++dStop_P,
+\quad
+\mathscr A_P^{press/op+collar}\ge -C_N(u_0)\mathcal R(P).
+}
+\tag{TFE.1624}
+\]
+
+Together with the fixed-chart readout `(TFE.1619)' and the moving-label charge
+`(TFE.1620)', `(TFE.1624)' implies both current control and selector-carrier
+control.  Hence
+
+\[
+\texttt{StoppedPressOpCollarFullExchangeRootReserve.A `(TFE.1624)'}
+\Longrightarrow
+\texttt{StoppedPressOpCollarCarrierSymmetrizer.A}
++
+\texttt{SelectorCarrierNondegeneracyOrPaidReselection.A}.
+\tag{TFE.1625}
+\]
+
+This is the physical boundary of the \(L^1\) problem in the current
+coordinates: the selected meter can move only by actual full-packet
+exchange/reselection motion, and that motion must be charged by a bounded-below
+same-parent pressure/operator/collar storage.  If `(TFE.1624)' is proved, the
+selector/reselection branch no longer exists as a separate obstruction; it is
+absorbed into `(TFE.1607)' and hence into `(FGC.25)'.
+
+## 141. Pressure/collar is forced graph response; the remaining source is the free-material PLS clock
+
+The graph-compatible pressure/collar audits correct the last paragraph above.
+The pressure/operator/collar sector is not the final producer of the \(L^1\)
+clock once pressure is kept inside the one participation law.  It is the
+instantaneous elliptic/collar graph attached to the same moving material packet.
+Write
+
+\[
+Z_N=(q,C_N)=\Gamma_N(Y_N)+W_N,
+\qquad
+Y_N=(v,A,G,\phi,\mathbb P_A).
+\tag{TFE.1626}
+\]
+
+Here \(\Gamma_N(Y_N)\) is the forced pressure/collar graph and \(W_N\) is the
+relative pressure/collar defect.  The graph-compatible replacement is
+
+\[
+d\Omega_N^{press/collar,graph}
+=d\Omega_N^{graph.driver}+d\Omega_N^{rel.defect}.
+\tag{TFE.1627}
+\]
+
+The normal defect is Schur-paid:
+
+\[
+d\widetilde{\mathscr A}_N^{press/op+collar}
++c\,d\Omega_N^{rel.defect}
+\le
+dR_N^{legal}+dR_N^{interface/lower},
+\qquad
+\widetilde{\mathscr A}_N^{press/op+collar}
+=-{1\over2}\|W_N\|_{pc,N}^2 .
+\tag{TFE.1628}
+\]
+
+The tangent graph motion is free material motion.  Differentiating the elliptic
+graph
+
+\[
+q=L_G^{-1}R(Y_N)
+\tag{TFE.1629}
+\]
+
+gives coefficient/frame terms, Hodge/Stokes terms, collar/base terms, viscous
+terms, and the pressure-Hessian feedback that is already the strain-equation
+coordinate.  Thus the checked sector estimate is
+
+\[
+d\Omega_N^{press/RHS}
++d\Omega_N^{collar}
+\le
+C_Nd\Omega_N^{rel.defect}
++C_N\left(
+d\Omega_N^{strain/frame}
++d\Omega_N^{Hodge/Stokes}
++d\Omega_N^{collar/base}
++dD_N^{vis}
+\right)
++dR_N^{legal}.
+\tag{TFE.1630}
+\]
+
+So the pressure/collar lobe clock is an overcount after graph replacement.  The
+actual full clock is
+
+\[
+d\Omega_N^{PLS,graph}
+:=
+d\Omega_N^{free\ material}
++d\Omega_N^{rel.defect}
++d\Omega_N^{recirc,finite}.
+\tag{TFE.1631}
+\]
+
+After the Schur defect and finite recirculation are removed, the live positive
+piece is the primitive graph-compatible free-material driver
+
+\[
+d\Omega_N^{PLS,primitive}
+\simeq
+\sum_j w_j
+\left[
+\left\langle
+H_{j,N},
+\mathcal M_{<j-C,N}H_{j,N}
+\right\rangle
+\right]_+dt
++dR_N^{paid}.
+\tag{TFE.1632}
+\]
+
+The low coefficient \(\mathcal M_{<j-C,N}\) is the packet's coupled material
+state: strain, pressure Hessian through the strain equation, coefficient/frame
+motion, Hodge/Stokes projection motion, transported collar motion, viscous tower
+service, and annular stress-work.  This is the physical object the entropy
+story was reaching for.  It is not pressure-only and it is not viscosity-only;
+it is the pressure-heat-viscous feedback state of one material packet, viewed
+before selected child clipping.
+
+The retained-coefficient branch is already closed by compactness/no-self-birth:
+with zero paid loss and retained \(\mathcal M_{<j-C,N}\), the same-carrier limit
+forces \(H_{j,N,*}=0\) modulo harmless gauge/null directions, so the normalized
+positive primitive driver vanishes.  Therefore the surviving branch is exactly
+coefficient escape:
+
+\[
+\int_I
+\|\mathcal M_{<j-C,N}(t)\|_{\mathcal X_N}\,dt
+=\infty
+\quad\text{or concentration without a retained stopped limit.}
+\tag{TFE.1633}
+\]
+
+That escape is not a legal residual.  It is the continuation-depth material
+record itself:
+
+\[
+d[\log(1+\mathcal P_N^{mat})]_+
+\le
+C_Nd\Omega_N^{PLS,primitive}
++dR_N^0.
+\tag{TFE.1634}
+\]
+
+Thus the corrected physical close theorem is the no-free-upcrossing law for the
+primitive/free-material graph driver:
+
+\[
+\boxed{
+\exists\,\mathscr A_N^{PLS}(t)\ge -C_N(u_0)
+\quad\text{such that}\quad
+d\mathscr A_N^{PLS}
++c_Nd\Omega_N^{PLS,primitive}
+\le
+dR_N^{legal}.
+}
+\tag{TFE.1635}
+\]
+
+Equivalently,
+
+\[
+\boxed{
+\int_0^{T_*}d\Omega_N^{PLS,graph}<\infty.
+}
+\tag{TFE.1636}
+\]
+
+In physical terms, the missing \(L^1\) fact is this: the instantaneous
+pressure-compatible graph can re-coordinate the packet, and viscosity can turn
+that coordinated state into heat-lag velocity/strain readouts, but the feedback
+loop cannot keep opening more selected future states than the packet's coupled
+material state actually traverses.  The positive \(L^1\) count is finite exactly
+when the rectified positive travel of that low material coefficient is finite.
+Finite energy supplies square mass; it does not by itself supply the rectified
+one-way travel bound in `(TFE.1635)'.
+
+The downstream chain is now sharp:
+
+\[
+\texttt{PrimitivePLSNoFreeUpcrossing.A `(TFE.1635)'}
+\Longrightarrow
+\texttt{GlobalSamePacketFullClockFromOriginalData.A `(TFE.1636)'}
+\Longrightarrow
+\texttt{ParentRootGeometryCarleson.A `(TFE.1590)'}
+\Longrightarrow
+\texttt{AffineTransitionParentAdmission.A}
+\Longrightarrow
+\texttt{terminal-uniform \(L^1\) / `(FGC.25)'}.
+\tag{TFE.1637}
+\]
+
+This replaces the over-broad reading of `(TFE.1624)'.  Selector/reselection,
+relative pressure/collar defect, pressure-Hodge readout, endpoint annulus, and
+recirculation are consumers once the graph-compatible full clock is finite.
+The remaining source is the original-data proof of `(TFE.1635)': construct a
+bounded-below same-material entropy/storage whose drop pays the positive
+primitive PLS driver without charging \(d\Omega_N^{PLS,primitive}\) to itself.
