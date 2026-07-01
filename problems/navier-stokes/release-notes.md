@@ -68,7 +68,7 @@ The MCP promotion packet reports:
 historical status: blocked
 historical decision: not-release-approved
 historical blockers: cm-direction-alignment
-current status: superseded by the submission-candidate dual-track package
+current status: superseded by blocked Gold L1 authority at TFE2748B / OriginalCriticalCapacityVariation.A
 ```
 
 The release manifest is:

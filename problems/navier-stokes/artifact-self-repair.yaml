@@ -5,19 +5,23 @@ identity:
   display_name: Navier-Stokes Global Regularity
   generated_at: '2026-04-30T23:35:09Z'
   generator: system/runner/lib/artifact_invariant_builder.rb
-status: ok
-violations: []
+status: blocked-by-current-theorem-authority
+violations:
+- gold-l1-source-theorem-open
 summary:
-  violation_count: 0
+  violation_count: 1
   repairable_count: 0
 repair_actions:
 - pass: 1
   artifact: release_decision
   action: regenerated
   path: problems/navier-stokes/release-decision.yaml
-  disposition: submission-candidate
+  disposition: blocked
 - pass: 1
   artifact: pipeline_state
   action: applied-release-decision
-  queue_state: submission-candidate
-  disposition: submission-candidate
+  queue_state: theorem-work
+  disposition: blocked
+current_authority_status:
+  status: gold-l1-open
+  blocker: TFE2748B / OriginalCriticalCapacityVariation.A

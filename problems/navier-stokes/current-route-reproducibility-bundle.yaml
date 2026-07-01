@@ -10,14 +10,18 @@ purpose: >-
   source-wall/governance blocker state. It is retained as evidence, not as current
   release authority.
 current_authority_status:
-  status: superseded-by-dual-track-submission-candidate
-  checked_at: '2026-06-08T04:35:02Z'
+  status: superseded-by-current-gold-l1-open-authority
+  checked_at: '2026-07-01T00:00:00Z'
   controlling_surfaces:
-    - problems/navier-stokes/release-decision.yaml
-    - problems/navier-stokes/submission-verdict.yaml
-    - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-  current_release_status: submission-candidate
-  current_blocker_count: 0
+    - problems/navier-stokes/live-theorem-edge.yaml
+    - problems/navier-stokes/source-frontier.yaml
+    - problems/navier-stokes/theorem-repair.yaml
+  current_release_status: blocked
+  current_blocker_count: 1
+  current_blocker: TFE2748B / OriginalCriticalCapacityVariation.A
+  current_blocker_reason: >-
+    Current direct-live authority keeps Gold L1 open until the original-ledger
+    active feedback tightness/storage theorem is proved from original data.
 theorem_posture:
   cm_bridge:
     status: installed
@@ -58,11 +62,12 @@ theorem_posture:
       they do not lower the source wall below ScaleCriticalTreeCarleson.A or
       the Zeno rigid-class pair.
   release:
-    status: superseded-by-dual-track-submission-candidate
+    status: superseded-by-current-gold-l1-open-authority
     historical_blocker: governance-escalation.yaml
     current_governance_issue: >-
-      Historical May 5 routing issue. Current release, submission, and export
-      surfaces agree on a rendered dual-track submission candidate.
+      Historical May 5 routing issue. Current direct-live authority reports one
+      Gold L1 blocker, TFE2748B / OriginalCriticalCapacityVariation.A, so this
+      historical bundle is not release authority.
 hashes:
   - path: live-theorem-edge.yaml
     sha256: b03dd32ec58a041174a683f0dbba287e4abc2b2df30ca28d3fd001ab855447ca
@@ -181,5 +186,5 @@ boundary:
     generated theorem-packet/review/submission/release surfaces are governed by
     this May 5 snapshot.
   - >-
-    Release-ready status is now governed by the current direct-live stack and the
-    dual-track submission export status.
+    Current readiness is governed by the direct-live Gold L1 authority stack,
+    where TFE2748B / OriginalCriticalCapacityVariation.A remains open.

@@ -26,7 +26,7 @@ problem: navier-stokes
 tier: clay-level
 historical status: blocked
 historical decision: not-release-approved
-current status: superseded by the rendered dual-track submission-candidate package
+current status: superseded by blocked Gold L1 authority at TFE2748B / OriginalCriticalCapacityVariation.A
 ```
 
 ## Core release artifacts

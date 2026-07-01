@@ -6,16 +6,17 @@ identity:
   generated_at: '2026-03-18T16:53:39Z'
   generator: chat2-source-forensics-reset
 status:
-  campaign_mode: stabilized
+  campaign_mode: blocked-by-current-theorem-authority
   campaign_target: classical-3d-navier-stokes-global-regularity
-  current_posture: submission-candidate
+  current_posture: gold-l1-open
   checkpoint_surface: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   primary_manuscript_surface: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   codex_manuscript_surface: papers/navier-stokes/manuscript/generated/main.tex
   required_pdf_tracks:
   - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
   - papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
-  authoritative_lifecycle_source: problems/navier-stokes/theorem-to-warrant.yaml
+  authoritative_lifecycle_source: problems/navier-stokes/source-frontier.yaml
+  active_blocker: TFE2748B / OriginalCriticalCapacityVariation.A
 roles:
   orchestrator:
     owner: chat2
@@ -67,15 +68,15 @@ phases:
       - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
       - problems/navier-stokes/theorem-construction/curvature-based-gradient-bridge-object.md
   - phase_id: theorem-upgrade
-    status: completed
+    status: open
     outputs:
       - problems/navier-stokes/proof-assembly.yaml
       - problems/navier-stokes/source-frontier.yaml
       - problems/navier-stokes/source-frontier.yaml
   - phase_id: external-release
-    status: completed
+    status: blocked
   - phase_id: dual-pdf-submission-promotion
-    status: completed
+    status: blocked
     outputs:
       - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
       - problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
@@ -89,6 +90,8 @@ acceptance_gates:
   - 'The fourth bridge is carried by the source-faithful curvature route first.'
   - 'If the fourth bridge is carried by a Euclidean replacement rather than curvature-based regularity, that replacement must be labeled as a fallback theorem upgrade rather than the original framework itself.'
 resolution:
-  status: completed
+  status: blocked
   completed_at: '2026-06-08T04:13:38Z'
-  note: The live package now routes through the submission-bundle manuscript and the separate Codex manuscript/PDF track; draft-v8 and external-paper/main.tex are retained as historical campaign surfaces, not current authoring or export targets.
+  note: This campaign surface is historical. Current authority keeps Gold L1 open
+    at TFE2748B / OriginalCriticalCapacityVariation.A; manuscript/export tracks
+    are downstream and do not close the theorem.

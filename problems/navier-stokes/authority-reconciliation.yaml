@@ -31,7 +31,7 @@ inputs:
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
 summary:
   proof_ready: false
-  theorem_authority_blocking_count: 0
+  theorem_authority_blocking_count: 1
   bridge_discharge_blocking_count: 0
   theorem_packet_export_ready: false
   target_fidelity_terminal_safe: false

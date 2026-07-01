@@ -96,7 +96,7 @@ downstream_overlay_drift:
     - discharged
     - certified
     - accepted
-    - submission-candidate
+    - submission-blocked
   stale_overlays: []
   recommended_repair: none
   recommended_next_cell_type:
@@ -288,9 +288,9 @@ issues:
   recommended_action: Keep Gold full-clock work in the Gold thread and keep support rows
     quarantined unless a new promoted row enters the Silver Part/Field test.
   details:
-    authority_frontier_count: 0
-    authority_blocking_count: 0
-    authority_status: silver-cm-exit-accepted-gold-context-quarantined
+    authority_frontier_count: 1
+    authority_blocking_count: 1
+    authority_status: gold-l1-open-silver-context-quarantined
 - issue_id: stale-review-verdict
   severity: major
   summary: Review verdict is stale relative to the current manuscript artifacts.

@@ -9,16 +9,16 @@ purpose: >
   overlays, cross-folder sidecars, and stale generated surfaces so the lane is
   not read as one flat pile of notes.
 current_authority_status:
-  status: superseded-by-live-cm-submission-candidate
+  status: superseded-by-live-gold-l1-open
   controlling_surfaces:
     - problems/navier-stokes/live-theorem-edge.yaml
     - problems/navier-stokes/source-frontier.yaml
     - problems/navier-stokes/theorem-packet.yaml
     - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   note: >
-    This April layer graph is retained as topology/history. Current theorem and
-    manuscript authority is the CM terminal-witness chain plus the
-    submission-bundle manuscript and two required PDF tracks.
+    This April layer graph is retained as topology/history. Current theorem
+    authority keeps Gold open at TFE2748B / OriginalCriticalCapacityVariation.A.
+    Manuscript/export artifacts are downstream and cannot clear that theorem edge.
 graph_roles:
   exploration_graph:
     role: topic-wide thinking surface
@@ -76,12 +76,12 @@ layers:
       may_be_overwritten_by: []
   - layer_id: release-and-review-truth
     rank: 1
-    status: authoritative
+    status: blocked-by-current-theorem-authority
     judgment: >
-      Release and review currently read the package as a submission candidate:
-      the theorem packet is export-ready, the source frontier has zero live
-      obligations, and the submission-bundle manuscript plus the Codex PDF track
-      are the current reader-facing outputs.
+      Release and review are downstream of theorem authority. The current source
+      frontier has one live Gold L1 obligation, TFE2748B /
+      OriginalCriticalCapacityVariation.A, so this layer is not a release-clearing
+      authority surface.
     surfaces:
       - problems/navier-stokes/formalization-ledger.md
       - problems/navier-stokes/release-decision.yaml
