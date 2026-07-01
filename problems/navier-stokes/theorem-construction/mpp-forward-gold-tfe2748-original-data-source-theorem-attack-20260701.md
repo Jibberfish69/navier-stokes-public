@@ -116,7 +116,9 @@ C_{\Pi,N}^2\sum_{Q\preceq P}\|h_Q\|_{\mathcal H_{root}}^2
 \tag{TFE2748A.3}
 \]
 
-These are the audited estimates `(TFE.2735)', `(TFE.2741)', and `(TFE.2742)'.
+These are the audited estimate targets `(TFE.2735)', `(TFE.2741)', and
+`(TFE.2742)'.  In this source theorem they are obligations to derive from the
+original stopped coupled packet, not installed inputs.
 
 Second, the zero-baseline endpoint branch is admitted without using finite
 full-exchange storage:
@@ -173,8 +175,9 @@ C_N(u_0)\mathcal R(P)+Paid(P).
 \tag{TFE2748A.6}
 \]
 
-Then `(TFE.2747)' supplies terminal-uniform selected \(L^1\), and the
-downstream no-jump/full-clock/\(H^s\) chain may consume it.
+If `(TFE2748A.5)' is proved from the original stopped coupled packet, then the
+conditional chain `(TFE.2747)' supplies terminal-uniform selected \(L^1\), and
+the downstream no-jump/full-clock/\(H^s\) chain may consume it.
 
 ## 3. Noncircular endpoint admission
 
@@ -271,8 +274,9 @@ P_Q^{A_P}(I-\Pi_{\mathcal K_P^0})
 \tag{TFE2748A.14}
 \]
 
-This proves parent admission at the representation level.  The estimate level is
-exactly `(TFE2748A.3)'.  The boundedness is credible only because the endpoint
+This identifies parent admission at the representation level.  The estimate
+level is exactly `(TFE2748A.3)', and it must still be derived from the stopped
+original packet.  The boundedness is credible only because the endpoint
 trace detector has already been heat-normalized and entered into
 \(d\Xi_P^{FE,\ast}\); otherwise the zero-baseline norm
 \(\|K_Q^{parent}\|^2\simeq\lambda_Q^{-1}\) would make the detector look
@@ -414,3 +418,55 @@ storage for the endpoint-admitted full-exchange ledger.
 \end{array}
 \tag{TFE2748A.22}
 \]
+
+## 7. Retained-operator support is not the source theorem
+
+The retained-operator correction leaves a useful split.  The Duhamel-Hodge
+identity, reversible energy neutrality, and parent detector square function are
+support estimates for making the child readout parent-announced.  They are not
+the positive \(L^1\) source theorem by themselves.
+
+The support package is
+
+\[
+\begin{array}{ll}
+\text{(S1)}&
+\text{the stopped material jet has the variation-of-constants form}\\
+&Y_P(t_Q)=\mathcal U_P(t_Q,t_Q^-)Y_P(t_Q^-)
++\int_{t_Q^-}^{t_Q}\mathcal U_P(t_Q,s)G_P^{root}(s)\,ds
++R_Q^{route};\\[1mm]
+\text{(S2)}&
+\text{the reversible pressure/advection/Hodge part is root-energy neutral}\\
+&\text{up to }d\Theta_P^0+dPaid_P;\\[1mm]
+\text{(S3)}&
+\text{the stopped selected cotangent detectors form a parent Bessel family}\\
+&\text{after endpoint heat-normalization and paid reselection.}
+\end{array}
+\tag{TFE2748A.23}
+\]
+
+The first line is a stopped Duhamel identity once the coupled material jet is
+defined.  The second line is the pressure/incompressibility point: pressure is
+part of the same volume-preserving Hodge re-coordination, so its energy effect is
+metric/Hodge/collar distortion, not a new positive source.  The third line is a
+finite-overlap square-function statement for tests pulled back to the same
+parent cotangent frame; moving labels are paid reselection or route material.
+
+With `(TFE2748A.23)' in place, the heat estimate is ordinary:
+
+\[
+d\Xi_P^{ret,L}
+\le
+C_{\Pi,N}^2 e^{-2c_PL_N}\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P,
+\qquad
+C_NC_{\Pi,N}^2e^{-2c_PL_N}<1.
+\tag{TFE2748A.24}
+\]
+
+Thus the retained-operator work supplies a strict fraction only after the
+early/zero-mode material has already been admitted to the parent source ledger.
+The nonconsumer Gold source line remains `(TFE2748A.5)', equivalently the
+critical-entry storage `(TFE2748A.21)'.  A proof that stops at
+`(TFE2748A.23)' has only made the detector lawful; it has not proved terminal
+uniform \(L^1\).
