@@ -32817,3 +32817,681 @@ native-reserve pushforward and terminal-uniform selected \(L^1\).  Current
 installed sources prove only the consumer pieces listed in `(TFE.2250)'--
 `(TFE.2253)' under their stated producer hypotheses; they do not yet prove
 `(TFE.2254)' from arbitrary original data.
+
+## 191. Minimal bad profile for the continuous square-variation producer
+
+Section 190 removes the moving-unit error.  After first entry, the \(L^1\)
+quantity is not a sum over newly invented zoom units.  It is the continuous
+parent-measure integral of positive variation of one parent square.  Therefore
+a failure of `(TFE.2254)' has only one honest form: some positive variation of
+the same coupled endpoint square survives after left-entry, paid motion,
+return/reset, legal/stop, and terminal no-residue are removed.
+
+Write the square-variation measure as
+
+\[
+d\mu_P^{SV}(\gamma,t)
+:=
+\mathcal W_\gamma(t)
+[D_t^P\|m_\gamma(t)\|_{\mathcal H_\gamma}^{2}]_+
+\,dt\,d\eta_P^{EP}(\gamma).
+\tag{TFE.2255}
+\]
+
+Write the left-entry measure as
+
+\[
+d\mu_P^{Ent}(\gamma)
+:=
+\|m_\gamma(a_\gamma)\|_{\mathcal H_\gamma}^{2}
+\left(\int_{a_\gamma}^{b_\gamma}H_\gamma(t)\,dt\right)
+d\eta_P^{EP}(\gamma).
+\tag{TFE.2256}
+\]
+
+The target producer `(TFE.2254)' is exactly
+
+\[
+\mu_P^{Ent}(\Gamma_P^{EP,fr})
++
+\mu_P^{SV}(\Gamma_P^{EP,fr}\times I_\gamma)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2257}
+\]
+
+This statement is equivalent to the following normalized no-bad-profile
+statement.  There is no sequence of stopped parent packets \(P_j\) for which
+
+\[
+A_j:=
+\mu_{P_j}^{Ent}(\Gamma_{P_j}^{EP,fr})
++
+\mu_{P_j}^{SV}(\Gamma_{P_j}^{EP,fr}\times I_\gamma)
+>0,
+\qquad
+\frac{C_N(u_0)\mathcal R(P_j)+Paid(P_j)}{A_j}\to0,
+\tag{TFE.2258}
+\]
+
+while the normalized retained measures
+
+\[
+\widehat\mu_j^{Ent}:=A_j^{-1}\mu_{P_j}^{Ent},
+\qquad
+\widehat\mu_j^{SV}:=A_j^{-1}\mu_{P_j}^{SV}
+\tag{TFE.2259}
+\]
+
+retain nonzero total mass.
+
+The equivalence is elementary.  If `(TFE.2257)' fails, choose \(P_j\) with
+ratio \((\mu^{Ent}+\mu^{SV})/(C_N(u_0)\mathcal R+Paid)\to\infty\), and
+normalize by \(A_j\).  Conversely, `(TFE.2258)' contradicts any uniform constant
+in `(TFE.2257)'.  No dyadic sum or scale counting enters this reduction.
+
+Because each \(P_j\) is stopped in a parent chart and the measures in
+`(TFE.2259)' have total mass at most one, Banach-Alaoglu on finite stopped
+subcharts, followed by exhaustion/diagonal extraction, gives weak-* limits
+
+\[
+\widehat\mu_j^{Ent}\rightharpoonup^\ast \mu_\infty^{Ent},
+\qquad
+\widehat\mu_j^{SV}\rightharpoonup^\ast \mu_\infty^{SV},
+\qquad
+\mu_\infty^{Ent}+\mu_\infty^{SV}\neq0.
+\tag{TFE.2260}
+\]
+
+Thus every failure of `(TFE.2254)' has a minimal continuous parent profile.  It
+is either a left-entry profile,
+
+\[
+\mu_\infty^{Ent}\neq0,
+\tag{TFE.2261}
+\]
+
+or a genuine positive square-variation profile,
+
+\[
+\mu_\infty^{SV}\neq0.
+\tag{TFE.2262}
+\]
+
+The first branch is not a new \(L^1\) mechanism.  A nonzero left-entry limit is
+inherited parent material or terminal residue.  It is discharged exactly by the
+same-parent first-entry/no-residue statement:
+
+\[
+\mu_P^{Ent}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2263}
+\]
+
+Hence an unremoved left-entry profile is a failure of first-entry/no-residue,
+not a recounting failure.
+
+For the second branch, use the product identity `(TFE.2247)'.  The positive
+variation of \(B_\gamma=\|m_\gamma\|^2\) has only the product sources present in
+the full coupled parent derivative and in the transported metric:
+
+\[
+d\mu_P^{SV}
+\le
+C\,d\Pi_P^{jet}
++C\,d\Pi_P^{harm}
++C\,d\Pi_P^{res}
++C\,d\Pi_P^{crit}
++C\,d\Pi_P^{orient}
++dPaid(P).
+\tag{TFE.2264}
+\]
+
+Here \(d\Pi_P^{jet}\) is the finite-jet first-time-rung product measure;
+\(d\Pi_P^{harm}\) is the annular harmonic pressure-memory product measure;
+\(d\Pi_P^{res}\) is the legal/selector/signed/terminal/geometry endpoint
+residue product measure; \(d\Pi_P^{crit}\) is the selected-critical first-birth
+or native-reserve product measure; and \(d\Pi_P^{orient}\) is the
+signed-to-positive orientation defect measuring the gap between the signed
+full-tower identities and a lower-bounded nonnegative exchange storage.  Where
+`LawBearingExchangeOrientation.A' / `FullTowerSignedTotalExchangeRetention.A'
+is available, \(d\Pi_P^{orient}=0\).
+
+Consequently, a nonzero square-variation bad profile can survive only if at
+least one normalized component measure survives:
+
+\[
+\limsup_{j\to\infty}A_j^{-1}\Pi_{P_j}^{jet}>0,
+\quad
+\limsup_{j\to\infty}A_j^{-1}\Pi_{P_j}^{harm}>0,
+\quad
+\limsup_{j\to\infty}A_j^{-1}\Pi_{P_j}^{res}>0,
+\tag{TFE.2265}
+\]
+
+or
+
+\[
+\limsup_{j\to\infty}A_j^{-1}\Pi_{P_j}^{crit}>0,
+\qquad
+\limsup_{j\to\infty}A_j^{-1}\Pi_{P_j}^{orient}>0.
+\tag{TFE.2266}
+\]
+
+If all five limsups in `(TFE.2265)'--`(TFE.2266)' vanish, then `(TFE.2264)'
+forces \(\widehat\mu_j^{SV}\to0\), contradicting `(TFE.2262)'.  Thus the
+minimal profile is exhausted by the following five original-packet producer
+faces:
+
+\[
+\begin{array}{ll}
+\text{finite-jet face:}
+&
+\Pi_P^{jet}\le C_N(u_0)\mathcal R(P)+Paid(P),
+\\[2mm]
+\text{harmonic pressure-memory face:}
+&
+\Pi_P^{harm}\le C_N(u_0)\mathcal R(P)+Paid(P),
+\\[2mm]
+\text{endpoint residue/thickness face:}
+&
+\Pi_P^{res}\le C_N(u_0)\mathcal R(P)+Paid(P),
+\\[2mm]
+\text{selected-critical native-birth face:}
+&
+\Pi_P^{crit}\le C_N(u_0)\mathcal R(P)+Paid(P),
+\\[2mm]
+\text{orientation face:}
+&
+\Pi_P^{orient}\le C_N(u_0)\mathcal R(P)+Paid(P).
+\end{array}
+\tag{TFE.2267}
+\]
+
+Together with `(TFE.2263)', the five bounds in `(TFE.2267)' imply
+`(TFE.2254)' directly by `(TFE.2264)'.  Conversely, failure of `(TFE.2254)'
+forces failure of `(TFE.2263)' or of at least one face in `(TFE.2267)'.
+
+This is the exact post-dyadic \(L^1\) reduction.  The retained positive action
+cannot hide in "many small zooms" once the parent measure is fixed.  It must be
+positive variation of the same endpoint square, and that variation must be
+carried by one of the coupled product faces of the original material packet.
+The Gold route is therefore not waiting for a counting correction.  It is
+waiting for the original-data producer estimates in `(TFE.2263)' and
+`(TFE.2267)', with the selected-critical and orientation faces still carrying
+the hard positive-transfer content.
+
+## 192. Compressing the bad-profile faces back to one coupled packet
+
+The five faces in `(TFE.2267)' are an exhaustive profile split, not five
+independent fluids.  The checked endpoint notes show that several faces are
+really channel-inclusion tests for the same full-tower material action.
+
+Define an augmented same-carrier tower channel by
+
+\[
+dA_{4B,N}^{tower,+}
+:=
+dA_{4B,N}^{tower}
++dA_N^{end,1}
++dA_N^{p,H}
++dA_N^{res},
+\tag{TFE.2268}
+\]
+
+where \(dA_N^{end,1}\) is the first-time-rung endpoint product channel
+\(|V|^2|\partial_sV|+|\partial_sQ||V|+|Q||\partial_sV|\), \(dA_N^{p,H}\) is the
+annular harmonic pressure-memory endpoint channel after affine/gauge removal,
+and \(dA_N^{res}\) is the absorbed or density-controlled endpoint residue
+channel.  This is a same-packet enlargement: it uses the same retained endpoint
+selector, collar, pressure, velocity, material frame, and Hodge data.
+
+The channel-inclusion theorem needed from the full coupled law is
+
+\[
+\Pi_P^{jet}
++
+\Pi_P^{harm}
++
+\Pi_P^{res}
++
+\Pi_P^{orient}
+\le
+C\int_P dA_{4B,N}^{tower,+}
++Paid(P).
+\tag{TFE.2269}
+\]
+
+Here the finite-jet endpoint product is not a lower-order local-energy lemma;
+it is \(dA_N^{end,1}\) included and oriented in the enlarged full tower.  The
+harmonic pressure-memory term is not a pressure-only side account; it is the
+annular pressure-memory endpoint channel \(dA_N^{p,H}\).  The residue term is
+not a naked finite measure; it is present only after absorption, absolute
+continuity with super-\(L^1\)/Hardy/Orlicz control, or endpoint exclusion.
+
+Thus the first, second, third, and fifth faces of `(TFE.2267)' compress into
+one same-carrier tower statement:
+
+\[
+\int_P dA_{4B,N}^{tower,+}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2270}
+\]
+
+This is the enlarged version of `LawBearingExchangeOrientation.A' /
+`FullTowerSignedTotalExchangeRetention.A': the original
+pressure-viscosity-incompressibility material law must generate the endpoint
+channels and orient the adjacent exchange cycle with nonnegative activity and
+lower-bounded storage.
+
+The fourth face does not disappear into endpoint orientation.  It is the
+selected-critical native-birth bound:
+
+\[
+\Pi_P^{crit}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2271}
+\]
+
+equivalently `NativeBirthChargePacking.A' / `PositiveCriticalTransferBound.A'
+for the first selected scale-native birth of the same coupled packet.
+
+Together, the compressed source package is
+
+\[
+\mu_P^{Ent}
++
+\int_P dA_{4B,N}^{tower,+}
++
+\Pi_P^{crit}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2272}
+\]
+
+Equation `(TFE.2272)' implies `(TFE.2254)' by `(TFE.2264)' and `(TFE.2269)'.
+Then `(TFE.2245)' gives the affine endpoint quotient bound, `(TFE.2227)' gives
+the endpoint-seed bound, `(TFE.2216)' gives the continuous native-reserve
+pushforward, and the terminal-uniform selected \(L^1\) line follows by the
+consumer chain already installed above.
+
+So the physical picture is now precise.  The child readout cannot multiply the
+event by zooming.  The only retained positive \(L^1\) mass is positive
+variation of the same parent endpoint square.  That variation is either
+left-entry/terminal inherited material, oriented full-tower endpoint action, or
+first selected native birth.  Closing Gold means proving `(TFE.2272)' from the
+original coupled pressure-viscosity-incompressibility-velocity packet.
+
+## 193. Why the native-birth term cannot be hidden inside the tower action
+
+The compression in Section 192 must not be read as permission to bury the
+selected-critical native-birth term inside \(dA_{4B,N}^{tower,+}\).  The checked
+native-reserve surfaces show that this would repeat the old bounded-Riesz
+mistake: a unit selected zoom test has unbounded original pullback as the
+original packet radius shrinks.
+
+In scale notation, raw same-packet action controls a measure of the form
+
+\[
+\sum_{\ell\ge0}\nu_\ell<\infty.
+\tag{TFE.2273}
+\]
+
+Selected-critical \(L^1\) birth control asks for the first-ratio moment
+
+\[
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty.
+\tag{TFE.2274}
+\]
+
+The half-tail
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1}
+\tag{TFE.2275}
+\]
+
+has finite raw tower mass in `(TFE.2273)' and infinite selected-critical mass in
+`(TFE.2274)'.  Therefore no theorem of the form
+
+\[
+\Pi_P^{crit}
+\le
+C\int_P dA_{4B,N}^{tower,+}+Paid(P)
+\tag{TFE.2276}
+\]
+
+can be proved from raw tower finiteness alone.  It is true only if
+\(dA_{4B,N}^{tower,+}\) has already been enlarged by a selected-critical native
+reserve channel, which is exactly the theorem being proved.  That enlargement
+would be circular unless the selected-critical channel is supplied by an
+original-data lower edge.
+
+The selected-scale atom audit gives that lower edge in its sharp form.  After
+paid top-strain/frame residence, lower-band carry, entrance/legal, nonlaminar
+motion, selector/order-lock, reset, and already-paid exchange are removed, a
+retained first selected birth must satisfy
+
+\[
+\omega_\gamma
+\le
+C_N\,\Delta_\gamma^+\mathcal J_N
++R_{\rm legal}(\gamma),
+\qquad
+\omega_\gamma\simeq1,
+\tag{TFE.2277}
+\]
+
+where \(\Delta_\gamma^+\mathcal J_N\) is the selected-scale positive
+contribution of the moving low-high pressure-stress/cubic-collar interface of
+the same material packet.  The root lower-edge theorem is
+
+\[
+dZ_N+c_N\,d\mathcal J_N
+\le
+dR_N^{paid},
+\qquad
+Z_N(t)\ge -C_N(u_0).
+\tag{TFE.2278}
+\]
+
+Equations `(TFE.2277)'--`(TFE.2278)' imply
+
+\[
+\Pi_P^{crit}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2279}
+\]
+
+which is `(TFE.2271)'.  Conversely, failure of `(TFE.2279)' produces the exact
+minimal bad object from the selected-scale atom audit: an infinite laminar chain
+of first uncharged selected births attached to the same material packet, with
+Hodge/projector, Schur/collar, annular, and frequency readings all visible, but
+with no original-data lower-edge storage for the joint interface.
+
+The augmented full-tower side has its own checked PDE installation state.  The
+algebraic four-body closure is already proved in the following conditional
+form:
+
+\[
+d\mathfrak L_{4B,N}
++c\,dA_{4B,N}^{tower,+}
++c\,d[\log(1+\mathcal P_N^{mat})]_+
++d\mathcal L_{4B,N}
+\le
+dR_N,
+\qquad
+\mathfrak L_{4B,N}\ge -C_N(u_0).
+\tag{TFE.2280}
+\]
+
+If `(TFE.2280)' is installed for the enlarged channel list, then
+
+\[
+\int_PdA_{4B,N}^{tower,+}
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE.2281}
+\]
+
+which is `(TFE.2270)'.  The checked full-tower orientation surfaces say the
+remaining PDE gap in `(TFE.2280)' is not the cancellation algebra.  It is the
+positive-variation step for the pressure/Hodge-commutator family: after the
+selected positive lobe is taken, the discarded signed partner must be retained
+on the same carrier, paid by strict loss, or legal.
+
+Thus `(TFE.2272)' splits into two nonduplicate original-data producer lines:
+
+\[
+\begin{array}{ll}
+\text{oriented augmented tower action:}
+&
+\text{install `(TFE.2280)' for }dA_{4B,N}^{tower,+},
+\\[2mm]
+\text{selected-critical native birth:}
+&
+\text{prove `(TFE.2277)'--`(TFE.2278)' for }d\mathcal J_N.
+\end{array}
+\tag{TFE.2282}
+\]
+
+They have the same physical parent packet, but they are not the same currency.
+The tower action orients the full endpoint/tower product channels.  The
+native-birth line supplies the selected-scale first-ratio weight that raw
+same-packet action cannot see.  A Gold closure proof must provide both without
+using either as a hidden assumption for the other.
+
+## 194. Good-lambda normal form of the native-birth lower edge
+
+The checked good-lambda surfaces identify the exact analytic content of
+`(TFE.2278)'.  Work on the active ratio bands of the same transported material
+history.  Let
+
+\[
+\rho_j(t):={\Theta_j^{mat}(t)\over 2^{2j}},
+\qquad
+E_{j,\ell}:=\{2^\ell\delta<\rho_j(t)\le2^{\ell+1}\delta\},
+\tag{TFE.2283}
+\]
+
+and let
+
+\[
+\nu_\ell(P):=\sum_j\mu_j(E_{j,\ell}\cap P)
+\tag{TFE.2284}
+\]
+
+be the raw same-parent mass in the \(\ell\)-th ratio band.  The raw
+same-packet ledgers give only
+
+\[
+\sum_{\ell\ge0}\nu_\ell(P)<\infty.
+\tag{TFE.2285}
+\]
+
+The selected-critical native-birth term is exactly the weighted first-ratio
+tail
+
+\[
+\Pi_P^{crit}
+\simeq
+\sum_{\ell\ge0}2^\ell\nu_\ell(P),
+\tag{TFE.2286}
+\]
+
+up to already-paid carry, reset, legal, stop, nonlaminar, and recirculation
+terms.  For the tail function
+
+\[
+N_L(P):=\sum_{\ell\ge L}\nu_\ell(P),
+\tag{TFE.2287}
+\]
+
+summation by parts gives
+
+\[
+\sum_{\ell\ge0}2^\ell\nu_\ell(P)
+\simeq
+\sum_{L\ge0}2^LN_L(P),
+\tag{TFE.2288}
+\]
+
+with harmless absolute constants.  Indeed,
+
+\[
+\sum_{L\ge0}2^L N_L
+=
+\sum_{\ell\ge0}\nu_\ell\sum_{L=0}^{\ell}2^L
+=
+\sum_{\ell\ge0}(2^{\ell+1}-1)\nu_\ell.
+\tag{TFE.2289}
+\]
+
+Therefore the native-birth line `(TFE.2279)' is equivalent to the weighted tail
+bound
+
+\[
+\sum_{L\ge0}2^LN_L(P)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2290}
+\]
+
+A strict good-lambda recurrence is sufficient:
+
+\[
+N_{L+1}(P)
+\le
+\theta N_L(P)+B_L(P),
+\qquad
+\theta<{1\over2},
+\qquad
+\sum_{L\ge0}2^LB_L(P)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE.2291}
+\]
+
+Multiplying `(TFE.2291)' by \(2^{L+1}\) and summing gives
+
+\[
+\sum_{L\ge0}2^{L+1}N_{L+1}
+\le
+2\theta\sum_{L\ge0}2^LN_L
++2\sum_{L\ge0}2^LB_L.
+\tag{TFE.2292}
+\]
+
+Since the left side is the same weighted tail up to the finite initial term
+\(N_0\), `(TFE.2292)' absorbs exactly when \(2\theta<1\), yielding
+`(TFE.2290)'.
+
+The coefficient threshold is sharp.  The half-tail
+
+\[
+\nu_\ell={2^{-\ell}\over \ell+1}
+\tag{TFE.2293}
+\]
+
+has
+
+\[
+\sum_{\ell\ge0}\nu_\ell<\infty,
+\qquad
+\sum_{\ell\ge0}2^\ell\nu_\ell=\infty,
+\qquad
+{N_{L+1}\over N_L}\to {1\over2}.
+\tag{TFE.2294}
+\]
+
+Thus a recurrence with coefficient \(1/2\) still permits divergent selected
+\(L^1\) native birth.  The missing lower edge is precisely the strict
+half-barrier break:
+
+\[
+\boxed{
+\text{prove `(TFE.2291)' with }\theta<1/2
+\text{, or equivalently prove a bounded-below same-material Lyapunov law}
+\text{ for }d\mathcal J_N.
+}
+\tag{TFE.2295}
+\]
+
+Combining `(TFE.2295)' with the selected atom admission `(TFE.2277)' gives
+`(TFE.2279)'.  Combining `(TFE.2279)' with the augmented tower producer
+`(TFE.2280)' gives the compressed source package `(TFE.2272)'.  Therefore the
+native-birth side of the \(L^1\) problem is no longer a vague weighted
+admission theorem: it is the strict high-ratio good-lambda / bounded Lyapunov
+problem for the original same-material low-high interface.
+
+## 195. Signed-partner normal form of the augmented tower orientation
+
+The augmented-tower side of `(TFE.2272)' has an equally sharp normal form.  The
+checked four-body files say the algebra is not the obstruction: once the
+same-carrier symmetrized inequality `(TFE.2280)' exists, finite augmented tower
+action follows.  The PDE obstruction is the passage from signed participation
+currents to positive selected tower variation.
+
+In the Body-II slot of the transported material tower, the signed law has the
+form
+
+\[
+dL_Q+dA_Q
+=
+dJ_{SQ}-dJ_{QC}+dR_Q,
+\tag{TFE.2296}
+\]
+
+where \(dJ_{QC}\) contains the pressure/Hodge service and differentiated
+coefficient/velocity commutator family generated by the same
+pressure-viscosity-incompressibility law.  Split this current as
+
+\[
+dJ_{QC}
+=
+dJ_{QC}^{phc}+dJ_{QC}^{other},
+\tag{TFE.2297}
+\]
+
+with \(phc\) denoting pressure/Hodge/commutator.  The selected endpoint/tower
+readout wants to count \([dJ_{QC}^{phc}]_+\).  The signed identity `(TFE.2296)'
+controls \(dJ_{QC}^{phc}\) only as a signed exchange.  It does not by itself
+control its positive variation.
+
+Thus the exact orientation theorem needed for this family is the same-carrier
+signed-partner retention inequality
+
+\[
+[dJ_{QC}^{phc}]_+
+\le
+dJ_{QC}^{ret,-}
++\theta\,dA_{4B,N}^{tower,+}
++dR_{phc}^{legal/stop},
+\qquad
+0\le\theta<1,
+\tag{TFE.2298}
+\]
+
+where \(dJ_{QC}^{ret,-}\) is the retained opposite signed partner of the same
+adjacent exchange, returned into the \(Q\to C\) current rather than discarded
+after clipping.  The legal/stop residual is summable in the original parent
+packet.
+
+With `(TFE.2298)' for the pressure/Hodge/commutator family and the already
+oriented radius, geometry, endpoint-product, harmonic-pressure endpoint, and
+absorbed-residue channels, the four-body sum gives
+
+\[
+d\mathfrak L_{4B,N}
++(c-\theta)dA_{4B,N}^{tower,+}
++c\,d[\log(1+\mathcal P_N^{mat})]_+
++d\mathcal L_{4B,N}
+\le
+dR_N^{paid}.
+\tag{TFE.2299}
+\]
+
+After reducing \(\theta\) inside the channel constants so that \(c-\theta>0\),
+`(TFE.2299)' is `(TFE.2280)'.  Integrating against the lower bound of
+\(\mathfrak L_{4B,N}\) gives `(TFE.2281)'.
+
+Therefore the augmented-tower half of the \(L^1\) source package is exactly:
+
+\[
+\boxed{
+\text{retain the signed pressure/Hodge-commutator partner after positive}
+\text{ selection, or pay it by strict same-carrier loss/legal stop.}
+}
+\tag{TFE.2300}
+\]
+
+This is not a pressure-only estimate.  It is a same-packet orientation theorem:
+pressure/Hodge, viscosity, commutators, endpoint channels, and transported
+geometry remain one participation transaction until the signed partner is either
+kept, drained as strict loss, or legally removed.  Combined with the strict
+high-ratio good-lambda line `(TFE.2295)', this gives the two exact producer
+normal forms under `(TFE.2272)'.
