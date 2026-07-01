@@ -6052,3 +6052,532 @@ Once `(TFE.402)` is proved, `(TFE.387)`--`(TFE.388)` follow, then the
 entropy/exponent lift `(TFE.382)` or `(TFE.384)`, then selected root reserve,
 then terminal-uniform \(L^1\).  Without `(TFE.402)`, the entropy picture is
 structurally correct but not yet a proof from original data.
+
+## 42. Splitting `(TFE.402)`: bounded parent projection is proved, scale-native
+capacity is the remaining line
+
+The square function in `(TFE.401)` has two different parts.  Let
+\(\mathfrak H_P\) be the Hilbert space of original-packet stress/frame/current
+increments over the stopped parent history.  A selected log-density increment
+is a bounded parent projection when it has the form
+
+\[
+\Delta_QZ^S
+=
+\langle \mathcal G_P,A_Q\rangle_{\mathfrak H_P},
+\qquad
+\|A_Q\|_{\mathfrak H_P}\le1,
+\tag{TFE.403}
+\]
+
+where \(\mathcal G_P\) is the original coupled packet:
+
+\[
+\mathcal G_P
+=
+\left(
+2\nu S_A,\ -p_A I,\ D_tA,\ D_tG,\ D_t\mathsf H,\ D_t\mathsf C,\ D_t\mathsf O
+\right).
+\tag{TFE.404}
+\]
+
+For these bounded projections, the parent record splits
+
+\[
+A_Q=\Pi_{E_{Q^-}}A_Q+(I-\Pi_{E_{Q^-}})A_Q
+=B_Q+F_Q.
+\tag{TFE.405}
+\]
+
+The inherited part \(B_Q\) is parent reuse.  It is controlled by the stopped
+score and parent-Gram determinant telescope already installed in
+`(TFE.298)`--`(TFE.302)`:
+
+\[
+\sum_{Q\in\mathcal T_{reuse}(P)}
+[\langle \mathcal G_P,B_Q\rangle]_+
+\le
+C_N\Delta\mathcal B_{\rm Gram}(P)+Paid(P).
+\tag{TFE.406}
+\]
+
+The orthogonal part \(F_Q\) is genuinely fresh only relative to the already
+paid parent span.  Since the tests are bounded in \(\mathfrak H_P\), Bessel
+gives
+
+\[
+\sum_{Q\in\mathcal T_{fresh}^{bd}(P)}
+|\langle \mathcal G_P,F_Q\rangle|^2
+\le
+\|\mathcal G_P\|_{\mathfrak H_P}^2
+\le
+C_N(u_0)+Paid(P).
+\tag{TFE.407}
+\]
+
+Thus the bounded-projection part of `(TFE.402)` is proved:
+
+\[
+\sup_{P'\subseteq P}{1\over\mathcal R(P')}
+\sum_{Q\subseteq P'}
+\|\Delta_QZ^{S,bd}\|_{\mathcal H}^2\,\mathcal R(Q)
+\le
+C_N(u_0)+Paid(P').
+\tag{TFE.408}
+\]
+
+This is the exact mathematical version of "same parent, no recount" for the
+entropy density.  Reusing an admitted direction is a Gram-entropy event.  First
+entry into a bounded new direction is a Bessel event.  Neither can generate the
+half-tail.
+
+The remaining selected entropy is the scale-native part.  A unit child detector
+at heat radius \(r\) can pull back to the original parent with
+
+\[
+\|A_{Q_r}\|_{\mathfrak H_P}^2\simeq r^{-1},
+\tag{TFE.409}
+\]
+
+while its raw endpoint/current size is only
+
+\[
+\|M_{Q_r}\|_{\operatorname{Cap}_{raw,P}^{-1}}^2\simeq r,
+\qquad
+A_{sel}(Q_r)\simeq1.
+\tag{TFE.410}
+\]
+
+So bounded Bessel cannot pay this branch.  The selected state-count theorem
+requires a critical parent capacity, not the raw one:
+
+\[
+\|M_{Q_r}\|_{\operatorname{Cap}_{crit,P}^{-1}}^2
+\simeq
+r^{-1}\|M_{Q_r}\|_{\operatorname{Cap}_{raw,P}^{-1}}^2.
+\tag{TFE.411}
+\]
+
+The exact scale-native admission line is
+
+\[
+A_{sel}(Q)
+\le
+C_N\|M_Q\|_{\operatorname{Cap}_{crit,P}^{-1}}^2
++Paid(Q),
+\tag{TFE.412}
+\]
+
+and the exact packing line is
+
+\[
+\sum_{Q\subseteq P}
+\|M_Q^{fresh}\|_{\operatorname{Cap}_{crit,P}^{-1}}^2
+\le
+C_N(u_0)\mathcal R(P)
++\theta\nu\int_{\operatorname{Hist}(P)}
+\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(P),
+\qquad \theta<1.
+\tag{TFE.413}
+\]
+
+Equations `(TFE.412)`--`(TFE.413)` are the endpoint-current/native-birth form of
+the unproved piece of `(TFE.402)`.  With them,
+
+\[
+\Delta_QZ^S
+=
+\Delta_QZ^{S,bd}
++\Delta_QZ^{S,nat}
+\tag{TFE.414}
+\]
+
+satisfies the full parent-known square function:
+
+\[
+\text{bounded projection `(TFE.408)'}
++\text{scale-native capacity `(TFE.412)'--`(TFE.413)'}
+\Longrightarrow
+\text{selected entropy source `(TFE.401)'--`(TFE.402)'}.
+\tag{TFE.415}
+\]
+
+The converse half-tail test is also sharp.  If `(TFE.412)`--`(TFE.413)` fail,
+one can have a nested family with
+
+\[
+\sum_k
+\|M_{Q_k}\|_{\operatorname{Cap}_{raw,P}^{-1}}^2<\infty,
+\qquad
+\sum_kA_{sel}(Q_k)=\infty,
+\tag{TFE.416}
+\]
+
+because every child restarts as a parent-relative first birth while the original
+root sees only the raw \(r_k\)-cost.  This is not a detached pressure channel
+and not a failure of same-parent admission.  It is exactly the missing
+scale-native capacity of the same original coupled packet.
+
+Therefore the current \(L^1\) problem has the following nonduplicated form:
+
+\[
+\begin{gathered}
+\text{bounded parent-projection selected entropy: proved by Gram+Bessel,}\\
+\text{scale-native selected endpoint/current capacity: `(TFE.412)'--`(TFE.413)' still unproved.}
+\end{gathered}
+\tag{TFE.417}
+\]
+
+Once the scale-native line is proved, `(TFE.415)` gives `(TFE.402)`, hence
+`(TFE.392)` and terminal-uniform \(L^1\).
+
+## 43. Expanding the scale-native capacity line into endpoint testing and
+current packing
+
+The capacity line `(TFE.412)`--`(TFE.413)` is not allowed to hide the theorem.
+For each retained scale-native first birth \(Q\), the endpoint seed has the
+same-material divergence form
+
+\[
+M_Q
+=
+D_AJ_Q
++M_{Q,stop}
++M_{Q,legal}
++M_{Q,reset}
++M_{Q,return},
+\tag{TFE.418}
+\]
+
+where \(J_Q\) is made from the original coupled stress/frame/current packet,
+not from the future selected tail.
+
+The selected endpoint readout is
+
+\[
+A_{sel}(Q)
+\simeq
+\int_{I_Q}H_Q(t)\|M_Q(t)\|_2^2\,dt.
+\tag{TFE.419}
+\]
+
+By duality,
+
+\[
+\int H_Q\|M_Q\|_2^2
+=
+\sup_{\|g\|_{L^2(H_Q)}\le1}
+\left|\int H_QM_Qg\right|^2.
+\tag{TFE.420}
+\]
+
+Using `(TFE.418)` and integrating by parts in the material chart gives
+
+\[
+\int H_QM_Qg
+=
+-\int J_Q\cdot D_A^\ast(H_Qg)
++Paid_g(Q).
+\tag{TFE.421}
+\]
+
+So scale-native admission `(TFE.412)` follows from the endpoint testing
+estimate
+
+\[
+\int |D_A^\ast(H_Qg)|^2\,d\mathcal R_Q^{-1}
+\le
+C_N\int H_Q|g|^2
++Paid(Q),
+\qquad
+\|g\|_{L^2(H_Q)}\le1.
+\tag{TFE.422}
+\]
+
+Indeed `(TFE.420)`--`(TFE.422)` give
+
+\[
+A_{sel}(Q)
+\le
+C_N\int |J_Q|^2\,d\mathcal R_Q
++Paid(Q).
+\tag{TFE.423}
+\]
+
+Thus the critical capacity norm in `(TFE.412)` is the endpoint-testing norm of
+the parent-known current \(J_Q\):
+
+\[
+\|M_Q\|_{\operatorname{Cap}_{crit,P}^{-1}}^2
+\simeq
+\inf_{D_AJ=M_Q+Paid}
+\int |J|^2\,d\mathcal R_Q
++Paid(Q),
+\tag{TFE.424}
+\]
+
+where the selected weight \(H_Q\) is legal only when `(TFE.422)` is proved from
+the parent packet before clipping.
+
+Summing `(TFE.423)` shows that scale-native packing `(TFE.413)` is exactly the
+fresh endpoint-current Carleson estimate
+
+\[
+\sum_{Q\subseteq P}
+\int |J_Q^{fresh}|^2\,d\mathcal R_Q
+\le
+C_N(u_0)\mathcal R(P)
++\theta\nu\int_{\operatorname{Hist}(P)}
+\|\Lambda^{3/2}u(t)\|_2^2\,dt
++Paid(P),
+\qquad \theta<1.
+\tag{TFE.425}
+\]
+
+Consequently,
+
+\[
+\text{endpoint testing `(TFE.422)'}
++\text{fresh endpoint-current Carleson `(TFE.425)'}
+\Longrightarrow
+\text{scale-native capacity `(TFE.412)'--`(TFE.413)'}.
+\tag{TFE.426}
+\]
+
+The endpoint testing line is a parent-knownness/accretivity requirement: the
+weight \(H_Q\) must be announced by the stopped material frame, pressure-Hodge
+frame, collar, and selector before the child takes the positive square.  If
+\(H_Q\) is chosen from the future selected tail, `(TFE.422)` is circular.
+
+The fresh current Carleson line is the strict arbitrary-data Gold input.  It is
+the current-energy form of positive critical transfer:
+
+\[
+\sum_Q\int |J_Q^{fresh}|^2\,d\mathcal R_Q
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\mathfrak R_{nat}(P)
++Paid(P),
+\qquad
+\mathfrak R_{nat}(P)
+\simeq
+\nu\int_{\operatorname{Hist}(P)}\|\Lambda^{3/2}u(t)\|_2^2dt.
+\tag{TFE.427}
+\]
+
+This is where the proof still has to beat the half-tail.  The divergence
+identity `(TFE.418)` and testing duality `(TFE.420)`--`(TFE.423)` transfer a
+selected endpoint seed into current energy.  They do not by themselves prove
+that fresh current energy has the strict \(\theta<1\) root bound `(TFE.427)`.
+
+Thus the \(L^1\) chain is now expanded without hidden language:
+
+\[
+\begin{aligned}
+&\text{fresh endpoint-current Carleson with strict margin `(TFE.425)'/`(TFE.427)'}\\
+&\Longrightarrow
+\text{scale-native capacity `(TFE.412)'--`(TFE.413)'}\\
+&\Longrightarrow
+\text{selected entropy source `(TFE.401)'--`(TFE.402)'}\\
+&\Longrightarrow
+\text{parent entropy/exponent lift `(TFE.382)'--`(TFE.384)'}\\
+&\Longrightarrow
+\text{terminal-uniform \(L^1\).}
+\end{aligned}
+\tag{TFE.428}
+\]
+
+This is the current exact form of the unfinished proof.  The entropy story has
+identified the right quantity, the bounded parent projection part is paid, and
+the scale-native part has been reduced to a strict same-parent fresh
+endpoint-current Carleson estimate from the original coupled packet.
+
+## 44. Active-weight split: first-exit Cauchy is proved, fixed-core
+root-upcrossing is the entropy survivor
+
+The selected-weight problem in `(TFE.425)` has already split into two physical
+cases.  This matters because the entropy/state-count picture is not asking for
+one vague positive count.  It is asking whether a parent packet can keep
+reopening access to future selected states after the coupled pressure-heat-
+viscous handoff has already assigned the current readout to the same material
+history.
+
+For a stopped first-exit/reset edge \(e\), the parent announces the material
+interval \(I_e\) and witness tube \(W_e\) before the fresh endpoint derivative
+is read.  The active weight is the reciprocal Cauchy weight
+
+\[
+H_{e^-}(t)=H_{I_e}(t)
+=
+{|I_e|^2\over\int_{I_e}w(\sigma,t)^{-1}\,d\sigma},
+\tag{TFE.429}
+\]
+
+where \(w\) is the original stopped participation metric along the parent
+history.  The fresh endpoint derivative has the parent-interval form
+
+\[
+D_e^{fresh}(t)
+=
+|I_e|^{-1}\int_{I_e}G_e(\sigma,t)\,d\sigma
++Err_e^{legal}(t),
+\tag{TFE.430}
+\]
+
+with
+
+\[
+G_e
+=
+\partial_\sigma Z_e
++\operatorname{turnstile}_e
++\operatorname{exchange}_e
++\operatorname{covector}_e
++\operatorname{frame}_e .
+\tag{TFE.431}
+\]
+
+Weighted Cauchy--Schwarz gives, pointwise in \(t\),
+
+\[
+\left\|\int_{I_e}G_e(\sigma,t)\,d\sigma\right\|_2^2
+\le
+\left(\int_{I_e}w^{-1}\right)
+\left(\int_{I_e}w\|G_e\|_2^2\,d\sigma\right).
+\tag{TFE.432}
+\]
+
+Multiplying `(TFE.432)` by `(TFE.429)` and using `(TFE.430)` gives
+
+\[
+H_{e^-}(t)\|D_e^{fresh}(t)\|_2^2
+\le
+C\int_{I_e}w(\sigma,t)\|G_e(\sigma,t)\|_2^2\,d\sigma
++CR_e^{legal}(t).
+\tag{TFE.433}
+\]
+
+The first-exit tubes are stopped sparse:
+
+\[
+\sum_{e\subset P}1_{W_e}(\sigma,t,x)
+\le
+C_N+R_{\rm legal}(P).
+\tag{TFE.434}
+\]
+
+Therefore the first-exit/reset contribution to the active weighted current
+packs:
+
+\[
+\sum_{e\subset P}
+\int H_{e^-}\|D_e^{fresh}\|_2^2\,dt
+\le
+C_N
+\int_{\operatorname{Hist}(P)}
+w\left(
+|\partial_\sigma Z|^2
++|\operatorname{turnstile}|^2
++|\operatorname{exchange}|^2
++|\operatorname{covector}|^2
++|\operatorname{frame}|^2
+\right)
++CR_{\rm legal}(P).
+\tag{TFE.435}
+\]
+
+This is the rigorous form of the physical point: a large selected first-exit
+read cannot be a free state count.  The high weight is announced by the parent
+interval, and Cauchy forces real derivative/turnstile/exchange/covector/frame
+energy on that same interval.  This branch is not the remaining \(L^1\) wall.
+
+The survivor is the fixed-core/root-upcrossing branch.  There the interval and
+route are parent-known, but the same endpoint record is read at higher active
+weight without a new first-exit derivative average of the form `(TFE.430)`.
+This is exactly the feedback-loop face of the entropy story: pressure and
+transport can re-coordinate the remaining velocity/strain state inside the
+same incompressible packet, and the selected detector can see a higher active
+weight on the same retained core unless that upcrossing is charged before
+positive clipping.
+
+Let \(H_P^\ast\) be the least stopped parent-predictable majorant of all active
+weights admitted below \(P\):
+
+\[
+H_I\le H_P^\ast
+\quad\text{on every retained announced edge }e\subset P.
+\tag{TFE.436}
+\]
+
+Write its stopped Doob--Meyer/Bellman decomposition schematically as
+
+\[
+H_P^\ast=H_{P,0}+M_P^{wt}+A_P^{wt},
+\tag{TFE.437}
+\]
+
+where \(A_P^{wt}\) is the increasing predictable compensator recording newly
+admitted active-weight upcrossings.  The noncircular fixed-core theorem is the
+parent-known entropy/storage inequality
+
+\[
+\begin{aligned}
+&\int_{\operatorname{Hist}(P')}dA_{P'}^{wt}
++
+\sum_{e\subset P'}
+\int H_{e^-}(t)
+\|\Pi_e^{fresh}F_e(t)\|_2^2\,dt\\
+&\qquad\le
+C_N(u_0)\mathcal R(P')
++\theta\,\mathfrak R_{nat}(P')
++R_{\rm legal}(P')
++Stop(P'),
+\qquad \theta<1,
+\end{aligned}
+\tag{TFE.438}
+\]
+
+for every stopped \(P'\subseteq P\).  Here
+
+\[
+F_e
+\sim
+[D_t,\mathcal L_A]w
++\partial_\sigma Z
++\operatorname{turnstile}
++\operatorname{exchange}
++\operatorname{covector}
++\operatorname{frame},
+\tag{TFE.439}
+\]
+
+projected after the parent-predictable carried span has been removed.  In
+physical language, `(TFE.438)` says that every increase in the number of
+accessible selected future states is either an announced first-exit derivative
+cost, an actual fresh original-history current, legal/stop material, or a
+bounded parent storage drop.  It prevents the feedback loop from turning the
+same coupled pressure-compatible readout into fresh positive \(L^1\) action at
+each higher active-weight level.
+
+The theorem surfaces now line up as follows:
+
+\[
+\begin{gathered}
+\text{first-exit/reset active weight}
+\Longrightarrow
+\text{Cauchy packing `(TFE.429)'--`(TFE.435)'},\\
+\text{fixed-core/root-upcrossing}
+\Longleftrightarrow
+\text{parent-known active-weight compensator `(TFE.436)'--`(TFE.438)'}.
+\end{gathered}
+\tag{TFE.440}
+\]
+
+Consequently the remaining \(L^1\) proof is no longer "prove endpoint testing"
+as a single opaque line.  Endpoint testing and current duality are consumers.
+The smoothness-bearing input is the fixed-core/root-upcrossing inequality
+`(TFE.438)` from the original coupled pressure-viscosity-incompressibility-
+velocity packet.  Once `(TFE.438)` is proved, it supplies the fresh
+endpoint-current Carleson estimate `(TFE.425)` on the only branch not already
+covered by `(TFE.435)`, then `(TFE.428)` gives terminal-uniform \(L^1\).
