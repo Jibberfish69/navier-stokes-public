@@ -1,10 +1,15 @@
 ---
 version: 1
 artifact_id: ns-completion-submission-sync-2026-06-08-iteration-1
-status: ready
+status: blocked
 date: '2026-06-08'
 iteration_index: 1
-submission_ready: true
+submission_ready: false
+current_authority_override_20260702: >-
+  Stale submission readiness revoked on 2026-07-02: current authority keeps
+  Gold open at TFE2748B / OriginalCriticalCapacityVariation.A, sharpened to
+  the coupled active-capacity/full-exchange storage theorem before child
+  clipping. Rendered PDFs remain artifacts only, not submission readiness.
 source_refs:
 - problems/navier-stokes/submission-verdict.yaml
 - problems/navier-stokes/submission-bundle/submission-verdict.yaml
@@ -64,16 +69,16 @@ verdict_alignment:
   root_verdict_synced: true
   bundle_verdict_synced: true
   export_status_synced: true
-  submission_ready: true
-  blocking_reason: 
+  submission_ready: false
+  blocking_reason: TFE2748B / OriginalCriticalCapacityVariation.A remains open; current Gold wall is the coupled active-capacity/full-exchange storage theorem.
   readiness_evidence:
-    source_frontier_clear: true
+    source_frontier_clear: false
     open_d8_proof_blockers: 0
     completion_candidate_count: 0
     completion_candidates: []
     completion_readiness:
-      status: ready
-      submission_ready: true
+      status: blocked
+      submission_ready: false
       candidate_count: 0
       candidates: []
       checks:
@@ -112,8 +117,8 @@ verdict_alignment:
             required_for_clay_submission: true
         preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       base_completion_readiness:
-        status: ready
-        submission_ready: true
+        status: blocked
+        submission_ready: false
         candidate_count: 0
         candidates: []
         checks:

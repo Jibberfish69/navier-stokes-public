@@ -1,13 +1,18 @@
 ---
 version: 1
 artifact_id: ns-completion-executor-submission-boundary-2026-06-07
-status: ready
+status: blocked
 date: '2026-06-07'
 iteration_index: 1
 consumed_work_node_ids:
 - ns-submission-readiness
 input_refs: []
-submission_ready: true
+submission_ready: false
+current_authority_override_20260702: >-
+  Stale submission readiness revoked on 2026-07-02: current authority keeps
+  Gold open at TFE2748B / OriginalCriticalCapacityVariation.A, sharpened to
+  the coupled active-capacity/full-exchange storage theorem before child
+  clipping. Rendered PDFs remain artifacts only, not submission readiness.
 pdf_tracks_rendered: true
 pdf_render_status:
   status: rendered
@@ -28,8 +33,10 @@ pdf_render_status:
       manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
       required_for_clay_submission: true
   preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-boundary_reason: current frontier has no unresolved obligations, both required PDF
-  tracks are present, and route-state has no open D8 proof blockers
+boundary_reason: >-
+  Stale boundary revoked on 2026-07-02: current authority keeps Gold open at
+  TFE2748B / OriginalCriticalCapacityVariation.A, sharpened to the coupled
+  active-capacity/full-exchange storage theorem before child clipping.
 may_advance_when:
 - the proof lane lands the CM obstruction in Part or Field or closes it by
   legitimate scope rejection
