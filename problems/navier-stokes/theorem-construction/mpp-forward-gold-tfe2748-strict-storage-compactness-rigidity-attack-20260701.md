@@ -7063,3 +7063,136 @@ positive source left is the selected meter/log-detector motion.  Gold closure
 now requires proving that augmented positive distortion is strictly dominated
 by the original generator clock plus paid packet motion from arbitrary smooth
 data.
+
+## 56. Parent-child form of the augmented capacity line
+
+The source bound `(TFE2748B.443)' should be read as a parent-capacity
+monotonicity statement, not as a detached local sign estimate.  Put the entire
+left side of `(TFE2748B.443)' into one pre-clipping augmented action measure:
+
+\[
+d\Gamma_P^{aug}
+:=
+d\mathcal D_P^{geom,H}
++[d\mathcal C_P^{crit}]_+ .
+\tag{TFE2748B.447}
+\]
+
+For a stopped parent subpacket \(Q\subseteq P\), let
+\(\operatorname{ch}(Q)\) be the next retained heat-lag/material children in the
+same original history, and define the augmented child action
+
+\[
+A^{aug}(Q)
+:=
+\int_Q d\mathcal D_P^{geom,H}
++[d\mathcal C_P^{crit}]_+(Q).
+\tag{TFE2748B.448}
+\]
+
+Then `(TFE2748B.443)' is equivalent, after stopped partition refinement, to the
+one-step same-parent inheritance inequality
+
+\[
+A^{aug}(Q)
++\sum_{Q'\in\operatorname{ch}(Q)}
+\mathcal C^{crit}(Q')
+\le
+\mathcal C^{crit}(Q)
++\vartheta\,\Omega^{gen}(Q)
++\Theta^0(Q)+Paid(Q)+Stop(Q),
+\qquad C_N\vartheta<1 .
+\tag{TFE2748B.449}
+\]
+
+The equivalence is the ordinary dynamic-programming calculation.  Summing
+`(TFE2748B.449)' down a stopped parent tree telescopes the capacity terms and
+gives
+
+\[
+\sum_{Q\subseteq P} A^{aug}(Q)
+\le
+\mathcal C^{crit}(P)
++\vartheta\,\Omega^{gen}(P)
++\Theta^0(P)+Paid(P)+Stop(P).
+\tag{TFE2748B.450}
+\]
+
+Conversely, applying `(TFE2748B.450)' to arbitrarily short stopped descendants
+recovers `(TFE2748B.443)' in distributional time.  Thus the active
+arbitrary-data supplier is exactly the root-finite parent capacity
+
+\[
+0\le \mathcal C^{crit}(P)
+\le
+C_N(u_0)\mathcal R(P)+Paid(P),
+\tag{TFE2748B.451}
+\]
+
+together with the inheritance law `(TFE2748B.449)' constructed before child
+positive clipping from the original coupled packet.
+
+Failure of `(TFE2748B.449)' has a concrete minimal-bad form.  There are stopped
+same-history packets \(P_n\) such that
+
+\[
+\sum_{Q\subseteq P_n} A^{aug}(Q)=1,
+\qquad
+\mathcal C^{crit}(P_n)
++\vartheta\Omega^{gen}(P_n)
++\Theta^0(P_n)+Paid(P_n)+Stop(P_n)\to0 .
+\tag{TFE2748B.452}
+\]
+
+All connection, selector, collar, route, endpoint, stop, and legal pieces vanish
+on this normalized face.  The only retained child action is the same-history
+affine/log-detector/capacity-opening action
+
+\[
+a_\gamma^{aug}
+:=
+\int_\gamma d\mathcal D_{met,+}
++d\rho_{Hlog}^{det,\lambda}(\gamma)
++[d\mathcal C^{crit}]_+(\gamma),
+\tag{TFE2748B.453}
+\]
+
+carried by one original material history.  Hence the normalized failure of
+`(TFE2748B.443)' is precisely the augmented version of the old same-history
+affine-burst/no-Zeno branch:
+
+\[
+\sum_{\gamma\subset\mathcal A(P)}
+a_\gamma^{aug}
+\le
+\mathcal C^{crit}(P)
++\vartheta\,\Omega^{gen}(P)
++\Theta^0(P)+Paid(P)+Stop(P),
+\tag{TFE2748B.454}
+\]
+
+with \(\mathcal C^{crit}(P)\) root-finite from `(TFE2748B.451)' and not defined
+as the future descendant selected tail.
+
+The older affine no-Zeno notes prove the structural reduction: after paid
+nonlaminar exits, the survivor is either a repeated material core or a shrinking
+core escape.  Section 56 makes that reduction consume the square-completed
+source line.  The remaining proof is now the noncircular construction of the
+same-history capacity in `(TFE2748B.451)'--`(TFE2748B.454)' from the original
+coupled data:
+
+\[
+\boxed{
+\texttt{RootFiniteAugmentedSameHistoryCapacity.A `(TFE2748B.449)'--`(TFE2748B.454)'}
+\Longleftrightarrow
+\texttt{AugmentedSelectedMeterDistortionBound.A `(TFE2748B.443)'.}
+}
+\tag{TFE2748B.455}
+\]
+
+This is the exact downstream effect of the pressure/viscosity/incompressibility
+participation picture.  The parent packet may re-coordinate instantly through
+the pressure-Hodge constraint and may reveal delayed heat-lag motion through
+viscosity, but every positive selected state opening must lower the same
+parent-known capacity, pay generator clock, or leave through the paid packet
+motion terms before the child readout is clipped.
