@@ -3170,6 +3170,141 @@ active-weight/current storage theorem previously called
 
 So the atom decomposition has now been constructed from arbitrary smooth data
 before clipping, and the retained opposite lobe has a bounded-below raw parent
-reserve.  Full Gold closure still requires `(TFE2748B.201)': the same statement
+reserve.  Full Gold closure still requires `(TFE2748B.202)': the same statement
 with the selected active detector included without defining the reserve from
 the future selected tail.
+
+## 30. Weighted atom defect is the \(H^1\)-BMO capacity-variation line
+
+Section 29 proves the raw pressure-Hodge atoms.  The selected-critical question
+is what happens when the parent detector \(W_P\) prices the two lobes of the same
+zero-mean atom differently.
+
+For one signed atom \(\nu_\alpha=c_\alpha d\mu_\alpha\), choose a scalar
+\(W_\alpha\) fixed by the parent atom, for example the parent average of \(W_P\)
+on the atom support.  Since \(\int d\mu_\alpha=0\),
+
+\[
+\int W_P\,d\nu_\alpha
+=
+c_\alpha\int (W_P-W_\alpha)\,d\mu_\alpha .
+\tag{TFE2748B.204}
+\]
+
+Thus the selected-weight defect is not a new pressure source.  It is exactly the
+oscillation of the parent detector across a same-parent zero-mean atom.  Summing
+over atoms gives
+
+\[
+\left|
+\int W_P\,dJ_P^0
+\right|
+\le
+\sum_\alpha |c_\alpha|
+\left|
+\int (W_P-W_\alpha)\,d\mu_\alpha
+\right|.
+\tag{TFE2748B.205}
+\]
+
+If the atoms are normalized in the Hardy space of the stopped parent chart, the
+endpoint duality estimate gives
+
+\[
+\left|
+\int (W_P-W_\alpha)\,d\mu_\alpha
+\right|
+\le
+C\,\|W_P\|_{\mathrm{BMO}(P_\alpha)} .
+\tag{TFE2748B.206}
+\]
+
+Therefore the active-weighted atom estimate follows on every stopped good fibre
+where the parent detector has small BMO oscillation:
+
+\[
+\left|
+\int W_P\,dJ_P^0
+\right|
+\le
+C\,\|W_P\|_{\mathrm{BMO},good}
+\sum_\alpha |c_\alpha|.
+\tag{TFE2748B.207}
+\]
+
+Using the raw coefficient bound `(TFE2748B.197)', this is absorbable with strict
+margin exactly when the stopped parent construction supplies
+
+\[
+C\,\|W_P\|_{\mathrm{BMO},good}\le \theta,
+\qquad C_N\theta<1,
+\tag{TFE2748B.208}
+\]
+
+and the bad fibres where `(TFE2748B.208)' fails Carleson-pack into
+\(d\Theta_P^0+dPaid_P+dStop_P\).  Written without the good/bad stopping
+abbreviation, the required parent-detector theorem is
+
+\[
+\sup_{P'\subseteq P}
+{1\over R_P^{root}(P')}
+\sum_{Q\subseteq P'}
+\bigl(\|\Delta_QW_P\|_{\mathcal H}^2+|e_Q|^2\bigr)R_P^{root}(Q)
+\le
+C_N(u_0)+{Paid(P')\over R_P^{root}(P')}.
+\tag{TFE2748B.209}
+\]
+
+This is the same root Carleson/log-amplification line as
+`(TFE2748B.55)'--`(TFE2748B.59)', now read as the exact dual estimate needed by
+the signed atoms.
+
+Under `(TFE2748B.209)', the selected detector can be inserted before clipping:
+
+\[
+\int_0^\tau
+\sum_\alpha W_\alpha |c_\alpha(t)|\,dt
++\int_0^\tau\sum_\alpha
+\left|\int (W_P-W_\alpha)d\mu_\alpha\right|dt
+\le
+C_N(u_0)+d\Theta_P^0+Paid_P+Stop_P
++\theta\,\Omega_P^{gen},
+\tag{TFE2748B.210}
+\]
+
+which is `(TFE2748B.202)' in stopped BMO form.  Combining `(TFE2748B.210)' with
+the signed partner attachment `(TFE2748B.182)' gives
+
+\[
+dE_P^{crit}
+\le
+-dM_P^{crit}
++\theta\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad C_N\theta<1,
+\tag{TFE2748B.211}
+\]
+
+provided \(M_P^{crit}\) is the preallocated parent reserve associated to that
+same \(W_P\)-capacity.
+
+This proves the weighted atom step from raw atoms plus a parent-built
+Carleson/BMO detector.  It does not prove the detector theorem from arbitrary
+smooth data.  The remaining original-data burden is exactly:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{construct \(W_P\) from the original coupled packet before clipping,}\\
+\text{prove the root Carleson/BMO estimate `(TFE2748B.209)',}\\
+\text{and prove the corresponding critical capacity has paid positive variation.}
+\end{array}}
+\tag{TFE2748B.212}
+\]
+
+The older one-sided flux and moving low-high pressure/strain pump surfaces are
+the same burden in physical variables.  The signed local energy identity supplies
+the net flux; rectification asks for positive variation of that flux.  The
+dyadic weighted-tail identity supplies the lower-to-upper paired carrier; the
+missing estimate is its \(2^k\)-weighted positive work.  Both are precisely the
+failure or success of `(TFE2748B.209)' for the parent detector \(W_P\).
