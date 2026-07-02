@@ -17052,8 +17052,8 @@ before-clipping active-density comparison has the shell-coordinate form
 d\Xi_{P,J}^{mi}
 \le
 C_N\,d\Xi_P^{FE}
-dE_P^0
-C_N2^{-2\delta J}\,dt ,
++dE_P^0
++C_N2^{-2\delta J}\,dt ,
 \tag{TFE2748B.1111}
 \]
 
@@ -17069,9 +17069,9 @@ If the full-exchange depletion storage `(TFE2748B.893)' holds, then
 d\Xi_{P,J}^{mi}
 \le
 -C_N\,dM_P^{FE}
-C_N\theta_{FE}\,d\Omega_P^{gen}
-dE_P^0
-C_N2^{-2\delta J}\,dt .
++C_N\theta_{FE}\,d\Omega_P^{gen}
++dE_P^0
++C_N2^{-2\delta J}\,dt .
 \tag{TFE2748B.1112}
 \]
 
