@@ -8060,14 +8060,22 @@ Define the selected atom reserve by
 \[
 M_P^{S,atom}(\tau)
 :=
-M_P^{S,atom}(0)
+B_P^{S,atom}
 -dJ_{P,atom}^{S,ret,-}\bigl([0,\tau]\times X_P\bigr),
 \qquad
-M_P^{S,atom}(0)
-:=
-\int_0^{T_P}dJ_{P,atom}^{S,ret,-}.
+B_P^{S,atom}
+\ge
+dJ_{P,atom}^{S,ret,-}\bigl([0,T_P]\times X_P\bigr).
 \tag{TFE2748B.513}
 \]
+
+For the stopped preterminal atom theorem, such a budget is supplied by the
+finite original smooth total-variation bound on \(dJ_{P,0}^{S}\) plus paid
+leakage.  For Gold-strength terminal-uniform storage, the same line must use
+the root-uniform selected coefficient budget `(TFE2748B.511)'.  Thus
+`(TFE2748B.513)' is not a future-tail definition of the reserve; it is the
+reserve-depletion bookkeeping once the relevant parent-announced atom budget has
+been supplied.
 
 Then
 
@@ -8097,7 +8105,7 @@ usable storage line
 \[
 \int_0^\tau(dJ_P^{S})_+
 \le
-M_P^{S,atom}(0)-M_P^{S,atom}(\tau)
+B_P^{S,atom}-M_P^{S,atom}(\tau)
 +\Theta_P^0+Paid_P+Stop_P
 \le
 C_N(u_0)
