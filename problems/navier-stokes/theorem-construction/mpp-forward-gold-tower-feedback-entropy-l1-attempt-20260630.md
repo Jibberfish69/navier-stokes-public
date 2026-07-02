@@ -4328,7 +4328,7 @@ retained first selected action has to leave a material endpoint seed in the
 original pressure-viscosity-incompressibility packet.
 
 The global endpoint-coordinate line, still only a face/readout unless it proves
-an independent break in the coupled parent-storage loop, is
+signed-height sign persistence or peak-height control, is
 
 \[
 \sum_{\gamma\subset P}
