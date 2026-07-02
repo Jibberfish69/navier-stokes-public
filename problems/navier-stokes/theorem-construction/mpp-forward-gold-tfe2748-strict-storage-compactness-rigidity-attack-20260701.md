@@ -21914,7 +21914,7 @@ By the endpoint trace normalization and singular entry definition
 d\Xi_{P,Q}^{early,0}
 \le
 C_N\,d\rho_{crit,P}^{entry}(E_Q)
-dE_P^0(Q).
++dE_P^0(Q).
 \tag{TFE2748B.1434}
 \]
 
@@ -21936,8 +21936,8 @@ early family gives exactly the early-fibre admission line from Section 155:
 d\Xi_P^{early}
 \le
 C_N\,d\rho_{crit,P}^{ac}
-C_N\,d\rho_{crit,P}^{entry}
-dE_P^0 .
++C_N\,d\rho_{crit,P}^{entry}
++dE_P^0 .
 \tag{TFE2748B.1436}
 \]
 
