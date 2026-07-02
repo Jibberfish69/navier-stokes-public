@@ -23184,3 +23184,134 @@ attachment: construct `(TFE2748B.1511)' and `(TFE2748B.1512)' from the original
 coupled packet with the strict \(C_N(\theta_A+\theta_{FE})<1\) margin.  The
 atomic decomposition, coefficient/leakage control, and retained opposite-lobe
 reserve depletion are no longer open source burdens.
+
+## 165. The Section 163 source pair is one active full-exchange ledger
+
+The pair
+
+\[
+\texttt{LocalActiveTransitStorage.A}
++
+\texttt{FullExchangeNoSelfFeedingStorage.A}
+\tag{TFE2748B.1526}
+\]
+
+should not be read as two different physical suppliers.  The older
+`(TFE.2301)'--`(TFE.2314)' and `(TFE.2634)'--`(TFE.2645)' surfaces identify the
+same source as one before-clipping active full-exchange ledger.  In current
+notation, construct from the original coupled packet a measure
+
+\[
+d\Xi_P^{FE,act}
+=
+d\Xi_P^{root}
++d\Xi_P^{Ent}
++d\Xi_P^{tower}
++d\Xi_P^{LH}
++d\Xi_P^{route}
++dPaid_P .
+\tag{TFE2748B.1527}
+\]
+
+Here \(d\Xi_P^{root}\) contains the root generator and selected chart action,
+\(d\Xi_P^{Ent}\) contains time-thick left-entry/terminal inherited material,
+\(d\Xi_P^{tower}\) contains the signed-partner pressure-Hodge/commutator/tower
+current, \(d\Xi_P^{LH}\) contains the parent-known low-high first-entry detector,
+and \(d\Xi_P^{route}\) contains frame, collar, Hodge, reset, reselection, return,
+legal, and stop routing material.
+
+The active-transit faces are projections of this ledger:
+
+\[
+\begin{aligned}
+d\mu_P^{Ent}
+&\le C_Nd\Xi_P^{Ent}+dPaid_P,\\
+d\mathfrak L_{4B,N}+a\,dA_{4B,N}^{tower,+}
+&\le C_Nd\Xi_P^{tower}+\theta_A d\Omega_P^{gen}+dPaid_P,\\
+d\mathcal J_N
+&\le C_Nd\Xi_P^{LH}+dPaid_P,
+\end{aligned}
+\tag{TFE2748B.1528}
+\]
+
+with
+
+\[
+\mathfrak L_{4B,N}\ge -C_N(u_0)\mathcal R(P)-Paid(P).
+\tag{TFE2748B.1529}
+\]
+
+The same ledger must also carry the generator comparison and strict
+no-self-feeding storage:
+
+\[
+d\Omega_P^{gen}
+\le C_Nd\Xi_P^{FE,act}+dPaid_P,
+\tag{TFE2748B.1530}
+\]
+
+\[
+d\Xi_P^{FE,act}
+\le
+-dM_P^{FE,act}
++d\Theta_P^0
++\theta_{FE}d\Omega_P^{gen}
++dPaid_P,
+\qquad
+C_N(\theta_A+\theta_{FE})<1,
+\tag{TFE2748B.1531}
+\]
+
+where \(M_P^{FE,act}\) is bounded below from the original data.
+
+Now set
+
+\[
+\mathscr S_P^{AT}:=\mathfrak L_{4B,N}.
+\tag{TFE2748B.1532}
+\]
+
+Adding the three projection inequalities in `(TFE2748B.1528)' and using
+\(d\Xi_P^{Ent}+d\Xi_P^{tower}+d\Xi_P^{LH}\le d\Xi_P^{FE,act}\) gives
+
+\[
+\begin{aligned}
+d\mathscr S_P^{AT}
+&+
+c_E\,d\mu_P^{Ent}
++c_A\,dA_{4B,N}^{tower,+}
++c_J\,d\mathcal J_N\\
+&\le
+C_Nd\Xi_P^{FE,act}
++\theta_A d\Omega_P^{gen}
++dPaid_P .
+\end{aligned}
+\tag{TFE2748B.1533}
+\]
+
+This is `(TFE2748B.1511)' with the active full-exchange ledger written
+explicitly.  Substituting `(TFE2748B.1531)' into `(TFE2748B.1533)' and absorbing
+the generator term using `(TFE2748B.1530)' and
+\(C_N(\theta_A+\theta_{FE})<1\) gives the Section 163 bracket
+`(TFE2748B.1513)'.  Hence
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{admissible active full-exchange ledger `(TFE2748B.1527)'}\\
++\texttt{projection inclusions `(TFE2748B.1528)'}\\
++\texttt{strict storage `(TFE2748B.1530)'--`(TFE2748B.1531)'}
+\end{array}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1534}
+\]
+
+This is a lower and less duplicated source statement than `(TFE2748B.1514)'.
+The unproved arbitrary-data work is now the construction of
+\(d\Xi_P^{FE,act}\), the three projection inclusions, and the strict
+no-self-feeding margin from the original coupled Navier--Stokes material packet.
+In particular, the hard source content is the signed-partner tower orientation
+and the parent-known low-high/native first-entry detector with strict
+same-parent loss; bounded detector BMO, reverse Holder, dyadic good-lambda
+bookkeeping, and the raw atom attachment are consumers once this ledger exists.
