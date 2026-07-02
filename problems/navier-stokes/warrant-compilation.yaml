@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: warrant-compilation-navier-stokes
-  generated_at: '2026-07-02T18:11:46Z'
+  generated_at: '2026-07-02T18:19:16Z'
   generator: tools/ns_pipeline_hardener.rb
 primary_track:
   route_id: source-grounded-four-bridge
@@ -67,8 +67,9 @@ campaign_alignment:
     witness program; public finality waits on the terminal time-face anti-atom / BASAC
     new-production child or a noncircular finite-breakdown exclusion.
 active_frontier:
-  open_obligation_count: 0
-  next_solver_targets: []
+  open_obligation_count: 1
+  next_solver_targets:
+  - NoncircularSameParentActiveCapacityFullExchangeStorage.A
   source_wall_root_open: true
   blocking_frontier: gold-l1-coupled-storage-wall
   target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
@@ -330,7 +331,7 @@ active_frontier:
     group_id: gold-l1-coupled-storage-wall
     group_label: Gold L1 same-parent active-capacity/full-exchange storage wall.
     live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
-    top_level_release_blocker: false
+    top_level_release_blocker: true
     not_single_path: true
     not_single_proof_mode: true
     dashboard_boundary: The installed Clay terminal-witness CM chain remains proof
@@ -350,8 +351,8 @@ active_frontier:
         inequality for the active-capacity/full-exchange loop or prove one face independently
         enough to break the TFE2748B.1548/TFE2748B.1555 self-feeding chain.
       active_container: gold-l1-coupled-storage-wall
-      respawn_cell:
-      respawn_stage:
+      respawn_cell: theorem-upgrade
+      respawn_stage: gold-l1-source-theorem
       allowed_input_boundary: The original parent packet and coupling come first.
         Dyadic, atom, child, native-reserve, source-refill, terminal anti-atom, and
         Pack anti-concentration statements are typed readouts, countertests, or sufficient-but-unproved

@@ -342,7 +342,7 @@ theorem_warrants:
     group_id: gold-l1-coupled-storage-wall
     group_label: Gold L1 same-parent active-capacity/full-exchange storage wall.
     live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
-    top_level_release_blocker: false
+    top_level_release_blocker: true
     not_single_path: true
     not_single_proof_mode: true
     dashboard_boundary: The installed Clay terminal-witness CM chain remains proof
@@ -362,8 +362,8 @@ theorem_warrants:
         inequality for the active-capacity/full-exchange loop or prove one face independently
         enough to break the TFE2748B.1548/TFE2748B.1555 self-feeding chain.
       active_container: gold-l1-coupled-storage-wall
-      respawn_cell:
-      respawn_stage:
+      respawn_cell: theorem-upgrade
+      respawn_stage: gold-l1-source-theorem
       allowed_input_boundary: The original parent packet and coupling come first.
         Dyadic, atom, child, native-reserve, source-refill, terminal anti-atom, and
         Pack anti-concentration statements are typed readouts, countertests, or sufficient-but-unproved
@@ -827,10 +827,12 @@ auxiliary_theorem_tracks:
     internal branch. It does not by itself discharge a whole-space Euclidean endpoint.'
 warrant_boundary:
   status: gold-l1-open-coupled-storage-wall
-  terminal_safe: true
-  required_before_terminal_release: []
-  rule: Direct live CM authority controls this surface. Positive packet-survival/no-exit
-    language is support only and cannot respawn from this warrant.
+  terminal_safe: false
+  required_before_terminal_release:
+  - gold-l1-coupled-storage-wall
+  rule: Direct live Gold L1 authority controls this surface. Positive packet-survival/no-exit
+    language is support only and cannot clear terminal release until the same-parent
+    coupled-storage wall is proved.
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight: *2
 target_lock_schema: *3

@@ -44,7 +44,7 @@ AUTHORITY_MARKERS = {
   ],
   "problems/navier-stokes/submission-bundle/submission-verdict.yaml" => [
     "current_authority_override_20260702",
-    "Submission readiness remains false",
+    "submission_ready: false",
     "noncircular same-parent coupled"
   ],
   "problems/navier-stokes/submission-bundle/current-material-coverage.yaml" => [

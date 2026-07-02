@@ -52,6 +52,7 @@ CODEX_MACHINE_MAIN_TEX_PATH = ROOT.join("papers/navier-stokes/manuscript/generat
 CODEX_MACHINE_PDF_PATH = ROOT.join("papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf").freeze
 GOLD_L1_AUTHORITY_GUARD_PATH = PROBLEM_ROOT.join("tools/check_gold_l1_authority_overclaim.rb").freeze
 GOLD_L1_SUM_CUSTODY_GUARD_PATH = PROBLEM_ROOT.join("tools/check_gold_l1_sum_custody.rb").freeze
+SHADOW_PAPER_PUBLISHER_PATH = ROOT.join("system/runner/bin/publish_shadow_paper_package.rb").freeze
 CURRENT_GRADIENT_CONTROL_SURFACE = "problems/navier-stokes/theorem-construction/gradient-control-bridge-discharge.md"
 
 TARGET_OPERATING_CONTRACT = YAML.load_file(TARGET_OPERATING_CONTRACT_PATH.to_s).freeze
@@ -154,6 +155,23 @@ def run_gold_l1_sum_custody_guard!
 
   warn stderr
   raise "Gold L1 sum-custody guard failed"
+end
+
+def republish_navier_stokes_shadow_snapshots!
+  stdout, stderr, status = Open3.capture3(
+    RbConfig.ruby,
+    SHADOW_PAPER_PUBLISHER_PATH.to_s,
+    "--shadow-root",
+    ROOT.to_s,
+    "--problem-id",
+    "navier-stokes",
+    "--publish-mode",
+    "sync"
+  )
+  return stdout if status.success?
+
+  warn stderr
+  raise "Navier-Stokes shadow snapshot publish failed"
 end
 
 def load_yaml(path)
@@ -1933,6 +1951,7 @@ def refresh!
     WARRANT_COMPILATION_PATH,
     build_warrant_compilation(route_lock, warrant, campaign, proof_assembly)
   )
+  republish_navier_stokes_shadow_snapshots!
   run_gold_l1_authority_guard!
   run_gold_l1_sum_custody_guard!
 
