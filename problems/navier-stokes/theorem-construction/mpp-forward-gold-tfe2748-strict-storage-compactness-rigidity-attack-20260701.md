@@ -20718,6 +20718,7 @@ Therefore
 \omega_P(dJ_P)_+
 \preceq_{atom}
 dJ_{P,\omega}^{ret,-}
++
 \omega_P(dR_P)_+ .
 \tag{TFE2748B.1353}
 \]
@@ -20805,7 +20806,8 @@ potential/capacity trace:
 \[
 d\mathcal V_P^{crit}
 \le
-C_NU_P^2\,d\mathfrak v_P^{crit}
+C_N\,U_P^2\,d\mathfrak v_P^{crit}
++
 dE_P^0.
 \tag{TFE2748B.1359}
 \]
