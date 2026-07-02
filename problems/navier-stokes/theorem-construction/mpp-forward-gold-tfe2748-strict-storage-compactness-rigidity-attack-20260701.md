@@ -10012,3 +10012,180 @@ pressure trace, product convergence, retained thickness, and frame custody as
 \(K_C^+\).  The signed atom decomposition, coefficient/leakage control,
 retained opposite-lobe depletion, and canonical zero-loss no-ghost rigidity are
 now installed support results, not the active source wall.
+
+## 76. Body-III relay production is finite-window no-loss plus high-tail residue
+
+The phrase "Body-III relay production" still hides one category split.  The
+installed Body-III criteria close fixed retained carriers and fixed finite rung
+sets.  The live carrier in Section 74 is not fixed finite: it is the tail
+aligned-current carrier with entrance \(N_n\to\infty\).  Therefore the next
+source theorem must separate finite tail windows from the unbounded high-tail
+passage.
+
+For \(M<\infty\), define the finite tail-window carrier
+
+\[
+dQ_{P,N}^{tail,\le M}
+:=
+\sum_{N<k\le N+M}
+2^{-k}T_k(t)
+\left(
+\mathsf{Scal}_{>k,P}^{HS}(\mathcal K_{>k,P}^{HS})(t)
+\right)_+dt ,
+\tag{TFE2748B.640}
+\]
+
+and the discarded high-window residue
+
+\[
+dQ_{P,N}^{tail,>M}
+:=
+dQ_{P,N}^{tail}-dQ_{P,N}^{tail,\le M}.
+\tag{TFE2748B.641}
+\]
+
+On a retained compact same-carrier quotient, with the cutoff, selector, packet
+labels, and the finite shifted rung set \(\{N+1,\ldots,N+M\}\) fixed, the
+installed full Hodge-Stokes no-loss reductions give the density identification
+for `(TFE2748B.640)'.  More explicitly, transport product loss is evacuated by
+strong \(L^3\) compactness, the local pressure trace passes by the
+Calderon-Zygmund pressure decomposition after transport convergence, the
+viscous defect is either visible viscous payment or strong \(L^2\) gradient
+convergence, and finite/compact selector graphs stabilize.  Thus for every
+fixed \(M\),
+
+\[
+\sum_{P\in\mathcal S}
+\|h_{n,P}^{tail,\le M}-h_P^{tail,\le M}[U,\Pi]\|_{L^1(K\times P)}
+\longrightarrow0
+\tag{TFE2748B.642}
+\]
+
+unless one of the already isolated residuals occurs:
+
+\[
+\mathcal R_{\rm sel}^{M}
++\mathcal R_{\rm sat}^{M}
++\mathcal R_{\rm jump}^{M}
++\mathcal R_{\rm legal}^{M}
++\mathcal R_{\rm geom}^{M}.
+\tag{TFE2748B.643}
+\]
+
+Here \(\mathcal R_{\rm sel}^{M}\) is unbounded positive-part selector
+complexity or carrier/collar drift; \(\mathcal R_{\rm sat}^{M}\) is the
+terminal Zeno donor chain inherited from a missing signed partner;
+\(\mathcal R_{\rm jump}^{M}\) is positive endpoint storage jump;
+\(\mathcal R_{\rm legal}^{M}\) is non-summable or non-terminal-AC legal/collar
+residue; and \(\mathcal R_{\rm geom}^{M}\) is domain/gauge/material-record or
+tower-rung escape in the Body-IV sense.  These are not pressure-only,
+viscosity-only, or scalar compactness defects.  They are failures of the same
+full coupled packet to retain the finite shifted tail window before clipping.
+
+Equivalently, the finite-window Body-III mismatch obeys
+
+\[
+K_{C,tail}^{int,+,\le M}
+\le
+C_M\Big(
+\mathcal R_{\rm sel}^{M}
++\mathcal R_{\rm sat}^{M}
++\mathcal R_{\rm jump}^{M}
++\mathcal R_{\rm legal}^{M}
++\mathcal R_{\rm geom}^{M}
+\Big),
+\tag{TFE2748B.644}
+\]
+
+with visible viscous loss, route, collar, legal, and stop terms already inserted
+in \(d\sigma_n\).  In the lossless finite-window branch the right side is zero,
+so `(TFE2748B.625)' holds for \(h^{tail,\le M}\).
+
+The unbounded tail passage is the remaining place where the critical capacity
+variation can still hide.  Define the terminal high-tail residue of the
+normalized failure sequence by
+
+\[
+K_{\rm hi-tail}^{+}
+:=
+\lim_{M\to\infty}\limsup_{n\to\infty}
+Q_{P_n,N_n}^{tail,>M}(C).
+\tag{TFE2748B.645}
+\]
+
+Then the full tail relay defect splits as
+
+\[
+K_{C,tail}^{int,+}
+\le
+\lim_{M\to\infty}K_{C,tail}^{int,+,\le M}
++K_{\rm hi-tail}^{+}.
+\tag{TFE2748B.646}
+\]
+
+Combining `(TFE2748B.644)'--`(TFE2748B.646)' gives the exact lowered form of
+the Body-III relay production:
+
+\[
+\boxed{
+K_{C,tail}^{int,+}
+\le
+C\Big(
+\mathcal R_{\rm sel}
++\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm legal}
++\mathcal R_{\rm geom}
+\Big)
++K_{\rm hi-tail}^{+}.
+}
+\tag{TFE2748B.647}
+\]
+
+Thus Body III has no remaining generic compactness or pressure-viscosity
+producer on stabilized finite windows.  The remaining original-data source
+content is the uniform tail-window theorem
+
+\[
+\boxed{
+K_{\rm hi-tail}^{+}
++\mathcal R_{\rm sel}
++\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm legal}
++\mathcal R_{\rm geom}
+\le
+d\Theta^0+dPaid+dStop+2^{-N}D_N\,dt
+}
+\tag{TFE2748B.648}
+\]
+
+in the normalized retained parent packet, with the right side understood as the
+same source measure from `(TFE2748B.611)'.  This is the noncircular form of the
+remaining Gold \(L^1\) producer after Sections 72--75.  It says exactly what
+must still be proved from arbitrary original smooth data: no selected
+tail-aligned mass may survive by moving out through unbounded high-tail
+windows, unbounded selector complexity, terminal Zeno signed-partner loss,
+endpoint storage jump, nonsummable legal/collar trace, or material-record
+escape without becoming visible in the same parent source measure before
+clipping.
+
+Consequently the source chain now reads
+
+\[
+\boxed{
+\texttt{UniformTailRelayProduction.A `(TFE2748B.648)'}
+\Longrightarrow
+\texttt{BodyIIIRelayPaymentForTailAlignedCarrier.A}
+\Longrightarrow
+\texttt{ZeroSourceAlignedCurrentNoGhost.A}
+\Longrightarrow
+\texttt{ParentComparisonPositiveSurplus.A `(TFE2748B.351)'.}
+}
+\tag{TFE2748B.649}
+\]
+
+Section 76 therefore proves the finite-window Body-III no-loss part and
+identifies the only remaining source theorem.  It does not prove
+`(TFE2748B.648)'.  Proving `(TFE2748B.648)' is now the exact active form of the
+critical capacity variation/storage line from arbitrary original smooth data.
