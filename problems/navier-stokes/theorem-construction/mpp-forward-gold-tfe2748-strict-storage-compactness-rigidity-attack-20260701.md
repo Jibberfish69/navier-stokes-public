@@ -2981,3 +2981,189 @@ same-parent atoms give the positive/negative lobe pairing exactly.  What remains
 is proving that the full residue has those atoms before clipping and that the
 opposite lobe is an original parent reserve depletion rather than a
 future-defined selected tail.
+
+## 29. What arbitrary smooth data actually supplies
+
+The construction in `(TFE2748B.187)' has a provable raw part and a stronger
+selected-critical part.  The raw part is an original-data theorem.
+
+Fix a stopped parent packet \(P\) and remove the already paid route, legal,
+collar, and stop terms.  Let \(dJ_P^0\) be the remaining pre-clipping
+pressure-Hodge/material residue in the parent material chart.  Its unremoved
+mean is not a pressure source; it is boundary/collar leakage.  Thus
+
+\[
+dJ_P^0(X_P)=0,
+\qquad
+dJ_P=dJ_P^0+dR_P,
+\tag{TFE2748B.188}
+\]
+
+where \(dR_P\) is paid leakage.  For every fixed time slice, the zero-mass
+signed measure \(dJ_P^0\) has the Jordan split
+
+\[
+dJ_P^0=(dJ_P^0)^+-(dJ_P^0)^-,
+\qquad
+(dJ_P^0)^+(X_P)=(dJ_P^0)^-(X_P).
+\tag{TFE2748B.189}
+\]
+
+Choose any same-parent transport plan \(\pi_P\) coupling \((dJ_P^0)^+\) to
+\((dJ_P^0)^-\).  Then
+
+\[
+dJ_P^0
+=
+\int_{X_P\times X_P}
+\bigl(\delta_x-\delta_y\bigr)\,d\pi_P(x,y).
+\tag{TFE2748B.190}
+\]
+
+After the standard smooth packet regularization inside the stopped chart, this
+is exactly the signed atomic form
+
+\[
+dJ_P^0
+=
+\sum_\alpha c_\alpha\,d\mu_\alpha,
+\qquad
+\int_{X_P}d\mu_\alpha=0,
+\tag{TFE2748B.191}
+\]
+
+with same-parent supports.  The raw coefficient mass satisfies
+
+\[
+\sum_\alpha |c_\alpha|
+\le
+C\,|dJ_P^0|(X_P).
+\tag{TFE2748B.192}
+\]
+
+For the actual pressure-Hodge residue this raw total variation estimate can be
+sharpened to the standard Hardy atom norm.  In Eulerian variables,
+
+\[
+-\Delta p
+=
+\partial_i u_j\,\partial_j u_i
+=
+\sum_j (\partial_j u)\cdot\nabla u_j ,
+\tag{TFE2748B.193}
+\]
+
+where \(\partial_j u\) is divergence-free and \(\nabla u_j\) is curl-free.
+The div-curl Hardy estimate gives
+
+\[
+\|\partial_i u_j\,\partial_j u_i\|_{\mathcal H^1}
+\le
+C\|\nabla u\|_2^2.
+\tag{TFE2748B.194}
+\]
+
+The pressure-Hodge transforms are bounded on the corresponding Hardy atom
+space, and the smooth material pullback only adds metric/collar commutators that
+belong to \(dR_P\).  Hence the pre-clipping raw atoms can be chosen with
+
+\[
+\sum_\alpha |c_\alpha(t)|
+\le
+C_N\|\nabla u(t)\|_2^2
++{d\over dt}\bigl(Paid_P^{collar}+Legal_P+Stop_P\bigr).
+\tag{TFE2748B.195}
+\]
+
+Integrating and using the Leray energy inequality gives the raw coefficient
+control
+
+\[
+\int_0^\tau\sum_\alpha |c_\alpha(t)|\,dt
+\le
+C_N{\|u_0\|_2^2\over \nu}
++Paid_P(\tau)+Legal_P(\tau)+Stop_P(\tau),
+\qquad \tau<T_* .
+\tag{TFE2748B.196}
+\]
+
+This proves the arbitrary-smooth-data construction of the pre-clipping
+same-parent pressure atoms with raw controlled coefficients and paid leakage.
+For higher finite jet rungs, the same statement holds with the differentiated
+pressure-Hodge source and the corresponding preterminal smooth norms; making
+those constants terminal-uniform from \(u_0\) is the Gold storage problem, not
+an atomization problem.
+
+The retained opposite lobe is a bounded-below reserve in this raw currency.
+Define
+
+\[
+M_P^{raw}(\tau)
+:=
+M_P^{raw}(0)
+-
+\int_{[0,\tau]\times X_P}dJ_P^{ret,-},
+\tag{TFE2748B.197}
+\]
+
+with
+
+\[
+M_P^{raw}(0)
+=
+C_N{\|u_0\|_2^2\over\nu}
++Paid_P(T)+Legal_P(T)+Stop_P(T).
+\tag{TFE2748B.198}
+\]
+
+Then `(TFE2748B.196)' gives
+
+\[
+M_P^{raw}(\tau)\ge0,
+\qquad
+dJ_P^{ret,-}\le -dM_P^{raw}.
+\tag{TFE2748B.199}
+\]
+
+Thus the requested reserve-depletion statement is proved for the raw
+same-parent pressure-Hodge atom measure.
+
+The selected-critical Gold reserve is stronger.  Let \(W_P\) denote the
+parent-known active/heat-lag detector weight that a child would otherwise apply
+before clipping.  Multiplying an atom by \(W_P\) creates the exact defect
+
+\[
+\int_{X_P} W_P\,d\mu_\alpha
+=
+\int_{X_P}(W_P-W_{\alpha})\,d\mu_\alpha,
+\tag{TFE2748B.200}
+\]
+
+because \(\int d\mu_\alpha=0\).  Therefore the active-weighted version of
+`(TFE2748B.196)' is
+
+\[
+\int_0^\tau
+\sum_\alpha W_\alpha |c_\alpha(t)|\,dt
++\int_0^\tau\sum_\alpha
+\left|\int (W_P-W_\alpha)\,d\mu_\alpha\right|dt
+\le
+C_N(u_0)+Paid_P+Legal_P+Stop_P .
+\tag{TFE2748B.201}
+\]
+
+This is not a consequence of raw Hardy atomization.  It is precisely the
+active-weight/current storage theorem previously called
+
+\[
+\texttt{StoppedPredictableActiveWeightCompensator.A}
+\quad\text{or}\quad
+\texttt{OriginalScaleMemoryStorageCoercivity.A}.
+\tag{TFE2748B.202}
+\]
+
+So the atom decomposition has now been constructed from arbitrary smooth data
+before clipping, and the retained opposite lobe has a bounded-below raw parent
+reserve.  Full Gold closure still requires `(TFE2748B.201)': the same statement
+with the selected active detector included without defining the reserve from
+the future selected tail.
