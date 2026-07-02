@@ -321,8 +321,9 @@ admitted into \(d\Xi_P^{FE,\ast}\) before this retained quotient is formed.
 
 ## 5. The remaining hard clause
 
-After the endpoint repair, the only source theorem still open in this surface is
-the strict storage line `(TFE2748A.5)'.
+After the endpoint repair and the support derivation in Section 8, the only
+source theorem still open in this surface is the strict storage line
+`(TFE2748A.5)'.
 
 Equivalently, a failure of `(TFE2748A.5)' gives a normalized stopped bad
 sequence \(P_n\) such that
@@ -363,10 +364,10 @@ must now do one of two things:
 \tag{TFE2748A.20}
 \]
 
-The current repo has support for the representation, endpoint admission,
-retained Poincare, and downstream consumption.  It does not yet contain either
-the compactness/rigidity proof or the direct bounded-below storage proof for
-`(TFE2748A.5)' from arbitrary original data.
+The current repo now has support for the representation, endpoint admission,
+retained Poincare, retained detector boundedness, and downstream consumption.
+It does not yet contain either the compactness/rigidity proof or the direct
+bounded-below storage proof for `(TFE2748A.5)' from arbitrary original data.
 
 The sharpened capacity language is the preallocated-reserve normalization in
 `mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md',
@@ -417,6 +418,8 @@ storage for the endpoint-admitted full-exchange ledger.
 \begin{array}{c}
 \text{TFE2748 endpoint admission into \(d\Xi_P^{FE,\ast}\): installed as a}\\
 \text{noncircular reduction;}\\
+\text{stopped Duhamel-Hodge pullback and heat-normalized parent detector:}\\
+\text{installed as support clauses;}\\
 \text{TFE2748 strict original-data storage `(TFE2748A.5)': open;}\\
 \text{Gold smoothness closure: conditional, not proved here.}
 \end{array}
@@ -474,3 +477,107 @@ The nonconsumer Gold source line remains `(TFE2748A.5)', equivalently the
 critical-entry storage `(TFE2748A.21)'.  A proof that stops at
 `(TFE2748A.23)' has only made the detector lawful; it has not proved terminal
 uniform \(L^1\).
+
+## 8. The stopped Duhamel-Hodge and detector clauses are support
+
+The first three clauses of `(TFE2748A.3)' are now support facts, not source
+burdens.  They follow from the smooth stopped original packet before terminal
+time once all metric, collar, Hodge, selector, legal, and stop defects are
+charged to the already listed ledgers.
+
+First, the full material jet
+
+\[
+Y_P=(v,\nabla_a v,A,G,q,\nabla_aq,\ldots)_P
+\]
+
+is smooth on every stopped preterminal packet.  Pulling the Eulerian equation
+to the material chart, projecting to the stopped incompressible/Hodge
+constraint, and grouping only already-routed chart errors gives
+
+\[
+(\partial_t+\mathcal L_P)Y_P
+=
+G_P^{root}+R_P^{route},
+\qquad
+\mathcal C_PY_P=0,
+\tag{TFE2748A.25}
+\]
+
+with \(\mathcal L_P=\nu\mathcal A_P+\mathcal B_P+\mathcal H_P\).  Duhamel
+therefore gives
+
+\[
+Y_P(t_Q)
+=
+\mathcal U_P(t_Q,t_Q^-)Y_P(t_Q^-)
++\int_{t_Q^-}^{t_Q}\mathcal U_P(t_Q,s)G_P^{root}(s)\,ds
++R_Q^{route}.
+\tag{TFE2748A.26}
+\]
+
+This proves `(A1)' from the original smooth packet.
+
+Second, in the stopped root inner product, \(\mathcal B_P+\mathcal H_P\) is
+skew or orthogonal after the material Hodge projection.  The only non-skew
+terms are the time variation of \(A,G\), collar cutoffs, Hodge chart motion,
+and selector/covector motion, all of which are exactly \(d\Theta_P^0+dPaid_P\).
+Thus
+
+\[
+{d\over dt}\|\mathcal U_P(t,s)f\|_{\mathcal H_{root}}^2
++2\nu\|\nabla_A\mathcal U_P(t,s)f\|_{\mathcal H_{root}}^2
+\le
+d\Theta_P^0+dPaid_P,
+\tag{TFE2748A.27}
+\]
+
+and comparison with the material heat semigroup gives
+
+\[
+\|\mathcal U_P(t,s)f\|_{\mathcal H_{root}}^2
+\le
+\|e^{-\nu(t-s)\mathcal A_P}f\|_{\mathcal H_{root}}^2
++d\Theta_P^0+dPaid_P .
+\tag{TFE2748A.28}
+\]
+
+This is `(A2)'.  Pressure is included here as the Hodge/constraint part of the
+same reversible re-coordination; it is not a separate positive source.
+
+Third, after endpoint heat normalization and removal of
+\(\mathcal K_P^0\), the retained selected tests are a bounded parent
+Littlewood--Paley/Bessel family:
+
+\[
+\sum_{Q\preceq P}
+\|\mathfrak d_Q^P P_Q^{A_P}(I-\Pi_{\mathcal K_P^0})h_Q\|^2
+\le
+C_{\Pi,N}^2\sum_{Q\preceq P}\|h_Q\|_{\mathcal H_{root}}^2
++d\Theta_P^0+dPaid_P .
+\tag{TFE2748A.29}
+\]
+
+The inverse norm of a zero-baseline endpoint detector is canceled by the
+Hardy/heat-lag factor already entered in \(d\Omega_P^{EP,tr}\), and ordinary
+finite overlap controls the remaining low-high retained tests.  This proves
+`(A3)'.
+
+Combining `(TFE2748A.25)'--`(TFE2748A.29)' with the already-installed endpoint
+admission `(TFE2748A.4)' gives the noncircular support package
+
+\[
+\boxed{
+\text{stopped Duhamel-Hodge pullback + endpoint/source admission
++ retained detector Bessel bound}
+}
+\tag{TFE2748A.30}
+\]
+
+from arbitrary smooth preterminal original data.  The support package proves
+that the child readout is a lawful parent-pulled test of one coupled packet.
+The still-open Gold source line is the strict storage inequality
+`(TFE2748A.5)': the endpoint-admitted full-exchange ledger must be bounded by a
+drop of a parent-built reserve plus a strict \(\vartheta d\Omega_P^{gen}\)
+margin.  That storage inequality is the remaining critical capacity
+variation/storage line.
