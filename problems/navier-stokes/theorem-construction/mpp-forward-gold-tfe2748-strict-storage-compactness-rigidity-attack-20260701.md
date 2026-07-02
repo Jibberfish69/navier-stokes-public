@@ -7943,3 +7943,174 @@ than coefficient-free absorption.  The genuinely new middle-band analytic
 input after the installed reductions is the coupled two-scale Carleson theorem
 for \(\mathcal A_{\ell,r}\), not the Hardy/Schur summation and not a one-scale
 bound on \(\widetilde\Sigma_r\) alone.
+
+## 62. Selected atom ledger and the real coefficient burden
+
+Sections 51 and 59 close the raw atom attachment.  The selected version uses the
+same construction only after the selected detector has already been announced by
+the parent packet.  Multiplying by a child weight after the positive part has
+been clipped would create the old recounting error.
+
+Let \(dJ_P^{S}\) be the parent-announced selected pressure-Hodge/material
+residue on the stopped parent packet \(X_P\), before clipping, after route,
+collar, legal, stop, endpoint, and detector-motion leakage have been separated.
+Its zero-mass part is
+
+\[
+dJ_P^{S}=dJ_{P,0}^{S}+dR_P^{S},
+\qquad
+dJ_{P,0}^{S}(X_P)=0,
+\qquad
+|dR_P^{S}|
+\le
+d\Theta_P^0+dPaid_P+dStop_P+dE_P^{meter}.
+\tag{TFE2748B.506}
+\]
+
+Here \(dE_P^{meter}\) is the cost of making the selected meter parent-known.
+When the selected detector is inserted before clipping, \(dE_P^{meter}\) is
+exactly the full-exchange / Hodge / collar / frame / covector motion already
+routed in Sections 60 and 61.  When the detector is inserted late, the same term
+is the atom-ledger mismatch
+
+\[
+\int_{X_P\times X_P}
+\bigl(W_P(x)-W_P(y)\bigr)\,d\pi_P(x,y),
+\tag{TFE2748B.507}
+\]
+
+so it is leakage, not a free selected atom coefficient.
+
+Since the original solution is smooth on every stopped preterminal interval,
+\(dJ_{P,0}^{S}\) is a finite signed Radon measure.  Its Jordan decomposition and
+the product coupling give
+
+\[
+dJ_{P,0}^{S}
+=dJ_{P,+}^{S}-dJ_{P,-}^{S},
+\qquad
+dJ_{P,+}^{S}(X_P)=dJ_{P,-}^{S}(X_P)=m_P^{S},
+\tag{TFE2748B.508}
+\]
+
+and, for \(m_P^S>0\),
+
+\[
+d\pi_P^{S}(x,y)
+:=
+{dJ_{P,+}^{S}(x)dJ_{P,-}^{S}(y)\over m_P^{S}},
+\qquad
+\pi_P^{S}(X_P\times X_P)
+=m_P^{S}
+={1\over2}|dJ_{P,0}^{S}|(X_P),
+\tag{TFE2748B.509}
+\]
+
+with \(d\pi_P^S=0\) when \(m_P^S=0\).  Simple-measure approximation gives the
+selected atom ledger
+
+\[
+dJ_P^{S}
+=
+\sum_\alpha c_\alpha^{S}\,d\mu_\alpha^{S}
++dR_P^{S},
+\qquad
+\int_{X_P}d\mu_\alpha^{S}=0,
+\qquad
+\sum_\alpha |c_\alpha^{S}|
+\le
+{1\over2}|dJ_{P,0}^{S}|(X_P).
+\tag{TFE2748B.510}
+\]
+
+This proves the selected pre-clipping atom decomposition on every stopped
+preterminal parent packet.  The coefficient mass is finite because the original
+smooth packet is finite there.  The Gold-strength coefficient theorem is the
+root-uniform critical estimate
+
+\[
+\int_0^\tau
+\left[
+{1\over2}|dJ_{P,0}^{S}|(X_P,t)
++|(dR_P^{S})_+|(t)
+\right]dt
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau D_N(t)\,dt
++\Theta_P^0+Paid_P+Stop_P,
+\qquad \theta<1,
+\tag{TFE2748B.511}
+\]
+
+not the atomization itself.  `(TFE2748B.511)' is where the selected meter,
+full-exchange payment, and far-corona two-scale Carleson input must enter.  A
+finite preterminal atom ledger without `(TFE2748B.511)' has not proved terminal
+uniform \(L^1\) storage.
+
+The retained opposite lobe is the second marginal of the same selected atom
+ledger,
+
+\[
+dJ_{P,atom}^{S,ret,-}:=(\operatorname{pr}_2)_\#d\pi_P^{S}.
+\tag{TFE2748B.512}
+\]
+
+Define the selected atom reserve by
+
+\[
+M_P^{S,atom}(\tau)
+:=
+M_P^{S,atom}(0)
+-dJ_{P,atom}^{S,ret,-}\bigl([0,\tau]\times X_P\bigr),
+\qquad
+M_P^{S,atom}(0)
+:=
+\int_0^{T_P}dJ_{P,atom}^{S,ret,-}.
+\tag{TFE2748B.513}
+\]
+
+Then
+
+\[
+M_P^{S,atom}(\tau)\ge0,
+\qquad
+-dM_P^{S,atom}
+=dJ_{P,atom}^{S,ret,-}
+\quad\text{on the retained selected atom ledger.}
+\tag{TFE2748B.514}
+\]
+
+Thus the opposite lobe is a genuine bounded-below parent-reserve depletion in
+the selected pre-clipping ledger.  The positive selected bill is attached to
+that same ledger:
+
+\[
+(dJ_P^{S})_+
+\preceq_{atom}
+dJ_{P,atom}^{S,ret,-}+(dR_P^{S})_+.
+\tag{TFE2748B.515}
+\]
+
+Combining `(TFE2748B.511)' with `(TFE2748B.514)'--`(TFE2748B.515)' gives the
+usable storage line
+
+\[
+\int_0^\tau(dJ_P^{S})_+
+\le
+M_P^{S,atom}(0)-M_P^{S,atom}(\tau)
++\Theta_P^0+Paid_P+Stop_P
+\le
+C_N(u_0)
++\theta\nu\int_0^\tau D_N(t)\,dt
++\Theta_P^0+Paid_P+Stop_P .
+\tag{TFE2748B.516}
+\]
+
+So the construction requested here is exact: arbitrary original smooth data
+gives the pre-clipping atom ledger, controls finite stopped coefficients and
+leakage, and makes the retained opposite lobe a bounded-below parent reserve
+depletion.  The remaining Gold work is narrower and sharper: prove the
+root-uniform selected coefficient bound `(TFE2748B.511)' from the original
+coupled packet.  Section 61 identifies one active analytic input for that bound,
+the far-corona two-scale Carleson estimate, plus the full-exchange payment of
+the selected meter.
