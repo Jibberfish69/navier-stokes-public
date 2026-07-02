@@ -11220,3 +11220,153 @@ the construction of the one before-clipping full-exchange critical reserve
 selected price and the oscillation of that price both spend the same original
 full-exchange reserve, rather than one being generated as a later child
 readout.
+
+## 84. Retained heat-lag loop contraction discharges the parabolic part
+
+The strict storage line `(TFE2748B.715)' has one part that can be proved once
+the retained quotient has real heat-time thickness.  It is the retained
+heat-lag loop: material that has already left the zero-lag trace/source edge and
+is being read after a positive Stokes time.
+
+Split the coupled selected-critical bill of `(TFE2748B.714)' in the stopped
+parent packet as
+
+\[
+d\mathcal S_P^{crit}
+=
+d\mathcal S_P^{early}
++d\mathcal S_P^{ret}
++d\mathcal S_P^{paid},
+\tag{TFE2748B.721}
+\]
+
+where \(d\mathcal S_P^{early}\) contains sub-heat-lag trace/source material,
+zero-baseline first entry, positive-baseline log entry, and endpoint/collar
+material still at the pressure-compatible edge; \(d\mathcal S_P^{ret}\) is the
+same parent generator read after positive heat-lag; and
+\(d\mathcal S_P^{paid}\le d\Theta_P^0+dPaid_P+dStop_P\).
+
+On a retained fibre \(Q\), the before-clipping readout has the schematic
+parent form
+
+\[
+G_Q^{ret}
+=
+\Pi_Q e^{\nu\tau_Q\Delta_P}\Gamma_QG_P^{root}
++G_Q^{paid},
+\tag{TFE2748B.722}
+\]
+
+where \(G_P^{root}\) is the original parent generator, \(\Gamma_Q\) is the
+stopped parent localization/transport into the retained fibre, \(\Pi_Q\) is the
+selected detector/readout, and all frame, collar, Hodge-commutator,
+reselection, legal, and stop defects are in \(G_Q^{paid}\).  The detector is
+bounded on the retained quotient:
+
+\[
+\|\Pi_Q h\|^2\le C_{\Pi,N}^2\|h\|^2,
+\tag{TFE2748B.723}
+\]
+
+after the endpoint and low-high zero-lag detector branches have been removed
+into \(d\mathcal S_P^{early}\).  The retained quotient has heat thickness
+
+\[
+\nu\tau_Q|\xi_Q|^2\ge L_N
+\tag{TFE2748B.724}
+\]
+
+on the active frequency of the fibre.  Equivalently, the retained Stokes
+component has the parabolic Poincare contraction
+
+\[
+\|e^{\nu\tau_Q\Delta_P}\Gamma_Q h\|^2
+\le
+e^{-2c_P L_N}\|\Gamma_Q h\|^2 .
+\tag{TFE2748B.725}
+\]
+
+Combining `(TFE2748B.722)'--`(TFE2748B.725)' with stopped finite overlap gives
+
+\[
+d\mathcal S_P^{ret}(P')
+\le
+C_N C_{\Pi,N}^2 e^{-2c_PL_N}\,d\Omega_P^{gen}(P')
++d\Theta_P^0(P')+dPaid_P(P')+dStop_P(P').
+\tag{TFE2748B.726}
+\]
+
+Choose \(L_N\) so that
+
+\[
+C_N C_{\Pi,N}^2 e^{-2c_PL_N}\le {\vartheta\over2},
+\qquad
+C_N\vartheta<1 .
+\tag{TFE2748B.727}
+\]
+
+Then the retained heat-lag loop obeys the strict margin
+
+\[
+d\mathcal S_P^{ret}
+\le
+{\vartheta\over2}\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.728}
+\]
+
+Thus retained parabolic feedback cannot be the Gold source once the quotient is
+honestly retained.  It is a contracted readout of the same parent generator.
+The only uncontracted part is the early/source face:
+
+\[
+d\mathcal S_P^{early}
+\le
+C_N(d\rho_{crit,P}^{ac}+d\rho_{crit,P}^{entry})
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.729}
+\]
+
+If the early critical source itself has the same-parent storage
+
+\[
+d\rho_{crit,P}^{ac}+d\rho_{crit,P}^{entry}
+\le
+-dM_P^{src}
++{\vartheta\over2}\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{TFE2748B.730}
+\]
+
+with \(M_P^{src}\) bounded below from \(u_0\), then adding
+`(TFE2748B.728)' and `(TFE2748B.730)' gives `(TFE2748B.715)' with
+
+\[
+M_P^{FE,crit}:=M_P^{src}+M_P^{ret},
+\qquad
+dM_P^{ret}:=0
+\tag{TFE2748B.731}
+\]
+
+after paid defects are collected.  Therefore
+
+\[
+\boxed{
+\begin{array}{c}
+\text{honest retained heat thickness `(TFE2748B.724)' plus bounded retained
+detector `(TFE2748B.723)'}\\
+\text{proves the retained-loop part of FullExchangeCriticalDepletionStorage.A;}\\
+\text{the remaining nonconsumer source is early critical source storage
+`(TFE2748B.730)'.}
+\end{array}}
+\tag{TFE2748B.732}
+\]
+
+This is the pressure/heat-lag handoff in exact storage form.  Pressure-compatible
+zero-lag material is admitted as \(d\rho_{crit}^{ac}+d\rho_{crit}^{entry}\)
+before clipping; once material is retained for a positive heat time, viscosity
+contracts it by `(TFE2748B.725)'.  The open arbitrary-data work has therefore
+moved to proving that every sub-heat-lag selected trace is admitted into the
+early critical source ledger, and proving that the retained quotient really has
+the heat thickness `(TFE2748B.724)' after route, collar, legal, stop, and
+endpoint material are removed.
