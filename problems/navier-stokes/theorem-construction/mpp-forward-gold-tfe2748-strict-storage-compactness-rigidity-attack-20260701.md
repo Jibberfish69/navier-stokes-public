@@ -14887,3 +14887,125 @@ Once `(TFE2748B.968)' is proved, Sections 99--107 give
 `(TFE2748B.956)' and hence the critical capacity variation/storage line.  Until
 that storage-form capacitary domination is proved from arbitrary original smooth
 data, this section is a sharp equivalent proof target rather than Gold closure.
+
+## 108. Residual capacity failure is a subunit active-potential mode
+
+Section 107 turns the remaining selected \(L^1\) question into a parabolic
+capacity statement.  The failure of that statement has an exact variational
+form.  This is useful because it removes the last ambiguity between
+"large selected readout" and "real source": after \(M_P^{cap}\), route, legal,
+stop, endpoint, and collar material are removed, the only possible survivor is a
+parent active potential whose positive reaction beats its own viscous/Stokes
+capacity.
+
+Fix \(0<\vartheta\) with \(C_N\vartheta<1\) and define the stopped Rayleigh
+number of the residual potential by
+
+\[
+\lambda_P^{res}
+:=
+\inf_{\zeta\in C_c^\infty(P'),\ \int\zeta^2\,d\mathfrak v_P^{res}>0}
+{\displaystyle
+\vartheta\int_{P'}|\nabla_A\zeta|^2\,d\mathfrak m_P
++dE_P^0(P';\zeta)
+\over\displaystyle
+\int_{P'}\zeta^2\,d\mathfrak v_P^{res}} .
+\tag{TFE2748B.969}
+\]
+
+Then the residual capacity bound `(TFE2748B.963)' is equivalent to
+
+\[
+\lambda_P^{res}\ge1
+\qquad\text{on every stopped parent subpacket }P'.
+\tag{TFE2748B.970}
+\]
+
+Indeed, `(TFE2748B.963)' is exactly the assertion that the numerator in
+`(TFE2748B.969)' dominates the denominator for every parent test.  Conversely,
+if `(TFE2748B.963)' fails, there are stopped parent tests \(\zeta_j\ge0\) with
+
+\[
+\int\zeta_j^2\,d\mathfrak v_P^{res}=1,
+\qquad
+\vartheta\int|\nabla_A\zeta_j|^2\,d\mathfrak m_P
++dE_P^0(P';\zeta_j)
+\le1-\eta
+\tag{TFE2748B.971}
+\]
+
+for some \(\eta>0\).  The normalized failure is therefore a negative direction
+for the parent Schrödinger form
+
+\[
+\mathcal Q_P^{res}[\zeta]
+:=
+\vartheta\int|\nabla_A\zeta|^2\,d\mathfrak m_P
++dE_P^0(P';\zeta)
+-\int\zeta^2\,d\mathfrak v_P^{res}.
+\tag{TFE2748B.972}
+\]
+
+On a compact stopped parent chart, after quotienting paid zero-capacity
+sets into \(dE_P^0\), the direct method gives either a nonzero weak minimizer
+\(h_P\ge0\) or a tightness failure.  The tightness failure is not a new source:
+it is exactly collar, endpoint, reset, legal, stop, or paid reselection escape
+and is already in \(dE_P^0\).  Thus any genuine uncharged failure has a parent
+mode \(h_P\) satisfying
+
+\[
+\int h_P^2\,d\mathfrak v_P^{res}=1,
+\qquad
+\vartheta\int|\nabla_Ah_P|^2\,d\mathfrak m_P
++dE_P^0(P';h_P)
+=\lambda_P^{res}<1,
+\tag{TFE2748B.973}
+\]
+
+and, in weak form,
+
+\[
+\vartheta\int\langle\nabla_Ah_P,\nabla_A\phi\rangle\,d\mathfrak m_P
++dE_P^0(h_P,\phi)
+=
+\lambda_P^{res}\int h_P\phi\,d\mathfrak v_P^{res}
+\tag{TFE2748B.974}
+\]
+
+for every parent-announced test \(\phi\).
+
+Multiplying the mode by the entropy variable \(U_P\) identifies the physical
+meaning of the failure.  Since \(U_P^2\,d\mathfrak v_P^{res}\) is the residual
+positive selected log-meter bill after the parent reserve drop, `(TFE2748B.973)'
+says that the same stopped packet carries a positive selected reaction whose
+weighted gain exceeds the viscous/Stokes capacity allowed to read it:
+
+\[
+\int h_P^2
+\bigl(dQ_P^{meter}+[d\mathcal C_P^{crit}]_+ + dM_P^{cap}-dE_P^0\bigr)
+>
+\vartheta\int|\nabla_A(h_PU_P)|^2\,d\mathfrak m_P
+\quad\text{mod paid commutators.}
+\tag{TFE2748B.975}
+\]
+
+Consequently `ParentActivePotentialCapacityDomination.A' can be attacked by the
+following equivalent no-mode statement:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{NoSubunitParentActivePotentialMode.A: after all bounded-below reserve}\\
+\texttt{drops and paid exits are removed, no parent-announced mode \(h_P\) can}\\
+\texttt{satisfy `(TFE2748B.973)'--`(TFE2748B.974)' for the residual active}\\
+\texttt{potential of the original coupled packet.}
+\end{array}}
+\tag{TFE2748B.976}
+\]
+
+This is now the exact compactness/rigidity face of the same theorem.  Proving
+`(TFE2748B.976)' from the original coupled pressure-viscosity-incompressibility
+packet supplies `(TFE2748B.966)', hence `(TFE2748B.965)', hence the
+critical-capacity variation/storage line.  The proof is still open at this
+no-subunit-mode theorem; the point of this section is that any counterexample is
+now a concrete stopped parent eigenmode, not an uncatalogued child recount.
