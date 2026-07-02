@@ -171,7 +171,7 @@ chunk:
     text: |+
       \subsection{Periodic T3 Closed Surface After R3 Conditional Branch}
 
-      The periodic T 3 branch remains the closed theorem-program surface after the whole-space R 3 branch analysis.
+      The periodic T 3 branch remains conditional on the coupled same-parent storage input after the whole-space R 3 branch analysis.
 
       \[
       u_0\in C^\infty_\sigma(\mathbb T^3),
@@ -189,7 +189,7 @@ chunk:
 
       The attempted exterior cascade theorem Ext Cascade s R3 does not close from current inputs.
 
-      R3 conditional notes must not reopen or contaminate the closed periodic theorem surface. They also must not be used as whole-space release evidence without a dedicated R3 matrix containing the high-order tail row.
+      R3 conditional notes must not be used as whole-space release evidence, and they must not convert the current conditional periodic route into a closed theorem surface without a dedicated R3 matrix containing the high-order tail row.
 
       \[
       T^3:\quad closed\text{ theorem-program surface}.
@@ -448,13 +448,13 @@ chunk:
     the H s bound because N>s+2. The periodic local theory in H s, s>5/2, continues
     the classical solution past any finite endpoint with bounded H s norm.\n\n\n\n\\subsection{Periodic
     T3 Closed Surface After R3 Conditional Branch}\n\nThe periodic T 3 branch remains
-    the closed theorem-program surface after the whole-space R 3 branch analysis.\n\n\\[\nu_0\\in
+    the conditional theorem-program surface after the whole-space R 3 branch analysis.\n\n\\[\nu_0\\in
     C^\\infty_\\sigma(\\mathbb T^3),\n\\qquad\n\\int_{\\mathbb T^3}u_0\\,dx=0\n\\Longrightarrow\nu\\in
     C^\\infty([0,\\infty)\\times\\mathbb T^3).\n\\]\n\nThe compactness, finite-cover
     readout, zero-mean pressure normalization, and finite-cover Sobolev patching are
     all periodic-branch features.\n\n\\[\nTailFace_{R^3}^{Hs}.\n\\]\n\nThe attempted
     exterior cascade theorem Ext Cascade s R3 does not close from current inputs.\n\nR3
-    conditional notes must not reopen or contaminate the closed periodic theorem surface.
+    conditional notes must not convert the periodic route into a closed theorem surface.
     They also must not be used as whole-space release evidence without a dedicated
     R3 matrix containing the high-order tail row.\n\n\\[\nT^3:\\quad closed\\text{
     theorem-program surface}.\n\\]\n\n\\[\nR^3:\\quad conditional\\text{ extension

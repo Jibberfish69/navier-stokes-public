@@ -34,7 +34,7 @@ AUTHORITY_MARKERS = {
   "problems/navier-stokes/theorem-packet.yaml" => [
     "current_authority_override_20260702",
     "summation-type custody audit",
-    "TFE2748B coupled-storage loop audit",
+    "coupled-storage",
     "noncircular same-parent coupled"
   ],
   "problems/navier-stokes/submission-bundle/submission-export-status.yaml" => [
