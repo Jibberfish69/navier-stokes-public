@@ -11370,3 +11370,170 @@ moved to proving that every sub-heat-lag selected trace is admitted into the
 early critical source ledger, and proving that the retained quotient really has
 the heat thickness `(TFE2748B.724)' after route, collar, legal, stop, and
 endpoint material are removed.
+
+## 85. Early source split after the raw atom theorem
+
+Section 82 proves the requested signed atom construction from arbitrary smooth
+original data before clipping.  Section 84 then shows that retained positive
+heat-lag readouts are contracted once they have real heat thickness.  The early
+source face in `(TFE2748B.730)' is therefore not another atomization problem.
+It is the point where the parent packet must supply the selected-critical size
+of the already paired atom ledger.
+
+Split the early source into the absolutely continuous positive-baseline log
+part and the zero-baseline first-entry part:
+
+\[
+d\rho_{crit,P}^{src}
+:=
+d\rho_{crit,P}^{ac}
++d\rho_{crit,P}^{entry}.
+\tag{TFE2748B.733}
+\]
+
+On the positive-baseline branch the selected meter is already a parent density.
+Let \(f_P>0\) be its density relative to the stopped parent active reserve
+\(dR_P^{root}\), and set
+
+\[
+\Phi(r):=r\log r-r+1,\qquad
+\mathcal H_P^{ac}(t):=\int_{X_P}\Phi(f_P(t))\,dR_P^{root}.
+\tag{TFE2748B.734}
+\]
+
+When the before-clipping parent-announced density obeys the coupled
+transport-diffusion identity `(TFE2748B.78)' on this branch, the transport part
+has zero \(R_P^{root}\)-divergence and the heat/Stokes part gives
+
+\[
+d\mathcal H_P^{ac}
++
+\int_{X_P}
+{\langle A_t\nabla_R f_P,\nabla_R f_P\rangle\over f_P}
+\,dR_P^{root}dt
+\le
+d\sigma_P^{geom}+d\sigma_P^{paid}.
+\tag{TFE2748B.735}
+\]
+
+Here \(d\sigma_P^{geom}\) contains exactly the positive variation of the
+parent-fixed critical meter caused by the moving Hodge frame, transported
+covectors, collar, selector, route, and endpoint geometry.  It is not a new
+force account; it is the cost of writing the same coupled transaction in the
+stopped parent coordinates.
+
+The positive-baseline source is the log-amplification spent by this same
+branch.  In parent notation it satisfies
+
+\[
+d\rho_{crit,P}^{ac}
+\le
+c_N
+\int_{X_P}
+{\langle A_t\nabla_R f_P,\nabla_R f_P\rangle\over f_P}
+\,dR_P^{root}dt
++d\sigma_P^{geom}+d\sigma_P^{paid},
+\tag{TFE2748B.736}
+\]
+
+because \(\Phi\) is the exact superlinear parent-scale counter for the selected
+price: bounded-price material is paid by the raw atom reserve of Section 82,
+and the high-price tail is controlled by the layer-cake/de la
+Vallee-Poussin estimate `(TFE2748B.673)'--`(TFE2748B.678)'.  Combining
+`(TFE2748B.735)' and `(TFE2748B.736)' gives the ac storage line
+
+\[
+d\rho_{crit,P}^{ac}
+\le
+-dM_P^{ac}
++d\sigma_P^{geom}+d\sigma_P^{paid},
+\qquad
+M_P^{ac}:=c_N\mathcal H_P^{ac}\ge0.
+\tag{TFE2748B.737}
+\]
+
+Thus the positive-baseline branch is an entropy-depletion branch once the
+selected density is genuinely parent-announced before clipping.  The remaining
+geometric part is a consumer of the already isolated active generator:
+
+\[
+d\sigma_P^{geom}
+\le
+{\vartheta\over4}\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+C_N\vartheta<1.
+\tag{TFE2748B.738}
+\]
+
+With `(TFE2748B.738)' inserted, `(TFE2748B.737)' becomes
+
+\[
+d\rho_{crit,P}^{ac}
+\le
+-dM_P^{ac}
++{\vartheta\over4}\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P.
+\tag{TFE2748B.739}
+\]
+
+The zero-baseline first-entry part is different.  It has no positive parent
+density before the entry event, so it cannot be produced by the log branch
+`(TFE2748B.735)' without circularly defining the reserve from the future child
+tail.  The needed first-entry reserve is
+
+\[
+d\rho_{crit,P}^{entry}
+\le
+-dM_P^{entry}
++{\vartheta\over4}\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+M_P^{entry}\ge-C_N(u_0)\mathcal R(P)-Paid(P)-Stop(P).
+\tag{TFE2748B.740}
+\]
+
+This is the singular endpoint/first-birth part of the source theorem: the
+initial critical atom has to be admitted into the original parent reserve before
+the child can read it as selected action.  It is not supplied by raw
+zero-mean atom pairing alone, because raw pairing controls unweighted lobe mass
+while `(TFE2748B.740)' asks for terminal-uniform selected-critical root size.
+
+Consequently the early source storage `(TFE2748B.730)' follows from the three
+nonduplicate inputs
+
+\[
+\begin{array}{c}
+\text{parent-announced ac density and entropy identity `(TFE2748B.735)',}\\
+\text{paid geometric/capacity positive variation `(TFE2748B.738)',}\\
+\text{zero-baseline first-entry reserve `(TFE2748B.740)'.}
+\end{array}
+\tag{TFE2748B.741}
+\]
+
+Indeed, adding `(TFE2748B.739)' and `(TFE2748B.740)' gives
+
+\[
+d\rho_{crit,P}^{ac}+d\rho_{crit,P}^{entry}
+\le
+-d(M_P^{ac}+M_P^{entry})
++{\vartheta\over2}\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{TFE2748B.742}
+\]
+
+which is exactly `(TFE2748B.730)' with
+
+\[
+M_P^{src}:=M_P^{ac}+M_P^{entry}.
+\tag{TFE2748B.743}
+\]
+
+Combining `(TFE2748B.742)' with the retained-loop contraction
+`(TFE2748B.728)' gives the full-exchange storage line `(TFE2748B.715)'.
+Therefore the current theorem state is precise: the signed same-parent atomic
+decomposition, coefficient/leakage control, and raw retained opposite-lobe
+reserve are already constructed from arbitrary smooth original data before
+clipping; the remaining source work is proving the parent-announced selected
+ac density/geometric-variation clauses and the zero-baseline first-entry
+reserve without defining either one from a future selected child tail.
