@@ -8366,11 +8366,11 @@ The global energy inequality supplies the missing lower-band coefficient bound:
 \[
 2^{-3k}D_k(t)
 =
-2^k\|\Delta_k u(t)\|_2^2
+2^{-k}\|\Delta_k u(t)\|_2^2
 \le
-2^k\|u(t)\|_2^2
+2^{-k}\|u(t)\|_2^2
 \le
-2^k\|u_0\|_2^2 .
+2^{-k}\|u_0\|_2^2 .
 \tag{TFE2748B.531}
 \]
 
