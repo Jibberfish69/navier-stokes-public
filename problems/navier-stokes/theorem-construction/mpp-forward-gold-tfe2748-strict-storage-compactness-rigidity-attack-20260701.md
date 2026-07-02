@@ -10482,3 +10482,159 @@ atomic decomposition, coefficient control, or lobe pairing.  It is the
 root-uniform selected-critical size/payment of that already paired reserve,
 equivalently the strict aligned-current/no-free-upward-transfer estimate
 identified in Sections 65--77.
+
+## 79. The selected root-size wall is atom-weight uniform integrability
+
+Section 78 leaves one object, and it is exact.  Let
+
+\[
+d\Pi_P:=d\pi_P
+\tag{TFE2748B.671}
+\]
+
+be the positive measure on the same-parent atom ledger, and let
+\(W_P^{crit}\ge0\) be the selected-critical meter already pulled back to that
+ledger before child clipping.  The selected root size is
+
+\[
+\mathfrak M_P^{crit}
+=
+\int W_P^{crit}\,d\Pi_P .
+\tag{TFE2748B.672}
+\]
+
+The exact continuum counting formula is the layer-cake identity
+
+\[
+\mathfrak M_P^{crit}
+=
+\int_0^\infty
+\Pi_P\bigl(\{W_P^{crit}>\lambda\}\bigr)\,d\lambda .
+\tag{TFE2748B.673}
+\]
+
+This is the parent-scale integral.  Dyadic shells may approximate
+`(TFE2748B.673)', but they are not the physical object and cannot be counted as
+new child units.  The ontology is one atom ledger with a continuum of selected
+prices.
+
+For \(L>0\), split
+
+\[
+\mathfrak M_P^{crit}
+=
+\int_{\{W_P^{crit}\le L\}}W_P^{crit}\,d\Pi_P
++
+\int_{\{W_P^{crit}>L\}}W_P^{crit}\,d\Pi_P .
+\tag{TFE2748B.674}
+\]
+
+The first part is finite-price raw atom material:
+
+\[
+\int_{\{W_P^{crit}\le L\}}W_P^{crit}\,d\Pi_P
+\le
+L\,\Pi_P(X_P\times X_P)
+=
+L\,m_P .
+\tag{TFE2748B.675}
+\]
+
+Thus the finite-price part uses only the raw atom reserve of Section 78.  The
+Gold issue is the high-price tail.  A parent-announced de la
+Vallee-Poussin/Orlicz reserve for the selected meter is any superlinear
+increasing function \(\Psi\), with \(\Psi(r)/r\to\infty\), such that locally on
+stopped parent subpackets
+
+\[
+\int \Psi(W_P^{crit})\,d\Pi_P
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad C_N\theta<1 .
+\tag{TFE2748B.676}
+\]
+
+If \(\Psi(r)/r\) is nondecreasing for large \(r\), then for \(r>L\)
+
+\[
+r\le {L\over \Psi(L)}\Psi(r),
+\tag{TFE2748B.677}
+\]
+
+and hence
+
+\[
+\int_{\{W_P^{crit}>L\}}W_P^{crit}\,d\Pi_P
+\le
+{L\over\Psi(L)}
+\int \Psi(W_P^{crit})\,d\Pi_P .
+\tag{TFE2748B.678}
+\]
+
+Equations `(TFE2748B.674)'--`(TFE2748B.678)' are the exact selected-root-size
+mechanism: raw atom reserve pays every bounded-price readout, while a
+superlinear parent Orlicz reserve kills the high-price tail.  In the local
+stopped form, `(TFE2748B.676)' is equivalent to the finite active entropy /
+selected log-amplification source package already isolated in Sections 34,
+39, 41, and 66.
+
+Therefore the selected-critical upgrade `(TFE2748B.669)' follows from the
+atom-ledger uniform-integrability theorem
+
+\[
+\boxed{
+\texttt{AtomLedgerSelectedCriticalUniformIntegrability.A `(TFE2748B.676)'.}
+}
+\tag{TFE2748B.679}
+\]
+
+Conversely, after the finite-price raw atom reserve and all paid leakage are
+removed, failure of `(TFE2748B.669)' has only one normalized form.  There are
+stopped parent packets \(P_n\) such that
+
+\[
+\int W_{P_n}^{crit}\,d\Pi_{P_n}=1,
+\tag{TFE2748B.680}
+\]
+
+while the right side of `(TFE2748B.669)' tends to zero.  For every fixed
+\(L<\infty\), the bounded-price part is then paid or vanishes:
+
+\[
+\int_{\{W_{P_n}^{crit}\le L\}}W_{P_n}^{crit}\,d\Pi_{P_n}
+\longrightarrow0 .
+\tag{TFE2748B.681}
+\]
+
+Hence the whole selected mass escapes to infinite critical price:
+
+\[
+\lim_{L\to\infty}\liminf_{n\to\infty}
+\int_{\{W_{P_n}^{crit}>L\}}W_{P_n}^{crit}\,d\Pi_{P_n}
+=1 .
+\tag{TFE2748B.682}
+\]
+
+Equivalently, the family \(W_{P_n}^{crit}\,d\Pi_{P_n}\) is not uniformly
+integrable with respect to the already constructed parent atom ledger.  By the
+de la Vallee-Poussin criterion, `(TFE2748B.682)' is exactly the failure of every
+superlinear parent Orlicz estimate of the form `(TFE2748B.676)'.
+
+This is the sharpened physical meaning of the remaining wall.  The bad branch
+is not an unpaired pressure atom, not a new child event, and not a dyadic
+counting artifact.  It is one same-parent signed atom ledger whose selected
+critical price \(W_P^{crit}\) can become arbitrarily large on smaller and
+smaller retained pieces without a parent-announced entropy/log-amplification
+reserve charging that price before clipping.
+
+Thus the active arbitrary-data source theorem has now been localized to the
+production of `(TFE2748B.676)' from the original coupled
+pressure-viscosity-incompressibility-velocity packet.  In the language of
+Sections 35--36 this is entropy-weighted current domination; in Sections
+39--40 it is positive logarithmic selected-meter motion dominated by past-built
+critical storage and Fisher dissipation; in Sections 65--66 it is the
+selected-amplification/current Carleson producer.  These are equivalent faces
+of the same parent Orlicz uniform-integrability law on the atom ledger, not
+separate reservoirs.
