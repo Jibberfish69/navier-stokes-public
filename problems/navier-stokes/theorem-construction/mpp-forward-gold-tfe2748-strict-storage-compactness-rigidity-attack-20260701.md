@@ -12597,7 +12597,8 @@ consumption chain
 
 \[
 \boxed{
-\texttt{OriginalHistorySelectedAmplificationCurrentCarleson.A}
+\texttt{OriginalHistorySelectedAmplificationCurrentCarlesonStorage.A}
+\texttt{ `(TFE2748B.811)'--`(TFE2748B.812)'}
 \Longrightarrow
 \texttt{CriticalCapacityVariationStorage.A `(TFE2748B.801)'.}
 }
@@ -12611,3 +12612,6 @@ and prove the root Carleson/BV/testing storage `(TFE2748B.811)' without defining
 \(\mathfrak Z_P^S\) from the future selected tail.  The weighted atom identity
 and the martingale exponential absorption are now consumers; the remaining
 producer is the original-history amplification-current Carleson/storage theorem.
+The finite Carleson package `(TFE2748B.547)' is support for this statement; the
+strict storage and root-reserve clauses `(TFE2748B.811)'--`(TFE2748B.812)' are
+the still-unproved original-data supply.
