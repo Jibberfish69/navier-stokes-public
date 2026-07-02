@@ -109,8 +109,11 @@ Here \(\rho_Q^{fresh}\) includes the pressure-visible Schur quotient, silent
 source exchange, material Hodge/projector motion, annular stress work,
 viscous/radius service, and frequency-native entrance/refill coordinate.
 
-The local result does not give the root upper bound.  The surviving Gold
-producer is the selected-critical fresh-source tent estimate:
+The local result does not give the root upper bound.  The surviving displayed
+coordinate is the selected-critical fresh-source tent projection of the
+original-history parent ledger; it is Littlewood-Paley/weighted parent-ledger
+bookkeeping after the fresh source increments exist, not the physical producer
+itself:
 
 ```math
 \sum_{Q\subset P}
