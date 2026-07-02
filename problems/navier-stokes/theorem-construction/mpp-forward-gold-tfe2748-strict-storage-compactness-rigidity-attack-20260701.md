@@ -9881,3 +9881,134 @@ of those hypotheses is charged as \(K_C^+\).  What remains as genuine
 original-data content is now narrower: prove that relay production for this
 tail-aligned carrier and prove the canonical zero-loss aligned-current rigidity
 `(TFE2748B.629)'.
+
+## 75. Canonical lossless aligned-current rigidity is discharged
+
+Section 74 separates two different objects.  The raw weak limit
+\(\lambda_\ast\) may contain a singular selected-carrier defect.  The canonical
+carrier \(\lambda[U,\Pi]\) is different: it is the carrier computed from the
+limiting coupled pressure-viscosity-incompressibility-velocity packet itself,
+using the same retained tail detector before positive clipping.  Once the
+Body-III relay has identified the weak limit with that canonical carrier, the
+zero-loss rigidity is a density-level statement.
+
+On the retained compact quotient define the canonical Fisher carrier by
+
+\[
+i[U,\Pi]
+:=
+\Phi''(F[U,\Pi])\,
+\langle A[U,\Pi]\nabla_{\mathfrak m}F[U,\Pi],
+\nabla_{\mathfrak m}F[U,\Pi]\rangle,
+\qquad
+dI[U,\Pi]=i[U,\Pi]\,d\mathfrak m .
+\tag{TFE2748B.631}
+\]
+
+The canonical tail-aligned positive carrier is absolutely continuous with
+respect to the same parent measure:
+
+\[
+d\lambda[U,\Pi]
+=h^{tail}[U,\Pi]\,d\mathfrak m,
+\qquad
+h^{tail}[U,\Pi]
+:=
+\Bigl[
+-\Phi''(F[U,\Pi])\,
+\langle\nabla_{\mathfrak m}F[U,\Pi],
+J_{\Psi}^{tail}[U,\Pi]\rangle
+\Bigr]_+ .
+\tag{TFE2748B.632}
+\]
+
+Here \(J_{\Psi}^{tail}[U,\Pi]\) is the same recombined Hodge-Stokes shell
+current from `(TFE2748B.577)'--`(TFE2748B.578)', after the selected tail detector
+has been pulled back into the parent packet.  The formula is not pressure-only:
+all pressure, viscosity, incompressibility, self-advection, cutoff, Hodge, and
+frame terms are present before the route/collar/paid/stop pieces are separated.
+
+On the retained active quotient the metric is elliptic and the meter is inside
+the nondegenerate convex range:
+
+\[
+\langle A[U,\Pi]\zeta,\zeta\rangle\ge c_K|\zeta|^2,
+\qquad
+\Phi''(F[U,\Pi])\ge c_\Phi>0 ,
+\tag{TFE2748B.633}
+\]
+
+after the null-metric, collar, endpoint, legal, and stop pieces have been moved
+to \(d\Theta^0+dPaid+dStop+dK_C^+\).  Therefore the lossless hypothesis in
+`(TFE2748B.629)' gives, as nonnegative measures,
+
+\[
+dI[U,\Pi]=d\Theta^0[U,\Pi]=dPaid[U,\Pi]=dStop[U,\Pi]=0,
+\qquad
+dK_C^+[U,\Pi]=0.
+\tag{TFE2748B.634}
+\]
+
+From `(TFE2748B.631)'--`(TFE2748B.633)' this forces
+
+\[
+\nabla_{\mathfrak m}F[U,\Pi]=0
+\qquad
+d\mathfrak m\text{-a.e. on the retained active quotient.}
+\tag{TFE2748B.635}
+\]
+
+Substituting `(TFE2748B.635)' into the canonical density `(TFE2748B.632)' gives
+
+\[
+h^{tail}[U,\Pi]=0
+\qquad d\mathfrak m\text{-a.e.},
+\qquad
+\lambda[U,\Pi]=0 .
+\tag{TFE2748B.636}
+\]
+
+There is no remaining singular numerator in this canonical statement.  A
+singular positive aligned-current remnant would mean that the weak selected
+carrier was not represented by the canonical density `(TFE2748B.632)'.  By
+Section 74 that mismatch is exactly the Body-III interior relay defect:
+
+\[
+(\lambda_\ast-\lambda[U,\Pi])^+(C)
+=K_{C,tail}^{int,+}
+\le K_C^+ .
+\tag{TFE2748B.637}
+\]
+
+Thus \(dK_C^+=0\) removes the noncanonical singular remnant, and
+`(TFE2748B.631)'--`(TFE2748B.636)' remove the canonical absolutely continuous
+carrier.  This proves the canonical zero-loss aligned-current rigidity:
+
+\[
+\boxed{
+\texttt{CanonicalLosslessAlignedCurrentRigidity.A `(TFE2748B.629)' is proved.}
+}
+\tag{TFE2748B.638}
+\]
+
+Consequently the no-ghost reduction becomes
+
+\[
+\boxed{
+\texttt{BodyIIIRelayPaymentForTailAlignedCarrier.A `(TFE2748B.621)'--`(TFE2748B.628)'}
+\Longrightarrow
+\texttt{ZeroSourceAlignedCurrentNoGhost.A}
+\Longrightarrow
+\texttt{ParentComparisonPositiveSurplus.A `(TFE2748B.351)'.}
+}
+\tag{TFE2748B.639}
+\]
+
+After Section 75, the remaining original-data content is exactly the Body-III
+relay production for the full coupled tail-aligned carrier before clipping:
+prove the local \(L^1\) density identification `(TFE2748B.625)' on the retained
+same-carrier packet, or charge every failure of carrier/cutoff/selector/rung,
+pressure trace, product convergence, retained thickness, and frame custody as
+\(K_C^+\).  The signed atom decomposition, coefficient/leakage control,
+retained opposite-lobe depletion, and canonical zero-loss no-ghost rigidity are
+now installed support results, not the active source wall.
