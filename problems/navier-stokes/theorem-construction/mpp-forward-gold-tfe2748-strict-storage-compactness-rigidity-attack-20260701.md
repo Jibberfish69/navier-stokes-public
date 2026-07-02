@@ -18664,7 +18664,7 @@ dJ_P^{raw}
 \widetilde J_P^{raw}(X_P)=0,
 \qquad
 |dR_P^{raw}|
-\le d\Theta_P^0+dPaid_P+dStop_P .
+\le d\Theta_P^0+dPaid_P+dLegal_P+dStop_P .
 \tag{TFE2748B.1214}
 \]
 
@@ -18744,7 +18744,7 @@ motion, legal terms, and stop terms are exactly the leakage already placed in
 + |dR_P^{raw}|(t)
 \le
 C_N\|\nabla u(t)\|_2^2
-+d\Theta_P^0(t)+dPaid_P(t)+dStop_P(t),
++d\Theta_P^0(t)+dPaid_P(t)+dLegal_P(t)+dStop_P(t),
 \tag{TFE2748B.1221}
 \]
 
@@ -18754,7 +18754,8 @@ and the Leray energy inequality yields, for every \(\tau<T_*\),
 \int_0^\tau\sum_\alpha |c_\alpha(t)|\,dt
 \le
 C_N{\|u_0\|_2^2\over\nu}
-+\Theta_P^0([0,\tau])+Paid_P([0,\tau])+Stop_P([0,\tau]).
++\Theta_P^0([0,\tau])+Paid_P([0,\tau])
++Legal_P([0,\tau])+Stop_P([0,\tau]).
 \tag{TFE2748B.1222}
 \]
 
@@ -18774,7 +18775,7 @@ Preallocate the raw parent reserve by the initial-data coefficient budget,
 M_P^{raw}(0)
 :=
 C_N{\|u_0\|_2^2\over\nu}
-+\Theta_P^0(X_P)+Paid_P(X_P)+Stop_P(X_P),
++\Theta_P^0(X_P)+Paid_P(X_P)+Legal_P(X_P)+Stop_P(X_P),
 \tag{TFE2748B.1224}
 \]
 
@@ -18824,7 +18825,7 @@ dJ_{P,atom}^{ret,-}\le -dM_P^{raw},
 \tag{TFE2748B.1228}
 \]
 
-with all unpaired leakage in \(d\Theta_P^0+dPaid_P+dStop_P\).
+with all unpaired leakage in \(d\Theta_P^0+dPaid_P+dLegal_P+dStop_P\).
 
 The tower face in `(TFE2748B.1211)' now has only the selected-critical upgrade
 left.  If the selected meter \(W_P\) is already pulled into the parent adjoint,
@@ -18836,7 +18837,7 @@ requires the root-uniform weighted estimate
 \le
 -dM_P^{crit}
 +\theta\,d\Omega_P^{gen}
-+d\Theta_P^0+dPaid_P+dStop_P,
++d\Theta_P^0+dPaid_P+dLegal_P+dStop_P,
 \qquad
 C_N\theta<1,
 \tag{TFE2748B.1229}
@@ -18911,7 +18912,7 @@ preallocated atom budget
 B_P^{atom}
 :=
 C_N{\|u_0\|_2^2\over\nu}
-+\Theta_P^0(X_P)+Paid_P(X_P)+Stop_P(X_P),
++\Theta_P^0(X_P)+Paid_P(X_P)+Legal_P(X_P)+Stop_P(X_P),
 \tag{TFE2748B.1233}
 \]
 
