@@ -23531,3 +23531,137 @@ arbitrary-original-data producer is the preallocated critical source storage
 \(M_P^{crit}\) bounded below.  Once `(TFE2748B.1541a)' is installed
 noncircularly, Section 166 gives `(TFE2748B.1547)' and Section 165 gives
 `CriticalCapacityVariationStorage.A'.
+
+## 167. The preallocated critical source is the finite-excess/full-exchange zero-profit face
+
+The last line of Section 166 should not be read as a broad new capacity wall.
+In the current proof state, `(TFE2748B.1541a)' is the current-numbered form of
+the finite active-potential excess / full-exchange zero-profit storage already
+isolated in Sections 107--132.
+
+Write
+
+\[
+dZ_P^{crit}:=d\rho_{crit,P}^{ac}+d\rho_{crit,P}^{entry}.
+\tag{TFE2748B.1549}
+\]
+
+Sections 107--109 split the before-clipping parent active potential into a
+subunit capacitary residual and super-capacitary excess:
+
+\[
+d\mathfrak v_P^{crit}
+=d\mathfrak v_P^{res}+d\mathfrak v_P^{exc},
+\qquad
+\mathfrak v_P^{res}(K)
+\le
+\vartheta\,\operatorname{Cap}_{A,P}(K)+E_P^0(K),
+\qquad C_N\vartheta<1.
+\tag{TFE2748B.1550}
+\]
+
+If the finite-excess estimate holds,
+
+\[
+\sup_{\tau<T_*}
+\int_{[0,\tau]\times X_P}U_P^2\,d\mathfrak v_P^{exc}
+\le C_N(u_0)+Paid_P+Legal_P+Stop_P,
+\tag{TFE2748B.1551}
+\]
+
+then the reserve
+
+\[
+M_P^{cap}(s):=
+B_P^{cap}
+-
+\int_{[0,s]\times X_P}U_P^2\,d\mathfrak v_P^{exc}
+\tag{TFE2748B.1552}
+\]
+
+is bounded below from the original data and satisfies
+\(-dM_P^{cap}=U_P^2\,d\mathfrak v_P^{exc}\).  Combining this reserve with the
+reversible flux reserve and the residual capacity bound gives
+
+\[
+dZ_P^{crit}
+\le
+-dM_P^{crit}
+\theta_{crit}d\Omega_P^{gen}
+d\Theta_P^0+dPaid_P,
+\qquad C_N\theta_{crit}<1,
+\tag{TFE2748B.1553}
+\]
+
+with \(M_P^{crit}:=M_P^{rev}+M_P^{cap}\) after constants and paid/legal/stop
+terms are absorbed.  This is exactly `(TFE2748B.1541a)' in the notation of
+Section 166.  Thus
+
+\[
+\boxed{
+\texttt{FiniteCapacitaryExcess.A `(TFE2748B.1551)'}
+\Longrightarrow
+\texttt{preallocated critical source storage `(TFE2748B.1541a)'.}}
+\tag{TFE2748B.1554}
+\]
+
+Sections 123--128 identify `(TFE2748B.1551)' as the same statement in
+shell/full-exchange language.  The active-tail square is produced by a shell
+storage derivative plus the signed lifted full-output transfer; the signed
+lifted transfer is a moving-interface readout of the parent full-exchange
+ledger; and the moving-interface ledger is a bounded projection of the original
+before-clipping full-exchange critical ledger.  Therefore the current
+nonduplicate sufficient source is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{BeforeClippingActiveDensityComparison.A}\\
++\texttt{FullExchangeCriticalCompactness.A}\\
++\texttt{ZeroCostFullExchangeCriticalRigidity.A}
+\end{array}
+\Longrightarrow
+\texttt{FiniteCapacitaryExcess.A}
+\Longrightarrow
+\texttt{`(TFE2748B.1541a)'.}}
+\tag{TFE2748B.1555}
+\]
+
+Conversely, after the raw pressure-Hodge atom theorem, endpoint admission,
+bounded detector projection, reversible entropy-flux pairing, route, return,
+legal, stop, and paid leakage are removed, a failure of `(TFE2748B.1541a)' has
+only the full-exchange zero-profit forms already isolated in Section 126:
+
+\[
+\neg\texttt{`(TFE2748B.1541a)'}
+\Longrightarrow
+\neg\texttt{BeforeClippingActiveDensityComparison.A}
+\ \vee\
+\neg\texttt{FullExchangeCriticalCompactness.A}
+\ \vee\
+\neg\texttt{ZeroCostFullExchangeCriticalRigidity.A}.
+\tag{TFE2748B.1556}
+\]
+
+So the current source has one parent object in three coordinates:
+
+\[
+\boxed{
+\texttt{preallocated critical source storage}
+\equiv
+\texttt{finite capacitary excess}
+\equiv
+\texttt{full-exchange zero-profit storage,}
+}
+\tag{TFE2748B.1557}
+\]
+
+where the equivalence is understood inside the stopped endpoint-admitted
+parent ledger after the installed consumer clauses have been removed.  This is
+not Gold closure.  The arbitrary-original-data proof still required is to
+construct the before-clipping active-density comparison and prove the
+compactness/tightness plus zero-cost rigidity of the same parent full-exchange
+critical ledger.  Once those clauses are proved, `(TFE2748B.1555)' gives
+`(TFE2748B.1541a)', Section 166 gives `(TFE2748B.1547)', Section 165 gives
+`CriticalCapacityVariationStorage.A', and the downstream Gold relays become
+pure consumers.
