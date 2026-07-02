@@ -20518,26 +20518,32 @@ g_P^+:=\bigl[\mathcal L_P\log W_P^{crit}\bigr]_+ .
 \]
 
 For \(\Phi(r)=r\log(e+r)\) and
-\(U(r)=\int_0^r\sqrt{\Phi''(s)}\,ds\), the coefficient satisfies
+\(U(r)=\int_0^r\sqrt{\Phi''(s)}\,ds\), set
 
 \[
-c^{-1}\log(e+r)
-\le
-{\Phi'(r)r\over U(r)^2}
-\le
-c\log(e+r)
-\qquad(r\ge r_0),
+a_\Phi(r):={\Phi'(r)r\over U(r)^2}.
 \tag{TFE2748B.1339}
 \]
 
-with the small-\(r\) range absorbed into \(dE_P^0\) and the fixed finite chart
-constants.  Thus the direct source inequality is the parent Kato--Maz'ya
-control of the positive log-meter speed:
+Then
+
+\[
+a_\Phi(r)\simeq r^{-1}\quad(0<r\le1),
+\qquad
+a_\Phi(r)\simeq \log r\quad(r\ge e).
+\tag{TFE2748B.1340}
+\]
+
+The large-density side is the positive-baseline log-meter branch.  The
+small-density singular side is the zero-baseline/endpoint first-entry branch
+and may only be removed after the endpoint admission of Section 106 has placed
+it in \(dE_P^0\) or the endpoint subledger.  Thus the exact direct source
+inequality is the parent Kato--Maz'ya control
 
 \[
 \sup_{\zeta\ne0}
 {\left(
-\int_{P'}\zeta^2\log(e+F_P)\,
+\int_{P'}\zeta^2a_\Phi(F_P)\,
 \bigl[\mathcal L_P\log W_P^{crit}\bigr]_+
 d\mathfrak m_P
 -dE_P^0(P';\zeta)
@@ -20545,11 +20551,11 @@ d\mathfrak m_P
 \over
 \int_{P'}|\nabla_A\zeta|^2\,d\mathfrak m_P}
 \le \vartheta<1/C_N,
-\tag{TFE2748B.1340}
+\tag{TFE2748B.1341}
 \]
 
 after the already admitted singular endpoint seed and paid selector-motion
-parts are removed.  Any excess over `(TFE2748B.1340)' is precisely
+parts are removed.  Any excess over `(TFE2748B.1341)' is precisely
 \(d\mathfrak v_P^{exc}\), and its \(U_P^2\)-mass is the reserve spend in
 `(TFE2748B.1337)'.
 
@@ -20560,7 +20566,7 @@ inequality and raw signed atom theorem give
 \int_0^\tau\|\nabla u(t)\|_2^2\,dt<\infty,
 \qquad
 \int_0^\tau |dJ_P^{raw}|<\infty,
-\tag{TFE2748B.1341}
+\tag{TFE2748B.1342}
 \]
 
 and the entropy identity gives the Fisher clock
@@ -20574,19 +20580,19 @@ parent-built compensator \(K_P^{act}\), bounded below from the original data,
 such that
 
 \[
-\log(e+F_P)\bigl[\mathcal L_P\log W_P^{crit}\bigr]_+
+a_\Phi(F_P)\bigl[\mathcal L_P\log W_P^{crit}\bigr]_+
 d\mathfrak m_P
 \le
 -dK_P^{act}
-\vartheta\,\operatorname{Cap}_{A,P}
-dE_P^0
+\,+\,\vartheta\,\operatorname{Cap}_{A,P}
+\,+\,dE_P^0
 \quad\text{in the form sense of `(TFE2748B.1335)'.}
-\tag{TFE2748B.1342}
+\tag{TFE2748B.1343}
 \]
 
 Then \(M_P^{cap}=K_P^{act}\) plus the Section 109 maximal-excess reserve gives
 `(TFE2748B.1334)', and the downstream chain gives
-`CriticalCapacityVariationStorage.A'.  Without `(TFE2748B.1342)', finite raw
+`CriticalCapacityVariationStorage.A'.  Without `(TFE2748B.1343)', finite raw
 atom mass, finite energy, endpoint admission, and entropy/Fisher dissipation
 remain consumers; they do not prove the selected-critical positive
 \(L^1\) capacity storage line.
