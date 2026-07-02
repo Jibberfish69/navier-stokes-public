@@ -23605,23 +23605,25 @@ Section 166.  Thus
 \tag{TFE2748B.1554}
 \]
 
-Sections 123--128 identify `(TFE2748B.1551)' as the same statement in
-shell/full-exchange language.  The active-tail square is produced by a shell
-storage derivative plus the signed lifted full-output transfer; the signed
-lifted transfer is a moving-interface readout of the parent full-exchange
-ledger; and the moving-interface ledger is a bounded projection of the original
-before-clipping full-exchange critical ledger.  Therefore the current
-nonduplicate sufficient source is
+Sections 143--153 sharpen the same statement below the older
+shell/full-exchange names.  The raw signed-measure attachment is closed before
+the critical weight is inserted.  Sections 147--150 identify the weighted
+selected-critical residue with the parent active-potential capacity line and
+its finite capacitary excess.  Sections 151--153 then back-substitute that
+finite-excess line into the same endpoint-admitted active-transit/full-exchange
+packet.  Therefore the current nonduplicate sufficient source below
+`(TFE2748B.1541a)' is
 
 \[
 \boxed{
 \begin{array}{c}
-\texttt{BeforeClippingActiveDensityComparison.A}\\
-+\texttt{FullExchangeCriticalCompactness.A}\\
-+\texttt{ZeroCostFullExchangeCriticalRigidity.A}
+\texttt{ActiveTransitLocalStorage.A `(TFE2748B.1205)'}\\
++\texttt{FullExchangeNoSelfFeedingStorage.A `(TFE2748B.1206)'--`(TFE2748B.1207)'}
 \end{array}
 \Longrightarrow
-\texttt{FiniteCapacitaryExcess.A}
+\texttt{ParentActivePotentialCapacityDomination.A}
+\Longrightarrow
+\texttt{FiniteCapacitaryExcess.A `(TFE2748B.1551)'}
 \Longrightarrow
 \texttt{`(TFE2748B.1541a)'.}}
 \tag{TFE2748B.1555}
@@ -23629,17 +23631,17 @@ nonduplicate sufficient source is
 
 Conversely, after the raw pressure-Hodge atom theorem, endpoint admission,
 bounded detector projection, reversible entropy-flux pairing, route, return,
-legal, stop, and paid leakage are removed, a failure of `(TFE2748B.1541a)' has
-only the full-exchange zero-profit forms already isolated in Section 126:
+legal, stop, regular compactness consumers, and paid leakage are removed, the
+current nonduplicate proof search below `(TFE2748B.1541a)' has only the
+back-substituted active-capacity/full-exchange faces isolated in Section 153:
 
 \[
-\neg\texttt{`(TFE2748B.1541a)'}
-\Longrightarrow
-\neg\texttt{BeforeClippingActiveDensityComparison.A}
-\ \vee\
-\neg\texttt{FullExchangeCriticalCompactness.A}
-\ \vee\
-\neg\texttt{ZeroCostFullExchangeCriticalRigidity.A}.
+\boxed{
+\texttt{unproved source below `(TFE2748B.1541a)'}
+=
+\texttt{ActiveTransitLocalStorage.A}
++
+\texttt{FullExchangeNoSelfFeedingStorage.A}.}
 \tag{TFE2748B.1556}
 \]
 
@@ -23651,7 +23653,7 @@ So the current source has one parent object in three coordinates:
 \equiv
 \texttt{finite capacitary excess}
 \equiv
-\texttt{full-exchange zero-profit storage,}
+\texttt{active-capacity/full-exchange storage,}
 }
 \tag{TFE2748B.1557}
 \]
@@ -23659,9 +23661,11 @@ So the current source has one parent object in three coordinates:
 where the equivalence is understood inside the stopped endpoint-admitted
 parent ledger after the installed consumer clauses have been removed.  This is
 not Gold closure.  The arbitrary-original-data proof still required is to
-construct the before-clipping active-density comparison and prove the
-compactness/tightness plus zero-cost rigidity of the same parent full-exchange
-critical ledger.  Once those clauses are proved, `(TFE2748B.1555)' gives
-`(TFE2748B.1541a)', Section 166 gives `(TFE2748B.1547)', Section 165 gives
+construct the active-transit storage and full-exchange no-self-feeding storage
+of `(TFE2748B.1393)' from the original coupled packet before child clipping.
+Regular zero-cost/component rigidity, raw atom attachment, endpoint admission,
+and compactified source-square packaging are consumers once that parent storage
+is built.  Once `(TFE2748B.1555)' is proved, `(TFE2748B.1541a)' follows, Section
+166 gives `(TFE2748B.1547)', Section 165 gives
 `CriticalCapacityVariationStorage.A', and the downstream Gold relays become
 pure consumers.
