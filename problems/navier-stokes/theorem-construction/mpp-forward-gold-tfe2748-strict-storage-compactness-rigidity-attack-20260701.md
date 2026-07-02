@@ -3219,8 +3219,12 @@ C\,\|W_P\|_{\mathrm{BMO}(P_\alpha)} .
 \tag{TFE2748B.206}
 \]
 
-Therefore the active-weighted atom estimate follows on every stopped good fibre
-where the parent detector has small BMO oscillation:
+This controls only the lobe-separation defect.  It does not control the
+average/level term \(W_\alpha |c_\alpha|\).  That average term is exactly the
+parent active capacity price of admitting the atom before clipping.  Therefore
+the active-weighted atom estimate follows on every stopped good fibre only when
+the parent construction supplies both the level reserve and the small BMO
+oscillation:
 
 \[
 \left|
@@ -3232,8 +3236,9 @@ C\,\|W_P\|_{\mathrm{BMO},good}
 \tag{TFE2748B.207}
 \]
 
-Using the raw coefficient bound `(TFE2748B.197)', this is absorbable with strict
-margin exactly when the stopped parent construction supplies
+Using the raw coefficient bound `(TFE2748B.197)', the oscillation part is
+absorbable with strict margin exactly when the stopped parent construction
+supplies
 
 \[
 C\,\|W_P\|_{\mathrm{BMO},good}\le \theta,
@@ -3243,21 +3248,27 @@ C\,\|W_P\|_{\mathrm{BMO},good}\le \theta,
 
 and the bad fibres where `(TFE2748B.208)' fails Carleson-pack into
 \(d\Theta_P^0+dPaid_P+dStop_P\).  Written without the good/bad stopping
-abbreviation, the required parent-detector theorem is
+abbreviation, the required parent-detector theorem is therefore a two-clause
+estimate, not a pure BMO estimate:
 
 \[
+\begin{aligned}
+\int_0^\tau\sum_{\alpha\subset P'}W_\alpha |c_\alpha(t)|\,dt
+&\le C_N(u_0;P')+Paid(P')+\theta\,\Omega_P^{gen}(P'),\\
 \sup_{P'\subseteq P}
 {1\over R_P^{root}(P')}
 \sum_{Q\subseteq P'}
 \bigl(\|\Delta_QW_P\|_{\mathcal H}^2+|e_Q|^2\bigr)R_P^{root}(Q)
-\le
+&\le
 C_N(u_0)+{Paid(P')\over R_P^{root}(P')}.
+\end{aligned}
 \tag{TFE2748B.209}
 \]
 
 This is the same root Carleson/log-amplification line as
-`(TFE2748B.55)'--`(TFE2748B.59)', now read as the exact dual estimate needed by
-the signed atoms.
+`(TFE2748B.55)'--`(TFE2748B.59)', now read as the exact level-plus-dual estimate
+needed by the signed atoms.  The first line pays the mean active capacity; the
+second line pays the oscillation between opposite lobes.
 
 Under `(TFE2748B.209)', the selected detector can be inserted before clipping:
 
