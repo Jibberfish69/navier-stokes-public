@@ -7196,3 +7196,125 @@ the pressure-Hodge constraint and may reveal delayed heat-lag motion through
 viscosity, but every positive selected state opening must lower the same
 parent-known capacity, pay generator clock, or leave through the paid packet
 motion terms before the child readout is clipped.
+
+## 57. Augmented no-Zeno branch exhaustion
+
+Section 56 leaves no freedom about what a failure looks like.  Start from a
+normalized failure of `(TFE2748B.455)' and remove the already paid nonlaminar
+exits, route changes, collar exits, selector reselections, legal pieces, stop
+pieces, and endpoint leakage.  The retained action is a same-history laminar
+family of augmented visits:
+
+\[
+\mathcal A^{aug}(P)
+=
+\mathcal A^{rep}(P)
+\cup
+\mathcal A^{esc}(P)
+\cup
+\mathcal A^{paid}(P),
+\qquad
+a_\gamma^{aug}
+\text{ as in `(TFE2748B.453)'.}
+\tag{TFE2748B.456}
+\]
+
+On the normalized zero-paid face, \(\mathcal A^{paid}\) has zero mass.  The two
+remaining branches are exactly the old same-history no-Zeno dichotomy, now in
+the square-completed augmented currency.
+
+The repeated-core branch is the case where infinitely many retained visits reuse
+one persistent material core.  Its noncircular source theorem is the storage
+drop
+
+\[
+\sum_{\gamma\subset K} a_\gamma^{aug}
++\mathcal C^{crit}(K_{\rm out})
+\le
+\mathcal C^{crit}(K_{\rm in})
++\vartheta\,\Omega^{gen}(K)
++\Theta^0(K)+Paid(K)+Stop(K),
+\tag{TFE2748B.457}
+\]
+
+for every retained same-core tube \(K\), with \(\mathcal C^{crit}\) built from
+the original parent record before clipping.  This is the augmented form of
+`RepeatedCoreNonreuseStorageBound.A': a repeated unit selected opening must
+spend a nonreusable part of the same material record, namely Cauchy-Green
+stretch, pressure-Hodge frame, annular return/turnstile, log-detector square, or
+critical capacity already present in the parent packet.
+
+The shrinking-core branch is the case where no persistent core is reused
+infinitely often.  Its noncircular source theorem is lower admission plus root
+packing of the escaping capacities:
+
+\[
+a_\gamma^{aug}
+\le
+C_N\,d\rho_{\rm esc}^{crit}(\gamma)
++dPaid(\gamma)+dStop(\gamma),
+\qquad
+\sum_{\gamma\subset P}d\rho_{\rm esc}^{crit}(\gamma)
+\le
+\mathcal C^{crit}(P)
++\vartheta\,\Omega^{gen}(P)
++\Theta^0(P)+Paid(P)+Stop(P).
+\tag{TFE2748B.458}
+\]
+
+This is the augmented form of `ShrinkingCoreEscapeCapacityLowerBound.A': a
+shrinking child cannot carry unit selected pressure-Hodge/log-detector/capacity
+action without leaving a comparable root-visible capacity charge in the same
+original material history.
+
+The branch implication is now exact.  If `(TFE2748B.457)' and
+`(TFE2748B.458)' hold with the same strict \(C_N\vartheta<1\), then summing over
+the laminar decomposition `(TFE2748B.456)' gives
+
+\[
+\sum_{\gamma\subset\mathcal A(P)}a_\gamma^{aug}
+\le
+\mathcal C^{crit}(P)
++\vartheta\,\Omega^{gen}(P)
++\Theta^0(P)+Paid(P)+Stop(P),
+\tag{TFE2748B.459}
+\]
+
+which is `(TFE2748B.454)' and hence `(TFE2748B.455)'.  Conversely, if
+`(TFE2748B.455)' fails after paid nonlaminar routing has vanished, the retained
+laminar family has either an infinite repeated material core or an infinite
+shrinking-core escape; otherwise its selected visits are finite and paid by the
+terminal stopping ledger.  Therefore failure of `(TFE2748B.455)' forces failure
+of one of the two branch source estimates:
+
+\[
+\neg\texttt{RootFiniteAugmentedSameHistoryCapacity.A}
+\Longrightarrow
+\neg\texttt{AugmentedRepeatedCoreNonreuseStorage.A}
+\quad\text{or}\quad
+\neg\texttt{AugmentedShrinkingCoreEscapePacking.A}.
+\tag{TFE2748B.460}
+\]
+
+Thus the current bottom is no longer raw attachment, atom pairing, or the
+abstract \(L^1\) count.  It is the two-branch original-data producer
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{AugmentedRepeatedCoreNonreuseStorage.A `(TFE2748B.457)'}\\
+\text{and}\\
+\texttt{AugmentedShrinkingCoreEscapePacking.A `(TFE2748B.458)'}
+\end{array}
+\Longrightarrow
+\texttt{RootFiniteAugmentedSameHistoryCapacity.A `(TFE2748B.455)'.}
+}
+\tag{TFE2748B.461}
+\]
+
+This is also the exact physical split.  A positive selected state opening either
+returns to the same material core, where it must spend the same core's finite
+record, or it escapes into smaller cores, where each escape must carry a
+root-visible capacity charge.  There is no third retained source after the
+same-parent atom attachment, paid packet motion, legal, stop, endpoint, and
+nonlaminar routing terms have been removed.
