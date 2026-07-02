@@ -11911,3 +11911,146 @@ remaining original-data payment theorem.  The previous wording "prove
 the endpoint-admitted full-exchange ledger is read by the same aligned-current /
 tail material-record carrier before clipping, and prove that carrier's
 tail-material-record payment from the original coupled packet.
+
+## 88. Correct scope of the endpoint lower-admission bridge
+
+The lower-admission line `(TFE2748B.763)' needs one repair.  It cannot apply to
+the entire full-exchange square in `(TFE2748A.2)' if that square includes
+current components transverse to the selected active gradient.  Those transverse
+components belong to the same coupled parent packet, but they are not positive
+selected critical entry.
+
+The flat quotient test shows the point.  Let \(A=I\), \(F\equiv1\), and choose a
+smooth nonzero divergence-free stopped current \(J\) with no route, legal, or
+stop term.  Then
+
+\[
+dI=\Phi''(F)|\nabla F|^2\,d\mathfrak m=0,
+\qquad
+dQ^{cur}
+=\bigl[-\Phi''(F)\nabla F\cdot J\bigr]_+\,d\mathfrak m=0,
+\tag{TFE2748B.768}
+\]
+
+while the full square \(|J|^2d\mathfrak m\) is positive.  Therefore any bridge
+of the form
+
+\[
+|J|^2d\mathfrak m
+\le
+C\,dQ^{cur}+d\Theta^0+dPaid+dStop
+\tag{TFE2748B.769}
+\]
+
+is false as a statement about the whole full-exchange ledger.  Same-parent
+custody and atom pairing do not change this: the obstruction is not ownership,
+but direction.  Only the aligned selected part of the parent current is read as
+positive critical entry.
+
+Thus the endpoint-admitted ledger must be split before `(TFE2748B.763)' is
+used:
+
+\[
+d\Xi_P^{FE,\ast}
+=
+d\Xi_P^{FE,\ast,sel}
++d\Xi_P^{FE,\ast,\perp}
++d\Xi_P^{FE,\ast,paid}.
+\tag{TFE2748B.770}
+\]
+
+Here \(d\Xi_P^{FE,\ast,sel}\) is the endpoint-admitted, selected-positive
+subledger: positive-baseline critical entry, zero-baseline endpoint seed, and
+the aligned part of the full-exchange current that is actually tested by the
+selected critical meter before clipping.  The paid part is route, collar,
+legal, stop, selector, endpoint-chart, and reselection material already assigned
+to \(d\Theta^0+dPaid+dStop\).  The transverse part
+\(d\Xi_P^{FE,\ast,\perp}\) is full-exchange energy that is orthogonal to the
+selected positive readout in the retained quotient.
+
+The corrected lower-admission theorem is therefore
+
+\[
+d\Xi_P^{FE,\ast,sel}
+\le
+C_N\bigl(dQ_P^{cur}
++\mathcal R_{\rm sel}
++\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm legal}
++\mathcal R_{\rm geom}^{tail}\bigr)
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.771}
+\]
+
+This version is directionally correct.  It says: before a zero-baseline endpoint
+or positive-baseline critical entry is counted as selected action, it must appear
+as aligned current, finite-window relay defect, high-rung material-record
+escape, or paid route/legal/stop material.  It does not try to make transverse
+full-exchange square into selected positive action.
+
+The transverse subledger is consumed on the generator/Fisher side:
+
+\[
+d\Xi_P^{FE,\ast,\perp}
+\le
+\vartheta_\perp\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad C_N\vartheta_\perp<1,
+\tag{TFE2748B.772}
+\]
+
+after the retained heat-lag quotient, reversible Hodge/transport neutrality,
+and paid frame/collar/selector motion from TFE2748A are inserted.  This is the
+same consumer role as `(TFE2748B.7)' and `(TFE2748B.728)': transverse
+full-exchange motion may be real parent-packet motion, but it is not the
+selected \(L^1\) source.  If `(TFE2748B.772)' fails, the failure is not an
+endpoint lower-admission failure; it is a retained full-exchange/generator
+storage failure in the original TFE2748A.5 sense.
+
+With `(TFE2748B.770)'--`(TFE2748B.772)', the zero-baseline endpoint branch is
+handled without circularity:
+
+\[
+d\rho_{crit,P}^{entry}
+\le
+C_Nd\Xi_P^{FE,\ast,sel}
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{TFE2748B.773}
+\]
+
+and `(TFE2748B.771)' plus the tail material-record payment line gives
+
+\[
+d\rho_{crit,P}^{entry}
+\le
+C_N dQ_P^{cur}
++C_N(d\Theta_P^0+dPaid_P+dStop_P+2^{-N}D_Ndt).
+\tag{TFE2748B.774}
+\]
+
+The aligned-current estimate then pays \(dQ_P^{cur}\) with the strict Fisher /
+generator margin, while `(TFE2748B.772)' keeps the transverse full-exchange
+square on the generator side.  Therefore the corrected nonduplicate implication
+is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{SelectedEndpointLowerAdmission.A `(TFE2748B.771)'}\\
++\texttt{TransverseFullExchangeConsumer.A `(TFE2748B.772)'}\\
++\texttt{TailMaterialRecordPayment.A `(TFE2748B.760)'}
+\end{array}
+\Longrightarrow
+\texttt{`(TFE2748B.749)' + `(TFE2748B.754)'}.
+}
+\tag{TFE2748B.775}
+\]
+
+This repairs Section 87's wording.  The endpoint bridge is not a demand that
+the whole full-exchange ledger be selected aligned current.  The selected
+endpoint subledger is lower-admitted to the aligned-current/material-record
+carrier; the transverse full-exchange square is retained as generator/Fisher
+material with a strict consumer margin.  Gold remains open until the selected
+lower admission, transverse consumer margin, and tail material-record payment
+are all proved from the original coupled packet before clipping.
