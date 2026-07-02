@@ -20609,7 +20609,8 @@ standalone mass creation:
 \[
 dJ_P=dJ_P^0+dR_P,
 \qquad
-dJ_P^0([0,\tau]\times X_P)=0,
+(\pi_t)_\#dJ_P^0=0
+\quad\text{on }[0,\tau],
 \qquad
 |dR_P|\le dE_P^{atom},
 \tag{TFE2748B.1344}
@@ -20625,27 +20626,46 @@ d\Theta_P^0+dPaid_P+dLegal_P+dStop_P .
 
 For arbitrary original smooth data, the pulled-back pressure equation and the
 stopped Hodge/collar construction make \(dJ_P^0\) a finite signed Radon measure
-on each stopped preterminal packet.  Its Jordan split is
+on each stopped preterminal packet.  The stronger parent-time statement in
+`(TFE2748B.1344)' says that for every Borel time set \(I\subset[0,\tau]\),
+\(dJ_P^0(I\times X_P)=0\).  This is the point where pressure being a
+constraint force enters the atom construction: after collar and route
+leakage are removed, it redistributes the stopped parent packet at each parent
+time and does not create a standalone signed time marginal.
+
+Let
 
 \[
 dJ_P^0=dJ_{P,+}^0-dJ_{P,-}^0,
 \qquad
-dJ_{P,+}^0([0,\tau]\times X_P)
-=dJ_{P,-}^0([0,\tau]\times X_P)=m_P^J .
+(\pi_t)_\#dJ_{P,+}^0
+=(\pi_t)_\#dJ_{P,-}^0
+:=d\lambda_P^J,
+\qquad
+\lambda_P^J([0,\tau])
+={1\over2}|dJ_P^0|([0,\tau]\times X_P).
 \tag{TFE2748B.1346}
 \]
 
-Define the same-parent transport coupling of the positive and opposite lobes by
+Disintegrate the two Jordan lobes over this common parent-time marginal:
+
+\[
+dJ_{P,+}^0(t,x)
+=d\alpha_{P,t}^+(x)\,d\lambda_P^J(t),
+\qquad
+dJ_{P,-}^0(t,y)
+=d\alpha_{P,t}^-(y)\,d\lambda_P^J(t),
+\tag{TFE2748B.1347}
+\]
+
+where \(d\alpha_{P,t}^{\pm}\) are probability kernels for
+\(d\lambda_P^J\)-a.e. \(t\).  The same-parent transport coupling is then
 
 \[
 d\Pi_P(t,x,y)
 :=
-\begin{cases}
-{\displaystyle
-dJ_{P,+}^0(t,x)dJ_{P,-}^0(t,y)\over m_P^J(t)},&m_P^J(t)>0,\\[5pt]
-0,&m_P^J(t)=0 .
-\end{cases}
-\tag{TFE2748B.1347}
+d\alpha_{P,t}^+(x)\,d\alpha_{P,t}^-(y)\,d\lambda_P^J(t).
+\tag{TFE2748B.1347a}
 \]
 
 Then, for every parent-announced test \(\varphi\),
@@ -20669,18 +20689,20 @@ dJ_P^0
 
 This is the exact atom decomposition.  A display
 \(\sum_\alpha c_\alpha\,d\mu_\alpha\) is obtained by simple-measure
-approximation of \(d\Pi_P\), with
+approximation of \(d\Pi_P\), with \(c_\alpha=\Pi_P(A_\alpha)\),
 \(d\mu_\alpha=\delta_{(t_\alpha,x_\alpha)}
 -\delta_{(t_\alpha,y_\alpha)}\) and
 \(\int d\mu_\alpha=0\).  The continuum coupling is the parent-scale object;
-the countable notation is only an approximation of that same object.
+the countable notation is only an approximation of that same object, and
+\(\sum_\alpha c_\alpha\) converges to the total coupling mass in
+`(TFE2748B.1350)'.
 
 The coefficient and leakage control is exactly the total coupling mass plus the
 separated residual:
 
 \[
 \Pi_P([0,\tau]\times X_P\times X_P)
-=m_P^J
+=\lambda_P^J([0,\tau])
 ={1\over2}|dJ_P^0|([0,\tau]\times X_P),
 \tag{TFE2748B.1350}
 \]
@@ -20712,6 +20734,10 @@ dJ_{P,\omega}^{ret,-}
 \tag{TFE2748B.1352}
 \]
 
+The first marginal in `(TFE2748B.1352)' is exactly
+\(\omega_P\,dJ_{P,+}^0\).  The second marginal is the retained opposite lobe
+attached to the same parent-time coupling before clipping.
+
 Therefore
 
 \[
@@ -20742,6 +20768,11 @@ B_{P,\omega}^{atom}(\tau)
 \qquad 0\le s\le\tau .
 \tag{TFE2748B.1354}
 \]
+
+Here \(\tau\) is the stopped parent packet horizon for this local statement.
+The reserve is opened from the original pressure-Hodge coefficient bound and
+then depleted monotonically by the retained opposite lobe as parent time
+advances; it is not defined by a later child readout.
 
 Then `(TFE2748B.1351)'--`(TFE2748B.1353)' give
 
