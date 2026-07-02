@@ -14254,3 +14254,150 @@ longer a general \(L^1\) estimate and no longer an abstract capacity theorem:
 construct the before-clipping log-ratio carrier \(Z_P^S\) and its root Carleson
 packing, and prove the singular first-entry endpoint atoms pack into the same
 root critical capacity, all from the original coupled packet.
+
+## 104. The log-ratio carrier is a root-generator projection
+
+The positive-baseline carrier in `(TFE2748B.911)' has no separate existence
+problem once the selected densities are pulled to one stopped parent fibre.  Its
+algebra is the Radon--Nikodym chain rule.  The analytic content is the bounded
+projection of the edge log-derivative detectors against the original root
+generator; the only detector not covered by that projection is the
+scale-native zero-baseline first-entry detector already isolated in
+`(TFE2748B.917)'--`(TFE2748B.920)'.
+
+Along a stopped ancestry
+
+\[
+P=Q_0\succ Q_1\succ\cdots\succ Q_m=Q,
+\tag{TFE2748B.923}
+\]
+
+on the positive-baseline set \(f_{Q_j}>0\), the selected density ratios satisfy
+
+\[
+{f_Q\over f_P}
+=
+\prod_{j=1}^m {f_{Q_j}\over f_{Q_{j-1}}},
+\qquad
+\log {f_Q\over f_P}
+=
+\sum_{j=1}^m\log r_{Q_j}.
+\tag{TFE2748B.924}
+\]
+
+Each edge ratio is the Jacobian of the same before-clipping selected detector
+as it moves in stopped scale-memory.  Thus, in the parent scale coordinate
+\(\sigma\),
+
+\[
+\partial_\sigma\log f_{Q_j}
+=
+\langle K_{Q_j},G_P^{root}\rangle
+-\partial_\sigma\psi_{Q_j}
++\varepsilon_{Q_j}^{paid}.
+\tag{TFE2748B.925}
+\]
+
+Integrating `(TFE2748B.925)' over the stopped edge interval \(I_{Q_j}\) gives
+
+\[
+\log r_{Q_j}
+=
+\ell_{Q_j}(\Delta_{Q_j}Z_P^S)
+-\psi_{Q_j}
++e_{Q_j},
+\tag{TFE2748B.926}
+\]
+
+and summing along `(TFE2748B.924)' gives the representation
+`(TFE2748B.911)'.  Therefore the representation part is an exact
+Radon--Nikodym/chain-rule consequence once the selected detector is parent
+announced before clipping.
+
+The root Carleson estimate `(TFE2748B.915)' follows from the bounded critical
+log-derivative projection
+
+\[
+\sum_{e\subset P'}
+dR_P^{root}(E_e)
+\left|
+\int_{I_e}\langle K_e,F\rangle\,d\sigma
+\right|^2
+\le
+C_N\int_{P'} H_P^*\|F\|_{\mathfrak H_P}^2\,d\sigma
++dE_P^0(P')
+\tag{TFE2748B.927}
+\]
+
+applied to \(F=G_P^{root}\), together with the stopped full-exchange/root
+generator storage already exposed in `(TFE2748B.897)'--`(TFE2748B.898)'.
+
+For bounded parent-announced detectors this projection is a Cauchy/overlap
+consumer.  Write
+
+\[
+K_e=\mathbf 1_{I_e}C_e^*k_e,
+\tag{TFE2748B.928}
+\]
+
+with edge-normalized boundedness and stopped overlap
+
+\[
+dR_P^{root}(E_e)
+\int_{I_e}
+{\|C_e^*k_e\|_{\mathfrak H_P}^2\over \alpha_e H_P^*}\,d\sigma
+\le
+C_N,
+\qquad
+\sum_e\alpha_e\mathbf 1_{I_e}\le C_N .
+\tag{TFE2748B.929}
+\]
+
+Cauchy's inequality gives
+
+\[
+dR_P^{root}(E_e)
+\left|
+\int_{I_e}\langle C_e^*k_e,F\rangle\,d\sigma
+\right|^2
+\le
+C_N\int_{I_e}\alpha_e H_P^*\|F\|_{\mathfrak H_P}^2\,d\sigma,
+\tag{TFE2748B.930}
+\]
+
+and summing `(TFE2748B.930)' gives `(TFE2748B.927)'.  Hence the bounded-detector
+part of the log-ratio Carleson estimate is already a consumer of the original
+root geometry/full-exchange clock.
+
+The nonconsumer detector is the scale-native zero-baseline one:
+
+\[
+\|K_e^{parent}\|_{\mathfrak H_P}^2\simeq\lambda_e^{-1},
+\tag{TFE2748B.931}
+\]
+
+where \(\lambda_e\) is the physical zoom/heat-scale ratio.  This detector is not
+bounded in `(TFE2748B.929)' and cannot be placed in the positive-baseline
+log-ratio branch.  It must enter through the singular first-entry capacity
+`(TFE2748B.919)' and packing law `(TFE2748B.920)'.
+
+Consequently the current source chain is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{bounded log-detector projection `(TFE2748B.927)'--`(TFE2748B.930)'}\\
++\texttt{stopped full-exchange/root-generator storage `(TFE2748B.897)'--`(TFE2748B.898)'}\\
++\texttt{singular first-entry admission/packing `(TFE2748B.919)'--`(TFE2748B.920)'}
+\end{array}
+\Longrightarrow
+\texttt{critical capacity `(TFE2748B.908)'.}
+}
+\tag{TFE2748B.932}
+\]
+
+This removes one more wrapper.  Positive-baseline log amplification is a
+bounded projection of the original root generator.  The only genuinely
+scale-native source left is the zero-baseline first-entry endpoint detector and
+its packing into the parent critical capacity, plus the strict no-self-feeding
+full-exchange storage for the same root generator.
