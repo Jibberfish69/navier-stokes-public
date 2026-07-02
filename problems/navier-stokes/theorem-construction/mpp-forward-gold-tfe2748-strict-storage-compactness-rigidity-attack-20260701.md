@@ -15012,3 +15012,113 @@ packet supplies `(TFE2748B.966)', hence `(TFE2748B.965)', hence the
 critical-capacity variation/storage line.  The proof is still open at this
 no-subunit-mode theorem; the point of this section is that any counterexample is
 now a concrete stopped parent eigenmode, not an uncatalogued child recount.
+
+## 109. The capacity reserve is the exact capacitary excess
+
+Sections 107--108 identify the right reserve without changing the physical
+object.  The parent packet carries one before-clipping active potential
+\(d\mathfrak v_P^{crit}\).  The part of that potential already dominated by
+parabolic capacity may stay as residual readout; the part that violates
+capacity must be spent immediately as a parent reserve drop.
+
+On a compact stopped chart set
+
+\[
+\mathcal C_{P,\vartheta}(K)
+:=
+\vartheta\,\operatorname{Cap}_{A,P}(K)+E_P^0(K),
+\qquad C_N\vartheta<1.
+\tag{TFE2748B.977}
+\]
+
+Let \(\mathfrak S_{P,\vartheta}\) be the class of finite positive Radon
+submeasures \(\sigma\le\mathfrak v_P^{crit}\) satisfying
+
+\[
+\sigma(K)\le \mathcal C_{P,\vartheta}(K)
+\qquad\text{for every stopped compact }K\subset P'.
+\tag{TFE2748B.978}
+\]
+
+The class is nonempty, tight, and weak-* closed by outer regularity of the
+stopped capacity and the paid measure \(E_P^0\).  Hence there is a maximal
+admissible residual submeasure, chosen by maximizing \(\sigma(P')\) over
+\(\mathfrak S_{P,\vartheta}\):
+
+\[
+d\mathfrak v_P^{res}\in\mathfrak S_{P,\vartheta},
+\qquad
+d\mathfrak v_P^{exc}:=d\mathfrak v_P^{crit}-d\mathfrak v_P^{res}\ge0 .
+\tag{TFE2748B.979}
+\]
+
+By construction the residual part obeys the required capacity domination,
+
+\[
+\mathfrak v_P^{res}(K)
+\le
+\vartheta\,\operatorname{Cap}_{A,P}(K)+E_P^0(K),
+\qquad C_N\vartheta<1 .
+\tag{TFE2748B.980}
+\]
+
+For \(0\le s\le\tau\), define the capacity reserve on the same stopped parent
+history by
+
+\[
+M_{P,\tau}^{cap}(s)
+:=
+B_{P,\tau}^{cap}
+-
+\int_{[0,s]\times X_P} U_P^2\,d\mathfrak v_P^{exc},
+\qquad
+B_{P,\tau}^{cap}
+:=
+\int_{[0,\tau]\times X_P} U_P^2\,d\mathfrak v_P^{exc}.
+\tag{TFE2748B.981}
+\]
+
+Whenever \(B_{P,\tau}^{cap}<\infty\), this is a bounded-below parent reserve and
+
+\[
+-dM_{P,\tau}^{cap}
+=
+U_P^2\,d\mathfrak v_P^{exc}.
+\tag{TFE2748B.982}
+\]
+
+Combining `(TFE2748B.979)'--`(TFE2748B.982)' gives the storage-form split
+exactly:
+
+\[
+U_P^2\,d\mathfrak v_P^{crit}
+=
+-dM_{P,\tau}^{cap}
++U_P^2\,d\mathfrak v_P^{res}
+\le
+-dM_{P,\tau}^{cap}
++U_P^2\,d\mathfrak v_P^{res}
++dE_P^0 .
+\tag{TFE2748B.983}
+\]
+
+Thus `(TFE2748B.962)' and `(TFE2748B.966)' are no longer separate bookkeeping
+questions.  They are exactly the capacitary decomposition of the same parent
+active potential before clipping.  The remaining original-data source theorem
+is the finite-excess estimate
+
+\[
+\sup_{\tau<T_*}
+\int_{[0,\tau]\times X_P}U_P^2\,d\mathfrak v_P^{exc}
+\le
+C_N(u_0)+Paid_P+Legal_P+Stop_P .
+\tag{TFE2748B.984}
+\]
+
+Equivalently, after the exact same-parent atom reserve from Section 105 and the
+endpoint heat-lag admission from Section 106 are installed, Gold \(L^1\) is
+open precisely at proving that the super-capacitary excess
+\(d\mathfrak v_P^{exc}\) of the original coupled pressure-Hodge /
+viscous-Stokes / self-advection packet has finite parent reserve mass before
+child clipping.  This construction gives the reserve and the residual
+domination; `(TFE2748B.984)' is the remaining arbitrary-data estimate.
