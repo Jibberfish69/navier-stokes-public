@@ -22,7 +22,7 @@ branch_audit:
   live_import_count: 0
   route_equivalence_count: 5
   death_certificate_count: 0
-  unresolved_count: 0
+  unresolved_count: 1
   branches:
   - branch_id: branch-navier-stokes-1
     origin_obligation_id: global-same-packet-full-material-clock
@@ -547,7 +547,7 @@ surface_snapshot:
       group_id: gold-l1-coupled-storage-wall
       group_label: Gold L1 same-parent active-capacity/full-exchange storage wall.
       live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
-      top_level_release_blocker: false
+      top_level_release_blocker: true
       not_single_path: true
       not_single_proof_mode: true
       dashboard_boundary: The installed Clay terminal-witness CM chain remains proof
@@ -568,8 +568,8 @@ surface_snapshot:
           one face independently enough to break the TFE2748B.1548/TFE2748B.1555 self-feeding
           chain.
         active_container: gold-l1-coupled-storage-wall
-        respawn_cell:
-        respawn_stage:
+        respawn_cell: theorem-upgrade
+        respawn_stage: gold-l1-source-theorem
         allowed_input_boundary: The original parent packet and coupling come first.
           Dyadic, atom, child, native-reserve, source-refill, terminal anti-atom,
           and Pack anti-concentration statements are typed readouts, countertests,
@@ -943,10 +943,10 @@ surface_snapshot:
     structural_only_count: 0
     structurally_supported_count: 0
     bridge_pending_count: 0
-    unresolved_count: 0
-    frontier_count: 0
-    blocking_count: 0
-    all_discharged: true
+    unresolved_count: 1
+    frontier_count: 1
+    blocking_count: 1
+    all_discharged: false
     authority_mode: direct-live-surfaces
     source_authority_mode: direct-live-surfaces
 issues:
