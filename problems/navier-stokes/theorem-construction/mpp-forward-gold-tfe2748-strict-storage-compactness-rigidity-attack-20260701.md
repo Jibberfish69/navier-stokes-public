@@ -13527,3 +13527,180 @@ parent Fisher/generator drain, paid capacity variation, or legal/stop material
 with strict margin.  Raw atom pairing, BMO/Kazamaki, entropy layer-cake,
 terminal anti-atom routing, and no-recount are all consumers below this line;
 they do not replace `(TFE2748B.863)'.
+
+## 100. Entropy-flux splitting removes the reversible aligned-current recount
+
+The one-sided aligned-current line in Section 99 still contains one reversible
+piece that should not be treated as a source.  The pressure/Hodge/self-advection
+part of the coupled packet is volume preserving in the stopped parent measure.
+It may rearrange the selected density, but its pure transport contribution is an
+exact entropy flux.  The only part that can create a real selected source after
+this flux is paired is the positive material motion of the selected meter.
+
+Let \(B_P\) denote the retained volume-preserving pressure/Hodge/self-advection
+generator in the stopped parent chart, after collar, route, legal, stop,
+endpoint, selector-motion, and reselection terms have been separated.  Thus
+
+\[
+\operatorname{div}_{\mathfrak m}B_P=0
+\tag{TFE2748B.870}
+\]
+
+on the retained interior.  On this reversible face the selected active density
+has the form
+
+\[
+F_P=W_P\rho_P,
+\qquad
+D_t^P\rho_P+\operatorname{div}_{\mathfrak m}(B_P\rho_P)=0,
+\tag{TFE2748B.871}
+\]
+
+so, as in `(TFE2748B.278)',
+
+\[
+D_t^P F_P+\operatorname{div}_{\mathfrak m}(B_PF_P)
+=
+F_P\,\mathcal L_P\log W_P,
+\qquad
+\mathcal L_P:=D_t^P+B_P\cdot\nabla_{\mathfrak m}.
+\tag{TFE2748B.872}
+\]
+
+Set
+
+\[
+H_\Phi(r):=r\Phi'(r)-\Phi(r),
+\qquad
+H_\Phi'(r)=r\Phi''(r).
+\tag{TFE2748B.873}
+\]
+
+The reversible current contribution in `(TFE2748B.862)' is then an exact
+divergence:
+
+\[
+-\Phi''(F_P)
+\langle\nabla_{\mathfrak m}F_P,F_PB_P\rangle
+=
+-B_P\cdot\nabla_{\mathfrak m}H_\Phi(F_P)
+=
+-\operatorname{div}_{\mathfrak m}(H_\Phi(F_P)B_P).
+\tag{TFE2748B.874}
+\]
+
+Therefore the signed reversible aligned-current measure
+
+\[
+dJ_P^{rev}
+:=
+-\operatorname{div}_{\mathfrak m}(H_\Phi(F_P)B_P)\,d\mathfrak m_P
+\tag{TFE2748B.875}
+\]
+
+has zero retained parent mass after paid boundary flux is removed:
+
+\[
+dJ_P^{rev}(P')=0
+\qquad
+\text{mod }d\Theta_P^0(P')+dPaid_P(P')+dStop_P(P').
+\tag{TFE2748B.876}
+\]
+
+Taking the Jordan split and same-parent coupling exactly as in Sections 82 and
+98 gives a reversible entropy-flux reserve \(M_P^{rev}\) with
+
+\[
+(dJ_P^{rev})_+
+\preceq_{atom}
+-dM_P^{rev}
++d\Theta_P^0+dPaid_P+dStop_P.
+\tag{TFE2748B.877}
+\]
+
+This is the precise no-recount statement for the reversible transport part:
+positive pieces of the entropy flux are paired with opposite signed pieces in
+the same parent packet before child clipping.  They can lower a parent reserve;
+they are not fresh selected source.
+
+After this split, the non-passive selected source is the meter-motion density
+
+\[
+dQ_P^{meter}
+:=
+\Phi'(F_P)F_P
+\bigl[\mathcal L_P\log W_P\bigr]_+
+\,d\mathfrak m_P
+\tag{TFE2748B.878}
+\]
+
+plus the already named connection, heat-lag, endpoint, collar, legal, stop, and
+route ledgers.  More explicitly, using `(TFE2748B.282)'--`(TFE2748B.287)',
+
+\[
+dQ_P^{align}
+\le
+-dM_P^{rev}
++dQ_P^{meter}
++d\Theta_P^0+dPaid_P+dStop_P.
+\tag{TFE2748B.879}
+\]
+
+Consequently the storage line in Section 99 follows from the selected-meter
+same-history capacity estimate
+
+\[
+dQ_P^{meter}
++[d\mathcal C_P^{crit}]_+
+\le
+-dM_P^{hist}
+\vartheta\,dI_P
+d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+C_N\vartheta<1,
+\tag{TFE2748B.880}
+\]
+
+with \(M_P^{hist}\) bounded below from the original data.  Taking
+
+\[
+M_P^{src}:=M_P^{rev}+M_P^{hist}
+\tag{TFE2748B.881}
+\]
+
+and combining `(TFE2748B.879)'--`(TFE2748B.880)' gives the early-source storage
+form `(TFE2748B.866)' directly.
+
+The local affine normal form `(TFE2748B.297)'--`(TFE2748B.302)' shows that
+`(TFE2748B.880)' cannot be proved by a local sign identity.  The metric part of
+\(\mathcal L_P\log W_P\) can be positive in a pressure-balanced incompressible
+affine visit while the local viscous Laplacian vanishes.  Therefore the
+nonlocal same-history capacity law is the real producer.  In the notation of
+Sections 56--58, `(TFE2748B.880)' is supplied by the two branch estimates
+
+\[
+\texttt{AugmentedRepeatedCoreNonreuseStorage.A `(TFE2748B.457)'}
+\quad\text{and}\quad
+\texttt{AugmentedShrinkingCoreEscapePacking.A `(TFE2748B.458)'.}
+\tag{TFE2748B.882}
+\]
+
+Equivalently, the current-edge source chain is now
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{entropy-flux pairing `(TFE2748B.874)'--`(TFE2748B.879)'}\\
++\texttt{same-history selected-meter capacity `(TFE2748B.880)'}\\
+\Longrightarrow
+\texttt{OneSidedAlignedCurrentDomination.A / early-source storage.}
+\end{array}}
+\tag{TFE2748B.883}
+\]
+
+This section proves the reversible part of the aligned-current theorem from the
+original coupled packet.  It also identifies the remaining non-reversible source
+without reopening raw atom attachment: prove the same-history selected-meter
+capacity `(TFE2748B.880)', equivalently the repeated-core and shrinking-core
+capacity estimates `(TFE2748B.457)'--`(TFE2748B.458)', from arbitrary original
+smooth data before clipping.
