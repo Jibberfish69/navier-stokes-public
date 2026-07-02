@@ -13210,7 +13210,7 @@ This is a terminal-face support theorem, not a standalone Gold producer.  The
 repo now says plainly that saturation, endpoint jump, and geometry/tower escape
 are readouts of the same terminal anti-atom; proving the critical capacity
 variation/storage line from arbitrary original smooth data requires the
-noncircular same-parent coupled active-capacity/full-exchange storage theorem
+signed critical-height sign-persistence / peak-height theorem
 for the original parent packet.
 
 ## 98. The pre-clipping signed atom attachment is constructed from original data
