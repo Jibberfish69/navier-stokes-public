@@ -14558,6 +14558,12 @@ same-parent zero-mean atoms, the coefficient mass and leakage are bounded by
 the original raw packet budget, and every retained positive lobe has an
 opposite lobe recorded as bounded-below parent reserve depletion.
 
+The companion original-data source surface now writes the same construction as
+the time-disintegrated parent transport measure \(d\Pi_P(dt,dx,dy)\) in
+`(TFE2748A.44)'--`(TFE2748A.48)'.  That is the object consumed here.  A
+countable atom ledger is only a simple-measure approximation to that continuous
+same-parent transport measure.
+
 The selected-critical \(L^1\) issue begins after `(TFE2748B.943)', when the
 critical meter \(W_P^{crit}=e^{b_P}\) is allowed to vary across each atom:
 
