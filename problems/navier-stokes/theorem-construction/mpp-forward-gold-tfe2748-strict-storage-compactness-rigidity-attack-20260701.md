@@ -22787,3 +22787,253 @@ first-time measure from hiding a terminal atom.  Proving those four original-dat
 clauses with the strict \(C_N\theta<1\) margin proves the critical capacity
 variation/storage line; none of the reverse-Holder, entropy, atomization, or
 dyadic displays is an independent Gold source after this split.
+
+## 163. The four active-density clauses collapse to one local active-transit storage
+
+The four names in `(TFE2748B.1497)' are coordinates of one local stopped source
+package.  They should not be treated as four independent reservoirs.  The old
+continuous \(TFE2532\)--\(TFE2598\) audit gives the exact collapse in the
+current \(TFE2748B\) variables.
+
+First split the selected child density on one stopped active fibre against the
+same root parent reserve:
+
+\[
+dA_Q^{sel,+}=f_Q\,dR_P^{root},
+\qquad
+dA_{\pi Q}^{sel,+}=f_{\pi Q}\,dR_P^{root}.
+\tag{TFE2748B.1498}
+\]
+
+On the positive-baseline part \(E_Q^{ac}:=\{f_{\pi Q}>0\}\), the selected
+carrier is only the Radon--Nikodym chain rule plus the derivative of the
+parent-announced selected detector through the original coupled frame:
+
+\[
+r_Q={f_Q\over f_{\pi Q}},
+\qquad
+\log r_Q
+=\int_{I_Q}\langle K_Q,\mathcal G_P^{root}\rangle\,d\sigma dt
+-\psi_Q+e_Q .
+\tag{TFE2748B.1499}
+\]
+
+Here \(\mathcal G_P^{root}\) is the full pressure-Hodge/current-frame,
+viscous-Stokes, self-advection, incompressibility, collar/selector, return,
+legal, and stop root generator before clipping; \(K_Q\) is the pulled-back
+cotangent detector; \(\psi_Q\) is the connection/order-lock normalization; and
+\(e_Q\) is paid.  Summing `(TFE2748B.1499)' along a stopped ancestry gives the
+carrier \(b_E=\ell_E(Z_P^S)-\psi_E+e_E\) in `(TFE2748B.1486)'.  Thus the
+positive-baseline part of `BeforeClippingSelectedLogCarrier.A' is an exact
+chain-rule identity once \(K_Q\) and \(\mathcal G_P^{root}\) are parent
+announced.
+
+The square bound needed for the stopped exponential-BMO clause is the bounded
+critical log-derivative projection
+
+\[
+\sum_{Q\subset P'}
+\left|
+\int_{I_Q}\langle K_Q,F\rangle\,d\sigma dt
+\right|^2
+dR_{P'}^{root}(E_Q)
+\le
+C_N\int_{\operatorname{Hist}(P')}
+H_{P'}^\ast\|F\|_{\mathcal H_{root}}^2\,d\sigma dt
++dPaid_F(P')
+\tag{TFE2748B.1500}
+\]
+
+for every stopped \(P'\preceq P\).  When \(F=\mathcal G_{P'}^{root}\) and the
+root generator clock is controlled, `(TFE2748B.1500)' gives the root Carleson
+square bound for \(b_E\), hence the stopped BMO/Kazamaki estimate
+`(TFE2748B.1488)' by the usual stopped John--Nirenberg argument.  The bounded
+detector branch of `(TFE2748B.1500)' is a Cauchy/overlap consumer: if
+
+\[
+dR_{P'}^{root}(E_Q)
+\int_{I_Q}
+{\|K_Q\|_{\mathcal H_{root}^\ast}^{2}\over
+\alpha_QH_{P'}^\ast}\,d\sigma dt
+\le C_N,
+\qquad
+\sum_Q\alpha_Q{\bf 1}_{I_Q}\le C_N,
+\tag{TFE2748B.1501}
+\]
+
+then `(TFE2748B.1500)' follows by Cauchy and summation.  Therefore a bounded
+pressure-Hodge, Stokes, frame, collar, selector, return, reset, legal, or stop
+detector cannot be the final \(L^1\) half-tail source after it has been
+announced in the parent root geometry.
+
+The only part not covered by `(TFE2748B.1501)' is the zero-baseline
+scale-native entry
+
+\[
+E_Q^{0}:=\{f_{\pi Q}=0,\ f_Q>0\}.
+\tag{TFE2748B.1502}
+\]
+
+There is no finite log ratio on \(E_Q^0\).  The correct critical capacity is
+therefore split before clipping as
+
+\[
+d\rho_{crit,P}
+=d\rho_{crit,P}^{ac}+d\rho_{crit,P}^{entry},
+\tag{TFE2748B.1503}
+\]
+
+with
+
+\[
+d\rho_{crit,P}^{ac}(E_Q)
+=
+\int_{E_Q\cap\{f_{\pi Q}>0\}}
+f_Q\log\!\left({f_Q\over f_{\pi Q}}\right)_+\,dR_P^{root},
+\tag{TFE2748B.1504}
+\]
+
+and
+
+\[
+d\rho_{crit,P}^{entry}(E_Q)
+=
+dR_P^{root}(E_Q^0)
+\|K_Q^{parent}\|_{\mathcal H_{root}^\ast}^{2}
+\simeq
+\lambda_Q^{-1}dR_P^{root}(E_Q^0).
+\tag{TFE2748B.1505}
+\]
+
+The parameter \(\lambda_Q\) is the physical heat/zoom ratio, not the density
+ratio \(r_Q\).  With `(TFE2748B.1505)' the scale-native detector admission
+
+\[
+dR_P^{root}(E_Q^0)\|K_Q^{parent}\|_{\mathcal H_{root}^\ast}^{2}
+\le
+C_N\,d\rho_{crit,P}^{entry}(E_Q)+dPaid_Q
+\tag{TFE2748B.1506}
+\]
+
+is definitional.  The nontrivial original-data content is the packing of these
+entry atoms,
+
+\[
+\sum_{Q\subset P'}d\rho_{crit,P'}^{entry}(E_Q)
+\le
+C_N\int_{P'}d\mathcal E_P^{EP}+dPaid(P'),
+\tag{TFE2748B.1507}
+\]
+
+and the endpoint seed measure \(d\mathcal E_P^{EP}\) is a face of the same
+active-transit packet, not a separate endpoint account.
+
+Combining the positive-baseline log branch, the bounded detector branch, and
+the zero-baseline entry branch gives the before-clipping readout domination
+
+\[
+dA_P^{sel,+}
+\le
+C_N\,d\rho_{crit,P}^{ac}
++C_N\,d\rho_{crit,P}^{entry}
++C_N\,dA_P^{bd}
++dPaid_P .
+\tag{TFE2748B.1508}
+\]
+
+The first and third terms are controlled by the stopped root-generator clock
+through `(TFE2748B.1500)'.  The entry term is controlled by endpoint seed
+packing.  The terminal no-residue clause in `(TFE2748B.1495)' is also a
+consumer once the same parent active measure is time-thick in the root clock:
+
+\[
+d\Lambda_P+dA_P^{sel/chart}
+\le
+C_N\,d\Omega_P^{gen}+dPaid_P,
+\qquad
+d\Omega_P^{gen}=\omega_P(t,\sigma)\,dt\,d\sigma+dPaid_P^{ac}.
+\tag{TFE2748B.1509}
+\]
+
+If \(\omega_P\in L^1([0,T_*))\), absolute continuity gives `(TFE2748B.1495)'.
+Thus terminal no-residue is not another physical source after the endpoint
+material is dominated by the same time-thick full-exchange generator clock.
+
+The whole Section 162 package is therefore supplied by one local stopped
+active-transit bracket:
+
+\[
+\mathcal B_P^{AT}(P')
+:=
+\mu_P^{Ent}(P')
++\int_{P'}dA_{4B,N}^{tower,+}
++\int_{P'}d\mathcal J_N
++\int_{\operatorname{Hist}(P')}d\Omega_P^{gen}.
+\tag{TFE2748B.1510}
+\]
+
+In differential form, the needed source theorem is the existence of a
+bounded-below parent storage \(\mathscr S_P^{AT}\), constructed before selected
+positive clipping, such that
+
+\[
+\begin{aligned}
+d\mathscr S_P^{AT}
+&+
+c_E\,d\mu_P^{Ent}
++c_A\,dA_{4B,N}^{tower,+}
++c_J\,d\mathcal J_N\\
+&\le
+C_N\,d\Xi_P^{FE}
++d\Theta_P^0
++\theta_A\,d\Omega_P^{gen}
++dPaid_P .
+\end{aligned}
+\tag{TFE2748B.1511}
+\]
+
+Together with the strict full-exchange no-self-feeding storage
+
+\[
+d\Xi_P^{FE}
+\le
+-dM_P^{FE}
++d\Theta_P^0
++\theta_{FE}\,d\Omega_P^{gen}
++dPaid_P,
+\qquad
+d\Omega_P^{gen}\le C_Nd\Xi_P^{FE}+dPaid_P,
+\tag{TFE2748B.1512}
+\]
+
+and \(C_N(\theta_A+\theta_{FE})<1\), absorption gives
+
+\[
+\mathcal B_P^{AT}(P')
+\le
+C_N(u_0)\mathcal R(P')+dPaid(P').
+\tag{TFE2748B.1513}
+\]
+
+Substituting `(TFE2748B.1513)' into `(TFE2748B.1508)' and using
+`(TFE2748B.1509)' gives `(TFE2748B.1480)', then `(TFE2748B.1483)' gives
+`CriticalCapacityVariationStorage.A'.  Hence the four-clause Section 162 source
+is nonduplicately reduced to the single coupled active-transit/full-exchange
+storage theorem
+
+\[
+\boxed{
+\texttt{LocalActiveTransitStorage.A `(TFE2748B.1511)'}
++
+\texttt{FullExchangeNoSelfFeedingStorage.A `(TFE2748B.1512)'}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1514}
+\]
+
+This does not close Gold.  It identifies the exact remaining arbitrary-data
+producer after the carrier, BMO, native pushforward, and terminal no-residue
+labels are deduplicated: construct the local active-transit storage and the
+strict full-exchange no-self-feeding storage from the original coupled packet,
+with the scale-native zero-baseline entry atoms packed before clipping and with
+the strict \(C_N(\theta_A+\theta_{FE})<1\) margin.
