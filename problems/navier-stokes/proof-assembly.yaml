@@ -363,6 +363,7 @@ frontier_context:
         audit_surfaces:
         - problems/navier-stokes/theorem-construction/mpp-forward-gold-summation-type-custody-audit-20260702.md
         - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-coupled-storage-loop-audit-20260702.md
+        - problems/navier-stokes/theorem-construction/mpp-forward-gold-noncircular-same-parent-coupled-storage-proof-pressure-20260702.md
         anti_smuggling_rule: No generated, manuscript, or theorem-packet surface may
           call the Gold L1 wall closed until the coupled parent-storage theorem is
           proved.
