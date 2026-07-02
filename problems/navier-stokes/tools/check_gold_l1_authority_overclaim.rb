@@ -38,6 +38,10 @@ ACTIVE_PATHS = %w[
   problems/navier-stokes/theorem-to-warrant.yaml
 ].freeze
 
+OPTIONAL_ACTIVE_PATHS = %w[
+  problems/navier-stokes/runtime/meta/quality-verdict.yaml
+].freeze
+
 REQUIRED_CURRENT_AUTHORITY = %w[
   problems/navier-stokes/live-theorem-edge.yaml
   problems/navier-stokes/source-frontier.yaml
@@ -65,6 +69,7 @@ FORBIDDEN_ACTIVE_CLAIMS = {
   "direct proof pack ready true" => /direct_proof_pack_ready:\s*true\b/i,
   "open theorem authority false" => /open_theorem_authority:\s*false\b/i,
   "terminal safe true" => /(?:target_fidelity_)?terminal_safe:\s*true\b/i,
+  "terminal claim active true" => /terminal_claim_active:\s*true\b/i,
   "zero submission blockers" => /total_submission_blockers:\s*0\b/i,
   "submission ready true" => /submission_ready:\s*true\b/i,
   "submission safe true" => /submission_safe:\s*true\b/i,
@@ -185,6 +190,13 @@ ACTIVE_PATHS.each do |relative_path|
     violations << "#{relative_path}: missing active Gold/readiness authority surface"
     next
   end
+
+  violations.concat(scan_file(path))
+end
+
+OPTIONAL_ACTIVE_PATHS.each do |relative_path|
+  path = ROOT.join(relative_path)
+  next unless path.file?
 
   violations.concat(scan_file(path))
 end
