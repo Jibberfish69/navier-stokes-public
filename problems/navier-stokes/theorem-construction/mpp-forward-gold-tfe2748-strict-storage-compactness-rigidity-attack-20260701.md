@@ -4170,3 +4170,171 @@ in the entropy-dual metric attached to the same parent density \(F_P\).  Proving
 `(TFE2748B.257)'--`(TFE2748B.260)' from arbitrary original smooth data proves
 `(TFE2748B.254)', hence the parent-density source package `(TFE2748B.241)' and
 the critical capacity variation/storage line.
+
+## 37. Pre-clipping signed atomization and the reserve-depletion upgrade
+
+The signed atom attachment itself is now a theorem-level measure fact, provided
+the selected meter has already been pulled back into the stopped parent frame.
+Let \(X_P\) be one stopped parent packet, including its time coordinate, and let
+\(dJ_P^{S}\) be the selected pre-clipping pressure-Hodge/material residue after
+route, collar, legal, stop, and endpoint leakage has been separated.  The
+projected-pressure identity gives the parent residue in the form
+
+\[
+dJ_P^{S}=d\widetilde J_P^{S}+dR_P^{S},
+\qquad
+\int_{X_P}d\widetilde J_P^{S}=0,
+\qquad
+|dR_P^{S}|
+\le
+dPaid_P+dStop_P+d\Theta_P^0 .
+\tag{TFE2748B.262}
+\]
+
+For arbitrary original smooth data this is finite on every stopped compact
+subinterval.  The zero-mass clause is the local parent-frame form of pressure as
+a constraint force: after the parent detector is in the adjoint, the
+pressure-Hodge part redistributes the same parent packet and only the listed
+collar/route/legal/stop defects can carry net mass.
+
+Write the Jordan decomposition
+
+\[
+d\widetilde J_P^{S}
+=
+dJ_{P,+}^{S}-dJ_{P,-}^{S},
+\qquad
+dJ_{P,+}^{S}(X_P)=dJ_{P,-}^{S}(X_P)=:M_P^J .
+\tag{TFE2748B.263}
+\]
+
+Choose any coupling \(\pi_P\) of \(dJ_{P,+}^{S}\) and \(dJ_{P,-}^{S}\).  For
+instance, when \(M_P^J>0\),
+
+\[
+\pi_P
+=
+{dJ_{P,+}^{S}\otimes dJ_{P,-}^{S}\over M_P^J};
+\tag{TFE2748B.264}
+\]
+
+when \(M_P^J=0\) take \(\pi_P=0\).  Then for every bounded parent test function
+\(\varphi\),
+
+\[
+\int_{X_P}\varphi\,d\widetilde J_P^{S}
+=
+\int_{X_P\times X_P}
+\bigl(\varphi(x)-\varphi(y)\bigr)\,d\pi_P(x,y).
+\tag{TFE2748B.265}
+\]
+
+Thus
+
+\[
+d\widetilde J_P^{S}
+=
+\int_{X_P\times X_P}(\delta_x-\delta_y)\,d\pi_P(x,y),
+\qquad
+\int\|\,\delta_x-\delta_y\,\|_{TV}\,d\pi_P
+=
+|d\widetilde J_P^{S}|(X_P).
+\tag{TFE2748B.266}
+\]
+
+This is the exact same-parent atomic decomposition: every positive lobe is
+paired with an opposite signed lobe in the same stopped parent packet, and the
+coefficient mass is controlled by the total variation of the pre-clipping
+parent residue.
+
+The selected-weight issue is also exact.  If a child weight \(W_P\) is applied
+after this atomization, then the zero-mean pairing is distorted by
+
+\[
+\int_{X_P}W_P\,d\widetilde J_P^{S}
+=
+\int_{X_P\times X_P}
+\bigl(W_P(x)-W_P(y)\bigr)\,d\pi_P(x,y).
+\tag{TFE2748B.267}
+\]
+
+So late weighting is not free.  The right before-clipping object is the
+parent-announced detector for which the selected meter has already been included
+in \(dJ_P^{S}\); the remaining variation in \(W_P\) is exactly selector,
+covector, frame, collar, Hodge, or route leakage, and belongs to
+\(dR_P^{S}\).  This proves the requested coefficient/leakage split: atom
+coefficients are controlled by \(|d\widetilde J_P^{S}|\), and every failure of
+the selected positive lobe to match its opposite lobe is a paid detector-motion
+term.
+
+On the atom ledger \(X_P\times X_P\), define
+
+\[
+dJ_{P,atom}^{ret,-}:=d\pi_P .
+\tag{TFE2748B.268}
+\]
+
+The positive lobe is the first marginal of this same atom ledger and the
+retained opposite lobe is the second marginal:
+
+\[
+dJ_{P,+}^{S}=(\mathrm{pr}_1)_\#d\pi_P,
+\qquad
+dJ_{P,-}^{S}=(\mathrm{pr}_2)_\#d\pi_P .
+\tag{TFE2748B.269}
+\]
+
+Consequently the selected positive pressure-Hodge/material bill can only enter
+as already paired atom mass plus the paid leakage:
+
+\[
+(dJ_P^{S})_+
+\preceq_{atom}
+dJ_{P,atom}^{ret,-}+(dR_P^{S})_+ .
+\tag{TFE2748B.270}
+\]
+
+The symbol \(\preceq_{atom}\) records that the comparison is made on the
+same-parent atom ledger.  Without the atom ledger, the positive and negative
+lobes may live at different points of \(X_P\), so the comparison is a paired
+transport comparison, not an unpaired pointwise measure inequality.
+
+The reserve upgrade is the remaining source estimate.  If the retained opposite
+lobe is charged to a parent-announced critical reserve by
+
+\[
+dJ_{P,atom}^{ret,-}
+\le
+-dM_P^{crit}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+M_P^{crit}\ge -C_N(u_0),
+\tag{TFE2748B.271}
+\]
+
+then the critical spent measure satisfies
+
+\[
+dE_P^{crit}
+\le
+-dM_P^{crit}
++\theta\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+C_N\theta<1.
+\tag{TFE2748B.272}
+\]
+
+This is the storage line.
+
+The construction above proves the signed atomic decomposition from arbitrary
+smooth data before clipping.  It does not by itself prove the terminal-uniform
+reserve bound in `(TFE2748B.271)'.  Defining \(M_P^{crit}(t)\) by the future
+tail of \(dJ_{P,atom}^{ret,-}\) would be circular; the reserve must be
+parent-announced from the original coupled packet before the child readout is
+clipped.  Equivalently, `(TFE2748B.271)' is supplied by the entropy-dual current
+domination `(TFE2748B.260)' or by an equivalent parent-active
+Orlicz/reverse-Holder source theorem.  Once that source estimate is proved,
+`(TFE2748B.270)' turns every positive selected lobe into retained parent-reserve
+depletion plus paid leakage, and `(TFE2748B.272)' gives
+`(TFE2748B.247)'.
