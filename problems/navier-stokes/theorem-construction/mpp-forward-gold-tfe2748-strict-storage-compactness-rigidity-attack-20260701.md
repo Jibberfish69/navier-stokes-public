@@ -8291,3 +8291,130 @@ the same original coupled-packet fact in sharper coordinates: accumulated
 far-corona stress cannot create selected positive coefficient mass unless it is
 already present as source-square/full-exchange material, viscous drain, legal,
 stop, or paid meter motion before clipping.
+
+## 64. Accumulated-stress threading is source-square dominated
+
+The preceding section left `FarCoronaAccumulatedStressThreading.A' as an
+unproved input.  The direct far-corona attack actually gives enough to prove
+that threading into the source-square currency.  The missing point was to keep
+the \(2^{-2j}\) factors in the accumulated high-scale stress instead of
+collapsing them into a generic endpoint square.
+
+From the direct \(L_x^\infty\times L_x^1\) attack on `(TFE2748B.519)', with
+\(r\sim2^{-k}\) and \(\ell\sim2^{-j}\), \(j\ge k+C_1\), one has
+
+\[
+\mathfrak C_N^{far}(W)
+\le
+C
+\int_W
+\sum_{k>N-C_0}
+2^kD_k(t)
+\left(
+\sum_{j\ge k+C_1}2^{-2j}D_j(t)
+\right)^2dt .
+\tag{TFE2748B.528}
+\]
+
+Since \(j\ge k+C_1\),
+
+\[
+\sum_{j\ge k+C_1}2^{-2j}D_j(t)
+\le
+C\,2^{-2k}
+\sum_{j\ge k+C_1}D_j(t).
+\tag{TFE2748B.529}
+\]
+
+Substituting `(TFE2748B.529)' into `(TFE2748B.528)' gives
+
+\[
+\mathfrak C_N^{far}(W)
+\le
+C
+\int_W
+\sum_{k>N-C_0}
+2^{-3k}D_k(t)
+\left(
+\sum_{j\ge k+C_1}D_j(t)
+\right)^2dt .
+\tag{TFE2748B.530}
+\]
+
+The global energy inequality supplies the missing lower-band coefficient bound:
+
+\[
+2^{-3k}D_k(t)
+=
+2^k\|\Delta_k u(t)\|_2^2
+\le
+2^k\|u(t)\|_2^2
+\le
+2^k\|u_0\|_2^2 .
+\tag{TFE2748B.531}
+\]
+
+Therefore
+
+\[
+\mathfrak C_N^{far}(W)
+\le
+C(u_0)
+\int_W
+\sum_{k>N-C}
+2^k
+\left(
+\sum_{j>k+4}D_j(t)
+\right)^2dt
+=
+C(u_0)\,\mathcal R_{N-C}(W).
+\tag{TFE2748B.532}
+\]
+
+This proves the threading theorem in the form needed by `(TFE2748B.525)':
+
+\[
+\boxed{
+\texttt{FarCoronaAccumulatedStressThreading.A is proved by
+`(TFE2748B.528)'--`(TFE2748B.532)'.}
+}
+\tag{TFE2748B.533}
+\]
+
+Combining `(TFE2748B.532)' with the source-square payment estimate
+
+\[
+\mathcal R_{N-C}(W)
+\le
+\varepsilon\nu\int_WD_N(t)\,dt
++
+C_\varepsilon2^{-2\delta N}
++Paid(W)+Stop(W)
+\tag{TFE2748B.534}
+\]
+
+gives exactly `(TFE2748B.525)'.  Thus the far-corona accumulated-stress
+threading is no longer an independent Gold obstruction.  The remaining
+source input inside `(TFE2748B.527)' is `SourceSquareReservePayment.A', the
+native source-square face of `FullExchangeCriticalDepletionStorage.A', together
+with the already named weighted-carrier full-exchange payment for the
+fixed-collar/meter-motion terms.
+
+The sharpened coefficient implication is therefore
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{WeightedCarrierFullExchangePayment.A}\\
++\texttt{SourceSquareReservePayment.A}
+\end{array}
+\Longrightarrow
+\text{root-uniform selected coefficient estimate `(TFE2748B.511)'.}
+}
+\tag{TFE2748B.535}
+\]
+
+This is not Gold closure yet, because `(TFE2748B.534)' is still the
+full-exchange/native source-square payment theorem from arbitrary original
+data.  What has been removed is the separate proposition-level far-corona
+threading gap.
