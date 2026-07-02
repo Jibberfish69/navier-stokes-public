@@ -19010,7 +19010,7 @@ parent entropy ledger before clipping.  Let
 \[
 B_P^E
 :=
-C_N\bigl(\Theta_P^0(X_P)+Paid_P(X_P)+Stop_P(X_P)+\mu_P^{Ent}(X_P)\bigr)
+C_N\bigl(\Theta_P^0(X_P)+Paid_P(X_P)+Legal_P(X_P)+Stop_P(X_P)+\mu_P^{Ent}(X_P)\bigr)
 \tag{TFE2748B.1240}
 \]
 
@@ -19024,13 +19024,13 @@ M_P^E(s):=B_P^E-\mu_P^{Ent}([0,s]\times X_P),
 \]
 
 The endpoint material is stopped only after the parent endpoint/inherited ledger
-has finite original-data mass; the paid collar/endpoint leakage is already in
-\(d\Theta_P^0+dPaid_P+dStop_P\).  Hence \(M_P^E\ge0\) and
+has finite original-data mass; the paid collar/endpoint/legal leakage is
+already in \(d\Theta_P^0+dPaid_P+dLegal_P+dStop_P\).  Hence \(M_P^E\ge0\) and
 
 \[
 d\mathscr S_P^E+c_Ed\mu_P^{Ent}
 \le
-C_N(d\Theta_P^0+dPaid_P+dStop_P).
+C_N(d\Theta_P^0+dPaid_P+dLegal_P+dStop_P).
 \tag{TFE2748B.1242}
 \]
 
