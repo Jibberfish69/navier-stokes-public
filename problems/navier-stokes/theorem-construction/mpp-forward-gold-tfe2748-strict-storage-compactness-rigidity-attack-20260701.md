@@ -12757,3 +12757,83 @@ legal/collar, and material-record/tower-rung residues in `(TFE2748B.760)' must
 be paid by \(d\Theta^0+dPaid+dStop+2^{-N}D_Ndt\) before the selected child
 readout is counted.  The selected endpoint lower-admission branch is no longer
 a separate source wall.
+
+## 94. The visible legal and moving-selector faces are not tail sources
+
+The tail material-record line in `(TFE2748B.760)' still lists five residue
+classes.  Two of them contain parts that are already outside the retained
+source: legal/collar leakage and ordinary motion of the selector, collar,
+order-lock, or reselection chart.  Those pieces are not permitted to remain in
+the tail source after the stopped quotient has been formed.
+
+Split the selector and legal residues as
+
+\[
+\mathcal R_{\rm sel}
+=
+\mathcal R_{\rm sel}^{mov}
++\mathcal R_{\rm sel}^{shape},
+\qquad
+\mathcal R_{\rm legal}
+=
+\mathcal R_{\rm legal}^{paid}
++\mathcal R_{\rm legal}^{sing}.
+\tag{TFE2748B.823}
+\]
+
+Here \(\mathcal R_{\rm sel}^{mov}\) is finite selector/collar/order-lock/
+reselection motion in the stopped parent frame, and
+\(\mathcal R_{\rm legal}^{paid}\) is the legal/collar trace already separated
+when the retained quotient was defined.  By the paid-selector line
+`(TFE2748B.65)' and the quotient exhaustion in Sections 39--44,
+
+\[
+\mathcal R_{\rm sel}^{mov}
++\mathcal R_{\rm legal}^{paid}
+\le
+C_N(d\Theta^0+dPaid+dStop).
+\tag{TFE2748B.824}
+\]
+
+Thus these pieces cannot be the remaining Gold source.  Any selector residue
+that survives `(TFE2748B.824)' is not ordinary selector motion; it is loss of a
+stable selected carrier graph in the same sense as the Body-III carrier defect.
+Any legal residue that survives is not an already legal collar term; it is a
+non-terminal-AC singular trace that has failed to enter the paid/legal ledger.
+
+Consequently `TailMaterialRecordPayment.A' is equivalent to the reduced
+payment line
+
+\[
+\boxed{
+\mathcal R_{\rm sel}^{shape}
++\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm legal}^{sing}
++\mathcal R_{\rm geom}^{tail}
+\le
+C_N(d\Theta^0+dPaid+dStop+2^{-N}D_N\,dt).
+}
+\tag{TFE2748B.825}
+\]
+
+The reduction is lossless: adding `(TFE2748B.824)' to `(TFE2748B.825)' gives
+`(TFE2748B.760)', and `(TFE2748B.760)' trivially gives `(TFE2748B.825)' after
+discarding the nonnegative paid selector/legal subfaces.  Therefore the active
+tail-payment source is not "all selector/legal material."  It is the four
+genuine retained-failure faces:
+
+\[
+\boxed{
+\text{unstable selected-carrier shape}
+\ +\ \text{terminal signed-partner saturation}
+\ +\ \text{endpoint jump}
+\ +\ \text{singular legal trace or material-record/tower-rung escape}.
+}
+\tag{TFE2748B.826}
+\]
+
+All four are same-parent failures of the retained material record before child
+clipping.  Proving `(TFE2748B.825)' from arbitrary original smooth data is now
+the exact remaining form of `TailMaterialRecordPayment.A' and hence, by
+`(TFE2748B.822)', of `CriticalCapacityVariationStorage.A'.
