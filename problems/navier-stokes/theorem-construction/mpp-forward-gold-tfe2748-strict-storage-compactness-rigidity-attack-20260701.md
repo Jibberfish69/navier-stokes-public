@@ -3319,3 +3319,131 @@ the net flux; rectification asks for positive variation of that flux.  The
 dyadic weighted-tail identity supplies the lower-to-upper paired carrier; the
 missing estimate is its \(2^k\)-weighted positive work.  Both are precisely the
 failure or success of `(TFE2748B.209)' for the parent detector \(W_P\).
+
+## 31. Level reserve reduces to a weighted Carleson embedding
+
+Section 30 separates the weighted atom problem into a mean active-capacity level
+and a lobe-oscillation defect.  The exact embedding form is as follows.
+
+Let
+
+\[
+d\nu_P^{atom}
+:=
+\sum_\alpha |c_\alpha(t)|\,\delta_{\alpha}\,dt
+\tag{TFE2748B.213}
+\]
+
+be the positive raw atom-coefficient measure on the stopped parent tree or its
+continuous parent-root analogue.  Let \(d\mathfrak m_P\) be the parent pulled
+critical measure before child clipping, and let \(W_P\ge0\) be the parent
+selected detector.  The level clause in `(TFE2748B.209)' is
+
+\[
+\int_{\operatorname{Hist}(P')} W_P\,d\nu_P^{atom}
+\le
+C_N(u_0;P')+Paid(P')+\theta\,\Omega_P^{gen}(P').
+\tag{TFE2748B.214}
+\]
+
+This follows from two strictly parent-side facts:
+
+\[
+\nu_P^{atom}(E)
+\le
+K_P\,\mathfrak m_P(E^\ast)+Paid(E^\ast)
+\quad\text{for every stopped parent union }E,
+\tag{TFE2748B.215}
+\]
+
+and
+
+\[
+\int_{\operatorname{Hist}(P')} W_P\,d\mathfrak m_P
+\le
+C_N(u_0;P')+\theta\,\Omega_P^{gen}(P')+Paid(P').
+\tag{TFE2748B.216}
+\]
+
+Indeed, by layer-cake and the stopped-envelope property of superlevel sets,
+
+\[
+\begin{aligned}
+\int W_P\,d\nu_P^{atom}
+&=
+\int_0^\infty
+\nu_P^{atom}(\{W_P>\lambda\})\,d\lambda\\
+&\le
+K_P\int_0^\infty
+\mathfrak m_P(\{W_P>\lambda\}^{\ast})\,d\lambda
++Paid\\
+&\le
+C K_P\int W_P\,d\mathfrak m_P+Paid,
+\end{aligned}
+\tag{TFE2748B.217}
+\]
+
+which gives `(TFE2748B.214)' after `(TFE2748B.216)' and the strict margin are
+inserted.
+
+The oscillation clause is the complementary endpoint-duality part.  If
+\(W_P=\exp b_P\), the stopped log-carrier estimate
+
+\[
+\sup_{P'\subseteq P}
+{1\over \mathfrak m_P(P')}
+\sum_{Q\subseteq P'}
+\|\Delta_Q b_P\|_{\mathcal H}^2\,\mathfrak m_P(Q)
+\le C_N(u_0)+{Paid(P')\over\mathfrak m_P(P')}
+\tag{TFE2748B.218}
+\]
+
+gives the BMO norm of \(b_P\).  After stopping on good fibres where
+\(\|b_P\|_{\mathrm{BMO}}\le\varepsilon_N\), John--Nirenberg gives a reverse
+Holder bound for \(W_P\):
+
+\[
+\left(
+{1\over \mathfrak m_P(P')}
+\int_{P'}W_P^{1+\varepsilon}\,d\mathfrak m_P
+\right)^{1/(1+\varepsilon)}
+\le
+C
+{1\over \mathfrak m_P(P')}
+\int_{P'}W_P\,d\mathfrak m_P,
+\tag{TFE2748B.219}
+\]
+
+while the bad fibres Carleson-pack into \(d\Theta_P^0+dPaid_P+dStop_P\).  The
+\(H^1\)-BMO duality in `(TFE2748B.206)' then controls
+
+\[
+\int_0^\tau\sum_\alpha
+\left|\int (W_P-W_\alpha)\,d\mu_\alpha\right|dt
+\le
+\theta\,\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.220}
+\]
+
+Thus `(TFE2748B.209)' is equivalent, at this level, to the parent-side package
+
+\[
+\boxed{
+\begin{array}{c}
+\text{raw atom coefficients form a local Carleson measure relative to the}\\
+\text{same parent critical measure \(d\mathfrak m_P\),}\\
+\text{the active detector has parent-built \(L^1\) level reserve,}\\
+\text{and its log-carrier has stopped BMO square packing before clipping.}
+\end{array}}
+\tag{TFE2748B.221}
+\]
+
+The raw atomization theorem proves only the global unweighted mass
+`(TFE2748B.197)'.  It does not prove `(TFE2748B.215)' or `(TFE2748B.216)'.
+Localizing `(TFE2748B.197)' by the local energy identity reintroduces the
+one-sided window-flux variation `(TFE2748B.86)'--`(TFE2748B.90)'.  Therefore the
+current reduction is strict but not closed: the remaining original-data producer
+is the parent-side coefficient-Carleson plus active-level reserve package
+`(TFE2748B.221)', equivalently the rectified same-parent positive flux-variation
+law in physical variables.
