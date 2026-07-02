@@ -16,6 +16,13 @@ APPENDIX_PATH = BUNDLE_ROOT.join("surface-derivation-appendix.tex")
 INVENTORY_PATH = BUNDLE_ROOT.join("surface-derivation-inventory.yaml")
 
 CURRENT_AUTHORITY_OVERRIDE_20260702 = "This derivation inventory is not a closure surface. Historical theorem names and generated rows are provenance unless reconciled with the current Gold L1 custody audits. The current open wall is the noncircular same-parent coupled active-capacity/full-exchange storage theorem for the original parent packet before child clipping; untyped sums and linear TFE2748B storage chains do not prove it.".freeze
+CURRENT_GOLD_L1_CUSTODY_20260702 = {
+  "status" => "gold-l1-open-coupled-storage-wall",
+  "physical_object_first" => "original parent packet before child clipping",
+  "current_wall" => "noncircular same-parent coupled active-capacity/full-exchange storage theorem",
+  "sum_custody" => "child, atom, shell, dyadic, packet-label, and point-sample sums are typed readouts/bookkeeping only",
+  "forbidden_promotion" => "appendix rows, family headings, terminal anti-atom faces, source-refill displays, or linear TFE2748B chains cannot close Gold L1 unless they prove the coupled parent-storage object"
+}.freeze
 
 def load_yaml(path)
   YAML.load_file(path.to_s)
@@ -331,6 +338,7 @@ inventory = {
   "generator" => "problems/navier-stokes/tools/build_surface_derivation_appendix.rb",
   "purpose" => "Keep every relevant Navier-Stokes proof surface in an internal derivation inventory while the Clay-facing PDF receives only mathematical branch arguments.",
   "current_authority_override_20260702" => CURRENT_AUTHORITY_OVERRIDE_20260702,
+  "current_gold_l1_custody_20260702" => CURRENT_GOLD_L1_CUSTODY_20260702,
   "sources" => {
     "certificates" => CERTIFICATE_PATH.relative_path_from(ROOT).to_s,
     "forward_positive_quarantine" => QUARANTINE_PATH.relative_path_from(ROOT).to_s,
@@ -398,10 +406,10 @@ certificate_groups.sort_by { |role, rows| [role.to_s, -rows.length] }.each_with_
   tex << "This proof role accounts for #{rows.length} branch obligation#{rows.length == 1 ? '' : 's'} with one mathematical CM job. The proof rules represented here are #{count_summary(rows.map { |entry| cm_rule_phrase(entry["proof_rule"]) })}. The tested requirements are #{face_summary(rows)}. The terminal mechanisms represented here are #{count_summary(rows.map { |entry| entry["selected_failure_type"] })}."
   tex << ""
   claim, proof, reader_role = cm_claim_and_proof("CM proof role #{group_index + 1}", role)
-  tex << "\\paragraph{Family proof role.}"
-  tex << "\\emph{Claim.} #{claim}"
+  tex << "\\paragraph{Family inventory role.}"
+  tex << "\\emph{Inventory statement.} #{claim}"
   tex << ""
-  tex << "\\emph{Proof.} #{proof}"
+  tex << "\\emph{Support explanation.} #{proof}"
   tex << ""
   tex << "\\emph{Reader-facing role.} #{reader_role}"
   tex << ""
@@ -422,10 +430,10 @@ support_groups.sort_by { |role, rows| [role.to_s, -rows.length] }.each_with_inde
   tex << "This proof role accounts for #{rows.length} support obligation#{rows.length == 1 ? '' : 's'} with one mathematical support job. The support classes represented here are #{count_summary(rows.map { |entry| support_class_phrase(entry["support_classes"] || entry["demotion_classes"]) })}. The support may enter a CM hinge only through a Field-certification admission, a receiver/readout bridge, or a same-branch transfer license."
   tex << ""
   claim, proof, reader_role = support_claim_and_proof("Support proof role #{group_index + 1}", role)
-  tex << "\\paragraph{Family proof role.}"
-  tex << "\\emph{Claim.} #{claim}"
+  tex << "\\paragraph{Family support role.}"
+  tex << "\\emph{Support statement.} #{claim}"
   tex << ""
-  tex << "\\emph{Proof.} #{proof}"
+  tex << "\\emph{Support explanation.} #{proof}"
   tex << ""
   tex << "\\emph{Reader-facing role.} #{reader_role}"
   tex << ""
@@ -440,11 +448,11 @@ tex << ""
 
 family_expansions(coverage_families).each_with_index do |(title, total, _representation, claim, proof), index|
   tex << "\\paragraph{Branch-family obligation #{index + 1}.}"
-  tex << "\\emph{#{latex_escape(title)}.} This family accounts for #{total} current obligation#{total == 1 ? '' : 's'}."
+  tex << "\\emph{#{latex_escape(title)}.} This family records #{total} current support or inventory obligation#{total == 1 ? '' : 's'}."
   tex << ""
   tex << claim
   tex << ""
-  tex << "\\emph{Proof.} #{proof}"
+  tex << "\\emph{Support explanation.} #{proof}"
   tex << ""
 end
 
