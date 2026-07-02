@@ -5391,3 +5391,147 @@ projection: atom pairing, retained-lobe reserve depletion, current
 representation, zero-order kernel routing, and selected-density entropy
 conversion have all been separated from this last aligned-current
 Fisher-domination problem.
+
+## 45. Parallel-current coefficient normal form
+
+The last surviving term in `(TFE2748B.336)' has an exact scalar form.  Write the
+Fisher density as
+
+\[
+i_P
+:=
+\Phi''(F_P)\,
+\langle A_P\nabla_{\mathfrak m}F_P,\nabla_{\mathfrak m}F_P\rangle,
+\qquad
+dI_P=i_P\,d\mathfrak m_P .
+\tag{TFE2748B.337}
+\]
+
+On the retained set where
+\(\langle A_P\nabla_{\mathfrak m}F_P,\nabla_{\mathfrak m}F_P\rangle>0\), define
+the parallel coefficient of the same-parent current by
+
+\[
+a_P
+:=
+-
+{\langle\nabla_{\mathfrak m}F_P,J_{\Psi,P}\rangle
+\over
+\langle A_P\nabla_{\mathfrak m}F_P,\nabla_{\mathfrak m}F_P\rangle},
+\qquad
+J_{\Psi,P}^{\perp}
+:=
+J_{\Psi,P}+a_P A_P\nabla_{\mathfrak m}F_P .
+\tag{TFE2748B.338}
+\]
+
+On the complement set the denominator vanishes, hence
+\(\nabla_{\mathfrak m}F_P=0\) in the retained elliptic metric and the numerator
+also vanishes; set \(a_P=0\) there.  Then
+
+\[
+\langle\nabla_{\mathfrak m}F_P,J_{\Psi,P}^{\perp}\rangle=0,
+\tag{TFE2748B.339}
+\]
+
+and, for every fixed smooth stopped parent packet before terminal passage,
+
+\[
+dQ_P^{cur}
+=
+(a_P)_+\,dI_P .
+\tag{TFE2748B.340}
+\]
+
+Thus transverse pressure-Hodge re-coordination does not create the positive
+selected bill in `(TFE2748B.329)'; it is invisible to the Fisher-gradient
+readout.  The negative parallel direction helps the entropy drain.  The only
+surviving positive source is the part of the same-parent current whose
+coefficient points against the Fisher descent direction, \(a_P>0\).
+
+The integrated source line `(TFE2748B.331)' is therefore the scalar coefficient
+inequality
+
+\[
+\int (a_P)_+\,dI_P
+\le
+\theta\int dI_P
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+\theta<1.
+\tag{TFE2748B.341}
+\]
+
+A local density-margin version, strong enough to imply `(TFE2748B.341)', is
+
+\[
+\int\bigl((a_P)_+-\theta\bigr)_+\,dI_P
+\le
+d\Theta_P^0+dPaid_P+dStop_P.
+\tag{TFE2748B.342}
+\]
+
+This is the coefficient form of the selected-critical upgrade.  It is not a new
+atomization theorem: Sections 37 and 41 already construct the pre-clipping
+same-parent atom ledger, control its coefficients/leakage, and record the
+retained opposite lobe as a bounded-below raw parent reserve depletion.  The
+Gold source still asks for the stricter selected-critical fact that the positive
+parallel coefficient cannot harvest more than a strict fraction of Fisher
+dissipation after all paid motion has been removed.
+
+The normalized bad branch is equivalently a coefficient concentration branch.
+If `(TFE2748B.341)' fails after normalizing as in `(TFE2748B.332)', then
+
+\[
+\int (a_{P_n})_+\,dI_{P_n}=1,
+\qquad
+\int dI_{P_n}
++\Theta_{P_n}^0(P_n)+Paid(P_n)+Stop(P_n)
+\longrightarrow0.
+\tag{TFE2748B.343}
+\]
+
+For each fixed \(R<\infty\),
+
+\[
+\int_{\{(a_{P_n})_+\le R\}}(a_{P_n})_+\,dI_{P_n}
+\le
+R\int dI_{P_n}
+\longrightarrow0,
+\tag{TFE2748B.344}
+\]
+
+so all normalized positive current mass is forced into the high parallel-ratio
+tubes:
+
+\[
+\lim_{R\to\infty}\,
+\liminf_{n\to\infty}
+\int_{\{(a_{P_n})_+>R\}}(a_{P_n})_+\,dI_{P_n}
+=1.
+\tag{TFE2748B.345}
+\]
+
+For each fixed preterminal smooth packet there is no singular defect in
+`(TFE2748B.340)'.  A singular aligned-current defect can only appear after
+taking a normalized bad-sequence limit, when the measures
+\((a_{P_n})_+dI_{P_n}\) keep unit mass while \(dI_{P_n}\) and all paid motion
+collapse.  Hence the final source theorem may be stated in the sharpest
+same-parent form:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{from arbitrary original smooth data, exclude high positive
+parallel-current}\\
+\text{coefficient concentration and singular aligned-current defect in the
+stopped retained quotient;}\\
+\text{equivalently prove `(TFE2748B.342)' with some \(\theta<1\) before child
+positive clipping.}
+\end{array}}
+\tag{TFE2748B.346}
+\]
+
+This is the smallest remaining producer after the requested atomic
+decomposition, coefficient/leakage control, and retained opposite-lobe reserve
+depletion have been installed.
