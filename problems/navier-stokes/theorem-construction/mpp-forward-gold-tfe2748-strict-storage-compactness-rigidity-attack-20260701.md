@@ -13086,22 +13086,23 @@ packet before clipping.
 Let \(d\mathfrak t_{P,n}^+\) be the positive terminal trace/readout measure of
 the retained full Hodge-Stokes/tower packet on a normalized stopped parent
 sequence, after \(d\Theta^0+dPaid+dStop\), visible legal/collar material, and
-ordinary selector motion have been subtracted.  Define the terminal anti-atom
-mass by
+ordinary selector motion have been subtracted.  For each retained terminal
+test set \(E\subset X_P\), define the terminal anti-atom measure by
 
 \[
-\mathfrak A_P^{term}
+\mathfrak A_P^{term}(E)
 :=
 \lim_{\theta\downarrow0}\limsup_{n\to\infty}
-d\mathfrak t_{P,n}^+((-\theta,0]\times X_P),
+d\mathfrak t_{P,n}^+((-\theta,0]\times E),
 \tag{TFE2748B.841}
 \]
 
 with the convention that all limits are taken on the retained same-parent
 carrier after the fixed finite-window relay has been exhausted.  By the
-positive trace compactness criterion, \(\mathfrak A_P^{term}=0\) is exactly
-uniform positive terminal absolute continuity of the retained terminal trace;
-if this uniform AC fails, a positive terminal Radon atom is produced.
+positive trace compactness criterion, \(d\mathfrak A_P^{term}=0\) is exactly
+uniform positive terminal absolute continuity of the retained terminal trace
+against all retained terminal test sets; if this uniform AC fails, a positive
+terminal Radon atom is produced.
 
 The full-packet terminal trace balance routes such an atom through the same
 three retained faces left in `(TFE2748B.839)'.  Positive storage growth is the
@@ -13110,7 +13111,7 @@ saturation.  Failure of heat-scale return, tower-rung custody, or material
 coefficient return is geometry/tower/material-record escape.  Hence
 
 \[
-\mathfrak A_P^{term}
+d\mathfrak A_P^{term}
 \le
 C_N\bigl(
 \mathcal R_{\rm sat}
@@ -13135,7 +13136,7 @@ return AC or unbounded shifted-rung custody.  Therefore
 +\mathcal R_{\rm jump}
 +\mathcal R_{\rm geom}^{tail}
 \le
-C_N\mathfrak A_P^{term}
+C_Nd\mathfrak A_P^{term}
 +d\Theta^0+dPaid+dStop .
 \tag{TFE2748B.843}
 \]
@@ -13146,7 +13147,7 @@ line
 
 \[
 \boxed{
-\mathfrak A_P^{term}
+d\mathfrak A_P^{term}
 \le
 C_N(d\Theta^0+dPaid+dStop+2^{-N}D_N\,dt).
 }
@@ -13158,9 +13159,10 @@ Equivalently, in the terminal-strip form,
 \[
 \boxed{
 \lim_{\theta\downarrow0}\limsup_{n\to\infty}
-d\mathfrak t_{P,n}^+((-\theta,0]\times X_P)
+d\mathfrak t_{P,n}^+((-\theta,0]\times E)
 \le
-C_N(d\Theta^0+dPaid+dStop+2^{-N}D_N\,dt).
+C_N(d\Theta^0+dPaid+dStop+2^{-N}D_N\,dt)(E)
+\quad\text{for every retained terminal }E\subset X_P .
 }
 \tag{TFE2748B.845}
 \]
