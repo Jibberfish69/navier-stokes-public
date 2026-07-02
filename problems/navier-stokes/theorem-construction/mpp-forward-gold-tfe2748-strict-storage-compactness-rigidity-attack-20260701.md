@@ -22625,3 +22625,165 @@ before-clipping active-density comparison together with the strict same-parent
 full-exchange no-self-feeding storage.  That is the precise producer whose proof
 would make `(TFE2748B.1451)' terminal-uniform and close the critical capacity
 variation/storage line.
+
+## 162. The active-density comparison splits into carrier, exponential BMO, and no-residue
+
+The first clause in `(TFE2748B.1483)' should also not remain a black box.  It is
+the current \(TFE2748B\) form of the continuous parent-density split already
+proved in the \(TFE2494\)--\(TFE2531\) audit: once the active measure is a
+parent measure rather than a child count, the \(L^1\) comparison is entropy plus
+thickness in that same measure.
+
+Let \(\mathcal E_P\) be a stopped bounded-overlap active-fibre cover of the
+parent active set,
+
+\[
+\sum_{E\in\mathcal E_P}{\bf 1}_E\le C_N .
+\tag{TFE2748B.1485}
+\]
+
+On each fibre, the selected density must be parent-announced before clipping:
+
+\[
+R_E={\exp b_E\over \langle \exp b_E\rangle_E},
+\qquad
+b_E=\ell_E(Z_P^S)-\psi_E+e_E .
+\tag{TFE2748B.1486}
+\]
+
+Here \(Z_P^S\) is the routed same-parent pressure-Hodge/current/frame/strain
+carrier, \(\psi_E\) is the same-parent normalization/order-lock correction, and
+\(e_E\) is paid by \(dE_P^0\).  The carrier representation itself is the first
+producer:
+
+\[
+\boxed{\texttt{BeforeClippingSelectedLogCarrier.A: construct `(TFE2748B.1486)'
+from the original coupled packet.}}
+\tag{TFE2748B.1487}
+\]
+
+The reverse-Holder step is deterministic only after the stopped carrier has an
+exponential-BMO/Kazamaki margin:
+
+\[
+\int_E
+\exp\!\left((1+\varepsilon_N)|b_E-\langle b_E\rangle_E|\right)d\Lambda_E
+\le
+C_N\Lambda_E(E)+C_N\int_EdE_P^0 .
+\tag{TFE2748B.1488}
+\]
+
+Jensen/Kazamaki gives
+
+\[
+\int_E R_E^{1+\varepsilon_N}\,d\Lambda_E
+\le
+C_N\Lambda_E(E)+C_N\int_EdE_P^0 ,
+\tag{TFE2748B.1489}
+\]
+
+and since \(\Phi(r)=r\log(e+r)\le C_{\varepsilon_N}(1+r^{1+\varepsilon_N})\),
+
+\[
+\int_E\Phi(R_E)\,d\Lambda_E
+\le
+C_N\Lambda_E(E)+C_N\int_EdE_P^0 .
+\tag{TFE2748B.1490}
+\]
+
+Summing with `(TFE2748B.1485)' gives the entropy half of the active-density
+comparison:
+
+\[
+\int_{P'}\Phi(R_P^+)\,d\Lambda_P
+\le
+C_N\Lambda_P(P')+C_N\int_{P'}dE_P^0 .
+\tag{TFE2748B.1491}
+\]
+
+The thickness half is the requirement that the same parent active measure is
+dominated by original full-exchange/native material:
+
+\[
+\Lambda_P(P')
+\le
+C_N\int_{P'}d\Xi_P^{FE,*}
++C_N\int_{P'}dE_P^0 .
+\tag{TFE2748B.1492}
+\]
+
+In the exact native-birth coordinates, `(TFE2748B.1492)' is supplied by the
+continuous pushforward
+
+\[
+dA_{\Gamma,P}^{fr,+}\ll d\rho_P^{nat},
+\qquad
+{dA_{\Gamma,P}^{fr,+}\over d\rho_P^{nat}}\le C_N,
+\qquad
+\int d\rho_P^{nat}\le C_N\int d\Omega_P^{gen,*}+dE_P^0 .
+\tag{TFE2748B.1493}
+\]
+
+The generator measure in `(TFE2748B.1493)' is a submeasure/projection of the same
+full-exchange generator clock.  Hence strict full-exchange storage absorbs the
+native-pushforward source:
+
+\[
+\texttt{FullExchangeNoSelfFeedingStorage.A}
+\Longrightarrow
+\texttt{ContinuousNativeBirthReservePushforward.A}.
+\tag{TFE2748B.1494}
+\]
+
+The remaining endpoint part of the active-density comparison is no residue in
+the same first-time parent measure:
+
+\[
+\lim_{\delta\downarrow0}
+\sup_{\tau<T_*}
+\Lambda_{P,\tau}\bigl((T_*-\delta,T_*]\times X_P\bigr)
+=0 .
+\tag{TFE2748B.1495}
+\]
+
+Combining `(TFE2748B.1489)'--`(TFE2748B.1495)' gives the noncircular sufficient
+source for `(TFE2748B.1480)':
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{FullExchangeNoSelfFeedingStorage.A}\\
++\texttt{BeforeClippingSelectedLogCarrier.A}\\
++\texttt{StoppedParentLogCarrierExponentialBMO.A `(TFE2748B.1488)'}\\
++\texttt{TerminalFirstTimeRungNoResidue.A `(TFE2748B.1495)'}
+\end{array}
+\Longrightarrow
+\texttt{BeforeClippingActiveDensityComparison.A}.}
+\tag{TFE2748B.1496}
+\]
+
+Substituting `(TFE2748B.1496)' into `(TFE2748B.1483)' yields the current
+fully opened source package:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{FullExchangeNoSelfFeedingStorage.A}\\
++\texttt{BeforeClippingSelectedLogCarrier.A}\\
++\texttt{StoppedParentLogCarrierExponentialBMO.A}\\
++\texttt{TerminalFirstTimeRungNoResidue.A}
+\end{array}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1497}
+\]
+
+This is still one coupled participation law.  The four displayed names are
+coordinates of the same original packet: the full-exchange storage supplies the
+root clock and native pushforward, the log carrier says the selected density is
+announced in that clock before clipping, exponential BMO gives the entropy
+integrability of the selected density, and terminal no-residue prevents the same
+first-time measure from hiding a terminal atom.  Proving those four original-data
+clauses with the strict \(C_N\theta<1\) margin proves the critical capacity
+variation/storage line; none of the reverse-Holder, entropy, atomization, or
+dyadic displays is an independent Gold source after this split.
