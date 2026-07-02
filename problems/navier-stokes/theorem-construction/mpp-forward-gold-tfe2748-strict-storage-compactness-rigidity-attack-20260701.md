@@ -18074,11 +18074,12 @@ admission.
 Thus the selected-critical upgrade now has one coherent bottom.  The raw
 same-parent pressure-Hodge atom construction and retained opposite-lobe reserve
 are closed by Section 129.  The weighted/log-meter upgrade is closed by Section
-130 once `(TFE2748B.1177)' is available.  Section 131 proves that `(TFE2748B.1177)'
-is supplied by finite capacitary excess plus before-clipping active-density
-comparison.  The arbitrary-data PDE theorem still to prove is exactly that
-finite-excess / terminal no-waste producer for the original coupled packet, not
-another lobe attachment, dyadic count, or endpoint ownership statement.
+130 once `(TFE2748B.1177)' is available.  Section 131 proves that
+`(TFE2748B.1177)' is supplied, in this coordinate system, by finite capacitary
+excess plus before-clipping active-density comparison.  The next section
+identifies the lower original-data package that supplies both faces; the
+remaining PDE work is not another lobe attachment, dyadic count, or endpoint
+ownership statement.
 
 ## 132. The finite-excess source is consumed by the local endpoint-admitted package
 
