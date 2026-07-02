@@ -4067,3 +4067,106 @@ generator commutator is absorbed by the same parent heat/Fisher dissipation and
 paid packet motion.  Proving `(TFE2748B.254)' from arbitrary original smooth data,
 with `(TFE2748B.255)'--`(TFE2748B.256)', proves the critical capacity
 variation/storage line `(TFE2748B.247)'.
+
+## 36. Entropy-dual current form of the commutator estimate
+
+The estimate `(TFE2748B.254)' has a sharper same-parent current form.  Suppose
+the renormalized non-passive term can be written before clipping as
+
+\[
+\mathcal K_{\Psi,P}+\mathcal G_{\Psi,P}
+=
+\operatorname{div}_{\mathfrak m}J_{\Psi,P}
++k_{\Psi,P}^0
++r_{\Psi,P}^{paid},
+\tag{TFE2748B.257}
+\]
+
+where \(J_{\Psi,P}\) is a stopped same-parent current built from the original
+pressure-Hodge, frame, selector, covector, turnstile, exchange, and root-generator
+motion; \(k_{\Psi,P}^0\) is the zero-order retained source; and
+\(r_{\Psi,P}^{paid}\) is route, collar, legal, stop, reselection, or endpoint
+material.  Boundary traces of \(J_{\Psi,P}\) through the stopped parent collar are
+included in \(r_{\Psi,P}^{paid}\).
+
+Then integration by parts gives
+
+\[
+\begin{aligned}
+\int \Phi'(F_P)
+(\mathcal K_{\Psi,P}+\mathcal G_{\Psi,P})\,d\mathfrak m_P
+&=
+-\int \Phi''(F_P)
+\langle \nabla_{\mathfrak m}F_P,J_{\Psi,P}\rangle\,d\mathfrak m_P\\
+&\quad
++\int \Phi'(F_P)k_{\Psi,P}^0\,d\mathfrak m_P
++dPaid_P+dStop_P .
+\end{aligned}
+\tag{TFE2748B.258}
+\]
+
+With \(A_P^\dagger\) denoting the inverse on the parabolic range of \(A_P\), the
+weighted Cauchy inequality yields, for every \(\varepsilon>0\),
+
+\[
+\begin{aligned}
+\left|
+\int \Phi''(F_P)
+\langle \nabla_{\mathfrak m}F_P,J_{\Psi,P}\rangle\,d\mathfrak m_P
+\right|
+&\le
+\varepsilon
+\int \Phi''(F_P)
+\langle A_P\nabla_{\mathfrak m}F_P,\nabla_{\mathfrak m}F_P\rangle
+\,d\mathfrak m_P\\
+&\quad
++{1\over 4\varepsilon}
+\int { \langle A_P^\dagger J_{\Psi,P},J_{\Psi,P}\rangle
+\over \Phi''(F_P)}
+\,d\mathfrak m_P .
+\end{aligned}
+\tag{TFE2748B.259}
+\]
+
+Therefore `(TFE2748B.254)' follows from the entropy-dual current domination
+
+\[
+{1\over 4\varepsilon}
+\int { \langle A_P^\dagger J_{\Psi,P},J_{\Psi,P}\rangle
+\over \Phi''(F_P)}
+\,d\mathfrak m_P
++\int \Phi'(F_P)[k_{\Psi,P}^0]_+\,d\mathfrak m_P
+\le
+\beta
+\int \Phi''(F_P)
+\langle A_P\nabla_{\mathfrak m}F_P,\nabla_{\mathfrak m}F_P\rangle
+\,d\mathfrak m_P
++d\Theta_P^0+dPaid_P+dStop_P
+\tag{TFE2748B.260}
+\]
+
+with \(\varepsilon+\beta<1\).  Inserting `(TFE2748B.260)' into
+`(TFE2748B.258)' gives `(TFE2748B.254)' with
+\(\theta=\varepsilon+\beta\).
+
+So the original-data proof has now been pushed to two exact facts:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{construct the renormalized commutator as the same-parent divergence current
+`(TFE2748B.257)',}\\
+\text{and prove the entropy-dual square domination `(TFE2748B.260)' with
+strict coefficient \(\varepsilon+\beta<1\).}
+\end{array}}
+\tag{TFE2748B.261}
+\]
+
+This is a genuine strengthening of raw pressure atomization.  Raw atomization
+says the signed Hodge residue has zero-mean same-parent lobes.  The current form
+says the active-renormalized pressure/Hodge/frame/selector feedback has no
+standalone positive zero-order source, and its divergence current is square-paid
+in the entropy-dual metric attached to the same parent density \(F_P\).  Proving
+`(TFE2748B.257)'--`(TFE2748B.260)' from arbitrary original smooth data proves
+`(TFE2748B.254)', hence the parent-density source package `(TFE2748B.241)' and
+the critical capacity variation/storage line.
