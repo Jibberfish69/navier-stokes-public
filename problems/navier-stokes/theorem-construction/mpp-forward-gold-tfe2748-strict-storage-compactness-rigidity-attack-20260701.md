@@ -15296,3 +15296,105 @@ finite-excess bound `(TFE2748B.985)' and the storage split `(TFE2748B.984)'.
 This is the current smallest source face: the obstacle-dual residual tail must
 be priced by the original coupled packet with a strict margin before child
 positive clipping.
+
+## 112. Tail pricing is active-shell pulse exclusion, not tail-square reserve
+
+The tail face in `(TFE2748B.995)' is the part of the obstacle detector that
+remains after bounded root projection and endpoint heat-lag trace admission.
+In shell coordinates it is the active upper-tail square burden
+
+\[
+\mathcal A_{P,J}^{tail}(I)
+:=
+\int_I\sum_{j\ge J}2^{-j}D_j(t)^2\,dt ,
+\tag{TFE2748B.996}
+\]
+
+where \(D_j(t)\) is the shell dissipation/readout amplitude of the pulled-back
+same-parent defect detector.  The tail-pricing theorem is exactly the stopped
+parent estimate
+
+\[
+\mathcal A_{P,J}^{tail}(I)
+\le
+\vartheta_{tail}\,d\Omega_P^{gen}(I)
++dE_P^0(I)
++C_N2^{-2\delta J},
+\qquad C_N\vartheta_{tail}<1 .
+\tag{TFE2748B.997}
+\]
+
+The installed cumulative tail reserve is weaker.  It has the schematic form
+
+\[
+2^{-2J}E_J(t)^2\lesssim \varepsilon\nu D_J(t)+dE_P^0,
+\tag{TFE2748B.998}
+\]
+
+which controls a first-moment or cumulative tail quantity, not the shellwise
+active square in `(TFE2748B.996)'.  In normalized variables
+\(a_j(t)=2^{-j/2}D_j(t)\), short pulses with \(a_j=A_j\) on intervals of
+length \(A_j^{-2}\) have small \(L^1\) mass \(A_j^{-1}\) but order-one square
+mass.  Thus `(TFE2748B.998)' permits source-balanced active pulses unless the
+original coupled packet supplies an additional sign, monotonicity, or active
+square control.
+
+Consequently `(TFE2748B.995)' reduces to the following exact source alternative:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{TailPulseExclusion.A: prove `(TFE2748B.997)' directly from the}\\
+\texttt{original pressure-Hodge/viscous-Stokes/self-advection generator,}\\
+\texttt{or prove signed cancellation for the true weighted lifted remainder}\\
+\texttt{before absolute values plus an active-square residual-tail estimate.}
+\end{array}}
+\tag{TFE2748B.999}
+\]
+
+The signed route concerns the true lifted remainder
+
+\[
+G_{P,J}^{lift,\sigma}
+:=
+\sum_{j\ge J}\sum_{k,\ell}
+W_{j,k,\ell}^{\sigma}R_{j,k,\ell}^{lift},
+\tag{TFE2748B.1000}
+\]
+
+after shell weights, cutoffs, projectors, and lifted summation have already
+been applied.  A usable cancellation theorem would have to prove
+
+\[
+\left|
+\int_I G_{P,J}^{lift,\sigma}(t)\,dt
+\right|
+\le
+C_N2^{-2\delta J}
++dE_P^0(I)
+\tag{TFE2748B.1001}
+\]
+
+before replacing signs by absolute values.  The current repo audits show that
+the unweighted Fourier cancellation of the bare commutator is not enough: the
+weighted lifted principal remainder can align with expanding strain directions.
+Taking absolute values returns exactly to the active-square tail
+`(TFE2748B.996)'.
+
+Thus the current smallest noncircular source statement is
+
+\[
+\texttt{TailPulseExclusion.A}
+\Longrightarrow
+\texttt{ObstacleDefectTailPricing.A}
+\Longrightarrow
+\texttt{WeightedObstacleDefectPricing.A}
+\Longrightarrow
+\text{finite excess `(TFE2748B.985)'}.
+\tag{TFE2748B.1002}
+\]
+
+This is a genuine narrowing, not a closure claim.  The remaining PDE content is
+to rule out source-balanced active upper-tail pulses, or to prove a signed
+weighted-lifted cancellation strong enough that the active-square tail never
+appears after the same-parent detector is pulled back before clipping.
