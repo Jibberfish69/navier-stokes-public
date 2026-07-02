@@ -663,7 +663,7 @@ In the local Hardy form this is
 \sum_\alpha |c_\alpha(t)|+|(dR_P)_+|(t)
 \le
 C_N\|\nabla u(t)\|_2^2
-dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t),
++dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t),
 \tag{TFE2748A.36}
 \]
 
