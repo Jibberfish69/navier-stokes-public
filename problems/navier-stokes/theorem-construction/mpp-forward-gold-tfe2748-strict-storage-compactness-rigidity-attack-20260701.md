@@ -3127,7 +3127,7 @@ and
 \|F_P(t)\|_{\mathcal H^1(X_P)}
 \le
 C_N\|\nabla u(t)\|_2^2
-dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t).
++dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t).
 \tag{TFE2748B.197c}
 \]
 
