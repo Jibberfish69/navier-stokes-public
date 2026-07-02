@@ -5994,3 +5994,187 @@ bounded-below retained opposite-lobe reserve are not the open mystery; the
 remaining arbitrary-data content is the terminal-uniform root-finite size of
 that fibre reserve together with payment of the endpoint and moving-weight
 leakage.
+
+## 49. Endpoint payment and the log-weight source
+
+Section 48 leaves two different objects under one phrase.  The endpoint part is
+stopped-boundary material.  The Jacobian part is not boundary material; it is
+motion of the parent active measure itself.  Those two accounts must be kept
+separate before the final storage line is claimed.
+
+On each retained fibre, the stopped interval boundary satisfies
+
+\[
+\partial I_\omega
+\subset
+\partial_{\rm lower}P
+\cup\partial_{\rm collar}P
+\cup\partial_{\rm route}P
+\cup\partial_{\rm stop}P
+\cup\partial_{\rm end}P .
+\tag{TFE2748B.378}
+\]
+
+The lower boundary is lower/root carry and the other four pieces are already
+the collar, route, stop, and endpoint-admitted ledgers.  Hence the boundary term
+in `(TFE2748B.371)' is a consumer:
+
+\[
+dEnd_P^U
+\le
+d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.379}
+\]
+
+This proves the endpoint half of `(TFE2748B.375)' from the stopped-fibre
+exhaustion plus the installed endpoint admission.  It does not touch the
+Jacobian term.
+
+The root size of the fibre reserve has an exact current-square upper edge.  By
+`(TFE2748B.356)'--`(TFE2748B.360)' and `(TFE2748B.372)',
+
+\[
+M_P^{fib}(0)
+\le {1\over2}
+\int |w_P\,dU_\omega|\,d\eta_P(\omega)
+=
+{1\over2}\int |a_P-\theta|\,dI_P .
+\tag{TFE2748B.380}
+\]
+
+Using Cauchy in the \(A_P\)-metric,
+
+\[
+\int |a_P-\theta|\,dI_P
+\le
+\left(
+\int
+\Phi''(F_P)
+\langle A_P\nabla_{\mathfrak m}U_{P,\theta},
+\nabla_{\mathfrak m}U_{P,\theta}\rangle
+d\mathfrak m_P
+\right)^{1/2}
+\left(\int dI_P\right)^{1/2}.
+\tag{TFE2748B.381}
+\]
+
+Since \(U_{P,\theta}=\phi_{\Psi,P}-\theta F_P\) and
+\(J_{\Psi,P}=-A_P\nabla_{\mathfrak m}\phi_{\Psi,P}\),
+
+\[
+\int
+\Phi''(F_P)
+\langle A_P\nabla_{\mathfrak m}U_{P,\theta},
+\nabla_{\mathfrak m}U_{P,\theta}\rangle
+d\mathfrak m_P
+\le
+2\int
+\Phi''(F_P)
+\langle A_P^\dagger J_{\Psi,P},J_{\Psi,P}\rangle
+d\mathfrak m_P
+2\theta^2\int dI_P .
+\tag{TFE2748B.382}
+\]
+
+Thus `(TFE2748B.374)' is supplied by the same entropy-weighted current-square
+packing that appeared in `(TFE2748B.320)', together with the Fisher/root
+generator clock.  In particular, atomization does not create a new reserve
+source; it converts a current-square or full-exchange storage bound into a
+bounded-below fibre reserve.
+
+It remains to identify the moving-weight term.  Define the retained fibre
+log-weight
+
+\[
+\ell_P(\omega,s):=\log w_P(\omega,s)
+=\log\Phi''(s)+\log J_P^I(\omega,s).
+\tag{TFE2748B.383}
+\]
+
+On the retained absolutely-continuous part,
+
+\[
+dJac_P^U
+=
+\int |U_{P,\theta}|\,w_P\,|d\ell_P|\,d\eta_P(\omega).
+\tag{TFE2748B.384}
+\]
+
+The first term in \(\ell_P\) is the selected-density curvature weight and the
+second is the coarea/Jacobian motion of the retained parent fibres.  Both are
+parent-measure motion.  They are paid only after the corresponding
+same-parent log-weight current is admitted before clipping.  The exact
+sufficient source is the weighted one-dimensional Hardy/BV estimate
+
+\[
+\int |U_{P,\theta}|\,w_P\,|d\ell_P|\,d\eta_P
+\le
+\varepsilon
+\int w_P\,dU_\omega^{+}\,d\eta_P
++C_\varepsilon\,d\Omega_P^{logw}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad 0<\varepsilon<1,
+\tag{TFE2748B.385}
+\]
+
+where \(d\Omega_P^{logw}\) is the parent-announced log-weight/coarea-Jacobian
+motion measure of the original coupled packet.  The same-parent requirement is
+that
+
+\[
+d\Omega_P^{logw}
+\le
+\vartheta\,d\Omega_P^{gen}
+d\Theta_P^0+dPaid_P+dStop_P,
+\qquad C_N\vartheta<1 .
+\tag{TFE2748B.386}
+\]
+
+Combining `(TFE2748B.370)', `(TFE2748B.373)', `(TFE2748B.379)',
+`(TFE2748B.385)', and `(TFE2748B.386)' gives
+
+\[
+(1-\varepsilon)d\Xi_P^{fib,+}
+\le
+-dM_P^{fib}
+\vartheta\,d\Omega_P^{gen}
+d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.387}
+\]
+
+After increasing the harmless constants and choosing
+\(\varepsilon+\vartheta\) inside the strict margin, `(TFE2748B.387)' is exactly
+the fibre form of the critical capacity variation/storage line.
+
+The no-go is also exact.  In a flat retained fibre with no boundary payment, let
+\(U\) be constant on an interior plateau and let
+\(w_n=1+\delta\sin(ns)\).  Then \(dU=0\), so there is no positive fibre
+production and no retained opposite lobe, but
+
+\[
+\int |U|\,|dw_n|\sim |U|\,\delta n .
+\tag{TFE2748B.388}
+\]
+
+Thus \(dJac_P^U\) cannot be paid by atom pairing, zero mean, or no-recount
+logic.  It is paid only by a real same-parent log-weight/coarea-current
+estimate.  The active source theorem is therefore sharpened to
+
+\[
+\boxed{
+\begin{array}{c}
+\text{FibreLogWeightCurrentStorage.A: prove `(TFE2748B.385)'--`(TFE2748B.386)'
+from the}\\
+\text{original coupled pressure-viscosity-incompressibility packet before
+child clipping,}\\
+\text{while `(TFE2748B.380)'--`(TFE2748B.382)' convert the same current-square
+clock into \(M_P^{fib}(0)\).}
+\end{array}}
+\tag{TFE2748B.389}
+\]
+
+So Section 49 discharges the endpoint boundary term and reduces the remaining
+storage problem to one coupled original-data supplier: entropy-weighted
+same-parent current/log-weight storage for the retained fibre measure.  This is
+the same physical object as the earlier active-coordinate Jacobian/full-exchange
+storage wall, now written in the exact fibre variables of `(TFE2748B.364)'.
