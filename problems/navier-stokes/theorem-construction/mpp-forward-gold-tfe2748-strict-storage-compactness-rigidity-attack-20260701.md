@@ -14820,7 +14820,7 @@ Indeed, applying `(TFE2748B.963)' to \(\zeta=U_P\) and using
 dQ_P^{meter}+[d\mathcal C_P^{crit}]_+
 \le
 -dM_P^{cap}
-\vartheta\,dI_P+dE_P^0 .
++\vartheta\,dI_P+dE_P^0 .
 \tag{TFE2748B.964}
 \]
 
