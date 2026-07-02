@@ -4121,8 +4121,8 @@ weighted Cauchy inequality yields, for every \(\varepsilon>0\),
 \,d\mathfrak m_P\\
 &\quad
 +{1\over 4\varepsilon}
-\int { \langle A_P^\dagger J_{\Psi,P},J_{\Psi,P}\rangle
-\over \Phi''(F_P)}
+\int \Phi''(F_P)
+\langle A_P^\dagger J_{\Psi,P},J_{\Psi,P}\rangle
 \,d\mathfrak m_P .
 \end{aligned}
 \tag{TFE2748B.259}
@@ -4132,8 +4132,8 @@ Therefore `(TFE2748B.254)' follows from the entropy-dual current domination
 
 \[
 {1\over 4\varepsilon}
-\int { \langle A_P^\dagger J_{\Psi,P},J_{\Psi,P}\rangle
-\over \Phi''(F_P)}
+\int \Phi''(F_P)
+\langle A_P^\dagger J_{\Psi,P},J_{\Psi,P}\rangle
 \,d\mathfrak m_P
 +\int \Phi'(F_P)[k_{\Psi,P}^0]_+\,d\mathfrak m_P
 \le
@@ -5031,11 +5031,11 @@ The construction also shows why representation alone cannot close Gold.  Testing
 \tag{TFE2748B.319}
 \]
 
-The entropy-dual storage needs the stronger weighted mobility estimate
+The entropy-dual storage needs the stronger entropy-weighted mobility estimate
 
 \[
-\int { \langle A_P^\dagger J_{\Psi,P},J_{\Psi,P}\rangle
-\over \Phi''(F_P)}
+\int \Phi''(F_P)
+\langle A_P^\dagger J_{\Psi,P},J_{\Psi,P}\rangle
 \,d\mathfrak m_P
 +\int \Phi'(F_P)[k_{\Psi,P}^{0}]_+\,d\mathfrak m_P
 \le
@@ -5048,8 +5048,9 @@ The entropy-dual storage needs the stronger weighted mobility estimate
 \]
 
 with the strict margin required in `(TFE2748B.260)'.  The weight
-\((\Phi''(F_P))^{-1}\) is exactly the selected-active price.  It is invisible to
-the raw Neumann construction and is where the half-tail can still hide.
+\(\Phi''(F_P)\) is tied to the same entropy/Fisher metric as the selected
+active density \(F_P\).  It is not supplied by the raw Neumann construction,
+which gives only an unweighted stopped elliptic representation.
 
 Consequently the current proof state is:
 
@@ -5058,7 +5059,7 @@ Consequently the current proof state is:
 \begin{array}{c}
 \text{same-parent current representation `(TFE2748B.257)': proved by
 `(TFE2748B.314)'--`(TFE2748B.318)';}\\
-\text{entropy-dual square domination `(TFE2748B.260)': still the remaining
+\text{entropy-weighted current domination `(TFE2748B.260)': still the remaining
 arbitrary-data source theorem.}
 \end{array}}
 \tag{TFE2748B.321}
