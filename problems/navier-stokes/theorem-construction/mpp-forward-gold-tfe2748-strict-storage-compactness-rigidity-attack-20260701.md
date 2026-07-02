@@ -19833,3 +19833,125 @@ source, and Section 142 leaves the current unproved original-data work at
 `CompactifiedFullExchangeTightness.A' plus
 `CriticalEndpointFullExchangeStrictMargin.A', not at another atom
 decomposition.
+
+## 144. Full compactified tightness reduces to critical-endpoint tightness/no-residue
+
+The tightness clause in `(TFE2748B.1275)' is still too wide if it is read as a
+new source for every component of \(d\Xi_P^{FE,*}\).  After Sections 136--143,
+the regular components are already routed by parent-visible motion.  The only
+nonconsumer compactness problem is whether the critical-native-birth and
+endpoint part can disappear into a terminal or shrinking selected carrier before
+the strict margin reads it.
+
+Let
+
+\[
+d\Xi_P^{FE,*}=d\Xi_P^{reg,*}+d\Xi_P^{ce,*},
+\qquad
+d\Xi_P^{ce,*}=d\Xi_P^{crit,*}+d\Xi_P^{end,*}
+\tag{TFE2748B.1296}
+\]
+
+as in `(TFE2748B.1274)'.  The regular part is the sum of Hodge/viscous,
+silent, frame/collar, turnstile/exchange, and derivative-announced reset
+pieces after route, legal, stop, entry, return, and paid leakage are removed.
+For this part the existing component machinery gives the following consumer:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{RegularFullExchangeTightnessConsumer.A:}\\[1mm]
+\displaystyle
+\lim_{R\to\infty}\limsup_{n\to\infty}
+d\Xi_{P_n}^{reg,*}(\overline P_n\setminus K_R)
+\le
+\limsup_{n\to\infty} dE_{P_n}^{0,*}(\overline P_n)
+\end{array}}
+\tag{TFE2748B.1297}
+\]
+
+for every normalized Bellman-failure sequence `(TFE2748B.1272)', in one stopped
+compactified parent frame and for every exhausting family \(K_R\) of retained
+compact carrier sets.  Indeed, any regular escape is visible as one of the
+terms already placed in \(dE_P^{0,*}\): route/collar/legal/stop loss,
+nonretained frame or covector motion, reset-exit, endpoint-paid material, or
+turnstile/exchange spill.  After those exits are removed, the retained regular
+mass has the component compactness used in `(TFE2748B.1276)'.  Thus
+\(dE_{P_n}^{0,*}\to0\) makes \(d\Xi_{P_n}^{reg,*}\) tight.
+
+Consequently full tightness is equivalent, after the regular consumer, to
+tightness and no-residue for the critical-endpoint part.  State that remaining
+compactness source as
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{CriticalEndpointTightnessNoResidue.A:}\\[1mm]
+\displaystyle
+\lim_{R\to\infty}\limsup_{n\to\infty}
+d\Xi_{P_n}^{ce,*}(\overline P_n\setminus K_R)=0,\\[2mm]
+\displaystyle
+(d\Xi_\infty^{ce,*})^{\perp(d\Omega_\infty^{gen,*}+dE_\infty^{0,*})}=0
+\quad\text{on the retained compactified critical-endpoint face.}
+\end{array}}
+\tag{TFE2748B.1298}
+\]
+
+The first line is ordinary stopped-parent tightness for the critical-native and
+endpoint carrier.  The second line is the no-residue clause: a zero-source
+critical-endpoint limit cannot retain a singular atom or zero-thickness
+terminal sheet invisible to the generator clock and paid ledger.
+
+Now let `(TFE2748B.1272)' be a normalized Bellman failure.  By
+`(TFE2748B.1297)', the regular part is tight after passing to a subsequence.
+By `(TFE2748B.1298)', the critical-endpoint part is tight and has no invisible
+singular remainder.  Since \(d\Xi_P^{FE,*}=d\Xi_P^{reg,*}+d\Xi_P^{ce,*}\), the
+sum is tight in the same stopped compactified parent frame and has a weak-star
+limit with \(dE_\infty^{0,*}=0\).  Hence
+
+\[
+\boxed{
+\texttt{RegularFullExchangeTightnessConsumer.A}
++
+\texttt{CriticalEndpointTightnessNoResidue.A}
+\Longrightarrow
+\texttt{CompactifiedFullExchangeTightness.A}.}
+\tag{TFE2748B.1299}
+\]
+
+Conversely, once route, legal, stop, entry, return, paid leakage,
+derivative-announced reset escape, nonretained frame/covector motion, and the
+component compactness consumers have been removed, a failure of
+`CompactifiedFullExchangeTightness.A' has no regular hiding place.  It must be a
+critical-native or endpoint concentration/no-residue failure:
+
+\[
+\boxed{
+\neg\texttt{CompactifiedFullExchangeTightness.A}
+\Longrightarrow
+\neg\texttt{CriticalEndpointTightnessNoResidue.A}}
+\tag{TFE2748B.1300}
+\]
+
+inside the retained zero-source Bellman-failure class.
+
+Combining `(TFE2748B.1299)' with Section 142 gives the sharpened current source
+line:
+
+\[
+\boxed{
+\texttt{CriticalEndpointTightnessNoResidue.A}
++
+\texttt{CriticalEndpointFullExchangeStrictMargin.A}
+\Longrightarrow
+\texttt{CompactifiedFullExchangeBellmanNoArbitrage.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1301}
+\]
+
+Thus the full compactified tightness phrase is no longer an independent source
+after the regular consumers are kept in their parent ledgers.  The remaining
+arbitrary-original-data work is concentrated on the same critical-endpoint
+packet: prove tightness/no-residue for \(d\Xi^{ce,*}\) and prove the strict
+critical-endpoint margin `(TFE2748B.1277)' before child positive clipping.
