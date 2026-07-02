@@ -183,6 +183,8 @@ READER_SAFE_CONTEXT = /\b(?:not\s+(?:a\s+)?closed|conditional|only\s+(?:as\s+)?(
 HIGH_RISK_READER_CLAIMS = {
   "reader surface claims global smoothness is proved" =>
     /(?:We\s+prove\s+global\s+smoothness|We\s+present\s+(?:a\s+)?(?:CM-contrapositive\s+)?proof\s+of\s+Navier[-\u2013]Stokes\s+global\s+regularity|Navier-Stokes\s+global\s+regularity\s+is\s+proved|For\s+every\s+smooth\s+divergence-free\s+zero-mean\s+datum\s+on\s+T\s*3[^\n]*global\s+smooth\s+solution|Smooth\s+divergence-free\s+zero-mean\s+data\s+on\s+T\s*3\s+generate\s+a\s+unique\s+global\s+smooth\s+periodic\s+Navier-Stokes\s+solution|has\s+a\s+unique\s+global\s+smooth\s+periodic\s+solution)/i,
+  "reader surface uses conditional global-smoothness sentence as theorem-like conclusion" =>
+    /would\s+have\s+a\s+unique\s+global\s+smooth\s+periodic\s+solution/i,
   "reader surface claims closed periodic theorem" =>
     /(?:closed\s+periodic\s+theorem\s+surface|closed\s+theorem-program\s+surface|current\s+closed\s+theorem\s+remains|periodic[^\n]*remains[^\n]*closed\s+theorem-program|route-accurate\s+closure\s+statement|proof\s+promotion\s+packet\s+reports[^\n]*passed|proof\s+is\s+closed|no\s+unresolved\s+source-frontier\s+obligation|no\s+authoritative-source\s+gaps\s+block\s+export\s+readiness|is\s+closed\s+conditionally|already\s+localized\s+and\s+discharged|no\s+longer\s+a\s+separate\s+frontier)/i,
   "reader surface uses stale Gold frontier" =>
