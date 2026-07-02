@@ -58,10 +58,10 @@ nodes:
   status: blocked
   blocking: true
   source_anchor: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
-- id: gold-l1-coupled-storage-wall
+- id: gold-l1-signed-height-sign-persistence-wall
   kind: direct-live-authority
-  label: NoncircularSameParentActiveCapacityFullExchangeStorage.A
-  status: gold-l1-open-coupled-storage-wall
+  label: SignedCriticalHeightSignPersistenceOrPeakBound.A
+  status: gold-l1-open-signed-height-sign-persistence-wall
   blocking: true
   source_anchor: problems/navier-stokes/live-theorem-edge.yaml
 edges: []

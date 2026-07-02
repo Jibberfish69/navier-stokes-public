@@ -19,33 +19,27 @@ decision:
   rationale: The specific annular residual case is accounted, but terminal time-face
     anti-atom / BASAC new-production remains open.
   exact_live_theorem_grade_burden: &1
-    status: gold-l1-open-coupled-storage-wall
-    burden_id: gold-l1-coupled-storage-wall
-    proof_mode: gold_forward_positive_source_wall
-    target_object: NoncircularSameParentActiveCapacityFullExchangeStorage.A
+    status: gold-l1-open-signed-height-sign-persistence-wall
+    burden_id: gold-l1-signed-height-sign-persistence-wall
+    proof_mode: gold_forward_signed_height_restart
+    target_object: SignedCriticalHeightSignPersistenceOrPeakBound.A
     theorem_grade_statement: Prove, from the original parent packet before child clipping,
       a noncircular same-parent coupled active-capacity/full-exchange storage theorem.
       The theorem must either establish a simultaneous strict feedback inequality
       for the active-capacity/full-exchange loop or prove one face independently enough
       to break the TFE2748B.1548/TFE2748B.1555 self-feeding chain.
-    active_container: gold-l1-coupled-storage-wall
+    active_container: gold-l1-signed-height-sign-persistence-wall
     respawn_cell: theorem-upgrade
     respawn_stage: gold-l1-source-theorem
-    allowed_input_boundary: The original parent packet and coupling come first. Dyadic,
-      atom, child, native-reserve, source-refill, terminal anti-atom, and Pack anti-concentration
-      statements are typed readouts, countertests, or sufficient-but-unproved entrances
-      unless they imply the coupled same-parent storage theorem.
-    nearest_wrong_substitution: Treating a scalar sum, terminal anti-atom, native-reserve
-      ledger, source-refill exclusion, Pack anti-concentration statement, or a linear
-      TFE2748B.1548/TFE2748B.1555 chain as the physical source object or as Gold closure.
+    allowed_input_boundary: The signed Navier-Stokes height equation comes first. Dyadic, atom, child, native-reserve, source-refill, terminal anti-atom, Pack anti-concentration, and selected positive L1 statements are readouts, countertests, or sufficient-but-unproved entrances unless they prove the signed-height sign-persistence or peak-height theorem.
+    nearest_wrong_substitution: Treating total positive variation, child clipping, a scalar selected L1 sum, TFE2748B capacity variation, or a same-parent storage ledger as the primitive physical source object instead of the signed height and its sign mechanism.
     accepted_replacement:
-      theorem: NoncircularSameParentActiveCapacityFullExchangeStorage.A
+      theorem: SignedCriticalHeightSignPersistenceOrPeakBound.A
       audit_surfaces:
       - problems/navier-stokes/theorem-construction/mpp-forward-gold-summation-type-custody-audit-20260702.md
       - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-coupled-storage-loop-audit-20260702.md
       - problems/navier-stokes/theorem-construction/mpp-forward-gold-noncircular-same-parent-coupled-storage-proof-pressure-20260702.md
-      anti_smuggling_rule: No generated, manuscript, or theorem-packet surface may
-        call the Gold L1 wall closed until the coupled parent-storage theorem is proved.
+      anti_smuggling_rule: No generated, manuscript, or theorem-packet surface may call the Gold L1 wall closed or treat positive clipping as primitive until the signed-height sign-persistence or peak-height theorem is proved.
 artifacts:
   draft:
   draft_v6: problems/navier-stokes/draft-v6.md
@@ -336,8 +330,8 @@ proof_program_topology:
   current_role: infrastructure repair; not mathematical progress unless it materializes
     theorem work
 open_root_group:
-  group_id: gold-l1-coupled-storage-wall
-  group_label: Gold L1 same-parent active-capacity/full-exchange storage wall.
+  group_id: gold-l1-signed-height-sign-persistence-wall
+  group_label: Gold L1 signed critical-height sign-persistence / peak-height wall.
   live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
   top_level_release_blocker: true
   not_single_path: true

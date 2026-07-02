@@ -111,10 +111,10 @@ readiness_evidence:
     evidence: state=open-release-exactness-and-manuscript-refresh
     required_action: Release readiness must not be claimed until exactness/manuscript
       surfaces are synchronized with the accepted Silver CM rowwise consumption.
-  - candidate_id: gold-l1-coupled-storage-wall-open
+  - candidate_id: gold-l1-signed-height-sign-persistence-wall-open
     kind: gold_l1_coupled_storage_wall
     surface: problems/navier-stokes/target-operating-contract.yaml
-    evidence: TFE2748B / NoncircularSameParentActiveCapacityFullExchangeStorage.A
+    evidence: SignedCriticalHeightSignPersistenceOrPeakBound.A
       remains open.
     required_action: Prove the noncircular same-parent coupled active-capacity/full-exchange
       storage theorem for the original parent packet before child clipping; child,
@@ -305,7 +305,7 @@ source_wall_root_cm_status: Prove, from the original parent packet before child 
   Field_{N,r,Q}; Pack_Q only as Field window evidence, or proves the outside-CM participation-field/window
   original-participation audit needed before not Pack_Q can be spent.
 submission_posture: not-ready
-readiness_status: blocked-by-gold-l1-coupled-storage-wall
+readiness_status: blocked-by-gold-l1-signed-height-sign-persistence-wall
 manuscript_scaffold_status: human/app submission scaffold repaired as a paper-local
   CM proof surface; papers/** generated main.tex remains an independent manuscript
   surface requiring separate hygiene repair
@@ -320,7 +320,7 @@ blockers:
 - 'NSPDF-20260626-002: broad appendix notation/exactness scans still need cleanup
   outside the Silver route patch.'
 required_before_submission:
-- gold-l1-coupled-storage-wall
+- gold-l1-signed-height-sign-persistence-wall
 stdout: ''
 stderr: ''
 fallback:
