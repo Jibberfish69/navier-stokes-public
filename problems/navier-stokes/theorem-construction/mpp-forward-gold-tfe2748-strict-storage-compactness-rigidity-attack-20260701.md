@@ -16498,3 +16498,134 @@ already in \(d\Theta^0+dPaid+dLegal+dStop\).  What remains unproved from the
 original coupled packet is not the atom decomposition itself, but the
 terminal-uniform square-clock admission map `(TFE2748B.1077)' for the
 singular terminal selected residue left by Section 119.
+
+## 121. Terminal square-clock admission is the compactified full-exchange trace
+
+Section 120 should be connected back to the earlier selected-meter algebra.  A
+terminal selected singular residue is not a new kind of source.  It is the
+terminal face of the same selected-meter source measured in Sections 99--102.
+Thus the correct consumer theorem is the compactified form of the
+before-clipping active-density comparison and full-exchange depletion storage.
+
+Let
+
+\[
+d\mathcal S_{P,n}^{term}
+:=
+d\widehat{\mathcal P}_{n}^{\perp,term}
+\tag{TFE2748B.1079}
+\]
+
+denote the square-clock singular terminal residue from Section 119, after
+generator, endpoint, paid, legal, stop, and already routed entry material are
+removed.  In the compactified stopped parent space
+\(\overline P=P\cup(\{T_*\}\times X_P)\), the selected-meter comparison
+`(TFE2748B.892)' gives the terminal trace inequality
+
+\[
+d\mathcal S_P^{term}
+\le
+C_N\,d\Xi_P^{FE,term}
+dE_P^{0,term},
+\tag{TFE2748B.1080}
+\]
+
+where \(dE_P^0=d\Theta_P^0+dPaid_P+dLegal_P+dStop_P+dEntry_P+dReturn_P\), and
+\(d\Xi_P^{FE,term}\) is the terminal trace of the same before-clipping
+full-exchange ledger in `(TFE2748B.891)'.  This is not a definition by the
+future clipped tail: it is the terminal restriction of the parent-built
+full-exchange carrier after weak-star compactification.
+
+Assume the compactified full-exchange depletion storage,
+
+\[
+d\Xi_P^{FE,*}
+\le
+-dM_P^{FE,*}
+\theta_{FE}\,d\Omega_P^{gen,*}
+dE_P^{0,*},
+\qquad
+C_N\theta_{FE}<1,
+\tag{TFE2748B.1081}
+\]
+
+with \(M_P^{FE,*}\) bounded below by original data.  Taking the part singular to
+the parent square clock \(d\Lambda_P^{sq}\) and using the terminal no-residue
+of \(d\Omega_P^{gen,*}\) and \(dE_P^{0,*}\) outside the paid endpoint/legal/stop
+ledger gives
+
+\[
+\bigl(d\Xi_P^{FE,term}\bigr)^{\perp sq}
+\le
+-dM_P^{FE,term}
+dE_P^{0,term}.
+\tag{TFE2748B.1082}
+\]
+
+Combining `(TFE2748B.1080)' and `(TFE2748B.1082)' yields
+
+\[
+d\mathcal S_P^{term}
+\le
+-C_N\,dM_P^{FE,term}
+dE_P^{0,term}.
+\tag{TFE2748B.1083}
+\]
+
+This is exactly the no-waste form of
+`SquareClockSingularTerminalAntiAtomExclusion.A': the terminal singular
+selected residue is either zero after the paid ledgers are removed, or it is a
+terminal drop of a bounded-below same-parent reserve.  Equivalently, one may
+push `(TFE2748B.1083)' through the raw atom coupling of Section 120 by taking
+
+\[
+dJ_{P}^{ret,-,term}:=C_N\,d\Xi_P^{FE,term},
+\qquad
+M_P^{atom,term}:=C_N\,M_P^{FE,term},
+\tag{TFE2748B.1084}
+\]
+
+after the parent full-exchange carrier has been resolved into its pre-clipping
+Hodge/frame/reset/critical/endpoint atom ledgers.  Then `(TFE2748B.1077)'
+follows.
+
+Therefore the terminal admission map is consumed by the same full-exchange
+source theorem already isolated in Sections 101--102:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{compactified before-clipping active-density comparison}\\
++\texttt{ compactified full-exchange depletion storage}\\
++\texttt{ terminal no-residue of paid/generator clocks}\\
+\Longrightarrow
+\texttt{SquareClockSingularTerminalAntiAtomExclusion.A.}
+\end{array}}
+\tag{TFE2748B.1085}
+\]
+
+Conversely, if `(TFE2748B.1077)' fails after the raw atom construction of
+Section 120 and the paid ledgers are removed, then at least one of the three
+parent-ledger clauses in `(TFE2748B.1085)' fails:
+
+\[
+\boxed{
+\neg\texttt{TerminalSquareClockAdmission}
+\Longrightarrow
+\neg\texttt{ActiveDensityComparison}
+\ \vee\
+\neg\texttt{FullExchangeDepletionStorage}
+\ \vee\
+\neg\texttt{TerminalNoResidue}.
+}
+\tag{TFE2748B.1086}
+\]
+
+This is the nonduplicate bottom of the current Gold route.  The terminal
+singular residue does not require a second raw pressure-atom theorem.  It
+requires the original coupled packet to provide the compactified
+full-exchange/no-waste storage `(TFE2748B.1081)' and the terminal no-residue
+needed to pass that storage to the terminal face.  Proving those parent-ledger
+clauses from arbitrary original smooth data proves `(TFE2748B.1077)', hence
+`(TFE2748B.1069)', hence the source-square/critical capacity
+variation-storage line.
