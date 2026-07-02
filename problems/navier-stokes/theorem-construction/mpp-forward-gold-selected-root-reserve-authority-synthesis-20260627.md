@@ -26,8 +26,10 @@ source_surfaces:
 # Selected root reserve authority synthesis
 
 The current Gold producer is not the silent-source theorem and not either
-branch name by itself.  The producer is the original-history selected root
-reserve:
+branch name by itself.  The physical producer is the original-history parent
+coupled packet/reserve before child clipping.  The displayed selected-root
+formula below is a parent-ledger finite-overlap projection of that reserve, not
+a physical count of selected children:
 
 ```math
 \sum_{Q\in\mathcal T_{\rm sel}}
@@ -42,8 +44,8 @@ C_N(u_0)+R_{\rm legal}.
 \tag{1}
 ```
 
-Equivalently, in selected-density language, the producer is the original-history
-selected log-amplification Carleson theorem:
+Equivalently, in selected-density language, the same parent object is read
+through the original-history selected log-amplification Carleson projection:
 
 ```math
 \sup_{P\subseteq Q_0}
@@ -150,4 +152,3 @@ This prevents three stale substitutions:
 2. treating record/return as a third route rather than the repeated-core branch;
 3. treating per-core no-escape lower bounds as enough without the original-history
    root summability.
-
