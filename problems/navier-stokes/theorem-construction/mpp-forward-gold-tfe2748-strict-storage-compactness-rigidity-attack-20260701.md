@@ -11160,8 +11160,9 @@ the stopped log-meter square-variation/BMO reserve.  They are two readouts of
 the same pressure-viscosity-incompressibility-velocity participation packet,
 not separate accounts.
 
-The implication back to Section 80 is immediate.  Dropping the nonnegative BMO
-summand in `(TFE2748B.714)' gives
+The implication back to Section 80 is immediate after the bounded storage drop
+in `(TFE2748B.716)' is absorbed into the local \(C_N(u_0)\mathcal R(P')\) and
+paid terms.  Dropping the nonnegative BMO summand in `(TFE2748B.714)' gives
 
 \[
 \int_{P'} W_P^{crit}\,d\mathfrak m_P
@@ -11185,10 +11186,10 @@ C_N(u_0)\mathfrak m_P(P')
 \tag{TFE2748B.718}
 \]
 
-after `(TFE2748B.716a)' is inserted.  Dividing by \(\mathfrak m_P(P')\) gives
-`(TFE2748B.685)'.  Thus the thickness needed for the BMO average is not a
-separate hidden assumption; it is part of the same full-exchange active measure
-construction.  Therefore
+after `(TFE2748B.716a)' and the same bounded-storage absorption are inserted.
+Dividing by \(\mathfrak m_P(P')\) gives `(TFE2748B.685)'.  Thus the thickness
+needed for the BMO average is not a separate hidden assumption; it is part of
+the same full-exchange active measure construction.  Therefore
 
 \[
 \boxed{
