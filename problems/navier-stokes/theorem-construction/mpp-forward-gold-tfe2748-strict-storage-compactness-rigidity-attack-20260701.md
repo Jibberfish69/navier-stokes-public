@@ -14401,3 +14401,175 @@ bounded projection of the original root generator.  The only genuinely
 scale-native source left is the zero-baseline first-entry endpoint detector and
 its packing into the parent critical capacity, plus the strict no-self-feeding
 full-exchange storage for the same root generator.
+
+## 105. Current-edge use of the same-parent atomic attachment
+
+The atom attachment itself is not a new source at the current edge.  It is the
+raw parent theorem already proved in Sections 59 and 90, now written in the
+notation of the log-ratio/first-entry split above so it cannot be reopened as a
+selected-critical \(L^1\) supplier.
+
+Fix a stopped preterminal parent packet \(X_P\) and a preterminal interval
+\([0,\tau]\).  Let \(dJ_P\) be the pre-clipping pressure-Hodge/material residue
+after full-output route, collar, legal, stop, endpoint, and detector-motion
+leakage have been separated.  The pressure-Hodge part is a constraint current
+on the closed stopped parent packet, so its unpaired total is exactly leakage:
+
+\[
+dJ_P=dJ_P^0+dR_P,
+\qquad
+dJ_P^0(X_P)=0,
+\qquad
+|dR_P|
+\le
+d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.933}
+\]
+
+For arbitrary original smooth data, all terms in `(TFE2748B.933)' are finite
+Radon measures on every preterminal stopped packet.  The Jordan decomposition
+of the zero-total part gives
+
+\[
+dJ_P^0=dJ_{P,+}^0-dJ_{P,-}^0,
+\qquad
+dJ_{P,+}^0(X_P)=dJ_{P,-}^0(X_P)=m_P^J .
+\tag{TFE2748B.934}
+\]
+
+Choose the same-parent transport coupling
+
+\[
+d\pi_P(x,y)
+:=
+\begin{cases}
+{dJ_{P,+}^0(x)dJ_{P,-}^0(y)\over m_P^J},&m_P^J>0,\\[4pt]
+0,&m_P^J=0 .
+\end{cases}
+\tag{TFE2748B.935}
+\]
+
+Then, for every parent-measurable test \(\varphi\),
+
+\[
+\int_{X_P}\varphi\,dJ_P^0
+=
+\iint_{X_P\times X_P}
+\bigl(\varphi(x)-\varphi(y)\bigr)\,d\pi_P(x,y),
+\qquad
+\pi_P(X_P\times X_P)
+=
+{1\over2}|dJ_P^0|(X_P).
+\tag{TFE2748B.936}
+\]
+
+Equivalently,
+
+\[
+dJ_P^0
+=
+\int_{X_P\times X_P}(\delta_x-\delta_y)\,d\pi_P(x,y),
+\tag{TFE2748B.937}
+\]
+
+which is the exact same-parent zero-mean atom decomposition.  Countable simple
+atom ledgers are only approximations of this exact parent transport measure;
+the object being used here is the transport integral `(TFE2748B.936)'--`(TFE2748B.937)'.
+
+The coefficient mass and leakage are controlled by the raw original-packet
+budget already installed in Sections 59 and 90:
+
+\[
+\int_0^\tau \pi_P(t)(X_P\times X_P)\,dt
++\int_0^\tau |(dR_P)_+|(t)
+\le
+B_P^{atom}(\tau),
+\tag{TFE2748B.938}
+\]
+
+where
+
+\[
+B_P^{atom}(\tau)
+:=
+C_N{\|u_0\|_2^2\over\nu}
++Paid_P([0,\tau])
++Legal_P([0,\tau])
++Stop_P([0,\tau]).
+\tag{TFE2748B.939}
+\]
+
+Now let \(0\le \omega_P\le1\) be any parent-announced pre-clipping selector on
+the positive lobe.  The retained opposite lobe selected by the same parent
+atom, not by a later child clip, is
+
+\[
+dJ_{P,\omega}^{ret,-}
+:=
+(\mathrm{pr}_2)_\#\bigl(\omega_P(x)\,d\pi_P(x,y)\bigr).
+\tag{TFE2748B.940}
+\]
+
+By construction,
+
+\[
+\int_{X_P}\omega_P\,dJ_{P,+}^0
+=
+dJ_{P,\omega}^{ret,-}(X_P),
+\qquad
+(dJ_P)_+
+\preceq_{atom}
+dJ_{P,\omega}^{ret,-}+(dR_P)_+
+\quad\text{after the chosen parent selector is fixed.}
+\tag{TFE2748B.941}
+\]
+
+Thus the retained opposite lobe is a bounded-below parent reserve depletion:
+
+\[
+M_{P,\omega}^{atom}(\tau')
+:=
+B_P^{atom}(\tau)
+-dJ_{P,\omega}^{ret,-}\bigl([0,\tau']\times X_P\bigr),
+\qquad
+0\le\tau'\le\tau,
+\tag{TFE2748B.942}
+\]
+
+and `(TFE2748B.938)' gives
+
+\[
+M_{P,\omega}^{atom}(\tau')\ge0,
+\qquad
+-dM_{P,\omega}^{atom}
+=
+dJ_{P,\omega}^{ret,-}
+\quad\text{on retained same-parent atoms.}
+\tag{TFE2748B.943}
+\]
+
+This proves the requested raw construction from arbitrary original smooth data:
+before clipping, the pressure-Hodge/material residue decomposes into
+same-parent zero-mean atoms, the coefficient mass and leakage are bounded by
+the original raw packet budget, and every retained positive lobe has an
+opposite lobe recorded as bounded-below parent reserve depletion.
+
+The selected-critical \(L^1\) issue begins after `(TFE2748B.943)', when the
+critical meter \(W_P^{crit}=e^{b_P}\) is allowed to vary across each atom:
+
+\[
+W_P^{crit}(x)\,d\pi_P(x,y)
+\le
+W_P^{crit}(y)\,d\pi_P(x,y)
++
+W_P^{crit}(y)
+\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)d\pi_P(x,y).
+\tag{TFE2748B.944}
+\]
+
+The first term in `(TFE2748B.944)' is the weighted retained-lobe reserve.  The
+second term is exactly the selected log-meter variation handled by the
+log-ratio/root-generator and first-entry capacity split in Sections 103--104.
+So the current edge uses SignedPressureHodgeAtomicAttachment.A as a closed raw
+input and keeps the selected-critical root-capacity theorem as the only
+Gold-strength upgrade being supplied by `(TFE2748B.909)'--`(TFE2748B.932)'.
