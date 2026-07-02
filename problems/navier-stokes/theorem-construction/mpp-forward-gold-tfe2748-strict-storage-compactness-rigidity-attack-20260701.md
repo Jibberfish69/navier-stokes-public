@@ -16876,3 +16876,150 @@ category error: it forgets the same-parent transfer signs and recreates the
 unpaid active square as a positive child bill.  The remaining PDE proof is now
 pinpointed at the signed lifted full-output transfer no-waste estimate
 `(TFE2748B.1099)' from arbitrary original smooth data.
+
+## 124. The signed lifted transfer has a moving-interface normal form
+
+The theorem `(TFE2748B.1099)' is not the raw weighted-upcascade estimate from
+the older dyadic-flux notes.  It is that estimate after the selected active
+tail has already multiplied the shell transfer.  The shell multiplier is
+state-dependent, and the remaining proof must control the positive motion of
+that multiplier in the same stopped parent packet.
+
+Write the signed full-output shell transfer in flux-divergence form
+
+\[
+\mathcal T_j
+=
+\Pi_{j-1\to j}-\Pi_{j\to j+1}
+\,+\,\mathcal R_j^{0},
+\tag{TFE2748B.1102}
+\]
+
+where \(\Pi_{j\to j+1}\) is the same-parent full-output nonlinear
+pressure-Hodge/viscous/Stokes/self-advection transfer across the shell
+interface, and \(\mathcal R_j^{0}\) is already placed in \(dE_P^0\).  The
+lifted multiplier in `(TFE2748B.1098)' is
+
+\[
+\beta_j(t)
+:=
+2^{-j}D_j(t)\,2^{2j}
+=
+2^{j}D_j(t)
+=
+2^{3j}E_j(t).
+\tag{TFE2748B.1103}
+\]
+
+For any finite stopped shell interval \([J,K]\), summation by parts gives
+
+\[
+\sum_{j=J}^{K}\beta_j
+(\Pi_{j-1\to j}-\Pi_{j\to j+1})
+=
+\beta_J\Pi_{J-1\to J}
+-\beta_K\Pi_{K\to K+1}
++\sum_{j=J}^{K-1}(\beta_{j+1}-\beta_j)\Pi_{j\to j+1}.
+\tag{TFE2748B.1104}
+\]
+
+The boundary terms are entrance, terminal cutoff, route, legal, or stop
+material.  Thus, modulo \(dE_P^0+C_N2^{-2\delta J}dt\), the positive lifted
+transfer is controlled by the positive moving-interface work
+
+\[
+[d\mathcal T_{P,J}^{lift,\sigma}]_+
+\preceq
+\sum_{j\ge J}
+\bigl[(\beta_{j+1}-\beta_j)\Pi_{j\to j+1}\bigr]_+\,dt
++dE_P^0+C_N2^{-2\delta J}dt .
+\tag{TFE2748B.1105}
+\]
+
+This is the exact place where the older no-free-upcascade picture re-enters.
+The positive term in `(TFE2748B.1105)' is not counted merely because a flux
+crosses upward.  It is counted only when the flux crosses an interface whose
+selected active shell weight increases in the same parent record.
+
+On a maximal stopped interface interval \(I_{j}\), split the positive
+interface work into residence and transit:
+
+\[
+\int_{I_j}\nu\,2^{-j}D_j(t)^2\,dt
+\ge
+\varepsilon
+\int_{I_j}
+\bigl[(\beta_{j+1}-\beta_j)\Pi_{j\to j+1}\bigr]_+\,dt
+\tag{TFE2748B.1106}
+\]
+
+or its complement.  The residence branch is absorbed directly by the left side
+of `(TFE2748B.1097)'.  On the transit branch the shell balance `(TFE2748B.1094)'
+forces the incoming positive interface work to leave as successor interface
+work, except for endpoint/start energy, return/reset, legal, stop, and route
+terms:
+
+\[
+\int_{I_j}
+\bigl[(\beta_{j+1}-\beta_j)\Pi_{j\to j+1}\bigr]_+\,dt
+\le
+(1+O(\varepsilon))
+\int_{I_{j+1}}
+\bigl[(\beta_{j+2}-\beta_{j+1})\Pi_{j+1\to j+2}\bigr]_+\,dt
++dE_P^0(I_j).
+\tag{TFE2748B.1107}
+\]
+
+So an unpaid survivor of `(TFE2748B.1099)' is not an arbitrary positive
+high-frequency square.  It is a coherent same-parent moving-interface transit
+thread whose active shell weight keeps increasing while residence, return,
+reset, endpoint/start energy, legal, stop, and route payments vanish.
+
+Consequently the exact nonduplicate supplier for `(TFE2748B.1099)' is the
+moving-interface no-free-transit estimate
+
+\[
+\texttt{MovingInterfaceActiveTransitNoWaste.A:}
+\qquad
+\int_I\sum_{j\ge J}
+\bigl[(\beta_{j+1}-\beta_j)\Pi_{j\to j+1}\bigr]_+\,dt
+\le
+-dM_{P,J}^{mi}(I)
++\theta\,d\Omega_P^{gen}(I)
++dE_P^0(I)
++C_N2^{-2\delta J},
+\tag{TFE2748B.1108}
+\]
+
+with \(M_{P,J}^{mi}\) bounded below from the original parent data and
+\(C_N\theta<1\).  Combining `(TFE2748B.1105)' and `(TFE2748B.1108)' proves
+`(TFE2748B.1099)'.
+
+The older residence/transit and affine-quotient surfaces are therefore
+coordinate faces of `(TFE2748B.1108)'.  Residence is already paid by
+`(TFE2748B.1106)'.  A finite stopped-band transit telescopes by
+`(TFE2748B.1104)'.  A top exit is reset/escape material.  A return to a prior
+stopped core is negative-return material.  The only branch not yet proved from
+arbitrary original smooth data is the same-parent moving-interface transit
+thread with positive active-weight variation and no residence, reset, return,
+legal, stop, or endpoint payment.
+
+Thus the current proof state is sharpened but not closed:
+
+\[
+\texttt{MovingInterfaceActiveTransitNoWaste.A}
+\Longrightarrow
+\texttt{SignedLiftedTailTransferNoWaste.A}
+\Longrightarrow
+\texttt{FiniteCapacitaryExcess.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.
+\tag{TFE2748B.1109}
+\]
+
+This is the exact physical statement of the remaining \(L^1\) problem in the
+shell language: the same original packet may move active capacity through
+pressure-compatible/heat-lag/viscous readout interfaces, but it may not keep
+raising the selected active shell weight through infinitely many same-parent
+interfaces without spending residence, return, reset, endpoint, legal, stop, or
+bounded parent storage.
