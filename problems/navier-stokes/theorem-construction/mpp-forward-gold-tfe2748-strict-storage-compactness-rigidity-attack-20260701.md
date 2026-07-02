@@ -8114,3 +8114,180 @@ root-uniform selected coefficient bound `(TFE2748B.511)' from the original
 coupled packet.  Section 61 identifies one active analytic input for that bound,
 the far-corona two-scale Carleson estimate, plus the full-exchange payment of
 the selected meter.
+
+## 63. Far-corona coefficient pushdown for the selected atom bound
+
+The selected coefficient estimate `(TFE2748B.511)' has one remaining analytic
+place where scale can still hide: the far-corona middle-band packet.  The kernel
+\(\ell/r\) is already harmless once the two-scale density is in the right
+Carleson currency.  The issue is whether the accumulated high-scale stress seen
+by a lower far-corona strain is paid by the same original full-exchange ledger
+before clipping.
+
+Write the far-corona density as
+
+\[
+B_r(t)
+:=
+\int_0^{r/c_1}
+\mathcal A_{\ell,r}(t)\,{d\ell\over\ell}
+=
+\int_{\mathbb R^3}
+\widetilde\Sigma_r(x,t)\,T_r(x,t)\,dx,
+\tag{TFE2748B.517}
+\]
+
+where
+
+\[
+T_r(x,t)
+:=
+\int_0^{r/c_1}
+\chi_{mid}(\log\ell)\,
+\tau_\ell^{H^1}[u](x,t)\,{d\ell\over\ell}.
+\tag{TFE2748B.518}
+\]
+
+Thus the exact direct Carleson object is
+
+\[
+\mathfrak C_N^{far}(W)
+:=
+\int_W\int B_r(t)^2\,{dr\over r}\,dt .
+\tag{TFE2748B.519}
+\]
+
+No cancellation is available in \(B_r\), because the active stress density is
+nonnegative after selection.  The direct \(L^p\)-factorization audit shows that
+changing Hölder exponents leaves the same finite-band endpoint survivor.  On
+the endpoint collar \(m,j=N+O(1)\), the shell-pair commutator satisfies
+
+\[
+\left|
+2^{2j}
+\left\langle
+[\Delta_j,\Delta_m u\cdot\nabla]\Delta_j u,\Delta_j u
+\right\rangle
+\right|
+\le
+C\,2^{5m/2}\|\Delta_m u\|_2\,E_j .
+\tag{TFE2748B.520}
+\]
+
+Young's inequality and the fixed collar relation \(m,j=N+O(1)\) give, for every
+\(\varepsilon>0\),
+
+\[
+\sum_{m\in\mathcal B_I(N)}
+\sum_{j\in\mathcal B_J(N)}
+|\mathcal C_{m,j}(t)|
+\le
+\varepsilon\nu D_N(t)
++
+C_{\varepsilon,\nu,I,J}\,
+\Theta_N^\sharp(t)E_N(t)
+\le
+\varepsilon\nu D_N(t)
++
+C_{\varepsilon,\nu,I,J}\,
+\widetilde\Lambda_N^\sharp(t)E_N(t).
+\tag{TFE2748B.521}
+\]
+
+Consequently `WeightedCarrierFullExchangePayment.A' pays the fixed-collar
+endpoint part of the selected coefficient mass:
+
+\[
+\int_W d\mathfrak C_N^{fix}
+\le
+\varepsilon\nu\int_WD_N(t)\,dt
++
+C_\varepsilon(u_0)
++Paid(W)+Stop(W).
+\tag{TFE2748B.522}
+\]
+
+The other endpoint form is the fixed-band endpoint square theorem.  The source
+square dominance note gives the pointwise reduction
+
+\[
+\mathrm{FBE}_N(W)
+\le
+C_{I,J,E_0}\,
+\mathcal R_{N-C_{I,J}}(W),
+\tag{TFE2748B.523}
+\]
+
+where
+
+\[
+\mathcal R_{N_0}(W)
+:=
+\int_W
+\sum_{k>N_0}2^k
+\left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt .
+\tag{TFE2748B.524}
+\]
+
+So the endpoint \(FBE/EP/AQK\) survivor is not an independent source once the
+native source-square / full-exchange reserve is present.  It is a finite-band
+projection of that reserve.
+
+The only far-corona statement that still needs proof is the threading from the
+exact accumulated-stress Carleson object `(TFE2748B.519)' into the paid
+source-square/full-exchange currency:
+
+\[
+\boxed{
+\mathfrak C_N^{far}(W)
+\le
+C\,\mathcal R_{N-C}(W)
++
+\varepsilon\nu\int_WD_N(t)\,dt
++
+C_\varepsilon 2^{-2\delta N}
++Paid(W)+Stop(W).
+}
+\tag{TFE2748B.525}
+\]
+
+Equivalently, one may prove the stronger direct Carleson estimate
+
+\[
+\mathfrak C_N^{far}(W)
+\le
+\varepsilon\nu\int_WD_N(t)\,dt
++
+C_\varepsilon(u_0)2^{-2\delta N}
++Paid(W)+Stop(W),
+\tag{TFE2748B.526}
+\]
+
+from the original coupled packet.  The current support notes prove the kernel
+reduction, the fixed-collar coefficient absorption, and the FBE-to-source-square
+domination.  They do not yet prove `(TFE2748B.525)' or `(TFE2748B.526)' from
+arbitrary original data.
+
+Therefore the selected coefficient theorem `(TFE2748B.511)' is reduced to the
+following exact original-data package:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{WeightedCarrierFullExchangePayment.A}\\
++\texttt{SourceSquareReservePayment.A}\\
++\texttt{FarCoronaAccumulatedStressThreading.A `(TFE2748B.525)'}
+\end{array}
+\Longrightarrow
+\text{root-uniform selected coefficient estimate `(TFE2748B.511)'.}
+}
+\tag{TFE2748B.527}
+\]
+
+Here `SourceSquareReservePayment.A' is not a new physical wall beside
+`FullExchangeCriticalDepletionStorage.A'.  It is the native source-square face
+of the same full-exchange critical ledger.  The remaining unproved content is
+the same original coupled-packet fact in sharper coordinates: accumulated
+far-corona stress cannot create selected positive coefficient mass unless it is
+already present as source-square/full-exchange material, viscous drain, legal,
+stop, or paid meter motion before clipping.
