@@ -12864,7 +12864,7 @@ projection-label coordinate.  The selected-carrier tightness decomposition gives
 C_N\bigl(
 K_{\rm dom}+K_{\rm lab}+K_{\rm rung}+K_{\rm ui}
 \bigr)
-d\Theta^0+dPaid+dStop .
++d\Theta^0+dPaid+dStop .
 \tag{TFE2748B.828}
 \]
 
@@ -12884,7 +12884,7 @@ escape is exactly `(TFE2748B.651)'--`(TFE2748B.655)'.  Therefore
 K_{\rm dom}+K_{\rm lab}+K_{\rm rung}
 \le
 C_N\mathcal R_{\rm geom}^{tail}
-d\Theta^0+dPaid+dStop .
++d\Theta^0+dPaid+dStop .
 \tag{TFE2748B.829}
 \]
 
@@ -12897,10 +12897,10 @@ K_{\rm ui}
 \le
 C_N\bigl(
 \mathcal R_{\rm sat}
-\mathcal R_{\rm jump}
-\mathcal R_{\rm legal}^{sing}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm legal}^{sing}
 \bigr)
-d\Theta^0+dPaid+dStop .
++d\Theta^0+dPaid+dStop .
 \tag{TFE2748B.830}
 \]
 
@@ -12918,11 +12918,11 @@ Combining `(TFE2748B.828)'--`(TFE2748B.830)' gives
 \le
 C_N\bigl(
 \mathcal R_{\rm sat}
-\mathcal R_{\rm jump}
-\mathcal R_{\rm legal}^{sing}
-\mathcal R_{\rm geom}^{tail}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm legal}^{sing}
++\mathcal R_{\rm geom}^{tail}
 \bigr)
-d\Theta^0+dPaid+dStop .
++d\Theta^0+dPaid+dStop .
 }
 \tag{TFE2748B.831}
 \]
