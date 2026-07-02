@@ -15902,7 +15902,7 @@ Then uniform integrability gives, for every terminal/shell collar
 d\mathcal P_{P,J}^{tail}(C_{\varepsilon,J})
 \le
 \omega\bigl(\lambda_P^{tail}(C_{\varepsilon,J})\bigr)
-dE_{P,J}^0(C_{\varepsilon,J}),
++dE_{P,J}^0(C_{\varepsilon,J}),
 \qquad \omega(r)\downarrow0 ,
 \tag{TFE2748B.1039}
 \]
@@ -15917,8 +15917,8 @@ same-parent no-waste reserve
 d\mathcal P_{P,J}^{tail}
 \le
 -dM_P^{tail}
-\theta\,d\Omega_P^{gen}
-dE_P^0+dPaid_P+dLegal_P+dStop_P,
++\theta\,d\Omega_P^{gen}
++dE_P^0+dPaid_P+dLegal_P+dStop_P,
 \qquad C_N\theta<1,
 \tag{TFE2748B.1040}
 \]
