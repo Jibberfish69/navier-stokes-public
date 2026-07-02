@@ -6943,18 +6943,18 @@ with
 Equations `(TFE2748B.437)'--`(TFE2748B.438)' imply the Bellman bound
 `(TFE2748B.425)': all positive profit in `(TFE2748B.423)' is either exact
 material telescope, admitted critical-entry/log-detector source, strict
-heat-lag contraction, or paid leakage.  Conversely, any proof of
-`(TFE2748B.425)' from original data must supply the storage of these three
-source faces, because `(TFE2748B.434)' is the deterministic lower edge of the
-square-completed selected bill.
+heat-lag contraction, or paid leakage.  In this decomposition, a failure of
+`(TFE2748B.437)' leaves exactly the three source faces in
+`(TFE2748B.434)' as the remaining place where the square-completed selected
+bill can enter the parent ledger before clipping.
 
 Thus the active arbitrary-data line has been reduced one level:
 
 \[
 \boxed{
-\texttt{SquareCompletedFullExchangeStorage.A}
-\Longleftrightarrow
-\texttt{SquareCompletedCriticalSourceStorage.A `(TFE2748B.437)'--`(TFE2748B.438)'.}
+\texttt{SquareCompletedCriticalSourceStorage.A `(TFE2748B.437)'--`(TFE2748B.438)'}
+\Longrightarrow
+\texttt{SquareCompletedFullExchangeStorage.A.}
 }
 \tag{TFE2748B.439}
 \]
