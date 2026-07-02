@@ -5,18 +5,16 @@
 Stale closure wording corrected on 2026-07-01.
 
 This surface records the downstream conditional implication from the current
-Gold source theorem to the periodic relaunch conclusion.  Current Gold
-authority keeps TFE2748B / OriginalCriticalCapacityVariation.A open: the
-missing input is the arbitrary-original-data Gold \(L^1\) source theorem, now
-sharpened to paid parent root measuring geometry / strict critical-storage
-depletion before child positive readout.
+Gold source theorem to the periodic relaunch conclusion. Current Gold
+authority keeps SignedCriticalHeightSignPersistenceOrPeakBound.A open: the
+missing input is the signed critical-height theorem, proving either sign
+persistence with physical cost or peak-height control when the signed rate
+changes sign.
 
 ## Theorem
 
-Conditional on TFE2748B / OriginalCriticalCapacityVariation.A, equivalently the
-terminal-uniform Gold \(L^1\) producer for the original coupled
-pressure-viscosity-incompressibility packet, the following periodic conclusion
-is obtained by the downstream consumer chain.
+Conditional on SignedCriticalHeightSignPersistenceOrPeakBound.A, the following
+periodic conclusion is obtained by the downstream consumer chain.
 
 Let `nu>0`. Let
 
@@ -65,13 +63,13 @@ ECQ.A continuation bridge
 
 Read against current authority, these names do not collectively supply an
 unconditional theorem.  They are superseded by the Gold \(L^1\) consumer chain
-and require the still-open TFE2748B / OriginalCriticalCapacityVariation.A
-producer.  With that producer granted, the downstream implication is
+and require the still-open SignedCriticalHeightSignPersistenceOrPeakBound.A
+input. With that input granted, the downstream implication is
 
 ```math
-TFE2748B
+SignedCriticalHeightSignPersistenceOrPeakBound.A
 \Longrightarrow
-\text{terminal-uniform selected }L^1
+\text{signed critical-height continuation control}
 \Longrightarrow
 \text{absence of finite classical endpoint}.
 ```

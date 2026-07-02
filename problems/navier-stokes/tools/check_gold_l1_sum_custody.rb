@@ -33,29 +33,30 @@ AUTHORITY_MARKERS = {
   ],
   "problems/navier-stokes/theorem-packet.yaml" => [
     "current_authority_override_20260702",
-    "summation-type custody audit",
-    "coupled-storage",
-    "noncircular same-parent coupled"
+    "signed-height restart audit",
+    "positive L1 / child-clipping route is demoted",
+    "signed critical-height sign-persistence / peak-height theorem"
   ],
   "problems/navier-stokes/submission-bundle/submission-export-status.yaml" => [
     "current_authority_override_20260702",
     "exported-stale-not-submission-ready",
-    "noncircular same-parent coupled"
+    "signed critical-height sign-persistence or peak-height theorem",
+    "prove that signed-height object"
   ],
   "problems/navier-stokes/submission-bundle/submission-verdict.yaml" => [
-    "current_authority_override_20260702",
     "submission_ready: false",
-    "noncircular same-parent coupled"
+    "gold-l1-open-signed-height-sign-persistence-wall",
+    "SignedCriticalHeightSignPersistenceOrPeakBound.A"
   ],
   "problems/navier-stokes/submission-bundle/current-material-coverage.yaml" => [
     "current_authority_override_20260702",
     "provenance/coverage bookkeeping only",
-    "noncircular same-parent coupled"
+    "signed critical-height sign-persistence / peak-height theorem"
   ],
   "problems/navier-stokes/submission-bundle/surface-derivation-inventory.yaml" => [
     "current_authority_override_20260702",
     "not a closure surface",
-    "noncircular same-parent coupled"
+    "signed critical-height sign-persistence / peak-height theorem"
   ],
   "papers/navier-stokes/context/generated/snapshots/lane-lab/problems/navier-stokes/theorem-crank.yaml" => [
     "gold-l1-open-signed-height-sign-persistence-wall",

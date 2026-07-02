@@ -91,7 +91,7 @@ FORBIDDEN_THEOREM_CONSTRUCTION_CLAIMS = {
   "closed theorem statement surface" => /closed theorem[- ]statement surface/i,
   "unconditional final theorem title" => /^#\s+Final Theorem Statement:/i,
   "unconditional periodic global smoothness theorem" => /Then the incompressible Navier-Stokes system.*has a unique global smooth solution/i,
-  "original data implies endpoint absence without TFE2748B" => /OriginalSmoothData\\Longrightarrow\\text\{absence of finite classical endpoint\}/i
+  "original data implies endpoint absence without signed-height theorem" => /OriginalSmoothData\\Longrightarrow\\text\{absence of finite classical endpoint\}/i
 }.freeze
 
 CONSUMER_OR_DETECTOR_PHRASES = /
@@ -127,8 +127,7 @@ FORBIDDEN_SOURCE_PRODUCER_PROMOTIONS = {
 }.freeze
 
 REQUIRED_MARKERS = [
-  "TFE2748B",
-  "OriginalCriticalCapacityVariation.A"
+  "SignedCriticalHeightSignPersistenceOrPeakBound.A"
 ].freeze
 
 BLOCKED_MARKERS = [
@@ -174,8 +173,8 @@ def scan_theorem_construction_overclaim(path)
     line = text.lines[line_no - 1].to_s.gsub(/\s+/, " ").strip
     violations << "#{relative(path)}:#{line_no}: #{label}: #{line}"
   end
-  unless text.include?("TFE2748B") && text.include?("OriginalCriticalCapacityVariation.A")
-    violations << "#{relative(path)}: missing conditional TFE2748B / OriginalCriticalCapacityVariation.A marker"
+  unless text.include?("SignedCriticalHeightSignPersistenceOrPeakBound.A")
+    violations << "#{relative(path)}: missing conditional SignedCriticalHeightSignPersistenceOrPeakBound.A marker"
   end
   violations
 rescue ArgumentError
