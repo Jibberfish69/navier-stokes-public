@@ -15041,9 +15041,9 @@ submeasures \(\sigma\le\mathfrak v_P^{crit}\) satisfying
 \]
 
 The class is nonempty, tight, and weak-* closed by outer regularity of the
-stopped capacity and the paid measure \(E_P^0\).  Hence there is a maximal
-admissible residual submeasure, chosen by maximizing \(\sigma(P')\) over
-\(\mathfrak S_{P,\vartheta}\):
+stopped capacity and the paid measure \(E_P^0\).  Hence there is a
+maximal-mass admissible residual submeasure, chosen by maximizing
+\(\sigma(P')\) over \(\mathfrak S_{P,\vartheta}\):
 
 \[
 d\mathfrak v_P^{res}\in\mathfrak S_{P,\vartheta},
