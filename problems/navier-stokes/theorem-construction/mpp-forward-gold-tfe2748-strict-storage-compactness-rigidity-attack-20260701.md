@@ -22252,3 +22252,206 @@ critical source storage line.  It does not prove the no-terminal atom theorem
 from arbitrary original smooth data.  Section 151 gives the sufficient
 reverse-Holder/time-thickness criterion; that criterion remains the actual
 original-data source to prove, not a second downstream Gold wall.
+
+## 160. The pressure atom attachment is closed before critical weighting
+
+The requested same-parent signed-measure construction is now a proved raw
+parent theorem.  The construction is not the remaining Gold source.  The
+remaining source begins only after the critical meter weights the already paired
+lobes differently.
+
+Fix a stopped compact preterminal parent packet \(P\) and a stopped horizon
+\(\tau<T_*\).  Let \(dJ_P\) be the pre-clipping pressure-Hodge/material residue
+after route, collar, frame, detector-motion, endpoint, legal, stop, and already
+paid material have been separated.  Section 154 constructs
+
+\[
+dJ_P=dJ_P^0+dR_P,\qquad
+(\pi_t)_\#dJ_P^0=0,\qquad
+|dR_P|\le dE_P^0 ,
+\tag{TFE2748B.1459}
+\]
+
+where \(dJ_P^0=F_P\,d\mathfrak m_P\,dt\) is the mean-zero parent pressure-Hodge
+residue of `(TFE2748B.1394)' and \(dE_P^0\) contains exactly the separated
+route/collar/frame/detector/end/legal/stop/paid leakage.  The div-curl Hardy
+estimate for the pressure source, stopped pressure-Hodge boundedness, and the
+Leray energy inequality give the original-data coefficient and leakage bound
+
+\[
+|dJ_P^0|([0,\tau]\times X_P)+|dR_P|([0,\tau]\times X_P)
+\le
+C_N{\|u_0\|_2^2\over \nu}
++E_P^0([0,\tau]\times X_P).
+\tag{TFE2748B.1460}
+\]
+
+Take the Jordan split of \(dJ_P^0\) in the parent spacetime cylinder:
+
+\[
+dJ_P^0=dJ_{P,+}^0-dJ_{P,-}^0 .
+\tag{TFE2748B.1461}
+\]
+
+Because the parent time marginal in `(TFE2748B.1459)' is zero, the positive and
+negative parts have the same parent-time marginal:
+
+\[
+(\pi_t)_\#dJ_{P,+}^0=(\pi_t)_\#dJ_{P,-}^0=:d\lambda_P^J .
+\tag{TFE2748B.1462}
+\]
+
+Disintegrate over that common marginal,
+
+\[
+dJ_{P,+}^0(t,x)=d\alpha_{P,t}^+(x)d\lambda_P^J(t),\qquad
+dJ_{P,-}^0(t,y)=d\alpha_{P,t}^-(y)d\lambda_P^J(t),
+\tag{TFE2748B.1463}
+\]
+
+and define the same-parent transport coupling
+
+\[
+d\Pi_P(t,x,y)
+:=
+d\alpha_{P,t}^+(x)d\alpha_{P,t}^-(y)d\lambda_P^J(t).
+\tag{TFE2748B.1464}
+\]
+
+Then, for every parent-announced test \(\varphi\),
+
+\[
+\int \varphi\,dJ_P^0
+=
+\iiint\bigl(\varphi(t,x)-\varphi(t,y)\bigr)d\Pi_P(t,x,y),
+\tag{TFE2748B.1465}
+\]
+
+and hence
+
+\[
+dJ_P^0
+=
+\int(\delta_{(t,x)}-\delta_{(t,y)})\,d\Pi_P(t,x,y).
+\tag{TFE2748B.1466}
+\]
+
+The countable atomic display
+
+\[
+dJ_P=\sum_\alpha c_\alpha\,d\mu_\alpha+dR_P,\qquad
+\int d\mu_\alpha=0,
+\tag{TFE2748B.1467}
+\]
+
+is the simple-measure approximation of `(TFE2748B.1466)', with coefficient mass
+controlled by the transport mass:
+
+\[
+\sum_\alpha |c_\alpha|
+\le
+\Pi_P([0,\tau]\times X_P\times X_P)
+=
+{1\over2}|dJ_P^0|([0,\tau]\times X_P)
+\le
+C_N{\|u_0\|_2^2\over \nu}+E_P^0([0,\tau]\times X_P).
+\tag{TFE2748B.1468}
+\]
+
+Now let \(0\le\omega_P(t,x)\le1\) be a selected detector fixed in the parent
+frame before child positive clipping.  Define the selected positive lobe and
+the retained opposite lobe by pushing the same coupling to its two endpoints:
+
+\[
+dJ_{P,\omega}^{+}
+:=(\operatorname{time},\operatorname{pr}_1)_\#
+\bigl(\omega_P(t,x)d\Pi_P(t,x,y)\bigr),
+\qquad
+dJ_{P,\omega}^{ret,-}
+:=(\operatorname{time},\operatorname{pr}_2)_\#
+\bigl(\omega_P(t,x)d\Pi_P(t,x,y)\bigr).
+\tag{TFE2748B.1469}
+\]
+
+Therefore every selected positive lobe is attached to an opposite lobe in the
+same parent atom:
+
+\[
+\omega_P(dJ_P)_+
+\preceq_{atom}
+dJ_{P,\omega}^{ret,-}
+\+
+\omega_P(dR_P)_+ .
+\tag{TFE2748B.1470}
+\]
+
+Open the raw parent reserve
+
+\[
+B_{P,\omega}^{atom}
+:=
+C_N{\|u_0\|_2^2\over \nu}
++E_P^0([0,\tau]\times X_P),
+\qquad
+M_{P,\omega}^{atom}(s)
+:=
+B_{P,\omega}^{atom}
+-dJ_{P,\omega}^{ret,-}([0,s]\times X_P).
+\tag{TFE2748B.1471}
+\]
+
+Equations `(TFE2748B.1460)'--`(TFE2748B.1470)' give
+
+\[
+M_{P,\omega}^{atom}(s)\ge0,\qquad
+-dM_{P,\omega}^{atom}=dJ_{P,\omega}^{ret,-}
+\quad\text{on retained same-parent atoms.}
+\tag{TFE2748B.1472}
+\]
+
+Thus the raw statement requested here is discharged from arbitrary original
+smooth data before clipping:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{pre-clipping signed pressure atoms, coefficient/leakage control,}\\
+\texttt{and bounded-below retained-lobe reserve are proved by}\\
+\texttt{`(TFE2748B.1459)'--`(TFE2748B.1472)'.}
+\end{array}}
+\tag{TFE2748B.1473}
+\]
+
+The critical Gold source is the part not covered by this raw reserve.  If
+\(W_P^{crit}=e^{b_P}\), then the same parent atom gives
+
+\[
+W_P^{crit}(x)\omega_P(x)d\Pi_P(x,y)
+\le
+W_P^{crit}(y)\omega_P(x)d\Pi_P(x,y)
++
+W_P^{crit}(y)\omega_P(x)
+\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)d\Pi_P(x,y).
+\tag{TFE2748B.1474}
+\]
+
+The first term is exactly the retained opposite-lobe reserve in
+`(TFE2748B.1472)'.  The second term is the selected-critical log-meter/full-
+exchange variation already isolated as `(TFE2748B.1412)'--`(TFE2748B.1424)' and
+then reduced in Section 159 to finite active-potential excess.  Therefore the
+atomic decomposition, coefficient control, leakage control, and retained
+opposite-lobe reserve are no longer open; the live original-data theorem is the
+critical weighted defect storage
+
+\[
+d\mathcal V_{P,\omega}^{crit}
+\le
+-dM_P^{crit}
++\theta_c\,d\Omega_P^{gen}
++dE_P^0,
+\qquad C_N\theta_c<1,
+\tag{TFE2748B.1475}
+\]
+
+equivalently the no-terminal super-capacitary active-potential atom / finite-
+excess source in `(TFE2748B.1458)'.
