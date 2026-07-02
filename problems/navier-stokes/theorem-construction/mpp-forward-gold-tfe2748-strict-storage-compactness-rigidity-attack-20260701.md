@@ -4338,3 +4338,142 @@ Orlicz/reverse-Holder source theorem.  Once that source estimate is proved,
 `(TFE2748B.270)' turns every positive selected lobe into retained parent-reserve
 depletion plus paid leakage, and `(TFE2748B.272)' gives
 `(TFE2748B.247)'.
+
+## 38. Galerkin Liouville audit of the reserve source
+
+There is one exact physical fact available before the selected meter is moved:
+the inviscid pressure/self-advection part re-coordinates the full parent state
+without creating phase volume.  In a finite Fourier-Galerkin truncation write the
+divergence-free velocity coefficients as \(a\in H_M\) and the projected equation
+as
+
+\[
+\dot a
+=
+B_M(a)-\nu \Lambda_M a,
+\qquad
+B_M(a)=\mathbb P_M[-u_M\cdot\nabla u_M].
+\tag{TFE2748B.273}
+\]
+
+The quadratic Euler vector field satisfies
+
+\[
+\operatorname{div}_{a}B_M=0,
+\qquad
+\langle B_M(a),\Lambda_M^0 a\rangle=0,
+\tag{TFE2748B.274}
+\]
+
+the first identity being the finite-dimensional Liouville identity and the
+second the usual kinetic-energy skew identity.  The pressure is already included
+in \(B_M\) through the Leray projection; it is not a separate force outside the
+participation law.
+
+Let \(\rho_M(a,t)\) be any smooth parent density transported by the inviscid
+part.  Then
+
+\[
+\partial_t\rho_M+\operatorname{div}_a(B_M\rho_M)=0
+\tag{TFE2748B.275}
+\]
+
+gives exact entropy conservation:
+
+\[
+{d\over dt}\int \Phi(\rho_M)\,da
+=
+\int \Phi'(\rho_M)\operatorname{div}_a(B_M\rho_M)\,da
+=0 .
+\tag{TFE2748B.276}
+\]
+
+This proves the clean version of the physical statement: pressure/incompressible
+transport may rearrange the parent state, but on the full parent phase-space
+density it supplies no positive entropy source.
+
+The Gold selected density is not \(\rho_M\).  It is a parent-announced weighted
+readout
+
+\[
+F_M=W_M(a,t)\rho_M(a,t),
+\tag{TFE2748B.277}
+\]
+
+where \(W_M\) encodes the selected critical packet meter, stopped frame,
+covectors, Hodge/collar choices, and heat-lag normalization.  Substituting
+\(\rho_M=F_M/W_M\) into `(TFE2748B.275)' gives
+
+\[
+\partial_tF_M+\operatorname{div}_a(B_MF_M)
+=
+F_M\,(\partial_t+B_M\cdot\nabla_a)\log W_M .
+\tag{TFE2748B.278}
+\]
+
+Therefore the inviscid Liouville part contributes to the selected entropy only
+through the material derivative of the selected meter:
+
+\[
+\begin{aligned}
+{d\over dt}\int \Phi(F_M)\,da
+&=
+\int \Phi'(F_M)F_M
+(\partial_t+B_M\cdot\nabla_a)\log W_M\,da .
+\end{aligned}
+\tag{TFE2748B.279}
+\]
+
+This is exactly the selected-meter version of the non-passive commutator
+\(\mathcal K_{\Psi,P}+\mathcal G_{\Psi,P}\).  The right side vanishes only when
+the selected meter is transported as part of the full parent coordinate system,
+or when its motion is charged to paid selector/frame/collar/reselection terms.
+Thus finite-dimensional Liouville proves the zero-source part of
+`(TFE2748B.260)' and also proves why Liouville alone cannot supply the
+Gold \(L^1\) reserve: the selected critical weight can still move through the
+Liouville flow.
+
+Restoring viscosity adds the parabolic Fisher term and paid heat-lag/collar
+defects.  The exact sufficient source estimate is the weighted meter-motion
+inequality
+
+\[
+\int \Phi'(F_P)F_P
+\bigl[(D_t^P+\mathcal B_P)\log W_P\bigr]_+
+\,d\mathfrak m_P
+\le
+\beta
+\int \Phi''(F_P)
+\langle A_P\nabla_{\mathfrak m}F_P,\nabla_{\mathfrak m}F_P\rangle
+\,d\mathfrak m_P
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{TFE2748B.280}
+\]
+
+with \(\beta<1\), after the already-paid selector, collar, frame, Hodge, and
+endpoint defects have been removed.  Here \(\mathcal B_P\) denotes the
+volume-preserving pressure/self-advection/Hodge generator in the stopped parent
+coordinates.  Equation `(TFE2748B.280)' is the scalar selected-meter face of
+the entropy-dual current domination `(TFE2748B.260)'.
+
+Consequently the reserve theorem `(TFE2748B.271)' is now reduced to this precise
+noncircular production statement:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{construct \(W_P\) from the original coupled packet before clipping,}\\
+\text{prove its positive logarithmic material derivative satisfies
+`(TFE2748B.280)',}\\
+\text{and keep every failure of transport of \(W_P\) on paid
+selector/frame/collar/Hodge/stop ledgers.}
+\end{array}}
+\tag{TFE2748B.281}
+\]
+
+This does not close Gold.  It removes the false pressure-versus-viscosity split:
+pressure/self-advection gives a Liouville re-coordination of the full parent
+state, viscosity gives the Fisher descent, and the only remaining source is the
+selected-meter motion inside that same coupled transaction.  Proving
+`(TFE2748B.280)' from arbitrary original smooth data gives `(TFE2748B.260)',
+then `(TFE2748B.271)' and the critical capacity variation/storage line.
