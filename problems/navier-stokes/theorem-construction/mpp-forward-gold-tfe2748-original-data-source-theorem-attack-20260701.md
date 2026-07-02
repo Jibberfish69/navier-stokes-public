@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-tfe2748-original-data-source-theorem-attack-20260701
-status: source-theorem-target-partial-noncircular-reduction-storage-open
+status: support-clauses-derived-strict-storage-open
 created: 2026-07-01
 problem: navier-stokes
 route: forward-gold coupled pressure-viscosity-incompressibility participation law
@@ -9,8 +9,10 @@ completion_truth: >-
   This note formalizes the audited TFE2748 source theorem. It does not prove
   Gold closure. It makes the zero-baseline endpoint branch noncircular by
   admitting it into the parent full-exchange ledger before storage is invoked,
-  and it isolates the remaining unproved clause as the strict same-parent
-  full-exchange no-self-feeding storage inequality from arbitrary original data.
+  derives the stopped Duhamel-Hodge/parent-detector support clauses from smooth
+  preterminal original data, and isolates the remaining unproved clause as the
+  strict same-parent full-exchange no-self-feeding storage inequality from
+  arbitrary original data.
 source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
   - problems/navier-stokes/source-frontier.yaml
@@ -22,6 +24,7 @@ consumes:
 produces:
   - noncircular statement of TFE2748
   - zero-baseline endpoint admission into the full-exchange ledger
+  - stopped Duhamel-Hodge and parent-detector support clauses
   - exact remaining strict-storage clause
 ---
 
@@ -117,8 +120,9 @@ C_{\Pi,N}^2\sum_{Q\preceq P}\|h_Q\|_{\mathcal H_{root}}^2
 \]
 
 These are the audited estimate targets `(TFE.2735)', `(TFE.2741)', and
-`(TFE.2742)'.  In this source theorem they are obligations to derive from the
-original stopped coupled packet, not installed inputs.
+`(TFE.2742)'.  Section 8 derives them as support clauses from the smooth
+preterminal stopped coupled packet.  They make the retained detector lawful;
+they do not by themselves prove the strict positive \(L^1\) source theorem.
 
 Second, the zero-baseline endpoint branch is admitted without using finite
 full-exchange storage:
