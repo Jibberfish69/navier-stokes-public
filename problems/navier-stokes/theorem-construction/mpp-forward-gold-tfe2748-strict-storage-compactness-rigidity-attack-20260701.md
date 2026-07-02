@@ -4477,3 +4477,188 @@ state, viscosity gives the Fisher descent, and the only remaining source is the
 selected-meter motion inside that same coupled transaction.  Proving
 `(TFE2748B.280)' from arbitrary original smooth data gives `(TFE2748B.260)',
 then `(TFE2748B.271)' and the critical capacity variation/storage line.
+
+## 39. Parent-gauge normal form for the selected meter
+
+The preceding sections prove the signed atom attachment, but they also show why
+the retained opposite lobe is not automatically a bounded-below critical
+reserve.  The atom ledger pairs signs.  The reserve theorem asks whether the
+selected meter that sees those signs is itself carried by a past-built parent
+clock before the child clips the positive lobe.
+
+Let
+
+\[
+\mathcal L_P:=D_t^P+\mathcal B_P
+\]
+
+be the stopped parent material generator from `(TFE2748B.280)'.  On each stopped
+selector chamber, decompose the positive parent-announced selected meter as
+
+\[
+\log W_P
+=
+\log W_P^{tr}
++\log W_P^{met}
++\log W_P^{conn}
++\log W_P^{heat}
++\log W_P^{stop}.
+\tag{TFE2748B.282}
+\]
+
+Here \(W_P^{tr}\) is the part transported with the parent coordinate system,
+\(W_P^{met}\) is the material stretch/covector part, \(W_P^{conn}\) is the
+Hodge, selector, collar, pressure-frame, turnstile, exchange, and reselection
+connection part, \(W_P^{heat}\) is the heat-lag normalization, and
+\(W_P^{stop}\) is the BV jump part carried by stop/legal/endpoint charts.  The
+transported factor is gauge:
+
+\[
+\mathcal L_P\log W_P^{tr}=0 .
+\tag{TFE2748B.283}
+\]
+
+The metric part is explicit.  Let \(F=\nabla_aX\), \(G=F^\top F\), and
+\(S=\operatorname{sym}\nabla u\).  Then
+
+\[
+D_tG=2F^\top SF .
+\tag{TFE2748B.284}
+\]
+
+For a fixed material vector \(\xi\),
+
+\[
+D_t\log |F\xi|
+=
+{\langle F\xi,SF\xi\rangle\over |F\xi|^2}
+=
+\widehat{F\xi}\cdot S\,\widehat{F\xi}.
+\tag{TFE2748B.285}
+\]
+
+For a transported Eulerian covector \(k=F^{-\top}k_0\),
+
+\[
+D_t\log |k|
+=
+-\widehat{k}\cdot S\,\widehat{k}.
+\tag{TFE2748B.286}
+\]
+
+Since \(\det F=1\), incompressibility gives only the total log-volume identity
+\(\operatorname{tr}S=0\).  It cancels the signed average over all principal
+directions; it does not control the selected positive part
+\([\mathcal L_P\log W_P^{met}]_+\).  This is the exact mathematical version of
+the physical issue: pressure/incompressibility can re-coordinate the packet
+without changing total volume, while a selected child can still follow the
+expanding direction unless that one-sided frame motion is charged in the same
+parent clock.
+
+Thus the selected-meter source splits as
+
+\[
+\mathcal L_P\log W_P
+=
+\alpha_P^{met}
++\alpha_P^{conn}
++\alpha_P^{heat}
++\dot r_P^{paid},
+\tag{TFE2748B.287}
+\]
+
+where \(\alpha_P^{met}=\mathcal L_P\log W_P^{met}\),
+\(\alpha_P^{conn}=\mathcal L_P\log W_P^{conn}\),
+\(\alpha_P^{heat}=\mathcal L_P\log W_P^{heat}\), and \(\dot r_P^{paid}\) is
+the density/jump part of \(d\Theta_P^0+dPaid_P+dStop_P\).  No new physical
+force has been introduced in `(TFE2748B.287)'; it is a coordinate decomposition
+of the same coupled pressure-viscosity-incompressibility transaction.
+
+Consequently `(TFE2748B.280)' is equivalent to the parent-clock estimate
+
+\[
+\begin{aligned}
+&\int
+\Phi'(F_P)F_P
+\bigl[
+\alpha_P^{met}+\alpha_P^{conn}+\alpha_P^{heat}
+\bigr]_+
+\,d\mathfrak m_P\\
+&\qquad\le
+\beta
+\int \Phi''(F_P)
+\langle A_P\nabla_{\mathfrak m}F_P,\nabla_{\mathfrak m}F_P\rangle
+\,d\mathfrak m_P
+d\Theta_P^0+dPaid_P+dStop_P,
+\qquad \beta<1 .
+\end{aligned}
+\tag{TFE2748B.288}
+\]
+
+This gives the exact reserve-depletion implication.  Define the pre-clipping
+meter-motion measure
+
+\[
+d\Gamma_P^{meter}
+:=
+\Phi'(F_P)F_P
+\bigl[
+\alpha_P^{met}+\alpha_P^{conn}+\alpha_P^{heat}
+\bigr]_+
+d\mathfrak m_P .
+\tag{TFE2748B.289}
+\]
+
+The atom transport comparison `(TFE2748B.267)'--`(TFE2748B.270)' gives
+
+\[
+dJ_{P,atom}^{ret,-}
+\le
+d\Gamma_P^{meter}
+d\Theta_P^0+dPaid_P+dStop_P
+\tag{TFE2748B.290}
+\]
+
+on the same stopped parent atom ledger.  Therefore, if the meter-motion
+measure has the parent storage domination
+
+\[
+d\Gamma_P^{meter}
+\le
+-dM_P^{crit}
++\beta\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+M_P^{crit}\ge -C_N(u_0),
+\tag{TFE2748B.291}
+\]
+
+then `(TFE2748B.271)' follows with \(\theta=\beta\), and hence
+`(TFE2748B.272)' follows.  Conversely, any proof of `(TFE2748B.271)' that is
+not circular must provide `(TFE2748B.291)' or an equivalent past-built
+parent-clock domination, because `(TFE2748B.270)' supplies only the signed lobe
+pairing and not the bounded-below primitive.
+
+The existing stopped-frame and QR/Bessel surfaces supply only the fixed-gauge
+consumer side.  Parent-subtracted QR prevents repeated counting after a detector
+direction is admitted; the stopped exchange/reselection compensator identifies
+where moving selectors and connection changes must be charged.  They do not by
+themselves prove `(TFE2748B.288)' for arbitrary data.  The exact remaining
+original-data producer is therefore:
+
+\[
+\boxed{
+\text{construct \(W_P\) before clipping and prove `(TFE2748B.291)' for
+\(\alpha_P^{met}+\alpha_P^{conn}+\alpha_P^{heat}\).}
+}
+\tag{TFE2748B.292}
+\]
+
+This is the corrected answer to the retained-lobe question.  The same-parent
+atomic decomposition and its coefficient/leakage control are proved by
+`(TFE2748B.262)'--`(TFE2748B.270)' from arbitrary smooth data.  The retained
+opposite lobe becomes bounded-below parent reserve depletion exactly when the
+selected-meter log-motion measure `(TFE2748B.289)' is dominated by the
+past-built storage `(TFE2748B.291)'.  That storage estimate is the unresolved
+Gold source theorem, not a consequence of raw pressure zero-mean, finite energy,
+or fixed-frame Bessel orthogonality alone.
