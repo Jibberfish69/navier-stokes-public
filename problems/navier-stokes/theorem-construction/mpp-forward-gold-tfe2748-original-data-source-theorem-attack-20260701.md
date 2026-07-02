@@ -25,6 +25,7 @@ produces:
   - noncircular statement of TFE2748
   - zero-baseline endpoint admission into the full-exchange ledger
   - stopped Duhamel-Hodge and parent-detector support clauses
+  - pre-clipping same-parent signed atom construction with raw reserve depletion
   - exact remaining strict-storage clause
 ---
 
@@ -581,3 +582,175 @@ The still-open Gold source line is the strict storage inequality
 drop of a parent-built reserve plus a strict \(\vartheta d\Omega_P^{gen}\)
 margin.  That storage inequality is the remaining critical capacity
 variation/storage line.
+
+## 9. Pre-clipping signed atoms are constructed from the original packet
+
+This section records the raw signed-measure construction in the shorter
+TFE2748 source surface.  It is the same theorem installed in the strict-storage
+note at `(TFE2748B.933)'--`(TFE2748B.943)'.
+
+Fix a stopped preterminal parent packet \(P\) and a preterminal interval
+\([0,\tau]\).  Let \(dJ_P\) be the pre-clipping pressure-Hodge/material residue
+after route, collar, Hodge-commutator, metric, detector-motion, legal, stop, and
+endpoint leakage have been separated.  Smoothness of the original solution on
+the stopped interval gives finite Radon measures, and the parent Hodge
+constraint gives
+
+\[
+dJ_P=dJ_P^0+dR_P,
+\qquad
+dJ_P^0(X_P)=0,
+\qquad
+|dR_P|\le d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748A.31}
+\]
+
+The zero-mass clause is the before-clipping pressure constraint in parent
+coordinates: after paid exits are removed, the retained pressure-Hodge part
+redistributes the same parent packet and has no standalone positive mass.
+
+Take the Jordan split of the retained zero-mass part,
+
+\[
+dJ_P^0=dJ_{P,+}^0-dJ_{P,-}^0,
+\qquad
+dJ_{P,+}^0(X_P)=dJ_{P,-}^0(X_P)=:m_P^J .
+\tag{TFE2748A.32}
+\]
+
+Choose the same-parent coupling
+
+\[
+d\pi_P(x,y)
+:=
+\begin{cases}
+\displaystyle {dJ_{P,+}^0(x)dJ_{P,-}^0(y)\over m_P^J},
+&m_P^J>0,\\[2mm]
+0,&m_P^J=0.
+\end{cases}
+\tag{TFE2748A.33}
+\]
+
+Then every parent-measurable test \(\varphi\) satisfies
+
+\[
+\int_{X_P}\varphi\,dJ_P^0
+=
+\iint_{X_P\times X_P}
+\bigl(\varphi(x)-\varphi(y)\bigr)\,d\pi_P(x,y),
+\qquad
+\pi_P(X_P\times X_P)={1\over2}|dJ_P^0|(X_P).
+\tag{TFE2748A.34}
+\]
+
+Equivalently,
+
+\[
+dJ_P^0
+=
+\int_{X_P\times X_P}(\delta_x-\delta_y)\,d\pi_P(x,y).
+\tag{TFE2748A.35}
+\]
+
+This is the exact atomization.  Countable atom ledgers are simple-measure
+approximants to the transport measure \(d\pi_P\); the parent object is the
+transport integral itself.
+
+The coefficient mass and leakage are controlled by the original energy drain.
+In the local Hardy form this is
+
+\[
+\sum_\alpha |c_\alpha(t)|+|(dR_P)_+|(t)
+\le
+C_N\|\nabla u(t)\|_2^2
+dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t),
+\tag{TFE2748A.36}
+\]
+
+and the Leray energy inequality gives
+
+\[
+\int_0^\tau \pi_P(t)(X_P\times X_P)\,dt
++\int_0^\tau |(dR_P)_+|(t)
+\le
+B_P^{atom}(\tau),
+\tag{TFE2748A.37}
+\]
+
+where
+
+\[
+B_P^{atom}(\tau)
+:=
+C_N{\|u_0\|_2^2\over\nu}
++Paid_P([0,\tau])
++Legal_P([0,\tau])
++Stop_P([0,\tau]).
+\tag{TFE2748A.38}
+\]
+
+For any parent-announced selector \(0\le\omega_P\le1\) fixed before the child
+positive part is clipped, define the retained opposite lobe by the second
+projection of the same selected atom measure:
+
+\[
+dJ_{P,\omega}^{ret,-}
+:=
+(\mathrm{pr}_2)_\#\bigl(\omega_P(x)\,d\pi_P(x,y)\bigr).
+\tag{TFE2748A.39}
+\]
+
+The selected positive lobe and its opposite lobe have the same atom mass:
+
+\[
+\int_{X_P}\omega_P\,dJ_{P,+}^0
+=dJ_{P,\omega}^{ret,-}(X_P),
+\qquad
+\omega_P(dJ_P)_+
+\preceq_{atom}
+dJ_{P,\omega}^{ret,-}+\omega_P(dR_P)_+ .
+\tag{TFE2748A.40}
+\]
+
+Thus the retained opposite lobe is a bounded-below parent reserve depletion.
+For \(0\le\tau'\le\tau\), set
+
+\[
+M_{P,\omega}^{atom}(\tau')
+:=
+B_P^{atom}(\tau)
+-dJ_{P,\omega}^{ret,-}\bigl([0,\tau']\times X_P\bigr).
+\tag{TFE2748A.41}
+\]
+
+By `(TFE2748A.37)',
+
+\[
+M_{P,\omega}^{atom}(\tau')\ge0,
+\qquad
+-dM_{P,\omega}^{atom}
+=dJ_{P,\omega}^{ret,-}
+\quad\text{on retained same-parent atoms.}
+\tag{TFE2748A.42}
+\]
+
+So arbitrary original smooth data constructs the pre-clipping same-parent
+zero-mean atom decomposition, controls coefficient mass and leakage, and records
+the retained opposite lobe as a bounded-below parent reserve drop.
+
+The selected-critical storage theorem begins only after the critical meter is
+allowed to vary across a same-parent atom:
+
+\[
+W_P^{crit}(x)d\pi_P(x,y)
+\le
+W_P^{crit}(y)d\pi_P(x,y)
++
+W_P^{crit}(y)\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)d\pi_P(x,y).
+\tag{TFE2748A.43}
+\]
+
+The first term is the weighted retained-lobe reserve.  The second term is the
+positive log-meter variation.  Therefore this section closes the raw
+pre-clipping atom attachment and leaves `(TFE2748A.5)' / `(TFE2748A.21)' as the
+strict selected-critical storage line.
