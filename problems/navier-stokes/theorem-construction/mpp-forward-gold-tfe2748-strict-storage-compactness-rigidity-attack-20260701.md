@@ -14073,3 +14073,181 @@ domination in `(TFE2748B.908)'.  Proving `(TFE2748B.908)' from arbitrary origina
 smooth coupled data gives the local source package `(TFE2748B.906)', hence
 `(TFE2748B.895)', `(TFE2748B.880)', and the critical capacity
 variation/storage line.
+
+## 103. Critical capacity is log-amplification entropy plus first entry
+
+The capacity in `(TFE2748B.908)' is not an abstract new reserve.  On the
+positive-baseline face it is the selected log-amplification entropy of the same
+parent fibre.  On the zero-baseline face it is singular first-entry material
+that must be admitted into the root capacity before clipping.
+
+Let \(dR_P^{root}\) be the root-known parent reserve measure on the stopped
+scale-native endpoint/cocycle space.  For a retained child \(Q\preceq P\), pull
+the selected child density and its immediate parent baseline back to that same
+measure:
+
+\[
+dA_Q^{sel,+}=f_Q\,dR_P^{root},
+\qquad
+dA_{\pi Q}^{sel,+}=f_{\pi Q}\,dR_P^{root}.
+\tag{TFE2748B.909}
+\]
+
+On the positive-baseline fibre
+
+\[
+E_Q^{ac}:=\{f_{\pi Q}>0\},
+\qquad
+r_Q:={f_Q\over f_{\pi Q}},
+\tag{TFE2748B.910}
+\]
+
+the before-clipping log ratio is represented by the original coupled selected
+carrier:
+
+\[
+\log r_Q
+=
+\ell_Q(\Delta_QZ_P^S)-\psi_Q+e_Q,
+\tag{TFE2748B.911}
+\]
+
+where \(Z_P^S\) is the same parent pressure-Hodge/strain/frame/exchange carrier,
+\(\psi_Q\) is the connection/normalizing correction, and \(e_Q\) is legal,
+stop, or paid.  Define the absolutely continuous critical capacity atom by
+
+\[
+\rho_{crit,P}^{ac}(E_Q)
+:=
+\int_{E_Q^{ac}}
+f_Q\,\log(r_Q)_+\,dR_P^{root}.
+\tag{TFE2748B.912}
+\]
+
+The selected-size lower edge is deterministic on the high-ratio face.  Since
+\(r\le(2/\log2)r\log r\) for \(r\ge2\),
+
+\[
+\int_{E_Q^{ac}\cap\{r_Q\ge2\}}f_Q\,dR_P^{root}
+\le
+C\,\rho_{crit,P}^{ac}(E_Q).
+\tag{TFE2748B.913}
+\]
+
+The low-ratio face \(r_Q<2\) is not a scale-native high-ratio birth.  It is
+inherited/repeated-core material or reset/reselection material and is routed by
+Sections 56--58 and 101.  Therefore the positive-baseline part of
+`(TFE2748B.908)' is supplied once the root packing estimate
+
+\[
+\sum_{Q\subset P'}\rho_{crit,P}^{ac}(E_Q)
+\le
+C_N(u_0)\mathcal R(P')
++Paid(P')+Stop(P')
+\tag{TFE2748B.914}
+\]
+
+is proved.
+
+That packing is a deterministic consequence of the stopped root Carleson bound
+for the log carrier.  If the retained bounded-overlap family satisfies
+
+\[
+\sum_{Q\subset P'}
+\left|\ell_Q(\Delta_QZ_P^S)-\psi_Q\right|^2
+dR_P^{root}(E_Q)
+\le
+C_N(u_0)\mathcal R(P')
++Paid(P')+Stop(P'),
+\tag{TFE2748B.915}
+\]
+
+then the stopped John--Nirenberg/good-\(\lambda\) argument gives
+`(TFE2748B.914)'.  Hence
+
+\[
+\boxed{
+\texttt{log-ratio representation `(TFE2748B.911)'}
++
+\texttt{root Carleson packing `(TFE2748B.915)'}
+\Longrightarrow
+\texttt{positive-baseline critical capacity in `(TFE2748B.908)'.}
+}
+\tag{TFE2748B.916}
+\]
+
+The zero-baseline face cannot be put into `(TFE2748B.912)'.  On
+
+\[
+E_Q^0:=\{f_{\pi Q}=0,\ f_Q>0\},
+\tag{TFE2748B.917}
+\]
+
+the child is singular relative to the immediate selected parent baseline.  Its
+detector is a first-entry scale-native endpoint detector.  With
+\(\lambda_Q\) the physical zoom/heat-scale ratio, its parent norm has the
+scale-native size
+
+\[
+\|K_Q^{parent}\|_{\mathfrak H_P(E_Q^0)}^2
+\simeq
+\lambda_Q^{-1}\,dR_P^{root}(E_Q^0).
+\tag{TFE2748B.918}
+\]
+
+Define the entry capacity atom by
+
+\[
+\rho_{crit,P}^{entry}(E_Q)
+:=
+\|K_Q^{parent}\|_{\mathfrak H_P(E_Q^0)}^2 .
+\tag{TFE2748B.919}
+\]
+
+First-entry admission and root packing are the singular part of
+`(TFE2748B.908)':
+
+\[
+dA_{P,crit}^{entry,+}(Q)
+\le
+C_N\,\rho_{crit,P}^{entry}(E_Q)
++dE_P^0(Q),
+\qquad
+\sum_{Q\subset P'}\rho_{crit,P}^{entry}(E_Q)
+\le
+-dB_P^{entry}(P')
++\theta_e d\Omega_P^{gen}(P')
++dE_P^0(P'),
+\tag{TFE2748B.920}
+\]
+
+with \(C_N\theta_e<1\) and \(B_P^{entry}\) bounded below from the original data.
+The corrected critical capacity is therefore
+
+\[
+dCap_P^{crit,root}
+:=
+d\rho_{crit,P}^{ac}
++d\rho_{crit,P}^{entry}.
+\tag{TFE2748B.921}
+\]
+
+Combining `(TFE2748B.913)'--`(TFE2748B.921)' gives the exact reduction
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{positive-baseline log-ratio carrier and root Carleson `(TFE2748B.911)'--`(TFE2748B.915)'}\\
++\texttt{zero-baseline first-entry admission and packing `(TFE2748B.920)'}
+\end{array}
+\Longrightarrow
+\texttt{critical parent-capacity lower/upper edge `(TFE2748B.908)'.}
+}
+\tag{TFE2748B.922}
+\]
+
+Thus the remaining arbitrary-data source has been narrowed again.  It is no
+longer a general \(L^1\) estimate and no longer an abstract capacity theorem:
+construct the before-clipping log-ratio carrier \(Z_P^S\) and its root Carleson
+packing, and prove the singular first-entry endpoint atoms pack into the same
+root critical capacity, all from the original coupled packet.
