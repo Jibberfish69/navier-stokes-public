@@ -21320,14 +21320,15 @@ fully back-substituted consumer chain
 \]
 
 Thus the remaining arbitrary-data producer is no longer a generic
-reverse-Holder, entropy, atom, endpoint, or dyadic counting problem.  It is the
-same-parent construction of two before-clipping storages:
+reverse-Holder, entropy, atom, endpoint, or dyadic counting problem.  It is one
+coupled same-parent active-transit/full-exchange storage object, written in two
+before-clipping coordinate faces:
 
 \[
 \boxed{
 \begin{array}{c}
-\texttt{construct \(\mathscr S_P^{AT}\) and prove `(TFE2748B.1205)',}\\
-\texttt{construct \(M_P^{FE}\) and prove `(TFE2748B.1206)'--`(TFE2748B.1207)',}\\
+\texttt{construct the active-transit face \(\mathscr S_P^{AT}\) in `(TFE2748B.1205)',}\\
+\texttt{construct the full-exchange face \(M_P^{FE}\) in `(TFE2748B.1206)'--`(TFE2748B.1207)',}\\
 \texttt{with both storages bounded below from \(u_0\), all route/collar/Hodge/}\\
 \texttt{frame/reselection/legal/stop terms in \(dE_P^0\), and \(C_N\vartheta<1\).}
 \end{array}}
@@ -21335,13 +21336,14 @@ same-parent construction of two before-clipping storages:
 \]
 
 In form-compensator language, `(TFE2748B.1393)' is the concrete original-ledger
-source which proves `(TFE2748B.1343)'.  Pressure/self-advection enter only
+coordinate target for `(TFE2748B.1343)'.  Pressure/self-advection enter only
 through the parent Liouville re-coordination and selected-meter motion from
 Section 38; viscosity/Stokes enters through the generator/Fisher clock; and the
 strict margin is exactly the no-self-feeding inequality in `(TFE2748B.1206)'.
-The Gold route is therefore closed downstream of `(TFE2748B.1393)', and open
-only at proving those two same-parent inequalities from arbitrary original
-smooth data before child clipping.
+The downstream Gold route is conditional below this target.  The open work is a
+noncircular proof of the coupled parent storage represented by these two faces
+from arbitrary original smooth data before child clipping, or an independent
+proof of one face strong enough to break the feedback loop.
 
 ## 154. The signed-measure attachment is an original-data raw theorem
 
@@ -23518,19 +23520,20 @@ Consequently the lower edge beneath Section 165 is
 \tag{TFE2748B.1548}
 \]
 
-This is not a proof of Gold closure.  It is the sharpened source target without
-the consumer clauses reopened as new walls.  The Duhamel identity, pullback, and
-detector lines `(TFE2748B.1536)'--`(TFE2748B.1539)' are the current-numbered
-form of the Section 156--158 Duhamel-Hodge consumer package.  The early
-admission `(TFE2748B.1541)' is the current-numbered form of the exact critical
-source split `(TFE2748B.1503)'--`(TFE2748B.1508)'.  The retained heat-thickness
-gap `(TFE2748B.1544)'--`(TFE2748B.1546)' is deterministic once the stopped
-retained quotient is granted.  Therefore the surviving nonduplicate
-arbitrary-original-data producer is the preallocated critical source storage
-`(TFE2748B.1541a)' from the original coupled packet before clipping, with
-\(M_P^{crit}\) bounded below.  Once `(TFE2748B.1541a)' is installed
-noncircularly, Section 166 gives `(TFE2748B.1547)' and Section 165 gives
-`CriticalCapacityVariationStorage.A'.
+This is not a proof of Gold closure.  It is a coordinate reduction for the
+retained-loop/full-exchange face without reopening the consumer clauses as new
+walls.  The Duhamel identity, pullback, and detector lines
+`(TFE2748B.1536)'--`(TFE2748B.1539)' are the current-numbered form of the
+Section 156--158 Duhamel-Hodge consumer package.  The early admission
+`(TFE2748B.1541)' is the current-numbered form of the exact critical source
+split `(TFE2748B.1503)'--`(TFE2748B.1508)'.  The retained heat-thickness gap
+`(TFE2748B.1544)'--`(TFE2748B.1546)' is deterministic once the stopped retained
+quotient is granted.  The preallocated critical source storage
+`(TFE2748B.1541a)' is therefore not an independent lower producer here unless it
+is separately proved from the original packet before clipping; in the current
+state it is one face of the same coupled parent storage.  Once that coupled
+storage is installed noncircularly, Section 166 gives `(TFE2748B.1547)' and
+Section 165 gives `CriticalCapacityVariationStorage.A'.
 
 ## 167. The preallocated critical source is the finite-excess/full-exchange zero-profit face
 
@@ -23611,8 +23614,8 @@ the critical weight is inserted.  Sections 147--150 identify the weighted
 selected-critical residue with the parent active-potential capacity line and
 its finite capacitary excess.  Sections 151--153 then back-substitute that
 finite-excess line into the same endpoint-admitted active-transit/full-exchange
-packet.  Therefore the current nonduplicate sufficient source below
-`(TFE2748B.1541a)' is
+packet.  Therefore the current back-substituted coordinate description of the
+same source face is
 
 \[
 \boxed{
@@ -23632,12 +23635,13 @@ packet.  Therefore the current nonduplicate sufficient source below
 Conversely, after the raw pressure-Hodge atom theorem, endpoint admission,
 bounded detector projection, reversible entropy-flux pairing, route, return,
 legal, stop, regular compactness consumers, and paid leakage are removed, the
-current nonduplicate proof search below `(TFE2748B.1541a)' has only the
-back-substituted active-capacity/full-exchange faces isolated in Section 153:
+current proof search for this same unproved parent object has only the
+back-substituted active-capacity/full-exchange coordinate faces isolated in
+Section 153:
 
 \[
 \boxed{
-\texttt{unproved source below `(TFE2748B.1541a)'}
+\texttt{unproved same parent storage represented by `(TFE2748B.1541a)'}
 =
 \texttt{ActiveTransitLocalStorage.A}
 +
@@ -23661,11 +23665,11 @@ So the current source has one parent object in three coordinates:
 where the equivalence is understood inside the stopped endpoint-admitted
 parent ledger after the installed consumer clauses have been removed.  This is
 not Gold closure.  The arbitrary-original-data proof still required is to
-construct the active-transit storage and full-exchange no-self-feeding storage
-of `(TFE2748B.1393)' from the original coupled packet before child clipping.
-Regular zero-cost/component rigidity, raw atom attachment, endpoint admission,
-and compactified source-square packaging are consumers once that parent storage
-is built.  Once `(TFE2748B.1555)' is proved, `(TFE2748B.1541a)' follows, Section
-166 gives `(TFE2748B.1547)', Section 165 gives
-`CriticalCapacityVariationStorage.A', and the downstream Gold relays become
-pure consumers.
+prove the coupled active-transit/full-exchange parent storage represented by
+`(TFE2748B.1393)' and `(TFE2748B.1555)' from the original coupled packet before
+child clipping.  Regular zero-cost/component rigidity, raw atom attachment,
+endpoint admission, and compactified source-square packaging are consumers once
+that parent storage is built.  Once this coupled parent storage is proved
+noncircularly, `(TFE2748B.1541a)' follows, Section 166 gives
+`(TFE2748B.1547)', Section 165 gives `CriticalCapacityVariationStorage.A', and
+the downstream Gold relays become pure consumers.
