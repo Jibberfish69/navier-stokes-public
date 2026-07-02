@@ -101,8 +101,9 @@ The theorem warrant is therefore: under the installed original-data
 class-membership packet, no finite first class-membership endpoint remains.
 Every first retained-route failure is typed into `Dead`,
 `packing-detached`, `tower-blown`, or `Jump`, and `End_NS` removes those faces.
-This is a route-accurate closure statement; paper export and Clay-level release
-still require the review and release ledgers to agree with this theorem surface.
+This is now only a historical route-closure claim.  The current checked package
+is blocked upstream at the Gold \(L^1\) coupled-storage wall, so paper export
+and Clay-level release cannot use this paragraph as closure evidence.
 
 ## Working Theorem Objects
 
@@ -120,7 +121,13 @@ The downstream compactness bridge is reconciled on one fixed classical approxima
 
 ### Post-Monotone Cascade Carrier
 
-The exact carrier `Xi_N / Phi_N` that remains after the monotone bridge is already localized and discharged through `cascade-after-monotone-bridge-source-pack.md`, `theorem-construction/scale-barrier-transport-defect-lemma.md`, and `theorem-construction/scale-cubic-tail-absorption-lemma.md`. It is therefore no longer a separate frontier; it is the explicit handoff from the monotone layer into the discharged scale-side package.
+The exact carrier `Xi_N / Phi_N` that remains after the monotone bridge is a
+localized support handoff through `cascade-after-monotone-bridge-source-pack.md`,
+`theorem-construction/scale-barrier-transport-defect-lemma.md`, and
+`theorem-construction/scale-cubic-tail-absorption-lemma.md`. It does not remove
+the current Gold \(L^1\) frontier, which remains the noncircular same-parent
+coupled active-capacity/full-exchange storage theorem for the original parent
+packet before child clipping.
 
 ### Euclidean Fourth Bridge
 
