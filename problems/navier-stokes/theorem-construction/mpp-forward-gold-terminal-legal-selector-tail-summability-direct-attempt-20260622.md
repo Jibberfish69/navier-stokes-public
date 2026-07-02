@@ -3,8 +3,8 @@ theorem_id: forward-gold-terminal-legal-selector-tail-summability-direct-attempt
 status: direct-attempt-reduces-to-endpoint-ui-density-policy-material-selector-and-no-free-zeno-tail
 logical_landing_node: terminal_legal_selector_tail_summability
 edge_effect: >-
-  Attacks the terminal legal/selector tail producer left after the Body-III
-  reduction. The result is exact: finite legal, selector, signed, terminal, or
+  Tests the terminal legal/selector tail summability readout left after the
+  Body-III reduction. The result is exact: finite legal, selector, signed, terminal, or
   geometry mass is not a gold endpoint modulus. A channel may remain inside the
   gold endpoint packet only when it is represented as a same-packet density with
   endpoint uniform integrability, satisfies a Hardy/Orlicz/BV-type terminal
@@ -13,8 +13,9 @@ edge_effect: >-
   selector tie/drift charge, and finite endpoint jet temporal modulus. Signed
   donor and terminal storage residues are controlled only by the finite donor
   closure plus endpoint no-jump/NoFreeZeno-type input. Thus
-  TerminalLegalSelectorTailSummability.A does not close from finite mass; it
-  reduces to EndpointUniformIntegrabilityReserve.A on the same full packet,
+  TerminalLegalSelectorTailSummability.A does not close from finite mass; it is
+  endpoint UI/material-selector/no-free-Zeno consumer support after the
+  same-parent coupled storage wall is supplied, reducing to EndpointUniformIntegrabilityReserve.A on the same full packet,
   MaterialSelectorKinematicRealization.A plus its gates, and the no-free
   terminal Zeno donor/material stress-chain theorem.
 parents:

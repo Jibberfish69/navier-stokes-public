@@ -238,7 +238,10 @@ This is not the same as the local silent-source lower edge `(LGR.2)`.
 
 The local invisible-child / silent-source identity is closed.
 
-The global Gold closure remains open at the root summability theorem:
+This root summability theorem is a historical projection/support form.  The
+current global Gold wall is the same-parent coupled active-capacity/full-exchange
+storage theorem; this summability display matters only if it implies that
+parent-storage object:
 
 ```math
 \boxed{
@@ -253,4 +256,3 @@ The source-square branch is a possible route to the same selected-density
 control, but then it must still prove the trilinear product carrier
 identification and the selected overrun product payment. Existing Holder, CKN,
 endpoint, and factor-tail notes are consumer criteria only.
-

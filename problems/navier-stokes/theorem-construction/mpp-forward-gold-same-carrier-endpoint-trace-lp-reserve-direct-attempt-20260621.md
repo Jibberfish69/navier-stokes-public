@@ -20,7 +20,12 @@ Date: 2026-06-21
 
 ## 0. Target
 
-The sharpened minimal gold producer is:
+This endpoint \(L^p\) trace reserve is a consumer/readout target after the
+parent-clock storage has been supplied.  The current producer wall is the
+noncircular same-parent coupled active-capacity/full-exchange storage theorem
+for the original parent packet before child clipping.
+
+The sharpened endpoint trace readout target is:
 
 ```math
 \boxed{

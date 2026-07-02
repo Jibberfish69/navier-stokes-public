@@ -144,8 +144,9 @@ This is a real same-history structural law.  It says repeated selected visits
 on one ancestry line spend Cauchy-Green deformation, complete-frame projective
 variation, or collar-normal variation.
 
-But summing `(10)` over the forest closes Gold only if the global weighted
-ancestry reserve is finite:
+Summing `(10)` over the forest is only a consumer/readout step after a weighted
+reserve has been supplied by the parent packet.  The required global weighted
+ancestry reserve is:
 
 ```math
 \int_{\mathcal F_{\rm lam}}

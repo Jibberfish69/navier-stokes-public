@@ -1,13 +1,13 @@
 ---
 theorem_id: forward-gold-coupled-stress-jet-producer-admission-20260628
-status: proof-installed-producer-admission-identity-feeds-full-gold-closure-attempt
+status: proof-installed-coordinate-admission-support-for-open-coupled-storage-wall
 logical_landing_node: coupled_stress_jet_producer_admission
 completion_truth: >-
-  Closes the producer/admission identity behind the pre-energy tower: selected
-  child action is a Gram readout of the rescaled same-parent stress-response jet
-  before it may be squared as Gold action. The full Gold closure chain is now
-  written in the companion closure attempt; that chain remains blocked exactly at
-  the terminal-uniform L1 full-packet jet-service estimate.
+  Installs a coordinate/admission identity behind the pre-energy tower: selected
+  child action is a Gram readout of the rescaled same-parent stress-response jet,
+  not a producer closure input by itself. The open Gold wall is the noncircular
+  same-parent coupled active-capacity/full-exchange storage theorem for the
+  original parent packet before child clipping.
 edge_effect: >-
   Replaces the decoupled Leray-projection/pressure-vs-viscosity picture by a
   single pressure-viscosity-incompressibility stress-response jet. The theorem
@@ -20,8 +20,8 @@ edge_effect: >-
   legal ledger, or completed stop partition inside the same participation law.
   The fresh square packing is not the weighted positive L1 service theorem; the
   heat-lag/native linear service charge remains part of the terminal-uniform L1
-  storage estimate. This file supplies the producer/admission input for the full
-  closure packet; terminal-uniform L1 storage for the same whole-field
+  storage estimate. This file supplies coordinate/admission support for the open
+  coupled parent-storage packet; terminal-uniform L1 storage for the same whole-field
   viscous/jet-service density is the remaining MPP-bearing estimate.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-leray-projection-one-participation-law-audit-20260628.md

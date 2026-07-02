@@ -15,9 +15,10 @@ source_surfaces:
 completion_truth: >-
   This proves the retained nonendpoint no-survivor reduction after first-entry,
   return, motion, viscosity, legal, and stop are removed. It does not claim strict
-  Gold closure: the terminal full-packet no-atom/no-jump storage remains the
-  forward Gold producer, while endpoint failure is consumed only in the
-  same-witness CM pass-or-exit branch.
+  Gold closure: terminal full-packet no-atom/no-jump storage is an endpoint/CM
+  consumer face unless it proves the noncircular same-parent coupled
+  active-capacity/full-exchange storage theorem for the original parent packet.
+  Endpoint failure is consumed only in the same-witness CM pass-or-exit branch.
 ---
 
 # No retained nonendpoint invisible square bill
