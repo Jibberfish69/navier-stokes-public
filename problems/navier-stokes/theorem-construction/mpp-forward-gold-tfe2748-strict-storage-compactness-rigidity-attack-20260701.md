@@ -18079,3 +18079,130 @@ is supplied by finite capacitary excess plus before-clipping active-density
 comparison.  The arbitrary-data PDE theorem still to prove is exactly that
 finite-excess / terminal no-waste producer for the original coupled packet, not
 another lobe attachment, dyadic count, or endpoint ownership statement.
+
+## 132. The finite-excess source is consumed by the local endpoint-admitted package
+
+Section 131 is the correct continuous parent-variation calculation, but its
+displayed source pair should not be read as two unrelated physical suppliers.
+The before-clipping active-density comparison is the trace/readout face, and
+finite capacitary excess is the spend/reserve face, of the same endpoint-
+admitted parent-capacity package already isolated in Sections 102--107.
+
+Let \(\mathsf G_P^{EA}\) denote the following local original-ledger package on
+every stopped retained parent subpacket \(P'\subseteq P\):
+
+\[
+\begin{array}{ll}
+\text{(i)}&
+\text{local full-exchange no-self-feeding storage `(TFE2748B.897)',}\\[1mm]
+\text{(ii)}&
+\text{before-clipping selected log-carrier representation and stopped}\\
+&\text{exponential-BMO/Kazamaki margin `(TFE2748B.899)'--`(TFE2748B.900)',}\\[1mm]
+\text{(iii)}&
+\text{active thickness and terminal no-residue in the same parent measure}\\
+&\text{`(TFE2748B.903)'--`(TFE2748B.904)'.}
+\end{array}
+\tag{TFE2748B.1180}
+\]
+
+This package is stated only in original parent currency: the selected density,
+the log carrier, the full-exchange ledger, terminal thickness, and the
+exceptional ledgers are all fixed before any child positive part is clipped.
+
+First, `(TFE2748B.899)'--`(TFE2748B.900)' give reverse Holder
+`(TFE2748B.901)', hence entropy `(TFE2748B.902)'.  Combining that entropy with
+the parent thickness/no-residue `(TFE2748B.903)'--`(TFE2748B.904)' and the
+bounded-overlap stopped fibre cover gives the active-density comparison
+
+\[
+dQ_P^{meter}+[d\mathcal C_P^{crit}]_+
+\le
+C_N\,d\Xi_P^{FE}
+dE_P^0,
+\tag{TFE2748B.1181}
+\]
+
+which is `(TFE2748B.892)' in the local source notation and `(TFE2748B.1173)'
+after the path-occupation/log-meter projection of Section 131.
+
+Second, local full-exchange storage `(TFE2748B.897)' is the strict version of
+`FullExchangeCriticalDepletionStorage.A' on \(P'\).  With `(TFE2748B.1181)',
+Sections 123--126 give the signed lifted transfer no-waste chain
+
+\[
+\mathsf G_P^{EA}
+\Longrightarrow
+\texttt{SignedLiftedTailTransferNoWaste.A}
+\Longrightarrow
+\texttt{TailPulseExclusion.A}
+\Longrightarrow
+\texttt{FiniteCapacitaryExcess.A `(TFE2748B.1087)'} .
+\tag{TFE2748B.1182}
+\]
+
+Thus the finite-excess theorem is not an additional source once the local
+endpoint-admitted package is available.  It is the capacitary spend coordinate
+of the same strict full-exchange parent storage whose trace/readout coordinate
+is `(TFE2748B.1181)'.
+
+Combining `(TFE2748B.1181)' with `(TFE2748B.1087)' and the residual capacity
+form `(TFE2748B.981)'--`(TFE2748B.984)' gives Section 131's parent log-meter
+storage estimate:
+
+\[
+\mathsf G_P^{EA}
+\Longrightarrow
+\texttt{ParentLogMeterVariationStorage.A `(TFE2748B.1166)'} .
+\tag{TFE2748B.1183}
+\]
+
+Then Section 130 gives
+
+\[
+\mathsf G_P^{EA}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.
+\tag{TFE2748B.1184}
+\]
+
+The terminal clause in \(\mathsf G_P^{EA}\) is essential.  Without
+`(TFE2748B.904)', the same calculation still allows the pure terminal
+infinite-shell atom of Sections 115--119: the active-density comparison can
+hold preterminally while the finite-excess measure collapses onto
+\(\{t=T_*,\rho=0\}\).  With `(TFE2748B.904)', the active parent measure has
+real terminal thickness/no-residue, so the compactified trace in Section 121
+has no singular terminal remainder outside \(dE_P^0\).
+
+The current proof state is therefore sharper:
+
+\[
+\boxed{
+\mathsf G_P^{EA}\ \text{proved from arbitrary original smooth data}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.
+}
+\tag{TFE2748B.1185}
+\]
+
+Conversely, after the raw atom theorem, reversible entropy-flux pairing,
+bounded log-detector projection, endpoint first-entry admission, route, legal,
+stop, and paid leakage are removed, a failure of the critical storage line must
+break this local endpoint-admitted package:
+
+\[
+\boxed{
+\neg\texttt{CriticalCapacityVariationStorage.A}
+\Longrightarrow
+\neg\mathsf G_P^{EA}.
+}
+\tag{TFE2748B.1186}
+\]
+
+This is not a proof of Gold closure.  It is the nonduplicate original-data
+target: prove the local full-exchange no-self-feeding storage, the
+before-clipping selected log-carrier exponential-BMO margin, and active
+thickness/terminal no-residue in the same parent measure from the coupled
+pressure-Hodge/viscous-Stokes/self-advection/incompressibility packet.  Once
+that package is proved, the before-clipping active-density comparison, finite
+capacitary excess, terminal no-waste, parent log-meter variation storage, and
+critical capacity variation/storage line are all downstream consumers.
