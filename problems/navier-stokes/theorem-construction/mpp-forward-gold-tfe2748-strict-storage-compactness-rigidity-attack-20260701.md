@@ -21139,3 +21139,119 @@ margin.  In the older local-source language this is exactly the stopped
 selected log-carrier exponential-BMO/Kazamaki margin plus active thickness
 `(TFE2748B.899)'--`(TFE2748B.904)', or equivalently the strict
 critical-endpoint depletion storage `(TFE2748B.1302)'.
+
+## 152. The local endpoint-admitted package supplies the reverse-Holder clock
+
+Section 151 should be read as a clock/density extraction from the same local
+endpoint-admitted package \(\mathsf G_P^{EA}\) in Section 132, not as a new
+source theorem.  The extraction is as follows.
+
+Let \(\mathcal E(P')\) be the stopped bounded-overlap active fibre cover of a
+retained parent subpacket \(P'\).  On each fibre \(E\in\mathcal E(P')\), use the
+before-clipping selected ratio \(R_E\) from `(TFE2748B.899)' and push
+\(d\Lambda_E\) to the parent chart.  Define the parent capacity clock by
+
+\[
+d\Omega_P^{cap,*}
+:=
+\sum_{E\in\mathcal E(P')}(\iota_E)_\#d\Lambda_E,
+\tag{TFE2748B.1382}
+\]
+
+with finite-overlap multiplicity absorbed into \(C_N\).  The density is the
+corresponding fibrewise selected ratio
+
+\[
+f_P^{cap}\circ\iota_E
+:=
+C_N R_E
+\qquad\text{on }E,
+\tag{TFE2748B.1383}
+\]
+
+with the convention that overlaps are assigned by the stopped partition of
+unity used in the active-density comparison.
+
+The path-occupation/active-potential projection from Section 131, restricted
+to the excess part after the capacity-dominated residual is removed, gives the
+before-clipping admission
+
+\[
+U_P^2\,d\mathfrak v_P^{exc}
+\le
+f_P^{cap}\,d\Omega_P^{cap,*}
++dE_P^{0,*}.
+\tag{TFE2748B.1384}
+\]
+
+Here \(dE_P^{0,*}\) is the same route, collar, endpoint, legal, stop, return,
+and paid detector-motion ledger as in Sections 102 and 151.  No child positive
+part is used in `(TFE2748B.1384)': the selected ratio is already part of the
+parent-announced fibre detector before clipping.
+
+Next, `(TFE2748B.899)'--`(TFE2748B.900)' give the fibre reverse-Holder bound
+`(TFE2748B.901)'.  Summing over \(\mathcal E(P')\) and using finite overlap,
+
+\[
+\begin{aligned}
+\int_{P'}(f_P^{cap})^{1+\varepsilon_N}\,d\Omega_P^{cap,*}
+&\le
+C_N\sum_{E\in\mathcal E(P')}
+\int_E R_E^{1+\varepsilon_N}\,d\Lambda_E\\
+&\le
+C_N\sum_{E\in\mathcal E(P')}
+\left(\Lambda_E(E)+\int_EdE_P^0\right)\\
+&\le
+C_N\int_{P'}d\Omega_P^{gen}
++C_N\int_{P'}dE_P^0 .
+\end{aligned}
+\tag{TFE2748B.1385}
+\]
+
+Using the stopped generator Carleson bound `(TFE2748B.898)' gives the
+terminal-uniform estimate
+
+\[
+\sup_{\tau<T_*}
+\int_{[0,\tau]\times X_P}
+(f_P^{cap})^{1+\varepsilon_N}\,d\Omega_P^{cap,*}
+\le
+C_{\varepsilon,N}(u_0)+Paid_P+Legal_P+Stop_P .
+\tag{TFE2748B.1386}
+\]
+
+Finally, `(TFE2748B.903)'--`(TFE2748B.904)' give the time-thickness of the same
+clock.  For the terminal collars \(C_\delta=(T_*-\delta,T_*]\times X_P\),
+
+\[
+\lim_{\delta\downarrow0}
+\sup_{\tau<T_*}d\Omega_P^{cap,*}(C_\delta)=0,
+\qquad
+\lim_{\delta\downarrow0}
+\sup_{\tau<T_*}dE_P^{0,*}(C_\delta)=0 .
+\tag{TFE2748B.1387}
+\]
+
+Equations `(TFE2748B.1384)'--`(TFE2748B.1387)' are exactly
+`ParentReverseHolderThickness.A' `(TFE2748B.1374)'--`(TFE2748B.1376)'.
+Therefore
+
+\[
+\boxed{
+\mathsf G_P^{EA}
+\Longrightarrow
+\texttt{ParentReverseHolderThickness.A}
+\Longrightarrow
+\texttt{FiniteCapacitaryExcess.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1388}
+\]
+
+This closes the consumer side between the local endpoint-admitted package and
+the terminal-uniform \(L^1\) storage line.  The remaining arbitrary-data proof
+is exactly the producer side: construct \(\mathsf G_P^{EA}\) from the original
+coupled pressure-Hodge, viscous/Stokes, incompressibility-frame, self-advection,
+collar, covector, and stopped-selector packet before child clipping.  In the
+form-compensator language of Section 148, this is the same as proving
+`(TFE2748B.1343)' from the original packet.
