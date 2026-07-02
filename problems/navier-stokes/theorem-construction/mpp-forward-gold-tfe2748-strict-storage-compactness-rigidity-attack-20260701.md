@@ -15041,15 +15041,25 @@ submeasures \(\sigma\le\mathfrak v_P^{crit}\) satisfying
 \]
 
 The class is nonempty, tight, and weak-* closed by outer regularity of the
-stopped capacity and the paid measure \(E_P^0\).  Hence there is a
-maximal-mass admissible residual submeasure, chosen by maximizing
-\(\sigma(P')\) over \(\mathfrak S_{P,\vartheta}\):
+stopped capacity and the paid measure \(E_P^0\).  Since \(U_P\) is smooth and
+bounded on every stopped preterminal chart, there is an admissible residual
+submeasure that maximizes the same weighted mass which the reserve must save:
+
+\[
+\int U_P^2\,d\sigma
+=
+\sup_{\widetilde\sigma\in\mathfrak S_{P,\vartheta}}
+\int U_P^2\,d\widetilde\sigma .
+\tag{TFE2748B.979}
+\]
+
+Choose such a weighted-maximal residual and define the excess by
 
 \[
 d\mathfrak v_P^{res}\in\mathfrak S_{P,\vartheta},
 \qquad
 d\mathfrak v_P^{exc}:=d\mathfrak v_P^{crit}-d\mathfrak v_P^{res}\ge0 .
-\tag{TFE2748B.979}
+\tag{TFE2748B.980}
 \]
 
 By construction the residual part obeys the required capacity domination,
@@ -15059,7 +15069,7 @@ By construction the residual part obeys the required capacity domination,
 \le
 \vartheta\,\operatorname{Cap}_{A,P}(K)+E_P^0(K),
 \qquad C_N\vartheta<1 .
-\tag{TFE2748B.980}
+\tag{TFE2748B.981}
 \]
 
 For \(0\le s\le\tau\), define the capacity reserve on the same stopped parent
@@ -15075,7 +15085,7 @@ B_{P,\tau}^{cap}
 B_{P,\tau}^{cap}
 :=
 \int_{[0,\tau]\times X_P} U_P^2\,d\mathfrak v_P^{exc}.
-\tag{TFE2748B.981}
+\tag{TFE2748B.982}
 \]
 
 Whenever \(B_{P,\tau}^{cap}<\infty\), this is a bounded-below parent reserve and
@@ -15084,10 +15094,10 @@ Whenever \(B_{P,\tau}^{cap}<\infty\), this is a bounded-below parent reserve and
 -dM_{P,\tau}^{cap}
 =
 U_P^2\,d\mathfrak v_P^{exc}.
-\tag{TFE2748B.982}
+\tag{TFE2748B.983}
 \]
 
-Combining `(TFE2748B.979)'--`(TFE2748B.982)' gives the storage-form split
+Combining `(TFE2748B.980)'--`(TFE2748B.983)' gives the storage-form split
 exactly:
 
 \[
@@ -15099,7 +15109,7 @@ U_P^2\,d\mathfrak v_P^{crit}
 -dM_{P,\tau}^{cap}
 +U_P^2\,d\mathfrak v_P^{res}
 +dE_P^0 .
-\tag{TFE2748B.983}
+\tag{TFE2748B.984}
 \]
 
 Thus `(TFE2748B.962)' and `(TFE2748B.966)' are no longer separate bookkeeping
@@ -15112,7 +15122,7 @@ is the finite-excess estimate
 \int_{[0,\tau]\times X_P}U_P^2\,d\mathfrak v_P^{exc}
 \le
 C_N(u_0)+Paid_P+Legal_P+Stop_P .
-\tag{TFE2748B.984}
+\tag{TFE2748B.985}
 \]
 
 Equivalently, after the exact same-parent atom reserve from Section 105 and the
@@ -15121,4 +15131,104 @@ open precisely at proving that the super-capacitary excess
 \(d\mathfrak v_P^{exc}\) of the original coupled pressure-Hodge /
 viscous-Stokes / self-advection packet has finite parent reserve mass before
 child clipping.  This construction gives the reserve and the residual
-domination; `(TFE2748B.984)' is the remaining arbitrary-data estimate.
+domination; `(TFE2748B.985)' is the remaining arbitrary-data estimate.
+
+## 110. Weighted excess is dual to an incremental capacity defect
+
+The correction in Section 109 matters: the residual is chosen by the same
+\(U_P^2\)-weighted currency in which the reserve is spent.  That makes the
+finite-excess problem a precise obstacle-duality problem.
+
+Let
+
+\[
+\mathcal Q_{P,\vartheta}[\zeta]
+:=
+\vartheta\int|\nabla_A\zeta|^2\,d\mathfrak m_P
+dE_P^0(P';\zeta).
+\tag{TFE2748B.986}
+\]
+
+Take any positive parent submeasure
+\[
+0\le d\eta\le d\mathfrak v_P^{exc},
+\qquad
+\int U_P^2\,d\eta>0 .
+\tag{TFE2748B.987}
+\]
+
+Then \(d\eta\) cannot be added to the residual.  Indeed, if
+\(d\mathfrak v_P^{res}+d\eta\) still satisfied the capacity domination
+`(TFE2748B.978)', it would be an admissible competitor with strictly larger
+\(U_P^2\)-weighted mass, contradicting `(TFE2748B.979)'.  By the Maz'ya form
+criterion, non-admissibility is exactly the existence of a parent-announced
+test \(\zeta_\eta\ge0\) such that
+
+\[
+\int \zeta_\eta^2\,d(\mathfrak v_P^{res}+\eta)
+>
+\mathcal Q_{P,\vartheta}[\zeta_\eta].
+\tag{TFE2748B.988}
+\]
+
+Thus every nonzero weighted excess piece carries an incremental Rayleigh defect
+before child clipping.  Define its defect size by
+
+\[
+\mathfrak D_P(\eta)
+:=
+\sup_{\zeta\ge0}
+\left(
+\int \zeta^2\,d(\mathfrak v_P^{res}+\eta)
+-\mathcal Q_{P,\vartheta}[\zeta]
+\right)_+ .
+\tag{TFE2748B.989}
+\]
+
+`(TFE2748B.988)' says \(\mathfrak D_P(\eta)>0\) for every positive weighted
+excess piece.  The finite-excess estimate `(TFE2748B.985)' follows from the
+following strictly smaller original-data pricing theorem:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{WeightedObstacleDefectPricing.A: for every stopped parent partition}\\
+\texttt{\(\{d\eta_\alpha\}\) of \(d\mathfrak v_P^{exc}\), the incremental}\\
+\texttt{Rayleigh defects price the weighted excess by}\\[1mm]
+\displaystyle
+\sum_\alpha \int U_P^2\,d\eta_\alpha
+\le
+C_N(u_0)+Paid_P+Legal_P+Stop_P
++C_N\sum_\alpha \mathfrak D_P(\eta_\alpha),\\[1mm]
+\texttt{and the defect sum is absorbed by the same original root-generator}\\
+\texttt{clock with a strict \(C_N\vartheta<1\) margin.}
+\end{array}}
+\tag{TFE2748B.990}
+\]
+
+This theorem is the obstacle-dual version of the physical statement: a piece of
+positive active potential that cannot be left as capacity-dominated residual
+must reveal itself as a same-parent mode whose excess over viscous/Stokes
+capacity is visible to the original coupled packet.  Older adjoint-reserve
+surfaces use the same dualization idea, but they are conditional on a residual
+tail/source-control input; they cannot be imported here as a proof of
+`(TFE2748B.985)'.
+
+Consequently the current noncircular chain is
+
+\[
+\texttt{WeightedObstacleDefectPricing.A}
+\Longrightarrow
+\text{finite excess `(TFE2748B.985)'}
+\Longrightarrow
+\text{storage split `(TFE2748B.984)'}
+\Longrightarrow
+\text{critical capacity variation/storage}.
+\tag{TFE2748B.991}
+\]
+
+The remaining proof work is now localized: prove the defect-pricing/absorption
+statement `(TFE2748B.990)' directly from the original coupled
+pressure-Hodge/viscous-Stokes/self-advection root generator before positive
+clipping.  Without that pricing, Section 109 constructs the right reserve but
+does not bound its total spend.
