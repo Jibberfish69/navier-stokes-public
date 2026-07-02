@@ -21855,9 +21855,11 @@ source chain is
 \]
 
 So the open arbitrary-data source is smaller than Section 155's first wording:
-prove `(TFE2748B.1429)', `(TFE2748B.1418)', and `(TFE2748B.1424)' from the
-original coupled packet before clipping.  The Duhamel representation itself is
-already a proved smooth preterminal identity.
+the Duhamel representation itself is already a proved smooth preterminal
+identity, and Section 157 below discharges `(TFE2748B.1418)' as a consumer of
+the exact critical source split.  The retained open clauses are the bounded
+pullback estimate `(TFE2748B.1429)' and the critical source storage
+`(TFE2748B.1424)' from the original coupled packet before clipping.
 
 ## 157. Early-fibre admission is the installed critical source split
 
