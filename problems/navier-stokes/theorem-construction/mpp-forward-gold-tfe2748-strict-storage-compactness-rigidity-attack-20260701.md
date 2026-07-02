@@ -11087,3 +11087,125 @@ selected-critical upgrade, because the root-size required for
 `ParentLogMeterBMO.A + ParentAtomLevelReserve.A' from `(TFE2748B.697)'--`(TFE2748B.698)',
 or equivalently the parent Orlicz uniform-integrability line
 `(TFE2748B.676)'.
+
+## 83. The log-meter BMO and level reserve are one coupled storage
+
+Section 81 left two named clauses.  They should not be read as two physical
+suppliers.  The level term is the mean price of the selected critical meter on
+the same atom ledger, and the BMO term is the oscillation price of that same
+meter between paired lobes.  Both must be paid by one parent full-exchange
+reserve before clipping.
+
+For every stopped subpacket \(P'\subseteq P\), define the coupled
+mean-plus-oscillation bill
+
+\[
+\mathcal S_P^{crit}(P')
+:=
+\int_{P'} W_P^{crit}\,d\mathfrak m_P
++
+\gamma_N
+\sum_{Q\subseteq P'}
+\bigl(\|\Delta_Q b_P\|_{\mathfrak H_P}^2+|e_Q|^2\bigr)
+\mathfrak m_P(Q),
+\qquad
+b_P:=\log W_P^{crit},
+\tag{TFE2748B.714}
+\]
+
+where \(d\mathfrak m_P=d\mathfrak a_P+d\mathfrak m_P^{gen}\) is the
+parent active measure of `(TFE2748B.695)'.  The coefficient \(\gamma_N>0\) is
+fixed small enough that the BMO square bill is measured in the same generator
+currency as the level bill.
+
+The nonduplicate source theorem is the local same-parent storage inequality
+
+\[
+\boxed{
+\mathcal S_P^{crit}(P')
+\le
+-\Delta_{P'}M_P^{FE,crit}
++C_N(u_0)\mathcal R(P')
++\vartheta\,\Omega_P^{gen}(P')
++d\Theta_P^0(P')
++dPaid_P(P')
++dStop_P(P'),
+\qquad
+C_N\vartheta<1,
+}
+\tag{TFE2748B.715}
+\]
+
+with one bounded-below parent reserve
+
+\[
+M_P^{FE,crit}\ge -C_N(u_0)\mathcal R(P)-Paid(P)-Stop(P).
+\tag{TFE2748B.716}
+\]
+
+This is the atom-ledger projection of the full-exchange critical-depletion
+storage theorem \(TFE2426\).  The first summand in `(TFE2748B.714)' is the
+parent level reserve; the second summand is the stopped log-meter
+square-variation/BMO reserve.  They are two readouts of the same
+pressure-viscosity-incompressibility-velocity participation packet, not
+separate accounts.
+
+The implication back to Section 80 is immediate.  Dropping the nonnegative BMO
+summand in `(TFE2748B.714)' gives
+
+\[
+\int_{P'} W_P^{crit}\,d\mathfrak m_P
+\le
+C_N(u_0)\mathcal R(P')
++\vartheta\,\Omega_P^{gen}(P')
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{TFE2748B.717}
+\]
+
+which is `(TFE2748B.688)' with \(\theta=\vartheta\).  Dropping the nonnegative
+level summand gives the stopped square-function estimate
+
+\[
+\sum_{Q\subseteq P'}
+\bigl(\|\Delta_Q b_P\|_{\mathfrak H_P}^2+|e_Q|^2\bigr)
+\mathfrak m_P(Q)
+\le
+C_N(u_0)\mathfrak m_P(P')
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{TFE2748B.718}
+\]
+
+after the local parent-thickness comparison
+\(\mathcal R(P')\lesssim\mathfrak m_P(P')+Paid(P')\) from the stopped parent
+chart is inserted.  Dividing by \(\mathfrak m_P(P')\) gives
+`(TFE2748B.685)'.  Therefore
+
+\[
+\boxed{
+\texttt{FullExchangeCriticalDepletionStorage.A in the local form `(TFE2748B.715)'}
+\Longrightarrow
+\texttt{ParentLogMeterBMO.A}+\texttt{ParentAtomLevelReserve.A}.
+}
+\tag{TFE2748B.719}
+\]
+
+Combining `(TFE2748B.719)' with Sections 80--81 gives
+
+\[
+\boxed{
+\texttt{FullExchangeCriticalDepletionStorage.A `(TFE2748B.715)'}
+\Longrightarrow
+\texttt{AtomLedgerSelectedCriticalUniformIntegrability.A `(TFE2748B.676)'}.
+}
+\tag{TFE2748B.720}
+\]
+
+This is the exact downstream consumption chain from the single coupled storage
+line to terminal-uniform selected \(L^1\).  What remains unproved from
+arbitrary original smooth data is not a separate Hilbert/BMO theorem.  It is
+the construction of the one before-clipping full-exchange critical reserve
+\(M_P^{FE,crit}\) and proof of `(TFE2748B.715)' with strict
+\(C_N\vartheta<1\).  Equivalently, the parent packet must prove that the mean
+selected price and the oscillation of that price both spend the same original
+full-exchange reserve, rather than one being generated as a later child
+readout.
