@@ -21255,3 +21255,90 @@ coupled pressure-Hodge, viscous/Stokes, incompressibility-frame, self-advection,
 collar, covector, and stopped-selector packet before child clipping.  In the
 form-compensator language of Section 148, this is the same as proving
 `(TFE2748B.1343)' from the original packet.
+
+## 153. Back-substituting the lower producer into the Section 152 bridge
+
+The phrase "construct \(\mathsf G_P^{EA}\)" still hides the lower source if it
+is left as a package name.  Sections 133--135 already split that package into
+the two active source inequalities that actually have to be proved from the
+original coupled packet.
+
+First, Section 133 proves that critical parent-capacity packing supplies the
+local endpoint-admitted package:
+
+\[
+\texttt{CriticalParentCapacityPacking.A `(TFE2748B.1191)'}
+\Longrightarrow
+\mathsf G_P^{EA}.
+\tag{TFE2748B.1389}
+\]
+
+Second, Section 134 proves that the positive-baseline log branch is a stopped
+root-Carleson consumer and the zero-baseline branch is endpoint-seed packing:
+
+\[
+\texttt{StoppedRootGeneratorCarlesonStorage.A}
++
+\texttt{EndpointSeedCriticalPacking.A `(TFE2748B.1202)'}
+\Longrightarrow
+\texttt{CriticalParentCapacityPacking.A}.
+\tag{TFE2748B.1390}
+\]
+
+Third, Section 135 proves that both of those are consumed by the same
+active-transit/full-exchange parent ledger:
+
+\[
+\texttt{ActiveTransitLocalStorage.A `(TFE2748B.1205)'}
++
+\texttt{FullExchangeNoSelfFeedingStorage.A `(TFE2748B.1206)'--`(TFE2748B.1207)'}
+\Longrightarrow
+\texttt{EndpointSeedCriticalPacking.A}
++
+\texttt{StoppedRootGeneratorCarlesonStorage.A}.
+\tag{TFE2748B.1391}
+\]
+
+Combining `(TFE2748B.1389)'--`(TFE2748B.1391)' with Section 152 gives the
+fully back-substituted consumer chain
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{ActiveTransitLocalStorage.A}\\
++\texttt{FullExchangeNoSelfFeedingStorage.A}
+\end{array}
+\Longrightarrow
+\mathsf G_P^{EA}
+\Longrightarrow
+\texttt{ParentReverseHolderThickness.A}
+\Longrightarrow
+\texttt{FiniteCapacitaryExcess.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1392}
+\]
+
+Thus the remaining arbitrary-data producer is no longer a generic
+reverse-Holder, entropy, atom, endpoint, or dyadic counting problem.  It is the
+same-parent construction of two before-clipping storages:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{construct \(\mathscr S_P^{AT}\) and prove `(TFE2748B.1205)',}\\
+\texttt{construct \(M_P^{FE}\) and prove `(TFE2748B.1206)'--`(TFE2748B.1207)',}\\
+\texttt{with both storages bounded below from \(u_0\), all route/collar/Hodge/}\\
+\texttt{frame/reselection/legal/stop terms in \(dE_P^0\), and \(C_N\vartheta<1\).}
+\end{array}}
+\tag{TFE2748B.1393}
+\]
+
+In form-compensator language, `(TFE2748B.1393)' is the concrete original-ledger
+source which proves `(TFE2748B.1343)'.  Pressure/self-advection enter only
+through the parent Liouville re-coordination and selected-meter motion from
+Section 38; viscosity/Stokes enters through the generator/Fisher clock; and the
+strict margin is exactly the no-self-feeding inequality in `(TFE2748B.1206)'.
+The Gold route is therefore closed downstream of `(TFE2748B.1393)', and open
+only at proving those two same-parent inequalities from arbitrary original
+smooth data before child clipping.
