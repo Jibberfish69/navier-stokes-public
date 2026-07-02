@@ -18207,3 +18207,130 @@ pressure-Hodge/viscous-Stokes/self-advection/incompressibility packet.  Once
 that package is proved, the before-clipping active-density comparison, finite
 capacitary excess, terminal no-waste, parent log-meter variation storage, and
 critical capacity variation/storage line are all downstream consumers.
+
+## 133. The local package leaves only critical parent-capacity packing
+
+Section 132 identifies the local endpoint-admitted package.  The older
+tower-feedback reduction `(TFE.2532)'--`(TFE.2551)' now has a direct translation
+in the current notation: after the bounded-channel and time-thick consumers are
+removed, a failure of \(\mathsf G_P^{EA}\) can only be a scale-native
+first-birth or terminal endpoint carrier that has not entered the parent
+critical capacity before clipping.
+
+The bounded positive-baseline log branch is already a consumer.  Sections
+103--104 prove the Radon--Nikodym chain rule and bounded detector projection:
+
+\[
+\log r_Q
+=\ell_Q(\Delta_QZ_P^S)-\psi_Q+e_Q,
+\qquad
+\sum_{Q\subset P'}
+\left|\ell_Q(\Delta_QZ_P^S)-\psi_Q\right|^2dR_P^{root}(E_Q)
+\le C_N\int_{P'}d\Omega_P^{gen}+dE_P^0.
+\tag{TFE2748B.1187}
+\]
+
+Thus a stopped exponential-BMO failure with the local generator clock finite is
+not a new source unless the selected detector is scale-native and unbounded in
+the parent norm.  That is exactly the zero-baseline/first-entry detector of
+`(TFE2748B.917)'--`(TFE2748B.920)'.
+
+The time-thick terminal branch is also a consumer once the active measure is
+dominated by the same full-exchange generator clock:
+
+\[
+d\mathfrak m_P+dA_P^{sel/chart}+dA_P^{end}
+\le C_N\,d\Omega_P^{gen}+dE_P^0,
+\qquad
+d\Omega_P^{gen}=\omega_P(t,\sigma)\,dt\,d\sigma+dE_P^0,
+\tag{TFE2748B.1188}
+\]
+
+with \(\omega_P\in L^1\) locally from full-exchange storage.  Then absolute
+continuity gives terminal no-residue `(TFE2748B.904)'.
+
+Consequently the only nonconsumer branch is the scale-native critical capacity
+edge.  Pull every retained scale-native child \(Q\preceq P\) to the same
+root-known parent reserve \(dR_P^{root}\):
+
+\[
+dA_Q^{sel,+}=f_Q\,dR_P^{root},
+\qquad
+dA_{\pi Q}^{sel,+}=f_{\pi Q}\,dR_P^{root}.
+\tag{TFE2748B.1189}
+\]
+
+Define the critical parent-capacity atom by
+
+\[
+\rho_{crit,P}(E_Q)
+:=
+\int_{E_Q\cap\{f_{\pi Q}>0\}}
+f_Q\log\!\left({f_Q\over f_{\pi Q}}\right)_+\,dR_P^{root}
++
+\int_{E_Q\cap\{f_{\pi Q}=0<f_Q\}}
+\|K_Q^{parent}\|_{\mathfrak H_P}^2\,dR_P^{root}.
+\tag{TFE2748B.1190}
+\]
+
+The first term is the positive-baseline log-amplification entropy of the same
+parent fibre.  The second term is the endpoint first-entry capacity, with
+\(\|K_Q^{parent}\|_{\mathfrak H_P}^2\simeq\lambda_Q^{-1}\) and heat-lag
+normalization paid as in `(TFE2748B.950)'--`(TFE2748B.953)'.
+
+The exact remaining source theorem is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{CriticalParentCapacityPacking.A:}\\[1mm]
+dA_{P,crit}^{native,+}(Q)
+\le C_N\,\rho_{crit,P}(E_Q)+dE_P^0(Q),\\[1mm]
+\displaystyle
+\sum_{Q\subset P'}\rho_{crit,P}(E_Q)
+\le
+-dB_P^{crit}(P')
++\theta_c\,d\Omega_P^{gen}(P')
++dE_P^0(P'),\\[1mm]
+B_P^{crit}\ge -C_N(u_0)-Paid_P-Legal_P-Stop_P,\qquad C_N\theta_c<1.
+\end{array}}
+\tag{TFE2748B.1191}
+\]
+
+If `(TFE2748B.1191)' holds, the scale-native survivor is impossible.  The
+positive-baseline high-ratio face is admitted by \(r\le C r\log r\) for
+\(r\ge2\); the low-ratio face is inherited/repeated-core/reset material; and
+the zero-baseline face is admitted by the endpoint capacity term in
+`(TFE2748B.1190)'.  Summing `(TFE2748B.1191)' over the stopped finite-overlap
+family gives the full active thickness/no-residue and stopped log-carrier
+packing needed in \(\mathsf G_P^{EA}\).  Therefore
+
+\[
+\texttt{CriticalParentCapacityPacking.A `(TFE2748B.1191)'}
+\Longrightarrow
+\mathsf G_P^{EA}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.
+\tag{TFE2748B.1192}
+\]
+
+Conversely, after route, return, reset, Schur/Bessel admission, parent-current
+no-recount, bounded detector projection, endpoint heat-lag admission, legal,
+stop, and paid leakage are removed, a failure of \(\mathsf G_P^{EA}\) has only
+this remaining form:
+
+\[
+\boxed{
+\neg\mathsf G_P^{EA}
+\Longrightarrow
+\neg\texttt{CriticalParentCapacityPacking.A}
+}
+\tag{TFE2748B.1193}
+\]
+
+in the retained scale-native/terminal carrier class.  This is the current
+lowest nonduplicate source theorem.  It is still open from arbitrary original
+smooth data: the proof must construct the parent-root critical capacity
+\(\rho_{crit,P}\) and prove its packing directly from the original coupled
+pressure-Hodge/viscous-Stokes/self-advection/incompressibility packet before
+any child positive readout is clipped.
