@@ -14732,3 +14732,139 @@ C_N\theta_\ast<1,
 \]
 
 with \(M_P^{FE,\ast}\) bounded below from the original smooth data.
+
+## 107. The selected log-meter source is a parent parabolic form-bound problem
+
+After Sections 105--106, the remaining positive source is no longer an atom
+attachment or a naked zero-baseline endpoint trace.  It is the positive
+log-meter reaction left after the reversible pressure/Hodge/self-advection flux
+has been paired inside the same stopped parent packet.
+
+Let
+
+\[
+dE_P^0:=d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.957}
+\]
+
+Use the entropy density \(\Phi(r)=r\log(e+r)\) from `(TFE2748B.860)' and set
+
+\[
+U_P:=\int_0^{F_P}\sqrt{\Phi''(s)}\,ds,
+\qquad
+dI_P=|\nabla_AU_P|^2\,d\mathfrak m_P .
+\tag{TFE2748B.958}
+\]
+
+Let
+
+\[
+g_P^+:=\bigl[\mathcal L_P\log W_P^{crit}\bigr]_+
+\tag{TFE2748B.959}
+\]
+
+be the parent-announced positive log-speed of the selected critical meter after
+the reversible flux split `(TFE2748B.874)'--`(TFE2748B.879)'.  Define the exact
+active potential measure \(d\mathfrak v_{P}^{crit}\) by
+
+\[
+d\mathfrak v_{P}^{crit}
+:=
+{\Phi'(F_P)F_P\over U_P^2}\,g_P^+\,d\mathfrak m_P
++{[d\mathcal C_P^{crit}]_+\over U_P^2},
+\tag{TFE2748B.960}
+\]
+
+with the quotient interpreted as \(0\) on \(\{U_P=0\}\).  This definition is not
+an estimate.  It is the exact parent potential whose trace on \(U_P\) is the
+selected positive meter bill:
+
+\[
+U_P^2\,d\mathfrak v_P^{crit}
+=
+dQ_P^{meter}+[d\mathcal C_P^{crit}]_+ .
+\tag{TFE2748B.961}
+\]
+
+Therefore `(TFE2748B.880)' is equivalent to the stopped parent form bound
+
+\[
+\int_{P'} \zeta^2\,d\mathfrak v_P^{crit}
+\le
+\vartheta\int_{P'}|\nabla_A\zeta|^2\,d\mathfrak m_P
++dE_P^0(P';\zeta),
+\qquad C_N\vartheta<1,
+\tag{TFE2748B.962}
+\]
+
+for every parent-announced test \(\zeta\), with \(dE_P^0(P';\zeta)\) supported
+only on route, collar, legal, stop, endpoint, and paid selector-motion material.
+Indeed, applying `(TFE2748B.962)' to \(\zeta=U_P\) and using
+`(TFE2748B.958)'--`(TFE2748B.961)' gives
+
+\[
+dQ_P^{meter}+[d\mathcal C_P^{crit}]_+
+\le
+\vartheta\,dI_P+dE_P^0 .
+\tag{TFE2748B.963}
+\]
+
+Combining `(TFE2748B.963)' with the reversible flux reserve
+`(TFE2748B.879)' and the entropy storage identity
+`(TFE2748B.864)'--`(TFE2748B.865)' gives
+
+\[
+d\rho_{crit,P}^{ac}+d\rho_{crit,P}^{entry}
+\le
+-dM_P^{crit}
++\vartheta\,dI_P+dE_P^0,
+\qquad C_N\vartheta<1.
+\tag{TFE2748B.964}
+\]
+
+Since \(dI_P\le d\Omega_P^{gen}\) in the full root clock, `(TFE2748B.964)' is
+the critical-entry part of the endpoint-admitted strict storage line
+`(TFE2748B.956)'.
+
+Equivalently, by the stopped Maz'ya trace criterion on the compact parent chart,
+`(TFE2748B.962)' is the same as the parabolic capacitary domination
+
+\[
+\mathfrak v_P^{crit}(K)
+\le
+\vartheta\,\operatorname{Cap}_{A,P}(K)
++E_P^0(K),
+\qquad C_N\vartheta<1,
+\tag{TFE2748B.965}
+\]
+
+for every stopped parent compact \(K\), where
+
+\[
+\operatorname{Cap}_{A,P}(K)
+:=
+\inf_{\zeta\ge 1_K}
+\int|\nabla_A\zeta|^2\,d\mathfrak m_P .
+\tag{TFE2748B.966}
+\]
+
+Thus the selected \(L^1\) wall has an exact non-dyadic capacity form:
+positive critical meter motion is harmless precisely when its parent potential
+has strictly subunit parabolic capacity relative to the same viscous/Stokes
+gradient that produces heat-lag readability.
+
+The arbitrary-data theorem still to prove is therefore not another raw atom
+pairing theorem and not a square-energy statement.  It is
+
+\[
+\boxed{
+\texttt{ParentActivePotentialCapacityDomination.A: prove `(TFE2748B.965)' from
+the original coupled packet before clipping.}
+}
+\tag{TFE2748B.967}
+\]
+
+Once `(TFE2748B.967)' is proved, Sections 99--107 give
+`(TFE2748B.956)' and hence the critical capacity variation/storage line.  Until
+that capacitary domination is proved from arbitrary original smooth data, this
+section is a sharp equivalent proof target rather than Gold closure.
