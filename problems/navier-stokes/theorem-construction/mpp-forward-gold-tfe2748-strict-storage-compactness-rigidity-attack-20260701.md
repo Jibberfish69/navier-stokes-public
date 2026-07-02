@@ -2849,3 +2849,135 @@ is either actual route/connection/turnstile/exchange/covector motion, negative
 return, reset, legal, stop, or a bounded parent storage decrease.  Raw energy,
 raw Bessel, and parent predictability alone leave the half-tail
 `(TFE2748B.173)' alive.
+
+## 28. Signed atom attachment: the pairing is exact once the parent atoms exist
+
+The signed-partner line in Sections 22--23 has a purely measure-theoretic core.
+Let \(dJ_P\) be the pre-clipping pressure-Hodge/material residue on one stopped
+parent packet after route, legal, and stop errors are removed.  The desired
+parent atomic form is
+
+\[
+dJ_P
+=
+\sum_{\alpha}c_\alpha\,d\mu_\alpha+dR_P,
+\qquad
+\int_{X_P}d\mu_\alpha=0.
+\tag{TFE2748B.178}
+\]
+
+Here the zero mean is the mathematical form of the pressure constraint: the
+pressure-Hodge/material residue redistributes the stopped parent packet and does
+not create standalone positive mass.  For each atom,
+
+\[
+d\mu_\alpha=d\mu_\alpha^+-d\mu_\alpha^-,
+\qquad
+\mu_\alpha^+(X_P)=\mu_\alpha^-(X_P).
+\tag{TFE2748B.179}
+\]
+
+For the signed atom \(\nu_\alpha=c_\alpha d\mu_\alpha\), define its same-parent
+positive and opposite lobes by \(\nu_\alpha^+\) and \(\nu_\alpha^-\).  Then
+
+\[
+\nu_\alpha^+(X_P)=\nu_\alpha^-(X_P),
+\tag{TFE2748B.180}
+\]
+
+with the sign of \(c_\alpha\) only swapping which geometric lobe is positive.
+Using the elementary Jordan inequality
+
+\[
+\left(\sum_\alpha \nu_\alpha\right)_+
+\le
+\sum_\alpha \nu_\alpha^+,
+\tag{TFE2748B.181}
+\]
+
+and charging any atom boundary leakage to \(dR_P\), the positive residue obeys
+
+\[
+(dJ_P)_+
+\le
+dJ_P^{ret,-}+(dR_P)_+,
+\qquad
+dJ_P^{ret,-}:=\sum_\alpha \nu_\alpha^-.
+\tag{TFE2748B.182}
+\]
+
+This is the exact signed attachment fact.  The child cannot count the positive
+lobe of a pressure-Hodge/material atom without the same stopped parent packet
+also containing the opposite lobe, unless the opposite lobe has left through a
+paid collar, route, legal, or stop channel.
+
+Consequently the selected critical spent measure satisfies
+
+\[
+dE_P^{crit}
+\le
+dJ_P^{ret,-}
++\theta\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+C_N\theta<1,
+\tag{TFE2748B.183}
+\]
+
+once the residual leakage \((dR_P)_+\) is included in the paid terms and the
+already-separated generator leakage is absorbed with strict coefficient
+\(\theta\).  If the retained opposite lobe is recorded as depletion of the
+parent critical reserve,
+
+\[
+dJ_P^{ret,-}
+\le
+-dM_P^{crit},
+\tag{TFE2748B.184}
+\]
+
+then `(TFE2748B.183)' becomes the storage line
+
+\[
+dE_P^{crit}
+\le
+-dM_P^{crit}
++\theta\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+C_N\theta<1.
+\tag{TFE2748B.185}
+\]
+
+Thus the pairing itself is not the open estimate.  It is an immediate
+consequence of a same-parent zero-mean atomic representation of the signed
+pressure-Hodge/material residue.  The actual arbitrary-data source theorem is
+now sharper:
+
+\[
+\boxed{
+\texttt{ParentHardyAtomicPressureHodgePartnerRetention.A}
++\texttt{BoundedBelowCriticalReserveDepletion.A}
+}
+\tag{TFE2748B.186}
+\]
+
+meaning:
+
+\[
+\begin{aligned}
+&\text{construct `(TFE2748B.178)' from the original coupled packet before
+clipping,}\\
+&\text{prove controlled atom coefficients/supports and paid leakage,}\\
+&\text{and prove `(TFE2748B.184)' with \(M_P^{crit}\) bounded below from
+original data.}
+\end{aligned}
+\tag{TFE2748B.187}
+\]
+
+This is the same Gold source in signed-measure form.  The repo should no longer
+treat signed-partner retention as a mysterious positivity theorem: zero-mean
+same-parent atoms give the positive/negative lobe pairing exactly.  What remains
+is proving that the full residue has those atoms before clipping and that the
+opposite lobe is an original parent reserve depletion rather than a
+future-defined selected tail.
