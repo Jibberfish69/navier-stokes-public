@@ -5541,3 +5541,128 @@ positive clipping.}
 This is the sharp remaining producer in this reduction after the requested atomic
 decomposition, coefficient/leakage control, and retained opposite-lobe reserve
 depletion have been installed.
+
+## 46. Coefficient surplus as a parent comparison potential
+
+The coefficient theorem has one more exact normal form.  Use the stopped
+Neumann-Hodge potential from `(TFE2748B.316)'--`(TFE2748B.317)',
+
+\[
+J_{\Psi,P}=-A_P\nabla_{\mathfrak m}\phi_{\Psi,P}.
+\tag{TFE2748B.347}
+\]
+
+For a proposed strict margin \(0<\theta<1\), define the parent comparison
+potential
+
+\[
+U_{P,\theta}:=\phi_{\Psi,P}-\theta F_P .
+\tag{TFE2748B.348}
+\]
+
+On the retained parabolic range,
+
+\[
+a_P-\theta
+=
+{\langle A_P\nabla_{\mathfrak m}U_{P,\theta},
+\nabla_{\mathfrak m}F_P\rangle
+\over
+\langle A_P\nabla_{\mathfrak m}F_P,\nabla_{\mathfrak m}F_P\rangle}.
+\tag{TFE2748B.349}
+\]
+
+Since \(\theta>0\), \(((a_P)_+-\theta)_+=(a_P-\theta)_+\).  Multiplying
+`(TFE2748B.349)' by \(dI_P\) gives the exact surplus identity
+
+\[
+\bigl((a_P)_+-\theta\bigr)_+\,dI_P
+=
+\Phi''(F_P)
+\bigl[
+\langle A_P\nabla_{\mathfrak m}U_{P,\theta},
+\nabla_{\mathfrak m}F_P\rangle
+\bigr]_+
+\,d\mathfrak m_P .
+\tag{TFE2748B.350}
+\]
+
+Thus `(TFE2748B.342)' is not a mysterious positive-service estimate.  It is the
+one-sided parent comparison statement
+
+\[
+\int
+\Phi''(F_P)
+\bigl[
+\langle A_P\nabla_{\mathfrak m}U_{P,\theta},
+\nabla_{\mathfrak m}F_P\rangle
+\bigr]_+
+d\mathfrak m_P
+\le
+d\Theta_P^0+dPaid_P+dStop_P.
+\tag{TFE2748B.351}
+\]
+
+Equivalently, by layer cake,
+
+\[
+\int\bigl((a_P)_+-\theta\bigr)_+\,dI_P
+=
+\int_\theta^\infty
+dI_P\bigl(\{a_P>s\}\bigr)\,ds .
+\tag{TFE2748B.352}
+\]
+
+The bad branch in `(TFE2748B.345)' is therefore a failure of one-sided
+comparison between the Hodge potential \(\phi_{\Psi,P}\) and the selected active
+density \(F_P\): along the same parent packet, \(\phi_{\Psi,P}-\theta F_P\) keeps
+having positive slope in the \(F_P\)-direction after all paid motion is removed.
+
+This comparison form also proves a no-go for any attempted closure from current
+representation alone.  In a flat stopped quotient with \(A=I\), take any smooth
+positive \(F_\varepsilon=1+\varepsilon\sin x\) and set
+
+\[
+\phi_\varepsilon=(\theta+c)F_\varepsilon,\qquad
+J_\varepsilon=-\nabla\phi_\varepsilon,\qquad c>0 .
+\tag{TFE2748B.353}
+\]
+
+Then \(h_\varepsilon=\operatorname{div}J_\varepsilon\) is a smooth zero-mean
+parent source, the same-parent current representation has no kernel or paid
+term in the interior model, and
+
+\[
+a_\varepsilon=\theta+c,
+\qquad
+\int\bigl((a_\varepsilon)_+-\theta\bigr)_+\,dI_\varepsilon
+=
+c\int dI_\varepsilon>0 .
+\tag{TFE2748B.354}
+\]
+
+So the strict coefficient line is not a consequence of smoothness, zero mean,
+same-parent Hodge representation, or atom pairing.  The original Navier-Stokes
+packet must supply a stronger relation: the retained Hodge potential generated
+by the coupled pressure/frame/selector/root current may not have positive
+\(F_P\)-slope beyond the strict margin except through paid motion.
+
+The next source theorem is therefore the parent comparison theorem
+
+\[
+\boxed{
+\begin{array}{c}
+\text{construct \(U_{P,\theta}=\phi_{\Psi,P}-\theta F_P\) from the original
+coupled packet before clipping,}\\
+\text{and prove the positive mixed Dirichlet surplus `(TFE2748B.351)' is paid
+on every stopped retained quotient.}
+\end{array}}
+\tag{TFE2748B.355}
+\]
+
+A proof of `(TFE2748B.355)' gives `(TFE2748B.342)', hence `(TFE2748B.341)',
+then `(TFE2748B.331)', `(TFE2748B.324)', `(TFE2748B.254)', the parent-density
+source package `(TFE2748B.241)', and finally the critical capacity
+variation/storage line `(TFE2748B.247)'.  The comparison theorem is still an
+original-data theorem; the flat model `(TFE2748B.353)'--`(TFE2748B.354)' records
+why it cannot be replaced by representation or cancellation bookkeeping.
