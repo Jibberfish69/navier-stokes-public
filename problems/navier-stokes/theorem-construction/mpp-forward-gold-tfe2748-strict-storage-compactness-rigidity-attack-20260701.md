@@ -2714,3 +2714,138 @@ detector theorem saying that the selected active weight is supplied by the same
 original coupled packet before child clipping.  This is the stopped-current /
 Bessel-coordinate form of `GlobalSameParentCriticalNoArbitrage.A', not an
 additional downstream obstruction.
+
+## 27. Active Bessel split: first-exit is paid, fixed-core upcrossing is the source
+
+The active embedding in `(TFE2748B.163)' has one branch that is already reduced
+to a direct calculation.  On a stopped first-exit edge \(e\), the parent
+announces an interval \(I_e\) before the fresh endpoint increment is read.  The
+active weight is the harmonic Cauchy weight
+
+\[
+H_{e^-}(t)
+=
+{|I_e|^2\over \int_{I_e}w(\sigma,t)^{-1}\,d\sigma},
+\tag{TFE2748B.168}
+\]
+
+and the fresh derivative has the parent-announced average representation
+
+\[
+D_e^{fresh}(t)
+=
+|I_e|^{-1}\int_{I_e}G_e(\sigma,t)\,d\sigma
++Err_e^{legal}(t),
+\tag{TFE2748B.169}
+\]
+
+where
+
+\[
+G_e
+=
+\partial_\sigma Z_e+\operatorname{turnstile}_e
++\operatorname{exchange}_e+\operatorname{covector}_e+\operatorname{frame}_e.
+\tag{TFE2748B.170}
+\]
+
+Weighted Cauchy--Schwarz gives
+
+\[
+H_{e^-}(t)\|D_e^{fresh}(t)\|^2
+\le
+C\int_{I_e}w(\sigma,t)\|G_e(\sigma,t)\|^2\,d\sigma
++CR_e^{legal}(t).
+\tag{TFE2748B.171}
+\]
+
+The first-exit witness slabs are stopped sparse, so
+
+\[
+\sum_{e\subset P}
+\int H_{e^-}\|D_e^{fresh}\|^2\,dt
+\le
+C_N\int_{\operatorname{Hist}(P)}
+w\left(
+|\partial_\sigma Z|^2+|T_\sigma|^2+|E_\sigma|^2+|C_\sigma|^2+|F_\sigma|^2
+\right)
++CR_{\rm legal}(P)+CStop(P).
+\tag{TFE2748B.172}
+\]
+
+This proves the first-exit/reset active-weight branch once the active route
+energy is an original-history measure.  Its physical content is exact: a large
+read through a parent-announced heat/scale interval forces derivative-current
+energy on that same interval.  There is no missing storage in this branch.
+
+The remaining branch is different.  A fixed stopped core may keep the same route
+and same parent endpoint record while the active weight rises:
+
+\[
+\sum_\ell \|D_\ell\|_{\mathfrak H_P}^2<\infty,
+\qquad
+\sum_\ell H_\ell\|D_\ell\|_{\mathfrak H_P}^2=\infty.
+\tag{TFE2748B.173}
+\]
+
+There is no interval average `(TFE2748B.169)' for this branch, so the Cauchy
+payment does not apply.  Bessel orthogonality controls only the unweighted square
+mass.  The selected \(L^1\) proof needs the active-weight upcrossing itself to be
+admitted as parent material before clipping.
+
+The exact source theorem can therefore be stated as a predictable active-weight
+compensator.  Let \(A_P^{wt}\) record new active-weight upcrossings of retained
+same-core reads in the stopped parent frame.  The needed storage inequality is
+
+\[
+dA_P^{wt}
++a_P\|G_P^{new}\|_{\mathfrak H_P}^2\,d\sigma dt
+\le
+-D_{\sigma,t}M_P
++\Theta_P^{orig}
++dStop_P+dR_{\rm legal,P},
+\tag{TFE2748B.174}
+\]
+
+with
+
+\[
+0\le M_P\le C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P),
+\qquad
+\int_{\operatorname{Hist}(P)}\Theta_P^{orig}
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE2748B.175}
+\]
+
+Integrating `(TFE2748B.174)' gives the missing fixed-core estimate
+
+\[
+\int dA_P^{wt}
++\sum_{\text{fixed-core }e\subset P}
+\int H_{e^-}\|D_e^{new}\|_{\mathfrak H_P}^2\,dt
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
+\tag{TFE2748B.176}
+\]
+
+Together, `(TFE2748B.172)' and `(TFE2748B.176)' imply the active stopped-frame
+Bessel/Carleson embedding `(TFE2748B.163)'.
+
+Thus Section 26 reduces the stopped-current theorem to active Bessel, and this
+section reduces active Bessel to one remaining producer:
+
+\[
+\texttt{StoppedPredictableActiveWeightCompensator.A}
+\quad\text{or equivalently}\quad
+\texttt{OriginalScaleMemoryStorageCoercivity.A}
+\tag{TFE2748B.177}
+\]
+
+for fixed-core/root-upcrossing in the same stopped parent frame.  This is the
+same theorem as `GlobalSameParentCriticalNoArbitrage.A' in active-weight
+coordinates.  A proof must show that a retained same-core active-weight increase
+is either actual route/connection/turnstile/exchange/covector motion, negative
+return, reset, legal, stop, or a bounded parent storage decrease.  Raw energy,
+raw Bessel, and parent predictability alone leave the half-tail
+`(TFE2748B.173)' alive.
