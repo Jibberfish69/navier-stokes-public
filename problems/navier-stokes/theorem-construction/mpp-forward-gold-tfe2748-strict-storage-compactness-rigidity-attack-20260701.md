@@ -19693,7 +19693,7 @@ the local div-curl Hardy bound
 \|F_P(t)\|_{\mathcal H^1(X_P)}
 \le
 C_N\|\nabla u(t)\|_2^2
-d\Theta_P^0(t)+dPaid_P(t)+dLegal_P(t)+dStop_P(t).
++d\Theta_P^0(t)+dPaid_P(t)+dLegal_P(t)+dStop_P(t).
 \tag{TFE2748B.1285}
 \]
 
@@ -19714,7 +19714,7 @@ with
 + |(dR_P)_+|([0,\tau]\times X_P)
 \le
 C_N{\|u_0\|_2^2\over\nu}
-\Theta_P^0+Paid_P+Legal_P+Stop_P .
++\Theta_P^0+Paid_P+Legal_P+Stop_P .
 \tag{TFE2748B.1287}
 \]
 
@@ -19764,7 +19764,7 @@ marginals of the same parent atom ledger:
 \omega_P(dJ_P)_+
 \preceq_{atom}
 dJ_{P,\omega}^{ret,-}
-\omega_P(dR_P)_+ .
++\omega_P(dR_P)_+ .
 \tag{TFE2748B.1291}
 \]
 
@@ -19774,7 +19774,7 @@ Let
 B_P^{atom}(\tau)
 :=
 C_N{\|u_0\|_2^2\over\nu}
-\Theta_P^0([0,\tau])
++\Theta_P^0([0,\tau])
 +Paid_P([0,\tau])
 +Legal_P([0,\tau])
 +Stop_P([0,\tau])
