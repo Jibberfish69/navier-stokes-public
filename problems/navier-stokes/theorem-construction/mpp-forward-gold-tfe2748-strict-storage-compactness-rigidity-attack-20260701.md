@@ -18119,7 +18119,7 @@ bounded-overlap stopped fibre cover gives the active-density comparison
 dQ_P^{meter}+[d\mathcal C_P^{crit}]_+
 \le
 C_N\,d\Xi_P^{FE}
-dE_P^0,
++dE_P^0,
 \tag{TFE2748B.1181}
 \]
 
@@ -18426,7 +18426,7 @@ reselection/legal/stop material:
 \rho_{crit,P}^{entry}
 \preceq
 C_N\,d\mathcal E_P^{EP}
-dE_P^0 .
++dE_P^0 .
 \tag{TFE2748B.1201}
 \]
 
@@ -18867,3 +18867,130 @@ The tower coordinate should now be read as the raw attachment theorem
 `(TFE2748B.1227)' plus the selected-weighted reserve `(TFE2748B.1229)'.  The raw
 atom decomposition, coefficient/leakage control, and retained opposite-lobe
 reserve depletion are no longer the unresolved part.
+
+## 137. Parent-announced selected atoms are raw parent reserve, not child recount
+
+The raw signed atom theorem must also be read with the selector already pulled
+back to the stopped parent packet.  Otherwise the proof would construct
+unselected atoms first and let a child choose the positive lobe afterward.  That
+is not the object used in the Gold \(L^1\) line.
+
+Let \(0\le\omega_P\le1\) be any parent-announced detector in the stopped parent
+frame, measurable before child positive clipping.  Since \(d\Pi_P(t,x,y)\) in
+`(TFE2748B.1216)'--`(TFE2748B.1218)' has first marginal
+\(dJ_{P,+}^{raw}\) and second marginal \(dJ_{P,-}^{raw}\), define
+
+\[
+d\Pi_{P,\omega}(t,x,y):=\omega_P(t,x)\,d\Pi_P(t,x,y),
+\qquad
+dJ_{P,\omega}^{+,raw}:=(\operatorname{time},\operatorname{pr}_1)_\#
+d\Pi_{P,\omega},
+\qquad
+dJ_{P,\omega}^{ret,-}:=(\operatorname{time},\operatorname{pr}_2)_\#
+d\Pi_{P,\omega}.
+\tag{TFE2748B.1231}
+\]
+
+Then \(dJ_{P,\omega}^{+,raw}\) is the selected positive lobe of the same raw
+parent atom ledger, and \(dJ_{P,\omega}^{ret,-}\) is its retained opposite lobe.
+For every stopped time \(\tau<T_*\),
+
+\[
+dJ_{P,\omega}^{ret,-}([0,\tau]\times X_P)
+\le
+d\Pi_P([0,\tau]\times X_P\times X_P)
+\le
+\int_0^\tau\sum_\alpha |c_\alpha(t)|\,dt .
+\tag{TFE2748B.1232}
+\]
+
+Using the coefficient/leakage estimate `(TFE2748B.1222)', set the parent
+preallocated atom budget
+
+\[
+B_P^{atom}
+:=
+C_N{\|u_0\|_2^2\over\nu}
+\Theta_P^0(X_P)+Paid_P(X_P)+Stop_P(X_P),
+\tag{TFE2748B.1233}
+\]
+
+and define the stopped reserve
+
+\[
+M_{P,\omega}^{atom}(s)
+:=
+B_P^{atom}
+-dJ_{P,\omega}^{ret,-}([0,s]\times X_P).
+\tag{TFE2748B.1234}
+\]
+
+Equations `(TFE2748B.1232)'--`(TFE2748B.1234)' give
+
+\[
+M_{P,\omega}^{atom}(s)\ge0,
+\qquad
+dJ_{P,\omega}^{ret,-}\le -dM_{P,\omega}^{atom}
+\tag{TFE2748B.1235}
+\]
+
+on the retained same-parent atom ledger.  Therefore the selected raw atom
+attachment is constructed from arbitrary original smooth data before clipping:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{ParentAnnouncedSelectedRawAtomReserve.A:}\\
+(dJ_P^{raw})_{\omega,+}
+\preceq_{atom}
+dJ_{P,\omega}^{ret,-}+(dR_P^{raw})_+,\qquad
+dJ_{P,\omega}^{ret,-}\le -dM_{P,\omega}^{atom}.
+\end{array}}
+\tag{TFE2748B.1236}
+\]
+
+The selected-critical Gold face starts only when the parent critical meter
+\(W_P^{crit}=e^{b_P}\) prices the two lobes differently.  For the same atom
+ledger,
+
+\[
+W_P^{crit}(x)\,\omega_P(x)\,d\Pi_P(x,y)
+\le
+W_P^{crit}(y)\,\omega_P(x)\,d\Pi_P(x,y)
++
+W_P^{crit}(y)\,\omega_P(x)
+\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)d\Pi_P(x,y).
+\tag{TFE2748B.1237}
+\]
+
+The first term has the same retained-reserve form once its weighted mass is
+finite in parent currency.  The second term is exactly the continuous parent
+log-meter variation \(d\mathcal V_P^{crit}\) of
+`(TFE2748B.1160)'--`(TFE2748B.1166)'.  Hence
+
+\[
+\texttt{ParentLogMeterVariationStorage.A `(TFE2748B.1166)'}
+\Longrightarrow
+\texttt{TowerSelectedWeightedReserve.A `(TFE2748B.1229)'}.
+\tag{TFE2748B.1238}
+\]
+
+Combining `(TFE2748B.1238)' with Sections 130--132 gives the exact consumption
+chain for the weighted upgrade:
+
+\[
+\mathsf G_P^{EA}
+\Longrightarrow
+\texttt{ParentLogMeterVariationStorage.A}
+\Longrightarrow
+\texttt{TowerSelectedWeightedReserve.A}
+\Longrightarrow
+\texttt{the tower face of `(TFE2748B.1211)'}.
+\tag{TFE2748B.1239}
+\]
+
+Thus the construction requested here is fully raw-parent and before clipping:
+zero-mean same-parent atoms, selected coefficient/leakage control, and retained
+opposite-lobe reserve depletion are installed.  What remains for Gold is the
+same selected-critical weighted storage already isolated as parent log-meter /
+full-exchange no-profit storage, not another atom decomposition.
