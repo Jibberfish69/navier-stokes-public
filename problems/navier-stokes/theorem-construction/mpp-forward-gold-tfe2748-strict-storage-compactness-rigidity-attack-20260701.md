@@ -7776,3 +7776,170 @@ middle-band flux estimate for \(\Pi_N^{mid}\).  Thus the repeated-core branch
 has been pushed one layer lower: it is not a free signed-lift assumption, but
 the stopped polar pushdown of the continuous signed commutator identity plus
 paid cocycle, boundary, middle-band, collar, and detector-motion terms.
+
+## 61. Boundary-middle-collar barrier split
+
+The term `StoppedBoundaryMiddleCollarBarrier.A' in `(TFE2748B.492)' is itself a
+bundle of three different packets.  The checked lifted-band support notes split
+it into an upper-boundary same-scale packet, a near-corona moving-spill packet,
+and a far-corona two-scale packet with an explicit gap kernel.  This section
+records that split in the current \(TFE2748B\) variables.
+
+The upper-boundary packet has the frozen same-scale family form
+
+\[
+\mathfrak B_N^{upper}(t)
+=
+\sum_{a\in\mathcal A_{ub}}c_a\,\Pi_{N,a}^{edge}(t)
++\mathcal E_N^{ub,collar}(t),
+\tag{TFE2748B.494}
+\]
+
+where the family \(\mathcal A_{ub}\) has bounded size and fixed symbol
+seminorms independent of \(N,t,u\).  If the collar residual satisfies
+
+\[
+\int_0^T|\mathcal E_N^{ub,collar}(t)|\,dt
+\le
+\varepsilon\nu\int_0^T D_N(t)\,dt
++C_\varepsilon 2^{-2\delta N},
+\tag{TFE2748B.495}
+\]
+
+then the installed coefficient-bearing same-scale carrier estimate gives
+
+\[
+\int_0^T|\mathfrak B_N^{upper}(t)|\,dt
+\le
+\varepsilon\nu\int_0^T D_N(t)\,dt
++C_\varepsilon
+\int_0^T\widetilde\Lambda_N^\sharp(t)E_N(t)\,dt
++C_\varepsilon2^{-2\delta N}.
+\tag{TFE2748B.496}
+\]
+
+Thus the upper-boundary packet is not a new large-gap source.  After the
+coefficientwise frozen-family writeup and collar residual bound, it is on the
+same weighted-carrier ledger as the same-scale side.
+
+For the middle-band packet, fix a logarithmic corona width \(L\).  The
+middle-band flux decomposes as
+
+\[
+\Pi_N^{mid}
+=
+\Pi_N^{mid,near,L}
++\Pi_N^{mid,far,L}.
+\tag{TFE2748B.497}
+\]
+
+The near-corona term is a moving spill family modulo collar residual, and the
+weighted-carrier resolution gives
+
+\[
+\int_0^T\Pi_N^{mid,near,L}(t)\,dt
+\le
+\varepsilon\nu\int_0^T D_N(t)\,dt
++C_{\varepsilon,L,\nu}
+\int_0^T\widetilde\Lambda_N^\sharp(t)E_N(t)\,dt
++C_{\varepsilon,L}2^{-2\delta N}.
+\tag{TFE2748B.498}
+\]
+
+The far-corona term has the exact continuum gap-kernel reduction
+
+\[
+\Pi_N^{mid,far,L}(t)
+\le
+C_L
+\int_0^{\ell_N}\int_{r\ge c_1\ell}
+{\ell\over r}\,
+\mathcal A_{\ell,r}(t)
+\,{dr\over r}{d\ell\over\ell},
+\tag{TFE2748B.499}
+\]
+
+where
+
+\[
+\mathcal A_{\ell,r}(t)
+:=
+\chi_{mid}(\log\ell)
+\int_{\mathbb R^3}
+\widetilde\Sigma_r(x,t)\,\tau_\ell^{H^1}[u](x,t)\,dx .
+\tag{TFE2748B.500}
+\]
+
+The Hardy/Schur summation is already elementary once the two-scale density has
+the correct one-sided square structure.  A sufficient input is the factorized
+Carleson form
+
+\[
+\mathcal A_{\ell,r}(t)\le U(\ell,t)V(r,t),
+\qquad r\ge c_1\ell,
+\tag{TFE2748B.501}
+\]
+
+with
+
+\[
+\int_0^T\int_0^{\ell_N}U(\ell,t)^2\,{d\ell\over\ell}dt
+\le
+C_U\int_0^T D_N(t)\,dt,
+\qquad
+\int_0^T\int_{\ell\le r/c_1}V(r,t)^2\,{dr\over r}dt
+\le
+C_V2^{-2\delta N}.
+\tag{TFE2748B.502}
+\]
+
+Then Schur's test for \(K(\ell,r)=1_{r\ge c_1\ell}\ell/r\) and Cauchy-Schwarz
+give
+
+\[
+\int_0^T\Pi_N^{mid,far,L}(t)\,dt
+\le
+{\eta\nu\over16}\int_0^T D_N(t)\,dt
++C_*2^{-2\delta N}.
+\tag{TFE2748B.503}
+\]
+
+Finally, the weighted collar residual supplier says that the collar residuals
+in `(TFE2748B.495)' and `(TFE2748B.498)' are paid whenever the fixed collar is
+contained in the selector plateau, or the residual amplitude and residual
+strain ledger bounds hold.  In current notation,
+
+\[
+\texttt{PlateauContainmentFixedCollar.A}
+\quad\text{or}\quad
+\texttt{ResidualAmplitudeStrainLedger.A}
+\Longrightarrow
+\texttt{CollarResidualBarrier.A}.
+\tag{TFE2748B.504}
+\]
+
+Combining `(TFE2748B.496)', `(TFE2748B.498)', `(TFE2748B.503)', and
+`(TFE2748B.504)' gives the exact barrier implication
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{UpperBoundaryFrozenFamilyWriteup.A}\\
++\texttt{CollarResidualBarrier.A}\\
++\texttt{WeightedMovingSpillCarrier.A}\\
++\texttt{FarCoronaTwoScaleCarleson.A}\\
++\texttt{WeightedCarrierFullExchangePayment.A}
+\end{array}
+\Longrightarrow
+\texttt{StoppedBoundaryMiddleCollarBarrier.A}.}
+\tag{TFE2748B.505}
+\]
+
+Here `WeightedCarrierFullExchangePayment.A' means the surrounding
+square-completed full-exchange storage must pay
+\(\int\widetilde\Lambda_N^\sharp E_N\) with strict margin; otherwise
+`(TFE2748B.496)' and `(TFE2748B.498)' remain carrier-routed estimates rather
+than coefficient-free absorption.  The genuinely new middle-band analytic
+input after the installed reductions is the coupled two-scale Carleson theorem
+for \(\mathcal A_{\ell,r}\), not the Hardy/Schur summation and not a one-scale
+bound on \(\widetilde\Sigma_r\) alone.
