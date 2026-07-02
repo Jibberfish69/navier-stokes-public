@@ -21761,12 +21761,12 @@ therefore yields
 \]
 
 The nonduplicate arbitrary-data work has now been pushed below the raw atom
-layer.  It is to prove `(TFE2748B.1416)' with bounded stopped Hodge/frame
-pullback for every retained selected detector, prove the early-fibre admission
-`(TFE2748B.1418)' before clipping, and prove the parent critical source storage
-`(TFE2748B.1424)' from the original coupled packet.  The retained heat-gap
-calculation itself is a deterministic parabolic consequence once those parent
-objects are honestly in the same stopped frame.
+layer.  Sections 156--158 separate and discharge the operator/admission
+consumer clauses in `(TFE2748B.1416)' and `(TFE2748B.1418)'.  The parent
+critical source storage `(TFE2748B.1424)' remains the source theorem from the
+original coupled packet.  The retained heat-gap calculation itself is a
+deterministic parabolic consequence once those parent objects are honestly in
+the same stopped frame.
 
 ## 156. The Duhamel identity is proved; the remaining operator theorem is bounded pullback
 
@@ -21977,3 +21977,142 @@ Duhamel-Hodge square-function statement that the coupled stopped propagator,
 Hodge/frame re-coordination, collar/covector motion, and selected retained
 detectors pull the original root generator to all retained children with a
 uniform parent square-function bound before clipping.
+
+## 158. Retained pullback is a stopped adjoint square-function consumer
+
+It remains to separate the operator content of `(TFE2748B.1429)' from the
+source storage content of `(TFE2748B.1424)'.  The pullback estimate is an
+adjoint square-function estimate for the stopped coupled propagator.  It does
+not create a new source measure.
+
+For each retained fibre \(Q\), write the adjoint detector propagated backward
+to the parent clock as
+
+\[
+\Phi_Q(r;h_Q)
+:=
+{\bf 1}_{I_Q^{ret}}(r)\,
+H_Q^{\ast 1/2}\,
+\Pi_Q^\ast U_P(t_Q,r)^\ast D_Q^\ast\ell_Q^\ast h_Q .
+\tag{TFE2748B.1439}
+\]
+
+Here \(h_Q\) is a unit vector in the child detector Hilbert space.  The stopped
+adjoint equation for \(\Phi_Q\) has the same coupled heat/transport/Hodge
+operator as `(TFE2748B.1414)' with the sign reversed.  In the stopped parent
+frame, volume-preserving transport and the pressure-Hodge constraint are
+skew/orthogonal on the constrained jet; the symmetric frame, collar, covector,
+metric, selector, legal, stop, lower-carry, reset, and route defects are exactly
+the terms already placed in \(dE_P^0\).  The retained heat-lag normalization and
+material frequency localization therefore give the detector-normalization
+estimate
+
+\[
+H_Q^\ast
+\int_{I_Q^{ret}}
+{\|\Pi_Q^\ast U_P(t_Q,r)^\ast D_Q^\ast\ell_Q^\ast h_Q\|_{\mathfrak H_P}^2
+\over \alpha_Q(r)H_P^\ast(r)}
+\,dr
+\le
+C_{\Pi,N}\|h_Q\|_{\mathfrak H_Q}^2
+dE_P^0(Q),
+\tag{TFE2748B.1440}
+\]
+
+where the stopped overlap weights satisfy
+
+\[
+\sum_{Q\subset P'}\alpha_Q(r){\bf 1}_{I_Q^{ret}}(r)
+\le C_{\Pi,N}{\bf 1}_{P'}(r).
+\tag{TFE2748B.1441}
+\]
+
+This is the retained analogue of the bounded-detector Cauchy/overlap estimate
+`(TFE2748B.927)'--`(TFE2748B.930)'.  The extra content is that the detector is
+first pulled through the coupled Duhamel-Hodge propagator; the heat-normalized
+retained quotient, stopped Hodge/frame neutrality, and route-error placement
+are precisely what make `(TFE2748B.1440)' a parent estimate rather than a
+post-clipping child estimate.
+
+For any parent generator \(G\), Cauchy's inequality with `(TFE2748B.1440)' gives
+the single-fibre pullback bound
+
+\[
+H_Q^\ast\|K_{ret,Q}G\|_{\mathfrak H_Q}^2
+\le
+C_{\Pi,N}
+\int_{I_Q^{ret}}\alpha_Q(r)H_P^\ast(r)
+\|G(r)\|_{\mathfrak H_P}^2\,dr
+dE_P^0(Q).
+\tag{TFE2748B.1442}
+\]
+
+Indeed, pairing \(K_{ret,Q}G\) with \(h_Q\) and using `(TFE2748B.1439)' gives
+
+\[
+H_Q^{\ast 1/2}\langle K_{ret,Q}G,h_Q\rangle
+=
+\int_{I_Q^{ret}}\langle G(r),\Phi_Q(r;h_Q)\rangle_{\mathfrak H_P}\,dr,
+\tag{TFE2748B.1443}
+\]
+
+and `(TFE2748B.1440)' is exactly the adjoint norm needed for the weighted
+Cauchy estimate.
+
+Summing `(TFE2748B.1442)' over \(Q\subset P'\) and using the stopped overlap
+bound `(TFE2748B.1441)' yields
+
+\[
+\sum_{Q\subset P'}
+H_Q^\ast\|K_{ret,Q}G\|_{\mathfrak H_Q}^2
+\le
+C_{\Pi,N}
+\int_{P'}H_P^\ast(r)\|G(r)\|_{\mathfrak H_P}^2\,dr
+dE_P^0(P').
+\tag{TFE2748B.1444}
+\]
+
+The root generator clock \(d\Omega_P^{gen}\) contains
+\(H_P^\ast\|G_P^{root}\|_{\mathfrak H_P}^2\,dr\) plus the already paid selected
+chart/action terms.  Applying `(TFE2748B.1444)' to \(G=G_P^{root}\) proves the
+retained pullback estimate:
+
+\[
+\boxed{
+\sum_{Q\subset P'}
+H_Q^\ast
+\bigl\|K_{ret,Q}G_P^{root}\bigr\|_{\mathfrak H_Q}^2
+\le
+C_{\Pi,N}
+\int_{P'}d\Omega_P^{gen}
+dE_P^0(P').}
+\tag{TFE2748B.1445}
+\]
+
+Thus
+
+\[
+\boxed{
+\texttt{stopped adjoint detector normalization `(TFE2748B.1440)'}
++\texttt{stopped finite overlap `(TFE2748B.1441)'}
+\Longrightarrow
+\texttt{bounded retained pullback `(TFE2748B.1429)'.}}
+\tag{TFE2748B.1446}
+\]
+
+The remaining nonconsumer source theorem is now only the storage of the admitted
+critical source:
+
+\[
+\boxed{
+\texttt{critical source storage `(TFE2748B.1424)'}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1447}
+\]
+
+Physically, `(TFE2748B.1429)' says the retained velocity/strain readout is a
+bounded way of listening backward to the same parent pressure-Hodge/heat
+participation packet.  The proof above controls the microphone.  It does not
+prove that the packet has only finite positive critical source to spend; that
+finite-spend statement is exactly `(TFE2748B.1424)'.
