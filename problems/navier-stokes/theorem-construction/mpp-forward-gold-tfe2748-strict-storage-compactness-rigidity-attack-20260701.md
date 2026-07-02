@@ -19052,7 +19052,7 @@ By the stopped transition projection already used in `(TFE2748B.885)'--
 d\mathcal J_N
 \le
 C_N\,R_P^{tr,+}\,d\Theta_P^{tr}
-dE_P^0,
++dE_P^0,
 \qquad
 \int_{P'}R_P^{tr,+}\,d\Theta_P^{tr}
 \le
@@ -19066,7 +19066,7 @@ Equivalently, on every stopped parent subpacket,
 \int_{P'}d\mathcal J_N
 \le
 C_N\int_{P'}d\Xi_P^{FE}
-C_N\int_{P'}dE_P^0 .
++C_N\int_{P'}dE_P^0 .
 \tag{TFE2748B.1245}
 \]
 
@@ -19077,7 +19077,7 @@ Combining `(TFE2748B.1245)' with the strict full-exchange storage
 d\mathscr S_P^J+c_Jd\mathcal J_N
 \le
 \theta_Jd\Omega_P^{gen}
-dE_P^0,
++dE_P^0,
 \qquad
 C_N\theta_J<1
 \tag{TFE2748B.1246}
