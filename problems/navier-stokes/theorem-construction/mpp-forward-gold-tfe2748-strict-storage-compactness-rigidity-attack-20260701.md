@@ -17023,3 +17023,85 @@ pressure-compatible/heat-lag/viscous readout interfaces, but it may not keep
 raising the selected active shell weight through infinitely many same-parent
 interfaces without spending residence, return, reset, endpoint, legal, stop, or
 bounded parent storage.
+
+## 125. Moving-interface transit is the shell coordinate of full-exchange storage
+
+The name `MovingInterfaceActiveTransitNoWaste.A' should not create another
+source theorem beside the full-exchange storage of Sections 101--102.  It is
+the shell-coordinate readout of that same storage.
+
+Define the moving-interface active ledger by
+
+\[
+d\Xi_{P,J}^{mi}
+:=
+\sum_{j\ge J}
+\bigl[(\beta_{j+1}-\beta_j)\Pi_{j\to j+1}\bigr]_+\,dt
+\quad
+\text{after route, return, reset, legal, stop, and endpoint pieces are removed.}
+\tag{TFE2748B.1110}
+\]
+
+This ledger is not a child-tail object.  Each factor in `(TFE2748B.1110)' is
+parent-known before clipping: \(\beta_j=2^jD_j\) is the active shell weight
+read from the stopped parent shell energy, and \(\Pi_{j\to j+1}\) is the signed
+full-output transfer across a same-parent shell interface.  Thus the
+before-clipping active-density comparison has the shell-coordinate form
+
+\[
+d\Xi_{P,J}^{mi}
+\le
+C_N\,d\Xi_P^{FE}
+dE_P^0
+C_N2^{-2\delta J}\,dt ,
+\tag{TFE2748B.1111}
+\]
+
+where \(d\Xi_P^{FE}\) is the parent-known full-exchange critical ledger from
+`(TFE2748B.891)'--`(TFE2748B.893)'.  Equation `(TFE2748B.1111)' is exactly the
+statement that the moving shell-interface readout is a bounded projection of
+the original full-exchange ledger, not a later positive child count.
+
+If the full-exchange depletion storage `(TFE2748B.893)' holds, then
+`(TFE2748B.1111)' gives
+
+\[
+d\Xi_{P,J}^{mi}
+\le
+-C_N\,dM_P^{FE}
+C_N\theta_{FE}\,d\Omega_P^{gen}
+dE_P^0
+C_N2^{-2\delta J}\,dt .
+\tag{TFE2748B.1112}
+\]
+
+After absorbing constants into the strict margin, `(TFE2748B.1112)' is
+`MovingInterfaceActiveTransitNoWaste.A' `(TFE2748B.1108)'.  Therefore
+
+\[
+\texttt{FullExchangeCriticalDepletionStorage.A}
++\texttt{BeforeClippingActiveDensityComparison.A}
+\Longrightarrow
+\texttt{MovingInterfaceActiveTransitNoWaste.A}.
+\tag{TFE2748B.1113}
+\]
+
+Combining `(TFE2748B.1113)' with `(TFE2748B.1109)' returns to the original
+critical capacity line:
+
+\[
+\texttt{FullExchangeCriticalDepletionStorage.A}
++\texttt{BeforeClippingActiveDensityComparison.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.
+\tag{TFE2748B.1114}
+\]
+
+This proves that the shell-transit normal form is a coordinate proof route, not
+a separate closure theorem.  The arbitrary-data work still sits exactly where
+Sections 101--102 placed it: construct the full-exchange critical ledger from
+the original pressure-Hodge/viscous-Stokes/self-advection/incompressibility
+packet before child clipping and prove its bounded-below depletion storage with
+a strict no-self-feeding margin.  Once that is proved, the moving-interface
+transit thread, signed lifted transfer, finite capacitary excess, and critical
+capacity variation/storage line all close by the displayed implications.
