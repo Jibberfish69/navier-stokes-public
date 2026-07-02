@@ -20457,3 +20457,136 @@ from the original coupled packet before clipping.  This is the weighted
 selected-critical active-capacity theorem.  The raw signed atom decomposition,
 coefficient/leakage control, and retained opposite-lobe reserve depletion are
 closed inputs to it, not remaining source burdens.
+
+## 148. Direct attack: the active-potential line is a Kato--Mazya form bound
+
+The current source can be tested without returning to dyadic or child-count
+language.  For a stopped parent subpacket \(P'\), define the parent form norm of
+a positive measure \(d\nu\) by
+
+\[
+\mathfrak K_{P'}(d\nu)
+:=
+\sup_{\zeta\in C_c^\infty(P'),\ \zeta\ne0}
+{\left(\int_{P'}\zeta^2\,d\nu-dE_P^0(P';\zeta)\right)_+
+\over
+\int_{P'}|\nabla_A\zeta|^2\,d\mathfrak m_P } .
+\tag{TFE2748B.1335}
+\]
+
+Maz'ya's criterion says that the residual capacity line in
+`(TFE2748B.1334)' is exactly
+
+\[
+\mathfrak K_{P'}(d\mathfrak v_P^{res})\le\vartheta,
+\qquad C_N\vartheta<1.
+\tag{TFE2748B.1336}
+\]
+
+So a direct proof of `ParentActivePotentialCapacityDomination.A' must do two
+things in the original parent packet before clipping:
+
+\[
+\begin{array}{ll}
+\text{(i)}&
+\text{split }d\mathfrak v_P^{crit}=d\mathfrak v_P^{res}
++d\mathfrak v_P^{exc}\text{ with `(TFE2748B.1336)';}\\[1mm]
+\text{(ii)}&
+\displaystyle
+\sup_{\tau<T_*}
+\int_{[0,\tau]\times X_P}U_P^2\,d\mathfrak v_P^{exc}
+\le C_N(u_0)+Paid_P+Legal_P+Stop_P .
+\end{array}
+\tag{TFE2748B.1337}
+\]
+
+Section 109 constructs the maximal residual and the formal reserve once the
+second line is finite.  Therefore the only live estimate is the finite
+weighted excess in `(TFE2748B.1337)'.
+
+Now write the absolutely continuous part of the active potential from
+`(TFE2748B.960)' as
+
+\[
+d\mathfrak v_{P,ac}^{crit}
+=
+{\Phi'(F_P)F_P\over U_P^2}\,
+g_P^+\,d\mathfrak m_P,
+\qquad
+g_P^+:=\bigl[\mathcal L_P\log W_P^{crit}\bigr]_+ .
+\tag{TFE2748B.1338}
+\]
+
+For \(\Phi(r)=r\log(e+r)\) and
+\(U(r)=\int_0^r\sqrt{\Phi''(s)}\,ds\), the coefficient satisfies
+
+\[
+c^{-1}\log(e+r)
+\le
+{\Phi'(r)r\over U(r)^2}
+\le
+c\log(e+r)
+\qquad(r\ge r_0),
+\tag{TFE2748B.1339}
+\]
+
+with the small-\(r\) range absorbed into \(dE_P^0\) and the fixed finite chart
+constants.  Thus the direct source inequality is the parent Kato--Maz'ya
+control of the positive log-meter speed:
+
+\[
+\sup_{\zeta\ne0}
+{\left(
+\int_{P'}\zeta^2\log(e+F_P)\,
+\bigl[\mathcal L_P\log W_P^{crit}\bigr]_+
+d\mathfrak m_P
+-dE_P^0(P';\zeta)
+\right)_+
+\over
+\int_{P'}|\nabla_A\zeta|^2\,d\mathfrak m_P}
+\le \vartheta<1/C_N,
+\tag{TFE2748B.1340}
+\]
+
+after the already admitted singular endpoint seed and paid selector-motion
+parts are removed.  Any excess over `(TFE2748B.1340)' is precisely
+\(d\mathfrak v_P^{exc}\), and its \(U_P^2\)-mass is the reserve spend in
+`(TFE2748B.1337)'.
+
+This calculation exposes the failed direct shortcut.  The original energy
+inequality and raw signed atom theorem give
+
+\[
+\int_0^\tau\|\nabla u(t)\|_2^2\,dt<\infty,
+\qquad
+\int_0^\tau |dJ_P^{raw}|<\infty,
+\tag{TFE2748B.1341}
+\]
+
+and the entropy identity gives the Fisher clock
+\(\int|\nabla_AU_P|^2\,d\mathfrak m_P\).  Those facts control square/Fisher
+readouts and raw signed variation.  They do not by themselves imply the
+subunit form norm `(TFE2748B.1340)', because `(TFE2748B.1340)' is a
+one-sided capacity bound for the positive log-meter speed before clipping.
+
+Equivalently, a proof from arbitrary original smooth data must produce a
+parent-built compensator \(K_P^{act}\), bounded below from the original data,
+such that
+
+\[
+\log(e+F_P)\bigl[\mathcal L_P\log W_P^{crit}\bigr]_+
+d\mathfrak m_P
+\le
+-dK_P^{act}
+\vartheta\,\operatorname{Cap}_{A,P}
+dE_P^0
+\quad\text{in the form sense of `(TFE2748B.1335)'.}
+\tag{TFE2748B.1342}
+\]
+
+Then \(M_P^{cap}=K_P^{act}\) plus the Section 109 maximal-excess reserve gives
+`(TFE2748B.1334)', and the downstream chain gives
+`CriticalCapacityVariationStorage.A'.  Without `(TFE2748B.1342)', finite raw
+atom mass, finite energy, endpoint admission, and entropy/Fisher dissipation
+remain consumers; they do not prove the selected-critical positive
+\(L^1\) capacity storage line.
