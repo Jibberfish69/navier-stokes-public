@@ -75,18 +75,18 @@ CLOSURE_VERB = /
 
 HIGH_RISK_POSITIVE_SUM_CLAIMS = {
   "point-sample sum promoted to Gold L1 source" =>
-    /(?:#{SUM_TOKEN.source})[^\n]*(?:#{CLOSURE_VERB.source})[^\n]*(?:Gold L1|source theorem|OriginalCriticalCapacityVariation|TFE2748B|physical)/ix,
+    /(?:#{SUM_TOKEN.source})[^\n]*(?:#{CLOSURE_VERB.source})[^\n]*(?:Gold\s+L1|source\s+theorem|OriginalCriticalCapacityVariation|TFE2748B|physical)/ix,
   "child or atom count promoted to Gold L1 source" =>
     /(?:physical child count|counting zoomed child|child-normalized(?: unit)?(?: fresh)?(?: readout)? sum|sum over (?:atom|child|packet) labels)[^\n]*(?:#{CLOSURE_VERB.source})/ix,
   "raw atom bookkeeping promoted to weighted storage" =>
-    /raw atom bookkeeping[^\n]*(?:#{CLOSURE_VERB.source})[^\n]*(?:selected|weighted|storage|Gold L1)/ix
+    /raw\s+atom\s+bookkeeping[^\n]*(?:#{CLOSURE_VERB.source})[^\n]*(?:selected|weighted|storage|Gold\s+L1)/ix
 }.freeze
 
 HIGH_RISK_COUPLED_STORAGE_CLAIMS = {
   "coupled storage loop promoted to Gold L1 closure" =>
-    /(?:TFE2748B\.(?:1392|1393|1541a|1548|1555|1556)|ActiveTransitLocalStorage\.A|FullExchangeNoSelfFeedingStorage\.A|ParentActivePotentialCapacityDomination\.A|CriticalEndpointDepletionStorage\.A|FiniteCapacitaryExcess\.A|preallocated critical[-\s]source storage)[^\n]*(?:#{CLOSURE_VERB.source})[^\n]*(?:Gold L1|Gold|source theorem|OriginalCriticalCapacityVariation|CriticalCapacityVariationStorage|closure)/ix,
+    /(?:TFE2748B\.(?:1392|1393|1541a|1548|1555|1556)|ActiveTransitLocalStorage\.A|FullExchangeNoSelfFeedingStorage\.A|ParentActivePotentialCapacityDomination\.A|CriticalEndpointDepletionStorage\.A|FiniteCapacitaryExcess\.A|preallocated\s+critical[-\s]source\s+storage)[^\n]*(?:#{CLOSURE_VERB.source})[^\n]*(?:Gold\s+L1|Gold|source\s+theorem|OriginalCriticalCapacityVariation|CriticalCapacityVariationStorage|closure)/ix,
   "linear storage chain promoted to closure" =>
-    /(?:linear|sequential|mutual)\s+(?:proof\s+)?(?:chain|implication|loop)[^\n]*(?:#{CLOSURE_VERB.source})[^\n]*(?:Gold|source theorem|closure)/ix
+    /(?:linear|sequential|mutual)\s+(?:proof\s+)?(?:chain|implication|loop)[^\n]*(?:#{CLOSURE_VERB.source})[^\n]*(?:Gold|source\s+theorem|closure)/ix
 }.freeze
 
 NEGATING_CONTEXT = /\b(?:not|no|never|invalid|quarantine|cannot|can't|must not|only)\b/i.freeze
