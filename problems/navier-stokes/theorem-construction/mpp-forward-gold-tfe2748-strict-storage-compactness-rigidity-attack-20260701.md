@@ -9713,8 +9713,8 @@ dI_\infty+d\Theta_\infty^0+dPaid_\infty+dStop_\infty=0,
 whose mass is nevertheless the limit of the original coupled
 pressure-viscosity-incompressibility-velocity shell current before clipping.
 
-Consequently the storage theorem is now equivalent to ruling out precisely this
-defect:
+Consequently the negation of the storage theorem is now equivalent, inside the
+normalized failure class, to producing precisely this defect:
 
 \[
 \boxed{
@@ -9723,17 +9723,18 @@ defect:
 +\texttt{ZeroSourceAlignedCurrentNoGhost.A `(TFE2748B.619)\Rightarrow
 \lambda_\infty=0'}
 \end{array}
-\Longleftrightarrow
+\Longrightarrow
 \texttt{ParentComparisonPositiveSurplus.A `(TFE2748B.351)'.}
 }
 \tag{TFE2748B.620}
 \]
 
-The forward implication is by contradiction: failure of `(TFE2748B.351)' gives
+The implication is by contradiction: failure of `(TFE2748B.351)' gives
 `(TFE2748B.611)'--`(TFE2748B.612)'; non-tight mass is paid by retained-quotient
 loss, and tight mass gives the zero-source defect `(TFE2748B.619)', contradicting
-`ZeroSourceAlignedCurrentNoGhost.A'.  The reverse implication is just the
-negation construction above.
+`ZeroSourceAlignedCurrentNoGhost.A'.  Conversely, every normalized failure of
+`(TFE2748B.351)' must enter exactly the non-tight branch `(TFE2748B.614)' or the
+tight defect branch `(TFE2748B.619)'.
 
 This is a real lowering of the Gold source wall.  The remaining original-data
 work is not the signed atom decomposition and not a current representation.  It
@@ -9741,5 +9742,5 @@ is the coupled no-ghost statement: a unit positive aligned current cannot remain
 after the same parent packet has zero Fisher carrier, zero paid motion, zero
 route/collar/frame/legal/stop leakage, and no retained-quotient escape.  Any
 future proof of the critical capacity variation/storage line must supply
-`(TFE2748B.615)' and the no-ghost implication in `(TFE2748B.620)' from the
-original smooth data before child clipping.
+retained-quotient tightness for normalized failures and the no-ghost implication
+in `(TFE2748B.620)' from the original smooth data before child clipping.
