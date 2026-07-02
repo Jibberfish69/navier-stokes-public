@@ -19413,8 +19413,8 @@ trace comparison `(TFE2748B.1080)' gives the compactified domination
 d\mathcal Z_{P,J}^{sq,*}
 \le
 C_{N,J}\,d\Xi_P^{FE,*}
-dE_P^{0,*}
-C_N2^{-2\delta J}\,d\kappa_{P,J}^* .
++dE_P^{0,*}
++C_N2^{-2\delta J}\,d\kappa_{P,J}^* .
 \tag{TFE2748B.1268}
 \]
 
@@ -19429,8 +19429,8 @@ Assume the compactified full-exchange Bellman/no-arbitrage storage
 d\Xi_P^{FE,*}
 \le
 -dB_P^{FE,*}
-\theta_{FE,J}\,d\Omega_P^{gen,*}
-dE_P^{0,*},
++\theta_{FE,J}\,d\Omega_P^{gen,*}
++dE_P^{0,*},
 \qquad
 C_{N,J}\theta_{FE,J}<1,
 \tag{TFE2748B.1269}
@@ -19445,9 +19445,9 @@ absorbed.  Substituting `(TFE2748B.1269)' into `(TFE2748B.1268)' gives
 d\mathcal Z_{P,J}^{sq,*}
 \le
 -dM_{P,J}^{sq,*}
-\theta_{sq,J}\,d\Omega_P^{gen,*}
-dE_P^{0,*}
-C_N2^{-2\delta J}\,d\kappa_{P,J}^*,
++\theta_{sq,J}\,d\Omega_P^{gen,*}
++dE_P^{0,*}
++C_N2^{-2\delta J}\,d\kappa_{P,J}^*,
 \qquad
 C_N\theta_{sq,J}<1,
 \tag{TFE2748B.1270}
