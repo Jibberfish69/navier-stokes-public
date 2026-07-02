@@ -741,6 +741,67 @@ So arbitrary original smooth data constructs the pre-clipping same-parent
 zero-mean atom decomposition, controls coefficient mass and leakage, and records
 the retained opposite lobe as a bounded-below parent reserve drop.
 
+For downstream use, the construction should be read in its time-disintegrated
+form.  For almost every stopped parent time \(t\), apply the Jordan construction
+above to \(dJ_{P,t}^0\), choose the product coupling \(d\pi_{P,t}\) from
+`(TFE2748A.33)', and define the spacetime parent transport measure
+
+\[
+d\Pi_P(dt,dx,dy):=dt\,d\pi_{P,t}(x,y).
+\tag{TFE2748A.44}
+\]
+
+Then
+
+\[
+dJ_P^0(dt,dx)
+=
+\int_{X_P}(\delta_x-\delta_y)\,d\Pi_P(dt,dx,dy),
+\tag{TFE2748A.45}
+\]
+
+and the coefficient/leakage control is the single parent-history bound
+
+\[
+\Pi_P([0,\tau]\times X_P\times X_P)
++|(dR_P)_+|([0,\tau]\times X_P)
+\le
+B_P^{atom}(\tau).
+\tag{TFE2748A.46}
+\]
+
+Thus no countable dyadic or child-scale sum is part of the object.  A countable
+atom display is only a simple-measure approximation to \(d\Pi_P\), and its
+coefficient variation converges to the transport mass in `(TFE2748A.46)'.
+
+For a spacetime parent selector \(0\le\omega_P(t,x)\le1\) fixed before
+positive clipping, the retained opposite lobe is
+
+\[
+dJ_{P,\omega}^{ret,-}
+:=
+(\operatorname{time},\mathrm{pr}_2)_\#
+\bigl(\omega_P(t,x)\,d\Pi_P(t,x,y)\bigr).
+\tag{TFE2748A.47}
+\]
+
+Consequently the raw reserve is the monotone leftover of the same parent
+transport budget:
+
+\[
+M_{P,\omega}^{atom}(s)
+:=
+B_P^{atom}(\tau)
+-dJ_{P,\omega}^{ret,-}\bigl([0,s]\times X_P\bigr),
+\qquad 0\le s\le\tau,
+\tag{TFE2748A.48}
+\]
+
+so `(TFE2748A.46)' gives \(M_{P,\omega}^{atom}(s)\ge0\) and
+\(-dM_{P,\omega}^{atom}=dJ_{P,\omega}^{ret,-}\) on retained same-parent atoms.
+This is the requested bounded-below parent reserve depletion from arbitrary
+original smooth data, before any child positive readout is clipped.
+
 The selected-critical storage theorem begins only after the critical meter is
 allowed to vary across a same-parent atom:
 
