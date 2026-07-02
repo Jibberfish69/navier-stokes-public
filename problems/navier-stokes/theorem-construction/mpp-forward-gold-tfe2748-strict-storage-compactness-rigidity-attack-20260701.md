@@ -18911,7 +18911,7 @@ preallocated atom budget
 B_P^{atom}
 :=
 C_N{\|u_0\|_2^2\over\nu}
-\Theta_P^0(X_P)+Paid_P(X_P)+Stop_P(X_P),
++\Theta_P^0(X_P)+Paid_P(X_P)+Stop_P(X_P),
 \tag{TFE2748B.1233}
 \]
 
