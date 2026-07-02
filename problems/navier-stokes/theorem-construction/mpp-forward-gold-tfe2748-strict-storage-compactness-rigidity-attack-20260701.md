@@ -9434,3 +9434,181 @@ unit positive aligned-current measure.  Proving that rigidity, or equivalently
 constructing a bounded-below no-waste Lyapunov law whose drop pays
 `(TFE2748B.596)', is exactly `ParentComparisonPositiveSurplus.A' and therefore
 `OriginalCriticalCapacityVariation.A'.
+
+## 72. Signed atom attachment is closed before clipping
+
+The latest retained-lobe formulation should be recorded without weakening it.
+The attachment itself is a signed-measure theorem on one stopped parent packet,
+provided the selected detector has already been pulled back into the parent
+adjoint before the positive part is clipped.
+
+Fix such a stopped parent packet \(P\).  Let \(dJ_P\) be the pre-clipping
+pressure-Hodge/material residue after route, collar, legal, stop, and endpoint
+material have been separated.  The parent Hodge constraint gives
+
+\[
+dJ_P=dJ_P^0+dR_P,
+\qquad
+\int_{X_P}dJ_P^0=0,
+\qquad
+|dR_P|\le d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.598}
+\]
+
+For arbitrary original smooth data this is a finite signed Radon measure on
+every stopped preterminal packet.  The finiteness is local-in-history smoothness
+plus compact stopping; the zero-mass clause is the constraint-force statement
+that the retained pressure-Hodge part redistributes the same parent packet and
+does not create standalone positive mass.
+
+Take the Jordan decomposition
+
+\[
+dJ_P^0=dJ_P^+-dJ_P^-,
+\qquad
+dJ_P^+(X_P)=dJ_P^-(X_P)=:m_P .
+\tag{TFE2748B.599}
+\]
+
+Choose a coupling \(\pi_P\) of \(dJ_P^+\) and \(dJ_P^-\), for example
+
+\[
+\pi_P={dJ_P^+\otimes dJ_P^-\over m_P}
+\quad(m_P>0),
+\qquad
+\pi_P=0\quad(m_P=0).
+\tag{TFE2748B.600}
+\]
+
+Then for every bounded parent test \(\varphi\),
+
+\[
+\int_{X_P}\varphi\,dJ_P^0
+=
+\int_{X_P\times X_P}
+\bigl(\varphi(x)-\varphi(y)\bigr)\,d\pi_P(x,y),
+\tag{TFE2748B.601}
+\]
+
+or, equivalently,
+
+\[
+dJ_P^0
+=
+\int_{X_P\times X_P}(\delta_x-\delta_y)\,d\pi_P(x,y),
+\qquad
+\pi_P(X_P\times X_P)
+=m_P={1\over2}|dJ_P^0|(X_P).
+\tag{TFE2748B.602}
+\]
+
+In countable notation this is the same same-parent atomic decomposition
+
+\[
+dJ_P
+=
+\sum_\alpha c_\alpha\,d\mu_\alpha+dR_P,
+\qquad
+\int d\mu_\alpha=0,
+\qquad
+\sum_\alpha |c_\alpha|
+\le {1\over2}|dJ_P^0|(X_P),
+\tag{TFE2748B.603}
+\]
+
+with the sum interpreted as a total-variation limit of simple approximants to
+\(\pi_P\).  Thus the coefficient control is exactly the total variation of the
+pre-clipping retained parent residue, and all leakage outside the atom ledger is
+already in \(d\Theta_P^0+dPaid_P+dStop_P\).
+
+The selected positive lobe is the first marginal of this atom ledger, and the
+retained opposite lobe is the second marginal:
+
+\[
+dJ_P^{ret,+}:=(\mathrm{pr}_1)_\#\pi_P,
+\qquad
+dJ_P^{ret,-}:=(\mathrm{pr}_2)_\#\pi_P .
+\tag{TFE2748B.604}
+\]
+
+Since \((\mu+\nu)_+\le \mu_++\nu_+\) for finite signed measures,
+
+\[
+(dJ_P)_+
+\preceq_{atom}
+dJ_P^{ret,-}+(dR_P)_+
+\le
+dJ_P^{ret,-}+d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.605}
+\]
+
+Here \(\preceq_{atom}\) means comparison after lifting the positive lobe to the
+same atom ledger; it is not a pointwise comparison between unrelated spatial
+locations.  This is the exact formal version of the physical statement that the
+positive selected lobe of a zero-mean pressure-Hodge atom arrives with its
+opposite signed lobe in the same parent packet.
+
+The retained opposite lobe is a bounded-below parent reserve depletion.  Let
+\(s(y)\) be the stopped parent-time coordinate of the retained negative lobe and
+define
+
+\[
+M_P^{ret}(\tau)
+:=
+m_P-\pi_P\bigl(\{(x,y):s(y)<\tau\}\bigr).
+\tag{TFE2748B.606}
+\]
+
+Then
+
+\[
+0\le M_P^{ret}(\tau)\le m_P,
+\qquad
+M_P^{ret}(0)=m_P,
+\qquad
+M_P^{ret}(T_P)\ge0,
+\tag{TFE2748B.607}
+\]
+
+and, as a Stieltjes measure on the same parent atom ledger,
+
+\[
+dJ_P^{ret,-}\le -dM_P^{ret},
+\tag{TFE2748B.608}
+\]
+
+with equality on retained atoms once the already-separated leakage is removed.
+Combining `(TFE2748B.605)' and `(TFE2748B.608)' gives the requested
+pre-clipping storage entry:
+
+\[
+(dJ_P)_+
+\preceq_{atom}
+-dM_P^{ret}
+d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.609}
+\]
+
+Thus the signed atom decomposition, coefficient/leakage control, and
+bounded-below retained opposite-lobe depletion are fully constructed from
+arbitrary original smooth data on every stopped preterminal parent packet before
+child clipping.
+
+What this theorem does not supply is the root-uniform selected-critical size of
+the reserve.  The quantity \(m_P={1\over2}|dJ_P^0|(X_P)\) is finite on a stopped
+smooth packet, but Gold requires a parent-built terminal-uniform bound in the
+selected-critical currency:
+
+\[
+M_P^{ret}(0)
+\le
+C\,\mathcal V_P^{global}
+(d\Theta_P^0+dPaid_P+dStop_P)(X_P),
+\tag{TFE2748B.610}
+\]
+
+or equivalently the strict aligned-current comparison `(TFE2748B.351)'.  Section
+72 therefore closes the signed-measure attachment requested here and leaves the
+same source wall already isolated in Section 71: zero-source aligned-current
+rigidity / parent comparison from the original coupled packet, not another atom
+pairing theorem.
