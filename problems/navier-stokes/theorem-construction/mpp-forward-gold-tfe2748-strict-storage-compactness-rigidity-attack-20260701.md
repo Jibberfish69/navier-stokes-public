@@ -15257,8 +15257,8 @@ Section 104:
 \[
 \sum_\alpha\mathfrak D_P^{bd}(\eta_\alpha;\zeta_\alpha)
 \le
-C_N\int_{P'}H_P^\ast\|G_P^{root}\|_{\mathfrak H_P}^2\,d\sigma
-dE_P^0(P').
+\varepsilon\int_{P'}H_P^\ast\|G_P^{root}\|_{\mathfrak H_P}^2\,d\sigma
++C_{\varepsilon,N}dE_P^0(P').
 \tag{TFE2748B.993}
 \]
 
@@ -15268,10 +15268,11 @@ Section 106:
 \[
 \sum_\alpha\mathfrak D_P^{EP}(\eta_\alpha;\zeta_\alpha)
 \le
-C_N\,d\Omega_P^{EP,tr}(P')
-dE_P^0(P')
+\varepsilon\,d\Omega_P^{EP,tr}(P')
++C_{\varepsilon,N}dE_P^0(P')
 \le
-C_N\,d\Omega_P^{gen}(P')+dE_P^0(P').
+\varepsilon C_N\,d\Omega_P^{gen}(P')
++C_{\varepsilon,N}dE_P^0(P').
 \tag{TFE2748B.994}
 \]
 
@@ -15283,7 +15284,7 @@ Therefore `WeightedObstacleDefectPricing.A' has exactly one unpriced branch:
 \sum_\alpha\mathfrak D_P^{tail}(\eta_\alpha;\zeta_\alpha)
 \le
 \vartheta_{tail}\,d\Omega_P^{gen}(P')
-dE_P^0(P'),
++dE_P^0(P'),
 \qquad C_N\vartheta_{tail}<1 .
 }
 \tag{TFE2748B.995}
