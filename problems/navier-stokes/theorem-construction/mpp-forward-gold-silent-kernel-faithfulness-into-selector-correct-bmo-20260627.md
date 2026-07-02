@@ -275,8 +275,9 @@ The silent-kernel theorem supplies the local faithfulness required by the fixed
 carrier part of `(19)`.  It does not by itself supply the global Carleson
 square function.
 
-The remaining proof-bearing Gold object is still the selected-critical global
-root/tent gain.  In the selector-correct Hilbert form, it is:
+The remaining proof-bearing source is still the parent coupled packet before the
+selected tail is read.  The selected-critical global root/tent gain below is its
+selector-correct Hilbert/Carleson parent-ledger projection:
 
 ```math
 \sup_P{1\over\mathcal R(P)}
