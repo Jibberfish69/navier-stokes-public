@@ -87,7 +87,7 @@ CURRENT_SOURCE_WALL_ROOT_SUMMARY = [
   "The forward-positive quarantine index keeps #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} scanned surfaces out of CM authority unless a named bridge lands the exact result in Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence, or proves the outside-CM participation-field/window original-participation audit needed before not Pack_Q can be spent."
 ].compact.join(" ").freeze
 CURRENT_THEOREM_STATUS = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status").freeze
-CURRENT_PACKAGE_STATUS = "gold-l1-open-signed-height-restart-blocked"
+CURRENT_PACKAGE_STATUS = "gold-l1-open-signed-height-sign-persistence-wall"
 CURRENT_GOLD_L1_SIGNED_HEIGHT_WALL = "signed critical-height sign-persistence or peak-height theorem from the Navier-Stokes equation"
 CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702 = "The current Gold L1 source wall is the #{CURRENT_GOLD_L1_SIGNED_HEIGHT_WALL}. Older native-reserve, source-refill, terminal anti-concentration, and scalar sum surfaces are readouts/provenance unless they prove that signed-height object."
 CURRENT_LOWEST_SAFE_CLAIM = "Gold remains open at the #{CURRENT_GOLD_L1_SIGNED_HEIGHT_WALL}; no proof of smoothness, terminal safety, release eligibility, or submission readiness is installed until that source theorem is proved."

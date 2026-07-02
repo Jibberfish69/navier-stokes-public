@@ -10,7 +10,7 @@ decision:
   disposition: blocked
   release_posture: blocked
   completion_tier_target: full-mpp-closure
-  completion_tier_achieved: gold-l1-open-signed-height-restart-blocked
+  completion_tier_achieved: gold-l1-open-signed-height-sign-persistence-wall
   next_cell_type: theorem-upgrade
   next_stage: gold-l1-source-theorem
   next_action: Prove the signed critical-height sign-persistence or peak-height theorem from the Navier-Stokes equation before restoring downstream release or submission readiness.

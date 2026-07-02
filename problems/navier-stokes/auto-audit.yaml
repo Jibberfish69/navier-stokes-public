@@ -7,14 +7,14 @@ identity:
   audited_at: '2026-06-26T13:31:42Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
-  current_package_status: gold-l1-open-signed-height-restart-blocked
+  current_package_status: gold-l1-open-signed-height-sign-persistence-wall
   standalone_status: blocked
-  completion_tier_achieved: gold-l1-open-signed-height-restart-blocked
+  completion_tier_achieved: gold-l1-open-signed-height-sign-persistence-wall
   review_verdict: blocked
   theorem_packet_status: theorem-open
 audit_certification:
-  audit_status: gold-l1-open-signed-height-restart-blocked
-  audit_completion_tier: gold-l1-open-signed-height-restart-blocked
+  audit_status: gold-l1-open-signed-height-sign-persistence-wall
+  audit_completion_tier: gold-l1-open-signed-height-sign-persistence-wall
   audit_review_verdict: blocked
 branch_audit:
   status: gold-l1-open-signed-height-sign-persistence-wall

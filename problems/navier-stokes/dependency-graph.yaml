@@ -5,7 +5,7 @@ identity:
   artifact_id: dependency-graph-navier-stokes
   generated_at: '2026-06-24T00:33:32Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: gold-l1-open-signed-height-restart-blocked
+status: gold-l1-open-signed-height-sign-persistence-wall
 pass: false
 release_eligible: false
 source:

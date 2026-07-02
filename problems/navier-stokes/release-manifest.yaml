@@ -8,7 +8,7 @@ identity:
 status: blocked
 pass: false
 release_eligible: false
-bundle_status: gold-l1-open-signed-height-restart-blocked
+bundle_status: gold-l1-open-signed-height-sign-persistence-wall
 terminal_safe: false
 required_before_terminal_release:
 - gold-l1-signed-height-sign-persistence-wall
@@ -51,24 +51,24 @@ source_summary:
   review_verdict:
     verdict: blocked
     release_posture: blocked
-    completion_tier_achieved: gold-l1-open-signed-height-restart-blocked
+    completion_tier_achieved: gold-l1-open-signed-height-sign-persistence-wall
     terminal_safe: false
   submission_verdict:
     submission_ready: false
   release_decision:
     disposition: blocked
     release_posture: not-export-ready
-    completion_tier_achieved: gold-l1-open-signed-height-restart-blocked
+    completion_tier_achieved: gold-l1-open-signed-height-sign-persistence-wall
   existing_assumption_ledger_status:
     ledger_status: blocked-theorem-open
     direct_live_authority_all_discharged: false
     cm_contrapositive_referee_gate_clear: false
     release_eligible: false
-    release_gate: gold-l1-open-signed-height-restart-blocked
+    release_gate: gold-l1-open-signed-height-sign-persistence-wall
   auto_audit_certification:
-    current_package_status: gold-l1-open-signed-height-restart-blocked
+    current_package_status: gold-l1-open-signed-height-sign-persistence-wall
     standalone_status: blocked
-    completion_tier_achieved: gold-l1-open-signed-height-restart-blocked
+    completion_tier_achieved: gold-l1-open-signed-height-sign-persistence-wall
     review_verdict: blocked
     theorem_packet_status: theorem-open
   cm_contrapositive_referee_gate:
@@ -174,7 +174,7 @@ cm_contrapositive_referee_gate:
   release_eligible: false
   blockers:
   - navier-stokes-exactness-rework-active
-release_gate: gold-l1-open-signed-height-restart-blocked
+release_gate: gold-l1-open-signed-height-sign-persistence-wall
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight:
   rule_id: ns-target-topology-preflight-v2
