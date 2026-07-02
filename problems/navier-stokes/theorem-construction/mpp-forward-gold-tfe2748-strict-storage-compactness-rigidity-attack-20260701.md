@@ -22336,20 +22336,30 @@ dJ_P^0
 \tag{TFE2748B.1466}
 \]
 
-The countable atomic display
+This is the exact atomic decomposition.  The atom label is the original
+parent-time triple \(\alpha=(t,x,y)\), and the elementary same-parent atom is
 
 \[
-dJ_P=\sum_\alpha c_\alpha\,d\mu_\alpha+dR_P,\qquad
-\int d\mu_\alpha=0,
+d\mu_\alpha:=\delta_{(t,x)}-\delta_{(t,y)},\qquad
+\int d\mu_\alpha=0.
 \tag{TFE2748B.1467}
 \]
 
-is the simple-measure approximation of `(TFE2748B.1466)', with coefficient mass
-controlled by the transport mass:
+Thus
 
 \[
-\sum_\alpha |c_\alpha|
-\le
+dJ_P=dR_P+\int d\mu_\alpha\,d\Pi_P(\alpha).
+\tag{TFE2748B.1467a}
+\]
+
+When the shorthand \(\sum_\alpha c_\alpha d\mu_\alpha\) is used, it denotes a
+simple-measure approximation of the continuum coupling \(d\Pi_P\), tested
+against parent-announced functions.  It is not a second physical count of child
+scales.  Its coefficient mass is controlled by the same coupling mass:
+
+\[
+\int d\Pi_P
+=
 \Pi_P([0,\tau]\times X_P\times X_P)
 =
 {1\over2}|dJ_P^0|([0,\tau]\times X_P)
@@ -22385,7 +22395,20 @@ dJ_{P,\omega}^{ret,-}
 \tag{TFE2748B.1470}
 \]
 
-Open the raw parent reserve
+The retained lobe carries exactly the weighted coupling mass selected at the
+positive endpoint:
+
+\[
+dJ_{P,\omega}^{ret,-}([0,s]\times X_P)
+=
+\int_{\{0\le t\le s\}}\omega_P(t,x)\,d\Pi_P(t,x,y)
+\le
+\Pi_P([0,s]\times X_P\times X_P).
+\tag{TFE2748B.1470a}
+\]
+
+Open the raw parent reserve from the original-data coefficient bound before
+child clipping:
 
 \[
 B_{P,\omega}^{atom}
@@ -22393,14 +22416,24 @@ B_{P,\omega}^{atom}
 C_N{\|u_0\|_2^2\over \nu}
 +E_P^0([0,\tau]\times X_P),
 \qquad
-M_{P,\omega}^{atom}(s)
+A_{P,\omega}^{ret}(s)
 :=
-B_{P,\omega}^{atom}
--dJ_{P,\omega}^{ret,-}([0,s]\times X_P).
+dJ_{P,\omega}^{ret,-}([0,s]\times X_P).
 \tag{TFE2748B.1471}
 \]
 
-Equations `(TFE2748B.1460)'--`(TFE2748B.1470)' give
+Then set
+
+\[
+M_{P,\omega}^{atom}(s)
+:=
+B_{P,\omega}^{atom}
+-A_{P,\omega}^{ret}(s),
+\qquad 0\le s\le\tau .
+\tag{TFE2748B.1471a}
+\]
+
+Equations `(TFE2748B.1460)'--`(TFE2748B.1470a)' give
 
 \[
 M_{P,\omega}^{atom}(s)\ge0,\qquad
