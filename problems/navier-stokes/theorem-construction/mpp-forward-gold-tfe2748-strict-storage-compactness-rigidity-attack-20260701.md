@@ -11732,3 +11732,182 @@ positive-baseline density/entropy identity from smooth original data and to
 deduplicate capacity variation back into the same renormalized current; it does
 not prove the strict domination `(TFE2748B.749)' or the full-exchange depletion
 `(TFE2748B.754)'.
+
+## 87. The Section 86 bottom is the tail material-record payment line
+
+Section 86 leaves two displayed estimates, but they are not two unrelated
+physical sources.  The accretive current estimate `(TFE2748B.749)' is the
+positive-baseline face of the one-sided aligned-current theorem from Sections
+42--46, and the endpoint-admitted full-exchange depletion `(TFE2748B.754)' is
+the same theorem after the zero-baseline endpoint trace has been entered into
+the full-exchange ledger.
+
+First consume the current side.  Section 42 proves the same-parent divergence
+current representation
+
+\[
+\mathcal K_{\Psi,P}+\mathcal G_{\Psi,P}
+=
+\operatorname{div}_{\mathfrak m}J_{\Psi,P}
++k_{\Psi,P}^0+r_{\Psi,P}^{paid}
+\tag{TFE2748B.756}
+\]
+
+from arbitrary smooth preterminal data.  Section 44 exhausts the zero-order
+kernel into lower carry, endpoint, legal, stop, route, and \(\Theta^0\) material,
+so `(TFE2748B.749)' is implied by the pure aligned-current estimate
+
+\[
+\int dQ_P^{cur}
+\le
+\theta\int dI_P
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+\theta<1.
+\tag{TFE2748B.757}
+\]
+
+Sections 45--46 rewrite `(TFE2748B.757)' exactly as the parent-comparison
+positive-surplus theorem
+
+\[
+\int
+\Phi''(F_P)
+\bigl[
+\langle A_P\nabla_{\mathfrak m}U_{P,\theta},
+\nabla_{\mathfrak m}F_P\rangle
+\bigr]_+
+d\mathfrak m_P
+\le
+d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.758}
+\]
+
+Thus
+
+\[
+\texttt{ParentComparisonPositiveSurplus.A `(TFE2748B.758)'}
+\Longrightarrow
+\texttt{AccretiveCurrentDomination `(TFE2748B.749)'.}
+\tag{TFE2748B.759}
+\]
+
+The later normalized-failure chain lowers this comparison theorem further.
+Sections 73--75 reduce failure of `(TFE2748B.758)' to a tail-aligned
+Body-III relay defect and prove the canonical zero-loss aligned-current
+rigidity after the relay defect vanishes.  Sections 76--77 then identify the
+only remaining relay production as the tail material-record payment line
+
+\[
+\mathcal R_{\rm sel}
++\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm legal}
++\mathcal R_{\rm geom}^{tail}
+\le
+d\Theta^0+dPaid+dStop+2^{-N}D_N\,dt .
+\tag{TFE2748B.760}
+\]
+
+Consequently
+
+\[
+\texttt{TailMaterialRecordPayment.A `(TFE2748B.760)'}
+\Longrightarrow
+\texttt{ParentComparisonPositiveSurplus.A}
+\Longrightarrow
+\texttt{`(TFE2748B.749)'.}
+\tag{TFE2748B.761}
+\]
+
+Now consume the endpoint/full-exchange side.  TFE2748A proves only the admission
+
+\[
+d\rho_{crit,P}^{entry}
+\le
+C_Nd\Xi_P^{FE,\ast}
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{TFE2748B.762}
+\]
+
+not the finiteness of \(d\Xi_P^{FE,\ast}\).  To get `(TFE2748B.754)', the
+endpoint-admitted ledger must be lower-admitted into the same retained
+tail-material record:
+
+\[
+d\Xi_P^{FE,\ast}
+\le
+C_N\bigl(dQ_P^{cur}
++\mathcal R_{\rm sel}
++\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm legal}
++\mathcal R_{\rm geom}^{tail}\bigr)
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.763}
+\]
+
+This is not a definition of \(d\Xi_P^{FE,\ast}\) by the future selected tail.
+It is the before-clipping lower-admission assertion that every positive piece of
+the endpoint-admitted full-exchange ledger is either the aligned current already
+measured by \(dQ_P^{cur}\), a finite-window relay defect, a high-rung
+material-record escape, or paid route/legal/stop material.
+
+Combining `(TFE2748B.757)', `(TFE2748B.760)', and `(TFE2748B.763)' gives
+
+\[
+d\Xi_P^{FE,\ast}
+\le
+C_N\theta\,dI_P
++d\Theta_P^0+dPaid_P+dStop_P+2^{-N}D_N\,dt .
+\tag{TFE2748B.764}
+\]
+
+The Fisher carrier \(dI_P\) is the dissipative part of the same full-exchange
+ledger.  With the storage variable
+
+\[
+M_P^{FE,\ast}
+:=
+\mathcal C_P^{FE,\ast}-\mathcal E_P^{FE,\ast},
+\qquad
+d\mathcal E_P^{FE,\ast}:=dI_P+d\Xi_P^{FE,\ast},
+\tag{TFE2748B.765}
+\]
+
+and with the capacity positive variation already deduplicated into the same
+current by `(TFE2748B.752)', `(TFE2748B.764)' is exactly the depletion form
+
+\[
+d\Xi_P^{FE,\ast}
+\le
+-dM_P^{FE,\ast}
++{\vartheta\over4}d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{TFE2748B.766}
+\]
+
+after the fixed entrance tail \(2^{-N}D_Ndt\) is absorbed into the legal
+entrance/paid lower-carry ledger and constants are chosen with
+\(C_N\vartheta<1\).  This is `(TFE2748B.754)'.
+
+Therefore the current nonduplicate source theorem after Sections 86--87 is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{EndpointFullExchangeTailLowerAdmission.A `(TFE2748B.763)'}\\
++\texttt{TailMaterialRecordPayment.A `(TFE2748B.760)'}
+\end{array}
+\Longrightarrow
+\texttt{`(TFE2748B.749)' + `(TFE2748B.754)'}.
+}
+\tag{TFE2748B.767}
+\]
+
+The first line is a lower-admission/custody bridge.  The second line is the real
+remaining original-data payment theorem.  The previous wording "prove
+`(TFE2748B.749)' and `(TFE2748B.754)'" is therefore sharpened to this: prove
+the endpoint-admitted full-exchange ledger is read by the same aligned-current /
+tail material-record carrier before clipping, and prove that carrier's
+tail-material-record payment from the original coupled packet.
