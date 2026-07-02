@@ -22116,3 +22116,139 @@ bounded way of listening backward to the same parent pressure-Hodge/heat
 participation packet.  The proof above controls the microphone.  It does not
 prove that the packet has only finite positive critical source to spend; that
 finite-spend statement is exactly `(TFE2748B.1424)'.
+
+## 159. Critical source storage is finite active-potential excess
+
+Section 158 leaves `(TFE2748B.1424)' as the named source line.  In the active-
+potential coordinate of Sections 107--111 and 148--151, that line is not a new
+object.  It is the terminal-uniform finite-excess theorem for the same parent
+critical potential.
+
+The critical source is
+
+\[
+dZ_P^{crit}=d\rho_{crit,P}^{ac}+d\rho_{crit,P}^{entry}.
+\tag{TFE2748B.1448}
+\]
+
+After the reversible flux reserve, endpoint admission, and paid route/legal/stop
+terms have been removed, `(TFE2748B.960)'--`(TFE2748B.965)' give the active-
+potential domination
+
+\[
+dZ_P^{crit}
+\le
+-dM_P^{rev}
++U_P^2\,d\mathfrak v_P^{crit}
++dE_P^0 .
+\tag{TFE2748B.1449}
+\]
+
+Choose the maximal residual and excess of `(TFE2748B.980)':
+
+\[
+d\mathfrak v_P^{crit}
+=d\mathfrak v_P^{res}+d\mathfrak v_P^{exc},
+\qquad
+\mathfrak v_P^{res}(K)
+\le
+\vartheta\,\operatorname{Cap}_{A,P}(K)+E_P^0(K),
+\qquad C_N\vartheta<1 .
+\tag{TFE2748B.1450}
+\]
+
+If the finite-excess estimate holds,
+
+\[
+\sup_{\tau<T_*}
+\int_{[0,\tau]\times X_P}U_P^2\,d\mathfrak v_P^{exc}
+\le C_N(u_0)+Paid_P+Legal_P+Stop_P,
+\tag{TFE2748B.1451}
+\]
+
+then the parent reserve
+
+\[
+M_P^{cap}(s)
+:=
+B_P^{cap}
+-
+\int_{[0,s]\times X_P}U_P^2\,d\mathfrak v_P^{exc}
+\tag{TFE2748B.1452}
+\]
+
+is bounded below from the original data and satisfies
+
+\[
+-dM_P^{cap}=U_P^2\,d\mathfrak v_P^{exc}.
+\tag{TFE2748B.1453}
+\]
+
+Applying the capacity bound in `(TFE2748B.1450)' to the entropy variable \(U_P\)
+gives
+
+\[
+U_P^2\,d\mathfrak v_P^{res}
+\le
+\vartheta\,|\nabla_AU_P|^2\,d\mathfrak m_P+dE_P^0
+\le
+\vartheta\,d\Omega_P^{gen}+dE_P^0 .
+\tag{TFE2748B.1454}
+\]
+
+Substituting `(TFE2748B.1450)'--`(TFE2748B.1454)' into `(TFE2748B.1449)' gives
+
+\[
+dZ_P^{crit}
+\le
+-d(M_P^{rev}+M_P^{cap})
++\vartheta\,d\Omega_P^{gen}
++dE_P^0,
+\qquad C_N\vartheta<1 .
+\tag{TFE2748B.1455}
+\]
+
+Thus
+
+\[
+\boxed{
+\texttt{FiniteCapacitaryExcess.A `(TFE2748B.1451)'}
+\Longrightarrow
+\texttt{critical source storage `(TFE2748B.1424)'.}}
+\tag{TFE2748B.1456}
+\]
+
+The converse failure form is also fixed by Section 150.  Preterminally,
+\(U_P^2d\mathfrak v_P^{exc}\) has finite mass on every stopped compact interval.
+Therefore terminal-uniform failure of `(TFE2748B.1451)' normalizes to a terminal
+super-capacitary active-potential atom:
+
+\[
+\neg\texttt{FiniteCapacitaryExcess.A}
+\Longleftrightarrow
+\texttt{TerminalSuperCapacitaryActivePotentialAtom.A}
+\tag{TFE2748B.1457}
+\]
+
+inside the stopped active-potential failure class of `(TFE2748B.1369)'--
+`(TFE2748B.1371)'.
+
+Consequently the live source has one exact shape:
+
+\[
+\boxed{
+\texttt{NoTerminalSuperCapacitaryActivePotentialAtom.A}
+\Longrightarrow
+\texttt{FiniteCapacitaryExcess.A}
+\Longrightarrow
+\texttt{critical source storage `(TFE2748B.1424)'}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1458}
+\]
+
+This section proves the consumption of finite active-potential excess into the
+critical source storage line.  It does not prove the no-terminal atom theorem
+from arbitrary original smooth data.  Section 151 gives the sufficient
+reverse-Holder/time-thickness criterion; that criterion remains the actual
+original-data source to prove, not a second downstream Gold wall.
