@@ -13209,3 +13209,162 @@ plainly that saturation, endpoint jump, and geometry/tower escape are the three
 readouts of the same terminal anti-atom; proving the critical capacity
 variation/storage line from arbitrary original smooth data requires the
 unweighted same-parent terminal reserve `(TFE2748B.846)'.
+
+## 98. The pre-clipping signed atom attachment is constructed from original data
+
+The latest signed-measure request is a raw parent theorem, not the remaining
+Gold \(L^1\) supplier.  Work before any positive selected clipping, in the
+stopped material chart of one compact parent packet \(P\).  After route,
+collar, metric, Hodge-commutator, detector-motion, legal, stop, and endpoint
+leakage have been separated, the retained coupled pressure-Hodge/material
+residue is
+
+\[
+dJ_P=dJ_P^0+dR_P,\qquad
+dJ_P^0(X_P)=0,\qquad
+|dR_P|\le d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.848}
+\]
+
+The zero-mass clause is the exact parent-frame content of pressure as a
+constraint force: the retained pressure-Hodge coordinate of the coupled
+pressure-viscosity-incompressibility-velocity transaction redistributes the
+same parent packet after the already paid boundary/frame/leakage terms have
+been removed.
+
+For arbitrary original smooth preterminal data, the stopped-chart density
+representative \(F_P(t)\) satisfies the Hardy bound from Section 82,
+
+\[
+\|F_P(t)\|_{\mathcal H^1(X_P)}
+\le
+C_N\|\nabla u(t)\|_2^2
++dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t).
+\tag{TFE2748B.849}
+\]
+
+Thus the local Hardy atom theorem gives zero-mean atoms \(a_{\alpha,t}\) in the
+same parent chart and coefficients \(c_\alpha(t)\) such that
+
+\[
+dJ_P^0(t)=\sum_\alpha c_\alpha(t)a_{\alpha,t}\,d\mathfrak m_P,
+\qquad
+\int_{X_P}a_{\alpha,t}\,d\mathfrak m_P=0,
+\tag{TFE2748B.850}
+\]
+
+with coefficient and leakage control
+
+\[
+\sum_\alpha |c_\alpha(t)|+|(dR_P)_+|(t)
+\le
+C_N\|\nabla u(t)\|_2^2
++dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t).
+\tag{TFE2748B.851}
+\]
+
+Integrating in time and using the Leray energy inequality gives, for every
+\(\tau<T_*\),
+
+\[
+\int_0^\tau\sum_\alpha |c_\alpha(t)|\,dt
++\int_0^\tau |(dR_P)_+|(t)
+\le
+C_N{\|u_0\|_2^2\over\nu}
++Paid_P+Legal_P+Stop_P .
+\tag{TFE2748B.852}
+\]
+
+Equivalently, using the Jordan split of the zero-mass measure, choose a
+same-parent transport coupling \(\pi_P\) between its positive and negative
+lobes:
+
+\[
+dJ_P^0=dJ_P^+-dJ_P^-,
+\qquad
+dJ_P^+(X_P)=dJ_P^-(X_P),
+\tag{TFE2748B.853}
+\]
+
+\[
+dJ_P^0
+=
+\int_{X_P\times X_P}(\delta_x-\delta_y)\,d\pi_P(x,y),
+\qquad
+\pi_P(X_P\times X_P)
+=
+{1\over2}|dJ_P^0|(X_P).
+\tag{TFE2748B.854}
+\]
+
+This is the atomic attachment in its most literal form.  Every positive raw
+lobe has an opposite signed lobe in the same stopped parent packet:
+
+\[
+(dJ_P)_+
+\preceq_{atom}
+dJ_P^{ret,-}+(dR_P)_+,
+\qquad
+dJ_P^{ret,-}:=(\mathrm{pr}_2)_\#\pi_P .
+\tag{TFE2748B.855}
+\]
+
+The retained opposite lobe is bounded-below parent-reserve depletion.  Let
+
+\[
+B_P^{atom}:=
+C_N{\|u_0\|_2^2\over\nu}
++Paid_P+Legal_P+Stop_P
+\]
+
+be the raw coefficient/leakage budget in `(TFE2748B.852)' and define
+
+\[
+M_P^{atom}(\tau)
+:=
+B_P^{atom}
+-dJ_P^{ret,-}\bigl([0,\tau]\times X_P\bigr).
+\tag{TFE2748B.856}
+\]
+
+Then `(TFE2748B.852)' gives
+
+\[
+M_P^{atom}(\tau)\ge0,
+\qquad
+-dM_P^{atom}=dJ_P^{ret,-}
+\quad\text{on retained parent atoms.}
+\tag{TFE2748B.857}
+\]
+
+Therefore arbitrary original smooth data constructs the same-parent
+pre-clipping signed atomic decomposition, controls coefficients and leakage,
+and records the retained opposite lobe as a bounded-below parent reserve drop:
+
+\[
+\boxed{
+\texttt{SignedPressureHodgeAtomicAttachment.A is proved at the raw parent level
+by `(TFE2748B.848)'--`(TFE2748B.857)'.}
+}
+\tag{TFE2748B.858}
+\]
+
+This removes the raw attachment from the Gold source burden.  The remaining
+Gold \(L^1\) theorem starts only after the selected critical weight is pulled
+onto this same atom coupling.  In that weighted ledger the exact leftover is
+
+\[
+W_P^{crit}(x)\,d\pi_P(x,y)
+\le
+W_P^{crit}(y)\,d\pi_P(x,y)
++
+W_P^{crit}(y)\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)d\pi_P(x,y),
+\tag{TFE2748B.859}
+\]
+
+with \(b_P=\log W_P^{crit}\).  The first term is the weighted retained-lobe
+reserve; the second is selected log-meter variation.  Proving root-finiteness
+and strict storage for these weighted terms is exactly the selected-critical
+producer still isolated in Sections 91--97, equivalently the strict
+half-barrier / positive critical transfer / bounded-below same-material storage
+line from the original coupled packet.
