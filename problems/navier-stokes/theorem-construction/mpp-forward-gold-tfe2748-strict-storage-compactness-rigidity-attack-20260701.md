@@ -10320,3 +10320,154 @@ no-ghost, and the parent-comparison surplus.  The present section proves only
 the classification: any surviving high-tail positive mass is a same-parent
 material-record/tower-rung escape, not a new pressure-only, viscosity-only, or
 post-clipping atomization burden.
+
+## 78. Signed atoms are constructed; Gold asks for their selected root size
+
+The requested atomic decomposition is a closed pre-clipping parent theorem.  It
+should not be reopened as the Gold source wall.  Fix one stopped preterminal
+parent packet \(X_P\), and let \(dJ_P\) be the selected pressure-Hodge/material
+residue after the selected detector has already been pulled back to the parent
+adjoint and after route, collar, legal, stop, endpoint, and paid detector-motion
+terms have been separated.  Then arbitrary original smooth data gives a finite
+signed Radon measure
+
+\[
+dJ_P=dJ_P^0+dR_P,\qquad
+dJ_P^0(X_P)=0,\qquad
+|dR_P|\le d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.659}
+\]
+
+The zero-mass retained part has Jordan decomposition
+
+\[
+dJ_P^0=dJ_P^+-dJ_P^-,
+\qquad
+dJ_P^+(X_P)=dJ_P^-(X_P)=:m_P .
+\tag{TFE2748B.660}
+\]
+
+Choose a coupling \(\pi_P\) of \(dJ_P^+\) and \(dJ_P^-\).  For example, if
+\(m_P>0\) take
+
+\[
+\pi_P={dJ_P^+\otimes dJ_P^-\over m_P},
+\qquad
+\pi_P=0\quad(m_P=0).
+\tag{TFE2748B.661}
+\]
+
+Then for every bounded parent test \(\varphi\),
+
+\[
+\int_{X_P}\varphi\,dJ_P^0
+=
+\int_{X_P\times X_P}
+\bigl(\varphi(x)-\varphi(y)\bigr)\,d\pi_P(x,y),
+\tag{TFE2748B.662}
+\]
+
+or, as a same-parent atomic measure,
+
+\[
+dJ_P^0
+=
+\int_{X_P\times X_P}(\delta_x-\delta_y)\,d\pi_P(x,y),
+\qquad
+\pi_P(X_P\times X_P)
+=m_P={1\over2}|dJ_P^0|(X_P).
+\tag{TFE2748B.663}
+\]
+
+Equivalently, in countable simple-measure approximation,
+
+\[
+dJ_P
+=
+\sum_\alpha c_\alpha\,d\mu_\alpha+dR_P,
+\qquad
+\int_{X_P}d\mu_\alpha=0,
+\qquad
+\sum_\alpha |c_\alpha|
+\le {1\over2}|dJ_P^0|(X_P),
+\tag{TFE2748B.664}
+\]
+
+with the continuum meaning supplied by `(TFE2748B.663)'.  Thus coefficient mass
+is controlled by the total variation of the pre-clipping retained residue, and
+all unpaired leakage is already in \(d\Theta_P^0+dPaid_P+dStop_P\).
+
+The retained opposite lobe is also a bounded-below parent reserve depletion.
+Let \(s(y)\) be the stopped parent-time coordinate of the negative endpoint of
+an atom and define
+
+\[
+M_P^{atom}(\tau)
+:=
+m_P-\pi_P\bigl(\{(x,y):s(y)<\tau\}\bigr).
+\tag{TFE2748B.665}
+\]
+
+Then
+
+\[
+0\le M_P^{atom}(\tau)\le m_P,
+\qquad
+-dM_P^{atom}
+=
+(\mathrm{pr}_2)_\#d\pi_P
+=:dJ_P^{ret,-}
+\tag{TFE2748B.666}
+\]
+
+as Stieltjes measures on the retained atom ledger.  Therefore
+
+\[
+(dJ_P)_+
+\preceq_{atom}
+-dM_P^{atom}
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.667}
+\]
+
+Equations `(TFE2748B.659)'--`(TFE2748B.667)' are the promised construction from
+arbitrary original smooth data before clipping: zero-mean same-parent atoms,
+coefficient control, paid leakage, and bounded-below retained opposite-lobe
+depletion.
+
+The remaining Gold theorem is strictly stronger and has a different logical
+type.  It asks for the selected-critical root size of the already constructed
+reserve, uniformly up to the terminal edge:
+
+\[
+m_P
++\mathcal R_{\rm sel}
++\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm legal}
++\mathcal R_{\rm geom}^{tail}
+\le
+d\Theta^0+dPaid+dStop+2^{-N}D_N\,dt
+\tag{TFE2748B.668}
+\]
+
+in the retained quotient, after the terms already represented by the atom
+ledger are identified with \(m_P\).  In the storage notation this is the
+selected-critical upgrade
+
+\[
+dJ_P^{ret,-}
+\le
+-dM_P^{crit}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+M_P^{crit}\ge -C_N(u_0),
+\tag{TFE2748B.669}
+\]
+
+with \(M_P^{crit}\) built from the original same parent packet rather than from
+the future selected tail.  Thus the active source wall after Section 78 is not
+atomic decomposition, coefficient control, or lobe pairing.  It is the
+root-uniform selected-critical size/payment of that already paired reserve,
+equivalently the strict aligned-current/no-free-upward-transfer estimate
+identified in Sections 65--77.
