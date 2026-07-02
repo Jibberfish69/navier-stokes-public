@@ -19955,3 +19955,138 @@ after the regular consumers are kept in their parent ledgers.  The remaining
 arbitrary-original-data work is concentrated on the same critical-endpoint
 packet: prove tightness/no-residue for \(d\Xi^{ce,*}\) and prove the strict
 critical-endpoint margin `(TFE2748B.1277)' before child positive clipping.
+
+## 145. The critical-endpoint split is one prelimit depletion-storage theorem
+
+Sections 143--144 should not be read as leaving two unrelated source
+theorems.  The raw signed atom theorem is closed before the selected critical
+meter is inserted.  After that meter is inserted, the only remaining
+same-parent source is the weighted critical-endpoint depletion/storage theorem
+for the same packet.
+
+State the nonduplicate source as follows.  For every stopped parent packet
+\(P\), stopped time \(\tau<T_*\), and parent-announced critical selector fixed
+before positive clipping, construct a parent-built reserve
+\(M_P^{ce,*}\), bounded below by the original data, such that
+
+\[
+\begin{gathered}
+\texttt{CriticalEndpointDepletionStorage.A:}\\[1mm]
+d\Xi_P^{ce,*}
+\le
+-dM_P^{ce,*}
++\theta_{ce}\,d\Omega_P^{gen,*}
++dE_P^{0,*},
+\qquad
+M_P^{ce,*}(s)\ge -C_N(u_0),\\[1mm]
+C_N(\theta_{reg}+\theta_{ce})<1 .
+\end{gathered}
+\tag{TFE2748B.1302}
+\]
+
+Here \(dE_P^{0,*}\) contains only the already routed original-ledger terms:
+route, legal, stop, entry, return, paid collar/frame/Hodge/covector motion,
+reset exit, and endpoint-paid material.  The storage \(M_P^{ce,*}\) is not a
+future-defined tail.  It must be built from the original parent record before
+child clipping: selected critical first-birth reserve, terminal time-thickness
+reserve, and the retained opposite-lobe depletion supplied by Section 143 after
+the critical meter has been charged to the full-exchange ledger.
+
+The theorem must be read on the normalized Bellman-failure scale.  If a
+terminal-uniform bound fails, let
+
+\[
+L_n:=\int_{\overline P_n}d\Xi_{P_n}^{ce,*}\to\infty,
+\qquad
+d\widehat\Xi_n^{ce,*}:=L_n^{-1}d\Xi_{P_n}^{ce,*},
+\tag{TFE2748B.1303}
+\]
+
+and normalize \(d\Omega^{gen,*}\), \(dE^{0,*}\), and the positive storage drop
+by the same factor.  Since \(M_P^{ce,*}\) is bounded below from \(u_0\),
+
+\[
+L_n^{-1}\bigl(-dM_{P_n}^{ce,*}\bigr)_+(\overline P_n)
+\le
+{C_N(u_0)\over L_n}
+\longrightarrow 0 .
+\tag{TFE2748B.1304}
+\]
+
+Thus the parent reserve can pay a finite amount of critical-endpoint material
+in the original packet, but it cannot survive as a unit source after a failed
+unbounded bill is normalized to mass one.
+
+Now take any normalized Bellman-failure sequence `(TFE2748B.1272)' generated
+by failure of the critical-endpoint storage bound.  Divide `(TFE2748B.1302)' by
+\(L_n\) and pass to the stopped compactified weak-star limit.  The paid source
+goes to zero in the zero-source failure class, and `(TFE2748B.1304)' removes
+the bounded parent reserve.  Therefore the retained critical-endpoint limit
+obeys
+
+\[
+d\Xi_\infty^{ce,*}
+\le
+\theta_{ce}\,d\Omega_\infty^{gen,*},
+\qquad
+C_N(\theta_{reg}+\theta_{ce})<1 ,
+\tag{TFE2748B.1305}
+\]
+
+which is exactly `CriticalEndpointFullExchangeStrictMargin.A'.
+
+The same prelimit inequality gives tightness and no-residue.  For every
+retained compact exhaustion \(K_R\),
+
+\[
+\begin{aligned}
+d\widehat\Xi_n^{ce,*}(\overline P_n\setminus K_R)
+&\le
+L_n^{-1}\bigl(-dM_{P_n}^{ce,*}\bigr)_+(\overline P_n)
++\theta_{ce}d\widehat\Omega_n^{gen,*}(\overline P_n\setminus K_R)
++d\widehat E_n^{0,*}(\overline P_n\setminus K_R).
+\end{aligned}
+\tag{TFE2748B.1306}
+\]
+
+The first term vanishes by `(TFE2748B.1304)', the paid term vanishes in the
+zero-source class, and the retained generator clock is part of the stopped
+compactified parent frame.  Hence no critical-endpoint mass can escape except
+through generator-clock mass.  The same inequality on sets singular with
+respect to \(d\Omega_\infty^{gen,*}+dE_\infty^{0,*}\) gives
+
+\[
+(d\Xi_\infty^{ce,*})^{\perp(d\Omega_\infty^{gen,*}+dE_\infty^{0,*})}=0 .
+\tag{TFE2748B.1307}
+\]
+
+Thus
+
+\[
+\boxed{
+\texttt{CriticalEndpointDepletionStorage.A}
+\Longrightarrow
+\texttt{CriticalEndpointTightnessNoResidue.A}
++
+\texttt{CriticalEndpointFullExchangeStrictMargin.A}.}
+\tag{TFE2748B.1308}
+\]
+
+Conversely, a failure of either critical-endpoint tightness/no-residue or the
+strict critical-endpoint margin in the normalized zero-source Bellman class is
+exactly a failure of `(TFE2748B.1302)' to supply a bounded original-parent
+depletion storage before clipping.  The current source is therefore one
+prelimit theorem:
+
+\[
+\boxed{
+\texttt{prove CriticalEndpointDepletionStorage.A from the original coupled}
+\texttt{ pressure-viscosity-incompressibility-velocity packet before clipping.}}
+\tag{TFE2748B.1309}
+\]
+
+Together with `(TFE2748B.1308)' and `(TFE2748B.1301)', this is the remaining
+Gold \(L^1\) producer for `CriticalCapacityVariationStorage.A'.  The raw
+signed-measure atom construction is already consumed at Section 143; the open
+work is the weighted critical-endpoint depletion storage from arbitrary
+original smooth data.
