@@ -15752,3 +15752,211 @@ remaining PDE theorem is to rule out the terminal infinite-shell atom itself,
 or equivalently to show that terminal high-frequency active-tail material has
 real thickness in \(d\Omega_P^{gen}\), \(dE_P^0\), paid/legal/stop material, or
 endpoint admission before the selected child readout is counted.
+
+## 115. Terminal atom exclusion is exactly a same-parent slab modulus
+
+Section 114 leaves no finite-shell or preterminal source face.  The remaining
+object is a zero-thickness terminal active-tail measure.  This section records
+the exact measure theorem needed at that face and separates it from the raw
+atom attachment, which has already been proved.
+
+Let \(d\mathcal P_{P,J}^{tail}\) be the positive same-parent active-tail defect
+measure from `(TFE2748B.1010)' after the generator, endpoint, bounded detector,
+legal, stop, paid, and deterministic \(2^{-2\delta J}\) tail accounts have been
+subtracted.  For a terminal collar and a shell collar set
+
+\[
+C_{\varepsilon,J}
+:=
+(T_*-\varepsilon,T_*]\times X_P\times\{0\le \rho\le 2^{-J}\}.
+\tag{TFE2748B.1028}
+\]
+
+The exact terminal slab modulus is
+
+\[
+\boxed{
+\lim_{\varepsilon\downarrow0}\lim_{J\to\infty}
+\sup_{P}
+d\mathcal P_{P,J}^{tail}(C_{\varepsilon,J})=0
+}
+\tag{TFE2748B.1029}
+\]
+
+with the supremum taken over the stopped parent packets in the normalized
+bad-sequence class after the already paid accounts in `(TFE2748B.1011)' have
+been removed.  Equivalently, in any normalized failure sequence
+\(d\widehat{\mathcal P}_n\),
+
+\[
+\lim_{\varepsilon\downarrow0}
+\limsup_{n\to\infty}
+d\widehat{\mathcal P}_n
+\bigl((T_*-\varepsilon,T_*]\times X_P\times[0,\varepsilon]\bigr)=0 .
+\tag{TFE2748B.1030}
+\]
+
+The implication from `(TFE2748B.1029)' to
+`NoTerminalInfiniteShellActiveTailAtom.A' is pure Radon-measure compactness.
+Indeed, by Section 114 every weak-* limit \(d\widehat{\mathcal P}_\infty\) is
+supported on \(\{t=T_*,\rho=0\}\).  If `(TFE2748B.1030)' holds, then outer
+regularity gives
+
+\[
+d\widehat{\mathcal P}_\infty(\{t=T_*,\rho=0\})
+\le
+\lim_{\varepsilon\downarrow0}
+\limsup_{n\to\infty}
+d\widehat{\mathcal P}_n
+\bigl((T_*-\varepsilon,T_*]\times X_P\times[0,\varepsilon]\bigr)
+=0 .
+\tag{TFE2748B.1031}
+\]
+
+Thus
+
+\[
+\texttt{TerminalActiveTailSlabModulus.A `(TFE2748B.1029)'}
+\Longrightarrow
+\texttt{NoTerminalInfiniteShellActiveTailAtom.A}.
+\tag{TFE2748B.1032}
+\]
+
+Conversely, if `(TFE2748B.1029)' fails, then there is a normalized sequence and
+\(\eta_0>0\) such that every terminal/shell collar retains at least
+\(\eta_0\) defect mass after passing to a subsequence.  The compactified
+same-parent space in `(TFE2748B.1003)' is compact, so a weak-* limit exists.
+Section 114 removes finite-shell and preterminal mass from that limit, and
+Portmanteau leaves
+
+\[
+d\widehat{\mathcal P}_\infty(\{t=T_*,\rho=0\})\ge \eta_0 .
+\tag{TFE2748B.1033}
+\]
+
+Therefore the no-atom theorem and the slab modulus are the same remaining
+source statement at the current face:
+
+\[
+\boxed{
+\texttt{NoTerminalInfiniteShellActiveTailAtom.A}
+\Longleftrightarrow
+\texttt{TerminalActiveTailSlabModulus.A}
+}
+\tag{TFE2748B.1034}
+\]
+
+inside the normalized defect class of Sections 113--114.
+
+This equivalence also states why finite raw \(L^1\) mass, raw same-parent atom
+pairing, and preterminal smoothness cannot by themselves finish the proof.
+They allow the model terminal layer
+
+\[
+g_n(t)=\tau_n^{-1}{\bf 1}_{(T_*-\tau_n,T_*]}(t),
+\qquad \tau_n\downarrow0,
+\tag{TFE2748B.1035}
+\]
+
+or, in active-tail shell currency,
+
+\[
+2^{-j_n}D_{j_n}(t)^2\,dt
+=
+\tau_n^{-1}{\bf 1}_{(T_*-\tau_n,T_*]}(t)\,dt,
+\qquad j_n\to\infty .
+\tag{TFE2748B.1036}
+\]
+
+The total mass of `(TFE2748B.1036)' is one, and all mass vanishes on every fixed
+preterminal interval and every fixed finite shell.  Its weak limit is exactly a
+terminal infinite-shell atom.  Thus the missing theorem is not another
+construction of the signed opposite lobe; it is terminal uniform integrability
+of the selected weighted active-tail measure in the original parent clock.
+
+One sufficient original-data producer is a same-parent de la Vallee-Poussin
+bound.  There must be a superlinear \(\Psi\), \(\Psi(r)/r\to\infty\), and a
+parent reference measure \(d\lambda_P^{tail}\) already containing the heat
+thickness, selector Jacobian, and active shell weight before clipping, such
+that
+
+\[
+d\mathcal P_{P,J}^{tail}=f_{P,J}\,d\lambda_P^{tail}+dE_{P,J}^0
+\tag{TFE2748B.1037}
+\]
+
+and
+
+\[
+\sup_{J,P}
+\int\Psi(f_{P,J})\,d\lambda_P^{tail}
+\le
+C_N(u_0)+Paid_P+Legal_P+Stop_P .
+\tag{TFE2748B.1038}
+\]
+
+Then uniform integrability gives, for every terminal/shell collar
+\(C_{\varepsilon,J}\),
+
+\[
+d\mathcal P_{P,J}^{tail}(C_{\varepsilon,J})
+\le
+\omega\bigl(\lambda_P^{tail}(C_{\varepsilon,J})\bigr)
+dE_{P,J}^0(C_{\varepsilon,J}),
+\qquad \omega(r)\downarrow0 ,
+\tag{TFE2748B.1039}
+\]
+
+and the heat-thickness/no-residue part of the same parent clock supplies
+\(\lambda_P^{tail}(C_{\varepsilon,J})\to0\), hence `(TFE2748B.1029)'.
+
+The storage-form version of the same sufficient producer is a bounded-below
+same-parent no-waste reserve
+
+\[
+d\mathcal P_{P,J}^{tail}
+\le
+-dM_P^{tail}
+\theta\,d\Omega_P^{gen}
+dE_P^0+dPaid_P+dLegal_P+dStop_P,
+\qquad C_N\theta<1,
+\tag{TFE2748B.1040}
+\]
+
+with \(M_P^{tail}\ge-C_N(u_0)-Paid_P-Legal_P-Stop_P\) and with
+\(-dM_P^{tail}\) generated by the original coupled packet before child
+positive clipping.  Integrating `(TFE2748B.1040)' over terminal collars gives
+the slab modulus exactly when the reserve has no positive terminal jump outside
+the paid/endpoint ledgers:
+
+\[
+\lim_{\varepsilon\downarrow0}
+\sup_P
+\bigl[
+M_P^{tail}(T_*-\varepsilon)-M_P^{tail}(T_*^-)
+\bigr]_+
+=0 .
+\tag{TFE2748B.1041}
+\]
+
+Consequently the next proof cannot be a raw \(L^1\) or raw atom argument.  It
+must prove either the Orlicz/uniform-integrability form `(TFE2748B.1037)'--
+`(TFE2748B.1039)' or the no-waste storage form `(TFE2748B.1040)'--
+`(TFE2748B.1041)' from the one original coupled
+pressure-Hodge/viscous-Stokes/self-advection packet.  Once either form is
+proved, the chain closes:
+
+\[
+\texttt{TerminalActiveTailSlabModulus.A}
+\Longrightarrow
+\texttt{NoTerminalInfiniteShellActiveTailAtom.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.
+\tag{TFE2748B.1042}
+\]
+
+This section proves the exact equivalence and the two noncircular sufficient
+producer forms.  It does not prove either producer from arbitrary original
+smooth data.  The remaining PDE work is now the terminal active-tail
+uniform-integrability/no-waste estimate `(TFE2748B.1038)' or `(TFE2748B.1040)',
+not lobe attachment, dyadic counting, or endpoint ownership.
