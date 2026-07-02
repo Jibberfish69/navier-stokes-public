@@ -32,13 +32,13 @@ COVERAGE_SELF_SURFACES = %w[
   problems/navier-stokes/tools/build_current_material_coverage.rb
 ].freeze
 
-CURRENT_AUTHORITY_OVERRIDE_20260702 = "This inventory is provenance/coverage bookkeeping only. Filenames or rows that mention native-reserve, source-refill, Pack anti-concentration, closed periodic branches, or older Gold suppliers are not current theorem authority. The current Gold L1 source wall is the noncircular same-parent coupled active-capacity/full-exchange storage theorem for the original parent packet before child clipping; sums are typed readouts only.".freeze
+CURRENT_AUTHORITY_OVERRIDE_20260702 = "This inventory is provenance/coverage bookkeeping only. Filenames or rows that mention native-reserve, source-refill, Pack anti-concentration, closed periodic branches, or older Gold suppliers are not current theorem authority. The current Gold L1 source wall is the signed critical-height sign-persistence or peak-height theorem from the Navier-Stokes equation; sums are typed readouts only.".freeze
 CURRENT_GOLD_L1_CUSTODY_20260702 = {
-  "status" => "gold-l1-open-coupled-storage-wall",
+  "status" => "gold-l1-open-signed-height-sign-persistence-wall",
   "physical_object_first" => "original parent packet before child clipping",
-  "current_wall" => "noncircular same-parent coupled active-capacity/full-exchange storage theorem",
+  "current_wall" => "signed critical-height sign-persistence or peak-height theorem",
   "sum_custody" => "child, atom, shell, dyadic, packet-label, and point-sample sums are typed readouts/bookkeeping only",
-  "forbidden_promotion" => "inventory rows, filenames, source-refill, native-reserve, terminal anti-atom, or Pack anti-concentration displays cannot close Gold L1 unless they prove the coupled parent-storage object"
+  "forbidden_promotion" => "inventory rows, filenames, source-refill, native-reserve, terminal anti-atom, or Pack anti-concentration displays cannot close Gold L1 unless they prove the signed-height object"
 }.freeze
 
 FAMILIES = [

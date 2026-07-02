@@ -87,12 +87,12 @@ CURRENT_SOURCE_WALL_ROOT_SUMMARY = [
   "The forward-positive quarantine index keeps #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} scanned surfaces out of CM authority unless a named bridge lands the exact result in Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence, or proves the outside-CM participation-field/window original-participation audit needed before not Pack_Q can be spent."
 ].compact.join(" ").freeze
 CURRENT_THEOREM_STATUS = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status").freeze
-CURRENT_PACKAGE_STATUS = "gold-l1-open-tfe2748b-blocked"
-CURRENT_GOLD_L1_COUPLED_STORAGE_WALL = "noncircular same-parent coupled active-capacity/full-exchange storage theorem for the original parent packet before child clipping"
-CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702 = "The current Gold L1 source wall is the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL}. Older native-reserve, source-refill, terminal anti-concentration, and scalar sum surfaces are readouts/provenance unless they prove that coupled object."
-CURRENT_LOWEST_SAFE_CLAIM = "Gold remains open at the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL}; no proof of smoothness, terminal safety, release eligibility, or submission readiness is installed until that source theorem is proved."
+CURRENT_PACKAGE_STATUS = "gold-l1-open-signed-height-restart-blocked"
+CURRENT_GOLD_L1_SIGNED_HEIGHT_WALL = "signed critical-height sign-persistence or peak-height theorem from the Navier-Stokes equation"
+CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702 = "The current Gold L1 source wall is the #{CURRENT_GOLD_L1_SIGNED_HEIGHT_WALL}. Older native-reserve, source-refill, terminal anti-concentration, and scalar sum surfaces are readouts/provenance unless they prove that signed-height object."
+CURRENT_LOWEST_SAFE_CLAIM = "Gold remains open at the #{CURRENT_GOLD_L1_SIGNED_HEIGHT_WALL}; no proof of smoothness, terminal safety, release eligibility, or submission readiness is installed until that source theorem is proved."
 CURRENT_ROUTE_SUMMARY = [
-  "The corrected active Gold edge is the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL}.",
+  "The corrected active Gold edge is the #{CURRENT_GOLD_L1_SIGNED_HEIGHT_WALL}.",
   "Downstream no-jump, terminal safety, release, and submission surfaces remain blocked while that theorem is open.",
   "CM/Silver material remains support context and does not clear the Gold source theorem."
 ].join(" ").freeze
@@ -101,7 +101,7 @@ CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE = {
   "disposition" => "blocked",
   "next_cell_type" => "theorem-upgrade",
   "next_stage" => "gold-l1-source-theorem",
-  "next_action" => "Prove the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL} before restoring downstream release or submission readiness."
+  "next_action" => "Prove the #{CURRENT_GOLD_L1_SIGNED_HEIGHT_WALL} before restoring downstream release or submission readiness."
 }.freeze
 FORWARD_GOLD_ACTIVE_OBLIGATION = {
   "obligation_id" => CURRENT_SOURCE_WALL_ROOT_ID,
@@ -109,7 +109,7 @@ FORWARD_GOLD_ACTIVE_OBLIGATION = {
   "label" => CURRENT_SOURCE_WALL_ROOT_LABEL,
   "status" => CURRENT_THEOREM_STATUS,
   "source_anchor" => "problems/navier-stokes/target-operating-contract.yaml",
-  "proof_mode" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("proof_mode", "gold_forward_positive_source_wall"),
+  "proof_mode" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("proof_mode", "gold_forward_signed_height_restart"),
   "meaning" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("theorem_grade_statement"),
   "blocking" => true,
   "equivalent_forms" => [
@@ -546,13 +546,13 @@ end
 def ready_readiness_payload!(payload)
   return payload unless payload.is_a?(Hash)
 
-  payload["status"] = "blocked-by-gold-l1-coupled-storage-wall" if payload.key?("status")
+  payload["status"] = "blocked-by-gold-l1-signed-height-sign-persistence-wall" if payload.key?("status")
   payload["submission_ready"] = false if payload.key?("submission_ready")
   payload["candidate_count"] = 1 if payload.key?("candidate_count")
   payload["candidates"] = [
     {
-      "candidate_id" => "gold-l1-coupled-storage-wall-open",
-      "required_action" => "Prove the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL}."
+      "candidate_id" => "gold-l1-signed-height-sign-persistence-wall-open",
+      "required_action" => "Prove the #{CURRENT_GOLD_L1_SIGNED_HEIGHT_WALL}."
     }
   ] if payload.key?("candidates")
   if payload["checks"].is_a?(Hash)
@@ -596,18 +596,18 @@ def clear_stale_submission_verdict_status!(verdict)
   if paper_quality.is_a?(Hash)
     alignment = paper_quality["proof_submission_alignment"]
     if alignment.is_a?(Hash)
-      alignment["status"] = "blocked-by-gold-l1-coupled-storage-wall"
+      alignment["status"] = "blocked-by-gold-l1-signed-height-sign-persistence-wall"
       alignment["allows_paper_quality_pass"] = false
       alignment["submission_ready"] = false
       alignment["downstream_submission_ready"] = false
       alignment["manuscript_declares_bridge_open"] = true
       alignment["source_frontier_open"] = true if alignment.key?("source_frontier_open")
-      alignment["open_blockers"] = [CURRENT_GOLD_L1_COUPLED_STORAGE_WALL]
+      alignment["open_blockers"] = [CURRENT_GOLD_L1_SIGNED_HEIGHT_WALL]
       alignment["completion_candidate_count"] = 1
       alignment["completion_candidates"] = [
         {
-          "candidate_id" => "gold-l1-coupled-storage-wall-open",
-          "required_action" => "Prove the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL}."
+          "candidate_id" => "gold-l1-signed-height-sign-persistence-wall-open",
+          "required_action" => "Prove the #{CURRENT_GOLD_L1_SIGNED_HEIGHT_WALL}."
         }
       ]
     end
@@ -617,14 +617,14 @@ def clear_stale_submission_verdict_status!(verdict)
 
   sync = verdict["completion_executor_sync"]
   if sync.is_a?(Hash)
-    sync["status"] = "synced-blocked-by-gold-l1-coupled-storage-wall"
-    sync["blocking_reason"] = "Gold L1 remains open at the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL}."
+    sync["status"] = "synced-blocked-by-gold-l1-signed-height-sign-persistence-wall"
+    sync["blocking_reason"] = "Gold L1 remains open at the #{CURRENT_GOLD_L1_SIGNED_HEIGHT_WALL}."
     evidence = sync["readiness_evidence"] = sync["readiness_evidence"].is_a?(Hash) ? sync["readiness_evidence"] : {}
     evidence["completion_candidate_count"] = 1
     evidence["completion_candidates"] = [
       {
-        "candidate_id" => "gold-l1-coupled-storage-wall-open",
-        "required_action" => "Prove the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL}."
+        "candidate_id" => "gold-l1-signed-height-sign-persistence-wall-open",
+        "required_action" => "Prove the #{CURRENT_GOLD_L1_SIGNED_HEIGHT_WALL}."
       }
     ]
     ready_readiness_payload!(evidence["completion_readiness"]) if evidence["completion_readiness"].is_a?(Hash)
@@ -893,7 +893,7 @@ def sanitize_source_frontier(source_frontier)
   source_frontier["frontier"]["forward_gold_primary_obligation"] = FORWARD_GOLD_ACTIVE_OBLIGATION
   source_frontier["frontier"]["forward_gold_first_unresolved_obligation"] = FORWARD_GOLD_ACTIVE_OBLIGATION
   source_frontier["frontier"]["forward_gold_unresolved_obligations"] = [FORWARD_GOLD_ACTIVE_OBLIGATION]
-  source_frontier["frontier"]["readiness_boundary"] = "Submission readiness is blocked by the current Gold L1 coupled-storage wall: #{CURRENT_SOURCE_WALL_ROOT_SUMMARY}"
+  source_frontier["frontier"]["readiness_boundary"] = "Submission readiness is blocked by the current Gold L1 signed-height wall: #{CURRENT_SOURCE_WALL_ROOT_SUMMARY}"
   source_frontier["frontier"]["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   source_frontier["frontier"]["release_or_respawn_consequence"] = current_release_or_respawn_consequence
   source_frontier["frontier"]["forward_positive_surface_quarantine"] = FORWARD_POSITIVE_QUARANTINE_SUMMARY
@@ -1175,7 +1175,7 @@ def sanitize_submission_export_status(status)
   status["readiness_evidence"]["completion_readiness"] = readiness
   status["submission_ready"] = false
   status["submission_posture"] = "not-ready"
-  status["readiness_status"] = "blocked-by-gold-l1-coupled-storage-wall"
+  status["readiness_status"] = "blocked-by-gold-l1-signed-height-sign-persistence-wall"
   status["required_before_submission"] = [CURRENT_SOURCE_WALL_ROOT_ID]
   status
 end
@@ -1542,7 +1542,7 @@ def sanitize_theorem_to_warrant(warrant)
     "status" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status"),
     "terminal_safe" => false,
     "required_before_terminal_release" => [CURRENT_SOURCE_WALL_ROOT_ID],
-    "rule" => "Direct live Gold L1 authority controls this surface. Positive packet-survival/no-exit language is support only and cannot clear terminal release until the same-parent coupled-storage wall is proved."
+    "rule" => "Direct live Gold L1 authority controls this surface. Positive packet-survival/no-exit language is support only and cannot clear terminal release until the signed-height sign-persistence or peak-height theorem is proved."
   }
   attach_target_topology!(warrant)
   warrant
@@ -1553,7 +1553,7 @@ def sanitize_review_verdict(review)
 
   review["safe_claim_boundary"] = CURRENT_LOWEST_SAFE_CLAIM
   review["completion_tier_achieved"] = CURRENT_PACKAGE_STATUS
-  review["verdict"] = "blocked-by-gold-l1-coupled-storage-wall"
+  review["verdict"] = "blocked-by-gold-l1-signed-height-sign-persistence-wall"
   review["release_posture"] = "not-export-ready"
   review["standalone_status"] = "blocked"
   review["theorem_packet_status"] = "theorem-open"
