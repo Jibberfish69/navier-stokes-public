@@ -8914,3 +8914,165 @@ original data.  The unproved arbitrary-data content is now exactly the
 same-parent payment of the positive full shell-current injection
 \(\mathcal I_{P,N}^{tail}\), rather than an unnamed amplification reservoir or a
 future selected source-square tail.
+
+## 68. Square-current form of the tail-injection estimate
+
+The tail-injection estimate `(TFE2748B.563)' still carries the active tail
+\(T_k\) as a multiplier.  This is useful physically, but it leaves a possible
+self-feeding reading: a proof could accidentally use the future source-square
+tail to pay the current that created that same tail.  The noncircular
+Cauchy split separates these two objects.
+
+Define the parent-announced full shell-current square measure
+
+\[
+\mathcal Q_{P,N}^{cur}(W)
+:=
+\int_W\sum_{k>N}
+2^{-3k}
+\left((\mathcal N_{>k,P}^{D})_+(t)\right)^2\,dt .
+\tag{TFE2748B.567}
+\]
+
+This is still one coupled participation current: \(\mathcal N_{>k,P}^{D}\)
+contains the pressure-Hodge, self-advection, incompressibility, viscous-frame,
+and material-coordinate shell current from `(TFE2748B.555)'--`(TFE2748B.556)'.
+The square in `(TFE2748B.567)' is taken only after that full parent current is
+formed before child positive clipping.
+
+For any \(\eta>0\), Cauchy's inequality gives
+
+\[
+2^{-k}T_k(\mathcal N_{>k,P}^{D})_+
+\le
+\eta\,2^kT_k^2
++C_\eta\,2^{-3k}\left((\mathcal N_{>k,P}^{D})_+\right)^2 .
+\tag{TFE2748B.568}
+\]
+
+Therefore
+
+\[
+\mathcal I_{P,N}^{tail}(W)
+\le
+\eta\,\mathcal R_N(W)
++C_\eta\,\mathcal Q_{P,N}^{cur}(W),
+\tag{TFE2748B.569}
+\]
+
+where \(\mathcal R_N(W)=\int_W\sum_{k>N}2^kT_k^2dt\).  Combining
+`(TFE2748B.569)' with the tail-storage identity `(TFE2748B.561)' gives
+
+\[
+\mathcal I_{P,N}^{tail}(W)
+\le
+\eta\left(
+-dM_{P,N}^{tail}(W)
++C_\nu\mathcal I_{P,N}^{tail}(W)
++C_\varepsilon2^{-2\delta N}
++Paid(W)+Stop(W)
+\right)
++C_\eta\mathcal Q_{P,N}^{cur}(W).
+\tag{TFE2748B.570}
+\]
+
+Choose \(\eta\) so that \(C_\nu\eta<1/2\).  Absorbing the
+\(\mathcal I_{P,N}^{tail}\) term gives
+
+\[
+\mathcal I_{P,N}^{tail}(W)
+\le
+-d\widetilde M_{P,N}^{tail}(W)
++C_\eta\,\mathcal Q_{P,N}^{cur}(W)
++C_{\varepsilon,\eta}2^{-2\delta N}
++Paid(W)+Stop(W),
+\tag{TFE2748B.571}
+\]
+
+with \(\widetilde M_{P,N}^{tail}\) bounded below by a harmless multiple of
+\(M_{P,N}^{tail}\).  Thus `(TFE2748B.563)' follows from the full-current square
+Carleson estimate
+
+\[
+\boxed{
+\mathcal Q_{P,N}^{cur}(W)
+\le
+\varepsilon\nu\int_WD_N(t)\,dt
++C_\varepsilon(u_0)2^{-2\delta N}
++Paid(W)+Stop(W).
+}
+\tag{TFE2748B.572}
+\]
+
+Equations `(TFE2748B.567)'--`(TFE2748B.572)' prove the deterministic reduction
+
+\[
+\boxed{
+\texttt{FullShellCurrentSquareCarleson.A `(TFE2748B.572)'}
+\Longrightarrow
+\texttt{TailInjectionWorkCarleson.A `(TFE2748B.563)'.}
+}
+\tag{TFE2748B.573}
+\]
+
+This is a genuine sharpening of the source wall.  The active multiplier
+\(T_k\) is no longer part of the source theorem; it has been absorbed into the
+bounded-below tail storage.  The remaining arbitrary-data theorem is the
+square-Carleson control of the full coupled shell-current itself.
+
+The reduction also exposes the forbidden circular proof.  The estimate
+
+\[
+\mathcal Q_{P,N}^{cur}(W)
+\le
+C\,\mathcal R_N(W)+Paid(W)+Stop(W)
+\tag{TFE2748B.574}
+\]
+
+does not close Gold unless the constant is small enough to be absorbed through
+`(TFE2748B.570)'.  A bound of the form `(TFE2748B.574)' with uncontrolled
+constant only says that the current can be measured by the same future
+source-square tail it is supposed to pay.  The original-data requirement is the
+strict parent estimate `(TFE2748B.572)'.
+
+In Section 66 language, TailInjectionWorkRepresentation.A is now the statement
+that the selected amplification/current record sees the full shell-current
+square before clipping:
+
+\[
+\mathcal Q_{P,N}^{cur}(W)
+\le
+C_N\mathcal E_{SAC}(P;W)
++\varepsilon\nu\int_WD_N(t)\,dt
++C_\varepsilon2^{-2\delta N}
++Paid(W)+Stop(W).
+\tag{TFE2748B.575}
+\]
+
+Together with `(TFE2748B.547)', `(TFE2748B.575)' proves
+`(TFE2748B.572)', then `(TFE2748B.573)' proves TailInjectionWorkCarleson, and
+Section 67 proves SourceSquareReservePayment.  Conversely, without
+`(TFE2748B.575)' the amplification/current record has not been shown to own the
+actual derivative shell-current that generates the positive tail injection.
+
+The current bottom of the Gold \(L^1\) source chain is therefore:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{FullShellCurrentSquareCarleson.A `(TFE2748B.572)'}\\
+\text{equivalently}\\
+\texttt{FullShellCurrentSquareRepresentation.A `(TFE2748B.575)'}
++\texttt{ plus `(TFE2748B.547)'}
+\end{array}
+\Longrightarrow
+\texttt{SourceSquareReservePayment.A.}
+}
+\tag{TFE2748B.576}
+\]
+
+This section proves only the reduction.  The unproved arbitrary-data content is
+now the strict same-parent square-Carleson estimate for the full coupled
+derivative shell-current \(\mathcal N_{>k,P}^{D}\).  It must be supplied by the
+original pressure-viscosity-incompressibility-velocity packet before clipping,
+not by a scalarized source-square tail after the child readout has been counted.
