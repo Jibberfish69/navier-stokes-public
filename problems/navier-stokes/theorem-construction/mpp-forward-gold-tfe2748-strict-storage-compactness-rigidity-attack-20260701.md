@@ -3065,14 +3065,22 @@ C\|\nabla u\|_2^2.
 
 The pressure-Hodge transforms are bounded on the corresponding Hardy atom
 space, and the smooth material pullback only adds metric/collar commutators that
-belong to \(dR_P\).  Hence the pre-clipping raw atoms can be chosen with
+belong to \(dR_P\).  Hence the pre-clipping raw atom part can be chosen with
 
 \[
 \sum_\alpha |c_\alpha(t)|
 \le
-C_N\|\nabla u(t)\|_2^2
-+{d\over dt}\bigl(Paid_P^{collar}+Legal_P+Stop_P\bigr).
+C_N\|\nabla u(t)\|_2^2,
 \tag{TFE2748B.195}
+\]
+
+while the material-chart leakage is kept outside the atom reserve:
+
+\[
+|(dR_P)_+|
+\le
+dPaid_P^{collar}+dLegal_P+dStop_P .
+\tag{TFE2748B.196}
 \]
 
 Integrating and using the Leray energy inequality gives the raw coefficient
@@ -3081,10 +3089,9 @@ control
 \[
 \int_0^\tau\sum_\alpha |c_\alpha(t)|\,dt
 \le
-C_N{\|u_0\|_2^2\over \nu}
-+Paid_P(\tau)+Legal_P(\tau)+Stop_P(\tau),
+C_N{\|u_0\|_2^2\over \nu},
 \qquad \tau<T_* .
-\tag{TFE2748B.196}
+\tag{TFE2748B.197}
 \]
 
 This proves the arbitrary-smooth-data construction of the pre-clipping
@@ -3103,7 +3110,7 @@ M_P^{raw}(\tau)
 M_P^{raw}(0)
 -
 \int_{[0,\tau]\times X_P}dJ_P^{ret,-},
-\tag{TFE2748B.197}
+\tag{TFE2748B.198}
 \]
 
 with
@@ -3111,18 +3118,17 @@ with
 \[
 M_P^{raw}(0)
 =
-C_N{\|u_0\|_2^2\over\nu}
-+Paid_P(T)+Legal_P(T)+Stop_P(T).
-\tag{TFE2748B.198}
+C_N{\|u_0\|_2^2\over\nu}.
+\tag{TFE2748B.199}
 \]
 
-Then `(TFE2748B.196)' gives
+Then `(TFE2748B.197)' gives
 
 \[
 M_P^{raw}(\tau)\ge0,
 \qquad
 dJ_P^{ret,-}\le -dM_P^{raw}.
-\tag{TFE2748B.199}
+\tag{TFE2748B.200}
 \]
 
 Thus the requested reserve-depletion statement is proved for the raw
@@ -3136,7 +3142,7 @@ before clipping.  Multiplying an atom by \(W_P\) creates the exact defect
 \int_{X_P} W_P\,d\mu_\alpha
 =
 \int_{X_P}(W_P-W_{\alpha})\,d\mu_\alpha,
-\tag{TFE2748B.200}
+\tag{TFE2748B.201}
 \]
 
 because \(\int d\mu_\alpha=0\).  Therefore the active-weighted version of
@@ -3149,7 +3155,7 @@ because \(\int d\mu_\alpha=0\).  Therefore the active-weighted version of
 \left|\int (W_P-W_\alpha)\,d\mu_\alpha\right|dt
 \le
 C_N(u_0)+Paid_P+Legal_P+Stop_P .
-\tag{TFE2748B.201}
+\tag{TFE2748B.202}
 \]
 
 This is not a consequence of raw Hardy atomization.  It is precisely the
@@ -3159,7 +3165,7 @@ active-weight/current storage theorem previously called
 \texttt{StoppedPredictableActiveWeightCompensator.A}
 \quad\text{or}\quad
 \texttt{OriginalScaleMemoryStorageCoercivity.A}.
-\tag{TFE2748B.202}
+\tag{TFE2748B.203}
 \]
 
 So the atom decomposition has now been constructed from arbitrary smooth data
