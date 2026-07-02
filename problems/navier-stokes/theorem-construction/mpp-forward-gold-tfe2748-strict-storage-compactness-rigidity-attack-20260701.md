@@ -10638,3 +10638,160 @@ critical storage and Fisher dissipation; in Sections 65--66 it is the
 selected-amplification/current Carleson producer.  These are equivalent faces
 of the same parent Orlicz uniform-integrability law on the atom ledger, not
 separate reservoirs.
+
+## 80. The Orlicz producer is local atom domination plus log-meter BMO
+
+Section 79 identifies the exact selected atom-ledger estimate.  The next
+question is what original-data theorem can produce `(TFE2748B.676)' without
+defining \(W_P^{crit}\) by the future selected tail.
+
+Let \(d\mathfrak m_P\) be the parent active measure of the stopped packet, with
+the critical meter already included before clipping.  The atom-ledger Orlicz
+bound follows from two parent-side clauses.
+
+First, the same-parent atom ledger must be locally dominated by the parent
+active measure:
+
+\[
+\Pi_P(E)
+\le
+C_N\,\mathfrak m_P(E^\ast)
++d\Theta_P^0(E^\ast)+dPaid_P(E^\ast)+dStop_P(E^\ast)
+\tag{TFE2748B.683}
+\]
+
+for every stopped parent atom union \(E\).  Here \(E^\ast\) is the fixed
+finite-overlap parent envelope of the atom support, not a child-renormalized
+descendant tree.  This is the continuous version of the level-reserve clause
+`(TFE2748B.215)'.
+
+Second, the log meter
+
+\[
+b_P:=\log W_P^{crit}
+\tag{TFE2748B.684}
+\]
+
+must have stopped parent BMO/log-amplification control:
+
+\[
+\sup_{P'\subseteq P}
+{1\over \mathfrak m_P(P')}
+\sum_{Q\subseteq P'}
+\bigl(\|\Delta_Q b_P\|_{\mathfrak H_P}^2+|e_Q|^2\bigr)
+\mathfrak m_P(Q)
+\le
+C_N(u_0)
++{d\Theta_P^0+dPaid_P+dStop_P\over \mathfrak m_P(P')}.
+\tag{TFE2748B.685}
+\]
+
+Equivalently, using the stopped carrier notation of `(TFE2748B.54)' and
+`(TFE2748B.551)', the log meter must be represented before clipping as
+
+\[
+b_Q-b_{\operatorname{par}(Q)}
+=
+\ell_Q(\Delta_QZ_P^S)-\psi_Q+e_Q,
+\tag{TFE2748B.686}
+\]
+
+with the square function and errors controlled by `(TFE2748B.685)'.
+
+The deterministic implication is standard but important.  From
+`(TFE2748B.685)' the stopped John--Nirenberg/Kazamaki estimate gives, after bad
+fibres are charged to \(d\Theta_P^0+dPaid_P+dStop_P\), an exponent
+\(\varepsilon_N>0\) such that
+
+\[
+\int_{P'} (W_P^{crit})^{1+\varepsilon_N}\,d\mathfrak m_P
+\le
+C_N
+\left({1\over \mathfrak m_P(P')}
+\int_{P'}W_P^{crit}\,d\mathfrak m_P\right)^{1+\varepsilon_N}
+\mathfrak m_P(P')
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.687}
+\]
+
+Together with the parent level reserve
+
+\[
+\int_{P'}W_P^{crit}\,d\mathfrak m_P
+\le
+C_N(u_0)\mathcal R(P')
++\theta\,\Omega_P^{gen}(P')
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad C_N\theta<1,
+\tag{TFE2748B.688}
+\]
+
+this gives a superlinear parent Orlicz bound on \(W_P^{crit}\) with respect to
+\(d\mathfrak m_P\).  For instance, with
+\(\Psi(r)=r^{1+\varepsilon_N}\) on the stopped good fibres,
+
+\[
+\int\Psi(W_P^{crit})\,d\mathfrak m_P
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.689}
+\]
+
+Using the domination `(TFE2748B.683)' and finite overlap of \(E^\ast\), layer
+cake transfers `(TFE2748B.689)' from the parent measure to the atom ledger:
+
+\[
+\int\Psi(W_P^{crit})\,d\Pi_P
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.690}
+\]
+
+This is `(TFE2748B.676)'.  Therefore
+
+\[
+\boxed{
+\begin{array}{c}
+\text{local atom-ledger domination `(TFE2748B.683)'}\\
++\text{parent log-meter BMO/log-amplification `(TFE2748B.685)'--`(TFE2748B.686)'}\\
++\text{parent level reserve `(TFE2748B.688)'}
+\end{array}
+\Longrightarrow
+\texttt{AtomLedgerSelectedCriticalUniformIntegrability.A `(TFE2748B.676)'.}
+}
+\tag{TFE2748B.691}
+\]
+
+The converse failure test is equally sharp.  If `(TFE2748B.676)' fails after
+Section 79 normalizes the selected atom mass, then at least one of the three
+parent-side clauses above fails on a retained stopped subpacket:
+
+\[
+\neg(TFE2748B.676)
+\Longrightarrow
+\neg(TFE2748B.683)
+\quad\text{or}\quad
+\neg(TFE2748B.685)
+\quad\text{or}\quad
+\neg(TFE2748B.688),
+\tag{TFE2748B.692}
+\]
+
+after paid legal, stop, endpoint, collar, route, selector, and reselection
+fibres are removed.  Thus the remaining bad branch has a precise form: a
+unit selected critical price on already paired atoms can survive only by
+escaping parent active-measure domination, by forcing unbounded stopped
+log-amplification/BMO of the parent meter, or by defeating the parent level
+reserve.
+
+This reconciles Section 79 with the older BMO and selected-record surfaces.
+The Hodge/BMO transform, John--Nirenberg, reverse Holder, and layer-cake steps
+are deterministic consumers after `(TFE2748B.683)', `(TFE2748B.685)', and
+`(TFE2748B.688)' are supplied.  The live PDE producer is therefore the
+construction of \(Z_P^S\), \(b_P=\log W_P^{crit}\), and the level reserve from
+the original coupled pressure-viscosity-incompressibility-velocity packet
+before positive clipping.
