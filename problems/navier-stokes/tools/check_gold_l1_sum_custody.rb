@@ -77,7 +77,15 @@ READER_SURFACE_PATHS = %w[
   problems/navier-stokes/submission-bundle/sections/reader-facing-proof-program-front-pages.tex
   problems/navier-stokes/submission-bundle/sections/rebuilt-energy-enstrophy-source-branch.tex
   problems/navier-stokes/submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex
+  problems/navier-stokes/submission-bundle/submission-synopsis.md
+  problems/navier-stokes/submission-bundle/reader-facing-abstract-intro-checklist.md
   problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  papers/navier-stokes/context/generated/snapshots/authority-cut/problems/navier-stokes/live-theorem-edge.md
+  papers/navier-stokes/context/generated/snapshots/authority-cut/problems/navier-stokes/release-decision.yaml
+  papers/navier-stokes/context/generated/snapshots/authority-cut/problems/navier-stokes/source-frontier.yaml
+  papers/navier-stokes/context/generated/snapshots/authority-cut/problems/navier-stokes/theorem-packet.yaml
+  papers/navier-stokes/context/generated/snapshots/paper-export/problems/navier-stokes/external-paper/sections/main-result.tex
+  papers/navier-stokes/context/generated/snapshots/paper-export/problems/navier-stokes/submission-verdict.yaml
   papers/navier-stokes/context/generated/snapshots/paper-export/problems/navier-stokes/draft-v8.md
   papers/navier-stokes/build/output/authoritative-edge/navier-stokes.tex
   papers/navier-stokes/manuscript/generated/main.tex
@@ -144,15 +152,21 @@ READER_SAFE_CONTEXT = /\b(?:not\s+(?:a\s+)?closed|conditional|only\s+(?:as\s+)?(
 
 HIGH_RISK_READER_CLAIMS = {
   "reader surface claims global smoothness is proved" =>
-    /(?:We\s+prove\s+global\s+smoothness|For\s+every\s+smooth\s+divergence-free\s+zero-mean\s+datum\s+on\s+T\s*3[^\n]*global\s+smooth\s+solution|Smooth\s+divergence-free\s+zero-mean\s+data\s+on\s+T\s*3\s+generate\s+a\s+unique\s+global\s+smooth\s+periodic\s+Navier-Stokes\s+solution)/i,
+    /(?:We\s+prove\s+global\s+smoothness|We\s+present\s+(?:a\s+)?(?:CM-contrapositive\s+)?proof\s+of\s+Navier[-\u2013]Stokes\s+global\s+regularity|Navier-Stokes\s+global\s+regularity\s+is\s+proved|For\s+every\s+smooth\s+divergence-free\s+zero-mean\s+datum\s+on\s+T\s*3[^\n]*global\s+smooth\s+solution|Smooth\s+divergence-free\s+zero-mean\s+data\s+on\s+T\s*3\s+generate\s+a\s+unique\s+global\s+smooth\s+periodic\s+Navier-Stokes\s+solution|has\s+a\s+unique\s+global\s+smooth\s+periodic\s+solution)/i,
   "reader surface claims closed periodic theorem" =>
-    /(?:closed\s+periodic\s+theorem\s+surface|closed\s+theorem-program\s+surface|current\s+closed\s+theorem\s+remains|periodic[^\n]*remains[^\n]*closed\s+theorem-program|route-accurate\s+closure\s+statement|proof\s+promotion\s+packet\s+reports[^\n]*passed)/i,
+    /(?:closed\s+periodic\s+theorem\s+surface|closed\s+theorem-program\s+surface|current\s+closed\s+theorem\s+remains|periodic[^\n]*remains[^\n]*closed\s+theorem-program|route-accurate\s+closure\s+statement|proof\s+promotion\s+packet\s+reports[^\n]*passed|proof\s+is\s+closed|no\s+unresolved\s+source-frontier\s+obligation|no\s+authoritative-source\s+gaps\s+block\s+export\s+readiness|is\s+closed\s+conditionally|already\s+localized\s+and\s+discharged|no\s+longer\s+a\s+separate\s+frontier)/i,
   "reader surface uses stale Gold frontier" =>
-    /(?:positive\s+critical\s+transfer\s+theorem\s+inside\s+the\s+native-reserve|current\s+open\s+theorem\s+is\s+the\s+positive\s+critical\s+transfer|complete-frame\s+Hodge\s+clock|Gold\s+closes\s+this\s+boundary\s+only\s+by\s+proving\s+scale-uniform\s+control|exact\s+gold\s+child\s+left\s+by\s+that\s+pulse|missing\s+Pack\s+anti-concentration\s+theorem\s+stays\s+visible|gold\s+Pack\s+anti-concentration\s+theorem)/i
+    /(?:positive\s+critical\s+transfer\s+theorem\s+inside\s+the\s+native-reserve|current\s+open\s+theorem\s+is\s+the\s+positive\s+critical\s+transfer|complete-frame\s+Hodge\s+clock|Gold\s+closes\s+this\s+boundary\s+only\s+by\s+proving\s+scale-uniform\s+control|exact\s+gold\s+child\s+left\s+by\s+that\s+pulse|missing\s+Pack\s+anti-concentration\s+theorem\s+stays\s+visible|gold\s+Pack\s+anti-concentration\s+theorem)/i,
+  "generated status surface marks submission or authority closed" =>
+    /(?:submission_ready:\s*true|source_frontier_clear:\s*true|all_discharged:\s*true|terminal_safe:\s*true|submission_posture:\s*submission-candidate|disposition:\s*submission-candidate|status:\s*submission-candidate|current_stage:\s*submission-candidate|current_package_status:\s*full-mpp-closure-ready)/i
 }.freeze
 
 def relative(path)
   Pathname.new(path).expand_path.relative_path_from(ROOT).to_s
+end
+
+def normalized_text(text)
+  text.gsub(/\s+/, " ")
 end
 
 def preview(line)
@@ -175,8 +189,9 @@ AUTHORITY_MARKERS.each do |relative_path, markers|
   end
 
   text = read_text(path)
+  normalized = normalized_text(text)
   markers.each do |marker|
-    next if text.include?(marker)
+    next if normalized.include?(normalized_text(marker))
 
     violations << "#{relative_path}: missing sum custody marker #{marker}"
   end
