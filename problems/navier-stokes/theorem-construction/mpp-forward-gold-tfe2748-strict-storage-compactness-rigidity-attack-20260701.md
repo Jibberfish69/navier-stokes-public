@@ -19395,3 +19395,116 @@ leakage control, and bounded-below retained opposite-lobe reserve depletion from
 arbitrary original smooth data.  The remaining source-square theorem is the
 compactified no-waste storage for the square created by the lifted tail transfer
 and its terminal square-clock trace.
+
+## 141. Compactified source-square storage is a full-exchange Bellman consumer
+
+Section 140 is useful only if it is read through the full-exchange ledger of
+Sections 101--102 and 126.  The compactified source-square measure in
+`(TFE2748B.1260)' is not a new primitive.  Its preterminal part is dominated by
+the moving-interface/full-exchange comparison, and its terminal singular part is
+the compactified trace of the same full-exchange ledger.
+
+Let \(d\kappa_{P,J}^*\) denote the harmless finite-shell cutoff clock whose
+total mass is \(O(1)\) on stopped compactified histories.  Combining the
+preterminal comparison `(TFE2748B.1138)'--`(TFE2748B.1140)' with the terminal
+trace comparison `(TFE2748B.1080)' gives the compactified domination
+
+\[
+d\mathcal Z_{P,J}^{sq,*}
+\le
+C_{N,J}\,d\Xi_P^{FE,*}
+dE_P^{0,*}
+C_N2^{-2\delta J}\,d\kappa_{P,J}^* .
+\tag{TFE2748B.1268}
+\]
+
+This is a before-clipping statement.  The preterminal piece uses the same
+signed lifted transfer before its shell positive part is read by a child, and
+the terminal piece uses the weak-star trace of \(d\Xi_P^{FE}\) on
+\(\{T_*,\rho=0\}\).
+
+Assume the compactified full-exchange Bellman/no-arbitrage storage
+
+\[
+d\Xi_P^{FE,*}
+\le
+-dB_P^{FE,*}
+\theta_{FE,J}\,d\Omega_P^{gen,*}
+dE_P^{0,*},
+\qquad
+C_{N,J}\theta_{FE,J}<1,
+\tag{TFE2748B.1269}
+\]
+
+with \(B_P^{FE,*}\) bounded below from the original data.  This is exactly the
+compactified version of `(TFE2748B.893)' / `(TFE2748B.1117)', with the strict
+margin written after the comparison constant in `(TFE2748B.1268)' has been
+absorbed.  Substituting `(TFE2748B.1269)' into `(TFE2748B.1268)' gives
+
+\[
+d\mathcal Z_{P,J}^{sq,*}
+\le
+-dM_{P,J}^{sq,*}
+\theta_{sq,J}\,d\Omega_P^{gen,*}
+dE_P^{0,*}
+C_N2^{-2\delta J}\,d\kappa_{P,J}^*,
+\qquad
+C_N\theta_{sq,J}<1,
+\tag{TFE2748B.1270}
+\]
+
+where \(M_{P,J}^{sq,*}:=C_{N,J}B_P^{FE,*}\), after harmless fixed constants in
+the paid ledger have been absorbed into \(dE_P^{0,*}\).  Equation
+`(TFE2748B.1270)' is `(TFE2748B.1261)'.
+
+Therefore the compactified source-square theorem is a consumer of the
+full-exchange Bellman theorem:
+
+\[
+\boxed{
+\texttt{CompactifiedFullExchangeBellmanNoArbitrage.A}
+\Longrightarrow
+\texttt{CompactifiedSignedLiftedTailTransferNoWaste.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1271}
+\]
+
+Conversely, because `(TFE2748B.1268)' is the only route by which the
+source-square measure is seen before clipping, a normalized failure of
+`(TFE2748B.1261)' after raw atoms, active-density comparison, route, legal,
+stop, entry, return, endpoint, and paid leakage have been removed is a
+normalized failure of the compactified full-exchange Bellman bound.  In stopped
+compactified form this failure has histories \(P_n\) with
+
+\[
+\int_{\overline P_n}d\Xi_{P_n}^{FE,*}=1,\qquad
+\int_{\overline P_n}dE_{P_n}^{0,*}\to0,\qquad
+\int_{\overline P_n}
+\bigl(d\Xi_{P_n}^{FE,*}
+-\theta_{FE,J}d\Omega_{P_n}^{gen,*}\bigr)
+\ge\eta_0>0.
+\tag{TFE2748B.1272}
+\]
+
+This is the compactified version of `(TFE2748B.1118)'.  It is not a raw atom
+failure, not a dyadic counting failure, and not an endpoint bookkeeping failure.
+The only nonduplicate original-data work left is to rule out `(TFE2748B.1272)'
+by the same two clauses already isolated in `(TFE2748B.1119)'--`(TFE2748B.1122)':
+compactified stopped-parent tightness for \(d\Xi^{FE,*}\), and zero-cost
+full-exchange rigidity on the retained compactified limit.
+
+Thus the active source line should be read as
+
+\[
+\boxed{
+\texttt{current open source theorem}
+=
+\texttt{prove compactified full-exchange Bellman/no-arbitrage storage}
+\texttt{ from arbitrary original smooth data.}}
+\tag{TFE2748B.1273}
+\]
+
+Once `(TFE2748B.1273)' is proved, `(TFE2748B.1261)' follows by
+`(TFE2748B.1268)'--`(TFE2748B.1270)', and the critical capacity
+variation/storage line follows by `(TFE2748B.1266)'.
