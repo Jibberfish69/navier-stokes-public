@@ -20354,7 +20354,7 @@ of the same parent atom ledger:
 \omega_P(dJ_P)_+
 \preceq_{atom}
 dJ_{P,\omega}^{ret,-}
-\omega_P(dR_P)_+ .
++\omega_P(dR_P)_+ .
 \tag{TFE2748B.1328}
 \]
 
