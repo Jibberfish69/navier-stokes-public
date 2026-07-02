@@ -5072,3 +5072,84 @@ proved with \(\varepsilon+\beta<1\), Section 36 gives `(TFE2748B.254)', Section
 34 gives `(TFE2748B.241)' and `(TFE2748B.247)', and Section 41 turns the
 retained opposite lobe into bounded-below parent reserve depletion in the
 selected-critical currency.
+
+## 43. Exact one-sided aligned-current form
+
+The square domination `(TFE2748B.320)' is sufficient, but it is stronger than the
+entropy identity itself requires.  The positive storage line only sees the
+portion of the same-parent current that pushes against the entropy gradient of
+the selected density.  Transverse pressure/Hodge re-coordination may carry
+current energy without creating positive selected entropy.
+
+Define the entropy-Fisher density
+
+\[
+dI_P
+:=
+\Phi''(F_P)
+\langle A_P\nabla_{\mathfrak m}F_P,\nabla_{\mathfrak m}F_P\rangle
+\,d\mathfrak m_P,
+\tag{TFE2748B.322}
+\]
+
+and the one-sided aligned current-production density
+
+\[
+dQ_P^{align}
+:=
+\Bigl[
+-\Phi''(F_P)
+\langle\nabla_{\mathfrak m}F_P,J_{\Psi,P}\rangle
++\Phi'(F_P)k_{\Psi,P}^{0}
+\Bigr]_+
+\,d\mathfrak m_P .
+\tag{TFE2748B.323}
+\]
+
+The exact remaining source estimate for `(TFE2748B.254)' is
+
+\[
+\int dQ_P^{align}
+\le
+\theta\int dI_P
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+\theta<1.
+\tag{TFE2748B.324}
+\]
+
+Indeed, inserting `(TFE2748B.323)' into the integration-by-parts identity
+`(TFE2748B.258)' gives `(TFE2748B.254)' directly.  Conversely, after the paid
+terms have been removed, `(TFE2748B.254)' is precisely `(TFE2748B.324)' written
+before the aligned-current notation.  Thus `(TFE2748B.324)' is the necessary
+one-sided form of the Gold source line.
+
+The square estimate `(TFE2748B.320)' implies `(TFE2748B.324)' by Cauchy and
+\(\varepsilon+\beta<1\), but the implication is one-way:
+
+\[
+\text{entropy-weighted square domination `(TFE2748B.320)'}
+\Longrightarrow
+\text{one-sided aligned-current domination `(TFE2748B.324)'}.
+\tag{TFE2748B.325}
+\]
+
+The minimal bad branch for the exact theorem is therefore sharper.  Failure of
+Gold storage after Sections 41--42 produces stopped packets \(P_n\) with
+
+\[
+\int dQ_{P_n}^{align}=1,
+\qquad
+\int dI_{P_n}
++\Theta_{P_n}^0(P_n)+Paid(P_n)+Stop(P_n)
+\longrightarrow0.
+\tag{TFE2748B.326}
+\]
+
+This means the only remaining positive source is not raw pressure mass, not
+absence of a same-parent atom, and not absence of a current representation.  It
+is a one-sided anti-gradient alignment of the coupled pressure/Hodge/frame/
+selector current with the selected active density, surviving after Fisher
+dissipation and all paid packet motion vanish.  Proving that this branch cannot
+occur from one original smooth material history is the exact current form of
+`OriginalCriticalCapacityVariation.A`.
