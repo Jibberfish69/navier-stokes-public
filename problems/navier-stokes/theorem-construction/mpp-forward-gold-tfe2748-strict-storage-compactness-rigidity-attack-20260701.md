@@ -16044,3 +16044,97 @@ The heat representation remains a support theorem: it says the readout is a
 lawful same-parent test of the original coupled packet.  The missing source
 theorem is still a terminal-uniform same-carrier source-square/Orlicz estimate
 or a bounded-below no-waste storage identity in the original parent clock.
+
+## 117. Profile production requires residence before it can contradict
+
+The other tempting proof of `(TFE2748B.1029)' is compactness: rescale a bad
+terminal active-tail sequence, extract a limiting profile, and contradict a
+Liouville or zero-cost rigidity theorem.  This is a valid consumer only after
+the active-tail mass has real backward residence in the rescaled parent clock.
+It does not itself produce that residence.
+
+Let \(d\widehat{\mathcal P}_n\) be a normalized failure sequence from
+`(TFE2748B.1009)'--`(TFE2748B.1011)' whose weak limit is supported at
+\(\{t=T_*,\rho=0\}\).  Choose a representative shell scale
+\(r_n=2^{-j_n}\to0\) on the support of the tail defect and use the parabolic
+terminal time coordinate
+
+\[
+s={t-T_*\over r_n^2}\le0 .
+\tag{TFE2748B.1049}
+\]
+
+For \(0<\alpha<\beta<\infty\), define the rescaled backward-residence mass
+
+\[
+\mathfrak m_n(\alpha,\beta)
+:=
+d\widehat{\mathcal P}_n
+\bigl((T_*-\beta r_n^2,T_*-\alpha r_n^2]\times X_P
+\times\{\rho\lesssim r_n\}\bigr).
+\tag{TFE2748B.1050}
+\]
+
+There are only two branches.
+
+First, the residence branch:
+
+\[
+\exists\,0<\alpha<\beta,\ c>0
+\quad\text{such that}\quad
+\limsup_{n\to\infty}\mathfrak m_n(\alpha,\beta)\ge c .
+\tag{TFE2748B.1051}
+\]
+
+In this branch the normalized tail defect has nonzero mass on a genuine
+backward parabolic strip.  After the already installed bounded-detector,
+endpoint, legal, stop, collar, and paid escape removals, standard local
+compactness can produce a nonzero stopped parent profile on an open time
+interval.  A profile contradiction can then be used only if the profile theorem
+is stated on that same selected carrier and proves that zero original
+generator/paid charge forces the retained active-tail profile to vanish.
+Thus profile production consumes the residence hypothesis `(TFE2748B.1051)';
+it is not a proof of `(TFE2748B.1051)'.
+
+Second, the pure terminal branch:
+
+\[
+\forall\,0<\alpha<\beta<\infty,
+\qquad
+\mathfrak m_n(\alpha,\beta)\to0 .
+\tag{TFE2748B.1052}
+\]
+
+Then every rescaled test supported in a strict backward strip \(s<0\) sees zero
+defect mass:
+
+\[
+\int \phi(s,x,\rho)\,d\widehat{\mathcal P}_n\to0
+\qquad
+\text{for every }\operatorname{spt}\phi\subset\{s\le-\alpha\}.
+\tag{TFE2748B.1053}
+\]
+
+The compact profile on the open past is therefore the zero profile.  The unit
+defect mass has not disappeared; it has collapsed onto the rescaled time face
+\(s=0\).  This is exactly the terminal infinite-shell atom of
+`(TFE2748B.1025)' and exactly the failure of the slab modulus
+`(TFE2748B.1029)'.
+
+Consequently a compact-profile route closes the Gold source line only after it
+proves one of the same missing terminal-thickness inputs:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{same-carrier backward residence `(TFE2748B.1051)'}\\
+\texttt{plus zero-cost selected-carrier profile rigidity,}\\
+\texttt{or the Orlicz/source-square/no-waste slab modulus of Section 115.}
+\end{array}}
+\tag{TFE2748B.1054}
+\]
+
+Without `(TFE2748B.1051)' or an equivalent source-square/no-waste estimate,
+profile compactness is circular as a proof of
+`TerminalActiveTailSlabModulus.A': it extracts a zero open-past profile while
+leaving the whole normalized defect as a terminal face atom.
