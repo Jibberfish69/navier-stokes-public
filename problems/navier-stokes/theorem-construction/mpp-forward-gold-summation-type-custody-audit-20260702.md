@@ -598,6 +598,200 @@ are installed at the raw level, but they do not imply selected critical L1.
 Strict tail recurrence or parent active entropy before clipping is still the
 source theorem.
 
+## 12. Checked atom-ledger sibling surfaces
+
+These are later TFE2748B surfaces where the atom notation is lawful, but only
+after the parent coupling or parent weighted ledger has been named.
+
+### 12.1 Active-weighted Hardy atom bill
+
+Source surface:
+
+- `mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md`, TFE2748B.202.
+
+Typed object:
+
+\[
+\int_0^\tau
+\sum_\alpha W_\alpha |c_\alpha(t)|\,dt
++\int_0^\tau\sum_\alpha
+\left|\int (W_P-W_\alpha)\,d\mu_\alpha\right|dt
+\le
+C_N(u_0)+Paid_P+Legal_P+Stop_P .
+\tag{STA.31}
+\]
+
+Type: actual selected-weighted physical claim over the parent atom ledger.
+
+Consequence: raw Hardy atomization does not imply `(STA.31)'. This is the
+active-weight/current storage theorem: the weighted level reserve and lobe
+oscillation defect must be paid by parent-level reserve plus log-meter/BMO
+control.
+
+### 12.2 Atom-coefficient measure on the stopped tree
+
+Source surface:
+
+- `mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md`, TFE2748B.213.
+
+Typed object:
+
+\[
+d\nu_P^{atom}
+:=
+\sum_\alpha |c_\alpha(t)|\,\delta_\alpha\,dt .
+\tag{STA.32}
+\]
+
+Type: atomic norm / simple measure on the atom ledger.
+
+Consequence: `(STA.32)' is usable for parent-side embedding. It is not a
+physical child count and carries no fixed atom width.
+
+### 12.3 Critical meter layer cake on the atom ledger
+
+Source surface:
+
+- `mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md`, TFE2748B.672.
+
+Typed object:
+
+\[
+\mathfrak M_P^{crit}
+=
+\int W_P^{crit}\,d\Pi_P
+=
+\int_0^\infty \Pi_P(\{W_P^{crit}>\lambda\})\,d\lambda .
+\tag{STA.33}
+\]
+
+Type: actual parent atom-ledger integral plus layer-cake identity.
+
+Consequence: dyadic shells can approximate `(STA.33)', but the high-price tail
+needs Orlicz/root reserve or strict storage. The layer cake is not a physical
+count of atom labels.
+
+### 12.4 Repeated Hardy atomization in the pressure-Hodge residue
+
+Source surface:
+
+- `mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md`, TFE2748B.702.
+
+Typed object:
+
+\[
+F_P(t,a)\,da
+=
+\sum_\alpha c_\alpha(t)a_{\alpha,t}(a)\,da,
+\qquad
+\int_{X_P}a_{\alpha,t}(a)\,da=0 .
+\tag{STA.34}
+\]
+
+Type: Hardy atomic norm.
+
+Consequence: this closes raw pressure-Hodge atomization from smooth original
+data at that endpoint step. It does not close selected-critical reserve, which
+is a separate weighted storage claim.
+
+### 12.5 Weighted obstacle/excess partition
+
+Source surface:
+
+- `mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md`, TFE2748B.990.
+
+Typed object:
+
+\[
+\sum_\alpha \int U_P^2\,d\eta_\alpha
+\le
+C_N(u_0)+Paid_P+Legal_P+Stop_P
++C_N\sum_\alpha \mathfrak D_P(\eta_\alpha).
+\tag{STA.35}
+\]
+
+Type: actual weighted defect-pricing claim over a stopped parent partition.
+
+Consequence: the partition notation is not a free atom partition. The defect
+sum must be priced by original-data incremental Rayleigh defects and strictly
+absorbed into the same root-generator clock.
+
+### 12.6 Current-numbered transport coupling closure
+
+Source surface:
+
+- `mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md`, TFE2748B.1517-TFE2748B.1518.
+
+Typed object:
+
+\[
+dJ_P
+=
+dR_P+\int(\delta_{(t,x)}-\delta_{(t,y)})\,d\Pi_P(t,x,y),
+\tag{STA.36}
+\]
+
+with the countable display
+
+\[
+dJ_P=\sum_\alpha c_\alpha\,d\mu_\alpha+dR_P
+\tag{STA.37}
+\]
+
+read as a simple-measure presentation of `(STA.36)'.
+
+Type: exact parent-time transport coupling; countable atom notation is
+simple-measure approximation.
+
+Consequence: coefficient mass is transport mass, not a second physical atom
+count.
+
+### 12.7 Atom-ledger positive lobe custody
+
+Source surface:
+
+- `mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md`, TFE2748B.1520.
+
+Typed object:
+
+\[
+\omega_P(dJ_P)_+
+\preceq_{atom}
+dJ_{P,\omega}^{ret,-}
++\omega_P(dR_P)_+ .
+\tag{STA.38}
+\]
+
+Type: transport-coupling comparison on the same parent atom ledger.
+
+Consequence: `(STA.38)' is not pointwise domination. It says the selected
+positive lobe has retained opposite-lobe custody inside the same parent atom
+ledger, up to paid leakage.
+
+### 12.8 Weighted log-meter/full-exchange source
+
+Source surface:
+
+- `mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md`, TFE2748B.1524.
+
+Typed object:
+
+\[
+W_P^{crit}(x)\omega_P(x)d\Pi_P(t,x,y)
+\le
+W_P^{crit}(y)\omega_P(x)d\Pi_P(t,x,y)
++W_P^{crit}(y)\omega_P(x)
+\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)d\Pi_P(t,x,y).
+\tag{STA.39}
+\]
+
+Type: actual selected-weighted physical source claim on the parent transport
+coupling.
+
+Consequence: the first term is paid by retained-lobe reserve. The second term
+is the positive parent log-meter/full-exchange variation. That is the open
+source, not another raw atom theorem.
+
 ## Source rule after this audit
 
 Every future Gold L1 use of a summation symbol must state the parent packet or
