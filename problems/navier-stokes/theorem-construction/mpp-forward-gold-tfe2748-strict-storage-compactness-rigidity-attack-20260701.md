@@ -5516,8 +5516,8 @@ For each fixed preterminal smooth packet there is no singular defect in
 `(TFE2748B.340)'.  A singular aligned-current defect can only appear after
 taking a normalized bad-sequence limit, when the measures
 \((a_{P_n})_+dI_{P_n}\) keep unit mass while \(dI_{P_n}\) and all paid motion
-collapse.  Hence the final source theorem may be stated in the sharpest
-same-parent form:
+collapse.  A sharp sufficient same-parent producer for the local density-margin
+route is:
 
 \[
 \boxed{
@@ -5526,7 +5526,7 @@ same-parent form:
 parallel-current}\\
 \text{coefficient concentration and singular aligned-current defect in the
 stopped retained quotient;}\\
-\text{equivalently prove `(TFE2748B.342)' with some \(\theta<1\) before child
+\text{prove `(TFE2748B.342)' with some \(\theta<1\) before child
 positive clipping.}
 \end{array}}
 \tag{TFE2748B.346}
