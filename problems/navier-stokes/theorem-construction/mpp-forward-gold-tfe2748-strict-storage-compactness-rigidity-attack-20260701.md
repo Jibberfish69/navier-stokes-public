@@ -5666,3 +5666,137 @@ source package `(TFE2748B.241)', and finally the critical capacity
 variation/storage line `(TFE2748B.247)'.  The comparison theorem is still an
 original-data theorem; the flat model `(TFE2748B.353)'--`(TFE2748B.354)' records
 why it cannot be replaced by representation or cancellation bookkeeping.
+
+## 47. Fibre no-upcrossing form of the comparison theorem
+
+The positive mixed Dirichlet surplus in `(TFE2748B.351)' has a direct
+same-parent upcrossing meaning.  On the retained set where
+\(|\nabla_{\mathfrak m}F_P|_{A_P}>0\), let
+
+\[
+b_{P,\theta}
+:=
+{\langle A_P\nabla_{\mathfrak m}U_{P,\theta},
+\nabla_{\mathfrak m}F_P\rangle
+\over
+\langle A_P\nabla_{\mathfrak m}F_P,\nabla_{\mathfrak m}F_P\rangle}
+=a_P-\theta .
+\tag{TFE2748B.356}
+\]
+
+Let \(\gamma_\omega(s)\) be the stopped parent active-gradient fibres,
+parameterized by \(F_P(\gamma_\omega(s))=s\):
+
+\[
+{d\gamma_\omega\over ds}
+=
+{A_P\nabla_{\mathfrak m}F_P
+\over
+\langle A_P\nabla_{\mathfrak m}F_P,\nabla_{\mathfrak m}F_P\rangle}
+(\gamma_\omega(s)).
+\tag{TFE2748B.357}
+\]
+
+Then along each retained fibre,
+
+\[
+{d\over ds}U_{P,\theta}(\gamma_\omega(s))
+=
+b_{P,\theta}(\gamma_\omega(s)).
+\tag{TFE2748B.358}
+\]
+
+Disintegrating the Fisher measure over these fibres gives
+
+\[
+dI_P
+=
+\Phi''(s)\,J_P^I(\omega,s)\,ds\,d\eta_P(\omega),
+\tag{TFE2748B.359}
+\]
+
+where \(J_P^I\) is the parent Jacobian/flux density from the retained
+coarea-flow decomposition.  Therefore `(TFE2748B.350)' is exactly
+
+\[
+\int\bigl((a_P)_+-\theta\bigr)_+\,dI_P
+=
+\int
+\int
+\Phi''(s)
+\left[
+{d\over ds}U_{P,\theta}(\gamma_\omega(s))
+\right]_+
+J_P^I(\omega,s)\,ds\,d\eta_P(\omega).
+\tag{TFE2748B.360}
+\]
+
+So the remaining source is not a pointwise pressure sign.  It is a no-upcrossing
+claim for the Hodge comparison potential along the same parent active-density
+fibres: after route, stop, endpoint, collar, selector, and return pieces are
+removed, \(U_{P,\theta}\) may not keep increasing in the \(F_P\)-direction with
+positive Fisher weight.
+
+The sharp fibre source theorem is:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{for the original stopped coupled packet, the weighted positive
+\(F_P\)-fibre variation}\\
+\text{of \(U_{P,\theta}=\phi_{\Psi,P}-\theta F_P\) is charged by
+\(d\Theta_P^0+dPaid_P+dStop_P\):}\\
+\displaystyle
+\int
+\int
+\Phi''(s)
+\left[
+{d\over ds}U_{P,\theta}(\gamma_\omega(s))
+\right]_+
+J_P^I(\omega,s)\,ds\,d\eta_P(\omega)
+\le
+d\Theta_P^0+dPaid_P+dStop_P .
+\end{array}}
+\tag{TFE2748B.361}
+\]
+
+Equation `(TFE2748B.361)' is equivalent to `(TFE2748B.351)' on the retained
+smooth packet by `(TFE2748B.356)'--`(TFE2748B.360)'.  Its failure has the
+minimal-bad form
+
+\[
+\int
+\int
+\Phi''(s)
+\left[
+{d\over ds}U_{P_n,\theta}(\gamma_{\omega,n}(s))
+\right]_+
+J_{P_n}^I(\omega,s)\,ds\,d\eta_{P_n}(\omega)
+=1,
+\tag{TFE2748B.362}
+\]
+
+while all boundary, return, collar, selector, stop, endpoint, and Fisher-margin
+payments vanish.  After the usual stopped compactness extraction, such a branch
+would be a genuine same-parent comparison arbitrage: the Hodge potential
+\(\phi_{\Psi,P}\) rises faster than \(\theta F_P\) along retained active-density
+fibres with no paid entry, no return, no endpoint residue, and no singular
+aligned defect.
+
+Thus the original-data source theorem has been reduced to the parent
+comparison no-upcrossing principle
+
+\[
+\boxed{
+\text{ParentComparisonFibreNoUpcrossing.A:
+no retained same-parent \(F_P\)-fibre can carry unpaid positive variation of
+\(U_{P,\theta}\).}
+}
+\tag{TFE2748B.363}
+\]
+
+A proof of `(TFE2748B.363)' gives `(TFE2748B.361)', hence
+`(TFE2748B.351)' and the full implication chain ending at `(TFE2748B.247)'.
+The flat quotient model in `(TFE2748B.353)'--`(TFE2748B.354)' shows why this
+must be a genuine original-coupled-packet no-upcrossing theorem: the stopped
+Hodge representation alone permits positive fibre variation.
