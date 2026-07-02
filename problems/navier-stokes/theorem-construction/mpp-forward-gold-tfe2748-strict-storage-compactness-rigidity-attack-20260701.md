@@ -20090,3 +20090,181 @@ Gold \(L^1\) producer for `CriticalCapacityVariationStorage.A'.  The raw
 signed-measure atom construction is already consumed at Section 143; the open
 work is the weighted critical-endpoint depletion storage from arbitrary
 original smooth data.
+
+## 146. Critical-endpoint depletion is the critical parent-capacity source
+
+Section 145 names the compactified source in the language of
+\(d\Xi_P^{ce,*}\).  Sections 102--104 already identify the same object in the
+older local capacity coordinates.  The two descriptions match as follows.
+
+The precise source package is:
+
+\[
+\begin{gathered}
+\texttt{CriticalEndpointCapacitySource.A:}\\[1mm]
+d\Xi_P^{ce,*}
+\le
+C_N\,dCap_P^{crit,root,*}+dE_P^{0,*},
+\\[1mm]
+dCap_P^{crit,root,*}
+\le
+-dB_P^{crit,*}
++\theta_{cap}\,d\Omega_P^{gen,*}
++dE_P^{0,*},
+\qquad
+B_P^{crit,*}\ge -C_N(u_0),\\[1mm]
+C_N\theta_{cap}<1 .
+\end{gathered}
+\tag{TFE2748B.1310}
+\]
+
+The first line is lower admission: a critical-native birth or naked endpoint
+piece of the full-exchange ledger may be counted only after it is admitted into
+the parent root critical capacity.  The second line is the root packing/storage
+upper edge for that same capacity.  Both clauses are before child positive
+clipping, and \(dE_P^{0,*}\) is still only route, legal, stop, entry, return,
+paid frame/collar/Hodge/covector, reset exit, and endpoint-paid material.
+
+Substituting the second line of `(TFE2748B.1310)' into the first gives
+
+\[
+d\Xi_P^{ce,*}
+\le
+-d(C_NB_P^{crit,*})
++C_N\theta_{cap}\,d\Omega_P^{gen,*}
++C_NdE_P^{0,*}.
+\tag{TFE2748B.1311}
+\]
+
+Absorb the harmless fixed constants in \(dE_P^{0,*}\) into the paid ledger and
+set
+
+\[
+M_P^{ce,*}:=C_NB_P^{crit,*},
+\qquad
+\theta_{ce}:=C_N\theta_{cap}.
+\tag{TFE2748B.1312}
+\]
+
+Then \(M_P^{ce,*}\ge -C_N(u_0)\), \(C_N(\theta_{reg}+\theta_{ce})<1\) after the
+usual margin choice, and `(TFE2748B.1311)' is exactly
+`CriticalEndpointDepletionStorage.A' `(TFE2748B.1302)'.  Hence
+
+\[
+\boxed{
+\texttt{CriticalEndpointCapacitySource.A}
+\Longrightarrow
+\texttt{CriticalEndpointDepletionStorage.A}.}
+\tag{TFE2748B.1313}
+\]
+
+This also explains why the closed atom theorem is not enough.  The raw atom
+reserve supplies the sign-pairing currency, but `(TFE2748B.1310)' asks for the
+critical parent capacity that prices scale-native selected size before the
+child clips it.
+
+The capacity itself has two faces.  On the positive-baseline face, with
+
+\[
+dA_Q^{sel,+}=f_Q\,dR_P^{root},
+\qquad
+dA_{\pi Q}^{sel,+}=f_{\pi Q}\,dR_P^{root},
+\qquad
+r_Q={f_Q\over f_{\pi Q}},
+\tag{TFE2748B.1314}
+\]
+
+the critical capacity is the log-amplification entropy
+
+\[
+d\rho_{crit,P}^{ac}(Q)
+:=
+f_Q\log(r_Q)_+\,dR_P^{root}.
+\tag{TFE2748B.1315}
+\]
+
+For \(r_Q\ge2\), \(f_Q\le C f_Q\log r_Q\), so high positive-baseline selected
+size is lower-admitted into \(d\rho_{crit,P}^{ac}\).  The log-ratio identity
+
+\[
+\log r_Q
+=
+\ell_Q(\Delta_QZ_P^S)-\psi_Q+e_Q
+\tag{TFE2748B.1316}
+\]
+
+is the Radon--Nikodym chain rule plus paid normalization, as in
+`(TFE2748B.923)'--`(TFE2748B.926)'.  For bounded parent-announced detectors,
+Cauchy with stopped overlap gives the root projection estimate
+`(TFE2748B.927)'--`(TFE2748B.930)', so the positive-baseline log branch is a
+consumer once the parent generator clock is available.
+
+The nonconsumer critical-endpoint face is the zero-baseline, scale-native
+first-entry/endpoint detector.  On
+
+\[
+E_Q^0:=\{f_{\pi Q}=0,\ f_Q>0\},
+\tag{TFE2748B.1317}
+\]
+
+the parent pullback of a unit selected scale-native read has norm
+
+\[
+\|K_Q^{parent}\|_{\mathfrak H_P}^2\simeq \lambda_Q^{-1},
+\tag{TFE2748B.1318}
+\]
+
+where \(\lambda_Q\) is the physical zoom/heat-scale ratio.  Thus the required
+entry capacity atom is
+
+\[
+d\rho_{crit,P}^{entry}(Q)
+:=
+\lambda_Q^{-1}\,dR_P^{root}(E_Q^0).
+\tag{TFE2748B.1319}
+\]
+
+The remaining original-data theorem inside `(TFE2748B.1310)' is exactly the
+first-entry/root-packing line
+
+\[
+\begin{gathered}
+d\Xi_P^{ce,0,*}(Q)
+\le
+C_N\,d\rho_{crit,P}^{entry}(Q)+dE_P^{0,*}(Q),\\[1mm]
+\sum_{Q\subset P'}d\rho_{crit,P}^{entry}(Q)
+\le
+-dB_P^{entry,*}(P')
++\theta_e d\Omega_P^{gen,*}(P')
++dE_P^{0,*}(P'),
+\qquad C_N\theta_e<1 .
+\end{gathered}
+\tag{TFE2748B.1320}
+\]
+
+This is the compactified critical-endpoint version of `(TFE2748B.920)'.  It is
+the scale-native part that bounded Riesz/Bessel, raw atom pairing, dyadic
+counting, and positive-baseline log-carrier entropy do not prove.  A normalized
+failure of `(TFE2748B.1320)' has a concrete form: unit mass remains in
+\(\lambda_Q^{-1}dR_P^{root}(E_Q^0)\) while generator clock, paid motion, route,
+legal, stop, return, and terminal thickness vanish.
+
+Therefore the current edge below Section 145 is:
+
+\[
+\boxed{
+\texttt{ScaleNativeFirstEntryCriticalCapacityPacking.A `(TFE2748B.1320)'}
++\texttt{ bounded positive-baseline projection consumers}
+\Longrightarrow
+\texttt{CriticalEndpointCapacitySource.A}
+\Longrightarrow
+\texttt{CriticalEndpointDepletionStorage.A}.}
+\tag{TFE2748B.1321}
+\]
+
+The arbitrary-data proof of the critical capacity variation/storage line is
+therefore not waiting on another same-parent attachment theorem.  It is waiting
+on the original coupled packet to supply `(TFE2748B.1320)': every zero-baseline
+scale-native first-entry or naked endpoint selected read must leave a root
+critical capacity atom with finite root packing before the child positive part
+is counted.
