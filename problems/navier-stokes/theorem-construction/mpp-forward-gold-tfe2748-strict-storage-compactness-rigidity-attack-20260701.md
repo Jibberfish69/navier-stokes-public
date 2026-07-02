@@ -18334,3 +18334,153 @@ smooth data: the proof must construct the parent-root critical capacity
 \(\rho_{crit,P}\) and prove its packing directly from the original coupled
 pressure-Hodge/viscous-Stokes/self-advection/incompressibility packet before
 any child positive readout is clipped.
+
+## 134. Critical parent capacity splits into log entropy and endpoint seed
+
+The capacity atom `(TFE2748B.1190)' contains two different mechanisms, and they
+must not be blurred.  On the positive-baseline fibre, \(f_{\pi Q}>0\), the
+capacity is a relative log-amplification entropy.  On the zero-baseline fibre,
+\(f_{\pi Q}=0<f_Q\), there is no logarithmic ratio; the selected readout is a
+singular first-entry endpoint seed and has to be admitted as a separate
+root-capacity atom before clipping.
+
+For \(E_Q^{ac}:=E_Q\cap\{f_{\pi Q}>0\}\), set
+
+\[
+\rho_{crit,P}^{ac}(E_Q)
+:=
+\int_{E_Q^{ac}}
+f_Q\log\!\left({f_Q\over f_{\pi Q}}\right)_+\,dR_P^{root}.
+\tag{TFE2748B.1194}
+\]
+
+The lower edge is deterministic on the retained high-ratio face:
+
+\[
+\int_{E_Q^{ac}\cap\{f_Q/f_{\pi Q}\ge2\}}f_Q\,dR_P^{root}
+\le C\,\rho_{crit,P}^{ac}(E_Q).
+\tag{TFE2748B.1195}
+\]
+
+The low-ratio part is inherited/repeated-core/reset material and has already
+been routed before the scale-native branch is reached.  The root packing side
+is supplied by the before-clipping log-ratio representation and the stopped
+root Carleson square estimate:
+
+\[
+\log {f_Q\over f_{\pi Q}}
+=\ell_Q(\Delta_QZ_P^S)-\psi_Q+e_Q,
+\tag{TFE2748B.1196}
+\]
+
+and
+
+\[
+\sum_{Q\subset P'}
+\left|\ell_Q(\Delta_QZ_P^S)-\psi_Q\right|^2dR_P^{root}(E_Q)
+\le
+C_N\int_{P'}d\Omega_P^{gen}+dE_P^0(P').
+\tag{TFE2748B.1197}
+\]
+
+John--Nirenberg/good-\(\lambda\) on the stopped bounded-overlap family gives
+
+\[
+\sum_{Q\subset P'}\rho_{crit,P}^{ac}(E_Q)
+\le
+C_N\int_{P'}d\Omega_P^{gen}+dE_P^0(P').
+\tag{TFE2748B.1198}
+\]
+
+Thus the positive-baseline half of `CriticalParentCapacityPacking.A' is already
+a consumer of the parent-announced log carrier and root-generator clock.
+
+For the zero-baseline fibre
+
+\[
+E_Q^0:=E_Q\cap\{f_{\pi Q}=0<f_Q\},
+\tag{TFE2748B.1199}
+\]
+
+define the singular endpoint-entry capacity by
+
+\[
+\rho_{crit,P}^{entry}(E_Q)
+:=
+dR_P^{root}(E_Q^0)\,
+\|K_Q^{parent}\|_{\mathfrak H_P^\ast}^2
+\simeq
+\lambda_Q^{-1}\,dR_P^{root}(E_Q^0),
+\tag{TFE2748B.1200}
+\]
+
+where \(\lambda_Q\) is the physical heat/zoom ratio.  This is not the density
+ratio \(f_Q/f_{\pi Q}\); on \(E_Q^0\) that ratio is not defined.
+
+The endpoint trace normalization from `(TFE2748B.950)'--`(TFE2748B.953)' says
+that the singular endpoint detector is the same parent object as the
+first-entry endpoint-seed measure \(d\mathcal E_P^{EP}\), up to paid
+reselection/legal/stop material:
+
+\[
+\rho_{crit,P}^{entry}
+\preceq
+C_N\,d\mathcal E_P^{EP}
+dE_P^0 .
+\tag{TFE2748B.1201}
+\]
+
+Therefore the zero-baseline half of `CriticalParentCapacityPacking.A' is exactly
+the endpoint-seed/native-birth packing theorem
+
+\[
+\boxed{
+\texttt{EndpointSeedCriticalPacking.A:}\qquad
+\int_{P'}d\mathcal E_P^{EP}
+\le
+-dB_P^{EP}(P')
++\theta_{EP}\,d\Omega_P^{gen}(P')
++dE_P^0(P'),
+\quad C_N\theta_{EP}<1,
+}
+\tag{TFE2748B.1202}
+\]
+
+with \(B_P^{EP}\) bounded below from the original data.
+
+Combining `(TFE2748B.1198)' and `(TFE2748B.1201)'--`(TFE2748B.1202)' gives the
+critical parent-capacity packing estimate `(TFE2748B.1191)':
+
+\[
+\texttt{stopped log-carrier root Carleson `(TFE2748B.1196)'--`(TFE2748B.1198)'}
++
+\texttt{EndpointSeedCriticalPacking.A `(TFE2748B.1202)'}
+\Longrightarrow
+\texttt{CriticalParentCapacityPacking.A}.
+\tag{TFE2748B.1203}
+\]
+
+Conversely, after bounded log-detector projection, inherited/repeated-core
+material, reset/reselection, legal, stop, and paid endpoint routing are removed,
+a failure of `CriticalParentCapacityPacking.A' must be a failure of the
+endpoint-seed packing theorem or of the stopped root-generator storage that
+controls `(TFE2748B.1197)':
+
+\[
+\boxed{
+\neg\texttt{CriticalParentCapacityPacking.A}
+\Longrightarrow
+\neg\texttt{EndpointSeedCriticalPacking.A}
+\ \vee\
+\neg\texttt{StoppedRootGeneratorCarlesonStorage.A}.
+}
+\tag{TFE2748B.1204}
+\]
+
+This is a stricter bottom than Section 133.  The positive-baseline log branch
+is no longer an open \(L^1\) mystery once the carrier and root Carleson storage
+are parent-announced.  The zero-baseline branch is not a logarithmic estimate at
+all: it is the singular endpoint-seed/native-birth packing problem.  Proving
+`(TFE2748B.1202)' together with stopped full-exchange/root-generator storage
+proves `CriticalParentCapacityPacking.A', hence \(\mathsf G_P^{EA}\), hence
+`CriticalCapacityVariationStorage.A'.
