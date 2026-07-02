@@ -5915,14 +5915,15 @@ comparison is made on the same-parent fibre atom ledger, not pointwise after the
 positive part has already been clipped.
 
 The retained opposite lobe is a bounded-below parent reserve depletion.  Choose
-the stopped parent accounting order on the fibre ledger and set
+the stopped parent accounting order \(\mathfrak t_P\) on the fibre ledger and
+set
 
 \[
 M_P^{fib}(\tau)
 :=
 \int \pi_\omega(I_\omega\times I_\omega)\,d\eta_P(\omega)
 -
-dJ_{P,fib}^{ret,-}\bigl(\{s<\tau\}\bigr).
+dJ_{P,fib}^{ret,-}\bigl(\{\mathfrak t_P<\tau\}\bigr).
 \tag{TFE2748B.372}
 \]
 
