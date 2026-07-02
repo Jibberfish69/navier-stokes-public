@@ -9612,3 +9612,134 @@ or equivalently the strict aligned-current comparison `(TFE2748B.351)'.  Section
 same source wall already isolated in Section 71: zero-source aligned-current
 rigidity / parent comparison from the original coupled packet, not another atom
 pairing theorem.
+
+## 73. Defect-measure form of the remaining source wall
+
+The remaining wall can now be written without any bookkeeping ambiguity.  Assume
+the critical capacity variation/storage line fails after Sections 71 and 72.
+Then `(TFE2748B.596)'--`(TFE2748B.597)' give retained stopped packets
+\(P_n\), entrances \(N_n\to\infty\), and positive aligned-current measures
+
+\[
+d\lambda_n:=dQ_{P_n,N_n}^{tail},
+\qquad
+d\sigma_n:=
+2^{-N_n}D_{N_n}(t)\,dt+d\Theta_{P_n}^0+dPaid_{P_n}+dStop_{P_n},
+\tag{TFE2748B.611}
+\]
+
+with
+
+\[
+\lambda_n(P_n)=1,
+\qquad
+\sigma_n(P_n)\to0.
+\tag{TFE2748B.612}
+\]
+
+For every fixed \(R<\infty\), the low-ratio part is negligible:
+
+\[
+\lambda_n\!\left(
+\left\{ {d\lambda_n\over d\sigma_n}\le R\right\}
+\right)
+\le R\,\sigma_n(P_n)\to0.
+\tag{TFE2748B.613}
+\]
+
+Thus the failure is not a missing atom, not an unpaired pressure lobe, and not a
+late dyadic recount.  It is a positive same-parent aligned-current measure whose
+carrier density is escaping every finite Fisher/paid ratio.
+
+Put the stopped packets into root-fixed parent coordinates and let \(K_m\) be
+an exhaustion of the retained quotient by compact parent sets.  There are only
+two possible failure modes:
+
+\[
+\lim_{m\to\infty}\limsup_{n\to\infty}\lambda_n(P_n\setminus K_m)>0,
+\tag{TFE2748B.614}
+\]
+
+or else the measures are tight:
+
+\[
+\forall\varepsilon>0\ \exists m\quad
+\limsup_{n\to\infty}\lambda_n(P_n\setminus K_m)<\varepsilon .
+\tag{TFE2748B.615}
+\]
+
+The first alternative is not an analytic mystery inside the retained packet.  It
+is exactly loss of retained parent thickness: aligned-current mass leaves the
+root-fixed stopped quotient.  Such mass must be charged to route, collar,
+frame, endpoint, legal, stop, or parent-reselection motion.  Therefore, after
+those ledgers have genuinely been removed, a surviving bad branch must satisfy
+the tight alternative `(TFE2748B.615)'.
+
+Under `(TFE2748B.615)', Prokhorov/Radon compactness gives a subsequence
+\(\lambda_n\rightharpoonup^\ast\lambda_\infty\) on the stopped parent quotient,
+with
+
+\[
+\lambda_\infty(K)=1
+\tag{TFE2748B.616}
+\]
+
+on the retained compact quotient.  Since \(\sigma_n(P_n)\to0\), every bounded
+nonnegative parent test \(\psi\) satisfies
+
+\[
+\int \psi\,d\sigma_n\to0,
+\tag{TFE2748B.617}
+\]
+
+while the high-ratio identity `(TFE2748B.613)' says that the whole unit mass of
+\(\lambda_n\) lies on the singular quotient
+
+\[
+{d\lambda_n\over d\sigma_n}\to\infty .
+\tag{TFE2748B.618}
+\]
+
+Thus a tight failure produces a nonzero zero-source aligned-current defect
+measure
+
+\[
+d\lambda_\infty\ne0,
+\qquad
+dI_\infty+d\Theta_\infty^0+dPaid_\infty+dStop_\infty=0,
+\tag{TFE2748B.619}
+\]
+
+whose mass is nevertheless the limit of the original coupled
+pressure-viscosity-incompressibility-velocity shell current before clipping.
+
+Consequently the storage theorem is now equivalent to ruling out precisely this
+defect:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{RootFixedRetainedTightness.A `(TFE2748B.615)'}\\
++\texttt{ZeroSourceAlignedCurrentNoGhost.A `(TFE2748B.619)\Rightarrow
+\lambda_\infty=0'}
+\end{array}
+\Longleftrightarrow
+\texttt{ParentComparisonPositiveSurplus.A `(TFE2748B.351)'.}
+}
+\tag{TFE2748B.620}
+\]
+
+The forward implication is by contradiction: failure of `(TFE2748B.351)' gives
+`(TFE2748B.611)'--`(TFE2748B.612)'; non-tight mass is paid by retained-quotient
+loss, and tight mass gives the zero-source defect `(TFE2748B.619)', contradicting
+`ZeroSourceAlignedCurrentNoGhost.A'.  The reverse implication is just the
+negation construction above.
+
+This is a real lowering of the Gold source wall.  The remaining original-data
+work is not the signed atom decomposition and not a current representation.  It
+is the coupled no-ghost statement: a unit positive aligned current cannot remain
+after the same parent packet has zero Fisher carrier, zero paid motion, zero
+route/collar/frame/legal/stop leakage, and no retained-quotient escape.  Any
+future proof of the critical capacity variation/storage line must supply
+`(TFE2748B.615)' and the no-ghost implication in `(TFE2748B.620)' from the
+original smooth data before child clipping.
