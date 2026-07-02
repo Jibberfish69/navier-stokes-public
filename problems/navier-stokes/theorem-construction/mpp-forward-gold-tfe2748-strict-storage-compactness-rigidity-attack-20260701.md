@@ -9076,3 +9076,133 @@ now the strict same-parent square-Carleson estimate for the full coupled
 derivative shell-current \(\mathcal N_{>k,P}^{D}\).  It must be supplied by the
 original pressure-viscosity-incompressibility-velocity packet before clipping,
 not by a scalarized source-square tail after the child readout has been counted.
+
+## 69. Full-packet custody audit for the derivative shell-current
+
+The older full Hodge-Stokes and four-body surfaces do not close
+`(TFE2748B.572)'.  They do something narrower and necessary: they identify the
+object whose positive square must be estimated.
+
+For each retained shell and stopped parent packet, the derivative shell-current
+in `(TFE2748B.555)' has the full-packet scalar form
+
+\[
+\mathcal N_{j,P}^{full}
+=
+\mathsf{Scal}_{j,P}^{HS}
+\bigl(
+\chi_P(u\cdot\nabla u),\,
+\chi_P\nabla p,\,
+\nu\chi_P\Delta u,\,
+\chi_P\partial_tu,\,
+\chi_P\nabla\cdot u,\,
+\mathcal B_{j,P}^{cut},\,
+\mathcal S_{j,P}^{sgn}
+\bigr)
++\mathcal R_{j,P}^{route}.
+\tag{TFE2748B.577}
+\]
+
+Here \(\mathsf{Scal}_{j,P}^{HS}\) is the same shell-energy scalar contraction
+used in the parent-frame differentiated balance, and
+\(\mathcal R_{j,P}^{route}\) consists only of the already separated route,
+collar, frame, legal, and stop terms.  Thus, after summing \(j>k+4\),
+
+\[
+\mathcal N_{>k,P}^{D}
+=
+\mathsf{Scal}_{>k,P}^{HS}(\mathcal K_{>k,P}^{HS})
++\mathcal R_{>k,P}^{route},
+\tag{TFE2748B.578}
+\]
+
+before any child positive part is clipped.  This is the exact sense in which
+the Leray-projection oversight is absent from `(TFE2748B.555)'--`(TFE2748B.567)':
+the current is not an input-colored triad and not a projected scalar.  It is
+the recombined same-parent pressure-viscosity-incompressibility-velocity shell
+current.
+
+Define the corresponding full-packet square current
+
+\[
+\mathcal Q_{P,N}^{HS}(W)
+:=
+\int_W\sum_{k>N}2^{-3k}
+\left(
+\bigl(\mathsf{Scal}_{>k,P}^{HS}(\mathcal K_{>k,P}^{HS})\bigr)_+
+\right)^2dt .
+\tag{TFE2748B.579}
+\]
+
+The custody identity gives the deterministic comparison
+
+\[
+\mathcal Q_{P,N}^{cur}(W)
+\le
+C\,\mathcal Q_{P,N}^{HS}(W)
++Paid(W)+Stop(W).
+\tag{TFE2748B.580}
+\]
+
+Indeed, `(TFE2748B.578)' and \((a+b)_+^2\le2a_+^2+2b_+^2\) move the paid
+route/collar/frame/legal/stop square into the paid ledgers; no future
+source-square tail is used.
+
+Consequently the current-specific full-packet supplier is
+
+\[
+\boxed{
+\mathcal Q_{P,N}^{HS}(W)
+\le
+\varepsilon\nu\int_WD_N(t)\,dt
++C_\varepsilon(u_0)2^{-2\delta N}
++Paid(W)+Stop(W).
+}
+\tag{TFE2748B.581}
+\]
+
+Equations `(TFE2748B.579)'--`(TFE2748B.581)' imply
+`FullShellCurrentSquareCarleson.A' and hence the storage line through Sections
+67--68:
+
+\[
+\boxed{
+\texttt{DerivativeShellFullPacketSquareNoWaste.A `(TFE2748B.581)'}
+\Longrightarrow
+\texttt{FullShellCurrentSquareCarleson.A `(TFE2748B.572)'}
+\Longrightarrow
+\texttt{SourceSquareReservePayment.A.}
+}
+\tag{TFE2748B.582}
+\]
+
+This is not a new independent wall.  It is the current-specific reading of the
+older no-residue/four-body production target.  The checked older surfaces prove
+packet custody, order-locked positive-carrier identification as a criterion,
+lossless full-packet rigidity as a consumer, and strong same-carrier
+compactness/no-loss as a criterion.  They also explicitly prove the limitation
+
+\[
+\text{full signed Hodge-Stokes participation custody}
+\ne
+\text{one-sided selected positive no-waste payment}.
+\tag{TFE2748B.583}
+\]
+
+Thus the full-packet audit discharges only the representation half of the
+current theorem:
+
+\[
+\boxed{
+\texttt{FullShellCurrentSquareRepresentation.A}
+\text{ is the full Hodge-Stokes packet custody statement `(TFE2748B.578)'--`(TFE2748B.580)'.}
+}
+\tag{TFE2748B.584}
+\]
+
+The remaining arbitrary-data producer is precisely the strict square/no-waste
+estimate `(TFE2748B.581)' for that same recombined current.  A proof may use the
+Hodge-Stokes packet, four-body routing, compactness/no-loss, and lossless
+rigidity only after it supplies a same-parent square budget or bounded-below
+no-waste Lyapunov law before clipping; packet preservation alone would repeat
+the old category error.
