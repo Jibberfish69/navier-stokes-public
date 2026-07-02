@@ -6328,3 +6328,187 @@ motion does not have to be pressure-only, viscosity-only, or positive-only; it
 has to be a same-parent Hardy tail whose good part is absorbed by the existing
 fibre variation/return reserve and whose bad part is dominated by the original
 generator clock.
+
+## 51. The signed-measure attachment theorem is closed at raw parent level
+
+The attachment step should not remain phrased as a mystery source.  It is an
+ordinary signed-measure theorem once the pressure-Hodge/material residue is
+pulled back to one stopped parent packet before child clipping.
+
+Let \(X_P\) be a stopped compact preterminal parent packet and let \(dJ_P\) be
+the pre-clipping pressure-Hodge/material residue after route, collar, legal,
+stop, endpoint, and already-paid detector-motion terms have been separated.  The
+parent residue decomposes as
+
+\[
+dJ_P=dJ_P^0+dR_P,
+\qquad
+dJ_P^0(X_P)=0,
+\qquad
+|dR_P|\le d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.400}
+\]
+
+The zero-mass clause is the parent-frame form of pressure as a constraint force.
+On the periodic branch the global pressure source has zero mean; after stopping
+and localizing a packet, every nonzero boundary contribution is collar, route,
+legal, stop, endpoint, or detector-motion leakage and is already in \(dR_P\).
+
+The Jordan split gives
+
+\[
+dJ_P^0=dJ_{P,+}^0-dJ_{P,-}^0,
+\qquad
+dJ_{P,+}^0(X_P)=dJ_{P,-}^0(X_P)=:m_P^J .
+\tag{TFE2748B.401}
+\]
+
+Choose any same-parent transport coupling \(\pi_P\) of \(dJ_{P,+}^0\) and
+\(dJ_{P,-}^0\).  Then, as a signed Radon measure on \(X_P\),
+
+\[
+dJ_P^0
+=
+\int_{X_P\times X_P}(\delta_x-\delta_y)\,d\pi_P(x,y),
+\qquad
+\pi_P(X_P\times X_P)=m_P^J={1\over2}|dJ_P^0|(X_P).
+\tag{TFE2748B.402}
+\]
+
+Equivalently, after simple-measure approximation of \(\pi_P\),
+
+\[
+dJ_P
+=
+\sum_\alpha c_\alpha\,d\mu_\alpha+dR_P,
+\qquad
+\int_{X_P}d\mu_\alpha=0,
+\qquad
+\sum_\alpha |c_\alpha|\le {1\over2}|dJ_P^0|(X_P).
+\tag{TFE2748B.403}
+\]
+
+For the actual smooth Navier--Stokes pressure-Hodge residue, the coefficient
+mass has the raw original-data bound from Section 29:
+
+\[
+\sum_\alpha |c_\alpha(t)|
++ |(dR_P)_+|(t)
+\le
+C_N\|\nabla u(t)\|_2^2
++dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t),
+\tag{TFE2748B.404}
+\]
+
+and therefore
+
+\[
+\int_0^\tau\sum_\alpha |c_\alpha(t)|\,dt
++\int_0^\tau |(dR_P)_+|(t)
+\le
+C_N{\|u_0\|_2^2\over \nu}
++Paid_P+Legal_P+Stop_P,
+\qquad \tau<T_* .
+\tag{TFE2748B.405}
+\]
+
+This is coefficient and leakage control before clipping.  It is raw parent
+currency: no future selected child tail is used to define the atoms, the
+coefficients, or the leakage.
+
+For each signed atom \(\nu_\alpha=c_\alpha d\mu_\alpha\), write
+\(\nu_\alpha=\nu_\alpha^+-\nu_\alpha^-\).  Because
+\(\int d\mu_\alpha=0\),
+
+\[
+\nu_\alpha^+(X_P)=\nu_\alpha^-(X_P).
+\tag{TFE2748B.406}
+\]
+
+Thus the selected positive lobe is attached to an opposite same-parent lobe:
+
+\[
+(dJ_P)_+
+\le
+dJ_P^{ret,-}+(dR_P)_+,
+\qquad
+dJ_P^{ret,-}:=\sum_\alpha \nu_\alpha^- .
+\tag{TFE2748B.407}
+\]
+
+Define the raw parent reserve by
+
+\[
+M_P^{raw}(\tau)
+:=
+M_P^{raw}(0)
+-
+dJ_P^{ret,-}\bigl([0,\tau]\times X_P\bigr),
+\qquad
+M_P^{raw}(0)
+:=
+C_N{\|u_0\|_2^2\over\nu}+Paid_P+Legal_P+Stop_P .
+\tag{TFE2748B.408}
+\]
+
+Then `(TFE2748B.405)' gives
+
+\[
+M_P^{raw}(\tau)\ge0,
+\qquad
+-dM_P^{raw}=dJ_P^{ret,-}
+\quad\text{on retained parent atoms.}
+\tag{TFE2748B.409}
+\]
+
+This proves the retained opposite lobe is a bounded-below parent reserve
+depletion in the raw pre-clipping residue.  The depletion occurs at the same
+parent atom and the same parent accounting time as the positive lobe; it is not
+a reserve defined by looking ahead to a later selected readout.
+
+Consequently the raw signed-measure theorem is:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{SignedPressureHodgeAtomicAttachment.A: arbitrary original smooth data
+constructs}\\
+\text{the pre-clipping same-parent zero-mean atom decomposition
+`(TFE2748B.400)'--`(TFE2748B.403)',}\\
+\text{with coefficient/leakage control `(TFE2748B.404)'--`(TFE2748B.405)' and
+bounded-below}\\
+\text{retained opposite-lobe reserve depletion `(TFE2748B.408)'--`(TFE2748B.409)'.}
+\end{array}}
+\tag{TFE2748B.410}
+\]
+
+This closes the attachment burden itself.  The remaining Gold \(L^1\) burden is
+the weighted parent-current upgrade.  Multiplying a zero-mean atom by a
+parent-known selected detector \(W_P\) gives
+
+\[
+\int W_P\,d\mu_\alpha
+=
+\int (W_P-W_{\alpha})\,d\mu_\alpha,
+\tag{TFE2748B.411}
+\]
+
+so raw lobe attachment proves no selected-critical bound until the detector
+motion is paid by the same original packet.  In Section 50 variables, that
+weighted detector motion is exactly the bad Hardy-tail term
+\(d\Omega_P^{Hlog}\).  Therefore `(TFE2748B.410)' feeds the consumer chain, but
+Gold closure still requires the original coupled packet to prove
+
+\[
+d\Omega_P^{Hlog}
+\le
+\vartheta\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+C_N(\varepsilon+\vartheta)<1 ,
+\tag{TFE2748B.412}
+\]
+
+which is `(TFE2748B.398)'.  The raw pressure-Hodge atom is attached; the
+unclosed statement is the selected-critical weighted/log-weight reserve from
+the same parent packet before clipping.
