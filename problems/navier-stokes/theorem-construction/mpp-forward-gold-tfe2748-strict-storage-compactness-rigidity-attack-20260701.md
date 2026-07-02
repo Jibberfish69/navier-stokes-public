@@ -6182,3 +6182,149 @@ storage problem to one coupled original-data supplier: entropy-weighted
 same-parent current/log-weight storage for the retained fibre measure.  This is
 the same physical object as the earlier active-coordinate Jacobian/full-exchange
 storage wall, now written in the exact fibre variables of `(TFE2748B.364)'.
+
+## 50. Hardy-adjoint form of the log-weight source
+
+The log-weight estimate in `(TFE2748B.385)' is a strong sufficient version.  The
+storage-exact form keeps the negative fibre motion on the same reserve ledger
+instead of forcing all log-weight payment through positive variation.
+
+Let
+
+\[
+d\nu_{\omega}^{logw}:=w_P(\omega,s)\,|d\ell_P(\omega,s)|
+\tag{TFE2748B.390}
+\]
+
+be the retained log-weight motion measure on one fibre.  After the endpoint
+term `(TFE2748B.379)' has been removed, choose for each fibre point \(s\) a
+stopped parent path \(\Gamma_\omega(s)\subset I_\omega\) from a paid boundary
+trace to \(s\).  Define the Hardy-adjoint tail coefficient
+
+\[
+\mathcal K_\omega(r)
+:=
+{1\over w_P(\omega,r)}
+\nu_\omega^{logw}\bigl(\{s:\ r\in\Gamma_\omega(s)\}\bigr).
+\tag{TFE2748B.391}
+\]
+
+This coefficient is parent-announced: it is computed from the same stopped
+fibre, the same coarea Jacobian, and the same selected density before the child
+positive part is clipped.  The one-dimensional path identity gives
+
+\[
+|U_{P,\theta}(\gamma_\omega(s))|
+\le
+|U_{P,\theta}|_{\partial I_\omega}^{paid}
++
+\int_{\Gamma_\omega(s)}dU_\omega^+
++
+\int_{\Gamma_\omega(s)}dU_\omega^- .
+\tag{TFE2748B.392}
+\]
+
+Integrating `(TFE2748B.392)' against \(d\nu_\omega^{logw}\) and using Fubini
+gives the exact adjoint bound
+
+\[
+dJac_P^U
+\le
+dEnd_P^U
++
+\int\mathcal K_\omega\,d\mu_\omega^+\,d\eta_P(\omega)
++
+\int\mathcal K_\omega\,d\mu_\omega^-\,d\eta_P(\omega),
+\tag{TFE2748B.393}
+\]
+
+where \(d\mu_\omega^\pm=w_P\,dU_\omega^\pm\) as in `(TFE2748B.365)'.  This is
+the precise version of the physical picture: moving fibre weight can read
+either an upcrossing or a return crossing, but both are readings of the same
+parent fibre history.
+
+For a fixed strict margin \(0<\varepsilon<1\), split
+
+\[
+\mathcal K_\omega
+=
+\mathcal K_{\omega}^{good}
++
+\mathcal K_{\omega}^{bad},
+\qquad
+0\le\mathcal K_{\omega}^{good}\le\varepsilon,
+\qquad
+\mathcal K_{\omega}^{bad}:=(\mathcal K_\omega-\varepsilon)_+ .
+\tag{TFE2748B.394}
+\]
+
+The good positive tail is absorbable, and the good negative tail is return
+reserve depletion:
+
+\[
+\int\mathcal K_{\omega}^{good}\,d\mu_\omega^+\,d\eta_P
+\le
+\varepsilon\,d\Xi_P^{fib,+},
+\qquad
+\int\mathcal K_{\omega}^{good}\,d\mu_\omega^-\,d\eta_P
+\le
+-\varepsilon\,dM_P^{fib}.
+\tag{TFE2748B.395}
+\]
+
+The only remaining log-weight bill is the bad Hardy tail
+
+\[
+d\Omega_P^{Hlog}
+:=
+\int\mathcal K_{\omega}^{bad}
+\,(d\mu_\omega^++d\mu_\omega^-)\,d\eta_P(\omega).
+\tag{TFE2748B.396}
+\]
+
+Thus the storage-exact replacement for `(TFE2748B.385)' is
+
+\[
+dJac_P^U
+\le
+dEnd_P^U
++\varepsilon\,d\Xi_P^{fib,+}
+-\varepsilon\,dM_P^{fib}
++d\Omega_P^{Hlog}.
+\tag{TFE2748B.397}
+\]
+
+If the original coupled packet supplies the strict Hardy-tail domination
+
+\[
+d\Omega_P^{Hlog}
+\le
+\vartheta\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad C_N(\varepsilon+\vartheta)<1,
+\tag{TFE2748B.398}
+\]
+
+then `(TFE2748B.370)', `(TFE2748B.373)', `(TFE2748B.379)', and
+`(TFE2748B.397)' give `(TFE2748B.247)' after the standard storage
+renormalization.  The active source theorem is therefore sharpened one step
+further:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{HardyAdjointLogWeightTailStorage.A: construct the parent-announced tail
+coefficient}\\
+\text{\(\mathcal K_\omega\) in `(TFE2748B.391)' and prove the bad-tail
+domination `(TFE2748B.398)' from}\\
+\text{the original coupled pressure-viscosity-incompressibility packet before
+child clipping.}
+\end{array}}
+\tag{TFE2748B.399}
+\]
+
+This removes a hidden overstrength from `(TFE2748B.385)'.  The log-weight
+motion does not have to be pressure-only, viscosity-only, or positive-only; it
+has to be a same-parent Hardy tail whose good part is absorbed by the existing
+fibre variation/return reserve and whose bad part is dominated by the original
+generator clock.
