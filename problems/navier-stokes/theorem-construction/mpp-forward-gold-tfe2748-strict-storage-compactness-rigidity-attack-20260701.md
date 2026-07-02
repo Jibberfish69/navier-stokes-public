@@ -16138,3 +16138,115 @@ Without `(TFE2748B.1051)' or an equivalent source-square/no-waste estimate,
 profile compactness is circular as a proof of
 `TerminalActiveTailSlabModulus.A': it extracts a zero open-past profile while
 leaving the whole normalized defect as a terminal face atom.
+
+## 118. Terminal slab failure is a primitive jump with square cost
+
+Section 117 shows why a profile argument loses the pure terminal branch.  The
+same branch has a precise source-square normal form: it is a jump in the
+cumulative selected source primitive at the terminal time face.  The square
+calculation is elementary; the PDE work is admitting the selected defect into
+that same-carrier square density before clipping.
+
+Let \(d\widehat{\mathcal P}_n\) be a normalized pure-terminal failure of
+`(TFE2748B.1029)' in a representative shell collar.  After disintegrating on the
+selected carrier, write its time marginal on the terminal heat window as
+
+\[
+d\nu_n(t)=a_n(t)\,dt+d\nu_n^{sing}(t),
+\qquad
+\nu_n((T_*-\ell,T_*])\to1
+\quad\text{for every fixed }\ell>0,
+\tag{TFE2748B.1055}
+\]
+
+with all preterminal fixed strips carrying zero limiting mass by
+`(TFE2748B.1052)'--`(TFE2748B.1053)'.  Define the terminal cumulative primitive
+
+\[
+A_n(\theta):=\nu_n((T_*-\theta,T_*]),
+\qquad \theta\ge0 .
+\tag{TFE2748B.1056}
+\]
+
+Then every slab failure has, after passing to a subsequence,
+
+\[
+A_n(\theta)\to M{\bf 1}_{(0,\infty)}(\theta),
+\qquad M>0,
+\tag{TFE2748B.1057}
+\]
+
+in the pointwise sense at every continuity point \(\theta>0\).  Thus the
+terminal active-tail atom is exactly a positive jump of the same-parent
+cumulative source primitive.  Its distributional derivative is the terminal
+measure left in `(TFE2748B.1025)'.
+
+Now assume the open same-carrier square admission on this terminal collar:
+there is a parent reference time measure \(dt\) in the same stopped carrier and a
+density \(a_n^{sc}\ge0\), fixed before child clipping, such that the selected
+defect dominates a positive amount of the primitive jump,
+
+\[
+\int_{T_*-\delta_n}^{T_*} a_n^{sc}(t)\,dt\ge m_0>0,
+\qquad
+\delta_n\downarrow0,
+\tag{TFE2748B.1058}
+\]
+
+and the source-square currency is
+
+\[
+\mathcal S_n^{sc}
+:=
+\int_{T_*-\delta_n}^{T_*}\bigl(a_n^{sc}(t)\bigr)^2\,dt .
+\tag{TFE2748B.1059}
+\]
+
+Cauchy's inequality gives the forced square bill
+
+\[
+\mathcal S_n^{sc}
+\ge
+{\left(\int_{T_*-\delta_n}^{T_*}a_n^{sc}(t)\,dt\right)^2\over \delta_n}
+\ge
+{m_0^2\over\delta_n}
+\to\infty .
+\tag{TFE2748B.1060}
+\]
+
+Therefore any terminal atom admitted into a same-carrier \(L_t^2\) source-square
+density is impossible under a finite original source-square reserve:
+
+\[
+\boxed{
+\texttt{same-carrier source-square admission + finite source-square reserve}
+\Longrightarrow
+\texttt{TerminalActiveTailSlabModulus.A}.
+}
+\tag{TFE2748B.1061}
+\]
+
+This proves the exact lower edge of the source-square route.  The remaining
+original-data theorem is not the Cauchy calculation and not the square-wave
+normal form.  It is the same-carrier admission estimate that turns the
+post-subtraction selected terminal defect \(d\mathcal P_{P,J}^{tail}\) into a
+parent-known square density \(a_n^{sc}\) with a finite root reserve, before the
+child positive readout is clipped:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{SelectedTerminalDefectSquareAdmission.A:}\\
+\texttt{the pure terminal active-tail defect of the original coupled packet}\\
+\texttt{is absolutely continuous in the same carrier square clock, and its}\\
+\texttt{\(L_t^2\) square cost is bounded by original source-square/no-waste}\\
+\texttt{reserve plus paid/legal/stop material.}
+\end{array}}
+\tag{TFE2748B.1062}
+\]
+
+Equivalently, `(TFE2748B.1062)' is the source-square form of the no-waste
+storage line `(TFE2748B.1040)': if the parent packet supplies this square clock,
+the terminal primitive jump has infinite cost and the slab modulus follows; if
+it does not, the positive terminal atom remains outside the forward Gold
+storage proof.
