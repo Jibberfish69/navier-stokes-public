@@ -17607,7 +17607,7 @@ div-curl Hardy estimate and the paid commutator separation give
 \|F_P(t)\|_{\mathcal H^1(X_P)}
 \le
 C_N\|\nabla u(t)\|_2^2
-dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t),
++dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t),
 \tag{TFE2748B.1147}
 \]
 
@@ -17631,7 +17631,7 @@ and
 \sum_\alpha |c_\alpha(t)|+|(dR_P)_+|(t)
 \le
 C_N\|\nabla u(t)\|_2^2
-dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t).
++dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t).
 \tag{TFE2748B.1149}
 \]
 
