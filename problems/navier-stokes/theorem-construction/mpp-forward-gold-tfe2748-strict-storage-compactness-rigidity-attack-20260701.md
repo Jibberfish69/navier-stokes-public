@@ -8426,3 +8426,147 @@ This is not Gold closure yet, because `(TFE2748B.534)' is still the
 full-exchange/native source-square payment theorem from arbitrary original
 data.  What has been removed is the separate proposition-level far-corona
 threading gap.
+
+## 65. Source-square payment is the active time-thickness theorem
+
+After Sections 62 and 64 there are two closed facts and one remaining source
+fact.  The closed facts are:
+
+\[
+\begin{array}{c}
+\text{pre-clipping same-parent atom attachment, coefficient/leakage control,
+and retained opposite-lobe}\\
+\text{reserve depletion `(TFE2748B.506)'--`(TFE2748B.516)',}\\[2mm]
+\text{far-corona accumulated-stress threading into the native source-square
+currency `(TFE2748B.528)'--`(TFE2748B.533)'.}
+\end{array}
+\tag{TFE2748B.536}
+\]
+
+The unproved source face is exactly the payment of
+
+\[
+\mathcal R_N(W)
+=
+\int_W
+\sum_{k>N}2^k
+\left(\sum_{j>k+4}D_j(t)\right)^2dt .
+\tag{TFE2748B.537}
+\]
+
+This is not raw atom mass and not ordinary dissipation.  It is the square of
+the high-shell drain tail, weighted at the parent scale.  Let
+
+\[
+T_k(t):=\sum_{j>k+4}D_j(t).
+\tag{TFE2748B.538}
+\]
+
+Then the remaining source-square payment theorem is the active time-thickness
+line
+
+\[
+\boxed{
+\int_W\sum_{k>N}2^kT_k(t)^2dt
+\le
+-dM_P^{sq}(W)
++\varepsilon\nu\int_WD_N(t)\,dt
++C_\varepsilon2^{-2\delta N}
++Paid(W)+Stop(W),
+}
+\tag{TFE2748B.539}
+\]
+
+with \(M_P^{sq}\) bounded below and parent-announced from the original coupled
+packet before child positive clipping.  This is the exact content of
+`SourceSquareReservePayment.A' in `(TFE2748B.534)'.
+
+The scalar reason ordinary energy cannot prove `(TFE2748B.539)' is sharp.  Fix
+one high shell \(j=k+5\) and a time interval \(I\) of length \(h\).  Put
+\[
+D_j(t)=A\,1_I(t),
+\qquad
+Ah=M.
+\tag{TFE2748B.540}
+\]
+
+The linear drain budget sees only
+
+\[
+\int_I D_j(t)\,dt=M,
+\tag{TFE2748B.541}
+\]
+
+while the source-square readout sees
+
+\[
+\int_I2^kT_k(t)^2dt
+\ge
+2^kA^2h
+=
+2^k{M^2\over h}.
+\tag{TFE2748B.542}
+\]
+
+Thus a linear dissipation budget, atom pairing, or same-parent ownership
+cannot by itself control the source-square bill.  A short heat-time pulse can
+have fixed linear drain and arbitrarily large square-time readout unless the
+original coupled packet supplies one additional fact: large active high-shell
+drain must occupy enough heat time, or else the excess is recorded as depletion
+of a parent source-square/no-waste reserve.
+
+Equivalently, `(TFE2748B.539)' follows from either of the following same-parent
+forms:
+
+\[
+2^kT_k(t)^2dt
+\le
+-dM_{P,k}^{sq}
++\varepsilon\nu\,T_k(t)dt
++dR_{P,k}^{sq},
+\qquad
+\sum_{k>N}\int_WdR_{P,k}^{sq}
+\le
+C_\varepsilon2^{-2\delta N}+Paid(W)+Stop(W),
+\tag{TFE2748B.543}
+\]
+
+or a parent-known active-shell amplitude/no-waste estimate
+
+\[
+2^kT_k(t)
+\le
+\varepsilon\nu
++\mathfrak a_k(t),
+\qquad
+\int_W\sum_{k>N}\mathfrak a_k(t)T_k(t)\,dt
+\le
+-dM_P^{sq}(W)+C_\varepsilon2^{-2\delta N}+Paid(W)+Stop(W).
+\tag{TFE2748B.544}
+\]
+
+These are just different coordinates for the branch producers already isolated
+in Section 58.  Repeated cores must pay `(TFE2748B.543)' by signed polar
+negative return, and shrinking cores must pay it by selected exponent-lift /
+root-visible active packing.  Therefore the exact remaining implication is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{OriginalHistoryNegativeReturnCharge.A}\\
++\texttt{OriginalHistorySelectedExponentLift.A}
+\end{array}
+\Longrightarrow
+\texttt{SourceSquareReservePayment.A `(TFE2748B.534)'.}
+}
+\tag{TFE2748B.545}
+\]
+
+This section does not claim Gold closure.  It pins the remaining physical
+mathematical law: the original coupled packet must forbid a retained
+nonendpoint high-shell pulse from being arbitrarily thin in heat time while
+still being recounted as fresh source-square action.  In the user's physical
+language, the pressure/heat/viscous participation event may arrive and
+re-coordinate instantly, but the square readout is not allowed to be harvested
+without either heat-time thickness, signed return, selected exponent-lift, or
+paid source-square reserve depletion inside the same parent packet.
