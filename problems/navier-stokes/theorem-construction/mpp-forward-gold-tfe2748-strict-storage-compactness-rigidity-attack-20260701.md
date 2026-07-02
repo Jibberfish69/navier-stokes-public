@@ -23319,7 +23319,7 @@ bookkeeping, and the raw atom attachment are consumers once this ledger exists.
 ## 166. The active ledger reduces to heat-lag feedback on the retained quotient
 
 Section 165 is still a ledger-level statement.  The predecessor audit
-`(TFE.2646)'--`(TFE.2749)' shows what remains after the ledger and projection
+`(TFE.2646)'--`(TFE.2662)' shows what remains after the ledger and projection
 language is opened.  A strict-margin failure of `(TFE2748B.1531)' cannot hide in
 bounded BMO, dyadic counting, raw atom attachment, endpoint trace normalization,
 or a zero-source critical-entry loop.  Those are consumer faces once they are
@@ -23518,10 +23518,16 @@ Consequently the lower edge beneath Section 165 is
 \tag{TFE2748B.1548}
 \]
 
-This is not a proof of Gold closure.  It is the sharpened source target.  The
-remaining arbitrary-original-data proof is to derive `(TFE2748B.1536)'--
-`(TFE2748B.1539)', `(TFE2748B.1541)', and the preallocated critical source
-storage `(TFE2748B.1541a)' from the original coupled packet without using
-`(TFE2748B.1547)' as an input.  Once those grants are noncircular, the heat-lag
-quotient gap gives strict no-self-feeding, and Section 165 gives
+This is not a proof of Gold closure.  It is the sharpened source target without
+the consumer clauses reopened as new walls.  The Duhamel identity, pullback, and
+detector lines `(TFE2748B.1536)'--`(TFE2748B.1539)' are the current-numbered
+form of the Section 156--158 Duhamel-Hodge consumer package.  The early
+admission `(TFE2748B.1541)' is the current-numbered form of the exact critical
+source split `(TFE2748B.1503)'--`(TFE2748B.1508)'.  The retained heat-thickness
+gap `(TFE2748B.1544)'--`(TFE2748B.1546)' is deterministic once the stopped
+retained quotient is granted.  Therefore the surviving nonduplicate
+arbitrary-original-data producer is the preallocated critical source storage
+`(TFE2748B.1541a)' from the original coupled packet before clipping, with
+\(M_P^{crit}\) bounded below.  Once `(TFE2748B.1541a)' is installed
+noncircularly, Section 166 gives `(TFE2748B.1547)' and Section 165 gives
 `CriticalCapacityVariationStorage.A'.
