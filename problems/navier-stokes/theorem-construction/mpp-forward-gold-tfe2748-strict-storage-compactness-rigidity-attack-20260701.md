@@ -6512,3 +6512,144 @@ C_N(\varepsilon+\vartheta)<1 ,
 which is `(TFE2748B.398)'.  The raw pressure-Hodge atom is attached; the
 unclosed statement is the selected-critical weighted/log-weight reserve from
 the same parent packet before clipping.
+
+## 52. Square-completed full-exchange form of the bad Hardy tail
+
+Section 50 left `(TFE2748B.412)' as a direct domination of the bad Hardy tail by
+the generator clock.  That statement is stronger than the storage argument
+needs.  The exact object is a cross-term inside the same parent full-exchange
+ledger.
+
+On the retained smooth fibre part, `(TFE2748B.358)'--`(TFE2748B.365)' give
+
+\[
+d\mu_\omega^++d\mu_\omega^-
+=
+w_P(\omega,s)\,|dU_\omega|
+=
+|a_P-\theta|\,dI_P
+\quad\text{on the fibre disintegration.}
+\tag{TFE2748B.413}
+\]
+
+Therefore the bad log-weight Hardy bill is exactly
+
+\[
+d\Omega_P^{Hlog}
+=
+\int
+\mathcal K_\omega^{bad}\,|a_P-\theta|\,dI_P .
+\tag{TFE2748B.414}
+\]
+
+This is the algebraic form of the physical picture.  The bad Hardy tail is not
+a separate pressure source.  It is the product of two same-parent quantities:
+the outstanding log-weight/coarea detector backlog \(\mathcal K^{bad}\), and
+the actual comparison-current fibre variation \(|a_P-\theta|\,dI_P\).
+
+For any \(\lambda>0\), Young's inequality gives
+
+\[
+\mathcal K_\omega^{bad}|a_P-\theta|\,dI_P
+\le
+{ \lambda\over2}(a_P-\theta)^2\,dI_P
++
+{1\over2\lambda}(\mathcal K_\omega^{bad})^2\,dI_P .
+\tag{TFE2748B.415}
+\]
+
+Define the square-completed log-tail full-exchange component
+
+\[
+d\Xi_P^{Hlog,\lambda}
+:=
+{ \lambda\over2}(a_P-\theta)^2\,dI_P
++
+{1\over2\lambda}(\mathcal K_\omega^{bad})^2\,dI_P .
+\tag{TFE2748B.416}
+\]
+
+Then
+
+\[
+d\Omega_P^{Hlog}\le d\Xi_P^{Hlog,\lambda}.
+\tag{TFE2748B.417}
+\]
+
+Both pieces of \(d\Xi_P^{Hlog,\lambda}\) are parent-announced before clipping.
+The first piece is the parallel-current square already represented by
+`(TFE2748B.338)'--`(TFE2748B.340)': by Cauchy in the \(A_P\)-metric,
+
+\[
+(a_P-\theta)^2\,dI_P
+\le
+2\,\Phi''(F_P)\langle A_P^\dagger J_{\Psi,P},J_{\Psi,P}\rangle
+\,d\mathfrak m_P
++2\theta^2\,dI_P .
+\tag{TFE2748B.418}
+\]
+
+The second piece is the stopped coarea/log-weight detector square.  It is
+computed from \(w_P=\Phi''J_P^I\), the stopped paths \(\Gamma_\omega\), and the
+same retained fibre measure before the child positive part is clipped.  Thus it
+belongs to the collar/Hodge/frame/selector/coarea motion side of the
+full-exchange ledger, not to a future selected tail.
+
+Let the square-completed endpoint-admitted full-exchange ledger be
+
+\[
+d\Xi_P^{FE,H}
+:=
+d\Xi_P^{FE,\ast}
++C_N d\Xi_P^{Hlog,\lambda},
+\tag{TFE2748B.419}
+\]
+
+where \(d\Xi_P^{FE,\ast}\) is the endpoint-admitted ledger of `(TFE2748A.2)'.
+This is still one original parent ledger: the extra term only writes explicitly
+the log-tail square already implicit in the selected coarea/frame motion.
+
+The storage-exact source statement replacing the overstrong direct form
+`(TFE2748B.412)' is
+
+\[
+\begin{aligned}
+d\Omega_P^{gen}
+&\le
+C_Nd\Xi_P^{FE,H}+dR_{\rm legal,P}+dStop_P,\\
+d\Xi_P^{FE,H}
+&\le
+-dM_P^{FE,H}
++d\Theta_P^0
++\vartheta\,d\Omega_P^{gen}
++dR_{\rm legal,P}
++dStop_P,\\
+0&\le M_P^{FE,H}\le C_N(u_0)\mathcal R(P)+Paid(P),
+\qquad C_N\vartheta<1 .
+\end{aligned}
+\tag{TFE2748B.420}
+\]
+
+If `(TFE2748B.420)' is proved from arbitrary original smooth data, then
+`(TFE2748B.417)'--`(TFE2748B.419)' give
+
+\[
+d\Omega_P^{Hlog}
+\le
+-dM_P^{Hlog}
++\vartheta_N\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad C_N(\varepsilon+\vartheta_N)<1,
+\tag{TFE2748B.421}
+\]
+
+after absorbing harmless constants into \(M_P^{Hlog}\) and the paid ledgers.
+Combining `(TFE2748B.421)' with `(TFE2748B.397)' gives the same final storage
+line as `(TFE2748B.398)', with a larger bounded-below parent reserve.
+
+Thus the bad Hardy tail is no longer an independent source wall.  The exact
+remaining theorem is the square-completed full-exchange no-self-feeding storage
+`(TFE2748B.420)' for the original coupled packet before clipping.  In the
+older root notation, this is the same theorem as
+`FullExchangeCriticalDepletionStorage.A' / `(TFE.2426)', with the log-tail
+coarea square made explicit in the ledger.
