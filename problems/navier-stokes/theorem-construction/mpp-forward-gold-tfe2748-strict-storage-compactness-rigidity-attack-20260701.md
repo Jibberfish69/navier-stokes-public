@@ -20827,3 +20827,163 @@ This is precisely where the original coupled packet must still supply
 arbitrary-data control: the positive log-meter/full-exchange variation must be
 spent as bounded-below parent capacity reserve plus a strictly subunit
 parabolic residual before any selected child readout is counted.
+
+## 150. Any failure of finite excess is a terminal super-capacitary atom
+
+Section 149 leaves the selected-critical source in its active-potential form.
+This section records the direct compactness consequence of that form.  The
+finite-excess problem is not a preterminal finiteness problem.  On every
+stopped compact interval \([0,\tau]\), \(\tau<T_*\), the original solution,
+the stopped parent chart, the pulled-back selector, and the critical meter are
+smooth.  Hence
+
+\[
+F_P,\quad U_P,\quad W_P^{crit},\quad
+\mathcal L_P\log W_P^{crit},
+\quad [d\mathcal C_P^{crit}]_+
+\tag{TFE2748B.1361}
+\]
+
+are finite parent measures/readouts on \([0,\tau]\times X_P\), after route,
+legal, stop, endpoint, collar, and paid detector-motion material has been
+removed.  Therefore the active-potential trace
+
+\[
+d\mu_{P,\tau}^{cap}
+:=
+U_P^2\,d\mathfrak v_P^{exc}
+\tag{TFE2748B.1362}
+\]
+
+has finite mass on every preterminal stopped packet:
+
+\[
+d\mu_{P,\tau}^{cap}([0,\tau]\times X_P)<\infty
+\qquad(\tau<T_*).
+\tag{TFE2748B.1363}
+\]
+
+The theorem `(TFE2748B.985)' is exactly the stronger terminal-uniform assertion
+
+\[
+\sup_{\tau<T_*}
+d\mu_{P,\tau}^{cap}([0,\tau]\times X_P)
+\le
+C_N(u_0)+Paid_P+Legal_P+Stop_P.
+\tag{TFE2748B.1364}
+\]
+
+Suppose `(TFE2748B.1364)' fails after the paid ledgers in
+\(dE_P^0\) are fixed.  Choose \(\tau_n\uparrow T_*\) with
+
+\[
+L_n:=
+d\mu_{P,\tau_n}^{cap}([0,\tau_n]\times X_P)\to\infty,
+\qquad
+d\widehat\mu_n:=L_n^{-1}d\mu_{P,\tau_n}^{cap}.
+\tag{TFE2748B.1365}
+\]
+
+For every \(\tau_0<T_*\), preterminal finiteness gives
+
+\[
+d\widehat\mu_n([0,\tau_0]\times X_P)
+\le
+{d\mu_{P,\tau_0}^{cap}([0,\tau_0]\times X_P)\over L_n}
+\longrightarrow0 .
+\tag{TFE2748B.1366}
+\]
+
+After passing to the stopped compactified parent frame, any weak-star limit
+\(d\widehat\mu_\infty\) is therefore a probability supported on the terminal
+face:
+
+\[
+d\widehat\mu_n\rightharpoonup d\widehat\mu_\infty,
+\qquad
+d\widehat\mu_\infty(\overline P)=1,
+\qquad
+\operatorname{spt}d\widehat\mu_\infty\subseteq\{t=T_*\}.
+\tag{TFE2748B.1367}
+\]
+
+It is also super-capacitary in the precise Section 110 sense.  If a nonzero
+submeasure of \(d\widehat\mu_\infty\) could be represented as a subunit
+parabolic-capacity residual, then pulling that submeasure back to the prelimit
+and adding it to \(d\mathfrak v_P^{res}\) would contradict the
+\(U_P^2\)-maximal choice of the residual in `(TFE2748B.979)'--`(TFE2748B.980)'.
+Equivalently, every positive terminal submeasure
+\(0<d\eta_\infty\le d\widehat\mu_\infty\) has a Rayleigh witness:
+
+\[
+\sup_{\zeta\ge0}
+\left(
+\int\zeta^2\,d\eta_\infty
+-\vartheta\int|\nabla_A\zeta|^2\,d\mathfrak m_{P,\infty}
+-dE_{P,\infty}^{0,*}(\zeta)
+\right)_+
+>0 .
+\tag{TFE2748B.1368}
+\]
+
+In the zero-source normalized class, \(L_n^{-1}dE_P^{0,*}\to0\), so
+`(TFE2748B.1368)' says that the terminal limit is invisible to the residual
+capacity class and to the paid ledger.  Thus a failure of finite capacitary
+excess has the single direct active-potential form
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{TerminalSuperCapacitaryActivePotentialAtom.A:}\\
+\texttt{a nonzero terminal parent measure \(d\widehat\mu_\infty\), generated}\\
+\texttt{by \(U_P^2d\mathfrak v_P^{exc}\) before clipping, supported on}
+\ \{t=T_*\},\\
+\texttt{and having no nonzero submeasure admissible for the subunit}\\
+\texttt{parabolic capacity residual.}
+\end{array}}
+\tag{TFE2748B.1369}
+\]
+
+Consequently
+
+\[
+\neg\texttt{FiniteCapacitaryExcess.A}
+\Longrightarrow
+\texttt{TerminalSuperCapacitaryActivePotentialAtom.A}.
+\tag{TFE2748B.1370}
+\]
+
+Conversely, any such terminal super-capacitary atom yields a violating
+sequence for `(TFE2748B.1364)' by taking stopped terminal collars and reversing
+the normalization.  Hence
+
+\[
+\boxed{
+\texttt{NoTerminalSuperCapacitaryActivePotentialAtom.A}
+\Longleftrightarrow
+\texttt{FiniteCapacitaryExcess.A `(TFE2748B.985)'.}}
+\tag{TFE2748B.1371}
+\]
+
+This is the direct active-potential version of the compactified full-exchange
+source from Sections 140--146.  The atom in `(TFE2748B.1369)' is exactly the
+critical-endpoint capacity residue seen in
+`CriticalEndpointDepletionStorage.A' and `(TFE2748B.1320)'.  Therefore the
+current source can be written without duplicate wrappers as
+
+\[
+\boxed{
+\texttt{CriticalEndpointDepletionStorage.A}
+\Longrightarrow
+\texttt{NoTerminalSuperCapacitaryActivePotentialAtom.A}
+\Longrightarrow
+\texttt{FiniteCapacitaryExcess.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1372}
+\]
+
+This proves the preterminal part and identifies the exact terminal survivor.
+The remaining arbitrary-data proof is the no-terminal-super-capacitary-atom
+theorem, equivalently the critical-endpoint depletion/storage theorem for the
+same parent capacity before child clipping.
