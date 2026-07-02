@@ -15,11 +15,11 @@ COVERAGE_PATH = BUNDLE_ROOT.join("current-material-coverage.yaml")
 APPENDIX_PATH = BUNDLE_ROOT.join("surface-derivation-appendix.tex")
 INVENTORY_PATH = BUNDLE_ROOT.join("surface-derivation-inventory.yaml")
 
-CURRENT_AUTHORITY_OVERRIDE_20260702 = "This derivation inventory is not a closure surface. Historical theorem names and generated rows are provenance unless reconciled with the current Gold L1 custody audits. The current open wall is the signed critical-height sign-persistence or peak-height theorem from the Navier-Stokes equation; untyped sums and linear TFE2748B storage chains do not prove it.".freeze
+CURRENT_AUTHORITY_OVERRIDE_20260702 = "This derivation inventory is not a closure surface. Historical theorem names and generated rows are provenance unless reconciled with the current Gold L1 custody audits. The current open wall is the signed critical-height sign-persistence / peak-height theorem from the Navier-Stokes equation; untyped sums and linear TFE2748B storage chains do not prove it.".freeze
 CURRENT_GOLD_L1_CUSTODY_20260702 = {
   "status" => "gold-l1-open-signed-height-sign-persistence-wall",
   "physical_object_first" => "original parent packet before child clipping",
-  "current_wall" => "signed critical-height sign-persistence or peak-height theorem",
+  "current_wall" => "signed critical-height sign-persistence / peak-height theorem",
   "sum_custody" => "child, atom, shell, dyadic, packet-label, and point-sample sums are typed readouts/bookkeeping only",
   "forbidden_promotion" => "appendix rows, family headings, terminal anti-atom faces, source-refill displays, or linear TFE2748B chains cannot close Gold L1 unless they prove the signed-height object"
 }.freeze
