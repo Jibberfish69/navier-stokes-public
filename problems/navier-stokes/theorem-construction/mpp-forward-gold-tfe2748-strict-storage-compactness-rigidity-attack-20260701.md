@@ -22015,7 +22015,7 @@ H_Q^\ast
 \,dr
 \le
 C_{\Pi,N}\|h_Q\|_{\mathfrak H_Q}^2
-dE_P^0(Q),
++dE_P^0(Q),
 \tag{TFE2748B.1440}
 \]
 
@@ -22043,7 +22043,7 @@ H_Q^\ast\|K_{ret,Q}G\|_{\mathfrak H_Q}^2
 C_{\Pi,N}
 \int_{I_Q^{ret}}\alpha_Q(r)H_P^\ast(r)
 \|G(r)\|_{\mathfrak H_P}^2\,dr
-dE_P^0(Q).
++dE_P^0(Q).
 \tag{TFE2748B.1442}
 \]
 
@@ -22068,7 +22068,7 @@ H_Q^\ast\|K_{ret,Q}G\|_{\mathfrak H_Q}^2
 \le
 C_{\Pi,N}
 \int_{P'}H_P^\ast(r)\|G(r)\|_{\mathfrak H_P}^2\,dr
-dE_P^0(P').
++dE_P^0(P').
 \tag{TFE2748B.1444}
 \]
 
@@ -22085,7 +22085,7 @@ H_Q^\ast
 \le
 C_{\Pi,N}
 \int_{P'}d\Omega_P^{gen}
-dE_P^0(P').}
++dE_P^0(P').}
 \tag{TFE2748B.1445}
 \]
 
