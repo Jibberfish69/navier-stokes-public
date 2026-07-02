@@ -10,15 +10,10 @@ current_authority_override_20260702: The current Gold L1 source wall is the sign
 manual_gold_correction:
   updated_at: '2026-07-01T20:01:37Z'
   status: exported-bundle-stale-not-submission-ready-pending-tfe2748b-original-critical-capacity-variation
-  current_gold_next_proof_unit: prove TFE2748B / OriginalCriticalCapacityVariation.A
-    paid positive capacity variation before submission/export readiness claim
+  current_gold_next_proof_unit: prove SignedCriticalHeightSignPersistenceOrPeakBound.A before submission/export readiness claim
   correction: 'The bundle remains stale and not submission-ready. TFE2748A has installed
     endpoint admission into an endpoint-admitted ledger. TFE2748B narrows the remaining
-    Gold L1 source theorem to OriginalCriticalCapacityVariation.A: critical capacity
-    must be parent-fixed or have paid positive variation, schematically [dCcrit]_+
-    <= dTheta0 + dPaid, so Mcrit=Ccrit-Ecrit supplies a true bounded-below storage
-    derivative. Future selected tail, future generator clock, and raw energy reserve
-    are circular/too weak as source closures. Gold remains open; there is no proof
+    Gold L1 source theorem to SignedCriticalHeightSignPersistenceOrPeakBound.A: the signed critical-height equation must give sign persistence with physical cost or peak-height control when the signed rate changes sign. Positive clipping, selected tails, and reserve/storage coordinates are support unless they prove that signed-height object. Gold remains open; there is no proof
     of smoothness and no submission-ready claim.'
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex

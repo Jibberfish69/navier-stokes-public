@@ -328,10 +328,7 @@ frontier_context:
       burden_id: gold-l1-signed-height-sign-persistence-wall
       proof_mode: gold_forward_signed_height_restart
       target_object: SignedCriticalHeightSignPersistenceOrPeakBound.A
-      theorem_grade_statement: Prove, from the original parent packet before child
-        clipping, a signed critical-height sign-persistence / peak-height theorem. The theorem must either establish a simultaneous strict feedback
-        inequality for the active-capacity/full-exchange loop or prove one face independently
-        enough to break the TFE2748B.1548/TFE2748B.1555 self-feeding chain.
+      theorem_grade_statement: Prove the Gold restart from the signed critical-height equation. The theorem must explain sign persistence with physical cost, or bound peak height when the signed rate changes sign.
       active_container: gold-l1-signed-height-sign-persistence-wall
       respawn_cell: theorem-upgrade
       respawn_stage: gold-l1-source-theorem
