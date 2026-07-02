@@ -5031,7 +5031,7 @@ The construction also shows why representation alone cannot close Gold.  Testing
 \tag{TFE2748B.319}
 \]
 
-The entropy-dual storage needs the stronger entropy-weighted mobility estimate
+The entropy storage needs the stronger entropy-weighted mobility estimate
 
 \[
 \int \Phi''(F_P)
