@@ -25,6 +25,7 @@ SURFACE_APPENDIX = BUNDLE_ROOT.join("surface-derivation-appendix.tex")
 SURFACE_INVENTORY = BUNDLE_ROOT.join("surface-derivation-inventory.yaml")
 SOURCE_FIELD_APPENDIX = BUNDLE_ROOT.join("source-field-reader-appendix.tex")
 EXPORT_STATUS = BUNDLE_ROOT.join("submission-export-status.yaml")
+CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702 = "Export artifacts exist, but they are not submission-ready theorem authority. The current Gold L1 source wall is the noncircular same-parent coupled active-capacity/full-exchange storage theorem; the paper/export route remains conditional until that parent-storage object is proved and regenerated into the bundle.".freeze
 CODEX_MAIN_TEX = ROOT.join("papers/navier-stokes/manuscript/generated/main.tex")
 CODEX_EXTRA_TEX_INPUTS = [
   ROOT.join("papers/navier-stokes/manuscript/generated/referee-proof-details.tex"),
@@ -337,7 +338,8 @@ def sync_submission_export_status!
   render_status = PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement.pdf_render_status(ROOT)
   provisional_payload = current.reject { |key, _value| %w[stdout stderr fallback].include?(key) }.merge(
     "generated_at" => Time.now.utc.iso8601,
-    "status" => current["status"] || "exported",
+    "status" => "exported-stale-not-submission-ready",
+    "current_authority_override_20260702" => CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702,
     "render_quality" => "typeset",
     "manuscript_source" => relative(MAIN_TEX),
     "codex_machine_manuscript_source" => relative(CODEX_MAIN_TEX),
@@ -346,7 +348,7 @@ def sync_submission_export_status!
     "pdf_tracks" => tracks,
     "pdf_tracks_rendered" => tracks.values.all? { |track| track["present"] == true },
     "pdf_render_status" => render_status,
-    "submission_ready" => current["submission_ready"],
+    "submission_ready" => false,
     "readiness_evidence" => readiness_evidence.merge(
       "pdf_tracks_present" => tracks.values.all? { |track| track["present"] == true },
       "pdf_tracks_rendered" => tracks.values.all? { |track| track["present"] == true },
@@ -365,7 +367,7 @@ def sync_submission_export_status!
   )
   d8 = load_yaml(NS_ROOT.join("d8-completion-route-map.yaml"))
   readiness_evidence = readiness_evidence.merge(
-    "source_frontier_clear" => readiness["checks"].to_h["source_frontier_candidates"].to_i.zero?,
+    "source_frontier_clear" => false,
     "open_d8_proof_blockers" => Array(d8["open_blockers"]).length,
     "completion_candidate_count" => readiness["candidate_count"],
     "completion_candidates" => readiness["candidates"],
@@ -375,20 +377,20 @@ def sync_submission_export_status!
     "pdf_render_status" => readiness["pdf_render_status"],
     "completion_readiness" => readiness
   )
-  ready = readiness["submission_ready"] == true
+  ready = false
   write_yaml(
     EXPORT_STATUS,
     provisional_payload.merge(
       "generated_at" => Time.now.utc.iso8601,
+      "status" => "exported-stale-not-submission-ready",
+      "current_authority_override_20260702" => CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702,
       "pdf_tracks_rendered" => readiness["pdf_tracks_rendered"],
       "pdf_render_status" => readiness["pdf_render_status"],
       "submission_ready" => ready,
-      "submission_posture" => ready ? "submission-candidate" : "blocked",
-      "readiness_status" => ready ? "ready" : "blocked",
-      "readiness_blocker" => (ready ? nil : "Completion readiness still has #{readiness['candidate_count']} candidate(s): #{Array(readiness['candidates']).first(6).map { |entry| entry['candidate_id'] }.join(', ')}."),
-      "readiness_note" => ready ?
-        "Both required Navier-Stokes PDF tracks are rendered and proof/manuscript/app readiness evidence is clear." :
-        "PDF rendering is tracked separately from submission readiness; both required Navier-Stokes PDF tracks can be rendered while proof/manuscript/app agreement remains blocked.",
+      "submission_posture" => "blocked",
+      "readiness_status" => "blocked-by-gold-l1-coupled-storage-wall",
+      "readiness_blocker" => "Gold L1 remains open at the noncircular same-parent coupled active-capacity/full-exchange storage theorem.",
+      "readiness_note" => "PDF rendering is tracked separately from submission readiness; both required Navier-Stokes PDF tracks can be rendered while the Gold L1 coupled-storage theorem remains open.",
       "readiness_evidence" => readiness_evidence
     )
   )
