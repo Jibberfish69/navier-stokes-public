@@ -1665,7 +1665,7 @@ If `(TFE.101)`--`(TFE.103)` fails, the surviving endpoint pulse is not a hidden
 Gold payment.  After same-witness admission it is the CM endpoint-face branch,
 not Gold closure.
 
-## 16. Terminal producer audit: what would actually solve the \(L^1\) problem
+## 16. Historical terminal readout audit
 
 The July 1 audit checks the only remaining place where a false closure can hide.
 The physical statement "finite initial energy is drained by viscosity" is true
@@ -1717,8 +1717,9 @@ not a decoupled pressure channel; it is the same coupled pressure--heat--
 viscous packet being read in the child normalization without an unweighted
 root reserve.
 
-Equivalently, every attempted storage proof must prove a root-fixed domination
-measure
+As a simple-measure approximation of the continuous parent-packet readout, a
+storage proof may represent the retained terminal coordinate by a root-fixed
+domination measure
 
 \[
 d\mu_{P,fix}^{crit}
@@ -1732,7 +1733,9 @@ C\,d(-\mathcal L_P)_+
 
 where \(\mathcal L_P\) is an original-history storage, bounded below on the
 root parent, and \(d\lambda_P\) is already paid legal/stop/exit material.  The
-terminal no-jump part is then the uniform tail condition
+sum over \(Q\) is bookkeeping over a stopped finite-overlap partition, not a
+physical atom count.  The terminal no-jump part is then the uniform tail
+condition
 
 \[
 \lim_{\theta\downarrow0}
@@ -4294,8 +4297,9 @@ half-tail
 survives raw nonreuse.  Thus no-reuse is a gate after a root-native atom has
 been created; it is not the producer of the selected-size root-native atom.
 
-The physical first-birth form of the missing producer is the endpoint-seed
-packing theorem.  After lower-band carry, spent-source reuse, reset,
+An endpoint-coordinate support form of the missing face is the endpoint-seed
+projection.  It is not the physical producer by itself.  After lower-band carry,
+spent-source reuse, reset,
 reselection, silent exchange, legal, stop, and annular payback are removed, a
 retained first native birth \(\gamma\) must leave a positive endpoint seed
 
@@ -4323,7 +4327,8 @@ This is the part of the physical story where the child cannot be only a label:
 retained first selected action has to leave a material endpoint seed in the
 original pressure-viscosity-incompressibility packet.
 
-The global line still missing is
+The global endpoint-coordinate line, still only a face/readout unless it proves
+an independent break in the coupled parent-storage loop, is
 
 \[
 \sum_{\gamma\subset P}
