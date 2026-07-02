@@ -9585,8 +9585,7 @@ pre-clipping storage entry:
 (dJ_P)_+
 \preceq_{atom}
 -dM_P^{ret}
-d\Theta_P^0+dPaid_P+dStop_P .
-d\Theta_P^0+dPaid_P+dStop_P .
++d\Theta_P^0+dPaid_P+dStop_P .
 \tag{TFE2748B.609}
 \]
 
@@ -9604,8 +9603,7 @@ selected-critical currency:
 M_P^{ret}(0)
 \le
 C\,\mathcal V_P^{global}
-(d\Theta_P^0+dPaid_P+dStop_P)(X_P),
-(d\Theta_P^0+dPaid_P+dStop_P)(X_P),
++(d\Theta_P^0+dPaid_P+dStop_P)(X_P),
 \tag{TFE2748B.610}
 \]
 
