@@ -13654,8 +13654,8 @@ dQ_P^{meter}
 +[d\mathcal C_P^{crit}]_+
 \le
 -dM_P^{hist}
-\vartheta\,dI_P
-d\Theta_P^0+dPaid_P+dStop_P,
++\vartheta\,dI_P
++d\Theta_P^0+dPaid_P+dStop_P,
 \qquad
 C_N\vartheta<1,
 \tag{TFE2748B.880}
