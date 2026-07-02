@@ -4852,9 +4852,67 @@ d\widetilde J_P^{S}
 \tag{TFE2748B.306}
 \]
 
-This constructs the requested atomic decomposition before clipping.  The atom
-coefficients have total mass \(M_P^{J,S}\), and the only leakage is the already
-separated \(dR_P^{S}\).  Equivalently, for every bounded parent test \(\varphi\),
+This is already the atom construction before clipping.  More explicitly, for
+\(\pi_P^{S}\)-a.e. pair \((x,y)\in X_P\times X_P\), set
+
+\[
+d\mu_{x,y}:=\delta_x-\delta_y,
+\qquad
+\int_{X_P}d\mu_{x,y}=0,
+\qquad
+d\nu_P^{atom}:=d\pi_P^{S}.
+\tag{TFE2748B.306a}
+\]
+
+Then
+
+\[
+d\widetilde J_P^{S}
+=
+\int d\mu_{x,y}\,d\nu_P^{atom}(x,y),
+\qquad
+\|d\nu_P^{atom}\|(X_P\times X_P)
+=M_P^{J,S}
+={1\over2}|d\widetilde J_P^{S}|(X_P).
+\tag{TFE2748B.306b}
+\]
+
+If one wants countable atom notation, approximate \(d\nu_P^{atom}\) by simple
+measures in total variation.  The limiting formula is the same parent Radon
+decomposition
+
+\[
+dJ_P^{S}
+=
+\sum_\alpha c_\alpha\,d\mu_\alpha
++dR_P^{S},
+\qquad
+\int d\mu_\alpha=0,
+\qquad
+\sum_\alpha |c_\alpha|=M_P^{J,S},
+\tag{TFE2748B.306c}
+\]
+
+with the sum understood literally for a simple approximation and as the
+\(\pi_P^{S}\)-integral in the continuum packet.  The coefficient and leakage
+control supplied by arbitrary original smooth data on every stopped preterminal
+packet is therefore
+
+\[
+\sum_\alpha |c_\alpha|
+=M_P^{J,S}
+={1\over2}|d\widetilde J_P^{S}|(X_P)<\infty,
+\qquad
+|dR_P^{S}|\le d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.306d}
+\]
+
+The finiteness in `(TFE2748B.306d)' is a pre-clipping parent fact: it uses only
+the stopped original smooth packet and the paid separation in `(TFE2748B.304)'.
+It is not the selected-critical terminal-uniform root bound; that stronger
+weighted bound is isolated below as `(TFE2748B.311)'.
+
+Equivalently, for every bounded parent test \(\varphi\),
 
 \[
 \int_{X_P}\varphi\,dJ_P^{S}
@@ -4883,18 +4941,53 @@ dJ_{P,atom}^{ret,-}\bigl(X_P\cap\{s\le \tau\}\bigr).
 \tag{TFE2748B.309}
 \]
 
-Then \(0\le M_P^{atom}(\tau)\le M_P^{J,S}\) and, as a Stieltjes measure on the
-same parent atom ledger,
+Then \(M_P^{atom}\) is a same-parent decreasing Stieltjes reserve with
+
+\[
+0\le M_P^{atom}(\tau)\le M_P^{J,S},
+\qquad
+M_P^{atom}(0)=M_P^{J,S},
+\qquad
+M_P^{atom}(T_P)\ge0,
+\tag{TFE2748B.309a}
+\]
+
+and, as a Stieltjes measure on the same parent atom ledger,
 
 \[
 dJ_{P,atom}^{ret,-}\le -dM_P^{atom}.
 \tag{TFE2748B.310}
 \]
 
-Thus the retained opposite lobe is a bounded-below parent reserve depletion
-once the reserve size is allowed to be \(M_P^{J,S}\).  This is not a future
-selected tail: \(M_P^{atom}\) is built from the pre-clipping signed parent
+In the continuum notation this is an equality on the retained atom ledger:
+
+\[
+-dM_P^{atom}
+=dJ_{P,atom}^{ret,-}
+\quad\text{on retained parent atoms,}
+\tag{TFE2748B.310a}
+\]
+
+with any collar, route, legal, stop, endpoint, or detector-motion leakage already
+living in \(dR_P^{S}\).  Thus the retained opposite lobe is a bounded-below
+parent reserve depletion with initial size \(M_P^{J,S}\).  This reserve is not a
+future selected tail: \(M_P^{atom}\) is built from the pre-clipping signed parent
 residue and decreases exactly when the retained opposite lobe is recorded.
+
+Consequently the requested source fact is proved in the unweighted stopped
+parent currency:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{arbitrary original smooth data gives the pre-clipping same-parent atom
+decomposition}\\
+\text{`(TFE2748B.306a)'--`(TFE2748B.306d)', paid leakage `(TFE2748B.304)',}\\
+\text{and bounded-below retained opposite-lobe depletion
+`(TFE2748B.309)'--`(TFE2748B.310a)'.}
+\end{array}}
+\tag{TFE2748B.310b}
+\]
 
 The Gold upgrade is the root-finite weighted bound for this same atom mass:
 
