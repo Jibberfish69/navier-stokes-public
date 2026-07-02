@@ -4662,3 +4662,147 @@ selected-meter log-motion measure `(TFE2748B.289)' is dominated by the
 past-built storage `(TFE2748B.291)'.  That storage estimate is the unresolved
 Gold source theorem, not a consequence of raw pressure zero-mean, finite energy,
 or fixed-frame Bessel orthogonality alone.
+
+## 40. Minimal-bad branch for the meter-motion reserve
+
+The source estimate `(TFE2748B.291)' has a useful negation.  If it fails after
+legal, stop, endpoint, and already-paid reselection terms are removed, then for
+some sequence of stopped parent packets \(P_n\) one can normalize the positive
+meter-motion measure by
+
+\[
+\Gamma_{P_n}^{meter}(P_n)=1
+\tag{TFE2748B.293}
+\]
+
+while every proposed past-built storage drop, strict Fisher absorption, and paid
+motion term visible to `(TFE2748B.291)' tends to zero:
+
+\[
+\beta\,\Omega_{P_n}^{gen}(P_n)
++\Theta_{P_n}^0(P_n)+Paid(P_n)+Stop(P_n)
++\bigl(M_{P_n}^{crit}(0)-M_{P_n}^{crit}(T_n)\bigr)
+\longrightarrow 0 .
+\tag{TFE2748B.294}
+\]
+
+Here `(TFE2748B.294)' is not a new assumption on the original solution.  It is
+the normalized minimal-bad form of failure of the desired storage inequality:
+after every term on the right of `(TFE2748B.291)' has been made negligible, a
+unit amount of positive selected-meter motion still remains.
+
+The decomposition `(TFE2748B.287)' then gives a branch test.  Any nonzero
+surviving connection, selector, collar, Hodge-frame, turnstile, route, or
+reselection motion is paid by the \(d\Theta^0+dPaid+dStop\) side and cannot
+survive `(TFE2748B.294)'.  Any heat-lag defect visible to the parent density is
+absorbed by the Fisher term or by paid heat/collar leakage.  Thus a genuine
+minimal bad survivor must satisfy, in the stopped limit,
+
+\[
+\alpha_P^{conn}=0,\qquad
+\alpha_P^{heat}=0,\qquad
+d\Theta_P^0+dPaid_P+dStop_P=0,
+\tag{TFE2748B.295}
+\]
+
+and the unit meter motion is carried by the metric/Cauchy-Green part:
+
+\[
+d\Gamma_P^{meter}
+=
+\Phi'(F_P)F_P[\alpha_P^{met}]_+\,d\mathfrak m_P .
+\tag{TFE2748B.296}
+\]
+
+The local coupled Navier-Stokes law does not contradict `(TFE2748B.296)'.  In a
+coordinate patch let \(B(t)\) be any smooth symmetric trace-free matrix and set
+
+\[
+u(t,x)=B(t)x,\qquad
+p(t,x)=-{1\over2}x\cdot\bigl(B'(t)+B(t)^2\bigr)x .
+\tag{TFE2748B.297}
+\]
+
+Then
+
+\[
+\nabla\cdot u=0,\qquad
+\nu\Delta u=0,\qquad
+\partial_tu+(u\cdot\nabla)u+\nabla p=0,
+\tag{TFE2748B.298}
+\]
+
+so `(TFE2748B.297)' is an exact local incompressible Navier--Stokes normal form
+for every fixed \(\nu>0\).  For the deformation gradient \(F\),
+
+\[
+{d\over dt}\log |F(t)\xi|
+=
+{\langle F(t)\xi,B(t)F(t)\xi\rangle\over |F(t)\xi|^2}.
+\tag{TFE2748B.299}
+\]
+
+Taking
+
+\[
+B(t)=\lambda(t)\operatorname{diag}(1,-1/2,-1/2)
+\tag{TFE2748B.300}
+\]
+
+gives
+
+\[
+{d\over dt}\log |F(t)e_1|=\lambda(t).
+\tag{TFE2748B.301}
+\]
+
+Thus arbitrary smooth positive metric-meter motion is locally compatible with
+the full pressure-viscosity-incompressibility law.  Pressure is not detached in
+this model; its Hessian supplies the exact incompressibility constraint force.
+Viscosity is also present, but the affine core has zero Laplacian.  Therefore
+`(TFE2748B.291)' cannot be proved by a local pressure sign, local viscosity
+sign, incompressibility trace identity, finite-tower algebraic symmetrizer, or
+endpoint-tail primitive.
+
+What remains is global and same-history.  The affine core cannot live by itself
+on the periodic original solution.  It must be matched to the surrounding same
+fluid through collars, finite energy, pressure-Hodge return, annular
+stress/strain exchange, and the next parent compatibility update.  Consequently
+the failure of `(TFE2748B.291)' is reduced to the affine-burst/no-Zeno branch:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{one original smooth material history admits a laminar chain of}\\
+\text{pressure-Hessian-balanced affine metric visits with summable raw}\\
+\text{heat/viscous/collar cost but divergent selected meter action.}
+\end{array}}
+\tag{TFE2748B.302}
+\]
+
+Equivalently, to prove `(TFE2748B.291)' it is enough to prove the same-history
+weighted reserve
+
+\[
+\sum_{\gamma\subset \mathcal A(P)}
+a_\gamma
+\le
+C\,\mathcal V_P^{global}
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{TFE2748B.303}
+\]
+
+where \(a_\gamma\) is the selected metric-meter action of each retained affine
+visit, and \(\mathcal V_P^{global}\) is a parent-built variation reserve from
+Cauchy-Green stretch, pressure-Hodge frame, collar/turnstile motion, annular
+stress/strain return, and same-material exchange, constructed before child
+positive clipping.  The reserve in `(TFE2748B.303)' must be root-finite from the
+original data; defining it as the descendant selected tail is circular.
+
+This is a method pivot, not a closure claim.  Sections 37--39 prove lobe
+attachment and identify the exact selected-meter source.  Section 40 proves that
+the remaining noncircular source cannot be local; after the installed paid
+motion and fixed-gauge consumers are removed, the only honest survivor is the
+global same-history affine-burst/no-Zeno weighted reserve `(TFE2748B.303)'.  A
+proof of `(TFE2748B.303)' supplies `(TFE2748B.291)', then `(TFE2748B.271)' and
+the critical capacity variation/storage line.
