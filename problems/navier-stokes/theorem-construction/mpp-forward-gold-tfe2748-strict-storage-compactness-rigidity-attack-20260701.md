@@ -19591,8 +19591,8 @@ bounded-below storage \(M_P^{ce,*}\) such that
 d\Xi_P^{ce,*}
 \le
 -dM_P^{ce,*}
-\theta_{ce}\,d\Omega_P^{gen,*}
-dE_P^{0,*}.
++\theta_{ce}\,d\Omega_P^{gen,*}
++dE_P^{0,*}.
 \tag{TFE2748B.1278}
 \]
 
