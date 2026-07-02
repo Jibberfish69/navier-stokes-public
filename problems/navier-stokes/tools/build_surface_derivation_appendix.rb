@@ -15,6 +15,8 @@ COVERAGE_PATH = BUNDLE_ROOT.join("current-material-coverage.yaml")
 APPENDIX_PATH = BUNDLE_ROOT.join("surface-derivation-appendix.tex")
 INVENTORY_PATH = BUNDLE_ROOT.join("surface-derivation-inventory.yaml")
 
+CURRENT_AUTHORITY_OVERRIDE_20260702 = "This derivation inventory is not a closure surface. Historical theorem names and generated rows are provenance unless reconciled with the current Gold L1 custody audits. The current open wall is the noncircular same-parent coupled active-capacity/full-exchange storage theorem for the original parent packet before child clipping; untyped sums and linear TFE2748B storage chains do not prove it.".freeze
+
 def load_yaml(path)
   YAML.load_file(path.to_s)
 end
@@ -328,6 +330,7 @@ inventory = {
   "generated_at" => now,
   "generator" => "problems/navier-stokes/tools/build_surface_derivation_appendix.rb",
   "purpose" => "Keep every relevant Navier-Stokes proof surface in an internal derivation inventory while the Clay-facing PDF receives only mathematical branch arguments.",
+  "current_authority_override_20260702" => CURRENT_AUTHORITY_OVERRIDE_20260702,
   "sources" => {
     "certificates" => CERTIFICATE_PATH.relative_path_from(ROOT).to_s,
     "forward_positive_quarantine" => QUARANTINE_PATH.relative_path_from(ROOT).to_s,
