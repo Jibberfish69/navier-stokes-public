@@ -10437,10 +10437,21 @@ depletion.
 
 The remaining Gold theorem is strictly stronger and has a different logical
 type.  It asks for the selected-critical root size of the already constructed
-reserve, uniformly up to the terminal edge:
+atom ledger, uniformly up to the terminal edge.  With the selected-critical
+weight announced in the parent frame before clipping, write
 
 \[
-m_P
+\mathfrak M_P^{crit}
+:=
+\int_{X_P\times X_P} W_P^{crit}(x,y)\,d\pi_P(x,y),
+\tag{TFE2748B.668}
+\]
+
+where \(W_P^{crit}\) is the critical detector/meter weight already pulled back
+to the stopped parent atom ledger.  The needed root-size/payment estimate is
+
+\[
+\mathfrak M_P^{crit}
 +\mathcal R_{\rm sel}
 +\mathcal R_{\rm sat}
 +\mathcal R_{\rm jump}
@@ -10448,12 +10459,12 @@ m_P
 +\mathcal R_{\rm geom}^{tail}
 \le
 d\Theta^0+dPaid+dStop+2^{-N}D_N\,dt
-\tag{TFE2748B.668}
+\tag{TFE2748B.669}
 \]
 
 in the retained quotient, after the terms already represented by the atom
-ledger are identified with \(m_P\).  In the storage notation this is the
-selected-critical upgrade
+ledger are identified with \(\mathfrak M_P^{crit}\).  In the storage notation
+this is the selected-critical upgrade
 
 \[
 dJ_P^{ret,-}
@@ -10462,7 +10473,7 @@ dJ_P^{ret,-}
 +d\Theta_P^0+dPaid_P+dStop_P,
 \qquad
 M_P^{crit}\ge -C_N(u_0),
-\tag{TFE2748B.669}
+\tag{TFE2748B.670}
 \]
 
 with \(M_P^{crit}\) built from the original same parent packet rather than from
