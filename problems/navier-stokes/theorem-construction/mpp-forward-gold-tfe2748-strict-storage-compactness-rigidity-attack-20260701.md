@@ -7461,3 +7461,158 @@ Liouville, and not raw capacity.  It is to construct the parent-fixed signed
 score, charge its negative returns in the original coupled packet, and prove the
 selected exponent-lift for escaping heat-scale cores before any child positive
 readout is clipped.
+
+## 59. Atomic decomposition closure audit
+
+The signed-measure attachment requested in the current audit is already a closed
+raw parent theorem in Section 51.  The point of this section is to fix its exact
+status so later Gold work does not reopen it as the source wall.
+
+For one stopped preterminal parent packet \(X_P\), after route, collar, legal,
+stop, endpoint, and detector-motion leakage have been separated, the
+pre-clipping pressure-Hodge/material residue has the parent-measurable form
+
+\[
+dJ_P=dJ_P^0+dR_P,
+\qquad
+dJ_P^0(X_P)=0,
+\qquad
+|dR_P|\le d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.472}
+\]
+
+All objects in `(TFE2748B.472)' are constructed from the original stopped
+material chart and the coupled pressure-viscosity-incompressibility-velocity
+packet before any child positive part is clipped.  Since the original solution
+is smooth on every preterminal interval, \(dJ_P^0\) is a finite signed Radon
+measure.  Its Jordan decomposition gives
+
+\[
+dJ_P^0=dJ_{P,+}^0-dJ_{P,-}^0,
+\qquad
+dJ_{P,+}^0(X_P)=dJ_{P,-}^0(X_P)=m_P^J .
+\tag{TFE2748B.473}
+\]
+
+Choose the same-parent coupling
+
+\[
+d\pi_P(x,y)
+:=
+\begin{cases}
+{dJ_{P,+}^0(x)dJ_{P,-}^0(y)\over m_P^J},&m_P^J>0,\\[4pt]
+0,&m_P^J=0 .
+\end{cases}
+\tag{TFE2748B.474}
+\]
+
+Then
+
+\[
+dJ_P^0
+=
+\int_{X_P\times X_P}(\delta_x-\delta_y)\,d\pi_P(x,y),
+\qquad
+\pi_P(X_P\times X_P)=m_P^J={1\over2}|dJ_P^0|(X_P).
+\tag{TFE2748B.475}
+\]
+
+After simple-measure approximation of \(\pi_P\), this is the zero-mean atomic
+form
+
+\[
+dJ_P=\sum_\alpha c_\alpha\,d\mu_\alpha+dR_P,
+\qquad
+\int_{X_P}d\mu_\alpha=0,
+\qquad
+\sum_\alpha |c_\alpha|\le {1\over2}|dJ_P^0|(X_P).
+\tag{TFE2748B.476}
+\]
+
+Section 29 supplies the original-data coefficient and leakage bound:
+
+\[
+\int_0^\tau \sum_\alpha |c_\alpha(t)|\,dt
++\int_0^\tau |(dR_P)_+|(t)
+\le
+C_N{\|u_0\|_2^2\over\nu}
++Paid_P+Legal_P+Stop_P,
+\qquad \tau<T_* .
+\tag{TFE2748B.477}
+\]
+
+For each signed atom \(\nu_\alpha=c_\alpha d\mu_\alpha\), zero mean gives equal
+positive and negative mass:
+
+\[
+\nu_\alpha^+(X_P)=\nu_\alpha^-(X_P).
+\tag{TFE2748B.478}
+\]
+
+Therefore the positive selected lobe of the raw parent residue is attached to
+an opposite same-parent lobe, with only paid leakage left unpaired:
+
+\[
+(dJ_P)_+
+\le
+dJ_P^{ret,-}+(dR_P)_+,
+\qquad
+dJ_P^{ret,-}:=\sum_\alpha \nu_\alpha^- .
+\tag{TFE2748B.479}
+\]
+
+Define the raw parent reserve
+
+\[
+M_P^{raw}(\tau)
+:=
+C_N{\|u_0\|_2^2\over\nu}
++Paid_P+Legal_P+Stop_P
+-dJ_P^{ret,-}\bigl([0,\tau]\times X_P\bigr).
+\tag{TFE2748B.480}
+\]
+
+Then `(TFE2748B.477)' implies
+
+\[
+M_P^{raw}(\tau)\ge0,
+\qquad
+-dM_P^{raw}=dJ_P^{ret,-}
+\quad\text{on retained parent atoms.}
+\tag{TFE2748B.481}
+\]
+
+This proves the requested construction: arbitrary original smooth data gives a
+pre-clipping same-parent zero-mean atom decomposition, controls its coefficients
+and leakage, and records the retained opposite lobe as bounded-below parent
+reserve depletion.
+
+The downstream consequence is equally important.  `(TFE2748B.472)'--`(TFE2748B.481)'
+close only the raw attachment layer.  Once a selected meter \(W_P\) is inserted,
+one must still pay the meter motion across each zero-mean atom:
+
+\[
+\int W_P\,d\mu_\alpha
+=
+\int (W_P-W_\alpha)\,d\mu_\alpha .
+\tag{TFE2748B.482}
+\]
+
+Thus a later proof step may use raw atom pairing and raw reserve depletion as
+installed inputs, but it may not infer selected-critical \(L^1\) storage from
+them alone.  The remaining selected-weighted content is the same-parent
+log-weight/Hardy-tail/full-exchange storage already isolated in
+`(TFE2748B.398)'--`(TFE2748B.420)' and then lowered in Section 58 to the stopped
+polar signed lift, negative-return charge, and selected exponent-lift branch
+inputs.
+
+So the authority status after this audit is:
+
+\[
+\texttt{SignedPressureHodgeAtomicAttachment.A is closed at raw parent level,}
+\tag{TFE2748B.483}
+\]
+
+and the active Gold \(L^1\) source line begins after that closed attachment,
+where the selected meter has to be built and charged by the same original
+coupled packet before clipping.
