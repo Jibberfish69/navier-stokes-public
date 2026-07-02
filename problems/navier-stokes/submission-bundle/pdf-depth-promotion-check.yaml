@@ -1,8 +1,8 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-07-02T22:34:12Z'
-started_at: '2026-07-02T22:34:05Z'
+generated_at: '2026-07-02T22:34:41Z'
+started_at: '2026-07-02T22:34:23Z'
 status: failed
 purpose: Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into
   the human/app-aligned TeX/PDF path, export the separate Codex Clay-facing paper,
@@ -33,14 +33,34 @@ commands:
   - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
   - problems/navier-stokes/tools/build_surface_derivation_appendix.rb
   - "--check"
+  success: true
+  exitstatus: 0
+  stdout_tail: SURFACE_DERIVATION_APPENDIX_CHECK certificates=1944 quarantine=3305
+    current_material=2122
+  stderr_tail: ''
+- label: Gold L1 authority overclaim
+  argv:
+  - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
+  - problems/navier-stokes/tools/check_gold_l1_authority_overclaim.rb
+  success: true
+  exitstatus: 0
+  stdout_tail: GOLD_L1_AUTHORITY_OVERCLAIM OK
+  stderr_tail: ''
+- label: Gold L1 signed-height custody
+  argv:
+  - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
+  - problems/navier-stokes/tools/check_gold_l1_sum_custody.rb
   success: false
   exitstatus: 1
   stdout_tail: ''
-  stderr_tail: surface-derivation inventory is stale; rerun problems/navier-stokes/tools/build_surface_derivation_appendix.rb
+  stderr_tail: |-
+    problems/navier-stokes/submission-bundle/current-material-coverage.yaml: missing sum custody marker signed critical-height sign-persistence / peak-height theorem
+    problems/navier-stokes/submission-bundle/surface-derivation-inventory.yaml: missing sum custody marker signed critical-height sign-persistence / peak-height theorem
 export_result:
 gates:
 - gate_id: runner-exception
   status: failed
   errors:
-  - 'surPart/Field derivation appendix check failed: surface-derivation inventory
-    is stale; rerun problems/navier-stokes/tools/build_surface_derivation_appendix.rb'
+  - |-
+    Gold L1 signed-height custody failed: problems/navier-stokes/submission-bundle/current-material-coverage.yaml: missing sum custody marker signed critical-height sign-persistence / peak-height theorem
+    problems/navier-stokes/submission-bundle/surface-derivation-inventory.yaml: missing sum custody marker signed critical-height sign-persistence / peak-height theorem
