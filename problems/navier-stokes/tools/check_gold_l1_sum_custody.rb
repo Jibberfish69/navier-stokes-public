@@ -33,6 +33,24 @@ AUTHORITY_MARKERS = {
   ]
 }.freeze
 
+READER_SURFACE_PATHS = %w[
+  problems/navier-stokes/external-paper/sections/main-result.tex
+  problems/navier-stokes/external-paper/sections/roadmap.tex
+  problems/navier-stokes/external-paper/periodic-main-clean.tex
+  problems/navier-stokes/external-paper/periodic-appendix-bundle.md
+  problems/navier-stokes/external-paper/reader-facing-abstract-intro-checklist.md
+  problems/navier-stokes/external-paper/submission-synopsis.md
+  problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  problems/navier-stokes/submission-bundle/periodic-appendix-bundle.md
+  problems/navier-stokes/submission-bundle/sections/main-result.tex
+  problems/navier-stokes/submission-bundle/sections/reader-facing-proof-program-front-pages.tex
+  problems/navier-stokes/submission-bundle/sections/rebuilt-energy-enstrophy-source-branch.tex
+  problems/navier-stokes/submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex
+  problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  papers/navier-stokes/context/generated/snapshots/paper-export/problems/navier-stokes/draft-v8.md
+  papers/navier-stokes/manuscript/generated/main.tex
+].freeze
+
 SUM_AUDIT_REQUIRED_MARKERS = [
   "TFE2748B",
   "OriginalCriticalCapacityVariation.A",
@@ -90,6 +108,16 @@ HIGH_RISK_COUPLED_STORAGE_CLAIMS = {
 }.freeze
 
 NEGATING_CONTEXT = /\b(?:not|no|never|invalid|quarantine|cannot|can't|must not|only)\b/i.freeze
+READER_SAFE_CONTEXT = /\b(?:not\s+(?:a\s+)?closed|conditional|only\s+(?:as\s+)?(?:the\s+)?conditional|pending|open(?:\s+ingredient)?|requires|after\s+.*proved|once\s+.*proved|under\s+.*input|provenance\s+only|stale|readout)\b/i.freeze
+
+HIGH_RISK_READER_CLAIMS = {
+  "reader surface claims global smoothness is proved" =>
+    /(?:We\s+prove\s+global\s+smoothness|For\s+every\s+smooth\s+divergence-free\s+zero-mean\s+datum\s+on\s+T\s*3[^\n]*global\s+smooth\s+solution|Smooth\s+divergence-free\s+zero-mean\s+data\s+on\s+T\s*3\s+generate\s+a\s+unique\s+global\s+smooth\s+periodic\s+Navier-Stokes\s+solution)/i,
+  "reader surface claims closed periodic theorem" =>
+    /(?:closed\s+periodic\s+theorem\s+surface|closed\s+theorem-program\s+surface|current\s+closed\s+theorem\s+remains|periodic[^\n]*remains[^\n]*closed\s+theorem-program|route-accurate\s+closure\s+statement|proof\s+promotion\s+packet\s+reports[^\n]*passed)/i,
+  "reader surface uses stale Gold frontier" =>
+    /(?:positive\s+critical\s+transfer\s+theorem\s+inside\s+the\s+native-reserve|current\s+open\s+theorem\s+is\s+the\s+positive\s+critical\s+transfer|complete-frame\s+Hodge\s+clock|Gold\s+closes\s+this\s+boundary\s+only\s+by\s+proving\s+scale-uniform\s+control|exact\s+gold\s+child\s+left\s+by\s+that\s+pulse|missing\s+Pack\s+anti-concentration\s+theorem\s+stays\s+visible|gold\s+Pack\s+anti-concentration\s+theorem)/i
+}.freeze
 
 def relative(path)
   Pathname.new(path).expand_path.relative_path_from(ROOT).to_s
@@ -130,6 +158,21 @@ AUTHORITY_MARKERS.each do |relative_path, markers|
       violations << "#{relative(path)}:#{line_no}: #{label}: #{preview(line)}"
     end
     HIGH_RISK_COUPLED_STORAGE_CLAIMS.each do |label, pattern|
+      next unless line.match?(pattern)
+
+      violations << "#{relative(path)}:#{line_no}: #{label}: #{preview(line)}"
+    end
+  end
+end
+
+READER_SURFACE_PATHS.each do |relative_path|
+  path = ROOT.join(relative_path)
+  next unless path.file?
+
+  read_text(path).each_line.with_index(1) do |line, line_no|
+    next if line.match?(READER_SAFE_CONTEXT)
+
+    HIGH_RISK_READER_CLAIMS.each do |label, pattern|
       next unless line.match?(pattern)
 
       violations << "#{relative(path)}:#{line_no}: #{label}: #{preview(line)}"
