@@ -15145,7 +15145,7 @@ Let
 \mathcal Q_{P,\vartheta}[\zeta]
 :=
 \vartheta\int|\nabla_A\zeta|^2\,d\mathfrak m_P
-dE_P^0(P';\zeta).
++dE_P^0(P';\zeta).
 \tag{TFE2748B.986}
 \]
 
