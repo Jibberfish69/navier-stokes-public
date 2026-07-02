@@ -792,6 +792,152 @@ Consequence: the first term is paid by retained-lobe reserve. The second term
 is the positive parent log-meter/full-exchange variation. That is the open
 source, not another raw atom theorem.
 
+## 13. Checked endpoint, transition, and LP-coordinate sibling surfaces
+
+These are tower-feedback surfaces where a valid integral or coordinate sum can
+become misleading if copied without the parent-measure statement.
+
+### 13.1 Original dyadic amplification half-tail
+
+Source surface:
+
+- `mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md`, TFE.377-TFE.379.
+
+Typed objects:
+
+\[
+dA_P^{sel}=f_P\,d\mathcal R_P,
+\qquad
+\nu_\ell(P)=\mathcal R_P(\{2^\ell\le f_P<2^{\ell+1}\}),
+\qquad
+\sum_{\ell\ge0}\nu_\ell(P)<\infty .
+\tag{STA.40}
+\]
+
+Type: layer-cake bookkeeping of one parent selected-density measure.
+
+Consequence: raw root mass is finite while selected active L1 can diverge. The
+missing theorem is selected entropy, reverse Holder, strict good-lambda, or
+same-parent storage; it is not child-level counting.
+
+### 13.2 Child-normalized endpoint payment
+
+Source surface:
+
+- `mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md`, TFE.790.
+
+Rejected object:
+
+\[
+-d\mathcal L_Q
+\ge
+c\,d\mu_Q^{end}
+-d\lambda_Q .
+\tag{STA.41}
+\]
+
+Type: rejected child-normalized endpoint recount.
+
+Consequence: endpoint control must be root-fixed parent packet thickness or a
+parent endpoint-seed measure. It cannot pay the same terminal pulse once after
+every zoom.
+
+### 13.3 Endpoint-seed minimal bad profile
+
+Source surface:
+
+- `mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md`, TFE.2218.
+
+Typed object:
+
+\[
+\int d\mathcal E_{P_n}^{EP}=1,
+\qquad
+\int d\Theta_{P_n}^{orig}+Return(P_n)+Reset(P_n)+Legal(P_n)+Stop(P_n)\to0 .
+\tag{STA.42}
+\]
+
+Type: continuous endpoint-seed measure profile.
+
+Consequence: the corrected bad profile is not a literal endpoint count
+\(\sum_\gamma1\). Discrete endpoint seeds are stopped-partition shorthand for a
+continuous endpoint-seed/native-reserve pushforward problem.
+
+### 13.4 Transition no-Zeno parent measure
+
+Source surface:
+
+- `mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md`, TFE.2378 and TFE.2465-TFE.2466.
+
+Typed object:
+
+\[
+\int_{\mathfrak S_P}R_P^+\,d\mathfrak m_P
+\simeq
+\sum_{Q\in\mathfrak P}
+\int_{\mathfrak S_P(Q)}R_P^+\,d\mathfrak m_P .
+\tag{STA.43}
+\]
+
+Type: finite-overlap parent quadrature.
+
+Consequence: transition/no-Zeno work must construct the parent transition
+measure and transition derivative control. Replacing the summands by
+child-normalized unit readouts changes the theorem.
+
+### 13.5 Endpoint/current parent-ledger projections
+
+Source surface:
+
+- `mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md`, TFE.2466 and adjacent endpoint/current caveat.
+
+Typed objects:
+
+\[
+\sum_{Q\subset P}\rho_Q^{fresh},
+\qquad
+\rho_Q^{fresh}
+:=
+\int_{\mathfrak S_P(Q)}
+R_P^{crit,+}\,d\mathfrak m_P^{crit},
+\tag{STA.44}
+\]
+
+and endpoint/current sums such as
+
+\[
+\sum_{\gamma\subset P}\int |J_\gamma|^2\,dR_\gamma .
+\tag{STA.45}
+\]
+
+Type: finite-overlap parent quadrature and parent-ledger projection.
+
+Consequence: `(STA.45)' is admissible only when \(dR_\gamma\) is a
+restriction/disintegration of the original parent route/current measure.
+Endpoint/current sums cannot become separate child accounts.
+
+### 13.6 Sobolev/Littlewood-Paley coordinate sums
+
+Source surface:
+
+- `mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md`, Section 217.
+
+Typed object:
+
+\[
+\|f\|_{\dot H^s}^2
+\simeq
+\sum_j 2^{2sj}\|P_jf\|_2^2 .
+\tag{STA.46}
+\]
+
+Type: Sobolev/Littlewood-Paley coordinate identity.
+
+Consequence: dyadics appear because they translate between the \(H^s\) and
+\(L^p\) readouts of the same signal and expose an \(\ell^2\)-to-\(\ell^1\) gap.
+They are not physical child units. The source object is native parent
+scale-memory pushforward.
+
 ## Source rule after this audit
 
 Every future Gold L1 use of a summation symbol must state the parent packet or
