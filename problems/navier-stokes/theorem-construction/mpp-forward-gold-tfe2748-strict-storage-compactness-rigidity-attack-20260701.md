@@ -21342,3 +21342,227 @@ strict margin is exactly the no-self-feeding inequality in `(TFE2748B.1206)'.
 The Gold route is therefore closed downstream of `(TFE2748B.1393)', and open
 only at proving those two same-parent inequalities from arbitrary original
 smooth data before child clipping.
+
+## 154. The signed-measure attachment is an original-data raw theorem
+
+The user-supplied signed-measure attachment has the following exact status.  It
+is constructed from arbitrary original smooth data before clipping, and it
+supplies a bounded-below raw parent reserve for the retained opposite lobe.
+
+Fix a stopped compact preterminal parent packet \(P\) and a stopped horizon
+\(\tau<T_*\).  Let \(S=\partial_i u_j\,\partial_j u_i\) be the pressure source
+and let \(\mathcal T_P\) be the pressure-Hodge operator pulled back to the
+stopped parent chart.  After route, collar, frame, detector-motion, legal, stop,
+endpoint, and paid terms are separated, define
+
+\[
+F_P(t,a)
+:=
+\chi_P(a)\mathcal T_P S(t,a)
+-
+\left\langle \chi_P\mathcal T_P S(t,\cdot)\right\rangle_{X_P},
+\qquad
+dJ_P^0:=F_P\,d\mathfrak m_P\,dt .
+\tag{TFE2748B.1394}
+\]
+
+The separated residue is
+
+\[
+dJ_P=dJ_P^0+dR_P,\qquad
+(\pi_t)_\#dJ_P^0=0,\qquad
+|dR_P|\le dE_P^0,
+\tag{TFE2748B.1395}
+\]
+
+where \(dE_P^0\) contains exactly the route, collar, Hodge-frame,
+detector-motion, endpoint, legal, stop, and already-paid material terms.  The
+mean subtraction in `(TFE2748B.1394)' is the parent-frame form of pressure as a
+constraint force: after the paid leakage is removed, the retained pressure
+coordinate redistributes the same parent packet and has no standalone time
+marginal.
+
+For smooth data, the div-curl Hardy estimate for
+\(\partial_i u_j\,\partial_j u_i\), boundedness of the pressure-Hodge operator
+on the local Hardy atom space, and the paid commutator separation give
+
+\[
+\|F_P(t)\|_{\mathcal H^1(X_P)}
++ |dR_P|_t
+\le
+C_N\|\nabla u(t)\|_2^2+dE_{P,t}^0 .
+\tag{TFE2748B.1396}
+\]
+
+Integrating `(TFE2748B.1396)' and using the Leray energy inequality gives the
+pre-clipping coefficient/leakage bound
+
+\[
+|dJ_P^0|([0,\tau]\times X_P)
++|dR_P|([0,\tau]\times X_P)
+\le
+C_N{\|u_0\|_2^2\over\nu}
++E_P^0([0,\tau]\times X_P).
+\tag{TFE2748B.1397}
+\]
+
+Take the Jordan decomposition over parent time:
+
+\[
+dJ_P^0=dJ_{P,+}^0-dJ_{P,-}^0,\qquad
+(\pi_t)_\#dJ_{P,+}^0=(\pi_t)_\#dJ_{P,-}^0=:d\lambda_P^J .
+\tag{TFE2748B.1398}
+\]
+
+Disintegrate
+
+\[
+dJ_{P,+}^0(t,x)=d\alpha_{P,t}^+(x)d\lambda_P^J(t),
+\qquad
+dJ_{P,-}^0(t,y)=d\alpha_{P,t}^-(y)d\lambda_P^J(t),
+\tag{TFE2748B.1399}
+\]
+
+where \(d\alpha_{P,t}^{\pm}\) are probability kernels.  The canonical
+same-parent coupling is
+
+\[
+d\Pi_P(t,x,y)
+:=
+d\alpha_{P,t}^+(x)d\alpha_{P,t}^-(y)d\lambda_P^J(t).
+\tag{TFE2748B.1400}
+\]
+
+For every parent-announced test \(\varphi\),
+
+\[
+\int \varphi\,dJ_P^0
+=
+\iiint
+\bigl(\varphi(t,x)-\varphi(t,y)\bigr)d\Pi_P(t,x,y),
+\tag{TFE2748B.1401}
+\]
+
+so
+
+\[
+dJ_P^0
+=
+\int(\delta_{(t,x)}-\delta_{(t,y)})\,d\Pi_P(t,x,y).
+\tag{TFE2748B.1402}
+\]
+
+The countable display
+\[
+dJ_P=\sum_\alpha c_\alpha\,d\mu_\alpha+dR_P,\qquad
+\int d\mu_\alpha=0
+\]
+is the simple-measure approximation of `(TFE2748B.1402)'.  Its coefficient mass
+is the total transport mass:
+
+\[
+\Pi_P([0,\tau]\times X_P\times X_P)
+=
+\lambda_P^J([0,\tau])
+={1\over2}|dJ_P^0|([0,\tau]\times X_P),
+\tag{TFE2748B.1403}
+\]
+
+and `(TFE2748B.1397)' gives
+
+\[
+\Pi_P([0,\tau]\times X_P\times X_P)
++|dR_P|([0,\tau]\times X_P)
+\le
+C_N{\|u_0\|_2^2\over\nu}
++E_P^0([0,\tau]\times X_P).
+\tag{TFE2748B.1404}
+\]
+
+Now let \(0\le\omega_P(t,x)\le1\) be fixed in the parent frame before child
+positive clipping.  Define the selected positive lobe and the retained opposite
+lobe by
+
+\[
+dJ_{P,\omega}^{+}
+:=(\operatorname{time},\operatorname{pr}_1)_\#
+\bigl(\omega_P(t,x)d\Pi_P(t,x,y)\bigr)
+=\omega_PdJ_{P,+}^0,
+\tag{TFE2748B.1405}
+\]
+
+\[
+dJ_{P,\omega}^{ret,-}
+:=(\operatorname{time},\operatorname{pr}_2)_\#
+\bigl(\omega_P(t,x)d\Pi_P(t,x,y)\bigr).
+\tag{TFE2748B.1406}
+\]
+
+Thus the child cannot count the selected positive lobe without carrying the
+opposite lobe in the same parent transport atom:
+
+\[
+\omega_P(dJ_P)_+
+\preceq_{atom}
+dJ_{P,\omega}^{ret,-}
++\omega_P(dR_P)_+ .
+\tag{TFE2748B.1407}
+\]
+
+Open the raw parent reserve from the original-data coefficient bound,
+
+\[
+B_{P,\omega}^{atom}(\tau)
+:=
+C_N{\|u_0\|_2^2\over\nu}
++E_P^0([0,\tau]\times X_P),
+\qquad
+M_{P,\omega}^{atom}(s)
+:=
+B_{P,\omega}^{atom}(\tau)
+-dJ_{P,\omega}^{ret,-}([0,s]\times X_P).
+\tag{TFE2748B.1408}
+\]
+
+By `(TFE2748B.1404)'--`(TFE2748B.1407)',
+
+\[
+M_{P,\omega}^{atom}(s)\ge0,
+\qquad
+-dM_{P,\omega}^{atom}=dJ_{P,\omega}^{ret,-}
+\quad\text{on retained same-parent atoms.}
+\tag{TFE2748B.1409}
+\]
+
+Therefore
+
+\[
+\boxed{
+\texttt{SignedPressureHodgeAtomicAttachment.A is proved from arbitrary}
+\ \texttt{original smooth data by `(TFE2748B.1394)'--`(TFE2748B.1409)'.}}
+\tag{TFE2748B.1410}
+\]
+
+This reserve is opened from the original pressure-Hodge coefficient bound and
+paid ledgers on the stopped parent packet.  It is not a descendant selected tail
+and it is not defined after child clipping.
+
+The selected-critical source begins when the critical meter
+\(W_P^{crit}=e^{b_P}\) prices the two marginals of the same atom differently:
+
+\[
+W_P^{crit}(x)\omega_P(x)d\Pi_P(x,y)
+\le
+W_P^{crit}(y)\omega_P(x)d\Pi_P(x,y)
++
+W_P^{crit}(y)\omega_P(x)
+\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)d\Pi_P(x,y).
+\tag{TFE2748B.1411}
+\]
+
+The first term is the retained-lobe reserve in `(TFE2748B.1409)'.  The second
+term is the parent log-meter/full-exchange variation, which is exactly the
+source represented by `(TFE2748B.1343)' and back-substituted in
+`(TFE2748B.1393)'.  Hence the raw signed-measure construction is closed, and
+the remaining Gold producer is only the weighted/full-exchange storage for the
+critical meter before clipping.
