@@ -9305,3 +9305,132 @@ full-square current control asks to pay current components that the storage
 line does not read as positive action.  The precise producer remains the
 one-sided parent comparison/no-waste law for the aligned same-parent current,
 not an all-direction full-current square estimate.
+
+## 71. Tail-coordinate bridge and the normalized remaining failure
+
+Section 70 should not be read as saying that the abstract parent-comparison
+theorem automatically becomes the derivative-shell tail estimate.  The bridge is
+valid only after the tail branch has been written as an aligned-current quotient
+with its own parent-announced Fisher carrier.
+
+For the retained shell-tail branch define the tail aligned-current measure
+
+\[
+dQ_{P,N}^{tail}
+:=
+\sum_{k>N}
+2^{-k}T_k(t)
+\left(
+\mathsf{Scal}_{>k,P}^{HS}(\mathcal K_{>k,P}^{HS})(t)
+\right)_+dt .
+\tag{TFE2748B.590}
+\]
+
+The deterministic custody identity `(TFE2748B.578)' proves that this is the
+tail-coordinate face of the pure aligned-current measure `(TFE2748B.329)',
+modulo paid route, collar, frame, legal, and stop material:
+
+\[
+\mathcal A_{P,N}^{tail,HS}(W)
+\le
+\int_W dQ_{P,N}^{tail}
++Paid(W)+Stop(W).
+\tag{TFE2748B.591}
+\]
+
+The corresponding Fisher carrier in this quotient is the active tail thickness
+
+\[
+dI_{P,N}^{tail}
+:=
+\sum_{k>N}2^{-k}T_k(t)\,dt .
+\tag{TFE2748B.592}
+\]
+
+This carrier is small against the high-shell drain.  Since
+\(T_k=\sum_{j>k+4}D_j\),
+
+\[
+\sum_{k>N}2^{-k}T_k
+=
+\sum_{j>N+4}D_j
+\sum_{N<k<j-4}2^{-k}
+\le
+C2^{-N}\sum_{j>N}D_j
+\le
+C2^{-N}D_N .
+\tag{TFE2748B.593}
+\]
+
+Here \(D_N\) is the high-shell dissipation tail in the surrounding source-square
+sections; fixed lower shells are already part of the paid low/collar ledger.
+Thus the aligned-current estimate `(TFE2748B.324)' applied in the tail
+coordinate gives
+
+\[
+\int_W dQ_{P,N}^{tail}
+\le
+C\theta\,2^{-N}\int_WD_N(t)\,dt
++d\Theta_P^0(W)+Paid(W)+Stop(W).
+\tag{TFE2748B.594}
+\]
+
+For \(N\) above the fixed entrance scale, choose the entrance scale so that
+\(C\theta2^{-N}\le \varepsilon\nu\).  The finitely many lower retained shells
+are absorbed into the \(C_\varepsilon(u_0)2^{-2\delta N}\), lower-carry, and
+paid ledgers already present in Sections 63--68.  Combining `(TFE2748B.591)' and
+`(TFE2748B.594)' gives exactly `(TFE2748B.587)'.
+
+So the precise implication replacing the informal sentence in Section 70 is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{TailCoordinateAlignedCurrentRealization.A `(TFE2748B.590)'--`(TFE2748B.593)'}\\
++\texttt{ParentComparisonPositiveSurplus.A `(TFE2748B.351)'}
+\end{array}
+\Longrightarrow
+\texttt{DerivativeShellTailAlignedNoWaste.A `(TFE2748B.587)'.}
+}
+\tag{TFE2748B.595}
+\]
+
+The bridge `(TFE2748B.590)'--`(TFE2748B.593)' is deterministic bookkeeping from
+the stopped shell-tail equation and the full-packet custody identity.  It is not
+the arbitrary-data source theorem.  The source theorem is still the one-sided
+parent comparison estimate `(TFE2748B.351)'.
+
+The normalized failure that remains after this bridge is therefore exact.  If
+the critical capacity variation/storage line fails after Sections 63--71, then
+there are stopped parent packets \(P_n\) and shell entrances \(N_n\to\infty\)
+such that
+
+\[
+\int dQ_{P_n,N_n}^{tail}=1,
+\tag{TFE2748B.596}
+\]
+
+while
+
+\[
+2^{-N_n}\int D_{N_n}(t)\,dt
++\Theta_{P_n}^0(P_n)+Paid(P_n)+Stop(P_n)
+\longrightarrow 0 .
+\tag{TFE2748B.597}
+\]
+
+Using the tail-coordinate realization, `(TFE2748B.596)'--`(TFE2748B.597)' is the
+same normalized high-ratio branch as `(TFE2748B.332)'--`(TFE2748B.345)': a unit
+amount of positive aligned parent current survives while its Fisher carrier,
+paid motion, route leakage, and stop material vanish.  Raw atom pairing,
+opposite-lobe reserve depletion, Hodge representation, and shell-tail storage
+have already been consumed before this point.
+
+Thus the remaining proof attack is not another dyadic summation or another atom
+ledger.  It is the zero-source aligned-current rigidity statement: a stopped
+limit of original coupled pressure-viscosity-incompressibility-velocity packets
+with vanishing tail Fisher carrier and vanishing paid motion cannot retain a
+unit positive aligned-current measure.  Proving that rigidity, or equivalently
+constructing a bounded-below no-waste Lyapunov law whose drop pays
+`(TFE2748B.596)', is exactly `ParentComparisonPositiveSurplus.A' and therefore
+`OriginalCriticalCapacityVariation.A'.
