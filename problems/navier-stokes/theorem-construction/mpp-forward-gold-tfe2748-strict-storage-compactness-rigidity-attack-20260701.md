@@ -19144,3 +19144,102 @@ This is still not Gold closure.  The arbitrary-data work is proving
 the compactness/rigidity no-arbitrage package `(TFE2748B.1119)'--
 `(TFE2748B.1122)'.  The endpoint, low-high, and raw selected atom faces no longer
 stand as independent source walls.
+
+## 139. Full-exchange zero-profit is the same-carrier source-square no-waste theorem
+
+Section 138 names the current source as `FullExchangeZeroProfitStorage.A'.  The
+older Sections 113--125 already identify the same source in terminal and shell
+coordinates.  These are not different walls.  They are the finite/preterminal
+and terminal-singular faces of the same original parent clock.
+
+Let
+
+\[
+dE_P^0
+:=
+d\Theta_P^0+dPaid_P+dLegal_P+dStop_P+dEntry_P+dReturn_P .
+\tag{TFE2748B.1252}
+\]
+
+Call the following two estimates the same-carrier source-square/no-waste
+producer:
+
+\[
+\texttt{SignedLiftedTailTransferNoWaste.A `(TFE2748B.1099)'}
+\tag{TFE2748B.1253}
+\]
+
+for the finite/preterminal active-tail square, and
+
+\[
+\texttt{SquareClockSingularTerminalAntiAtomExclusion.A `(TFE2748B.1069)'}
+\tag{TFE2748B.1254}
+\]
+
+for the terminal part singular to the same parent square clock.  Both are stated
+before child positive clipping and both use the same paid ledger `(TFE2748B.1252)'.
+
+The implication to the critical storage line is now a direct chain.  First,
+`(TFE2748B.1253)' and the shell energy identity `(TFE2748B.1097)' give
+`TailPulseExclusion.A' in the form `(TFE2748B.1100)'.  Sections 112--113 then
+give obstacle-tail pricing and finite capacitary excess:
+
+\[
+\texttt{SignedLiftedTailTransferNoWaste.A}
+\Longrightarrow
+\texttt{FiniteCapacitaryExcess.A `(TFE2748B.1087)'} .
+\tag{TFE2748B.1255}
+\]
+
+Second, finite capacitary excess gives the selected-meter storage and the
+compactified terminal square-clock admission by `(TFE2748B.1088)'--
+`(TFE2748B.1091)'.  The absolutely continuous part of the terminal defect has
+slab modulus by the square-clock Cauchy estimate `(TFE2748B.1065)'--
+`(TFE2748B.1066)', while `(TFE2748B.1254)' removes the square-clock singular
+terminal residue.  Hence the terminal face cannot contribute a positive
+same-parent atom outside \(dE_P^0\).
+
+Thus the two source-square/no-waste faces imply the full-exchange zero-profit
+storage in the only form used downstream:
+
+\[
+\boxed{
+\texttt{SignedLiftedTailTransferNoWaste.A}
++
+\texttt{SquareClockSingularTerminalAntiAtomExclusion.A}
+\Longrightarrow
+\texttt{FullExchangeZeroProfitStorage.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1256}
+\]
+
+Conversely, after the raw atom theorem, active-density comparison, endpoint
+admission, transverse retained-loop consumer, bounded detector projection,
+route, legal, stop, entry, return, and paid leakage have been removed, a
+normalized failure of full-exchange zero-profit storage `(TFE2748B.1118)' has
+only these two locations.  Its finite/preterminal part is the lifted transfer
+defect of `(TFE2748B.1099)'; its terminal square-clock-singular part is the
+residue of `(TFE2748B.1069)'.  Therefore
+
+\[
+\boxed{
+\neg\texttt{FullExchangeZeroProfitStorage.A}
+\Longrightarrow
+\neg\texttt{SignedLiftedTailTransferNoWaste.A}
+\ \vee\
+\neg\texttt{SquareClockSingularTerminalAntiAtomExclusion.A}}
+\tag{TFE2748B.1257}
+\]
+
+inside the stopped same-parent failure class.
+
+This section is a proof of the current reduction, not a proof of Gold closure.
+The arbitrary original-data theorem still missing is exactly the same-carrier
+source-square/no-waste producer `(TFE2748B.1253)'--`(TFE2748B.1254)': the
+original coupled pressure-Hodge/viscous-Stokes/self-advection/incompressibility
+packet must pay every positive finite/preterminal lifted-transfer pulse and
+every terminal square-clock-singular residue by bounded-below parent storage,
+strict generator/Fisher drain, or the paid/legal/stop/entry/return ledgers
+before the child selected positive readout is counted.
+\tag{TFE2748B.1258}
