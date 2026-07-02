@@ -238,10 +238,10 @@ This is not the same as the local silent-source lower edge `(LGR.2)`.
 
 The local invisible-child / silent-source identity is closed.
 
-This root summability theorem is a historical projection/support form.  The
-current global Gold wall is the same-parent coupled active-capacity/full-exchange
-storage theorem; this summability display matters only if it implies that
-parent-storage object:
+This root summability theorem is a historical projection/support form. The
+current global Gold wall is the signed critical-height sign-persistence /
+peak-height theorem; this summability display matters only if it proves that
+signed-height object:
 
 ```math
 \boxed{
