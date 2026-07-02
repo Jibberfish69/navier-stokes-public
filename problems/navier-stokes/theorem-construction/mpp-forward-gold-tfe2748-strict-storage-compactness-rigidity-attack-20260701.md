@@ -3801,3 +3801,129 @@ incompressibility packet cannot place finite raw pressure material on a
 continuum of higher and higher active prices with exactly half-tail scaling.
 That is the strict parent-active entropy/variation content of
 `OriginalCriticalCapacityVariation.A`.
+
+## 34. Exact parent-density source package for the storage line
+
+The continuous half-tail shows what the raw theorem lacks.  The storage line is
+proved once the original coupled packet supplies a parent-continuum density
+before clipping, with finite active entropy and paid capacity variation.
+
+Let \(d\mathfrak m_P\) be the parent active measure of the stopped packet, and
+let the selected active atom bill be represented before clipping by
+
+\[
+dA_P^{crit,+}
+ =
+W_P\,d\nu_P^{atom}
+=
+F_P\,d\mathfrak m_P
++dA_P^{sing}
++dA_P^{paid}.
+\tag{TFE2748B.240}
+\]
+
+Here \(F_P\,d\mathfrak m_P\) is the parent-absolutely-continuous active density,
+\(dA_P^{sing}\) is a singular same-parent entry part, and \(dA_P^{paid}\) is
+collar, route, legal, stop, reselection, or endpoint material already outside
+the retained interior bill.  The exact source package is:
+
+\[
+\begin{aligned}
+dA_P^{sing} &\le dA_P^{entry}+dPaid_P+dStop_P,\\
+\int_{\operatorname{Hist}(P)} \Phi(F_P)\,d\mathfrak m_P
+&\le C_N(u_0)\mathcal R(P)+dPaid_P+dStop_P,
+\qquad
+\Phi(r)=r\log(e+r),\\
+\mathfrak m_P(\operatorname{supp}F_P)
+&\le C_N(u_0)\mathcal R(P)+dPaid_P+dStop_P,\\
+[d\mathcal C_P^{crit}]_+
+&\le d\Theta_P^0+dPaid_P+dStop_P.
+\end{aligned}
+\tag{TFE2748B.241}
+\]
+
+The first line says singular active entry is not allowed to remain as an
+invisible interior bill; it is endpoint/entry material or paid leakage.  The
+second and third lines are the parent active entropy/thickness theorem.  The
+last line is the paid positive variation of the preallocated critical capacity.
+
+These clauses prove the active \(L^1\) bill directly.  For any \(K>1\), Young's
+elementary cutoff gives
+
+\[
+\int F_P\,d\mathfrak m_P
+\le
+K\,\mathfrak m_P(\operatorname{supp}F_P)
+ +{1\over \log(e+K)}
+ \int \Phi(F_P)\,d\mathfrak m_P .
+\tag{TFE2748B.242}
+\]
+
+Choosing \(K=e^2\) and inserting `(TFE2748B.241)' gives
+
+\[
+\int_{\operatorname{Hist}(P)}F_P\,d\mathfrak m_P
+\le
+C_N(u_0)\mathcal R(P)+dPaid_P+dStop_P .
+\tag{TFE2748B.243}
+\]
+
+Together with the singular-entry line in `(TFE2748B.241)', this yields
+
+\[
+\int_{\operatorname{Hist}(P)} W_P\,d\nu_P^{atom}
+\le
+C_N(u_0)\mathcal R(P)
+dA_P^{entry}
+dPaid_P+dStop_P .
+\tag{TFE2748B.244}
+\]
+
+Thus the selected active-level reserve `(TFE2748B.214)' follows in exact
+continuous parent measure.  The strict tail recurrence `(TFE2748B.224)' is the
+good-lambda form of the same estimate: applying `(TFE2748B.241)' on the stopped
+superlevel parent packets \(\{F_P>\lambda\}\), and charging bad stopping fibres
+to \(dPaid_P+dStop_P\), gives
+
+\[
+N_P(2\lambda)
+\le
+\theta\,N_P(\lambda)+B_P(\lambda),
+\qquad
+\theta<\frac12,
+\qquad
+\int_0^\infty B_P(\lambda)\,d\lambda<\infty .
+\tag{TFE2748B.245}
+\]
+
+Then Section 32 gives the level reserve, Section 30 inserts the weighted atom
+detector before clipping, and `(TFE2748B.182)' gives same-parent partner
+attachment.  With
+
+\[
+M_P^{crit}=\mathcal C_P^{crit}-\mathcal E_P^{crit},
+\tag{TFE2748B.246}
+\]
+
+the paid capacity-variation line in `(TFE2748B.241)' gives
+
+\[
+d\mathcal E_P^{crit}
+\le
+-dM_P^{crit}
+d\Theta_P^0
+\theta\,d\Omega_P^{gen}
+dPaid_P+dStop_P,
+\qquad
+C_N\theta<1,
+\tag{TFE2748B.247}
+\]
+
+which is the critical capacity variation/storage line.
+
+So the exact remaining arbitrary-data theorem is no longer an ambiguous
+"selected \(L^1\)" demand.  It is the four-clause parent-density source package
+`(TFE2748B.241)' for the coupled pressure-viscosity-incompressibility packet:
+absolute-continuous active density before clipping, singular entry admission,
+finite parent active entropy/thickness, and paid positive variation of the
+preallocated critical capacity.
