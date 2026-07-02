@@ -1,15 +1,15 @@
 ---
 theorem_id: forward-gold-noncircular-same-parent-coupled-storage-proof-pressure-20260702
-status: proof-pressure-strict-reduction-open
+status: superseded-support-after-signed-height-restart
 created: 2026-07-02
 problem: navier-stokes
-route: forward-gold coupled pressure-viscosity-incompressibility participation law
-logical_landing_node: NoncircularSameParentActiveCapacityFullExchangeStorage.A
+route: forward-gold coupled pressure-viscosity-incompressibility participation law support
+logical_landing_node: SignedCriticalHeightSignPersistenceOrPeakBound.A support only
 completion_truth: >-
-  This note is not a proof of Gold closure. It gives the exact noncircular
-  theorem shape that would prove the current Gold L1 wall, proves the absorption
-  step once that shape is available, and records the algebraic obstruction that
-  makes the old sequential storage chain and untyped atom sums insufficient.
+  This note is not a proof of Gold closure and is no longer the primitive Gold
+  L1 wall. After the signed-height restart correction, this coupled-storage
+  pressure route is support only unless it proves sign persistence with physical
+  cost or peak-height control from the signed Navier-Stokes evolution.
 source_surfaces:
   - problems/navier-stokes/target-operating-contract.yaml
   - problems/navier-stokes/source-frontier.yaml
