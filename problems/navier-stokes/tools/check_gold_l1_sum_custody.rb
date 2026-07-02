@@ -58,8 +58,8 @@ AUTHORITY_MARKERS = {
     "noncircular same-parent coupled"
   ],
   "papers/navier-stokes/context/generated/snapshots/lane-lab/problems/navier-stokes/theorem-crank.yaml" => [
-    "stale-after-gold-l1-coupled-storage-audit-20260702",
-    "current-open-gold-l1-coupled-storage-wall",
+    "gold-l1-open-tfe2748b-blocked",
+    "gold-l1-open-coupled-storage-wall",
     "theorem_authority_gate_all_discharged: false"
   ]
 }.freeze
