@@ -15713,9 +15713,30 @@ Thus the exact remaining source theorem is sharpened to
 \tag{TFE2748B.1025}
 \]
 
+This is not a second source wall.  It is the active-tail projection of the
+same terminal anti-atom reserve isolated in Section 97.  In particular,
+`(TFE2748B.844)'--`(TFE2748B.846)' imply
+
+\[
+\texttt{SameParentTerminalAntiAtomReserve.A}
+\Longrightarrow
+\texttt{NoTerminalInfiniteShellActiveTailAtom.A}.
+\tag{TFE2748B.1026}
+\]
+
+Indeed, a nonzero measure in `(TFE2748B.1025)' is a positive terminal trace
+atom of the retained Hodge-Stokes/tower packet after bounded detector,
+endpoint, legal, stop, and paid material have been removed.  Section 97 names
+that exact terminal trace as \(d\mathfrak A_P^{term}\).  If the reserve line
+`(TFE2748B.844)' holds, this atom is routed into
+\(d\Theta^0+dPaid+dStop+2^{-N}D_Ndt\), contradicting the singularity clause in
+`(TFE2748B.1011)'.
+
 The source chain is now
 
 \[
+\texttt{SameParentTerminalAntiAtomReserve.A}
+\Longrightarrow
 \texttt{NoTerminalInfiniteShellActiveTailAtom.A}
 \Longrightarrow
 \texttt{NoUnpricedActiveTailDefect.A}
@@ -15723,7 +15744,7 @@ The source chain is now
 \texttt{TailPulseExclusion.A}
 \Longrightarrow
 \text{critical capacity variation/storage.}
-\tag{TFE2748B.1026}
+\tag{TFE2748B.1027}
 \]
 
 This section proves only the support localization `(TFE2748B.1024)'.  The
