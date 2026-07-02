@@ -16250,3 +16250,131 @@ storage line `(TFE2748B.1040)': if the parent packet supplies this square clock,
 the terminal primitive jump has infinite cost and the slab modulus follows; if
 it does not, the positive terminal atom remains outside the forward Gold
 storage proof.
+
+## 119. Square-clock Lebesgue split leaves only a square-invisible terminal atom
+
+Section 118 shows what happens after the terminal defect is admitted into a
+same-carrier square density.  This section records the exact measure split
+before that admission.  It is useful because it removes another false mystery:
+the absolutely continuous square-clock part cannot be the terminal atom.  Any
+surviving terminal atom must be singular to the parent square clock.
+
+Let \(d\widehat{\mathcal P}_n\) be a normalized terminal active-tail failure as
+in Sections 115--118, and let \(d\Lambda_n^{sq}\) be the parent-announced
+same-carrier square clock on the stopped terminal shell collar.  It includes
+the full source-square clock and the already paid carrier clocks,
+
+\[
+d\Lambda_n^{sq}
+:=
+\sum_{k>N}2^kT_{k,n}(t)^2\,dt
++d\Omega_{P,n}^{gen}
++dE_{P,n}^0
++dPaid_{P,n}
++dLegal_{P,n}
++dStop_{P,n},
+\tag{TFE2748B.1063}
+\]
+
+restricted to the same selected carrier and the same stopped parent packet
+before child positive clipping.  Take the Lebesgue decomposition of the
+positive terminal defect against this square clock:
+
+\[
+d\widehat{\mathcal P}_n
+=
+f_n\,d\Lambda_n^{sq}
++d\widehat{\mathcal P}_n^{\perp},
+\qquad
+d\widehat{\mathcal P}_n^{\perp}\perp d\Lambda_n^{sq}.
+\tag{TFE2748B.1064}
+\]
+
+The square-admitted part is exactly the part for which the parent packet
+supplies the estimate
+
+\[
+\sup_n\int f_n^2\,d\Lambda_n^{sq}
+\le C_N(u_0)+Paid+Legal+Stop,
+\qquad
+\lim_{\theta\downarrow0}\limsup_n
+d\Lambda_n^{sq}\bigl((T_*-\theta,T_*]\times X_P\times[0,\theta]\bigr)=0 .
+\tag{TFE2748B.1065}
+\]
+
+Then Cauchy's inequality gives the terminal slab vanishing of the absolutely
+continuous part:
+
+\[
+\begin{aligned}
+\int_{C_\theta}f_n\,d\Lambda_n^{sq}
+&\le
+\left(\int_{C_\theta}f_n^2\,d\Lambda_n^{sq}\right)^{1/2}
+\left(d\Lambda_n^{sq}(C_\theta)\right)^{1/2}  \\
+&\le
+C_N(u_0)^{1/2}
+\left(d\Lambda_n^{sq}(C_\theta)\right)^{1/2}
+\longrightarrow0,
+\end{aligned}
+\tag{TFE2748B.1066}
+\]
+
+where
+
+\[
+C_\theta:=(T_*-\theta,T_*]\times X_P\times[0,\theta].
+\tag{TFE2748B.1067}
+\]
+
+Therefore any normalized terminal atom with mass \(\eta_0>0\) must satisfy
+
+\[
+\lim_{\theta\downarrow0}\limsup_n
+d\widehat{\mathcal P}_n^{\perp}(C_\theta)
+\ge \eta_0 .
+\tag{TFE2748B.1068}
+\]
+
+This is the exact residual object after the square-clock part is removed: a
+positive terminal active-tail atom singular to the same parent square clock.
+It cannot be hidden inside the \(L_t^2\) source-square density, because
+`(TFE2748B.1066)' kills that part.  Thus the remaining source theorem is the
+singular exclusion/no-waste line
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{SquareClockSingularTerminalAntiAtomExclusion.A:}\\
+\texttt{after the generator, endpoint, paid, legal, and stop clocks are}\\
+\texttt{removed, the square-clock singular terminal active-tail residue}\\
+\texttt{of the original coupled packet is zero, or is recorded as}\\
+\texttt{bounded-below same-parent no-waste reserve depletion.}
+\end{array}}
+\tag{TFE2748B.1069}
+\]
+
+Inside the normalized defect class of Sections 113--118 this is equivalent to
+the source-square form of the critical capacity variation/storage line:
+
+\[
+\boxed{
+\texttt{finite same-carrier square clock `(TFE2748B.1065)'}
++\texttt{SquareClockSingularTerminalAntiAtomExclusion.A}
+\Longleftrightarrow
+\texttt{SelectedTerminalDefectSquareAdmission.A `(TFE2748B.1062)'.}
+}
+\tag{TFE2748B.1070}
+\]
+
+The forward implication is `(TFE2748B.1064)'--`(TFE2748B.1068)': the square-clock
+absolutely continuous part has terminal modulus, and the singular part is
+removed by `(TFE2748B.1069)'.  The reverse implication is immediate, because
+an \(L_t^2\) same-carrier square density has no singular component relative to
+its own parent square clock and gives `(TFE2748B.1065)'.
+
+This section therefore narrows the PDE burden one more time.  The missing
+object is not square Cauchy, raw atom pairing, endpoint heat residence, or
+profile compactness.  It is the original-data proof that the stopped coupled
+pressure-Hodge/viscous-Stokes/self-advection packet cannot leave a positive
+terminal active-tail residue singular to every parent square/no-waste clock
+after paid, legal, stop, endpoint, and generator material have been removed.
