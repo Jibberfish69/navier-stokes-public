@@ -4589,7 +4589,7 @@ Consequently `(TFE2748B.280)' is equivalent to the parent-clock estimate
 \int \Phi''(F_P)
 \langle A_P\nabla_{\mathfrak m}F_P,\nabla_{\mathfrak m}F_P\rangle
 \,d\mathfrak m_P
-d\Theta_P^0+dPaid_P+dStop_P,
++d\Theta_P^0+dPaid_P+dStop_P,
 \qquad \beta<1 .
 \end{aligned}
 \tag{TFE2748B.288}
@@ -4615,7 +4615,7 @@ The atom transport comparison `(TFE2748B.267)'--`(TFE2748B.270)' gives
 dJ_{P,atom}^{ret,-}
 \le
 d\Gamma_P^{meter}
-d\Theta_P^0+dPaid_P+dStop_P
++d\Theta_P^0+dPaid_P+dStop_P
 \tag{TFE2748B.290}
 \]
 
