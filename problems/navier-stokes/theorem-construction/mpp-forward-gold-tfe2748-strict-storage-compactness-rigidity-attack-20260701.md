@@ -23315,3 +23315,213 @@ In particular, the hard source content is the signed-partner tower orientation
 and the parent-known low-high/native first-entry detector with strict
 same-parent loss; bounded detector BMO, reverse Holder, dyadic good-lambda
 bookkeeping, and the raw atom attachment are consumers once this ledger exists.
+
+## 166. The active ledger reduces to heat-lag feedback on the retained quotient
+
+Section 165 is still a ledger-level statement.  The predecessor audit
+`(TFE.2646)'--`(TFE.2749)' shows what remains after the ledger and projection
+language is opened.  A strict-margin failure of `(TFE2748B.1531)' cannot hide in
+bounded BMO, dyadic counting, raw atom attachment, endpoint trace normalization,
+or a zero-source critical-entry loop.  Those are consumer faces once they are
+kept in the same parent ledger before clipping.
+
+Write the retained full-exchange loop, after exact/reversible material, route,
+legal, stop, inherited baseline, endpoint trace, and early source material have
+been removed, as
+
+\[
+d\Xi_P^{FE,act}
+\le
+-dM_P^{exact}
++d\Xi_P^{loop,ret}
++d\Theta_P^0+dPaid_P ,
+\qquad
+M_P^{exact}\ge -C_N(u_0)\mathcal R(P)-Paid(P).
+\tag{TFE2748B.1535}
+\]
+
+The retained loop must be represented before child positive clipping by the
+stopped Duhamel--Hodge pullback of the original root generator.  In parent
+coordinates,
+
+\[
+(\partial_t+\mathcal L_P)Y_P=G_P^{root}+R_P^{route},
+\qquad
+\mathcal C_PY_P=0,
+\qquad
+\mathcal L_P=\nu\mathcal A_P+\mathcal B_P+\mathcal H_P ,
+\tag{TFE2748B.1536}
+\]
+
+where \(\mathcal B_P+\mathcal H_P\) is the volume-preserving
+advection/Hodge/pressure re-coordination, and the routed defects are in
+\(d\Theta_P^0+dPaid_P\).  For a retained readout \(Q\),
+
+\[
+Z_Q^{ret}
+=
+\mathfrak d_Q^P
+P_Q^{A_P}(I-\Pi_{\mathcal K_P^0})
+\int_{t_Q^-}^{t_Q}\mathcal U_P(t_Q,s)G_P^{root}(s)\,ds
++R_Q^{route}.
+\tag{TFE2748B.1537}
+\]
+
+Thus the retained loop is a parent-announced operator applied to the original
+generator:
+
+\[
+Z_Q^{ret}=\mathcal K_{ret,Q}G_P^{root}+R_Q^{route},
+\tag{TFE2748B.1538}
+\]
+
+and the needed parent detector bound is
+
+\[
+\sum_{Q\preceq P}
+\|\mathfrak d_Q^P P_Q^{A_P}(I-\Pi_{\mathcal K_P^0})h_Q\|^2
+\le
+C_{\Pi,N}^2\sum_{Q\preceq P}\|h_Q\|_{\mathcal H_{root}}^2
++d\Theta_P^0+dPaid_P .
+\tag{TFE2748B.1539}
+\]
+
+The heat-lag split is
+
+\[
+d\Xi_P^{loop,ret}=d\Xi_P^{early}+d\Xi_P^{ret,L},
+\tag{TFE2748B.1540}
+\]
+
+where \(d\Xi_P^{early}\) is supported on
+\(\nu\tau_Q|\xi_Q|^2<L_N\).  The physical rule is that a pressure-compatible
+endpoint trace is not retained loop action until heat lag gives it thickness.
+Accordingly the early piece is source/trace material:
+
+\[
+d\Xi_P^{early}
+\le
+C_Nd\rho_{crit,P}^{ac}
++C_Nd\rho_{crit,P}^{entry}
++d\Theta_P^0+dPaid_P .
+\tag{TFE2748B.1541}
+\]
+
+This admission is not yet payment.  It becomes storage only when the critical
+source measure has already been preallocated in the original parent packet:
+
+\[
+d\rho_{crit,P}^{ac}+d\rho_{crit,P}^{entry}
+\le
+-dM_P^{crit}
++\theta_{crit}d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P,
+\qquad
+C_N\theta_{crit}<1,
+\tag{TFE2748B.1541a}
+\]
+
+with \(M_P^{crit}\) bounded below before child clipping.  Substituting
+`(TFE2748B.1541a)' into `(TFE2748B.1541)' gives
+
+\[
+d\Xi_P^{early}
+\le
+-dM_P^{early}
++\theta_{early}d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P,
+\qquad
+C_N\theta_{early}<1,
+\tag{TFE2748B.1541b}
+\]
+
+where \(M_P^{early}\) is a fixed multiple of \(M_P^{crit}\) after harmless paid
+constant absorption.
+
+The zero-baseline part of `(TFE2748B.1541)' is the endpoint trace-capacity
+calculation: the singular detector has inverse heat scale, while the
+first-readable trace carries the Hardy heat-lag weight,
+
+\[
+H_{P,EP}^{*}\|K_Q^{parent}\|^2\sim \lambda_Q\lambda_Q^{-1}\sim 1,
+\tag{TFE2748B.1542}
+\]
+
+so the endpoint trace projection is included in the parent generator clock:
+
+\[
+d\Omega_P^{EP,tr}
+\le
+C_Nd\Omega_P^{gen}+dPaid_P .
+\tag{TFE2748B.1543}
+\]
+
+On the retained quotient, the zero modes have already been removed into lower
+carry, endpoint trace capacity, inherited baseline, route, legal, stop, or paid
+motion.  The material Bernstein--Poincare estimate is therefore
+
+\[
+\|\nabla_A w_Q\|_{\mathcal H_{root}}^2
+\ge
+c_N|\xi_Q|^2\|w_Q\|_{\mathcal H_{root}}^2
+-d\Theta_P^0-dPaid_P .
+\tag{TFE2748B.1544}
+\]
+
+Choose \(L_N\) so that
+
+\[
+C_NC_{\Pi,N}^2e^{-2c_NL_N}<1 .
+\tag{TFE2748B.1545}
+\]
+
+Gronwall for the heat/Stokes factor on retained fibres with
+\(\nu\tau_Q|\xi_Q|^2\ge L_N\), combined with `(TFE2748B.1539)', gives
+
+\[
+d\Xi_P^{ret,L}
+\le
+\vartheta_N d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P,
+\qquad
+C_N\vartheta_N<1.
+\tag{TFE2748B.1546}
+\]
+
+Combining `(TFE2748B.1535)', `(TFE2748B.1541b)', and `(TFE2748B.1546)' yields the
+active full-exchange storage:
+
+\[
+d\Xi_P^{FE,act}
+\le
+-dM_P^{FE,act}
++d\Theta_P^0
++(\theta_{early}+\vartheta_N)d\Omega_P^{gen}
++dPaid_P,
+\qquad
+C_N(\theta_{early}+\vartheta_N)<1.
+\tag{TFE2748B.1547}
+\]
+
+Consequently the lower edge beneath Section 165 is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{stopped Duhamel--Hodge pullback and parent detector bound}\\
++\texttt{early trace/source admission `(TFE2748B.1541)'}\\
++\texttt{preallocated critical source storage `(TFE2748B.1541a)'}\\
++\texttt{retained quotient heat-thickness `(TFE2748B.1544)'--`(TFE2748B.1546)'}
+\end{array}
+\Longrightarrow
+\texttt{FullExchangeNoSelfFeedingStorage.A}.}
+\tag{TFE2748B.1548}
+\]
+
+This is not a proof of Gold closure.  It is the sharpened source target.  The
+remaining arbitrary-original-data proof is to derive `(TFE2748B.1536)'--
+`(TFE2748B.1539)', `(TFE2748B.1541)', and the preallocated critical source
+storage `(TFE2748B.1541a)' from the original coupled packet without using
+`(TFE2748B.1547)' as an input.  Once those grants are noncircular, the heat-lag
+quotient gap gives strict no-self-feeding, and Section 165 gives
+`CriticalCapacityVariationStorage.A'.
