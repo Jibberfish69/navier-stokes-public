@@ -15232,3 +15232,66 @@ statement `(TFE2748B.990)' directly from the original coupled
 pressure-Hodge/viscous-Stokes/self-advection root generator before positive
 clipping.  Without that pricing, Section 109 constructs the right reserve but
 does not bound its total spend.
+
+## 111. The obstacle defect has only one unpriced detector face
+
+The defect in `(TFE2748B.989)' is not a new kind of source.  A defect test
+\(\zeta\) is a parent-announced detector applied to the same before-clipping
+coupled packet.  Pulling that detector through the stopped Duhamel-Hodge parent
+propagator splits the positive defect into the same three faces already isolated
+above:
+
+\[
+\mathfrak D_P(\eta;\zeta)
+\le
+\mathfrak D_P^{bd}(\eta;\zeta)
++\mathfrak D_P^{EP}(\eta;\zeta)
++\mathfrak D_P^{tail}(\eta;\zeta)
++dE_P^0(P';\zeta).
+\tag{TFE2748B.992}
+\]
+
+The bounded-detector face is priced by the root-generator projection from
+Section 104:
+
+\[
+\sum_\alpha\mathfrak D_P^{bd}(\eta_\alpha;\zeta_\alpha)
+\le
+C_N\int_{P'}H_P^\ast\|G_P^{root}\|_{\mathfrak H_P}^2\,d\sigma
+dE_P^0(P').
+\tag{TFE2748B.993}
+\]
+
+The zero-baseline endpoint face is priced by the heat-lag trace admission from
+Section 106:
+
+\[
+\sum_\alpha\mathfrak D_P^{EP}(\eta_\alpha;\zeta_\alpha)
+\le
+C_N\,d\Omega_P^{EP,tr}(P')
+dE_P^0(P')
+\le
+C_N\,d\Omega_P^{gen}(P')+dE_P^0(P').
+\tag{TFE2748B.994}
+\]
+
+Therefore `WeightedObstacleDefectPricing.A' has exactly one unpriced branch:
+
+\[
+\boxed{
+\texttt{ObstacleDefectTailPricing.A: }
+\sum_\alpha\mathfrak D_P^{tail}(\eta_\alpha;\zeta_\alpha)
+\le
+\vartheta_{tail}\,d\Omega_P^{gen}(P')
+dE_P^0(P'),
+\qquad C_N\vartheta_{tail}<1 .
+}
+\tag{TFE2748B.995}
+\]
+
+If `(TFE2748B.995)' is proved, `(TFE2748B.993)'--`(TFE2748B.994)' and the
+already admitted root/endpoint clocks supply `(TFE2748B.990)', hence the
+finite-excess bound `(TFE2748B.985)' and the storage split `(TFE2748B.984)'.
+This is the current smallest source face: the obstacle-dual residual tail must
+be priced by the original coupled packet with a strict margin before child
+positive clipping.
