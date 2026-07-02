@@ -17935,3 +17935,147 @@ This section proves the atom-to-variation conversion from arbitrary smooth
 preterminal data.  It does not replace the strict full-exchange storage theorem:
 it pins that theorem to the exact continuous parent variation whose positive
 part has to be paid before any selected child can count action.
+
+## 131. Parent log-meter variation is finite capacitary excess in path form
+
+Section 130 names the selected-critical upgrade as the continuous positive
+variation of the parent log-meter.  Sections 107--122 name the same upgrade in
+active-potential language as finite capacitary excess.  These are not two
+different Gold source walls.  The path form of the log-meter variation is the
+atom-ledger projection of the same parent active potential.
+
+Let \(d\Gamma_P^{crit}\) be the occupation measure of the stopped full-exchange
+paths \(\gamma_{xy}\) used in `(TFE2748B.1162)', including the selected atom
+weight and the critical meter already pulled back to the parent frame:
+
+\[
+\int \varphi\,d\Gamma_P^{crit}
+:=
+\int_{X_P\times X_P}
+\int_{\gamma_{xy}}
+\varphi(s)\,W_P(s)\,d\ell_{\gamma_{xy}}(s)\,d\pi_P(x,y).
+\tag{TFE2748B.1172}
+\]
+
+The before-clipping active-density comparison says precisely that this path
+occupation is a bounded parent-announced detector of the same active density
+used in Sections 107--109.  Equivalently,
+
+\[
+d\mathcal V_P^{crit}
+\le
+C_N\bigl(dQ_P^{meter}+[d\mathcal C_P^{crit}]_+\bigr)
++dE_P^0.
+\tag{TFE2748B.1173}
+\]
+
+Using the active-potential identity `(TFE2748B.961)', this is
+
+\[
+d\mathcal V_P^{crit}
+\le
+C_NU_P^2\,d\mathfrak v_P^{crit}
++dE_P^0.
+\tag{TFE2748B.1174}
+\]
+
+Thus `(TFE2748B.1169)' is not a separate dyadic or shell estimate.  It is the
+path-occupation form of the parent active-potential trace: the selected
+log-meter can rise only through the same before-clipping full-exchange
+variables that define \(d\mathfrak v_P^{crit}\).
+
+Now insert the capacitary decomposition from Section 109.  If
+`FiniteCapacitaryExcess.A' holds in the form `(TFE2748B.1087)', then
+`(TFE2748B.982)'--`(TFE2748B.984)' give
+
+\[
+U_P^2\,d\mathfrak v_P^{crit}
+\le
+-dM_{P,\tau}^{cap}
++U_P^2\,d\mathfrak v_P^{res}
++dE_P^0,
+\qquad
+M_{P,\tau}^{cap}\ge -C_N(u_0)-Paid_P-Legal_P-Stop_P.
+\tag{TFE2748B.1175}
+\]
+
+The residual capacity bound `(TFE2748B.981)' is equivalent to the form bound
+`(TFE2748B.963)'.  Applying it to \(\zeta=U_P\) and using
+\(dI_P=|\nabla_AU_P|^2d\mathfrak m_P\le d\Omega_P^{gen}\) yields
+
+\[
+U_P^2\,d\mathfrak v_P^{res}
+\le
+\vartheta_{cap}\,d\Omega_P^{gen}
++dE_P^0,
+\qquad
+C_N\vartheta_{cap}<1.
+\tag{TFE2748B.1176}
+\]
+
+Combining `(TFE2748B.1174)'--`(TFE2748B.1176)' proves the parent log-meter
+storage estimate:
+
+\[
+d\mathcal V_P^{crit}
+\le
+-dM_P^{var}
++\vartheta\,d\Omega_P^{gen}
++dE_P^0,
+\qquad
+C_N\vartheta<1,
+\qquad
+M_P^{var}\ge -C_N(u_0)-Paid_P-Legal_P-Stop_P,
+\tag{TFE2748B.1177}
+\]
+
+where \(M_P^{var}:=C_NM_{P,\tau}^{cap}\) after constants are absorbed.  This is
+exactly `ParentLogMeterVariationStorage.A' `(TFE2748B.1166)'.
+
+Consequently the current source chain can be written without duplicate walls:
+
+\[
+\boxed{
+\texttt{BeforeClippingActiveDensityComparison.A `(TFE2748B.1173)'}
++
+\texttt{FiniteCapacitaryExcess.A `(TFE2748B.1087)'}
+\Longrightarrow
+\texttt{ParentLogMeterVariationStorage.A `(TFE2748B.1166)'}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A.}
+}
+\tag{TFE2748B.1178}
+\]
+
+The converse audit is also exact.  After raw atoms, endpoint admission,
+bounded-detector projection, reversible entropy-flux pairing, route, legal,
+stop, and paid leakage are removed, a failure of `(TFE2748B.1166)' has only the
+following parent-source forms:
+
+\[
+\boxed{
+\neg\texttt{ParentLogMeterVariationStorage.A}
+\Longrightarrow
+\neg\texttt{BeforeClippingActiveDensityComparison.A}
+\ \vee\
+\neg\texttt{FiniteCapacitaryExcess.A}
+\ \vee\
+\neg\texttt{TerminalTailNoWasteOrOrliczProducer.A}.
+}
+\tag{TFE2748B.1179}
+\]
+
+Here the terminal alternative is the slab/no-waste form
+`(TFE2748B.1037)'--`(TFE2748B.1041)'.  It is not another pressure atom theorem:
+it is the possibility that the super-capacitary excess collapses onto the
+terminal infinite-shell face before the parent packet supplies square-clock
+admission.
+
+Thus the selected-critical upgrade now has one coherent bottom.  The raw
+same-parent pressure-Hodge atom construction and retained opposite-lobe reserve
+are closed by Section 129.  The weighted/log-meter upgrade is closed by Section
+130 once `(TFE2748B.1177)' is available.  Section 131 proves that `(TFE2748B.1177)'
+is supplied by finite capacitary excess plus before-clipping active-density
+comparison.  The arbitrary-data PDE theorem still to prove is exactly that
+finite-excess / terminal no-waste producer for the original coupled packet, not
+another lobe attachment, dyadic count, or endpoint ownership statement.
