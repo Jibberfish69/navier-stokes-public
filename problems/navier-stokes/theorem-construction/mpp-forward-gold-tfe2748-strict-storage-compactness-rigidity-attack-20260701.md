@@ -20572,7 +20572,7 @@ inequality and raw signed atom theorem give
 and the entropy identity gives the Fisher clock
 \(\int|\nabla_AU_P|^2\,d\mathfrak m_P\).  Those facts control square/Fisher
 readouts and raw signed variation.  They do not by themselves imply the
-subunit form norm `(TFE2748B.1340)', because `(TFE2748B.1340)' is a
+subunit form norm `(TFE2748B.1341)', because `(TFE2748B.1341)' is a
 one-sided capacity bound for the positive log-meter speed before clipping.
 
 Equivalently, a proof from arbitrary original smooth data must produce a
