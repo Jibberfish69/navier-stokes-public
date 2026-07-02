@@ -9744,3 +9744,140 @@ route/collar/frame/legal/stop leakage, and no retained-quotient escape.  Any
 future proof of the critical capacity variation/storage line must supply
 retained-quotient tightness for normalized failures and the no-ghost implication
 in `(TFE2748B.620)' from the original smooth data before child clipping.
+
+## 74. Body-III relay insertion for the no-ghost defect
+
+Section 73 leaves the compactness language too naked.  The repo already has the
+right bookkeeping for this situation: failure of retained selected-carrier
+tightness and failure of interior carrier identification are Body-III
+compactness/no-loss relay defects, not invisible source terms.
+
+In the normalized failure branch `(TFE2748B.611)'--`(TFE2748B.612)', regard
+\(\lambda_n=dQ_{P_n,N_n}^{tail}\) as the nonnegative selected aligned-current
+carrier measure on the normalized same-carrier packet space \(C\).  The
+selected-carrier tightness note gives the exact defect
+
+\[
+K_{\rm tight}^{tail}
+:=
+\lim_{m\to\infty}\limsup_{n\to\infty}
+\lambda_n(C\setminus C_m),
+\tag{TFE2748B.621}
+\]
+
+and identifies it as Body-III positive relay mass:
+
+\[
+K_{\rm tight}^{tail}\le K_{C,tail}^{+}.
+\tag{TFE2748B.622}
+\]
+
+This is precisely the non-tight branch `(TFE2748B.614)'.  Therefore retained
+quotient escape is paid once the Body-III relay defect is included in the
+same parent paid ledger.
+
+On the tight branch, pass to
+\(\lambda_n\rightharpoonup^\ast\lambda_\ast\).  Let
+\(\lambda[U,\Pi]\) be the canonical aligned-current carrier computed from the
+limiting velocity-pressure-viscosity-incompressibility packet with the same
+stopped carrier, cutoff, shell entrance, and selector.  The canonical selected
+carrier identification criterion gives
+
+\[
+\lambda_\ast(C)
+\le
+\lambda[U,\Pi](C)+K_{C,tail}^{int,+},
+\tag{TFE2748B.623}
+\]
+
+where
+
+\[
+K_{C,tail}^{int,+}
+:=(\lambda_\ast-\lambda[U,\Pi])^+(C)
+\le K_C^+ .
+\tag{TFE2748B.624}
+\]
+
+The sufficient density-identification input is the local \(L^1\) convergence of
+the full coupled participation density:
+
+\[
+\sum_{P\in\mathcal S}
+\|h_{n,P}^{tail}-h_P^{tail}[U,\Pi]\|_{L^1(K\times P)}
+\to0 .
+\tag{TFE2748B.625}
+\]
+
+Here \(h^{tail}\) is not a pressure-only or viscosity-only density.  It is the
+same recombined pressure-viscosity-incompressibility-velocity shell-current
+density from `(TFE2748B.577)'--`(TFE2748B.578)', after the selected
+tail-aligned detector is pulled back into the parent packet before clipping.
+
+Thus the normalized source measure in Section 73 should be read with the
+Body-III relay defect included:
+
+\[
+d\sigma_n^{III}
+:=
+d\sigma_n+dK_{C,n}^{+},
+\tag{TFE2748B.626}
+\]
+
+where \(d\sigma_n\) is `(TFE2748B.611)'.  If
+
+\[
+\sigma_n^{III}(P_n)\to0,
+\tag{TFE2748B.627}
+\]
+
+then `(TFE2748B.622)' forces \(K_{\rm tight}^{tail}=0\), and `(TFE2748B.624)'
+forces \(K_{C,tail}^{int,+}=0\).  The defect measure from Section 73 is then
+canonical:
+
+\[
+\lambda_\infty=\lambda[U,\Pi].
+\tag{TFE2748B.628}
+\]
+
+Consequently the only no-ghost theorem still needed is the canonical
+lossless aligned-current rigidity:
+
+\[
+\boxed{
+\begin{array}{c}
+dI[U,\Pi]+d\Theta^0[U,\Pi]+dPaid[U,\Pi]+dStop[U,\Pi]=0,\\
+dK_C^+[U,\Pi]=0
+\end{array}
+\Longrightarrow
+\lambda[U,\Pi]=0 .
+}
+\tag{TFE2748B.629}
+\]
+
+Combining the Body-III relay insertion with Section 73 gives the sharper source
+implication
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{BodyIIIRelayPaymentForTailAlignedCarrier.A `(TFE2748B.621)'--`(TFE2748B.628)'}\\
++\texttt{CanonicalLosslessAlignedCurrentRigidity.A `(TFE2748B.629)'}
+\end{array}
+\Longrightarrow
+\texttt{ZeroSourceAlignedCurrentNoGhost.A}
+\Longrightarrow
+\texttt{ParentComparisonPositiveSurplus.A `(TFE2748B.351)'.}
+}
+\tag{TFE2748B.630}
+\]
+
+The first line is not a new bookkeeping invention; it is the Section-73
+specialization of the installed Body-III selected-carrier tightness and
+canonical-identification criteria.  It becomes an original-data theorem only
+after the full coupled tail-aligned participation density is shown to satisfy
+the Body-III no-loss relay hypotheses before clipping, or after every failure
+of those hypotheses is charged as \(K_C^+\).  What remains as genuine
+original-data content is now narrower: prove that relay production for this
+tail-aligned carrier and prove the canonical zero-loss aligned-current rigidity
+`(TFE2748B.629)'.
