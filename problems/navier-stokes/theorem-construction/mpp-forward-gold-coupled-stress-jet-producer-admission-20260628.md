@@ -20,9 +20,10 @@ edge_effect: >-
   legal ledger, or completed stop partition inside the same participation law.
   The fresh square packing is not the weighted positive L1 service theorem; the
   heat-lag/native linear service charge remains part of the terminal-uniform L1
-  storage estimate. This file supplies coordinate/admission support for the open
-  coupled parent-storage packet; terminal-uniform L1 storage for the same whole-field
-  viscous/jet-service density is the remaining MPP-bearing estimate.
+  storage estimate. This file supplies coordinate/admission support. After the
+  signed-height restart correction, this route is support unless it proves
+  signed-height sign persistence or peak-height control from the Navier-Stokes
+  evolution.
 parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-leray-projection-one-participation-law-audit-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-traction-current-participation-law-20260627.md

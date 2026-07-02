@@ -320,8 +320,8 @@ The standard estimate closes `(20)` only under a small
 \(\dot H^{1/2}\) packet condition.  For arbitrary smooth data, `(20)` is the
 same MPP-bearing storage coercivity problem in critical-transfer form.
 
-A finished Gold proof must prove this face from the original coupled material
-packet, or prove the full coupled parent-storage theorem directly.  In current
+A finished Gold proof must prove signed-height sign persistence with physical
+cost, or peak-height control when the signed rate changes sign.  In current
 custody, "native reserve atoms" means finite-overlap charge bookkeeping after
 the continuous parent packet is fixed, without importing the future selected
 clock or downstream \(H^s\) continuation.
