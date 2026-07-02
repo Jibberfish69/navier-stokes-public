@@ -19250,3 +19250,148 @@ before the child selected positive readout is counted.
 \texttt{prove `(TFE2748B.1253)'--`(TFE2748B.1254)' from arbitrary original smooth data.}}
 \tag{TFE2748B.1258}
 \]
+
+## 140. The two source-square faces are one compactified signed-transfer storage theorem
+
+The atom construction requested at the raw pressure-Hodge level is already the
+pre-clipping signed-measure theorem of Sections 136--137.  What remains is not
+another atomization.  The finite/preterminal lifted-transfer face and the
+terminal square-clock-singular face have to be supplied by one compactified
+same-parent storage law.
+
+Let
+
+\[
+\overline P
+:=
+([0,T_*)\times X_P)\cup(\{T_*\}\times X_P\times\{\rho=0\})
+\tag{TFE2748B.1259}
+\]
+
+be the stopped parent packet with its square-clock terminal face.  Extend
+\(dE_P^0\), \(d\Omega_P^{gen}\), and all parent storages weak-star to
+\(\overline P\), writing the extensions with a superscript \(*\).  For each
+active tail cutoff \(J\), define the compactified source-square measure by
+
+\[
+d\mathcal Z_{P,J}^{sq,*}
+:=
+\mathbf 1_{t<T_*}[d\mathcal T_{P,J}^{lift,\sigma}]_+
++\mathbf 1_{\{T_*,\rho=0\}}
+\bigl(d\mathcal S_P^{term}\bigr)^{\perp sq}.
+\tag{TFE2748B.1260}
+\]
+
+The first term is the before-clipping signed lifted transfer of
+`(TFE2748B.1098)' after its positive part is taken in the parent frame.  The
+second term is the square-clock-singular terminal selected residue of
+`(TFE2748B.1079)' after generator, endpoint, paid, legal, stop, entry, and
+return material have been removed.  Both terms live on the same stopped parent
+packet before a child is allowed to count a positive readout.
+
+Define the compactified source-square/no-waste theorem as follows:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{CompactifiedSignedLiftedTailTransferNoWaste.A:}\\[1mm]
+\displaystyle
+\int_{\overline I}d\mathcal Z_{P,J}^{sq,*}
+\le
+-dM_{P,J}^{sq,*}(\overline I)
++\theta\,d\Omega_P^{gen,*}(\overline I)
++dE_P^{0,*}(\overline I)
++C_N2^{-2\delta J},\\[1mm]
+\texttt{for every stopped compactified parent interval \(\overline I\),}\\
+\texttt{with \(M_{P,J}^{sq,*}\) bounded below from the original data and
+\(C_N\theta<1\).}
+\end{array}}
+\tag{TFE2748B.1261}
+\]
+
+Here
+
+\[
+dE_P^{0,*}
+:=
+d\Theta_P^{0,*}+dPaid_P^*+dLegal_P^*+dStop_P^*
++dEntry_P^*+dReturn_P^*
+\tag{TFE2748B.1262}
+\]
+
+is the same paid ledger as `(TFE2748B.1252)', extended to the terminal face.
+The bounded-below condition means
+
+\[
+M_{P,J}^{sq,*}(\overline s)
+\ge
+-C_{N,J}(u_0)
+-E_P^{0,*}(\overline P)
+\qquad\text{for all stopped compactified times \(\overline s\).}
+\tag{TFE2748B.1263}
+\]
+
+This single statement has exactly the two faces isolated in Section 139.
+Restrict `(TFE2748B.1261)' to \(t<T_*\).  The terminal term in
+`(TFE2748B.1260)' disappears, and the result is exactly the finite/preterminal
+no-waste estimate `(TFE2748B.1099)', hence
+`SignedLiftedTailTransferNoWaste.A'.  Restrict `(TFE2748B.1261)' to the
+terminal part singular to the parent square clock.  The preterminal transfer
+disappears, and the no-terminal-residue assumptions already used in
+`(TFE2748B.1081)'--`(TFE2748B.1083)' give
+
+\[
+\bigl(d\mathcal S_P^{term}\bigr)^{\perp sq}
+\le
+-dM_{P,J}^{sq,term}
++dE_P^{0,term},
+\tag{TFE2748B.1264}
+\]
+
+which is `SquareClockSingularTerminalAntiAtomExclusion.A'.  Conversely, if
+`(TFE2748B.1099)' and `(TFE2748B.1069)' hold with parent-built bounded-below
+storages, the disjoint union of their preterminal and terminal storages gives
+`(TFE2748B.1261)' on \(\overline P\).  Therefore
+
+\[
+\boxed{
+\texttt{CompactifiedSignedLiftedTailTransferNoWaste.A}
+\Longleftrightarrow
+\texttt{SignedLiftedTailTransferNoWaste.A}
++
+\texttt{SquareClockSingularTerminalAntiAtomExclusion.A}}
+\tag{TFE2748B.1265}
+\]
+
+inside the stopped same-parent packet after route, legal, stop, entry, return,
+endpoint, and paid leakage have been removed.
+
+Combining `(TFE2748B.1265)' with Section 139 gives the downstream consumption
+without reopening the raw atom theorem:
+
+\[
+\boxed{
+\texttt{CompactifiedSignedLiftedTailTransferNoWaste.A}
+\Longrightarrow
+\texttt{FullExchangeZeroProfitStorage.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1266}
+\]
+
+Thus the active arbitrary-data source theorem is sharpened to one compactified
+statement:
+
+\[
+\boxed{
+\texttt{current open source theorem}
+=
+\texttt{prove `(TFE2748B.1261)' from the original coupled packet before clipping.}}
+\tag{TFE2748B.1267}
+\]
+
+The proof already has the raw same-parent atom decomposition, coefficient and
+leakage control, and bounded-below retained opposite-lobe reserve depletion from
+arbitrary original smooth data.  The remaining source-square theorem is the
+compactified no-waste storage for the square created by the lifted tail transfer
+and its terminal square-clock trace.
