@@ -764,7 +764,7 @@ cross_lane_broadcast:
   - problems/navier-stokes/object-formalization.yaml
 auditor:
   status: blocked-theorem-open
-  audit_status: gold-l1-open-signed-height-restart-blocked
+  audit_status: gold-l1-open-signed-height-sign-persistence-wall
   branch_terminal_status: gold-l1-open-signed-height-sign-persistence-wall
   open_issue_count: 1
   autofixable_issue_count: 0
@@ -823,7 +823,7 @@ summary:
   blocked_queue_interpretation: none
   on_recommended_track: true
   recommended_next_cell_type: theorem-work
-  audit_status: gold-l1-open-signed-height-restart-blocked
+  audit_status: gold-l1-open-signed-height-sign-persistence-wall
   branch_terminal_status: gold-l1-open-signed-height-sign-persistence-wall
   unresolved_branch_terminal_count: 1
   current_next_cell_type: theorem-work
