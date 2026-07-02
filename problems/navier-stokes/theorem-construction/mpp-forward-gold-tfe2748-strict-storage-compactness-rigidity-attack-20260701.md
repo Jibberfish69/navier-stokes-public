@@ -17761,3 +17761,177 @@ The first term is the selected retained-lobe reserve, and the second is the
 selected log-meter/full-exchange variation.  Sections 123--128 identify the
 noncircular payment for `(TFE2748B.1159)' as finite weighted excess /
 full-exchange no-profit storage, not as another atom construction.
+
+## 130. The weighted atom defect is exact parent log-meter variation
+
+The exponential defect in `(TFE2748B.1159)' can be written as a continuous
+before-clipping variation of the same parent meter.  This is the exact
+parent-scale integral form of the selected-critical upgrade.
+
+For \(\pi_P\)-a.e. atom pair \((x,y)\), choose the stopped parent
+full-exchange path \(\gamma_{xy}\) from the retained lobe \(y\) to the positive
+lobe \(x\), after route, legal, stop, endpoint, collar, and reselection
+leakage have been removed.  Let \(s\) be the parent exchange parameter and
+write
+
+\[
+b_P(s):=\log W_P^{crit}(\gamma_{xy}(s)),
+\qquad
+W_P(s):=e^{b_P(s)} .
+\tag{TFE2748B.1160}
+\]
+
+Since the original solution and the stopped parent chart are smooth on compact
+preterminal intervals, \(b_P\) is a finite-variation function along every
+retained path, up to the already separated paid leakage.  The Stieltjes identity
+for the positive variation of \(e^{b_P}\) gives
+
+\[
+e^{b_P(y)}
+\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)
+\le
+\int_{\gamma_{xy}} e^{b_P(s)}\,d[b_P]_+(s).
+\tag{TFE2748B.1161}
+\]
+
+Indeed, \(d(e^{b_P})=e^{b_P}\,db_P\), so only positive variation of \(b_P\)
+can raise the selected price from the retained lobe to the positive lobe.
+Negative variation is retained return; it cannot create the positive selected
+bill.
+
+Define the parent log-meter variation measure on the same atom ledger by
+
+\[
+d\mathcal V_P^{crit}
+:=
+\int_{X_P\times X_P}
+\int_{\gamma_{xy}} e^{b_P(s)}\,d[b_P]_+(s)\,
+d\pi_P(x,y),
+\tag{TFE2748B.1162}
+\]
+
+with the selected detector \(\omega_P\) inserted in \(d\pi_P\) when the
+selected atom ledger is being read.  Combining `(TFE2748B.1159)' with
+`(TFE2748B.1161)' gives the exact storage-prepared atom inequality
+
+\[
+dA_{P,crit}^{atom,+}
+\le
+dJ_{P,W}^{ret,-}
++d\mathcal V_P^{crit}
++dE_P^0 .
+\tag{TFE2748B.1163}
+\]
+
+The retained weighted lobe has the same reserve form as before:
+
+\[
+dJ_{P,W}^{ret,-}
+\le
+-dM_{P,W}^{atom},
+\qquad
+M_{P,W}^{atom}\ge0,
+\tag{TFE2748B.1164}
+\]
+
+once its initial weighted mass is bounded by the original parent reserve.  Thus
+the selected-critical atom line is reduced to the original parent log-meter
+variation:
+
+\[
+dA_{P,crit}^{atom,+}
+\le
+-dM_{P,W}^{atom}
++d\mathcal V_P^{crit}
++dE_P^0 .
+\tag{TFE2748B.1165}
+\]
+
+The point of `(TFE2748B.1162)' is that it is not a dyadic count and not a
+post-clipping positive part.  It is a continuous integral over the same
+parent-known exchange paths that attach the positive and opposite lobes.
+Therefore the critical capacity variation/storage line is supplied by the
+following Stieltjes storage estimate from the original coupled packet:
+
+\[
+d\mathcal V_P^{crit}
+\le
+-dM_P^{var}
++\vartheta\,d\Omega_P^{gen}
++dE_P^0,
+\qquad
+C_N\vartheta<1,
+\qquad
+M_P^{var}\ge-C_N(u_0).
+\tag{TFE2748B.1166}
+\]
+
+Inserting `(TFE2748B.1166)' into `(TFE2748B.1165)' gives
+
+\[
+dA_{P,crit}^{atom,+}
+\le
+-d\bigl(M_{P,W}^{atom}+M_P^{var}\bigr)
++\vartheta\,d\Omega_P^{gen}
++dE_P^0,
+\qquad
+C_N\vartheta<1.
+\tag{TFE2748B.1167}
+\]
+
+Conversely, any proof of selected-critical atom storage must supply
+`(TFE2748B.1166)' in some equivalent currency, because `(TFE2748B.1161)' is the
+exact positive-price increase of the selected meter along the atom path.  This
+identifies the remaining source as a before-clipping parent Stieltjes variation
+theorem:
+
+\[
+\texttt{ParentLogMeterVariationStorage.A: prove `(TFE2748B.1166)' for }
+d\mathcal V_P^{crit}
+\texttt{ from the original coupled packet.}
+\tag{TFE2748B.1168}
+\]
+
+The full-exchange no-profit theorem `(TFE2748B.1117)' is precisely the
+strict-margin way to prove `(TFE2748B.1166)'.  In full-exchange coordinates the
+log-meter derivative \(d[b_P]_+\) is the positive projection of the original
+pressure-Hodge, viscous/Stokes, self-advection, incompressibility-frame,
+covector, collar, endpoint, reset, and selector motion.  The before-clipping
+active-density comparison gives
+
+\[
+d\mathcal V_P^{crit}
+\le
+C_N\,d\Xi_P^{FE}+dE_P^0,
+\tag{TFE2748B.1169}
+\]
+
+and the strict full-exchange storage
+
+\[
+d\Xi_P^{FE}
+\le
+-dM_P^{FE}
++\theta_{FE}\,d\Omega_P^{gen}
++dE_P^0,
+\qquad
+C_N\theta_{FE}<1,
+\tag{TFE2748B.1170}
+\]
+
+gives `(TFE2748B.1166)' with \(M_P^{var}:=C_NM_P^{FE}\).  Therefore the
+current proof chain is exact at the continuous parent-variation level:
+
+\[
+\texttt{FullExchangeZeroProfitStorage.A `(TFE2748B.1169)'--`(TFE2748B.1170)'}
+\Longrightarrow
+\texttt{ParentLogMeterVariationStorage.A `(TFE2748B.1166)'}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A `(TFE2748B.1167)'.}
+\tag{TFE2748B.1171}
+\]
+
+This section proves the atom-to-variation conversion from arbitrary smooth
+preterminal data.  It does not replace the strict full-exchange storage theorem:
+it pins that theorem to the exact continuous parent variation whose positive
+part has to be paid before any selected child can count action.
