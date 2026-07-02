@@ -20596,3 +20596,232 @@ Then \(M_P^{cap}=K_P^{act}\) plus the Section 109 maximal-excess reserve gives
 atom mass, finite energy, endpoint admission, and entropy/Fisher dissipation
 remain consumers; they do not prove the selected-critical positive
 \(L^1\) capacity storage line.
+
+## 149. Signed atoms are canonical; the weighted residue is the capacity source
+
+The signed-measure attachment request has a canonical construction from the
+original smooth packet before child positive clipping.  Let \(P\) be a stopped
+preterminal parent packet and let \(dJ_P\) be the pressure-Hodge/material
+residue after route, collar, endpoint, frame, detector-motion, legal, stop, and
+paid terms have been separated.  The parent constraint-force part has no
+standalone mass creation:
+
+\[
+dJ_P=dJ_P^0+dR_P,
+\qquad
+dJ_P^0([0,\tau]\times X_P)=0,
+\qquad
+|dR_P|\le dE_P^{atom},
+\tag{TFE2748B.1344}
+\]
+
+where
+
+\[
+dE_P^{atom}:=
+d\Theta_P^0+dPaid_P+dLegal_P+dStop_P .
+\tag{TFE2748B.1345}
+\]
+
+For arbitrary original smooth data, the pulled-back pressure equation and the
+stopped Hodge/collar construction make \(dJ_P^0\) a finite signed Radon measure
+on each stopped preterminal packet.  Its Jordan split is
+
+\[
+dJ_P^0=dJ_{P,+}^0-dJ_{P,-}^0,
+\qquad
+dJ_{P,+}^0([0,\tau]\times X_P)
+=dJ_{P,-}^0([0,\tau]\times X_P)=m_P^J .
+\tag{TFE2748B.1346}
+\]
+
+Define the same-parent transport coupling of the positive and opposite lobes by
+
+\[
+d\Pi_P(t,x,y)
+:=
+\begin{cases}
+{\displaystyle
+dJ_{P,+}^0(t,x)dJ_{P,-}^0(t,y)\over m_P^J(t)},&m_P^J(t)>0,\\[5pt]
+0,&m_P^J(t)=0 .
+\end{cases}
+\tag{TFE2748B.1347}
+\]
+
+Then, for every parent-announced test \(\varphi\),
+
+\[
+\int\varphi\,dJ_P^0
+=
+\iiint
+\bigl(\varphi(t,x)-\varphi(t,y)\bigr)\,d\Pi_P(t,x,y).
+\tag{TFE2748B.1348}
+\]
+
+Equivalently,
+
+\[
+dJ_P^0
+=
+\int(\delta_{(t,x)}-\delta_{(t,y)})\,d\Pi_P(t,x,y).
+\tag{TFE2748B.1349}
+\]
+
+This is the exact atom decomposition.  A display
+\(\sum_\alpha c_\alpha\,d\mu_\alpha\) is obtained by simple-measure
+approximation of \(d\Pi_P\), with
+\(d\mu_\alpha=\delta_{(t_\alpha,x_\alpha)}
+-\delta_{(t_\alpha,y_\alpha)}\) and
+\(\int d\mu_\alpha=0\).  The continuum coupling is the parent-scale object;
+the countable notation is only an approximation of that same object.
+
+The coefficient and leakage control is exactly the total coupling mass plus the
+separated residual:
+
+\[
+\Pi_P([0,\tau]\times X_P\times X_P)
+=m_P^J
+={1\over2}|dJ_P^0|([0,\tau]\times X_P),
+\tag{TFE2748B.1350}
+\]
+
+and, by the stopped pressure-Hodge Hardy/Jordan bound used in
+`(TFE2748B.1326)',
+
+\[
+\Pi_P([0,\tau]\times X_P\times X_P)
++ |dR_P|([0,\tau]\times X_P)
+\le
+C_N{\|u_0\|_2^2\over\nu}
++E_P^{atom}([0,\tau]\times X_P).
+\tag{TFE2748B.1351}
+\]
+
+Now let \(0\le\omega_P(t,x)\le1\) be fixed in the parent frame before any child
+positive part is clipped.  The selected positive lobe and the retained opposite
+lobe are the two marginals of the same coupling:
+
+\[
+dJ_{P,\omega}^{+}
+:=(\operatorname{time},\operatorname{pr}_1)_\#
+\bigl(\omega_P(t,x)\,d\Pi_P(t,x,y)\bigr),
+\qquad
+dJ_{P,\omega}^{ret,-}
+:=(\operatorname{time},\operatorname{pr}_2)_\#
+\bigl(\omega_P(t,x)\,d\Pi_P(t,x,y)\bigr).
+\tag{TFE2748B.1352}
+\]
+
+Therefore
+
+\[
+\omega_P(dJ_P)_+
+\preceq_{atom}
+dJ_{P,\omega}^{ret,-}
+\omega_P(dR_P)_+ .
+\tag{TFE2748B.1353}
+\]
+
+For a fixed stopped horizon \(\tau\), set
+
+\[
+B_{P,\omega}^{atom}(\tau)
+:=
+C_N{\|u_0\|_2^2\over\nu}
++E_P^{atom}([0,\tau]\times X_P)
+\]
+
+and
+
+\[
+M_{P,\omega}^{atom}(s)
+:=
+B_{P,\omega}^{atom}(\tau)
+-dJ_{P,\omega}^{ret,-}([0,s]\times X_P),
+\qquad 0\le s\le\tau .
+\tag{TFE2748B.1354}
+\]
+
+Then `(TFE2748B.1351)'--`(TFE2748B.1353)' give
+
+\[
+M_{P,\omega}^{atom}(s)\ge0,
+\qquad
+-dM_{P,\omega}^{atom}=dJ_{P,\omega}^{ret,-}
+\quad\text{on retained same-parent atoms.}
+\tag{TFE2748B.1355}
+\]
+
+Thus the requested raw fact is proved from arbitrary original smooth data:
+before clipping, the pressure-Hodge/material residue has a same-parent
+zero-mass atom coupling, finite coefficient/leakage control, and retained
+opposite-lobe depletion by a bounded-below parent reserve.
+
+The only place where this raw construction stops being the whole story is the
+selected-critical weight.  With \(W_P^{crit}=e^{b_P}\),
+
+\[
+W_P^{crit}(x)\omega_P(x)d\Pi_P(x,y)
+\le
+W_P^{crit}(y)\omega_P(x)d\Pi_P(x,y)
++
+W_P^{crit}(y)\omega_P(x)
+\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)d\Pi_P(x,y).
+\tag{TFE2748B.1356}
+\]
+
+The first term is still the retained opposite lobe and is paid by the same
+reserve construction.  The second term is not another atom-attachment problem:
+it is the continuous positive variation of the parent log-meter along the same
+exchange path.  Indeed, for each retained atom path \(\gamma_{xy}\),
+
+\[
+W_P^{crit}(y)
+\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)
+\le
+\int_{\gamma_{xy}}W_P^{crit}(s)\,d[b_P]_+(s),
+\tag{TFE2748B.1357}
+\]
+
+so the weighted defect is exactly the parent Stieltjes variation
+\(d\mathcal V_P^{crit}\) of `(TFE2748B.1162)'.
+
+Consequently the downstream chain is fixed:
+
+\[
+\begin{gathered}
+\text{raw atom coupling and retained-lobe reserve}\\
++\ 
+\texttt{ParentLogMeterVariationStorage.A `(TFE2748B.1166)'}\\
+\Longrightarrow
+\texttt{selected-critical atom storage `(TFE2748B.1167)'} .
+\end{gathered}
+\tag{TFE2748B.1358}
+\]
+
+And Section 131 identifies the same log-meter variation with the active
+potential/capacity trace:
+
+\[
+d\mathcal V_P^{crit}
+\le
+C_NU_P^2\,d\mathfrak v_P^{crit}
+dE_P^0.
+\tag{TFE2748B.1359}
+\]
+
+Thus the raw signed atom problem is closed, and the exact remaining
+selected-critical source is the finite capacitary excess / Kato--Maz'ya
+compensator line:
+
+\[
+\texttt{FiniteCapacitaryExcess.A `(TFE2748B.985)'}
+\quad\text{equivalently}\quad
+\texttt{the form compensator `(TFE2748B.1343)'}.
+\tag{TFE2748B.1360}
+\]
+
+This is precisely where the original coupled packet must still supply
+arbitrary-data control: the positive log-meter/full-exchange variation must be
+spent as bounded-below parent capacity reserve plus a strictly subunit
+parabolic residual before any selected child readout is counted.
