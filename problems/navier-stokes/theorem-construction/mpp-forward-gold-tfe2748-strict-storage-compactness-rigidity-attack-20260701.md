@@ -17239,7 +17239,7 @@ theorem.  In the current notation it is the transport measure
 dJ_P^0(dt,dx)
 =
 \int_{X_P}(\delta_x-\delta_y)\,d\Pi_P(dt,dx,dy)
-dR_P(dt,dx),
++dR_P(dt,dx),
 \qquad
 \Pi_P([0,\tau]\times X_P\times X_P)+|(dR_P)_+|
 \le B_P^{atom}(\tau),
@@ -17264,6 +17264,135 @@ with \(-dM_{P,\omega}^{atom}=dJ_{P,\omega}^{ret,-}\) on the retained atom
 ledger.  This proves the unweighted atomic decomposition, coefficient/leakage
 control, and bounded-below raw parent reserve depletion from arbitrary original
 smooth data.
+
+Gold uses the same atom ledger with the critical meter
+\(W_P^{crit}=e^{b_P}\) already pulled back into the parent frame.  The exact
+weighted atom identity is
+
+\[
+W_P^{crit}(x)\omega_P(x)d\Pi_P(x,y)
+\le
+W_P^{crit}(y)\omega_P(x)d\Pi_P(x,y)
++
+W_P^{crit}(y)\omega_P(x)
+\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)d\Pi_P(x,y).
+\tag{TFE2748B.1125}
+\]
+
+The first term is still a retained opposite-lobe reserve, now in selected
+critical currency.  It has the same bounded-below form once its total weighted
+mass is parent-finite:
+
+\[
+dJ_{P,W}^{ret,-}
+:=
+(\operatorname{time},\mathrm{pr}_2)_\#
+\bigl(W_P^{crit}(y)\omega_P(x)d\Pi_P(x,y)\bigr),
+\qquad
+M_{P,W}^{atom}(s)
+:=B_{P,W}^{atom}(\tau)-dJ_{P,W}^{ret,-}([0,s]\times X_P),
+\tag{TFE2748B.1126}
+\]
+
+where
+
+\[
+B_{P,W}^{atom}(\tau)
+:=
+\int_{[0,\tau]\times X_P\times X_P}
+W_P^{crit}(y)\omega_P(x)d\Pi_P(t,x,y).
+\tag{TFE2748B.1127}
+\]
+
+Thus the raw atom theorem does not fail when the critical meter is inserted.
+The only new demand is proving \(B_{P,W}^{atom}\) and the log-meter defect in
+`(TFE2748B.1125)' are finite in original parent currency before child positive
+clipping.
+
+Sections 103--107 identify that weighted demand exactly.  The positive-baseline
+part of \(b_P(x)-b_P(y)\) is the log-ratio carrier and bounded root-generator
+projection `(TFE2748B.909)'--`(TFE2748B.932)'.  The zero-baseline part is the
+endpoint heat-lag first-entry admission `(TFE2748B.945)'--`(TFE2748B.953)'.
+After those two admissions, the remaining weighted atom bill is the active
+potential trace
+
+\[
+U_P^2\,d\mathfrak v_P^{crit}
+=dQ_P^{meter}+[d\mathcal C_P^{crit}]_+,
+\tag{TFE2748B.1128}
+\]
+
+and the exact capacitary split of Sections 107--109 is
+
+\[
+U_P^2\,d\mathfrak v_P^{crit}
+=
+-dM_{P,\tau}^{cap}
++U_P^2\,d\mathfrak v_P^{res},
+\qquad
+\mathfrak v_P^{res}(K)
+\le
+\vartheta\,\operatorname{Cap}_{A,P}(K)+E_P^0(K),
+\quad C_N\vartheta<1,
+\tag{TFE2748B.1129}
+\]
+
+provided the finite excess estimate holds:
+
+\[
+\sup_{\tau<T_*}
+\int_{[0,\tau]\times X_P}U_P^2\,d\mathfrak v_P^{exc}
+\le
+C_N(u_0)+Paid_P+Legal_P+Stop_P.
+\tag{TFE2748B.1130}
+\]
+
+Combining `(TFE2748B.1125)'--`(TFE2748B.1130)' gives the selected-critical
+retained-lobe storage line:
+
+\[
+dA_{P,crit}^{atom,+}
+\le
+-d\bigl(M_{P,W}^{atom}+M_{P,\tau}^{cap}\bigr)
++\vartheta\,d\Omega_P^{gen}
++dE_P^0,
+\qquad C_N\vartheta<1,
+\tag{TFE2748B.1131}
+\]
+
+after the already separated route, return, endpoint, legal, stop, and paid
+collar terms are included in \(dE_P^0\).  This is the atom-ledger form of the
+critical capacity variation/storage inequality.
+
+Conversely, once `(TFE2748B.1123)'--`(TFE2748B.1124)' are installed, any
+failure of the selected-critical atom reserve cannot be another pressure atom
+or a child recount.  It must make either the weighted retained mass
+`(TFE2748B.1127)' or the log-meter defect in `(TFE2748B.1125)' infinite in
+parent currency.  By the capacitary decomposition `(TFE2748B.1128)'--
+`(TFE2748B.1130)', that is exactly a nonzero super-capacitary excess
+\(d\mathfrak v_P^{exc}\), equivalently the obstacle-dual residual-tail pricing
+failure isolated in `(TFE2748B.990)'--`(TFE2748B.995)'.
+
+So the atomic request is closed at the raw level and precisely located at the
+Gold level:
+
+\[
+\boxed{
+\texttt{finite weighted excess / obstacle-tail pricing `(TFE2748B.1130)'}
+\Longrightarrow
+\texttt{selected-critical same-parent atom reserve `(TFE2748B.1131)'}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A.}
+}
+\tag{TFE2748B.1132}
+\]
+
+The remaining arbitrary-data theorem is therefore not construction of the
+atoms.  It is proving `(TFE2748B.1130)' from the original coupled packet before
+clipping, equivalently proving the obstacle-tail pricing/no-subunit-mode
+statement for the same parent active potential.  Without that finite-excess
+estimate, the repo has the exact raw atomic decomposition and the exact
+weighted reduction, not Gold closure.
 
 ## 128. Finite weighted excess is the full-exchange no-profit face
 
@@ -17432,132 +17561,3 @@ survives the rigidity test.  Both are precisely the two faces of
 `(TFE2748B.1122)'.  There is no further unconstructed same-parent pressure atom
 left after route, legal, stop, entry, return, endpoint, and paid leakage are
 removed.
-
-Gold uses the same atom ledger with the critical meter
-\(W_P^{crit}=e^{b_P}\) already pulled back into the parent frame.  The exact
-weighted atom identity is
-
-\[
-W_P^{crit}(x)\omega_P(x)d\Pi_P(x,y)
-\le
-W_P^{crit}(y)\omega_P(x)d\Pi_P(x,y)
-+
-W_P^{crit}(y)\omega_P(x)
-\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)d\Pi_P(x,y).
-\tag{TFE2748B.1125}
-\]
-
-The first term is still a retained opposite-lobe reserve, now in selected
-critical currency.  It has the same bounded-below form once its total weighted
-mass is parent-finite:
-
-\[
-dJ_{P,W}^{ret,-}
-:=
-(\operatorname{time},\mathrm{pr}_2)_\#
-\bigl(W_P^{crit}(y)\omega_P(x)d\Pi_P(x,y)\bigr),
-\qquad
-M_{P,W}^{atom}(s)
-:=B_{P,W}^{atom}(\tau)-dJ_{P,W}^{ret,-}([0,s]\times X_P),
-\tag{TFE2748B.1126}
-\]
-
-where
-
-\[
-B_{P,W}^{atom}(\tau)
-:=
-\int_{[0,\tau]\times X_P\times X_P}
-W_P^{crit}(y)\omega_P(x)d\Pi_P(t,x,y).
-\tag{TFE2748B.1127}
-\]
-
-Thus the raw atom theorem does not fail when the critical meter is inserted.
-The only new demand is proving \(B_{P,W}^{atom}\) and the log-meter defect in
-`(TFE2748B.1125)' are finite in original parent currency before child positive
-clipping.
-
-Sections 103--107 identify that weighted demand exactly.  The positive-baseline
-part of \(b_P(x)-b_P(y)\) is the log-ratio carrier and bounded root-generator
-projection `(TFE2748B.909)'--`(TFE2748B.932)'.  The zero-baseline part is the
-endpoint heat-lag first-entry admission `(TFE2748B.945)'--`(TFE2748B.953)'.
-After those two admissions, the remaining weighted atom bill is the active
-potential trace
-
-\[
-U_P^2\,d\mathfrak v_P^{crit}
-=dQ_P^{meter}+[d\mathcal C_P^{crit}]_+,
-\tag{TFE2748B.1128}
-\]
-
-and the exact capacitary split of Sections 107--109 is
-
-\[
-U_P^2\,d\mathfrak v_P^{crit}
-=
--dM_{P,\tau}^{cap}
-+U_P^2\,d\mathfrak v_P^{res},
-\qquad
-\mathfrak v_P^{res}(K)
-\le
-\vartheta\,\operatorname{Cap}_{A,P}(K)+E_P^0(K),
-\quad C_N\vartheta<1,
-\tag{TFE2748B.1129}
-\]
-
-provided the finite excess estimate holds:
-
-\[
-\sup_{\tau<T_*}
-\int_{[0,\tau]\times X_P}U_P^2\,d\mathfrak v_P^{exc}
-\le
-C_N(u_0)+Paid_P+Legal_P+Stop_P.
-\tag{TFE2748B.1130}
-\]
-
-Combining `(TFE2748B.1125)'--`(TFE2748B.1130)' gives the selected-critical
-retained-lobe storage line:
-
-\[
-dA_{P,crit}^{atom,+}
-\le
--d\bigl(M_{P,W}^{atom}+M_{P,\tau}^{cap}\bigr)
-+\vartheta\,d\Omega_P^{gen}
-+dE_P^0,
-\qquad C_N\vartheta<1,
-\tag{TFE2748B.1131}
-\]
-
-after the already separated route, return, endpoint, legal, stop, and paid
-collar terms are included in \(dE_P^0\).  This is the atom-ledger form of the
-critical capacity variation/storage inequality.
-
-Conversely, once `(TFE2748B.1123)'--`(TFE2748B.1124)' are installed, any
-failure of the selected-critical atom reserve cannot be another pressure atom
-or a child recount.  It must make either the weighted retained mass
-`(TFE2748B.1127)' or the log-meter defect in `(TFE2748B.1125)' infinite in
-parent currency.  By the capacitary decomposition `(TFE2748B.1128)'--
-`(TFE2748B.1130)', that is exactly a nonzero super-capacitary excess
-\(d\mathfrak v_P^{exc}\), equivalently the obstacle-dual residual-tail pricing
-failure isolated in `(TFE2748B.990)'--`(TFE2748B.995)'.
-
-So the atomic request is closed at the raw level and precisely located at the
-Gold level:
-
-\[
-\boxed{
-\texttt{finite weighted excess / obstacle-tail pricing `(TFE2748B.1130)'}
-\Longrightarrow
-\texttt{selected-critical same-parent atom reserve `(TFE2748B.1131)'}
-\Longrightarrow
-\texttt{CriticalCapacityVariationStorage.A.}
-}
-\tag{TFE2748B.1132}
-\]
-
-The remaining arbitrary-data theorem is therefore not construction of the
-atoms.  It is proving `(TFE2748B.1130)' from the original coupled packet before
-clipping, equivalently proving the obstacle-tail pricing/no-subunit-mode
-statement for the same parent active potential.  Without that finite-excess
-estimate, the repo has the exact raw atomic decomposition and the exact
-weighted reduction, not Gold closure.
