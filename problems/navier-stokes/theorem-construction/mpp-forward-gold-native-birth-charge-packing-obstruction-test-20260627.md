@@ -25,11 +25,11 @@ source_surfaces:
 
 # Native birth charge-packing obstruction test
 
-The better Gold target is no longer the whole stopped clock stated as one
-global estimate.  The checked reductions have narrowed it to a discrete
-charge-packing question: when a retained selected high-ratio birth appears,
-does the original material history create a native reserve atom that can be
-spent only a bounded number of times?
+Current July 2 custody: this note is historical support, not the live Gold
+producer.  Its birth labels and charge assignments are a finite-overlap
+simple-measure projection of the continuous same-parent parent-storage problem:
+the original material packet comes first, and selected birth atoms are only
+bookkeeping coordinates after that packet and coupling have been stated.
 
 The reduction chain is:
 
@@ -41,9 +41,10 @@ StoppedVisibleSilentExchangeCompensatorRootReserve.A
 <= NativeBirthChargePacking.A.
 ```
 
-This is useful only because `NativeBirthChargePacking.A` is not another name
-for the full clock.  Its object is a map from selected birth atoms into finite
-original-history reserve atoms.
+This is useful only as a typed projection because `NativeBirthChargePacking.A`
+is not another name for the full clock.  Its displayed map sends selected birth
+labels into finite original-history reserve charges; it does not make physical
+atoms or atom width the source object.
 
 ## 1. What has already been paid
 
@@ -84,13 +85,15 @@ selector/order-lock births,
 and births already paid by full exchange.
 ```
 
-The needed theorem is a finite original-history charge assignment:
+The support theorem is a finite-overlap original-history charge assignment:
 
 ```text
 NativeBirthChargePacking.A
 ```
 
-There must be a native reserve family
+The sums below are simple-measure/atomic-norm bookkeeping over a retained
+finite-overlap partition, not a physical child count.  There must be a native
+reserve family
 \(\mathcal R_N^{nat}(u_0;P)\), built from original-history Hodge/projector
 motion, annular stress, strain-frame compression, Schur normal
 pressure-collar defect, vis/rad loss, and finite-depth entrance, together with
