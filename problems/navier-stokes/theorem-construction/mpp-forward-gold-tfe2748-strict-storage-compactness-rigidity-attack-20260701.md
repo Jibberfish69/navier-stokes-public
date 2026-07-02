@@ -2899,19 +2899,23 @@ and charging any atom boundary leakage to \(dR_P\), the positive residue obeys
 
 \[
 (dJ_P)_+
-\le
+\preceq_{atom}
 dJ_P^{ret,-}+(dR_P)_+,
 \qquad
 dJ_P^{ret,-}:=\sum_\alpha \nu_\alpha^-.
 \tag{TFE2748B.182}
 \]
 
-This is the exact signed attachment fact.  The child cannot count the positive
-lobe of a pressure-Hodge/material atom without the same stopped parent packet
-also containing the opposite lobe, unless the opposite lobe has left through a
-paid collar, route, legal, or stop channel.
+This is the exact signed attachment fact on the same-parent atom ledger.  It is
+not a pointwise inequality on \(X_P\): for a zero-mean atom
+\(\delta_x-\delta_y\), the positive lobe is at \(x\) and the retained opposite
+lobe is at \(y\).  The comparison is the paired transport comparison saying the
+child cannot count the positive lobe of a pressure-Hodge/material atom without
+the same stopped parent packet also containing the opposite lobe, unless the
+opposite lobe has left through a paid collar, route, legal, or stop channel.
 
-Consequently the selected critical spent measure satisfies
+Consequently, after lifting the selected positive bill to this same atom
+ledger, the selected critical spent measure satisfies
 
 \[
 dE_P^{crit}
@@ -6466,12 +6470,16 @@ Thus the selected positive lobe is attached to an opposite same-parent lobe:
 
 \[
 (dJ_P)_+
-\le
+\preceq_{atom}
 dJ_P^{ret,-}+(dR_P)_+,
 \qquad
 dJ_P^{ret,-}:=\sum_\alpha \nu_\alpha^- .
 \tag{TFE2748B.407}
 \]
+
+The comparison in `(TFE2748B.407)' is a same-parent atom-ledger comparison, not
+a pointwise measure domination on \(X_P\).  The retained lobe is paired to the
+positive lobe by the transport coupling of `(TFE2748B.402)'.
 
 Define the raw parent reserve by
 
@@ -7554,12 +7562,16 @@ an opposite same-parent lobe, with only paid leakage left unpaired:
 
 \[
 (dJ_P)_+
-\le
+\preceq_{atom}
 dJ_P^{ret,-}+(dR_P)_+,
 \qquad
 dJ_P^{ret,-}:=\sum_\alpha \nu_\alpha^- .
 \tag{TFE2748B.479}
 \]
+
+Again \(\preceq_{atom}\) is the paired comparison on the same-parent atom
+ledger produced by `(TFE2748B.474)'--`(TFE2748B.475)'; it is not a pointwise
+comparison of the first and second marginals on \(X_P\).
 
 Define the raw parent reserve
 
