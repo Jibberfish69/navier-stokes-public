@@ -25,7 +25,7 @@ SURFACE_APPENDIX = BUNDLE_ROOT.join("surface-derivation-appendix.tex")
 SURFACE_INVENTORY = BUNDLE_ROOT.join("surface-derivation-inventory.yaml")
 SOURCE_FIELD_APPENDIX = BUNDLE_ROOT.join("source-field-reader-appendix.tex")
 EXPORT_STATUS = BUNDLE_ROOT.join("submission-export-status.yaml")
-CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702 = "Export artifacts exist, but they are not submission-ready theorem authority. The current Gold L1 source wall is the noncircular same-parent coupled active-capacity/full-exchange storage theorem; the paper/export route remains conditional until that parent-storage object is proved and regenerated into the bundle.".freeze
+CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702 = "Export artifacts exist, but they are not submission-ready theorem authority. The current Gold L1 source wall is the signed critical-height sign-persistence or peak-height theorem; the paper/export route remains conditional until that parent-storage object is proved and regenerated into the bundle.".freeze
 CODEX_MAIN_TEX = ROOT.join("papers/navier-stokes/manuscript/generated/main.tex")
 CODEX_EXTRA_TEX_INPUTS = [
   ROOT.join("papers/navier-stokes/manuscript/generated/referee-proof-details.tex"),
@@ -388,9 +388,9 @@ def sync_submission_export_status!
       "pdf_render_status" => readiness["pdf_render_status"],
       "submission_ready" => ready,
       "submission_posture" => "blocked",
-      "readiness_status" => "blocked-by-gold-l1-coupled-storage-wall",
-      "readiness_blocker" => "Gold L1 remains open at the noncircular same-parent coupled active-capacity/full-exchange storage theorem.",
-      "readiness_note" => "PDF rendering is tracked separately from submission readiness; both required Navier-Stokes PDF tracks can be rendered while the Gold L1 coupled-storage theorem remains open.",
+      "readiness_status" => "blocked-by-gold-l1-signed-height-sign-persistence-wall",
+      "readiness_blocker" => "Gold L1 remains open at the signed critical-height sign-persistence or peak-height theorem.",
+      "readiness_note" => "PDF rendering is tracked separately from submission readiness; both required Navier-Stokes PDF tracks can be rendered while the Gold L1 signed-height theorem remains open.",
       "readiness_evidence" => readiness_evidence
     )
   )
