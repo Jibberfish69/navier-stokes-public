@@ -25,7 +25,7 @@ SURFACE_APPENDIX = BUNDLE_ROOT.join("surface-derivation-appendix.tex")
 SURFACE_INVENTORY = BUNDLE_ROOT.join("surface-derivation-inventory.yaml")
 SOURCE_FIELD_APPENDIX = BUNDLE_ROOT.join("source-field-reader-appendix.tex")
 EXPORT_STATUS = BUNDLE_ROOT.join("submission-export-status.yaml")
-CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702 = "Export artifacts exist, but they are not submission-ready theorem authority. The current Gold L1 source wall is the signed critical-height sign-persistence or peak-height theorem; the paper/export route remains conditional until that parent-storage object is proved and regenerated into the bundle.".freeze
+CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702 = "Export artifacts exist, but they are not submission-ready theorem authority. Gold L1 signed critical-height sign-persistence / peak-height theorem remains open; the paper/export route remains conditional until that signed-height object is proved and regenerated into the bundle.".freeze
 CODEX_MAIN_TEX = ROOT.join("papers/navier-stokes/manuscript/generated/main.tex")
 CODEX_EXTRA_TEX_INPUTS = [
   ROOT.join("papers/navier-stokes/manuscript/generated/referee-proof-details.tex"),
