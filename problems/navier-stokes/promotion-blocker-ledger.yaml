@@ -47,7 +47,7 @@ source_reads:
     path: problems/navier-stokes/assumption-ledger.yaml
     status: local-theorem-program-closed
 promotion_packet_blockers:
-- TFE2748B / OriginalCriticalCapacityVariation.A open for Gold L1 source theorem
+- SignedCriticalHeightSignPersistenceOrPeakBound.A open for Gold L1 source theorem
 proof_obligation_blockers: []
 branch_terminal_blockers: []
 resolved_blockers:

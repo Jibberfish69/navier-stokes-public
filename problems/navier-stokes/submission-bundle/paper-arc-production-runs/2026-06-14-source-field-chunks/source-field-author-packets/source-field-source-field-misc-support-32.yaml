@@ -50,7 +50,7 @@ chunk:
     text: |+
       \subsection{Manuscript-Grade Periodic Theorem Sequence: Final Order}
 
-      Conditional on the noncircular same-parent coupled active-capacity/full-exchange storage theorem, smooth divergence-free zero-mean data on T 3 have the periodic continuation consequence.
+      Conditional on the signed critical-height sign-persistence / peak-height theorem, smooth divergence-free zero-mean data on T 3 have the periodic continuation consequence.
 
       The high-frequency cascade is controlled on every finite classical interval. The proof splits the nonlinear transfer into low-mode, threshold-spill, and high-high packets; absorbs the high-high packet by the enstrophy half-tail; and applies the fixed-threshold scheduler.
 
@@ -391,7 +391,7 @@ chunk:
   context_excerpt: |+
     \subsection{Manuscript-Grade Periodic Theorem Sequence: Final Order}
 
-    Conditional on the noncircular same-parent coupled active-capacity/full-exchange storage theorem, smooth divergence-free zero-mean data on T 3 have the periodic continuation consequence.
+    Conditional on the signed critical-height sign-persistence / peak-height theorem, smooth divergence-free zero-mean data on T 3 have the periodic continuation consequence.
 
     The high-frequency cascade is controlled on every finite classical interval. The proof splits the nonlinear transfer into low-mode, threshold-spill, and high-high packets; absorbs the high-high packet by the enstrophy half-tail; and applies the fixed-threshold scheduler.
 
