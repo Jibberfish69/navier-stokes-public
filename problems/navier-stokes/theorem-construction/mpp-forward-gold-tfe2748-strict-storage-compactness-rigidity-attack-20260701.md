@@ -12615,3 +12615,145 @@ producer is the original-history amplification-current Carleson/storage theorem.
 The finite Carleson package `(TFE2748B.547)' is support for this statement; the
 strict storage and root-reserve clauses `(TFE2748B.811)'--`(TFE2748B.812)' are
 the still-unproved original-data supply.
+
+## 93. The selected endpoint lower-admission branch is a partition theorem
+
+Section 92 names the strict storage needed for the amplification-current record.
+Sections 86--89 already identify the nonduplicate source faces underneath it:
+selected endpoint lower admission and the tail material-record payment line.
+The first of these is a custody theorem, not a new analytic source.
+
+Work in the stopped parent chart before child positive clipping.  The selected
+endpoint subledger in `(TFE2748B.770)' is the part of the endpoint-admitted
+full-exchange ledger tested by the selected critical meter:
+
+\[
+d\Xi_P^{FE,\ast,sel}
+=
+d\Xi_P^{align}
++d\Xi_P^{relay}
++d\Xi_P^{paid}.
+\tag{TFE2748B.814}
+\]
+
+Here \(d\Xi_P^{align}\) is the Radon--Nikodym projection of the full coupled
+Hodge-Stokes current onto the selected active-gradient direction; \(d\Xi_P^{relay}\)
+is the part where that projection is not yet represented on a stabilized
+retained carrier; and \(d\Xi_P^{paid}\) is route, collar, endpoint-chart,
+selector, legal, stop, and reselection material.  This split is made before the
+positive part is clipped, using the parent detector and the same stopped
+material coordinates as `(TFE2748B.756)'--`(TFE2748B.758)'.
+
+By the definition of the aligned projection and the kernel exhaustion of
+Section 44,
+
+\[
+d\Xi_P^{align}
+\le
+C_N\,dQ_P^{cur}
+d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.815}
+\]
+
+The remaining selected endpoint mass is exactly the finite-window relay
+defect, saturation/return defect, endpoint jump defect, legal/collar defect, or
+material-record/tower-rung escape isolated in Sections 74--77:
+
+\[
+d\Xi_P^{relay}
+\le
+C_N\bigl(
+\mathcal R_{\rm sel}
++\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm legal}
++\mathcal R_{\rm geom}^{tail}
+\bigr)
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.816}
+\]
+
+Equations `(TFE2748B.814)'--`(TFE2748B.816)' prove the corrected selected
+endpoint lower-admission line:
+
+\[
+\boxed{
+d\Xi_P^{FE,\ast,sel}
+\le
+C_N\bigl(dQ_P^{cur}
++\mathcal R_{\rm sel}
++\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm legal}
++\mathcal R_{\rm geom}^{tail}\bigr)
++d\Theta_P^0+dPaid_P+dStop_P .
+}
+\tag{TFE2748B.817}
+\]
+
+Thus `SelectedEndpointLowerAdmission.A `(TFE2748B.771)' is proved from the
+parent split itself.  It does not spend the source; it only says every selected
+endpoint entry is already the aligned current, a named relay/material-record
+residue, or paid material in the original parent packet.
+
+With `(TFE2748B.817)', the corrected implication `(TFE2748B.782)' reduces to
+one remaining original-data payment line:
+
+\[
+\boxed{
+\texttt{TailMaterialRecordPayment.A `(TFE2748B.760)'}
+\Longrightarrow
+\texttt{`(TFE2748B.749)' + `(TFE2748B.754)'.}
+}
+\tag{TFE2748B.818}
+\]
+
+The rest of the storage chain is already deterministic.  Sections 86--87 give
+
+\[
+\texttt{`(TFE2748B.749)' + `(TFE2748B.754)'}
+\Longrightarrow
+\texttt{early source storage `(TFE2748B.730)'},
+\tag{TFE2748B.819}
+\]
+
+Section 84 gives
+
+\[
+\texttt{retained-loop contraction `(TFE2748B.728)'}
++\texttt{early source storage `(TFE2748B.730)'}
+\Longrightarrow
+\texttt{full-exchange storage `(TFE2748B.715)'},
+\tag{TFE2748B.820}
+\]
+
+and Sections 83 and 91--92 give
+
+\[
+\texttt{full-exchange storage `(TFE2748B.715)'}
+\Longrightarrow
+\texttt{OriginalHistorySelectedAmplificationCurrentCarlesonStorage.A
+`(TFE2748B.811)'--`(TFE2748B.812)'}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A `(TFE2748B.801)'.}
+\tag{TFE2748B.821}
+\]
+
+Therefore the active source theorem has been lowered again without changing
+the coupled packet:
+
+\[
+\boxed{
+\texttt{TailMaterialRecordPayment.A `(TFE2748B.760)'}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A.}
+}
+\tag{TFE2748B.822}
+\]
+
+What remains unproved from arbitrary original smooth data is exactly
+`TailMaterialRecordPayment.A': the selector, saturation/return, endpoint jump,
+legal/collar, and material-record/tower-rung residues in `(TFE2748B.760)' must
+be paid by \(d\Theta^0+dPaid+dStop+2^{-N}D_Ndt\) before the selected child
+readout is counted.  The selected endpoint lower-admission branch is no longer
+a separate source wall.
