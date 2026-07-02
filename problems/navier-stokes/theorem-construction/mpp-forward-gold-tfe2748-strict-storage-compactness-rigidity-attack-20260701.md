@@ -18484,3 +18484,164 @@ all: it is the singular endpoint-seed/native-birth packing problem.  Proving
 `(TFE2748B.1202)' together with stopped full-exchange/root-generator storage
 proves `CriticalParentCapacityPacking.A', hence \(\mathsf G_P^{EA}\), hence
 `CriticalCapacityVariationStorage.A'.
+
+## 135. Endpoint seed and root storage consume the active-transit source
+
+Section 134 separates the positive-baseline log branch from the zero-baseline
+endpoint-seed branch.  The zero-baseline branch is not a separate physical
+supplier.  It is the first-entry face of the same active-transit/full-exchange
+ledger that also controls the stopped root-generator clock.
+
+The local active-transit source is the following same-parent differential
+inequality.  There is a storage \(\mathscr S_P^{AT}\), constructed before child
+positive clipping and bounded below from original data, such that
+
+\[
+\begin{aligned}
+d\mathscr S_P^{AT}
+&+
+c_E\,d\mu_P^{Ent}
++c_A\,dA_{4B,N}^{tower,+}
++c_J\,d\mathcal J_N
+\\
+&\le
+C_N\,d\Xi_P^{FE}
++d\Theta_P^0
++\theta_A\,d\Omega_P^{gen}
++dPaid_P ,
+\end{aligned}
+\tag{TFE2748B.1205}
+\]
+
+where \(d\mu_P^{Ent}\) is endpoint/left-entry inherited material,
+\(dA_{4B,N}^{tower,+}\) is the oriented tower/pressure-Hodge/commutator positive
+face, and \(d\mathcal J_N\) is the selected low-high first-ratio transit
+measure, all pulled back to the stopped parent packet before clipping.
+
+Combine `(TFE2748B.1205)' with the strict full-exchange no-self-feeding storage
+
+\[
+d\Xi_P^{FE}
+\le
+-dM_P^{FE}
++d\Theta_P^0
++\vartheta\,d\Omega_P^{gen}
++dPaid_P,
+\qquad
+C_N\vartheta<1,
+\tag{TFE2748B.1206}
+\]
+
+and the generator domination
+
+\[
+d\Omega_P^{gen}
+\le
+C_N\,d\Xi_P^{FE}+dPaid_P.
+\tag{TFE2748B.1207}
+\]
+
+After absorption, integration over stopped \(P'\), and the lower bounds for
+\(\mathscr S_P^{AT}\) and \(M_P^{FE}\), this gives the active-transit bracket
+
+\[
+\mu_P^{Ent}(P')
++\int_{P'}dA_{4B,N}^{tower,+}
++\int_{P'}d\mathcal J_N
++\int_{P'}d\Omega_P^{gen}
+\le
+C_N(u_0)\mathcal R(P')+Paid(P').
+\tag{TFE2748B.1208}
+\]
+
+This bracket is exactly the original-parent source needed by Section 134.  The
+endpoint seed satisfies
+
+\[
+\int_{P'}d\mathcal E_P^{EP}
+\le
+C_N\left[
+\mu_P^{Ent}(P')
++\int_{P'}dA_{4B,N}^{tower,+}
++\int_{P'}d\mathcal J_N
+\right]+Paid(P'),
+\tag{TFE2748B.1209}
+\]
+
+while the stopped root-generator Carleson storage is the last term in
+`(TFE2748B.1208)'.  Hence
+
+\[
+\texttt{ActiveTransitLocalStorage.A `(TFE2748B.1205)'}
++
+\texttt{FullExchangeNoSelfFeedingStorage.A `(TFE2748B.1206)'--`(TFE2748B.1207)'}
+\Longrightarrow
+\texttt{EndpointSeedCriticalPacking.A}
++
+\texttt{StoppedRootGeneratorCarlesonStorage.A}.
+\tag{TFE2748B.1210}
+\]
+
+The active-transit inequality itself has three typed faces, not three
+independent fluids:
+
+\[
+\begin{array}{ll}
+\text{endpoint face:}&
+d\mathscr S_P^E+c_Ed\mu_P^{Ent}
+\le C_Nd\Theta_P^0+dPaid_P,\\[1mm]
+\text{tower face:}&
+d\mathscr S_P^A+c_AdA_{4B,N}^{tower,+}
+\le C_Nd\Xi_P^{FE}+\theta_A^Ad\Omega_P^{gen}+dPaid_P,\\[1mm]
+\text{low-high face:}&
+d\mathscr S_P^J+c_Jd\mathcal J_N
+\le C_Nd\Xi_P^{FE}+\theta_A^Jd\Omega_P^{gen}+dPaid_P .
+\end{array}
+\tag{TFE2748B.1211}
+\]
+
+Adding the three storages gives `(TFE2748B.1205)'.  The endpoint face is
+time-thick endpoint domination in the parent generator clock.  The tower face is
+signed-partner orientation of the pressure-Hodge/commutator/tower lobe.  The
+low-high face is parent-known first-ratio detector domination.  Therefore
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{EndpointTimeThickDomination.A}\\
++\texttt{TowerSignedPartnerStorage.A}\\
++\texttt{LowHighFirstRatioParentDetectorDomination.A}\\
++\texttt{FullExchangeNoSelfFeedingStorage.A}
+\end{array}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.
+}
+\tag{TFE2748B.1212}
+\]
+
+Conversely, after all consumers already installed in Sections 129--134 are
+removed, a failure of the critical storage line must break one of these same
+parent faces:
+
+\[
+\boxed{
+\neg\texttt{CriticalCapacityVariationStorage.A}
+\Longrightarrow
+\neg\texttt{EndpointTimeThickDomination.A}
+\vee
+\neg\texttt{TowerSignedPartnerStorage.A}
+\vee
+\neg\texttt{LowHighFirstRatioParentDetectorDomination.A}
+\vee
+\neg\texttt{FullExchangeNoSelfFeedingStorage.A}.
+}
+\tag{TFE2748B.1213}
+\]
+
+This is the current coupled participation form of the source theorem.  Endpoint
+seed, tower action, low-high first-ratio transit, and generator storage are four
+coordinates of the same original pressure-Hodge/viscous-Stokes/self-advection/
+incompressibility packet.  Proving the four face inequalities in
+`(TFE2748B.1212)' from arbitrary original smooth data proves the endpoint-seed
+packing and stopped root storage of Section 134, hence the critical capacity
+variation/storage line.
