@@ -14974,20 +14974,23 @@ and, in weak form,
 
 for every parent-announced test \(\phi\).
 
-Multiplying the mode by the entropy variable \(U_P\) identifies the physical
-meaning of the failure.  Since \(U_P^2\,d\mathfrak v_P^{res}\) is the residual
-positive selected log-meter bill after the parent reserve drop, `(TFE2748B.973)'
-says that the same stopped packet carries a positive selected reaction whose
-weighted gain exceeds the viscous/Stokes capacity allowed to read it:
+The mode \(h_P\) is itself the parent capacity test; it should not be promoted
+to a product test \(h_PU_P\) without paying the product-rule terms.  The exact
+meaning of `(TFE2748B.973)' is the positive Rayleigh defect
 
 \[
-\int h_P^2
-\bigl(dQ_P^{meter}+[d\mathcal C_P^{crit}]_+ + dM_P^{cap}-dE_P^0\bigr)
->
-\vartheta\int|\nabla_A(h_PU_P)|^2\,d\mathfrak m_P
-\quad\text{mod paid commutators.}
+\int h_P^2\,d\mathfrak v_P^{res}
+-\vartheta\int|\nabla_Ah_P|^2\,d\mathfrak m_P
+-dE_P^0(P';h_P)
+=1-\lambda_P^{res}>0 .
 \tag{TFE2748B.975}
 \]
+
+The entropy variable \(U_P\) enters later through the already fixed trace
+identity `(TFE2748B.961)' and the test \(\zeta=U_P\) in `(TFE2748B.963)'.  Any
+localized product comparison uses
+\(\nabla_A(h_PU_P)=h_P\nabla_AU_P+U_P\nabla_Ah_P\) and routes the cross face
+through \(dI_P\), \(dE_P^0\), or a paid commutator ledger before it is counted.
 
 Consequently `ParentActivePotentialCapacityDomination.A' can be attacked by the
 following equivalent no-mode statement:
