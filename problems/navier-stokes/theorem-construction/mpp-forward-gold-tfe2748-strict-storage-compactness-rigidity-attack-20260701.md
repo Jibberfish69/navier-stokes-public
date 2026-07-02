@@ -17238,7 +17238,8 @@ theorem.  In the current notation it is the transport measure
 \[
 dJ_P^0(dt,dx)
 =
-\int_{X_P}(\delta_x-\delta_y)\,d\Pi_P(dt,dx,dy),
+\int_{X_P}(\delta_x-\delta_y)\,d\Pi_P(dt,dx,dy)
+dR_P(dt,dx),
 \qquad
 \Pi_P([0,\tau]\times X_P\times X_P)+|(dR_P)_+|
 \le B_P^{atom}(\tau),
@@ -17263,6 +17264,174 @@ with \(-dM_{P,\omega}^{atom}=dJ_{P,\omega}^{ret,-}\) on the retained atom
 ledger.  This proves the unweighted atomic decomposition, coefficient/leakage
 control, and bounded-below raw parent reserve depletion from arbitrary original
 smooth data.
+
+## 128. Finite weighted excess is the full-exchange no-profit face
+
+The last line of Section 127 should not be read as a new source theorem
+separate from Sections 123--126.  The finite weighted-excess estimate
+`(TFE2748B.1130)' is the atom-ledger coordinate of the same full-exchange
+no-profit storage isolated earlier.
+
+Write
+
+\[
+\mathcal E_{P,W}^{exc}(\tau)
+:=
+\int_{[0,\tau]\times X_P}U_P^2\,d\mathfrak v_P^{exc}.
+\tag{TFE2748B.1133}
+\]
+
+Then `(TFE2748B.1130)' is exactly the assertion
+
+\[
+\sup_{\tau<T_*}\mathcal E_{P,W}^{exc}(\tau)
+\le C_N(u_0)+Paid_P+Legal_P+Stop_P .
+\tag{TFE2748B.1134}
+\]
+
+Sections 109--112 identify `(TFE2748B.1134)' with
+`FiniteCapacitaryExcess.A' / obstacle-tail pricing:
+
+\[
+\texttt{TailPulseExclusion.A}
+\Longrightarrow
+\texttt{FiniteCapacitaryExcess.A}
+\Longleftrightarrow
+\texttt{`(TFE2748B.1134)' in the atom-weighted currency.}
+\tag{TFE2748B.1135}
+\]
+
+Section 123 proves that the active tail pulse is only a storage drop plus the
+signed lifted full-output transfer before absolute values are taken:
+
+\[
+2\nu\sum_{j\ge J}2^{-j}D_j^2\,dt
+\le
+-dM_{P,J}^{shell}
++d\mathcal T_{P,J}^{lift,\sigma}
++dE_P^0
++C_N2^{-2\delta J}\,dt .
+\tag{TFE2748B.1136}
+\]
+
+Thus
+
+\[
+\texttt{SignedLiftedTailTransferNoWaste.A}
+\Longrightarrow
+\texttt{TailPulseExclusion.A}
+\Longrightarrow
+\texttt{`(TFE2748B.1134)'.}
+\tag{TFE2748B.1137}
+\]
+
+Section 124 rewrites the positive part of
+\(d\mathcal T_{P,J}^{lift,\sigma}\) as moving-interface active work:
+
+\[
+[d\mathcal T_{P,J}^{lift,\sigma}]_+
+\preceq
+\sum_{j\ge J}
+\bigl[(\beta_{j+1}-\beta_j)\Pi_{j\to j+1}\bigr]_+\,dt
++dE_P^0+C_N2^{-2\delta J}\,dt,
+\tag{TFE2748B.1138}
+\]
+
+and therefore
+
+\[
+\texttt{MovingInterfaceActiveTransitNoWaste.A}
+\Longrightarrow
+\texttt{SignedLiftedTailTransferNoWaste.A}.
+\tag{TFE2748B.1139}
+\]
+
+Section 125 then identifies that moving-interface ledger as a bounded
+projection of the original before-clipping full-exchange ledger:
+
+\[
+d\Xi_{P,J}^{mi}
+\le
+C_N\,d\Xi_P^{FE}
++dE_P^0
++C_N2^{-2\delta J}\,dt .
+\tag{TFE2748B.1140}
+\]
+
+Combining `(TFE2748B.1140)' with the full-exchange depletion storage
+`(TFE2748B.893)' gives
+
+\[
+\texttt{FullExchangeCriticalDepletionStorage.A}
++\texttt{BeforeClippingActiveDensityComparison.A}
+\Longrightarrow
+\texttt{MovingInterfaceActiveTransitNoWaste.A}.
+\tag{TFE2748B.1141}
+\]
+
+Finally, Section 126 rewrites `FullExchangeCriticalDepletionStorage.A' as the
+bounded same-parent no-arbitrage statement
+
+\[
+d\Pi_P^{FE}
+\le -dB_P,
+\qquad
+B_P\ \text{bounded below from the original data},
+\tag{TFE2748B.1142}
+\]
+
+with contradiction route
+
+\[
+\texttt{FullExchangeCriticalCompactness.A}
++\texttt{ZeroCostFullExchangeCriticalRigidity.A}
+\Longrightarrow
+\texttt{`(TFE2748B.1142)'}.
+\tag{TFE2748B.1143}
+\]
+
+Putting the displayed implications together gives the exact source-to-atom
+chain:
+
+\[
+\begin{aligned}
+&\texttt{FullExchangeCriticalCompactness.A}
++\texttt{ZeroCostFullExchangeCriticalRigidity.A}
++\texttt{BeforeClippingActiveDensityComparison.A}
+\\
+&\qquad\Longrightarrow
+\texttt{finite weighted excess `(TFE2748B.1134)'}
+\\
+&\qquad\Longrightarrow
+\texttt{selected-critical atom reserve `(TFE2748B.1131)'}
+\\
+&\qquad\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A.}
+\end{aligned}
+\tag{TFE2748B.1144}
+\]
+
+This also fixes the physical interpretation of the atom decomposition.  The
+same-parent pressure-Hodge/material residue can be decomposed into zero-mean
+transport atoms before clipping, and the principal positive lobe is paired
+with an opposite lobe in the same stopped parent packet.  That pairing gives
+the raw retained reserve.  The Gold problem begins only when the selected
+critical meter \(W_P^{crit}\omega_P\) is inserted: the same atom can be more
+expensive on the positive side than on the retained opposite side unless the
+full-exchange ledger pays the log-meter variation.  Sections 123--126 say that
+this extra price is not a child recount, not a second atomization problem, and
+not an independent dyadic count.  It is the same original coupled packet's
+signed lifted transfer / moving-interface / full-exchange no-profit storage
+read in different coordinates.
+
+Consequently, after `(TFE2748B.1123)'--`(TFE2748B.1124)', a failure of the
+selected-critical atom reserve has only two possible source forms in the
+current note: either the full-exchange ledger is not parent-tight under the
+stopped compactness extraction, or a zero-cost retained full-exchange cycle
+survives the rigidity test.  Both are precisely the two faces of
+`(TFE2748B.1122)'.  There is no further unconstructed same-parent pressure atom
+left after route, legal, stop, entry, return, endpoint, and paid leakage are
+removed.
 
 Gold uses the same atom ledger with the critical meter
 \(W_P^{crit}=e^{b_P}\) already pulled back into the parent frame.  The exact
