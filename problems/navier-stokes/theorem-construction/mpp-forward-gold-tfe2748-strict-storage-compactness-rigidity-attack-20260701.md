@@ -17105,3 +17105,125 @@ packet before child clipping and prove its bounded-below depletion storage with
 a strict no-self-feeding margin.  Once that is proved, the moving-interface
 transit thread, signed lifted transfer, finite capacitary excess, and critical
 capacity variation/storage line all close by the displayed implications.
+
+## 126. The full-exchange source is the zero-profit-cycle theorem
+
+Section 125 removes the shell-interface language as an independent source.
+The live theorem is now the same no-arbitrage statement already isolated at
+`(TFE2748B.143)' and `(TFE.2430)'--`(TFE.2440)', but written in the current
+endpoint-admitted full-exchange notation.
+
+Let
+
+\[
+dE_P^0
+:=
+d\Theta_P^0+dPaid_P+dLegal_P+dStop_P+dEntry_P+dReturn_P
+\tag{TFE2748B.1115}
+\]
+
+and define the retained full-exchange profit measure
+
+\[
+d\Pi_P^{FE}
+:=
+d\Xi_P^{FE}
+-\theta_{FE}d\Omega_P^{gen}
+-dE_P^0 .
+\tag{TFE2748B.1116}
+\]
+
+The strict full-exchange depletion storage `(TFE2748B.893)' is equivalent to a
+bounded same-parent Bellman/no-arbitrage statement: there is a parent-built
+storage \(B_P\), bounded from the original data, such that
+
+\[
+d\Pi_P^{FE}\le -dB_P
+\quad\text{on every stopped retained parent history.}
+\tag{TFE2748B.1117}
+\]
+
+Indeed, `(TFE2748B.1117)' is exactly `(TFE2748B.893)' after \(dE_P^0\) is
+expanded.  Conversely, if no such bounded storage exists, the usual stopped
+Hahn/localization and normalization give retained parent histories \(P_n\) with
+
+\[
+\int_{P_n}d\Xi_{P_n}^{FE}=1,\qquad
+\int_{P_n}dE_{P_n}^{0}\to0,\qquad
+\int_{P_n}
+\left(d\Xi_{P_n}^{FE}
+-\theta_{FE}d\Omega_{P_n}^{gen}\right)
+\ge\eta_0>0.
+\tag{TFE2748B.1118}
+\]
+
+This is the current-note form of the Bellman failure `(TFE.2436)'.  The shell
+moving-interface survivor of Section 124 is only one coordinate projection of
+`(TFE2748B.1118)'; after Section 125 it cannot be treated as a separate bad
+object.
+
+The noncircular close route is therefore:
+
+\[
+\texttt{FullExchangeCriticalCompactness.A:}\quad
+(P_n,d\Xi_{P_n}^{FE},d\Omega_{P_n}^{gen})
+\longrightarrow
+(P_\infty,d\Xi_\infty^{FE},d\Omega_\infty^{gen})
+\tag{TFE2748B.1119}
+\]
+
+in one stopped parent frame, with
+
+\[
+\int d\Xi_\infty^{FE}=1,\qquad
+dE_\infty^0=0,\qquad
+\int
+\left(d\Xi_\infty^{FE}-\theta_{FE}d\Omega_\infty^{gen}\right)
+\ge\eta_0,
+\tag{TFE2748B.1120}
+\]
+
+and
+
+\[
+\texttt{ZeroCostFullExchangeCriticalRigidity.A:}\qquad
+dE_\infty^0=0
+\Longrightarrow
+d\Xi_\infty^{FE}\le \theta_{FE}d\Omega_\infty^{gen}
+\quad\text{on the retained face.}
+\tag{TFE2748B.1121}
+\]
+
+Equations `(TFE2748B.1119)'--`(TFE2748B.1121)' contradict
+`(TFE2748B.1120)', hence prove `(TFE2748B.1117)', then
+`(TFE2748B.893)', then `(TFE2748B.1114)'.
+
+All earlier terms are now typed by their proof role.  Raw pressure-Hodge atoms,
+reversible entropy flux, positive-baseline log entry, zero-baseline endpoint
+admission, finite-window relay, canonical no-ghost rigidity, signed lifted
+transfer, and moving-interface transit are consumers or coordinate projections.
+They remove fake positive bills.  They do not prove the zero-profit-cycle
+theorem.  A remaining failure of the critical capacity variation/storage line
+must either lose stopped-parent tightness, which is charged to
+\(dE_P^0\), or produce the zero-cost retained full-exchange cycle in
+`(TFE2748B.1120)'.
+
+The source theorem left from arbitrary original smooth data is therefore the
+same object in any of its equivalent current coordinates:
+
+\[
+\boxed{
+\texttt{FullExchangeCriticalCompactness.A}
++
+\texttt{ZeroCostFullExchangeCriticalRigidity.A}
+}
+\tag{TFE2748B.1122}
+\]
+
+or, equivalently, the stopped predictable active-weight compensator /
+parent-log-density BMO producer of `(TFE2748B.163)'--`(TFE2748B.177)'.  Proving
+`(TFE2748B.1122)' from the original coupled
+pressure-Hodge/viscous-Stokes/self-advection/incompressibility packet proves
+the critical capacity variation/storage line.  Without `(TFE2748B.1122)', the
+current note has a closed consumer chain and a precise normalized failure, not
+Gold closure.
