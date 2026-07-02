@@ -48,29 +48,45 @@ SUM_AUDIT_REQUIRED_MARKERS = [
 ].freeze
 
 COUPLED_STORAGE_AUDIT_REQUIRED_MARKERS = [
+  "TFE2748B.1393",
+  "TFE2748B.1541a",
   "TFE2748B.1548",
   "TFE2748B.1555",
+  "TFE2748B.1556",
   "CSA.4",
   "rho(K_P)<1",
   "one same-parent coupled storage theorem",
+  "simultaneous strict coupled storage inequality",
+  "independent proof of one face",
   "It is wrong as a linear proof chain",
   "not a proof of the wall"
 ].freeze
 
+SUM_TOKEN = /
+  \\?sum_(?:j|Q|ell|\\ell|alpha|\\alpha)|
+  \\sum(?:\\limits)?_\{?\s*(?:j|Q|ell|\\ell|alpha|\\alpha)|
+  ∑|
+  dyadic\s+sum\s+over\s+(?:shells|children|atoms|packet\s+labels|point\s+samples)
+/ix.freeze
+
+CLOSURE_VERB = /
+  closes|proves|discharges|supplies|installs|yields|gives|settles|establishes|certifies
+/ix.freeze
+
 HIGH_RISK_POSITIVE_SUM_CLAIMS = {
   "point-sample sum promoted to Gold L1 source" =>
-    /(?:\\?sum_(?:j|Q|ell|\\ell|alpha|\\alpha)|∑)[^\n]*(?:closes|proves|discharges|supplies|installs)[^\n]*(?:Gold L1|source theorem|OriginalCriticalCapacityVariation|TFE2748B|physical)/i,
+    /(?:#{SUM_TOKEN.source})[^\n]*(?:#{CLOSURE_VERB.source})[^\n]*(?:Gold L1|source theorem|OriginalCriticalCapacityVariation|TFE2748B|physical)/ix,
   "child or atom count promoted to Gold L1 source" =>
-    /(?:physical child count|counting zoomed child|child-normalized(?: unit)?(?: fresh)?(?: readout)? sum|sum over (?:atom|child|packet) labels)[^\n]*(?:closes|proves|discharges|supplies|installs)/i,
+    /(?:physical child count|counting zoomed child|child-normalized(?: unit)?(?: fresh)?(?: readout)? sum|sum over (?:atom|child|packet) labels)[^\n]*(?:#{CLOSURE_VERB.source})/ix,
   "raw atom bookkeeping promoted to weighted storage" =>
-    /raw atom bookkeeping[^\n]*(?:closes|proves|discharges|supplies|installs)[^\n]*(?:selected|weighted|storage|Gold L1)/i
+    /raw atom bookkeeping[^\n]*(?:#{CLOSURE_VERB.source})[^\n]*(?:selected|weighted|storage|Gold L1)/ix
 }.freeze
 
 HIGH_RISK_COUPLED_STORAGE_CLAIMS = {
   "coupled storage loop promoted to Gold L1 closure" =>
-    /(?:TFE2748B\.(?:1392|1548|1555)|FullExchangeNoSelfFeedingStorage\.A|FiniteCapacitaryExcess\.A|preallocated critical[-\s]source storage)[^\n]*(?:closes|proves|discharges|supplies|installs)[^\n]*(?:Gold L1|Gold|source theorem|OriginalCriticalCapacityVariation|CriticalCapacityVariationStorage|closure)/i,
+    /(?:TFE2748B\.(?:1392|1393|1541a|1548|1555|1556)|ActiveTransitLocalStorage\.A|FullExchangeNoSelfFeedingStorage\.A|ParentActivePotentialCapacityDomination\.A|CriticalEndpointDepletionStorage\.A|FiniteCapacitaryExcess\.A|preallocated critical[-\s]source storage)[^\n]*(?:#{CLOSURE_VERB.source})[^\n]*(?:Gold L1|Gold|source theorem|OriginalCriticalCapacityVariation|CriticalCapacityVariationStorage|closure)/ix,
   "linear storage chain promoted to closure" =>
-    /(?:linear|sequential)\s+proof\s+chain[^\n]*(?:closes|proves|discharges|supplies|installs)[^\n]*(?:Gold|source theorem|closure)/i
+    /(?:linear|sequential|mutual)\s+(?:proof\s+)?(?:chain|implication|loop)[^\n]*(?:#{CLOSURE_VERB.source})[^\n]*(?:Gold|source theorem|closure)/ix
 }.freeze
 
 NEGATING_CONTEXT = /\b(?:not|no|never|invalid|quarantine|cannot|can't|must not|only)\b/i.freeze
