@@ -12472,3 +12472,142 @@ This is the exact mathematical form of the physical statement: the positive
 selected readout is the same parent pulse read at a higher price, and the proof
 has to show that the price increase is itself a same-parent full-exchange
 motion with a strict viscous/generator margin.
+
+## 92. The log-variation bill consumes the amplification-current record
+
+Section 91 leaves the right object: the selected positive atom is paid by the
+weighted retained lobe plus the positive log-meter oscillation
+\(d\mathcal O_P^{crit,b}\).  This section records the deterministic bridge
+from that log oscillation to the already isolated original-history
+amplification-current record.  It is not a new physical supplier.
+
+Let \(\mathfrak Z_P^S=(Z_P^S,\Psi_P^S,\Lambda_P^S)\) be the stopped
+amplification/current record of `(TFE2748B.546)'.  On every retained selected
+chamber, the log-meter increment is represented before clipping by the same
+parent martingale/Hodge record:
+
+\[
+b_Q-b_{\operatorname{par}(Q)}
+=
+\ell_Q(\Delta_QZ_P^S)-\psi_Q+e_Q^S .
+\tag{TFE2748B.805}
+\]
+
+The square-function part in `(TFE2748B.801)' is therefore a consumer of the
+amplification-current energy:
+
+\[
+dSF_P(b_P;P')
+\le
+C_N\,d\mathcal E_{SAC}(P')
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{TFE2748B.806}
+\]
+
+where \(d\mathcal E_{SAC}\) is the root Carleson/BV/testing density from
+`(TFE2748B.547)'.  This is exactly the square-function statement behind
+`(TFE2748B.551)'--`(TFE2748B.552)'.
+
+Now take an atom pair \((x,y)\) in the same stopped parent packet and let
+\(\mathcal P(x,y)\) be the finite stopped tree path joining the retained
+negative lobe to the selected positive lobe after route, collar, legal, stop,
+and reselection defects have been removed.  Along that path,
+
+\[
+b_P(x)-b_P(y)
+=
+\sum_{Q\in\mathcal P(x,y)}
+\bigl(b_Q-b_{\operatorname{par}(Q)}\bigr)
++r_{xy}^{paid}.
+\tag{TFE2748B.807}
+\]
+
+The stopped John--Nirenberg/Kazamaki estimate for this parent martingale gives,
+for every fixed \(0<\eta<1\), after bad stopping fibres are charged to the paid
+ledgers,
+
+\[
+\int W_P^{crit}(y)
+\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)
+\,d\pi_P(x,y)
+\le
+\eta
+\int W_P^{crit}(x)\,d\pi_P(x,y)
++C_{\eta,N}\,dSF_P(b_P)
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.808}
+\]
+
+This is the exact absorption of the exponential log-meter oscillation.  It is
+where the selected \(L^1\) issue differs from raw atom pairing: the first term
+on the right is the selected bill itself and must be absorbed back through
+`(TFE2748B.800)', while the second term is square variation of the same
+parent-announced log record.
+
+Combining `(TFE2748B.800)' with `(TFE2748B.808)' and taking
+\(\eta<1/4\) gives
+
+\[
+d\mathcal A_P^{crit,+}
+\le
+-d\widetilde M_P^{crit}
++C_N dSF_P(b_P)
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{TFE2748B.809}
+\]
+
+with \(\widetilde M_P^{crit}\) bounded below whenever the weighted retained-lobe
+reserve in `(TFE2748B.797)'--`(TFE2748B.799)' is root-finite.  Inserting
+`(TFE2748B.806)' then yields
+
+\[
+d\mathcal A_P^{crit,+}
++\gamma_N dSF_P(b_P)
+\le
+-d\widehat M_P^{crit}
++C_N d\mathcal E_{SAC}(P')
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.810}
+\]
+
+Thus `(TFE2748B.801)' follows from the single same-parent storage estimate
+
+\[
+d\mathcal E_{SAC}(P')
+\le
+-dM_P^{SAC}(P')
++\vartheta\,d\Omega_P^{gen}(P')
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad C_N\vartheta<1,
+\tag{TFE2748B.811}
+\]
+
+together with the root-finite level reserve supplied by the same
+\(\mathcal E_{SAC}\) record:
+
+\[
+\mathcal C_P^{crit}
+\le
+C_N(u_0)\mathcal R(P)+dPaid_P+dStop_P .
+\tag{TFE2748B.812}
+\]
+
+Equations `(TFE2748B.805)'--`(TFE2748B.812)' prove the deterministic
+consumption chain
+
+\[
+\boxed{
+\texttt{OriginalHistorySelectedAmplificationCurrentCarleson.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A `(TFE2748B.801)'.}
+}
+\tag{TFE2748B.813}
+\]
+
+The unresolved arbitrary-data content has therefore moved one layer lower, not
+sideways: construct \(\mathfrak Z_P^S\) from the original coupled packet, prove
+the lower admission of selected source-square/log-meter motion into that record,
+and prove the root Carleson/BV/testing storage `(TFE2748B.811)' without defining
+\(\mathfrak Z_P^S\) from the future selected tail.  The weighted atom identity
+and the martingale exponential absorption are now consumers; the remaining
+producer is the original-history amplification-current Carleson/storage theorem.
