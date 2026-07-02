@@ -10189,3 +10189,134 @@ Section 76 therefore proves the finite-window Body-III no-loss part and
 identifies the only remaining source theorem.  It does not prove
 `(TFE2748B.648)'.  Proving `(TFE2748B.648)' is now the exact active form of the
 critical capacity variation/storage line from arbitrary original smooth data.
+
+## 77. High-tail residue is material-record/tower-rung escape
+
+The signed-measure attachment requested above is already constructed in the
+raw parent currency: Sections 29, 41, 59, and 72 give the pre-clipping
+same-parent atom decomposition, coefficient/leakage control, and retained
+opposite-lobe reserve depletion.  Section 76 leaves only the uniform tail
+passage.  The term \(K_{\rm hi-tail}^+\) is therefore not another atomic
+decomposition problem; it is the possibility that the selected tail mass keeps
+leaving every finite shifted-rung record.
+
+Let the shifted tail coordinate be
+
+\[
+\kappa:=k-N .
+\tag{TFE2748B.650}
+\]
+
+For the normalized failure sequence, define the tower-rung escape measure
+
+\[
+\mathcal R_{\rm rung}^{tail}
+:=
+\lim_{M\to\infty}\limsup_{n\to\infty}
+Q_{P_n,N_n}^{tail}\bigl(\{\kappa>M\}\cap C\bigr).
+\tag{TFE2748B.651}
+\]
+
+By `(TFE2748B.641)' and `(TFE2748B.645)',
+
+\[
+K_{\rm hi-tail}^+
+=
+\mathcal R_{\rm rung}^{tail}.
+\tag{TFE2748B.652}
+\]
+
+Now suppose the same normalized branch retains the stopped parent frame,
+selector/collar labels, and material coefficient tower uniformly on the
+retained packet.  Then the selected-carrier tightness criterion applies:
+tightness is paid by controlled domain/gauge spill, finite label custody,
+summable tower-rung tail, and same-carrier uniform integrability; failure of
+tightness is recorded as a Body-III relay defect.  In particular a retained
+branch with finite/summable tower-rung tail has
+
+\[
+\lim_{M\to\infty}\limsup_{n\to\infty}
+Q_{P_n,N_n}^{tail}\bigl(\{\kappa>M\}\cap C\bigr)=0 .
+\tag{TFE2748B.653}
+\]
+
+Therefore a positive \(K_{\rm hi-tail}^+\) forces loss of the same material
+record at unbounded shifted rung.  In the Body-IV language this is exactly the
+geometry/tower defect tail
+
+\[
+dK_{\rm ell}^+
++dK_{\rm coef}^+
++dK_{\rm comm}^+
++dK_{\rm transport}^+
++dK_G^+,
+\tag{TFE2748B.654}
+\]
+
+or equivalently failure of the uniform heat-scale material
+strain-metric/coefficient/tower record.  Define the enlarged geometric tail
+residue
+
+\[
+\mathcal R_{\rm geom}^{tail}
+:=
+\mathcal R_{\rm geom}
++\mathcal R_{\rm rung}^{tail}.
+\tag{TFE2748B.655}
+\]
+
+Then `(TFE2748B.647)' sharpens to
+
+\[
+\boxed{
+K_{C,tail}^{int,+}
+\le
+C\Big(
+\mathcal R_{\rm sel}
++\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm legal}
++\mathcal R_{\rm geom}^{tail}
+\Big).
+}
+\tag{TFE2748B.656}
+\]
+
+This proves that the high-tail term is not an independent source outside the
+same coupled packet.  It is the unbounded-rung/material-record escape component
+of the full relay defect.
+
+The active original-data theorem is consequently the tail material-record
+payment line
+
+\[
+\boxed{
+\mathcal R_{\rm sel}
++\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm legal}
++\mathcal R_{\rm geom}^{tail}
+\le
+d\Theta^0+dPaid+dStop+2^{-N}D_N\,dt .
+}
+\tag{TFE2748B.657}
+\]
+
+Equivalently,
+
+\[
+\boxed{
+\texttt{UniformTailRelayProduction.A}
+\equiv
+\texttt{TailMaterialRecordPayment.A `(TFE2748B.657)'}
+}
+\tag{TFE2748B.658}
+\]
+
+for the purposes of the Gold \(L^1\) source chain.  Proving
+`(TFE2748B.657)' from arbitrary original smooth data would supply
+`(TFE2748B.648)', hence Body-III relay payment, zero-source aligned-current
+no-ghost, and the parent-comparison surplus.  The present section proves only
+the classification: any surviving high-tail positive mass is a same-parent
+material-record/tower-rung escape, not a new pressure-only, viscosity-only, or
+post-clipping atomization burden.
