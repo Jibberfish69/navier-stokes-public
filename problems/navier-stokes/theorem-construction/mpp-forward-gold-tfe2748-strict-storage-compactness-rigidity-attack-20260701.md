@@ -21858,3 +21858,120 @@ So the open arbitrary-data source is smaller than Section 155's first wording:
 prove `(TFE2748B.1429)', `(TFE2748B.1418)', and `(TFE2748B.1424)' from the
 original coupled packet before clipping.  The Duhamel representation itself is
 already a proved smooth preterminal identity.
+
+## 157. Early-fibre admission is the installed critical source split
+
+The open list at the end of Section 156 still carries
+`(TFE2748B.1418)' as though it were an independent source theorem.  It is not.
+It is the no-early-promotion admission statement already supplied by the exact
+critical source split.  The source storage for the admitted measure remains
+`(TFE2748B.1424)'.
+
+Fix an early retained fibre \(Q\subset P\), so
+\(\nu(t_Q-r)|\xi_Q|^2<L_N\).  Pull the selected child readout and its immediate
+selected parent baseline to the same stopped root reserve:
+
+\[
+dA_Q^{sel,+}=f_Q\,dR_P^{root},
+\qquad
+dA_{\pi Q}^{sel,+}=f_{\pi Q}\,dR_P^{root}.
+\tag{TFE2748B.1431}
+\]
+
+Before clipping, split the fibre into three same-parent pieces:
+
+\[
+\begin{aligned}
+E_Q^{hi}&:=\{f_{\pi Q}>0,\ f_Q/f_{\pi Q}\ge2\},\\
+E_Q^{lo}&:=\{f_{\pi Q}>0,\ f_Q/f_{\pi Q}<2\},\\
+E_Q^0&:=\{f_{\pi Q}=0<f_Q\}.
+\end{aligned}
+\tag{TFE2748B.1432}
+\]
+
+The high-ratio positive-baseline part is admitted by the relative entropy edge.
+With \(r_Q=f_Q/f_{\pi Q}\),
+
+\[
+\int_{E_Q^{hi}} f_Q\,dR_P^{root}
+\le
+C\int_{E_Q^{hi}} f_Q\log(r_Q)_+\,dR_P^{root}
+\le
+C\,\rho_{crit,P}^{ac}(E_Q).
+\tag{TFE2748B.1433}
+\]
+
+This is the same calculation as `(TFE2748B.1195)' and the
+TFE2719--TFE2720 no-early-promotion step.
+
+The zero-baseline part is the first-entry detector, not a logarithmic ratio.
+By the endpoint trace normalization and singular entry definition
+`(TFE2748B.1200)'--`(TFE2748B.1201)',
+
+\[
+d\Xi_{P,Q}^{early,0}
+\le
+C_N\,d\rho_{crit,P}^{entry}(E_Q)
+dE_P^0(Q).
+\tag{TFE2748B.1434}
+\]
+
+The low-ratio positive-baseline part is inherited/repeated-core material.  It
+has no scale-native early-loop profit after lower carry, parent-current
+no-recount, return/reset, legal, stop, and paid route material are removed:
+
+\[
+d\Xi_{P,Q}^{early,lo}
+\le
+dE_P^0(Q).
+\tag{TFE2748B.1435}
+\]
+
+Adding `(TFE2748B.1433)'--`(TFE2748B.1435)' over the stopped finite-overlap
+early family gives exactly the early-fibre admission line from Section 155:
+
+\[
+d\Xi_P^{early}
+\le
+C_N\,d\rho_{crit,P}^{ac}
+C_N\,d\rho_{crit,P}^{entry}
+dE_P^0 .
+\tag{TFE2748B.1436}
+\]
+
+Thus
+
+\[
+\boxed{
+\texttt{exact critical source split `(TFE2748B.1194)'--`(TFE2748B.1204)'}
+\Longrightarrow
+\texttt{early critical admission `(TFE2748B.1418)'.}}
+\tag{TFE2748B.1437}
+\]
+
+This does not prove the storage of the critical source.  It only proves that
+sub-heat-lag selected material is admitted into the parent critical source
+ledger before child clipping.  The storage of that admitted source is precisely
+`(TFE2748B.1424)'.
+
+The reduced chain after the correction is therefore
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{bounded retained pullback `(TFE2748B.1429)'}\\
++\texttt{critical source storage `(TFE2748B.1424)'}
+\end{array}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1438}
+\]
+
+The retained pullback estimate `(TFE2748B.1429)' is not discharged by this
+section.  Existing bounded-log-detector projection estimates such as
+`(TFE2748B.927)'--`(TFE2748B.930)' apply after the detector has been shown
+bounded in the parent clock.  `(TFE2748B.1429)' is the stronger retained
+Duhamel-Hodge square-function statement that the coupled stopped propagator,
+Hodge/frame re-coordination, collar/covector motion, and selected retained
+detectors pull the original root generator to all retained children with a
+uniform parent square-function bound before clipping.
