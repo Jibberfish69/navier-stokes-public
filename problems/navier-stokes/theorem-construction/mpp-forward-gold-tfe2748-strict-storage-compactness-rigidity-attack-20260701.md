@@ -14517,9 +14517,13 @@ By construction,
 =
 dJ_{P,\omega}^{ret,-}(X_P),
 \qquad
-(dJ_P)_+
+\omega_P(dJ_P^0)_+
 \preceq_{atom}
-dJ_{P,\omega}^{ret,-}+(dR_P)_+
+dJ_{P,\omega}^{ret,-},
+\qquad
+\omega_P(dJ_P)_+
+\preceq_{atom}
+dJ_{P,\omega}^{ret,-}+\omega_P(dR_P)_+
 \quad\text{after the chosen parent selector is fixed.}
 \tag{TFE2748B.941}
 \]
