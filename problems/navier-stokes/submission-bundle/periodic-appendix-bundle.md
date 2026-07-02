@@ -5,7 +5,7 @@
 Legacy appendix bundle for an older periodic `T^3` presentation. It is retained
 as provenance only. Current Clay-facing authority is the CM terminal witness
 consumption bundle, and the current Gold `L^1` source wall remains the
-noncircular same-parent coupled active-capacity/full-exchange storage theorem.
+signed critical-height sign-persistence / peak-height theorem.
 
 ## Appendix A: Dependency graph
 
