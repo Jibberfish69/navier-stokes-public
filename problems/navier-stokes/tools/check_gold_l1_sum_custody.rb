@@ -66,6 +66,13 @@ HIGH_RISK_POSITIVE_SUM_CLAIMS = {
     /raw atom bookkeeping[^\n]*(?:closes|proves|discharges|supplies|installs)[^\n]*(?:selected|weighted|storage|Gold L1)/i
 }.freeze
 
+HIGH_RISK_COUPLED_STORAGE_CLAIMS = {
+  "coupled storage loop promoted to Gold L1 closure" =>
+    /(?:TFE2748B\.(?:1392|1548|1555)|FullExchangeNoSelfFeedingStorage\.A|FiniteCapacitaryExcess\.A|preallocated critical[-\s]source storage)[^\n]*(?:closes|proves|discharges|supplies|installs)[^\n]*(?:Gold L1|Gold|source theorem|OriginalCriticalCapacityVariation|CriticalCapacityVariationStorage|closure)/i,
+  "linear storage chain promoted to closure" =>
+    /(?:linear|sequential)\s+proof\s+chain[^\n]*(?:closes|proves|discharges|supplies|installs)[^\n]*(?:Gold|source theorem|closure)/i
+}.freeze
+
 NEGATING_CONTEXT = /\b(?:not|no|never|invalid|quarantine|cannot|can't|must not|only)\b/i.freeze
 
 def relative(path)
@@ -102,6 +109,11 @@ AUTHORITY_MARKERS.each do |relative_path, markers|
     next if line.match?(NEGATING_CONTEXT)
 
     HIGH_RISK_POSITIVE_SUM_CLAIMS.each do |label, pattern|
+      next unless line.match?(pattern)
+
+      violations << "#{relative(path)}:#{line_no}: #{label}: #{preview(line)}"
+    end
+    HIGH_RISK_COUPLED_STORAGE_CLAIMS.each do |label, pattern|
       next unless line.match?(pattern)
 
       violations << "#{relative(path)}:#{line_no}: #{label}: #{preview(line)}"
