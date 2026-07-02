@@ -15440,9 +15440,9 @@ tail to the same compactified parent space and set
 dB_{P,J}^{tail}
 :=
 \vartheta_{tail}\,d\Omega_P^{gen}
-dE_P^0
-dPaid_P+dLegal_P+dStop_P
-C_N2^{-2\delta J}\,d\ell_I\,d\kappa_{P,J}.
++dE_P^0
++dPaid_P+dLegal_P+dStop_P
++C_N2^{-2\delta J}\,d\ell_I\,d\kappa_{P,J}.
 \tag{TFE2748B.1005}
 \]
 
@@ -15461,7 +15461,13 @@ d\mathcal P_{P,J}^{tail}
 \tag{TFE2748B.1006}
 \]
 
-Then `(TFE2748B.997)' is equivalent to the uniform vanishing of this defect:
+The passage from an integral failure to the positive defect is lossless after
+the usual stopping refinement: the stopped parent family may be restricted to
+the Hahn-positive part of the signed measure
+\(dA_{P,J}^{tail}-dB_{P,J}^{tail}\), while the boundary of that restriction is
+already included in the collar/legal/stop component of \(dB_{P,J}^{tail}\).
+Thus the localized/stopped tail-pricing theorem is equivalent to uniform
+vanishing of this defect:
 
 \[
 \sup_{P,J,I}
