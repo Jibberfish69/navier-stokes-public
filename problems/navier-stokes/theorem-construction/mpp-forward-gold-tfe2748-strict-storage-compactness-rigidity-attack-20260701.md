@@ -13002,7 +13002,7 @@ collar escape:
 d\lambda_P^{leg,drift}
 \le
 C_N\mathcal R_{\rm geom}^{tail}
-d\Theta^0+dPaid+dStop .
++d\Theta^0+dPaid+dStop .
 \tag{TFE2748B.836}
 \]
 
@@ -13015,7 +13015,7 @@ signed terminal balance:
 d\lambda_P^{leg,atom}
 \le
 C_N(\mathcal R_{\rm sat}+\mathcal R_{\rm jump})
-d\Theta^0+dPaid+dStop .
++d\Theta^0+dPaid+dStop .
 \tag{TFE2748B.837}
 \]
 
@@ -13035,7 +13035,7 @@ Combining `(TFE2748B.834)'--`(TFE2748B.837)' gives
 C_N(\mathcal R_{\rm sat}
 +\mathcal R_{\rm jump}
 +\mathcal R_{\rm geom}^{tail})
-d\Theta^0+dPaid+dStop .
++d\Theta^0+dPaid+dStop .
 }
 \tag{TFE2748B.838}
 \]
