@@ -656,11 +656,14 @@ This is the exact atomization.  Countable atom ledgers are simple-measure
 approximants to the transport measure \(d\pi_P\); the parent object is the
 transport integral itself.
 
-The coefficient mass and leakage are controlled by the original energy drain.
-In the local Hardy form this is
+The transport mass and leakage are controlled by the original energy drain.
+The continuous parent quantity is the transport mass
+\(\pi_P(t)(X_P\times X_P)\).  Countable atom ledgers are only simple-measure
+approximants to this integral; their coefficient variation converges to the
+same transport mass.  In the local Hardy form,
 
 \[
-\sum_\alpha |c_\alpha(t)|+|(dR_P)_+|(t)
+\pi_P(t)(X_P\times X_P)+|(dR_P)_+|(t)
 \le
 C_N\|\nabla u(t)\|_2^2
 +dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t),
