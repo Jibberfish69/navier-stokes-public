@@ -4068,7 +4068,7 @@ paid packet motion.  Proving `(TFE2748B.254)' from arbitrary original smooth dat
 with `(TFE2748B.255)'--`(TFE2748B.256)', proves the critical capacity
 variation/storage line `(TFE2748B.247)'.
 
-## 36. Entropy-dual current form of the commutator estimate
+## 36. Entropy-weighted current form of the commutator estimate
 
 The estimate `(TFE2748B.254)' has a sharper same-parent current form.  Suppose
 the renormalized non-passive term can be written before clipping as
@@ -4128,7 +4128,7 @@ weighted Cauchy inequality yields, for every \(\varepsilon>0\),
 \tag{TFE2748B.259}
 \]
 
-Therefore `(TFE2748B.254)' follows from the entropy-dual current domination
+Therefore `(TFE2748B.254)' follows from the entropy-weighted current domination
 
 \[
 {1\over 4\varepsilon}
@@ -4156,7 +4156,7 @@ So the original-data proof has now been pushed to two exact facts:
 \begin{array}{c}
 \text{construct the renormalized commutator as the same-parent divergence current
 `(TFE2748B.257)',}\\
-\text{and prove the entropy-dual square domination `(TFE2748B.260)' with
+\text{and prove the entropy-weighted current domination `(TFE2748B.260)' with
 strict coefficient \(\varepsilon+\beta<1\).}
 \end{array}}
 \tag{TFE2748B.261}
@@ -4165,8 +4165,8 @@ strict coefficient \(\varepsilon+\beta<1\).}
 This is a genuine strengthening of raw pressure atomization.  Raw atomization
 says the signed Hodge residue has zero-mean same-parent lobes.  The current form
 says the active-renormalized pressure/Hodge/frame/selector feedback has no
-standalone positive zero-order source, and its divergence current is square-paid
-in the entropy-dual metric attached to the same parent density \(F_P\).  Proving
+standalone positive zero-order source, and its divergence current is paid in
+the entropy-weighted metric attached to the same parent density \(F_P\).  Proving
 `(TFE2748B.257)'--`(TFE2748B.260)' from arbitrary original smooth data proves
 `(TFE2748B.254)', hence the parent-density source package `(TFE2748B.241)' and
 the critical capacity variation/storage line.
@@ -4332,7 +4332,7 @@ smooth data before clipping.  It does not by itself prove the terminal-uniform
 reserve bound in `(TFE2748B.271)'.  Defining \(M_P^{crit}(t)\) by the future
 tail of \(dJ_{P,atom}^{ret,-}\) would be circular; the reserve must be
 parent-announced from the original coupled packet before the child readout is
-clipped.  Equivalently, `(TFE2748B.271)' is supplied by the entropy-dual current
+clipped.  Equivalently, `(TFE2748B.271)' is supplied by the entropy-weighted current
 domination `(TFE2748B.260)' or by an equivalent parent-active
 Orlicz/reverse-Holder source theorem.  Once that source estimate is proved,
 `(TFE2748B.270)' turns every positive selected lobe into retained parent-reserve
@@ -4454,7 +4454,7 @@ with \(\beta<1\), after the already-paid selector, collar, frame, Hodge, and
 endpoint defects have been removed.  Here \(\mathcal B_P\) denotes the
 volume-preserving pressure/self-advection/Hodge generator in the stopped parent
 coordinates.  Equation `(TFE2748B.280)' is the scalar selected-meter face of
-the entropy-dual current domination `(TFE2748B.260)'.
+the entropy-weighted current domination `(TFE2748B.260)'.
 
 Consequently the reserve theorem `(TFE2748B.271)' is now reduced to this precise
 noncircular production statement:
@@ -4951,7 +4951,7 @@ root-finiteness of \(M_P^{J,S}\), not the atomic decomposition itself.
 ## 42. The divergence-current representation is not the hard source
 
 Section 36 left two facts in `(TFE2748B.261)': construct the same-parent
-divergence current, and prove its entropy-dual square domination.  The first
+divergence current, and prove its entropy-weighted current domination.  The first
 fact is actually a stopped Hodge construction for arbitrary original smooth
 data.  The second fact is the Gold source theorem.
 
