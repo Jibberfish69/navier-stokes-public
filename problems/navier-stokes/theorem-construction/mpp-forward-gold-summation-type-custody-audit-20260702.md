@@ -377,6 +377,227 @@ Downstream consequence: the primitive-driver branch is not a separate
 birth-packing/no-reuse escape. It returns to the same positive low-high
 quadratic form and the same material-service variation density.
 
+## 11. Checked raw-tail sibling surfaces
+
+These are older or parallel surfaces where the same raw-versus-weighted mistake
+can re-enter if the sum is read physically instead of as typed bookkeeping.
+
+### 11.1 Selected capacity good-lambda tail
+
+Source surface:
+
+- `mpp-forward-gold-selected-capacity-goodlambda-weight-tail-equivalence-20260626.md`, lines 82-101.
+
+Typed objects:
+
+\[
+\nu_\ell=\sum_j\mu_j(E_{j,\ell}),
+\qquad
+\sum_{\ell\ge0}\nu_\ell<\infty,
+\qquad
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty .
+\tag{STA.20}
+\]
+
+Type: Littlewood-Paley ratio-tail bookkeeping.
+
+Consequence: raw energy/viscosity controls only the zeroth moment. Full
+same-material action needs the first-ratio moment, so the strict
+\(\theta<1/2\) good-lambda estimate or equivalent selected-critical capacity
+law remains the source theorem.
+
+### 11.2 Source-tree Carleson comparison
+
+Source surface:
+
+- `mpp-forward-gold-source-tree-carleson-does-not-pay-critical-half-tail-20260626.md`, lines 36-95.
+
+Typed objects:
+
+\[
+\sum_{\ell\ge0}\nu_\ell<\infty,
+\qquad
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty,
+\qquad
+\nu_\ell\sim {2^{-\ell}\over \ell+1}.
+\tag{STA.21}
+\]
+
+Attempted comparison:
+
+\[
+\sum_{\ell\ge0}2^\ell d\nu_\ell
+\lesssim
+\sum_{k>N}2^k
+\left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt
++dR^{legal}.
+\tag{STA.22}
+\]
+
+Type: proposed same-carrier comparison between two different bookkeeping
+currencies.
+
+Consequence: old tree-Carleson, active-square, or BASAC surfaces cannot be
+reselected as Gold closure until `(STA.22)' is proved. Adding `(STA.22)' would
+already contain the missing ratio weight.
+
+### 11.3 Stopped free-material graph driver
+
+Source surface:
+
+- `mpp-forward-gold-stopped-free-material-graph-driver-direct-attack-20260627.md`, lines 113-128.
+
+Typed objects:
+
+\[
+\sum_{\ell\ge0}\nu_\ell<\infty,
+\qquad
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty .
+\tag{STA.23}
+\]
+
+Type: Littlewood-Paley same-material ancestry bookkeeping.
+
+Consequence: laminarity and complete-frame compression partners are real
+structural support, but they do not insert the high-ratio weight into a finite
+root reserve. PrimitivePLSNoFreeUpcrossing.A remains unproved by those supports.
+
+### 11.4 Critical fresh source tent Carleson
+
+Source surface:
+
+- `mpp-forward-gold-critical-fresh-source-tent-carleson-codex-audit-20260627.md`, lines 49-82.
+
+Typed objects:
+
+\[
+\sum_{Q\subset P}\|F_Q\|_{\mathcal H_{raw}}^2<\infty,
+\qquad
+\sum_{Q\subset P}w(Q)\|F_Q\|_{\mathcal H_{raw}}^2<\infty .
+\tag{STA.24}
+\]
+
+Half-tail:
+
+\[
+\|F_\ell\|_{\mathcal H_{raw}}^2={2^{-\ell}\over \ell+1},
+\qquad
+\sum_\ell 2^\ell\|F_\ell\|_{\mathcal H_{raw}}^2=\infty .
+\tag{STA.25}
+\]
+
+Type: Hilbert/Bessel raw orthogonality versus selected-critical weighted
+Littlewood-Paley tail.
+
+Consequence: raw fresh orthogonality and no-reuse do not prove
+CriticalFreshSourceTentCarleson.A, native birth packing, or positive critical
+transfer.
+
+### 11.5 Routed-current log-square relay
+
+Source surface:
+
+- `mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md`, TFE.1925-TFE.1929.
+
+Typed objects:
+
+\[
+\sum_Q |\Delta_Q\lambda_{\rm sel}|^2\,\mathcal R(Q)<\infty,
+\qquad
+\sum_Q r_Q\,\mathcal R(Q),
+\qquad
+r_Q=\exp(\Delta_Q\lambda_{\rm sel}).
+\tag{STA.26}
+\]
+
+Dyadic tail:
+
+\[
+\sum_{\ell\ge0}2^\ell\nu_\ell,
+\qquad
+r_\ell=2^\ell,\quad
+\nu_\ell={2^{-\ell}\over \ell+1}.
+\tag{STA.27}
+\]
+
+Type: log-square support estimate versus exponential first-ratio L1 mass.
+
+Consequence: the line
+\(A_{sel}\lesssim [\Delta\lambda_{sel}]_+^2R(Q)+paid\) is not valid for
+arbitrary data without active entropy, reverse Holder, bounded density, or an
+equivalent strict good-lambda margin.
+
+### 11.6 Parent continuum half-tail band test
+
+Source surface:
+
+- `mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md`, TFE.2004.
+
+Typed object:
+
+\[
+\nu_\ell=\mu_P^{act}(I_\ell)={2^{-\ell}\over \ell+1},
+\qquad
+r_\ell=2^\ell .
+\tag{STA.28}
+\]
+
+Type: dyadic layer-cake countertest for the continuum parent active measure.
+
+Consequence: this is not a physical sum over packet labels. It says a candidate
+parent continuum measure can have finite raw parent mass and finite log-square
+shadow while the selected first-ratio integral diverges.
+
+### 11.7 Augmented four-body/native-birth split
+
+Source surface:
+
+- `mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md`, TFE.2273-TFE.2276.
+
+Typed objects:
+
+\[
+\sum_{\ell\ge0}\nu_\ell<\infty,
+\qquad
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty,
+\qquad
+\Pi_P^{crit}
+\le
+C\int_P dA_{4B,N}^{tower,+}+Paid(P).
+\tag{STA.29}
+\]
+
+Type: raw augmented-tower action versus selected-critical native-birth weight.
+
+Consequence: the native-birth term cannot be hidden inside tower action unless
+the tower action already contains the selected-critical channel being proved.
+TFE2272 stays split into oriented augmented tower action and selected-critical
+native birth.
+
+### 11.8 Continuous raw atom countercheck
+
+Source surface:
+
+- `mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md`, TFE2748B.234-TFE2748B.236.
+
+Typed objects:
+
+\[
+dJ^0=\int_0^{e^{-2}}d\mu_s\,ds,
+\qquad
+\int_0^{e^{-2}}d\nu^{atom}(s)<\infty,
+\qquad
+\int_0^{e^{-2}}W(s)\,d\nu^{atom}(s)=\infty .
+\tag{STA.30}
+\]
+
+Type: raw atom-mass countertest and selected active-price tail.
+
+Consequence: same-parent lobe pairing and finite unweighted pressure material
+are installed at the raw level, but they do not imply selected critical L1.
+Strict tail recurrence or parent active entropy before clipping is still the
+source theorem.
+
 ## Source rule after this audit
 
 Every future Gold L1 use of a summation symbol must state the parent packet or
