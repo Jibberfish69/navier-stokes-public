@@ -23037,3 +23037,150 @@ labels are deduplicated: construct the local active-transit storage and the
 strict full-exchange no-self-feeding storage from the original coupled packet,
 with the scale-native zero-baseline entry atoms packed before clipping and with
 the strict \(C_N(\theta_A+\theta_{FE})<1\) margin.
+
+## 164. The requested atom decomposition is already the closed raw input
+
+The supplied signed-measure attachment lives below the weighted source in
+Section 163.  It is the raw pressure-Hodge/material residue before the critical
+meter \(W_P^{crit}\) prices the two lobes differently.
+
+Fix a stopped parent packet \(P\), a stopped horizon \(\tau<T_*\), and let
+\(dJ_P\) be the pre-clipping pressure-Hodge/material residue after route,
+collar, Hodge-frame, detector-motion, endpoint, legal, stop, return, and paid
+material have been separated.  Section 160 proves
+
+\[
+dJ_P=dJ_P^0+dR_P,\qquad
+(\pi_t)_\#dJ_P^0=0,\qquad
+|dR_P|\le dE_P^0 ,
+\tag{TFE2748B.1515}
+\]
+
+with the original-data bound
+
+\[
+|dJ_P^0|([0,\tau]\times X_P)+|dR_P|([0,\tau]\times X_P)
+\le
+C_N{\|u_0\|_2^2\over \nu}
++E_P^0([0,\tau]\times X_P).
+\tag{TFE2748B.1516}
+\]
+
+The zero parent-time marginal in `(TFE2748B.1515)' is the precise constraint-force
+fact: after the paid leakage is removed, pressure redistributes the same stopped
+parent packet and creates no standalone time marginal.  Taking the Jordan split
+of \(dJ_P^0\), disintegrating the positive and negative lobes over their common
+parent-time marginal, and coupling them at the same time gives the transport
+measure \(d\Pi_P(t,x,y)\) of `(TFE2748B.1464)'.  Hence
+
+\[
+dJ_P
+=
+dR_P+\int(\delta_{(t,x)}-\delta_{(t,y)})\,d\Pi_P(t,x,y),
+\qquad
+\int(\delta_{(t,x)}-\delta_{(t,y)})=0.
+\tag{TFE2748B.1517}
+\]
+
+The countable display \(dJ_P=\sum_\alpha c_\alpha d\mu_\alpha+dR_P\) is the
+simple-measure presentation of `(TFE2748B.1517)', with
+\(\int d\mu_\alpha=0\).  Its coefficient mass is the same parent transport mass:
+
+\[
+\int d\Pi_P+|dR_P|([0,\tau]\times X_P)
+\le
+C_N{\|u_0\|_2^2\over \nu}
++E_P^0([0,\tau]\times X_P).
+\tag{TFE2748B.1518}
+\]
+
+For every parent-announced selector \(0\le\omega_P(t,x)\le1\) fixed before child
+positive clipping, define
+
+\[
+dJ_{P,\omega}^{+}
+:=(\operatorname{time},\operatorname{pr}_1)_\#
+(\omega_P(t,x)d\Pi_P(t,x,y)),
+\qquad
+dJ_{P,\omega}^{ret,-}
+:=(\operatorname{time},\operatorname{pr}_2)_\#
+(\omega_P(t,x)d\Pi_P(t,x,y)).
+\tag{TFE2748B.1519}
+\]
+
+Then the selected positive lobe is attached to the retained opposite lobe inside
+the same parent atom:
+
+\[
+\omega_P(dJ_P)_+
+\preceq_{atom}
+dJ_{P,\omega}^{ret,-}
++\omega_P(dR_P)_+ .
+\tag{TFE2748B.1520}
+\]
+
+Open the raw reserve from the same original-data coefficient bound,
+
+\[
+M_{P,\omega}^{atom}(s)
+:=
+C_N{\|u_0\|_2^2\over \nu}
++E_P^0([0,\tau]\times X_P)
+-dJ_{P,\omega}^{ret,-}([0,s]\times X_P).
+\tag{TFE2748B.1521}
+\]
+
+By `(TFE2748B.1518)'--`(TFE2748B.1520)',
+
+\[
+M_{P,\omega}^{atom}(s)\ge0,\qquad
+-dM_{P,\omega}^{atom}=dJ_{P,\omega}^{ret,-}
+\quad\text{on retained same-parent atoms.}
+\tag{TFE2748B.1522}
+\]
+
+Therefore the requested construction is closed from arbitrary original smooth
+data before clipping:
+
+\[
+\boxed{
+\texttt{SignedPressureHodgeAtomicAttachment.A is proved by}
+\ `(TFE2748B.1515)'--`(TFE2748B.1522)'.}
+\tag{TFE2748B.1523}
+\]
+
+This does not discharge Section 163, because Section 163 starts after the
+critical meter weights the already paired lobes.  For \(W_P^{crit}=e^{b_P}\),
+
+\[
+W_P^{crit}(x)\omega_P(x)d\Pi_P(t,x,y)
+\le
+W_P^{crit}(y)\omega_P(x)d\Pi_P(t,x,y)
++
+W_P^{crit}(y)\omega_P(x)
+\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)d\Pi_P(t,x,y).
+\tag{TFE2748B.1524}
+\]
+
+The first term is paid by the retained-lobe reserve `(TFE2748B.1522)'.  The
+second term is the positive parent log-meter/full-exchange variation.  Sections
+159--163 identify its nonduplicate source as the local active-transit storage
+plus strict full-exchange no-self-feeding storage, not another raw atom theorem:
+
+\[
+\boxed{
+\texttt{SignedPressureHodgeAtomicAttachment.A is closed, and}
+\quad
+\texttt{LocalActiveTransitStorage.A}
++
+\texttt{FullExchangeNoSelfFeedingStorage.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1525}
+\]
+
+So the current Gold \(L^1\) wall is exactly the weighted source after raw
+attachment: construct `(TFE2748B.1511)' and `(TFE2748B.1512)' from the original
+coupled packet with the strict \(C_N(\theta_A+\theta_{FE})<1\) margin.  The
+atomic decomposition, coefficient/leakage control, and retained opposite-lobe
+reserve depletion are no longer open source burdens.
