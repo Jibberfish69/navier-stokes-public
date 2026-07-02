@@ -7318,3 +7318,146 @@ record, or it escapes into smaller cores, where each escape must carry a
 root-visible capacity charge.  There is no third retained source after the
 same-parent atom attachment, paid packet motion, legal, stop, endpoint, and
 nonlaminar routing terms have been removed.
+
+## 58. Exact PDE inputs for the two no-Zeno branches
+
+The two branch producers in `(TFE2748B.461)' have different proof content.  The
+repeated-core side is not a new capacity theory once the correct parent-fixed
+score has been lifted before clipping.  On a retained same-core tube \(K\), the
+needed stopped polar lift is
+
+\[
+dA_{rep}^{aug}
+\le
+[Y_K]_+\,d\sigma
++dPaid_K+dStop_K,
+\qquad
+Y_K=\partial_\sigma\Psi_K+S_K^{spill}+E_K .
+\tag{TFE2748B.462}
+\]
+
+Here \(\Psi_K\) is a parent-fixed stopped score for the same material core, and
+the polar direction used in \(Y_K\) is chosen before the child positive part is
+clipped.  Selector, covector, collar, Hodge-frame, and reselection changes are
+not hidden in \(Y_K\); they remain in the paid terms.
+
+For such a signed lift, the positive part is elementary scalar variation:
+
+\[
+\int_K [Y_K]_+\,d\sigma
+\le
+[\Psi_K]_{t_{in}}^{t_{out},+}
++\int_K [Y_K]_-\,d\sigma
++\int_K |S_K^{spill}|\,d\sigma
++\int_K |E_K|\,d\sigma .
+\tag{TFE2748B.463}
+\]
+
+Thus repeated-core storage follows from the original-history record and
+negative-return charge
+
+\[
+[\Psi_K]_{t_{in}}^{t_{out},+}
++\int_K [Y_K]_-\,d\sigma
++\int_K |S_K^{spill}|\,d\sigma
++\int_K |E_K|\,d\sigma
+\le
+\mathcal C^{crit}(K_{in})-\mathcal C^{crit}(K_{out})
++\vartheta\,\Omega^{gen}(K)
++\Theta^0(K)+Paid(K)+Stop(K).
+\tag{TFE2748B.464}
+\]
+
+Combining `(TFE2748B.462)'--`(TFE2748B.464)' gives the repeated-core branch
+estimate `(TFE2748B.457)'.  Therefore the repeated-core PDE content is exactly
+
+\[
+\boxed{
+\texttt{StoppedPolarSignedLift.A `(TFE2748B.462)'}
++
+\texttt{OriginalHistoryNegativeReturnCharge.A `(TFE2748B.464)'}
+\Longrightarrow
+\texttt{AugmentedRepeatedCoreNonreuseStorage.A `(TFE2748B.457)'.}}
+\tag{TFE2748B.465}
+\]
+
+The shrinking-core branch has a different obstruction.  For a retained affine
+heat-scale core \(Q_r\) with strain size \(|\Sigma|\simeq r^{-2}\) and
+parabolic volume \(|Q_r|\simeq r^5\), the raw square bill is radius-discounted
+while the selected action is scale-invariant:
+
+\[
+\int_{Q_r}|\Sigma|^2\simeq r,
+\qquad
+\int_{Q_r}|\Sigma|^{5/2}\simeq 1 .
+\tag{TFE2748B.466}
+\]
+
+Consequently raw energy, raw dissipation, raw pressure-Hodge capacity,
+fixed-collar area, and support-tree counting cannot prove shrinking-core
+packing.  A dyadic terminal family can have
+
+\[
+\sum_k r_k<\infty,
+\qquad
+\sum_k A^{aug}(Q_{r_k})=\infty .
+\tag{TFE2748B.467}
+\]
+
+The needed original-data theorem is a selected exponent-lift, expressed either
+as lower admission plus root packing
+
+\[
+A^{aug}(Q)
+\le C_N\,\rho_{crit}^{esc}(Q)+Paid(Q)+Stop(Q),
+\qquad
+\sum_{Q\subset P}\rho_{crit}^{esc}(Q)
+\le
+\mathcal C^{crit}(P)
++\vartheta\,\Omega^{gen}(P)
++\Theta^0(P)+Paid(P)+Stop(P),
+\tag{TFE2748B.468}
+\]
+
+or equivalently as a parent-known reverse-Holder/square-function gain for the
+selected density \(f_{sel}\) against the raw same-history reserve:
+
+\[
+f_{sel}\in RH_{1+\varepsilon}(d\mathcal R_{raw})
+\quad\text{or}\quad
+S_{\rm mart}(f_{sel})\in L^2(d\mathcal R_{raw}),
+\tag{TFE2748B.469}
+\]
+
+with \(f_{sel}\) constructed from the original coupled packet before child
+selection.  This gives
+
+\[
+\boxed{
+\texttt{OriginalHistorySelectedExponentLift.A `(TFE2748B.468)'--`(TFE2748B.469)'}
+\Longrightarrow
+\texttt{AugmentedShrinkingCoreEscapePacking.A `(TFE2748B.458)'.}}
+\tag{TFE2748B.470}
+\]
+
+Equations `(TFE2748B.465)' and `(TFE2748B.470)' are now the exact nonconsumer PDE
+inputs below the critical capacity variation/storage line:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{StoppedPolarSignedLift.A}\\
++\texttt{OriginalHistoryNegativeReturnCharge.A}\\
++\texttt{OriginalHistorySelectedExponentLift.A}
+\end{array}
+\Longrightarrow
+\texttt{SquareCompletedCriticalSourceStorage.A `(TFE2748B.437)'--`(TFE2748B.438)'.}
+}
+\tag{TFE2748B.471}
+\]
+
+The proof work left is therefore not measure atomization, not local affine
+Liouville, and not raw capacity.  It is to construct the parent-fixed signed
+score, charge its negative returns in the original coupled packet, and prove the
+selected exponent-lift for escaping heat-scale cores before any child positive
+readout is clipped.
