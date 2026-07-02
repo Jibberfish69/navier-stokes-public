@@ -13887,3 +13887,189 @@ namely `(TFE2748B.892)'--`(TFE2748B.893)'.  Equivalently, this is
 the no-self-feeding margin exposed.  It must be proved from the original
 coupled pressure-viscosity-incompressibility-velocity packet; otherwise
 Sections 98--101 are a closed reduction chain, not Gold closure.
+
+## 102. The full-strength local source package
+
+The theorem named in `(TFE2748B.895)' has to be local on each stopped parent
+subpacket.  A global bound on the total generator mass would not prevent a
+selected child readout from hiding all of its positive mass in a thin terminal
+or high-ratio face.  The source package must provide the selected meter, its
+entropy, and the terminal thickness from the same original parent clock before
+child clipping.
+
+For every retained stopped parent subpacket \(P'\subseteq P\), set the
+root-independent original error ledger
+
+\[
+dE_P^0:=d\Theta_P^0+dPaid_P+dStop_P+dEntry_P+dReturn_P .
+\tag{TFE2748B.896}
+\]
+
+The first clause is the local no-self-feeding full-exchange storage:
+
+\[
+d\Omega_P^{gen}
+\le
+C_N\,d\Xi_P^{FE}+dE_P^0,
+\qquad
+d\Xi_P^{FE}
+\le
+-dM_P^{FE}
+\theta_{FE}d\Omega_P^{gen}
+dE_P^0,
+\qquad
+C_N\theta_{FE}<1 .
+\tag{TFE2748B.897}
+\]
+
+Absorbing the second inequality into the first gives the stopped generator
+Carleson bound
+
+\[
+\int_{P'}d\Omega_P^{gen}
+\le
+C_N\bigl(M_P^{FE}(P'_{in})-M_P^{FE}(P'_{out})\bigr)
++C_N\int_{P'}dE_P^0 .
+\tag{TFE2748B.898}
+\]
+
+The second clause is the before-clipping selected log-carrier representation.
+On each bounded-overlap stopped active fibre \(E\subset P'\), the selected
+ratio has the form
+
+\[
+R_E={e^{b_E}\over \langle e^{b_E}\rangle_E},
+\qquad
+b_E=\int_E K_E\,dG_P^{root}-\psi_E+e_E ,
+\tag{TFE2748B.899}
+\]
+
+where \(K_E\) is the parent-known Hodge/heat/selector testing kernel, \(\psi_E\)
+is the same-parent normalizing potential, and \(e_E\) is paid by \(dE_P^0\).
+The required stopped exponential-BMO/Kazamaki margin is
+
+\[
+\int_E
+\exp\!\bigl((1+\varepsilon_N)|b_E-\langle b_E\rangle_E|\bigr)\,d\Lambda_E
+\le
+C_N\Lambda_E(E)+C_N\int_E dE_P^0 .
+\tag{TFE2748B.900}
+\]
+
+From `(TFE2748B.899)'--`(TFE2748B.900)' one obtains the reverse-Holder bound
+
+\[
+\int_E R_E^{1+\varepsilon_N}\,d\Lambda_E
+\le
+C_N\Lambda_E(E)+C_N\int_E dE_P^0 .
+\tag{TFE2748B.901}
+\]
+
+Since \(\Phi(r)=r\log(e+r)\le C_{\varepsilon_N}(1+r^{1+\varepsilon_N})\), this
+gives the parent active entropy estimate
+
+\[
+\int_E\Phi(R_E)\,d\Lambda_E
+\le
+C_N\Lambda_E(E)+C_N\int_EdE_P^0 .
+\tag{TFE2748B.902}
+\]
+
+The third clause is parent active thickness and terminal no-residue in the same
+measure:
+
+\[
+\Lambda_E(E)+dA_P^{sel/chart}(E)+dA_P^{end}(E)
+\le
+C_N\int_E d\Omega_P^{gen}+C_N\int_E dE_P^0 .
+\tag{TFE2748B.903}
+\]
+
+Together with `(TFE2748B.898)', this gives terminal-uniform finite parent
+thickness.  In particular, for every terminal collar \(E_\delta\downarrow
+E_{T_*}\),
+
+\[
+\lim_{\delta\downarrow0}\sup_{\tau<T_*}
+\bigl[
+\Lambda_{P,\tau}(E_\delta)
++A_{P,\tau}^{sel/chart}(E_\delta)
++A_{P,\tau}^{end}(E_\delta)
+\bigr]
+=0
+\tag{TFE2748B.904}
+\]
+
+outside the already routed entry, legal, stop, and paid endpoint ledger.
+
+Now sum `(TFE2748B.902)' over the stopped finite-overlap fibre cover and use
+`(TFE2748B.903)'--`(TFE2748B.904)'.  The before-clipping active-density
+comparison becomes
+
+\[
+\int_{P'}R_P^+\,d\Lambda_P
+\le
+C_N\int_{P'}d\Omega_P^{gen}
++C_N\int_{P'}dE_P^0 .
+\tag{TFE2748B.905}
+\]
+
+Combining `(TFE2748B.905)' with `(TFE2748B.897)' gives
+`(TFE2748B.892)'--`(TFE2748B.893)', hence `(TFE2748B.894)' and the selected
+capacity variation storage line.  Therefore the deterministic consumer chain
+below `(TFE2748B.895)' is closed by the local package
+
+\[
+\boxed{
+\texttt{local full-exchange storage `(TFE2748B.897)'}
++\texttt{ log-carrier exponential BMO `(TFE2748B.899)'--`(TFE2748B.900)'}
++\texttt{ active thickness/no-residue `(TFE2748B.903)'--`(TFE2748B.904)'.}
+}
+\tag{TFE2748B.906}
+\]
+
+The minimal-bad form is correspondingly sharp.  If `(TFE2748B.906)' fails after
+route, return, legal, stop, entry, and paid endpoint material are removed, then
+there is a normalized stopped sequence with
+
+\[
+\int_{P_n}d\Omega_{P_n}^{gen}=1,
+\qquad
+\int_{P_n}dE_{P_n}^0\to0,
+\qquad
+\int_{P_n}\bigl(d\Xi_{P_n}^{FE}-\theta_{FE}d\Omega_{P_n}^{gen}\bigr)
+\ge\eta_0>0 .
+\tag{TFE2748B.907}
+\]
+
+The bounded-channel generator face is already a parent-subtracted zero-cost
+rigidity consumer; derivative-announced reset faces are paid by the
+first-exit average/Cauchy-overlap mechanism; and time-thick terminal faces are
+removed by `(TFE2748B.904)'.  The only survivor of `(TFE2748B.907)' is a
+scale-native first-birth or terminal endpoint carrier whose selected critical
+size has not yet been dominated by a parent-known critical capacity before
+clipping:
+
+\[
+dA_{P,crit}^{birth,+}
++dA_P^{end,naked}
+\le
+C_N\,dCap_P^{crit,root}
++dE_P^0,
+\qquad
+\int_{P'}dCap_P^{crit,root}
+\le
+-dB_P^{crit}
+\theta_c d\Omega_P^{gen}
+dE_P^0,
+\tag{TFE2748B.908}
+\]
+
+with \(C_N\theta_c<1\) and \(B_P^{crit}\) bounded below from the original data.
+Thus the current nonduplicate bottom is not raw atom pairing, reverse Holder,
+dyadic counting, or repeated-core/reset routing.  It is the parent-known
+critical capacity lower admission plus root packing/time-thick endpoint
+domination in `(TFE2748B.908)'.  Proving `(TFE2748B.908)' from arbitrary original
+smooth coupled data gives the local source package `(TFE2748B.906)', hence
+`(TFE2748B.895)', `(TFE2748B.880)', and the critical capacity
+variation/storage line.
