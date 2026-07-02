@@ -10795,3 +10795,91 @@ are deterministic consumers after `(TFE2748B.683)', `(TFE2748B.685)', and
 construction of \(Z_P^S\), \(b_P=\log W_P^{crit}\), and the level reserve from
 the original coupled pressure-viscosity-incompressibility-velocity packet
 before positive clipping.
+
+## 81. Local atom-ledger domination is closed by parent-envelope choice
+
+The first clause in Section 80 is not an independent analytic wall once the atom
+ledger has been constructed before clipping.  Define the parent atom-envelope
+measure by
+
+\[
+d\mathfrak a_P
+:=
+(\mathrm{pr}_1)_\#d\Pi_P
++
+(\mathrm{pr}_2)_\#d\Pi_P
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.693}
+\]
+
+This measure is built from the same pre-clipping parent atom coupling
+\(\Pi_P=\pi_P\) of Section 78 and the paid ledgers.  It is not a descendant
+selected tail.  For every stopped parent atom union \(E\),
+
+\[
+\Pi_P(E)
+\le
+\mathfrak a_P(E^\ast),
+\tag{TFE2748B.694}
+\]
+
+where \(E^\ast\) is the union of the two parent projections of \(E\), enlarged
+by the fixed stopping collar.  Thus `(TFE2748B.683)' is closed after replacing
+\(d\mathfrak m_P\) by the atom-envelope part of the parent active measure:
+
+\[
+d\mathfrak m_P
+:=
+d\mathfrak a_P+d\mathfrak m_P^{gen},
+\tag{TFE2748B.695}
+\]
+
+with \(d\mathfrak m_P^{gen}\) reserved for generator/Fisher/full-exchange
+material already present in the parent packet.
+
+This closure is only a measure-custody closure.  It does not prove the
+selected-critical \(L^1\) line, because the level reserve becomes
+
+\[
+\int W_P^{crit}\,d\mathfrak a_P
+\simeq
+\int W_P^{crit}\,d\Pi_P
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{TFE2748B.696}
+\]
+
+which is exactly the selected atom-ledger bill unless it is paid by a separate
+parent storage or strict generator margin.  Therefore the noncircular source
+after Section 81 is no longer local domination of the atom ledger.  The
+remaining source clauses are
+
+\[
+\boxed{
+\begin{array}{c}
+\text{construct \(b_P=\log W_P^{crit}\) from the original coupled packet and
+prove stopped BMO/log-amplification,}\\
+\text{prove the parent level reserve for
+\(\int W_P^{crit}\,d\mathfrak a_P\) with strict \(C_N\theta<1\).}
+\end{array}}
+\tag{TFE2748B.697}
+\]
+
+Equivalently, the active Gold source has collapsed from the three clauses in
+`(TFE2748B.691)' to the two true original-data clauses
+
+\[
+\boxed{
+\texttt{ParentLogMeterBMO.A}
++
+\texttt{ParentAtomLevelReserve.A}
+\Longrightarrow
+\texttt{AtomLedgerSelectedCriticalUniformIntegrability.A.}
+}
+\tag{TFE2748B.698}
+\]
+
+Here `ParentAtomLevelReserve.A' is the full positive critical transfer /
+bounded-below same-material storage statement in the atom-ledger coordinate.
+It must be proved from the original pressure-viscosity-incompressibility-
+velocity packet; defining it as the future integral of
+\(W_P^{crit}\,d\Pi_P\) is the circular descendant-tail storage rejected above.
