@@ -20953,9 +20953,10 @@ Consequently
 \tag{TFE2748B.1370}
 \]
 
-Conversely, any such terminal super-capacitary atom yields a violating
-sequence for `(TFE2748B.1364)' by taking stopped terminal collars and reversing
-the normalization.  Hence
+Conversely, any such terminal super-capacitary atom which arises as a stopped
+compactified active-potential limit yields a violating sequence for
+`(TFE2748B.1364)' by taking stopped terminal collars and reversing the
+normalization.  Hence, inside the stopped active-potential failure class,
 
 \[
 \boxed{
