@@ -12837,3 +12837,130 @@ All four are same-parent failures of the retained material record before child
 clipping.  Proving `(TFE2748B.825)' from arbitrary original smooth data is now
 the exact remaining form of `TailMaterialRecordPayment.A' and hence, by
 `(TFE2748B.822)', of `CriticalCapacityVariationStorage.A'.
+
+## 95. Selected-carrier shape is not an independent fifth source
+
+The term \(\mathcal R_{\rm sel}^{shape}\) in `(TFE2748B.825)' needs one more
+audit.  After `(TFE2748B.824)' removes ordinary finite selector, collar,
+order-lock, and reselection motion, a surviving selector-shape defect can only
+mean that the represented selected positive carrier is not tight as a
+same-parent material record.  It is not a new physical account.
+
+Let \(\mu_n^{sel}\) be the represented nonnegative selected carrier on the
+extended same-carrier space
+
+\[
+C=\Omega\times\mathfrak L\times\mathfrak R,
+\tag{TFE2748B.827}
+\]
+
+where \(\Omega\) is normalized spacetime, \(\mathfrak L\) is the selector,
+cutoff, and packet-label coordinate, and \(\mathfrak R\) is the tower-rung and
+projection-label coordinate.  The selected-carrier tightness decomposition gives
+
+\[
+\mathcal R_{\rm sel}^{shape}
+\le
+C_N\bigl(
+K_{\rm dom}+K_{\rm lab}+K_{\rm rung}+K_{\rm ui}
+\bigr)
+d\Theta^0+dPaid+dStop .
+\tag{TFE2748B.828}
+\]
+
+Here \(K_{\rm dom}\) is domain, gauge, collar, or center escape;
+\(K_{\rm lab}\) is selector/cutoff/packet-label escape; \(K_{\rm rung}\) is
+tower-rung/projection-label escape; and \(K_{\rm ui}\) is failure of
+same-carrier uniform integrability on small moving terminal/collar sets.
+This is just Prokhorov tightness in the actual selected-carrier coordinates.
+
+The first three terms are already in the material-record tail currency.  Domain
+or gauge escape is either paid exterior/collar motion or Body-IV
+material-record loss; label escape is either the paid selector/reselection
+motion removed in `(TFE2748B.824)' or loss of finite label custody; and rung
+escape is exactly `(TFE2748B.651)'--`(TFE2748B.655)'.  Therefore
+
+\[
+K_{\rm dom}+K_{\rm lab}+K_{\rm rung}
+\le
+C_N\mathcal R_{\rm geom}^{tail}
+d\Theta^0+dPaid+dStop .
+\tag{TFE2748B.829}
+\]
+
+It remains to locate \(K_{\rm ui}\).  A same-carrier UI failure on a shrinking
+terminal or collar set is a terminal trace atom of the full Hodge-Stokes packet.
+The signed terminal trace balance routes such an atom as
+
+\[
+K_{\rm ui}
+\le
+C_N\bigl(
+\mathcal R_{\rm sat}
+\mathcal R_{\rm jump}
+\mathcal R_{\rm legal}^{sing}
+\bigr)
+d\Theta^0+dPaid+dStop .
+\tag{TFE2748B.830}
+\]
+
+Indeed, visible terminal loss is paid, a retained negative terminal
+countertrace is the signed-saturation branch, a positive storage atom is the
+endpoint jump branch, and collar/legal concentration is the singular legal
+branch.  No selected-shape atom remains after these four destinations are
+removed.
+
+Combining `(TFE2748B.828)'--`(TFE2748B.830)' gives
+
+\[
+\boxed{
+\mathcal R_{\rm sel}^{shape}
+\le
+C_N\bigl(
+\mathcal R_{\rm sat}
+\mathcal R_{\rm jump}
+\mathcal R_{\rm legal}^{sing}
+\mathcal R_{\rm geom}^{tail}
+\bigr)
+d\Theta^0+dPaid+dStop .
+}
+\tag{TFE2748B.831}
+\]
+
+Thus \(\mathcal R_{\rm sel}^{shape}\) is not an independent fifth source in
+the tail-material payment theorem.  The reduced source line equivalent to
+`(TFE2748B.825)' is
+
+\[
+\boxed{
+\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm legal}^{sing}
++\mathcal R_{\rm geom}^{tail}
+\le
+C_N(d\Theta^0+dPaid+dStop+2^{-N}D_N\,dt).
+}
+\tag{TFE2748B.832}
+\]
+
+The reduction is exact in both directions up to the fixed constant \(C_N\):
+`(TFE2748B.825)' trivially implies `(TFE2748B.832)' by dropping the nonnegative
+selector-shape term, while `(TFE2748B.832)' and `(TFE2748B.831)' imply
+`(TFE2748B.825)'.  Consequently the remaining arbitrary-data source is no
+longer "selector instability."  It is the terminal same-parent material-record
+anti-atom:
+
+\[
+\boxed{
+\text{signed-partner saturation}
+\ +\ \text{endpoint storage jump}
+\ +\ \text{singular legal/collar trace}
+\ +\ \text{geometry, tower-rung, or material-record escape}.
+}
+\tag{TFE2748B.833}
+\]
+
+This is still not the critical capacity storage theorem.  It is the next
+strict reduction of the theorem: proving `(TFE2748B.832)' from arbitrary
+original smooth data proves `TailMaterialRecordPayment.A', hence
+`CriticalCapacityVariationStorage.A' by `(TFE2748B.822)'.
