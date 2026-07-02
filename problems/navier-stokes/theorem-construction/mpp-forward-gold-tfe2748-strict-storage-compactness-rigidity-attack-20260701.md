@@ -18609,7 +18609,7 @@ low-high face is parent-known first-ratio detector domination.  Therefore
 \boxed{
 \begin{array}{c}
 \texttt{EndpointTimeThickDomination.A}\\
-+\texttt{TowerSignedPartnerStorage.A}\\
++\texttt{TowerSignedPartnerCoordinate.A}\\
 +\texttt{LowHighFirstRatioParentDetectorDomination.A}\\
 +\texttt{FullExchangeNoSelfFeedingStorage.A}
 \end{array}
@@ -18629,7 +18629,7 @@ parent faces:
 \Longrightarrow
 \neg\texttt{EndpointTimeThickDomination.A}
 \vee
-\neg\texttt{TowerSignedPartnerStorage.A}
+\neg\texttt{TowerSignedPartnerCoordinate.A}
 \vee
 \neg\texttt{LowHighFirstRatioParentDetectorDomination.A}
 \vee
@@ -18863,7 +18863,7 @@ Thus the current edge after this construction is
 \tag{TFE2748B.1230}
 \]
 
-The old phrase `TowerSignedPartnerStorage.A' should now be read as the raw
-attachment theorem `(TFE2748B.1227)' plus the selected-weighted reserve
-`(TFE2748B.1229)'.  The raw atom decomposition, coefficient/leakage control, and
-retained opposite-lobe reserve depletion are no longer the unresolved part.
+The tower coordinate should now be read as the raw attachment theorem
+`(TFE2748B.1227)' plus the selected-weighted reserve `(TFE2748B.1229)'.  The raw
+atom decomposition, coefficient/leakage control, and retained opposite-lobe
+reserve depletion are no longer the unresolved part.
