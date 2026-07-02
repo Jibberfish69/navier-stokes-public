@@ -1,8 +1,8 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-07-02T22:33:51Z'
-started_at: '2026-07-02T22:33:49Z'
+generated_at: '2026-07-02T22:34:12Z'
+started_at: '2026-07-02T22:34:05Z'
 status: failed
 purpose: Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into
   the human/app-aligned TeX/PDF path, export the separate Codex Clay-facing paper,
@@ -24,14 +24,23 @@ commands:
   - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
   - problems/navier-stokes/tools/build_current_material_coverage.rb
   - "--check"
+  success: true
+  exitstatus: 0
+  stdout_tail: CURRENT_MATERIAL_COVERAGE_CHECK 2122
+  stderr_tail: ''
+- label: surPart/Field derivation appendix check
+  argv:
+  - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
+  - problems/navier-stokes/tools/build_surface_derivation_appendix.rb
+  - "--check"
   success: false
   exitstatus: 1
   stdout_tail: ''
-  stderr_tail: current-material coverage audit is stale; rerun problems/navier-stokes/tools/build_current_material_coverage.rb
+  stderr_tail: surface-derivation inventory is stale; rerun problems/navier-stokes/tools/build_surface_derivation_appendix.rb
 export_result:
 gates:
 - gate_id: runner-exception
   status: failed
   errors:
-  - 'current material coverage check failed: current-material coverage audit is stale;
-    rerun problems/navier-stokes/tools/build_current_material_coverage.rb'
+  - 'surPart/Field derivation appendix check failed: surface-derivation inventory
+    is stale; rerun problems/navier-stokes/tools/build_surface_derivation_appendix.rb'
