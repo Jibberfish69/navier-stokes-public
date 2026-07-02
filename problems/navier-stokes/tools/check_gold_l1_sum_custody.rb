@@ -63,7 +63,7 @@ COUPLED_STORAGE_AUDIT_REQUIRED_MARKERS = [
 ].freeze
 
 SUM_TOKEN = /
-  \\?sum_(?:j|Q|ell|\\ell|alpha|\\alpha)|
+  (?:sum_|\\sum_)(?:j|Q|ell|\\ell|alpha|\\alpha)|
   \\sum(?:\\limits)?_\{?\s*(?:j|Q|ell|\\ell|alpha|\\alpha)|
   ∑|
   dyadic\s+sum\s+over\s+(?:shells|children|atoms|packet\s+labels|point\s+samples)
