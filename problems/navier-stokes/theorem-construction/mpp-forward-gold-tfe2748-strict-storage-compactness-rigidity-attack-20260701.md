@@ -4902,7 +4902,7 @@ The Gold upgrade is the root-finite weighted bound for this same atom mass:
 M_P^{J,S}
 \le
 C\,\mathcal V_P^{global}
-+d\Theta_P^0+dPaid_P+dStop_P,
++(d\Theta_P^0+dPaid_P+dStop_P)(X_P),
 \tag{TFE2748B.311}
 \]
 
@@ -4915,16 +4915,22 @@ notation it is `(TFE2748B.291)'; in the minimal-bad branch it is
 If `(TFE2748B.311)' is proved, set
 
 \[
-M_P^{crit}:=
-C\,\mathcal V_P^{global}
-+d\Theta_P^0+dPaid_P+dStop_P
--
-dJ_{P,atom}^{ret,-}\bigl(X_P\cap\{s\le \tau\}\bigr).
+M_P^{crit}(\tau):=M_P^{atom}(\tau).
 \tag{TFE2748B.312}
 \]
 
-Then \(M_P^{crit}\ge -C_N(u_0)\) after the paid finite-variation pieces are
-absorbed, and
+Then \(M_P^{crit}\ge0\), while `(TFE2748B.311)' gives the required root-finite
+initial size
+
+\[
+M_P^{crit}(0)
+\le
+C\,\mathcal V_P^{global}
++(d\Theta_P^0+dPaid_P+dStop_P)(X_P).
+\tag{TFE2748B.312a}
+\]
+
+Moreover
 
 \[
 dJ_{P,atom}^{ret,-}
