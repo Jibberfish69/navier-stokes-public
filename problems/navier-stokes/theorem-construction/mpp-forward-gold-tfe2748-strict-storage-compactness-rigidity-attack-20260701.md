@@ -10883,3 +10883,204 @@ bounded-below same-material storage statement in the atom-ledger coordinate.
 It must be proved from the original pressure-viscosity-incompressibility-
 velocity packet; defining it as the future integral of
 \(W_P^{crit}\,d\Pi_P\) is the circular descendant-tail storage rejected above.
+
+## 82. Consolidated proof of the pre-clipping signed atom construction
+
+The requested signed atom construction is not a remaining Gold source.  It is
+the raw parent-level theorem already proved in Sections 29, 37, 41, 51, 72, and
+78.  This section records the construction in the current edge notation so that
+the live wall cannot drift back to atom attachment.
+
+Fix a stopped compact preterminal parent packet \(P\) and work in its material
+chart.  Pull the pressure-Hodge/material residue and any selected detector into
+the parent adjoint before taking a positive part.  Separate route, collar,
+metric, Hodge-commutator, detector-motion, legal, stop, and endpoint leakage
+into \(dR_P\).  The retained pre-clipping residue has the form
+
+\[
+dJ_P=dJ_P^0+dR_P,
+\qquad
+\int_{X_P}dJ_P^0=0,
+\qquad
+|dR_P|\le d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.699}
+\]
+
+The zero-mass clause is the parent-frame version of pressure as a constraint
+force: after the already paid boundary and frame terms are removed, the
+pressure-Hodge part redistributes the same parent packet and carries no
+standalone positive mass.
+
+For the actual smooth Navier--Stokes pressure source, in the stopped chart one
+may write the retained density as
+
+\[
+F_P(t,a)\,da
+:=
+\chi_P(a)\mathcal T_P
+\bigl(\partial_i u_j\,\partial_j u_i\bigr)(t,a)\,da
+-
+\bigl\langle
+\chi_P\mathcal T_P
+\bigl(\partial_i u_j\,\partial_j u_i\bigr)
+\bigr\rangle_{X_P}\,da ,
+\tag{TFE2748B.700}
+\]
+
+with all terms produced by \(\nabla\chi_P\), metric motion, stopping, collar
+motion, and selected-adjoint motion placed in \(dR_P\).  The div-curl Hardy
+estimate gives
+
+\[
+\|F_P(t)\|_{\mathcal H^1(X_P)}
+\le
+C_N\|\nabla u(t)\|_2^2
++dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t).
+\tag{TFE2748B.701}
+\]
+
+Hence the local Hardy atomic decomposition in the stopped parent chart gives
+same-parent atoms \(a_{\alpha,t}\) and coefficients \(c_\alpha(t)\) such that
+
+\[
+F_P(t,a)\,da
+=
+\sum_\alpha c_\alpha(t)a_{\alpha,t}(a)\,da,
+\qquad
+\int_{X_P}a_{\alpha,t}(a)\,da=0,
+\tag{TFE2748B.702}
+\]
+
+and
+
+\[
+\sum_\alpha |c_\alpha(t)|
++ |(dR_P)_+|(t)
+\le
+C_N\|\nabla u(t)\|_2^2
++dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t).
+\tag{TFE2748B.703}
+\]
+
+Integrating in time and using the Leray energy inequality gives the raw
+coefficient/leakage control
+
+\[
+\int_0^\tau\sum_\alpha |c_\alpha(t)|\,dt
++\int_0^\tau |(dR_P)_+|(t)
+\le
+C_N{\|u_0\|_2^2\over \nu}
++Paid_P+Legal_P+Stop_P,
+\qquad \tau<T_* .
+\tag{TFE2748B.704}
+\]
+
+Equivalently, after simple-measure approximation of the atom ledger, the
+pre-clipping residue is
+
+\[
+dJ_P
+=
+\sum_\alpha c_\alpha\,d\mu_\alpha+dR_P,
+\qquad
+\int_{X_P}d\mu_\alpha=0,
+\tag{TFE2748B.705}
+\]
+
+with coefficients and leakage controlled by `(TFE2748B.703)'--`(TFE2748B.704)'.
+The continuum transport-plan version is obtained by taking the Jordan split of
+\(dJ_P^0\),
+
+\[
+dJ_P^0=dJ_P^+-dJ_P^-,
+\qquad
+dJ_P^+(X_P)=dJ_P^-(X_P)=m_P,
+\tag{TFE2748B.706}
+\]
+
+and choosing a same-parent coupling \(\pi_P\) of \(dJ_P^+\) to \(dJ_P^-\):
+
+\[
+dJ_P^0
+=
+\int_{X_P\times X_P}(\delta_x-\delta_y)\,d\pi_P(x,y),
+\qquad
+\pi_P(X_P\times X_P)=m_P={1\over2}|dJ_P^0|(X_P).
+\tag{TFE2748B.707}
+\]
+
+Both `(TFE2748B.705)' and `(TFE2748B.707)' are pre-clipping parent
+decompositions.  No child positive part, selected future tail, or descendant
+renormalized unit is used to choose the atoms.
+
+For each signed atom
+
+\[
+\nu_\alpha:=c_\alpha\,d\mu_\alpha
+=\nu_\alpha^+-\nu_\alpha^-,
+\tag{TFE2748B.708}
+\]
+
+the zero mean gives equal lobe mass in the same stopped parent packet:
+
+\[
+\nu_\alpha^+(X_P)=\nu_\alpha^-(X_P).
+\tag{TFE2748B.709}
+\]
+
+Thus the positive lobe is attached to its opposite retained lobe on the atom
+ledger:
+
+\[
+(dJ_P)_+
+\preceq_{atom}
+dJ_P^{ret,-}+(dR_P)_+,
+\qquad
+dJ_P^{ret,-}:=\sum_\alpha \nu_\alpha^- .
+\tag{TFE2748B.710}
+\]
+
+The comparison \(\preceq_{atom}\) is a paired same-parent comparison, not a
+pointwise domination between two unrelated spatial locations.
+
+Now define the raw retained-lobe reserve by
+
+\[
+M_P^{raw}(\tau)
+:=
+C_N{\|u_0\|_2^2\over\nu}
++Paid_P+Legal_P+Stop_P
+-dJ_P^{ret,-}\bigl([0,\tau]\times X_P\bigr).
+\tag{TFE2748B.711}
+\]
+
+By `(TFE2748B.704)',
+
+\[
+M_P^{raw}(\tau)\ge0,
+\qquad
+-dM_P^{raw}=dJ_P^{ret,-}
+\quad\text{on retained parent atoms.}
+\tag{TFE2748B.712}
+\]
+
+Therefore arbitrary original smooth data supplies, before clipping, the
+same-parent signed atomic decomposition, coefficient/leakage control, and a
+bounded-below parent reserve whose depletion is exactly the retained opposite
+lobe:
+
+\[
+\boxed{
+\texttt{SignedPressureHodgeAtomicAttachment.A}
+\text{ is closed at the raw parent level by `(TFE2748B.699)'--`(TFE2748B.712)'.}
+}
+\tag{TFE2748B.713}
+\]
+
+This closes the exact burden requested here.  The remaining Gold source is the
+selected-critical upgrade, because the root-size required for
+\(\int W_P^{crit}\,d\Pi_P\) is stronger than the raw reserve
+`(TFE2748B.711)'.  That upgrade is precisely
+`ParentLogMeterBMO.A + ParentAtomLevelReserve.A' from `(TFE2748B.697)'--`(TFE2748B.698)',
+or equivalently the parent Orlicz uniform-integrability line
+`(TFE2748B.676)'.
