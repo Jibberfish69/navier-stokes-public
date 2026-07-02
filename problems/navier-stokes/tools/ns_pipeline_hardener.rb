@@ -51,6 +51,7 @@ HUMAN_SUBMISSION_PDF_PATH = SUBMISSION_BUNDLE_ROOT.join("navier-stokes-human-sub
 CODEX_MACHINE_MAIN_TEX_PATH = ROOT.join("papers/navier-stokes/manuscript/generated/main.tex").freeze
 CODEX_MACHINE_PDF_PATH = ROOT.join("papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf").freeze
 GOLD_L1_AUTHORITY_GUARD_PATH = PROBLEM_ROOT.join("tools/check_gold_l1_authority_overclaim.rb").freeze
+GOLD_L1_SUM_CUSTODY_GUARD_PATH = PROBLEM_ROOT.join("tools/check_gold_l1_sum_custody.rb").freeze
 CURRENT_GRADIENT_CONTROL_SURFACE = "problems/navier-stokes/theorem-construction/gradient-control-bridge-discharge.md"
 
 TARGET_OPERATING_CONTRACT = YAML.load_file(TARGET_OPERATING_CONTRACT_PATH.to_s).freeze
@@ -144,6 +145,18 @@ def run_gold_l1_authority_guard!
 
   warn stderr
   raise "Gold L1 authority overclaim guard failed"
+end
+
+def run_gold_l1_sum_custody_guard!
+  stdout, stderr, status = Open3.capture3(
+    { "NS_GOLD_L1_GUARD_ROOT" => ROOT.to_s },
+    RbConfig.ruby,
+    GOLD_L1_SUM_CUSTODY_GUARD_PATH.to_s
+  )
+  return stdout if status.success?
+
+  warn stderr
+  raise "Gold L1 sum-custody guard failed"
 end
 
 def load_yaml(path)
@@ -1916,6 +1929,7 @@ def refresh!
     build_warrant_compilation(route_lock, warrant, campaign, proof_assembly)
   )
   run_gold_l1_authority_guard!
+  run_gold_l1_sum_custody_guard!
 
   "REFRESH_OK_DIRECT_LIVE"
 end
