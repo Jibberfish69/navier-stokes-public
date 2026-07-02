@@ -8374,6 +8374,10 @@ The global energy inequality supplies the missing lower-band coefficient bound:
 \tag{TFE2748B.531}
 \]
 
+On the retained high-shell range \(k>N-C\) with \(N\) chosen above the fixed
+low-frequency cutoff, \(2^{-k}\le 2^k\).  Thus the corrected coefficient is
+strictly no larger than the source-square weight used in \(\mathcal R_{N-C}\).
+
 Therefore
 
 \[
