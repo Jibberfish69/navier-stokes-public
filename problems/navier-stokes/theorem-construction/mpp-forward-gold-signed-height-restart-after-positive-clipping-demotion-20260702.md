@@ -128,13 +128,11 @@ are now demoted to sufficient stress tests unless a separate physical
 sign-persistence/depletion theorem is proved first. They may not be used as the
 primitive Gold source object.
 
-The live restart is:
+The live restart is to control the signed critical height in `(SHR.3)' by the
+physical mechanism that governs sign persistence and peak height:
 
 \[
-\boxed{
-\text{control the signed critical height `(SHR.3)' by the physical mechanism
-that governs sign persistence and peak height.}
-}
+\sup_{t<T}\mathcal H_{1/2}(t)<\infty .
 \tag{SHR.7}
 \]
 
