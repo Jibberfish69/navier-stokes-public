@@ -2,7 +2,13 @@
 version: 1
 problem_id: navier-stokes
 generated_at: '2026-07-01T22:23:07Z'
-status: exported
+status: exported-stale-not-submission-ready
+current_authority_override_20260702: >-
+  Export artifacts exist, but they are not submission-ready theorem authority.
+  The current Gold L1 source wall is the noncircular same-parent coupled
+  active-capacity/full-exchange storage theorem; the paper/export route remains
+  conditional until that parent-storage object is proved and regenerated into
+  the bundle.
 manual_gold_correction:
   updated_at: '2026-07-01T20:01:37Z'
   status: exported-bundle-stale-not-submission-ready-pending-tfe2748b-original-critical-capacity-variation

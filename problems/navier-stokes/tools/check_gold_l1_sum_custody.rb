@@ -30,6 +30,32 @@ AUTHORITY_MARKERS = {
     "current_gold_l1_coupled_storage_loop_audit_20260702",
     "current_gold_l1_coupled_storage_loop_correction_20260702",
     COUPLED_STORAGE_AUDIT_PATH
+  ],
+  "problems/navier-stokes/theorem-packet.yaml" => [
+    "current_authority_override_20260702",
+    "summation-type custody audit",
+    "TFE2748B coupled-storage loop audit",
+    "noncircular same-parent coupled"
+  ],
+  "problems/navier-stokes/submission-bundle/submission-export-status.yaml" => [
+    "current_authority_override_20260702",
+    "exported-stale-not-submission-ready",
+    "noncircular same-parent coupled"
+  ],
+  "problems/navier-stokes/submission-bundle/submission-verdict.yaml" => [
+    "current_authority_override_20260702",
+    "Submission readiness remains false",
+    "noncircular same-parent coupled"
+  ],
+  "problems/navier-stokes/submission-bundle/current-material-coverage.yaml" => [
+    "current_authority_override_20260702",
+    "provenance/coverage bookkeeping only",
+    "noncircular same-parent coupled"
+  ],
+  "problems/navier-stokes/submission-bundle/surface-derivation-inventory.yaml" => [
+    "current_authority_override_20260702",
+    "not a closure surface",
+    "noncircular same-parent coupled"
   ]
 }.freeze
 
