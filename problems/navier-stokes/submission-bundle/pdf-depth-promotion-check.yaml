@@ -1,9 +1,9 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-07-02T22:34:41Z'
-started_at: '2026-07-02T22:34:23Z'
-status: failed
+generated_at: '2026-07-02T22:35:52Z'
+started_at: '2026-07-02T22:35:25Z'
+status: passed
 purpose: Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into
   the human/app-aligned TeX/PDF path, export the separate Codex Clay-facing paper,
   and fail unless both required PDF tracks visibly carry their distinct proof roles.
@@ -50,17 +50,49 @@ commands:
   argv:
   - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
   - problems/navier-stokes/tools/check_gold_l1_sum_custody.rb
-  success: false
-  exitstatus: 1
-  stdout_tail: ''
-  stderr_tail: |-
-    problems/navier-stokes/submission-bundle/current-material-coverage.yaml: missing sum custody marker signed critical-height sign-persistence / peak-height theorem
-    problems/navier-stokes/submission-bundle/surface-derivation-inventory.yaml: missing sum custody marker signed critical-height sign-persistence / peak-height theorem
+  success: true
+  exitstatus: 0
+  stdout_tail: GOLD_L1_SUM_CUSTODY OK
+  stderr_tail: ''
+- label: PDF argument hygiene
+  argv:
+  - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
+  - problems/navier-stokes/tools/check_pdf_argument_hygiene.rb
+  success: true
+  exitstatus: 0
+  stdout_tail: 'PDF_ARGUMENT_HYGIENE OK: current reader-facing source architecture
+    is anchored and scan-clean.'
+  stderr_tail: ''
+- label: PDF output topology
+  argv:
+  - "/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby"
+  - problems/navier-stokes/tools/check_pdf_output_topology.rb
+  success: true
+  exitstatus: 0
+  stdout_tail: 'PDF_OUTPUT_TOPOLOGY OK: human/app-aligned PDF problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    and papers/Codex PDF papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+    are both present, separate, and topology-valid.'
+  stderr_tail: ''
 export_result:
 gates:
-- gate_id: runner-exception
-  status: failed
-  errors:
-  - |-
-    Gold L1 signed-height custody failed: problems/navier-stokes/submission-bundle/current-material-coverage.yaml: missing sum custody marker signed critical-height sign-persistence / peak-height theorem
-    problems/navier-stokes/submission-bundle/surface-derivation-inventory.yaml: missing sum custody marker signed critical-height sign-persistence / peak-height theorem
+- gate_id: current-material-coverage-complete
+  status: passed
+  checked_text_files_outside_existing_union: 2122
+  family_count_sum: 2122
+  errors: []
+- gate_id: source-depth-appendices-materialized-in-tex
+  status: passed
+  source_field_word_count: 662660
+  surface_derivation_expansion_rows: 5255
+  main_tex: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  errors: []
+- gate_id: dual-pdf-track-rendered-depth-readback
+  status: passed
+  preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+  pdf_tracks:
+    human_app_aligned: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    codex_machine_paper: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  papers_pdf_pages: 20
+  human_pdf_pages: 1668
+  sha256: 38cf42af12cd7d35fb3967e8c5a0c27a20f48c80cccc467ca6c49e72b57cd860
+  errors: []
