@@ -3701,3 +3701,103 @@ pressure, and incompressibility enter only as one coupled packet law here:
 proving `(TFE2748B.224)' is exactly proving that their same-parent transaction
 deletes high active tails faster than it can re-coordinate them into new
 selected positive level bills.
+
+## 33. Continuous half-tail countercheck for the raw atom theorem
+
+The raw atom construction cannot be promoted to selected \(L^1\) storage by
+changing notation.  The exact parent-measure countercheck is continuous.
+
+Let the parent active parameter be \(s\in(0,e^{-2})\), let
+
+\[
+d\nu^{atom}(s)=ds,
+\qquad
+W(s)={1\over s},
+\tag{TFE2748B.232}
+\]
+
+and for each \(s\) choose a smooth same-parent zero-mean atom
+
+\[
+d\mu_s=\varphi_s^+\,dx-\varphi_s^-\,dx,
+\qquad
+\int\varphi_s^+\,dx=\int\varphi_s^-\,dx=1,
+\qquad
+\operatorname{supp}\varphi_s^\pm\subset X_P .
+\tag{TFE2748B.233}
+\]
+
+The signed pressure-Hodge shadow
+
+\[
+dJ^0=\int_0^{e^{-2}} d\mu_s\,ds
+\tag{TFE2748B.234}
+\]
+
+has finite raw atom mass:
+
+\[
+\int_0^{e^{-2}}d\nu^{atom}(s)=e^{-2}<\infty .
+\tag{TFE2748B.235}
+\]
+
+Every positive lobe has its same-parent opposite lobe, so the raw partner
+depletion statement of Section 29 is satisfied.  But the selected active bill is
+
+\[
+\int_0^{e^{-2}}W(s)\,d\nu^{atom}(s)
+=
+\int_0^{e^{-2}}{ds\over s}
+=\infty .
+\tag{TFE2748B.236}
+\]
+
+Equivalently, the active tail is
+
+\[
+N(\lambda)
+=
+\nu^{atom}\{W>\lambda\}
+=
+{1\over\lambda},
+\qquad
+\lambda>e^2,
+\tag{TFE2748B.237}
+\]
+
+so
+
+\[
+N(2\lambda)={1\over2}N(\lambda).
+\tag{TFE2748B.238}
+\]
+
+This is the exact half-barrier.  A recurrence with \(\theta<1/2\) and integrable
+paid tail cannot be derived from finite raw atom mass, same-parent lobe pairing,
+or signed \(H^1\)-BMO cancellation alone, because all three are present in
+`(TFE2748B.232)'--`(TFE2748B.238)'.
+
+This is not an asserted Navier--Stokes bad solution.  It is a model of the
+information supplied by the currently proved raw estimates.  It proves that the
+missing theorem must add one genuinely new original-data fact:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{the parent coupled packet must supply either the strict tail recurrence}
+\\
+\text{`(TFE2748B.224)' or an equivalent parent \(L\log L\)/reverse-Holder
+active-entropy bound}
+\\
+\text{for the selected atom measure before child clipping.}
+\end{array}}
+\tag{TFE2748B.239}
+\]
+
+In physical terms, the finite raw atom theorem says every pressure lobe has its
+same-parent opposite lobe and finite unweighted budget.  The critical storage
+line needs more: it must prove that the same coupled pressure-viscosity-
+incompressibility packet cannot place finite raw pressure material on a
+continuum of higher and higher active prices with exactly half-tail scaling.
+That is the strict parent-active entropy/variation content of
+`OriginalCriticalCapacityVariation.A`.
