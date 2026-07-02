@@ -50,7 +50,7 @@ chunk:
     text: |+
       \subsection{Manuscript-Grade Periodic Theorem Sequence: Final Order}
 
-      For every smooth divergence-free zero-mean datum on T 3, the unforced three-dimensional incompressible Navier-Stokes equations have a global smooth solution.
+      Conditional on the noncircular same-parent coupled active-capacity/full-exchange storage theorem, smooth divergence-free zero-mean data on T 3 have the periodic continuation consequence.
 
       The high-frequency cascade is controlled on every finite classical interval. The proof splits the nonlinear transfer into low-mode, threshold-spill, and high-high packets; absorbs the high-high packet by the enstrophy half-tail; and applies the fixed-threshold scheduler.
 
@@ -84,7 +84,7 @@ chunk:
 
       The averaged endpoint package gives a readout cover. On that cover, averaged field and tower bounds recover the pointwise endpoint package. The pointwise endpoint package gives a uniform H s(T 3) bound for some s>5/2; periodic local theory extends the solution past any finite endpoint.
 
-      Smooth divergence-free zero-mean data on T 3 generate a unique global smooth periodic Navier-Stokes solution.
+      Smooth divergence-free zero-mean data on T 3 generate a unique global smooth periodic Navier-Stokes solution only as the conditional consequence of the coupled same-parent storage input.
 
       Internal labels may appear in parenthetical dependency references only. The main proof should use the four lemma titles above.
 
@@ -391,7 +391,7 @@ chunk:
   context_excerpt: |+
     \subsection{Manuscript-Grade Periodic Theorem Sequence: Final Order}
 
-    For every smooth divergence-free zero-mean datum on T 3, the unforced three-dimensional incompressible Navier-Stokes equations have a global smooth solution.
+    Conditional on the noncircular same-parent coupled active-capacity/full-exchange storage theorem, smooth divergence-free zero-mean data on T 3 have the periodic continuation consequence.
 
     The high-frequency cascade is controlled on every finite classical interval. The proof splits the nonlinear transfer into low-mode, threshold-spill, and high-high packets; absorbs the high-high packet by the enstrophy half-tail; and applies the fixed-threshold scheduler.
 
@@ -415,7 +415,7 @@ chunk:
 
     The averaged endpoint package gives a readout cover. On that cover, averaged field and tower bounds recover the pointwise endpoint package. The pointwise endpoint package gives a uniform H s(T 3) bound for some s>5/2; periodic local theory extends the solution past any finite endpoint.
 
-    Smooth divergence-free zero-mean data on T 3 generate a unique global smooth periodic Navier-Stokes solution.
+    Smooth divergence-free zero-mean data on T 3 generate a unique global smooth periodic Navier-Stokes solution only as the conditional consequence of the coupled same-parent storage input.
 
     Internal labels may appear in parenthetical dependency references only. The main proof should use the four lemma titles above.
 

@@ -99,7 +99,7 @@ chunk:
     text: |+
       \subsection{R3 Conditional state And T3 Closure Boundary}
 
-      The R 3 extension branch is organized but remains conditional. The periodic T 3 branch remains the closed theorem-program surface.
+      The R 3 extension branch is organized but remains conditional. The periodic T 3 branch is also conditional on the coupled same-parent storage input.
 
       \[
       TailFace_{R^3}^{Hs}.
@@ -481,7 +481,7 @@ chunk:
 
     \subsection{R3 Conditional state And T3 Closure Boundary}
 
-    The R 3 extension branch is organized but remains conditional. The periodic T 3 branch remains the closed theorem-program surface.
+    The R 3 extension branch is organized but remains conditional. The periodic T 3 branch is also conditional on the coupled same-parent storage input.
 
     \[
     TailFace_{R^3}^{Hs}.
