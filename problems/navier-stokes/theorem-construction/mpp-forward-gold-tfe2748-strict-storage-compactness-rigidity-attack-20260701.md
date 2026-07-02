@@ -11143,12 +11143,22 @@ M_P^{FE,crit}\ge -C_N(u_0)\mathcal R(P)-Paid(P)-Stop(P).
 \tag{TFE2748B.716}
 \]
 
-This is the atom-ledger projection of the full-exchange critical-depletion
-storage theorem \(TFE2426\).  The first summand in `(TFE2748B.714)' is the
-parent level reserve; the second summand is the stopped log-meter
-square-variation/BMO reserve.  They are two readouts of the same
-pressure-viscosity-incompressibility-velocity participation packet, not
-separate accounts.
+The same stopped full-exchange parent measure also carries the root thickness
+needed by the BMO average:
+
+\[
+\mathcal R(P')
+\le
+C_N\mathfrak m_P(P')+dPaid_P(P')+dStop_P(P').
+\tag{TFE2748B.716a}
+\]
+
+Equations `(TFE2748B.715)'--`(TFE2748B.716a)' are the atom-ledger projection of
+the full-exchange critical-depletion storage theorem \(TFE2426\).  The first
+summand in `(TFE2748B.714)' is the parent level reserve; the second summand is
+the stopped log-meter square-variation/BMO reserve.  They are two readouts of
+the same pressure-viscosity-incompressibility-velocity participation packet,
+not separate accounts.
 
 The implication back to Section 80 is immediate.  Dropping the nonnegative BMO
 summand in `(TFE2748B.714)' gives
@@ -11175,10 +11185,10 @@ C_N(u_0)\mathfrak m_P(P')
 \tag{TFE2748B.718}
 \]
 
-after the local parent-thickness comparison
-\(\mathcal R(P')\lesssim\mathfrak m_P(P')+Paid(P')\) from the stopped parent
-chart is inserted.  Dividing by \(\mathfrak m_P(P')\) gives
-`(TFE2748B.685)'.  Therefore
+after `(TFE2748B.716a)' is inserted.  Dividing by \(\mathfrak m_P(P')\) gives
+`(TFE2748B.685)'.  Thus the thickness needed for the BMO average is not a
+separate hidden assumption; it is part of the same full-exchange active measure
+construction.  Therefore
 
 \[
 \boxed{
