@@ -49,7 +49,8 @@ active-transit/full-exchange pair:
 
 Thus `(CSA.1)' and `(CSA.2)' cannot be read as a sequential proof unless one of
 the following is installed independently from the original coupled packet before
-child clipping:
+child clipping. In short: the loop needs an independent proof of one face or a
+simultaneous strict coupled storage inequality.
 
 1. `TFE2748B.1541a' without using `FullExchangeNoSelfFeedingStorage.A';
 2. `FullExchangeNoSelfFeedingStorage.A' without using `TFE2748B.1541a';
