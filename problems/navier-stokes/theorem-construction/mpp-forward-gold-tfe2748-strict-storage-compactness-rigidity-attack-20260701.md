@@ -20268,3 +20268,192 @@ on the original coupled packet to supply `(TFE2748B.1320)': every zero-baseline
 scale-native first-entry or naked endpoint selected read must leave a root
 critical capacity atom with finite root packing before the child positive part
 is counted.
+
+## 147. Repair: the atom construction is closed; the live source is active-potential capacity
+
+The supplied signed-measure request is already discharged at the raw
+pre-clipping level.  The construction is not a new Gold source theorem.
+
+Fix a stopped preterminal parent packet \(P\), a stopped interval
+\([0,\tau]\), and the pre-clipping pressure-Hodge/material residue after route,
+collar, endpoint, metric, Hodge-frame, detector-motion, legal, stop, and paid
+terms have been separated.  In the stopped parent frame,
+
+\[
+dJ_P=dJ_P^0+dR_P,\qquad dJ_P^0(t,X_P)=0,\qquad
+|dR_P|\le d\Theta_P^0+dPaid_P+dLegal_P+dStop_P .
+\tag{TFE2748B.1322}
+\]
+
+For arbitrary original smooth data the local pressure equation
+\(-\Delta p=\partial_i u_j\partial_j u_i\), pulled back to the stopped parent
+chart and packet-average subtracted, gives the finite Hardy/Jordan parent
+measure used in Sections 37, 105, 120, and 143.  Thus
+
+\[
+dJ_P^0=dJ_{P,+}^0-dJ_{P,-}^0,
+\qquad
+dJ_{P,+}^0(X_P)=dJ_{P,-}^0(X_P)=m_P^J .
+\tag{TFE2748B.1323}
+\]
+
+Choose the same-parent coupling
+
+\[
+d\Pi_P(t,x,y)
+=
+\begin{cases}
+{dJ_{P,+}^0(t,x)dJ_{P,-}^0(t,y)\over m_P^J(t)},&m_P^J(t)>0,\\[4pt]
+0,&m_P^J(t)=0 .
+\end{cases}
+\tag{TFE2748B.1324}
+\]
+
+Then for every parent-measurable test \(\varphi\),
+
+\[
+\int\varphi\,dJ_P^0
+=
+\iiint\bigl(\varphi(t,x)-\varphi(t,y)\bigr)\,d\Pi_P(t,x,y),
+\qquad
+dJ_P^0
+=
+\int(\delta_x-\delta_y)\,d\Pi_P(t,x,y).
+\tag{TFE2748B.1325}
+\]
+
+This is the exact same-parent atomic decomposition.  Countable atom displays
+are simple-measure approximations of the transport measure \(d\Pi_P\), not the
+physical counting unit.  The coefficient mass and leakage obey
+
+\[
+\Pi_P([0,\tau]\times X_P\times X_P)
++ |(dR_P)_+|([0,\tau]\times X_P)
+\le
+C_N{\|u_0\|_2^2\over\nu}
++\Theta_P^0([0,\tau])+Paid_P([0,\tau])
++Legal_P([0,\tau])+Stop_P([0,\tau]).
+\tag{TFE2748B.1326}
+\]
+
+For every parent-announced selector \(0\le\omega_P(t,x)\le1\) fixed before
+positive child clipping, define the retained opposite lobe by
+
+\[
+dJ_{P,\omega}^{ret,-}
+:=
+(\operatorname{time},\operatorname{pr}_2)_\#
+\bigl(\omega_P(t,x)\,d\Pi_P(t,x,y)\bigr).
+\tag{TFE2748B.1327}
+\]
+
+The selected positive lobe and the retained opposite lobe are the two marginals
+of the same parent atom ledger:
+
+\[
+\omega_P(dJ_P)_+
+\preceq_{atom}
+dJ_{P,\omega}^{ret,-}
+\omega_P(dR_P)_+ .
+\tag{TFE2748B.1328}
+\]
+
+Let
+
+\[
+B_P^{atom}(\tau)
+:=
+C_N{\|u_0\|_2^2\over\nu}
++\Theta_P^0([0,\tau])+Paid_P([0,\tau])
++Legal_P([0,\tau])+Stop_P([0,\tau]),
+\]
+
+and set
+
+\[
+M_{P,\omega}^{atom}(s)
+:=
+B_P^{atom}(\tau)-dJ_{P,\omega}^{ret,-}([0,s]\times X_P),
+\qquad 0\le s\le\tau .
+\tag{TFE2748B.1329}
+\]
+
+By `(TFE2748B.1326)'--`(TFE2748B.1328)',
+
+\[
+M_{P,\omega}^{atom}(s)\ge0,
+\qquad
+-dM_{P,\omega}^{atom}=dJ_{P,\omega}^{ret,-}
+\quad\text{on retained same-parent atoms.}
+\tag{TFE2748B.1330}
+\]
+
+Therefore arbitrary original smooth data already constructs the pre-clipping
+same-parent atomic decomposition, controls the coefficient mass and leakage,
+and records the retained opposite lobe as bounded-below parent reserve
+depletion:
+
+\[
+\boxed{
+\texttt{SignedPressureHodgeAtomicAttachment.A}
+\texttt{ is proved at the raw pre-clipping parent-measure level.}}
+\tag{TFE2748B.1331}
+\]
+
+The selected-critical Gold question begins only after the critical meter
+\(W_P^{crit}=e^{b_P}\) prices the two lobes differently.  On the same atom
+ledger,
+
+\[
+W_P^{crit}(x)\omega_P(x)\,d\Pi_P(x,y)
+\le
+W_P^{crit}(y)\omega_P(x)\,d\Pi_P(x,y)
++
+W_P^{crit}(y)\omega_P(x)
+\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)d\Pi_P(x,y).
+\tag{TFE2748B.1332}
+\]
+
+The first term is the retained-lobe reserve just constructed.  The second term
+is the positive parent log-meter/full-exchange variation.  Sections 106--107
+already identify the naked zero-baseline endpoint read as an endpoint trace
+admitted into \(d\Xi_P^{EP,adm}\), and rewrite the remaining selected
+\(L^1\) source as the parent active-potential capacity problem
+`(TFE2748B.962)'--`(TFE2748B.968)'.  Thus `(TFE2748B.1320)' is an older local
+first-entry coordinate after the endpoint-admission audit; it is not the
+current bottom theorem.
+
+The current noncircular source line is
+
+\[
+\boxed{
+\texttt{ParentActivePotentialCapacityDomination.A `(TFE2748B.968)'}
+\Longrightarrow
+\texttt{selected-meter storage `(TFE2748B.880)'}
+\Longrightarrow
+\texttt{CriticalEndpointDepletionStorage.A `(TFE2748B.1302)'}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1333}
+\]
+
+Equivalently, the open arbitrary-data work is to construct a bounded-below
+parent capacity reserve \(M_P^{cap}\) and prove the strict residual capacitary
+form bound
+
+\[
+U_P^2\,d\mathfrak v_P^{crit}
+\le
+-dM_P^{cap}+U_P^2\,d\mathfrak v_P^{res}+dE_P^0,
+\qquad
+\mathfrak v_P^{res}(K)
+\le
+\vartheta\,\operatorname{Cap}_{A,P}(K)+E_P^0(K),
+\quad C_N\vartheta<1,
+\tag{TFE2748B.1334}
+\]
+
+from the original coupled packet before clipping.  This is the weighted
+selected-critical active-capacity theorem.  The raw signed atom decomposition,
+coefficient/leakage control, and retained opposite-lobe reserve depletion are
+closed inputs to it, not remaining source burdens.
