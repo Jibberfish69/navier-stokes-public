@@ -6831,3 +6831,136 @@ the compactness/rigidity contradiction for the normalized zero-source
 same-parent cycle.  The raw atom construction, coefficient control, leakage
 control, and retained opposite-lobe reserve depletion are already installed in
 `(TFE2748B.400)'--`(TFE2748B.410)' and are consumed here as pre-clipping inputs.
+
+## 54. Source-exact form of the square-completed zero-source cycle
+
+Section 53 should not leave "zero source" as an abstract compactness phrase.
+For the square-completed ledger, zero source means that the exact critical-entry
+sources and the log-detector square source have all vanished in the same parent
+ledger before clipping.
+
+Define the square-completed source measure
+
+\[
+d\mathfrak Z_P^{H}
+:=
+d\rho_{crit,P}^{ac}
+d\rho_{crit,P}^{entry}
+d\rho_{Hlog,P}^{det,\lambda}
+d\Theta_P^0
+dPaid_P
+dStop_P ,
+\tag{TFE2748B.431}
+\]
+
+where \(d\rho_{crit}^{ac}\) and \(d\rho_{crit}^{entry}\) are the positive-baseline
+log source and zero-baseline singular first-entry source of `(TFE.2655)', and
+
+\[
+d\rho_{Hlog,P}^{det,\lambda}
+:=
+{\lambda\over2}
+\left(
+2\,\Phi''(F_P)
+\langle A_P^\dagger J_{\Psi,P},J_{\Psi,P}\rangle\,d\mathfrak m_P
++2\theta^2\,dI_P
+\right)
+{1\over2\lambda}(\mathcal K_\omega^{bad})^2\,dI_P .
+\tag{TFE2748B.432}
+\]
+
+Here the first line is the current-square control in `(TFE2748B.418)' and the
+second line is the stopped coarea/log-weight detector square from
+`(TFE2748B.416)'.  Thus
+
+\[
+d\Xi_P^{Hlog,\lambda}
+\le
+C_Nd\rho_{Hlog,P}^{det,\lambda}.
+\tag{TFE2748B.433}
+\]
+
+The critical-entry admission inequalities from `(TFE.2656)' and the log-tail
+admission `(TFE2748B.433)' give the deterministic inclusion
+
+\[
+d\Xi_P^{crit,ac}
+d\Xi_P^{crit,0}
+d\Xi_P^{Hlog,\lambda}
+\le
+C_Nd\mathfrak Z_P^{H}.
+\tag{TFE2748B.434}
+\]
+
+Consequently, on a normalized square-completed Bellman failure, the condition
+\(d\mathfrak Z_\infty^H=0\) removes the critical-entry and Hlog square faces:
+
+\[
+d\mathfrak Z_\infty^H=0
+\Longrightarrow
+d\Xi_\infty^{crit,ac}
+=d\Xi_\infty^{crit,0}
+=d\Xi_\infty^{Hlog,\lambda}=0 .
+\tag{TFE2748B.435}
+\]
+
+After the component removals already recorded in Sections 232, 238, and 239,
+the retained part is only the heat-lag loop on the stopped quotient.  The
+retained Poincare estimate then gives
+
+\[
+d\Xi_\infty^{FE,H}
+\le
+\vartheta\,d\Omega_\infty^{gen}
+\quad\text{whenever }d\mathfrak Z_\infty^H=0.
+\tag{TFE2748B.436}
+\]
+
+This proves the square-completed zero-source rigidity `(TFE2748B.430)' in its
+source-exact form.  The real arbitrary-data theorem is therefore not a free
+rigidity statement.  It is the storage of \(d\mathfrak Z_P^H\):
+
+\[
+d\rho_{crit,P}^{ac}
+d\rho_{crit,P}^{entry}
+d\rho_{Hlog,P}^{det,\lambda}
+\le
+-dM_P^{Z,H}
++\vartheta\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad C_N\vartheta<1,
+\tag{TFE2748B.437}
+\]
+
+with
+
+\[
+0\le M_P^{Z,H}
+\le C_N(u_0)\mathcal R(P)+Paid(P).
+\tag{TFE2748B.438}
+\]
+
+Equations `(TFE2748B.437)'--`(TFE2748B.438)' imply the Bellman bound
+`(TFE2748B.425)': all positive profit in `(TFE2748B.423)' is either exact
+material telescope, admitted critical-entry/log-detector source, strict
+heat-lag contraction, or paid leakage.  Conversely, any proof of
+`(TFE2748B.425)' from original data must supply the storage of these three
+source faces, because `(TFE2748B.434)' is the deterministic lower edge of the
+square-completed selected bill.
+
+Thus the active arbitrary-data line has been reduced one level:
+
+\[
+\boxed{
+\texttt{SquareCompletedFullExchangeStorage.A}
+\Longleftrightarrow
+\texttt{SquareCompletedCriticalSourceStorage.A `(TFE2748B.437)'--`(TFE2748B.438)'.}
+}
+\tag{TFE2748B.439}
+\]
+
+This is the same parent-packet picture in exact variables.  The child positive
+readout cannot be counted until the parent ledger has already supplied the
+positive-baseline log source, the zero-baseline first-entry source, and the
+square-completed log-detector source.  Once those are in \(d\mathfrak Z_P^H\),
+the zero-source compactness cycle has no remaining physical carrier.
