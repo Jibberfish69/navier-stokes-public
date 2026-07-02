@@ -18754,8 +18754,7 @@ and the Leray energy inequality yields, for every \(\tau<T_*\),
 \int_0^\tau\sum_\alpha |c_\alpha(t)|\,dt
 \le
 C_N{\|u_0\|_2^2\over\nu}
-+ 
-\Theta_P^0([0,\tau])+Paid_P([0,\tau])+Stop_P([0,\tau]).
++\Theta_P^0([0,\tau])+Paid_P([0,\tau])+Stop_P([0,\tau]).
 \tag{TFE2748B.1222}
 \]
 
@@ -18775,8 +18774,7 @@ Preallocate the raw parent reserve by the initial-data coefficient budget,
 M_P^{raw}(0)
 :=
 C_N{\|u_0\|_2^2\over\nu}
-+ 
-\Theta_P^0(X_P)+Paid_P(X_P)+Stop_P(X_P),
++\Theta_P^0(X_P)+Paid_P(X_P)+Stop_P(X_P),
 \tag{TFE2748B.1224}
 \]
 
@@ -18820,8 +18818,7 @@ In particular,
 (dJ_P^{raw})_+
 \preceq_{atom}
 dJ_{P,atom}^{ret,-}
-+ 
-(dR_P^{raw})_+,
++(dR_P^{raw})_+,
 \qquad
 dJ_{P,atom}^{ret,-}\le -dM_P^{raw},
 \tag{TFE2748B.1228}
@@ -18838,10 +18835,8 @@ requires the root-uniform weighted estimate
 \int W_P\,dJ_{P,atom}^{ret,-}
 \le
 -dM_P^{crit}
-+ 
-\theta\,d\Omega_P^{gen}
-+ 
-d\Theta_P^0+dPaid_P+dStop_P,
++\theta\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
 \qquad
 C_N\theta<1,
 \tag{TFE2748B.1229}
