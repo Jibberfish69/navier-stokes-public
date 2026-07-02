@@ -56,6 +56,11 @@ AUTHORITY_MARKERS = {
     "current_authority_override_20260702",
     "not a closure surface",
     "noncircular same-parent coupled"
+  ],
+  "papers/navier-stokes/context/generated/snapshots/lane-lab/problems/navier-stokes/theorem-crank.yaml" => [
+    "stale-after-gold-l1-coupled-storage-audit-20260702",
+    "current-open-gold-l1-coupled-storage-wall",
+    "theorem_authority_gate_all_discharged: false"
   ]
 }.freeze
 
@@ -74,6 +79,7 @@ READER_SURFACE_PATHS = %w[
   problems/navier-stokes/submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex
   problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   papers/navier-stokes/context/generated/snapshots/paper-export/problems/navier-stokes/draft-v8.md
+  papers/navier-stokes/build/output/authoritative-edge/navier-stokes.tex
   papers/navier-stokes/manuscript/generated/main.tex
 ].freeze
 
