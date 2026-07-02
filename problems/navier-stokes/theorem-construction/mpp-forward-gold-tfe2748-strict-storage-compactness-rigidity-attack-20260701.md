@@ -8570,3 +8570,146 @@ language, the pressure/heat/viscous participation event may arrive and
 re-coordinate instantly, but the square readout is not allowed to be harvested
 without either heat-time thickness, signed return, selected exponent-lift, or
 paid source-square reserve depletion inside the same parent packet.
+
+## 66. Negative return and exponent lift are one amplification-current producer
+
+The two inputs in `(TFE2748B.545)' are not independent physical reservoirs.
+The older repeated-core and shrinking-core notes show that both are projections
+of one parent-known selected amplification/current record.  The repeated-core
+projection reads downward motion of a fixed stopped score; the shrinking-core
+projection reads chart-change / first-ratio amplification when the child is
+fresh.
+
+The common record is
+
+\[
+\mathfrak Z_P^S=(Z_P^S,\Psi_P^S,\Lambda_P^S),
+\tag{TFE2748B.546}
+\]
+
+constructed from the original stopped pressure-viscosity-incompressibility-
+velocity packet before descendant positive clipping.  Here \(Z_P^S\) is the
+stopped routed carrier/current coordinate, \(\Psi_P^S\) is the signed scale
+potential used by the polar lift, and \(\Lambda_P^S\) is the selected
+amplification coordinate.  The root theorem needed below `(TFE2748B.545)' is
+therefore:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{OriginalHistorySelectedAmplificationCurrentCarleson.A:}\\
+\text{construct `(TFE2748B.546)' before clipping, prove source-square lower
+admission,}\\
+\text{and prove the root Carleson/BV/testing bound `(TFE2748B.547)'.}
+\end{array}}
+\tag{TFE2748B.546a}
+\]
+
+The bound is
+
+\[
+\begin{aligned}
+\mathcal E_{SAC}(P):={}&
+\int_{\operatorname{Hist}(P)}
+w\left(
+|\partial_\sigma Z_P^S|^2
+|T_\sigma|^2
+|E_\sigma|^2
+|C_\sigma|^2
+\right)\\
+&+\operatorname{Var}_{crit}^{stop}(\Lambda_P^S;P)\\
+&+\sup_{P'\subseteq P}
+{1\over\mathcal R(P')}
+\sum_{Q\subseteq P'}
+\left(\|\Delta_QZ_P^S\|_{\mathfrak H_P}^2+|e_Q^S|^2\right)
+\mathcal R(Q)\\
+&+\operatorname{TestDef}_S(P)+Stop(P)
+\le C_N(u_0)+Paid(P)+R_{\rm legal}(P)+Stop(P).
+\end{aligned}
+\tag{TFE2748B.547}
+\]
+
+The source-square lower admission clause means that the density in
+`(TFE2748B.537)' is read by this same record before clipping:
+
+\[
+\int_W\sum_{k>N}2^kT_k(t)^2dt
+\le
+C_N\,\mathcal E_{SAC}(P;W)
++\varepsilon\nu\int_WD_N(t)\,dt
++C_\varepsilon2^{-2\delta N}
++Paid(W)+Stop(W).
+\tag{TFE2748B.548}
+\]
+
+This is not a definition of \(\mathcal E_{SAC}\) by the future source-square
+tail.  It is the lower-admission assertion that a retained high-shell
+source-square pulse is either a derivative/current increment of the original
+routed packet, a selected amplification jump, a testing defect, or paid
+route/legal/stop material.
+
+The repeated-core projection is the fixed stopped score
+
+\[
+P_R=\Gamma_RZ_P^S .
+\tag{TFE2748B.549}
+\]
+
+On a fixed retained core,
+
+\[
+\partial_\sigma P_R
+=
+\Gamma_R\partial_\sigma Z_P^S
++(\partial_\sigma\Gamma_R)Z_P^S,
+\tag{TFE2748B.550}
+\]
+
+and the second term is exactly turnstile, exchange, covector, connection, or
+paid selector motion already included in `(TFE2748B.547)'.  Weighted Cauchy on
+maximal stopped return slabs gives the harmonic-square return estimate; scalar
+BV then converts positive repeated-core visits into record growth plus negative
+return.  Hence `(TFE2748B.547)' supplies
+`OriginalHistoryNegativeReturnCharge.A' in the form needed by
+`(TFE2748B.543)'.
+
+The shrinking-core projection is the selected log-ratio identity
+
+\[
+\log {f_Q\over f_{\operatorname{par}(Q)}}
+=
+\ell_Q(\Delta_QZ_P^S)-\psi_Q+e_Q^S,
+\tag{TFE2748B.551}
+\]
+
+with the square function and error Carleson terms bounded by `(TFE2748B.547)'.
+The standard martingale John--Nirenberg / Kazamaki step then gives the retained
+reverse-Holder / selected exponent-lift:
+
+\[
+\int_{P'} f^{1+\varepsilon}\,d\mathcal R
+\le
+C f_{P'}^{1+\varepsilon}\mathcal R(P'),
+\qquad P'\subseteq P,
+\tag{TFE2748B.552}
+\]
+
+after paid reselection, order-lock, and legal defects are removed.  This is
+`OriginalHistorySelectedExponentLift.A' in `(TFE2748B.545)'.
+
+Therefore the source-square payment reduces to one common producer:
+
+\[
+\boxed{
+\texttt{OriginalHistorySelectedAmplificationCurrentCarleson.A}
+\Longrightarrow
+\texttt{SourceSquareReservePayment.A `(TFE2748B.534)'.}
+}
+\tag{TFE2748B.553}
+\]
+
+This is a genuine reduction, not a closure.  The open arbitrary-data work is
+now concentrated in `(TFE2748B.546a)'--`(TFE2748B.548)': construct the stopped
+record from the original coupled packet, prove the lower admission of the
+source-square pulse into that record, and prove the root Carleson/BV/testing
+bound without defining the record by the future selected tail.
