@@ -16526,7 +16526,7 @@ removed.  In the compactified stopped parent space
 d\mathcal S_P^{term}
 \le
 C_N\,d\Xi_P^{FE,term}
-dE_P^{0,term},
++dE_P^{0,term},
 \tag{TFE2748B.1080}
 \]
 
@@ -16542,8 +16542,8 @@ Assume the compactified full-exchange depletion storage,
 d\Xi_P^{FE,*}
 \le
 -dM_P^{FE,*}
-\theta_{FE}\,d\Omega_P^{gen,*}
-dE_P^{0,*},
++\theta_{FE}\,d\Omega_P^{gen,*}
++dE_P^{0,*},
 \qquad
 C_N\theta_{FE}<1,
 \tag{TFE2748B.1081}
@@ -16558,7 +16558,7 @@ ledger gives
 \bigl(d\Xi_P^{FE,term}\bigr)^{\perp sq}
 \le
 -dM_P^{FE,term}
-dE_P^{0,term}.
++dE_P^{0,term}.
 \tag{TFE2748B.1082}
 \]
 
@@ -16568,7 +16568,7 @@ Combining `(TFE2748B.1080)' and `(TFE2748B.1082)' yields
 d\mathcal S_P^{term}
 \le
 -C_N\,dM_P^{FE,term}
-dE_P^{0,term}.
++dE_P^{0,term}.
 \tag{TFE2748B.1083}
 \]
 
