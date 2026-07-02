@@ -12651,7 +12651,7 @@ Section 44,
 d\Xi_P^{align}
 \le
 C_N\,dQ_P^{cur}
-d\Theta_P^0+dPaid_P+dStop_P .
++d\Theta_P^0+dPaid_P+dStop_P .
 \tag{TFE2748B.815}
 \]
 
