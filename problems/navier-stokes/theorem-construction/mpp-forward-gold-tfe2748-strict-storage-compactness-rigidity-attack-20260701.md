@@ -10892,10 +10892,13 @@ the raw parent-level theorem already proved in Sections 29, 37, 41, 51, 72, and
 the live wall cannot drift back to atom attachment.
 
 Fix a stopped compact preterminal parent packet \(P\) and work in its material
-chart.  Pull the pressure-Hodge/material residue and any selected detector into
-the parent adjoint before taking a positive part.  Separate route, collar,
-metric, Hodge-commutator, detector-motion, legal, stop, and endpoint leakage
-into \(dR_P\).  The retained pre-clipping residue has the form
+chart.  Pull the pressure-Hodge/material residue into the parent chart before
+taking a positive part.  If a selected detector has already been pulled into the
+parent adjoint, this same argument gives the signed pre-clipping attachment; the
+uniform selected-critical size of that detector is not included in the raw
+coefficient estimate below.  Separate route, collar, metric, Hodge-commutator,
+detector-motion, legal, stop, and endpoint leakage into \(dR_P\).  The retained
+raw pre-clipping residue has the form
 
 \[
 dJ_P=dJ_P^0+dR_P,
