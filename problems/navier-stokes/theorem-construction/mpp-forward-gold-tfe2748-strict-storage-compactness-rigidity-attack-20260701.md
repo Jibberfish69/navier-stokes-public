@@ -14577,3 +14577,158 @@ log-ratio/root-generator and first-entry capacity split in Sections 103--104.
 So the current edge uses SignedPressureHodgeAtomicAttachment.A as a closed raw
 input and keeps the selected-critical root-capacity theorem as the only
 Gold-strength upgrade being supplied by `(TFE2748B.909)'--`(TFE2748B.932)'.
+
+## 106. Zero-baseline first entry is endpoint trace admission
+
+The zero-baseline detector in `(TFE2748B.931)' is not allowed to stay as a naked
+\(\lambda_Q^{-1/2}\) child functional.  In the original packet it is an endpoint
+trace: the pressure-compatible signal is present first, and the first readable
+velocity/strain square appears only with heat-lag thickness.  Therefore the
+zero-baseline branch must be admitted into the endpoint/full-exchange parent
+ledger before strict storage is invoked.
+
+On a retained zero-baseline endpoint fibre \(\gamma\), set
+
+\[
+m_\gamma(t):=K_\gamma(t)\overline Z_\gamma^{fresh,+}(t),
+\qquad
+B_\gamma(t):=\|m_\gamma(t)\|_{\mathfrak H_\gamma}^2 .
+\tag{TFE2748B.945}
+\]
+
+Let \(H_\gamma^\ast\) be the Hardy adjoint heat-lag weight and define the
+endpoint trace-capacity measure
+
+\[
+dC_{P}^{EP,0}
+:=
+dC_{P,left}^{EP,0}
++H_\gamma^\ast [D_t^PB_\gamma]_+\,dt\,d\eta_P^{EP}(\gamma)
++dPaid_P+dStop_P .
+\tag{TFE2748B.946}
+\]
+
+The first-entry identity gives the singular endpoint seed admission
+
+\[
+dA_{P,crit}^{entry,+}
+\le
+C_N\,dC_P^{EP,0}.
+\tag{TFE2748B.947}
+\]
+
+The parent derivative of the endpoint seed is represented before clipping by
+the same root generator:
+
+\[
+D_t^Pm_\gamma
+=
+\Pi_\gamma^{EP}G_P^{root}
++E_\gamma^{route},
+\tag{TFE2748B.948}
+\]
+
+with \(E_\gamma^{route}\) paid by \(d\Theta_P^0+dPaid_P+dStop_P\).  Cauchy's
+inequality with the Hardy adjoint weight gives, on every stopped subpacket
+\(P'\),
+
+\[
+\int_{P'}dC_P^{EP,0}
+\le
+C_N\int_{P'}d\Omega_P^{EP,tr}
++C_N\int_{P'}d\Theta_P^0
++dPaid_P(P')+dStop_P(P').
+\tag{TFE2748B.949}
+\]
+
+The heat-lag normalization is the scale cancellation missing from the naked
+detector picture:
+
+\[
+H_{P,EP}^{\ast}\simeq\lambda_Q,
+\qquad
+\|K_Q^{parent}\|_{\mathfrak H_P}^2\simeq\lambda_Q^{-1},
+\qquad
+H_{P,EP}^{\ast}\|K_Q^{parent}\|_{\mathfrak H_P}^2\simeq1 .
+\tag{TFE2748B.950}
+\]
+
+After selector, collar, Jacobian, and stopped-overlap factors are placed in the
+parent endpoint measure, `(TFE2748B.950)' yields the endpoint parent-clock
+inclusion
+
+\[
+d\Omega_P^{EP,tr}
+\le
+C_N\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.951}
+\]
+
+Equivalently, define the endpoint admission subledger
+
+\[
+d\Xi_P^{EP,adm}
+:=
+d\Xi_P^{FE}
++d\Omega_P^{EP,tr},
+\tag{TFE2748B.952}
+\]
+
+Then the zero-baseline branch has the noncircular admission
+
+\[
+d\rho_{crit,P}^{entry}
+\le
+C_N\,d\Xi_P^{EP,adm}
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.953}
+\]
+
+This is not an integrability claim and it does not use the finite storage
+conclusion.  It is an ownership/admission claim: the first readable
+zero-baseline square belongs to the same original endpoint/full-exchange parent
+ledger before child clipping.  After admission, the storage ledger may carry the
+entry as spent material:
+
+\[
+d\Xi_P^{FE,\ast}
+:=
+d\Xi_P^{EP,adm}
++d\rho_{crit,P}^{ac}
++d\rho_{crit,P}^{entry}.
+\tag{TFE2748B.954}
+\]
+
+The current edge is therefore
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{positive-baseline log branch: bounded root-generator projection
+`(TFE2748B.923)'--`(TFE2748B.932)';}\\
+\texttt{zero-baseline branch: endpoint trace admission
+`(TFE2748B.945)'--`(TFE2748B.953)';}\\
+\texttt{remaining producer: strict no-self-feeding storage for
+\(d\Xi_P^{FE,\ast}\).}
+\end{array}}
+\tag{TFE2748B.955}
+\]
+
+Thus the scale-native zero-baseline detector is no longer a separate source
+wall in the current notation.  Its apparent inverse-scale size is cancelled by
+heat-lag thickness and entered into \(d\Xi_P^{FE,\ast}\).  The source theorem
+left to prove is the endpoint-admitted strict storage line
+
+\[
+d\Xi_P^{FE,\ast}
+\le
+-dM_P^{FE,\ast}
++\theta_\ast d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+C_N\theta_\ast<1,
+\tag{TFE2748B.956}
+\]
+
+with \(M_P^{FE,\ast}\) bounded below from the original smooth data.
