@@ -14786,30 +14786,45 @@ dQ_P^{meter}+[d\mathcal C_P^{crit}]_+ .
 \tag{TFE2748B.961}
 \]
 
-Therefore `(TFE2748B.880)' is equivalent to the stopped parent form bound
+Therefore `(TFE2748B.880)' is supplied by the following stopped parent
+storage-form bound.  There must be a bounded-below parent reserve
+\(M_P^{cap}\) and a residual positive parent potential
+\(d\mathfrak v_{P}^{res}\) such that
 
 \[
-\int_{P'} \zeta^2\,d\mathfrak v_P^{crit}
+U_P^2\,d\mathfrak v_P^{crit}
+\le
+-dM_P^{cap}
++U_P^2\,d\mathfrak v_P^{res}
++dE_P^0,
+\tag{TFE2748B.962}
+\]
+
+and
+
+\[
+\int_{P'} \zeta^2\,d\mathfrak v_P^{res}
 \le
 \vartheta\int_{P'}|\nabla_A\zeta|^2\,d\mathfrak m_P
 +dE_P^0(P';\zeta),
 \qquad C_N\vartheta<1,
-\tag{TFE2748B.962}
+\tag{TFE2748B.963}
 \]
 
 for every parent-announced test \(\zeta\), with \(dE_P^0(P';\zeta)\) supported
 only on route, collar, legal, stop, endpoint, and paid selector-motion material.
-Indeed, applying `(TFE2748B.962)' to \(\zeta=U_P\) and using
+Indeed, applying `(TFE2748B.963)' to \(\zeta=U_P\) and using
 `(TFE2748B.958)'--`(TFE2748B.961)' gives
 
 \[
 dQ_P^{meter}+[d\mathcal C_P^{crit}]_+
 \le
+-dM_P^{cap}
 \vartheta\,dI_P+dE_P^0 .
-\tag{TFE2748B.963}
+\tag{TFE2748B.964}
 \]
 
-Combining `(TFE2748B.963)' with the reversible flux reserve
+Combining `(TFE2748B.964)' with the reversible flux reserve
 `(TFE2748B.879)' and the entropy storage identity
 `(TFE2748B.864)'--`(TFE2748B.865)' gives
 
@@ -14817,25 +14832,27 @@ Combining `(TFE2748B.963)' with the reversible flux reserve
 d\rho_{crit,P}^{ac}+d\rho_{crit,P}^{entry}
 \le
 -dM_P^{crit}
+-dM_P^{cap}
 +\vartheta\,dI_P+dE_P^0,
 \qquad C_N\vartheta<1.
-\tag{TFE2748B.964}
+\tag{TFE2748B.965}
 \]
 
-Since \(dI_P\le d\Omega_P^{gen}\) in the full root clock, `(TFE2748B.964)' is
+Since \(dI_P\le d\Omega_P^{gen}\) in the full root clock, `(TFE2748B.965)' is
 the critical-entry part of the endpoint-admitted strict storage line
 `(TFE2748B.956)'.
 
 Equivalently, by the stopped Maz'ya trace criterion on the compact parent chart,
-`(TFE2748B.962)' is the same as the parabolic capacitary domination
+`(TFE2748B.963)' is the same as the parabolic capacitary domination of the
+residual potential
 
 \[
-\mathfrak v_P^{crit}(K)
+\mathfrak v_P^{res}(K)
 \le
 \vartheta\,\operatorname{Cap}_{A,P}(K)
 +E_P^0(K),
 \qquad C_N\vartheta<1,
-\tag{TFE2748B.965}
+\tag{TFE2748B.966}
 \]
 
 for every stopped parent compact \(K\), where
@@ -14845,26 +14862,28 @@ for every stopped parent compact \(K\), where
 :=
 \inf_{\zeta\ge 1_K}
 \int|\nabla_A\zeta|^2\,d\mathfrak m_P .
-\tag{TFE2748B.966}
+\tag{TFE2748B.967}
 \]
 
 Thus the selected \(L^1\) wall has an exact non-dyadic capacity form:
-positive critical meter motion is harmless precisely when its parent potential
-has strictly subunit parabolic capacity relative to the same viscous/Stokes
-gradient that produces heat-lag readability.
+positive critical meter motion is harmless precisely when the original parent
+packet first records the retained part as bounded-below reserve depletion and
+the remaining active potential has strictly subunit parabolic capacity relative
+to the same viscous/Stokes gradient that produces heat-lag readability.
 
 The arbitrary-data theorem still to prove is therefore not another raw atom
 pairing theorem and not a square-energy statement.  It is
 
 \[
 \boxed{
-\texttt{ParentActivePotentialCapacityDomination.A: prove `(TFE2748B.965)' from
+\texttt{ParentActivePotentialCapacityDomination.A: construct \(M_P^{cap}\) in
+`(TFE2748B.962)' and prove the residual capacity bound `(TFE2748B.966)' from
 the original coupled packet before clipping.}
 }
-\tag{TFE2748B.967}
+\tag{TFE2748B.968}
 \]
 
-Once `(TFE2748B.967)' is proved, Sections 99--107 give
+Once `(TFE2748B.968)' is proved, Sections 99--107 give
 `(TFE2748B.956)' and hence the critical capacity variation/storage line.  Until
-that capacitary domination is proved from arbitrary original smooth data, this
-section is a sharp equivalent proof target rather than Gold closure.
+that storage-form capacitary domination is proved from arbitrary original smooth
+data, this section is a sharp equivalent proof target rather than Gold closure.
