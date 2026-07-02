@@ -14189,9 +14189,9 @@ detector is a first-entry scale-native endpoint detector.  With
 scale-native size
 
 \[
-\|K_Q^{parent}\|_{\mathfrak H_P(E_Q^0)}^2
+\|K_Q^{parent}\|_{\mathfrak H_P}^2
 \simeq
-\lambda_Q^{-1}\,dR_P^{root}(E_Q^0).
+\lambda_Q^{-1}.
 \tag{TFE2748B.918}
 \]
 
@@ -14200,7 +14200,10 @@ Define the entry capacity atom by
 \[
 \rho_{crit,P}^{entry}(E_Q)
 :=
-\|K_Q^{parent}\|_{\mathfrak H_P(E_Q^0)}^2 .
+dR_P^{root}(E_Q^0)\,
+\|K_Q^{parent}\|_{\mathfrak H_P}^2
+\simeq
+\lambda_Q^{-1}dR_P^{root}(E_Q^0).
 \tag{TFE2748B.919}
 \]
 
