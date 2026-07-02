@@ -21767,3 +21767,94 @@ pullback for every retained selected detector, prove the early-fibre admission
 `(TFE2748B.1424)' from the original coupled packet.  The retained heat-gap
 calculation itself is a deterministic parabolic consequence once those parent
 objects are honestly in the same stopped frame.
+
+## 156. The Duhamel identity is proved; the remaining operator theorem is bounded pullback
+
+The first clause in the last paragraph of Section 155 contains a standard
+identity and a hard estimate.  They should be separated.  On every stopped
+preterminal parent chart, the original solution is smooth, the material metric
+coefficients are smooth, and the coupled pressure-Hodge/Stokes operator
+\(\mathcal L_P\) in `(TFE2748B.1414)' generates an evolution family \(U_P(t,s)\)
+on each finite jet/Galerkin truncation.  Variation of constants gives, for
+\(s<t<T_*\),
+
+\[
+Y_P(t)
+=U_P(t,s)Y_P(s)
++\int_s^tU_P(t,r)G_P^{root}(r)\,dr
++R_{P,s,t}^0 .
+\tag{TFE2748B.1426}
+\]
+
+The identity is obtained before any selected positive part is taken.  Applying a
+parent-announced retained detector \(\ell_QD_Q\) gives
+
+\[
+\ell_QD_QY_P(t_Q)
+=
+\ell_QD_QU_P(t_Q,s_Q)Y_P(s_Q)
++
+\ell_QD_Q\int_{s_Q}^{t_Q}U_P(t_Q,r)G_P^{root}(r)\,dr
++R_Q^0 .
+\tag{TFE2748B.1427}
+\]
+
+The first term in `(TFE2748B.1427)' is inherited lower-carry, return/reset, or
+exact material.  After the parent-subtracted retained readout is formed, that
+inherited term is removed into the already typed ledgers.  Therefore the
+before-clipping retained feedback identity is
+
+\[
+Z_Q^{ret}
+=K_{ret,Q}G_P^{root}+R_Q^0,
+\qquad
+K_{ret,Q}G
+:=
+\ell_QD_Q
+\int_{I_Q^{ret}}U_P(t_Q,r)\Pi_QG(r)\,dr .
+\tag{TFE2748B.1428}
+\]
+
+Thus the representation part of `(TFE2748B.1416)' is not open for smooth
+preterminal data.  The remaining theorem in that clause is the uniform retained
+pullback estimate
+
+\[
+\sum_{Q\subset P'}
+H_Q^\ast
+\bigl\|K_{ret,Q}G_P^{root}\bigr\|_{\mathfrak H_Q}^2
+\le
+C_{\Pi,N}
+\int_{P'}d\Omega_P^{gen}
++dE_P^0(P')
+\tag{TFE2748B.1429}
+\]
+
+with all Hodge-frame, collar, metric, selector, covector, legal, stop, lower
+carry, reset, and route defects kept in \(dE_P^0\), and with \(K_{ret,Q}\)
+constructed before clipping.  This is the honest content of the retained
+Duhamel-Hodge operator clause: the same parent generator must remain a bounded
+source when pulled through all retained selected detectors in the stopped
+coupled frame.
+
+With `(TFE2748B.1429)' installed, the retained heat-lag split of Section 155 is
+deterministic.  The early part still routes to `(TFE2748B.1418)', and the
+retained part gets the heat gap `(TFE2748B.1420)'.  Hence the current reduced
+source chain is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{bounded retained pullback `(TFE2748B.1429)'}\\
++\texttt{early critical admission `(TFE2748B.1418)'}\\
++\texttt{critical source storage `(TFE2748B.1424)'}
+\end{array}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1430}
+\]
+
+So the open arbitrary-data source is smaller than Section 155's first wording:
+prove `(TFE2748B.1429)', `(TFE2748B.1418)', and `(TFE2748B.1424)' from the
+original coupled packet before clipping.  The Duhamel representation itself is
+already a proved smooth preterminal identity.
