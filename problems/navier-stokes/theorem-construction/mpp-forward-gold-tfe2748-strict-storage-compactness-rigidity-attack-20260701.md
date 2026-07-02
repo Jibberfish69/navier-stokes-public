@@ -8725,3 +8725,192 @@ now concentrated in `(TFE2748B.546a)'--`(TFE2748B.548)': construct the stopped
 record from the original coupled packet, prove the lower admission of the
 source-square pulse into that record, and prove the root Carleson/BV/testing
 bound without defining the record by the future selected tail.
+
+## 67. Tail-energy identity behind the source-square payment
+
+Section 66 still names the remaining producer as an amplification/current
+Carleson theorem.  The source-square bill itself has a more concrete original
+equation.  It is the high-shell drain tail multiplied by the positive
+tail-injection work that created or sustained that tail.
+
+Work on one stopped parent packet, with all route, collar, frame, legal, and
+stop terms kept in the paid ledgers.  Let
+
+\[
+E_j(t)=\|\Delta_j^P u(t)\|_2^2,
+\qquad
+D_j(t)=2^{2j}E_j(t),
+\qquad
+H_j(t)=2^{2j}D_j(t).
+\tag{TFE2748B.554}
+\]
+
+The dyadic shell energy equation pulled to the parent frame has the
+before-clipping coupled form
+
+\[
+{1\over2}\,dD_j
++\nu H_j\,dt
+=
+2^{2j}\mathcal N_{j,P}^{full}\,dt+dR_{j,P}^{route},
+\tag{TFE2748B.555}
+\]
+
+where \(\mathcal N_{j,P}^{full}\) is the full pressure-Hodge,
+self-advection, viscous-frame, incompressibility, and material-coordinate
+shell current.  It is one coupled packet current; no child positive part has
+been clipped in `(TFE2748B.555)'.
+
+For \(T_k=\sum_{j>k+4}D_j\), put
+
+\[
+H_{>k}:=\sum_{j>k+4}H_j,
+\qquad
+\mathcal N_{>k,P}^{D}
+:=
+\sum_{j>k+4}2^{2j}\mathcal N_{j,P}^{full}.
+\tag{TFE2748B.556}
+\]
+
+Summing `(TFE2748B.555)' over \(j>k+4\) gives
+
+\[
+{1\over2}\,dT_k+\nu H_{>k}\,dt
+\le
+(\mathcal N_{>k,P}^{D})_+\,dt+dR_{>k,P}^{route}.
+\tag{TFE2748B.557}
+\]
+
+Since \(H_{>k}\ge c\,2^{2k}T_k\), multiplying `(TFE2748B.557)' by
+\(2^{-k}T_k/\nu\) yields the deterministic tail inequality
+
+\[
+2^kT_k^2\,dt
+\le
+C_\nu\,2^{-k}T_k(\mathcal N_{>k,P}^{D})_+\,dt
+-c_\nu\,d(2^{-k}T_k^2)
++dR_{k,P}^{tail}.
+\tag{TFE2748B.558}
+\]
+
+The route term \(dR_{k,P}^{tail}\) contains only the already separated
+route/collar/frame/legal/stop leakage and the harmless terminal tail
+\(C_\varepsilon2^{-2\delta N}\) produced by the stopped shell cutoff.
+
+Define the tail storage
+
+\[
+M_{P,N}^{tail}(t)
+:=
+c_\nu\sum_{k>N}2^{-k}T_k(t)^2 .
+\tag{TFE2748B.559}
+\]
+
+It is parent-announced and bounded below by zero.  For smooth initial data,
+
+\[
+M_{P,N}^{tail}(0)
+\le
+C_{N,s}\|u_0\|_{H^s}^4
+\qquad(s>3/4),
+\tag{TFE2748B.560}
+\]
+
+and in the Gold lane this is part of the allowed \(C_N(u_0)\) initial
+storage.
+
+Summing `(TFE2748B.558)' over \(k>N\) gives the exact tail-payment identity
+
+\[
+\int_W\sum_{k>N}2^kT_k(t)^2\,dt
+\le
+-dM_{P,N}^{tail}(W)
++C_\nu\,\mathcal I_{P,N}^{tail}(W)
++C_\varepsilon2^{-2\delta N}
++Paid(W)+Stop(W),
+\tag{TFE2748B.561}
+\]
+
+where the only non-paid source is the positive tail-injection work
+
+\[
+\mathcal I_{P,N}^{tail}(W)
+:=
+\int_W\sum_{k>N}
+2^{-k}T_k(t)(\mathcal N_{>k,P}^{D})_+(t)\,dt .
+\tag{TFE2748B.562}
+\]
+
+Therefore `SourceSquareReservePayment.A' follows from the single explicit
+parent-current estimate
+
+\[
+\boxed{
+\mathcal I_{P,N}^{tail}(W)
+\le
+\varepsilon\nu\int_WD_N(t)\,dt
++C_\varepsilon(u_0)2^{-2\delta N}
++Paid(W)+Stop(W).
+}
+\tag{TFE2748B.563}
+\]
+
+Indeed, `(TFE2748B.561)' plus `(TFE2748B.563)' is exactly
+`(TFE2748B.539)' after reducing \(\varepsilon\).  Thus
+
+\[
+\boxed{
+\texttt{TailInjectionWorkCarleson.A `(TFE2748B.563)'}
+\Longrightarrow
+\texttt{SourceSquareReservePayment.A `(TFE2748B.539)'.}
+}
+\tag{TFE2748B.564}
+\]
+
+This is the noncircular meaning of the "thin pulse" obstruction.  A retained
+high-shell drain tail cannot contribute \(2^kT_k^2dt\) for free: the parent
+tail equation records it as either viscous tail-storage decay
+\(-dM_{P,N}^{tail}\), paid route/stop material, or positive tail-injection
+work \(\mathcal I_{P,N}^{tail}\).  The Gold source theorem is now the payment
+of that positive injection work by the original coupled packet before clipping.
+
+The relation to Section 66 is direct.  The record
+\(\mathfrak Z_P^S=(Z_P^S,\Psi_P^S,\Lambda_P^S)\) must be a parent-announced
+representation of \((\mathcal N_{>k,P}^D)_+\) against the active tail \(T_k\):
+
+\[
+\mathcal I_{P,N}^{tail}(W)
+\le
+C_N\mathcal E_{SAC}(P;W)
++\varepsilon\nu\int_WD_N(t)\,dt
++C_\varepsilon2^{-2\delta N}
++Paid(W)+Stop(W).
+\tag{TFE2748B.565}
+\]
+
+Together with the root Carleson/BV/testing bound `(TFE2748B.547)', this proves
+`(TFE2748B.563)' and hence the source-square payment.  Conversely, any proof of
+`(TFE2748B.548)' must supply `(TFE2748B.565)' for the same tail-injection work,
+otherwise it has not identified what original parent current created the
+source-square pulse.
+
+So the current bottom is sharpened to the following exact source package:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{TailInjectionWorkRepresentation.A `(TFE2748B.565)'}\\
++\texttt{OriginalHistorySelectedAmplificationCurrentCarleson.A `(TFE2748B.547)'}
+\end{array}
+\Longrightarrow
+\texttt{SourceSquareReservePayment.A.}
+}
+\tag{TFE2748B.566}
+\]
+
+This section proves the tail-storage identity and the implication to
+source-square payment.  It does not prove `(TFE2748B.563)' from arbitrary
+original data.  The unproved arbitrary-data content is now exactly the
+same-parent payment of the positive full shell-current injection
+\(\mathcal I_{P,N}^{tail}\), rather than an unnamed amplification reservoir or a
+future selected source-square tail.
