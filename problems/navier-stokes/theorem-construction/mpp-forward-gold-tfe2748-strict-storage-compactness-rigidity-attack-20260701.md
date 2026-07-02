@@ -20988,3 +20988,123 @@ This proves the preterminal part and identifies the exact terminal survivor.
 The remaining arbitrary-data proof is the no-terminal-super-capacitary-atom
 theorem, equivalently the critical-endpoint depletion/storage theorem for the
 same parent capacity before child clipping.
+
+## 151. Reverse Holder thickness kills the terminal super-capacitary atom
+
+The terminal atom in Section 150 is removed by one precise parent-density
+mechanism.  Let \(C_\delta\) be the stopped terminal collar
+
+\[
+C_\delta:=(T_*-\delta,T_*]\times X_P
+\tag{TFE2748B.1373}
+\]
+
+in the compactified parent frame.  Suppose the original coupled packet supplies
+a parent clock \(d\Omega_P^{cap,*}\) and a density \(f_P^{cap}\), both fixed
+before child positive clipping, such that the active-potential excess trace is
+admitted as
+
+\[
+U_P^2\,d\mathfrak v_P^{exc}
+\le
+f_P^{cap}\,d\Omega_P^{cap,*}+dE_P^{0,*},
+\tag{TFE2748B.1374}
+\]
+
+with a terminal-uniform reverse-Holder bound
+
+\[
+\sup_{\tau<T_*}
+\int_{[0,\tau]\times X_P}
+\bigl(f_P^{cap}\bigr)^{1+\varepsilon}\,d\Omega_P^{cap,*}
+\le
+C_{\varepsilon,N}(u_0)+Paid_P+Legal_P+Stop_P
+\tag{TFE2748B.1375}
+\]
+
+for some \(\varepsilon>0\), and terminal time-thickness
+
+\[
+\lim_{\delta\downarrow0}
+\sup_{\tau<T_*}
+d\Omega_P^{cap,*}(C_\delta)=0,
+\qquad
+\lim_{\delta\downarrow0}
+\sup_{\tau<T_*}
+dE_P^{0,*}(C_\delta)=0 .
+\tag{TFE2748B.1376}
+\]
+
+Then no terminal super-capacitary active-potential atom can survive.  Indeed,
+Holder gives
+
+\[
+\begin{aligned}
+\int_{C_\delta}f_P^{cap}\,d\Omega_P^{cap,*}
+&\le
+\left(
+\int_{C_\delta}(f_P^{cap})^{1+\varepsilon}\,
+d\Omega_P^{cap,*}
+\right)^{1/(1+\varepsilon)}
+\left(d\Omega_P^{cap,*}(C_\delta)\right)^{\varepsilon/(1+\varepsilon)}
+\\
+&\le
+C_{\varepsilon,N}(u_0)^{1/(1+\varepsilon)}
+\left(d\Omega_P^{cap,*}(C_\delta)\right)^{\varepsilon/(1+\varepsilon)}
+\longrightarrow0 .
+\end{aligned}
+\tag{TFE2748B.1377}
+\]
+
+Together with `(TFE2748B.1376)', this yields
+
+\[
+\lim_{\delta\downarrow0}
+\sup_{\tau<T_*}
+U_P^2d\mathfrak v_P^{exc}(C_\delta)=0 .
+\tag{TFE2748B.1378}
+\]
+
+But a terminal super-capacitary atom from `(TFE2748B.1369)' is a nonzero weak
+limit of the normalized measures \(U_P^2d\mathfrak v_P^{exc}\) supported on
+the terminal collars \(C_\delta\).  The vanishing in `(TFE2748B.1378)' rules it
+out.  Therefore
+
+\[
+\boxed{
+\texttt{ParentReverseHolderThickness.A `(TFE2748B.1374)'--`(TFE2748B.1376)'}
+\Longrightarrow
+\texttt{NoTerminalSuperCapacitaryActivePotentialAtom.A}.}
+\tag{TFE2748B.1379}
+\]
+
+Combining with Section 150 gives the exact active-potential closure criterion:
+
+\[
+\boxed{
+\texttt{ParentReverseHolderThickness.A}
+\Longrightarrow
+\texttt{FiniteCapacitaryExcess.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1380}
+\]
+
+This is not raw finite energy.  The old Bellman/root-capacity half-tail model
+shows why raw capacity is insufficient:
+
+\[
+R_{\rm raw}(Q_r)\sim r,
+\qquad
+A_{\rm sel}(Q_r)\sim1 .
+\tag{TFE2748B.1381}
+\]
+
+The source needed from arbitrary original smooth data is the stronger
+before-clipping density statement `(TFE2748B.1374)'--`(TFE2748B.1376)':
+the selected-critical active excess must be absolutely continuous with respect
+to a time-thick parent full-exchange/capacity clock with a reverse-Holder
+margin.  In the older local-source language this is exactly the stopped
+selected log-carrier exponential-BMO/Kazamaki margin plus active thickness
+`(TFE2748B.899)'--`(TFE2748B.904)', or equivalently the strict
+critical-endpoint depletion storage `(TFE2748B.1302)'.
