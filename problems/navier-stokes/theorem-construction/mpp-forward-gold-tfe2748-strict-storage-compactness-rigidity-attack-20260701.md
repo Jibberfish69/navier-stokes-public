@@ -3447,3 +3447,133 @@ current reduction is strict but not closed: the remaining original-data producer
 is the parent-side coefficient-Carleson plus active-level reserve package
 `(TFE2748B.221)', equivalently the rectified same-parent positive flux-variation
 law in physical variables.
+
+## 32. Active-level reserve is exactly a strict tail recurrence
+
+Section 31 gives the embedding form of the mean active-capacity bill.  Its
+minimal bad profile is the same half-tail as `(TFE2748B.108)'.  Write
+
+\[
+N_P(\lambda)
+:=
+\nu_P^{atom}\{W_P>\lambda\},
+\qquad
+B_P(\lambda)
+:=
+Paid\{W_P>\lambda\}
++\Theta_P^0\{W_P>\lambda\}
++Stop_P\{W_P>\lambda\}.
+\tag{TFE2748B.222}
+\]
+
+Then
+
+\[
+\int W_P\,d\nu_P^{atom}
+=
+\int_0^\infty N_P(\lambda)\,d\lambda .
+\tag{TFE2748B.223}
+\]
+
+The exact strict-tail theorem is
+
+\[
+N_P(2\lambda)
+\le
+\theta\,N_P(\lambda)+B_P(\lambda),
+\qquad
+\theta<\frac12,
+\qquad
+\int_0^\infty B_P(\lambda)\,d\lambda
+\le C_N(u_0)+Paid(P)+Stop(P).
+\tag{TFE2748B.224}
+\]
+
+If `(TFE2748B.224)' holds, dyadic integration gives the level reserve.  Let
+\(N_k=N_P(2^k)\) and \(B_k=B_P(2^k)\).  Since
+\[
+\int W_P\,d\nu_P^{atom}
+\simeq
+\sum_k2^kN_k,
+\tag{TFE2748B.225}
+\]
+
+and \(N_{k+1}\le\theta N_k+B_k\), multiplying by \(2^{k+1}\) and summing gives
+
+\[
+\sum_k2^{k+1}N_{k+1}
+\le
+2\theta\sum_k2^kN_k
++2\sum_k2^kB_k.
+\tag{TFE2748B.226}
+\]
+
+Because \(2\theta<1\), the left-hand sum absorbs into the right-hand parent
+bill, yielding
+
+\[
+\int W_P\,d\nu_P^{atom}
+\le
+C_N(u_0)+Paid(P)+Stop(P)
+\tag{TFE2748B.227}
+\]
+
+up to the lower starting level, which is controlled by the raw unweighted atom
+mass `(TFE2748B.197)'.
+
+Conversely, failure of the active-level reserve with finite raw mass admits the
+normalized half-tail as its minimal bad profile.  After removing paid tails and
+passing to a level-subsequence, there are levels \(k_j\) for which
+
+\[
+N_{k_j+1}>\theta N_{k_j}+B_{k_j}
+\quad\text{for all }\theta<\frac12
+\tag{TFE2748B.228}
+\]
+
+Extracting the excess increments
+
+\[
+\eta_j
+:=
+N_{k_j+1}-\theta N_{k_j}-B_{k_j}>0
+\tag{TFE2748B.229}
+\]
+
+and using the assumed failure
+\(\int W_P\,d\nu_P^{atom}=\infty\) while
+\(\nu_P^{atom}(X_P)<\infty\) gives a subsequence with
+
+\[
+\sum_j \eta_j<\infty,
+\qquad
+\sum_j2^{k_j}\eta_j=\infty,
+\tag{TFE2748B.230}
+\]
+
+which is exactly `(TFE2748B.108)' in parent-level form.  Thus no amount of raw
+same-parent atom ownership, Bessel non-recount, or signed net pressure balance
+can prove the active level reserve unless it proves `(TFE2748B.224)' or an
+equivalent parent \(L\log L\)/reverse-Holder entropy bound.
+
+So `(TFE2748B.221)' has the following final noncircular target:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{from the original coupled packet before clipping, prove the strict}\\
+\text{same-parent active-tail recurrence `(TFE2748B.224)' for the}\\
+\text{positive raw atom-coefficient measure weighted by the parent detector.}
+\end{array}}
+\tag{TFE2748B.231}
+\]
+
+The physical meaning is precise.  The pressure-Hodge residue may oscillate, and
+the raw positive lobe is paired to an opposite lobe in the same parent.  The
+remaining Gold question is whether the original coupled packet has enough
+parent-visible active entropy to prevent the same finite raw atom mass from
+being distributed over higher and higher active prices \(W_P\).  Viscosity,
+pressure, and incompressibility enter only as one coupled packet law here:
+proving `(TFE2748B.224)' is exactly proving that their same-parent transaction
+deletes high active tails faster than it can re-coordinate them into new
+selected positive level bills.
