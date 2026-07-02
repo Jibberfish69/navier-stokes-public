@@ -148,7 +148,12 @@ The pure scale-native event is exactly the case in which the natural unit
 rescaled test has unbounded original pullback.  It needs its own native
 participation reserve.
 
-## 3. The MPP-bearing native reserve theorem
+## 3. Historical native-reserve face
+
+Current July 2 custody: the native-reserve language below is a face/readout of
+the same-parent coupled active-capacity storage law.  The displayed atoms and
+maps are finite-overlap bookkeeping coordinates; they are not the physical
+producer and do not carry an atom-width ontology.
 
 Let \(\Gamma_N(P)\) be the retained selected high-ratio birth atoms in the
 stopped tree below \(P\), after lower-band carry, entrance, legal loss, reset,
@@ -161,7 +166,8 @@ The exact remaining theorem is:
 NativeBirthChargePacking.A / ScaleNativeActiveParticipationReserve.A.
 ```
 
-For every stopped parent \(P\), construct a native reserve family
+For every stopped parent \(P\), the historical projection asks for a native
+reserve family
 \(\mathcal R_N^{nat}(u_0;P)\) from the original coupled
 pressure-viscosity-incompressibility-velocity packet and a map
 
@@ -202,7 +208,8 @@ with bounded stopped multiplicity.
 
 ## 4. Conditional closure after the native map
 
-Summing `(11)` and using bounded multiplicity gives
+Taking the finite-overlap bookkeeping sum in `(11)` and using bounded
+multiplicity gives
 
 \[
 \sum_{\gamma\in\Gamma_N(P)}\omega_\gamma
@@ -313,9 +320,11 @@ The standard estimate closes `(20)` only under a small
 \(\dot H^{1/2}\) packet condition.  For arbitrary smooth data, `(20)` is the
 same MPP-bearing storage coercivity problem in critical-transfer form.
 
-A finished Gold proof must build the native reserve atoms and prove their
-bounded multiplicity from the original coupled material packet, without
-importing the future selected clock or downstream \(H^s\) continuation.
+A finished Gold proof must prove this face from the original coupled material
+packet, or prove the full coupled parent-storage theorem directly.  In current
+custody, "native reserve atoms" means finite-overlap charge bookkeeping after
+the continuous parent packet is fixed, without importing the future selected
+clock or downstream \(H^s\) continuation.
 
 Thus the honest state is:
 
