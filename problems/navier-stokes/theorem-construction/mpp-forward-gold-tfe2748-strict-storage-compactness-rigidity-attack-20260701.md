@@ -6845,11 +6845,11 @@ Define the square-completed source measure
 d\mathfrak Z_P^{H}
 :=
 d\rho_{crit,P}^{ac}
-d\rho_{crit,P}^{entry}
-d\rho_{Hlog,P}^{det,\lambda}
-d\Theta_P^0
-dPaid_P
-dStop_P ,
++d\rho_{crit,P}^{entry}
++d\rho_{Hlog,P}^{det,\lambda}
++d\Theta_P^0
++dPaid_P
++dStop_P ,
 \tag{TFE2748B.431}
 \]
 
@@ -6865,7 +6865,7 @@ d\rho_{Hlog,P}^{det,\lambda}
 \langle A_P^\dagger J_{\Psi,P},J_{\Psi,P}\rangle\,d\mathfrak m_P
 +2\theta^2\,dI_P
 \right)
-{1\over2\lambda}(\mathcal K_\omega^{bad})^2\,dI_P .
++{1\over2\lambda}(\mathcal K_\omega^{bad})^2\,dI_P .
 \tag{TFE2748B.432}
 \]
 
@@ -6885,8 +6885,8 @@ admission `(TFE2748B.433)' give the deterministic inclusion
 
 \[
 d\Xi_P^{crit,ac}
-d\Xi_P^{crit,0}
-d\Xi_P^{Hlog,\lambda}
++d\Xi_P^{crit,0}
++d\Xi_P^{Hlog,\lambda}
 \le
 C_Nd\mathfrak Z_P^{H}.
 \tag{TFE2748B.434}
@@ -6922,8 +6922,8 @@ rigidity statement.  It is the storage of \(d\mathfrak Z_P^H\):
 
 \[
 d\rho_{crit,P}^{ac}
-d\rho_{crit,P}^{entry}
-d\rho_{Hlog,P}^{det,\lambda}
++d\rho_{crit,P}^{entry}
++d\rho_{Hlog,P}^{det,\lambda}
 \le
 -dM_P^{Z,H}
 +\vartheta\,d\Omega_P^{gen}
