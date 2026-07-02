@@ -12163,3 +12163,129 @@ endpoint subledger is lower-admitted to aligned-current/material-record carrier
 before clipping, and prove the tail material-record payment line from the
 original coupled packet.  The transverse full-exchange square is no longer a
 separate Gold source.
+
+## 90. The raw signed atom construction is closed, not the selected reserve
+
+The latest atom-decomposition request lands exactly at the raw parent level.
+It does not reopen the Gold source.  It also does not by itself prove the
+selected-critical storage theorem, because the selected meter \(W_P^{crit}\)
+is an additional parent-announced weight that must be supplied before clipping.
+
+Fix a stopped compact preterminal parent packet \(P\) and pull the coupled
+pressure-Hodge/material residue into the parent material chart before any child
+positive part is taken.  Here "pressure-Hodge/material residue" is a coordinate
+readout of the one pressure-viscosity-incompressibility-velocity participation
+packet, after the route, collar, metric, Hodge-commutator, detector-motion,
+legal, stop, and endpoint leakage have been separated.  The retained raw
+pre-clipping measure is
+
+\[
+dJ_P=dJ_P^0+dR_P,\qquad
+\int_{X_P}dJ_P^0=0,\qquad
+|dR_P|\le d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.783}
+\]
+
+For arbitrary original smooth preterminal data, Section 82 gives the local
+Hardy construction of \(dJ_P^0\).  In the stopped chart the smooth density
+representative satisfies
+
+\[
+\|F_P(t)\|_{\mathcal H^1(X_P)}
+\le
+C_N\|\nabla u(t)\|_2^2
+dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t),
+\tag{TFE2748B.784}
+\]
+
+so the local Hardy atomic decomposition gives zero-mean same-parent atoms
+\(d\mu_\alpha\) and coefficients \(c_\alpha\) with
+
+\[
+dJ_P
+=
+\sum_\alpha c_\alpha\,d\mu_\alpha+dR_P,
+\qquad
+\int_{X_P}d\mu_\alpha=0,
+\tag{TFE2748B.785}
+\]
+
+and, after integration in time and the Leray energy inequality,
+
+\[
+\int_0^\tau\sum_\alpha |c_\alpha(t)|\,dt
+\int_0^\tau |(dR_P)_+|(t)
+\le
+C_N{\|u_0\|_2^2\over\nu}
++Paid_P+Legal_P+Stop_P,
+\qquad \tau<T_* .
+\tag{TFE2748B.786}
+\]
+
+Equivalently, taking the Jordan split \(dJ_P^0=dJ_P^+-dJ_P^-\) and any
+same-parent coupling \(\pi_P\) between \(dJ_P^+\) and \(dJ_P^-\),
+
+\[
+dJ_P^0
+=
+\int_{X_P\times X_P}(\delta_x-\delta_y)\,d\pi_P(x,y),
+\qquad
+\pi_P(X_P\times X_P)
+=
+{1\over2}|dJ_P^0|(X_P).
+\tag{TFE2748B.787}
+\]
+
+Thus every raw positive lobe has an opposite signed lobe in the same stopped
+parent packet:
+
+\[
+(dJ_P)_+
+\preceq_{atom}
+dJ_P^{ret,-}+(dR_P)_+,
+\qquad
+dJ_P^{ret,-}:=(\mathrm{pr}_2)_\#\pi_P .
+\tag{TFE2748B.788}
+\]
+
+The retained opposite lobe is a bounded-below parent reserve depletion by the
+explicit raw reserve
+
+\[
+M_P^{atom}(\tau)
+:=
+C_N{\|u_0\|_2^2\over\nu}
++Paid_P+Legal_P+Stop_P
+-dJ_P^{ret,-}\bigl([0,\tau]\times X_P\bigr).
+\tag{TFE2748B.789}
+\]
+
+By `(TFE2748B.786)',
+
+\[
+M_P^{atom}(\tau)\ge0,
+\qquad
+-dM_P^{atom}=dJ_P^{ret,-}
+\quad\text{on retained parent atoms.}
+\tag{TFE2748B.790}
+\]
+
+Therefore the construction asked for here is already an original-data theorem:
+
+\[
+\boxed{
+\texttt{SignedPressureHodgeAtomicAttachment.A is proved at the raw parent level
+by `(TFE2748B.783)'--`(TFE2748B.790)'.}
+}
+\tag{TFE2748B.791}
+\]
+
+The remaining Gold \(L^1\) source is the selected-weighted upgrade.  Multiplying
+the atom ledger by \(W_P^{crit}\) changes the problem from raw signed
+attachment to parent-announced selected storage: \(W_P^{crit}\), its
+log-amplification, the selected endpoint subledger, and the tail
+material-record payment must all be supplied by the same original coupled
+packet before clipping.  Thus Section 90 discharges the raw atomic
+decomposition, coefficient/leakage control, and bounded-below opposite-lobe
+reserve; it leaves `(TFE2748B.771)' and `(TFE2748B.760)' as the nonduplicate
+selected-critical source lines from Sections 88--89.
