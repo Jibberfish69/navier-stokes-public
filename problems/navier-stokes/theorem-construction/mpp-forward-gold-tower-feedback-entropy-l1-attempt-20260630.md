@@ -1673,11 +1673,12 @@ in the original energy currency, but the selected terminal \(L^1\) bill is an
 unweighted heat-scale readout.  Gold closure needs the theorem that removes this
 weight inside the same root-fixed parent packet.
 
-Let \(\mathcal Q_P^{term}\) be the retained terminal heat-scale children of a
+Let \(\mathcal Q_P^{term}\) be a retained terminal finite-overlap partition of a
 root parent \(P\), after parent reuse, fresh Bessel entry, Schur update, return,
 motion, reset, legal, stop, and CM endpoint-face exits have been removed.  Write
-\(A_Q^{sel,+}\) for the selected normalized positive action of \(Q\).  The
-terminal \(L^1\) line is equivalent to the unweighted parent-packet reserve
+\(A_Q^{sel,+}\) for the selected normalized positive action projected on \(Q\).
+The terminal \(L^1\) readout is a partition coordinate of the unweighted
+parent-packet reserve
 
 \[
 \sum_{Q\in\mathcal Q_P^{term}} A_Q^{sel,+}
