@@ -13087,7 +13087,7 @@ Let \(d\mathfrak t_{P,n}^+\) be the positive terminal trace/readout measure of
 the retained full Hodge-Stokes/tower packet on a normalized stopped parent
 sequence, after \(d\Theta^0+dPaid+dStop\), visible legal/collar material, and
 ordinary selector motion have been subtracted.  After weak-star extraction,
-\(d\mathfrak t_{P,n}^*\rightharpoonup d\mathfrak t_{P,*}^+\).  For each
+\(d\mathfrak t_{P,n}^+\rightharpoonup d\mathfrak t_{P,*}^+\).  For each
 retained terminal test set \(E\subset X_P\), define the terminal anti-atom
 measure by
 
