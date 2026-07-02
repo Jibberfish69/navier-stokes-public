@@ -22629,8 +22629,8 @@ variation/storage line.
 ## 162. The active-density comparison splits into carrier, exponential BMO, and no-residue
 
 The first clause in `(TFE2748B.1483)' should also not remain a black box.  It is
-the current \(TFE2748B\) form of the continuous parent-density split already
-proved in the \(TFE2494\)--\(TFE2531\) audit: once the active measure is a
+the current \(TFE2748B\) form of the continuous parent-density split isolated in
+the \(TFE2494\)--\(TFE2531\) audit: once the active measure is a
 parent measure rather than a child count, the \(L^1\) comparison is entropy plus
 thickness in that same measure.
 
