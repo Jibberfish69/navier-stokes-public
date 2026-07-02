@@ -3094,12 +3094,88 @@ C_N{\|u_0\|_2^2\over \nu},
 \tag{TFE2748B.197}
 \]
 
-This proves the arbitrary-smooth-data construction of the pre-clipping
-same-parent pressure atoms with raw controlled coefficients and paid leakage.
-For higher finite jet rungs, the same statement holds with the differentiated
-pressure-Hodge source and the corresponding preterminal smooth norms; making
-those constants terminal-uniform from \(u_0\) is the Gold storage problem, not
-an atomization problem.
+This gives the actual raw construction from arbitrary smooth data.  More
+explicitly, in the stopped material chart write the unremoved pressure-Hodge
+residue as
+
+\[
+F_P(t,a)\,da
+:=
+\chi_P(a)\,\mathcal T_P
+\bigl(\partial_i u_j\,\partial_j u_i\bigr)(t,a)\,da
+-
+\langle \chi_P\mathcal T_P
+(\partial_i u_j\,\partial_j u_i)\rangle_{X_P}\,da,
+\tag{TFE2748B.197a}
+\]
+
+where \(\mathcal T_P\) is the pressure-Hodge operator pulled back to the stopped
+parent frame and \(\chi_P\) is the parent cutoff.  The subtracted mean is
+exactly the same-parent zero-mode; the terms created by \(\nabla\chi_P\),
+metric derivatives, collar motion, and stopping are placed in \(dR_P\).  Thus
+
+\[
+dJ_P^0(t)=F_P(t,a)\,da,
+\qquad
+\int_{X_P}F_P(t,a)\,da=0,
+\tag{TFE2748B.197b}
+\]
+
+and
+
+\[
+\|F_P(t)\|_{\mathcal H^1(X_P)}
+\le
+C_N\|\nabla u(t)\|_2^2
+dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t).
+\tag{TFE2748B.197c}
+\]
+
+By the local Hardy atomic decomposition in the stopped parent chart, for each
+smooth time slice there are same-parent atoms \(a_{\alpha,t}\), supported inside
+stopped parent subpackets, with
+
+\[
+\int a_{\alpha,t}=0,\qquad
+\|a_{\alpha,t}\|_1\le1,\qquad
+\|a_{\alpha,t}\|_\infty\le |Q_{\alpha,t}|^{-1},
+\tag{TFE2748B.197d}
+\]
+
+and coefficients \(c_\alpha(t)\) such that
+
+\[
+F_P(t,a)\,da
+=
+\sum_\alpha c_\alpha(t)\,a_{\alpha,t}(a)\,da,
+\qquad
+\sum_\alpha |c_\alpha(t)|
+\le
+C\|F_P(t)\|_{\mathcal H^1(X_P)} .
+\tag{TFE2748B.197e}
+\]
+
+Set \(d\mu_{\alpha,t}=a_{\alpha,t}(a)\,da\).  These are the same-parent
+zero-mean atoms in `(TFE2748B.191)'.  Combining `(TFE2748B.197c)' and
+`(TFE2748B.197e)' gives the pointwise coefficient/leakage estimate
+
+\[
+\sum_\alpha |c_\alpha(t)|
++ |(dR_P)_+|(t)
+\le
+C_N\|\nabla u(t)\|_2^2
++dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t).
+\tag{TFE2748B.197f}
+\]
+
+Integrating `(TFE2748B.197f)' and using the Leray energy inequality gives
+`(TFE2748B.197)'.  Hence arbitrary original smooth data supplies the
+pre-clipping same-parent atom decomposition, raw coefficient control, and paid
+leakage before any selected child clipping is applied.  For higher finite jet
+rungs, the same atomization holds with the differentiated pressure-Hodge source
+and the corresponding preterminal smooth norms; making those constants
+terminal-uniform from \(u_0\) is the Gold storage problem, not an atomization
+problem.
 
 The retained opposite lobe is a bounded-below reserve in this raw currency.
 Define
@@ -3133,6 +3209,54 @@ dJ_P^{ret,-}\le -dM_P^{raw}.
 
 Thus the requested reserve-depletion statement is proved for the raw
 same-parent pressure-Hodge atom measure.
+
+This reserve is not defined from a future selected tail.  Each decrement is
+made at the same time and inside the same stopped parent atom that produced the
+positive lobe.  Indeed, for
+\(\nu_{\alpha,t}=c_\alpha(t)d\mu_{\alpha,t}\),
+
+\[
+\nu_{\alpha,t}
+=
+\nu_{\alpha,t}^+-\nu_{\alpha,t}^-,
+\qquad
+\nu_{\alpha,t}^+(X_P)=\nu_{\alpha,t}^-(X_P),
+\tag{TFE2748B.200a}
+\]
+
+so the retained opposite lobe measure
+
+\[
+dJ_P^{ret,-}
+:=
+\sum_\alpha \nu_{\alpha,t}^-\,dt
+\tag{TFE2748B.200b}
+\]
+
+has total mass bounded by the same coefficient budget:
+
+\[
+dJ_P^{ret,-}([0,\tau]\times X_P)
+\le
+C\int_0^\tau\sum_\alpha |c_\alpha(t)|\,dt
+\le
+C_N{\|u_0\|_2^2\over\nu}
++Paid_P+Legal_P+Stop_P .
+\tag{TFE2748B.200c}
+\]
+
+Choosing \(M_P^{raw}(0)\) to dominate the right side in
+`(TFE2748B.200c)' makes \(M_P^{raw}\) a preallocated parent reserve, and
+
+\[
+-dM_P^{raw}=dJ_P^{ret,-},
+\qquad
+M_P^{raw}(\tau)\ge0
+\quad(\tau<T_*).
+\tag{TFE2748B.200d}
+\]
+
+That is the bounded-below depletion law in the raw parent currency.
 
 The selected-critical Gold reserve is stronger.  Let \(W_P\) denote the
 parent-known active/heat-lag detector weight that a child would otherwise apply
