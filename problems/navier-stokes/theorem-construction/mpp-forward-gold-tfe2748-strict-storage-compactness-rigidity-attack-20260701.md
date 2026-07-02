@@ -17561,3 +17561,203 @@ survives the rigidity test.  Both are precisely the two faces of
 `(TFE2748B.1122)'.  There is no further unconstructed same-parent pressure atom
 left after route, legal, stop, entry, return, endpoint, and paid leakage are
 removed.
+
+## 129. The arbitrary-data signed atom request is discharged before clipping
+
+The signed-measure request has a clean theorem form in the current notation.
+Fix a stopped compact preterminal parent packet \(P\), and let \(dJ_P\) be the
+pressure-Hodge/material residue of the original smooth solution after route,
+collar, endpoint, legal, stop, and detector-motion terms have been separated,
+all before any selected positive part is clipped.  In the stopped parent chart,
+
+\[
+dJ_P=dJ_P^0+dR_P,
+\qquad
+dJ_P^0(X_P)=0,
+\qquad
+|dR_P|\le d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.1145}
+\]
+
+The zero-mass part is the parent-frame pressure constraint.  On the whole
+periodic packet the pressure source is normalized to zero mean; after stopping
+and localizing, the only net mass created by the cutoff, frame, collar,
+endpoint, route, legal, and stop operations is exactly the paid residue
+\(dR_P\).
+
+For the smooth Navier--Stokes source one may take the retained density
+
+\[
+F_P(t,a)\,da
+:=
+\chi_P(a)\mathcal T_P
+\bigl(\partial_i u_j\,\partial_j u_i\bigr)(t,a)\,da
+-
+\left\langle
+\chi_P\mathcal T_P
+\bigl(\partial_i u_j\,\partial_j u_i\bigr)
+\right\rangle_{X_P} da,
+\tag{TFE2748B.1146}
+\]
+
+where \(\mathcal T_P\) is the stopped parent pressure-Hodge pullback.  The
+div-curl Hardy estimate and the paid commutator separation give
+
+\[
+\|F_P(t)\|_{\mathcal H^1(X_P)}
+\le
+C_N\|\nabla u(t)\|_2^2
+dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t),
+\tag{TFE2748B.1147}
+\]
+
+with every metric, cutoff, collar, endpoint, route, legal, stop, and
+detector-motion term not belonging to the zero-mass pressure residue placed in
+\(dR_P\).
+
+The local Hardy atom theorem in the stopped parent chart gives same-parent
+zero-mean atoms \(a_{\alpha,t}\) and coefficients \(c_\alpha(t)\) such that
+
+\[
+dJ_P^0(t)=\sum_\alpha c_\alpha(t)a_{\alpha,t}\,d\mathfrak m_P,
+\qquad
+\int_{X_P} a_{\alpha,t}\,d\mathfrak m_P=0,
+\tag{TFE2748B.1148}
+\]
+
+and
+
+\[
+\sum_\alpha |c_\alpha(t)|+|(dR_P)_+|(t)
+\le
+C_N\|\nabla u(t)\|_2^2
+dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t).
+\tag{TFE2748B.1149}
+\]
+
+Equivalently, taking the Jordan split
+
+\[
+dJ_P^0=dJ_{P,+}^0-dJ_{P,-}^0,
+\qquad
+dJ_{P,+}^0(X_P)=dJ_{P,-}^0(X_P)=m_P^J,
+\tag{TFE2748B.1150}
+\]
+
+and coupling the two lobes by a same-parent transport plan \(\pi_P\) gives the
+literal continuum atomization
+
+\[
+dJ_P^0
+=
+\int_{X_P\times X_P}(\delta_x-\delta_y)\,d\pi_P(x,y),
+\qquad
+\pi_P(X_P\times X_P)=m_P^J={1\over2}|dJ_P^0|(X_P).
+\tag{TFE2748B.1151}
+\]
+
+After simple-measure approximation of \(\pi_P\), `(TFE2748B.1151)' is the
+countable form
+
+\[
+dJ_P=\sum_\alpha c_\alpha\,d\mu_\alpha+dR_P,
+\qquad
+\int_{X_P}d\mu_\alpha=0.
+\tag{TFE2748B.1152}
+\]
+
+The coefficient and leakage bound is terminal-uniform in the raw parent
+currency:
+
+\[
+\int_0^\tau\sum_\alpha |c_\alpha(t)|\,dt
++\int_0^\tau |(dR_P)_+|(t)
+\le
+C_N{\|u_0\|_2^2\over\nu}
++Paid_P+Legal_P+Stop_P,
+\qquad
+\tau<T_* .
+\tag{TFE2748B.1153}
+\]
+
+For each signed atom
+\(\nu_{\alpha,t}:=c_\alpha(t)d\mu_{\alpha,t}
+=\nu_{\alpha,t}^+-\nu_{\alpha,t}^-\), zero mean gives equal lobe mass in the
+same stopped parent packet:
+
+\[
+\nu_{\alpha,t}^+(X_P)=\nu_{\alpha,t}^-(X_P).
+\tag{TFE2748B.1154}
+\]
+
+Hence the positive lobe is attached to its opposite retained lobe on the
+same-parent atom ledger:
+
+\[
+(dJ_P)_+
+\preceq_{atom}
+dJ_P^{ret,-}+(dR_P)_+,
+\qquad
+dJ_P^{ret,-}:=(\mathrm{pr}_2)_\#d\pi_P
+=\sum_\alpha \nu_{\alpha,t}^- .
+\tag{TFE2748B.1155}
+\]
+
+This comparison is not pointwise on \(X_P\).  It is the paired atom-ledger fact
+that a positive pressure-Hodge lobe and its opposite lobe are the two marginals
+of the same parent transport atom.
+
+Define the preallocated raw parent reserve
+
+\[
+B_P^{atom}:=
+C_N{\|u_0\|_2^2\over\nu}
++Paid_P+Legal_P+Stop_P,
+\qquad
+M_P^{atom}(\tau)
+:=
+B_P^{atom}
+-dJ_P^{ret,-}\bigl([0,\tau]\times X_P\bigr).
+\tag{TFE2748B.1156}
+\]
+
+Then `(TFE2748B.1153)' gives
+
+\[
+M_P^{atom}(\tau)\ge0,
+\qquad
+-dM_P^{atom}=dJ_P^{ret,-}
+\quad\text{on retained parent atoms.}
+\tag{TFE2748B.1157}
+\]
+
+Thus arbitrary original smooth data supplies the pre-clipping same-parent atom
+decomposition, coefficient/leakage control, and bounded-below retained
+opposite-lobe depletion:
+
+\[
+\texttt{SignedPressureHodgeAtomicAttachment.A}
+\ \text{is proved by }
+`(TFE2748B.1145)'\text{--}`(TFE2748B.1157)'.
+\tag{TFE2748B.1158}
+\]
+
+This closes the raw signed-measure layer of the supplied request.  The
+selected-critical Gold layer starts only when the parent meter
+\(W_P^{crit}\) prices the two lobes differently:
+
+\[
+W_P^{crit}(x)\,d\pi_P(x,y)
+\le
+W_P^{crit}(y)\,d\pi_P(x,y)
++
+W_P^{crit}(y)
+\bigl(e^{[\log W_P^{crit}(x)-\log W_P^{crit}(y)]_+}-1\bigr)
+d\pi_P(x,y).
+\tag{TFE2748B.1159}
+\]
+
+The first term is the selected retained-lobe reserve, and the second is the
+selected log-meter/full-exchange variation.  Sections 123--128 identify the
+noncircular payment for `(TFE2748B.1159)' as finite weighted excess /
+full-exchange no-profit storage, not as another atom construction.
