@@ -6704,11 +6704,11 @@ Let the root-independent paid ledger for the square-completed packet be
 d\mathfrak E_P^{0,H}
 :=
 d\Theta_P^0
-dR_{\rm legal,P}
-dStop_P
-dA_P^{entry/endpoint}
-dA_P^{lower\ carry/return}
-dR_P^{route/Hlog}.
++dR_{\rm legal,P}
++dStop_P
++dA_P^{entry/endpoint}
++dA_P^{lower\ carry/return}
++dR_P^{route/Hlog}.
 \tag{TFE2748B.422}
 \]
 
