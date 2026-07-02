@@ -2542,3 +2542,175 @@ entropy/log-density source theorem: parent active thickness plus active entropy
 prevents the zero-source half-tail; the unproved arbitrary-data step is
 constructing that entropy carrier and its testing Carleson bound from the
 original coupled packet.
+
+## 26. Stopped-current audit: the active Bessel embedding is the same source theorem
+
+The June 27 stopped-current surfaces do not create a second Gold source.  They
+put the same parent-active entropy theorem into the correct detector coordinate.
+The starting point is the same-material divergence form
+
+\[
+\nu_P^S
+=
+D_AJ_P^S+\nu_{P,stop}^S+\nu_{P,legal}^S,
+\tag{TFE2748B.156}
+\]
+
+where \(J_P^S\) is the stopped routed participation current built before scalar
+positive selection.  Let \(T_P=\nabla_A L_A^{-1}\) denote the stopped
+pressure-Hodge/Riesz lift.  For a stopped child \(Q\subseteq P\), localization
+gives
+
+\[
+D_A(\chi_QJ_P^S)
+=
+\chi_QD_AJ_P^S+(D_A\chi_Q)\cdot J_P^S.
+\tag{TFE2748B.157}
+\]
+
+Therefore the stopped transform estimate is a consumer of current control:
+
+\[
+\|T_P(1_Q\nu_P^S)\|_{L^2(Q,\mathcal R)}^2
+\le
+C\int_{\widehat Q}|J_P^S|^2\,d\mathcal R
++C\,Collar(Q)+C\,Stop(Q)+C\,R_{\rm legal}(Q).
+\tag{TFE2748B.158}
+\]
+
+Thus `StoppedSelectorTestingCarleson.A' follows once the original parent packet
+supplies the current Carleson bound
+
+\[
+\sup_{Q\subseteq P}
+{1\over \mathcal R(Q)}
+\left[
+\int_{\widehat Q}|J_P^S|^2\,d\mathcal R
++Collar(Q)+Stop(Q)+R_{\rm legal}(Q)
+\right]
+\le C_N(u_0).
+\tag{TFE2748B.159}
+\]
+
+The remaining question is not whether the Hilbert transform is bounded.  It is
+whether the selected detector family is a Bessel family in the active parent
+metric before the selected child readout is clipped.  In the stopped material
+Hilbert space
+
+\[
+\mathfrak H_P
+=
+L^2_{\rm sym,tr}(\operatorname{Hist}(P)),
+\qquad
+G_P=2\nu S_A,
+\tag{TFE2748B.160}
+\]
+
+the parent-known detector frame has covariant route derivative
+
+\[
+\mathcal D_\sigma a_{\sigma,t}
+=
+\partial_\sigma a_{\sigma,t}
++T_\sigma a_{\sigma,t}
++E_\sigma a_{\sigma,t}
++C_\sigma a_{\sigma,t}.
+\tag{TFE2748B.161}
+\]
+
+The routed-current generator is the coupled packet tested against that moving
+frame:
+
+\[
+\mathcal G_{\sigma,t}
+=
+\langle G_P,\mathcal D_\sigma a_{\sigma,t}\rangle_{\mathfrak H_P}
++Err_{\rm legal}+Err_{\rm stop}.
+\tag{TFE2748B.162}
+\]
+
+The pressure/incompressibility part has not been discarded here; it is in the
+choice and motion of the stopped pressure-Hodge detector
+\(a_{\sigma,t}\), including its frame, exchange, covector, collar, and endpoint
+terms.  In this coordinate the viscous strain \(G_P\) is the square-paid stress
+readout against that coupled detector.
+
+Consequently the exact noncircular supplier is the active-metric stopped-frame
+Bessel estimate
+
+\[
+\int_{\operatorname{Hist}(P)}
+w(\sigma,t)
+|\langle F,\mathcal D_\sigma a_{\sigma,t}\rangle_{\mathfrak H_P}|^2
+d\sigma dt
+\le
+C_N\|F\|_{\mathfrak H_P}^2
++R_{\rm legal}(P)+Stop(P)
+\tag{TFE2748B.163}
+\]
+
+for every \(F\in\mathfrak H_P\), with the active weight \(w\) fixed by the
+parent packet before selected clipping.  Applying `(TFE2748B.163)' to \(F=G_P\)
+gives
+
+\[
+\mathcal E_{\rm route}(P)
+:=
+\int_{\operatorname{Hist}(P)}
+w(\sigma,t)|\mathcal G_{\sigma,t}|^2\,d\sigma dt
+\le
+C_N\|G_P\|_{\mathfrak H_P}^2
++R_{\rm legal}(P)+Stop(P).
+\tag{TFE2748B.164}
+\]
+
+The original material energy law then supplies
+
+\[
+\|G_P\|_{\mathfrak H_P}^2
+=
+4\nu^2\int_{\operatorname{Hist}(P)}|S_A|^2
+\le C_\nu E_0(u_0)
+\tag{TFE2748B.165}
+\]
+
+on stopped histories with bounded overlap, so `(TFE2748B.163)' implies finite
+original-history routed current energy.  The already-written derivative-BV and
+reset/return assembly then yields `(TFE2748B.159)', which yields stopped
+testing by `(TFE2748B.158)', which yields the entropy bound
+`(TFE2748B.153)' and hence the selected \(L^1\) bound.
+
+This proves the exact conditional route:
+
+\[
+\texttt{ScaleCriticalStoppedFrameCarlesonEmbedding.A}
+\Longrightarrow
+\texttt{StoppedSelectorTestingCarleson.A}
+\Longrightarrow
+\texttt{OriginalHistoryHilbertBMOProducer.A}
+\Longrightarrow
+\text{terminal-uniform selected }L^1.
+\tag{TFE2748B.166}
+\]
+
+It also identifies why the route is still open from arbitrary original data.
+Ordinary raw Bessel or raw \(L^2\) energy only controls the same family without
+the selected active weight \(w\):
+
+\[
+\int
+|\langle F,\mathcal D_\sigma a_{\sigma,t}\rangle_{\mathfrak H_P}|^2
+d\sigma dt
+\lesssim
+\|F\|_{\mathfrak H_P}^2.
+\tag{TFE2748B.167}
+\]
+
+That estimate is a square-energy statement.  It does not control the
+scale-critical selected active counting weight, and it still permits the
+lower-edge half-tail isolated in Section 25.  The unproved arbitrary-data
+producer is therefore `(TFE2748B.163)' itself, equivalently the parent-weighted
+detector theorem saying that the selected active weight is supplied by the same
+original coupled packet before child clipping.  This is the stopped-current /
+Bessel-coordinate form of `GlobalSameParentCriticalNoArbitrage.A', not an
+additional downstream obstruction.
