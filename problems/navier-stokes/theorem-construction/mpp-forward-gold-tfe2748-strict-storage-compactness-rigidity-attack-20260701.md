@@ -6964,3 +6964,102 @@ readout cannot be counted until the parent ledger has already supplied the
 positive-baseline log source, the zero-baseline first-entry source, and the
 square-completed log-detector source.  Once those are in \(d\mathfrak Z_P^H\),
 the zero-source compactness cycle has no remaining physical carrier.
+
+## 55. Entropy identity for the square-completed source storage
+
+The storage line `(TFE2748B.437)' is the source form of the same entropy
+calculation already used in `(TFE.2666)'--`(TFE.2671)', with the Hlog detector
+square included in the geometric distortion.
+
+Let \(\mathcal E_P^{crit}\) be the before-clipping critical entropy from
+`(TFE.2666)' and let \(\mathcal C_P^{crit}\) be the root critical capacity.
+The entropy chain rule and singular-entry admission give
+
+\[
+d\rho_{crit,P}^{ac}
++d\rho_{crit,P}^{entry}
+\le
+d\mathcal E_P^{crit}
++dPaid_P .
+\tag{TFE2748B.440}
+\]
+
+The coupled pressure-viscosity-incompressibility packet gives the entropy
+balance
+
+\[
+d\mathcal E_P^{crit}
++\nu\,d\mathcal I_P^{crit}
+\le
+d\mathcal D_P^{geom}
++dPaid_P,
+\tag{TFE2748B.441}
+\]
+
+where \(d\mathcal I_P^{crit}\) is the Fisher/Dirichlet drain and
+\(d\mathcal D_P^{geom}\) is the selected-meter distortion from frame, Hodge,
+collar, endpoint, coarea, and selector motion.  The square-completed Hardy tail
+adds exactly one more parent-announced distortion face:
+
+\[
+d\mathcal D_P^{geom,H}
+:=
+d\mathcal D_P^{geom}
++d\rho_{Hlog,P}^{det,\lambda}.
+\tag{TFE2748B.442}
+\]
+
+If the original coupled packet proves the strict augmented distortion bound
+
+\[
+d\mathcal D_P^{geom,H}
++[d\mathcal C_P^{crit}]_+
+\le
+\vartheta\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad C_N\vartheta<1,
+\tag{TFE2748B.443}
+\]
+
+then, with
+
+\[
+M_P^{Z,H}:=\mathcal C_P^{crit}-\mathcal E_P^{crit},
+\tag{TFE2748B.444}
+\]
+
+the identity \(d\mathcal E_P^{crit}=-dM_P^{Z,H}+d\mathcal C_P^{crit}\) and
+`(TFE2748B.440)'--`(TFE2748B.443)' give
+
+\[
+d\rho_{crit,P}^{ac}
++d\rho_{crit,P}^{entry}
++d\rho_{Hlog,P}^{det,\lambda}
+\le
+-dM_P^{Z,H}
++\vartheta\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{TFE2748B.445}
+\]
+
+which is `(TFE2748B.437)'.  The boundedness condition `(TFE2748B.438)' is the
+same parent-fixed or paid-variation capacity requirement from `(TFE.2670b)'.
+
+Thus the current proof has one exact nonconsumer PDE burden:
+
+\[
+\boxed{
+\texttt{AugmentedSelectedMeterDistortionBound.A `(TFE2748B.443)'}
+\Longrightarrow
+\texttt{SquareCompletedCriticalSourceStorage.A `(TFE2748B.437)'--`(TFE2748B.438)'.}
+}
+\tag{TFE2748B.446}
+\]
+
+In physical terms, this is the single coupled participation law in its entropy
+form.  Pressure/Hodge and self-advection re-coordinate the parent packet without
+changing parent volume, viscosity supplies the Fisher drain, and the only
+positive source left is the selected meter/log-detector motion.  Gold closure
+now requires proving that augmented positive distortion is strictly dominated
+by the original generator clock plus paid packet motion from arbitrary smooth
+data.
