@@ -20,8 +20,7 @@ source_surfaces:
 
 # TFE2748 coupled-storage loop audit
 
-The current bottom is the right physical object only if it is treated as one
-same-parent coupled storage theorem. It is wrong as a linear proof chain.
+The current bottom is the right physical object only if it is treated as one same-parent coupled storage theorem. It is wrong as a linear proof chain.
 
 The circularity is exact. Section 166 proves the full-exchange storage from the
 preallocated critical-source storage:

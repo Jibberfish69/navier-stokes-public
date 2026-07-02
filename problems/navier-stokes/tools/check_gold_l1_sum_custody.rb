@@ -5,26 +5,35 @@ require "pathname"
 
 ROOT = Pathname.new(ENV.fetch("NS_GOLD_L1_GUARD_ROOT") { Pathname.new(__dir__).join("../../..").expand_path }).expand_path
 
-CUSTODY_AUDIT_PATH = "problems/navier-stokes/theorem-construction/mpp-forward-gold-summation-type-custody-audit-20260702.md"
+SUM_CUSTODY_AUDIT_PATH = "problems/navier-stokes/theorem-construction/mpp-forward-gold-summation-type-custody-audit-20260702.md"
+COUPLED_STORAGE_AUDIT_PATH = "problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-coupled-storage-loop-audit-20260702.md"
 
 AUTHORITY_MARKERS = {
   "problems/navier-stokes/live-theorem-edge.yaml" => [
     "summation_type_custody",
-    CUSTODY_AUDIT_PATH
+    SUM_CUSTODY_AUDIT_PATH,
+    "coupled_storage_loop_custody",
+    COUPLED_STORAGE_AUDIT_PATH
   ],
   "problems/navier-stokes/source-frontier.yaml" => [
     "current_gold_l1_summation_type_custody_audit_20260702",
     "current_gold_l1_historical_sum_quarantine_20260702",
-    CUSTODY_AUDIT_PATH
+    SUM_CUSTODY_AUDIT_PATH,
+    "current_gold_l1_coupled_storage_loop_audit_20260702",
+    "current_gold_l1_coupled_storage_loop_correction_20260702",
+    COUPLED_STORAGE_AUDIT_PATH
   ],
   "problems/navier-stokes/theorem-creation.yaml" => [
     "current_gold_l1_summation_type_custody_audit_20260702",
     "current_gold_l1_historical_sum_quarantine_20260702",
-    CUSTODY_AUDIT_PATH
+    SUM_CUSTODY_AUDIT_PATH,
+    "current_gold_l1_coupled_storage_loop_audit_20260702",
+    "current_gold_l1_coupled_storage_loop_correction_20260702",
+    COUPLED_STORAGE_AUDIT_PATH
   ]
 }.freeze
 
-AUDIT_REQUIRED_MARKERS = [
+SUM_AUDIT_REQUIRED_MARKERS = [
   "TFE2748B",
   "OriginalCriticalCapacityVariation.A",
   "The physical packet comes first",
@@ -36,6 +45,16 @@ AUDIT_REQUIRED_MARKERS = [
   "Littlewood-Paley",
   "algebraic channel identity",
   "Untyped sums over atoms, children, shells, packet labels, or point samples are"
+].freeze
+
+COUPLED_STORAGE_AUDIT_REQUIRED_MARKERS = [
+  "TFE2748B.1548",
+  "TFE2748B.1555",
+  "CSA.4",
+  "rho(K_P)<1",
+  "one same-parent coupled storage theorem",
+  "It is wrong as a linear proof chain",
+  "not a proof of the wall"
 ].freeze
 
 HIGH_RISK_POSITIVE_SUM_CLAIMS = {
@@ -90,16 +109,23 @@ AUTHORITY_MARKERS.each do |relative_path, markers|
   end
 end
 
-audit_path = ROOT.join(CUSTODY_AUDIT_PATH)
-if audit_path.file?
-  audit_text = read_text(audit_path)
-  AUDIT_REQUIRED_MARKERS.each do |marker|
-    next if audit_text.include?(marker)
+audit_requirements = {
+  SUM_CUSTODY_AUDIT_PATH => SUM_AUDIT_REQUIRED_MARKERS,
+  COUPLED_STORAGE_AUDIT_PATH => COUPLED_STORAGE_AUDIT_REQUIRED_MARKERS
+}.freeze
 
-    violations << "#{CUSTODY_AUDIT_PATH}: missing audit marker #{marker}"
+audit_requirements.each do |audit_relative_path, markers|
+  audit_path = ROOT.join(audit_relative_path)
+  if audit_path.file?
+    audit_text = read_text(audit_path)
+    markers.each do |marker|
+      next if audit_text.include?(marker)
+
+      violations << "#{audit_relative_path}: missing audit marker #{marker}"
+    end
+  else
+    violations << "#{audit_relative_path}: missing Gold L1 custody audit"
   end
-else
-  violations << "#{CUSTODY_AUDIT_PATH}: missing Gold L1 summation type custody audit"
 end
 
 if violations.empty?
