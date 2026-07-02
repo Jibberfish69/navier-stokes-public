@@ -13915,8 +13915,8 @@ C_N\,d\Xi_P^{FE}+dE_P^0,
 d\Xi_P^{FE}
 \le
 -dM_P^{FE}
-\theta_{FE}d\Omega_P^{gen}
-dE_P^0,
++\theta_{FE}d\Omega_P^{gen}
++dE_P^0,
 \qquad
 C_N\theta_{FE}<1 .
 \tag{TFE2748B.897}
@@ -13971,7 +13971,7 @@ gives the parent active entropy estimate
 \[
 \int_E\Phi(R_E)\,d\Lambda_E
 \le
-C_N\Lambda_E(E)+C_N\int_EdE_P^0 .
+C_N\Lambda_E(E)+C_N\int_E dE_P^0 .
 \tag{TFE2748B.902}
 \]
 
@@ -14060,8 +14060,8 @@ C_N\,dCap_P^{crit,root}
 \int_{P'}dCap_P^{crit,root}
 \le
 -dB_P^{crit}
-\theta_c d\Omega_P^{gen}
-dE_P^0,
++\theta_c d\Omega_P^{gen}
++dE_P^0,
 \tag{TFE2748B.908}
 \]
 
