@@ -102,7 +102,7 @@ class-membership packet, no finite first class-membership endpoint remains.
 Every first retained-route failure is typed into `Dead`,
 `packing-detached`, `tower-blown`, or `Jump`, and `End_NS` removes those faces.
 This is now only a historical route-closure claim.  The current checked package
-is blocked upstream at the Gold \(L^1\) coupled-storage wall, so paper export
+is blocked upstream at the Gold \(L^1\) signed-height wall, so paper export
 and Clay-level release cannot use this paragraph as closure evidence.
 
 ## Working Theorem Objects
