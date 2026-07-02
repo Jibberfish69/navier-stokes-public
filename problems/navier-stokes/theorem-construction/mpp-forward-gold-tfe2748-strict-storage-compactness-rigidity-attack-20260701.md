@@ -12289,3 +12289,186 @@ packet before clipping.  Thus Section 90 discharges the raw atomic
 decomposition, coefficient/leakage control, and bounded-below opposite-lobe
 reserve; it leaves `(TFE2748B.771)' and `(TFE2748B.760)' as the nonduplicate
 selected-critical source lines from Sections 88--89.
+
+## 91. The weighted atom identity is the critical-capacity variation line
+
+The selected-weighted upgrade has an exact atom-pair identity.  This is the
+place where raw pressure/Hodge atom pairing becomes critical capacity
+variation.  Work on the same pre-clipping atom coupling \(\pi_P\) from Section
+90.  Write \(x\) for the positive lobe, \(y\) for its retained opposite lobe,
+and let
+
+\[
+b_P:=\log W_P^{crit}.
+\tag{TFE2748B.792}
+\]
+
+The selected positive bill on the atom ledger is
+
+\[
+d\mathcal A_P^{crit,+}
+:=
+W_P^{crit}(x)\,d\pi_P(x,y).
+\tag{TFE2748B.793}
+\]
+
+Since \(W_P^{crit}\) is pulled back to the parent atom ledger before clipping,
+there is no new child event in `(TFE2748B.793)'.  It is one same-parent pair
+read with a selected meter.  On each atom pair,
+
+\[
+W_P^{crit}(x)
+=
+W_P^{crit}(y)
++W_P^{crit}(y)\bigl(e^{b_P(x)-b_P(y)}-1\bigr),
+\tag{TFE2748B.794}
+\]
+
+hence, as positive measures,
+
+\[
+d\mathcal A_P^{crit,+}
+\le
+d\mathcal E_P^{crit,-}
++d\mathcal O_P^{crit,b},
+\tag{TFE2748B.795}
+\]
+
+where
+
+\[
+d\mathcal E_P^{crit,-}
+:=
+W_P^{crit}(y)\,d\pi_P(x,y),
+\qquad
+d\mathcal O_P^{crit,b}
+:=
+W_P^{crit}(y)
+\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)d\pi_P(x,y).
+\tag{TFE2748B.796}
+\]
+
+The first term is the selected-weighted retained opposite lobe.  If the parent
+packet supplies a pre-clipping critical reserve
+
+\[
+\mathcal C_P^{crit}
+\ge
+\int_{X_P\times X_P}W_P^{crit}(y)\,d\pi_P(x,y),
+\tag{TFE2748B.797}
+\]
+
+and
+
+\[
+M_P^{crit}(\tau)
+:=
+\mathcal C_P^{crit}
+-
+\int_{\{s(y)<\tau\}}W_P^{crit}(y)\,d\pi_P(x,y),
+\tag{TFE2748B.798}
+\]
+
+then
+
+\[
+M_P^{crit}(\tau)\ge0,
+\qquad
+-dM_P^{crit}=d\mathcal E_P^{crit,-}
+\quad\text{on selected retained atom pairs.}
+\tag{TFE2748B.799}
+\]
+
+Thus the selected positive bill is paid by same-parent depletion plus exactly
+one extra term:
+
+\[
+d\mathcal A_P^{crit,+}
+\le
+-dM_P^{crit}
++d\mathcal O_P^{crit,b}.
+\tag{TFE2748B.800}
+\]
+
+The oscillation term \(d\mathcal O_P^{crit,b}\) is the critical-capacity
+variation.  It is zero when the selected meter is constant on paired lobes.
+It is large exactly when the same raw atom is read at a higher selected price on
+the positive lobe than on its retained opposite lobe.  In parent-chart language,
+this is the positive logarithmic material variation of the selected meter along
+the coupled packet, not a new pressure source and not a dyadic recount.
+
+Consequently the local storage theorem `(TFE2748B.715)' is equivalent, at the
+atom-pair level, to proving the two selected-weighted parent statements
+
+\[
+\begin{array}{ll}
+\text{level reserve:}&
+\displaystyle
+\mathcal C_P^{crit}
+\le
+C_N(u_0)\mathcal R(P)
++dPaid_P+dStop_P,\\[2mm]
+\text{log-variation storage:}&
+\displaystyle
+d\mathcal O_P^{crit,b}
++\gamma_N\,dSF_P(b_P)
+\le
+\vartheta\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad C_N\vartheta<1,
+\end{array}
+\tag{TFE2748B.801}
+\]
+
+where
+
+\[
+dSF_P(b_P)
+:=
+\sum_{Q\subseteq P'}
+\bigl(\|\Delta_Q b_P\|_{\mathfrak H_P}^2+|e_Q|^2\bigr)
+\mathfrak m_P(Q)
+\tag{TFE2748B.802}
+\]
+
+is the stopped log-meter square variation from `(TFE2748B.714)'.  The first
+line of `(TFE2748B.801)' is `ParentAtomLevelReserve.A' in weighted-lobe form.
+The second line is `ParentLogMeterBMO.A' plus the positive critical-capacity
+variation estimate in the same currency.  Adding `(TFE2748B.800)' and
+`(TFE2748B.801)' gives the mean-plus-oscillation storage line
+`(TFE2748B.715)'.
+
+Conversely, raw atom pairing cannot imply `(TFE2748B.801)'.  On a model atom
+ledger with atom masses \(m_n=n^{-2}\), set \(W(x_n)=n\) and \(W(y_n)=1\).
+Then the raw atom mass \(\sum_n m_n\) and the unweighted retained-lobe reserve
+are finite, but
+
+\[
+\sum_n W(x_n)m_n=\sum_n {1\over n}=\infty .
+\tag{TFE2748B.803}
+\]
+
+The divergence is exactly the oscillation term
+\(\sum_n W(y_n)(e^{b(x_n)-b(y_n)}-1)m_n\).  This model is not a new fluid
+counterexample; it is the algebraic witness that zero-mean atom pairing and
+finite raw energy do not by themselves control selected \(L^1\).  The original
+coupled packet must additionally prove `(TFE2748B.801)' before child clipping.
+
+Therefore the current source target has been sharpened without changing its
+substance:
+
+\[
+\boxed{
+\texttt{CriticalCapacityVariationStorage.A}
+\equiv
+\texttt{weighted retained-lobe reserve `(TFE2748B.797)'--`(TFE2748B.799)'}
++
+\texttt{log-variation storage `(TFE2748B.801)'.}
+}
+\tag{TFE2748B.804}
+\]
+
+This is the exact mathematical form of the physical statement: the positive
+selected readout is the same parent pulse read at a higher price, and the proof
+has to show that the price increase is itself a same-parent full-exchange
+motion with a strict viscous/generator margin.
