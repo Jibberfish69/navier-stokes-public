@@ -2,7 +2,10 @@
 
 ## Abstract
 
-We present the Navier--Stokes proof as a class-membership contrapositive. The
+We record the current Navier--Stokes route as a class-membership contrapositive,
+not as a closed proof. The checked open Gold ingredient is the noncircular
+same-parent coupled active-capacity/full-exchange storage theorem for the
+original parent packet before child clipping. The
 forward-positive program is followed until it reaches a genuine same-solution
 obstruction. At that obstruction the proof separates the pass branch from the
 fail branch. The pass branch gives a lawful `Member(Q)` continuation and reads
@@ -19,9 +22,9 @@ finite Clay breakdown witness
   -> Exit(Q):=not Member(Q).
 ```
 
-The only current reopening tests are a genuine in-class nonsmooth third branch
-or a failure of terminal CM entry, finite-failure type exhaustion, or
-contrapositive embedding.
+The current blocking test is the open coupled parent-storage theorem. Child,
+atom, shell, dyadic, and packet-label sums are readouts/bookkeeping until that
+parent-packet theorem is proved.
 
 ## Introduction
 
@@ -33,7 +36,7 @@ attempts, no-pulse arguments, and terminal packet survival attempts serve as
 support or pressure tests. They become live CM proof authority only when they
 attack the terminal witness chain or produce a genuine third branch.
 
-The release scope is the CM contrapositive proof of global regularity for the
+The release scope remains conditional route documentation for the
 three-dimensional incompressible Navier--Stokes problem from smooth
 divergence-free data.
 
