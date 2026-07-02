@@ -22488,3 +22488,140 @@ d\mathcal V_{P,\omega}^{crit}
 
 equivalently the no-terminal super-capacitary active-potential atom / finite-
 excess source in `(TFE2748B.1458)'.
+
+## 161. Reverse-Holder terminal killing is not an independent source
+
+Section 151 gives a correct way to remove the terminal super-capacitary atom:
+admit \(U_P^2d\mathfrak v_P^{exc}\) into a time-thick parent clock with a
+reverse-Holder density, then Holder makes the terminal collars vanish.  That
+argument is a consumer.  It is not a proof of finite excess until the clock and
+density have been constructed from the original coupled packet without using the
+finite-excess conclusion.
+
+The dependency is exact.  Let
+
+\[
+\mathsf{RH}_P:=
+\texttt{ParentReverseHolderThickness.A `(TFE2748B.1374)'--`(TFE2748B.1376)'} .
+\tag{TFE2748B.1476}
+\]
+
+Then Section 151 proves
+
+\[
+\mathsf{RH}_P
+\Longrightarrow
+\texttt{NoTerminalSuperCapacitaryActivePotentialAtom.A}
+\Longrightarrow
+\texttt{FiniteCapacitaryExcess.A}.
+\tag{TFE2748B.1477}
+\]
+
+Section 152 constructs \(\mathsf{RH}_P\) from the endpoint-admitted local package
+\(\mathsf G_P^{EA}\), and Section 153 constructs \(\mathsf G_P^{EA}\) only after
+the active-transit and full-exchange storages are supplied:
+
+\[
+\texttt{ActiveTransitLocalStorage.A}
++
+\texttt{FullExchangeNoSelfFeedingStorage.A}
+\Longrightarrow
+\mathsf G_P^{EA}
+\Longrightarrow
+\mathsf{RH}_P .
+\tag{TFE2748B.1478}
+\]
+
+Therefore the noncircular source cannot be "use reverse Holder to prove finite
+excess" unless `(TFE2748B.1205)'--`(TFE2748B.1207)' have first been proved from
+the original data.  In particular, a proof that starts with `(TFE2748B.1374)'--
+`(TFE2748B.1376)' and then concludes `(TFE2748B.1451)' has only proved the
+consumer half unless it also proves the active-transit/full-exchange source.
+
+Equivalently, the terminal atom should be contradicted in the zero-source
+full-exchange frame.  A failure of finite excess gives normalized measures
+
+\[
+d\widehat\mu_n
+=
+L_n^{-1}U_P^2d\mathfrak v_{P_n}^{exc}
+\rightharpoonup
+d\widehat\mu_\infty ,
+\qquad
+\operatorname{spt}d\widehat\mu_\infty\subseteq\{t=T_*\},
+\tag{TFE2748B.1479}
+\]
+
+with \(d\widehat\mu_\infty\) super-capacitary as in `(TFE2748B.1368)'--
+`(TFE2748B.1369)'.  If the before-clipping active-density comparison and strict
+full-exchange storage are proved,
+
+\[
+U_P^2d\mathfrak v_P^{exc}
+\le
+C_Nd\Xi_P^{FE,*}+dE_P^{0,*},
+\tag{TFE2748B.1480}
+\]
+
+and
+
+\[
+d\Xi_P^{FE,*}
+\le
+-dM_P^{FE,*}
++\theta_{FE}d\Omega_P^{gen,*}
++dE_P^{0,*},
+\qquad C_N\theta_{FE}<1,
+\tag{TFE2748B.1481}
+\]
+
+with \(M_P^{FE,*}\) bounded below from \(u_0\), then after normalization by
+\(L_n\to\infty\) the storage drop disappears and every surviving piece of
+\(d\widehat\mu_\infty\) is absolutely dominated by the limiting generator or
+paid clock:
+
+\[
+d\widehat\mu_\infty
+\ll
+d\Omega_\infty^{gen,*}+dE_\infty^{0,*}.
+\tag{TFE2748B.1482}
+\]
+
+The stopped terminal zero-source class has no such generator/paid terminal
+residue after the already routed endpoint, legal, stop, return, reset, and collar
+faces are removed.  Hence `(TFE2748B.1480)'--`(TFE2748B.1481)' contradict
+`(TFE2748B.1479)' and prove the no-terminal-atom theorem.
+
+This is the noncircular form of the remaining Gold source:
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{BeforeClippingActiveDensityComparison.A `(TFE2748B.1480)'}\\
++\texttt{FullExchangeNoSelfFeedingStorage.A `(TFE2748B.1481)'}
+\end{array}
+\Longrightarrow
+\texttt{NoTerminalSuperCapacitaryActivePotentialAtom.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.}
+\tag{TFE2748B.1483}
+\]
+
+Conversely, if a terminal super-capacitary atom survives after the raw atom
+attachment, endpoint admission, early-fibre admission, retained pullback, route,
+legal, stop, return, reset, and collar faces are removed, then the failure must
+appear before `(TFE2748B.1482)' as one of the two parent-ledger failures
+
+\[
+\neg\texttt{BeforeClippingActiveDensityComparison.A}
+\quad\vee\quad
+\neg\texttt{FullExchangeNoSelfFeedingStorage.A}.
+\tag{TFE2748B.1484}
+\]
+
+So the current edge is not another pressure atom, endpoint ownership, dyadic
+sum, or reverse-Holder consumer.  It is the original-data proof of the
+before-clipping active-density comparison together with the strict same-parent
+full-exchange no-self-feeding storage.  That is the precise producer whose proof
+would make `(TFE2748B.1451)' terminal-uniform and close the critical capacity
+variation/storage line.
