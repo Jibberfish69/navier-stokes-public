@@ -4,10 +4,10 @@ problem_id: navier-stokes
 generated_at: '2026-07-01T22:23:07Z'
 status: exported-stale-not-submission-ready
 current_authority_override_20260702: The current Gold L1 source wall is the noncircular
-  same-parent coupled active-capacity/full-exchange storage theorem for the original
+  signed critical-height sign-persistence or peak-height theorem for the original
   parent packet before child clipping. Older native-reserve, source-refill, terminal
   anti-concentration, and scalar sum surfaces are readouts/provenance unless they
-  prove that coupled object.
+  prove that signed-height object.
 manual_gold_correction:
   updated_at: '2026-07-01T20:01:37Z'
   status: exported-bundle-stale-not-submission-ready-pending-tfe2748b-original-critical-capacity-variation
@@ -112,14 +112,11 @@ readiness_evidence:
     required_action: Release readiness must not be claimed until exactness/manuscript
       surfaces are synchronized with the accepted Silver CM rowwise consumption.
   - candidate_id: gold-l1-signed-height-sign-persistence-wall-open
-    kind: gold_l1_coupled_storage_wall
+    kind: gold_l1_signed_height_wall
     surface: problems/navier-stokes/target-operating-contract.yaml
     evidence: SignedCriticalHeightSignPersistenceOrPeakBound.A
       remains open.
-    required_action: Prove the noncircular same-parent coupled active-capacity/full-exchange
-      storage theorem for the original parent packet before child clipping; child,
-      atom, shell, and dyadic sums remain typed readouts until that parent-packet
-      theorem is proved.
+    required_action: Prove the signed critical-height sign-persistence or peak-height theorem from the Navier-Stokes equation; child, atom, shell, dyadic, clipped-positive, and storage surfaces remain typed readouts or stress tests until that signed-height theorem is proved.
   - candidate_id: source-frontier:primary_math_obligation
     kind: source_frontier
     surface: problems/navier-stokes/source-frontier.yaml
@@ -171,7 +168,7 @@ readiness_evidence:
       source_frontier_candidates: 6
       route_state_agreement_candidates: 0
       submission_verdict_agreement_candidates: 0
-      gold_l1_coupled_storage_wall_candidates: 1
+      gold_l1_signed_height_wall_candidates: 1
       pdf_track_candidates: 0
       current_material_candidates: 0
       clay_closing_gap_candidates: 0
@@ -285,7 +282,7 @@ readiness_note: PDF rendering is tracked separately from submission readiness; b
 pdf_tracks_rendered: true
 pdf_render_status: *3
 source_wall_root_cm_status: Prove, from the original parent packet before child clipping,
-  a noncircular same-parent coupled active-capacity/full-exchange storage theorem.
+  a signed critical-height sign-persistence or peak-height theorem.
   The theorem must either establish a simultaneous strict feedback inequality for
   the active-capacity/full-exchange loop or prove one face independently enough to
   break the TFE2748B.1548/TFE2748B.1555 self-feeding chain. A theorem surface is live

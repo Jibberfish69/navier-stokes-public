@@ -4,7 +4,7 @@
 
 We record the current Navier--Stokes route as a class-membership contrapositive,
 not as a closed proof. The checked open Gold ingredient is the noncircular
-same-parent coupled active-capacity/full-exchange storage theorem for the
+signed critical-height sign-persistence or peak-height theorem for the
 original parent packet before child clipping. The
 forward-positive program is followed until it reaches a genuine same-solution
 obstruction. At that obstruction the proof separates the pass branch from the
@@ -22,7 +22,7 @@ finite Clay breakdown witness
   -> Exit(Q):=not Member(Q).
 ```
 
-The current blocking test is the open coupled parent-storage theorem. Child,
+The current blocking test is the open signed-height sign-persistence or peak-height theorem. Child,
 atom, shell, dyadic, and packet-label sums are readouts/bookkeeping until that
 parent-packet theorem is proved.
 
