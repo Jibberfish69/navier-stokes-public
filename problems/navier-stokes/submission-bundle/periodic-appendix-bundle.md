@@ -1,10 +1,11 @@
-# Periodic Release Appendix Bundle
+# Periodic Conditional Appendix Bundle
 
 ## Status
 
 Legacy appendix bundle for an older periodic `T^3` presentation. It is retained
 as provenance only. Current Clay-facing authority is the CM terminal witness
-consumption bundle, not this periodic release surface.
+consumption bundle, and the current Gold `L^1` source wall remains the
+noncircular same-parent coupled active-capacity/full-exchange storage theorem.
 
 ## Appendix A: Dependency graph
 
@@ -91,7 +92,7 @@ tower\text{-}blown,
 Jump.
 ```
 
-Each face maps to a finite row: participation, pack gauge, tower amplitude, and field coherence. Cross entries reduce to those rows. The pointwise endpoint package removes all rows, so a first finite endpoint contradicts endpoint closure.
+Each face maps to a finite row: participation, pack gauge, tower amplitude, and field coherence. Cross entries reduce to those rows. In current authority, the pointwise endpoint package removes all rows only after the coupled same-parent storage theorem supplies the open Gold `L^1` source input.
 
 ## Appendix E: Reproducibility manifest
 
@@ -101,4 +102,4 @@ The reproducibility manifest is
 problems/navier-stokes/release-manifest.yaml
 ```
 
-The proof promotion packet reports this manifest as passed. The appendix set is scoped to the periodic `T^3` release surface. The conditional `R^3` extension branch is stored separately and is excluded from the periodic release proof.
+The proof promotion packet is provenance, not current closure evidence. The appendix set is scoped to the periodic `T^3` conditional route. The conditional `R^3` extension branch is stored separately and is excluded from this periodic route.
