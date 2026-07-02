@@ -3829,7 +3829,7 @@ the retained interior bill.  The exact source package is:
 
 \[
 \begin{aligned}
-dA_P^{sing} &\le dA_P^{entry}+dPaid_P+dStop_P,\\
+dA_P^{sing} &\le d\rho_{crit,P}^{entry}+dPaid_P+dStop_P,\\
 \int_{\operatorname{Hist}(P)} \Phi(F_P)\,d\mathfrak m_P
 &\le C_N(u_0)\mathcal R(P)+dPaid_P+dStop_P,
 \qquad
@@ -3874,16 +3874,18 @@ Together with the singular-entry line in `(TFE2748B.241)', this yields
 \int_{\operatorname{Hist}(P)} W_P\,d\nu_P^{atom}
 \le
 C_N(u_0)\mathcal R(P)
-dA_P^{entry}
-dPaid_P+dStop_P .
++d\rho_{crit,P}^{entry}
++dPaid_P+dStop_P .
 \tag{TFE2748B.244}
 \]
 
 Thus the selected active-level reserve `(TFE2748B.214)' follows in exact
-continuous parent measure.  The strict tail recurrence `(TFE2748B.224)' is the
-good-lambda form of the same estimate: applying `(TFE2748B.241)' on the stopped
-superlevel parent packets \(\{F_P>\lambda\}\), and charging bad stopping fibres
-to \(dPaid_P+dStop_P\), gives
+continuous parent measure.  The strict tail recurrence `(TFE2748B.224)' is a
+stronger good-lambda presentation of the same source content, not a consequence
+of bare global \(L\log L\) alone.  It follows when the entropy/thickness clause
+in `(TFE2748B.241)' is available locally on stopped superlevel parent packets
+with the usual reverse-Holder self-improvement.  In that stronger local form,
+charging bad stopping fibres to \(dPaid_P+dStop_P\) gives
 
 \[
 N_P(2\lambda)
@@ -3896,9 +3898,10 @@ N_P(2\lambda)
 \tag{TFE2748B.245}
 \]
 
-Then Section 32 gives the level reserve, Section 30 inserts the weighted atom
-detector before clipping, and `(TFE2748B.182)' gives same-parent partner
-attachment.  With
+Either route now supplies the same integrated reserve: `(TFE2748B.243)' gives it
+directly, while `(TFE2748B.245)' gives it through Section 32.  Section 30 then
+inserts the weighted atom detector before clipping, and `(TFE2748B.182)' gives
+same-parent partner attachment.  With
 
 \[
 M_P^{crit}=\mathcal C_P^{crit}-\mathcal E_P^{crit},
@@ -3911,9 +3914,9 @@ the paid capacity-variation line in `(TFE2748B.241)' gives
 d\mathcal E_P^{crit}
 \le
 -dM_P^{crit}
-d\Theta_P^0
-\theta\,d\Omega_P^{gen}
-dPaid_P+dStop_P,
++d\Theta_P^0
++\theta\,d\Omega_P^{gen}
++dPaid_P+dStop_P,
 \qquad
 C_N\theta<1,
 \tag{TFE2748B.247}
