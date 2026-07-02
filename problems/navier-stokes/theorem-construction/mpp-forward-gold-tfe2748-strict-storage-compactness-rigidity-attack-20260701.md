@@ -11537,3 +11537,198 @@ reserve are already constructed from arbitrary smooth original data before
 clipping; the remaining source work is proving the parent-announced selected
 ac density/geometric-variation clauses and the zero-baseline first-entry
 reserve without defining either one from a future selected child tail.
+
+## 86. Parent density exists; the source is its accretive current domination
+
+The first clause left by Section 85 can be sharpened.  For a smooth preterminal
+solution, the positive-baseline selected density is not missing as an object.
+It is obtained by pulling the selected detector back to the stopped parent
+frame before the positive part is taken.
+
+Let \(Y_P\) be the stopped coupled packet of `(TFE2748B.248)' and let
+\(\Psi_P\) be the parent-pulled selected active readout on the
+positive-baseline branch.  Define
+
+\[
+F_P:=\Psi_P(Y_P),\qquad
+dA_{P}^{ac,+}:=F_P\,d\mathfrak m_P,
+\tag{TFE2748B.744}
+\]
+
+with the zero-baseline singular branch kept out of \(F_P\) and recorded in
+\(d\rho_{crit,P}^{entry}\).  Since \(Y_P\), the stopped frame, and the detector
+are smooth on every compact preterminal packet, `(TFE2748B.744)' is a genuine
+parent-announced density before child clipping.
+
+Applying the chain rule to the one coupled parent equation gives the exact
+renormalized density identity
+
+\[
+D_t^P F_P
+-\operatorname{div}_{\mathfrak m}(A_P\nabla_{\mathfrak m}F_P)
+=
+-\mathcal D_{\Psi,P}
++\mathcal K_{\Psi,P}
++\mathcal G_{\Psi,P}
++\mathcal R_{\Psi,P}^{paid},
+\tag{TFE2748B.745}
+\]
+
+where
+
+\[
+\mathcal D_{\Psi,P}
+=
+\nu D^2\Psi_P(Y_P)[\nabla_{\mathfrak m}Y_P,\nabla_{\mathfrak m}Y_P]\ge0
+\tag{TFE2748B.746}
+\]
+
+on the convex positive-baseline readout fibres.  The non-passive term
+\(\mathcal K_{\Psi,P}+\mathcal G_{\Psi,P}\) is exactly the Hodge/pressure,
+moving-frame, covector, selector, collar, and root-generator feedback of the
+same coupled packet.  No pressure-only or viscosity-only source has been split
+off.
+
+For \(\Phi(r)=r\log(e+r)\), multiplying `(TFE2748B.745)' by \(\Phi'(F_P)\)
+and integrating in the parent measure gives
+
+\[
+d\mathcal H_P^{ac}
++d\mathcal I_P^{ac}
+\le
+\int \Phi'(F_P)
+[\mathcal K_{\Psi,P}+\mathcal G_{\Psi,P}]_+
+\,d\mathfrak m_P
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{TFE2748B.747}
+\]
+
+where
+
+\[
+\mathcal H_P^{ac}:=\int\Phi(F_P)\,d\mathfrak m_P,\qquad
+d\mathcal I_P^{ac}:=
+\int \Phi''(F_P)
+\langle A_P\nabla_{\mathfrak m}F_P,\nabla_{\mathfrak m}F_P\rangle
+\,d\mathfrak m_Pdt .
+\tag{TFE2748B.748}
+\]
+
+This proves the parent-announced density and the entropy chain rule from
+arbitrary smooth preterminal data.  The Gold source is the strict accretive
+domination of the positive non-passive current:
+
+\[
+\int \Phi'(F_P)
+[\mathcal K_{\Psi,P}+\mathcal G_{\Psi,P}]_+
+\,d\mathfrak m_P
+\le
+\beta\,d\mathcal I_P^{ac}
++{\vartheta\over4}d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+\beta<1 .
+\tag{TFE2748B.749}
+\]
+
+Indeed, inserting `(TFE2748B.749)' into `(TFE2748B.747)' and absorbing
+\(\beta d\mathcal I_P^{ac}\) gives
+
+\[
+d\mathcal H_P^{ac}
++(1-\beta)d\mathcal I_P^{ac}
+\le
+{\vartheta\over4}d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P.
+\tag{TFE2748B.750}
+\]
+
+Together with the deterministic entropy lower edge for high-ratio
+positive-baseline reads,
+
+\[
+d\rho_{crit,P}^{ac}
+\le
+c_N d\mathcal I_P^{ac}
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{TFE2748B.751}
+\]
+
+this proves `(TFE2748B.739)' after reducing the margin.  Thus the
+positive-baseline ac branch is closed once `(TFE2748B.749)' is proved; the
+existence of \(F_P\) and the chain rule are not the remaining obstruction.
+
+The same current controls the positive variation of the parent critical window.
+For a parent score \(a_P=a(F_P)\) and critical windows
+\(\mathfrak S_{P,\lambda}^{crit}=\{a_P>\lambda\}\), the BV/coarea identity gives
+
+\[
+\int_0^\infty
+w(\lambda)\,[d\,\mathfrak C_P^{root}(\mathfrak S_{P,\lambda}^{crit})]_+
+\,d\lambda
+\le
+C_N
+\int \Phi'(F_P)
+[\mathcal K_{\Psi,P}+\mathcal G_{\Psi,P}]_+
+\,d\mathfrak m_P
++d\Theta_P^0+dPaid_P+dStop_P.
+\tag{TFE2748B.752}
+\]
+
+So paid geometric/capacity positive variation `(TFE2748B.738)' is not an
+independent physical supplier.  It is the BV readout of the same
+renormalized non-passive current in `(TFE2748B.749)'.
+
+For the zero-baseline branch, TFE2748A supplies only ledger admission:
+
+\[
+d\rho_{crit,P}^{entry}
+\le
+C_Nd\Omega_P^{EP,tr}
++d\Theta_P^0+dPaid_P+dStop_P
+\le
+C_Nd\Xi_P^{FE,\ast}
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.753}
+\]
+
+To turn this into the first-entry reserve `(TFE2748B.740)', the endpoint-admitted
+full-exchange ledger must satisfy the same strict depletion line
+
+\[
+d\Xi_P^{FE,\ast}
+\le
+-dM_P^{FE,\ast}
++{\vartheta\over4}d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+M_P^{FE,\ast}\ge-C_N(u_0)\mathcal R(P)-Paid(P)-Stop(P).
+\tag{TFE2748B.754}
+\]
+
+Then `(TFE2748B.753)' implies `(TFE2748B.740)' with
+\(M_P^{entry}=C_NM_P^{FE,\ast}\) after constants are absorbed into the strict
+margin.  This is exactly why endpoint admission is not closure: it places the
+zero-baseline first entry on the correct side of the ledger, while
+`(TFE2748B.754)' is the original-data storage theorem still needed to make that
+ledger finite.
+
+Consequently the current bottom of the proof has a nonduplicate form:
+
+\[
+\boxed{
+\begin{array}{c}
+\text{prove the accretive same-parent current domination `(TFE2748B.749)',}\\
+\text{and prove the endpoint-admitted full-exchange depletion `(TFE2748B.754)'.}
+\end{array}}
+\tag{TFE2748B.755}
+\]
+
+Those two estimates imply the Section 85 clauses `(TFE2748B.739)' and
+`(TFE2748B.740)', hence the early-source storage `(TFE2748B.730)', the
+full-exchange storage `(TFE2748B.715)', and the terminal-uniform selected
+\(L^1\) consumer chain.  The work done here is to prove the parent-announced
+positive-baseline density/entropy identity from smooth original data and to
+deduplicate capacity variation back into the same renormalized current; it does
+not prove the strict domination `(TFE2748B.749)' or the full-exchange depletion
+`(TFE2748B.754)'.
