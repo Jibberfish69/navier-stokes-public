@@ -13086,14 +13086,18 @@ packet before clipping.
 Let \(d\mathfrak t_{P,n}^+\) be the positive terminal trace/readout measure of
 the retained full Hodge-Stokes/tower packet on a normalized stopped parent
 sequence, after \(d\Theta^0+dPaid+dStop\), visible legal/collar material, and
-ordinary selector motion have been subtracted.  For each retained terminal
-test set \(E\subset X_P\), define the terminal anti-atom measure by
+ordinary selector motion have been subtracted.  After weak-star extraction,
+\(d\mathfrak t_{P,n}^*\rightharpoonup d\mathfrak t_{P,*}^+\).  For each
+retained terminal test set \(E\subset X_P\), define the terminal anti-atom
+measure by
 
 \[
 \mathfrak A_P^{term}(E)
 :=
-\lim_{\theta\downarrow0}\limsup_{n\to\infty}
-d\mathfrak t_{P,n}^+((-\theta,0]\times E),
+d\mathfrak t_{P,*}^+(\{0\}\times E)
+=
+\lim_{\theta\downarrow0}
+d\mathfrak t_{P,*}^+((-\theta,0]\times E),
 \tag{TFE2748B.841}
 \]
 
@@ -13124,7 +13128,7 @@ C_N\bigl(
 
 Conversely, none of the three faces can occur without terminal anti-atom mass
 or paid material.  The endpoint positive-jump criterion gives
-\(\mathcal R_{\rm jump}\le C_N\mathfrak A_P^{term}+d\Theta^0+dPaid+dStop\).
+\(\mathcal R_{\rm jump}\le C_Nd\mathfrak A_P^{term}+d\Theta^0+dPaid+dStop\).
 The signed-saturation branch is the retained terminal negative countertrace of
 the same positive atom after finite signed partners and non-Zeno donor trees
 have been paid.  The Body-IV return recurrence and heat-scale return criterion
