@@ -33,6 +33,13 @@ COVERAGE_SELF_SURFACES = %w[
 ].freeze
 
 CURRENT_AUTHORITY_OVERRIDE_20260702 = "This inventory is provenance/coverage bookkeeping only. Filenames or rows that mention native-reserve, source-refill, Pack anti-concentration, closed periodic branches, or older Gold suppliers are not current theorem authority. The current Gold L1 source wall is the noncircular same-parent coupled active-capacity/full-exchange storage theorem for the original parent packet before child clipping; sums are typed readouts only.".freeze
+CURRENT_GOLD_L1_CUSTODY_20260702 = {
+  "status" => "gold-l1-open-coupled-storage-wall",
+  "physical_object_first" => "original parent packet before child clipping",
+  "current_wall" => "noncircular same-parent coupled active-capacity/full-exchange storage theorem",
+  "sum_custody" => "child, atom, shell, dyadic, packet-label, and point-sample sums are typed readouts/bookkeeping only",
+  "forbidden_promotion" => "inventory rows, filenames, source-refill, native-reserve, terminal anti-atom, or Pack anti-concentration displays cannot close Gold L1 unless they prove the coupled parent-storage object"
+}.freeze
 
 FAMILIES = [
   {
@@ -471,6 +478,7 @@ payload = {
   "generator" => "problems/navier-stokes/tools/build_current_material_coverage.rb",
   "purpose" => "Record how the current Navier-Stokes repo material is represented by the submission paper without requiring every build, runtime, or provenance file to appear as main-text proof prose.",
   "current_authority_override_20260702" => CURRENT_AUTHORITY_OVERRIDE_20260702,
+  "current_gold_l1_custody_20260702" => CURRENT_GOLD_L1_CUSTODY_20260702,
   "inventory" => {
     "total_files_under_problem" => all_files.length,
     "text_or_checkable_files" => checkable_files.length,
