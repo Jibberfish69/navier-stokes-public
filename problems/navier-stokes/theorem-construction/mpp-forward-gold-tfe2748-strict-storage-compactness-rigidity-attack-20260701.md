@@ -4937,7 +4937,7 @@ M_P^{atom}(\tau)
 :=
 M_P^{J,S}
 -
-dJ_{P,atom}^{ret,-}\bigl(X_P\cap\{s\le \tau\}\bigr).
+dJ_{P,atom}^{ret,-}\bigl(X_P\cap\{s< \tau\}\bigr).
 \tag{TFE2748B.309}
 \]
 
