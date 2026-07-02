@@ -18645,3 +18645,230 @@ incompressibility packet.  Proving the four face inequalities in
 `(TFE2748B.1212)' from arbitrary original smooth data proves the endpoint-seed
 packing and stopped root storage of Section 134, hence the critical capacity
 variation/storage line.
+
+## 136. Raw same-parent atom attachment is constructed before clipping
+
+The signed atom attachment requested in the tower face is already an original
+smooth-data construction at the raw stopped-parent level.  It should be consumed
+as an installed input, not listed again as the active Gold source wall.
+
+Fix one stopped preterminal parent packet \(X_P\), and let \(dJ_P^{raw}\) be the
+pre-clipping pressure-Hodge/material residue after route, collar, legal, stop,
+endpoint, and already-paid detector-motion terms have been separated.  In the
+stopped parent frame,
+
+\[
+dJ_P^{raw}
+=d\widetilde J_P^{raw}+dR_P^{raw},
+\qquad
+\widetilde J_P^{raw}(X_P)=0,
+\qquad
+|dR_P^{raw}|
+\le d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.1214}
+\]
+
+The zero total mass is the pressure constraint in the parent packet: after the
+constant mode and paid boundary/collar motion have been removed, the
+pressure-Hodge/material residue redistributes the same packet and does not
+create standalone signed mass.
+
+Take the Jordan split
+
+\[
+d\widetilde J_P^{raw}
+=dJ_{P,+}^{raw}-dJ_{P,-}^{raw},
+\qquad
+dJ_{P,+}^{raw}(X_P)=dJ_{P,-}^{raw}(X_P)=M_P^J .
+\tag{TFE2748B.1215}
+\]
+
+Choose a same-parent transport coupling \(d\Pi_P\) between \(dJ_{P,+}^{raw}\)
+and \(dJ_{P,-}^{raw}\).  Then for every bounded parent test \(\varphi\),
+
+\[
+\int_{X_P}\varphi\,d\widetilde J_P^{raw}
+=
+\int_{X_P\times X_P}
+\bigl(\varphi(x)-\varphi(y)\bigr)\,d\Pi_P(x,y),
+\tag{TFE2748B.1216}
+\]
+
+or, equivalently,
+
+\[
+d\widetilde J_P^{raw}
+=
+\int_{X_P\times X_P}(\delta_x-\delta_y)\,d\Pi_P(x,y).
+\tag{TFE2748B.1217}
+\]
+
+Thus the atoms are literally same-parent zero-mean transport atoms
+\(\delta_x-\delta_y\).  In countable notation this is
+
+\[
+dJ_P^{raw}
+=
+\sum_\alpha c_\alpha\,d\mu_\alpha+dR_P^{raw},
+\qquad
+\int_{X_P}d\mu_\alpha=0,
+\qquad
+\sum_\alpha |c_\alpha|
+=M_P^J
+={1\over2}|d\widetilde J_P^{raw}|(X_P).
+\tag{TFE2748B.1218}
+\]
+
+The coefficient and leakage bound comes from the original smooth packet before
+selected child clipping.  In the pressure-Hodge part,
+
+\[
+-\Delta p=\partial_i u_j\,\partial_j u_i ,
+\tag{TFE2748B.1219}
+\]
+
+and the div-curl Hardy estimate gives
+
+\[
+\|\partial_i u_j\,\partial_j u_i\|_{\mathcal H^1}
+\le C\|\nabla u\|_2^2 .
+\tag{TFE2748B.1220}
+\]
+
+The stopped material pullback, cutoff derivatives, Hodge-frame errors, collar
+motion, legal terms, and stop terms are exactly the leakage already placed in
+\(dR_P^{raw}\).  Hence
+
+\[
+\sum_\alpha |c_\alpha(t)|
++ |dR_P^{raw}|(t)
+\le
+C_N\|\nabla u(t)\|_2^2
+d\Theta_P^0(t)+dPaid_P(t)+dStop_P(t),
+\tag{TFE2748B.1221}
+\]
+
+and the Leray energy inequality yields, for every \(\tau<T_*\),
+
+\[
+\int_0^\tau\sum_\alpha |c_\alpha(t)|\,dt
+\le
+C_N{\|u_0\|_2^2\over\nu}
+\+
+\Theta_P^0([0,\tau])+Paid_P([0,\tau])+Stop_P([0,\tau]).
+\tag{TFE2748B.1222}
+\]
+
+This is the coefficient/leakage control from arbitrary original smooth data in
+the raw parent currency.
+
+The retained opposite lobe is the second marginal of the same atom ledger:
+
+\[
+dJ_{P,atom}^{ret,-}:=(\operatorname{pr}_2)_\#d\Pi_P .
+\tag{TFE2748B.1223}
+\]
+
+Preallocate the raw parent reserve by the initial-data coefficient budget,
+
+\[
+M_P^{raw}(0)
+:=
+C_N{\|u_0\|_2^2\over\nu}
+\+
+\Theta_P^0(X_P)+Paid_P(X_P)+Stop_P(X_P),
+\tag{TFE2748B.1224}
+\]
+
+and define the stopped Stieltjes reserve
+
+\[
+M_P^{raw}(\tau)
+:=
+M_P^{raw}(0)
+-dJ_{P,atom}^{ret,-}\bigl(X_P\cap\{s<\tau\}\bigr).
+\tag{TFE2748B.1225}
+\]
+
+By `(TFE2748B.1222)'--`(TFE2748B.1224)',
+
+\[
+M_P^{raw}(\tau)\ge0,
+\qquad
+dJ_{P,atom}^{ret,-}\le -dM_P^{raw}
+\tag{TFE2748B.1226}
+\]
+
+as a measure on the retained same-parent atom ledger.  This reserve is not
+defined from a future selected tail.  It is preallocated from the original
+smooth-data coefficient budget and decreases at the same parent atom where the
+opposite lobe is retained.
+
+Therefore the requested raw attachment theorem is discharged:
+
+\[
+\boxed{
+\texttt{SignedPressureHodgeAtomicAttachment.A: }
+\text{`(TFE2748B.1214)'--`(TFE2748B.1226)'}
+}
+\tag{TFE2748B.1227}
+\]
+
+In particular,
+
+\[
+(dJ_P^{raw})_+
+\preceq_{atom}
+dJ_{P,atom}^{ret,-}
+\+
+(dR_P^{raw})_+,
+\qquad
+dJ_{P,atom}^{ret,-}\le -dM_P^{raw},
+\tag{TFE2748B.1228}
+\]
+
+with all unpaired leakage in \(d\Theta_P^0+dPaid_P+dStop_P\).
+
+The tower face in `(TFE2748B.1211)' now has only the selected-critical upgrade
+left.  If the selected meter \(W_P\) is already pulled into the parent adjoint,
+the same Jordan construction still gives the atom ledger, but the Gold reserve
+requires the root-uniform weighted estimate
+
+\[
+\int W_P\,dJ_{P,atom}^{ret,-}
+\le
+-dM_P^{crit}
+\+
+\theta\,d\Omega_P^{gen}
+\+
+d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+C_N\theta<1,
+\tag{TFE2748B.1229}
+\]
+
+with \(M_P^{crit}\) bounded below from original data.  Raw atom pairing and the
+raw reserve `(TFE2748B.1227)' supply same-parent ownership and leakage control;
+`(TFE2748B.1229)' is the weighted/root-finite storage content needed to turn
+that ownership into the tower signed-partner face of the Gold \(L^1\) line.
+
+Thus the current edge after this construction is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{EndpointTimeThickDomination.A}\\
++\texttt{TowerSelectedWeightedReserve.A `(TFE2748B.1229)'}\\
++\texttt{LowHighFirstRatioParentDetectorDomination.A}\\
++\texttt{FullExchangeNoSelfFeedingStorage.A}
+\end{array}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.
+}
+\tag{TFE2748B.1230}
+\]
+
+The old phrase `TowerSignedPartnerStorage.A' should now be read as the raw
+attachment theorem `(TFE2748B.1227)' plus the selected-weighted reserve
+`(TFE2748B.1229)'.  The raw atom decomposition, coefficient/leakage control, and
+retained opposite-lobe reserve depletion are no longer the unresolved part.
