@@ -12194,7 +12194,7 @@ representative satisfies
 \|F_P(t)\|_{\mathcal H^1(X_P)}
 \le
 C_N\|\nabla u(t)\|_2^2
-dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t),
++dPaid_P^{collar}(t)+dLegal_P(t)+dStop_P(t),
 \tag{TFE2748B.784}
 \]
 
@@ -12214,7 +12214,7 @@ and, after integration in time and the Leray energy inequality,
 
 \[
 \int_0^\tau\sum_\alpha |c_\alpha(t)|\,dt
-\int_0^\tau |(dR_P)_+|(t)
++\int_0^\tau |(dR_P)_+|(t)
 \le
 C_N{\|u_0\|_2^2\over\nu}
 +Paid_P+Legal_P+Stop_P,
