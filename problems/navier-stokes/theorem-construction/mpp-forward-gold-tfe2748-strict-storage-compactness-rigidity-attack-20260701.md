@@ -13704,3 +13704,186 @@ without reopening raw atom attachment: prove the same-history selected-meter
 capacity `(TFE2748B.880)', equivalently the repeated-core and shrinking-core
 capacity estimates `(TFE2748B.457)'--`(TFE2748B.458)', from arbitrary original
 smooth data before clipping.
+
+## 101. Same-history capacity is the full-exchange depletion face
+
+The repeated-core and shrinking-core wording in `(TFE2748B.882)' is only a
+branch coordinate for the non-reversible selected-meter source.  It must not be
+read as two new stores of material.  After the continuous parent-measure
+correction, both branches are consumed by one before-clipping object: the
+selected meter changes only through the original root generator of the same
+stopped parent packet.
+
+Let \(G_P^{root}\) be the stopped original root generator for the coupled
+pressure-Hodge, viscous/Stokes, self-advection, incompressibility-frame,
+covector, selector, collar, reset, endpoint, and legal/stop variables after
+parent subtraction.  Its generator clock is
+
+\[
+d\Omega_P^{gen}
+:=
+dI_P
++d\Omega_P^{frame/collar}
++d\Omega_P^{reset}
++d\Omega_P^{crit}
++d\Omega_P^{end},
+\tag{TFE2748B.884}
+\]
+
+where \(dI_P\) is the entropy-Fisher drain in `(TFE2748B.860)'.  The continuous
+transition derivative is not an independent source.  It is the stopped
+transition-coordinate projection
+
+\[
+G_P^{tr}=\Pi_P^{tr}G_P^{root}
+\tag{TFE2748B.885}
+\]
+
+with the selected first-ratio weight already pulled back to the parent measure.
+The parent-known channel bounds give
+
+\[
+\|\Pi_P^{tr}F\|_{\mathfrak H_P}^2
+\le
+C_N\|F\|_{\mathfrak H_P}^2
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+w_P^{tr}\le C_N H_P^*+d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.886}
+\]
+
+Thus the transition derivative measure satisfies
+
+\[
+d\Lambda_P^{tr}
+\le
+C_N\,d\Lambda_P^{orig}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+d\Lambda_P^{orig}:=H_P^*\|G_P^{root}\|_{\mathfrak H_P}^2\,d\sigma dt .
+\tag{TFE2748B.887}
+\]
+
+The repeated-core record/return and the shrinking-core reset estimate are both
+finite-overlap consumers of this same derivative measure.  In the continuous
+parent transition notation,
+
+\[
+\int_{P'} R_P^{tr,+}\,d\Theta_P^{tr}
+\le
+C_N\int_{P'}d\Lambda_P^{tr}
++d\Theta_P^0(P')+dPaid_P(P')+dStop_P(P').
+\tag{TFE2748B.888}
+\]
+
+Here the repeated-core half is the parent-fixed stopped potential identity
+\(A_{sel}(e)\le C[P(Q')-P(Q)]_++legal\), with negative return equal to finite
+variation of the same stopped potential.  The shrinking-core half is the reset
+average identity \(D_e=|I_e|^{-1}\int_I G_e+legal\), where the harmonic
+selected weight is inside the parent integral and is cancelled by Cauchy plus
+bounded stopped overlap.  Neither half counts child-normalized units after the
+rescaling.
+
+The selected-meter source in `(TFE2748B.880)' is dominated by this continuous
+transition readout plus the finite chart/collar/legal/stop pieces:
+
+\[
+dQ_P^{meter}
++[d\mathcal C_P^{crit}]_+
+\le
+C_N R_P^{tr,+}\,d\Theta_P^{tr}
++d\Theta_P^0+dPaid_P+dStop_P.
+\tag{TFE2748B.889}
+\]
+
+Combining `(TFE2748B.887)'--`(TFE2748B.889)' gives the deterministic
+same-history reduction
+
+\[
+dQ_P^{meter}
++[d\mathcal C_P^{crit}]_+
+\le
+C_N\,d\Lambda_P^{orig}
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.890}
+\]
+
+This is still only a comparison.  The actual producer is the strict original
+ledger/full-exchange depletion inequality.  Introduce the parent-known
+full-exchange critical ledger
+
+\[
+d\Xi_P^{FE}
+:=
+d\Xi_P^{Hodge}
++d\Xi_P^{frame/collar}
++d\Xi_P^{reset}
++d\Xi_P^{crit}
++d\Xi_P^{end},
+\tag{TFE2748B.891}
+\]
+
+all constructed before child positive clipping from the same root current,
+turnstile/exchange, collar/Hodge/frame motion, reselection/reset, and first
+critical/endpoint births.  The before-clipping active-density comparison is
+
+\[
+dQ_P^{meter}
++[d\mathcal C_P^{crit}]_+
+\le
+C_N\,d\Xi_P^{FE}
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.892}
+\]
+
+The strict full-exchange depletion storage theorem is
+
+\[
+d\Xi_P^{FE}
+\le
+-dM_P^{FE}
++\theta_{FE}\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+C_N\theta_{FE}<1,
+\tag{TFE2748B.893}
+\]
+
+with \(M_P^{FE}\) bounded below by a constant depending only on the original
+smooth data and the fixed truncation level \(N\).  Adding `(TFE2748B.892)' and
+`(TFE2748B.893)' yields
+
+\[
+dQ_P^{meter}
++[d\mathcal C_P^{crit}]_+
+\le
+-dM_P^{hist}
++\vartheta\,d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+\vartheta:=C_N\theta_{FE}<1.
+\tag{TFE2748B.894}
+\]
+
+Since \(dI_P\) is the entropy-Fisher face of \(d\Omega_P^{gen}\), `(TFE2748B.894)'
+is exactly the full-packet version of the local selected-meter estimate
+`(TFE2748B.880)'.  Feeding it into `(TFE2748B.879)' gives the aligned-current
+storage `(TFE2748B.866)' with the same strict absorption margin after the
+standard full-exchange clock absorption.
+
+Thus the raw atomic construction, coefficient/leakage control, and retained
+opposite-lobe depletion are no longer open.  The remaining mathematical source
+has been lowered to the single original-data theorem
+
+\[
+\boxed{
+\texttt{FullExchangeCriticalDepletionStorage.A / BeforeClippingActiveDensityComparison.A}
+}
+\tag{TFE2748B.895}
+\]
+
+namely `(TFE2748B.892)'--`(TFE2748B.893)'.  Equivalently, this is
+`SelectedGeneratorStorageCoercivity.A' / `PositiveCriticalTransferBound.A' with
+the no-self-feeding margin exposed.  It must be proved from the original
+coupled pressure-viscosity-incompressibility-velocity packet; otherwise
+Sections 98--101 are a closed reduction chain, not Gold closure.
