@@ -23587,8 +23587,8 @@ reversible flux reserve and the residual capacity bound gives
 dZ_P^{crit}
 \le
 -dM_P^{crit}
-\theta_{crit}d\Omega_P^{gen}
-d\Theta_P^0+dPaid_P,
++\theta_{crit}d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P,
 \qquad C_N\theta_{crit}<1,
 \tag{TFE2748B.1553}
 \]
