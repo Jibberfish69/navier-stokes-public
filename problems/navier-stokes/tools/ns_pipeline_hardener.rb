@@ -87,9 +87,11 @@ CURRENT_SOURCE_WALL_ROOT_SUMMARY = [
 ].compact.join(" ").freeze
 CURRENT_THEOREM_STATUS = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status").freeze
 CURRENT_PACKAGE_STATUS = "gold-l1-open-tfe2748b-blocked"
-CURRENT_LOWEST_SAFE_CLAIM = "Gold remains open at TFE2748B / OriginalCriticalCapacityVariation.A; no proof of smoothness, terminal safety, release eligibility, or submission readiness is installed until that source theorem is proved."
+CURRENT_GOLD_L1_COUPLED_STORAGE_WALL = "noncircular same-parent coupled active-capacity/full-exchange storage theorem for the original parent packet before child clipping"
+CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702 = "The current Gold L1 source wall is the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL}. Older native-reserve, source-refill, terminal anti-concentration, and scalar sum surfaces are readouts/provenance unless they prove that coupled object."
+CURRENT_LOWEST_SAFE_CLAIM = "Gold remains open at the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL}; no proof of smoothness, terminal safety, release eligibility, or submission readiness is installed until that source theorem is proved."
 CURRENT_ROUTE_SUMMARY = [
-  "The corrected active Gold edge is the original-data L1 source theorem TFE2748B / OriginalCriticalCapacityVariation.A.",
+  "The corrected active Gold edge is the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL}.",
   "Downstream no-jump, terminal safety, release, and submission surfaces remain blocked while that theorem is open.",
   "CM/Silver material remains support context and does not clear the Gold source theorem."
 ].join(" ").freeze
@@ -98,7 +100,7 @@ CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE = {
   "disposition" => "blocked",
   "next_cell_type" => "theorem-upgrade",
   "next_stage" => "gold-l1-source-theorem",
-  "next_action" => "Prove TFE2748B / OriginalCriticalCapacityVariation.A before restoring downstream release or submission readiness."
+  "next_action" => "Prove the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL} before restoring downstream release or submission readiness."
 }.freeze
 FORWARD_GOLD_ACTIVE_OBLIGATION = {
   "obligation_id" => "unweighted-terminal-critical-action-reserve",
@@ -531,13 +533,17 @@ end
 def ready_readiness_payload!(payload)
   return payload unless payload.is_a?(Hash)
 
-  payload["status"] = "ready" if payload.key?("status")
-  payload["submission_ready"] = true if payload.key?("submission_ready")
-  payload["candidate_count"] = 0 if payload.key?("candidate_count")
-  payload["candidates"] = [] if payload.key?("candidates")
+  payload["status"] = "blocked-by-gold-l1-coupled-storage-wall" if payload.key?("status")
+  payload["submission_ready"] = false if payload.key?("submission_ready")
+  payload["candidate_count"] = 1 if payload.key?("candidate_count")
+  payload["candidates"] = [
+    {
+      "candidate_id" => "gold-l1-coupled-storage-wall-open",
+      "required_action" => "Prove the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL}."
+    }
+  ] if payload.key?("candidates")
   if payload["checks"].is_a?(Hash)
-    payload["checks"]["verdict_conflicts"] = 0 if payload["checks"].key?("verdict_conflicts")
-    payload["checks"]["submission_verdict_agreement_candidates"] = 0 if payload["checks"].key?("submission_verdict_agreement_candidates")
+    payload["checks"]["source_frontier_candidates"] = 1 if payload["checks"].key?("source_frontier_candidates")
   end
   payload
 end
@@ -577,15 +583,20 @@ def clear_stale_submission_verdict_status!(verdict)
   if paper_quality.is_a?(Hash)
     alignment = paper_quality["proof_submission_alignment"]
     if alignment.is_a?(Hash)
-      alignment["status"] = "passed"
-      alignment["allows_paper_quality_pass"] = true
-      alignment["submission_ready"] = true
-      alignment["downstream_submission_ready"] = true
-      alignment["manuscript_declares_bridge_open"] = false
-      alignment["source_frontier_open"] = false if alignment.key?("source_frontier_open")
-      alignment["open_blockers"] = []
-      alignment["completion_candidate_count"] = 0
-      alignment["completion_candidates"] = []
+      alignment["status"] = "blocked-by-gold-l1-coupled-storage-wall"
+      alignment["allows_paper_quality_pass"] = false
+      alignment["submission_ready"] = false
+      alignment["downstream_submission_ready"] = false
+      alignment["manuscript_declares_bridge_open"] = true
+      alignment["source_frontier_open"] = true if alignment.key?("source_frontier_open")
+      alignment["open_blockers"] = [CURRENT_GOLD_L1_COUPLED_STORAGE_WALL]
+      alignment["completion_candidate_count"] = 1
+      alignment["completion_candidates"] = [
+        {
+          "candidate_id" => "gold-l1-coupled-storage-wall-open",
+          "required_action" => "Prove the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL}."
+        }
+      ]
     end
     paper_quality["required_fixes"] = Array(paper_quality["required_fixes"]).reject { |entry| stale_submission_verdict_conflict_entry?(entry) }
     paper_quality["pass"] = true if paper_quality["required_fixes"].empty?
@@ -593,11 +604,16 @@ def clear_stale_submission_verdict_status!(verdict)
 
   sync = verdict["completion_executor_sync"]
   if sync.is_a?(Hash)
-    sync["status"] = "synced-ready"
-    sync["blocking_reason"] = nil
+    sync["status"] = "synced-blocked-by-gold-l1-coupled-storage-wall"
+    sync["blocking_reason"] = "Gold L1 remains open at the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL}."
     evidence = sync["readiness_evidence"] = sync["readiness_evidence"].is_a?(Hash) ? sync["readiness_evidence"] : {}
-    evidence["completion_candidate_count"] = 0
-    evidence["completion_candidates"] = []
+    evidence["completion_candidate_count"] = 1
+    evidence["completion_candidates"] = [
+      {
+        "candidate_id" => "gold-l1-coupled-storage-wall-open",
+        "required_action" => "Prove the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL}."
+      }
+    ]
     ready_readiness_payload!(evidence["completion_readiness"]) if evidence["completion_readiness"].is_a?(Hash)
     ready_readiness_payload!(evidence["base_completion_readiness"]) if evidence["base_completion_readiness"].is_a?(Hash)
   end
@@ -1126,7 +1142,8 @@ end
 def sanitize_submission_export_status(status)
   return status unless status.is_a?(Hash)
 
-  status["status"] = "exported"
+  status["status"] = "exported-stale-not-submission-ready"
+  status["current_authority_override_20260702"] = CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702
   status["render_quality"] = "typeset"
   status.delete("source_wall_root_open")
   status["source_wall_root_cm_status"] = CURRENT_SOURCE_WALL_ROOT_SUMMARY
@@ -1145,7 +1162,7 @@ def sanitize_submission_export_status(status)
   status["readiness_evidence"]["completion_readiness"] = readiness
   status["submission_ready"] = false
   status["submission_posture"] = "not-ready"
-  status["readiness_status"] = "terminal-time-face-new-production-open"
+  status["readiness_status"] = "blocked-by-gold-l1-coupled-storage-wall"
   status["required_before_submission"] = [CURRENT_SOURCE_WALL_ROOT_ID]
   status
 end
@@ -1154,6 +1171,7 @@ def sanitize_submission_verdict(verdict)
   return verdict unless verdict.is_a?(Hash)
 
   verdict["status"] = CURRENT_PACKAGE_STATUS
+  verdict["current_authority_override_20260702"] = CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702
   verdict["submission_posture"] = "not-ready"
   verdict["submission_ready"] = false
   verdict["review_alignment"] ||= {}
