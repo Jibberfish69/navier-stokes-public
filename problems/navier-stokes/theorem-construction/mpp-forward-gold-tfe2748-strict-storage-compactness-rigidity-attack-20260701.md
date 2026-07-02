@@ -5425,9 +5425,13 @@ J_{\Psi,P}+a_P A_P\nabla_{\mathfrak m}F_P .
 \tag{TFE2748B.338}
 \]
 
-On the complement set the denominator vanishes, hence
-\(\nabla_{\mathfrak m}F_P=0\) in the retained elliptic metric and the numerator
-also vanishes; set \(a_P=0\) there.  Then
+On the retained quotient \(A_P\) is the nondegenerate elliptic metric for the
+active range.  Thus the denominator-zero set has zero Fisher-gradient in that
+retained range, and its absolutely continuous numerator contribution vanishes.
+Set \(a_P=0\) there.  Any leftover collar, null-metric, or bad-sequence
+concentration over vanishing Fisher density is not part of this fixed-packet
+coefficient identity; it is the singular aligned-current defect isolated below.
+Then
 
 \[
 \langle\nabla_{\mathfrak m}F_P,J_{\Psi,P}^{\perp}\rangle=0,
@@ -5479,8 +5483,9 @@ Gold source still asks for the stricter selected-critical fact that the positive
 parallel coefficient cannot harvest more than a strict fraction of Fisher
 dissipation after all paid motion has been removed.
 
-The normalized bad branch is equivalently a coefficient concentration branch.
-If `(TFE2748B.341)' fails after normalizing as in `(TFE2748B.332)', then
+Inside this scalar normal form, the normalized bad branch becomes a coefficient
+concentration branch.  If `(TFE2748B.341)' fails after normalizing as in
+`(TFE2748B.332)', then
 
 \[
 \int (a_{P_n})_+\,dI_{P_n}=1,
@@ -5516,8 +5521,9 @@ For each fixed preterminal smooth packet there is no singular defect in
 `(TFE2748B.340)'.  A singular aligned-current defect can only appear after
 taking a normalized bad-sequence limit, when the measures
 \((a_{P_n})_+dI_{P_n}\) keep unit mass while \(dI_{P_n}\) and all paid motion
-collapse.  A sharp sufficient same-parent producer for the local density-margin
-route is:
+collapse.  The compactness obstruction is this singular/concentrating limit;
+the quantitative theorem that rules it out is the uniform local density-margin
+estimate.  A sharp sufficient same-parent producer for that route is:
 
 \[
 \boxed{
@@ -5532,6 +5538,6 @@ positive clipping.}
 \tag{TFE2748B.346}
 \]
 
-This is the smallest remaining producer after the requested atomic
+This is the sharp remaining producer in this reduction after the requested atomic
 decomposition, coefficient/leakage control, and retained opposite-lobe reserve
 depletion have been installed.
