@@ -19508,3 +19508,151 @@ Thus the active source line should be read as
 Once `(TFE2748B.1273)' is proved, `(TFE2748B.1261)' follows by
 `(TFE2748B.1268)'--`(TFE2748B.1270)', and the critical capacity
 variation/storage line follows by `(TFE2748B.1266)'.
+
+## 142. The compactified Bellman failure splits into tightness and the strict critical-endpoint margin
+
+Section 141 returns the source theorem to the compactified full-exchange
+Bellman statement.  The next nonduplicate split is the normalized failure split
+already implicit in `(TFE2748B.1119)'--`(TFE2748B.1122)' and in the
+TFE2430--TFE2458 audit.
+
+Write the compactified full-exchange ledger as
+
+\[
+d\Xi_P^{FE,*}
+=
+d\Xi_P^{reg,*}
++d\Xi_P^{ce,*},
+\qquad
+d\Xi_P^{ce,*}:=d\Xi_P^{crit,*}+d\Xi_P^{end,*},
+\tag{TFE2748B.1274}
+\]
+
+where \(d\Xi_P^{reg,*}\) contains the already routed Hodge/viscous, silent,
+frame/collar, turnstile/exchange, and derivative-announced reset pieces, while
+\(d\Xi_P^{ce,*}\) is the critical-native-birth plus endpoint part of the same
+parent full-exchange ledger.
+
+The compactified Bellman theorem is equivalent to excluding normalized
+histories satisfying `(TFE2748B.1272)'.  Its compactness clause is
+
+\[
+\texttt{CompactifiedFullExchangeTightness.A:}\quad
+(P_n,d\Xi_{P_n}^{FE,*},d\Omega_{P_n}^{gen,*},dE_{P_n}^{0,*})
+\to
+(P_\infty,d\Xi_\infty^{FE,*},d\Omega_\infty^{gen,*},0)
+\tag{TFE2748B.1275}
+\]
+
+in one stopped compactified parent frame whenever
+\(\int d\Xi_{P_n}^{FE,*}=1\) and \(dE_{P_n}^{0,*}\to0\).  Escape through
+route, collar, legal, stop, endpoint-paid, reset-exit, or nonretained frame
+motion is by definition \(dE_P^{0,*}\)-mass and cannot remain in this tight
+limit.
+
+On the zero-source compactified limit, the installed component rigidity
+statements are consumed only for the regular part:
+
+\[
+dE_\infty^{0,*}=0
+\quad\Longrightarrow\quad
+d\Xi_\infty^{reg,*}
+\le
+\theta_{reg}\,d\Omega_\infty^{gen,*},
+\qquad
+C_N\theta_{reg}<1 .
+\tag{TFE2748B.1276}
+\]
+
+This line is not the Gold producer.  It records the component-support content:
+parent-subtracted silent/fresh quotients become inherited parent transport or
+paid commutator/frame/covector/turnstile/legal/stop motion, and
+derivative-announced reset compactness is consumed by the first-exit average
+and bounded-overlap Cauchy mechanism once those parent-known witnesses exist.
+
+The remaining strict source clause is the critical-endpoint margin:
+
+\[
+\texttt{CriticalEndpointFullExchangeStrictMargin.A:}\qquad
+dE_\infty^{0,*}=0
+\Longrightarrow
+d\Xi_\infty^{ce,*}
+\le
+\theta_{ce}\,d\Omega_\infty^{gen,*},
+\qquad
+C_N(\theta_{reg}+\theta_{ce})<1 .
+\tag{TFE2748B.1277}
+\]
+
+Equivalently in prelimit storage form, there must be a parent-built
+bounded-below storage \(M_P^{ce,*}\) such that
+
+\[
+d\Xi_P^{ce,*}
+\le
+-dM_P^{ce,*}
+\theta_{ce}\,d\Omega_P^{gen,*}
+dE_P^{0,*}.
+\tag{TFE2748B.1278}
+\]
+
+This is the selected-critical/native-birth and endpoint content behind
+`PositiveCriticalTransferBound', `NativeBirthChargePacking', and
+`SelectedGeneratorStorageCoercivity' in the older source surfaces.  It is the
+place where arbitrary original smooth data still has to supply one-sided
+critical/endpoint coercivity before child clipping.
+
+Now assume `(TFE2748B.1275)' and `(TFE2748B.1277)'.  A failure of the
+compactified Bellman theorem gives `(TFE2748B.1272)'.  Tightness gives the
+zero-source limit `(TFE2748B.1275)'.  Applying `(TFE2748B.1276)' and
+`(TFE2748B.1277)' yields
+
+\[
+d\Xi_\infty^{FE,*}
+=d\Xi_\infty^{reg,*}+d\Xi_\infty^{ce,*}
+\le
+(\theta_{reg}+\theta_{ce})\,d\Omega_\infty^{gen,*},
+\tag{TFE2748B.1279}
+\]
+
+contradicting the positive strict-margin profit in `(TFE2748B.1272)'.  Hence
+
+\[
+\boxed{
+\texttt{CompactifiedFullExchangeTightness.A}
++
+\texttt{CriticalEndpointFullExchangeStrictMargin.A}
+\Longrightarrow
+\texttt{CompactifiedFullExchangeBellmanNoArbitrage.A}.}
+\tag{TFE2748B.1280}
+\]
+
+Conversely, after the raw atom theorem, source-square consumer, component
+zero-cost rigidity, route/legal/stop/entry/return/paid leakage, and
+derivative-announced reset consumers have been removed, a compactified Bellman
+failure has only these two nonduplicate faces:
+
+\[
+\boxed{
+\neg\texttt{CompactifiedFullExchangeBellmanNoArbitrage.A}
+\Longrightarrow
+\neg\texttt{CompactifiedFullExchangeTightness.A}
+\ \vee\
+\neg\texttt{CriticalEndpointFullExchangeStrictMargin.A}.}
+\tag{TFE2748B.1281}
+\]
+
+Thus the current original-data work is no longer a raw atom theorem,
+source-square theorem, dyadic count, or component-rigidity theorem.  It is:
+
+\[
+\boxed{
+\texttt{prove compactified stopped-parent tightness for the full}
+\ d\Xi^{FE,*}
+\texttt{ ledger and prove the strict critical-endpoint margin `(TFE2748B.1277)'}
+\texttt{ from the original coupled packet before clipping.}}
+\tag{TFE2748B.1282}
+\]
+
+Together with `(TFE2748B.1271)', this proves the critical capacity
+variation/storage line.
