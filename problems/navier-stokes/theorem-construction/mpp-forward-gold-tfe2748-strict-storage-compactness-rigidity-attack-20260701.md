@@ -16629,3 +16629,118 @@ needed to pass that storage to the terminal face.  Proving those parent-ledger
 clauses from arbitrary original smooth data proves `(TFE2748B.1077)', hence
 `(TFE2748B.1069)', hence the source-square/critical capacity
 variation-storage line.
+
+## 122. The noncircular producer is finite capacitary excess
+
+Section 121 must not be read as permission to prove terminal admission by
+assuming the storage line it is meant to feed.  The compactified full-exchange
+storage in `(TFE2748B.1081)' is admissible only when it is produced from the
+original coupled packet before clipping.  Sections 107--115 identify the
+noncircular producer for that storage: finite weighted capacitary excess of the
+parent active potential.
+
+The exact source statement is
+
+\[
+\boxed{
+\texttt{FiniteCapacitaryExcess.A:}\qquad
+\sup_{\tau<T_*}
+\int_{[0,\tau]\times X_P}U_P^2\,d\mathfrak v_P^{exc}
+\le
+C_N(u_0)+Paid_P+Legal_P+Stop_P .
+}
+\tag{TFE2748B.1087}
+\]
+
+Here \(d\mathfrak v_P^{exc}\) is the super-capacitary excess constructed in
+`(TFE2748B.980)' from the before-clipping active potential
+\(d\mathfrak v_P^{crit}\).  It is not a future selected tail.  It is the part of
+the parent active potential that cannot remain inside the subunit parabolic
+capacity class `(TFE2748B.978)'.
+
+Assuming `(TFE2748B.1087)', the reserve from `(TFE2748B.982)' is uniformly
+bounded below:
+
+\[
+0\le M_{P,\tau}^{cap}(s)
+\le C_N(u_0)+Paid_P+Legal_P+Stop_P,
+\qquad
+-dM_{P,\tau}^{cap}=U_P^2\,d\mathfrak v_P^{exc}.
+\tag{TFE2748B.1088}
+\]
+
+The maximal residual \(d\mathfrak v_P^{res}\) satisfies the subunit capacity
+bound `(TFE2748B.981)', equivalently the form bound `(TFE2748B.963)'.  Therefore
+`(TFE2748B.984)' gives
+
+\[
+U_P^2\,d\mathfrak v_P^{crit}
+\le
+-dM_{P,\tau}^{cap}
++U_P^2\,d\mathfrak v_P^{res}
++dE_P^0,
+\tag{TFE2748B.1089}
+\]
+
+and applying the residual form bound to \(\zeta=U_P\) yields
+
+\[
+dQ_P^{meter}+[d\mathcal C_P^{crit}]_+
+\le
+-dM_{P,\tau}^{cap}
++\vartheta\,dI_P
++dE_P^0,
+\qquad C_N\vartheta<1.
+\tag{TFE2748B.1090}
+\]
+
+Equation `(TFE2748B.1090)' is the selected-meter estimate `(TFE2748B.880)'.
+Combining it with the reversible entropy-flux pairing
+`(TFE2748B.879)' and the entropy storage identity
+`(TFE2748B.864)'--`(TFE2748B.865)' gives the local critical capacity
+variation/storage inequality.  The terminal part is then consumed by Section
+121: the compactified trace of this same storage gives
+`SquareClockSingularTerminalAntiAtomExclusion.A', and Section 119 gives the
+terminal slab modulus.  Thus the whole consumer chain is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{FiniteCapacitaryExcess.A `(TFE2748B.1087)'}\\
+\Longrightarrow
+\texttt{ParentActivePotentialCapacityDomination.A `(TFE2748B.968)'}\\
+\Longrightarrow
+\texttt{selected-meter storage `(TFE2748B.880)'}\\
+\Longrightarrow
+\texttt{compactified terminal square-clock admission `(TFE2748B.1077)'}\\
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A.}
+\end{array}}
+\tag{TFE2748B.1091}
+\]
+
+Conversely, after the raw atom theorem, bounded detector projection, endpoint
+heat-lag admission, reversible flux pairing, and paid/legal/stop routing are
+removed, any failure of the critical capacity variation/storage line produces a
+failure of `(TFE2748B.1087)' or of the equivalent tail no-waste/slab producer
+`(TFE2748B.1037)'--`(TFE2748B.1041)':
+
+\[
+\boxed{
+\neg\texttt{CriticalCapacityVariationStorage.A}
+\Longrightarrow
+\neg\texttt{FiniteCapacitaryExcess.A}
+\ \vee\
+\neg\texttt{TerminalTailNoWasteOrOrliczProducer.A}.
+}
+\tag{TFE2748B.1092}
+\]
+
+This is the noncircular bottom of the current forward Gold route.  Everything
+below `(TFE2748B.1087)' is now a consumer: raw signed atom attachment, weighted
+atom identity, bounded log-detector projection, endpoint first-entry admission,
+entropy-flux pairing, capacity residual splitting, terminal square-clock
+admission, and terminal slab/no-jump.  The remaining proof from arbitrary
+original smooth data is exactly to bound the finite capacitary excess
+`(TFE2748B.1087)' or, equivalently, to prove the same terminal active-tail
+no-waste/Orlicz producer before child positive clipping.
