@@ -1,7 +1,9 @@
 # Submission Synopsis
 
-We present a CM-contrapositive proof of Navier--Stokes global regularity from
-smooth divergence-free data.
+This synopsis records the current CM-contrapositive route, not a closed proof of
+Navier--Stokes global regularity. The checked open Gold ingredient is the
+noncircular same-parent coupled active-capacity/full-exchange storage theorem
+for the original parent packet before child clipping.
 
 The proof has four steps.
 
@@ -20,6 +22,5 @@ Fourth, embed the derived Part/Field failure as `Exit(Q):=not Member(Q)` and app
 no-third-branch law. The terminal nonsmooth branch has no legal in-class
 continuation status, while the pass branch continues smoothly.
 
-The proof is closed unless a future audit produces a genuine in-class nonsmooth
-third branch or breaks terminal CM entry, Part/Field exhaustion, or
-contrapositive embedding.
+The route remains blocked until that coupled parent-storage theorem is proved
+and the downstream CM branch argument is regenerated from the proved input.
