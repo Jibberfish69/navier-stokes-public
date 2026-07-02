@@ -15960,3 +15960,87 @@ producer forms.  It does not prove either producer from arbitrary original
 smooth data.  The remaining PDE work is now the terminal active-tail
 uniform-integrability/no-waste estimate `(TFE2748B.1038)' or `(TFE2748B.1040)',
 not lobe attachment, dyadic counting, or endpoint ownership.
+
+## 116. Endpoint heat residence does not supply the slab modulus
+
+The most tempting direct proof of `(TFE2748B.1029)' is to say that the active
+tail came through the stopped Duhamel-Hodge heat propagator, so heat smoothing
+should give terminal time thickness.  This is false at the terminal face.  Heat
+smoothing only acts over the residence time left after the source enters; a
+source inserted in the last terminal heat layer has vanishing residence before
+\(T_*\).
+
+The model in `(TFE2748B.1035)'--`(TFE2748B.1036)' is exactly the obstruction.
+Let \(Z_n\) be a smooth parent shell atom supported at frequency
+\(\lambda_n=2^{j_n}\) and normalized in the active-tail currency, and let
+\(\tau_n\downarrow0\).  A terminal source packet
+
+\[
+S_n(t)=\tau_n^{-1}{\bf 1}_{(T_*-\tau_n,T_*]}(t)\,Z_n
+\tag{TFE2748B.1043}
+\]
+
+has finite first moment in the parent source norm:
+
+\[
+\int_0^{T_*}\|S_n(t)\|_{Y_P}\,dt=\|Z_n\|_{Y_P},
+\tag{TFE2748B.1044}
+\]
+
+and it vanishes on every fixed preterminal interval.  Its Duhamel readout is
+
+\[
+U_n(t)
+=
+\int_0^t e^{\nu(t-s)\Delta_P}S_n(s)\,ds .
+\tag{TFE2748B.1045}
+\]
+
+For every \(I_0\Subset[0,T_*)\), \(U_n\) is eventually zero on \(I_0\).  On the
+terminal layer itself, the available heat time satisfies \(0\le t-s\le\tau_n\),
+so the heat kernel supplies no terminal-uniform lower residence.  In particular,
+the same first-moment bound `(TFE2748B.1044)' is compatible with the weak-* tail
+limit
+
+\[
+2^{-j_n}D_{j_n}(t)^2\,dt
+\rightharpoonup
+\delta_{T_*}\otimes\delta_{\rho=0},
+\tag{TFE2748B.1046}
+\]
+
+after the finite-shell and preterminal consumers of Section 114 are removed.
+Thus the stopped Duhamel formula, by itself, proves only the lawful parent
+pullback and preterminal smoothing.  It does not prove the terminal active-tail
+slab modulus.
+
+What would rule out `(TFE2748B.1043)' is a stronger same-carrier estimate.  For
+example, an \(L^2\)-source-square bound would give
+
+\[
+\int_{T_*-\tau_n}^{T_*}\|S_n(t)\|_{Y_P}^2\,dt
+=
+\tau_n^{-1}\|Z_n\|_{Y_P}^2,
+\tag{TFE2748B.1047}
+\]
+
+which diverges for a retained nonzero terminal atom.  Equivalently, a
+bounded-below no-waste storage law `(TFE2748B.1040)' would spend the terminal
+layer as parent reserve drop before it became selected \(L^1\) mass.  These are
+precisely the two producer forms isolated in Section 115.
+
+Consequently
+
+\[
+\boxed{
+\text{Duhamel-Hodge parent pullback + finite first moment}
+\not\Longrightarrow
+\texttt{TerminalActiveTailSlabModulus.A}.
+}
+\tag{TFE2748B.1048}
+\]
+
+The heat representation remains a support theorem: it says the readout is a
+lawful same-parent test of the original coupled packet.  The missing source
+theorem is still a terminal-uniform same-carrier source-square/Orlicz estimate
+or a bounded-below no-waste storage identity in the original parent clock.
