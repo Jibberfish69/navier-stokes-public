@@ -385,7 +385,7 @@ open_root_group:
   group_id: gold-l1-coupled-storage-wall
   group_label: Gold L1 same-parent active-capacity/full-exchange storage wall.
   live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
-  top_level_release_blocker: false
+  top_level_release_blocker: true
   not_single_path: true
   not_single_proof_mode: true
   dashboard_boundary: The installed Clay terminal-witness CM chain remains proof grammar,
@@ -405,8 +405,8 @@ open_root_group:
       for the active-capacity/full-exchange loop or prove one face independently enough
       to break the TFE2748B.1548/TFE2748B.1555 self-feeding chain.
     active_container: gold-l1-coupled-storage-wall
-    respawn_cell:
-    respawn_stage:
+    respawn_cell: theorem-upgrade
+    respawn_stage: gold-l1-source-theorem
     allowed_input_boundary: The original parent packet and coupling come first. Dyadic,
       atom, child, native-reserve, source-refill, terminal anti-atom, and Pack anti-concentration
       statements are typed readouts, countertests, or sufficient-but-unproved entrances
