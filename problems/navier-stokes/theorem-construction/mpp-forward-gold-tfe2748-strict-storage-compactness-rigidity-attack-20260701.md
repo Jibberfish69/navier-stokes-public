@@ -12054,3 +12054,111 @@ carrier; the transverse full-exchange square is retained as generator/Fisher
 material with a strict consumer margin.  Gold remains open until the selected
 lower admission, transverse consumer margin, and tail material-record payment
 are all proved from the original coupled packet before clipping.
+
+## 89. Transverse full-exchange is a retained-loop consumer
+
+The transverse clause in `(TFE2748B.772)' is not an independent Gold source once
+the word transverse is kept in the retained-quotient sense used in
+`(TFE2748B.770)'.  A transverse component with no heat thickness is not a
+retained transverse component; it is zero-lag source/endpoint material, route,
+collar, selector, legal, stop, or paid frame motion.  The flat quotient test
+`(TFE2748B.768)'--`(TFE2748B.769)' is exactly the warning against putting such
+zero-lag material into the retained transverse consumer.
+
+Write the transverse endpoint-admitted ledger as
+
+\[
+d\Xi_P^{FE,\ast,\perp}
+=d\Xi_P^{FE,\ast,\perp,ret}
++d\Xi_P^{FE,\ast,\perp,paid},
+\qquad
+d\Xi_P^{FE,\ast,\perp,paid}
+\le d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.776}
+\]
+
+On each retained fibre \(Q\), the transverse readout is the orthogonal part of
+the same parent detector from Section 84:
+
+\[
+Z_Q^{\perp,ret}
+=
+\Pi_Q^\perp e^{\nu\tau_Q\Delta_P}\Gamma_QG_P^{root}
++G_Q^{paid},
+\qquad
+\Pi_Q^\perp:=(I-\Pi_Q^{align})\Pi_Q .
+\tag{TFE2748B.777}
+\]
+
+Since \(\Pi_Q^{align}\) is an orthogonal projection in the retained quotient,
+`(TFE2748B.723)' gives
+
+\[
+\|\Pi_Q^\perp h\|^2\le \|\Pi_Qh\|^2
+\le C_{\Pi,N}^2\|h\|^2 .
+\tag{TFE2748B.778}
+\]
+
+The retained quotient also has the heat thickness `(TFE2748B.724)'.  Therefore
+the parabolic contraction `(TFE2748B.725)' and the same finite-overlap summation
+used in `(TFE2748B.726)' give
+
+\[
+d\Xi_P^{FE,\ast,\perp,ret}
+\le
+C_NC_{\Pi,N}^2e^{-2c_PL_N}d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P .
+\tag{TFE2748B.779}
+\]
+
+Choose the retained threshold \(L_N\) as in `(TFE2748B.727)' and set
+\(\vartheta_\perp:=C_NC_{\Pi,N}^2e^{-2c_PL_N}\).  Then
+\(C_N\vartheta_\perp<1\), and `(TFE2748B.776)'--`(TFE2748B.779)' prove
+
+\[
+\boxed{
+d\Xi_P^{FE,\ast,\perp}
+\le
+\vartheta_\perp d\Omega_P^{gen}
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad C_N\vartheta_\perp<1 .
+}
+\tag{TFE2748B.780}
+\]
+
+Thus
+
+\[
+\boxed{
+\texttt{TransverseFullExchangeConsumer.A `(TFE2748B.772)' is proved as a
+retained-loop consumer by Section 84.}
+}
+\tag{TFE2748B.781}
+\]
+
+The proof does not use selected positive clipping.  It uses only the parent
+Duhamel-Hodge representation, retained heat thickness, detector boundedness, and
+the fact that transverse means orthogonal inside the retained quotient.  Any
+piece failing one of those hypotheses has already left the transverse-retained
+subledger and must be charged as early source, route/collar/frame, legal, stop,
+selector/reselection, endpoint trace, or tail material-record residue.
+
+Consequently the corrected source implication after Sections 87--89 is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{SelectedEndpointLowerAdmission.A `(TFE2748B.771)'}\\
++\texttt{TailMaterialRecordPayment.A `(TFE2748B.760)'}
+\end{array}
+\Longrightarrow
+\texttt{`(TFE2748B.749)' + `(TFE2748B.754)'}.
+}
+\tag{TFE2748B.782}
+\]
+
+The remaining nonconsumer work is therefore narrower: prove the selected
+endpoint subledger is lower-admitted to aligned-current/material-record carrier
+before clipping, and prove the tail material-record payment line from the
+original coupled packet.  The transverse full-exchange square is no longer a
+separate Gold source.
