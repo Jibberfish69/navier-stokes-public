@@ -5,6 +5,11 @@ status: blocked
 date: '2026-06-21'
 iteration_index: 1
 submission_ready: false
+current_authority_override_20260702: >-
+  Stale submission readiness revoked on 2026-07-02: current authority keeps
+  Gold open at TFE2748B / OriginalCriticalCapacityVariation.A, sharpened to
+  the coupled active-capacity/full-exchange storage theorem before child
+  clipping. Rendered PDFs remain artifacts only, not submission readiness.
 source_refs:
 - problems/navier-stokes/submission-verdict.yaml
 - problems/navier-stokes/submission-bundle/submission-verdict.yaml
@@ -69,7 +74,7 @@ verdict_alignment:
     candidate(s): pdf-reader-proof-integration, contract-readiness-after-manuscript-expansion,
     clay-readiness-not-claimed.'
   readiness_evidence:
-    source_frontier_clear: true
+    source_frontier_clear: false
     open_d8_proof_blockers: 0
     completion_candidate_count: 3
     completion_candidates:
