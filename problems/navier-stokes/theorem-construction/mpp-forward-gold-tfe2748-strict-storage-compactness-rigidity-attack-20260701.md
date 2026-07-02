@@ -3930,3 +3930,140 @@ So the exact remaining arbitrary-data theorem is no longer an ambiguous
 absolute-continuous active density before clipping, singular entry admission,
 finite parent active entropy/thickness, and paid positive variation of the
 preallocated critical capacity.
+
+## 35. Renormalized coupled-packet identity for the source package
+
+The parent-density package `(TFE2748B.241)' can be attacked directly from the
+coupled packet equation.  In the stopped parent frame write the full retained
+packet as \(Y_P\), including velocity/strain, pressure-Hodge compatibility,
+transported frame, covectors, selected detector coordinates, and finite jet
+rungs needed for the fixed \(N\) readout.  Its before-clipping equation has the
+form
+
+\[
+D_t^P Y_P+\mathcal L_PY_P
+=
+\mathcal G_P^{root}
++\mathcal R_P^{paid},
+\qquad
+\mathcal C_PY_P=0,
+\tag{TFE2748B.248}
+\]
+
+where \(\mathcal L_P\) contains the heat/Stokes part, volume-preserving material
+transport, and the pressure/Hodge constraint operator in one parent equation.
+The paid term contains route, collar, legal, stop, reselection, and endpoint
+chart errors already removed from the retained interior bill.
+
+Let the before-clipping selected active density be a parent-announced nonlinear
+readout
+
+\[
+F_P=\Psi_P(Y_P),
+\qquad
+\Psi_P\ge0,
+\tag{TFE2748B.249}
+\]
+
+with singular first-entry trace kept separately as
+\(d\rho_{crit,P}^{entry}\).  Applying the renormalized chain rule to
+`(TFE2748B.248)' gives
+
+\[
+D_t^P F_P
+-\operatorname{div}_{\mathfrak m}
+(A_P\nabla_{\mathfrak m}F_P)
+=
+-\mathcal D_{\Psi,P}
++\mathcal K_{\Psi,P}
++\mathcal G_{\Psi,P}
++\mathcal R_{\Psi,P}^{paid}.
+\tag{TFE2748B.250}
+\]
+
+Here the parabolic entropy production is
+
+\[
+\mathcal D_{\Psi,P}
+=
+\nu\,D^2\Psi_P(Y_P)
+[\nabla_{\mathfrak m}Y_P,\nabla_{\mathfrak m}Y_P]\ge0
+\tag{TFE2748B.251}
+\]
+
+on the convex active readout fibres.  The term
+\(\mathcal K_{\Psi,P}\) is the exact non-passive commutator:
+
+\[
+\mathcal K_{\Psi,P}
+=
+D\Psi_P(Y_P)\bigl(\mathcal H_PY_P\bigr)
+-\mathcal H_P\bigl(\Psi_P(Y_P)\bigr)
++[D_t^P,\Psi_P](Y_P)
++\mathcal K_P^{frame/sel/cov/Hodge}.
+\tag{TFE2748B.252}
+\]
+
+This is the mathematical location of the physical pressure/incompressibility
+feedback.  The heat part is dissipative after renormalization; the Hodge,
+moving-frame, covector, selector, and collar pieces can re-coordinate the
+selected density and have no sign until the same-parent participation law
+controls them.
+
+Multiplying `(TFE2748B.250)' by \(\Phi'(F_P)\), with
+\(\Phi(r)=r\log(e+r)\), and integrating in the parent measure gives
+
+\[
+D_t^P\int \Phi(F_P)\,d\mathfrak m_P
++\int \Phi''(F_P)
+\langle A_P\nabla_{\mathfrak m}F_P,\nabla_{\mathfrak m}F_P\rangle
+\,d\mathfrak m_P
+\le
+\int \Phi'(F_P)
+[\mathcal K_{\Psi,P}+\mathcal G_{\Psi,P}]_+
+\,d\mathfrak m_P
++dPaid_P+dStop_P .
+\tag{TFE2748B.253}
+\]
+
+Thus `(TFE2748B.241)' follows from the single accretive same-parent
+renormalized commutator estimate
+
+\[
+\int \Phi'(F_P)
+[\mathcal K_{\Psi,P}+\mathcal G_{\Psi,P}]_+
+\,d\mathfrak m_P
+\le
+\theta
+\int \Phi''(F_P)
+\langle A_P\nabla_{\mathfrak m}F_P,\nabla_{\mathfrak m}F_P\rangle
+\,d\mathfrak m_P
++d\Theta_P^0+dPaid_P+dStop_P,
+\qquad
+\theta<1,
+\tag{TFE2748B.254}
+\]
+
+together with singular-entry admission
+
+\[
+dA_P^{sing}\le d\rho_{crit,P}^{entry}+dPaid_P+dStop_P
+\tag{TFE2748B.255}
+\]
+
+and paid positive variation of the preallocated capacity
+
+\[
+[d\mathcal C_P^{crit}]_+
+\le d\Theta_P^0+dPaid_P+dStop_P.
+\tag{TFE2748B.256}
+\]
+
+This is the current deepest exact form of the storage line.  Raw atomization
+proves that the pressure-Hodge piece has same-parent signed partners before
+clipping; `(TFE2748B.254)' is stronger.  It must prove that, after the active
+renormalization, the positive part of the coupled Hodge/frame/selector/root
+generator commutator is absorbed by the same parent heat/Fisher dissipation and
+paid packet motion.  Proving `(TFE2748B.254)' from arbitrary original smooth data,
+with `(TFE2748B.255)'--`(TFE2748B.256)', proves the critical capacity
+variation/storage line `(TFE2748B.247)'.
