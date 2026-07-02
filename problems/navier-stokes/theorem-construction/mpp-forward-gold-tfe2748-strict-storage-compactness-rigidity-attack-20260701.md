@@ -12964,3 +12964,112 @@ This is still not the critical capacity storage theorem.  It is the next
 strict reduction of the theorem: proving `(TFE2748B.832)' from arbitrary
 original smooth data proves `TailMaterialRecordPayment.A', hence
 `CriticalCapacityVariationStorage.A' by `(TFE2748B.822)'.
+
+## 96. Singular legal/collar trace is terminal trace routing, not a source
+
+The phrase \(\mathcal R_{\rm legal}^{sing}\) in `(TFE2748B.832)' also needs to
+be typed.  Legal material that is summable or uniformly terminal-absolutely
+continuous has already been removed into \(\mathcal R_{\rm legal}^{paid}\) in
+`(TFE2748B.823)'--`(TFE2748B.824)'.  The only remaining piece is a collar or
+legal trace that fails terminal AC while it is still being treated as retained
+same-parent material.
+
+Let \(d\lambda_P^{leg}\) be this retained legal/collar trace on the stopped
+terminal packet.  Split it by the terminal-AC fork:
+
+\[
+d\lambda_P^{leg}
+=d\lambda_P^{leg,ac}
++d\lambda_P^{leg,atom}
++d\lambda_P^{leg,drift},
+\tag{TFE2748B.834}
+\]
+
+where \(d\lambda_P^{leg,ac}\) is summable or terminal-AC, \(d\lambda_P^{leg,atom}\)
+is the positive terminal trace atom produced by failure of terminal AC, and
+\(d\lambda_P^{leg,drift}\) is collar/gauge/packet drift of the support of the
+legal trace.  The first term is paid:
+
+\[
+d\lambda_P^{leg,ac}\le C_N(dPaid+dStop+d\Theta^0).
+\tag{TFE2748B.835}
+\]
+
+The third term is not a legal account at all; it is material-record geometry or
+collar escape:
+
+\[
+d\lambda_P^{leg,drift}
+\le
+C_N\mathcal R_{\rm geom}^{tail}
+d\Theta^0+dPaid+dStop .
+\tag{TFE2748B.836}
+\]
+
+For the atom term, the positive trace compactness lemma says that failure of
+terminal AC produces a terminal Radon atom and no hidden fourth measure-theoretic
+case.  The full Hodge-Stokes terminal trace balance then routes that atom by
+signed terminal balance:
+
+\[
+d\lambda_P^{leg,atom}
+\le
+C_N(\mathcal R_{\rm sat}+\mathcal R_{\rm jump})
+d\Theta^0+dPaid+dStop .
+\tag{TFE2748B.837}
+\]
+
+Here the retained negative countertrace is the signed-partner saturation
+branch, visible loss is paid, and positive terminal storage is the endpoint
+jump branch.  This is the same routing as the harmonic pressure-memory collar
+trace: a collar trace is legal/collar paid when it has terminal AC or is
+summable; when it concentrates, it is a terminal trace atom; when its support
+drifts, it is selector/collar/material-record escape.
+
+Combining `(TFE2748B.834)'--`(TFE2748B.837)' gives
+
+\[
+\boxed{
+\mathcal R_{\rm legal}^{sing}
+\le
+C_N(\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm geom}^{tail})
+d\Theta^0+dPaid+dStop .
+}
+\tag{TFE2748B.838}
+\]
+
+Therefore singular legal/collar trace is not an independent source in the
+tail-material payment theorem.  The active source line is equivalent to
+
+\[
+\boxed{
+\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm geom}^{tail}
+\le
+C_N(d\Theta^0+dPaid+dStop+2^{-N}D_N\,dt).
+}
+\tag{TFE2748B.839}
+\]
+
+The implication `(TFE2748B.832)' \(\Rightarrow\) `(TFE2748B.839)' is immediate
+by dropping \(\mathcal R_{\rm legal}^{sing}\), and `(TFE2748B.839)' together
+with `(TFE2748B.838)' gives `(TFE2748B.832)' after enlarging \(C_N\).  Thus the
+remaining same-parent terminal material-record anti-atom has three faces:
+
+\[
+\boxed{
+\text{signed-partner saturation}
+\ +\ \text{endpoint storage jump}
+\ +\ \text{geometry, tower-rung, or material-record escape}.
+}
+\tag{TFE2748B.840}
+\]
+
+Proving `(TFE2748B.839)' from arbitrary original smooth data is now the reduced
+form of `TailMaterialRecordPayment.A', and by `(TFE2748B.822)' it is sufficient
+for `CriticalCapacityVariationStorage.A'.  This reduction uses only
+before-clipping legal/collar routing and terminal trace compactness; it does
+not define any reserve from a future selected tail.
