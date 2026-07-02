@@ -40,7 +40,9 @@ A_j
 \tag{BOP.2}
 ```
 
-The forward-gold anti-atom needs an unweighted terminal reserve,
+The forward-gold anti-atom needs an unweighted terminal reserve in the parent
+packet.  The following sum is a terminal finite-overlap tail criterion, not the
+physical source object,
 
 ```math
 \sum_j A_j<\infty

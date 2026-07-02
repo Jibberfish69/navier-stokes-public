@@ -241,7 +241,9 @@ The scalar candidates are exhausted at the same-shell level:
 all preserve the one-fluid ontology, but none gives a noncircular bounded-below
 drop for `(SSE.2)`.
 
-The live producer is therefore not another scalar shell storage.  It is one of:
+The live producer is therefore not another scalar shell storage.  In this
+coordinate system it is read through Littlewood-Paley material-rate
+bookkeeping for the same-parent storage law, for example:
 
 ```math
 \int_0^{T_*}
@@ -266,4 +268,3 @@ no-free-acceleration law, or
 proved as finite same-interface acceleration variation, or a genuinely coupled
 bounded-below same-material storage whose lower bound is not equivalent to the
 continuation-depth energy bound.
-

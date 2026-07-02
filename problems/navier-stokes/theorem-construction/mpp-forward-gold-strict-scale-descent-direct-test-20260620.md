@@ -86,7 +86,8 @@ The physical ledgers give only radius-weighted control:
 \tag{SSD.7}
 ```
 
-The gold anti-atom needs unweighted control:
+The gold anti-atom needs unweighted control in the parent packet; the following
+sum is the terminal finite-overlap tail criterion:
 
 ```math
 \sum_jA_j<\infty
@@ -251,4 +252,3 @@ terminal heat-scale pulse therefore remains in the same position:
 }
 \tag{SSD.19}
 ```
-

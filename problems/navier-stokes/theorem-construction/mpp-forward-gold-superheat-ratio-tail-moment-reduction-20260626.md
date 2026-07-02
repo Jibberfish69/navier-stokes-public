@@ -190,7 +190,9 @@ but it is stronger than the first-moment residence actually needed.
 
 ## 4. What remains
 
-The remaining Gold theorem has the following precise equivalent forms:
+The remaining Gold theorem is the same-parent selected-critical capacity law.
+The following are Littlewood-Paley ratio-tail bookkeeping / countertest forms
+of that law, not separate physical objects:
 
 ```math
 \boxed{

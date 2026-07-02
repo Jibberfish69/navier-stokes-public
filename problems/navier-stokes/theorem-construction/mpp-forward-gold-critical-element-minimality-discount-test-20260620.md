@@ -66,7 +66,8 @@ only radius-weighted control of this kind of normalized object:
 \tag{CMD.5}
 ```
 
-The forward-gold anti-atom needs an unweighted statement:
+The forward-gold anti-atom needs an unweighted parent-packet terminal statement;
+the following sum is only the terminal tail criterion:
 
 ```math
 \sum_j A_j<\infty,

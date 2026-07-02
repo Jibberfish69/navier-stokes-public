@@ -145,7 +145,9 @@ Capacity monotonicity says
 \tag{9}
 ```
 
-The Gold estimate needs
+The stopped child display below is a finite-overlap partition/projection of the
+same stopped parent carrier, not a physical child source count.  The Gold
+estimate needs the parent carrier inequality whose stopped projection is
 
 ```math
 \sum_{S'\in ch_{\rm stop}(S)}A(S')
@@ -155,7 +157,7 @@ The Gold estimate needs
 \tag{10}
 ```
 
-This is the stopped version of the already isolated operator theorem:
+This is the stopped projection of the already isolated operator theorem:
 
 ```text
 StoppedSelectedActionTraceCoercivity.A

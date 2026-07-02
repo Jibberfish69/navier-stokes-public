@@ -5737,11 +5737,13 @@ capacity into finite selected first-ratio action for arbitrary smooth data.
 ## 40. Entropy-density closure test: the state-count picture as a real
 half-tail theorem
 
-The state-count picture does give an exact \(L^1\) route.  It says that the
-selected child count must be the density of accessible future states inside one
-parent material history.  Let \(d\mathcal R_P\) be the finite raw/root native
-measure carried by a stopped parent packet \(P\), and let \(f_P\ge0\) be the
-parent-known selected amplification density before child positive clipping:
+The state-count picture gives an exact \(L^1\) route only after the parent
+measure is primary.  It says that the selected density must be parent-known as
+the density of accessible future states inside one parent material history, not
+that child labels are the physical object.  Let \(d\mathcal R_P\) be the finite
+raw/root native measure carried by a stopped parent packet \(P\), and let
+\(f_P\ge0\) be the parent-known selected amplification density before child
+positive clipping:
 
 \[
 dA_P^{sel}=f_P\,d\mathcal R_P.
@@ -29173,8 +29175,10 @@ carries a coupled pressure--heat--viscous state.  Pressure re-coordinates
 compatibility in the whole field, heat/viscosity gives delayed velocity/strain
 readouts of that same state, and the updated material frame asks the next
 pressure-compatibility question.  The selected \(L^1\) quantity is not the
-energy of this packet.  It is the total positive count of selected active
-state changes before a child is allowed to clip them as fresh work:
+energy of this packet.  It is the parent active measure of selected state
+change before a child is allowed to clip the positive part as fresh work.  The
+following tree display is a finite-overlap/simple-measure projection of that
+parent measure:
 
 \[
 A_{\rm sel}(\mathcal T)
