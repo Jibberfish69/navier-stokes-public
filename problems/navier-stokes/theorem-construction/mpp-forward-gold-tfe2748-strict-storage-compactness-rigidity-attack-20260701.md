@@ -18994,3 +18994,152 @@ zero-mean same-parent atoms, selected coefficient/leakage control, and retained
 opposite-lobe reserve depletion are installed.  What remains for Gold is the
 same selected-critical weighted storage already isolated as parent log-meter /
 full-exchange no-profit storage, not another atom decomposition.
+
+## 138. Endpoint and low-high active-transit faces are consumers
+
+After Section 137, the active-transit split `(TFE2748B.1211)' still looks like
+four independent source faces.  That is too wide.  Two of those faces are
+detector/record consumers once they are kept in the stopped parent currency, and
+the tower face has already been reduced to parent log-meter variation.
+
+First, the endpoint/inherited face \(d\mu_P^{Ent}\) is not fresh selected source.
+It is the left-entry or inherited endpoint material already carried by the
+parent entropy ledger before clipping.  Let
+
+\[
+B_P^E
+:=
+C_N\bigl(\Theta_P^0(X_P)+Paid_P(X_P)+Stop_P(X_P)+\mu_P^{Ent}(X_P)\bigr)
+\tag{TFE2748B.1240}
+\]
+
+and define
+
+\[
+M_P^E(s):=B_P^E-\mu_P^{Ent}([0,s]\times X_P),
+\qquad
+\mathscr S_P^E:=c_EM_P^E .
+\tag{TFE2748B.1241}
+\]
+
+The endpoint material is stopped only after the parent endpoint/inherited ledger
+has finite original-data mass; the paid collar/endpoint leakage is already in
+\(d\Theta_P^0+dPaid_P+dStop_P\).  Hence \(M_P^E\ge0\) and
+
+\[
+d\mathscr S_P^E+c_Ed\mu_P^{Ent}
+\le
+C_N(d\Theta_P^0+dPaid_P+dStop_P).
+\tag{TFE2748B.1242}
+\]
+
+Thus
+
+\[
+\texttt{EndpointTimeThickDomination.A}
+\tag{TFE2748B.1243}
+\]
+
+is a bounded parent-storage consumer of endpoint/inherited material.  It is not
+a separate remaining Gold source after the stopped endpoint ledger has been
+formed.
+
+Second, the low-high first-ratio term is a parent-announced transition detector.
+By the stopped transition projection already used in `(TFE2748B.885)'--
+`(TFE2748B.889)', the selected first-ratio measure satisfies
+
+\[
+d\mathcal J_N
+\le
+C_N\,R_P^{tr,+}\,d\Theta_P^{tr}
+dE_P^0,
+\qquad
+\int_{P'}R_P^{tr,+}\,d\Theta_P^{tr}
+\le
+C_N\int_{P'}d\Xi_P^{FE}+C_N\int_{P'}dE_P^0 .
+\tag{TFE2748B.1244}
+\]
+
+Equivalently, on every stopped parent subpacket,
+
+\[
+\int_{P'}d\mathcal J_N
+\le
+C_N\int_{P'}d\Xi_P^{FE}
+C_N\int_{P'}dE_P^0 .
+\tag{TFE2748B.1245}
+\]
+
+Combining `(TFE2748B.1245)' with the strict full-exchange storage
+`(TFE2748B.1206)' gives a bounded storage \(\mathscr S_P^J:=C_NM_P^{FE}\) with
+
+\[
+d\mathscr S_P^J+c_Jd\mathcal J_N
+\le
+\theta_Jd\Omega_P^{gen}
+dE_P^0,
+\qquad
+C_N\theta_J<1
+\tag{TFE2748B.1246}
+\]
+
+after the fixed constants are absorbed into the full-exchange margin.  Therefore
+
+\[
+\texttt{FullExchangeNoSelfFeedingStorage.A}
+\Longrightarrow
+\texttt{LowHighFirstRatioParentDetectorDomination.A}.
+\tag{TFE2748B.1247}
+\]
+
+Third, Section 137 already gives the tower face in the only selected-critical
+form it can have:
+
+\[
+\texttt{ParentLogMeterVariationStorage.A `(TFE2748B.1166)'}
+\Longrightarrow
+\texttt{TowerSelectedWeightedReserve.A `(TFE2748B.1229)'}.
+\tag{TFE2748B.1248}
+\]
+
+Putting `(TFE2748B.1243)', `(TFE2748B.1247)', and `(TFE2748B.1248)' into
+`(TFE2748B.1230)' gives the deduplicated active-transit source line:
+
+\[
+\boxed{
+\texttt{ParentLogMeterVariationStorage.A}
++
+\texttt{FullExchangeNoSelfFeedingStorage.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.
+}
+\tag{TFE2748B.1249}
+\]
+
+Finally, Section 130 identifies `ParentLogMeterVariationStorage.A' as the
+continuous path form of the same full-exchange zero-profit storage:
+
+\[
+\texttt{FullExchangeZeroProfitStorage.A `(TFE2748B.1169)'--`(TFE2748B.1170)'}
+\Longrightarrow
+\texttt{ParentLogMeterVariationStorage.A}.
+\tag{TFE2748B.1250}
+\]
+
+Thus the current nonduplicate source is a single coupled full-exchange storage
+problem:
+
+\[
+\boxed{
+\texttt{FullExchangeZeroProfitStorage.A}
+\Longrightarrow
+\texttt{CriticalCapacityVariationStorage.A}.
+}
+\tag{TFE2748B.1251}
+\]
+
+This is still not Gold closure.  The arbitrary-data work is proving
+`FullExchangeZeroProfitStorage.A' from the original coupled packet, equivalently
+the compactness/rigidity no-arbitrage package `(TFE2748B.1119)'--
+`(TFE2748B.1122)'.  The endpoint, low-high, and raw selected atom faces no longer
+stand as independent source walls.
