@@ -13073,3 +13073,133 @@ form of `TailMaterialRecordPayment.A', and by `(TFE2748B.822)' it is sufficient
 for `CriticalCapacityVariationStorage.A'.  This reduction uses only
 before-clipping legal/collar routing and terminal trace compactness; it does
 not define any reserve from a future selected tail.
+
+## 97. The three remaining faces are one terminal anti-atom reserve problem
+
+The three terms in `(TFE2748B.839)' should not be read as three unrelated
+physical sources.  After the raw signed atom construction, selected endpoint
+admission, selector-shape routing, and legal/collar terminal routing have been
+removed, a retained positive terminal remainder has only one way to stay
+unpaid: it must survive as a same-parent terminal anti-atom of the coupled
+packet before clipping.
+
+Let \(d\mathfrak t_{P,n}^+\) be the positive terminal trace/readout measure of
+the retained full Hodge-Stokes/tower packet on a normalized stopped parent
+sequence, after \(d\Theta^0+dPaid+dStop\), visible legal/collar material, and
+ordinary selector motion have been subtracted.  Define the terminal anti-atom
+mass by
+
+\[
+\mathfrak A_P^{term}
+:=
+\lim_{\theta\downarrow0}\limsup_{n\to\infty}
+d\mathfrak t_{P,n}^+((-\theta,0]\times X_P),
+\tag{TFE2748B.841}
+\]
+
+with the convention that all limits are taken on the retained same-parent
+carrier after the fixed finite-window relay has been exhausted.  By the
+positive trace compactness criterion, \(\mathfrak A_P^{term}=0\) is exactly
+uniform positive terminal absolute continuity of the retained terminal trace;
+if this uniform AC fails, a positive terminal Radon atom is produced.
+
+The full-packet terminal trace balance routes such an atom through the same
+three retained faces left in `(TFE2748B.839)'.  Positive storage growth is the
+endpoint jump face.  Retained negative countertrace is signed-partner
+saturation.  Failure of heat-scale return, tower-rung custody, or material
+coefficient return is geometry/tower/material-record escape.  Hence
+
+\[
+\mathfrak A_P^{term}
+\le
+C_N\bigl(
+\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm geom}^{tail}
+\bigr)
++d\Theta^0+dPaid+dStop .
+\tag{TFE2748B.842}
+\]
+
+Conversely, none of the three faces can occur without terminal anti-atom mass
+or paid material.  The endpoint positive-jump criterion gives
+\(\mathcal R_{\rm jump}\le C_N\mathfrak A_P^{term}+d\Theta^0+dPaid+dStop\).
+The signed-saturation branch is the retained terminal negative countertrace of
+the same positive atom after finite signed partners and non-Zeno donor trees
+have been paid.  The Body-IV return recurrence and heat-scale return criterion
+put geometry/tower/material-record escape precisely at failure of terminal
+return AC or unbounded shifted-rung custody.  Therefore
+
+\[
+\mathcal R_{\rm sat}
++\mathcal R_{\rm jump}
++\mathcal R_{\rm geom}^{tail}
+\le
+C_N\mathfrak A_P^{term}
++d\Theta^0+dPaid+dStop .
+\tag{TFE2748B.843}
+\]
+
+Combining `(TFE2748B.842)'--`(TFE2748B.843)', `(TFE2748B.839)' is equivalent,
+up to the fixed constant \(C_N\), to the single same-parent anti-atom reserve
+line
+
+\[
+\boxed{
+\mathfrak A_P^{term}
+\le
+C_N(d\Theta^0+dPaid+dStop+2^{-N}D_N\,dt).
+}
+\tag{TFE2748B.844}
+\]
+
+Equivalently, in the terminal-strip form,
+
+\[
+\boxed{
+\lim_{\theta\downarrow0}\limsup_{n\to\infty}
+d\mathfrak t_{P,n}^+((-\theta,0]\times X_P)
+\le
+C_N(d\Theta^0+dPaid+dStop+2^{-N}D_N\,dt).
+}
+\tag{TFE2748B.845}
+\]
+
+The source-square/no-waste supplement identifies one sufficient producer for
+`(TFE2748B.844)': same-carrier source-square domination plus an unweighted
+terminal square budget, or equivalently a bounded-below strict no-waste
+Lyapunov drop for the selected critical action.  In the present notation that
+supplier is
+
+\[
+\boxed{
+\int_{\sigma_0}^{\infty}
+\mathcal A_{\rm sel}^{term}(\sigma)\,d\sigma
+\le
+C_N(u_0)+dPaid+dStop,
+}
+\tag{TFE2748B.846}
+\]
+
+where \(\mathcal A_{\rm sel}^{term}\) is the same selected terminal action
+density whose terminal concentration gives `(TFE2748B.841)'.  The finite
+energy/local-energy package gives only the radius-discounted version of this
+budget, so `(TFE2748B.846)' is not obtained by raw \(L^1_t\) mass or by the
+raw signed atom pairing in Section 90.
+
+Thus the active Gold source has been lowered to one statement:
+
+\[
+\boxed{
+\texttt{SameParentTerminalAntiAtomReserve.A `(TFE2748B.844)'--`(TFE2748B.846)'}
+\Longleftrightarrow
+\texttt{TailMaterialRecordPayment.A `(TFE2748B.839)'.}
+}
+\tag{TFE2748B.847}
+\]
+
+This is still a producer theorem, not a consumer reduction.  The repo now says
+plainly that saturation, endpoint jump, and geometry/tower escape are the three
+readouts of the same terminal anti-atom; proving the critical capacity
+variation/storage line from arbitrary original smooth data requires the
+unweighted same-parent terminal reserve `(TFE2748B.846)'.
