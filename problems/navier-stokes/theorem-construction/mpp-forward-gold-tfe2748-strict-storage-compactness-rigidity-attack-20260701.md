@@ -7616,3 +7616,163 @@ So the authority status after this audit is:
 and the active Gold \(L^1\) source line begins after that closed attachment,
 where the selected meter has to be built and charged by the same original
 coupled packet before clipping.
+
+## 60. Polar pushdown of the signed lifted-band identity
+
+Section 58 names `StoppedPolarSignedLift.A' as one of the exact repeated-core
+inputs.  The older lifted-band notes show that this input should not be treated
+as a black box.  It is the stopped parent-packet pushdown of the signed
+continuous-scale commutator identity, with the polar selected scalar chosen
+before positive clipping.
+
+Let \(K\) be a retained same-core stopped tube inside one parent packet and let
+\(\ell=e^\sigma\) be its heat-scale coordinate.  Pull the continuous-scale
+signed lifted density
+
+\[
+\mathfrak c_\ell
+:=
+\ell^{-2}
+\left\langle
+[Q_\ell,b_\ell^{meso}\!\cdot\nabla]u,\,
+Q_\ell u
+\right\rangle
+\tag{TFE2748B.484}
+\]
+
+to the stopped material chart of \(K\).  The continuous-scale product-rule
+identity gives, before positive parts are taken,
+
+\[
+\mathfrak c_\ell
+=
+\partial_\sigma \Psi_\ell
++\nabla_x\cdot J_\ell
++\partial_tR_\ell
++S_\ell^{spill}
++E_\ell .
+\tag{TFE2748B.485}
+\]
+
+The displayed identity is the signed object; the positive majorant
+\(\Pi_N^{lift}\) is a later residual control, not the source of the lift.
+After pullback to \(K\), choose the polar covector/selector \(\xi_K\) from the
+parent stopped record before any child positive readout is clipped and define
+the scalar stopped score
+
+\[
+Y_K
+:=
+\xi_K\!\cdot\mathcal P_K(\mathfrak c_\ell)
+-Y_K^{pol/frame},
+\tag{TFE2748B.486}
+\]
+
+where \(\mathcal P_K\) denotes the material pullback and
+\(Y_K^{pol/frame}\) contains only the announced change of polar frame, covector,
+selector, Hodge chart, and collar frame.  Parent-fixed polar scalarization is
+the estimate
+
+\[
+dA_{rep}^{aug}
+\le
+[Y_K]_+\,d\sigma
++dR_K^{pol/frame}
++dPaid_K+dStop_K,
+\tag{TFE2748B.487}
+\]
+
+with
+
+\[
+dR_K^{pol/frame}
+\le
+d\Theta_K^0+dPaid_K+dStop_K .
+\tag{TFE2748B.488}
+\]
+
+Thus the selected repeated-core positive bill is read from a signed parent
+scalar only after the moving detector has been removed into paid motion.
+
+Pulling `(TFE2748B.485)' through the stopped material chart gives
+
+\[
+Y_K
+=
+\partial_\sigma\Psi_K
++S_K^{spill}
++E_K
++\operatorname{div}_{\partial K}J_K
++\partial_tR_K
++C_K^{coc}
++R_K^{bd/mid/collar}.
+\tag{TFE2748B.489}
+\]
+
+Here \(C_K^{coc}\) is the transportable mismatch cocycle from changing local
+signed representatives, and \(R_K^{bd/mid/collar}\) is exactly the sum of the
+upper-boundary packet, middle-band residual, and collar residual isolated in
+the lifted-band support notes.  The stopped pushdown is proved once these
+terms are same-parent paid:
+
+\[
+\int_K |C_K^{coc}|
++\int_K |R_K^{bd/mid/collar}|
++\int_{\partial K}|J_K|
++\int_{\partial_tK}|R_K|
+\le
+d\Theta_K^0+dPaid_K+dStop_K .
+\tag{TFE2748B.490}
+\]
+
+Under `(TFE2748B.488)'--`(TFE2748B.490)', `(TFE2748B.487)' and
+`(TFE2748B.489)' give
+
+\[
+dA_{rep}^{aug}
+\le
+\left[
+\partial_\sigma\Psi_K+S_K^{spill}+E_K
+\right]_+d\sigma
++d\Theta_K^0+dPaid_K+dStop_K .
+\tag{TFE2748B.491}
+\]
+
+After absorbing \(\Theta^0\) into the already named paid zero-order/legal
+ledger, `(TFE2748B.491)' is precisely the stopped polar signed lift
+`(TFE2748B.462)'.
+
+So the noncircular pushdown theorem is
+
+\[
+\boxed{
+\begin{array}{c}
+\texttt{ContinuousSignedScaleDescent.A}\\
++\texttt{ParentFixedPolarScalarization.A}\\
++\texttt{TransportableMismatchCocycleTriviality.A}\\
++\texttt{StoppedBoundaryMiddleCollarBarrier.A}
+\end{array}
+\Longrightarrow
+\texttt{StoppedPolarSignedLift.A `(TFE2748B.462)'.}
+}
+\tag{TFE2748B.492}
+\]
+
+This section proves the implication and fixes the exact subclaims.  It does not
+prove the three analytic pushdown inputs from arbitrary original data.  The
+upper-boundary note isolates the first term in
+`StoppedBoundaryMiddleCollarBarrier.A' as the estimate
+
+\[
+\int_0^T |\mathfrak B_N^{upper}(t)|\,dt
+\le
+{\eta\nu\over8}\int_0^T D_N(t)\,dt
++C_*2^{-2\delta N},
+\tag{TFE2748B.493}
+\]
+
+and the mesoscopic residual note isolates the second as the corresponding
+middle-band flux estimate for \(\Pi_N^{mid}\).  Thus the repeated-core branch
+has been pushed one layer lower: it is not a free signed-lift assumption, but
+the stopped polar pushdown of the continuous signed commutator identity plus
+paid cocycle, boundary, middle-band, collar, and detector-motion terms.
