@@ -91,6 +91,36 @@ READER_SURFACE_PATHS = %w[
   papers/navier-stokes/manuscript/generated/main.tex
 ].freeze
 
+SUM_DRIFT_GUARD_PATHS = %w[
+  problems/navier-stokes/source-frontier.yaml
+  problems/navier-stokes/theorem-creation.yaml
+  problems/navier-stokes/theorem-construction/mpp-forward-gold-native-birth-charge-packing-obstruction-test-20260627.md
+  problems/navier-stokes/theorem-construction/mpp-forward-gold-scale-native-active-participation-native-reserve-hinge-20260628.md
+  problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
+  problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  papers/navier-stokes/manuscript/generated/main.tex
+  papers/navier-stokes/build/output/authoritative-edge/navier-stokes.tex
+].freeze
+
+FORBIDDEN_SUM_DRIFT_CLAIMS = {
+  "discrete charge-packing promoted as Gold target" =>
+    /better\s+Gold\s+target.*?discrete\s+charge-packing/im,
+  "native reserve atom theorem promoted as MPP-bearing producer" =>
+    /MPP-bearing\s+native\s+reserve\s+theorem|build\s+the\s+native\s+reserve\s+atoms/i,
+  "endpoint anti-atom promoted as direct missing theorem" =>
+    /direct\s+theorem\s+still\s+missing\s+is.*?TerminalTimeFaceAntiAtom/im,
+  "endpoint seed promoted as physical first-birth producer" =>
+    /physical\s+first-birth\s+form\s+of\s+the\s+missing\s+producer/i,
+  "Carleson readout promoted as selected-child count" =>
+    /first\s+inequality\s+controls\s+the\s+number\s+and\s+weight\s+of\s+selected\s+children/i,
+  "native reserve atom promoted as source object" =>
+    /parent-known\s+native\s+reserve\s+atom|required\s+critical\s+atom|Gold\s+now\s+needs\s+SelectedSizeAtomLowerBound\.A\s+plus\s+CriticalNativeAtomPacking/i,
+  "endpoint-seed packing promoted as global producer" =>
+    /unproved\s+global\s+producer\s+is\s+endpoint-seed\s+packing/i,
+  "singular entry atom packing promoted as real source" =>
+    /real\s+source\s+is\s+packing\s+singular\s+entry\s+atoms/i
+}.freeze
+
 SUM_AUDIT_REQUIRED_MARKERS = [
   "TFE2748B",
   "OriginalCriticalCapacityVariation.A",
@@ -224,6 +254,21 @@ READER_SURFACE_PATHS.each do |relative_path|
 
       violations << "#{relative(path)}:#{line_no}: #{label}: #{preview(line)}"
     end
+  end
+end
+
+SUM_DRIFT_GUARD_PATHS.each do |relative_path|
+  path = ROOT.join(relative_path)
+  next unless path.file?
+
+  text = read_text(path)
+  FORBIDDEN_SUM_DRIFT_CLAIMS.each do |label, pattern|
+    match = text.match(pattern)
+    next unless match
+
+    line_no = text[0...match.begin(0)].count("\n") + 1
+    line = text.lines[line_no - 1].to_s
+    violations << "#{relative(path)}:#{line_no}: #{label}: #{preview(line)}"
   end
 end
 
