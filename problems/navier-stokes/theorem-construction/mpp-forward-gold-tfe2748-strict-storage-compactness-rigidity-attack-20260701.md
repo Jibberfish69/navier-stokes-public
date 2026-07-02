@@ -2951,13 +2951,16 @@ C_N\theta<1.
 
 Thus the pairing itself is not the open estimate.  It is an immediate
 consequence of a same-parent zero-mean atomic representation of the signed
-pressure-Hodge/material residue.  The actual arbitrary-data source theorem is
-now sharper:
+pressure-Hodge/material residue.  In the raw stopped parent currency, Section 29
+constructs the atoms and the bounded-below retained-lobe reserve from arbitrary
+smooth data.  The actual arbitrary-data source theorem is the selected-critical
+weighted upgrade:
 
 \[
 \boxed{
-\texttt{ParentHardyAtomicPressureHodgePartnerRetention.A}
-+\texttt{BoundedBelowCriticalReserveDepletion.A}
+\texttt{SelectedCriticalWeightedAtomReserve.A}
+\quad\text{or equivalently}\quad
+\texttt{EntropyWeightedCurrentDomination.A}
 }
 \tag{TFE2748B.186}
 \]
@@ -2966,11 +2969,12 @@ meaning:
 
 \[
 \begin{aligned}
-&\text{construct `(TFE2748B.178)' from the original coupled packet before
-clipping,}\\
-&\text{prove controlled atom coefficients/supports and paid leakage,}\\
-&\text{and prove `(TFE2748B.184)' with \(M_P^{crit}\) bounded below from
-original data.}
+&\text{insert the parent-known selected-critical detector before child
+positive clipping,}\\
+&\text{prove the weighted coefficient/defect measure is root-finite from the
+original packet,}\\
+&\text{and prove the resulting critical reserve has paid positive variation and
+strict margin.}
 \end{aligned}
 \tag{TFE2748B.187}
 \]
@@ -2978,9 +2982,9 @@ original data.}
 This is the same Gold source in signed-measure form.  The repo should no longer
 treat signed-partner retention as a mysterious positivity theorem: zero-mean
 same-parent atoms give the positive/negative lobe pairing exactly.  What remains
-is proving that the full residue has those atoms before clipping and that the
-opposite lobe is an original parent reserve depletion rather than a
-future-defined selected tail.
+is proving that the selected-critical weight placed on those atoms is a
+parent-built original-history reserve rather than a future-defined selected
+tail.
 
 ## 29. What arbitrary smooth data actually supplies
 
@@ -4299,8 +4303,10 @@ same-parent atom ledger.  Without the atom ledger, the positive and negative
 lobes may live at different points of \(X_P\), so the comparison is a paired
 transport comparison, not an unpaired pointwise measure inequality.
 
-The reserve upgrade is the remaining source estimate.  If the retained opposite
-lobe is charged to a parent-announced critical reserve by
+The selected-critical reserve upgrade is the remaining source estimate.  In the
+raw atom ledger, Section 41 charges the retained opposite lobe to
+\(M_P^{atom}\) with \(-dM_P^{atom}=dJ_{P,atom}^{ret,-}\).  Gold needs the
+stronger parent-announced critical reserve
 
 \[
 dJ_{P,atom}^{ret,-}
@@ -4328,16 +4334,17 @@ C_N\theta<1.
 This is the storage line.
 
 The construction above proves the signed atomic decomposition from arbitrary
-smooth data before clipping.  It does not by itself prove the terminal-uniform
-reserve bound in `(TFE2748B.271)'.  Defining \(M_P^{crit}(t)\) by the future
-tail of \(dJ_{P,atom}^{ret,-}\) would be circular; the reserve must be
-parent-announced from the original coupled packet before the child readout is
-clipped.  Equivalently, `(TFE2748B.271)' is supplied by the entropy-weighted current
-domination `(TFE2748B.260)' or by an equivalent parent-active
-Orlicz/reverse-Holder source theorem.  Once that source estimate is proved,
+smooth data before clipping.  Section 41 also proves the unweighted atom-ledger
+reserve depletion.  What remains is the terminal-uniform selected-critical
+reserve bound in `(TFE2748B.271)': \(M_P^{crit}\) must have root-finite initial
+size in the selected-critical currency.  Defining that size by the future tail of
+selected reads would be circular; the reserve must be parent-announced from the
+original coupled packet before the child readout is clipped.  Equivalently,
+`(TFE2748B.271)' is supplied by the entropy-weighted current domination
+`(TFE2748B.260)' or by an equivalent parent-active Orlicz/reverse-Holder source
+theorem.  Once that selected-critical source estimate is proved,
 `(TFE2748B.270)' turns every positive selected lobe into retained parent-reserve
-depletion plus paid leakage, and `(TFE2748B.272)' gives
-`(TFE2748B.247)'.
+depletion plus paid leakage, and `(TFE2748B.272)' gives `(TFE2748B.247)'.
 
 ## 38. Galerkin Liouville audit of the reserve source
 
@@ -4656,12 +4663,13 @@ original-data producer is therefore:
 
 This is the corrected answer to the retained-lobe question.  The same-parent
 atomic decomposition and its coefficient/leakage control are proved by
-`(TFE2748B.262)'--`(TFE2748B.270)' from arbitrary smooth data.  The retained
-opposite lobe becomes bounded-below parent reserve depletion exactly when the
-selected-meter log-motion measure `(TFE2748B.289)' is dominated by the
-past-built storage `(TFE2748B.291)'.  That storage estimate is the unresolved
-Gold source theorem, not a consequence of raw pressure zero-mean, finite energy,
-or fixed-frame Bessel orthogonality alone.
+`(TFE2748B.262)'--`(TFE2748B.270)' from arbitrary smooth data, and Section 41
+constructs the bounded-below unweighted atom reserve.  The selected-critical
+Gold reserve is stronger: the selected-meter log-motion measure
+`(TFE2748B.289)' must be dominated by the past-built root-finite storage
+`(TFE2748B.291)'.  That weighted storage estimate is the unresolved Gold source
+theorem, not a consequence of raw pressure zero-mean, finite energy, or
+fixed-frame Bessel orthogonality alone.
 
 ## 40. Minimal-bad branch for the meter-motion reserve
 
