@@ -103,25 +103,20 @@ CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE = {
   "next_action" => "Prove the #{CURRENT_GOLD_L1_COUPLED_STORAGE_WALL} before restoring downstream release or submission readiness."
 }.freeze
 FORWARD_GOLD_ACTIVE_OBLIGATION = {
-  "obligation_id" => "unweighted-terminal-critical-action-reserve",
+  "obligation_id" => CURRENT_SOURCE_WALL_ROOT_ID,
   "kind" => "forward-gold-live-wall",
-  "label" => "UnweightedTerminalCriticalActionReserve.A",
-  "status" => "open-forward-gold-not-proved",
-  "source_anchor" => "problems/navier-stokes/theorem-construction/mpp-forward-gold-unweighted-reserve-six-supplier-exhaustion-20260620.md",
-  "proof_mode" => "gold_forward_positive",
-  "meaning" => "Prove an unweighted same-selected-family terminal critical-action reserve on the actual selected positive heat-scale carrier. Current checked inputs give radius-weighted physical participation and visibility, not the unweighted terminal reserve.",
+  "label" => CURRENT_SOURCE_WALL_ROOT_LABEL,
+  "status" => CURRENT_THEOREM_STATUS,
+  "source_anchor" => "problems/navier-stokes/target-operating-contract.yaml",
+  "proof_mode" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("proof_mode", "gold_forward_positive_source_wall"),
+  "meaning" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("theorem_grade_statement"),
+  "blocking" => true,
   "equivalent_forms" => [
-    "StrictRescaledNoWasteLyapunov.A",
-    "SourceSquareReserve.A with selected carrier domination",
-    "SelectedCriticalStrainCarleson.A plus endpoint nonconcentration",
-    "NormalizedCKNCarleson.A",
-    "UnweightedMaterialStressWorkCarleson.A",
-    "ProjectedLocalizedFluxCommutatorCoercivity.A",
-    "NoFreeInfiniteMaterialZenoStressChain.A",
-    "PrincipalGainSquareHeightThickness.A after active-height control"
+    "simultaneous strict coupled active-capacity/full-exchange storage inequality",
+    "independent face proof breaking the TFE2748B.1548/TFE2748B.1555 self-feeding chain"
   ]
 }.freeze
-OPEN_ASSEMBLY_OBLIGATIONS = [].freeze
+OPEN_ASSEMBLY_OBLIGATIONS = [FORWARD_GOLD_ACTIVE_OBLIGATION].freeze
 OPEN_ASSEMBLY_OBLIGATION_IDS = OPEN_ASSEMBLY_OBLIGATIONS.map { |entry| entry.fetch("obligation_id") }.freeze
 ROUTE_SLOT_OBLIGATIONS = [].freeze
 ROUTE_SLOT_PATCH_SURFACE = {
@@ -857,7 +852,7 @@ def sanitize_proof_assembly(proof_assembly)
     summary["frontier_route_container_count"] = 0
     summary["frontier_downstream_support_count"] = 0
     summary["grounded_step_count"] = source_grounded_chain.length if summary.key?("grounded_step_count")
-    summary["ready_for_submission"] = OPEN_ASSEMBLY_OBLIGATIONS.empty?
+    summary["ready_for_submission"] = false
     summary["target_operating_contract_id"] = TARGET_OPERATING_CONTRACT.fetch("contract_id")
   end
 
@@ -880,7 +875,7 @@ def sanitize_source_frontier(source_frontier)
   source_frontier["frontier"]["forward_gold_primary_obligation"] = FORWARD_GOLD_ACTIVE_OBLIGATION
   source_frontier["frontier"]["forward_gold_first_unresolved_obligation"] = FORWARD_GOLD_ACTIVE_OBLIGATION
   source_frontier["frontier"]["forward_gold_unresolved_obligations"] = [FORWARD_GOLD_ACTIVE_OBLIGATION]
-  source_frontier["frontier"]["readiness_boundary"] = "Direct CM authority is cleared against the current live surface field: #{CURRENT_SOURCE_WALL_ROOT_SUMMARY}"
+  source_frontier["frontier"]["readiness_boundary"] = "Submission readiness is blocked by the current Gold L1 coupled-storage wall: #{CURRENT_SOURCE_WALL_ROOT_SUMMARY}"
   source_frontier["frontier"]["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   source_frontier["frontier"]["release_or_respawn_consequence"] = current_release_or_respawn_consequence
   source_frontier["frontier"]["forward_positive_surface_quarantine"] = FORWARD_POSITIVE_QUARANTINE_SUMMARY
@@ -989,7 +984,7 @@ def sanitize_auto_audit(audit)
       authority_summary["unresolved_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
       authority_summary["frontier_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
       authority_summary["blocking_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
-      authority_summary["all_discharged"] = true
+      authority_summary["all_discharged"] = false
       authority_summary["authority_mode"] = "direct-live-surfaces"
       authority_summary["source_authority_mode"] = "direct-live-surfaces" if authority_summary.key?("source_authority_mode")
     end
@@ -1026,8 +1021,8 @@ def sanitize_dependency_graph(graph)
   return graph unless graph.is_a?(Hash)
 
   graph["status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
-  graph["pass"] = true
-  graph["release_eligible"] = cm_referee_gate_clear?
+  graph["pass"] = false
+  graph["release_eligible"] = false
   graph["source"] ||= {}
   graph["source"]["live_theorem_edge"] = "problems/navier-stokes/live-theorem-edge.yaml"
   graph["source"]["source_frontier"] = "problems/navier-stokes/source-frontier.yaml"
@@ -1046,7 +1041,7 @@ def sanitize_dependency_graph(graph)
     "kind" => "direct-live-authority",
     "label" => CURRENT_SOURCE_WALL_ROOT_LABEL,
     "status" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status"),
-    "blocking" => !cm_referee_gate_clear?,
+    "blocking" => true,
     "source_anchor" => "problems/navier-stokes/live-theorem-edge.yaml"
   } unless nodes.any? { |entry| entry.is_a?(Hash) && entry["id"] == CURRENT_SOURCE_WALL_ROOT_ID }
   nodes.each do |entry|
@@ -1055,7 +1050,7 @@ def sanitize_dependency_graph(graph)
     entry["kind"] = "direct-live-authority"
     entry["label"] = CURRENT_SOURCE_WALL_ROOT_LABEL
     entry["status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
-    entry["blocking"] = !cm_referee_gate_clear?
+    entry["blocking"] = true
     entry["source_anchor"] = "problems/navier-stokes/live-theorem-edge.yaml"
   end
   graph["nodes"] = nodes
@@ -1063,7 +1058,7 @@ def sanitize_dependency_graph(graph)
   graph["summary"] ||= {}
   graph["summary"]["node_count"] = nodes.length
   graph["summary"]["blocking_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
-  graph["summary"]["all_discharged"] = true
+  graph["summary"]["all_discharged"] = false
   graph["summary"]["unresolved_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
   graph["summary"]["frontier_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length
   graph["summary"]["theorem_warrant_blocking_count"] = OPEN_ASSEMBLY_OBLIGATIONS.length if graph["summary"].key?("theorem_warrant_blocking_count")
@@ -1527,9 +1522,9 @@ def sanitize_theorem_to_warrant(warrant)
 
   warrant["warrant_boundary"] = {
     "status" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status"),
-    "terminal_safe" => true,
-    "required_before_terminal_release" => [],
-    "rule" => "Direct live CM authority controls this surface. Positive packet-survival/no-exit language is support only and cannot respawn from this warrant."
+    "terminal_safe" => false,
+    "required_before_terminal_release" => [CURRENT_SOURCE_WALL_ROOT_ID],
+    "rule" => "Direct live Gold L1 authority controls this surface. Positive packet-survival/no-exit language is support only and cannot clear terminal release until the same-parent coupled-storage wall is proved."
   }
   attach_target_topology!(warrant)
   warrant
@@ -1540,25 +1535,17 @@ def sanitize_review_verdict(review)
 
   review["safe_claim_boundary"] = CURRENT_LOWEST_SAFE_CLAIM
   review["completion_tier_achieved"] = CURRENT_PACKAGE_STATUS
-  if cm_referee_gate_clear?
-    review["verdict"] = "review-refresh-required"
-    review["release_posture"] = "cm-referee-gate-passed-review-refresh-required"
-    review["standalone_status"] = "cm-referee-gate-passed-review-refresh-required"
-    review["theorem_packet_status"] = "cm-referee-gate-passed-review-refresh-required"
-    review["required_before_terminal_release"] = []
-  else
-    review["verdict"] = "blocked"
-    review["release_posture"] = "not-export-ready"
-    review["standalone_status"] = "blocked"
-    review["theorem_packet_status"] = "theorem-open"
-    review["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_ID]
-  end
+  review["verdict"] = "blocked-by-gold-l1-coupled-storage-wall"
+  review["release_posture"] = "not-export-ready"
+  review["standalone_status"] = "blocked"
+  review["theorem_packet_status"] = "theorem-open"
+  review["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_ID]
 
   target_fidelity = review["target_fidelity"]
   if target_fidelity.is_a?(Hash)
-    target_fidelity["terminal_safe"] = cm_referee_gate_clear?
+    target_fidelity["terminal_safe"] = false
     target_fidelity["explicit_nonterminal_overlay"] = false
-    target_fidelity["required_before_terminal_release"] = cm_referee_gate_clear? ? [] : [CURRENT_SOURCE_WALL_ROOT_ID]
+    target_fidelity["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_ID]
     target_fidelity["issues"] = []
   end
 
