@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-weight-beating-tail-ns-structure-audit-20260626
-status: proof-audit-installed-weight-beating-tail-is-the-current-nonproxy-gold-theorem
+status: proof-audit-installed-weight-beating-tail-is-tail-bookkeeping-for-open-coupled-storage-wall
 created: 2026-06-26
 problem: navier-stokes
 route: forward-gold
@@ -20,7 +20,14 @@ source_surfaces:
 
 # Weight-Beating Tail Navier-Stokes Structure Audit
 
-The current object is finite full same-material action:
+This note is tail bookkeeping and countertest support for the current Gold wall.
+The physical object comes first: the original parent packet before child
+clipping must supply the noncircular same-parent coupled
+active-capacity/full-exchange storage theorem.  The tail sums below are
+Littlewood--Paley/readout coordinates of that object, not a nonproxy Gold
+producer by themselves.
+
+The local bookkeeping object is finite full same-material action:
 
 ```math
 \int_0^{T_*}d\Omega_N^{full}<\infty .

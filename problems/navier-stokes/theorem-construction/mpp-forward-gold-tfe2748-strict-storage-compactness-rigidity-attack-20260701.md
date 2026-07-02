@@ -8875,8 +8875,10 @@ This is the noncircular meaning of the "thin pulse" obstruction.  A retained
 high-shell drain tail cannot contribute \(2^kT_k^2dt\) for free: the parent
 tail equation records it as either viscous tail-storage decay
 \(-dM_{P,N}^{tail}\), paid route/stop material, or positive tail-injection
-work \(\mathcal I_{P,N}^{tail}\).  The Gold source theorem is now the payment
-of that positive injection work by the original coupled packet before clipping.
+work \(\mathcal I_{P,N}^{tail}\).  This tail-injection work is a coordinate of
+the open Gold source wall, not the source theorem itself.  It becomes usable
+only after the original coupled parent packet before clipping supplies the
+noncircular same-parent active-capacity/full-exchange storage theorem.
 
 The relation to Section 66 is direct.  The record
 \(\mathfrak Z_P^S=(Z_P^S,\Psi_P^S,\Lambda_P^S)\) must be a parent-announced
@@ -13204,11 +13206,12 @@ Thus the active Gold source has been lowered to one statement:
 \tag{TFE2748B.847}
 \]
 
-This is still a producer theorem, not a consumer reduction.  The repo now says
-plainly that saturation, endpoint jump, and geometry/tower escape are the three
-readouts of the same terminal anti-atom; proving the critical capacity
+This is a terminal-face support theorem, not a standalone Gold producer.  The
+repo now says plainly that saturation, endpoint jump, and geometry/tower escape
+are readouts of the same terminal anti-atom; proving the critical capacity
 variation/storage line from arbitrary original smooth data requires the
-unweighted same-parent terminal reserve `(TFE2748B.846)'.
+noncircular same-parent coupled active-capacity/full-exchange storage theorem
+for the original parent packet.
 
 ## 98. The pre-clipping signed atom attachment is constructed from original data
 
