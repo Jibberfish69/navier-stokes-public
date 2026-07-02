@@ -12051,9 +12051,10 @@ This repairs Section 87's wording.  The endpoint bridge is not a demand that
 the whole full-exchange ledger be selected aligned current.  The selected
 endpoint subledger is lower-admitted to the aligned-current/material-record
 carrier; the transverse full-exchange square is retained as generator/Fisher
-material with a strict consumer margin.  Gold remains open until the selected
-lower admission, transverse consumer margin, and tail material-record payment
-are all proved from the original coupled packet before clipping.
+material with a strict consumer margin.  Section 89 proves that retained
+transverse consumer margin; Gold remains open at the selected lower admission
+and tail material-record payment from the original coupled packet before
+clipping.
 
 ## 89. Transverse full-exchange is a retained-loop consumer
 
