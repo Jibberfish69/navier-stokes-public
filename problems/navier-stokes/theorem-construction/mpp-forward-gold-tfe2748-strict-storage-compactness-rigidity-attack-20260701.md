@@ -19656,3 +19656,180 @@ source-square theorem, dyadic count, or component-rigidity theorem.  It is:
 
 Together with `(TFE2748B.1271)', this proves the critical capacity
 variation/storage line.
+
+## 143. The supplied signed-measure atom construction is a closed raw input
+
+The supplied request is exactly the raw signed-measure layer, before the
+selected-critical weight is allowed to price the two lobes differently.  In
+that layer the construction is complete from arbitrary original smooth data.
+
+Fix a stopped preterminal parent packet \(P\), a stopped interval
+\([0,\tau]\), and the pre-clipping pressure-Hodge/material residue after route,
+collar, endpoint, metric, Hodge-frame, detector-motion, legal, stop, and paid
+terms have been separated.  In the stopped parent frame,
+
+\[
+dJ_P=dJ_P^0+dR_P,
+\qquad
+dJ_P^0(t,X_P)=0,
+\qquad
+|dR_P|\le d\Theta_P^0+dPaid_P+dLegal_P+dStop_P .
+\tag{TFE2748B.1283}
+\]
+
+The zero-mass clause is the pressure constraint inside the same parent packet.
+For the smooth original solution,
+
+\[
+-\Delta p=\partial_i u_j\,\partial_j u_i ,
+\tag{TFE2748B.1284}
+\]
+
+and the stopped parent pullback of
+\(\partial_i u_j\,\partial_j u_i\), after subtracting its packet average, obeys
+the local div-curl Hardy bound
+
+\[
+\|F_P(t)\|_{\mathcal H^1(X_P)}
+\le
+C_N\|\nabla u(t)\|_2^2
+d\Theta_P^0(t)+dPaid_P(t)+dLegal_P(t)+dStop_P(t).
+\tag{TFE2748B.1285}
+\]
+
+The Hardy atom decomposition gives parent zero-mean atoms
+\(\mu_{\alpha,t}\) and coefficients \(c_\alpha(t)\),
+
+\[
+dJ_P^0(t)=\sum_\alpha c_\alpha(t)d\mu_{\alpha,t},
+\qquad
+\int_{X_P}d\mu_{\alpha,t}=0,
+\tag{TFE2748B.1286}
+\]
+
+with
+
+\[
+\int_0^\tau\sum_\alpha |c_\alpha(t)|\,dt
++ |(dR_P)_+|([0,\tau]\times X_P)
+\le
+C_N{\|u_0\|_2^2\over\nu}
+\Theta_P^0+Paid_P+Legal_P+Stop_P .
+\tag{TFE2748B.1287}
+\]
+
+Equivalently, using the Jordan split of the zero-mass part at almost every
+stopped time,
+
+\[
+dJ_P^0=dJ_{P,+}^0-dJ_{P,-}^0,
+\qquad
+dJ_{P,+}^0(X_P)=dJ_{P,-}^0(X_P),
+\tag{TFE2748B.1288}
+\]
+
+choose a same-parent coupling \(d\Pi_P(t,x,y)\) between the positive and
+negative lobes.  Then
+
+\[
+dJ_P^0(dt,dx)
+=
+\int_{X_P}(\delta_x-\delta_y)\,d\Pi_P(dt,dx,dy),
+\qquad
+\Pi_P([0,\tau]\times X_P\times X_P)
+\le
+\int_0^\tau\sum_\alpha |c_\alpha(t)|\,dt .
+\tag{TFE2748B.1289}
+\]
+
+Thus the countable atom display is only a simple-measure presentation of the
+same parent transport integral; no child-scale count or dyadic physical unit is
+being introduced.
+
+For every parent-announced selector \(0\le\omega_P(t,x)\le1\), fixed before
+positive child clipping, define the retained opposite lobe by
+
+\[
+dJ_{P,\omega}^{ret,-}
+:=
+(\operatorname{time},\operatorname{pr}_2)_\#
+\bigl(\omega_P(t,x)\,d\Pi_P(t,x,y)\bigr).
+\tag{TFE2748B.1290}
+\]
+
+Then the selected positive lobe and its retained opposite lobe are the two
+marginals of the same parent atom ledger:
+
+\[
+\omega_P(dJ_P)_+
+\preceq_{atom}
+dJ_{P,\omega}^{ret,-}
+\omega_P(dR_P)_+ .
+\tag{TFE2748B.1291}
+\]
+
+Let
+
+\[
+B_P^{atom}(\tau)
+:=
+C_N{\|u_0\|_2^2\over\nu}
+\Theta_P^0([0,\tau])
++Paid_P([0,\tau])
++Legal_P([0,\tau])
++Stop_P([0,\tau])
+\]
+
+and define
+
+\[
+M_{P,\omega}^{atom}(s)
+:=
+B_P^{atom}(\tau)
+-dJ_{P,\omega}^{ret,-}([0,s]\times X_P),
+\qquad 0\le s\le\tau .
+\tag{TFE2748B.1292}
+\]
+
+Equations `(TFE2748B.1287)'--`(TFE2748B.1290)' give
+
+\[
+M_{P,\omega}^{atom}(s)\ge0,
+\qquad
+-dM_{P,\omega}^{atom}=dJ_{P,\omega}^{ret,-}
+\quad\text{on retained same-parent atoms.}
+\tag{TFE2748B.1293}
+\]
+
+Therefore arbitrary original smooth data constructs the pre-clipping
+same-parent atomic decomposition, controls coefficient mass and leakage, and
+records the retained opposite lobe as bounded-below parent reserve depletion:
+
+\[
+\boxed{
+\texttt{SignedPressureHodgeAtomicAttachment.A}
+\texttt{ is proved by `(TFE2748B.1283)'--`(TFE2748B.1293)'.}}
+\tag{TFE2748B.1294}
+\]
+
+This does not close the selected-critical Gold source line by itself.  Once the
+critical parent meter \(W_P^{crit}=e^{b_P}\) is inserted, a same-parent atom can
+be priced differently at the positive and retained lobes:
+
+\[
+W_P^{crit}(x)\omega_P(x)\,d\Pi_P(x,y)
+\le
+W_P^{crit}(y)\omega_P(x)\,d\Pi_P(x,y)
++
+W_P^{crit}(y)\omega_P(x)
+\bigl(e^{[b_P(x)-b_P(y)]_+}-1\bigr)d\Pi_P(x,y).
+\tag{TFE2748B.1295}
+\]
+
+The first term is the retained-lobe reserve just constructed.  The second term
+is the positive parent log-meter/full-exchange variation.  Sections 130--142
+identify that weighted variation with the compactified full-exchange Bellman
+source, and Section 142 leaves the current unproved original-data work at
+`CompactifiedFullExchangeTightness.A' plus
+`CriticalEndpointFullExchangeStrictMargin.A', not at another atom
+decomposition.
