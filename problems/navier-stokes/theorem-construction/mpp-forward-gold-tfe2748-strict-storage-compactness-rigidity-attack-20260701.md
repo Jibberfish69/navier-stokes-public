@@ -6072,6 +6072,7 @@ d\mathfrak m_P
 \Phi''(F_P)
 \langle A_P^\dagger J_{\Psi,P},J_{\Psi,P}\rangle
 d\mathfrak m_P
++
 2\theta^2\int dI_P .
 \tag{TFE2748B.382}
 \]
@@ -6125,6 +6126,7 @@ that
 d\Omega_P^{logw}
 \le
 \vartheta\,d\Omega_P^{gen}
++
 d\Theta_P^0+dPaid_P+dStop_P,
 \qquad C_N\vartheta<1 .
 \tag{TFE2748B.386}
@@ -6137,7 +6139,9 @@ Combining `(TFE2748B.370)', `(TFE2748B.373)', `(TFE2748B.379)',
 (1-\varepsilon)d\Xi_P^{fib,+}
 \le
 -dM_P^{fib}
++
 \vartheta\,d\Omega_P^{gen}
++
 d\Theta_P^0+dPaid_P+dStop_P .
 \tag{TFE2748B.387}
 \]
