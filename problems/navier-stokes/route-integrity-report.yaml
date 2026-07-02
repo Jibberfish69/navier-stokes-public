@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: route-integrity-report-navier-stokes
-  generated_at: '2026-06-20T17:48:38Z'
+  generated_at: '2026-07-02T18:11:46Z'
   generator: tools/ns_pipeline_hardener.rb
 route_lock:
   path: problems/navier-stokes/route-lock.yaml
@@ -92,9 +92,9 @@ frontier_alignment:
   proof_assembly_open_obligation_count: 0
   proof_assembly_next_solver_targets: []
   campaign_full_claim_blocked: true
-  theorem_2_1_proof_status: cm-referee-gate-passed-with-gold-silver-paths
+  theorem_2_1_proof_status: gold-l1-open-coupled-storage-wall
   source_wall_root_open: true
-  blocking_frontier: release-exactness-and-manuscript-refresh
+  blocking_frontier: gold-l1-coupled-storage-wall
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight:
   rule_id: ns-target-topology-preflight-v2
@@ -153,23 +153,24 @@ target_lock_schema:
     examples:
     - Exit(Q):=not Member(Q)
     - Pack_Q / Part_{N,Q} / Field_{N,r,Q}
-    - 'PackOutOfCMSmoothnessCertification.A: outside-CM participation-field/window or singular failed packet-window branches
-      must test the original NS participation law without spending not Pack_Q as CM exit'
+    - 'PackOutOfCMSmoothnessCertification.A: outside-CM participation-field/window
+      or singular failed packet-window branches must test the original NS participation
+      law without spending not Pack_Q as CM exit'
     - 'Part/Field as overlapping witness axes: Pack has fixed-box flux and finite-window
       material-coordinate readings; Part is same pressure-viscosity carrier law; Field
       is neighboring tower coherence'
-    - 'Part/Field ontological collapse audit: test whether formal witness rows
-      have real terminal same-fluid realizations, or collapse into overlapping Dead/Jump/Blown
+    - 'Part/Field ontological collapse audit: test whether formal witness rows have
+      real terminal same-fluid realizations, or collapse into overlapping Dead/Jump/Blown
       readouts'
     - EulerSmooth(u_0,[0,T]) => NSSmooth_nu(u_0,[0,T]) for fixed nu>0
-    - 'ScaleCriticalTreeCarleson.A as Field smoothness-certification support target: Pack_Q implies
-      the scale-critical donor-refill Carleson bound, and selected unpaid infinite
-      donor-refill ancestry is not Pack_Q / (Pack, packing-detached)'
+    - 'ScaleCriticalTreeCarleson.A as Field smoothness-certification support target:
+      Pack_Q implies the scale-critical donor-refill Carleson bound, and selected
+      unpaid infinite donor-refill ancestry is not Pack_Q / (Pack, packing-detached)'
     - 'ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A as diagnostic/source-residue
       language: finite Zeno ancestry is sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A,
-      while terminal zero-radius residue lands Part-side when a same-solution pointwise
-      original-NS participation record remains and packet/window evidence only when that
-      record is absent; endpoint readout language is post-exit support unless a positive-scale
+      while terminal zero-radius residue lands Part-side when a same-solution original
+      NS participation record remains and packet/window evidence only when that record
+      is absent; endpoint readout language is post-exit support unless a positive-scale
       retained carrier is separately proved'
     - RetainedFaceAmplitudeGain.A as a PackGainLedger/PartEnvelopeAmplitudeConservation
       boundary, not a new face
@@ -209,43 +210,48 @@ proof_program_topology:
 - program_id: cm-member-class-exit
   proof_mode: contrapositive_class_membership
   governing_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
-  propagated_object: same-fluid Part/Field witness envelope; Member(Q) is
-    the forward membership predicate
-  promotion_gate: Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence landing
-    after live-object participation is typed, plus original-participation audit before any outside-CM participation-field/window failure
-    disposal
+  propagated_object: live same-solution object first, then same-fluid Part/Field witness
+    notation after field-local testing is named; Member(Q) is the forward membership
+    predicate
+  promotion_gate: Original-NS participation at the original Navier-Stokes participation-law
+    slot first; Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence
+    only after field-local testing is named, with true failed packet-window reserved
+    for carrier/window/readout absence after that typing
   current_role: governing proof grammar for CM-bearing promotion
   governing_engine_note: problems/navier-stokes/theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
   pack_before_part_dependency_audit:
     note: problems/navier-stokes/theorem-construction/mpp-pack-out-of-cm-boundary-resurfacing-audit-20260620.md
     licensing_note: problems/navier-stokes/theorem-construction/mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md
-    rule: Preserve Silver Part/Field after a legitimate Pack window, carrier,
-      readout, or jump-comparison structure is admitted. When an outside-CM participation-field/window or singular
-      branch was disposed as not Pack_Q before the original Navier-Stokes participation law was applied to the live same-solution object, first ask whether
+    rule: Preserve Silver Part/Field after a legitimate Pack window, carrier, readout,
+      or jump-comparison structure is admitted. When an outside-CM participation-field/window
+      or singular branch was disposed as not Pack_Q before the original Navier-Stokes
+      participation law was applied to the live same-solution object, first ask whether
       the original Navier-Stokes viscosity, pressure, and incompressibility law still
-      gives original participation status. If yes, apply the original Navier-Stokes participation law to the live same-solution object and localize to Part_{N,Q} only after the tested record exists;
-      if no, keep not Pack_Q as a true carrier/window/readout failure.
+      gives original participation status. If yes, apply the original Navier-Stokes
+      participation law to the live same-solution object; localize to Part_{N,Q} only
+      after the tested record exists; if no, keep not Pack_Q as a true carrier/window/readout
+      failure.
   obstruction_pass_exit_rule: Follow the ordinary positive proof program until it
     reaches a real obstruction, then split the obstruction into a pass branch and
     a fail branch. The pass branch is the in-class `Member(Q)` branch and may be supplied
     by any lawful continuation mechanism. The fail branch is lawful CM contrapositive
-    work only when the failure is capable of nonsmoothness and lands as a Pack, Part,
-    or Field Part/Field failure, or as an original-participation audit of an outside-CM participation-field/window branch, supporting
-    `Exit(Q):=not Member(Q)`. Do not replace this engine with a demand to prove one
-    particular positive estimate directly.
+    work only when the failure is capable of nonsmoothness and lands as a Part or
+    Field Part/Field failure, or as an original-participation audit of an outside-CM
+    participation-field/window branch, supporting `Exit(Q):=not Member(Q)`. Do not
+    replace this engine with a demand to prove one particular positive estimate directly.
   no_third_branch_rule: The installed no-third-branch audit proves that no terminal
     branch is both an in-class `Member(Q)` continuation branch and a finite nonsmoothness
     branch once the obstruction has been admitted to the CM test and a concrete Part/Field
-    Part/Field failure has been derived. Do not respawn the rejected positive no-exit slogan
+    failure has been derived. Do not respawn the rejected positive no-exit slogan
     as the local burden; the live proof engine is obstruction-by-obstruction CM-test
-    entry plus Part/Field Part/Field derivation.
+    entry plus Part/Field face derivation.
   no_genuine_exit_rule: The direct first-exit positive no-exit attempt is retained
     as a failed positive no-exit shortcut and may not control the local CM target.
     Under the current pass-or-exit engine, a pass branch may be supplied by any lawful
-    continuation mechanism, and a fail branch is useful exactly when it lands in Pack,
-    Part, or Field; that concrete Part/Field failure supports `Exit(Q):=not Member(Q)`.
+    continuation mechanism, and a fail branch is useful exactly when it lands in Part
+    or Field; that concrete Part/Field failure supports `Exit(Q):=not Member(Q)`.
   silver_face_failure_finality_correction_20260619: Do not state or preserve as a
-    Silver burden that a concrete Part/Field failure must then be proved
+    Silver burden that a concrete Part/Field Part/Field failure must then be proved
     not to be the finite-time breakdown of the original smooth solution. That imports
     a forward no-exit theorem into the contrapositive. For Silver, after same-solution
     CM-test admission, the row is consumed by admissibility failure, continuation/readout
@@ -258,17 +264,20 @@ proof_program_topology:
     solution, or showing smooth data stays in CM. That is a positive-existence/class-preservation
     reading. The pass side is already the smooth/Member(Q) side under whatever lawful
     continuation mechanism supplies it; the proof work is admitting each obstruction
-    to the CM test and deriving the fail side as a concrete Part/Field failure
-    supporting Exit(Q):=not Member(Q).
+    to the CM test and deriving the fail side as a concrete Part/Field failure supporting
+    Exit(Q):=not Member(Q).
   source_reserve_birth_rule: 'The May 25 source-reserve burst is support, not live
     frontier: `ReserveCreationCharge.A` remains a positive supplier / charge-ledger
     subprimitive, `ActiveHeightFluxTrichotomy.A` remains conditional face-routing
     support after the zero-first-moment visibility veto, and `SourceReserveBirthCharge.A
-    / RetainedPositiveScaleNativeReserveBirthCharge.A` is support-only after the Field-certification
+    / RetainedPositiveScaleNativeReserveBirthCharge.A` is support-only after the Pack-out-of-CM
     source-reserve face audit. The exact classification is: paid same-ledger service
     is pass-side nonvacuity; an admitted finite terminal obstruction is CM-test admission
-    only; selected unpaid infinite donor-refill lands first at `not Pack_Q`, while zero-radius terminal residue is Part-side when the same-solution original participation record remains and true packet/window evidence only when that record is absent; retained positive-scale first-created native donor-square
-    reserve surplus remains supplier quarantine. Its honest next burden is `RetainedPositiveScaleNativeReserveBirthCharge.A
+    only; selected unpaid infinite donor-refill remains Field-window support, while
+    zero-radius terminal residue lands Part-side when a same-solution original participation
+    record remains and packet/window evidence only when that record is absent; retained
+    positive-scale first-created native donor-square reserve surplus remains supplier
+    quarantine. Its honest next burden is `RetainedPositiveScaleNativeReserveBirthCharge.A
     / TerminalReserveFirstAppearanceCharge.A` as supplier-quarantined positive Pack
     support, promotable only by same-ledger payment or CM-test admission plus first
     Part/Field failure.'
@@ -299,16 +308,16 @@ proof_program_topology:
   proof_mode: branch_native_supplier_or_cm_landing_support
   governing_primitive: source-wall-root-after-reconcile
   propagated_object: source-reserve or Field-face residual support, depending on branch
-  promotion_gate: fresh CM-necessity audit plus typed bridge into Part/Field
-    before it can become live
+  promotion_gate: fresh CM-necessity audit plus typed bridge into Part/Field before
+    it can become live
   current_role: historical/support grouping; not a current release blocker under direct-live
     clearance
 - program_id: receiver-source-readout
   proof_mode: forward_positive_support_and_endpoint_readout
   governing_primitive: retained/averaged receiver, source ledger, endpoint readout
   propagated_object: receiver/source/read-cover/end-point packets
-  promotion_gate: typed bridge into Part/Field witnesses, or explicit downstream
-    readout after the CM witness certificate
+  promotion_gate: typed bridge into Part/Field witnesses, or explicit downstream readout
+    after the CM witness certificate
   current_role: support program, not interchangeable with the CM primitive
 - program_id: export-readout-branches
   proof_mode: downstream_readout_or_export
@@ -339,78 +348,74 @@ proof_program_topology:
   current_role: infrastructure repair; not mathematical progress unless it materializes
     theorem work
 open_root_group:
-  group_id: release-exactness-and-manuscript-refresh
-  group_label: Terminal time-face new-production frontier after the annular residual
-    specific case exhaustion.
+  group_id: gold-l1-coupled-storage-wall
+  group_label: Gold L1 same-parent active-capacity/full-exchange storage wall.
   live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
   top_level_release_blocker: false
   not_single_path: true
   not_single_proof_mode: true
-  dashboard_boundary: The installed Clay terminal-witness CM chain remains the proof
-    grammar, and this single referee gate is now recorded with Gold/Silver paths.
-    Gold is the forward-positive supplier attempt audited to TerminalTimeFaceAntiAtom.A
-    / TerminalNewProductionTheorem_{B_ASAC}.A. Silver names the accepted exhaustive
-    CM contrapositive branch-table resolution. Do not narrate this as a still-open
-    Gold-side child, and do not split Gold and Silver into separate gates.
+  dashboard_boundary: The installed Clay terminal-witness CM chain remains proof grammar,
+    but it does not close the forward Gold L1 source wall. The current open object
+    is the noncircular same-parent coupled active-capacity/full-exchange storage theorem
+    for the original parent packet before child clipping. Terminal anti-atom, source-refill,
+    native-reserve, and scalar sum displays are readouts or countertests unless they
+    prove that coupled parent-storage object.
   exact_live_theorem_grade_burden: &1
-    status: cm-referee-gate-passed-with-gold-silver-paths
-    burden_id: release-exactness-and-manuscript-refresh
-    proof_mode: single_referee_gate_with_gold_silver_paths
-    target_object: CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A
-    theorem_grade_statement: 'The original acceptance gate had treated Gold forward-positive
-      proof as the only acceptance mode. The corrected single gate accepts Silver
-      as the CM contrapositive discharge: once the alleged terminal witness is admitted
-      to the CM test, the exhaustive branch table consumes every admissible branch
-      by admissibility failure, continuation/readout recovery, or a concrete Part/Field
-      Part/Field failure supporting Exit(Q):=not Member(Q).'
-    active_container: release-exactness-and-manuscript-refresh
+    status: gold-l1-open-coupled-storage-wall
+    burden_id: gold-l1-coupled-storage-wall
+    proof_mode: gold_forward_positive_source_wall
+    target_object: NoncircularSameParentActiveCapacityFullExchangeStorage.A
+    theorem_grade_statement: Prove, from the original parent packet before child clipping,
+      a noncircular same-parent coupled active-capacity/full-exchange storage theorem.
+      The theorem must either establish a simultaneous strict feedback inequality
+      for the active-capacity/full-exchange loop or prove one face independently enough
+      to break the TFE2748B.1548/TFE2748B.1555 self-feeding chain.
+    active_container: gold-l1-coupled-storage-wall
     respawn_cell:
     respawn_stage:
-    allowed_input_boundary: Gold and Silver are acceptance paths inside one gate.
-      Gold names the tried forward-positive supplier path to TerminalTimeFaceAntiAtom.A
-      / TerminalNewProductionTheorem_{B_ASAC}.A; Silver names the accepted exhaustive
-      CM contrapositive branch-table resolution.
-    nearest_wrong_substitution: Treating the gate as cleared only by Gold forward-positive
-      proof, or splitting Gold and Silver into separate gates instead of one gate
-      with Gold/Silver paths.
+    allowed_input_boundary: The original parent packet and coupling come first. Dyadic,
+      atom, child, native-reserve, source-refill, terminal anti-atom, and Pack anti-concentration
+      statements are typed readouts, countertests, or sufficient-but-unproved entrances
+      unless they imply the coupled same-parent storage theorem.
+    nearest_wrong_substitution: Treating a scalar sum, terminal anti-atom, native-reserve
+      ledger, source-refill exclusion, Pack anti-concentration statement, or a linear
+      TFE2748B.1548/TFE2748B.1555 chain as the physical source object or as Gold closure.
     accepted_replacement:
-      patch: CMContrapositiveRefereeInventoryPatch.A
-      theorem: ExhaustiveContrapositiveFiniteBreakdownExclusion.A
-      single_gate_paths:
-        gate_model: one referee gate with Gold and Silver acceptance paths
-        accepted_path: Silver
-        anti_smuggling_rule: The gate accepts either Gold proof or the Silver exhaustive
-          CM contrapositive replacement. It records accepted_path only; Gold is not
-          the only acceptance mode.
+      theorem: NoncircularSameParentActiveCapacityFullExchangeStorage.A
+      audit_surfaces:
+      - problems/navier-stokes/theorem-construction/mpp-forward-gold-summation-type-custody-audit-20260702.md
+      - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-coupled-storage-loop-audit-20260702.md
+      anti_smuggling_rule: No generated, manuscript, or theorem-packet surface may
+        call the Gold L1 wall closed until the coupled parent-storage theorem is proved.
   cm_exit_discipline: A theorem surface is live for the CM program only when it is
     generated by negating the installed continuation packet, or when a checked bridge
-    lands it in a typed Part or Field obligation. The H^s readout bridge is
-    proof-licensing work from CM to continuation, not a fourth CM failure face. Imagined
-    analytic pathologies and positive source-control estimates are diagnostic language
-    until that continuation-slot landing is proved.
-  witness_face_overlap_boundary: Part and Field are overlapping witness axes,
-    not mutually exclusive doors. Pack records fixed-box flux / usable common packing
+    lands it in a typed Part or Field obligation. The H^s readout bridge is proof-licensing
+    work from CM to continuation, not a fourth CM failure face. Imagined analytic
+    pathologies and positive source-control estimates are diagnostic language until
+    that continuation-slot landing is proved.
+  witness_face_overlap_boundary: Part and Field are overlapping witness axes, not
+    mutually exclusive doors. Pack records fixed-box flux / usable common packing
     coordinates; Part records the same pressure-viscosity participation carrier; Field
     records neighboring tower coherence. A finite-time material distortion event is
     Pack-facing but its strain/tower mechanism must be audited against Field or the
     row-independent tower-amplitude slot. Under the terminal same-fluid reading, do
     not advertise a formal "Pack-only", "Part-only", or "Field-only" row as an ontological
     scenario until its real terminal realization has been tested against the implication
-    pressure among Part and Field, and the Dead/Jump/Blown readouts.
+    pressure among Pack, Part, Field, and the Dead/Jump/Blown readouts.
   part_field_resolution: A retained-Part Field landing is branch-local proof bookkeeping,
-    not a surviving terminal ontology row. It means Part_{N,Q} plus Field-window evidence have been
-    licensed enough to keep the selected obstruction inside the same NS packet, so
-    the first unspent CM Part/Field is Field_{N,r,Q}. Under the stronger terminal same-fluid
-    ontology, a realized coherence break also defeats terminal participation and collapses
-    to Pack + not-Part + not-Field unless the note explicitly says Part is only a
-    retained hypothesis/formal license.
+    not a surviving terminal ontology row. It means Part_{N,Q} plus Field-window evidence
+    have been licensed enough to keep the selected obstruction inside the same NS
+    packet, so the first unspent CM Part/Field is Field_{N,r,Q}. Under the stronger
+    terminal same-fluid ontology, a realized coherence break also defeats terminal
+    participation and collapses to Pack + not-Part + not-Field unless the note explicitly
+    says Part is only a retained hypothesis/formal license.
   part_field_resolution_note: problems/navier-stokes/theorem-construction/mpp-field-failure-to-part-collapse-20260522.md
   active_ontological_audit:
     status: field-to-part-collapse-resolved-pack-blown-side-active
     note: problems/navier-stokes/theorem-construction/mpp-part-field-ontological-collapse-question-20260517.md
-    question: 'Determine which formal Part/Field witness rows have real terminal
-      same-fluid realizations, and which collapse into overlapping endpoint readouts
-      once Pack is carrier geometry, Part is terminal pressure-viscosity/tower participation,
+    question: 'Determine which formal Part/Field witness rows have real terminal same-fluid
+      realizations, and which collapse into overlapping endpoint readouts once Pack
+      is carrier geometry, Part is terminal pressure-viscosity/tower participation,
       and Field is neighboring tower coherence. For each binary row, ask which cause
       applies among Blown, Dead, and Jump; tell the honest same-fluid story; then
       collapse the row if that story necessarily breaks another face. Current audit
@@ -423,16 +428,17 @@ open_root_group:
       decide the ontology before the plain failure story is tested.
   may15_retained_field_audit:
     status: receiver-escape-bridge-installed-three-notes-quarantined-as-conditional-support
-    bridge_effect: REE.C is the only promoted May 15 bridge; on retained Part plus Field-window evidence
-      it sends receiver escape to not Field as branch-local retained-hypothesis bookkeeping,
-      while missing Pack or Part hypotheses land earlier in those witnesses.
+    bridge_effect: REE.C is the only promoted May 15 bridge; on retained Part plus
+      Field-window evidence it sends receiver escape to not Field as branch-local
+      retained-hypothesis bookkeeping, while missing Pack or Part hypotheses land
+      earlier in those witnesses.
     note_classification:
     - path: problems/navier-stokes/theorem-construction/mpp-receiver-escape-endpoint-reduction-20260515.md
       class: licensed narrow CM witness bridge into Field
-      role: receiver escape is not a fourth branch; under retained Field-window evidence and Part it
-        is a Field endpoint in the branch-local proof sense, while terminal ontology
-        collapses a realized Jump to Pack+not-Part+not-Field and missing hypotheses
-        are Pack or Part exits.
+      role: receiver escape is not a fourth branch; under retained Field-window evidence
+        and Part it is a Field endpoint in the branch-local proof sense, while terminal
+        ontology collapses a realized Jump to Pack+not-Part+not-Field and missing
+        hypotheses are Pack or Part exits.
     - path: problems/navier-stokes/theorem-construction/mpp-retained-field-exit-source-receiver-reduction-20260515.md
       class: quarantined conditional Field-row support
       role: retained Field exit pushes down to receiver escape, lower-carrier supplier
@@ -493,11 +499,11 @@ open_root_group:
       the governing CM boundary: finite Zeno ancestry packets may be legal, but the
       terminal zero-radius residue is not automatically a Pack-only endpoint after
       PackOutOfCMSmoothnessCertification.A. When the zero-radius atom is still the
-      same original-NS terminal source/pressure-viscosity participation record, it
-      is tested first by the original Navier-Stokes participation law as zero heat-time participation / Part-side
-      participation failure. It remains true packet/window evidence only when no same-solution
-      original participation record survives and the defect is solely absence of
-      a usable carrier/window/readout. NoPersistentUnpaidPositiveRadiusAncestry.A
+      same original-NS terminal source/pressure-viscosity participation record, the
+      original Navier-Stokes participation law is applied first as zero heat-time
+      participation / Part-side participation failure. It remains true packet/window
+      evidence only when no same-solution original participation record survives and
+      the defect is solely absence of a usable carrier/window/readout. NoPersistentUnpaidPositiveRadiusAncestry.A
       closes the positive-radius retained tail by the shared-participation strip balance.
       BASACTerminalAtomCMFaceLabeling.A, RetainedPackFieldNoIncomingParticipationFlux.A,
       and BASACLiouvilleCMParticipationBridge.A are finite-ancestry accounting and
@@ -508,8 +514,8 @@ open_root_group:
       not required terminal Zeno CM burdens and may not respawn as the next CM target
       unless the proof program is explicitly switched.'
     cm_pack_legality_consequence: 'The terminal Zeno/B_ASAC zero-thickness endpoint
-      is settled only after the Pack-out-of-CM audit: same original-NS terminal
-      atoms land in Part-side dead/participation failure, while Field-window support non-survival
+      is settled only after the Pack-out-of-CM audit: same original-NS terminal atoms
+      land in Part-side dead/participation failure, while Field-window support non-survival
       is reserved for cases with no surviving original participation record. H1-H6,
       ACT.KX, endpoint readout, and positive source-control material remain quarantined
       support rather than upstream proof inputs.'
@@ -549,11 +555,11 @@ open_root_group:
   - target_id: scalecriticaltreecarleson-a
     label: ScaleCriticalTreeCarleson.A
     proof_mode: direct_carleson_source_wall
-    role: Field smoothness-certification support target; donor-refill ancestry belongs to Pack,
-      so Pack_Q implies the scale-critical donor-refill Carleson bound and selected
-      unpaid infinite donor-refill failure is Field-window evidence, not CM exit / (Pack, packing-detached).
-      No Field/Jump conversion is needed for this landing; direct supplier theorem
-      remains separate
+    role: Field smoothness-certification support target; donor-refill ancestry belongs
+      to Pack, so Pack_Q implies the scale-critical donor-refill Carleson bound and
+      selected unpaid infinite donor-refill failure is Field-window evidence, not
+      CM exit / (Pack, packing-detached). No Field/Jump conversion is needed for this
+      landing; direct supplier theorem remains separate
   - target_id: zeno-rigid-class-pair
     label: ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A
     proof_mode: zeno_rigidity_alternate
@@ -568,9 +574,10 @@ open_root_group:
     label: Terminal zero-radius Zeno Part-first boundary
     proof_mode: terminal_zeno_pack_legality_boundary
     role: CM-facing boundary after finite Zeno ancestry accounting; the terminal zero-radius
-      residue lands Part-side when it keeps the same original-NS participation
-      record, and packet/window evidence only when that record is absent; LPSC/PRD/Zeno rigid-class
-      language is downstream no-pulse/source-control support outside this CM endpoint.
+      residue lands Part-side when it keeps the same original-NS original participation
+      record, and packet/window evidence only when that record is absent; LPSC/PRD/Zeno
+      rigid-class language is downstream no-pulse/source-control support outside this
+      CM endpoint.
   - target_id: sourcepulse-terminal-zeno-operational-collapse
     label: LocalPositiveSourceCarleson.A
     proof_mode: operational_positive_source_carleson_attack
@@ -586,13 +593,14 @@ open_root_group:
       positive supplier program, but they are support-only with no proof force for
       the CM contrapositive terminal Zeno endpoint. They do not create a terminal
       CM burden after the zero-radius residue has been sorted by the Pack-out-of-CM
-      audit as Part-first participation failure or true failed packet-window carrier failure.
+      audit as Part-first participation failure or true failed packet-window carrier
+      failure.
   - target_id: retained-face-amplitude-gain
     label: RetainedFaceAmplitudeGain.A
     proof_mode: retained_amplitude_face_boundary
-    role: conditional Part/Field boundary; failure is not PackGainLedger.A or not PartEnvelopeAmplitudeConservation.A
-      unless those inputs are supplied and the remainder returns to the source-wall
-      Field/Zeno diagnostics
+    role: conditional Part/Field boundary; failure is not PackGainLedger.A or not
+      PartEnvelopeAmplitudeConservation.A unless those inputs are supplied and the
+      remainder returns to the source-wall Field/Zeno diagnostics
   - target_id: active-height-flux-trichotomy
     label: ActiveHeightFluxTrichotomy.A / LowStrainBVCharge.A
     proof_mode: typed_face_routing_subset
@@ -616,12 +624,12 @@ open_root_group:
     role: readout presentation requiring direct accountability before use as a target
 exact_live_theorem_grade_burden: *1
 release_or_respawn_consequence:
-  disposition: gate-cleared-review-refresh-required
-  next_cell_type: review-refresh
-  next_stage: submission-and-pdf-readiness-refresh
-  next_action: Refresh downstream review/submission mirrors from the accepted single-gate
-    CM referee resolution; do not respawn TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A
-    as the active blocker.
+  disposition: blocked
+  next_cell_type: theorem-upgrade
+  next_stage: gold-l1-source-theorem
+  next_action: Prove the noncircular same-parent coupled active-capacity/full-exchange
+    storage theorem for the original parent packet before child clipping before restoring
+    downstream release or submission readiness.
 forward_positive_surface_quarantine:
   status: active-no-proof-authority
   index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
@@ -644,8 +652,9 @@ non_merge_rules:
 - rule_id: positive-vs-cm
   statement: Positive smoothness control and every surface indexed in the forward-positive
     quarantine ledger are not the CM contrapositive unless a named bridge proves membership,
-    a Silver witness landing in Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence, or the
-    outside-CM participation-field/window original-participation audit needed before not Pack_Q can be spent.
+    preserves the original Navier-Stokes participation-law diagnosis on the live object,
+    then localizes any admitted witness failure in Part_{N,Q} or Field_{N,r,Q}; Pack_Q
+    only as Field window evidence.
 - rule_id: fixed-nu-transfer-vs-ns-smoothness
   statement: Fixed-nu Euler-to-NS transfer compares two equations on the same datum
     and interval; it does not prove Euler smoothness or stand-alone NS smoothness.
