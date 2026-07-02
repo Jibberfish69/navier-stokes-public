@@ -9206,3 +9206,98 @@ Hodge-Stokes packet, four-body routing, compactness/no-loss, and lossless
 rigidity only after it supplies a same-parent square budget or bounded-below
 no-waste Lyapunov law before clipping; packet preservation alone would repeat
 the old category error.
+
+## 70. Tail-aligned correction to the full-square supplier
+
+Section 69 records a valid sufficient route, but `(TFE2748B.581)' is stronger
+than the storage line itself asks for.  The tail identity in Section 67 does
+not use the whole positive square of the full shell-current.  It uses only the
+part of that current that is aligned with the currently retained high-shell
+tail.
+
+Define the full-packet tail-aligned current
+
+\[
+\mathcal A_{P,N}^{tail,HS}(W)
+:=
+\int_W\sum_{k>N}
+2^{-k}T_k(t)
+\left(
+\mathsf{Scal}_{>k,P}^{HS}(\mathcal K_{>k,P}^{HS})(t)
+\right)_+dt .
+\tag{TFE2748B.585}
+\]
+
+By `(TFE2748B.578)' and paid route comparison,
+
+\[
+\mathcal I_{P,N}^{tail}(W)
+\le
+\mathcal A_{P,N}^{tail,HS}(W)
++Paid(W)+Stop(W).
+\tag{TFE2748B.586}
+\]
+
+Thus the exact current-specific source theorem needed by `(TFE2748B.563)' is
+
+\[
+\boxed{
+\mathcal A_{P,N}^{tail,HS}(W)
+\le
+\varepsilon\nu\int_WD_N(t)\,dt
++C_\varepsilon(u_0)2^{-2\delta N}
++Paid(W)+Stop(W).
+}
+\tag{TFE2748B.587}
+\]
+
+The square route `(TFE2748B.581)' implies `(TFE2748B.587)' by the Cauchy
+argument of Section 68 together with the tail storage identity.  Conversely,
+`(TFE2748B.587)' is the sharper one-sided form: transverse or cancelling
+full-packet current may contribute to the square in `(TFE2748B.579)' without
+opening retained tail capacity.  Counting that transverse square as Gold
+source would recreate the earlier mistake of turning packet custody into
+one-sided production.
+
+The exact relation is therefore
+
+\[
+\boxed{
+\texttt{DerivativeShellFullPacketSquareNoWaste.A `(TFE2748B.581)'}
+\Longrightarrow
+\texttt{DerivativeShellTailAlignedNoWaste.A `(TFE2748B.587)'}
+\Longrightarrow
+\texttt{TailInjectionWorkCarleson.A `(TFE2748B.563)'}.
+}
+\tag{TFE2748B.588}
+\]
+
+This correction folds the derivative shell-current branch back into the
+one-sided aligned-current theorem of Sections 43--46.  In the tail coordinate,
+the retained high-shell tail \(T_k\) is the selected active density, and
+`(TFE2748B.585)' is the positive part of the same-parent current paired with
+that density.  The general aligned-current estimate `(TFE2748B.324)' and its
+parent comparison form `(TFE2748B.351)' therefore imply `(TFE2748B.587)' after
+the full-packet representation `(TFE2748B.578)' and paid route terms are
+inserted.
+
+So the noncircular source map is
+
+\[
+\boxed{
+\texttt{ParentComparisonPositiveSurplus.A `(TFE2748B.351)'}
+\Longrightarrow
+\texttt{DerivativeShellTailAlignedNoWaste.A `(TFE2748B.587)'}
+\Longrightarrow
+\texttt{SourceSquareReservePayment.A}
+\Longrightarrow
+\texttt{OriginalCriticalCapacityVariation.A.}
+}
+\tag{TFE2748B.589}
+\]
+
+This also explains why a direct attack on `(TFE2748B.581)' keeps stalling:
+full-square current control asks to pay current components that the storage
+line does not read as positive action.  The precise producer remains the
+one-sided parent comparison/no-waste law for the aligned same-parent current,
+not an all-direction full-current square estimate.
