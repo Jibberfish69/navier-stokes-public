@@ -14,6 +14,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-superheat-ratio-tail-moment-reduction-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-positive-production-witness-cover-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-witness-cover-active-density-source-wall-unification-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md
 completion_truth: >-
   This note consolidates the candidate charge branches into one strict reduction.
   It proves that Gold peak control follows if every thin signed-height record
@@ -200,8 +201,12 @@ The current repo has:
    \(D\)-service;
 6. a source-wall unification showing that this witness cover is the record-local
    projection of the before-clipping parent active-density/full-exchange source
-   wall, not a separate branch currency.
+   wall, not a separate branch currency;
+7. a proof pass showing that this projection requires signed-height \(P_+dt\)
+   trace admission into the parent active source plus noncircular strict
+   same-parent storage.
 
 The live Gold work is now exactly the branch-exhaustion theorem plus the missing
-event-local active-density witness cover and finite-budget proofs for the branch
-charges actually used.
+event-local active-density witness cover, whose producer face is signed-height
+trace admission into strict same-parent active storage, and finite-budget proofs
+for the branch charges actually used.
