@@ -308,11 +308,11 @@ TFE2748B.1555 source object:
 \]
 
 The arrow in `(RMS.19)' is a source target, not a sequential proof chain. The
-coupled-storage loop audit applies here: this record-local object must be proved
-as an independent original-packet face, or as one simultaneous strict coupled
-storage inequality with feedback spectral radius below one. Recycling
-preallocated critical-source storage through full-exchange storage and back into
-itself is still circular.
+coupled-storage loop audit applies here, and Section 7 below adds the missing
+record-admission row. The admissible record-level proof shape is one
+original-packet coupled inequality with feedback spectral radius below one;
+recycling preallocated critical-source storage through full-exchange storage and
+back into itself is still circular.
 
 The physical story is the same as before but less aliased. The record meter does
 not ask for a new atom theorem, a new endpoint theorem, or a new Duhamel
