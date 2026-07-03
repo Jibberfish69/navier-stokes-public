@@ -11,6 +11,14 @@ the sharpest operator-level debt remaining after:
 It does not claim the theorem is proved. Its job is to replace broad route
 language by one concrete paradifferential target.
 
+Update after the signed-height record-menu reentry: the low-high commutator
+estimate is not the whole analytic burden. The physical issue is the full
+pressure-Hodge/root projector following one same-fluid high packet through a
+low coefficient. Once the exact projector has a dyadic parametrix with an
+order-minus-one shell remainder, the commutator estimate is standard
+order-zero/low-high calculus. The still-unproved analytic input is therefore the
+exact dyadic parametrix for \(\Pi_G^{ex}\) on the retained packet class.
+
 ## Operator
 
 Let
@@ -331,7 +339,7 @@ The model proof of `(WEP.2')` has three steps.
 
 ### Step 1. Paradifferential principal part
 
-Under `(WEP.A1)`-(`WEP.A2)` one may write, shellwise,
+The load-bearing input is the exact-projector dyadic parametrix:
 
 ```math
 \Pi_G^{ex}\Delta_j
@@ -344,6 +352,12 @@ R_{G,j},
 \le
 C_G\,2^{-j}\|f\|_{L^2_a}.
 \tag{WEP.2m1}
+```
+
+Call this input
+
+```text
+ExactProjectorDyadicParametrix.A
 ```
 
 Here `T_{p_G}` is the paradifferential operator with symbol `p_G(a,\xi)` and
