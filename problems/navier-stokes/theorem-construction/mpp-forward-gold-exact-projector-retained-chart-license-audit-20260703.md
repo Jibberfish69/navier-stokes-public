@@ -170,6 +170,15 @@ escape to be legal, stopped, Pack/Part/Field-routed, or material-service paid
 before record readout. The repo has narrow payment theorems, but not the full
 WEP escape payment theorem.
 
+The metric half is sharpened further in
+`mpp-forward-gold-retained-record-edge-metric-symbol-control-audit-20260703.md`.
+There the ellipticity component is separated from the real open input:
+`RetainedRecordEdgeC11MetricTowerOrExit.A`, the theorem that full spatial
+\(C^{1,1}\) / symbol-seminorm control of \(G=AA^\top\) is either supplied by the
+same finite material-frame derivative tower or fails through a pre-readout paid
+exit. Thus ellipticity is support; spatial metric twisting remains the metric
+symbol wall.
+
 ## 4. Obstruction state
 
 The checked sources do not yet prove `(RCL.1)` for arbitrary Gold record-menu
