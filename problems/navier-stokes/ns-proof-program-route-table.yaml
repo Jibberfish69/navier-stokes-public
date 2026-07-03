@@ -8,26 +8,35 @@ identity:
     propagated object, target chain, and bridge requirements so progress in one program
     is not silently treated as closure in another.
 primary_objective:
-  status: cm-witness-bridge-required
-  proof_polarity: contrapositive_class_membership
-  theorem_program: Prove the CM contrapositive primitive `Exit(Q;O_NS^work):=not Member(Q;O_NS^work)`
-    through a first class-exit witness failure of Part or Field; arbitrary `not CM=>not
-    Member` is not installed.
-  cm_witness: CM_{N,r,Q} means Pack_Q plus Part_{N,Q} plus Field_{N,r,Q} on the same-fluid
+  status: dual-gold-silver-same-object-required
+  proof_polarity: complementary_gold_direct_and_silver_obstruction_exclusion
+  theorem_program: Every live Navier-Stokes theorem object is tracked through two
+    simultaneous proof lanes. Gold proves direct regularity / controlled evolution
+    for the shared object. Silver proves obstruction exclusion / CM class exit for
+    that same object through `Exit(Q;O_NS^work):=not Member(Q;O_NS^work)`. Neither
+    lane is a fallback for the other.
+  gold_program_status: Gold is an independent direct proof obligation, not secondary
+    supplier/readout material for Silver.
+  silver_program_status: Silver is an independent obstruction-exclusion proof obligation,
+    not a cleanup or fallback after Gold fails.
+  silver_witness: CM_{N,r,Q} means Pack_Q plus Part_{N,Q} plus Field_{N,r,Q} on the same-fluid
     family after original NS participation is already the governing ontology. Part_{N,Q}
     is the finite field-local Silver record, not the source of participation.
   sourcepulse_frontier_reading: SourcePulseCMExit.A is a source-pulse manifestation
     / branch theorem under the CM-exit grammar. SOURCE.NO-PULSE.A and AWG.A are branch-support
     suppliers for no-Jump_avg/source-pulse exclusion only; they are not the governing
     CM contrapositive primitive and cannot by themselves close Exit(Q):=not Member(Q).
-  positive_program_status: Positive or forward estimates are secondary supplier/readout
-    programs. They may install, transport, or consume Pack / Part / Field through
-    explicit bridge theorems, but they may not replace the contrapositive class-exit
-    objective.
+  positive_program_status: Positive or forward estimates are Gold-lane work when
+    they address the shared theorem object directly. They become supplier/readout
+    support only when they address a different object and require an explicit bridge.
+    They may install, transport, or consume Pack / Part / Field through explicit
+    bridge theorems, but they may not replace the Silver class-exit obligation.
 course_correction_protocol:
-  status: active-witness-bridge-custody
-  rule: Every theorem target must be typed against Exit(Q):=not Member(Q) and the
-    witness split not Part_{N,Q} or not Field_{N,r,Q} before it can count as CM closure.
+  status: active-dual-route-custody
+  rule: Every theorem target must first preserve the shared object, then record the
+    Gold direct proof obligation and the Silver obstruction-exclusion obligation.
+    A Silver result must be typed against Exit(Q):=not Member(Q) and the witness
+    split not Part_{N,Q} or not Field_{N,r,Q} before it can count as Silver closure.
   continuation_packet_generation_rule:
     status: active
     note: problems/navier-stokes/theorem-construction/mpp-continuation-packet-generated-cm-contrapositive-20260514.md
