@@ -402,8 +402,12 @@ edge. The source audit in
 `mpp-forward-gold-exact-projector-retained-chart-license-audit-20260703.md`
 classifies that license as open: current retained-chart notes supply commutator,
 same-ledger, and pressure-readout support, but they do not yet prove this
-pre-readout license for arbitrary Gold record-menu edges. The theorem is not
-closed by symbolic calculus alone.
+pre-readout license for arbitrary Gold record-menu edges. The metric-symbol
+half is sharpened in
+`mpp-forward-gold-retained-record-edge-metric-symbol-control-audit-20260703.md`:
+finite same-carrier strain supports ellipticity, while the open spatial input is
+`RetainedRecordEdgeC11MetricTowerOrExit.A`. The theorem is not closed by
+symbolic calculus alone.
 
 The symbolic reason is the first commutator term in the pseudodifferential
 composition formula. For an order-zero symbol `p\in S^0_{1,0}` and a low
