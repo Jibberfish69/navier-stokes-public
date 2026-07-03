@@ -413,6 +413,14 @@ admission row would choose the record meter first and then ask the original
 packet to pay for it afterward, which is exactly the post-selection defect in
 record form.
 
+The upstream record-net pressure test now isolates the missing admission row as
+`RecordNativeWorkMenuPreannouncement.A'. The physical input needed here is a
+parent-built menu of native work edges before record readout: retained high
+packet, low strain/current coefficient from the same velocity field, material
+window, and charge coordinate. The coupled storage matrix may absorb the
+record-aligned current only after a parent-known positive-selection reserve has
+proved that the record's positive excess came from that preannounced menu.
+
 ## 8. Current truth state
 
 Proof/support already available:
@@ -433,7 +441,8 @@ Checked obstruction:
 \[
 \text{current representation, atom pairing, endpoint admission, Duhamel
 pullback, and the TFE storage rows do not construct the record-admission row
-from signed-height work before readout.}
+from signed-height work before readout, and they do not prove the positive
+selection reserve over the preannounced native work menu.}
 \]
 
 Open producer:
