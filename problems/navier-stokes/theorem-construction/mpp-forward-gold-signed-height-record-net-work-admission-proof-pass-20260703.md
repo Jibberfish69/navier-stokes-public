@@ -543,3 +543,85 @@ show that every future positive read of that work has a preexisting address in
 the parent critical/root/endpoint/full-exchange ledger; otherwise the record
 menu exists but its positive selections still have no finite original-data
 reserve.
+
+## 11. Root-projection faithfulness is the missing entrance to the faces
+
+The attempted cases proof of `(RNW.25)' exposes a sharper entrance condition.
+The three faces in `(RNW.23)' are exhaustive only after the selected object has
+already been pulled to the parent root reserve. In the TFE notation this means
+there are root densities, such as
+
+\[
+dA_Q^{sel,+}=f_Q\,dR_P^{root},
+\qquad
+dA_{\pi Q}^{sel,+}=f_{\pi Q}\,dR_P^{root},
+\tag{RNW.27}
+\]
+
+or a retained active ledger coordinate inside \(d\Xi_P^{FE,act}\). Once
+`(RNW.27)' is available, the positive-baseline / zero-baseline / active-motion
+split is meaningful: \(f_{\pi Q}>0\) gives the log/root face,
+\(f_{\pi Q}=0<f_Q\) gives the endpoint-seed face, and retained motion goes into
+the active full-exchange face.
+
+A signed-height native work edge from `(RNW.18)' does not automatically come
+with `(RNW.27)'. It has a physical source address--high packet, low
+strain/current coefficient, material time window, and parent charge coordinate--
+but it still has to be seen faithfully by the parent pressure-Hodge/root
+critical detector. Otherwise a positive record contribution can be real work of
+the fluid while remaining invisible to the selected critical/root coordinate
+that the TFE faces store.
+
+The lower theorem is therefore:
+
+\[
+\texttt{RecordMenuRootProjectionFaithfulness.A}.
+\tag{RNW.28}
+\]
+
+For every future-positive native work edge \(e\) in the preannounced record menu,
+prove before record readout that either:
+
+\[
+\left[\int_{I_e\cap[a,b]}\omega_e\right]_+
+\le
+C_N\left(
+dA_e^{root,+}
+d\Xi_e^{FE,act}
+\right)
++Legal_e+Stop_e,
+\tag{RNW.29}
+\]
+
+with \(dA_e^{root,+}\) represented as in `(RNW.27)' on the stopped parent root
+reserve, or the edge has already left through legal/stop/source-wall material.
+Then the installed TFE face split for \(dA_e^{root,+}\), together with
+active/full-exchange admission for \(d\Xi_e^{FE,act}\), gives
+`RecordMenuCriticalFaceAdmission.A'.
+
+This is exactly where the current repo remains open. The derivative-LP bridge
+proves the native work coordinates. The terminal adjoint anchoring notes show
+that response covectors need a same-edge anchoring theorem. The older
+`ParaproductNativeSourceCapture.A' closes a retained \(L^3\) terminal
+paraproduct subburden under its branch hypotheses and alternatives, but it does
+not give root-projection faithfulness for every future-positive signed-height
+record-menu edge. The pressure-Hodge selected-source faithfulness notes name the
+analogous open mechanism: exclude selected source components that are nonzero as
+work but invisible to the parent pressure-Hodge/root detector.
+
+Thus the current strict reduction is:
+
+\[
+\texttt{RecordMenuRootProjectionFaithfulness.A}
++\texttt{TFE selected-critical face split}
+\Longrightarrow
+\texttt{RecordMenuCriticalFaceAdmission.A}
+\Longrightarrow
+\texttt{RecordNativeWorkMenuPositiveSelectionStorage.A}.
+\tag{RNW.30}
+\]
+
+This is a genuine smaller theorem, not another alias for storage. It asks for
+the physical visibility bridge from same-fluid work to parent critical/root
+currency. Once that bridge is proved, the existing positive-baseline,
+zero-baseline, and active full-exchange machinery has a lawful object to store.
