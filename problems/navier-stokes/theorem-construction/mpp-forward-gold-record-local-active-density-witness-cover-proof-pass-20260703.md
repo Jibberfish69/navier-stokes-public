@@ -284,3 +284,10 @@ In physical terms, the record may now read its positive work from a menu the sam
 fluid already built; what is still missing is the finite reserve saying that all
 future positive selections from that menu are paid by original-data same-parent
 storage.
+
+The storage pass now lowers that reserve to `RecordMenuCriticalFaceAdmission.A'
+plus the noncircular coupled storage theorem. Each future-positive native work
+edge must enter the parent positive-baseline log/root face, zero-baseline
+endpoint-seed face, or active full-exchange face before the record interval is
+used as a selector. Only after that address map exists may the witness-cover
+branch charges count the record work.
