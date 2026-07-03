@@ -11,6 +11,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-original-data-source-theorem-attack-20260701.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-meter-entropy-flux-split-same-history-capacity-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-terminal-adjoint-response-native-edge-anchoring-l3-direct-attempt-20260522.md
   - problems/navier-stokes/theorem-construction/derivative-lp-compatibility-bridge-note.md
 completion_truth: >-
@@ -252,3 +253,10 @@ Equations `(RSA.11)' and `(RSA.12)' give the finite unit charge required by the
 signed-height record criterion. Current representation, atom pairing, and
 terminal anti-atom routing are support unless they prove these two record-meter
 claims from the same Navier-Stokes packet.
+
+The entropy-flux split reduction
+`mpp-forward-gold-record-meter-entropy-flux-split-same-history-capacity-reduction-20260703.md`
+now lowers the second claim further. The reversible pressure/Hodge/self-advection
+part of \(dQ^{align}\) is same-parent entropy flux and support; the remaining
+producer is record selected-meter same-history capacity with strict Fisher /
+full-exchange margin, together with record parent-adjoint meter admission.
