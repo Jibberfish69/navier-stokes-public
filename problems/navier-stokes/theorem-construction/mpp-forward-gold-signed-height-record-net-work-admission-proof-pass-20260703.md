@@ -213,3 +213,26 @@ on parent-native edges by the algebraic split, anchored to the actual same-fluid
 high packet and low strain/current coefficient, and spent with a
 scale-normalized same-parent storage budget. The algebraic split is support; the
 edge anchoring and spend are the theorem.
+
+## 6. Lowered source form
+
+The follow-up reduction
+`mpp-forward-gold-record-net-work-selected-meter-aligned-current-reduction-20260703.md`
+lowers `(RNW.9)' into the parent-meter language already isolated by the TFE2748B
+storage surfaces. After a selected meter is pulled into the parent adjoint, the
+repo already has same-parent atomization and current-representation support. The
+remaining theorem is not raw edge attachment; it is record parent-adjoint meter
+admission plus one-sided aligned-current/Fisher domination for that meter.
+
+In short:
+
+\[
+\texttt{RecordNetWorkNativeEdgeSpend.A}
+\Leftarrow
+\texttt{RecordWorkParentAdjointAlignedCurrentDomination.A}.
+\tag{RNW.10}
+\]
+
+This is still open. It identifies the next source theorem more sharply: the
+positive anti-gradient current that creates selected record entropy must be
+absorbed by parent Fisher dissipation and paid packet motion before clipping.
