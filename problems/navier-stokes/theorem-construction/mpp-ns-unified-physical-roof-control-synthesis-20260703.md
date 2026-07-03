@@ -317,6 +317,15 @@ TFE2748B storage work and the new signed-height record work are one physical
 story: original same-fluid packet, parent-known source before child clipping,
 record-local \(P_+\) witnesses, finite branch charges, peak control for \(H(t)\).
 
+The active-density proof pass is installed in
+`mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md`.
+It sharpens that story at the first nonconsumer arrow: the actual signed-height
+\(P_+dt\) trace must be admitted to the parent active source before clipping, and
+that source must carry noncircular strict same-parent storage. Storage without
+trace admission budgets a source measure that may not be the record production;
+trace admission without storage localizes the record production without an
+original-data finite budget.
+
 ## 9. Control consequence
 
 The repo should judge future work from this roof before writing or accepting any
