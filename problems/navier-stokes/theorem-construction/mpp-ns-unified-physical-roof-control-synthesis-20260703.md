@@ -19,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-peak-control-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-upcrossing-criterion-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-upcrossing-same-fluid-charge-audit-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-thin-record-upcrossing-production-obstruction-20260703.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -281,6 +282,14 @@ Schur-thin nonretained payment, and superheat acceleration/storage. The remainin
 noncircular theorem is `RecordUpcrossingSameFluidCharge.A`: every thin signed
 critical-height record upcrossing must localize into one of those finite-budget
 same-fluid charges.
+
+The direct scalar test
+`mpp-forward-gold-thin-record-upcrossing-production-obstruction-20260703.md`
+adds the first forced lower edge: a record upcrossing from \(\lambda\) to
+\(2\lambda\) forces \(\int D(t)\,dt\gtrsim\lambda^{1/2}\) on that upcrossing.
+This is same-fluid critical service, but not an original-data finite budget. So
+the active proof burden is the event-local conversion from forced critical
+service into a finite same-fluid charge.
 
 ## 9. Control consequence
 
