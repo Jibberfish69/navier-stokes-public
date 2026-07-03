@@ -1,10 +1,10 @@
 ---
 theorem_id: forward-gold-record-meter-entropy-flux-split-same-history-capacity-reduction-20260703
-status: strict-reduction-record-meter-capacity-open
+status: strict-reduction-record-active-full-exchange-storage-open
 created: 2026-07-03
 problem: navier-stokes
 route: forward-gold-signed-critical-height-restart
-logical_landing_node: RecordMeterSameHistoryCapacityReduction.A
+logical_landing_node: RecordMeterActiveFullExchangeStorageReduction.A
 source_surfaces:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/source-frontier.yaml
@@ -17,9 +17,10 @@ completion_truth: >-
   This is a strict reduction, not Gold closure. It projects the TFE2748B
   entropy-flux split onto the signed-height record-meter problem. The reversible
   pressure/Hodge/self-advection aligned current is same-parent entropy flux
-  support. The remaining noncircular producer is record selected-meter
-  same-history capacity with strict Fisher/full-exchange margin, plus record
-  parent-meter admission.
+  support. The same-history capacity name is now back-substituted through the
+  current TFE2748B source chain to record parent-adjoint meter admission plus the
+  record-local active-transit/full-exchange parent storage object represented by
+  TFE2748B.1393 and TFE2748B.1555.
 ---
 
 # Record-meter entropy-flux split / same-history capacity reduction
@@ -208,7 +209,8 @@ For every thin signed-height record upcrossing, prove:
 1. record parent-adjoint meter admission, namely `(RMS.2)' from the same
    signed-height record work;
 2. record selected-meter same-history capacity, namely `(RMS.11)' or equivalently
-   `(RMS.12)'--`(RMS.13)' for the admitted normalized record meter.
+   `(RMS.12)'--`(RMS.13)' for the admitted normalized record meter, with the
+   current deepest back-substitution in Section 6 below.
 
 Then `(RMS.10)' and `(RMS.11)' give
 
@@ -240,21 +242,96 @@ Thus the strict chain is:
 \tag{RMS.15}
 \]
 
-## 6. Current truth state
+## 6. Deepest installed back-substitution
+
+The current TFE2748B source chain lowers the same-history capacity name again.
+After raw pressure-Hodge atom attachment, endpoint admission, bounded detector
+projection, reversible entropy-flux pairing, retained Duhamel-Hodge pullback,
+route, legal, stop, and paid leakage are removed, the selected-critical price
+defect is one same parent active full-exchange object.
+
+In the parent ledger notation, this object is the construction of
+
+\[
+d\Xi_P^{FE,act}
+=
+d\Xi_P^{root}
++d\Xi_P^{Ent}
++d\Xi_P^{tower}
++d\Xi_P^{LH}
++d\Xi_P^{route}
++dPaid_P
+\tag{RMS.16}
+\]
+
+from the original coupled packet before child clipping, with active-transit
+projections
+
+\[
+\begin{aligned}
+d\mu_P^{Ent}
+&\le C_Nd\Xi_P^{Ent}+dPaid_P,\\
+d\mathfrak L_{4B,N}+a\,dA_{4B,N}^{tower,+}
+&\le C_Nd\Xi_P^{tower}+\theta_A d\Omega_P^{gen}+dPaid_P,\\
+d\mathcal J_N
+&\le C_Nd\Xi_P^{LH}+dPaid_P,
+\end{aligned}
+\tag{RMS.17}
+\]
+
+and strict no-self-feeding storage
+
+\[
+d\Omega_P^{gen}\le C_Nd\Xi_P^{FE,act}+dPaid_P,
+\qquad
+d\Xi_P^{FE,act}
+\le
+-dM_P^{FE,act}
++d\Theta_P^0
++\theta_{FE}d\Omega_P^{gen}
++dPaid_P,
+\qquad
+C_N(\theta_A+\theta_{FE})<1.
+\tag{RMS.18}
+\]
+
+This is exactly the record-level projection of the TFE2748B.1393 /
+TFE2748B.1555 source object:
+
+\[
+\texttt{RecordActiveTransitFullExchangeParentStorage.A}
+\Longrightarrow
+\texttt{RecordSelectedMeterSameHistoryCapacity.A}.
+\tag{RMS.19}
+\]
+
+The physical story is the same as before but less aliased. The record meter does
+not ask for a new atom theorem, a new endpoint theorem, or a new Duhamel
+identity. It asks the original parent packet to build one active full-exchange
+ledger that contains root generator motion, entropy/entry thickness,
+pressure-Hodge/tower partner current, low-high first-entry material, and routed
+defects, then to deplete that ledger with strict margin before the record is
+read.
+
+## 7. Current truth state
 
 Proof/support already available:
 
 \[
-\text{reversible pressure/Hodge/self-advection current}
+\begin{array}{c}
+\text{reversible pressure/Hodge/self-advection current,}\\
+\text{raw same-parent pressure-Hodge atom attachment,}\\
+\text{endpoint admission, bounded detector projection, and retained pullback}
+\end{array}
 \Longrightarrow
-\text{same-parent entropy-flux reserve pairing.}
+\text{consumer support below the record meter.}
 \]
 
 Checked obstruction:
 
 \[
-\text{local sign or current representation alone does not prove same-history
-capacity.}
+\text{current representation, atom pairing, endpoint admission, and Duhamel
+pullback do not prove the strict active full-exchange margin.}
 \]
 
 Open producer:
@@ -263,13 +340,14 @@ Open producer:
 \boxed{
 \texttt{RecordParentAdjointMeterAdmission.A}
 +
-\texttt{RecordSelectedMeterSameHistoryCapacity.A}.
+\texttt{RecordActiveTransitFullExchangeParentStorage.A}.
 }
-\tag{RMS.16}
+\tag{RMS.20}
 \]
 
 The physical reading is clean: a record rise gives net work; the parent must
 announce the normalized record meter before readout; reversible transport only
 rearranges that meter; the non-reversible selected-meter motion must be paid by
-Fisher/full-exchange depletion in the same original packet. That is the
-noncircular object below aligned-current/Fisher domination.
+one active full-exchange ledger in the same original packet, with strict
+no-self-feeding margin. That is the current noncircular object below
+aligned-current/Fisher domination.
