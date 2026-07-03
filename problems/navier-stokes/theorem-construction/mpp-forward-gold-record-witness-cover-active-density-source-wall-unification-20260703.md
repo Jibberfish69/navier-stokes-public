@@ -41,7 +41,7 @@ was clipped and counted.
 The older TFE2748B storage wall asks for the same physical act in global parent
 language. It constructs a parent-known active meter/source from the original
 pressure-Hodge, viscosity/Stokes, self-advection, incompressibility, collar,
-frame, reset, legal, and stop packet before child clipping, and then proves a
+frame, reset, legal, and stop packet before the child record is read, and then proves a
 strict no-self-feeding storage inequality for that source.
 
 Thus the witness-cover theorem is not an independent fourth branch. It is the
@@ -168,7 +168,7 @@ The consolidated Gold story is:
 \[
 \text{original same-fluid packet}
 \longrightarrow
-\text{before-clipping parent active-density/full-exchange source}
+    \text{parent-announced active-density/full-exchange source}
 \longrightarrow
 \text{record-local }P_+\text{ witnesses}
 \longrightarrow
@@ -181,13 +181,14 @@ The consolidated Gold story is:
 The open producer is the first arrow that is not already a consumer: construct
 the parent active-density/full-exchange source in the event-local form
 `RecordLocalActiveDensityWitnessCover.A' from arbitrary original smooth data,
-with strict no-self-feeding margin, before child positive clipping.
+with strict no-self-feeding margin before the record is read as positive
+production.
 
 The proof pass
 `mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md`
 sharpens this first arrow into two coupled obligations. The actual signed-height
 positive production trace \(P_+dt\) must be admitted to the parent active source
-before clipping, and that same parent source must carry a noncircular strict
+before it is counted, and that same parent source must carry a noncircular strict
 coupled storage inequality. Parent storage without trace admission budgets the
 wrong measure; trace admission without strict storage localizes the spike without
 an original-data finite budget.
