@@ -702,3 +702,76 @@ Thus the current strict reduction is now:
 \texttt{RecordMenuRootProjectionFaithfulness.A}.
 \tag{RNW.35}
 \]
+
+## 13. Detector-angle form of the frozen symbol test
+
+The frozen part of `(RNW.33)' is finite-dimensional once one material packet,
+one frequency direction, and one menu edge are fixed. Let \(V_{e,a,\xi}\) be the
+retained native-edge amplitude space after quotienting legal gauge directions,
+stopped exits, and already admitted lower-order commutator pieces. Define the
+detector map
+
+\[
+D_{e,a,\xi}z
+:=
+\bigl(m_{root}(a,\xi)z,\ m_{FE}(a,\xi)z\bigr).
+\tag{RNW.36}
+\]
+
+Then `(RNW.31)' is equivalent, on this frozen quotient, to a uniform detector
+angle:
+
+\[
+[w_{rec}(a,\xi)z]_+
+\le
+C_N\,|D_{e,a,\xi}z|
+\qquad
+\text{for all }z\in V_{e,a,\xi}.
+\tag{RNW.37}
+\]
+
+Because the native amplitude is sign-symmetric before the future-positive record
+readout, `(RNW.37)' is the same as the row-span condition
+
+\[
+\ker D_{e,a,\xi}\subseteq \ker w_{rec}(a,\xi),
+\tag{RNW.38}
+\]
+
+with a uniform angle constant on the retained compact symbol bundle. If selector
+orientation restricts the admissible amplitudes to a cone, the same statement is
+the cone version: the positive work cone must have positive angle from the joint
+detector null cone.
+
+Thus the purely frozen lower theorem is
+
+\[
+\texttt{RecordMenuDetectorAngleGap.A}.
+\tag{RNW.39}
+\]
+
+Its physical content is even sharper than `(RNW.33)': after legal exits and
+stops are removed, the same-fluid work covector cannot point in a direction that
+the parent root detector and active full-exchange detector both miss. A failure
+is not a storage failure. It is a detector-silent positive work direction in the
+retained high-packet/low-strain symbol.
+
+The operator-level part remains separate. `(RNW.39)' controls the frozen
+principal symbol. To recover the full edge theorem, the weighted exact-projector
+commutator theorem `(WEP.2')' must also demote
+`[\Delta_j,\Pi_G^{ex}]Z_e' and the metric-symbol remainders into
+legal/stop/lower/active-paid material. The current repo surfaces classify
+`(WEP.2')' as a candidate paradifferential theorem, not as an installed proof.
+
+The current strict reduction is therefore:
+
+\[
+\texttt{RecordMenuDetectorAngleGap.A}
++
+\texttt{WEP.2' exact-projector commutator theorem}
+\Longrightarrow
+\texttt{RecordMenuSelectedSymbolKernelExclusion.A}
+\Longrightarrow
+\texttt{RecordMenuRootProjectionFaithfulness.A}.
+\tag{RNW.40}
+\]
