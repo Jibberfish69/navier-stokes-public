@@ -587,6 +587,7 @@ prove before record readout that either:
 \le
 C_N\left(
 dA_e^{root,+}
++
 d\Xi_e^{FE,act}
 \right)
 +Legal_e+Stop_e,
