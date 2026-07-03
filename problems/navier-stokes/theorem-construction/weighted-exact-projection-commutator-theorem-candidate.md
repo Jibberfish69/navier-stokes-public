@@ -417,9 +417,9 @@ record/return obstruction after a record-edge admission bridge:
 lift, record-average bound, and negative-return charge. The theorem is not closed
 by symbolic calculus alone.
 The admission bridge is now lower: exact Hodge/material-service calculations
-give same-packet pressure/strain identity, while the open lower inputs are a
-polar signed lift of the record edge into the primitive driver and a stopped
-material line fixed before record readout.
+give same-packet pressure/strain identity, while the open lower object is
+`RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A`, a coupled stopped
+selector-cone admission that supplies both polar sign and pre-readout timing.
 
 The symbolic reason is the first commutator term in the pseudodifferential
 composition formula. For an order-zero symbol `p\in S^0_{1,0}` and a low

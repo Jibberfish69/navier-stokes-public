@@ -438,9 +438,10 @@ moving-chart exact-projector residues. The higher-service input is no longer a
 detached projector problem: it is the same stopped primitive PLS
 graph-driver/strict half-barrier obstruction after a record-edge admission
 bridge. That admission bridge is now lower: existing Hodge/material-service
-sources give same-packet pressure/strain identity, while the open inputs are
-polar signed lift into the primitive driver and stopped-line-before-readout
-nonanticipation. After that bridge, the record/return package
+sources give same-packet pressure/strain identity, while the open lower object is
+`RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A`, a coupled stopped
+selector-cone admission that supplies both polar sign and pre-readout timing.
+After that bridge, the record/return package
 `StoppedPrimitivePLSSignedScalePotentialLift.A',
 `StoppedPotentialRecordAverageBound.A', and
 `StoppedNegativeScaleReturnCharge.A' as the nonlocal payment mechanism. WEP.2'

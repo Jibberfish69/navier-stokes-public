@@ -195,9 +195,9 @@ record-edge admission bridge plus the stopped primitive record/return package:
 `StoppedPotentialRecordAverageBound.A`, and
 `StoppedNegativeScaleReturnCharge.A`.
 The admission bridge itself is now sharpened: Hodge/material-service sources
-give same-packet pressure/strain identity, while the open lower inputs are
-`RetainedRecordEdgePrimitivePLSPolarLift.A` and
-`RetainedRecordEdgeStoppedLineBeforeReadout.A`.
+give same-packet pressure/strain identity, while the sign and timing inputs are
+coupled through the stopped selector cone in
+`RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A`.
 
 ## 4. Obstruction state
 
