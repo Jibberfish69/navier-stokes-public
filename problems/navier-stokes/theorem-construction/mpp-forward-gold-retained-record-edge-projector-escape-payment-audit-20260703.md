@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mcp-fullmovingsamematerialservicecarrierthetanl1-a-globalsamepacketfullclockfromoriginaldata-a-cee9b9b065.md
   - problems/navier-stokes/theorem-construction/mpp-retained-carrier-no-defect-participation-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-retained-carrier-compactness-inputs-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-higher-projector-service-record-return-reduction-20260703.md
 completion_truth: >-
   This note proves no new regularity theorem. It separates the narrow
   base-leakage payments already installed from the full moving exact-projector
@@ -208,6 +209,29 @@ either:
    participation-law-strain service; or
 2. exit through legal, stop, Pack, Part, Field, collar/cutoff, chart-transfer, or
    material-service routing before the signed-height record reads the edge.
+
+The lower edge of `(REP.10)` is sharpened in
+`mpp-forward-gold-retained-record-edge-higher-projector-service-record-return-reduction-20260703.md`.
+There the higher service is identified with the stopped primitive PLS
+graph-driver/strict half-barrier obstruction, but only after a separate
+record-edge admission bridge. The sharper reduction is:
+
+```math
+\texttt{RetainedRecordEdgePrimitivePLSDriverAdmission.A}
++
+\texttt{StoppedPrimitivePLSSignedScalePotentialLift.A}
++
+\texttt{StoppedPotentialRecordAverageBound.A}
++
+\texttt{StoppedNegativeScaleReturnCharge.A}
+\Longrightarrow
+\texttt{RetainedRecordEdgeHigherProjectorServiceOrExit.A}.
+\tag{REP.10a}
+```
+
+This prevents an overclaim: the older stopped record/return package cannot be
+used until the arbitrary record-menu residue is first admitted into the same
+stopped primitive scale-potential line before record readout.
 
 ## 7. Current truth state
 
