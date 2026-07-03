@@ -49,42 +49,45 @@ Clean labels:
 
 ## Route Summary
 
-- Working target: the manuscript opens from the CM contrapositive class-exit proof program: finite Clay terminal witness entry, Silver Part/Field finite-failure exhaustion after live-object participation is typed, outside-CM participation-field/window original-participation audit where needed, and `Exit(Q):=not Member(Q)`.
-- Honest current status: recent submission surfaces and live theorem authority make the CM terminal-witness chain the proof-bearing opening; older periodic, `Q(t)`, source-wall, and positive-supplier material is support unless it lands in a typed witness or the outside-CM participation-field/window original-participation audit.
-- Decisive frontier: preserve `ClayTerminalWitnessCMEntry.A`, `ClayFiniteFailureTypeCMExhaustion.A`, and `ClayCMContrapositiveEmbedding.A` as the manuscript spine and prevent stale torus-first prose from retaking the opening.
-- Frozen architecture note: periodic and Euclidean route history is preserved only as provenance or downstream support, while the live manuscript surface starts from CM class exit.
+- Working target: each live Navier-Stokes theorem object is carried through two simultaneous lanes on the same object: Gold direct regularity / controlled evolution, and Silver obstruction exclusion / CM class exit.
+- Honest current status: Gold is open at the signed critical-height restart recorded in the live authority surfaces. Silver keeps the terminal-witness / Part-Field / `Exit(Q):=not Member(Q)` chain as its own obstruction-exclusion lane. Neither lane is a fallback, status substitute, or cleanup surface for the other.
+- Decisive frontier: preserve the same-object pairing. A theorem surface should say what the Gold proof must still prove for that object and what the Silver proof must still prove or has proved for that same object.
+- Frozen architecture note: periodic, Euclidean, `Q(t)`, source-wall, positive-supplier, and export history is support unless a checked bridge places it into the Gold direct proof of the shared object or the Silver obstruction-exclusion proof of the shared object.
 
 ## Spine
 
-1. Fix the terminal witness first.
-   The opening object is an alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum.
+1. Fix the shared theorem object first.
+   The object is the same original smooth Navier-Stokes datum, interval, and theorem burden for both lanes.
 
-2. Enter the CM participation-field tree.
-   The witness is CM-test-admissible; it is not assumed to be `Member(Q)`.
+2. Run Gold on that object.
+   Gold tries to prove the desired regularity world directly by controlling the same-fluid evolution. The current Gold live edge is the signed critical-height / peak-height mechanism, not positive child clipping as a primitive.
 
-3. Exhaust the finite failure type.
-   After Pack admission, the terminal object lands as not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}.
+3. Run Silver on that object.
+   Silver tries to prove that the obstruction-world has no valid inhabitant. In CM terms, the alleged finite-time Clay terminal witness enters the participation-field tree without being assumed to be `Member(Q)`.
 
-3a. Resurface outside-CM participation-field/window failure candidates.
-   Before Pack failure is spent on a singular branch, test the original NS participation law through viscosity, pressure, and incompressibility.
+4. Exhaust the Silver finite failure type.
+   After lawful admission, the Silver terminal object lands as not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; outside-CM participation-field/window failure candidates first test the original NS participation law through viscosity, pressure, and incompressibility.
 
-4. Embed the Part/Field failure.
+5. Embed the Silver Part/Field failure.
    The derived Part/Field failure supports `Exit(Q):=not Member(Q)`.
 
-5. Preserve the pass/fail split.
-   The pass branch remains lawful smooth continuation; the fail branch has no legal in-class nonsmooth continuation status.
+6. Keep lane statuses separate.
+   A Gold obstruction does not make Silver a fallback, and a Silver face landing does not close Gold. The pass branch remains lawful smooth continuation; the fail branch has no legal in-class nonsmooth continuation status.
 
-6. Quarantine old openings.
-   Periodic, `Q(t)`, source-wall, and positive-supplier material may support the proof only after a checked bridge lands the exact claim in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the outside-CM participation-field/window original-participation audit.
+7. Quarantine old openings.
+   Periodic, `Q(t)`, source-wall, and positive-supplier material may support the proof only after a checked bridge lands the exact claim in the Gold lane or in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the outside-CM participation-field/window original-participation audit.
 
 ## Completion Condition
 
 - A serious manuscript opening exists only when:
-  - the finite Clay terminal witness is named first,
-  - CM-test admissibility is separated from `Member(Q)`,
+  - the same Navier-Stokes object is named before lane-specific machinery,
+  - the Gold direct proof obligation on that object is explicit,
+  - the Silver obstruction-exclusion obligation on that object is explicit,
+  - Gold and Silver are not ordered as attempt/fallback,
+  - CM-test admissibility is separated from `Member(Q)` inside the Silver lane,
   - Part_{N,Q} and Field_{N,r,Q}; Pack_Q only as Field window evidence are the Silver witnesses after live-object participation is typed,
   - outside-CM participation-field/window failure candidates have been tested for the original NS participation law,
-  - `Exit(Q):=not Member(Q)` is the class-exit conclusion,
+  - `Exit(Q):=not Member(Q)` is the Silver class-exit conclusion,
   - no periodic, `Q(t)`, source-wall, positive-supplier, or export surface is doing hidden opening work.
 
 ## Current Exact Burdens

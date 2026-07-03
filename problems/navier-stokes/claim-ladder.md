@@ -1,5 +1,10 @@
 # Navier-Stokes Global Regularity Claim Ladder
 
+Default route posture: every live theorem object is tracked through Gold and
+Silver at the same time. Gold is the direct regularity / controlled-evolution
+lane. Silver is the obstruction-exclusion / CM class-exit lane. They attach to
+the same Navier-Stokes object and carry independent completion burdens.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -10,29 +15,30 @@
 
 ## Lowest Safe Claim
 
-- Navier-Stokes global regularity is presented through the CM contrapositive class-exit chain: terminal witness entry, Silver Part/Field finite-failure exhaustion after live-object participation is typed, outside-CM participation-field/window original-participation audit where needed, and `Exit(Q):=not Member(Q)`.
-- Periodic, `Q(t)`, source-wall, positive-supplier, and export surfaces are support unless a checked bridge lands their exact claim in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the outside-CM participation-field/window original-participation audit.
+- Navier-Stokes global regularity is presented through a dual Gold/Silver route on the same theorem object. Gold must prove the desired regularity world directly. Silver must prove the obstruction-world has no valid inhabitant through terminal witness entry, Silver Part/Field finite-failure exhaustion after live-object participation is typed, outside-CM participation-field/window original-participation audit where needed, and `Exit(Q):=not Member(Q)`.
+- Periodic, `Q(t)`, source-wall, positive-supplier, and export surfaces are support unless a checked bridge lands their exact claim in the Gold direct proof of the shared object, in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or in the outside-CM participation-field/window original-participation audit.
 
-## Mechanism Option
+## Mechanism Pair
 
-- The active manuscript mechanism is CM contrapositive class exit from an alleged finite Clay terminal witness.
-- The pass branch is the lawful smooth continuation branch; the fail branch is sorted by the same-fluid CM terminal participation-field tree.
-- Cross-lane braid, periodic, and source-history imports may sharpen support language, but they do not replace the Silver Part/Field witness gate or the outside-CM participation-field/window original-participation audit.
+- Gold mechanism: direct regularity / controlled evolution for the shared Navier-Stokes datum, interval, and theorem object.
+- Silver mechanism: obstruction exclusion from an alleged finite Clay terminal witness; the pass branch is lawful smooth continuation, while the fail branch is sorted by the same-fluid CM terminal participation-field tree.
+- Cross-lane braid, periodic, and source-history imports may sharpen support language, but they do not replace either the Gold direct proof obligation or the Silver Part/Field witness gate.
 
-## Two-Part Route
+## Two-Lane Route
 
-- `Part I`: CM terminal witness route
+- `Gold`: direct regularity route
+  - same-datum same-interval Navier-Stokes controlled evolution for the shared object
+- `Silver`: CM terminal witness route
   - same-datum finite Clay terminal witness, CM participation-field entry, Silver Part/Field exhaustion after live-object participation is typed, outside-CM participation-field/window original-participation audit
-- `Part II`: contrapositive embedding and support quarantine
   - derived Part/Field failure supports `Exit(Q):=not Member(Q)`
-  - periodic, source-wall, and export support does not override the manuscript opening
+- `Support`: periodic, source-wall, and export support does not override the shared object or either lane's proof burden
 
 ## Dynamic Sidecar Track
 
-- Sidecar route material is support only until it lands in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the outside-CM participation-field/window original-participation audit.
-- The projected-flow and periodic packages do not set the manuscript opening.
-- The live paper surface starts from the CM terminal witness and class-exit embedding.
+- Sidecar route material is support only until it lands in the Gold direct proof of the shared object, in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or in the outside-CM participation-field/window original-participation audit.
+- The projected-flow and periodic packages do not set the manuscript opening by themselves.
+- The live paper surface starts from the shared Navier-Stokes object and tracks both Gold and Silver without fallback ordering.
 
 ## First Unsafe Overclaim
 
-- Replacing the CM contrapositive class-exit chain with the stale torus-first / `Q(t)` / periodic-opening story.
+- Replacing the dual Gold/Silver same-object route with a CM-only default, a Gold-only default, or the stale torus-first / `Q(t)` / periodic-opening story.
