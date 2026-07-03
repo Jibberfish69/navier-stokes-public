@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-free-material-graph-driver-direct-attack-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-witness-cover-active-density-source-wall-unification-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-primitive-pls-polar-lift-coupled-selector-reduction-20260703.md
 completion_truth: >-
   This note does not prove RetainedRecordEdgePrimitivePLSDriverAdmission.A. It
   proves the same-packet physical identity needed for that bridge and reduces
@@ -308,14 +309,31 @@ piece not admitted has already been routed as paid or exit by the hypotheses.
 
 This is exactly `RetainedRecordEdgePrimitivePLSDriverAdmission.A'.
 
+The polar-lift follow-up
+`mpp-forward-gold-retained-record-edge-primitive-pls-polar-lift-coupled-selector-reduction-20260703.md`
+shows that `(PAD.11)' and `(PAD.13)' are coupled. The stopped selector cone is
+what supplies the positive polar sign, so the sharper lower object is
+
+```math
+\texttt{RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A}
+\Longrightarrow
+\texttt{RetainedRecordEdgePrimitivePLSPolarLift.A}
++
+\texttt{RetainedRecordEdgeStoppedLineBeforeReadout.A}.
+\tag{PAD.15a}
+```
+
+That coupled theorem says: before record readout, the edge is either
+pressure-active on a stopped primitive signed channel with fixed cone aperture,
+or its pressure/root-silent component is already same-packet service paid,
+legal, stopped, or exited.
+
 ## 7. Current truth state
 
 This pass proves a strict reduction, not the admission theorem itself:
 
 ```math
-\texttt{RetainedRecordEdgePrimitivePLSPolarLift.A}
-+
-\texttt{RetainedRecordEdgeStoppedLineBeforeReadout.A}
+\texttt{RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A}
 \Longrightarrow
 \texttt{RetainedRecordEdgePrimitivePLSDriverAdmission.A}.
 \tag{PAD.16}
@@ -323,8 +341,8 @@ This pass proves a strict reduction, not the admission theorem itself:
 
 The physical wall is now narrower. The Hodge/projector algebra is not the
 unpaid object. Existing sources identify the residue as the same retained
-packet's moving pressure/strain service. The open problem is whether an
-arbitrary future-positive record edge has a pre-readout polar/stopped-line
-representation as a primitive PLS visit of that same packet. Once that bridge
-is proved, the stopped record/return package can act on the edge without
-post-hoc selection.
+packet's moving pressure/strain service. The open problem is now coupled:
+build a parent-known stopped primitive channel before the record reads the
+edge, and prove the edge is pressure-active in that channel or already silent
+service paid/exited. Once that bridge is proved, the stopped record/return
+package can act on the edge without post-hoc selection.
