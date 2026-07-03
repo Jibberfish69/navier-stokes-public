@@ -265,3 +265,22 @@ Pointwise \(P_+dt\) admission still implies `(ADW.14)', but it is no longer the
 preferred theorem to prove. The record interval itself supplies the positive sign;
 the remaining work is to identify that signed record-work inside the original
 parent packet and give it strict same-parent storage.
+
+The current signed-height record-net pass has sharpened the first half of this
+statement. The before-readout LP/Bony/native work decomposition preannounces the
+menu of high-packet/low-coefficient work edges and gives record admission by
+positive-part subadditivity. The remaining upstream burden for this witness-cover
+note is therefore
+
+\[
+\texttt{RecordNativeWorkMenuPositiveSelectionStorage.A}
++\texttt{SameParentCoupledActiveStorage.A}
+\Longrightarrow
+\texttt{RecordLocalActiveDensityWitnessCover.A}.
+\tag{ADW.15}
+\]
+
+In physical terms, the record may now read its positive work from a menu the same
+fluid already built; what is still missing is the finite reserve saying that all
+future positive selections from that menu are paid by original-data same-parent
+storage.
