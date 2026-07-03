@@ -466,3 +466,80 @@ positive net excess from different edge coordinates. The scalar identity
 `(RNW.18)' and the admission row `(RNW.20)' survive. The storage law `(RNW.21)'
 fails unless the same fluid supplies an original-data reserve controlling the
 positive variation of the whole menu.
+
+## 10. Storage pressure test against the TFE three-face split
+
+The nearest installed storage architecture is not arbitrary. In the TFE source
+chain, a selected positive parent readout is supposed to enter one of three
+same-parent faces before clipping:
+
+\[
+\begin{array}{ll}
+\text{positive parent baseline:}&
+\text{relative log-amplification/root-Carleson capacity},\\
+\text{zero parent baseline:}&
+\text{endpoint-seed/native-birth first-entry capacity},\\
+\text{retained active motion:}&
+\text{active-transit/full-exchange ledger.}
+\end{array}
+\tag{RNW.23}
+\]
+
+This is the right physical classification for the record menu too. A positive
+menu selection from a high-packet/low-coefficient work edge either amplifies an
+already present parent density, appears as first-entry material with no positive
+parent baseline, or moves through the retained active loop of the same packet.
+If every positive selection in `(RNW.21)' admitted into `(RNW.23)' before record
+readout, then the stopped root-generator, endpoint-seed, and coupled
+active/full-exchange storages would be the correct payment rows.
+
+The strict bridge theorem is therefore:
+
+\[
+\texttt{RecordMenuCriticalFaceAdmission.A}.
+\tag{RNW.24}
+\]
+
+For every disjoint record family and every positive selected menu edge in
+`(RNW.21)', prove a finite-overlap parent-root projection into the three faces
+of `(RNW.23)' before the record interval is used as a selector:
+
+\[
+\sum_j\lambda_j^{-1}
+\sum_e
+\left[\int_{I_e\cap[a_j,b_j]}\omega_e\right]_+
+\le
+C_N\Bigl(
+d\rho_{crit}^{ac}
+d\rho_{crit}^{entry}
+d\Xi^{FE,act}
+\Bigr)
++Legal+Stop.
+\tag{RNW.25}
+\]
+
+Together with the simultaneous coupled storage inequality for
+\((d\rho_{crit}^{ac},d\rho_{crit}^{entry},d\Xi^{FE,act})\), `(RNW.25)' implies
+`RecordNativeWorkMenuPositiveSelectionStorage.A'.
+
+The current repo does not yet prove `(RNW.25)'. The TFE rows
+`(TFE2748B.911)'--`(TFE2748B.920)' and `(TFE2748B.1205)'--`(TFE2748B.1210)' prove
+or reduce the three faces for selected critical-capacity coordinates after those
+coordinates are already pulled to the stopped root reserve. They do not prove
+that an arbitrary signed-height record-menu edge has entered one of those faces
+before the record selection. So the open wall has moved one step lower:
+
+\[
+\texttt{RecordMenuCriticalFaceAdmission.A}
++\texttt{noncircular same-parent coupled storage}
+\Longrightarrow
+\texttt{RecordNativeWorkMenuPositiveSelectionStorage.A}.
+\tag{RNW.26}
+\]
+
+This keeps the physical story single-valued. The payer is still the same
+pressure/transport/strain work of the same velocity field. The proof must now
+show that every future positive read of that work has a preexisting address in
+the parent critical/root/endpoint/full-exchange ledger; otherwise the record
+menu exists but its positive selections still have no finite original-data
+reserve.

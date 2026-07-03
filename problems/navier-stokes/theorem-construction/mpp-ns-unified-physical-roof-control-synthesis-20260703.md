@@ -396,6 +396,17 @@ over all future disjoint signed-height records. Existing TFE root-generator,
 log-carrier, critical-source, and full-exchange storage rows are support after
 their selected ledgers exist; they do not yet prove this whole-menu reserve.
 
+The next lower bridge is `RecordMenuCriticalFaceAdmission.A'. It asks that every
+future-positive native work edge from the signed-height record menu enter, before
+record readout, one of the same parent faces already isolated in TFE: positive
+parent-baseline log/root capacity, zero-baseline endpoint-seed/native-birth
+capacity, or retained active full-exchange motion. Coupled with noncircular
+same-parent storage for those faces, this would imply
+`RecordNativeWorkMenuPositiveSelectionStorage.A'. The installed TFE trichotomy is
+for selected critical-capacity coordinates after root projection; the missing
+bridge is the admission of arbitrary signed-height record-menu edges into that
+trichotomy.
+
 The sharper reading is that algebraic localization is not the wall. LP/Bony and
 pressure-Hodge decompositions can give legal work coordinates. The remaining
 producer is `RecordNetWorkNativeEdgeSpend.A`: anchor the net signed record work
