@@ -406,8 +406,12 @@ pre-readout license for arbitrary Gold record-menu edges. The metric-symbol
 half is sharpened in
 `mpp-forward-gold-retained-record-edge-metric-symbol-control-audit-20260703.md`:
 finite same-carrier strain supports ellipticity, while the open spatial input is
-`RetainedRecordEdgeC11MetricTowerOrExit.A`. The theorem is not closed by
-symbolic calculus alone.
+`RetainedRecordEdgeC11MetricTowerOrExit.A`. The projector-escape half is
+sharpened in
+`mpp-forward-gold-retained-record-edge-projector-escape-payment-audit-20260703.md`:
+base cutoff/collar/frame leakage is supported, while the open higher-service
+input is `RetainedRecordEdgeHigherProjectorServiceOrExit.A`. The theorem is not
+closed by symbolic calculus alone.
 
 The symbolic reason is the first commutator term in the pseudodifferential
 composition formula. For an order-zero symbol `p\in S^0_{1,0}` and a low
