@@ -200,7 +200,7 @@ The current repo has:
    nonanticipatory positive-production witness cover, not only aggregate
    \(D\)-service;
 6. a source-wall unification showing that this witness cover is the record-local
-   projection of the before-clipping parent active-density/full-exchange source
+   projection of the parent-announced active-density/full-exchange source
    wall, not a separate branch currency;
 7. a proof pass showing that this projection requires signed-height \(P_+dt\)
    trace admission into the parent active source plus noncircular strict
