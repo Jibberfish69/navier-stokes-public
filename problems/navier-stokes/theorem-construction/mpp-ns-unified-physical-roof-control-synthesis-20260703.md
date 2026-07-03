@@ -27,6 +27,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-net-work-selected-meter-aligned-current-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-meter-entropy-flux-split-same-history-capacity-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-net-work-terminal-anti-atom-reserve-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-anti-atom-signed-height-loop-boundary-20260703.md
 completion_truth: >-
@@ -387,6 +388,14 @@ support, while the surviving source theorem is one-sided aligned-current/Fisher
 domination for that normalized record meter. This makes the live producer
 `RecordWorkParentAdjointAlignedCurrentDomination.A', still open from arbitrary
 original data.
+
+The entropy-flux split reduction is installed in
+`mpp-forward-gold-record-meter-entropy-flux-split-same-history-capacity-reduction-20260703.md`.
+It separates the aligned current physically: reversible pressure/Hodge/self-advection
+is same-parent entropy flux and support, while the non-reversible selected-meter
+motion must be paid by same-history capacity with strict Fisher/full-exchange
+margin. The record-level open producer is now record parent-adjoint meter
+admission plus record selected-meter same-history capacity.
 
 The current deepest record-net reduction is
 `mpp-forward-gold-record-net-work-terminal-anti-atom-reserve-reduction-20260703.md`.
