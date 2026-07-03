@@ -789,7 +789,11 @@ leakage is already legal, stopped, or material-service paid. That is the
 physical content of `(WEP.P4)'. The chart-license audit on 2026-07-03 names
 this open theorem as `RetainedRecordEdgeExactProjectorChartLicense.A' and
 records that current retained-chart sources supply support, not a proof for
-arbitrary Gold record-menu edges.
+arbitrary Gold record-menu edges. The metric-symbol half is now sharpened:
+finite same-carrier strain supports ellipticity, but the open spatial input is
+`RetainedRecordEdgeC11MetricTowerOrExit.A', which must supply \(C^{1,1}\) /
+symbol-seminorm control from the same material-frame derivative tower or route
+failure as a pre-readout paid exit.
 
 The current strict reduction is therefore:
 
