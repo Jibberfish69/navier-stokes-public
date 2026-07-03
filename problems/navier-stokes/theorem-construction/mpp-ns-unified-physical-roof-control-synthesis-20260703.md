@@ -402,9 +402,13 @@ represented by TFE2748B.1393 and TFE2748B.1555 are rows of one same-parent
 coupled inequality built from the original packet before readout. Raw atom
 attachment, endpoint admission, bounded detector projection, retained
 Duhamel-Hodge pullback, and reversible entropy flux are consumer/support faces
-after that coupled object exists. The coupled-storage loop audit still governs
-this lower target: its feedback matrix must have spectral radius strictly below
-one, not a sequential finite-excess/full-exchange chain that feeds itself.
+after that coupled object exists. The bounded proof pass against the current
+TFE rows gives a checked obstruction: `(TFE2748B.1527)'--`(TFE2748B.1531)' and
+`(TFE2748B.1541a)'--`(TFE2748B.1556)' supply lower storage rows, but they do not
+construct the record-admission row from signed-height work before readout. The
+coupled-storage loop audit still governs this lower target: its feedback matrix
+must have spectral radius strictly below one, not a sequential
+finite-excess/full-exchange chain that feeds itself.
 
 The current deepest record-net reduction is
 `mpp-forward-gold-record-net-work-terminal-anti-atom-reserve-reduction-20260703.md`.
