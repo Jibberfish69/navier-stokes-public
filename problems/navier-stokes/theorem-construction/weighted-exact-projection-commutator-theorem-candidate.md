@@ -41,6 +41,35 @@ channel. On the current route it is already known that:
 So the remaining reserve debt is not abstract Hodge reduction. It is the
 interaction between `\Pi_G^{ex}` and the localized source packets.
 
+## Physical Packet Reading
+
+Fix one retained native work edge at one time. The physical object is a
+same-fluid high packet, localized at shell \(2^j\), doing signed-height work
+against a low strain/current coefficient carried by the same material history.
+The pressure-Hodge/root projector is allowed to ask how much of that work is
+gradient-pressure work, but it is not allowed to invent a new payer, move the
+work to an unrelated shell, or hide a positive record edge in a detector-silent
+direction after the record has already counted it.
+
+At a frozen packet point \((a,\xi)\), the pressure response sees only the
+rank-one \(G\)-gradient direction. That is the principal symbol \(p_G(a,\xi)\).
+When the exact variable-coefficient projector replaces the frozen symbol, the
+only physically lawful new effects are:
+
+1. slow rotation of that gradient direction caused by the parent-scale metric
+   \(G(a)\);
+2. cutoff, collar, legal, or stopped leakage already typed outside the retained
+   edge;
+3. lower-order shell leakage paid by the same low-coefficient/material-service
+   ledger before record readout.
+
+Any remaining leading-order effect would be a real obstruction, not a notation
+defect: it would mean the same high packet can carry positive signed-height work
+while the parent pressure-Hodge/root detector fails to see or pay that work.
+Thus the parametrix theorem is the physical statement that exact pressure
+projection follows the same packet at leading order, and that every mismatch is
+one derivative cheaper or already routed.
+
 ## Principal Symbol
 
 At the principal-symbol level, `\Pi_G^{ex}` is the rank-one projector onto the
@@ -139,6 +168,15 @@ C_{\alpha,\beta}(\lambda^{-1},\Lambda,M)\,(1+|\xi|)^{-|\beta|}
 ```
 
 for `|\alpha|\le 1` and all multi-indices `\beta`.
+
+These assumptions are not free route authority. In the Gold record-menu route
+they must be supplied on the retained packet chart: the selected high packet
+must live in a material coordinate patch where \(G\) has the ellipticity and
+symbol seminorms above, and every boundary/collar/cutoff failure of that patch
+must already be legal, stopped, or material-service paid. With that retained
+chart license, standard divergence-form elliptic parametrix calculus gives the
+exact-projector shell realization below. Without it, `(WEP.A1)`--`(WEP.A2)` are
+only formal symbol assumptions.
 
 The symbolic core is obtained by writing
 
@@ -303,6 +341,64 @@ The point is not the exact norm names. The point is the structure:
 The factor `2^{-j}` is the real gain: it says the commutator is order `-1` on
 the active shell, and `(WEP.2'c)` shows exactly where the metric dependence
 enters quantitatively.
+
+### Retained-packet parametrix reduction
+
+The exact dyadic parametrix has the following proof status on this surface.
+Under the retained chart license just stated, the divergence-form elliptic
+operator has a shellwise parametrix on the retained packet:
+
+```math
+L_G^{-1}\Delta_j
+=
+T_{(\xi\cdot G(a)\xi)^{-1}}\Delta_j
++E_{G,j},
+\qquad
+\|\nabla_a E_{G,j} f\|_{L^2_a}
+\le
+C_G\,2^{-2j}\|f\|_{L^2_a}.
+\tag{WEP.P1}
+```
+
+Composing with \(-G\nabla_a\operatorname{div}_a\) gives
+
+```math
+\Pi_G^{ex}\Delta_j
+=
+T_{p_G}\Delta_j
++R_{G,j}
++Legal_j+Stop_j+Service_j,
+\tag{WEP.P2}
+```
+
+where the retained part satisfies
+
+```math
+\|R_{G,j}f\|_{L^2_a}
+\le
+C_G\,2^{-j}\|f\|_{L^2_a}.
+\tag{WEP.P3}
+```
+
+The physical reason for the power is simple: a parent-scale change in \(G\)
+changes the pressure direction by one low derivative across a high wavelength,
+so on shell \(2^j\) the mismatch is order \(2^{-j}\). Boundary/collar terms are
+not absorbed into this estimate; they are named separately because they are
+different physical exits from the retained same-packet story.
+
+Therefore the local proof is:
+
+```math
+\text{retained packet chart license}
++
+\text{standard divergence-form elliptic parametrix}
+\Longrightarrow
+\texttt{ExactProjectorDyadicParametrix.A}.
+\tag{WEP.P4}
+```
+
+The repo-level burden is the left side of `(WEP.P4)` for every retained
+record-menu edge. The theorem is not closed by symbolic calculus alone.
 
 The symbolic reason is the first commutator term in the pseudodifferential
 composition formula. For an order-zero symbol `p\in S^0_{1,0}` and a low
