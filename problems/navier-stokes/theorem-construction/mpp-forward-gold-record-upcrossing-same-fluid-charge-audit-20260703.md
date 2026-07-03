@@ -15,6 +15,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-superheat-no-free-acceleration-direct-test-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-thin-record-upcrossing-production-obstruction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-upcrossing-branch-exhaustion-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-positive-production-witness-cover-reduction-20260703.md
 completion_truth: >-
   This note audits the existing no-free-upcrossing, Schur, superheat, and
   high-weight escape surfaces against the new signed-height record-upcrossing
@@ -224,3 +225,8 @@ land nonanticipatorily in high-weight reset, affine Schur, superheat
 residence/acceleration, or another finite same-fluid branch charge. Any forced
 critical service that lands in none of those branches is the remaining
 obstruction, not progress.
+
+The witness-cover reduction adds the upstream source condition: the record spike
+must produce parent-known positive-production witnesses before those branch
+charges are allowed to count it. Aggregate \(D\)-service alone does not supply
+that admission map.
