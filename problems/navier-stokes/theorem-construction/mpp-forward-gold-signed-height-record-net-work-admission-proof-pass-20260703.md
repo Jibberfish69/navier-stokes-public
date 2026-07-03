@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-signed-height-record-net-work-admission-proof-pass-20260703
-status: strict-reduction-net-work-admission-open
+status: strict-reduction-positive-selection-storage-open
 created: 2026-07-03
 problem: navier-stokes
 route: forward-gold-signed-critical-height-restart
@@ -23,7 +23,9 @@ completion_truth: >-
   native same-parent admission and scale-normalized storage needed to turn that
   net work into finite same-fluid charge. The current sharper reduction is to
   preannounce the whole native work menu before record readout and prove a
-  parent-known positive-selection storage law for the menu.
+  parent-known positive-selection storage law for the menu. The menu
+  identity/admission part is now separated from the still-open positive-selection
+  storage part.
 ---
 
 # Signed-height record-net work admission proof pass
@@ -374,3 +376,93 @@ whose stored parts are not the parts that later carry the record excess. A proof
 must therefore show that the same-fluid pressure/transport/strain interaction
 creates a finite reserve over the full native menu, so an unstored edge cannot
 become the hidden payer of an arbitrarily thin record.
+
+## 9. What the menu construction actually proves
+
+The preannounced menu has a proof-level part. For a smooth preterminal solution,
+apply the Leray-projected paraproduct decomposition to the signed production
+
+\[
+P(t)=
+-\langle \Lambda^{1/2}{\mathbb P}(u\cdot\nabla u),
+\Lambda^{1/2}u\rangle .
+\tag{RNW.17}
+\]
+
+Before any record interval is selected, this writes \(P(t)\,dt\) as the sum of
+strict low-high, strict high-low, and finite-collar resonant native work forms,
+plus legal/collar/stop remainders already typed in the derivative-LP bridge:
+
+\[
+P(t)\,dt
+=
+\sum_{e\in{\mathcal E}_P(t)}\omega_e(t)\,dt
++dLegal_P+dStop_P .
+\tag{RNW.18}
+\]
+
+Each edge \(e\) in `(RNW.18)' has the physical address required by the menu:
+retained high packet, low strain/current coefficient from the same velocity
+field, material time coordinate, and parent charge coordinate. This proves the
+identity/admission half of `(RNW.13)' at finite truncation, with the smooth limit
+handled by the already legal LP/collar remainders.
+
+For a record upcrossing \([a,b]\), `(RNW.2)' and `(RNW.18)' give
+
+\[
+\lambda
+\le
+\int_a^bP(t)\,dt
+\le
+\left[\sum_{e}\int_{I_e\cap[a,b]}\omega_e\right]_+
++Legal([a,b])+Stop([a,b]).
+\tag{RNW.19}
+\]
+
+Positive-part subadditivity then gives the record admission row
+
+\[
+\lambda
+\le
+\sum_e
+\left[\int_{I_e\cap[a,b]}\omega_e\right]_+
++Legal([a,b])+Stop([a,b]).
+\tag{RNW.20}
+\]
+
+So the remaining theorem is not the existence of native coordinates for the work.
+The remaining theorem is the storage of positive selections from those
+coordinates across all future disjoint records:
+
+\[
+\sum_j\lambda_j^{-1}
+\sum_e
+\left[\int_{I_e\cap[a_j,b_j]}\omega_e\right]_+
+\le C_N(u_0)+Paid+Legal+Stop .
+\tag{RNW.21}
+\]
+
+This is the hard half of `RecordNativeWorkMenuPreannouncement.A'. Call it
+
+\[
+\texttt{RecordNativeWorkMenuPositiveSelectionStorage.A}.
+\tag{RNW.22}
+\]
+
+The checked TFE rows do not prove `(RNW.22)'. The stopped root-generator
+Carleson rows `(TFE2748B.897)'--`(TFE2748B.898)' store the root generator after
+the active full-exchange ledger exists. The log-carrier rows
+`(TFE2748B.1196)'--`(TFE2748B.1198)' store positive-baseline critical capacity
+after the selected root reserve and log ratio are fixed. The critical-source and
+full-exchange rows `(TFE2748B.1424)', `(TFE2748B.1527)'--`(TFE2748B.1531)', and
+`(TFE2748B.1541a)'--`(TFE2748B.1556)' are lower storage faces once the selected
+parent ledger exists. None of them proves finite positive-selection storage for
+the whole preannounced native work menu of every future signed-height record.
+
+The physical countermodel remains the same but is now sharper. A single smooth
+signed production signal may decompose into many legal native work edges whose
+signed sum raises \(H\), while different thin record intervals draw their
+positive net excess from different edge coordinates. The scalar identity
+`(RNW.18)' and the admission row `(RNW.20)' survive. The storage law `(RNW.21)'
+fails unless the same fluid supplies an original-data reserve controlling the
+positive variation of the whole menu.
