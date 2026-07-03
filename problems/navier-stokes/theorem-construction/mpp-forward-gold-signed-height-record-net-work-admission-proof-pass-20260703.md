@@ -793,7 +793,12 @@ arbitrary Gold record-menu edges. The metric-symbol half is now sharpened:
 finite same-carrier strain supports ellipticity, but the open spatial input is
 `RetainedRecordEdgeC11MetricTowerOrExit.A', which must supply \(C^{1,1}\) /
 symbol-seminorm control from the same material-frame derivative tower or route
-failure as a pre-readout paid exit.
+failure as a pre-readout paid exit. The projector-escape half is now sharpened
+as well: base cutoff/collar/frame leakage is supported, while the open higher
+service input is `RetainedRecordEdgeHigherProjectorServiceOrExit.A', which must
+pay pressure/RHS, annular-stress, higher-collar, finite-depth tower, and
+moving-chart exact-projector residues by finite same-material service or route
+them out before record readout.
 
 The current strict reduction is therefore:
 
