@@ -328,6 +328,19 @@ pressure-active on a stopped primitive signed channel with fixed cone aperture,
 or its pressure/root-silent component is already same-packet service paid,
 legal, stopped, or exited.
 
+The lower-face reduction sharpens that coupled theorem to:
+
+```math
+\begin{aligned}
+&\texttt{RecordMenuPressureActiveOrSilentService.A}\\
+&+\texttt{RetainedRecordEdgeCommonSelectorRefinementNoLoss.A}\\
+&+\texttt{RetainedRecordEdgePrimitiveChannelCompatibility.A}\\
+&\Longrightarrow
+\texttt{RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A}.
+\end{aligned}
+\tag{PAD.15b}
+```
+
 ## 7. Current truth state
 
 This pass proves a strict reduction, not the admission theorem itself:
@@ -343,6 +356,7 @@ The physical wall is now narrower. The Hodge/projector algebra is not the
 unpaid object. Existing sources identify the residue as the same retained
 packet's moving pressure/strain service. The open problem is now coupled:
 build a parent-known stopped primitive channel before the record reads the
-edge, and prove the edge is pressure-active in that channel or already silent
-service paid/exited. Once that bridge is proved, the stopped record/return
-package can act on the edge without post-hoc selection.
+edge, prove the pressure-active/silent-service split, and prove primitive
+channel compatibility for the exact-projector residue on that same stopped
+selector. Once that bridge is proved, the stopped record/return package can act
+on the edge without post-hoc selection.
