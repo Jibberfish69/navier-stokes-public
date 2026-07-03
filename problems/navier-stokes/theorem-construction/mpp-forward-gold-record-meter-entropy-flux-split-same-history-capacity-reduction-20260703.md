@@ -305,6 +305,13 @@ TFE2748B.1555 source object:
 \tag{RMS.19}
 \]
 
+The arrow in `(RMS.19)' is a source target, not a sequential proof chain. The
+coupled-storage loop audit applies here: this record-local object must be proved
+as an independent original-packet face, or as one simultaneous strict coupled
+storage inequality with feedback spectral radius below one. Recycling
+preallocated critical-source storage through full-exchange storage and back into
+itself is still circular.
+
 The physical story is the same as before but less aliased. The record meter does
 not ask for a new atom theorem, a new endpoint theorem, or a new Duhamel
 identity. It asks the original parent packet to build one active full-exchange
