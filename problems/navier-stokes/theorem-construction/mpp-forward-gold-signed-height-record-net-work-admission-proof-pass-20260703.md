@@ -750,11 +750,28 @@ Thus the purely frozen lower theorem is
 \tag{RNW.39}
 \]
 
-Its physical content is even sharper than `(RNW.33)': after legal exits and
-stops are removed, the same-fluid work covector cannot point in a direction that
-the parent root detector and active full-exchange detector both miss. A failure
-is not a storage failure. It is a detector-silent positive work direction in the
-retained high-packet/low-strain symbol.
+This detector-angle statement is not a raw tensor theorem. The older
+`SelectedSymbolKernelExclusion.A' counterboundary shows why: an unrestricted
+transverse trace-free stress mode can be invisible to one pressure-Hodge probe
+while still carrying tensor action. Thus the retained record-menu theorem must
+first split the frozen work edge into a pressure-active part and a silent part.
+The pressure-active part satisfies `(RNW.37)'. The silent part must already be
+paid before record readout by material parabolic service, source-origin
+exchange, complete-frame trace-free variation, viscous/radius service, legal
+exit, or stop material.
+
+The correct retained frozen theorem is therefore:
+
+\[
+\texttt{RecordMenuPressureActiveOrSilentService.A}.
+\tag{RNW.39a}
+\]
+
+It says that every future-positive retained record-menu edge either has the
+detector angle `(RNW.37)' or its joint-detector-silent component is already a
+paid service component before the record can count it. A failure is not a
+storage failure. It is an unpaid detector-silent positive work direction in the
+same high-packet/low-strain symbol.
 
 The operator-level part remains separate. `(RNW.39)' controls the frozen
 principal symbol. To recover the full edge theorem, the weighted exact-projector
@@ -766,7 +783,7 @@ legal/stop/lower/active-paid material. The current repo surfaces classify
 The current strict reduction is therefore:
 
 \[
-\texttt{RecordMenuDetectorAngleGap.A}
+\texttt{RecordMenuPressureActiveOrSilentService.A}
 +
 \texttt{WEP.2' exact-projector commutator theorem}
 \Longrightarrow
