@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-noncircular-same-parent-coupled-storage-proof-pressure-20260702.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-peak-control-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-upcrossing-criterion-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-upcrossing-same-fluid-charge-audit-20260703.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -271,6 +272,15 @@ record upcrossing of \(H(t)\) either has scale-aware time thickness or pays a
 finite-budget same-fluid charge, then \(\sup_{t<T}H(t)<\infty\). The remaining
 PDE burden is to derive that thickness-or-charge criterion from the original
 Navier-Stokes packet.
+
+The first charge audit is installed in
+`mpp-forward-gold-record-upcrossing-same-fluid-charge-audit-20260703.md`. It
+finds one conditional branch-local charge, the high-weight tube escape charge,
+and three incomplete charge candidates: affine Schur residence/thickness,
+Schur-thin nonretained payment, and superheat acceleration/storage. The remaining
+noncircular theorem is `RecordUpcrossingSameFluidCharge.A`: every thin signed
+critical-height record upcrossing must localize into one of those finite-budget
+same-fluid charges.
 
 ## 9. Control consequence
 
