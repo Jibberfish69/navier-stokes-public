@@ -365,6 +365,16 @@ producer is `RecordNetWorkNativeEdgeSpend.A`: anchor the net signed record work
 to the actual same-fluid high packet and low strain/current edge, then spend that
 edge through scale-normalized same-parent storage.
 
+The next reduction is now installed in
+`mpp-forward-gold-record-net-work-selected-meter-aligned-current-reduction-20260703.md`.
+It reads `RecordNetWorkNativeEdgeSpend.A' through the older TFE2748B
+parent-meter machinery: after record work is admitted as a parent-adjoint
+selected meter, raw atomization and same-parent current representation are
+support, while the surviving source theorem is one-sided aligned-current/Fisher
+domination for that normalized record meter. This makes the live producer
+`RecordWorkParentAdjointAlignedCurrentDomination.A', still open from arbitrary
+original data.
+
 ## 9. Control consequence
 
 The repo should judge future work from this roof before writing or accepting any
