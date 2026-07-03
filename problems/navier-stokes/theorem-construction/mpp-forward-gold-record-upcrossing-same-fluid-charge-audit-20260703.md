@@ -13,6 +13,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-high-weight-tube-escape-charge-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-superheat-no-free-acceleration-direct-test-20260625.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-thin-record-upcrossing-production-obstruction-20260703.md
 completion_truth: >-
   This note audits the existing no-free-upcrossing, Schur, superheat, and
   high-weight escape surfaces against the new signed-height record-upcrossing
@@ -50,6 +51,17 @@ total mass is bounded from the original datum.
 
 So the question for existing Gold surfaces is precise: do they already produce
 that charge for thin signed-height record events?
+
+The direct scalar test now gives one unavoidable lower edge. A record upcrossing
+from \(\lambda\) to \(2\lambda\) forces
+
+\[
+\int_a^b D(t)\,dt\ge c\lambda^{1/2}.
+\]
+
+That is same-fluid critical service, but it is not an original-data finite
+budget. The live bridge must convert this forced service into one of the finite
+charges below.
 
 ## 2. What existing surfaces already give
 
