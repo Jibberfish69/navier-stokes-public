@@ -407,6 +407,14 @@ for selected critical-capacity coordinates after root projection; the missing
 bridge is the admission of arbitrary signed-height record-menu edges into that
 trichotomy.
 
+The sharper installed lower theorem is
+`RecordMenuRootProjectionFaithfulness.A'. Its physical content is the entrance
+condition underneath the face split: the same-fluid native work edge must be
+faithfully visible in parent root or active full-exchange currency before the
+record selector reads it as positive. Without that visibility bridge, a real
+high-packet/low-strain work event can remain outside the parent pressure-Hodge
+root detector, so the TFE faces have no lawful object to store.
+
 The sharper reading is that algebraic localization is not the wall. LP/Bony and
 pressure-Hodge decompositions can give legal work coordinates. The remaining
 producer is `RecordNetWorkNativeEdgeSpend.A`: anchor the net signed record work
