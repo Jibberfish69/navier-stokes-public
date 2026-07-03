@@ -371,7 +371,11 @@ It proves `(RNW.2)' from the signed-height equation and reduces the remaining
 producer to native same-parent admission of the signed record work plus
 scale-normalized no-self-feeding storage. It also records why the current repo
 does not close that producer: a global signed work scalar is not yet a
-parent-native source face with finite original-data storage.
+parent-native source face with finite original-data storage. The admission-row
+pressure test now sharpens that boundary: scalar record work proves positivity
+only. LP/Bony localization gives legal coordinates and terminal adjoint response
+gives covector support, but neither proves that the record work is preannounced
+on the same native high-packet/low-coefficient edge before readout.
 
 The sharper reading is that algebraic localization is not the wall. LP/Bony and
 pressure-Hodge decompositions can give legal work coordinates. The remaining
