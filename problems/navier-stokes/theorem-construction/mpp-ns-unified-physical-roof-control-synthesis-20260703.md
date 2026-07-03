@@ -415,6 +415,14 @@ record selector reads it as positive. Without that visibility bridge, a real
 high-packet/low-strain work event can remain outside the parent pressure-Hodge
 root detector, so the TFE faces have no lawful object to store.
 
+The current sharper reduction splits that visibility theorem into two physical
+jobs. First, `RecordMenuDetectorAngleGap.A' says the frozen retained
+high-packet/low-strain work covector has positive angle from the joint null cone
+of the parent root and active full-exchange detectors. Second, the WEP.2'
+exact-projector commutator theorem must lift that frozen detector statement
+through the full variable-coefficient pressure-Hodge/root projector by paying
+the shell-projector commutator and metric-symbol remainders.
+
 The sharper reading is that algebraic localization is not the wall. LP/Bony and
 pressure-Hodge decompositions can give legal work coordinates. The remaining
 producer is `RecordNetWorkNativeEdgeSpend.A`: anchor the net signed record work
