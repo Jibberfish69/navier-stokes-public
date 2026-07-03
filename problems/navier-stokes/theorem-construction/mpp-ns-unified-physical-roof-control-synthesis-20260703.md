@@ -24,6 +24,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-positive-production-witness-cover-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-witness-cover-active-density-source-wall-unification-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -349,6 +350,14 @@ Thus the preferred producer is record-net signed work admission, not pointwise
 but the pure physical theorem is to identify the signed nonlinear work that
 raised \(H\) inside the parent-announced active source and then prove strict
 same-parent storage for that source.
+
+The record-net work proof pass is installed in
+`mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md`.
+It proves `(RNW.2)' from the signed-height equation and reduces the remaining
+producer to native same-parent admission of the signed record work plus
+scale-normalized no-self-feeding storage. It also records why the current repo
+does not close that producer: a global signed work scalar is not yet a
+parent-native source face with finite original-data storage.
 
 ## 9. Control consequence
 

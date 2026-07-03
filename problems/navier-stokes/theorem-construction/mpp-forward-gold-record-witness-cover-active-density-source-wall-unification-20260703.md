@@ -102,14 +102,14 @@ For every thin high record upcrossing \([a,b]\), restrict the parent active
 source package `(RAW.2)'--`(RAW.4)' to the parent packets that meet \([a,b]\).
 It must produce a finite-overlap witness family
 \({\mathcal W}_{[a,b]}\) whose parent interval, material carrier, selected
-direction or score, and charge coordinate are fixed before the child positive
-readout. The family must dominate the record production trace:
+direction or score, and charge coordinate are fixed before the record is counted.
+The family must dominate the record-net signed work:
 
 \[
-\int_a^b P_+(t)\,dt
+\int_a^b P(t)\,dt
 \le
 C_N\sum_{W\in{\mathcal W}_{[a,b]}}
-\int_{I_W}p_W^+(t)\,dt
+\left[\int_{I_W}\omega_W\right]_+
 +
 Legal([a,b])+Stop([a,b]),
 \tag{RAW.6}
@@ -136,7 +136,7 @@ branch budgets for the witness currencies actually used.
 
 Then `RecordLocalPositiveProductionWitnessCover.A' follows immediately. The
 parent active source gives the witness family before the record is counted; `(RAW.6)'
-gives capture of the positive production that raises \(H\); finite overlap keeps
+gives capture of the net signed work that raises \(H\); finite overlap keeps
 the same record spike from being counted repeatedly; `(RAW.7)' and the strict
 full-exchange storage give the original-data budget; and branch routing assigns
 each witness to a finite same-fluid charge coordinate.
