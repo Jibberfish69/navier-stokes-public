@@ -410,8 +410,12 @@ finite same-carrier strain supports ellipticity, while the open spatial input is
 sharpened in
 `mpp-forward-gold-retained-record-edge-projector-escape-payment-audit-20260703.md`:
 base cutoff/collar/frame leakage is supported, while the open higher-service
-input is `RetainedRecordEdgeHigherProjectorServiceOrExit.A`. The theorem is not
-closed by symbolic calculus alone.
+input is `RetainedRecordEdgeHigherProjectorServiceOrExit.A`. The lower
+higher-service audit now shows that this input is the same stopped primitive
+record/return obstruction after a record-edge admission bridge:
+`RetainedRecordEdgePrimitivePLSDriverAdmission.A` plus the signed scale-potential
+lift, record-average bound, and negative-return charge. The theorem is not closed
+by symbolic calculus alone.
 
 The symbolic reason is the first commutator term in the pseudodifferential
 composition formula. For an order-zero symbol `p\in S^0_{1,0}` and a low
