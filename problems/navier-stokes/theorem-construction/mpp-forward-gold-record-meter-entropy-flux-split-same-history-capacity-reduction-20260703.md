@@ -402,6 +402,17 @@ blocks the circular proof shape: none of the rows may be used as a preallocated
 storage source for another row except through the single feedback matrix with
 spectral radius strictly below one.
 
+The current TFE2748B source rows do not prove `(RMS.20)'. Equations
+`(TFE2748B.1527)'--`(TFE2748B.1531)' construct the active full-exchange ledger
+and strict no-self-feeding margin once the selected parent ledger exists, and
+`(TFE2748B.1541a)'--`(TFE2748B.1556)' show how the critical-source, finite-excess,
+active-transit, and full-exchange faces are the same coupled storage object. They
+do not construct the record-admission row \(dQ^{rec,align}_{P,[a,b]}\) from the
+signed-height record work before readout. Treating the TFE storage rows as that
+admission row would choose the record meter first and then ask the original
+packet to pay for it afterward, which is exactly the post-selection defect in
+record form.
+
 ## 8. Current truth state
 
 Proof/support already available:
@@ -410,7 +421,8 @@ Proof/support already available:
 \begin{array}{c}
 \text{reversible pressure/Hodge/self-advection current,}\\
 \text{raw same-parent pressure-Hodge atom attachment,}\\
-\text{endpoint admission, bounded detector projection, and retained pullback}
+\text{endpoint admission, bounded detector projection, retained pullback,}\\
+\text{and the lower active/full-exchange ledger rows}
 \end{array}
 \Longrightarrow
 \text{consumer support below the record meter.}
@@ -419,8 +431,9 @@ Proof/support already available:
 Checked obstruction:
 
 \[
-\text{current representation, atom pairing, endpoint admission, and Duhamel
-pullback do not prove the strict active full-exchange margin.}
+\text{current representation, atom pairing, endpoint admission, Duhamel
+pullback, and the TFE storage rows do not construct the record-admission row
+from signed-height work before readout.}
 \]
 
 Open producer:
