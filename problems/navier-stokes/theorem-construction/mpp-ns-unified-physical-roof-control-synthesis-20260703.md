@@ -334,6 +334,22 @@ storage. Storage without trace admission budgets a source measure that may not
 be the record production; trace admission without storage localizes the record
 production without an original-data finite budget.
 
+The no-clipping correction sharpens this once more. A record upcrossing from
+\(\lambda\) to \(2\lambda\) already gives
+
+\[
+\int_a^bP(t)\,dt
+=
+H(b)-H(a)+\nu\int_a^bD(t)\,dt
+\ge\lambda .
+\]
+
+Thus the preferred producer is record-net signed work admission, not pointwise
+\(P_+dt\) admission. The older \(P_+dt\) form remains a sufficient stronger test,
+but the pure physical theorem is to identify the signed nonlinear work that
+raised \(H\) inside the parent-announced active source and then prove strict
+same-parent storage for that source.
+
 ## 9. Control consequence
 
 The repo should judge future work from this roof before writing or accepting any
