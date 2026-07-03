@@ -1,10 +1,10 @@
 ---
 theorem_id: forward-gold-record-meter-entropy-flux-split-same-history-capacity-reduction-20260703
-status: strict-reduction-record-active-full-exchange-storage-open
+status: strict-reduction-record-admitted-coupled-parent-storage-open
 created: 2026-07-03
 problem: navier-stokes
 route: forward-gold-signed-critical-height-restart
-logical_landing_node: RecordMeterActiveFullExchangeStorageReduction.A
+logical_landing_node: RecordAdmittedActiveFullExchangeCoupledStorageReduction.A
 source_surfaces:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/source-frontier.yaml
@@ -18,9 +18,11 @@ completion_truth: >-
   entropy-flux split onto the signed-height record-meter problem. The reversible
   pressure/Hodge/self-advection aligned current is same-parent entropy flux
   support. The same-history capacity name is now back-substituted through the
-  current TFE2748B source chain to record parent-adjoint meter admission plus the
-  record-local active-transit/full-exchange parent storage object represented by
-  TFE2748B.1393 and TFE2748B.1555.
+  current TFE2748B source chain to one simultaneous record-admitted parent storage
+  theorem. Record parent-adjoint meter admission and the record-local
+  active-transit/full-exchange parent storage object represented by TFE2748B.1393
+  and TFE2748B.1555 are rows of the same original-packet coupled inequality, not
+  sequential proof chores.
 ---
 
 # Record-meter entropy-flux split / same-history capacity reduction
@@ -320,7 +322,87 @@ pressure-Hodge/tower partner current, low-high first-entry material, and routed
 defects, then to deplete that ledger with strict margin before the record is
 read.
 
-## 7. Current truth state
+## 7. One same-parent theorem
+
+The physical story does not license proving admission first and storage later as
+two detached obligations. The same parent packet that announces the normalized
+record meter must also carry the active-transit and full-exchange storage rows
+that pay the meter. Otherwise the selected record work has been chosen before
+the original packet has proved it had a place to live.
+
+The cleaner noncircular theorem is:
+
+\[
+\texttt{RecordAdmittedActiveFullExchangeCoupledStorage.A}.
+\tag{RMS.20}
+\]
+
+For every thin signed-height record upcrossing, construct before record readout
+the parent-announced normalized record meter \(F^{rec}_{P,[a,b]}\), its aligned
+current \(dQ^{rec,align}_{P,[a,b]}\), the record-critical face
+\(dZ^{crit,rec}_{P,[a,b]}\), the active full-exchange face
+\(d\Xi^{FE,act,rec}_{P,[a,b]}\), the active-transit face
+\(dA^{AT,rec}_{P,[a,b]}\), and bounded-below parent storages
+\((M^{rec},M^{crit},M^{FE},M^{AT})\) from the same original packet. The admission
+row must carry the record work:
+
+\[
+1
+\le
+C_N\int_{[a,b]}dQ^{rec,align}_{P,[a,b]}
++Legal([a,b])+Stop([a,b]).
+\tag{RMS.21}
+\]
+
+The storage rows must be simultaneous:
+
+\[
+\begin{pmatrix}
+dQ^{rec,align}_{P,[a,b]}\\
+dZ^{crit,rec}_{P,[a,b]}\\
+d\Xi^{FE,act,rec}_{P,[a,b]}\\
+dA^{AT,rec}_{P,[a,b]}
+\end{pmatrix}
+\le
+-d
+\begin{pmatrix}
+M^{rec}\\
+M^{crit}\\
+M^{FE}\\
+M^{AT}
+\end{pmatrix}
++
+K^{rec}_P
+\begin{pmatrix}
+dQ^{rec,align}_{P,[a,b]}\\
+dZ^{crit,rec}_{P,[a,b]}\\
+d\Xi^{FE,act,rec}_{P,[a,b]}\\
+dA^{AT,rec}_{P,[a,b]}
+\end{pmatrix}
++
+\mathbf d\Theta_P^0+\mathbf dPaid_P+\mathbf dStop_P,
+\qquad
+\rho(K^{rec}_P)<1.
+\tag{RMS.22}
+\]
+
+After absorption by \((I-K^{rec}_P)^{-1}\), disjoint records obey
+
+\[
+\sum_j\int dQ^{rec,align}_{P_j,[a_j,b_j]}
+\le
+C_N(u_0)+Paid+Legal+Stop .
+\tag{RMS.23}
+\]
+
+Thus `(RMS.20)' implies both clauses of the previous two-face open producer:
+record parent-adjoint meter admission comes from `(RMS.21)', and record-local
+active-transit/full-exchange storage comes from `(RMS.22)'--`(RMS.23)'. It also
+blocks the circular proof shape: none of the rows may be used as a preallocated
+storage source for another row except through the single feedback matrix with
+spectral radius strictly below one.
+
+## 8. Current truth state
 
 Proof/support already available:
 
@@ -344,12 +426,8 @@ pullback do not prove the strict active full-exchange margin.}
 Open producer:
 
 \[
-\boxed{
-\texttt{RecordParentAdjointMeterAdmission.A}
-+
-\texttt{RecordActiveTransitFullExchangeParentStorage.A}.
-}
-\tag{RMS.20}
+\texttt{RecordAdmittedActiveFullExchangeCoupledStorage.A}.
+\tag{RMS.24}
 \]
 
 The physical reading is clean: a record rise gives net work; the parent must
