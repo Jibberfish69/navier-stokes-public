@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-der-aqk-moving-lowhigh-record-return-synthesis-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-primitive-pls-driver-admission-proof-pass-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-primitive-pls-polar-lift-coupled-selector-reduction-20260703.md
 completion_truth: >-
   This note proves no new regularity theorem. It sharpens the open higher
   exact-projector service payment by separating the record-edge admission bridge
@@ -233,13 +234,11 @@ The admission bridge has now been pressure-tested in
 `mpp-forward-gold-retained-record-edge-primitive-pls-driver-admission-proof-pass-20260703.md`.
 Existing Hodge and material-service sources prove the same-packet service
 identity: the higher exact-projector residue is moving pressure/strain service of
-the retained packet, in primitive PLS coordinates. What remains is sign and time
-order:
+the retained packet, in primitive PLS coordinates. The sign and time order are
+coupled by the stopped selector cone:
 
 ```math
-\texttt{RetainedRecordEdgePrimitivePLSPolarLift.A}
-+
-\texttt{RetainedRecordEdgeStoppedLineBeforeReadout.A}
+\texttt{RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A}
 \Longrightarrow
 \texttt{RetainedRecordEdgePrimitivePLSDriverAdmission.A}.
 \tag{RPR.14a}
@@ -275,9 +274,7 @@ This is a strict reduction, not a proof of `(RPR.2)`. The open physical inputs
 are now:
 
 ```math
-\texttt{RetainedRecordEdgePrimitivePLSPolarLift.A},
-\qquad
-\texttt{RetainedRecordEdgeStoppedLineBeforeReadout.A},
+\texttt{RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A},
 \qquad
 \texttt{StoppedPrimitivePLSSignedScalePotentialLift.A},
 \qquad
@@ -292,5 +289,5 @@ pressure/strain pump, primitive PLS driver, strict half-barrier, and affine
 record/return survivor are the same physical obstruction under different
 coordinates. The current proof cannot move by adding another local projector,
 collar, or dyadic commutator calculation. It must admit the record edge into the
-same stopped primitive scale-potential story with a polar signed lift and
-pre-readout stopped line, then pay records or returns there.
+same stopped primitive scale-potential story through one pre-readout stopped
+primitive channel admission, then pay records or returns there.
