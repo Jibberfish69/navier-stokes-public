@@ -20,6 +20,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-upcrossing-criterion-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-upcrossing-same-fluid-charge-audit-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-thin-record-upcrossing-production-obstruction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-upcrossing-branch-exhaustion-reduction-20260703.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -290,6 +291,15 @@ adds the first forced lower edge: a record upcrossing from \(\lambda\) to
 This is same-fluid critical service, but not an original-data finite budget. So
 the active proof burden is the event-local conversion from forced critical
 service into a finite same-fluid charge.
+
+The branch-exhaustion reduction is installed in
+`mpp-forward-gold-record-upcrossing-branch-exhaustion-reduction-20260703.md`.
+It consolidates the live branches into
+`RecordLocalCriticalServiceChargeExhaustion.A`: every thin signed-height record
+upcrossing must land nonanticipatorily in high-weight reset, affine Schur,
+superheat residence/acceleration, or another finite same-fluid charge with
+original-data total budget. This is now the pure form of the remaining Gold
+work under the physical roof.
 
 ## 9. Control consequence
 
