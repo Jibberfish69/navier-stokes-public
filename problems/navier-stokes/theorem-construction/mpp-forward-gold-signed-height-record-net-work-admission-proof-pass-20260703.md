@@ -12,7 +12,9 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-upcrossing-criterion-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-heatdwell-sampling-direct-attempt-and-bv-correction-20260506.md
+  - problems/navier-stokes/theorem-construction/mpp-active-height-flux-trichotomy-route-20260506.md
   - problems/navier-stokes/theorem-construction/mpp-terminal-adjoint-response-native-edge-anchoring-l3-direct-attempt-20260522.md
+  - problems/navier-stokes/theorem-construction/derivative-lp-compatibility-bridge-note.md
 completion_truth: >-
   This is a proof pass and strict reduction, not Gold closure. It replaces the
   pointwise positive-production trace target by the physically weaker record-net
@@ -112,6 +114,19 @@ instead of accumulated pointwise positive strain. This is the same no-clipping
 principle, but it is support only; it leaves `NetPackSpend.A' as the theorem to
 prove.
 
+The active-height-flux route gives the same shape downstream. After heat-dwell
+sampling has replaced accumulated positive action by net action on one heat
+window, the remaining estimate is exactly `NetPackSpend.A': bound the positive
+net strain by transported deformation, frame error, and packet error ledgers.
+So the physical story has already pushed this class of problem away from
+clipping and toward net-window spend.
+
+The derivative-LP bridge supplies the algebraic localization pattern. It replaces
+the false monolithic localization claim by the explicit Bony split: strict
+low-high coefficient packet, strict high-low coefficient packet, and finite-collar
+resonant packet. That is support for writing the signed record work as native
+work forms; it is not yet storage.
+
 The terminal adjoint-response note gives the necessary warning. A large signed
 work pairing is not enough unless the response covector is anchored to the native
 same-fluid source edge: same high packet, same retained family, same low strain
@@ -129,22 +144,26 @@ The direct proof attempt is:
 
 1. use `(RNW.2)' to get positive net nonlinear work on the record interval;
 2. decompose that work into parent-native signed work forms \(\omega_W\);
-3. charge the positive net witness work by strict same-parent storage.
+3. anchor those forms to the actual native same-fluid source edge;
+4. charge the positive net witness work by strict same-parent storage.
 
-Step 1 is installed. Steps 2 and 3 are not.
+Step 1 is installed. Step 2 is algebraically supported by the LP/Bony split and
+related native-source decompositions, but only at the level of coordinates. Steps
+3 and 4 are not installed.
 
-The obstruction is not clipping. The obstruction is native admission plus
+The obstruction is not clipping, and it is not the existence of a formal
+frequency decomposition. The obstruction is native edge anchoring plus
 scale-normalized storage. The scalar quantity
 
 \[
 \int_a^bP(t)\,dt
 \]
 
-is global in the field. It does not by itself name the parent interval, carrier,
-direction, low-strain coefficient, pressure-Hodge current, Schur coordinate,
-reset interval, or superheat branch that must pay it. Choosing those after the
-record is known would recreate the same post-readout selection problem in a net
-form.
+is global in the field. A Bony or pressure-Hodge split can express it in legal
+coordinates, but that expression does not by itself prove that the selected
+record work is anchored to the same parent edge with a finite source budget.
+Choosing the paying edge after the record is known would recreate the same
+post-readout selection problem in a net form.
 
 ## 5. Strict reduction
 
@@ -172,7 +191,7 @@ The remaining open theorem is:
 
 \[
 \boxed{
-\text{native same-parent admission of record-net signed work}
+\text{native same-parent edge anchoring of record-net signed work}
 +
 \text{scale-normalized no-self-feeding storage.}
 }
@@ -181,3 +200,16 @@ The remaining open theorem is:
 
 Until `(RNW.8)' is proved, Gold has a strict reduction and a sharper obstruction,
 not closure.
+
+Equivalently, the next cleaner producer is:
+
+\[
+\texttt{RecordNetWorkNativeEdgeSpend.A}.
+\tag{RNW.9}
+\]
+
+It says that the net signed work that raised a record \(H\)-event can be placed
+on parent-native edges by the algebraic split, anchored to the actual same-fluid
+high packet and low strain/current coefficient, and spent with a
+scale-normalized same-parent storage budget. The algebraic split is support; the
+edge anchoring and spend are the theorem.
