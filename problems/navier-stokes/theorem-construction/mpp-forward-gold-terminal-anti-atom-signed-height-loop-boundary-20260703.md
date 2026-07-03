@@ -11,6 +11,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-restart-after-positive-clipping-demotion-20260702.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-peak-control-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-upcrossing-criterion-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-net-work-selected-meter-aligned-current-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-net-work-terminal-anti-atom-reserve-reduction-20260703.md
 completion_truth: >-
   This note installs a noncircularity boundary. It does not prove the Gold
