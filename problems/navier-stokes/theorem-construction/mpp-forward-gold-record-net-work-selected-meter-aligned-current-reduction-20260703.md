@@ -288,3 +288,10 @@ the storage half,
 `RecordNativeWorkMenuPositiveSelectionStorage.A`: finite positive-selection
 storage for all future record choices drawn from that preannounced menu. The
 aligned-current/Fisher theorem is downstream of that reserve.
+
+The current lower bridge into that reserve is
+`RecordMenuCriticalFaceAdmission.A'. It must map every future-positive native
+work edge into the parent positive-baseline log/root face, zero-baseline
+endpoint-seed face, or active full-exchange face before the record readout. The
+aligned-current/Fisher theorem may consume that face admission; it cannot replace
+it.
