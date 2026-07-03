@@ -194,6 +194,10 @@ record-edge admission bridge plus the stopped primitive record/return package:
 `StoppedPrimitivePLSSignedScalePotentialLift.A`,
 `StoppedPotentialRecordAverageBound.A`, and
 `StoppedNegativeScaleReturnCharge.A`.
+The admission bridge itself is now sharpened: Hodge/material-service sources
+give same-packet pressure/strain identity, while the open lower inputs are
+`RetainedRecordEdgePrimitivePLSPolarLift.A` and
+`RetainedRecordEdgeStoppedLineBeforeReadout.A`.
 
 ## 4. Obstruction state
 
