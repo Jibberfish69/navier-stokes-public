@@ -19,9 +19,8 @@ completion_truth: >-
   This note proves a strict reduction, not Gold closure. It shows that the scalar
   critical-service lower bound is too coarse to choose a finite charge branch.
   The positive-production witness cover is now identified as the signed-height
-  record-local projection of the before-clipping parent active-density/full-
-  exchange source wall. That parent source wall remains open from arbitrary
-  original data.
+  record-local projection of the parent-announced active-density/full-exchange
+  source wall. That parent source wall remains open from arbitrary original data.
 ---
 
 # Record-local positive-production witness cover reduction
@@ -74,8 +73,8 @@ original same-fluid packet a finite-overlap family of witnesses
 \({\mathcal W}_{[a,b]}\) such that:
 
 1. the witnesses are nonanticipatory: their parent interval, material carrier,
-   selected direction, and charge coordinate are declared before the child
-   positive readout being charged;
+   selected direction, and charge coordinate are declared before the record-positive
+   readout being charged;
 2. the witnesses capture a fixed part of the positive production:
 
    \[
@@ -167,24 +166,24 @@ time window, and charge coordinate before the burst.
 
 The unification note
 `mpp-forward-gold-record-witness-cover-active-density-source-wall-unification-20260703.md`
-identifies `(PWC.7)' as the record-local face of the before-clipping parent
+identifies `(PWC.7)' as the record-local face of the parent-announced
 active-density/full-exchange source wall. In that reading, the missing theorem is
 not a new branch ledger. It is the event-local active-density witness theorem:
-construct the parent-known source measure for the \(P_+\) that raises \(H(t)\),
-with finite overlap and strict no-self-feeding storage, before child positive
-clipping.
+construct the parent-known source measure for the record-positive part of \(P\)
+that raises \(H(t)\), with finite overlap and strict no-self-feeding storage
+before the record is counted.
 
 The active-density proof pass
 `mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md`
 then separates the two missing producer faces inside that event-local theorem:
-the actual signed-height \(P_+dt\) trace must be admitted to the parent active
-source before clipping, and the parent source must have noncircular strict
+the actual signed-height record-positive production trace must be admitted to the
+parent active source before it is counted, and the parent source must have noncircular strict
 same-parent storage.
 
 ## 6. Result
 
 The next Gold producer is not another scalar estimate for \(D\). It is the
-nonanticipatory witness-cover theorem for the positive production \(P_+\) that
+nonanticipatory witness-cover theorem for the record-positive production that
 actually raises the signed critical height, now sharpened to signed-height trace
 admission into the parent active source plus strict same-parent storage.
 
