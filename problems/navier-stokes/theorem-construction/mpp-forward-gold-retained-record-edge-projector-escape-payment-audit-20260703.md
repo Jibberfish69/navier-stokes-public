@@ -233,6 +233,19 @@ This prevents an overclaim: the older stopped record/return package cannot be
 used until the arbitrary record-menu residue is first admitted into the same
 stopped primitive scale-potential line before record readout.
 
+The admission bridge has now been reduced one level lower. Existing Hodge and
+material-service sources identify the higher projector residue as same-packet
+moving pressure/strain service; the open part is the sign-and-timing admission
+
+```math
+\texttt{RetainedRecordEdgePrimitivePLSPolarLift.A}
++
+\texttt{RetainedRecordEdgeStoppedLineBeforeReadout.A}
+\Longrightarrow
+\texttt{RetainedRecordEdgePrimitivePLSDriverAdmission.A}.
+\tag{REP.10b}
+```
+
 ## 7. Current truth state
 
 ```math
