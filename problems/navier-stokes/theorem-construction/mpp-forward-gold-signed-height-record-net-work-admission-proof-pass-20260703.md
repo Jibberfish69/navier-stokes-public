@@ -626,3 +626,79 @@ This is a genuine smaller theorem, not another alias for storage. It asks for
 the physical visibility bridge from same-fluid work to parent critical/root
 currency. Once that bridge is proved, the existing positive-baseline,
 zero-baseline, and active full-exchange machinery has a lawful object to store.
+
+## 12. Frozen-symbol faithfulness is the next lower test
+
+The direct proof of `(RNW.28)' now has a concrete physical test. Freeze one
+retained material packet before record readout. The native edge has a high
+packet, a low strain/current coefficient, and a material time coordinate. Write
+its retained source amplitude as \(z_e(a,\xi)\). Let \(w_{rec}(a,\xi)\) be the
+signed-height work symbol read by the record, \(m_{root}(a,\xi)\) the parent
+root/pressure-Hodge critical detector, and \(m_{FE}(a,\xi)\) the active
+full-exchange detector.
+
+The needed pointwise faithfulness is:
+
+\[
+[w_{rec}(a,\xi)z]_+
+\le
+C_N\left(
+|m_{root}(a,\xi)z|
++
+|m_{FE}(a,\xi)z|
+\right)
++r_{legal}(a,\xi)+r_{stop}(a,\xi).
+\tag{RNW.31}
+\]
+
+Equivalently, after quotienting legal gauge directions and stopped exits:
+
+\[
+m_{root}(a,\xi)z=0,\qquad
+m_{FE}(a,\xi)z=0
+\quad\Longrightarrow\quad
+[w_{rec}(a,\xi)z]_+=0.
+\tag{RNW.32}
+\]
+
+Call this lower theorem
+
+\[
+\texttt{RecordMenuSelectedSymbolKernelExclusion.A}.
+\tag{RNW.33}
+\]
+
+It is the record-menu analogue of the older
+`SelectedSymbolKernelExclusion.A' pressure-Hodge boundary. The physical meaning
+is simple: a same-fluid high-packet/low-strain work edge may not sit in the
+joint nullspace of the parent root detector and the active full-exchange
+detector while still carrying positive record work.
+
+There is one operator-level companion debt. The exact weighted Hodge/root
+projector does not preserve Littlewood-Paley shells, so the commutator from the
+derivative-LP note must be lower-order, legal, stopped, or already active-paid:
+
+\[
+[\Delta_j,\Pi_G^{ex}]\,Z_e
+\in
+Legal_e+Stop_e+Lower_e+2^{-cN}\,FE_e.
+\tag{RNW.34}
+\]
+
+If `(RNW.33)' and `(RNW.34)' are proved uniformly on the retained packet class,
+then compactness on the normalized frozen symbol bundle gives `(RNW.29)', hence
+`RecordMenuRootProjectionFaithfulness.A'. If either fails, the obstruction is
+also physical: a high packet can perform positive signed-height work against a
+low strain/current coefficient while the parent pressure-Hodge/root and active
+full-exchange detectors see no pre-readout charge.
+
+Thus the current strict reduction is now:
+
+\[
+\texttt{RecordMenuSelectedSymbolKernelExclusion.A}
++
+\texttt{exact-projector commutator admission}
+\Longrightarrow
+\texttt{RecordMenuRootProjectionFaithfulness.A}.
+\tag{RNW.35}
+\]
