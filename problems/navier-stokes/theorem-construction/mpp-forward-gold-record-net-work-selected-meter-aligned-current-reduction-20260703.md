@@ -216,3 +216,39 @@ the installed routing reductions, the remaining record-normalized source is:
 Thus `(RSA.9)' is lowered to record parent-adjoint meter admission plus
 record-terminal anti-atom reserve / tail-material-record payment. This remains
 open from arbitrary original smooth data.
+
+## 7. Post-boundary producer status
+
+The terminal anti-atom loop boundary now fixes how to read Section 6. The
+terminal anti-atom reserve is a terminal support face below the selected-meter
+route, not the primitive Gold producer. It may help only after it is derived from
+the same signed-height record event and supplies the record-upcrossing
+thickness-or-charge criterion.
+
+The noncircular producer candidate exposed by this note remains the record-meter
+form of aligned-current domination. For every thin record upcrossing, the proof
+must construct before readout a parent-announced normalized record meter such
+that
+
+\[
+1
+\le
+C_N\int dQ_{P,[a,b]}^{align}
++Legal([a,b])+Stop([a,b]),
+\tag{RSA.11}
+\]
+
+and for disjoint record upcrossings,
+
+\[
+\sum_j
+\int dQ_{P_j,[a_j,b_j]}^{align}
+\le
+C_N(u_0)+Paid+Legal+Stop.
+\tag{RSA.12}
+\]
+
+Equations `(RSA.11)' and `(RSA.12)' give the finite unit charge required by the
+signed-height record criterion. Current representation, atom pairing, and
+terminal anti-atom routing are support unless they prove these two record-meter
+claims from the same Navier-Stokes packet.
