@@ -421,6 +421,13 @@ window, and charge coordinate. The coupled storage matrix may absorb the
 record-aligned current only after a parent-known positive-selection reserve has
 proved that the record's positive excess came from that preannounced menu.
 
+The current menu pass proves the identity/admission half of that pressure test
+from the before-readout native work decomposition. The open input for this
+entropy-flux split is now the storage half,
+`RecordNativeWorkMenuPositiveSelectionStorage.A'. Existing TFE rows can absorb
+the admitted record-aligned current only after that whole-menu positive-selection
+reserve has been proved from the original packet.
+
 ## 8. Current truth state
 
 Proof/support already available:
@@ -442,7 +449,7 @@ Checked obstruction:
 \text{current representation, atom pairing, endpoint admission, Duhamel
 pullback, and the TFE storage rows do not construct the record-admission row
 from signed-height work before readout, and they do not prove the positive
-selection reserve over the preannounced native work menu.}
+selection storage law over the preannounced native work menu.}
 \]
 
 Open producer:
