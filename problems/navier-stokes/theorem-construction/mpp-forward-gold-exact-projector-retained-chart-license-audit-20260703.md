@@ -20,6 +20,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coefficient-frame-clock-absorbed-by-strain-log-storage-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-hodge-projection-commutator-pressure-operator-reduction-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-projector-escape-payment-audit-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-higher-projector-service-record-return-reduction-20260703.md
 completion_truth: >-
   This note proves no new regularity theorem. It audits the retained-chart
   source surfaces and reduces ExactProjectorDyadicParametrix.A to a concrete
@@ -187,7 +188,12 @@ collar, and coefficient-frame notes. The open input is
 `RetainedRecordEdgeHigherProjectorServiceOrExit.A`: higher pressure/RHS,
 annular-stress, higher-collar, finite-depth tower, and moving-chart exact
 projector residues must be paid by finite same-material service or route out
-before record readout.
+before record readout. The higher-service reduction now lowers that input to the
+record-edge admission bridge plus the stopped primitive record/return package:
+`RetainedRecordEdgePrimitivePLSDriverAdmission.A`,
+`StoppedPrimitivePLSSignedScalePotentialLift.A`,
+`StoppedPotentialRecordAverageBound.A`, and
+`StoppedNegativeScaleReturnCharge.A`.
 
 ## 4. Obstruction state
 
