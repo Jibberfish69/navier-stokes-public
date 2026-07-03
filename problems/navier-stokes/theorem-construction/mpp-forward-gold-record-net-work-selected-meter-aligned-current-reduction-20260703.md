@@ -280,3 +280,11 @@ parent charge coordinate must exist before the record is read. The record may
 then select only positive net work from that already stored menu. Thus the
 aligned-current/Fisher theorem cannot start by choosing the record payer; it must
 consume a parent-known positive-selection reserve over the native menu.
+
+The menu pass now separates what is already supplied from what remains. The
+LP/Bony/native work decomposition gives the preannounced menu and the record
+admission inequality. The open producer feeding this aligned-current reduction is
+the storage half,
+`RecordNativeWorkMenuPositiveSelectionStorage.A`: finite positive-selection
+storage for all future record choices drawn from that preannounced menu. The
+aligned-current/Fisher theorem is downstream of that reserve.
