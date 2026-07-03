@@ -359,6 +359,12 @@ scale-normalized no-self-feeding storage. It also records why the current repo
 does not close that producer: a global signed work scalar is not yet a
 parent-native source face with finite original-data storage.
 
+The sharper reading is that algebraic localization is not the wall. LP/Bony and
+pressure-Hodge decompositions can give legal work coordinates. The remaining
+producer is `RecordNetWorkNativeEdgeSpend.A`: anchor the net signed record work
+to the actual same-fluid high packet and low strain/current edge, then spend that
+edge through scale-normalized same-parent storage.
+
 ## 9. Control consequence
 
 The repo should judge future work from this roof before writing or accepting any
