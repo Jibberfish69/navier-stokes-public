@@ -22,6 +22,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-thin-record-upcrossing-production-obstruction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-upcrossing-branch-exhaustion-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-positive-production-witness-cover-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-witness-cover-active-density-source-wall-unification-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -93,10 +95,15 @@ bridge into it.
 ### Gold forward program
 
 Gold aims at positive continuation control. Its current primitive is the signed
-critical-height equation above. Selected positive variation, child clipping,
-TFE2748B critical-capacity language, same-parent storage, atom ledgers, and
-source-reserve terminology are support coordinates until they prove the signed
-critical-height sign-persistence or peak-height theorem.
+critical-height equation above. Selected positive variation, post-readout
+positive bookkeeping, TFE2748B critical-capacity language, same-parent storage,
+atom ledgers, and source-reserve terminology are support coordinates until they
+prove the signed critical-height sign-persistence or peak-height theorem.
+
+No clipping operation is needed to state the Gold method. The only lawful use of
+positive notation here is after a signed record interval has already been fixed:
+\(P_+\) names the positive part of the signed production on that event, not a new
+primitive proof engine.
 
 Gold closure standard:
 
@@ -160,14 +167,14 @@ closure.
 
 The following statuses are installed for current NS control.
 
-### Selected positive L1 / child clipping
+### Selected positive L1 / post-readout positive bookkeeping
 
 Status: sufficient stress test and support coordinate.
 
-A positive-clipped integral measures upward variation of a chosen readout. The
-primitive physical object is the signed height. A positive-clipping theorem gains
-Gold force only by proving sign persistence, peak-height control, or an explicit
-bridge into those statements.
+A positive-part integral measures upward variation of a chosen readout. The
+primitive physical object is the signed height. A positive-variation theorem
+gains Gold force only by proving sign persistence, peak-height control, or an
+explicit bridge into those statements.
 
 ### Child, atom, shell, and point-sample sums
 
@@ -314,17 +321,18 @@ The source-wall unification is installed in
 It identifies that witness cover as the signed-height record-local projection of
 the before-clipping parent active-density/full-exchange source wall. Thus the old
 TFE2748B storage work and the new signed-height record work are one physical
-story: original same-fluid packet, parent-known source before child clipping,
-record-local \(P_+\) witnesses, finite branch charges, peak control for \(H(t)\).
+story: original same-fluid packet, parent-known source before any post-readout
+positive bookkeeping, record-local signed production witnesses, finite branch
+charges, peak control for \(H(t)\).
 
 The active-density proof pass is installed in
 `mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md`.
 It sharpens that story at the first nonconsumer arrow: the actual signed-height
-\(P_+dt\) trace must be admitted to the parent active source before clipping, and
-that source must carry noncircular strict same-parent storage. Storage without
-trace admission budgets a source measure that may not be the record production;
-trace admission without storage localizes the record production without an
-original-data finite budget.
+record-positive production trace must be shown to be parent-known before the
+record is counted, and that source must carry noncircular strict same-parent
+storage. Storage without trace admission budgets a source measure that may not
+be the record production; trace admission without storage localizes the record
+production without an original-data finite budget.
 
 ## 9. Control consequence
 
