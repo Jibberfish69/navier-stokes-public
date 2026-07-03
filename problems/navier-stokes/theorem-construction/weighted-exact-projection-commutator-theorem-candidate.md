@@ -439,10 +439,31 @@ C_G\,2^{-j}
 \tag{WEP.2m6}
 ```
 
-which closes the quantified commutator estimate `(WEP.2')`. The extra
+which closes the quantified commutator estimate `(WEP.2')` once
+`ExactProjectorDyadicParametrix.A` is supplied. The extra
 `\|a_{<j-C}\|_{L^\infty_a}\,\|\nabla_a G\|_{L^\infty_a}` factor is precisely
 the cost of passing from the frozen projector symbol to the full
 variable-coefficient realization.
+
+Thus `(WEP.2')' is strictly reduced as follows:
+
+```math
+\boxed{
+\texttt{ExactProjectorDyadicParametrix.A}
++
+\texttt{standard low-high }S^0\texttt{ commutator calculus}
+\Longrightarrow
+\texttt{WEP.2'}.
+}
+\tag{WEP.2m7}
+```
+
+The second input is standard once `(WEP.A2)' is available: its principal symbol
+is \(i\,\partial_\xi p_G\cdot\nabla a_{<j-C}\), which carries the dyadic factor
+`2^{-j}` on the active shell. The first input is the nontrivial exact-projector
+realization for the weighted divergence-form operator. Until that parametrix is
+proved on the retained packet class, `(WEP.2')' remains a strict reduction, not
+an installed theorem.
 
 ## Pressure-Ledger Version
 
