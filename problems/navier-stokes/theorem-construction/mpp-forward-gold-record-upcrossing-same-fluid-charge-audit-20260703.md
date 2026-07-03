@@ -14,12 +14,14 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-superheat-no-free-acceleration-direct-test-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-thin-record-upcrossing-production-obstruction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-upcrossing-branch-exhaustion-reduction-20260703.md
 completion_truth: >-
   This note audits the existing no-free-upcrossing, Schur, superheat, and
   high-weight escape surfaces against the new signed-height record-upcrossing
   criterion. It does not prove Gold closure. It identifies a branch-local charge
-  that is already conditional, and it states the exact missing bridge needed to
-  turn that charge into the signed-height peak-control theorem.
+  that is already conditional, and it states the exact branch-exhaustion bridge
+  needed to turn thin record-spike critical service into the signed-height
+  peak-control theorem.
 ---
 
 # Record-upcrossing same-fluid charge audit
@@ -36,7 +38,7 @@ support_surfaces: no-free-upcrossing, high-weight escape, affine Schur, superhea
 closure_standard: every high record upcrossing has scale-aware thickness or pays a finite same-fluid charge
 proxy_risk: replacing signed-height records by selected L1, atom counts, child sums, or storage labels
 result_class: conditional reduction and obstruction audit
-next_hinge: prove the record-upcrossing localization-to-charge bridge from the original NS packet
+next_hinge: prove RecordLocalCriticalServiceChargeExhaustion.A from the original NS packet
 ```
 
 The signed-height record criterion says that Gold closes if every high record
@@ -151,6 +153,8 @@ cheap peak-thickness arguments, not a completed charge.
 ## 3. Conditional bridge into the record criterion
 
 The existing route pieces imply the record criterion under the following bridge.
+The branch-exhaustion reduction isolates this as
+`RecordLocalCriticalServiceChargeExhaustion.A`.
 
 **Record localization-to-charge bridge.** For every high record upcrossing
 \([a,b]\) of \(H(t)\), if the thickness alternative fails, then the same-fluid
@@ -194,7 +198,7 @@ where that charge has to come from.
 
 ## 5. Next theorem object
 
-The next noncircular Gold theorem is:
+The next noncircular Gold theorem is the branch-exhaustion form of:
 
 \[
 \texttt{RecordUpcrossingSameFluidCharge.A}
@@ -208,3 +212,15 @@ This theorem is smaller than the full MPP because the record criterion has
 already proved that such a charge implies peak control. It is still not a
 support note: it is the exact PDE bridge from the consolidated physical story to
 the signed-height Gold target.
+
+The sharp subtheorem now named by the branch-exhaustion reduction is:
+
+\[
+\texttt{RecordLocalCriticalServiceChargeExhaustion.A}.
+\]
+
+It says that the scalar forced-service lower bound for a thin record spike must
+land nonanticipatorily in high-weight reset, affine Schur, superheat
+residence/acceleration, or another finite same-fluid branch charge. Any forced
+critical service that lands in none of those branches is the remaining
+obstruction, not progress.
