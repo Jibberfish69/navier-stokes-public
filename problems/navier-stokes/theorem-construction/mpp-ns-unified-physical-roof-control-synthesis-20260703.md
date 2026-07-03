@@ -387,6 +387,15 @@ would prevent the record from hiding its positive excess in an unstored legal
 edge coordinate. The current repo has coordinate and covector support for this
 menu, but not the positive-selection reserve itself.
 
+The current proof pass separates those two halves. The preannounced menu and
+record admission follow from the before-readout LP/Bony/native work
+decomposition of the signed production \(P(t)\). The remaining producer is
+`RecordNativeWorkMenuPositiveSelectionStorage.A': a finite original-data
+Carleson/BV/storage reserve for the positive net selections drawn from that menu
+over all future disjoint signed-height records. Existing TFE root-generator,
+log-carrier, critical-source, and full-exchange storage rows are support after
+their selected ledgers exist; they do not yet prove this whole-menu reserve.
+
 The sharper reading is that algebraic localization is not the wall. LP/Bony and
 pressure-Hodge decompositions can give legal work coordinates. The remaining
 producer is `RecordNetWorkNativeEdgeSpend.A`: anchor the net signed record work
