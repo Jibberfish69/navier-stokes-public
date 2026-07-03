@@ -11,6 +11,12 @@ authority_sync_gate:
   all_discharged: false
   blocking_count: 1
   frontier_count: 1
+  route_topology: dual-gold-silver-same-object
+  route_topology_rule: >-
+    Treat Gold and Silver as simultaneous lanes on the same theorem object.
+    Gold carries the direct regularity / controlled-evolution obligation.
+    Silver carries the obstruction-exclusion / CM class-exit obligation.
+    Neither lane is a fallback or completion substitute for the other.
   truth_priority:
   - live-theorem-edge.yaml
   - source-frontier.yaml
@@ -46,10 +52,16 @@ authority_sync_gate:
     status: support-not-silver-blocker
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
 central_gate:
-  gate_id: cm-witness-face-bridge
-  target: Every Silver theorem result must test the original participation law and
-    land in Part_{N,Q} or Field_{N,r,Q}, with Pack_Q only as carrier-window evidence
-    for Field, or remain branch-support only.
+  gate_id: gold-silver-same-object-route-bridge
+  target: Every theorem result must name the shared Navier-Stokes object, record
+    the Gold direct proof state for that object, and record the Silver obstruction-exclusion
+    proof state for that same object. A Silver theorem result must test the original
+    participation law and land in Part_{N,Q} or Field_{N,r,Q}, with Pack_Q only as
+    carrier-window evidence for Field, or remain branch-support only.
+  gold_lane_target: Direct regularity / controlled evolution for the same theorem object.
+  silver_lane_target: Obstruction exclusion / CM class exit for the same theorem object.
+  no_fallback_order: Gold is not tried before Silver; Silver is not fallback cleanup
+    after Gold fails.
   governing_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
   witness_form: 'finite same-surface terminal CM witness: CM-test entry followed by
     not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, which supports Exit(Q):=not Member(Q)'
@@ -65,6 +77,9 @@ central_gate:
     required_fields:
     - user_question_or_action
     - action_type
+    - shared_target_object
+    - gold_lane_state
+    - silver_lane_state
     - proof_mode_or_transfer_mode
     - target_object
     - direct_live_authority_surface
@@ -80,8 +95,11 @@ central_gate:
       live surfaces first. Ask the user exactly one referent-lock question only if
       the current prompt and direct live surfaces still do not identify the field.
     language_boundary: Do not say "the route", "the wall", "the path", or "the method"
-      unless the sentence names the exact proof mode or says explicitly that it is
-      only a dashboard/release gate.
+      unless the sentence names the exact proof mode, identifies the shared Gold/Silver
+      object, or says explicitly that it is only a dashboard/release gate.
+    parallel_pairing_rule: Positive smoothness and CM contrapositive proof work are
+      paired by default only as Gold and Silver lanes on the same object. Their proof
+      logic is not merged and neither lane inherits completion from the other.
     must_not_merge:
     - positive smoothness proof
     - CM contrapositive class-exit proof
@@ -97,6 +115,7 @@ central_gate:
     proof_mode:
       meaning: The proof program or comparison mode being discussed.
       allowed_values:
+      - gold_silver_dual_route
       - positive_smoothness
       - cm_contrapositive_class_exit
       - fixed_nu_euler_to_ns_transfer
