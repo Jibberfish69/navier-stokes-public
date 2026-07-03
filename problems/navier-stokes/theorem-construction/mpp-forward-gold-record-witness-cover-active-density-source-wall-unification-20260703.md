@@ -10,13 +10,16 @@ source_surfaces:
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-positive-production-witness-cover-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-upcrossing-branch-exhaustion-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-coupled-storage-loop-audit-20260702.md
 completion_truth: >-
   This note is a strict unification/reduction, not Gold closure. It identifies
   RecordLocalPositiveProductionWitnessCover.A as the signed-height record-local
   projection of the before-clipping parent active-density/full-exchange source
-  wall. The parent source wall remains unproved from arbitrary original data.
+  wall. The sharpened proof pass shows that this projection still needs
+  signed-height positive-production trace admission plus noncircular same-parent
+  coupled storage from arbitrary original data.
 ---
 
 # Record witness cover and active-density source-wall unification
@@ -179,3 +182,12 @@ The open producer is the first arrow that is not already a consumer: construct
 the parent active-density/full-exchange source in the event-local form
 `RecordLocalActiveDensityWitnessCover.A' from arbitrary original smooth data,
 with strict no-self-feeding margin, before child positive clipping.
+
+The proof pass
+`mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md`
+sharpens this first arrow into two coupled obligations. The actual signed-height
+positive production trace \(P_+dt\) must be admitted to the parent active source
+before clipping, and that same parent source must carry a noncircular strict
+coupled storage inequality. Parent storage without trace admission budgets the
+wrong measure; trace admission without strict storage localizes the spike without
+an original-data finite budget.
