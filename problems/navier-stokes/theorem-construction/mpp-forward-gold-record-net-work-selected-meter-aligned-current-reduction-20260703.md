@@ -262,3 +262,12 @@ producer is one simultaneous record-admitted active/full-exchange parent storage
 theorem. The parent-announced record meter, its aligned-current admission row,
 and the active-transit/full-exchange storage rows must be built from the same
 original packet before readout, with strict spectral-radius absorption.
+
+The upstream admission-row pressure test in
+`mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md`
+fixes what the admission row must supply. The signed-height equation proves
+positive scalar record work, but not its parent source address. LP/Bony
+localization and terminal adjoint response give coordinate and covector support;
+they do not prove that the record work was preannounced on the same native
+high-packet/low-coefficient edge. Until that native-edge preannouncement is
+proved, the TFE active/full-exchange rows remain lower-row support.
