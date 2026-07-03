@@ -309,6 +309,14 @@ It sharpens the proof method: the route must localize the positive production
 open producer is `RecordLocalPositiveProductionWitnessCover.A`, a
 nonanticipatory parent-known witness cover feeding the branch charges above.
 
+The source-wall unification is installed in
+`mpp-forward-gold-record-witness-cover-active-density-source-wall-unification-20260703.md`.
+It identifies that witness cover as the signed-height record-local projection of
+the before-clipping parent active-density/full-exchange source wall. Thus the old
+TFE2748B storage work and the new signed-height record work are one physical
+story: original same-fluid packet, parent-known source before child clipping,
+record-local \(P_+\) witnesses, finite branch charges, peak control for \(H(t)\).
+
 ## 9. Control consequence
 
 The repo should judge future work from this roof before writing or accepting any

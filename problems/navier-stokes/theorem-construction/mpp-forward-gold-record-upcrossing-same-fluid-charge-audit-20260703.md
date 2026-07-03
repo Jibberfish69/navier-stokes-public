@@ -229,4 +229,6 @@ obstruction, not progress.
 The witness-cover reduction adds the upstream source condition: the record spike
 must produce parent-known positive-production witnesses before those branch
 charges are allowed to count it. Aggregate \(D\)-service alone does not supply
-that admission map.
+that admission map. The active-density source-wall unification identifies that
+admission map as the record-local projection of the before-clipping parent
+active-density/full-exchange source wall.

@@ -12,12 +12,15 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-predictable-weight-first-exit-split-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-schur-residence-thickness-gate-attempt-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-superheat-ratio-tail-moment-reduction-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-witness-cover-active-density-source-wall-unification-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md
 completion_truth: >-
   This note proves a strict reduction, not Gold closure. It shows that the scalar
   critical-service lower bound is too coarse to choose a finite charge branch.
-  The next producer is a nonanticipatory positive-production witness cover for
-  each thin signed-height record spike, followed by the finite branch-budget
-  theorems for the witnesses actually used.
+  The positive-production witness cover is now identified as the signed-height
+  record-local projection of the before-clipping parent active-density/full-
+  exchange source wall. That parent source wall remains open from arbitrary
+  original data.
 ---
 
 # Record-local positive-production witness cover reduction
@@ -159,7 +162,22 @@ circular. It would let the proof select exactly the burst it wants to count
 without proving that the same parent packet announced the carrier, direction,
 time window, and charge coordinate before the burst.
 
-## 5. Result
+## 5. Active-density source-wall unification
+
+The unification note
+`mpp-forward-gold-record-witness-cover-active-density-source-wall-unification-20260703.md`
+identifies `(PWC.7)' as the record-local face of the before-clipping parent
+active-density/full-exchange source wall. In that reading, the missing theorem is
+not a new branch ledger. It is the event-local active-density witness theorem:
+construct the parent-known source measure for the \(P_+\) that raises \(H(t)\),
+with finite overlap and strict no-self-feeding storage, before child positive
+clipping.
+
+This keeps the old TFE2748B active-density/full-exchange work as support under
+the signed-height restart. It becomes relevant exactly where it supplies the
+parent-known witnesses for thin record upcrossings.
+
+## 6. Result
 
 The next Gold producer is not another scalar estimate for \(D\). It is the
 nonanticipatory witness-cover theorem for the positive production \(P_+\) that
