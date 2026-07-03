@@ -127,20 +127,22 @@ authority_surface_audit:
     current_surface:
     - problems/navier-stokes/live-theorem-edge.yaml
     - problems/navier-stokes/source-frontier.yaml
-    current_reading: class-membership / law-endpoint direct-live authority is primary;
-      TPS/SG.4 is downstream consumer context
+    current_reading: class-membership / law-endpoint direct-live authority is the
+      Silver lane authority; Gold direct-regularity authority is tracked beside it
+      on the same object; TPS/SG.4 is downstream consumer context
     conflicting_surface: problems/navier-stokes/route-hypothesis.yaml
     conflicting_reading: stale TPS/SG.4 primary proving surface
-    action: demoted as stale-generated snapshot; live authority is the CM / law-endpoint
-      matrix route
+    action: demoted as stale-generated snapshot; live authority is the same-object
+      Gold/Silver route, with CM / law-endpoint matrix route as Silver
   - conflict_id: route_lock_internal_split
     surface: problems/navier-stokes/route-lock.yaml
     object_law_reading: class-membership object law governs finite-time class exit
     primary_route_block_reading: stale source-grounded four-bridge positive program
       claims locked-primary status
-    action: Preserve object-law authority, but do not let positive four-bridge language
-      replace the CM contrapositive objective; positive routes are supplier/readout
-      programs unless an explicit class-membership bridge is proved.
+    action: Preserve object-law authority inside Silver, but do not let positive
+      four-bridge language replace the same-object Gold/Silver route. Positive routes
+      are Gold only when they directly address the shared object; otherwise they are
+      supplier/readout programs unless an explicit bridge is proved.
   - conflict_id: route_integrity_report_stale_four_bridge
     surface: problems/navier-stokes/route-integrity-report.yaml
     reading: source-grounded four-bridge is primary route
@@ -182,8 +184,23 @@ live_route_table_columns:
 - allowed_imports
 - forbidden_substitutions
 live_route_table:
-- program: class-membership / endpoint-exclusion
-  authority_status: primary live authority; witness bridge required
+- program: Gold direct regularity / controlled evolution
+  authority_status: co-primary Gold lane on the shared object
+  propagated_object: same original Navier-Stokes datum, interval, and theorem object
+  surface:
+  - problems/navier-stokes/live-theorem-edge.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  bridge_needed: estimates from other objects need explicit bridge into the same
+    Navier-Stokes object before counting as Gold closure
+  current_open_theorem: SignedCriticalHeightSignPersistenceOrPeakBound.A / signed
+    critical-height restart, as recorded in the live authority surfaces
+  allowed_imports: source, pressure, material-history, and export estimates only
+    when they prove direct regularity control for the shared object or pass through
+    a named bridge
+  forbidden_substitutions: Silver face landing, supplier/readout status, or generated
+    review readiness cannot replace Gold direct proof closure
+- program: Silver class-membership / endpoint-exclusion
+  authority_status: co-primary Silver lane on the shared object; witness bridge required
   propagated_object: M_Q(u,p) membership witnessed by Pack / Part / Field on same-fluid
     families
   surface:
