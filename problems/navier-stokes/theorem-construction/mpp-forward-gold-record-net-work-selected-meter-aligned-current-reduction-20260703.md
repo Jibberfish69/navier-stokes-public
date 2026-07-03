@@ -258,5 +258,7 @@ The entropy-flux split reduction
 `mpp-forward-gold-record-meter-entropy-flux-split-same-history-capacity-reduction-20260703.md`
 now lowers the second claim further. The reversible pressure/Hodge/self-advection
 part of \(dQ^{align}\) is same-parent entropy flux and support; the remaining
-producer is record selected-meter same-history capacity with strict Fisher /
-full-exchange margin, together with record parent-adjoint meter admission.
+producer is one simultaneous record-admitted active/full-exchange parent storage
+theorem. The parent-announced record meter, its aligned-current admission row,
+and the active-transit/full-exchange storage rows must be built from the same
+original packet before readout, with strict spectral-radius absorption.
