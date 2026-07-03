@@ -25,6 +25,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-witness-cover-active-density-source-wall-unification-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-net-work-terminal-anti-atom-reserve-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-anti-atom-signed-height-loop-boundary-20260703.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -384,6 +386,15 @@ no-upcrossing but `RecordTerminalAntiAtomReserve.A': the normalized record meter
 must pay any retained positive terminal anti-atom through signed-partner
 saturation, endpoint jump control, geometry/tower/material-record return, or the
 small \(2^{-N}D_Ndt\) tail before the record is counted.
+
+The noncircularity boundary is installed in
+`mpp-forward-gold-terminal-anti-atom-signed-height-loop-boundary-20260703.md`.
+The terminal anti-atom is a terminal readout of unpaid aligned current, not an
+independent primitive producer for the signed-height theorem. It can feed Gold
+only after the signed-height dynamics prove that every high record upcrossing
+has scale-aware thickness or pays a finite same-fluid charge. Until then,
+terminal anti-atom reserve is support/strict-reduction evidence under the signed
+height roof.
 
 ## 9. Control consequence
 

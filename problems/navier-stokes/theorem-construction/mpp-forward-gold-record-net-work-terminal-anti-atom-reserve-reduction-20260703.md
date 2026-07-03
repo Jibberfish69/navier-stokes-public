@@ -149,13 +149,39 @@ meter admission and terminal anti-atom reserve remain open. The useful progress
 is that the record-net problem is now tied to the deepest existing physical
 source wall instead of floating as a generic native-edge search.
 
-## 5. Proof status
+## 5. Noncircularity boundary
+
+This reduction does not license the terminal anti-atom reserve as an upstream
+Gold producer. The live Gold object is still the signed critical-height
+sign-persistence / peak-height theorem. A terminal anti-atom is the retained
+end-trace of unpaid aligned current on the same material record; it gains Gold
+force only after the signed-height dynamics prove that such an end-trace pays
+the record-upcrossing thickness-or-charge criterion.
+
+Thus the forbidden use is:
+
+\[
+\texttt{RecordTerminalAntiAtomReserve.A}
+\Longrightarrow
+\texttt{SignedCriticalHeightSignPersistenceOrPeakBound.A}
+\tag{RTA.9}
+\]
+
+without an independent same-packet derivation of the reserve from the signed
+height equation. In that use, the route is circular: the reserve is asked to
+produce signed-height control while current authority says the reserve itself
+still needs signed-height sign-persistence or peak-height control.
+
+The installed boundary is recorded in
+`mpp-forward-gold-terminal-anti-atom-signed-height-loop-boundary-20260703.md`.
+
+## 6. Proof status
 
 Proof:
 
 \[
 \int_a^bP(t)\,dt\ge\lambda .
-\tag{RTA.9}
+\tag{RTA.10}
 \]
 
 Support:
@@ -163,7 +189,7 @@ Support:
 \[
 \text{parent current representation, same-parent atom pairing, retained-lobe
 reserve depletion, fibre Jordan decomposition.}
-\tag{RTA.10}
+\tag{RTA.11}
 \]
 
 Checked obstruction:
@@ -171,7 +197,7 @@ Checked obstruction:
 \[
 \text{flat quotient current representation can have positive surplus, so
 representation alone cannot prove aligned-current domination.}
-\tag{RTA.11}
+\tag{RTA.12}
 \]
 
 Open theorem:
@@ -182,7 +208,7 @@ Open theorem:
 +
 \text{record terminal anti-atom reserve / tail-material-record payment.}
 }
-\tag{RTA.12}
+\tag{RTA.13}
 \]
 
 This is the current clean physical story. A record climb demands net work; net
