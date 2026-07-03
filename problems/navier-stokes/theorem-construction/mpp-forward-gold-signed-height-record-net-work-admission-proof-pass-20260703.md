@@ -781,7 +781,12 @@ legal/stop/lower/active-paid material. The current repo surfaces classify
 `(WEP.2')' as a strict reduction, not as an installed proof: after standard
 low-high \(S^0\) commutator calculus, the remaining analytic input is
 `ExactProjectorDyadicParametrix.A' for the full weighted divergence-form
-projector on retained packets.
+projector on retained packets. The WEP surface now sharpens that input to a
+retained packet chart license plus standard divergence-form elliptic
+parametrix: the same-fluid high packet must stay in a chart where \(G\) has
+the required ellipticity and symbol control, while boundary/collar/cutoff
+leakage is already legal, stopped, or material-service paid. That is the
+physical content of `(WEP.P4)'.
 
 The current strict reduction is therefore:
 
