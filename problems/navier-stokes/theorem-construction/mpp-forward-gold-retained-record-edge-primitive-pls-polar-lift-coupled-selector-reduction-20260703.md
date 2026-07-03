@@ -15,11 +15,15 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-selected-primitive-alignment-stopped-selector-cone-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-cone-aperture-consumed-support-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-common-selector-refinement-identity-repair-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-stopped-primitive-channel-admission-lower-face-reduction-20260703.md
 completion_truth: >-
   This note does not prove RetainedRecordEdgePrimitivePLSPolarLift.A. It shows
   that the polar lift and stopped-line-before-readout inputs are coupled by the
   stopped selector cone, and reduces both to one pre-readout stopped primitive
-  channel admission theorem plus pressure-active-or-silent service routing.
+  channel admission theorem. The lower-face pass reduces that coupled admission
+  to pressure-active-or-silent service routing, retained record-edge common
+  selector refinement/no-loss, and retained record-edge primitive-channel
+  compatibility.
 ---
 
 # Retained record-edge primitive PLS polar lift coupled-selector reduction
@@ -191,6 +195,19 @@ The coupled theorem is:
 \tag{PLR.11}
 ```
 
+The lower-face reduction now records the exact physical inputs:
+
+```math
+\begin{aligned}
+&\texttt{RecordMenuPressureActiveOrSilentService.A}\\
+&+\texttt{RetainedRecordEdgeCommonSelectorRefinementNoLoss.A}\\
+&+\texttt{RetainedRecordEdgePrimitiveChannelCompatibility.A}\\
+&\Longrightarrow
+\texttt{RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A}.
+\end{aligned}
+\tag{PLR.11a}
+```
+
 It has three clauses for every retained future-positive exact-projector record
 edge:
 
@@ -242,8 +259,7 @@ modes are same-packet service, not detached ghosts, but the record edge still
 needs the pre-readout routing theorem `(PLR.6)'.
 
 The useful simplification is that the sign and timing burdens are one physical
-act. The proof must build a parent-known stopped primitive channel before the
-record reads the edge, and on that channel either the edge is pressure-active
-with positive cone aperture or its silent component is already paid/exit. Any
-attempt to prove polar lift first and stopping later repeats the old
-after-the-fact selection error.
+act. The lower-face pass makes the remaining unpaid work explicit: prove
+pressure-active-or-silent service, prove retained record-edge common selector
+refinement/no-loss, and prove primitive-channel compatibility for the exact
+projector residue, all before the record reads the edge.
