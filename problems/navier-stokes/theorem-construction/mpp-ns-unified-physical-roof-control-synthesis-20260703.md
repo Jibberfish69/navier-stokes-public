@@ -430,9 +430,12 @@ legal, stopped, or material-service paid. The 2026-07-03 chart-license audit
 names this as `RetainedRecordEdgeExactProjectorChartLicense.A' and keeps it
 open for arbitrary Gold record-menu edges. Its metric half is no longer vague:
 ellipticity has finite same-carrier strain support, while the open spatial
-symbol input is `RetainedRecordEdgeC11MetricTowerOrExit.A'. WEP.2' is now a
-wrapper around that licensed parametrix plus standard low-high \(S^0\)
-commutator calculus.
+symbol input is `RetainedRecordEdgeC11MetricTowerOrExit.A'. Its projector-escape
+half is now separated too: base cutoff/collar/frame leakage is supported, while
+the open higher-service input is `RetainedRecordEdgeHigherProjectorServiceOrExit.A'
+for pressure/RHS, annular-stress, higher-collar, finite-depth tower, and
+moving-chart exact-projector residues. WEP.2' is now a wrapper around that
+licensed parametrix plus standard low-high \(S^0\) commutator calculus.
 
 The sharper reading is that algebraic localization is not the wall. LP/Bony and
 pressure-Hodge decompositions can give legal work coordinates. The remaining
