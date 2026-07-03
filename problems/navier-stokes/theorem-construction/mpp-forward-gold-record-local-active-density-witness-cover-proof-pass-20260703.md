@@ -21,7 +21,8 @@ completion_truth: >-
   conditional implication that signed-height positive-production trace admission
   plus noncircular same-parent coupled storage implies RecordLocalActiveDensityWitnessCover.A.
   It also records that current repo surfaces do not yet prove that the actual
-  record-local P_+ trace is admitted to the before-clipping parent active source.
+  record-local positive production trace is admitted to the parent-announced
+  active source.
 ---
 
 # Record-local active-density witness cover proof pass
@@ -38,7 +39,8 @@ There is one evolving velocity field and one signed critical-height equation,
 A thin record upcrossing \([a,b]\) is produced by the same fluid when the positive
 part of \(P\) lifts \(H\). The proof is not allowed to choose a useful witness
 after the child readout is seen. The witness must already be present as a
-parent-known active source of the same packet before child positive clipping.
+parent-known active source of the same packet before the record is read as a
+positive event.
 
 That is the physical content of
 
@@ -50,6 +52,11 @@ That is the physical content of
 It asks for the record-local \(P_+dt\) trace to be represented by finite-overlap
 same-parent witnesses whose source is paid by the before-clipping active-density
 / full-exchange storage.
+
+Here \(P_+\) is not a clipping method. It is only the positive part of the signed
+production after the signed record interval has been fixed. The theorem must show
+that this signed production was already carried by the parent packet; it may not
+manufacture a new source by clipping the readout.
 
 ## 2. Direct implication once trace admission and storage are granted
 
@@ -92,14 +99,15 @@ Perron-Frobenius absorption, there is a positive vector \(q_P\) and a number
 \]
 
 Now add the missing signed-height trace admission. For every thin record
-upcrossing \([a,b]\), the positive production measure
+upcrossing \([a,b]\), the record-positive production measure
 
 \[
 d\mu_H^+ := P_+(t)\,dt\big|_{[a,b]}
 \tag{ADW.6}
 \]
 
-must be admitted before clipping into the same parent active faces:
+must be admitted into the same parent active faces before the record-positive
+readout is used as a charge:
 
 \[
 d\mu_H^+
@@ -164,9 +172,9 @@ below one, or an independent proof of one coupled face from the original packet.
 The trace side is also not installed. A parent active storage theorem budgets
 the active source faces it actually contains. A signed-height record spike says
 that the scalar trace \(P_+dt\) raised \(H\). The proof still has to show that
-this particular trace is one of the parent-announced active sources before child
-positive clipping. Without that admission, the proof may only be selecting a
-successful child burst after the fact.
+this particular trace is one of the parent-announced active sources before the
+record is counted as positive production. Without that admission, the proof may
+only be selecting a successful child burst after the fact.
 
 The branch surfaces are downstream of this point. The reset, Schur, return,
 and superheat notes classify or pay witnesses after the witness family is
@@ -194,9 +202,9 @@ The smallest new named producer exposed by this pass is
 \tag{ADW.11}
 \]
 
-It must prove, from the original same-fluid Navier-Stokes packet before child
-positive clipping, that every thin high signed-height record upcrossing admits
-its \(P_+dt\) trace into the parent active-density/full-exchange faces with
+It must prove, from the original same-fluid Navier-Stokes packet, that every thin
+high signed-height record upcrossing admits its record-positive production trace
+into the parent active-density/full-exchange faces with
 finite overlap and no self-feeding selection. Paired with the simultaneous
 same-parent coupled storage inequality, this gives
 `RecordLocalActiveDensityWitnessCover.A`; paired with the existing branch
@@ -207,7 +215,7 @@ The consolidated physical chain is therefore sharper than the previous roof:
 \[
 \text{original same-fluid packet}
 \longrightarrow
-\text{signed-height }P_+\text{ trace admitted before clipping}
+\text{signed-height record-positive trace admitted into the parent source}
 \longrightarrow
 \text{strict same-parent active storage}
 \longrightarrow
