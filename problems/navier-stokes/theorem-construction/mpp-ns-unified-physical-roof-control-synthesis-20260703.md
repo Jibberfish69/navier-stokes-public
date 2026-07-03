@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-noncircular-same-parent-coupled-storage-proof-pressure-20260702.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-peak-control-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-upcrossing-criterion-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-scalar-spike-model-obstruction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-upcrossing-same-fluid-charge-audit-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-thin-record-upcrossing-production-obstruction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-upcrossing-branch-exhaustion-reduction-20260703.md
@@ -303,6 +304,15 @@ adds the first forced lower edge: a record upcrossing from \(\lambda\) to
 This is same-fluid critical service, but not an original-data finite budget. So
 the active proof burden is the event-local conversion from forced critical
 service into a finite same-fluid charge.
+
+The scalar obstruction
+`mpp-forward-gold-signed-height-scalar-spike-model-obstruction-20260703.md`
+proves the corresponding no-go theorem for scalar methods: there are scalar
+functions \(H,P,D\) satisfying the signed-height equation, the critical product
+bound, and finite \(L^2_tH\), while \(H\) has unbounded record peaks. The proof
+must therefore use the discarded same-fluid spatial packet structure: parent
+source admission, pressure/transport geometry, viscosity, incompressibility, and
+a finite branch charge or strict storage law.
 
 The branch-exhaustion reduction is installed in
 `mpp-forward-gold-record-upcrossing-branch-exhaustion-reduction-20260703.md`.
