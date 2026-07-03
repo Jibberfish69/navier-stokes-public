@@ -377,6 +377,16 @@ only. LP/Bony localization gives legal coordinates and terminal adjoint response
 gives covector support, but neither proves that the record work is preannounced
 on the same native high-packet/low-coefficient edge before readout.
 
+The newest strict reduction under that pressure test is
+`RecordNativeWorkMenuPreannouncement.A'. Its physical content is: build the whole
+menu of native work edges from the parent history before any record is read, with
+each edge carrying a retained high packet, a low strain/current coefficient from
+the same velocity field, a material time window, and a parent charge coordinate.
+Then prove a parent-known positive-selection storage law over that menu. This
+would prevent the record from hiding its positive excess in an unstored legal
+edge coordinate. The current repo has coordinate and covector support for this
+menu, but not the positive-selection reserve itself.
+
 The sharper reading is that algebraic localization is not the wall. LP/Bony and
 pressure-Hodge decompositions can give legal work coordinates. The remaining
 producer is `RecordNetWorkNativeEdgeSpend.A`: anchor the net signed record work
