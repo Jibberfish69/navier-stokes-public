@@ -400,7 +400,10 @@ parent-adjoint meter admission plus the record-local active-transit/full-exchang
 parent storage object represented by TFE2748B.1393 and TFE2748B.1555. Raw atom
 attachment, endpoint admission, bounded detector projection, retained
 Duhamel-Hodge pullback, and reversible entropy flux are consumer/support faces
-after that parent storage exists.
+after that parent storage exists. The coupled-storage loop audit still governs
+this lower target: the storage must be proved as an independent original-packet
+face or as a simultaneous strict coupled storage inequality, not as a sequential
+finite-excess/full-exchange chain that feeds itself.
 
 The current deepest record-net reduction is
 `mpp-forward-gold-record-net-work-terminal-anti-atom-reserve-reduction-20260703.md`.
