@@ -420,10 +420,11 @@ jobs. First, `RecordMenuPressureActiveOrSilentService.A' says a frozen retained
 high-packet/low-strain work edge is either pressure-active with positive angle
 from the joint null cone of the parent root and active full-exchange detectors,
 or its pressure-Hodge-silent transverse part is already paid by material service
-before the record can count it. Second, the WEP.2' exact-projector commutator
-theorem must lift that frozen statement through the full variable-coefficient
-pressure-Hodge/root projector by paying the shell-projector commutator and
-metric-symbol remainders.
+before the record can count it. Second, `ExactProjectorDyadicParametrix.A' must
+lift that frozen statement through the full variable-coefficient
+pressure-Hodge/root projector by giving the shellwise principal-symbol
+realization and order-minus-one remainder. WEP.2' is now a wrapper around that
+parametrix plus standard low-high \(S^0\) commutator calculus.
 
 The sharper reading is that algebraic localization is not the wall. LP/Bony and
 pressure-Hodge decompositions can give legal work coordinates. The remaining
