@@ -21,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-upcrossing-same-fluid-charge-audit-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-thin-record-upcrossing-production-obstruction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-upcrossing-branch-exhaustion-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-positive-production-witness-cover-reduction-20260703.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -300,6 +301,13 @@ upcrossing must land nonanticipatorily in high-weight reset, affine Schur,
 superheat residence/acceleration, or another finite same-fluid charge with
 original-data total budget. This is now the pure form of the remaining Gold
 work under the physical roof.
+
+The next reduction is installed in
+`mpp-forward-gold-record-local-positive-production-witness-cover-reduction-20260703.md`.
+It sharpens the proof method: the route must localize the positive production
+\(P_+\) that raises \(H(t)\), not only the aggregate critical service \(D\). The
+open producer is `RecordLocalPositiveProductionWitnessCover.A`, a
+nonanticipatory parent-known witness cover feeding the branch charges above.
 
 ## 9. Control consequence
 
