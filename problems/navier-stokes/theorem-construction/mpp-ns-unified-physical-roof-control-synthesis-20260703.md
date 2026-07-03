@@ -319,7 +319,7 @@ nonanticipatory parent-known witness cover feeding the branch charges above.
 The source-wall unification is installed in
 `mpp-forward-gold-record-witness-cover-active-density-source-wall-unification-20260703.md`.
 It identifies that witness cover as the signed-height record-local projection of
-the before-clipping parent active-density/full-exchange source wall. Thus the old
+the parent-announced active-density/full-exchange source wall. Thus the old
 TFE2748B storage work and the new signed-height record work are one physical
 story: original same-fluid packet, parent-known source before any post-readout
 positive bookkeeping, record-local signed production witnesses, finite branch

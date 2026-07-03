@@ -16,7 +16,7 @@ source_surfaces:
 completion_truth: >-
   This note is a strict unification/reduction, not Gold closure. It identifies
   RecordLocalPositiveProductionWitnessCover.A as the signed-height record-local
-  projection of the before-clipping parent active-density/full-exchange source
+  projection of the parent-announced active-density/full-exchange source
   wall. The sharpened proof pass shows that this projection still needs
   signed-height positive-production trace admission plus noncircular same-parent
   coupled storage from arbitrary original data.
@@ -45,7 +45,7 @@ frame, reset, legal, and stop packet before the child record is read, and then p
 strict no-self-feeding storage inequality for that source.
 
 Thus the witness-cover theorem is not an independent fourth branch. It is the
-record-event projection of the before-clipping parent active-density/full-exchange
+record-event projection of the parent-announced active-density/full-exchange
 source wall.
 
 ## 2. Parent source form
@@ -135,7 +135,7 @@ Assume `RecordLocalActiveDensityWitnessCover.A' and the already separated finite
 branch budgets for the witness currencies actually used.
 
 Then `RecordLocalPositiveProductionWitnessCover.A' follows immediately. The
-parent active source gives the witness family before child clipping; `(RAW.6)'
+parent active source gives the witness family before the record is counted; `(RAW.6)'
 gives capture of the positive production that raises \(H\); finite overlap keeps
 the same record spike from being counted repeatedly; `(RAW.7)' and the strict
 full-exchange storage give the original-data budget; and branch routing assigns
@@ -150,7 +150,7 @@ record criterion then yields peak control for \(H(t)\).
 A record-local witness cover for signed-height upcrossings does not prove the
 global TFE2748B storage wall. It only proves the trace of that wall on record
 events where \(P_+\) is doing signed-height work. The global wall still asks for
-the before-clipping parent active-density/full-exchange storage from arbitrary
+the parent-announced active-density/full-exchange storage from arbitrary
 original data, with strict no-self-feeding margin and no terminal source atom.
 
 This boundary prevents two wrong readings:

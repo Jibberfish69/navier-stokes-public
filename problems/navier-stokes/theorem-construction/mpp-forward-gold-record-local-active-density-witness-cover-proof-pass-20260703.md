@@ -50,8 +50,8 @@ That is the physical content of
 \]
 
 It asks for the record-local \(P_+dt\) trace to be represented by finite-overlap
-same-parent witnesses whose source is paid by the before-clipping active-density
-/ full-exchange storage.
+same-parent witnesses whose source is paid by the parent-announced
+active-density/full-exchange storage.
 
 Here \(P_+\) is not a clipping method. It is only the positive part of the signed
 production after the signed record interval has been fixed. The theorem must show
