@@ -271,6 +271,13 @@ that model, but the record has not been admitted to the stored parent source.
 This is not a Navier-Stokes counterexample; it is the exact logical gap that a
 Navier-Stokes proof must close.
 
+This is the record-level form of the scalar spike obstruction. That obstruction
+shows that signed scalar information, the critical product estimate, and finite
+\(L^2_tH\) can still allow infinitely many high thin records unless the proof
+uses the information the scalar model discards: same velocity field, same
+material packet, parent-known source admission, pressure/transport geometry,
+viscosity, and finite same-fluid charge or storage.
+
 The admission row of
 `RecordAdmittedActiveFullExchangeCoupledStorage.A' is therefore the native-edge
 preannouncement statement:
