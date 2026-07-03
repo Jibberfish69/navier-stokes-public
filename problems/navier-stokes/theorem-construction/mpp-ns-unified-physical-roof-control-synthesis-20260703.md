@@ -395,15 +395,16 @@ It separates the aligned current physically: reversible pressure/Hodge/self-adve
 is same-parent entropy flux and support, while the non-reversible selected-meter
 motion must be paid by same-history capacity with strict Fisher/full-exchange
 margin. The same note now back-substitutes that same-history capacity through
-the current TFE2748B source chain: the record-level open producer is record
-parent-adjoint meter admission plus the record-local active-transit/full-exchange
-parent storage object represented by TFE2748B.1393 and TFE2748B.1555. Raw atom
+the current TFE2748B source chain: the record-level open producer is now
+`RecordAdmittedActiveFullExchangeCoupledStorage.A'. Record parent-adjoint meter
+admission and the record-local active-transit/full-exchange parent storage object
+represented by TFE2748B.1393 and TFE2748B.1555 are rows of one same-parent
+coupled inequality built from the original packet before readout. Raw atom
 attachment, endpoint admission, bounded detector projection, retained
 Duhamel-Hodge pullback, and reversible entropy flux are consumer/support faces
-after that parent storage exists. The coupled-storage loop audit still governs
-this lower target: the storage must be proved as an independent original-packet
-face or as a simultaneous strict coupled storage inequality, not as a sequential
-finite-excess/full-exchange chain that feeds itself.
+after that coupled object exists. The coupled-storage loop audit still governs
+this lower target: its feedback matrix must have spectral radius strictly below
+one, not a sequential finite-excess/full-exchange chain that feeds itself.
 
 The current deepest record-net reduction is
 `mpp-forward-gold-record-net-work-terminal-anti-atom-reserve-reduction-20260703.md`.
