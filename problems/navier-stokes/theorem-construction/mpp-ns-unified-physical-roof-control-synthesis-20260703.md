@@ -434,8 +434,15 @@ symbol input is `RetainedRecordEdgeC11MetricTowerOrExit.A'. Its projector-escape
 half is now separated too: base cutoff/collar/frame leakage is supported, while
 the open higher-service input is `RetainedRecordEdgeHigherProjectorServiceOrExit.A'
 for pressure/RHS, annular-stress, higher-collar, finite-depth tower, and
-moving-chart exact-projector residues. WEP.2' is now a wrapper around that
-licensed parametrix plus standard low-high \(S^0\) commutator calculus.
+moving-chart exact-projector residues. The higher-service input is no longer a
+detached projector problem: it is the same stopped primitive PLS
+graph-driver/strict half-barrier obstruction after a record-edge admission
+bridge, with the record/return package
+`StoppedPrimitivePLSSignedScalePotentialLift.A',
+`StoppedPotentialRecordAverageBound.A', and
+`StoppedNegativeScaleReturnCharge.A' as the nonlocal payment mechanism. WEP.2'
+is now a wrapper around that licensed parametrix plus standard low-high \(S^0\)
+commutator calculus.
 
 The sharper reading is that algebraic localization is not the wall. LP/Bony and
 pressure-Hodge decompositions can give legal work coordinates. The remaining
