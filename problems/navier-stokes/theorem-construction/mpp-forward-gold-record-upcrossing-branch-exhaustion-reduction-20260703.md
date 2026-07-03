@@ -12,6 +12,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-high-weight-tube-escape-charge-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-superheat-ratio-tail-moment-reduction-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-positive-production-witness-cover-reduction-20260703.md
 completion_truth: >-
   This note consolidates the candidate charge branches into one strict reduction.
   It proves that Gold peak control follows if every thin signed-height record
@@ -157,6 +158,12 @@ Allowed current branch charges are `(BER.2)', `(BER.3)', `(BER.4)', and
 `(BER.5)', plus any new charge proved directly from the same original
 Navier-Stokes packet.
 
+The record-local witness-cover reduction sharpens the upstream producer. The
+scalar lower bound `(BER.1)' is too coarse to choose one of these branches by
+itself. The positive production that raises \(H(t)\) must first be extracted into
+nonanticipatory parent-known witnesses, and only then may the branch charges
+count it.
+
 ## 4. Conditional proof of Gold from branch exhaustion
 
 Assume `RecordLocalCriticalServiceChargeExhaustion.A`.
@@ -186,7 +193,11 @@ The current repo has:
 1. a scalar forced-service lower bound for every thin record spike;
 2. a conditional high-weight reset charge;
 3. an affine Schur charge shape with the retained-production gate open;
-4. a superheat residence/acceleration charge shape with the ratio moment open.
+4. a superheat residence/acceleration charge shape with the ratio moment open;
+5. a strict upstream reduction showing that branch exhaustion needs a
+   nonanticipatory positive-production witness cover, not only aggregate
+   \(D\)-service.
 
 The live Gold work is now exactly the branch-exhaustion theorem plus the missing
-finite-budget proofs for the branch charges actually used.
+positive-production witness cover and finite-budget proofs for the branch
+charges actually used.
