@@ -786,13 +786,18 @@ retained packet chart license plus standard divergence-form elliptic
 parametrix: the same-fluid high packet must stay in a chart where \(G\) has
 the required ellipticity and symbol control, while boundary/collar/cutoff
 leakage is already legal, stopped, or material-service paid. That is the
-physical content of `(WEP.P4)'.
+physical content of `(WEP.P4)'. The chart-license audit on 2026-07-03 names
+this open theorem as `RetainedRecordEdgeExactProjectorChartLicense.A' and
+records that current retained-chart sources supply support, not a proof for
+arbitrary Gold record-menu edges.
 
 The current strict reduction is therefore:
 
 \[
 \texttt{RecordMenuPressureActiveOrSilentService.A}
 +
+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}
+\Longrightarrow
 \texttt{ExactProjectorDyadicParametrix.A}
 \Longrightarrow
 \texttt{RecordMenuSelectedSymbolKernelExclusion.A}

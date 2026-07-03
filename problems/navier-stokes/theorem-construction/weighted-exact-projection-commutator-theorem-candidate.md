@@ -389,7 +389,7 @@ different physical exits from the retained same-packet story.
 Therefore the local proof is:
 
 ```math
-\text{retained packet chart license}
+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}
 +
 \text{standard divergence-form elliptic parametrix}
 \Longrightarrow
@@ -397,8 +397,13 @@ Therefore the local proof is:
 \tag{WEP.P4}
 ```
 
-The repo-level burden is the left side of `(WEP.P4)` for every retained
-record-menu edge. The theorem is not closed by symbolic calculus alone.
+The repo-level burden is the named chart license for every retained record-menu
+edge. The source audit in
+`mpp-forward-gold-exact-projector-retained-chart-license-audit-20260703.md`
+classifies that license as open: current retained-chart notes supply commutator,
+same-ledger, and pressure-readout support, but they do not yet prove this
+pre-readout license for arbitrary Gold record-menu edges. The theorem is not
+closed by symbolic calculus alone.
 
 The symbolic reason is the first commutator term in the pseudodifferential
 composition formula. For an order-zero symbol `p\in S^0_{1,0}` and a low

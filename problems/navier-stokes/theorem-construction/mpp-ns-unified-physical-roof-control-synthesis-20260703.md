@@ -426,7 +426,9 @@ pressure-Hodge/root projector by giving the shellwise principal-symbol
 realization and order-minus-one remainder. Its physical license is retained
 packet chart control: the same high packet remains in a material chart with
 uniform metric symbol bounds, and any boundary/collar/cutoff leakage is already
-legal, stopped, or material-service paid. WEP.2' is now a wrapper around that
+legal, stopped, or material-service paid. The 2026-07-03 chart-license audit
+names this as `RetainedRecordEdgeExactProjectorChartLicense.A' and keeps it
+open for arbitrary Gold record-menu edges. WEP.2' is now a wrapper around that
 licensed parametrix plus standard low-high \(S^0\) commutator calculus.
 
 The sharper reading is that algebraic localization is not the wall. LP/Bony and
