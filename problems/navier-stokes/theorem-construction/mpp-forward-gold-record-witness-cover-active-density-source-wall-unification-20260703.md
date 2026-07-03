@@ -53,7 +53,7 @@ The checked TFE source package has the form
 dQ_P^{meter}+[d\mathcal C_P^{crit}]_+
 \le
 C_Nd\Xi_P^{FE}
-+ 
++
 d\Theta_P^0+dPaid_P+dStop_P
 \tag{RAW.2}
 \]
@@ -64,9 +64,9 @@ and
 d\Xi_P^{FE}
 \le
 -dM_P^{FE}
-+ 
++
 \theta_{FE}d\Omega_P^{gen}
-+ 
++
 d\Theta_P^0+dPaid_P+dStop_P,
 \qquad C_N\theta_{FE}<1.
 \tag{RAW.3}
@@ -107,7 +107,7 @@ readout. The family must dominate the record production trace:
 \le
 C_N\sum_{W\in{\mathcal W}_{[a,b]}}
 \int_{I_W}p_W^+(t)\,dt
-+ 
++
 Legal([a,b])+Stop([a,b]),
 \tag{RAW.6}
 \]
