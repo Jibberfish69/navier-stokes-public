@@ -428,6 +428,13 @@ entropy-flux split is now the storage half,
 the admitted record-aligned current only after that whole-menu positive-selection
 reserve has been proved from the original packet.
 
+That storage half now factors through `RecordMenuCriticalFaceAdmission.A' plus
+noncircular coupled storage. The record-menu edge must first be admitted into
+one of the same parent faces used by the TFE source chain: positive-baseline
+log/root capacity, zero-baseline endpoint-seed/native-birth capacity, or retained
+active full-exchange motion. The entropy-flux matrix is a payment mechanism
+after this face admission, not a substitute for it.
+
 ## 8. Current truth state
 
 Proof/support already available:
