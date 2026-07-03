@@ -271,3 +271,12 @@ localization and terminal adjoint response give coordinate and covector support;
 they do not prove that the record work was preannounced on the same native
 high-packet/low-coefficient edge. Until that native-edge preannouncement is
 proved, the TFE active/full-exchange rows remain lower-row support.
+
+That pressure test now factors through
+`RecordNativeWorkMenuPreannouncement.A'. The physical demand is to prebuild the
+entire native work menu from the parent history: every retained high packet, low
+strain/current coefficient from the same velocity field, material window, and
+parent charge coordinate must exist before the record is read. The record may
+then select only positive net work from that already stored menu. Thus the
+aligned-current/Fisher theorem cannot start by choosing the record payer; it must
+consume a parent-known positive-selection reserve over the native menu.
