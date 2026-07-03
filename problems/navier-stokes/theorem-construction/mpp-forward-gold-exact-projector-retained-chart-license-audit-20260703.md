@@ -1,0 +1,149 @@
+---
+theorem_id: forward-gold-exact-projector-retained-chart-license-audit-20260703
+status: strict-reduction-not-proof
+created: 2026-07-03
+problem: navier-stokes
+route: forward-gold-signed-height-record-net-work
+target_object: ExactProjectorDyadicParametrix.A
+role: retained packet chart-license audit for WEP.P4
+source_refs:
+  - problems/navier-stokes/theorem-construction/weighted-exact-projection-commutator-theorem-candidate.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-transported-partition-lp-commutator-hhalf-20260528.md
+  - problems/navier-stokes/theorem-construction/mpp-same-ledger-hhalf-extraction-attempt-20260528.md
+  - problems/navier-stokes/theorem-construction/mpp-material-pressure-tower-same-packet-elliptic-readout-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-retained-carrier-no-defect-participation-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-retained-carrier-compactness-inputs-direct-attempt-20260609.md
+completion_truth: >-
+  This note proves no new regularity theorem. It audits the retained-chart
+  source surfaces and reduces ExactProjectorDyadicParametrix.A to a concrete
+  same-packet chart-license theorem plus standard divergence-form elliptic
+  parametrix calculus.
+---
+
+# Exact-projector retained chart license audit
+
+## 1. Physical object
+
+Fix one future-positive signed-height record edge before the record reads it.
+The object is one same-fluid high packet at shell \(2^j\), paired against one
+low strain/current coefficient from the same material history. The exact
+pressure-Hodge/root projector may rotate the pressure direction according to the
+metric \(G(a)\), but it may not create a new payer, move the work to an
+unrelated shell, or hide a positive edge after the record has counted it.
+
+The physical license needed by `(WEP.P4)` is therefore:
+
+```math
+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}.
+\tag{RCL.1}
+```
+
+It says that every retained record-menu edge has one of two outcomes before
+record readout:
+
+1. the same high packet remains in a retained material chart where \(G\) is
+   uniformly elliptic and has the \(C^{1,1}\) / symbol-seminorm control needed
+   for the dyadic exact-projector parametrix; or
+2. the edge has already left the retained exact-projector story through legal,
+   stopped, collar/cutoff, chart-transfer, Pack/Part/Field, or material-service
+   routing.
+
+This is a same-packet statement. A chart estimate on some nearby packet is not
+enough, and a pressure estimate after assuming a controlled chart is not enough.
+
+## 2. What the checked sources actually supply
+
+`mpp-transported-partition-lp-commutator-hhalf-20260528.md` proves the fixed-time
+cutoff commutator
+
+```math
+\|[P_J,\chi]u\|_2
+\le
+C2^{-J}\|\nabla\chi\|_\infty\|u\|_2
+\tag{TPC.1}
+```
+
+under the retained-atlas scale condition `(TPC.3)`. Physically, this says a
+retained cutoff does not tear a dyadic shell away from the same material chart
+when the cutoff is scale-compatible. It supplies a cutoff-commutator component
+of `(RCL.1)`, not the full metric-symbol chart license.
+
+`mpp-same-ledger-hhalf-extraction-attempt-20260528.md` installs a CM extraction
+theorem: a terminal \(H^{1/2}\) shell concentration either fails Pack/Part or is
+represented on one transported material chart of the same witness ledger. This
+is strong same-ledger evidence for terminal CM packets. It does not by itself
+cover every future-positive Gold record-menu edge before record selection.
+
+`mpp-material-pressure-tower-same-packet-elliptic-readout-20260623.md` proves
+that once a uniformly controlled material chart is already present, the pressure
+equation and its derivatives are controlled by the same velocity and coefficient
+towers. It supplies the elliptic-readout side after chart control is granted.
+It does not prove that arbitrary record-menu edges have the chart control.
+
+`mpp-retained-carrier-no-defect-participation-direct-attempt-20260609.md` and
+`mpp-retained-carrier-compactness-inputs-direct-attempt-20260609.md` are negative
+evidence for overclaiming. They say retained carrier data alone does not prove
+pressure projection stability or same-ledger source/commutator payment; a
+stress/tail defect or moving-chart commutator residue can remain. Thus the
+exact projector step cannot be installed from retained-carrier language alone.
+
+## 3. Strict reduction
+
+With `(RCL.1)`, the analytic part becomes standard:
+
+```math
+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}
++
+\text{standard divergence-form elliptic parametrix}
+\Longrightarrow
+\texttt{ExactProjectorDyadicParametrix.A}.
+\tag{RCL.2}
+```
+
+Then the existing WEP note gives
+
+```math
+\texttt{ExactProjectorDyadicParametrix.A}
++
+\text{standard low-high }S^0\text{ commutator calculus}
+\Longrightarrow
+\texttt{WEP.2'}.
+\tag{RCL.3}
+```
+
+and the record-net-work pass gives the current Gold visibility chain
+
+```math
+\texttt{RecordMenuPressureActiveOrSilentService.A}
++
+\texttt{WEP.2'}
+\Longrightarrow
+\texttt{RecordMenuRootProjectionFaithfulness.A}.
+\tag{RCL.4}
+```
+
+The route has therefore been reduced to a smaller same-packet theorem:
+prove `(RCL.1)` for every retained future-positive record-menu edge, or expose
+the failure as a paid exit face before record readout.
+
+## 4. Obstruction state
+
+The checked sources do not yet prove `(RCL.1)` for arbitrary Gold record-menu
+edges. They prove useful pieces after a retained chart or same-ledger witness is
+already selected. The missing bridge is the pre-readout transfer from an
+arbitrary future-positive signed-height record edge to that controlled
+same-fluid chart, with all chart escapes paid before the record counts the edge.
+
+So the current truth state is:
+
+```math
+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}
+\quad\text{is open.}
+\tag{RCL.5}
+```
+
+This is not a clipping problem and not a dyadic packet-count problem. It is the
+physical question of whether exact pressure projection follows the same high
+packet through one lawful material chart, or whether any failure is already a
+legal/stopped/material-service exit before the record can use it.
