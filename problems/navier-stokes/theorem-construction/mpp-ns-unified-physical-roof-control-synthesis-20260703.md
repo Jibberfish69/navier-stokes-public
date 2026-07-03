@@ -1,0 +1,272 @@
+---
+theorem_id: ns-unified-physical-roof-control-synthesis-20260703
+status: control-synthesis-installed
+created: 2026-07-03
+problem: navier-stokes
+route: repo-control-unified-physical-roof
+target_object: SignedCriticalHeightSignPersistenceOrPeakBound.A
+role: theorem-targeting authority grammar and synthesis roof
+source_refs:
+  - problems/navier-stokes/live-theorem-edge.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/review-verdict.yaml
+  - problems/navier-stokes/release-decision.yaml
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-restart-after-positive-clipping-demotion-20260702.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-summation-type-custody-audit-20260702.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-coupled-storage-loop-audit-20260702.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-noncircular-same-parent-coupled-storage-proof-pressure-20260702.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-peak-control-proof-pass-20260703.md
+completion_truth: >-
+  This artifact installs a single control synthesis for the Navier-Stokes repo. It
+  gives theorem attempts one physical roof before target selection, proof writing,
+  audit, PDF work, or automation. It is a local theorem-control artifact. It is not
+  a proof of Navier-Stokes global regularity.
+---
+
+# NS unified physical roof control synthesis
+
+## 1. Root physical story
+
+There is one original smooth Navier-Stokes datum and one same-fluid evolution.
+Every useful theorem surface is a disciplined reading of that same evolution:
+velocity, pressure, viscosity, incompressibility, material transport, critical
+height, packet records, CM witness faces, selected readouts, and terminal
+continuation criteria.
+
+The root question is whether a finite-time obstruction can arise from that same
+original evolution while preserving the Navier-Stokes participation law. Every
+subproblem is a lens on that same question.
+
+The repo therefore has one physical roof:
+
+\[
+\text{original datum} \longrightarrow
+\text{same-fluid material history} \longrightarrow
+\text{critical-height / CM witness readout} \longrightarrow
+\text{continuation or admissible exit classification}.
+\]
+
+The roof governs all theorem writing. A theorem attempt starts by naming which
+part of this physical chain it controls.
+
+## 2. Current live Gold hinge
+
+The current Gold live object is the signed critical height
+
+\[
+H(t)=\mathcal H_{1/2}(t)={1\over 2}\|\Lambda^{1/2}u(t)\|_2^2.
+\]
+
+The signed equation is
+
+\[
+{dH\over dt}=P(t)-\nu D(t),
+\qquad
+P(t)= -\langle \Lambda^{1/2}\mathbb P(u\cdot\nabla u),\Lambda^{1/2}u\rangle,
+\qquad
+D(t)=\|\Lambda^{3/2}u(t)\|_2^2.
+\]
+
+The active theorem target is
+
+\[
+\texttt{SignedCriticalHeightSignPersistenceOrPeakBound.A}.
+\]
+
+The theorem-grade burden is:
+
+1. prove that a same-fluid packet can keep the signed rate positive only by paying
+   a visible physical cost; or
+2. prove peak-height control when the signed rate changes sign.
+
+A valid Gold theorem attempt must act on this signed object or supply an explicit
+bridge into it.
+
+## 3. Program topology under the roof
+
+### Gold forward program
+
+Gold aims at positive continuation control. Its current primitive is the signed
+critical-height equation above. Selected positive variation, child clipping,
+TFE2748B critical-capacity language, same-parent storage, atom ledgers, and
+source-reserve terminology are support coordinates until they prove the signed
+critical-height sign-persistence or peak-height theorem.
+
+Gold closure standard:
+
+\[
+\sup_{t<T}H(t)<\infty
+\]
+
+or a rigorously bridged higher continuation norm from the same original datum.
+
+### Silver CM contrapositive program
+
+Silver starts from the installed CM membership / class-exit grammar. It tracks
+whether a proposed terminal obstruction remains a lawful same-solution object,
+then localizes the failure into typed Pack, Part, or Field witness structure.
+Silver’s governing primitive is the class-exit engine, not a Gold source estimate.
+
+Silver closure standard: every admitted finite terminal obstruction enters the
+CM test and resolves into continuation, admissibility failure, or a concrete
+Part/Field failure supporting class exit.
+
+### Source-wall supplier program
+
+Source-wall work supplies Gold or Silver only through typed bridges. It includes
+TFE, source reserve, full-exchange, active-transit, parent critical reserve,
+annular flux, affine Schur, TPS/SG.4, Hodge/BMO, and related supplier surfaces.
+
+Supplier closure standard: a supplier theorem names the target object it feeds
+and proves the exact bridge into Gold signed height or Silver class-exit grammar.
+
+### Readout, export, and manuscript program
+
+PDFs, submission bundles, review surfaces, release decisions, theorem packets,
+frontier summaries, viewer states, and generated dashboards are readout surfaces.
+They may report authority already installed by live theorem surfaces. They do
+not create theorem authority through formatting, freshness, or surface count.
+
+### Runtime and automation program
+
+Codex, MCP, goal loops, autocommit, compilers, viewers, and bridge queues are
+execution infrastructure. Their success condition is mechanical: read, write,
+compile, check, commit, or route. Mathematical success is earned only by the
+resulting theorem surface satisfying the roof grammar.
+
+## 4. Authority hierarchy
+
+The authority order is:
+
+1. direct live surfaces: `live-theorem-edge.yaml`, `source-frontier.yaml`,
+   `theorem-packet.yaml`, `review-verdict.yaml`, `release-decision.yaml`;
+2. current theorem-construction notes that cite and respect the direct live
+   surfaces;
+3. generated maps, dashboards, audits, and viewer states;
+4. manuscript and PDF exports;
+5. archived, legacy, or superseded attempts.
+
+A lower surface can assist a higher surface. Proof authority flows downward only
+from the live target grammar into packaging, never upward from packaging into
+closure.
+
+## 5. Proxy classification under the roof
+
+The following statuses are installed for current NS control.
+
+### Selected positive L1 / child clipping
+
+Status: sufficient stress test and support coordinate.
+
+A positive-clipped integral measures upward variation of a chosen readout. The
+primitive physical object is the signed height. A positive-clipping theorem gains
+Gold force only by proving sign persistence, peak-height control, or an explicit
+bridge into those statements.
+
+### Child, atom, shell, and point-sample sums
+
+Status: typed bookkeeping after the parent packet is named.
+
+Allowed readings:
+
+- continuum parent integral;
+- finite-overlap quadrature;
+- layer-cake representation;
+- Hardy atomic norm;
+- simple-measure approximation to a parent transport coupling;
+- Littlewood-Paley tail bookkeeping;
+- algebraic signed-channel identity.
+
+A sum gains physical force only after the same parent measure or same parent
+transport coupling has been constructed.
+
+### TFE2748B / coupled same-parent storage
+
+Status: support route and sufficient mechanism.
+
+The coupled storage loop has real content only when it proves a strict
+same-parent coupled inequality with absorption:
+
+\[
+\mathcal F_P\le -d\mathcal M_P+K_P\mathcal F_P+d\Theta_P^0+dPaid_P,
+\qquad
+\rho(K_P)<1.
+\]
+
+This route feeds Gold only by proving the signed-height sign-persistence or
+peak-height theorem, or by giving a direct continuation bridge from the same
+original datum.
+
+### Affine Schur, pressure-Hodge, TPS/SG.4, and downstream branch work
+
+Status: local support unless explicitly promoted through the roof.
+
+These surfaces can supply estimates, coordinates, countertests, or branch-local
+classification. They become main theorem work only when their propagated object
+is the active roof object for the selected proof mode.
+
+## 6. The theorem-attempt entry card
+
+Every new NS theorem attempt must begin with this card.
+
+```yaml
+physical_roof: original smooth datum -> same-fluid NS material history -> critical-height or CM witness readout -> continuation or exit classification
+proof_mode: gold_forward | silver_cm_contrapositive | source_wall_supplier | readout_export | runtime_repair
+target_object: exact theorem label or burden
+propagated_quantity: exact scalar, vector, packet, carrier, witness, or storage object
+primitive_equation_or_structure: signed NS height equation, CM membership grammar, parent packet law, transport coupling, etc.
+support_surfaces: repo-relative paths used only as support
+closure_standard: exact inequality, bridge, classification, or continuation criterion
+proxy_risk: selected L1, child count, atom count, stale dashboard, manuscript packaging, circular storage loop, or runtime success
+result_class: proved | failed | strict_reduction | support_only | mechanical_only
+next_hinge: one exact mathematical work unit
+```
+
+The entry card is the send gate. A theorem note without this card lacks target
+custody.
+
+## 7. Judgment rule for theorem work
+
+A theorem attempt advances the repo only when it does one of these:
+
+1. proves the active target object;
+2. fails the target object with an exact obstruction;
+3. strictly reduces the target object to a sharper theorem;
+4. proves a bridge from a support surface into the active target object;
+5. repairs a runtime blocker that directly prevents one of the previous four
+   operations.
+
+All other activity is classified as support, readout, packaging, or mechanical
+execution.
+
+## 8. Current synthesis verdict
+
+The repo has many real theorem surfaces and many real support reductions. The
+current controlling story is still singular:
+
+A finite-time Navier-Stokes obstruction would have to manifest through the same
+original fluid history. Gold now asks whether the signed critical height can form
+unbounded peaks without paying same-fluid physical cost. Silver asks whether any
+admitted obstruction remains a lawful CM member or exits through a typed witness
+failure. Source-wall work is valuable exactly when it feeds one of those two
+programs through a named bridge.
+
+The immediate theorem direction under this roof is:
+
+\[
+\texttt{SignedCriticalHeightSignPersistenceOrPeakBound.A}
+\]
+
+with the first live subproblem:
+
+\[
+\text{scale-aware same-fluid peak-thickness / sign-cost theorem for } H(t).
+\]
+
+## 9. Control consequence
+
+The repo should judge future work from this roof before writing or accepting any
+surface. A proposed theorem path must show its physical object, proof mode, and
+bridge to the roof first. This gives one source of control for subproblems,
+solution attempts, theorem notes, audits, manuscript edits, and automation.
