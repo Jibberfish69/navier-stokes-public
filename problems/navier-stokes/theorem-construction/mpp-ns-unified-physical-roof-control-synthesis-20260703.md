@@ -416,12 +416,14 @@ high-packet/low-strain work event can remain outside the parent pressure-Hodge
 root detector, so the TFE faces have no lawful object to store.
 
 The current sharper reduction splits that visibility theorem into two physical
-jobs. First, `RecordMenuDetectorAngleGap.A' says the frozen retained
-high-packet/low-strain work covector has positive angle from the joint null cone
-of the parent root and active full-exchange detectors. Second, the WEP.2'
-exact-projector commutator theorem must lift that frozen detector statement
-through the full variable-coefficient pressure-Hodge/root projector by paying
-the shell-projector commutator and metric-symbol remainders.
+jobs. First, `RecordMenuPressureActiveOrSilentService.A' says a frozen retained
+high-packet/low-strain work edge is either pressure-active with positive angle
+from the joint null cone of the parent root and active full-exchange detectors,
+or its pressure-Hodge-silent transverse part is already paid by material service
+before the record can count it. Second, the WEP.2' exact-projector commutator
+theorem must lift that frozen statement through the full variable-coefficient
+pressure-Hodge/root projector by paying the shell-projector commutator and
+metric-symbol remainders.
 
 The sharper reading is that algebraic localization is not the wall. LP/Bony and
 pressure-Hodge decompositions can give legal work coordinates. The remaining
