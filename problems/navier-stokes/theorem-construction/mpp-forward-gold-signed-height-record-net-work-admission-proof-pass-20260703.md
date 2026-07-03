@@ -778,14 +778,17 @@ principal symbol. To recover the full edge theorem, the weighted exact-projector
 commutator theorem `(WEP.2')' must also demote
 `[\Delta_j,\Pi_G^{ex}]Z_e' and the metric-symbol remainders into
 legal/stop/lower/active-paid material. The current repo surfaces classify
-`(WEP.2')' as a candidate paradifferential theorem, not as an installed proof.
+`(WEP.2')' as a strict reduction, not as an installed proof: after standard
+low-high \(S^0\) commutator calculus, the remaining analytic input is
+`ExactProjectorDyadicParametrix.A' for the full weighted divergence-form
+projector on retained packets.
 
 The current strict reduction is therefore:
 
 \[
 \texttt{RecordMenuPressureActiveOrSilentService.A}
 +
-\texttt{WEP.2' exact-projector commutator theorem}
+\texttt{ExactProjectorDyadicParametrix.A}
 \Longrightarrow
 \texttt{RecordMenuSelectedSymbolKernelExclusion.A}
 \Longrightarrow
