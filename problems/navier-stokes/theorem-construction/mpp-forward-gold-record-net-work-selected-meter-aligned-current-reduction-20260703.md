@@ -191,3 +191,28 @@ than a free native-edge search. The same-fluid story is now: record climb gives
 net work; net work must become a parent-announced selected meter; the positive
 anti-gradient aligned current of that meter must be absorbed by Fisher
 dissipation and paid packet motion before clipping.
+
+## 6. No-upcrossing and terminal anti-atom reduction
+
+The follow-up proof pass
+`mpp-forward-gold-record-net-work-terminal-anti-atom-reserve-reduction-20260703.md`
+tests the aligned-current theorem directly. It records two facts.
+
+First, current representation and same-parent atom pairing do not prove
+aligned-current domination. In the TFE2748B flat quotient model,
+\(\phi=(\theta+c)F\) gives a legal same-parent Hodge representation with positive
+parallel surplus. So no proof can close from representation alone.
+
+Second, the storage-compatible form is not pure no-upcrossing. Positive fibre
+variation is allowed if its opposite lobe is retained as parent reserve
+depletion, or if the unpaired part is paid endpoint/weight-motion leakage. After
+the installed routing reductions, the remaining record-normalized source is:
+
+\[
+\texttt{RecordTerminalAntiAtomReserve.A}.
+\tag{RSA.10}
+\]
+
+Thus `(RSA.9)' is lowered to record parent-adjoint meter admission plus
+record-terminal anti-atom reserve / tail-material-record payment. This remains
+open from arbitrary original smooth data.

@@ -375,6 +375,16 @@ domination for that normalized record meter. This makes the live producer
 `RecordWorkParentAdjointAlignedCurrentDomination.A', still open from arbitrary
 original data.
 
+The current deepest record-net reduction is
+`mpp-forward-gold-record-net-work-terminal-anti-atom-reserve-reduction-20260703.md`.
+It checks the no-upcrossing route against the TFE2748B flat quotient obstruction:
+current representation and signed atom pairing alone can still carry positive
+parallel surplus. The storage-compatible object is therefore not pure
+no-upcrossing but `RecordTerminalAntiAtomReserve.A': the normalized record meter
+must pay any retained positive terminal anti-atom through signed-partner
+saturation, endpoint jump control, geometry/tower/material-record return, or the
+small \(2^{-N}D_Ndt\) tail before the record is counted.
+
 ## 9. Control consequence
 
 The repo should judge future work from this roof before writing or accepting any
