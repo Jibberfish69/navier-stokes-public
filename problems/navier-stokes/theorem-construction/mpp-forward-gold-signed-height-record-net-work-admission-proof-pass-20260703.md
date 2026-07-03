@@ -236,3 +236,57 @@ In short:
 This is still open. It identifies the next source theorem more sharply: the
 positive anti-gradient current that creates selected record entropy must be
 absorbed by parent Fisher dissipation and paid packet motion before clipping.
+
+## 7. Admission-row pressure test
+
+The scalar signed-height equation proves positivity of the record work, not its
+parent source address. In physical terms, `(RNW.2)' says that the same velocity
+field did enough nonlinear work over \([a,b]\) to raise \(H\). It does not say
+which same-fluid high packet, which low strain/current coefficient, which
+material interval, and which parent-announced charge coordinate carried that
+work before the record was read.
+
+The installed localization and adjoint-response surfaces confirm this boundary.
+The derivative-LP bridge gives the legal coordinates for native work forms:
+strict low-high, strict high-low, and finite-collar resonant packets. That is
+coordinate support. It does not anchor a positive record-work functional to a
+stored parent edge. The terminal adjoint-response note gives the same warning:
+a large signed response pairing may live on a projected response covector unless
+that covector is proved to stay on the same retained high packet, the same low
+strain coefficient from \(u\), and the same native source edge.
+
+So no proof can use only
+
+\[
+\int_a^bP(t)\,dt\ge\lambda
+\tag{RNW.11}
+\]
+
+and then import the TFE storage budget. A proof with only `(RNW.11)' has lost the
+source address. The proof-theoretic countermodel is simple: split the scalar work
+into two legal signed native coordinates with the same total integral, give
+strict parent storage to only one coordinate, and let the positive record excess
+sit in the other. The record upcrossing and the storage theorem are both true in
+that model, but the record has not been admitted to the stored parent source.
+This is not a Navier-Stokes counterexample; it is the exact logical gap that a
+Navier-Stokes proof must close.
+
+The admission row of
+`RecordAdmittedActiveFullExchangeCoupledStorage.A' is therefore the native-edge
+preannouncement statement:
+
+\[
+\lambda
+\le
+C_N
+\sum_{W\in{\mathcal W}_{[a,b]}}
+\left[\int_{I_W}\omega_W\right]_+
++Legal([a,b])+Stop([a,b]),
+\tag{RNW.12}
+\]
+
+where every \(W\), \(\omega_W\), parent carrier, low coefficient/current, and
+charge coordinate is built from the original same-fluid packet before the record
+readout. Once `(RNW.12)' is built into the simultaneous coupled storage matrix,
+the TFE active/full-exchange rows become usable payment rows. Before `(RNW.12)',
+they are lower-row support only.
