@@ -215,7 +215,7 @@ The consolidated physical chain is therefore sharper than the previous roof:
 \[
 \text{original same-fluid packet}
 \longrightarrow
-\text{signed-height record-positive trace admitted into the parent source}
+\text{signed-height record work admitted into the parent source}
 \longrightarrow
 \text{strict same-parent active storage}
 \longrightarrow
@@ -229,3 +229,39 @@ The consolidated physical chain is therefore sharper than the previous roof:
 
 The route remains open exactly at the first two arrows, unless one theorem proves
 them simultaneously.
+
+## 6. No-clipping refinement
+
+The pointwise \(P_+dt\) admission form above is sufficient, but it is stronger
+than the signed physical story needs. A record upcrossing already fixes the
+positive work without clipping. If \(H(a)=\lambda\) and \(H(b)=2\lambda\), then
+
+\[
+\int_a^b P(t)\,dt
+=
+H(b)-H(a)+\nu\int_a^bD(t)\,dt
+\ge \lambda .
+\tag{ADW.13}
+\]
+
+So the cleaner producer is not a child-positive trace. It is record-net signed
+work admission: the signed nonlinear work \(\int_a^bP(t)\,dt\) that raises the
+same \(H(t)\) must be represented by parent-announced active source faces of the
+same packet, before that record is counted by any branch charge.
+
+This replaces the earlier sufficient target
+`SignedHeightPositiveProductionTraceAdmission.A' by the weaker and more physical
+burden:
+
+\[
+\texttt{SignedHeightRecordNetWorkAdmission.A}
++\texttt{SameParentCoupledActiveStorage.A}
+\Longrightarrow
+\texttt{RecordLocalActiveDensityWitnessCover.A}.
+\tag{ADW.14}
+\]
+
+Pointwise \(P_+dt\) admission still implies `(ADW.14)', but it is no longer the
+preferred theorem to prove. The record interval itself supplies the positive sign;
+the remaining work is to identify that signed record-work inside the original
+parent packet and give it strict same-parent storage.
