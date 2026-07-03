@@ -13,6 +13,7 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-schur-residence-thickness-gate-attempt-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-superheat-ratio-tail-moment-reduction-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-witness-cover-active-density-source-wall-unification-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md
 completion_truth: >-
   This note proves a strict reduction, not Gold closure. It shows that the scalar
@@ -173,15 +174,19 @@ construct the parent-known source measure for the \(P_+\) that raises \(H(t)\),
 with finite overlap and strict no-self-feeding storage, before child positive
 clipping.
 
-This keeps the old TFE2748B active-density/full-exchange work as support under
-the signed-height restart. It becomes relevant exactly where it supplies the
-parent-known witnesses for thin record upcrossings.
+The active-density proof pass
+`mpp-forward-gold-record-local-active-density-witness-cover-proof-pass-20260703.md`
+then separates the two missing producer faces inside that event-local theorem:
+the actual signed-height \(P_+dt\) trace must be admitted to the parent active
+source before clipping, and the parent source must have noncircular strict
+same-parent storage.
 
 ## 6. Result
 
 The next Gold producer is not another scalar estimate for \(D\). It is the
 nonanticipatory witness-cover theorem for the positive production \(P_+\) that
-actually raises the signed critical height.
+actually raises the signed critical height, now sharpened to signed-height trace
+admission into the parent active source plus strict same-parent storage.
 
 Once that cover is proved, the existing branch notes say what each witness must
 pay. Until it is proved, forced critical service remains physically real but
