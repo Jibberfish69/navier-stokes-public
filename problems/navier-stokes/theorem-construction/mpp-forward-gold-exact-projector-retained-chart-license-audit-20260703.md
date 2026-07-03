@@ -14,6 +14,11 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-material-pressure-tower-same-packet-elliptic-readout-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-retained-carrier-no-defect-participation-direct-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-retained-carrier-compactness-inputs-direct-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-deformation-gradient-return-normal-form-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-terminal-leray-commutator-legal-l3-proof-20260522.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-base-transported-collar-clock-absorbed-by-frame-20260625.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-coefficient-frame-clock-absorbed-by-strain-log-storage-20260625.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-hodge-projection-commutator-pressure-operator-reduction-20260625.md
 completion_truth: >-
   This note proves no new regularity theorem. It audits the retained-chart
   source surfaces and reduces ExactProjectorDyadicParametrix.A to a concrete
@@ -81,6 +86,27 @@ equation and its derivatives are controlled by the same velocity and coefficient
 towers. It supplies the elliptic-readout side after chart control is granted.
 It does not prove that arbitrary record-menu edges have the chart control.
 
+`mpp-forward-gold-bodyiv-deformation-gradient-return-normal-form-20260621.md`
+does supply one geometric component: finite same-carrier strain clock gives
+uniform ellipticity of the pulled-back metric \(G\). This helps the lower bound
+and upper bound in `(WEP.A1)`. It does not supply the full \(C^{1,1}\) or
+symbol-seminorm control required by `(WEP.A2)` on every selected Gold edge.
+
+`mpp-terminal-leray-commutator-legal-l3-proof-20260522.md` pays a localized
+Leray/cutoff commutator in the retained \(L^3\) translator. The base transported
+collar and coefficient-frame notes pay base collar motion and coefficient-frame
+clock by the same top-strain storage. These are genuine payment surfaces for
+narrow leakage channels. They do not pay all WEP chart escapes: higher collar,
+pressure/RHS, annular stress, and moving-chart exact-projector residues remain
+outside those narrow proofs.
+
+`mpp-forward-gold-material-hodge-projection-commutator-pressure-operator-reduction-20260625.md`
+is the closest older support surface. It removes Hodge-commutator wording as a
+separate obstruction by reducing it to paid top-strain/frame/collar coordinates
+plus pressure/RHS and annular-stress service. Its own result says the remaining
+theorem is still the signed same-packet commutator/coercivity line, not a finite
+variation proof.
+
 `mpp-retained-carrier-no-defect-participation-direct-attempt-20260609.md` and
 `mpp-retained-carrier-compactness-inputs-direct-attempt-20260609.md` are negative
 evidence for overclaiming. They say retained carrier data alone does not prove
@@ -126,6 +152,23 @@ and the record-net-work pass gives the current Gold visibility chain
 The route has therefore been reduced to a smaller same-packet theorem:
 prove `(RCL.1)` for every retained future-positive record-menu edge, or expose
 the failure as a paid exit face before record readout.
+
+Equivalently, `(RCL.1)` splits into two non-alias subinputs:
+
+```math
+\texttt{RetainedRecordEdgeMetricSymbolControl.A}
++
+\texttt{RetainedRecordEdgeProjectorEscapePayment.A}.
+\tag{RCL.4a}
+```
+
+The first asks for the full \(C^{1,1}\) / symbol-seminorm metric control on the
+same selected high packet. The repo has partial ellipticity support from the
+finite same-carrier strain clock, but the full symbol control is still open.
+The second asks for every boundary/collar/cutoff/chart-transfer/projector
+escape to be legal, stopped, Pack/Part/Field-routed, or material-service paid
+before record readout. The repo has narrow payment theorems, but not the full
+WEP escape payment theorem.
 
 ## 4. Obstruction state
 
