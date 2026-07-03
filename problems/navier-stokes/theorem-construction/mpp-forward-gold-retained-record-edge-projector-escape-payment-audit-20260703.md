@@ -235,12 +235,11 @@ stopped primitive scale-potential line before record readout.
 
 The admission bridge has now been reduced one level lower. Existing Hodge and
 material-service sources identify the higher projector residue as same-packet
-moving pressure/strain service; the open part is the sign-and-timing admission
+moving pressure/strain service; the open part is the coupled stopped-channel
+admission
 
 ```math
-\texttt{RetainedRecordEdgePrimitivePLSPolarLift.A}
-+
-\texttt{RetainedRecordEdgeStoppedLineBeforeReadout.A}
+\texttt{RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A}
 \Longrightarrow
 \texttt{RetainedRecordEdgePrimitivePLSDriverAdmission.A}.
 \tag{REP.10b}
