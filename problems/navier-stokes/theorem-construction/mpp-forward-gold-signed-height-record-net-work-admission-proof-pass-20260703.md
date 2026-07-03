@@ -798,7 +798,12 @@ as well: base cutoff/collar/frame leakage is supported, while the open higher
 service input is `RetainedRecordEdgeHigherProjectorServiceOrExit.A', which must
 pay pressure/RHS, annular-stress, higher-collar, finite-depth tower, and
 moving-chart exact-projector residues by finite same-material service or route
-them out before record readout.
+them out before record readout. That higher-service input is now reduced to a
+record-edge admission bridge plus the stopped primitive record/return package:
+`RetainedRecordEdgePrimitivePLSDriverAdmission.A' must first put the arbitrary
+record-menu residue on the same stopped primitive scale-potential line; then the
+signed scale-potential lift, potential-record bound, and negative-return charge
+are the nonlocal half-tail kill.
 
 The current strict reduction is therefore:
 
