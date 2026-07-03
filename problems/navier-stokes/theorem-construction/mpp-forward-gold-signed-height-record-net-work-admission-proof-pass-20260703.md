@@ -21,7 +21,9 @@ completion_truth: >-
   signed work target. The signed-height equation supplies positive net nonlinear
   work on every record upcrossing, but the current repo does not yet prove the
   native same-parent admission and scale-normalized storage needed to turn that
-  net work into finite same-fluid charge.
+  net work into finite same-fluid charge. The current sharper reduction is to
+  preannounce the whole native work menu before record readout and prove a
+  parent-known positive-selection storage law for the menu.
 ---
 
 # Signed-height record-net work admission proof pass
@@ -297,3 +299,78 @@ charge coordinate is built from the original same-fluid packet before the record
 readout. Once `(RNW.12)' is built into the simultaneous coupled storage matrix,
 the TFE active/full-exchange rows become usable payment rows. Before `(RNW.12)',
 they are lower-row support only.
+
+## 8. Preannounced native-work menu attempt
+
+The physical construction attempt is to build the whole menu of possible paying
+edges before the record is known. For a parent packet \(P\), each menu edge is a
+same-fluid interaction:
+
+\[
+e=(\text{retained high packet},\ \text{low strain/current coefficient from }u,
+\ \text{material time window},\ \text{parent charge coordinate}).
+\]
+
+The Navier-Stokes nonlinearity should then give signed edge densities
+\(\omega_e\) on this preexisting menu such that their projection to time recovers
+the signed height production:
+
+\[
+\pi_{t\#}\sum_{e\in{\mathcal E}_P}\omega_e\,d\sigma_e
+=
+P(t)\,dt+dLegal_P+dStop_P .
+\tag{RNW.13}
+\]
+
+This would keep the physical order clean. First the fluid supplies every possible
+high-packet/low-coefficient work edge from the original parent history. Later a
+record interval \([a,b]\) may only select positive net work from that already
+announced menu:
+
+\[
+\lambda
+\le
+C_N\sum_{e\in{\mathcal E}_P([a,b])}
+\left[\int_{I_e\cap[a,b]}\omega_e\right]_+
++Legal([a,b])+Stop([a,b]).
+\tag{RNW.14}
+\]
+
+The missing storage law is the positive-selection reserve for this same menu:
+
+\[
+\sum_{\text{disjoint records }j}\lambda_j^{-1}
+\sum_{e\in{\mathcal E}_{P_j}([a_j,b_j])}
+\left[\int_{I_e\cap[a_j,b_j]}\omega_e\right]_+
+\le C_N(u_0)+Paid+Legal+Stop .
+\tag{RNW.15}
+\]
+
+Call the smaller theorem
+
+\[
+\texttt{RecordNativeWorkMenuPreannouncement.A}.
+\tag{RNW.16}
+\]
+
+It says: construct the signed native work menu from the parent history before
+record readout, prove that record-positive selections from that menu are
+Carleson or storage packed, and only then feed those selections into the
+record-admitted active/full-exchange coupled storage matrix.
+
+This is a strict reduction of `(RNW.12)'. Equations `(RNW.13)'--`(RNW.15)' imply
+the native-edge preannouncement row because the record can no longer choose a
+paying edge after seeing the spike; it can only read positive net work off a
+stored menu that the same fluid had already built. The current repo has support
+for the coordinates of this menu, not the menu theorem itself. LP/Bony supplies
+strict low-high, strict high-low, and finite-collar resonant coordinates.
+Terminal adjoint response supplies a response covector. The TFE rows supply lower
+storage faces after admission. None of those sources proves the parent-known
+positive-selection law `(RNW.15)' for all future record intervals.
+
+The resulting obstruction is physical, not merely formal. Positive scalar record
+work can be spread across legal native coordinates whose signs cancel in time and
+whose stored parts are not the parts that later carry the record excess. A proof
+must therefore show that the same-fluid pressure/transport/strain interaction
+creates a finite reserve over the full native menu, so an unstored edge cannot
+become the hidden payer of an arbitrarily thin record.
