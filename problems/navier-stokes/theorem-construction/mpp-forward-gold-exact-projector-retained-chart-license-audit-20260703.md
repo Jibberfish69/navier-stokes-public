@@ -19,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-base-transported-collar-clock-absorbed-by-frame-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coefficient-frame-clock-absorbed-by-strain-log-storage-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-hodge-projection-commutator-pressure-operator-reduction-20260625.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-projector-escape-payment-audit-20260703.md
 completion_truth: >-
   This note proves no new regularity theorem. It audits the retained-chart
   source surfaces and reduces ExactProjectorDyadicParametrix.A to a concrete
@@ -178,6 +179,15 @@ There the ellipticity component is separated from the real open input:
 same finite material-frame derivative tower or fails through a pre-readout paid
 exit. Thus ellipticity is support; spatial metric twisting remains the metric
 symbol wall.
+
+The escape half is sharpened in
+`mpp-forward-gold-retained-record-edge-projector-escape-payment-audit-20260703.md`.
+Base cutoff/collar/frame leakage is supported by the terminal Leray, base
+collar, and coefficient-frame notes. The open input is
+`RetainedRecordEdgeHigherProjectorServiceOrExit.A`: higher pressure/RHS,
+annular-stress, higher-collar, finite-depth tower, and moving-chart exact
+projector residues must be paid by finite same-material service or route out
+before record readout.
 
 ## 4. Obstruction state
 
