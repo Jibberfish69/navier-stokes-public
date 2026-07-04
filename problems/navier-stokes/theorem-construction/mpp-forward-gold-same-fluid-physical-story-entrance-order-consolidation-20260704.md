@@ -269,6 +269,14 @@ Its currently exposed lower proof pressure is
 \]
 
 only when both inputs refer to the same edge `(SFP.3)' before readout.
+The first input is itself a strict split: the pressure-active quotient is
+finite-dimensional after a robust near-silent collar, while the PDE producer is
+`RecordMenuDetectorSilentServicePreReadoutReserve.A`. That reserve must be paid
+before readout from original-history selected-critical / primitive half-tail
+currency, equivalently
+`CriticalFreshSourceTentCarleson.A` /
+`FreshSourceCriticalScaleMemoryBound.A` or an independent primitive PLS strict
+half-barrier / bounded-below Lyapunov / weighted laminar reserve theorem.
 
 Physically, the remaining proof must show that a thin signed-height record cannot
 keep exporting future-positive pressure/strain service through smaller and
