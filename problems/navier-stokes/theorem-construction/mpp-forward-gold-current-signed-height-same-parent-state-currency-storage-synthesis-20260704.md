@@ -1597,11 +1597,14 @@ same-fluid terminal Zeno donor chain.  That chain is not hidden; endpoint tests,
 the full Hodge-Stokes participation tuple, and the coupled mixed tower make it a
 visible terminal readout.  Thus `TerminalZenoVisibleReadoutPayment.A` is a valid
 endpoint reduction, not the live analytic producer.  Terminal visibility is
-installed; unweighted same-carrier payment is not.  The forward Gold producer is
-the unweighted same-carrier visible-readout reserve on the actual selected
-terminal carrier, currently reduced to
-`FreshPotentialAverageKillAndPositiveTransfer.A` or
-`FreshPositiveStressSecondOrderExactness.A`.
+installed; unweighted same-carrier payment is not.  The checked full-packet audit
+lowers the unpaid retained selected atom with no trace payment to
+`TerminalFullPacketNoResiduePayment.A`: identify the visible terminal readout
+with the positive part of the same Hodge-Stokes participation packet, then prove
+a participation-preserving no-residue full-cycle payment or the equivalent
+lossless full-packet compactness-rigidity contradiction.  Fresh-potential,
+positive second-order exactness, and terminal Rellich reserve routes are
+subordinate only when they prove that same full-packet payment.
 
 ## 25. WLF.60 and source payment are one early-row reading
 
