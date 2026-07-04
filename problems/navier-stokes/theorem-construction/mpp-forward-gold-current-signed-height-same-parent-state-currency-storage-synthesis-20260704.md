@@ -1759,10 +1759,13 @@ vocabulary:
 The lower no-Zeno audit makes `(SCSS.70)' sharper.  In the signed-height roof,
 the state-deletion law is the record-admitted form of
 `SameParentCriticalDepletionNoZeno.A'.  The good-lambda algebra is a consumer:
-once `(SCSS.69)' holds with weighted-summable paid errors, selected \(L^1\) and
-the WLF/ODP early-row payment follow.  The unproved source is the original-data
-construction that forces the strict coefficient below \(1/2\) before child
-positive clipping.
+once `(SCSS.69)' holds on the record-admitted carrier with weighted-summable paid
+errors, selected \(L^1\) follows.  The WLF/ODP early row is the same source
+burden read in first-admission coordinates: an independent proof of WLF.60 /
+ODP.91 on the order-locked full-packet carrier supplies that payment without
+preusing the coupled matrix.  The unproved source is the original-data
+construction that forces the strict coefficient below \(1/2\) or proves the
+WLF/ODP face before child positive clipping.
 
 After relative Schur defect, recirculation, spent-source reuse, selector or
 reselection jumps, silent-source zero-cost escape, entrance, legal, stop,
