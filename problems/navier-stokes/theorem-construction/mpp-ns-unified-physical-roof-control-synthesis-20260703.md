@@ -40,6 +40,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-face-local-thickness-charge-modulus-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-face-polarity-same-face-no-cancellation-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-selector-capture-finite-score-scope-audit-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-record-edge-selector-menu-modulus-reduction-20260704.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -645,6 +646,18 @@ menu before readout. The missing selector producer is
 `FiniteParentKnownRecordEdgeSelectorMenu.A`, or paid selector drift, tie gap,
 order-lock partner deficit, collar/geometric loss, donor/reselection loss,
 legal, stop, material-service, or exit for the uncaptured part.
+The finite record-edge selector menu modulus reduction is now installed in
+`mpp-forward-gold-finite-record-edge-selector-menu-modulus-reduction-20260704.md`.
+It makes the physical selector burden explicit: before positive readout, the
+same retained edge must be captured by a parent finite selector atlas through a
+same-record label modulus, finite-complexity/no-moving-spike law, or paid
+selector drift classification. Compact labels and finite stopped-score support
+are not enough, because a future argmax can reselect the payer after the
+positive work appears. The open producer is
+`RecordEdgeSelectorLabelModulusOrPaidDrift.A`; it strictly reduces to
+`FiniteParentKnownRecordEdgeSelectorMenu.A` and then, with
+`StoppedSelectorFiniteScoreOrPaidDrift.A`, feeds
+`RetainedRecordEdgeParentAnnouncedSelectorCapture.A`.
 The lower retained-edge faces are now consolidated in
 `mpp-forward-gold-retained-record-edge-pre-readout-custody-tuple-reduction-20260704.md`.
 Selector capture, retained exact-projector chart license, and the
