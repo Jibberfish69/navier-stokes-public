@@ -691,8 +691,8 @@ storage label itself.  It requires same-edge record admission through the limit:
 The nonduplicate new term is `RecordAdmissionClosedness.A'.  In the same-fluid
 story this is not abstract closedness of a measure; it is persistence of the
 same retained signed-height edge through selector capture, retained exact
-projector chart/license, pressure-active-or-silent service, and root/full-
-exchange face address.  Its quantitative form is:
+projector chart/license, pressure-active-or-silent service, and
+root/full-exchange face address.  Its quantitative form is:
 
 \[
 \begin{aligned}
@@ -728,8 +728,8 @@ packet that raises the signed record must be the packet addressed, charted,
 paid, and retained in the compact face.
 
 The good-lambda summation is a consumer after `(SFP.15b)' is proved on the same
-record-admitted carrier, and `(SFP.15c)'--`(SFP.15d)' name the current smaller
-producer for that carrier.  In PDE coordinates, every retained high-ratio
+record-admitted carrier, and `(SFP.15c)'--`(SFP.15g)' name the current smaller
+producer and compactness route for that carrier.  In PDE coordinates, every retained high-ratio
 positive visit of the same pressure-viscosity-incompressibility packet must
 decrease a parent-fixed signed score, spend a critical shrinking-core reset or
 first endpoint seed charge, or enter terminal thickness, legal, stop, or exit
