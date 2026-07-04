@@ -54,7 +54,7 @@ before aggregation. Physically, this channel must be the signed pressure,
 self-transport/frame, viscous, endpoint/material, and incompressibility-constrained
 work of the same packet on the same admitted face. If the positive sign is lost,
 the loss must appear as that same face returning, rotating, diffusing, stopping,
-legally reselectioning, or exiting. A negative lobe on a different face is a
+being legally reselected, or exiting. A negative lobe on a different face is a
 different physical event.
 
 ## 2. What the installed chain already gives
