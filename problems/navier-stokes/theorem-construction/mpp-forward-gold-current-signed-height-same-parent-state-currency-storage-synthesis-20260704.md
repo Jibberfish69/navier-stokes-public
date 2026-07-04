@@ -1672,3 +1672,37 @@ that is not the signed-height record's order-locked full-packet selected
 carrier. The current Gold burden is therefore still one pre-readout same-parent
 state/currency/storage package, not a new list made from WLF.60 plus native
 birth plus positive transfer.
+
+## 26. Face-priority reduction
+
+After the WLF/ODP merge, the address/root split is not two independent
+selected-critical source walls.  The address/boundary side has a local custody
+part and an active off-face part.  The local custody part gives the primitive
+event a lawful owner, address, chart, detector, and first-boundary account before
+readout; it does not by itself pay selected-critical weight.
+
+The selected-critical part of the address/boundary side and the root-payment
+side consume the same original-history active/root payment on the order-locked
+full-packet carrier \(C_P\):
+
+\[
+\Gamma_{\rm pre}
+=
+\Gamma_{\rm pre}^{addr,loc}
++
+\Gamma_{\rm pre}^{act/root}.
+\tag{SCSS.68}
+\]
+
+Here \(\Gamma_{\rm pre}^{addr,loc}\) is the local pre-readout custody and
+first-boundary charge, while \(\Gamma_{\rm pre}^{act/root}\) is the shared
+selected-critical active/root payment tested by `(SCSS.63)' and by the WLF.60 /
+ODP.91 early-row reading on \(C_P\).  A proof of local address charges alone is
+support.  A proof of root/record payment alone is support unless it pays the
+persistent affine quotient on the same carrier and same record-admitted edge.
+
+Thus the current proof-sized object is smaller: construct one common
+parent-known event key, finite local custody charges for that key, and one
+shared same-carrier active/root payment from original Navier-Stokes history.
+This is a strict reduction and a governance simplification, not a proof of
+Gold closure.
