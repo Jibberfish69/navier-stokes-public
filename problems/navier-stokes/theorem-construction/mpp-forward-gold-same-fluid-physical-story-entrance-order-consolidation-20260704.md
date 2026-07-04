@@ -289,6 +289,28 @@ matrix form and the WLF.60 / `(ODP.91)' row are coordinates of
 construct this measure from the original pressure-viscosity-incompressibility
 history before the record is read as positive work.
 
+The common key is physical, not a formal product of two marginal ledgers.  Each
+record-positive primitive piece must already live in one pre-readout event space
+with one key
+
+\[
+\Xi(z)=
+\bigl(
+\text{stopped address of }z,\ 
+\text{root-payment edge of }z,\ 
+\text{record interval using }z
+\bigr).
+\tag{SFP.12b}
+\]
+
+Separate finite address charges and finite root-payment charges can always be
+placed on an artificial product space, but that does not prove Gold: it may pair
+the address of one physical edge with the selected-critical payment of another.
+The strict reduced burden is construction of the actual \(E_{\rm pre}\) and
+\(\Xi\) from the same primitive pressure-viscosity-incompressibility work before
+selected readout; after that, summing the address and root charge faces is
+formal.
+
 `RecordMenuRootProjectionFaithfulness.A` is the entrance gate into that object.
 Its currently exposed lower proof pressure is
 
