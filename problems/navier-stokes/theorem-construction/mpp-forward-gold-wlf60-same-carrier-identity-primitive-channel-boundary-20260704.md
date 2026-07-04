@@ -235,15 +235,12 @@ payment.
 The existing mismatch-evacuation reduction sharpens this first gate again.
 Installed finite-graph reductions pay legal, reselection, finite donor,
 pair-weight, entrance, and polar-retention defects.  After those finite clauses
-are removed, the only serious surviving mismatch is the infinite same-fluid
-terminal Zeno donor chain carrying selected positive native source.  The
-terminal Zeno branch is already visible to endpoint tests, the full
+are removed, the terminal branch is already visible to endpoint tests, the full
 Hodge-Stokes participation tuple, or the coupled mixed tower.  That makes
-`TerminalZenoVisibleReadoutPayment.A` a valid endpoint reduction, not the live
-producer.  The checked full-packet audit makes
-`TerminalFullPacketNoResiduePayment.A` the terminal / no-residue face of the
-same continuous parent active-measure producer, not a sibling frontier.  Current
-July 4 authority lowers that producer to
+`TerminalZenoVisibleReadoutPayment.A` a valid endpoint reduction.  The checked
+full-packet audit makes `TerminalFullPacketNoResiduePayment.A` the terminal /
+no-residue face of the same continuous parent active-measure ledger.  Current
+July 4 authority lowers the active producer to
 `ParentActivePotentialCapacityDomination.A`: after raw pressure-Hodge atoms and
 retained opposite-lobe reserve are installed, the selected critical meter prices
 the paired lobes unequally.  Equivalently, the remaining obstruction is a
@@ -251,9 +248,19 @@ terminal super-capacitary active-potential survivor.  The noncircular source
 split is `BeforeClippingActiveDensityComparison.A` plus
 `FullExchangeNoSelfFeedingStorage.A` as one same-parent storage construction
 with strict subunit feedback.  WLF.60 is the early-branch / heat-lag
-first-admission coordinate of this same obstruction, not a separate bottom;
-otherwise
-the branch routes through the installed legal, endpoint, profile, or CM consumers.
+first-admission coordinate of this same obstruction.
+
+The selected full-packet branch is absorbed below that current bottom.  The
+proved part is order-locked scalarization before positive-part extraction.  The
+false shortcut is direct channel-first native-source identification: a smooth
+affine incompressible core can have a positive convection lobe exactly canceled
+by pressure in the full packet.  The exact remaining residue is the same-edge
+order-lock overlap \(\Delta^{ol}=\min([n]_+,[-b]_+)\), a strict reduction to
+selected-density gain or retained same-packet four-body overlap.  On the
+four-body branch, terminal time/storage is attached to the retained heat-scale
+material annular stress/strain return record; loss of that return record lands
+as Part-side/CM boundary.  Otherwise the branch routes through the installed
+legal, endpoint, profile, or CM consumers.
 
 ## 5. Checked obstruction to shortcut closure
 
