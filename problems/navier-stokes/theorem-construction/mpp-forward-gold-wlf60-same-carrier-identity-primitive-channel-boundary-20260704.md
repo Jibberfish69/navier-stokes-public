@@ -97,13 +97,13 @@ overrun payment on the actual positive native carrier.
 In the older source-square language this is the ordered pair:
 
 \[
-	\text{full-packet order-locked carrier admission}
-	+
-	\texttt{SameEdgeOrderLockPartnerDeficitPayment.A}
-	+
-	\texttt{FreshSelectedCoefficientOverrunPayment.A}.
-	\tag{WSC.5}
-	\]
+\text{full-packet order-locked carrier admission}
++
+\texttt{SameEdgeOrderLockPartnerDeficitPayment.A}
++
+\texttt{FreshSelectedCoefficientOverrunPayment.A}.
+\tag{WSC.5}
+\]
 
 Carrier admission comes first.  Without full-packet order lock and partner
 overlap payment, the overrun layer is not yet known to be the same selected
