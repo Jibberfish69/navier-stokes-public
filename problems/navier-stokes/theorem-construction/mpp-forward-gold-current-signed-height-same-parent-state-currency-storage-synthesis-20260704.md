@@ -1146,3 +1146,66 @@ This section installs no estimate.  It is a strict reduction and a candidate
 veto: a future move has Gold force only if it constructs the owner map, proves
 the original-history charge bound, or gives a checked obstruction to one of
 those two jobs for the same signed-height record event.
+
+## 16. Return first-address/no-duplication is absorbed by the pre-return process
+
+The primitive return no-duplication branch is not a fourth lower frontier after
+the pre-return trace-address process has been named.  It is a consequence of
+that process.
+
+For a primitive negative return event \(z\), the pre-return trace-address
+process supplies one active address
+
+\[
+\mathfrak A^{pre}(z)
+=
+(\mathfrak R(z),\mathfrak X(z),\mathfrak D(z),\mathfrak T(z))
+\tag{SCSS.47}
+\]
+
+before the return budget is opened.  The face trace coordinate
+\(\mathfrak T(z)\) is the first return face.  If another selected face later
+claims the same \(z\), it either has the same pre-return address or crosses one
+of the already named pre-return address-change coordinates: selector/chamber,
+chart/projector, detector/channel, or face trace.  Those changes are paid,
+legal, stopped, or exited before return is counted.
+
+Hence the current first-address theorem is absorbed:
+
+\[
+\texttt{StoppedPrimitivePreReturnFaceTraceAddressProcess.A}
+\Longrightarrow
+\texttt{PrimitiveReturnFirstFaceAddressOrPaidReentry.A}.
+\tag{SCSS.48}
+\]
+
+Together with the existing finite stopped-score/reset packing support, this
+gives the finite-multiplicity branch:
+
+\[
+\begin{aligned}
+&\texttt{RecordFacePrimitiveChannelPredictableTrace.A}\\
+&+\texttt{StoppedPrimitivePreReturnFaceTraceAddressProcess.A}\\
+&+\texttt{StoppedSelectorFiniteScoreOrPaidDrift.A}\\
+&+\texttt{ResetWitnessIntervalBoundedOverlap.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveChannelReturnFaceFiniteMultiplicity.A}.
+\tag{SCSS.49}
+\]
+
+And the selected-return no-duplication input becomes a downstream consequence:
+
+\[
+\texttt{PrimitiveChannelReturnFaceFiniteMultiplicity.A}
+\Longrightarrow
+\texttt{PrimitiveChannelSelectedReturnNoDuplication.A}.
+\tag{SCSS.50}
+\]
+
+So the return branch no longer asks for a separate proof object.  It asks for
+the same pre-return owner map on the primitive signed-channel measure.  Once
+that owner map is built, stopped return/BV can be restricted to the owned face
+trace without spending one physical return event on several later selected
+faces.  Until that owner map is built, finite return, chamber BV, reset packing,
+and selected-face bookkeeping remain support.
