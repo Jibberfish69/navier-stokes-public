@@ -722,6 +722,14 @@ return/BV theorem on the same traced channel plus
 `PrimitiveChannelSelectedReturnNoDuplication.A`; scalar BV and chamber return
 stay support until they prove
 `PrimitiveChannelSelectedFaceNegativeReturnBudget.A`.
+The primitive-channel return-face no-duplication boundary is now installed in
+`mpp-forward-gold-primitive-channel-return-face-no-duplication-boundary-20260704.md`.
+It prevents the finite-overlap record witness cover from being reused as a
+return budget. No-duplication now means bounded multiplicity in the primitive
+negative-return measure itself. The lower object is
+`PrimitiveChannelReturnFaceFiniteMultiplicity.A`: a stopped same-face map from
+primitive return events to selected faces, with every extra claim paid, legal,
+stopped, or exited before counting.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
