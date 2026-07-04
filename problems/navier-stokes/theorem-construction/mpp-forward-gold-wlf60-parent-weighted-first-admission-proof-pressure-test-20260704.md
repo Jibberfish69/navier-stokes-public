@@ -25,6 +25,8 @@ role: >-
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-weighted-detector-terminal-service-original-data-proof-attempt-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-fresh-linear-service-half-tail-obstruction-20260629.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-root-record-reset-single-geometry-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-state-root-payment-same-parent-projection-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-storage-matrix-early-branch-obstruction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-current-active-capacity-full-exchange-physical-story-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md
@@ -302,6 +304,13 @@ In the Volterra scale split this is exactly the persistent half:
 \tag{WPT.17}
 \]
 
+Under the signed-height restart, this persistent half is also the heat-lag/AQK
+coordinate of the selected-critical root-payment face of \(\Gamma_{\rm pre}\).
+Thus `OriginalHistoryRecordResetRootPayment.A' is not a separate solved supplier
+for WLF.60. It pays `(ODP.160)' only when its original-history record/return and
+reset clauses are proved on the same order-locked full-packet carrier and the
+same record-admitted edge before selected child readout.
+
 The two noncircular ways currently named for paying that half are the same two
 faces already recorded in `(WPT.11)'--`(WPT.12)': original-history stopped
 potential-average control, or positive second-order scale exactness. They are
@@ -343,6 +352,9 @@ selected carrier identified in `(WPT.13)', with the same-packet order-lock
 overlap paid and selected overrun tail UI / nested-core tightness proved on that
 carrier. Equivalently, the same line is `(ODP.91)' route-measure Carleson, whose
 unpaid producer is the persistent affine quotient `(ODP.160)' / `(ODP.125)'.
+In the signed-height package, that quotient is the heat-lag/AQK coordinate of
+the \(\Gamma_{\rm pre}^{root}\) face; record/reset terminology is proof-bearing
+only when it constructs that original-history payment on the same carrier.
 
 Support: Bessel square, route ownership, no-recount, local native admission,
 and pushforward are support until the parent-weighted pulse measure itself is

@@ -21,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-fresh-source-tent-extremal-two-branch-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-repeated-core-record-return-balance-law-sharpener-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-shrinking-core-critical-reset-carleson-sharpener-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-geometry-realization-unifies-affine-transition-martingale-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-transition-predictable-weight-martingale-lock-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-projection-selected-critical-payment-noncircularity-audit-20260704.md
@@ -201,6 +202,12 @@ It consists of four pre-readout clauses for each stopped retained root \(P\):
 2. parent-fixed connection/angle/collar/covector transport into that geometry;
 3. signed primitive PLS record/return evolution with finite negative-return BV;
 4. critical weighted reset current for genuine parent-child innovations.
+
+In the WLF/ODP heat-lag coordinates, the same producer is seen as the persistent
+affine quotient `(ODP.160)' / `(ODP.125)'. The record/reset name does not pay
+that quotient by itself. It is the signed-height form of the same root payment:
+the payment must be built from original history on the same order-locked
+selected carrier before child readout.
 
 In theorem form:
 

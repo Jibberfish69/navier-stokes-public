@@ -1368,6 +1368,12 @@ This is still a strict reduction.  The open theorem is construction of both
 faces of \(\Gamma_{\rm pre}\) from the same coupled original Navier-Stokes packet
 before readout.
 
+After the WLF/ODP merge, the persistent affine quotient `(ODP.160)' / `(ODP.125)'
+is the heat-lag/AQK coordinate of \(\Gamma_{\rm pre}^{root}\). It is paid by
+`OriginalHistoryRecordResetRootPayment.A' only after the record-selected edge and
+the WLF order-locked full-packet carrier have been identified as the same
+pre-readout parent event.
+
 ## 20. Address/boundary face has a two-part lower reading
 
 The address/boundary face of \(\Gamma_{\rm pre}\) has one order.  First the

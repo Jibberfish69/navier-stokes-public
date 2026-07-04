@@ -19,6 +19,7 @@ role: >-
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-raw-active-state-parent-capacity-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-known-active-state-capacity-half-tail-pressure-test-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-root-record-reset-single-geometry-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-payment-predictable-weight-causality-collapse-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-root-payment-physical-spine-20260704.md
@@ -180,6 +181,13 @@ nor
 
 The useful consolidation is that their missing source is one same-parent
 construction, not two unrelated walls.
+
+The WLF/ODP route-measure merge gives the same point in heat-lag coordinates.
+The persistent affine quotient `(ODP.160)' / `(ODP.125)' is not a fourth wall.
+It is the AQK coordinate of the selected-critical root-payment face of the same
+pre-readout package. A record/reset proof pays that quotient only after the
+record-selected edge, root-payment edge, and order-locked full-packet carrier
+are the same parent event before readout.
 
 ## 5. Current strict synthesis
 

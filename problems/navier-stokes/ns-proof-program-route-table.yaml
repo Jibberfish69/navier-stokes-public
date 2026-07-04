@@ -246,7 +246,10 @@ live_route_table:
     the selected-critical face of
     ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A. The root face must
     pay the same primitive record event rather than a detached selected
-    transition.
+    transition. After the WLF/ODP merge, the persistent affine quotient ODP.160 /
+    ODP.125 is the heat-lag/AQK coordinate of this root face; the record/reset
+    theorem pays it only when proved on the same order-locked carrier and
+    record-admitted edge before readout.
     Return first-address, finite return multiplicity, and selected-return
     no-duplication are downstream consequences of that same pre-return owner
     process, as recorded in the live authority surfaces.
