@@ -375,6 +375,12 @@ storage. So the signed-height storage row still needs an original-history payer
 for the early branch, or a full simultaneous matrix whose early row has strict
 spectral absorption without preusing finite excess.
 
+The heat-lag first-admission language identifies that payer as WLF.60: the
+parent-weighted selected first-admission pulse measure must have finite
+original-history mass with strict viscosity feedback. A record can then read a
+sub-heat-lag first pulse only as the pushforward of that already admitted parent
+measure, not as a new child source.
+
 The source-checked lower split is:
 
 \[
