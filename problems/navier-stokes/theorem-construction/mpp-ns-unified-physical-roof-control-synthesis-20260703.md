@@ -31,6 +31,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-net-work-terminal-anti-atom-reserve-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-anti-atom-signed-height-loop-boundary-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-fresh-source-tent-extremal-two-branch-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-repeated-core-record-return-balance-law-sharpener-20260704.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -482,6 +483,11 @@ fresh action. It must be repeated same-core reuse or shrinking selected-core
 escape; the corresponding open branch theorems are
 `RepeatedCorePositiveVariationRootBound.A` and
 `ScaleInvariantSelectedCapacityNoEscape.A`.
+The repeated-core sharpener opens the first branch: on one stopped material
+ancestry, positive selected reuse splits into record growth plus negative return.
+Bounded record height alone is false because a scalar record can oscillate
+forever; the branch now requires parent-predictable record geometry plus
+`SignedStoppedPLSEvolutionIdentity.A / StoppedReturnBVFiniteFromOriginalData.A`.
 The pressure-active/silent face now reduces to
 `RecordMenuPressureActiveQuotientAngleGap.A` plus
 `RecordMenuDetectorSilentServicePreReadoutReserve.A`: raw detector faithfulness
