@@ -1597,21 +1597,17 @@ same-fluid terminal Zeno donor chain.  That chain is not hidden; endpoint tests,
 the full Hodge-Stokes participation tuple, and the coupled mixed tower make it a
 visible terminal readout.  Thus `TerminalZenoVisibleReadoutPayment.A` is a valid
 endpoint reduction, not the live analytic producer.  Terminal visibility is
-installed; unweighted same-carrier payment is not.  The checked full-packet audit
-lowers the unpaid retained selected atom with no trace payment to
-`TerminalFullPacketNoResiduePayment.A`: identify the visible terminal readout
-with the positive part of the same Hodge-Stokes participation packet, then prove
-a participation-preserving no-residue full-cycle payment or the equivalent
-lossless full-packet compactness-rigidity contradiction.  The transported-selector
-route proves the conditional algebra but not the producer: scalar heat-scale
-selection fails on anisotropic strain, while anisotropic material selection needs
-same-carrier heat-scale return, viscous metric-commutator payment, harmonic-pressure
-trace payment, signed/selector no-loss, and bounded-below combined capacity.
-Under current inputs this returns to selected full-packet identification plus
-`FourBodyTerminalTraceAC.A`, `StrictFourBodyNoWasteLyapunov.A`, no-free terminal
-Zeno, or profile production.  Fresh-potential, positive second-order exactness,
-and terminal Rellich reserve routes are subordinate only when they prove that same
-full-packet payment.
+installed, but payment of the retained selected atom is not.  The checked
+full-packet audit makes `TerminalFullPacketNoResiduePayment.A` the terminal /
+no-residue face of the same continuous parent active-measure producer, not a
+sibling frontier.  The current common producer is the before-clipping
+full-exchange active-transit ledger: endpoint/no-residue, tower signed-partner,
+and low-high first-ratio pullback are projections of that ledger, and strict
+storage reduces to the heat-lag quotient gap with retained-action stopping plus
+parabolic Poincare.  Transported-selector, four-body no-waste, fresh-potential,
+positive second-order, terminal Rellich, no-free Zeno, and profile routes are
+support unless they prove that same ledger/strict-gap package from the original
+coupled packet.
 
 ## 25. WLF.60 and source payment are one early-row reading
 
