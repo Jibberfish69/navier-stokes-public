@@ -1755,6 +1755,44 @@ vocabulary:
 \tag{SCSS.70}
 \]
 
+The lower no-Zeno audit makes `(SCSS.70)' sharper.  In the signed-height roof,
+the state-deletion law is the record-admitted form of
+`SameParentCriticalDepletionNoZeno.A'.  The good-lambda algebra is a consumer:
+once `(SCSS.69)' holds with weighted-summable paid errors, selected \(L^1\) and
+the WLF/ODP early-row payment follow.  The unproved source is the original-data
+construction that forces the strict coefficient below \(1/2\) before child
+positive clipping.
+
+After relative Schur defect, recirculation, spent-source reuse, selector or
+reselection jumps, silent-source zero-cost escape, entrance, legal, stop,
+subheat absorption, complete-frame local orientation, laminar ancestry, return,
+reset, and endpoint-thickness consumers are removed, the surviving branch is
+root-fixed, same-carrier, non-derivative affine/pressure-balanced
+faster-than-heat production.  It is the branch where one original material
+history can still appear to make endlessly many high-ratio selected reads while
+paying only finite raw heat/collar/legal cost.
+
+So the current smaller Gold producer is:
+
+\[
+\begin{aligned}
+&\text{record-admitted carrier identity}\\
+&+\text{root-fixed affine/full-packet no-Zeno symmetrizer}\\
+&+\text{strict half-barrier coefficient } \theta<\frac12
+\end{aligned}
+\Longrightarrow
+\Gamma_{\rm pre}^{act/root}.
+\tag{SCSS.70a}
+\]
+
+This absorbs `SameParentCriticalDepletionNoZeno.A',
+`SameParentCriticalGoodLambdaTail.A',
+`StoppedPrimitivePLSStrictHalfBarrierBreak.A', and the bounded-below
+same-material Lyapunov form into one source obligation.  A freestanding
+good-lambda recurrence on the wrong carrier remains support; the signed-height
+record edge must stay admitted in the same parent critical/full-exchange carrier
+through the compactness/no-arbitrage limit.
+
 This absorbs the following labels as equivalent faces of the same unproved
 producer at the current Gold edge:
 
