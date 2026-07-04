@@ -878,6 +878,13 @@ overlap priority are custody prerequisites. The coordinate that directly touches
 `SignedCriticalHeightSignPersistenceOrPeakBound.A` is face/polarity through
 `PrimitiveStoppedChamberFaceTraceFiberOrPaidDetachment.A` plus
 `PrimitiveStoppedChamberSameFaceSignedReturnBudgetOrPaidPolarity.A`.
+The primitive chamber face/polarity lift proof pass is now installed in
+`mpp-forward-gold-primitive-chamber-face-polarity-lift-proof-pass-20260704.md`.
+It proves that those two inputs conditionally imply
+`PrimitiveStoppedChamberFacePolarityLiftOrPaidReturn.A`. It leaves the real PDE
+producer open: `PrimitiveChamberFaceLocalSignedChannelConstruction.A`, the
+pre-readout face fiber and same-face negative-return budget of the
+selector-owned primitive signed channel.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
