@@ -771,6 +771,15 @@ still lacks one owner address for each event. The lower physical producers are
 `PrimitiveChannelEventAddressMap.A` and
 `PrimitiveChannelAddressChangeVariationCharge.A`; together they construct
 `StoppedPrimitiveFaceAddressProcess.A`.
+The primitive channel address-change variation charge split is now installed in
+`mpp-forward-gold-primitive-channel-address-change-variation-charge-split-20260704.md`.
+It sharpens the second lower producer. Address changes have only four physical
+coordinates: selector, chart/projector, detector/channel, and face/polarity.
+Selector and detector/channel motion both consume the selected-critical fresh
+source tent / scale-memory payment after parent capture; face/polarity consumes
+local same-face compactness and return ownership; chart/projector consumes
+exact-projector chart/escape service. This is a strict reduction, not a proof of
+`PrimitiveChannelAddressChangeVariationCharge.A`.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
