@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-pls-signed-channel-realization-boundary-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-selected-primitive-alignment-stopped-selector-cone-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-cone-aperture-consumed-support-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-projector-selector-paid-rotation-split-20260704.md
 completion_truth: >-
   This note proves a finite-dimensional obstruction to direct same-channel
   alignment from pressure visibility or stopped-core identity alone. It strictly
@@ -154,3 +155,12 @@ selector/projector channel alignment from "same packet", "pressure-visible", or
 that either locks the selector-announced primitive channel to the projector
 active functional on the surviving residue, or pays the channel rotation as
 same-packet service, legal, stop, chart/collar transfer, or exit.
+
+The paid-rotation branch is now split in
+`mpp-forward-gold-retained-record-edge-projector-selector-paid-rotation-split-20260704.md`.
+Detector-silent or detector-near-silent mismatch returns to
+`RecordMenuDetectorSilentServicePreReadoutReserve.A`; genuine selector/channel
+rotation returns to parent-announced selector capture plus stopped
+full-exchange/selected-density action. Existing local routing and selector BV
+support do not by themselves prove the arbitrary retained edge is paid before
+readout.

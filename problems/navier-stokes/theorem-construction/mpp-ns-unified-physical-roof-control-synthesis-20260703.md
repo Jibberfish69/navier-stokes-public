@@ -459,6 +459,13 @@ selector-announced primitive channel. The smaller physical input is
 projector active functional and selector channel have a uniform pre-readout
 angle lock on the surviving residue, or the rotation away from that cone is
 paid as same-packet service, legal, stop, chart/collar transfer, or exit.
+The paid-rotation branch is now split by
+`mpp-forward-gold-retained-record-edge-projector-selector-paid-rotation-split-20260704.md`:
+near-silent mismatch is the detector-silent pre-readout reserve, while genuine
+selector/channel motion is selector-stratum/order-lock variation payable only
+through parent-announced stopped selection plus stopped full-exchange or
+selected-density first-ratio gain. Local silent routing and selector BV support
+remain support until those record-level producers are proved for the same edge.
 The pressure-active/silent face now reduces to
 `RecordMenuPressureActiveQuotientAngleGap.A` plus
 `RecordMenuDetectorSilentServicePreReadoutReserve.A`: raw detector faithfulness
