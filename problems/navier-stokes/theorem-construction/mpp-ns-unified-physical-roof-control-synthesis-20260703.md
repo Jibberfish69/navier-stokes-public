@@ -740,6 +740,16 @@ count it. Finite stopped-score/reset-witness overlap counts extra claims only
 after those claims are proved to be same-packet stopped re-entries through that
 first face history. The lower producer is
 `PrimitiveReturnFirstFaceAddressOrPaidReentry.A`.
+The primitive return first-face address stopping-partition reduction is now
+installed in
+`mpp-forward-gold-primitive-return-first-face-address-stopping-partition-reduction-20260704.md`.
+It prevents pre-readout trace support from being promoted into ownership. One
+primitive negative return event of the same packet must be sorted into one
+stopped active face address before selected-face counting, and every extra
+selected-face claim must be a stopped same-packet address change or
+paid/legal/stop/exit residue. The lower objects are
+`PrimitiveReturnFaceAddressStoppingPartition.A` and
+`PrimitiveReturnFaceAddressChangePaidOrExit.A`.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
