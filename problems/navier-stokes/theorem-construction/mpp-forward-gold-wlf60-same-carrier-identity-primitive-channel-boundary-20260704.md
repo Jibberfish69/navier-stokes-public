@@ -212,6 +212,26 @@ The second line is the live extra theorem.  It is not installed by fixed-chart
 formulas, raw same-packet Hodge identities, retained-edge selector capture, or
 common-selector ownership alone.
 
+The sharper physical form of that second line is mismatch evacuation.  A
+retained positive lower-source / upper-queue mismatch must be forced into one of
+three outcomes before WLF.60 can use it:
+
+\[
+\begin{array}{ll}
+\text{identified:} & \text{the mismatch is the selected positive native carrier;}\\
+\text{paid earlier:} & \text{it is legal, reselection, donor-chain, or support charge;}\\
+\text{terminal:} & \text{it becomes the selected terminal source-curve atom.}
+\end{array}
+\tag{WSC.13a}
+\]
+
+The terminal branch is not a forward Gold supplier.  Before same-witness
+admission it is the exact forward obstruction; after same-witness admission and
+uniform service certification it is a CM Part/Field consumer branch.  If the
+mismatch is evacuated instead, `FreshSameCarrierIdentity.A` is the surviving
+Gold branch and the only remaining forward product is same-carrier overrun tail
+payment.
+
 ## 5. Checked obstruction to shortcut closure
 
 The invalid shortcut is:
