@@ -98,8 +98,8 @@ also proves:
 \tag{NDM.5}
 \]
 
-Thus `RetainedRecordEdgePreReadoutCustodyClosedGraph.A' is equivalent, inside
-the compactness route, to proving that every possible same-edge detachment has
+Thus `RetainedRecordEdgePreReadoutCustodyClosedGraph.A' is reduced, inside the
+compactness route, to proving that every possible same-edge detachment has
 already been paid, legally stopped, exited, or controlled by the limiting face
 measure before readout.
 
@@ -248,8 +248,8 @@ Any failure of one equality in `(NDM.16)' is not harmless notation drift.  It is
 an unpaid physical detachment.  A compactness proof that does not charge those
 detachments proves storage for the wrong event.
 
-The next theorem work should therefore attack the no-detachment charges
-directly.  In the current source state, the deepest shared producer inside those
-charges is the selected-generator/native-birth positive critical transfer
-payment from original history; the repeated-core and shrinking-core branch notes
-describe the two extremal ways that payment can still fail.
+This leaves a theorem-sized burden on the no-detachment charges themselves.  In
+the current source state, the deepest shared producer inside those charges is
+the selected-generator/native-birth positive critical transfer payment from
+original history; the repeated-core and shrinking-core branch notes describe the
+two extremal ways that payment can still fail.
