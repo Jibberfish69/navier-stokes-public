@@ -33,6 +33,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-fresh-source-tent-extremal-two-branch-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-repeated-core-record-return-balance-law-sharpener-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-shrinking-core-critical-reset-carleson-sharpener-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-physical-payment-synthesis-20260704.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -501,6 +502,12 @@ equivalently `OriginalScaleMemoryStorageCoercivity.A` /
 `SelectedGeneratorStorageCoercivity.A` / `PositiveCriticalTransferBound.A`.
 Natural scale-memory storage supplies a signed balance, not the selected
 generator square coercivity.
+The selected-generator physical payment synthesis
+`mpp-forward-gold-selected-generator-physical-payment-synthesis-20260704.md`
+now pins that producer to one physical packet: the same original material
+history must pay first retained upward critical-scale births through
+no-free-upcascade/native-birth accretive payment before root projection reads
+the future-positive edge.
 The fresh-source tent extremal reduction makes the physical shape explicit:
 after inherited parent pieces and local consumers are removed, the bad object is
 one original history with finite raw fresh mass but infinite selected-critical
