@@ -16,12 +16,12 @@ the same Navier-Stokes object and carry independent completion burdens.
 ## Lowest Safe Claim
 
 - Navier-Stokes global regularity is presented through a dual Gold/Silver route on the same theorem object. Gold must prove the desired regularity world directly. Silver must prove the obstruction-world has no valid inhabitant through terminal witness entry, Silver Part/Field finite-failure exhaustion after live-object participation is typed, outside-CM participation-field/window original-participation audit where needed, and `Exit(Q):=not Member(Q)`.
-- The current Gold burden is the signed-height same-parent package: before selected readout, the same signed-height record work must enter one parent-known active state, carry selected-critical root currency, and be absorbed by record-admitted full-exchange storage. This is a strict reduction toward `SignedCriticalHeightSignPersistenceOrPeakBound.A`, not a proof of it from original data.
+- The current Gold burden is the signed-height owner-and-charge law: before selected readout, the same signed-height record work must have one parent-known owner map and one original-history charge measure. Parent active state, selected-critical root currency, and record-admitted storage are the three projections of that law. This is a strict reduction toward `SignedCriticalHeightSignPersistenceOrPeakBound.A`, not a proof of it from original data.
 - Periodic, `Q(t)`, source-wall, positive-supplier, and export surfaces are support unless a checked bridge lands their exact claim in the Gold direct proof of the shared object, in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or in the outside-CM participation-field/window original-participation audit.
 
 ## Mechanism Pair
 
-- Gold mechanism: direct regularity / controlled evolution for the shared Navier-Stokes datum, interval, and theorem object. Current Gold work is the signed critical-height record package: parent active state, selected-critical root currency, and record-admitted storage for the same record event before selected readout.
+- Gold mechanism: direct regularity / controlled evolution for the shared Navier-Stokes datum, interval, and theorem object. Current Gold work is the signed critical-height owner-and-charge law for the same record event before selected readout.
 - Silver mechanism: obstruction exclusion from an alleged finite Clay terminal witness; the pass branch is lawful smooth continuation, while the fail branch is sorted by the same-fluid CM terminal participation-field tree.
 - Cross-lane braid, periodic, and source-history imports may sharpen support language, but they do not replace either the Gold direct proof obligation or the Silver Part/Field witness gate.
 
