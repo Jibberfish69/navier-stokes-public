@@ -466,6 +466,14 @@ selector/channel motion is selector-stratum/order-lock variation payable only
 through parent-announced stopped selection plus stopped full-exchange or
 selected-density first-ratio gain. Local silent routing and selector BV support
 remain support until those record-level producers are proved for the same edge.
+The producer-collapse note
+`mpp-forward-gold-retained-record-edge-paid-rotation-producer-collapse-20260704.md`
+then removes the duplicate reading: after parent-announced selector capture, both
+paid-rotation suppliers are consumers of
+`CriticalFreshSourceTentCarleson.A / FreshSourceCriticalScaleMemoryBound.A`.
+This is the original-history selected-critical tent/scale-memory bound that
+inserts the missing weight before the future selected tail; without it the same
+half-tail defeats silent-service reserve and selector-motion payment alike.
 The pressure-active/silent face now reduces to
 `RecordMenuPressureActiveQuotientAngleGap.A` plus
 `RecordMenuDetectorSilentServicePreReadoutReserve.A`: raw detector faithfulness

@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-transition-continuity-announceable-reset-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-order-lock-selected-density-first-ratio-alignment-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-cone-aperture-consumed-support-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-paid-rotation-producer-collapse-20260704.md
 completion_truth: >-
   This note does not prove the angle-lock-or-paid-rotation theorem. It proves a
   stricter split of the paid-rotation branch: near-silent projector/selector
@@ -149,3 +150,10 @@ physical work is to prove that the edge is parent-announced before readout and
 that its rotation cost is finite in original-history units: detector-silent
 reserve on the service side, and stopped full-exchange/selected-density action
 on the selector-motion side.
+
+The producer-collapse note sharpens the last sentence: after parent-announced
+selector capture, the detector-silent reserve and the selector-motion payment
+are both consumers of
+`CriticalFreshSourceTentCarleson.A / FreshSourceCriticalScaleMemoryBound.A`.
+Local silent routing and selector BV support do not beat the half-tail without
+that selected-critical original-history weight.
