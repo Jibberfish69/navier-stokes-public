@@ -1580,6 +1580,16 @@ no-recount, and stopped potential averages on the wrong carrier remain support.
 They become proof only after the lower fresh source and upper positive queue are
 identified on \(C_P\) and the selected overrun is paid there.
 
+The identity clause in `(SCSS.66)' is not a black-box estimate.  Its current
+physical form is mismatch evacuation: every retained positive lower-source /
+upper-queue mismatch must be identified with the selected positive native
+carrier, paid before readout as legal/reselection/donor-chain/support charge, or
+forced into the selected terminal source-curve atom.  The terminal branch is a
+checked obstruction and, after same-witness admission, a CM Part/Field consumer;
+it is not another forward supplier for WLF.60.  If mismatch evacuation gives the
+identity branch, the remaining forward Gold burden is same-carrier selected
+overrun tail payment.
+
 ## 25. WLF.60 and source payment are one early-row reading
 
 The same-parent source-payment package is not a sibling bottom beside WLF.60.
