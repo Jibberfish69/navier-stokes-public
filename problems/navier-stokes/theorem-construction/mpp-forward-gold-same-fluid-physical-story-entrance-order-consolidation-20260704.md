@@ -381,6 +381,54 @@ owns the primitive signed-channel events.  Building the event map through full
 face/polarity return is circular: it spends the same-face return budget to
 create the face owner that makes the return budget lawful.
 
+The first-boundary phrase in `(SFP.12b0)' is also one charge face, not a new
+menu of lower frontiers.  After stopped address admission and coordinate lift,
+the address/boundary part of \(\Gamma_{\rm pre}\) must charge the first way the
+same primitive event loses or changes its parent-known address:
+
+\[
+\begin{aligned}
+&\text{pre-readout stopped address admission and coordinate lift}\\
+&+\text{finite same-event first-boundary charge}
+\end{aligned}
+\Longrightarrow
+\Gamma_{\rm pre}^{addr}.
+\tag{SFP.12b2}
+\]
+
+The five current readings of that first-boundary charge are unadmitted stopped
+chamber pieces, failed chart/projector, detector/channel, or face-trace lift,
+first-difference overlap between candidate address cells, pre-return address
+change, and parent-currency off-face/root-endpoint transition.  Selector BV,
+chart/projector service, detector rotation, face-trace boundary, off-face
+service, and endpoint/root payment estimates are support until they prove their
+boundary as the first-use charge for the same event and sum into the same finite
+\(\Gamma_{\rm pre}^{addr}\).
+
+The parent-currency off-face reading is the active/root wall seen from the
+address side.  It is the same stopped parent packet after pressure has paired
+opposite lobes and viscosity has supplied parent capacity, but before the
+selected critical meter clips child readouts:
+
+\[
+\begin{aligned}
+&\texttt{LocalActiveTransitStorage.A}\\
+&+\texttt{FullExchangeNoSelfFeedingStorage.A}
+\end{aligned}
+\Longrightarrow
+\texttt{ParentActivePotentialCapacityDomination.A}
+\Longrightarrow
+\Gamma_{\rm pre}^{addr}
+\text{ on parent-currency off-face transitions}.
+\tag{SFP.12b3}
+\]
+
+Thus local custody charges alone are support, and root/record payment alone is
+support unless it pays the active/root face for the same key.  The reduced
+Gold-bearing package is one common parent-known event key, finite local custody
+and first-boundary charges for that key, and one shared same-carrier active/root
+payment from the original Navier-Stokes history.
+
 The local and active/root halves must then satisfy the same-event identity
 
 \[
