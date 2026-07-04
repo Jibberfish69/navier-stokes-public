@@ -609,6 +609,15 @@ modulus. Every positive subface of the record must either have admitted carrier
 thickness or pay same-face charge before readout. Terminal anti-atom reserve is
 support unless it is localized to this subface modulus; whole-record charge can
 coexist with singular concentration on an unpaid subface.
+The record-face polarity same-face no-cancellation reduction is now installed in
+`mpp-forward-gold-record-face-polarity-same-face-no-cancellation-reduction-20260704.md`.
+It sharpens the sign half of face persistence: a positive record face can be
+locally thick in the admitted carrier and still vanish from the signed limit by
+cancellation with an opposite same-face return. The proof must either keep the
+positive marked face or charge the cancelling partner as same-face negative
+return, signed-partner saturation, endpoint/material-record return, legal, stop,
+or exit before readout. Terminal anti-atom and negative-return language remain
+support until localized to the exact positive subface whose sign was lost.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
