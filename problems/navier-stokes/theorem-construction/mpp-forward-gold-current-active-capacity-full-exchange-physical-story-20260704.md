@@ -25,6 +25,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-capacity-signed-height-record-admission-boundary-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-active-potential-terminal-survivor-dichotomy-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-exchange-no-self-feeding-physical-lyapunov-pressure-test-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-storage-matrix-early-branch-obstruction-20260704.md
 completion_truth: >-
   This note proves no new estimate. It records a checked strict reduction:
   raw same-parent pressure-Hodge atoms and retained opposite-lobe reserve are
@@ -184,6 +185,13 @@ viscosity supplies capacity, but the weighted surplus still needs a
 bounded-below same-parent Lyapunov drop with strict subunit feedback. Proving
 that drop from preallocated critical-source storage and then proving the
 critical source from full exchange is the checked circular route.
+
+The coupled-matrix pressure test identifies the physical obstruction inside
+that circular route. Retained full-exchange loop action has genuine Stokes
+smallness after zero modes and paid exits are removed. Early trace/source action
+has not lived long enough for heat-lag contraction, so the current proof pays it
+by preallocated critical-source storage. That is the same active-potential
+finite-excess face that full exchange is supposed to prove.
 
 ## 5. What is closed and what is not
 
