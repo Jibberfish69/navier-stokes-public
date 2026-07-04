@@ -53,10 +53,10 @@ completion_truth: >-
   storage rows are now coordinate readings of that same owner-and-charge package
   from the same Navier-Stokes packet. At the current deepest edge, retained
   heat-lag/full-exchange smallness is proof-level support, while the early
-  sub-heat-lag/source branch remains open unless paid by an independent
-  original-history first-admission reserve or by a simultaneous coupled matrix
-  with spectral radius below one. Work outside that same-event order is support
-  or obstruction, not closure.
+  sub-heat-lag/source branch remains open unless paid by the isolated WLF/ODP
+  original-data early-row first-admission face or by a simultaneous coupled
+  matrix with spectral radius below one. Work outside that same-event order is
+  support or obstruction, not closure.
 ---
 
 # Same-fluid physical story entrance-order consolidation
@@ -537,8 +537,9 @@ finite-dimensional after a robust near-silent collar, while the PDE producer is
 before readout from original-history selected-critical / primitive half-tail
 currency, equivalently
 `CriticalFreshSourceTentCarleson.A` /
-`FreshSourceCriticalScaleMemoryBound.A` or an independent primitive PLS strict
-half-barrier / bounded-below Lyapunov / weighted laminar reserve theorem.
+`FreshSourceCriticalScaleMemoryBound.A`, read through the primitive PLS strict
+half-barrier / bounded-below Lyapunov / weighted laminar reserve coordinate of
+the same burden.
 
 At the current direct-live depth, that same selected-critical payment is read
 through the active-capacity/full-exchange object.  After raw same-parent
@@ -605,8 +606,8 @@ Duhamel-Hodge, detector, endpoint-admission, and retained-heat clauses to
 support: they make the selected child readout a lawful parent-pulled test of
 one coupled packet before clipping. The remaining nonconsumer theorem is the
 strict same-parent active-critical/full-exchange/active-transit storage law from
-the original pressure-viscosity-incompressibility packet. In the independent-face
-reading, the current face is WLF.60 / WLF.36 / ODP.91 early-row payment on the
+the original pressure-viscosity-incompressibility packet. In the isolated
+early-row reading, the current face is WLF.60 / WLF.36 / ODP.91 payment on the
 order-locked carrier, not a generic sibling reservoir. After the signed-height restart,
 that storage must be record-admitted to the same signed-height upcrossing before
 it has Gold force. On the terminal
