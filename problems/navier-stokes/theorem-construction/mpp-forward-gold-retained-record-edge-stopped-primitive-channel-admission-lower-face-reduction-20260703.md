@@ -118,6 +118,23 @@ the pressure-active part is visible to the parent detector currency, and the
 pressure-silent transverse part is paid, stopped, legal, or exited before
 readout.
 
+The pressure-face reduction now splits this into a quotient angle and a real
+service reserve:
+
+```math
+\texttt{RecordMenuPressureActiveQuotientAngleGap.A}
++\texttt{RecordMenuDetectorSilentServicePreReadoutReserve.A}
+\Longrightarrow
+\texttt{RecordMenuPressureActiveOrSilentService.A}.
+\tag{RSC.5p}
+```
+
+The raw detector-angle theorem is false on unrestricted trace-free tensors. The
+same-packet complete-frame and silent-source identities route detector-silent
+work locally into strain/exchange, viscous/radius, collar/frame, legal, stop, or
+exit service; the unpaid part is proving that this service is reserved before
+arbitrary future record readout in the record's own units.
+
 `RetainedRecordEdgeCommonSelectorRefinementNoLoss.A` is the retained-edge
 version of common selection. For every arbitrary future-positive exact-projector
 record edge, it must construct one parent-known stopped carrier, selector cone,

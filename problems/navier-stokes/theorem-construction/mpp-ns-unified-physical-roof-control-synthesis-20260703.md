@@ -445,6 +445,11 @@ That coupled object now splits into `RecordMenuPressureActiveOrSilentService.A`,
 `RetainedRecordEdgeCommonSelectorRefinementNoLoss.A`, and
 `RetainedRecordEdgePrimitiveChannelCompatibility.A`; stopped selector cone
 aperture is consumed support after common-selector refinement.
+The pressure-active/silent face now reduces to
+`RecordMenuPressureActiveQuotientAngleGap.A` plus
+`RecordMenuDetectorSilentServicePreReadoutReserve.A`: raw detector faithfulness
+is false on transverse trace-free modes, and the unpaid PDE content is a
+pre-readout material-service reserve for detector-silent work.
 The common-selector face now reduces to
 `RetainedRecordEdgeParentAnnouncedSelectorCapture.A` plus stopped-selector
 variation/payment support: the arbitrary future-positive record edge must be
