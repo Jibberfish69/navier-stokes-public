@@ -45,6 +45,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-trace-address-process-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-address-change-charge-split-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-boundary-charge-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-face-trace-fiber-atlas-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-event-common-selector-chamber-admission-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-stopped-carrier-coverage-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-material-carrier-support-reduction-20260704.md
@@ -700,6 +701,22 @@ The fourth coordinate of `(SCSS.32b)' is itself physical, not a placeholder:
 So a face-address change is legal only after the event has an actual pre-readout
 face trace, cannot detach from that trace without payment, and cannot collapse
 the trace into zero carrier thickness without local boundary charge.
+
+The first input of `(SCSS.32b')' is now reduced one physical layer lower:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberPreReadoutFaceAtlasOrPaidDetachment.A}\\
+&+\texttt{PrimitiveStoppedChamberFaceOverlapBoundaryLaw.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberFaceTraceFiberOrPaidDetachment.A}.
+\tag{SCSS.32b''}
+\]
+
+This is the face-ownership theorem: a primitive event must already sit in a
+parent-known pre-readout face cell, or its failure to sit there is paid, stopped,
+legal, or exited. Return is not an input to this ownership step.
 
 After `(SCSS.32a)' supplies the trace-address process, the same-face return
 budget is a downstream payment:
