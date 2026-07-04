@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-current-carleson-pivot-workunit-20260628
-status: next-workunit-original-history-fresh-innovation-carleson-open
+status: superseded-predictability-is-causality-gate-source-payment-open
 created_at: 2026-06-28
 problem: navier-stokes
 route: forward-gold same-material stopped routed participation current
@@ -150,9 +150,15 @@ current language.
 
 ## 4. What to prove next
 
-The proof must show that \(H_{e^-}\) is parent-predictable with respect to the
-same stopped filtration that defines \(\Pi_e^{fresh}\), up to paid reset and
-stop.  Then `(8)` becomes a predictable martingale/Bessel estimate:
+The 2026-06-28 working conclusion below is superseded by the July 4 physical
+roof. It correctly identified the before-readout causality gate, but it
+promoted that gate to the source theorem.
+
+The proof must still show that \(H_{e^-}\) is parent-predictable with respect to
+the same stopped filtration that defines \(\Pi_e^{fresh}\), up to paid reset
+and stop. That prevents the selected tail from choosing the weight after seeing
+the fresh increment. Under that causality hypothesis, the consumer estimate has
+the martingale/Bessel shape:
 
 \[
 \sum_{e\subset P'}
@@ -178,14 +184,47 @@ Thus the next theorem is:
 Statement: after paid reset, reselection, stop, legal, parent leverage, and
 inherited record are removed, the active weight \(H_{e^-}\) used to retain a
 first endpoint seed is measurable from the parent material history before the
-fresh projected charge \(\Pi_e^{fresh}F_e\) is read, and its Carleson density is
-bounded by original-history route geometry.
+fresh projected charge \(\Pi_e^{fresh}F_e\) is read.
 
-Then `(9)` proves `(8)`, `(8)` proves `(1)`, endpoint testing proves endpoint
-seed absorption, and the installed relay gives finite selected action.
+That statement is necessary, but it is not sufficient. Parent predictability
+alone still allows a predictable half-tail:
+
+\[
+\sum_\ell\|D_\ell\|^2<\infty,
+\qquad
+\sum_\ell H_{\ell^-}\|D_\ell\|^2=\infty.
+\tag{11}
+\]
+
+So the live source theorem is stronger:
+
+\[
+\texttt{OriginalHistoryParentPredictableFreshInnovationCarleson.A}
+/
+\texttt{SelectedGeneratorStorageCoercivity.A}.
+\tag{12}
+\]
+
+It must prove that the same original packet generates the active weight and
+fresh innovation currency from commutator, covector, frame, turnstile, exchange,
+scale derivative, or equivalent same-material source motion before readout.
+Then the Bessel consumer can spend that currency; Bessel cannot create it.
 
 ## 5. Current truth
 
-This is not closed here.  The workunit has been sharpened to a single
-predictability theorem for the selected active weight.  Proving that theorem
-noncircularly from the original packet is now the correct next attack.
+This is not closed here. The workunit is corrected as follows:
+
+```text
+StoppedSelectorPredictableWeight.A
+= before-readout causality support.
+
+OriginalHistoryParentPredictableFreshInnovationCarleson.A
+/ SelectedGeneratorStorageCoercivity.A
+= proof-sized source theorem.
+```
+
+The physical story is one retained parent packet. The fresh endpoint seed is a
+parent-subtracted material innovation. Predictability says the parent did not
+choose the weight from the future seed. The remaining Gold theorem says the
+parent's own pressure-viscosity-incompressibility-velocity history supplies the
+weighted selected-critical currency that pays all such fresh seeds.
