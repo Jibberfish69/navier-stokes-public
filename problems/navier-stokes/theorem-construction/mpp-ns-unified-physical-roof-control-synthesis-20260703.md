@@ -37,6 +37,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admitted-critical-no-arbitrage-compactness-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-edge-no-detachment-producer-topology-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-face-radon-nikodym-tightness-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-face-local-thickness-charge-modulus-reduction-20260704.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -599,6 +600,14 @@ admitted carrier, and unless the positive polarity cone is closed under the
 same-edge no-detachment topology. The concrete obstruction is a prelimit
 absolutely-continuous face concentrating to a singular atom against the limiting
 carrier.
+The record-face local thickness-charge modulus reduction is now installed in
+`mpp-forward-gold-record-face-local-thickness-charge-modulus-reduction-20260704.md`.
+It sharpens this again: the signed-height record-upcrossing criterion is a
+whole-record scalar reduction, while compactness needs a local same-face
+modulus. Every positive subface of the record must either have admitted carrier
+thickness or pay same-face charge before readout. Terminal anti-atom reserve is
+support unless it is localized to this subface modulus; whole-record charge can
+coexist with singular concentration on an unpaid subface.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
