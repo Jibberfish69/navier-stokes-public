@@ -809,6 +809,16 @@ which stopped material chamber owns the same event, which local frame measures
 it, which signed stress channel reads it, and which sign/thickness face is being
 charged. This is the pre-map overlap version of the post-map address-change
 charge.
+The primitive stopped-chamber selector normalization reduction is now installed
+in
+`mpp-forward-gold-primitive-stopped-chamber-selector-normalization-reduction-20260704.md`.
+It removes a duplicate selector burden from the coverage branch. A chamber that
+can support the primitive PLS signed-channel formula must already be a stopped
+common-selector chamber, so selector ownership belongs in event admission. The
+remaining coordinate lift is nonselector lift on that same chamber: chart/
+projector, detector/channel, and face/polarity. The event-map branch is now
+normalized to common-selector chamber admission, nonselector coordinate lift,
+and primitive address-cell overlap boundary charge.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
