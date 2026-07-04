@@ -480,6 +480,13 @@ The common-selector face now reduces to
 `RetainedRecordEdgeParentAnnouncedSelectorCapture.A` plus stopped-selector
 variation/payment support: the arbitrary future-positive record edge must be
 captured by a finite parent-known stopped score before positive readout.
+The lower retained-edge faces are now consolidated in
+`mpp-forward-gold-retained-record-edge-pre-readout-custody-tuple-reduction-20260704.md`.
+Selector capture, retained exact-projector chart license, and the
+pressure-active/silent-service split must be proved for the same retained edge
+before record readout. Separate support on those faces does not give
+`RecordMenuRootProjectionFaithfulness.A`, because the record work could otherwise
+be captured, charted, and detector-paid on different projections of the packet.
 After that bridge, the record/return package
 `StoppedPrimitivePLSSignedScalePotentialLift.A',
 `StoppedPotentialRecordAverageBound.A', and
