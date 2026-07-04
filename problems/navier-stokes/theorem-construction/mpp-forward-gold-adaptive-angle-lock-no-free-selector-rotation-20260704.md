@@ -90,7 +90,7 @@ residue satisfies
 [m_e(Z_e)]_+
 \le
 C_N[\Gamma_e(Z_e)]_+
-dRot_e+dPaid_e+dLegal_e+dStop_e+dExit_e,
++dRot_e+dPaid_e+dLegal_e+dStop_e+dExit_e,
 \tag{AAL.4}
 ```
 
