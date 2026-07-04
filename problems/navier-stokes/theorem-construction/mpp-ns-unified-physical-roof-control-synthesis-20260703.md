@@ -933,6 +933,17 @@ pay scale boundary, collar/projector transfer, channel rotation, material
 service, legal, stop, or exit. This implies
 `PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A` and hence feeds
 the pre-readout material channelization partition.
+The primitive raw active-state first-address reduction is now installed in
+`mpp-forward-gold-primitive-raw-active-state-first-address-reduction-20260704.md`.
+It sharpens the atlas burden physically. Finite-band active transit and maximal
+first-exit reset overlap can count active-state changes only after the primitive
+event already has a parent-known active scale/collar/projector state. The live
+lower producer is `PrimitiveRawActiveStateFirstAddressOrPaidTransition.A`:
+before stopped/selector readout, assign each primitive signed-channel event one
+first active state, and make every later active-state claim a paid same-packet
+transition, legal loss, stop, or exit. This implies
+`PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A`, then
+`PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A`.
 The primitive stopped-carrier common-selector ownership reduction is now
 installed in
 `mpp-forward-gold-primitive-stopped-carrier-common-selector-ownership-reduction-20260704.md`.
