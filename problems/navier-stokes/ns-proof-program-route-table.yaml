@@ -214,7 +214,12 @@ live_route_table:
     upper selected positive queue, with same-packet order-lock overlap and
     selected-overrun tail payment on that carrier. Primitive ownership and no-recount are
     support until selection happens from the recombined full packet before
-    positive-part extraction. The terminal branch is obstruction / CM-consumer
+    positive-part extraction. In the older ODP coordinates this is active
+    same-parent route-measure Carleson ODP.91; ODP.91 gives WLF.60 but still
+    requires the projected original-history reserve Carleson bound ODP.111,
+    whose unpaid producer is the persistent affine quotient ODP.160 / ODP.125.
+    Potential-average control and positive second-order scale exactness are the
+    two recorded analytic faces of paying that quotient on the same carrier. The terminal branch is obstruction / CM-consumer
     support after same-witness admission; the forward WLF branch remains the
     order-locked full-packet carrier with selected-overrun tail payment.
     Installed finite-graph payments lower the remaining mismatch branch to
