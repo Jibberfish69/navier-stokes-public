@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-source-carrier-to-critical-fresh-source-tent-carleson-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-capacity-goodlambda-weight-tail-equivalence-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-extremal-bad-tree-two-branch-reduction-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-repeated-core-record-return-balance-law-sharpener-20260704.md
 completion_truth: >-
   This note does not prove the fresh-source tent Carleson / scale-memory bound.
   It installs the nonduplicate physical reduction: once local payments and
@@ -116,6 +117,28 @@ RepeatedCorePositiveVariationRootBound.A
 for the same material core. It must say that repeated positive deformation,
 Hodge-frame rotation, collar-normal separation, or annular turnstile variation
 has finite original-data root cost.
+
+The repeated-core balance-law sharpener identifies the nonduplicate mechanism
+inside that phrase. After a signed scale-potential lift, repeated positive
+selected visits on the same stopped core split into record growth plus negative
+return:
+
+\[
+V_+(\Psi)=\Psi(t_M)-\Psi(t_0)+V_-(\Psi).
+\tag{EFS.1}
+\]
+
+Bounded record height alone is false as a closure mechanism, since a bounded
+scalar record can oscillate with infinite variation. The branch therefore
+requires parent-predictable record geometry and a signed stopped-material PLS
+balance law charging negative return from original history:
+
+```text
+PredictableRootWeightMartingaleRealization.A
++ SignedStoppedPLSEvolutionIdentity.A
++ StoppedReturnBVFiniteFromOriginalData.A
+=> RepeatedCorePositiveVariationRootBound.A.
+```
 
 Second, every material ancestry line can have finite selected action, while the
 divergence escapes through antichain blocks of shrinking selected cores:
