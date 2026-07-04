@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-primitive-pls-driver-admission-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-primitive-pls-polar-lift-coupled-selector-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-projector-escape-payment-audit-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-projector-selector-angle-lock-obstruction-20260704.md
 completion_truth: >-
   This note proves a strict reduction and a same-edge non-aliasing obstruction.
   It does not prove RetainedRecordEdgePrimitiveChannelCompatibility.A. It shows
@@ -195,3 +196,10 @@ The current unpaid theorem is therefore
 selector-announced primitive channel is the one that receives the surviving
 exact-projector residue before record readout, or route the mismatch to paid
 service, legal, stop, chart-transfer, or Pack/Part/Field exit.
+
+The angle-lock obstruction note sharpens the lower edge of this theorem. Same
+packet identity, pressure visibility, and stopped material core do not force the
+same signed primitive channel: in the frozen trace-free symbol space, a
+pressure-visible residue can lie outside the selector-announced cone unless the
+two functionals are angle-locked. The smaller open input is now
+`RetainedRecordEdgeProjectorSelectorAngleLockOrPaidRotation.A`.

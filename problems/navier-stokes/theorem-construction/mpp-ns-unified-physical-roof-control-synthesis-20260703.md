@@ -452,6 +452,13 @@ not yet prove that the exact-projector residue enters the selector-announced
 primitive signed channel. The lower open theorem is
 `RetainedRecordEdgeSelectorProjectorChannelAlignment.A`, or else a paid
 pre-readout mismatch route.
+The angle-lock obstruction note sharpens this again: frozen pressure-Hodge
+visibility and stopped-core identity do not force positivity in the
+selector-announced primitive channel. The smaller physical input is
+`RetainedRecordEdgeProjectorSelectorAngleLockOrPaidRotation.A`: either the
+projector active functional and selector channel have a uniform pre-readout
+angle lock on the surviving residue, or the rotation away from that cone is
+paid as same-packet service, legal, stop, chart/collar transfer, or exit.
 The pressure-active/silent face now reduces to
 `RecordMenuPressureActiveQuotientAngleGap.A` plus
 `RecordMenuDetectorSilentServicePreReadoutReserve.A`: raw detector faithfulness
