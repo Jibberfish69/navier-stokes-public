@@ -24,6 +24,9 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-critical-transfer-dyadic-flux-affine-threading-reduction-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-accretive-testing-thick-thin-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-adjoint-accretive-testing-energy-boundary-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-thinning-corona-rebase-closure-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-testing-defect-ledger-charge-reduction-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-testing-defect-to-fresh-weighted-paired-carrier-correction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-half-tail-profile-liouville-boundary-20260626.md
 completion_truth: partial-not-mpp-closed
 ---
@@ -272,3 +275,48 @@ native-reserve formulations are legal coordinates for this same physical
 question.  They become proof only when they supply one of the two payments above:
 a parent-known accretive square before selection, or a global same-history
 packing law that kills the half-tail.
+
+## 7. Accretive fork source check
+
+The source check narrows the first door.  Selector thinning is not an open
+inverse-density theorem: the thin selected support is stopped and rebased onto
+its selected child, and the stopped mass packs geometrically in the same
+material tree.  After that rebase, local testing defects charge to Schur,
+exchange/material service, reset, stop, and legal terms.
+
+The checked reduction leaves only the global full-exchange/root reserve:
+
+\[
+\texttt{StoppedFullExchangeActionCarleson.A}
+\quad\text{or equivalently}\quad
+\texttt{SelectedCompressionRootReserve.A}.
+\]
+
+Paid reselection/reset is support after that reserve exists.  It is not a
+second source.  Therefore the accretive-testing fork is not currently an
+independent bottom theorem.  It becomes a proof only if it constructs the
+full-exchange/root reserve from the original coupled packet before selected
+readout.
+
+Physically, this means the same selected birth must already sit in a
+parent-known critical carrier.  The parent must see the pressure-Hodge
+transport/rotation service, the root exchange, and the scale-native birth before
+the child record clips the positive part.  If that carrier is not constructed,
+the test is only measuring a future-selected event.
+
+Thus the simplified bottom of this pass is:
+
+\[
+\texttt{SameParentCriticalDepletionNoZeno.A}
+\quad\text{or}\quad
+\texttt{NativeBirthChargePacking.A}
+\quad\Longrightarrow\quad
+\texttt{SelectedGeneratorStorageCoercivity.A}.
+\]
+
+In critical scalar coordinates, this is still the strict one-sided positive
+transfer/depletion theorem.  In the physical story, it is the no-Zeno rule for
+first scale-native births of the same original packet: a Zeno train with unit
+selected births and summable raw/collar/legal/stop cost must either deplete a
+bounded parent critical storage with strict margin or fail to remain in the same
+parent-known carrier.
