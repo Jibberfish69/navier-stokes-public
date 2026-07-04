@@ -228,3 +228,68 @@ This is the chamber-level analogue of the retained-edge exact-projector
 chart-license split. Retained-edge chart license remains support until the
 metric tower and higher projector service are proved for primitive events in
 the admitted chamber before selected readout.
+
+## 7. Detector/channel physical reduction
+
+The detector/channel coordinate is the same packet seen through the pressure
+detector and the selector-announced signed channel. Pressure visibility alone
+does not make the selector channel positive. A trace-free increment can be
+visible to the pressure-Hodge/root detector while lying outside the selected
+channel, and detector-silent or near-silent components can still feed strain.
+
+The chamber-level detector lift therefore reduces to two physical inputs:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberPressureActiveAngleLockOrPaidRotation.A}\\
+&+\texttt{PrimitiveStoppedChamberDetectorSilentReserveOrPaidService.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberDetectorChannelLiftOrPaidService.A}.
+\tag{NCL.12}
+\]
+
+The first input says the pressure-visible residue is angle-locked to the
+selector-announced channel, or the same packet pays the channel rotation before
+readout. The second input says detector-silent and detector-near-silent work is
+already assigned to finite same-material service, legal stop, or exit before it
+can be counted as selected work.
+
+The checked physical obstruction is the half-tail reserve: local silent-source
+routing shows where the detector-silent stress goes inside the same packet, but
+it does not prove a finite pre-readout reserve for arbitrary primitive chamber
+events. Current retained-edge detector notes are support until these two inputs
+are proved on the admitted chamber itself.
+
+## 8. Face/polarity physical reduction
+
+The face/polarity coordinate is the same signed work restricted to one
+pre-readout face of the same packet. A chamber-level negative ledger is too
+coarse: it can pay a negative lobe on a different face while the selected
+positive face loses its sign without same-face return.
+
+The chamber-level face lift therefore reduces to a trace fiber and a same-face
+return budget:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberFaceTraceFiberOrPaidDetachment.A}\\
+&+\texttt{PrimitiveStoppedChamberSameFaceSignedReturnBudgetOrPaidPolarity.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberFacePolarityLiftOrPaidReturn.A}.
+\tag{NCL.13}
+\]
+
+The trace-fiber input says the selected positive face is already a lawful
+pre-readout face of the selector-owned primitive signed channel, with
+no-detachment and local thickness/charge preserving the carrier. The same-face
+return input says lost positive sign is paid by the negative part of that same
+face-local signed channel, or by physical return, rotation, diffusion, legal
+reselection, stop, or exit.
+
+The repo now has a formal same-face localization proof once the face-local
+signed channel exists. It does not yet construct that channel from the
+Navier-Stokes packet before aggregation. Current record-face compactness,
+no-detachment, and local thickness notes are support until they prove `(NCL.13)'
+for primitive chamber events before selected-face counting.
