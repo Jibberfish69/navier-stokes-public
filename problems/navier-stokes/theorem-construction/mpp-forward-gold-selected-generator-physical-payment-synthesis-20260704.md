@@ -22,6 +22,9 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-scale-memory-storage-to-affine-quotient-transition-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-fractional-transfer-reduction-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-critical-transfer-dyadic-flux-affine-threading-reduction-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-accretive-testing-thick-thin-reduction-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-adjoint-accretive-testing-energy-boundary-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-half-tail-profile-liouville-boundary-20260626.md
 completion_truth: partial-not-mpp-closed
 ---
 
@@ -206,3 +209,66 @@ Thus this pass installs a strict reduction and obstruction, not a proof:
 The next proof-sized theorem is the noncircular construction of that payment,
 with stopped accretive testing or an equivalent same-material native-birth
 ledger strong enough to imply selected generator square coercivity.
+
+## 6. Physical proof-method pivot
+
+The direct critical-energy calculation has reached its honest limit.  It sees
+the same Navier-Stokes packet:
+
+\[
+\partial_t u+\mathbb P(u\cdot\nabla u)=\nu\Delta u,
+\]
+
+and it measures the same signed critical work \(B(t)\).  The obstruction is
+created when the future record keeps only \(B_+(t)\).  That rectification throws
+away the cancellation that makes the critical energy identity true.  For a
+small critical packet the viscosity term absorbs the positive part.  For
+arbitrary data, the coefficient is the critical size of the same packet, so the
+direct estimate tries to buy the theorem with the theorem's own currency.
+
+Thus the next method cannot be another scalar estimate on \(B_+\) alone.  The
+candidate proof must explain, physically, why the same original packet cannot
+produce infinitely many first upward critical-scale births while paying only
+finite raw heat, raw strain, or raw service.
+
+There are two nonduplicate method doors for that physical payment.
+
+First, stopped accretive testing would put a parent-known reference state beside
+the moving packet before selection.  If the adjoint test is nondegenerate and
+the testing defects pack Carleson, then the signed generator is no longer read
+as a naked positive part.  It is tested against a same-parent state that turns
+the pressure-Hodge/transport/rotation work into a positive square with strict
+absorption:
+
+\[
+\texttt{MaterialAdjointAccretiveTestingData.A}
+\Longrightarrow
+\texttt{SelectedGeneratorStorageCoercivity.A}.
+\]
+
+The thick reference branch is support already.  The open physical content is
+the thin-selector/testing-defect payment from original history.  Without that,
+the test is only a readout of a selected event after the future record has
+already chosen it.
+
+Second, compactness/rigidity would try to say that a failure of native-birth
+packing produces a zero-cost nonzero same-packet profile, then rule that profile
+out.  The local Liouville shortcut is blocked: pressure-Hessian-balanced
+trace-free affine strain profiles can solve the local coupled equation with no
+raw affine heat loss while still carrying positive material action.  Therefore
+the rigidity theorem has to be global in the same history, not local in a
+single chart.  It must exclude an infinite chain of shrinking affine/native
+birth visits with summable raw cost and non-summable selected critical weight:
+
+\[
+\texttt{GlobalCriticalHalfTailPackingExclusion.A}
+\quad\text{or a same-history no-Zeno/native-birth law}
+\Longrightarrow
+\texttt{NativeBirthChargePacking.A}.
+\]
+
+The dyadic upcascade, affine endpoint, moving low-high interface, reset, and
+native-reserve formulations are legal coordinates for this same physical
+question.  They become proof only when they supply one of the two payments above:
+a parent-known accretive square before selection, or a global same-history
+packing law that kills the half-tail.
