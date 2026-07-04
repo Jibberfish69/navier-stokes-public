@@ -8,6 +8,7 @@ logical_landing_node: SignedCriticalHeightSignPersistenceOrPeakBound.A
 target_object:
   - PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A
   - PrimitiveRawActiveStateFirstAddressOrPaidTransition.A
+  - ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A
 role: >-
   Reduces raw active scale/collar/projector multiplicity to a first-address
   theorem for the active state of one primitive same-fluid event, plus paid
@@ -16,6 +17,7 @@ role: >-
   address before stopped/selector readout.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-raw-material-channel-atlas-multiplicity-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-raw-active-state-parent-capacity-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-threaded-fresh-cascade-packing-finite-band-reset-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-reset-witness-interval-bounded-overlap-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-readout-parent-subtracted-current-admission-20260627.md
@@ -23,10 +25,12 @@ source_refs:
 completion_truth: >-
   This note does not prove PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A.
   It proves a strict reduction. The remaining open producer is
-  PrimitiveRawActiveStateFirstAddressOrPaidTransition.A: before any stopped or
-  selector readout, every primitive signed-channel event must have a parent-known
-  first active scale/collar/projector state, and every additional active-state
-  claim must be a same-packet paid transition, legal loss, stop, or exit.
+  the parent-known pre-readout active-state capacity/deletion theorem. Its local
+  primitive projection is PrimitiveRawActiveStateFirstAddressOrPaidTransition.A:
+  before any stopped or selector readout, every primitive signed-channel event
+  must have a parent-known first active scale/collar/projector state, and every
+  additional active-state claim must be a same-packet paid transition, legal
+  loss, stop, or exit.
 ---
 
 # Primitive raw active-state first-address reduction
@@ -207,6 +211,8 @@ Installed support:
 Strict reduction:
 
 ```math
+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}
+\Longrightarrow
 \texttt{PrimitiveRawActiveStateFirstAddressOrPaidTransition.A}
 \Longrightarrow
 \texttt{PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A}
@@ -218,12 +224,13 @@ Strict reduction:
 Still open:
 
 ```math
-\texttt{PrimitiveRawActiveStateFirstAddressOrPaidTransition.A}.
+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}.
 \tag{RAS.13}
 ```
 
 The physical story is now sharper: the formula on one material chart is proved;
 ordinary geometric overlap is support; finite-band/reset counting is support
-after a state exists; the unpaid producer is the first parent-known active
-scale/collar/projector state of each primitive signed-channel event before
-readout, with every later state claim paid as actual same-packet motion.
+after a state exists; the unpaid producer is the parent-known active-state
+capacity of the same coupled packet. Its primitive local face gives the first
+scale/collar/projector state of each signed-channel event before readout, with
+every later state claim paid as actual same-packet motion.
