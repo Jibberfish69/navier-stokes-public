@@ -544,6 +544,13 @@ parent-predictable root geometry, signed primitive return BV, and critical
 weighted reset current generated from the same coupled
 pressure-viscosity-incompressibility-velocity packet. This is not closure; it is
 the single physical wall behind both branch names.
+The signed-height root-payment physical spine is now installed in
+`mpp-forward-gold-signed-height-root-payment-physical-spine-20260704.md`.
+It exposes the actual physical chain that licenses this root language: a signed
+record rise must be admitted into a parent-known same edge, each positive subface
+must be locally thick or same-face paid, lost sign must be retained or paid as
+same-face return, and only then does root/payment/depletion/reset support supply
+the finite record charge needed for bounded signed height.
 The pressure-active/silent face now reduces to
 `RecordMenuPressureActiveQuotientAngleGap.A` plus
 `RecordMenuDetectorSilentServicePreReadoutReserve.A`: raw detector faithfulness
