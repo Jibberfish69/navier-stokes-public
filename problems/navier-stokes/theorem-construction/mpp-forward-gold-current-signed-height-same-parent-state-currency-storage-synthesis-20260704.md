@@ -43,6 +43,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-face-polarity-lift-proof-pass-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-face-local-signed-channel-construction-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-trace-address-process-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-address-change-charge-split-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-event-common-selector-chamber-admission-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-stopped-carrier-coverage-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-material-carrier-support-reduction-20260704.md
@@ -668,6 +669,20 @@ chart/projector transfer, detector/channel rotation, face-trace detachment,
 local thickness loss, legal loss, stop, or exit.  It may not use the same-face
 negative-return budget, because that budget is the next consequence.
 
+Expanded into physical coordinates, that charge is:
+
+\[
+\begin{aligned}
+&\texttt{PrimitivePreReturnSelectorChamberVariationCharge.A}\\
+&+\texttt{PrimitivePreReturnChartProjectorTransferCharge.A}\\
+&+\texttt{PrimitivePreReturnDetectorChannelRotationCharge.A}\\
+&+\texttt{PrimitivePreReturnFaceTraceBoundaryCharge.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveChannelPreReturnAddressChangeCharge.A}.
+\tag{SCSS.32b}
+\]
+
 After `(SCSS.32a)' supplies the trace-address process, the same-face return
 budget is a downstream payment:
 
@@ -678,7 +693,7 @@ budget is a downstream payment:
 \end{aligned}
 \Longrightarrow
 \texttt{PrimitiveStoppedChamberSameFaceNegativeReturnBudget.A}.
-\tag{SCSS.32b}
+\tag{SCSS.32c}
 \]
 
 Then the full Gold-facing face/polarity lift is recovered by the already
