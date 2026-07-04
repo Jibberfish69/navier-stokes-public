@@ -695,6 +695,16 @@ physical pressure/transport/frame/viscous/material channel coordinates only afte
 the edge is admitted to that stopped selector channel. Same-packet identity,
 pressure visibility, and chamber-level negative variation remain support until
 they prove `RecordFacePrimitiveChannelTraceAndReturnBudget.A`.
+The trace-return budget reduction is now installed in
+`mpp-forward-gold-record-face-primitive-channel-trace-return-budget-reduction-20260704.md`.
+It splits that remaining burden into two same-physical jobs. First, the retained
+positive face must be a pre-readout trace of the selector-owned primitive
+channel. Second, the negative part of that traced channel must have
+original-history budget on the same face. Post-readout positive-face selection,
+chamber-level negative variation, and whole-record charge can all pay the wrong
+object, so they stay obstruction/support until they produce
+`RecordFacePrimitiveChannelPredictableTrace.A` and
+`PrimitiveChannelSelectedFaceNegativeReturnBudget.A`.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
