@@ -343,11 +343,16 @@ or parent-weighted first-admission pulse measure `(WLF.60)' / `(WLF.36)' from
 the original coupled packet before child clipping. Selected-density entropy,
 Hilbert/BMO, reverse Holder, and active-capacity Bellman language are
 deterministic consumers once that parent active density/root carrier is
-constructed; they do not construct it. The latest tower-feedback source-line
-audit pushes this same object down to three noncircular original-data grants:
-stopped Duhamel-Hodge propagator and bounded parent detector estimates,
-zero-baseline endpoint/source admission without borrowing the storage being
-proved, and strict no-self-feeding full-exchange storage. On the terminal
+constructed; they do not construct it. The tower-feedback source-line audit
+first pushed this same object down to stopped Duhamel-Hodge/parent-detector
+legality, zero-baseline endpoint admission, and strict no-self-feeding
+full-exchange storage. The checked TFE2748A/TFE2748B update demotes the
+Duhamel-Hodge, detector, endpoint-admission, and retained-heat clauses to
+support: they make the selected child readout a lawful parent-pulled test of
+one coupled packet before clipping. The remaining nonconsumer theorem is the
+strict same-parent active-critical/full-exchange/active-transit storage law, or
+an independently proved storage face, from the original
+pressure-viscosity-incompressibility packet. On the terminal
 fixed-core branch the same producer is read as root-fixed terminal-uniform
 \(L^1\) full-packet service storage whose service density dominates the endpoint
 measure. Terminal no-atom follows from that storage; it is not a separate final
