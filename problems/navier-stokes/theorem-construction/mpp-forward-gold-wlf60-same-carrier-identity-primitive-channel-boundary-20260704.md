@@ -244,16 +244,17 @@ are removed, the terminal branch is already visible to endpoint tests, the full
 Hodge-Stokes participation tuple, or the coupled mixed tower.  That makes
 `TerminalZenoVisibleReadoutPayment.A` a valid endpoint reduction.  The checked
 full-packet audit makes `TerminalFullPacketNoResiduePayment.A` the terminal /
-no-residue face of the same continuous parent active-measure ledger.  Current
-July 4 authority lowers the active producer to
-`ParentActivePotentialCapacityDomination.A`: after raw pressure-Hodge atoms and
-retained opposite-lobe reserve are installed, the selected critical meter prices
-the paired lobes unequally.  Equivalently, the remaining obstruction is a
-terminal super-capacitary active-potential survivor.  The noncircular source
-split is `BeforeClippingActiveDensityComparison.A` plus
-`FullExchangeNoSelfFeedingStorage.A` as one same-parent storage construction
-with strict subunit feedback.  WLF.60 is the early-branch / heat-lag
-first-admission coordinate of this same obstruction.
+no-residue face of the same continuous parent active-measure ledger.  Inside
+the active-potential coordinate below the signed-height primitive,
+`ParentActivePotentialCapacityDomination.A` is equivalent to absence of a
+terminal super-capacitary active-potential survivor: after raw pressure-Hodge
+atoms and retained opposite-lobe reserve are installed, the selected critical
+meter prices the paired lobes unequally.  The coordinate's nonduplicate source
+is the active full-exchange ledger
+`LocalActiveTransitStorage.A + FullExchangeNoSelfFeedingStorage.A`; 
+`BeforeClippingActiveDensityComparison.A` is the opened split consumed by that
+ledger.  WLF.60 is the early-branch / heat-lag first-admission coordinate of
+that same signed-height payment.
 
 The selected full-packet branch is absorbed below that current bottom.  The
 proved part is order-locked scalarization before positive-part extraction.  The
