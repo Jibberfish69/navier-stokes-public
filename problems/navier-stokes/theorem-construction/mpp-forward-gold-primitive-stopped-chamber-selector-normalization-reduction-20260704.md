@@ -213,3 +213,26 @@ or pay/stop/legal/exit it, and then prove on that same chamber:
 
 That is the honest lower branch. The same fluid event must be owned first; only
 then may the proof attach the remaining address coordinates and count it.
+
+## 6. Nonselector lift refinement
+
+The follow-up nonselector coordinate lift reduction
+`mpp-forward-gold-primitive-nonselector-coordinate-lift-reduction-20260704.md`
+sharpens `(CSN.13)'. Once selector ownership is inside chamber admission, the
+remaining coordinate lift is exactly three chamber-level jobs on the same
+admitted stopped common-selector chamber:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberChartProjectorLiftOrPaidExit.A}\\
+&+\texttt{PrimitiveStoppedChamberDetectorChannelLiftOrPaidService.A}\\
+&+\texttt{PrimitiveStoppedChamberFacePolarityLiftOrPaidReturn.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberNonselectorCoordinateLift.A}.
+\tag{CSN.14}
+\]
+
+Retained-edge chart, detector, and face surfaces are support for those three
+jobs until they are stated on every primitive event inside the admitted chamber
+before selected readout.
