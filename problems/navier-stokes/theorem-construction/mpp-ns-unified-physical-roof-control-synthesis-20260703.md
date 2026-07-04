@@ -819,6 +819,13 @@ remaining coordinate lift is nonselector lift on that same chamber: chart/
 projector, detector/channel, and face/polarity. The event-map branch is now
 normalized to common-selector chamber admission, nonselector coordinate lift,
 and primitive address-cell overlap boundary charge.
+The primitive overlap first-difference charge reduction is now installed in
+`mpp-forward-gold-primitive-overlap-first-difference-charge-reduction-20260704.md`.
+It sharpens the overlap input under that normalized branch: two unequal
+candidate address labels are charged at their first differing physical
+coordinate, before the event map exists. The overlap branch is therefore reduced
+to a pre-map first-difference theorem on stopped common-selector cells, rather
+than the post-map address-change variation theorem.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
