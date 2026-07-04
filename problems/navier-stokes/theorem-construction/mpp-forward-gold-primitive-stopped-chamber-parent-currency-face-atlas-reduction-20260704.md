@@ -38,7 +38,7 @@ The primitive event measure is
 
 \[
 d\mu_{\kappa,C}=|Y_{\kappa,C}|\,d\sigma dt .
-\tag{PCF.1}
+\tag{PCFA.1}
 \]
 
 A face cell is not merely a geometric side of the chamber. It is the parent
@@ -51,7 +51,7 @@ selected sign or same-face return is counted:
 \text{zero-baseline endpoint seed}
 \quad\text{or}\quad
 \text{active full-exchange}.
-\tag{PCF.2}
+\tag{PCFA.2}
 \]
 
 These are the same rows used by the signed-height parent state/root
@@ -64,11 +64,11 @@ The first lower input is all-event parent-currency face admission:
 
 \[
 \texttt{PrimitiveStoppedChamberParentCurrencyFaceAdmissionOrPaidService.A}.
-\tag{PCF.3}
+\tag{PCFA.3}
 \]
 
 It says that every unpaid primitive event of \(d\mu_{\kappa,C}\) enters before
-readout one of the parent currency faces in `(PCF.2)', or is routed to detector
+readout one of the parent currency faces in `(PCFA.2)', or is routed to detector
 silent service, chart/projector service, material service, legal loss, stop, or
 exit.
 
@@ -76,7 +76,7 @@ The second lower input is a boundary law for those currency faces:
 
 \[
 \texttt{PrimitiveStoppedChamberParentCurrencyFaceBoundaryLaw.A}.
-\tag{PCF.4}
+\tag{PCFA.4}
 \]
 
 It says that overlaps and transitions between root/log, endpoint, and
@@ -86,8 +86,8 @@ transition, service, legal loss, stop, or exit.
 
 ## 3. Strict reduction
 
-Assume `(PCF.3)' and `(PCF.4)'. Let \(F_\alpha\) be the pre-readout sets on
-which the event is admitted to one of the faces in `(PCF.2)'. The boundary law
+Assume `(PCFA.3)' and `(PCFA.4)'. Let \(F_\alpha\) be the pre-readout sets on
+which the event is admitted to one of the faces in `(PCFA.2)'. The boundary law
 removes or prioritizes overlaps before the event is used as a selected positive
 trace or negative return. The paid/service/legal/stop/exit pieces are outside
 unpaid face ownership.
@@ -102,7 +102,7 @@ atlas for \(d\mu_{\kappa,C}\)-almost every primitive event. Therefore
 \end{aligned}
 \Longrightarrow
 \texttt{PrimitiveStoppedChamberPreReadoutFaceAtlasOrPaidDetachment.A}.
-\tag{PCF.5}
+\tag{PCFA.5}
 \]
 
 ## 4. Relation to the parent active-state roof
@@ -116,7 +116,7 @@ one same-packet construction with three projections:
 \text{root payment} &:& \text{which selected-critical currency pays them},\\
 \text{record storage} &:& \text{which signed-height record event is paid}.
 \end{array}
-\tag{PCF.6}
+\tag{PCFA.6}
 \]
 
 The present face-atlas theorem is the face projection of that same construction.
@@ -144,7 +144,7 @@ Thus
 \text{record-menu critical face admission}
 \not\Rightarrow
 \text{primitive chamber face atlas}.
-\tag{PCF.7}
+\tag{PCFA.7}
 \]
 
 The missing theorem is the all-event parent-currency face admission on the same
@@ -159,7 +159,7 @@ Installed here:
 +\text{parent-currency face boundary law}
 \Longrightarrow
 \text{pre-readout face atlas}.
-\tag{PCF.8}
+\tag{PCFA.8}
 \]
 
 Still open:
@@ -168,7 +168,7 @@ Still open:
 \texttt{PrimitiveStoppedChamberParentCurrencyFaceAdmissionOrPaidService.A},
 \qquad
 \texttt{PrimitiveStoppedChamberParentCurrencyFaceBoundaryLaw.A}.
-\tag{PCF.9}
+\tag{PCFA.9}
 \]
 
 This keeps the physical story under one roof: the same parent state that gives
