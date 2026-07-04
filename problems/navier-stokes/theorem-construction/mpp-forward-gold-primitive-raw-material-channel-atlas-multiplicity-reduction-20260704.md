@@ -9,17 +9,20 @@ target_object:
   - PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A
   - PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A
   - PrimitiveRawActiveStateFirstAddressOrPaidTransition.A
+  - ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A
 role: >-
   Separates the easy geometric material-atlas support from the live raw atlas
   theorem. Smooth material dyadic charts give finite overlap at a fixed scale
   and for separated log-scale packets. The open pre-readout burden is active
   scale/collar/projector multiplicity for the whole primitive signed-channel
   measure, now reduced to first active-state address or paid same-packet
-  transition before stopped/selector readout.
+  transition before stopped/selector readout, whose source is the parent-known
+  active-state capacity/deletion package.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-raw-material-channel-formula-fixed-chart-proof-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-pre-readout-material-channelization-partition-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-raw-active-state-first-address-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-raw-active-state-parent-capacity-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-same-material-dyadic-packet-overlap-selection-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-shrinking-resolution-on-retained-atlas-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-crossscale-material-atlas-fixed-terminal-gauge-solution-20260622.md
@@ -28,9 +31,9 @@ completion_truth: >-
   This note does not prove PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A.
   It proves only that ordinary material chart geometry is not the wall. The
   remaining theorem is first active scale/collar/projector address before
-  stopped/selector readout, with every later state claim paid as same-packet
-  scale boundary, collar/projector transfer, channel rotation, material service,
-  legal loss, stop, or exit.
+  stopped/selector readout, now read as the primitive local projection of the
+  parent-known active-state capacity/deletion theorem for the same coupled
+  packet.
 ---
 
 # Primitive raw material channel atlas multiplicity reduction
@@ -245,6 +248,19 @@ This is the point where the stopped reset machinery legitimately enters. Reset
 overlap can count active-state changes only after the state being exited has a
 parent-known first address.
 
+The parent-capacity reduction
+`mpp-forward-gold-primitive-raw-active-state-parent-capacity-reduction-20260704.md`
+then identifies that first-address theorem as a local projection of
+
+```math
+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}.
+\tag{RAM.15a}
+```
+
+The same coupled material state that must support record-admitted active storage
+also assigns primitive first active states. Thus the raw atlas branch is not a
+separate bookkeeping frontier; it is under the parent active-state capacity wall.
+
 ## 8. Current proof truth
 
 Installed support:
@@ -258,6 +274,8 @@ have finite overlap}.
 Strict reduction:
 
 ```math
+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}
+\Longrightarrow
 \texttt{PrimitiveRawActiveStateFirstAddressOrPaidTransition.A}
 \Longrightarrow
 \texttt{PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A}
@@ -269,13 +287,14 @@ Strict reduction:
 Still open:
 
 ```math
-\texttt{PrimitiveRawActiveStateFirstAddressOrPaidTransition.A}.
+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}.
 \tag{RAM.18}
 ```
 
 The physical story is now as simple as this branch allows: the formula on one
 material packet is known; finite overlap for ordinary material charts is known;
 finite-band/reset overlap is support after a state exists; the unpaid work is
-to give the same primitive event a first parent-known active
-scale/collar/projector state before readout, or pay every later active-state
-claim as real same-packet motion.
+to construct the parent-known active-state capacity of the same coupled packet
+before readout. Its local primitive face gives the first active state; its
+deletion/transition face pays later active-state claims as real same-packet
+motion.
