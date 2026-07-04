@@ -978,10 +978,10 @@ The WLF.60 same-carrier boundary note
 connects this primitive entrance story back to the early-branch storage payer.
 The primitive chain answers where a signed event physically lives before
 selection. WLF.60 asks the stronger question of whether the lower fresh source
-and the upper selected positive queue are one selected native carrier, and then
-whether the selected overrun on that carrier is paid. Same-material support,
-stopped carrier coverage, and common-selector ownership are therefore necessary
-physical custody, not WLF.60 closure.
+and the upper selected positive queue are on the order-locked full-packet
+selected carrier, and then whether the selected-overrun tail on that carrier is
+paid. Same-material support, stopped carrier coverage, and common-selector
+ownership are therefore necessary physical custody, not WLF.60 closure.
 
 ## 14. Whole-object consolidation from the primitive descent
 
@@ -1639,7 +1639,7 @@ carrier key.
 
 Without the source currency, \(C_P\) has custody but no selected-critical
 weight. Without the carrier key, source-payment estimates can pay a coordinate
-that is not the signed-height record's lower/upper selected native carrier. The
-current Gold burden is therefore still one pre-readout same-parent
+that is not the signed-height record's order-locked full-packet selected
+carrier. The current Gold burden is therefore still one pre-readout same-parent
 state/currency/storage package, not a new list made from WLF.60 plus native
 birth plus positive transfer.
