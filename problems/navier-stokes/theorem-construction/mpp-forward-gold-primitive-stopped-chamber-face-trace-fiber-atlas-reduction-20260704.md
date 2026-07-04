@@ -15,6 +15,7 @@ role: >-
   not a post-readout selected face; it is a parent-known face partition/priority
   for the primitive signed-channel event measure before selected counting.
 source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-parent-currency-face-atlas-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-boundary-charge-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-face-polarity-lift-proof-pass-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-face-local-signed-channel-construction-reduction-20260704.md
@@ -86,6 +87,22 @@ face, endpoint-seed face, or active full-exchange face. These cells cover
 detachment, zero-thickness loss, chart/detector service, legal loss, stop, or
 exit.
 
+The current lower reduction for this atlas is:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberParentCurrencyFaceAdmissionOrPaidService.A}\\
+&+\texttt{PrimitiveStoppedChamberParentCurrencyFaceBoundaryLaw.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberPreReadoutFaceAtlasOrPaidDetachment.A}.
+\tag{FTA.3a}
+\]
+
+This is the parent-currency face projection of the same active-state/root-payment
+object: each primitive event must enter a root/log, endpoint-seed, or active
+full-exchange face, or be service-paid, legal, stopped, or exited.
+
 The second lower input is a face-overlap boundary law:
 
 \[
@@ -149,6 +166,10 @@ trace for one retained future-positive record face, conditional on simultaneous
 custody, no-detachment, and local thickness. That is edge-side support. It does
 not cover every primitive event of both signs in \(d\mu_{\kappa,C}\).
 
+The parent-currency face atlas reduction records the same scope obstruction in
+the face language: record-menu critical face admission gives the correct face
+list, but not all-event primitive chamber coverage.
+
 The primitive event-address atlas reduction proves a formal tie-break once a
 full address atlas exists. It cannot be used here as an input, because the
 pre-return address map already needs the face trace fiber in `(FTA.2)'.
@@ -176,6 +197,14 @@ Still open:
 \qquad
 \texttt{PrimitiveStoppedChamberFaceOverlapBoundaryLaw.A}.
 \tag{FTA.10}
+\]
+
+The atlas input is now lowered to:
+
+\[
+\texttt{PrimitiveStoppedChamberParentCurrencyFaceAdmissionOrPaidService.A}
++\texttt{PrimitiveStoppedChamberParentCurrencyFaceBoundaryLaw.A}.
+\tag{FTA.11}
 \]
 
 This is the physical first step under the face row. The proof must own the
