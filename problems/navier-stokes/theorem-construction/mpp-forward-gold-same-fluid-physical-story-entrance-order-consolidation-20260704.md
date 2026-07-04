@@ -311,6 +311,26 @@ The strict reduced burden is construction of the actual \(E_{\rm pre}\) and
 selected readout; after that, summing the address and root charge faces is
 formal.
 
+The lower sources split this construction into two checked halves.  The local
+half is the pre-return address process: the primitive event has a stopped
+carrier, common selector, chart/projector and detector/channel lift, face trace,
+and first-boundary charge before return is counted.  The active/root half is the
+order-locked full-packet carrier \(C_P\) on which WLF.60 / `(ODP.91)' can pay
+the lower fresh source, upper selected positive queue, and selected overrun.
+Those halves prove Gold only when they are the same physical event:
+
+\[
+C_P(z)=\pi_{\rm act/root}\Xi(z)
+\tag{SFP.12c}
+\]
+
+for the record-positive primitive work \(z\) before readout.  A local custody
+proof without this identity only owns an event.  An active/root payment without
+this identity may pay the right kind of selected-critical carrier for the wrong
+record piece.  Thus the current obstruction is not another address lemma or
+another root-payment lemma; it is the original-history construction that makes
+the local pre-return event key and the active/root carrier key coincide.
+
 `RecordMenuRootProjectionFaithfulness.A` is the entrance gate into that object.
 Its currently exposed lower proof pressure is
 
