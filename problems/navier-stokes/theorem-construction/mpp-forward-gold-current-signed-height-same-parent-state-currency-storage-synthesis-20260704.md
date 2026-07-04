@@ -1234,6 +1234,34 @@ change, chart/projector transfer, detector/channel rotation, face-trace
 boundary, return re-entry, and selected-critical root weight before the record
 readout spends the event.
 
+The same-edge closed-graph and no-detachment reductions live inside this split.
+They are the compactness/topology condition saying that \(\alpha\) and
+\(\Gamma\) still refer to the same record-positive edge after limits are taken,
+not a separate fourth Gold frontier.  In physical terms, the packet that
+produces the positive record work must remain the packet with parent address,
+exact-projector chart license, service or rotation payment, and admitted face
+persistence.
+
+\[
+\begin{aligned}
+&\texttt{RetainedRecordEdgeParentAnnouncedSelectorCapture.A}\\
+&+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}\\
+&+\texttt{SelectedGeneratorStorageCoercivity.A}
+ /\texttt{PositiveCriticalTransferBound.A}
+ /\texttt{NativeBirthChargePacking.A}\\
+&+\text{record-admitted face lower semicontinuity}
+\end{aligned}
+\Longrightarrow
+\texttt{SameEdgeNoDetachmentModulus.A}.
+\tag{SCSS.52}
+\]
+
+Those four jobs are nonduplicate.  Parent address and chart license make
+\(\alpha\) lawful; selected-critical payment supplies the hard part of
+\(\Gamma\); admitted face persistence keeps the limiting carrier attached to the
+same signed-height work.  None of the four can be used as a substitute for
+another without detaching the record from its payer.
+
 Thus a future Gold move has force only by proving one part of that
 original-history charge, or by showing that the charge cannot be made finite
 for the same record event.  A finite owner atlas without the charge is support.
