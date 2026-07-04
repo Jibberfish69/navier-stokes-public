@@ -21,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-pls-signed-channel-decomposition-repair-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-selector-capture-finite-score-scope-audit-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-stopped-primitive-channel-admission-lower-face-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-stopped-carrier-coverage-reduction-20260704.md
 completion_truth: >-
   This note does not prove primitive event common-selector chamber admission. It
   proves a strict reduction: admission follows if the primitive signed-channel
@@ -75,6 +76,26 @@ For \(d\mu_{\kappa,S}\)-almost every primitive event \(z\), before readout the
 parent has a stopped material carrier \(C(z)\) containing the same packet at the
 same scale/time, or the event has already been routed to paid material service,
 legal stop, selector/chamber boundary, chart/collar transfer, or exit.
+
+The follow-up carrier coverage reduction
+`mpp-forward-gold-primitive-signed-channel-stopped-carrier-coverage-reduction-20260704.md`
+sharpens `(ECA.3)'. Coverage is not supplied by retained-edge admission or by a
+PLS formula inside already retained chambers. It needs two primitive-event
+inputs:
+
+\[
+\texttt{PrimitiveSignedChannelMaterialCarrierSupport.A}
++
+\texttt{PrimitiveSignedChannelPreReadoutStoppingAtlas.A}
+\Longrightarrow
+\texttt{PrimitiveSignedChannelStoppedCarrierCoverageOrPaidEscape.A}.
+\tag{ECA.3a}
+\]
+
+The first says the primitive signed density has same-material carrier support.
+The second says those carriers form a parent-known stopped atlas before
+sign/readout selection, with uncovered or boundary events paid, stopped, legal,
+or exited.
 
 The second lower face is common-selector ownership:
 
@@ -169,6 +190,7 @@ known before readout.
 ## 5. Current proof truth
 
 This is a strict reduction and scope obstruction, not proof of admission. The
-remaining physical work is to prove stopped carrier coverage for the primitive
-signed-channel measure and common-selector ownership for each surviving stopped
-carrier before the primitive PLS channel is read.
+carrier-coverage half is now reduced to same-material primitive carrier support
+plus a pre-readout stopped carrier atlas. The second admission half remains
+common-selector ownership for each surviving stopped carrier before the
+primitive PLS channel is read.
