@@ -238,7 +238,7 @@ edges while the signed sum remains a lawful scalar work identity. LP/Bony gives
 the menu; it does not give a finite reserve for future positive selections from
 that menu.
 
-The noncircular lower entrance theorem is
+The noncircular lower entrance theorem for the record-menu edge is
 
 \[
 \texttt{RecordMenuRootProjectionFaithfulness.A}.
@@ -247,15 +247,20 @@ The noncircular lower entrance theorem is
 
 For the signed-height record use, this means each future-positive native work
 edge must enter, before record readout, the same parent root or active
-full-exchange currency that the storage matrix can actually spend. Once that
-entrance is proved, the critical face split and simultaneous storage rows can
-try to absorb the selected work. Without that entrance, storage can pay a
-different carrier and root payment can pay a different selected transition.
+full-exchange currency that the storage matrix can actually spend. It does not
+replace the parent active-state row. It prevents the record-menu edge from
+floating outside the state/currency/storage package. Once that entrance is
+proved, the active-state row, critical face split, root-payment row, and
+simultaneous storage rows can try to absorb the selected work. Without that
+entrance, storage can pay a different carrier and root payment can pay a
+different selected transition.
 
 Thus the direct native-menu route currently gives this strict pressure test:
 
 \[
 \texttt{RecordMenuRootProjectionFaithfulness.A}
++
+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}
 +
 \texttt{OriginalHistoryRecordResetRootPayment.A}
 +
