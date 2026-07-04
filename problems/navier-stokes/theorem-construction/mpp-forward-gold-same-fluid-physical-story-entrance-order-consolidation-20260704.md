@@ -19,6 +19,7 @@ role: >-
   work.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-current-signed-height-same-parent-state-currency-storage-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-state-root-payment-same-parent-projection-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-root-projection-faithfulness-producer-classification-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-edge-no-detachment-producer-topology-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-projection-pre-entrance-scale-memory-producer-collapse-20260704.md
@@ -292,6 +293,24 @@ matrix form and the WLF.60 / `(ODP.91)' row are coordinates of
 \(\Gamma_{\rm pre}\), not independent suppliers.  A future proof move must
 construct this measure from the original pressure-viscosity-incompressibility
 history before the record is read as positive work.
+
+Equivalently, the active-state/root-payment synthesis gives three projections of
+one parent object:
+
+\[
+\begin{array}{lll}
+\text{active-state capacity} &:& \text{where selected events live},\\
+\text{record/reset root payment} &:& \text{which selected-critical currency pays them},\\
+\text{record-admitted storage} &:& \text{which signed-height record event is paid}.
+\end{array}
+\tag{SFP.12a'}
+\]
+
+The root-payment projection supplies the selected-critical face of the active
+state; the coupled matrix absorbs feedback after the record edge is admitted to
+that same carrier.  Using root payment to manufacture the parent active state,
+or using record-admitted storage to manufacture pre-readout root currency, is the
+same reserve self-financing circle in different coordinates.
 
 The common key is physical, not a formal product of two marginal ledgers.  Each
 record-positive primitive piece must already live in one pre-readout event space
