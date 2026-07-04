@@ -24,6 +24,9 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-parent-source-payment-package-unification-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-meter-entropy-flux-split-same-history-capacity-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-pressure-active-silent-service-pre-readout-reserve-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-detector-silent-service-pre-readout-reserve-primitive-half-tail-audit-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-physical-payment-synthesis-20260704.md
 completion_truth: >-
   This note proves no Navier-Stokes smoothness theorem and no new estimate. It
   is a strict synthesis and send-forward boundary: future proof moves must first
@@ -274,3 +277,84 @@ This is still not closure. It is the physical reason for the current target:
 the same record work must be native before readout, visible in parent
 root/full-exchange currency before selection, selected-critical on the record
 face, and absorbed by one strict no-self-feeding storage matrix.
+
+## 8. Detector-silent service is the same half-tail wall
+
+The root-projection entrance theorem is not a naked detector estimate.  A
+record-menu edge has a retained high packet, a low strain/current coefficient,
+and a material time window.  The parent root and active full-exchange detectors
+can store only the part of that edge they see before record readout.
+
+The pressure-active part is finite-dimensional after the retained chart and
+near-silent collar are fixed: if the detector has a uniform angle, root or
+full-exchange currency controls the record work.  The detector-silent and
+detector-near-silent part is the PDE burden.  Local equations route it into
+same-packet strain/exchange, complete-frame compression, viscous/radius service,
+collar/annular service, legal loss, stop, or exit.  Local routing is only
+support.  A future record can still read infinitely many unit silent-service
+events while the raw service cost is summable.
+
+Thus the silent-service branch is the same physical half-tail wall viewed from
+the detector side:
+
+\[
+\sum_\ell \nu_\ell<\infty,
+\qquad
+\sum_\ell 2^\ell\nu_\ell=\infty .
+\tag{SCSS.15}
+\]
+
+In native-birth language, this is a Zeno train of first scale-critical births.
+In detector-silent language, it is a Zeno train of silent or near-silent
+same-packet service visits.  In active-capacity language, it is selected meter
+motion beating parent parabolic capacity.  These are not three independent
+physical bottoms.  They are three readouts of the same missing fact: the
+original parent history must provide a record-admitted critical/full-exchange
+carrier that sees or pays every future positive selected record edge with a
+strict no-self-feeding margin.
+
+The source-checked lower split is:
+
+\[
+\begin{aligned}
+&\texttt{RecordMenuPressureActiveOrSilentService.A}\\
+&+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}\\
+&\Longrightarrow
+\texttt{RecordMenuRootProjectionFaithfulness.A},
+\end{aligned}
+\tag{SCSS.16}
+\]
+
+where the pressure-active quotient is finite-dimensional after the robust
+near-silent collar, and the silent side requires an independent original-history
+primitive full-action / strict half-barrier reserve:
+
+\[
+\begin{aligned}
+&\text{local silent-service routing}\\
+&+\texttt{StoppedPrimitivePLSStrictHalfBarrierBreak.A}
+\Longrightarrow
+\texttt{RecordMenuDetectorSilentServicePreReadoutReserve.A}.
+\end{aligned}
+\tag{SCSS.17}
+\]
+
+The record-admitted Gold use is stricter than either support branch alone:
+
+\[
+\begin{array}{c}
+\text{record work admitted to the parent carrier}\\
++\text{root/full-exchange visibility or pre-readout service payment}\\
++\text{same-parent critical depletion/no-Zeno in that carrier}
+\end{array}
+\Longrightarrow
+\texttt{SignedCriticalHeightSignPersistenceOrPeakBound.A}.
+\tag{SCSS.18}
+\]
+
+This keeps the physical story single.  A proof may enter through pressure-active
+detectors, detector-silent service, native-birth packing, active capacity, or
+compactness/no-arbitrage, but it must produce the same object: one
+record-admitted parent critical/full-exchange carrier for the same signed-height
+record work, with strict absorption from original Navier-Stokes data before
+readout.
