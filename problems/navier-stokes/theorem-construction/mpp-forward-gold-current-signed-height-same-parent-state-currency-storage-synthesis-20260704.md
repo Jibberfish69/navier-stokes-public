@@ -1401,3 +1401,44 @@ Existing selector BV, chart/projector service, detector rotation, face-trace
 boundary, off-face service, and root/endpoint payment estimates are support
 unless they prove their boundary as a first-use charge for this same event and
 can be summed into the same finite \(\Gamma_{\rm pre}\).
+
+## 21. The two faces must share one event key
+
+The formula `(SCSS.59)' has a hidden trap if it is read as a sum of two
+independent measures.  A finite address/boundary face can own a primitive event
+whose selected-root payment is elsewhere.  A finite root-payment face can pay a
+selected-critical transition whose primitive address is not the record event.
+Either situation leaves the signed-height record detached from its payer.
+
+The missing glue is a same-event key.  Before selected readout, each record
+piece must carry one parent-known tuple
+
+\[
+\Xi(z)=
+\bigl(
+\text{stopped chamber/address of }z,\ 
+\text{root-payment edge of }z,\ 
+\text{record interval using }z
+\bigr),
+\tag{SCSS.60}
+\]
+
+and both faces of \(\Gamma_{\rm pre}\) must charge through this same \(\Xi(z)\).
+The strict lower reading is therefore
+
+\[
+\begin{aligned}
+&\Gamma_{\rm pre}^{addr}\\
+&+\Gamma_{\rm pre}^{root}\\
+&+\text{same-event address/root/record compatibility}
+\end{aligned}
+\Longrightarrow
+\Gamma_{\rm pre}.
+\tag{SCSS.61}
+\]
+
+This is still not a proof.  It is a checked obstruction to a false merge: finite
+address ownership, finite root payment, and record admission are support unless
+they are synchronized on the same primitive signed-height event before readout.
+The remaining Gold producer is a single original-history construction of
+\(\Xi\) and a finite \(\Gamma_{\rm pre}\) on that key.
