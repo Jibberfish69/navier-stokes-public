@@ -203,12 +203,14 @@ live_route_table:
     address/boundary and selected-critical root-payment faces tied to the same
     event key. The address/boundary face reads as stopped address admission/lift
     plus same-event first-boundary charge for carrier escape, coordinate failure,
-    overlap, pre-return address change, and parent-currency off-face service
-    before selected readout. The root face must pay the same primitive record
-    event rather than a detached selected transition. Return first-address, finite
-    return multiplicity, and selected-return no-duplication are downstream
-    consequences of that same pre-return owner process, as recorded in the live
-    authority surfaces.
+    overlap, and pre-return address change before selected readout; the
+    parent-currency off-face entry is reduced to simultaneous same-parent
+    active-critical/full-exchange/active-transit storage with spectral radius
+    below one, or an independent original-data proof of one storage face. The
+    root face must pay the same primitive record event rather than a detached
+    selected transition. Return first-address, finite return multiplicity, and
+    selected-return no-duplication are downstream consequences of that same
+    pre-return owner process, as recorded in the live authority surfaces.
   allowed_imports: source, pressure, material-history, and export estimates only
     when they prove direct regularity control for the shared object or pass through
     a named bridge
