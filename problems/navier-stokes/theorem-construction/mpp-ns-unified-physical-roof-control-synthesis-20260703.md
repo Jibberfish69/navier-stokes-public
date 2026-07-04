@@ -553,6 +553,14 @@ form-compensator / `ParentActivePotentialCapacityDomination.A` problem,
 equivalently the coupled `ActiveTransitLocalStorage.A` +
 `FullExchangeNoSelfFeedingStorage.A` parent storage target. This is still a
 strict reduction and open source theorem, not Gold closure.
+The active-capacity signed-height record-admission boundary is now installed in
+`mpp-forward-gold-active-capacity-signed-height-record-admission-boundary-20260704.md`.
+It prevents a second target drift: TFE2748B.1343 / TFE2748B.1393 /
+TFE2748B.1555 are local selected-meter source rows, but after the signed-height
+restart they gain Gold force only when proved for the parent-admitted meter of
+the same signed-height record upcrossing. The remaining signed-height bridge is
+record parent-adjoint meter admission plus record-admitted active/full-exchange
+coupled storage with no self-feeding feedback loop.
 The fresh-source tent extremal reduction makes the physical shape explicit:
 after inherited parent pieces and local consumers are removed, the bad object is
 one original history with finite raw fresh mass but infinite selected-critical
