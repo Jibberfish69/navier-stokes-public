@@ -407,7 +407,13 @@ C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P),
 
 with the selected action admitted into that same parent-built critical capacity
 before child readout. This is the preterminal version of the service/root-geometry
-producer.
+producer.  In the heat-lag/fresh-linear coordinates, this is exactly the
+parent-weighted first-admission pulse measure / fresh generator root-packing
+line `(WLF.60)' / `(WLF.36)': construct the parent active density or native
+reserve from the original pressure-viscosity-incompressibility-velocity packet
+before child positive clipping.  Selected-density entropy, Hilbert/BMO, reverse
+Holder, active-capacity Bellman, and terminal no-atom are consumer languages
+after that parent carrier exists; they are not independent producers of it.
 
 On the terminal fixed-core branch, probe admission/update and the material
 metric identity are support inputs. The no-jump clause is paid only by
@@ -453,7 +459,10 @@ Checked no-go / obstruction: local shell-energy storage pays positive flux only
 after negative return/service variation is already controlled; raw Bessel
 freshness misses the critical weight; selected-forest capacity is a consumer of
 service storage; scalar-current Bellman storage is false or circular under
-sustained refuel. These remove aliases for the producer rather than proving it.
+sustained refuel. Entropy/BMO/reverse-Holder and terminal no-atom language are
+also consumer coordinates once a parent active density/root carrier is produced;
+defining the carrier or proving local packet payment does not prove the stopped
+testing/root bound. These remove aliases for the producer rather than proving it.
 
 Strict reduction: WLF.60 reduces to `(WPT.10)'. The stopped
 potential-average face `(WPT.11)' and positive second-order exactness face
@@ -467,8 +476,11 @@ the \(\Gamma_{\rm pre}^{root}\) face; record/reset terminology is proof-bearing
 only when it constructs that original-history payment on the same carrier. The
 current sharpened proof method for `(ODP.160)' is the service-storage /
 root-geometry producer feeding the predictable affine-transition martingale/Bessel
-consumer `(WPT.19)'; the terminal fixed-core survivor reduces to root-fixed
-terminal-uniform service storage `(WPT.22)'.
+consumer `(WPT.19)'. In the heat-lag/fresh-linear face this producer is
+`(WLF.60)' / `(WLF.36)', the parent-weighted first-admission pulse measure or
+fresh generator/root-reserve packing before child clipping; the terminal
+fixed-core survivor reduces to root-fixed terminal-uniform service storage
+`(WPT.22)'.
 
 Support: Bessel square, route ownership, no-recount, local native admission,
 Schur storage after admission, probe admission/update, terminal no-replay
