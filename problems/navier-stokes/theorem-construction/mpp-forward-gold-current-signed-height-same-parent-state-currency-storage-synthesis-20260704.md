@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-root-record-reset-single-geometry-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-capacity-signed-height-record-admission-boundary-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-parent-source-payment-package-unification-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-meter-entropy-flux-split-same-history-capacity-reduction-20260703.md
 completion_truth: >-
   This note proves no Navier-Stokes smoothness theorem and no new estimate. It
@@ -209,3 +210,62 @@ Open proof-sized object:
 That is the current physical wall. Every candidate theorem must be judged there
 before any formal storage, capacity, ledger, or packet-counting math is allowed
 to lead.
+
+## 7. Direct native-menu proof pass
+
+The direct physical attempt is to start from the signed production itself. Before
+any record interval is selected, the LP/Bony/native-work decomposition writes
+the same nonlinear work \(P(t)\,dt\) as a parent-built menu of native work edges:
+retained high packet, low strain/current coefficient from the same velocity
+field, material time window, and parent charge coordinate.
+
+That proves a coordinate fact, not the Gold theorem. On a later record interval
+\([a,b]\), the record may read positive net work from that menu, but the proof
+still has to show that all future positive selections from the menu have finite
+original-data storage:
+
+\[
+\sum_j\lambda_j^{-1}
+\sum_e
+\left[\int_{I_e\cap[a_j,b_j]}\omega_e\right]_+
+\le C_N(u_0)+Paid+Legal+Stop.
+\tag{SCSS.12}
+\]
+
+The current repo does not prove `(SCSS.12)'. The physical obstruction is that
+different thin records can draw their positive excess from different legal menu
+edges while the signed sum remains a lawful scalar work identity. LP/Bony gives
+the menu; it does not give a finite reserve for future positive selections from
+that menu.
+
+The noncircular lower entrance theorem is
+
+\[
+\texttt{RecordMenuRootProjectionFaithfulness.A}.
+\tag{SCSS.13}
+\]
+
+For the signed-height record use, this means each future-positive native work
+edge must enter, before record readout, the same parent root or active
+full-exchange currency that the storage matrix can actually spend. Once that
+entrance is proved, the critical face split and simultaneous storage rows can
+try to absorb the selected work. Without that entrance, storage can pay a
+different carrier and root payment can pay a different selected transition.
+
+Thus the direct native-menu route currently gives this strict pressure test:
+
+\[
+\texttt{RecordMenuRootProjectionFaithfulness.A}
++
+\texttt{OriginalHistoryRecordResetRootPayment.A}
++
+\texttt{RecordAdmittedActiveFullExchangeCoupledStorage.A}
+\Longrightarrow
+\text{same-record state/currency/storage package}.
+\tag{SCSS.14}
+\]
+
+This is still not closure. It is the physical reason for the current target:
+the same record work must be native before readout, visible in parent
+root/full-exchange currency before selection, selected-critical on the record
+face, and absorbed by one strict no-self-feeding storage matrix.
