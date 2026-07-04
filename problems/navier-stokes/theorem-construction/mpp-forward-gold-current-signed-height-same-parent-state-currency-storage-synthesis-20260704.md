@@ -1592,23 +1592,35 @@ overrun tail payment.
 
 The current reduction lowers the mismatch branch once more.  After installed
 finite-graph payments remove legal, reselection, finite donor, pair-weight,
-entrance, and polar-retention defects, any surviving mismatch is the infinite
-same-fluid terminal Zeno donor chain.  That chain is not hidden; endpoint tests,
-the full Hodge-Stokes participation tuple, and the coupled mixed tower make it a
-visible terminal readout.  Thus `TerminalZenoVisibleReadoutPayment.A` is a valid
-endpoint reduction, not the live analytic producer.  Terminal visibility is
-installed, but payment of the retained selected atom is not.  The checked
-full-packet audit makes `TerminalFullPacketNoResiduePayment.A` the terminal /
-no-residue face of the same continuous parent active-measure producer, not a
-sibling frontier.  Current July 4 authority lowers that producer to
-`ParentActivePotentialCapacityDomination.A`: after raw pressure-Hodge atoms and
-retained opposite-lobe reserve are installed, the selected critical meter prices
-the paired lobes unequally.  Equivalently, the remaining obstruction is a
-terminal super-capacitary active-potential survivor.  The noncircular source
-split is `BeforeClippingActiveDensityComparison.A` plus
+entrance, and polar-retention defects, the terminal branch is visible to endpoint
+tests, the full Hodge-Stokes participation tuple, and the coupled mixed tower.
+Thus `TerminalZenoVisibleReadoutPayment.A` is a valid endpoint reduction.
+Terminal visibility is installed; payment of the retained selected atom still
+requires the active producer.  The checked full-packet audit makes
+`TerminalFullPacketNoResiduePayment.A` the terminal / no-residue face of the same
+continuous parent active-measure ledger.  Current July 4 authority lowers the
+active producer to `ParentActivePotentialCapacityDomination.A`: after raw
+pressure-Hodge atoms and retained opposite-lobe reserve are installed, the
+selected critical meter prices the paired lobes unequally.  Equivalently, the
+remaining obstruction is a terminal super-capacitary active-potential survivor.
+The noncircular source split is `BeforeClippingActiveDensityComparison.A` plus
 `FullExchangeNoSelfFeedingStorage.A` as one same-parent storage construction
 with strict subunit feedback.  WLF.60 is the early-branch / heat-lag
-first-admission coordinate of this same obstruction, not a separate bottom.
+first-admission coordinate of this same obstruction.
+
+The selected full-packet branch is absorbed below that current bottom.  The
+proved part is order-locked scalarization before positive-part extraction.  The
+false shortcut is direct channel-first native-source identification: a smooth
+affine incompressible core can have a positive convection lobe exactly canceled
+by pressure in the full packet.  The exact remaining residue is the same-edge
+order-lock overlap \(\Delta^{ol}=\min([n]_+,[-b]_+)\), a strict reduction to
+selected-density gain or retained same-packet four-body overlap.  On the
+four-body branch, terminal time/storage is attached to the retained heat-scale
+material annular stress/strain return record; loss of that return record lands
+as Part-side/CM boundary.  Transported-selector, four-body no-waste,
+fresh-potential, positive second-order, terminal Rellich, no-free Zeno, and
+profile routes are support unless they prove this order-locked full-packet /
+overlap-payment package from the original coupled packet.
 
 ## 25. WLF.60 and source payment are one early-row reading
 
