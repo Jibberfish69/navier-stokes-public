@@ -27,6 +27,10 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-pressure-active-silent-service-pre-readout-reserve-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-detector-silent-service-pre-readout-reserve-primitive-half-tail-audit-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-physical-payment-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-nozeno-selected-tree-dichotomy-equivalence-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-repeated-core-nonreuse-storage-direct-test-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-shrinking-core-escape-capacity-lower-bound-direct-test-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-free-material-graph-driver-direct-attack-20260627.md
 completion_truth: >-
   This note proves no Navier-Stokes smoothness theorem and no new estimate. It
   is a strict synthesis and send-forward boundary: future proof moves must first
@@ -358,3 +362,54 @@ compactness/no-arbitrage, but it must produce the same object: one
 record-admitted parent critical/full-exchange carrier for the same signed-height
 record work, with strict absorption from original Navier-Stokes data before
 readout.
+
+## 9. No-Zeno branch split inside the same carrier
+
+The half-tail wall has an exact same-history branch split after local support is
+removed.  Suppose the record-admitted carrier still allows infinitely many unit
+selected service/birth events with summable raw heat, collar, legal, stop, and
+local service cost.  The retained events form a laminar material tree.
+
+There are only two physical ways the tree can carry infinite selected action.
+
+First, the events can keep reusing one material ancestry core.  Then each new
+unit event must spend positive variation of the same Cauchy-Green material
+metric, pressure-Hodge/projective frame, collar normal, or annular turnstile
+record.  The conditional storage exists on that line, but its root bound is not
+installed from original data:
+
+\[
+\texttt{RepeatedCorePositiveVariationRootBound.A}.
+\tag{SCSS.19}
+\]
+
+Second, the events can avoid reuse by escaping into shrinking material cores.
+Then ordinary pressure-Hodge, collar, turnstile, heat, or raw capacity cost can
+scale like the radius \(r\), while the selected record unit remains order one.
+This branch needs a scale-invariant no-escape theorem, not raw capacity:
+
+\[
+\texttt{ScaleInvariantSelectedCapacityNoEscape.A}.
+\tag{SCSS.20}
+\]
+
+The no-Zeno theorem is therefore not one more abstract storage name.  In
+record-admitted form, it reduces to the two same-carrier branch estimates:
+
+\[
+\begin{array}{c}
+\text{record-admitted }\texttt{RepeatedCorePositiveVariationRootBound.A}\\
++\text{record-admitted }\texttt{ScaleInvariantSelectedCapacityNoEscape.A}
+\end{array}
+\Longrightarrow
+\text{record-admitted }\texttt{SameParentCriticalDepletionNoZeno.A}.
+\tag{SCSS.21}
+\]
+
+Both branches must be proved inside the same parent carrier that contains the
+signed-height record work.  A repeated-core bound away from the record only
+pays a different material line.  A shrinking-core capacity bound in raw units
+only reproduces the half-tail.  The branch split is useful because it is a real
+strict reduction: after the record edge has been admitted to the parent carrier,
+any surviving failure of strict depletion must either be infinite reuse of one
+same-history core or scale-invariant escape through shrinking cores.
