@@ -790,6 +790,14 @@ now `PrimitiveChannelAddressCellCoverage.A` plus
 `PrimitiveChannelAddressPriorityBoundaryLaw.A`: finite selector menus and
 retained-edge custody are coordinate support until they cover primitive events
 of both signs with one selector/chart/detector/face owner before readout.
+The primitive address-cell coverage chamber-lift reduction is now installed in
+`mpp-forward-gold-primitive-channel-address-cell-coverage-chamber-lift-reduction-20260704.md`.
+It lowers `PrimitiveChannelAddressCellCoverage.A` to
+`PrimitiveEventStoppedChamberAdmissionOrPaidEscape.A` plus
+`PrimitiveStoppedChamberAddressCoordinateLift.A`. This keeps the physical order:
+the primitive event must first enter a parent-known stopped chamber, and only
+then can the primitive PLS signed-channel formula and retained selector/chart/
+detector/face tuple become an address cell for that event.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
