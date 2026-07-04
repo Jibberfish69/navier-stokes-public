@@ -557,6 +557,14 @@ parent-predictable root geometry, signed primitive return BV, and critical
 weighted reset current generated from the same coupled
 pressure-viscosity-incompressibility-velocity packet. This is not closure; it is
 the single physical wall behind both branch names.
+The predictable-weight causality collapse is now installed in
+`mpp-forward-gold-root-payment-predictable-weight-causality-collapse-20260704.md`.
+It places `StoppedSelectorPredictableWeight.A` inside that same roof:
+predictability is the before-readout detector/causality gate, and it proves the
+derivative-exact first-exit Cauchy branch, but the critical half-tail survives
+unless `OriginalHistoryParentPredictableFreshInnovationCarleson.A /
+SelectedGeneratorStorageCoercivity.A` supplies the weighted source payment from
+the original coupled packet.
 The signed-height root-payment physical spine is now installed in
 `mpp-forward-gold-signed-height-root-payment-physical-spine-20260704.md`.
 It exposes the actual physical chain that licenses this root language: a signed
