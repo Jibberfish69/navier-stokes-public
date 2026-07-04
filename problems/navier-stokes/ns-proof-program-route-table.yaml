@@ -214,6 +214,8 @@ live_route_table:
     positive queue, with selected overrun paid there. The same-carrier gate is
     read as mismatch evacuation: retained positive mismatch is identified, paid
     before readout, or forced into the selected terminal source-curve atom.
+    The terminal branch is obstruction / CM-consumer support after same-witness
+    admission, not a forward WLF supplier.
     Installed finite-graph payments lower the remaining mismatch branch to
     TerminalZenoVisibleReadoutPayment.A: unweighted same-carrier payment of the
     visible terminal high-factor/source-square/finite-rung/no-waste readout, or
