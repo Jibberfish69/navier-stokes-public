@@ -256,8 +256,8 @@ adds the same physical caution at the early-branch payer. Primitive
 pre-readout material support, stopped carrier coverage, and common-selector
 ownership make signed events lawful same-packet events before readout. They do
 not yet prove that the lower fresh source and the upper selected positive queue
-are the same selected native carrier. The active-capacity/full-exchange roof
-	therefore still needs either stopped potential-average control or positive
-	second-order scale exactness on the order-locked full-packet selected carrier,
-	with the same-packet order-lock overlap and the selected overrun tail paid on
-	that carrier.
+are selected from the same recombined full packet before positive-part
+extraction. The active-capacity/full-exchange roof therefore still needs either
+stopped potential-average control or positive second-order scale exactness on
+the order-locked full-packet selected carrier, with the same-packet order-lock
+overlap and the selected overrun tail paid on that carrier.

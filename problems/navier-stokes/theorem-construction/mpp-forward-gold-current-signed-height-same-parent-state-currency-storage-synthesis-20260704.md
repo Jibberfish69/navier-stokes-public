@@ -386,10 +386,11 @@ measure, not as a new child source.
 The WLF.60 proof test keeps that row from being overread. It says no-recount
 and raw Bessel admission prove the pulse is same-parent and counted once, while
 the signed-height use still needs the weighted root upper bound. In the current
-carrier-key reading, the smaller theorem is one same selected native carrier for
-the lower fresh source and the upper selected positive queue, with selected
-overrun paid there. Stopped potential-average control and positive second-order
-scale exactness are analytic faces of that same carrier key.
+carrier-key reading, the smaller theorem is order-locked full-packet carrier
+admission for the lower fresh source and upper selected positive queue, with
+same-packet order-lock overlap and selected-overrun tail UI paid there. Stopped
+potential-average control and positive second-order scale exactness are analytic
+faces of that same carrier key.
 
 The source-checked lower split is:
 
@@ -1539,11 +1540,12 @@ C_N(u_0)\mathcal R(P)
 Current sources prove same-parent detection, no-recount, raw Bessel admission,
 pushforward, and local first-admission native atoms.  The half-tail model shows
 that those support facts do not imply the selected-critical parent-weighted root
-upper bound.  The smaller noncircular theorem is one same selected native carrier
-for the lower fresh source and the upper selected positive queue, with selected
-overrun paid on that carrier.  Stopped potential-average control and positive
-second-order scale exactness are analytic faces of that same carrier key, not
-independent sibling exits.  This is a strict reduction and a checked
+upper bound.  The smaller noncircular theorem is order-locked full-packet carrier
+admission for the lower fresh source and upper selected positive queue, with
+same-packet order-lock overlap and selected-overrun tail UI paid on that carrier.
+Stopped potential-average control and positive second-order scale exactness are
+analytic faces of that same carrier key, not independent sibling exits.  This is
+a strict reduction and a checked
 obstruction, not Gold closure.
 
 ## 24. WLF.60 has one carrier key
@@ -1622,7 +1624,8 @@ to the same pre-readout signed-height record event and prove one row of
 The same-parent source-payment package is not a sibling bottom beside WLF.60.
 It names the original-history selected-critical currency. WLF.60 is the
 heat-lag first-admission test that asks whether that currency has become a
-finite parent-weighted pulse measure on the same selected carrier key.
+finite parent-weighted pulse measure on the order-locked full-packet selected
+carrier key.
 
 \[
 \begin{aligned}

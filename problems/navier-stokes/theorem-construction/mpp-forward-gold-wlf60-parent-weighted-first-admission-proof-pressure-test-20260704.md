@@ -202,7 +202,7 @@ C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
 \]
 
 The direct proof of `(WPT.10)' reduces to stopped potential-average control on
-the same selected native carrier,
+the order-locked full-packet selected carrier,
 
 \[
 \int_0^{T_*}
@@ -222,8 +222,9 @@ or a positive second-order scale exactness formula on that same carrier,
 \tag{WPT.12}
 \]
 
-with the affine-kernel residual paid by original-history legal, stop, or
-selected overrun payment on the actual positive native carrier.
+with the affine-kernel residual paid by original-history legal, stop,
+same-packet order-lock overlap payment, or selected overrun tail payment on the
+actual positive carrier.
 
 These are not three independent exits. The common proof key is:
 
@@ -232,7 +233,7 @@ These are not three independent exits. The common proof key is:
 &\text{order-locked full-packet selected carrier for the lower fresh source
 and upper selected positive queue}\\
 &+\text{same-packet order-lock overlap payment}\\
-&+\text{selected overrun payment on that carrier}
+&+\text{selected overrun tail UI on that carrier}
 \Longrightarrow
 \text{parent-weighted pulse measure finiteness}.
 \end{aligned}
