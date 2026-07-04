@@ -190,3 +190,11 @@ meaning: on one admitted stopped common-selector chamber, before selected-face
 counting, construct the pre-readout face fiber of the selector-owned primitive
 signed channel and prove the negative part of that same face-local channel has
 finite original-data budget.
+
+The follow-up construction reduction
+`mpp-forward-gold-primitive-chamber-face-local-signed-channel-construction-reduction-20260704.md`
+separates the formal and PDE parts of `(FPL.12)'. Once the face fiber is
+pre-readout measurable, the signed measure
+\(\mathbf 1_{\{\pi_F=F\}}Y_{\kappa,C}\,d\sigma dt\) is formal. The remaining
+analytic burden is
+`PrimitiveStoppedChamberSameFaceNegativeReturnBudget.A`.
