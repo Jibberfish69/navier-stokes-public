@@ -201,15 +201,15 @@ admission are support; the missing source is a finite original-history
 parent-weighted pulse measure with strict viscosity feedback for all selected
 sub-heat-lag first admissions.
 
-	The WLF.60 pressure test records the next physical reduction. The standard
-	critical estimate only closes the small \(\dot H^{1/2}\) packet case; arbitrary
-	data still need the selected-critical weighted root upper bound. In scale
-	coordinates, that reduces to stopped potential-average control or positive
-	second-order scale exactness on the order-locked full-packet selected carrier:
-	the lower fresh source and upper selected positive queue must be read from the
-	recombined full packet before positive-part extraction, any same-packet
-	order-lock overlap must be paid, and the selected overrun must have same-carrier
-	tail UI / nested-core tightness.
+The WLF.60 pressure test records the next physical reduction. The standard
+critical estimate only closes the small \(\dot H^{1/2}\) packet case; arbitrary
+data still need the selected-critical weighted root upper bound. In scale
+coordinates, that reduces to stopped potential-average control or positive
+second-order scale exactness on the order-locked full-packet selected carrier:
+the lower fresh source and upper selected positive queue must be read from the
+recombined full packet before positive-part extraction, any same-packet
+order-lock overlap must be paid, and the selected overrun must have same-carrier
+tail UI / nested-core tightness.
 
 ## 5. What is closed and what is not
 
