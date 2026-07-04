@@ -14,7 +14,8 @@ role: >-
   Places the WLF.60 smaller theorem under the current primitive-channel physical
   story. The primitive event notes supply pre-readout ownership of signed
   channel events; they do not by themselves prove that the lower fresh source
-  and the upper selected positive queue are the same selected native carrier.
+  and the upper selected positive queue are the same order-locked full-packet
+  selected carrier.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-paired-carrier-to-same-carrier-overrun-payment-20260627.md
@@ -26,9 +27,10 @@ source_refs:
 completion_truth: >-
   This note does not prove WLF.60 and does not prove FreshSameCarrierIdentity.A.
   It installs the physical boundary: primitive pre-readout event ownership is
-  support for the identity, while WLF.60 still needs a same selected carrier
-  theorem linking the lower fresh source to the upper active positive queue, and
-  then a selected overrun payment on that carrier.
+  support for carrier admission, while WLF.60 still needs the lower fresh source
+  and the upper active positive queue selected from the same recombined
+  full-packet scalar before positive-part extraction, with order-lock overlap
+  and selected overrun paid on that carrier.
 ---
 
 # WLF.60 same-carrier identity primitive-channel boundary
@@ -92,17 +94,20 @@ or
 with the residual paid by original-history legal/stop service or by selected
 overrun payment on the actual positive native carrier.
 
-In the older source-square language this is the ordered pair:
+	In the older source-square language this is the ordered pair:
 
 \[
-\texttt{FreshSameCarrierIdentity.A}
-+
-\texttt{FreshSelectedCoefficientOverrunPayment.A}.
-\tag{WSC.5}
-\]
+	\text{full-packet order-locked carrier admission}
+	+
+	\texttt{SameEdgeOrderLockPartnerDeficitPayment.A}
+	+
+	\texttt{FreshSelectedCoefficientOverrunPayment.A}.
+	\tag{WSC.5}
+	\]
 
-The identity comes first.  Without it the overrun layer is not yet known to be
-the same selected native carrier as the lower fresh source.
+	Carrier admission comes first.  Without full-packet order lock and partner
+	overlap payment, the overrun layer is not yet known to be the same selected
+	carrier as the lower fresh source.
 
 ## 3. What the primitive-channel work supplies
 
@@ -296,8 +301,9 @@ The physical target under WLF.60 is now:
 \[
 \begin{aligned}
 &\text{pre-readout primitive ownership}\\
-&+\text{fresh lower/upper same-selected-carrier identity}\\
-&+\text{selected overrun payment on that carrier}\\
+&+\text{fresh lower/upper order-locked full-packet carrier admission}\\
+&+\text{same-packet order-lock overlap payment}\\
+&+\text{selected overrun tail UI on that carrier}\\
 &\Longrightarrow
 \text{finite parent-weighted first-admission bill}.
 \end{aligned}
@@ -307,6 +313,6 @@ The physical target under WLF.60 is now:
 Equivalently, the stopped potential-average estimate `(WSC.3)' and positive
 second-order scale exactness formula `(WSC.4)' are useful only on that same
 selected carrier.  They are analytic faces of `(WSC.15)', not sibling exits
-around the same-carrier identity.  The primitive-channel story is the physical
-roof underneath the word "same"; it is not the selected-carrier identity or the
-overrun payment by itself.
+around carrier admission.  The primitive-channel story is the physical roof
+underneath the word "same"; it is not the order-locked selected-carrier
+admission, the partner-overlap payment, or the overrun tail payment by itself.
