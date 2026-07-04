@@ -30,6 +30,11 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-storage-matrix-early-branch-obstruction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-current-active-capacity-full-exchange-physical-story-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-transition-predictable-weight-martingale-lock-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-affine-quotient-transition-square-packing-direct-attack-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-schur-accretivity-alignment-hard-block-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-paid-parent-current-span-perpendicular-category-repair-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-schur-accretivity-gap-no-free-upcrossing-target-20260628.md
 completion_truth: >-
   This note proves no WLF.60 estimate and no Gold closure. It records the
   checked obstruction to proving WLF.60 from raw same-parent Bessel mass,
@@ -40,7 +45,13 @@ completion_truth: >-
   that carries the lower fresh source, the upper selected positive queue, the
   paid same-packet partner overlap, and the selected overrun. The remaining
   persistent quotient may be paid only by original-history potential-average
-  control or positive second-order scale exactness on that same carrier.
+  control or positive second-order scale exactness on that same carrier. The
+  affine Schur/current audits do not add a sibling wall: Schur pays retained
+  work only after parent-current admission, while the first-entry quotient still
+  needs predictable affine-transition square-packing before positive readout; if
+  the branch reaches terminal fixed-core concentration, the terminal no-jump
+  clause reduces to root-fixed terminal-uniform L1 full-packet service storage
+  from the original coupled packet.
 ---
 
 # WLF.60 parent-weighted first-admission proof pressure test
@@ -334,10 +345,65 @@ physical problem: one original pressure-compatible parent pulse must not be
 recounted as fresh selected positive heat-lag service at unbounded critical
 price unless the persistent affine quotient is paid from original history.
 
-## 7. Current classification
+## 7. Schur/current and terminal absorption
+
+The affine Schur/current notes remove one false obstruction, not the WLF.60
+burden. A zero-current direction is fresh relative to the paid parent-current
+history and is Bessel-payable on first entry; after that entry, repeated
+same-carrier production is Schur current work. Thus "repeated perpendicular
+payment" is a bookkeeping alias.
+
+The remaining first-entry theorem is still before readout. In affine-transition
+coordinates, `(ODP.160)' is smaller only after a predictable active weight and a
+lifted martingale/Bessel split are built for the stopped transition pile:
+
+\[
+\begin{aligned}
+&\texttt{PredictableActiveWeightTransitionCarleson.A}\\
+&+\texttt{StoppedAffineTransitionLiftedMartingaleDifference.A}\\
+&+\texttt{StoppedLiftedTransitionBesselCarleson.A}
+\Longrightarrow
+(ODP.160).
+\end{aligned}
+\tag{WPT.19}
+\]
+
+The inherited predictable part then routes to record/return, and the lifted
+innovation routes to reset. Without `(WPT.19)', record/return/reset are only
+currencies; they do not yet square-pack the persistent affine quotient.
+
+On the terminal fixed-core branch, probe admission/update and the material
+metric identity are support inputs. The no-jump clause is paid only by
+root-fixed terminal-uniform \(L^1\) full-packet service storage:
+
+\[
+\mathcal L_P(t)
+=
+\mathcal L_P(t_0)+\int_{t_0}^{t}\ell_P(s)\,ds+Paid_P(t),
+\qquad
+d\mu_P^{end}
+\le
+C(\ell_P)_-\,dtdx+d\lambda_P+dPaid_P ,
+\tag{WPT.20}
+\]
+
+with terminal-uniform \(L^1\) control on the same root history. This is not a
+new Gold bottom. It is the terminal fixed-core construction that would remove
+the no-atom/no-jump survivor if the same affine carrier reaches endpoint
+concentration.
+
+Thus the Schur/current audit sharpens the same early-row payment: prove
+predictable affine-transition square-packing on the order-locked full-packet
+carrier, or in the terminal branch construct root-fixed terminal-uniform
+service storage for that same carrier. Both are faces of the same original
+history payment before selected positive readout.
+
+## 8. Current classification
 
 Proof: same-parent detector, first-admission update, no-recount pushforward,
-raw first-admission Bessel measure, and local first-admission native atom.
+raw first-admission Bessel measure, local first-admission native atom, and the
+category repair that turns first parent-current entry into Bessel novelty and
+retained same-coordinate production into Schur work after admission.
 
 Checked obstruction: those facts do not imply WLF.60; the half-tail model has
 finite raw square/Bessel mass and infinite selected weighted linear service.
@@ -354,8 +420,14 @@ carrier. Equivalently, the same line is `(ODP.91)' route-measure Carleson, whose
 unpaid producer is the persistent affine quotient `(ODP.160)' / `(ODP.125)'.
 In the signed-height package, that quotient is the heat-lag/AQK coordinate of
 the \(\Gamma_{\rm pre}^{root}\) face; record/reset terminology is proof-bearing
-only when it constructs that original-history payment on the same carrier.
+only when it constructs that original-history payment on the same carrier. The
+current sharpened proof method for `(ODP.160)' is the predictable affine-transition
+martingale/Bessel package `(WPT.19)'; the terminal fixed-core survivor reduces to
+root-fixed terminal-uniform service storage `(WPT.20)'.
 
 Support: Bessel square, route ownership, no-recount, local native admission,
-and pushforward are support until the parent-weighted pulse measure itself is
-finite with strict viscosity feedback.
+Schur storage after admission, probe admission/update, terminal no-replay
+detector packing, material metric identities, and pushforward are support until
+the parent-weighted pulse measure itself is finite with strict viscosity feedback
+or the terminal fixed-core branch has root-fixed terminal-uniform service
+storage.
