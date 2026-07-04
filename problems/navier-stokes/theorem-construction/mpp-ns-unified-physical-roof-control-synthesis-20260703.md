@@ -30,6 +30,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-meter-entropy-flux-split-same-history-capacity-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-net-work-terminal-anti-atom-reserve-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-anti-atom-signed-height-loop-boundary-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-fresh-source-tent-extremal-two-branch-reduction-20260704.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -474,6 +475,13 @@ paid-rotation suppliers are consumers of
 This is the original-history selected-critical tent/scale-memory bound that
 inserts the missing weight before the future selected tail; without it the same
 half-tail defeats silent-service reserve and selector-motion payment alike.
+The fresh-source tent extremal reduction makes the physical shape explicit:
+after inherited parent pieces and local consumers are removed, the bad object is
+one original history with finite raw fresh mass but infinite selected-critical
+fresh action. It must be repeated same-core reuse or shrinking selected-core
+escape; the corresponding open branch theorems are
+`RepeatedCorePositiveVariationRootBound.A` and
+`ScaleInvariantSelectedCapacityNoEscape.A`.
 The pressure-active/silent face now reduces to
 `RecordMenuPressureActiveQuotientAngleGap.A` plus
 `RecordMenuDetectorSilentServicePreReadoutReserve.A`: raw detector faithfulness
