@@ -385,9 +385,11 @@ measure, not as a new child source.
 
 The WLF.60 proof test keeps that row from being overread. It says no-recount
 and raw Bessel admission prove the pulse is same-parent and counted once, while
-the signed-height use still needs the weighted root upper bound. The current
-smaller theorem is stopped potential-average control or positive second-order
-scale exactness on the same parent-weighted pulse.
+the signed-height use still needs the weighted root upper bound. In the current
+carrier-key reading, the smaller theorem is one same selected native carrier for
+the lower fresh source and the upper selected positive queue, with selected
+overrun paid there. Stopped potential-average control and positive second-order
+scale exactness are analytic faces of that same carrier key.
 
 The source-checked lower split is:
 
@@ -1577,3 +1579,27 @@ Raw same-packet custody, common-selector ownership, Bessel square mass,
 no-recount, and stopped potential averages on the wrong carrier remain support.
 They become proof only after the lower fresh source and upper positive queue are
 identified on \(C_P\) and the selected overrun is paid there.
+
+## 25. WLF.60 and source payment are one early-row reading
+
+The same-parent source-payment package is not a sibling bottom beside WLF.60.
+It names the original-history selected-critical currency. WLF.60 is the
+heat-lag first-admission test that asks whether that currency has become a
+finite parent-weighted pulse measure on the same selected carrier key.
+
+\[
+\begin{aligned}
+&\text{same-parent selected-critical source currency}\\
+&+\text{the carrier key }C_P\text{ of }(SCSS.65)\\
+&\Longrightarrow
+\text{WLF.60 early-row payment}.
+\end{aligned}
+\tag{SCSS.67}
+\]
+
+Without the source currency, \(C_P\) has custody but no selected-critical
+weight. Without the carrier key, source-payment estimates can pay a coordinate
+that is not the signed-height record's lower/upper selected native carrier. The
+current Gold burden is therefore still one pre-readout same-parent
+state/currency/storage package, not a new list made from WLF.60 plus native
+birth plus positive transfer.
