@@ -291,8 +291,9 @@ root bill.
 
 So the primitive-channel work blocks one class of fake proof: it prevents
 post-readout event ownership.  It does not block the WLF.60 half-tail unless the
-same selected carrier also carries the lower fresh source and the upper positive
-overrun payment.
+order-locked full-packet selected carrier also carries the lower fresh source,
+the upper positive queue, the paid same-packet partner overlap, and the selected
+overrun tail.
 
 ## 6. Current clean target
 
