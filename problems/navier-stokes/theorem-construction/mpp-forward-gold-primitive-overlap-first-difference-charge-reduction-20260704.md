@@ -155,3 +155,27 @@ The remaining physical work is to prove that first disagreement of two
 candidate stopped common-selector address cells is a real same-packet boundary
 paid before readout, not a later label conflict hidden by the formal priority
 choice.
+
+## 6. Admission-expanded reading
+
+After the common-selector chamber admission reduction
+`mpp-forward-gold-primitive-event-common-selector-chamber-admission-reduction-20260704.md`,
+the first line of `(OFD.7)' is itself read as stopped carrier coverage plus
+common-selector ownership:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveSignedChannelStoppedCarrierCoverageOrPaidEscape.A}\\
+&+\texttt{PrimitiveStoppedCarrierCommonSelectorOwnershipOrPaidReselection.A}\\
+&+\texttt{PrimitiveStoppedChamberNonselectorCoordinateLift.A}\\
+&+\texttt{PrimitiveStoppedCommonSelectorCellOverlapFirstDifferenceCharge.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveChannelEventAddressMap.A}.
+\tag{OFD.8}
+\]
+
+Physically, the same primitive event is first placed in a stopped carrier, then
+given its common selector owner, then given its chart/projector, detector/channel,
+and face/polarity coordinates, and only then can overlap priority compare two
+candidate address claims without post-map circularity.
