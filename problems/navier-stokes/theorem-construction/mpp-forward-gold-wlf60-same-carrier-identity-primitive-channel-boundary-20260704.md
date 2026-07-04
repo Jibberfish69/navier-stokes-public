@@ -238,11 +238,13 @@ pair-weight, entrance, and polar-retention defects.  After those finite clauses
 are removed, the only serious surviving mismatch is the infinite same-fluid
 terminal Zeno donor chain carrying selected positive native source.  The
 terminal Zeno branch is already visible to endpoint tests, the full
-Hodge-Stokes participation tuple, or the coupled mixed tower; the unpaid forward
-Gold branch is `TerminalZenoVisibleReadoutPayment.A`, namely payment of the
-visible high-factor / height / finite-rung / source-square / no-waste readout by
-an unweighted reserve on the same selected carrier, or routing through the
-installed legal, endpoint, profile, or CM consumers.
+Hodge-Stokes participation tuple, or the coupled mixed tower.  That makes
+`TerminalZenoVisibleReadoutPayment.A` a valid endpoint reduction, not the live
+producer.  The producer is the unweighted same-carrier visible-readout reserve on
+the actual selected terminal carrier, currently reduced to
+`FreshPotentialAverageKillAndPositiveTransfer.A` or
+`FreshPositiveStressSecondOrderExactness.A`; otherwise the branch routes through
+the installed legal, endpoint, profile, or CM consumers.
 
 ## 5. Checked obstruction to shortcut closure
 
