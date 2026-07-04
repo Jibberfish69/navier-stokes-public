@@ -573,6 +573,13 @@ exact-projector chart/license, pressure-active-or-silent service split, and
 root/full-exchange face address. Current sources prove scalar record work, native
 work coordinates, and downstream storage support, but not this same-edge closed
 graph.
+The no-detachment modulus reduction is now installed in
+`mpp-forward-gold-record-admission-no-detachment-modulus-reduction-20260704.md`.
+It makes the closed graph quantitative: selector drift, retained
+chart/projector drift, detector-angle or selector-channel rotation, and
+root/full-exchange face-address drift must all be charged before readout.
+Existing local support identifies those coordinates, but no current source
+proves the uniform same-edge no-detachment modulus from arbitrary original data.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
