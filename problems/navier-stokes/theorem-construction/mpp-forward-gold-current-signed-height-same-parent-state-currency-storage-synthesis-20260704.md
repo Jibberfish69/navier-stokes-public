@@ -1590,6 +1590,16 @@ it is not another forward supplier for WLF.60.  If mismatch evacuation gives the
 identity branch, the remaining forward Gold burden is same-carrier selected
 overrun tail payment.
 
+The current reduction lowers the mismatch branch once more.  After installed
+finite-graph payments remove legal, reselection, finite donor, pair-weight,
+entrance, and polar-retention defects, any surviving mismatch is the infinite
+same-fluid terminal Zeno donor chain.  That chain is not hidden; endpoint tests,
+the full Hodge-Stokes participation tuple, and the coupled mixed tower make it a
+visible terminal readout.  The unpaid forward line is therefore
+`TerminalZenoVisibleReadoutPayment.A`: an unweighted same-carrier payment of the
+visible high-factor/source-square/finite-rung/no-waste readout, or an installed
+legal/endpoint/profile/CM consumer.
+
 ## 25. WLF.60 and source payment are one early-row reading
 
 The same-parent source-payment package is not a sibling bottom beside WLF.60.
