@@ -16,6 +16,7 @@ role: >-
   face, zero-baseline endpoint-seed face, active full-exchange face, or paid
   service/legal/stop/exit before selected sign or return is counted.
 source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-parent-currency-face-admission-active-state-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-face-trace-fiber-atlas-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-state-root-payment-same-parent-projection-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-raw-active-state-parent-capacity-reduction-20260704.md
@@ -71,6 +72,22 @@ It says that every unpaid primitive event of \(d\mu_{\kappa,C}\) enters before
 readout one of the parent currency faces in `(PCFA.2)', or is routed to detector
 silent service, chart/projector service, material service, legal loss, stop, or
 exit.
+
+The current lower reduction for this admission is:
+
+\[
+\begin{aligned}
+&\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}\\
+&+\texttt{OriginalHistoryRecordResetRootPayment.A}\\
+&+\texttt{PrimitiveParentCurrencyServiceRoutingOrExit.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberParentCurrencyFaceAdmissionOrPaidService.A}.
+\tag{PCFA.3a}
+\]
+
+This says the face is a same-event projection of the parent active state plus
+the original-history root/endpoint payment and service-routing rows.
 
 The second lower input is a boundary law for those currency faces:
 
@@ -150,6 +167,11 @@ Thus
 The missing theorem is the all-event parent-currency face admission on the same
 stopped chamber.
 
+The active-state admission reduction sharpens that missing theorem: active first
+address alone is still not a currency face, and record-edge face admission is
+still not all-event primitive chamber coverage. The three rows in `(PCFA.3a)'
+must attach to the same primitive event before readout.
+
 ## 6. Current proof truth
 
 Installed here:
@@ -169,6 +191,15 @@ Still open:
 \qquad
 \texttt{PrimitiveStoppedChamberParentCurrencyFaceBoundaryLaw.A}.
 \tag{PCFA.9}
+\]
+
+The admission input is currently lowered to:
+
+\[
+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}
++\texttt{OriginalHistoryRecordResetRootPayment.A}
++\texttt{PrimitiveParentCurrencyServiceRoutingOrExit.A}.
+\tag{PCFA.10}
 \]
 
 This keeps the physical story under one roof: the same parent state that gives
