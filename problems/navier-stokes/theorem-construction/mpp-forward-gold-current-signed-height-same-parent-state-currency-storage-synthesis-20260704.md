@@ -1454,11 +1454,32 @@ The strict lower reading is therefore
 \tag{SCSS.61}
 \]
 
+The compatibility row in `(SCSS.61)' is formal once the two faces are genuinely
+measures on the same keyed event space.  If \(E_{\rm pre}\) is a parent-known
+pre-readout primitive event space, \(\Xi:E_{\rm pre}\to\mathcal K\) is Borel, and
+finite measures \(\Gamma_{\rm pre}^{addr}\) and \(\Gamma_{\rm pre}^{root}\) on
+that same \(E_{\rm pre}\) dominate their address/boundary and root-payment uses
+fiberwise over the same key \(\Xi(z)\), then
+
+\[
+\Gamma_{\rm pre}
+:=
+\Gamma_{\rm pre}^{addr}+\Gamma_{\rm pre}^{root}
+\tag{SCSS.61a}
+\]
+
+proves `(SCSS.61)'.  Thus same-event compatibility is not a third Carleson or
+storage reservoir.  Its proof content is the construction, before readout, of
+the common event space and key on which both finite charge faces live.  Marginal
+address estimates on one event family and marginal root-payment estimates on
+another remain support.
+
 This is still not a proof.  It is a checked obstruction to a false merge: finite
 address ownership, finite root payment, and record admission are support unless
 they are synchronized on the same primitive signed-height event before readout.
 The remaining Gold producer is a single original-history construction of
-\(\Xi\) and a finite \(\Gamma_{\rm pre}\) on that key.
+\(E_{\rm pre}\), \(\Xi\), \(\Gamma_{\rm pre}^{addr}\), and
+\(\Gamma_{\rm pre}^{root}\) on that key.
 
 ## 22. Parent-currency off-face reduces to active-potential storage
 
