@@ -761,6 +761,16 @@ active selector/chart/detector/face address before readout, with every address
 change paid, stopped, legal, or exited. This is the lower physical object behind
 both `RecordFacePrimitiveChannelTraceAndReturnBudget.A` and
 `PrimitiveReturnFirstFaceAddressOrPaidReentry.A`.
+The stopped primitive face-address process event-map reduction is now installed
+in
+`mpp-forward-gold-stopped-primitive-face-address-process-event-map-reduction-20260704.md`.
+It tests the construction against current edge-custody sources. Edge custody is
+necessary but not sufficient: a future-positive retained edge can have a
+selector/chart/detector/face tuple while the primitive signed channel measure
+still lacks one owner address for each event. The lower physical producers are
+`PrimitiveChannelEventAddressMap.A` and
+`PrimitiveChannelAddressChangeVariationCharge.A`; together they construct
+`StoppedPrimitiveFaceAddressProcess.A`.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
