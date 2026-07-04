@@ -23,6 +23,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-capacity-signed-height-record-admission-boundary-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-active-potential-terminal-survivor-dichotomy-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-exchange-no-self-feeding-physical-lyapunov-pressure-test-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-storage-matrix-early-branch-obstruction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-parent-source-payment-package-unification-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-meter-entropy-flux-split-same-history-capacity-reduction-20260703.md
@@ -365,6 +366,14 @@ storage row therefore has to supply a same-parent bounded-below drop for that
 weighted surplus with strict subunit feedback. A proof that spends critical
 source storage to obtain full exchange, then recovers critical source from full
 exchange, is the same self-financing loop at the signed-height record level.
+
+The coupled-matrix refinement says where the loop lives physically. Retained
+record exchange can be strictly damped by Stokes heat lag once zero modes and
+paid exits are removed. Early record trace/source action has no such
+dissipative thickness yet; the current route pays it with critical-source
+storage. So the signed-height storage row still needs an original-history payer
+for the early branch, or a full simultaneous matrix whose early row has strict
+spectral absorption without preusing finite excess.
 
 The source-checked lower split is:
 
