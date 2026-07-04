@@ -956,6 +956,17 @@ face pays later state transitions. Thus
 `ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A` implies
 `PrimitiveRawActiveStateFirstAddressOrPaidTransition.A`, then the raw atlas
 finite-overlap theorem.
+The parent-known active-state half-tail pressure test is now installed in
+`mpp-forward-gold-parent-known-active-state-capacity-half-tail-pressure-test-20260704.md`.
+It states the physical acceptance test for any proposed capacity: on the same
+shrinking heat-scale packet, raw square/capacity cost may scale like \(r\) while
+selected critical action stays unit-sized. Equivalently, one original material
+history can have finite raw fresh mass and infinite selected-critical action.
+Therefore fixed-chart formulas, pressure-Hodge/collar service, finite reset
+overlap, and freestanding carriers are support unless they generate the
+pre-readout selected active-state capacity itself, or the record-admitted
+same-parent active/full-exchange coupled storage inequality with strict feedback
+absorption.
 The primitive stopped-carrier common-selector ownership reduction is now
 installed in
 `mpp-forward-gold-primitive-stopped-carrier-common-selector-ownership-reduction-20260704.md`.
