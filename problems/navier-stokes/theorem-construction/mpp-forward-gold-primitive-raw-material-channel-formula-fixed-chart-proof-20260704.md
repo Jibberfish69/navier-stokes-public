@@ -290,6 +290,19 @@ Still open:
 \tag{RCF.17}
 ```
 
+The atlas multiplicity reduction
+`mpp-forward-gold-primitive-raw-material-channel-atlas-multiplicity-reduction-20260704.md`
+sharpens `(RCF.17)'. Fixed-scale material charts and separated same-material
+clock packets have finite overlap; the open part is active scale/collar/projector
+custody before readout:
+
+```math
+\texttt{PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A}
+\Longrightarrow
+\texttt{PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A}.
+\tag{RCF.18}
+```
+
 This is the next cleaner physical target under carrier support: build a
 parent-known raw material-channel atlas before stopped/selector readout, with
 finite overlap and paid boundary/service/rotation/off-chart residue for the
