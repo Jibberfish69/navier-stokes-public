@@ -869,6 +869,15 @@ then that carrier has a parent-known common selector owner before the primitive
 PLS channel is read. Retained-edge selector capture and PLS decomposition inside
 already retained stopped chambers are support until they prove primitive stopped
 carrier coverage and primitive stopped-carrier common-selector ownership.
+The signed-height feed of this event-address branch is now explicit in the
+nonselector lift note. Event ownership and address-change payment construct the
+stopped primitive face-address process; that process is useful for Gold only when
+it restricts positive trace and negative return to the same pre-readout face of
+the same packet. Chart/projector, detector/channel, chamber admission, and
+overlap priority are custody prerequisites. The coordinate that directly touches
+`SignedCriticalHeightSignPersistenceOrPeakBound.A` is face/polarity through
+`PrimitiveStoppedChamberFaceTraceFiberOrPaidDetachment.A` plus
+`PrimitiveStoppedChamberSameFaceSignedReturnBudgetOrPaidPolarity.A`.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
