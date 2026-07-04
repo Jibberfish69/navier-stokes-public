@@ -1807,6 +1807,32 @@ readout is taken.
 \tag{SCSS.70b}
 \]
 
+The TFE2748B audit opens `(SCSS.70b)' without changing the physical object.
+The stopped Duhamel-Hodge identity, early-fibre admission, retained heat gap,
+and retained pullback square-function estimate are consumers once the same
+parent frame is fixed before readout.  The surviving source is not a linear
+chain from one reserve to another.  Critical source storage, finite capacitary
+excess, parent active-potential capacity, and active-transit/full-exchange
+storage are coordinate readings of one simultaneous parent storage row:
+
+\[
+\begin{gathered}
+\texttt{critical source storage}\\
+\equiv
+\texttt{finite capacitary excess}\\
+\equiv
+\texttt{parent active-potential capacity}\\
+\equiv
+\texttt{active-transit/full-exchange storage}.
+\end{gathered}
+\tag{SCSS.70c}
+\]
+
+For Gold this row has force only in record-admitted form: the selected critical
+meter must come from the same signed-height upcrossing, before readout, and the
+active-transit/full-exchange storage must carry strict subunit feedback without
+borrowing the storage it is meant to prove.
+
 This absorbs `SameParentCriticalDepletionNoZeno.A',
 `SameParentCriticalGoodLambdaTail.A',
 `StoppedPrimitivePLSStrictHalfBarrierBreak.A', and the bounded-below
@@ -1838,4 +1864,4 @@ law itself.  Raw same-parent ownership, finite raw square mass, finite local
 service, transition-coordinate derivative control, component compactness/rigidity,
 and endpoint visibility all survive the half-tail countertest unless
 `(SCSS.69)' is supplied by the record-admitted full-exchange storage law
-`(SCSS.70b)' from arbitrary original smooth Navier-Stokes data.
+`(SCSS.70b)'--`(SCSS.70c)' from arbitrary original smooth Navier-Stokes data.
