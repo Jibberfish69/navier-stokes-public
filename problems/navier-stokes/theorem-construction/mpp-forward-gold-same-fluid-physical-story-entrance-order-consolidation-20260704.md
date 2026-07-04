@@ -19,6 +19,9 @@ role: >-
   work.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-current-signed-height-same-parent-state-currency-storage-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admitted-critical-no-arbitrage-compactness-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admission-same-edge-closed-graph-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admission-no-detachment-modulus-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-state-root-payment-same-parent-projection-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-root-projection-faithfulness-producer-classification-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-edge-no-detachment-producer-topology-synthesis-20260704.md
@@ -670,6 +673,59 @@ below one:
 \end{gathered}
 \tag{SFP.15d}
 \]
+
+The compactness route for `(SFP.15c)'--`(SFP.15d)' is now smaller than the
+storage label itself.  It requires same-edge record admission through the limit:
+
+\[
+\begin{array}{c}
+\texttt{RecordAdmittedFullExchangeCriticalCompactness.A}\\
++\texttt{ZeroCostRecordCriticalNoArbitrageRigidity.A}\\
++\texttt{RecordAdmissionClosedness.A}
+\end{array}
+\Longrightarrow
+\text{record-admitted }\texttt{SameParentCriticalDepletionNoZeno.A}.
+\tag{SFP.15e}
+\]
+
+The nonduplicate new term is `RecordAdmissionClosedness.A'.  In the same-fluid
+story this is not abstract closedness of a measure; it is persistence of the
+same retained signed-height edge through selector capture, retained exact
+projector chart/license, pressure-active-or-silent service, and root/full-
+exchange face address.  Its quantitative form is:
+
+\[
+\begin{aligned}
+&\texttt{SameEdgeNoDetachmentModulus.A}\\
+&+\texttt{RecordAdmittedFullExchangeCriticalCompactness.A}\\
+&+\texttt{ZeroCostRecordCriticalNoArbitrageRigidity.A}
+\Longrightarrow
+\text{record-admitted }\texttt{SameParentCriticalDepletionNoZeno.A}.
+\end{aligned}
+\tag{SFP.15f}
+\]
+
+Expanded physically, the no-detachment modulus has four jobs that cannot be
+traded for one another:
+
+\[
+\begin{aligned}
+&\texttt{RetainedRecordEdgeParentAnnouncedSelectorCapture.A}\\
+&+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}\\
+&+\texttt{SelectedGeneratorStorageCoercivity.A}
+ /\texttt{PositiveCriticalTransferBound.A}
+ /\texttt{NativeBirthChargePacking.A}\\
+&+\texttt{record-admitted face lower semicontinuity}
+\Longrightarrow
+\texttt{SameEdgeNoDetachmentModulus.A}.
+\end{aligned}
+\tag{SFP.15g}
+\]
+
+Thus scale-memory payment cannot supply parent address or chart license, and
+address/chart support cannot supply selected-critical half-tail payment.  The
+packet that raises the signed record must be the packet addressed, charted,
+paid, and retained in the compact face.
 
 The good-lambda summation is a consumer after `(SFP.15b)' is proved on the same
 record-admitted carrier, and `(SFP.15c)'--`(SFP.15d)' name the current smaller
