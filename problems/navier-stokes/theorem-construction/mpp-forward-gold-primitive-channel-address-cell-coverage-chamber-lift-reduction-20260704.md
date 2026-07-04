@@ -67,7 +67,7 @@ d\Omega_S^{PLS,primitive,+}
 \le
 C_N\sum_{\kappa\in\mathcal K_N}
 [Y_{\kappa,S}]_+\,d\sigma dt
-dR_S^{paid}.
++dR_S^{paid}.
 \tag{CCL.2}
 \]
 
