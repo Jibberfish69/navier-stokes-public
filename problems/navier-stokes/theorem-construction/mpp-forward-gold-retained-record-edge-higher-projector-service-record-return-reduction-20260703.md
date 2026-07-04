@@ -244,6 +244,19 @@ coupled by the stopped selector cone:
 \tag{RPR.14a}
 ```
 
+The coupled channel admission is now reduced to its lower physical faces:
+
+```math
+\texttt{RecordMenuPressureActiveOrSilentService.A}
++
+\texttt{RetainedRecordEdgeCommonSelectorRefinementNoLoss.A}
++
+\texttt{RetainedRecordEdgePrimitiveChannelCompatibility.A}
+\Longrightarrow
+\texttt{RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A}.
+\tag{RPR.14b}
+```
+
 ## 6. Strict reduction
 
 The sharper nonduplicate reduction is:
@@ -274,6 +287,12 @@ This is a strict reduction, not a proof of `(RPR.2)`. The open physical inputs
 are now:
 
 ```math
+\texttt{RecordMenuPressureActiveOrSilentService.A},
+\qquad
+\texttt{RetainedRecordEdgeCommonSelectorRefinementNoLoss.A},
+\qquad
+\texttt{RetainedRecordEdgePrimitiveChannelCompatibility.A},
+\qquad
 \texttt{RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A},
 \qquad
 \texttt{StoppedPrimitivePLSSignedScalePotentialLift.A},
