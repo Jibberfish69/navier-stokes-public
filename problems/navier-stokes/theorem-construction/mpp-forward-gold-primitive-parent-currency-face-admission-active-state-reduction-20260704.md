@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-known-active-state-capacity-half-tail-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-root-record-reset-single-geometry-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-root-projection-faithfulness-producer-classification-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-parent-currency-service-routing-reduction-20260704.md
 completion_truth: >-
   This note does not prove PrimitiveStoppedChamberParentCurrencyFaceAdmissionOrPaidService.A.
   It proves a strict reduction and checked obstruction. Parent active-state
@@ -93,7 +94,23 @@ The service input is
 
 It routes pressure-detector silent pieces, chart/projector escape, material
 collar service, detector/channel service, legal loss, stop, or exit before the
-event is counted as unpaid parent-currency face mass.
+event is counted as unpaid parent-currency face mass. This is now lowered to
+the physical service exhaustion:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberChartProjectorLiftOrPaidExit.A}\\
+&+\texttt{PrimitiveStoppedChamberDetectorChannelLiftOrPaidService.A}\\
+&+\texttt{PrimitiveParentCurrencyOffFaceServiceExhaustionOrExit.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveParentCurrencyServiceRoutingOrExit.A}.
+\tag{PCAS.5a}
+\]
+
+So service is not a fourth currency face. It is the same event leaving the
+parent-currency face attempt through chart/projector, detector/channel, or
+off-face material/legal/stop/exit physics before selected readout.
 
 ## 3. Strict reduction
 
@@ -167,6 +184,10 @@ Still open:
 \texttt{PrimitiveParentCurrencyServiceRoutingOrExit.A}.
 \tag{PCAS.9}
 \]
+
+The service-routing input is now itself reduced to chart/projector lift,
+detector/channel lift, and off-face material service exhaustion; those lower
+physical inputs remain open.
 
 This keeps the physical story single: the same primitive event must have a
 parent active state, a lawful parent-currency face, or a paid/service/legal/stop
