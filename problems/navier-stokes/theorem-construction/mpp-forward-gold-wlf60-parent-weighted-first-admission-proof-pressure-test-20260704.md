@@ -414,12 +414,15 @@ reserve from the original pressure-viscosity-incompressibility-velocity packet
 before child positive clipping.  Selected-density entropy, Hilbert/BMO, reverse
 Holder, active-capacity Bellman, and terminal no-atom are consumer languages
 after that parent carrier exists; they are not independent producers of it.  The
-latest tower-feedback audit pushes this source line one level lower: the
-conditional Duhamel-Hodge/early-admission/retained-heat-thickness chain gives
-terminal \(L^1\) only after three noncircular original-data grants are proved:
+TFE.2748 first expressed this source line as three original-data grants:
 stopped Duhamel-Hodge propagator plus bounded parent detector estimates,
 zero-baseline endpoint/source admission without borrowing the storage being
-proved, and strict no-self-feeding full-exchange storage.
+proved, and strict no-self-feeding full-exchange storage.  The checked
+TFE2748A/TFE2748B update demotes the first two grants to noncircular support.
+The remaining nonconsumer theorem is one strict same-parent active-critical /
+full-exchange / active-transit storage law from the original
+pressure-viscosity-incompressibility packet before child clipping, with
+subunit feedback or an independently proved storage face.
 
 On the terminal fixed-core branch, probe admission/update and the material
 metric identity are support inputs. The no-jump clause is paid only by
@@ -487,9 +490,12 @@ consumer `(WPT.19)'. In the heat-lag/fresh-linear face this producer is
 fresh generator/root-reserve packing before child clipping; the terminal
 fixed-core survivor reduces to root-fixed terminal-uniform service storage
 `(WPT.22)'. The current source-line pushdown is the audited
-Duhamel-Hodge/early-admission/no-self-feeding storage package above; same-parent
-detectors, Bessel square, entropy/BMO, retained heat decay, and endpoint
-admission remain support until they prove those grants from original data.
+Duhamel-Hodge/early-admission/no-self-feeding storage package above, with
+Duhamel-Hodge, endpoint admission, retained heat decay, same-parent detectors,
+Bessel square, and entropy/BMO now classified as support.  The open
+proof-sized object is the simultaneous same-parent active-critical /
+full-exchange / active-transit storage inequality, or an independently proved
+storage face, from the original packet before clipping.
 
 Support: Bessel square, route ownership, no-recount, local native admission,
 Schur storage after admission, probe admission/update, terminal no-replay
