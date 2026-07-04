@@ -1834,8 +1834,10 @@ For Gold this matrix has force only in record-admitted form: the selected
 critical meter must come from the same signed-height upcrossing, before readout,
 and the active-transit/full-exchange storage must carry strict subunit feedback
 without borrowing the storage it is meant to prove.  An independent original-data
-proof of one storage face would break the loop; absent that, the live burden is
-the record-admitted coupled inequality itself.
+proof of a storage face would break the loop; the currently reduced
+independent-face route is WLF.60 / ODP.91 early-branch storage on the
+order-locked full-packet selected carrier.  Absent that, the live burden is the
+record-admitted coupled inequality itself.
 
 This absorbs `SameParentCriticalDepletionNoZeno.A',
 `SameParentCriticalGoodLambdaTail.A',
