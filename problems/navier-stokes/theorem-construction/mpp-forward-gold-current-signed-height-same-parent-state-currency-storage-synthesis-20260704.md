@@ -48,6 +48,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-face-trace-fiber-atlas-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-parent-currency-face-atlas-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-parent-currency-face-admission-active-state-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-parent-currency-service-routing-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-no-detachment-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-local-thickness-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-event-common-selector-chamber-admission-reduction-20260704.md
@@ -756,6 +757,24 @@ state/root-payment object:
 This is not record-edge root projection replayed at primitive level. It requires
 the parent active state, root/endpoint payment, and service routing to attach to
 the same primitive event before readout.
+
+The service-routing input of `(SCSS.32b''b)' is now typed physically:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberChartProjectorLiftOrPaidExit.A}\\
+&+\texttt{PrimitiveStoppedChamberDetectorChannelLiftOrPaidService.A}\\
+&+\texttt{PrimitiveParentCurrencyOffFaceServiceExhaustionOrExit.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveParentCurrencyServiceRoutingOrExit.A}.
+\tag{SCSS.32b''c}
+\]
+
+Thus an event that fails parent-currency face ownership must leave through the
+same packet's chart/projector physics, detector/channel physics, or off-face
+material/legal/stop/exit physics. Service is not allowed to stand as an
+untyped paid bucket.
 
 The second and third inputs of `(SCSS.32b')' are now reduced to their physical
 jobs:
