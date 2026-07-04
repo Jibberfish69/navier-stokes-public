@@ -11,6 +11,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-symbol-kernel-exclusion-counterboundary-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-complete-frame-pressure-probe-demotion-material-service-routing-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-silent-source-to-primitive-half-tail-integration-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-pressure-active-quotient-angle-collar-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-detector-silent-service-pre-readout-reserve-primitive-half-tail-audit-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-stopped-primitive-channel-admission-lower-face-reduction-20260703.md
 completion_truth: >-
@@ -119,6 +120,13 @@ reserve, such as `StoppedPrimitivePLSStrictHalfBarrierBreak.A`,
 circular, because that admission already assumes this pressure-active-or-silent
 face.
 
+The quotient-angle collar audit sharpens the other side of the split. The
+pressure-active part has a finite-dimensional uniform angle only after a fixed
+near-silent collar has been assigned to the same pre-readout service reserve.
+Exact nonzero detector response is not enough: a near-null retained edge would
+make the detector constant blow up, so it must be treated as service-paid rather
+than pressure-active.
+
 ## 4. Strict lower split
 
 The retained frozen theorem reduces to:
@@ -183,3 +191,6 @@ After the primitive half-tail audit, the noncircular lower producer is an
 original-history primitive PLS strict half-barrier / bounded-below Lyapunov /
 weighted laminar reserve theorem. Local silent-source routing is support; the
 half-tail is the obstruction to promoting that support into finite reserve.
+After the quotient-angle collar audit, the reserve is read robustly: exact
+detector-silent and fixed detector-near-silent components both belong to the
+service-paid side before record readout.
