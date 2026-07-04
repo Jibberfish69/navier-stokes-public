@@ -214,3 +214,25 @@ The lower physical burden under `PrimitiveChannelAddressCellCoverage.A` is now:
 The proof must put each primitive signed-channel event into a stopped
 parent-known chamber first, and only then let the PLS signed-channel formula
 and retained-coordinate tuple become an address cell for that event.
+
+## 7. Selector-normalized reading
+
+The follow-up selector-normalization reduction
+`mpp-forward-gold-primitive-stopped-chamber-selector-normalization-reduction-20260704.md`
+removes the duplicate selector burden in `(CCL.11)'. A chamber that can support
+`PrimitivePLSSignedChannelDecomposition.A` is already a retained stopped
+common-selector chamber, so selector ownership belongs in event admission.
+Coordinate lift then means only the nonselector coordinates on that same
+chamber: chart/projector, detector/channel, and face/polarity.
+
+Thus the coverage half should now be read as:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveEventStoppedCommonSelectorChamberAdmissionOrPaidEscape.A}\\
+&+\texttt{PrimitiveStoppedChamberNonselectorCoordinateLift.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveChannelAddressCellCoverage.A}.
+\tag{CCL.12}
+\]
