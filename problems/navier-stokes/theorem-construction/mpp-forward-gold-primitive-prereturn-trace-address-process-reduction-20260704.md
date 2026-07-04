@@ -24,6 +24,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-nonselector-coordinate-lift-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-overlap-first-difference-charge-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-channel-address-change-variation-charge-split-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-address-change-charge-split-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-face-polarity-lift-proof-pass-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-face-local-signed-channel-construction-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-same-face-negative-return-budget-reduction-20260704.md
@@ -178,6 +179,22 @@ packet before the return account opens:
 Same-face negative return is excluded from `(PRTA.7)'. Once the proof uses
 same-face return to pay face-trace address changes, it has already assumed the
 same-face ownership that this process is meant to create.
+
+The dedicated pre-return address-change split now sharpens this input:
+
+\[
+\begin{aligned}
+&\texttt{PrimitivePreReturnSelectorChamberVariationCharge.A}\\
+&+\texttt{PrimitivePreReturnChartProjectorTransferCharge.A}\\
+&+\texttt{PrimitivePreReturnDetectorChannelRotationCharge.A}\\
+&+\texttt{PrimitivePreReturnFaceTraceBoundaryCharge.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveChannelPreReturnAddressChangeCharge.A}.
+\tag{PRTA.7a}
+\]
+
+The fourth row is face-trace boundary service only. It is not same-face return.
 
 ## 6. Downstream return payment
 
