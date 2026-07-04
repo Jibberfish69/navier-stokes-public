@@ -750,6 +750,17 @@ selected-face claim must be a stopped same-packet address change or
 paid/legal/stop/exit residue. The lower objects are
 `PrimitiveReturnFaceAddressStoppingPartition.A` and
 `PrimitiveReturnFaceAddressChangePaidOrExit.A`.
+The stopped primitive face-address process unification is now installed in
+`mpp-forward-gold-stopped-primitive-face-address-process-unification-20260704.md`.
+It simplifies the current Gold wall: predictable positive trace, negative-return
+first address, paid re-entry, and same-face partner return are all projections of
+one missing physical object. `StoppedPrimitiveFaceAddressProcess.A` is a
+parent-announced stopped address process on the selector-owned primitive signed
+channel; it assigns each positive or negative event of the same packet to one
+active selector/chart/detector/face address before readout, with every address
+change paid, stopped, legal, or exited. This is the lower physical object behind
+both `RecordFacePrimitiveChannelTraceAndReturnBudget.A` and
+`PrimitiveReturnFirstFaceAddressOrPaidReentry.A`.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
