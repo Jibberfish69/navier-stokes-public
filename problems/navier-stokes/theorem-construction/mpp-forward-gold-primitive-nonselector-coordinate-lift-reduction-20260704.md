@@ -323,3 +323,11 @@ touches `SignedCriticalHeightSignPersistenceOrPeakBound.A' is face/polarity.
 The closest noncircular event-address theorem for the signed-height wall is
 therefore still `(NCL.13)': construct the trace fiber and same-face signed return
 budget inside the admitted primitive chamber before selected-face counting.
+
+The dedicated proof pass
+`mpp-forward-gold-primitive-chamber-face-polarity-lift-proof-pass-20260704.md`
+now proves `(NCL.13)' as a conditional lift. It does not prove the two physical
+inputs. The remaining PDE producer is
+`PrimitiveChamberFaceLocalSignedChannelConstruction.A`: build the pre-readout
+face fiber of the selector-owned primitive signed channel and prove finite
+same-face negative-return budget from the original same-fluid packet.
