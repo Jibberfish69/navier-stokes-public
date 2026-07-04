@@ -960,3 +960,13 @@ Thus the admission side is also a strict reduction and checked obstruction, not
 a proof.  The physical map branch now has three noncircular entrance tests:
 all-event material carrier support, a stopped carrier atlas, and carrier-level
 common-selector ownership before primitive readout.
+
+The WLF.60 same-carrier boundary note
+`mpp-forward-gold-wlf60-same-carrier-identity-primitive-channel-boundary-20260704.md`
+connects this primitive entrance story back to the early-branch storage payer.
+The primitive chain answers where a signed event physically lives before
+selection. WLF.60 asks the stronger question of whether the lower fresh source
+and the upper selected positive queue are one selected native carrier, and then
+whether the selected overrun on that carrier is paid. Same-material support,
+stopped carrier coverage, and common-selector ownership are therefore necessary
+physical custody, not WLF.60 closure.
