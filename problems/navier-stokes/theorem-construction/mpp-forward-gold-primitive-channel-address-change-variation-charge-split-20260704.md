@@ -19,6 +19,8 @@ role: >-
   selected-critical original-history payment or local same-face compactness.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-primitive-face-address-process-event-map-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-trace-address-process-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-address-change-charge-split-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admission-no-detachment-modulus-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-stratum-crossing-bv-closure-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-projector-selector-paid-rotation-split-20260704.md
@@ -162,3 +164,29 @@ the selected-critical fresh source tent / scale-memory payment from original
 history. The face coordinate remains the local same-face compactness and
 partner-return row. The chart coordinate remains exact-projector chart/escape
 service before readout.
+
+## 6. Pre-return subtype
+
+The trace-before-return correction splits off a stricter subtype of this charge.
+When the address process is being built in order to justify same-face return,
+the fourth coordinate cannot be `PrimitiveEventFacePolarityReturnCharge.A`,
+because that row uses the return ownership being constructed.
+
+The pre-return charge is instead:
+
+\[
+\begin{aligned}
+&\texttt{PrimitivePreReturnSelectorChamberVariationCharge.A}\\
+&+\texttt{PrimitivePreReturnChartProjectorTransferCharge.A}\\
+&+\texttt{PrimitivePreReturnDetectorChannelRotationCharge.A}\\
+&+\texttt{PrimitivePreReturnFaceTraceBoundaryCharge.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveChannelPreReturnAddressChangeCharge.A}.
+\tag{AC.6}
+\]
+
+The first three coordinates are the same physical motion read before return.
+The fourth coordinate is only face-trace boundary, detachment, thickness loss,
+legal loss, stop, or exit. Same-face negative return remains downstream after
+the pre-return trace-address process exists.
