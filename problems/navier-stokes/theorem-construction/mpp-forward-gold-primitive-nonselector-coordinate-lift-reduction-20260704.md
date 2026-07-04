@@ -293,3 +293,33 @@ signed channel exists. It does not yet construct that channel from the
 Navier-Stokes packet before aggregation. Current record-face compactness,
 no-detachment, and local thickness notes are support until they prove `(NCL.13)'
 for primitive chamber events before selected-face counting.
+
+## 9. Why face/polarity is the direct signed-height feed
+
+The event-address branch does not control signed height merely by assigning
+labels. Its physical job is to let the positive trace and negative return of the
+same primitive signed channel be restricted to the same pre-readout face of the
+same packet.
+
+The downstream spine is:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveChannelEventAddressMap.A}\\
+&+\texttt{PrimitiveChannelAddressChangeVariationCharge.A}
+\Longrightarrow
+\texttt{StoppedPrimitiveFaceAddressProcess.A}\\
+&\Longrightarrow
+\text{same-face positive trace and negative return}\\
+&\Longrightarrow
+\text{finite same-fluid charge for thin signed-height records}.
+\end{aligned}
+\tag{NCL.14}
+\]
+
+Thus chart/projector and detector/channel are necessary custody coordinates, and
+overlap priority prevents double spending, but the coordinate that directly
+touches `SignedCriticalHeightSignPersistenceOrPeakBound.A' is face/polarity.
+The closest noncircular event-address theorem for the signed-height wall is
+therefore still `(NCL.13)': construct the trace fiber and same-face signed return
+budget inside the admitted primitive chamber before selected-face counting.
