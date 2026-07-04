@@ -455,7 +455,10 @@ support; the reserve requires an independent original-history primitive PLS
 strict half-barrier / bounded-below Lyapunov / weighted laminar reserve theorem,
 and a proof through `RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A` is
 circular because that admission already assumes the pressure-active-or-silent
-face.
+face. The quotient-angle collar audit makes the split robust: exact nonzero
+detector response is not enough for pressure-active storage, so a fixed
+detector-near-silent collar belongs to the service-paid side before the quotient
+angle becomes finite-dimensional bookkeeping.
 The common-selector face now reduces to
 `RetainedRecordEdgeParentAnnouncedSelectorCapture.A` plus stopped-selector
 variation/payment support: the arbitrary future-positive record edge must be

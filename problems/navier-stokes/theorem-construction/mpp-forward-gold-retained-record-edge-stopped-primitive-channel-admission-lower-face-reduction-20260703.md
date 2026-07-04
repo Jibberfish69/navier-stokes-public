@@ -115,8 +115,8 @@ The three lower faces have distinct physical jobs.
 
 `RecordMenuPressureActiveOrSilentService.A` keeps the frozen record edge honest:
 the pressure-active part is visible to the parent detector currency, and the
-pressure-silent transverse part is paid, stopped, legal, or exited before
-readout.
+pressure-silent or pressure-near-silent transverse part is paid, stopped, legal,
+or exited before readout.
 
 The pressure-face reduction now splits this into a quotient angle and a real
 service reserve:
@@ -139,6 +139,9 @@ original-history primitive PLS strict half-barrier / bounded-below Lyapunov /
 weighted laminar reserve theorem. Proving it through this stopped-channel
 admission would be circular because this admission already depends on the
 pressure-active-or-silent face.
+The quotient-angle collar audit sharpens the active side: exact nonzero detector
+visibility is not enough, so a fixed detector-near-silent collar must be assigned
+to the same service reserve before the active quotient has a uniform angle.
 
 `RetainedRecordEdgeCommonSelectorRefinementNoLoss.A` is the retained-edge
 version of common selection. For every arbitrary future-positive exact-projector

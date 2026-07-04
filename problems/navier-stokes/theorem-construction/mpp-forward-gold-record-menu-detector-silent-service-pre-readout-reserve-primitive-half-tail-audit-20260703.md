@@ -15,10 +15,11 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-stopped-primitive-channel-admission-lower-face-reduction-20260703.md
 completion_truth: >-
   This note does not prove RecordMenuDetectorSilentServicePreReadoutReserve.A.
-  It proves that local detector-silent routing is only support, identifies the
-  half-tail obstruction to promoting local service into a finite record reserve,
-  and reduces the reserve to an independent original-history primitive full-action
-  reserve / strict half-barrier theorem. A proof through
+  It proves that local detector-silent or detector-near-silent routing is only
+  support, identifies the half-tail obstruction to promoting local service into a
+  finite record reserve, and reduces the reserve to an independent
+  original-history primitive full-action reserve / strict half-barrier theorem.
+  A proof through
   RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A is circular because that
   admission already assumes the pressure-active-or-silent face.
 ---
@@ -32,11 +33,13 @@ paired with one low strain/current coefficient, before a future record selector
 reads a positive signed-height edge.
 
 The parent pressure/root detector only sees the pressure-active projection of
-that packet. A transverse trace-free part can be detector-silent. If that silent
-part helps produce positive record work, the proof cannot count it as hidden
-free work. It must have already appeared, before the record readout, as service
-of the same packet: strain/exchange, complete-frame compression, viscous/radius
-loss, collar/annular service, legal loss, stop, or Pack/Part/Field exit.
+that packet. A transverse trace-free part can be detector-silent, and a part
+lying in a fixed near-silent collar is just as unusable for uniform detector
+storage. If that silent or near-silent part helps produce positive record work,
+the proof cannot count it as hidden free work. It must have already appeared,
+before the record readout, as service of the same packet: strain/exchange,
+complete-frame compression, viscous/radius loss, collar/annular service, legal
+loss, stop, or Pack/Part/Field exit.
 
 That is the physical content of
 `RecordMenuDetectorSilentServicePreReadoutReserve.A`.
@@ -194,13 +197,14 @@ that already assumes the pressure-active-or-silent face.
 ## 6. Current truth state
 
 `RecordMenuDetectorSilentServicePreReadoutReserve.A` is not a new pressure
-detector problem. It is the old finite weighted same-fluid full-action problem
-seen from the detector-silent side of the record menu.
+detector problem. Read robustly, it covers exact detector-silent directions and
+a fixed detector-near-silent collar. It is the old finite weighted same-fluid
+full-action problem seen from the service-paid side of the record menu.
 
 The checked physical story is:
 
 ```math
-\text{detector-silent selected work}
+\text{detector-silent or near-silent selected work}
 \Longrightarrow
 \text{same-packet material service locally}
 \Longrightarrow
