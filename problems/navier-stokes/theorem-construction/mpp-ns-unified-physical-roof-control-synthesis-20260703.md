@@ -35,6 +35,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-shrinking-core-critical-reset-carleson-sharpener-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-physical-payment-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admitted-critical-no-arbitrage-compactness-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-edge-no-detachment-producer-topology-synthesis-20260704.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -580,6 +581,14 @@ chart/projector drift, detector-angle or selector-channel rotation, and
 root/full-exchange face-address drift must all be charged before readout.
 Existing local support identifies those coordinates, but no current source
 proves the uniform same-edge no-detachment modulus from arbitrary original data.
+The same-edge no-detachment producer topology synthesis is now installed in
+`mpp-forward-gold-same-edge-no-detachment-producer-topology-synthesis-20260704.md`.
+It separates that modulus into nonduplicate physical jobs: parent-announced
+selector address, retained exact-projector chart license, original-history
+selected-critical payment, and record-admitted face persistence. It blocks the
+false collapse where selected-critical scale memory is made to supply parent
+address/chart license, or where address/chart support is treated as
+selected-critical half-tail payment.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
