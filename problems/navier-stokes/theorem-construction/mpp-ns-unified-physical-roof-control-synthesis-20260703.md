@@ -529,6 +529,18 @@ now pins that producer to one physical packet: the same original material
 history must pay first retained upward critical-scale births through
 no-free-upcascade/native-birth accretive payment before root projection reads
 the future-positive edge.
+The same-parent source-payment package unification is now installed in
+`mpp-forward-gold-same-parent-source-payment-package-unification-20260704.md`.
+It folds `OriginalHistoryParentPredictableFreshInnovationCarleson.A`,
+`SelectedGeneratorStorageCoercivity.A`, `PositiveCriticalTransferBound.A`,
+`NativeBirthChargePacking.A`, `ForwardNativeReserveBirthPaysFullPLS.A`, and
+`StoppedFullExchangeActionCarleson.A` into one physical source package with a
+fixed role order: native birth / selected generator / positive transfer is the
+producer face; full-exchange and parent-subtracted fresh innovation are supplied
+channels; predictability, Bessel, representation, sparse packing, reset, and
+record/root rows are consumers unless they are attached to the admitted
+signed-height edge. This is a strict reduction and authority correction, not
+source closure.
 The fresh-source tent extremal reduction makes the physical shape explicit:
 after inherited parent pieces and local consumers are removed, the bad object is
 one original history with finite raw fresh mass but infinite selected-critical
