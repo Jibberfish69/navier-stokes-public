@@ -214,6 +214,10 @@ live_route_table:
     positive queue, with selected overrun paid there. The same-carrier gate is
     read as mismatch evacuation: retained positive mismatch is identified, paid
     before readout, or forced into the selected terminal source-curve atom.
+    Installed finite-graph payments lower the remaining mismatch branch to
+    TerminalZenoVisibleReadoutPayment.A: unweighted same-carrier payment of the
+    visible terminal high-factor/source-square/finite-rung/no-waste readout, or
+    an installed legal/endpoint/profile/CM consumer.
     Repeated-core record/return
     and shrinking-core reset are faces of OriginalHistoryRecordResetRootPayment.A,
     the selected-critical face of
