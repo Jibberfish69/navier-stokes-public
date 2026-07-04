@@ -233,9 +233,11 @@ represented by TFE2748B.1343, TFE2748B.1393, and TFE2748B.1555 from the
 original pressure-viscosity-incompressibility packet before child clipping.
 Reading FullExchangeNoSelfFeedingStorage.A as proved by preallocated critical
 source storage and then reading that same critical source as proved by
-FullExchangeNoSelfFeedingStorage.A is circular. A proof needs either an
-independent proof of one face or one simultaneous strict coupled storage
-inequality with subunit absorption.
+FullExchangeNoSelfFeedingStorage.A is circular. A proof needs either the
+simultaneous strict coupled storage inequality with subunit absorption, or an
+independently proved storage face. The currently reduced independent-face route
+is WLF.60 / ODP.91 early-branch storage on the order-locked full-packet selected
+carrier.
 
 ## 6. Relation to the source-payment roof
 
