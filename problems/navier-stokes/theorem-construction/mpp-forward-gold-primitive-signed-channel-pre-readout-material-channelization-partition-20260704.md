@@ -233,6 +233,27 @@ Still open:
 \tag{MCP.12}
 ```
 
+The follow-up fixed-chart proof
+`mpp-forward-gold-primitive-raw-material-channel-formula-fixed-chart-proof-20260704.md`
+proves the local formula face and reduces this partition theorem to the raw
+atlas/boundary theorem:
+
+```math
+\texttt{PrimitiveRawMaterialChannelFormulaOnFixedChart.A}
++
+\texttt{PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A}
+\Longrightarrow
+\texttt{PrimitiveSignedChannelPreReadoutMaterialChannelizationPartition.A}.
+\tag{MCP.13}
+```
+
+The first input is now proved on fixed smooth material charts from the material
+Navier-Stokes participation law, Hodge/projector identity, and material-service
+calculation. The remaining open object is
+`PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A`: a parent-known
+finite-overlap raw material-channel atlas before stopped/selector readout, with
+boundary/off-chart/off-channel mass paid.
+
 This is not Gold closure. It is the next clean physical producer under
 primitive stopped-carrier coverage: construct the primitive signed-channel
 measure from the original Navier-Stokes participation law as one pre-readout
