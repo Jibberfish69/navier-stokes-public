@@ -265,7 +265,9 @@ pre-readout material support, stopped carrier coverage, and common-selector
 ownership make signed events lawful same-packet events before readout. They do
 not yet prove that the lower fresh source and the upper selected positive queue
 are selected from the same recombined full packet before positive-part
-extraction. The active-capacity/full-exchange roof therefore still needs either
-stopped potential-average control or positive second-order scale exactness on
-the order-locked full-packet selected carrier, with the same-packet order-lock
-overlap and the selected overrun tail paid on that carrier.
+extraction. The active-capacity/full-exchange roof therefore still needs the
+same carrier-key payment in one of its two analytic faces: stopped
+potential-average control or positive second-order scale exactness on the
+order-locked full-packet selected carrier, with the same-packet order-lock
+overlap and the selected overrun tail paid on that carrier. These are not
+sibling exits below WLF.60 / ODP.91.
