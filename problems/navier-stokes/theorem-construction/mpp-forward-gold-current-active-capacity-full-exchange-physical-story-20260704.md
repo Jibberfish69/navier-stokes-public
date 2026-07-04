@@ -193,6 +193,13 @@ has not lived long enough for heat-lag contraction, so the current proof pays it
 by preallocated critical-source storage. That is the same active-potential
 finite-excess face that full exchange is supposed to prove.
 
+In the older heat-lag coordinates, that early branch is exactly the
+selected-critical parent-weighted first-admission pulse measure bound WLF.60.
+Same-parent detection, Bessel square support, no-recount, and local first
+admission are support; the missing source is a finite original-history
+parent-weighted pulse measure with strict viscosity feedback for all selected
+sub-heat-lag first admissions.
+
 ## 5. What is closed and what is not
 
 Closed at the current edge: raw same-parent pressure-Hodge atom coupling,
