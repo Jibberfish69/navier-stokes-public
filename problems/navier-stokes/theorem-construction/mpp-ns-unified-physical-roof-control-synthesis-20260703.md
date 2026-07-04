@@ -895,6 +895,18 @@ channel rotation, material service, legal, stop, or exit. Thus
 `PrimitiveSignedChannelDirectMaterialRepresentation.A` plus
 `PrimitiveSignedChannelOffCarrierServiceCharge.A` implies
 `PrimitiveSignedChannelMaterialCarrierSupport.A`.
+The primitive signed-channel pre-readout material channelization partition note
+is now installed in
+`mpp-forward-gold-primitive-signed-channel-pre-readout-material-channelization-partition-20260704.md`.
+It consolidates those two inputs. They are two faces of one physical theorem:
+before stopped/selector readout, the primitive signed-channel measure must be
+partitioned into same-packet material channel events and paid off-carrier
+residue. Same-packet attachment and post-admission chamber charge menus are
+support only until they prove that pre-readout partition. Thus
+`PrimitiveSignedChannelPreReadoutMaterialChannelizationPartition.A` implies
+`PrimitiveSignedChannelDirectMaterialRepresentation.A` plus
+`PrimitiveSignedChannelOffCarrierServiceCharge.A`, and then implies
+`PrimitiveSignedChannelMaterialCarrierSupport.A`.
 The primitive stopped-carrier common-selector ownership reduction is now
 installed in
 `mpp-forward-gold-primitive-stopped-carrier-common-selector-ownership-reduction-20260704.md`.
