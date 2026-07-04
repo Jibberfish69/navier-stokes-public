@@ -558,7 +558,7 @@ Thus the current lowest noncircular proof pressure is one of these:
 
 \[
 \begin{array}{c}
-\text{independent early-branch first-admission storage}\\
+\text{isolated original-data early-row first-admission payment}\\
 \text{on the order-locked full-packet selected carrier,}
 \end{array}
 \tag{SFP.14}
