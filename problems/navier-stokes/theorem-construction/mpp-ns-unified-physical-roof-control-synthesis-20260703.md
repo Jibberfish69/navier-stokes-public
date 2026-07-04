@@ -798,6 +798,14 @@ It lowers `PrimitiveChannelAddressCellCoverage.A` to
 the primitive event must first enter a parent-known stopped chamber, and only
 then can the primitive PLS signed-channel formula and retained selector/chart/
 detector/face tuple become an address cell for that event.
+The primitive address-priority overlap-boundary reduction is now installed in
+`mpp-forward-gold-primitive-channel-address-priority-overlap-boundary-reduction-20260704.md`.
+It collapses the active-priority half to `PrimitiveAddressCellOverlapBoundaryCharge.A`.
+Parent-fixed priority is a formal measurable choice once the address cells are
+countable and locally finite; the physical payment is on overlaps of different
+cells, in the same four coordinates as address-change variation: selector,
+chart/projector, detector/channel, and face/polarity. This is the pre-map
+overlap version of the post-map address-change charge.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
