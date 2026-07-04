@@ -479,6 +479,11 @@ lawful lower input is `ParentAnnouncedAngleLockWithFiniteRotation.A`: the
 parent-announced selector channel must be fixed before readout, or its rotation
 toward the projector active functional must be paid by finite original-history
 same-packet cost.
+The finite-rotation producer-collapse note
+`mpp-forward-gold-parent-announced-angle-lock-finite-rotation-producer-collapse-20260704.md`
+removes the duplicate burden: after parent-announced selector capture, the
+non-angle-locked part is exactly the paid-rotation branch already collapsed to
+`CriticalFreshSourceTentCarleson.A / FreshSourceCriticalScaleMemoryBound.A`.
 The paid-rotation branch is now split by
 `mpp-forward-gold-retained-record-edge-projector-selector-paid-rotation-split-20260704.md`:
 near-silent mismatch is the detector-silent pre-readout reserve, while genuine

@@ -13,6 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-projector-selector-angle-lock-obstruction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-projector-selector-paid-rotation-split-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-paid-rotation-producer-collapse-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-announced-angle-lock-finite-rotation-producer-collapse-20260704.md
 completion_truth: >-
   This note is not a proof of retained record-edge selector/projector channel
   alignment. It is a checked obstruction to adaptive channel choice and a strict
@@ -140,3 +141,8 @@ reserve and selector-motion payment remain consumers of
 `CriticalFreshSourceTentCarleson.A / FreshSourceCriticalScaleMemoryBound.A`.
 The new obstruction only prevents adaptive channel choice from masquerading as
 angle-lock proof.
+
+The finite-rotation producer-collapse note makes that explicit:
+`ParentAnnouncedAngleLockWithFiniteRotation.A` is a consumer of parent-announced
+selector capture plus the pre-entrance selected-critical source/scale-memory
+payment; it is not a fourth producer below root projection.
