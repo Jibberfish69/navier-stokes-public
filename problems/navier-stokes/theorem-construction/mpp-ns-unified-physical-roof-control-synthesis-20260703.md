@@ -668,6 +668,17 @@ endpoint jet temporal modulus, and same-edge order-lock partner payment. The
 checked obstructions are a moving future argmax over labels and a channel-first
 positive pulse whose full-packet partner cancels it. Both remain unpaid
 same-packet defects until paid, stopped, made legal, or routed to exit.
+The same-edge order-lock partner payment selected-density reduction is now
+installed in
+`mpp-forward-gold-same-edge-order-lock-partner-payment-selected-density-reduction-20260704.md`.
+It keeps the same physical packet in view: the gap is
+\(\Delta^{ol}=([n]_+-[h]_+)_+=\min\{[n]_+,[-b]_+\}\), so the selected edge looks
+positive only because its negative full-packet partner was ignored. The gate is
+paid by selected-density reverse-Holder/uniform-integrability/root reserve, or
+by retained same-packet four-body overlap channel payment. The checked
+obstruction is the terminal channel-first pulse \(n=a\tau^{-1}1_{(-\tau,0]}\),
+\(b=-n\), \(h=0\), with finite raw \(L^1\) mass and no \(L^q\) terminal gain.
+This is a strict reduction, not closure from original data.
 The lower retained-edge faces are now consolidated in
 `mpp-forward-gold-retained-record-edge-pre-readout-custody-tuple-reduction-20260704.md`.
 Selector capture, retained exact-projector chart license, and the
