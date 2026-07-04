@@ -47,6 +47,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-boundary-charge-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-face-trace-fiber-atlas-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-parent-currency-face-atlas-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-parent-currency-face-boundary-law-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-parent-currency-face-admission-active-state-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-parent-currency-service-routing-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-no-detachment-reduction-20260704.md
@@ -739,6 +740,25 @@ The three face labels are the same parent rows used elsewhere in Gold:
 positive-baseline root/log, zero-baseline endpoint seed, and active
 full-exchange. The open upgrade is all-event primitive chamber coverage, not
 just future-positive record-edge admission.
+
+The boundary row of `(SCSS.32b''a)' is now lowered to the same parent
+active/root/full-exchange object:
+
+\[
+\begin{aligned}
+&\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}\\
+&+\texttt{OriginalHistoryRecordResetRootPayment.A}\\
+&+\texttt{ParentActivePotentialCapacityDomination.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberParentCurrencyFaceBoundaryLaw.A}.
+\tag{SCSS.32b''a1}
+\]
+
+Root/log to endpoint-seed motion is root/reset payment; root/endpoint to active
+full-exchange motion is parent active-state and active-potential/full-exchange
+payment. Record-admitted storage is downstream and cannot produce this primitive
+boundary law.
 
 The admission row of `(SCSS.32b''a)' is now lowered to the same-parent active
 state/root-payment object:
