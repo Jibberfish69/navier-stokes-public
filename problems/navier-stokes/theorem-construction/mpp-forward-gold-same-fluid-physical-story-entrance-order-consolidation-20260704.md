@@ -37,14 +37,16 @@ source_refs:
 completion_truth: >-
   This note proves no Navier-Stokes smoothness theorem and no new estimate. It
   records a strict physical consolidation and priority test: the current route
-  must construct the same signed-height record event's pre-readout address,
-  exact pressure chart or exit, original-history selected-critical payment, and
-  record-admitted no-self-feeding storage from the same Navier-Stokes packet.
-  At the current deepest edge, retained heat-lag/full-exchange smallness is
-  proof-level support, while the early sub-heat-lag/source branch remains open
-  unless paid by an independent original-history first-admission reserve or by a
-  simultaneous coupled matrix with spectral radius below one. Work outside that
-  same-event order is support or obstruction, not closure.
+  must construct one parent-known owner map and one original-history charge
+  measure for the same signed-height record event before selected readout. The
+  address/chart, selected-critical payment, and record-admitted no-self-feeding
+  storage rows are now coordinate readings of that same owner-and-charge package
+  from the same Navier-Stokes packet. At the current deepest edge, retained
+  heat-lag/full-exchange smallness is proof-level support, while the early
+  sub-heat-lag/source branch remains open unless paid by an independent
+  original-history first-admission reserve or by a simultaneous coupled matrix
+  with spectral radius below one. Work outside that same-event order is support
+  or obstruction, not closure.
 ---
 
 # Same-fluid physical story entrance-order consolidation
@@ -263,6 +265,29 @@ state/currency/storage construction for the signed-height record event:
 \texttt{SignedCriticalHeightSignPersistenceOrPeakBound.A}.
 \tag{SFP.12}
 \]
+
+The sharper reading is one owner-and-charge construction before selected
+readout.  For the record-positive primitive pieces of the same event, construct
+a parent-known owner map \(\alpha\) and one original-history charge measure
+\(\Gamma_{\rm pre}\) so that selected positive work, address change, chart
+transfer, detector/channel rotation, face-boundary motion, return re-entry, and
+selected-critical root weight are paid on the same primitive key:
+
+\[
+\sum_j \lambda_j^{-1}\mu_j^+(A_j)
+\le
+\Gamma_{\rm pre}\!\left(\bigcup_j\alpha(A_j)\right)
+ + \mathrm{Legal}+\mathrm{Stop}+\mathrm{Exit}.
+\tag{SFP.12a}
+\]
+
+In this reading, active state supplies ownership, root/native-birth payment
+supplies the weighted charge, and record-admitted full-exchange storage is the
+same-record spend rule preventing duplicate address or return payment.  The
+matrix form and the WLF.60 / `(ODP.91)' row are coordinates of
+\(\Gamma_{\rm pre}\), not independent suppliers.  A future proof move must
+construct this measure from the original pressure-viscosity-incompressibility
+history before the record is read as positive work.
 
 `RecordMenuRootProjectionFaithfulness.A` is the entrance gate into that object.
 Its currently exposed lower proof pressure is
