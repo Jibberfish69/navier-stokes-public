@@ -30,13 +30,21 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-projector-escape-payment-audit-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-higher-projector-service-record-return-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-admitted-scale-native-depletion-bridge-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-current-active-capacity-full-exchange-physical-story-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-exchange-no-self-feeding-physical-lyapunov-pressure-test-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-storage-matrix-early-branch-obstruction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
 completion_truth: >-
   This note proves no Navier-Stokes smoothness theorem and no new estimate. It
   records a strict physical consolidation and priority test: the current route
   must construct the same signed-height record event's pre-readout address,
   exact pressure chart or exit, original-history selected-critical payment, and
   record-admitted no-self-feeding storage from the same Navier-Stokes packet.
-  Work outside that same-event order is support or obstruction, not closure.
+  At the current deepest edge, retained heat-lag/full-exchange smallness is
+  proof-level support, while the early sub-heat-lag/source branch remains open
+  unless paid by an independent original-history first-admission reserve or by a
+  simultaneous coupled matrix with spectral radius below one. Work outside that
+  same-event order is support or obstruction, not closure.
 ---
 
 # Same-fluid physical story entrance-order consolidation
@@ -278,11 +286,46 @@ currency, equivalently
 `FreshSourceCriticalScaleMemoryBound.A` or an independent primitive PLS strict
 half-barrier / bounded-below Lyapunov / weighted laminar reserve theorem.
 
+At the current direct-live depth, that same selected-critical payment is read
+through the active-capacity/full-exchange object.  After raw same-parent
+pressure-Hodge atom coupling and retained opposite-lobe reserve are installed,
+the selected critical meter prices already paired lobes unequally.  The remaining
+surplus is the positive log-meter motion of the same parent packet, not a new
+atom or child count.
+
+The retained full-exchange loop has genuine heat-lag/Stokes smallness after zero
+modes and paid exits are removed.  The obstruction is the early branch: the
+sub-heat-lag trace/source action has no independent dissipative smallness in the
+current sources.  The checked route pays it by preallocated critical-source
+storage, then recovers that same critical source through full-exchange/finite
+excess.  That is circular.
+
+Thus the current lowest noncircular proof pressure is one of these:
+
+\[
+\begin{array}{c}
+\text{independent early-branch first-admission storage}\\
+\text{on the order-locked full-packet selected carrier,}
+\end{array}
+\tag{SFP.14}
+\]
+
+equivalently WLF.60 / `(ODP.91)' with the unpaid projected original-history
+reserve `(ODP.111)' and persistent affine quotient `(ODP.160)' / `(ODP.125)'; or
+
+\[
+\text{one simultaneous record-admitted active/critical/full-exchange matrix
+with }\rho(K^{rec})<1
+\tag{SFP.15}
+\]
+
+proved without preusing finite critical-source excess.
+
 Physically, the remaining proof must show that a thin signed-height record cannot
 keep exporting future-positive pressure/strain service through smaller and
 smaller record readouts while the same original parent packet pays only finite
 raw heat, raw strain, collar/legal cost, or downstream storage.  The route must
 produce a parent-known critical carrier with strict selected-scale payment for
-that record event, or show that failure is already a legal, stopped,
-material-service, chart, Pack, Part, or Field exit before the record counts the
-edge.
+that record event, including the early branch, or show that failure is already a
+legal, stopped, material-service, chart, Pack, Part, or Field exit before the
+record counts the edge.
