@@ -869,6 +869,18 @@ then that carrier has a parent-known common selector owner before the primitive
 PLS channel is read. Retained-edge selector capture and PLS decomposition inside
 already retained stopped chambers are support until they prove primitive stopped
 carrier coverage and primitive stopped-carrier common-selector ownership.
+The primitive signed-channel stopped-carrier coverage reduction is now installed
+in
+`mpp-forward-gold-primitive-signed-channel-stopped-carrier-coverage-reduction-20260704.md`.
+It sharpens the carrier half of admission. A primitive signed event must first
+have same-material carrier support from the Navier-Stokes packet, and those
+carriers must form a parent-known stopped atlas before sign/readout selection.
+Thus `PrimitiveSignedChannelMaterialCarrierSupport.A` plus
+`PrimitiveSignedChannelPreReadoutStoppingAtlas.A` implies
+`PrimitiveSignedChannelStoppedCarrierCoverageOrPaidEscape.A`. Retained
+future-positive edge admission and PLS decomposition inside retained chambers
+remain support because they do not cover negative return, detector-silent, or
+unretained primitive events.
 The signed-height feed of this event-address branch is now explicit in the
 nonselector lift note. Event ownership and address-change payment construct the
 stopped primitive face-address process; that process is useful for Gold only when
