@@ -16,6 +16,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-correct-hilbert-bmo-producer-synthesis-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-source-carrier-to-critical-fresh-source-tent-carleson-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-capacity-goodlambda-weight-tail-equivalence-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-extremal-bad-tree-two-branch-reduction-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-fresh-source-tent-extremal-two-branch-reduction-20260704.md
 completion_truth: >-
   This note does not prove paid rotation or Gold closure. It proves a strict
   reduction: after parent-announced selector capture and the local silent/source
@@ -122,6 +124,33 @@ producer:
 \tag{RPC.6}
 ```
 
+The extremal branch reduction sharpens what `(RPC.6)' physically means. After
+the inherited parent pieces and local consumers are removed, failure of
+`(RPC.6)' is not an abstract tent defect. It is one original material history
+with finite raw fresh mass but infinite selected-critical fresh action. That can
+only appear as repeated reuse of the same material core, or as infinitely many
+shrinking selected cores:
+
+```math
+\text{failure of }\texttt{CriticalFreshSourceTentCarleson.A}
+\Longrightarrow
+\text{reused-core divergence}
+\quad\text{or}\quad
+\text{shrinking-core escape}.
+\tag{RPC.6a}
+```
+
+Thus the nonduplicate producer can be attacked through:
+
+```math
+\texttt{RepeatedCorePositiveVariationRootBound.A}
++
+\texttt{ScaleInvariantSelectedCapacityNoEscape.A}
+\Longrightarrow
+\texttt{CriticalFreshSourceTentCarleson.A / FreshSourceCriticalScaleMemoryBound.A}.
+\tag{RPC.6b}
+```
+
 For each retained stopped root \(P\), this asks that the genuinely fresh
 visible/silent/exchange increments left after spent-source projection,
 selector/reselection payment, silent-source normal form, full-exchange refunds,
@@ -187,3 +216,8 @@ beside the Gold wall. Once parent-announced selector capture has admitted the
 edge before readout, the remaining producer is the selected-critical fresh source
 tent Carleson / scale-memory bound. Proving that bound would pay both
 near-silent service and selector/channel motion for the same retained edge.
+
+The freshest physical form of that producer is the two-branch wall:
+`RepeatedCorePositiveVariationRootBound.A` for repeated same-core selected
+reuse, and `ScaleInvariantSelectedCapacityNoEscape.A` for infinitely many
+shrinking selected unit cores at summable raw cost. Both remain open.
