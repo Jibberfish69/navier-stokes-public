@@ -826,6 +826,14 @@ candidate address labels are charged at their first differing physical
 coordinate, before the event map exists. The overlap branch is therefore reduced
 to a pre-map first-difference theorem on stopped common-selector cells, rather
 than the post-map address-change variation theorem.
+The primitive nonselector coordinate lift reduction is now installed in
+`mpp-forward-gold-primitive-nonselector-coordinate-lift-reduction-20260704.md`.
+It sharpens the coordinate-lift side of the same normalized branch. Once the
+primitive event is admitted to a stopped common-selector chamber, the remaining
+lift splits into three same-chamber jobs: chart/projector lift or paid exit,
+detector/channel lift or paid service, and face/polarity lift or paid return.
+Existing retained-edge and post-map coordinate surfaces remain support until
+they are restated at this primitive chamber level.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
