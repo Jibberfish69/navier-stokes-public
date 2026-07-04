@@ -8,15 +8,18 @@ logical_landing_node: SignedCriticalHeightSignPersistenceOrPeakBound.A
 target_object:
   - PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A
   - PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A
+  - PrimitiveRawActiveStateFirstAddressOrPaidTransition.A
 role: >-
   Separates the easy geometric material-atlas support from the live raw atlas
   theorem. Smooth material dyadic charts give finite overlap at a fixed scale
   and for separated log-scale packets. The open pre-readout burden is active
   scale/collar/projector multiplicity for the whole primitive signed-channel
-  measure, or paid boundary/off-chart/channel-rotation/service loss.
+  measure, now reduced to first active-state address or paid same-packet
+  transition before stopped/selector readout.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-raw-material-channel-formula-fixed-chart-proof-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-pre-readout-material-channelization-partition-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-raw-active-state-first-address-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-same-material-dyadic-packet-overlap-selection-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-shrinking-resolution-on-retained-atlas-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-crossscale-material-atlas-fixed-terminal-gauge-solution-20260622.md
@@ -24,8 +27,10 @@ source_refs:
 completion_truth: >-
   This note does not prove PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A.
   It proves only that ordinary material chart geometry is not the wall. The
-  remaining theorem is active scale/collar/projector multiplicity before
-  stopped/selector readout, with all boundary and off-channel mass paid.
+  remaining theorem is first active scale/collar/projector address before
+  stopped/selector readout, with every later state claim paid as same-packet
+  scale boundary, collar/projector transfer, channel rotation, material service,
+  legal loss, stop, or exit.
 ---
 
 # Primitive raw material channel atlas multiplicity reduction
@@ -201,33 +206,78 @@ packet is real, and a separated same-material packet family can be counted, but
 Gold needs parent-known active-scale custody for every primitive event that the
 later signed-height proof wants to spend.
 
-## 7. Current proof truth
+## 7. First-address sharpening
+
+The active multiplicity theorem has now been sharpened by the first-address
+reduction
+`mpp-forward-gold-primitive-raw-active-state-first-address-reduction-20260704.md`.
+The lower producer is
+
+```math
+\texttt{PrimitiveRawActiveStateFirstAddressOrPaidTransition.A}.
+\tag{RAM.13}
+```
+
+It says that before stopped or selector readout, each primitive signed-channel
+event has one parent-known first active state
+
+```math
+s_0(z)=(j,\psi,\mathbb P_A,\kappa),
+\tag{RAM.14}
+```
+
+or the event is paid, legal, stopped, or exited. Any later active state that
+also claims the same event must be a same-packet parent-announced first-exit
+transition: scale boundary, collar/projector transfer, channel rotation, or
+material service.
+
+Together with the already installed finite-band and maximal first-exit overlap
+support, this gives the strict reduction
+
+```math
+\texttt{PrimitiveRawActiveStateFirstAddressOrPaidTransition.A}
+\Longrightarrow
+\texttt{PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A}.
+\tag{RAM.15}
+```
+
+This is the point where the stopped reset machinery legitimately enters. Reset
+overlap can count active-state changes only after the state being exited has a
+parent-known first address.
+
+## 8. Current proof truth
 
 Installed support:
 
 ```math
 \text{fixed-scale material charts and separated same-material clock packets
 have finite overlap}.
-\tag{RAM.13}
+\tag{RAM.16}
 ```
 
 Strict reduction:
 
 ```math
+\texttt{PrimitiveRawActiveStateFirstAddressOrPaidTransition.A}
+\Longrightarrow
+\texttt{PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A}
+\Longrightarrow
 \texttt{PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A}
 \Longrightarrow
 \texttt{PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A}.
-\tag{RAM.14}
+\tag{RAM.17}
 ```
 
 Still open:
 
 ```math
-\texttt{PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A}.
-\tag{RAM.15}
+\texttt{PrimitiveRawActiveStateFirstAddressOrPaidTransition.A}.
+\tag{RAM.18}
 ```
 
 The physical story is now as simple as this branch allows: the formula on one
 material packet is known; finite overlap for ordinary material charts is known;
-the unpaid work is to choose the active scale/collar/projector atlas before
-readout, or pay every extra claim of the same primitive fluid event.
+finite-band/reset overlap is support after a state exists; the unpaid work is
+to give the same primitive event a first parent-known active
+scale/collar/projector state before readout, or pay every later active-state
+claim as real same-packet motion.
