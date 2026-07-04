@@ -245,10 +245,16 @@ with no trace payment to `TerminalFullPacketNoResiduePayment.A`: identify the
 visible terminal readout with the positive part of the same Hodge-Stokes
 participation packet, then prove a participation-preserving no-residue full-cycle
 payment or the equivalent lossless full-packet compactness-rigidity
-contradiction.  The fresh-potential, positive second-order exactness, and
-terminal Rellich reserve routes count here only as mechanisms for that same
-full-packet payment; otherwise the branch routes through the installed legal,
-endpoint, profile, or CM consumers.
+contradiction.  The transported-selector route proves the conditional algebra but
+not the producer: scalar heat-scale selection fails on anisotropic strain, while
+anisotropic material selection needs same-carrier heat-scale return, viscous
+metric-commutator payment, harmonic-pressure trace payment, signed/selector
+no-loss, and bounded-below combined capacity.  Under current inputs this returns
+to selected full-packet identification plus `FourBodyTerminalTraceAC.A`,
+`StrictFourBodyNoWasteLyapunov.A`, no-free terminal Zeno, or profile production.
+The fresh-potential, positive second-order exactness, and terminal Rellich reserve
+routes count here only as mechanisms for that same full-packet payment; otherwise
+the branch routes through the installed legal, endpoint, profile, or CM consumers.
 
 ## 5. Checked obstruction to shortcut closure
 
