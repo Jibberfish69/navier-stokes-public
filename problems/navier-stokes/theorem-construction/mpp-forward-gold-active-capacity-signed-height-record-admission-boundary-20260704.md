@@ -59,7 +59,31 @@ That is the physical work to be explained. A selected-meter capacity theorem
 helps this event only when its meter is constructed from this same record work,
 in the same parent packet, before the record is read as positive.
 
-## 2. What the active-capacity theorem controls
+## 2. Physical translation before the estimate
+
+The object is one evolving parent packet of fluid, followed through the record
+interval. Transport moves the packet without creating signed height by itself.
+Incompressibility keeps the packet volume-preserving and forces pressure to act
+as a nonlocal constraint, so pressure work is a redistribution of the same
+velocity field rather than new mass or new energy. Viscosity is the only direct
+dissipative payer; it lowers the packet through the \(D(t)\) term and also
+defines the parabolic capacity available at that scale.
+
+The signed-height question is this: when \(H(t)\) makes a new record, did the
+same packet produce a real aligned pressure-current event before viscosity and
+legal stops removed it, or did the apparent positive record come from reading a
+selector after the fact? Scale matters because a very high, very thin record can
+have large instantaneous height without carrying enough time-thickness to pay a
+finite same-fluid charge. Sign matters because the positive selected face is
+only meaningful if its opposite lobe, return channel, or dissipative payment is
+kept in the same physical history.
+
+This is why active capacity has to be record-admitted. The capacity estimate is
+allowed to count only after the selected meter has been tied to the same
+pre-readout record work. Otherwise the theorem may control a legitimate parent
+meter while the signed-height record rises through a different physical channel.
+
+## 3. What the active-capacity theorem controls
 
 The current TFE2748B bottom controls a different-looking object: the positive
 motion of a parent-announced selected meter after raw same-parent atoms and the
@@ -86,7 +110,7 @@ parent packet, viscosity supplies the parent capacity, and the selected meter
 is not allowed to extract positive active potential faster than that capacity
 and a bounded-below reserve can pay.
 
-## 3. The missing Gold bridge
+## 4. The missing Gold bridge
 
 For signed height, `(ASH.3)' must be proved for the record-admitted meter. The
 record-level theorem has two rows.
@@ -142,7 +166,7 @@ Then each thin record pays a finite same-fluid charge, and the signed-height
 record criterion gives peak control. This is exactly the record-admitted use of
 the active-capacity theorem.
 
-## 4. Why freestanding active capacity is not enough
+## 5. Why freestanding active capacity is not enough
 
 A parent selected-meter capacity theorem can be true away from the record
 event. Then it does not pay the scalar work in `(ASH.2)'.
@@ -157,10 +181,9 @@ This is not a Navier-Stokes counterexample. It is the bridge obstruction:
 capacity, storage, atom, and full-exchange words must be attached to the same
 record upcrossing before they can pay that upcrossing.
 
-## 5. Proof-method consequence
+## 6. Proof-method consequence
 
-The right proof search is a minimal thin record argument, not another detached
-positive \(L^1\) estimate.
+The proof search starts from a minimal thin record argument.
 
 Assume a high signed-height record has no scale-aware thickness and no finite
 same-fluid charge. The record work in `(ASH.2)' must then fail one of two
@@ -179,7 +202,7 @@ test sees positive log-meter speed that beats the same packet's parabolic
 capacity after paid exits are removed. That mode is a useful obstruction only
 when it is the mode of the signed-height record.
 
-## 6. Current classification
+## 7. Current classification
 
 Proof installed here: none.
 
