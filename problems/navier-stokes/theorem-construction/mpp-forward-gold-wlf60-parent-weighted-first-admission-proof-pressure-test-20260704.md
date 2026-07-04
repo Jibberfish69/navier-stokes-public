@@ -381,6 +381,34 @@ Without the service-storage / root-geometry input on the first two lines,
 `(WPT.19)' is circular because the active weight or parent geometry has been
 chosen from the selected future tail.
 
+The service-storage input is also not a free word for raw energy, raw freshness,
+selected-forest capacity, or scalar current storage. The checked service-storage
+audits show:
+
+\[
+\begin{array}{c}
+\text{local shell energy storage, raw Bessel freshness,}\\
+\text{selected-forest complete-frame capacity, or scalar current Bellman}
+\end{array}
+\not\Longrightarrow
+\text{bounded-below same-material service storage.}
+\tag{WPT.20}
+\]
+
+The surviving nonterminal form is the original-history root-native reserve
+bound
+
+\[
+\sum_{\gamma\subset P}\rho_\gamma^{fresh}
+\le
+C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P),
+\tag{WPT.21}
+\]
+
+with the selected action admitted into that same parent-built critical capacity
+before child readout. This is the preterminal version of the service/root-geometry
+producer.
+
 On the terminal fixed-core branch, probe admission/update and the material
 metric identity are support inputs. The no-jump clause is paid only by
 root-fixed terminal-uniform \(L^1\) full-packet service storage:
@@ -393,7 +421,7 @@ root-fixed terminal-uniform \(L^1\) full-packet service storage:
 d\mu_P^{end}
 \le
 C(\ell_P)_-\,dtdx+d\lambda_P+dPaid_P ,
-\tag{WPT.20}
+\tag{WPT.22}
 \]
 
 with terminal-uniform \(L^1\) control on the same root history. This is not a
@@ -421,6 +449,12 @@ finite raw square/Bessel mass and infinite selected weighted linear service.
 Failed direct proof: the standard critical estimate closes only the small
 \(\dot H^{1/2}\) packet case and gives no arbitrary-data strict margin.
 
+Checked no-go / obstruction: local shell-energy storage pays positive flux only
+after negative return/service variation is already controlled; raw Bessel
+freshness misses the critical weight; selected-forest capacity is a consumer of
+service storage; scalar-current Bellman storage is false or circular under
+sustained refuel. These remove aliases for the producer rather than proving it.
+
 Strict reduction: WLF.60 reduces to `(WPT.10)'. The stopped
 potential-average face `(WPT.11)' and positive second-order exactness face
 `(WPT.12)' count only when they are proved on the order-locked full-packet
@@ -434,7 +468,7 @@ only when it constructs that original-history payment on the same carrier. The
 current sharpened proof method for `(ODP.160)' is the service-storage /
 root-geometry producer feeding the predictable affine-transition martingale/Bessel
 consumer `(WPT.19)'; the terminal fixed-core survivor reduces to root-fixed
-terminal-uniform service storage `(WPT.20)'.
+terminal-uniform service storage `(WPT.22)'.
 
 Support: Bessel square, route ownership, no-recount, local native admission,
 Schur storage after admission, probe admission/update, terminal no-replay
