@@ -215,7 +215,8 @@ live_route_table:
     selected-overrun tail payment on that carrier. Primitive ownership and no-recount are
     support until selection happens from the recombined full packet before
     positive-part extraction. The terminal branch is obstruction / CM-consumer
-    support after same-witness admission, not a forward WLF supplier.
+    support after same-witness admission; the forward WLF branch remains the
+    order-locked full-packet carrier with selected-overrun tail payment.
     Installed finite-graph payments lower the remaining mismatch branch to
     TerminalZenoVisibleReadoutPayment.A: unweighted same-carrier payment of the
     visible terminal high-factor/source-square/finite-rung/no-waste readout, or
