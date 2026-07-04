@@ -25,6 +25,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-coupled-storage-loop-audit-20260702.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-exchange-no-self-feeding-physical-lyapunov-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-active-potential-terminal-survivor-dichotomy-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-fresh-linear-service-half-tail-obstruction-20260629.md
 completion_truth: >-
   This note proves no storage theorem and no smoothness theorem. It records the
   exact physical obstruction in the current simultaneous-matrix proof attempt:
@@ -214,6 +215,27 @@ this is the storage loop:
 The matrix route closes only if the early branch gets a payer that is earlier
 than critical-source storage.
 
+The older heat-lag/fresh-service audit names the same payer in native first
+admission coordinates. The same-parent detector, Bessel square support,
+no-recount update, and local first-admission native atom are not enough. The
+open upper bound is the selected-critical parent-weighted first-admission pulse
+measure:
+
+\[
+\mu_P^{pw}(P)
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,Visc_{P,N}
++Paid_P,
+\qquad 0<\theta<1 .
+\tag{CME.13}
+\]
+
+This is WLF.60 in the heat-lag slice. It is exactly the early-branch storage
+needed here: a finite original-history measure for all selected first-admission
+sub-heat-lag pulses, with strict viscosity feedback, before future selected
+tail readout is used.
+
 ## 5. The smaller noncircular theorem
 
 The proof has been reduced to one of these exact alternatives.
@@ -227,11 +249,12 @@ d\Xi_P^{early}
 +\theta_0d\Omega_P^{gen}
 +d\Theta_P^0+dPaid_P,
 \qquad C_N\theta_0<1,
-\tag{CME.13}
+\tag{CME.14}
 \]
 
 where \(M_P^{early,0}\) is built from original history before critical-source
-finite excess is used.
+finite excess is used. In heat-lag first-admission coordinates this is the
+selected-critical weighted root upper bound `(CME.13)' / WLF.60.
 
 Second, prove the full matrix `(CME.2)' directly, with the early branch included
 as one row and with spectral radius below one, without first substituting
