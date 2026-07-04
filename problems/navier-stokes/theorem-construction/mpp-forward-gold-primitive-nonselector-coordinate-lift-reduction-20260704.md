@@ -331,3 +331,11 @@ inputs. The remaining PDE producer is
 `PrimitiveChamberFaceLocalSignedChannelConstruction.A`: build the pre-readout
 face fiber of the selector-owned primitive signed channel and prove finite
 same-face negative-return budget from the original same-fluid packet.
+
+The follow-up face-local signed channel construction reduction
+`mpp-forward-gold-primitive-chamber-face-local-signed-channel-construction-reduction-20260704.md`
+proves the formal restriction part of that producer. Given primitive PLS channel
+decomposition and a pre-readout face fiber, the measure
+\(\mathbf 1_{\{\pi_F=F\}}Y_{\kappa,C}\,d\sigma dt\) is the face-local signed
+channel. The remaining open physical input is the finite same-face negative
+return budget for this restricted channel.
