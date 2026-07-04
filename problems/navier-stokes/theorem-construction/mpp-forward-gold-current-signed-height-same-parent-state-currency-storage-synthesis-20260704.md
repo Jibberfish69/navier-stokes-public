@@ -1209,3 +1209,31 @@ that owner map is built, stopped return/BV can be restricted to the owned face
 trace without spending one physical return event on several later selected
 faces.  Until that owner map is built, finite return, chamber BV, reset packing,
 and selected-face bookkeeping remain support.
+
+## 17. Owner map versus charge bound
+
+The current split is now sharper.  Once the pre-return address cells and their
+address-change charge exist, the owner map in `(SCSS.44)' is the formal
+projection of those cells onto the record-positive pieces:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveChannelPreReturnEventAddressMap.A}\\
+&+\texttt{PrimitiveChannelPreReturnAddressChangeCharge.A}
+\end{aligned}
+\Longrightarrow
+\alpha \text{ for the record pieces in }(\text{SCSS.44}).
+\tag{SCSS.51}
+\]
+
+That does not prove Gold closure.  It says the owner variable is no longer a
+separate kind of mystery after the address cells are built.  The proof-sized
+burden is the charge measure \(\Gamma\): it must be finite from the original
+Navier-Stokes history and must pay every carrier escape, selector/chamber
+change, chart/projector transfer, detector/channel rotation, face-trace
+boundary, return re-entry, and selected-critical root weight before the record
+readout spends the event.
+
+Thus a future Gold move has force only by proving one part of that
+original-history charge, or by showing that the charge cannot be made finite
+for the same record event.  A finite owner atlas without the charge is support.
