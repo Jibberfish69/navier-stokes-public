@@ -1608,19 +1608,14 @@ The noncircular source split is `BeforeClippingActiveDensityComparison.A` plus
 with strict subunit feedback.  WLF.60 is the early-branch / heat-lag
 first-admission coordinate of this same obstruction.
 
-The selected full-packet branch is absorbed below that current bottom.  The
-proved part is order-locked scalarization before positive-part extraction.  The
-false shortcut is direct channel-first native-source identification: a smooth
-affine incompressible core can have a positive convection lobe exactly canceled
-by pressure in the full packet.  The exact remaining residue is the same-edge
-order-lock overlap \(\Delta^{ol}=\min([n]_+,[-b]_+)\), a strict reduction to
-selected-density gain or retained same-packet four-body overlap.  On the
-four-body branch, terminal time/storage is attached to the retained heat-scale
-material annular stress/strain return record; loss of that return record lands
-as Part-side/CM boundary.  Transported-selector, four-body no-waste,
-fresh-potential, positive second-order, terminal Rellich, no-free Zeno, and
-profile routes are support unless they prove this order-locked full-packet /
-overlap-payment package from the original coupled packet.
+The selected full-packet branch is no longer a separate current bottom.  Its
+proved content is support for the same state/currency/storage package:
+order-locked scalarization before positive-part extraction is an algebraic
+consumer, and direct channel-first native-source identification is false.  The
+remaining overlap, four-body, selected-density, terminal time/storage, Rellich,
+no-free Zeno, transported-selector, and profile routes count only if they attach
+to the same pre-readout signed-height record event and prove one row of
+`(SCSS.63)' or the same-carrier WLF.60 key from original history.
 
 ## 25. WLF.60 and source payment are one early-row reading
 
