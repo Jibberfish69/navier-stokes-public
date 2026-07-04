@@ -7,16 +7,22 @@ route: forward-gold signed-critical-height / primitive event address custody
 logical_landing_node: SignedCriticalHeightSignPersistenceOrPeakBound.A
 target_object:
   - StoppedPrimitiveFaceAddressProcess.A
+  - StoppedPrimitivePreReturnFaceTraceAddressProcess.A
   - PrimitiveChannelEventAddressMap.A
+  - PrimitiveChannelPreReturnEventAddressMap.A
   - PrimitiveChannelAddressChangeVariationCharge.A
+  - PrimitiveChannelPreReturnAddressChangeCharge.A
 role: >-
   Tests whether the installed retained-edge custody surfaces construct the
   stopped primitive face-address process. They do not: they are edge-indexed.
   The process requires an event-indexed address map on the primitive signed
   channel measure, plus finite paid variation for address changes of the same
-  packet before selected readout.
+  packet before selected readout. The trace-before-return refinement splits this
+  into a pre-return face-trace address process first, with same-face return
+  recovered only after that process exists.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-primitive-face-address-process-unification-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-trace-address-process-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-pre-readout-custody-tuple-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admission-no-detachment-modulus-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-stopped-primitive-channel-admission-lower-face-reduction-20260703.md
@@ -28,9 +34,12 @@ completion_truth: >-
   This note does not prove StoppedPrimitiveFaceAddressProcess.A. It reduces it
   to two lower physical producers: an event-level pre-readout address map on the
   primitive channel measure and a finite original-history charge for address
-  changes. The checked obstruction is that current sources prove custody and
-  payment for retained record edges or after parent-known selection, not for all
-  primitive channel events before selected-face counting.
+  changes. The stricter noncircular reading is now pre-return: first build
+  StoppedPrimitivePreReturnFaceTraceAddressProcess.A from a pre-return event map
+  and pre-return address-change charge, then use stopped return/BV to recover
+  same-face negative return. The checked obstruction is that current sources
+  prove custody and payment for retained record edges or after parent-known
+  selection, not for all primitive channel events before selected-face counting.
 ---
 
 # Stopped primitive face-address process event-map reduction
@@ -205,3 +214,41 @@ Proving those two statements would construct the stopped primitive face-address
 process. Without them, the repo has coherent edge-custody support and real
 payment currencies, but it still lacks the event-level owner map that stops one
 same-packet primitive return from being spent on many selected faces.
+
+## 6. Trace-before-return refinement
+
+For the same-face return budget, `(EM.11)' must be read in a stricter order.
+The proof cannot use full face/polarity return to build the address map, because
+same-face return already needs a stopped face owner.
+
+The noncircular lower object is:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveChannelPreReturnEventAddressMap.A}\\
+&+\texttt{PrimitiveChannelPreReturnAddressChangeCharge.A}
+\end{aligned}
+\Longrightarrow
+\texttt{StoppedPrimitivePreReturnFaceTraceAddressProcess.A}.
+\tag{EM.12}
+\]
+
+This process owns the primitive event by stopped carrier, common selector,
+chart/projector, detector/channel, and pre-readout face trace, and it pays
+pre-return address changes without using the same-face negative-return budget.
+Only after `(EM.12)' exists can the return/BV currency be restricted to those
+face traces:
+
+\[
+\begin{aligned}
+&\texttt{StoppedPrimitivePreReturnFaceTraceAddressProcess.A}\\
+&+\texttt{StoppedReturnBVFiniteFromOriginalData.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberSameFaceNegativeReturnBudget.A}.
+\tag{EM.13}
+\]
+
+The full stopped primitive face-address process is therefore downstream of this
+pre-return process plus same-face return payment. Edge custody remains support
+until it produces the pre-return process on the primitive signed-channel measure.
