@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-selector-capture-finite-score-scope-audit-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-stopped-primitive-channel-admission-lower-face-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-stopped-carrier-coverage-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-carrier-common-selector-ownership-reduction-20260704.md
 completion_truth: >-
   This note does not prove primitive event common-selector chamber admission. It
   proves a strict reduction: admission follows if the primitive signed-channel
@@ -110,6 +111,25 @@ order-lock, sign/polarity convention, and primitive-channel alphabet fixed; or
 the selector drift, future argmax, tie gap, order-lock loss, collar loss,
 reselection loss, legal stop, material service, or exit is already paid.
 
+The follow-up common-selector ownership reduction
+`mpp-forward-gold-primitive-stopped-carrier-common-selector-ownership-reduction-20260704.md`
+sharpens `(ECA.4)'. The stopped carrier needs its own parent-known finite common
+selector menu and a same-carrier selector/channel lock:
+
+\[
+\texttt{PrimitiveStoppedCarrierFiniteCommonSelectorMenu.A}
++
+\texttt{PrimitiveStoppedCarrierSelectorChannelLockOrPaidReselection.A}
+\Longrightarrow
+\texttt{PrimitiveStoppedCarrierCommonSelectorOwnershipOrPaidReselection.A}.
+\tag{ECA.4a}
+\]
+
+Retained-edge selector capture and finite stopped-score payment are support
+only here because they act after a future-positive edge or an order-locked
+selector chart is already known. They do not by themselves assign an owner to
+every primitive stopped carrier before PLS readout.
+
 ## 3. Strict reduction
 
 Assume `(ECA.3)' and `(ECA.4)'. On the survivor set of `(ECA.3)', every primitive
@@ -191,6 +211,6 @@ known before readout.
 
 This is a strict reduction and scope obstruction, not proof of admission. The
 carrier-coverage half is now reduced to same-material primitive carrier support
-plus a pre-readout stopped carrier atlas. The second admission half remains
-common-selector ownership for each surviving stopped carrier before the
-primitive PLS channel is read.
+plus a pre-readout stopped carrier atlas. The common-selector half is reduced to
+a primitive stopped-carrier finite common-selector menu plus same-carrier
+selector/channel lock before the primitive PLS channel is read.

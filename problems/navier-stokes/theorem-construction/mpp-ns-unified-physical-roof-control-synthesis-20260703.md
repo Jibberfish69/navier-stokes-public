@@ -881,6 +881,18 @@ Thus `PrimitiveSignedChannelMaterialCarrierSupport.A` plus
 future-positive edge admission and PLS decomposition inside retained chambers
 remain support because they do not cover negative return, detector-silent, or
 unretained primitive events.
+The primitive stopped-carrier common-selector ownership reduction is now
+installed in
+`mpp-forward-gold-primitive-stopped-carrier-common-selector-ownership-reduction-20260704.md`.
+It sharpens the selector half of admission. Each surviving stopped carrier must
+have a parent-known finite common-selector menu, and one active selector must
+lock the carrier's sign/polarity/channel alphabet or pay reselection, tie,
+drift, service, stop, legal, or exit before PLS readout. Thus
+`PrimitiveStoppedCarrierFiniteCommonSelectorMenu.A` plus
+`PrimitiveStoppedCarrierSelectorChannelLockOrPaidReselection.A` implies
+`PrimitiveStoppedCarrierCommonSelectorOwnershipOrPaidReselection.A`. Retained
+edge selector capture and finite stopped-score support remain support because
+they act after an edge or selector chart has already been captured.
 The signed-height feed of this event-address branch is now explicit in the
 nonselector lift note. Event ownership and address-change payment construct the
 stopped primitive face-address process; that process is useful for Gold only when
