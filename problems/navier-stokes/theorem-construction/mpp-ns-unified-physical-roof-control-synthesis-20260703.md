@@ -484,11 +484,14 @@ It puts this visibility wall under one physical roof:
 detector lemma or a clipping/counting theorem. For one retained future-positive
 signed-height edge before readout, the nonduplicate producer classes are
 parent-announced selector capture, same-packet \(C^{1,1}\) metric tower-or-exit
-for the exact projector, and record-admitted selected-critical
+for the exact projector, and pre-entrance original-history selected-critical
 fresh-source/scale-memory payment for detector-silent service and
-projector/selector rotation. Active/full-exchange coupled storage is downstream
-after entrance; it is not evidence that the edge entered parent
-root/full-exchange currency.
+projector/selector rotation. The selected-critical payment noncircularity audit
+`mpp-forward-gold-root-projection-selected-critical-payment-noncircularity-audit-20260704.md`
+blocks the circular use of record-admitted depletion/reset/storage as this
+input: those theorems consume root projection after entrance. Active/full-exchange
+coupled storage is downstream after entrance; it is not evidence that the edge
+entered parent root/full-exchange currency.
 The fresh-source tent extremal reduction makes the physical shape explicit:
 after inherited parent pieces and local consumers are removed, the bad object is
 one original history with finite raw fresh mass but infinite selected-critical

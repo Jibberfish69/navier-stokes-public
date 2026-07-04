@@ -143,7 +143,7 @@ spatial \(C^{1,1}\)/symbol tower for the same retained high packet, or a paid
 chart/legal/stop/material-service exit. Standard dyadic parametrix calculus is
 downstream of this license.
 
-Third, record-admitted selected-critical source/scale-memory payment:
+Third, pre-entrance original-history selected-critical service payment:
 
 \[
 \texttt{CriticalFreshSourceTentCarleson.A}
@@ -152,9 +152,10 @@ Third, record-admitted selected-critical source/scale-memory payment:
 \tag{RPCf.5}
 \]
 
-used only in record-admitted form. This producer pays the detector-silent or
-near-silent service and the projector/selector channel rotation after the
-selector has captured the same retained edge. Its physical branch forms are:
+used as an independent pre-readout reserve. This producer pays the
+detector-silent or near-silent service and the projector/selector channel
+rotation after the selector has captured the same retained edge, and before root
+projection can count that edge. Its physical branch forms are:
 
 \[
 \texttt{RepeatedCorePositiveVariationRootBound.A}
@@ -163,16 +164,20 @@ selector has captured the same retained edge. Its physical branch forms are:
 \tag{RPCf.6}
 \]
 
-with the signed-height custody correction that the shrinking/reset side must be
-record-admitted. The repeated-core side is record/return: the same material core
-is used again and again, so record growth must be balanced by negative return.
-The shrinking-core side is reset/depletion: the packet is reselected at smaller
+read in their independent original-history form. The repeated-core side is
+record/return: the same material core is used again and again, so record growth
+must be balanced by negative return before the root edge is admitted. The
+shrinking-core side is reset/depletion: the packet is reselected at smaller
 scale, so the critical weight must come from original-history scale memory
-before child/readout selection.
+before child or record readout.
 
 `RecordAdmittedActiveFullExchangeCoupledStorage.A` is downstream of entrance.
 It stores record-admitted active/full-exchange currency after the edge is
 visible. It is not evidence that the edge was visible in the first place.
+The 2026-07-04 selected-critical payment noncircularity audit sharpens this
+point: record-admitted depletion/reset/storage cannot be used as the
+root-projection input because record admission already assumes entrance into
+parent currency.
 
 ## 5. Strict reduction
 
@@ -182,7 +187,7 @@ The honest reduction is
 \begin{aligned}
 &\texttt{RetainedRecordEdgeParentAnnouncedSelectorCapture.A}\\
 &+\texttt{RetainedRecordEdgeC11MetricTowerOrExit.A}\\
-&+\text{record-admitted }
+&+\text{pre-entrance original-history }
   \bigl(\texttt{CriticalFreshSourceTentCarleson.A}
   /\texttt{FreshSourceCriticalScaleMemoryBound.A}\bigr)\\
 &\Longrightarrow
@@ -194,9 +199,10 @@ The honest reduction is
 \]
 
 Here the third line includes the repeated-core record/return branch and the
-record-admitted shrinking-reset/scale-native depletion branch. It is not a new
-detached theorem label; it is the physical source payment needed for silent
-service and selector/projector rotation on the same retained record edge.
+shrinking-reset/scale-native branch only in their independent pre-entrance
+form. It is not a downstream storage theorem; it is the physical source payment
+needed for silent service and selector/projector rotation on the same retained
+record edge before root projection is proved.
 
 Once `(RPCf.7)' lands, the existing downstream route is lawful:
 
@@ -224,7 +230,7 @@ entrance theorem.
 
 The work still open is to prove that the actual future-positive retained
 signed-height edge has, before readout, the parent-announced selector, the
-retained exact-projector chart or paid exit, and the record-admitted
+retained exact-projector chart or paid exit, and the pre-entrance
 selected-critical payment needed for silent/rotation service; or else prove that
 failure of one of those three producers is already legal, stopped,
 material-service paid, or a CM Pack/Part/Field exit.
