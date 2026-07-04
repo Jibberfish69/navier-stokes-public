@@ -171,10 +171,11 @@ C\|F\|^2 .
 
 The obstruction is exact: if \(H_{e^-}\) is chosen after seeing
 \(\Pi_e^{fresh}F_e\), `(9)` is false and the selector has smuggled the future
-selected tail into the weight.  If \(H_{e^-}\) is genuinely parent-predictable,
-the weighted fresh innovations square-pack.
+selected tail into the weight. If \(H_{e^-}\) is parent-predictable, the proof
+has only passed the causality gate. The weighted square-packing still requires
+the selected-critical weight to have original-history Carleson density.
 
-Thus the next theorem is:
+Thus the causality support theorem isolated by the old pass is:
 
 \[
 \texttt{StoppedSelectorPredictableWeight.A}
