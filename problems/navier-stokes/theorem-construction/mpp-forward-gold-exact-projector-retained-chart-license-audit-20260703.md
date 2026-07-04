@@ -198,6 +198,10 @@ The admission bridge itself is now sharpened: Hodge/material-service sources
 give same-packet pressure/strain identity, while the sign and timing inputs are
 coupled through the stopped selector cone in
 `RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A`.
+That coupled object now splits into `RecordMenuPressureActiveOrSilentService.A`,
+`RetainedRecordEdgeCommonSelectorRefinementNoLoss.A`, and
+`RetainedRecordEdgePrimitiveChannelCompatibility.A`; stopped selector cone
+aperture is consumed support after common-selector refinement.
 
 ## 4. Obstruction state
 
