@@ -970,3 +970,109 @@ and the upper selected positive queue are one selected native carrier, and then
 whether the selected overrun on that carrier is paid. Same-material support,
 stopped carrier coverage, and common-selector ownership are therefore necessary
 physical custody, not WLF.60 closure.
+
+## 14. Whole-object consolidation from the primitive descent
+
+The primitive descent does not create a new bottom. It re-expresses the same
+signed-height record event at event resolution.
+
+The local formula side is now settled as support: on a fixed smooth material
+chart, the primitive raw channel is a finite expression of the original
+Navier-Stokes participation law, pressure elliptic constraint, material
+transport, viscosity, collar motion, and Hodge/projector motion. That proves a
+local formula, not an all-event partition.
+
+The all-event carrier side has been reduced back to the parent active-state
+wall:
+
+\[
+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}
+\Longrightarrow
+\texttt{PrimitiveRawActiveStateFirstAddressOrPaidTransition.A}
+\Longrightarrow
+\texttt{PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A}
+\Longrightarrow
+\texttt{PrimitiveSignedChannelPreReadoutMaterialChannelizationPartition.A}.
+\tag{SCSS.38}
+\]
+
+So raw charts, finite-band reset overlap, and retained material atlases are
+support unless they construct the parent-known active state of the same coupled
+packet before readout.
+
+The face-return side has also been reduced without changing the object. The
+event map must first build a pre-return face-trace address process:
+
+\[
+\texttt{PrimitiveChannelPreReturnEventAddressMap.A}
++
+\texttt{PrimitiveChannelPreReturnAddressChangeCharge.A}
+\Longrightarrow
+\texttt{StoppedPrimitivePreReturnFaceTraceAddressProcess.A}.
+\tag{SCSS.39}
+\]
+
+Only after that trace-address process exists may the proof spend stopped return:
+
+\[
+\texttt{StoppedPrimitivePreReturnFaceTraceAddressProcess.A}
++
+\texttt{StoppedReturnBVFiniteFromOriginalData.A}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberSameFaceNegativeReturnBudget.A}.
+\tag{SCSS.40}
+\]
+
+Thus same-face return is not an input to event ownership. It is a consequence of
+owning positive and negative primitive events by the same pre-readout face trace.
+This blocks the circular reading in which full face/polarity return constructs
+the event map that the return budget itself requires.
+
+The selector/admission side is the same order at carrier level:
+
+\[
+\texttt{PrimitiveSignedChannelStoppedCarrierCoverageOrPaidEscape.A}
++
+\texttt{PrimitiveStoppedCarrierCommonSelectorOwnershipOrPaidReselection.A}
+\Longrightarrow
+\texttt{PrimitiveEventStoppedCommonSelectorChamberAdmissionOrPaidEscape.A}.
+\tag{SCSS.41}
+\]
+
+Retained-edge selector capture, finite stopped-score support, and PLS formulas
+inside already retained chambers are support until they cover primitive events
+of both signs before readout.
+
+Therefore the current Gold frontier is simpler than the list of lower labels.
+All live primitive labels are tests of one same object:
+
+\[
+\begin{array}{c}
+\text{the same signed-height record work}\\
+\text{inside one parent-known active state}\\
+\text{with selected-critical root currency}\\
+\text{and record-admitted full-exchange storage,}\\
+\text{all before selected readout.}
+\end{array}
+\tag{SCSS.42}
+\]
+
+Equivalently, the primitive descent has absorbed the latest route leaves into
+the existing package
+
+\[
+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}
++
+\texttt{OriginalHistoryRecordResetRootPayment.A}
++
+\texttt{RecordAdmittedActiveFullExchangeCoupledStorage.A}.
+\tag{SCSS.43}
+\]
+
+This is not a proof of that package. It solves the duplication problem in the
+current Gold route: primitive material channelization, raw active-state first
+address, stopped common-selector admission, pre-return face-address process, and
+same-face return budget are not sibling frontiers. They are local projections
+and noncircular order checks for the same parent state/currency/storage package.
+The remaining theorem is to construct that package from the original
+pressure-viscosity-incompressibility-velocity history of the same packet.
