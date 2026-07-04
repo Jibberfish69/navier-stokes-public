@@ -34,6 +34,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-exchange-no-self-feeding-physical-lyapunov-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-storage-matrix-early-branch-obstruction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-same-carrier-identity-primitive-channel-boundary-20260704.md
 completion_truth: >-
   This note proves no Navier-Stokes smoothness theorem and no new estimate. It
   records a strict physical consolidation and priority test: the current route
@@ -330,6 +331,29 @@ this identity may pay the right kind of selected-critical carrier for the wrong
 record piece.  Thus the current obstruction is not another address lemma or
 another root-payment lemma; it is the original-history construction that makes
 the local pre-return event key and the active/root carrier key coincide.
+
+In WLF.60 coordinates this identity has the sharper same-carrier form:
+
+\[
+\begin{aligned}
+&C_P(z)=\pi_{\rm act/root}\Xi(z)\\
+&\Longrightarrow
+\text{the lower fresh source and upper selected positive queue are read}\\
+&\qquad\text{from the same order-locked full-packet carrier,}\\
+&\qquad\text{with same-packet overlap and selected overrun paid there.}
+\end{aligned}
+\tag{SFP.12d}
+\]
+
+The checked mismatch-evacuation alternatives are exactly the physical boundary:
+a retained lower-source / upper-queue mismatch must be identified with that
+order-locked full-packet carrier, paid earlier as legal/reselection/donor/support
+charge, or forced into the selected terminal source-curve atom before WLF.60 may
+use it.  The terminal branch is not a new forward Gold supplier.  After the
+installed endpoint and full-packet consumer reductions, it returns to the
+terminal selected-atom / active-full-exchange producer.  On the identity branch,
+the surviving forward Gold product is same-carrier selected-overrun tail payment
+on \(C_P\).
 
 `RecordMenuRootProjectionFaithfulness.A` is the entrance gate into that object.
 Its currently exposed lower proof pressure is
