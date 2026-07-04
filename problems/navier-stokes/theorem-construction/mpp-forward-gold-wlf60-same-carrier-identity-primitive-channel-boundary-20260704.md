@@ -223,7 +223,7 @@ three outcomes before WLF.60 can use it:
 
 \[
 \begin{array}{ll}
-\text{identified:} & \text{the mismatch is the selected positive native carrier;}\\
+\text{identified:} & \text{the mismatch is the order-locked full-packet selected carrier;}\\
 \text{paid earlier:} & \text{it is legal, reselection, donor-chain, or support charge;}\\
 \text{terminal:} & \text{it becomes the selected terminal source-curve atom.}
 \end{array}

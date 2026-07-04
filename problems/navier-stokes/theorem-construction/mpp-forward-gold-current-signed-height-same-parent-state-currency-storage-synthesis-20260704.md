@@ -388,9 +388,9 @@ and raw Bessel admission prove the pulse is same-parent and counted once, while
 the signed-height use still needs the weighted root upper bound. In the current
 carrier-key reading, the smaller theorem is order-locked full-packet carrier
 admission for the lower fresh source and upper selected positive queue, with
-same-packet order-lock overlap and selected-overrun tail UI paid there. Stopped
-potential-average control and positive second-order scale exactness are analytic
-faces of that same carrier key.
+same-packet order-lock overlap and selected-overrun tail payment paid there.
+Stopped potential-average control and positive second-order scale exactness are
+analytic faces of that same carrier key.
 
 The source-checked lower split is:
 
@@ -1542,10 +1542,10 @@ pushforward, and local first-admission native atoms.  The half-tail model shows
 that those support facts do not imply the selected-critical parent-weighted root
 upper bound.  The smaller noncircular theorem is order-locked full-packet carrier
 admission for the lower fresh source and upper selected positive queue, with
-same-packet order-lock overlap and selected-overrun tail UI paid on that carrier.
-Stopped potential-average control and positive second-order scale exactness are
-analytic faces of that same carrier key, not independent sibling exits.  This is
-a strict reduction and a checked
+same-packet order-lock overlap and selected-overrun tail payment paid on that
+carrier.  Stopped potential-average control and positive second-order scale
+exactness are analytic faces of that same carrier key, not independent sibling
+exits.  This is a strict reduction and a checked
 obstruction, not Gold closure.
 
 ## 24. WLF.60 has one carrier key
