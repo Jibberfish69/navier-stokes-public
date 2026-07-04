@@ -20,6 +20,7 @@ role: >-
   pre-return trace-address process.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-trace-address-process-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-boundary-charge-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-channel-address-change-variation-charge-split-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selector-stratum-crossing-bv-closure-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admission-no-detachment-modulus-reduction-20260704.md
@@ -95,6 +96,23 @@ The face-trace charge says that leaving the pre-readout face trace is paid by
 face detachment, local thickness loss, trace-boundary service, legal loss, stop,
 or exit. It does not include same-face negative return.
 
+The face row is further reduced at the same physical level:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberFaceTraceFiberOrPaidDetachment.A}\\
+&+\texttt{PrimitivePreReturnFaceTraceNoDetachmentModulus.A}\\
+&+\texttt{PrimitivePreReturnFaceTraceLocalThicknessBoundaryCharge.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitivePreReturnFaceTraceBoundaryCharge.A}.
+\tag{PRAC.2a}
+\]
+
+This says that the same primitive event must first have a face trace, then keep
+that trace without unpaid detachment, and keep enough local carrier thickness
+for the trace to be a physical face rather than a post-readout label.
+
 ## 3. Conditional proof
 
 Assume the four lower charges in `(PRAC.2)'. Along the stopped history of one
@@ -144,9 +162,11 @@ selector/channel rotation both consume the selected-critical fresh source tent
 or scale-memory bound. It does not prove that bound; the repeated-core and
 shrinking-core branches remain open.
 
-The no-detachment and local-thickness notes name the right face boundary
-currencies for a retained record edge. They do not yet prove face-trace boundary
-charge for every primitive event before same-face return is available.
+The primitive pre-return face-trace boundary reduction splits the face row into
+face fiber, trace no-detachment, and local trace thickness/boundary charge. The
+current no-detachment and local-thickness notes name the right face boundary
+currencies for a retained record edge, but they do not yet prove those three
+inputs for every primitive chamber event before same-face return is available.
 
 Thus the old full address-change split remains downstream support. Its
 face/polarity row uses same-face compactness and return ownership. The pre-return
