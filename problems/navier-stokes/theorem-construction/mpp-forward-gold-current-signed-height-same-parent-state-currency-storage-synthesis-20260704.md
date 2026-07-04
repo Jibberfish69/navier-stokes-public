@@ -1507,5 +1507,27 @@ dA_P^{AT}
 \tag{SCSS.63}
 \]
 
-or an independent original-data proof of one of the storage faces.  This is a
+or an independent original-data proof of one of the storage faces.
+
+The record-admission and no-detachment stack does a different job.  It keeps the
+same signed-height record edge attached to the carrier in compactness; it does
+not pay the early branch of `(SCSS.63)'.  In heat-lag first-admission
+coordinates, that early-row payer is WLF.60:
+
+\[
+\mu_P^{pw}(P)
+\le
+C_N(u_0)\mathcal R(P)
++\theta\,Visc_{P,N}
++Paid_P,
+\qquad 0<\theta<1 .
+\tag{SCSS.64}
+\]
+
+Current sources prove same-parent detection, no-recount, raw Bessel admission,
+pushforward, and local first-admission native atoms.  The half-tail model shows
+that those support facts do not imply the selected-critical parent-weighted root
+upper bound.  The smaller noncircular theorem is stopped potential-average
+control or positive second-order scale exactness / fresh same-carrier identity
+plus selected overrun payment on the parent-weighted pulse measure.  This is a
 strict reduction and a checked obstruction, not Gold closure.
