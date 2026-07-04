@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-parent-source-payment-package-unification-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-capacity-signed-height-record-admission-boundary-20260704.md
 completion_truth: >-
   This note proves no new estimate. It records a checked strict reduction:
   raw same-parent pressure-Hodge atoms and retained opposite-lobe reserve are
@@ -177,3 +178,10 @@ active-capacity/full-exchange storage.
 Thus the older names are not six renewed bottom targets. They are dialects and
 support faces of the same same-parent source story. The current checked bottom
 is the active potential/capacity question above.
+
+After the signed-height restart, this active-capacity object is not the
+primitive Gold finish line by itself. It has Gold force only in record-admitted
+form: the selected meter controlled by TFE2748B.1343 / TFE2748B.1393 /
+TFE2748B.1555 must be the parent-announced meter of the same signed-height
+record upcrossing before readout. That boundary is recorded in
+`mpp-forward-gold-active-capacity-signed-height-record-admission-boundary-20260704.md`.
