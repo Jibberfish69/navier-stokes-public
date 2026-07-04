@@ -588,7 +588,7 @@ The service/root-geometry phrase has now been tightened by the checked
 service-storage audits. Local shell energy, raw Bessel freshness,
 selected-forest complete-frame capacity, scalar current Bellman storage, probe
 admission/update, and interior active graph coercivity are support or no-go
-tests. The strict producer is original-history root-native reserve before
+tests. The strict producer is original-history active/root payment before
 readout, read in two coordinates: parent-known fresh generator/root-reserve
 packing and parent-weighted first-admission pulse measure `(WLF.60)' /
 `(WLF.36)' from the original coupled packet before child clipping. Selected-density entropy,
