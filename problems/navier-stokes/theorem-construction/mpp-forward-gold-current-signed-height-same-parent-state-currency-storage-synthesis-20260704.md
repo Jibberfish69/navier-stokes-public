@@ -1608,10 +1608,10 @@ The noncircular source split is `BeforeClippingActiveDensityComparison.A` plus
 with strict subunit feedback.  WLF.60 is the early-branch / heat-lag
 first-admission coordinate of this same obstruction.
 
-The selected full-packet branch is no longer a separate current bottom.  Its
-proved content is support for the same state/currency/storage package:
+The selected full-packet branch now sits inside the same
+state/currency/storage package.  Its proved content is support:
 order-locked scalarization before positive-part extraction is an algebraic
-consumer, and direct channel-first native-source identification is false.  The
+consumer, while direct channel-first native-source identification fails.  The
 remaining overlap, four-body, selected-density, terminal time/storage, Rellich,
 no-free Zeno, transported-selector, and profile routes count only if they attach
 to the same pre-readout signed-height record event and prove one row of
