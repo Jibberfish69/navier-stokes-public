@@ -944,6 +944,18 @@ first active state, and make every later active-state claim a paid same-packet
 transition, legal loss, stop, or exit. This implies
 `PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A`, then
 `PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A`.
+The primitive raw active-state parent-capacity reduction is now installed in
+`mpp-forward-gold-primitive-raw-active-state-parent-capacity-reduction-20260704.md`.
+It puts first active-state address under the same parent active-state
+capacity/deletion wall used by the record-source and scale-native depletion
+rows. The coupled packet state, consisting of the material metric, pressure-Hodge
+projector frame, stress coefficient, collar, turnstile/exchange, and admitted
+current, must carry a parent-known active state space before readout. Its
+primitive face assigns the first scale/collar/projector address; its deletion
+face pays later state transitions. Thus
+`ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A` implies
+`PrimitiveRawActiveStateFirstAddressOrPaidTransition.A`, then the raw atlas
+finite-overlap theorem.
 The primitive stopped-carrier common-selector ownership reduction is now
 installed in
 `mpp-forward-gold-primitive-stopped-carrier-common-selector-ownership-reduction-20260704.md`.
