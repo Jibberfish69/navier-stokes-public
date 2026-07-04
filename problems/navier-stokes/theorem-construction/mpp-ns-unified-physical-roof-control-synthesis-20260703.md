@@ -477,6 +477,18 @@ paid-rotation suppliers are consumers of
 This is the original-history selected-critical tent/scale-memory bound that
 inserts the missing weight before the future selected tail; without it the same
 half-tail defeats silent-service reserve and selector-motion payment alike.
+The root-projection producer classification is now installed in
+`mpp-forward-gold-record-menu-root-projection-faithfulness-producer-classification-20260704.md`.
+It puts this visibility wall under one physical roof:
+`RecordMenuRootProjectionFaithfulness.A` is a same-edge entrance theorem, not a
+detector lemma or a clipping/counting theorem. For one retained future-positive
+signed-height edge before readout, the nonduplicate producer classes are
+parent-announced selector capture, same-packet \(C^{1,1}\) metric tower-or-exit
+for the exact projector, and record-admitted selected-critical
+fresh-source/scale-memory payment for detector-silent service and
+projector/selector rotation. Active/full-exchange coupled storage is downstream
+after entrance; it is not evidence that the edge entered parent
+root/full-exchange currency.
 The fresh-source tent extremal reduction makes the physical shape explicit:
 after inherited parent pieces and local consumers are removed, the bad object is
 one original history with finite raw fresh mass but infinite selected-critical
