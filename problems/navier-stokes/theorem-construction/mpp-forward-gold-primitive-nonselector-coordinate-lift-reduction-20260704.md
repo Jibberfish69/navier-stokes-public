@@ -338,4 +338,11 @@ proves the formal restriction part of that producer. Given primitive PLS channel
 decomposition and a pre-readout face fiber, the measure
 \(\mathbf 1_{\{\pi_F=F\}}Y_{\kappa,C}\,d\sigma dt\) is the face-local signed
 channel. The remaining open physical input is the finite same-face negative
-return budget for this restricted channel.
+return budget for this restricted channel. The follow-up same-face negative-return
+budget reduction
+`mpp-forward-gold-primitive-chamber-same-face-negative-return-budget-reduction-20260704.md`
+then identifies the physical source of that budget: stopped event-level
+face-address ownership plus same-channel stopped return/BV. Thus the face side
+is not asking for another scalar BV account; it is asking the event-address
+branch to own each returning primitive event on the same pre-readout face before
+the return is counted.

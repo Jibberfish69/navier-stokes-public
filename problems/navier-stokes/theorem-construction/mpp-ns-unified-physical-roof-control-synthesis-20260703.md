@@ -892,6 +892,18 @@ It proves the formal restriction part: once the primitive PLS channel and
 pre-readout face fiber exist, \(\mathbf 1_{\{\pi_F=F\}}Y_{\kappa,C}\,d\sigma dt\)
 is the face-local signed channel. The remaining Gold-facing physical budget is
 `PrimitiveStoppedChamberSameFaceNegativeReturnBudget.A`.
+The primitive chamber same-face negative-return budget reduction is now
+installed in
+`mpp-forward-gold-primitive-chamber-same-face-negative-return-budget-reduction-20260704.md`.
+It makes that budget physical: a negative event of the selector-owned primitive
+signed channel must have a stopped face address before it is spent, and the
+same channel must carry the original-history stopped return/BV currency.
+Conditionally,
+`StoppedPrimitiveFaceAddressProcess.A` plus
+`StoppedReturnBVFiniteFromOriginalData.A` gives
+`PrimitiveStoppedChamberSameFaceNegativeReturnBudget.A`; scalar or chamber BV
+remains support because it can still pay the wrong face or duplicate one return
+event across several faces.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding

@@ -197,4 +197,8 @@ separates the formal and PDE parts of `(FPL.12)'. Once the face fiber is
 pre-readout measurable, the signed measure
 \(\mathbf 1_{\{\pi_F=F\}}Y_{\kappa,C}\,d\sigma dt\) is formal. The remaining
 analytic burden is
-`PrimitiveStoppedChamberSameFaceNegativeReturnBudget.A`.
+`PrimitiveStoppedChamberSameFaceNegativeReturnBudget.A`. The follow-up
+same-face negative-return budget reduction lowers that burden to stopped
+event-level face-address ownership plus the same-channel stopped return/BV
+currency; the open producer is therefore event ownership for the primitive
+signed-channel return, not chamber-level negative variation.

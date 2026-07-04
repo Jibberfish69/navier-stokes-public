@@ -22,13 +22,15 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-face-local-signed-channel-primitive-ownership-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-face-primitive-channel-trace-return-budget-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-face-signed-channel-localization-proof-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-same-face-negative-return-budget-reduction-20260704.md
 completion_truth: >-
   This note does not prove the same-face negative-return budget from Navier-Stokes.
   It proves the formal construction part: once the primitive signed-channel
   density is installed on an admitted stopped chamber and the face fiber is
   pre-readout measurable, the face-local signed measure is just the restriction
-  of that signed channel to the face fiber. The remaining open theorem is the
-  finite original-data budget for the negative part on the same face.
+  of that signed channel to the face fiber. The follow-up same-face negative
+  return note reduces the remaining budget to event-level stopped face-address
+  ownership plus same-channel stopped return/BV.
 ---
 
 # Primitive chamber face-local signed channel construction reduction
@@ -132,6 +134,27 @@ C_N(u_0)+Paid+Legal+Stop+Exit+Err
 for the negative part of the same face-local signed channel `(FSCr.5)'. It is not
 enough to prove finite negative variation on the whole chamber or whole record
 interval.
+
+The follow-up reduction
+`mpp-forward-gold-primitive-chamber-same-face-negative-return-budget-reduction-20260704.md`
+makes the physical lower story explicit:
+
+\[
+\texttt{StoppedPrimitiveFaceAddressProcess.A}
++
+\texttt{StoppedReturnBVFiniteFromOriginalData.A}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberSameFaceNegativeReturnBudget.A}
+\tag{FSCr.8a}
+\]
+
+relative to the admitted primitive chamber and the paid/legal/stop/exit pieces
+already isolated in the event-map branch. The address process is the ownership
+input: it says each positive or negative primitive channel event has one active
+stopped selector/chart/detector/face address before selected counting. The
+return/BV input is the same-channel original-history currency. Together they
+say that restricting the negative part to faces does not create extra return or
+move return to a different face.
 
 With `(FSCr.6)' and `(FSCr.7)', the local signed channel construction follows:
 
