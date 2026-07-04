@@ -39,6 +39,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-coefficient-overrun-critical-factor-ui-bridge-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-same-carrier-overrun-ordering-audit-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-root-record-reset-single-geometry-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-primitive-face-address-process-unification-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-trace-address-process-reduction-20260704.md
 completion_truth: >-
   This note proves no Navier-Stokes smoothness theorem and no new estimate. It
   records a strict physical consolidation and priority test: the current route
@@ -342,6 +344,42 @@ and first-boundary charge before return is counted.  The active/root half is the
 order-locked full-packet carrier \(C_P\) on which WLF.60 / `(ODP.91)' can pay
 the lower fresh source, upper selected positive queue, and selected overrun.
 Those halves prove Gold only when they are the same physical event:
+
+The local half has a strict trace-before-return order.  Its event map may use
+only the pre-readout face trace/fiber, not the completed face/polarity return.
+In the current notation,
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveChannelPreReturnEventAddressMap.A}\\
+&+\texttt{PrimitiveChannelPreReturnAddressChangeCharge.A}
+\end{aligned}
+\Longrightarrow
+\texttt{StoppedPrimitivePreReturnFaceTraceAddressProcess.A}.
+\tag{SFP.12b0}
+\]
+
+The address map in `(SFP.12b0)' is built through
+`PrimitiveStoppedChamberPreReturnCoordinateLift.A`; its face coordinate is
+`PrimitiveStoppedChamberFaceTraceFiberOrPaidDetachment.A`, not
+`PrimitiveStoppedChamberFacePolarityLiftOrPaidReturn.A`.  Only after this
+pre-return trace-address process exists may same-face return become payment:
+
+\[
+\begin{aligned}
+&\texttt{StoppedPrimitivePreReturnFaceTraceAddressProcess.A}\\
+&+\texttt{StoppedReturnBVFiniteFromOriginalData.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberSameFaceNegativeReturnBudget.A}.
+\tag{SFP.12b1}
+\]
+
+Thus local scalar BV, chamber-level return, retained-edge custody, and formal
+face/polarity lifting are support until the pre-return trace-address process
+owns the primitive signed-channel events.  Building the event map through full
+face/polarity return is circular: it spends the same-face return budget to
+create the face owner that makes the return budget lawful.
 
 \[
 C_P(z)=\pi_{\rm act/root}\Xi(z)
