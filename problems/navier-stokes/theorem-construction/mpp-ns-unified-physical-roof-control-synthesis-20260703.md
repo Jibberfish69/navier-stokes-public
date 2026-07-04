@@ -449,7 +449,13 @@ The pressure-active/silent face now reduces to
 `RecordMenuPressureActiveQuotientAngleGap.A` plus
 `RecordMenuDetectorSilentServicePreReadoutReserve.A`: raw detector faithfulness
 is false on transverse trace-free modes, and the unpaid PDE content is a
-pre-readout material-service reserve for detector-silent work.
+pre-readout material-service reserve for detector-silent work. The primitive
+half-tail audit shows that local silent-source/complete-frame routing is only
+support; the reserve requires an independent original-history primitive PLS
+strict half-barrier / bounded-below Lyapunov / weighted laminar reserve theorem,
+and a proof through `RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A` is
+circular because that admission already assumes the pressure-active-or-silent
+face.
 The common-selector face now reduces to
 `RetainedRecordEdgeParentAnnouncedSelectorCapture.A` plus stopped-selector
 variation/payment support: the arbitrary future-positive record edge must be

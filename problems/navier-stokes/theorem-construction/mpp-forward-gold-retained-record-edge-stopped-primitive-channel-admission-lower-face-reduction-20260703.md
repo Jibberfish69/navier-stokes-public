@@ -133,7 +133,12 @@ The raw detector-angle theorem is false on unrestricted trace-free tensors. The
 same-packet complete-frame and silent-source identities route detector-silent
 work locally into strain/exchange, viscous/radius, collar/frame, legal, stop, or
 exit service; the unpaid part is proving that this service is reserved before
-arbitrary future record readout in the record's own units.
+arbitrary future record readout in the record's own units. The primitive
+half-tail audit sharpens the reserve: it can be supplied only by an independent
+original-history primitive PLS strict half-barrier / bounded-below Lyapunov /
+weighted laminar reserve theorem. Proving it through this stopped-channel
+admission would be circular because this admission already depends on the
+pressure-active-or-silent face.
 
 `RetainedRecordEdgeCommonSelectorRefinementNoLoss.A` is the retained-edge
 version of common selection. For every arbitrary future-positive exact-projector

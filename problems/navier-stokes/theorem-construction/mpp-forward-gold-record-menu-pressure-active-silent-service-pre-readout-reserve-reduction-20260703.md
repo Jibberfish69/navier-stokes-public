@@ -11,6 +11,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-symbol-kernel-exclusion-counterboundary-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-complete-frame-pressure-probe-demotion-material-service-routing-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-silent-source-to-primitive-half-tail-integration-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-detector-silent-service-pre-readout-reserve-primitive-half-tail-audit-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-stopped-primitive-channel-admission-lower-face-reduction-20260703.md
 completion_truth: >-
   This note does not prove RecordMenuPressureActiveOrSilentService.A. It shows
@@ -110,6 +111,14 @@ control the global weighted half-tail by themselves. A future record can still
 draw positive work from detector-silent service visits unless those visits have
 a finite pre-readout reserve in record units.
 
+The primitive half-tail audit sharpens this point. The detector-silent reserve
+is proved only after an independent original-history primitive full-action
+reserve, such as `StoppedPrimitivePLSStrictHalfBarrierBreak.A`,
+`PrimitivePLSBoundedBelowLyapunov.A`, or `WeightBeatingTailLaw.A`. Using
+`RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A` to supply that reserve is
+circular, because that admission already assumes this pressure-active-or-silent
+face.
+
 ## 4. Strict lower split
 
 The retained frozen theorem reduces to:
@@ -169,3 +178,8 @@ The unpaid physical object is
 `RecordMenuDetectorSilentServicePreReadoutReserve.A`: detector-silent work must
 not be allowed to become the hidden positive payer of a future record unless the
 same packet has already paid it in finite material-service currency.
+
+After the primitive half-tail audit, the noncircular lower producer is an
+original-history primitive PLS strict half-barrier / bounded-below Lyapunov /
+weighted laminar reserve theorem. Local silent-source routing is support; the
+half-tail is the obstruction to promoting that support into finite reserve.
