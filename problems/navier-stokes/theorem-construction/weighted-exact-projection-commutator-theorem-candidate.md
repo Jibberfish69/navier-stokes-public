@@ -424,6 +424,10 @@ That coupled object now splits into `RecordMenuPressureActiveOrSilentService.A`,
 `RetainedRecordEdgeCommonSelectorRefinementNoLoss.A`, and
 `RetainedRecordEdgePrimitiveChannelCompatibility.A`; stopped selector cone
 aperture is consumed support after common-selector refinement.
+The common-selector face now reduces to
+`RetainedRecordEdgeParentAnnouncedSelectorCapture.A` plus stopped-selector
+variation/payment support: the arbitrary future-positive record edge must be
+captured by a finite parent-known stopped score before positive readout.
 
 The symbolic reason is the first commutator term in the pseudodifferential
 composition formula. For an order-zero symbol `p\in S^0_{1,0}` and a low

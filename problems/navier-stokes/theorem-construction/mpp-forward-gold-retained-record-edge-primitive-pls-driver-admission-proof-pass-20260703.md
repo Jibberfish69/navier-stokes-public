@@ -341,6 +341,16 @@ The lower-face reduction sharpens that coupled theorem to:
 \tag{PAD.15b}
 ```
 
+Its common-selector face is now reduced to parent-announced selector capture:
+
+```math
+\texttt{RetainedRecordEdgeParentAnnouncedSelectorCapture.A}
++\texttt{stopped-selector variation/payment support}
+\Longrightarrow
+\texttt{RetainedRecordEdgeCommonSelectorRefinementNoLoss.A}.
+\tag{PAD.15c}
+```
+
 ## 7. Current truth state
 
 This pass proves a strict reduction, not the admission theorem itself:

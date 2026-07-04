@@ -258,6 +258,11 @@ That coupled admission now has a lower-face reduction:
 \tag{REP.10c}
 ```
 
+The common-selector face now reduces to
+`RetainedRecordEdgeParentAnnouncedSelectorCapture.A` plus stopped-selector
+variation/payment support; selector motion after capture is support, while
+parent-announced capture before positive readout remains open.
+
 ## 7. Current truth state
 
 ```math

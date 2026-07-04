@@ -208,6 +208,16 @@ The lower-face reduction now records the exact physical inputs:
 \tag{PLR.11a}
 ```
 
+The common-selector face is now lower again:
+
+```math
+\texttt{RetainedRecordEdgeParentAnnouncedSelectorCapture.A}
++\texttt{stopped-selector variation/payment support}
+\Longrightarrow
+\texttt{RetainedRecordEdgeCommonSelectorRefinementNoLoss.A}.
+\tag{PLR.11b}
+```
+
 It has three clauses for every retained future-positive exact-projector record
 edge:
 

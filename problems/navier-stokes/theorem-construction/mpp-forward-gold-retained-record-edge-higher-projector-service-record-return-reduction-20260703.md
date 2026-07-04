@@ -257,6 +257,12 @@ The coupled channel admission is now reduced to its lower physical faces:
 \tag{RPR.14b}
 ```
 
+The common-selector face now reduces to
+`RetainedRecordEdgeParentAnnouncedSelectorCapture.A` plus stopped-selector
+variation/payment support: the unpaid question is whether the arbitrary
+future-positive record edge has a finite parent-known stopped score before
+positive readout.
+
 ## 6. Strict reduction
 
 The sharper nonduplicate reduction is:
