@@ -262,8 +262,6 @@ Strict reduction:
 \Longrightarrow
 \texttt{PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A}
 \Longrightarrow
-\texttt{PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A}
-\Longrightarrow
 \texttt{PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A}.
 \tag{RAM.17}
 ```
