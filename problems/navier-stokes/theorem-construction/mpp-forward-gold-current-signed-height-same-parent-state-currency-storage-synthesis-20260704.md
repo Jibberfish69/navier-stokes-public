@@ -1785,6 +1785,28 @@ So the current smaller Gold producer is:
 \tag{SCSS.70a}
 \]
 
+The source-line audit pushes the root-fixed affine/full-packet wording down one
+more level.  The transition derivative is a projection of the parent root
+generator, and component rigidity is support after the same ledger exists.  The
+nonduplicate producer is the parent-known full-exchange critical ledger from
+`FullExchangeCriticalDepletionStorage.A' / `(TFE.2426)', equivalently the
+strict parent-measured tail/storage law `(TFE.2470)'.  In the signed-height roof
+this ledger still has to carry the record-admitted edge before any positive
+readout is taken.
+
+\[
+\begin{aligned}
+&\texttt{FullExchangeCriticalDepletionStorage.A}\\
+&\quad\text{with the signed-height record edge admitted in }d\Xi_P^{FE}\\
+&\quad\text{and strict no-self-feeding parent storage}
+\end{aligned}
+\Longrightarrow
+\texttt{SameParentCriticalDepletionNoZeno.A}
+\Longrightarrow
+\Gamma_{\rm pre}^{act/root}.
+\tag{SCSS.70b}
+\]
+
 This absorbs `SameParentCriticalDepletionNoZeno.A',
 `SameParentCriticalGoodLambdaTail.A',
 `StoppedPrimitivePLSStrictHalfBarrierBreak.A', and the bounded-below
@@ -1813,6 +1835,7 @@ producer at the current Gold edge:
 
 The installed source checks prove support and consumers around this law, not the
 law itself.  Raw same-parent ownership, finite raw square mass, finite local
-service, compactness/zero-cost rigidity, and endpoint visibility all survive the
-half-tail countertest unless `(SCSS.69)' or the equivalent state-deletion
-inequality is proved from arbitrary original smooth Navier-Stokes data.
+service, transition-coordinate derivative control, component compactness/rigidity,
+and endpoint visibility all survive the half-tail countertest unless
+`(SCSS.69)' is supplied by the record-admitted full-exchange storage law
+`(SCSS.70b)' from arbitrary original smooth Navier-Stokes data.
