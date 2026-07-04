@@ -62,6 +62,17 @@ measures the same transported packet. \(\mathfrak D_C\) says which detector or
 signed primitive channel reads its stress. \(\mathfrak F_C\) says which face,
 local-thickness/polarity, or return address owns the signed event.
 
+The governing physical test is to follow the same packet through the stopped
+time window before selected counting. Transport moves the packet inside or out of
+the chamber. Pressure and incompressibility decide which projected stress is
+visible in a lawful material frame. Viscosity, scale, and finite service decide
+which residues are dissipated or paid. Sign and alignment decide whether the
+event is a positive selected-height trace, a negative return, or a cancellation
+cost. A valid coordinate lift must place that one event in one chamber frame, one
+detector/channel, and one face/polarity address before the event is counted.
+Failure of any coordinate lands as physical service, legal stop, exit, or return
+for that same packet.
+
 These are not three unrelated support estimates. They must be attached to the
 same stopped chamber \(C_{\mathfrak R}\) before readout.
 

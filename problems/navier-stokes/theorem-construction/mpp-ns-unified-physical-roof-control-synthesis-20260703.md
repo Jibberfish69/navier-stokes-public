@@ -828,18 +828,25 @@ to a pre-map first-difference theorem on stopped common-selector cells, rather
 than the post-map address-change variation theorem.
 The primitive nonselector coordinate lift reduction is now installed in
 `mpp-forward-gold-primitive-nonselector-coordinate-lift-reduction-20260704.md`.
-It sharpens the coordinate-lift side of the same normalized branch. Once the
-primitive event is admitted to a stopped common-selector chamber, the remaining
-lift splits into three same-chamber jobs: chart/projector lift or paid exit,
-detector/channel lift or paid service, and face/polarity lift or paid return.
-Existing retained-edge and post-map coordinate surfaces remain support until
-they are restated at this primitive chamber level.
+It sharpens the coordinate-lift side by making the physical test explicit. After
+admission the object is one same-fluid packet inside one stopped common-selector
+chamber. Transport carries its material history; pressure and incompressibility
+choose the projected stress seen by a lawful frame; viscosity, scale, and finite
+service decide what can be dissipated or paid; sign and alignment decide whether
+the event is a positive selected-height trace, negative return, or cancellation
+cost. The remaining lift is therefore three same-chamber physical addresses:
+chart/projector lift or paid exit, detector/channel lift or paid service, and
+face/polarity lift or paid return. Existing retained-edge and post-map
+coordinate surfaces remain support until restated at this primitive chamber
+level.
 The primitive chamber chart/projector lift reduction is now installed in
 `mpp-forward-gold-primitive-chamber-chart-projector-lift-reduction-20260704.md`.
-It sharpens the chart/projector job to the chamber-level analogue of the
-retained-edge chart-license split: same-chamber C11 metric tower or exit plus
-same-chamber higher projector service or exit. Retained-edge chart license is
-support until those inputs are proved for primitive events before readout.
+It sharpens the chart/projector job to the chamber-level material-frame test:
+the packet has a deformation map, a pulled-back metric, and an exact pressure
+projector forced by incompressibility. The open inputs are same-chamber C11
+metric tower or exit plus same-chamber higher projector service or exit.
+Retained-edge chart license is support until those inputs are proved for
+primitive events before readout.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding

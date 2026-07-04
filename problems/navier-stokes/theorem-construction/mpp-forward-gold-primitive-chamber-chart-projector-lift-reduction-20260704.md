@@ -57,6 +57,15 @@ leaves that chart, if \(G\) twists beyond controlled symbol bounds, or if higher
 projector/pressure/collar residues appear, the failure must be paid or exited
 before selected readout.
 
+The physical decision is local to the chamber. The same packet has a deformation
+map \(X(a,t)\), a pulled-back metric \(G\), and a pressure projection forced by
+incompressibility. Transport can change the chart, pressure can rotate the
+visible stress, and viscosity can absorb only the service terms that have an
+actual same-material budget. Chart/projector lift is proved only when those
+three effects still leave a lawful material projector for the primitive event,
+or when the same chamber pays the lost projector service before the event is
+used downstream.
+
 ## 2. Two chamber-level inputs
 
 The metric input is:
