@@ -907,6 +907,19 @@ support only until they prove that pre-readout partition. Thus
 `PrimitiveSignedChannelDirectMaterialRepresentation.A` plus
 `PrimitiveSignedChannelOffCarrierServiceCharge.A`, and then implies
 `PrimitiveSignedChannelMaterialCarrierSupport.A`.
+The primitive raw material channel fixed-chart proof is now installed in
+`mpp-forward-gold-primitive-raw-material-channel-formula-fixed-chart-proof-20260704.md`.
+It proves the local formula face: on a fixed smooth material chart, the raw
+primitive channel alphabet is an explicit finite expression of the original
+Navier-Stokes participation law, pressure elliptic constraint,
+Hodge/projector motion, material service, collar, viscosity, and low-high
+transport. The remaining open input is not the formula but the parent-known
+atlas: `PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A`. That
+atlas must cover the whole primitive signed-channel measure before stopped or
+selector readout, with finite overlap and paid boundary, off-chart,
+channel-rotation, service, legal, stop, or exit residue. Together with the
+fixed-chart formula it implies
+`PrimitiveSignedChannelPreReadoutMaterialChannelizationPartition.A`.
 The primitive stopped-carrier common-selector ownership reduction is now
 installed in
 `mpp-forward-gold-primitive-stopped-carrier-common-selector-ownership-reduction-20260704.md`.
