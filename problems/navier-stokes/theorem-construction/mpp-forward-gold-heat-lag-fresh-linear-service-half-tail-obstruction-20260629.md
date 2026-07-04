@@ -1208,8 +1208,8 @@ the reserve name.  The conditional source line is:
 \]
 
 The audit classifies `(WLF.65)' as a conditional reduction, not a completed
-Gold proof.  The current original-data burden is the noncircular proof of the
-three grants behind that line:
+Gold proof.  At the `(TFE.2748)' source line, the original-data burden was the
+noncircular proof of the three grants behind that line:
 
 \[
 \begin{array}{ll}
@@ -1225,8 +1225,46 @@ three grants behind that line:
 \tag{WLF.66}
 \]
 
+The later TFE2748A/TFE2748B audits shrink `(WLF.66)'.  TFE2748A derives the
+stopped Duhamel-Hodge pullback, bounded parent detector package, and
+zero-baseline endpoint admission as noncircular support from the smooth stopped
+preterminal packet.  Those clauses make the child readout a lawful
+parent-pulled test of one coupled packet; they do not supply the positive
+selected \(L^1\) source.  The remaining nonconsumer Gold source is the strict
+same-parent storage itself.
+
+In the current active-capacity/full-exchange coordinate, that storage is the
+simultaneous parent Lyapunov inequality
+
+\[
+\begin{pmatrix}
+dZ_P^{crit}\\
+d\Xi_P^{FE,act}\\
+dA_P^{AT}
+\end{pmatrix}
+\le
+-d
+\begin{pmatrix}
+M_P^{crit}\\
+M_P^{FE}\\
+M_P^{AT}
+\end{pmatrix}
++
+K_P
+\begin{pmatrix}
+dZ_P^{crit}\\
+d\Xi_P^{FE,act}\\
+dA_P^{AT}
+\end{pmatrix}
++\mathbf d\Theta_P^0+\mathbf dPaid_P,
+\qquad
+\rho(K_P)<1 .
+\tag{WLF.67}
+\]
+
 This is the present proof-sized form of `(WLF.60)' in the heat-lag coordinate.
 Same-parent detection, Bessel square, entropy/BMO, retained heat decay, endpoint
-admission, and Duhamel formulas are support unless they prove one of the three
-original-data grants in `(WLF.66)' without using the future selected tail or the
-storage conclusion itself.
+admission, and Duhamel formulas are support.  Active capacity and full-exchange
+language are support as well until `(WLF.67)' is proved from the original
+pressure-viscosity-incompressibility packet before child clipping, or until one
+of its storage faces is proved independently without reserve self-financing.
