@@ -638,6 +638,14 @@ positive marked face or charge the cancelling partner as same-face negative
 return, signed-partner saturation, endpoint/material-record return, legal, stop,
 or exit before readout. Terminal anti-atom and negative-return language remain
 support until localized to the exact positive subface whose sign was lost.
+The same-face partner-return localization reduction is now installed in
+`mpp-forward-gold-same-face-partner-return-localization-reduction-20260704.md`.
+It turns that locality requirement into the next lower producer:
+`SameFacePartnerReturnLocalization.A`. Total stopped-record negative return,
+scalar BV, or terminal anti-atom reserve is too coarse by itself; the cancelling
+partner must be attached to the same admitted positive record face before
+readout. With same-edge no-detachment and local face thickness, that localized
+partner-return row implies `RecordPolaritySameFaceNoCancellation.A`.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
