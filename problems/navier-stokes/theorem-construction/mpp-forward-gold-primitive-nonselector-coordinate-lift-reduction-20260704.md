@@ -7,19 +7,25 @@ route: forward-gold signed-critical-height / primitive event address custody
 logical_landing_node: SignedCriticalHeightSignPersistenceOrPeakBound.A
 target_object:
   - PrimitiveStoppedChamberNonselectorCoordinateLift.A
+  - PrimitiveStoppedChamberPreReturnCoordinateLift.A
   - PrimitiveStoppedChamberChartProjectorLiftOrPaidExit.A
   - PrimitiveStoppedChamberDetectorChannelLiftOrPaidService.A
+  - PrimitiveStoppedChamberFaceTraceFiberOrPaidDetachment.A
   - PrimitiveStoppedChamberFacePolarityLiftOrPaidReturn.A
 role: >-
   Reduces nonselector coordinate lift to the three remaining physical
   coordinates on one admitted stopped common-selector chamber: chart/projector,
-  detector/channel, and face/polarity. Existing retained-edge chart license,
-  detector service, no-detachment, and local face compactness surfaces are
-  support until they are stated on the admitted primitive chamber itself before
-  selected readout.
+  detector/channel, and face/polarity. The trace-before-return refinement
+  splits the event-map input from the downstream return payment: before the
+  event map is built the face coordinate is only pre-readout face trace, while
+  same-face negative return is recovered after pre-return address ownership.
+  Existing retained-edge chart license, detector service, no-detachment, and
+  local face compactness surfaces are support until they are stated on the
+  admitted primitive chamber itself before selected readout.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-selector-normalization-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-channel-address-change-variation-charge-split-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-trace-address-process-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-exact-projector-retained-chart-license-audit-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-pressure-active-silent-service-pre-readout-reserve-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admission-no-detachment-modulus-reduction-20260704.md
@@ -29,7 +35,9 @@ completion_truth: >-
   It proves a strict reduction: once a primitive event is admitted to a stopped
   common-selector chamber, the remaining lift follows from chamber-level
   chart/projector, detector/channel, and face/polarity lift or paid exit
-  theorems. The checked obstruction is that current support mostly lives on
+  theorems. For the event-map input, this note is now read through the stricter
+  pre-return coordinate lift: chart/projector plus detector/channel plus face
+  trace only. The checked obstruction is that current support mostly lives on
   retained future-positive edges or post-map address changes, not on every
   primitive event of both signs inside the admitted chamber.
 ---
@@ -346,3 +354,43 @@ face-address ownership plus same-channel stopped return/BV. Thus the face side
 is not asking for another scalar BV account; it is asking the event-address
 branch to own each returning primitive event on the same pre-readout face before
 the return is counted.
+
+## 10. Trace-before-return refinement
+
+The event-map branch cannot use the full `(NCL.13)' face/polarity lift as an
+input, because `(NCL.13)' includes the same-face return budget that itself needs
+event-level stopped face-address ownership. The noncircular map input is the
+weaker pre-return coordinate lift:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberChartProjectorLiftOrPaidExit.A}\\
+&+\texttt{PrimitiveStoppedChamberDetectorChannelLiftOrPaidService.A}\\
+&+\texttt{PrimitiveStoppedChamberFaceTraceFiberOrPaidDetachment.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberPreReturnCoordinateLift.A}.
+\tag{NCL.15}
+\]
+
+This lift owns the event by material frame, detector/channel, and pre-readout
+face trace. It does not pay lost positive sign. The downstream order is:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberPreReturnCoordinateLift.A}\\
+&+\texttt{PrimitiveChannelPreReturnAddressChangeCharge.A}
+\Longrightarrow
+\texttt{StoppedPrimitivePreReturnFaceTraceAddressProcess.A}\\
+&+\texttt{StoppedReturnBVFiniteFromOriginalData.A}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberSameFaceNegativeReturnBudget.A}\\
+&+\texttt{PrimitiveStoppedChamberFaceTraceFiberOrPaidDetachment.A}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberFacePolarityLiftOrPaidReturn.A}.
+\end{aligned}
+\tag{NCL.16}
+\]
+
+Thus the earlier full nonselector lift remains a downstream Gold-facing lift.
+The event-map input is only the pre-return trace lift.
