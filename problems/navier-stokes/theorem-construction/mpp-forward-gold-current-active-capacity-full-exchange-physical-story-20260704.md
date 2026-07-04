@@ -160,6 +160,7 @@ Equivalently, the noncircular lower route is
 
 \[
 \texttt{BeforeClippingActiveDensityComparison.A}
+\quad+\quad
 \texttt{FullExchangeNoSelfFeedingStorage.A}
 \Longrightarrow
 \texttt{NoTerminalSuperCapacitaryActivePotentialAtom.A}
