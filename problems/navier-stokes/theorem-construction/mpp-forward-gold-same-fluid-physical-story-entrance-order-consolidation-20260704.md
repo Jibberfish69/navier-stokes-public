@@ -321,6 +321,17 @@ with }\rho(K^{rec})<1
 
 proved without preusing finite critical-source excess.
 
+The Schur/current audit does not create a third bottom. It says first
+parent-current entry is Bessel novelty, and retained same-coordinate production
+is Schur work only after that entry has been admitted. In WLF/ODP coordinates,
+the persistent affine quotient is still unpaid until the stopped affine
+transition pile has a predictable active weight and a lifted martingale/Bessel
+split before positive selected readout. If that same carrier reaches the
+terminal fixed-core branch, terminal no-atom/no-jump is paid only by root-fixed
+terminal-uniform \(L^1\) full-packet service storage built from the original
+pressure-viscosity-incompressibility packet. These are proof-method reductions
+inside `(SFP.14)', not sibling route labels.
+
 Physically, the remaining proof must show that a thin signed-height record cannot
 keep exporting future-positive pressure/strain service through smaller and
 smaller record readouts while the same original parent packet pays only finite
