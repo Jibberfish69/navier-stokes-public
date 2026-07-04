@@ -92,14 +92,17 @@ Clean labels:
 
 ## Current Exact Burdens
 
-- Monotone-functional side: restored and explicit, and the exact handoff `Q(t)` -> necessary but not sufficient -> cascade carrier is now explicit.
-- Cascade-localization side: the dyadic tail/transport object `Xi_N` with transport packet `Phi_N` is no longer an open frontier. It is localized in `cascade-after-monotone-bridge-source-pack.md` and discharged through `theorem-construction/scale-barrier-transport-defect-lemma.md` plus `theorem-construction/scale-cubic-tail-absorption-lemma.md`.
-- Scale side: the discharge locus is present, reconciled, and now explicitly consumes the post-monotone cascade carrier. Among the failed local repairs, the preferred repair surface is the continuum cumulative-tail stress theorem `(CTS)`, with the dyadic lower-prefix active-square theorem `(LPAS)` treated as its shadow rather than as the primary language.
-- Defect-loop side: the failed local repairs now read as successive normal-form reductions of the same one-sided scale-memory survivor. The classical four-body packet remains live only as the defect-reduction pipeline, with proof force supplied by the exact reduction notes it cites; see [theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md).
-- Compactness side: the downstream discharge locus is present and reconciled on one fixed classical approximation scheme.
-- Fourth-bridge side: same-surface heat-governed deformation or continuation is primary for the synchronized periodic branch; the old curvature route is retained only as deprecated provenance.
-- Closure side: the periodic bridge spine is integrated as the authoritative theorem direction on the declared theorem surface; Route B / Euclidean whole-space material remains downstream export/support.
-- Sidecar hygiene: ontic / Marvin / Hodge / projected-flow material is archived provenance only and must not be treated as an active blocker.
+- Gold physical story: the live object is one original smooth Navier-Stokes field and one signed critical-height record upcrossing. The installed identity is the record-net work law
+  \[
+  \int_a^b P(t)\,dt = H(b)-H(a)+\nu\int_a^bD(t)\,dt,
+  \]
+  and the open question is where that same record work lived in the original parent packet before selected readout.
+- Gold current strict reduction: construct, before selected readout, one same-parent package consisting of `ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A`, `OriginalHistoryRecordResetRootPayment.A`, and `RecordAdmittedActiveFullExchangeCoupledStorage.A` for the same signed-height record event. That package is the current reduced route to `SignedCriticalHeightSignPersistenceOrPeakBound.A`.
+- Gold open proof-sized object: derive that parent active state, selected-critical root currency, and record-admitted storage from the original pressure-viscosity-incompressibility-velocity history of the same packet. Current sources have not proved this construction from arbitrary original data.
+- Absorbed or demoted Gold surfaces: positive clipping, selected `L^1` counting, freestanding active capacity, detached root payment, storage after choosing a payer, raw capacity, raw atomization, scalar BV, chamber-level return, fixed-chart formulas, primitive material channelization, raw active-state first address, stopped common-selector admission, pre-return face-address ownership, and same-face return budget are support, strict reductions, or checked obstructions unless they attach to the same pre-readout signed-height record packet.
+- Primitive descent status: the lower labels now test one event-ownership problem, not sibling frontiers. A primitive signed-channel event must have same-material carrier support, a stopped common-selector chamber, chart/projector and detector/channel ownership, a pre-return face trace, and paid address changes before same-face return is allowed to count.
+- Silver status: unchanged by this Gold consolidation. Silver remains the same-object obstruction-exclusion lane through the terminal-witness / Part-Field / `Exit(Q):=not Member(Q)` chain, with Gold openness and Silver face landings kept separate.
+- Legacy sidecar hygiene: periodic, `Q(t)`, monotone-functional, cascade-localization, source-wall, positive-supplier, export, ontic, Marvin, Hodge, and projected-flow material is support unless a checked bridge lands the exact claim in this Gold package or in the Silver witness tree.
 
 ## Do Not Collapse
 
