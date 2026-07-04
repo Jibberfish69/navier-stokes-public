@@ -713,6 +713,15 @@ selector-owned primitive channel, exact-projector chart, detector/service split,
 no-detachment topology, and local face thickness. Separate support on those
 faces is not a trace until it proves
 `RecordFacePrimitiveChannelPredictableTrace.A` for the same physical face.
+The selected-face negative-return budget reduction is now installed in
+`mpp-forward-gold-primitive-channel-selected-face-negative-return-budget-reduction-20260704.md`.
+It sharpens the second half of the split. Stopped primitive return/BV is only a
+physical return mechanism after it restricts to the same pre-readout face with
+finite multiplicity. The return side now needs the stopped original-history
+return/BV theorem on the same traced channel plus
+`PrimitiveChannelSelectedReturnNoDuplication.A`; scalar BV and chamber return
+stay support until they prove
+`PrimitiveChannelSelectedFaceNegativeReturnBudget.A`.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
