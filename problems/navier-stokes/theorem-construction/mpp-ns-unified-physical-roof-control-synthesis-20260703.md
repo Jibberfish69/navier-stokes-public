@@ -685,6 +685,16 @@ positive record face before aggregation. Scalar BV, global negative return,
 terminal anti-atom reserve, and post-readout LP/Bony coordinates can still pay
 from a different face, so they remain support or checked obstruction until they
 produce `RecordFaceLocalSignedChannelConstruction.A`.
+The record-face local signed-channel primitive ownership reduction is now
+installed in
+`mpp-forward-gold-record-face-local-signed-channel-primitive-ownership-reduction-20260704.md`.
+It gives the sharper construction route: the face-local signed channel must be
+the trace, on the admitted positive face, of the selector-owned primitive signed
+channel for the same retained edge. Primitive PLS decomposition supplies the
+physical pressure/transport/frame/viscous/material channel coordinates only after
+the edge is admitted to that stopped selector channel. Same-packet identity,
+pressure visibility, and chamber-level negative variation remain support until
+they prove `RecordFacePrimitiveChannelTraceAndReturnBudget.A`.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
