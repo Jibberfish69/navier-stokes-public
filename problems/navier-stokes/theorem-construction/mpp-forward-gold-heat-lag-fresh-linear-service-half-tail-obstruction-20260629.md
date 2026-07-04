@@ -26,7 +26,13 @@ completion_truth: >-
   this Gold slice must split retained reuse from fresh first entry. Retained reuse is Schur
   current work; fresh first entry requires a native/residence/Hardy-Carleson
   linear service charge, or a theorem proving that all uncharged fresh half-tail
-  windows are forced into motion, return, viscosity, legal, or stop.
+  windows are forced into motion, return, viscosity, legal, or stop.  The later
+  same-parent pushforward audit reduces that fresh-linear wall to `(WLF.60)':
+  finite parent-weighted first-admission pulse measure from the original coupled
+  packet before child positive clipping.  Entropy, Hilbert/BMO, reverse-Holder,
+  and terminal no-atom language are deterministic consumers once that parent
+  active density/root carrier exists; they do not construct the pulse measure
+  by themselves.
 ---
 
 # Heat-lag fresh linear service half-tail obstruction
@@ -1131,3 +1137,54 @@ coupled row in this slice is `(WLF.60)`: terminal-uniform finiteness of the
 parent-weighted detector measure.  Without `(WLF.60)`, the half-tail
 `(WLF.2)`--`(WLF.9)` remains a countermodel to replacing parent-weighted
 variation by raw Bessel square mass.
+
+## 10. Entropy/BMO consumer coordinate
+
+The selected-density and entropy route is useful only after the same parent
+packet has already produced a pre-clipping active density.  If
+
+\[
+d\mu_P^{pw}=f_P\,d\mathcal R_P
+\tag{WLF.62}
+\]
+
+is parent-known before child clipping and the root entropy capacity
+
+\[
+\mathcal C_P^{ent}
+:=
+\int_P f_P\log(e+f_P)\,d\mathcal R_P
+\tag{WLF.63}
+\]
+
+is bounded from the original coupled packet, then the standard entropy
+chain-rule pays high child/parent ratios.  In layer-cake form, a child with
+ratio \(r_Q=f_Q/f_{par(Q)}\ge 2^L\) spends at least \(L\log 2\) units of
+entropy per unit selected action, so the dyadic first-ratio sum
+\(\sum_L2^LN_L\) is finite.  Reverse Holder, John-Nirenberg, and good-lambda
+are consumer languages for this same deterministic implication.
+
+This proves a strict reduction, not Gold closure:
+
+\[
+\text{parent active entropy/root BMO before clipping}
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+\tag{WLF.64}
+\]
+
+The PDE producer is still the construction and root bound for `(WLF.62)' from
+the original pressure-viscosity-incompressibility-velocity packet.  A stopped
+Hilbert/BMO carrier \(Z^S\) would supply that density only after the stopped
+selector/source measure satisfies cancellation, local testing, and Carleson
+packing from original data.  Defining \(Z^S=T_S\nu^S\), proving local packet
+payment, or proving fresh Bessel square packing does not give that testing
+theorem.
+
+Thus the current strict producer has one physical name in this slice:
+parent-known fresh generator/root-reserve packing, equivalently `(WLF.60)' /
+`(WLF.36)' / NativeBirthChargePacking / PositiveCriticalTransferBound, built
+before selected positive readout.  Entropy/BMO/reverse-Holder and terminal
+no-atom are proof-level consumers once the parent active density exists; raw
+energy, raw heat/tent square capacity, and Bessel square remain obstructed by
+the half-tail.
