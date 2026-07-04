@@ -338,10 +338,15 @@ service-storage audits. Local shell energy, raw Bessel freshness,
 selected-forest complete-frame capacity, scalar current Bellman storage, probe
 admission/update, and interior active graph coercivity are support or no-go
 tests. The strict producer is original-history root-native reserve before
-readout, and on the terminal fixed-core branch it is root-fixed terminal-uniform
-\(L^1\) full-packet service storage whose service density dominates the endpoint
-measure. Terminal no-atom follows from that storage; it is not a separate final
-wall.
+readout in its sharpened form: parent-known fresh generator/root-reserve packing
+or parent-weighted first-admission pulse measure `(WLF.60)' / `(WLF.36)' from
+the original coupled packet before child clipping. Selected-density entropy,
+Hilbert/BMO, reverse Holder, and active-capacity Bellman language are
+deterministic consumers once that parent active density/root carrier is
+constructed; they do not construct it. On the terminal fixed-core branch the
+same producer is read as root-fixed terminal-uniform \(L^1\) full-packet service
+storage whose service density dominates the endpoint measure. Terminal no-atom
+follows from that storage; it is not a separate final wall.
 
 Physically, the remaining proof must show that a thin signed-height record cannot
 keep exporting future-positive pressure/strain service through smaller and
