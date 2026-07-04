@@ -1813,7 +1813,8 @@ and retained pullback square-function estimate are consumers once the same
 parent frame is fixed before readout.  The surviving source is not a linear
 chain from one reserve to another.  Critical source storage, finite capacitary
 excess, parent active-potential capacity, and active-transit/full-exchange
-storage are coordinate readings of one simultaneous parent storage row:
+storage are coordinate readings of one simultaneous active-critical /
+full-exchange / active-transit coupled storage matrix:
 
 \[
 \begin{gathered}
@@ -1823,15 +1824,18 @@ storage are coordinate readings of one simultaneous parent storage row:
 \equiv
 \texttt{parent active-potential capacity}\\
 \equiv
-\texttt{active-transit/full-exchange storage}.
+\texttt{active-transit/full-exchange storage}\\
+\text{proved as one same-parent coupled inequality with feedback spectral radius }<1.
 \end{gathered}
 \tag{SCSS.70c}
 \]
 
-For Gold this row has force only in record-admitted form: the selected critical
-meter must come from the same signed-height upcrossing, before readout, and the
-active-transit/full-exchange storage must carry strict subunit feedback without
-borrowing the storage it is meant to prove.
+For Gold this matrix has force only in record-admitted form: the selected
+critical meter must come from the same signed-height upcrossing, before readout,
+and the active-transit/full-exchange storage must carry strict subunit feedback
+without borrowing the storage it is meant to prove.  An independent original-data
+proof of one storage face would break the loop; absent that, the live burden is
+the record-admitted coupled inequality itself.
 
 This absorbs `SameParentCriticalDepletionNoZeno.A',
 `SameParentCriticalGoodLambdaTail.A',
