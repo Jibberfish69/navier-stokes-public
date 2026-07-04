@@ -612,6 +612,36 @@ fixed-core branch the same producer is read as root-fixed terminal-uniform
 measure. Terminal no-atom follows from that storage; it is not a separate final
 wall.
 
+The same producer can now be named without the older route vocabulary:
+
+\[
+\text{original coupled packet}
+\Longrightarrow
+\text{record-admitted strict same-parent feedback state deletion}
+\Longrightarrow
+\Gamma_{\rm pre}^{act/root}.
+\tag{SFP.15a}
+\]
+
+In layer-count coordinates this is the strict half-barrier
+
+\[
+N_{L+1}\le \theta N_L+B_L,
+\qquad
+\theta<\frac12,
+\qquad
+\sum_L2^L B_L<\infty .
+\tag{SFP.15b}
+\]
+
+The good-lambda summation is a consumer after `(SFP.15b)' is proved on the same
+record-admitted carrier.  In PDE coordinates, every retained high-ratio
+positive visit of the same pressure-viscosity-incompressibility packet must
+decrease a parent-fixed signed score, spend a critical shrinking-core reset or
+first endpoint seed charge, or enter terminal thickness, legal, stop, or exit
+payment before child positive clipping.  This is the shared active/root face of
+\(\Gamma_{\rm pre}\), not a new route below `(SFP.14)' and `(SFP.15)'.
+
 Physically, the remaining proof must show that a thin signed-height record cannot
 keep exporting future-positive pressure/strain service through smaller and
 smaller record readouts while the same original parent packet pays only finite
