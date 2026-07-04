@@ -21,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-state-root-payment-same-parent-projection-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-root-record-reset-single-geometry-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-capacity-signed-height-record-admission-boundary-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-active-potential-terminal-survivor-dichotomy-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-parent-source-payment-package-unification-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-meter-entropy-flux-split-same-history-capacity-reduction-20260703.md
@@ -346,6 +347,15 @@ physical bottoms.  They are three readouts of the same missing fact: the
 original parent history must provide a record-admitted critical/full-exchange
 carrier that sees or pays every future positive selected record edge with a
 strict no-self-feeding margin.
+
+The active-capacity survivor form pins down that same wall. If finite
+capacitary excess fails, the leftover is a terminal super-capacitary
+active-potential survivor of the same parent packet. That survivor is killed
+only by the before-clipping active-density comparison together with strict
+full-exchange no-self-feeding storage, and in this synthesis those two inputs
+must be record-admitted to the signed-height upcrossing. Otherwise the estimate
+pays a local selected-meter clock while the record work remains on another
+carrier.
 
 The source-checked lower split is:
 

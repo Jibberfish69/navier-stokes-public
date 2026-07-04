@@ -23,6 +23,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-parent-source-payment-package-unification-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-capacity-signed-height-record-admission-boundary-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-active-potential-terminal-survivor-dichotomy-20260704.md
 completion_truth: >-
   This note proves no new estimate. It records a checked strict reduction:
   raw same-parent pressure-Hodge atoms and retained opposite-lobe reserve are
@@ -116,6 +117,14 @@ transport, viscosity, incompressibility, and stopped selector geometry, but it
 has not been charged to heat, cancellation, endpoint admission, opposite-lobe
 reserve, or legal/stop loss.
 
+The terminal-survivor reduction makes this the current pressure test. After
+finite capacitary excess is split from the maximal subunit residual, the only
+remaining active-potential failure is a terminal super-capacitary survivor of
+the same parent packet. Reverse Holder or terminal-thickness language consumes
+that survivor only after the before-clipping active-density clock and the
+full-exchange no-self-feeding storage have been produced from the original
+coupled packet.
+
 ## 4. Current coordinate collapse
 
 The direct-live source now has one parent object in several coordinate
@@ -146,6 +155,24 @@ The back-substituted coordinate target is
 
 This is TFE2748B.1393 / TFE2748B.1555. It is a coordinate description of the
 same physical object, not an independent proof of it.
+
+Equivalently, the noncircular lower route is
+
+\[
+\texttt{BeforeClippingActiveDensityComparison.A}
+\texttt{FullExchangeNoSelfFeedingStorage.A}
+\Longrightarrow
+\texttt{NoTerminalSuperCapacitaryActivePotentialAtom.A}
+\Longleftrightarrow
+\texttt{FiniteCapacitaryExcess.A}
+\Longrightarrow
+\texttt{ParentActivePotentialCapacityDomination.A}.
+\tag{CAP.5}
+\]
+
+The open producer is the first two-input line as one same-parent storage
+construction before clipping. A downstream terminal-killing estimate is a
+consumer until that clock and storage are supplied.
 
 ## 5. What is closed and what is not
 

@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-current-active-capacity-full-exchange-physical-story-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-active-potential-terminal-survivor-dichotomy-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-meter-entropy-flux-split-same-history-capacity-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-root-payment-physical-spine-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-peak-control-proof-pass-20260703.md
@@ -201,6 +202,14 @@ of the subunit parent mode in TFE2748B.973-TFE2748B.976: a parent-announced
 test sees positive log-meter speed that beats the same packet's parabolic
 capacity after paid exits are removed. That mode is a useful obstruction only
 when it is the mode of the signed-height record.
+
+The terminal-survivor form sharpens the second branch. A failed parent active
+potential estimate becomes a terminal super-capacitary active-potential
+survivor. The survivor is excluded by before-clipping active-density comparison
+plus full-exchange no-self-feeding storage, but the signed-height use requires
+those two inputs for the same parent-admitted record meter. Terminal thickness
+or reverse-Holder language is downstream consumption unless that record clock
+has already been produced.
 
 ## 7. Current classification
 
