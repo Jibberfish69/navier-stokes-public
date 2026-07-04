@@ -192,8 +192,12 @@ live_route_table:
   - problems/navier-stokes/source-frontier.yaml
   bridge_needed: estimates from other objects need explicit bridge into the same
     Navier-Stokes object before counting as Gold closure
-  current_open_theorem: SignedCriticalHeightSignPersistenceOrPeakBound.A / signed
-    critical-height restart, as recorded in the live authority surfaces
+  current_open_theorem: >-
+    SignedCriticalHeightSignPersistenceOrPeakBound.A via the signed-height
+    same-parent package: ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A
+    + OriginalHistoryRecordResetRootPayment.A
+    + RecordAdmittedActiveFullExchangeCoupledStorage.A for the same record event
+    before selected readout, as recorded in the live authority surfaces.
   allowed_imports: source, pressure, material-history, and export estimates only
     when they prove direct regularity control for the shared object or pass through
     a named bridge
