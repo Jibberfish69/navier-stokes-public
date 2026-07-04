@@ -471,8 +471,8 @@ negative return that live on different face addresses, or can spend one physical
 return event on many future selected faces.
 
 This is a strict reduction, not closure.  It exposes the physical wall inside
-the reused-core branch: prove from original pressure-viscosity-
-incompressibility-velocity history that the same retained primitive channel has
-a finite record/return budget and a stopped face-address process before selected
-readout.  Until then, repeated-core storage, scalar BV, chamber-level return,
-finite-overlap witnesses, and laminar ancestry taxes remain support.
+the reused-core branch: prove from the original pressure, viscosity,
+incompressibility, and velocity history that the same retained primitive channel
+has a finite record/return budget and a stopped face-address process before
+selected readout.  Until then, repeated-core storage, scalar BV, chamber-level
+return, finite-overlap witnesses, and laminar ancestry taxes remain support.
