@@ -44,6 +44,9 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-face-local-signed-channel-construction-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-event-common-selector-chamber-admission-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-stopped-carrier-coverage-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-material-carrier-support-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-pre-readout-material-channelization-partition-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-raw-material-channel-formula-fixed-chart-proof-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-carrier-common-selector-ownership-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-same-face-negative-return-budget-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-shrinking-core-escape-capacity-lower-bound-direct-test-20260626.md
