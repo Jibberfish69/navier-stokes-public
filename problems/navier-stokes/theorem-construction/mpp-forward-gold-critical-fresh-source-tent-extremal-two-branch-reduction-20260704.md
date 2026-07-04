@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-capacity-goodlambda-weight-tail-equivalence-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-extremal-bad-tree-two-branch-reduction-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-repeated-core-record-return-balance-law-sharpener-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-shrinking-core-critical-reset-carleson-sharpener-20260704.md
 completion_truth: >-
   This note does not prove the fresh-source tent Carleson / scale-memory bound.
   It installs the nonduplicate physical reduction: once local payments and
@@ -161,6 +162,23 @@ ScaleInvariantSelectedCapacityNoEscape.A
 
 for the same original history. It must rule out infinitely many selected unit
 critical cores whose raw capacity or energy costs remain summable.
+
+The shrinking-core reset sharpener identifies the nonduplicate mechanism inside
+that phrase. After inherited no-reset children are routed back to repeated-core
+record/return, the only fresh branch is a parent-child selected reset. Raw
+capacity and raw reset distance are defeated by the same half-tail. The branch
+therefore requires:
+
+```text
+ParentChildResetOrRepeatedCoreDichotomy.A
++ ResetVisibleSelectedCarrierObservability.A
++ CriticalWeightedParentChildResetCarleson.A
+=> ScaleInvariantSelectedCapacityNoEscape.A.
+```
+
+The critical reset weight must be generated from original-history log-scale
+derivative, collar/turnstile, exchange, covector/frame, or equivalent
+same-material reset structure before child selected readout.
 
 ## 4. Strict reduction
 
