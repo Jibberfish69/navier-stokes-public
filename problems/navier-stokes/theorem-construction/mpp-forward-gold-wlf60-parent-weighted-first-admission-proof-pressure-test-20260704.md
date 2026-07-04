@@ -421,8 +421,10 @@ proved, and strict no-self-feeding full-exchange storage.  The checked
 TFE2748A/TFE2748B update demotes the first two grants to noncircular support.
 The remaining nonconsumer theorem is one strict same-parent active-critical /
 full-exchange / active-transit storage law from the original
-pressure-viscosity-incompressibility packet before child clipping, with
-subunit feedback or an independently proved storage face.
+pressure-viscosity-incompressibility packet before child clipping, with subunit
+feedback.  In the independent-face reading, this note identifies the storage
+face as WLF.60 / WLF.36 / ODP.91 early-row payment on the order-locked carrier,
+not a generic sibling reservoir.
 
 On the terminal fixed-core branch, probe admission/update and the material
 metric identity are support inputs. The no-jump clause is paid only by
