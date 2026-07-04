@@ -236,3 +236,26 @@ admitted stopped common-selector chamber:
 Retained-edge chart, detector, and face surfaces are support for those three
 jobs until they are stated on every primitive event inside the admitted chamber
 before selected readout.
+
+## 7. Admission sub-reduction
+
+The follow-up common-selector chamber admission reduction
+`mpp-forward-gold-primitive-event-common-selector-chamber-admission-reduction-20260704.md`
+sharpens `(CSN.12)'. Admission has two prior physical faces on the same primitive
+event:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveSignedChannelStoppedCarrierCoverageOrPaidEscape.A}\\
+&+\texttt{PrimitiveStoppedCarrierCommonSelectorOwnershipOrPaidReselection.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveEventStoppedCommonSelectorChamberAdmissionOrPaidEscape.A}.
+\tag{CSN.15}
+\]
+
+The first face covers the primitive signed-channel measure by parent-known
+stopped carriers before readout. The second gives each surviving carrier its
+common selector owner before the primitive PLS channel is read. Retained-edge
+selector capture and PLS decomposition inside already retained stopped chambers
+remain support until they prove those two primitive-event faces.

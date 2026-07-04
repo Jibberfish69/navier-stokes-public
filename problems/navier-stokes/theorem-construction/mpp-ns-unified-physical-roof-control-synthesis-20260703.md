@@ -861,6 +861,14 @@ lost positive sign must be paid by the negative part of that same face-local
 signed channel or by same-face physical return/rotation/diffusion/stop/exit.
 The formal same-face localization proof is support until the trace fiber and
 same-face signed return budget are constructed for primitive chamber events.
+The primitive common-selector chamber admission reduction is now installed in
+`mpp-forward-gold-primitive-event-common-selector-chamber-admission-reduction-20260704.md`.
+It sharpens the other side of the same event-map branch. Admission means the
+same primitive signed-channel event first has a parent-known stopped carrier,
+then that carrier has a parent-known common selector owner before the primitive
+PLS channel is read. Retained-edge selector capture and PLS decomposition inside
+already retained stopped chambers are support until they prove primitive stopped
+carrier coverage and primitive stopped-carrier common-selector ownership.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
