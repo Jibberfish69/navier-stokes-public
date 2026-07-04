@@ -920,6 +920,19 @@ selector readout, with finite overlap and paid boundary, off-chart,
 channel-rotation, service, legal, stop, or exit residue. Together with the
 fixed-chart formula it implies
 `PrimitiveSignedChannelPreReadoutMaterialChannelizationPartition.A`.
+The primitive raw material channel atlas multiplicity reduction is now installed
+in
+`mpp-forward-gold-primitive-raw-material-channel-atlas-multiplicity-reduction-20260704.md`.
+It separates ordinary geometric overlap from the live raw atlas burden.
+Fixed-scale smooth material charts and separated same-material clock packets
+have finite overlap, but that does not choose the active scale/collar/projector
+atlas for every primitive signed-channel event before readout. The open input is
+`PrimitiveRawActiveScaleCollarProjectorMultiplicityOrPaidBoundary.A`: bound
+active multiplicity of raw material channel claims on the primitive measure, or
+pay scale boundary, collar/projector transfer, channel rotation, material
+service, legal, stop, or exit. This implies
+`PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A` and hence feeds
+the pre-readout material channelization partition.
 The primitive stopped-carrier common-selector ownership reduction is now
 installed in
 `mpp-forward-gold-primitive-stopped-carrier-common-selector-ownership-reduction-20260704.md`.
