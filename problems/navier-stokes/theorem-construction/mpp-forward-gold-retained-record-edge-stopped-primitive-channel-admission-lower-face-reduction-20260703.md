@@ -12,6 +12,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-common-selector-refinement-identity-repair-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-cone-aperture-consumed-support-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-pls-signed-channel-decomposition-repair-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-common-selector-refinement-parent-announced-capture-reduction-20260703.md
 completion_truth: >-
   This note does not prove RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A.
   It reduces that coupled channel admission to three lower physical faces:
@@ -123,6 +124,22 @@ record edge, it must construct one parent-known stopped carrier, selector cone,
 order-lock, polarity, and primitive channel before positive readout. Any mass
 lost while changing labels, cutoffs, projections, order-locks, representatives,
 collars, charts, or packet coordinates is charged before readout.
+
+The parent-announced capture pass reduces this face further:
+
+```math
+\texttt{RetainedRecordEdgeParentAnnouncedSelectorCapture.A}
++\texttt{stopped-selector variation/payment support}
+\Longrightarrow
+\texttt{RetainedRecordEdgeCommonSelectorRefinementNoLoss.A}.
+\tag{RSC.5a}
+```
+
+The unpaid part is not selector motion after capture. Existing stopped-selector
+surfaces pay that motion relative to same-packet strain/exchange, viscous/radius,
+legal, stop, and order-lock currencies. The unpaid part is capturing the
+arbitrary future-positive record edge by a finite parent-known stopped score
+before the record reads its positive part.
 
 `RetainedRecordEdgePrimitiveChannelCompatibility.A` is the coordinate
 compatibility theorem. On that stopped selector, the higher exact-projector
