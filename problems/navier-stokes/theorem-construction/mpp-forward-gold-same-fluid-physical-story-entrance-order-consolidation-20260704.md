@@ -308,9 +308,10 @@ one parent object:
 
 The root-payment projection supplies the selected-critical face of the active
 state; the coupled matrix absorbs feedback after the record edge is admitted to
-that same carrier.  Using root payment to manufacture the parent active state,
-or using record-admitted storage to manufacture pre-readout root currency, is the
-same reserve self-financing circle in different coordinates.
+that same carrier.  A root-payment proof that imports parent-predictable active
+weight or selected-critical currency, and a record-storage proof that imports
+finite critical-source excess, are the same reserve self-financing circle in
+different coordinates.
 
 The common key is physical, not a formal product of two marginal ledgers.  Each
 record-positive primitive piece must already live in one pre-readout event space
