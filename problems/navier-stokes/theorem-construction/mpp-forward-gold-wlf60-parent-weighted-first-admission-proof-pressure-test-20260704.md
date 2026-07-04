@@ -16,11 +16,12 @@ role: >-
   local first-admission native atom, and raw Bessel admission measure are
   installed support. They do not prove the selected-critical parent-weighted
   first-admission root upper bound. The direct proof reduces to one
-  parent-weighted pulse measure with strict viscosity feedback: a same selected
-  native carrier for the lower fresh source and upper selected positive queue,
-  with the overrun paid on that carrier. Stopped potential-average control and
-  positive second-order scale exactness are analytic faces of that same carrier
-  key, not independent sibling exits.
+  parent-weighted pulse measure with strict viscosity feedback: an order-locked
+  full-packet selected carrier for the lower fresh source and upper selected
+  positive queue, with the order-lock overlap and selected overrun paid on that
+  carrier. Stopped potential-average control and positive second-order scale
+  exactness are analytic faces of that same carrier key, not independent sibling
+  exits.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-fresh-linear-service-half-tail-obstruction-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-storage-matrix-early-branch-obstruction-20260704.md
@@ -31,8 +32,9 @@ completion_truth: >-
   checked obstruction to proving WLF.60 from raw same-parent Bessel mass,
   no-recount, or local first-admission alone, and isolates the next genuinely
   smaller theorem: parent-weighted first-admission pulse measure finiteness
-  with strict viscosity feedback on the same selected native carrier that
-  carries the lower fresh source and the upper selected positive queue.
+  with strict viscosity feedback on the order-locked full-packet selected
+  carrier that carries the lower fresh source, the upper selected positive queue,
+  the paid same-packet partner overlap, and the selected overrun.
 ---
 
 # WLF.60 parent-weighted first-admission proof pressure test
@@ -227,14 +229,26 @@ These are not three independent exits. The common proof key is:
 
 \[
 \begin{aligned}
-&\text{same selected native carrier for the lower fresh source and upper
-selected positive queue}\\
+&\text{order-locked full-packet selected carrier for the lower fresh source
+and upper selected positive queue}\\
+&+\text{same-packet order-lock overlap payment}\\
 &+\text{selected overrun payment on that carrier}
 \Longrightarrow
 \text{parent-weighted pulse measure finiteness}.
 \end{aligned}
 \tag{WPT.13}
 \]
+
+The full-packet audit sharpens the first line of `(WPT.13)'. A raw
+channel-first native-source identity is false: the same smooth packet may show
+a positive native channel while pressure, viscosity, time, incompressibility,
+localization, and sign partners cancel it in the recombined full packet. Thus
+the carrier in `(WPT.13)' must be selected after full-packet scalarization
+before positive-part extraction, or the lost partner must be paid by the exact
+order-lock overlap \(\Delta^{ol}=\min([n]_+,[-b]_+)\). The selected overrun
+payment is a theorem on that admitted carrier, and its unresolved endpoint form
+is same-carrier tail uniform integrability / nested-core tightness rather than
+a generic critical-factor bound.
 
 That is genuinely smaller than Gold closure because `(WPT.4)' already pushes
 it to the selected heat-lag bill, and the active-capacity notes already consume
@@ -253,8 +267,10 @@ Failed direct proof: the standard critical estimate closes only the small
 
 Strict reduction: WLF.60 reduces to `(WPT.10)'. The stopped
 potential-average face `(WPT.11)' and positive second-order exactness face
-`(WPT.12)' count only when they are proved on the same selected native carrier
-identified in `(WPT.13)' with selected overrun payment on that carrier.
+`(WPT.12)' count only when they are proved on the order-locked full-packet
+selected carrier identified in `(WPT.13)', with the same-packet order-lock
+overlap paid and selected overrun tail UI / nested-core tightness proved on that
+carrier.
 
 Support: Bessel square, route ownership, no-recount, local native admission,
 and pushforward are support until the parent-weighted pulse measure itself is
