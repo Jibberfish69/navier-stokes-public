@@ -24,6 +24,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-active-potential-terminal-survivor-dichotomy-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-exchange-no-self-feeding-physical-lyapunov-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-storage-matrix-early-branch-obstruction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-parent-source-payment-package-unification-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-meter-entropy-flux-split-same-history-capacity-reduction-20260703.md
@@ -380,6 +381,12 @@ parent-weighted selected first-admission pulse measure must have finite
 original-history mass with strict viscosity feedback. A record can then read a
 sub-heat-lag first pulse only as the pushforward of that already admitted parent
 measure, not as a new child source.
+
+The WLF.60 proof test keeps that row from being overread. It says no-recount
+and raw Bessel admission prove the pulse is same-parent and counted once, while
+the signed-height use still needs the weighted root upper bound. The current
+smaller theorem is stopped potential-average control or positive second-order
+scale exactness on the same parent-weighted pulse.
 
 The source-checked lower split is:
 

@@ -26,6 +26,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-active-potential-terminal-survivor-dichotomy-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-exchange-no-self-feeding-physical-lyapunov-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-storage-matrix-early-branch-obstruction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
 completion_truth: >-
   This note proves no new estimate. It records a checked strict reduction:
   raw same-parent pressure-Hodge atoms and retained opposite-lobe reserve are
@@ -199,6 +200,13 @@ Same-parent detection, Bessel square support, no-recount, and local first
 admission are support; the missing source is a finite original-history
 parent-weighted pulse measure with strict viscosity feedback for all selected
 sub-heat-lag first admissions.
+
+The WLF.60 pressure test records the next physical reduction. The standard
+critical estimate only closes the small \(\dot H^{1/2}\) packet case; arbitrary
+data still need the selected-critical weighted root upper bound. In scale
+coordinates, that reduces to stopped potential-average control or positive
+second-order scale exactness / fresh same-carrier identity plus selected
+overrun payment.
 
 ## 5. What is closed and what is not
 

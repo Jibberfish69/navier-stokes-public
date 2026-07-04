@@ -26,6 +26,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-exchange-no-self-feeding-physical-lyapunov-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-active-potential-terminal-survivor-dichotomy-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-fresh-linear-service-half-tail-obstruction-20260629.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
 completion_truth: >-
   This note proves no storage theorem and no smoothness theorem. It records the
   exact physical obstruction in the current simultaneous-matrix proof attempt:
@@ -235,6 +236,13 @@ This is WLF.60 in the heat-lag slice. It is exactly the early-branch storage
 needed here: a finite original-history measure for all selected first-admission
 sub-heat-lag pulses, with strict viscosity feedback, before future selected
 tail readout is used.
+
+The WLF.60 pressure test sharpens the status of that line. Same-parent
+detection, no-recount, raw Bessel admission, and local first-admission native
+atoms are installed support, but they do not imply the weighted root upper
+bound. The remaining smaller theorem is stopped potential-average control or
+positive second-order scale exactness, equivalently fresh same-carrier identity
+plus selected overrun payment on the parent-weighted pulse measure.
 
 ## 5. The smaller noncircular theorem
 
