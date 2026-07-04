@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-root-record-reset-single-geometry-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-capacity-signed-height-record-admission-boundary-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-active-potential-terminal-survivor-dichotomy-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-exchange-no-self-feeding-physical-lyapunov-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-parent-source-payment-package-unification-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-meter-entropy-flux-split-same-history-capacity-reduction-20260703.md
@@ -356,6 +357,14 @@ full-exchange no-self-feeding storage, and in this synthesis those two inputs
 must be record-admitted to the signed-height upcrossing. Otherwise the estimate
 pays a local selected-meter clock while the record work remains on another
 carrier.
+
+The full-exchange Lyapunov test adds the physical payer check. The raw
+pressure-Hodge exchange pair is closed before weighting; the selected surplus
+appears only when the signed/critical meter reprices that pair. The record
+storage row therefore has to supply a same-parent bounded-below drop for that
+weighted surplus with strict subunit feedback. A proof that spends critical
+source storage to obtain full exchange, then recovers critical source from full
+exchange, is the same self-financing loop at the signed-height record level.
 
 The source-checked lower split is:
 
