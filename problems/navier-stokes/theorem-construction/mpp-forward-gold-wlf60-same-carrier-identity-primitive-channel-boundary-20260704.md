@@ -232,6 +232,18 @@ mismatch is evacuated instead, `FreshSameCarrierIdentity.A` is the surviving
 Gold branch and the only remaining forward product is same-carrier overrun tail
 payment.
 
+The existing mismatch-evacuation reduction sharpens this first gate again.
+Installed finite-graph reductions pay legal, reselection, finite donor,
+pair-weight, entrance, and polar-retention defects.  After those finite clauses
+are removed, the only serious surviving mismatch is the infinite same-fluid
+terminal Zeno donor chain carrying selected positive native source.  The
+terminal Zeno branch is already visible to endpoint tests, the full
+Hodge-Stokes participation tuple, or the coupled mixed tower; the unpaid forward
+Gold branch is `TerminalZenoVisibleReadoutPayment.A`, namely payment of the
+visible high-factor / height / finite-rung / source-square / no-waste readout by
+an unweighted reserve on the same selected carrier, or routing through the
+installed legal, endpoint, profile, or CM consumers.
+
 ## 5. Checked obstruction to shortcut closure
 
 The invalid shortcut is:
