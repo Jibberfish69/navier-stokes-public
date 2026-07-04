@@ -1706,3 +1706,75 @@ parent-known event key, finite local custody charges for that key, and one
 shared same-carrier active/root payment from original Navier-Stokes history.
 This is a strict reduction and a governance simplification, not a proof of
 Gold closure.
+
+## 27. State-deletion law is the shared producer
+
+The shared active/root payment in `(SCSS.68)' has an older root-geometry
+presentation and a sharper physical presentation.  Root geometry, affine
+martingale square-packing, selected log-amplification, native-birth packing,
+positive critical transfer, endpoint-seed packing, and signed moving PLS
+coercivity are not sibling Gold bottoms.  They are coordinate faces of one
+state-deletion law for the same original coupled packet before child positive
+clipping.
+
+After order-lock, no-recount, Schur/Bessel first-entry support, local custody,
+legal/stop routing, return/reset consumers, and endpoint-thickness consumers are
+removed, a failure has one form: a retained same-parent high-ratio positive tail
+keeps creating selected future-positive service while the original packet pays
+only finite raw cost.  In layer-count form, the missing contraction is
+
+\[
+N_{L+1}
+\le
+\theta N_L+B_L,
+\qquad
+\theta<\frac12,
+\qquad
+\sum_L2^L B_L<\infty .
+\tag{SCSS.69}
+\]
+
+In physical form, every retained positive high-ratio visit of the same
+pressure-viscosity-incompressibility-velocity packet must either decrease a
+parent-fixed signed score in the repeated-core branch, spend a critical
+shrinking-core reset / first endpoint seed charge in the native-birth branch, or
+enter terminal thickness, legal, or stop payment.  Equivalently, the original
+packet must construct a parent-known active capacity before child clipping whose
+root total is finite and whose one-loop drop pays selected positive action with
+a strict viscosity margin.
+
+Thus the current original-data producer can be named without duplicate route
+vocabulary:
+
+\[
+\text{original coupled packet}
+\Longrightarrow
+\text{strict same-parent feedback state deletion}
+\Longrightarrow
+\Gamma_{\rm pre}^{act/root}.
+\tag{SCSS.70}
+\]
+
+This absorbs the following labels as equivalent faces of the same unproved
+producer at the current Gold edge:
+
+\[
+\begin{gathered}
+\texttt{PositiveCriticalTransferBound.A}
+\equiv
+\texttt{NativeBirthChargePacking.A}
+\equiv
+\texttt{FirstEndpointSeedPacking.A}\\
+\equiv
+\texttt{SignedMovingPLSCoercivity.A}
+\equiv
+\text{strict half-barrier/state deletion}.
+\end{gathered}
+\tag{SCSS.71}
+\]
+
+The installed source checks prove support and consumers around this law, not the
+law itself.  Raw same-parent ownership, finite raw square mass, finite local
+service, compactness/zero-cost rigidity, and endpoint visibility all survive the
+half-tail countertest unless `(SCSS.69)' or the equivalent state-deletion
+inequality is proved from arbitrary original smooth Navier-Stokes data.
