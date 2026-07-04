@@ -195,3 +195,25 @@ event into:
 before the event is counted, or pay the failure on that same chamber. Until that
 is proved, the event-address branch has support coordinates but not a completed
 primitive event address.
+
+## 6. Chart/projector sub-reduction
+
+The follow-up chart/projector lift reduction
+`mpp-forward-gold-primitive-chamber-chart-projector-lift-reduction-20260704.md`
+sharpens the first coordinate in `(NCL.10)'. On an admitted stopped
+common-selector chamber:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberC11MetricTowerOrExit.A}\\
+&+\texttt{PrimitiveStoppedChamberHigherProjectorServiceOrExit.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberChartProjectorLiftOrPaidExit.A}.
+\tag{NCL.11}
+\]
+
+This is the chamber-level analogue of the retained-edge exact-projector
+chart-license split. Retained-edge chart license remains support until the
+metric tower and higher projector service are proved for primitive events in
+the admitted chamber before selected readout.

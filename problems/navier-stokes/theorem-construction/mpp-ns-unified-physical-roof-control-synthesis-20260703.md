@@ -834,6 +834,12 @@ lift splits into three same-chamber jobs: chart/projector lift or paid exit,
 detector/channel lift or paid service, and face/polarity lift or paid return.
 Existing retained-edge and post-map coordinate surfaces remain support until
 they are restated at this primitive chamber level.
+The primitive chamber chart/projector lift reduction is now installed in
+`mpp-forward-gold-primitive-chamber-chart-projector-lift-reduction-20260704.md`.
+It sharpens the chart/projector job to the chamber-level analogue of the
+retained-edge chart-license split: same-chamber C11 metric tower or exit plus
+same-chamber higher projector service or exit. Retained-edge chart license is
+support until those inputs are proved for primitive events before readout.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
