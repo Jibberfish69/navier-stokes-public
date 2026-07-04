@@ -776,6 +776,14 @@ same packet's chart/projector physics, detector/channel physics, or off-face
 material/legal/stop/exit physics. Service is not allowed to stand as an
 untyped paid bucket.
 
+The off-face term cannot be sourced from
+`PrimitiveChannelPreReturnAddressChangeCharge.A' here. That charge uses the
+face-trace branch, and the face trace is built from the parent-currency face
+atlas after `(SCSS.32b''b)' has already been proved. The noncircular off-face
+source is earlier: pre-readout material channelization, parent active-state
+boundary payment, original-history root/endpoint payment, and the
+parent-currency face boundary law.
+
 The second and third inputs of `(SCSS.32b')' are now reduced to their physical
 jobs:
 
