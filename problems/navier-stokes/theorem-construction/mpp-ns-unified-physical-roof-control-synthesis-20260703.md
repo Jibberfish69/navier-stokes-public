@@ -543,6 +543,16 @@ channels; predictability, Bessel, representation, sparse packing, reset, and
 record/root rows are consumers unless they are attached to the admitted
 signed-height edge. This is a strict reduction and authority correction, not
 source closure.
+The current active-capacity/full-exchange physical story is now installed in
+`mpp-forward-gold-current-active-capacity-full-exchange-physical-story-20260704.md`.
+It aligns that roof with the direct TFE2748B depth: after raw same-parent
+pressure-Hodge atoms and retained opposite-lobe reserve are closed, the
+remaining unproved physical object is the critical meter's unequal pricing of
+already paired lobes. In current coordinates this is the TFE2748B.1343
+form-compensator / `ParentActivePotentialCapacityDomination.A` problem,
+equivalently the coupled `ActiveTransitLocalStorage.A` +
+`FullExchangeNoSelfFeedingStorage.A` parent storage target. This is still a
+strict reduction and open source theorem, not Gold closure.
 The fresh-source tent extremal reduction makes the physical shape explicit:
 after inherited parent pieces and local consumers are removed, the bad object is
 one original history with finite raw fresh mass but infinite selected-critical

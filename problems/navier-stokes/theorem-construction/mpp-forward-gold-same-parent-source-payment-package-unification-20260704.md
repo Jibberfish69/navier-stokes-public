@@ -27,6 +27,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-subtracted-dynamic-silent-fresh-innovation-carleson-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-full-exchange-native-reserve-pivot-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-testing-defect-to-fresh-weighted-paired-carrier-correction-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-current-active-capacity-full-exchange-physical-story-20260704.md
 completion_truth: >-
   This is not a proof of the source payment or of Navier-Stokes smoothness. It
   is a strict consolidation: the remaining producer must be attacked as one
@@ -197,3 +198,32 @@ Open proof-sized object:
 \text{before selected record readout.}
 \tag{SPU.3}
 \]
+
+## 7. Current direct-live depth
+
+The direct-live TFE2748B edge has since pushed this roof down to a sharper
+coordinate. The same parent packet already has its raw pressure-Hodge
+atomization, coefficient/leakage control, and retained opposite-lobe reserve
+before clipping. What remains is not another raw atom or clipping problem.
+
+After the critical meter prices the already paired lobes differently, the
+surplus is the positive log-meter motion of the same parent history. The
+current bottom asks for a bounded-below active compensator and subunit parent
+capacity residual:
+
+\[
+a_\Phi(F_P)[\mathcal L_P\log W_P^{crit}]_+d\mathfrak m_P
+\le
+-dK_P^{act}
++\vartheta\,\operatorname{Cap}_{A,P}
++dE_P^0,
+\qquad C_N\vartheta<1.
+\tag{SPU.4}
+\]
+
+Equivalently, the active source is now represented by
+`ParentActivePotentialCapacityDomination.A` / TFE2748B.1343, or by the
+back-substituted pair `ActiveTransitLocalStorage.A` +
+`FullExchangeNoSelfFeedingStorage.A`. This is a stricter current-depth reading
+of the same physical source package, not a proof and not a renewed list of
+independent bottom targets.
