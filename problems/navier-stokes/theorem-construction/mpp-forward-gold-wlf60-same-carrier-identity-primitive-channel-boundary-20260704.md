@@ -240,11 +240,15 @@ terminal Zeno donor chain carrying selected positive native source.  The
 terminal Zeno branch is already visible to endpoint tests, the full
 Hodge-Stokes participation tuple, or the coupled mixed tower.  That makes
 `TerminalZenoVisibleReadoutPayment.A` a valid endpoint reduction, not the live
-producer.  The producer is the unweighted same-carrier visible-readout reserve on
-the actual selected terminal carrier, currently reduced to
-`FreshPotentialAverageKillAndPositiveTransfer.A` or
-`FreshPositiveStressSecondOrderExactness.A`; otherwise the branch routes through
-the installed legal, endpoint, profile, or CM consumers.
+producer.  The checked full-packet audit lowers the unpaid retained selected atom
+with no trace payment to `TerminalFullPacketNoResiduePayment.A`: identify the
+visible terminal readout with the positive part of the same Hodge-Stokes
+participation packet, then prove a participation-preserving no-residue full-cycle
+payment or the equivalent lossless full-packet compactness-rigidity
+contradiction.  The fresh-potential, positive second-order exactness, and
+terminal Rellich reserve routes count here only as mechanisms for that same
+full-packet payment; otherwise the branch routes through the installed legal,
+endpoint, profile, or CM consumers.
 
 ## 5. Checked obstruction to shortcut closure
 
