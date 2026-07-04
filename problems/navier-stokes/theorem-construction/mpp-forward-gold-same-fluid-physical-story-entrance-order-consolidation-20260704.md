@@ -333,6 +333,16 @@ root-fixed terminal-uniform \(L^1\) full-packet service storage built from the
 original pressure-viscosity-incompressibility packet. These are proof-method
 reductions inside `(SFP.14)', not sibling route labels.
 
+The service/root-geometry phrase has now been tightened by the checked
+service-storage audits. Local shell energy, raw Bessel freshness,
+selected-forest complete-frame capacity, scalar current Bellman storage, probe
+admission/update, and interior active graph coercivity are support or no-go
+tests. The strict producer is original-history root-native reserve before
+readout, and on the terminal fixed-core branch it is root-fixed terminal-uniform
+\(L^1\) full-packet service storage whose service density dominates the endpoint
+measure. Terminal no-atom follows from that storage; it is not a separate final
+wall.
+
 Physically, the remaining proof must show that a thin signed-height record cannot
 keep exporting future-positive pressure/strain service through smaller and
 smaller record readouts while the same original parent packet pays only finite
