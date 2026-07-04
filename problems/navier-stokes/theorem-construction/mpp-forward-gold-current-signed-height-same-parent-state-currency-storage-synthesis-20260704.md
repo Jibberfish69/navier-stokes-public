@@ -1442,3 +1442,70 @@ address ownership, finite root payment, and record admission are support unless
 they are synchronized on the same primitive signed-height event before readout.
 The remaining Gold producer is a single original-history construction of
 \(\Xi\) and a finite \(\Gamma_{\rm pre}\) on that key.
+
+## 22. Parent-currency off-face reduces to active-potential storage
+
+The parent-currency off-face entry of \(\Gamma_{\rm pre}^{addr}\) is not a
+separate service estimate.  In the one-fluid reading, it is the same stopped
+parent packet after pressure has paired the opposite lobes and viscosity has
+supplied the parent parabolic capacity, but before the selected critical meter
+has clipped the child readouts.  The remaining charge is the positive
+active-potential price gap created when the critical meter prices those already
+paired lobes unequally.
+
+Thus this entry of the first-boundary charge currently factors through the
+existing active-potential wall:
+
+\[
+\begin{aligned}
+&\texttt{BeforeClippingActiveDensityComparison.A}\\
+&+\texttt{FullExchangeNoSelfFeedingStorage.A}
+\end{aligned}
+\Longrightarrow
+\texttt{NoTerminalSuperCapacitaryActivePotentialAtom.A}
+\Longrightarrow
+\texttt{ParentActivePotentialCapacityDomination.A}
+\Longrightarrow
+\Gamma_{\rm pre}^{addr}
+\text{ on parent-currency off-face transitions}.
+\tag{SCSS.62}
+\]
+
+The direct physical test does not prove this chain.  Pressure supplies the raw
+same-parent exchange pair and viscosity supplies capacity-admissible residue,
+but neither alone supplies a bounded-below storage drop for the selected
+weighted surplus.  The sequential route is circular if
+\(\texttt{FullExchangeNoSelfFeedingStorage.A}\) is paid from preallocated
+critical-source storage and that same critical-source storage is then recovered
+from full exchange.
+
+The noncircular lower target is therefore one simultaneous same-parent storage
+inequality, before clipping and on the same record event,
+
+\[
+\begin{pmatrix}
+dZ_P^{crit}\\
+d\Xi_P^{FE,act}\\
+dA_P^{AT}
+\end{pmatrix}
+\le
+-d
+\begin{pmatrix}
+M_P^{crit}\\
+M_P^{FE}\\
+M_P^{AT}
+\end{pmatrix}
++K_P
+\begin{pmatrix}
+dZ_P^{crit}\\
+d\Xi_P^{FE,act}\\
+dA_P^{AT}
+\end{pmatrix}
++\mathbf d\Theta_P^0+\mathbf dPaid_P,
+\qquad
+\rho(K_P)<1,
+\tag{SCSS.63}
+\]
+
+or an independent original-data proof of one of the storage faces.  This is a
+strict reduction and a checked obstruction, not Gold closure.
