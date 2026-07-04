@@ -492,6 +492,15 @@ blocks the circular use of record-admitted depletion/reset/storage as this
 input: those theorems consume root projection after entrance. Active/full-exchange
 coupled storage is downstream after entrance; it is not evidence that the edge
 entered parent root/full-exchange currency.
+The pre-entrance scale-memory producer collapse is now installed in
+`mpp-forward-gold-root-projection-pre-entrance-scale-memory-producer-collapse-20260704.md`.
+It sharpens that third input: parent-known scale-memory representation and
+maximal witness sparse packing are conditional support, while the remaining
+noncircular producer is `OriginalScaleMemoryGeneratorEnergyBound.A`,
+equivalently `OriginalScaleMemoryStorageCoercivity.A` /
+`SelectedGeneratorStorageCoercivity.A` / `PositiveCriticalTransferBound.A`.
+Natural scale-memory storage supplies a signed balance, not the selected
+generator square coercivity.
 The fresh-source tent extremal reduction makes the physical shape explicit:
 after inherited parent pieces and local consumers are removed, the bad object is
 one original history with finite raw fresh mass but infinite selected-critical
