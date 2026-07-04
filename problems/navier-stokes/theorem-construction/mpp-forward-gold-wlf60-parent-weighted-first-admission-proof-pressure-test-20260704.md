@@ -495,7 +495,9 @@ Duhamel-Hodge, endpoint admission, retained heat decay, same-parent detectors,
 Bessel square, and entropy/BMO now classified as support.  The open
 proof-sized object is the simultaneous same-parent active-critical /
 full-exchange / active-transit storage inequality, or an independently proved
-storage face, from the original packet before clipping.
+storage face, from the original packet before clipping.  After the signed-height
+restart, that storage has Gold force only in record-admitted form: it must pay
+the same signed-height upcrossing whose selected meter is being read.
 
 Support: Bessel square, route ownership, no-recount, local native admission,
 Schur storage after admission, probe admission/update, terminal no-replay

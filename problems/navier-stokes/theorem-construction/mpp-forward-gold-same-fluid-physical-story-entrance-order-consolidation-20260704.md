@@ -352,7 +352,9 @@ support: they make the selected child readout a lawful parent-pulled test of
 one coupled packet before clipping. The remaining nonconsumer theorem is the
 strict same-parent active-critical/full-exchange/active-transit storage law, or
 an independently proved storage face, from the original
-pressure-viscosity-incompressibility packet. On the terminal
+pressure-viscosity-incompressibility packet. After the signed-height restart,
+that storage must be record-admitted to the same signed-height upcrossing before
+it has Gold force. On the terminal
 fixed-core branch the same producer is read as root-fixed terminal-uniform
 \(L^1\) full-packet service storage whose service density dominates the endpoint
 measure. Terminal no-atom follows from that storage; it is not a separate final

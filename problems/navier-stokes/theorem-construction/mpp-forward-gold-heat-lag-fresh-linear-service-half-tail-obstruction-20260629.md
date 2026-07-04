@@ -1268,3 +1268,6 @@ admission, and Duhamel formulas are support.  Active capacity and full-exchange
 language are support as well until `(WLF.67)' is proved from the original
 pressure-viscosity-incompressibility packet before child clipping, or until one
 of its storage faces is proved independently without reserve self-financing.
+For Gold force after the signed-height restart, the same storage must also be
+record-admitted: the selected meter controlled by `(WLF.67)' has to be the
+parent-admitted meter of the same signed-height upcrossing before readout.
