@@ -557,6 +557,16 @@ parent-predictable root geometry, signed primitive return BV, and critical
 weighted reset current generated from the same coupled
 pressure-viscosity-incompressibility-velocity packet. This is not closure; it is
 the single physical wall behind both branch names.
+The active-state/root-payment same-parent projection synthesis is now installed
+in
+`mpp-forward-gold-active-state-root-payment-same-parent-projection-synthesis-20260704.md`.
+It identifies `OriginalHistoryRecordResetRootPayment.A` as the signed-height
+selected-critical face of `ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A`.
+Parent active-state capacity names the whole pre-readout state space of the
+original packet; root payment names the selected-critical currency on the
+record-relevant face; record-admitted coupled storage names the same signed-height
+work entering that carrier. Current sources still do not construct that
+same-parent state/currency/storage package from original data.
 The predictable-weight causality collapse is now installed in
 `mpp-forward-gold-root-payment-predictable-weight-causality-collapse-20260704.md`.
 It places `StoppedSelectorPredictableWeight.A` inside that same roof:
