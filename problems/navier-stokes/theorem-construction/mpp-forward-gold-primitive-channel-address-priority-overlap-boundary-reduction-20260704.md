@@ -205,3 +205,23 @@ The remaining physical work is not an abstract priority rule. It is to show
 that every primitive event is in a parent-known stopped address cell, and that
 any competing address cell is a real same-packet coordinate boundary already
 paid, stopped, legal, or exited before the event is counted.
+
+## 7. First-difference refinement
+
+The follow-up first-difference reduction
+`mpp-forward-gold-primitive-overlap-first-difference-charge-reduction-20260704.md`
+sharpens `(POB.4)' after selector normalization. On normalized stopped
+common-selector candidate cells, two unequal labels have a first physical
+coordinate where they differ: selector/chamber owner, chart/projector,
+detector/channel, or face/polarity. Charging that first disagreement before
+readout implies the full overlap-boundary charge without using the post-map
+address-change theorem.
+
+Thus the overlap input may now be replaced by:
+
+\[
+\texttt{PrimitiveStoppedCommonSelectorCellOverlapFirstDifferenceCharge.A}
+\Longrightarrow
+\texttt{PrimitiveAddressCellOverlapBoundaryCharge.A}.
+\tag{POB.10}
+\]
