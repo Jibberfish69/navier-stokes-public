@@ -1509,6 +1509,8 @@ dA_P^{AT}
 
 or an independent original-data proof of one of the storage faces.
 
+## 23. The early row is WLF.60
+
 The record-admission and no-detachment stack does a different job.  It keeps the
 same signed-height record edge attached to the carrier in compactness; it does
 not pay the early branch of `(SCSS.63)'.  In heat-lag first-admission
