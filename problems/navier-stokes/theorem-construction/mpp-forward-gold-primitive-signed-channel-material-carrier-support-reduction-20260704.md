@@ -254,6 +254,23 @@ Still open:
 \tag{MCS.12}
 ```
 
+The follow-up consolidation
+`mpp-forward-gold-primitive-signed-channel-pre-readout-material-channelization-partition-20260704.md`
+shows that these two inputs should be attacked as one physical source theorem:
+
+```math
+\texttt{PrimitiveSignedChannelPreReadoutMaterialChannelizationPartition.A}
+\Longrightarrow
+\texttt{PrimitiveSignedChannelDirectMaterialRepresentation.A}
++
+\texttt{PrimitiveSignedChannelOffCarrierServiceCharge.A}.
+\tag{MCS.13}
+```
+
+That theorem is still open. It asks for a pre-readout partition of the primitive
+signed-channel measure into same-packet material channel events and paid
+off-carrier residue.
+
 This is a strict reduction. The physical order is now: first prove that the
 primitive signed event is a real coordinate of the same Navier-Stokes packet or
 charge it as off-carrier service; then build the stopped carrier atlas; then
