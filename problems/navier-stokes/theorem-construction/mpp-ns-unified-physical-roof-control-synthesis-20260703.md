@@ -534,6 +534,16 @@ children must pay `CriticalWeightedParentChildResetCarleson.A` from
 original-history log-scale derivative, collar/turnstile, exchange, or
 covector/frame motion before child readout. Raw capacity and raw reset distance
 still fail the half-tail.
+The selected-root record/reset single-geometry synthesis is now installed in
+`mpp-forward-gold-selected-root-record-reset-single-geometry-synthesis-20260704.md`.
+It removes a duplicate fork reading: repeated-core reuse and shrinking-core
+escape are the inherited record/return face and the fresh reset-innovation face
+of one stopped original-history root geometry before selected readout. In compact
+form, the strict producer is `OriginalHistoryRecordResetRootPayment.A`, meaning
+parent-predictable root geometry, signed primitive return BV, and critical
+weighted reset current generated from the same coupled
+pressure-viscosity-incompressibility-velocity packet. This is not closure; it is
+the single physical wall behind both branch names.
 The pressure-active/silent face now reduces to
 `RecordMenuPressureActiveQuotientAngleGap.A` plus
 `RecordMenuDetectorSilentServicePreReadoutReserve.A`: raw detector faithfulness
