@@ -847,6 +847,20 @@ projector forced by incompressibility. The open inputs are same-chamber C11
 metric tower or exit plus same-chamber higher projector service or exit.
 Retained-edge chart license is support until those inputs are proved for
 primitive events before readout.
+The same nonselector lift note now records the detector/channel physical
+reduction. The packet's pressure-visible stress must be angle-locked to the
+selector-announced channel or paid as same-packet channel rotation, while
+detector-silent and detector-near-silent work must have a finite pre-readout
+same-material reserve. Local silent-source routing is support; the open
+chamber-level inputs are
+PrimitiveStoppedChamberPressureActiveAngleLockOrPaidRotation.A and
+PrimitiveStoppedChamberDetectorSilentReserveOrPaidService.A.
+It also records the face/polarity physical reduction. A selected positive face
+must be a pre-readout trace of the selector-owned primitive signed channel, and
+lost positive sign must be paid by the negative part of that same face-local
+signed channel or by same-face physical return/rotation/diffusion/stop/exit.
+The formal same-face localization proof is support until the trace fiber and
+same-face signed return budget are constructed for primitive chamber events.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
