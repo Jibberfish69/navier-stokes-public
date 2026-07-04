@@ -17,6 +17,7 @@ role: >-
   thickness/boundary service, legal loss, stop, or exit. Same-face negative
   return is downstream and cannot be used to build this charge.
 source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-face-trace-fiber-atlas-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-address-change-charge-split-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-trace-address-process-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-face-local-signed-channel-construction-reduction-20260704.md
@@ -74,6 +75,22 @@ The first input is the face fiber itself:
 It supplies a parent-known pre-readout face trace for
 \(d\mu_{\kappa,C}\)-almost every primitive event, or pays detachment, zero
 thickness loss, legal loss, service, stop, or exit.
+
+The new lower reduction for this row is:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberPreReadoutFaceAtlasOrPaidDetachment.A}\\
+&+\texttt{PrimitiveStoppedChamberFaceOverlapBoundaryLaw.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberFaceTraceFiberOrPaidDetachment.A}.
+\tag{PFT.3a}
+\]
+
+Physically, the chamber needs a parent-known face atlas and a pre-readout
+overlap/boundary law before the proof can even say which face a primitive event
+belongs to.
 
 The second input is a no-detachment modulus for that primitive trace:
 
