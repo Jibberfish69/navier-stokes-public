@@ -565,6 +565,14 @@ It sharpens the proof method for that carrier: compactness/zero-cost rigidity
 must retain the record-admission row. A freestanding critical carrier or
 full-exchange storage limit remains support if the signed-height record work can
 disappear from the limiting carrier.
+The record-admission same-edge closed-graph reduction is now installed in
+`mpp-forward-gold-record-admission-same-edge-closed-graph-reduction-20260704.md`.
+It makes that compactness burden physical: the limiting carrier must preserve the
+same retained record edge through parent selector capture, retained
+exact-projector chart/license, pressure-active-or-silent service split, and
+root/full-exchange face address. Current sources prove scalar record work, native
+work coordinates, and downstream storage support, but not this same-edge closed
+graph.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
