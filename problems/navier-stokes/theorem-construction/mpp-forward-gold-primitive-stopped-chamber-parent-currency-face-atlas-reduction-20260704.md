@@ -17,6 +17,7 @@ role: >-
   service/legal/stop/exit before selected sign or return is counted.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-parent-currency-face-admission-active-state-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-parent-currency-face-boundary-law-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-face-trace-fiber-atlas-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-state-root-payment-same-parent-projection-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-raw-active-state-parent-capacity-reduction-20260704.md
@@ -100,6 +101,26 @@ It says that overlaps and transitions between root/log, endpoint, and
 full-exchange faces are parent-announced before readout, or the transition is
 charged as face boundary, selected-critical reset/root payment, active-state
 transition, service, legal loss, stop, or exit.
+
+The current lower reduction for this row is:
+
+\[
+\begin{aligned}
+&\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}\\
+&+\texttt{OriginalHistoryRecordResetRootPayment.A}\\
+&+\texttt{ParentActivePotentialCapacityDomination.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberParentCurrencyFaceBoundaryLaw.A}.
+\tag{PCFA.4a}
+\]
+
+This is the row-boundary projection of the same parent active/root/full-exchange
+object. Root/log to endpoint-seed motion is paid by original-history
+record/reset root payment. Root/endpoint to active full-exchange motion is paid
+by parent active-state boundary and parent active-potential/full-exchange
+capacity. The record-admitted storage theorem is downstream and cannot be used
+as the primitive boundary-law producer.
 
 ## 3. Strict reduction
 
@@ -200,6 +221,15 @@ The admission input is currently lowered to:
 +\texttt{OriginalHistoryRecordResetRootPayment.A}
 +\texttt{PrimitiveParentCurrencyServiceRoutingOrExit.A}.
 \tag{PCFA.10}
+\]
+
+The boundary input is currently lowered to:
+
+\[
+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}
++\texttt{OriginalHistoryRecordResetRootPayment.A}
++\texttt{ParentActivePotentialCapacityDomination.A}.
+\tag{PCFA.11}
 \]
 
 This keeps the physical story under one roof: the same parent state that gives
