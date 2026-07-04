@@ -39,6 +39,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-face-radon-nikodym-tightness-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-face-local-thickness-charge-modulus-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-face-polarity-same-face-no-cancellation-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-selector-capture-finite-score-scope-audit-20260704.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -634,6 +635,16 @@ The common-selector face now reduces to
 `RetainedRecordEdgeParentAnnouncedSelectorCapture.A` plus stopped-selector
 variation/payment support: the arbitrary future-positive record edge must be
 captured by a finite parent-known stopped score before positive readout.
+The selector-capture finite-score scope audit is now installed in
+`mpp-forward-gold-retained-record-edge-selector-capture-finite-score-scope-audit-20260704.md`.
+It blocks the false import of `StoppedSelectorFiniteScoreOrPaidDrift.A` as proof
+of retained record-edge capture. The finite-score theorem pays selector/reset
+motion after an order-locked retained chart exists; it does not prove that every
+arbitrary future-positive record edge is already in a parent-known finite score
+menu before readout. The missing selector producer is
+`FiniteParentKnownRecordEdgeSelectorMenu.A`, or paid selector drift, tie gap,
+order-lock partner deficit, collar/geometric loss, donor/reselection loss,
+legal, stop, material-service, or exit for the uncaptured part.
 The lower retained-edge faces are now consolidated in
 `mpp-forward-gold-retained-record-edge-pre-readout-custody-tuple-reduction-20260704.md`.
 Selector capture, retained exact-projector chart license, and the
