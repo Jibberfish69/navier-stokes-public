@@ -245,6 +245,19 @@ admission
 \tag{REP.10b}
 ```
 
+That coupled admission now has a lower-face reduction:
+
+```math
+\texttt{RecordMenuPressureActiveOrSilentService.A}
++
+\texttt{RetainedRecordEdgeCommonSelectorRefinementNoLoss.A}
++
+\texttt{RetainedRecordEdgePrimitiveChannelCompatibility.A}
+\Longrightarrow
+\texttt{RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A}.
+\tag{REP.10c}
+```
+
 ## 7. Current truth state
 
 ```math
