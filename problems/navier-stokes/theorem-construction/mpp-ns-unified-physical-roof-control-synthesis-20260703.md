@@ -730,6 +730,16 @@ negative-return measure itself. The lower object is
 `PrimitiveChannelReturnFaceFiniteMultiplicity.A`: a stopped same-face map from
 primitive return events to selected faces, with every extra claim paid, legal,
 stopped, or exited before counting.
+The primitive-channel return-face finite-multiplicity first-address reduction is
+now installed in
+`mpp-forward-gold-primitive-channel-return-face-finite-multiplicity-first-address-reduction-20260704.md`.
+It turns finite multiplicity into a physical first-address problem. A primitive
+negative return event of the selector-owned same packet must have a
+parent-announced first selected face address before the selected-face budget can
+count it. Finite stopped-score/reset-witness overlap counts extra claims only
+after those claims are proved to be same-packet stopped re-entries through that
+first face history. The lower producer is
+`PrimitiveReturnFirstFaceAddressOrPaidReentry.A`.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
