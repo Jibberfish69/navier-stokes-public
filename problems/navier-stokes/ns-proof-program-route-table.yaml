@@ -230,7 +230,9 @@ live_route_table:
     BeforeClippingActiveDensityComparison.A + FullExchangeNoSelfFeedingStorage.A
     as one same-parent storage construction with strict subunit feedback. WLF.60
     is the early-branch / heat-lag first-admission coordinate of this same
-    obstruction, not a separate bottom.
+    obstruction; its live carrier clause is order-locked full-packet admission
+    plus paid same-packet order-lock overlap and selected-overrun tail UI, not a
+    separate bottom.
     Repeated-core record/return
     and shrinking-core reset are faces of OriginalHistoryRecordResetRootPayment.A,
     the selected-critical face of
