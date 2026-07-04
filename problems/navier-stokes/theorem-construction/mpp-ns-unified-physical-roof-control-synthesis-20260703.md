@@ -804,8 +804,11 @@ It collapses the active-priority half to `PrimitiveAddressCellOverlapBoundaryCha
 Parent-fixed priority is a formal measurable choice once the address cells are
 countable and locally finite; the physical payment is on overlaps of different
 cells, in the same four coordinates as address-change variation: selector,
-chart/projector, detector/channel, and face/polarity. This is the pre-map
-overlap version of the post-map address-change charge.
+chart/projector, detector/channel, and face/polarity. These mean, respectively,
+which stopped material chamber owns the same event, which local frame measures
+it, which signed stress channel reads it, and which sign/thickness face is being
+charged. This is the pre-map overlap version of the post-map address-change
+charge.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
