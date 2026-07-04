@@ -487,3 +487,100 @@ incompressibility, and velocity history that the same retained primitive channel
 has a finite record/return budget and a stopped face-address process before
 selected readout.  Until then, repeated-core storage, scalar BV, chamber-level
 return, finite-overlap witnesses, and laminar ancestry taxes remain support.
+
+## 11. Primitive event ownership descent
+
+The ownership clause in `(SCSS.24)' has a concrete physical meaning.  It is not
+another edge tuple.  It is one primitive signed-channel event
+
+\[
+z=(\sigma,t,x,\kappa),
+\qquad
+d\mu_{\kappa,S}=|Y_{\kappa,S}|\,d\sigma dt ,
+\tag{SCSS.25}
+\]
+
+belonging to the same transported Navier-Stokes packet before the selected sign
+has been read.  Transport carries its material history; pressure and
+incompressibility choose the projected stress in a lawful frame; viscosity,
+scale, and finite service decide what is dissipated or paid; sign and alignment
+decide whether the event becomes a positive selected-height trace, a negative
+return, or cancellation cost.  A negative event pays the repeated positive
+record only when both events are owned by the same stopped face of this same
+primitive channel before counting.
+
+The stopped primitive face-address process reduces to two event jobs:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveChannelEventAddressMap.A}\\
+&+\texttt{PrimitiveChannelAddressChangeVariationCharge.A}
+\end{aligned}
+\Longrightarrow
+\texttt{StoppedPrimitiveFaceAddressProcess.A}.
+\tag{SCSS.26}
+\]
+
+The address map itself lowers to physical admission of the event before
+readout:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveSignedChannelStoppedCarrierCoverageOrPaidEscape.A}\\
+&+\texttt{PrimitiveStoppedCarrierCommonSelectorOwnershipOrPaidReselection.A}\\
+&+\texttt{PrimitiveStoppedChamberNonselectorCoordinateLift.A}\\
+&+\texttt{PrimitiveStoppedCommonSelectorCellOverlapFirstDifferenceCharge.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveChannelEventAddressMap.A}.
+\tag{SCSS.27}
+\]
+
+The four rows in `(SCSS.27)' are one physical checklist for the same event.
+Stopped-carrier coverage says the event has same-material carrier support from
+the original velocity packet and a pre-readout stopped atlas.  Common-selector
+ownership says that carrier has one parent-known selector owner whose sign,
+polarity, and primitive-channel alphabet are fixed before the primitive PLS
+readout.  Nonselector lift then puts the same chamber into one chart/projector
+frame, one detector/channel readout, and one face/polarity coordinate:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberChartProjectorLiftOrPaidExit.A}\\
+&+\texttt{PrimitiveStoppedChamberDetectorChannelLiftOrPaidService.A}\\
+&+\texttt{PrimitiveStoppedChamberFacePolarityLiftOrPaidReturn.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberNonselectorCoordinateLift.A}.
+\tag{SCSS.28}
+\]
+
+The overlap row in `(SCSS.27)' prevents the same primitive event from being
+spent twice.  If two stopped address cells both claim \(z\), the first physical
+difference must be paid as selector/chamber change, chart/projector transfer,
+detector/channel rotation, or face/polarity return before an address is used.
+
+This descent also identifies why the face/polarity coordinate is the direct
+signed-height feed.  Chart/projector and detector/channel keep the same packet
+in a lawful measuring frame and signed stress channel, but face/polarity says
+whether the lost positive sign is the negative part of the same face-local
+signed channel.  The current conditional budget is
+
+\[
+\begin{aligned}
+&\texttt{StoppedPrimitiveFaceAddressProcess.A}\\
+&+\texttt{StoppedReturnBVFiniteFromOriginalData.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberSameFaceNegativeReturnBudget.A}.
+\tag{SCSS.29}
+\]
+
+This is a strict reduction and a checked obstruction, not closure.  Retained
+future-positive edge custody, primitive PLS formulas inside already retained
+chambers, scalar BV, chamber-level BV, local no-detachment, and finite overlap
+witnesses are support until they cover \(|Y_{\kappa,S}|\,d\sigma dt\)-almost
+every primitive event of both signs before readout and assign positive trace
+and negative return to the same stopped face.  The remaining physical producer
+under the repeated-core branch is event ownership for the primitive signed
+channel, not clipping and not a new packet-counting problem.
