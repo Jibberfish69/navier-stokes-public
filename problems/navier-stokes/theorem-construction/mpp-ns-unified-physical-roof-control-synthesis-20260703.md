@@ -885,6 +885,13 @@ It proves that those two inputs conditionally imply
 producer open: `PrimitiveChamberFaceLocalSignedChannelConstruction.A`, the
 pre-readout face fiber and same-face negative-return budget of the
 selector-owned primitive signed channel.
+The primitive chamber face-local signed channel construction reduction is now
+installed in
+`mpp-forward-gold-primitive-chamber-face-local-signed-channel-construction-reduction-20260704.md`.
+It proves the formal restriction part: once the primitive PLS channel and
+pre-readout face fiber exist, \(\mathbf 1_{\{\pi_F=F\}}Y_{\kappa,C}\,d\sigma dt\)
+is the face-local signed channel. The remaining Gold-facing physical budget is
+`PrimitiveStoppedChamberSameFaceNegativeReturnBudget.A`.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
