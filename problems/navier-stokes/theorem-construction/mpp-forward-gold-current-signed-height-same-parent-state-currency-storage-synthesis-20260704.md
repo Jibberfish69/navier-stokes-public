@@ -1276,7 +1276,7 @@ The charge side should also be read as one object.  The list
 \text{detector/channel rotation, face-trace boundary, return re-entry,}\\
 \text{and selected-critical root weight}
 \end{array}
-\tag{SCSS.52}
+\tag{SCSS.53}
 \]
 
 is not a menu of independent reservoirs.  It is the list of first physical ways
@@ -1296,7 +1296,7 @@ the five pre-readout boundary uses already exposed by the lower notes:
 &\text{pre-return address changes along the owned event history},\\
 &\text{parent-currency off-face service and root/endpoint transitions}.
 \end{aligned}
-\tag{SCSS.53}
+\tag{SCSS.54}
 \]
 
 If such a \(\Gamma_{\rm pre}\) is constructed for the same signed-height record
@@ -1306,12 +1306,53 @@ events, then it is the \(\Gamma\) in `(SCSS.44)':
 \Gamma_{\rm pre}\text{ controls }(\text{SCSS.53})
 \Longrightarrow
 \Gamma=\Gamma_{\rm pre}\text{ is admissible in }(\text{SCSS.44}).
-\tag{SCSS.54}
+\tag{SCSS.55}
 \]
 
 This is a strict reduction, not a proof.  It consolidates the charge burden into
 one same-event boundary measure.  A future proof must construct finite
 \(\Gamma_{\rm pre}\) from the original pressure-viscosity-incompressibility
 history of the packet.  A coordinate estimate is only a strict reduction when it
-proves one of the five entries in `(SCSS.53)' as a first-use part of that same
+proves one of the five entries in `(SCSS.54)' as a first-use part of that same
 measure; otherwise it remains support.
+
+## 19. Root payment is the selected-critical face of the same charge
+
+The selected-root record/reset synthesis now sits inside this charge object.
+Repeated-core record/return and shrinking-core reset are the inherited and fresh
+innovation faces of one stopped original-history root geometry before selected
+readout.  In the owner-and-charge language, this means
+`OriginalHistoryRecordResetRootPayment.A' is the selected-critical/root-payment
+face of \(\Gamma_{\rm pre}\), not a sibling reservoir.
+
+\[
+\texttt{OriginalHistoryRecordResetRootPayment.A}
+\Longrightarrow
+\Gamma_{\rm pre}^{root}\text{ for the selected-critical return/reset entries of }(\text{SCSS.54}).
+\tag{SCSS.56}
+\]
+
+Expanded into the current root-payment clauses:
+
+\[
+\begin{aligned}
+&\texttt{StoppedPredictableRootGeometryCompensator.A}\\
+&+\texttt{SignedStoppedPLSEvolutionIdentity.A}\\
+&+\texttt{StoppedReturnBVFiniteFromOriginalData.A}\\
+&+\texttt{CriticalWeightedParentChildResetCarleson.A}
+\end{aligned}
+\Longrightarrow
+\Gamma_{\rm pre}^{root}.
+\tag{SCSS.57}
+\]
+
+The address/boundary face of \(\Gamma_{\rm pre}\) supplies carrier coverage,
+common-selector ownership, chart/projector lift, detector/channel lift, and
+overlap first-difference charges.  The root-payment face supplies the finite
+same-face return budget for owned histories and the critical reset weight for
+fresh parent-child innovations.  Together they are the one pre-readout
+same-event measure needed by `(SCSS.44)'.
+
+This is still a strict reduction.  The open theorem is construction of both
+faces of \(\Gamma_{\rm pre}\) from the same coupled original Navier-Stokes packet
+before readout.
