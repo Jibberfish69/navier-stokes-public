@@ -1303,7 +1303,7 @@ If such a \(\Gamma_{\rm pre}\) is constructed for the same signed-height record
 events, then it is the \(\Gamma\) in `(SCSS.44)':
 
 \[
-\Gamma_{\rm pre}\text{ controls }(\text{SCSS.53})
+\Gamma_{\rm pre}\text{ controls }(\text{SCSS.54})
 \Longrightarrow
 \Gamma=\Gamma_{\rm pre}\text{ is admissible in }(\text{SCSS.44}).
 \tag{SCSS.55}
