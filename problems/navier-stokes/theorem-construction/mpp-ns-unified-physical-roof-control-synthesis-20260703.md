@@ -459,6 +459,16 @@ face. The quotient-angle collar audit makes the split robust: exact nonzero
 detector response is not enough for pressure-active storage, so a fixed
 detector-near-silent collar belongs to the service-paid side before the quotient
 angle becomes finite-dimensional bookkeeping.
+The primitive full-action synthesis now collapses the independent reserve named
+there: robust detector reserve, primitive PLS no-free-upcrossing, strict
+half-barrier, endpoint entropy, native birth, and good-lambda tail are all
+coordinates of one surviving scale-native physical burden. After pressure,
+selector, complete-frame, bounded-Riesz, return/reset/exchange, legal, stop, and
+subheat consumers are removed, the open producer is
+`SameParentCriticalDepletionNoZeno.A`: construct a parent-known critical carrier
+from the original coupled packet before selected child readout, prove first
+scale-native births lower into it, prove strict depletion/good-lambda margin,
+and prove terminal no-Zeno/no-atom or Hardy thickness in the same carrier.
 The common-selector face now reduces to
 `RetainedRecordEdgeParentAnnouncedSelectorCapture.A` plus stopped-selector
 variation/payment support: the arbitrary future-positive record edge must be
