@@ -46,6 +46,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-address-change-charge-split-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-boundary-charge-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-face-trace-fiber-atlas-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-no-detachment-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-local-thickness-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-event-common-selector-chamber-admission-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-stopped-carrier-coverage-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-material-carrier-support-reduction-20260704.md
@@ -717,6 +719,29 @@ The first input of `(SCSS.32b')' is now reduced one physical layer lower:
 This is the face-ownership theorem: a primitive event must already sit in a
 parent-known pre-readout face cell, or its failure to sit there is paid, stopped,
 legal, or exited. Return is not an input to this ownership step.
+
+The second and third inputs of `(SCSS.32b')' are now reduced to their physical
+jobs:
+
+\[
+\texttt{PrimitivePreReturnFaceAtlasBoundaryVariationCharge.A}
+\Longrightarrow
+\texttt{PrimitivePreReturnFaceTraceNoDetachmentModulus.A},
+\tag{SCSS.32b'''}
+\]
+
+and
+
+\[
+\texttt{PrimitivePreReturnFaceTraceUniformIntegrabilityOrCharge.A}
+\Longrightarrow
+\texttt{PrimitivePreReturnFaceTraceLocalThicknessBoundaryCharge.A}.
+\tag{SCSS.32b''''}
+\]
+
+So the face row has three nonduplicate physical requirements: build the face
+atlas, charge variation of the face label, and prevent event mass from riding a
+zero-thickness face carrier.
 
 After `(SCSS.32a)' supplies the trace-address process, the same-face return
 budget is a downstream payment:
