@@ -1356,3 +1356,48 @@ same-event measure needed by `(SCSS.44)'.
 This is still a strict reduction.  The open theorem is construction of both
 faces of \(\Gamma_{\rm pre}\) from the same coupled original Navier-Stokes packet
 before readout.
+
+## 20. Address/boundary face has a two-part lower reading
+
+The address/boundary face of \(\Gamma_{\rm pre}\) has one order.  First the
+primitive event receives a parent-known pre-readout address.  Then the first way
+that same event loses, changes, overlaps, or leaves that address is charged
+before selected readout.
+
+Thus the address/boundary face reduces to two inputs:
+
+\[
+\begin{aligned}
+&\text{pre-readout stopped address admission and coordinate lift}\\
+&+\text{finite same-event first-boundary charge}
+\end{aligned}
+\Longrightarrow
+\Gamma_{\rm pre}^{addr}\text{ for the address/boundary entries of }(\text{SCSS.54}).
+\tag{SCSS.58}
+\]
+
+The first line is the owner side at event scale: stopped common-selector chamber
+admission plus chart/projector, detector/channel, and pre-return face-trace lift.
+The second line is the charge side at event scale: the first physical boundary
+where that event has no active address, belongs to two address cells, changes
+pre-return address, leaves the parent-currency face, or consumes root/endpoint
+currency.  The boundary can be selector/chamber, chart/projector,
+detector/channel, face trace, parent-currency transition, legal loss, stop, or
+exit.
+
+So the lower Gold charge burden is:
+
+\[
+\Gamma_{\rm pre}^{addr}+\Gamma_{\rm pre}^{root}
+\Longrightarrow
+\Gamma_{\rm pre}.
+\tag{SCSS.59}
+\]
+
+This is not a new proof.  It removes a route split: carrier escape, coordinate
+failure, overlap loss, pre-return address change, and off-face service are five
+readouts of the same first-boundary charge after address admission/lift.
+Existing selector BV, chart/projector service, detector rotation, face-trace
+boundary, off-face service, and root/endpoint payment estimates are support
+unless they prove their boundary as a first-use charge for this same event and
+can be summed into the same finite \(\Gamma_{\rm pre}\).
