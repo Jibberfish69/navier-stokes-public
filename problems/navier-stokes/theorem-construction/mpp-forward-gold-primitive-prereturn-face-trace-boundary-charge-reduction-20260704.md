@@ -18,6 +18,8 @@ role: >-
   return is downstream and cannot be used to build this charge.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-face-trace-fiber-atlas-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-no-detachment-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-local-thickness-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-address-change-charge-split-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-trace-address-process-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-face-local-signed-channel-construction-reduction-20260704.md
@@ -104,6 +106,19 @@ another while remaining unpaid. Any such motion is trace detachment,
 selector/chamber boundary service already charged upstream, chart/detector
 boundary service, legal loss, stop, or exit.
 
+The current lower reduction for this input is:
+
+\[
+\texttt{PrimitivePreReturnFaceAtlasBoundaryVariationCharge.A}
+\Longrightarrow
+\texttt{PrimitivePreReturnFaceTraceNoDetachmentModulus.A}.
+\tag{PFT.4a}
+\]
+
+That is the variation law of the face atlas: a same-packet face switch before
+return is an atlas boundary event, a detachment, upstream coordinate service,
+legal loss, stop, or exit.
+
 The third input is local trace thickness or boundary charge:
 
 \[
@@ -115,6 +130,19 @@ It says that a positive or signed primitive subface cannot vanish to zero
 carrier thickness before return while keeping unit selected trace. If the trace
 collapses, the collapse is paid by local thickness loss, trace-boundary service,
 legal loss, stop, or exit.
+
+The current lower reduction for this input is:
+
+\[
+\texttt{PrimitivePreReturnFaceTraceUniformIntegrabilityOrCharge.A}
+\Longrightarrow
+\texttt{PrimitivePreReturnFaceTraceLocalThicknessBoundaryCharge.A}.
+\tag{PFT.5a}
+\]
+
+That is the local thickness law of the face carrier: primitive event mass cannot
+remain on a vanishing same-face carrier unless the collapse is charged before
+return.
 
 ## 3. Strict reduction
 
@@ -161,6 +189,11 @@ zero carrier thickness without local charge. But they are record-edge surfaces.
 They do not yet prove the same statements for every primitive chamber event of
 \(|Y_{\kappa,C}|\,d\sigma dt\) before same-face return.
 
+The new primitive no-detachment and local-thickness reductions keep those two
+jobs separate. The first is face-atlas variation; the second is face-carrier
+uniform integrability or local charge. Both remain open at primitive chamber
+event level.
+
 Thus the old face/polarity row remains downstream support. The pre-return face
 row is narrower: face trace, no-detachment, local thickness boundary, legal,
 stop, and exit only.
@@ -187,6 +220,19 @@ Still open:
 \quad
 \texttt{PrimitivePreReturnFaceTraceLocalThicknessBoundaryCharge.A}.
 \tag{PFT.8}
+\]
+
+Their current lower open inputs are:
+
+\[
+\begin{array}{c}
+\texttt{PrimitiveStoppedChamberPreReadoutFaceAtlasOrPaidDetachment.A}
+\quad+\quad
+\texttt{PrimitiveStoppedChamberFaceOverlapBoundaryLaw.A},\\
+\texttt{PrimitivePreReturnFaceAtlasBoundaryVariationCharge.A},\\
+\texttt{PrimitivePreReturnFaceTraceUniformIntegrabilityOrCharge.A}.
+\end{array}
+\tag{PFT.9}
 \]
 
 This is not closure. It prevents a specific false closure: using same-face
