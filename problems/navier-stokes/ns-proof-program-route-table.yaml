@@ -211,7 +211,10 @@ live_route_table:
     coordinates of the same original-history selected-critical source payment,
     not independent bottoms. WLF.60 tests that this payment lands on one same
     selected native carrier for the lower fresh source and upper selected
-    positive queue, with selected overrun paid there. Repeated-core record/return
+    positive queue, with selected overrun paid there. The same-carrier gate is
+    read as mismatch evacuation: retained positive mismatch is identified, paid
+    before readout, or forced into the selected terminal source-curve atom.
+    Repeated-core record/return
     and shrinking-core reset are faces of OriginalHistoryRecordResetRootPayment.A,
     the selected-critical face of
     ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A. The root face must
