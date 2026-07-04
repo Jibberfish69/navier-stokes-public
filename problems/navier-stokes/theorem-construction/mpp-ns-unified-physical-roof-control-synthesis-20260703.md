@@ -34,6 +34,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-repeated-core-record-return-balance-law-sharpener-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-shrinking-core-critical-reset-carleson-sharpener-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-physical-payment-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admitted-critical-no-arbitrage-compactness-reduction-20260704.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -557,6 +558,13 @@ signed work is admitted into the same parent critical carrier before readout.
 Freestanding selected-birth depletion remains support; record-admitted
 depletion supplies the finite charge branch in the signed-height
 record-upcrossing criterion.
+The record-admitted critical no-arbitrage compactness reduction is now installed
+in
+`mpp-forward-gold-record-admitted-critical-no-arbitrage-compactness-reduction-20260704.md`.
+It sharpens the proof method for that carrier: compactness/zero-cost rigidity
+must retain the record-admission row. A freestanding critical carrier or
+full-exchange storage limit remains support if the signed-height record work can
+disappear from the limiting carrier.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
