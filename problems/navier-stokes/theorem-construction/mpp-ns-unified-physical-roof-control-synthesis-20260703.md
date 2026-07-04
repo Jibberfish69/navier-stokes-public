@@ -599,6 +599,15 @@ original packet; root payment names the selected-critical currency on the
 record-relevant face; record-admitted coupled storage names the same signed-height
 work entering that carrier. Current sources still do not construct that
 same-parent state/currency/storage package from original data.
+The current signed-height same-parent state/currency/storage synthesis is now
+installed in
+`mpp-forward-gold-current-signed-height-same-parent-state-currency-storage-synthesis-20260704.md`.
+It freezes the judging surface for future Gold moves: a candidate is proof only
+if it constructs, before readout, the same parent active state, the
+selected-critical root currency, and the record-admitted storage for the same
+signed-height record event. Root payment away from that event, active capacity
+away from record admission, and storage after selecting the payer are support or
+checked obstruction, not closure.
 The predictable-weight causality collapse is now installed in
 `mpp-forward-gold-root-payment-predictable-weight-causality-collapse-20260704.md`.
 It places `StoppedSelectorPredictableWeight.A` inside that same roof:
