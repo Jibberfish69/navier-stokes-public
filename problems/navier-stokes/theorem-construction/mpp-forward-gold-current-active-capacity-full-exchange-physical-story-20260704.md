@@ -210,6 +210,10 @@ the lower fresh source and upper selected positive queue must be read from the
 recombined full packet before positive-part extraction, any same-packet
 order-lock overlap must be paid, and the selected overrun must have same-carrier
 tail UI / nested-core tightness.
+In the older ODP route-measure coordinates, this is exactly `(ODP.91)' active
+same-parent Carleson. The unpaid producer is the projected original-history
+reserve Carleson line `(ODP.111)', reduced after selector nondegeneracy to the
+persistent affine quotient `(ODP.160)' / `(ODP.125)' on that same carrier.
 
 ## 5. What is closed and what is not
 
