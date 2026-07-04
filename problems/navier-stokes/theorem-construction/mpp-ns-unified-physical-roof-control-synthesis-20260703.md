@@ -705,6 +705,14 @@ chamber-level negative variation, and whole-record charge can all pay the wrong
 object, so they stay obstruction/support until they produce
 `RecordFacePrimitiveChannelPredictableTrace.A` and
 `PrimitiveChannelSelectedFaceNegativeReturnBudget.A`.
+The predictable-trace custody reduction is now installed in
+`mpp-forward-gold-record-face-primitive-channel-predictable-trace-custody-reduction-20260704.md`.
+It sharpens the first half of that split. A lawful trace requires one retained
+edge to carry, before positive readout, the same parent-announced face address,
+selector-owned primitive channel, exact-projector chart, detector/service split,
+no-detachment topology, and local face thickness. Separate support on those
+faces is not a trace until it proves
+`RecordFacePrimitiveChannelPredictableTrace.A` for the same physical face.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
