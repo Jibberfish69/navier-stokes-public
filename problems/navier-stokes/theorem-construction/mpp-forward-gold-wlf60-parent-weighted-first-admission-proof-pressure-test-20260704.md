@@ -23,6 +23,7 @@ role: >-
   exactness are analytic faces of that same carrier key, not independent sibling
   exits.
 source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-weighted-detector-terminal-service-original-data-proof-attempt-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-fresh-linear-service-half-tail-obstruction-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-storage-matrix-early-branch-obstruction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-current-active-capacity-full-exchange-physical-story-20260704.md
@@ -31,10 +32,13 @@ completion_truth: >-
   This note proves no WLF.60 estimate and no Gold closure. It records the
   checked obstruction to proving WLF.60 from raw same-parent Bessel mass,
   no-recount, or local first-admission alone, and isolates the next genuinely
-  smaller theorem: parent-weighted first-admission pulse measure finiteness
-  with strict viscosity feedback on the order-locked full-packet selected
-  carrier that carries the lower fresh source, the upper selected positive queue,
-  the paid same-packet partner overlap, and the selected overrun.
+  smaller theorem: the active same-parent route-measure Carleson line
+  `(ODP.91)' / parent-weighted first-admission pulse measure finiteness with
+  strict viscosity feedback on the order-locked full-packet selected carrier
+  that carries the lower fresh source, the upper selected positive queue, the
+  paid same-packet partner overlap, and the selected overrun. The remaining
+  persistent quotient may be paid only by original-history potential-average
+  control or positive second-order scale exactness on that same carrier.
 ---
 
 # WLF.60 parent-weighted first-admission proof pressure test
@@ -255,7 +259,73 @@ That is genuinely smaller than Gold closure because `(WPT.4)' already pushes
 it to the selected heat-lag bill, and the active-capacity notes already consume
 that bill into the early branch of the coupled storage matrix.
 
-## 6. Current classification
+## 6. Merge with ODP route-measure Carleson
+
+The older ODP proof attempt gives the same burden in route-measure coordinates.
+Its Hardy/Schur step is formal once the active same-parent route measure is
+Carleson:
+
+\[
+(ODP.91)\Longrightarrow WLF.60.
+\tag{WPT.14}
+\]
+
+The non-formal line is the Carleson producer itself. The checked split there is:
+
+\[
+(ODP.110)+(ODP.111)
+\Longrightarrow
+(ODP.91),
+\tag{WPT.15}
+\]
+
+where `(ODP.110)' is the domination of the active selected route measure by the
+projected original-history reserve, and `(ODP.111)' is the Carleson bound for
+that reserve. Selector-carrier nondegeneracy is installed only as a relative
+support statement: a fixed stopped selected meter cannot move when the same
+carrier increment vanishes, and meter motion is paid as reselection, geometry,
+legal loss, or stop. The remaining producer is not a meter trick. It is the
+persistent affine pressure-memory quotient of the same parent packet:
+
+\[
+(ODP.125)
++\text{stopped full-exchange action}
+\Longrightarrow
+(ODP.111).
+\tag{WPT.16}
+\]
+
+In the Volterra scale split this is exactly the persistent half:
+
+\[
+\mathrm{AQK}^{fr}_P\quad\text{in }(ODP.160).
+\tag{WPT.17}
+\]
+
+The two noncircular ways currently named for paying that half are the same two
+faces already recorded in `(WPT.11)'--`(WPT.12)': original-history stopped
+potential-average control, or positive second-order scale exactness. They are
+not sibling exits and not new proof surfaces. They are the two analytic forms of
+paying the persistent affine quotient on the order-locked full-packet selected
+carrier before the child readout can turn it into selected positive service.
+
+So the consolidated strict reduction is:
+
+\[
+\text{potential-average control or second-order scale exactness on the
+order-locked carrier}
+\Longrightarrow
+(ODP.160)\Longrightarrow(ODP.125)\Longrightarrow(ODP.111)
+\Longrightarrow(ODP.91)\Longrightarrow WLF.60.
+\tag{WPT.18}
+\]
+
+This is still not a proof of WLF.60. It removes duplicate names for the same
+physical problem: one original pressure-compatible parent pulse must not be
+recounted as fresh selected positive heat-lag service at unbounded critical
+price unless the persistent affine quotient is paid from original history.
+
+## 7. Current classification
 
 Proof: same-parent detector, first-admission update, no-recount pushforward,
 raw first-admission Bessel measure, and local first-admission native atom.
@@ -271,7 +341,8 @@ potential-average face `(WPT.11)' and positive second-order exactness face
 `(WPT.12)' count only when they are proved on the order-locked full-packet
 selected carrier identified in `(WPT.13)', with the same-packet order-lock
 overlap paid and selected overrun tail UI / nested-core tightness proved on that
-carrier.
+carrier. Equivalently, the same line is `(ODP.91)' route-measure Carleson, whose
+unpaid producer is the persistent affine quotient `(ODP.160)' / `(ODP.125)'.
 
 Support: Bessel square, route ownership, no-recount, local native admission,
 and pushforward are support until the parent-weighted pulse measure itself is
