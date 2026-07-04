@@ -1265,3 +1265,53 @@ another without detaching the record from its payer.
 Thus a future Gold move has force only by proving one part of that
 original-history charge, or by showing that the charge cannot be made finite
 for the same record event.  A finite owner atlas without the charge is support.
+
+## 18. Charge measure as one pre-readout boundary measure
+
+The charge side should also be read as one object.  The list
+
+\[
+\begin{array}{c}
+\text{carrier escape, selector/chamber change, chart/projector transfer,}\\
+\text{detector/channel rotation, face-trace boundary, return re-entry,}\\
+\text{and selected-critical root weight}
+\end{array}
+\tag{SCSS.52}
+\]
+
+is not a menu of independent reservoirs.  It is the list of first physical ways
+one same primitive event can leave its parent-known pre-readout address before
+the selected record is allowed to spend it.
+
+Let \(\Gamma_{\rm pre}\) denote a finite original-history measure, available
+before selected readout, on the primitive signed-channel event space.  The live
+charge theorem is that \(\Gamma_{\rm pre}\) dominates, without duplicate spending,
+the five pre-readout boundary uses already exposed by the lower notes:
+
+\[
+\begin{aligned}
+&\text{unadmitted stopped-chamber event pieces},\\
+&\text{failed chart/projector, detector/channel, or face-trace lift},\\
+&\text{first-difference losses on overlapping candidate address cells},\\
+&\text{pre-return address changes along the owned event history},\\
+&\text{parent-currency off-face service and root/endpoint transitions}.
+\end{aligned}
+\tag{SCSS.53}
+\]
+
+If such a \(\Gamma_{\rm pre}\) is constructed for the same signed-height record
+events, then it is the \(\Gamma\) in `(SCSS.44)':
+
+\[
+\Gamma_{\rm pre}\text{ controls }(\text{SCSS.53})
+\Longrightarrow
+\Gamma=\Gamma_{\rm pre}\text{ is admissible in }(\text{SCSS.44}).
+\tag{SCSS.54}
+\]
+
+This is a strict reduction, not a proof.  It consolidates the charge burden into
+one same-event boundary measure.  A future proof must construct finite
+\(\Gamma_{\rm pre}\) from the original pressure-viscosity-incompressibility
+history of the packet.  A coordinate estimate is only a strict reduction when it
+proves one of the five entries in `(SCSS.53)' as a first-use part of that same
+measure; otherwise it remains support.
