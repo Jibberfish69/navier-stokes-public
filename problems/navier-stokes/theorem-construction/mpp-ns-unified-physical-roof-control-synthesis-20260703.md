@@ -667,6 +667,15 @@ scalar BV, or terminal anti-atom reserve is too coarse by itself; the cancelling
 partner must be attached to the same admitted positive record face before
 readout. With same-edge no-detachment and local face thickness, that localized
 partner-return row implies `RecordPolaritySameFaceNoCancellation.A`.
+The same-face signed-channel localization proof is now installed in
+`mpp-forward-gold-same-face-signed-channel-localization-proof-20260704.md`.
+It pays the formal part of that row: if the signed pressure/transport/viscous
+work channel is constructed on each admitted face before aggregation, then lost
+positive record mass is paid by the negative part of that same local channel
+plus legal/stop/error terms. The remaining physical producer is the construction
+and original-data bound of that face-local signed channel before selected
+readout; global negative return, scalar BV, and terminal anti-atom language stay
+support until they localize to the same admitted positive face.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
