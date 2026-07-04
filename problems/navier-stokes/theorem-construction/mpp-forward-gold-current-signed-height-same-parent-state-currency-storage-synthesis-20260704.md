@@ -47,6 +47,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-boundary-charge-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-face-trace-fiber-atlas-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-parent-currency-face-atlas-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-parent-currency-face-admission-active-state-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-no-detachment-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-local-thickness-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-event-common-selector-chamber-admission-reduction-20260704.md
@@ -737,6 +738,24 @@ The three face labels are the same parent rows used elsewhere in Gold:
 positive-baseline root/log, zero-baseline endpoint seed, and active
 full-exchange. The open upgrade is all-event primitive chamber coverage, not
 just future-positive record-edge admission.
+
+The admission row of `(SCSS.32b''a)' is now lowered to the same-parent active
+state/root-payment object:
+
+\[
+\begin{aligned}
+&\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}\\
+&+\texttt{OriginalHistoryRecordResetRootPayment.A}\\
+&+\texttt{PrimitiveParentCurrencyServiceRoutingOrExit.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberParentCurrencyFaceAdmissionOrPaidService.A}.
+\tag{SCSS.32b''b}
+\]
+
+This is not record-edge root projection replayed at primitive level. It requires
+the parent active state, root/endpoint payment, and service routing to attach to
+the same primitive event before readout.
 
 The second and third inputs of `(SCSS.32b')' are now reduced to their physical
 jobs:
