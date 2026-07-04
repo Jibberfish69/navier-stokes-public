@@ -1545,7 +1545,8 @@ dA_P^{AT}
 \tag{SCSS.63}
 \]
 
-or an independent original-data proof of one of the storage faces.
+or the current independent-face route, WLF.60 / ODP.91 early-row storage on the
+order-locked full-packet selected carrier.
 
 ## 23. The early row is WLF.60
 
