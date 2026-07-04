@@ -1188,3 +1188,45 @@ before selected positive readout.  Entropy/BMO/reverse-Holder and terminal
 no-atom are proof-level consumers once the parent active density exists; raw
 energy, raw heat/tent square capacity, and Bessel square remain obstructed by
 the half-tail.
+
+## 11. Current source-line pushdown
+
+The later tower-feedback source audit pushes the same `(WLF.60)' burden below
+the reserve name.  The conditional source line is:
+
+\[
+\begin{array}{c}
+\text{same-parent Duhamel-Hodge pullback}\\
++\text{early trace/source admission}\\
++\text{retained Poincare heat thickness}
+\Longrightarrow
+\text{full-exchange storage}\\
+\Longrightarrow
+\text{terminal-uniform selected }L^1 .
+\end{array}
+\tag{WLF.65}
+\]
+
+The audit classifies `(WLF.65)' as a conditional reduction, not a completed
+Gold proof.  The current original-data burden is the noncircular proof of the
+three grants behind that line:
+
+\[
+\begin{array}{ll}
+\text{(i)}&
+\text{stopped Duhamel-Hodge propagator and bounded parent detector estimates}\\
+&\text{from the original coupled packet before child clipping;}\\
+\text{(ii)}&
+\text{zero-baseline endpoint/source admission without using the}\\
+&\text{full-exchange storage being proved;}\\
+\text{(iii)}&
+\text{strict no-self-feeding full-exchange storage from arbitrary original data.}
+\end{array}
+\tag{WLF.66}
+\]
+
+This is the present proof-sized form of `(WLF.60)' in the heat-lag coordinate.
+Same-parent detection, Bessel square, entropy/BMO, retained heat decay, endpoint
+admission, and Duhamel formulas are support unless they prove one of the three
+original-data grants in `(WLF.66)' without using the future selected tail or the
+storage conclusion itself.

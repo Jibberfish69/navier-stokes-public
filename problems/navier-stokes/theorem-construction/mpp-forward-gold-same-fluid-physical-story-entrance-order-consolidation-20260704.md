@@ -343,10 +343,15 @@ or parent-weighted first-admission pulse measure `(WLF.60)' / `(WLF.36)' from
 the original coupled packet before child clipping. Selected-density entropy,
 Hilbert/BMO, reverse Holder, and active-capacity Bellman language are
 deterministic consumers once that parent active density/root carrier is
-constructed; they do not construct it. On the terminal fixed-core branch the
-same producer is read as root-fixed terminal-uniform \(L^1\) full-packet service
-storage whose service density dominates the endpoint measure. Terminal no-atom
-follows from that storage; it is not a separate final wall.
+constructed; they do not construct it. The latest tower-feedback source-line
+audit pushes this same object down to three noncircular original-data grants:
+stopped Duhamel-Hodge propagator and bounded parent detector estimates,
+zero-baseline endpoint/source admission without borrowing the storage being
+proved, and strict no-self-feeding full-exchange storage. On the terminal
+fixed-core branch the same producer is read as root-fixed terminal-uniform
+\(L^1\) full-packet service storage whose service density dominates the endpoint
+measure. Terminal no-atom follows from that storage; it is not a separate final
+wall.
 
 Physically, the remaining proof must show that a thin signed-height record cannot
 keep exporting future-positive pressure/strain service through smaller and

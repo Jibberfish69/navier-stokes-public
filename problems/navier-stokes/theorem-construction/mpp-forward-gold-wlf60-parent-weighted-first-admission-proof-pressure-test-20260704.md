@@ -413,7 +413,13 @@ line `(WLF.60)' / `(WLF.36)': construct the parent active density or native
 reserve from the original pressure-viscosity-incompressibility-velocity packet
 before child positive clipping.  Selected-density entropy, Hilbert/BMO, reverse
 Holder, active-capacity Bellman, and terminal no-atom are consumer languages
-after that parent carrier exists; they are not independent producers of it.
+after that parent carrier exists; they are not independent producers of it.  The
+latest tower-feedback audit pushes this source line one level lower: the
+conditional Duhamel-Hodge/early-admission/retained-heat-thickness chain gives
+terminal \(L^1\) only after three noncircular original-data grants are proved:
+stopped Duhamel-Hodge propagator plus bounded parent detector estimates,
+zero-baseline endpoint/source admission without borrowing the storage being
+proved, and strict no-self-feeding full-exchange storage.
 
 On the terminal fixed-core branch, probe admission/update and the material
 metric identity are support inputs. The no-jump clause is paid only by
@@ -480,7 +486,10 @@ consumer `(WPT.19)'. In the heat-lag/fresh-linear face this producer is
 `(WLF.60)' / `(WLF.36)', the parent-weighted first-admission pulse measure or
 fresh generator/root-reserve packing before child clipping; the terminal
 fixed-core survivor reduces to root-fixed terminal-uniform service storage
-`(WPT.22)'.
+`(WPT.22)'. The current source-line pushdown is the audited
+Duhamel-Hodge/early-admission/no-self-feeding storage package above; same-parent
+detectors, Bessel square, entropy/BMO, retained heat decay, and endpoint
+admission remain support until they prove those grants from original data.
 
 Support: Bessel square, route ownership, no-recount, local native admission,
 Schur storage after admission, probe admission/update, terminal no-replay
