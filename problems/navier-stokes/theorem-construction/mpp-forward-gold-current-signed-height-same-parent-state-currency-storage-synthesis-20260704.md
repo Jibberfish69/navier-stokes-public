@@ -679,3 +679,63 @@ noncircular target.  The pre-map address theorem may use face trace ownership;
 it may not use same-face return as an input.  Same-face return becomes a
 consequence after the primitive signed-channel events of both signs are already
 owned by the same stopped face trace.
+
+## 13. Admission side after the trace split
+
+After `(SCSS.32)', the word "admission" has a precise physical burden.  The
+same primitive signed event must first be a material event of the original
+Navier-Stokes packet, then it must sit in a parent-known stopped carrier, and
+only then can a selector-owned primitive PLS channel read it.
+
+The stopped-carrier half is:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveSignedChannelMaterialCarrierSupport.A}\\
+&+\texttt{PrimitiveSignedChannelPreReadoutStoppingAtlas.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveSignedChannelStoppedCarrierCoverageOrPaidEscape.A}.
+\tag{SCSS.35}
+\]
+
+The support side still has an open lower edge.  Same-packet Hodge identity,
+material-service accounting, and a fixed-chart raw formula show the right local
+channel, but they do not yet cover all primitive events of both signs before
+readout.  The current lower producer is a pre-readout material channelization
+partition:
+
+\[
+\texttt{PrimitiveSignedChannelPreReadoutMaterialChannelizationPartition.A}
+\Longrightarrow
+\texttt{PrimitiveSignedChannelMaterialCarrierSupport.A},
+\tag{SCSS.36}
+\]
+
+with the raw atlas/finite-overlap boundary still open underneath.  Physically,
+this says that the signed channel must be represented directly on original
+material carriers before stopped selection; a later retained positive edge or a
+formula inside an already retained chamber is not all-event support.
+
+The selector half is:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedCarrierFiniteCommonSelectorMenu.A}\\
+&+\texttt{PrimitiveStoppedCarrierSelectorChannelLockOrPaidReselection.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedCarrierCommonSelectorOwnershipOrPaidReselection.A}.
+\tag{SCSS.37}
+\]
+
+This says the stopped carrier has a finite parent-known selector menu and one
+active selector whose sign, polarity, and primitive-channel alphabet are fixed
+before PLS readout.  Retained-edge selector capture, finite stopped-score
+support, and same-packet channel compatibility remain support because they act
+after an edge, selector chart, or stopped chamber is already captured.
+
+Thus the admission side is also a strict reduction and checked obstruction, not
+a proof.  The physical map branch now has three noncircular entrance tests:
+all-event material carrier support, a stopped carrier atlas, and carrier-level
+common-selector ownership before primitive readout.
