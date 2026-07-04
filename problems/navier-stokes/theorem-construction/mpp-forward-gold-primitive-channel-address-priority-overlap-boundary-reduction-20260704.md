@@ -54,7 +54,12 @@ counting, or why the second claim is an actual paid boundary of the same
 packet.
 
 The priority law is therefore not a new physical source. The physical source is
-the boundary between two address claims.
+the boundary between two address claims. In physical terms, the overlap asks:
+while following one same-fluid event, did the proof change which stopped
+selector owns it, which chart measures it, which detector/channel reads its
+stress, or which face/sign of the record is being charged? If none of those
+changed, the two labels are the same physical address on the overlap. If one
+changed, that change is the event being paid before it is counted.
 
 ## 2. Formal priority is cheap after boundary payment
 
@@ -117,6 +122,14 @@ dB^{sel}_{ab}
 +dLegal+dStop+dExit .
 \tag{POB.6}
 \]
+
+Here the four terms are not bookkeeping names. The selector term is the cost of
+changing which stopped material chamber owns the event. The chart term is the
+cost of measuring the same transported packet in a different local frame or
+projector. The detector/channel term is the cost of rotating which signed stress
+readout is being used for that packet. The face term is the cost of changing
+which sign, local-thickness face, or polarity return is being charged. These
+are physical motions of the same event before they are measures in the proof.
 
 These are the same physical coordinates as the address-change variation split.
 The difference is timing. Here they are read before the event map is built, on
