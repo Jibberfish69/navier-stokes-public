@@ -1529,7 +1529,43 @@ C_N(u_0)\mathcal R(P)
 Current sources prove same-parent detection, no-recount, raw Bessel admission,
 pushforward, and local first-admission native atoms.  The half-tail model shows
 that those support facts do not imply the selected-critical parent-weighted root
-upper bound.  The smaller noncircular theorem is stopped potential-average
-control or positive second-order scale exactness / fresh same-carrier identity
-plus selected overrun payment on the parent-weighted pulse measure.  This is a
-strict reduction and a checked obstruction, not Gold closure.
+upper bound.  The smaller noncircular theorem is one same selected native carrier
+for the lower fresh source and the upper selected positive queue, with selected
+overrun paid on that carrier.  Stopped potential-average control and positive
+second-order scale exactness are analytic faces of that same carrier key, not
+independent sibling exits.  This is a strict reduction and a checked
+obstruction, not Gold closure.
+
+## 24. WLF.60 has one carrier key
+
+The early row now has a single physical proof burden.  Before selected clipping,
+the original Navier-Stokes parent history must supply one carrier key:
+
+\[
+\begin{aligned}
+C_P
+=(&\text{pre-readout primitive owner},\\
+&\text{lower fresh source},\\
+&\text{upper selected positive queue},\\
+&\text{selected overrun account}).
+\end{aligned}
+\tag{SCSS.65}
+\]
+
+On that key, the strict lower reading is:
+
+\[
+\begin{aligned}
+&\text{primitive pre-readout event ownership}\\
+&+\text{lower/upper same-selected-carrier identity}\\
+&+\text{selected overrun payment}\\
+&\Longrightarrow
+\text{WLF.60}.
+\end{aligned}
+\tag{SCSS.66}
+\]
+
+Raw same-packet custody, common-selector ownership, Bessel square mass,
+no-recount, and stopped potential averages on the wrong carrier remain support.
+They become proof only after the lower fresh source and upper positive queue are
+identified on \(C_P\) and the selected overrun is paid there.

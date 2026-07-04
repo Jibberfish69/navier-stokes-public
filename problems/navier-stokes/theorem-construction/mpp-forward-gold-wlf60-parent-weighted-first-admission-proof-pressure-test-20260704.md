@@ -15,10 +15,12 @@ role: >-
   The same-parent detector, first-admission update, no-recount pushforward,
   local first-admission native atom, and raw Bessel admission measure are
   installed support. They do not prove the selected-critical parent-weighted
-  first-admission root upper bound. The direct proof reduces to a finite
-  parent-weighted pulse measure with strict viscosity feedback, equivalently
-  stopped potential-average control / positive second-order scale exactness /
-  fresh same-carrier identity plus selected overrun payment.
+  first-admission root upper bound. The direct proof reduces to one
+  parent-weighted pulse measure with strict viscosity feedback: a same selected
+  native carrier for the lower fresh source and upper selected positive queue,
+  with the overrun paid on that carrier. Stopped potential-average control and
+  positive second-order scale exactness are analytic faces of that same carrier
+  key, not independent sibling exits.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-fresh-linear-service-half-tail-obstruction-20260629.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-storage-matrix-early-branch-obstruction-20260704.md
@@ -29,8 +31,8 @@ completion_truth: >-
   checked obstruction to proving WLF.60 from raw same-parent Bessel mass,
   no-recount, or local first-admission alone, and isolates the next genuinely
   smaller theorem: parent-weighted first-admission pulse measure finiteness
-  with strict viscosity feedback, equivalently stopped potential-average /
-  positive second-order scale exactness.
+  with strict viscosity feedback on the same selected native carrier that
+  carries the lower fresh source and the upper selected positive queue.
 ---
 
 # WLF.60 parent-weighted first-admission proof pressure test
@@ -197,8 +199,8 @@ C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P).
 \tag{WPT.10}
 \]
 
-The direct proof of `(WPT.10)' reduces to either stopped potential-average
-control,
+The direct proof of `(WPT.10)' reduces to stopped potential-average control on
+the same selected native carrier,
 
 \[
 \int_0^{T_*}
@@ -208,7 +210,7 @@ C_N(u_0)\mathcal R(P)+R_{\rm legal}(P)+Stop(P),
 \tag{WPT.11}
 \]
 
-or a positive second-order scale exactness formula,
+or a positive second-order scale exactness formula on that same carrier,
 
 \[
 \widetilde Z^{fresh}
@@ -221,11 +223,22 @@ or a positive second-order scale exactness formula,
 with the affine-kernel residual paid by original-history legal, stop, or
 selected overrun payment on the actual positive native carrier.
 
-Equivalently: prove fresh same-carrier identity plus selected overrun payment
-for the parent-weighted pulse measure. That is genuinely smaller than Gold
-closure because `(WPT.4)' already pushes it to the selected heat-lag bill, and
-the active-capacity notes already consume that bill into the early branch of
-the coupled storage matrix.
+These are not three independent exits. The common proof key is:
+
+\[
+\begin{aligned}
+&\text{same selected native carrier for the lower fresh source and upper
+selected positive queue}\\
+&+\text{selected overrun payment on that carrier}
+\Longrightarrow
+\text{parent-weighted pulse measure finiteness}.
+\end{aligned}
+\tag{WPT.13}
+\]
+
+That is genuinely smaller than Gold closure because `(WPT.4)' already pushes
+it to the selected heat-lag bill, and the active-capacity notes already consume
+that bill into the early branch of the coupled storage matrix.
 
 ## 6. Current classification
 
@@ -238,9 +251,10 @@ finite raw square/Bessel mass and infinite selected weighted linear service.
 Failed direct proof: the standard critical estimate closes only the small
 \(\dot H^{1/2}\) packet case and gives no arbitrary-data strict margin.
 
-Strict reduction: WLF.60 reduces to `(WPT.10)', equivalently stopped
-potential-average control `(WPT.11)' or positive second-order scale exactness /
-fresh same-carrier identity plus selected overrun payment `(WPT.12)'.
+Strict reduction: WLF.60 reduces to `(WPT.10)'. The stopped
+potential-average face `(WPT.11)' and positive second-order exactness face
+`(WPT.12)' count only when they are proved on the same selected native carrier
+identified in `(WPT.13)' with selected overrun payment on that carrier.
 
 Support: Bessel square, route ownership, no-recount, local native admission,
 and pushforward are support until the parent-weighted pulse measure itself is

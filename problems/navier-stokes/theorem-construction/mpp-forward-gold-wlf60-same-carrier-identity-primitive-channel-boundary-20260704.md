@@ -254,8 +254,9 @@ The physical target under WLF.60 is now:
 \tag{WSC.15}
 \]
 
-Equivalently, prove the stopped potential-average estimate `(WSC.3)' or the
-positive second-order scale exactness formula `(WSC.4)' on the same selected
-carrier.  The primitive-channel story is the physical roof underneath the word
-"same"; it is not the selected-carrier identity or the overrun payment by
-itself.
+Equivalently, the stopped potential-average estimate `(WSC.3)' and positive
+second-order scale exactness formula `(WSC.4)' are useful only on that same
+selected carrier.  They are analytic faces of `(WSC.15)', not sibling exits
+around the same-carrier identity.  The primitive-channel story is the physical
+roof underneath the word "same"; it is not the selected-carrier identity or the
+overrun payment by itself.
