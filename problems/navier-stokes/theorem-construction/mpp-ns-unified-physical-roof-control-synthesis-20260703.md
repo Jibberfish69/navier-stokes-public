@@ -676,6 +676,15 @@ plus legal/stop/error terms. The remaining physical producer is the construction
 and original-data bound of that face-local signed channel before selected
 readout; global negative return, scalar BV, and terminal anti-atom language stay
 support until they localize to the same admitted positive face.
+The record-face local signed-channel construction boundary is now installed in
+`mpp-forward-gold-record-face-local-signed-channel-construction-boundary-20260704.md`.
+It pins that physical producer to the same retained NS packet: pressure,
+transport/frame, viscosity, incompressibility, material-collar motion, detector
+branch, and parent face address must generate a signed measure on each admitted
+positive record face before aggregation. Scalar BV, global negative return,
+terminal anti-atom reserve, and post-readout LP/Bony coordinates can still pay
+from a different face, so they remain support or checked obstruction until they
+produce `RecordFaceLocalSignedChannelConstruction.A`.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
