@@ -220,6 +220,12 @@ live_route_table:
     TerminalZenoVisibleReadoutPayment.A: unweighted same-carrier payment of the
     visible terminal high-factor/source-square/finite-rung/no-waste readout, or
     an installed legal/endpoint/profile/CM consumer.
+    This terminal-Zeno label is an endpoint reduction, not the live producer:
+    terminal visibility is installed, while the unweighted same-carrier payment
+    remains open. The forward Gold producer is the unweighted same-carrier
+    visible-readout reserve on the actual selected terminal carrier, currently
+    reduced to FreshPotentialAverageKillAndPositiveTransfer.A or
+    FreshPositiveStressSecondOrderExactness.A.
     Repeated-core record/return
     and shrinking-core reset are faces of OriginalHistoryRecordResetRootPayment.A,
     the selected-critical face of
