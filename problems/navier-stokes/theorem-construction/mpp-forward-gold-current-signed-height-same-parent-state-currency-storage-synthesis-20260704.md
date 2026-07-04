@@ -29,6 +29,9 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-physical-payment-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-nozeno-selected-tree-dichotomy-equivalence-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-repeated-core-nonreuse-storage-direct-test-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-repeated-core-record-return-balance-law-sharpener-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-channel-selected-face-negative-return-budget-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-primitive-face-address-process-unification-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-shrinking-core-escape-capacity-lower-bound-direct-test-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-free-material-graph-driver-direct-attack-20260627.md
 completion_truth: >-
@@ -413,3 +416,63 @@ only reproduces the half-tail.  The branch split is useful because it is a real
 strict reduction: after the record edge has been admitted to the parent carrier,
 any surviving failure of strict depletion must either be infinite reuse of one
 same-history core or scale-invariant escape through shrinking cores.
+
+## 10. Repeated-core record/return physical pressure test
+
+The repeated-core branch is not a request for abstract finite variation.  It is
+one stopped material core being read many times by the same Navier-Stokes
+history.  Transport carries the core, the pressure-Hodge projector chooses the
+active direction, viscosity and strain change the record, incompressibility
+keeps the deformation trace-free, and the selected signed channel keeps trying
+to read positive critical-scale action from that same carrier.
+
+On one stopped primitive record \(\Psi\), positive reuse has the scalar BV
+identity
+
+\[
+V_+(\Psi;I)
+=
+\Psi(t_+)-\Psi(t_-)+V_-(\Psi;I).
+\tag{SCSS.22}
+\]
+
+Thus repeated positive selected action on one core has only two physical
+payments: record growth of the same primitive channel, or negative return of
+that same channel.  Bounded record height is not enough; a bounded record can
+oscillate forever while its positive and negative variation both diverge.
+
+The repeated-core branch is therefore sharpened from
+
+\[
+\texttt{RepeatedCorePositiveVariationRootBound.A}
+\tag{SCSS.23}
+\]
+
+to the following same-packet producer package:
+
+\[
+\begin{aligned}
+&\texttt{PredictableRootWeightMartingaleRealization.A}\\
+&+\texttt{SignedStoppedPLSEvolutionIdentity.A}\\
+&+\texttt{StoppedReturnBVFiniteFromOriginalData.A}\\
+&+\texttt{StoppedPrimitiveFaceAddressProcess.A}
+\end{aligned}
+\Longrightarrow
+\texttt{RepeatedCorePositiveVariationRootBound.A}.
+\tag{SCSS.24}
+\]
+
+The first three rows say the same stopped material core has parent-known root
+geometry, a signed primitive evolution law, and finite original-data negative
+return.  The fourth row is the ownership clause: the positive face and the
+negative return must be fibers of one parent-announced stopped address process.
+Without that process, a proof can have lawful positive selected faces and lawful
+negative return that live on different face addresses, or can spend one physical
+return event on many future selected faces.
+
+This is a strict reduction, not closure.  It exposes the physical wall inside
+the reused-core branch: prove from original pressure-viscosity-
+incompressibility-velocity history that the same retained primitive channel has
+a finite record/return budget and a stopped face-address process before selected
+readout.  Until then, repeated-core storage, scalar BV, chamber-level return,
+finite-overlap witnesses, and laminar ancestry taxes remain support.
