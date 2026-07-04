@@ -42,6 +42,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-nonselector-coordinate-lift-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-face-polarity-lift-proof-pass-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-face-local-signed-channel-construction-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-trace-address-process-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-event-common-selector-chamber-admission-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-stopped-carrier-coverage-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-material-carrier-support-reduction-20260704.md
@@ -648,17 +649,36 @@ chart/projector, detector/channel, and pre-readout face trace.  It does not yet
 claim that lost positive sign has been paid.  It only prevents the same event
 from being unowned or multiply owned before the return account is opened.
 
-After `(SCSS.32)' supplies the trace-address skeleton, the same-face return
-budget is a downstream payment:
+The map alone is not enough.  A primitive event can move between trace-address
+fibers before return is counted.  The address-change input must therefore be
+pre-return as well:
 
 \[
 \begin{aligned}
 &\texttt{PrimitiveChannelPreReturnEventAddressMap.A}\\
+&+\texttt{PrimitiveChannelPreReturnAddressChangeCharge.A}
+\end{aligned}
+\Longrightarrow
+\texttt{StoppedPrimitivePreReturnFaceTraceAddressProcess.A}.
+\tag{SCSS.32a}
+\]
+
+The pre-return address-change charge may pay selector/chamber change,
+chart/projector transfer, detector/channel rotation, face-trace detachment,
+local thickness loss, legal loss, stop, or exit.  It may not use the same-face
+negative-return budget, because that budget is the next consequence.
+
+After `(SCSS.32a)' supplies the trace-address process, the same-face return
+budget is a downstream payment:
+
+\[
+\begin{aligned}
+&\texttt{StoppedPrimitivePreReturnFaceTraceAddressProcess.A}\\
 &+\texttt{StoppedReturnBVFiniteFromOriginalData.A}
 \end{aligned}
 \Longrightarrow
 \texttt{PrimitiveStoppedChamberSameFaceNegativeReturnBudget.A}.
-\tag{SCSS.33}
+\tag{SCSS.32b}
 \]
 
 Then the full Gold-facing face/polarity lift is recovered by the already
@@ -671,14 +691,15 @@ installed conditional proof:
 \end{aligned}
 \Longrightarrow
 \texttt{PrimitiveStoppedChamberFacePolarityLiftOrPaidReturn.A}.
-\tag{SCSS.34}
+\tag{SCSS.33}
 \]
 
 This is not a new closure claim.  It is a type correction and a stricter
 noncircular target.  The pre-map address theorem may use face trace ownership;
-it may not use same-face return as an input.  Same-face return becomes a
+the pre-return address-change theorem may use face-trace boundary payment.  They
+may not use same-face return as an input.  Same-face return becomes a
 consequence after the primitive signed-channel events of both signs are already
-owned by the same stopped face trace.
+owned by the same stopped face trace and its pre-return address changes.
 
 ## 13. Admission side after the trace split
 
