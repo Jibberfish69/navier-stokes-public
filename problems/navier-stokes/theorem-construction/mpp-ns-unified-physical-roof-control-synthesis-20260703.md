@@ -441,6 +441,10 @@ bridge. That admission bridge is now lower: existing Hodge/material-service
 sources give same-packet pressure/strain identity, while the open lower object is
 `RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A`, a coupled stopped
 selector-cone admission that supplies both polar sign and pre-readout timing.
+That coupled object now splits into `RecordMenuPressureActiveOrSilentService.A`,
+`RetainedRecordEdgeCommonSelectorRefinementNoLoss.A`, and
+`RetainedRecordEdgePrimitiveChannelCompatibility.A`; stopped selector cone
+aperture is consumed support after common-selector refinement.
 After that bridge, the record/return package
 `StoppedPrimitivePLSSignedScalePotentialLift.A',
 `StoppedPotentialRecordAverageBound.A', and
