@@ -251,12 +251,12 @@ terminal super-capacitary active-potential survivor: after raw pressure-Hodge
 atoms and retained opposite-lobe reserve are installed, the selected critical
 meter prices the paired lobes unequally.  The coordinate's nonduplicate source
 is the active full-exchange ledger
-`LocalActiveTransitStorage.A + FullExchangeNoSelfFeedingStorage.A`; 
+`LocalActiveTransitStorage.A + FullExchangeNoSelfFeedingStorage.A`;
 `BeforeClippingActiveDensityComparison.A` is the opened split consumed by that
 ledger.  WLF.60 is the early-branch / heat-lag first-admission coordinate of
 that same signed-height payment.
 
-The selected full-packet branch is absorbed below that current bottom.  The
+The selected full-packet branch is absorbed inside that coordinate.  The
 proved part is order-locked scalarization before positive-part extraction.  The
 false shortcut is direct channel-first native-source identification: a smooth
 affine incompressible core can have a positive convection lobe exactly canceled
