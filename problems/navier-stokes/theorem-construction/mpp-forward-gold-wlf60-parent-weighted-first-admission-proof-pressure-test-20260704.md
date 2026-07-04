@@ -47,11 +47,12 @@ completion_truth: >-
   persistent quotient may be paid only by original-history potential-average
   control or positive second-order scale exactness on that same carrier. The
   affine Schur/current audits do not add a sibling wall: Schur pays retained
-  work only after parent-current admission, while the first-entry quotient still
-  needs predictable affine-transition square-packing before positive readout; if
-  the branch reaches terminal fixed-core concentration, the terminal no-jump
-  clause reduces to root-fixed terminal-uniform L1 full-packet service storage
-  from the original coupled packet.
+  work only after parent-current admission, while the affine martingale split is
+  a consumer unless predictable root geometry and bounded-below service storage
+  are produced from original history before positive readout. If the branch
+  reaches terminal fixed-core concentration, the terminal no-jump clause reduces
+  to root-fixed terminal-uniform L1 full-packet service storage from the original
+  coupled packet.
 ---
 
 # WLF.60 parent-weighted first-admission proof pressure test
@@ -354,12 +355,17 @@ same-carrier production is Schur current work. Thus "repeated perpendicular
 payment" is a bookkeeping alias.
 
 The remaining first-entry theorem is still before readout. In affine-transition
-coordinates, `(ODP.160)' is smaller only after a predictable active weight and a
-lifted martingale/Bessel split are built for the stopped transition pile:
+coordinates, `(ODP.160)' is not paid by naming a martingale theorem. The
+martingale/Bessel package is lawful only after the predictable active weight,
+parent-fixed connection, and service reservoirs have been produced from original
+same-material history:
 
 \[
 \begin{aligned}
-&\texttt{PredictableActiveWeightTransitionCarleson.A}\\
+&\texttt{BoundedBelowSameMaterialServiceStorage.A}\\
+&/\texttt{StoppedPredictableRootGeometryCompensator.A}\\
+&\Longrightarrow
+\texttt{PredictableActiveWeightTransitionCarleson.A}\\
 &+\texttt{StoppedAffineTransitionLiftedMartingaleDifference.A}\\
 &+\texttt{StoppedLiftedTransitionBesselCarleson.A}
 \Longrightarrow
@@ -371,6 +377,9 @@ lifted martingale/Bessel split are built for the stopped transition pile:
 The inherited predictable part then routes to record/return, and the lifted
 innovation routes to reset. Without `(WPT.19)', record/return/reset are only
 currencies; they do not yet square-pack the persistent affine quotient.
+Without the service-storage / root-geometry input on the first two lines,
+`(WPT.19)' is circular because the active weight or parent geometry has been
+chosen from the selected future tail.
 
 On the terminal fixed-core branch, probe admission/update and the material
 metric identity are support inputs. The no-jump clause is paid only by
@@ -392,11 +401,12 @@ new Gold bottom. It is the terminal fixed-core construction that would remove
 the no-atom/no-jump survivor if the same affine carrier reaches endpoint
 concentration.
 
-Thus the Schur/current audit sharpens the same early-row payment: prove
-predictable affine-transition square-packing on the order-locked full-packet
-carrier, or in the terminal branch construct root-fixed terminal-uniform
-service storage for that same carrier. Both are faces of the same original
-history payment before selected positive readout.
+Thus the Schur/current audit sharpens the same early-row payment: construct the
+bounded-below same-material service storage / stopped root geometry that makes
+predictable affine-transition square-packing noncircular on the order-locked
+full-packet carrier, or in the terminal branch construct root-fixed
+terminal-uniform service storage for that same carrier. Both are faces of the
+same original-history payment before selected positive readout.
 
 ## 8. Current classification
 
@@ -421,9 +431,10 @@ unpaid producer is the persistent affine quotient `(ODP.160)' / `(ODP.125)'.
 In the signed-height package, that quotient is the heat-lag/AQK coordinate of
 the \(\Gamma_{\rm pre}^{root}\) face; record/reset terminology is proof-bearing
 only when it constructs that original-history payment on the same carrier. The
-current sharpened proof method for `(ODP.160)' is the predictable affine-transition
-martingale/Bessel package `(WPT.19)'; the terminal fixed-core survivor reduces to
-root-fixed terminal-uniform service storage `(WPT.20)'.
+current sharpened proof method for `(ODP.160)' is the service-storage /
+root-geometry producer feeding the predictable affine-transition martingale/Bessel
+consumer `(WPT.19)'; the terminal fixed-core survivor reduces to root-fixed
+terminal-uniform service storage `(WPT.20)'.
 
 Support: Bessel square, route ownership, no-recount, local native admission,
 Schur storage after admission, probe admission/update, terminal no-replay
