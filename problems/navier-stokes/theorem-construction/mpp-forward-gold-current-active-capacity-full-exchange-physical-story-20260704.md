@@ -24,6 +24,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-parent-source-payment-package-unification-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-capacity-signed-height-record-admission-boundary-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-active-potential-terminal-survivor-dichotomy-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-exchange-no-self-feeding-physical-lyapunov-pressure-test-20260704.md
 completion_truth: >-
   This note proves no new estimate. It records a checked strict reduction:
   raw same-parent pressure-Hodge atoms and retained opposite-lobe reserve are
@@ -174,6 +175,15 @@ Equivalently, the noncircular lower route is
 The open producer is the first two-input line as one same-parent storage
 construction before clipping. A downstream terminal-killing estimate is a
 consumer until that clock and storage are supplied.
+
+The direct full-exchange pressure test does not close that producer. It verifies
+that raw same-parent pressure-Hodge atom attachment and retained opposite-lobe
+reserve are already installed, while the critical selected surplus is created
+only after \(W_P^{crit}\) weights the paired lobes. Pressure supplies the pair,
+viscosity supplies capacity, but the weighted surplus still needs a
+bounded-below same-parent Lyapunov drop with strict subunit feedback. Proving
+that drop from preallocated critical-source storage and then proving the
+critical source from full exchange is the checked circular route.
 
 ## 5. What is closed and what is not
 
