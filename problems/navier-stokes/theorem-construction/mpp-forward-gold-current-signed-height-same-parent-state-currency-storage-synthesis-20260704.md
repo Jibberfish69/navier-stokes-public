@@ -13,9 +13,10 @@ target_object:
 role: >-
   States the current pure Gold object under one physical roof. The surviving
   theorem is not clipping, freestanding active capacity, detached root payment,
-  or a record ledger. It is the same-parent pre-readout construction of active
-  state, selected-critical root currency, and record-admitted storage for the
-  signed-height record event.
+  or a record ledger. It is the same-parent pre-readout owner-and-charge
+  construction for the signed-height record event: active-state ownership,
+  selected-critical root currency, and record-admitted storage are three
+  projections of that one construction.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-root-payment-physical-spine-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-state-root-payment-same-parent-projection-synthesis-20260704.md
@@ -1076,3 +1077,72 @@ same-face return budget are not sibling frontiers. They are local projections
 and noncircular order checks for the same parent state/currency/storage package.
 The remaining theorem is to construct that package from the original
 pressure-viscosity-incompressibility-velocity history of the same packet.
+
+## 15. Owner-and-charge formulation of the same package
+
+The three-row package can now be read as one theorem-facing test.
+
+Before the record is selected, each primitive signed-channel event that can
+feed the record must have one parent owner and one charge account.  The owner is
+the parent active state.  The selected-critical weight carried by that owner is
+the root currency.  The local inequality that spends the charge on the same
+record face is the record-admitted storage row.
+
+For a finite family of signed-height record upcrossings \([a_j,b_j]\), let
+\(\mu_j^+\) be the positive primitive work measure on the events actually used
+by the \(j\)-th record.  The single lower test is to construct, before selected
+readout, a parent-known owner map \(\alpha\) and an original-history charge
+measure \(\Gamma\) such that every selected positive event is assigned to one
+active parent face and
+
+\[
+\sum_j\lambda_j^{-1}\mu_j^+(A_j)
+\le
+\Gamma\!\left(\bigcup_j \alpha(A_j)\right)
++Legal+Stop+Exit
+\tag{SCSS.44}
+\]
+
+for every finite set of record-positive event pieces \(A_j\).  The same charge
+may not be spent twice: if an event changes selector, chart/projector,
+detector/channel, or face trace before return is counted, that change must be
+paid inside \(\Gamma\), stopped, made legal, or exited before the event is used.
+
+This is a stricter and simpler target than the route leaves.  It absorbs:
+
+\[
+\begin{array}{c}
+\text{raw material channelization}\\
+\text{raw active-state first address}\\
+\text{stopped common-selector chamber admission}\\
+\text{pre-return face-address ownership}\\
+\text{same-face return budget}
+\end{array}
+\quad
+\text{as local construction or no-duplication tests for }(\text{SCSS.44}).
+\tag{SCSS.45}
+\]
+
+It also explains why freestanding support stays weak.  A fixed-chart formula can
+identify the primitive channel without proving \(\alpha\).  A root-payment
+estimate can bound a selected transition without proving that the transition is
+the record-positive event.  A return/BV estimate can be finite while paying the
+wrong face or paying the same negative event several times.  A storage estimate
+can be true on a parent carrier while the record work has detached from that
+carrier.
+
+Thus the current reduced Gold burden is:
+
+\[
+\text{construct }(\alpha,\Gamma)\text{ from the original Navier-Stokes packet}
+\Longrightarrow
+\text{same-parent state/currency/storage package}
+\Longrightarrow
+\texttt{SignedCriticalHeightSignPersistenceOrPeakBound.A}.
+\tag{SCSS.46}
+\]
+
+This section installs no estimate.  It is a strict reduction and a candidate
+veto: a future move has Gold force only if it constructs the owner map, proves
+the original-history charge bound, or gives a checked obstruction to one of
+those two jobs for the same signed-height record event.
