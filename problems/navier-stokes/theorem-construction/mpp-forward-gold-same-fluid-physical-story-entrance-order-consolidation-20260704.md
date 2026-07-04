@@ -634,8 +634,46 @@ N_{L+1}\le \theta N_L+B_L,
 \tag{SFP.15b}
 \]
 
+The source-line audit sharpens `(SFP.15a)'--`(SFP.15b)' without changing the
+physical object.  The root-fixed affine/full-packet no-Zeno language is now the
+record-admitted full-exchange storage face:
+
+\[
+\begin{aligned}
+&\texttt{FullExchangeCriticalDepletionStorage.A}\\
+&\quad\text{with the signed-height record edge admitted in }d\Xi_P^{FE}\\
+&\quad\text{and strict no-self-feeding parent storage}
+\end{aligned}
+\Longrightarrow
+\texttt{SameParentCriticalDepletionNoZeno.A}
+\Longrightarrow
+\Gamma_{\rm pre}^{act/root}.
+\tag{SFP.15c}
+\]
+
+Equivalently, critical source storage, finite capacitary excess, parent
+active-potential capacity, and active-transit/full-exchange storage are not four
+separate reserve theorems here.  They are coordinate readings of one
+record-admitted same-parent coupled inequality with feedback spectral radius
+below one:
+
+\[
+\begin{gathered}
+\texttt{critical source storage}
+\equiv
+\texttt{finite capacitary excess}
+\equiv
+\texttt{parent active-potential capacity}
+\equiv
+\texttt{active-transit/full-exchange storage}\\
+\text{proved as one same-parent coupled inequality with feedback spectral radius }<1.
+\end{gathered}
+\tag{SFP.15d}
+\]
+
 The good-lambda summation is a consumer after `(SFP.15b)' is proved on the same
-record-admitted carrier.  In PDE coordinates, every retained high-ratio
+record-admitted carrier, and `(SFP.15c)'--`(SFP.15d)' name the current smaller
+producer for that carrier.  In PDE coordinates, every retained high-ratio
 positive visit of the same pressure-viscosity-incompressibility packet must
 decrease a parent-fixed signed score, spend a critical shrinking-core reset or
 first endpoint seed charge, or enter terminal thickness, legal, stop, or exit
