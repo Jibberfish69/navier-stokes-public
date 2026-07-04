@@ -28,6 +28,11 @@ source_surfaces:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-testing-defect-ledger-charge-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-testing-defect-to-fresh-weighted-paired-carrier-correction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-half-tail-profile-liouville-boundary-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-full-action-scale-native-depletion-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-birth-charge-packing-obstruction-test-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-birth-packing-selected-scale-atom-test-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-admitted-scale-native-depletion-bridge-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admitted-critical-no-arbitrage-compactness-reduction-20260704.md
 completion_truth: partial-not-mpp-closed
 ---
 
@@ -320,3 +325,46 @@ first scale-native births of the same original packet: a Zeno train with unit
 selected births and summable raw/collar/legal/stop cost must either deplete a
 bounded parent critical storage with strict margin or fail to remain in the same
 parent-known carrier.
+
+## 8. Signed-height landing clause
+
+This selected-generator payment does not become Gold closure merely because it
+controls a freestanding selected birth count.  Under the signed-height restart,
+the record rise is the physical event:
+
+\[
+H(a)=\lambda,\qquad H(b)=2\lambda,\qquad
+\int_a^bP(t)\,dt
+=H(b)-H(a)+\nu\int_a^bD(t)\,dt
+\ge\lambda .
+\]
+
+The same signed work must be admitted into the parent critical carrier before
+the depletion/no-Zeno theorem can pay it.  A carrier can be finite and still miss
+the record if the record work lives on a coordinate face where the carrier has
+zero mass.  That is the custody gap the signed-height bridge adds.
+
+Therefore the Gold-facing bottom after this physical pass is:
+
+\[
+\texttt{RecordAdmittedActiveFullExchangeCoupledStorage.A}
+\Longrightarrow
+\text{record-admitted }\texttt{SameParentCriticalDepletionNoZeno.A}
+\Longrightarrow
+\texttt{SignedCriticalHeightSignPersistenceOrPeakBound.A}.
+\]
+
+Equivalently, the proof has to build one parent object with three rows at once:
+
+1. the signed record work enters the parent critical/full-exchange carrier
+   before readout;
+2. first scale-native births of that same record edge lower into the carrier
+   with selected-scale weight;
+3. the carrier depletes with strict no-self-feeding margin, or a terminal
+   no-Zeno/thickness branch pays the same event.
+
+This is the physical simplification.  Direct positive-transfer estimates,
+dyadic no-free-upcascade, native-birth charge maps, stopped accretive testing,
+and compactness/no-arbitrage are all lawful coordinates.  The remaining Gold
+proof object is the same parent packet, same signed record work, same critical
+carrier, and same strict depletion inequality.
