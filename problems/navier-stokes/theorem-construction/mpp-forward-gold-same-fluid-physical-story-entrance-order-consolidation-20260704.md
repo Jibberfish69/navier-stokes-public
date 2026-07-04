@@ -423,6 +423,26 @@ selected critical meter clips child readouts:
 \tag{SFP.12b3}
 \]
 
+After the WLF/ODP merge, this means the address/root split is not two selected
+critical source walls.  The local address part gives the primitive event an
+owner, address, chart, detector, face trace, and first-boundary account; the
+off-face selected-critical part and the root-payment part consume the same
+active/root payment on \(C_P\):
+
+\[
+\Gamma_{\rm pre}
+=
+\Gamma_{\rm pre}^{addr,loc}
++
+\Gamma_{\rm pre}^{act/root}.
+\tag{SFP.12b4}
+\]
+
+\(\Gamma_{\rm pre}^{addr,loc}\) is the local custody and first-boundary charge.
+\(\Gamma_{\rm pre}^{act/root}\) is the shared selected-critical active/root
+payment tested by the simultaneous matrix and by the WLF.60 / ODP.91 early-row
+reading on the same order-locked full-packet carrier.
+
 Thus a local custody proof counts only as local support until this charge is
 finite for the same key.  A root/record payment proof counts only where it pays
 the active/root face for that key.  The reduced Gold-bearing package is one
